@@ -1,105 +1,92 @@
-# Package: chem20-s5 — The lithium-ion cell
+# Package: chem20-s5 — Researching chemistry
 
-- **loId:** `chem20-s5` · **chapterId:** `chem20` · **syllabusRef:** 4.3.5
-- **Syllabus:** 4.3.5 "describe how a simple lithium ion cell works and discuss its
-  life-cycle". Learn about: "a lithium ion cell: when discharging acts as a galvanic cell and
-  when recharging acts as an electrolytic cell; the lithium ion cell life-cycle which includes
-  mining, usage and applications, disposal and recycling". Normal type.
-- **Prepared by:** a higher model, 2026-10-30. Structure, discharge and recharge (with
-  simplified electrode equations), why lithium, then the life-cycle stage by stage. Galvanic and
-  electrolytic cells are explained in "The galvanic cell" and "The electrolytic cell";
-  secondary cells in "Primary and secondary cells"; the electrochemical series in "The
-  electrochemical series and displacement"; graphite's structure in "Allotropes of carbon".
-  Point to them; don't re-teach them. Rechargeable batteries as a research topic are in
-  "Electrochemistry and sustainability".
+- **loId:** `chem20-s5` · **chapterId:** `chem20` · **syllabusRef:** 4.3.8
+
+- **Syllabus:** 4.3.8 "research an area of the course, through one of the cross-cutting themes
+  (health, sustainability, and technology)" (RI: Research-based Investigation). Learn about:
+  "the practice of chemistry as a collaborative, human endeavour, and how the social and global
+  importance of chemistry can be further appreciated through meaningful, personal research
+  investigation". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. What the specification expects, the stages of
+  an RI applied to chemistry, and one worked research outline per theme (health:
+  fluoridation of drinking water; sustainability: rewetting peatlands; technology: UV versus
+  chlorine disinfection). General research skills (evaluating sources, referencing, claims in
+  the media) are in "Science as a global enterprise and researching an issue" and "Chemistry in society and the media";
+  apply them here without re-teaching. Other RIs: "Hydrocarbons: sources, uses and impact",
+  "Fuel cells and sustainability", "Organic products and pharmaceuticals"; don't
+  duplicate their topics. Only checked facts are given; students research the rest.
 
 ## 1. Must cover
 
-Structure of a simple lithium-ion cell (one block)
-- [ ] S1 A lithium-ion cell is a rechargeable (secondary) cell (see "Primary and secondary cells").
-- [ ] S2 The negative electrode is graphite; lithium atoms are stored between its layers of carbon atoms (written LiC₆ when fully charged).
-- [ ] S3 The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂ (other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄).
-- [ ] S4 The electrolyte is a lithium salt (e.g. LiPF₆) dissolved in an organic (non-aqueous) solvent; it lets Li⁺ ions move between the electrodes; water can't be used because lithium reacts with it.
-- [ ] S5 A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching (which would short-circuit the cell).
-- [ ] S6 Li⁺ ions move in and out of the layered structures of both electrodes without the structures being destroyed (intercalation), so the cell can be charged and discharged many times.
-- [ ] S7 Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) on current collectors, electrolyte between them with a separator in the middle, external circuit with a device; arrows for Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (Li⁺ and electrons both towards the positive electrode) and charging (both towards the graphite).
+What the specification expects (one block)
+- [ ] E1 The student researches one area of the course through one cross-cutting theme: health, sustainability or technology.
+- [ ] E2 The research must use real chemistry from the course to explain the issue, not just describe it.
+- [ ] E3 It is meant to be personal and meaningful (a question the student cares about, often local or Irish), and to show chemistry as a collaborative, human activity with social and global importance.
+- [ ] E4 Outputs can be a presentation to the class or a short digital report; later research can be more detailed and may include gathering some primary data (e.g. measuring the pH of local water samples).
+- [ ] E5 The written exam includes questions on applying chemistry to the cross-cutting themes, so the skills and the examples are examinable.
 
-Discharging: a galvanic cell (one block)
-- [ ] D1 When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction converts chemical energy into electrical energy (see "The galvanic cell").
-- [ ] D2 At the negative electrode (the anode during discharge), lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form Li → Li⁺ + e⁻).
-- [ ] D3 The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.
-- [ ] D4 The Li⁺ ions move through the electrolyte and separator to the positive electrode.
-- [ ] D5 At the positive electrode (the cathode during discharge), the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.
-- [ ] D6 Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂; a typical cell gives about 3.6–3.7 V.
+The stages of a research investigation (one block, one step per bullet)
+- [ ] S1 Step 1: Choose a focused, answerable question that links course chemistry to one theme, e.g. "Should…?", "How effective is…?", "What are the benefits and risks of…?"
+- [ ] S2 Step 2: Identify the chemistry involved (reactions, equations, properties) so the research explains why, not only what.
+- [ ] S3 Step 3: Find a range of sources: peer-reviewed papers and reviews, reports from scientific and government bodies (e.g. the IPCC, the EPA, the HSE, WHO, Uisce Éireann), textbooks, and reputable science journalism; include sources with different viewpoints.
+- [ ] S4 Step 4: Evaluate each source: who wrote it and their expertise, when (is it current?), what evidence it gives (data and methods, or opinion?), whether it was peer reviewed, and whether the author has a purpose or bias (e.g. funding, selling a product, campaigning).
+- [ ] S5 Step 5: Separate measured data from claims and opinion; compare like with like; note uncertainties and where scientists disagree.
+- [ ] S6 Step 6: Weigh the evidence on each side, considering benefits, risks, costs and who is affected (locally and globally, now and in future).
+- [ ] S7 Step 7: Reach a justified conclusion that answers the question, explain the chemistry behind it, state its limitations, and suggest further research.
+- [ ] S8 Step 8: Reference all sources consistently and communicate clearly for the audience (presentation or digital report), using correct chemical terms, equations and units.
 
-Recharging: an electrolytic cell (one block)
-- [ ] R1 When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy (see "The electrolytic cell").
-- [ ] R2 At the metal oxide electrode (now the anode), oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.
-- [ ] R3 The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.
-- [ ] R4 At the graphite electrode (now the cathode), Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.
-- [ ] R5 Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂; charging stores energy in the changed electrodes, not as "stored electrons": the charge stays balanced throughout.
-- [ ] R6 The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; the graphite stays the negative terminal throughout.
+Worked outline: health — fluoridation of drinking water (one block)
+- [ ] H1 Question: "Should Ireland continue to add fluoride to public drinking water?"
+- [ ] H2 Chemistry: hexafluorosilicic acid (H₂SiF₆) is added to give 0.6–0.8 mg L⁻¹ of fluoride; fluoride converts some hydroxyapatite in tooth enamel into fluorapatite, which resists acids made by bacteria in the mouth (see "Treating drinking water").
+- [ ] H3 Sources: Department of Health and HSE information, systematic reviews of the evidence (e.g. Cochrane reviews), dental and medical bodies, and the views of groups opposed to fluoridation; check dates, as older studies were done before fluoride toothpaste was common.
+- [ ] H4 Evidence for: reduced tooth decay, with most benefit to people who can't afford dental care; low cost per person.
+- [ ] H5 Evidence and issues against: dental fluorosis at higher intakes; the benefit may be smaller now that fluoride toothpaste is widely used; ethical objections to adding a substance to everyone's water without individual consent; most European countries don't fluoridate.
+- [ ] H6 Conclusion: a justified judgement weighing the size of the benefit against the risks and ethical issues, based on the most recent reviews.
 
-Why lithium (one block)
-- [ ] W1 Lithium is the least dense metal (0.53 g cm⁻³), so batteries are light.
-- [ ] W2 Lithium is at the top of the electrochemical series (standard electrode potential −3.04 V), losing electrons very easily, so lithium cells have a high voltage (see "The electrochemical series and displacement").
-- [ ] W3 Together these give a high energy stored per kilogram (high energy density), ideal for portable devices and vehicles; the cells also hold their charge well when not in use and have no "memory effect".
-- [ ] W4 The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry; Sony sold the first commercial lithium-ion batteries in 1991.
+Worked outline: sustainability — rewetting peatlands (one block)
+- [ ] P1 Question: "Is rewetting drained Irish bogs an effective way to reduce greenhouse gas emissions?"
+- [ ] P2 Chemistry: in waterlogged peat, decay is very slow because oxygen is lacking, so carbon builds up (a carbon sink); when bogs are drained, oxygen gets in and aerobic decay releases the stored carbon as CO₂; when rewetted, CO₂ release stops but some methane (CH₄, a stronger greenhouse gas per kg) is produced by anaerobic microorganisms (see "The greenhouse effect" and "The greenhouse effect").
+- [ ] P3 Sources: EPA Ireland reports, Bord na Móna and National Parks and Wildlife Service information, peer-reviewed studies of emissions from drained and rewetted bogs, farming organisations.
+- [ ] P4 Issues: the size of CO₂ savings against methane emissions (compared using GWPs and CO₂ equivalent); benefits for biodiversity and flood control; effects on landowners, jobs and communities that depended on peat; time scales.
+- [ ] P5 Conclusion: a justified judgement on whether the evidence shows a net climate benefit, and under what conditions.
 
-Life-cycle: mining (one block)
-- [ ] M1 A lithium-ion battery needs lithium, and, depending on type, cobalt, nickel, manganese, graphite, copper and aluminium.
-- [ ] M2 Lithium is extracted from hard rock (the mineral spodumene, mined mainly in Australia) or from salty brines pumped from under salt flats in South America (Chile, Argentina and Bolivia, the "lithium triangle"), where the water is evaporated in large ponds.
-- [ ] M3 Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife; hard-rock mining needs energy and produces waste rock, dust and emissions.
-- [ ] M4 About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children; this has led to responsible-sourcing schemes and to cobalt-free battery types (e.g. lithium iron phosphate).
-- [ ] M5 Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint before it is used.
+Worked outline: technology — UV or chlorine for disinfecting water (one block)
+- [ ] T1 Question: "Can UV treatment replace chlorine for disinfecting public water supplies?"
+- [ ] T2 Chemistry: chlorine forms hypochlorous acid (Cl₂ + H₂O ⇌ HOCl + HCl), which kills microorganisms and leaves a residual in the pipes; UV damages microbial DNA and works against chlorine-resistant Cryptosporidium but leaves no residual; chlorine can react with organic matter to form disinfection by-products (e.g. trihalomethanes) (see "Treating drinking water").
+- [ ] T3 Sources: Uisce Éireann and EPA drinking-water reports, WHO guidelines, studies of disinfection by-products, the 2007 Galway Cryptosporidium outbreak as a case study.
+- [ ] T4 Issues: effectiveness against different microorganisms; protection in the distribution pipes; health risks of by-products against the much larger risk of water-borne disease; energy use of UV lamps; cost.
+- [ ] T5 Conclusion: e.g. that UV is a valuable extra barrier but cannot fully replace chlorine because a residual disinfectant is needed in the pipes, with the reasoning shown.
 
-Life-cycle: usage and applications (one block)
-- [ ] U1 Applications: mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.
-- [ ] U2 Sustainability benefit: electric vehicles produce no exhaust emissions, improving air quality in towns; over their lifetime they cause lower greenhouse gas emissions than petrol or diesel cars, especially when charged from renewable electricity.
-- [ ] U3 Battery storage helps renewable electricity replace fossil fuels by storing energy when the wind blows or the sun shines.
-- [ ] U4 The capacity falls gradually with each charge–discharge cycle and with age (side reactions at the electrodes), so batteries eventually need replacing; avoiding very high temperatures and keeping the charge between full and empty extends their life.
-- [ ] U5 Hazard: if the cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably and the flammable organic electrolyte can catch fire or explode; batteries include a battery management system to prevent overcharging and overheating.
-
-Life-cycle: disposal and recycling (one block)
-- [ ] Y1 Used lithium-ion batteries must never go in household bins: crushed or punctured batteries cause fires in bin lorries and waste facilities; they also contain toxic and valuable materials.
-- [ ] Y2 In Ireland, shops that sell batteries take back used batteries free of charge, and they can be left at recycling centres; vehicle batteries are returned through the dealers.
-- [ ] Y3 Recycling steps: the batteries are collected and discharged, dismantled, and shredded to a powder called "black mass", from which metals are recovered.
-- [ ] Y4 Recovery methods: pyrometallurgy (smelting at high temperature; recovers cobalt, nickel and copper but uses a lot of energy and loses most of the lithium) and hydrometallurgy (dissolving the metals in acid and separating them by precipitation; recovers more, including lithium).
-- [ ] Y5 Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution, but it is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled; the EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.
-- [ ] Y6 Before recycling, used vehicle batteries with reduced capacity can have a "second life" as stationary storage, extending their use.
-- [ ] Y7 Conclusion of a life-cycle view: lithium-ion batteries help cut fossil-fuel use, but each stage has environmental and social costs; longer battery life, responsible sourcing and recycling reduce, but do not remove, those costs.
+Chemistry as a human, collaborative endeavour (one block)
+- [ ] C1 Modern chemistry is done by teams, often international, and builds on others' work; e.g. the lithium-ion battery came from the work of three scientists in different countries over decades (see "The lithium-ion cell"), and the IPCC reports are written by hundreds of scientists assessing thousands of studies.
+- [ ] C2 Chemistry affects society globally: clean water, medicines, energy and materials, and also pollution and climate change; personal research helps students judge claims and take part in public debate.
 
 ## 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| S2, D2 | Fully lithiated graphite LiC₆. Simplified electrode equations as above (textbook form). |
-| S4 | Electrolyte typically LiPF₆ in organic carbonate solvents. |
-| D6 | LiCoO₂–graphite cell about 3.6–3.7 V nominal; LiFePO₄ cells about 3.2 V. |
-| W1 | Density of lithium 0.534 g cm⁻³. |
-| W2 | E°(Li⁺/Li) = −3.04 V. |
-| W4 | Nobel Prize in Chemistry 2019: Goodenough, Whittingham, Yoshino; first commercial cell, Sony, 1991. |
-| M2 | Australia the largest producer (hard rock); lithium triangle Chile, Argentina, Bolivia (brines). |
-| M4 | DRC produces about 70% of world cobalt (2020s). |
-| Y5 | EU Batteries Regulation (EU) 2023/1542. |
+| H2 | Ireland: hexafluorosilicic acid; 0.6–0.8 mg L⁻¹ fluoride. Fluorapatite more acid-resistant than hydroxyapatite. |
+| P2 | Waterlogged peat: anaerobic, slow decay, carbon accumulates; drained peat emits CO₂; rewetted peat emits some CH₄. |
+| T2 | Trihalomethanes are by-products of chlorination of water containing organic matter. |
+| T3 | Galway Cryptosporidium outbreak, 2007. |
+| C1 | Nobel Prize in Chemistry 2019 (lithium-ion battery): Goodenough (USA), Whittingham (UK-born, USA), Yoshino (Japan). |
+
+No checked numerical findings from the fluoridation reviews or peatland studies: don't quote effect sizes or emission figures; tell students to find and evaluate them.
 
 ## 3. Traps
 
-- The names anode and cathode swap between discharging and charging; the positive and negative terminals don't. Define the anode as the electrode where oxidation happens.
-- Electrons flow through the external circuit, never through the electrolyte; ions carry the charge in the electrolyte.
-- The negative electrode contains lithium atoms stored in graphite, not a block of lithium metal.
-- Don't re-teach galvanic and electrolytic cells in general; refer to "The galvanic cell" and "The electrolytic cell".
-- Transition metals and variable valency are not on the specification: describe the metal oxide as being reduced or oxidised without oxidation-state detail for cobalt.
-- Metal extraction methods are not on the specification; describe mining only as a life-cycle stage.
+- An RI is not a list of facts: it needs a question, evaluated sources, the chemistry explained, evidence on more than one side and a justified conclusion.
+- A source being on a government or company website doesn't make it unbiased; check the evidence and purpose.
+- Don't invent statistics or study results for the worked outlines.
+- Keep to course chemistry; ozone and CFCs, and fuels and octane numbers, are not on the specification.
+- Don't repeat the hydrocarbon, electrochemistry or pharmaceutical RIs here.
 
 ## 4. What exams ask (topics only)
 
-- The 2019 Nobel Prize for rechargeable lithium-ion batteries; oxidation in terms of electron transfer applied to the cell.
-- How a lithium-ion cell works when discharging and when charging.
-- Life-cycle impacts of lithium-ion batteries.
+- No past-paper questions on the research investigation itself (it is new to this specification). Expect questions applying chemistry to a health, sustainability or technology issue, and on evaluating sources and claims.
 
 ## 5. Practice questions to write
 
-1. 12 marks: "Describe how a lithium-ion cell works (i) when it is powering a mobile phone, (ii) when it is being recharged. Use equations for the electrode reactions and state which kind of cell it acts as in each case." Model answer: S2–S5; D1–D5; R1–R4.
-2. 12 marks: "Discuss the life-cycle of a lithium-ion battery used in an electric car, from mining to recycling." Model answer: M2–M5; U2, U4; Y1, Y3–Y5; Y7.
-3. 6 marks: "Explain why lithium is used in rechargeable batteries for mobile devices and electric vehicles." Model answer: W1–W3.
+1. 12 marks: "Outline how you would carry out a research investigation into whether UV treatment could replace chlorination of drinking water. Refer to your question, the chemistry involved, the sources you would use and how you would evaluate them, and the issues you would weigh." Model answer: S1, S3, S4; T1–T5.
+2. 9 marks: "Explain why rewetting a drained peat bog reduces carbon dioxide emissions but may increase methane emissions, and explain how a researcher could compare these two effects." Model answer: P2, P4 (compare using GWP and CO₂ equivalent, as in "The greenhouse effect").
+3. 6 marks: "State three questions you would ask to judge the reliability of a source you found during a research investigation." Model answer: S4 (author and expertise; date; evidence and peer review; purpose or bias: any three).

@@ -1,86 +1,98 @@
-# Package: chem21-s4 — Calculating ΔH and energy profiles
+# Package: chem21-s4 — Hess's law
 
-- **loId:** `chem21-s4` · **chapterId:** `chem21` · **syllabusRef:** 3.1.4
-- **Syllabus:** 3.1.4 "calculate ΔH for a chemical reaction and describe the energy transfer
-  through a simple energy profile diagram". Learn about: "enthalpy changes are relative to a
-  standard set of conditions of temperature and pressure; the change in enthalpy for particular
-  processes can be determined: by measurement" (the other two methods in that list, bond
-  enthalpy data and heats of formation, are **bold**: Higher Level, in "ΔH from bond
-  enthalpies" and "Hess's law"). Normal type for this subsection.
-- **Prepared by:** a higher model, 2026-10-30. Standard conditions; the general method of
-  calculating ΔH from a measured temperature change, with one worked example; using ΔH to
-  scale amounts; the energy profile diagram. The neutralisation and combustion experiments are
-  in "Investigation: heat of neutralisation" and "Investigation: heat of combustion of
-  alcohols"; activation energy and the effect of catalysts on the profile are in "Catalysis and
-  energy profiles". Water: 4.18 kJ kg⁻¹ K⁻¹.
+- **loId:** `chem21-s4` · **chapterId:** `chem21` · **syllabusRef:** 3.1.6
+
+- **Syllabus:** 3.1.6 "**calculate and predict enthalpy changes using Hess's law**". Learn
+  about: "**how to model Hess's law diagrammatically as a series of reactions and energy
+  cycles**"; and, from the list of ways ΔH can be determined, "**from standard heats of
+  formations of reactants and products**". All bold: the whole subsection is Higher Level only.
+  Mark every block heading " (Higher Level only)".
+- **Prepared by:** a higher model, 2026-10-30. The law and its basis, energy cycles, rules for
+  manipulating equations, heats of formation and the formula, and five worked problems. Heat of
+  combustion is defined in "Combustion and heats of combustion"; standard conditions are in "Calculating ΔH and energy
+  profiles". Heats of formation values are in the table; use only these.
 
 ## 1. Must cover
 
-Standard conditions (one block)
-- [ ] T1 Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.
-- [ ] T2 Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa); solutions have a concentration of 1 mol L⁻¹; each substance is in its standard state (its normal physical state under these conditions, e.g. water as a liquid, carbon as graphite).
-- [ ] T3 A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °).
-- [ ] T4 IUPAC now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.
-- [ ] T5 Don't confuse these with s.t.p. (0 °C, 273 K, and 101.3 kPa), which is used for gas volumes (see "Molar volume and Avogadro's law").
+Hess's law (Higher Level only; one block)
+- [ ] L1 [HL] Hess's law: if a reaction takes place in a number of stages, the total enthalpy change for the stages is equal to the enthalpy change if the reaction takes place in one stage; that is, ΔH depends only on the initial and final states, not on the route taken.
+- [ ] L2 [HL] It follows from the law of conservation of energy: if two routes between the same reactants and products had different ΔH values, energy could be created by going one way and returning the other.
+- [ ] L3 [HL] It lets us calculate ΔH for reactions that can't be measured directly, e.g. the formation of methane from carbon and hydrogen, or of carbon monoxide (burning carbon in limited oxygen always gives some CO₂ too).
+- [ ] L4 [HL] Germain Henri Hess (1802–1850), a Swiss-born chemist who worked in St Petersburg, published the law in 1840.
 
-Calculating ΔH by measurement (one block, one step per bullet)
-- [ ] M1 Step 1: Carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution and measure the temperature change, ΔT.
-- [ ] M2 Step 2: Calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution (kg), c its specific heat capacity (4.18 kJ kg⁻¹ K⁻¹ for water) and ΔT the temperature change (K or °C).
-- [ ] M3 Step 3: Calculate the moles of the reactant that reacted completely (the limiting reactant), using n = c × V for solutions or n = m ÷ M for solids and liquids.
-- [ ] M4 Step 4: Heat per mole = Q ÷ n, in kJ mol⁻¹ (scaled to the moles in the balanced equation if asked for the heat of reaction).
-- [ ] M5 Step 5: Give ΔH a sign: negative if the temperature rose (exothermic), positive if it fell (endothermic).
-- [ ] M6 Specific heat capacity, c: the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹); dilute solutions are assumed to have the same value and a density of 1.00 g cm⁻³.
-- [ ] M7 If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead.
+Modelling Hess's law: energy cycles (Higher Level only; one block)
+- [ ] C1 [HL] An energy cycle (Hess cycle) shows the direct route from reactants to products and an indirect route through intermediate substances, with ΔH on each arrow; ΔH(direct) = sum of ΔH along the indirect route.
+- [ ] C2 [HL] When going along an arrow in the opposite direction, change the sign of its ΔH.
+- [ ] C3 [HL] Example cycle for the formation of methane: top, C(s) + 2H₂(g) → CH₄(g) (ΔH = ?); both sides lead down to the combustion products CO₂(g) + 2H₂O(l) (+ O₂): from the elements by ΔH = ΔHc(C) + 2ΔHc(H₂), from methane by ΔHc(CH₄); so ΔHf(CH₄) = ΔHc(C) + 2ΔHc(H₂) − ΔHc(CH₄).
+- [ ] C4 [HL] It can also be modelled as an enthalpy level diagram with the elements, the compound and the combustion products at different levels and arrows between them.
+- [ ] C5 [HL] Diagram: the triangular Hess cycle in C3 with all three arrows labelled with their ΔH values, and the same information as an enthalpy level diagram.
 
-Worked example: a displacement reaction (one block, one step per bullet; sample data)
-- [ ] W1 Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.
-- [ ] W2 Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s) (ionic: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)); zinc is in excess, so the copper(II) sulfate is limiting.
-- [ ] W3 Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.
-- [ ] W4 Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.
-- [ ] W5 Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.
-- [ ] W6 The value is a little less negative than the accepted value because of heat losses (see "Investigation: heat of neutralisation" for errors and improvements).
+Using equations: the rules (Higher Level only; one block)
+- [ ] R1 [HL] Write the target equation first.
+- [ ] R2 [HL] Rearrange the given equations so that each substance in the target ends up on the correct side in the correct amount: reverse an equation to put a substance on the other side (change the sign of ΔH); multiply an equation by a number to get the right amount (multiply ΔH by the same number).
+- [ ] R3 [HL] Add the equations and their ΔH values; cancel substances that appear on both sides; check the result is the target equation.
 
-Using ΔH to find heat for a given amount (one block)
-- [ ] U1 ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.
-- [ ] U2 Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; burning 8.0 g of methane (8.0 ÷ 16 = 0.50 mol) releases 0.50 × 890 = 445 kJ.
-- [ ] U3 Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹.
+Heats of formation (Higher Level only; one block)
+- [ ] F1 [HL] Standard heat (enthalpy) of formation, ΔHf°: the enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions.
+- [ ] F2 [HL] Formation equations have exactly one mole of product, so fractions may be needed: ½N₂(g) + 1½H₂(g) → NH₃(g), ΔHf = −46 kJ mol⁻¹; C(s) + O₂(g) → CO₂(g), ΔHf = −394 kJ mol⁻¹; 2C(s) + 3H₂(g) + ½O₂(g) → C₂H₅OH(l), ΔHf = −278 kJ mol⁻¹.
+- [ ] F3 [HL] The heat of formation of an element in its standard state is zero by definition (nothing is formed), e.g. O₂(g), H₂(g), C(graphite).
+- [ ] F4 [HL] The heats of formation of CO₂ and H₂O equal the heats of combustion of carbon and hydrogen, which can be measured directly; most heats of formation (e.g. of methane, ethanol or ethanoic acid) can't be measured directly and are found by Hess's law from heats of combustion.
+- [ ] F5 [HL] From heats of formation: ΔH(reaction) = ΣΔHf(products) − ΣΔHf(reactants), each multiplied by its coefficient; this follows from Hess's law, going from reactants to elements and then to products.
 
-Energy profile diagrams (one block)
-- [ ] P1 An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction: energy on the vertical axis, progress of reaction (reaction pathway) on the horizontal axis.
-- [ ] P2 It shows the reactants' level, a hump rising to a maximum, and the products' level; the height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen (see "Catalysis and energy profiles").
-- [ ] P3 ΔH is the vertical difference between the reactants' and products' levels and doesn't depend on the height of the hump.
-- [ ] P4 Exothermic profile: products below reactants; ΔH negative; the energy released as bonds form is greater than the activation energy taken in.
-- [ ] P5 Endothermic profile: products above reactants; ΔH positive; the activation energy is larger than ΔH.
-- [ ] P6 The energy transfer: the energy taken in to climb the hump goes into breaking bonds; the energy given out on the way down comes from bond making; the net difference is transferred as heat to (exothermic) or from (endothermic) the surroundings.
-- [ ] P7 Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products.
+Worked problem 1: heat of formation of methane from combustion data (Higher Level only; one block)
+- [ ] P1 [HL] Target: C(s) + 2H₂(g) → CH₄(g). Given: (a) C(s) + O₂(g) → CO₂(g), ΔH = −394; (b) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286; (c) CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+- [ ] P2 [HL] Keep (a): −394. Multiply (b) by 2: 2H₂ + O₂ → 2H₂O, ΔH = −572. Reverse (c): CO₂ + 2H₂O → CH₄ + 2O₂, ΔH = +890.
+- [ ] P3 [HL] Add: C + 2H₂ + 2O₂ + CO₂ + 2H₂O → CO₂ + 2H₂O + CH₄ + 2O₂; cancelling gives C + 2H₂ → CH₄.
+- [ ] P4 [HL] ΔHf(CH₄) = −394 − 572 + 890 = −76 kJ mol⁻¹ (data-book value −75 kJ mol⁻¹; the difference comes from rounding).
+
+Worked problem 2: heat of combustion of ethanol from heats of formation (Higher Level only; one block)
+- [ ] Q1 [HL] C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l); ΔHf: C₂H₅OH(l) −278, CO₂(g) −394, H₂O(l) −286, O₂(g) 0 kJ mol⁻¹.
+- [ ] Q2 [HL] ΣΔHf(products) = 2(−394) + 3(−286) = −788 − 858 = −1646 kJ.
+- [ ] Q3 [HL] ΣΔHf(reactants) = −278 + 3(0) = −278 kJ.
+- [ ] Q4 [HL] ΔH = −1646 − (−278) = −1368 kJ mol⁻¹ (standard value −1367 kJ mol⁻¹).
+
+Worked problem 3: heat of combustion of propane (Higher Level only; one block)
+- [ ] S1 [HL] C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l); ΔHf: C₃H₈ −104, CO₂ −394, H₂O −286 kJ mol⁻¹.
+- [ ] S2 [HL] ΔH = [3(−394) + 4(−286)] − (−104) = −1182 − 1144 + 104 = −2222 kJ mol⁻¹ (standard value −2220 kJ mol⁻¹).
+
+Worked problem 4: heat of formation of ethyne (Higher Level only; one block)
+- [ ] T1 [HL] Target: 2C(s) + H₂(g) → C₂H₂(g). Given ΔHc: C −394, H₂ −286, C₂H₂ −1300 kJ mol⁻¹.
+- [ ] T2 [HL] ΔHf = 2ΔHc(C) + ΔHc(H₂) − ΔHc(C₂H₂) = 2(−394) + (−286) − (−1300) = −788 − 286 + 1300 = +226 kJ mol⁻¹.
+- [ ] T3 [HL] The positive value shows ethyne is formed endothermically: it has more enthalpy than its elements, which helps explain why it releases so much energy when burned.
+
+Worked problem 5: combining equations (Higher Level only; one block)
+- [ ] U1 [HL] Target: 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). Given: (a) H₂(g) + S(s) → H₂S(g), ΔH = −21; (b) S(s) + O₂(g) → SO₂(g), ΔH = −297; (c) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ mol⁻¹.
+- [ ] U2 [HL] Reverse (a) and multiply by 2: 2H₂S → 2H₂ + 2S, ΔH = +42. Reverse (b): SO₂ → S + O₂, ΔH = +297. Multiply (c) by 2: 2H₂ + O₂ → 2H₂O, ΔH = −572.
+- [ ] U3 [HL] Add and cancel 2H₂ and O₂: 2H₂S + SO₂ → 3S + 2H₂O; ΔH = 42 + 297 − 572 = −233 kJ.
 
 ## 2. Checked facts and examples
 
-| Item | Fact |
+| Item | Standard heats of formation (kJ mol⁻¹, rounded) |
 |---|---|
-| T2 | Standard conditions for ΔH: 298 K (25 °C), 101.3 kPa (1 atm), 1 mol L⁻¹ solutions, standard states. |
-| T4 | IUPAC standard pressure 100 kPa (1 bar). |
-| M6 | c(water) = 4.18 kJ kg⁻¹ K⁻¹ = 4.18 J g⁻¹ K⁻¹. |
-| U2 | M(CH₄) = 16 g mol⁻¹; ΔHc(CH₄) = −890 kJ mol⁻¹. |
-| W1–W5, U3 | Sample data; arithmetic checked. |
+| All | CO₂(g) −394; H₂O(l) −286; H₂O(g) −242; CO(g) −111; CH₄(g) −75; C₂H₆(g) −85; C₃H₈(g) −104; C₄H₁₀(g) −126; C₂H₄(g) +52; C₂H₂(g) +227; CH₃OH(l) −239; C₂H₅OH(l) −278; NH₃(g) −46; H₂S(g) −21; SO₂(g) −297. Elements in standard states 0. |
+| P1, T1 | ΔHc: CH₄ −890; C₂H₂ −1300; C (graphite) −394; H₂ −286. |
+| L4 | Hess, born Geneva 1802, died 1850, worked in St Petersburg; law published 1840. |
+
+Results calculated from rounded data can differ from data-book values by a few kJ mol⁻¹; that is expected. All arithmetic checked.
 
 ## 3. Traps
 
-- Standard conditions (25 °C) are not s.t.p. (0 °C).
-- ΔT in K equals ΔT in °C.
-- Use the moles of the limiting reactant, not of the reactant in excess.
-- Q is always positive; the sign of ΔH comes from whether the temperature rose or fell.
-- Calculating ΔH from bond enthalpies or heats of formation is Higher Level: in "ΔH from bond enthalpies" and "Hess's law".
-- An energy profile has a hump (activation energy); an enthalpy level diagram (in "Exothermic and endothermic reactions") does not.
+- Reversing an equation reverses the sign of ΔH; multiplying the equation multiplies ΔH.
+- Products minus reactants for heats of formation (the opposite way round from bond enthalpies: broken minus formed).
+- Don't forget to multiply each ΔHf by its coefficient.
+- ΔHf of an element in its standard state is zero, but ΔHf of CO₂ is not (it is a compound).
+- A formation equation makes exactly one mole of compound from elements only.
+- Use the state of water given: ΔHf(H₂O(l)) = −286 but ΔHf(H₂O(g)) = −242.
 
 ## 4. What exams ask (topics only)
 
-- Explain ΔH; calculate heat produced and ΔH from temperature data.
-- Calculate the heat that would be produced if 1 mole reacted.
-- Draw an energy profile for an exothermic reaction showing ΔH and activation energy.
+- Define heat of formation; write the formation equation for a compound (e.g. ammonia).
+- Why the heats of formation of CO₂ and H₂O can be measured but not that of ethanoic acid or methane.
+- Calculate a heat of formation from heats of combustion, or a heat of combustion from heats of formation (e.g. butane, propane, ethanoic acid).
+- State Hess's law.
 
 ## 5. Practice questions to write
 
-1. 9 marks: "Excess zinc was added to 100 cm³ of 0.100 M copper(II) sulfate solution and the temperature rose by 4.8 °C. Calculate ΔH for Zn + CuSO₄ → ZnSO₄ + Cu, taking the specific heat capacity of the solution as 4.18 kJ kg⁻¹ K⁻¹ and its density as 1.00 g cm⁻³ (sample data)." Model answer: Q = 0.100 × 4.18 × 4.8 = 2.01 kJ; moles = 0.0100; 2.01 ÷ 0.0100 = 201; ΔH = −201 kJ mol⁻¹.
-2. 6 marks: "Draw a labelled energy profile diagram for an exothermic reaction, marking the activation energy and ΔH, and explain what the diagram shows about the energy transfer." Model answer: P1–P4, P6, P7.
-3. 3 marks: "State the standard conditions for enthalpy changes and explain why they are needed." Model answer: T1, T2.
+1. 9 marks: "State Hess's law. Use the heats of combustion of carbon (−394), hydrogen (−286) and propane (−2220 kJ mol⁻¹) to calculate the heat of formation of propane, 3C(s) + 4H₂(g) → C₃H₈(g)." Model answer: L1; ΔHf = 3(−394) + 4(−286) − (−2220) = −1182 − 1144 + 2220 = −106 kJ mol⁻¹.
+2. 9 marks: "2C₄H₁₀(g) + 13O₂(g) → 8CO₂(g) + 10H₂O(l). Given ΔHf: C₄H₁₀ −126, CO₂ −394, H₂O −286 kJ mol⁻¹, calculate the heat of combustion of butane per mole." Model answer: products 8(−394) + 10(−286) = −6012; reactants 2(−126) = −252; ΔH = −5760 kJ for 2 mol, so −2880 kJ mol⁻¹.
+3. 6 marks: "Draw an energy cycle to show how the heat of formation of methane can be found from heats of combustion, and explain why it can't be measured directly." Model answer: C3, C5; L3.

@@ -36,7 +36,8 @@ test("every Chemistry chapter keeps a review outcome and has authored notes in e
       assert.equal(outcome.id, `${chapter.id}-s${index + 1}`);
       assert.ok(outcome.syllabusRef, `${outcome.id} needs its specification reference`);
       assert.ok(outcome.authored, `${outcome.id} should have authored notes`);
-      assert.ok(outcome.notes.length >= 2, `${outcome.id} should have several note blocks`);
+      // A subsection is only worth its own heading with a substantial group of points.
+      assert.ok(outcome.notes.length >= 8, `${outcome.id} has ${outcome.notes.length} note blocks; merge it into a neighbour`);
       assert.ok(outcome.keyTerms.length >= 3, `${outcome.id} should have flashcards`);
       assert.ok(outcome.questions.length >= 1, `${outcome.id} should have a practice question`);
     });

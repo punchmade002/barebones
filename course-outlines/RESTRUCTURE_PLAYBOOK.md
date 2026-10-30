@@ -27,6 +27,9 @@ write notes**; notes are written later, by other agents, from your outline.
 4. **Keep the existing chapter IDs.** Past exam questions, flashcards and test questions are
    tagged to the chapter IDs in `data.js` and `pipeline/scaffold/<subject>.json`. Add
    subsections inside chapters; don't rename or split chapters.
+   Make a subsection only for a substantial group of points (at least 8 note blocks). Group
+   small syllabus items with their neighbours rather than giving each its own subsection;
+   chemistry first had 137 subsections of 2–6 blocks and was merged to 67.
 5. **Copy the syllabus's own structure and rules exactly:**
    - its section numbers
    - its "students should study" items

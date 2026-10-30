@@ -1,100 +1,220 @@
 {
   "loId": "chem10-s2",
   "chapterId": "chem10",
-  "subsection": "2. Investigation: conservation of mass",
-  "syllabusRef": "1.1.5",
+  "subsection": "2. Formulae and balancing equations",
+  "syllabusRef": "1.4.7",
   "notes": [
     {
-      "h": "Law of conservation of mass",
+      "h": "Definitions",
       "points": [
-        "Law of conservation of mass: in a chemical reaction or physical change, matter is neither created nor destroyed, so the total mass of the products equals the total mass of the reactants.",
-        "Antoine Lavoisier established the law in the late 1700s (published 1789) by careful weighing of reactions in sealed vessels.",
-        "The number of moles or molecules may change in a reaction, but the mass does not."
+        "Empirical formula: the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O.",
+        "Molecular formula: the actual number of atoms of each element in one molecule, e.g. C₆H₁₂O₆ for glucose.",
+        "The molecular formula is a whole-number multiple of the empirical formula.",
+        "For ionic compounds the formula is always the empirical formula, e.g. NaCl and MgO."
       ]
     },
     {
-      "h": "Law of conservation of energy",
+      "h": "Percentage composition by mass",
       "points": [
-        "Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another.",
-        "When a fuel burns, chemical energy is changed to heat and light.",
-        "The total energy of a reaction and its surroundings stays the same."
+        "Relative atomic masses used in this section: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.",
+        "Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100.",
+        "Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.",
+        "Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%."
       ]
     },
     {
-      "h": "Why the laws matter",
+      "h": "Finding an empirical formula",
       "points": [
-        "Both laws underpin all physical and chemical changes.",
-        "Conservation of atoms, and so of mass, is why chemical equations must be balanced.",
-        "Conservation of energy is why energy changes in reactions can be measured."
+        "Step 1: Write the mass (or percentage) of each element.",
+        "Step 2: Divide each by its relative atomic mass to get the number of moles.",
+        "Step 3: Divide each by the smallest number of moles to get the ratio.",
+        "Step 4: If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.",
+        "Do not round a ratio such as 1.5 to 2; multiply all the values up instead.",
+        "Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.",
+        "Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.",
+        "Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.",
+        "The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g.",
+        "Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol.",
+        "The ratio Mg : O is 1 : 1, so the formula is MgO."
       ]
     },
     {
-      "h": "Investigation: aim and hypothesis",
+      "h": "Finding a molecular formula",
       "points": [
-        "Aim: to verify, using primary data, that mass is conserved in a chemical reaction.",
-        "Hypothesis: the total mass before and after the reaction will be the same, because atoms are only rearranged.",
-        "Measured variable: the total mass of the stoppered apparatus before and after the reaction; no variable is changed on purpose."
+        "Step 1: Divide the relative molecular mass (Mr) by the mass of the empirical formula unit.",
+        "Step 2: Multiply every number in the empirical formula by that result.",
+        "Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.",
+        "Example: a hydrocarbon of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.",
+        "Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).",
+        "56 ÷ 14 = 4, so the molecular formula is C₄H₈."
       ]
     },
     {
-      "h": "Investigation: apparatus and method",
+      "h": "Investigation: formula of magnesium oxide",
       "points": [
-        "Apparatus: conical flask, small test tube, stopper, electronic balance (0.01 g), sodium chloride solution and silver nitrate solution.",
-        "Diagram: a stoppered conical flask on a balance, containing sodium chloride solution, with a small test tube of silver nitrate solution standing upright inside; label the flask, stopper, test tube and both solutions.",
-        "Step 1: Pour some sodium chloride solution into the conical flask.",
-        "Step 2: Half-fill the small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions don't mix.",
-        "Step 3: Stopper the flask and weigh the whole apparatus.",
-        "Step 4: Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq).",
-        "Step 5: Reweigh the stoppered flask, and repeat the investigation three times."
+        "Step 1: Weigh a clean crucible and lid, add a coiled length of clean magnesium ribbon and reweigh.",
+        "Step 2: Heat strongly, lifting the lid slightly from time to time to let air in while keeping white smoke (magnesium oxide) from escaping.",
+        "Step 3: When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.",
+        "Step 4: Cool and reweigh, then heat, cool and reweigh again until the mass is constant.",
+        "Step 5: Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.",
+        "Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.",
+        "Diagram: a crucible with its lid on a pipeclay triangle, on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner."
       ]
     },
     {
-      "h": "Investigation: results and safety",
+      "h": "Water of crystallisation",
       "points": [
-        "Results: the mass before and after the reaction is the same, within the precision of the balance, so mass is conserved.",
-        "Safety: silver nitrate stains the skin and is an irritant, so wear gloves and goggles.",
-        "Lead nitrate is not used in this method because it is toxic."
+        "Water of crystallisation: water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.",
+        "Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous.",
+        "Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.",
+        "Mass of water lost: 2.50 − 1.60 = 0.90 g.",
+        "Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).",
+        "Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.",
+        "Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O."
       ]
     },
     {
-      "h": "Open and closed systems",
+      "h": "What an equation shows",
       "points": [
-        "In an open flask, marble chips (calcium carbonate) reacting with hydrochloric acid make the mass on the balance decrease: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).",
-        "The carbon dioxide escapes, so the apparent loss of mass is gas leaving the flask, not mass being destroyed.",
-        "If the same reaction is done in a sealed flask, or with a balloon over the neck to trap the gas, the mass stays the same.",
-        "When magnesium burns in air, the product is heavier than the magnesium, because oxygen from the air has combined with it: 2Mg + O₂ → 2MgO."
+        "A chemical equation shows the reactants (left) and products (right), written as formulae.",
+        "A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).",
+        "State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.",
+        "The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.",
+        "For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water."
       ]
     },
     {
-      "h": "Explaining with models",
+      "h": "Balancing method",
       "points": [
-        "Particle model: in a reaction the atoms in the reactants are rearranged to form the products; no atoms are created or destroyed, so the total mass stays the same.",
-        "A balanced equation is a symbolic model of conservation: the silver nitrate equation has 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side.",
-        "A physical model, such as molecular model kits, shows the same idea: building the reactant molecules, taking them apart and rebuilding the product molecules uses exactly the same pieces.",
-        "Diagram: particle diagrams of 2H₂ + O₂ → 2H₂O, showing four H atoms and two O atoms before the reaction and after it."
+        "Step 1: Write the correct formula of every reactant and product.",
+        "Never change a formula to balance an equation; change only the coefficients.",
+        "Step 2: Count the atoms of each element on each side.",
+        "Step 3: Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.",
+        "Leave hydrogen, oxygen and any element on its own until last when balancing.",
+        "Step 4: Check every element again and make sure the coefficients are the smallest whole numbers.",
+        "Add state symbols to every formula.",
+        "Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂."
+      ]
+    },
+    {
+      "h": "Worked examples",
+      "points": [
+        "Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).",
+        "Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).",
+        "Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).",
+        "Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).",
+        "Aluminium and hydrochloric acid: 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).",
+        "Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).",
+        "Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).",
+        "Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).",
+        "Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)."
+      ]
+    },
+    {
+      "h": "Ionic equations",
+      "points": [
+        "An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).",
+        "Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+        "In that reaction Na⁺ and NO₃⁻ are spectator ions.",
+        "Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l).",
+        "An ionic equation must balance in charge as well as in atoms."
+      ]
+    },
+    {
+      "h": "Mole ratios from equations",
+      "points": [
+        "The balanced equation gives the mole ratio of any two substances in the reaction.",
+        "In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.",
+        "This mole ratio is the starting point for calculating masses of reactants and products, taught in the chapter “Stoichiometry: Limiting Reactants and Percentage Yield”."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Law of conservation of mass", "definition": "In a chemical reaction matter is neither created nor destroyed, so the products have the same total mass as the reactants." },
-    { "term": "Law of conservation of energy", "definition": "Energy cannot be created or destroyed, only changed from one form to another." },
-    { "term": "Precipitate", "definition": "A solid that forms and separates out from a solution during a reaction." },
-    { "term": "Closed system", "definition": "A sealed apparatus through which matter cannot enter or leave, so any mass change is measured within it." },
-    { "term": "Open system", "definition": "An apparatus through which gas can escape or enter, so the mass on a balance can appear to change." },
-    { "term": "Hypothesis", "definition": "A testable prediction of what an investigation will show and why." },
-    { "term": "Balanced equation", "definition": "An equation with the same number of atoms of each element on both sides." },
-    { "term": "Particle model", "definition": "The idea that matter is made of particles that are rearranged, not created or destroyed, in a reaction." }
+    {
+      "term": "Empirical formula",
+      "definition": "The simplest whole-number ratio of the atoms of each element in a compound."
+    },
+    {
+      "term": "Molecular formula",
+      "definition": "The actual number of atoms of each element in one molecule of a compound."
+    },
+    {
+      "term": "Relative atomic mass (Ar)",
+      "definition": "The average mass of an atom of an element compared with one twelfth of the mass of a carbon-12 atom."
+    },
+    {
+      "term": "Relative molecular mass (Mr)",
+      "definition": "The sum of the relative atomic masses of all the atoms in a formula."
+    },
+    {
+      "term": "Mole",
+      "definition": "The amount of a substance whose mass in grams equals its relative atomic or molecular mass."
+    },
+    {
+      "term": "Percentage composition",
+      "definition": "The percentage by mass of each element in a compound."
+    },
+    {
+      "term": "Water of crystallisation",
+      "definition": "Water held in a fixed ratio within the crystals of some salts, shown after a dot in the formula."
+    },
+    {
+      "term": "Anhydrous",
+      "definition": "Describes a salt with no water of crystallisation."
+    },
+    {
+      "term": "Balanced equation",
+      "definition": "An equation with the same number of atoms of each element on both sides."
+    },
+    {
+      "term": "Coefficient",
+      "definition": "The large number written in front of a formula that gives the number of moles or molecules in the equation."
+    },
+    {
+      "term": "State symbol",
+      "definition": "A symbol in brackets after a formula, (s), (l), (g) or (aq), showing its physical state."
+    },
+    {
+      "term": "Aqueous",
+      "definition": "Dissolved in water."
+    },
+    {
+      "term": "Diatomic element",
+      "definition": "An element whose molecules contain two atoms, such as O₂."
+    },
+    {
+      "term": "Ionic equation",
+      "definition": "An equation showing only the ions that take part in a reaction."
+    },
+    {
+      "term": "Spectator ion",
+      "definition": "An ion that is unchanged in solution and is left out of an ionic equation."
+    },
+    {
+      "term": "Mole ratio",
+      "definition": "The ratio of the moles of two substances, given by the coefficients in a balanced equation."
+    }
   ],
   "questions": [
     {
-      "marks": 12,
-      "prompt": "Describe an experiment to verify the law of conservation of mass, stating the results and explaining them in terms of particles.",
-      "model": "Method: pour sodium chloride solution into a conical flask. Half-fill a small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions do not mix. Stopper the flask and weigh the whole apparatus on an electronic balance reading to 0.01 g. Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq). Reweigh the stoppered flask. Repeat the investigation three times. Results: the mass before and after the reaction is the same within the precision of the balance, so mass is conserved. Explanation: the atoms in the reactants are only rearranged to form the products; no atoms are created or destroyed, so the total mass of the products equals the total mass of the reactants. The balanced equation shows 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side, which is a symbolic model of this conservation."
+      "marks": 9,
+      "prompt": "A compound contains 52.2% carbon, 13.0% hydrogen and 34.8% oxygen by mass, and its Mr is 46. Find its empirical and molecular formulae.",
+      "model": "Step 1: Divide each percentage by its relative atomic mass. C: 52.2 ÷ 12 = 4.35. H: 13.0 ÷ 1 = 13.0. O: 34.8 ÷ 16 = 2.175. Step 2: Divide each by the smallest value, 2.175. C: 4.35 ÷ 2.175 = 2.0. H: 13.0 ÷ 2.175 = 5.98, which is 6. O: 2.175 ÷ 2.175 = 1. The ratio C : H : O is 2 : 6 : 1, so the empirical formula is C₂H₆O. Step 3: The mass of the empirical formula unit is 2(12) + 6(1) + 16 = 46. Step 4: Mr ÷ empirical mass = 46 ÷ 46 = 1, so the molecular formula is the same as the empirical formula: C₂H₆O."
     },
     {
       "marks": 6,
-      "prompt": "When calcium carbonate is added to hydrochloric acid in an open flask on a balance, the mass decreases. Explain why, and how the experiment could be changed to show that mass is conserved.",
-      "model": "The reaction forms carbon dioxide gas: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). In an open flask the carbon dioxide escapes, so the mass on the balance decreases; the mass has not been destroyed. To show that mass is conserved, carry out the reaction in a sealed flask, or put a balloon over the neck to trap the gas. The total mass then stays the same before and after the reaction."
+      "prompt": "Calculate the percentage by mass of water in washing soda, Na₂CO₃·10H₂O (Na = 23).",
+      "model": "Step 1: Mr of Na₂CO₃·10H₂O = 2(23) + 12 + 3(16) + 10(18) = 46 + 12 + 48 + 180 = 286. Step 2: Mass of water = 10 × 18 = 180. Step 3: Percentage of water = 180 ÷ 286 × 100 = 62.9%."
+    },
+    {
+      "marks": 9,
+      "prompt": "Balance the following equations: (i) C₄H₁₀ + O₂ → CO₂ + H₂O, (ii) Fe + Cl₂ → FeCl₃, (iii) Ca(OH)₂ + HNO₃ → Ca(NO₃)₂ + H₂O.",
+      "model": "(i) Carbon: 4 atoms on the left, so 4 CO₂ on the right. Hydrogen: 10 atoms on the left, so 5 H₂O on the right. Oxygen: 8 + 5 = 13 atoms on the right, so 13/2 O₂ on the left. Doubling every coefficient gives 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. Check: C 8 = 8, H 20 = 20, O 26 = 26. (ii) Iron and chlorine: 2 Fe on the left needs 2 FeCl₃, which holds 6 Cl, so 3 Cl₂ on the left. Balanced equation: 2Fe + 3Cl₂ → 2FeCl₃. Check: Fe 2 = 2, Cl 6 = 6. (iii) Calcium: 1 on each side. Nitrate: 2 NO₃⁻ on the right, so 2HNO₃ on the left. Hydrogen: 2 + 2 = 4 on the left, so 2H₂O on the right. Balanced equation: Ca(OH)₂ + 2HNO₃ → Ca(NO₃)₂ + 2H₂O. Check: O 8 = 8, H 4 = 4, N 2 = 2."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why a chemical equation must be balanced, and state what the coefficients in 2H₂ + O₂ → 2H₂O tell you.",
+      "model": "A chemical equation must be balanced because atoms are conserved in a reaction, in line with the law of conservation of mass: atoms are rearranged to form the products but are not created or destroyed, so the same number of each kind of atom must appear on both sides. The coefficients give the mole ratio of the reaction: 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water."
     }
   ]
 }

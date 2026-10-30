@@ -1,90 +1,188 @@
 {
   "loId": "chem1-s6",
   "chapterId": "chem1",
-  "subsection": "6. Designing and conducting investigations",
-  "syllabusRef": "U2.3",
+  "subsection": "6. Chemistry in society and the media",
+  "syllabusRef": "U3.1–U3.2, U3.3",
   "notes": [
     {
-      "h": "Planning an investigation",
+      "h": "Contributions of scientists",
       "points": [
-        "A plan states the aim or hypothesis, the variables, the equipment and chemicals, a step-by-step method, the measurements to be taken and how often, and the number of repeats.",
-        "A plan also includes a risk assessment and states how the data will be recorded and analysed.",
-        "Choose a suitable range and number of values for the independent variable; at least five values across a sensible range is a suggested minimum.",
-        "Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison, e.g. hydrogen peroxide with no catalyst."
+        "Robert Boyle (born 25 January 1627 at Lismore Castle, Co. Waterford) pioneered experimental chemistry and argued that knowledge should come from experiment.",
+        "Boyle's law, published in 1662, relates the pressure and volume of a gas.",
+        "Dmitri Mendeleev published his periodic table in 1869, arranging the elements and leaving gaps for undiscovered elements.",
+        "Mendeleev predicted the properties of the undiscovered elements; the periodic table organises all of chemistry.",
+        "Alexander Fleming discovered penicillin, the first antibiotic, in 1928; he shared the Nobel Prize in 1945 with Florey and Chain.",
+        "Penicillin was mass-produced from the 1940s, and antibiotics have since saved very many lives.",
+        "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen (Nobel Prize 1918), and Carl Bosch scaled it up industrially in the early 1900s.",
+        "Ammonia-based fertilisers help feed much of the world's population, but the same chemistry was used to make explosives: a discovery can have both positive and negative impacts.",
+        "John Goodenough, Stanley Whittingham and Akira Yoshino developed the lithium-ion battery, for which they received the 2019 Nobel Prize in Chemistry.",
+        "Lithium-ion batteries power phones, laptops and electric vehicles."
       ]
     },
     {
-      "h": "Design terms: fairness, validity, reliability, error and integrity",
+      "h": "The role and importance of chemistry",
       "points": [
-        "Fairness (a fair test): only the independent variable is changed, and all other variables are controlled.",
-        "Validity: the investigation actually tests the hypothesis and measures what it claims to measure; it requires a fair test and suitable measurements.",
-        "Reliability: results can be trusted because they are consistent when the investigation is repeated.",
-        "Reliability is improved by repeating each measurement at least three times, calculating a mean, and comparing the results with those of other groups.",
-        "Accuracy and precision are improved by choosing suitable equipment and good technique; they are defined in “Measurement and error”.",
-        "Error: likely sources of error are identified in advance and the design is changed to reduce them, e.g. a burette rather than a measuring cylinder is used for accurate volumes.",
-        "Integrity: all results are recorded honestly, including unexpected ones; data are not invented, altered or selectively deleted; others' work is acknowledged."
+        "Personal: chemistry provides medicines, clean water, food, cleaning products, cosmetics, and materials for clothing and phones.",
+        "Personal: understanding chemical labels and hazards helps people make safe choices.",
+        "Social: chemistry supports public health through water treatment, vaccines and medicines.",
+        "Social: chemistry supports agriculture through fertilisers and pesticides, and provides jobs in the chemical and pharmaceutical industry.",
+        "Ireland has a large pharmaceutical industry.",
+        "Global: chemistry helps tackle climate change through cleaner fuels, batteries and carbon capture.",
+        "Global: chemistry helps tackle pollution, food security and the use of resources."
       ]
     },
     {
-      "h": "Selecting suitable equipment",
+      "h": "How society influences research",
       "points": [
-        "A pipette or burette is used for accurate volumes of solution.",
-        "A volumetric flask is used to make up a solution to an exact volume.",
-        "A measuring cylinder is used only where an approximate volume is enough.",
-        "A balance with a suitable resolution, e.g. 0.01 g, is used for small masses.",
-        "A thermometer or temperature probe with an appropriate range is used to measure temperature.",
-        "A gas syringe is used to measure gas volumes.",
-        "Data-loggers and sensors for pH, temperature and pressure give continuous readings.",
-        "Each choice of equipment is justified in terms of accuracy, precision and safety."
+        "Governments, companies and charities decide what research is funded, often according to social needs or profit.",
+        "Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic, or for alternatives to fossil fuels.",
+        "Laws and regulations, e.g. on chemical safety, emissions and animal testing, limit or direct research.",
+        "The ethical values of society decide what research is acceptable."
       ]
     },
     {
-      "h": "Safe laboratory practice",
+      "h": "Economic, social, sustainability and ethical factors",
       "points": [
-        "Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair.",
-        "Do not eat or drink in the laboratory, and wash hands after practical work.",
-        "Use a fume cupboard for toxic or harmful gases and for volatile, flammable or harmful liquids.",
-        "Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame.",
-        "When diluting concentrated acids, add the acid to water, never water to acid.",
-        "Use a pipette filler; never pipette by mouth.",
-        "Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed."
+        "Economic factors include the cost of development, production and disposal, jobs and profit.",
+        "Social factors include effects on health, safety, communities and quality of life.",
+        "Sustainability means meeting present needs without compromising future generations, through the use of renewable resources and energy and the management of waste.",
+        "Ethical factors include whether an application is right, e.g. fairness, risks to people or the environment, and informed consent.",
+        "Being personally effective means making informed choices, e.g. about recycling, energy use and product claims, and taking part in public debate using evidence."
       ]
     },
     {
-      "h": "Risk assessment",
+      "h": "Cross-cutting themes",
       "points": [
-        "A hazard is anything that could cause harm, such as a corrosive acid.",
-        "A risk is the likelihood that harm will happen and how serious it would be.",
-        "1. Identify each hazard from labels, hazard pictograms and safety data sheets.",
-        "2. Assess the risk of each hazard.",
-        "3. Decide on control measures that reduce the risk.",
-        "4. Know what to do in an emergency.",
-        "The GHS (Globally Harmonized System) uses nine hazard pictograms, each with a red diamond border: corrosive, flammable, toxic, harmful or irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive and compressed gas.",
-        "Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns; controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water."
+        "The specification's three cross-cutting themes are Health, Sustainability and Technology.",
+        "The themes are lenses for looking at how chemistry applies to real life, and the written examination includes questions on them."
+      ]
+    },
+    {
+      "h": "Why media reports need evaluating",
+      "points": [
+        "News, advertising and social media may simplify, exaggerate or sensationalise science.",
+        "They may report a single study as settled fact, or leave out uncertainty and context.",
+        "Headlines are written to attract attention and may not match the findings of the study."
+      ]
+    },
+    {
+      "h": "Questions to ask of a media claim",
+      "points": [
+        "What exactly is being claimed, and is it a scientific claim that can be tested with evidence?",
+        "Where does the claim come from: is the original study named, peer-reviewed and available?",
+        "How strong is the evidence: what is the sample size, were there controls, have the results been reproduced, and was the study done in people, animals or cells?",
+        "Is cause being confused with correlation?",
+        "Who benefits: is the source selling a product or promoting a view, and who funded the research?",
+        "Do other independent experts and sources agree?",
+        "Are scientific words used correctly, or misused to sound convincing, e.g. “chemical-free” or “natural means safe”?"
+      ]
+    },
+    {
+      "h": "Discussing scientific claims",
+      "points": [
+        "Separate evidence from opinion, and base conclusions on the weight of the evidence.",
+        "Acknowledge uncertainty and the limits of current knowledge.",
+        "Consider different perspectives, economic, social, ethical and environmental, while keeping the scientific evidence separate from them."
+      ]
+    },
+    {
+      "h": "Common misleading claims and the chemistry",
+      "points": [
+        "“Chemical-free”: everything, including water and food, is made of chemicals.",
+        "“Natural is always safe; synthetic is dangerous”: toxicity depends on the substance and the dose, not on whether it is natural.",
+        "Some natural substances are highly toxic, and a synthetic substance can be identical to a natural one.",
+        "Alkaline-water and detox claims: the body controls its own pH, and drinking alkaline water does not change blood pH.",
+        "Human blood pH is kept between about 7.35 and 7.45.",
+        "Stomach acid has a pH of about 1.5 to 3.5, so it is strongly acidic."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Fair test", "definition": "An investigation in which only the independent variable is changed and all other variables are controlled." },
-    { "term": "Validity", "definition": "The extent to which an investigation actually tests the hypothesis and measures what it claims to measure." },
-    { "term": "Reliability", "definition": "The extent to which results are consistent when an investigation is repeated, so that they can be trusted." },
-    { "term": "Control", "definition": "A set-up in which the factor being tested is absent, used for comparison." },
-    { "term": "Integrity", "definition": "Recording all results honestly, including unexpected ones, and not inventing, altering or selectively deleting data." },
-    { "term": "Hazard", "definition": "Anything that could cause harm." },
-    { "term": "Risk", "definition": "The likelihood that harm will happen, and how serious it would be." },
-    { "term": "Risk assessment", "definition": "The process of identifying hazards, assessing their risks and deciding on control measures." },
-    { "term": "Fume cupboard", "definition": "A ventilated enclosure that removes toxic or harmful fumes from the work area." }
+    {
+      "term": "Sustainability",
+      "definition": "Meeting present needs without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "term": "Antibiotic",
+      "definition": "A medicine that kills or stops the growth of bacteria; penicillin was the first to be discovered."
+    },
+    {
+      "term": "Cross-cutting theme",
+      "definition": "One of the themes of Health, Sustainability and Technology, used to look at how chemistry applies to real life."
+    },
+    {
+      "term": "Economic factor",
+      "definition": "A consideration in applying chemistry, such as the cost of development, production or disposal, jobs and profit."
+    },
+    {
+      "term": "Social factor",
+      "definition": "A consideration in applying chemistry, such as its effects on health, safety, communities and quality of life."
+    },
+    {
+      "term": "Ethical factor",
+      "definition": "A consideration in applying chemistry, such as whether an application is fair and whether it risks harm to people or the environment."
+    },
+    {
+      "term": "Informed consent",
+      "definition": "Agreement to take part in or accept an activity given by someone who understands its risks and benefits."
+    },
+    {
+      "term": "Funding",
+      "definition": "Money provided by governments, companies or charities that decides which research takes place."
+    },
+    {
+      "term": "Sensationalise",
+      "definition": "To present a scientific finding in a dramatic way that exaggerates its importance or certainty."
+    },
+    {
+      "term": "Peer-reviewed study",
+      "definition": "A study whose method and conclusions have been checked by independent experts before publication."
+    },
+    {
+      "term": "Correlation",
+      "definition": "A relationship between two variables in which one tends to change with the other."
+    },
+    {
+      "term": "Causation",
+      "definition": "A relationship in which a change in one variable is shown to produce a change in another."
+    },
+    {
+      "term": "Toxicity",
+      "definition": "The degree to which a substance can cause harm to a living organism."
+    },
+    {
+      "term": "Dose",
+      "definition": "The amount of a substance taken in or exposed to."
+    },
+    {
+      "term": "Conflict of interest",
+      "definition": "A situation in which a researcher or source has a financial or other interest that could influence their findings."
+    },
+    {
+      "term": "pH",
+      "definition": "A measure of how acidic or alkaline a solution is, with lower values more acidic."
+    }
   ],
   "questions": [
     {
       "marks": 9,
-      "prompt": "Explain how fairness, reliability and validity would be ensured in an investigation of the effect of temperature on the rate of a reaction.",
-      "model": "Fairness: only the temperature is changed, using a water bath set to each chosen value, and the concentrations and volumes of the reactants and the other conditions are kept the same. Reliability: each temperature is repeated at least three times, a mean is calculated, and the results are compared with those of other groups; any repeat that differs widely is checked. Validity: the method measures the rate directly, for example as the time taken for a set change to occur, the temperature is measured at the moment of reaction, and the hypothesis is tested across a suitable range of temperatures using at least five values."
+      "prompt": "Describe the contribution of one named scientist to chemistry and evaluate its impact on society.",
+      "model": "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen, for which he received the Nobel Prize in 1918, and Carl Bosch scaled the process up industrially. Ammonia is used to make fertilisers that help feed much of the world's population, a positive impact on food security. The same chemistry was used to make explosives, a negative impact. The overall impact therefore depends on how the discovery is used, and it raises ethical and economic questions for society."
     },
     {
       "marks": 6,
-      "prompt": "Carry out a risk assessment for diluting concentrated sulfuric acid to make a dilute solution.",
-      "model": "Hazard: concentrated sulfuric acid is corrosive. Risk: the acid can cause severe burns to skin and eyes, and heat is released when it is diluted, which may cause splashing; the risk is high because the acid is concentrated. Control measures: wear goggles, a lab coat and gloves; add the acid slowly to water, never water to acid; use a small volume with a pipette filler. Emergency: if the acid touches the skin, wash it with plenty of water, and know the location of the eyewash."
+      "prompt": "Give two ways in which society influences scientific research.",
+      "model": "Funding: governments, companies and charities decide which research is funded, often according to social needs or profit. Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic."
+    },
+    {
+      "marks": 9,
+      "prompt": "An advertisement claims a shampoo is 'chemical-free and 100% natural, so it is completely safe'. Evaluate this claim.",
+      "model": "The claim that the shampoo is chemical-free is misleading, because everything, including water, is made of chemicals. The claim that it is natural and therefore safe is also misleading, because toxicity depends on the substance and the dose, not on whether it is natural; some natural substances are highly toxic. The source should be checked: the advertisement is selling the product, so its claims may present only one side, and it should be asked whether the safety claim is supported by a named, peer-reviewed study. Other independent sources should be checked to see whether they agree that the product is completely safe."
+    },
+    {
+      "marks": 6,
+      "prompt": "State three questions you would ask to evaluate a newspaper report of a new scientific discovery.",
+      "model": "Three questions: What exactly is being claimed, and is it testable with evidence? Is the original study named, peer-reviewed and available, and how strong is its evidence, including its sample size, controls and whether the results have been reproduced? Who benefits from the claim, and who funded the research? Other questions include whether cause is being confused with correlation, and whether independent experts agree."
     }
   ]
 }

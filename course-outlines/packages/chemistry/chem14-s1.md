@@ -1,6 +1,7 @@
 # Package: chem14-s1 — Oxidation and reduction
 
 - **loId:** `chem14-s1` · **chapterId:** `chem14` · **syllabusRef:** 3.5.1
+
 - **Syllabus:** 3.5.1 "describe oxidation and reduction, using suitable examples and
   applications, identifying oxidising and reducing agents in given chemical reactions". Learn
   about: "suitable examples and applications including: corrosion and its prevention, combustion
@@ -10,8 +11,8 @@
 - **Prepared by:** a higher model, 2026-10-30. Definitions (oxygen, electron transfer and, for
   HL, oxidation number), oxidising and reducing agents, all four applications the specification
   names, and the rules for assigning oxidation numbers. Using oxidation numbers to balance
-  equations is in "Balancing redox equations"; the electrochemical series and displacement are
-  in "The electrochemical series and displacement"; titrations are in "Redox titrations". Don't
+  equations is in "Balancing redox equations and the electrochemical series"; the electrochemical series and displacement are
+  in "Balancing redox equations and the electrochemical series"; titrations are in "Redox titrations and iron tablets". Don't
   repeat them here.
 
 ## 1. Must cover
@@ -35,7 +36,7 @@ Oxidising and reducing agents (one block)
 - [ ] A3 To identify them: find which species loses electrons (it is oxidised and is the reducing agent) and which gains electrons (it is reduced and is the oxidising agent).
 - [ ] A4 Example: in Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion (copper(II) sulfate) is the oxidising agent (reduced, Cu²⁺ → Cu); the sulfate ion takes no part (a spectator ion).
 - [ ] A5 Example: in 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
-- [ ] A6 Example: bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq); bromine is the oxidising agent and sulfite the reducing agent. (Halogen displacement reactions, another example, are in "Specific groups".)
+- [ ] A6 Example: bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq); bromine is the oxidising agent and sulfite the reducing agent. (Halogen displacement reactions, another example, are in "Families and trends in the periodic table".)
 
 Everyday oxidising and reducing agents (one block)
 - [ ] U1 Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms by oxidising them.
@@ -52,12 +53,12 @@ Corrosion and its prevention (one block)
 - [ ] C7 Sacrificial protection: a block of a more reactive metal (zinc or magnesium) is attached to steel ship hulls or underground pipes; it is oxidised (corrodes) instead of the steel and is replaced from time to time.
 
 Combustion, respiration and iron tablets (one block)
-- [ ] R1 Combustion of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). The energy released is in "Combustion".
+- [ ] R1 Combustion of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). The energy released is in "Combustion and heats of combustion".
 - [ ] R2 Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l); glucose is oxidised and oxygen is reduced. Photosynthesis is the reverse: carbon dioxide is reduced to glucose.
 - [ ] R3 Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia, treated with iron tablets.
 - [ ] R4 Iron tablets contain iron as iron(II), Fe²⁺ (e.g. iron(II) sulfate), because iron(II) is the form the body absorbs best. Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻.
 - [ ] R5 Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
-- [ ] R6 The iron(II) in a tablet can be measured by titration with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺ (see "Investigation: iron in iron tablets").
+- [ ] R6 The iron(II) in a tablet can be measured by titration with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺ (see "Redox titrations and iron tablets").
 
 Oxidation numbers: meaning and use (Higher Level only)
 - [ ] N1 [HL] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules; in a covalent bond the shared electrons are given to the more electronegative atom.
@@ -100,7 +101,7 @@ Assigning oxidation numbers: worked examples (Higher Level only)
 | C6, C7 | Galvanising = zinc coating; sacrificial blocks of zinc or magnesium on ships' hulls and pipes. |
 | R3 | Haemoglobin contains iron; iron deficiency causes anaemia. |
 | R5 | Vitamin C reduces Fe³⁺ to Fe²⁺ and improves iron absorption. |
-| O6, O8 | Pauling electronegativities (as in "Electronegativity and bond type"): H 2.20, Na 0.93, Ca 1.00; S 2.58, C 2.55; F 3.98, O 3.44. |
+| O6, O8 | Pauling electronegativities (as in "Bond type and intermolecular forces"): H 2.20, Na 0.93, Ca 1.00; S 2.58, C 2.55; F 3.98, O 3.44. |
 
 ## 3. Traps
 
@@ -109,7 +110,7 @@ Assigning oxidation numbers: worked examples (Higher Level only)
 - An oxidation number is written +2 (sign first); an ionic charge is written 2+.
 - Oxidation numbers are required only for compounds of the first 36 elements. Iodine is element 53: I₂ (0) and I⁻ (−1) follow from rules 1 and 2, but don't assign oxidation numbers in iodine's compounds (e.g. iodates). Transition-metal chemistry and variable valency as a topic are not on the specification; Mn, Cr, Fe and Cu appear only as oxidation-number examples and in the redox titrations.
 - Hydrogen in metal hydrides is −1 and oxygen in peroxides is −1 and in OF₂ is +2; these exceptions are asked often.
-- Combustion energy belongs to "Combustion"; electrochemical cells belong to the electrochemistry chapter; don't teach cells here.
+- Combustion energy belongs to "Combustion and heats of combustion"; electrochemical cells belong to the electrochemistry chapter; don't teach cells here.
 - Metal extraction (blast furnace, thermit reaction) is not on the specification; use E3 only to explain the word "reduction".
 
 ## 4. What exams ask (topics only)

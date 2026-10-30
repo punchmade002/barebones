@@ -1,77 +1,89 @@
-# Package: chem5-s2 — Modelling bonding and predicting formulae
+# Package: chem5-s2 — Investigation: identifying ions in salts and solutions
 
-- **loId:** `chem5-s2` · **chapterId:** `chem5` · **syllabusRef:** 2.1.3
-- **Syllabus:** 2.1.3 "model different types of bonding to predict chemical formulae **and
-  outline the limitations in predicting bonding between atoms**". Learn about: "using Lewis
-  diagrams to represent bonds and how bonding can be described in terms of orbital overlap,
-  **including the orbital overlap in sigma and pi bonds, and delocalised bonding**"; "predicting
-  how atoms bond involving the use of valence and the application of the octet rule (limited to
-  the first 20 elements) **(36)**". Bold = Higher Level only.
-- **Prepared by:** a higher model, 2026-10-30. Ordinary part: valency, octet rule, formulae,
-  Lewis diagrams, simple idea of orbital overlap. Higher Level blocks: sigma and pi bonds,
-  delocalised bonding, extension to element 36, limitations. Shapes are in "VSEPR theory".
+- **loId:** `chem5-s2` · **chapterId:** `chem5` · **syllabusRef:** 2.1.5
+
+- **Syllabus:** 2.1.5 "investigate, using primary data, the presence of ions in salts and in
+  solutions, and identify an anion and cation in an unknown salt" (EI: Experimental
+  Investigation). Learn about: "using primary evidence to identify the presence and nature of
+  ions in salts, and in solutions, above certain minimum concentrations, observed through:
+  flame tests; reaction with reagents (equations required); specific anions, linked to
+  treatment, hardness and contamination of water, can be identified: chlorides, nitrates,
+  phosphates, sulfates, sulfites, carbonates, hydrogencarbonates". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. One block per anion test (reagent, observation,
+  ionic equation), a block on the cation (flame test, by reference), the water link, and a full
+  investigation block for an unknown salt. The flame-test method and colours are in "Identifying
+  elements"; refer there.
 
 ## 1. Must cover
 
-Valency and the octet rule (one block)
-- [ ] V1 Valency: the number of electrons an atom loses, gains or shares when it bonds (the combining power of an element).
-- [ ] V2 The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level (two for hydrogen, which matches helium).
-- [ ] V3 Valencies from the group: group 1 = 1, group 2 = 2, group 13 = 3, group 14 = 4, group 15 = 3, group 16 = 2, group 17 = 1.
+General points (one block)
+- [ ] G1 A salt contains a cation (positive ion, usually a metal) and an anion (negative ion); dissolve a little of the salt in deionised water to test for the anion in solution.
+- [ ] G2 Tests work only above a certain minimum concentration of the ion; very dilute solutions may give no visible result.
+- [ ] G3 Use deionised water and clean test tubes so that ions from tap water or other samples don't give false results; test a blank of deionised water as a control.
+- [ ] G4 (assumed) A precipitate is an insoluble solid that forms when two solutions are mixed; effervescence is fizzing as a gas is given off.
 
-Predicting formulae (one block, skills)
-- [ ] F1 Ionic: write the charge on each ion and combine them so the total charge is zero, e.g. Ca²⁺ and Cl⁻ give CaCl₂; Al³⁺ and O²⁻ give Al₂O₃; Mg²⁺ and N³⁻ give Mg₃N₂.
-- [ ] F2 (assumed) Common compound ions and their charges: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻, phosphate PO₄³⁻, ammonium NH₄⁺; brackets are used when more than one is needed, e.g. Ca(OH)₂, (NH₄)₂SO₄.
-- [ ] F3 Covalent: atoms share enough electron pairs to complete each octet, e.g. hydrogen (valency 1) and oxygen (valency 2) form H₂O; nitrogen (3) and hydrogen form NH₃; carbon (4) and hydrogen form CH₄; carbon and oxygen form CO₂ with two double bonds.
+Chloride (one block)
+- [ ] C1 Add a few drops of silver nitrate solution (acidified with dilute nitric acid): a white precipitate of silver chloride forms. Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+- [ ] C2 Confirm: the precipitate dissolves in dilute ammonia solution. (Nitric acid is added first to remove carbonate ions, which would also give a precipitate.)
 
-Lewis (dot-and-cross) diagrams (one block)
-- [ ] L1 A Lewis diagram shows the outer electrons of each atom as dots or crosses; shared pairs sit between the atoms; lone pairs are pairs not used in bonding.
-- [ ] L2 Ionic: show the ions in square brackets with their charges, e.g. [Na]⁺ [Cl]⁻ with eight electrons around chlorine; MgO as [Mg]²⁺ [O]²⁻.
-- [ ] L3 Covalent examples to draw: H₂, Cl₂, HCl, H₂O (two lone pairs on O), NH₃ (one lone pair on N), CH₄, O₂ (double bond), N₂ (triple bond), CO₂ (two double bonds).
-- [ ] L4 Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen.
+Sulfate and sulfite (one block)
+- [ ] S1 Add barium chloride solution: both sulfate and sulfite give a white precipitate. Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s); Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).
+- [ ] S2 Then add dilute hydrochloric acid: barium sulfate does not dissolve; barium sulfite dissolves. BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).
+- [ ] S3 Safety: barium compounds are toxic; sulfur dioxide is a toxic, choking gas (small amounts, good ventilation).
 
-Orbital overlap (one block)
-- [ ] O1 A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron; the shared pair occupies the overlap region between the nuclei.
+Carbonate and hydrogencarbonate (one block)
+- [ ] K1 Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide. CO₃²⁻ + 2H⁺ → CO₂ + H₂O; HCO₃⁻ + H⁺ → CO₂ + H₂O.
+- [ ] K2 Confirm carbon dioxide: it turns limewater milky. Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+- [ ] K3 Distinguish them with magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold (Mg²⁺ + CO₃²⁻ → MgCO₃); a hydrogencarbonate gives no precipitate until the mixture is heated.
+- [ ] K4 On heating the hydrogencarbonate mixture: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l).
 
-Sigma and pi bonds (Higher Level only; one block)
-- [ ] S1 [HL] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei, e.g. s–s (H₂), s–p (HCl), p–p end-on (Cl₂).
-- [ ] S2 [HL] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
-- [ ] S3 [HL] Every single bond is a σ bond; a double bond is one σ and one π bond; a triple bond is one σ and two π bonds (N₂).
-- [ ] S4 [HL] π bonds are weaker than σ bonds because sideways overlap is less effective, and they prevent rotation about a double bond.
-- [ ] S5 [HL] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals showing electron density above and below the axis (π).
+Nitrate: the brown ring test (one block)
+- [ ] N1 Add freshly made iron(II) sulfate solution to the test solution in a test tube.
+- [ ] N2 Hold the tube at an angle and carefully run concentrated sulfuric acid down the side so it forms a dense layer at the bottom; don't shake.
+- [ ] N3 A brown ring forms where the two layers meet, showing nitrate.
+- [ ] N4 Chemistry: iron(II) reduces nitrate to nitrogen monoxide, which forms a brown complex with more iron(II): 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O; Fe²⁺ + NO → [FeNO]²⁺ (brown).
+- [ ] N5 Safety: concentrated sulfuric acid is very corrosive; goggles and gloves; add slowly.
 
-Delocalised bonding (Higher Level only; one block)
-- [ ] D1 [HL] In delocalised bonding, electrons are not confined between two atoms but are spread over several atoms.
-- [ ] D2 [HL] In benzene (C₆H₆), each carbon uses one p orbital; the six p orbitals overlap sideways all round the ring, forming a ring of delocalised π electrons above and below the plane of the ring.
-- [ ] D3 [HL] As a result all six carbon–carbon bonds in benzene are identical, in between single and double bonds in length. (Benzene's structure is used again in "Shapes in terms of sigma and pi bonds" in the hydrocarbons chapter.)
+Phosphate (one block)
+- [ ] P1 Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently: a yellow precipitate (ammonium phosphomolybdate) shows phosphate.
+- [ ] P2 Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.
+- [ ] P3 Safety: concentrated nitric acid is corrosive and an oxidising agent; use a fume cupboard.
 
-Predicting bonding to element 36 (Higher Level only; one block)
-- [ ] E1 [HL] The same rules apply to elements 21–36 in the main groups: e.g. potassium bromide K⁺Br⁻; calcium bromide CaBr₂; gallium (group 13) forms Ga³⁺; arsenic (group 15) and hydrogen form AsH₃; selenium (group 16) and hydrogen form H₂Se.
+Links to water (one block)
+- [ ] W1 Chlorides: from sea water and road salt; chlorination of water also gives chloride.
+- [ ] W2 Nitrates and phosphates: from fertilisers, animal slurry, sewage and detergents; they contaminate water and cause eutrophication (taught in the environmental chemistry chapter).
+- [ ] W3 Hardness: hard water contains dissolved calcium and magnesium ions; with hydrogencarbonate ions they cause temporary hardness (removed by boiling), and with sulfate or chloride ions permanent hardness. Hard water forms scum with soap.
+- [ ] W4 Carbonates and hydrogencarbonates come from water flowing over limestone (calcium carbonate).
 
-Limitations in predicting bonding (Higher Level only; one block)
-- [ ] X1 [HL] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃ (six around boron).
-- [ ] X2 [HL] Elements in period 3 and beyond can have more than eight outer electrons, e.g. PCl₅ (ten around phosphorus) and SF₆ (twelve around sulfur).
-- [ ] X3 [HL] The octet rule and Lewis diagrams don't predict the shape of a molecule, how polar a bond is, or bond strength; they can't show delocalised bonding as in benzene.
-- [ ] X4 [HL] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+Investigation: identifying an unknown salt (one block)
+- [ ] U1 Aim: to identify the cation and the anion in an unknown salt using primary data.
+- [ ] U2 Step 1: Carry out a flame test on the solid to identify the cation (see "The orbital model and electronic structure": Na, K, Cu, Li, Ba, Sr).
+- [ ] U3 Step 2: Dissolve a little of the salt in deionised water (test the solid for carbonate and hydrogencarbonate with acid first).
+- [ ] U4 Step 3: Carry out the anion tests on separate portions in a logical order, recording the reagent, observation and conclusion in a table.
+- [ ] U5 Step 4: Run each test on a known sample of the ion alongside, as a positive control, and on deionised water as a negative control.
+- [ ] U6 Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate soluble in ammonia indicate potassium chloride, KCl.
+- [ ] U7 Diagram: the brown ring test tube showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary.
 
 ## 2. Checked facts and examples
 
-All formulae above are standard.
+All reagents, observations and equations above are standard. Phosphomolybdate precipitate is yellow.
 
 ## 3. Traps
 
-- Transition metal ions are not required; don't predict formulae with variable-valency metals.
-- Dative (coordinate) bonding is not on the specification; NH₄⁺ is given only as an ion to use in formulae.
-- VSEPR shapes belong to "VSEPR theory"; don't explain shapes here.
+- Barium sulfite dissolves in dilute HCl; barium sulfate doesn't. Don't swap them.
+- Silver nitrate is acidified with nitric acid, not hydrochloric acid (which adds chloride).
+- Only the seven anions and the six flame-test cations named in the specification.
+- Water treatment, eutrophication and BOD are taught in the environmental chemistry chapter; give the links in one bullet each.
 
 ## 4. What exams ask (topics only)
 
-- Draw dot-and-cross diagrams for given ionic and covalent compounds.
-- Predict the formula of a compound.
-- Distinguish sigma and pi bonds; state the number of each in a molecule (Higher Level).
-- State an exception to the octet rule (Higher Level).
+- Describe tests for chloride, sulfate, sulfite, carbonate, hydrogencarbonate, nitrate and phosphate, with observations and equations.
+- Distinguish carbonate from hydrogencarbonate; sulfate from sulfite.
+- Identify a salt from given test results.
+- Cause of temporary and permanent hardness.
 
 ## 5. Practice questions to write
 
-1. 9 marks: "Draw dot-and-cross diagrams to show the bonding in (i) magnesium oxide, (ii) ammonia, (iii) carbon dioxide." Model answer: L2, L3.
-2. 9 marks (Higher Level): "Distinguish between a sigma bond and a pi bond, and state the number of each in a nitrogen molecule." Model answer: S1–S3; one σ and two π.
-3. 6 marks (Higher Level): "Explain, with two examples, the limitations of the octet rule in predicting bonding." Model answer: X1, X2 (or X3).
+1. 12 marks: "Describe how you would show that a solution contains (i) chloride ions, (ii) sulfate ions rather than sulfite ions. Give the observations and a balanced ionic equation for each." Model answer: C1, C2, S1, S2.
+2. 9 marks: "Describe the brown ring test for the nitrate ion, including one safety precaution." Model answer: N1–N3, N5.
+3. 6 marks: "A white salt gives a crimson flame and effervescence with dilute hydrochloric acid, and its solution gives an immediate white precipitate with magnesium sulfate solution. Identify the salt and explain each result." Model answer: lithium carbonate, Li₂CO₃; C1 of flame colours via U2; K1, K3.

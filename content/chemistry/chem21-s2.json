@@ -1,81 +1,238 @@
 {
   "loId": "chem21-s2",
   "chapterId": "chem21",
-  "subsection": "2. Exothermic and endothermic reactions",
-  "syllabusRef": "3.1.2",
+  "subsection": "2. Calculating ΔH and the heat of neutralisation",
+  "syllabusRef": "3.1.3, 3.1.4",
   "notes": [
     {
-      "h": "Definitions and evidence",
+      "h": "Aim and chemistry",
       "points": [
-        "An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants.",
-        "An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants.",
-        "In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.",
-        "In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.",
-        "A thermochemical equation is a balanced equation with state symbols and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.",
-        "State symbols matter because changes of state also have enthalpy changes.",
-        "Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.",
-        "ΔH is proportional to the amounts in the equation: doubling every coefficient doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726)."
+        "Aim: to determine the heat of neutralisation (ΔH) of hydrochloric acid by sodium hydroxide, using primary data.",
+        "Heat of neutralisation: the heat change when one mole of water is formed in the reaction between an acid and a base, i.e. one mole of H⁺ ions reacting with one mole of OH⁻ ions.",
+        "Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l); ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l).",
+        "ΔH is the heat change at constant pressure; the cup is open to the atmosphere, so the pressure is constant.",
+        "The heat released by the reaction is absorbed by the solution, so the heat produced is found from the temperature rise of the solution: Q = m × c × ΔT."
       ]
     },
     {
-      "h": "Exothermic examples",
+      "h": "Apparatus and method",
       "points": [
-        "Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.",
-        "Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹; the ionic equation is H⁺(aq) + OH⁻(aq) → H₂O(l).",
-        "Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.",
-        "Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide; the simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.",
-        "Rusting is exothermic, but the heat is released so slowly that it isn't noticed; hand warmers use fast oxidation of iron powder to give out heat.",
-        "Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing."
+        "Step 1: using a graduated cylinder (or, more accurately, a burette or pipette), measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup.",
+        "Step 2: measure 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker.",
+        "Step 3: allow both solutions to reach room temperature, then measure the temperature of each with a thermometer reading to 0.1 °C (or a temperature sensor).",
+        "Step 4: rinse and dry the thermometer between the two measurements; if the two temperatures differ, take their average as the initial temperature.",
+        "Step 5: add the sodium hydroxide to the acid quickly and all at once, put on the lid, and stir gently with the thermometer (or a stirrer).",
+        "Step 6: record the highest temperature reached.",
+        "Step 7: repeat the experiment and use the mean temperature rise.",
+        "Diagram: a polystyrene cup with a lid, a thermometer through the lid into the solution, a stirrer, and the cup standing in a beaker for support."
       ]
     },
     {
-      "h": "Endothermic examples",
+      "h": "Why each choice is made",
       "points": [
-        "Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).",
-        "Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.",
-        "Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.",
-        "Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.",
-        "Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution."
+        "Polystyrene foam is a good insulator with a very low heat capacity, so little heat is lost to the surroundings or absorbed by the cup; glass or metal would conduct heat away and absorb heat.",
+        "The lid reduces heat loss by convection and evaporation.",
+        "Moderately concentrated (1.00 M) solutions give a large enough temperature rise (about 7 °C) to measure accurately; with 0.1 M solutions the rise would be under 1 °C, and the percentage error in reading it would be very large.",
+        "Equal amounts of acid and base (same volume and concentration) are used so that all of each reacts, so the moles of water formed is known.",
+        "Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum temperature is recorded before heat is lost.",
+        "A thermometer reading to 0.1 °C is needed because the temperature change is small.",
+        "A burette or pipette measures volumes more accurately than a graduated cylinder; the disadvantage of adding the base slowly from a burette is that heat is lost while it is added."
       ]
     },
     {
-      "h": "Modelling energy transfer with enthalpy level diagrams",
+      "h": "Better method: temperature–time graph",
       "points": [
-        "An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.",
-        "Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.",
-        "Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.",
-        "A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).",
-        "Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).",
-        "Energy profile diagrams, which also show the activation energy along the reaction pathway, are in “Calculating ΔH and energy profiles”."
+        "Record the temperature of the acid every 30 s for a few minutes before mixing, then add the base at a recorded time.",
+        "Record the temperature every 30 s for several minutes after mixing.",
+        "After the maximum, the temperature falls gradually because heat is lost to the surroundings.",
+        "Plot temperature against time and extrapolate the cooling line back to the time of mixing; the temperature rise read from the graph allows for heat lost while the mixture was warming up, giving a more accurate ΔT.",
+        "Diagram: a temperature–time graph with a flat line before mixing, a sharp rise, a gently falling line after the maximum, and the falling line extended back to the time of mixing to give ΔT."
+      ]
+    },
+    {
+      "h": "Sample calculation (sample data)",
+      "b": "Each step uses the total mass of the mixture, not the mass of acid alone.",
+      "points": [
+        "Data: 50.0 cm³ of 1.00 M HCl and 50.0 cm³ of 1.00 M NaOH; initial temperature 18.4 °C; maximum 25.0 °C.",
+        "Temperature rise: ΔT = 25.0 − 18.4 = 6.6 °C = 6.6 K; a temperature change is the same in °C and K, so no conversion is needed.",
+        "Mass of solution: 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg, assuming the density and specific heat capacity are those of water.",
+        "Heat produced: Q = m × c × ΔT = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.6 K = 2.76 kJ.",
+        "Moles of water formed = moles of HCl = 1.00 × 0.0500 = 0.0500 mol.",
+        "Heat per mole: 2.76 kJ ÷ 0.0500 mol = 55.2 kJ mol⁻¹.",
+        "The reaction gives out heat, so ΔH = −55.2 kJ mol⁻¹: Q is the heat gained by the solution, and ΔH is the heat lost by the reaction.",
+        "Comparison: the accepted value for a strong acid with a strong base is about −57 kJ mol⁻¹; the experimental value is less negative mainly because some heat was lost to the surroundings and absorbed by the cup and thermometer."
+      ]
+    },
+    {
+      "h": "Comparing acids and bases",
+      "points": [
+        "All strong acid–strong base neutralisations have almost the same ΔH, about −57 kJ mol⁻¹, because the acids and bases are fully dissociated and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators.",
+        "With a weak acid (e.g. ethanoic acid) or a weak base (e.g. ammonia), ΔH is slightly less negative, because some energy is used to complete the dissociation of the weak acid or base as it reacts.",
+        "With a diprotic acid, count moles of water, not moles of acid: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l).",
+        "Sample data: 25.0 cm³ of 2.00 M H₂SO₄ + 50.0 cm³ of 2.00 M NaOH, with ΔT = 17.8 K.",
+        "Mass of solution = 75.0 cm³ = 0.0750 kg, so Q = 0.0750 × 4.18 × 17.8 = 5.58 kJ.",
+        "Moles of water = moles of NaOH = 0.100 mol, so ΔH = −55.8 kJ mol⁻¹ per mole of water.",
+        "Doubling the volumes of the same solutions gives the same ΔT: twice the moles react and twice the heat is produced, but it heats twice the mass of solution."
+      ]
+    },
+    {
+      "h": "Safety and sources of error",
+      "points": [
+        "Safety: 1.00 M hydrochloric acid and sodium hydroxide are corrosive, sodium hydroxide especially to the eyes; wear safety glasses and gloves and wipe up spills.",
+        "Both bottles carry the GHS corrosion pictogram: liquid dripping from two test tubes onto a hand and a surface.",
+        "Errors that make the value less negative: heat lost to the air and bench; heat absorbed by the cup and thermometer; not recording the true maximum temperature; solutions starting at different temperatures.",
+        "Assumption error: the solution's density and specific heat capacity are taken as those of water.",
+        "Improvements: use the temperature–time graph, a lid, two nested cups, a more precise thermometer or temperature sensor, and burettes or pipettes for volumes."
+      ]
+    },
+    {
+      "h": "Standard conditions",
+      "points": [
+        "Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.",
+        "Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa).",
+        "Solutions have a concentration of 1 mol L⁻¹, and each substance is in its standard state, its normal physical state under these conditions, e.g. water as a liquid and carbon as graphite.",
+        "A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °).",
+        "IUPAC now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.",
+        "Standard conditions are not s.t.p. (0 °C, 273 K and 101.3 kPa), which is used for gas volumes; see “Molar volume and Avogadro's law”."
+      ]
+    },
+    {
+      "h": "Calculating ΔH by measurement",
+      "points": [
+        "Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.",
+        "Step 2: calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution in kg, c is its specific heat capacity (4.18 kJ kg⁻¹ K⁻¹ for water) and ΔT is the temperature change in K or °C.",
+        "Step 3: calculate the moles of the reactant that reacted completely (the limiting reactant), using n = concentration × V (in L) for solutions or n = m ÷ M for solids and liquids.",
+        "Step 4: heat per mole = Q ÷ n, in kJ mol⁻¹, scaled to the moles in the balanced equation if the heat of reaction is asked for.",
+        "Step 5: give ΔH a sign: negative if the temperature rose (exothermic), positive if it fell (endothermic).",
+        "Q is always positive; the sign of ΔH comes only from whether the temperature rose or fell.",
+        "Specific heat capacity, c, is the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water it is 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹).",
+        "Dilute solutions are assumed to have the same specific heat capacity as water and a density of 1.00 g cm⁻³.",
+        "If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead."
+      ]
+    },
+    {
+      "h": "Worked example: zinc and copper(II) sulfate (sample data)",
+      "points": [
+        "Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.",
+        "Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s); ionic equation: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
+        "Zinc is in excess, so the copper(II) sulfate is the limiting reactant.",
+        "Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.",
+        "Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.",
+        "Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.",
+        "The value is a little less negative than the accepted value because of heat losses; see “Investigation: heat of neutralisation” for errors and improvements."
+      ]
+    },
+    {
+      "h": "Using ΔH to find heat for a given amount",
+      "points": [
+        "ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.",
+        "Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; M(CH₄) = 16 g mol⁻¹, so 8.0 g of methane is 8.0 ÷ 16 = 0.50 mol.",
+        "Burning 0.50 mol of methane releases 0.50 × 890 = 445 kJ.",
+        "Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Energy profile diagrams",
+      "points": [
+        "An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction, with energy on the vertical axis and progress of reaction (reaction pathway) on the horizontal axis.",
+        "It shows the reactants' level, a hump rising to a maximum, and the products' level; unlike an enthalpy level diagram, it shows this hump.",
+        "The height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen; see “Catalysis and energy profiles”.",
+        "ΔH is the vertical difference between the reactants' and products' levels and does not depend on the height of the hump.",
+        "Exothermic profile: products below reactants, ΔH is negative, and the energy released as bonds form is greater than the activation energy taken in.",
+        "Endothermic profile: products above reactants, ΔH is positive, and the activation energy is larger than ΔH.",
+        "Energy transfer: the energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making; the net difference is transferred as heat to the surroundings (exothermic) or from them (endothermic).",
+        "Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Exothermic reaction", "definition": "A reaction that gives out heat to the surroundings, with a negative ΔH." },
-    { "term": "Endothermic reaction", "definition": "A reaction that takes in heat from the surroundings, with a positive ΔH." },
-    { "term": "Thermochemical equation", "definition": "A balanced equation that includes state symbols and the ΔH value for the reaction as written." },
-    { "term": "Enthalpy level diagram", "definition": "A diagram with enthalpy on the vertical axis showing the reactant and product levels and the ΔH between them." },
-    { "term": "Thermal decomposition", "definition": "The breakdown of a compound by heating, which is endothermic and needs a continuous supply of heat." },
-    { "term": "Combustion", "definition": "The reaction of a substance with oxygen, giving out heat and usually light." },
-    { "term": "Neutralisation", "definition": "The reaction of an acid with a base, which is exothermic and forms water." },
-    { "term": "Respiration", "definition": "The release of energy from glucose in cells, which is exothermic." },
-    { "term": "Photosynthesis", "definition": "The endothermic process in which plants use energy from sunlight to make glucose from carbon dioxide and water." }
+    {
+      "term": "Heat of neutralisation",
+      "definition": "The heat change when one mole of water is formed in the reaction between an acid and a base."
+    },
+    {
+      "term": "Specific heat capacity",
+      "definition": "The heat needed to raise the temperature of 1 kg of a substance by 1 K."
+    },
+    {
+      "term": "Strong acid",
+      "definition": "An acid that is fully dissociated in water, such as hydrochloric acid."
+    },
+    {
+      "term": "Weak acid",
+      "definition": "An acid that is only partly dissociated in water, such as ethanoic acid."
+    },
+    {
+      "term": "Diprotic acid",
+      "definition": "An acid that can give two H⁺ ions per molecule, such as sulfuric acid."
+    },
+    {
+      "term": "Spectator ion",
+      "definition": "An ion that appears unchanged on both sides of an ionic equation."
+    },
+    {
+      "term": "Extrapolation",
+      "definition": "Extending a line on a graph beyond the plotted points to estimate a value, such as the temperature at the time of mixing."
+    },
+    {
+      "term": "Standard conditions",
+      "definition": "A temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa), used to quote enthalpy changes for comparison."
+    },
+    {
+      "term": "Standard state",
+      "definition": "The normal physical state of a substance under standard conditions, such as water as a liquid."
+    },
+    {
+      "term": "Standard enthalpy change (ΔH°)",
+      "definition": "An enthalpy change measured under standard conditions, with solutions at 1 mol L⁻¹."
+    },
+    {
+      "term": "Limiting reactant",
+      "definition": "The reactant that is used up first and so determines the amount of product and heat."
+    },
+    {
+      "term": "Activation energy",
+      "definition": "The minimum energy needed for a reaction to happen, shown as the height of the hump on an energy profile."
+    },
+    {
+      "term": "Energy profile diagram",
+      "definition": "A graph of energy against progress of reaction showing the reactants, the activation energy, the products and ΔH."
+    },
+    {
+      "term": "Reaction pathway",
+      "definition": "The route of the reaction from reactants to products, shown on the horizontal axis of an energy profile."
+    }
   ],
   "questions": [
     {
-      "marks": 9,
-      "prompt": "Distinguish between exothermic and endothermic reactions and classify each of the following, giving a reason: combustion of methane; thermal decomposition of calcium carbonate; photosynthesis; rusting of iron.",
-      "model": "An exothermic reaction gives out heat to the surroundings, so ΔH is negative and the products have less enthalpy than the reactants. An endothermic reaction takes in heat from the surroundings, so ΔH is positive and the products have more enthalpy than the reactants. Combustion of methane is exothermic: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, and all combustion reactions are exothermic. Thermal decomposition of calcium carbonate is endothermic: CaCO₃ → CaO + CO₂, ΔH = +178 kJ mol⁻¹, because heat must be supplied continuously to break it down. Photosynthesis is endothermic: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, ΔH ≈ +2800 kJ mol⁻¹, because energy is absorbed from sunlight. Rusting of iron is exothermic: 4Fe + 3O₂ → 2Fe₂O₃, ΔH = −1648 kJ, because heat is released as the iron is oxidised, though very slowly."
+      "marks": 12,
+      "prompt": "Describe how you would measure the heat of neutralisation of hydrochloric acid by sodium hydroxide, explaining the reasons for the container used and the precautions taken to obtain an accurate maximum temperature.",
+      "model": "Measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, and 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker. Let both solutions reach room temperature, measure each temperature to 0.1 °C, and use the average as the initial temperature. Add the sodium hydroxide to the acid quickly and all at once, put on the lid and stir gently, then record the highest temperature reached. Repeat and use the mean temperature rise. Polystyrene foam is used because it is a good insulator with a very low heat capacity, so little heat is lost or absorbed by the cup. The lid reduces heat loss by convection and evaporation. Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum is recorded before heat is lost. Moderately concentrated solutions are used so that the temperature rise is large enough, about 7 °C, to be measured accurately."
+    },
+    {
+      "marks": 12,
+      "prompt": "80 cm³ of 1.0 M hydrochloric acid was added to 80 cm³ of 1.0 M sodium hydroxide. The temperature rose by 6.7 °C. Taking the density of the solution as 1.0 g cm⁻³ and its specific heat capacity as 4.18 kJ kg⁻¹ K⁻¹, calculate (i) the moles of HCl, (ii) the heat produced, (iii) ΔH (sample data).",
+      "model": "(i) Moles of HCl = 1.0 mol L⁻¹ × 0.080 L = 0.0800 mol. (ii) Mass of solution = 160 cm³ × 1.0 g cm⁻³ = 160 g = 0.160 kg. Heat produced Q = 0.160 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.7 K = 4.48 kJ. (iii) Moles of water formed = moles of HCl = 0.0800 mol, so heat per mole = 4.48 kJ ÷ 0.0800 mol = 56.0 kJ mol⁻¹. The reaction gives out heat, so ΔH = −56.0 kJ mol⁻¹."
     },
     {
       "marks": 6,
-      "prompt": "Draw labelled enthalpy level diagrams for (i) the combustion of methane, ΔH = −890 kJ mol⁻¹, and (ii) the decomposition of calcium carbonate, ΔH = +178 kJ mol⁻¹.",
-      "model": "(i) Combustion of methane: draw a vertical axis labelled enthalpy (H). Draw a higher horizontal line labelled CH₄ + 2O₂ for the reactants and a lower line labelled CO₂ + 2H₂O for the products. Draw a vertical arrow between the lines pointing down, labelled ΔH = −890 kJ mol⁻¹, because the products are at lower enthalpy and heat is released. (ii) Decomposition of calcium carbonate: draw a vertical axis labelled enthalpy (H). Draw a lower horizontal line labelled CaCO₃ for the reactant and a higher line labelled CaO + CO₂ for the products. Draw a vertical arrow pointing up, labelled ΔH = +178 kJ mol⁻¹, because the products are at higher enthalpy and heat is taken in."
+      "prompt": "Explain why the heat of neutralisation is almost the same for all strong acids with strong bases, and why the same temperature rise is obtained if the volumes of both solutions are doubled.",
+      "model": "For all strong acids with strong bases, the acids and bases are fully dissociated and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators, so ΔH is about −57 kJ mol⁻¹ in every case. If the volumes of both solutions are doubled, twice the moles of acid and base react, so twice the heat is produced. However, twice the mass of solution is heated by that heat, so the temperature rise is the same."
+    },
+    {
+      "marks": 9,
+      "prompt": "Excess zinc was added to 100 cm³ of 0.100 M copper(II) sulfate solution and the temperature rose by 4.8 °C. Calculate ΔH for Zn + CuSO₄ → ZnSO₄ + Cu, taking the specific heat capacity of the solution as 4.18 kJ kg⁻¹ K⁻¹ and its density as 1.00 g cm⁻³ (sample data).",
+      "model": "Mass of solution = 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg. Heat produced Q = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 4.8 K = 2.01 kJ. Moles of CuSO₄ = 0.100 mol L⁻¹ × 0.100 L = 0.0100 mol, and zinc is in excess, so CuSO₄ is the limiting reactant. Heat per mole = 2.01 kJ ÷ 0.0100 mol = 201 kJ mol⁻¹. The temperature rose, so ΔH = −201 kJ mol⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "Draw a labelled energy profile diagram for an exothermic reaction, marking the activation energy and ΔH, and explain what the diagram shows about the energy transfer.",
+      "model": "Draw axes: energy on the vertical axis and progress of reaction on the horizontal axis. Draw a reactants level, a hump rising to a maximum, and a products level below the reactants level. Mark the activation energy Ea with an arrow from the reactants to the top of the hump, and mark ΔH with an arrow from the reactants level down to the products level. The energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making. The products are at lower energy, so the net energy difference is transferred as heat to the surroundings, and ΔH is negative. The energy released as bonds form is greater than the activation energy taken in."
     },
     {
       "marks": 3,
-      "prompt": "Given that C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O has ΔH = −2800 kJ mol⁻¹, state ΔH for photosynthesis and explain.",
-      "model": "ΔH for photosynthesis is +2800 kJ mol⁻¹. Photosynthesis is the reverse of the reaction given, so its ΔH has the same size but the opposite sign. Photosynthesis is endothermic because energy is absorbed from sunlight."
+      "prompt": "State the standard conditions for enthalpy changes and explain why they are needed.",
+      "model": "The standard conditions are a temperature of 25 °C (298 K), a pressure of 1 atmosphere (101.3 kPa), solutions at a concentration of 1 mol L⁻¹, and each substance in its standard state. They are needed because enthalpy changes depend on temperature, pressure and the physical states of the substances, so quoting values under the same conditions allows them to be compared."
     }
   ]
 }

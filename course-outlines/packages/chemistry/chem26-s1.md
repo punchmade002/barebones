@@ -1,6 +1,7 @@
 # Package: chem26-s1 — Quantitative problems from balanced equations
 
 - **loId:** `chem26-s1` · **chapterId:** `chem26` · **syllabusRef:** 1.4.7
+
 - **Syllabus:** 1.4.7 "use the concept of a mole to … analyse and solve quantitative problems
   based on balanced equations". Learn about: "the concept of a mole as applicable to
   stoichiometry and to the analysis of quantitative problems, including: gravimetric analysis,
@@ -11,8 +12,8 @@
   equation, then worked examples (mass to mass, mass to gas volume, gas volume to mass, liquids
   by density, thermal decomposition, simple unit analysis), gravimetric analysis and combustion
   analysis. Outcome 1.4.7 is split: empirical formulae and percentage composition are in
-  "Empirical and molecular formulae" and balancing and mole ratios in "Balancing equations";
-  don't reteach them. The mole conversions are in "The mole" and molar volume in "Molar volume
+  "Formulae and balancing equations" and balancing and mole ratios in "Formulae and balancing equations";
+  don't reteach them. The mole conversions are in "The mole and molar volume" and molar volume in "Molar volume
   and Avogadro's law"; use them, don't redefine them. Yields are in "Theoretical, actual and
   percentage yield". Use Ar: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, K 39, Ca 40,
   Ag 108, Ba 137; molar volume 22.4 L mol⁻¹ at STP (273 K, 101.3 kPa).
@@ -22,7 +23,7 @@
 Stoichiometry and the method (one block, skills; one step per bullet)
 - [ ] M1 Stoichiometry is the study of the quantitative relationships between the amounts of reactants and products in a chemical reaction, given by the balanced equation.
 - [ ] M2 The coefficients in a balanced equation give the ratio of moles, not of masses; masses must always be converted to moles before the ratio is used.
-- [ ] M3 Step 1: Write the balanced equation (see "Balancing equations").
+- [ ] M3 Step 1: Write the balanced equation (see "Formulae and balancing equations").
 - [ ] M4 Step 2: Convert the quantity you are given into moles: n = m ÷ M for a mass; n = V ÷ 22.4 for a gas volume in litres at STP; n = c × V (V in litres) for a solution.
 - [ ] M5 Step 3: Use the mole ratio from the equation to find the moles of the substance asked for: moles wanted = moles known × (coefficient of wanted ÷ coefficient of known).
 - [ ] M6 Step 4: Convert those moles into the quantity asked for: m = n × M; V = n × 22.4 L at STP; number of particles = n × 6.02 × 10²³.
@@ -56,7 +57,7 @@ Example 4: a reactant needed and two products (one block, one step per bullet)
 - [ ] D3 Moles of C₃H₈ = 8.80 ÷ 44 = 0.200 mol.
 - [ ] D4 Moles of O₂ = 5 × 0.200 = 1.00 mol; mass = 1.00 × 32 = 32.0 g.
 - [ ] D5 Moles of CO₂ = 3 × 0.200 = 0.600 mol; volume = 0.600 × 22.4 = 13.4 L at STP.
-- [ ] D6 Reacting gas volumes alone (all measured at the same temperature and pressure) can be found directly from the mole ratio, without converting to moles (see "Molar volume and Avogadro's law").
+- [ ] D6 Reacting gas volumes alone (all measured at the same temperature and pressure) can be found directly from the mole ratio, without converting to moles (see "The mole and molar volume").
 
 Example 5: liquids and thermal decomposition (one block, one step per bullet)
 - [ ] E1 For a liquid, find the mass from its volume and density first: m = ρ × V.
@@ -93,7 +94,7 @@ Gravimetric worked examples (one block, one step per bullet; sample data)
 - [ ] H6 Mass of (NH₄)₂SO₄ = 6.867 × 10⁻³ × 132 = 0.906 g; percentage in the fertiliser = 90.6%.
 
 Combustion analysis (one block, one step per bullet; sample data)
-- [ ] K1 When an organic compound of C, H and O burns completely, all its carbon ends up in CO₂ and all its hydrogen in H₂O; the masses of these products give the masses of C and H in the sample, and the oxygen is found by difference. The empirical formula is then found as in "Empirical and molecular formulae".
+- [ ] K1 When an organic compound of C, H and O burns completely, all its carbon ends up in CO₂ and all its hydrogen in H₂O; the masses of these products give the masses of C and H in the sample, and the oxygen is found by difference. The empirical formula is then found as in "Formulae and balancing equations".
 - [ ] K2 Data: 0.290 g of a compound containing only C, H and O burned completely to give 0.660 g of CO₂ and 0.270 g of H₂O; its Mr is 58.
 - [ ] K3 Moles of C = moles of CO₂ = 0.660 ÷ 44 = 0.0150 mol; mass of C = 0.0150 × 12 = 0.180 g.
 - [ ] K4 Moles of H = 2 × moles of H₂O = 2 × (0.270 ÷ 18) = 0.0300 mol; mass of H = 0.0300 g.
@@ -118,7 +119,7 @@ sample data.
 - H₂O contains two H atoms: moles of H = 2 × moles of H₂O.
 - In gravimetric analysis the precipitating reagent is added in excess; the substance being analysed decides the mass of precipitate.
 - Identifying which reactant runs out when amounts of both are given is Higher Level and taught in "Limiting reagents"; in this subsection one reactant is always "in excess" as stated.
-- Don't reteach empirical formula steps or balancing; point to "Empirical and molecular formulae" and "Balancing equations".
+- Don't reteach empirical formula steps or balancing; point to "Formulae and balancing equations" and "Formulae and balancing equations".
 
 ## 4. What exams ask (topics only)
 

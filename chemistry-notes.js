@@ -36,6 +36,38 @@
    {
     "definition": "The tendency to expect a particular result and to notice only the data that appear to support it.",
     "term": "Confirmation bias"
+   },
+   {
+    "definition": "A representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly.",
+    "term": "Model"
+   },
+   {
+    "definition": "A three-dimensional object, such as a molecular model, that represents the arrangement of atoms in a substance.",
+    "term": "Physical model"
+   },
+   {
+    "definition": "An equation that describes how quantities are related, such as PV = nRT for a gas.",
+    "term": "Mathematical model"
+   },
+   {
+    "definition": "A representation using chemical formulae, equations or symbols to describe particles and changes.",
+    "term": "Symbolic model"
+   },
+   {
+    "definition": "A physical model in which atoms are shown as coloured balls and bonds as sticks.",
+    "term": "Ball-and-stick model"
+   },
+   {
+    "definition": "A physical model in which atoms are shown as overlapping spheres that give a sense of the molecule's overall size.",
+    "term": "Space-filling model"
+   },
+   {
+    "definition": "A diagram showing how the outer electrons of atoms are shared or transferred in bonding.",
+    "term": "Dot-and-cross diagram"
+   },
+   {
+    "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds.",
+    "term": "Energy profile diagram"
    }
   ],
   "notes": [
@@ -100,530 +132,7 @@
      "Scientists reduce bias with fair tests that use controls, repeats and random sampling, and with blind trials where possible.",
      "Scientists also publish all results, including negative ones, declare funding and conflicts of interest, and invite independent checks by other scientists (see “Science as a global enterprise”)."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "A hypothesis is a testable, tentative explanation or prediction that evidence can support or contradict. A theory is a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations; for example, collision theory explains how chemical reactions occur. A law is a statement, often mathematical, that describes what always happens under stated conditions; for example, Boyle's law describes how the pressure and volume of a gas are related. A law describes what happens, while a theory explains why it happens.",
-    "prompt": "Distinguish between a scientific hypothesis, a theory and a law, giving one chemical example of a theory and of a law.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Scientific ideas change because they are tentative: they are the best explanation of the evidence available, and they are modified when new evidence does not fit or when new instruments allow new measurements. Dalton's indivisible atom was modified when Thomson discovered the electron in 1897, showing that atoms can be divided; Thomson proposed the plum pudding model. Rutherford's gold-foil experiment, carried out by Geiger and Marsden, led to the nuclear model in 1911, with a tiny dense positive nucleus replacing the plum pudding model. Bohr proposed fixed energy levels in 1913 to explain line emission spectra. The current orbital model was adopted because it explains evidence that earlier models could not. A new idea is accepted only when it explains all the old evidence as well as the new evidence.",
-    "prompt": "Using the development of the model of the atom as an example, explain how and why scientific ideas are modified over time.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s10": {
-  "keyTerms": [
-   {
-    "definition": "A written account of an investigation giving its introduction, method, results, analysis, conclusion, evaluation and references.",
-    "term": "Scientific report"
-   },
-   {
-    "definition": "A point that opposes a claim, which a well-justified argument considers and answers.",
-    "term": "Counter-argument"
-   },
-   {
-    "definition": "A reference in the text to a source, matched by a full entry in the list of references.",
-    "term": "Citation"
-   },
-   {
-    "definition": "Presenting another person's work as your own without acknowledging it.",
-    "term": "Plagiarism"
-   },
-   {
-    "definition": "A symbol in brackets, such as (s), (l), (g) or (aq), showing the physical state of a substance in an equation.",
-    "term": "State symbol"
-   },
-   {
-    "definition": "A formula that shows how the atoms in a molecule are arranged and bonded.",
-    "term": "Structural formula"
-   },
-   {
-    "definition": "A systematic name for a compound, set by the International Union of Pure and Applied Chemistry.",
-    "term": "IUPAC name"
-   },
-   {
-    "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds.",
-    "term": "Energy profile diagram"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Structure of a scientific report",
-    "points": [
-     "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis.",
-     "The method gives the equipment, a step-by-step procedure and the safety precautions.",
-     "The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.",
-     "The report ends with a conclusion, an evaluation and references.",
-     "The report is written in the past tense and in an impersonal style."
-    ]
-   },
-   {
-    "h": "Scientific terminology and representations",
-    "points": [
-     "Precise terms are used, e.g. “dissolves”, not “melts”, for a solid going into solution, and “effervescence” for bubbles of gas.",
-     "Correct SI units and IUPAC names are used throughout.",
-     "Representations include balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs and energy profile diagrams."
-    ]
-   },
-   {
-    "h": "Communicating with different audiences",
-    "points": [
-     "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster.",
-     "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained.",
-     "The same findings may be communicated as a report, poster, presentation, infographic or article.",
-     "The format is chosen for the purpose and the audience."
-    ]
-   },
-   {
-    "h": "Justifying opinions and citing sources",
-    "points": [
-     "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.",
-     "Each source is cited in the text and listed in full in the references, so that readers can check it.",
-     "Copying someone else's work without acknowledgement is plagiarism.",
-     "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "The introduction gives the background research and the research question, followed by the hypothesis. The method gives the equipment, a step-by-step procedure and the safety precautions. The results are presented as tables and graphs. The analysis gives the calculations and the patterns in the data. The conclusion states what the data show about the hypothesis. The evaluation judges the method and data and suggests improvements. The references list the sources cited in the text.",
-    "prompt": "List the main sections of a scientific report of an experiment and state what each contains.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Other scientists need full technical detail, the data and the references, as in a journal paper or conference poster. The general public needs plain language, with the key findings stated first, simple graphics, and technical terms explained.",
-    "prompt": "Describe two differences between communicating the results of an investigation to other scientists and to the general public.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s11": {
-  "keyTerms": [
-   {
-    "definition": "Meeting present needs without compromising the ability of future generations to meet their own needs.",
-    "term": "Sustainability"
-   },
-   {
-    "definition": "A medicine that kills or stops the growth of bacteria; penicillin was the first to be discovered.",
-    "term": "Antibiotic"
-   },
-   {
-    "definition": "One of the themes of Health, Sustainability and Technology, used to look at how chemistry applies to real life.",
-    "term": "Cross-cutting theme"
-   },
-   {
-    "definition": "A consideration in applying chemistry, such as the cost of development, production or disposal, jobs and profit.",
-    "term": "Economic factor"
-   },
-   {
-    "definition": "A consideration in applying chemistry, such as its effects on health, safety, communities and quality of life.",
-    "term": "Social factor"
-   },
-   {
-    "definition": "A consideration in applying chemistry, such as whether an application is fair and whether it risks harm to people or the environment.",
-    "term": "Ethical factor"
-   },
-   {
-    "definition": "Agreement to take part in or accept an activity given by someone who understands its risks and benefits.",
-    "term": "Informed consent"
-   },
-   {
-    "definition": "Money provided by governments, companies or charities that decides which research takes place.",
-    "term": "Funding"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Contributions of scientists",
-    "points": [
-     "Robert Boyle (born 25 January 1627 at Lismore Castle, Co. Waterford) pioneered experimental chemistry and argued that knowledge should come from experiment.",
-     "Boyle's law, published in 1662, relates the pressure and volume of a gas.",
-     "Dmitri Mendeleev published his periodic table in 1869, arranging the elements and leaving gaps for undiscovered elements.",
-     "Mendeleev predicted the properties of the undiscovered elements; the periodic table organises all of chemistry.",
-     "Alexander Fleming discovered penicillin, the first antibiotic, in 1928; he shared the Nobel Prize in 1945 with Florey and Chain.",
-     "Penicillin was mass-produced from the 1940s, and antibiotics have since saved very many lives.",
-     "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen (Nobel Prize 1918), and Carl Bosch scaled it up industrially in the early 1900s.",
-     "Ammonia-based fertilisers help feed much of the world's population, but the same chemistry was used to make explosives: a discovery can have both positive and negative impacts.",
-     "John Goodenough, Stanley Whittingham and Akira Yoshino developed the lithium-ion battery, for which they received the 2019 Nobel Prize in Chemistry.",
-     "Lithium-ion batteries power phones, laptops and electric vehicles."
-    ]
-   },
-   {
-    "h": "The role and importance of chemistry",
-    "points": [
-     "Personal: chemistry provides medicines, clean water, food, cleaning products, cosmetics, and materials for clothing and phones.",
-     "Personal: understanding chemical labels and hazards helps people make safe choices.",
-     "Social: chemistry supports public health through water treatment, vaccines and medicines.",
-     "Social: chemistry supports agriculture through fertilisers and pesticides, and provides jobs in the chemical and pharmaceutical industry.",
-     "Ireland has a large pharmaceutical industry.",
-     "Global: chemistry helps tackle climate change through cleaner fuels, batteries and carbon capture.",
-     "Global: chemistry helps tackle pollution, food security and the use of resources."
-    ]
-   },
-   {
-    "h": "How society influences research",
-    "points": [
-     "Governments, companies and charities decide what research is funded, often according to social needs or profit.",
-     "Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic, or for alternatives to fossil fuels.",
-     "Laws and regulations, e.g. on chemical safety, emissions and animal testing, limit or direct research.",
-     "The ethical values of society decide what research is acceptable."
-    ]
-   },
-   {
-    "h": "Economic, social, sustainability and ethical factors",
-    "points": [
-     "Economic factors include the cost of development, production and disposal, jobs and profit.",
-     "Social factors include effects on health, safety, communities and quality of life.",
-     "Sustainability means meeting present needs without compromising future generations, through the use of renewable resources and energy and the management of waste.",
-     "Ethical factors include whether an application is right, e.g. fairness, risks to people or the environment, and informed consent.",
-     "Being personally effective means making informed choices, e.g. about recycling, energy use and product claims, and taking part in public debate using evidence."
-    ]
-   },
-   {
-    "h": "Cross-cutting themes",
-    "points": [
-     "The specification's three cross-cutting themes are Health, Sustainability and Technology.",
-     "The themes are lenses for looking at how chemistry applies to real life, and the written examination includes questions on them."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen, for which he received the Nobel Prize in 1918, and Carl Bosch scaled the process up industrially. Ammonia is used to make fertilisers that help feed much of the world's population, a positive impact on food security. The same chemistry was used to make explosives, a negative impact. The overall impact therefore depends on how the discovery is used, and it raises ethical and economic questions for society.",
-    "prompt": "Describe the contribution of one named scientist to chemistry and evaluate its impact on society.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Funding: governments, companies and charities decide which research is funded, often according to social needs or profit. Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic.",
-    "prompt": "Give two ways in which society influences scientific research.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s12": {
-  "keyTerms": [
-   {
-    "definition": "To present a scientific finding in a dramatic way that exaggerates its importance or certainty.",
-    "term": "Sensationalise"
-   },
-   {
-    "definition": "A study whose method and conclusions have been checked by independent experts before publication.",
-    "term": "Peer-reviewed study"
-   },
-   {
-    "definition": "A relationship between two variables in which one tends to change with the other.",
-    "term": "Correlation"
-   },
-   {
-    "definition": "A relationship in which a change in one variable is shown to produce a change in another.",
-    "term": "Causation"
-   },
-   {
-    "definition": "The degree to which a substance can cause harm to a living organism.",
-    "term": "Toxicity"
-   },
-   {
-    "definition": "The amount of a substance taken in or exposed to.",
-    "term": "Dose"
-   },
-   {
-    "definition": "A situation in which a researcher or source has a financial or other interest that could influence their findings.",
-    "term": "Conflict of interest"
-   },
-   {
-    "definition": "A measure of how acidic or alkaline a solution is, with lower values more acidic.",
-    "term": "pH"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Why media reports need evaluating",
-    "points": [
-     "News, advertising and social media may simplify, exaggerate or sensationalise science.",
-     "They may report a single study as settled fact, or leave out uncertainty and context.",
-     "Headlines are written to attract attention and may not match the findings of the study."
-    ]
-   },
-   {
-    "h": "Questions to ask of a media claim",
-    "points": [
-     "What exactly is being claimed, and is it a scientific claim that can be tested with evidence?",
-     "Where does the claim come from: is the original study named, peer-reviewed and available?",
-     "How strong is the evidence: what is the sample size, were there controls, have the results been reproduced, and was the study done in people, animals or cells?",
-     "Is cause being confused with correlation?",
-     "Who benefits: is the source selling a product or promoting a view, and who funded the research?",
-     "Do other independent experts and sources agree?",
-     "Are scientific words used correctly, or misused to sound convincing, e.g. “chemical-free” or “natural means safe”?"
-    ]
-   },
-   {
-    "h": "Discussing scientific claims",
-    "points": [
-     "Separate evidence from opinion, and base conclusions on the weight of the evidence.",
-     "Acknowledge uncertainty and the limits of current knowledge.",
-     "Consider different perspectives, economic, social, ethical and environmental, while keeping the scientific evidence separate from them."
-    ]
-   },
-   {
-    "h": "Common misleading claims and the chemistry",
-    "points": [
-     "“Chemical-free”: everything, including water and food, is made of chemicals.",
-     "“Natural is always safe; synthetic is dangerous”: toxicity depends on the substance and the dose, not on whether it is natural.",
-     "Some natural substances are highly toxic, and a synthetic substance can be identical to a natural one.",
-     "Alkaline-water and detox claims: the body controls its own pH, and drinking alkaline water does not change blood pH.",
-     "Human blood pH is kept between about 7.35 and 7.45.",
-     "Stomach acid has a pH of about 1.5 to 3.5, so it is strongly acidic."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "The claim that the shampoo is chemical-free is misleading, because everything, including water, is made of chemicals. The claim that it is natural and therefore safe is also misleading, because toxicity depends on the substance and the dose, not on whether it is natural; some natural substances are highly toxic. The source should be checked: the advertisement is selling the product, so its claims may present only one side, and it should be asked whether the safety claim is supported by a named, peer-reviewed study. Other independent sources should be checked to see whether they agree that the product is completely safe.",
-    "prompt": "An advertisement claims a shampoo is 'chemical-free and 100% natural, so it is completely safe'. Evaluate this claim.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Three questions: What exactly is being claimed, and is it testable with evidence? Is the original study named, peer-reviewed and available, and how strong is its evidence, including its sample size, controls and whether the results have been reproduced? Who benefits from the claim, and who funded the research? Other questions include whether cause is being confused with correlation, and whether independent experts agree.",
-    "prompt": "State three questions you would ask to evaluate a newspaper report of a new scientific discovery.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s13": {
-  "keyTerms": [
-   {
-    "definition": "The level of observable properties, which we see, measure and handle.",
-    "term": "Macroscopic level"
-   },
-   {
-    "definition": "The level of atoms, ions, molecules and electrons, and how they move and rearrange to explain observations.",
-    "term": "Sub-microscopic level"
-   },
-   {
-    "definition": "The level of formulae, equations, diagrams and graphs that represent particles and changes.",
-    "term": "Symbolic level"
-   },
-   {
-    "definition": "A charged particle formed when an atom or group of atoms gains or loses electrons.",
-    "term": "Ion"
-   },
-   {
-    "definition": "Using drawings, physical models, animations or simulations to represent particles that cannot be seen.",
-    "term": "Visualisation"
-   },
-   {
-    "definition": "A condition accepted as true when building a model, which simplifies it so that it can be used.",
-    "term": "Assumption"
-   },
-   {
-    "definition": "A model that allows a behaviour or value to be predicted before it is measured.",
-    "term": "Predictive model"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Three levels of representation",
-    "points": [
-     "The macroscopic (observable) level is what we see, measure and handle, e.g. ice melting, a solution changing colour, or gas bubbles forming.",
-     "The sub-microscopic (particulate) level is made up of atoms, ions, molecules and electrons, and how they move and rearrange; these particles cannot be seen with a light microscope.",
-     "The sub-microscopic level explains the observations at the macroscopic level.",
-     "The symbolic level uses formulae, equations, diagrams and graphs to represent the particles and the changes.",
-     "Chemists move between the three levels: an explanation links what is seen to what the particles do, and writes it symbolically."
-    ]
-   },
-   {
-    "b": "Each example runs from the observation, to the particle explanation, to the symbolic equation.",
-    "h": "Relating observations to particles",
-    "points": [
-     "Ice melting, observed: a solid becomes a liquid at 0 °C at standard pressure.",
-     "Ice melting, particles: water molecules gain energy and partly overcome hydrogen bonds, so they move past one another.",
-     "Ice melting, symbolic: H₂O(s) → H₂O(l).",
-     "Magnesium in hydrochloric acid, observed: the solution fizzes and the magnesium disappears.",
-     "Magnesium in hydrochloric acid, particles: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions gain electrons to form H₂ molecules.",
-     "Magnesium in hydrochloric acid, symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
-     "A sodium salt in a flame, observed: a yellow-orange colour.",
-     "A sodium salt in a flame, particles: electrons in sodium atoms are excited to higher energy levels, and emit light of a specific energy as they fall back.",
-     "A salt dissolving in water, observed: the solid disappears.",
-     "A salt dissolving in water, particles: water molecules surround and separate Na⁺ and Cl⁻ ions.",
-     "A salt dissolving in water, symbolic: NaCl(s) → Na⁺(aq) + Cl⁻(aq)."
-    ]
-   },
-   {
-    "h": "Visualising and generating models",
-    "points": [
-     "Chemists visualise particles they cannot see using drawings, physical models, animations and computer simulations.",
-     "Generating a model: propose a representation that fits the observations, use it to make a prediction, and test the prediction.",
-     "After testing, keep, modify or discard the model."
-    ]
-   },
-   {
-    "b": "Models are simplified representations of complex systems or phenomena; the three properties below apply to every model.",
-    "h": "Properties of models",
-    "points": [
-     "Simplified, with underlying assumptions: the kinetic theory assumes that gas particles have negligible volume and no forces between them.",
-     "Modified as more data become available: the Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron.",
-     "Predictive: VSEPR theory predicts the bond angle in a molecule before it is measured, and the ideal gas equation predicts the volume of a gas."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Macroscopic: bubbles form, the solution fizzes and the magnesium ribbon disappears. Sub-microscopic: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions in the acid gain electrons to form hydrogen molecules, H₂, which are the gas seen as bubbles. Symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
-    "prompt": "When magnesium ribbon is added to dilute hydrochloric acid, bubbles form and the magnesium disappears. Describe this change at the macroscopic, sub-microscopic and symbolic levels.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "(i) The kinetic theory is a simplified representation of a gas: it assumes that gas particles have negligible volume and no forces between them, which makes the model easy to use although real particles do have volume. (ii) The Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron.",
-    "prompt": "Using one example, explain each of the following statements about models: (i) a model is a simplified representation; (ii) a model can be modified as more data becomes available.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s14": {
-  "keyTerms": [
-   {
-    "definition": "The assessment component, worth 40%, in which students research an issue and carry out an experiment related to a common brief.",
-    "term": "Chemistry in Practice Investigation"
-   },
-   {
-    "definition": "The document published each year by the SEC that sets the requirements and context for the Chemistry in Practice Investigation.",
-    "term": "Investigation Brief"
-   },
-   {
-    "definition": "Material included in the brief to set a context for the investigation.",
-    "term": "Stimulus material"
-   },
-   {
-    "definition": "A dated, ongoing record of all experimental and research work that students draw on to write their report.",
-    "term": "Investigative log"
-   },
-   {
-    "definition": "A source of information, such as a published article or database, that contains data collected by someone else.",
-    "term": "Secondary source"
-   },
-   {
-    "definition": "The SEC statements of what high and lower achievement look like in each of the four areas judged.",
-    "term": "Descriptors of quality"
-   },
-   {
-    "definition": "The level at which the Chemistry in Practice Investigation is taken, the same for Higher and Ordinary level students.",
-    "term": "Common level"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Assessment structure",
-    "points": [
-     "Leaving Certificate Chemistry has two assessment components, both set and marked by the State Examinations Commission (SEC).",
-     "The written examination is worth 60% and is taken at Higher or Ordinary level.",
-     "The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
-     "Grades are H1 to H8 at Higher level and O1 to O8 at Ordinary level, in bands of 10% from 30% to 100%; below 30% is grade 8.",
-     "The written examination uses a range of question types and assesses all four contextual strands, the unifying strand, and the application of chemistry to the cross-cutting themes of sustainability, health and technology."
-    ]
-   },
-   {
-    "h": "The brief",
-    "points": [
-     "The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year).",
-     "The brief sets out the requirements and includes stimulus material that sets a context.",
-     "The brief allows students to develop their own ideas related to that context, and helps teachers and students to plan.",
-     "Students keep an investigative log that they draw on to write the report."
-    ]
-   },
-   {
-    "h": "What students do",
-    "points": [
-     "Scientific research: students gather, process and evaluate information from secondary sources on an issue related to the brief; this may inform the experimental work.",
-     "Experiment: students generate a hypothesis for an issue related to the brief, then plan and design the experiment.",
-     "Experiment: students carry out laboratory work to gather primary data, then analyse the data and form conclusions.",
-     "Students develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year), in a format prescribed by the SEC.",
-     "The specification envisages up to 20 hours of work; a separate document, “Guidelines to support the Chemistry in Practice Investigation”, covers organisation.",
-     "Experimental design, safety and measurement are covered in “Designing and conducting investigations” and “Measurement and error”.",
-     "Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process."
-    ]
-   },
-   {
-    "b": "Four areas are judged: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.",
-    "h": "How the investigation is judged",
-    "points": [
-     "High achievement in knowledge and understanding shows considerable understanding of the brief, a clearly described purpose, and relevant research that evaluates a wide range of appropriate sources.",
-     "High achievement in knowledge and understanding also shows thorough engagement with the chemical concepts, explaining the phenomena clearly and accurately.",
-     "High achievement in design and method has a probing research question and a testable hypothesis underpinned by chemical concepts.",
-     "High achievement in design and method has a thorough investigative design, with appropriate methods collecting high-quality primary data.",
-     "High achievement in analysis and conclusions has clear, appropriate data and analysis, and valid conclusions justified by the data and related to the hypotheses.",
-     "High achievement in analysis and conclusions has a thorough evaluation that acknowledges limitations in the research, design and data gathering.",
-     "High achievement in analysis and conclusions has a summary of key areas and a coherent, consistent report with supporting references and reflections.",
-     "High achievement in relation to the work of scientists in society has a considered reflection that locates the outcomes within broader societal and scientific issues relating to the brief.",
-     "Lower achievement shows limited understanding of the brief, an unclear purpose, little research and a simple design.",
-     "Lower achievement shows conclusions not linked to the data, no limitations identified, and few references or reflections."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "The first part is scientific research on an issue related to the brief: the student gathers, processes and evaluates information from secondary sources, which may inform the experimental work. The second part is an experiment related to an issue in the brief: the student generates a hypothesis, plans and designs the experiment, carries out laboratory work to gather primary data, and analyses the data to form conclusions.",
-    "prompt": "Describe the two main parts of the work a student carries out for the Chemistry in Practice Investigation.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "The written examination is worth 60% and is taken at Higher or Ordinary level. The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
-    "prompt": "State the weighting of each assessment component in Leaving Certificate Chemistry and the level at which each is taken.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s2": {
-  "keyTerms": [
-   {
-    "definition": "A representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly.",
-    "term": "Model"
-   },
-   {
-    "definition": "A three-dimensional object, such as a molecular model, that represents the arrangement of atoms in a substance.",
-    "term": "Physical model"
-   },
-   {
-    "definition": "An equation that describes how quantities are related, such as PV = nRT for a gas.",
-    "term": "Mathematical model"
-   },
-   {
-    "definition": "A representation using chemical formulae, equations or symbols to describe particles and changes.",
-    "term": "Symbolic model"
-   },
-   {
-    "definition": "A physical model in which atoms are shown as coloured balls and bonds as sticks.",
-    "term": "Ball-and-stick model"
-   },
-   {
-    "definition": "A physical model in which atoms are shown as overlapping spheres that give a sense of the molecule's overall size.",
-    "term": "Space-filling model"
-   },
-   {
-    "definition": "A diagram showing how the outer electrons of atoms are shared or transferred in bonding.",
-    "term": "Dot-and-cross diagram"
-   },
-   {
-    "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds.",
-    "term": "Energy profile diagram"
-   }
-  ],
-  "notes": [
    {
     "h": "What a model is",
     "points": [
@@ -660,6 +169,18 @@
   "questions": [
    {
     "marks": 6,
+    "model": "A hypothesis is a testable, tentative explanation or prediction that evidence can support or contradict. A theory is a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations; for example, collision theory explains how chemical reactions occur. A law is a statement, often mathematical, that describes what always happens under stated conditions; for example, Boyle's law describes how the pressure and volume of a gas are related. A law describes what happens, while a theory explains why it happens.",
+    "prompt": "Distinguish between a scientific hypothesis, a theory and a law, giving one chemical example of a theory and of a law.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Scientific ideas change because they are tentative: they are the best explanation of the evidence available, and they are modified when new evidence does not fit or when new instruments allow new measurements. Dalton's indivisible atom was modified when Thomson discovered the electron in 1897, showing that atoms can be divided; Thomson proposed the plum pudding model. Rutherford's gold-foil experiment, carried out by Geiger and Marsden, led to the nuclear model in 1911, with a tiny dense positive nucleus replacing the plum pudding model. Bohr proposed fixed energy levels in 1913 to explain line emission spectra. The current orbital model was adopted because it explains evidence that earlier models could not. A new idea is accepted only when it explains all the old evidence as well as the new evidence.",
+    "prompt": "Using the development of the model of the atom as an example, explain how and why scientific ideas are modified over time.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
     "model": "A scientific model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly. Two kinds are physical models, such as ball-and-stick molecular models that show the shape of a molecule, and mathematical models, such as the equation PV = nRT, which relates the pressure, volume, amount and temperature of a gas. Other kinds include symbolic models (formulae and equations), diagrams and computer simulations.",
     "prompt": "What is a scientific model? Give two different kinds of model used in chemistry, with an example of each.",
     "type": "short"
@@ -672,7 +193,7 @@
    }
   ]
  },
- "chem1-s3": {
+ "chem1-s2": {
   "keyTerms": [
    {
     "definition": "The evaluation of a scientist's work by other independent experts in the same field before it is published.",
@@ -701,6 +222,34 @@
    {
     "definition": "A standard symbol on a chemical label that shows a hazard, such as corrosive or flammable.",
     "term": "Hazard pictogram"
+   },
+   {
+    "definition": "A focused question about an issue that guides the search for information.",
+    "term": "Research question"
+   },
+   {
+    "definition": "Data collected first-hand by the investigator, for example by experiment or measurement.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Data collected by someone else, such as published results, government statistics or databases.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "A journal article that has been checked by independent experts before publication.",
+    "term": "Peer-reviewed article"
+   },
+   {
+    "definition": "A tendency to collect, interpret or present information so as to favour one outcome.",
+    "term": "Bias"
+   },
+   {
+    "definition": "Support for a claim from several independent and reliable sources.",
+    "term": "Corroboration"
+   },
+   {
+    "definition": "How up to date a source is, which affects how far its information can be trusted.",
+    "term": "Currency"
    }
   ],
   "notes": [
@@ -749,55 +298,7 @@
      "Reproducible: a different experimenter, using different equipment or a different method, gets the same results.",
      "A claim is accepted only when its results are reproducible; results that no one else can reproduce are not accepted."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published. The scientist submits a paper to a journal, the editor sends it to reviewers, who check the method, data, analysis and conclusions, and the paper is accepted, returned for changes or rejected. It is important because it filters out poor or flawed work, reduces bias and gives readers confidence in published results, although it does not guarantee that a result is correct.",
-    "prompt": "Explain what is meant by peer review and state why it is important in science.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Repeatability means that the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated. Reproducibility means that a different experimenter, using different equipment or a different method, gets the same results. A claim is accepted only when its results are reproducible, because results that no one else can reproduce cannot be relied upon.",
-    "prompt": "Distinguish between the repeatability and the reproducibility of an experiment, and explain why reproducibility matters.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s4": {
-  "keyTerms": [
-   {
-    "definition": "A focused question about an issue that guides the search for information.",
-    "term": "Research question"
-   },
-   {
-    "definition": "Data collected first-hand by the investigator, for example by experiment or measurement.",
-    "term": "Primary data"
-   },
-   {
-    "definition": "Data collected by someone else, such as published results, government statistics or databases.",
-    "term": "Secondary data"
-   },
-   {
-    "definition": "A journal article that has been checked by independent experts before publication.",
-    "term": "Peer-reviewed article"
-   },
-   {
-    "definition": "A tendency to collect, interpret or present information so as to favour one outcome.",
-    "term": "Bias"
-   },
-   {
-    "definition": "Support for a claim from several independent and reliable sources.",
-    "term": "Corroboration"
-   },
-   {
-    "definition": "How up to date a source is, which affects how far its information can be trusted.",
-    "term": "Currency"
-   }
-  ],
-  "notes": [
    {
     "h": "Planning the research",
     "points": [
@@ -841,6 +342,18 @@
   "questions": [
    {
     "marks": 6,
+    "model": "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published. The scientist submits a paper to a journal, the editor sends it to reviewers, who check the method, data, analysis and conclusions, and the paper is accepted, returned for changes or rejected. It is important because it filters out poor or flawed work, reduces bias and gives readers confidence in published results, although it does not guarantee that a result is correct.",
+    "prompt": "Explain what is meant by peer review and state why it is important in science.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Repeatability means that the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated. Reproducibility means that a different experimenter, using different equipment or a different method, gets the same results. A claim is accepted only when its results are reproducible, because results that no one else can reproduce cannot be relied upon.",
+    "prompt": "Distinguish between the repeatability and the reproducibility of an experiment, and explain why reproducibility matters.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
     "model": "Primary data are collected first-hand by the investigator, for example by measuring the volume of gas produced in a reaction the student has carried out. Secondary data are collected by someone else, for example published results or the results of other class groups, which can be compared with the student's own primary data.",
     "prompt": "Distinguish between primary data and secondary data, giving an example of each from a chemistry investigation.",
     "type": "short"
@@ -853,7 +366,7 @@
    }
   ]
  },
- "chem1-s5": {
+ "chem1-s3": {
   "keyTerms": [
    {
     "definition": "The variable that the investigator deliberately changes.",
@@ -882,62 +395,7 @@
    {
     "definition": "A specific, focused question that can be answered by collecting evidence through observation or experiment.",
     "term": "Testable question"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Questions suitable for investigation",
-    "points": [
-     "A scientific question can be answered by collecting evidence through observation or experiment.",
-     "A good question is specific and focused and names measurable quantities, e.g. “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
-     "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation.",
-     "A vague question, or one that cannot be tested with the available methods, is unsuitable, but a vague question can often be refined into a testable one."
-    ]
    },
-   {
-    "h": "Variables",
-    "points": [
-     "The independent variable is the one the investigator deliberately changes.",
-     "The dependent variable is the one that is measured, and it may change as a result.",
-     "Controlled variables are all the other factors that could affect the result; they are kept the same so that the test is fair."
-    ]
-   },
-   {
-    "b": "A hypothesis is based on existing scientific theory rather than on a guess.",
-    "h": "Testable hypotheses",
-    "points": [
-     "A hypothesis is a proposed explanation that leads to a testable prediction.",
-     "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason, e.g. “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”, drawn from collision theory.",
-     "A hypothesis must be falsifiable: an experiment could show it to be wrong.",
-     "A prediction is the specific result expected if the hypothesis is correct, e.g. “doubling the concentration will roughly halve the time taken”."
-    ]
-   },
-   {
-    "h": "Comparing strategies for testing a hypothesis",
-    "points": [
-     "A hypothesis can often be tested in more than one way, e.g. by measuring the volume of gas collected in a gas syringe, the mass lost on a balance, or the time taken for a solid to disappear.",
-     "Strategies are compared by validity, the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
-     "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Hypothesis: increasing the temperature increases the rate of reaction, because the particles gain energy and so collide more often and more energetically, giving more frequent effective collisions (collision theory). Independent variable: the temperature of the reaction mixture. Dependent variable: the rate of reaction, measured, for example, as the time taken for a set change to occur. Controlled variables: the concentration and volume of the sodium thiosulfate solution, and the concentration and volume of the hydrochloric acid.",
-    "prompt": "Write a testable hypothesis for an investigation into the effect of temperature on the rate of reaction between sodium thiosulfate and hydrochloric acid, and identify the independent, dependent and two controlled variables.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "The gas syringe measures the volume of gas given off directly and at regular intervals, giving quantitative data, but the syringe must be sealed and gas may leak from it. Measuring the mass lost on a balance also gives continuous data as gas escapes, but the balance must have a suitable resolution and the reaction must be contained so that spray does not affect the reading. Timing how long a solid takes to disappear is simple and cheap, but it is a less precise measure of the rate and gives fewer data points. Justification: the gas syringe is likely to give the most valid and reliable evidence, because it measures the product of the reaction directly, gives many data points over the range tested and can be made safe with a suitable set-up.",
-    "prompt": "Compare two strategies for measuring the rate of reaction of calcium carbonate with hydrochloric acid, and justify which gives better evidence.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s6": {
-  "keyTerms": [
    {
     "definition": "An investigation in which only the independent variable is changed and all other variables are controlled.",
     "term": "Fair test"
@@ -976,6 +434,41 @@
    }
   ],
   "notes": [
+   {
+    "h": "Questions suitable for investigation",
+    "points": [
+     "A scientific question can be answered by collecting evidence through observation or experiment.",
+     "A good question is specific and focused and names measurable quantities, e.g. “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
+     "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation.",
+     "A vague question, or one that cannot be tested with the available methods, is unsuitable, but a vague question can often be refined into a testable one."
+    ]
+   },
+   {
+    "h": "Variables",
+    "points": [
+     "The independent variable is the one the investigator deliberately changes.",
+     "The dependent variable is the one that is measured, and it may change as a result.",
+     "Controlled variables are all the other factors that could affect the result; they are kept the same so that the test is fair."
+    ]
+   },
+   {
+    "b": "A hypothesis is based on existing scientific theory rather than on a guess.",
+    "h": "Testable hypotheses",
+    "points": [
+     "A hypothesis is a proposed explanation that leads to a testable prediction.",
+     "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason, e.g. “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”, drawn from collision theory.",
+     "A hypothesis must be falsifiable: an experiment could show it to be wrong.",
+     "A prediction is the specific result expected if the hypothesis is correct, e.g. “doubling the concentration will roughly halve the time taken”."
+    ]
+   },
+   {
+    "h": "Comparing strategies for testing a hypothesis",
+    "points": [
+     "A hypothesis can often be tested in more than one way, e.g. by measuring the volume of gas collected in a gas syringe, the mass lost on a balance, or the time taken for a solid to disappear.",
+     "Strategies are compared by validity, the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
+     "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified."
+    ]
+   },
    {
     "h": "Planning an investigation",
     "points": [
@@ -1038,6 +531,18 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Hypothesis: increasing the temperature increases the rate of reaction, because the particles gain energy and so collide more often and more energetically, giving more frequent effective collisions (collision theory). Independent variable: the temperature of the reaction mixture. Dependent variable: the rate of reaction, measured, for example, as the time taken for a set change to occur. Controlled variables: the concentration and volume of the sodium thiosulfate solution, and the concentration and volume of the hydrochloric acid.",
+    "prompt": "Write a testable hypothesis for an investigation into the effect of temperature on the rate of reaction between sodium thiosulfate and hydrochloric acid, and identify the independent, dependent and two controlled variables.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The gas syringe measures the volume of gas given off directly and at regular intervals, giving quantitative data, but the syringe must be sealed and gas may leak from it. Measuring the mass lost on a balance also gives continuous data as gas escapes, but the balance must have a suitable resolution and the reaction must be contained so that spray does not affect the reading. Timing how long a solid takes to disappear is simple and cheap, but it is a less precise measure of the rate and gives fewer data points. Justification: the gas syringe is likely to give the most valid and reliable evidence, because it measures the product of the reaction directly, gives many data points over the range tested and can be made safe with a suitable set-up.",
+    "prompt": "Compare two strategies for measuring the rate of reaction of calcium carbonate with hydrochloric acid, and justify which gives better evidence.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "Fairness: only the temperature is changed, using a water bath set to each chosen value, and the concentrations and volumes of the reactants and the other conditions are kept the same. Reliability: each temperature is repeated at least three times, a mean is calculated, and the results are compared with those of other groups; any repeat that differs widely is checked. Validity: the method measures the rate directly, for example as the time taken for a set change to occur, the temperature is measured at the moment of reaction, and the hypothesis is tested across a suitable range of temperatures using at least five values.",
     "prompt": "Explain how fairness, reliability and validity would be ensured in an investigation of the effect of temperature on the rate of a reaction.",
@@ -1051,7 +556,7 @@
    }
   ]
  },
- "chem1-s7": {
+ "chem1-s4": {
   "keyTerms": [
    {
     "definition": "The internationally agreed system of units, with base units including the metre, kilogram, second, kelvin and mole.",
@@ -1092,6 +597,42 @@
    {
     "definition": "A result that does not fit the pattern of the other results.",
     "term": "Anomalous result"
+   },
+   {
+    "definition": "Descriptions of observations that do not involve numbers.",
+    "term": "Qualitative data"
+   },
+   {
+    "definition": "Measurements recorded as numbers with units.",
+    "term": "Quantitative data"
+   },
+   {
+    "definition": "For a straight line, the change in y divided by the change in x; for a curve, the gradient of the tangent at a point.",
+    "term": "Gradient"
+   },
+   {
+    "definition": "A straight line or smooth curve drawn through the general trend of plotted points, not joining them point to point.",
+    "term": "Line of best fit"
+   },
+   {
+    "definition": "Estimating a value within the range of the data from a graph.",
+    "term": "Interpolation"
+   },
+   {
+    "definition": "Estimating a value beyond the range of the data by extending a graph, which is less reliable.",
+    "term": "Extrapolation"
+   },
+   {
+    "definition": "Describes two variables whose graph is a straight line through the origin, so that one doubles when the other doubles.",
+    "term": "Directly proportional"
+   },
+   {
+    "definition": "A way of writing a number as A × 10ⁿ, where A is between 1 and 10.",
+    "term": "Scientific notation"
+   },
+   {
+    "definition": "A relationship between two variables in which one tends to change with the other.",
+    "term": "Correlation"
    }
   ],
   "notes": [
@@ -1129,67 +670,7 @@
      "Anomalous results caused by mistakes are identified and either repeated or excluded with a reason (see “Producing and analysing data”).",
      "Percentage error = (experimental value − accepted value) ÷ accepted value × 100."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Random error is unpredictable variation that scatters the readings above and below the true value, for example misjudging the colour change at the end point; repeating and averaging reduces it. Systematic error is a consistent error that shifts every reading in the same direction, for example a burette that has not been rinsed with the titrant, so the solution is diluted, or always reading the top of the meniscus; repeating does not remove it, but calibrating the equipment or improving the method does.",
-    "prompt": "Distinguish between random error and systematic error, giving one example of each from a titration.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "(i) 37 + 273 = 310 K. (ii) 0.150 × 1000 = 150 cm³. (iii) 2.5 × 1000 = 2500 mg. (iv) 250 × 1000 = 2.5 × 10⁵ Pa.",
-    "prompt": "Convert (i) 37 °C to kelvin, (ii) 0.150 L to cm³, (iii) 2.5 g to mg, (iv) 250 kPa to Pa.",
-    "type": "short"
-   }
-  ]
- },
- "chem1-s8": {
-  "keyTerms": [
-   {
-    "definition": "Descriptions of observations that do not involve numbers.",
-    "term": "Qualitative data"
-   },
-   {
-    "definition": "Measurements recorded as numbers with units.",
-    "term": "Quantitative data"
-   },
-   {
-    "definition": "For a straight line, the change in y divided by the change in x; for a curve, the gradient of the tangent at a point.",
-    "term": "Gradient"
-   },
-   {
-    "definition": "A straight line or smooth curve drawn through the general trend of plotted points, not joining them point to point.",
-    "term": "Line of best fit"
-   },
-   {
-    "definition": "Estimating a value within the range of the data from a graph.",
-    "term": "Interpolation"
-   },
-   {
-    "definition": "Estimating a value beyond the range of the data by extending a graph, which is less reliable.",
-    "term": "Extrapolation"
-   },
-   {
-    "definition": "Describes two variables whose graph is a straight line through the origin, so that one doubles when the other doubles.",
-    "term": "Directly proportional"
-   },
-   {
-    "definition": "A way of writing a number as A × 10ⁿ, where A is between 1 and 10.",
-    "term": "Scientific notation"
-   },
-   {
-    "definition": "A relationship between two variables in which one tends to change with the other.",
-    "term": "Correlation"
-   },
-   {
-    "definition": "A result that does not fit the pattern of the other results and is identified, explained and left out of the mean.",
-    "term": "Anomalous result"
-   }
-  ],
-  "notes": [
    {
     "h": "Qualitative and quantitative data",
     "points": [
@@ -1251,6 +732,18 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Random error is unpredictable variation that scatters the readings above and below the true value, for example misjudging the colour change at the end point; repeating and averaging reduces it. Systematic error is a consistent error that shifts every reading in the same direction, for example a burette that has not been rinsed with the titrant, so the solution is diluted, or always reading the top of the meniscus; repeating does not remove it, but calibrating the equipment or improving the method does.",
+    "prompt": "Distinguish between random error and systematic error, giving one example of each from a titration.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) 37 + 273 = 310 K. (ii) 0.150 × 1000 = 150 cm³. (iii) 2.5 × 1000 = 2500 mg. (iv) 250 × 1000 = 2.5 × 10⁵ Pa.",
+    "prompt": "Convert (i) 37 °C to kelvin, (ii) 0.150 L to cm³, (iii) 2.5 g to mg, (iv) 250 kPa to Pa.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "Volume of gas is plotted on the y-axis and time on the x-axis, with both axes labelled with the quantity and unit, for example cm³ and s. The scales are chosen so that the points fill more than half of the grid, the points are plotted as small crosses, and a smooth curve of best fit is drawn through the general trend, not joining the points dot to dot. Any anomalous result is identified, left out of the line of best fit, and this is stated. To find the rate at 60 s, a tangent is drawn to the curve at the point where time is 60 s, and its gradient is calculated as the change in volume divided by the change in time, giving the rate with units of cm³ s⁻¹.",
     "prompt": "A student measured the volume of gas produced every 30 s in a reaction. Describe how she should draw a graph of the results and how she could use the graph to find the rate of reaction at 60 s.",
@@ -1264,7 +757,7 @@
    }
   ]
  },
- "chem1-s9": {
+ "chem1-s5": {
   "keyTerms": [
    {
     "definition": "A dated, ongoing record of all experimental and research work, kept as the work happens.",
@@ -1289,6 +782,38 @@
    {
     "definition": "A method, such as planning, controlling variables or analysing data, that can be applied to new problems.",
     "term": "Transferable skill"
+   },
+   {
+    "definition": "A written account of an investigation giving its introduction, method, results, analysis, conclusion, evaluation and references.",
+    "term": "Scientific report"
+   },
+   {
+    "definition": "A point that opposes a claim, which a well-justified argument considers and answers.",
+    "term": "Counter-argument"
+   },
+   {
+    "definition": "A reference in the text to a source, matched by a full entry in the list of references.",
+    "term": "Citation"
+   },
+   {
+    "definition": "Presenting another person's work as your own without acknowledging it.",
+    "term": "Plagiarism"
+   },
+   {
+    "definition": "A symbol in brackets, such as (s), (l), (g) or (aq), showing the physical state of a substance in an equation.",
+    "term": "State symbol"
+   },
+   {
+    "definition": "A formula that shows how the atoms in a molecule are arranged and bonded.",
+    "term": "Structural formula"
+   },
+   {
+    "definition": "A systematic name for a compound, set by the International Union of Pure and Applied Chemistry.",
+    "term": "IUPAC name"
+   },
+   {
+    "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds.",
+    "term": "Energy profile diagram"
    }
   ],
   "notes": [
@@ -1331,6 +856,42 @@
      "Set out a step-by-step approach to the problem.",
      "Check that the answer is sensible."
     ]
+   },
+   {
+    "h": "Structure of a scientific report",
+    "points": [
+     "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis.",
+     "The method gives the equipment, a step-by-step procedure and the safety precautions.",
+     "The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.",
+     "The report ends with a conclusion, an evaluation and references.",
+     "The report is written in the past tense and in an impersonal style."
+    ]
+   },
+   {
+    "h": "Scientific terminology and representations",
+    "points": [
+     "Precise terms are used, e.g. “dissolves”, not “melts”, for a solid going into solution, and “effervescence” for bubbles of gas.",
+     "Correct SI units and IUPAC names are used throughout.",
+     "Representations include balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs and energy profile diagrams."
+    ]
+   },
+   {
+    "h": "Communicating with different audiences",
+    "points": [
+     "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster.",
+     "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained.",
+     "The same findings may be communicated as a report, poster, presentation, infographic or article.",
+     "The format is chosen for the purpose and the audience."
+    ]
+   },
+   {
+    "h": "Justifying opinions and citing sources",
+    "points": [
+     "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.",
+     "Each source is cited in the text and listed in full in the references, so that readers can check it.",
+     "Copying someone else's work without acknowledgement is plagiarism.",
+     "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing."
+    ]
    }
   ],
   "questions": [
@@ -1344,6 +905,385 @@
     "marks": 9,
     "model": "Source of error 1: heat is lost to the surroundings and to the container during the reaction, so the temperature rise is smaller than it should be and the calculated value is lower than the accepted value. Improvement: insulate the reaction vessel, for example with a polystyrene cup and lid. Source of error 2: the resolution of the thermometer limits how accurately the temperature rise can be read, which causes imprecise results. Improvement: use a more precise thermometer, or a data-logger that records the temperature continuously so that the maximum temperature can be found.",
     "prompt": "A student's value for a heat of neutralisation was lower than the accepted value. Evaluate the investigation: suggest two sources of error and an improvement for each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The introduction gives the background research and the research question, followed by the hypothesis. The method gives the equipment, a step-by-step procedure and the safety precautions. The results are presented as tables and graphs. The analysis gives the calculations and the patterns in the data. The conclusion states what the data show about the hypothesis. The evaluation judges the method and data and suggests improvements. The references list the sources cited in the text.",
+    "prompt": "List the main sections of a scientific report of an experiment and state what each contains.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Other scientists need full technical detail, the data and the references, as in a journal paper or conference poster. The general public needs plain language, with the key findings stated first, simple graphics, and technical terms explained.",
+    "prompt": "Describe two differences between communicating the results of an investigation to other scientists and to the general public.",
+    "type": "short"
+   }
+  ]
+ },
+ "chem1-s6": {
+  "keyTerms": [
+   {
+    "definition": "Meeting present needs without compromising the ability of future generations to meet their own needs.",
+    "term": "Sustainability"
+   },
+   {
+    "definition": "A medicine that kills or stops the growth of bacteria; penicillin was the first to be discovered.",
+    "term": "Antibiotic"
+   },
+   {
+    "definition": "One of the themes of Health, Sustainability and Technology, used to look at how chemistry applies to real life.",
+    "term": "Cross-cutting theme"
+   },
+   {
+    "definition": "A consideration in applying chemistry, such as the cost of development, production or disposal, jobs and profit.",
+    "term": "Economic factor"
+   },
+   {
+    "definition": "A consideration in applying chemistry, such as its effects on health, safety, communities and quality of life.",
+    "term": "Social factor"
+   },
+   {
+    "definition": "A consideration in applying chemistry, such as whether an application is fair and whether it risks harm to people or the environment.",
+    "term": "Ethical factor"
+   },
+   {
+    "definition": "Agreement to take part in or accept an activity given by someone who understands its risks and benefits.",
+    "term": "Informed consent"
+   },
+   {
+    "definition": "Money provided by governments, companies or charities that decides which research takes place.",
+    "term": "Funding"
+   },
+   {
+    "definition": "To present a scientific finding in a dramatic way that exaggerates its importance or certainty.",
+    "term": "Sensationalise"
+   },
+   {
+    "definition": "A study whose method and conclusions have been checked by independent experts before publication.",
+    "term": "Peer-reviewed study"
+   },
+   {
+    "definition": "A relationship between two variables in which one tends to change with the other.",
+    "term": "Correlation"
+   },
+   {
+    "definition": "A relationship in which a change in one variable is shown to produce a change in another.",
+    "term": "Causation"
+   },
+   {
+    "definition": "The degree to which a substance can cause harm to a living organism.",
+    "term": "Toxicity"
+   },
+   {
+    "definition": "The amount of a substance taken in or exposed to.",
+    "term": "Dose"
+   },
+   {
+    "definition": "A situation in which a researcher or source has a financial or other interest that could influence their findings.",
+    "term": "Conflict of interest"
+   },
+   {
+    "definition": "A measure of how acidic or alkaline a solution is, with lower values more acidic.",
+    "term": "pH"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Contributions of scientists",
+    "points": [
+     "Robert Boyle (born 25 January 1627 at Lismore Castle, Co. Waterford) pioneered experimental chemistry and argued that knowledge should come from experiment.",
+     "Boyle's law, published in 1662, relates the pressure and volume of a gas.",
+     "Dmitri Mendeleev published his periodic table in 1869, arranging the elements and leaving gaps for undiscovered elements.",
+     "Mendeleev predicted the properties of the undiscovered elements; the periodic table organises all of chemistry.",
+     "Alexander Fleming discovered penicillin, the first antibiotic, in 1928; he shared the Nobel Prize in 1945 with Florey and Chain.",
+     "Penicillin was mass-produced from the 1940s, and antibiotics have since saved very many lives.",
+     "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen (Nobel Prize 1918), and Carl Bosch scaled it up industrially in the early 1900s.",
+     "Ammonia-based fertilisers help feed much of the world's population, but the same chemistry was used to make explosives: a discovery can have both positive and negative impacts.",
+     "John Goodenough, Stanley Whittingham and Akira Yoshino developed the lithium-ion battery, for which they received the 2019 Nobel Prize in Chemistry.",
+     "Lithium-ion batteries power phones, laptops and electric vehicles."
+    ]
+   },
+   {
+    "h": "The role and importance of chemistry",
+    "points": [
+     "Personal: chemistry provides medicines, clean water, food, cleaning products, cosmetics, and materials for clothing and phones.",
+     "Personal: understanding chemical labels and hazards helps people make safe choices.",
+     "Social: chemistry supports public health through water treatment, vaccines and medicines.",
+     "Social: chemistry supports agriculture through fertilisers and pesticides, and provides jobs in the chemical and pharmaceutical industry.",
+     "Ireland has a large pharmaceutical industry.",
+     "Global: chemistry helps tackle climate change through cleaner fuels, batteries and carbon capture.",
+     "Global: chemistry helps tackle pollution, food security and the use of resources."
+    ]
+   },
+   {
+    "h": "How society influences research",
+    "points": [
+     "Governments, companies and charities decide what research is funded, often according to social needs or profit.",
+     "Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic, or for alternatives to fossil fuels.",
+     "Laws and regulations, e.g. on chemical safety, emissions and animal testing, limit or direct research.",
+     "The ethical values of society decide what research is acceptable."
+    ]
+   },
+   {
+    "h": "Economic, social, sustainability and ethical factors",
+    "points": [
+     "Economic factors include the cost of development, production and disposal, jobs and profit.",
+     "Social factors include effects on health, safety, communities and quality of life.",
+     "Sustainability means meeting present needs without compromising future generations, through the use of renewable resources and energy and the management of waste.",
+     "Ethical factors include whether an application is right, e.g. fairness, risks to people or the environment, and informed consent.",
+     "Being personally effective means making informed choices, e.g. about recycling, energy use and product claims, and taking part in public debate using evidence."
+    ]
+   },
+   {
+    "h": "Cross-cutting themes",
+    "points": [
+     "The specification's three cross-cutting themes are Health, Sustainability and Technology.",
+     "The themes are lenses for looking at how chemistry applies to real life, and the written examination includes questions on them."
+    ]
+   },
+   {
+    "h": "Why media reports need evaluating",
+    "points": [
+     "News, advertising and social media may simplify, exaggerate or sensationalise science.",
+     "They may report a single study as settled fact, or leave out uncertainty and context.",
+     "Headlines are written to attract attention and may not match the findings of the study."
+    ]
+   },
+   {
+    "h": "Questions to ask of a media claim",
+    "points": [
+     "What exactly is being claimed, and is it a scientific claim that can be tested with evidence?",
+     "Where does the claim come from: is the original study named, peer-reviewed and available?",
+     "How strong is the evidence: what is the sample size, were there controls, have the results been reproduced, and was the study done in people, animals or cells?",
+     "Is cause being confused with correlation?",
+     "Who benefits: is the source selling a product or promoting a view, and who funded the research?",
+     "Do other independent experts and sources agree?",
+     "Are scientific words used correctly, or misused to sound convincing, e.g. “chemical-free” or “natural means safe”?"
+    ]
+   },
+   {
+    "h": "Discussing scientific claims",
+    "points": [
+     "Separate evidence from opinion, and base conclusions on the weight of the evidence.",
+     "Acknowledge uncertainty and the limits of current knowledge.",
+     "Consider different perspectives, economic, social, ethical and environmental, while keeping the scientific evidence separate from them."
+    ]
+   },
+   {
+    "h": "Common misleading claims and the chemistry",
+    "points": [
+     "“Chemical-free”: everything, including water and food, is made of chemicals.",
+     "“Natural is always safe; synthetic is dangerous”: toxicity depends on the substance and the dose, not on whether it is natural.",
+     "Some natural substances are highly toxic, and a synthetic substance can be identical to a natural one.",
+     "Alkaline-water and detox claims: the body controls its own pH, and drinking alkaline water does not change blood pH.",
+     "Human blood pH is kept between about 7.35 and 7.45.",
+     "Stomach acid has a pH of about 1.5 to 3.5, so it is strongly acidic."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Fritz Haber developed the ammonia synthesis from nitrogen and hydrogen, for which he received the Nobel Prize in 1918, and Carl Bosch scaled the process up industrially. Ammonia is used to make fertilisers that help feed much of the world's population, a positive impact on food security. The same chemistry was used to make explosives, a negative impact. The overall impact therefore depends on how the discovery is used, and it raises ethical and economic questions for society.",
+    "prompt": "Describe the contribution of one named scientist to chemistry and evaluate its impact on society.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Funding: governments, companies and charities decide which research is funded, often according to social needs or profit. Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic.",
+    "prompt": "Give two ways in which society influences scientific research.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The claim that the shampoo is chemical-free is misleading, because everything, including water, is made of chemicals. The claim that it is natural and therefore safe is also misleading, because toxicity depends on the substance and the dose, not on whether it is natural; some natural substances are highly toxic. The source should be checked: the advertisement is selling the product, so its claims may present only one side, and it should be asked whether the safety claim is supported by a named, peer-reviewed study. Other independent sources should be checked to see whether they agree that the product is completely safe.",
+    "prompt": "An advertisement claims a shampoo is 'chemical-free and 100% natural, so it is completely safe'. Evaluate this claim.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Three questions: What exactly is being claimed, and is it testable with evidence? Is the original study named, peer-reviewed and available, and how strong is its evidence, including its sample size, controls and whether the results have been reproduced? Who benefits from the claim, and who funded the research? Other questions include whether cause is being confused with correlation, and whether independent experts agree.",
+    "prompt": "State three questions you would ask to evaluate a newspaper report of a new scientific discovery.",
+    "type": "short"
+   }
+  ]
+ },
+ "chem1-s7": {
+  "keyTerms": [
+   {
+    "definition": "The level of observable properties, which we see, measure and handle.",
+    "term": "Macroscopic level"
+   },
+   {
+    "definition": "The level of atoms, ions, molecules and electrons, and how they move and rearrange to explain observations.",
+    "term": "Sub-microscopic level"
+   },
+   {
+    "definition": "The level of formulae, equations, diagrams and graphs that represent particles and changes.",
+    "term": "Symbolic level"
+   },
+   {
+    "definition": "A charged particle formed when an atom or group of atoms gains or loses electrons.",
+    "term": "Ion"
+   },
+   {
+    "definition": "Using drawings, physical models, animations or simulations to represent particles that cannot be seen.",
+    "term": "Visualisation"
+   },
+   {
+    "definition": "A condition accepted as true when building a model, which simplifies it so that it can be used.",
+    "term": "Assumption"
+   },
+   {
+    "definition": "A model that allows a behaviour or value to be predicted before it is measured.",
+    "term": "Predictive model"
+   },
+   {
+    "definition": "The assessment component, worth 40%, in which students research an issue and carry out an experiment related to a common brief.",
+    "term": "Chemistry in Practice Investigation"
+   },
+   {
+    "definition": "The document published each year by the SEC that sets the requirements and context for the Chemistry in Practice Investigation.",
+    "term": "Investigation Brief"
+   },
+   {
+    "definition": "Material included in the brief to set a context for the investigation.",
+    "term": "Stimulus material"
+   },
+   {
+    "definition": "A dated, ongoing record of all experimental and research work that students draw on to write their report.",
+    "term": "Investigative log"
+   },
+   {
+    "definition": "A source of information, such as a published article or database, that contains data collected by someone else.",
+    "term": "Secondary source"
+   },
+   {
+    "definition": "The SEC statements of what high and lower achievement look like in each of the four areas judged.",
+    "term": "Descriptors of quality"
+   },
+   {
+    "definition": "The level at which the Chemistry in Practice Investigation is taken, the same for Higher and Ordinary level students.",
+    "term": "Common level"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Three levels of representation",
+    "points": [
+     "The macroscopic (observable) level is what we see, measure and handle, e.g. ice melting, a solution changing colour, or gas bubbles forming.",
+     "The sub-microscopic (particulate) level is made up of atoms, ions, molecules and electrons, and how they move and rearrange; these particles cannot be seen with a light microscope.",
+     "The sub-microscopic level explains the observations at the macroscopic level.",
+     "The symbolic level uses formulae, equations, diagrams and graphs to represent the particles and the changes.",
+     "Chemists move between the three levels: an explanation links what is seen to what the particles do, and writes it symbolically."
+    ]
+   },
+   {
+    "b": "Each example runs from the observation, to the particle explanation, to the symbolic equation.",
+    "h": "Relating observations to particles",
+    "points": [
+     "Ice melting, observed: a solid becomes a liquid at 0 °C at standard pressure.",
+     "Ice melting, particles: water molecules gain energy and partly overcome hydrogen bonds, so they move past one another.",
+     "Ice melting, symbolic: H₂O(s) → H₂O(l).",
+     "Magnesium in hydrochloric acid, observed: the solution fizzes and the magnesium disappears.",
+     "Magnesium in hydrochloric acid, particles: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions gain electrons to form H₂ molecules.",
+     "Magnesium in hydrochloric acid, symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+     "A sodium salt in a flame, observed: a yellow-orange colour.",
+     "A sodium salt in a flame, particles: electrons in sodium atoms are excited to higher energy levels, and emit light of a specific energy as they fall back.",
+     "A salt dissolving in water, observed: the solid disappears.",
+     "A salt dissolving in water, particles: water molecules surround and separate Na⁺ and Cl⁻ ions.",
+     "A salt dissolving in water, symbolic: NaCl(s) → Na⁺(aq) + Cl⁻(aq)."
+    ]
+   },
+   {
+    "h": "Visualising and generating models",
+    "points": [
+     "Chemists visualise particles they cannot see using drawings, physical models, animations and computer simulations.",
+     "Generating a model: propose a representation that fits the observations, use it to make a prediction, and test the prediction.",
+     "After testing, keep, modify or discard the model."
+    ]
+   },
+   {
+    "b": "Models are simplified representations of complex systems or phenomena; the three properties below apply to every model.",
+    "h": "Properties of models",
+    "points": [
+     "Simplified, with underlying assumptions: the kinetic theory assumes that gas particles have negligible volume and no forces between them.",
+     "Modified as more data become available: the Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron.",
+     "Predictive: VSEPR theory predicts the bond angle in a molecule before it is measured, and the ideal gas equation predicts the volume of a gas."
+    ]
+   },
+   {
+    "h": "Assessment structure",
+    "points": [
+     "Leaving Certificate Chemistry has two assessment components, both set and marked by the State Examinations Commission (SEC).",
+     "The written examination is worth 60% and is taken at Higher or Ordinary level.",
+     "The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
+     "Grades are H1 to H8 at Higher level and O1 to O8 at Ordinary level, in bands of 10% from 30% to 100%; below 30% is grade 8.",
+     "The written examination uses a range of question types and assesses all four contextual strands, the unifying strand, and the application of chemistry to the cross-cutting themes of sustainability, health and technology."
+    ]
+   },
+   {
+    "h": "The brief",
+    "points": [
+     "The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year).",
+     "The brief sets out the requirements and includes stimulus material that sets a context.",
+     "The brief allows students to develop their own ideas related to that context, and helps teachers and students to plan.",
+     "Students keep an investigative log that they draw on to write the report."
+    ]
+   },
+   {
+    "h": "What students do",
+    "points": [
+     "Scientific research: students gather, process and evaluate information from secondary sources on an issue related to the brief; this may inform the experimental work.",
+     "Experiment: students generate a hypothesis for an issue related to the brief, then plan and design the experiment.",
+     "Experiment: students carry out laboratory work to gather primary data, then analyse the data and form conclusions.",
+     "Students develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year), in a format prescribed by the SEC.",
+     "The specification envisages up to 20 hours of work; a separate document, “Guidelines to support the Chemistry in Practice Investigation”, covers organisation.",
+     "Experimental design, safety and measurement are covered in “Designing and conducting investigations” and “Measurement and error”.",
+     "Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process."
+    ]
+   },
+   {
+    "b": "Four areas are judged: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.",
+    "h": "How the investigation is judged",
+    "points": [
+     "High achievement in knowledge and understanding shows considerable understanding of the brief, a clearly described purpose, and relevant research that evaluates a wide range of appropriate sources.",
+     "High achievement in knowledge and understanding also shows thorough engagement with the chemical concepts, explaining the phenomena clearly and accurately.",
+     "High achievement in design and method has a probing research question and a testable hypothesis underpinned by chemical concepts.",
+     "High achievement in design and method has a thorough investigative design, with appropriate methods collecting high-quality primary data.",
+     "High achievement in analysis and conclusions has clear, appropriate data and analysis, and valid conclusions justified by the data and related to the hypotheses.",
+     "High achievement in analysis and conclusions has a thorough evaluation that acknowledges limitations in the research, design and data gathering.",
+     "High achievement in analysis and conclusions has a summary of key areas and a coherent, consistent report with supporting references and reflections.",
+     "High achievement in relation to the work of scientists in society has a considered reflection that locates the outcomes within broader societal and scientific issues relating to the brief.",
+     "Lower achievement shows limited understanding of the brief, an unclear purpose, little research and a simple design.",
+     "Lower achievement shows conclusions not linked to the data, no limitations identified, and few references or reflections."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Macroscopic: bubbles form, the solution fizzes and the magnesium ribbon disappears. Sub-microscopic: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions in the acid gain electrons to form hydrogen molecules, H₂, which are the gas seen as bubbles. Symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+    "prompt": "When magnesium ribbon is added to dilute hydrochloric acid, bubbles form and the magnesium disappears. Describe this change at the macroscopic, sub-microscopic and symbolic levels.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) The kinetic theory is a simplified representation of a gas: it assumes that gas particles have negligible volume and no forces between them, which makes the model easy to use although real particles do have volume. (ii) The Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron.",
+    "prompt": "Using one example, explain each of the following statements about models: (i) a model is a simplified representation; (ii) a model can be modified as more data becomes available.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The first part is scientific research on an issue related to the brief: the student gathers, processes and evaluates information from secondary sources, which may inform the experimental work. The second part is an experiment related to an issue in the brief: the student generates a hypothesis, plans and designs the experiment, carries out laboratory work to gather primary data, and analyses the data to form conclusions.",
+    "prompt": "Describe the two main parts of the work a student carries out for the Chemistry in Practice Investigation.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The written examination is worth 60% and is taken at Higher or Ordinary level. The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
+    "prompt": "State the weighting of each assessment component in Leaving Certificate Chemistry and the level at which each is taken.",
     "type": "short"
    }
   ]
@@ -1381,6 +1321,34 @@
    {
     "definition": "A reaction between an acid and a base that forms a salt and water.",
     "term": "Neutralisation"
+   },
+   {
+    "definition": "In a chemical reaction matter is neither created nor destroyed, so the products have the same total mass as the reactants.",
+    "term": "Law of conservation of mass"
+   },
+   {
+    "definition": "Energy cannot be created or destroyed, only changed from one form to another.",
+    "term": "Law of conservation of energy"
+   },
+   {
+    "definition": "A sealed apparatus through which matter cannot enter or leave, so any mass change is measured within it.",
+    "term": "Closed system"
+   },
+   {
+    "definition": "An apparatus through which gas can escape or enter, so the mass on a balance can appear to change.",
+    "term": "Open system"
+   },
+   {
+    "definition": "A testable prediction of what an investigation will show and why.",
+    "term": "Hypothesis"
+   },
+   {
+    "definition": "An equation with the same number of atoms of each element on both sides.",
+    "term": "Balanced equation"
+   },
+   {
+    "definition": "The idea that matter is made of particles that are rearranged, not created or destroyed, in a reaction.",
+    "term": "Particle model"
    }
   ],
   "notes": [
@@ -1445,59 +1413,7 @@
      "Particles are unchanged in a physical change, but atoms are rearranged into new particles in a chemical change.",
      "Borderline case: dissolving salt in water is a physical change, because evaporating the water recovers the salt unchanged, even though its ions are separated."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing. It is usually easily reversed and involves only a small energy change. Example: melting ice. A chemical change is one in which one or more new substances, with different properties, are formed; bonds are broken and new bonds are made, so the atoms are rearranged. It is usually difficult to reverse and usually involves a noticeable energy change. Example: burning magnesium, which forms white magnesium oxide.",
-    "prompt": "Distinguish between a physical change and a chemical change, giving one example of each.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "(i) Iodine subliming is a physical change: no new substance is formed, the iodine changes directly from solid to gas and can be recovered unchanged. (ii) Magnesium burning is a chemical change: a new substance, white magnesium oxide, is formed, and light and heat are produced. (iii) Sugar dissolving in tea is a physical change: no new substance is formed, and the sugar can be recovered unchanged by evaporating the water.",
-    "prompt": "Classify each change as physical or chemical, giving a reason: (i) iodine subliming, (ii) magnesium burning, (iii) sugar dissolving in tea.",
-    "type": "short"
-   }
-  ]
- },
- "chem10-s2": {
-  "keyTerms": [
-   {
-    "definition": "In a chemical reaction matter is neither created nor destroyed, so the products have the same total mass as the reactants.",
-    "term": "Law of conservation of mass"
-   },
-   {
-    "definition": "Energy cannot be created or destroyed, only changed from one form to another.",
-    "term": "Law of conservation of energy"
-   },
-   {
-    "definition": "A solid that forms and separates out from a solution during a reaction.",
-    "term": "Precipitate"
-   },
-   {
-    "definition": "A sealed apparatus through which matter cannot enter or leave, so any mass change is measured within it.",
-    "term": "Closed system"
-   },
-   {
-    "definition": "An apparatus through which gas can escape or enter, so the mass on a balance can appear to change.",
-    "term": "Open system"
-   },
-   {
-    "definition": "A testable prediction of what an investigation will show and why.",
-    "term": "Hypothesis"
-   },
-   {
-    "definition": "An equation with the same number of atoms of each element on both sides.",
-    "term": "Balanced equation"
-   },
-   {
-    "definition": "The idea that matter is made of particles that are rearranged, not created or destroyed, in a reaction.",
-    "term": "Particle model"
-   }
-  ],
-  "notes": [
    {
     "h": "Law of conservation of mass",
     "points": [
@@ -1571,6 +1487,18 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing. It is usually easily reversed and involves only a small energy change. Example: melting ice. A chemical change is one in which one or more new substances, with different properties, are formed; bonds are broken and new bonds are made, so the atoms are rearranged. It is usually difficult to reverse and usually involves a noticeable energy change. Example: burning magnesium, which forms white magnesium oxide.",
+    "prompt": "Distinguish between a physical change and a chemical change, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) Iodine subliming is a physical change: no new substance is formed, the iodine changes directly from solid to gas and can be recovered unchanged. (ii) Magnesium burning is a chemical change: a new substance, white magnesium oxide, is formed, and light and heat are produced. (iii) Sugar dissolving in tea is a physical change: no new substance is formed, and the sugar can be recovered unchanged by evaporating the water.",
+    "prompt": "Classify each change as physical or chemical, giving a reason: (i) iodine subliming, (ii) magnesium burning, (iii) sugar dissolving in tea.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Method: pour sodium chloride solution into a conical flask. Half-fill a small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions do not mix. Stopper the flask and weigh the whole apparatus on an electronic balance reading to 0.01 g. Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq). Reweigh the stoppered flask. Repeat the investigation three times. Results: the mass before and after the reaction is the same within the precision of the balance, so mass is conserved. Explanation: the atoms in the reactants are only rearranged to form the products; no atoms are created or destroyed, so the total mass of the products equals the total mass of the reactants. The balanced equation shows 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side, which is a symbolic model of this conservation.",
     "prompt": "Describe an experiment to verify the law of conservation of mass, stating the results and explaining them in terms of particles.",
@@ -1584,7 +1512,7 @@
    }
   ]
  },
- "chem10-s3": {
+ "chem10-s2": {
   "keyTerms": [
    {
     "definition": "The simplest whole-number ratio of the atoms of each element in a compound.",
@@ -1617,6 +1545,38 @@
    {
     "definition": "Describes a salt with no water of crystallisation.",
     "term": "Anhydrous"
+   },
+   {
+    "definition": "An equation with the same number of atoms of each element on both sides.",
+    "term": "Balanced equation"
+   },
+   {
+    "definition": "The large number written in front of a formula that gives the number of moles or molecules in the equation.",
+    "term": "Coefficient"
+   },
+   {
+    "definition": "A symbol in brackets after a formula, (s), (l), (g) or (aq), showing its physical state.",
+    "term": "State symbol"
+   },
+   {
+    "definition": "Dissolved in water.",
+    "term": "Aqueous"
+   },
+   {
+    "definition": "An element whose molecules contain two atoms, such as O₂.",
+    "term": "Diatomic element"
+   },
+   {
+    "definition": "An equation showing only the ions that take part in a reaction.",
+    "term": "Ionic equation"
+   },
+   {
+    "definition": "An ion that is unchanged in solution and is left out of an ionic equation.",
+    "term": "Spectator ion"
+   },
+   {
+    "definition": "The ratio of the moles of two substances, given by the coefficients in a balanced equation.",
+    "term": "Mole ratio"
    }
   ],
   "notes": [
@@ -1688,59 +1648,7 @@
      "Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.",
      "Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Step 1: Divide each percentage by its relative atomic mass. C: 52.2 ÷ 12 = 4.35. H: 13.0 ÷ 1 = 13.0. O: 34.8 ÷ 16 = 2.175. Step 2: Divide each by the smallest value, 2.175. C: 4.35 ÷ 2.175 = 2.0. H: 13.0 ÷ 2.175 = 5.98, which is 6. O: 2.175 ÷ 2.175 = 1. The ratio C : H : O is 2 : 6 : 1, so the empirical formula is C₂H₆O. Step 3: The mass of the empirical formula unit is 2(12) + 6(1) + 16 = 46. Step 4: Mr ÷ empirical mass = 46 ÷ 46 = 1, so the molecular formula is the same as the empirical formula: C₂H₆O.",
-    "prompt": "A compound contains 52.2% carbon, 13.0% hydrogen and 34.8% oxygen by mass, and its Mr is 46. Find its empirical and molecular formulae.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Step 1: Mr of Na₂CO₃·10H₂O = 2(23) + 12 + 3(16) + 10(18) = 46 + 12 + 48 + 180 = 286. Step 2: Mass of water = 10 × 18 = 180. Step 3: Percentage of water = 180 ÷ 286 × 100 = 62.9%.",
-    "prompt": "Calculate the percentage by mass of water in washing soda, Na₂CO₃·10H₂O (Na = 23).",
-    "type": "short"
-   }
-  ]
- },
- "chem10-s4": {
-  "keyTerms": [
-   {
-    "definition": "An equation with the same number of atoms of each element on both sides.",
-    "term": "Balanced equation"
-   },
-   {
-    "definition": "The large number written in front of a formula that gives the number of moles or molecules in the equation.",
-    "term": "Coefficient"
-   },
-   {
-    "definition": "A symbol in brackets after a formula, (s), (l), (g) or (aq), showing its physical state.",
-    "term": "State symbol"
-   },
-   {
-    "definition": "Dissolved in water.",
-    "term": "Aqueous"
-   },
-   {
-    "definition": "An element whose molecules contain two atoms, such as O₂.",
-    "term": "Diatomic element"
-   },
-   {
-    "definition": "An equation showing only the ions that take part in a reaction.",
-    "term": "Ionic equation"
-   },
-   {
-    "definition": "An ion that is unchanged in solution and is left out of an ionic equation.",
-    "term": "Spectator ion"
-   },
-   {
-    "definition": "The ratio of the moles of two substances, given by the coefficients in a balanced equation.",
-    "term": "Mole ratio"
-   }
-  ],
-  "notes": [
    {
     "h": "What an equation shows",
     "points": [
@@ -1800,6 +1708,18 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Step 1: Divide each percentage by its relative atomic mass. C: 52.2 ÷ 12 = 4.35. H: 13.0 ÷ 1 = 13.0. O: 34.8 ÷ 16 = 2.175. Step 2: Divide each by the smallest value, 2.175. C: 4.35 ÷ 2.175 = 2.0. H: 13.0 ÷ 2.175 = 5.98, which is 6. O: 2.175 ÷ 2.175 = 1. The ratio C : H : O is 2 : 6 : 1, so the empirical formula is C₂H₆O. Step 3: The mass of the empirical formula unit is 2(12) + 6(1) + 16 = 46. Step 4: Mr ÷ empirical mass = 46 ÷ 46 = 1, so the molecular formula is the same as the empirical formula: C₂H₆O.",
+    "prompt": "A compound contains 52.2% carbon, 13.0% hydrogen and 34.8% oxygen by mass, and its Mr is 46. Find its empirical and molecular formulae.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Step 1: Mr of Na₂CO₃·10H₂O = 2(23) + 12 + 3(16) + 10(18) = 46 + 12 + 48 + 180 = 286. Step 2: Mass of water = 10 × 18 = 180. Step 3: Percentage of water = 180 ÷ 286 × 100 = 62.9%.",
+    "prompt": "Calculate the percentage by mass of water in washing soda, Na₂CO₃·10H₂O (Na = 23).",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "(i) Carbon: 4 atoms on the left, so 4 CO₂ on the right. Hydrogen: 10 atoms on the left, so 5 H₂O on the right. Oxygen: 8 + 5 = 13 atoms on the right, so 13/2 O₂ on the left. Doubling every coefficient gives 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. Check: C 8 = 8, H 20 = 20, O 26 = 26. (ii) Iron and chlorine: 2 Fe on the left needs 2 FeCl₃, which holds 6 Cl, so 3 Cl₂ on the left. Balanced equation: 2Fe + 3Cl₂ → 2FeCl₃. Check: Fe 2 = 2, Cl 6 = 6. (iii) Calcium: 1 on each side. Nitrate: 2 NO₃⁻ on the right, so 2HNO₃ on the left. Hydrogen: 2 + 2 = 4 on the left, so 2H₂O on the right. Balanced equation: Ca(OH)₂ + 2HNO₃ → Ca(NO₃)₂ + 2H₂O. Check: O 8 = 8, H 4 = 4, N 2 = 2.",
     "prompt": "Balance the following equations: (i) C₄H₁₀ + O₂ → CO₂ + H₂O, (ii) Fe + Cl₂ → FeCl₃, (iii) Ca(OH)₂ + HNO₃ → Ca(NO₃)₂ + H₂O.",
     "type": "short"
@@ -1845,6 +1765,34 @@
    {
     "definition": "Able to destroy or burn skin and other materials, as concentrated acids and alkalis are.",
     "term": "Corrosive"
+   },
+   {
+    "definition": "A compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion.",
+    "term": "Salt"
+   },
+   {
+    "definition": "An acid with two replaceable hydrogen atoms, such as sulfuric acid.",
+    "term": "Diprotic acid"
+   },
+   {
+    "definition": "A salt containing the ammonium ion, NH₄⁺, such as ammonium chloride, formed when ammonia reacts with an acid.",
+    "term": "Ammonium salt"
+   },
+   {
+    "definition": "An equation showing only the ions and molecules that take part in the change, e.g. H⁺(aq) + OH⁻(aq) → H₂O(l).",
+    "term": "Ionic equation"
+   },
+   {
+    "definition": "Describes a reaction that releases heat to the surroundings.",
+    "term": "Exothermic"
+   },
+   {
+    "definition": "A test for carbon dioxide: the gas turns limewater milky.",
+    "term": "Limewater test"
+   },
+   {
+    "definition": "A test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.",
+    "term": "Splint test"
    }
   ],
   "notes": [
@@ -1906,59 +1854,7 @@
      "Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.",
      "Lime is added to acidic lakes to neutralise the acid."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Vinegar is an acid because it contains ethanoic acid, which turns blue litmus red, showing a pH below 7. Vinegar also reacts with carbonates: it fizzes with baking soda, giving off carbon dioxide. Antacid tablets are bases because they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, which turn red litmus blue, showing a pH above 7. Antacids also neutralise acids: they neutralise excess stomach acid.",
-    "prompt": "Using two properties of each, explain why vinegar is classed as an acid and antacid tablets are classed as bases.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Example 1: farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) on acidic soil. The base neutralises the acid, raising the soil pH, so crops grow better. Example 2: antacid tablets neutralise excess hydrochloric acid in the stomach, relieving acid indigestion and heartburn. Balanced equation for the antacid: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.",
-    "prompt": "Describe two everyday examples of neutralisation, and write a balanced equation for one of them.",
-    "type": "short"
-   }
-  ]
- },
- "chem11-s2": {
-  "keyTerms": [
-   {
-    "definition": "A compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion.",
-    "term": "Salt"
-   },
-   {
-    "definition": "The reaction of an acid with a base to form a salt and water.",
-    "term": "Neutralisation"
-   },
-   {
-    "definition": "An acid with two replaceable hydrogen atoms, such as sulfuric acid.",
-    "term": "Diprotic acid"
-   },
-   {
-    "definition": "A salt containing the ammonium ion, NH₄⁺, such as ammonium chloride, formed when ammonia reacts with an acid.",
-    "term": "Ammonium salt"
-   },
-   {
-    "definition": "An equation showing only the ions and molecules that take part in the change, e.g. H⁺(aq) + OH⁻(aq) → H₂O(l).",
-    "term": "Ionic equation"
-   },
-   {
-    "definition": "Describes a reaction that releases heat to the surroundings.",
-    "term": "Exothermic"
-   },
-   {
-    "definition": "A test for carbon dioxide: the gas turns limewater milky.",
-    "term": "Limewater test"
-   },
-   {
-    "definition": "A test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.",
-    "term": "Splint test"
-   }
-  ],
-  "notes": [
    {
     "b": "Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal.",
     "h": "Salts",
@@ -2017,6 +1913,18 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Vinegar is an acid because it contains ethanoic acid, which turns blue litmus red, showing a pH below 7. Vinegar also reacts with carbonates: it fizzes with baking soda, giving off carbon dioxide. Antacid tablets are bases because they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, which turn red litmus blue, showing a pH above 7. Antacids also neutralise acids: they neutralise excess stomach acid.",
+    "prompt": "Using two properties of each, explain why vinegar is classed as an acid and antacid tablets are classed as bases.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Example 1: farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) on acidic soil. The base neutralises the acid, raising the soil pH, so crops grow better. Example 2: antacid tablets neutralise excess hydrochloric acid in the stomach, relieving acid indigestion and heartburn. Balanced equation for the antacid: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.",
+    "prompt": "Describe two everyday examples of neutralisation, and write a balanced equation for one of them.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "(i) Zn + 2HCl → ZnCl₂ + H₂. (ii) Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. (iii) Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O.",
     "prompt": "Write balanced equations for the reactions of hydrochloric acid with (i) zinc, (ii) sodium carbonate, (iii) calcium hydroxide.",
     "type": "short"
@@ -2029,7 +1937,7 @@
    }
   ]
  },
- "chem11-s3": {
+ "chem11-s2": {
   "keyTerms": [
    {
     "definition": "A substance that dissociates in water to produce hydrogen ions, H⁺.",
@@ -2062,6 +1970,58 @@
    {
     "definition": "The ion OH⁻, which an Arrhenius base produces in water.",
     "term": "Hydroxide ion"
+   },
+   {
+    "definition": "The species left after an acid donates a proton.",
+    "term": "Conjugate base"
+   },
+   {
+    "definition": "The species formed when a base accepts a proton.",
+    "term": "Conjugate acid"
+   },
+   {
+    "definition": "Two species that differ by exactly one proton, H⁺.",
+    "term": "Conjugate acid–base pair"
+   },
+   {
+    "definition": "A reaction that can proceed in both directions, shown by the symbol ⇌.",
+    "term": "Reversible reaction"
+   },
+   {
+    "definition": "An acid that is completely dissociated into ions in water.",
+    "term": "Strong acid"
+   },
+   {
+    "definition": "An acid that is only slightly dissociated in water, setting up an equilibrium with its ions.",
+    "term": "Weak acid"
+   },
+   {
+    "definition": "A base that is completely dissociated in water.",
+    "term": "Strong base"
+   },
+   {
+    "definition": "A base that reacts only slightly with water to produce hydroxide ions.",
+    "term": "Weak base"
+   },
+   {
+    "definition": "The splitting of a compound into ions when it dissolves in water.",
+    "term": "Dissociation"
+   },
+   {
+    "definition": "The amount of acid or base dissolved per litre of solution, measured in mol L⁻¹.",
+    "term": "Concentration"
+   },
+   {
+    "definition": "An acid with a large amount of acid dissolved per litre, e.g. 10 M HCl.",
+    "term": "Concentrated acid"
+   },
+   {
+    "definition": "An acid with a small amount of acid dissolved per litre, e.g. 0.1 M HCl.",
+    "term": "Dilute acid"
+   },
+   {
+    "definition": "Able to destroy or burn skin and other materials, as concentrated acids and alkalis are.",
+    "term": "Corrosive"
    }
   ],
   "notes": [
@@ -2107,47 +2067,7 @@
      "Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.",
      "Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent and in the absence of a solvent."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Arrhenius: an acid is a substance that dissociates in water to produce hydrogen ions, H⁺; a base is a substance that dissociates in water to produce hydroxide ions, OH⁻. (ii) Brønsted–Lowry: an acid is a proton donor; a base is a proton acceptor.",
-    "prompt": "Define an acid and a base according to (i) the Arrhenius theory, (ii) the Brønsted–Lowry theory.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "The Brønsted–Lowry theory includes every Arrhenius acid and base and explains more. It explains bases with no hydroxide ion, such as ammonia, and bases such as the carbonate ion, which accept a proton. It applies to reactions without water. In the reaction NH₃(g) + HCl(g) → NH₄Cl(s), the Arrhenius theory cannot explain the reaction because it involves no water and ammonia produces no hydroxide ion. The Brønsted–Lowry theory explains it: HCl donates a proton, the acid, and ammonia accepts it, the base. The theory also explains the role of water, which accepts a proton to form H₃O⁺ in reactions with acids. Its definitions apply in any solvent and in the absence of a solvent, while the Arrhenius theory applies only to aqueous solutions.",
-    "prompt": "Justify why the Brønsted–Lowry theory is a more extensive model of acids and bases than the Arrhenius theory, using the reaction of ammonia with hydrogen chloride gas as one example.",
-    "type": "short"
-   }
-  ]
- },
- "chem11-s4": {
-  "keyTerms": [
-   {
-    "definition": "The species left after an acid donates a proton.",
-    "term": "Conjugate base"
-   },
-   {
-    "definition": "The species formed when a base accepts a proton.",
-    "term": "Conjugate acid"
-   },
-   {
-    "definition": "Two species that differ by exactly one proton, H⁺.",
-    "term": "Conjugate acid–base pair"
-   },
-   {
-    "definition": "Describes a species that can act as either an acid or a base, such as water.",
-    "term": "Amphoteric"
-   },
-   {
-    "definition": "A reaction that can proceed in both directions, shown by the symbol ⇌.",
-    "term": "Reversible reaction"
-   }
-  ],
-  "notes": [
    {
     "h": "Conjugate acid–base pairs (Higher Level only)",
     "points": [
@@ -2185,63 +2105,7 @@
      "A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.",
      "Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the examples above."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "The species acting as acids are H₂O and NH₄⁺. The conjugate acid–base pairs are NH₄⁺/NH₃ and H₂O/OH⁻. Water is amphoteric because it can act as either an acid or a base: in this reaction it donates a proton to NH₃ and so acts as an acid, while in the reaction with HCl it accepts a proton and acts as a base.",
-    "prompt": "In the reaction NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, identify the two species acting as acids and the two conjugate acid–base pairs, and explain why water is described as amphoteric.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "HCl is a strong acid, so its conjugate base, the chloride ion, is very weak and barely accepts protons. Ethanoic acid is a weak acid, so its conjugate base, the ethanoate ion (CH₃COO⁻), is relatively strong and readily accepts a proton.",
-    "prompt": "Explain why the chloride ion is a very weak base while the ethanoate ion is a stronger base.",
-    "type": "short"
-   }
-  ]
- },
- "chem11-s5": {
-  "keyTerms": [
-   {
-    "definition": "An acid that is completely dissociated into ions in water.",
-    "term": "Strong acid"
-   },
-   {
-    "definition": "An acid that is only slightly dissociated in water, setting up an equilibrium with its ions.",
-    "term": "Weak acid"
-   },
-   {
-    "definition": "A base that is completely dissociated in water.",
-    "term": "Strong base"
-   },
-   {
-    "definition": "A base that reacts only slightly with water to produce hydroxide ions.",
-    "term": "Weak base"
-   },
-   {
-    "definition": "The splitting of a compound into ions when it dissolves in water.",
-    "term": "Dissociation"
-   },
-   {
-    "definition": "The amount of acid or base dissolved per litre of solution, measured in mol L⁻¹.",
-    "term": "Concentration"
-   },
-   {
-    "definition": "An acid with a large amount of acid dissolved per litre, e.g. 10 M HCl.",
-    "term": "Concentrated acid"
-   },
-   {
-    "definition": "An acid with a small amount of acid dissolved per litre, e.g. 0.1 M HCl.",
-    "term": "Dilute acid"
-   },
-   {
-    "definition": "Able to destroy or burn skin and other materials, as concentrated acids and alkalis are.",
-    "term": "Corrosive"
-   }
-  ],
-  "notes": [
    {
     "h": "Strong and weak acids",
     "points": [
@@ -2282,6 +2146,30 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "(i) Arrhenius: an acid is a substance that dissociates in water to produce hydrogen ions, H⁺; a base is a substance that dissociates in water to produce hydroxide ions, OH⁻. (ii) Brønsted–Lowry: an acid is a proton donor; a base is a proton acceptor.",
+    "prompt": "Define an acid and a base according to (i) the Arrhenius theory, (ii) the Brønsted–Lowry theory.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The Brønsted–Lowry theory includes every Arrhenius acid and base and explains more. It explains bases with no hydroxide ion, such as ammonia, and bases such as the carbonate ion, which accept a proton. It applies to reactions without water. In the reaction NH₃(g) + HCl(g) → NH₄Cl(s), the Arrhenius theory cannot explain the reaction because it involves no water and ammonia produces no hydroxide ion. The Brønsted–Lowry theory explains it: HCl donates a proton, the acid, and ammonia accepts it, the base. The theory also explains the role of water, which accepts a proton to form H₃O⁺ in reactions with acids. Its definitions apply in any solvent and in the absence of a solvent, while the Arrhenius theory applies only to aqueous solutions.",
+    "prompt": "Justify why the Brønsted–Lowry theory is a more extensive model of acids and bases than the Arrhenius theory, using the reaction of ammonia with hydrogen chloride gas as one example.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The species acting as acids are H₂O and NH₄⁺. The conjugate acid–base pairs are NH₄⁺/NH₃ and H₂O/OH⁻. Water is amphoteric because it can act as either an acid or a base: in this reaction it donates a proton to NH₃ and so acts as an acid, while in the reaction with HCl it accepts a proton and acts as a base.",
+    "prompt": "In the reaction NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, identify the two species acting as acids and the two conjugate acid–base pairs, and explain why water is described as amphoteric.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "HCl is a strong acid, so its conjugate base, the chloride ion, is very weak and barely accepts protons. Ethanoic acid is a weak acid, so its conjugate base, the ethanoate ion (CH₃COO⁻), is relatively strong and readily accepts a proton.",
+    "prompt": "Explain why the chloride ion is a very weak base while the ethanoate ion is a stronger base.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "A strong acid is completely dissociated into ions in water, e.g. hydrochloric acid: HCl(aq) → H⁺(aq) + Cl⁻(aq). A weak acid is only slightly dissociated in water and sets up an equilibrium, e.g. ethanoic acid: CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq). A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl. Strength and concentration are independent: a dilute acid can be strong, and a concentrated acid can be weak.",
@@ -2333,6 +2221,34 @@
    {
     "definition": "The point at which the reactants have reacted in exactly the mole ratio of the balanced equation.",
     "term": "Equivalence point"
+   },
+   {
+    "definition": "Apparatus that delivers one fixed, exact volume of a solution, such as 25.0 cm³.",
+    "term": "Pipette"
+   },
+   {
+    "definition": "A graduated tube with a tap that delivers measured, variable volumes of solution, read to 0.05 cm³.",
+    "term": "Burette"
+   },
+   {
+    "definition": "The curved upper surface of a liquid, read at its bottom edge in a burette or pipette.",
+    "term": "Meniscus"
+   },
+   {
+    "definition": "A quick first titration done to find the approximate end point, whose titre is left out of the mean.",
+    "term": "Rough titration"
+   },
+   {
+    "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in a balanced equation.",
+    "term": "Mole ratio"
+   },
+   {
+    "definition": "An indicator that is colourless in acid and pink in alkaline solution, changing colour over about pH 8.3–10.",
+    "term": "Phenolphthalein"
+   },
+   {
+    "definition": "An indicator that is red in acid and yellow in alkaline solution, changing colour over about pH 3.1–4.4.",
+    "term": "Methyl orange"
    }
   ],
   "notes": [
@@ -2371,59 +2287,7 @@
      "Example: sodium hydroxide is then standardised against the standardised hydrochloric acid, and potassium manganate(VII) is standardised against ammonium iron(II) sulfate.",
      "A solution standardised in this way is sometimes called a secondary standard."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Volumetric analysis finds the concentration of an analyte from the volume that reacts with a known volume of another solution, so at least one of the two solutions must be a standard solution whose concentration is known exactly. A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its importance is that every result is only as accurate as the standard: an impure or unstable standard gives a wrong concentration and therefore a wrong answer for the analyte. One primary standard used in acid–base titrations is anhydrous sodium carbonate, Na₂CO₃.",
-    "prompt": "Explain the importance of a primary standard in volumetric analysis and name one primary standard used in acid–base titrations.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Standardising a solution is finding its exact concentration by titrating it against a primary standard, or against a solution already standardised against one. Hydrochloric acid must be standardised because it is volatile, so it cannot be made up directly as a standard solution and its concentration is not known exactly. It is therefore titrated against a standard solution of sodium carbonate, Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), and the exact concentration found is then used in later titrations.",
-    "prompt": "What is meant by standardising a solution? Explain why hydrochloric acid must be standardised before it is used in a titration.",
-    "type": "short"
-   }
-  ]
- },
- "chem12-s2": {
-  "keyTerms": [
-   {
-    "definition": "Apparatus that delivers one fixed, exact volume of a solution, such as 25.0 cm³.",
-    "term": "Pipette"
-   },
-   {
-    "definition": "A graduated tube with a tap that delivers measured, variable volumes of solution, read to 0.05 cm³.",
-    "term": "Burette"
-   },
-   {
-    "definition": "The curved upper surface of a liquid, read at its bottom edge in a burette or pipette.",
-    "term": "Meniscus"
-   },
-   {
-    "definition": "A quick first titration done to find the approximate end point, whose titre is left out of the mean.",
-    "term": "Rough titration"
-   },
-   {
-    "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in a balanced equation.",
-    "term": "Mole ratio"
-   },
-   {
-    "definition": "The point at which the indicator changes colour during a titration.",
-    "term": "End point"
-   },
-   {
-    "definition": "An indicator that is colourless in acid and pink in alkaline solution, changing colour over about pH 8.3–10.",
-    "term": "Phenolphthalein"
-   },
-   {
-    "definition": "An indicator that is red in acid and yellow in alkaline solution, changing colour over about pH 3.1–4.4.",
-    "term": "Methyl orange"
-   }
-  ],
-  "notes": [
    {
     "h": "Apparatus",
     "points": [
@@ -2499,6 +2363,18 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Volumetric analysis finds the concentration of an analyte from the volume that reacts with a known volume of another solution, so at least one of the two solutions must be a standard solution whose concentration is known exactly. A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its importance is that every result is only as accurate as the standard: an impure or unstable standard gives a wrong concentration and therefore a wrong answer for the analyte. One primary standard used in acid–base titrations is anhydrous sodium carbonate, Na₂CO₃.",
+    "prompt": "Explain the importance of a primary standard in volumetric analysis and name one primary standard used in acid–base titrations.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Standardising a solution is finding its exact concentration by titrating it against a primary standard, or against a solution already standardised against one. Hydrochloric acid must be standardised because it is volatile, so it cannot be made up directly as a standard solution and its concentration is not known exactly. It is therefore titrated against a standard solution of sodium carbonate, Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), and the exact concentration found is then used in later titrations.",
+    "prompt": "What is meant by standardising a solution? Explain why hydrochloric acid must be standardised before it is used in a titration.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Rinse the pipette with deionised water, then with a little of the solution it is to measure, so that water left in it does not dilute the solution. Using a pipette filler, draw the solution up above the mark, then let it down until the bottom of the meniscus sits on the mark at eye level. Let the solution run into the conical flask, touching the tip against the inside of the flask, and do not blow out the last drop because the pipette is calibrated to allow for it. Rinse the burette with deionised water, then with the solution it is to contain, so that water left in it does not dilute the solution. Fill it using a funnel, then remove the funnel, because drips from it would change the reading. Run a little solution out through the tap to fill the part below the tap and remove any air bubble, then read the burette at eye level from the bottom of the meniscus. Rinse the conical flask with deionised water only, because this does not change the number of moles in the pipetted volume; it must not be rinsed with either solution. Add two or three drops of indicator to the flask. Add solution from the burette while swirling, doing a rough titration first to find the approximate end point. In the accurate titrations, add the solution quickly to within about 1 cm³ of the rough titre, then drop by drop, swirling, until one drop gives a permanent colour change. Wash the inside walls of the flask with deionised water near the end point so that all the reagent reacts. Repeat until two accurate titres agree to within 0.1 cm³, then average them, leaving out the rough titre.",
     "prompt": "Describe how you would rinse and fill a burette and a pipette, and how you would carry out a titration accurately, explaining the reason for each rinse.",
@@ -2512,7 +2388,7 @@
    }
   ]
  },
- "chem12-s3": {
+ "chem12-s2": {
   "keyTerms": [
    {
     "definition": "A graph of pH, on the y-axis, against the volume of titrant added, on the x-axis.",
@@ -2541,6 +2417,62 @@
    {
     "definition": "The range of pH over which an indicator changes colour, about two pH units wide.",
     "term": "Colour-change range"
+   },
+   {
+    "definition": "A weak acid, written HIn, whose undissociated form and conjugate base have different colours.",
+    "term": "Weak acid indicator"
+   },
+   {
+    "definition": "The species formed when an acid loses a proton; for an indicator, In⁻ is the conjugate base of HIn.",
+    "term": "Conjugate base"
+   },
+   {
+    "definition": "The molecule of a weak acid or base that has not split into ions, such as HIn.",
+    "term": "Undissociated form"
+   },
+   {
+    "definition": "A state in which the forward and reverse reactions occur at equal rates, so the concentrations stay constant.",
+    "term": "Equilibrium (⇌)"
+   },
+   {
+    "definition": "If a system at equilibrium is disturbed, it shifts to oppose the change.",
+    "term": "Le Châtelier's principle"
+   },
+   {
+    "definition": "A weak base, written InOH, whose undissociated form and ion In⁺ have different colours.",
+    "term": "Weak base indicator"
+   },
+   {
+    "definition": "A flask that holds one fixed volume, such as 250 cm³, when filled to its mark, used to make accurate dilutions.",
+    "term": "Volumetric flask"
+   },
+   {
+    "definition": "The number of times a solution is diluted, found from the ratio of the final volume to the volume of the original solution taken.",
+    "term": "Dilution factor"
+   },
+   {
+    "definition": "The mass of solute in grams per litre of solution, found as concentration in mol L⁻¹ multiplied by molar mass in g mol⁻¹.",
+    "term": "Mass concentration"
+   },
+   {
+    "definition": "The mass of solute in grams per 100 cm³ of solution, equal to the mass concentration in g L⁻¹ divided by 10.",
+    "term": "%w/v"
+   },
+   {
+    "definition": "The mass of one mole of a substance in g mol⁻¹, such as 60 g mol⁻¹ for CH₃COOH.",
+    "term": "Molar mass"
+   },
+   {
+    "definition": "The volume of solution added from the burette in a titration.",
+    "term": "Titre"
+   },
+   {
+    "definition": "An indicator that is colourless in acid and pink in alkaline solution, used for the titration of vinegar with sodium hydroxide.",
+    "term": "Phenolphthalein"
+   },
+   {
+    "definition": "The ratio of the amounts, in moles, of reactants given by the coefficients in a balanced equation.",
+    "term": "Mole ratio"
    }
   ],
   "notes": [
@@ -2586,55 +2518,7 @@
      "The equivalence point must instead be found from the curve itself, at the point of steepest slope, located with a pH meter and many small additions; or such titrations are avoided.",
      "The specification limits this topic to monoprotic acids and bases with a single inflection point."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Calibrate the pH meter with buffer solutions of known pH. Pipette 25.0 cm³ of ethanoic acid into a beaker on a magnetic stirrer, put the pH probe in and record the starting pH. Add sodium hydroxide from a burette in 1 cm³ portions, recording the pH after each; near the equivalence point add 0.1–0.2 cm³ portions because the pH changes rapidly there, and continue well past it. Plot pH on the y-axis against the volume of sodium hydroxide added on the x-axis. The sketched curve starts at about pH 3 and rises gently, then has a steep section from about pH 7 to 11, with the equivalence point above pH 7, at about 8.7.Phenolphthalein is suitable because its colour-change range, pH 8.3–10, lies completely within the steep section, so one drop at the equivalence point changes its colour. Methyl orange, with a range of pH 3.1–4.4, would change colour too early, so it is not suitable.",
-    "prompt": "Describe how you would obtain a pH curve for the titration of ethanoic acid with sodium hydroxide, sketch the curve, and use it to justify the choice of indicator.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "In a weak acid–weak base titration the pH changes gradually through the equivalence point, at about pH 7, so the curve has no steep section. An indicator is suitable only if its colour-change range lies within a steep section, so that one drop at the equivalence point changes its colour. Without a steep section, no indicator changes colour sharply at the equivalence point, and the end point is unclear. The curve also has only a gentle point of inflection, which is hard to locate from the data, and small errors in pH readings move it a lot.",
-    "prompt": "Explain why no indicator is suitable for the titration of a weak acid with a weak base.",
-    "type": "short"
-   }
-  ]
- },
- "chem12-s4": {
-  "keyTerms": [
-   {
-    "definition": "A weak acid, written HIn, whose undissociated form and conjugate base have different colours.",
-    "term": "Weak acid indicator"
-   },
-   {
-    "definition": "The species formed when an acid loses a proton; for an indicator, In⁻ is the conjugate base of HIn.",
-    "term": "Conjugate base"
-   },
-   {
-    "definition": "The molecule of a weak acid or base that has not split into ions, such as HIn.",
-    "term": "Undissociated form"
-   },
-   {
-    "definition": "A state in which the forward and reverse reactions occur at equal rates, so the concentrations stay constant.",
-    "term": "Equilibrium (⇌)"
-   },
-   {
-    "definition": "If a system at equilibrium is disturbed, it shifts to oppose the change.",
-    "term": "Le Châtelier's principle"
-   },
-   {
-    "definition": "A weak base, written InOH, whose undissociated form and ion In⁺ have different colours.",
-    "term": "Weak base indicator"
-   },
-   {
-    "definition": "The range of pH, about two pH units wide, over which an indicator changes colour.",
-    "term": "Colour-change range"
-   }
-  ],
-  "notes": [
    {
     "b": "Many acid–base indicators are weak acids, so their colour depends on the position of an equilibrium.",
     "h": "Indicators as weak acids (Higher Level only)",
@@ -2665,59 +2549,7 @@
      "This is why the indicator must be chosen to match the titration; see “pH titration curves”.",
      "Only a few drops of indicator are used, because the indicator is itself an acid and would react with some of the titrant."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Phenolphthalein is set up in an equilibrium in water: HIn(aq) ⇌ H⁺(aq) + In⁻(aq). In acidic solution the concentration of H⁺ is high. By Le Châtelier's principle the equilibrium shifts to the left to oppose the increase in H⁺, so most of the indicator is present as HIn, which is colourless. In basic solution, OH⁻ removes H⁺ by the reaction H⁺ + OH⁻ → H₂O, lowering [H⁺]. The equilibrium shifts to the right to replace the H⁺ removed, so most of the indicator is present as In⁻, which is pink.",
-    "prompt": "Phenolphthalein is a weak acid, HIn; the HIn form is colourless and the In⁻ form is pink. Use Le Châtelier's principle to explain its colour in acidic and in basic solution.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Only a few drops of indicator are used because the indicator is itself a weak acid, and a large amount would react with some of the titrant, changing the volume needed to reach the end point. Different indicators are weak acids of different strengths, so they change colour over different pH ranges: phenolphthalein changes over about pH 8.3–10 and methyl orange over about pH 3.1–4.4. The indicator must therefore be chosen so that its colour-change range matches the steep section of the pH curve for the titration.",
-    "prompt": "Explain why only a few drops of indicator are used in a titration and why different indicators change colour at different pH values.",
-    "type": "short"
-   }
-  ]
- },
- "chem12-s5": {
-  "keyTerms": [
-   {
-    "definition": "A flask that holds one fixed volume, such as 250 cm³, when filled to its mark, used to make accurate dilutions.",
-    "term": "Volumetric flask"
-   },
-   {
-    "definition": "The number of times a solution is diluted, found from the ratio of the final volume to the volume of the original solution taken.",
-    "term": "Dilution factor"
-   },
-   {
-    "definition": "The mass of solute in grams per litre of solution, found as concentration in mol L⁻¹ multiplied by molar mass in g mol⁻¹.",
-    "term": "Mass concentration"
-   },
-   {
-    "definition": "The mass of solute in grams per 100 cm³ of solution, equal to the mass concentration in g L⁻¹ divided by 10.",
-    "term": "%w/v"
-   },
-   {
-    "definition": "The mass of one mole of a substance in g mol⁻¹, such as 60 g mol⁻¹ for CH₃COOH.",
-    "term": "Molar mass"
-   },
-   {
-    "definition": "The volume of solution added from the burette in a titration.",
-    "term": "Titre"
-   },
-   {
-    "definition": "An indicator that is colourless in acid and pink in alkaline solution, used for the titration of vinegar with sodium hydroxide.",
-    "term": "Phenolphthalein"
-   },
-   {
-    "definition": "The ratio of the amounts, in moles, of reactants given by the coefficients in a balanced equation.",
-    "term": "Mole ratio"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim and chemistry",
     "points": [
@@ -2774,6 +2606,30 @@
   "questions": [
    {
     "marks": 12,
+    "model": "Calibrate the pH meter with buffer solutions of known pH. Pipette 25.0 cm³ of ethanoic acid into a beaker on a magnetic stirrer, put the pH probe in and record the starting pH. Add sodium hydroxide from a burette in 1 cm³ portions, recording the pH after each; near the equivalence point add 0.1–0.2 cm³ portions because the pH changes rapidly there, and continue well past it. Plot pH on the y-axis against the volume of sodium hydroxide added on the x-axis. The sketched curve starts at about pH 3 and rises gently, then has a steep section from about pH 7 to 11, with the equivalence point above pH 7, at about 8.7.Phenolphthalein is suitable because its colour-change range, pH 8.3–10, lies completely within the steep section, so one drop at the equivalence point changes its colour. Methyl orange, with a range of pH 3.1–4.4, would change colour too early, so it is not suitable.",
+    "prompt": "Describe how you would obtain a pH curve for the titration of ethanoic acid with sodium hydroxide, sketch the curve, and use it to justify the choice of indicator.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "In a weak acid–weak base titration the pH changes gradually through the equivalence point, at about pH 7, so the curve has no steep section. An indicator is suitable only if its colour-change range lies within a steep section, so that one drop at the equivalence point changes its colour. Without a steep section, no indicator changes colour sharply at the equivalence point, and the end point is unclear. The curve also has only a gentle point of inflection, which is hard to locate from the data, and small errors in pH readings move it a lot.",
+    "prompt": "Explain why no indicator is suitable for the titration of a weak acid with a weak base.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Phenolphthalein is set up in an equilibrium in water: HIn(aq) ⇌ H⁺(aq) + In⁻(aq). In acidic solution the concentration of H⁺ is high. By Le Châtelier's principle the equilibrium shifts to the left to oppose the increase in H⁺, so most of the indicator is present as HIn, which is colourless. In basic solution, OH⁻ removes H⁺ by the reaction H⁺ + OH⁻ → H₂O, lowering [H⁺]. The equilibrium shifts to the right to replace the H⁺ removed, so most of the indicator is present as In⁻, which is pink.",
+    "prompt": "Phenolphthalein is a weak acid, HIn; the HIn form is colourless and the In⁻ form is pink. Use Le Châtelier's principle to explain its colour in acidic and in basic solution.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Only a few drops of indicator are used because the indicator is itself a weak acid, and a large amount would react with some of the titrant, changing the volume needed to reach the end point. Different indicators are weak acids of different strengths, so they change colour over different pH ranges: phenolphthalein changes over about pH 8.3–10 and methyl orange over about pH 3.1–4.4. The indicator must therefore be chosen so that its colour-change range matches the steep section of the pH curve for the titration.",
+    "prompt": "Explain why only a few drops of indicator are used in a titration and why different indicators change colour at different pH values.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
     "model": "Dilute the vinegar ten times: pipette 25.0 cm³ of vinegar into a 250 cm³ volumetric flask, make up to the mark with deionised water and invert about 20 times. Vinegar is diluted because, undiluted, it would need a very large titre of 0.1 mol L⁻¹ sodium hydroxide, more than a burette holds. Rinse the burette with deionised water, then with the standard sodium hydroxide solution, and fill it. Rinse a pipette with deionised water, then with the diluted vinegar, and transfer 25.0 cm³ of diluted vinegar to a conical flask. Add two or three drops of phenolphthalein. Phenolphthalein is used because this is a weak acid–strong base titration with the equivalence point at about pH 8.7, so the indicator changes colour in the right region, whereas methyl orange would change colour too soon. Titrate with the sodium hydroxide, swirling, until the solution turns a permanent pale pink; do a rough titration first, then accurate titrations until two agree within 0.1 cm³. Use white (clear) vinegar, since coloured vinegar makes the end point hard to see.",
     "prompt": "Describe how you would find the concentration of ethanoic acid in a sample of vinegar by titration with standard sodium hydroxide, including how the vinegar is diluted and the indicator used.",
     "type": "short"
@@ -2819,11 +2675,35 @@
    {
     "definition": "The mass of solute in grams per 100 cm³ of solution; its value is one-tenth of the value in g L⁻¹.",
     "term": "%w/v"
+   },
+   {
+    "definition": "A solution of accurately known concentration, prepared by weighing a pure solid and making it up to a known volume.",
+    "term": "Standard solution"
+   },
+   {
+    "definition": "To find the exact concentration of a solution by titrating it against a standard solution.",
+    "term": "Standardise"
+   },
+   {
+    "definition": "Water molecules held in the crystal of a hydrated salt and written after a dot, e.g. Na₂CO₃·10H₂O.",
+    "term": "Water of crystallisation"
+   },
+   {
+    "definition": "The total volume divided by the volume of the portion titrated, used to scale the moles in a portion up to the whole sample.",
+    "term": "Scale factor"
+   },
+   {
+    "definition": "Reagent added in more than the amount needed, so that the sample reacts completely.",
+    "term": "Excess reagent"
+   },
+   {
+    "definition": "The average of concordant titres, used in calculations in place of a single reading.",
+    "term": "Mean titre"
    }
   ],
   "notes": [
    {
-    "b": "Work through the steps in order; each step produces the quantity the next step needs. Units are as defined in \"Units of concentration\".",
+    "b": "Work through the steps in order; each step produces the quantity the next step needs. Units are as defined in \"Solutions and concentration\".",
     "h": "The titration method",
     "points": [
      "Step 1: Write the balanced equation and note the mole ratio of the two reactants.",
@@ -2870,57 +2750,9 @@
      "Moles that reacted with the sample = moles added − moles in excess.",
      "Back titration is used when the sample is insoluble or reacts slowly."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Balanced equation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Moles of NaOH = 0.150 mol L⁻¹ × 0.0200 L = 3.00 × 10⁻³ mol. Mole ratio H₂SO₄ : NaOH = 1 : 2, so moles of H₂SO₄ = 3.00 × 10⁻³ ÷ 2 = 1.50 × 10⁻³ mol. (i) Concentration of H₂SO₄ = 1.50 × 10⁻³ mol ÷ 0.0250 L = 0.0600 mol L⁻¹. (ii) Mass concentration = 0.0600 mol L⁻¹ × 98 g mol⁻¹ = 5.88 g L⁻¹.",
-    "prompt": "25.0 cm³ of sulfuric acid needed 20.0 cm³ of 0.150 M sodium hydroxide for neutralisation. Write the balanced equation and calculate the concentration of the sulfuric acid in (i) mol L⁻¹, (ii) g L⁻¹.",
-    "type": "short"
    },
    {
-    "marks": 6,
-    "model": "A back titration is a titration in which an excess of a known amount of reagent is added to the sample, and the excess is then titrated. The moles that reacted with the sample equal the moles added minus the moles left in excess. It is used when the sample is insoluble or reacts slowly, for example acid added to an insoluble antacid.",
-    "prompt": "Explain what is meant by a back titration and when it is used.",
-    "type": "short"
-   }
-  ]
- },
- "chem13-s2": {
-  "keyTerms": [
-   {
-    "definition": "A solution of accurately known concentration, prepared by weighing a pure solid and making it up to a known volume.",
-    "term": "Standard solution"
-   },
-   {
-    "definition": "To find the exact concentration of a solution by titrating it against a standard solution.",
-    "term": "Standardise"
-   },
-   {
-    "definition": "Water molecules held in the crystal of a hydrated salt and written after a dot, e.g. Na₂CO₃·10H₂O.",
-    "term": "Water of crystallisation"
-   },
-   {
-    "definition": "The total volume divided by the volume of the portion titrated, used to scale the moles in a portion up to the whole sample.",
-    "term": "Scale factor"
-   },
-   {
-    "definition": "Reagent added in more than the amount needed, so that the sample reacts completely.",
-    "term": "Excess reagent"
-   },
-   {
-    "definition": "A titration in which an excess of known reagent reacts with the sample and the leftover reagent is titrated.",
-    "term": "Back titration"
-   },
-   {
-    "definition": "The average of concordant titres, used in calculations in place of a single reading.",
-    "term": "Mean titre"
-   }
-  ],
-  "notes": [
-   {
-    "b": "Each problem follows the method in \"Solving acid–base volumetric problems\". All data are sample data.",
+    "b": "Each problem follows the method above. All data are sample data.",
     "h": "Problem 1: standardising hydrochloric acid",
     "points": [
      "Data: 25.0 cm³ of 0.0500 M sodium carbonate was titrated with hydrochloric acid, using methyl orange.",
@@ -2973,6 +2805,18 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "Balanced equation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Moles of NaOH = 0.150 mol L⁻¹ × 0.0200 L = 3.00 × 10⁻³ mol. Mole ratio H₂SO₄ : NaOH = 1 : 2, so moles of H₂SO₄ = 3.00 × 10⁻³ ÷ 2 = 1.50 × 10⁻³ mol. (i) Concentration of H₂SO₄ = 1.50 × 10⁻³ mol ÷ 0.0250 L = 0.0600 mol L⁻¹. (ii) Mass concentration = 0.0600 mol L⁻¹ × 98 g mol⁻¹ = 5.88 g L⁻¹.",
+    "prompt": "25.0 cm³ of sulfuric acid needed 20.0 cm³ of 0.150 M sodium hydroxide for neutralisation. Write the balanced equation and calculate the concentration of the sulfuric acid in (i) mol L⁻¹, (ii) g L⁻¹.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A back titration is a titration in which an excess of a known amount of reagent is added to the sample, and the excess is then titrated. The moles that reacted with the sample equal the moles added minus the moles left in excess. It is used when the sample is insoluble or reacts slowly, for example acid added to an insoluble antacid.",
+    "prompt": "Explain what is meant by a back titration and when it is used.",
+    "type": "short"
+   },
    {
     "marks": 12,
     "model": "(i) Moles Na₂CO₃ = 2.65 g ÷ 106 g mol⁻¹ = 0.0250 mol, in 0.500 L. Concentration = 0.0250 mol ÷ 0.500 L = 0.0500 mol L⁻¹. (ii) Moles Na₂CO₃ in 25.0 cm³ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol. Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂, so moles HCl = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol. Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0220 L = 0.114 mol L⁻¹.",
@@ -3225,6 +3069,34 @@
    {
     "definition": "The ion S₄O₆²⁻ formed when thiosulfate is oxidised by iodine.",
     "term": "Tetrathionate ion"
+   },
+   {
+    "definition": "A list of metals and hydrogen in order of their tendency to be oxidised, with the most easily oxidised first.",
+    "term": "Electrochemical series"
+   },
+   {
+    "definition": "A reaction in which a metal higher in the series displaces a lower metal from a solution of its ions.",
+    "term": "Displacement reaction"
+   },
+   {
+    "definition": "The factor that the experimenter deliberately changes, here the metal.",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The factor that is measured, here whether a reaction is seen.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "The factors kept the same in every test so that the comparison is fair.",
+    "term": "Controlled variables"
+   },
+   {
+    "definition": "A test in which a metal is placed in a solution of its own ions, so no reaction is possible and the set-up can be checked.",
+    "term": "Control"
+   },
+   {
+    "definition": "Results collected by someone else, which are analysed in the same way as results from one's own investigation.",
+    "term": "Secondary data"
    }
   ],
   "notes": [
@@ -3340,65 +3212,7 @@
      "Spectator ions (K⁺, SO₄²⁻, Na⁺) are left out of ionic equations.",
      "Bismuth is element 83, so bismuthate (BiO₃⁻) is outside the first 36 elements and outside the specification."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Mn changes from +7 to +2, a decrease of 5 per atom, so MnO₄⁻ is reduced. Cl changes from −1 to 0, an increase of 1 per atom and 2 per Cl₂ molecule, so Cl⁻ is oxidised. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 10Cl⁻ (lose 10) give 2Mn²⁺ and 5Cl₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H, so 16H⁺ go on the left: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O. Check: charge left (−2) + (−10) + (+16) = +4; right (+4) = +4. The oxidising agent is MnO₄⁻.",
-    "prompt": "Using oxidation numbers, show which species is oxidised and which is reduced in MnO₄⁻ + Cl⁻ + H⁺ → Mn²⁺ + Cl₂ + H₂O. Hence balance the equation and identify the oxidising agent.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Cr changes from +6 to +3, a decrease of 3 per atom and so 6 per Cr₂O₇²⁻ ion (2 Cr atoms): Cr₂O₇²⁻ is reduced. Fe changes from +2 to +3, an increase of 1 per atom, so 6 Fe²⁺ are needed to match the 6 electrons gained. The 7 O in Cr₂O₇²⁻ form 7H₂O, which needs 14 H, so 14H⁺ go on the left: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O. Check: charge left (−2) + (+12) + (+14) = +24; right (+6) + (+18) = +24. The reducing agent is Fe²⁺.",
-    "prompt": "Balance, using oxidation numbers, Cr₂O₇²⁻ + Fe²⁺ + H⁺ → Cr³⁺ + Fe³⁺ + H₂O, and identify the reducing agent.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Mn changes from +7 to +2, a gain of 5 electrons per atom. The oxygen in H₂O₂ is −1 (a peroxide) and the oxygen in O₂ is 0, so each O loses 1 electron and each H₂O₂ loses 2. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5H₂O₂ (lose 10) give 2Mn²⁺ and 5O₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H; 5H₂O₂ supply 10 H, so 6H⁺ go on the left: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O. Check: charge left (−2) + (+6) = +4; right (+4) = +4. The reducing agent is H₂O₂.",
-    "prompt": "Hydrogen peroxide is oxidised to oxygen by acidified potassium manganate(VII): MnO₄⁻ + H₂O₂ + H⁺ → Mn²⁺ + O₂ + H₂O. Assign oxidation numbers to manganese and to the oxygen in H₂O₂ and O₂, and balance the equation.",
-    "type": "short"
-   }
-  ]
- },
- "chem14-s3": {
-  "keyTerms": [
-   {
-    "definition": "A list of metals and hydrogen in order of their tendency to be oxidised, with the most easily oxidised first.",
-    "term": "Electrochemical series"
-   },
-   {
-    "definition": "A reaction in which a metal higher in the series displaces a lower metal from a solution of its ions.",
-    "term": "Displacement reaction"
-   },
-   {
-    "definition": "An ion that does not change during a reaction and is left out of the ionic equation.",
-    "term": "Spectator ion"
-   },
-   {
-    "definition": "The factor that the experimenter deliberately changes, here the metal.",
-    "term": "Independent variable"
-   },
-   {
-    "definition": "The factor that is measured, here whether a reaction is seen.",
-    "term": "Dependent variable"
-   },
-   {
-    "definition": "The factors kept the same in every test so that the comparison is fair.",
-    "term": "Controlled variables"
-   },
-   {
-    "definition": "A test in which a metal is placed in a solution of its own ions, so no reaction is possible and the set-up can be checked.",
-    "term": "Control"
-   },
-   {
-    "definition": "Results collected by someone else, which are analysed in the same way as results from one's own investigation.",
-    "term": "Secondary data"
-   }
-  ],
-  "notes": [
    {
     "h": "The electrochemical series",
     "points": [
@@ -3475,6 +3289,24 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Mn changes from +7 to +2, a decrease of 5 per atom, so MnO₄⁻ is reduced. Cl changes from −1 to 0, an increase of 1 per atom and 2 per Cl₂ molecule, so Cl⁻ is oxidised. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 10Cl⁻ (lose 10) give 2Mn²⁺ and 5Cl₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H, so 16H⁺ go on the left: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O. Check: charge left (−2) + (−10) + (+16) = +4; right (+4) = +4. The oxidising agent is MnO₄⁻.",
+    "prompt": "Using oxidation numbers, show which species is oxidised and which is reduced in MnO₄⁻ + Cl⁻ + H⁺ → Mn²⁺ + Cl₂ + H₂O. Hence balance the equation and identify the oxidising agent.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Cr changes from +6 to +3, a decrease of 3 per atom and so 6 per Cr₂O₇²⁻ ion (2 Cr atoms): Cr₂O₇²⁻ is reduced. Fe changes from +2 to +3, an increase of 1 per atom, so 6 Fe²⁺ are needed to match the 6 electrons gained. The 7 O in Cr₂O₇²⁻ form 7H₂O, which needs 14 H, so 14H⁺ go on the left: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O. Check: charge left (−2) + (+12) + (+14) = +24; right (+6) + (+18) = +24. The reducing agent is Fe²⁺.",
+    "prompt": "Balance, using oxidation numbers, Cr₂O₇²⁻ + Fe²⁺ + H⁺ → Cr³⁺ + Fe³⁺ + H₂O, and identify the reducing agent.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Mn changes from +7 to +2, a gain of 5 electrons per atom. The oxygen in H₂O₂ is −1 (a peroxide) and the oxygen in O₂ is 0, so each O loses 1 electron and each H₂O₂ loses 2. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5H₂O₂ (lose 10) give 2Mn²⁺ and 5O₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H; 5H₂O₂ supply 10 H, so 6H⁺ go on the left: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O. Check: charge left (−2) + (+6) = +4; right (+4) = +4. The reducing agent is H₂O₂.",
+    "prompt": "Hydrogen peroxide is oxidised to oxygen by acidified potassium manganate(VII): MnO₄⁻ + H₂O₂ + H⁺ → Mn²⁺ + O₂ + H₂O. Assign oxidation numbers to manganese and to the oxygen in H₂O₂ and O₂, and balance the equation.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "Aim: to place magnesium, zinc, iron and copper in order of their tendency to be oxidised. The independent variable is the metal; the dependent variable is whether a reaction is seen (a deposit, a colour change or a temperature rise). The controlled variables are the concentration and volume of each solution, the size and surface area of each metal, the temperature and the time allowed. Clean each metal with sandpaper to remove the oxide layer. Place the same volume (e.g. about 5 cm³) of each solution, all at the same concentration, in test tubes. Add a piece of each metal to each solution other than its own; a metal in a solution of its own ions is a control. Leave for a set time (e.g. 5 minutes), record deposits, colour changes and temperature changes in a results grid, and repeat. Sample data: magnesium reacts with zinc, iron(II) and copper(II) ions (3 reactions); zinc reacts with iron(II) and copper(II) ions (2); iron reacts with copper(II) ions (1); copper reacts with none (0). The ranking Mg > Zn > Fe > Cu matches the electrochemical series, in which magnesium is highest and so the most easily oxidised, and copper is lowest of the four.",
     "prompt": "Describe an investigation to place magnesium, zinc, iron and copper in order of their tendency to be oxidised, using displacement reactions. State how the results relate to the electrochemical series.",
     "type": "short"
@@ -3534,6 +3366,38 @@
    {
     "definition": "The ion S₄O₆²⁻ formed when thiosulfate is oxidised by iodine.",
     "term": "Tetrathionate ion"
+   },
+   {
+    "definition": "Iron in its free metallic form, Fe, as opposed to iron combined in a compound such as iron(II) sulfate.",
+    "term": "Elemental iron"
+   },
+   {
+    "definition": "The mass of an element in a sample divided by the mass of the sample, multiplied by 100.",
+    "term": "Percentage by mass"
+   },
+   {
+    "definition": "The salt FeSO₄, which contains iron in the +2 oxidation state and is commonly used in iron tablets.",
+    "term": "Iron(II) sulfate"
+   },
+   {
+    "definition": "A condition in which the blood has too little haemoglobin because the body lacks iron.",
+    "term": "Iron-deficiency anaemia"
+   },
+   {
+    "definition": "The average mass of one tablet, found by weighing several tablets together and dividing by their number.",
+    "term": "Mean mass"
+   },
+   {
+    "definition": "The total volume divided by the volume titrated, used to scale the moles in the portion up to the whole sample.",
+    "term": "Scale factor"
+   },
+   {
+    "definition": "A flask that holds one fixed volume, such as 250 cm³, when filled to its mark.",
+    "term": "Volumetric flask"
+   },
+   {
+    "definition": "A testable prediction about the result that the investigation is designed to support or reject.",
+    "term": "Hypothesis"
    }
   ],
   "notes": [
@@ -3698,65 +3562,7 @@
      "Dilute sulfuric acid is an irritant; iodine solution stains and is harmful.",
      "Use a pipette filler."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Ammonium iron(II) sulfate is a primary standard, so a known mass is dissolved in deionised water with some dilute sulfuric acid added, and made up to a known volume. The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen. Pipette 25.0 cm³ of the standard solution into a conical flask and add about 20 cm³ of dilute sulfuric acid. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour; repeat until two titres agree within 0.1 cm³. (i) Dilute sulfuric acid supplies the H⁺ ions needed to reduce MnO₄⁻ to Mn²⁺, as in MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Hydrochloric acid cannot be used because MnO₄⁻ oxidises Cl⁻ to chlorine, and nitric acid cannot be used because it oxidises some of the Fe²⁺. (ii) No indicator is needed because potassium manganate(VII) is self-indicating: the end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻. (iii) With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, and a brown precipitate of MnO₂ forms; the mole ratio is no longer 1 : 5 and the end point cannot be seen.",
-    "prompt": "Describe how a solution of potassium manganate(VII) is standardised using ammonium iron(II) sulfate. In your answer explain (i) why dilute sulfuric acid is used, (ii) how the end point is detected, (iii) what would be seen if too little acid were added.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Starch is added only when the solution is pale yellow because, with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate. The pale yellow colour shows that the end point is close. At the end point the blue-black colour of the starch–iodine complex just disappears, leaving a colourless solution. Iodine itself is almost insoluble in water and sublimes slowly at room temperature. Potassium iodide is used because iodide ions react with iodine to form the tri-iodide ion, I₃⁻ (I₂ + I⁻ ⇌ I₃⁻), which is charged and dissolves in water, so the iodine dissolves to give a red-brown solution.",
-    "prompt": "Explain why starch indicator is added only when the solution is pale yellow in an iodine–thiosulfate titration, and state the colour change at the end point. Why is potassium iodide used when making up an iodine solution?",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol. Since 2MnO₄⁻ gives 5I₂, moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol. Since I₂ : S₂O₃²⁻ = 1 : 2, moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol. Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0212 L = 0.118 mol L⁻¹.",
-    "prompt": "25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ was acidified and treated with excess KI. The iodine liberated needed 21.2 cm³ of sodium thiosulfate solution. Calculate the concentration of the thiosulfate (sample data).",
-    "type": "short"
-   }
-  ]
- },
- "chem15-s2": {
-  "keyTerms": [
-   {
-    "definition": "Iron in its free metallic form, Fe, as opposed to iron combined in a compound such as iron(II) sulfate.",
-    "term": "Elemental iron"
-   },
-   {
-    "definition": "The mass of an element in a sample divided by the mass of the sample, multiplied by 100.",
-    "term": "Percentage by mass"
-   },
-   {
-    "definition": "The salt FeSO₄, which contains iron in the +2 oxidation state and is commonly used in iron tablets.",
-    "term": "Iron(II) sulfate"
-   },
-   {
-    "definition": "A condition in which the blood has too little haemoglobin because the body lacks iron.",
-    "term": "Iron-deficiency anaemia"
-   },
-   {
-    "definition": "The average mass of one tablet, found by weighing several tablets together and dividing by their number.",
-    "term": "Mean mass"
-   },
-   {
-    "definition": "The total volume divided by the volume titrated, used to scale the moles in the portion up to the whole sample.",
-    "term": "Scale factor"
-   },
-   {
-    "definition": "A flask that holds one fixed volume, such as 250 cm³, when filled to its mark.",
-    "term": "Volumetric flask"
-   },
-   {
-    "definition": "A testable prediction about the result that the investigation is designed to support or reject.",
-    "term": "Hypothesis"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim, hypothesis and chemistry",
     "points": [
@@ -3841,6 +3647,24 @@
   "questions": [
    {
     "marks": 12,
+    "model": "Ammonium iron(II) sulfate is a primary standard, so a known mass is dissolved in deionised water with some dilute sulfuric acid added, and made up to a known volume. The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen. Pipette 25.0 cm³ of the standard solution into a conical flask and add about 20 cm³ of dilute sulfuric acid. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour; repeat until two titres agree within 0.1 cm³. (i) Dilute sulfuric acid supplies the H⁺ ions needed to reduce MnO₄⁻ to Mn²⁺, as in MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Hydrochloric acid cannot be used because MnO₄⁻ oxidises Cl⁻ to chlorine, and nitric acid cannot be used because it oxidises some of the Fe²⁺. (ii) No indicator is needed because potassium manganate(VII) is self-indicating: the end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻. (iii) With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, and a brown precipitate of MnO₂ forms; the mole ratio is no longer 1 : 5 and the end point cannot be seen.",
+    "prompt": "Describe how a solution of potassium manganate(VII) is standardised using ammonium iron(II) sulfate. In your answer explain (i) why dilute sulfuric acid is used, (ii) how the end point is detected, (iii) what would be seen if too little acid were added.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Starch is added only when the solution is pale yellow because, with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate. The pale yellow colour shows that the end point is close. At the end point the blue-black colour of the starch–iodine complex just disappears, leaving a colourless solution. Iodine itself is almost insoluble in water and sublimes slowly at room temperature. Potassium iodide is used because iodide ions react with iodine to form the tri-iodide ion, I₃⁻ (I₂ + I⁻ ⇌ I₃⁻), which is charged and dissolves in water, so the iodine dissolves to give a red-brown solution.",
+    "prompt": "Explain why starch indicator is added only when the solution is pale yellow in an iodine–thiosulfate titration, and state the colour change at the end point. Why is potassium iodide used when making up an iodine solution?",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol. Since 2MnO₄⁻ gives 5I₂, moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol. Since I₂ : S₂O₃²⁻ = 1 : 2, moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol. Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0212 L = 0.118 mol L⁻¹.",
+    "prompt": "25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ was acidified and treated with excess KI. The iodine liberated needed 21.2 cm³ of sodium thiosulfate solution. Calculate the concentration of the thiosulfate (sample data).",
+    "type": "short"
+   },
+   {
+    "marks": 12,
     "model": "Weigh five tablets together accurately and record the mass. Grind them to a fine powder in a mortar and pestle with a little dilute sulfuric acid. Transfer the paste with dilute sulfuric acid and deionised water to a beaker, rinsing the mortar and pestle into it, and stir to dissolve. Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinse the beaker, glass rod and funnel into the flask with deionised water, and make up to the mark. Stopper the flask and invert it about 20 times. Rinse the pipette with deionised water and then with the tablet solution, and pipette 25.0 cm³ into a conical flask. Add about 20 cm³ of dilute sulfuric acid. Rinse the burette with deionised water and then with the standard KMnO₄ solution, fill it and read the top of the meniscus. Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is needed. Do a rough titration, then accurate titrations until two agree within 0.1 cm³. Dilute sulfuric acid is first used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen, which would make the result too low. It is added again before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds.",
     "prompt": "Describe how you would prepare 250 cm³ of solution from five iron tablets and use it to find the mass of iron in one tablet by titration with standard potassium manganate(VII). Explain why dilute sulfuric acid is used at two stages.",
     "type": "short"
@@ -3896,6 +3720,38 @@
    {
     "definition": "The mass of one mole of a substance in g mol⁻¹, found from the relative atomic masses of the atoms in its formula.",
     "term": "Molar mass"
+   },
+   {
+    "definition": "To find the exact concentration of a solution by titrating it against a solution of known concentration.",
+    "term": "Standardise"
+   },
+   {
+    "definition": "The double salt (NH₄)₂SO₄·FeSO₄·6H₂O, which supplies a known amount of Fe²⁺ and is used to standardise potassium manganate(VII).",
+    "term": "Ammonium iron(II) sulfate"
+   },
+   {
+    "definition": "The oxidising agent KMnO₄, whose deep purple solution is used to titrate reducing agents such as Fe²⁺.",
+    "term": "Potassium manganate(VII)"
+   },
+   {
+    "definition": "An indicator added near the end point of an iodine titration, which gives a blue colour with iodine.",
+    "term": "Starch indicator"
+   },
+   {
+    "definition": "The ClO⁻ ion in bleach, which oxidises iodide to iodine in acid solution.",
+    "term": "Hypochlorite"
+   },
+   {
+    "definition": "Ascorbic acid, C₆H₈O₆, which is oxidised by iodine to dehydroascorbic acid, C₆H₆O₆.",
+    "term": "Vitamin C"
+   },
+   {
+    "definition": "The number of times a solution is diluted, found as the final volume divided by the volume of the original solution taken.",
+    "term": "Dilution factor"
+   },
+   {
+    "definition": "The measured mass of a substance as a percentage of the mass stated on the label.",
+    "term": "Percentage of label value"
    }
   ],
   "notes": [
@@ -3983,69 +3839,7 @@
      "Sodium oxalate is an alternative primary standard for KMnO₄.",
      "The titration is done warm, at about 60 °C, because the reaction is slow at room temperature."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, so MnO₄⁻ : Fe²⁺ = 1 : 5. (i) Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0180 L = 3.60 × 10⁻⁴ mol. Moles Fe²⁺ = 5 × 3.60 × 10⁻⁴ mol = 1.80 × 10⁻³ mol in 25.0 cm³. Concentration of Fe²⁺ = 1.80 × 10⁻³ mol ÷ 0.0250 L = 0.0720 mol L⁻¹. (ii) Mass concentration = 0.0720 mol L⁻¹ × 56 g mol⁻¹ = 4.03 g L⁻¹.",
-    "prompt": "25.0 cm³ of an iron(II) solution needed 18.0 cm³ of 0.0200 M KMnO₄. Write the balanced equation and calculate the concentration of Fe²⁺ in (i) mol L⁻¹, (ii) g L⁻¹ (sample data).",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Moles C₂O₄²⁻ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol. The ratio MnO₄⁻ : C₂O₄²⁻ = 2 : 5, so moles MnO₄⁻ = 1.25 × 10⁻³ mol × 2 ÷ 5 = 5.00 × 10⁻⁴ mol. Concentration of KMnO₄ = 5.00 × 10⁻⁴ mol ÷ 0.0248 L = 0.0202 mol L⁻¹.",
-    "prompt": "Sodium oxalate is a primary standard for potassium manganate(VII): 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O. 25.0 cm³ of 0.0500 M sodium oxalate, warmed and acidified, needed 24.8 cm³ of KMnO₄. Calculate the concentration of the KMnO₄ (sample data).",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "The potassium iodide is added in excess, so the oxidising agent reacts with it completely and releases iodine in proportion to the oxidising agent. The amount of potassium iodide is not part of the calculation, so it does not need to be measured accurately. Only the oxidising agent, which is the substance being analysed, and the sodium thiosulfate titrant must be measured exactly.",
-    "prompt": "Explain why, in an iodine–thiosulfate titration used to find the concentration of an oxidising agent, the potassium iodide added does not need to be measured accurately.",
-    "type": "short"
-   }
-  ]
- },
- "chem16-s2": {
-  "keyTerms": [
-   {
-    "definition": "To find the exact concentration of a solution by titrating it against a solution of known concentration.",
-    "term": "Standardise"
-   },
-   {
-    "definition": "The double salt (NH₄)₂SO₄·FeSO₄·6H₂O, which supplies a known amount of Fe²⁺ and is used to standardise potassium manganate(VII).",
-    "term": "Ammonium iron(II) sulfate"
-   },
-   {
-    "definition": "The oxidising agent KMnO₄, whose deep purple solution is used to titrate reducing agents such as Fe²⁺.",
-    "term": "Potassium manganate(VII)"
-   },
-   {
-    "definition": "A titration in which the substance analysed first reacts to release a product, such as iodine, and that product is then titrated.",
-    "term": "Indirect titration"
-   },
-   {
-    "definition": "An indicator added near the end point of an iodine titration, which gives a blue colour with iodine.",
-    "term": "Starch indicator"
-   },
-   {
-    "definition": "The ClO⁻ ion in bleach, which oxidises iodide to iodine in acid solution.",
-    "term": "Hypochlorite"
-   },
-   {
-    "definition": "Ascorbic acid, C₆H₈O₆, which is oxidised by iodine to dehydroascorbic acid, C₆H₆O₆.",
-    "term": "Vitamin C"
-   },
-   {
-    "definition": "The number of times a solution is diluted, found as the final volume divided by the volume of the original solution taken.",
-    "term": "Dilution factor"
-   },
-   {
-    "definition": "The measured mass of a substance as a percentage of the mass stated on the label.",
-    "term": "Percentage of label value"
-   }
-  ],
-  "notes": [
    {
     "b": "Each problem follows the method in “Solving redox volumetric problems”. All data are sample data.",
     "h": "Problem 1: standardising potassium manganate(VII)",
@@ -4122,6 +3916,24 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, so MnO₄⁻ : Fe²⁺ = 1 : 5. (i) Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0180 L = 3.60 × 10⁻⁴ mol. Moles Fe²⁺ = 5 × 3.60 × 10⁻⁴ mol = 1.80 × 10⁻³ mol in 25.0 cm³. Concentration of Fe²⁺ = 1.80 × 10⁻³ mol ÷ 0.0250 L = 0.0720 mol L⁻¹. (ii) Mass concentration = 0.0720 mol L⁻¹ × 56 g mol⁻¹ = 4.03 g L⁻¹.",
+    "prompt": "25.0 cm³ of an iron(II) solution needed 18.0 cm³ of 0.0200 M KMnO₄. Write the balanced equation and calculate the concentration of Fe²⁺ in (i) mol L⁻¹, (ii) g L⁻¹ (sample data).",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Moles C₂O₄²⁻ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol. The ratio MnO₄⁻ : C₂O₄²⁻ = 2 : 5, so moles MnO₄⁻ = 1.25 × 10⁻³ mol × 2 ÷ 5 = 5.00 × 10⁻⁴ mol. Concentration of KMnO₄ = 5.00 × 10⁻⁴ mol ÷ 0.0248 L = 0.0202 mol L⁻¹.",
+    "prompt": "Sodium oxalate is a primary standard for potassium manganate(VII): 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O. 25.0 cm³ of 0.0500 M sodium oxalate, warmed and acidified, needed 24.8 cm³ of KMnO₄. Calculate the concentration of the KMnO₄ (sample data).",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The potassium iodide is added in excess, so the oxidising agent reacts with it completely and releases iodine in proportion to the oxidising agent. The amount of potassium iodide is not part of the calculation, so it does not need to be measured accurately. Only the oxidising agent, which is the substance being analysed, and the sodium thiosulfate titrant must be measured exactly.",
+    "prompt": "Explain why, in an iodine–thiosulfate titration used to find the concentration of an oxidising agent, the potassium iodide added does not need to be measured accurately.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "(i) Moles I₂ in 500 cm³ = 3.81 g ÷ 254 g mol⁻¹ = 0.0150 mol. Each 25.0 cm³ portion is one twentieth of the solution, so moles I₂ per portion = 0.0150 mol ÷ 20 = 7.50 × 10⁻⁴ mol. (ii) Equation I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻, so moles S₂O₃²⁻ = 2 × 7.50 × 10⁻⁴ mol = 1.50 × 10⁻³ mol in 15.0 cm³. Concentration of thiosulfate = 1.50 × 10⁻³ mol ÷ 0.0150 L = 0.100 mol L⁻¹.",
     "prompt": "3.81 g of iodine was dissolved in potassium iodide solution and made up to 500 cm³. 25.0 cm³ portions needed 15.0 cm³ of sodium thiosulfate solution. Calculate (i) the moles of iodine in each 25.0 cm³ portion, (ii) the concentration of the thiosulfate (I₂ = 254).",
     "type": "short"
@@ -4169,6 +3981,38 @@
    {
     "definition": "A loose plug in the neck of a flask that lets gas escape while stopping acid spray from being lost.",
     "term": "Cotton-wool plug"
+   },
+   {
+    "definition": "The explanation that a reaction happens when particles collide with enough energy and in the correct orientation, so that bonds can break and products form.",
+    "term": "Collision theory"
+   },
+   {
+    "definition": "The minimum energy that colliding particles must have for a reaction to occur.",
+    "term": "Activation energy"
+   },
+   {
+    "definition": "A collision with at least the activation energy that results in the formation of products.",
+    "term": "Effective collision"
+   },
+   {
+    "definition": "A graph of the number of particles against their kinetic energy, showing how the distribution shifts at a higher temperature.",
+    "term": "Maxwell–Boltzmann distribution"
+   },
+   {
+    "definition": "The rapid burning of a fine combustible powder dispersed in air in an enclosed space, caused by its very large surface area.",
+    "term": "Dust explosion"
+   },
+   {
+    "definition": "The part of a catalyst or enzyme surface where reactant molecules bind and react.",
+    "term": "Active site"
+   },
+   {
+    "definition": "A substance that binds strongly to the active sites of a catalyst and blocks them, so the catalyst stops working.",
+    "term": "Catalyst poison"
+   },
+   {
+    "definition": "The condition in which every active site of a catalyst is occupied, so increasing the reactant concentration no longer increases the rate.",
+    "term": "Saturation"
    }
   ],
   "notes": [
@@ -4220,65 +4064,7 @@
      "Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.",
      "The rates of reactions in the body are controlled by enzymes; see “Catalysis and energy profiles”."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Rate of reaction is the change in concentration of a reactant or product per unit time. Method: place marble chips in a conical flask on an electronic balance, and add hydrochloric acid from a graduated cylinder placed beside it. Put a loose cotton-wool plug in the neck of the flask, start the stopwatch, and record the total mass at regular intervals. The loss in mass is the mass of carbon dioxide given off, so a steeper fall in mass means a faster rate. Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Alternatively, collect the carbon dioxide in a gas syringe and record its volume at regular intervals.",
-    "prompt": "Define rate of reaction. Describe one way of measuring the rate of the reaction between calcium carbonate and hydrochloric acid.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "The graph is steepest at the start because the concentration of hydrogen peroxide is highest then, so the rate of reaction is greatest. The gradient of the curve at any point is the rate at that time. The curve becomes less steep as hydrogen peroxide is used up and its concentration falls, so the rate decreases. The curve becomes horizontal after 12 minutes because the reaction is complete: the limiting reactant has been used up, the rate is then zero, and the volume of oxygen stops increasing.",
-    "prompt": "A graph of the volume of oxygen produced against time when hydrogen peroxide decomposes is steepest at the start and becomes horizontal after 12 minutes. Explain both features of the graph.",
-    "type": "short"
-   },
-   {
-    "marks": 3,
-    "model": "Each run forms the same amount of sulfur, which hides the cross, so the time taken is a measure of the reaction's speed. A shorter time means a faster rate, so rate is proportional to 1/time (rate ∝ 1/time).",
-    "prompt": "Explain why 1/time can be used as a measure of rate in the reaction between sodium thiosulfate and hydrochloric acid.",
-    "type": "short"
-   }
-  ]
- },
- "chem17-s2": {
-  "keyTerms": [
-   {
-    "definition": "The explanation that a reaction happens when particles collide with enough energy and in the correct orientation, so that bonds can break and products form.",
-    "term": "Collision theory"
-   },
-   {
-    "definition": "The minimum energy that colliding particles must have for a reaction to occur.",
-    "term": "Activation energy"
-   },
-   {
-    "definition": "A collision with at least the activation energy that results in the formation of products.",
-    "term": "Effective collision"
-   },
-   {
-    "definition": "A graph of the number of particles against their kinetic energy, showing how the distribution shifts at a higher temperature.",
-    "term": "Maxwell–Boltzmann distribution"
-   },
-   {
-    "definition": "The rapid burning of a fine combustible powder dispersed in air in an enclosed space, caused by its very large surface area.",
-    "term": "Dust explosion"
-   },
-   {
-    "definition": "The part of a catalyst or enzyme surface where reactant molecules bind and react.",
-    "term": "Active site"
-   },
-   {
-    "definition": "A substance that binds strongly to the active sites of a catalyst and blocks them, so the catalyst stops working.",
-    "term": "Catalyst poison"
-   },
-   {
-    "definition": "The condition in which every active site of a catalyst is occupied, so increasing the reactant concentration no longer increases the rate.",
-    "term": "Saturation"
-   }
-  ],
-  "notes": [
    {
     "h": "The collision theory",
     "points": [
@@ -4371,6 +4157,24 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Rate of reaction is the change in concentration of a reactant or product per unit time. Method: place marble chips in a conical flask on an electronic balance, and add hydrochloric acid from a graduated cylinder placed beside it. Put a loose cotton-wool plug in the neck of the flask, start the stopwatch, and record the total mass at regular intervals. The loss in mass is the mass of carbon dioxide given off, so a steeper fall in mass means a faster rate. Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Alternatively, collect the carbon dioxide in a gas syringe and record its volume at regular intervals.",
+    "prompt": "Define rate of reaction. Describe one way of measuring the rate of the reaction between calcium carbonate and hydrochloric acid.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The graph is steepest at the start because the concentration of hydrogen peroxide is highest then, so the rate of reaction is greatest. The gradient of the curve at any point is the rate at that time. The curve becomes less steep as hydrogen peroxide is used up and its concentration falls, so the rate decreases. The curve becomes horizontal after 12 minutes because the reaction is complete: the limiting reactant has been used up, the rate is then zero, and the volume of oxygen stops increasing.",
+    "prompt": "A graph of the volume of oxygen produced against time when hydrogen peroxide decomposes is steepest at the start and becomes horizontal after 12 minutes. Explain both features of the graph.",
+    "type": "short"
+   },
+   {
+    "marks": 3,
+    "model": "Each run forms the same amount of sulfur, which hides the cross, so the time taken is a measure of the reaction's speed. A shorter time means a faster rate, so rate is proportional to 1/time (rate ∝ 1/time).",
+    "prompt": "Explain why 1/time can be used as a measure of rate in the reaction between sodium thiosulfate and hydrochloric acid.",
+    "type": "short"
+   },
+   {
     "marks": 8,
     "model": "Reason 1: at a higher temperature the particles have more kinetic energy and move faster, so they collide more often per second. Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective. Reason 2 is more significant: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea. Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.",
     "prompt": "Give two reasons why the rate of a reaction increases when the temperature is raised. State which reason is more significant and explain why.",
@@ -4390,7 +4194,7 @@
    }
   ]
  },
- "chem17-s3": {
+ "chem17-s2": {
   "keyTerms": [
    {
     "definition": "The change in amount of product or reactant divided by the time taken over a stated interval.",
@@ -4578,7 +4382,7 @@
    }
   ]
  },
- "chem17-s4": {
+ "chem17-s3": {
   "keyTerms": [
    {
     "definition": "A substance that alters the rate of a chemical reaction but is chemically unchanged at the end of it.",
@@ -4619,6 +4423,34 @@
    {
     "definition": "The temperature at which an enzyme works fastest, about 37 °C for human enzymes.",
     "term": "Optimum temperature"
+   },
+   {
+    "definition": "An unstable compound formed in one step of a mechanism and used up in a later step, so it is not in the overall equation.",
+    "term": "Intermediate"
+   },
+   {
+    "definition": "A catalytic mechanism in which the catalyst reacts with one reactant to form an intermediate, then is regenerated in a second step.",
+    "term": "Intermediate formation"
+   },
+   {
+    "definition": "The accumulation of reactant molecules on the surface of a solid, held there by weak temporary bonds.",
+    "term": "Adsorption"
+   },
+   {
+    "definition": "The taking of a substance into the bulk of a material, as distinct from adsorption on its surface.",
+    "term": "Absorption"
+   },
+   {
+    "definition": "The release of product molecules from a catalyst surface, freeing the active sites for more reactant.",
+    "term": "Desorption"
+   },
+   {
+    "definition": "A substance adsorbed so strongly on the active sites that it does not desorb, permanently blocking them.",
+    "term": "Catalyst poison"
+   },
+   {
+    "definition": "The temporary combination of an enzyme with its substrate at the active site, before the products are released.",
+    "term": "Enzyme–substrate complex"
    }
   ],
   "notes": [
@@ -4706,65 +4538,7 @@
      "Arrows for Ea start at the reactant level, not the axis; the ΔH arrow runs from the reactants to the products.",
      "Diagram: two energy profile diagrams, exothermic and endothermic, each with axes “energy” and “progress of reaction”, reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower dashed peak, and Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Diagram: axes labelled energy (y-axis) and progress of reaction (x-axis). The reactants are at a lower level and the products at a higher level, since the reaction is endothermic with ΔH positive. The uncatalysed curve rises to a high peak; Ea (uncatalysed) is the height from the reactant level to that peak. The catalysed curve, drawn dashed, rises to a lower peak between the same reactant and product levels; Ea (catalysed) is the height from the reactant level to this lower peak. ΔH is marked with an arrow from the reactant level to the product level. Explanation: the catalyst provides an alternative pathway with a lower activation energy, so a greater fraction of collisions have enough energy to react and the rate increases. The reactant and product levels are unchanged, so ΔH is the same for both curves. For an endothermic reaction Ea is greater than ΔH.",
-    "prompt": "Draw labelled energy profile diagrams for an endothermic reaction (i) without a catalyst and (ii) with a catalyst, on the same axes. Mark the activation energies and ΔH, and explain how the catalyst increases the rate.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them. Example: iodide ions catalyse the decomposition of hydrogen peroxide solution, 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them. Example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide; solid iron catalyses the Haber process for ammonia, in which the reactants are gases.",
-    "prompt": "Distinguish between homogeneous and heterogeneous catalysis, giving one example of each and naming the catalyst.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things. Example: catalase catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Enzymes stop working at high temperature because the heat denatures them: it changes the shape of the active site, so the substrate no longer fits and cannot be catalysed.",
-    "prompt": "What is an enzyme? Name one enzyme and the reaction it catalyses, and explain why enzymes stop working at high temperature.",
-    "type": "short"
-   }
-  ]
- },
- "chem17-s5": {
-  "keyTerms": [
-   {
-    "definition": "An unstable compound formed in one step of a mechanism and used up in a later step, so it is not in the overall equation.",
-    "term": "Intermediate"
-   },
-   {
-    "definition": "A catalytic mechanism in which the catalyst reacts with one reactant to form an intermediate, then is regenerated in a second step.",
-    "term": "Intermediate formation"
-   },
-   {
-    "definition": "The accumulation of reactant molecules on the surface of a solid, held there by weak temporary bonds.",
-    "term": "Adsorption"
-   },
-   {
-    "definition": "The taking of a substance into the bulk of a material, as distinct from adsorption on its surface.",
-    "term": "Absorption"
-   },
-   {
-    "definition": "The release of product molecules from a catalyst surface, freeing the active sites for more reactant.",
-    "term": "Desorption"
-   },
-   {
-    "definition": "The part of a catalyst surface or enzyme where reactant molecules bind and react.",
-    "term": "Active site"
-   },
-   {
-    "definition": "A substance adsorbed so strongly on the active sites that it does not desorb, permanently blocking them.",
-    "term": "Catalyst poison"
-   },
-   {
-    "definition": "The temporary combination of an enzyme with its substrate at the active site, before the products are released.",
-    "term": "Enzyme–substrate complex"
-   }
-  ],
-  "notes": [
    {
     "h": "Intermediate formation (Higher Level only)",
     "points": [
@@ -4825,6 +4599,24 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Diagram: axes labelled energy (y-axis) and progress of reaction (x-axis). The reactants are at a lower level and the products at a higher level, since the reaction is endothermic with ΔH positive. The uncatalysed curve rises to a high peak; Ea (uncatalysed) is the height from the reactant level to that peak. The catalysed curve, drawn dashed, rises to a lower peak between the same reactant and product levels; Ea (catalysed) is the height from the reactant level to this lower peak. ΔH is marked with an arrow from the reactant level to the product level. Explanation: the catalyst provides an alternative pathway with a lower activation energy, so a greater fraction of collisions have enough energy to react and the rate increases. The reactant and product levels are unchanged, so ΔH is the same for both curves. For an endothermic reaction Ea is greater than ΔH.",
+    "prompt": "Draw labelled energy profile diagrams for an endothermic reaction (i) without a catalyst and (ii) with a catalyst, on the same axes. Mark the activation energies and ΔH, and explain how the catalyst increases the rate.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them. Example: iodide ions catalyse the decomposition of hydrogen peroxide solution, 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them. Example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide; solid iron catalyses the Haber process for ammonia, in which the reactants are gases.",
+    "prompt": "Distinguish between homogeneous and heterogeneous catalysis, giving one example of each and naming the catalyst.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things. Example: catalase catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Enzymes stop working at high temperature because the heat denatures them: it changes the shape of the active site, so the substrate no longer fits and cannot be catalysed.",
+    "prompt": "What is an enzyme? Name one enzyme and the reaction it catalyses, and explain why enzymes stop working at high temperature.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound. The intermediate then reacts with the other reactant, or breaks down, to form the products, and the catalyst is regenerated. The general model is A + Cat → A–Cat, then A–Cat + B → AB + Cat; adding the steps cancels the catalyst to give A + B → AB. Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster, and the energy profile shows two smaller humps with the intermediate in the dip between them. For iodide ions: step 1, H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq), where IO⁻ is the intermediate; step 2, H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq), where the iodide ion is regenerated. Adding the steps, I⁻ and IO⁻ cancel, giving 2H₂O₂(aq) → 2H₂O(l) + O₂(g).",
     "prompt": "Describe the intermediate formation theory of catalysis, using the decomposition of hydrogen peroxide catalysed by iodide ions to illustrate your answer.",
     "type": "short"
@@ -4876,6 +4668,62 @@
    {
     "definition": "A state in which nothing is moving, such as a metre stick balanced at its centre.",
     "term": "Static equilibrium"
+   },
+   {
+    "definition": "The constant ratio of product to reactant concentrations, each raised to its coefficient, at equilibrium at a fixed temperature.",
+    "term": "Equilibrium constant (Kc)"
+   },
+   {
+    "definition": "The rule that, at equilibrium at a fixed temperature, the concentrations of products and reactants are related by a constant.",
+    "term": "Equilibrium law"
+   },
+   {
+    "definition": "An equilibrium in which all the reactants and products are in the same phase, such as all gases or all in solution.",
+    "term": "Homogeneous equilibrium"
+   },
+   {
+    "definition": "A reaction that releases heat to the surroundings and has a negative ΔH.",
+    "term": "Exothermic reaction"
+   },
+   {
+    "definition": "A reaction that absorbs heat from the surroundings and has a positive ΔH.",
+    "term": "Endothermic reaction"
+   },
+   {
+    "definition": "A substance that speeds up a reaction without being used up, and that does not change the position of equilibrium or the value of Kc.",
+    "term": "Catalyst"
+   },
+   {
+    "definition": "The same expression as Kc, but using the concentrations at any moment, not necessarily at equilibrium.",
+    "term": "Reaction quotient (Q)"
+   },
+   {
+    "definition": "A table of starting, reacting and equilibrium amounts for each species, used to set up a Kc calculation.",
+    "term": "Initial–change–equilibrium table"
+   },
+   {
+    "definition": "An equation of the form ax² + bx + c = 0, which is solved to find x when a Kc expression cannot be simplified to a square root.",
+    "term": "Quadratic equation"
+   },
+   {
+    "definition": "The percentage of the starting amount of a substance that has decomposed at equilibrium.",
+    "term": "Percentage dissociation"
+   },
+   {
+    "definition": "The mass of one mole of a substance in g mol⁻¹, used to convert a mass into moles.",
+    "term": "Molar mass (M)"
+   },
+   {
+    "definition": "The digits of a number that carry meaning; a final answer is given to a stated number of them, here 3.",
+    "term": "Significant figures"
+   },
+   {
+    "definition": "Invented numbers used in a worked calculation, rather than measured values.",
+    "term": "Sample data"
+   },
+   {
+    "definition": "The situation in which the same volume appears on top and bottom of a Kc expression, so moles can replace concentrations.",
+    "term": "Volume cancelling"
    }
   ],
   "notes": [
@@ -4929,61 +4777,7 @@
      "Diagram (a): concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked.",
      "Diagram (b): forward and reverse rates against time, meeting at equilibrium."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Dynamic chemical equilibrium is a state of balance in a reversible reaction in which the rate of the forward reaction equals the rate of the reverse reaction. The word dynamic is used because both reactions are still taking place: reactant particles continue to form products and product particles continue to form reactants, at the same rate. Because substances are formed and used up at equal rates, the concentrations of reactants and products stay constant and the observable properties stop changing.",
-    "prompt": "What is meant by dynamic chemical equilibrium? Why is the word ‘dynamic’ used?",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "The reaction is H₂(g) + I₂(g) ⇌ 2HI(g), and the purple colour is due to the iodine. At the start only hydrogen and iodine are present, so the forward rate is high and the reverse rate is zero. As hydrogen and iodine are used up the forward rate falls, and as hydrogen iodide builds up the reverse rate rises. When the two rates become equal, the concentration of iodine stops changing, so the colour stays constant. The reaction has not stopped: it is dynamic, with H₂ and I₂ forming HI and HI forming H₂ and I₂ at the same rate.",
-    "prompt": "A mixture of hydrogen and iodine vapour is sealed in a flask and heated; the purple colour fades and then stays constant. Explain, in terms of the rates of the forward and reverse reactions, why the colour stops changing, and state whether the reaction has stopped.",
-    "type": "short"
-   },
-   {
-    "marks": 3,
-    "model": "Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave. In an open crucible the carbon dioxide escapes as it forms, so the reverse reaction, CaO(s) + CO₂(g) → CaCO₃(s), cannot occur, and the calcium carbonate decomposes completely.",
-    "prompt": "Explain why heating calcium carbonate in an open crucible does not set up an equilibrium.",
-    "type": "short"
-   }
-  ]
- },
- "chem18-s2": {
-  "keyTerms": [
-   {
-    "definition": "The constant ratio of product to reactant concentrations, each raised to its coefficient, at equilibrium at a fixed temperature.",
-    "term": "Equilibrium constant (Kc)"
-   },
-   {
-    "definition": "The rule that, at equilibrium at a fixed temperature, the concentrations of products and reactants are related by a constant.",
-    "term": "Equilibrium law"
-   },
-   {
-    "definition": "An equilibrium in which all the reactants and products are in the same phase, such as all gases or all in solution.",
-    "term": "Homogeneous equilibrium"
-   },
-   {
-    "definition": "A reaction that releases heat to the surroundings and has a negative ΔH.",
-    "term": "Exothermic reaction"
-   },
-   {
-    "definition": "A reaction that absorbs heat from the surroundings and has a positive ΔH.",
-    "term": "Endothermic reaction"
-   },
-   {
-    "definition": "A substance that speeds up a reaction without being used up, and that does not change the position of equilibrium or the value of Kc.",
-    "term": "Catalyst"
-   },
-   {
-    "definition": "The same expression as Kc, but using the concentrations at any moment, not necessarily at equilibrium.",
-    "term": "Reaction quotient (Q)"
-   }
-  ],
-  "notes": [
    {
     "h": "The equilibrium law and Kc",
     "points": [
@@ -5035,61 +4829,7 @@
      "This explains Le Châtelier’s principle mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.",
      "Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Kc = [SO₃]² ÷ [SO₂]²[O₂]. (i) Increasing the pressure has no effect on the value of Kc: the concentrations change and the equilibrium shifts, but the new equilibrium mixture gives the same value of Kc. (ii) Increasing the temperature decreases the value of Kc, because the forward reaction is exothermic: the equilibrium shifts towards the reactants, so less SO₃ is present at equilibrium.",
-    "prompt": "Write the equilibrium constant expression for 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), and state the effect, if any, on the value of Kc of (i) increasing the pressure, (ii) increasing the temperature, given that the forward reaction is exothermic.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]. The volume is the same for every species, so it cancels and the moles can be used directly: Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0. Q is less than Kc (4.0), so the mixture is not at equilibrium and contains too little product. The reaction proceeds in the forward direction, forming more ester and water, until Q equals Kc.",
-    "prompt": "For CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, Kc = 4.0. A mixture contains 0.50 mol of each of the four substances. Is it at equilibrium? If not, in which direction will it react? Explain.",
-    "type": "short"
-   },
-   {
-    "marks": 4,
-    "model": "The forward reaction is endothermic. Increasing the temperature increases Kc, which means the equilibrium moves to the right and more products form at equilibrium. Raising the temperature favours the endothermic direction, so the forward reaction must absorb heat.",
-    "prompt": "The value of Kc for a gas-phase reaction increases as temperature increases. Is the forward reaction exothermic or endothermic? Explain.",
-    "type": "short"
-   }
-  ]
- },
- "chem18-s3": {
-  "keyTerms": [
-   {
-    "definition": "A table of starting, reacting and equilibrium amounts for each species, used to set up a Kc calculation.",
-    "term": "Initial–change–equilibrium table"
-   },
-   {
-    "definition": "An equation of the form ax² + bx + c = 0, which is solved to find x when a Kc expression cannot be simplified to a square root.",
-    "term": "Quadratic equation"
-   },
-   {
-    "definition": "The percentage of the starting amount of a substance that has decomposed at equilibrium.",
-    "term": "Percentage dissociation"
-   },
-   {
-    "definition": "The mass of one mole of a substance in g mol⁻¹, used to convert a mass into moles.",
-    "term": "Molar mass (M)"
-   },
-   {
-    "definition": "The digits of a number that carry meaning; a final answer is given to a stated number of them, here 3.",
-    "term": "Significant figures"
-   },
-   {
-    "definition": "Invented numbers used in a worked calculation, rather than measured values.",
-    "term": "Sample data"
-   },
-   {
-    "definition": "The situation in which the same volume appears on top and bottom of a Kc expression, so moles can replace concentrations.",
-    "term": "Volume cancelling"
-   }
-  ],
-  "notes": [
    {
     "h": "The method (Higher Level only)",
     "points": [
@@ -5165,6 +4905,42 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Dynamic chemical equilibrium is a state of balance in a reversible reaction in which the rate of the forward reaction equals the rate of the reverse reaction. The word dynamic is used because both reactions are still taking place: reactant particles continue to form products and product particles continue to form reactants, at the same rate. Because substances are formed and used up at equal rates, the concentrations of reactants and products stay constant and the observable properties stop changing.",
+    "prompt": "What is meant by dynamic chemical equilibrium? Why is the word ‘dynamic’ used?",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The reaction is H₂(g) + I₂(g) ⇌ 2HI(g), and the purple colour is due to the iodine. At the start only hydrogen and iodine are present, so the forward rate is high and the reverse rate is zero. As hydrogen and iodine are used up the forward rate falls, and as hydrogen iodide builds up the reverse rate rises. When the two rates become equal, the concentration of iodine stops changing, so the colour stays constant. The reaction has not stopped: it is dynamic, with H₂ and I₂ forming HI and HI forming H₂ and I₂ at the same rate.",
+    "prompt": "A mixture of hydrogen and iodine vapour is sealed in a flask and heated; the purple colour fades and then stays constant. Explain, in terms of the rates of the forward and reverse reactions, why the colour stops changing, and state whether the reaction has stopped.",
+    "type": "short"
+   },
+   {
+    "marks": 3,
+    "model": "Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave. In an open crucible the carbon dioxide escapes as it forms, so the reverse reaction, CaO(s) + CO₂(g) → CaCO₃(s), cannot occur, and the calcium carbonate decomposes completely.",
+    "prompt": "Explain why heating calcium carbonate in an open crucible does not set up an equilibrium.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Kc = [SO₃]² ÷ [SO₂]²[O₂]. (i) Increasing the pressure has no effect on the value of Kc: the concentrations change and the equilibrium shifts, but the new equilibrium mixture gives the same value of Kc. (ii) Increasing the temperature decreases the value of Kc, because the forward reaction is exothermic: the equilibrium shifts towards the reactants, so less SO₃ is present at equilibrium.",
+    "prompt": "Write the equilibrium constant expression for 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), and state the effect, if any, on the value of Kc of (i) increasing the pressure, (ii) increasing the temperature, given that the forward reaction is exothermic.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]. The volume is the same for every species, so it cancels and the moles can be used directly: Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0. Q is less than Kc (4.0), so the mixture is not at equilibrium and contains too little product. The reaction proceeds in the forward direction, forming more ester and water, until Q equals Kc.",
+    "prompt": "For CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, Kc = 4.0. A mixture contains 0.50 mol of each of the four substances. Is it at equilibrium? If not, in which direction will it react? Explain.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "The forward reaction is endothermic. Increasing the temperature increases Kc, which means the equilibrium moves to the right and more products form at equilibrium. Raising the temperature favours the endothermic direction, so the forward reaction must absorb heat.",
+    "prompt": "The value of Kc for a gas-phase reaction increases as temperature increases. Is the forward reaction exothermic or endothermic? Explain.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "Kc = [CO₂][H₂] ÷ [CO][H₂O]. Initial: CO = H₂O = 1.00 mol; CO₂ = H₂ = 0 mol. Change: 0.600 mol of CO and of H₂O react, forming 0.600 mol of CO₂ and of H₂, in the ratio 1 : 1 : 1 : 1. Equilibrium: CO = H₂O = 0.400 mol; CO₂ = H₂ = 0.600 mol. The total number of moles is the same on each side, so the volume cancels: Kc = (0.600 × 0.600) ÷ (0.400 × 0.400) = 0.360 ÷ 0.160 = 2.25. Using concentrations instead, 0.0400 and 0.0600 mol L⁻¹ give the same ratio.",
     "prompt": "1.00 mol of carbon monoxide and 1.00 mol of steam were placed in a 10.0 L vessel and heated: CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g). At equilibrium 0.600 mol of CO₂ was present. Write the Kc expression and calculate Kc (sample data).",
@@ -5184,7 +4960,7 @@
    }
   ]
  },
- "chem18-s4": {
+ "chem18-s2": {
   "keyTerms": [
    {
     "definition": "The principle that a system at equilibrium responds to a disturbance by moving in the direction that opposes the change.",
@@ -5213,6 +4989,38 @@
    {
     "definition": "The temperature and pressure chosen in industry to balance yield, rate, cost and safety.",
     "term": "Compromise conditions"
+   },
+   {
+    "definition": "The untouched sample kept under the same conditions, against which the changed samples are compared.",
+    "term": "Control"
+   },
+   {
+    "definition": "The factor deliberately changed in an investigation, here concentration or temperature.",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The quantity measured in response to the change, here the colour of the equilibrium mixture.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "A factor kept the same in every test so that it cannot affect the result.",
+    "term": "Controlled variable"
+   },
+   {
+    "definition": "An insoluble solid that forms when two solutions react.",
+    "term": "Precipitate"
+   },
+   {
+    "definition": "Data collected directly by the investigator from their own experiment.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Data collected by someone else, such as published tables or graphs, which can be analysed for trends.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "A computer model of particles that shows how a reaction system behaves under chosen conditions.",
+    "term": "Digital simulation"
    }
   ],
   "notes": [
@@ -5302,65 +5110,7 @@
      "Then weigh these choices against rate, cost, energy use and safety.",
      "Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up. (i) The forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left, the endothermic direction, which absorbs heat. More brown NO₂ forms, so the mixture becomes darker. (ii) Increasing the pressure shifts the equilibrium to the side with fewer moles of gas, which is N₂O₄ (1 mol, against 2 mol of NO₂). The mixture darkens at once because the concentration rises, then becomes paler as the equilibrium shifts to the right, but not as pale as before. (iii) A catalyst does not change the position of the equilibrium, so the colour does not change; it only allows equilibrium to be reached more quickly.",
-    "prompt": "State Le Châtelier’s principle. For 2NO₂(g) ⇌ N₂O₄(g), ΔH = −57 kJ mol⁻¹, predict and explain the effect on the colour of the mixture of (i) increasing the temperature, (ii) increasing the pressure, (iii) adding a catalyst.",
-    "type": "short"
    },
-   {
-    "marks": 12,
-    "model": "A high pressure gives the greatest yield: there are 4 mol of gas on the left and 2 mol on the right, so the equilibrium shifts to the right to reduce the pressure. A low temperature gives the greatest yield, because the forward reaction is exothermic, so the equilibrium shifts to the right to release heat. Industrially a pressure of about 200 atm and a temperature of about 450 °C are used as a compromise. A higher pressure would give more ammonia, but a plant that can withstand it is very expensive to build and run, and the risk of leaks and explosions increases. At low temperature the reaction is too slow to be economic, so a temperature in the range 400–500 °C is used to give a reasonable yield at a fast enough rate. The iron catalyst does not change the yield; it allows equilibrium to be approached quickly at the compromise temperature. Ammonia is also removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled.",
-    "prompt": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Use Le Châtelier’s principle to predict the temperature and pressure that give the greatest yield of ammonia, and explain why the conditions used industrially are a compromise. State the role of the iron catalyst.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Carbon dioxide dissolves in the sea: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq). More dissolved CO₂ increases the concentration of carbonic acid, which is a reactant in the equilibrium H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Adding this reactant shifts that equilibrium to the right, so carbonate ions are used up. With less carbonate available, shellfish cannot build calcium carbonate shells as easily.",
-    "prompt": "Explain, using Le Châtelier’s principle, why increasing levels of carbon dioxide in the atmosphere make it harder for shellfish to build their shells.",
-    "type": "short"
-   }
-  ]
- },
- "chem18-s5": {
-  "keyTerms": [
-   {
-    "definition": "The untouched sample kept under the same conditions, against which the changed samples are compared.",
-    "term": "Control"
-   },
-   {
-    "definition": "The factor deliberately changed in an investigation, here concentration or temperature.",
-    "term": "Independent variable"
-   },
-   {
-    "definition": "The quantity measured in response to the change, here the colour of the equilibrium mixture.",
-    "term": "Dependent variable"
-   },
-   {
-    "definition": "A factor kept the same in every test so that it cannot affect the result.",
-    "term": "Controlled variable"
-   },
-   {
-    "definition": "An insoluble solid that forms when two solutions react.",
-    "term": "Precipitate"
-   },
-   {
-    "definition": "Data collected directly by the investigator from their own experiment.",
-    "term": "Primary data"
-   },
-   {
-    "definition": "Data collected by someone else, such as published tables or graphs, which can be analysed for trends.",
-    "term": "Secondary data"
-   },
-   {
-    "definition": "A computer model of particles that shows how a reaction system behaves under chosen conditions.",
-    "term": "Digital simulation"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim and approach",
     "points": [
@@ -5437,6 +5187,24 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up. (i) The forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left, the endothermic direction, which absorbs heat. More brown NO₂ forms, so the mixture becomes darker. (ii) Increasing the pressure shifts the equilibrium to the side with fewer moles of gas, which is N₂O₄ (1 mol, against 2 mol of NO₂). The mixture darkens at once because the concentration rises, then becomes paler as the equilibrium shifts to the right, but not as pale as before. (iii) A catalyst does not change the position of the equilibrium, so the colour does not change; it only allows equilibrium to be reached more quickly.",
+    "prompt": "State Le Châtelier’s principle. For 2NO₂(g) ⇌ N₂O₄(g), ΔH = −57 kJ mol⁻¹, predict and explain the effect on the colour of the mixture of (i) increasing the temperature, (ii) increasing the pressure, (iii) adding a catalyst.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "A high pressure gives the greatest yield: there are 4 mol of gas on the left and 2 mol on the right, so the equilibrium shifts to the right to reduce the pressure. A low temperature gives the greatest yield, because the forward reaction is exothermic, so the equilibrium shifts to the right to release heat. Industrially a pressure of about 200 atm and a temperature of about 450 °C are used as a compromise. A higher pressure would give more ammonia, but a plant that can withstand it is very expensive to build and run, and the risk of leaks and explosions increases. At low temperature the reaction is too slow to be economic, so a temperature in the range 400–500 °C is used to give a reasonable yield at a fast enough rate. The iron catalyst does not change the yield; it allows equilibrium to be approached quickly at the compromise temperature. Ammonia is also removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled.",
+    "prompt": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Use Le Châtelier’s principle to predict the temperature and pressure that give the greatest yield of ammonia, and explain why the conditions used industrially are a compromise. State the role of the iron catalyst.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Carbon dioxide dissolves in the sea: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq). More dissolved CO₂ increases the concentration of carbonic acid, which is a reactant in the equilibrium H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Adding this reactant shifts that equilibrium to the right, so carbonate ions are used up. With less carbonate available, shellfish cannot build calcium carbonate shells as easily.",
+    "prompt": "Explain, using Le Châtelier’s principle, why increasing levels of carbon dioxide in the atmosphere make it harder for shellfish to build their shells.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms, containing the equilibrium Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Pour equal portions of about 10 cm³ into four test tubes, keeping one as a control, and compare each tube with the control against a white background. (i) Add the same small number of drops of iron(III) chloride or potassium thiocyanate solution, a reactant added: the red colour deepens. The equilibrium shifts to the right to use up the added reactant, forming more FeSCN²⁺. (ii) Add a few drops of silver nitrate solution, which removes thiocyanate ions as a white precipitate of silver thiocyanate, AgSCN: the red colour fades. Removing a reactant lowers its concentration, so the equilibrium shifts to the left, forming less FeSCN²⁺.",
     "prompt": "Describe how you would set up an equilibrium between iron(III) ions and thiocyanate ions, and show the effect of changing the concentration of (i) a reactant added, (ii) a reactant removed. Explain each observation using Le Châtelier’s principle.",
@@ -5485,6 +5253,38 @@
    {
     "definition": "A reaction that takes in heat energy from its surroundings.",
     "term": "Endothermic reaction"
+   },
+   {
+    "definition": "The negative logarithm (base 10) of the hydrogen ion concentration in mol L⁻¹, pH = −log₁₀[H⁺].",
+    "term": "pH"
+   },
+   {
+    "definition": "A scale on which each unit change represents a tenfold change in the quantity measured, as in the pH scale.",
+    "term": "Logarithmic scale"
+   },
+   {
+    "definition": "A mixture of indicators that changes through a range of colours across the pH scale, read against a colour chart.",
+    "term": "Universal indicator"
+   },
+   {
+    "definition": "An instrument with a glass electrode probe that gives a digital pH reading, usually to 0.01 pH units.",
+    "term": "pH meter"
+   },
+   {
+    "definition": "A solution that resists a change in pH when small amounts of acid or base are added, used to calibrate a pH meter.",
+    "term": "Buffer solution"
+   },
+   {
+    "definition": "To set a pH meter so that it reads the known pH values of buffer solutions.",
+    "term": "Calibrate"
+   },
+   {
+    "definition": "Water from which dissolved ions have been removed, so that it does not change the pH of the substance mixed with it.",
+    "term": "Deionised water"
+   },
+   {
+    "definition": "The splitting of a molecule into ions when it dissolves in water.",
+    "term": "Dissociation"
    }
   ],
   "notes": [
@@ -5534,65 +5334,7 @@
      "Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.",
      "The neutral pH is therefore lower at higher temperatures and higher at lower temperatures."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "The self-ionisation of water is H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq), or simply H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). Each ionisation produces one H₃O⁺ and one OH⁻, so in pure water [H₃O⁺] = [OH⁻]. A solution is neutral when [H⁺] = [OH⁻]; it is acidic when [H⁺] > [OH⁻] and basic when [H⁺] < [OH⁻]. Pure water is therefore neutral, even though only about 1.8 × 10⁻⁹ of its molecules are ionised at 25 °C.",
-    "prompt": "Write an equation for the self-ionisation of water and explain why pure water is described as neutral.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Kw is the ionic product of water, the product of the hydrogen ion and hydroxide ion concentrations: Kw = [H₃O⁺][OH⁻] = [H⁺][OH⁻]. In pure water [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴. Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹, and pH = −log₁₀(1.0 × 10⁻⁷) = 7.0. For [H⁺] = 1.0 × 10⁻³ mol L⁻¹: [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻³ = 1.0 × 10⁻¹¹ mol L⁻¹.",
-    "prompt": "Define the ionic product of water, Kw. Kw at 25 °C is 1.0 × 10⁻¹⁴. Show that the pH of pure water at 25 °C is 7.0, and calculate [OH⁻] in a solution with [H⁺] = 1.0 × 10⁻³ mol L⁻¹.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Self-ionisation is endothermic in the forward direction, so by Le Châtelier's principle a rise in temperature shifts the equilibrium to the right, producing more H⁺ and OH⁻ and increasing Kw. In pure water [H⁺] = [OH⁻], so [H⁺] = √(5.5 × 10⁻¹⁴) = 2.35 × 10⁻⁷ mol L⁻¹. pH = −log₁₀(2.35 × 10⁻⁷) = 6.63. The water is not acidic: [H⁺] = [OH⁻], so it is neutral, even though its pH is below 7.",
-    "prompt": "Kw is 5.5 × 10⁻¹⁴ at 50 °C. Explain why Kw increases with temperature, calculate the pH of pure water at 50 °C, and explain whether this water is acidic.",
-    "type": "short"
-   }
-  ]
- },
- "chem19-s2": {
-  "keyTerms": [
-   {
-    "definition": "The negative logarithm (base 10) of the hydrogen ion concentration in mol L⁻¹, pH = −log₁₀[H⁺].",
-    "term": "pH"
-   },
-   {
-    "definition": "A scale on which each unit change represents a tenfold change in the quantity measured, as in the pH scale.",
-    "term": "Logarithmic scale"
-   },
-   {
-    "definition": "A mixture of indicators that changes through a range of colours across the pH scale, read against a colour chart.",
-    "term": "Universal indicator"
-   },
-   {
-    "definition": "An instrument with a glass electrode probe that gives a digital pH reading, usually to 0.01 pH units.",
-    "term": "pH meter"
-   },
-   {
-    "definition": "A solution that resists a change in pH when small amounts of acid or base are added, used to calibrate a pH meter.",
-    "term": "Buffer solution"
-   },
-   {
-    "definition": "To set a pH meter so that it reads the known pH values of buffer solutions.",
-    "term": "Calibrate"
-   },
-   {
-    "definition": "Water from which dissolved ions have been removed, so that it does not change the pH of the substance mixed with it.",
-    "term": "Deionised water"
-   },
-   {
-    "definition": "The splitting of a molecule into ions when it dissolves in water.",
-    "term": "Dissociation"
-   }
-  ],
-  "notes": [
    {
     "h": "The pH scale",
     "points": [
@@ -5681,6 +5423,24 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "The self-ionisation of water is H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq), or simply H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). Each ionisation produces one H₃O⁺ and one OH⁻, so in pure water [H₃O⁺] = [OH⁻]. A solution is neutral when [H⁺] = [OH⁻]; it is acidic when [H⁺] > [OH⁻] and basic when [H⁺] < [OH⁻]. Pure water is therefore neutral, even though only about 1.8 × 10⁻⁹ of its molecules are ionised at 25 °C.",
+    "prompt": "Write an equation for the self-ionisation of water and explain why pure water is described as neutral.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Kw is the ionic product of water, the product of the hydrogen ion and hydroxide ion concentrations: Kw = [H₃O⁺][OH⁻] = [H⁺][OH⁻]. In pure water [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴. Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹, and pH = −log₁₀(1.0 × 10⁻⁷) = 7.0. For [H⁺] = 1.0 × 10⁻³ mol L⁻¹: [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻³ = 1.0 × 10⁻¹¹ mol L⁻¹.",
+    "prompt": "Define the ionic product of water, Kw. Kw at 25 °C is 1.0 × 10⁻¹⁴. Show that the pH of pure water at 25 °C is 7.0, and calculate [OH⁻] in a solution with [H⁺] = 1.0 × 10⁻³ mol L⁻¹.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Self-ionisation is endothermic in the forward direction, so by Le Châtelier's principle a rise in temperature shifts the equilibrium to the right, producing more H⁺ and OH⁻ and increasing Kw. In pure water [H⁺] = [OH⁻], so [H⁺] = √(5.5 × 10⁻¹⁴) = 2.35 × 10⁻⁷ mol L⁻¹. pH = −log₁₀(2.35 × 10⁻⁷) = 6.63. The water is not acidic: [H⁺] = [OH⁻], so it is neutral, even though its pH is below 7.",
+    "prompt": "Kw is 5.5 × 10⁻¹⁴ at 50 °C. Explain why Kw increases with temperature, calculate the pH of pure water at 50 °C, and explain whether this water is acidic.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "pH is defined as pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen (hydronium) ions in mol L⁻¹. (i) pH = −log₁₀(4.0 × 10⁻³) = 2.40. (ii) [H⁺] = 10⁻⁹·³ = 5.01 × 10⁻¹⁰ mol L⁻¹.",
     "prompt": "Define pH. Calculate (i) the pH of a solution in which [H⁺] = 4.0 × 10⁻³ mol L⁻¹, (ii) [H⁺] in a solution of pH 9.3.",
@@ -5700,7 +5460,7 @@
    }
   ]
  },
- "chem19-s3": {
+ "chem19-s2": {
   "keyTerms": [
    {
     "definition": "An acid that is fully dissociated in dilute aqueous solution, so its [H⁺] equals its concentration multiplied by the number of H⁺ released per formula unit.",
@@ -5733,6 +5493,38 @@
    {
     "definition": "The negative logarithm of [OH⁻], pOH = −log₁₀[OH⁻], which at 25 °C satisfies pH + pOH = 14.",
     "term": "pOH"
+   },
+   {
+    "definition": "The equilibrium constant for a weak acid dissociating in water, Ka = [H⁺][A⁻] ÷ [HA].",
+    "term": "Acid dissociation constant (Ka)"
+   },
+   {
+    "definition": "The equilibrium constant for a weak base reacting with water, Kb = [B⁺][OH⁻] ÷ [B].",
+    "term": "Base dissociation constant (Kb)"
+   },
+   {
+    "definition": "The splitting of a molecule into ions when it dissolves in water.",
+    "term": "Dissociation"
+   },
+   {
+    "definition": "The ion CH₃COO⁻ formed when ethanoic acid dissociates.",
+    "term": "Ethanoate ion"
+   },
+   {
+    "definition": "The ion NH₄⁺ formed when ammonia accepts a proton from water.",
+    "term": "Ammonium ion"
+   },
+   {
+    "definition": "The fraction, or percentage, of acid or base molecules that have dissociated into ions in solution.",
+    "term": "Degree of dissociation"
+   },
+   {
+    "definition": "The species left when an acid has donated a proton, which can take a proton back.",
+    "term": "Conjugate base"
+   },
+   {
+    "definition": "Adding water to a solution, which lowers the concentration of all its species without changing the amount of solute.",
+    "term": "Dilution"
    }
   ],
   "notes": [
@@ -5817,61 +5609,7 @@
      "Check that the answer is sensible: acids have pH below 7, bases have pH above 7, and a weak acid has a higher pH than a strong acid of the same concentration.",
      "Give pH answers to two decimal places."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Nitric acid is a strong monoprotic acid, so [H⁺] = 0.20 mol L⁻¹ and pH = −log₁₀(0.20) = 0.70. (ii) Potassium hydroxide is a strong base giving one OH⁻, so [OH⁻] = 0.040 mol L⁻¹; pOH = −log₁₀(0.040) = 1.40, so pH = 14 − 1.40 = 12.60. (iii) Sulfuric acid is diprotic and fully dissociated, so [H⁺] = 2 × 0.020 = 0.040 mol L⁻¹ and pH = −log₁₀(0.040) = 1.40.",
-    "prompt": "Calculate the pH of (i) 0.20 M nitric acid, (ii) 0.040 M potassium hydroxide, (iii) 0.020 M sulfuric acid.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) Ethanoic acid is a weak acid, so [H⁺] = √(Ka × c) = √(1.8 × 10⁻⁵ × 0.20) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ mol L⁻¹; pH = −log₁₀(1.90 × 10⁻³) = 2.72. (ii) Ammonia is a weak base, so [OH⁻] = √(Kb × c) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ mol L⁻¹; pOH = 2.72, so pH = 14 − 2.72 = 11.28.",
-    "prompt": "Calculate the pH of (i) a 0.20 M solution of ethanoic acid (Ka = 1.8 × 10⁻⁵), (ii) a 0.20 M solution of ammonia (Kb = 1.8 × 10⁻⁵).",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "[H⁺] = 10⁻²·⁹⁰ = 1.26 × 10⁻³ mol L⁻¹ (using the unrounded value on a calculator). Ka = [H⁺]² ÷ c = (1.26 × 10⁻³)² ÷ 0.050 = 3.17 × 10⁻⁵. A strong monoprotic acid with the same pH has [H⁺] equal to its concentration, so its concentration is 1.26 × 10⁻³ mol L⁻¹.",
-    "prompt": "A 0.050 M solution of a weak monoprotic acid has a pH of 2.90. Calculate the Ka of the acid, and the concentration of a strong monoprotic acid that would have the same pH.",
-    "type": "short"
-   }
-  ]
- },
- "chem19-s4": {
-  "keyTerms": [
-   {
-    "definition": "The equilibrium constant for a weak acid dissociating in water, Ka = [H⁺][A⁻] ÷ [HA].",
-    "term": "Acid dissociation constant (Ka)"
-   },
-   {
-    "definition": "The equilibrium constant for a weak base reacting with water, Kb = [B⁺][OH⁻] ÷ [B].",
-    "term": "Base dissociation constant (Kb)"
-   },
-   {
-    "definition": "An acid that dissociates only partly in water, so its dissociation is an equilibrium that lies to the left.",
-    "term": "Weak acid"
-   },
-   {
-    "definition": "A base that accepts a proton from water only partly, forming a small amount of OH⁻.",
-    "term": "Weak base"
-   },
-   {
-    "definition": "The splitting of a molecule into ions when it dissolves in water.",
-    "term": "Dissociation"
-   },
-   {
-    "definition": "The ion CH₃COO⁻ formed when ethanoic acid dissociates.",
-    "term": "Ethanoate ion"
-   },
-   {
-    "definition": "The ion NH₄⁺ formed when ammonia accepts a proton from water.",
-    "term": "Ammonium ion"
-   }
-  ],
-  "notes": [
    {
     "h": "Dissociation of acids and bases",
     "points": [
@@ -5922,61 +5660,7 @@
      "Step 4: x² = Ka × c, so [H⁺] = √(Ka × c).",
      "The same steps for a weak base give [OH⁻] = √(Kb × c); worked uses of both formulas are in “pH calculations”."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "(i) HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or HA(aq) ⇌ H⁺(aq) + A⁻(aq). (ii) NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq). A strong acid dissociates completely, shown by a single arrow (→), whereas a weak acid dissociates only partly, as an equilibrium (⇌) that lies well to the left.",
-    "prompt": "Write equations for the dissociation in water of (i) a weak acid HA, (ii) ammonia, and state the difference between the dissociation of a strong acid and a weak acid.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH], equivalently [H₃O⁺][CH₃COO⁻] ÷ [CH₃COOH]. Water is the solvent and is present in such large excess that its concentration, 55.6 mol L⁻¹, is effectively constant; it is combined with Kc to give Ka, so [H₂O] does not appear in the expression. Ka for ethanoic acid is 1.8 × 10⁻⁵ at 25 °C. A small Ka means the equilibrium lies well to the left, so only a small proportion of the acid is dissociated and the acid is weak.",
-    "prompt": "Write the expression for the acid dissociation constant, Ka, of ethanoic acid. Explain why [H₂O] does not appear in it, and what a small Ka value tells you about the acid.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Let x mol L⁻¹ of a weak acid HA of concentration c mol L⁻¹ dissociate. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x. Then Ka = x × x ÷ (c − x) = x² ÷ (c − x). Assumption: the acid dissociates so little that x is tiny compared with c, so c − x ≈ c. Then Ka = x² ÷ c, so x² = Ka × c and [H⁺] = x = √(Ka × c).",
-    "prompt": "Starting from the Ka expression, show that the hydrogen ion concentration of a weak acid of concentration c is approximately √(Ka × c), stating the assumption made.",
-    "type": "short"
-   }
-  ]
- },
- "chem19-s5": {
-  "keyTerms": [
-   {
-    "definition": "The fraction, or percentage, of acid or base molecules that have dissociated into ions in solution.",
-    "term": "Degree of dissociation"
-   },
-   {
-    "definition": "An acid that is essentially 100% dissociated in dilute aqueous solution, e.g. HCl.",
-    "term": "Strong acid"
-   },
-   {
-    "definition": "An acid that is only slightly dissociated in aqueous solution, e.g. ethanoic acid.",
-    "term": "Weak acid"
-   },
-   {
-    "definition": "A base that is essentially 100% dissociated in dilute aqueous solution, e.g. NaOH.",
-    "term": "Strong base"
-   },
-   {
-    "definition": "A base that is only slightly dissociated in aqueous solution, e.g. ammonia.",
-    "term": "Weak base"
-   },
-   {
-    "definition": "The species left when an acid has donated a proton, which can take a proton back.",
-    "term": "Conjugate base"
-   },
-   {
-    "definition": "Adding water to a solution, which lowers the concentration of all its species without changing the amount of solute.",
-    "term": "Dilution"
-   }
-  ],
-  "notes": [
    {
     "h": "Degree of dissociation",
     "points": [
@@ -6023,6 +5707,42 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "(i) Nitric acid is a strong monoprotic acid, so [H⁺] = 0.20 mol L⁻¹ and pH = −log₁₀(0.20) = 0.70. (ii) Potassium hydroxide is a strong base giving one OH⁻, so [OH⁻] = 0.040 mol L⁻¹; pOH = −log₁₀(0.040) = 1.40, so pH = 14 − 1.40 = 12.60. (iii) Sulfuric acid is diprotic and fully dissociated, so [H⁺] = 2 × 0.020 = 0.040 mol L⁻¹ and pH = −log₁₀(0.040) = 1.40.",
+    "prompt": "Calculate the pH of (i) 0.20 M nitric acid, (ii) 0.040 M potassium hydroxide, (iii) 0.020 M sulfuric acid.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Ethanoic acid is a weak acid, so [H⁺] = √(Ka × c) = √(1.8 × 10⁻⁵ × 0.20) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ mol L⁻¹; pH = −log₁₀(1.90 × 10⁻³) = 2.72. (ii) Ammonia is a weak base, so [OH⁻] = √(Kb × c) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ mol L⁻¹; pOH = 2.72, so pH = 14 − 2.72 = 11.28.",
+    "prompt": "Calculate the pH of (i) a 0.20 M solution of ethanoic acid (Ka = 1.8 × 10⁻⁵), (ii) a 0.20 M solution of ammonia (Kb = 1.8 × 10⁻⁵).",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "[H⁺] = 10⁻²·⁹⁰ = 1.26 × 10⁻³ mol L⁻¹ (using the unrounded value on a calculator). Ka = [H⁺]² ÷ c = (1.26 × 10⁻³)² ÷ 0.050 = 3.17 × 10⁻⁵. A strong monoprotic acid with the same pH has [H⁺] equal to its concentration, so its concentration is 1.26 × 10⁻³ mol L⁻¹.",
+    "prompt": "A 0.050 M solution of a weak monoprotic acid has a pH of 2.90. Calculate the Ka of the acid, and the concentration of a strong monoprotic acid that would have the same pH.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or HA(aq) ⇌ H⁺(aq) + A⁻(aq). (ii) NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq). A strong acid dissociates completely, shown by a single arrow (→), whereas a weak acid dissociates only partly, as an equilibrium (⇌) that lies well to the left.",
+    "prompt": "Write equations for the dissociation in water of (i) a weak acid HA, (ii) ammonia, and state the difference between the dissociation of a strong acid and a weak acid.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH], equivalently [H₃O⁺][CH₃COO⁻] ÷ [CH₃COOH]. Water is the solvent and is present in such large excess that its concentration, 55.6 mol L⁻¹, is effectively constant; it is combined with Kc to give Ka, so [H₂O] does not appear in the expression. Ka for ethanoic acid is 1.8 × 10⁻⁵ at 25 °C. A small Ka means the equilibrium lies well to the left, so only a small proportion of the acid is dissociated and the acid is weak.",
+    "prompt": "Write the expression for the acid dissociation constant, Ka, of ethanoic acid. Explain why [H₂O] does not appear in it, and what a small Ka value tells you about the acid.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Let x mol L⁻¹ of a weak acid HA of concentration c mol L⁻¹ dissociate. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x. Then Ka = x × x ÷ (c − x) = x² ÷ (c − x). Assumption: the acid dissociates so little that x is tiny compared with c, so c − x ≈ c. Then Ka = x² ÷ c, so x² = Ka × c and [H⁺] = x = √(Ka × c).",
+    "prompt": "Starting from the Ka expression, show that the hydrogen ion concentration of a weak acid of concentration c is approximately √(Ka × c), stating the assumption made.",
+    "type": "short"
+   },
    {
     "marks": 6,
     "model": "Hydrochloric acid is a strong acid and is essentially 100% dissociated, so the reaction goes to completion. Ethanoic acid is a weak acid and is only about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH. The conjugate base of hydrochloric acid, Cl⁻, has almost no tendency to take the proton back, so the equilibrium lies completely to the right. The conjugate base of ethanoic acid, CH₃COO⁻, readily takes the proton back, so the equilibrium lies to the left.",
@@ -6076,6 +5796,66 @@
    {
     "definition": "A division of a main energy level, labelled s, p, d or f, made up of orbitals.",
     "term": "Sublevel"
+   },
+   {
+    "definition": "A particle in the nucleus with a relative mass of 1 and a relative charge of +1.",
+    "term": "Proton"
+   },
+   {
+    "definition": "A particle in the nucleus with a relative mass of 1 and no charge.",
+    "term": "Neutron"
+   },
+   {
+    "definition": "A particle with a very small mass and a relative charge of −1, found outside the nucleus in energy levels.",
+    "term": "Electron"
+   },
+   {
+    "definition": "A particle found in the nucleus, meaning either a proton or a neutron.",
+    "term": "Nucleon"
+   },
+   {
+    "definition": "The charge of a particle compared with the charge on a proton, which is +1.",
+    "term": "Relative charge"
+   },
+   {
+    "definition": "An atom or group of atoms that has lost one or more electrons, so it has more protons than electrons.",
+    "term": "Positive ion"
+   },
+   {
+    "definition": "An atom or group of atoms that has gained one or more electrons, so it has more electrons than protons.",
+    "term": "Negative ion"
+   },
+   {
+    "definition": "The number of protons in the nucleus of an atom of an element, written as Z.",
+    "term": "Atomic number"
+   },
+   {
+    "definition": "The total number of protons and neutrons in the nucleus of an atom, written as A.",
+    "term": "Mass number"
+   },
+   {
+    "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons, so different mass numbers.",
+    "term": "Isotopes"
+   },
+   {
+    "definition": "A way of writing an element symbol with the mass number at the top left and the atomic number at the bottom left.",
+    "term": "Nuclear notation"
+   },
+   {
+    "definition": "The average mass of the atoms of an element, taking account of its isotopes, relative to one-twelfth of the mass of a carbon-12 atom.",
+    "term": "Relative atomic mass"
+   },
+   {
+    "definition": "The reference used for relative atomic mass: an atom of carbon-12 is defined as having a mass of exactly 12 units.",
+    "term": "Carbon-12 standard"
+   },
+   {
+    "definition": "The isotope hydrogen-2, which has one neutron in its nucleus.",
+    "term": "Deuterium"
+   },
+   {
+    "definition": "The isotope hydrogen-3, which has two neutrons in its nucleus.",
+    "term": "Tritium"
    }
   ],
   "notes": [
@@ -6153,65 +5933,7 @@
      "The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.",
      "The nuclear model still explains why atoms are mostly empty space."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Geiger and Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil. A fluorescent screen around the foil showed where the particles went. Observation 1: most particles passed straight through, so most of the atom is empty space. Observation 2: some particles were deflected through large angles, so there must be a concentrated region of positive charge that repels them. Observation 3: a very few particles bounced straight back, so this positive region must be very small and very dense, containing almost all of the mass. Together these led Rutherford to the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.",
-    "prompt": "Describe Rutherford's gold-foil experiment and explain how each of its three observations led to the nuclear model of the atom.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Assumption: electrons move in fixed circular orbits, called energy levels, each with a fixed energy. Limitation: the Bohr model explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron, and it does not account for sublevels or for the wave nature of electrons. The orbital model overcomes this because it describes electrons as occupying orbitals, which are regions of space where an electron is likely to be found, rather than following fixed paths. It is based on evidence that electrons behave as waves as well as particles, and it divides energy levels into sublevels (s, p, d and f) made of orbitals.",
-    "prompt": "State one assumption and one limitation of the Bohr model of the atom, and explain how the orbital model overcomes the limitation.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "The Bohr model is still enough to explain flame colours and simple line spectra, where an electron falls from a higher energy level to a lower one and emits light of a definite energy. Its arrangement of electrons in shells is still used to predict bonding. Each model was accepted because it explained the evidence of its time, and it is only replaced or refined when new evidence does not fit.",
-    "prompt": "Explain why the Bohr model is still useful even though it has been replaced by the orbital model.",
-    "type": "short"
-   }
-  ]
- },
- "chem2-s2": {
-  "keyTerms": [
-   {
-    "definition": "A particle in the nucleus with a relative mass of 1 and a relative charge of +1.",
-    "term": "Proton"
-   },
-   {
-    "definition": "A particle in the nucleus with a relative mass of 1 and no charge.",
-    "term": "Neutron"
-   },
-   {
-    "definition": "A particle with a very small mass and a relative charge of −1, found outside the nucleus in energy levels.",
-    "term": "Electron"
-   },
-   {
-    "definition": "A particle found in the nucleus, meaning either a proton or a neutron.",
-    "term": "Nucleon"
-   },
-   {
-    "definition": "The tiny, dense centre of an atom, made of protons and neutrons, which holds almost all of the atom's mass.",
-    "term": "Nucleus"
-   },
-   {
-    "definition": "The charge of a particle compared with the charge on a proton, which is +1.",
-    "term": "Relative charge"
-   },
-   {
-    "definition": "An atom or group of atoms that has lost one or more electrons, so it has more protons than electrons.",
-    "term": "Positive ion"
-   },
-   {
-    "definition": "An atom or group of atoms that has gained one or more electrons, so it has more electrons than protons.",
-    "term": "Negative ion"
-   }
-  ],
-  "notes": [
    {
     "b": "An atom is made of protons, neutrons and electrons. Relative mass and relative charge are compared with the proton.",
     "h": "The three particles: mass, charge and location",
@@ -6256,59 +5978,7 @@
      "The neutron was discovered by Chadwick in 1932.",
      "The neutron was found last because it has no charge, which makes it hard to detect."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Proton: relative mass 1, relative charge +1, located in the nucleus. Neutron: relative mass 1, relative charge 0, located in the nucleus. Electron: relative mass about 1/1840 of a proton (negligible), relative charge −1, located outside the nucleus in energy levels (orbitals).",
-    "prompt": "Copy and complete a table giving the relative mass, relative charge and location of the proton, neutron and electron.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "(i) Protons = 13 (atomic number); neutrons = 27 − 13 = 14; electrons = 13 in a neutral atom. (ii) Protons = 13; neutrons = 14; electrons = 13 − 3 = 10. (iii) Protons = 16 (atomic number); neutrons = 32 − 16 = 16; electrons = 16 + 2 = 18.",
-    "prompt": "State the number of protons, neutrons and electrons in (i) ²⁷₁₃Al, (ii) ²⁷₁₃Al³⁺, (iii) ³²₁₆S²⁻.",
-    "type": "short"
-   }
-  ]
- },
- "chem2-s3": {
-  "keyTerms": [
-   {
-    "definition": "The number of protons in the nucleus of an atom of an element, written as Z.",
-    "term": "Atomic number"
-   },
-   {
-    "definition": "The total number of protons and neutrons in the nucleus of an atom, written as A.",
-    "term": "Mass number"
-   },
-   {
-    "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons, so different mass numbers.",
-    "term": "Isotopes"
-   },
-   {
-    "definition": "A way of writing an element symbol with the mass number at the top left and the atomic number at the bottom left.",
-    "term": "Nuclear notation"
-   },
-   {
-    "definition": "The average mass of the atoms of an element, taking account of its isotopes, relative to one-twelfth of the mass of a carbon-12 atom.",
-    "term": "Relative atomic mass"
-   },
-   {
-    "definition": "The reference used for relative atomic mass: an atom of carbon-12 is defined as having a mass of exactly 12 units.",
-    "term": "Carbon-12 standard"
-   },
-   {
-    "definition": "The isotope hydrogen-2, which has one neutron in its nucleus.",
-    "term": "Deuterium"
-   },
-   {
-    "definition": "The isotope hydrogen-3, which has two neutrons in its nucleus.",
-    "term": "Tritium"
-   }
-  ],
-  "notes": [
    {
     "h": "Atomic number and mass number",
     "points": [
@@ -6344,6 +6014,36 @@
    }
   ],
   "questions": [
+   {
+    "marks": 12,
+    "model": "Geiger and Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil. A fluorescent screen around the foil showed where the particles went. Observation 1: most particles passed straight through, so most of the atom is empty space. Observation 2: some particles were deflected through large angles, so there must be a concentrated region of positive charge that repels them. Observation 3: a very few particles bounced straight back, so this positive region must be very small and very dense, containing almost all of the mass. Together these led Rutherford to the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.",
+    "prompt": "Describe Rutherford's gold-foil experiment and explain how each of its three observations led to the nuclear model of the atom.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Assumption: electrons move in fixed circular orbits, called energy levels, each with a fixed energy. Limitation: the Bohr model explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron, and it does not account for sublevels or for the wave nature of electrons. The orbital model overcomes this because it describes electrons as occupying orbitals, which are regions of space where an electron is likely to be found, rather than following fixed paths. It is based on evidence that electrons behave as waves as well as particles, and it divides energy levels into sublevels (s, p, d and f) made of orbitals.",
+    "prompt": "State one assumption and one limitation of the Bohr model of the atom, and explain how the orbital model overcomes the limitation.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The Bohr model is still enough to explain flame colours and simple line spectra, where an electron falls from a higher energy level to a lower one and emits light of a definite energy. Its arrangement of electrons in shells is still used to predict bonding. Each model was accepted because it explained the evidence of its time, and it is only replaced or refined when new evidence does not fit.",
+    "prompt": "Explain why the Bohr model is still useful even though it has been replaced by the orbital model.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Proton: relative mass 1, relative charge +1, located in the nucleus. Neutron: relative mass 1, relative charge 0, located in the nucleus. Electron: relative mass about 1/1840 of a proton (negligible), relative charge −1, located outside the nucleus in energy levels (orbitals).",
+    "prompt": "Copy and complete a table giving the relative mass, relative charge and location of the proton, neutron and electron.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) Protons = 13 (atomic number); neutrons = 27 − 13 = 14; electrons = 13 in a neutral atom. (ii) Protons = 13; neutrons = 14; electrons = 13 − 3 = 10. (iii) Protons = 16 (atomic number); neutrons = 32 − 16 = 16; electrons = 16 + 2 = 18.",
+    "prompt": "State the number of protons, neutrons and electrons in (i) ²⁷₁₃Al, (ii) ²⁷₁₃Al³⁺, (iii) ³²₁₆S²⁻.",
+    "type": "short"
+   },
    {
     "marks": 6,
     "model": "(i) Mass number is the total number of protons and neutrons in the nucleus of an atom. (ii) Isotopes are atoms of the same element with the same number of protons but different mass numbers, because they have different numbers of neutrons. Isotopes have the same chemical properties because they have the same number of electrons and the same electron arrangement, and chemical properties depend on the arrangement of electrons.",
@@ -6391,6 +6091,54 @@
    {
     "definition": "Using resources so that they are not used up and the environment is not damaged for future generations.",
     "term": "Sustainability"
+   },
+   {
+    "definition": "The extra warming of the Earth caused by increased concentrations of greenhouse gases from human activities.",
+    "term": "Enhanced greenhouse effect"
+   },
+   {
+    "definition": "Caused or produced by human activity.",
+    "term": "Anthropogenic"
+   },
+   {
+    "definition": "The long-term rise in the Earth's average surface temperature.",
+    "term": "Global warming"
+   },
+   {
+    "definition": "Global warming together with the other changes it causes to the climate.",
+    "term": "Climate change"
+   },
+   {
+    "definition": "The warming caused by emitting 1 kg of a gas over a set period, usually 100 years, compared with the same mass of CO₂.",
+    "term": "Global warming potential (GWP)"
+   },
+   {
+    "definition": "The mass of CO₂ that would cause the same warming as a given mass of another gas, found as mass multiplied by GWP.",
+    "term": "CO₂ equivalent"
+   },
+   {
+    "definition": "The average time a gas remains in the atmosphere after it is emitted.",
+    "term": "Atmospheric lifetime"
+   },
+   {
+    "definition": "A process in which warming increases the amount of water vapour, which traps more heat and amplifies the warming.",
+    "term": "Feedback (water vapour)"
+   },
+   {
+    "definition": "Tiny particles or droplets suspended in the air, such as sulfate particles from SO₂, which reflect sunlight.",
+    "term": "Aerosol"
+   },
+   {
+    "definition": "The fall in the pH of the oceans as they absorb CO₂ from the atmosphere.",
+    "term": "Ocean acidification"
+   },
+   {
+    "definition": "Capturing CO₂ from flue gases and injecting it into deep rock formations.",
+    "term": "Carbon capture and storage (CCS)"
+   },
+   {
+    "definition": "The total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity.",
+    "term": "Carbon footprint"
    }
   ],
   "notes": [
@@ -6457,81 +6205,7 @@
      "John Tyndall (1820–1893), born in Leighlinbridge, Co. Carlow, used experiments from 1859 at the Royal Institution in London to show which gases absorb heat radiation.",
      "Tyndall's experiments laid the experimental foundation for understanding the greenhouse effect; the Tyndall National Institute in Cork is named after him."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "The natural greenhouse effect is the warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases. About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface. The rest passes through the largely transparent atmosphere as visible light and warms the land and oceans. The warmed Earth radiates energy back out as infrared (IR) radiation. Greenhouse gases absorb some of this IR and re-emit it in all directions, including back down towards the surface, so heat is kept in the lower atmosphere for longer. The main natural greenhouse gases are water vapour, the largest contributor, and carbon dioxide, with smaller amounts of methane and dinitrogen oxide. Without this effect the average surface temperature would be about −18 °C instead of about +15 °C, and the oceans would freeze and life as we know it could not exist. The natural effect also keeps water liquid over most of the planet and evens out day and night temperatures.",
-    "prompt": "Describe the natural greenhouse effect and explain why it is essential for life on Earth.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Two processes that remove CO₂ are photosynthesis, 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), and dissolving in the oceans, where CO₂(g) ⇌ CO₂(aq) and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) follow; marine organisms use carbonate to build calcium carbonate shells that form limestone over long periods. Two processes that add CO₂ are respiration, C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), and combustion of fuels, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Before industrialisation, natural sources and sinks were roughly in balance and CO₂ stayed at about 280 ppm. Human activity has upset the balance: burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it, and deforestation and draining peatlands remove sinks and release stored carbon. As a result, atmospheric CO₂ has risen to about 420 ppm in the mid-2020s.",
-    "prompt": "Describe two processes that remove carbon dioxide from the atmosphere and two that add it, and explain how human activity has upset the balance of the carbon cycle.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Nitrogen and oxygen are not greenhouse gases because they do not absorb infrared radiation. A molecule absorbs IR when the energy makes its bonds vibrate in a way that changes how charge is spread across the molecule. Molecules of two identical atoms, N₂ and O₂, cannot do this. Water vapour has three or more atoms with polar bonds, so it absorbs IR. It is by far the most abundant greenhouse gas, so it makes the largest contribution to the natural greenhouse effect. Its concentration is set by temperature, through evaporation and condensation, rather than directly by human emissions.",
-    "prompt": "Nitrogen and oxygen make up about 99% of dry air but are not greenhouse gases. Explain why, and explain why water vapour makes the largest contribution to the natural greenhouse effect.",
-    "type": "short"
-   }
-  ]
- },
- "chem20-s2": {
-  "keyTerms": [
-   {
-    "definition": "The extra warming of the Earth caused by increased concentrations of greenhouse gases from human activities.",
-    "term": "Enhanced greenhouse effect"
-   },
-   {
-    "definition": "Caused or produced by human activity.",
-    "term": "Anthropogenic"
-   },
-   {
-    "definition": "The long-term rise in the Earth's average surface temperature.",
-    "term": "Global warming"
-   },
-   {
-    "definition": "Global warming together with the other changes it causes to the climate.",
-    "term": "Climate change"
-   },
-   {
-    "definition": "The warming caused by emitting 1 kg of a gas over a set period, usually 100 years, compared with the same mass of CO₂.",
-    "term": "Global warming potential (GWP)"
-   },
-   {
-    "definition": "The mass of CO₂ that would cause the same warming as a given mass of another gas, found as mass multiplied by GWP.",
-    "term": "CO₂ equivalent"
-   },
-   {
-    "definition": "The average time a gas remains in the atmosphere after it is emitted.",
-    "term": "Atmospheric lifetime"
-   },
-   {
-    "definition": "A process in which warming increases the amount of water vapour, which traps more heat and amplifies the warming.",
-    "term": "Feedback (water vapour)"
-   },
-   {
-    "definition": "Tiny particles or droplets suspended in the air, such as sulfate particles from SO₂, which reflect sunlight.",
-    "term": "Aerosol"
-   },
-   {
-    "definition": "The fall in the pH of the oceans as they absorb CO₂ from the atmosphere.",
-    "term": "Ocean acidification"
-   },
-   {
-    "definition": "Capturing CO₂ from flue gases and injecting it into deep rock formations.",
-    "term": "Carbon capture and storage (CCS)"
-   },
-   {
-    "definition": "The total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity.",
-    "term": "Carbon footprint"
-   }
-  ],
-  "notes": [
    {
     "h": "The enhanced greenhouse effect",
     "points": [
@@ -6643,6 +6317,24 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "The natural greenhouse effect is the warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases. About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface. The rest passes through the largely transparent atmosphere as visible light and warms the land and oceans. The warmed Earth radiates energy back out as infrared (IR) radiation. Greenhouse gases absorb some of this IR and re-emit it in all directions, including back down towards the surface, so heat is kept in the lower atmosphere for longer. The main natural greenhouse gases are water vapour, the largest contributor, and carbon dioxide, with smaller amounts of methane and dinitrogen oxide. Without this effect the average surface temperature would be about −18 °C instead of about +15 °C, and the oceans would freeze and life as we know it could not exist. The natural effect also keeps water liquid over most of the planet and evens out day and night temperatures.",
+    "prompt": "Describe the natural greenhouse effect and explain why it is essential for life on Earth.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Two processes that remove CO₂ are photosynthesis, 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), and dissolving in the oceans, where CO₂(g) ⇌ CO₂(aq) and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) follow; marine organisms use carbonate to build calcium carbonate shells that form limestone over long periods. Two processes that add CO₂ are respiration, C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), and combustion of fuels, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Before industrialisation, natural sources and sinks were roughly in balance and CO₂ stayed at about 280 ppm. Human activity has upset the balance: burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it, and deforestation and draining peatlands remove sinks and release stored carbon. As a result, atmospheric CO₂ has risen to about 420 ppm in the mid-2020s.",
+    "prompt": "Describe two processes that remove carbon dioxide from the atmosphere and two that add it, and explain how human activity has upset the balance of the carbon cycle.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Nitrogen and oxygen are not greenhouse gases because they do not absorb infrared radiation. A molecule absorbs IR when the energy makes its bonds vibrate in a way that changes how charge is spread across the molecule. Molecules of two identical atoms, N₂ and O₂, cannot do this. Water vapour has three or more atoms with polar bonds, so it absorbs IR. It is by far the most abundant greenhouse gas, so it makes the largest contribution to the natural greenhouse effect. Its concentration is set by temperature, through evaporation and condensation, rather than directly by human emissions.",
+    "prompt": "Nitrogen and oxygen make up about 99% of dry air but are not greenhouse gases. Explain why, and explain why water vapour makes the largest contribution to the natural greenhouse effect.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "The enhanced greenhouse effect is the extra warming caused by increased concentrations of greenhouse gases from human activities such as burning fossil fuels, deforestation, agriculture and cement-making. Evidence: continuous measurements at Mauna Loa, begun by Charles David Keeling in 1958, show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm. Ice cores show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation, and today's level is far above that range, matching the growth in fossil-fuel use. The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900, with most of the warming since the 1970s, and recent years have been the warmest on record. Climate models that include only natural factors do not reproduce the warming since the mid-twentieth century, while models that include human greenhouse gas emissions do. The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land.",
     "prompt": "Discuss the evidence that human activity has enhanced the greenhouse effect.",
@@ -6662,7 +6354,7 @@
    }
   ]
  },
- "chem20-s3": {
+ "chem20-s2": {
   "keyTerms": [
    {
     "definition": "The amount of dissolved oxygen used up by microorganisms when a water sample is kept in the dark at 20 °C for five days.",
@@ -6867,7 +6559,7 @@
    }
   ]
  },
- "chem20-s4": {
+ "chem20-s3": {
   "keyTerms": [
    {
     "definition": "The first stage of water treatment, in which metal screens remove large floating objects.",
@@ -7040,7 +6732,7 @@
    }
   ]
  },
- "chem20-s5": {
+ "chem20-s4": {
   "keyTerms": [
    {
     "definition": "A rechargeable cell in which Li⁺ ions move between a graphite electrode and a lithium metal oxide electrode.",
@@ -7219,7 +6911,7 @@
    }
   ]
  },
- "chem20-s6": {
+ "chem20-s5": {
   "keyTerms": [
    {
     "definition": "An investigation of a question about one area of the course, through a cross-cutting theme, using evaluated sources and real chemistry.",
@@ -7413,6 +7105,42 @@
    {
     "definition": "The minimum energy needed for a reaction to happen.",
     "term": "Activation energy"
+   },
+   {
+    "definition": "A reaction that gives out heat to the surroundings, with a negative ΔH.",
+    "term": "Exothermic reaction"
+   },
+   {
+    "definition": "A reaction that takes in heat from the surroundings, with a positive ΔH.",
+    "term": "Endothermic reaction"
+   },
+   {
+    "definition": "A balanced equation that includes state symbols and the ΔH value for the reaction as written.",
+    "term": "Thermochemical equation"
+   },
+   {
+    "definition": "A diagram with enthalpy on the vertical axis showing the reactant and product levels and the ΔH between them.",
+    "term": "Enthalpy level diagram"
+   },
+   {
+    "definition": "The breakdown of a compound by heating, which is endothermic and needs a continuous supply of heat.",
+    "term": "Thermal decomposition"
+   },
+   {
+    "definition": "The reaction of a substance with oxygen, giving out heat and usually light.",
+    "term": "Combustion"
+   },
+   {
+    "definition": "The reaction of an acid with a base, which is exothermic and forms water.",
+    "term": "Neutralisation"
+   },
+   {
+    "definition": "The release of energy from glucose in cells, which is exothermic.",
+    "term": "Respiration"
+   },
+   {
+    "definition": "The endothermic process in which plants use energy from sunlight to make glucose from carbon dioxide and water.",
+    "term": "Photosynthesis"
    }
   ],
   "notes": [
@@ -7476,69 +7204,7 @@
      "Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.",
      "Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Bond enthalpy is the energy needed to break one mole of a particular covalent bond, with the molecules and the separated atoms all in the gaseous state. In the reaction, one H–H bond and one Cl–Cl bond are broken, which requires energy. Two H–Cl bonds are made, which releases energy. The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the H–H and Cl–Cl bonds, so the reaction is exothermic and ΔH is negative.",
-    "prompt": "Define bond enthalpy, and explain, in terms of the bonds broken and formed, why the reaction H₂(g) + Cl₂(g) → 2HCl(g) is exothermic.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Energy cannot be created or destroyed; it can only be changed from one form to another or transferred. When a reaction gives out heat, chemical energy stored in the bonds of the reactants is changed into heat. The heat lost by the system (the reacting chemicals) is gained by the surroundings (the solvent, container, air and thermometer), so the total energy stays the same.",
-    "prompt": "State the law of conservation of energy and explain how it applies when a reaction gives out heat.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Boiling water is endothermic because energy is needed to overcome the forces between the water molecules, the hydrogen bonds. Boiling changes H₂O(l) to H₂O(g), with ΔH = +40.7 kJ mol⁻¹ at 100 °C. The O–H covalent bonds within each molecule are not broken; only the intermolecular forces between molecules are overcome, so the water molecules themselves stay intact.",
-    "prompt": "Explain why boiling water is endothermic, and why it does not involve breaking O–H bonds.",
-    "type": "short"
-   }
-  ]
- },
- "chem21-s2": {
-  "keyTerms": [
-   {
-    "definition": "A reaction that gives out heat to the surroundings, with a negative ΔH.",
-    "term": "Exothermic reaction"
-   },
-   {
-    "definition": "A reaction that takes in heat from the surroundings, with a positive ΔH.",
-    "term": "Endothermic reaction"
-   },
-   {
-    "definition": "A balanced equation that includes state symbols and the ΔH value for the reaction as written.",
-    "term": "Thermochemical equation"
-   },
-   {
-    "definition": "A diagram with enthalpy on the vertical axis showing the reactant and product levels and the ΔH between them.",
-    "term": "Enthalpy level diagram"
-   },
-   {
-    "definition": "The breakdown of a compound by heating, which is endothermic and needs a continuous supply of heat.",
-    "term": "Thermal decomposition"
-   },
-   {
-    "definition": "The reaction of a substance with oxygen, giving out heat and usually light.",
-    "term": "Combustion"
-   },
-   {
-    "definition": "The reaction of an acid with a base, which is exothermic and forms water.",
-    "term": "Neutralisation"
-   },
-   {
-    "definition": "The release of energy from glucose in cells, which is exothermic.",
-    "term": "Respiration"
-   },
-   {
-    "definition": "The endothermic process in which plants use energy from sunlight to make glucose from carbon dioxide and water.",
-    "term": "Photosynthesis"
-   }
-  ],
-  "notes": [
    {
     "h": "Definitions and evidence",
     "points": [
@@ -7587,6 +7253,24 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Bond enthalpy is the energy needed to break one mole of a particular covalent bond, with the molecules and the separated atoms all in the gaseous state. In the reaction, one H–H bond and one Cl–Cl bond are broken, which requires energy. Two H–Cl bonds are made, which releases energy. The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the H–H and Cl–Cl bonds, so the reaction is exothermic and ΔH is negative.",
+    "prompt": "Define bond enthalpy, and explain, in terms of the bonds broken and formed, why the reaction H₂(g) + Cl₂(g) → 2HCl(g) is exothermic.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Energy cannot be created or destroyed; it can only be changed from one form to another or transferred. When a reaction gives out heat, chemical energy stored in the bonds of the reactants is changed into heat. The heat lost by the system (the reacting chemicals) is gained by the surroundings (the solvent, container, air and thermometer), so the total energy stays the same.",
+    "prompt": "State the law of conservation of energy and explain how it applies when a reaction gives out heat.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Boiling water is endothermic because energy is needed to overcome the forces between the water molecules, the hydrogen bonds. Boiling changes H₂O(l) to H₂O(g), with ΔH = +40.7 kJ mol⁻¹ at 100 °C. The O–H covalent bonds within each molecule are not broken; only the intermolecular forces between molecules are overcome, so the water molecules themselves stay intact.",
+    "prompt": "Explain why boiling water is endothermic, and why it does not involve breaking O–H bonds.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "An exothermic reaction gives out heat to the surroundings, so ΔH is negative and the products have less enthalpy than the reactants. An endothermic reaction takes in heat from the surroundings, so ΔH is positive and the products have more enthalpy than the reactants. Combustion of methane is exothermic: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, and all combustion reactions are exothermic. Thermal decomposition of calcium carbonate is endothermic: CaCO₃ → CaO + CO₂, ΔH = +178 kJ mol⁻¹, because heat must be supplied continuously to break it down. Photosynthesis is endothermic: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, ΔH ≈ +2800 kJ mol⁻¹, because energy is absorbed from sunlight. Rusting of iron is exothermic: 4Fe + 3O₂ → 2Fe₂O₃, ΔH = −1648 kJ, because heat is released as the iron is oxidised, though very slowly.",
     "prompt": "Distinguish between exothermic and endothermic reactions and classify each of the following, giving a reason: combustion of methane; thermal decomposition of calcium carbonate; photosynthesis; rusting of iron.",
@@ -7606,7 +7290,7 @@
    }
   ]
  },
- "chem21-s3": {
+ "chem21-s2": {
   "keyTerms": [
    {
     "definition": "The heat change when one mole of water is formed in the reaction between an acid and a base.",
@@ -7635,6 +7319,34 @@
    {
     "definition": "Extending a line on a graph beyond the plotted points to estimate a value, such as the temperature at the time of mixing.",
     "term": "Extrapolation"
+   },
+   {
+    "definition": "A temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa), used to quote enthalpy changes for comparison.",
+    "term": "Standard conditions"
+   },
+   {
+    "definition": "The normal physical state of a substance under standard conditions, such as water as a liquid.",
+    "term": "Standard state"
+   },
+   {
+    "definition": "An enthalpy change measured under standard conditions, with solutions at 1 mol L⁻¹.",
+    "term": "Standard enthalpy change (ΔH°)"
+   },
+   {
+    "definition": "The reactant that is used up first and so determines the amount of product and heat.",
+    "term": "Limiting reactant"
+   },
+   {
+    "definition": "The minimum energy needed for a reaction to happen, shown as the height of the hump on an energy profile.",
+    "term": "Activation energy"
+   },
+   {
+    "definition": "A graph of energy against progress of reaction showing the reactants, the activation energy, the products and ΔH.",
+    "term": "Energy profile diagram"
+   },
+   {
+    "definition": "The route of the reaction from reactants to products, shown on the horizontal axis of an energy profile.",
+    "term": "Reaction pathway"
    }
   ],
   "notes": [
@@ -7718,65 +7430,7 @@
      "Assumption error: the solution's density and specific heat capacity are taken as those of water.",
      "Improvements: use the temperature–time graph, a lid, two nested cups, a more precise thermometer or temperature sensor, and burettes or pipettes for volumes."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, and 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker. Let both solutions reach room temperature, measure each temperature to 0.1 °C, and use the average as the initial temperature. Add the sodium hydroxide to the acid quickly and all at once, put on the lid and stir gently, then record the highest temperature reached. Repeat and use the mean temperature rise. Polystyrene foam is used because it is a good insulator with a very low heat capacity, so little heat is lost or absorbed by the cup. The lid reduces heat loss by convection and evaporation. Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum is recorded before heat is lost. Moderately concentrated solutions are used so that the temperature rise is large enough, about 7 °C, to be measured accurately.",
-    "prompt": "Describe how you would measure the heat of neutralisation of hydrochloric acid by sodium hydroxide, explaining the reasons for the container used and the precautions taken to obtain an accurate maximum temperature.",
-    "type": "short"
    },
-   {
-    "marks": 12,
-    "model": "(i) Moles of HCl = 1.0 mol L⁻¹ × 0.080 L = 0.0800 mol. (ii) Mass of solution = 160 cm³ × 1.0 g cm⁻³ = 160 g = 0.160 kg. Heat produced Q = 0.160 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.7 K = 4.48 kJ. (iii) Moles of water formed = moles of HCl = 0.0800 mol, so heat per mole = 4.48 kJ ÷ 0.0800 mol = 56.0 kJ mol⁻¹. The reaction gives out heat, so ΔH = −56.0 kJ mol⁻¹.",
-    "prompt": "80 cm³ of 1.0 M hydrochloric acid was added to 80 cm³ of 1.0 M sodium hydroxide. The temperature rose by 6.7 °C. Taking the density of the solution as 1.0 g cm⁻³ and its specific heat capacity as 4.18 kJ kg⁻¹ K⁻¹, calculate (i) the moles of HCl, (ii) the heat produced, (iii) ΔH (sample data).",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "For all strong acids with strong bases, the acids and bases are fully dissociated and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators, so ΔH is about −57 kJ mol⁻¹ in every case. If the volumes of both solutions are doubled, twice the moles of acid and base react, so twice the heat is produced. However, twice the mass of solution is heated by that heat, so the temperature rise is the same.",
-    "prompt": "Explain why the heat of neutralisation is almost the same for all strong acids with strong bases, and why the same temperature rise is obtained if the volumes of both solutions are doubled.",
-    "type": "short"
-   }
-  ]
- },
- "chem21-s4": {
-  "keyTerms": [
-   {
-    "definition": "A temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa), used to quote enthalpy changes for comparison.",
-    "term": "Standard conditions"
-   },
-   {
-    "definition": "The normal physical state of a substance under standard conditions, such as water as a liquid.",
-    "term": "Standard state"
-   },
-   {
-    "definition": "An enthalpy change measured under standard conditions, with solutions at 1 mol L⁻¹.",
-    "term": "Standard enthalpy change (ΔH°)"
-   },
-   {
-    "definition": "The heat needed to raise the temperature of 1 kg of a substance by 1 K.",
-    "term": "Specific heat capacity"
-   },
-   {
-    "definition": "The reactant that is used up first and so determines the amount of product and heat.",
-    "term": "Limiting reactant"
-   },
-   {
-    "definition": "The minimum energy needed for a reaction to happen, shown as the height of the hump on an energy profile.",
-    "term": "Activation energy"
-   },
-   {
-    "definition": "A graph of energy against progress of reaction showing the reactants, the activation energy, the products and ΔH.",
-    "term": "Energy profile diagram"
-   },
-   {
-    "definition": "The route of the reaction from reactants to products, shown on the horizontal axis of an energy profile.",
-    "term": "Reaction pathway"
-   }
-  ],
-  "notes": [
    {
     "h": "Standard conditions",
     "points": [
@@ -7839,6 +7493,24 @@
   ],
   "questions": [
    {
+    "marks": 12,
+    "model": "Measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, and 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker. Let both solutions reach room temperature, measure each temperature to 0.1 °C, and use the average as the initial temperature. Add the sodium hydroxide to the acid quickly and all at once, put on the lid and stir gently, then record the highest temperature reached. Repeat and use the mean temperature rise. Polystyrene foam is used because it is a good insulator with a very low heat capacity, so little heat is lost or absorbed by the cup. The lid reduces heat loss by convection and evaporation. Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum is recorded before heat is lost. Moderately concentrated solutions are used so that the temperature rise is large enough, about 7 °C, to be measured accurately.",
+    "prompt": "Describe how you would measure the heat of neutralisation of hydrochloric acid by sodium hydroxide, explaining the reasons for the container used and the precautions taken to obtain an accurate maximum temperature.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(i) Moles of HCl = 1.0 mol L⁻¹ × 0.080 L = 0.0800 mol. (ii) Mass of solution = 160 cm³ × 1.0 g cm⁻³ = 160 g = 0.160 kg. Heat produced Q = 0.160 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.7 K = 4.48 kJ. (iii) Moles of water formed = moles of HCl = 0.0800 mol, so heat per mole = 4.48 kJ ÷ 0.0800 mol = 56.0 kJ mol⁻¹. The reaction gives out heat, so ΔH = −56.0 kJ mol⁻¹.",
+    "prompt": "80 cm³ of 1.0 M hydrochloric acid was added to 80 cm³ of 1.0 M sodium hydroxide. The temperature rose by 6.7 °C. Taking the density of the solution as 1.0 g cm⁻³ and its specific heat capacity as 4.18 kJ kg⁻¹ K⁻¹, calculate (i) the moles of HCl, (ii) the heat produced, (iii) ΔH (sample data).",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "For all strong acids with strong bases, the acids and bases are fully dissociated and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators, so ΔH is about −57 kJ mol⁻¹ in every case. If the volumes of both solutions are doubled, twice the moles of acid and base react, so twice the heat is produced. However, twice the mass of solution is heated by that heat, so the temperature rise is the same.",
+    "prompt": "Explain why the heat of neutralisation is almost the same for all strong acids with strong bases, and why the same temperature rise is obtained if the volumes of both solutions are doubled.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "Mass of solution = 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg. Heat produced Q = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 4.8 K = 2.01 kJ. Moles of CuSO₄ = 0.100 mol L⁻¹ × 0.100 L = 0.0100 mol, and zinc is in excess, so CuSO₄ is the limiting reactant. Heat per mole = 2.01 kJ ÷ 0.0100 mol = 201 kJ mol⁻¹. The temperature rose, so ΔH = −201 kJ mol⁻¹.",
     "prompt": "Excess zinc was added to 100 cm³ of 0.100 M copper(II) sulfate solution and the temperature rose by 4.8 °C. Calculate ΔH for Zn + CuSO₄ → ZnSO₄ + Cu, taking the specific heat capacity of the solution as 4.18 kJ kg⁻¹ K⁻¹ and its density as 1.00 g cm⁻³ (sample data).",
@@ -7858,7 +7530,7 @@
    }
   ]
  },
- "chem21-s5": {
+ "chem21-s3": {
   "keyTerms": [
    {
     "definition": "The mean of the bond enthalpies of a particular bond type taken over many different compounds.",
@@ -7991,7 +7663,7 @@
    }
   ]
  },
- "chem21-s6": {
+ "chem21-s4": {
   "keyTerms": [
    {
     "definition": "If a reaction takes place in stages, the total enthalpy change is the same as for the reaction in one stage, so ΔH depends only on the initial and final states.",
@@ -8135,7 +7807,7 @@
    }
   ]
  },
- "chem21-s7": {
+ "chem21-s5": {
   "keyTerms": [
    {
     "definition": "The reaction of a substance with oxygen, giving out heat and usually light.",
@@ -8172,6 +7844,42 @@
    {
     "definition": "A hydrocarbon containing one C≡C triple bond.",
     "term": "Alkyne"
+   },
+   {
+    "definition": "The enthalpy change when one mole of a substance is completely burned in excess oxygen.",
+    "term": "Heat of combustion"
+   },
+   {
+    "definition": "A small burner that holds liquid alcohol in a container with a wick, used to heat water in a heat-of-combustion experiment.",
+    "term": "Spirit burner"
+   },
+   {
+    "definition": "A container, such as a copper can, that holds water so that the heat released by burning can be measured.",
+    "term": "Calorimeter"
+   },
+   {
+    "definition": "A screen placed around the burner and can to reduce heat lost by air currents.",
+    "term": "Draught shield"
+   },
+   {
+    "definition": "The factor that the experimenter deliberately changes, here the alcohol.",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The factor that is measured in response to the change, here the heat released per mole.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "A factor that is kept the same so that it does not affect the results.",
+    "term": "Controlled variable"
+   },
+   {
+    "definition": "The difference between the standard and experimental values, divided by the standard value and multiplied by 100.",
+    "term": "Percentage error"
+   },
+   {
+    "definition": "Describes a liquid that evaporates easily at room temperature.",
+    "term": "Volatile"
    }
   ],
   "notes": [
@@ -8262,69 +7970,7 @@
      "The alkene has two fewer hydrogen atoms than the alkane, and the alkyne four fewer, so fewer water molecules (fewer O–H bonds) are formed and less energy is released.",
      "The main reason is the fewer O–H bonds formed, not the C=C bond being harder to break."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l), or 2C₃H₆(g) + 9O₂(g) → 6CO₂(g) + 6H₂O(l). (ii) Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l). (iii) Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l). Each equation was balanced by balancing carbon, then hydrogen, then oxygen last, counting the O atom in the alcohol.",
-    "prompt": "Write balanced equations for the complete combustion of (i) propene, (ii) propan-1-ol, (iii) hexan-1-ol.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Each extra CH₂ group makes ΔHc more negative by an almost constant amount, about 640–655 kJ mol⁻¹. The extra CH₂ adds one C–C and two C–H bonds to break, and one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds) form. More energy is released by the new bonds formed than is needed to break the extra bonds, so the value becomes more negative. Ethanol to propan-1-ol changes by −2021 − (−1367) = −654 kJ mol⁻¹. Predicted ΔHc of butan-1-ol = −2021 − 654 ≈ −2675 kJ mol⁻¹; the data value is −2676 kJ mol⁻¹.",
-    "prompt": "The standard heats of combustion of methanol, ethanol and propan-1-ol are −726, −1367 and −2021 kJ mol⁻¹. Explain the trend and use it to predict the heat of combustion of butan-1-ol.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Ethanol is already partly oxidised, because its molecule contains a C–O–H group. It therefore needs less oxygen (3 mol O₂, against 3½ mol for ethane) and less energy is released on complete oxidation, although both form 2 mol CO₂ and 3 mol H₂O. Ethene has two fewer hydrogen atoms than ethane, so fewer water molecules, and fewer O–H bonds, are formed on combustion. Less energy is released, so its heat of combustion is less negative than that of ethane.",
-    "prompt": "Explain why the heat of combustion of ethanol (−1367 kJ mol⁻¹) is less negative than that of ethane (−1560 kJ mol⁻¹), and why that of ethene (−1411 kJ mol⁻¹) is less negative than that of ethane.",
-    "type": "short"
-   }
-  ]
- },
- "chem21-s8": {
-  "keyTerms": [
-   {
-    "definition": "The enthalpy change when one mole of a substance is completely burned in excess oxygen.",
-    "term": "Heat of combustion"
-   },
-   {
-    "definition": "A small burner that holds liquid alcohol in a container with a wick, used to heat water in a heat-of-combustion experiment.",
-    "term": "Spirit burner"
-   },
-   {
-    "definition": "A container, such as a copper can, that holds water so that the heat released by burning can be measured.",
-    "term": "Calorimeter"
-   },
-   {
-    "definition": "A screen placed around the burner and can to reduce heat lost by air currents.",
-    "term": "Draught shield"
-   },
-   {
-    "definition": "The factor that the experimenter deliberately changes, here the alcohol.",
-    "term": "Independent variable"
-   },
-   {
-    "definition": "The factor that is measured in response to the change, here the heat released per mole.",
-    "term": "Dependent variable"
-   },
-   {
-    "definition": "A factor that is kept the same so that it does not affect the results.",
-    "term": "Controlled variable"
-   },
-   {
-    "definition": "The difference between the standard and experimental values, divided by the standard value and multiplied by 100.",
-    "term": "Percentage error"
-   },
-   {
-    "definition": "Describes a liquid that evaporates easily at room temperature.",
-    "term": "Volatile"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim and chemistry",
     "points": [
@@ -8408,6 +8054,24 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "(i) Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l), or 2C₃H₆(g) + 9O₂(g) → 6CO₂(g) + 6H₂O(l). (ii) Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l). (iii) Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l). Each equation was balanced by balancing carbon, then hydrogen, then oxygen last, counting the O atom in the alcohol.",
+    "prompt": "Write balanced equations for the complete combustion of (i) propene, (ii) propan-1-ol, (iii) hexan-1-ol.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Each extra CH₂ group makes ΔHc more negative by an almost constant amount, about 640–655 kJ mol⁻¹. The extra CH₂ adds one C–C and two C–H bonds to break, and one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds) form. More energy is released by the new bonds formed than is needed to break the extra bonds, so the value becomes more negative. Ethanol to propan-1-ol changes by −2021 − (−1367) = −654 kJ mol⁻¹. Predicted ΔHc of butan-1-ol = −2021 − 654 ≈ −2675 kJ mol⁻¹; the data value is −2676 kJ mol⁻¹.",
+    "prompt": "The standard heats of combustion of methanol, ethanol and propan-1-ol are −726, −1367 and −2021 kJ mol⁻¹. Explain the trend and use it to predict the heat of combustion of butan-1-ol.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ethanol is already partly oxidised, because its molecule contains a C–O–H group. It therefore needs less oxygen (3 mol O₂, against 3½ mol for ethane) and less energy is released on complete oxidation, although both form 2 mol CO₂ and 3 mol H₂O. Ethene has two fewer hydrogen atoms than ethane, so fewer water molecules, and fewer O–H bonds, are formed on combustion. Less energy is released, so its heat of combustion is less negative than that of ethane.",
+    "prompt": "Explain why the heat of combustion of ethanol (−1367 kJ mol⁻¹) is less negative than that of ethane (−1560 kJ mol⁻¹), and why that of ethene (−1411 kJ mol⁻¹) is less negative than that of ethane.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Measure 100 cm³ (100 g) of water into a copper can and clamp the can about 2–3 cm above the wick of the spirit burner, inside a draught shield. Weigh the burner containing the ethanol, with its cap on, to 0.01 g. Record the initial temperature of the water. Light the burner, stir the water gently, and when the temperature has risen by about 20 °C, put out the flame by replacing the cap and record the highest temperature. Reweigh the burner with its cap at once, and repeat with fresh water. Heat losses are reduced by the copper can, which conducts heat well into the water, by the draught shield, which reduces heat lost by air currents, and by capping the burner and weighing it immediately, which stops ethanol evaporating from the wick. To calculate the result, use Q = m × c × ΔT with m = 0.100 kg, c = 4.18 kJ kg⁻¹ K⁻¹ and ΔT = 20.0 K. Find the moles of ethanol burned from the mass lost and M = 46 g mol⁻¹. Then ΔHc = −Q ÷ moles of ethanol burned.",
     "prompt": "Describe how you would estimate the heat of combustion of ethanol using a spirit burner, including how you would reduce heat losses and how you would calculate the result.",
@@ -8460,6 +8124,58 @@
    {
     "definition": "A rechargeable galvanic cell whose redox reaction is reversed by an external electrical supply.",
     "term": "Secondary cell"
+   },
+   {
+    "definition": "An electrode dipping into a solution of its own ions, forming one half of a galvanic cell.",
+    "term": "Half-cell"
+   },
+   {
+    "definition": "A strip of filter paper or a U-tube of salt solution that joins two half-cells, letting ions flow to complete the circuit without the solutions mixing.",
+    "term": "Salt bridge"
+   },
+   {
+    "definition": "A galvanic cell with a zinc electrode in zinc sulfate and a copper electrode in copper(II) sulfate, giving about 1.1 V.",
+    "term": "Copper–zinc (Daniell) cell"
+   },
+   {
+    "definition": "A reaction in which a more reactive metal takes the place of a less reactive metal in its compound, as zinc does with copper(II) ions.",
+    "term": "Displacement reaction"
+   },
+   {
+    "definition": "The first battery, built by Volta in 1800 from stacked zinc and copper discs separated by cloth soaked in salt water.",
+    "term": "Voltaic pile"
+   },
+   {
+    "definition": "A thin coating of oxide on a metal strip that must be removed by sanding, as it would otherwise lower the voltage of a cell.",
+    "term": "Oxide layer"
+   },
+   {
+    "definition": "The use of electricity to bring about a redox reaction that would not happen on its own.",
+    "term": "Electrolysis"
+   },
+   {
+    "definition": "A cell in which an external d.c. supply drives non-spontaneous redox reactions at two electrodes dipping into an electrolyte.",
+    "term": "Electrolytic cell"
+   },
+   {
+    "definition": "An electrode, such as platinum or graphite, that conducts electricity but does not take part in the reaction.",
+    "term": "Inert electrode"
+   },
+   {
+    "definition": "An electric current that flows in one direction only, supplied by a battery or power pack in electrolysis.",
+    "term": "Direct current (d.c.)"
+   },
+   {
+    "definition": "A positive ion, which moves to the negative electrode, the cathode, during electrolysis.",
+    "term": "Cation"
+   },
+   {
+    "definition": "A negative ion, which moves to the positive electrode, the anode, during electrolysis.",
+    "term": "Anion"
+   },
+   {
+    "definition": "Apparatus with two platinum electrodes used to collect the gases from the electrolysis of acidified water.",
+    "term": "Hofmann voltameter"
    }
   ],
   "notes": [
@@ -8472,7 +8188,7 @@
      "An electrode is a solid electrical conductor, a metal or graphite, through which electrons enter or leave the cell.",
      "Anode: the electrode at which oxidation (loss of electrons) happens. In a galvanic cell it is the negative terminal and the source of the electrons that flow out into the external circuit.",
      "Cathode: the electrode at which reduction (gain of electrons) happens. In a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted.",
-     "Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis, see \"The electrolytic cell\".",
+     "Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis (see below).",
      "Electrolyte: a substance that conducts electricity by the movement of ions, as a solution, a molten compound, a paste or a gel.",
      "The electrolyte carries ions between the electrodes, completing the circuit inside the cell.",
      "Electrons cannot pass through the electrolyte, so they travel through the external circuit from anode to cathode, while inside the cell the charge is carried by ions."
@@ -8514,67 +8230,13 @@
      "Rechargeable: a primary cell cannot be; a secondary cell can.",
      "Reaction: in a primary cell it is not readily reversible; in a secondary cell it is reversed by an external current.",
      "Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.",
-     "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy (see \"Electrochemistry and sustainability\").",
+     "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy (see \"Fuel cells and sustainability\").",
      "Storage: primary cells keep their charge for years on the shelf (low self-discharge), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.",
      "Uses: primary cells suit low-drain or occasional devices; secondary cells suit high-drain devices used daily, such as phones, laptops, power tools, electric vehicles and car starter batteries.",
      "Similarities: both are galvanic cells when supplying electricity, and both have an anode (oxidation), a cathode (reduction) and an electrolyte.",
      "Both should be returned for recycling rather than put in household waste, because they contain metals that can pollute soil and water."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "A primary cell is a galvanic cell that cannot be recharged: its redox reaction is not readily reversible, so it is discarded when the reactants are used up. A secondary cell is a rechargeable galvanic cell: an external electrical supply reverses its redox reaction, regenerating the reactants, so it can be used many times. Example of a primary cell: the zinc–carbon cell (1.5 V), the alkaline cell (1.5 V) or the lithium coin cell (about 3 V), used in watches, calculators and car keys. Example of a secondary cell: the lead–acid cell (2 V), the nickel–metal hydride cell (1.2 V) or the lithium-ion cell (about 3.6–3.7 V), used in phones, laptops and electric vehicles. Advantage of a primary cell: it keeps its charge for years on the shelf, so it suits emergency and low-drain devices. Advantage of a secondary cell: it is cheaper per use over its life and reduces waste and the mining of raw materials, so it is more sustainable.",
-    "prompt": "Distinguish between a primary cell and a secondary cell, giving one example of each, and state one advantage of each type.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) The anode is the electrode at which oxidation happens, losing electrons; in a galvanic cell it is the negative terminal and the source of electrons for the external circuit. (ii) The cathode is the electrode at which reduction happens, gaining electrons; in a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted. (iii) The electrolyte is a substance, a solution, molten compound, paste or gel, that conducts electricity by the movement of ions; it carries ions between the electrodes, completing the circuit inside the cell. The electrons must travel through the external circuit because the electrolyte does not let electrons through: the electrons are released at the anode and must reach the cathode by a wire, while the charge inside the cell is carried by ions.",
-    "prompt": "State the function of (i) the anode, (ii) the cathode, (iii) the electrolyte in a cell, and explain why the electrons must travel through the external circuit.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "When a secondary cell is recharged, an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants. The cell then works as an electrolytic cell, converting electrical energy into chemical energy, and the electrode that was the anode on discharge becomes the cathode, and vice versa. It eventually wears out because recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge the cell can hold. This happens over many cycles, typically hundreds to thousands.",
-    "prompt": "Explain what happens to a secondary cell when it is recharged, and why it eventually wears out.",
-    "type": "short"
-   }
-  ]
- },
- "chem22-s2": {
-  "keyTerms": [
-   {
-    "definition": "A cell in which a spontaneous redox reaction, split into two half-cells, drives electrons through an external circuit.",
-    "term": "Galvanic cell"
-   },
-   {
-    "definition": "An electrode dipping into a solution of its own ions, forming one half of a galvanic cell.",
-    "term": "Half-cell"
-   },
-   {
-    "definition": "A strip of filter paper or a U-tube of salt solution that joins two half-cells, letting ions flow to complete the circuit without the solutions mixing.",
-    "term": "Salt bridge"
-   },
-   {
-    "definition": "A galvanic cell with a zinc electrode in zinc sulfate and a copper electrode in copper(II) sulfate, giving about 1.1 V.",
-    "term": "Copper–zinc (Daniell) cell"
-   },
-   {
-    "definition": "A reaction in which a more reactive metal takes the place of a less reactive metal in its compound, as zinc does with copper(II) ions.",
-    "term": "Displacement reaction"
-   },
-   {
-    "definition": "The first battery, built by Volta in 1800 from stacked zinc and copper discs separated by cloth soaked in salt water.",
-    "term": "Voltaic pile"
-   },
-   {
-    "definition": "A thin coating of oxide on a metal strip that must be removed by sanding, as it would otherwise lower the voltage of a cell.",
-    "term": "Oxide layer"
-   }
-  ],
-  "notes": [
    {
     "h": "Origins of the galvanic cell",
     "points": [
@@ -8593,7 +8255,7 @@
      "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
      "This flow of electrons is an electric current.",
      "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.",
-     "The metal higher in the electrochemical series (see \"The electrochemical series and displacement\"), the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive).",
+     "The metal higher in the electrochemical series (see \"Balancing redox equations and the electrochemical series\"), the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive).",
      "The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.",
      "Under standard conditions (1 M solutions, 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V."
     ]
@@ -8648,61 +8310,7 @@
      "Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.",
      "Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Clean a zinc strip and a copper strip with sandpaper to remove the oxide layer. Half-fill one beaker with 1 M zinc sulfate solution and place the zinc strip in it; half-fill a second beaker with 1 M copper(II) sulfate solution and place the copper strip in it. Soak a strip of filter paper in potassium nitrate solution to make a salt bridge, and drape it between the two beakers with each end in a solution. Connect the zinc and copper strips to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage, about 1.1 V. Zinc is oxidised at the anode, which is the negative electrode: Zn(s) → Zn²⁺(aq) + 2e⁻. Copper(II) ions are reduced at the cathode, which is the positive electrode: Cu²⁺(aq) + 2e⁻ → Cu(s). Electrons flow through the external wire from the zinc electrode to the copper electrode. Inside the cell, ions move through the salt bridge to complete the circuit.",
-    "prompt": "Describe how you would make a simple copper–zinc galvanic cell. Write the half-equation at each electrode, identify the anode and the cathode, and show the direction of electron flow.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "First, it completes the circuit: ions move through the salt bridge, carrying charge between the two half-cells. Second, it keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions move into it from the bridge, and as Cu²⁺ ions are removed from the copper half-cell, positive ions move into it from the bridge. A suitable substance is potassium nitrate solution soaked into a strip of filter paper, because its ions do not react with the electrode solutions.",
-    "prompt": "State two functions of the salt bridge in a galvanic cell and name a suitable substance for it.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "When zinc is placed directly in copper(II) sulfate solution, zinc atoms transfer electrons straight to Cu²⁺ ions in the same beaker: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The electrons never pass through an external wire, so there is no current; the energy is released as heat and the blue colour fades. In a galvanic cell the two half-reactions are separated into two half-cells, so the electrons lost by zinc must travel through an external wire to reach the Cu²⁺ ions at the copper electrode. This flow of electrons is an electric current.",
-    "prompt": "Explain why no current is produced when a zinc strip is placed directly in copper(II) sulfate solution, but a current flows when the two half-reactions are separated.",
-    "type": "short"
-   }
-  ]
- },
- "chem22-s3": {
-  "keyTerms": [
-   {
-    "definition": "The use of electricity to bring about a redox reaction that would not happen on its own.",
-    "term": "Electrolysis"
-   },
-   {
-    "definition": "A cell in which an external d.c. supply drives non-spontaneous redox reactions at two electrodes dipping into an electrolyte.",
-    "term": "Electrolytic cell"
-   },
-   {
-    "definition": "An electrode, such as platinum or graphite, that conducts electricity but does not take part in the reaction.",
-    "term": "Inert electrode"
-   },
-   {
-    "definition": "An electric current that flows in one direction only, supplied by a battery or power pack in electrolysis.",
-    "term": "Direct current (d.c.)"
-   },
-   {
-    "definition": "A positive ion, which moves to the negative electrode, the cathode, during electrolysis.",
-    "term": "Cation"
-   },
-   {
-    "definition": "A negative ion, which moves to the positive electrode, the anode, during electrolysis.",
-    "term": "Anion"
-   },
-   {
-    "definition": "Apparatus with two platinum electrodes used to collect the gases from the electrolysis of acidified water.",
-    "term": "Hofmann voltameter"
-   }
-  ],
-  "notes": [
    {
     "b": "Electrolysis is the use of electricity to bring about a chemical reaction, a redox reaction, that would not happen on its own. It is carried out in an electrolytic cell.",
     "h": "How an electrolytic cell works",
@@ -8788,6 +8396,42 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "A primary cell is a galvanic cell that cannot be recharged: its redox reaction is not readily reversible, so it is discarded when the reactants are used up. A secondary cell is a rechargeable galvanic cell: an external electrical supply reverses its redox reaction, regenerating the reactants, so it can be used many times. Example of a primary cell: the zinc–carbon cell (1.5 V), the alkaline cell (1.5 V) or the lithium coin cell (about 3 V), used in watches, calculators and car keys. Example of a secondary cell: the lead–acid cell (2 V), the nickel–metal hydride cell (1.2 V) or the lithium-ion cell (about 3.6–3.7 V), used in phones, laptops and electric vehicles. Advantage of a primary cell: it keeps its charge for years on the shelf, so it suits emergency and low-drain devices. Advantage of a secondary cell: it is cheaper per use over its life and reduces waste and the mining of raw materials, so it is more sustainable.",
+    "prompt": "Distinguish between a primary cell and a secondary cell, giving one example of each, and state one advantage of each type.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) The anode is the electrode at which oxidation happens, losing electrons; in a galvanic cell it is the negative terminal and the source of electrons for the external circuit. (ii) The cathode is the electrode at which reduction happens, gaining electrons; in a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted. (iii) The electrolyte is a substance, a solution, molten compound, paste or gel, that conducts electricity by the movement of ions; it carries ions between the electrodes, completing the circuit inside the cell. The electrons must travel through the external circuit because the electrolyte does not let electrons through: the electrons are released at the anode and must reach the cathode by a wire, while the charge inside the cell is carried by ions.",
+    "prompt": "State the function of (i) the anode, (ii) the cathode, (iii) the electrolyte in a cell, and explain why the electrons must travel through the external circuit.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "When a secondary cell is recharged, an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants. The cell then works as an electrolytic cell, converting electrical energy into chemical energy, and the electrode that was the anode on discharge becomes the cathode, and vice versa. It eventually wears out because recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge the cell can hold. This happens over many cycles, typically hundreds to thousands.",
+    "prompt": "Explain what happens to a secondary cell when it is recharged, and why it eventually wears out.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Clean a zinc strip and a copper strip with sandpaper to remove the oxide layer. Half-fill one beaker with 1 M zinc sulfate solution and place the zinc strip in it; half-fill a second beaker with 1 M copper(II) sulfate solution and place the copper strip in it. Soak a strip of filter paper in potassium nitrate solution to make a salt bridge, and drape it between the two beakers with each end in a solution. Connect the zinc and copper strips to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage, about 1.1 V. Zinc is oxidised at the anode, which is the negative electrode: Zn(s) → Zn²⁺(aq) + 2e⁻. Copper(II) ions are reduced at the cathode, which is the positive electrode: Cu²⁺(aq) + 2e⁻ → Cu(s). Electrons flow through the external wire from the zinc electrode to the copper electrode. Inside the cell, ions move through the salt bridge to complete the circuit.",
+    "prompt": "Describe how you would make a simple copper–zinc galvanic cell. Write the half-equation at each electrode, identify the anode and the cathode, and show the direction of electron flow.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, it completes the circuit: ions move through the salt bridge, carrying charge between the two half-cells. Second, it keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions move into it from the bridge, and as Cu²⁺ ions are removed from the copper half-cell, positive ions move into it from the bridge. A suitable substance is potassium nitrate solution soaked into a strip of filter paper, because its ions do not react with the electrode solutions.",
+    "prompt": "State two functions of the salt bridge in a galvanic cell and name a suitable substance for it.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "When zinc is placed directly in copper(II) sulfate solution, zinc atoms transfer electrons straight to Cu²⁺ ions in the same beaker: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The electrons never pass through an external wire, so there is no current; the energy is released as heat and the blue colour fades. In a galvanic cell the two half-reactions are separated into two half-cells, so the electrons lost by zinc must travel through an external wire to reach the Cu²⁺ ions at the copper electrode. This flow of electrons is an electric current.",
+    "prompt": "Explain why no current is produced when a zinc strip is placed directly in copper(II) sulfate solution, but a current flows when the two half-reactions are separated.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Add a little dilute sulfuric acid to water, because pure water conducts electricity very poorly; the acid provides ions. Use platinum (or carbon) electrodes in a Hofmann voltameter, connected to a 6–12 V d.c. supply. Gas forms at both electrodes. At the negative electrode (cathode) the gas is hydrogen: a lighted splint burns with a squeaky pop. At the positive electrode (anode) the gas is oxygen: a glowing splint relights. The volume of hydrogen is twice the volume of oxygen, a 2 : 1 ratio, which matches the formula H₂O, because the same 4 electrons produce 2 H₂ and 1 O₂. Half-equations: at the cathode, 4H⁺(aq) + 4e⁻ → 2H₂(g); at the anode, 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻. Overall: 2H₂O(l) → 2H₂(g) + O₂(g). The sulfuric acid is not used up, because the H⁺ used at the cathode is replaced at the anode.",
     "prompt": "Describe how you would split water by electrolysis, naming the electrolyte and electrodes used. Identify the products at each electrode, give a test for each, and explain the ratio of their volumes. Write the half-equations at each electrode (Higher Level).",
@@ -8807,7 +8451,7 @@
    }
   ]
  },
- "chem22-s4": {
+ "chem22-s2": {
   "keyTerms": [
    {
     "definition": "A cell that converts chemical energy into electrical energy from reactants sealed inside it, and stops when they are used up.",
@@ -8832,6 +8476,66 @@
    {
     "definition": "A cell in which a spontaneous redox reaction drives electrons through an external circuit.",
     "term": "Galvanic cell"
+   },
+   {
+    "definition": "A thin sheet of solid polymer that lets H⁺ ions pass between the electrodes of a fuel cell while keeping the gases apart and blocking electrons.",
+    "term": "Proton exchange membrane (PEM)"
+   },
+   {
+    "definition": "Platinum on the porous carbon electrodes of a fuel cell, which speeds up the electrode reactions.",
+    "term": "Platinum catalyst"
+   },
+   {
+    "definition": "A hydrogen ion, H⁺, formed when hydrogen is oxidised at the anode of a fuel cell.",
+    "term": "Proton"
+   },
+   {
+    "definition": "Many fuel cells connected in series so that their voltages add up to a usable value.",
+    "term": "Stack"
+   },
+   {
+    "definition": "A number assigned to an atom that changes when it is oxidised (rises) or reduced (falls).",
+    "term": "Oxidation number"
+   },
+   {
+    "definition": "A fuel cell whose electrolyte is potassium hydroxide solution, in which OH⁻ ions carry the charge.",
+    "term": "Alkaline fuel cell"
+   },
+   {
+    "definition": "Describes a reaction that releases heat, with a negative enthalpy change, such as the reaction of hydrogen and oxygen to form water.",
+    "term": "Exothermic"
+   },
+   {
+    "definition": "Hydrogen produced by the electrolysis of water using electricity from renewable sources, so that no carbon dioxide is released.",
+    "term": "Green hydrogen"
+   },
+   {
+    "definition": "Hydrogen made from natural gas, which releases carbon dioxide.",
+    "term": "Grey hydrogen"
+   },
+   {
+    "definition": "Hydrogen made from natural gas with the carbon dioxide captured and stored.",
+    "term": "Blue hydrogen"
+   },
+   {
+    "definition": "The whole course of a product, from raw materials and manufacture through use to disposal or recycling.",
+    "term": "Life-cycle"
+   },
+   {
+    "definition": "A block of a more reactive metal, such as zinc or magnesium, attached to steel so that it is oxidised in preference to the steel.",
+    "term": "Sacrificial anode"
+   },
+   {
+    "definition": "Coating steel with a layer of zinc, which protects the iron by being oxidised in preference to it.",
+    "term": "Galvanising"
+   },
+   {
+    "definition": "A source whose content has been checked by independent experts in the field before publication.",
+    "term": "Peer-reviewed source"
+   },
+   {
+    "definition": "A structured inquiry into a question, using chemistry and evidence from judged sources to reach a justified conclusion.",
+    "term": "Research-based investigation"
    }
   ],
   "notes": [
@@ -8863,7 +8567,7 @@
      "Energy storage: in a chemical cell the energy is stored in the electrode materials, so more energy needs a bigger, heavier cell; in a fuel cell the energy is stored in the fuel tank, so the range depends on the size of the tank.",
      "Typical uses: chemical cells power portable devices such as phones, laptops and torches, and battery electric vehicles; fuel cells power hydrogen buses, cars and trucks, spacecraft and backup power supplies.",
      "Environmental impact: a hydrogen fuel cell's only product is water; chemical cells need metals such as lithium, cobalt, nickel, lead and zinc to be mined, and the cells must be recycled.",
-     "A fuel cell needs hydrogen to be produced, stored and transported, and is only as clean as the way the hydrogen was made (see \"Electrochemistry and sustainability\")."
+     "A fuel cell needs hydrogen to be produced, stored and transported, and is only as clean as the way the hydrogen was made."
     ]
    },
    {
@@ -8874,55 +8578,7 @@
      "A fuel cell has no moving parts, so it is quiet.",
      "A hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use and, with no high-temperature flame, no nitrogen oxides."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Source of reactants: a chemical cell stores its reactants inside the cell, so it is limited by them, whereas a fuel cell is supplied continuously with fuel and oxygen from external tanks or the air. Removal of products: in a chemical cell the products stay inside the cell, whereas in a fuel cell the products, such as water for hydrogen, are removed continuously. When the reactants are used up: a chemical cell stops working and is either discarded (primary) or recharged from an external supply, which can take hours (secondary); a fuel cell keeps working as long as fuel and oxidant are supplied and is refuelled in minutes.",
-    "prompt": "Compare a chemical cell with a fuel cell under the headings: source of reactants, removal of products, what happens when the reactants are used up.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Similarity: both are galvanic cells, each using a spontaneous redox reaction to drive electrons through an external circuit, with an anode where the fuel is oxidised, a cathode where the oxidising agent is reduced, and an electrolyte between them. Advantage 1: a fuel cell converts chemical energy directly into electrical energy, without first making heat, so it is more efficient than burning hydrogen. Advantage 2: a fuel cell has no moving parts, so it is quiet, and a hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use.",
-    "prompt": "State one similarity between a chemical cell and a fuel cell, and give two advantages of a hydrogen fuel cell over burning hydrogen in an engine.",
-    "type": "short"
-   }
-  ]
- },
- "chem22-s5": {
-  "keyTerms": [
-   {
-    "definition": "A thin sheet of solid polymer that lets H⁺ ions pass between the electrodes of a fuel cell while keeping the gases apart and blocking electrons.",
-    "term": "Proton exchange membrane (PEM)"
-   },
-   {
-    "definition": "Platinum on the porous carbon electrodes of a fuel cell, which speeds up the electrode reactions.",
-    "term": "Platinum catalyst"
-   },
-   {
-    "definition": "A hydrogen ion, H⁺, formed when hydrogen is oxidised at the anode of a fuel cell.",
-    "term": "Proton"
-   },
-   {
-    "definition": "Many fuel cells connected in series so that their voltages add up to a usable value.",
-    "term": "Stack"
-   },
-   {
-    "definition": "A number assigned to an atom that changes when it is oxidised (rises) or reduced (falls).",
-    "term": "Oxidation number"
-   },
-   {
-    "definition": "A fuel cell whose electrolyte is potassium hydroxide solution, in which OH⁻ ions carry the charge.",
-    "term": "Alkaline fuel cell"
-   },
-   {
-    "definition": "Describes a reaction that releases heat, with a negative enthalpy change, such as the reaction of hydrogen and oxygen to form water.",
-    "term": "Exothermic"
-   }
-  ],
-  "notes": [
    {
     "h": "Structure of a hydrogen fuel cell",
     "points": [
@@ -8977,68 +8633,10 @@
      "Advantages: the only product is water, so there is no CO₂, CO, nitrogen oxides or soot at the point of use; the cell is quiet, is refuelled in minutes, and runs as long as fuel is supplied.",
      "Limitations: hydrogen is highly flammable and forms explosive mixtures with air; it has a very low density, so it must be stored compressed at high pressure, or liquefied at very low temperature, in strong, heavy tanks.",
      "Limitations: there are few hydrogen refuelling stations, and platinum is scarce and expensive.",
-     "Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity (see \"Electrochemistry and sustainability\").",
+     "Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity.",
      "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), the membrane between them with H⁺ moving across, an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Hydrogen is fed continuously to the anode, the negative electrode, and oxygen or air to the cathode, the positive electrode. Both electrodes are porous carbon coated with platinum, which speeds up the reactions. At the anode hydrogen is oxidised: H₂(g) → 2H⁺(aq) + 2e⁻. The electrons flow through the external circuit to the cathode, powering a device on the way. At the cathode oxygen is reduced: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l). Overall: 2H₂(g) + O₂(g) → 2H₂O(l). The proton exchange membrane lets H⁺ ions pass from the anode to the cathode, so the circuit is completed inside the cell. It does not conduct electrons, so they must travel round the external circuit, and it keeps the hydrogen and oxygen apart. Water is removed from the cathode side so the reaction can continue.",
-    "prompt": "Explain the operation of a hydrogen fuel cell with a proton exchange membrane. Your answer should include the half-equations at each electrode, the overall equation, and the functions of the membrane.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "The oxidation number of hydrogen rises from 0 in H₂ to +1 in H₂O, so hydrogen is oxidised; it is the reducing agent, and oxidation happens at the anode. The oxidation number of oxygen falls from 0 in O₂ to −2 in H₂O, so oxygen is reduced; it is the oxidising agent, and reduction happens at the cathode.",
-    "prompt": "Use oxidation numbers to identify the substance oxidised and the oxidising agent in a hydrogen fuel cell.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Advantage 1: the only product at the point of use is water, so there are no carbon dioxide, carbon monoxide or soot emissions from the bus. Advantage 2: the fuel cell is quiet and is refuelled in minutes, and it runs as long as fuel is supplied. Disadvantage 1: hydrogen is highly flammable and must be stored compressed at high pressure in strong, heavy tanks, because it has a very low density. Disadvantage 2: there are few hydrogen refuelling stations, and platinum, the catalyst, is scarce and expensive. Most hydrogen today is made from natural gas, so the bus is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity.",
-    "prompt": "Give two advantages and two disadvantages of using hydrogen fuel cells to power buses.",
-    "type": "short"
-   }
-  ]
- },
- "chem22-s6": {
-  "keyTerms": [
-   {
-    "definition": "Hydrogen produced by the electrolysis of water using electricity from renewable sources, so that no carbon dioxide is released.",
-    "term": "Green hydrogen"
-   },
-   {
-    "definition": "Hydrogen made from natural gas, which releases carbon dioxide.",
-    "term": "Grey hydrogen"
-   },
-   {
-    "definition": "Hydrogen made from natural gas with the carbon dioxide captured and stored.",
-    "term": "Blue hydrogen"
-   },
-   {
-    "definition": "The whole course of a product, from raw materials and manufacture through use to disposal or recycling.",
-    "term": "Life-cycle"
-   },
-   {
-    "definition": "A block of a more reactive metal, such as zinc or magnesium, attached to steel so that it is oxidised in preference to the steel.",
-    "term": "Sacrificial anode"
-   },
-   {
-    "definition": "Coating steel with a layer of zinc, which protects the iron by being oxidised in preference to it.",
-    "term": "Galvanising"
-   },
-   {
-    "definition": "A source whose content has been checked by independent experts in the field before publication.",
-    "term": "Peer-reviewed source"
-   },
-   {
-    "definition": "A structured inquiry into a question, using chemistry and evidence from judged sources to reach a justified conclusion.",
-    "term": "Research-based investigation"
-   }
-  ],
-  "notes": [
    {
     "h": "Electrochemistry and more sustainable energy",
     "points": [
@@ -9084,7 +8682,7 @@
     "h": "Worked outline 2: green hydrogen from electrolysis",
     "points": [
      "Question: can hydrogen produced by electrolysis using wind power be a sustainable fuel?",
-     "Chemistry: electrolysis of water, with 4H⁺ + 4e⁻ → 2H₂ at the cathode and 2H₂O → O₂ + 4H⁺ + 4e⁻ at the anode (see \"The electrolytic cell\").",
+     "Chemistry: electrolysis of water, with 4H⁺ + 4e⁻ → 2H₂ at the cathode and 2H₂O → O₂ + 4H⁺ + 4e⁻ at the anode (see \"Galvanic and electrolytic cells\").",
      "Evidence for: no CO₂ is released if the electricity is renewable.",
      "Evidence for: it can use surplus wind electricity at times when supply is greater than demand, storing it as a fuel.",
      "Evidence for: hydrogen can power fuel-cell vehicles and replace fossil fuels in industries that are hard to electrify.",
@@ -9099,7 +8697,7 @@
     "h": "Worked outline 3: fuel cells",
     "points": [
      "Question: should hydrogen fuel cells power public buses?",
-     "Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O (see \"The hydrogen fuel cell\").",
+     "Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O.",
      "Evidence for: water is the only product at the point of use, and the cell is quiet and refuelled in minutes.",
      "Evidence for: long range suits buses on long, fixed routes that return to one depot for refuelling.",
      "Evidence against: there are few refuelling stations, and the vehicles are expensive, partly because of the platinum catalyst.",
@@ -9112,7 +8710,7 @@
     "h": "Worked outline 4: corrosion protection",
     "points": [
      "Question: how does electrochemistry help steel structures last longer, and why is that sustainable?",
-     "Chemistry: rusting is the oxidation of iron. A metal higher in the electrochemical series, such as zinc or magnesium, is oxidised in preference to iron (see \"Oxidation and reduction\" and \"The electrochemical series and displacement\").",
+     "Chemistry: rusting is the oxidation of iron. A metal higher in the electrochemical series, such as zinc or magnesium, is oxidised in preference to iron (see \"Oxidation and reduction\" and \"Balancing redox equations and the electrochemical series\").",
      "Galvanising, a zinc coating, and sacrificial anodes, blocks of zinc or magnesium attached to ship hulls, pipelines and steel piers, both use this protection.",
      "Evidence for: steel lasts much longer, so less steel has to be made to replace it, saving iron ore, energy and the CO₂ released in steelmaking.",
      "Evidence for: it prevents dangerous failures of bridges, pipelines and ships.",
@@ -9124,6 +8722,36 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "Source of reactants: a chemical cell stores its reactants inside the cell, so it is limited by them, whereas a fuel cell is supplied continuously with fuel and oxygen from external tanks or the air. Removal of products: in a chemical cell the products stay inside the cell, whereas in a fuel cell the products, such as water for hydrogen, are removed continuously. When the reactants are used up: a chemical cell stops working and is either discarded (primary) or recharged from an external supply, which can take hours (secondary); a fuel cell keeps working as long as fuel and oxidant are supplied and is refuelled in minutes.",
+    "prompt": "Compare a chemical cell with a fuel cell under the headings: source of reactants, removal of products, what happens when the reactants are used up.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Similarity: both are galvanic cells, each using a spontaneous redox reaction to drive electrons through an external circuit, with an anode where the fuel is oxidised, a cathode where the oxidising agent is reduced, and an electrolyte between them. Advantage 1: a fuel cell converts chemical energy directly into electrical energy, without first making heat, so it is more efficient than burning hydrogen. Advantage 2: a fuel cell has no moving parts, so it is quiet, and a hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use.",
+    "prompt": "State one similarity between a chemical cell and a fuel cell, and give two advantages of a hydrogen fuel cell over burning hydrogen in an engine.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Hydrogen is fed continuously to the anode, the negative electrode, and oxygen or air to the cathode, the positive electrode. Both electrodes are porous carbon coated with platinum, which speeds up the reactions. At the anode hydrogen is oxidised: H₂(g) → 2H⁺(aq) + 2e⁻. The electrons flow through the external circuit to the cathode, powering a device on the way. At the cathode oxygen is reduced: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l). Overall: 2H₂(g) + O₂(g) → 2H₂O(l). The proton exchange membrane lets H⁺ ions pass from the anode to the cathode, so the circuit is completed inside the cell. It does not conduct electrons, so they must travel round the external circuit, and it keeps the hydrogen and oxygen apart. Water is removed from the cathode side so the reaction can continue.",
+    "prompt": "Explain the operation of a hydrogen fuel cell with a proton exchange membrane. Your answer should include the half-equations at each electrode, the overall equation, and the functions of the membrane.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The oxidation number of hydrogen rises from 0 in H₂ to +1 in H₂O, so hydrogen is oxidised; it is the reducing agent, and oxidation happens at the anode. The oxidation number of oxygen falls from 0 in O₂ to −2 in H₂O, so oxygen is reduced; it is the oxidising agent, and reduction happens at the cathode.",
+    "prompt": "Use oxidation numbers to identify the substance oxidised and the oxidising agent in a hydrogen fuel cell.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Advantage 1: the only product at the point of use is water, so there are no carbon dioxide, carbon monoxide or soot emissions from the bus. Advantage 2: the fuel cell is quiet and is refuelled in minutes, and it runs as long as fuel is supplied. Disadvantage 1: hydrogen is highly flammable and must be stored compressed at high pressure in strong, heavy tanks, because it has a very low density. Disadvantage 2: there are few hydrogen refuelling stations, and platinum, the catalyst, is scarce and expensive. Most hydrogen today is made from natural gas, so the bus is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity.",
+    "prompt": "Give two advantages and two disadvantages of using hydrogen fuel cells to power buses.",
+    "type": "short"
+   },
    {
     "marks": 12,
     "model": "In the electrolysis of water, an electric current is passed through acidified water between two inert electrodes. At the cathode, reduction takes place: 4H⁺(aq) + 4e⁻ → 2H₂(g). At the anode, oxidation takes place: 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻. Overall: 2H₂O → 2H₂ + O₂. Hydrogen produced this way is sustainable only if the electricity comes from renewable sources such as wind, in which case no carbon dioxide is released; this is green hydrogen. Hydrogen can also be used when electricity is surplus, storing energy as a fuel, and its only product in a fuel cell is water. However, energy is lost at every step, so converting electricity to hydrogen and back returns well under half of the original energy, much less than a battery. Electrolysers need pure water and some need scarce platinum and iridium catalysts, hydrogen is hard to store and highly flammable, and green hydrogen currently costs more than grey hydrogen, which is made from natural gas and releases carbon dioxide. Conclusion: hydrogen from electrolysis is a sustainable fuel only where it is made from renewable electricity.",
@@ -9185,6 +8813,42 @@
    {
     "definition": "A strong-smelling sulfur compound, also called a thiol, added to natural gas and LPG so that leaks can be detected.",
     "term": "Mercaptan"
+   },
+   {
+    "definition": "Burning in too little oxygen, which produces carbon monoxide and soot instead of carbon dioxide alone.",
+    "term": "Incomplete combustion"
+   },
+   {
+    "definition": "A gas, such as carbon dioxide or methane, that absorbs infrared radiation emitted by the Earth and so traps heat.",
+    "term": "Greenhouse gas"
+   },
+   {
+    "definition": "The lowering of seawater pH as carbon dioxide dissolves in the sea to form carbonic acid.",
+    "term": "Ocean acidification"
+   },
+   {
+    "definition": "Rain made acidic by sulfur dioxide and nitrogen oxides reacting with water in the atmosphere.",
+    "term": "Acid rain"
+   },
+   {
+    "definition": "Fine solid particles in the air, such as soot, that can be breathed deep into the lungs.",
+    "term": "Particulate matter"
+   },
+   {
+    "definition": "A substance that can cause cancer.",
+    "term": "Carcinogen"
+   },
+   {
+    "definition": "A piece of plastic smaller than 5 mm that persists in water, food and living things.",
+    "term": "Microplastic"
+   },
+   {
+    "definition": "Able to be broken down by microorganisms into natural substances.",
+    "term": "Biodegradable"
+   },
+   {
+    "definition": "A reliable supply of energy at affordable prices.",
+    "term": "Energy security"
    }
   ],
   "notes": [
@@ -9257,315 +8921,7 @@
      "Unsaturated alkenes react readily, so they make feedstocks for plastics.",
      "Large molecules are viscous or solid, so they make lubricants, waxes and bitumen."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "A hydrocarbon is a compound containing carbon and hydrogen only. The three main sources are fossil fuels, living matter and synthesis. Fossil fuels: crude oil, natural gas or coal, formed from the buried remains of plants and animals over millions of years. Living matter: methane produced when bacteria break down plant and animal material in the absence of air, for example in slurry pits, or natural rubber from the rubber tree. Synthesis: ethene made by dehydrating ethanol.",
-    "prompt": "What is a hydrocarbon? Outline the three main sources of hydrocarbons, giving an example of each.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) Methane is used for heating and cooking in homes. It is a gas that burns cleanly and can be piped to homes. (ii) Propane and butane are used as LPG in cylinders for camping stoves and patio heaters. They are easily liquefied under pressure, so a large amount of fuel can be stored in a small, portable cylinder. (iii) Ethene is used to make poly(ethene). Its C=C double bond makes it reactive, so it can be polymerised by addition.",
-    "prompt": "Give one use of each of the following and explain why the hydrocarbon suits that use: (i) methane, (ii) a mixture of propane and butane, (iii) ethene.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "A strong-smelling sulfur compound, a thiol or mercaptan, is added to natural gas because the gas has no smell of its own, so leaks can be detected. Two sources of methane other than natural gas wells are landfill sites (refuse dumps), slurry pits, marshes, and the digestive systems of cattle and sheep. Any two of these.",
-    "prompt": "Natural gas is odourless. Explain why a sulfur compound is added to it, and name two sources of methane other than natural gas wells.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s10": {
-  "keyTerms": [
-   {
-    "definition": "One of different physical forms of the same element, in the same state, in which the atoms are bonded together in different ways.",
-    "term": "Allotrope"
-   },
-   {
-    "definition": "A structure in which every atom is joined to its neighbours by covalent bonds throughout, so that the whole crystal is one molecule.",
-    "term": "Giant covalent structure"
-   },
-   {
-    "definition": "A substance made of separate molecules held together by weak intermolecular forces.",
-    "term": "Simple molecular substance"
-   },
-   {
-    "definition": "An electron that is not held by one atom or bond and is free to move through part of the structure.",
-    "term": "Delocalised electron"
-   },
-   {
-    "definition": "A molecule of carbon atoms joined into a closed hollow cage or tube of hexagonal and pentagonal rings.",
-    "term": "Fullerene"
-   },
-   {
-    "definition": "A single layer of graphite, one carbon atom thick, with carbon atoms in a flat sheet of hexagonal rings.",
-    "term": "Graphene"
-   },
-   {
-    "definition": "A cylindrical fullerene, like a graphene sheet rolled into a tube about a nanometre across.",
-    "term": "Nanotube"
-   },
-   {
-    "definition": "The change of state directly from solid to gas when heated.",
-    "term": "Sublimation"
-   },
-   {
-    "definition": "Weak attractions between all molecules or layers, caused by temporary dipoles, which act between graphite layers and between C₆₀ molecules.",
-    "term": "London dispersion forces"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Allotropy",
-    "points": [
-     "Allotropes are different physical forms of the same element in the same state, with the atoms bonded together in different ways.",
-     "Carbon's allotropes are diamond, graphite, graphene and the fullerenes.",
-     "Because they are all pure carbon, they have the same chemical properties: each burns in excess oxygen to give only carbon dioxide, C(s) + O₂(g) → CO₂(g).",
-     "This burning test is evidence that diamond and graphite are both forms of the same element.",
-     "Their physical properties differ because their structures differ.",
-     "Diamond, graphite and graphene are giant covalent, or macromolecular, structures, in which every atom is joined to its neighbours by covalent bonds throughout; fullerenes are separate molecules, which are simple molecular."
-    ]
-   },
-   {
-    "h": "Diamond",
-    "points": [
-     "Each carbon atom is covalently bonded to four other carbon atoms arranged tetrahedrally, with bond angles of 109.5°, forming a rigid, three-dimensional giant covalent network.",
-     "Diamond is the hardest natural substance, because a great many strong covalent bonds in all directions must be broken to scratch or deform it.",
-     "Its melting point is very high, above 3500 °C, because strong covalent bonds throughout the structure must be broken.",
-     "It does not conduct electricity, because all four outer electrons of each carbon are used in bonds, so there are no free electrons or ions.",
-     "It conducts heat very well, better than copper, because the rigid, strongly bonded lattice passes on vibrations efficiently.",
-     "It is transparent and colourless, and it sparkles because it bends and reflects light strongly.",
-     "It is insoluble in water and all solvents, and its density of 3.51 g cm⁻³ reflects the closely packed atoms.",
-     "Diagram: a section of the diamond lattice showing one carbon bonded tetrahedrally to four others."
-    ]
-   },
-   {
-    "h": "Graphite",
-    "points": [
-     "Each carbon atom is covalently bonded to three others at 120°, in flat layers of hexagonal rings, and the layers are stacked on top of one another.",
-     "Each carbon uses three of its four outer electrons in bonds; the fourth is delocalised and free to move along the layer.",
-     "The layers are held together only by weak London dispersion forces, about 0.335 nm apart, compared with 0.142 nm between carbons within a layer.",
-     "Graphite is soft and slippery, and it marks paper, because the layers slide over each other easily.",
-     "Graphite conducts electricity along the layers, because the delocalised electrons can move and carry charge.",
-     "Graphite has a very high melting point, because the strong covalent bonds within the layers must be broken.",
-     "Graphite is a grey-black, shiny, opaque solid that is insoluble in water.",
-     "Its density is about 2.2 g cm⁻³, less than that of diamond, because of the space between the layers.",
-     "Diagram: two or three stacked layers of hexagons, labelled strong covalent bonds within layers, weak forces between layers and delocalised electrons."
-    ]
-   },
-   {
-    "h": "Graphene",
-    "points": [
-     "Graphene is a single layer of graphite, one carbon atom thick: a flat, two-dimensional sheet of hexagonal rings, with each carbon bonded to three others and one delocalised electron per carbon.",
-     "It was first isolated in 2004 by Andre Geim and Konstantin Novoselov at the University of Manchester, who peeled layers off graphite with sticky tape.",
-     "Geim and Novoselov won the Nobel Prize in Physics in 2010.",
-     "Graphene is extremely strong for its thickness, one of the strongest materials known, because of the strong covalent bonds across the sheet, yet it is very light and flexible.",
-     "Graphene conducts electricity extremely well, because its delocalised electrons move freely across the sheet, and it is also an excellent conductor of heat.",
-     "A single sheet absorbs only about 2.3% of visible light, so it is almost transparent, and it is impermeable to gases.",
-     "Diagram: a flat honeycomb sheet of hexagons one atom thick."
-    ]
-   },
-   {
-    "h": "Fullerenes",
-    "points": [
-     "Fullerenes are molecules of carbon atoms joined into closed hollow cages, or tubes, made of hexagonal and pentagonal rings, with each carbon bonded to three others.",
-     "Buckminsterfullerene, C₆₀, has 60 carbon atoms arranged in 20 hexagons and 12 pentagons, the shape of a football, and is nicknamed the buckyball.",
-     "C₆₀ was discovered in 1985 by Harry Kroto, Robert Curl and Richard Smalley, who won the Nobel Prize in Chemistry in 1996.",
-     "It is named after the architect Buckminster Fuller, whose domes it resembles.",
-     "C₆₀ is a simple molecular substance: covalent bonds hold the atoms within each ball, but only weak London dispersion forces act between the balls.",
-     "So, unlike the giant structures, C₆₀ is soft and has a relatively low sublimation temperature.",
-     "C₆₀ dissolves in non-polar solvents such as methylbenzene, giving a purple solution, but not in water.",
-     "C₆₀ is a poor conductor of electricity, because its delocalised electrons can move within a molecule but not from one molecule to the next.",
-     "Carbon nanotubes are cylindrical fullerenes, like a sheet of graphene rolled into a tube about a nanometre across; they are very strong and conduct electricity along the tube.",
-     "Diagram: a C₆₀ ball showing its hexagons and pentagons; a short section of a nanotube."
-    ]
-   },
-   {
-    "h": "Comparing the allotropes",
-    "points": [
-     "Bonds per carbon: diamond forms four; graphite, graphene and the fullerenes form three, with one delocalised electron each.",
-     "Structure: diamond is a three-dimensional giant covalent network; graphite is giant covalent layers; graphene is a single giant covalent layer; fullerenes are discrete molecules, and nanotubes are very long tubes.",
-     "Hardness: diamond is the hardest; graphite is soft and slippery; graphene is strong and flexible; C₆₀ is soft.",
-     "Electrical conductivity: diamond does not conduct; graphite conducts well along its layers; graphene conducts excellently; C₆₀ conducts poorly; nanotubes conduct well.",
-     "Melting point: diamond, graphite and graphene are very high, whereas C₆₀ is much lower, because only weak forces act between its molecules.",
-     "Solubility: diamond, graphite and graphene are insoluble in all solvents, whereas C₆₀ dissolves in non-polar organic solvents.",
-     "The general rule is that properties depend on how many bonds each carbon forms, four giving no free electrons and three giving delocalised electrons, and on whether the structure is a continuous giant network or separate molecules."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Each carbon in diamond is covalently bonded to four others, tetrahedrally, in a rigid three-dimensional network; many strong covalent bonds in all directions must be broken to scratch it, so it is very hard. (ii) Graphite has flat layers of hexagonal rings, bonded covalently within each layer, but the layers are held together only by weak London dispersion forces, so they slide over each other easily and graphite is soft and slippery. (iii) Each carbon in graphite uses three electrons in bonds, leaving one delocalised electron that can move along the layer and carry charge. In diamond all four outer electrons of each carbon are used in bonds, so there are no free electrons to carry charge.",
-    "prompt": "Explain, in terms of structure and bonding, why (i) diamond is very hard, (ii) graphite is soft and slippery, (iii) graphite conducts electricity but diamond does not.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Graphene is a single flat layer of hexagonal rings of carbon atoms, one atom thick, a giant covalent structure in which each carbon is bonded to three others. Buckminsterfullerene, C₆₀, is a hollow ball of 60 carbon atoms, with 20 hexagons and 12 pentagons, and is a simple molecular substance. Graphene conducts well because its delocalised electrons move freely across the continuous sheet. C₆₀ conducts poorly because its delocalised electrons can move within a molecule but not from one molecule to the next. C₆₀ dissolves in non-polar methylbenzene because its separate molecules are held by weak London dispersion forces, which the solvent can overcome. Graphene does not dissolve, because it is a giant covalent structure whose strong covalent bonds would have to be broken.",
-    "prompt": "Compare the structures of graphene and buckminsterfullerene, and explain why graphene conducts electricity well but C₆₀ does not, and why C₆₀ dissolves in methylbenzene but graphene does not.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Allotropes are different physical forms of the same element in the same state, in which the atoms are bonded together in different ways. Evidence: both burn in excess oxygen to give only carbon dioxide, C(s) + O₂(g) → CO₂(g), showing that both are pure carbon and have the same chemical properties.",
-    "prompt": "What are allotropes? Describe one piece of evidence that diamond and graphite are both forms of carbon.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s11": {
-  "keyTerms": [
-   {
-    "definition": "The use of materials and structures on the scale of 1 to 100 nanometres.",
-    "term": "Nanotechnology"
-   },
-   {
-    "definition": "A unit of length equal to 10⁻⁹ metres.",
-    "term": "Nanometre"
-   },
-   {
-    "definition": "A component that carries heat away from an electronic device so that it does not overheat.",
-    "term": "Heat sink"
-   },
-   {
-    "definition": "A conductor through which electricity enters or leaves an electrolyte or cell.",
-    "term": "Electrode"
-   },
-   {
-    "definition": "A solid lubricant, such as graphite, that reduces friction between surfaces without a liquid oil.",
-    "term": "Dry lubricant"
-   },
-   {
-    "definition": "A material made from two or more components, such as nanotubes in plastic, with improved properties.",
-    "term": "Composite material"
-   },
-   {
-    "definition": "The insertion of ions between the layers of a material, as lithium ions fit between the layers of graphite.",
-    "term": "Intercalation"
-   },
-   {
-    "definition": "A diamond mined and sold to fund armed conflict.",
-    "term": "Conflict diamond"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Common commercial products",
-    "points": [
-     "Diamond is used in jewellery because it is transparent, sparkles and is hard enough not to scratch.",
-     "Diamond, mostly synthetic industrial diamond, is used on the tips of drill bits, on saw blades for cutting stone and glass, and in grinding and polishing tools, because it is the hardest substance.",
-     "Graphite is mixed with clay to make pencil “leads”, because its layers slide off and mark the paper.",
-     "Graphite is used as a dry lubricant, e.g. for locks and for machinery that gets hot, because its layers slide over each other and it withstands high temperatures.",
-     "Carbon nanotubes and graphene are added to plastics to make strong, light composite materials for sports equipment, e.g. tennis rackets and bicycle frames."
-    ]
-   },
-   {
-    "h": "Electrochemistry",
-    "points": [
-     "Graphite is used for electrodes because it conducts electricity, has a very high melting point and is fairly unreactive, e.g. in the electrolysis of solutions in laboratories and industry.",
-     "In a zinc–carbon dry cell, the positive electrode, or cathode, is a carbon rod made of graphite.",
-     "In a lithium-ion cell, the negative electrode is usually graphite: lithium ions fit between its layers when the cell is charged and leave again when it discharges (see “The lithium-ion cell”).",
-     "Graphene's very large surface area and high conductivity are being developed for faster-charging batteries and supercapacitors."
-    ]
-   },
-   {
-    "h": "Electronics",
-    "points": [
-     "Graphene conducts electricity extremely well and is transparent and flexible, so it is being developed for touchscreens, flexible displays, wearable sensors and very fast transistors.",
-     "Carbon nanotubes conduct electricity and are being developed for transistors and for conductive films and inks.",
-     "Diamond conducts heat better than copper but does not conduct electricity, so it is used as a heat sink to carry heat away from powerful electronic components without short-circuiting them.",
-     "Graphite and graphene conduct heat well, and they are used in heat-spreading sheets in phones and laptops."
-    ]
-   },
-   {
-    "h": "Nanotechnology",
-    "points": [
-     "Nanotechnology is the use of materials and structures on the scale of 1–100 nanometres, where 1 nm = 10⁻⁹ m; fullerenes, nanotubes and graphene are nanomaterials.",
-     "Fullerene cages and nanotubes are being researched for drug delivery: a drug molecule can be held inside them or attached to the outside, and carried to target cells such as cancer cells.",
-     "Nanotubes are among the strongest materials known for their mass, and they are used to reinforce composites.",
-     "C₆₀ molecules are tiny, roughly spherical molecules held together by weak forces, and they have been researched as nano-scale lubricants, or “molecular ball bearings”.",
-     "Graphene-based membranes are being researched for filtering and purifying water, because a graphene sheet is strong and gases and many other substances cannot pass through it."
-    ]
-   },
-   {
-    "h": "Benefits, limits and risks",
-    "points": [
-     "Benefits include lighter, stronger materials that reduce the fuel used by vehicles, better batteries for electric vehicles and for storing renewable energy, new medical treatments, and faster, flexible electronics.",
-     "Limits: many graphene and nanotube uses are still at the research stage, because making large, defect-free sheets cheaply is difficult.",
-     "Risks: the health effects of nanoparticles are not fully known, and some long, thin nanotubes inhaled as dust may damage the lungs in a similar way to asbestos fibres, so they need careful handling and testing.",
-     "Mining natural diamonds has environmental and social costs, and “conflict diamonds” have funded wars; synthetic diamonds are an alternative for many uses.",
-     "Each use follows from the structure: four bonds per carbon in a three-dimensional network give diamond its hardness and lack of electrical conduction.",
-     "Three bonds per carbon with delocalised electrons give conduction in graphite, graphene and nanotubes, and weak forces between layers or molecules give softness and lubrication in graphite and C₆₀."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Diamond is used on drill bits and saw blades. Its use depends on its structure: each carbon is bonded tetrahedrally to four others in a rigid three-dimensional network of strong covalent bonds, so it is the hardest substance and resists wear. Graphite is used as a dry lubricant or in electrodes. Its layers are held together only by weak London dispersion forces, so they slide over each other; each carbon also has a delocalised electron that can move along the layers, so graphite conducts electricity. Graphene is used in touchscreens and flexible displays. It is one atom thick, with delocalised electrons that move freely across the sheet, so it conducts electricity extremely well, and it is transparent and flexible.",
-    "prompt": "Give one use of each of diamond, graphite and graphene, and explain how each use depends on the structure of the allotrope.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "A benefit is that carbon nanomaterials enable new technologies: graphene is being developed for faster, flexible electronics and for batteries that charge faster, and nanotubes make strong, light composites that reduce fuel use in vehicles. A concern is that the health effects of nanoparticles are not fully known; some long, thin nanotubes inhaled as dust may damage the lungs in a similar way to asbestos fibres, so they need careful handling and testing. Many uses are still at the research stage, because making large, defect-free sheets cheaply is difficult, so the benefits must be weighed against these risks before wider use.",
-    "prompt": "Discuss the use of carbon nanomaterials in society, referring to one benefit and one concern.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Graphite conducts electricity because each carbon has a delocalised electron that can move along the layers, so it can carry charge into and out of the cell or the electrolyte. It is fairly unreactive and has a very high melting point, so it is suitable for electrolysis. In a lithium-ion cell, the graphite negative electrode takes up lithium ions between its layers when the cell is charged, and releases them when it discharges.",
-    "prompt": "Explain why graphite is used as an electrode in a lithium-ion cell and in electrolysis.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s2": {
-  "keyTerms": [
-   {
-    "definition": "Burning in too little oxygen, which produces carbon monoxide and soot instead of carbon dioxide alone.",
-    "term": "Incomplete combustion"
-   },
-   {
-    "definition": "A gas, such as carbon dioxide or methane, that absorbs infrared radiation emitted by the Earth and so traps heat.",
-    "term": "Greenhouse gas"
-   },
-   {
-    "definition": "The lowering of seawater pH as carbon dioxide dissolves in the sea to form carbonic acid.",
-    "term": "Ocean acidification"
-   },
-   {
-    "definition": "Rain made acidic by sulfur dioxide and nitrogen oxides reacting with water in the atmosphere.",
-    "term": "Acid rain"
-   },
-   {
-    "definition": "Fine solid particles in the air, such as soot, that can be breathed deep into the lungs.",
-    "term": "Particulate matter"
-   },
-   {
-    "definition": "A substance that can cause cancer.",
-    "term": "Carcinogen"
-   },
-   {
-    "definition": "A piece of plastic smaller than 5 mm that persists in water, food and living things.",
-    "term": "Microplastic"
-   },
-   {
-    "definition": "Able to be broken down by microorganisms into natural substances.",
-    "term": "Biodegradable"
-   },
-   {
-    "definition": "A reliable supply of energy at affordable prices.",
-    "term": "Energy security"
-   }
-  ],
-  "notes": [
    {
     "b": "The investigation asks for one major impact on society of the extensive use of hydrocarbons, researched from secondary sources and judged on the evidence.",
     "h": "The research investigation",
@@ -9696,6 +9052,24 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "A hydrocarbon is a compound containing carbon and hydrogen only. The three main sources are fossil fuels, living matter and synthesis. Fossil fuels: crude oil, natural gas or coal, formed from the buried remains of plants and animals over millions of years. Living matter: methane produced when bacteria break down plant and animal material in the absence of air, for example in slurry pits, or natural rubber from the rubber tree. Synthesis: ethene made by dehydrating ethanol.",
+    "prompt": "What is a hydrocarbon? Outline the three main sources of hydrocarbons, giving an example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Methane is used for heating and cooking in homes. It is a gas that burns cleanly and can be piped to homes. (ii) Propane and butane are used as LPG in cylinders for camping stoves and patio heaters. They are easily liquefied under pressure, so a large amount of fuel can be stored in a small, portable cylinder. (iii) Ethene is used to make poly(ethene). Its C=C double bond makes it reactive, so it can be polymerised by addition.",
+    "prompt": "Give one use of each of the following and explain why the hydrocarbon suits that use: (i) methane, (ii) a mixture of propane and butane, (iii) ethene.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A strong-smelling sulfur compound, a thiol or mercaptan, is added to natural gas because the gas has no smell of its own, so leaks can be detected. Two sources of methane other than natural gas wells are landfill sites (refuse dumps), slurry pits, marshes, and the digestive systems of cattle and sheep. Any two of these.",
+    "prompt": "Natural gas is odourless. Explain why a sulfur compound is added to it, and name two sources of methane other than natural gas wells.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Research question: for example, How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced? Two suitable sources: a report of the IPCC and a peer-reviewed paper, each judged for its authority, the evidence it gives, its date and any bias. Chemistry: complete combustion of octane, 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l), and of methane, CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), releases carbon dioxide. The carbon was locked away for millions of years, so burning it raises atmospheric CO₂, which absorbs infrared radiation and traps heat. Conclusion: state the answer in one or two sentences and support it with the evidence, such as CO₂ above 420 ppm and warming of more than 1 °C. Weigh the benefits of hydrocarbons against the harms, assess solutions such as renewable electricity and electric vehicles for cost and limits, and note the limitations of the sources used.",
     "prompt": "Outline a research investigation into one major impact on society of the extensive use of hydrocarbons. Include your research question, two suitable sources and how you would judge them, the chemistry involved and a conclusion.",
@@ -9715,7 +9089,7 @@
    }
   ]
  },
- "chem23-s3": {
+ "chem23-s2": {
   "keyTerms": [
    {
     "definition": "A reaction in which water is removed from a molecule, as when ethanol forms ethene.",
@@ -9865,7 +9239,7 @@
    }
   ]
  },
- "chem23-s4": {
+ "chem23-s3": {
   "keyTerms": [
    {
     "definition": "A hydrocarbon with open chains of carbon atoms, or rings that behave like chains, and no benzene ring.",
@@ -9902,6 +9276,70 @@
    {
     "definition": "A prefix showing that a hydrocarbon forms a ring of carbon atoms.",
     "term": "Cyclo-"
+   },
+   {
+    "definition": "Weak intermolecular forces, caused by temporary dipoles, that act between all molecules and increase with relative molecular mass and area of contact.",
+    "term": "London dispersion forces"
+   },
+   {
+    "definition": "The attractions between neighbouring molecules, which are overcome, not broken bonds, when a substance boils.",
+    "term": "Intermolecular forces"
+   },
+   {
+    "definition": "Compounds with the same molecular formula but different arrangements of atoms.",
+    "term": "Structural isomers"
+   },
+   {
+    "definition": "The sum of the relative atomic masses of the atoms in a molecule, written Mr.",
+    "term": "Relative molecular mass"
+   },
+   {
+    "definition": "The part of a molecule's surface that touches its neighbours, which is larger for straight-chain molecules than for branched isomers.",
+    "term": "Area of contact"
+   },
+   {
+    "definition": "The principle that substances dissolve in solvents of similar polarity, so non-polar hydrocarbons dissolve in non-polar solvents.",
+    "term": "Like dissolves like"
+   },
+   {
+    "definition": "Containing one carbon–carbon double bond.",
+    "term": "Monounsaturated"
+   },
+   {
+    "definition": "Evaporating readily, which is the property of a substance with a low boiling point.",
+    "term": "Volatile"
+   },
+   {
+    "definition": "The ability of an atom to attract the bonding electrons in a covalent bond.",
+    "term": "Electronegativity"
+   },
+   {
+    "definition": "The minimum energy that particles must have for a reaction to begin.",
+    "term": "Activation energy"
+   },
+   {
+    "definition": "A reactive atom with an unpaired electron, formed when ultraviolet light splits a halogen molecule.",
+    "term": "Free radical"
+   },
+   {
+    "definition": "A reaction in which one atom or group in a molecule is replaced by another.",
+    "term": "Substitution reaction"
+   },
+   {
+    "definition": "The old name for the alkanes, from the Latin for little affinity.",
+    "term": "Paraffin"
+   },
+   {
+    "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining two nuclei.",
+    "term": "Sigma bond"
+   },
+   {
+    "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line joining two nuclei.",
+    "term": "Pi bond"
+   },
+   {
+    "definition": "The energy needed to break one mole of a particular covalent bond in gaseous molecules.",
+    "term": "Bond enthalpy"
    }
   ],
   "notes": [
@@ -9996,65 +9434,7 @@
      "Ethene, propene, ethyne and propyne need no number, because there is only one position for the multiple bond.",
      "Rings take the prefix cyclo-, as in cyclohexane; benzene keeps its own name."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Alkanes have the general formula CₙH₂ₙ₊₂ and contain only single carbon–carbon bonds, so they are saturated; they do not decolourise bromine water. Alkenes have the general formula CₙH₂ₙ and contain one carbon–carbon double bond, so they are unsaturated; they decolourise bromine water by addition. Alkynes have the general formula CₙH₂ₙ₋₂ and contain one carbon–carbon triple bond, so they are unsaturated; they decolourise bromine water by addition.",
-    "prompt": "Compare alkanes, alkenes and alkynes in terms of general formula, the type of carbon–carbon bond, and their reaction with bromine water.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) 2-methylbutane: the longest chain has four carbons, giving the parent butane, with a methyl group on carbon 2. (ii) pent-2-ene: a five-carbon chain with the double bond starting at carbon 2. (iii) 2,3-dimethylbutane: a four-carbon chain with methyl groups on carbons 2 and 3. 2,2-dimethylbutane is CH₃C(CH₃)₂CH₂CH₃: a four-carbon chain with two methyl groups on carbon 2, drawn with every carbon and its bonds shown.",
-    "prompt": "Give the IUPAC names of: (i) CH₃CH(CH₃)CH₂CH₃, (ii) CH₃CH=CHCH₂CH₃, (iii) (CH₃)₂CHCH(CH₃)₂. Draw the structure of 2,2-dimethylbutane.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Benzene is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°. All six carbon–carbon bonds are identical and intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring. Kekulé's alternating-bond structure cannot explain the equal bond lengths. This delocalisation makes benzene very stable, so it resists addition, which would break up the ring; it reacts by substitution instead, and so does not decolourise bromine water.",
-    "prompt": "Benzene is unsaturated, yet it does not decolourise bromine water. Explain, and describe the structure of benzene.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s5": {
-  "keyTerms": [
-   {
-    "definition": "Weak intermolecular forces, caused by temporary dipoles, that act between all molecules and increase with relative molecular mass and area of contact.",
-    "term": "London dispersion forces"
-   },
-   {
-    "definition": "The attractions between neighbouring molecules, which are overcome, not broken bonds, when a substance boils.",
-    "term": "Intermolecular forces"
-   },
-   {
-    "definition": "Compounds with the same molecular formula but different arrangements of atoms.",
-    "term": "Structural isomers"
-   },
-   {
-    "definition": "The sum of the relative atomic masses of the atoms in a molecule, written Mr.",
-    "term": "Relative molecular mass"
-   },
-   {
-    "definition": "The part of a molecule's surface that touches its neighbours, which is larger for straight-chain molecules than for branched isomers.",
-    "term": "Area of contact"
-   },
-   {
-    "definition": "The principle that substances dissolve in solvents of similar polarity, so non-polar hydrocarbons dissolve in non-polar solvents.",
-    "term": "Like dissolves like"
-   },
-   {
-    "definition": "Containing one carbon–carbon double bond.",
-    "term": "Monounsaturated"
-   },
-   {
-    "definition": "Evaporating readily, which is the property of a substance with a low boiling point.",
-    "term": "Volatile"
-   }
-  ],
-  "notes": [
    {
     "h": "The three factors",
     "points": [
@@ -10135,69 +9515,7 @@
      "Hex-1-ene will decolourise bromine water and hexane will not, and both will float on water without dissolving.",
      "A mixture of pentane and hexane can be separated by fractional distillation, because their boiling points differ, at 36 °C and 69 °C."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "All three are structural isomers with the same Mr, so the difference comes from shape rather than mass. Pentane is unbranched, so its molecules lie alongside each other with a large area of contact; its London dispersion forces are the strongest, giving the highest boiling point of 36 °C. The more branched isomers are more compact, with a smaller area of contact, so their London dispersion forces are weaker and their boiling points are lower: 28 °C for 2-methylbutane and 10 °C for 2,2-dimethylpropane. At 20 °C, 2,2-dimethylpropane, with a boiling point of 10 °C, is a gas, while pentane and 2-methylbutane are liquids.",
-    "prompt": "The boiling points of pentane, 2-methylbutane and 2,2-dimethylpropane are 36 °C, 28 °C and 10 °C. All three have the formula C₅H₁₂. Explain the difference and state which is a gas at 20 °C.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "The boiling points rise from ethene, −104 °C, through propene, −48 °C, but-1-ene, −6 °C, and pent-1-ene, 30 °C, to hex-1-ene, 63 °C, because the relative molecular mass and the number of electrons increase, so London dispersion forces get stronger. Hex-1-ene boils at 63 °C, lower than hexane at 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London dispersion forces. There is no significant difference in solubility in water: all the alkenes are non-polar, cannot form hydrogen bonds with water, and are insoluble in it.",
-    "prompt": "Explain why the boiling points of the alkenes ethene to hex-1-ene increase, why hex-1-ene boils at a lower temperature than hexane, and whether you would expect any difference in their solubility in water.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Chemical properties: hex-1-ene has a C=C double bond and undergoes addition reactions, so it decolourises bromine water; hexane has only single bonds, is unreactive, and does not decolourise bromine water. Combustion: both burn completely to CO₂ and H₂O, but hex-1-ene, with 85.7% carbon by mass, burns with a smokier flame than hexane, which has 83.7% carbon.",
-    "prompt": "Hexane and hex-1-ene are both colourless liquids. Predict and explain one way in which their chemical properties differ and one way in which their combustion differs.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s6": {
-  "keyTerms": [
-   {
-    "definition": "Containing only single bonds, so that no further atoms can be added to the molecule.",
-    "term": "Saturated"
-   },
-   {
-    "definition": "The ability of an atom to attract the bonding electrons in a covalent bond.",
-    "term": "Electronegativity"
-   },
-   {
-    "definition": "The minimum energy that particles must have for a reaction to begin.",
-    "term": "Activation energy"
-   },
-   {
-    "definition": "A reactive atom with an unpaired electron, formed when ultraviolet light splits a halogen molecule.",
-    "term": "Free radical"
-   },
-   {
-    "definition": "A reaction in which one atom or group in a molecule is replaced by another.",
-    "term": "Substitution reaction"
-   },
-   {
-    "definition": "The old name for the alkanes, from the Latin for little affinity.",
-    "term": "Paraffin"
-   },
-   {
-    "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining two nuclei.",
-    "term": "Sigma bond"
-   },
-   {
-    "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line joining two nuclei.",
-    "term": "Pi bond"
-   },
-   {
-    "definition": "The energy needed to break one mole of a particular covalent bond in gaseous molecules.",
-    "term": "Bond enthalpy"
-   }
-  ],
-  "notes": [
    {
     "h": "Alkanes are unreactive",
     "points": [
@@ -10247,6 +9565,42 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "Alkanes have the general formula CₙH₂ₙ₊₂ and contain only single carbon–carbon bonds, so they are saturated; they do not decolourise bromine water. Alkenes have the general formula CₙH₂ₙ and contain one carbon–carbon double bond, so they are unsaturated; they decolourise bromine water by addition. Alkynes have the general formula CₙH₂ₙ₋₂ and contain one carbon–carbon triple bond, so they are unsaturated; they decolourise bromine water by addition.",
+    "prompt": "Compare alkanes, alkenes and alkynes in terms of general formula, the type of carbon–carbon bond, and their reaction with bromine water.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) 2-methylbutane: the longest chain has four carbons, giving the parent butane, with a methyl group on carbon 2. (ii) pent-2-ene: a five-carbon chain with the double bond starting at carbon 2. (iii) 2,3-dimethylbutane: a four-carbon chain with methyl groups on carbons 2 and 3. 2,2-dimethylbutane is CH₃C(CH₃)₂CH₂CH₃: a four-carbon chain with two methyl groups on carbon 2, drawn with every carbon and its bonds shown.",
+    "prompt": "Give the IUPAC names of: (i) CH₃CH(CH₃)CH₂CH₃, (ii) CH₃CH=CHCH₂CH₃, (iii) (CH₃)₂CHCH(CH₃)₂. Draw the structure of 2,2-dimethylbutane.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Benzene is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°. All six carbon–carbon bonds are identical and intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring. Kekulé's alternating-bond structure cannot explain the equal bond lengths. This delocalisation makes benzene very stable, so it resists addition, which would break up the ring; it reacts by substitution instead, and so does not decolourise bromine water.",
+    "prompt": "Benzene is unsaturated, yet it does not decolourise bromine water. Explain, and describe the structure of benzene.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "All three are structural isomers with the same Mr, so the difference comes from shape rather than mass. Pentane is unbranched, so its molecules lie alongside each other with a large area of contact; its London dispersion forces are the strongest, giving the highest boiling point of 36 °C. The more branched isomers are more compact, with a smaller area of contact, so their London dispersion forces are weaker and their boiling points are lower: 28 °C for 2-methylbutane and 10 °C for 2,2-dimethylpropane. At 20 °C, 2,2-dimethylpropane, with a boiling point of 10 °C, is a gas, while pentane and 2-methylbutane are liquids.",
+    "prompt": "The boiling points of pentane, 2-methylbutane and 2,2-dimethylpropane are 36 °C, 28 °C and 10 °C. All three have the formula C₅H₁₂. Explain the difference and state which is a gas at 20 °C.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The boiling points rise from ethene, −104 °C, through propene, −48 °C, but-1-ene, −6 °C, and pent-1-ene, 30 °C, to hex-1-ene, 63 °C, because the relative molecular mass and the number of electrons increase, so London dispersion forces get stronger. Hex-1-ene boils at 63 °C, lower than hexane at 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London dispersion forces. There is no significant difference in solubility in water: all the alkenes are non-polar, cannot form hydrogen bonds with water, and are insoluble in it.",
+    "prompt": "Explain why the boiling points of the alkenes ethene to hex-1-ene increase, why hex-1-ene boils at a lower temperature than hexane, and whether you would expect any difference in their solubility in water.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Chemical properties: hex-1-ene has a C=C double bond and undergoes addition reactions, so it decolourises bromine water; hexane has only single bonds, is unreactive, and does not decolourise bromine water. Combustion: both burn completely to CO₂ and H₂O, but hex-1-ene, with 85.7% carbon by mass, burns with a smokier flame than hexane, which has 83.7% carbon.",
+    "prompt": "Hexane and hex-1-ene are both colourless liquids. Predict and explain one way in which their chemical properties differ and one way in which their combustion differs.",
+    "type": "short"
+   },
+   {
     "marks": 6,
     "model": "Alkanes are saturated, with four single bonds around each carbon, so no atoms can add to them and a bond must be broken before a reaction can occur. The C–C and C–H bonds are strong, so a high activation energy is needed to break them. The electronegativities of C, 2.55, and H, 2.20, differ by only 0.35, so C–H bonds are almost non-polar and C–C bonds are completely non-polar. Alkanes therefore have no δ⁺ or δ⁻ sites to attract ions or polar reagents, so they resist attack.",
     "prompt": "Explain the relative chemical stability of the alkanes, using electronegativity values (C 2.55, H 2.20).",
@@ -10266,7 +9620,7 @@
    }
   ]
  },
- "chem23-s7": {
+ "chem23-s4": {
   "keyTerms": [
    {
     "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined.",
@@ -10307,6 +9661,54 @@
    {
     "definition": "A molecular model that shows the relative size and shape of the atoms but hides the bonds.",
     "term": "Space-filling model"
+   },
+   {
+    "definition": "A covalent bond formed by head-on overlap of orbitals along the line between two nuclei.",
+    "term": "Sigma bond"
+   },
+   {
+    "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line between two nuclei.",
+    "term": "Pi bond"
+   },
+   {
+    "definition": "Bonding in which the π electrons are shared by several atoms, spread over the whole ring or chain rather than fixed between two.",
+    "term": "Delocalised π bonding"
+   },
+   {
+    "definition": "Electron-pair repulsion theory, in which electron groups around an atom spread as far apart as possible to set the shape.",
+    "term": "VSEPR theory"
+   },
+   {
+    "definition": "The distance between the nuclei of two bonded atoms.",
+    "term": "Bond length"
+   },
+   {
+    "definition": "Compounds with the same molecular formula but different arrangements of atoms.",
+    "term": "Isomers"
+   },
+   {
+    "definition": "Isomers with the same order of joining whose atoms are arranged differently in space, because of restricted rotation about a double bond.",
+    "term": "Geometric isomers"
+   },
+   {
+    "definition": "A geometric isomer in which the groups of interest lie on the same side of a double bond.",
+    "term": "Cis isomer"
+   },
+   {
+    "definition": "A geometric isomer in which the groups of interest lie on opposite sides of a double bond.",
+    "term": "Trans isomer"
+   },
+   {
+    "definition": "The attraction between the permanent positive and negative ends of neighbouring polar molecules.",
+    "term": "Dipole–dipole attraction"
+   },
+   {
+    "definition": "The addition of hydrogen across a double bond, used to partly harden vegetable oils.",
+    "term": "Hydrogenation"
+   },
+   {
+    "definition": "An unsaturated fat with trans double bonds, formed when vegetable oils are partly hydrogenated.",
+    "term": "Trans fat"
    }
   ],
   "notes": [
@@ -10366,65 +9768,7 @@
      "The straight-chain alkene isomers of C₆H₁₂ differ in the position of the double bond: hex-1-ene, hex-2-ene and hex-3-ene.",
      "Check for repeats by numbering the chain from the other end or by rotating the model: 1-methylbutane is really pentane, and pent-4-ene is really pent-1-ene."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order. The three isomers of C₅H₁₂ are: pentane, with a chain of five carbon atoms, each bonded to the hydrogens it needs, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, with a methyl group on carbon 2 of a four-carbon chain, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, with four methyl groups bonded to one central carbon, C(CH₃)₄. In each expanded structure every bond is drawn as a line.",
-    "prompt": "What are structural isomers? Draw the expanded structural formula and give the IUPAC name of each of the three structural isomers of C₅H₁₂.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) Build ethane from two carbon balls, each with three hydrogen balls, joined by a rigid single link. Hold one CH₃ group still and turn the other about the C–C link; it moves freely through different positions, which are still the same molecule, so rotation is possible. (ii) Build ethene from two carbon balls, each with two hydrogen balls, joined by two flexible links. The model lies flat, and twisting one CH₂ group is not possible without breaking the model, so the C=C bond is rigid and planar. Limitation: ball-and-stick models exaggerate the gaps between atoms and are not to scale, and they do not show electrons.",
-    "prompt": "Describe how you would use a molecular model kit to show (i) that rotation is possible about the C–C bond in ethane, (ii) that the C=C bond in ethene is rigid and planar. Give one limitation of ball-and-stick models.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "But-1-ene, CH₂=CHCH₂CH₃, with the double bond between carbons 1 and 2. But-2-ene, CH₃CH=CHCH₃, with the double bond between carbons 2 and 3. Methylpropene, CH₂=C(CH₃)CH₃, with a methyl group on carbon 2 of a propene chain. Each expanded structure shows every bond as a line, and each condensed formula lists the groups on each carbon in order.",
-    "prompt": "Draw and name two alkene isomers of C₄H₈ and write the condensed structural formula of each.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s8": {
-  "keyTerms": [
-   {
-    "definition": "A covalent bond formed by head-on overlap of orbitals along the line between two nuclei.",
-    "term": "Sigma bond"
-   },
-   {
-    "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line between two nuclei.",
-    "term": "Pi bond"
-   },
-   {
-    "definition": "The shape around an atom with four bonds pointing to the corners of a tetrahedron, with angles of 109.5°.",
-    "term": "Tetrahedral"
-   },
-   {
-    "definition": "The shape around an atom with three bonds lying in one plane, with angles of 120°.",
-    "term": "Trigonal planar"
-   },
-   {
-    "definition": "The shape of a molecule or group of atoms with a bond angle of 180°, so that all atoms lie in a straight line.",
-    "term": "Linear"
-   },
-   {
-    "definition": "Bonding in which the π electrons are shared by several atoms, spread over the whole ring or chain rather than fixed between two.",
-    "term": "Delocalised π bonding"
-   },
-   {
-    "definition": "Electron-pair repulsion theory, in which electron groups around an atom spread as far apart as possible to set the shape.",
-    "term": "VSEPR theory"
-   },
-   {
-    "definition": "The distance between the nuclei of two bonded atoms.",
-    "term": "Bond length"
-   }
-  ],
-  "notes": [
    {
     "h": "Ethane",
     "points": [
@@ -10509,65 +9853,7 @@
      "Ethyne: 3 σ bonds, 2 π bonds, and linear with 180° angles.",
      "Benzene: 12 σ bonds and a delocalised π system of 6 electrons, planar with 120° angles, and all C–C bonds equal in length."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Ethane is tetrahedral around each carbon, with bond angles of 109.5°, so it is three-dimensional and rotates freely about its C–C bond. Ethene is trigonal planar around each carbon, with bond angles of 120°, so all six atoms lie in one plane. Ethyne is linear, with bond angles of 180°, so all four atoms lie in a straight line. The shape changes because the number of electron groups around each carbon falls from four to three to two as the carbon–carbon bond goes from single to double to triple.",
-    "prompt": "Describe and compare the shapes of ethane, ethene and ethyne, giving the bond angle around the carbon atoms in each.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Ethene has five σ bonds and one π bond; ethyne has three σ bonds and two π bonds. Each carbon in ethene has three σ bonds around it, so its shape is trigonal planar with 120° angles. Its p orbitals overlap sideways to form the π bond above and below the plane. Twisting one CH₂ group would break this sideways overlap, so the molecule is rigid and planar. In ethane each carbon has four σ bonds and no π bond; rotation about the σ C–C bond keeps the overlap of its orbitals unchanged, so ethane can rotate freely.",
-    "prompt": "State the number of σ and π bonds in ethene and in ethyne, and explain in terms of σ and π bonds why ethene is planar and rigid while ethane can rotate about its C–C bond.",
-    "type": "short"
-   },
-   {
-    "marks": 12,
-    "model": "Benzene is a flat, regular hexagon of six carbon atoms. Each carbon forms three σ bonds, two to neighbouring carbons and one to hydrogen, so the molecule has twelve σ bonds. Each carbon has one remaining p orbital, and these overlap sideways all round the ring to form a delocalised π system above and below the ring, with six electrons shared by all six carbons. (i) C–H bonding: 12 electrons. (ii) C–C σ bonding: 12 electrons. (iii) Delocalised π bonding: 6 electrons. Not involved in bonding: 12 electrons, the inner 1s electrons of the carbons, since 42 − 30 = 12. Benzene does not decolourise bromine water because addition would break up the delocalised ring; the ring is stable, so benzene reacts by substitution instead.",
-    "prompt": "Describe the bonding in benzene in terms of σ and delocalised π bonds. A benzene molecule has 42 electrons: how many are involved in (i) C–H bonding, (ii) C–C σ bonding, (iii) delocalised π bonding, and how many are not involved in bonding? Explain why benzene does not decolourise bromine water.",
-    "type": "short"
-   }
-  ]
- },
- "chem23-s9": {
-  "keyTerms": [
-   {
-    "definition": "Compounds with the same molecular formula but different arrangements of atoms.",
-    "term": "Isomers"
-   },
-   {
-    "definition": "Isomers with the same molecular formula whose atoms are joined in a different order.",
-    "term": "Structural isomers"
-   },
-   {
-    "definition": "Isomers with the same order of joining whose atoms are arranged differently in space, because of restricted rotation about a double bond.",
-    "term": "Geometric isomers"
-   },
-   {
-    "definition": "A geometric isomer in which the groups of interest lie on the same side of a double bond.",
-    "term": "Cis isomer"
-   },
-   {
-    "definition": "A geometric isomer in which the groups of interest lie on opposite sides of a double bond.",
-    "term": "Trans isomer"
-   },
-   {
-    "definition": "The attraction between the permanent positive and negative ends of neighbouring polar molecules.",
-    "term": "Dipole–dipole attraction"
-   },
-   {
-    "definition": "The addition of hydrogen across a double bond, used to partly harden vegetable oils.",
-    "term": "Hydrogenation"
-   },
-   {
-    "definition": "An unsaturated fat with trans double bonds, formed when vegetable oils are partly hydrogenated.",
-    "term": "Trans fat"
-   }
-  ],
-  "notes": [
    {
     "h": "Two kinds of isomerism (Higher Level only)",
     "points": [
@@ -10633,6 +9919,42 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order. The three isomers of C₅H₁₂ are: pentane, with a chain of five carbon atoms, each bonded to the hydrogens it needs, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, with a methyl group on carbon 2 of a four-carbon chain, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, with four methyl groups bonded to one central carbon, C(CH₃)₄. In each expanded structure every bond is drawn as a line.",
+    "prompt": "What are structural isomers? Draw the expanded structural formula and give the IUPAC name of each of the three structural isomers of C₅H₁₂.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Build ethane from two carbon balls, each with three hydrogen balls, joined by a rigid single link. Hold one CH₃ group still and turn the other about the C–C link; it moves freely through different positions, which are still the same molecule, so rotation is possible. (ii) Build ethene from two carbon balls, each with two hydrogen balls, joined by two flexible links. The model lies flat, and twisting one CH₂ group is not possible without breaking the model, so the C=C bond is rigid and planar. Limitation: ball-and-stick models exaggerate the gaps between atoms and are not to scale, and they do not show electrons.",
+    "prompt": "Describe how you would use a molecular model kit to show (i) that rotation is possible about the C–C bond in ethane, (ii) that the C=C bond in ethene is rigid and planar. Give one limitation of ball-and-stick models.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "But-1-ene, CH₂=CHCH₂CH₃, with the double bond between carbons 1 and 2. But-2-ene, CH₃CH=CHCH₃, with the double bond between carbons 2 and 3. Methylpropene, CH₂=C(CH₃)CH₃, with a methyl group on carbon 2 of a propene chain. Each expanded structure shows every bond as a line, and each condensed formula lists the groups on each carbon in order.",
+    "prompt": "Draw and name two alkene isomers of C₄H₈ and write the condensed structural formula of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ethane is tetrahedral around each carbon, with bond angles of 109.5°, so it is three-dimensional and rotates freely about its C–C bond. Ethene is trigonal planar around each carbon, with bond angles of 120°, so all six atoms lie in one plane. Ethyne is linear, with bond angles of 180°, so all four atoms lie in a straight line. The shape changes because the number of electron groups around each carbon falls from four to three to two as the carbon–carbon bond goes from single to double to triple.",
+    "prompt": "Describe and compare the shapes of ethane, ethene and ethyne, giving the bond angle around the carbon atoms in each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Ethene has five σ bonds and one π bond; ethyne has three σ bonds and two π bonds. Each carbon in ethene has three σ bonds around it, so its shape is trigonal planar with 120° angles. Its p orbitals overlap sideways to form the π bond above and below the plane. Twisting one CH₂ group would break this sideways overlap, so the molecule is rigid and planar. In ethane each carbon has four σ bonds and no π bond; rotation about the σ C–C bond keeps the overlap of its orbitals unchanged, so ethane can rotate freely.",
+    "prompt": "State the number of σ and π bonds in ethene and in ethyne, and explain in terms of σ and π bonds why ethene is planar and rigid while ethane can rotate about its C–C bond.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Benzene is a flat, regular hexagon of six carbon atoms. Each carbon forms three σ bonds, two to neighbouring carbons and one to hydrogen, so the molecule has twelve σ bonds. Each carbon has one remaining p orbital, and these overlap sideways all round the ring to form a delocalised π system above and below the ring, with six electrons shared by all six carbons. (i) C–H bonding: 12 electrons. (ii) C–C σ bonding: 12 electrons. (iii) Delocalised π bonding: 6 electrons. Not involved in bonding: 12 electrons, the inner 1s electrons of the carbons, since 42 − 30 = 12. Benzene does not decolourise bromine water because addition would break up the delocalised ring; the ring is stable, so benzene reacts by substitution instead.",
+    "prompt": "Describe the bonding in benzene in terms of σ and delocalised π bonds. A benzene molecule has 42 electrons: how many are involved in (i) C–H bonding, (ii) C–C σ bonding, (iii) delocalised π bonding, and how many are not involved in bonding? Explain why benzene does not decolourise bromine water.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "Structural isomers have the same molecular formula, but their atoms are joined in a different order. An example is but-1-ene, CH₂=CHCH₂CH₃, and but-2-ene, CH₃CH=CHCH₃. Geometric isomers have the same molecular formula and the same order of joining, but a different arrangement of the atoms in space; this is possible because there is no rotation about the C=C double bond. An example is cis-but-2-ene, with both CH₃ groups on the same side of the double bond, and trans-but-2-ene, with the CH₃ groups on opposite sides.",
     "prompt": "Distinguish between structural isomerism and geometric isomerism, giving an example of each from the isomers of C₄H₈.",
     "type": "short"
@@ -10651,166 +9973,245 @@
    }
   ]
  },
- "chem24-s1": {
+ "chem23-s5": {
   "keyTerms": [
    {
-    "definition": "A compound of carbon, almost always bonded to hydrogen and often containing oxygen, nitrogen, halogens or sulfur.",
-    "term": "Organic compound"
+    "definition": "One of different physical forms of the same element, in the same state, in which the atoms are bonded together in different ways.",
+    "term": "Allotrope"
    },
    {
-    "definition": "A starting material, such as crude oil or biomass, from which chemical products are made.",
-    "term": "Feedstock"
+    "definition": "A structure in which every atom is joined to its neighbours by covalent bonds throughout, so that the whole crystal is one molecule.",
+    "term": "Giant covalent structure"
    },
    {
-    "definition": "The conversion of biomass into organic compounds by micro-organisms, using enzymes as catalysts.",
-    "term": "Fermentation"
+    "definition": "A substance made of separate molecules held together by weak intermolecular forces.",
+    "term": "Simple molecular substance"
    },
    {
-    "definition": "A simpler compound from which a more complex molecule is made.",
-    "term": "Precursor"
+    "definition": "An electron that is not held by one atom or bond and is free to move through part of the structure.",
+    "term": "Delocalised electron"
    },
    {
-    "definition": "The building of a more complex molecule from simpler precursors in the laboratory or in industry.",
-    "term": "Synthesis"
+    "definition": "A molecule of carbon atoms joined into a closed hollow cage or tube of hexagonal and pentagonal rings.",
+    "term": "Fullerene"
    },
    {
-    "definition": "Plant and animal material, such as sugar cane, maize or wood, that can be used as a renewable feedstock.",
-    "term": "Biomass"
+    "definition": "A single layer of graphite, one carbon atom thick, with carbon atoms in a flat sheet of hexagonal rings.",
+    "term": "Graphene"
    },
    {
-    "definition": "A compound that kills or controls pests such as insects, weeds or fungi.",
-    "term": "Pesticide"
+    "definition": "A cylindrical fullerene, like a graphene sheet rolled into a tube about a nanometre across.",
+    "term": "Nanotube"
    },
    {
-    "definition": "Able to be broken down by micro-organisms in the environment.",
-    "term": "Biodegradable"
+    "definition": "The change of state directly from solid to gas when heated.",
+    "term": "Sublimation"
    },
    {
-    "definition": "The build-up of a substance in the tissues of organisms, increasing up a food chain.",
-    "term": "Bioaccumulation"
+    "definition": "Weak attractions between all molecules or layers, caused by temporary dipoles, which act between graphite layers and between C₆₀ molecules.",
+    "term": "London dispersion forces"
    },
    {
-    "definition": "An assessment of a product's impact across raw material, manufacture, use and disposal.",
-    "term": "Life-cycle view"
+    "definition": "The use of materials and structures on the scale of 1 to 100 nanometres.",
+    "term": "Nanotechnology"
+   },
+   {
+    "definition": "A unit of length equal to 10⁻⁹ metres.",
+    "term": "Nanometre"
+   },
+   {
+    "definition": "A component that carries heat away from an electronic device so that it does not overheat.",
+    "term": "Heat sink"
+   },
+   {
+    "definition": "A conductor through which electricity enters or leaves an electrolyte or cell.",
+    "term": "Electrode"
+   },
+   {
+    "definition": "A solid lubricant, such as graphite, that reduces friction between surfaces without a liquid oil.",
+    "term": "Dry lubricant"
+   },
+   {
+    "definition": "A material made from two or more components, such as nanotubes in plastic, with improved properties.",
+    "term": "Composite material"
+   },
+   {
+    "definition": "The insertion of ions between the layers of a material, as lithium ions fit between the layers of graphite.",
+    "term": "Intercalation"
+   },
+   {
+    "definition": "A diamond mined and sold to fund armed conflict.",
+    "term": "Conflict diamond"
    }
   ],
   "notes": [
    {
-    "h": "What organic compounds are",
+    "h": "Allotropy",
     "points": [
-     "Organic chemistry is the chemistry of carbon compounds, apart from simple ones such as carbon oxides, carbonates and hydrogencarbonates.",
-     "Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens or sulfur.",
-     "Each carbon atom forms four covalent bonds, and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.",
-     "Carbon atoms can be joined by single, double or triple bonds.",
-     "Organic compounds were once thought to come only from living things.",
-     "In 1828 Friedrich Wöhler made urea, a compound found in urine, from the inorganic salt ammonium cyanate, showing that organic compounds can be made in the laboratory."
+     "Allotropes are different physical forms of the same element in the same state, with the atoms bonded together in different ways.",
+     "Carbon's allotropes are diamond, graphite, graphene and the fullerenes.",
+     "Because they are all pure carbon, they have the same chemical properties: each burns in excess oxygen to give only carbon dioxide, C(s) + O₂(g) → CO₂(g).",
+     "This burning test is evidence that diamond and graphite are both forms of the same element.",
+     "Their physical properties differ because their structures differ.",
+     "Diamond, graphite and graphene are giant covalent, or macromolecular, structures, in which every atom is joined to its neighbours by covalent bonds throughout; fullerenes are separate molecules, which are simple molecular."
     ]
    },
    {
-    "h": "Sources of organic compounds",
+    "h": "Diamond",
     "points": [
-     "Fossil sources are crude oil, natural gas and coal, formed from the remains of organisms over millions of years.",
-     "Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines; see \"Hydrocarbons: sources and uses\".",
-     "Fossil sources are finite, or non-renewable.",
-     "Living things make natural products: plants, animals and micro-organisms make organic compounds that can be extracted.",
-     "Oils and fats are extracted from plants and animals.",
-     "Essential oils such as clove oil are extracted by steam distillation.",
-     "Medicines are extracted from plants, e.g. quinine from cinchona bark.",
-     "Fermentation: micro-organisms convert biomass into organic compounds; yeast converts glucose into ethanol and carbon dioxide.",
-     "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes in the yeast.",
-     "Antibiotics such as penicillin are also made by fermentation.",
-     "Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast.",
-     "Spirits (about 40% v/v ethanol) are made by distilling the fermented liquid.",
-     "Synthesis: chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.",
-     "Most modern medicines, plastics and pesticides are made by synthesis.",
-     "Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks.",
-     "Bioethanol made from biomass can be used as a fuel.",
-     "Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize."
+     "Each carbon atom is covalently bonded to four other carbon atoms arranged tetrahedrally, with bond angles of 109.5°, forming a rigid, three-dimensional giant covalent network.",
+     "Diamond is the hardest natural substance, because a great many strong covalent bonds in all directions must be broken to scratch or deform it.",
+     "Its melting point is very high, above 3500 °C, because strong covalent bonds throughout the structure must be broken.",
+     "It does not conduct electricity, because all four outer electrons of each carbon are used in bonds, so there are no free electrons or ions.",
+     "It conducts heat very well, better than copper, because the rigid, strongly bonded lattice passes on vibrations efficiently.",
+     "It is transparent and colourless, and it sparkles because it bends and reflects light strongly.",
+     "It is insoluble in water and all solvents, and its density of 3.51 g cm⁻³ reflects the closely packed atoms.",
+     "Diagram: a section of the diamond lattice showing one carbon bonded tetrahedrally to four others."
     ]
    },
    {
-    "b": "Each product group named in the specification is listed with its main uses and examples.",
-    "h": "Products and uses",
+    "h": "Graphite",
     "points": [
-     "Fuels are hydrocarbons such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.",
-     "Fuels are used for transport, heating and electricity generation.",
-     "Pharmaceuticals are medicines that are almost all organic compounds.",
-     "Aspirin and paracetamol relieve pain; penicillin is an antibiotic; see \"Organic compounds in pharmaceuticals\".",
-     "Plastics are polymers made mainly from oil-derived monomers.",
-     "Poly(ethene), made from ethene, is used for bags, bottles and film.",
-     "Poly(chloroethene), known as PVC, is made from chloroethene and used for pipes and window frames.",
-     "Plastics are light, cheap, durable, waterproof and insulating; see \"Addition polymers\".",
-     "Pesticides are compounds that kill or control pests.",
-     "Insecticides kill insects, herbicides kill weeds and fungicides kill fungi.",
-     "Natural pesticides include neem oil, from the neem tree, and pyrethrins, from chrysanthemum flowers.",
-     "Synthetic pesticides include malathion, an insecticide, and glyphosate, a herbicide.",
-     "Synthetics are man-made materials that replace or improve on natural ones.",
-     "Synthetic fibres such as nylon and polyester are made from monomers that link into polymers, and are used for clothing, ropes and carpets.",
-     "Synthetic dyes, detergents and synthetic rubber are further synthetic products.",
-     "Ethanol is used in perfumes and deodorants, and propanone is used in nail varnish remover.",
-     "Esters are used as flavourings and fragrances.",
-     "Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is a food preservative.",
-     "Soaps and detergents are organic products; see \"Surfactants and soap\"."
+     "Each carbon atom is covalently bonded to three others at 120°, in flat layers of hexagonal rings, and the layers are stacked on top of one another.",
+     "Each carbon uses three of its four outer electrons in bonds; the fourth is delocalised and free to move along the layer.",
+     "The layers are held together only by weak London dispersion forces, about 0.335 nm apart, compared with 0.142 nm between carbons within a layer.",
+     "Graphite is soft and slippery, and it marks paper, because the layers slide over each other easily.",
+     "Graphite conducts electricity along the layers, because the delocalised electrons can move and carry charge.",
+     "Graphite has a very high melting point, because the strong covalent bonds within the layers must be broken.",
+     "Graphite is a grey-black, shiny, opaque solid that is insoluble in water.",
+     "Its density is about 2.2 g cm⁻³, less than that of diamond, because of the space between the layers.",
+     "Diagram: two or three stacked layers of hexagons, labelled strong covalent bonds within layers, weak forces between layers and delocalised electrons."
     ]
    },
    {
-    "h": "Benefits and impacts",
+    "h": "Graphene",
     "points": [
-     "Benefits: energy for transport and heating, and longer, healthier lives through medicines and sanitation.",
-     "Benefits: higher crop yields and less food lost to pests, and cheap, light, durable materials.",
-     "Benefits: clothing and goods for large populations.",
-     "Fuel impact: burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.",
-     "Fuel impact: burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot; see \"The impact of hydrocarbons\".",
-     "Plastic impact: most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.",
-     "Plastic impact: in the oceans, plastics harm wildlife and break into microplastics.",
-     "Plastic impact: burning plastics can release toxic gases.",
-     "Pesticide impact: some pesticides are toxic to non-target organisms such as bees, birds and fish.",
-     "Pesticide impact: persistent pesticides such as DDT build up in food chains (bioaccumulation).",
-     "DDT was banned for agricultural use in most countries, and the Stockholm Convention (2001) restricts it to disease-vector control.",
-     "The EU restricted outdoor use of three neonicotinoid insecticides in 2018 because of harm to bees.",
-     "Pesticide run-off can contaminate water.",
-     "Pharmaceutical impact: medicines can cause side effects and addiction, e.g. addiction to opiates.",
-     "Pharmaceutical impact: overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways.",
-     "Resource impact: fossil feedstocks are finite.",
-     "Resource impact: extracting and processing fossil feedstocks uses energy and can cause spills and pollution."
+     "Graphene is a single layer of graphite, one carbon atom thick: a flat, two-dimensional sheet of hexagonal rings, with each carbon bonded to three others and one delocalised electron per carbon.",
+     "It was first isolated in 2004 by Andre Geim and Konstantin Novoselov at the University of Manchester, who peeled layers off graphite with sticky tape.",
+     "Geim and Novoselov won the Nobel Prize in Physics in 2010.",
+     "Graphene is extremely strong for its thickness, one of the strongest materials known, because of the strong covalent bonds across the sheet, yet it is very light and flexible.",
+     "Graphene conducts electricity extremely well, because its delocalised electrons move freely across the sheet, and it is also an excellent conductor of heat.",
+     "A single sheet absorbs only about 2.3% of visible light, so it is almost transparent, and it is impermeable to gases.",
+     "Diagram: a flat honeycomb sheet of hexagons one atom thick."
     ]
    },
    {
-    "h": "Judging a product",
+    "h": "Fullerenes",
     "points": [
-     "A product's impact is assessed across its whole life, from raw material and manufacture to use and disposal; this is a life-cycle view.",
-     "Ways to reduce impact include recycling and reuse.",
-     "Renewable feedstocks and biodegradable alternatives reduce impact.",
-     "Designing safer molecules that break down after use reduces impact.",
-     "Using less, e.g. targeted pesticide use, reduces impact.",
-     "A natural source is not automatically safer or more sustainable, because natural compounds can be toxic.",
-     "Growing biomass uses land, water and fertiliser.",
-     "A balanced answer names a benefit and an impact, and says how the impact can be reduced."
+     "Fullerenes are molecules of carbon atoms joined into closed hollow cages, or tubes, made of hexagonal and pentagonal rings, with each carbon bonded to three others.",
+     "Buckminsterfullerene, C₆₀, has 60 carbon atoms arranged in 20 hexagons and 12 pentagons, the shape of a football, and is nicknamed the buckyball.",
+     "C₆₀ was discovered in 1985 by Harry Kroto, Robert Curl and Richard Smalley, who won the Nobel Prize in Chemistry in 1996.",
+     "It is named after the architect Buckminster Fuller, whose domes it resembles.",
+     "C₆₀ is a simple molecular substance: covalent bonds hold the atoms within each ball, but only weak London dispersion forces act between the balls.",
+     "So, unlike the giant structures, C₆₀ is soft and has a relatively low sublimation temperature.",
+     "C₆₀ dissolves in non-polar solvents such as methylbenzene, giving a purple solution, but not in water.",
+     "C₆₀ is a poor conductor of electricity, because its delocalised electrons can move within a molecule but not from one molecule to the next.",
+     "Carbon nanotubes are cylindrical fullerenes, like a sheet of graphene rolled into a tube about a nanometre across; they are very strong and conduct electricity along the tube.",
+     "Diagram: a C₆₀ ball showing its hexagons and pentagons; a short section of a nanotube."
+    ]
+   },
+   {
+    "h": "Comparing the allotropes",
+    "points": [
+     "Bonds per carbon: diamond forms four; graphite, graphene and the fullerenes form three, with one delocalised electron each.",
+     "Structure: diamond is a three-dimensional giant covalent network; graphite is giant covalent layers; graphene is a single giant covalent layer; fullerenes are discrete molecules, and nanotubes are very long tubes.",
+     "Hardness: diamond is the hardest; graphite is soft and slippery; graphene is strong and flexible; C₆₀ is soft.",
+     "Electrical conductivity: diamond does not conduct; graphite conducts well along its layers; graphene conducts excellently; C₆₀ conducts poorly; nanotubes conduct well.",
+     "Melting point: diamond, graphite and graphene are very high, whereas C₆₀ is much lower, because only weak forces act between its molecules.",
+     "Solubility: diamond, graphite and graphene are insoluble in all solvents, whereas C₆₀ dissolves in non-polar organic solvents.",
+     "The general rule is that properties depend on how many bonds each carbon forms, four giving no free electrons and three giving delocalised electrons, and on whether the structure is a continuous giant network or separate molecules."
+    ]
+   },
+   {
+    "h": "Common commercial products",
+    "points": [
+     "Diamond is used in jewellery because it is transparent, sparkles and is hard enough not to scratch.",
+     "Diamond, mostly synthetic industrial diamond, is used on the tips of drill bits, on saw blades for cutting stone and glass, and in grinding and polishing tools, because it is the hardest substance.",
+     "Graphite is mixed with clay to make pencil “leads”, because its layers slide off and mark the paper.",
+     "Graphite is used as a dry lubricant, e.g. for locks and for machinery that gets hot, because its layers slide over each other and it withstands high temperatures.",
+     "Carbon nanotubes and graphene are added to plastics to make strong, light composite materials for sports equipment, e.g. tennis rackets and bicycle frames."
+    ]
+   },
+   {
+    "h": "Electrochemistry",
+    "points": [
+     "Graphite is used for electrodes because it conducts electricity, has a very high melting point and is fairly unreactive, e.g. in the electrolysis of solutions in laboratories and industry.",
+     "In a zinc–carbon dry cell, the positive electrode, or cathode, is a carbon rod made of graphite.",
+     "In a lithium-ion cell, the negative electrode is usually graphite: lithium ions fit between its layers when the cell is charged and leave again when it discharges (see “The lithium-ion cell”).",
+     "Graphene's very large surface area and high conductivity are being developed for faster-charging batteries and supercapacitors."
+    ]
+   },
+   {
+    "h": "Electronics",
+    "points": [
+     "Graphene conducts electricity extremely well and is transparent and flexible, so it is being developed for touchscreens, flexible displays, wearable sensors and very fast transistors.",
+     "Carbon nanotubes conduct electricity and are being developed for transistors and for conductive films and inks.",
+     "Diamond conducts heat better than copper but does not conduct electricity, so it is used as a heat sink to carry heat away from powerful electronic components without short-circuiting them.",
+     "Graphite and graphene conduct heat well, and they are used in heat-spreading sheets in phones and laptops."
+    ]
+   },
+   {
+    "h": "Nanotechnology",
+    "points": [
+     "Nanotechnology is the use of materials and structures on the scale of 1–100 nanometres, where 1 nm = 10⁻⁹ m; fullerenes, nanotubes and graphene are nanomaterials.",
+     "Fullerene cages and nanotubes are being researched for drug delivery: a drug molecule can be held inside them or attached to the outside, and carried to target cells such as cancer cells.",
+     "Nanotubes are among the strongest materials known for their mass, and they are used to reinforce composites.",
+     "C₆₀ molecules are tiny, roughly spherical molecules held together by weak forces, and they have been researched as nano-scale lubricants, or “molecular ball bearings”.",
+     "Graphene-based membranes are being researched for filtering and purifying water, because a graphene sheet is strong and gases and many other substances cannot pass through it."
+    ]
+   },
+   {
+    "h": "Benefits, limits and risks",
+    "points": [
+     "Benefits include lighter, stronger materials that reduce the fuel used by vehicles, better batteries for electric vehicles and for storing renewable energy, new medical treatments, and faster, flexible electronics.",
+     "Limits: many graphene and nanotube uses are still at the research stage, because making large, defect-free sheets cheaply is difficult.",
+     "Risks: the health effects of nanoparticles are not fully known, and some long, thin nanotubes inhaled as dust may damage the lungs in a similar way to asbestos fibres, so they need careful handling and testing.",
+     "Mining natural diamonds has environmental and social costs, and “conflict diamonds” have funded wars; synthetic diamonds are an alternative for many uses.",
+     "Each use follows from the structure: four bonds per carbon in a three-dimensional network give diamond its hardness and lack of electrical conduction.",
+     "Three bonds per carbon with delocalised electrons give conduction in graphite, graphene and nanotubes, and weak forces between layers or molecules give softness and lubrication in graphite and C₆₀."
     ]
    }
   ],
   "questions": [
    {
-    "marks": 6,
-    "model": "Crude oil is a fossil source, formed from the remains of organisms over millions of years. It supplies fuels and feedstocks for plastics, such as poly(ethene) made from ethene. Yeast fermentation is a second source: yeast converts glucose into ethanol and carbon dioxide, C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).",
-    "prompt": "Outline two sources of organic compounds, giving an example of a product obtained from each.",
+    "marks": 9,
+    "model": "(i) Each carbon in diamond is covalently bonded to four others, tetrahedrally, in a rigid three-dimensional network; many strong covalent bonds in all directions must be broken to scratch it, so it is very hard. (ii) Graphite has flat layers of hexagonal rings, bonded covalently within each layer, but the layers are held together only by weak London dispersion forces, so they slide over each other easily and graphite is soft and slippery. (iii) Each carbon in graphite uses three electrons in bonds, leaving one delocalised electron that can move along the layer and carry charge. In diamond all four outer electrons of each carbon are used in bonds, so there are no free electrons to carry charge.",
+    "prompt": "Explain, in terms of structure and bonding, why (i) diamond is very hard, (ii) graphite is soft and slippery, (iii) graphite conducts electricity but diamond does not.",
     "type": "short"
    },
    {
     "marks": 9,
-    "model": "Plastics: a benefit is that they are light, cheap, durable, waterproof and insulating. An impact is that most plastics are not biodegradable, so they persist for decades or longer as litter and in the oceans, where they harm wildlife. The impact can be reduced by recycling and reuse, and by using biodegradable plastics made from renewable feedstocks. Pesticides: a benefit is higher crop yields and less food lost to pests. An impact is that some pesticides are toxic to non-target organisms such as bees, and persistent pesticides build up in food chains. The impact can be reduced by targeted pesticide use and by using safer molecules that break down after use.",
-    "prompt": "Products based on organic compounds include plastics and pesticides. For each, give one benefit to society and one impact on the environment, and suggest how that impact could be reduced.",
+    "model": "Graphene is a single flat layer of hexagonal rings of carbon atoms, one atom thick, a giant covalent structure in which each carbon is bonded to three others. Buckminsterfullerene, C₆₀, is a hollow ball of 60 carbon atoms, with 20 hexagons and 12 pentagons, and is a simple molecular substance. Graphene conducts well because its delocalised electrons move freely across the continuous sheet. C₆₀ conducts poorly because its delocalised electrons can move within a molecule but not from one molecule to the next. C₆₀ dissolves in non-polar methylbenzene because its separate molecules are held by weak London dispersion forces, which the solvent can overcome. Graphene does not dissolve, because it is a giant covalent structure whose strong covalent bonds would have to be broken.",
+    "prompt": "Compare the structures of graphene and buckminsterfullerene, and explain why graphene conducts electricity well but C₆₀ does not, and why C₆₀ dissolves in methylbenzene but graphene does not.",
     "type": "short"
    },
    {
     "marks": 6,
-    "model": "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g). Fermentation stops at about 12–15% ethanol by volume because the ethanol produced kills the yeast, so the yeast can no longer convert glucose. Stronger drinks such as spirits, at about 40% v/v ethanol, are made by distilling the fermented liquid.",
-    "prompt": "Write a balanced equation for the fermentation of glucose to ethanol, and explain why fermentation cannot produce a drink stronger than about 15% ethanol.",
+    "model": "Allotropes are different physical forms of the same element in the same state, in which the atoms are bonded together in different ways. Evidence: both burn in excess oxygen to give only carbon dioxide, C(s) + O₂(g) → CO₂(g), showing that both are pure carbon and have the same chemical properties.",
+    "prompt": "What are allotropes? Describe one piece of evidence that diamond and graphite are both forms of carbon.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Diamond is used on drill bits and saw blades. Its use depends on its structure: each carbon is bonded tetrahedrally to four others in a rigid three-dimensional network of strong covalent bonds, so it is the hardest substance and resists wear. Graphite is used as a dry lubricant or in electrodes. Its layers are held together only by weak London dispersion forces, so they slide over each other; each carbon also has a delocalised electron that can move along the layers, so graphite conducts electricity. Graphene is used in touchscreens and flexible displays. It is one atom thick, with delocalised electrons that move freely across the sheet, so it conducts electricity extremely well, and it is transparent and flexible.",
+    "prompt": "Give one use of each of diamond, graphite and graphene, and explain how each use depends on the structure of the allotrope.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A benefit is that carbon nanomaterials enable new technologies: graphene is being developed for faster, flexible electronics and for batteries that charge faster, and nanotubes make strong, light composites that reduce fuel use in vehicles. A concern is that the health effects of nanoparticles are not fully known; some long, thin nanotubes inhaled as dust may damage the lungs in a similar way to asbestos fibres, so they need careful handling and testing. Many uses are still at the research stage, because making large, defect-free sheets cheaply is difficult, so the benefits must be weighed against these risks before wider use.",
+    "prompt": "Discuss the use of carbon nanomaterials in society, referring to one benefit and one concern.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Graphite conducts electricity because each carbon has a delocalised electron that can move along the layers, so it can carry charge into and out of the cell or the electrolyte. It is fairly unreactive and has a very high melting point, so it is suitable for electrolysis. In a lithium-ion cell, the graphite negative electrode takes up lithium ions between its layers when the cell is charged, and releases them when it discharges.",
+    "prompt": "Explain why graphite is used as an electrode in a lithium-ion cell and in electrolysis.",
     "type": "short"
    }
   ]
  },
- "chem24-s2": {
+ "chem24-s1": {
   "keyTerms": [
    {
     "definition": "An atom or group of atoms, attached to a hydrocarbon part, that gives a family of compounds its characteristic chemical properties.",
@@ -10851,6 +10252,50 @@
    {
     "definition": "A compound formed from a carboxylic acid and an alcohol, with loss of water, containing the –COO– group.",
     "term": "Ester"
+   },
+   {
+    "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined.",
+    "term": "Molecular formula"
+   },
+   {
+    "definition": "The simplest whole-number ratio of the atoms of each element in a compound.",
+    "term": "Empirical formula"
+   },
+   {
+    "definition": "A formula that writes the atoms bonded to each carbon in order along the chain, without drawing the bonds.",
+    "term": "Condensed structural formula"
+   },
+   {
+    "definition": "A formula that draws every atom and every bond in the molecule.",
+    "term": "Expanded structural formula"
+   },
+   {
+    "definition": "The arrangement of four bonding groups around a carbon atom at the corners of a tetrahedron, with bond angles of 109.5°.",
+    "term": "Tetrahedral geometry"
+   },
+   {
+    "definition": "The arrangement of three bonding groups around a carbon atom in a flat triangle, with bond angles of 120°.",
+    "term": "Planar geometry"
+   },
+   {
+    "definition": "The hydrocarbon part of a molecule, such as CH₃– or C₂H₅–, represented by R.",
+    "term": "Alkyl group"
+   },
+   {
+    "definition": "Compounds with the same molecular formula but different structural formulae.",
+    "term": "Structural isomers"
+   },
+   {
+    "definition": "Structural isomers that differ in the branching of the carbon skeleton.",
+    "term": "Chain isomers"
+   },
+   {
+    "definition": "Structural isomers with the same functional group in different positions on the carbon chain.",
+    "term": "Position isomers"
+   },
+   {
+    "definition": "Structural isomers that belong to different homologous series.",
+    "term": "Functional group isomers"
    }
   ],
   "notes": [
@@ -10865,11 +10310,11 @@
      "A homologous series is a family of compounds with the same general formula and the same functional group.",
      "Each member of a homologous series differs from the next by CH₂, a mass of 14.",
      "Members of a homologous series have similar chemical properties and a gradual change in physical properties, such as boiling point rising with chain length.",
-     "Each family can be written with R for the hydrocarbon part, e.g. R–OH; see \"Representing organic molecules\"."
+     "Each family can be written with R for the hydrocarbon part, e.g. R–OH; see below."
     ]
    },
    {
-    "b": "Each family is listed with its general formula, ending and first member. Naming of alkanes, alkenes, alkynes and benzene is in \"Groups of hydrocarbons\".",
+    "b": "Each family is listed with its general formula, ending and first member. Naming of alkanes, alkenes, alkynes and benzene is in \"Groups of hydrocarbons and their properties\".",
     "h": "Classification table of families",
     "points": [
      "Alkanes have C–C single bonds only, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.",
@@ -10961,7 +10406,7 @@
      "The carbon of the –COOH group is counted in the chain as carbon 1, and substituents are numbered from it.",
      "CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid.",
      "The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.",
-     "Carboxylic acids are acidic; see \"Acidity of carboxylic acids and alcohols\".",
+     "Carboxylic acids are acidic; see \"Physical properties and acidity\".",
      "Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.",
      "Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.",
      "Ethanoic acid is used as a food flavouring and preservative.",
@@ -10972,7 +10417,7 @@
     "h": "Esters",
     "points": [
      "Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water.",
-     "The reaction is described in \"Investigation: preparing an ester\".",
+     "The reaction is described in \"Tests, reaction schemes and preparing an ester\".",
      "Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.",
      "Step 2: name the alcohol part as an alkyl group (methyl, ethyl, propyl and so on) and write it first.",
      "Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.",
@@ -10987,77 +10432,7 @@
      "Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.",
      "Fats and oils are esters of propane-1,2,3-triol; see \"Redox and acid–base reactions of organic compounds\"."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 10,
-    "model": "(i) CH₃CH₂CHO is propanal: a three-carbon chain with the –CHO carbon as carbon 1 and the -al ending. (ii) CH₃COCH₂CH₃ is butanone: a four-carbon chain with the C=O inside the chain; no number is needed because there is only one butanone. (iii) CH₃CH₂COOH is propanoic acid: a three-carbon chain with the -oic acid ending, and the –COOH carbon as carbon 1. (iv) CH₃CH₂COOCH₃ is methyl propanoate: the alcohol part, methyl, is named first, and the acid part, propanoic acid, becomes propanoate. (v) CH₃CH₂CH₂Cl is 1-chloropropane: a three-carbon chain with the chlorine on carbon 1.",
-    "prompt": "Give the IUPAC name of each compound: (i) CH₃CH₂CHO, (ii) CH₃COCH₂CH₃, (iii) CH₃CH₂COOH, (iv) CH₃CH₂COOCH₃, (v) CH₃CH₂CH₂Cl.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "A primary alcohol has the carbon bearing the –OH attached to at most one other carbon atom, for example ethanol, CH₃CH₂OH. A secondary alcohol has the carbon bearing the –OH attached to two other carbon atoms, for example propan-2-ol, CH₃CH(OH)CH₃. A tertiary alcohol has the carbon bearing the –OH attached to three other carbon atoms, for example 2-methylpropan-2-ol, (CH₃)₃COH.",
-    "prompt": "Define primary, secondary and tertiary alcohols, and give the name and condensed formula of one example of each.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "A homologous series is a family of compounds with the same general formula and the same functional group, in which each member differs from the next by CH₂. Two characteristics are: the members have the same general formula, and the members have similar chemical properties. A third is a gradual trend in physical properties, such as boiling point rising with chain length.",
-    "prompt": "What is meant by a homologous series? Give two characteristics of a homologous series.",
-    "type": "short"
-   }
-  ]
- },
- "chem24-s3": {
-  "keyTerms": [
-   {
-    "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined.",
-    "term": "Molecular formula"
-   },
-   {
-    "definition": "The simplest whole-number ratio of the atoms of each element in a compound.",
-    "term": "Empirical formula"
-   },
-   {
-    "definition": "A formula that writes the atoms bonded to each carbon in order along the chain, without drawing the bonds.",
-    "term": "Condensed structural formula"
-   },
-   {
-    "definition": "A formula that draws every atom and every bond in the molecule.",
-    "term": "Expanded structural formula"
-   },
-   {
-    "definition": "The arrangement of four bonding groups around a carbon atom at the corners of a tetrahedron, with bond angles of 109.5°.",
-    "term": "Tetrahedral geometry"
-   },
-   {
-    "definition": "The arrangement of three bonding groups around a carbon atom in a flat triangle, with bond angles of 120°.",
-    "term": "Planar geometry"
-   },
-   {
-    "definition": "The hydrocarbon part of a molecule, such as CH₃– or C₂H₅–, represented by R.",
-    "term": "Alkyl group"
-   },
-   {
-    "definition": "Compounds with the same molecular formula but different structural formulae.",
-    "term": "Structural isomers"
-   },
-   {
-    "definition": "Structural isomers that differ in the branching of the carbon skeleton.",
-    "term": "Chain isomers"
-   },
-   {
-    "definition": "Structural isomers with the same functional group in different positions on the carbon chain.",
-    "term": "Position isomers"
-   },
-   {
-    "definition": "Structural isomers that belong to different homologous series.",
-    "term": "Functional group isomers"
-   }
-  ],
-  "notes": [
    {
     "b": "Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule.",
     "h": "Four representations of ethanoic acid",
@@ -11069,7 +10444,7 @@
      "Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.",
      "Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.",
      "Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.",
-     "Empirical formula (the simplest ratio of atoms; see \"Empirical and molecular formulae\") may also be asked.",
+     "Empirical formula (the simplest ratio of atoms; see \"Formulae and balancing equations\") may also be asked.",
      "Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.",
      "Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch."
     ]
@@ -11084,7 +10459,7 @@
      "Both carbons of ethene are planar, and all six carbons of benzene are planar.",
      "A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.",
      "An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.",
-     "The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group; see \"VSEPR theory\"."
+     "The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group; see \"Bonding, formulae and shapes\"."
     ]
    },
    {
@@ -11127,7 +10502,7 @@
      "The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.",
      "Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate.",
      "Chain and position isomers have similar chemical properties but slightly different physical properties.",
-     "Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, bp 118 °C) and methyl methanoate (not acidic, bp 32 °C); see \"Physical properties of organic compounds\"."
+     "Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, bp 118 °C) and methyl methanoate (not acidic, bp 32 °C); see \"Physical properties and acidity\"."
     ]
    },
    {
@@ -11143,6 +10518,24 @@
    }
   ],
   "questions": [
+   {
+    "marks": 10,
+    "model": "(i) CH₃CH₂CHO is propanal: a three-carbon chain with the –CHO carbon as carbon 1 and the -al ending. (ii) CH₃COCH₂CH₃ is butanone: a four-carbon chain with the C=O inside the chain; no number is needed because there is only one butanone. (iii) CH₃CH₂COOH is propanoic acid: a three-carbon chain with the -oic acid ending, and the –COOH carbon as carbon 1. (iv) CH₃CH₂COOCH₃ is methyl propanoate: the alcohol part, methyl, is named first, and the acid part, propanoic acid, becomes propanoate. (v) CH₃CH₂CH₂Cl is 1-chloropropane: a three-carbon chain with the chlorine on carbon 1.",
+    "prompt": "Give the IUPAC name of each compound: (i) CH₃CH₂CHO, (ii) CH₃COCH₂CH₃, (iii) CH₃CH₂COOH, (iv) CH₃CH₂COOCH₃, (v) CH₃CH₂CH₂Cl.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A primary alcohol has the carbon bearing the –OH attached to at most one other carbon atom, for example ethanol, CH₃CH₂OH. A secondary alcohol has the carbon bearing the –OH attached to two other carbon atoms, for example propan-2-ol, CH₃CH(OH)CH₃. A tertiary alcohol has the carbon bearing the –OH attached to three other carbon atoms, for example 2-methylpropan-2-ol, (CH₃)₃COH.",
+    "prompt": "Define primary, secondary and tertiary alcohols, and give the name and condensed formula of one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A homologous series is a family of compounds with the same general formula and the same functional group, in which each member differs from the next by CH₂. Two characteristics are: the members have the same general formula, and the members have similar chemical properties. A third is a gradual trend in physical properties, such as boiling point rising with chain length.",
+    "prompt": "What is meant by a homologous series? Give two characteristics of a homologous series.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "The expanded structure of ethyl ethanoate is H₃C–C(=O)–O–CH₂–CH₃, with every bond drawn: the H atoms on the CH₃ and CH₂ carbons, the C=O double bond from the acid carbon to its oxygen, and single bonds from that carbon to the bridging oxygen and on to the CH₂ group. The C=O carbon is planar, with a bond angle of 120° around it. Any CH₃ or CH₂ carbon is tetrahedral, with a bond angle of 109.5° around it.",
@@ -11163,7 +10556,7 @@
    }
   ]
  },
- "chem24-s4": {
+ "chem24-s2": {
   "keyTerms": [
    {
     "definition": "The attractions between separate molecules, which are overcome when a substance melts or boils.",
@@ -11200,6 +10593,42 @@
    {
     "definition": "Pure ethanoic acid, which melts at 17 °C and freezes to an ice-like solid on a cold day.",
     "term": "Glacial ethanoic acid"
+   },
+   {
+    "definition": "A substance that donates a proton (H⁺).",
+    "term": "Brønsted–Lowry acid"
+   },
+   {
+    "definition": "The negative ion left behind when an acid loses H⁺.",
+    "term": "Conjugate base"
+   },
+   {
+    "definition": "The negative ion, R–O⁻, formed when an alcohol loses H⁺.",
+    "term": "Alkoxide ion"
+   },
+   {
+    "definition": "The negative ion, RCOO⁻, formed when a carboxylic acid loses H⁺.",
+    "term": "Carboxylate ion"
+   },
+   {
+    "definition": "A negative charge shared between several atoms rather than fixed on one atom.",
+    "term": "Delocalised charge"
+   },
+   {
+    "definition": "The single structure that is the average of two or more resonance structures of the same ion or molecule.",
+    "term": "Resonance hybrid"
+   },
+   {
+    "definition": "The pulling or pushing of electron density along sigma bonds by an atom or group, because of its electronegativity.",
+    "term": "Inductive effect"
+   },
+   {
+    "definition": "A group, such as chlorine, that pulls electron density towards itself and stabilises a negative ion.",
+    "term": "Electron-withdrawing group"
+   },
+   {
+    "definition": "A group, such as an alkyl group, that pushes electron density away from itself and destabilises a negative ion.",
+    "term": "Electron-releasing group"
    }
   ],
   "notes": [
@@ -11251,7 +10680,7 @@
     "h": "Effect of shape and branching (Higher Level only)",
     "points": [
      "Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker.",
-     "For alkanes, see \"Explaining and predicting properties\".",
+     "For alkanes, see \"Groups of hydrocarbons and their properties\".",
      "Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.",
      "The more compact the molecule, and the more crowded the –OH, the lower the boiling point.",
      "Step 1: from a table or graph of boiling point against number of carbons, describe the trend.",
@@ -11290,69 +10719,7 @@
      "Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation; see \"Investigation: synthesising benzoic acid\".",
      "Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction)."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Butane is a non-polar alkane, so its molecules are held together only by London dispersion forces, and it boils at the lowest temperature. Propanal has a strongly polar C=O bond, so its molecules have dipole–dipole forces in addition to London forces, and it boils much higher than butane of the same Mr. Propanal cannot hydrogen bond to itself, because its hydrogens are bonded to carbon. Propan-1-ol has a very polar O–H bond, so its molecules hydrogen bond to each other as well as having London forces. Hydrogen bonds are stronger than dipole–dipole forces, so propan-1-ol boils at 97 °C, higher than propanal.",
-    "prompt": "Propanal (Mr 58) boils at 48 °C, butane (Mr 58) at −1 °C and propan-1-ol (Mr 60) at 97 °C. Explain these differences in terms of intermolecular forces.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Both compounds have the same formula and mass, so their London forces are similar. Ethanoic acid has an O–H group, and its molecules form hydrogen-bonded dimers, with two hydrogen bonds holding each pair together; these must be overcome to boil it, so it boils at 118 °C. A labelled diagram of the dimer, with dashed hydrogen bonds from the O–H of each molecule to the C=O oxygen of the other, is expected. Methyl methanoate has no O–H group, so its molecules cannot hydrogen bond to each other; only dipole–dipole and London forces act, and it boils at 32 °C. Pure ethanoic acid melts at 17 °C, high for its size, because of its strong hydrogen bonding. On a cold day it freezes to an ice-like solid, which is why it is called glacial ethanoic acid.",
-    "prompt": "Ethanoic acid and methyl methanoate both have the formula C₂H₄O₂. Explain why ethanoic acid boils at 118 °C but methyl methanoate at 32 °C, and why pure ethanoic acid is called glacial ethanoic acid.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "The –OH group of ethanol hydrogen bonds with water molecules, so ethanol mixes with water in all proportions. In hexan-1-ol, the long non-polar hydrocarbon chain cannot hydrogen bond with water and disrupts the hydrogen bonding of the water, so only a little dissolves. Solubility in water falls as the chain gets longer, because the hydrocarbon part makes up more of the molecule.",
-    "prompt": "Ethanol is miscible with water but hexan-1-ol is only slightly soluble. Explain.",
-    "type": "short"
-   }
-  ]
- },
- "chem24-s5": {
-  "keyTerms": [
-   {
-    "definition": "A substance that donates a proton (H⁺).",
-    "term": "Brønsted–Lowry acid"
-   },
-   {
-    "definition": "The negative ion left behind when an acid loses H⁺.",
-    "term": "Conjugate base"
-   },
-   {
-    "definition": "The negative ion, R–O⁻, formed when an alcohol loses H⁺.",
-    "term": "Alkoxide ion"
-   },
-   {
-    "definition": "The negative ion, RCOO⁻, formed when a carboxylic acid loses H⁺.",
-    "term": "Carboxylate ion"
-   },
-   {
-    "definition": "A negative charge shared between several atoms rather than fixed on one atom.",
-    "term": "Delocalised charge"
-   },
-   {
-    "definition": "The single structure that is the average of two or more resonance structures of the same ion or molecule.",
-    "term": "Resonance hybrid"
-   },
-   {
-    "definition": "The pulling or pushing of electron density along sigma bonds by an atom or group, because of its electronegativity.",
-    "term": "Inductive effect"
-   },
-   {
-    "definition": "A group, such as chlorine, that pulls electron density towards itself and stabilises a negative ion.",
-    "term": "Electron-withdrawing group"
-   },
-   {
-    "definition": "A group, such as an alkyl group, that pushes electron density away from itself and destabilises a negative ion.",
-    "term": "Electron-releasing group"
-   }
-  ],
-  "notes": [
    {
     "h": "The O–H bond and acidity (Higher Level only)",
     "points": [
@@ -11421,7 +10788,7 @@
      "Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.",
      "Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.",
      "Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O.",
-     "Details of these tests are in \"Tests for aldehydes, ketones and carboxylic acids\".",
+     "Details of these tests are in \"Tests, reaction schemes and preparing an ester\".",
      "Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.",
      "Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.",
      "Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.",
@@ -11432,6 +10799,24 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "Butane is a non-polar alkane, so its molecules are held together only by London dispersion forces, and it boils at the lowest temperature. Propanal has a strongly polar C=O bond, so its molecules have dipole–dipole forces in addition to London forces, and it boils much higher than butane of the same Mr. Propanal cannot hydrogen bond to itself, because its hydrogens are bonded to carbon. Propan-1-ol has a very polar O–H bond, so its molecules hydrogen bond to each other as well as having London forces. Hydrogen bonds are stronger than dipole–dipole forces, so propan-1-ol boils at 97 °C, higher than propanal.",
+    "prompt": "Propanal (Mr 58) boils at 48 °C, butane (Mr 58) at −1 °C and propan-1-ol (Mr 60) at 97 °C. Explain these differences in terms of intermolecular forces.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Both compounds have the same formula and mass, so their London forces are similar. Ethanoic acid has an O–H group, and its molecules form hydrogen-bonded dimers, with two hydrogen bonds holding each pair together; these must be overcome to boil it, so it boils at 118 °C. A labelled diagram of the dimer, with dashed hydrogen bonds from the O–H of each molecule to the C=O oxygen of the other, is expected. Methyl methanoate has no O–H group, so its molecules cannot hydrogen bond to each other; only dipole–dipole and London forces act, and it boils at 32 °C. Pure ethanoic acid melts at 17 °C, high for its size, because of its strong hydrogen bonding. On a cold day it freezes to an ice-like solid, which is why it is called glacial ethanoic acid.",
+    "prompt": "Ethanoic acid and methyl methanoate both have the formula C₂H₄O₂. Explain why ethanoic acid boils at 118 °C but methyl methanoate at 32 °C, and why pure ethanoic acid is called glacial ethanoic acid.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The –OH group of ethanol hydrogen bonds with water molecules, so ethanol mixes with water in all proportions. In hexan-1-ol, the long non-polar hydrocarbon chain cannot hydrogen bond with water and disrupts the hydrogen bonding of the water, so only a little dissolves. Solubility in water falls as the chain gets longer, because the hydrocarbon part makes up more of the molecule.",
+    "prompt": "Ethanol is miscible with water but hexan-1-ol is only slightly soluble. Explain.",
+    "type": "short"
+   },
    {
     "marks": 12,
     "model": "Ethanoic acid loses H⁺ from its O–H group: CH₃COOH ⇌ CH₃COO⁻ + H⁺. The O–H bond is polar because oxygen (3.44) is more electronegative than hydrogen (2.20), so the hydrogen can be removed as H⁺. The strength of an acid depends on how stable the negative ion left behind is. In the ethanoate ion the negative charge is delocalised over both oxygen atoms through the O–C–O group. It is drawn as two resonance structures, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and as a hybrid with a dashed bond over O–C–O and a charge of −½ on each oxygen. This stabilises the ion. The C=O group also has an inductive effect: the electronegative oxygen pulls electron density away from the O–H bond, making it more polar. Ethanol loses H⁺ from its O–H group to form the ethoxide ion, C₂H₅O⁻, in which the negative charge sits on one oxygen and cannot be spread out. The ethyl group is electron-releasing, pushing electron density towards that oxygen and making the ethoxide ion even less stable. Because the ethanoate ion is stabilised and the ethoxide ion is not, ethanoic acid loses H⁺ much more readily and is much the stronger acid.",
@@ -11452,8 +10837,48 @@
    }
   ]
  },
- "chem24-s6": {
+ "chem24-s3": {
   "keyTerms": [
+   {
+    "definition": "A compound of carbon, almost always bonded to hydrogen and often containing oxygen, nitrogen, halogens or sulfur.",
+    "term": "Organic compound"
+   },
+   {
+    "definition": "A starting material, such as crude oil or biomass, from which chemical products are made.",
+    "term": "Feedstock"
+   },
+   {
+    "definition": "The conversion of biomass into organic compounds by micro-organisms, using enzymes as catalysts.",
+    "term": "Fermentation"
+   },
+   {
+    "definition": "A simpler compound from which a more complex molecule is made.",
+    "term": "Precursor"
+   },
+   {
+    "definition": "The building of a more complex molecule from simpler precursors in the laboratory or in industry.",
+    "term": "Synthesis"
+   },
+   {
+    "definition": "Plant and animal material, such as sugar cane, maize or wood, that can be used as a renewable feedstock.",
+    "term": "Biomass"
+   },
+   {
+    "definition": "A compound that kills or controls pests such as insects, weeds or fungi.",
+    "term": "Pesticide"
+   },
+   {
+    "definition": "Able to be broken down by micro-organisms in the environment.",
+    "term": "Biodegradable"
+   },
+   {
+    "definition": "The build-up of a substance in the tissues of organisms, increasing up a food chain.",
+    "term": "Bioaccumulation"
+   },
+   {
+    "definition": "An assessment of a product's impact across raw material, manufacture, use and disposal.",
+    "term": "Life-cycle view"
+   },
    {
     "definition": "A substance used to prevent, diagnose, treat or relieve the symptoms of disease.",
     "term": "Pharmaceutical"
@@ -11465,10 +10890,6 @@
    {
     "definition": "A drug that dulls pain and causes drowsiness or sleep.",
     "term": "Narcotic"
-   },
-   {
-    "definition": "A starting compound from which another compound is made.",
-    "term": "Precursor"
    },
    {
     "definition": "The compound in a medicine that produces its effect.",
@@ -11496,6 +10917,99 @@
    }
   ],
   "notes": [
+   {
+    "h": "What organic compounds are",
+    "points": [
+     "Organic chemistry is the chemistry of carbon compounds, apart from simple ones such as carbon oxides, carbonates and hydrogencarbonates.",
+     "Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens or sulfur.",
+     "Each carbon atom forms four covalent bonds, and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.",
+     "Carbon atoms can be joined by single, double or triple bonds.",
+     "Organic compounds were once thought to come only from living things.",
+     "In 1828 Friedrich Wöhler made urea, a compound found in urine, from the inorganic salt ammonium cyanate, showing that organic compounds can be made in the laboratory."
+    ]
+   },
+   {
+    "h": "Sources of organic compounds",
+    "points": [
+     "Fossil sources are crude oil, natural gas and coal, formed from the remains of organisms over millions of years.",
+     "Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines; see \"Hydrocarbons: sources, uses and impact\".",
+     "Fossil sources are finite, or non-renewable.",
+     "Living things make natural products: plants, animals and micro-organisms make organic compounds that can be extracted.",
+     "Oils and fats are extracted from plants and animals.",
+     "Essential oils such as clove oil are extracted by steam distillation.",
+     "Medicines are extracted from plants, e.g. quinine from cinchona bark.",
+     "Fermentation: micro-organisms convert biomass into organic compounds; yeast converts glucose into ethanol and carbon dioxide.",
+     "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes in the yeast.",
+     "Antibiotics such as penicillin are also made by fermentation.",
+     "Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast.",
+     "Spirits (about 40% v/v ethanol) are made by distilling the fermented liquid.",
+     "Synthesis: chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.",
+     "Most modern medicines, plastics and pesticides are made by synthesis.",
+     "Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks.",
+     "Bioethanol made from biomass can be used as a fuel.",
+     "Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize."
+    ]
+   },
+   {
+    "b": "Each product group named in the specification is listed with its main uses and examples.",
+    "h": "Products and uses",
+    "points": [
+     "Fuels are hydrocarbons such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.",
+     "Fuels are used for transport, heating and electricity generation.",
+     "Pharmaceuticals are medicines that are almost all organic compounds.",
+     "Aspirin and paracetamol relieve pain; penicillin is an antibiotic.",
+     "Plastics are polymers made mainly from oil-derived monomers.",
+     "Poly(ethene), made from ethene, is used for bags, bottles and film.",
+     "Poly(chloroethene), known as PVC, is made from chloroethene and used for pipes and window frames.",
+     "Plastics are light, cheap, durable, waterproof and insulating; see \"Types of organic reaction and addition polymers\".",
+     "Pesticides are compounds that kill or control pests.",
+     "Insecticides kill insects, herbicides kill weeds and fungicides kill fungi.",
+     "Natural pesticides include neem oil, from the neem tree, and pyrethrins, from chrysanthemum flowers.",
+     "Synthetic pesticides include malathion, an insecticide, and glyphosate, a herbicide.",
+     "Synthetics are man-made materials that replace or improve on natural ones.",
+     "Synthetic fibres such as nylon and polyester are made from monomers that link into polymers, and are used for clothing, ropes and carpets.",
+     "Synthetic dyes, detergents and synthetic rubber are further synthetic products.",
+     "Ethanol is used in perfumes and deodorants, and propanone is used in nail varnish remover.",
+     "Esters are used as flavourings and fragrances.",
+     "Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is a food preservative.",
+     "Soaps and detergents are organic products; see \"Surfactants and soap\"."
+    ]
+   },
+   {
+    "h": "Benefits and impacts",
+    "points": [
+     "Benefits: energy for transport and heating, and longer, healthier lives through medicines and sanitation.",
+     "Benefits: higher crop yields and less food lost to pests, and cheap, light, durable materials.",
+     "Benefits: clothing and goods for large populations.",
+     "Fuel impact: burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.",
+     "Fuel impact: burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot; see \"Hydrocarbons: sources, uses and impact\".",
+     "Plastic impact: most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.",
+     "Plastic impact: in the oceans, plastics harm wildlife and break into microplastics.",
+     "Plastic impact: burning plastics can release toxic gases.",
+     "Pesticide impact: some pesticides are toxic to non-target organisms such as bees, birds and fish.",
+     "Pesticide impact: persistent pesticides such as DDT build up in food chains (bioaccumulation).",
+     "DDT was banned for agricultural use in most countries, and the Stockholm Convention (2001) restricts it to disease-vector control.",
+     "The EU restricted outdoor use of three neonicotinoid insecticides in 2018 because of harm to bees.",
+     "Pesticide run-off can contaminate water.",
+     "Pharmaceutical impact: medicines can cause side effects and addiction, e.g. addiction to opiates.",
+     "Pharmaceutical impact: overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways.",
+     "Resource impact: fossil feedstocks are finite.",
+     "Resource impact: extracting and processing fossil feedstocks uses energy and can cause spills and pollution."
+    ]
+   },
+   {
+    "h": "Judging a product",
+    "points": [
+     "A product's impact is assessed across its whole life, from raw material and manufacture to use and disposal; this is a life-cycle view.",
+     "Ways to reduce impact include recycling and reuse.",
+     "Renewable feedstocks and biodegradable alternatives reduce impact.",
+     "Designing safer molecules that break down after use reduces impact.",
+     "Using less, e.g. targeted pesticide use, reduces impact.",
+     "A natural source is not automatically safer or more sustainable, because natural compounds can be toxic.",
+     "Growing biomass uses land, water and fertiliser.",
+     "A balanced answer names a benefit and an impact, and says how the impact can be reduced."
+    ]
+   },
    {
     "h": "Key terms",
     "points": [
@@ -11620,6 +11134,24 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "Crude oil is a fossil source, formed from the remains of organisms over millions of years. It supplies fuels and feedstocks for plastics, such as poly(ethene) made from ethene. Yeast fermentation is a second source: yeast converts glucose into ethanol and carbon dioxide, C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).",
+    "prompt": "Outline two sources of organic compounds, giving an example of a product obtained from each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Plastics: a benefit is that they are light, cheap, durable, waterproof and insulating. An impact is that most plastics are not biodegradable, so they persist for decades or longer as litter and in the oceans, where they harm wildlife. The impact can be reduced by recycling and reuse, and by using biodegradable plastics made from renewable feedstocks. Pesticides: a benefit is higher crop yields and less food lost to pests. An impact is that some pesticides are toxic to non-target organisms such as bees, and persistent pesticides build up in food chains. The impact can be reduced by targeted pesticide use and by using safer molecules that break down after use.",
+    "prompt": "Products based on organic compounds include plastics and pesticides. For each, give one benefit to society and one impact on the environment, and suggest how that impact could be reduced.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g). Fermentation stops at about 12–15% ethanol by volume because the ethanol produced kills the yeast, so the yeast can no longer convert glucose. Stronger drinks such as spirits, at about 40% v/v ethanol, are made by distilling the fermented liquid.",
+    "prompt": "Write a balanced equation for the fermentation of glucose to ethanol, and explain why fermentation cannot produce a drink stronger than about 15% ethanol.",
+    "type": "short"
+   },
+   {
     "marks": 9,
     "model": "A natural product is an organic compound made by a living organism such as a plant, animal or micro-organism. Willow bark is a source of salicin, which the body converts into salicylic acid, the active compound, used to relieve pain and fever. Cinchona bark is a source of quinine, the active compound, used to treat malaria.",
     "prompt": "What is meant by a natural product? Name two plants that are sources of medicines, and for each give the active compound and its medical use.",
@@ -11642,121 +11174,41 @@
  "chem25-s1": {
   "keyTerms": [
    {
-    "definition": "An organic compound with the –CHO group, in which the carbonyl carbon is bonded to a hydrogen atom.",
-    "term": "Aldehyde"
+    "definition": "A reaction in which two or more molecules combine to form one molecule, with atoms adding across a double or triple bond.",
+    "term": "Addition reaction"
    },
    {
-    "definition": "An organic compound with a C=O group bonded to two carbon atoms, in which the carbonyl carbon has no hydrogen.",
-    "term": "Ketone"
+    "definition": "A reaction in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms.",
+    "term": "Substitution reaction"
    },
    {
-    "definition": "The C=O double bond, present in aldehydes and ketones.",
-    "term": "Carbonyl group"
+    "definition": "A reaction in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
+    "term": "Elimination reaction"
    },
    {
-    "definition": "A blue alkaline solution of Cu²⁺ ions, used to test for aldehydes, which gives a brick-red precipitate with them.",
-    "term": "Fehling's reagent"
+    "definition": "An elimination reaction in which water is removed from a molecule, such as ethanol to ethene.",
+    "term": "Dehydration"
    },
    {
-    "definition": "A substance that takes electrons from, or gains oxygen or loses hydrogen with, another substance, and is itself reduced.",
-    "term": "Oxidising agent"
+    "definition": "The addition of hydrogen across a C=C bond, usually with a nickel catalyst.",
+    "term": "Hydrogenation"
    },
    {
-    "definition": "A substance that gives electrons to, or gains hydrogen or loses oxygen with, another substance, and is itself oxidised.",
-    "term": "Reducing agent"
+    "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by H⁺, to give an ester and water.",
+    "term": "Esterification"
    },
    {
-    "definition": "An organic acid containing the –COOH group, which releases H⁺ ions in water.",
-    "term": "Carboxylic acid"
+    "definition": "A reaction in which two molecules join with the loss of a small molecule such as water.",
+    "term": "Condensation reaction"
    },
    {
-    "definition": "An acid that is only partly dissociated in water, so it gives a low concentration of H⁺ ions.",
-    "term": "Weak acid"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Telling aldehydes and ketones apart",
-    "points": [
-     "An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.",
-     "A ketone has the C=O group joined to two carbon atoms, e.g. propanone, CH₃COCH₃.",
-     "An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH; aldehydes are good reducing agents.",
-     "A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond.",
-     "A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none."
-    ]
+    "definition": "A compound whose carbon atoms are joined only by single bonds.",
+    "term": "Saturated compound"
    },
    {
-    "h": "Fehling's test for aldehydes",
-    "points": [
-     "Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).",
-     "The mixture is a clear deep-blue solution containing Cu²⁺ ions.",
-     "The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate.",
-     "Method: put about 2 cm³ of Fehling's reagent into each of two test tubes.",
-     "Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.",
-     "Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame.",
-     "With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.",
-     "With propanone there is no change: the solution stays blue.",
-     "An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde; one that leaves the reagent blue is a ketone.",
-     "Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.",
-     "Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile and flammable, so keep them away from flames and use a water bath.",
-     "Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue)."
-    ]
+    "definition": "A compound containing at least one C=C or C≡C multiple bond.",
+    "term": "Unsaturated compound"
    },
-   {
-    "h": "Fehling's reagent as an oxidising agent (Higher Level only)",
-    "points": [
-     "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).",
-     "The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.",
-     "Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.",
-     "Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).",
-     "Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.",
-     "Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone."
-    ]
-   },
-   {
-    "h": "Showing that ethanoic acid is acidic",
-    "points": [
-     "Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.",
-     "Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).",
-     "Magnesium: add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.",
-     "The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.",
-     "Magnesium equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).",
-     "Sodium carbonate: add a little solid sodium carbonate to ethanoic acid; the mixture effervesces.",
-     "The gas turns limewater milky, so it is carbon dioxide.",
-     "Sodium carbonate equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
-     "Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).",
-     "There is no visible change in this reaction, so add phenolphthalein to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.",
-     "Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.",
-     "Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated, so its H⁺ concentration is lower.",
-     "Safety: wear goggles; concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid, and keep flames away when testing for hydrogen.",
-     "Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.",
-     "Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Put about 2 cm³ of freshly made Fehling's reagent, made by mixing equal volumes of Fehling's A and Fehling's B to give a clear deep-blue solution, into each of two clean test tubes. Add a few drops of the first unlabelled liquid to one tube and a few drops of the second liquid to the other. Warm both tubes in a beaker of hot water for a few minutes, without a naked flame, and observe. The tube that forms a brick-red precipitate of copper(I) oxide, Cu₂O, contains ethanal. The tube that stays blue contains propanone. The difference is that an aldehyde is easily oxidised: its carbonyl carbon carries a hydrogen atom, which is replaced by –OH during oxidation, so ethanal reduces the Cu²⁺ ions in the reagent. A ketone has no hydrogen on its carbonyl carbon, so it cannot be oxidised by this mild oxidising agent and no reaction occurs.",
-    "prompt": "Describe how you would use Fehling's reagent to show which of two unlabelled liquids is ethanal and which is propanone. State what you would observe in each case and explain the difference.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions in it oxidise the aldehyde and are themselves reduced. The reduction half-equation is Cu²⁺ + e⁻ → Cu⁺, with the oxidation number of copper falling from +2 to +1. In the alkaline reagent the Cu⁺ ions form brick-red copper(I) oxide: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l). The aldehyde is oxidised. Ethanal is oxidised to ethanoic acid, which in the alkaline reagent is present as ethanoate ions, CH₃COO⁻. Overall: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O. The reagent is only a weak oxidising agent, which is why ethanal, an easily oxidised aldehyde, reduces it.",
-    "prompt": "Fehling's test is described as an oxidising test. Explain this statement, giving the half-equation for the change to the copper ions and naming the organic product formed from ethanal.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "Test 1: add magnesium ribbon to dilute ethanoic acid. Bubbles of gas form and the magnesium dissolves. The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen. Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g). Test 2: add solid sodium carbonate to dilute ethanoic acid. The mixture effervesces, and the gas turns limewater milky, showing that it is carbon dioxide. Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
-    "prompt": "Describe two tests that show that ethanoic acid is acidic. Give the observation and a balanced equation for each.",
-    "type": "short"
-   }
-  ]
- },
- "chem25-s10": {
-  "keyTerms": [
    {
     "definition": "A very large molecule made of many small monomer units joined in a long chain by covalent bonds.",
     "term": "Polymer"
@@ -11791,6 +11243,81 @@
    }
   ],
   "notes": [
+   {
+    "h": "Addition reactions",
+    "points": [
+     "An addition reaction is one in which two or more molecules react to form a single molecule.",
+     "Atoms add across a double (or triple) bond, so an unsaturated compound becomes saturated and there is only one product.",
+     "Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane.",
+     "Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.",
+     "Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
+     "Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
+     "Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.",
+     "Ethene and hydrogen with a nickel catalyst: CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.",
+     "Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions; see below."
+    ]
+   },
+   {
+    "h": "Substitution reactions",
+    "points": [
+     "A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.",
+     "Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.",
+     "Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.",
+     "Esterification: a carboxylic acid and an alcohol give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+     "In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol.",
+     "Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.",
+     "Hydrolysis of an ester is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
+     "Alkanes react by substitution, not addition, because they have no double bond to add across."
+    ]
+   },
+   {
+    "h": "Elimination reactions",
+    "points": [
+     "An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
+     "Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.",
+     "Water is the small molecule removed, so this elimination is also called a dehydration.",
+     "Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.",
+     "A haloalkane can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.",
+     "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC.",
+     "Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated."
+    ]
+   },
+   {
+    "h": "Redox reactions",
+    "points": [
+     "In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.",
+     "Reduction is the gain of hydrogen or the loss of oxygen.",
+     "Oxidation is also the loss of electrons and an increase in oxidation number; see \"Oxidation and reduction\".",
+     "Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate.",
+     "Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH.",
+     "Combustion is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O."
+    ]
+   },
+   {
+    "h": "Acid–base reactions",
+    "points": [
+     "An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.",
+     "Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
+     "Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
+     "Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.",
+     "Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.",
+     "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; see \"Physical properties and acidity\"."
+    ]
+   },
+   {
+    "h": "Analysing a given reaction (Higher Level only)",
+    "points": [
+     "Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.",
+     "Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.",
+     "One reaction can be of more than one type: hydrogenation of ethene is addition and reduction; esterification is substitution and condensation; base hydrolysis of an ester is substitution and acid–base.",
+     "Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.",
+     "Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.",
+     "Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.",
+     "Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.",
+     "Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.",
+     "The reaction of sodium with ethanol is likewise a redox reaction."
+    ]
+   },
    {
     "h": "Polymers and monomers",
     "points": [
@@ -11866,7 +11393,7 @@
      "A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.",
      "Addition polymers are non-biodegradable.",
      "The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.",
-     "Like an alkane, an addition polymer has no pi bonds and no polar functional group for a reagent to attack, so it is chemically stable and unreactive; see \"Stability of alkanes\".",
+     "Like an alkane, an addition polymer has no pi bonds and no polar functional group for a reagent to attack, so it is chemically stable and unreactive; see \"Groups of hydrocarbons and their properties\".",
      "Microorganisms break down natural polymers, such as starch and proteins, with enzymes that attack specific polar linkages.",
      "Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.",
      "The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.",
@@ -11879,6 +11406,24 @@
    }
   ],
   "questions": [
+   {
+    "marks": 10,
+    "model": "(i) An addition reaction is one in which two or more molecules react to form a single molecule, with atoms adding across a double bond. Example: ethene and bromine, CH₂=CH₂ + Br₂ → CH₂BrCH₂Br. (ii) An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule. Example: dehydration of ethanol, CH₃CH₂OH → CH₂=CH₂ + H₂O. (iii) A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group. Example: chlorination of methane in ultraviolet light, CH₄ + Cl₂ → CH₃Cl + HCl.",
+    "prompt": "Define (i) an addition reaction, (ii) an elimination reaction, (iii) a substitution reaction, giving an example of each with a balanced equation.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(a) Addition, because two molecules combine to form one across the C=C bond. It is also reduction, because hydrogen is gained. (b) Substitution: the –OH of the acid is replaced by the –OCH₃ group of the alcohol, so it is also a condensation reaction because water is lost. (c) Substitution, because the –OCH₃ group of the ester is replaced by –OH, giving methanol. It is also an acid–base reaction: the hydroxide ion acts as the base, and the acid formed ends up as its salt, sodium ethanoate.",
+    "prompt": "Classify each reaction by type, explaining your answer: (a) CH₂=CH₂ + H₂ → CH₃CH₃; (b) CH₃COOH + CH₃OH → CH₃COOCH₃ + H₂O; (c) CH₃COOCH₃ + NaOH → CH₃COONa + CH₃OH.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Bonds broken: a C–H bond and a C–O bond. Bonds formed: an O–H bond in the water molecule, and a C=C double bond, in which a pi bond is added to the existing C–C sigma bond. The reaction is elimination (dehydration), because a small molecule, water, is removed from ethanol, leaving a double bond.",
+    "prompt": "List the bonds broken and the bonds formed when ethanol is converted to ethene, and name the type of reaction.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "A polymer is a very large molecule made of many small monomer units joined by covalent bonds in a long chain. The monomer of PVC is chloroethene, CH₂=CHCl. Two repeating units of PVC are drawn as –CH₂–CHCl–CH₂–CHCl–, with a bond left open at each end and the side groups Cl on alternate carbons. Two uses: rigid PVC for window frames, doors, gutters, drainpipes and water pipes; and flexible PVC, with a plasticiser, for electrical cable insulation, flooring and raincoats.",
@@ -11902,142 +11447,37 @@
  "chem25-s2": {
   "keyTerms": [
    {
-    "definition": "A reaction in which two or more molecules combine to form one molecule, with atoms adding across a double or triple bond.",
-    "term": "Addition reaction"
+    "definition": "An organic compound with the –CHO group, in which the carbonyl carbon is bonded to a hydrogen atom.",
+    "term": "Aldehyde"
    },
    {
-    "definition": "A reaction in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms.",
-    "term": "Substitution reaction"
+    "definition": "An organic compound with a C=O group bonded to two carbon atoms, in which the carbonyl carbon has no hydrogen.",
+    "term": "Ketone"
    },
    {
-    "definition": "A reaction in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
-    "term": "Elimination reaction"
+    "definition": "The C=O double bond, present in aldehydes and ketones.",
+    "term": "Carbonyl group"
    },
    {
-    "definition": "An elimination reaction in which water is removed from a molecule, such as ethanol to ethene.",
-    "term": "Dehydration"
+    "definition": "A blue alkaline solution of Cu²⁺ ions, used to test for aldehydes, which gives a brick-red precipitate with them.",
+    "term": "Fehling's reagent"
    },
    {
-    "definition": "The addition of hydrogen across a C=C bond, usually with a nickel catalyst.",
-    "term": "Hydrogenation"
+    "definition": "A substance that takes electrons from, or gains oxygen or loses hydrogen with, another substance, and is itself reduced.",
+    "term": "Oxidising agent"
    },
    {
-    "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by H⁺, to give an ester and water.",
-    "term": "Esterification"
+    "definition": "A substance that gives electrons to, or gains hydrogen or loses oxygen with, another substance, and is itself oxidised.",
+    "term": "Reducing agent"
    },
    {
-    "definition": "A reaction in which two molecules join with the loss of a small molecule such as water.",
-    "term": "Condensation reaction"
+    "definition": "An organic acid containing the –COOH group, which releases H⁺ ions in water.",
+    "term": "Carboxylic acid"
    },
    {
-    "definition": "A compound whose carbon atoms are joined only by single bonds.",
-    "term": "Saturated compound"
+    "definition": "An acid that is only partly dissociated in water, so it gives a low concentration of H⁺ ions.",
+    "term": "Weak acid"
    },
-   {
-    "definition": "A compound containing at least one C=C or C≡C multiple bond.",
-    "term": "Unsaturated compound"
-   }
-  ],
-  "notes": [
-   {
-    "h": "Addition reactions",
-    "points": [
-     "An addition reaction is one in which two or more molecules react to form a single molecule.",
-     "Atoms add across a double (or triple) bond, so an unsaturated compound becomes saturated and there is only one product.",
-     "Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane.",
-     "Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.",
-     "Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
-     "Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
-     "Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.",
-     "Ethene and hydrogen with a nickel catalyst: CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.",
-     "Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions; see \"Addition polymers\"."
-    ]
-   },
-   {
-    "h": "Substitution reactions",
-    "points": [
-     "A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.",
-     "Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.",
-     "Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.",
-     "Esterification: a carboxylic acid and an alcohol give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
-     "In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol.",
-     "Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.",
-     "Hydrolysis of an ester is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
-     "Alkanes react by substitution, not addition, because they have no double bond to add across."
-    ]
-   },
-   {
-    "h": "Elimination reactions",
-    "points": [
-     "An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
-     "Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.",
-     "Water is the small molecule removed, so this elimination is also called a dehydration.",
-     "Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.",
-     "A haloalkane can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.",
-     "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC.",
-     "Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated."
-    ]
-   },
-   {
-    "h": "Redox reactions",
-    "points": [
-     "In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.",
-     "Reduction is the gain of hydrogen or the loss of oxygen.",
-     "Oxidation is also the loss of electrons and an increase in oxidation number; see \"Oxidation and reduction\".",
-     "Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate.",
-     "Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH.",
-     "Combustion is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O."
-    ]
-   },
-   {
-    "h": "Acid–base reactions",
-    "points": [
-     "An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.",
-     "Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
-     "Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
-     "Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.",
-     "Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.",
-     "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; see \"Acidity of carboxylic acids and alcohols\"."
-    ]
-   },
-   {
-    "h": "Analysing a given reaction (Higher Level only)",
-    "points": [
-     "Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.",
-     "Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.",
-     "One reaction can be of more than one type: hydrogenation of ethene is addition and reduction; esterification is substitution and condensation; base hydrolysis of an ester is substitution and acid–base.",
-     "Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.",
-     "Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.",
-     "Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.",
-     "Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.",
-     "Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.",
-     "The reaction of sodium with ethanol is likewise a redox reaction."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 10,
-    "model": "(i) An addition reaction is one in which two or more molecules react to form a single molecule, with atoms adding across a double bond. Example: ethene and bromine, CH₂=CH₂ + Br₂ → CH₂BrCH₂Br. (ii) An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule. Example: dehydration of ethanol, CH₃CH₂OH → CH₂=CH₂ + H₂O. (iii) A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group. Example: chlorination of methane in ultraviolet light, CH₄ + Cl₂ → CH₃Cl + HCl.",
-    "prompt": "Define (i) an addition reaction, (ii) an elimination reaction, (iii) a substitution reaction, giving an example of each with a balanced equation.",
-    "type": "short"
-   },
-   {
-    "marks": 9,
-    "model": "(a) Addition, because two molecules combine to form one across the C=C bond. It is also reduction, because hydrogen is gained. (b) Substitution: the –OH of the acid is replaced by the –OCH₃ group of the alcohol, so it is also a condensation reaction because water is lost. (c) Substitution, because the –OCH₃ group of the ester is replaced by –OH, giving methanol. It is also an acid–base reaction: the hydroxide ion acts as the base, and the acid formed ends up as its salt, sodium ethanoate.",
-    "prompt": "Classify each reaction by type, explaining your answer: (a) CH₂=CH₂ + H₂ → CH₃CH₃; (b) CH₃COOH + CH₃OH → CH₃COOCH₃ + H₂O; (c) CH₃COOCH₃ + NaOH → CH₃COONa + CH₃OH.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Bonds broken: a C–H bond and a C–O bond. Bonds formed: an O–H bond in the water molecule, and a C=C double bond, in which a pi bond is added to the existing C–C sigma bond. The reaction is elimination (dehydration), because a small molecule, water, is removed from ethanol, leaving a double bond.",
-    "prompt": "List the bonds broken and the bonds formed when ethanol is converted to ethene, and name the type of reaction.",
-    "type": "short"
-   }
-  ]
- },
- "chem25-s3": {
-  "keyTerms": [
    {
     "definition": "A diagram linking organic compounds by arrows, each labelled with the reagent and, where useful, the reaction type.",
     "term": "Reaction scheme"
@@ -12069,9 +11509,99 @@
    {
     "definition": "The atom or group of atoms in an organic molecule that determines its typical reactions.",
     "term": "Functional group"
+   },
+   {
+    "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by concentrated sulfuric acid, to give an ester and water.",
+    "term": "Esterification"
+   },
+   {
+    "definition": "An organic compound with the –COO– group linking two carbon chains, formed from a carboxylic acid and an alcohol.",
+    "term": "Ester"
+   },
+   {
+    "definition": "Heating a reaction mixture with a vertical condenser, so that vapour condenses and returns to the flask.",
+    "term": "Reflux"
+   },
+   {
+    "definition": "The state of a reversible reaction in which the forward and back reactions proceed at equal rates, so the concentrations stop changing.",
+    "term": "Equilibrium"
+   },
+   {
+    "definition": "Small pieces of inert material added to a liquid to give smooth boiling.",
+    "term": "Anti-bumping granules"
+   },
+   {
+    "definition": "A drying agent that removes water from an organic liquid.",
+    "term": "Anhydrous calcium chloride"
+   },
+   {
+    "definition": "A funnel with a tap, used to separate two immiscible liquids by their densities.",
+    "term": "Separating funnel"
+   },
+   {
+    "definition": "A carboxylic acid with one –COOH group in each molecule.",
+    "term": "Monocarboxylic acid"
    }
   ],
   "notes": [
+   {
+    "h": "Telling aldehydes and ketones apart",
+    "points": [
+     "An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.",
+     "A ketone has the C=O group joined to two carbon atoms, e.g. propanone, CH₃COCH₃.",
+     "An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH; aldehydes are good reducing agents.",
+     "A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond.",
+     "A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none."
+    ]
+   },
+   {
+    "h": "Fehling's test for aldehydes",
+    "points": [
+     "Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).",
+     "The mixture is a clear deep-blue solution containing Cu²⁺ ions.",
+     "The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate.",
+     "Method: put about 2 cm³ of Fehling's reagent into each of two test tubes.",
+     "Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.",
+     "Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame.",
+     "With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.",
+     "With propanone there is no change: the solution stays blue.",
+     "An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde; one that leaves the reagent blue is a ketone.",
+     "Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.",
+     "Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile and flammable, so keep them away from flames and use a water bath.",
+     "Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue)."
+    ]
+   },
+   {
+    "h": "Fehling's reagent as an oxidising agent (Higher Level only)",
+    "points": [
+     "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).",
+     "The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.",
+     "Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.",
+     "Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).",
+     "Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.",
+     "Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone."
+    ]
+   },
+   {
+    "h": "Showing that ethanoic acid is acidic",
+    "points": [
+     "Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.",
+     "Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).",
+     "Magnesium: add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.",
+     "The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.",
+     "Magnesium equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).",
+     "Sodium carbonate: add a little solid sodium carbonate to ethanoic acid; the mixture effervesces.",
+     "The gas turns limewater milky, so it is carbon dioxide.",
+     "Sodium carbonate equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
+     "Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).",
+     "There is no visible change in this reaction, so add phenolphthalein to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.",
+     "Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.",
+     "Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated, so its H⁺ concentration is lower.",
+     "Safety: wear goggles; concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid, and keep flames away when testing for hydrogen.",
+     "Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.",
+     "Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater."
+    ]
+   },
    {
     "h": "What a reaction scheme shows",
     "points": [
@@ -12153,68 +11683,10 @@
      "Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.",
      "Alkanes and poly(ethene) cannot undergo addition, because they are saturated and have no pi bond, so they do not decolourise bromine water.",
      "Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.",
-     "Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons make the ring unusually stable, so it resists addition; see \"Shapes: sigma and pi bonds\".",
+     "Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons make the ring unusually stable, so it resists addition; see \"Shapes, bonding and isomerism\".",
      "Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 10,
-    "model": "Step 1, ethene to ethanol: water is added across the double bond, so the reagent is water and the reaction is addition. Step 2, ethanol to ethanal: acidified potassium permanganate is the reagent, and the reaction is oxidation (loss of two H atoms). Step 3, ethanal to ethanoic acid: acidified potassium permanganate is the reagent, and the reaction is oxidation (gain of an O atom).",
-    "prompt": "In the scheme ethene → ethanol → ethanal → ethanoic acid, name the reagent and the type of reaction for each step.",
-    "type": "short"
    },
-   {
-    "marks": 12,
-    "model": "(a) Each carbon atom of the C=C bond in ethene is planar, with bond angles of about 120°. In ethanol both carbons are tetrahedral, with bond angles of about 109.5°, so the carbons change from planar to tetrahedral. (b) 2-methylpropan-2-ol is a tertiary alcohol. The carbon bearing the –OH group has no hydrogen atom to lose, and oxidation would have to break a C–C bond, so no oxidation occurs with acidified permanganate. (c) Step 1: chloroethane loses HCl to form ethene, CH₃CH₂Cl → CH₂=CH₂ + HCl, an elimination reaction. Step 2: ethene adds water to form ethanol, CH₂=CH₂ + H₂O → CH₃CH₂OH, an addition reaction.",
-    "prompt": "(a) State how the geometry around the carbon atoms changes when ethene is converted to ethanol. (b) Explain why 2-methylpropan-2-ol cannot be oxidised to an aldehyde or ketone. (c) Suggest a two-step route from chloroethane to ethanol, naming the type of each step.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Ethene has no tetrahedral carbon atom, because both of its carbon atoms are in the C=C double bond and are planar, with bond angles of about 120°. Ethanal has exactly one planar carbon atom, the C=O carbon with bond angles of about 120°, and one tetrahedral carbon, the CH₃ carbon with bond angles of about 109.5°. Ethanol has only tetrahedral carbon atoms, so it has no planar carbon.",
-    "prompt": "Which of the compounds ethene, ethanal and ethanol has no tetrahedral carbon atom, and which has exactly one planar carbon atom? Explain.",
-    "type": "short"
-   }
-  ]
- },
- "chem25-s4": {
-  "keyTerms": [
-   {
-    "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by concentrated sulfuric acid, to give an ester and water.",
-    "term": "Esterification"
-   },
-   {
-    "definition": "An organic compound with the –COO– group linking two carbon chains, formed from a carboxylic acid and an alcohol.",
-    "term": "Ester"
-   },
-   {
-    "definition": "Heating a reaction mixture with a vertical condenser, so that vapour condenses and returns to the flask.",
-    "term": "Reflux"
-   },
-   {
-    "definition": "The state of a reversible reaction in which the forward and back reactions proceed at equal rates, so the concentrations stop changing.",
-    "term": "Equilibrium"
-   },
-   {
-    "definition": "Small pieces of inert material added to a liquid to give smooth boiling.",
-    "term": "Anti-bumping granules"
-   },
-   {
-    "definition": "A drying agent that removes water from an organic liquid.",
-    "term": "Anhydrous calcium chloride"
-   },
-   {
-    "definition": "A funnel with a tap, used to separate two immiscible liquids by their densities.",
-    "term": "Separating funnel"
-   },
-   {
-    "definition": "A carboxylic acid with one –COOH group in each molecule.",
-    "term": "Monocarboxylic acid"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim and chemistry",
     "points": [
@@ -12282,6 +11754,42 @@
   ],
   "questions": [
    {
+    "marks": 12,
+    "model": "Put about 2 cm³ of freshly made Fehling's reagent, made by mixing equal volumes of Fehling's A and Fehling's B to give a clear deep-blue solution, into each of two clean test tubes. Add a few drops of the first unlabelled liquid to one tube and a few drops of the second liquid to the other. Warm both tubes in a beaker of hot water for a few minutes, without a naked flame, and observe. The tube that forms a brick-red precipitate of copper(I) oxide, Cu₂O, contains ethanal. The tube that stays blue contains propanone. The difference is that an aldehyde is easily oxidised: its carbonyl carbon carries a hydrogen atom, which is replaced by –OH during oxidation, so ethanal reduces the Cu²⁺ ions in the reagent. A ketone has no hydrogen on its carbonyl carbon, so it cannot be oxidised by this mild oxidising agent and no reaction occurs.",
+    "prompt": "Describe how you would use Fehling's reagent to show which of two unlabelled liquids is ethanal and which is propanone. State what you would observe in each case and explain the difference.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions in it oxidise the aldehyde and are themselves reduced. The reduction half-equation is Cu²⁺ + e⁻ → Cu⁺, with the oxidation number of copper falling from +2 to +1. In the alkaline reagent the Cu⁺ ions form brick-red copper(I) oxide: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l). The aldehyde is oxidised. Ethanal is oxidised to ethanoic acid, which in the alkaline reagent is present as ethanoate ions, CH₃COO⁻. Overall: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O. The reagent is only a weak oxidising agent, which is why ethanal, an easily oxidised aldehyde, reduces it.",
+    "prompt": "Fehling's test is described as an oxidising test. Explain this statement, giving the half-equation for the change to the copper ions and naming the organic product formed from ethanal.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Test 1: add magnesium ribbon to dilute ethanoic acid. Bubbles of gas form and the magnesium dissolves. The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen. Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g). Test 2: add solid sodium carbonate to dilute ethanoic acid. The mixture effervesces, and the gas turns limewater milky, showing that it is carbon dioxide. Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
+    "prompt": "Describe two tests that show that ethanoic acid is acidic. Give the observation and a balanced equation for each.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Step 1, ethene to ethanol: water is added across the double bond, so the reagent is water and the reaction is addition. Step 2, ethanol to ethanal: acidified potassium permanganate is the reagent, and the reaction is oxidation (loss of two H atoms). Step 3, ethanal to ethanoic acid: acidified potassium permanganate is the reagent, and the reaction is oxidation (gain of an O atom).",
+    "prompt": "In the scheme ethene → ethanol → ethanal → ethanoic acid, name the reagent and the type of reaction for each step.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(a) Each carbon atom of the C=C bond in ethene is planar, with bond angles of about 120°. In ethanol both carbons are tetrahedral, with bond angles of about 109.5°, so the carbons change from planar to tetrahedral. (b) 2-methylpropan-2-ol is a tertiary alcohol. The carbon bearing the –OH group has no hydrogen atom to lose, and oxidation would have to break a C–C bond, so no oxidation occurs with acidified permanganate. (c) Step 1: chloroethane loses HCl to form ethene, CH₃CH₂Cl → CH₂=CH₂ + HCl, an elimination reaction. Step 2: ethene adds water to form ethanol, CH₂=CH₂ + H₂O → CH₃CH₂OH, an addition reaction.",
+    "prompt": "(a) State how the geometry around the carbon atoms changes when ethene is converted to ethanol. (b) Explain why 2-methylpropan-2-ol cannot be oxidised to an aldehyde or ketone. (c) Suggest a two-step route from chloroethane to ethanol, naming the type of each step.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ethene has no tetrahedral carbon atom, because both of its carbon atoms are in the C=C double bond and are planar, with bond angles of about 120°. Ethanal has exactly one planar carbon atom, the C=O carbon with bond angles of about 120°, and one tetrahedral carbon, the CH₃ carbon with bond angles of about 109.5°. Ethanol has only tetrahedral carbon atoms, so it has no planar carbon.",
+    "prompt": "Which of the compounds ethene, ethanal and ethanol has no tetrahedral carbon atom, and which has exactly one planar carbon atom? Explain.",
+    "type": "short"
+   },
+   {
     "marks": 15,
     "model": "Equation: CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O. Put about 10 cm³ each of propanoic acid and methanol into a round-bottomed flask in a fume cupboard, add about 1 cm³ of concentrated sulfuric acid slowly with swirling and cooling, and add anti-bumping granules. Fit a vertical Liebig condenser with cold water entering at the bottom, leave the top open, and heat in a water bath so that the mixture boils gently under reflux for 20 to 30 minutes. The diagram should show the flask in the water bath, the condenser and the open top. Cool the flask and pour the mixture into a separating funnel with water. Shake, and run off the lower aqueous layer, keeping the upper ester layer. Shake the ester with sodium carbonate solution, opening the tap to release carbon dioxide, and run off the lower layer. Run the ester into a dry conical flask, add anhydrous calcium chloride, swirl until clear and decant or filter. Distil the dry ester, collecting the fraction at about 80 °C. The reflux stage prevents loss of volatile material, and the distillation separates the pure ester by boiling point.",
     "prompt": "Describe, with the aid of a labelled diagram, how you would prepare a sample of methyl propanoate using a reflux method, and how you would obtain a pure, dry sample of the ester.",
@@ -12301,7 +11809,7 @@
    }
   ]
  },
- "chem25-s5": {
+ "chem25-s3": {
   "keyTerms": [
    {
     "definition": "A purification method in which an impure solid is dissolved in the minimum hot solvent, filtered and allowed to crystallise on cooling.",
@@ -12446,7 +11954,7 @@
    }
   ]
  },
- "chem25-s6": {
+ "chem25-s4": {
   "keyTerms": [
    {
     "definition": "A step-by-step description of how a reaction happens, showing which bonds break and form and how the electrons move.",
@@ -12600,7 +12108,7 @@
    }
   ]
  },
- "chem25-s7": {
+ "chem25-s5": {
   "keyTerms": [
    {
     "definition": "A strong oxidising agent, made from KMnO₄ and dilute sulfuric acid, that is reduced to colourless Mn²⁺ ions.",
@@ -12676,7 +12184,7 @@
     "points": [
      "Fehling's solution is a mild oxidising agent containing Cu²⁺ ions.",
      "It oxidises aldehydes to carboxylic acids, present as carboxylate salts in the alkaline reagent, and is itself reduced to brick-red copper(I) oxide, Cu₂O.",
-     "It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes; see \"Tests for aldehydes, ketones and carboxylic acids\"."
+     "It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes; see \"Tests, reaction schemes and preparing an ester\"."
     ]
    },
    {
@@ -12696,7 +12204,7 @@
      "Carboxylic acids are weak acids that transfer a proton to bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
      "With carbonates they give carbon dioxide: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
      "With hydrogencarbonates they also give carbon dioxide: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.",
-     "Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide; see \"Acidity of carboxylic acids and alcohols\"."
+     "Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide; see \"Physical properties and acidity\"."
     ]
    },
    {
@@ -12746,7 +12254,7 @@
    }
   ]
  },
- "chem25-s8": {
+ "chem25-s6": {
   "keyTerms": [
    {
     "definition": "A substance whose molecules have a hydrophilic part and a hydrophobic part, which lowers the surface tension of water.",
@@ -12783,6 +12291,38 @@
    {
     "definition": "Able to be broken down by microorganisms into simple substances.",
     "term": "Biodegradable"
+   },
+   {
+    "definition": "The base hydrolysis of a fat or oil by sodium hydroxide, which gives soap and glycerol.",
+    "term": "Saponification"
+   },
+   {
+    "definition": "The separation of soap from its solution by adding concentrated salt solution, in which soap is much less soluble.",
+    "term": "Salting out"
+   },
+   {
+    "definition": "Concentrated aqueous sodium chloride solution.",
+    "term": "Brine"
+   },
+   {
+    "definition": "The common name for sodium hydroxide, NaOH.",
+    "term": "Caustic soda"
+   },
+   {
+    "definition": "Propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, the co-product of making soap from a fat.",
+    "term": "Glycerol"
+   },
+   {
+    "definition": "The reactant that is used up first and so limits the amount of product that can form.",
+    "term": "Limiting reagent"
+   },
+   {
+    "definition": "A reactant present in more than the amount needed, so some of it is left over at the end of the reaction.",
+    "term": "Excess reagent"
+   },
+   {
+    "definition": "Making soap with slightly less sodium hydroxide than needed, so that a little unreacted oil remains and no free NaOH is left.",
+    "term": "Superfatting"
    }
   ],
   "notes": [
@@ -12852,65 +12392,7 @@
      "Early synthetic detergents with branched hydrocarbon chains were not biodegradable and caused foam on rivers in the 1950s and 1960s; they were replaced by biodegradable linear-chain detergents.",
      "Phosphates added to some detergents as builders can cause eutrophication of lakes and rivers, so their use has been restricted, e.g. in laundry detergents in the EU."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "A soap ion has a hydrophilic head, the –COO⁻ group, which is ionic and attracted to water, and a hydrophobic tail, a long hydrocarbon chain that is attracted to grease. In water, soap lowers the surface tension so the water wets the greasy skin. The hydrophobic tails dissolve in the grease while the hydrophilic heads stay in the water. Rubbing breaks the grease into small droplets, each surrounded by soap ions. Each droplet becomes a micelle, with the tails pointing inwards into the grease and the negatively charged heads pointing outwards into the water. The negative charges on the micelles repel one another, so they stay dispersed as an emulsion, and rinsing carries them away. The diagram should show a micelle with an oil droplet in the centre, tails pointing inward, and heads on the outside in water.",
-    "prompt": "Explain, with the aid of a labelled diagram, how soap removes grease from skin. Use the terms hydrophilic, hydrophobic and micelle.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Hard water contains Ca²⁺ and Mg²⁺ ions, which react with soap ions to form an insoluble scum: 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s). Synthetic detergents have sulfonate heads, such as –SO₃⁻ in alkylbenzene sulfonates, and their calcium and magnesium salts are soluble, so no scum forms. Two applications, from any of: toothpaste, where sodium lauryl sulfate is a foaming agent; shampoo; cosmetics and creams, where surfactants are emulsifiers; lecithin in mayonnaise or margarine; fabric conditioners; paint and spray wetting agents; firefighting foams; dispersants for oil spills.",
-    "prompt": "Explain why soap forms a scum in hard water, giving an equation, and why synthetic detergents do not. Give two everyday applications of surfactants other than washing hands.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "First, handwashing with soap removes microorganisms from the skin in micelles, which are rinsed away, and it is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza. Second, soap destroys enveloped viruses such as influenza and SARS-CoV-2, because its hydrophobic tails insert into the virus's fatty outer membrane and break it apart. Detergents used in hospitals and food processing also remove grease that shelters bacteria.",
-    "prompt": "Outline two ways in which surfactants have contributed to the health and sanitation of society.",
-    "type": "short"
-   }
-  ]
- },
- "chem25-s9": {
-  "keyTerms": [
-   {
-    "definition": "The base hydrolysis of a fat or oil by sodium hydroxide, which gives soap and glycerol.",
-    "term": "Saponification"
-   },
-   {
-    "definition": "The separation of soap from its solution by adding concentrated salt solution, in which soap is much less soluble.",
-    "term": "Salting out"
-   },
-   {
-    "definition": "Concentrated aqueous sodium chloride solution.",
-    "term": "Brine"
-   },
-   {
-    "definition": "The common name for sodium hydroxide, NaOH.",
-    "term": "Caustic soda"
-   },
-   {
-    "definition": "Propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, the co-product of making soap from a fat.",
-    "term": "Glycerol"
-   },
-   {
-    "definition": "The reactant that is used up first and so limits the amount of product that can form.",
-    "term": "Limiting reagent"
-   },
-   {
-    "definition": "A reactant present in more than the amount needed, so some of it is left over at the end of the reaction.",
-    "term": "Excess reagent"
-   },
-   {
-    "definition": "Making soap with slightly less sodium hydroxide than needed, so that a little unreacted oil remains and no free NaOH is left.",
-    "term": "Superfatting"
-   }
-  ],
-  "notes": [
    {
     "h": "Aim and chemistry",
     "points": [
@@ -12990,6 +12472,24 @@
    }
   ],
   "questions": [
+   {
+    "marks": 12,
+    "model": "A soap ion has a hydrophilic head, the –COO⁻ group, which is ionic and attracted to water, and a hydrophobic tail, a long hydrocarbon chain that is attracted to grease. In water, soap lowers the surface tension so the water wets the greasy skin. The hydrophobic tails dissolve in the grease while the hydrophilic heads stay in the water. Rubbing breaks the grease into small droplets, each surrounded by soap ions. Each droplet becomes a micelle, with the tails pointing inwards into the grease and the negatively charged heads pointing outwards into the water. The negative charges on the micelles repel one another, so they stay dispersed as an emulsion, and rinsing carries them away. The diagram should show a micelle with an oil droplet in the centre, tails pointing inward, and heads on the outside in water.",
+    "prompt": "Explain, with the aid of a labelled diagram, how soap removes grease from skin. Use the terms hydrophilic, hydrophobic and micelle.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Hard water contains Ca²⁺ and Mg²⁺ ions, which react with soap ions to form an insoluble scum: 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s). Synthetic detergents have sulfonate heads, such as –SO₃⁻ in alkylbenzene sulfonates, and their calcium and magnesium salts are soluble, so no scum forms. Two applications, from any of: toothpaste, where sodium lauryl sulfate is a foaming agent; shampoo; cosmetics and creams, where surfactants are emulsifiers; lecithin in mayonnaise or margarine; fabric conditioners; paint and spray wetting agents; firefighting foams; dispersants for oil spills.",
+    "prompt": "Explain why soap forms a scum in hard water, giving an equation, and why synthetic detergents do not. Give two everyday applications of surfactants other than washing hands.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, handwashing with soap removes microorganisms from the skin in micelles, which are rinsed away, and it is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza. Second, soap destroys enveloped viruses such as influenza and SARS-CoV-2, because its hydrophobic tails insert into the virus's fatty outer membrane and break it apart. Detergents used in hospitals and food processing also remove grease that shelters bacteria.",
+    "prompt": "Outline two ways in which surfactants have contributed to the health and sanitation of society.",
+    "type": "short"
+   },
    {
     "marks": 12,
     "model": "Weigh about 10 g of vegetable oil into a beaker and add a measured volume of sodium hydroxide solution, with a little ethanol if available to help the two mix. Heat gently in a water bath for 20 to 30 minutes, stirring continuously and adding a little water if the mixture dries out; the mixture becomes thick and creamy as soap forms. Pour the mixture into saturated salt solution, the brine, and stir. The soap separates as solid curds, because soap is much less soluble in concentrated salt solution, and the brine keeps the glycerol, water and excess sodium hydroxide in solution, separating them from the soap. Filter the soap, and wash it with a little ice-cold water: the cold water removes sodium hydroxide and glycerol from the surface, whereas warm water would dissolve the soap. Press the soap dry, leave it to dry and weigh it. Wear goggles and gloves, because sodium hydroxide is corrosive.",
@@ -13542,50 +13042,7 @@
    {
     "definition": "The idea that electrons behave both as particles and as waves.",
     "term": "Wave-particle duality"
-   }
-  ],
-  "notes": [
-   {
-    "h": "The atom in the orbital model",
-    "points": [
-     "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Subatomic particles\").",
-     "Electrons surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
-     "The main energy levels increase in energy, and in average distance from the nucleus, as n increases.",
-     "Within a main energy level, electrons occupy orbitals.",
-     "An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.",
-     "Each orbital can hold a maximum of two electrons.",
-     "The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.",
-     "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered in \"Electronic structure\"."
-    ]
    },
-   {
-    "h": "The orbital model compared with the Bohr model",
-    "points": [
-     "The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.",
-     "The orbital model gives no exact path or position for an electron, only its probability of being found in each region.",
-     "The orbital model keeps the Bohr idea of fixed energy levels.",
-     "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability.",
-     "Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "The atom has a tiny, dense, positively charged nucleus containing protons and neutrons, surrounded by electrons. The electrons are arranged in main energy levels, numbered n = 1, 2, 3 and so on, which increase in energy and in average distance from the nucleus as n increases. Within a main energy level, electrons occupy orbitals. An orbital is a region of space around the nucleus in which there is a high probability of finding an electron. Each orbital holds a maximum of two electrons.",
-    "prompt": "Describe the structure of an atom according to the current orbital model, referring to the nucleus, energy levels and orbitals.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "In the Bohr model electrons move in fixed circular paths at fixed distances from the nucleus, whereas the orbital model gives no exact path or position for an electron, only the probability of finding it in a region. The orbital model also recognises that electrons behave both as particles and as waves, so their exact position and motion cannot both be known, and it describes probability instead of fixed orbits.",
-    "prompt": "Give two differences between the Bohr model and the orbital model of the atom.",
-    "type": "short"
-   }
-  ]
- },
- "chem3-s2": {
-  "keyTerms": [
    {
     "definition": "A jump of an electron between two energy levels, in which energy is absorbed or emitted.",
     "term": "Electron transition"
@@ -13621,9 +13078,96 @@
    {
     "definition": "The visible lines of the hydrogen spectrum, produced by electrons falling to n = 2.",
     "term": "Balmer series"
+   },
+   {
+    "definition": "A test in which a metal salt is heated on a clean wire in a non-luminous flame, and the flame colour identifies the metal.",
+    "term": "Flame test"
+   },
+   {
+    "definition": "The hot, blue Bunsen flame obtained with the air hole open, which does not add its own colour to the test.",
+    "term": "Non-luminous flame"
+   },
+   {
+    "definition": "A pattern of bright lines at specific wavelengths, unique to an element.",
+    "term": "Line emission spectrum"
+   },
+   {
+    "definition": "An instrument that splits light into its separate colours or wavelengths.",
+    "term": "Spectroscope"
+   },
+   {
+    "definition": "Data collected directly by the investigator, such as readings from their own experiment.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Data obtained from another source, such as a published spectrum.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "Easily turned into a vapour, a property that makes metal chlorides suitable for flame tests.",
+    "term": "Volatile"
+   },
+   {
+    "definition": "A filter that removes yellow light, so the lilac flame colour of potassium can be seen.",
+    "term": "Cobalt-blue glass"
+   },
+   {
+    "definition": "The arrangement of an atom's or ion's electrons in main energy levels, sublevels and orbitals.",
+    "term": "Electron configuration"
+   },
+   {
+    "definition": "The electrons in the outermost energy level, which determine an element's chemical properties.",
+    "term": "Valence electrons"
+   },
+   {
+    "definition": "A full outer energy level, as in helium, neon and argon.",
+    "term": "Noble-gas configuration"
+   },
+   {
+    "definition": "Having the same electron arrangement as another atom or ion.",
+    "term": "Isoelectronic"
+   },
+   {
+    "definition": "The principle that electrons occupy the lowest-energy orbitals available first.",
+    "term": "Aufbau principle"
+   },
+   {
+    "definition": "The principle that an orbital holds at most two electrons, which must have opposite spins.",
+    "term": "Pauli exclusion principle"
+   },
+   {
+    "definition": "The rule that electrons occupy orbitals of equal energy singly, with parallel spins, before any pairing occurs.",
+    "term": "Hund's rule"
+   },
+   {
+    "definition": "A full outer level of eight electrons, as in the noble gases other than helium.",
+    "term": "Octet"
    }
   ],
   "notes": [
+   {
+    "h": "The atom in the orbital model",
+    "points": [
+     "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Atomic structure: the nuclear model\").",
+     "Electrons surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
+     "The main energy levels increase in energy, and in average distance from the nucleus, as n increases.",
+     "Within a main energy level, electrons occupy orbitals.",
+     "An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.",
+     "Each orbital can hold a maximum of two electrons.",
+     "The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.",
+     "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered below."
+    ]
+   },
+   {
+    "h": "The orbital model compared with the Bohr model",
+    "points": [
+     "The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.",
+     "The orbital model gives no exact path or position for an electron, only its probability of being found in each region.",
+     "The orbital model keeps the Bohr idea of fixed energy levels.",
+     "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability.",
+     "Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison."
+    ]
+   },
    {
     "h": "Energy levels and states (Higher Level only)",
     "points": [
@@ -13661,59 +13205,7 @@
      "A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.",
      "Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared). Beside it, sketch the line spectrum with the four visible lines labelled."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Electrons in a hydrogen atom can occupy only certain fixed energy levels, n = 1, 2, 3 and so on, so their energy is quantised. The lowest level, n = 1, is the ground state. When an atom absorbs energy, an electron is promoted to a higher level, an excited state; excited states are unstable, so the electron falls back to a lower level. When an electron falls from a higher level Em to a lower level En, the energy difference is emitted as a photon of light. The photon's frequency f is given by Em − En = hf, where h is Planck's constant. Because the energy levels are fixed, each transition has one definite energy difference and so emits light of one definite frequency. This appears as one line of one colour in the line spectrum, and each line corresponds to one transition.",
-    "prompt": "Explain how the lines in the emission spectrum of hydrogen arise and why each line has a definite frequency. Refer to the equation Em − En = hf.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen. An excited state is any higher energy level, reached when the atom absorbs energy. The visible lines are produced by electrons falling to n = 2, the final energy level of the Balmer series.",
-    "prompt": "Distinguish between the ground state and an excited state of an electron, and state the final energy level of the transitions that produce the visible lines in the hydrogen spectrum.",
-    "type": "short"
-   }
-  ]
- },
- "chem3-s3": {
-  "keyTerms": [
-   {
-    "definition": "A test in which a metal salt is heated on a clean wire in a non-luminous flame, and the flame colour identifies the metal.",
-    "term": "Flame test"
-   },
-   {
-    "definition": "The hot, blue Bunsen flame obtained with the air hole open, which does not add its own colour to the test.",
-    "term": "Non-luminous flame"
-   },
-   {
-    "definition": "A pattern of bright lines at specific wavelengths, unique to an element.",
-    "term": "Line emission spectrum"
-   },
-   {
-    "definition": "An instrument that splits light into its separate colours or wavelengths.",
-    "term": "Spectroscope"
-   },
-   {
-    "definition": "Data collected directly by the investigator, such as readings from their own experiment.",
-    "term": "Primary data"
-   },
-   {
-    "definition": "Data obtained from another source, such as a published spectrum.",
-    "term": "Secondary data"
-   },
-   {
-    "definition": "Easily turned into a vapour, a property that makes metal chlorides suitable for flame tests.",
-    "term": "Volatile"
-   },
-   {
-    "definition": "A filter that removes yellow light, so the lilac flame colour of potassium can be seen.",
-    "term": "Cobalt-blue glass"
-   }
-  ],
-  "notes": [
    {
     "h": "Why elements give colours",
     "points": [
@@ -13772,63 +13264,7 @@
      "Line spectra are used to identify elements in samples and in stars.",
      "Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Clean a wire loop by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous Bunsen flame until it gives no colour. Dip the wire in the acid, then into the salt so that a little sticks to it. Hold the wire at the edge of the non-luminous flame and note the colour. Clean the wire again before testing the next salt. Lithium gives a crimson red flame. Potassium gives a lilac flame, best seen through cobalt-blue glass. Barium gives a pale apple green flame.",
-    "prompt": "Describe how you would carry out a flame test to identify the metal in an unknown salt, and state the colour you would expect if the salt contained (i) lithium, (ii) potassium, (iii) barium.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Heating gives energy to the electrons of the metal atoms, which move up to higher energy levels. As they fall back to lower levels they give out energy as light. Each element has its own set of energy levels, so it gives out its own colours. Lithium and strontium both give a red flame that is hard to tell apart by eye. A line emission spectrum is a pattern of bright lines at specific wavelengths that is unique to each element. The spectrum of an unknown sample is compared with reference spectra of lithium and strontium, and a match of all the lines identifies the metal.",
-    "prompt": "Explain why different metals give different colours in a flame and how a line emission spectrum can be used to distinguish lithium from strontium.",
-    "type": "short"
-   }
-  ]
- },
- "chem3-s4": {
-  "keyTerms": [
-   {
-    "definition": "The arrangement of an atom's or ion's electrons in main energy levels, sublevels and orbitals.",
-    "term": "Electron configuration"
-   },
-   {
-    "definition": "The electrons in the outermost energy level, which determine an element's chemical properties.",
-    "term": "Valence electrons"
-   },
-   {
-    "definition": "A full outer energy level, as in helium, neon and argon.",
-    "term": "Noble-gas configuration"
-   },
-   {
-    "definition": "Having the same electron arrangement as another atom or ion.",
-    "term": "Isoelectronic"
-   },
-   {
-    "definition": "A subdivision of a main energy level, made of orbitals of equal energy.",
-    "term": "Sublevel"
-   },
-   {
-    "definition": "The principle that electrons occupy the lowest-energy orbitals available first.",
-    "term": "Aufbau principle"
-   },
-   {
-    "definition": "The principle that an orbital holds at most two electrons, which must have opposite spins.",
-    "term": "Pauli exclusion principle"
-   },
-   {
-    "definition": "The rule that electrons occupy orbitals of equal energy singly, with parallel spins, before any pairing occurs.",
-    "term": "Hund's rule"
-   },
-   {
-    "definition": "A full outer level of eight electrons, as in the noble gases other than helium.",
-    "term": "Octet"
-   }
-  ],
-  "notes": [
    {
     "h": "Electrons in main energy levels",
     "points": [
@@ -13922,6 +13358,42 @@
   "questions": [
    {
     "marks": 6,
+    "model": "The atom has a tiny, dense, positively charged nucleus containing protons and neutrons, surrounded by electrons. The electrons are arranged in main energy levels, numbered n = 1, 2, 3 and so on, which increase in energy and in average distance from the nucleus as n increases. Within a main energy level, electrons occupy orbitals. An orbital is a region of space around the nucleus in which there is a high probability of finding an electron. Each orbital holds a maximum of two electrons.",
+    "prompt": "Describe the structure of an atom according to the current orbital model, referring to the nucleus, energy levels and orbitals.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "In the Bohr model electrons move in fixed circular paths at fixed distances from the nucleus, whereas the orbital model gives no exact path or position for an electron, only the probability of finding it in a region. The orbital model also recognises that electrons behave both as particles and as waves, so their exact position and motion cannot both be known, and it describes probability instead of fixed orbits.",
+    "prompt": "Give two differences between the Bohr model and the orbital model of the atom.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Electrons in a hydrogen atom can occupy only certain fixed energy levels, n = 1, 2, 3 and so on, so their energy is quantised. The lowest level, n = 1, is the ground state. When an atom absorbs energy, an electron is promoted to a higher level, an excited state; excited states are unstable, so the electron falls back to a lower level. When an electron falls from a higher level Em to a lower level En, the energy difference is emitted as a photon of light. The photon's frequency f is given by Em − En = hf, where h is Planck's constant. Because the energy levels are fixed, each transition has one definite energy difference and so emits light of one definite frequency. This appears as one line of one colour in the line spectrum, and each line corresponds to one transition.",
+    "prompt": "Explain how the lines in the emission spectrum of hydrogen arise and why each line has a definite frequency. Refer to the equation Em − En = hf.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen. An excited state is any higher energy level, reached when the atom absorbs energy. The visible lines are produced by electrons falling to n = 2, the final energy level of the Balmer series.",
+    "prompt": "Distinguish between the ground state and an excited state of an electron, and state the final energy level of the transitions that produce the visible lines in the hydrogen spectrum.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Clean a wire loop by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous Bunsen flame until it gives no colour. Dip the wire in the acid, then into the salt so that a little sticks to it. Hold the wire at the edge of the non-luminous flame and note the colour. Clean the wire again before testing the next salt. Lithium gives a crimson red flame. Potassium gives a lilac flame, best seen through cobalt-blue glass. Barium gives a pale apple green flame.",
+    "prompt": "Describe how you would carry out a flame test to identify the metal in an unknown salt, and state the colour you would expect if the salt contained (i) lithium, (ii) potassium, (iii) barium.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Heating gives energy to the electrons of the metal atoms, which move up to higher energy levels. As they fall back to lower levels they give out energy as light. Each element has its own set of energy levels, so it gives out its own colours. Lithium and strontium both give a red flame that is hard to tell apart by eye. A line emission spectrum is a pattern of bright lines at specific wavelengths that is unique to each element. The spectrum of an unknown sample is compared with reference spectra of lithium and strontium, and a match of all the lines identifies the metal.",
+    "prompt": "Explain why different metals give different colours in a flame and how a line emission spectrum can be used to distinguish lithium from strontium.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
     "model": "(i) Magnesium atom: 2,8,2. (ii) Magnesium ion Mg²⁺: 2,8. (iii) Sulfide ion S²⁻: 2,8,8. Both ions have a full outer energy level, a stable noble-gas configuration: the Mg²⁺ arrangement is the same as neon (2,8) and the S²⁻ arrangement is the same as argon (2,8,8).",
     "prompt": "Give the arrangement of electrons in main energy levels for (i) a magnesium atom, (ii) a magnesium ion, (iii) a sulfide ion, and state what is stable about the ions' arrangements.",
     "type": "short"
@@ -13977,6 +13449,58 @@
    {
     "definition": "The unreactive elements of group 18, such as helium, neon, argon, krypton and xenon.",
     "term": "Noble gases"
+   },
+   {
+    "definition": "A vertical column of elements in the periodic table whose members have the same number of outer electrons.",
+    "term": "Group"
+   },
+   {
+    "definition": "A horizontal row of elements in the periodic table; the period number equals the number of occupied main energy levels.",
+    "term": "Period"
+   },
+   {
+    "definition": "The electrons in the highest occupied energy level of an atom, which determine its chemical properties.",
+    "term": "Outer electrons"
+   },
+   {
+    "definition": "The group 1 elements, which have one outer electron each.",
+    "term": "Alkali metals"
+   },
+   {
+    "definition": "The group 2 elements, which have two outer electrons each.",
+    "term": "Alkaline earth metals"
+   },
+   {
+    "definition": "The group 17 non-metals, which have seven outer electrons each.",
+    "term": "Halogens"
+   },
+   {
+    "definition": "An element lying along the staircase line, with some properties of metals and some of non-metals.",
+    "term": "Metalloid"
+   },
+   {
+    "definition": "A set of elements whose highest-energy electron enters the same type of sublevel: s, p, d or f.",
+    "term": "Block"
+   },
+   {
+    "definition": "The mass of an element's atoms relative to other atoms, shown in the box for that element.",
+    "term": "Relative atomic mass"
+   },
+   {
+    "definition": "A charged particle formed when an atom gains or loses electrons.",
+    "term": "Ion"
+   },
+   {
+    "definition": "The charge on an ion of an element, predicted from its group, which determines the formulae of its compounds.",
+    "term": "Valency"
+   },
+   {
+    "definition": "A gradual and predictable change in a property down a group or across a period of the periodic table.",
+    "term": "Trend"
+   },
+   {
+    "definition": "The arrangement of noble gases, which makes them very unreactive.",
+    "term": "Full outer energy level"
    }
   ],
   "notes": [
@@ -14010,7 +13534,7 @@
      "Henry Moseley (1913) showed by experiment that each element has a whole-number atomic number, equal to the number of protons in its nucleus.",
      "The modern periodic table is arranged in order of increasing atomic number, so tellurium (atomic number 52) naturally comes before iodine (atomic number 53) and Mendeleev's reversal is unnecessary.",
      "Modern periodic law: the properties of the elements are a periodic function of their atomic numbers.",
-     "The repeating pattern is explained by electron arrangement: elements in the same group have the same outer-electron arrangement (see \"Groups, periods and blocks\")."
+     "The repeating pattern is explained by electron arrangement: elements in the same group have the same outer-electron arrangement."
     ]
    },
    {
@@ -14020,65 +13544,9 @@
      "Gaps: Mendeleev's table had gaps for undiscovered elements; the modern table has none.",
      "Noble gases: absent from Mendeleev's table, which was drawn up before they were discovered.",
      "Number of elements: Mendeleev's table contained fewer elements, while the modern table contains 118.",
-     "Blocks: Mendeleev's table had no separate blocks of elements; the modern table is divided into blocks (see \"Groups, periods and blocks\")."
+     "Blocks: Mendeleev's table had no separate blocks of elements; the modern table is divided into blocks."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Mendeleev arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group. Where the order of atomic weights placed an element in the wrong group, he reversed the order of the pair, as with tellurium placed before iodine so that iodine sits with the other halogens. He left gaps for elements not yet discovered and predicted their properties. The table was accepted because the predicted elements were discovered, with the properties he had predicted: eka-aluminium matched gallium (discovered 1875), eka-silicon matched germanium (discovered 1886) and eka-boron matched scandium (discovered 1879). The table also organised all the known elements, showed relationships between them, and made predictions that were confirmed, so it became the basis of the modern table.",
-    "prompt": "Describe how Mendeleev arranged the elements in his periodic table and explain why his table was accepted by other chemists.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "One difference is the basis of the order: Mendeleev ordered the elements by atomic weight, while the modern table orders them by atomic number. Another difference is that Mendeleev's table had gaps for undiscovered elements, whereas the modern table has no gaps because 118 elements are known. Henry Moseley showed by experiment in 1913 that each element has a whole-number atomic number equal to the number of protons in its nucleus. This allowed the table to be arranged by atomic number, which removed the anomalies in Mendeleev's order, such as tellurium before iodine.",
-    "prompt": "State two differences between Mendeleev's periodic table and the modern periodic table and explain the contribution of Moseley.",
-    "type": "short"
-   }
-  ]
- },
- "chem4-s2": {
-  "keyTerms": [
-   {
-    "definition": "A vertical column of elements in the periodic table whose members have the same number of outer electrons.",
-    "term": "Group"
-   },
-   {
-    "definition": "A horizontal row of elements in the periodic table; the period number equals the number of occupied main energy levels.",
-    "term": "Period"
-   },
-   {
-    "definition": "The electrons in the highest occupied energy level of an atom, which determine its chemical properties.",
-    "term": "Outer electrons"
-   },
-   {
-    "definition": "The group 1 elements, which have one outer electron each.",
-    "term": "Alkali metals"
-   },
-   {
-    "definition": "The group 2 elements, which have two outer electrons each.",
-    "term": "Alkaline earth metals"
-   },
-   {
-    "definition": "The group 17 non-metals, which have seven outer electrons each.",
-    "term": "Halogens"
-   },
-   {
-    "definition": "The group 18 elements, which have full outer energy levels and are very unreactive.",
-    "term": "Noble gases"
-   },
-   {
-    "definition": "An element lying along the staircase line, with some properties of metals and some of non-metals.",
-    "term": "Metalloid"
-   },
-   {
-    "definition": "A set of elements whose highest-energy electron enters the same type of sublevel: s, p, d or f.",
-    "term": "Block"
-   }
-  ],
-  "notes": [
    {
     "b": "The table is arranged so that elements with the same outer electrons fall in the same column.",
     "h": "Groups: vertical columns",
@@ -14122,58 +13590,14 @@
      "The shape of the table follows from sublevel capacities: 2 columns for s, 6 for p, 10 for d and 14 for f.",
      "Diagram: an outline of the periodic table with the s, p, d and f blocks shaded and labelled, and group and period numbers marked."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "A group is a vertical column of elements whose members have the same number of outer electrons, so they have similar chemical properties. A period is a horizontal row of elements; each element in a period has the same number of occupied main energy levels. An element with electron arrangement 2,8,6 has 6 outer electrons, so it is in group 16, since for groups 13 to 18 the number of outer electrons is the group number minus 10. It has 3 occupied energy levels, so it is in period 3. The element is sulfur.",
-    "prompt": "Explain the terms group and period, and state the group and period of an element with the electron arrangement 2,8,6.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "The four blocks are the s-block, p-block, d-block and f-block, named after the sublevel into which their highest-energy electron enters. The s-block is groups 1 and 2 (with helium) and the p-block is groups 13 to 18 except helium. The d-block is groups 3 to 12, and its electrons fill d sublevels, which hold a maximum of 10 electrons. Each group in the d-block corresponds to one of the ten places available in a d sublevel, so the d-block is ten columns wide.",
-    "prompt": "Name the four blocks of the periodic table and explain why the d-block is ten elements wide.",
-    "type": "short"
-   }
-  ]
- },
- "chem4-s3": {
-  "keyTerms": [
-   {
-    "definition": "The number of protons in the nucleus of an atom of an element, shown in the box for that element.",
-    "term": "Atomic number"
-   },
-   {
-    "definition": "The mass of an element's atoms relative to other atoms, shown in the box for that element.",
-    "term": "Relative atomic mass"
-   },
-   {
-    "definition": "A charged particle formed when an atom gains or loses electrons.",
-    "term": "Ion"
-   },
-   {
-    "definition": "The charge on an ion of an element, predicted from its group, which determines the formulae of its compounds.",
-    "term": "Valency"
-   },
-   {
-    "definition": "A gradual and predictable change in a property down a group or across a period of the periodic table.",
-    "term": "Trend"
-   },
-   {
-    "definition": "The arrangement of noble gases, which makes them very unreactive.",
-    "term": "Full outer energy level"
-   }
-  ],
-  "notes": [
    {
     "b": "Each element's box and position give information about its atoms and its behaviour.",
     "h": "Reading the table",
     "points": [
      "Each box gives the symbol, atomic number and relative atomic mass of an element.",
      "The atomic number gives the number of protons and, in a neutral atom, the number of electrons.",
-     "The group gives the element's outer-electron arrangement (see \"Groups, periods and blocks\").",
+     "The group gives the element's outer-electron arrangement.",
      "The period gives the number of occupied energy levels.",
      "The element's position relative to the staircase line shows whether it is a metal, non-metal or metalloid."
     ]
@@ -14202,12 +13626,36 @@
     "points": [
      "Properties change gradually and predictably down a group and across a period, so an unknown property can be estimated from neighbouring elements.",
      "Astatine (At, atomic number 85) lies at the bottom of group 17; from the trend in the halogens it is predicted to be a dark solid that is less reactive than iodine.",
-     "Mendeleev used the same approach to predict the properties of undiscovered elements (see \"Development of the modern periodic table\").",
+     "Mendeleev used the same approach to predict the properties of undiscovered elements.",
      "Every trend is explained by electron arrangement: the number of outer electrons, the number of occupied energy levels and the nuclear charge."
     ]
    }
   ],
   "questions": [
+   {
+    "marks": 12,
+    "model": "Mendeleev arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group. Where the order of atomic weights placed an element in the wrong group, he reversed the order of the pair, as with tellurium placed before iodine so that iodine sits with the other halogens. He left gaps for elements not yet discovered and predicted their properties. The table was accepted because the predicted elements were discovered, with the properties he had predicted: eka-aluminium matched gallium (discovered 1875), eka-silicon matched germanium (discovered 1886) and eka-boron matched scandium (discovered 1879). The table also organised all the known elements, showed relationships between them, and made predictions that were confirmed, so it became the basis of the modern table.",
+    "prompt": "Describe how Mendeleev arranged the elements in his periodic table and explain why his table was accepted by other chemists.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "One difference is the basis of the order: Mendeleev ordered the elements by atomic weight, while the modern table orders them by atomic number. Another difference is that Mendeleev's table had gaps for undiscovered elements, whereas the modern table has no gaps because 118 elements are known. Henry Moseley showed by experiment in 1913 that each element has a whole-number atomic number equal to the number of protons in its nucleus. This allowed the table to be arranged by atomic number, which removed the anomalies in Mendeleev's order, such as tellurium before iodine.",
+    "prompt": "State two differences between Mendeleev's periodic table and the modern periodic table and explain the contribution of Moseley.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A group is a vertical column of elements whose members have the same number of outer electrons, so they have similar chemical properties. A period is a horizontal row of elements; each element in a period has the same number of occupied main energy levels. An element with electron arrangement 2,8,6 has 6 outer electrons, so it is in group 16, since for groups 13 to 18 the number of outer electrons is the group number minus 10. It has 3 occupied energy levels, so it is in period 3. The element is sulfur.",
+    "prompt": "Explain the terms group and period, and state the group and period of an element with the electron arrangement 2,8,6.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The four blocks are the s-block, p-block, d-block and f-block, named after the sublevel into which their highest-energy electron enters. The s-block is groups 1 and 2 (with helium) and the p-block is groups 13 to 18 except helium. The d-block is groups 3 to 12, and its electrons fill d sublevels, which hold a maximum of 10 electrons. Each group in the d-block corresponds to one of the ten places available in a d sublevel, so the d-block is ten columns wide.",
+    "prompt": "Name the four blocks of the periodic table and explain why the d-block is ten elements wide.",
+    "type": "short"
+   },
    {
     "marks": 6,
     "model": "(i) Calcium is in group 2, so it forms Ca²⁺ ions. Fluorine is in group 17, so it forms F⁻ ions. One calcium ion balances two fluoride ions, so the formula is CaF₂. (ii) Aluminium is in group 13, so it forms Al³⁺ ions. Sulfur is in group 16, so it forms S²⁻ ions. Two aluminium ions balance three sulfide ions, so the formula is Al₂S₃.",
@@ -14263,6 +13711,78 @@
    {
     "definition": "The attraction between positive metal ions and a sea of delocalised outer electrons.",
     "term": "Metallic bond"
+   },
+   {
+    "definition": "The number of electrons an atom loses, gains or shares when it bonds.",
+    "term": "Valency"
+   },
+   {
+    "definition": "The tendency of atoms to lose, gain or share electrons to reach eight electrons in their outer energy level.",
+    "term": "Octet rule"
+   },
+   {
+    "definition": "A group of atoms that carries an overall charge, such as SO₄²⁻ or NH₄⁺.",
+    "term": "Compound ion"
+   },
+   {
+    "definition": "A diagram that shows the outer electrons of each atom as dots or crosses to represent bonding.",
+    "term": "Lewis diagram"
+   },
+   {
+    "definition": "A pair of outer electrons on an atom that is not used in bonding.",
+    "term": "Lone pair"
+   },
+   {
+    "definition": "The overlap of an orbital of one atom with an orbital of another, each holding one electron, to form a covalent bond.",
+    "term": "Orbital overlap"
+   },
+   {
+    "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining the two nuclei.",
+    "term": "Sigma bond"
+   },
+   {
+    "definition": "A covalent bond formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.",
+    "term": "Pi bond"
+   },
+   {
+    "definition": "Electrons spread over several atoms rather than confined between two atoms, as in benzene.",
+    "term": "Delocalised electrons"
+   },
+   {
+    "definition": "Valence shell electron pair repulsion theory, which predicts molecular shape from the repulsion between electron pairs around the central atom.",
+    "term": "VSEPR theory"
+   },
+   {
+    "definition": "The atom in a molecule to which the other atoms are bonded.",
+    "term": "Central atom"
+   },
+   {
+    "definition": "A pair of electrons shared between two atoms in a covalent bond.",
+    "term": "Bonding pair"
+   },
+   {
+    "definition": "The angle between two bonds that share the same central atom.",
+    "term": "Bond angle"
+   },
+   {
+    "definition": "A shape in which two bonded atoms lie on opposite sides of the central atom, giving a bond angle of 180°.",
+    "term": "Linear"
+   },
+   {
+    "definition": "A shape in which three bonded atoms lie in one plane around the central atom, giving bond angles of 120°.",
+    "term": "Trigonal planar"
+   },
+   {
+    "definition": "A shape in which four bonded atoms are arranged around the central atom, giving bond angles of 109.5°.",
+    "term": "Tetrahedral"
+   },
+   {
+    "definition": "A shape with three bonded atoms and one lone pair on the central atom, giving bond angles of about 107°.",
+    "term": "Pyramidal"
+   },
+   {
+    "definition": "A shape with two bonded atoms and two lone pairs on the central atom, giving a bond angle of about 104.5° in water.",
+    "term": "V-shaped (bent)"
    }
   ],
   "notes": [
@@ -14316,7 +13836,7 @@
      "At the other end, ionic bonds involve complete transfer of electrons.",
      "Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).",
      "Most bonds have some ionic and some covalent character.",
-     "The difference in electronegativity between the atoms decides where a bond lies (see \"Electronegativity and bond type\").",
+     "The difference in electronegativity between the atoms decides where a bond lies (see \"Bond type and intermolecular forces\").",
      "Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end."
     ]
    },
@@ -14328,63 +13848,7 @@
      "Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.",
      "Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons, which explains why metals conduct electricity."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "An ionic bond is the electrostatic attraction between oppositely charged ions, formed when electrons are completely transferred from a metal atom to a non-metal atom, e.g. sodium chloride, NaCl. A polar covalent bond is a shared pair of electrons that is shared unequally because one atom attracts the electrons more strongly; that atom gets a partial negative charge (δ−) and the other gets a partial positive charge (δ+), e.g. hydrogen chloride, Hδ+–Clδ−. A pure covalent bond is a shared pair of electrons that is shared equally because both atoms attract them equally, e.g. chlorine, Cl–Cl.",
-    "prompt": "Distinguish between an ionic bond, a polar covalent bond and a pure covalent bond, giving one example of each.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Bonds are not purely ionic or purely covalent. They range from pure covalent, where electrons are shared equally, through polar covalent, where electrons are shared unequally, to ionic, where electrons are fully transferred. Most bonds have some ionic and some covalent character, and the difference in electronegativity between the atoms decides where a bond lies. For example, Cl–Cl is pure covalent, H–Cl is polar covalent and Na⁺Cl⁻ is ionic.",
-    "prompt": "Explain what is meant by saying that chemical bonds lie on a continuum.",
-    "type": "short"
-   }
-  ]
- },
- "chem5-s2": {
-  "keyTerms": [
-   {
-    "definition": "The number of electrons an atom loses, gains or shares when it bonds.",
-    "term": "Valency"
-   },
-   {
-    "definition": "The tendency of atoms to lose, gain or share electrons to reach eight electrons in their outer energy level.",
-    "term": "Octet rule"
-   },
-   {
-    "definition": "A group of atoms that carries an overall charge, such as SO₄²⁻ or NH₄⁺.",
-    "term": "Compound ion"
-   },
-   {
-    "definition": "A diagram that shows the outer electrons of each atom as dots or crosses to represent bonding.",
-    "term": "Lewis diagram"
-   },
-   {
-    "definition": "A pair of outer electrons on an atom that is not used in bonding.",
-    "term": "Lone pair"
-   },
-   {
-    "definition": "The overlap of an orbital of one atom with an orbital of another, each holding one electron, to form a covalent bond.",
-    "term": "Orbital overlap"
-   },
-   {
-    "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining the two nuclei.",
-    "term": "Sigma bond"
-   },
-   {
-    "definition": "A covalent bond formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.",
-    "term": "Pi bond"
-   },
-   {
-    "definition": "Electrons spread over several atoms rather than confined between two atoms, as in benzene.",
-    "term": "Delocalised electrons"
-   }
-  ],
-  "notes": [
    {
     "h": "Valency and the octet rule",
     "points": [
@@ -14490,9 +13954,68 @@
      "They cannot show delocalised bonding, as in benzene.",
      "Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum."
     ]
+   },
+   {
+    "h": "The VSEPR theory (Higher Level only)",
+    "points": [
+     "VSEPR stands for valence shell electron pair repulsion.",
+     "The theory applies to molecules of the form ABn, with up to four pairs of electrons around a central atom and single bonds only.",
+     "Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.",
+     "Both bonding pairs and lone pairs count.",
+     "Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.",
+     "Lone pairs therefore squeeze the bond angles smaller.",
+     "The shape is described by the positions of the atoms only, not the lone pairs."
+    ]
+   },
+   {
+    "h": "Method for predicting shape (Higher Level only)",
+    "points": [
+     "Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.",
+     "Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.",
+     "Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs."
+    ]
+   },
+   {
+    "h": "The five shapes (Higher Level only)",
+    "points": [
+     "Two bonding pairs and no lone pairs: linear, 180°, e.g. BeCl₂ (gas).",
+     "Three bonding pairs and no lone pairs: trigonal planar, 120°, e.g. BF₃.",
+     "Four bonding pairs and no lone pairs: tetrahedral, 109.5°, e.g. CH₄, CCl₄ and SiH₄.",
+     "Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.",
+     "Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.",
+     "H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°."
+    ]
+   },
+   {
+    "h": "Bond angles and lone pairs (Higher Level only)",
+    "points": [
+     "NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.",
+     "The lone pairs push the bonds closer together, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O."
+    ]
+   },
+   {
+    "h": "Visualising shapes (Higher Level only)",
+    "points": [
+     "Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.",
+     "3D models: ball-and-stick kits show bond angles.",
+     "Digital models, from molecular-modelling software or apps, can be rotated on screen.",
+     "Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled."
+    ]
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "An ionic bond is the electrostatic attraction between oppositely charged ions, formed when electrons are completely transferred from a metal atom to a non-metal atom, e.g. sodium chloride, NaCl. A polar covalent bond is a shared pair of electrons that is shared unequally because one atom attracts the electrons more strongly; that atom gets a partial negative charge (δ−) and the other gets a partial positive charge (δ+), e.g. hydrogen chloride, Hδ+–Clδ−. A pure covalent bond is a shared pair of electrons that is shared equally because both atoms attract them equally, e.g. chlorine, Cl–Cl.",
+    "prompt": "Distinguish between an ionic bond, a polar covalent bond and a pure covalent bond, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Bonds are not purely ionic or purely covalent. They range from pure covalent, where electrons are shared equally, through polar covalent, where electrons are shared unequally, to ionic, where electrons are fully transferred. Most bonds have some ionic and some covalent character, and the difference in electronegativity between the atoms decides where a bond lies. For example, Cl–Cl is pure covalent, H–Cl is polar covalent and Na⁺Cl⁻ is ionic.",
+    "prompt": "Explain what is meant by saying that chemical bonds lie on a continuum.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "(i) Magnesium oxide is ionic: magnesium transfers two electrons to oxygen, so the diagram shows [Mg]²⁺ and [O]²⁻, with the oxide ion drawn in square brackets with eight electrons. (ii) Ammonia has three shared pairs, one between nitrogen and each of three hydrogen atoms, and one lone pair on nitrogen. (iii) Carbon dioxide has two double bonds, O=C=O, as carbon shares two pairs of electrons with each oxygen atom.",
@@ -14510,10 +14033,22 @@
     "model": "The octet rule fails for some molecules that are stable with fewer than eight outer electrons on the central atom: BF₃ has only six electrons around boron. It also fails for elements in period 3 and beyond, which can have more than eight outer electrons: PCl₅ has ten electrons around phosphorus and SF₆ has twelve around sulfur. The rule and Lewis diagrams also do not predict molecular shape, bond polarity, bond strength or delocalised bonding, as in benzene.",
     "prompt": "Explain, with two examples, the limitations of the octet rule in predicting bonding.",
     "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(i) Methane has four bonding pairs and no lone pairs around carbon. The pairs repel each other and spread as far apart as possible, so the molecule is tetrahedral with bond angles of 109.5°. (ii) Ammonia has three bonding pairs and one lone pair around nitrogen. The four pairs are arranged roughly tetrahedrally, but the shape is pyramidal because the lone pair is not counted in the shape. The bond angle is about 107°. It is smaller than in methane because lone pairs repel more strongly than bonding pairs, so the lone pair squeezes the three N–H bonds closer together.",
+    "prompt": "Use VSEPR theory to predict the shape of (i) a methane molecule, (ii) an ammonia molecule, and explain why the bond angle in ammonia is smaller than in methane.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) BF₃ has three bonding pairs and no lone pairs around boron, so it is trigonal planar with bond angles of 120°. (ii) H₂S has two bonding pairs and two lone pairs around sulfur, so it is V-shaped (bent). VSEPR predicts an angle less than 109.5°; the measured angle is about 92°, smaller than the 104.5° of water.",
+    "prompt": "State the shape and bond angle of (i) BF₃, (ii) H₂S.",
+    "type": "short"
    }
   ]
  },
- "chem5-s3": {
+ "chem5-s2": {
   "keyTerms": [
    {
     "definition": "A positively charged ion, usually a metal ion.",
@@ -14568,7 +14103,7 @@
    {
     "h": "Cation: flame test",
     "points": [
-     "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour (see \"Identifying elements\")."
+     "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour (see \"The orbital model and electronic structure\")."
     ]
    },
    {
@@ -14666,115 +14201,8 @@
    },
    {
     "marks": 6,
-    "model": "The crimson flame identifies lithium as the cation (see \"Identifying elements\"). Effervescence with dilute hydrochloric acid shows carbonate or hydrogencarbonate, which release carbon dioxide, e.g. CO₃²⁻ + 2H⁺ → CO₂ + H₂O. An immediate white precipitate with magnesium sulfate solution in the cold shows carbonate, Mg²⁺ + CO₃²⁻ → MgCO₃(s), because a hydrogencarbonate gives no precipitate until it is heated. The salt is lithium carbonate, Li₂CO₃.",
+    "model": "The crimson flame identifies lithium as the cation (see \"The orbital model and electronic structure\"). Effervescence with dilute hydrochloric acid shows carbonate or hydrogencarbonate, which release carbon dioxide, e.g. CO₃²⁻ + 2H⁺ → CO₂ + H₂O. An immediate white precipitate with magnesium sulfate solution in the cold shows carbonate, Mg²⁺ + CO₃²⁻ → MgCO₃(s), because a hydrogencarbonate gives no precipitate until it is heated. The salt is lithium carbonate, Li₂CO₃.",
     "prompt": "A white salt gives a crimson flame and effervescence with dilute hydrochloric acid, and its solution gives an immediate white precipitate with magnesium sulfate solution. Identify the salt and explain each result.",
-    "type": "short"
-   }
-  ]
- },
- "chem5-s4": {
-  "keyTerms": [
-   {
-    "definition": "Valence shell electron pair repulsion theory, which predicts molecular shape from the repulsion between electron pairs around the central atom.",
-    "term": "VSEPR theory"
-   },
-   {
-    "definition": "The atom in a molecule to which the other atoms are bonded.",
-    "term": "Central atom"
-   },
-   {
-    "definition": "A pair of electrons shared between two atoms in a covalent bond.",
-    "term": "Bonding pair"
-   },
-   {
-    "definition": "A pair of outer electrons on an atom that is not used in bonding.",
-    "term": "Lone pair"
-   },
-   {
-    "definition": "The angle between two bonds that share the same central atom.",
-    "term": "Bond angle"
-   },
-   {
-    "definition": "A shape in which two bonded atoms lie on opposite sides of the central atom, giving a bond angle of 180°.",
-    "term": "Linear"
-   },
-   {
-    "definition": "A shape in which three bonded atoms lie in one plane around the central atom, giving bond angles of 120°.",
-    "term": "Trigonal planar"
-   },
-   {
-    "definition": "A shape in which four bonded atoms are arranged around the central atom, giving bond angles of 109.5°.",
-    "term": "Tetrahedral"
-   },
-   {
-    "definition": "A shape with three bonded atoms and one lone pair on the central atom, giving bond angles of about 107°.",
-    "term": "Pyramidal"
-   },
-   {
-    "definition": "A shape with two bonded atoms and two lone pairs on the central atom, giving a bond angle of about 104.5° in water.",
-    "term": "V-shaped (bent)"
-   }
-  ],
-  "notes": [
-   {
-    "h": "The VSEPR theory (Higher Level only)",
-    "points": [
-     "VSEPR stands for valence shell electron pair repulsion.",
-     "The theory applies to molecules of the form ABn, with up to four pairs of electrons around a central atom and single bonds only.",
-     "Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.",
-     "Both bonding pairs and lone pairs count.",
-     "Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.",
-     "Lone pairs therefore squeeze the bond angles smaller.",
-     "The shape is described by the positions of the atoms only, not the lone pairs."
-    ]
-   },
-   {
-    "h": "Method for predicting shape (Higher Level only)",
-    "points": [
-     "Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.",
-     "Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.",
-     "Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs."
-    ]
-   },
-   {
-    "h": "The five shapes (Higher Level only)",
-    "points": [
-     "Two bonding pairs and no lone pairs: linear, 180°, e.g. BeCl₂ (gas).",
-     "Three bonding pairs and no lone pairs: trigonal planar, 120°, e.g. BF₃.",
-     "Four bonding pairs and no lone pairs: tetrahedral, 109.5°, e.g. CH₄, CCl₄ and SiH₄.",
-     "Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.",
-     "Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.",
-     "H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°."
-    ]
-   },
-   {
-    "h": "Bond angles and lone pairs (Higher Level only)",
-    "points": [
-     "NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.",
-     "The lone pairs push the bonds closer together, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O."
-    ]
-   },
-   {
-    "h": "Visualising shapes (Higher Level only)",
-    "points": [
-     "Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.",
-     "3D models: ball-and-stick kits show bond angles.",
-     "Digital models, from molecular-modelling software or apps, can be rotated on screen.",
-     "Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled."
-    ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "(i) Methane has four bonding pairs and no lone pairs around carbon. The pairs repel each other and spread as far apart as possible, so the molecule is tetrahedral with bond angles of 109.5°. (ii) Ammonia has three bonding pairs and one lone pair around nitrogen. The four pairs are arranged roughly tetrahedrally, but the shape is pyramidal because the lone pair is not counted in the shape. The bond angle is about 107°. It is smaller than in methane because lone pairs repel more strongly than bonding pairs, so the lone pair squeezes the three N–H bonds closer together.",
-    "prompt": "Use VSEPR theory to predict the shape of (i) a methane molecule, (ii) an ammonia molecule, and explain why the bond angle in ammonia is smaller than in methane.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "(i) BF₃ has three bonding pairs and no lone pairs around boron, so it is trigonal planar with bond angles of 120°. (ii) H₂S has two bonding pairs and two lone pairs around sulfur, so it is V-shaped (bent). VSEPR predicts an angle less than 109.5°; the measured angle is about 92°, smaller than the 104.5° of water.",
-    "prompt": "State the shape and bond angle of (i) BF₃, (ii) H₂S.",
     "type": "short"
    }
   ]
@@ -14812,6 +14240,74 @@
    {
     "definition": "A small positive (δ+) or negative (δ−) charge on an atom in a polar bond, shown with the symbol δ.",
     "term": "Partial charge (δ+ and δ−)"
+   },
+   {
+    "definition": "A compound held together by electrostatic attractions between oppositely charged ions, usually a metal and a non-metal.",
+    "term": "Ionic compound"
+   },
+   {
+    "definition": "A compound made of molecules in which atoms are held together by covalent bonds, with only weak forces between molecules.",
+    "term": "Covalent (molecular) compound"
+   },
+   {
+    "definition": "The force of attraction between oppositely charged ions.",
+    "term": "Electrostatic attraction"
+   },
+   {
+    "definition": "The regular three-dimensional arrangement of ions in a solid ionic compound.",
+    "term": "Lattice"
+   },
+   {
+    "definition": "The ability of a substance to carry an electric current, which needs free ions or free electrons.",
+    "term": "Electrical conductivity"
+   },
+   {
+    "definition": "The mass of a solute that dissolves in a given volume of solvent at a stated temperature.",
+    "term": "Solubility"
+   },
+   {
+    "definition": "The change of state from solid directly to gas on heating, without passing through the liquid state.",
+    "term": "Sublimation"
+   },
+   {
+    "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances.",
+    "term": "Non-polar solvent"
+   },
+   {
+    "definition": "The strong covalent bonds that hold the atoms of a molecule together.",
+    "term": "Intramolecular bonding"
+   },
+   {
+    "definition": "The weaker forces of attraction between separate molecules.",
+    "term": "Intermolecular forces"
+   },
+   {
+    "definition": "The collective name for London dispersion forces and permanent dipole–dipole forces.",
+    "term": "Van der Waals forces"
+   },
+   {
+    "definition": "Weak attractions between all molecules, caused by temporary dipoles that induce dipoles in neighbouring molecules.",
+    "term": "London dispersion forces"
+   },
+   {
+    "definition": "An uneven distribution of charge in a polar molecule, giving a δ+ end and a δ− end.",
+    "term": "Permanent dipole"
+   },
+   {
+    "definition": "Attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring polar molecule.",
+    "term": "Dipole–dipole forces"
+   },
+   {
+    "definition": "A strong dipole–dipole attraction between a hydrogen atom bonded to F, O or N and a lone pair on an F, O or N atom of a neighbouring molecule.",
+    "term": "Hydrogen bond"
+   },
+   {
+    "definition": "The attraction between an ion and the oppositely charged end of a polar molecule.",
+    "term": "Ion–dipole force"
+   },
+   {
+    "definition": "An ion surrounded by water molecules, held by ion–dipole forces.",
+    "term": "Hydrated ion"
    }
   ],
   "notes": [
@@ -14851,59 +14347,7 @@
      "A bond between identical atoms has a difference of zero and is non-polar, e.g. Cl–Cl: 3.16 − 3.16 = 0.",
      "In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+)."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. Down group 17 electronegativity decreases, e.g. from F 3.98 to I 2.66. Each element down the group has an extra energy level, so the atomic radius increases. The inner electrons screen (shield) the outer electrons from the nucleus, so the bonding electrons are further from the nucleus and less strongly attracted, even though the nuclear charge is greater.",
-    "prompt": "Define electronegativity and explain why electronegativity decreases down group 17.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) KBr: Pauling values K 0.82 and Br 2.96. Difference 2.96 − 0.82 = 2.14, which is greater than 1.7, so the bond is mainly ionic. (ii) NH₃: N–H bonds with N 3.04 and H 2.20. Difference 3.04 − 2.20 = 0.84, which is between about 0.4 and 1.7, so each N–H bond is polar covalent, with the δ− charge on nitrogen. (iii) Br₂: both atoms are Br with value 2.96. Difference 2.96 − 2.96 = 0, so the bond is pure (non-polar) covalent.",
-    "prompt": "Use electronegativity values to predict the type of bonding in (i) KBr, (ii) NH₃, (iii) Br₂, showing your working.",
-    "type": "short"
-   }
-  ]
- },
- "chem6-s2": {
-  "keyTerms": [
-   {
-    "definition": "A compound held together by electrostatic attractions between oppositely charged ions, usually a metal and a non-metal.",
-    "term": "Ionic compound"
-   },
-   {
-    "definition": "A compound made of molecules in which atoms are held together by covalent bonds, with only weak forces between molecules.",
-    "term": "Covalent (molecular) compound"
-   },
-   {
-    "definition": "The force of attraction between oppositely charged ions.",
-    "term": "Electrostatic attraction"
-   },
-   {
-    "definition": "The regular three-dimensional arrangement of ions in a solid ionic compound.",
-    "term": "Lattice"
-   },
-   {
-    "definition": "The ability of a substance to carry an electric current, which needs free ions or free electrons.",
-    "term": "Electrical conductivity"
-   },
-   {
-    "definition": "The mass of a solute that dissolves in a given volume of solvent at a stated temperature.",
-    "term": "Solubility"
-   },
-   {
-    "definition": "The change of state from solid directly to gas on heating, without passing through the liquid state.",
-    "term": "Sublimation"
-   },
-   {
-    "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances.",
-    "term": "Non-polar solvent"
-   }
-  ],
-  "notes": [
    {
     "h": "Ionic compounds",
     "points": [
@@ -14944,63 +14388,7 @@
      "Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.",
      "Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken; see the chapter “Allotropes of Carbon. Hydrocarbons”."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Sodium chloride melts at 801 °C because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged Na⁺ and Cl⁻ ions throughout the lattice. (ii) As a solid the ions are held in fixed positions, so there are no free ions to carry charge. (iii) When dissolved in water the ions are free to move and carry charge, so the solution conducts electricity.",
-    "prompt": "Explain why sodium chloride (i) has a high melting point, (ii) does not conduct electricity as a solid, (iii) conducts electricity when dissolved in water.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Ionic compounds conduct electricity when molten or dissolved in water, because the ions are free to move and carry charge. Solid ionic compounds do not conduct, because the ions are held in fixed positions. Covalent compounds generally do not conduct, because they have no ions or free electrons to carry charge. Ionic compounds have high boiling points, e.g. sodium chloride boils at 1413 °C, because strong electrostatic attractions between ions must be overcome. Covalent compounds have low boiling points, e.g. methane boils at −162 °C, because only the weak forces between molecules must be overcome.",
-    "prompt": "Compare the electrical conductivity and boiling points of ionic and covalent compounds, explaining each difference.",
-    "type": "short"
-   }
-  ]
- },
- "chem6-s3": {
-  "keyTerms": [
-   {
-    "definition": "The strong covalent bonds that hold the atoms of a molecule together.",
-    "term": "Intramolecular bonding"
-   },
-   {
-    "definition": "The weaker forces of attraction between separate molecules.",
-    "term": "Intermolecular forces"
-   },
-   {
-    "definition": "The collective name for London dispersion forces and permanent dipole–dipole forces.",
-    "term": "Van der Waals forces"
-   },
-   {
-    "definition": "Weak attractions between all molecules, caused by temporary dipoles that induce dipoles in neighbouring molecules.",
-    "term": "London dispersion forces"
-   },
-   {
-    "definition": "An uneven distribution of charge in a polar molecule, giving a δ+ end and a δ− end.",
-    "term": "Permanent dipole"
-   },
-   {
-    "definition": "Attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring polar molecule.",
-    "term": "Dipole–dipole forces"
-   },
-   {
-    "definition": "A strong dipole–dipole attraction between a hydrogen atom bonded to F, O or N and a lone pair on an F, O or N atom of a neighbouring molecule.",
-    "term": "Hydrogen bond"
-   },
-   {
-    "definition": "The attraction between an ion and the oppositely charged end of a polar molecule.",
-    "term": "Ion–dipole force"
-   },
-   {
-    "definition": "An ion surrounded by water molecules, held by ion–dipole forces.",
-    "term": "Hydrated ion"
-   }
-  ],
-  "notes": [
    {
     "h": "Intramolecular bonding and intermolecular forces",
     "points": [
@@ -15061,6 +14449,30 @@
   "questions": [
    {
     "marks": 9,
+    "model": "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. Down group 17 electronegativity decreases, e.g. from F 3.98 to I 2.66. Each element down the group has an extra energy level, so the atomic radius increases. The inner electrons screen (shield) the outer electrons from the nucleus, so the bonding electrons are further from the nucleus and less strongly attracted, even though the nuclear charge is greater.",
+    "prompt": "Define electronegativity and explain why electronegativity decreases down group 17.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) KBr: Pauling values K 0.82 and Br 2.96. Difference 2.96 − 0.82 = 2.14, which is greater than 1.7, so the bond is mainly ionic. (ii) NH₃: N–H bonds with N 3.04 and H 2.20. Difference 3.04 − 2.20 = 0.84, which is between about 0.4 and 1.7, so each N–H bond is polar covalent, with the δ− charge on nitrogen. (iii) Br₂: both atoms are Br with value 2.96. Difference 2.96 − 2.96 = 0, so the bond is pure (non-polar) covalent.",
+    "prompt": "Use electronegativity values to predict the type of bonding in (i) KBr, (ii) NH₃, (iii) Br₂, showing your working.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Sodium chloride melts at 801 °C because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged Na⁺ and Cl⁻ ions throughout the lattice. (ii) As a solid the ions are held in fixed positions, so there are no free ions to carry charge. (iii) When dissolved in water the ions are free to move and carry charge, so the solution conducts electricity.",
+    "prompt": "Explain why sodium chloride (i) has a high melting point, (ii) does not conduct electricity as a solid, (iii) conducts electricity when dissolved in water.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ionic compounds conduct electricity when molten or dissolved in water, because the ions are free to move and carry charge. Solid ionic compounds do not conduct, because the ions are held in fixed positions. Covalent compounds generally do not conduct, because they have no ions or free electrons to carry charge. Ionic compounds have high boiling points, e.g. sodium chloride boils at 1413 °C, because strong electrostatic attractions between ions must be overcome. Covalent compounds have low boiling points, e.g. methane boils at −162 °C, because only the weak forces between molecules must be overcome.",
+    "prompt": "Compare the electrical conductivity and boiling points of ionic and covalent compounds, explaining each difference.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
     "model": "Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together. Intermolecular forces are much weaker attractions between separate molecules: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds. London dispersion forces arise because electrons are always moving. At any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole. This temporary dipole induces a dipole in a neighbouring molecule, and the two attract.",
     "prompt": "Distinguish between intramolecular bonding and intermolecular forces, and explain how London dispersion forces arise.",
     "type": "short"
@@ -15079,7 +14491,7 @@
    }
   ]
  },
- "chem6-s4": {
+ "chem6-s2": {
   "keyTerms": [
    {
     "definition": "The temperature at which a liquid's vapour pressure equals the atmospheric pressure and it boils.",
@@ -15112,6 +14524,54 @@
    {
     "definition": "Describes two liquids that do not mix and form separate layers, such as hexane and water.",
     "term": "Immiscible"
+   },
+   {
+    "definition": "A covalent bond in which the shared electrons are drawn unevenly, giving δ+ and δ− ends.",
+    "term": "Polar bond"
+   },
+   {
+    "definition": "A molecule with an overall uneven distribution of charge, so that it has a δ+ end and a δ− end.",
+    "term": "Polar molecule"
+   },
+   {
+    "definition": "A molecule whose charge is evenly distributed overall, either because it has no polar bonds or because its polar bonds cancel.",
+    "term": "Non-polar molecule"
+   },
+   {
+    "definition": "Polar bonds whose polarities point in opposite or balancing directions, so that they give no overall polarity.",
+    "term": "Cancelling dipoles"
+   },
+   {
+    "definition": "A molecule whose shape is arranged so that its bond polarities balance, such as a linear or tetrahedral molecule with identical bonds.",
+    "term": "Symmetrical molecule"
+   },
+   {
+    "definition": "A flat shape in which three bonded atoms lie at 120° to one another around a central atom.",
+    "term": "Trigonal planar"
+   },
+   {
+    "definition": "A solvent made of polar molecules, such as water, that dissolves ionic and polar substances.",
+    "term": "Polar solvent"
+   },
+   {
+    "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances.",
+    "term": "Non-polar solvent"
+   },
+   {
+    "definition": "A molecule with two bonded atoms at an angle to a central atom, such as water.",
+    "term": "V-shaped (bent) molecule"
+   },
+   {
+    "definition": "A molecule with three bonded atoms arranged in a pyramid above a central atom, such as ammonia.",
+    "term": "Pyramidal molecule"
+   },
+   {
+    "definition": "A molecule with four bonded atoms arranged at the corners of a tetrahedron around a central atom, such as methane.",
+    "term": "Tetrahedral molecule"
+   },
+   {
+    "definition": "A molecule whose atoms lie in a straight line, such as carbon dioxide.",
+    "term": "Linear molecule"
    }
   ],
   "notes": [
@@ -15162,61 +14622,7 @@
      "Molecules of similar mass have higher boiling points if they are polar (dipole–dipole forces), and much higher ones if they hydrogen bond, e.g. ethanol compared with propane.",
      "Diagram: a graph of boiling point against period for the hydrides of groups 14, 15, 16 and 17, showing the high values of H₂O, HF and NH₃ and the steady rise from CH₄ to SnH₄."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Both are molecular compounds, so boiling overcomes the intermolecular forces between molecules, not the covalent bonds within them. Water molecules form hydrogen bonds, which are the strongest intermolecular forces here, so a lot of energy is needed to overcome them; water boils at 100 °C. Hydrogen sulfide molecules are heavier, so their London dispersion forces are larger than those of a lighter molecule, but they have no hydrogen bonding and the forces between them are weaker overall. Hydrogen sulfide boils at −60 °C.",
-    "prompt": "Explain why water has a much higher boiling point than hydrogen sulfide, even though hydrogen sulfide molecules have a greater mass.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "Fluorine and chlorine are gases, bromine is a liquid and iodine is a solid at room temperature. Fluorine, chlorine, bromine and iodine are all non-polar molecules, so the only intermolecular forces are London dispersion forces. Down group 17 the molecules have more electrons and larger electron clouds, so the London dispersion forces get stronger. More energy is needed to overcome the stronger forces, so the boiling points rise down the group.",
-    "prompt": "Account for the trend in boiling points down group 17 from fluorine to iodine.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Ethanol is polar and forms hydrogen bonds with water molecules. The attractions between ethanol and water are similar to or stronger than the hydrogen bonds between water molecules that they replace, so ethanol dissolves: like dissolves like. Hexane is non-polar and has only London dispersion forces. These are too weak to replace the hydrogen bonds between water molecules, so hexane does not dissolve and forms two layers with water.",
-    "prompt": "Explain why ethanol is soluble in water but hexane is not.",
-    "type": "short"
-   }
-  ]
- },
- "chem6-s5": {
-  "keyTerms": [
-   {
-    "definition": "A covalent bond in which the shared electrons are drawn unevenly, giving δ+ and δ− ends.",
-    "term": "Polar bond"
-   },
-   {
-    "definition": "A molecule with an overall uneven distribution of charge, so that it has a δ+ end and a δ− end.",
-    "term": "Polar molecule"
-   },
-   {
-    "definition": "A molecule whose charge is evenly distributed overall, either because it has no polar bonds or because its polar bonds cancel.",
-    "term": "Non-polar molecule"
-   },
-   {
-    "definition": "Polar bonds whose polarities point in opposite or balancing directions, so that they give no overall polarity.",
-    "term": "Cancelling dipoles"
-   },
-   {
-    "definition": "A molecule whose shape is arranged so that its bond polarities balance, such as a linear or tetrahedral molecule with identical bonds.",
-    "term": "Symmetrical molecule"
-   },
-   {
-    "definition": "Describes two liquids that do not mix and form separate layers.",
-    "term": "Immiscible"
-   },
-   {
-    "definition": "A flat shape in which three bonded atoms lie at 120° to one another around a central atom.",
-    "term": "Trigonal planar"
-   }
-  ],
-  "notes": [
    {
     "b": "The shapes named here are given; see “VSEPR theory” for how shapes are predicted.",
     "h": "Polar bonds and polar molecules (Higher Level only)",
@@ -15246,59 +14652,7 @@
      "A symmetrical molecule usually has a lower boiling point and lower solubility in water than an unsymmetrical one of similar size.",
      "Tetrachloromethane is immiscible with water, while trichloromethane is slightly soluble; both dissolve in non-polar solvents."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Carbon dioxide has polar C=O bonds, but its molecule is linear, so the two bond polarities point in opposite directions and cancel; the molecule is non-polar. Water has two polar O–H bonds in a V-shaped molecule, so they do not cancel; water is polar, with δ− on oxygen. Polar water molecules have permanent dipole–dipole forces (and hydrogen bonds) as well as London dispersion forces between them, so their intermolecular forces are stronger. Non-polar carbon dioxide molecules have only London dispersion forces between them, so their intermolecular forces are weaker.",
-    "prompt": "Explain why the carbon dioxide molecule is non-polar but the water molecule is polar, although both contain polar bonds, and state the effect of this on the intermolecular forces in each.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Tetrachloromethane has four polar C–Cl bonds arranged tetrahedrally, so they cancel and the molecule is non-polar. Trichloromethane has a C–H bond that differs from its three C–Cl bonds, so the tetrahedral molecule is unsymmetrical; its polarities do not cancel and the molecule is polar.",
-    "prompt": "Tetrachloromethane (CCl₄) is non-polar but trichloromethane (CHCl₃) is polar. Explain.",
-    "type": "short"
-   }
-  ]
- },
- "chem6-s6": {
-  "keyTerms": [
-   {
-    "definition": "A molecule with an uneven distribution of charge, so that it has a δ+ end and a δ− end.",
-    "term": "Polar molecule"
-   },
-   {
-    "definition": "A molecule with an even distribution of charge overall, which is not attracted to a charged rod.",
-    "term": "Non-polar molecule"
-   },
-   {
-    "definition": "A solvent made of polar molecules, such as water, that dissolves ionic and polar substances.",
-    "term": "Polar solvent"
-   },
-   {
-    "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances.",
-    "term": "Non-polar solvent"
-   },
-   {
-    "definition": "A molecule with two bonded atoms at an angle to a central atom, such as water.",
-    "term": "V-shaped (bent) molecule"
-   },
-   {
-    "definition": "A molecule with three bonded atoms arranged in a pyramid above a central atom, such as ammonia.",
-    "term": "Pyramidal molecule"
-   },
-   {
-    "definition": "A molecule with four bonded atoms arranged at the corners of a tetrahedron around a central atom, such as methane.",
-    "term": "Tetrahedral molecule"
-   },
-   {
-    "definition": "A molecule whose atoms lie in a straight line, such as carbon dioxide.",
-    "term": "Linear molecule"
-   }
-  ],
-  "notes": [
    {
     "h": "Shape decides overall polarity",
     "points": [
@@ -15338,6 +14692,36 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "Both are molecular compounds, so boiling overcomes the intermolecular forces between molecules, not the covalent bonds within them. Water molecules form hydrogen bonds, which are the strongest intermolecular forces here, so a lot of energy is needed to overcome them; water boils at 100 °C. Hydrogen sulfide molecules are heavier, so their London dispersion forces are larger than those of a lighter molecule, but they have no hydrogen bonding and the forces between them are weaker overall. Hydrogen sulfide boils at −60 °C.",
+    "prompt": "Explain why water has a much higher boiling point than hydrogen sulfide, even though hydrogen sulfide molecules have a greater mass.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Fluorine and chlorine are gases, bromine is a liquid and iodine is a solid at room temperature. Fluorine, chlorine, bromine and iodine are all non-polar molecules, so the only intermolecular forces are London dispersion forces. Down group 17 the molecules have more electrons and larger electron clouds, so the London dispersion forces get stronger. More energy is needed to overcome the stronger forces, so the boiling points rise down the group.",
+    "prompt": "Account for the trend in boiling points down group 17 from fluorine to iodine.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ethanol is polar and forms hydrogen bonds with water molecules. The attractions between ethanol and water are similar to or stronger than the hydrogen bonds between water molecules that they replace, so ethanol dissolves: like dissolves like. Hexane is non-polar and has only London dispersion forces. These are too weak to replace the hydrogen bonds between water molecules, so hexane does not dissolve and forms two layers with water.",
+    "prompt": "Explain why ethanol is soluble in water but hexane is not.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Carbon dioxide has polar C=O bonds, but its molecule is linear, so the two bond polarities point in opposite directions and cancel; the molecule is non-polar. Water has two polar O–H bonds in a V-shaped molecule, so they do not cancel; water is polar, with δ− on oxygen. Polar water molecules have permanent dipole–dipole forces (and hydrogen bonds) as well as London dispersion forces between them, so their intermolecular forces are stronger. Non-polar carbon dioxide molecules have only London dispersion forces between them, so their intermolecular forces are weaker.",
+    "prompt": "Explain why the carbon dioxide molecule is non-polar but the water molecule is polar, although both contain polar bonds, and state the effect of this on the intermolecular forces in each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Tetrachloromethane has four polar C–Cl bonds arranged tetrahedrally, so they cancel and the molecule is non-polar. Trichloromethane has a C–H bond that differs from its three C–Cl bonds, so the tetrahedral molecule is unsymmetrical; its polarities do not cancel and the molecule is polar.",
+    "prompt": "Tetrachloromethane (CCl₄) is non-polar but trichloromethane (CHCl₃) is polar. Explain.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "Charge a polythene rod by rubbing it with a cloth. Let a thin stream of water run from a burette and hold the charged rod close to the stream without touching it; the water stream is deflected towards the rod. Repeat with cyclohexane, recharging the rod each time; the stream is not deflected. Explanation: water molecules are polar, with a δ+ end and a δ− end. They turn so that their oppositely charged end faces the rod and are attracted to it. Cyclohexane molecules are non-polar, so they are not attracted to the rod. Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation.",
@@ -15385,6 +14769,82 @@
    {
     "definition": "A molecule made of two atoms of the same element, such as Cl₂.",
     "term": "Diatomic molecule"
+   },
+   {
+    "definition": "The number of protons in an atom, which increases by one from each element to the next.",
+    "term": "Atomic number"
+   },
+   {
+    "definition": "The average mass of an atom of an element compared with one-twelfth of the mass of a carbon-12 atom.",
+    "term": "Relative atomic mass"
+   },
+   {
+    "definition": "Atoms of the same element with different numbers of neutrons, which affect the relative atomic mass.",
+    "term": "Isotopes"
+   },
+   {
+    "definition": "The repeating pattern of properties across the periodic table, caused by the repeating outer-electron arrangements.",
+    "term": "Periodicity"
+   },
+   {
+    "definition": "The tendency of atoms to react to reach a full outer level of eight electrons.",
+    "term": "Octet rule"
+   },
+   {
+    "definition": "The ability of an atom to attract bonding electrons towards itself in a bond.",
+    "term": "Electronegativity"
+   },
+   {
+    "definition": "The scale on which electronegativity values are measured, with fluorine the highest at 3.98.",
+    "term": "Pauling scale"
+   },
+   {
+    "definition": "An element with properties between those of metals and non-metals, such as silicon.",
+    "term": "Metalloid"
+   },
+   {
+    "definition": "A substance whose ability to conduct electricity lies between that of a conductor and an insulator, such as silicon.",
+    "term": "Semiconductor"
+   },
+   {
+    "definition": "A structure in which atoms are linked by covalent bonds in a continuous network, as in silicon.",
+    "term": "Giant covalent structure"
+   },
+   {
+    "definition": "The minimum energy needed to remove the most loosely bound electron from a neutral gaseous atom in its ground state, in kJ mol⁻¹.",
+    "term": "First ionisation energy"
+   },
+   {
+    "definition": "The energy needed to remove an electron from a 1+ gaseous ion, X⁺(g) → X²⁺(g) + e⁻.",
+    "term": "Second ionisation energy"
+   },
+   {
+    "definition": "The energies needed to remove each electron in turn from an atom or ion, each one higher than the last.",
+    "term": "Successive ionisation energies"
+   },
+   {
+    "definition": "Half the distance between the nuclei of two atoms of the same element joined by a single covalent bond.",
+    "term": "Atomic (covalent) radius"
+   },
+   {
+    "definition": "The net positive pull of the nucleus on the outer electrons, which increases with the number of protons.",
+    "term": "Effective nuclear charge"
+   },
+   {
+    "definition": "The shielding of outer electrons from the full nuclear charge by inner electrons.",
+    "term": "Screening"
+   },
+   {
+    "definition": "The lowest-energy arrangement of the electrons in an atom.",
+    "term": "Ground state"
+   },
+   {
+    "definition": "A subdivision of a main energy level (s, p or d) that holds a fixed number of electrons.",
+    "term": "Sublevel"
+   },
+   {
+    "definition": "A region of space within a sublevel that holds at most two electrons of opposite spin.",
+    "term": "Orbital"
    }
   ],
   "notes": [
@@ -15458,73 +14918,7 @@
      "Argon is used in filament light bulbs and as a shield gas in welding.",
      "Neon is used in advertising signs, where it glows red in an electric discharge."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Sodium melts into a silvery ball that darts about on the surface, and the hydrogen given off fizzes. The universal indicator turns purple because the solution formed is alkaline, containing sodium hydroxide. Balanced equation: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). Potassium reacts more vigorously because it is further down group 1. Its outer electron is further from the nucleus and more shielded, so it is lost more easily. Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame.",
-    "prompt": "Describe what you would observe when a small piece of sodium is added to water containing universal indicator, write a balanced equation, and explain why potassium reacts more vigorously.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "The colourless solution turns orange-brown as bromine is formed. Balanced equation: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq). The reaction occurs because chlorine is more reactive than bromine. Reactivity decreases down group 17 because larger atoms attract an extra electron less strongly. Chlorine, higher in the group, gains an electron more readily than bromine, so it displaces bromine from its salt, and bromide ions lose electrons to form bromine.",
-    "prompt": "Chlorine gas is bubbled into a colourless solution of potassium bromide. State what you would observe, write a balanced equation and explain why the reaction occurs.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "The noble gases have full outer energy levels, which is a stable arrangement: helium has 2 outer electrons and the others have 8. They therefore do not need to gain, lose or share electrons, so they are very unreactive. Argon is used in filament light bulbs, or as a shield gas in welding.",
-    "prompt": "Explain why the noble gases are very unreactive and give one use of argon.",
-    "type": "short"
-   }
-  ]
- },
- "chem7-s2": {
-  "keyTerms": [
-   {
-    "definition": "The number of protons in an atom, which increases by one from each element to the next.",
-    "term": "Atomic number"
-   },
-   {
-    "definition": "The average mass of an atom of an element compared with one-twelfth of the mass of a carbon-12 atom.",
-    "term": "Relative atomic mass"
-   },
-   {
-    "definition": "Atoms of the same element with different numbers of neutrons, which affect the relative atomic mass.",
-    "term": "Isotopes"
-   },
-   {
-    "definition": "The repeating pattern of properties across the periodic table, caused by the repeating outer-electron arrangements.",
-    "term": "Periodicity"
-   },
-   {
-    "definition": "The tendency of atoms to react to reach a full outer level of eight electrons.",
-    "term": "Octet rule"
-   },
-   {
-    "definition": "The ability of an atom to attract bonding electrons towards itself in a bond.",
-    "term": "Electronegativity"
-   },
-   {
-    "definition": "The scale on which electronegativity values are measured, with fluorine the highest at 3.98.",
-    "term": "Pauling scale"
-   },
-   {
-    "definition": "An element with properties between those of metals and non-metals, such as silicon.",
-    "term": "Metalloid"
-   },
-   {
-    "definition": "A substance whose ability to conduct electricity lies between that of a conductor and an insulator, such as silicon.",
-    "term": "Semiconductor"
-   },
-   {
-    "definition": "A structure in which atoms are linked by covalent bonds in a continuous network, as in silicon.",
-    "term": "Giant covalent structure"
-   }
-  ],
-  "notes": [
    {
     "h": "Atomic number and relative atomic mass",
     "points": [
@@ -15548,7 +14942,7 @@
     "points": [
      "Electronegativity increases across a period, e.g. sodium 0.93 to chlorine 3.16 in period 3.",
      "Electronegativity decreases down a group, e.g. fluorine 3.98 to iodine 2.66 in group 17.",
-     "The explanation for these values is in \"Electronegativity and bond type\"."
+     "The explanation for these values is in \"Bond type and intermolecular forces\"."
     ]
    },
    {
@@ -15575,7 +14969,7 @@
     ]
    },
    {
-    "b": "These trends are Higher Level only and are explained in full in \"Ionisation energies and atomic radii\".",
+    "b": "These trends are Higher Level only and are explained in full below.",
     "h": "Atomic radius and ionisation energy trends (Higher Level only)",
     "points": [
      "Atomic (covalent) radius decreases across a period and increases down a group.",
@@ -15583,63 +14977,7 @@
      "Successive ionisation energies of an element always increase.",
      "Higher Level trends extend to the first 36 elements, to krypton; Ordinary level uses the first 20, to calcium."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "(i) Across a period, the number of outer electrons increases by one at each step, all in the same main energy level. (ii) Down a group, the number of outer electrons stays the same, but a new main energy level is added each time. Explanation: elements in group 1 each have one outer electron. Going down the group, the outer electron is in a higher energy level, further from the nucleus and more shielded by inner electrons. It is therefore lost more easily, so reactivity increases down group 1 as metals lose electrons more readily.",
-    "prompt": "Describe how electronic structure changes (i) across a period, (ii) down a group, and use this to explain the trend in reactivity down group 1.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Sodium, magnesium and aluminium are shiny metals and good conductors. Silicon is a metalloid and a semiconductor. Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors, so the elements change from metals through a metalloid to non-metals. Melting points rise across the period to a maximum at silicon (1414 °C), which has a giant covalent structure. Beyond silicon, melting points fall sharply for the molecular non-metals and argon.",
-    "prompt": "Describe the change in the physical properties of the elements across period 3 from sodium to argon.",
-    "type": "short"
-   }
-  ]
- },
- "chem7-s3": {
-  "keyTerms": [
-   {
-    "definition": "The minimum energy needed to remove the most loosely bound electron from a neutral gaseous atom in its ground state, in kJ mol⁻¹.",
-    "term": "First ionisation energy"
-   },
-   {
-    "definition": "The energy needed to remove an electron from a 1+ gaseous ion, X⁺(g) → X²⁺(g) + e⁻.",
-    "term": "Second ionisation energy"
-   },
-   {
-    "definition": "The energies needed to remove each electron in turn from an atom or ion, each one higher than the last.",
-    "term": "Successive ionisation energies"
-   },
-   {
-    "definition": "Half the distance between the nuclei of two atoms of the same element joined by a single covalent bond.",
-    "term": "Atomic (covalent) radius"
-   },
-   {
-    "definition": "The net positive pull of the nucleus on the outer electrons, which increases with the number of protons.",
-    "term": "Effective nuclear charge"
-   },
-   {
-    "definition": "The shielding of outer electrons from the full nuclear charge by inner electrons.",
-    "term": "Screening"
-   },
-   {
-    "definition": "The lowest-energy arrangement of the electrons in an atom.",
-    "term": "Ground state"
-   },
-   {
-    "definition": "A subdivision of a main energy level (s, p or d) that holds a fixed number of electrons.",
-    "term": "Sublevel"
-   },
-   {
-    "definition": "A region of space within a sublevel that holds at most two electrons of opposite spin.",
-    "term": "Orbital"
-   }
-  ],
-  "notes": [
    {
     "h": "The three factors controlling outer electrons (Higher Level only)",
     "points": [
@@ -15696,6 +15034,36 @@
   "questions": [
    {
     "marks": 12,
+    "model": "Sodium melts into a silvery ball that darts about on the surface, and the hydrogen given off fizzes. The universal indicator turns purple because the solution formed is alkaline, containing sodium hydroxide. Balanced equation: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). Potassium reacts more vigorously because it is further down group 1. Its outer electron is further from the nucleus and more shielded, so it is lost more easily. Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame.",
+    "prompt": "Describe what you would observe when a small piece of sodium is added to water containing universal indicator, write a balanced equation, and explain why potassium reacts more vigorously.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The colourless solution turns orange-brown as bromine is formed. Balanced equation: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq). The reaction occurs because chlorine is more reactive than bromine. Reactivity decreases down group 17 because larger atoms attract an extra electron less strongly. Chlorine, higher in the group, gains an electron more readily than bromine, so it displaces bromine from its salt, and bromide ions lose electrons to form bromine.",
+    "prompt": "Chlorine gas is bubbled into a colourless solution of potassium bromide. State what you would observe, write a balanced equation and explain why the reaction occurs.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The noble gases have full outer energy levels, which is a stable arrangement: helium has 2 outer electrons and the others have 8. They therefore do not need to gain, lose or share electrons, so they are very unreactive. Argon is used in filament light bulbs, or as a shield gas in welding.",
+    "prompt": "Explain why the noble gases are very unreactive and give one use of argon.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Across a period, the number of outer electrons increases by one at each step, all in the same main energy level. (ii) Down a group, the number of outer electrons stays the same, but a new main energy level is added each time. Explanation: elements in group 1 each have one outer electron. Going down the group, the outer electron is in a higher energy level, further from the nucleus and more shielded by inner electrons. It is therefore lost more easily, so reactivity increases down group 1 as metals lose electrons more readily.",
+    "prompt": "Describe how electronic structure changes (i) across a period, (ii) down a group, and use this to explain the trend in reactivity down group 1.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Sodium, magnesium and aluminium are shiny metals and good conductors. Silicon is a metalloid and a semiconductor. Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors, so the elements change from metals through a metalloid to non-metals. Melting points rise across the period to a maximum at silicon (1414 °C), which has a giant covalent structure. Beyond silicon, melting points fall sharply for the molecular non-metals and argon.",
+    "prompt": "Describe the change in the physical properties of the elements across period 3 from sodium to argon.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
     "model": "First ionisation energy is the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state, X(g) → X⁺(g) + e⁻, measured in kJ mol⁻¹. Across period 2 the first ionisation energy generally increases because the nuclear charge increases and the atomic radius decreases, so the outer electron is held more tightly. Oxygen is lower than nitrogen because nitrogen's 2p sublevel is half full, with one electron in each orbital (2p³), a stable arrangement. In oxygen (2p⁴) one 2p orbital holds a pair of electrons, and repulsion between the paired electrons makes one of them easier to remove.",
     "prompt": "Define first ionisation energy. Explain why first ionisation energy generally increases across period 2, and why the value for oxygen is lower than for nitrogen.",
     "type": "short"
@@ -15747,6 +15115,70 @@
    {
     "definition": "The volume occupied by one mole of a gas at a stated temperature and pressure.",
     "term": "Molar volume"
+   },
+   {
+    "definition": "Atoms of the same element that have different mass numbers.",
+    "term": "Isotopes"
+   },
+   {
+    "definition": "The total number of protons and neutrons in the nucleus of an atom.",
+    "term": "Mass number"
+   },
+   {
+    "definition": "The weighted average mass of an element's isotopes, relative to one-twelfth of the mass of a carbon-12 atom.",
+    "term": "Relative atomic mass (Ar)"
+   },
+   {
+    "definition": "The percentage of atoms of an element that are a particular isotope.",
+    "term": "Percentage abundance"
+   },
+   {
+    "definition": "An average in which each value is multiplied by how much it contributes before the total is divided by the sum of the weights.",
+    "term": "Weighted average"
+   },
+   {
+    "definition": "The standard against which relative atomic masses are measured: one-twelfth of the mass of a carbon-12 atom.",
+    "term": "Carbon-12 scale"
+   },
+   {
+    "definition": "Equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.",
+    "term": "Avogadro's law"
+   },
+   {
+    "definition": "Gases react in simple whole-number ratios by volume, at the same temperature and pressure.",
+    "term": "Gay-Lussac's law of combining volumes"
+   },
+   {
+    "definition": "0 °C (273 K) and 101.3 kPa, the conditions for the molar volume of 22.4 L mol⁻¹.",
+    "term": "Standard temperature and pressure (STP)"
+   },
+   {
+    "definition": "The unit of temperature used in gas calculations; 0 °C is 273 K.",
+    "term": "Kelvin"
+   },
+   {
+    "definition": "PV = nRT, where P is pressure in Pa, V is volume in m³, n is moles, R = 8.314 J K⁻¹ mol⁻¹ and T is temperature in K.",
+    "term": "Ideal gas equation"
+   },
+   {
+    "definition": "A liquid that evaporates easily, with a low boiling point.",
+    "term": "Volatile liquid"
+   },
+   {
+    "definition": "A beaker of boiling water that heats the flask to a known temperature of 373 K.",
+    "term": "Water bath"
+   },
+   {
+    "definition": "A small hole in the foil cap that lets air and excess vapour escape, so the flask fills with vapour at the bath temperature.",
+    "term": "Pinhole"
+   },
+   {
+    "definition": "To change from vapour to liquid on cooling, so the vapour's mass can be found by weighing.",
+    "term": "Condense"
+   },
+   {
+    "definition": "A volatile, highly flammable liquid with Mr 58 and a boiling point of 56 °C, used in this experiment.",
+    "term": "Propanone"
    }
   ],
   "notes": [
@@ -15787,57 +15219,13 @@
      "Moles from number of particles: n = N ÷ NA.",
      "Number of atoms: multiply the number of molecules by the number of atoms in each molecule.",
      "Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.",
-     "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP (see \"Molar volume and Avogadro's law\").",
+     "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP.",
      "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
      "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
      "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
      "Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "The mole is the SI unit of amount of substance; one mole contains exactly 6.02 × 10²³ elementary entities, which is the Avogadro constant. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Moles: n = m ÷ M = 4.4 ÷ 44 = 0.10 mol. Number of molecules: N = n × NA = 0.10 × 6.02 × 10²³ = 6.02 × 10²² molecules.",
-    "prompt": "Define the mole and calculate the number of molecules in 4.4 g of carbon dioxide.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "(i) Mr(CaCO₃) = 40 + 12 + 3(16) = 100, so M = 100 g mol⁻¹. Mass: m = n × M = 0.15 × 100 = 15 g. (ii) Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, so M = 98 g mol⁻¹. Moles: n = m ÷ M = 9.8 ÷ 98 = 0.10 mol. (iii) Each H₂SO₄ molecule contains 4 oxygen atoms, so the oxygen atoms = 0.10 × 4 = 0.40 mol of O atoms. Number of atoms: N = 0.40 × 6.02 × 10²³ = 2.41 × 10²³ oxygen atoms.",
-    "prompt": "Calculate (i) the mass of 0.15 mol of calcium carbonate, (ii) the number of moles in 9.8 g of sulfuric acid, (iii) the number of oxygen atoms in 9.8 g of sulfuric acid.",
-    "type": "short"
-   }
-  ]
- },
- "chem8-s2": {
-  "keyTerms": [
-   {
-    "definition": "Atoms of the same element that have different mass numbers.",
-    "term": "Isotopes"
-   },
-   {
-    "definition": "The total number of protons and neutrons in the nucleus of an atom.",
-    "term": "Mass number"
-   },
-   {
-    "definition": "The weighted average mass of an element's isotopes, relative to one-twelfth of the mass of a carbon-12 atom.",
-    "term": "Relative atomic mass (Ar)"
-   },
-   {
-    "definition": "The percentage of atoms of an element that are a particular isotope.",
-    "term": "Percentage abundance"
-   },
-   {
-    "definition": "An average in which each value is multiplied by how much it contributes before the total is divided by the sum of the weights.",
-    "term": "Weighted average"
-   },
-   {
-    "definition": "The standard against which relative atomic masses are measured: one-twelfth of the mass of a carbon-12 atom.",
-    "term": "Carbon-12 scale"
-   }
-  ],
-  "notes": [
    {
     "h": "Isotopes and relative atomic mass",
     "points": [
@@ -15872,51 +15260,7 @@
      "The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.",
      "Using whole mass numbers is an approximation; data-book isotope masses give more accurate abundances."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Ar(Ga) = (mass number × % abundance summed over both isotopes) ÷ 100. Gallium-69 contributes 69 × 60.1 = 4146.9. Gallium-71 contributes 71 × 39.9 = 2832.9. Total: 4146.9 + 2832.9 = 6979.8. Divide by 100: 6979.8 ÷ 100 = 69.798, so Ar(Ga) = 69.8 to one decimal place.",
-    "prompt": "Gallium consists of 60.1% gallium-69 and 39.9% gallium-71. Calculate the relative atomic mass of gallium to one decimal place.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Let the abundance of lithium-6 be x%, so the abundance of lithium-7 is (100 − x)%. Set up 6x + 7(100 − x) = 694. Expanding: 6x + 700 − 7x = 694, so 700 − x = 694 and x = 6. Lithium-6 is 6% and lithium-7 is 94%. Check: (6 × 6 + 7 × 94) ÷ 100 = (36 + 658) ÷ 100 = 6.94.",
-    "prompt": "Lithium has isotopes of mass numbers 6 and 7 and a relative atomic mass of 6.94. Calculate the percentage abundance of each isotope (sample data).",
-    "type": "short"
-   }
-  ]
- },
- "chem8-s3": {
-  "keyTerms": [
-   {
-    "definition": "Equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.",
-    "term": "Avogadro's law"
-   },
-   {
-    "definition": "Gases react in simple whole-number ratios by volume, at the same temperature and pressure.",
-    "term": "Gay-Lussac's law of combining volumes"
-   },
-   {
-    "definition": "0 °C (273 K) and 101.3 kPa, the conditions for the molar volume of 22.4 L mol⁻¹.",
-    "term": "Standard temperature and pressure (STP)"
-   },
-   {
-    "definition": "The volume occupied by one mole of any gas at a stated temperature and pressure.",
-    "term": "Molar volume"
-   },
-   {
-    "definition": "The unit of temperature used in gas calculations; 0 °C is 273 K.",
-    "term": "Kelvin"
-   },
-   {
-    "definition": "PV = nRT, where P is pressure in Pa, V is volume in m³, n is moles, R = 8.314 J K⁻¹ mol⁻¹ and T is temperature in K.",
-    "term": "Ideal gas equation"
-   }
-  ],
-  "notes": [
    {
     "h": "Avogadro's law and combining volumes",
     "points": [
@@ -15944,7 +15288,7 @@
    {
     "h": "Deducing the molar volume",
     "points": [
-     "From the ideal gas equation PV = nRT (see \"The ideal gas equation\"), the volume of n moles is V = nRT ÷ P.",
+     "From the ideal gas equation PV = nRT (see \"Gas laws and the ideal gas equation\"), the volume of n moles is V = nRT ÷ P.",
      "For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.",
      "This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.",
      "Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe.",
@@ -15967,51 +15311,7 @@
      "The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.",
      "So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 6,
-    "model": "Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules. Mr(O₂) = 2 × 16 = 32, so M = 32 g mol⁻¹. Moles: n = m ÷ M = 3.2 ÷ 32 = 0.10 mol. Volume at STP: V = n × 22.4 = 0.10 × 22.4 = 2.24 L.",
-    "prompt": "State Avogadro's law and calculate the volume, at STP, occupied by 3.2 g of oxygen gas.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "From PV = nRT, V = nRT ÷ P. For n = 1 mol, T = 273 K, P = 101 325 Pa and R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325 = 0.0224 m³ = 22.4 L. Moles of CO₂: n = V ÷ 22.4 = 1.12 ÷ 22.4 = 0.050 mol. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Mass: m = n × M = 0.050 × 44 = 2.2 g.",
-    "prompt": "Show, using the ideal gas equation, that one mole of gas occupies 22.4 L at STP, and calculate the mass of 1.12 L of carbon dioxide at STP.",
-    "type": "short"
-   }
-  ]
- },
- "chem8-s4": {
-  "keyTerms": [
-   {
-    "definition": "A liquid that evaporates easily, with a low boiling point.",
-    "term": "Volatile liquid"
-   },
-   {
-    "definition": "A beaker of boiling water that heats the flask to a known temperature of 373 K.",
-    "term": "Water bath"
-   },
-   {
-    "definition": "A small hole in the foil cap that lets air and excess vapour escape, so the flask fills with vapour at the bath temperature.",
-    "term": "Pinhole"
-   },
-   {
-    "definition": "To change from vapour to liquid on cooling, so the vapour's mass can be found by weighing.",
-    "term": "Condense"
-   },
-   {
-    "definition": "The sum of the relative atomic masses of all the atoms in a molecule; in this experiment Mr = m ÷ n.",
-    "term": "Relative molecular mass (Mr)"
-   },
-   {
-    "definition": "A volatile, highly flammable liquid with Mr 58 and a boiling point of 56 °C, used in this experiment.",
-    "term": "Propanone"
-   }
-  ],
-  "notes": [
    {
     "b": "Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour.",
     "h": "Principle",
@@ -16084,6 +15384,42 @@
   ],
   "questions": [
    {
+    "marks": 6,
+    "model": "The mole is the SI unit of amount of substance; one mole contains exactly 6.02 × 10²³ elementary entities, which is the Avogadro constant. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Moles: n = m ÷ M = 4.4 ÷ 44 = 0.10 mol. Number of molecules: N = n × NA = 0.10 × 6.02 × 10²³ = 6.02 × 10²² molecules.",
+    "prompt": "Define the mole and calculate the number of molecules in 4.4 g of carbon dioxide.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Mr(CaCO₃) = 40 + 12 + 3(16) = 100, so M = 100 g mol⁻¹. Mass: m = n × M = 0.15 × 100 = 15 g. (ii) Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, so M = 98 g mol⁻¹. Moles: n = m ÷ M = 9.8 ÷ 98 = 0.10 mol. (iii) Each H₂SO₄ molecule contains 4 oxygen atoms, so the oxygen atoms = 0.10 × 4 = 0.40 mol of O atoms. Number of atoms: N = 0.40 × 6.02 × 10²³ = 2.41 × 10²³ oxygen atoms.",
+    "prompt": "Calculate (i) the mass of 0.15 mol of calcium carbonate, (ii) the number of moles in 9.8 g of sulfuric acid, (iii) the number of oxygen atoms in 9.8 g of sulfuric acid.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ar(Ga) = (mass number × % abundance summed over both isotopes) ÷ 100. Gallium-69 contributes 69 × 60.1 = 4146.9. Gallium-71 contributes 71 × 39.9 = 2832.9. Total: 4146.9 + 2832.9 = 6979.8. Divide by 100: 6979.8 ÷ 100 = 69.798, so Ar(Ga) = 69.8 to one decimal place.",
+    "prompt": "Gallium consists of 60.1% gallium-69 and 39.9% gallium-71. Calculate the relative atomic mass of gallium to one decimal place.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Let the abundance of lithium-6 be x%, so the abundance of lithium-7 is (100 − x)%. Set up 6x + 7(100 − x) = 694. Expanding: 6x + 700 − 7x = 694, so 700 − x = 694 and x = 6. Lithium-6 is 6% and lithium-7 is 94%. Check: (6 × 6 + 7 × 94) ÷ 100 = (36 + 658) ÷ 100 = 6.94.",
+    "prompt": "Lithium has isotopes of mass numbers 6 and 7 and a relative atomic mass of 6.94. Calculate the percentage abundance of each isotope (sample data).",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules. Mr(O₂) = 2 × 16 = 32, so M = 32 g mol⁻¹. Moles: n = m ÷ M = 3.2 ÷ 32 = 0.10 mol. Volume at STP: V = n × 22.4 = 0.10 × 22.4 = 2.24 L.",
+    "prompt": "State Avogadro's law and calculate the volume, at STP, occupied by 3.2 g of oxygen gas.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "From PV = nRT, V = nRT ÷ P. For n = 1 mol, T = 273 K, P = 101 325 Pa and R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325 = 0.0224 m³ = 22.4 L. Moles of CO₂: n = V ÷ 22.4 = 1.12 ÷ 22.4 = 0.050 mol. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Mass: m = n × M = 0.050 × 44 = 2.2 g.",
+    "prompt": "Show, using the ideal gas equation, that one mole of gas occupies 22.4 L at STP, and calculate the mass of 1.12 L of carbon dioxide at STP.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Weigh a clean, dry conical flask with its foil cap and rubber band. Add about 2–3 cm³ of propanone, replace the cap and pierce one small pinhole in it. Clamp the flask in a large beaker of boiling water on a hotplate, so that as much of it as possible is immersed. Leave it until all the liquid has vaporised; the vapour fills the flask and excess vapour escapes through the pinhole. Measure the temperature of the water bath (373 K for boiling water) and the atmospheric pressure from a barometer. Remove the flask, cool it so the vapour condenses, dry the outside and reweigh it; the increase in mass is the mass m of vapour. Find the volume V of the flask by filling it with water and measuring the water with a graduated cylinder, and convert to m³. Calculate the moles of vapour from n = PV ÷ RT, with P in Pa, V in m³, T in K and R = 8.314 J K⁻¹ mol⁻¹. Finally calculate Mr = m ÷ n.",
     "prompt": "Describe how you would determine the relative molecular mass of propanone by vaporising it in a conical flask, stating the measurements that must be made.",
@@ -16097,7 +15433,7 @@
    }
   ]
  },
- "chem8-s5": {
+ "chem8-s2": {
   "keyTerms": [
    {
     "definition": "A uniform mixture of a solute dissolved in a solvent.",
@@ -16142,6 +15478,30 @@
    {
     "definition": "A series of dilutions, each made from the previous solution, usually by the same factor.",
     "term": "Serial dilution"
+   },
+   {
+    "definition": "Moles of solute per litre of solution.",
+    "term": "Molarity (mol L⁻¹)"
+   },
+   {
+    "definition": "Grams of solute per litre of solution.",
+    "term": "g L⁻¹"
+   },
+   {
+    "definition": "Grams of solute per 100 cm³ of solution.",
+    "term": "%w/v"
+   },
+   {
+    "definition": "Volume of solute in cm³ per 100 cm³ of solution, used for a liquid in a liquid.",
+    "term": "%v/v"
+   },
+   {
+    "definition": "Grams of solute per 100 g of the whole mixture, used for solids and creams.",
+    "term": "%w/w"
+   },
+   {
+    "definition": "A solution of 0.9% w/v sodium chloride, NaCl.",
+    "term": "Physiological saline"
    }
   ],
   "notes": [
@@ -16220,57 +15580,7 @@
      "Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M; repeating from that solution gives 0.010 M and then 0.0010 M.",
      "Serial dilution is used to make a range of concentrations accurately."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 12,
-    "model": "Mass needed: M(Na₂CO₃) = 106 g mol⁻¹. Moles: n = c × V = 0.100 × 0.250 = 0.0250 mol. Mass: m = n × M = 0.0250 × 106 = 2.65 g. Method: weigh 2.65 g of anhydrous sodium carbonate accurately to 0.01 g on a clock glass or weighing boat. Transfer it to a beaker, rinsing the clock glass into the beaker with deionised water from a wash bottle. Dissolve the solid in a small volume of deionised water, stirring with a glass rod. Pour the solution through a funnel into a 250 cm³ volumetric flask, then rinse the beaker, rod and funnel into the flask with deionised water. Add deionised water until near the mark, then add the last drops with a dropper until the bottom of the meniscus sits on the graduation mark at eye level. Stopper the flask and invert it about 20 times to make the solution uniform.",
-    "prompt": "Describe how you would prepare 250 cm³ of a 0.100 M standard solution of anhydrous sodium carbonate, including the mass needed.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Three properties of a primary standard: it is available in a very pure state; it is stable in air (it does not absorb water or carbon dioxide, or react with oxygen); it has a known formula, dissolves readily in water and preferably has a high molar mass. Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so the mass weighed out does not give an accurately known amount of sodium hydroxide.",
-    "prompt": "State three properties of a primary standard and explain why sodium hydroxide is not used as one.",
-    "type": "short"
-   },
-   {
-    "marks": 6,
-    "model": "Dilution keeps the moles of solute the same, so c₁V₁ = c₂V₂. Substitute c₁ = 2.0 mol L⁻¹, c₂ = 0.10 mol L⁻¹ and V₂ = 500 cm³: 2.0 × V₁ = 0.10 × 500 = 50, so V₁ = 50 ÷ 2.0 = 25 cm³. Pipette 25 cm³ of the 2.0 M acid into a 500 cm³ volumetric flask and make up to the mark with water.",
-    "prompt": "What volume of 2.0 M sulfuric acid is needed to make 500 cm³ of 0.10 M sulfuric acid?",
-    "type": "short"
-   }
-  ]
- },
- "chem8-s6": {
-  "keyTerms": [
-   {
-    "definition": "Moles of solute per litre of solution.",
-    "term": "Molarity (mol L⁻¹)"
-   },
-   {
-    "definition": "Grams of solute per litre of solution.",
-    "term": "g L⁻¹"
-   },
-   {
-    "definition": "Grams of solute per 100 cm³ of solution.",
-    "term": "%w/v"
-   },
-   {
-    "definition": "Volume of solute in cm³ per 100 cm³ of solution, used for a liquid in a liquid.",
-    "term": "%v/v"
-   },
-   {
-    "definition": "Grams of solute per 100 g of the whole mixture, used for solids and creams.",
-    "term": "%w/w"
-   },
-   {
-    "definition": "A solution of 0.9% w/v sodium chloride, NaCl.",
-    "term": "Physiological saline"
-   }
-  ],
-  "notes": [
    {
     "h": "Units of concentration",
     "points": [
@@ -16317,6 +15627,24 @@
    }
   ],
   "questions": [
+   {
+    "marks": 12,
+    "model": "Mass needed: M(Na₂CO₃) = 106 g mol⁻¹. Moles: n = c × V = 0.100 × 0.250 = 0.0250 mol. Mass: m = n × M = 0.0250 × 106 = 2.65 g. Method: weigh 2.65 g of anhydrous sodium carbonate accurately to 0.01 g on a clock glass or weighing boat. Transfer it to a beaker, rinsing the clock glass into the beaker with deionised water from a wash bottle. Dissolve the solid in a small volume of deionised water, stirring with a glass rod. Pour the solution through a funnel into a 250 cm³ volumetric flask, then rinse the beaker, rod and funnel into the flask with deionised water. Add deionised water until near the mark, then add the last drops with a dropper until the bottom of the meniscus sits on the graduation mark at eye level. Stopper the flask and invert it about 20 times to make the solution uniform.",
+    "prompt": "Describe how you would prepare 250 cm³ of a 0.100 M standard solution of anhydrous sodium carbonate, including the mass needed.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Three properties of a primary standard: it is available in a very pure state; it is stable in air (it does not absorb water or carbon dioxide, or react with oxygen); it has a known formula, dissolves readily in water and preferably has a high molar mass. Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so the mass weighed out does not give an accurately known amount of sodium hydroxide.",
+    "prompt": "State three properties of a primary standard and explain why sodium hydroxide is not used as one.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Dilution keeps the moles of solute the same, so c₁V₁ = c₂V₂. Substitute c₁ = 2.0 mol L⁻¹, c₂ = 0.10 mol L⁻¹ and V₂ = 500 cm³: 2.0 × V₁ = 0.10 × 500 = 50, so V₁ = 50 ÷ 2.0 = 25 cm³. Pipette 25 cm³ of the 2.0 M acid into a 500 cm³ volumetric flask and make up to the mark with water.",
+    "prompt": "What volume of 2.0 M sulfuric acid is needed to make 500 cm³ of 0.10 M sulfuric acid?",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "(i) M(NaOH) = 23 + 16 + 1 = 40 g mol⁻¹. Mass concentration: 0.25 mol L⁻¹ × 40 g mol⁻¹ = 10 g L⁻¹. (ii) 10 g L⁻¹ ÷ 10 = 1.0 g per 100 cm³, so the concentration is 1.0% w/v.",
@@ -16370,6 +15698,30 @@
    {
     "definition": "A molecule made of two atoms of the same element, e.g. O₂, N₂ or Cl₂.",
     "term": "Diatomic molecule"
+   },
+   {
+    "definition": "The theory that all matter is made of particles in constant, random motion, with energy that increases with temperature.",
+    "term": "Kinetic theory of matter"
+   },
+   {
+    "definition": "The continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid, caused by collisions with invisible molecules.",
+    "term": "Brownian motion"
+   },
+   {
+    "definition": "The spreading of particles from a region of high concentration to a region of low concentration until they are evenly mixed.",
+    "term": "Diffusion"
+   },
+   {
+    "definition": "The energy a particle has because it is moving.",
+    "term": "Kinetic energy"
+   },
+   {
+    "definition": "The white solid NH₄Cl that forms when ammonia and hydrogen chloride gases meet and react.",
+    "term": "Ammonium chloride"
+   },
+   {
+    "definition": "Movement in no fixed direction, in which particles travel in all directions and collide with one another.",
+    "term": "Random motion"
    }
   ],
   "notes": [
@@ -16426,51 +15778,7 @@
      "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
      "Diagram: particle diagrams of an element (single atoms and diatomic molecules), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "An element is a substance made of only one kind of atom that cannot be split into simpler substances by chemical means, e.g. iron (Fe) or oxygen (O₂). A compound is a substance made of two or more different elements chemically combined in a fixed ratio, e.g. water (H₂O); its properties differ from those of its elements, and it can be separated only by a chemical reaction. A mixture contains two or more substances that are not chemically combined, so its composition can vary and its components keep their own properties, e.g. salt solution, which can be separated physically by evaporation.",
-    "prompt": "Distinguish between an element, a compound and a mixture, giving one example of each.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Difference 1: a compound has a fixed composition, whereas a mixture has a variable composition. Difference 2: the elements in a compound are chemically combined and it can be separated only by a chemical reaction, whereas the substances in a mixture are not chemically combined and can be separated by physical methods. Purity test: a pure substance melts sharply at a melting point that matches the data-book value. Impurities lower the melting point and make the substance melt over a range of temperatures, so a sample that melts over a range, or below the data-book value, is impure.",
-    "prompt": "Give two differences between a compound and a mixture, and explain how melting point can be used to test whether a substance is pure.",
-    "type": "short"
-   }
-  ]
- },
- "chem9-s2": {
-  "keyTerms": [
-   {
-    "definition": "The theory that all matter is made of particles in constant, random motion, with energy that increases with temperature.",
-    "term": "Kinetic theory of matter"
-   },
-   {
-    "definition": "The continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid, caused by collisions with invisible molecules.",
-    "term": "Brownian motion"
-   },
-   {
-    "definition": "The spreading of particles from a region of high concentration to a region of low concentration until they are evenly mixed.",
-    "term": "Diffusion"
-   },
-   {
-    "definition": "The energy a particle has because it is moving.",
-    "term": "Kinetic energy"
-   },
-   {
-    "definition": "The white solid NH₄Cl that forms when ammonia and hydrogen chloride gases meet and react.",
-    "term": "Ammonium chloride"
-   },
-   {
-    "definition": "Movement in no fixed direction, in which particles travel in all directions and collide with one another.",
-    "term": "Random motion"
-   }
-  ],
-  "notes": [
    {
     "b": "The kinetic theory states that matter is particles in motion. Effects we can see provide evidence for particles we cannot see.",
     "h": "The kinetic theory of matter",
@@ -16528,6 +15836,18 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "An element is a substance made of only one kind of atom that cannot be split into simpler substances by chemical means, e.g. iron (Fe) or oxygen (O₂). A compound is a substance made of two or more different elements chemically combined in a fixed ratio, e.g. water (H₂O); its properties differ from those of its elements, and it can be separated only by a chemical reaction. A mixture contains two or more substances that are not chemically combined, so its composition can vary and its components keep their own properties, e.g. salt solution, which can be separated physically by evaporation.",
+    "prompt": "Distinguish between an element, a compound and a mixture, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Difference 1: a compound has a fixed composition, whereas a mixture has a variable composition. Difference 2: the elements in a compound are chemically combined and it can be separated only by a chemical reaction, whereas the substances in a mixture are not chemically combined and can be separated by physical methods. Purity test: a pure substance melts sharply at a melting point that matches the data-book value. Impurities lower the melting point and make the substance melt over a range of temperatures, so a sample that melts over a range, or below the data-book value, is impure.",
+    "prompt": "Give two differences between a compound and a mixture, and explain how melting point can be used to test whether a substance is pure.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Method: place cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid at opposite ends of a long glass tube and seal it with stoppers. Safety: use a fume cupboard, goggles and gloves, and tongs to handle the plugs. Observation: after a few minutes a white ring of ammonium chloride forms inside the tube, where the gases meet: NH₃(g) + HCl(g) → NH₄Cl(s). Evidence for diffusion: the gases must have travelled along the tube, so the particles of each gas have spread from their source, where they are at high concentration, to the rest of the tube by their random motion. Explanation of position: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5). At the same temperature the lighter molecules move faster, so ammonia diffuses further along the tube before it meets the hydrogen chloride. The meeting point is therefore nearer the hydrochloric acid end.",
     "prompt": "Describe an experiment using ammonia and hydrogen chloride to show that gases diffuse, and explain why the white solid forms closer to one end of the tube.",
@@ -16541,7 +15861,7 @@
    }
   ]
  },
- "chem9-s3": {
+ "chem9-s2": {
   "keyTerms": [
    {
     "definition": "The change of state from solid to liquid when the particles gain enough energy to move past one another.",
@@ -16574,6 +15894,50 @@
    {
     "definition": "A graph of temperature against time for a substance heated at a steady rate, with flat sections at its melting and boiling points.",
     "term": "Heating curve"
+   },
+   {
+    "definition": "A technique that separates an insoluble solid from a liquid by passing the mixture through filter paper.",
+    "term": "Filtration"
+   },
+   {
+    "definition": "The solid that remains on the filter paper after filtration.",
+    "term": "Residue"
+   },
+   {
+    "definition": "The liquid that passes through the filter paper during filtration.",
+    "term": "Filtrate"
+   },
+   {
+    "definition": "A technique that forms pure crystals by evaporating some solvent from a solution, then cooling it slowly.",
+    "term": "Crystallisation"
+   },
+   {
+    "definition": "A technique that separates liquids by boiling the mixture and condensing the vapour that is given off.",
+    "term": "Distillation"
+   },
+   {
+    "definition": "Distillation using a fractionating column to separate miscible liquids with close boiling points.",
+    "term": "Fractional distillation"
+   },
+   {
+    "definition": "Describes liquids that do not mix, forming two separate layers.",
+    "term": "Immiscible"
+   },
+   {
+    "definition": "A technique that separates soluble substances by the different rates at which they travel up paper in a solvent.",
+    "term": "Paper chromatography"
+   },
+   {
+    "definition": "The solvent that carries the components up the chromatography paper.",
+    "term": "Mobile phase"
+   },
+   {
+    "definition": "The paper, which holds back the components according to how strongly they are attracted to it.",
+    "term": "Stationary phase"
+   },
+   {
+    "definition": "The distance moved by a spot divided by the distance moved by the solvent front.",
+    "term": "Retention factor (Rf)"
    }
   ],
   "notes": [
@@ -16623,71 +15987,7 @@
      "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative, giving no values.",
      "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, so gases deviate from the model (see “Gas relationships and the ideal gas”)."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "When ice melts at 0 °C, heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in fixed positions, so they move past one another as a liquid. When water boils at 100 °C, particles throughout the liquid gain enough energy to overcome the forces between them, so they separate and form bubbles of vapour within the liquid. During each change the temperature stays constant because the energy supplied is used to overcome the forces between the particles, not to increase their kinetic energy.",
-    "prompt": "Use the kinetic theory to explain what happens to the particles when ice melts and when water boils, and why the temperature remains constant during each change.",
-    "type": "short"
    },
-   {
-    "marks": 6,
-    "model": "Assumption 1: the particles are tiny spheres in constant, random motion. Assumption 2: collisions between particles are perfectly elastic, so no kinetic energy is lost. Limitation: real particles are not hard spheres and they do attract one another; the forces between particles, which decide melting and boiling points, are ignored by the simple gas model.",
-    "prompt": "State two assumptions of the kinetic theory and one limitation of the model.",
-    "type": "short"
-   }
-  ]
- },
- "chem9-s4": {
-  "keyTerms": [
-   {
-    "definition": "A technique that separates an insoluble solid from a liquid by passing the mixture through filter paper.",
-    "term": "Filtration"
-   },
-   {
-    "definition": "The solid that remains on the filter paper after filtration.",
-    "term": "Residue"
-   },
-   {
-    "definition": "The liquid that passes through the filter paper during filtration.",
-    "term": "Filtrate"
-   },
-   {
-    "definition": "A technique that forms pure crystals by evaporating some solvent from a solution, then cooling it slowly.",
-    "term": "Crystallisation"
-   },
-   {
-    "definition": "A technique that separates liquids by boiling the mixture and condensing the vapour that is given off.",
-    "term": "Distillation"
-   },
-   {
-    "definition": "Distillation using a fractionating column to separate miscible liquids with close boiling points.",
-    "term": "Fractional distillation"
-   },
-   {
-    "definition": "Describes liquids that do not mix, forming two separate layers.",
-    "term": "Immiscible"
-   },
-   {
-    "definition": "A technique that separates soluble substances by the different rates at which they travel up paper in a solvent.",
-    "term": "Paper chromatography"
-   },
-   {
-    "definition": "The solvent that carries the components up the chromatography paper.",
-    "term": "Mobile phase"
-   },
-   {
-    "definition": "The paper, which holds back the components according to how strongly they are attracted to it.",
-    "term": "Stationary phase"
-   },
-   {
-    "definition": "The distance moved by a spot divided by the distance moved by the solvent front.",
-    "term": "Retention factor (Rf)"
-   }
-  ],
-  "notes": [
    {
     "b": "Choose the technique from the physical property in which the components differ.",
     "h": "Choosing a technique",
@@ -16761,6 +16061,18 @@
   ],
   "questions": [
    {
+    "marks": 9,
+    "model": "When ice melts at 0 °C, heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in fixed positions, so they move past one another as a liquid. When water boils at 100 °C, particles throughout the liquid gain enough energy to overcome the forces between them, so they separate and form bubbles of vapour within the liquid. During each change the temperature stays constant because the energy supplied is used to overcome the forces between the particles, not to increase their kinetic energy.",
+    "prompt": "Use the kinetic theory to explain what happens to the particles when ice melts and when water boils, and why the temperature remains constant during each change.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Assumption 1: the particles are tiny spheres in constant, random motion. Assumption 2: collisions between particles are perfectly elastic, so no kinetic energy is lost. Limitation: real particles are not hard spheres and they do attract one another; the forces between particles, which decide melting and boiling points, are ignored by the simple gas model.",
+    "prompt": "State two assumptions of the kinetic theory and one limitation of the model.",
+    "type": "short"
+   },
+   {
     "marks": 12,
     "model": "Step 1: Add water to the mixture and stir until the salt has dissolved; sand is insoluble, so it remains as a solid. Step 2: Filter the mixture, folding filter paper into a cone in a funnel and pouring the mixture through; the sand is the residue on the paper and the salt solution is the filtrate. This technique is justified because it separates an insoluble solid from a liquid. Step 3: Heat the filtrate to evaporate the water until the salt is left; this technique is justified because the salt is soluble and does not decompose on heating. Each technique is chosen because it uses the property in which the components differ: solubility in water for the first step and insolubility for the filtration.",
     "prompt": "Describe how you would obtain pure, dry salt crystals from a mixture of sand and salt, justifying each technique you use.",
@@ -16774,7 +16086,7 @@
    }
   ]
  },
- "chem9-s5": {
+ "chem9-s3": {
   "keyTerms": [
    {
     "definition": "At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure: P₁V₁ = P₂V₂.",
@@ -16807,6 +16119,30 @@
    {
     "definition": "The attractive forces between particles that become significant for real gases at high pressure and low temperature.",
     "term": "Intermolecular forces"
+   },
+   {
+    "definition": "The relationship PV = nRT, which links the pressure, volume, amount in moles and kelvin temperature of an ideal gas.",
+    "term": "Ideal gas equation"
+   },
+   {
+    "definition": "The constant 8.314 J K⁻¹ mol⁻¹ used in the ideal gas equation.",
+    "term": "Gas constant (R)"
+   },
+   {
+    "definition": "The SI unit of pressure; 1 kPa is 1000 Pa.",
+    "term": "Pascal (Pa)"
+   },
+   {
+    "definition": "The SI unit of temperature, found from degrees Celsius by adding 273.",
+    "term": "Kelvin (K)"
+   },
+   {
+    "definition": "The SI unit of amount of substance, represented by n in the ideal gas equation.",
+    "term": "Mole (mol)"
+   },
+   {
+    "definition": "The mass of one mole of a substance, in grams per mole (g mol⁻¹).",
+    "term": "Molar mass (M)"
    }
   ],
   "notes": [
@@ -16877,51 +16213,7 @@
      "Small, non-polar particles with weak intermolecular forces, such as helium and hydrogen, behave most ideally.",
      "Polar molecules with strong attractions, especially those that hydrogen bond, such as ammonia and water vapour, deviate most."
     ]
-   }
-  ],
-  "questions": [
-   {
-    "marks": 9,
-    "model": "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure, P₁V₁ = P₂V₂. Explanation: when the volume is smaller, the gas particles hit the walls of the container more often, so the pressure rises. Calculation: rearrange to V₂ = P₁V₁ ÷ P₂. Substitute: V₂ = 150 kPa × 500 cm³ ÷ 75 kPa. Answer: V₂ = 1000 cm³.",
-    "prompt": "State Boyle's law and explain it using the kinetic theory. A gas occupies 500 cm³ at 150 kPa; calculate its volume at 75 kPa at the same temperature.",
-    "type": "short"
    },
-   {
-    "marks": 9,
-    "model": "An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions. Assumption 1: the volume of the particles themselves is negligible compared with the volume of the container. Assumption 2: there are no attractive or repulsive forces between the particles. At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas. At low temperature the particles move slowly, so the attractive forces between them become significant, and the gas is close to condensing.",
-    "prompt": "What is meant by an ideal gas? State two assumptions of the ideal gas model, and explain why real gases deviate from ideal behaviour at high pressure and low temperature.",
-    "type": "short"
-   }
-  ]
- },
- "chem9-s6": {
-  "keyTerms": [
-   {
-    "definition": "The relationship PV = nRT, which links the pressure, volume, amount in moles and kelvin temperature of an ideal gas.",
-    "term": "Ideal gas equation"
-   },
-   {
-    "definition": "The constant 8.314 J K⁻¹ mol⁻¹ used in the ideal gas equation.",
-    "term": "Gas constant (R)"
-   },
-   {
-    "definition": "The SI unit of pressure; 1 kPa is 1000 Pa.",
-    "term": "Pascal (Pa)"
-   },
-   {
-    "definition": "The SI unit of temperature, found from degrees Celsius by adding 273.",
-    "term": "Kelvin (K)"
-   },
-   {
-    "definition": "The SI unit of amount of substance, represented by n in the ideal gas equation.",
-    "term": "Mole (mol)"
-   },
-   {
-    "definition": "The mass of one mole of a substance, in grams per mole (g mol⁻¹).",
-    "term": "Molar mass (M)"
-   }
-  ],
-  "notes": [
    {
     "b": "The ideal gas equation combines the gas laws into one relationship between pressure, volume, amount and temperature.",
     "h": "The ideal gas equation",
@@ -17011,6 +16303,18 @@
    }
   ],
   "questions": [
+   {
+    "marks": 9,
+    "model": "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure, P₁V₁ = P₂V₂. Explanation: when the volume is smaller, the gas particles hit the walls of the container more often, so the pressure rises. Calculation: rearrange to V₂ = P₁V₁ ÷ P₂. Substitute: V₂ = 150 kPa × 500 cm³ ÷ 75 kPa. Answer: V₂ = 1000 cm³.",
+    "prompt": "State Boyle's law and explain it using the kinetic theory. A gas occupies 500 cm³ at 150 kPa; calculate its volume at 75 kPa at the same temperature.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions. Assumption 1: the volume of the particles themselves is negligible compared with the volume of the container. Assumption 2: there are no attractive or repulsive forces between the particles. At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas. At low temperature the particles move slowly, so the attractive forces between them become significant, and the gas is close to condensing.",
+    "prompt": "What is meant by an ideal gas? State two assumptions of the ideal gas model, and explain why real gases deviate from ideal behaviour at high pressure and low temperature.",
+    "type": "short"
+   },
    {
     "marks": 9,
     "model": "Step 1: Find the molar mass of CO₂: Mr = 12 + 2 × 16 = 44, so M = 44 g mol⁻¹. Step 2: Find the moles: n = m ÷ M = 4.4 g ÷ 44 g mol⁻¹ = 0.10 mol. Step 3: Convert the quantities: T = 27 °C + 273 = 300 K; P = 100 kPa = 100 000 Pa. Step 4: Rearrange PV = nRT to V = nRT ÷ P. Step 5: V = 0.10 × 8.314 × 300 ÷ 100 000 = 2.49 × 10⁻³ m³. Step 6: Convert to litres: 2.49 × 10⁻³ m³ × 1000 = 2.49 L.",

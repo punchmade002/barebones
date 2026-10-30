@@ -1,171 +1,279 @@
 {
   "loId": "chem24-s2",
   "chapterId": "chem24",
-  "subsection": "2. Functional groups and nomenclature",
-  "syllabusRef": "4.2.2",
+  "subsection": "2. Physical properties and acidity",
+  "syllabusRef": "4.2.5, 4.2.12",
   "notes": [
     {
-      "h": "Functional groups and homologous series",
+      "h": "Forces between molecules in each family (Higher Level only)",
       "points": [
-        "A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule, that is responsible for the characteristic chemical properties of a family of organic compounds.",
-        "Examples of functional groups: –OH in alcohols and –COOH in carboxylic acids.",
-        "The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive.",
-        "Reactions take place mainly at the functional group.",
-        "Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.",
-        "A homologous series is a family of compounds with the same general formula and the same functional group.",
-        "Each member of a homologous series differs from the next by CH₂, a mass of 14.",
-        "Members of a homologous series have similar chemical properties and a gradual change in physical properties, such as boiling point rising with chain length.",
-        "Each family can be written with R for the hydrocarbon part, e.g. R–OH; see \"Representing organic molecules\"."
+        "Melting and boiling separate molecules, so they depend on the intermolecular forces, not on the covalent bonds inside the molecules.",
+        "The stronger the forces, the more energy is needed and the higher the melting and boiling points.",
+        "Alkanes and alkenes are non-polar, so they have London dispersion forces only.",
+        "Haloalkanes have a polar C–Cl bond (Cl 3.16, C 2.55), so they have permanent dipole–dipole forces as well as London forces.",
+        "Haloalkanes cannot hydrogen bond, because they have no H bonded to O, N or F.",
+        "Aldehydes and ketones have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.",
+        "Aldehydes and ketones cannot hydrogen bond with each other, because their hydrogens are bonded to carbon, not oxygen.",
+        "Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules.",
+        "Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.",
+        "Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.",
+        "In the pure liquid, carboxylic acid molecules pair up as dimers held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.",
+        "Diagram: two ethanoic acid molecules facing each other, with dashed hydrogen bonds from each O–H hydrogen to the C=O oxygen of the other molecule, forming a dimer."
       ]
     },
     {
-      "h": "Classification table of families",
-      "b": "Each family is listed with its general formula, ending and first member. Naming of alkanes, alkenes, alkynes and benzene is in \"Groups of hydrocarbons\".",
+      "h": "Comparing compounds of similar size (Higher Level only)",
       "points": [
-        "Alkanes have C–C single bonds only, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.",
-        "Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂.",
-        "Cyclohexane is named with the prefix cyclo-.",
-        "Cyclohexane is a saturated, non-polar liquid with a boiling point of 81 °C, used as a solvent.",
-        "Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes.",
-        "Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.",
-        "Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.",
-        "Aromatics are limited to benzene, C₆H₆, a planar ring of six carbons with delocalised electrons.",
-        "Haloalkanes have a halogen atom, –X (F, Cl, Br, I), in place of H, general formula CₙH₂ₙ₊₁X, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.",
-        "Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.",
-        "Aldehydes have a carbonyl group at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.",
-        "Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.",
-        "Carboxylic acids (monocarboxylic, with one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.",
-        "Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.",
-        "Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O."
+        "At similar relative molecular mass, so with similar London forces, boiling point depends on the type of intermolecular force: London forces only give the lowest boiling point, then dipole–dipole forces, then hydrogen bonding.",
+        "Butane (Mr 58) boils at −1 °C, propanal (Mr 58) at 48 °C and propanone (Mr 58) at 56 °C.",
+        "Methyl methanoate (Mr 60) boils at 32 °C, propan-1-ol (Mr 60) at 97 °C and ethanoic acid (Mr 60) at 118 °C.",
+        "Propanal boils far higher than butane because its polar C=O gives dipole–dipole forces in addition to London forces.",
+        "Propan-1-ol boils higher than propanal because its O–H groups form hydrogen bonds between molecules, which are stronger than dipole–dipole forces.",
+        "Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome.",
+        "Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers with the same formula, C₂H₄O₂, and the same mass.",
+        "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.",
+        "Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only."
       ]
     },
     {
-      "h": "General IUPAC naming rules",
-      "b": "Name a compound by working through the steps in order.",
+      "h": "Effect of molecular size (Higher Level only)",
       "points": [
-        "Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.",
-        "Step 2: add the ending for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).",
-        "Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).",
-        "Step 4: name and number branches (methyl-, ethyl-) and halogen substituents as prefixes, in alphabetical order.",
-        "Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.",
-        "Numbers are separated from each other by commas and from words by hyphens.",
-        "No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.",
-        "There is only one propanone and only one butanone, so no number is needed for them."
+        "Within a homologous series, boiling point rises with chain length, because each extra CH₂ adds electrons and surface area, so London forces get stronger.",
+        "Alcohols: methanol 65 °C; ethanol 78 °C; propan-1-ol 97 °C; butan-1-ol 117 °C; pentan-1-ol 138 °C; hexan-1-ol 157 °C, a rise of about 20 °C per CH₂.",
+        "Carboxylic acids: methanoic acid 101 °C; ethanoic acid 118 °C; propanoic acid 141 °C; butanoic acid 164 °C.",
+        "Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C.",
+        "Chloroalkanes: chloromethane −24 °C and chloroethane 12 °C are gases at room temperature.",
+        "Chloroalkanes: 1-chloropropane 47 °C and 1-chlorobutane 78 °C are liquids.",
+        "Adding more chlorines also raises the boiling point: CH₃Cl −24 °C; CH₂Cl₂ 40 °C; CHCl₃ 61 °C; CCl₄ 77 °C, because more electrons give stronger London forces.",
+        "As the chain gets longer, the hydrocarbon part makes up more of the molecule, so the difference between families gets smaller, because the effect of the functional group is diluted."
       ]
     },
     {
-      "h": "Haloalkanes",
+      "h": "Effect of shape and branching (Higher Level only)",
       "points": [
-        "A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms.",
-        "A chloroalkane is a haloalkane that contains chlorine.",
-        "Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples.",
-        "Chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.",
-        "Other examples: 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.",
-        "Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.",
-        "Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.",
-        "Trichloromethane (chloroform) was first used as an anaesthetic in 1847 by James Young Simpson in Edinburgh, but it is toxic.",
-        "Chloroethene is the monomer of PVC."
+        "Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker.",
+        "For alkanes, see \"Groups of hydrocarbons and their properties\".",
+        "Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.",
+        "The more compact the molecule, and the more crowded the –OH, the lower the boiling point.",
+        "Step 1: from a table or graph of boiling point against number of carbons, describe the trend.",
+        "Step 2: explain the trend in terms of chain length, London forces and the functional group.",
+        "Step 3: predict the next member by continuing the trend, e.g. continuing the primary alcohols from butan-1-ol, 117 °C, gives about 138 °C for pentan-1-ol."
       ]
     },
     {
-      "h": "Alcohols",
+      "h": "Melting points (Higher Level only)",
       "points": [
-        "Methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.",
-        "Butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.",
-        "Pentan-1-ol and hexan-1-ol are members too.",
-        "Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.",
-        "With more than one –OH, keep the -e and add -diol or -triol.",
-        "Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups.",
-        "Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.",
-        "Methanol, with no other carbon attached, is also treated as primary.",
-        "Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH), e.g. propan-2-ol and butan-2-ol.",
-        "Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.",
-        "The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.",
-        "Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v in spirits such as whiskey.",
-        "Ethanol is a fuel and a solvent for perfumes, deodorants, hairsprays and varnishes.",
-        "Methanol is toxic.",
-        "Propan-2-ol is used in hand sanitisers and as a cleaning solvent."
+        "Melting points depend on the intermolecular forces and also on how well the molecules pack together in the solid, so they follow trends less regularly than boiling points.",
+        "Ethanoic acid melts at 17 °C, high for its size, because of strong hydrogen bonding.",
+        "On a cold day, pure ethanoic acid freezes to an ice-like solid, so it is called glacial ethanoic acid.",
+        "Compact, symmetrical molecules pack well and melt higher: 2-methylpropan-2-ol melts at about 25 °C, but butan-1-ol melts at −89 °C.",
+        "Cyclohexane melts at 6.5 °C, but hexane melts at −95 °C.",
+        "Ionic bonding gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C."
       ]
     },
     {
-      "h": "Aldehydes and ketones",
+      "h": "Solubility (Higher Level only)",
       "points": [
-        "Aldehydes include methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.",
-        "The –CHO group is always at the end of the chain, and its carbon is carbon 1.",
-        "Ketones include propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.",
-        "The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.",
-        "Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.",
-        "The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.",
-        "Methanal in water, called formalin, preserves biological specimens.",
-        "Ethanal is the first product formed when the body breaks down ethanol.",
-        "Propanone is a solvent, e.g. in nail varnish remover.",
-        "Benzaldehyde gives the flavour of almonds."
+        "Like dissolves like: a compound dissolves in water if it can form hydrogen bonds with water molecules.",
+        "Non-polar compounds dissolve in non-polar solvents such as cyclohexane, where London forces are similar.",
+        "Lower alcohols (methanol, ethanol, propan-1-ol and propan-2-ol) are miscible with water, mixing in all proportions, because their –OH groups hydrogen bond with water.",
+        "Lower carboxylic acids, from methanoic acid to butanoic acid, are also miscible with water, for the same reason.",
+        "Solubility in water falls as the chain gets longer, because the non-polar hydrocarbon part cannot hydrogen bond and disrupts the hydrogen bonding of the water.",
+        "Butan-1-ol is only partly soluble in water, and hexan-1-ol is only slightly soluble.",
+        "Longer chains dissolve better in non-polar solvents.",
+        "Small aldehydes and ketones, methanal, ethanal and propanone, are miscible with water: they have no O–H, but water molecules hydrogen bond to the lone pairs on their C=O oxygen.",
+        "Propanone dissolves both polar and non-polar substances, so it is a useful solvent.",
+        "Butanone is not fully miscible with water; only the smallest ketone, propanone, is.",
+        "Small esters are slightly soluble in water for the same reason, as water hydrogen bonds to their oxygens: about 8 g of ethyl ethanoate dissolves in 100 g of water at room temperature.",
+        "Small esters dissolve well in organic solvents.",
+        "Alkanes, alkenes, benzene and haloalkanes are insoluble in water, as they cannot hydrogen bond with it, but they dissolve in non-polar solvents.",
+        "Haloalkanes are good solvents for grease and oil.",
+        "Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation; see \"Investigation: synthesising benzoic acid\".",
+        "Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction)."
       ]
     },
     {
-      "h": "Carboxylic acids",
+      "h": "The O–H bond and acidity (Higher Level only)",
       "points": [
-        "Members include methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.",
-        "Pentanoic acid and hexanoic acid are also members.",
-        "Naming: replace the -e of the alkane by -oic acid.",
-        "The carbon of the –COOH group is counted in the chain as carbon 1, and substituents are numbered from it.",
-        "CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid.",
-        "The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.",
-        "Carboxylic acids are acidic; see \"Acidity of carboxylic acids and alcohols\".",
-        "Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.",
-        "Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.",
-        "Ethanoic acid is used as a food flavouring and preservative.",
-        "Benzoic acid and sodium benzoate are food preservatives."
+        "An acid, in the Brønsted–Lowry sense, is a proton donor; both alcohols and carboxylic acids can donate the H⁺ of their O–H group.",
+        "The O–H bond is polar because oxygen (3.44) is much more electronegative than hydrogen (2.20), so the shared electrons are pulled towards oxygen.",
+        "This leaves the hydrogen δ+, so it can be removed as H⁺ by a base.",
+        "C–H bonds are almost non-polar (C 2.55, H 2.20), so hydrogens bonded to carbon are not acidic.",
+        "In ethanoic acid, CH₃COOH, only the hydrogen on oxygen is lost.",
+        "How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base) left behind is.",
+        "The more stable the negative ion, the more easily H⁺ is lost and the stronger the acid."
       ]
     },
     {
-      "h": "Esters",
+      "h": "Alcohols: very weak acids (Higher Level only)",
       "points": [
-        "Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water.",
-        "The reaction is described in \"Investigation: preparing an ester\".",
-        "Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.",
-        "Step 2: name the alcohol part as an alkyl group (methyl, ethyl, propyl and so on) and write it first.",
-        "Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.",
-        "Esters of methanoic acid are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.",
-        "Esters of ethanoic acid are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.",
-        "Esters of propanoic acid are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.",
-        "The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.",
-        "HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.",
-        "Only esters made from monocarboxylic acids and primary alcohols are required.",
-        "Esters have sweet, fruity smells and give many fruits and flowers their scent.",
-        "Esters are used as food flavourings and in perfumes.",
-        "Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.",
-        "Fats and oils are esters of propane-1,2,3-triol; see \"Redox and acid–base reactions of organic compounds\"."
+        "An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺.",
+        "Ethanol gives the ethoxide ion, C₂H₅O⁻.",
+        "In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance.",
+        "The alkoxide ion is therefore unstable and readily takes back H⁺.",
+        "The alkyl group is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.",
+        "Alcohols are therefore weaker acids than water.",
+        "Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.",
+        "Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.",
+        "Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g), forming sodium ethoxide.",
+        "The reaction of ethanol with sodium is gentler than the reaction of sodium with water, showing that ethanol is a weaker acid than water."
+      ]
+    },
+    {
+      "h": "Carboxylic acids: resonance of the carboxylate ion (Higher Level only)",
+      "points": [
+        "A carboxylic acid loses H⁺ to form a carboxylate ion: RCOOH(aq) ⇌ RCOO⁻(aq) + H⁺(aq).",
+        "Ethanoic acid gives the ethanoate ion: CH₃COOH ⇌ CH₃COO⁻ + H⁺.",
+        "In the carboxylate ion the negative charge is delocalised, shared over both oxygen atoms through the O–C–O group.",
+        "The carboxylate ion is a resonance hybrid of two structures, in each of which a different oxygen carries the negative charge.",
+        "The two C–O bonds in a carboxylate ion are the same length, between the length of a C–O single bond and that of a C=O double bond.",
+        "In the acid itself, the C=O bond is shorter than the C–O bond.",
+        "Spreading the charge over two oxygens stabilises the carboxylate ion.",
+        "So a carboxylic acid loses H⁺ much more readily than an alcohol, whose alkoxide ion has no such stabilisation.",
+        "Diagram: the two resonance structures of the ethanoate ion, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and the hybrid drawn with a dashed bond over O–C–O and a charge of −½ on each oxygen."
+      ]
+    },
+    {
+      "h": "Carboxylic acids: inductive effects (Higher Level only)",
+      "points": [
+        "The inductive effect is the pulling (or pushing) of electron density along sigma bonds by an atom or group, because of its electronegativity.",
+        "In the –COOH group, the electronegative oxygen of the C=O pulls electron density away from the O–H bond.",
+        "This makes the O–H more polar and the hydrogen easier to lose than in an alcohol.",
+        "Electron-withdrawing groups such as chlorine, attached to the carbon chain, pull electron density towards themselves.",
+        "This spreads out the negative charge of the carboxylate ion and stabilises it, so the acid is stronger.",
+        "More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect.",
+        "Alkyl groups are electron-releasing; they push electron density towards the –COO⁻ group, destabilising it, so the acid is weaker.",
+        "Methanoic acid, with H on the –COOH, is stronger than ethanoic acid, with CH₃ on the –COOH, which is slightly stronger than propanoic acid.",
+        "Ka data at 25 °C: methanoic acid 1.8 × 10⁻⁴; ethanoic acid 1.8 × 10⁻⁵; propanoic acid 1.3 × 10⁻⁵.",
+        "Ka data at 25 °C: chloroethanoic acid 1.4 × 10⁻³; trichloroethanoic acid about 0.2.",
+        "Order of strength: CCl₃COOH > CH₂ClCOOH > HCOOH > CH₃COOH > CH₃CH₂COOH."
+      ]
+    },
+    {
+      "h": "Comparing acids and the evidence (Higher Level only)",
+      "points": [
+        "Carboxylic acids are weak acids, only partly dissociated.",
+        "Step 1: the degree of dissociation is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.",
+        "Step 2: [H⁺] = 0.013 × 0.1 mol L⁻¹ = 1.3 × 10⁻³ mol L⁻¹.",
+        "Step 3: pH = −log₁₀[H⁺] = −log₁₀(1.3 × 10⁻³) ≈ 2.9.",
+        "Carboxylic acids are still far stronger acids than alcohols, because of the resonance-stabilised carboxylate ion and the inductive effect of the C=O.",
+        "Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.",
+        "Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.",
+        "Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O.",
+        "Details of these tests are in \"Tests, reaction schemes and preparing an ester\".",
+        "Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.",
+        "Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.",
+        "Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.",
+        "Indicator: an alcohol is neutral; an acid is acidic.",
+        "Step 1 of explaining a difference in acidity: say which anion is more stable and why, referring to resonance and to electron-withdrawing or electron-releasing groups.",
+        "Step 2 of explaining a difference in acidity: conclude which acid loses H⁺ more easily."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Functional group", "definition": "An atom or group of atoms, attached to a hydrocarbon part, that gives a family of compounds its characteristic chemical properties." },
-    { "term": "Homologous series", "definition": "A family of compounds with the same general formula and functional group, each member differing from the next by CH₂." },
-    { "term": "Carbonyl group", "definition": "The C=O group, found in aldehydes, ketones, carboxylic acids and esters." },
-    { "term": "Stem", "definition": "The part of a systematic name that gives the number of carbons in the longest chain, e.g. prop- for three carbons." },
-    { "term": "Primary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to at most one other carbon." },
-    { "term": "Secondary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to two other carbons." },
-    { "term": "Tertiary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to three other carbons." },
-    { "term": "Haloalkane", "definition": "An alkane in which one or more hydrogen atoms have been replaced by halogen atoms." },
-    { "term": "Carboxyl group", "definition": "The –COOH group that gives carboxylic acids their acidic character." },
-    { "term": "Ester", "definition": "A compound formed from a carboxylic acid and an alcohol, with loss of water, containing the –COO– group." }
+    {
+      "term": "Intermolecular forces",
+      "definition": "The attractions between separate molecules, which are overcome when a substance melts or boils."
+    },
+    {
+      "term": "London dispersion forces",
+      "definition": "Weak attractions between all molecules, caused by temporary uneven distribution of electrons, that increase with the number of electrons."
+    },
+    {
+      "term": "Dipole–dipole forces",
+      "definition": "Attractions between the permanent positive and negative ends of polar molecules."
+    },
+    {
+      "term": "Hydrogen bonding",
+      "definition": "A strong attraction between a hydrogen atom bonded to O, N or F and a lone pair on another O, N or F."
+    },
+    {
+      "term": "Dimer",
+      "definition": "A pair of molecules joined together, as carboxylic acid molecules are in the liquid by two hydrogen bonds."
+    },
+    {
+      "term": "Miscible",
+      "definition": "Describes two liquids that mix in all proportions."
+    },
+    {
+      "term": "Like dissolves like",
+      "definition": "The principle that a substance dissolves best in a solvent with similar intermolecular forces."
+    },
+    {
+      "term": "Ion–dipole attraction",
+      "definition": "The attraction between an ion and the polar molecules of a solvent such as water."
+    },
+    {
+      "term": "Glacial ethanoic acid",
+      "definition": "Pure ethanoic acid, which melts at 17 °C and freezes to an ice-like solid on a cold day."
+    },
+    {
+      "term": "Brønsted–Lowry acid",
+      "definition": "A substance that donates a proton (H⁺)."
+    },
+    {
+      "term": "Conjugate base",
+      "definition": "The negative ion left behind when an acid loses H⁺."
+    },
+    {
+      "term": "Alkoxide ion",
+      "definition": "The negative ion, R–O⁻, formed when an alcohol loses H⁺."
+    },
+    {
+      "term": "Carboxylate ion",
+      "definition": "The negative ion, RCOO⁻, formed when a carboxylic acid loses H⁺."
+    },
+    {
+      "term": "Delocalised charge",
+      "definition": "A negative charge shared between several atoms rather than fixed on one atom."
+    },
+    {
+      "term": "Resonance hybrid",
+      "definition": "The single structure that is the average of two or more resonance structures of the same ion or molecule."
+    },
+    {
+      "term": "Inductive effect",
+      "definition": "The pulling or pushing of electron density along sigma bonds by an atom or group, because of its electronegativity."
+    },
+    {
+      "term": "Electron-withdrawing group",
+      "definition": "A group, such as chlorine, that pulls electron density towards itself and stabilises a negative ion."
+    },
+    {
+      "term": "Electron-releasing group",
+      "definition": "A group, such as an alkyl group, that pushes electron density away from itself and destabilises a negative ion."
+    }
   ],
   "questions": [
     {
-      "marks": 10,
-      "prompt": "Give the IUPAC name of each compound: (i) CH₃CH₂CHO, (ii) CH₃COCH₂CH₃, (iii) CH₃CH₂COOH, (iv) CH₃CH₂COOCH₃, (v) CH₃CH₂CH₂Cl.",
-      "model": "(i) CH₃CH₂CHO is propanal: a three-carbon chain with the –CHO carbon as carbon 1 and the -al ending. (ii) CH₃COCH₂CH₃ is butanone: a four-carbon chain with the C=O inside the chain; no number is needed because there is only one butanone. (iii) CH₃CH₂COOH is propanoic acid: a three-carbon chain with the -oic acid ending, and the –COOH carbon as carbon 1. (iv) CH₃CH₂COOCH₃ is methyl propanoate: the alcohol part, methyl, is named first, and the acid part, propanoic acid, becomes propanoate. (v) CH₃CH₂CH₂Cl is 1-chloropropane: a three-carbon chain with the chlorine on carbon 1."
+      "marks": 9,
+      "prompt": "Propanal (Mr 58) boils at 48 °C, butane (Mr 58) at −1 °C and propan-1-ol (Mr 60) at 97 °C. Explain these differences in terms of intermolecular forces.",
+      "model": "Butane is a non-polar alkane, so its molecules are held together only by London dispersion forces, and it boils at the lowest temperature. Propanal has a strongly polar C=O bond, so its molecules have dipole–dipole forces in addition to London forces, and it boils much higher than butane of the same Mr. Propanal cannot hydrogen bond to itself, because its hydrogens are bonded to carbon. Propan-1-ol has a very polar O–H bond, so its molecules hydrogen bond to each other as well as having London forces. Hydrogen bonds are stronger than dipole–dipole forces, so propan-1-ol boils at 97 °C, higher than propanal."
     },
     {
       "marks": 9,
-      "prompt": "Define primary, secondary and tertiary alcohols, and give the name and condensed formula of one example of each.",
-      "model": "A primary alcohol has the carbon bearing the –OH attached to at most one other carbon atom, for example ethanol, CH₃CH₂OH. A secondary alcohol has the carbon bearing the –OH attached to two other carbon atoms, for example propan-2-ol, CH₃CH(OH)CH₃. A tertiary alcohol has the carbon bearing the –OH attached to three other carbon atoms, for example 2-methylpropan-2-ol, (CH₃)₃COH."
+      "prompt": "Ethanoic acid and methyl methanoate both have the formula C₂H₄O₂. Explain why ethanoic acid boils at 118 °C but methyl methanoate at 32 °C, and why pure ethanoic acid is called glacial ethanoic acid.",
+      "model": "Both compounds have the same formula and mass, so their London forces are similar. Ethanoic acid has an O–H group, and its molecules form hydrogen-bonded dimers, with two hydrogen bonds holding each pair together; these must be overcome to boil it, so it boils at 118 °C. A labelled diagram of the dimer, with dashed hydrogen bonds from the O–H of each molecule to the C=O oxygen of the other, is expected. Methyl methanoate has no O–H group, so its molecules cannot hydrogen bond to each other; only dipole–dipole and London forces act, and it boils at 32 °C. Pure ethanoic acid melts at 17 °C, high for its size, because of its strong hydrogen bonding. On a cold day it freezes to an ice-like solid, which is why it is called glacial ethanoic acid."
     },
     {
       "marks": 6,
-      "prompt": "What is meant by a homologous series? Give two characteristics of a homologous series.",
-      "model": "A homologous series is a family of compounds with the same general formula and the same functional group, in which each member differs from the next by CH₂. Two characteristics are: the members have the same general formula, and the members have similar chemical properties. A third is a gradual trend in physical properties, such as boiling point rising with chain length."
+      "prompt": "Ethanol is miscible with water but hexan-1-ol is only slightly soluble. Explain.",
+      "model": "The –OH group of ethanol hydrogen bonds with water molecules, so ethanol mixes with water in all proportions. In hexan-1-ol, the long non-polar hydrocarbon chain cannot hydrogen bond with water and disrupts the hydrogen bonding of the water, so only a little dissolves. Solubility in water falls as the chain gets longer, because the hydrocarbon part makes up more of the molecule."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain, with the aid of diagrams, why ethanoic acid is a much stronger acid than ethanol. Refer to resonance and to the inductive effect.",
+      "model": "Ethanoic acid loses H⁺ from its O–H group: CH₃COOH ⇌ CH₃COO⁻ + H⁺. The O–H bond is polar because oxygen (3.44) is more electronegative than hydrogen (2.20), so the hydrogen can be removed as H⁺. The strength of an acid depends on how stable the negative ion left behind is. In the ethanoate ion the negative charge is delocalised over both oxygen atoms through the O–C–O group. It is drawn as two resonance structures, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and as a hybrid with a dashed bond over O–C–O and a charge of −½ on each oxygen. This stabilises the ion. The C=O group also has an inductive effect: the electronegative oxygen pulls electron density away from the O–H bond, making it more polar. Ethanol loses H⁺ from its O–H group to form the ethoxide ion, C₂H₅O⁻, in which the negative charge sits on one oxygen and cannot be spread out. The ethyl group is electron-releasing, pushing electron density towards that oxygen and making the ethoxide ion even less stable. Because the ethanoate ion is stabilised and the ethoxide ion is not, ethanoic acid loses H⁺ much more readily and is much the stronger acid."
+    },
+    {
+      "marks": 6,
+      "prompt": "Arrange ethanoic acid, chloroethanoic acid and trichloroethanoic acid in order of increasing acid strength and explain the order.",
+      "model": "In order of increasing acid strength: CH₃COOH < CH₂ClCOOH < CCl₃COOH. Chlorine is electron-withdrawing, so it pulls electron density away from the carboxylate ion, spreading out its negative charge and stabilising it. Trichloroethanoic acid has three chlorine atoms, so its effect is the strongest and it is the strongest acid. Chloroethanoic acid has one chlorine atom. Ethanoic acid has no chlorine, and its CH₃ group is electron-releasing, which destabilises the carboxylate ion, so it is the weakest of the three. Ka values at 25 °C are 1.8 × 10⁻⁵ for ethanoic acid, 1.4 × 10⁻³ for chloroethanoic acid and about 0.2 for trichloroethanoic acid."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe a reaction which shows that ethanol has an acidic hydrogen, write a balanced equation for it, and explain why ethanol does not react with sodium carbonate.",
+      "model": "Add sodium metal to ethanol. Hydrogen gas is given off and sodium ethoxide is formed. Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g). Ethanol does not react with sodium carbonate because the ethoxide ion formed from ethanol is not stabilised, as its negative charge cannot be spread out by resonance. Ethanol is therefore too weak an acid to release carbon dioxide from carbonate."
     }
   ]
 }

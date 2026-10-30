@@ -174,14 +174,38 @@
     }
   ],
   "keyTerms": [
-    { "term": "Stoichiometry", "definition": "The study of the quantitative relationships between the amounts of reactants and products, given by the balanced equation." },
-    { "term": "Mole ratio", "definition": "The ratio of the amounts, in moles, of substances in a reaction, given by the coefficients in the balanced equation." },
-    { "term": "Unit analysis", "definition": "A method of multiplying by conversion factors so that unwanted units cancel and the answer comes out in the unit asked for." },
-    { "term": "Density", "definition": "The mass of a substance per unit volume, so that mass equals density multiplied by volume." },
-    { "term": "Gravimetric analysis", "definition": "Quantitative analysis by mass, in which the substance is converted into a pure solid of known formula that is weighed." },
-    { "term": "Precipitate", "definition": "An insoluble solid that forms when two solutions react and is separated by filtration." },
-    { "term": "Precipitating reagent", "definition": "A solution added in excess to convert the substance being measured into an insoluble precipitate, such as silver nitrate for chloride ions." },
-    { "term": "Deionised water", "definition": "Water from which dissolved ions have been removed, used to dissolve samples and wash precipitates." }
+    {
+      "term": "Stoichiometry",
+      "definition": "The study of the quantitative relationships between the amounts of reactants and products, given by the balanced equation."
+    },
+    {
+      "term": "Mole ratio",
+      "definition": "The ratio of the amounts, in moles, of substances in a reaction, given by the coefficients in the balanced equation."
+    },
+    {
+      "term": "Unit analysis",
+      "definition": "A method of multiplying by conversion factors so that unwanted units cancel and the answer comes out in the unit asked for."
+    },
+    {
+      "term": "Density",
+      "definition": "The mass of a substance per unit volume, so that mass equals density multiplied by volume."
+    },
+    {
+      "term": "Gravimetric analysis",
+      "definition": "Quantitative analysis by mass, in which the substance is converted into a pure solid of known formula that is weighed."
+    },
+    {
+      "term": "Precipitate",
+      "definition": "An insoluble solid that forms when two solutions react and is separated by filtration."
+    },
+    {
+      "term": "Precipitating reagent",
+      "definition": "A solution added in excess to convert the substance being measured into an insoluble precipitate, such as silver nitrate for chloride ions."
+    },
+    {
+      "term": "Deionised water",
+      "definition": "Water from which dissolved ions have been removed, used to dissolve samples and wash precipitates."
+    }
   ],
   "questions": [
     {

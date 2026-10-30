@@ -1,95 +1,242 @@
 {
   "loId": "chem6-s2",
   "chapterId": "chem6",
-  "subsection": "2. Bonding and properties",
-  "syllabusRef": "2.1.4",
+  "subsection": "2. Polarity, shape and physical properties",
+  "syllabusRef": "2.2.2, 2.2.3, 2.2.4",
   "notes": [
     {
-      "h": "Ionic compounds",
+      "h": "Changes of state",
       "points": [
-        "Ionic compounds are solids at room temperature, e.g. sodium chloride and magnesium oxide.",
-        "Sodium chloride melts at 801 °C and boils at 1413 °C.",
-        "The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged ions throughout the lattice.",
-        "Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions.",
-        "Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.",
-        "Many ionic compounds are soluble in water, because polar water molecules attract and surround the ions.",
-        "Ionic compounds are insoluble in non-polar solvents such as cyclohexane."
+        "To melt or boil a molecular substance, energy must be supplied to overcome the intermolecular forces.",
+        "The stronger the intermolecular forces, the higher the melting and boiling points.",
+        "Substances with only London dispersion forces between small molecules are gases at room temperature, e.g. methane, which boils at −162 °C.",
+        "Group 14 hydrides rise steadily in boiling point: CH₄ < SiH₄ < GeH₄ < SnH₄.",
+        "Hydrogen bonding gives unusually high boiling points: water boils at 100 °C, but hydrogen sulfide, a heavier molecule with no hydrogen bonding, boils at −60 °C."
       ]
     },
     {
-      "h": "Covalent (molecular) compounds",
+      "h": "Solubility",
       "points": [
-        "Many covalent compounds are gases or liquids at room temperature, e.g. methane, carbon dioxide and water.",
-        "Some covalent compounds are solids with low melting points, e.g. iodine and sugar.",
-        "Iodine sublimes on gentle heating and melts at 114 °C.",
-        "Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.",
-        "The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.",
-        "Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.",
-        "Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.",
-        "Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.",
-        "Polar molecules such as ethanol, sugar and ammonia dissolve in water; see “Intermolecular forces and physical properties”.",
-        "“Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents."
+        "A substance dissolves when the attractions between solvent and solute particles are similar to or stronger than the attractions they replace: “like dissolves like”.",
+        "Polar and hydrogen-bonding substances such as ethanol, ammonia and sugar dissolve in water, because they form hydrogen bonds with water molecules.",
+        "Non-polar substances such as iodine, hexane and oils do not dissolve in water, but dissolve in non-polar solvents such as cyclohexane, where London forces are similar.",
+        "Hexane and water do not mix: they form two layers."
       ]
     },
     {
-      "h": "Comparing ionic and covalent compounds",
+      "h": "Water: properties from hydrogen bonding",
       "points": [
-        "Melting and boiling points: ionic compounds are high; covalent compounds are low.",
-        "Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.",
-        "Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.",
-        "State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.",
-        "Step 1: Melt the substance, or dissolve it in water.",
-        "Step 2: Dip two carbon electrodes into it, connected to a battery and a bulb (or an ammeter).",
-        "Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.",
-        "Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.",
-        "Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken; see the chapter “Allotropes of Carbon. Hydrocarbons”."
+        "Water has a high boiling point and a high melting point for such a small molecule.",
+        "Ice is less dense than liquid water: hydrogen bonds hold the molecules in an open lattice, so ice floats.",
+        "Water is a good solvent for ionic and polar substances."
+      ]
+    },
+    {
+      "h": "Secondary data: boiling points",
+      "points": [
+        "Noble gas boiling points: He −269 °C; Ne −246 °C; Ar −186 °C; Kr −153 °C; Xe −108 °C.",
+        "Halogens at room temperature: fluorine and chlorine are gases, bromine is a liquid and iodine is a solid.",
+        "Alkane boiling points: methane −162 °C; ethane −89 °C; propane −42 °C; butane −1 °C; pentane 36 °C; hexane 69 °C.",
+        "Group 16 hydride boiling points: H₂O 100 °C; H₂S −60 °C; H₂Se −41 °C; H₂Te −2 °C.",
+        "Group 15 and 17 hydride boiling points: NH₃ −33 °C vs PH₃ −88 °C; HF 20 °C vs HCl −85 °C.",
+        "Compounds of similar mass: ethanol (bp 78 °C, hydrogen bonding) vs propane (bp −42 °C, London forces only)."
+      ]
+    },
+    {
+      "h": "Accounting for trends (Higher Level only)",
+      "points": [
+        "Down group 18, down group 17 and along the alkane series, boiling points rise because the molecules have more electrons and larger electron clouds, so London dispersion forces get stronger.",
+        "In the group 16 hydrides, boiling point rises from H₂S to H₂Te as London forces increase with size; water is far higher than the trend predicts because of hydrogen bonding.",
+        "The same anomaly appears for NH₃ in group 15 and HF in group 17, which both form hydrogen bonds.",
+        "Molecules of similar mass have higher boiling points if they are polar (dipole–dipole forces), and much higher ones if they hydrogen bond, e.g. ethanol compared with propane.",
+        "Diagram: a graph of boiling point against period for the hydrides of groups 14, 15, 16 and 17, showing the high values of H₂O, HF and NH₃ and the steady rise from CH₄ to SnH₄."
+      ]
+    },
+    {
+      "h": "Polar bonds and polar molecules (Higher Level only)",
+      "b": "The shapes named here are given; see “VSEPR theory” for how shapes are predicted.",
+      "points": [
+        "A polar bond has an uneven share of electrons, giving δ+ and δ− ends.",
+        "A polar molecule has an overall uneven distribution of charge, with a δ+ end and a δ− end.",
+        "Whether a molecule is polar depends on both its bonds and its shape: polar bonds arranged symmetrically cancel out."
+      ]
+    },
+    {
+      "h": "Symmetry and cancelling dipoles (Higher Level only)",
+      "points": [
+        "Carbon dioxide: each C=O bond is polar, but the molecule is linear (O=C=O), so the two bond polarities point in opposite directions and cancel; CO₂ is non-polar.",
+        "Tetrachloromethane (CCl₄): four polar C–Cl bonds arranged tetrahedrally cancel; CCl₄ is non-polar.",
+        "Boron trifluoride (BF₃): three polar B–F bonds at 120° in a trigonal plane cancel; BF₃ is non-polar.",
+        "Water: two polar O–H bonds in a V-shaped (bent) molecule do not cancel; water is polar, with δ− on oxygen.",
+        "Ammonia: three polar N–H bonds in a pyramidal molecule do not cancel; NH₃ is polar.",
+        "Trichloromethane (CHCl₃): the C–H bond differs from the three C–Cl bonds, so the tetrahedral molecule is unsymmetrical and polar.",
+        "Diagram: CO₂, CCl₄, H₂O and NH₃, with arrows (or δ+ and δ− labels) on each bond showing whether the polarities cancel; label each molecule polar or non-polar."
+      ]
+    },
+    {
+      "h": "Effect on intermolecular forces (Higher Level only)",
+      "points": [
+        "Polar molecules attract each other by permanent dipole–dipole forces (or hydrogen bonds) as well as London dispersion forces, so they have stronger intermolecular forces than non-polar molecules of similar size.",
+        "Non-polar molecules, including symmetrical ones with polar bonds, have only London dispersion forces between them: carbon dioxide is a gas at room temperature, and tetrachloromethane is immiscible with water.",
+        "A symmetrical molecule usually has a lower boiling point and lower solubility in water than an unsymmetrical one of similar size.",
+        "Tetrachloromethane is immiscible with water, while trichloromethane is slightly soluble; both dissolve in non-polar solvents."
+      ]
+    },
+    {
+      "h": "Shape decides overall polarity",
+      "points": [
+        "A molecule with polar bonds is polar overall only if its shape is unsymmetrical, so that its charge is unevenly spread.",
+        "Water is V-shaped (bent), so it is polar.",
+        "Ammonia is pyramidal, so it is polar.",
+        "Carbon dioxide is linear and methane is tetrahedral: both are non-polar."
+      ]
+    },
+    {
+      "h": "Predicting physical properties",
+      "points": [
+        "Polar molecules have stronger forces between them than non-polar molecules of similar size, so they have higher boiling points.",
+        "Polar molecules tend to dissolve in polar solvents such as water; non-polar molecules dissolve in non-polar solvents such as cyclohexane.",
+        "Water is a liquid at room temperature and dissolves salts, because it is polar and forms hydrogen bonds; methane is a gas and is almost insoluble in water.",
+        "Ammonia, which is polar, is very soluble in water; carbon dioxide, which is non-polar, is only slightly soluble."
+      ]
+    },
+    {
+      "h": "Investigation: testing liquids for polarity with a charged rod",
+      "points": [
+        "Aim: to show whether a liquid is made of polar molecules.",
+        "Apparatus: a burette clamped above a beaker, a polythene (or acetate) rod, a cloth, and liquids such as water and cyclohexane.",
+        "Diagram: a burette clamped above a beaker, releasing a thin stream of liquid; label the burette, the beaker and the stream.",
+        "Diagram: a charged polythene rod held beside the stream, with the stream bending towards it; label the rod, the stream and the direction of deflection.",
+        "Independent variable: the liquid tested.",
+        "Dependent variable: whether the stream is deflected.",
+        "Controlled variables: the same rod and cloth, with the rod recharged before each test.",
+        "Step 1: Charge the rod by rubbing it with the cloth.",
+        "Step 2: Let a thin stream of the liquid run from the burette, and hold the rod close to the stream without touching it.",
+        "Step 3: Repeat with the other liquid, recharging the rod each time.",
+        "Result: the stream of water is deflected (attracted) towards the rod; the stream of cyclohexane is not deflected.",
+        "The water stream is attracted to the rod whether the rod is charged positively or negatively, because the molecules rotate.",
+        "Explanation: polar molecules turn so that their oppositely charged end faces the rod and are attracted to it; non-polar molecules are not attracted.",
+        "Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation, and collect it for disposal."
       ]
     }
   ],
   "keyTerms": [
     {
-      "term": "Ionic compound",
-      "definition": "A compound held together by electrostatic attractions between oppositely charged ions, usually a metal and a non-metal."
-    },
-    {
-      "term": "Covalent (molecular) compound",
-      "definition": "A compound made of molecules in which atoms are held together by covalent bonds, with only weak forces between molecules."
-    },
-    {
-      "term": "Electrostatic attraction",
-      "definition": "The force of attraction between oppositely charged ions."
-    },
-    {
-      "term": "Lattice",
-      "definition": "The regular three-dimensional arrangement of ions in a solid ionic compound."
-    },
-    {
-      "term": "Electrical conductivity",
-      "definition": "The ability of a substance to carry an electric current, which needs free ions or free electrons."
+      "term": "Boiling point",
+      "definition": "The temperature at which a liquid's vapour pressure equals the atmospheric pressure and it boils."
     },
     {
       "term": "Solubility",
-      "definition": "The mass of a solute that dissolves in a given volume of solvent at a stated temperature."
+      "definition": "The extent to which a solute dissolves in a solvent at a stated temperature."
     },
     {
-      "term": "Sublimation",
-      "definition": "The change of state from solid directly to gas on heating, without passing through the liquid state."
+      "term": "Like dissolves like",
+      "definition": "The principle that substances dissolve readily in solvents with similar types of intermolecular forces."
+    },
+    {
+      "term": "Solvent",
+      "definition": "The liquid in which a solute dissolves to form a solution."
+    },
+    {
+      "term": "Solute",
+      "definition": "The substance that dissolves in a solvent."
+    },
+    {
+      "term": "Hydrogen-bonding substance",
+      "definition": "A substance whose molecules contain H bonded to F, O or N, so that they form hydrogen bonds."
+    },
+    {
+      "term": "Open lattice",
+      "definition": "The spaced-out arrangement of molecules in ice, held by hydrogen bonds, that makes ice less dense than liquid water."
+    },
+    {
+      "term": "Immiscible",
+      "definition": "Describes two liquids that do not mix and form separate layers, such as hexane and water."
+    },
+    {
+      "term": "Polar bond",
+      "definition": "A covalent bond in which the shared electrons are drawn unevenly, giving δ+ and δ− ends."
+    },
+    {
+      "term": "Polar molecule",
+      "definition": "A molecule with an overall uneven distribution of charge, so that it has a δ+ end and a δ− end."
+    },
+    {
+      "term": "Non-polar molecule",
+      "definition": "A molecule whose charge is evenly distributed overall, either because it has no polar bonds or because its polar bonds cancel."
+    },
+    {
+      "term": "Cancelling dipoles",
+      "definition": "Polar bonds whose polarities point in opposite or balancing directions, so that they give no overall polarity."
+    },
+    {
+      "term": "Symmetrical molecule",
+      "definition": "A molecule whose shape is arranged so that its bond polarities balance, such as a linear or tetrahedral molecule with identical bonds."
+    },
+    {
+      "term": "Trigonal planar",
+      "definition": "A flat shape in which three bonded atoms lie at 120° to one another around a central atom."
+    },
+    {
+      "term": "Polar solvent",
+      "definition": "A solvent made of polar molecules, such as water, that dissolves ionic and polar substances."
     },
     {
       "term": "Non-polar solvent",
       "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances."
+    },
+    {
+      "term": "V-shaped (bent) molecule",
+      "definition": "A molecule with two bonded atoms at an angle to a central atom, such as water."
+    },
+    {
+      "term": "Pyramidal molecule",
+      "definition": "A molecule with three bonded atoms arranged in a pyramid above a central atom, such as ammonia."
+    },
+    {
+      "term": "Tetrahedral molecule",
+      "definition": "A molecule with four bonded atoms arranged at the corners of a tetrahedron around a central atom, such as methane."
+    },
+    {
+      "term": "Linear molecule",
+      "definition": "A molecule whose atoms lie in a straight line, such as carbon dioxide."
     }
   ],
   "questions": [
     {
       "marks": 9,
-      "prompt": "Explain why sodium chloride (i) has a high melting point, (ii) does not conduct electricity as a solid, (iii) conducts electricity when dissolved in water.",
-      "model": "(i) Sodium chloride melts at 801 °C because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged Na⁺ and Cl⁻ ions throughout the lattice. (ii) As a solid the ions are held in fixed positions, so there are no free ions to carry charge. (iii) When dissolved in water the ions are free to move and carry charge, so the solution conducts electricity."
+      "prompt": "Explain why water has a much higher boiling point than hydrogen sulfide, even though hydrogen sulfide molecules have a greater mass.",
+      "model": "Both are molecular compounds, so boiling overcomes the intermolecular forces between molecules, not the covalent bonds within them. Water molecules form hydrogen bonds, which are the strongest intermolecular forces here, so a lot of energy is needed to overcome them; water boils at 100 °C. Hydrogen sulfide molecules are heavier, so their London dispersion forces are larger than those of a lighter molecule, but they have no hydrogen bonding and the forces between them are weaker overall. Hydrogen sulfide boils at −60 °C."
+    },
+    {
+      "marks": 9,
+      "prompt": "Account for the trend in boiling points down group 17 from fluorine to iodine.",
+      "model": "Fluorine and chlorine are gases, bromine is a liquid and iodine is a solid at room temperature. Fluorine, chlorine, bromine and iodine are all non-polar molecules, so the only intermolecular forces are London dispersion forces. Down group 17 the molecules have more electrons and larger electron clouds, so the London dispersion forces get stronger. More energy is needed to overcome the stronger forces, so the boiling points rise down the group."
     },
     {
       "marks": 6,
-      "prompt": "Compare the electrical conductivity and boiling points of ionic and covalent compounds, explaining each difference.",
-      "model": "Ionic compounds conduct electricity when molten or dissolved in water, because the ions are free to move and carry charge. Solid ionic compounds do not conduct, because the ions are held in fixed positions. Covalent compounds generally do not conduct, because they have no ions or free electrons to carry charge. Ionic compounds have high boiling points, e.g. sodium chloride boils at 1413 °C, because strong electrostatic attractions between ions must be overcome. Covalent compounds have low boiling points, e.g. methane boils at −162 °C, because only the weak forces between molecules must be overcome."
+      "prompt": "Explain why ethanol is soluble in water but hexane is not.",
+      "model": "Ethanol is polar and forms hydrogen bonds with water molecules. The attractions between ethanol and water are similar to or stronger than the hydrogen bonds between water molecules that they replace, so ethanol dissolves: like dissolves like. Hexane is non-polar and has only London dispersion forces. These are too weak to replace the hydrogen bonds between water molecules, so hexane does not dissolve and forms two layers with water."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why the carbon dioxide molecule is non-polar but the water molecule is polar, although both contain polar bonds, and state the effect of this on the intermolecular forces in each.",
+      "model": "Carbon dioxide has polar C=O bonds, but its molecule is linear, so the two bond polarities point in opposite directions and cancel; the molecule is non-polar. Water has two polar O–H bonds in a V-shaped molecule, so they do not cancel; water is polar, with δ− on oxygen. Polar water molecules have permanent dipole–dipole forces (and hydrogen bonds) as well as London dispersion forces between them, so their intermolecular forces are stronger. Non-polar carbon dioxide molecules have only London dispersion forces between them, so their intermolecular forces are weaker."
+    },
+    {
+      "marks": 6,
+      "prompt": "Tetrachloromethane (CCl₄) is non-polar but trichloromethane (CHCl₃) is polar. Explain.",
+      "model": "Tetrachloromethane has four polar C–Cl bonds arranged tetrahedrally, so they cancel and the molecule is non-polar. Trichloromethane has a C–H bond that differs from its three C–Cl bonds, so the tetrahedral molecule is unsymmetrical; its polarities do not cancel and the molecule is polar."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe an experiment to show that water molecules are polar and cyclohexane molecules are not, and explain the results.",
+      "model": "Charge a polythene rod by rubbing it with a cloth. Let a thin stream of water run from a burette and hold the charged rod close to the stream without touching it; the water stream is deflected towards the rod. Repeat with cyclohexane, recharging the rod each time; the stream is not deflected. Explanation: water molecules are polar, with a δ+ end and a δ− end. They turn so that their oppositely charged end faces the rod and are attracted to it. Cyclohexane molecules are non-polar, so they are not attracted to the rod. Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation."
+    },
+    {
+      "marks": 6,
+      "prompt": "Methane and water have similar relative molecular masses. Use the shape and polarity of each molecule to explain why water is a liquid at room temperature and methane is a gas.",
+      "model": "Water is a V-shaped molecule with polar O–H bonds that do not cancel, so it is polar. Its polar molecules have stronger forces between them, including hydrogen bonds, so more energy is needed to overcome them and water is a liquid at room temperature. Methane is a tetrahedral, non-polar molecule, so its molecules have only weak London dispersion forces between them, and it is a gas at room temperature."
     }
   ]
 }

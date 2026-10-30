@@ -1,97 +1,95 @@
-# Package: chem21-s3 — Investigation: heat of neutralisation
+# Package: chem21-s3 — ΔH from bond enthalpies
 
-- **loId:** `chem21-s3` · **chapterId:** `chem21` · **syllabusRef:** 3.1.3
-- **Syllabus:** 3.1.3 "investigate, using primary data, how to determine ΔH for a suitable
-  neutralisation reaction" (EI: Experimental Investigation). Learn about: "a change in enthalpy
-  (ΔH) as a measure of the heat change in a process, at a constant pressure". Normal type.
-- **Prepared by:** a higher model, 2026-10-30. Full investigation with hydrochloric acid and
-  sodium hydroxide in a polystyrene cup: definition, method, reasons, a sample calculation,
-  the cooling-curve improvement, safety and errors, and comparison with the accepted value. The
-  general method of calculating ΔH from Q = mcΔT and standard conditions are in "Calculating ΔH
-  and energy profiles"; use them here without re-deriving. Specific heat capacity of water
-  4.18 kJ kg⁻¹ K⁻¹ throughout.
+- **loId:** `chem21-s3` · **chapterId:** `chem21` · **syllabusRef:** 3.1.5
+
+- **Syllabus:** 3.1.5 "**analyse a given reaction, involving covalent molecules, to explain and
+  predict the value of ΔH using average bond enthalpy values**". Learn about: "the change in
+  enthalpy for particular processes can be determined: … **using bond enthalpy data**". All
+  bold: the whole subsection is Higher Level only. Mark every block heading " (Higher Level
+  only)".
+- **Prepared by:** a higher model, 2026-10-30. The method, four worked examples, why the
+  answers are estimates, and trends in bond enthalpies. Bond enthalpy is defined in "Bond
+  enthalpy and energy change" (refer, don't re-define at length). The average bond enthalpies
+  are the standard Leaving Certificate values (the set in the old notes and used in past
+  papers, e.g. C–C 348, C≡C 839); the SEC Formulae and Tables booklet could not be consulted
+  when this package was written, so a reviewer should confirm the table against it. The notes
+  must use only the values in the table.
 
 ## 1. Must cover
 
-Aim and chemistry (one block)
-- [ ] A1 Aim: to determine the heat of neutralisation (ΔH) of hydrochloric acid by sodium hydroxide, using primary data.
-- [ ] A2 Heat of neutralisation: the heat change when one mole of water is formed in the reaction between an acid and a base (one mole of H⁺ ions reacting with one mole of OH⁻ ions).
-- [ ] A3 Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l); ionic equation H⁺(aq) + OH⁻(aq) → H₂O(l).
-- [ ] A4 ΔH is the heat change at constant pressure; the cup is open to the atmosphere, so the pressure is constant.
-- [ ] A5 The heat released by the reaction is absorbed by the solution, so the heat produced is found from the temperature rise of the solution: Q = m × c × ΔT.
+The method (Higher Level only; one block, one step per bullet)
+- [ ] M1 [HL] Step 1: Write the balanced equation and draw the full structural formula of every reactant and product, so that every bond can be seen.
+- [ ] M2 [HL] Step 2: List the bonds broken in the reactants, multiplying by the coefficients in the equation, and add up their bond enthalpies (energy taken in).
+- [ ] M3 [HL] Step 3: List the bonds formed in the products in the same way and add up their bond enthalpies (energy released).
+- [ ] M4 [HL] Step 4: ΔH = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed).
+- [ ] M5 [HL] Step 5: A negative answer predicts an exothermic reaction, a positive answer an endothermic one.
+- [ ] M6 [HL] Shortcut: bonds that are unchanged (present in both reactants and products) can be left out of both sums; the answer is the same.
 
-Apparatus and method (one block, one step per bullet)
-- [ ] M1 Using a graduated cylinder (or, more accurately, a burette or pipette), measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup and 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker.
-- [ ] M2 Allow both solutions to reach room temperature; measure the temperature of each with a thermometer reading to 0.1 °C (or a temperature sensor), rinsing and drying the thermometer between them; if they differ, take the average as the initial temperature.
-- [ ] M3 Add the sodium hydroxide to the acid quickly and all at once, put on the lid, and stir gently with the thermometer (or a stirrer).
-- [ ] M4 Record the highest temperature reached.
-- [ ] M5 Repeat the experiment and use the mean temperature rise.
-- [ ] M6 Diagram: a polystyrene cup with a lid, a thermometer through the lid into the solution, a stirrer, and the cup standing in a beaker for support.
+Worked example 1: combustion of methane (Higher Level only; one block)
+- [ ] A1 [HL] CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g); structures: CH₄ has four C–H bonds, each O₂ one O=O, CO₂ two C=O, each H₂O two O–H.
+- [ ] A2 [HL] Bonds broken: 4 × C–H = 4 × 412 = 1648 kJ; 2 × O=O = 2 × 498 = 996 kJ; total 2644 kJ.
+- [ ] A3 [HL] Bonds formed: 2 × C=O = 2 × 799 = 1598 kJ; 4 × O–H = 4 × 463 = 1852 kJ; total 3450 kJ.
+- [ ] A4 [HL] ΔH = 2644 − 3450 = −806 kJ mol⁻¹: exothermic.
+- [ ] A5 [HL] Comparison: the measured value for gaseous water is −802 kJ mol⁻¹, and the standard value (liquid water) is −890 kJ mol⁻¹; the bond enthalpy estimate is for gaseous water, and the extra 88 kJ is released when 2 mol of steam condense (2 × 44 kJ).
 
-Why each choice (one block)
-- [ ] W1 Polystyrene foam is a good insulator and has a very low heat capacity, so little heat is lost to the surroundings or absorbed by the cup; glass or metal would conduct heat away and absorb heat.
-- [ ] W2 The lid reduces heat loss by convection and evaporation.
-- [ ] W3 Moderately concentrated (1.00 M) solutions are used to give a large enough temperature rise (about 7 °C) to measure accurately; with 0.1 M solutions the rise would be under 1 °C and the percentage error in reading it very large.
-- [ ] W4 Equal amounts of acid and base (same volume and concentration) are used so all of each reacts; the moles of water formed is then known.
-- [ ] W5 Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum temperature is recorded before heat is lost.
-- [ ] W6 A thermometer reading to 0.1 °C is needed because the temperature change is small.
-- [ ] W7 A burette or pipette measures volumes more accurately than a graduated cylinder; the disadvantage of adding the base slowly from a burette is that heat is lost while it is added.
+Worked example 2: hydrogenation of ethene (Higher Level only; one block)
+- [ ] B1 [HL] CH₂=CH₂(g) + H₂(g) → CH₃–CH₃(g).
+- [ ] B2 [HL] Bonds broken: C=C 614 + H–H 436 = 1050 kJ (the four C–H bonds of ethene are unchanged and are left out).
+- [ ] B3 [HL] Bonds formed: C–C 348 + 2 × C–H 412 = 348 + 824 = 1172 kJ.
+- [ ] B4 [HL] ΔH = 1050 − 1172 = −122 kJ mol⁻¹ (the value from heats of formation is −137 kJ mol⁻¹; see "Hess's law").
 
-Better method: temperature–time graph (one block)
-- [ ] G1 Record the temperature of the acid every 30 s for a few minutes before mixing, add the base at a recorded time, then record the temperature every 30 s for several minutes after.
-- [ ] G2 After the maximum, the temperature falls gradually because heat is lost to the surroundings.
-- [ ] G3 Plot temperature against time and extrapolate the cooling line back to the time of mixing; the temperature rise read from the graph allows for heat lost while the mixture was warming up, giving a more accurate ΔT.
-- [ ] G4 Diagram: a temperature–time graph with a flat line before mixing, a sharp rise, a gently falling line after the maximum, and the falling line extended back to the time of mixing to give ΔT.
+Worked example 3: hydrogen and chlorine (Higher Level only; one block)
+- [ ] C1 [HL] H₂(g) + Cl₂(g) → 2HCl(g).
+- [ ] C2 [HL] Bonds broken: H–H 436 + Cl–Cl 242 = 678 kJ.
+- [ ] C3 [HL] Bonds formed: 2 × H–Cl = 2 × 431 = 862 kJ.
+- [ ] C4 [HL] ΔH = 678 − 862 = −184 kJ (for 2 mol HCl): very close to the measured value, because these diatomic molecules' bond enthalpies are exact values, not averages.
 
-Sample calculation (one block, one step per bullet; sample data)
-- [ ] C1 Data: 50.0 cm³ of 1.00 M HCl + 50.0 cm³ of 1.00 M NaOH; initial temperature 18.4 °C; maximum 25.0 °C; ΔT = 6.6 °C = 6.6 K.
-- [ ] C2 Mass of solution: 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg (assume density and specific heat capacity are those of water).
-- [ ] C3 Heat produced: Q = m × c × ΔT = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.6 K = 2.76 kJ.
-- [ ] C4 Moles of water formed = moles of HCl = 1.00 × 0.0500 = 0.0500 mol.
-- [ ] C5 Heat per mole: 2.76 kJ ÷ 0.0500 mol = 55.2 kJ mol⁻¹.
-- [ ] C6 The reaction gives out heat, so ΔH = −55.2 kJ mol⁻¹.
-- [ ] C7 Comparison: the accepted value for a strong acid with a strong base is about −57 kJ mol⁻¹; the experimental value is less negative mainly because some heat was lost to the surroundings and absorbed by the cup and thermometer.
+Worked example 4: chlorination of methane (Higher Level only; one block)
+- [ ] D1 [HL] CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g).
+- [ ] D2 [HL] Bonds broken (only those that change): C–H 412 + Cl–Cl 242 = 654 kJ.
+- [ ] D3 [HL] Bonds formed: C–Cl 338 + H–Cl 431 = 769 kJ.
+- [ ] D4 [HL] ΔH = 654 − 769 = −115 kJ mol⁻¹.
 
-Comparing acids and bases (one block)
-- [ ] K1 All strong acid–strong base neutralisations have almost the same ΔH (about −57 kJ mol⁻¹), because the acids and bases are fully dissociated and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators.
-- [ ] K2 With a weak acid (e.g. ethanoic acid) or a weak base (e.g. ammonia) ΔH is slightly less negative, because some energy is used to complete the dissociation of the weak acid or base as it reacts.
-- [ ] K3 With a diprotic acid, count moles of water, not moles of acid: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l); e.g. (sample data) 25.0 cm³ of 2.00 M H₂SO₄ + 50.0 cm³ of 2.00 M NaOH, ΔT = 17.8 K: Q = 0.0750 × 4.18 × 17.8 = 5.58 kJ; moles of water = moles of NaOH = 0.100 mol; ΔH = −55.8 kJ mol⁻¹ (per mole of water).
-- [ ] K4 Repeating with double the volumes of the same solutions gives the same ΔT: twice the moles react and twice the heat is produced, but it heats twice the mass of solution.
+Why the answers are estimates (Higher Level only; one block)
+- [ ] E1 [HL] Average bond enthalpies are averages over many different molecules; the actual strength of a bond in a particular molecule is a little different, so the calculated ΔH is only an estimate.
+- [ ] E2 [HL] Bond enthalpies apply to substances in the gaseous state; if a reactant or product is a liquid or solid (e.g. liquid water), the enthalpy change of the change of state is not included, so the estimate differs from the standard value.
+- [ ] E3 [HL] Values from heats of formation or careful measurement are more accurate; bond enthalpies are useful for predicting ΔH for reactions that haven't been measured and for explaining where the energy comes from.
+- [ ] E4 [HL] Explaining with bond enthalpies: a reaction is exothermic when the bonds formed are stronger in total than the bonds broken, e.g. combustion forms the very strong C=O and O–H bonds.
 
-Safety and sources of error (one block)
-- [ ] S1 Safety: 1.00 M hydrochloric acid and sodium hydroxide are corrosive (sodium hydroxide especially to the eyes); wear safety glasses and gloves, wipe up spills; the bottles carry the GHS corrosion pictogram (liquid dripping from two test tubes onto a hand and a surface).
-- [ ] S2 Errors that make the value less negative: heat lost to the air and bench; heat absorbed by the cup and thermometer; not recording the true maximum temperature; the two solutions starting at different temperatures.
-- [ ] S3 Assumption errors: the solution's density and specific heat capacity are taken as those of water.
-- [ ] S4 Improvements: use the temperature–time graph; a lid; two nested cups; a more precise thermometer or temperature sensor; burettes or pipettes for volumes.
+Trends in bond enthalpies (Higher Level only; one block)
+- [ ] F1 [HL] Multiple bonds are stronger and shorter than single bonds between the same atoms: C–C 348 < C=C 614 < C≡C 839 kJ mol⁻¹.
+- [ ] F2 [HL] A C=C bond is less than twice as strong as C–C, and C≡C less than three times as strong, because the second and third bonds are pi bonds, which are weaker than the sigma bond (sideways overlap of p orbitals is less effective than head-on overlap; see "Shapes, bonding and isomerism").
+- [ ] F3 [HL] For bonds from carbon to the halogens, bond enthalpy falls down the group: C–Cl 338 > C–Br 276 > C–I 238 kJ mol⁻¹, because the halogen atom is larger, so the bond is longer and the shared electrons are further from the nuclei.
+- [ ] F4 [HL] The N≡N bond (945 kJ mol⁻¹) is one of the strongest, explaining why N₂ is very unreactive.
 
 ## 2. Checked facts and examples
 
-| Item | Fact |
+| Item | Average bond enthalpies used (kJ mol⁻¹) |
 |---|---|
-| C3, K3 | Specific heat capacity of water (and dilute solutions) 4.18 kJ kg⁻¹ K⁻¹ = 4.18 J g⁻¹ K⁻¹; density 1.00 g cm⁻³. |
-| C7, K1 | Strong acid–strong base heat of neutralisation about −57 kJ mol⁻¹ per mole of water. |
-| C1–C6, K3 | Sample data; arithmetic checked. |
+| All | C–H 412; C–C 348; C=C 614; C≡C 839; C=O 799 (in CO₂); O–H 463; O=O 498; H–H 436; Cl–Cl 242; H–Cl 431; C–Cl 338; C–Br 276; C–I 238; N≡N 945. |
+| A5 | CH₄ + 2O₂ → CO₂ + 2H₂O(g): −802 kJ mol⁻¹; with H₂O(l): −890 kJ mol⁻¹; ΔH(vaporisation) of water at 25 °C about 44 kJ mol⁻¹. |
+| B4 | Ethene hydrogenation from heats of formation: −137 kJ mol⁻¹. |
+| C4 | Measured ΔH for H₂ + Cl₂ → 2HCl about −185 kJ (2 × −92.3). |
+
+All arithmetic checked.
 
 ## 3. Traps
 
-- Use the total mass of the mixture (100 g), not just the acid's 50 g.
-- ΔT in °C equals ΔT in K; don't add 273 to a temperature change.
-- Give ΔH a negative sign: Q is the heat gained by the solution, ΔH the heat lost by the reaction.
-- Heat of neutralisation is per mole of water formed, not per mole of acid (matters for H₂SO₄).
-- If c is given in J kg⁻¹ K⁻¹ (4180), the answer comes out in J: divide by 1000 for kJ.
-- The bomb calorimeter is not on the specification.
-- Don't give exact values for weak-acid neutralisations; say "slightly less negative".
+- ΔH = bonds broken − bonds formed (not formed − broken).
+- Multiply by the coefficients and by the number of each bond in each molecule (CO₂ has two C=O; each H₂O two O–H).
+- Draw the structures: the bonds can't be counted from molecular formulae.
+- Use the values given in the question or the Formulae and Tables; don't mix tables.
+- Bond enthalpy calculations apply only to covalent molecules; not to ionic compounds.
+- The specification doesn't require sigma and pi bonds here beyond the explanation in F2.
 
 ## 4. What exams ask (topics only)
 
-- Define heat of reaction/heat of neutralisation; evidence that the reaction is exothermic.
-- Advantages of a polystyrene cup; precautions for an accurate maximum temperature; how to get the initial temperature if the solutions are at different temperatures.
-- Burette versus graduated cylinder: an advantage and a disadvantage.
-- Why moderately concentrated solutions; why the temperature falls after the maximum; why doubling or tripling volumes gives the same ΔT.
-- Calculate moles neutralised, heat produced and ΔH; the corrosive hazard pictogram.
+- Define bond enthalpy; use average bond enthalpies to calculate ΔH for a given reaction, stating the values used.
+- Why is the C≡C bond enthalpy less than three times the C–C value?
+- Suggest a reason for the trend C–Cl > C–Br > C–I.
 
 ## 5. Practice questions to write
 
-1. 12 marks: "Describe how you would measure the heat of neutralisation of hydrochloric acid by sodium hydroxide, explaining the reasons for the container used and the precautions taken to obtain an accurate maximum temperature." Model answer: M1–M5, W1–W3, W5.
-2. 12 marks: "80 cm³ of 1.0 M hydrochloric acid was added to 80 cm³ of 1.0 M sodium hydroxide. The temperature rose by 6.7 °C. Taking the density of the solution as 1.0 g cm⁻³ and its specific heat capacity as 4.18 kJ kg⁻¹ K⁻¹, calculate (i) the moles of HCl, (ii) the heat produced, (iii) ΔH (sample data)." Model answer: (i) 1.0 × 0.080 = 0.0800 mol; (ii) 0.160 kg × 4.18 × 6.7 = 4.48 kJ; (iii) 4.48 ÷ 0.0800 = 56.0, so ΔH = −56.0 kJ mol⁻¹.
-3. 6 marks: "Explain why the heat of neutralisation is almost the same for all strong acids with strong bases, and why the same temperature rise is obtained if the volumes of both solutions are doubled." Model answer: K1, K4.
+1. 9 marks: "Use average bond enthalpies to estimate ΔH for CH₂=CH₂(g) + Cl₂(g) → CH₂Cl–CH₂Cl(g). (C=C 614; Cl–Cl 242; C–C 348; C–Cl 338 kJ mol⁻¹.)" Model answer: broken 614 + 242 = 856 kJ; formed 348 + 2 × 338 = 1024 kJ; ΔH = 856 − 1024 = −168 kJ mol⁻¹; exothermic.
+2. 9 marks: "Estimate ΔH for the combustion of methane from average bond enthalpies, and explain why the answer differs from the standard heat of combustion, −890 kJ mol⁻¹." Model answer: A1–A4; E1, E2 (A5).
+3. 6 marks: "Explain why the bond enthalpy of C≡C (839 kJ mol⁻¹) is less than three times that of C–C (348 kJ mol⁻¹), and why C–I is weaker than C–Cl." Model answer: F2, F3.

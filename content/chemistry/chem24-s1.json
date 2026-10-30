@@ -1,130 +1,343 @@
 {
   "loId": "chem24-s1",
   "chapterId": "chem24",
-  "subsection": "1. Sources and impact of organic products",
-  "syllabusRef": "4.2.1",
+  "subsection": "1. Functional groups, naming and representation",
+  "syllabusRef": "4.2.2, 4.2.3",
   "notes": [
     {
-      "h": "What organic compounds are",
+      "h": "Functional groups and homologous series",
       "points": [
-        "Organic chemistry is the chemistry of carbon compounds, apart from simple ones such as carbon oxides, carbonates and hydrogencarbonates.",
-        "Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens or sulfur.",
-        "Each carbon atom forms four covalent bonds, and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.",
-        "Carbon atoms can be joined by single, double or triple bonds.",
-        "Organic compounds were once thought to come only from living things.",
-        "In 1828 Friedrich Wöhler made urea, a compound found in urine, from the inorganic salt ammonium cyanate, showing that organic compounds can be made in the laboratory."
+        "A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule, that is responsible for the characteristic chemical properties of a family of organic compounds.",
+        "Examples of functional groups: –OH in alcohols and –COOH in carboxylic acids.",
+        "The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive.",
+        "Reactions take place mainly at the functional group.",
+        "Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.",
+        "A homologous series is a family of compounds with the same general formula and the same functional group.",
+        "Each member of a homologous series differs from the next by CH₂, a mass of 14.",
+        "Members of a homologous series have similar chemical properties and a gradual change in physical properties, such as boiling point rising with chain length.",
+        "Each family can be written with R for the hydrocarbon part, e.g. R–OH; see below."
       ]
     },
     {
-      "h": "Sources of organic compounds",
+      "h": "Classification table of families",
+      "b": "Each family is listed with its general formula, ending and first member. Naming of alkanes, alkenes, alkynes and benzene is in \"Groups of hydrocarbons and their properties\".",
       "points": [
-        "Fossil sources are crude oil, natural gas and coal, formed from the remains of organisms over millions of years.",
-        "Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines; see \"Hydrocarbons: sources and uses\".",
-        "Fossil sources are finite, or non-renewable.",
-        "Living things make natural products: plants, animals and micro-organisms make organic compounds that can be extracted.",
-        "Oils and fats are extracted from plants and animals.",
-        "Essential oils such as clove oil are extracted by steam distillation.",
-        "Medicines are extracted from plants, e.g. quinine from cinchona bark.",
-        "Fermentation: micro-organisms convert biomass into organic compounds; yeast converts glucose into ethanol and carbon dioxide.",
-        "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes in the yeast.",
-        "Antibiotics such as penicillin are also made by fermentation.",
-        "Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast.",
-        "Spirits (about 40% v/v ethanol) are made by distilling the fermented liquid.",
-        "Synthesis: chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.",
-        "Most modern medicines, plastics and pesticides are made by synthesis.",
-        "Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks.",
-        "Bioethanol made from biomass can be used as a fuel.",
-        "Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize."
+        "Alkanes have C–C single bonds only, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.",
+        "Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂.",
+        "Cyclohexane is named with the prefix cyclo-.",
+        "Cyclohexane is a saturated, non-polar liquid with a boiling point of 81 °C, used as a solvent.",
+        "Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes.",
+        "Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.",
+        "Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.",
+        "Aromatics are limited to benzene, C₆H₆, a planar ring of six carbons with delocalised electrons.",
+        "Haloalkanes have a halogen atom, –X (F, Cl, Br, I), in place of H, general formula CₙH₂ₙ₊₁X, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.",
+        "Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.",
+        "Aldehydes have a carbonyl group at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.",
+        "Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.",
+        "Carboxylic acids (monocarboxylic, with one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.",
+        "Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.",
+        "Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O."
       ]
     },
     {
-      "h": "Products and uses",
-      "b": "Each product group named in the specification is listed with its main uses and examples.",
+      "h": "General IUPAC naming rules",
+      "b": "Name a compound by working through the steps in order.",
       "points": [
-        "Fuels are hydrocarbons such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.",
-        "Fuels are used for transport, heating and electricity generation.",
-        "Pharmaceuticals are medicines that are almost all organic compounds.",
-        "Aspirin and paracetamol relieve pain; penicillin is an antibiotic; see \"Organic compounds in pharmaceuticals\".",
-        "Plastics are polymers made mainly from oil-derived monomers.",
-        "Poly(ethene), made from ethene, is used for bags, bottles and film.",
-        "Poly(chloroethene), known as PVC, is made from chloroethene and used for pipes and window frames.",
-        "Plastics are light, cheap, durable, waterproof and insulating; see \"Addition polymers\".",
-        "Pesticides are compounds that kill or control pests.",
-        "Insecticides kill insects, herbicides kill weeds and fungicides kill fungi.",
-        "Natural pesticides include neem oil, from the neem tree, and pyrethrins, from chrysanthemum flowers.",
-        "Synthetic pesticides include malathion, an insecticide, and glyphosate, a herbicide.",
-        "Synthetics are man-made materials that replace or improve on natural ones.",
-        "Synthetic fibres such as nylon and polyester are made from monomers that link into polymers, and are used for clothing, ropes and carpets.",
-        "Synthetic dyes, detergents and synthetic rubber are further synthetic products.",
-        "Ethanol is used in perfumes and deodorants, and propanone is used in nail varnish remover.",
-        "Esters are used as flavourings and fragrances.",
-        "Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is a food preservative.",
-        "Soaps and detergents are organic products; see \"Surfactants and soap\"."
+        "Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.",
+        "Step 2: add the ending for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).",
+        "Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).",
+        "Step 4: name and number branches (methyl-, ethyl-) and halogen substituents as prefixes, in alphabetical order.",
+        "Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.",
+        "Numbers are separated from each other by commas and from words by hyphens.",
+        "No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.",
+        "There is only one propanone and only one butanone, so no number is needed for them."
       ]
     },
     {
-      "h": "Benefits and impacts",
+      "h": "Haloalkanes",
       "points": [
-        "Benefits: energy for transport and heating, and longer, healthier lives through medicines and sanitation.",
-        "Benefits: higher crop yields and less food lost to pests, and cheap, light, durable materials.",
-        "Benefits: clothing and goods for large populations.",
-        "Fuel impact: burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.",
-        "Fuel impact: burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot; see \"The impact of hydrocarbons\".",
-        "Plastic impact: most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.",
-        "Plastic impact: in the oceans, plastics harm wildlife and break into microplastics.",
-        "Plastic impact: burning plastics can release toxic gases.",
-        "Pesticide impact: some pesticides are toxic to non-target organisms such as bees, birds and fish.",
-        "Pesticide impact: persistent pesticides such as DDT build up in food chains (bioaccumulation).",
-        "DDT was banned for agricultural use in most countries, and the Stockholm Convention (2001) restricts it to disease-vector control.",
-        "The EU restricted outdoor use of three neonicotinoid insecticides in 2018 because of harm to bees.",
-        "Pesticide run-off can contaminate water.",
-        "Pharmaceutical impact: medicines can cause side effects and addiction, e.g. addiction to opiates.",
-        "Pharmaceutical impact: overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways.",
-        "Resource impact: fossil feedstocks are finite.",
-        "Resource impact: extracting and processing fossil feedstocks uses energy and can cause spills and pollution."
+        "A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms.",
+        "A chloroalkane is a haloalkane that contains chlorine.",
+        "Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples.",
+        "Chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.",
+        "Other examples: 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.",
+        "Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.",
+        "Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.",
+        "Trichloromethane (chloroform) was first used as an anaesthetic in 1847 by James Young Simpson in Edinburgh, but it is toxic.",
+        "Chloroethene is the monomer of PVC."
       ]
     },
     {
-      "h": "Judging a product",
+      "h": "Alcohols",
       "points": [
-        "A product's impact is assessed across its whole life, from raw material and manufacture to use and disposal; this is a life-cycle view.",
-        "Ways to reduce impact include recycling and reuse.",
-        "Renewable feedstocks and biodegradable alternatives reduce impact.",
-        "Designing safer molecules that break down after use reduces impact.",
-        "Using less, e.g. targeted pesticide use, reduces impact.",
-        "A natural source is not automatically safer or more sustainable, because natural compounds can be toxic.",
-        "Growing biomass uses land, water and fertiliser.",
-        "A balanced answer names a benefit and an impact, and says how the impact can be reduced."
+        "Methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.",
+        "Butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.",
+        "Pentan-1-ol and hexan-1-ol are members too.",
+        "Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.",
+        "With more than one –OH, keep the -e and add -diol or -triol.",
+        "Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups.",
+        "Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.",
+        "Methanol, with no other carbon attached, is also treated as primary.",
+        "Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH), e.g. propan-2-ol and butan-2-ol.",
+        "Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.",
+        "The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.",
+        "Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v in spirits such as whiskey.",
+        "Ethanol is a fuel and a solvent for perfumes, deodorants, hairsprays and varnishes.",
+        "Methanol is toxic.",
+        "Propan-2-ol is used in hand sanitisers and as a cleaning solvent."
+      ]
+    },
+    {
+      "h": "Aldehydes and ketones",
+      "points": [
+        "Aldehydes include methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.",
+        "The –CHO group is always at the end of the chain, and its carbon is carbon 1.",
+        "Ketones include propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.",
+        "The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.",
+        "Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.",
+        "The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.",
+        "Methanal in water, called formalin, preserves biological specimens.",
+        "Ethanal is the first product formed when the body breaks down ethanol.",
+        "Propanone is a solvent, e.g. in nail varnish remover.",
+        "Benzaldehyde gives the flavour of almonds."
+      ]
+    },
+    {
+      "h": "Carboxylic acids",
+      "points": [
+        "Members include methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.",
+        "Pentanoic acid and hexanoic acid are also members.",
+        "Naming: replace the -e of the alkane by -oic acid.",
+        "The carbon of the –COOH group is counted in the chain as carbon 1, and substituents are numbered from it.",
+        "CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid.",
+        "The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.",
+        "Carboxylic acids are acidic; see \"Physical properties and acidity\".",
+        "Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.",
+        "Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.",
+        "Ethanoic acid is used as a food flavouring and preservative.",
+        "Benzoic acid and sodium benzoate are food preservatives."
+      ]
+    },
+    {
+      "h": "Esters",
+      "points": [
+        "Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water.",
+        "The reaction is described in \"Tests, reaction schemes and preparing an ester\".",
+        "Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.",
+        "Step 2: name the alcohol part as an alkyl group (methyl, ethyl, propyl and so on) and write it first.",
+        "Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.",
+        "Esters of methanoic acid are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.",
+        "Esters of ethanoic acid are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.",
+        "Esters of propanoic acid are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.",
+        "The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.",
+        "HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.",
+        "Only esters made from monocarboxylic acids and primary alcohols are required.",
+        "Esters have sweet, fruity smells and give many fruits and flowers their scent.",
+        "Esters are used as food flavourings and in perfumes.",
+        "Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.",
+        "Fats and oils are esters of propane-1,2,3-triol; see \"Redox and acid–base reactions of organic compounds\"."
+      ]
+    },
+    {
+      "h": "Four representations of ethanoic acid",
+      "b": "Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule.",
+      "points": [
+        "Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.",
+        "The molecular formula does not show how the atoms are joined.",
+        "Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.",
+        "Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.",
+        "Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.",
+        "Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.",
+        "Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.",
+        "Empirical formula (the simplest ratio of atoms; see \"Formulae and balancing equations\") may also be asked.",
+        "Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.",
+        "Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch."
+      ]
+    },
+    {
+      "h": "Tetrahedral and planar carbon",
+      "points": [
+        "A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron, with bond angles of 109.5°; this is tetrahedral geometry.",
+        "Every carbon in ethanol and in haloalkanes is tetrahedral.",
+        "A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.",
+        "The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.",
+        "Both carbons of ethene are planar, and all six carbons of benzene are planar.",
+        "A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.",
+        "An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.",
+        "The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group; see \"Bonding, formulae and shapes\"."
+      ]
+    },
+    {
+      "h": "Counting tetrahedral and planar carbons",
+      "b": "Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.",
+      "points": [
+        "Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons.",
+        "Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃) and 1 planar carbon (the C=O carbon).",
+        "Propanone CH₃COCH₃ has 2 tetrahedral carbons and 1 planar carbon.",
+        "Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).",
+        "Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons.",
+        "Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons.",
+        "Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar.",
+        "Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat."
+      ]
+    },
+    {
+      "h": "Using R",
+      "points": [
+        "R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.",
+        "R and R′ are used when two hydrocarbon parts may differ.",
+        "General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.",
+        "In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.",
+        "In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group.",
+        "Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.",
+        "R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O."
+      ]
+    },
+    {
+      "h": "Structural isomers",
+      "points": [
+        "Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.",
+        "Chain isomers differ in the carbon skeleton, i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).",
+        "Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).",
+        "Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).",
+        "Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).",
+        "Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).",
+        "Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).",
+        "Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers.",
+        "The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.",
+        "Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate.",
+        "Chain and position isomers have similar chemical properties but slightly different physical properties.",
+        "Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, bp 118 °C) and methyl methanoate (not acidic, bp 32 °C); see \"Physical properties and acidity\"."
+      ]
+    },
+    {
+      "h": "Comparing representations",
+      "points": [
+        "The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.",
+        "The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.",
+        "The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.",
+        "The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.",
+        "Different representations of the same molecule must contain the same atoms joined in the same way.",
+        "In every representation, each carbon must have four bonds, and a double bond counts as two."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Organic compound", "definition": "A compound of carbon, almost always bonded to hydrogen and often containing oxygen, nitrogen, halogens or sulfur." },
-    { "term": "Feedstock", "definition": "A starting material, such as crude oil or biomass, from which chemical products are made." },
-    { "term": "Fermentation", "definition": "The conversion of biomass into organic compounds by micro-organisms, using enzymes as catalysts." },
-    { "term": "Precursor", "definition": "A simpler compound from which a more complex molecule is made." },
-    { "term": "Synthesis", "definition": "The building of a more complex molecule from simpler precursors in the laboratory or in industry." },
-    { "term": "Biomass", "definition": "Plant and animal material, such as sugar cane, maize or wood, that can be used as a renewable feedstock." },
-    { "term": "Pesticide", "definition": "A compound that kills or controls pests such as insects, weeds or fungi." },
-    { "term": "Biodegradable", "definition": "Able to be broken down by micro-organisms in the environment." },
-    { "term": "Bioaccumulation", "definition": "The build-up of a substance in the tissues of organisms, increasing up a food chain." },
-    { "term": "Life-cycle view", "definition": "An assessment of a product's impact across raw material, manufacture, use and disposal." }
+    {
+      "term": "Functional group",
+      "definition": "An atom or group of atoms, attached to a hydrocarbon part, that gives a family of compounds its characteristic chemical properties."
+    },
+    {
+      "term": "Homologous series",
+      "definition": "A family of compounds with the same general formula and functional group, each member differing from the next by CH₂."
+    },
+    {
+      "term": "Carbonyl group",
+      "definition": "The C=O group, found in aldehydes, ketones, carboxylic acids and esters."
+    },
+    {
+      "term": "Stem",
+      "definition": "The part of a systematic name that gives the number of carbons in the longest chain, e.g. prop- for three carbons."
+    },
+    {
+      "term": "Primary alcohol",
+      "definition": "An alcohol in which the carbon bearing the –OH is attached to at most one other carbon."
+    },
+    {
+      "term": "Secondary alcohol",
+      "definition": "An alcohol in which the carbon bearing the –OH is attached to two other carbons."
+    },
+    {
+      "term": "Tertiary alcohol",
+      "definition": "An alcohol in which the carbon bearing the –OH is attached to three other carbons."
+    },
+    {
+      "term": "Haloalkane",
+      "definition": "An alkane in which one or more hydrogen atoms have been replaced by halogen atoms."
+    },
+    {
+      "term": "Carboxyl group",
+      "definition": "The –COOH group that gives carboxylic acids their acidic character."
+    },
+    {
+      "term": "Ester",
+      "definition": "A compound formed from a carboxylic acid and an alcohol, with loss of water, containing the –COO– group."
+    },
+    {
+      "term": "Molecular formula",
+      "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined."
+    },
+    {
+      "term": "Empirical formula",
+      "definition": "The simplest whole-number ratio of the atoms of each element in a compound."
+    },
+    {
+      "term": "Condensed structural formula",
+      "definition": "A formula that writes the atoms bonded to each carbon in order along the chain, without drawing the bonds."
+    },
+    {
+      "term": "Expanded structural formula",
+      "definition": "A formula that draws every atom and every bond in the molecule."
+    },
+    {
+      "term": "Tetrahedral geometry",
+      "definition": "The arrangement of four bonding groups around a carbon atom at the corners of a tetrahedron, with bond angles of 109.5°."
+    },
+    {
+      "term": "Planar geometry",
+      "definition": "The arrangement of three bonding groups around a carbon atom in a flat triangle, with bond angles of 120°."
+    },
+    {
+      "term": "Alkyl group",
+      "definition": "The hydrocarbon part of a molecule, such as CH₃– or C₂H₅–, represented by R."
+    },
+    {
+      "term": "Structural isomers",
+      "definition": "Compounds with the same molecular formula but different structural formulae."
+    },
+    {
+      "term": "Chain isomers",
+      "definition": "Structural isomers that differ in the branching of the carbon skeleton."
+    },
+    {
+      "term": "Position isomers",
+      "definition": "Structural isomers with the same functional group in different positions on the carbon chain."
+    },
+    {
+      "term": "Functional group isomers",
+      "definition": "Structural isomers that belong to different homologous series."
+    }
   ],
   "questions": [
     {
-      "marks": 6,
-      "prompt": "Outline two sources of organic compounds, giving an example of a product obtained from each.",
-      "model": "Crude oil is a fossil source, formed from the remains of organisms over millions of years. It supplies fuels and feedstocks for plastics, such as poly(ethene) made from ethene. Yeast fermentation is a second source: yeast converts glucose into ethanol and carbon dioxide, C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g)."
+      "marks": 10,
+      "prompt": "Give the IUPAC name of each compound: (i) CH₃CH₂CHO, (ii) CH₃COCH₂CH₃, (iii) CH₃CH₂COOH, (iv) CH₃CH₂COOCH₃, (v) CH₃CH₂CH₂Cl.",
+      "model": "(i) CH₃CH₂CHO is propanal: a three-carbon chain with the –CHO carbon as carbon 1 and the -al ending. (ii) CH₃COCH₂CH₃ is butanone: a four-carbon chain with the C=O inside the chain; no number is needed because there is only one butanone. (iii) CH₃CH₂COOH is propanoic acid: a three-carbon chain with the -oic acid ending, and the –COOH carbon as carbon 1. (iv) CH₃CH₂COOCH₃ is methyl propanoate: the alcohol part, methyl, is named first, and the acid part, propanoic acid, becomes propanoate. (v) CH₃CH₂CH₂Cl is 1-chloropropane: a three-carbon chain with the chlorine on carbon 1."
     },
     {
       "marks": 9,
-      "prompt": "Products based on organic compounds include plastics and pesticides. For each, give one benefit to society and one impact on the environment, and suggest how that impact could be reduced.",
-      "model": "Plastics: a benefit is that they are light, cheap, durable, waterproof and insulating. An impact is that most plastics are not biodegradable, so they persist for decades or longer as litter and in the oceans, where they harm wildlife. The impact can be reduced by recycling and reuse, and by using biodegradable plastics made from renewable feedstocks. Pesticides: a benefit is higher crop yields and less food lost to pests. An impact is that some pesticides are toxic to non-target organisms such as bees, and persistent pesticides build up in food chains. The impact can be reduced by targeted pesticide use and by using safer molecules that break down after use."
+      "prompt": "Define primary, secondary and tertiary alcohols, and give the name and condensed formula of one example of each.",
+      "model": "A primary alcohol has the carbon bearing the –OH attached to at most one other carbon atom, for example ethanol, CH₃CH₂OH. A secondary alcohol has the carbon bearing the –OH attached to two other carbon atoms, for example propan-2-ol, CH₃CH(OH)CH₃. A tertiary alcohol has the carbon bearing the –OH attached to three other carbon atoms, for example 2-methylpropan-2-ol, (CH₃)₃COH."
     },
     {
       "marks": 6,
-      "prompt": "Write a balanced equation for the fermentation of glucose to ethanol, and explain why fermentation cannot produce a drink stronger than about 15% ethanol.",
-      "model": "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g). Fermentation stops at about 12–15% ethanol by volume because the ethanol produced kills the yeast, so the yeast can no longer convert glucose. Stronger drinks such as spirits, at about 40% v/v ethanol, are made by distilling the fermented liquid."
+      "prompt": "What is meant by a homologous series? Give two characteristics of a homologous series.",
+      "model": "A homologous series is a family of compounds with the same general formula and the same functional group, in which each member differs from the next by CH₂. Two characteristics are: the members have the same general formula, and the members have similar chemical properties. A third is a gradual trend in physical properties, such as boiling point rising with chain length."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw the expanded structure of ethyl ethanoate. Mark one carbon atom with planar geometry and one with tetrahedral geometry, and state the bond angle around each.",
+      "model": "The expanded structure of ethyl ethanoate is H₃C–C(=O)–O–CH₂–CH₃, with every bond drawn: the H atoms on the CH₃ and CH₂ carbons, the C=O double bond from the acid carbon to its oxygen, and single bonds from that carbon to the bridging oxygen and on to the CH₂ group. The C=O carbon is planar, with a bond angle of 120° around it. Any CH₃ or CH₂ carbon is tetrahedral, with a bond angle of 109.5° around it."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what is meant by structural isomers. Draw and name a structural isomer of propanal that belongs to a different homologous series, and one structural isomer of propan-1-ol.",
+      "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, because their atoms are joined in a different order. Propanal, CH₃CH₂CHO, is C₃H₆O. Propanone, CH₃COCH₃, has the same formula but belongs to the ketone series, so it is a functional group isomer of propanal. Propan-1-ol, CH₃CH₂CH₂OH, has the –OH on carbon 1. Propan-2-ol, CH₃CH(OH)CH₃, has the –OH on carbon 2, so it is a position isomer of propan-1-ol."
+    },
+    {
+      "marks": 6,
+      "prompt": "Write the molecular formula, condensed structural formula and general formula using R for ethanoic acid, and state one thing a 3D model shows that a condensed formula does not.",
+      "model": "Molecular formula: C₂H₄O₂. Condensed structural formula: CH₃COOH. General formula using R for a carboxylic acid: R–COOH. A 3D model shows the bond angles and the real three-dimensional shape of the molecule, which a condensed formula does not show."
     }
   ]
 }

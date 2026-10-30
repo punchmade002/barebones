@@ -1,83 +1,192 @@
-# Package: chem25-s1 — Tests for aldehydes, ketones and carboxylic acids
+# Package: chem25-s1 — Types of organic reaction and addition polymers
 
-- **loId:** `chem25-s1` · **chapterId:** `chem25` · **syllabusRef:** 4.2.4
-- **Syllabus:** 4.2.4 "conduct tests • to distinguish between aldehydes and ketones • to show
-  the acidic nature of carboxylic acids". Learn about: "Fehling's **oxidising** test";
-  "Reactions of carboxylic acids with suitable metals (e.g. magnesium), suitable bases (e.g.
-  NaOH and sodium carbonate)". Only the word "oxidising" is bold, so the test itself is for
-  everyone and the explanation of Fehling's reagent as an oxidising agent is Higher Level only.
-- **Prepared by:** a higher model, 2026-10-30. Practical tests: Fehling's test on ethanal and
-  propanone, and ethanoic acid with magnesium, sodium carbonate and sodium hydroxide. Naming and
-  the aldehyde and ketone functional groups are in "Functional groups and nomenclature"; why
-  carboxylic acids are acidic is in "Acidity of carboxylic acids and alcohols"; the oxidation
-  of alcohols and aldehydes with potassium permanganate is in "Redox and acid–base reactions of
-  organic compounds". Don't repeat them. Tollens' reagent is not on the specification.
+- **loId:** `chem25-s1` · **chapterId:** `chem25` · **syllabusRef:** 4.2.6, 4.2.16
+- **Merged:** this subsection combines "Five types of organic reaction" (formerly `chem25-s2`), "Addition polymers" (formerly `chem25-s10`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Five types of organic reaction (formerly `chem25-s2`)
 
-Why aldehydes and ketones can be told apart (one block)
-- [ ] K1 (assumed) An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO. A ketone has the C=O group joined to two carbon atoms, e.g. propanone, CH₃COCH₃.
-- [ ] K2 Aldehydes are easily oxidised to carboxylic acids, because the hydrogen on the carbonyl carbon can be replaced by –OH; they are good reducing agents.
-- [ ] K3 Ketones are not oxidised by mild oxidising agents, because the carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond.
-- [ ] K4 So a mild oxidising agent that changes colour when it reacts distinguishes them: an aldehyde gives a colour change; a ketone gives none.
+- **loId:** `chem25-s2` · **chapterId:** `chem25` · **syllabusRef:** 4.2.6
+- **Syllabus:** 4.2.6 "describe five types of reactions **and analyse a given reaction in terms
+  of the type(s) of reaction taking place**". Learn about: "types of reactions studied in
+  organic chemistry: addition, substitution, redox, acid-base, elimination (conditions of
+  temperature, solvent, catalyst, pressure, etc are not required unless specified)". Describing
+  the five types is for everyone; analysing a given reaction is Higher Level only.
+- **Prepared by:** a higher model, 2026-10-30. One block per reaction type (definition, what
+  changes, examples with equations), then a Higher Level block on classifying a given reaction.
+  Mechanisms are in "Reaction mechanisms"; the full redox chemistry of alcohols, aldehydes and
+  ketones and the base hydrolysis of esters are in "Redox and acid–base reactions of organic
+  compounds"; linking reactions into routes is in "Tests, reaction schemes and preparing an ester"; the ethene preparation is
+  in "Investigation: preparing ethene". Here, give each type its definition and examples only.
 
-Fehling's test (Investigation block)
-- [ ] F1 Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless), giving a clear deep-blue solution containing Cu²⁺ ions.
-- [ ] F2 The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate.
-- [ ] F3 Method: put about 2 cm³ of Fehling's reagent into each of two test tubes; add a few drops of ethanal to one and a few drops of propanone to the other.
-- [ ] F4 Warm both test tubes in a beaker of hot water (water bath) for a few minutes; don't heat with a naked flame.
-- [ ] F5 Result with ethanal: the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.
-- [ ] F6 Result with propanone: no change; the solution stays blue.
-- [ ] F7 Conclusion: an unknown carbonyl compound that gives a brick-red precipitate is an aldehyde; one that leaves the reagent blue is a ketone.
-- [ ] F8 Safety: wear goggles (Fehling's B contains sodium hydroxide, which is corrosive); ethanal and propanone are volatile and flammable (ethanal boils at about 21 °C), so keep them away from flames and use a water bath.
-- [ ] F9 Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue).
+### 1. Must cover
 
-Fehling's reagent as an oxidising agent (Higher Level only)
-- [ ] O1 [HL] Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).
-- [ ] O2 [HL] The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent it is present as its salt, e.g. ethanal → ethanoate ions.
-- [ ] O3 [HL] Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺ (oxidation number of copper falls from +2 to +1); the Cu⁺ forms the red precipitate Cu₂O. In full: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).
-- [ ] O4 [HL] Overall: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.
-- [ ] O5 [HL] Fehling's reagent is difficult to reduce (a weak oxidising agent), so the fact that ethanal reduces it shows that aldehydes are very easily oxidised; it is too weak to oxidise a ketone.
+Addition reactions (one block)
+- [ ] D1 An addition reaction is one in which two or more molecules react to form a single molecule; atoms add across a double (or triple) bond, so an unsaturated compound becomes saturated and there is only one product.
+- [ ] D2 Ethene + bromine → 1,2-dibromoethane: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br. Bromine water changes from orange (red-brown) to colourless, the test for unsaturation.
+- [ ] D3 Ethene + chlorine → 1,2-dichloroethane: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl.
+- [ ] D4 Ethene + hydrogen chloride → chloroethane: CH₂=CH₂ + HCl → CH₃CH₂Cl.
+- [ ] D5 Ethene + water → ethanol: CH₂=CH₂ + H₂O → CH₃CH₂OH (the industrial route to ethanol).
+- [ ] D6 Ethene + hydrogen → ethane, with a nickel catalyst: CH₂=CH₂ + H₂ → CH₃CH₃ (hydrogenation).
+- [ ] D7 Addition polymerisation (e.g. ethene → poly(ethene)) is a series of addition reactions; see "Addition polymers".
 
-Showing the acidic nature of carboxylic acids (Investigation block)
-- [ ] A1 Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and its effect on indicator.
-- [ ] A2 Indicator: dilute ethanoic acid turns blue litmus red and gives a pH below 7 (about 3) with universal indicator or a pH meter.
-- [ ] A3 Magnesium: add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves. The gas burns with a pop when a lighted taper is held at the mouth of the tube: it is hydrogen. 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).
-- [ ] A4 Sodium carbonate: add a little solid sodium carbonate to ethanoic acid; there is effervescence (fizzing). The gas turns limewater milky: it is carbon dioxide. 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).
-- [ ] A5 Sodium hydroxide: ethanoic acid is neutralised by sodium hydroxide, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l). There is no visible change, so add phenolphthalein to the acid and add the sodium hydroxide until the solution just turns pink (or follow the pH), or note the temperature rise.
-- [ ] A6 Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows the –COOH group, not the –OH alone, is acidic.
-- [ ] A7 Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid (only partly dissociated), so the concentration of H⁺ is lower.
-- [ ] A8 Safety: goggles; concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid; no flame near any flammable liquid when testing for hydrogen.
-- [ ] A9 Diagram: test tube of dilute ethanoic acid with magnesium ribbon and a lighted taper at the mouth; test tube with sodium carbonate and a delivery tube bubbling the gas into limewater.
+Substitution reactions (one block)
+- [ ] S1 A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.
+- [ ] S2 Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl (a hydrogen atom is replaced by a chlorine atom); ethane gives chloroethane, C₂H₆ + Cl₂ → C₂H₅Cl + HCl.
+- [ ] S3 Esterification: carboxylic acid + alcohol → ester + water, catalysed by H⁺ (concentrated sulfuric acid), e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O; the –OH of the acid is replaced by the –OC₂H₅ of the alcohol. It is also called a condensation reaction, because water is lost as two molecules join.
+- [ ] S4 Hydrolysis of an ester is also a substitution: the –OR group of the ester is replaced by –OH (or –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.
+- [ ] S5 Alkanes (saturated) react by substitution, not addition, because they have no double bond to add across.
 
-## 2. Checked facts and examples
+Elimination reactions (one block)
+- [ ] E1 An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.
+- [ ] E2 Dehydration of ethanol over heated aluminium oxide: CH₃CH₂OH → CH₂=CH₂ + H₂O; water is the small molecule removed, so this is also called a dehydration.
+- [ ] E3 Propan-2-ol → propene + water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.
+- [ ] E4 A haloalkane can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl; 1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC.
+- [ ] E5 Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated.
+
+Redox reactions (one block)
+- [ ] R1 In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen; reduction is the gain of hydrogen or the loss of oxygen. (Oxidation is also loss of electrons and an increase in oxidation number; see "Oxidation and reduction".)
+- [ ] R2 Oxidation example: ethanol → ethanal (loses two H atoms) → ethanoic acid (gains one O atom), using acidified potassium permanganate.
+- [ ] R3 Reduction example: ethanal + hydrogen → ethanol, with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH.
+- [ ] R4 Combustion is a redox reaction: the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O.
+
+Acid–base reactions (one block)
+- [ ] B1 An acid–base reaction is a proton (H⁺) transfer from an acid to a base (Brønsted–Lowry).
+- [ ] B2 Carboxylic acids react with bases and carbonates: CH₃COOH + NaOH → CH₃COONa + H₂O; 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+- [ ] B3 Base hydrolysis of esters (including saponification of fats to make soap) is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.
+- [ ] B4 Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate, but it does release hydrogen with sodium: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂ (sodium ethoxide). See "Physical properties and acidity".
+
+Analysing a given reaction (Higher Level only)
+- [ ] H1 [HL] Compare the molecules before and after: two reactants → one product across a C=C is addition; one reactant → two products with a new C=C is elimination; two reactants → two products with one group swapped for another is substitution.
+- [ ] H2 [HL] Then check for redox (has the organic compound gained or lost O or H, i.e. has an oxidation number changed?) and for acid–base (has a proton moved from an acid to a base?).
+- [ ] H3 [HL] One reaction can be of more than one type: hydrogenation of ethene is addition and reduction; esterification is substitution (and condensation); base hydrolysis of an ester is substitution and acid–base.
+- [ ] H4 [HL] Bonds broken and formed in the dehydration of ethanol: a C–H bond and a C–O bond are broken (and an O–H bond forms in the water); a C=C double bond forms (a pi bond is added to the existing C–C sigma bond).
+- [ ] H5 [HL] Bonds broken and formed in the addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.
+- [ ] H6 [HL] Ethanol → ethanal is oxidation (loss of two H atoms: an O–H bond and a C–H bond are broken and a C=O pi bond forms); ethanal → ethanoic acid is oxidation (gain of an O atom: a C–H bond is replaced by C–OH).
+- [ ] H7 [HL] Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂; the reaction of sodium with ethanol is likewise redox.
+
+### 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| F5 | Copper(I) oxide, Cu₂O, is brick-red. |
-| F8 | Ethanal boils at about 21 °C; propanone at 56 °C. |
-| A2 | 0.1 M ethanoic acid has a pH of about 2.9. |
-| F1 | Fehling's A: copper(II) sulfate; Fehling's B: potassium sodium tartrate (Rochelle salt) with sodium hydroxide. |
-| F7 | Glucose and other reducing sugars also give a brick-red precipitate with Fehling's reagent (they contain an aldehyde group or form one). |
+| E2 | The ethene preparation uses heated aluminium oxide (a white solid) as catalyst. |
+| D5 | Industrial ethanol for solvents is mainly made by adding steam to ethene (with a phosphoric acid catalyst); conditions are not required. |
+| D2 | Bromine water is orange to red-brown; decolourised by alkenes. |
 
-## 3. Traps
+### 3. Traps
 
-- Tollens' reagent (the silver mirror test) is not on the specification. Don't teach it.
-- The precipitate is brick-red Cu₂O, copper(I) oxide, not copper metal and not copper(II) oxide.
-- Fehling's reagent is the oxidising agent and is reduced; the aldehyde is the reducing agent and is oxidised. Don't reverse them.
-- "No change" for the ketone means the solution stays blue; don't say "colourless".
-- The reaction with magnesium shows acidic behaviour but is itself a redox reaction (Mg is oxidised, H⁺ is reduced); the reactions with carbonate and hydroxide are acid–base reactions. See "Five types of organic reaction".
-- Acidified potassium permanganate also distinguishes aldehydes from ketones, but it also oxidises primary and secondary alcohols, so Fehling's reagent is the specification's test.
+- Reaction conditions (temperature, solvent, catalyst, pressure) are not required unless the specification names them. The named ones are hydrogen with a nickel catalyst, Fehling's solution and potassium permanganate in acidic and basic conditions; the notes may mention UV light for chlorination and concentrated sulfuric acid for esterification, but questions on conditions are not set.
+- Condensation is not one of the five types; esterification is classed as substitution.
+- Don't define addition as "adding a reagent": it is atoms adding across a multiple bond to give one product.
+- Elimination leaves a double bond; a reaction that simply removes atoms without forming a multiple bond is not elimination.
+- Alkanes do not undergo addition; alkenes do.
 
-## 4. What exams ask (topics only)
+### 4. What exams ask (topics only)
 
-- Describe how to carry out Fehling's test on ethanal; the colour change; the identity of the red precipitate.
-- Half-equation for the reduction of Cu²⁺ in Fehling's reagent; the organic product of oxidising ethanal; whether ethanal is easy or hard to oxidise.
-- Why a ketone gives no reaction.
-- The gas formed when magnesium or sodium carbonate is added to ethanoic acid, and its test; balanced equations.
+- Define addition, substitution or elimination; classify each step in a scheme as addition, substitution, elimination, oxidation or reduction.
+- Bonds broken and formed in the conversion of ethanol to ethene, or ethene to ethanol.
+- Name the reaction type for ethanol → ethene and for ethene + bromine.
+- Classify esterification and the conversion of ethanal to ethanol.
 
-## 5. Practice questions to write
+### 5. Practice questions to write
 
-1. 12 marks: "Describe how you would use Fehling's reagent to show which of two unlabelled liquids is ethanal and which is propanone. State what you would observe in each case and explain the difference." Model answer: F1, F3–F7, K2, K3.
-2. 9 marks (Higher Level): "Fehling's test is described as an oxidising test. Explain this statement, giving the half-equation for the change to the copper ions and naming the organic product formed from ethanal." Model answer: O1, O2, O3 (Cu²⁺ + e⁻ → Cu⁺; Cu₂O), O5; product ethanoic acid (as ethanoate ions).
-3. 9 marks: "Describe two tests that show that ethanoic acid is acidic. Give the observation and a balanced equation for each." Model answer: any two of A3 (with the taper test for H₂), A4 (with limewater), A5 (with the indicator change); equations as written.
+1. 10 marks: "Define (i) an addition reaction, (ii) an elimination reaction, (iii) a substitution reaction, giving an example of each with a balanced equation." Model answer: D1 + D2 (or D3–D6); E1 + E2; S1 + S2 (or S3).
+2. 9 marks (Higher Level): "Classify each reaction by type, explaining your answer: (a) CH₂=CH₂ + H₂ → CH₃CH₃; (b) CH₃COOH + CH₃OH → CH₃COOCH₃ + H₂O; (c) CH₃COOCH₃ + NaOH → CH₃COONa + CH₃OH." Model answer: (a) addition (two molecules → one across C=C) and reduction (gain of hydrogen), H3; (b) substitution, –OH of the acid replaced by –OCH₃, also condensation; (c) substitution and acid–base (base hydrolysis, B3).
+3. 6 marks (Higher Level): "List the bonds broken and the bonds formed when ethanol is converted to ethene, and name the type of reaction." Model answer: H4; elimination (dehydration), E1.
+
+## Part: Addition polymers (formerly `chem25-s10`)
+
+- **loId:** `chem25-s10` · **chapterId:** `chem25` · **syllabusRef:** 4.2.16
+- **Syllabus:** 4.2.16 "describe the structure and applications of addition polymers **and how
+  non-biodegradability is related to their chemical stability**". Learn about: "defining the
+  term polymer and examples that include, but are not limited to: poly(ethene),
+  poly(chloroethene) and poly(phenylethene)"; "applications of polymers including: fuels, food
+  production and household products". Structure and applications are for everyone; the link
+  between non-biodegradability and chemical stability is Higher Level only.
+- **Prepared by:** a higher model, 2026-10-30. Definitions, how addition polymerisation works,
+  the three named polymers (monomer, repeating unit, properties, uses), applications in the
+  three named areas, and an HL block on non-biodegradability and its consequences (cross-cutting
+  theme: Sustainability). Addition reactions are defined in "Five types of organic reaction";
+  plastic waste as an impact of hydrocarbon use is in "Hydrocarbons: sources, uses and impact"; the
+  stability of alkanes in "Groups of hydrocarbons and their properties". Refer to them; don't repeat them.
+
+### 1. Must cover
+
+Polymers and monomers (one block)
+- [ ] D1 A polymer is a very large molecule (macromolecule) made of many small units, the monomers, joined by covalent bonds in a long chain.
+- [ ] D2 A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.
+- [ ] D3 The repeating unit is the part of the polymer whose repetition makes the whole chain (apart from the ends); polymer chains contain thousands of repeating units, so their relative molecular masses are very large and vary from chain to chain.
+- [ ] D4 Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units.
+- [ ] D5 Many plastics are polymers; most addition polymers are made from monomers obtained from crude oil.
+
+Addition polymerisation (one block)
+- [ ] P1 An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.
+- [ ] P2 In each addition the pi bond of C=C breaks and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms (the backbone).
+- [ ] P3 No other product is formed, so the polymer has the same empirical formula as the monomer.
+- [ ] P4 General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.
+- [ ] P5 The polymer is saturated (no C=C left), so, unlike its monomer, it does not decolourise bromine water.
+- [ ] P6 Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end; for "two repeating units", draw four backbone carbons in a row with the side groups on alternate carbons and an open bond at each end. Don't write atoms at the ends of the open bonds.
+
+Poly(ethene) (one block)
+- [ ] E1 Monomer: ethene, CH₂=CH₂; repeating unit –CH₂–CH₂–; also called polythene or polyethylene.
+- [ ] E2 Low-density poly(ethene) (LDPE) has branched chains that can't pack closely: soft, flexible; used for plastic bags, food-wrapping film and squeezy bottles.
+- [ ] E3 High-density poly(ethene) (HDPE) has unbranched chains that pack closely: stronger, more rigid, higher melting point; used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.
+- [ ] E4 Diagram: two repeating units of poly(ethene): –CH₂–CH₂–CH₂–CH₂– with open end bonds.
+
+Poly(chloroethene), PVC (one block)
+- [ ] V1 Monomer: chloroethene (vinyl chloride), CH₂=CHCl; repeating unit –CH₂–CHCl–; also called polyvinyl chloride, PVC.
+- [ ] V2 The polar C–Cl bonds give permanent dipole–dipole attractions between the chains, so PVC is strong and rigid.
+- [ ] V3 Uses of rigid PVC: window frames, doors, gutters, drainpipes and water pipes, bank cards.
+- [ ] V4 Adding plasticisers (small molecules that let the chains slide past each other) makes flexible PVC, used for electrical cable insulation, flooring and raincoats.
+- [ ] V5 Diagram: two repeating units of PVC: –CH₂–CHCl–CH₂–CHCl– with open end bonds.
+
+Poly(phenylethene), polystyrene (one block)
+- [ ] S1 Monomer: phenylethene (styrene), C₆H₅CH=CH₂, ethene with one H replaced by a benzene ring; repeating unit –CH₂–CH(C₆H₅)–.
+- [ ] S2 The bulky benzene rings stop the chains moving past each other, so the polymer is rigid and brittle.
+- [ ] S3 Uses of solid polystyrene: yoghurt cartons, disposable cups and cutlery, CD cases, ballpoint pen cases.
+- [ ] S4 Expanded polystyrene (blown with gas into a foam) is very light and a good thermal insulator: packaging, takeaway food boxes, ceiling tiles and building insulation.
+- [ ] S5 Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms.
+
+Applications: fuels, food production, household products (one block)
+- [ ] A1 Fuels: HDPE fuel tanks in cars (light, tough, don't corrode); plastic fuel cans and pipes; waste plastics can be burned for energy or broken down by heating (pyrolysis) into liquid fuels.
+- [ ] A2 Food production: poly(ethene) film for polytunnels and greenhouses, silage wrap and mulch film on farms; PVC and poly(ethene) pipes for irrigation and water supply.
+- [ ] A3 Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so it lasts longer and less is wasted.
+- [ ] A4 Household products: buckets, bowls, bottles, bags, toys and containers (poly(ethene)); pipes, gutters and window frames (PVC); insulation and packaging (polystyrene).
+- [ ] A5 Why these polymers suit these uses: they are cheap, light, waterproof, durable, easily moulded and unreactive (they don't react with food, water, fuels or most chemicals).
+
+Non-biodegradability and chemical stability (Higher Level only)
+- [ ] N1 [HL] A substance is biodegradable if microorganisms (bacteria and fungi) can break it down into simple substances such as carbon dioxide and water; addition polymers are non-biodegradable.
+- [ ] N2 [HL] The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it: like an alkane, it has no pi bonds and no polar functional group for a reagent to attack, so it is chemically stable and unreactive (see "Groups of hydrocarbons and their properties").
+- [ ] N3 [HL] Microorganisms break down natural polymers (such as starch, proteins) with enzymes that attack specific polar linkages; addition polymers have no such linkages, so microorganisms have no enzymes able to break them.
+- [ ] N4 [HL] The same stability that makes addition polymers useful (durable, waterproof, resistant to chemicals and decay) means they persist in the environment for hundreds of years.
+- [ ] N5 [HL] Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, filling of landfill sites; sunlight and wear break plastics into small fragments (microplastics) rather than breaking them down chemically.
+- [ ] N6 [HL] Responses: reduce use and reuse; recycle (plastics are sorted by resin identification code, e.g. 2 HDPE, 3 PVC, 4 LDPE, 6 PS); incinerate for energy (but this releases CO₂, and burning PVC releases hydrogen chloride); develop biodegradable polymers with ester linkages that microorganisms can hydrolyse, e.g. poly(lactic acid), PLA, made from plant starch (it breaks down in industrial composting).
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| D4 | Mr of ethene = 28; chloroethene = 62.5; phenylethene = 104. |
+| N6 | Resin identification codes: 1 PET, 2 HDPE, 3 PVC, 4 LDPE, 5 PP, 6 PS, 7 other. |
+| N6 | PLA (poly(lactic acid)) is a biodegradable polyester made from plant sugars or starch (e.g. maize); it is a condensation polymer, not an addition polymer, and is biodegradable under industrial composting conditions. |
+
+### 3. Traps
+
+- The polymer has no C=C: the double bond of the monomer becomes a single bond in the chain. Don't draw double bonds in the repeating unit.
+- Side groups (Cl, C₆H₅) go on alternate carbon atoms of the chain.
+- Poly(chloroethene) is PVC; poly(phenylethene) is polystyrene; don't swap their monomers.
+- Condensation polymers (nylon, polyesters) are not required; mention PLA only as a biodegradable alternative.
+- Non-biodegradability comes from the strong, non-polar C–C and C–H bonds and the absence of functional groups, not from the polymer being "too big".
+
+### 4. What exams ask (topics only)
+
+- Define polymer, monomer and repeating unit; name the polymer formed from ethene.
+- Draw two repeating units of poly(ethene) or PVC.
+- Which compound in a scheme can be polymerised, and a use of the polymer.
+- Properties and uses of PVC and polystyrene, related to their structure.
+- Why addition polymers are non-biodegradable, and the consequences (Higher Level).
+
+### 5. Practice questions to write
+
+1. 9 marks: "Define the term polymer. Name the monomer of PVC, draw two repeating units of PVC, and give two uses of PVC." Model answer: D1; V1; V5 drawing (P6); two of V3–V4.
+2. 9 marks: "Compare poly(ethene) and poly(phenylethene) under the headings: monomer, structure, one property, two uses." Model answer: E1–E3; S1–S4.
+3. 9 marks (Higher Level): "Explain why addition polymers such as poly(ethene) are non-biodegradable, and outline one environmental consequence and one possible response." Model answer: N1, N2, N3, N4; one of N5; one of N6.

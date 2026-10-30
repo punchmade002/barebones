@@ -1,6 +1,7 @@
 # Package: chem26-s3 — Limiting reagents
 
 - **loId:** `chem26-s3` · **chapterId:** `chem26` · **syllabusRef:** 1.4.7
+
 - **Syllabus:** 1.4.7 "use the concept of a mole to … analyse and solve quantitative problems
   based on balanced equations". Learn about: "… **limiting reagents and reagents in excess**".
   The words "limiting reagents and reagents in excess" are bold in the specification PDF
@@ -12,7 +13,7 @@
   the excess left over, and why excess reagents are used. The general method is in
   "Quantitative problems from balanced equations" and yield in "Theoretical, actual and
   percentage yield"; don't repeat them. The consequences of limiting or excess NaOH in soap
-  making are in "Investigation: making soap". Use Ar: H 1, C 12, O 16, Mg 24, Al 27, S 32,
+  making are in "Surfactants and soap". Use Ar: H 1, C 12, O 16, Mg 24, Al 27, S 32,
   Cl 35.5, K 39, Mn 55, Fe 56; molar volume 22.4 L mol⁻¹ at STP.
 
 ## 1. Must cover
@@ -72,8 +73,8 @@ Why a reagent is used in excess (Higher Level only; one block)
 - [ ] X1 [HL] Using one reagent in excess makes sure that all of the other, usually more expensive or more important, reagent reacts, so none of it is wasted and the yield based on it is as high as possible.
 - [ ] X2 [HL] The cheaper or more easily removed reagent is chosen to be in excess, e.g. excess air (oxygen) in combustion so that the fuel burns completely to carbon dioxide rather than toxic carbon monoxide.
 - [ ] X3 [HL] For a reversible reaction, an excess of one reactant shifts the equilibrium to the right (Le Châtelier's principle) and increases the yield, e.g. excess ethanol (or ethanoic acid) in making ethyl ethanoate.
-- [ ] X4 [HL] In analysis, the reagent is added in excess so the substance being measured reacts completely, e.g. excess silver nitrate in gravimetric analysis, or the excess acid in a back titration (see "Worked acid–base volumetric problems").
-- [ ] X5 [HL] Drawback: the excess reagent is left in the product mixture and must be removed (e.g. excess KMnO₄ removed in the benzoic acid preparation; excess NaOH would leave a soap caustic, see "Investigation: making soap"), and it is wasted unless recycled.
+- [ ] X4 [HL] In analysis, the reagent is added in excess so the substance being measured reacts completely, e.g. excess silver nitrate in gravimetric analysis, or the excess acid in a back titration (see "Acid–base volumetric problems").
+- [ ] X5 [HL] Drawback: the excess reagent is left in the product mixture and must be removed (e.g. excess KMnO₄ removed in the benzoic acid preparation; excess NaOH would leave a soap caustic, see "Surfactants and soap"), and it is wasted unless recycled.
 
 ## 2. Checked facts and examples
 

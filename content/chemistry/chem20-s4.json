@@ -1,141 +1,180 @@
 {
   "loId": "chem20-s4",
   "chapterId": "chem20",
-  "subsection": "4. Treating drinking water",
-  "syllabusRef": "4.3.4",
+  "subsection": "4. The lithium-ion cell",
+  "syllabusRef": "4.3.5",
   "notes": [
     {
-      "h": "Overview of water treatment",
+      "h": "Structure of a lithium-ion cell",
       "points": [
-        "Drinking water must be free of harmful microorganisms and chemicals, and must be clear, colourless and odourless.",
-        "In Ireland, public water supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive.",
-        "The usual order of treatment is screening, flocculation (coagulation), sedimentation, filtration (sand and, in some plants, microfiltration), disinfection (chlorination and/or UV), fluoridation and pH adjustment.",
-        "The exact steps depend on the source water.",
-        "The first steps remove suspended solids by physical means; the later steps kill microorganisms and adjust the chemistry of the water.",
-        "Diagram: a flow diagram of a treatment plant showing the intake with screen, flocculation tank (aluminium sulfate added), sedimentation tank (sludge removed), sand filter beds, chlorine and/or UV unit, fluoride and pH adjustment, storage reservoir and distribution pipes."
+        "A lithium-ion cell is a rechargeable (secondary) cell; see “Primary and secondary cells”.",
+        "The negative electrode is graphite, in which lithium atoms are stored between layers of carbon atoms; when fully charged it is written LiC₆.",
+        "The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂; other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄.",
+        "The electrolyte is a lithium salt, e.g. LiPF₆, dissolved in an organic (non-aqueous) solvent, which lets Li⁺ ions move between the electrodes.",
+        "Water cannot be used as the solvent because lithium reacts with it.",
+        "Electrons flow only through the external circuit; in the electrolyte the charge is carried by ions.",
+        "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell.",
+        "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (intercalation), so the cell can be charged and discharged many times.",
+        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right), each on a current collector, with electrolyte between them and a separator in the middle, and an external circuit with a device; arrows show Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (both towards the positive electrode) and charging (both towards the graphite)."
       ]
     },
     {
-      "h": "Screening",
+      "h": "Discharging: a galvanic cell",
       "points": [
-        "Water from a river or lake passes through metal screens (mesh) that remove large floating objects such as branches, leaves, plastic and fish.",
-        "No chemicals are added at the screening stage."
+        "When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction converts chemical energy into electrical energy (see “The galvanic cell”).",
+        "At the negative electrode, which is the anode during discharge, lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form, Li → Li⁺ + e⁻).",
+        "The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.",
+        "The Li⁺ ions move through the electrolyte and separator to the positive electrode.",
+        "At the positive electrode, which is the cathode during discharge, the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.",
+        "Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂.",
+        "A typical LiCoO₂–graphite cell gives about 3.6–3.7 V; LiFePO₄ cells give about 3.2 V."
       ]
     },
     {
-      "h": "Flocculation",
+      "h": "Recharging: an electrolytic cell",
       "points": [
-        "Very small suspended particles (clay, silt and organic matter) don't settle because they are tiny and carry like, usually negative, charges that make them repel each other.",
-        "A flocculating agent (coagulant), usually aluminium sulfate, Al₂(SO₄)₃, is added and stirred in; iron salts and polyelectrolytes are also used.",
-        "The positive Al³⁺ ions neutralise the charges on the particles, so the particles clump together.",
-        "Aluminium hydroxide also forms as a sticky, jelly-like precipitate that traps the particles: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).",
-        "The particles join into larger clumps called flocs, which are heavy enough to settle."
+        "When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy (see “The electrolytic cell”).",
+        "At the metal oxide electrode, which is now the anode, oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.",
+        "The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.",
+        "At the graphite electrode, now the cathode, Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.",
+        "Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂.",
+        "Charging stores energy in the changed electrodes, not as stored electrons; the charge stays balanced throughout.",
+        "The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; it remains the negative terminal throughout."
       ]
     },
     {
-      "h": "Sedimentation",
+      "h": "Why lithium",
       "points": [
-        "Water flows slowly through large settling tanks, where the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter.",
-        "The sludge that collects at the bottom is removed and disposed of, and the clearer water flows off the top."
+        "Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries are light.",
+        "Lithium is at the top of the electrochemical series, with a standard electrode potential of −3.04 V (see “The electrochemical series and displacement”).",
+        "Lithium loses electrons very easily, so lithium cells have a high voltage.",
+        "Together these properties give a high energy density, meaning a large amount of energy stored per kilogram, which suits portable devices and vehicles.",
+        "Lithium-ion cells hold their charge well when not in use and have no memory effect.",
+        "The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry.",
+        "Sony sold the first commercial lithium-ion batteries in 1991."
       ]
     },
     {
-      "h": "Filtration",
+      "h": "Life cycle: mining",
       "points": [
-        "Sand filtration: water passes down through beds of sand on a layer of gravel, and the remaining small particles and flocs are trapped in the spaces between the sand grains.",
-        "The filters are cleaned regularly by backwashing, which pumps clean water up through the bed.",
-        "Microfiltration forces water through membranes with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites such as Cryptosporidium.",
-        "Microfiltration does not remove dissolved substances or most viruses."
+        "A lithium-ion battery needs lithium and, depending on its type, cobalt, nickel, manganese, graphite, copper and aluminium.",
+        "Lithium is extracted from hard rock, the mineral spodumene, which is mined mainly in Australia.",
+        "Lithium is also extracted from salty brines pumped from under salt flats in South America, the “lithium triangle” of Chile, Argentina and Bolivia, where the water is evaporated in large ponds.",
+        "Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife.",
+        "Hard-rock mining needs energy and produces waste rock, dust and emissions.",
+        "About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children.",
+        "This has led to responsible-sourcing schemes and to cobalt-free battery types, e.g. lithium iron phosphate.",
+        "Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint before it is used."
       ]
     },
     {
-      "h": "Chlorination",
+      "h": "Life cycle: usage and applications",
       "points": [
-        "Chlorination kills disease-causing microorganisms (bacteria and viruses) so that the water is safe to drink.",
-        "Chlorine gas or sodium hypochlorite (NaOCl) is added.",
-        "Chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).",
-        "Enough chlorine is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹), which keeps the water disinfected as it travels through the pipes to the tap.",
-        "Some organisms, especially Cryptosporidium, resist chlorine at the levels used, so another barrier (good filtration or UV) is needed.",
-        "Too much chlorine gives an unpleasant taste and smell.",
-        "Chlorine reacts with organic matter in the water to form by-products such as trihalomethanes, whose levels are limited by law.",
-        "Removing organic matter first, by flocculation and filtration, keeps trihalomethane levels low."
+        "Applications include mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.",
+        "Electric vehicles produce no exhaust emissions, which improves air quality in towns.",
+        "Over their lifetime, electric vehicles cause lower greenhouse gas emissions than petrol or diesel cars, especially when charged from renewable electricity.",
+        "Battery storage helps renewable electricity replace fossil fuels by storing energy when the wind blows or the sun shines.",
+        "The capacity falls gradually with each charge–discharge cycle and with age, because of side reactions at the electrodes, so batteries eventually need replacing.",
+        "Avoiding very high temperatures and keeping the charge between full and empty extends battery life.",
+        "If a cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably, and the flammable organic electrolyte can catch fire or explode.",
+        "Batteries include a battery management system to prevent overcharging and overheating."
       ]
     },
     {
-      "h": "UV treatment",
+      "h": "Life cycle: disposal and recycling",
       "points": [
-        "The water flows past lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so that they can't reproduce.",
-        "UV treatment is effective against Cryptosporidium.",
-        "UV adds no chemicals and does not change the taste or smell of the water.",
-        "UV leaves no residual disinfectant in the pipes, so chlorine is still added afterwards.",
-        "The water must be clear first, because suspended particles can shield microorganisms from the UV; the lamps use electricity.",
-        "An outbreak of Cryptosporidium infection in Galway in 2007, from the city's water supply, led to UV treatment being installed at the treatment plant there."
+        "Used lithium-ion batteries must never go in household bins, because crushed or punctured batteries cause fires in bin lorries and waste facilities.",
+        "Used batteries contain toxic and valuable materials.",
+        "In Ireland, shops that sell batteries take back used batteries free of charge, and used batteries can be left at recycling centres.",
+        "Vehicle batteries are returned through the dealers.",
+        "Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution.",
+        "Recycling is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled.",
+        "The EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.",
+        "Used vehicle batteries with reduced capacity can have a “second life” as stationary storage before they are recycled."
       ]
     },
     {
-      "h": "Fluoridation",
+      "h": "Recovering metals from used batteries",
       "points": [
-        "A fluoride compound is added to public water supplies: usually hexafluorosilicic acid (H₂SiF₆) in Ireland, and sodium fluoride (NaF) elsewhere.",
-        "Fluoride helps prevent tooth decay: it is taken into tooth enamel, converting some of the hydroxyapatite into fluorapatite.",
-        "Fluorapatite is more resistant to attack by acids made by bacteria than hydroxyapatite is.",
-        "Ireland has fluoridated public water supplies since the 1960s, under the Health (Fluoridation of Water Supplies) Act 1960.",
-        "The fluoride level is set at 0.6–0.8 mg L⁻¹ (p.p.m.), with a legal maximum of 0.8 mg L⁻¹ (since 2007).",
-        "Too much fluoride causes dental fluorosis, which shows as white flecks or brown staining of the teeth.",
-        "Fluoridation is debated, and most European countries do not fluoridate water."
+        "Step 1: The batteries are collected and discharged.",
+        "Step 2: The batteries are dismantled and shredded to a powder called “black mass”.",
+        "Step 3: Metals are recovered from the black mass.",
+        "Pyrometallurgy is smelting at high temperature; it recovers cobalt, nickel and copper, but uses a lot of energy and loses most of the lithium.",
+        "Hydrometallurgy dissolves the metals in acid and separates them by precipitation; it recovers more, including lithium."
       ]
     },
     {
-      "h": "pH adjustment",
+      "h": "The life cycle as a whole",
       "points": [
-        "The pH of drinking water must be kept within legal limits of 6.5–9.5, usually close to neutral or slightly alkaline.",
-        "If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH.",
-        "If the water is too alkaline, e.g. after lime has been added in treatment, sulfuric acid or carbon dioxide is added to lower the pH.",
-        "Acidic water corrodes metal pipes and dissolves lead and copper from household plumbing, which is a health risk.",
-        "Very alkaline water tastes bitter and leaves deposits.",
-        "The pH also affects how well flocculation and chlorination work."
-      ]
-    },
-    {
-      "h": "The impact of providing clean water",
-      "points": [
-        "Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.",
-        "In 1854 John Snow traced a cholera outbreak in London to a contaminated water pump in Broad Street, an early piece of evidence that disease spreads through water.",
-        "Globally, about 2.2 billion people still lacked safely managed drinking water in 2022 (WHO/UNICEF).",
-        "Contaminated water and poor sanitation cause many deaths from diarrhoeal disease, mostly of young children.",
-        "Clean, safe water and sanitation for all is UN Sustainable Development Goal 6.",
-        "Clean water brings benefits beyond health: less time is spent collecting water, often by women and girls; more children attend school; workers are healthier; and economies develop.",
-        "Costs: treatment uses energy and chemicals and produces sludge (see “Water contamination”), so treated water should not be wasted."
+        "Lithium-ion batteries help cut fossil-fuel use, but each stage of the life cycle has environmental and social costs; longer battery life, responsible sourcing and recycling reduce those costs but do not remove them."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Screening", "definition": "The first stage of water treatment, in which metal screens remove large floating objects." },
-    { "term": "Flocculation", "definition": "The clumping of very small suspended particles into larger flocs, caused by adding a flocculating agent." },
-    { "term": "Flocculating agent (coagulant)", "definition": "A chemical, usually aluminium sulfate, added to water to make suspended particles clump together." },
-    { "term": "Sedimentation", "definition": "The settling of heavier flocs and particles to the bottom of a tank under gravity." },
-    { "term": "Backwashing", "definition": "Cleaning a filter bed by pumping clean water up through it." },
-    { "term": "Microfiltration", "definition": "Forcing water through membranes with very small pores to remove fine particles, bacteria and protozoan parasites." },
-    { "term": "Hypochlorous acid (HOCl)", "definition": "The main disinfectant formed when chlorine reacts with water." },
-    { "term": "Residual chlorine", "definition": "A small amount of free chlorine left in the water so that it stays disinfected in the pipes." },
-    { "term": "Trihalomethanes", "definition": "By-products formed when chlorine reacts with organic matter in water, whose levels are limited by law." },
-    { "term": "Fluorapatite", "definition": "A form of tooth enamel made when fluoride converts hydroxyapatite; it resists attack by acids." },
-    { "term": "Dental fluorosis", "definition": "White flecks or brown staining of the teeth caused by too much fluoride." }
+    {
+      "term": "Lithium-ion cell",
+      "definition": "A rechargeable cell in which Li⁺ ions move between a graphite electrode and a lithium metal oxide electrode."
+    },
+    {
+      "term": "Intercalation",
+      "definition": "The movement of Li⁺ ions into and out of the layered structure of an electrode without destroying it."
+    },
+    {
+      "term": "Separator",
+      "definition": "A porous plastic layer between the electrodes that lets Li⁺ ions pass but stops the electrodes touching."
+    },
+    {
+      "term": "Anode",
+      "definition": "The electrode where oxidation happens; in a cell it is the negative electrode on discharge and the positive electrode on charge."
+    },
+    {
+      "term": "Cathode",
+      "definition": "The electrode where reduction happens; on discharge it is the positive electrode and on charge the negative electrode."
+    },
+    {
+      "term": "Energy density",
+      "definition": "The amount of energy stored per kilogram of a battery."
+    },
+    {
+      "term": "Thermal runaway",
+      "definition": "The uncontrolled heating of a damaged or overcharged cell, which can cause its flammable electrolyte to catch fire."
+    },
+    {
+      "term": "Battery management system",
+      "definition": "Electronics that prevent a battery from being overcharged or overheated."
+    },
+    {
+      "term": "Black mass",
+      "definition": "The powder produced by shredding used batteries, from which metals are recovered."
+    },
+    {
+      "term": "Pyrometallurgy",
+      "definition": "Recovery of metals from waste by smelting at high temperature."
+    },
+    {
+      "term": "Hydrometallurgy",
+      "definition": "Recovery of metals from waste by dissolving them in acid and separating them by precipitation."
+    },
+    {
+      "term": "Lithium triangle",
+      "definition": "The salt-flat region of Chile, Argentina and Bolivia, where lithium is extracted from brines."
+    }
   ],
   "questions": [
     {
       "marks": 12,
-      "prompt": "Describe four stages in the treatment of drinking water, naming any chemical added and stating the purpose of each stage.",
-      "model": "Flocculation: aluminium sulfate, Al₂(SO₄)₃, is added and stirred in. Its positive Al³⁺ ions neutralise the charges on very small suspended particles, so they clump together into flocs. Sedimentation: the water flows slowly through settling tanks, where the heavier flocs sink to the bottom under gravity; the sludge is removed and the clearer water flows off the top. Filtration: the water passes down through beds of sand on gravel, which trap the remaining small particles and flocs between the sand grains. Chlorination: chlorine is added and reacts with water to form hypochlorous acid, Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq), which kills disease-causing microorganisms, and a small residual is left to keep the water disinfected in the pipes."
+      "prompt": "Describe how a lithium-ion cell works (i) when it is powering a mobile phone, (ii) when it is being recharged. Use equations for the electrode reactions and state which kind of cell it acts as in each case.",
+      "model": "(i) When powering a mobile phone the cell acts as a galvanic cell, in which a spontaneous redox reaction converts chemical energy into electrical energy. The graphite negative electrode is the anode and lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻. The electrons flow through the external circuit to the phone, and the Li⁺ ions move through the electrolyte and separator to the positive electrode. At the positive electrode, which is the cathode, the metal oxide is reduced: CoO₂ + Li⁺ + e⁻ → LiCoO₂. Overall, LiC₆ + CoO₂ → C₆ + LiCoO₂. (ii) When recharging, the cell acts as an electrolytic cell, in which an external electrical supply drives the non-spontaneous reverse reaction and converts electrical energy into chemical energy. At the metal oxide electrode, which is now the anode, oxidation takes place: LiCoO₂ → CoO₂ + Li⁺ + e⁻. The charger drives the electrons through the external circuit to the graphite, and the Li⁺ ions move back through the electrolyte. At the graphite electrode, now the cathode, reduction takes place: C₆ + Li⁺ + e⁻ → LiC₆. Overall, C₆ + LiCoO₂ → LiC₆ + CoO₂."
     },
     {
-      "marks": 9,
-      "prompt": "Compare chlorination and UV treatment as methods of disinfecting drinking water.",
-      "model": "Both methods kill disease-causing microorganisms. Chlorination adds chlorine, which forms hypochlorous acid, Cl₂ + H₂O ⇌ HOCl + HCl, that kills microorganisms; it leaves a residual that keeps the water disinfected in the pipes to the tap. Its drawbacks are that some organisms, especially Cryptosporidium, resist chlorine at the levels used, too much gives an unpleasant taste and smell, and it reacts with organic matter to form trihalomethanes. UV treatment passes the water under lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so that they can't reproduce. It adds no chemicals, does not change taste or smell, and is effective against Cryptosporidium. However, it leaves no residual, so chlorine is still needed for the pipes, and the water must be clear first because particles can shield microorganisms from the UV."
+      "marks": 12,
+      "prompt": "Discuss the life-cycle of a lithium-ion battery used in an electric car, from mining to recycling.",
+      "model": "Mining: lithium is extracted from hard rock, mainly spodumene mined in Australia, or from brines pumped from under salt flats in the lithium triangle of Chile, Argentina and Bolivia. Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife, and hard-rock mining needs energy and produces waste rock, dust and emissions. About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children; responsible sourcing and cobalt-free types such as lithium iron phosphate are responses. Manufacturing uses a lot of energy, so the battery has a large carbon footprint before use. Use: an electric car produces no exhaust emissions and, over its lifetime, causes lower greenhouse gas emissions than a petrol or diesel car, especially when charged from renewable electricity. Its capacity falls with each charge–discharge cycle and with age, and keeping the battery away from very high temperatures extends its life. Disposal and recycling: batteries must not go in household bins, because damaged batteries cause fires; they should be returned to shops or dealers. The batteries are discharged, dismantled and shredded to black mass, and metals are recovered by pyrometallurgy, which uses much energy and loses most of the lithium, or by hydrometallurgy, which recovers more, including lithium. Recycling reduces mining, landfill and pollution, but it is difficult, costly and energy-demanding. Overall, the battery helps cut fossil-fuel use, but each stage has environmental and social costs that better practice reduces but does not remove."
     },
     {
       "marks": 6,
-      "prompt": "Appreciate the impact of providing clean water: give three benefits of a safe public water supply.",
-      "model": "Any three of the following. A safe public water supply protects people from water-borne diseases such as cholera, typhoid and dysentery, which killed huge numbers of people in cities before treatment and disinfection. It reduces the deaths from diarrhoeal disease, mostly of young children, that contaminated water and poor sanitation cause. It saves time spent collecting water, often by women and girls, so more children can attend school and workers are healthier, which helps economic development."
+      "prompt": "Explain why lithium is used in rechargeable batteries for mobile devices and electric vehicles.",
+      "model": "Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries made from it are light. Lithium is at the top of the electrochemical series, with a standard electrode potential of −3.04 V, so it loses electrons very easily and lithium cells have a high voltage. Together these give a high energy density, meaning a large amount of energy stored per kilogram, which is ideal for portable devices and vehicles."
     }
   ]
 }

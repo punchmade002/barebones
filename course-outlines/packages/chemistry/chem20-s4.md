@@ -1,107 +1,106 @@
-# Package: chem20-s4 — Treating drinking water
+# Package: chem20-s4 — The lithium-ion cell
 
-- **loId:** `chem20-s4` · **chapterId:** `chem20` · **syllabusRef:** 4.3.4
-- **Syllabus:** 4.3.4 "describe the steps necessary in the treatment of drinking water and
-  appreciate the impact of providing clean water for human use". Learn about: "water
-  treatment: sedimentation, flocculation, filtration (sand and micro), chlorination,
-  fluoridation, pH adjustment, UV treatment". Normal type.
-- **Prepared by:** a higher model, 2026-10-30. The treatment stages in order (screening
-  included as the usual first step), one block each with the chemical used and its purpose,
-  then the impact of clean water. Contaminants and BOD are in "Water contamination"; the energy
-  and environmental cost of processing water is there too (refer, don't repeat). Water hardness
-  is in "Investigation: identifying ions in salts and solutions".
+- **loId:** `chem20-s4` · **chapterId:** `chem20` · **syllabusRef:** 4.3.5
+
+- **Syllabus:** 4.3.5 "describe how a simple lithium ion cell works and discuss its
+  life-cycle". Learn about: "a lithium ion cell: when discharging acts as a galvanic cell and
+  when recharging acts as an electrolytic cell; the lithium ion cell life-cycle which includes
+  mining, usage and applications, disposal and recycling". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. Structure, discharge and recharge (with
+  simplified electrode equations), why lithium, then the life-cycle stage by stage. Galvanic and
+  electrolytic cells are explained in "Galvanic and electrolytic cells" and "Galvanic and electrolytic cells";
+  secondary cells in "Galvanic and electrolytic cells"; the electrochemical series in "The
+  electrochemical series and displacement"; graphite's structure in "Allotropes of carbon and their uses".
+  Point to them; don't re-teach them. Rechargeable batteries as a research topic are in
+  "Fuel cells and sustainability".
 
 ## 1. Must cover
 
-Overview (one block)
-- [ ] O1 Drinking water must be free of harmful microorganisms and chemicals, and clear, colourless and odourless; in Ireland, public supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive.
-- [ ] O2 The usual order: screening → flocculation (coagulation) → sedimentation → filtration (sand, and in some plants microfiltration) → disinfection (chlorination and/or UV) → fluoridation → pH adjustment; the exact steps depend on the source water.
-- [ ] O3 The first steps remove suspended solids (physical); the later steps kill microorganisms and adjust the chemistry of the water.
-- [ ] O4 Diagram: a flow diagram of a treatment plant: intake with screen → flocculation tank (aluminium sulfate added) → sedimentation tank (sludge removed) → sand filter beds → chlorine and/or UV unit → fluoride and pH adjustment → storage reservoir → distribution pipes.
+Structure of a simple lithium-ion cell (one block)
+- [ ] S1 A lithium-ion cell is a rechargeable (secondary) cell (see "Galvanic and electrolytic cells").
+- [ ] S2 The negative electrode is graphite; lithium atoms are stored between its layers of carbon atoms (written LiC₆ when fully charged).
+- [ ] S3 The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂ (other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄).
+- [ ] S4 The electrolyte is a lithium salt (e.g. LiPF₆) dissolved in an organic (non-aqueous) solvent; it lets Li⁺ ions move between the electrodes; water can't be used because lithium reacts with it.
+- [ ] S5 A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching (which would short-circuit the cell).
+- [ ] S6 Li⁺ ions move in and out of the layered structures of both electrodes without the structures being destroyed (intercalation), so the cell can be charged and discharged many times.
+- [ ] S7 Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) on current collectors, electrolyte between them with a separator in the middle, external circuit with a device; arrows for Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (Li⁺ and electrons both towards the positive electrode) and charging (both towards the graphite).
 
-Screening (one block)
-- [ ] K1 Water from a river or lake passes through metal screens (mesh) that remove large floating objects such as branches, leaves, plastic and fish; no chemicals are added.
+Discharging: a galvanic cell (one block)
+- [ ] D1 When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction converts chemical energy into electrical energy (see "Galvanic and electrolytic cells").
+- [ ] D2 At the negative electrode (the anode during discharge), lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form Li → Li⁺ + e⁻).
+- [ ] D3 The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.
+- [ ] D4 The Li⁺ ions move through the electrolyte and separator to the positive electrode.
+- [ ] D5 At the positive electrode (the cathode during discharge), the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.
+- [ ] D6 Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂; a typical cell gives about 3.6–3.7 V.
 
-Flocculation (one block)
-- [ ] L1 Very small suspended particles (clay, silt, organic matter) don't settle because they are tiny and carry like (usually negative) charges that make them repel each other.
-- [ ] L2 A flocculating agent (coagulant), usually aluminium sulfate, Al₂(SO₄)₃ (iron salts and polyelectrolytes are also used), is added and stirred in.
-- [ ] L3 The positive Al³⁺ ions neutralise the charges on the particles, so they clump together; aluminium hydroxide also forms as a sticky, jelly-like precipitate that traps them: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).
-- [ ] L4 The particles join into larger clumps called flocs, which are heavy enough to settle.
+Recharging: an electrolytic cell (one block)
+- [ ] R1 When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy (see "Galvanic and electrolytic cells").
+- [ ] R2 At the metal oxide electrode (now the anode), oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.
+- [ ] R3 The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.
+- [ ] R4 At the graphite electrode (now the cathode), Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.
+- [ ] R5 Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂; charging stores energy in the changed electrodes, not as "stored electrons": the charge stays balanced throughout.
+- [ ] R6 The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; the graphite stays the negative terminal throughout.
 
-Sedimentation (one block)
-- [ ] E1 The water flows slowly through large settling tanks; the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter.
-- [ ] E2 The sludge that collects at the bottom is removed and disposed of; the clearer water flows off the top.
+Why lithium (one block)
+- [ ] W1 Lithium is the least dense metal (0.53 g cm⁻³), so batteries are light.
+- [ ] W2 Lithium is at the top of the electrochemical series (standard electrode potential −3.04 V), losing electrons very easily, so lithium cells have a high voltage (see "Balancing redox equations and the electrochemical series").
+- [ ] W3 Together these give a high energy stored per kilogram (high energy density), ideal for portable devices and vehicles; the cells also hold their charge well when not in use and have no "memory effect".
+- [ ] W4 The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry; Sony sold the first commercial lithium-ion batteries in 1991.
 
-Filtration (one block)
-- [ ] T1 Sand filtration: the water passes down through beds of sand on a layer of gravel; the remaining small particles and flocs are trapped in the spaces between the sand grains.
-- [ ] T2 The filters are cleaned regularly by backwashing (pumping clean water up through the bed).
-- [ ] T3 Microfiltration: water is forced through membranes with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites such as Cryptosporidium, but not dissolved substances or most viruses.
+Life-cycle: mining (one block)
+- [ ] M1 A lithium-ion battery needs lithium, and, depending on type, cobalt, nickel, manganese, graphite, copper and aluminium.
+- [ ] M2 Lithium is extracted from hard rock (the mineral spodumene, mined mainly in Australia) or from salty brines pumped from under salt flats in South America (Chile, Argentina and Bolivia, the "lithium triangle"), where the water is evaporated in large ponds.
+- [ ] M3 Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife; hard-rock mining needs energy and produces waste rock, dust and emissions.
+- [ ] M4 About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children; this has led to responsible-sourcing schemes and to cobalt-free battery types (e.g. lithium iron phosphate).
+- [ ] M5 Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint before it is used.
 
-Chlorination (one block)
-- [ ] C1 Purpose: to kill disease-causing microorganisms (bacteria and viruses) so the water is safe to drink.
-- [ ] C2 Chlorine gas or sodium hypochlorite (NaOCl) is added; chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).
-- [ ] C3 Enough is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹), which keeps the water disinfected as it travels through the pipes to the tap.
-- [ ] C4 Some organisms, especially Cryptosporidium, are resistant to chlorine at the levels used, so another barrier (good filtration or UV) is needed.
-- [ ] C5 Too much chlorine gives an unpleasant taste and smell; chlorine also reacts with organic matter in the water to form by-products such as trihalomethanes, whose levels are limited by law; removing organic matter first (flocculation and filtration) keeps them low.
+Life-cycle: usage and applications (one block)
+- [ ] U1 Applications: mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.
+- [ ] U2 Sustainability benefit: electric vehicles produce no exhaust emissions, improving air quality in towns; over their lifetime they cause lower greenhouse gas emissions than petrol or diesel cars, especially when charged from renewable electricity.
+- [ ] U3 Battery storage helps renewable electricity replace fossil fuels by storing energy when the wind blows or the sun shines.
+- [ ] U4 The capacity falls gradually with each charge–discharge cycle and with age (side reactions at the electrodes), so batteries eventually need replacing; avoiding very high temperatures and keeping the charge between full and empty extends their life.
+- [ ] U5 Hazard: if the cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably and the flammable organic electrolyte can catch fire or explode; batteries include a battery management system to prevent overcharging and overheating.
 
-UV treatment (one block)
-- [ ] V1 The water flows past lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so they can't reproduce; it is effective against Cryptosporidium.
-- [ ] V2 It adds no chemicals and doesn't change taste or smell, but it leaves no residual disinfectant in the pipes, so chlorine is still added afterwards.
-- [ ] V3 The water must be clear first: suspended particles can shield microorganisms from the UV; the lamps use electricity.
-- [ ] V4 An outbreak of Cryptosporidium infection in Galway in 2007, from the city's water supply, led to UV treatment being installed at the treatment plant there.
-
-Fluoridation (one block)
-- [ ] F1 A fluoride compound, usually hexafluorosilicic acid (H₂SiF₆) in Ireland (sodium fluoride, NaF, elsewhere), is added to public water supplies.
-- [ ] F2 Purpose: fluoride helps prevent tooth decay; it is taken into tooth enamel, converting some of the hydroxyapatite into fluorapatite, which is more resistant to attack by acids from bacteria.
-- [ ] F3 Ireland has fluoridated public water supplies since the 1960s, under the Health (Fluoridation of Water Supplies) Act 1960; the level is now set at 0.6–0.8 mg L⁻¹ (p.p.m.) with a legal maximum of 0.8 mg L⁻¹.
-- [ ] F4 Too much fluoride causes dental fluorosis (white flecks or brown staining of the teeth); fluoridation is debated, and most European countries do not fluoridate water.
-
-pH adjustment (one block)
-- [ ] P1 The pH of drinking water must be kept within legal limits (6.5–9.5), usually close to neutral or slightly alkaline.
-- [ ] P2 If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH.
-- [ ] P3 If the water is too alkaline (e.g. after adding lime in treatment), sulfuric acid or carbon dioxide is added to lower the pH.
-- [ ] P4 Why: acidic water corrodes metal pipes and dissolves lead and copper from household plumbing (a health risk); very alkaline water tastes bitter and leaves deposits; the pH also affects how well flocculation and chlorination work.
-
-The impact of providing clean water (one block)
-- [ ] I1 Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.
-- [ ] I2 In 1854 John Snow traced a cholera outbreak in London to a contaminated water pump in Broad Street, an early piece of evidence that disease spreads through water.
-- [ ] I3 Globally, about 2.2 billion people still lacked safely managed drinking water in 2022 (WHO/UNICEF); contaminated water and poor sanitation cause many deaths from diarrhoeal disease, mostly of young children.
-- [ ] I4 Clean, safe water and sanitation for all is UN Sustainable Development Goal 6.
-- [ ] I5 Benefits beyond health: less time spent collecting water (often by women and girls), more children at school, healthier workers and economic development.
-- [ ] I6 Costs: treatment uses energy and chemicals and produces sludge (see "Water contamination"); treated water should not be wasted.
+Life-cycle: disposal and recycling (one block)
+- [ ] Y1 Used lithium-ion batteries must never go in household bins: crushed or punctured batteries cause fires in bin lorries and waste facilities; they also contain toxic and valuable materials.
+- [ ] Y2 In Ireland, shops that sell batteries take back used batteries free of charge, and they can be left at recycling centres; vehicle batteries are returned through the dealers.
+- [ ] Y3 Recycling steps: the batteries are collected and discharged, dismantled, and shredded to a powder called "black mass", from which metals are recovered.
+- [ ] Y4 Recovery methods: pyrometallurgy (smelting at high temperature; recovers cobalt, nickel and copper but uses a lot of energy and loses most of the lithium) and hydrometallurgy (dissolving the metals in acid and separating them by precipitation; recovers more, including lithium).
+- [ ] Y5 Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution, but it is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled; the EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.
+- [ ] Y6 Before recycling, used vehicle batteries with reduced capacity can have a "second life" as stationary storage, extending their use.
+- [ ] Y7 Conclusion of a life-cycle view: lithium-ion batteries help cut fossil-fuel use, but each stage has environmental and social costs; longer battery life, responsible sourcing and recycling reduce, but do not remove, those costs.
 
 ## 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| O1 | Uisce Éireann (Irish Water) runs public water supplies in Ireland; limits from the EU Drinking Water Directive. |
-| T3 | Microfiltration pore size about 0.1–10 µm; Cryptosporidium oocysts about 4–6 µm. |
-| C2 | Cl₂ + H₂O ⇌ HOCl + HCl; HOCl is the active disinfectant. |
-| V4 | Cryptosporidium outbreak, Galway city water supply, 2007. |
-| F1, F3 | Ireland: hexafluorosilicic acid; Health (Fluoridation of Water Supplies) Act 1960; fluoridation since the 1960s; 0.6–0.8 mg L⁻¹, maximum 0.8 mg L⁻¹ (since 2007). |
-| P1 | Drinking-water pH limits 6.5–9.5 (EU Directive / Irish regulations). |
-| I2 | John Snow, Broad Street pump, London, 1854. |
-| I3 | WHO/UNICEF Joint Monitoring Programme: about 2.2 billion people without safely managed drinking water in 2022. |
-| I4 | SDG 6: clean water and sanitation. |
+| S2, D2 | Fully lithiated graphite LiC₆. Simplified electrode equations as above (textbook form). |
+| S4 | Electrolyte typically LiPF₆ in organic carbonate solvents. |
+| D6 | LiCoO₂–graphite cell about 3.6–3.7 V nominal; LiFePO₄ cells about 3.2 V. |
+| W1 | Density of lithium 0.534 g cm⁻³. |
+| W2 | E°(Li⁺/Li) = −3.04 V. |
+| W4 | Nobel Prize in Chemistry 2019: Goodenough, Whittingham, Yoshino; first commercial cell, Sony, 1991. |
+| M2 | Australia the largest producer (hard rock); lithium triangle Chile, Argentina, Bolivia (brines). |
+| M4 | DRC produces about 70% of world cobalt (2020s). |
+| Y5 | EU Batteries Regulation (EU) 2023/1542. |
 
 ## 3. Traps
 
-- Flocculation comes before sedimentation: the flocculating agent makes the particles big enough to settle.
-- Filtration does not remove dissolved substances; chlorination does not remove particles.
-- Chlorination kills microorganisms; it does not remove hardness or chemicals.
-- UV leaves no residual, so chlorine is still needed for the pipes.
-- Sewage treatment stages and water-analysis methods (EDTA hardness titration, Winkler, colorimetric chlorine, suspended and dissolved solids) are not on the specification.
-- Water softening and hardness belong to "Investigation: identifying ions in salts and solutions".
-- Use mg L⁻¹ or p.p.m. as set out in "Units of concentration".
+- The names anode and cathode swap between discharging and charging; the positive and negative terminals don't. Define the anode as the electrode where oxidation happens.
+- Electrons flow through the external circuit, never through the electrolyte; ions carry the charge in the electrolyte.
+- The negative electrode contains lithium atoms stored in graphite, not a block of lithium metal.
+- Don't re-teach galvanic and electrolytic cells in general; refer to "Galvanic and electrolytic cells" and "Galvanic and electrolytic cells".
+- Transition metals and variable valency are not on the specification: describe the metal oxide as being reduced or oxidised without oxidation-state detail for cobalt.
+- Metal extraction methods are not on the specification; describe mining only as a life-cycle stage.
 
 ## 4. What exams ask (topics only)
 
-- Describe or explain the purpose of the stages: sedimentation, flocculation, filtration, chlorination, fluoridation, pH adjustment.
-- The purpose of adding a flocculating agent, chlorine, a fluoride compound, calcium hydroxide or sulfuric acid; the problem if the pH of an acidic supply was not adjusted.
-- Why water is disinfected and how.
+- The 2019 Nobel Prize for rechargeable lithium-ion batteries; oxidation in terms of electron transfer applied to the cell.
+- How a lithium-ion cell works when discharging and when charging.
+- Life-cycle impacts of lithium-ion batteries.
 
 ## 5. Practice questions to write
 
-1. 12 marks: "Describe four stages in the treatment of drinking water, naming any chemical added and stating the purpose of each stage." Model answer: any four of L2–L4, E1, T1, C1–C3, F1–F2, P2–P4.
-2. 9 marks: "Compare chlorination and UV treatment as methods of disinfecting drinking water." Model answer: C1–C4; V1–V3.
-3. 6 marks: "Appreciate the impact of providing clean water: give three benefits of a safe public water supply." Model answer: I1, I3, I5.
+1. 12 marks: "Describe how a lithium-ion cell works (i) when it is powering a mobile phone, (ii) when it is being recharged. Use equations for the electrode reactions and state which kind of cell it acts as in each case." Model answer: S2–S5; D1–D5; R1–R4.
+2. 12 marks: "Discuss the life-cycle of a lithium-ion battery used in an electric car, from mining to recycling." Model answer: M2–M5; U2, U4; Y1, Y3–Y5; Y7.
+3. 6 marks: "Explain why lithium is used in rechargeable batteries for mobile devices and electric vehicles." Model answer: W1–W3.

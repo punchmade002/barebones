@@ -29,10 +29,11 @@
   Past exam questions, test questions and flashcards are tagged to these IDs, so keep every ID
   exactly as written. The specification doesn't follow the chapter order. Each heading below
   lists the outcomes the chapter covers. Every chapter is split in `data.js` into a
-  chapter review (`<chapter>-1`, holding the old test questions) and one subsection per numbered
-  item below (`<chapter>-s1`, `-s2`…), whose notes are in `content/chemistry/` and whose
-  information packages are in `course-outlines/packages/chemistry/`. A few subsection titles in
-  `data.js` are shortened or renamed from the headings below (e.g. "Investigation: …").
+  chapter review (`<chapter>-1`, holding the old test questions) and subsections (`<chapter>-s1`,
+  `-s2`…), whose notes are in `content/chemistry/` and whose information packages are in
+  `course-outlines/packages/chemistry/`. A subsection groups one or more of the numbered items
+  below so that each has a substantial set of notes (at least 8 blocks); the grouping is in
+  "Subsections in the app" at the end. "§" references are to the numbered items.
 - **What each subsection contains:**
   - **"Syllabus"** is what the specification says students learn about and should be able to
     do, close to its own wording. This is the required scope; every item must be covered.
@@ -772,8 +773,83 @@ cross-reference:
   ones.
 - **The Chemistry in Practice Investigation** (assessment, not an outcome) is in `chem1` §14.
 
+## Subsections in the app
+
+Which numbered items of each chapter make up each `data.js` subsection (merged on 2026-10-30,
+from 137 single-item subsections, because most had only 2–6 note blocks).
+
+| Subsection | Title | Items |
+|---|---|---|
+| `chem1-s1` | How science works: ideas and models | §1, §2 |
+| `chem1-s2` | Science as a global enterprise and researching an issue | §3, §4 |
+| `chem1-s3` | Questions, hypotheses and designing investigations | §5, §6 |
+| `chem1-s4` | Measurement, error and data | §7, §8 |
+| `chem1-s5` | Reflecting, recording and communicating findings | §9, §10 |
+| `chem1-s6` | Chemistry in society and the media | §11, §12 |
+| `chem1-s7` | Representation and the Chemistry in Practice Investigation | §13, §14 |
+| `chem2-s1` | Atomic structure: the nuclear model | §1, §2, §3 |
+| `chem3-s1` | The orbital model and electronic structure | §1, §2, §3, §4 |
+| `chem4-s1` | The periodic table: arrangement and use | §1, §2, §3 |
+| `chem5-s1` | Bonding, formulae and shapes | §1, §2, §4 |
+| `chem5-s2` | Investigation: identifying ions in salts and solutions | §3 |
+| `chem6-s1` | Bond type and intermolecular forces | §1, §2, §3 |
+| `chem6-s2` | Polarity, shape and physical properties | §4, §5, §6 |
+| `chem7-s1` | Families and trends in the periodic table | §1, §2, §3 |
+| `chem8-s1` | The mole and molar volume | §1, §2, §3, §4 |
+| `chem8-s2` | Solutions and concentration | §5, §6 |
+| `chem9-s1` | The kinetic theory and its evidence | §1, §2 |
+| `chem9-s2` | Using the kinetic theory: separation techniques | §3, §4 |
+| `chem9-s3` | Gas laws and the ideal gas equation | §5, §6 |
+| `chem10-s1` | Physical and chemical change | §1, §2 |
+| `chem10-s2` | Formulae and balancing equations | §3, §4 |
+| `chem11-s1` | Acids, bases and their reactions | §1, §2 |
+| `chem11-s2` | Acid–base theories and strength | §3, §4, §5 |
+| `chem12-s1` | Standard solutions and acid–base titrations | §1, §2 |
+| `chem12-s2` | Titration curves, indicators and vinegar | §3, §4, §5 |
+| `chem13-s1` | Acid–base volumetric problems | §1, §2 |
+| `chem14-s1` | Oxidation and reduction | §1 |
+| `chem14-s2` | Balancing redox equations and the electrochemical series | §2, §3 |
+| `chem15-s1` | Redox titrations and iron tablets | §1, §2 |
+| `chem16-s1` | Redox volumetric problems | §1, §2 |
+| `chem17-s1` | Rate of reaction and collision theory | §1, §2 |
+| `chem17-s2` | Investigation: factors affecting rate | §3 |
+| `chem17-s3` | Catalysis | §4, §5 |
+| `chem18-s1` | Dynamic equilibrium and Kc | §1, §2, §3 |
+| `chem18-s2` | Le Châtelier's principle | §4, §5 |
+| `chem19-s1` | Self-ionisation of water and pH | §1, §2 |
+| `chem19-s2` | pH calculations and dissociation constants | §3, §4, §5 |
+| `chem20-s1` | The greenhouse effect | §1, §2 |
+| `chem20-s2` | Water contamination | §3 |
+| `chem20-s3` | Treating drinking water | §4 |
+| `chem20-s4` | The lithium-ion cell | §5 |
+| `chem20-s5` | Researching chemistry | §6 |
+| `chem21-s1` | Energy changes in reactions | §1, §2 |
+| `chem21-s2` | Calculating ΔH and the heat of neutralisation | §3, §4 |
+| `chem21-s3` | ΔH from bond enthalpies | §5 |
+| `chem21-s4` | Hess's law | §6 |
+| `chem21-s5` | Combustion and heats of combustion | §7, §8 |
+| `chem22-s1` | Galvanic and electrolytic cells | §1, §2, §3 |
+| `chem22-s2` | Fuel cells and sustainability | §4, §5, §6 |
+| `chem23-s1` | Hydrocarbons: sources, uses and impact | §1, §2 |
+| `chem23-s2` | Investigation: preparing ethene | §3 |
+| `chem23-s3` | Groups of hydrocarbons and their properties | §4, §5, §6 |
+| `chem23-s4` | Shapes, bonding and isomerism | §7, §8, §9 |
+| `chem23-s5` | Allotropes of carbon and their uses | §10, §11 |
+| `chem24-s1` | Functional groups, naming and representation | §2, §3 |
+| `chem24-s2` | Physical properties and acidity | §4, §5 |
+| `chem24-s3` | Organic products and pharmaceuticals | §1, §6 |
+| `chem25-s1` | Types of organic reaction and addition polymers | §2, §10 |
+| `chem25-s2` | Tests, reaction schemes and preparing an ester | §1, §3, §4 |
+| `chem25-s3` | Investigation: synthesising benzoic acid | §5 |
+| `chem25-s4` | Reaction mechanisms | §6 |
+| `chem25-s5` | Redox and acid–base reactions of organic compounds | §7 |
+| `chem25-s6` | Surfactants and soap | §8, §9 |
+| `chem26-s1` | Quantitative problems from balanced equations | §1 |
+| `chem26-s2` | Theoretical, actual and percentage yield | §2 |
+| `chem26-s3` | Limiting reagents | §3 |
+
 ## Count
 
-26 chapters; 137 subsections. All 124 learning outcomes in the specification are placed (13 in
-the Unifying Strand; 22, 21, 37 and 31 in Strands 1–4), together with every "Students learn
-about" item.
+26 chapters; 137 numbered items, grouped into 67 subsections. All 124 learning outcomes in the
+specification are placed (13 in the Unifying Strand; 22, 21, 37 and 31 in Strands 1–4), together
+with every "Students learn about" item.

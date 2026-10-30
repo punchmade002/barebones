@@ -1,108 +1,317 @@
 {
   "loId": "chem22-s2",
   "chapterId": "chem22",
-  "subsection": "2. The galvanic cell",
-  "syllabusRef": "3.5.5",
+  "subsection": "2. Fuel cells and sustainability",
+  "syllabusRef": "3.5.7, 3.5.8, 3.5.9",
   "notes": [
     {
-      "h": "Origins of the galvanic cell",
+      "h": "Definitions: chemical cell and fuel cell",
       "points": [
-        "Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.",
-        "Galvani believed the electricity came from the animal itself, which he called “animal electricity”.",
-        "Alessandro Volta showed that the electricity came from two different metals in contact with a conducting liquid.",
-        "In 1800 Volta built the first battery, the voltaic pile: a stack of zinc and copper (or silver) discs separated by cardboard or cloth soaked in salt water.",
-        "Galvanic cells, also called voltaic cells, are named after Galvani and Volta."
+        "A chemical cell, e.g. a zinc–carbon, alkaline, lead–acid or lithium-ion cell, uses a redox reaction between reactants sealed inside it to convert chemical energy into electrical energy.",
+        "A chemical cell stops working when its reactants have been used up.",
+        "When a chemical cell's reactants are used up, a primary cell is discarded, while a secondary cell must be recharged from an external electrical supply.",
+        "A fuel cell converts the chemical energy of a fuel, e.g. hydrogen, and an oxidising agent, usually oxygen from the air, into electrical energy.",
+        "In a fuel cell the reactants are not stored in the cell but are supplied continuously from outside, and the products, water for hydrogen, are continuously removed.",
+        "A fuel cell keeps producing electricity for as long as fuel and oxidant are supplied; it is refuelled, not recharged, and does not run down like a chemical cell."
       ]
     },
     {
-      "h": "How a redox reaction makes a current",
+      "h": "What chemical cells and fuel cells have in common",
       "points": [
-        "When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
-        "Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction.",
-        "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
-        "This flow of electrons is an electric current.",
-        "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.",
-        "The metal higher in the electrochemical series (see \"The electrochemical series and displacement\"), the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive).",
-        "The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.",
-        "Under standard conditions (1 M solutions, 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V."
+        "Both are galvanic cells: each uses a spontaneous redox reaction to drive electrons through an external circuit.",
+        "Both have an anode where the fuel or reducing agent is oxidised (negative), a cathode where the oxidising agent is reduced (positive), and an electrolyte that carries ions between them.",
+        "In both, oxidation and reduction happen at separate electrodes, so energy is released as electrical energy rather than as heat."
       ]
     },
     {
-      "h": "The copper–zinc (Daniell) cell",
-      "b": "The copper–zinc cell is the standard galvanic cell, with the zinc and copper in separate beakers joined by wires and a salt bridge.",
+      "h": "Chemical cells compared with fuel cells",
       "points": [
-        "Set-up: a zinc strip in 1 M zinc sulfate solution and a copper strip in 1 M copper(II) sulfate solution, in separate beakers.",
-        "The metals are joined by wires through a voltmeter or bulb, and the solutions by a salt bridge; the voltage is about 1.1 V.",
-        "Zinc electrode (anode, negative, oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻. Zinc atoms lose electrons and go into solution as ions.",
-        "Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.",
-        "Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.",
-        "Zinc is the reducing agent and Cu²⁺ is the oxidising agent.",
-        "Electrons flow through the external wire from the zinc to the copper.",
-        "Over time the zinc electrode wears away and loses mass, while the copper electrode gains a fresh pink-brown coating and gains mass.",
-        "The blue colour of the copper(II) sulfate solution fades as Cu²⁺ is used up, and the voltage slowly falls."
+        "Source of reactants: a chemical cell stores its reactants inside and is limited by them; a fuel cell is supplied continuously from external tanks or the air.",
+        "Products: in a chemical cell they stay inside the cell; in a fuel cell they are removed continuously, e.g. as water vapour in the exhaust.",
+        "When reactants run out: a chemical cell is replaced (primary) or recharged, which can take hours (secondary); a fuel cell is refuelled in minutes.",
+        "Energy storage: in a chemical cell the energy is stored in the electrode materials, so more energy needs a bigger, heavier cell; in a fuel cell the energy is stored in the fuel tank, so the range depends on the size of the tank.",
+        "Typical uses: chemical cells power portable devices such as phones, laptops and torches, and battery electric vehicles; fuel cells power hydrogen buses, cars and trucks, spacecraft and backup power supplies.",
+        "Environmental impact: a hydrogen fuel cell's only product is water; chemical cells need metals such as lithium, cobalt, nickel, lead and zinc to be mined, and the cells must be recycled.",
+        "A fuel cell needs hydrogen to be produced, stored and transported, and is only as clean as the way the hydrogen was made."
       ]
     },
     {
-      "h": "The salt bridge",
-      "b": "The salt bridge connects the two solutions without letting them mix.",
+      "h": "Fuel cell compared with burning the fuel",
       "points": [
-        "A salt bridge is a strip of filter paper soaked in potassium nitrate (or potassium chloride) solution, or a U-tube of the salt solution set in agar gel.",
-        "It completes the circuit: ions move through it, carrying charge between the half-cells.",
-        "It keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions (NO₃⁻) move into it.",
-        "As Cu²⁺ ions are removed from the copper half-cell, positive ions (K⁺) move into it.",
-        "Without it, charge would build up in each beaker and the current would stop at once.",
-        "Potassium nitrate is used because its ions do not react with the electrode solutions; it forms no precipitate."
+        "In a fuel cell hydrogen and oxygen react by the same overall reaction as when hydrogen burns, 2H₂ + O₂ → 2H₂O, but without a flame or combustion: the electrons are transferred through the external circuit.",
+        "A fuel cell converts chemical energy directly into electrical energy; an engine or power station first converts it to heat, much of which is lost, so a fuel cell is more efficient than burning the fuel.",
+        "A fuel cell has no moving parts, so it is quiet.",
+        "A hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use and, with no high-temperature flame, no nitrogen oxides."
       ]
     },
     {
-      "h": "Practical: creating a simple galvanic cell",
+      "h": "Structure of a hydrogen fuel cell",
       "points": [
-        "Aim: to build a copper–zinc galvanic cell, measure its voltage, and compare the voltages from different pairs of metals.",
-        "Variables: the independent variable is the pair of metals; the dependent variable is the voltage; the controlled variables are the concentration and volume of the solutions, the temperature, and the size and cleanliness of the strips.",
-        "1. Clean strips of zinc and copper with sandpaper (emery paper) to remove the oxide layer, which would otherwise reduce the voltage.",
-        "2. Half-fill one beaker with 1 M zinc sulfate solution and another with 1 M copper(II) sulfate solution; stand the zinc strip in the first and the copper strip in the second.",
-        "3. Soak a strip of filter paper in potassium nitrate solution and drape it between the two beakers, with each end in a solution.",
-        "4. Connect the metals to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage.",
-        "5. Replace the voltmeter with a small bulb or LED to show that a current flows.",
-        "6. Remove the salt bridge and record the voltage again; it falls to zero, showing the bridge is needed.",
-        "7. Repeat with other metal pairs, e.g. magnesium–copper and iron–copper, each metal in a solution of its own ions, using a fresh salt bridge each time."
+        "A hydrogen fuel cell is a galvanic cell in which the fuel, hydrogen, is oxidised and the oxidising agent, oxygen from the air, is reduced, producing electricity and water.",
+        "Hydrogen gas is fed continuously to the anode (negative electrode); oxygen or air is fed continuously to the cathode (positive electrode).",
+        "The electrodes are porous carbon coated with a platinum catalyst: the pores let the gases reach the electrolyte, and the platinum speeds up the electrode reactions.",
+        "In the common type the electrolyte is a proton exchange membrane (PEM), a thin sheet of solid polymer between the electrodes.",
+        "The membrane lets H⁺ ions (protons) pass from the anode to the cathode, does not conduct electrons, so the electrons must go round the external circuit, and keeps the hydrogen and oxygen apart."
       ]
     },
     {
-      "h": "Practical: results, safety, errors and diagram",
+      "h": "How a PEM hydrogen fuel cell works",
       "points": [
-        "Results: the measured voltages are usually a little lower than the standard values, and the larger the gap between the metals in the electrochemical series, the larger the voltage.",
-        "A simpler cell: zinc and copper strips pushed into a lemon, or dipped into one beaker of salt solution or dilute acid, also give a voltage, because the juice or solution is an electrolyte.",
-        "Safety: wear goggles; copper(II) sulfate is harmful, an irritant and toxic to aquatic life, so do not pour it down the sink and dispose of it as directed; zinc sulfate is an irritant; wash hands afterwards.",
-        "Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.",
-        "Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper."
+        "Step 1: at the anode, hydrogen molecules are oxidised to hydrogen ions, releasing electrons: H₂(g) → 2H⁺(aq) + 2e⁻.",
+        "Step 2: the electrons flow through the external circuit to the cathode, powering a motor or other device on the way.",
+        "Step 3: the H⁺ ions move through the membrane to the cathode.",
+        "Step 4: at the cathode, oxygen is reduced by combining with the H⁺ ions and electrons to form water: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l).",
+        "Step 5: the water is removed from the cathode side, as liquid or vapour, so the reaction can continue.",
+        "Overall: 2H₂(g) + O₂(g) → 2H₂O(l), obtained by doubling the anode equation to balance the electrons: 2H₂ → 4H⁺ + 4e⁻."
+      ]
+    },
+    {
+      "h": "Redox in the fuel cell",
+      "points": [
+        "Hydrogen is the reducing agent: its oxidation number rises from 0 in H₂ to +1 in H₂O, an oxidation (loss of electrons) at the anode.",
+        "Oxygen is the oxidising agent: its oxidation number falls from 0 in O₂ to −2 in H₂O, a reduction (gain of electrons) at the cathode.",
+        "For H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ mol⁻¹, so the reaction is strongly exothermic; in the fuel cell much of this energy is released as electrical energy rather than heat."
+      ]
+    },
+    {
+      "h": "Practical points about the cell",
+      "points": [
+        "A single hydrogen fuel cell gives a maximum of about 1.2 V and, in use, about 0.6–0.8 V, so many cells are connected in series in a stack; a car's stack contains several hundred cells.",
+        "Fuel cells also produce some heat, which can be used, e.g. for heating in buildings or buses.",
+        "The hydrogen must be pure: impurities such as carbon monoxide poison the platinum catalyst."
+      ]
+    },
+    {
+      "h": "The alkaline fuel cell",
+      "points": [
+        "In an alkaline fuel cell the electrolyte is potassium hydroxide solution, and OH⁻ ions carry the charge through it.",
+        "Anode (oxidation): 2H₂(g) + 4OH⁻(aq) → 4H₂O(l) + 4e⁻.",
+        "Cathode (reduction): O₂(g) + 2H₂O(l) + 4e⁻ → 4OH⁻(aq).",
+        "Overall: 2H₂(g) + O₂(g) → 2H₂O(l), the same as in the PEM cell.",
+        "Alkaline fuel cells powered the Apollo spacecraft and produced drinking water for the astronauts."
+      ]
+    },
+    {
+      "h": "Uses, advantages and limitations",
+      "points": [
+        "Uses: hydrogen buses, cars and trucks; spacecraft; backup and off-grid power supplies.",
+        "Advantages: the only product is water, so there is no CO₂, CO, nitrogen oxides or soot at the point of use; the cell is quiet, is refuelled in minutes, and runs as long as fuel is supplied.",
+        "Limitations: hydrogen is highly flammable and forms explosive mixtures with air; it has a very low density, so it must be stored compressed at high pressure, or liquefied at very low temperature, in strong, heavy tanks.",
+        "Limitations: there are few hydrogen refuelling stations, and platinum is scarce and expensive.",
+        "Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity.",
+        "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), the membrane between them with H⁺ moving across, an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
+      ]
+    },
+    {
+      "h": "Electrochemistry and more sustainable energy",
+      "points": [
+        "Electrochemical cells convert chemical energy directly into electrical energy, without first burning a fuel to make heat, so less energy is wasted than in an engine or a fossil-fuel power station.",
+        "Rechargeable (secondary) batteries can be reused hundreds or thousands of times, cutting the waste and raw materials of single-use cells.",
+        "Rechargeable batteries let electricity from renewable sources, such as wind and solar, be stored and used later, in devices, electric vehicles and large grid batteries.",
+        "This matters because wind and solar power vary with the weather and the time of day.",
+        "Electrolysis can split water into hydrogen and oxygen: 2H₂O → 2H₂ + O₂.",
+        "If the electricity comes from renewable sources, the hydrogen is made without releasing carbon dioxide; this is called “green hydrogen”.",
+        "Hydrogen stores energy as a fuel: it can be kept, transported and later used in a fuel cell to make electricity again, or used in industry; its only product when used in a fuel cell or burned is water.",
+        "Most hydrogen produced today is made from natural gas, which releases carbon dioxide; this is called “grey hydrogen”.",
+        "“Blue hydrogen” is made the same way but with the carbon dioxide captured and stored."
+      ]
+    },
+    {
+      "h": "Carrying out the research investigation",
+      "points": [
+        "Step 1: choose one application and write a focused question that can be answered with evidence, e.g. “Are battery electric cars more sustainable than petrol cars in Ireland?”",
+        "Step 2: explain the chemistry involved: the redox reactions, the type of cell (galvanic or electrolytic), and the electrode reactions where known.",
+        "Step 3: gather evidence from a range of sources: textbooks, peer-reviewed articles, government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports.",
+        "Step 4: judge each source by who wrote it and their expertise; whether it is peer-reviewed or official; how recent it is, as this technology changes quickly; whether the author gains from the conclusion, e.g. a company selling the product; whether it gives data and references rather than opinion; and whether other sources agree.",
+        "Step 5: consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity or fuel during use, lifetime, and disposal or recycling.",
+        "Step 6: weigh the evidence on each side (environmental, economic, social and safety) and reach a justified conclusion, stating the conditions under which it holds.",
+        "Step 7: present the findings with references, and evaluate the investigation: gaps in the evidence, conflicting sources, and what further research would help."
+      ]
+    },
+    {
+      "h": "Worked outline 1: rechargeable batteries and electric vehicles",
+      "points": [
+        "Question: do rechargeable lithium-ion batteries in electric vehicles make transport more sustainable?",
+        "Chemistry: the lithium-ion cell is a secondary cell, a galvanic cell on discharge and an electrolytic cell on recharging (see \"The lithium-ion cell\").",
+        "Evidence for: no exhaust emissions at the point of use (no CO₂, CO, nitrogen oxides or particulates from a tailpipe), improving air quality in towns.",
+        "Evidence for: electric motors waste less energy than petrol or diesel engines.",
+        "Evidence for: batteries can be charged from renewable electricity, and the same batteries can store surplus renewable electricity.",
+        "Evidence against: mining lithium, cobalt and nickel damages land and uses large amounts of water.",
+        "Evidence against: most of the world's cobalt is mined in the Democratic Republic of the Congo, where child labour and unsafe working conditions have been reported.",
+        "Evidence against: making the battery releases a lot of CO₂, and the benefit depends on how the electricity is generated.",
+        "Evidence against: recycling is not yet widespread, and damaged cells can catch fire.",
+        "Justified conclusion (example): electric vehicles reduce emissions over their lifetime where electricity is increasingly renewable, as in Ireland, provided batteries are made responsibly and recycled."
+      ]
+    },
+    {
+      "h": "Worked outline 2: green hydrogen from electrolysis",
+      "points": [
+        "Question: can hydrogen produced by electrolysis using wind power be a sustainable fuel?",
+        "Chemistry: electrolysis of water, with 4H⁺ + 4e⁻ → 2H₂ at the cathode and 2H₂O → O₂ + 4H⁺ + 4e⁻ at the anode (see \"Galvanic and electrolytic cells\").",
+        "Evidence for: no CO₂ is released if the electricity is renewable.",
+        "Evidence for: it can use surplus wind electricity at times when supply is greater than demand, storing it as a fuel.",
+        "Evidence for: hydrogen can power fuel-cell vehicles and replace fossil fuels in industries that are hard to electrify.",
+        "Evidence against: energy is lost at every step, so converting electricity to hydrogen and back to electricity returns well under half of the original energy, much less than a battery.",
+        "Evidence against: electrolysers need pure water, and some need scarce metal catalysts such as platinum and iridium.",
+        "Evidence against: hydrogen is hard to store, needing high pressure or very low temperature, and it is highly flammable.",
+        "Evidence against: green hydrogen currently costs more than grey hydrogen.",
+        "Justified conclusion (example): green hydrogen is most useful where batteries are unsuitable, such as heavy transport, industry and long-term storage, but only if it is powered by genuinely renewable electricity."
+      ]
+    },
+    {
+      "h": "Worked outline 3: fuel cells",
+      "points": [
+        "Question: should hydrogen fuel cells power public buses?",
+        "Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O.",
+        "Evidence for: water is the only product at the point of use, and the cell is quiet and refuelled in minutes.",
+        "Evidence for: long range suits buses on long, fixed routes that return to one depot for refuelling.",
+        "Evidence against: there are few refuelling stations, and the vehicles are expensive, partly because of the platinum catalyst.",
+        "Evidence against: high-pressure storage tanks are needed.",
+        "Evidence against: if the hydrogen is grey, the overall CO₂ saving is small or none.",
+        "Justified conclusion (example): fuel-cell buses are a good choice only where green hydrogen is available at a competitive price."
+      ]
+    },
+    {
+      "h": "Worked outline 4: corrosion protection",
+      "points": [
+        "Question: how does electrochemistry help steel structures last longer, and why is that sustainable?",
+        "Chemistry: rusting is the oxidation of iron. A metal higher in the electrochemical series, such as zinc or magnesium, is oxidised in preference to iron (see \"Oxidation and reduction\" and \"Balancing redox equations and the electrochemical series\").",
+        "Galvanising, a zinc coating, and sacrificial anodes, blocks of zinc or magnesium attached to ship hulls, pipelines and steel piers, both use this protection.",
+        "Evidence for: steel lasts much longer, so less steel has to be made to replace it, saving iron ore, energy and the CO₂ released in steelmaking.",
+        "Evidence for: it prevents dangerous failures of bridges, pipelines and ships.",
+        "Evidence against: sacrificial anodes are used up and must be replaced.",
+        "Evidence against: zinc released into seawater can harm marine life.",
+        "Evidence against: galvanised coatings wear away eventually.",
+        "Justified conclusion (example): corrosion protection is a cheap and effective way of conserving metal resources, though zinc release should be monitored."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Galvanic cell", "definition": "A cell in which a spontaneous redox reaction, split into two half-cells, drives electrons through an external circuit." },
-    { "term": "Half-cell", "definition": "An electrode dipping into a solution of its own ions, forming one half of a galvanic cell." },
-    { "term": "Salt bridge", "definition": "A strip of filter paper or a U-tube of salt solution that joins two half-cells, letting ions flow to complete the circuit without the solutions mixing." },
-    { "term": "Copper–zinc (Daniell) cell", "definition": "A galvanic cell with a zinc electrode in zinc sulfate and a copper electrode in copper(II) sulfate, giving about 1.1 V." },
-    { "term": "Displacement reaction", "definition": "A reaction in which a more reactive metal takes the place of a less reactive metal in its compound, as zinc does with copper(II) ions." },
-    { "term": "Voltaic pile", "definition": "The first battery, built by Volta in 1800 from stacked zinc and copper discs separated by cloth soaked in salt water." },
-    { "term": "Oxide layer", "definition": "A thin coating of oxide on a metal strip that must be removed by sanding, as it would otherwise lower the voltage of a cell." }
+    {
+      "term": "Chemical cell",
+      "definition": "A cell that converts chemical energy into electrical energy from reactants sealed inside it, and stops when they are used up."
+    },
+    {
+      "term": "Fuel cell",
+      "definition": "A galvanic cell that converts the chemical energy of a fuel and an oxidising agent into electrical energy, with both supplied continuously from outside."
+    },
+    {
+      "term": "Fuel",
+      "definition": "A substance that is oxidised in a reaction to release energy, such as hydrogen in a fuel cell."
+    },
+    {
+      "term": "Oxidising agent",
+      "definition": "A substance that gains electrons and is reduced in a redox reaction, such as oxygen in a fuel cell."
+    },
+    {
+      "term": "Combustion",
+      "definition": "The burning of a fuel with oxygen, releasing energy as heat and light."
+    },
+    {
+      "term": "Galvanic cell",
+      "definition": "A cell in which a spontaneous redox reaction drives electrons through an external circuit."
+    },
+    {
+      "term": "Proton exchange membrane (PEM)",
+      "definition": "A thin sheet of solid polymer that lets H⁺ ions pass between the electrodes of a fuel cell while keeping the gases apart and blocking electrons."
+    },
+    {
+      "term": "Platinum catalyst",
+      "definition": "Platinum on the porous carbon electrodes of a fuel cell, which speeds up the electrode reactions."
+    },
+    {
+      "term": "Proton",
+      "definition": "A hydrogen ion, H⁺, formed when hydrogen is oxidised at the anode of a fuel cell."
+    },
+    {
+      "term": "Stack",
+      "definition": "Many fuel cells connected in series so that their voltages add up to a usable value."
+    },
+    {
+      "term": "Oxidation number",
+      "definition": "A number assigned to an atom that changes when it is oxidised (rises) or reduced (falls)."
+    },
+    {
+      "term": "Alkaline fuel cell",
+      "definition": "A fuel cell whose electrolyte is potassium hydroxide solution, in which OH⁻ ions carry the charge."
+    },
+    {
+      "term": "Exothermic",
+      "definition": "Describes a reaction that releases heat, with a negative enthalpy change, such as the reaction of hydrogen and oxygen to form water."
+    },
+    {
+      "term": "Green hydrogen",
+      "definition": "Hydrogen produced by the electrolysis of water using electricity from renewable sources, so that no carbon dioxide is released."
+    },
+    {
+      "term": "Grey hydrogen",
+      "definition": "Hydrogen made from natural gas, which releases carbon dioxide."
+    },
+    {
+      "term": "Blue hydrogen",
+      "definition": "Hydrogen made from natural gas with the carbon dioxide captured and stored."
+    },
+    {
+      "term": "Life-cycle",
+      "definition": "The whole course of a product, from raw materials and manufacture through use to disposal or recycling."
+    },
+    {
+      "term": "Sacrificial anode",
+      "definition": "A block of a more reactive metal, such as zinc or magnesium, attached to steel so that it is oxidised in preference to the steel."
+    },
+    {
+      "term": "Galvanising",
+      "definition": "Coating steel with a layer of zinc, which protects the iron by being oxidised in preference to it."
+    },
+    {
+      "term": "Peer-reviewed source",
+      "definition": "A source whose content has been checked by independent experts in the field before publication."
+    },
+    {
+      "term": "Research-based investigation",
+      "definition": "A structured inquiry into a question, using chemistry and evidence from judged sources to reach a justified conclusion."
+    }
   ],
   "questions": [
     {
+      "marks": 9,
+      "prompt": "Compare a chemical cell with a fuel cell under the headings: source of reactants, removal of products, what happens when the reactants are used up.",
+      "model": "Source of reactants: a chemical cell stores its reactants inside the cell, so it is limited by them, whereas a fuel cell is supplied continuously with fuel and oxygen from external tanks or the air. Removal of products: in a chemical cell the products stay inside the cell, whereas in a fuel cell the products, such as water for hydrogen, are removed continuously. When the reactants are used up: a chemical cell stops working and is either discarded (primary) or recharged from an external supply, which can take hours (secondary); a fuel cell keeps working as long as fuel and oxidant are supplied and is refuelled in minutes."
+    },
+    {
+      "marks": 6,
+      "prompt": "State one similarity between a chemical cell and a fuel cell, and give two advantages of a hydrogen fuel cell over burning hydrogen in an engine.",
+      "model": "Similarity: both are galvanic cells, each using a spontaneous redox reaction to drive electrons through an external circuit, with an anode where the fuel is oxidised, a cathode where the oxidising agent is reduced, and an electrolyte between them. Advantage 1: a fuel cell converts chemical energy directly into electrical energy, without first making heat, so it is more efficient than burning hydrogen. Advantage 2: a fuel cell has no moving parts, so it is quiet, and a hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use."
+    },
+    {
       "marks": 12,
-      "prompt": "Describe how you would make a simple copper–zinc galvanic cell. Write the half-equation at each electrode, identify the anode and the cathode, and show the direction of electron flow.",
-      "model": "Clean a zinc strip and a copper strip with sandpaper to remove the oxide layer. Half-fill one beaker with 1 M zinc sulfate solution and place the zinc strip in it; half-fill a second beaker with 1 M copper(II) sulfate solution and place the copper strip in it. Soak a strip of filter paper in potassium nitrate solution to make a salt bridge, and drape it between the two beakers with each end in a solution. Connect the zinc and copper strips to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage, about 1.1 V. Zinc is oxidised at the anode, which is the negative electrode: Zn(s) → Zn²⁺(aq) + 2e⁻. Copper(II) ions are reduced at the cathode, which is the positive electrode: Cu²⁺(aq) + 2e⁻ → Cu(s). Electrons flow through the external wire from the zinc electrode to the copper electrode. Inside the cell, ions move through the salt bridge to complete the circuit."
+      "prompt": "Explain the operation of a hydrogen fuel cell with a proton exchange membrane. Your answer should include the half-equations at each electrode, the overall equation, and the functions of the membrane.",
+      "model": "Hydrogen is fed continuously to the anode, the negative electrode, and oxygen or air to the cathode, the positive electrode. Both electrodes are porous carbon coated with platinum, which speeds up the reactions. At the anode hydrogen is oxidised: H₂(g) → 2H⁺(aq) + 2e⁻. The electrons flow through the external circuit to the cathode, powering a device on the way. At the cathode oxygen is reduced: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l). Overall: 2H₂(g) + O₂(g) → 2H₂O(l). The proton exchange membrane lets H⁺ ions pass from the anode to the cathode, so the circuit is completed inside the cell. It does not conduct electrons, so they must travel round the external circuit, and it keeps the hydrogen and oxygen apart. Water is removed from the cathode side so the reaction can continue."
     },
     {
       "marks": 6,
-      "prompt": "State two functions of the salt bridge in a galvanic cell and name a suitable substance for it.",
-      "model": "First, it completes the circuit: ions move through the salt bridge, carrying charge between the two half-cells. Second, it keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions move into it from the bridge, and as Cu²⁺ ions are removed from the copper half-cell, positive ions move into it from the bridge. A suitable substance is potassium nitrate solution soaked into a strip of filter paper, because its ions do not react with the electrode solutions."
+      "prompt": "Use oxidation numbers to identify the substance oxidised and the oxidising agent in a hydrogen fuel cell.",
+      "model": "The oxidation number of hydrogen rises from 0 in H₂ to +1 in H₂O, so hydrogen is oxidised; it is the reducing agent, and oxidation happens at the anode. The oxidation number of oxygen falls from 0 in O₂ to −2 in H₂O, so oxygen is reduced; it is the oxidising agent, and reduction happens at the cathode."
     },
     {
       "marks": 6,
-      "prompt": "Explain why no current is produced when a zinc strip is placed directly in copper(II) sulfate solution, but a current flows when the two half-reactions are separated.",
-      "model": "When zinc is placed directly in copper(II) sulfate solution, zinc atoms transfer electrons straight to Cu²⁺ ions in the same beaker: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The electrons never pass through an external wire, so there is no current; the energy is released as heat and the blue colour fades. In a galvanic cell the two half-reactions are separated into two half-cells, so the electrons lost by zinc must travel through an external wire to reach the Cu²⁺ ions at the copper electrode. This flow of electrons is an electric current."
+      "prompt": "Give two advantages and two disadvantages of using hydrogen fuel cells to power buses.",
+      "model": "Advantage 1: the only product at the point of use is water, so there are no carbon dioxide, carbon monoxide or soot emissions from the bus. Advantage 2: the fuel cell is quiet and is refuelled in minutes, and it runs as long as fuel is supplied. Disadvantage 1: hydrogen is highly flammable and must be stored compressed at high pressure in strong, heavy tanks, because it has a very low density. Disadvantage 2: there are few hydrogen refuelling stations, and platinum, the catalyst, is scarce and expensive. Most hydrogen today is made from natural gas, so the bus is only low-carbon overall when the hydrogen is made by electrolysis using renewable electricity."
+    },
+    {
+      "marks": 12,
+      "prompt": "Hydrogen can be produced by the electrolysis of water. Explain, with half-equations, how this is done, and discuss whether hydrogen produced this way is a sustainable fuel.",
+      "model": "In the electrolysis of water, an electric current is passed through acidified water between two inert electrodes. At the cathode, reduction takes place: 4H⁺(aq) + 4e⁻ → 2H₂(g). At the anode, oxidation takes place: 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻. Overall: 2H₂O → 2H₂ + O₂. Hydrogen produced this way is sustainable only if the electricity comes from renewable sources such as wind, in which case no carbon dioxide is released; this is green hydrogen. Hydrogen can also be used when electricity is surplus, storing energy as a fuel, and its only product in a fuel cell is water. However, energy is lost at every step, so converting electricity to hydrogen and back returns well under half of the original energy, much less than a battery. Electrolysers need pure water and some need scarce platinum and iridium catalysts, hydrogen is hard to store and highly flammable, and green hydrogen currently costs more than grey hydrogen, which is made from natural gas and releases carbon dioxide. Conclusion: hydrogen from electrolysis is a sustainable fuel only where it is made from renewable electricity."
+    },
+    {
+      "marks": 9,
+      "prompt": "Outline how you would carry out a research investigation into one role of electrochemistry in sustainable technology, including how you would judge the reliability of your sources.",
+      "model": "Choose one application and write a focused question that can be answered with evidence, e.g. whether battery electric cars are more sustainable than petrol cars in Ireland. Explain the chemistry involved: the redox reactions, whether the cell is galvanic or electrolytic, and the electrode reactions. Gather evidence from textbooks, peer-reviewed articles, government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports. Judge each source by who wrote it and their expertise, whether it is peer-reviewed or official, how recent it is, whether the author gains from the conclusion, whether it gives data and references rather than opinion, and whether other sources agree. Consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity during use, lifetime, and disposal or recycling. Weigh the evidence on each side and reach a justified conclusion, stating the conditions under which it holds. Present the findings with references and evaluate the investigation, noting gaps in the evidence and conflicting sources."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain how rechargeable batteries can make energy use more sustainable, and give one disadvantage.",
+      "model": "Rechargeable (secondary) batteries can be reused hundreds or thousands of times, which cuts the waste and raw materials of single-use cells. They also let electricity from wind and solar power be stored and used later, which matters because these sources vary with the weather and time of day. A disadvantage is the mining of lithium, cobalt and nickel, which damages land and uses large amounts of water, and most of the world's cobalt is mined in the Democratic Republic of the Congo, where child labour has been widely reported."
     }
   ]
 }

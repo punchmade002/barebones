@@ -1,144 +1,158 @@
 {
   "loId": "chem20-s5",
   "chapterId": "chem20",
-  "subsection": "5. The lithium-ion cell",
-  "syllabusRef": "4.3.5",
+  "subsection": "5. Researching chemistry",
+  "syllabusRef": "4.3.8",
   "notes": [
     {
-      "h": "Structure of a lithium-ion cell",
+      "h": "What the specification expects",
       "points": [
-        "A lithium-ion cell is a rechargeable (secondary) cell; see “Primary and secondary cells”.",
-        "The negative electrode is graphite, in which lithium atoms are stored between layers of carbon atoms; when fully charged it is written LiC₆.",
-        "The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂; other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄.",
-        "The electrolyte is a lithium salt, e.g. LiPF₆, dissolved in an organic (non-aqueous) solvent, which lets Li⁺ ions move between the electrodes.",
-        "Water cannot be used as the solvent because lithium reacts with it.",
-        "Electrons flow only through the external circuit; in the electrolyte the charge is carried by ions.",
-        "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell.",
-        "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (intercalation), so the cell can be charged and discharged many times.",
-        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right), each on a current collector, with electrolyte between them and a separator in the middle, and an external circuit with a device; arrows show Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (both towards the positive electrode) and charging (both towards the graphite)."
+        "Students research one area of the course through one cross-cutting theme: health, sustainability or technology.",
+        "The research must use real chemistry from the course to explain the issue, not just describe it.",
+        "It should be personal and meaningful: a question the student cares about, often local or Irish.",
+        "It shows chemistry as a collaborative, human activity with social and global importance.",
+        "Outputs can be a presentation to the class or a short digital report.",
+        "Later research can be more detailed and may include gathering some primary data, e.g. measuring the pH of local water samples.",
+        "The written exam includes questions on applying chemistry to the cross-cutting themes, so the skills and examples are examinable."
       ]
     },
     {
-      "h": "Discharging: a galvanic cell",
+      "h": "The stages of a research investigation",
       "points": [
-        "When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction converts chemical energy into electrical energy (see “The galvanic cell”).",
-        "At the negative electrode, which is the anode during discharge, lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form, Li → Li⁺ + e⁻).",
-        "The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.",
-        "The Li⁺ ions move through the electrolyte and separator to the positive electrode.",
-        "At the positive electrode, which is the cathode during discharge, the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.",
-        "Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂.",
-        "A typical LiCoO₂–graphite cell gives about 3.6–3.7 V; LiFePO₄ cells give about 3.2 V."
+        "Step 1: Choose a focused, answerable question that links course chemistry to one theme, e.g. “Should…?”, “How effective is…?” or “What are the benefits and risks of…?”",
+        "Step 2: Identify the chemistry involved, such as reactions, equations and properties, so that the research explains why and not only what.",
+        "Step 3: Find a range of sources: peer-reviewed papers and reviews, reports from scientific and government bodies (e.g. the IPCC, the EPA, the HSE, WHO and Uisce Éireann), textbooks, and reputable science journalism; include sources with different viewpoints.",
+        "Step 4: Evaluate each source: who wrote it and their expertise, when it was written, what evidence it gives (data and methods, or opinion), whether it was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
+        "Step 5: Separate measured data from claims and opinion, compare like with like, and note uncertainties and where scientists disagree.",
+        "Step 6: Weigh the evidence on each side, considering benefits, risks, costs and who is affected, locally and globally, now and in the future.",
+        "Step 7: Reach a justified conclusion that answers the question, explain the chemistry behind it, state its limitations and suggest further research.",
+        "Step 8: Reference all sources consistently and communicate clearly for the audience, using correct chemical terms, equations and units."
       ]
     },
     {
-      "h": "Recharging: an electrolytic cell",
+      "h": "Worked outline: health, fluoridation of drinking water",
       "points": [
-        "When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy (see “The electrolytic cell”).",
-        "At the metal oxide electrode, which is now the anode, oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.",
-        "The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.",
-        "At the graphite electrode, now the cathode, Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.",
-        "Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂.",
-        "Charging stores energy in the changed electrodes, not as stored electrons; the charge stays balanced throughout.",
-        "The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; it remains the negative terminal throughout."
+        "Question: “Should Ireland continue to add fluoride to public drinking water?”",
+        "Chemistry: hexafluorosilicic acid (H₂SiF₆) is added to give 0.6–0.8 mg L⁻¹ of fluoride.",
+        "Chemistry: fluoride converts some hydroxyapatite in tooth enamel into fluorapatite, which resists acids made by bacteria in the mouth (see “Treating drinking water”).",
+        "Sources: Department of Health and HSE information, systematic reviews of the evidence (e.g. Cochrane reviews), dental and medical bodies, and the views of groups opposed to fluoridation.",
+        "Check the dates of sources, as older studies were done before fluoride toothpaste was common."
       ]
     },
     {
-      "h": "Why lithium",
+      "h": "Weighing the evidence: fluoridation",
       "points": [
-        "Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries are light.",
-        "Lithium is at the top of the electrochemical series, with a standard electrode potential of −3.04 V (see “The electrochemical series and displacement”).",
-        "Lithium loses electrons very easily, so lithium cells have a high voltage.",
-        "Together these properties give a high energy density, meaning a large amount of energy stored per kilogram, which suits portable devices and vehicles.",
-        "Lithium-ion cells hold their charge well when not in use and have no memory effect.",
-        "The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry.",
-        "Sony sold the first commercial lithium-ion batteries in 1991."
+        "Evidence for: fluoridation reduces tooth decay, with most benefit to people who can't afford dental care.",
+        "Evidence for: fluoridation is low cost per person.",
+        "Evidence and issues against: dental fluorosis occurs at higher intakes.",
+        "Evidence and issues against: the benefit may be smaller now that fluoride toothpaste is widely used.",
+        "Evidence and issues against: there are ethical objections to adding a substance to everyone's water without individual consent.",
+        "Evidence and issues against: most European countries don't fluoridate water.",
+        "Conclusion: a justified judgement weighing the size of the benefit against the risks and ethical issues, based on the most recent reviews."
       ]
     },
     {
-      "h": "Life cycle: mining",
+      "h": "Worked outline: sustainability, rewetting peatlands",
       "points": [
-        "A lithium-ion battery needs lithium and, depending on its type, cobalt, nickel, manganese, graphite, copper and aluminium.",
-        "Lithium is extracted from hard rock, the mineral spodumene, which is mined mainly in Australia.",
-        "Lithium is also extracted from salty brines pumped from under salt flats in South America, the “lithium triangle” of Chile, Argentina and Bolivia, where the water is evaporated in large ponds.",
-        "Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife.",
-        "Hard-rock mining needs energy and produces waste rock, dust and emissions.",
-        "About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children.",
-        "This has led to responsible-sourcing schemes and to cobalt-free battery types, e.g. lithium iron phosphate.",
-        "Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint before it is used."
+        "Question: “Is rewetting drained Irish bogs an effective way to reduce greenhouse gas emissions?”",
+        "Chemistry: in waterlogged peat, decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (see “The natural greenhouse effect” and “The enhanced greenhouse effect”).",
+        "Chemistry: when bogs are drained, oxygen gets in and aerobic decay releases the stored carbon as CO₂.",
+        "Chemistry: when the peat is rewetted, the CO₂ release stops, but anaerobic microorganisms produce some methane (CH₄), which is a stronger greenhouse gas per kg.",
+        "Sources: EPA Ireland reports, and Bord na Móna and National Parks and Wildlife Service information.",
+        "Sources: peer-reviewed studies of emissions from drained and rewetted bogs, and farming organisations."
       ]
     },
     {
-      "h": "Life cycle: usage and applications",
+      "h": "Weighing the evidence: peatland rewetting",
       "points": [
-        "Applications include mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.",
-        "Electric vehicles produce no exhaust emissions, which improves air quality in towns.",
-        "Over their lifetime, electric vehicles cause lower greenhouse gas emissions than petrol or diesel cars, especially when charged from renewable electricity.",
-        "Battery storage helps renewable electricity replace fossil fuels by storing energy when the wind blows or the sun shines.",
-        "The capacity falls gradually with each charge–discharge cycle and with age, because of side reactions at the electrodes, so batteries eventually need replacing.",
-        "Avoiding very high temperatures and keeping the charge between full and empty extends battery life.",
-        "If a cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably, and the flammable organic electrolyte can catch fire or explode.",
-        "Batteries include a battery management system to prevent overcharging and overheating."
+        "The size of the CO₂ savings is set against the methane emissions, compared using GWPs and CO₂ equivalent.",
+        "Rewetting has benefits for biodiversity and flood control.",
+        "Rewetting affects landowners, jobs and communities that depended on peat.",
+        "The time scales of the carbon savings and the methane emissions must be considered.",
+        "Conclusion: a justified judgement on whether the evidence shows a net climate benefit, and under what conditions."
       ]
     },
     {
-      "h": "Life cycle: disposal and recycling",
+      "h": "Worked outline: technology, UV or chlorine for disinfecting water",
       "points": [
-        "Used lithium-ion batteries must never go in household bins, because crushed or punctured batteries cause fires in bin lorries and waste facilities.",
-        "Used batteries contain toxic and valuable materials.",
-        "In Ireland, shops that sell batteries take back used batteries free of charge, and used batteries can be left at recycling centres.",
-        "Vehicle batteries are returned through the dealers.",
-        "Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution.",
-        "Recycling is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled.",
-        "The EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.",
-        "Used vehicle batteries with reduced capacity can have a “second life” as stationary storage before they are recycled."
+        "Question: “Can UV treatment replace chlorine for disinfecting public water supplies?”",
+        "Chemistry: chlorine forms hypochlorous acid (Cl₂ + H₂O ⇌ HOCl + HCl), which kills microorganisms and leaves a residual in the pipes.",
+        "Chemistry: UV damages microbial DNA and works against chlorine-resistant Cryptosporidium, but it leaves no residual.",
+        "Chemistry: chlorine can react with organic matter to form disinfection by-products, e.g. trihalomethanes (see “Treating drinking water”).",
+        "Sources: Uisce Éireann and EPA drinking-water reports, WHO guidelines, and studies of disinfection by-products.",
+        "Case study: the 2007 Galway Cryptosporidium outbreak."
       ]
     },
     {
-      "h": "Recovering metals from used batteries",
+      "h": "Weighing the evidence: UV or chlorine",
       "points": [
-        "Step 1: The batteries are collected and discharged.",
-        "Step 2: The batteries are dismantled and shredded to a powder called “black mass”.",
-        "Step 3: Metals are recovered from the black mass.",
-        "Pyrometallurgy is smelting at high temperature; it recovers cobalt, nickel and copper, but uses a lot of energy and loses most of the lithium.",
-        "Hydrometallurgy dissolves the metals in acid and separates them by precipitation; it recovers more, including lithium."
+        "Issue: the effectiveness of each method against different microorganisms.",
+        "Issue: the protection each method gives in the distribution pipes.",
+        "Issue: the health risks of by-products, set against the much larger risk of water-borne disease.",
+        "Issue: the energy use of UV lamps, and cost.",
+        "Conclusion: UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes; the reasoning must be shown."
       ]
     },
     {
-      "h": "The life cycle as a whole",
+      "h": "Chemistry as a human, collaborative endeavour",
       "points": [
-        "Lithium-ion batteries help cut fossil-fuel use, but each stage of the life cycle has environmental and social costs; longer battery life, responsible sourcing and recycling reduce those costs but do not remove them."
+        "Modern chemistry is done by teams, often international, and builds on the work of others.",
+        "The lithium-ion battery came from the work of three scientists in different countries over decades (see “The lithium-ion cell”).",
+        "The IPCC reports are written by hundreds of scientists assessing thousands of studies.",
+        "Chemistry affects society globally through clean water, medicines, energy and materials, and also through pollution and climate change.",
+        "Personal research helps students judge claims and take part in public debate."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Lithium-ion cell", "definition": "A rechargeable cell in which Li⁺ ions move between a graphite electrode and a lithium metal oxide electrode." },
-    { "term": "Intercalation", "definition": "The movement of Li⁺ ions into and out of the layered structure of an electrode without destroying it." },
-    { "term": "Separator", "definition": "A porous plastic layer between the electrodes that lets Li⁺ ions pass but stops the electrodes touching." },
-    { "term": "Anode", "definition": "The electrode where oxidation happens; in a cell it is the negative electrode on discharge and the positive electrode on charge." },
-    { "term": "Cathode", "definition": "The electrode where reduction happens; on discharge it is the positive electrode and on charge the negative electrode." },
-    { "term": "Energy density", "definition": "The amount of energy stored per kilogram of a battery." },
-    { "term": "Thermal runaway", "definition": "The uncontrolled heating of a damaged or overcharged cell, which can cause its flammable electrolyte to catch fire." },
-    { "term": "Battery management system", "definition": "Electronics that prevent a battery from being overcharged or overheated." },
-    { "term": "Black mass", "definition": "The powder produced by shredding used batteries, from which metals are recovered." },
-    { "term": "Pyrometallurgy", "definition": "Recovery of metals from waste by smelting at high temperature." },
-    { "term": "Hydrometallurgy", "definition": "Recovery of metals from waste by dissolving them in acid and separating them by precipitation." },
-    { "term": "Lithium triangle", "definition": "The salt-flat region of Chile, Argentina and Bolivia, where lithium is extracted from brines." }
+    {
+      "term": "Research-based investigation (RI)",
+      "definition": "An investigation of a question about one area of the course, through a cross-cutting theme, using evaluated sources and real chemistry."
+    },
+    {
+      "term": "Cross-cutting theme",
+      "definition": "One of the three themes of health, sustainability or technology through which a research investigation is carried out."
+    },
+    {
+      "term": "Primary data",
+      "definition": "Data a student gathers themselves, e.g. by measuring the pH of a water sample."
+    },
+    {
+      "term": "Peer review",
+      "definition": "The checking of a study's methods and conclusions by independent experts before publication."
+    },
+    {
+      "term": "Systematic review",
+      "definition": "A review that gathers and evaluates all the available studies on a question using a set method."
+    },
+    {
+      "term": "Bias",
+      "definition": "A tendency of an author or source to favour one view, often because of funding, a product or a campaign."
+    },
+    {
+      "term": "Disinfection by-product",
+      "definition": "A substance formed when a disinfectant reacts with organic matter in water, e.g. trihalomethanes."
+    },
+    {
+      "term": "Uncertainty",
+      "definition": "The range within which a measured value is likely to lie, which must be noted when evaluating evidence."
+    }
   ],
   "questions": [
     {
       "marks": 12,
-      "prompt": "Describe how a lithium-ion cell works (i) when it is powering a mobile phone, (ii) when it is being recharged. Use equations for the electrode reactions and state which kind of cell it acts as in each case.",
-      "model": "(i) When powering a mobile phone the cell acts as a galvanic cell, in which a spontaneous redox reaction converts chemical energy into electrical energy. The graphite negative electrode is the anode and lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻. The electrons flow through the external circuit to the phone, and the Li⁺ ions move through the electrolyte and separator to the positive electrode. At the positive electrode, which is the cathode, the metal oxide is reduced: CoO₂ + Li⁺ + e⁻ → LiCoO₂. Overall, LiC₆ + CoO₂ → C₆ + LiCoO₂. (ii) When recharging, the cell acts as an electrolytic cell, in which an external electrical supply drives the non-spontaneous reverse reaction and converts electrical energy into chemical energy. At the metal oxide electrode, which is now the anode, oxidation takes place: LiCoO₂ → CoO₂ + Li⁺ + e⁻. The charger drives the electrons through the external circuit to the graphite, and the Li⁺ ions move back through the electrolyte. At the graphite electrode, now the cathode, reduction takes place: C₆ + Li⁺ + e⁻ → LiC₆. Overall, C₆ + LiCoO₂ → LiC₆ + CoO₂."
+      "prompt": "Outline how you would carry out a research investigation into whether UV treatment could replace chlorination of drinking water. Refer to your question, the chemistry involved, the sources you would use and how you would evaluate them, and the issues you would weigh.",
+      "model": "Question: “Can UV treatment replace chlorine for disinfecting public water supplies?” Chemistry: chlorine forms hypochlorous acid, Cl₂ + H₂O ⇌ HOCl + HCl, which kills microorganisms and leaves a residual in the pipes; UV damages microbial DNA and works against chlorine-resistant Cryptosporidium but leaves no residual; chlorine can form trihalomethanes by reacting with organic matter. Sources: Uisce Éireann and EPA drinking-water reports, WHO guidelines and studies of disinfection by-products, using a range of viewpoints. Evaluation: for each source, check who wrote it and their expertise, when it was written, what evidence it gives and whether it was peer reviewed, and whether the author has a purpose or bias. Issues to weigh: effectiveness against different microorganisms, protection in the distribution pipes, the health risks of by-products against the much larger risk of water-borne disease, the energy use of UV lamps, and cost. A justified conclusion would be that UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes."
     },
     {
-      "marks": 12,
-      "prompt": "Discuss the life-cycle of a lithium-ion battery used in an electric car, from mining to recycling.",
-      "model": "Mining: lithium is extracted from hard rock, mainly spodumene mined in Australia, or from brines pumped from under salt flats in the lithium triangle of Chile, Argentina and Bolivia. Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife, and hard-rock mining needs energy and produces waste rock, dust and emissions. About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children; responsible sourcing and cobalt-free types such as lithium iron phosphate are responses. Manufacturing uses a lot of energy, so the battery has a large carbon footprint before use. Use: an electric car produces no exhaust emissions and, over its lifetime, causes lower greenhouse gas emissions than a petrol or diesel car, especially when charged from renewable electricity. Its capacity falls with each charge–discharge cycle and with age, and keeping the battery away from very high temperatures extends its life. Disposal and recycling: batteries must not go in household bins, because damaged batteries cause fires; they should be returned to shops or dealers. The batteries are discharged, dismantled and shredded to black mass, and metals are recovered by pyrometallurgy, which uses much energy and loses most of the lithium, or by hydrometallurgy, which recovers more, including lithium. Recycling reduces mining, landfill and pollution, but it is difficult, costly and energy-demanding. Overall, the battery helps cut fossil-fuel use, but each stage has environmental and social costs that better practice reduces but does not remove."
+      "marks": 9,
+      "prompt": "Explain why rewetting a drained peat bog reduces carbon dioxide emissions but may increase methane emissions, and explain how a researcher could compare these two effects.",
+      "model": "When a bog is drained, oxygen gets in and aerobic decay releases the carbon stored in the peat as CO₂. Rewetting stops this release, so carbon dioxide emissions fall. However, in waterlogged peat the decay is anaerobic, and anaerobic microorganisms produce some methane, which is a stronger greenhouse gas per kilogram. A researcher could compare the two effects by converting the methane emissions into CO₂ equivalent, multiplying the mass of methane by its GWP, and then comparing the result with the CO₂ saved, so that both are on the same scale. The comparison should also consider biodiversity, flood control and the effects on the communities that depended on peat."
     },
     {
       "marks": 6,
-      "prompt": "Explain why lithium is used in rechargeable batteries for mobile devices and electric vehicles.",
-      "model": "Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries made from it are light. Lithium is at the top of the electrochemical series, with a standard electrode potential of −3.04 V, so it loses electrons very easily and lithium cells have a high voltage. Together these give a high energy density, meaning a large amount of energy stored per kilogram, which is ideal for portable devices and vehicles."
+      "prompt": "State three questions you would ask to judge the reliability of a source you found during a research investigation.",
+      "model": "Any three of the following. Who wrote it, and what is their expertise? When was it written, and is it current? What evidence does it give, is that data and methods or opinion, and was it peer reviewed? Does the author have a purpose or bias, such as funding, selling a product or campaigning?"
     }
   ]
 }

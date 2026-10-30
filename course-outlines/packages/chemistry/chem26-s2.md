@@ -1,6 +1,7 @@
 # Package: chem26-s2 — Theoretical, actual and percentage yield
 
 - **loId:** `chem26-s2` · **chapterId:** `chem26` · **syllabusRef:** 1.4.7
+
 - **Syllabus:** 1.4.7 "use the concept of a mole to … analyse and solve quantitative problems
   based on balanced equations". Learn about: "the concept of a mole as applicable to
   stoichiometry and to the analysis of quantitative problems, including: … theoretical and
@@ -31,7 +32,7 @@ Why the actual yield is less than the theoretical yield (one block)
 
 Why yield matters (one block)
 - [ ] W1 In industry a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of; this links yield to sustainability.
-- [ ] W2 Pharmaceuticals are made in many steps from simpler precursors, so a low yield at each step makes the overall yield very small (see "Organic compounds in pharmaceuticals").
+- [ ] W2 Pharmaceuticals are made in many steps from simpler precursors, so a low yield at each step makes the overall yield very small (see "Organic products and pharmaceuticals").
 - [ ] W3 Overall yield of a multi-step synthesis = the product of the fractional yields of the steps, e.g. two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%.
 
 Method (one block, skills; one step per bullet)
@@ -51,7 +52,7 @@ Example 2: preparing an ester (one block, one step per bullet; sample data)
 - [ ] F1 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst; 5.72 g of pure ethyl ethanoate was obtained: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
 - [ ] F2 Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate.
 - [ ] F3 Theoretical mass = 0.100 × 88 = 8.80 g.
-- [ ] F4 Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%; the yield is well below 100% mainly because esterification is reversible and reaches equilibrium (the preparation is in "Investigation: preparing an ester").
+- [ ] F4 Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%; the yield is well below 100% mainly because esterification is reversible and reaches equilibrium (the preparation is in "Tests, reaction schemes and preparing an ester").
 
 Example 3: making aspirin (one block, one step per bullet; sample data)
 - [ ] G1 Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138); one mole of salicylic acid gives one mole of aspirin.

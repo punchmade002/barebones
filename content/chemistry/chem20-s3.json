@@ -1,173 +1,174 @@
 {
   "loId": "chem20-s3",
   "chapterId": "chem20",
-  "subsection": "3. Water contamination",
-  "syllabusRef": "4.3.3",
+  "subsection": "3. Treating drinking water",
+  "syllabusRef": "4.3.4",
   "notes": [
     {
-      "h": "Water as a finite resource",
+      "h": "Overview of water treatment",
       "points": [
-        "About 97.5% of the Earth's water is salt water in the oceans; only about 2.5% is fresh water.",
-        "Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater.",
-        "Fresh water is constantly recycled by the water cycle, but the amount available in a place at a time is limited, and demand rises with population, farming and industry.",
-        "Contamination makes some of the available fresh water unusable.",
-        "Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it returns to rivers.",
-        "Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, sludge must be disposed of, and abstraction lowers rivers and lakes.",
-        "Leaking pipes waste treated water and the energy used to treat it.",
-        "Making fresh water from sea water by desalination, e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.",
-        "Conserving water, by fixing leaks and using less, also saves energy and reduces emissions."
+        "Drinking water must be free of harmful microorganisms and chemicals, and must be clear, colourless and odourless.",
+        "In Ireland, public water supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive.",
+        "The usual order of treatment is screening, flocculation (coagulation), sedimentation, filtration (sand and, in some plants, microfiltration), disinfection (chlorination and/or UV), fluoridation and pH adjustment.",
+        "The exact steps depend on the source water.",
+        "The first steps remove suspended solids by physical means; the later steps kill microorganisms and adjust the chemistry of the water.",
+        "Diagram: a flow diagram of a treatment plant showing the intake with screen, flocculation tank (aluminium sulfate added), sedimentation tank (sludge removed), sand filter beds, chlorine and/or UV unit, fluoride and pH adjustment, storage reservoir and distribution pipes."
       ]
     },
     {
-      "h": "Dissolved oxygen and BOD",
+      "h": "Screening",
       "points": [
-        "Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m.) of dissolved oxygen, and warmer water holds less.",
-        "When organic matter (sewage, slurry, food waste or dead plants) enters water, aerobic bacteria break it down, using up dissolved oxygen.",
-        "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days; it is measured in mg L⁻¹ (p.p.m.) of oxygen.",
-        "A high BOD means a lot of organic pollution: the oxygen is used up, fish die (a fish kill), and when the oxygen is gone anaerobic bacteria take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.",
-        "Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage has a BOD of a few hundred mg L⁻¹ (about 300).",
-        "Farm wastes such as silage effluent and slurry have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river."
+        "Water from a river or lake passes through metal screens (mesh) that remove large floating objects such as branches, leaves, plastic and fish.",
+        "No chemicals are added at the screening stage."
       ]
     },
     {
-      "h": "Investigation: measuring biochemical oxygen demand",
-      "b": "The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity.",
+      "h": "Flocculation",
       "points": [
-        "The sample is kept in the dark because this prevents photosynthesis by algae and plants from adding oxygen.",
-        "The temperature is fixed at 20 °C because both the solubility of oxygen and the rate of bacterial activity depend on temperature.",
-        "The time is fixed at five days so that results are comparable.",
-        "Step 1: Measure the dissolved oxygen in one bottle of the sample at the start.",
-        "Step 2: Fill a second bottle completely and seal it, then keep it in the dark at 20 °C for five days.",
-        "Step 3: Measure the dissolved oxygen in the second bottle after five days.",
-        "Step 4: The BOD is the difference between the two dissolved oxygen readings.",
-        "Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation in the dark at 20 °C for five days."
+        "Very small suspended particles (clay, silt and organic matter) don't settle because they are tiny and carry like, usually negative, charges that make them repel each other.",
+        "A flocculating agent (coagulant), usually aluminium sulfate, Al₂(SO₄)₃, is added and stirred in; iron salts and polyelectrolytes are also used.",
+        "The positive Al³⁺ ions neutralise the charges on the particles, so the particles clump together.",
+        "Aluminium hydroxide also forms as a sticky, jelly-like precipitate that traps the particles: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).",
+        "The particles join into larger clumps called flocs, which are heavy enough to settle."
       ]
     },
     {
-      "h": "Sewage",
+      "h": "Sedimentation",
       "points": [
-        "Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion.",
-        "Sewage also contains nitrates and phosphates, which cause eutrophication.",
-        "Sewage contains disease-causing microorganisms, including bacteria such as E. coli and those causing cholera and typhoid, as well as viruses and parasites.",
-        "Faecal contamination of drinking water or bathing water causes gastrointestinal illness; this is why sewage must be treated before discharge and drinking water disinfected."
+        "Water flows slowly through large settling tanks, where the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter.",
+        "The sludge that collects at the bottom is removed and disposed of, and the clearer water flows off the top."
       ]
     },
     {
-      "h": "Agricultural effluent",
+      "h": "Filtration",
       "points": [
-        "Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.",
-        "Slurry and silage effluent have a very high BOD and cause fish kills if they reach a river.",
-        "Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.",
-        "Nitrate in drinking water is a health concern, especially for babies, because it can reduce the blood's ability to carry oxygen.",
-        "The EU drinking-water limit for nitrate is 50 mg L⁻¹.",
-        "Pesticides washed off farmland can contaminate water and are toxic to aquatic life."
+        "Sand filtration: water passes down through beds of sand on a layer of gravel, and the remaining small particles and flocs are trapped in the spaces between the sand grains.",
+        "The filters are cleaned regularly by backwashing, which pumps clean water up through the bed.",
+        "Microfiltration forces water through membranes with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites such as Cryptosporidium.",
+        "Microfiltration does not remove dissolved substances or most viruses."
       ]
     },
     {
-      "h": "Eutrophication",
-      "b": "Eutrophication is a chain of events that starts with added nutrients and can end with the death of fish.",
+      "h": "Chlorination",
       "points": [
-        "Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.",
-        "Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below.",
-        "Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply.",
-        "Living algae growing in light do not use up the oxygen; it is the bacteria decomposing them after they die that do.",
-        "Step 4: Dissolved oxygen falls so low that fish and other animals die, and anaerobic bacteria then produce foul-smelling H₂S.",
-        "Some algal blooms, e.g. of cyanobacteria (“blue-green algae”), also produce toxins harmful to animals and people.",
-        "Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain, and buffer strips along rivers.",
-        "Prevention: proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, and phosphate-free detergents."
+        "Chlorination kills disease-causing microorganisms (bacteria and viruses) so that the water is safe to drink.",
+        "Chlorine gas or sodium hypochlorite (NaOCl) is added.",
+        "Chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).",
+        "Enough chlorine is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹), which keeps the water disinfected as it travels through the pipes to the tap.",
+        "Some organisms, especially Cryptosporidium, resist chlorine at the levels used, so another barrier (good filtration or UV) is needed.",
+        "Too much chlorine gives an unpleasant taste and smell.",
+        "Chlorine reacts with organic matter in the water to form by-products such as trihalomethanes, whose levels are limited by law.",
+        "Removing organic matter first, by flocculation and filtration, keeps trihalomethane levels low."
       ]
     },
     {
-      "h": "Industrial effluent",
+      "h": "UV treatment",
       "points": [
-        "Industrial effluent can contain toxic chemicals such as heavy metals, solvents and oils.",
-        "Industrial effluent can contain acids or alkalis that change the pH of the water.",
-        "Organic waste from industries such as breweries and food processing has a high BOD.",
-        "Thermal pollution: warm water from power stations and factories holds less dissolved oxygen.",
-        "Warm water also speeds up the metabolism, and so the oxygen demand, of organisms, so less oxygen is available.",
-        "Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals."
+        "The water flows past lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so that they can't reproduce.",
+        "UV treatment is effective against Cryptosporidium.",
+        "UV adds no chemicals and does not change the taste or smell of the water.",
+        "UV leaves no residual disinfectant in the pipes, so chlorine is still added afterwards.",
+        "The water must be clear first, because suspended particles can shield microorganisms from the UV; the lamps use electricity.",
+        "An outbreak of Cryptosporidium infection in Galway in 2007, from the city's water supply, led to UV treatment being installed at the treatment plant there."
       ]
     },
     {
-      "h": "Heavy metals",
+      "h": "Fluoridation",
       "points": [
-        "Heavy metal ions such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations, in micrograms per litre.",
-        "Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working.",
-        "Heavy metals damage the nervous system, kidneys and liver.",
-        "They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation).",
-        "Their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.",
-        "Heavy metal ions can be removed from water by precipitation as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange."
+        "A fluoride compound is added to public water supplies: usually hexafluorosilicic acid (H₂SiF₆) in Ireland, and sodium fluoride (NaF) elsewhere.",
+        "Fluoride helps prevent tooth decay: it is taken into tooth enamel, converting some of the hydroxyapatite into fluorapatite.",
+        "Fluorapatite is more resistant to attack by acids made by bacteria than hydroxyapatite is.",
+        "Ireland has fluoridated public water supplies since the 1960s, under the Health (Fluoridation of Water Supplies) Act 1960.",
+        "The fluoride level is set at 0.6–0.8 mg L⁻¹ (p.p.m.), with a legal maximum of 0.8 mg L⁻¹ (since 2007).",
+        "Too much fluoride causes dental fluorosis, which shows as white flecks or brown staining of the teeth.",
+        "Fluoridation is debated, and most European countries do not fluoridate water."
       ]
     },
     {
-      "h": "Lead, mercury and cadmium",
+      "h": "pH adjustment",
       "points": [
-        "Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic.",
-        "Lead damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺.",
-        "The EU drinking-water limit for lead is 10 µg L⁻¹ (0.010 mg L⁻¹).",
-        "At Minamata, Japan, the Chisso Corporation's chemical factory discharged mercury compounds into the bay.",
-        "Methylmercury built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.",
-        "The disease was called Minamata disease and was officially recognised in 1956.",
-        "Cadmium comes from mining and some industries and damages the kidneys and bones.",
-        "Itai-itai disease in Japan was caused by cadmium from mining, which reached river water used for rice fields."
+        "The pH of drinking water must be kept within legal limits of 6.5–9.5, usually close to neutral or slightly alkaline.",
+        "If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH.",
+        "If the water is too alkaline, e.g. after lime has been added in treatment, sulfuric acid or carbon dioxide is added to lower the pH.",
+        "Acidic water corrodes metal pipes and dissolves lead and copper from household plumbing, which is a health risk.",
+        "Very alkaline water tastes bitter and leaves deposits.",
+        "The pH also affects how well flocculation and chlorination work."
       ]
     },
     {
-      "h": "Microplastics",
+      "h": "The impact of providing clean water",
       "points": [
-        "Microplastics are pieces of plastic smaller than 5 mm.",
-        "Primary microplastics are made small, e.g. microbeads once used in cosmetics and plastic pellets.",
-        "Secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.",
-        "Plastics are very unreactive and not biodegradable, so they persist for hundreds of years (see “Addition polymers”).",
-        "Microplastics are swallowed by plankton, shellfish and fish, blocking feeding and digestion, and they pass up the food chain.",
-        "Microplastics can carry adsorbed toxic chemicals.",
-        "Microplastics are found in drinking water and food; their long-term effects on human health are still being researched."
-      ]
-    },
-    {
-      "h": "Acidification",
-      "points": [
-        "Sulfur dioxide dissolves in rain: SO₂ + H₂O → H₂SO₃.",
-        "Sulfur dioxide and oxygen form sulfuric acid in rain: 2SO₂ + O₂ + 2H₂O → 2H₂SO₄.",
-        "Nitrogen dioxide forms nitric acid in rain: 4NO₂ + O₂ + 2H₂O → 4HNO₃.",
-        "Acidic industrial and mine waste water also lowers the pH of rivers and lakes.",
-        "Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH.",
-        "Enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells.",
-        "Fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.",
-        "Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so that fish can't take in oxygen.",
-        "Acidic water dissolves the calcium carbonate shells of snails and shellfish: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.",
-        "In drinking water, acidic water dissolves lead and copper from pipes."
+        "Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.",
+        "In 1854 John Snow traced a cholera outbreak in London to a contaminated water pump in Broad Street, an early piece of evidence that disease spreads through water.",
+        "Globally, about 2.2 billion people still lacked safely managed drinking water in 2022 (WHO/UNICEF).",
+        "Contaminated water and poor sanitation cause many deaths from diarrhoeal disease, mostly of young children.",
+        "Clean, safe water and sanitation for all is UN Sustainable Development Goal 6.",
+        "Clean water brings benefits beyond health: less time is spent collecting water, often by women and girls; more children attend school; workers are healthier; and economies develop.",
+        "Costs: treatment uses energy and chemicals and produces sludge (see “Water contamination”), so treated water should not be wasted."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Biochemical oxygen demand (BOD)", "definition": "The amount of dissolved oxygen used up by microorganisms when a water sample is kept in the dark at 20 °C for five days." },
-    { "term": "Effluent", "definition": "Liquid waste discharged into a river, lake or sea from sewage, farms or industry." },
-    { "term": "Eutrophication", "definition": "The enrichment of water with nutrients such as nitrates and phosphates, leading to excessive growth of algae and plants." },
-    { "term": "Algal bloom", "definition": "A rapid growth of algae that covers the surface of water and blocks light from plants below." },
-    { "term": "Thermal pollution", "definition": "Pollution of water by warm water discharged from power stations and factories, which holds less dissolved oxygen." },
-    { "term": "Heavy metal", "definition": "A metal such as lead, mercury or cadmium that is toxic even at very low concentrations." },
-    { "term": "Bioaccumulation", "definition": "The build-up of a substance in the tissues of an organism that cannot excrete it easily." },
-    { "term": "Biomagnification", "definition": "The increase in concentration of a substance at each level up a food chain." },
-    { "term": "Microplastic", "definition": "A piece of plastic smaller than 5 mm." },
-    { "term": "Acid rain", "definition": "Rain with a lower pH than normal, caused by sulfur dioxide and nitrogen oxides dissolving in it." },
-    { "term": "Desalination", "definition": "Making fresh water from sea water, e.g. by reverse osmosis." }
+    {
+      "term": "Screening",
+      "definition": "The first stage of water treatment, in which metal screens remove large floating objects."
+    },
+    {
+      "term": "Flocculation",
+      "definition": "The clumping of very small suspended particles into larger flocs, caused by adding a flocculating agent."
+    },
+    {
+      "term": "Flocculating agent (coagulant)",
+      "definition": "A chemical, usually aluminium sulfate, added to water to make suspended particles clump together."
+    },
+    {
+      "term": "Sedimentation",
+      "definition": "The settling of heavier flocs and particles to the bottom of a tank under gravity."
+    },
+    {
+      "term": "Backwashing",
+      "definition": "Cleaning a filter bed by pumping clean water up through it."
+    },
+    {
+      "term": "Microfiltration",
+      "definition": "Forcing water through membranes with very small pores to remove fine particles, bacteria and protozoan parasites."
+    },
+    {
+      "term": "Hypochlorous acid (HOCl)",
+      "definition": "The main disinfectant formed when chlorine reacts with water."
+    },
+    {
+      "term": "Residual chlorine",
+      "definition": "A small amount of free chlorine left in the water so that it stays disinfected in the pipes."
+    },
+    {
+      "term": "Trihalomethanes",
+      "definition": "By-products formed when chlorine reacts with organic matter in water, whose levels are limited by law."
+    },
+    {
+      "term": "Fluorapatite",
+      "definition": "A form of tooth enamel made when fluoride converts hydroxyapatite; it resists attack by acids."
+    },
+    {
+      "term": "Dental fluorosis",
+      "definition": "White flecks or brown staining of the teeth caused by too much fluoride."
+    }
   ],
   "questions": [
     {
       "marks": 12,
-      "prompt": "Define eutrophication. Explain, step by step, how fertiliser run-off can lead to a fish kill in a lake, and suggest two ways of preventing it.",
-      "model": "Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants. Step 1: nitrates and phosphates from fertiliser run-off enter the lake. Step 2: algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below. Step 3: the algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply. Step 4: the dissolved oxygen falls so low that fish die. Two ways of preventing it: controlled use of fertilisers, applying the right amount at the right time and not before heavy rain; and buffer strips along the rivers, or proper storage of slurry and silage, or removing phosphates and nitrates in sewage treatment."
+      "prompt": "Describe four stages in the treatment of drinking water, naming any chemical added and stating the purpose of each stage.",
+      "model": "Flocculation: aluminium sulfate, Al₂(SO₄)₃, is added and stirred in. Its positive Al³⁺ ions neutralise the charges on very small suspended particles, so they clump together into flocs. Sedimentation: the water flows slowly through settling tanks, where the heavier flocs sink to the bottom under gravity; the sludge is removed and the clearer water flows off the top. Filtration: the water passes down through beds of sand on gravel, which trap the remaining small particles and flocs between the sand grains. Chlorination: chlorine is added and reacts with water to form hypochlorous acid, Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq), which kills disease-causing microorganisms, and a small residual is left to keep the water disinfected in the pipes."
     },
     {
       "marks": 9,
-      "prompt": "Define biochemical oxygen demand. Explain why the sample is kept in the dark and at 20 °C, and explain why a high BOD is harmful to a river.",
-      "model": "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days, measured in mg L⁻¹ of oxygen. The sample is kept in the dark to prevent photosynthesis by algae and plants from adding oxygen. It is kept at 20 °C because the solubility of oxygen and the rate of bacterial activity both depend on temperature, so a fixed temperature makes results comparable. A high BOD means a lot of organic pollution is being broken down by aerobic bacteria, which use up the oxygen. Fish and other aquatic life then die, and when the oxygen is gone anaerobic bacteria produce foul-smelling gases such as hydrogen sulfide and methane."
+      "prompt": "Compare chlorination and UV treatment as methods of disinfecting drinking water.",
+      "model": "Both methods kill disease-causing microorganisms. Chlorination adds chlorine, which forms hypochlorous acid, Cl₂ + H₂O ⇌ HOCl + HCl, that kills microorganisms; it leaves a residual that keeps the water disinfected in the pipes to the tap. Its drawbacks are that some organisms, especially Cryptosporidium, resist chlorine at the levels used, too much gives an unpleasant taste and smell, and it reacts with organic matter to form trihalomethanes. UV treatment passes the water under lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so that they can't reproduce. It adds no chemicals, does not change taste or smell, and is effective against Cryptosporidium. However, it leaves no residual, so chlorine is still needed for the pipes, and the water must be clear first because particles can shield microorganisms from the UV."
     },
     {
-      "marks": 9,
-      "prompt": "Discuss the biochemical consequences of contamination of water by (i) heavy metals and (ii) microplastics.",
-      "model": "(i) Heavy metal ions such as Pb²⁺, Hg²⁺ and Cd²⁺ are toxic even at very low concentrations. They bind to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working, and they damage the nervous system, kidneys and liver. They are cumulative: they build up in tissues (bioaccumulation) and their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk. Mercury at Minamata, Japan, caused severe nervous-system damage, birth defects and deaths. (ii) Microplastics are pieces of plastic smaller than 5 mm, either made small (primary, e.g. microbeads) or formed by the breakdown of larger items (secondary, e.g. fibres from clothing). They are swallowed by plankton, shellfish and fish, blocking feeding and digestion, and pass up the food chain. They can carry adsorbed toxic chemicals, and they persist for hundreds of years."
+      "marks": 6,
+      "prompt": "Appreciate the impact of providing clean water: give three benefits of a safe public water supply.",
+      "model": "Any three of the following. A safe public water supply protects people from water-borne diseases such as cholera, typhoid and dysentery, which killed huge numbers of people in cities before treatment and disinfection. It reduces the deaths from diarrhoeal disease, mostly of young children, that contaminated water and poor sanitation cause. It saves time spent collecting water, often by women and girls, so more children can attend school and workers are healthier, which helps economic development."
     }
   ]
 }

@@ -1,50 +1,123 @@
-# Package: chem1-s2 — Models and their limits
+# Package: chem1-s2 — Science as a global enterprise and researching an issue
 
-- **loId:** `chem1-s2` · **chapterId:** `chem1` · **syllabusRef:** U1 LA
-- **Syllabus:** U1 learn about: "the power of models for developing understanding and meaning,
-  and the limitations of models". No Higher Level only material.
-- **Prepared by:** a higher model, 2026-10-30. Keep this to what a model is, the kinds of model
-  chemists use, why they are powerful, and their limitations, with chemical examples. The U4
-  outcome (models as simplified representations with assumptions, modified with new data,
-  predictive) is taught in "Abstraction to representation"; don't repeat its three properties
-  as a list here, but you may use the words.
+- **loId:** `chem1-s2` · **chapterId:** `chem1` · **syllabusRef:** U1 LA, U1.2
+- **Merged:** this subsection combines "Science as a global enterprise" (formerly `chem1-s3`), "Researching a scientific issue" (formerly `chem1-s4`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Science as a global enterprise (formerly `chem1-s3`)
 
-What a model is (one block)
-- [ ] M1 A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly, such as atoms and molecules.
-- [ ] M2 Kinds of model in chemistry: physical models (ball-and-stick and space-filling molecular models), diagrams (dot-and-cross diagrams, energy-level diagrams, energy profile diagrams), mathematical models (equations such as PV = nRT), symbolic models (chemical formulae and equations) and computer or digital simulations.
-- [ ] M3 Theoretical models: a theory can act as a model, e.g. the kinetic theory models matter as moving particles; collision theory models how reactions happen.
+- **loId:** `chem1-s3` · **chapterId:** `chem1` · **syllabusRef:** U1 LA
+- **Syllabus:** U1 learn about: "science as a global enterprise that relies on evidence, clear
+  communication, international conventions, peer review, repeatability and reproducibility".
+  No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30. One block per idea in the syllabus sentence.
 
-The power of models (one block)
-- [ ] P1 Models make the very small, very large or invisible understandable, e.g. a molecular model shows the shape of a molecule that is far too small to see.
-- [ ] P2 Models explain observations, e.g. the particle model explains why gases can be compressed and liquids cannot (much).
-- [ ] P3 Models allow predictions that can be tested, e.g. the ideal gas equation predicts the volume of a gas at a new temperature and pressure; VSEPR theory predicts molecular shapes.
-- [ ] P4 Models help communicate ideas between scientists and to the public.
+### 1. Must cover
 
-Limitations of models (one block)
-- [ ] L1 Every model is a simplification: it leaves out detail and is built on assumptions, so it is never a perfect copy of reality.
-- [ ] L2 A model works only within a range of conditions, e.g. the ideal gas model fails at high pressure and low temperature, where real gases deviate.
-- [ ] L3 Physical models can mislead: ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and show the wrong relative sizes and distances.
-- [ ] L4 Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question (e.g. the Bohr model is good enough to explain flame colours and line spectra but not the shapes of orbitals).
-- [ ] L5 Models are tested against evidence and are modified or replaced when they fail to explain new observations.
+Science as a global enterprise (one block)
+- [ ] G1 Science is carried out by scientists in universities, industry and government laboratories worldwide, who share results and build on each other's work.
+- [ ] G2 Large problems (climate change, new medicines, clean energy) are tackled by international collaborations that share data, equipment and funding.
+- [ ] G3 Scientists publish in journals and present at conferences so that results are available to everyone and can be checked.
 
-## 2. Checked facts and examples
+Evidence and clear communication (one block)
+- [ ] E1 Scientific claims must be supported by evidence that others can examine; data, methods and conclusions are published together.
+- [ ] E2 Reports must describe the method in enough detail for another scientist to repeat it exactly.
+- [ ] E3 Clear communication uses precise scientific terms, SI units, correct significant figures, labelled tables and graphs, and cited sources.
 
-Use only the examples named above (ball-and-stick, space-filling, dot-and-cross, energy-level and energy profile diagrams, PV = nRT, kinetic theory, collision theory, VSEPR, Bohr model). No names or dates.
+International conventions (one block)
+- [ ] C1 International conventions are agreed rules that all scientists use, so results mean the same everywhere.
+- [ ] C2 IUPAC (the International Union of Pure and Applied Chemistry) sets the rules for naming compounds (systematic names such as but-1-ene) and agrees chemical symbols and atomic masses.
+- [ ] C3 The SI (Système International) system of units: e.g. the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol).
+- [ ] C4 Other shared conventions: chemical symbols and formulae, standard conditions for measurements, and international hazard symbols (pictograms) on chemicals.
 
-## 3. Traps
+Peer review (one block)
+- [ ] P1 Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published.
+- [ ] P2 Steps: the scientist submits a paper to a journal; the editor sends it to reviewers; they check the method, data, analysis and conclusions for errors, originality and whether the conclusions are justified; the paper is accepted, returned for changes, or rejected.
+- [ ] P3 Purpose: it filters out poor or flawed work, reduces bias and gives readers confidence in published results. It does not guarantee a result is correct.
 
-- A model is not the same as the real thing and is not "wrong" because it is simplified; its usefulness is judged by what it explains and predicts.
-- The ideal gas detail (assumptions, deviations) belongs to "Gas relationships and the ideal gas"; give only the one-line example.
-- Don't list "simplified, can be modified, can predict" as a set: that list is the U4 outcome in "Abstraction to representation".
+Repeatability and reproducibility (one block)
+- [ ] R1 Repeatable: the same experimenter using the same method and equipment gets the same (or very similar) results when the experiment is repeated.
+- [ ] R2 Reproducible: a different experimenter, using different equipment or a different method, gets the same results.
+- [ ] R3 A claim is accepted only when its results are reproducible; results that no one else can reproduce are not accepted.
 
-## 4. What exams ask (topics only)
+### 2. Checked facts and examples
 
-- Explain what is meant by a scientific model and give an example.
-- State one limitation of a named model.
+| Item | Fact |
+|---|---|
+| C2 | IUPAC: International Union of Pure and Applied Chemistry. |
+| C3 | SI base units include m, kg, s, K, mol (also A, cd). |
 
-## 5. Practice questions to write
+No other names, dates or figures.
 
-1. 6 marks: "What is a scientific model? Give two different kinds of model used in chemistry, with an example of each." Model answer: M1; two of M2.
-2. 6 marks: "Describe two limitations of using a ball-and-stick model to represent a molecule." Model answer: L1, L3.
+### 3. Traps
+
+- Don't confuse repeatable (same person, same method) with reproducible (different person or method).
+- Peer review happens before publication; checking results by repeating them afterwards is reproducibility.
+- Hazard symbols and risk assessment belong mainly to "Questions, hypotheses and designing investigations"; name them here only as a convention.
+
+### 4. What exams ask (topics only)
+
+- Explain peer review and why it is important.
+- Distinguish between repeatability and reproducibility.
+- Why do scientists use international conventions such as IUPAC naming and SI units?
+
+### 5. Practice questions to write
+
+1. 6 marks: "Explain what is meant by peer review and state why it is important in science." Model answer: P1, P2 summarised, P3.
+2. 6 marks: "Distinguish between the repeatability and the reproducibility of an experiment, and explain why reproducibility matters." Model answer: R1–R3.
+
+## Part: Researching a scientific issue (formerly `chem1-s4`)
+
+- **loId:** `chem1-s4` · **chapterId:** `chem1` · **syllabusRef:** U1.2
+- **Syllabus:** U1.2 "conduct research relevant to a scientific issue and evaluate different
+  sources of information including secondary data, understanding that a source may lack detail
+  or show bias". No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30. This is the research skill used in the four
+  research-based investigations (RI) and the Chemistry in Practice Investigation. Teach primary
+  vs secondary data, kinds of source, and a checklist for evaluating them.
+
+### 1. Must cover
+
+Planning research (one block)
+- [ ] P1 Start with a focused research question about the issue (e.g. "What are the environmental effects of lithium mining?").
+- [ ] P2 Identify keywords and search systematically; record every source used (author, title, date, publisher or website, date accessed).
+- [ ] P3 Take notes in your own words and keep a research log.
+
+Primary and secondary data (one block)
+- [ ] D1 Primary data are collected first-hand by the investigator, e.g. by experiment or measurement.
+- [ ] D2 Secondary data are collected by someone else, e.g. published results, government statistics, databases, other class groups' results.
+- [ ] D3 Secondary data are used to compare with primary data, to check or support conclusions, or where an experiment can't be done in school.
+
+Kinds of source (one block)
+- [ ] S1 Peer-reviewed journal articles: most reliable, but technical.
+- [ ] S2 Books and textbooks; reports from government agencies and scientific bodies (e.g. the Environmental Protection Agency in Ireland).
+- [ ] S3 News media, websites, blogs and social media: accessible but of variable reliability; may simplify, sensationalise or omit detail.
+- [ ] S4 Company or campaign-group material: may be written to sell a product or promote a view.
+
+Evaluating a source (one block)
+- [ ] E1 Authority: who wrote it, and are they qualified and named?
+- [ ] E2 Accuracy and evidence: are claims supported by data and references; can they be checked against other sources?
+- [ ] E3 Currency: is it up to date?
+- [ ] E4 Purpose and bias: is it trying to inform, persuade or sell? Who funded it? Does it present only one side?
+- [ ] E5 Detail: does it explain methods, sample sizes and uncertainties, or just give conclusions? A source may lack the detail needed to judge it.
+- [ ] E6 Corroboration: a claim supported by several independent reliable sources is more trustworthy.
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| S2 | The Environmental Protection Agency (EPA) is Ireland's environmental regulator and publishes reports and data on air and water quality. |
+
+### 3. Traps
+
+- Don't present a named mnemonic (CRAAP, CARDS) as an official checklist; describe the criteria.
+- Evaluating media-based arguments is "Chemistry in society and the media"; keep this to research sources.
+
+### 4. What exams ask (topics only)
+
+- Distinguish between primary and secondary data.
+- How would you judge whether a source of information is reliable?
+
+### 5. Practice questions to write
+
+1. 6 marks: "Distinguish between primary data and secondary data, giving an example of each from a chemistry investigation." Model answer: D1, D2 with examples.
+2. 9 marks: "A student researching the safety of a food additive finds a website run by the company that makes it. Describe three criteria the student should use to evaluate this source and other sources." Model answer: three of E1–E6, with E4 applied to the company.

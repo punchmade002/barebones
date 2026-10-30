@@ -1,169 +1,160 @@
 {
   "loId": "chem5-s2",
   "chapterId": "chem5",
-  "subsection": "2. Modelling bonding and predicting formulae",
-  "syllabusRef": "2.1.3",
+  "subsection": "2. Investigation: identifying ions in salts and solutions",
+  "syllabusRef": "2.1.5",
   "notes": [
     {
-      "h": "Valency and the octet rule",
+      "h": "General points",
       "points": [
-        "Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.",
-        "The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.",
-        "Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium.",
-        "Elements in group 1 and group 17 have a valency of 1.",
-        "Elements in group 2 and group 16 have a valency of 2.",
-        "Elements in group 13 and group 15 have a valency of 3.",
-        "Elements in group 14 have a valency of 4."
+        "A salt contains a cation (positive ion, usually a metal) and an anion (negative ion).",
+        "The anion tests are carried out on a solution of the salt in deionised water.",
+        "Tests work only above a certain minimum concentration of the ion; very dilute solutions may give no visible result.",
+        "Use deionised water and clean test tubes, so that ions from tap water or other samples don't give false results.",
+        "Test a blank of deionised water as a control.",
+        "A precipitate is an insoluble solid that forms when two solutions are mixed.",
+        "Effervescence is fizzing as a gas is given off."
       ]
     },
     {
-      "h": "Predicting ionic formulae",
+      "h": "Cation: flame test",
       "points": [
-        "Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.",
-        "Step 2: Combine the ions so that the total positive charge equals the total negative charge.",
-        "Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.",
-        "Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.",
-        "Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻."
+        "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour (see \"The orbital model and electronic structure\")."
       ]
     },
     {
-      "h": "Compound ions",
+      "h": "Chloride",
       "points": [
-        "Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.",
-        "Positive compound ion: ammonium NH₄⁺.",
-        "Brackets are used round a compound ion when more than one is needed, e.g. Ca(OH)₂ and (NH₄)₂SO₄."
+        "Add a few drops of silver nitrate solution, acidified with dilute nitric acid.",
+        "A white precipitate of silver chloride forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+        "Confirm the precipitate by showing that it dissolves in dilute ammonia solution.",
+        "Use nitric acid, not hydrochloric acid, which would add chloride ions.",
+        "Nitric acid is added first to remove carbonate ions, which would also give a precipitate with silver nitrate."
       ]
     },
     {
-      "h": "Predicting covalent formulae",
+      "h": "Sulfate and sulfite",
       "points": [
-        "Covalent formulae: atoms share enough electron pairs to complete each octet.",
-        "Hydrogen (valency 1) and oxygen (valency 2) form H₂O.",
-        "Nitrogen (valency 3) and hydrogen form NH₃.",
-        "Carbon (valency 4) and hydrogen form CH₄.",
-        "Carbon and oxygen form CO₂, with two double bonds."
+        "Add barium chloride solution: sulfate and sulfite both give a white precipitate.",
+        "Sulfate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s).",
+        "Sulfite: Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).",
+        "Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves.",
+        "Barium sulfite reacts with the acid: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).",
+        "Safety: barium compounds are toxic.",
+        "Safety: sulfur dioxide is a toxic, choking gas, so use small amounts in good ventilation."
       ]
     },
     {
-      "h": "Lewis (dot-and-cross) diagrams",
+      "h": "Carbonate and hydrogencarbonate",
       "points": [
-        "A Lewis diagram shows the outer electrons of each atom as dots or crosses.",
-        "Shared pairs of electrons are drawn between the atoms they join.",
-        "Lone pairs are pairs of outer electrons that are not used in bonding.",
-        "Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.",
-        "Magnesium oxide is drawn as [Mg]²⁺ [O]²⁻.",
-        "Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.",
-        "Ammonia, NH₃, has one lone pair on nitrogen.",
-        "O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.",
-        "Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled."
+        "Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide.",
+        "Carbonate: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.",
+        "Hydrogencarbonate: HCO₃⁻ + H⁺ → CO₂ + H₂O.",
+        "Confirm the gas as carbon dioxide: it turns limewater milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
+        "To tell them apart, add magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold, Mg²⁺ + CO₃²⁻ → MgCO₃(s).",
+        "A hydrogencarbonate gives no precipitate with magnesium sulfate solution until the mixture is heated.",
+        "On heating: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l)."
       ]
     },
     {
-      "h": "Orbital overlap",
+      "h": "Nitrate: the brown ring test",
       "points": [
-        "A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.",
-        "The shared pair occupies the overlap region between the two nuclei."
+        "Add freshly made iron(II) sulfate solution to the test solution in a test tube.",
+        "Hold the tube at an angle and carefully run concentrated sulfuric acid down the side, so that it forms a dense layer at the bottom; don't shake.",
+        "A brown ring forms where the two layers meet, showing nitrate.",
+        "Iron(II) reduces nitrate to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.",
+        "Nitrogen monoxide forms a brown complex with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.",
+        "Safety: concentrated sulfuric acid is very corrosive; wear goggles and gloves, and add it slowly."
       ]
     },
     {
-      "h": "Sigma and pi bonds (Higher Level only)",
+      "h": "Phosphate",
       "points": [
-        "A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.",
-        "Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.",
-        "A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.",
-        "Every single bond is a σ bond.",
-        "A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.",
-        "π bonds are weaker than σ bonds because sideways overlap is less effective.",
-        "π bonds prevent rotation about a double bond.",
-        "Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π)."
+        "Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently.",
+        "A yellow precipitate of ammonium phosphomolybdate shows phosphate.",
+        "Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.",
+        "Safety: concentrated nitric acid is corrosive and an oxidising agent; use a fume cupboard."
       ]
     },
     {
-      "h": "Delocalised bonding (Higher Level only)",
+      "h": "Links to water supplies",
       "points": [
-        "In delocalised bonding, electrons are spread over several atoms rather than confined between two.",
-        "In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.",
-        "This forms a ring of delocalised π electrons above and below the plane of the ring.",
-        "All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds.",
-        "Benzene's structure is used again in the chapter \"Allotropes of Carbon. Hydrocarbons\"."
+        "Chlorides come from sea water and road salt; chlorination of water also gives chloride.",
+        "Nitrates and phosphates come from fertilisers, animal slurry, sewage and detergents.",
+        "Nitrates and phosphates contaminate water and cause eutrophication (taught in the environmental chemistry chapter).",
+        "Hard water contains dissolved calcium and magnesium ions.",
+        "Calcium and magnesium ions with hydrogencarbonate ions cause temporary hardness, which is removed by boiling.",
+        "Calcium and magnesium ions with sulfate or chloride ions cause permanent hardness.",
+        "Hard water forms scum with soap.",
+        "Carbonates and hydrogencarbonates come from water flowing over limestone, which is calcium carbonate."
       ]
     },
     {
-      "h": "Extending the rules to element 36 (Higher Level only)",
+      "h": "Investigation: identifying an unknown salt",
       "points": [
-        "The same rules apply to elements 21–36 in the main groups.",
-        "Potassium bromide is K⁺Br⁻.",
-        "Calcium bromide is CaBr₂.",
-        "Gallium (group 13) forms Ga³⁺ ions.",
-        "Arsenic (group 15) and hydrogen form AsH₃.",
-        "Selenium (group 16) and hydrogen form H₂Se."
-      ]
-    },
-    {
-      "h": "Limitations in predicting bonding (Higher Level only)",
-      "points": [
-        "Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.",
-        "Elements in period 3 and beyond can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.",
-        "SF₆ has twelve electrons around sulfur.",
-        "The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.",
-        "They cannot show delocalised bonding, as in benzene.",
-        "Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum."
+        "Aim: to identify the cation and the anion in an unknown salt, using primary data.",
+        "Step 1: Carry out a flame test on the solid to identify the cation.",
+        "Step 2: Add dilute hydrochloric acid to a little of the solid to test for carbonate and hydrogencarbonate, then dissolve a little of the salt in deionised water.",
+        "Step 3: Carry out the other anion tests on separate portions of the solution in a logical order, recording the reagent, observation and conclusion in a table.",
+        "Step 4: Run each test on a known sample of the ion alongside, as a positive control, and on deionised water as a negative control.",
+        "Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate that dissolves in ammonia indicate potassium chloride, KCl.",
+        "Diagram: the brown ring test tube, showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary."
       ]
     }
   ],
   "keyTerms": [
     {
-      "term": "Valency",
-      "definition": "The number of electrons an atom loses, gains or shares when it bonds."
+      "term": "Cation",
+      "definition": "A positively charged ion, usually a metal ion."
     },
     {
-      "term": "Octet rule",
-      "definition": "The tendency of atoms to lose, gain or share electrons to reach eight electrons in their outer energy level."
+      "term": "Anion",
+      "definition": "A negatively charged ion."
     },
     {
-      "term": "Compound ion",
-      "definition": "A group of atoms that carries an overall charge, such as SO₄²⁻ or NH₄⁺."
+      "term": "Deionised water",
+      "definition": "Water from which dissolved ions have been removed, used so that ions in tap water don't give false results."
     },
     {
-      "term": "Lewis diagram",
-      "definition": "A diagram that shows the outer electrons of each atom as dots or crosses to represent bonding."
+      "term": "Precipitate",
+      "definition": "An insoluble solid that forms when two solutions are mixed."
     },
     {
-      "term": "Lone pair",
-      "definition": "A pair of outer electrons on an atom that is not used in bonding."
+      "term": "Effervescence",
+      "definition": "Fizzing caused by a gas being given off."
     },
     {
-      "term": "Orbital overlap",
-      "definition": "The overlap of an orbital of one atom with an orbital of another, each holding one electron, to form a covalent bond."
+      "term": "Positive control",
+      "definition": "A test on a known sample of the ion, run alongside the unknown to check that the test works."
     },
     {
-      "term": "Sigma bond",
-      "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining the two nuclei."
+      "term": "Negative control",
+      "definition": "A test on deionised water, to check that the result is not a false positive."
     },
     {
-      "term": "Pi bond",
-      "definition": "A covalent bond formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei."
+      "term": "Temporary hardness",
+      "definition": "Hardness caused by calcium or magnesium hydrogencarbonate in water, which boiling removes."
     },
     {
-      "term": "Delocalised electrons",
-      "definition": "Electrons spread over several atoms rather than confined between two atoms, as in benzene."
+      "term": "Permanent hardness",
+      "definition": "Hardness caused by dissolved calcium or magnesium sulfate or chloride, which boiling does not remove."
     }
   ],
   "questions": [
     {
-      "marks": 9,
-      "prompt": "Draw dot-and-cross diagrams to show the bonding in (i) magnesium oxide, (ii) ammonia, (iii) carbon dioxide.",
-      "model": "(i) Magnesium oxide is ionic: magnesium transfers two electrons to oxygen, so the diagram shows [Mg]²⁺ and [O]²⁻, with the oxide ion drawn in square brackets with eight electrons. (ii) Ammonia has three shared pairs, one between nitrogen and each of three hydrogen atoms, and one lone pair on nitrogen. (iii) Carbon dioxide has two double bonds, O=C=O, as carbon shares two pairs of electrons with each oxygen atom."
+      "marks": 12,
+      "prompt": "Describe how you would show that a solution contains (i) chloride ions, (ii) sulfate ions rather than sulfite ions. Give the observations and a balanced ionic equation for each.",
+      "model": "(i) Chloride: add a few drops of silver nitrate solution acidified with dilute nitric acid. A white precipitate of silver chloride forms, Ag⁺(aq) + Cl⁻(aq) → AgCl(s). Confirm by showing that the precipitate dissolves in dilute ammonia solution. (ii) Sulfate: add barium chloride solution; a white precipitate forms, Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). Add dilute hydrochloric acid: the precipitate does not dissolve, which shows sulfate. Sulfite also gives a white precipitate with barium chloride, Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s), but it dissolves in the acid, so a precipitate that stays undissolved shows sulfate rather than sulfite."
     },
     {
       "marks": 9,
-      "prompt": "Distinguish between a sigma bond and a pi bond, and state the number of each in a nitrogen molecule.",
-      "model": "A sigma bond is formed by head-on overlap of orbitals along the line joining the two nuclei. A pi bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei. Sigma bonds are stronger because head-on overlap is more effective. A nitrogen molecule, N≡N, has one sigma bond and two pi bonds."
+      "prompt": "Describe the brown ring test for the nitrate ion, including one safety precaution.",
+      "model": "Add freshly made iron(II) sulfate solution to the test solution in a test tube. Hold the tube at an angle and carefully run concentrated sulfuric acid down the side so that it forms a dense bottom layer; do not shake. A brown ring forms where the two layers meet, showing nitrate. Iron(II) reduces nitrate to nitrogen monoxide, 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O, and the nitrogen monoxide forms a brown complex with iron(II), Fe²⁺ + NO → [FeNO]²⁺. Safety: concentrated sulfuric acid is very corrosive, so wear goggles and gloves and add it slowly."
     },
     {
       "marks": 6,
-      "prompt": "Explain, with two examples, the limitations of the octet rule in predicting bonding.",
-      "model": "The octet rule fails for some molecules that are stable with fewer than eight outer electrons on the central atom: BF₃ has only six electrons around boron. It also fails for elements in period 3 and beyond, which can have more than eight outer electrons: PCl₅ has ten electrons around phosphorus and SF₆ has twelve around sulfur. The rule and Lewis diagrams also do not predict molecular shape, bond polarity, bond strength or delocalised bonding, as in benzene."
+      "prompt": "A white salt gives a crimson flame and effervescence with dilute hydrochloric acid, and its solution gives an immediate white precipitate with magnesium sulfate solution. Identify the salt and explain each result.",
+      "model": "The crimson flame identifies lithium as the cation (see \"The orbital model and electronic structure\"). Effervescence with dilute hydrochloric acid shows carbonate or hydrogencarbonate, which release carbon dioxide, e.g. CO₃²⁻ + 2H⁺ → CO₂ + H₂O. An immediate white precipitate with magnesium sulfate solution in the cold shows carbonate, Mg²⁺ + CO₃²⁻ → MgCO₃(s), because a hydrogencarbonate gives no precipitate until it is heated. The salt is lithium carbonate, Li₂CO₃."
     }
   ]
 }

@@ -1,147 +1,206 @@
 {
   "loId": "chem20-s2",
   "chapterId": "chem20",
-  "subsection": "2. The enhanced greenhouse effect",
-  "syllabusRef": "4.3.2",
+  "subsection": "2. Water contamination",
+  "syllabusRef": "4.3.3",
   "notes": [
     {
-      "h": "The enhanced greenhouse effect",
+      "h": "Water as a finite resource",
       "points": [
-        "The enhanced greenhouse effect is the extra warming of the Earth's surface and lower atmosphere caused by increased concentrations of greenhouse gases from human (anthropogenic) activities.",
-        "The main human activities are burning fossil fuels (for power generation, transport, heating and industry), deforestation and land-use change, agriculture (livestock and fertilisers), cement-making and landfill.",
-        "The resulting long-term rise in the Earth's average surface temperature is global warming; together with the other changes it causes, it is called climate change."
+        "About 97.5% of the Earth's water is salt water in the oceans; only about 2.5% is fresh water.",
+        "Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater.",
+        "Fresh water is constantly recycled by the water cycle, but the amount available in a place at a time is limited, and demand rises with population, farming and industry.",
+        "Contamination makes some of the available fresh water unusable.",
+        "Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it returns to rivers.",
+        "Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, sludge must be disposed of, and abstraction lowers rivers and lakes.",
+        "Leaking pipes waste treated water and the energy used to treat it.",
+        "Making fresh water from sea water by desalination, e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.",
+        "Conserving water, by fixing leaks and using less, also saves energy and reduces emissions."
       ]
     },
     {
-      "h": "Global warming potential",
-      "b": "Gases differ in how much they warm the Earth for the same mass emitted, so their greenhouse factors are compared as global warming potentials.",
+      "h": "Dissolved oxygen and BOD",
       "points": [
-        "Gases differ in their greenhouse effect because they differ in how strongly each molecule absorbs infrared radiation, how abundant they are in the atmosphere, and how long they stay there (atmospheric lifetime).",
-        "The greenhouse factor of a gas is its global warming potential (GWP): the warming caused by emitting 1 kg (or 1 tonne) of the gas over a set period, usually 100 years, compared with the warming from the same mass of CO₂.",
-        "The GWP of CO₂ is 1 by definition.",
-        "100-year GWPs from the IPCC Fifth Assessment Report (AR5, 2013) are: CO₂ 1; methane (CH₄) 28; dinitrogen oxide (N₂O) 265.",
-        "The IPCC Sixth Assessment Report (AR6, 2021) gives slightly different values because the science is refined over time: CH₄ about 27–30, depending on whether the methane is of fossil origin.",
-        "The IPCC AR6 value for N₂O is 273; always state which report a GWP comes from.",
-        "A high GWP does not make a gas the most important: CO₂ has the lowest GWP of these gases, yet it causes most of the human-caused warming because far more of it is emitted and it stays in the atmosphere for centuries.",
-        "Emissions of different gases are compared as CO₂ equivalent, found by multiplying the mass of the gas by its GWP.",
-        "Example: 5 tonnes of methane = 5 × 28 = 140 tonnes CO₂ equivalent (AR5 values)."
+        "Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m.) of dissolved oxygen, and warmer water holds less.",
+        "When organic matter (sewage, slurry, food waste or dead plants) enters water, aerobic bacteria break it down, using up dissolved oxygen.",
+        "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days; it is measured in mg L⁻¹ (p.p.m.) of oxygen.",
+        "A high BOD means a lot of organic pollution: the oxygen is used up, fish die (a fish kill), and when the oxygen is gone anaerobic bacteria take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.",
+        "Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage has a BOD of a few hundred mg L⁻¹ (about 300).",
+        "Farm wastes such as silage effluent and slurry have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river."
       ]
     },
     {
-      "h": "The gases: sources and abundances",
+      "h": "Investigation: measuring biochemical oxygen demand",
+      "b": "The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity.",
       "points": [
-        "Carbon dioxide comes from burning fossil fuels, deforestation and cement-making (CaCO₃ → CaO + CO₂).",
-        "CO₂ is about 420 ppm in the mid-2020s, up from about 280 ppm before industrialisation, an increase of about 50%.",
-        "Much of the extra CO₂ stays in the atmosphere for centuries, and some for thousands of years.",
-        "Methane comes from ruminant livestock (cattle and sheep, which digest food in the stomach), manure, rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands.",
-        "Methane is about 1.9 ppm, more than two and a half times the pre-industrial level of about 0.7 ppm, and its atmospheric lifetime is about 12 years.",
-        "Dinitrogen oxide (nitrous oxide, N₂O) comes mainly from nitrogen fertilisers and manure on soils; it is about 0.34 ppm, up from about 0.27 ppm.",
-        "N₂O stays in the atmosphere for over 100 years (AR5: about 121 years).",
-        "In Ireland agriculture is the largest single source of greenhouse gas emissions, over a third of the total, mainly methane from cattle and N₂O from fertilisers and manure.",
-        "In Ireland energy, transport and heating produce most of the CO₂."
+        "The sample is kept in the dark because this prevents photosynthesis by algae and plants from adding oxygen.",
+        "The temperature is fixed at 20 °C because both the solubility of oxygen and the rate of bacterial activity depend on temperature.",
+        "The time is fixed at five days so that results are comparable.",
+        "Step 1: Measure the dissolved oxygen in one bottle of the sample at the start.",
+        "Step 2: Fill a second bottle completely and seal it, then keep it in the dark at 20 °C for five days.",
+        "Step 3: Measure the dissolved oxygen in the second bottle after five days.",
+        "Step 4: The BOD is the difference between the two dissolved oxygen readings.",
+        "Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation in the dark at 20 °C for five days."
       ]
     },
     {
-      "h": "Nitrogen and sulfur oxides",
+      "h": "Sewage",
       "points": [
-        "NOx (nitrogen monoxide, NO, and nitrogen dioxide, NO₂) form when nitrogen and oxygen from air combine at the high temperatures in car engines and power stations: N₂(g) + O₂(g) → 2NO(g).",
-        "NO then reacts further with oxygen: 2NO(g) + O₂(g) → 2NO₂(g); lightning also forms NOx.",
-        "NOx are short-lived and are not important direct greenhouse gases; they act indirectly, mainly by helping to form ozone, a greenhouse gas, in the lower atmosphere.",
-        "NO₂ also causes acid rain and harms health.",
-        "NOx must not be confused with N₂O, the long-lived greenhouse gas from fertilisers.",
-        "Sulfur oxides (SO₂ and SO₃) come from burning coal and oil that contain sulfur, S(s) + O₂(g) → SO₂(g), and from volcanoes.",
-        "SO₂ forms tiny sulfate particles (aerosols) and droplets in the air that reflect sunlight, so their overall effect on climate is cooling, not warming.",
-        "Sulfur oxides also cause acid rain."
+        "Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion.",
+        "Sewage also contains nitrates and phosphates, which cause eutrophication.",
+        "Sewage contains disease-causing microorganisms, including bacteria such as E. coli and those causing cholera and typhoid, as well as viruses and parasites.",
+        "Faecal contamination of drinking water or bathing water causes gastrointestinal illness; this is why sewage must be treated before discharge and drinking water disinfected."
       ]
     },
     {
-      "h": "Water vapour",
+      "h": "Agricultural effluent",
       "points": [
-        "Water vapour is the most abundant greenhouse gas; its concentration is controlled by temperature, and it stays in the air for only days.",
-        "Because of its short stay in the air, human emissions don't change its concentration directly, and water vapour has no GWP.",
-        "Water vapour acts as a feedback: warming caused by CO₂ and other gases increases evaporation, and the extra water vapour traps more heat, amplifying the warming.",
-        "Warmer air holds about 7% more water vapour for each °C of warming (Clausius–Clapeyron relation)."
+        "Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.",
+        "Slurry and silage effluent have a very high BOD and cause fish kills if they reach a river.",
+        "Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.",
+        "Nitrate in drinking water is a health concern, especially for babies, because it can reduce the blood's ability to carry oxygen.",
+        "The EU drinking-water limit for nitrate is 50 mg L⁻¹.",
+        "Pesticides washed off farmland can contaminate water and are toxic to aquatic life."
       ]
     },
     {
-      "h": "Evidence for the enhanced greenhouse effect",
+      "h": "Eutrophication",
+      "b": "Eutrophication is a chain of events that starts with added nutrients and can end with the death of fish.",
       "points": [
-        "Continuous measurements at Mauna Loa, Hawaii, begun by Charles David Keeling in 1958 (the “Keeling curve”), show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm.",
-        "Ice cores: air bubbles trapped in Antarctic ice show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation.",
-        "Today's CO₂ level is far above that range, and the rise matches the growth in fossil-fuel use.",
-        "The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900 (IPCC AR6), with most of the warming since the 1970s.",
-        "Recent years have been the warmest on record.",
-        "Other observed changes include shrinking glaciers and Arctic sea ice, melting ice sheets and warming oceans.",
-        "Sea level rose about 20 cm between 1901 and 2018 (IPCC AR6), from melting ice and the expansion of warmer water.",
-        "Climate models that include only natural factors (changes in the Sun and volcanoes) do not reproduce the warming since the mid-twentieth century; models that also include human greenhouse gas emissions do.",
-        "The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land."
+        "Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.",
+        "Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below.",
+        "Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply.",
+        "Living algae growing in light do not use up the oxygen; it is the bacteria decomposing them after they die that do.",
+        "Step 4: Dissolved oxygen falls so low that fish and other animals die, and anaerobic bacteria then produce foul-smelling H₂S.",
+        "Some algal blooms, e.g. of cyanobacteria (“blue-green algae”), also produce toxins harmful to animals and people.",
+        "Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain, and buffer strips along rivers.",
+        "Prevention: proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, and phosphate-free detergents."
       ]
     },
     {
-      "h": "Effects of the enhanced greenhouse effect",
+      "h": "Industrial effluent",
       "points": [
-        "Global warming brings higher average temperatures, more frequent heatwaves, melting ice and rising sea levels that threaten low-lying coasts and countries, e.g. Bangladesh, the Netherlands and small island states.",
-        "A warmer atmosphere holds more water vapour, so the water cycle intensifies: heavier rainfall and more flooding in some regions, and longer droughts in others.",
-        "More winter rain is expected in Ireland.",
-        "Other effects include changes to ecosystems (species moving or becoming extinct, coral bleaching), threats to food and water supplies, and more extreme weather events."
+        "Industrial effluent can contain toxic chemicals such as heavy metals, solvents and oils.",
+        "Industrial effluent can contain acids or alkalis that change the pH of the water.",
+        "Organic waste from industries such as breweries and food processing has a high BOD.",
+        "Thermal pollution: warm water from power stations and factories holds less dissolved oxygen.",
+        "Warm water also speeds up the metabolism, and so the oxygen demand, of organisms, so less oxygen is available.",
+        "Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals."
       ]
     },
     {
-      "h": "Ocean acidification",
+      "h": "Heavy metals",
       "points": [
-        "The oceans absorb about a quarter of the CO₂ emitted by humans.",
-        "CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq): the H⁺ concentration rises as CO₂ dissolves, and the pH falls.",
-        "The average surface ocean pH has fallen by about 0.1, from about 8.2 to about 8.1, since pre-industrial times.",
-        "Ocean acidification lowers the pH but does not make the sea acidic; the pH stays above 7.",
-        "The extra H⁺ reacts with carbonate ions, H⁺ + CO₃²⁻ → HCO₃⁻, leaving less carbonate for shell-building organisms such as oysters, mussels, corals and some plankton.",
-        "Acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq)."
+        "Heavy metal ions such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations, in micrograms per litre.",
+        "Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working.",
+        "Heavy metals damage the nervous system, kidneys and liver.",
+        "They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation).",
+        "Their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.",
+        "Heavy metal ions can be removed from water by precipitation as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange."
       ]
     },
     {
-      "h": "Possible solutions",
+      "h": "Lead, mercury and cadmium",
       "points": [
-        "Replace fossil fuels with renewable energy (wind, solar, hydroelectric and tidal), and improve energy efficiency by insulating buildings, using heat pumps and buying efficient appliances.",
-        "Transport: use public transport, cycling and walking; use electric vehicles charged from renewable electricity (see “The lithium-ion cell”); and use hydrogen fuel cells (see “The hydrogen fuel cell”).",
-        "Agriculture: use the right amount of fertiliser at the right time, use clover and other nitrogen-fixing crops, breed and feed livestock to produce less methane, and capture methane from manure in anaerobic digesters (biogas) for use as a fuel.",
-        "Land use: plant forests, stop deforestation, and protect and rewet peatlands so that they act as carbon sinks again.",
-        "Waste: reduce food waste, recycle, and capture landfill methane and burn it to generate electricity; the CO₂ produced has a much smaller warming effect than the methane would have.",
-        "Carbon capture and storage (CCS): CO₂ is captured from power-station or factory flue gases, compressed to a liquid, piped away and injected into deep rock formations such as depleted oil and gas fields.",
-        "Acid rain can be cut by reducing sulfur and NOx emissions: low-sulfur fuels, removing SO₂ from flue gases, and catalytic converters on cars.",
-        "International and national action: the Paris Agreement (2015) aims to keep the rise in global temperature well below 2 °C above pre-industrial levels and to pursue efforts to limit it to 1.5 °C.",
-        "Ireland's Climate Action and Low Carbon Development (Amendment) Act 2021 sets a 51% cut in emissions by 2030 (compared with 2018) and climate neutrality by 2050.",
-        "A carbon footprint is the total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity; individuals can reduce theirs through choices in travel, home heating, diet and consumption."
+        "Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic.",
+        "Lead damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺.",
+        "The EU drinking-water limit for lead is 10 µg L⁻¹ (0.010 mg L⁻¹).",
+        "At Minamata, Japan, the Chisso Corporation's chemical factory discharged mercury compounds into the bay.",
+        "Methylmercury built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.",
+        "The disease was called Minamata disease and was officially recognised in 1956.",
+        "Cadmium comes from mining and some industries and damages the kidneys and bones.",
+        "Itai-itai disease in Japan was caused by cadmium from mining, which reached river water used for rice fields."
+      ]
+    },
+    {
+      "h": "Microplastics",
+      "points": [
+        "Microplastics are pieces of plastic smaller than 5 mm.",
+        "Primary microplastics are made small, e.g. microbeads once used in cosmetics and plastic pellets.",
+        "Secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.",
+        "Plastics are very unreactive and not biodegradable, so they persist for hundreds of years (see “Addition polymers”).",
+        "Microplastics are swallowed by plankton, shellfish and fish, blocking feeding and digestion, and they pass up the food chain.",
+        "Microplastics can carry adsorbed toxic chemicals.",
+        "Microplastics are found in drinking water and food; their long-term effects on human health are still being researched."
+      ]
+    },
+    {
+      "h": "Acidification",
+      "points": [
+        "Sulfur dioxide dissolves in rain: SO₂ + H₂O → H₂SO₃.",
+        "Sulfur dioxide and oxygen form sulfuric acid in rain: 2SO₂ + O₂ + 2H₂O → 2H₂SO₄.",
+        "Nitrogen dioxide forms nitric acid in rain: 4NO₂ + O₂ + 2H₂O → 4HNO₃.",
+        "Acidic industrial and mine waste water also lowers the pH of rivers and lakes.",
+        "Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH.",
+        "Enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells.",
+        "Fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.",
+        "Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so that fish can't take in oxygen.",
+        "Acidic water dissolves the calcium carbonate shells of snails and shellfish: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.",
+        "In drinking water, acidic water dissolves lead and copper from pipes."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Enhanced greenhouse effect", "definition": "The extra warming of the Earth caused by increased concentrations of greenhouse gases from human activities." },
-    { "term": "Anthropogenic", "definition": "Caused or produced by human activity." },
-    { "term": "Global warming", "definition": "The long-term rise in the Earth's average surface temperature." },
-    { "term": "Climate change", "definition": "Global warming together with the other changes it causes to the climate." },
-    { "term": "Global warming potential (GWP)", "definition": "The warming caused by emitting 1 kg of a gas over a set period, usually 100 years, compared with the same mass of CO₂." },
-    { "term": "CO₂ equivalent", "definition": "The mass of CO₂ that would cause the same warming as a given mass of another gas, found as mass multiplied by GWP." },
-    { "term": "Atmospheric lifetime", "definition": "The average time a gas remains in the atmosphere after it is emitted." },
-    { "term": "Feedback (water vapour)", "definition": "A process in which warming increases the amount of water vapour, which traps more heat and amplifies the warming." },
-    { "term": "Aerosol", "definition": "Tiny particles or droplets suspended in the air, such as sulfate particles from SO₂, which reflect sunlight." },
-    { "term": "Ocean acidification", "definition": "The fall in the pH of the oceans as they absorb CO₂ from the atmosphere." },
-    { "term": "Carbon capture and storage (CCS)", "definition": "Capturing CO₂ from flue gases and injecting it into deep rock formations." },
-    { "term": "Carbon footprint", "definition": "The total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity." }
+    {
+      "term": "Biochemical oxygen demand (BOD)",
+      "definition": "The amount of dissolved oxygen used up by microorganisms when a water sample is kept in the dark at 20 °C for five days."
+    },
+    {
+      "term": "Effluent",
+      "definition": "Liquid waste discharged into a river, lake or sea from sewage, farms or industry."
+    },
+    {
+      "term": "Eutrophication",
+      "definition": "The enrichment of water with nutrients such as nitrates and phosphates, leading to excessive growth of algae and plants."
+    },
+    {
+      "term": "Algal bloom",
+      "definition": "A rapid growth of algae that covers the surface of water and blocks light from plants below."
+    },
+    {
+      "term": "Thermal pollution",
+      "definition": "Pollution of water by warm water discharged from power stations and factories, which holds less dissolved oxygen."
+    },
+    {
+      "term": "Heavy metal",
+      "definition": "A metal such as lead, mercury or cadmium that is toxic even at very low concentrations."
+    },
+    {
+      "term": "Bioaccumulation",
+      "definition": "The build-up of a substance in the tissues of an organism that cannot excrete it easily."
+    },
+    {
+      "term": "Biomagnification",
+      "definition": "The increase in concentration of a substance at each level up a food chain."
+    },
+    {
+      "term": "Microplastic",
+      "definition": "A piece of plastic smaller than 5 mm."
+    },
+    {
+      "term": "Acid rain",
+      "definition": "Rain with a lower pH than normal, caused by sulfur dioxide and nitrogen oxides dissolving in it."
+    },
+    {
+      "term": "Desalination",
+      "definition": "Making fresh water from sea water, e.g. by reverse osmosis."
+    }
   ],
   "questions": [
     {
       "marks": 12,
-      "prompt": "Discuss the evidence that human activity has enhanced the greenhouse effect.",
-      "model": "The enhanced greenhouse effect is the extra warming caused by increased concentrations of greenhouse gases from human activities such as burning fossil fuels, deforestation, agriculture and cement-making. Evidence: continuous measurements at Mauna Loa, begun by Charles David Keeling in 1958, show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm. Ice cores show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation, and today's level is far above that range, matching the growth in fossil-fuel use. The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900, with most of the warming since the 1970s, and recent years have been the warmest on record. Climate models that include only natural factors do not reproduce the warming since the mid-twentieth century, while models that include human greenhouse gas emissions do. The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land."
+      "prompt": "Define eutrophication. Explain, step by step, how fertiliser run-off can lead to a fish kill in a lake, and suggest two ways of preventing it.",
+      "model": "Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants. Step 1: nitrates and phosphates from fertiliser run-off enter the lake. Step 2: algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below. Step 3: the algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply. Step 4: the dissolved oxygen falls so low that fish die. Two ways of preventing it: controlled use of fertilisers, applying the right amount at the right time and not before heavy rain; and buffer strips along the rivers, or proper storage of slurry and silage, or removing phosphates and nitrates in sewage treatment."
     },
     {
       "marks": 9,
-      "prompt": "Methane has a 100-year global warming potential of 28 (IPCC AR5). (i) Explain what this means. (ii) Give two sources of methane. (iii) Explain why carbon dioxide is responsible for more human-caused warming than methane, even though its GWP is only 1.",
-      "model": "(i) A GWP of 28 means that emitting 1 kg of methane causes 28 times the warming of emitting 1 kg of CO₂, measured over 100 years. (ii) Two sources of methane are ruminant livestock (cattle and sheep, from digestion in the stomach) and manure; rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands also release it. (iii) CO₂ causes most of the human-caused warming because far more of it is emitted than of methane, and it stays in the atmosphere for centuries, even though its GWP is only 1. A high GWP does not by itself make a gas the most important."
+      "prompt": "Define biochemical oxygen demand. Explain why the sample is kept in the dark and at 20 °C, and explain why a high BOD is harmful to a river.",
+      "model": "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days, measured in mg L⁻¹ of oxygen. The sample is kept in the dark to prevent photosynthesis by algae and plants from adding oxygen. It is kept at 20 °C because the solubility of oxygen and the rate of bacterial activity both depend on temperature, so a fixed temperature makes results comparable. A high BOD means a lot of organic pollution is being broken down by aerobic bacteria, which use up the oxygen. Fish and other aquatic life then die, and when the oxygen is gone anaerobic bacteria produce foul-smelling gases such as hydrogen sulfide and methane."
     },
     {
-      "marks": 12,
-      "prompt": "Describe how the enhanced greenhouse effect leads to ocean acidification, with equations, and suggest three ways of reducing emissions of greenhouse gases from Irish agriculture and energy use.",
-      "model": "The oceans absorb about a quarter of the CO₂ emitted by humans. CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq), so the H⁺ concentration rises and the pH falls; the average surface ocean pH has fallen by about 0.1, from about 8.2 to about 8.1. The extra H⁺ reacts with carbonate ions, H⁺ + CO₃²⁻ → HCO₃⁻, leaving less carbonate for shell-building organisms such as oysters, mussels, corals and some plankton. Acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq). Three ways of reducing emissions: use the right amount of fertiliser at the right time and breed and feed livestock to produce less methane; plant forests and protect and rewet peatlands so that they act as carbon sinks; and use carbon capture and storage, injecting CO₂ from flue gases into deep rock formations. Renewable energy and improved energy efficiency would also cut emissions from energy use."
+      "marks": 9,
+      "prompt": "Discuss the biochemical consequences of contamination of water by (i) heavy metals and (ii) microplastics.",
+      "model": "(i) Heavy metal ions such as Pb²⁺, Hg²⁺ and Cd²⁺ are toxic even at very low concentrations. They bind to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working, and they damage the nervous system, kidneys and liver. They are cumulative: they build up in tissues (bioaccumulation) and their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk. Mercury at Minamata, Japan, caused severe nervous-system damage, birth defects and deaths. (ii) Microplastics are pieces of plastic smaller than 5 mm, either made small (primary, e.g. microbeads) or formed by the breakdown of larger items (secondary, e.g. fibres from clothing). They are swallowed by plankton, shellfish and fish, blocking feeding and digestion, and pass up the food chain. They can carry adsorbed toxic chemicals, and they persist for hundreds of years."
     }
   ]
 }
