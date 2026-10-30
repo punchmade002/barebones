@@ -71,7 +71,7 @@
     {
       "marks": 9,
       "prompt": "Explain, in terms of sigma and pi bonding, why ethene reacts rapidly with bromine but ethane does not.",
-      "model": "Ethane has only σ bonds, with no π bonds. Its σ bonds are strong, and their electrons are held between the two nuclei, so they are not exposed to bromine. Ethene has a C=C double bond made of one σ bond and one π bond. The π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, so they are exposed to attack by bromine. The π bond is weaker than a σ bond, at about 264 kJ mol⁻¹ extra, so it is broken, and bromine adds across the double bond while the σ bond is kept, which is why ethene reacts rapidly."
+      "model": "Ethane has only σ bonds, with no π bonds. Its σ bonds are strong, and their electrons are held between the two nuclei, so they are not exposed to bromine. Ethene has a C=C double bond made of one σ bond and one π bond. The π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, so they are exposed to attack by bromine. The π bond is weaker than a σ bond, adding only about 264 kJ mol⁻¹ to it, so it is the bond that breaks, and bromine adds across the double bond while the σ bond is kept, which is why ethene reacts rapidly."
     },
     {
       "marks": 6,
