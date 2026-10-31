@@ -3,6 +3,4577 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "pe-adventure-activities-s1": {
+  "keyTerms": [
+   {
+    "definition": "Individual and co-operative activities in a challenging environment, usually outdoors, in which uncontrollable elements influence the choice and use of skills and strategies.",
+    "term": "Adventure activities"
+   },
+   {
+    "definition": "Conditions such as weather, wind, water, terrain, visibility and daylight that a performer cannot fully control.",
+    "term": "Uncontrollable elements"
+   },
+   {
+    "definition": "The real but controlled risk that gives an adventure activity its challenge.",
+    "term": "Managed risk"
+   },
+   {
+    "definition": "The communication, trust, teamwork, leadership and decision-making needed to work with others in a group.",
+    "term": "Interpersonal skills"
+   },
+   {
+    "definition": "Reviewing decisions and route or plan choices after a session in order to improve the next one.",
+    "term": "Reflection on learning"
+   },
+   {
+    "definition": "A systematic check of the site and conditions that identifies hazards before an activity starts.",
+    "term": "Risk assessment"
+   },
+   {
+    "definition": "A flotation garment worn in water activities that keeps the wearer afloat.",
+    "term": "Buoyancy aid"
+   },
+   {
+    "definition": "A practice of skills under set conditions, rather than in a full competitive version.",
+    "term": "Conditioned practice"
+   },
+   {
+    "definition": "Knowing which strategy to use in a given situation and why.",
+    "term": "Tactical knowledge"
+   },
+   {
+    "definition": "Orienteering, canoeing or kayaking, rock-climbing, sailing, rowing or sculling.",
+    "term": "Five activities in the adventure activities area"
+   },
+   {
+    "definition": "Weather, wind, water conditions, terrain, visibility and daylight.",
+    "term": "Uncontrollable elements: name six"
+   },
+   {
+    "definition": "Communication, trust, teamwork, leadership and decision-making.",
+    "term": "Interpersonal skills: name five"
+   },
+   {
+    "definition": "Risk assessment of the site and conditions; checking weather and tide forecasts; checking equipment before use; telling someone the plan and return time.",
+    "term": "Safety checks before an adventure activity: name four"
+   },
+   {
+    "definition": "An environment that cannot be fully controlled; managed risk; interpersonal skills; reflection on learning.",
+    "term": "Features common to adventure activities: name four"
+   },
+   {
+    "definition": "Listed skills and techniques; tactical knowledge; rules, regulations, codes of practice and safe practice.",
+    "term": "Performance assessment: three areas"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What the area is",
+    "points": [
+     "The specification defines the area as individual and co-operative activities that take place in a challenging environment, usually outdoors.",
+     "In these activities, elements that cannot be fully controlled influence the selection and use of the skills and strategies needed to attain set goals.",
+     "In each activity, learners aim to develop the standard of their performance, to be creative as an individual and/or team member, and to be consistent in the quality of their performance.",
+     "The area places a particular emphasis on interpersonal skills and on reflection on learning."
+    ]
+   },
+   {
+    "h": "The five activities and the choice rule",
+    "points": [
+     "Learners study three activities, each from a different area, and one of the three is chosen from this area.",
+     "From this area, learners choose one of five activities: orienteering, canoeing or kayaking, rock-climbing, sailing, or rowing or sculling."
+    ]
+   },
+   {
+    "h": "Uncontrollable elements",
+    "points": [
+     "Uncontrollable elements include weather, wind, water conditions, terrain, visibility and daylight.",
+     "Performers must read these conditions and adapt their plan to them.",
+     "Visibility and daylight limit how far ahead a performer can plan a route."
+    ]
+   },
+   {
+    "h": "Managed risk",
+    "points": [
+     "The challenge comes from real but controlled risk.",
+     "Performers and leaders identify hazards and choose skills, equipment and plans that keep the danger within what the group can handle."
+    ]
+   },
+   {
+    "h": "Interpersonal skills",
+    "points": [
+     "Interpersonal skills in a group include communication, trust, teamwork, leadership and decision-making.",
+     "Co-operation with a partner is essential: a belayer and climber depend on each other, and the crew in a boat must work together."
+    ]
+   },
+   {
+    "h": "Reflection on learning",
+    "points": [
+     "Reflection means reviewing decisions and the route or plan choices made in a session.",
+     "Reflection takes place after each session, so that the choices made in the next session can be improved."
+    ]
+   },
+   {
+    "h": "Safety management common to all activities",
+    "points": [
+     "Risk assessment of the site and conditions comes before the activity starts.",
+     "Qualified instruction and supervision are required.",
+     "Weather and tide forecasts are checked before going out.",
+     "Equipment such as helmets, buoyancy aids and harnesses is checked before use.",
+     "The plan and the expected return time are told to someone who is not taking part.",
+     "Emergency and communication plans are in place, and first aid is available.",
+     "Group sizes and instructor-to-participant ratios are set to suit the activity and the site."
+    ]
+   },
+   {
+    "h": "Respect for the environment",
+    "points": [
+     "Respect for the environment is good practice in all adventure activities.",
+     "In practice it means taking litter home, staying on paths and avoiding disturbance to wildlife.",
+     "Respect for the environment is one of the skills listed for orienteering."
+    ]
+   },
+   {
+    "h": "The performance assessment",
+    "points": [
+     "The performance assessment is carried out in one of the student's three activities.",
+     "It requires the listed skills and techniques, applied in a conditioned practice, a competitive version or a personal performance.",
+     "Tactical knowledge is assessed: the tactics and strategies used in the activity.",
+     "Rules, regulations, codes of practice and safe practice are assessed before, during and after the activity."
+    ]
+   },
+   {
+    "h": "Adventure activities as a context for theory",
+    "points": [
+     "Confidence and anxiety management: adventure activities involve real but managed risk, so performers must control anxiety and build confidence step by step.",
+     "Decision-making under uncertainty can be tested, because conditions cannot be fully predicted or controlled.",
+     "Fitness demands are muscular endurance, cardio-respiratory endurance and balance.",
+     "Safe practice and the regulations that apply to an activity can be tested.",
+     "Outdoor and adventure activities also count as a concept of physical activity in the written exam, where questions use them as context for confidence, safety regulations and attire."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The first feature is uncontrollable elements. Weather, wind, water conditions, terrain, visibility and daylight cannot be fully controlled, so the performer must read them and choose skills and strategies that suit them. A sailor in strong gusts may choose a more cautious course, and an orienteer in poor visibility may choose a route that follows a handrail. The second feature is managed risk. The challenge comes from real but controlled risk, so the performer chooses skills and plans that keep the danger within what the group can handle, and these choices are made with partners, so interpersonal skills such as communication and trust shape the strategy used.",
+    "prompt": "Describe two features of adventure activities and explain how each influences a performer's choice of skills and strategies.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, a risk assessment of the site and conditions identifies the hazards and the people who could be harmed, so that the plan can control them. Second, weather and tide forecasts are checked, so that the activity is not started in conditions beyond the group's ability. Third, equipment such as helmets, buoyancy aids and harnesses is checked before use, so that faults are found before the activity begins.",
+    "prompt": "Outline three safety measures that should be taken before an adventure activity.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-adventure-activities-s2": {
+  "keyTerms": [
+   {
+    "definition": "Navigating between control points marked on a map, as quickly as possible.",
+    "term": "Orienteering"
+   },
+   {
+    "definition": "A point to be visited on the course, marked on the ground by an orange-and-white flag.",
+    "term": "Control"
+   },
+   {
+    "definition": "The ratio between a distance on the map and the same distance on the ground.",
+    "term": "Map scale"
+   },
+   {
+    "definition": "A line on a map that joins points of equal height.",
+    "term": "Contour line"
+   },
+   {
+    "definition": "A linear feature, such as a path, wall, stream or fence, that the orienteer follows towards the control.",
+    "term": "Handrail"
+   },
+   {
+    "definition": "An easy-to-find feature near the control, from which the orienteer navigates precisely to it.",
+    "term": "Attack point"
+   },
+   {
+    "definition": "A feature beyond the control that tells the orienteer they have gone too far.",
+    "term": "Catching feature"
+   },
+   {
+    "definition": "Deliberately aiming to one side of the control so that a linear feature shows which way to turn.",
+    "term": "Aiming off"
+   },
+   {
+    "definition": "Keeping a thumb on the current position on the map while navigating.",
+    "term": "Thumbing the map"
+   },
+   {
+    "definition": "Two steps, counted each time the same foot lands.",
+    "term": "Double pace"
+   },
+   {
+    "definition": "A compass direction taken from the map with the compass and followed on the ground.",
+    "term": "Bearing"
+   },
+   {
+    "definition": "Measuring distance by counting double paces, adjusted for slope, vegetation and fatigue.",
+    "term": "Pacing"
+   },
+   {
+    "definition": "White is runnable forest; yellow is open land; green is thick vegetation; blue is water features; brown is landforms and contours; black is rock and man-made features.",
+    "term": "Map colours: which colour shows which feature"
+   },
+   {
+    "definition": "Stop; set the map; identify nearby features; return to the last known point.",
+    "term": "Relocation when lost: four steps in order"
+   },
+   {
+    "definition": "Attack point, then handrail, then catching feature.",
+    "term": "Each leg in stages: order"
+   },
+   {
+    "definition": "100 m.",
+    "term": "Scale 1:10,000: ground distance of 1 cm on the map"
+   },
+   {
+    "definition": "Visit as many controls as possible within the time limit, in any order, with time penalties for lateness.",
+    "term": "Score event: how it is scored"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What orienteering is",
+    "points": [
+     "Orienteering means navigating between a series of control points marked on a map, as quickly as possible.",
+     "Controls are marked on the ground by orange-and-white flags.",
+     "At each control, the orienteer checks in with a punch or an electronic chip."
+    ]
+   },
+   {
+    "h": "Formats",
+    "points": [
+     "Cross-country: controls are visited in a fixed order.",
+     "Score: controls may be visited in any order, as many as possible within a time limit.",
+     "Score: time penalties apply for lateness.",
+     "Line and relay formats are also used.",
+     "School and park courses are a common setting for the activity."
+    ]
+   },
+   {
+    "h": "Map scale",
+    "points": [
+     "Map scale is the ratio between a distance on the map and the same distance on the ground.",
+     "At 1:10,000, 1 cm on the map represents 100 m on the ground.",
+     "At 1:5,000, 1 cm on the map represents 50 m on the ground.",
+     "Standard school and park maps often use 1:10,000 or 1:5,000."
+    ]
+   },
+   {
+    "h": "Map colours and symbols",
+    "points": [
+     "White: runnable forest.",
+     "Yellow: open land.",
+     "Green: thick vegetation, which is harder to pass through.",
+     "Blue: water features.",
+     "Brown: landforms and contours.",
+     "Black: rock and man-made features, such as paths, walls and buildings."
+    ]
+   },
+   {
+    "h": "Contours",
+    "points": [
+     "Contour lines join points of equal height.",
+     "Close-together contour lines mean steep ground, not flat ground; widely spaced lines mean gentle ground."
+    ]
+   },
+   {
+    "h": "Control description sheet and setting the map",
+    "points": [
+     "The control description sheet tells the orienteer what feature the control is on and where it is.",
+     "Setting, or orienting, the map means turning it so that it matches the ground.",
+     "The map is set using the compass or by lining up features on the ground.",
+     "Thumbing the map means keeping a thumb on the current position while reading the map."
+    ]
+   },
+   {
+    "h": "Pacing",
+    "points": [
+     "Pacing measures distance by counting double paces, each one counted when the same foot lands.",
+     "Each performer knows how many double paces they take per 100 m on different terrain.",
+     "The count is adjusted for slope, vegetation and fatigue."
+    ]
+   },
+   {
+    "h": "Compass skills",
+    "points": [
+     "Step 1: take the bearing from the map with the compass.",
+     "Step 2: follow the bearing on the ground, keeping to the compass direction."
+    ]
+   },
+   {
+    "h": "Handrails",
+    "points": [
+     "A handrail is a linear feature, such as a path, wall, stream or fence, that the orienteer follows to get near the control.",
+     "Following a handrail allows easier, faster running than navigating across open ground."
+    ]
+   },
+   {
+    "h": "Catching features",
+    "points": [
+     "A catching feature is a feature beyond the control that tells the orienteer they have gone too far.",
+     "Reaching a catching feature means the orienteer has overshot and must turn back."
+    ]
+   },
+   {
+    "h": "Attack points",
+    "points": [
+     "An attack point is an easy-to-find feature near the control.",
+     "From the attack point, the orienteer navigates precisely to the control over a short distance."
+    ]
+   },
+   {
+    "h": "Aiming off",
+    "points": [
+     "Aiming off means deliberately aiming to one side of the control.",
+     "The target is set on a linear feature, so the orienteer knows which way to turn on reaching it.",
+     "On reaching the feature, the orienteer turns towards the side on which the control lies."
+    ]
+   },
+   {
+    "h": "Relocation when lost",
+    "points": [
+     "1. Stop.",
+     "2. Set the map.",
+     "3. Identify nearby features.",
+     "4. Return to the last known point."
+    ]
+   },
+   {
+    "h": "Route choice",
+    "points": [
+     "The direct route is shorter, but it may involve harder navigation or harder terrain.",
+     "The longer route along handrails is easier to navigate and allows faster running.",
+     "Weigh distance, climb, terrain and the risk of navigation error when choosing between them."
+    ]
+   },
+   {
+    "h": "Splitting each leg into stages",
+    "points": [
+     "Each leg is split into stages: attack point, then handrail, then catching feature.",
+     "The next leg is planned while moving on the current leg."
+    ]
+   },
+   {
+    "h": "Safe practice",
+    "points": [
+     "Wear footwear and clothing suited to the terrain and weather.",
+     "Carry a whistle.",
+     "Know the safety bearing and the finish closing time.",
+     "Always report to the finish, even when retiring from the course.",
+     "Stay within the course boundaries and keep out of out-of-bounds areas.",
+     "First aid is part of safe practice on every course."
+    ]
+   },
+   {
+    "h": "Respect for the environment",
+    "points": [
+     "Close gates behind you.",
+     "Avoid crops and wildlife.",
+     "Take all litter home."
+    ]
+   },
+   {
+    "h": "Rules and conventions",
+    "points": [
+     "On a cross-country course, controls must be punched in order.",
+     "Competitors must not follow others or receive help.",
+     "Fair play is required throughout.",
+     "Check in at the start and check in at the finish."
+    ]
+   },
+   {
+    "h": "Fitness and psychological demands",
+    "points": [
+     "Fitness demands: cardio-respiratory endurance, muscular endurance, agility and balance on rough ground.",
+     "Psychological demands: concentration and decision-making under fatigue.",
+     "Staying calm when lost is a psychological demand."
+    ]
+   },
+   {
+    "h": "Analysing an orienteering performance",
+    "points": [
+     "Split times per leg show the time taken on each leg of the course.",
+     "Route comparison: draw your route on the map after the event and compare it with the planned route.",
+     "Error analysis: measure the time lost at each control to find which navigation errors cost the most time."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "The first technique is handrailing. The orienteer chooses a linear feature, such as a path, wall, stream or fence, that leads towards the control and runs along it. Running along a handrail is easier and faster than navigating across open ground, and the orienteer only needs to watch for the point where the control lies off the feature. The second technique is using an attack point. This is an easy-to-find feature near the control, and from it the orienteer navigates precisely to the control over a short distance, using a bearing or a count of double paces.",
+    "prompt": "Describe two navigation techniques an orienteer could use to find a control efficiently.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Pacing measures distance by counting double paces, where each double pace is counted when the same foot lands. Each performer knows, from practice, how many double paces they take per 100 m on different terrain. The orienteer uses this figure to judge how far they have travelled along a leg, and adjusts it for slope, vegetation and fatigue, because each of these changes the number of double paces taken per 100 m.",
+    "prompt": "Explain how an orienteer uses pacing to judge distance.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-adventure-activities-s3": {
+  "keyTerms": [
+   {
+    "definition": "Calmer water, or water flowing upstream, behind an obstacle in a current.",
+    "term": "Eddy"
+   },
+   {
+    "definition": "The boundary between an eddy and the main current.",
+    "term": "Eddy line"
+   },
+   {
+    "definition": "Recirculating water below a drop, which is a dangerous hazard to avoid.",
+    "term": "Stopper"
+   },
+   {
+    "definition": "A wave that stays in one place in a fast current.",
+    "term": "Standing wave"
+   },
+   {
+    "definition": "Crossing a current with the bow angled upstream so that the boat is not swept downstream.",
+    "term": "Ferry glide"
+   },
+   {
+    "definition": "Tilting the boat with the hips and knees while the body stays upright, to turn more sharply.",
+    "term": "Edging"
+   },
+   {
+    "definition": "Slapping the back of the blade flat on the water to recover balance.",
+    "term": "Low brace"
+   },
+   {
+    "definition": "A hip flick that rights a capsized kayak while the paddler is still seated.",
+    "term": "Eskimo roll"
+   },
+   {
+    "definition": "A fitted cover that seals the cockpit of a kayak.",
+    "term": "Spraydeck"
+   },
+   {
+    "definition": "A rope carried for rescues.",
+    "term": "Throw line"
+   },
+   {
+    "definition": "A deep-water rescue in which the capsized boat is lifted and emptied across the rescuer's deck.",
+    "term": "X-rescue"
+   },
+   {
+    "definition": "Holding boats together side by side for stability.",
+    "term": "Rafting"
+   },
+   {
+    "definition": "The smooth, unbroken water of the main current.",
+    "term": "Green water"
+   },
+   {
+    "definition": "A blade placed near the bow at an angle to turn a moving boat towards that side.",
+    "term": "Bow rudder"
+   },
+   {
+    "definition": "The sweep turns the boat away from the paddle side; the reverse sweep turns it towards the paddle side.",
+    "term": "Sweep and reverse sweep: which way each turns the boat"
+   },
+   {
+    "definition": "Stay tucked forward; release the spraydeck by its loop; push out of the boat, keeping hold of the boat and paddle; swim to the bank.",
+    "term": "Capsize drill: steps in order"
+   },
+   {
+    "definition": "Combat roll, high cross and hanging draw.",
+    "term": "Advanced and group skills named in the specification"
+   },
+   {
+    "definition": "In a ferry glide the bow is angled upstream; in a reverse ferry glide the paddler faces downstream.",
+    "term": "Ferry glide: bow direction"
+   },
+   {
+    "definition": "A buoyancy aid is worn at all times; a helmet is worn in moving water.",
+    "term": "Buoyancy aid and helmet: when worn"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The two variants and shared core skills",
+    "points": [
+     "The specification has two kayaking variants: moving water, also called white water, and inland flat water or coastal.",
+     "Both variants share launching and landing, forward and backward paddling, stopping, sweep and reverse sweep strokes, stern rudder, ferry glide and reverse ferry glide.",
+     "Both variants also share the capsize drill, rolls, and self-rescue and recovery.",
+     "Moving water adds breaking in and out of a current, reading water features, and the advanced and group skills.",
+     "Flat water adds the figure-of-8 course, draw strokes, sculling for support and deep-water rescues."
+    ]
+   },
+   {
+    "h": "Equipment",
+    "points": [
+     "The kayak is paddled from a seated position.",
+     "A double-bladed paddle is used.",
+     "A spraydeck, a fitted cover, seals the cockpit so that water stays out of the boat.",
+     "A buoyancy aid is worn at all times.",
+     "A helmet is worn in moving water.",
+     "Clothing is a wetsuit or thermal layers, suited to the water temperature.",
+     "A throw line is carried by groups for rescues."
+    ]
+   },
+   {
+    "h": "Launching and landing",
+    "points": [
+     "Launch from a low wall or bank with the boat parallel to it.",
+     "Lay the paddle across the boat and the bank to give support.",
+     "Lower yourself in smoothly, keeping weight low and central.",
+     "To land, reverse the procedure."
+    ]
+   },
+   {
+    "h": "Forward paddling",
+    "points": [
+     "Sit upright with the blade fully in the water near the feet.",
+     "Pull the blade alongside the boat to the hip.",
+     "Torso rotation drives the stroke, not the arms."
+    ]
+   },
+   {
+    "h": "Backward paddling and stopping",
+    "points": [
+     "Look over your shoulder in the direction of travel.",
+     "Place the back of the blade behind the hip, then push towards the feet.",
+     "Stop with short alternate backward strokes near the hips."
+    ]
+   },
+   {
+    "h": "Sweep strokes",
+    "points": [
+     "Sweep stroke: a wide arc from the feet to the stern, turning the boat away from the paddle side.",
+     "Reverse sweep: a wide arc from the stern to the feet, turning the boat towards the paddle side and slowing it."
+    ]
+   },
+   {
+    "h": "Rudders: stern and bow",
+    "points": [
+     "Stern rudder: the blade is trailed at the stern to steer while the boat is moving.",
+     "Bow rudder: the blade is placed near the bow at an angle, turning the moving boat towards that side.",
+     "The bow rudder is used to break into and out of eddies."
+    ]
+   },
+   {
+    "h": "Draw strokes and sculling draw",
+    "points": [
+     "A draw stroke moves the boat sideways by pulling the blade towards the hip.",
+     "A sculling draw moves the boat sideways by sculling the blade back and forth.",
+     "Sideways movement is used, for example, to come alongside a raft or the bank."
+    ]
+   },
+   {
+    "h": "Figure-of-8 course",
+    "points": [
+     "The figure-of-8 is paddled forwards and backwards around two markers.",
+     "It builds control of turning and steering."
+    ]
+   },
+   {
+    "h": "Edging",
+    "points": [
+     "Edging tilts the boat with the hips and knees while the body stays upright.",
+     "Edging turns the boat more sharply.",
+     "Edging presents the hull to the current."
+    ]
+   },
+   {
+    "h": "Low brace, high brace and sculling for support",
+    "points": [
+     "Low brace: the back of the blade is slapped flat on the surface to recover balance.",
+     "High brace: the stronger variant of the brace.",
+     "Sculling for support: the blade is sculled to hold the boat steady."
+    ]
+   },
+   {
+    "h": "Water features",
+    "points": [
+     "Current: the flow of water that carries the boat downstream.",
+     "Eddy: calmer water, or water flowing upstream, behind an obstacle.",
+     "Eddy line: the boundary between the eddy and the main current.",
+     "Standing waves: waves that stay in one place in a fast current.",
+     "Stoppers: recirculating water below a drop; they are dangerous hazards to avoid, especially for beginners.",
+     "Whirlpools: rotating water in the current.",
+     "Green water: the smooth, unbroken water of the main current."
+    ]
+   },
+   {
+    "h": "Breaking in and out of a current",
+    "points": [
+     "Breaking in means leaving an eddy and entering the current.",
+     "Breaking out means entering an eddy from the current.",
+     "For both, build speed, cross the eddy line at an angle and edge downstream.",
+     "A bow rudder or a low brace is used to turn the boat.",
+     "Breaking out may also be done with no brace."
+    ]
+   },
+   {
+    "h": "Ferry glide",
+    "points": [
+     "A ferry glide crosses a current without being swept downstream.",
+     "The bow is angled upstream, and the paddler paddles to balance the current.",
+     "A reverse ferry glide crosses the current while facing downstream."
+    ]
+   },
+   {
+    "h": "Capsize drill",
+    "points": [
+     "1. Stay tucked forward.",
+     "2. Release the spraydeck by its loop.",
+     "3. Push out of the boat, keeping hold of the boat and paddle.",
+     "4. Swim to the bank."
+    ]
+   },
+   {
+    "h": "Eskimo roll and self-rescue",
+    "points": [
+     "The Eskimo roll is a hip flick that rights the boat while the paddler is still seated, using a paddle sweep or support.",
+     "In the roll, the head comes up last.",
+     "Self-rescue and recovery means re-entering the boat or swimming it to safety."
+    ]
+   },
+   {
+    "h": "Deep-water rescues",
+    "points": [
+     "X-rescue: the rescuer lifts and empties the capsized boat across their own deck, then holds it while the swimmer re-enters.",
+     "Rafting: boats are held together side by side for stability."
+    ]
+   },
+   {
+    "h": "Advanced and group skills",
+    "points": [
+     "Combat roll: a roll performed in moving water.",
+     "High cross: crossing a fast current through the top of a wave.",
+     "Hanging draw: a draw stroke held while moving forward.",
+     "Rescue with rope: a throw line is used."
+    ]
+   },
+   {
+    "h": "Safety and rules",
+    "points": [
+     "Never paddle alone.",
+     "Check conditions, river levels and forecasts before going out.",
+     "Know the grade of the water before going on it.",
+     "Scout rapids before running them.",
+     "Use group signals, and paddle under a qualified leader.",
+     "Carry a throw line, first aid and spare clothing.",
+     "Be aware of cold-water risk."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Muscular endurance of the shoulders, arms and trunk.",
+     "Balance in the boat.",
+     "Cardio-respiratory endurance on long trips.",
+     "Confidence and composure after a capsize."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Breaking out means entering an eddy from the main current. The kayaker first builds speed in the current, so that the boat has enough momentum to cross the eddy line. The boat is angled across the eddy line, and the kayaker edges downstream as the bow crosses, so that the boat is positioned to enter the calmer water. To turn into the eddy, the kayaker uses a bow rudder, placed near the bow at an angle, or a low brace, in which the back of the blade is slapped flat on the surface. Breaking out can also be done with no brace.",
+    "prompt": "Describe how a kayaker breaks out of a current into an eddy, outlining the key technique points.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A buoyancy aid is worn at all times, because it keeps the paddler afloat and helps them stay at the surface if they capsize or enter the water. A helmet is worn in moving water, because it protects the head from impact with rocks and the river bed if the paddler falls or capsizes.",
+    "prompt": "Name two items of safety equipment for kayaking and explain why each is needed.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-adventure-activities-s4": {
+  "keyTerms": [
+   {
+    "definition": "The protection the belayer gives the climber through the rope and belay device.",
+    "term": "Belay"
+   },
+   {
+    "definition": "A friction device through which the belayer controls the rope.",
+    "term": "Belay device"
+   },
+   {
+    "definition": "A rope that runs from the climber up through an anchor at the top and down to the belayer, so that a fall is short.",
+    "term": "Top rope"
+   },
+   {
+    "definition": "A fixed point of attachment on the rock or wall.",
+    "term": "Anchor"
+   },
+   {
+    "definition": "The knot that ties the climbing rope to the harness, finished with a stopper knot.",
+    "term": "Figure-of-eight follow-through"
+   },
+   {
+    "definition": "A knot that attaches the rope to an anchor.",
+    "term": "Clove hitch"
+   },
+   {
+    "definition": "Two hands and a foot, or two feet and a hand, kept on the rock while one limb moves.",
+    "term": "Three-point contact"
+   },
+   {
+    "definition": "Pulling on a vertical edge with the hands while pushing the feet against the wall in the opposite direction.",
+    "term": "Lay back"
+   },
+   {
+    "definition": "Pulling up on the underside of a hold while the feet push.",
+    "term": "Undercling"
+   },
+   {
+    "definition": "Spreading the legs across two opposite walls and pushing out with the feet.",
+    "term": "Bridging"
+   },
+   {
+    "definition": "A ledge that is pressed down on with the hands to bring the body up onto it.",
+    "term": "Mantle shelf"
+   },
+   {
+    "definition": "Moving sideways across the rock using hands and feet.",
+    "term": "Traversing"
+   },
+   {
+    "definition": "Holding the body's weight on the rope with the brake hand, so that the other hand is free.",
+    "term": "Lock off"
+   },
+   {
+    "definition": "A friction knot used as a backup on a rope during an abseil.",
+    "term": "Prusik"
+   },
+   {
+    "definition": "'Safe'; 'Belay on?' and 'On belay'; 'Climbing' or 'Climb on'; 'Take in'; 'Slack'; 'Take'; 'Lower' or 'Lowering'; 'Rope below!' as a warning.",
+    "term": "Climbing calls in order"
+   },
+   {
+    "definition": "Harness fitted and buckled; knot tied and dressed; belay device and locking karabiner loaded and locked; helmet on.",
+    "term": "Buddy check: four items"
+   },
+   {
+    "definition": "Lock off part-way down, then collect equipment with both hands free.",
+    "term": "Abseiling: how to free both hands"
+   },
+   {
+    "definition": "Two hands and a foot, or two feet and a hand.",
+    "term": "Three-point contact: which limbs"
+   },
+   {
+    "definition": "A stopper knot, checked by the partner.",
+    "term": "Figure-of-eight follow-through: what finishes it"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Equipment",
+    "points": [
+     "Harness: the body attachment the climber wears, to which the rope is tied.",
+     "Helmet: protects the head from falling rock and from falls.",
+     "Climbing shoes: fitted shoes that give grip on small holds.",
+     "Rope: joins the climber to the belayer.",
+     "Belay device: a friction device through which the belayer controls the rope.",
+     "Locking karabiners: karabiners with a locking gate that prevents them opening accidentally.",
+     "Slings and anchors: slings connect the rope to fixed anchors on the rock or wall.",
+     "Chalk: keeps the hands dry to improve grip."
+    ]
+   },
+   {
+    "h": "Pre-climb safety checks (buddy check)",
+    "points": [
+     "The harness is correctly fitted and buckled.",
+     "The knot is tied and dressed.",
+     "The belay device and locking karabiner are correctly loaded and locked.",
+     "The helmet is on."
+    ]
+   },
+   {
+    "h": "Knots",
+    "points": [
+     "Figure-of-eight follow-through: ties the rope to the harness and is finished with a stopper knot.",
+     "The partner checks the figure-of-eight before the climb.",
+     "Clove hitch: attaches the rope to an anchor.",
+     "Overhand on the bight: the other basic knot listed for this activity."
+    ]
+   },
+   {
+    "h": "Top rope and bottom rope",
+    "points": [
+     "Top rope: the rope runs from the climber up through an anchor at the top and down to the belayer, so a fall is short.",
+     "Bottom rope, as the specification calls it: the belay and anchor are at the bottom of the route.",
+     "Climbing is single pitch, outdoors or on an indoor climbing wall."
+    ]
+   },
+   {
+    "h": "Single and multiple anchors",
+    "points": [
+     "A single anchor is one fixed point of attachment for the rope.",
+     "Multiple anchors share the load, so the failure of one is backed up by the others."
+    ]
+   },
+   {
+    "h": "Belaying",
+    "points": [
+     "The belayer manages the rope through the belay device so that the climber is protected.",
+     "The brake hand never leaves the rope.",
+     "Take in slack as the climber rises.",
+     "Lock off to hold a fall.",
+     "Lower the climber smoothly."
+    ]
+   },
+   {
+    "h": "Rope management",
+    "points": [
+     "Flake the rope, laying it out in loose loops so that it runs freely.",
+     "Keep the rope clear of feet and tangles."
+    ]
+   },
+   {
+    "h": "Climbing calls",
+    "points": [
+     "Calls are short, clear and acknowledged.",
+     "1. 'Safe': the climber is secure.",
+     "2. 'Belay on?' and 'On belay': the belayer is ready.",
+     "3. 'Climbing' or 'Climb on': the climber is starting to climb.",
+     "4. 'Take in': slack is removed.",
+     "5. 'Slack': rope is given.",
+     "6. 'Take': the belayer holds the climber's weight.",
+     "7. 'Lower' or 'Lowering': the climber is lowered.",
+     "8. 'Rope below!': a warning to anyone below."
+    ]
+   },
+   {
+    "h": "Three-point and two-point contact",
+    "points": [
+     "Three-point contact: two hands and a foot, or two feet and a hand, in contact at all times while one limb moves.",
+     "Two-point contact is used correctly for dynamic moves."
+    ]
+   },
+   {
+    "h": "Footwork",
+    "points": [
+     "Weight is kept over the feet.",
+     "The edge or toe of the shoe is used precisely.",
+     "Arms are kept straight to save energy.",
+     "The hips are kept close to the wall."
+    ]
+   },
+   {
+    "h": "Jams",
+    "points": [
+     "A jam is a hand, finger or foot wedged into a crack to make a hold.",
+     "The specification names hand jams, finger jams and foot jams."
+    ]
+   },
+   {
+    "h": "Lay back",
+    "points": [
+     "Hands pull on a vertical edge while the feet push against the wall in the opposite direction."
+    ]
+   },
+   {
+    "h": "Undercling",
+    "points": [
+     "The climber pulls up on the underside of a hold while the feet push.",
+     "The body is kept close to the rock."
+    ]
+   },
+   {
+    "h": "Bridging",
+    "points": [
+     "The legs are spread across two opposite walls, as in a corner.",
+     "The feet push out to rest or to move up."
+    ]
+   },
+   {
+    "h": "Overhang",
+    "points": [
+     "Keep the arms straight, the feet high and the hips close to the wall.",
+     "Move quickly between rests."
+    ]
+   },
+   {
+    "h": "Mantle shelf",
+    "points": [
+     "Push down on the ledge with the hands, pressing the body up as when getting out of a swimming pool.",
+     "Then bring one foot up onto the shelf."
+    ]
+   },
+   {
+    "h": "Traversing",
+    "points": [
+     "Traversing means moving sideways using hands and feet.",
+     "It is used for warm-up and bouldering.",
+     "Keep three points of contact and the body balanced over the feet."
+    ]
+   },
+   {
+    "h": "Abseiling",
+    "points": [
+     "Abseiling descends a fixed rope using a friction device.",
+     "The feet are flat and wide on the rock.",
+     "The body leans back, roughly perpendicular to the rock.",
+     "The control hand is on the rope below the device.",
+     "Lock off part-way down to free both hands to collect equipment.",
+     "A safety backup, such as a prusik or a separate belay, is used."
+    ]
+   },
+   {
+    "h": "Safety and conventions",
+    "points": [
+     "Qualified supervision is required.",
+     "Anchors are checked before use.",
+     "Nobody stands directly below a climber.",
+     "Helmets are worn outdoors.",
+     "Weather and rock conditions are checked.",
+     "The crag and its access rules are respected."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Muscular endurance and strength of the fingers, forearms, shoulders and core.",
+     "Flexibility and balance.",
+     "Concentration and the management of fear and anxiety.",
+     "Trust and communication between climber and belayer."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Before the climb, the partners complete a buddy check. The harness is correctly fitted and buckled, the figure-of-eight follow-through is tied and dressed with a stopper knot and checked by the partner, the belay device and locking karabiner are correctly loaded and locked, and the helmet is on. During the climb, the climber calls 'Safe' when secure, and 'Belay on?', to which the belayer answers 'On belay' once ready. The climber then calls 'Climbing' or 'Climb on' to start. The climber calls 'Take in' to have slack removed, 'Slack' to be given rope, and 'Take' to be held on the rope. 'Lower' or 'Lowering' is called when the climber comes down, and 'Rope below!' warns anyone underneath. The calls are short, clear and acknowledged, and the belayer's brake hand never leaves the rope.",
+    "prompt": "Describe the safety checks and communication a climber and belayer should use before and during a top-rope climb.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Keeping the arms straight is one technique. The weight is carried by the skeleton rather than sustained by muscle effort, so the arms tire more slowly. The second is keeping the hips close to the wall, together with the weight kept over the feet. This keeps the body's centre of gravity close to the rock, so less force is needed to hold the body in place.",
+    "prompt": "Explain two climbing techniques that help a climber conserve energy.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-adventure-activities-s5": {
+  "keyTerms": [
+   {
+    "definition": "The side of the boat, or the shore, from which the wind blows.",
+    "term": "Windward"
+   },
+   {
+    "definition": "The side away from the wind.",
+    "term": "Leeward"
+   },
+   {
+    "definition": "Sailing as close to the wind as possible.",
+    "term": "Close-hauled"
+   },
+   {
+    "definition": "The area about 45 degrees either side of the wind direction in which a sail cannot drive the boat.",
+    "term": "No-go zone"
+   },
+   {
+    "definition": "Turning the bow through the wind to change direction when sailing upwind.",
+    "term": "Tacking"
+   },
+   {
+    "definition": "Turning the stern through the wind when sailing downwind, so that the boom swings across the boat.",
+    "term": "Gybing"
+   },
+   {
+    "definition": "A board lowered from the hull to resist sideways drift.",
+    "term": "Centreboard"
+   },
+   {
+    "definition": "A rope that controls the angle of a sail.",
+    "term": "Sheet"
+   },
+   {
+    "definition": "Sailing with the wind blowing onto the port side of the boat.",
+    "term": "Port tack"
+   },
+   {
+    "definition": "Sailing with the wind blowing onto the starboard side of the boat.",
+    "term": "Starboard tack"
+   },
+   {
+    "definition": "The actual progress made towards the destination, taking the wind into account.",
+    "term": "Course made good"
+   },
+   {
+    "definition": "The person who steers the boat.",
+    "term": "Helm"
+   },
+   {
+    "definition": "Leaning the body out over the side of the boat to balance it.",
+    "term": "Hiking"
+   },
+   {
+    "definition": "Reducing the drive of a sail, for example by easing the sheet or lowering the mainsail.",
+    "term": "Depower"
+   },
+   {
+    "definition": "'Ready about'; 'Lee-oh'; push the tiller away; cross the boat under the boom; change hands; sheet in on the new side.",
+    "term": "Tacking: calls and actions in order"
+   },
+   {
+    "definition": "'Stand by to gybe'; 'Gybe-oh'; pull the tiller towards you; duck; control the boom across; straighten up.",
+    "term": "Gybing: calls and actions in order"
+   },
+   {
+    "definition": "Tacking turns the bow through the wind; gybing turns the stern through the wind.",
+    "term": "Tacking or gybing: which turns the bow through the wind"
+   },
+   {
+    "definition": "A boat on port tack gives way to a boat on starboard tack.",
+    "term": "Port tack or starboard tack: which gives way"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Boat parts and terms",
+    "points": [
+     "The main parts of a dinghy are the hull, the bow (front), the stern (back), the mast and the boom.",
+     "The sails are the mainsail, carried on the mast, and the jib at the front of the boat.",
+     "The rudder is moved by the tiller to steer the boat.",
+     "The centreboard or daggerboard is lowered from the hull to resist sideways drift.",
+     "Sheets are the ropes that control the sails.",
+     "Windward is the side of the boat the wind blows from; leeward is the side away from the wind.",
+     "Port is the left side of the boat facing the bow; starboard is the right side.",
+     "The helm steers the boat, and the crew helps to trim the sails and balance the boat."
+    ]
+   },
+   {
+    "h": "Points of sailing",
+    "points": [
+     "Close-hauled: sailing as close to the wind as possible.",
+     "Close reach: sailing between close-hauled and beam reach.",
+     "Beam reach: the wind is across the boat.",
+     "Broad reach: sailing with the wind from behind, but not directly behind.",
+     "Run: sailing with the wind from directly behind."
+    ]
+   },
+   {
+    "h": "The no-go zone",
+    "points": [
+     "The no-go zone is about 45 degrees either side of the wind direction.",
+     "A sail cannot drive the boat through the no-go zone."
+    ]
+   },
+   {
+    "h": "The five essentials",
+    "points": [
+     "Sail trim: setting the sails for the wind.",
+     "Boat balance: keeping the boat level from side to side.",
+     "Boat trim: balancing the boat fore and aft, from bow to stern.",
+     "Centreboard position: raised or lowered to control sideways drift.",
+     "Course made good: the actual progress made towards the destination, taking the wind's effect into account."
+    ]
+   },
+   {
+    "h": "Leaving and returning on a windward shore",
+    "points": [
+     "A windward shore has wind blowing off the shore.",
+     "Leaving is easy, because the wind blows the boat away from the shore.",
+     "Returning means sailing upwind, so the boat approaches close-hauled.",
+     "The sails are let out to stop the boat."
+    ]
+   },
+   {
+    "h": "Leaving and returning on a leeward shore",
+    "points": [
+     "A leeward shore has wind blowing onto the shore.",
+     "It is harder and more dangerous than a windward shore.",
+     "Leaving requires pushing off and sailing close-hauled to get away from the shore.",
+     "Returning means the boat is blown in fast, so the mainsail is lowered or depowered early.",
+     "The boat then approaches slowly under jib."
+    ]
+   },
+   {
+    "h": "Tacking",
+    "points": [
+     "Tacking, or going about, turns the bow through the wind to change direction when sailing upwind.",
+     "1. Call 'Ready about'.",
+     "2. Call 'Lee-oh'.",
+     "3. Push the tiller away.",
+     "4. Cross the boat under the boom.",
+     "5. Change hands.",
+     "6. Sheet in on the new side."
+    ]
+   },
+   {
+    "h": "Gybing",
+    "points": [
+     "Gybing turns the stern through the wind when sailing downwind, so that the boom swings across the boat.",
+     "1. Call 'Stand by to gybe'.",
+     "2. Call 'Gybe-oh'.",
+     "3. Pull the tiller towards you.",
+     "4. Duck.",
+     "5. Control the boom across.",
+     "6. Straighten up.",
+     "Gybing is more dangerous than tacking because the boom swings quickly."
+    ]
+   },
+   {
+    "h": "Upwind and downwind courses",
+    "points": [
+     "Upwind, the boat zig-zags by tacking close-hauled, because it cannot sail directly into the wind.",
+     "Downwind, the boat runs or sails a broad reach with the centreboard mostly up.",
+     "On a downwind course, beware of an accidental gybe."
+    ]
+   },
+   {
+    "h": "Capsize recovery",
+    "points": [
+     "1. Stay with the boat.",
+     "2. Check that the crew is safe.",
+     "3. Swim to the centreboard.",
+     "4. One person stands on the centreboard and leans back to right the boat, while the other is scooped in.",
+     "5. Bail out.",
+     "Never swim away from the boat."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Wear a buoyancy aid at all times.",
+     "Wear clothing suited to cold water.",
+     "Check the weather and tides before going out.",
+     "A safety boat should be available.",
+     "Tell someone your plan before going out."
+    ]
+   },
+   {
+    "h": "Rules of the road",
+    "points": [
+     "A boat on port tack gives way to a boat on starboard tack.",
+     "On port tack the wind blows onto the port side of the boat; on starboard tack it blows onto the starboard side.",
+     "A windward boat keeps clear of a leeward boat.",
+     "An overtaking boat keeps clear of the boat it is overtaking."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Balance, co-ordination and agility when moving across the boat.",
+     "Muscular endurance for hiking, which means leaning the body out over the side to balance the boat.",
+     "Decision-making in changing wind.",
+     "Teamwork and communication between helm and crew."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Tacking turns the bow through the wind to change direction when sailing upwind. Gybing turns the stern through the wind when sailing downwind, so that the boom swings across the boat. The key steps of a tack are: call 'Ready about'; call 'Lee-oh'; push the tiller away; cross the boat under the boom; change hands; and sheet in on the new side.",
+    "prompt": "Describe the difference between tacking and gybing and outline the key steps of a tack.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "On a windward shore the wind blows off the land, so it blows the boat away from the shore and leaving is easy. On a leeward shore the wind blows onto the land, so the boat must push off and sail close-hauled to get away from the shore. Because the wind pushes the boat towards the land, this is harder and more dangerous than leaving a windward shore.",
+    "prompt": "Explain why leaving a leeward shore is more difficult than leaving a windward shore.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-adventure-activities-s6": {
+  "keyTerms": [
+   {
+    "definition": "Rowing with two oars, one in each hand.",
+    "term": "Sculling"
+   },
+   {
+    "definition": "Rowing with one oar on one side of the boat.",
+    "term": "Sweep rowing"
+   },
+   {
+    "definition": "The start of the stroke, when the blade is placed in the water at the front of the slide.",
+    "term": "Catch"
+   },
+   {
+    "definition": "The power phase of the stroke, in which the legs, back and arms push the boat forward.",
+    "term": "Drive"
+   },
+   {
+    "definition": "The end of the drive, when the handle is drawn to the lower ribs and the blade is taken out of the water.",
+    "term": "Finish"
+   },
+   {
+    "definition": "The part of the stroke in which the arms, body and slide return to the catch position.",
+    "term": "Recovery"
+   },
+   {
+    "definition": "Turning the blade flat on the recovery to reduce air resistance.",
+    "term": "Feathering"
+   },
+   {
+    "definition": "A blade that stays vertical throughout the stroke, including the recovery.",
+    "term": "Square blade"
+   },
+   {
+    "definition": "The swivel that holds the oar.",
+    "term": "Gate"
+   },
+   {
+    "definition": "The arm that projects from the side of the boat and carries the gate.",
+    "term": "Rigger"
+   },
+   {
+    "definition": "The port side of the boat, where the rower's oar is on their right as they face the stern.",
+    "term": "Stroke side"
+   },
+   {
+    "definition": "The position at the start of the recovery, with the arms extended.",
+    "term": "Hands away"
+   },
+   {
+    "definition": "The seat that runs backwards and forwards on rails.",
+    "term": "Slide"
+   },
+   {
+    "definition": "Legs, body, arms.",
+    "term": "Drive sequence in order"
+   },
+   {
+    "definition": "Arms, body, legs.",
+    "term": "Recovery sequence in order"
+   },
+   {
+    "definition": "Catch, drive, finish (extraction), recovery.",
+    "term": "Phases of the rowing stroke in order"
+   },
+   {
+    "definition": "The port side: the oar on the rower's right as they face the stern.",
+    "term": "Stroke side in sweep rowing"
+   },
+   {
+    "definition": "A drill to check balance and sequence before continuing.",
+    "term": "Single stroke to hands away: purpose"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Sculling and sweep rowing",
+    "points": [
+     "In sculling, each rower uses two oars, one in each hand.",
+     "In sweep rowing, each rower uses one oar, on one side of the boat."
+    ]
+   },
+   {
+    "h": "Boat and equipment",
+    "points": [
+     "The boat is called a shell.",
+     "Each rower sits on a seat that runs on a slide.",
+     "The feet push against a foot stretcher.",
+     "The rigger is the arm that projects from the side of the boat and carries the gate.",
+     "The gate is the swivel that holds the oar.",
+     "The blade is the flat end of the oar that enters the water, and the handle is the end held by the rower."
+    ]
+   },
+   {
+    "h": "Catch",
+    "points": [
+     "The catch is the start of the stroke, at the front of the slide.",
+     "The shins are near vertical and the arms are long.",
+     "The blade is placed quickly into the water."
+    ]
+   },
+   {
+    "h": "Drive",
+    "points": [
+     "The drive is the power phase of the stroke.",
+     "The legs push first, then the back swings, then the arms draw the handle to the body.",
+     "The blade stays buried in the water throughout the drive."
+    ]
+   },
+   {
+    "h": "Finish and extraction",
+    "points": [
+     "The handle is drawn to the lower ribs.",
+     "The blade is tapped down and out of the water cleanly."
+    ]
+   },
+   {
+    "h": "Recovery",
+    "points": [
+     "Hands away comes first: the arms extend.",
+     "The body then swings forward.",
+     "The slide comes forward slowly and under control.",
+     "The recovery is slow and controlled, in contrast to the fast drive."
+    ]
+   },
+   {
+    "h": "Drive and recovery sequence",
+    "points": [
+     "The drive sequence is legs, body, arms.",
+     "The recovery sequence is arms, body, legs.",
+     "The two sequences run in opposite orders, so they must not be reversed."
+    ]
+   },
+   {
+    "h": "Square blades and feathering",
+    "points": [
+     "A square blade stays vertical (square) throughout the stroke, including on the recovery.",
+     "Square blades are easier for beginners and are used in drills.",
+     "Feathering means turning the blade flat on the recovery to reduce air resistance."
+    ]
+   },
+   {
+    "h": "Stroke side and bow side",
+    "points": [
+     "The stroke side in sweep rowing is the side of the rower's oar on their right as they sit facing the stern.",
+     "Because rowers face the stern, the rower's right is the port side of the boat.",
+     "The bow side is the other side, which is the starboard side of the boat.",
+     "Rowers learn to row on both sides."
+    ]
+   },
+   {
+    "h": "Single stroke to hands away",
+    "points": [
+     "This is a drill in which the rower completes one stroke and stops at the hands-away position.",
+     "At hands away, the arms are extended and the body is still upright.",
+     "The drill checks balance and sequence before continuing."
+    ]
+   },
+   {
+    "h": "Paddling with square blades",
+    "points": [
+     "Paddling is light, controlled, continuous rowing at low pressure with square blades.",
+     "It practises timing and blade height."
+    ]
+   },
+   {
+    "h": "Crew timing and commands",
+    "points": [
+     "Blades enter and leave the water together.",
+     "The stroke sets the rhythm for the crew.",
+     "In a coxed boat, the cox steers and gives the commands."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Capsize and swim drills are done before going out.",
+     "The rower stays with the boat if it capsizes.",
+     "Weather and water conditions are checked before going out.",
+     "Lights and high-visibility clothing are worn in poor light.",
+     "Launches are supervised.",
+     "The rower knows the circulation pattern on the water, which is the traffic flow of boats."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "The standard international rowing race distance is 2,000 m, and the aerobic system dominates over that distance.",
+     "Cardio-respiratory endurance and muscular endurance are needed.",
+     "Power is needed in the drive.",
+     "Flexibility is needed at the catch.",
+     "Co-ordination and timing within the crew are needed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "The catch is the start of the stroke, at the front of the slide. The shins are near vertical, the arms are long, and the blade is placed quickly into the water. The drive is the power phase: the legs push first, then the back swings, then the arms draw the handle to the body, and the blade stays buried in the water. The finish, or extraction, is the end of the drive: the handle is drawn to the lower ribs, and the blade is tapped down and out of the water cleanly. The recovery returns the rower to the catch: hands away comes first, with the arms extended, then the body swings forward, and the slide comes forward slowly and under control.",
+    "prompt": "Describe the phases of the rowing stroke, giving two key technique points for each phase.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "In sculling, each rower uses two oars, one in each hand, so each rower propels the boat with both blades. In sweep rowing, each rower uses one oar, on one side of the boat, so each rower works only one side: either the stroke side, which is the port side, or the bow side, which is the starboard side.",
+    "prompt": "Explain the difference between sculling and sweep rowing.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s1": {
+  "keyTerms": [
+   {
+    "definition": "Water-based activities that use swimming and/or diving skills and techniques for performance, water safety or recreation.",
+    "term": "Aquatics"
+   },
+   {
+    "definition": "Procedures and behaviours that protect swimmers from drowning and other harm in and around water.",
+    "term": "Water safety"
+   },
+   {
+    "definition": "A sudden gasp and rapid breathing that happens when a person enters cold water.",
+    "term": "Cold water shock"
+   },
+   {
+    "definition": "The assessment, worth 30% of the marks, in which the student's chosen aquatics activity is assessed from video by the SEC.",
+    "term": "Performance assessment"
+   },
+   {
+    "definition": "The forward movement a swimmer produces by pushing water backwards.",
+    "term": "Propulsion"
+   },
+   {
+    "definition": "For every action there is an equal and opposite reaction.",
+    "term": "Newton's third law of motion"
+   },
+   {
+    "definition": "A body shape that reduces resistance in the water.",
+    "term": "Streamlining"
+   },
+   {
+    "definition": "A trained person who supervises swimmers and enforces pool safety.",
+    "term": "Lifeguard"
+   },
+   {
+    "definition": "Lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming.",
+    "term": "Name the five aquatics options"
+   },
+   {
+    "definition": "Performance, water safety and recreation.",
+    "term": "Three purposes of aquatic activity"
+   },
+   {
+    "definition": "Check the conditions, never swim alone, wear a bright swim cap, and swim parallel to the shore.",
+    "term": "Open-water safety checks"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Aquatics covers water-based activities that use swimming and/or diving skills and techniques.",
+    "h": "What the aquatics area is",
+    "points": [
+     "Each aquatic activity serves one of three purposes: performance, water safety or recreation.",
+     "Performance: racing strokes, water polo and synchronised swimming.",
+     "Water safety: lifesaving and survival swimming.",
+     "Recreation: water activity done for enjoyment."
+    ]
+   },
+   {
+    "h": "The five options and the choice rule",
+    "points": [
+     "The five options are lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming.",
+     "Choice rule: a learner selects one of these five options.",
+     "The two swimming strokes option means choosing two of the four competitive strokes: front crawl, backstroke, breaststroke and butterfly.",
+     "In each activity, learners aim to develop the standard of their performance, be creative and be consistent."
+    ]
+   },
+   {
+    "h": "Pool safety",
+    "points": [
+     "Swimming takes place under lifeguard supervision.",
+     "Know the depths of the pool before entering the water.",
+     "No diving in shallow water.",
+     "Walk, do not run, on the poolside, because wet surfaces are slippery.",
+     "Enter the water feet first when the depth is unknown.",
+     "Follow the pool rules at all times.",
+     "Shower before entering the pool, for hygiene."
+    ]
+   },
+   {
+    "h": "Open-water safety",
+    "points": [
+     "Cold water shock: a sudden gasp and rapid breathing when a person enters cold water.",
+     "Currents and tides can carry a swimmer away from the point of entry.",
+     "Check the conditions before entering the water.",
+     "Never swim alone.",
+     "Wear a bright swim cap so the swimmer is easy to see.",
+     "Swim parallel to the shore rather than straight out from it."
+    ]
+   },
+   {
+    "h": "The performance assessment",
+    "points": [
+     "The performance assessment is worth 30% of the marks and is assessed at common level.",
+     "The State Examinations Commission (SEC) assesses the performance from video.",
+     "The chosen aquatics activity is one of the student's three activities.",
+     "The assessment covers the listed skills and techniques applied in conditioned, competitive or personal performance.",
+     "It also covers tactics or compositional knowledge, and rules and safe practice before, during and after the activity."
+    ]
+   },
+   {
+    "h": "Aquatics as a context for theory",
+    "points": [
+     "Energy systems: sprint and distance swimming place different demands on the energy systems.",
+     "Technique analysis: a stroke is analysed through its body position, arm action, kick, breathing and co-ordination.",
+     "Newton's third law of motion: a swimmer pushes water backwards, and the water pushes the swimmer forward with an equal force.",
+     "Streamlining: the shape of the body determines how much resistance the water creates.",
+     "Lifeguard as an official: the lifeguard supervises swimmers and enforces the pool's safety rules."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Walk, do not run, on the poolside: wet surfaces are slippery, so running greatly increases the risk of a fall and injury. No diving in shallow water: the water may not be deep enough for a dive, so a head or neck injury can result. Enter the water feet first when the depth is unknown: the feet and legs reach the bottom first, so the swimmer can check the depth and avoid striking the head on an unseen bottom.",
+    "prompt": "Outline three safety rules that apply at a swimming pool and explain why each is needed.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Newton's third law states that for every action there is an equal and opposite reaction. In swimming, the swimmer pushes water backwards with the hands and feet, which is the action. The water pushes back on the swimmer with an equal force in the opposite direction, which is forward, and this is the reaction. This forward force is propulsion, so a stronger backward push on the water produces a larger forward movement.",
+    "prompt": "Explain how Newton's third law of motion applies to propulsion in swimming.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s2": {
+  "keyTerms": [
+   {
+    "definition": "A slow, feet-first entry into water of unknown depth or conditions, the safest type of entry.",
+    "term": "Slide-in entry"
+   },
+   {
+    "definition": "An entry into known depth and clear water in which the rescuer steps in and keeps their eyes on the casualty.",
+    "term": "Step-in entry"
+   },
+   {
+    "definition": "An entry into known deep water in which the rescuer's head stays above the water.",
+    "term": "Straddle entry"
+   },
+   {
+    "definition": "A jump from a height into known deep water.",
+    "term": "Compact jump"
+   },
+   {
+    "definition": "A tow in which the rescuer and casualty both hold a rigid or non-rigid aid, keeping the rescuer out of reach.",
+    "term": "Non-contact tow"
+   },
+   {
+    "definition": "A tow in which the rescuer holds the casualty directly, by the chin or across the chest or arm.",
+    "term": "Contact tow"
+   },
+   {
+    "definition": "An inverted breaststroke kick performed on the back, used when towing because the arms are occupied.",
+    "term": "Lifesaving kick"
+   },
+   {
+    "definition": "A position with the casualty lying on their side to keep the airway clear.",
+    "term": "Recovery position"
+   },
+   {
+    "definition": "A casualty who cannot swim and may panic and grab the rescuer.",
+    "term": "Non-swimmer"
+   },
+   {
+    "definition": "Talk, reach, throw, wade (only if safe), row, swim with an aid, then tow (contact tow, only if trained and necessary).",
+    "term": "Order of rescue methods, safest first"
+   },
+   {
+    "definition": "Straddle entry.",
+    "term": "Which entry keeps the head above water in known deep water?"
+   },
+   {
+    "definition": "About 2 to 3 metres, then talk to reassure the casualty and offer an aid.",
+    "term": "How far should a rescuer stop from a panicking casualty?"
+   },
+   {
+    "definition": "A rigid aid such as a rescue tube or float, or a non-rigid aid such as a towel or clothing.",
+    "term": "What does a non-contact tow use as its aid?"
+   },
+   {
+    "definition": "Help out with support, check breathing, recovery position, keep warm, seek medical help.",
+    "term": "Aftercare after landing a casualty, in order"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Rescuer priorities",
+    "points": [
+     "The rescuer's own safety comes first, because a hurt rescuer cannot help the casualty.",
+     "Shout for help and alert the emergency services.",
+     "Keep the casualty in sight at all times.",
+     "Choose the safest method that will work, using the order of rescue methods."
+    ]
+   },
+   {
+    "h": "Order of rescue methods, safest first",
+    "points": [
+     "1. Talk: shout instructions to the casualty.",
+     "2. Reach: extend an arm, a pole or a towel from the bank.",
+     "3. Throw: throw a buoyant aid or a rope.",
+     "4. Wade: enter only if it is safe to do so.",
+     "5. Row: use a boat.",
+     "6. Swim: reach the casualty with an aid.",
+     "7. Tow: a contact tow, used only if the rescuer is trained and the tow is necessary."
+    ]
+   },
+   {
+    "h": "Types of casualty",
+    "points": [
+     "Weak swimmer: a casualty who swims, but poorly.",
+     "Non-swimmer: a casualty who may panic and grab the rescuer.",
+     "Injured swimmer: a casualty who has been hurt in the water.",
+     "Unconscious casualty: a casualty who has lost consciousness and cannot help with the rescue."
+    ]
+   },
+   {
+    "h": "Entries",
+    "points": [
+     "Slide-in entry: used for unknown depth or conditions, and the safest entry; the rescuer enters feet first and slowly.",
+     "Step-in entry: used in known depth and clear water, and keeps the rescuer's eyes on the casualty.",
+     "Straddle entry: used in known deep water, with the head kept above the water so the rescuer can watch the casualty.",
+     "Compact jump: a jump from a height into known deep water.",
+     "Unknown conditions: always enter feet first, slowly, while testing the depth."
+    ]
+   },
+   {
+    "h": "Approach strokes",
+    "points": [
+     "Head-up front crawl or head-up breaststroke keeps the casualty in sight during the approach.",
+     "Pace the approach to conserve energy for the return."
+    ]
+   },
+   {
+    "h": "Lifesaving kick and sidestroke",
+    "points": [
+     "The lifesaving kick is an inverted breaststroke kick performed on the back.",
+     "Sidestroke is also used for towing.",
+     "Both are used when towing, because the arms are occupied with the casualty or the aid."
+    ]
+   },
+   {
+    "h": "Approaching the casualty",
+    "points": [
+     "Stop at a safe distance of about 2 to 3 metres from the casualty.",
+     "Talk to reassure the casualty while stopped.",
+     "Offer an aid, such as a rescue tube or towel.",
+     "If the casualty grabs the rescuer, submerge to break free."
+    ]
+   },
+   {
+    "h": "Turning the casualty",
+    "points": [
+     "From the front, turn the casualty onto their back.",
+     "Turn smoothly, keeping the casualty's face clear of the water.",
+     "The casualty's face is out of the water once they are on their back."
+    ]
+   },
+   {
+    "h": "Non-contact tows",
+    "points": [
+     "The rescuer and the casualty both hold the aid, which keeps the rescuer out of reach of a panicking casualty.",
+     "Rigid aid: a rescue tube or float.",
+     "Non-rigid aid: a towel or clothing."
+    ]
+   },
+   {
+    "h": "Contact tows",
+    "points": [
+     "Chin tow: the rescuer supports the casualty by the chin.",
+     "Cross-chest or arm tow: the rescuer holds the casualty across the chest or arm.",
+     "Keep the casualty's face clear of the water throughout the tow.",
+     "Contact tows are used for tired or unconscious casualties."
+    ]
+   },
+   {
+    "h": "Conserving energy, breath and heat",
+    "points": [
+     "Swim at a steady pace.",
+     "Breathe regularly.",
+     "Rest on an aid when tired.",
+     "Minimise movement in cold water."
+    ]
+   },
+   {
+    "h": "Landing and aftercare",
+    "points": [
+     "Help the casualty out of the water with support.",
+     "Check the casualty's breathing.",
+     "Place the casualty in the recovery position, lying on their side to keep the airway clear.",
+     "Keep the casualty warm.",
+     "Seek medical help: a casualty rescued from water may still be at risk of secondary drowning."
+    ]
+   },
+   {
+    "b": "A weak swimmer is in difficulty near the edge.",
+    "h": "Worked rescue: reach or throw",
+    "points": [
+     "1. Lie flat on the bank.",
+     "2. Reach with a pole, or throw a buoyant aid.",
+     "3. Talk the casualty in towards the edge."
+    ]
+   },
+   {
+    "h": "Worked rescue: swimming rescue with an aid",
+    "points": [
+     "1. Enter with a slide-in entry, feet first and slowly, testing the depth.",
+     "2. Approach head-up, so the casualty stays in sight.",
+     "3. Stop about 2 to 3 metres from the casualty, talk to reassure them and offer the aid.",
+     "4. Tow the casualty with a non-contact tow, both holding the aid, using the lifesaving kick.",
+     "5. Land the casualty, helping them out with support."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "The order, safest first, is talk, reach, throw, wade (only if safe), row, swim with an aid, and tow. Talk and reach keep the rescuer out of the water altogether. Throwing a buoyant aid also keeps the rescuer on land while giving the casualty support. Wading, rowing and swimming with an aid each add risk to the rescuer, so they are used only when the earlier methods will not work and it is safe. A contact tow comes last because the rescuer is then in the water with a casualty who may panic and grab them. The order matters because the rescuer always chooses the method that gives the casualty the most help for the least risk to themselves.",
+    "prompt": "Describe the order of rescue methods a lifesaver should consider, and explain why the order matters.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The slide-in entry. The rescuer enters feet first and slowly, sliding into the water while testing the depth with the feet, so that they do not dive into shallow water or unseen obstacles. It is the safest entry because the rescuer finds the depth and any hazard before the head goes under, which avoids a head or neck injury from diving or jumping into unknown water.",
+    "prompt": "Describe a suitable entry into water of unknown depth and explain why it is used.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s3": {
+  "keyTerms": [
+   {
+    "definition": "Swimming skills used to stay alive and reach safety after an unexpected fall into water, often while clothed and cold.",
+    "term": "Survival swimming"
+   },
+   {
+    "definition": "A flotation device worn to keep the swimmer afloat.",
+    "term": "Buoyancy aid"
+   },
+   {
+    "definition": "A dive in which the swimmer rises slightly and then sweeps the arms up so the body sinks vertically feet first.",
+    "term": "Feet-first surface dive"
+   },
+   {
+    "definition": "A dive in which the swimmer bends at the hips and drives the legs up vertically so their weight pushes the body down.",
+    "term": "Head-first surface dive"
+   },
+   {
+    "definition": "Staying on the surface by lying back with the body and limbs spread to increase surface area.",
+    "term": "Floating"
+   },
+   {
+    "definition": "Staying upright in the water with the legs kicking and the hands sculling near the surface.",
+    "term": "Treading water"
+   },
+   {
+    "definition": "Figure-of-eight hand movements that push water down to support the body.",
+    "term": "Sculling"
+   },
+   {
+    "definition": "The sudden gasp and rapid breathing that occur on entry to cold water.",
+    "term": "Cold water shock"
+   },
+   {
+    "definition": "A dangerous fall in body temperature caused by heat loss, which increases the longer a swimmer stays in cold water.",
+    "term": "Hypothermia"
+   },
+   {
+    "definition": "Heat Escape Lessening Posture, in which the swimmer floats with knees drawn up and arms crossed over the chest to limit heat loss.",
+    "term": "HELP"
+   },
+   {
+    "definition": "A group position in which at least three people, each with a buoyancy aid, hold each other closely to share heat.",
+    "term": "HUDDLE"
+   },
+   {
+    "definition": "Heat Escape Lessening Posture.",
+    "term": "What does HELP stand for?"
+   },
+   {
+    "definition": "The head, armpits and groin.",
+    "term": "Which areas of heat loss does HELP protect?"
+   },
+   {
+    "definition": "The swimmer rises slightly, then sweeps the arms up so the body sinks vertically feet first.",
+    "term": "How does a feet-first surface dive start?"
+   },
+   {
+    "definition": "Stay still and calm, and float rather than thrash.",
+    "term": "What should a swimmer do for the first minute after entering cold water?"
+   },
+   {
+    "definition": "The swimmer and at least two others, each with a buoyancy aid, chests together, with children in the middle.",
+    "term": "Who takes part in a HUDDLE?"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Purpose of survival swimming",
+    "points": [
+     "Purpose: to stay alive and reach safety after an unexpected fall into water.",
+     "The swimmer is often clothed and cold, so the skills must conserve energy and heat until rescue."
+    ]
+   },
+   {
+    "h": "Entries into unknown conditions",
+    "points": [
+     "Enter feet first and slowly, sliding in, when conditions are unknown.",
+     "Straddle entry: used in known deep water, and keeps the head above the water."
+    ]
+   },
+   {
+    "h": "Submerging and surface dives",
+    "points": [
+     "Submerging feet first: push down with the arms, with the legs together, so the body sinks vertically.",
+     "Head-first surface dive: bend at the hips, then drive the legs up vertically so that their weight pushes the body down.",
+     "Feet-first surface dive: rise slightly, then sweep the arms up so the body sinks vertically feet first.",
+     "The feet-first surface dive is useful in unknown water."
+    ]
+   },
+   {
+    "h": "Floating",
+    "points": [
+     "Lie back with the head back and the ears in the water.",
+     "Spread the body and limbs to increase surface area.",
+     "Breathe calmly while floating.",
+     "Floating works with or without a buoyancy aid."
+    ]
+   },
+   {
+    "h": "Treading water and sculling",
+    "points": [
+     "Treading water: keep the body upright.",
+     "Treading water: the legs use an eggbeater kick or a breaststroke-type kick.",
+     "Treading water: the hands scull flat, moving back and forth near the surface.",
+     "Sculling: figure-of-eight hand movements push water down to keep the head up or to move gently."
+    ]
+   },
+   {
+    "h": "Swimming in clothing",
+    "points": [
+     "Clothes trap water and add drag.",
+     "Use slow, efficient strokes: breaststroke, sidestroke or back strokes with the arms under water.",
+     "Keep clothing on in cold water, where it provides insulation.",
+     "Maintain good form throughout."
+    ]
+   },
+   {
+    "h": "Underwater swimming",
+    "points": [
+     "Use a breaststroke-type arm and leg action.",
+     "Keep the eyes open.",
+     "Underwater swimming is used to escape surface hazards.",
+     "Never hyperventilate beforehand, because it suppresses the urge to breathe and can lead to blackout underwater."
+    ]
+   },
+   {
+    "h": "Turns in distance swimming",
+    "points": [
+     "Efficient open turns are made at the wall.",
+     "Efficient turns help keep a steady pace over the distance."
+    ]
+   },
+   {
+    "h": "Conserving heat: HELP",
+    "points": [
+     "HELP stands for Heat Escape Lessening Posture.",
+     "The swimmer floats with a buoyancy aid and draws the knees up to the chest.",
+     "The arms are crossed over the chest.",
+     "HELP protects the main areas of heat loss: the head, armpits and groin."
+    ]
+   },
+   {
+    "h": "Conserving heat: HUDDLE",
+    "points": [
+     "HUDDLE is performed with at least two others, each wearing a buoyancy aid.",
+     "The group holds each other closely, with chests together, to share heat and stay together.",
+     "Children are placed in the middle of the group."
+    ]
+   },
+   {
+    "h": "Cold water shock, hypothermia and keeping still",
+    "points": [
+     "On entry to cold water, the swimmer gasps and breathes rapidly.",
+     "For the first minute, stay still and calm.",
+     "Float rather than thrash.",
+     "HELP and HUDDLE keep the swimmer still, which conserves heat.",
+     "Swimming hard in cold water loses heat faster than keeping still.",
+     "Hypothermia: a dangerous fall in body temperature caused by heat loss.",
+     "The risk of hypothermia increases with time in cold water.",
+     "Limit movement to conserve heat, unless safety is very close."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "HELP (Heat Escape Lessening Posture): the swimmer floats with a buoyancy aid, draws the knees up to the chest and crosses the arms over the chest. This protects the head, armpits and groin, which are the main areas of heat loss, and reduces the body surface exposed to cold water. HUDDLE: at least two others, each with a buoyancy aid, hold each other closely with their chests together, so the group shares heat. Children are placed in the middle of the group. Both positions conserve heat by keeping the body still and reducing the exposed surface.",
+    "prompt": "Explain the HELP and HUDDLE positions and why each conserves heat.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "To tread water, keep the body upright, use an eggbeater or breaststroke-type kick for the legs, and scull the hands flat back and forth near the surface, which keeps the head up with little effort. To float, lie back with the head back and the ears in the water, spread the body and limbs to increase surface area, and breathe calmly. Floating works with or without a buoyancy aid. Both skills conserve energy, because the body rests on the water instead of working continuously to stay up.",
+    "prompt": "Describe how to tread water and float to conserve energy.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s4": {
+  "keyTerms": [
+   {
+    "definition": "A flat, horizontal, straight body position that reduces resistance in the water.",
+    "term": "Streamlining"
+   },
+   {
+    "definition": "The resistance the water creates against a moving body, which slows the swimmer.",
+    "term": "Drag"
+   },
+   {
+    "definition": "The forward movement produced by pushing water backwards with the hands and feet.",
+    "term": "Propulsion"
+   },
+   {
+    "definition": "The point in the arm pull at which the hand and forearm first grip the water.",
+    "term": "Catch"
+   },
+   {
+    "definition": "An alternating leg kick from the hip with relaxed ankles.",
+    "term": "Flutter kick"
+   },
+   {
+    "definition": "A breaststroke kick in which the feet are turned out, drawn up, then driven round and back.",
+    "term": "Whip kick"
+   },
+   {
+    "definition": "A kick in which the legs move together in an undulating movement, used in butterfly.",
+    "term": "Dolphin kick"
+   },
+   {
+    "definition": "A turn in which the swimmer somersaults at the wall, plants the feet and pushes off streamlined.",
+    "term": "Tumble turn"
+   },
+   {
+    "definition": "A turn in which the swimmer touches the wall with a simultaneous two-handed touch, used in breaststroke and butterfly.",
+    "term": "Open turn"
+   },
+   {
+    "definition": "A start in which the swimmer crouches on the block, drives off and enters the water streamlined through one point.",
+    "term": "Dive start"
+   },
+   {
+    "definition": "Swimming at maximal effort over a short distance, with a fast stroke rate and fewer breaths.",
+    "term": "Sprint swimming"
+   },
+   {
+    "definition": "Swimming over a long distance at an even pace, with longer and more efficient strokes.",
+    "term": "Distance swimming"
+   },
+   {
+    "definition": "Usually six.",
+    "term": "How many kicks per arm cycle in front crawl?"
+   },
+   {
+    "definition": "Two.",
+    "term": "How many dolphin kicks per arm cycle in butterfly?"
+   },
+   {
+    "definition": "Breaststroke and butterfly.",
+    "term": "Which two strokes need a two-handed touch at turns and the finish?"
+   },
+   {
+    "definition": "Pull, breathe, kick, glide.",
+    "term": "What is the breaststroke timing sequence?"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Principles common to all strokes",
+    "points": [
+     "Streamlining: a flat, horizontal, straight body reduces resistance in the water.",
+     "Drag: the resistance the water creates against a moving body, which slows the swimmer.",
+     "Propulsion: the swimmer pushes water backwards with the hands and feet.",
+     "Newton's third law: the backward push on the water is matched by an equal and opposite forward push on the swimmer."
+    ]
+   },
+   {
+    "h": "Front crawl",
+    "points": [
+     "Body position: the body is flat, with a slight body roll.",
+     "Arm action (entry): the hand enters in front of the shoulder, fingers first, and the arm extends forward.",
+     "Arm action (catch and pull): the catch is made with a high elbow, and the arm pulls in an S or straight line under the body to the thigh.",
+     "Arm action (exit): the hand leaves the water at the thigh.",
+     "Arm action (recovery): a relaxed, elbow-high recovery.",
+     "Kick: a flutter kick from the hip with relaxed ankles.",
+     "Breathing and head: the head rotates to the side with the body roll, breathing bilaterally every three strokes or unilaterally.",
+     "Co-ordination: usually six kicks for each arm cycle."
+    ]
+   },
+   {
+    "h": "Backstroke",
+    "points": [
+     "Body position: on the back, with the head still and the hips high.",
+     "Arm action (entry): the little finger enters first, in line with the shoulder.",
+     "Arm action (catch and pull): a bent-arm pull to the thigh.",
+     "Arm action (recovery): a straight-arm recovery over the top.",
+     "Kick: a flutter kick.",
+     "Breathing and head: the head stays still with the eyes up, and breathing is regular.",
+     "Co-ordination: a body roll accompanies the arm stroke."
+    ]
+   },
+   {
+    "h": "Breaststroke",
+    "points": [
+     "Body position: a flat body with a slight undulation.",
+     "Arm action (catch and pull): the arms pull out and round in a heart shape.",
+     "Arm action (recovery): the arms recover forward together under the water.",
+     "Kick: a whip kick, with the feet turned out, drawn up, then driven round and back.",
+     "Breathing and head: the swimmer breathes as the arms pull.",
+     "Co-ordination: the timing is pull, breathe, kick, glide."
+    ]
+   },
+   {
+    "h": "Butterfly",
+    "points": [
+     "Body position: the body moves in an undulating, dolphin-like movement.",
+     "Arm action (entry): both arms enter together in front of the shoulders.",
+     "Arm action (catch and pull): the arms pull under the body in a keyhole shape.",
+     "Arm action (recovery): the arms recover together over the water.",
+     "Kick: a dolphin kick.",
+     "Breathing and head: the swimmer breathes forward as the arms finish the pull.",
+     "Co-ordination: two dolphin kicks for each arm cycle."
+    ]
+   },
+   {
+    "h": "Starts",
+    "points": [
+     "1. Dive start (front crawl, breaststroke and butterfly): crouch on the block.",
+     "2. Drive off the block.",
+     "3. Make a streamlined entry through one point.",
+     "4. Glide.",
+     "5. Begin the stroke.",
+     "Backstroke start: starting in the water and holding the block, the swimmer drives back over the water."
+    ]
+   },
+   {
+    "h": "Turns",
+    "points": [
+     "Tumble turn (front crawl and backstroke): a somersault at the wall, then the feet are planted against the wall.",
+     "Tumble turn: the swimmer pushes off the wall in a streamlined position.",
+     "Open turn (breaststroke and butterfly): the swimmer touches the wall with a simultaneous two-handed touch.",
+     "Backstroke flags warn the swimmer that the wall is approaching."
+    ]
+   },
+   {
+    "h": "Finishes",
+    "points": [
+     "Touch the wall at full stretch, without slowing down.",
+     "Breaststroke and butterfly finish with a simultaneous two-handed touch.",
+     "Front crawl and backstroke do not require a two-handed touch."
+    ]
+   },
+   {
+    "h": "Sprint versus distance swimming",
+    "points": [
+     "Sprint: maximal effort, a faster stroke rate, more kicking and fewer breaths.",
+     "Sprint: the energy comes from the ATP-PC and lactic acid systems.",
+     "Distance: even pacing, with longer and more efficient strokes.",
+     "Distance: a two-beat or lighter kick saves energy, and breathing is regular.",
+     "Distance: the energy comes from the aerobic system."
+    ]
+   },
+   {
+    "h": "Common faults to analyse",
+    "points": [
+     "Sinking legs: usually caused by the head being held too high.",
+     "Crossing over at entry: the hand enters across the centre line of the body, rather than in front of the shoulder.",
+     "Dropping the elbow in the pull: the elbow sinks during the catch and pull.",
+     "Mistimed breathing: breathing out of time with the arm stroke breaks the rhythm."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Arm action: the hand enters in front of the shoulder, fingers first, and the arm extends forward. The catch is made with a high elbow, and the arm pulls in an S or straight line under the body to the thigh. The hand exits the water at the thigh, and the arm recovers in a relaxed way with the elbow high. Breathing: the head rotates to the side with the body roll to take a breath. The swimmer breathes bilaterally every three strokes or unilaterally.",
+    "prompt": "Describe the arm action and breathing in front crawl, giving key technique points.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Sprint swimming uses maximal effort, a faster stroke rate, more kicking and fewer breaths. Its energy comes from the ATP-PC and lactic acid systems. Distance swimming uses even pacing, with longer and more efficient strokes, and a two-beat or lighter kick to save energy. Breathing is regular. Its energy comes mainly from the aerobic system. The sprinter's technique is built around speed and power, while the distance swimmer's technique is built around economy and sustained pace.",
+    "prompt": "Compare the demands of sprint and distance swimming in terms of technique and energy systems.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "In a tumble turn, the swimmer somersaults at the wall and plants the feet against it. The swimmer then pushes off the wall in a streamlined position, with the body straight and horizontal, ready to resume the front crawl.",
+    "prompt": "Describe a tumble turn in front crawl.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s5": {
+  "keyTerms": [
+   {
+    "definition": "An alternating circular leg kick that keeps the player high and stable in the water.",
+    "term": "Eggbeater kick"
+   },
+   {
+    "definition": "A pass thrown to the receiver's hand above the water, caught without touching the water.",
+    "term": "Dry pass"
+   },
+   {
+    "definition": "A pass put into the water in front of a team-mate, who swims onto it.",
+    "term": "Wet pass"
+   },
+   {
+    "definition": "A shot taken from above the head with an eggbeater lift and body rotation.",
+    "term": "Power shot"
+   },
+   {
+    "definition": "A high shot played over the goalkeeper.",
+    "term": "Lob"
+   },
+   {
+    "definition": "Moving with the ball by swimming head-up front crawl with the ball between the arms.",
+    "term": "Dribbling"
+   },
+   {
+    "definition": "The centre forward's position in front of the goal.",
+    "term": "Hole set"
+   },
+   {
+    "definition": "A field player who attacks by driving towards the goal.",
+    "term": "Driver"
+   },
+   {
+    "definition": "A quick attack made after possession changes hands, moving the ball upfield.",
+    "term": "Counter-attack"
+   },
+   {
+    "definition": "A serious foul that removes the offending player from the game for a period and gives the opposing team an extra player.",
+    "term": "Exclusion foul"
+   },
+   {
+    "definition": "A timer that limits how long a team may keep possession without shooting.",
+    "term": "Shot clock"
+   },
+   {
+    "definition": "A defence in which each defender marks one opponent.",
+    "term": "Man-to-man defence"
+   },
+   {
+    "definition": "A defence in which each defender guards an area rather than a single player.",
+    "term": "Zone defence"
+   },
+   {
+    "definition": "Six field players and a goalkeeper, seven in total.",
+    "term": "How many players does each team have in the water?"
+   },
+   {
+    "definition": "One hand only. The goalkeeper may use two.",
+    "term": "How many hands may a field player use on the ball?"
+   },
+   {
+    "definition": "Into the water in front of a team-mate, who swims onto it.",
+    "term": "Where does a wet pass go?"
+   },
+   {
+    "definition": "From above the head, with an eggbeater lift and body rotation.",
+    "term": "How is a power shot made?"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The game",
+    "points": [
+     "Two teams play, each with six field players and a goalkeeper in the water, seven in total.",
+     "The aim is to throw the ball into the opponents' goal.",
+     "Field players may handle the ball with one hand only; the goalkeeper may use two.",
+     "Field players may not touch the bottom of the pool; in some pools the goalkeeper may."
+    ]
+   },
+   {
+    "h": "Basic movement",
+    "points": [
+     "Eggbeater kick: an alternating circular leg kick that keeps the player high and stable in the water.",
+     "The eggbeater kick lets the player pass, shoot and defend from a high position.",
+     "Head-up front crawl: the head stays up, so the player can see the ball and the other players."
+    ]
+   },
+   {
+    "h": "Passing and receiving",
+    "points": [
+     "Dry pass: thrown to the receiver's hand above the water, and caught without touching the water.",
+     "Wet pass: put into the water in front of a team-mate, who swims onto it.",
+     "The passer uses the eggbeater kick to rise out of the water.",
+     "Passes can be made with one hand from above the head."
+    ]
+   },
+   {
+    "h": "Shooting",
+    "points": [
+     "Power shot: taken from above the head, with an eggbeater lift and body rotation.",
+     "Push shot: taken from the water surface.",
+     "Backhand shot: thrown with the back of the throwing hand leading.",
+     "Lob: a high shot played over the goalkeeper.",
+     "Aim for the corners of the goal."
+    ]
+   },
+   {
+    "h": "Moving with the ball",
+    "points": [
+     "Dribbling: the player swims head-up front crawl with the ball between the arms.",
+     "The ball is pushed forward by the bow wave of the swimmer."
+    ]
+   },
+   {
+    "h": "Moving free",
+    "points": [
+     "Sprint and change direction to lose a marker.",
+     "Drive towards the goal.",
+     "Position to receive the ball."
+    ]
+   },
+   {
+    "h": "Marking and intercepting",
+    "points": [
+     "Stay between the opponent and the goal.",
+     "Use the eggbeater kick to stay high in the water.",
+     "Raise an arm to block passes and shots.",
+     "Anticipate passes."
+    ]
+   },
+   {
+    "h": "Basic rules and fouls",
+    "points": [
+     "Field players use one hand only on the ball.",
+     "No holding, sinking or pulling an opponent who does not have the ball.",
+     "Such a foul may be an ordinary foul or an exclusion foul.",
+     "A shot clock limits how long a team may keep possession without shooting."
+    ]
+   },
+   {
+    "h": "Positions and simple tactics",
+    "points": [
+     "The centre forward sets up in the hole set, in front of the goal.",
+     "Drivers are field players who attack by driving towards the goal.",
+     "After a turnover, a team may counter-attack quickly.",
+     "Defence is played as zone or man-to-man.",
+     "After an exclusion, the attacking team has an extra player and uses it to create a shot."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Caps with ear guards protect the ears.",
+     "Fingernails are trimmed.",
+     "No jewellery is worn.",
+     "Deep water is supervised."
+    ]
+   },
+   {
+    "h": "Physical demands",
+    "points": [
+     "Cardio-respiratory and muscular endurance: the legs work for long periods in the eggbeater kick.",
+     "Power: needed for the shooting skills.",
+     "Agility in the water: quick changes of direction when moving free and marking.",
+     "Physical contest: close marking and blocking involve physical contact."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Dry pass: the ball is thrown to the receiver's hand above the water, so it is caught without touching the water. The passer uses the eggbeater kick to rise out of the water and passes with one hand from above the head. Power shot: the shot is taken from above the head, with an eggbeater lift that raises the player out of the water. The player rotates the body and throws the ball, aiming for the corners of the goal.",
+    "prompt": "Explain two skills used in water polo and give key technique points for each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The eggbeater kick is an alternating circular leg kick, in which the legs move in circles out of step with each other. It keeps the player high and stable in the water. It is important because it leaves the arms free to pass, shoot and block, and without it the player would sink and lose the height needed to pass, shoot or defend.",
+    "prompt": "Describe the eggbeater kick and explain why it is important in water polo.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-aquatics-s6": {
+  "keyTerms": [
+   {
+    "definition": "Performing figures and routines to music, either solo or in a group.",
+    "term": "Synchronised swimming"
+   },
+   {
+    "definition": "Continuous figure-of-eight hand movements that support and move the body.",
+    "term": "Sculling"
+   },
+   {
+    "definition": "A position floating flat on the front or the back, with the body straight and horizontal.",
+    "term": "Layout"
+   },
+   {
+    "definition": "A compact position with the knees and hips bent and drawn to the chest.",
+    "term": "Tuck position"
+   },
+   {
+    "definition": "A position bent at the hips to 90 degrees, with straight, together legs and a straight trunk.",
+    "term": "Front pike"
+   },
+   {
+    "definition": "A position bent at the hips to about 90 degrees, with straight, together legs, facing upwards.",
+    "term": "Back pike"
+   },
+   {
+    "definition": "A back-layout position in which one leg is raised vertically and straight while the other stays at the surface.",
+    "term": "Ballet leg"
+   },
+   {
+    "definition": "A vertical position with one leg vertical and the other extended forward horizontally at the surface.",
+    "term": "Fishtail"
+   },
+   {
+    "definition": "A back-based position with one leg vertical and the other drawn up, its shin parallel to the surface.",
+    "term": "Flamingo"
+   },
+   {
+    "definition": "A position with the lower back arched and the legs at the surface.",
+    "term": "Surface arch"
+   },
+   {
+    "definition": "A position in which the body is arched as it travels head-first in a circle under the water.",
+    "term": "Dolphin arch"
+   },
+   {
+    "definition": "A figure in which the legs split and walk over from a front pike or vertical position to finish.",
+    "term": "Split walkover front"
+   },
+   {
+    "definition": "Standard scull, support scull (in vertical positions) and propelling scull.",
+    "term": "Name the three types of scull"
+   },
+   {
+    "definition": "90 degrees, with the legs straight and together and the trunk straight.",
+    "term": "What angle is the hip bent to in a front pike?"
+   },
+   {
+    "definition": "Precision, height, control and synchronisation.",
+    "term": "What does execution cover in judging?"
+   },
+   {
+    "definition": "Choreography, musicality and manner of presentation.",
+    "term": "What does artistic impression cover in judging?"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What synchronised swimming is",
+    "points": [
+     "Synchronised swimming is performing figures and routines to music, either solo or in a group.",
+     "It is judged on execution and artistic impression.",
+     "The sport is now officially called artistic swimming.",
+     "Swim Ireland governs synchronised swimming in Ireland."
+    ]
+   },
+   {
+    "h": "Sculling",
+    "points": [
+     "Sculling is continuous figure-of-eight hand movement that supports and moves the body.",
+     "Standard scull: the basic sculling movement.",
+     "Support scull: used in vertical positions to hold the body up.",
+     "Propelling scull: used to move the body through the water."
+    ]
+   },
+   {
+    "h": "Back layout, front layout and tuck position",
+    "points": [
+     "Back layout: floating on the back, with the body straight and horizontal.",
+     "Back layout: the face, chest, thighs and feet are at the surface.",
+     "Front layout: face down, with the body straight and horizontal at the surface.",
+     "Tuck position: the knees and hips are bent and drawn to the chest, so the body is compact."
+    ]
+   },
+   {
+    "h": "Front pike and back pike",
+    "points": [
+     "Front pike: bent at the hips to 90 degrees, with the legs straight and together and the trunk straight.",
+     "The front pike is the starting shape for many figures.",
+     "Back pike: bent at the hips to about 90 degrees, with the legs straight and together, facing upwards."
+    ]
+   },
+   {
+    "h": "Ballet leg and flamingo",
+    "points": [
+     "Ballet leg: from the back layout, one leg is raised vertically and kept straight while the other stays at the surface.",
+     "Flamingo: a back-based position with one leg extended vertically, as in the ballet leg.",
+     "Flamingo: the other leg is drawn up towards the chest, with the shin parallel to the surface."
+    ]
+   },
+   {
+    "h": "Vertical positions",
+    "points": [
+     "Vertical positions: the body is vertical and head-down, with the legs extended out of the water.",
+     "Fishtail: one leg is vertical, and the other extends forward horizontally at the surface.",
+     "Bent-knee vertical: one leg is vertical, and the other is bent with its toe touching the inside of the straight leg's knee."
+    ]
+   },
+   {
+    "h": "Arch positions",
+    "points": [
+     "Surface arch: the lower back is arched, with the legs at the surface.",
+     "Dolphin arch: the body is arched as it travels head-first in a circle under the water, as in the dolphin figure."
+    ]
+   },
+   {
+    "h": "Split walkover front",
+    "points": [
+     "The split walkover front begins from a front pike or a vertical position.",
+     "The legs split and walk over to finish the figure."
+    ]
+   },
+   {
+    "h": "Figures and transitions",
+    "points": [
+     "Figures move smoothly from one position to another.",
+     "Transitions are performed with control, height and stability."
+    ]
+   },
+   {
+    "h": "Duet or trio routine",
+    "points": [
+     "Choreography: a sequence that combines the positions and figures.",
+     "Synchronisation: timing with each other and with the music.",
+     "Patterns and formations, using the pool space.",
+     "Entries and exits.",
+     "Expression and artistic impression."
+    ]
+   },
+   {
+    "h": "Judging criteria",
+    "points": [
+     "Execution: precision, height, control and synchronisation.",
+     "Artistic impression: choreography, musicality and manner of presentation.",
+     "Difficulty of the figures."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Breath control and cardio-respiratory endurance.",
+     "Flexibility, core strength and leg strength.",
+     "Co-ordination and spatial awareness under water.",
+     "Concentration and teamwork."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Training takes place in supervised deep water.",
+     "Breath-hold training is built up gradually, without hyperventilation.",
+     "Nose clips help keep water out of the nose."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Front pike: the body is bent at the hips to 90 degrees, with the legs straight and together and the trunk straight. It is the starting shape for many figures. Judges look for precision in the angle and in the straightness of the legs and trunk, and for height and control as the position is entered and held. Back layout: the body floats on the back, straight and horizontal, with the face, chest, thighs and feet at the surface. Judges look for a straight, horizontal line held with control and stability. Ballet leg: from the back layout, one leg is raised vertically and kept straight while the other stays at the surface. Judges look for a straight, vertical leg held with height and control and, in a duet or trio, synchronisation with the partners.",
+    "prompt": "Describe three positions used in synchronised swimming and explain what judges look for in each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Sculling is a continuous figure-of-eight hand movement that supports and moves the body. The support scull holds the body up in vertical positions, so the performer can keep the upper body out of the water without sinking. The propelling scull moves the body through the water, which lets the performer travel between positions and across the pool. Without sculling, the performer could not hold the vertical shapes or move smoothly through a routine.",
+    "prompt": "Explain the importance of sculling in synchronised swimming.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-artistic-aesthetic-movement-s1": {
+  "keyTerms": [
+   {
+    "definition": "An activity in which learners create and perform imaginative combinations of skills, techniques and/or movements in the appropriate style of the event.",
+    "term": "Artistic activity"
+   },
+   {
+    "definition": "An activity in which learners appreciate the qualities of movement and the expressive abilities of performers, using aesthetic criteria.",
+    "term": "Aesthetic activity"
+   },
+   {
+    "definition": "The standards used to plan, perform and evaluate a routine, such as body line, control, fluency, musicality, expression and originality.",
+    "term": "Aesthetic and artistic criteria"
+   },
+   {
+    "definition": "The building blocks of a routine: action, space, dynamics, relationships and choreographic form.",
+    "term": "Compositional elements"
+   },
+   {
+    "definition": "The overall structure of a dance or routine, showing how its sections are arranged.",
+    "term": "Choreographic form"
+   },
+   {
+    "definition": "A sequence of simpler steps leading to a harder skill, with each step secured before the next is attempted.",
+    "term": "Progression"
+   },
+   {
+    "definition": "Physically guiding or supporting a performer through a skill to prevent a fall or injury.",
+    "term": "Spotting"
+   },
+   {
+    "definition": "An injury caused by repeated loading of the same body part without enough recovery.",
+    "term": "Overuse injury"
+   },
+   {
+    "definition": "A sequence of movements or skills performed as one continuous piece.",
+    "term": "Routine"
+   },
+   {
+    "definition": "Artistic gymnastics, rhythmic gymnastics and dance; dance may be in any one of eight styles.",
+    "term": "Three options in the artistic and aesthetic area"
+   },
+   {
+    "definition": "Contemporary, folk, modern, ballet, jazz, tap, ethnic and traditional.",
+    "term": "Dance styles allowed in the area"
+   },
+   {
+    "definition": "Action, space, dynamics, relationships and choreographic form.",
+    "term": "Compositional elements of a routine"
+   },
+   {
+    "definition": "Body line, control, fluency, musicality, expression and originality.",
+    "term": "Six criteria judged in routines"
+   },
+   {
+    "definition": "Warm-up with mobility work, correct progressions, spotting and supporting, checked mats and apparatus, no jewellery, hair tied back, a suitable floor for dance, hydration and avoiding overuse.",
+    "term": "Safe practice measures in gymnastics and dance"
+   },
+   {
+    "definition": "The listed skills in a routine or dance, compositional and choreographic knowledge, rules and safe practice.",
+    "term": "What the performance assessment covers"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Artistic activities",
+    "points": [
+     "Artistic activities give learners creative crafting and performance of activities.",
+     "They involve imaginative combinations of skills, techniques and/or movements.",
+     "The combinations are performed in the appropriate style of the event."
+    ]
+   },
+   {
+    "h": "Aesthetic activities",
+    "points": [
+     "Aesthetic activities give learners the opportunity to demonstrate appreciation of the qualities of movement.",
+     "They also show appreciation of the expressive abilities of the performers.",
+     "Learners demonstrate this by adopting aesthetic criteria when they plan, perform and evaluate the activity."
+    ]
+   },
+   {
+    "h": "Options and the choice rule",
+    "points": [
+     "The area offers artistic gymnastics, rhythmic gymnastics and dance.",
+     "Dance may be in any one of eight styles: contemporary, folk, modern, ballet, jazz, tap, ethnic or traditional.",
+     "One activity from this area may be one of the student's three."
+    ]
+   },
+   {
+    "h": "Links to compositional elements and criteria",
+    "points": [
+     "Routines are built from compositional elements: action, space, dynamics, relationships and choreographic form.",
+     "Routines are judged against aesthetic and artistic criteria: body line, control, fluency, musicality, expression and originality.",
+     "Example: a planned change from high to low levels uses the space element, and a balance held still with a clean finish shows control."
+    ]
+   },
+   {
+    "h": "Safe practice in gymnastics and dance",
+    "points": [
+     "The warm-up includes mobility work before skills are attempted.",
+     "Skills are taught through correct progressions, with each simpler step secured before the next is attempted.",
+     "In gymnastics, spotting and supporting are used when a skill needs them.",
+     "Mats are positioned and checked, and apparatus is checked before use.",
+     "No jewellery is worn and hair is tied back.",
+     "Dance requires a suitable floor surface.",
+     "Hydration is part of safe practice.",
+     "Overuse is avoided to prevent injury."
+    ]
+   },
+   {
+    "h": "The performance assessment",
+    "points": [
+     "Assessment covers the listed skills performed within a routine or dance.",
+     "It also covers compositional and choreographic knowledge.",
+     "Rules of the activity and safe practice are assessed.",
+     "Performances are captured on video.",
+     "In written exams, aesthetic activities are used to test aesthetic and artistic criteria, compositional elements, methods of analysing choreography and the comparison of two activities."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "An artistic activity gives learners creative crafting and performance: they combine skills, techniques and/or movements imaginatively, in the appropriate style of the event. An aesthetic activity gives learners the opportunity to appreciate the qualities of movement and the expressive abilities of performers, and learners use aesthetic criteria to plan, perform and evaluate it. Example from gymnastics: a gymnast who designs a new combination of skills and movements for a floor routine, and performs it in the style of artistic gymnastics, is working in an artistic activity. Example from dance: a learner who watches a classmate's dance and judges its fluency, body line and expression against aesthetic criteria is demonstrating appreciation of the quality of the movement, which is the aesthetic focus.",
+    "prompt": "Distinguish between artistic and aesthetic activities, giving an example from gymnastics or dance.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, a warm-up that includes mobility work is completed before any skill is attempted, so the joints and muscles are prepared. Second, correct progressions are followed, with each simpler step secured before a harder one is tried, and spotting and supporting are used where a skill needs them. Third, the mats are positioned and checked and the apparatus is checked before use, and performers wear no jewellery and tie back their hair.",
+    "prompt": "Outline three safe-practice measures in gymnastics.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-artistic-aesthetic-movement-s2": {
+  "keyTerms": [
+   {
+    "definition": "A body position in a jump with the knees pulled up to the chest.",
+    "term": "Tuck"
+   },
+   {
+    "definition": "A body position in a jump with the legs kept straight and together and the body folded forward at the hips.",
+    "term": "Pike"
+   },
+   {
+    "definition": "A body position in a jump with the legs kept straight and apart.",
+    "term": "Straddle"
+   },
+   {
+    "definition": "A sideways weight transference in which the hands are placed one after the other in a line and the legs pass over the top in the frontal plane.",
+    "term": "Cartwheel"
+   },
+   {
+    "definition": "A cartwheel with a quarter turn, in which the legs snap together overhead and the gymnast lands on two feet facing back the way they came.",
+    "term": "Round-off"
+   },
+   {
+    "definition": "A forward weight transference from a run and hurdle, with the hands placed on the floor, the legs swung over and the gymnast landing on the feet.",
+    "term": "Handspring"
+   },
+   {
+    "definition": "A backward weight transference, also called a back handspring, in which the gymnast jumps backwards onto the hands and snaps the legs over to land.",
+    "term": "Back flip"
+   },
+   {
+    "definition": "A continuous arch of the body over the hands, moving backwards or forwards, with the legs passing over.",
+    "term": "Walkover"
+   },
+   {
+    "definition": "A balance on one straight leg with the other leg extended behind and the arms out.",
+    "term": "Arabesque"
+   },
+   {
+    "definition": "One of the vaults named by the specification for artistic gymnastics.",
+    "term": "Short arm overswing"
+   },
+   {
+    "definition": "The difficulty value given to a vault.",
+    "term": "Tariff"
+   },
+   {
+    "definition": "Physically supporting a gymnast at the hips and shoulders during a skill to prevent a fall.",
+    "term": "Spotting"
+   },
+   {
+    "definition": "At least 2 jumps, 2 rolls, 2 balances and 2 weight transferences; at least 4 listed agilities in the short floor sequence; at least 2 vaults from the list.",
+    "term": "Minimum requirements in artistic gymnastics"
+   },
+   {
+    "definition": "Tuck, pike, straddle and 180-degree turn.",
+    "term": "Jumps listed"
+   },
+   {
+    "definition": "Handstand, headstand, arabesque or another balance; at least 2 are required.",
+    "term": "Balances listed"
+   },
+   {
+    "definition": "Cartwheel, round-off, handspring and back flip; at least 2 are required.",
+    "term": "Weight transferences listed"
+   },
+   {
+    "definition": "Handspring, short arm overswing or an optional vault of similar tariff, excluding through and straddle vaults.",
+    "term": "Vaults listed"
+   },
+   {
+    "definition": "Backward roll to handstand, handspring, back flip, front somersault, handstand half turn, one-handed cartwheel, back somersault, and back and forward walkovers.",
+    "term": "Floor agilities counted towards the four"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Minimum requirements",
+    "points": [
+     "At least 2 jumps, 2 rolls, 2 balances and 2 weight transferences must be shown.",
+     "The short floor sequence includes at least 4 of the listed agilities.",
+     "Proficiency is shown in at least 2 vaults from handspring, short arm overswing or an optional vault of similar tariff."
+    ]
+   },
+   {
+    "h": "Jumps",
+    "points": [
+     "Every jump takes off from two feet with an arm swing.",
+     "Tuck: the knees are pulled up to the chest.",
+     "Pike: the legs are kept straight and together, with the body folded forward at the hips.",
+     "Straddle: the legs are kept straight and apart.",
+     "180-degree turn: the gymnast turns through 180 degrees in the air.",
+     "Every jump ends in a controlled two-footed landing with the knees bent and the arms out."
+    ]
+   },
+   {
+    "h": "Rolls",
+    "points": [
+     "Forward roll: the chin is tucked and the hands are placed flat on the mat.",
+     "Forward roll: the legs push, and the body rolls over the rounded back.",
+     "Forward roll: the gymnast comes up onto the feet without using the hands.",
+     "Backward roll: the body is tucked tightly, with the hands by the ears and palms up.",
+     "Backward roll: the gymnast rolls back, then pushes through the hands to land on the feet."
+    ]
+   },
+   {
+    "h": "Balances",
+    "points": [
+     "Handstand: the arms are straight and shoulder-width apart, with the body straight and the core tight.",
+     "Handstand: the gymnast kicks up from a lunge, holds the shoulders over the hands and stays still, then steps down.",
+     "Headstand: the base is a triangle formed by the forehead and both hands.",
+     "Headstand: the hips are held over the head and the legs are raised with control.",
+     "Arabesque: the gymnast balances on one straight leg, with the other leg extended behind, the arms out and the chest lifted."
+    ]
+   },
+   {
+    "h": "Weight transference",
+    "points": [
+     "Cartwheel: from a lunge, the hands are placed one after the other in a line.",
+     "Cartwheel: the legs pass straight over the top in the frontal plane, and the gymnast lands one foot after the other, facing sideways.",
+     "Round-off: a cartwheel with a quarter turn, in which the legs snap together overhead and the gymnast lands on two feet facing back the way they came.",
+     "Round-off: it links into backward skills.",
+     "Handspring: the gymnast runs and hurdles, places the hands on the mat and swings the legs straight over.",
+     "Handspring: the gymnast pushes from the shoulders and lands on the feet with the arms up.",
+     "Back flip (back handspring): the gymnast sits back as if into a chair, swings the arms back and up, and jumps backwards onto the hands.",
+     "Back flip: the legs snap over to land on the feet."
+    ]
+   },
+   {
+    "h": "Other floor agilities",
+    "points": [
+     "Backward roll to handstand: a backward roll that finishes in a handstand.",
+     "Front somersault: a forward rotation through the air without using the hands.",
+     "Handstand half turn: a 180-degree turn made while balanced on the hands.",
+     "One-handed cartwheel: a cartwheel performed with one hand on the floor.",
+     "Back somersault: a backward rotation through the air without using the hands.",
+     "Back and forward walkovers: an arch of the body with the hands on the floor and the legs passing over, moving backwards or forwards."
+    ]
+   },
+   {
+    "h": "Vaults",
+    "points": [
+     "Handspring vault: the gymnast runs and takes off from two feet on the springboard.",
+     "Handspring vault: the hands are placed on the vault table with straight arms.",
+     "Handspring vault: the body rotates forward over the hands, the gymnast pushes off the table and lands facing away from it.",
+     "Short arm overswing: one of the vaults the specification names; learn its technique from your teacher's demonstration.",
+     "Optional vault: any vault of similar tariff, meaning similar difficulty value, excluding through and straddle vaults."
+    ]
+   },
+   {
+    "h": "Building the short floor sequence",
+    "points": [
+     "The sequence has a planned start and finish.",
+     "Smooth linking movements of steps, turns and jumps join the agilities together.",
+     "Levels and directions are varied across the sequence.",
+     "The whole floor area is used.",
+     "Speed is contrasted, with slow and fast sections."
+    ]
+   },
+   {
+    "h": "Judging",
+    "points": [
+     "Difficulty: the elements attempted are scored for their difficulty.",
+     "Execution: deductions are taken for bent legs, flexed feet, loss of balance and poor landings.",
+     "Artistry and composition: judged with aesthetic and artistic criteria such as body line, control and fluency."
+    ]
+   },
+   {
+    "h": "Safety and spotting",
+    "points": [
+     "Warm-up and conditioning come before any skill is attempted.",
+     "Progressions come first: a handstand is practised against a wall before a free handstand.",
+     "Mats are placed correctly for each skill.",
+     "Trained spotters support the gymnast at the hips and shoulders.",
+     "The springboard and vault are checked before use.",
+     "No jewellery is worn."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Physical demands: flexibility, strength in the upper body and core, power and balance.",
+     "Co-ordination and spatial awareness: controlling body parts in relation to each other and to the space around the body.",
+     "Mental demands: courage and concentration."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "A cartwheel starts from a lunge, with the hands placed on the floor one after the other in a line. The gymnast rotates sideways, with the legs passing straight over the top of the body, and lands one foot after the other, facing sideways. The movement occurs in the frontal plane, which divides the body into front and back. The rotation takes place about the sagittal axis, which runs from front to back.",
+    "prompt": "Describe the key technique points of a cartwheel and identify the plane and axis in which it occurs.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Balances: the handstand, in which the shoulders stay over the hands with straight arms shoulder-width apart; and the arabesque, in which the free leg is extended straight behind with the chest lifted. Jumps: the tuck, in which the knees are pulled up to the chest; and the pike, in which the legs stay straight and together with the body folded forward at the hips.",
+    "prompt": "Name two balances and two jumps used in gymnastics and give one technique point for each.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-artistic-aesthetic-movement-s3": {
+  "keyTerms": [
+   {
+    "definition": "A floor discipline combining dance-like body movement with handling a piece of apparatus, performed to music.",
+    "term": "Rhythmic gymnastics"
+   },
+   {
+    "definition": "Rising onto the toes or the ball of the foot with the heel lifted.",
+    "term": "Relevé"
+   },
+   {
+    "definition": "A turn on one foot on the ball of the foot, with a fixed body shape.",
+    "term": "Pivot"
+   },
+   {
+    "definition": "A leap in which the legs are held at maximum range in a split shape in the air.",
+    "term": "Split leap"
+   },
+   {
+    "definition": "A small circle made with a club.",
+    "term": "Mill"
+   },
+   {
+    "definition": "A flowing movement that travels through the whole body.",
+    "term": "Body wave"
+   },
+   {
+    "definition": "A hand-held object used in a routine: a ball, hoop, ribbon, rope or club.",
+    "term": "Apparatus"
+   },
+   {
+    "definition": "The way music is grouped into shaped sections called phrases.",
+    "term": "Phrasing"
+   },
+   {
+    "definition": "A beat or note in the music that is emphasised.",
+    "term": "Accent"
+   },
+   {
+    "definition": "Ball, hoop, ribbon, rope and club.",
+    "term": "Five pieces of apparatus"
+   },
+   {
+    "definition": "Balances, pivots, rolls, splits, hops, leaps and skips, and body waves, bends, circles, swings and turns.",
+    "term": "Body movement groups"
+   },
+   {
+    "definition": "Stop or knot. It stays in continuous motion through patterns such as spirals, snakes and circles.",
+    "term": "Ribbon: what it must never do"
+   },
+   {
+    "definition": "Mills, swings, tapping, and throws and catches of one or both clubs.",
+    "term": "Club skills"
+   },
+   {
+    "definition": "Difficulty of body and apparatus elements; execution, reduced for loss of balance, dropped apparatus and poor technique; artistry through music, expression and composition.",
+    "term": "Judging components"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What rhythmic gymnastics is",
+    "points": [
+     "Rhythmic gymnastics is a floor discipline that combines dance-like body movement with handling a piece of apparatus.",
+     "Routines are set to music.",
+     "The apparatus used is a ball, hoop, ribbon, rope or club."
+    ]
+   },
+   {
+    "h": "Balances and pivots",
+    "points": [
+     "Balance: the performer stands on one foot on relevé, meaning on the toes, with the free leg held in a clear shape.",
+     "The balance is held still.",
+     "Pivot: the performer turns on one foot, on the ball of the foot, with a fixed body shape held through the turn."
+    ]
+   },
+   {
+    "h": "Rolls and splits",
+    "points": [
+     "Body rolls: controlled rolls of the body on the floor.",
+     "Front splits and side splits are performed on the floor or in the air."
+    ]
+   },
+   {
+    "h": "Hops, leaps and skips",
+    "points": [
+     "These are travelling movements with a clear shape held in the air.",
+     "A split leap, with the legs at maximum range, is an example.",
+     "Each one finishes with a soft landing."
+    ]
+   },
+   {
+    "h": "Body waves, bends, circles, swings and turns",
+    "points": [
+     "These are flowing movements through the whole body.",
+     "They show flexibility and fluency."
+    ]
+   },
+   {
+    "h": "Ball",
+    "points": [
+     "Rolls of the ball along the arms and along the floor.",
+     "Bounces of the ball on the floor.",
+     "Throws and catches with one hand, without gripping the ball."
+    ]
+   },
+   {
+    "h": "Hoop",
+    "points": [
+     "Rolls of the hoop along the floor.",
+     "Rotations of the hoop around the hand or body.",
+     "Throws and catches of the hoop, and passing through the hoop."
+    ]
+   },
+   {
+    "h": "Ribbon",
+    "points": [
+     "Continuous patterns such as spirals, snakes and circles.",
+     "The ribbon must stay in motion throughout.",
+     "Stopping or knotting the ribbon is a fault."
+    ]
+   },
+   {
+    "h": "Rope",
+    "points": [
+     "Skips and jumps through the rope.",
+     "Swings and circles of the rope.",
+     "Throws and catches of the rope."
+    ]
+   },
+   {
+    "h": "Clubs",
+    "points": [
+     "Mills: small circles made with the clubs.",
+     "Swings with the clubs.",
+     "Tapping with the clubs.",
+     "Throws and catches of one or both clubs."
+    ]
+   },
+   {
+    "h": "Working with music",
+    "points": [
+     "Movements are matched to the tempo of the music.",
+     "Movements are matched to the phrasing and accents of the music.",
+     "The routine reflects the mood of the music."
+    ]
+   },
+   {
+    "h": "Composing the routine",
+    "points": [
+     "The routine has a start position and an end position.",
+     "It uses a variety of body groups and apparatus elements.",
+     "Space and levels are used throughout.",
+     "Links between elements flow smoothly.",
+     "Body work and apparatus work are coordinated with each other."
+    ]
+   },
+   {
+    "h": "Judging",
+    "points": [
+     "Difficulty: body and apparatus elements are scored for difficulty.",
+     "Execution: deductions are taken for loss of balance, dropped apparatus and poor technique.",
+     "Artistry: music, expression and composition are judged."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Flexibility and balance are both required.",
+     "Hand-eye co-ordination is needed to handle the apparatus.",
+     "Muscular endurance is needed to sustain the routine.",
+     "Rhythm and timing match the movements to the music.",
+     "Concentration is needed throughout the routine."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Warm-up includes flexibility preparation.",
+     "Performers need adequate space between them.",
+     "A suitable floor surface is used.",
+     "The condition of the apparatus is checked before use."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "A rhythmic gymnast performs a routine to music, combining body movement with apparatus handling throughout. The body movement groups are balances on relevé, pivots, rolls, splits, hops, leaps and skips, and body waves, bends, circles, swings and turns. These are linked with apparatus skills, for example a split leap performed while a ball is rolled along the arm, or a hoop rotated around the hand during a balance. The routine starts and ends in set positions, the links between elements flow, and the body work and apparatus work are coordinated with each other. Movements are matched to the tempo, phrasing and accents of the music, and the routine reflects its mood. Judging covers the difficulty of the body and apparatus elements, deductions for loss of balance, dropped apparatus and poor technique, and artistry through music, expression and composition.",
+    "prompt": "Describe how a rhythmic gymnast combines body movement and apparatus handling in a routine set to music.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Ball: a throw and catch with one hand, without gripping the ball. Hoop: a rotation around the hand or body. Ribbon: a continuous spiral, kept in motion without stopping or knotting.",
+    "prompt": "Name three pieces of rhythmic gymnastics apparatus and one skill performed with each.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-artistic-aesthetic-movement-s4": {
+  "keyTerms": [
+   {
+    "definition": "A short movement phrase that expresses the theme of a dance and is developed by the choreographer.",
+    "term": "Motif"
+   },
+   {
+    "definition": "A change made to a motif, such as its size, speed, level, direction or body part, or the addition of repetition.",
+    "term": "Variation"
+   },
+   {
+    "definition": "A choreographic form in which all dancers perform the same movement at the same time.",
+    "term": "Unison"
+   },
+   {
+    "definition": "A choreographic form in which dancers perform the same movement one after another, as in a round.",
+    "term": "Canon"
+   },
+   {
+    "definition": "A choreographic form with two contrasting sections, A then B.",
+    "term": "Binary form"
+   },
+   {
+    "definition": "A choreographic form with three sections in the pattern A B A.",
+    "term": "Ternary form"
+   },
+   {
+    "definition": "A choreographic form in which a main section A returns between contrasting sections, as in A B A C A.",
+    "term": "Rondo form"
+   },
+   {
+    "definition": "The height of a movement: high, medium or low.",
+    "term": "Level"
+   },
+   {
+    "definition": "The route a dancer takes across the floor, such as straight, curved or zigzag.",
+    "term": "Pathway"
+   },
+   {
+    "definition": "The correct line of the body parts, such as knees over toes.",
+    "term": "Alignment"
+   },
+   {
+    "definition": "The range of movement available at each joint.",
+    "term": "Mobility"
+   },
+   {
+    "definition": "An idea or starting point, such as a theme, from which movement is created.",
+    "term": "Stimulus"
+   },
+   {
+    "definition": "The use of space, timing and relationships to other dancers within a dance.",
+    "term": "Choreographic content"
+   },
+   {
+    "definition": "Unison is simultaneous, with all dancers moving at the same time; canon is sequential, with each dancer starting after the one before.",
+    "term": "Unison versus canon"
+   },
+   {
+    "definition": "Unison, canon, binary (AB), ternary (ABA) and rondo (ABACA).",
+    "term": "Five choreographic forms named in the specification"
+   },
+   {
+    "definition": "Posture, alignment, co-ordination, balance, strength, flexibility, mobility and control.",
+    "term": "Eight qualities of technical ability"
+   },
+   {
+    "definition": "Levels: high, medium and low. Pathways: straight, curved and zigzag.",
+    "term": "Levels and pathways"
+   },
+   {
+    "definition": "Choose a stimulus, improvise and select movement, create motifs, develop and structure them into a form, rehearse, then refine with feedback and video.",
+    "term": "Six stages of the choreographic process"
+   },
+   {
+    "definition": "Contemporary, folk, modern, ballet, jazz, tap, ethnic and traditional.",
+    "term": "Eight dance styles in the specification"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The individual and group dance requirement",
+    "points": [
+     "Learners perform an individual dance and a group dance.",
+     "Both show consideration of technical ability, choreographic design, dance style, props and music, and overall sense of performance.",
+     "Choreographic design includes choreographic content, choreographic construction and choreographic form."
+    ]
+   },
+   {
+    "h": "Technical ability",
+    "points": [
+     "Posture: an upright, lifted carriage of the body.",
+     "Alignment: body parts held in a correct line, for example knees over toes.",
+     "Co-ordination: movements of different body parts combined in time.",
+     "Balance: holding the body steady over its base.",
+     "Strength: the muscular power to lift, hold and control the body.",
+     "Flexibility: the ability of muscles and joints to move through a large range.",
+     "Mobility: the range of movement available at each joint.",
+     "Control: stopping, holding and moving precisely."
+    ]
+   },
+   {
+    "h": "Choreographic content",
+    "points": [
+     "Levels: high, medium and low positions.",
+     "Pathways: straight, curved and zigzag routes across the floor.",
+     "Directions and formations: the way dancers face and how they are arranged, such as in lines or circles.",
+     "Timing: the speed, rhythm and stillness of movement.",
+     "Relationships to other dancers: mirroring, contrast, leading and following, and contact."
+    ]
+   },
+   {
+    "h": "Choreographic construction",
+    "points": [
+     "A motif is a short movement phrase that expresses the theme.",
+     "Variation changes the motif, for example by altering its size, speed, level, direction or body part.",
+     "Adding repetition is also a way of varying a motif."
+    ]
+   },
+   {
+    "h": "Choreographic form",
+    "points": [
+     "Unison: all dancers perform the same movement at the same time, for example a group arm sweep done together on one beat.",
+     "Canon: dancers perform the same movement one after another, as in a round, for example each dancer starting the same sequence a few counts after the one before.",
+     "Binary (AB): two contrasting sections, for example a slow, smooth section followed by a fast, sharp one.",
+     "Ternary (ABA): three sections in which the first returns after a contrasting middle, for example a slow opening, a fast middle and the opening returning.",
+     "Rondo (ABACA): a main section A returns between contrasting sections B and C, for example a main group phrase returning between a duet and a solo."
+    ]
+   },
+   {
+    "h": "Dance styles",
+    "points": [
+     "Contemporary: draws on ballet and modern techniques and uses fluid, expressive movement and floor work.",
+     "Folk: social dance of ordinary people, usually performed in groups and passed on informally.",
+     "Modern: a style that broke away from classical ballet conventions, using contraction, release and floor work.",
+     "Ballet: a classical style with turnout, pointed feet, set positions and a codified vocabulary of steps.",
+     "Jazz: an energetic style with sharp, rhythmic movements and isolations of body parts, often danced to jazz music.",
+     "Tap: a style in which metal plates on the shoes make percussive sounds as the dancer steps and taps.",
+     "Ethnic: a style rooted in the dance of a particular cultural group, performed with that group's music and costume.",
+     "Traditional: a style passed down through generations within a community, such as Irish traditional dance."
+    ]
+   },
+   {
+    "h": "Props and music",
+    "points": [
+     "Props extend the movement or tell part of the story, for example a chair, a scarf or a ribbon.",
+     "Music sets the mood, tempo and structure of the dance.",
+     "Movement is matched to the phrasing and accents of the music.",
+     "Silence can be used for effect."
+    ]
+   },
+   {
+    "h": "Performance and communication",
+    "points": [
+     "Projection: energy and expression sent out to the audience.",
+     "Focus: where the eyes look, which directs the audience's attention.",
+     "Facial expression matches the theme.",
+     "Energy and commitment are shown in every movement.",
+     "The theme is communicated to the audience artistically and aesthetically."
+    ]
+   },
+   {
+    "h": "The choreographic process",
+    "points": [
+     "Choose a stimulus or theme.",
+     "Improvise and select movement.",
+     "Create motifs from the selected movement.",
+     "Develop and structure the motifs into a chosen form.",
+     "Rehearse, then refine using feedback and video."
+    ]
+   },
+   {
+    "h": "Safe practice",
+    "points": [
+     "Warm-up and cool-down are both part of safe practice.",
+     "The floor surface and footwear must be suitable.",
+     "Dancers keep enough space between them.",
+     "Lifts and landings use correct technique.",
+     "Hydration is maintained."
+    ]
+   },
+   {
+    "h": "Demands",
+    "points": [
+     "Flexibility, balance and strength are needed.",
+     "Muscular endurance is needed to sustain a dance.",
+     "Co-ordination, rhythm and spatial awareness are needed.",
+     "Confidence and expression are required to perform.",
+     "Teamwork is needed in the group dance."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Unison: all dancers perform the same movement at the same time, for example a sequence of arm sweeps performed together on the same beat. This gives the group a strong sense of unity. Canon: each dancer performs the same movement one after another, as in a round, for example a step and arm wave passed from dancer to dancer, each starting a few counts after the last. This spreads one idea across the whole group over time. Rondo (ABACA): a main section A returns between contrasting sections B and C, for example a main group phrase returning between a duet and a solo section. This gives the dance a clear structure and keeps the main theme recognisable throughout.",
+    "prompt": "Explain three choreographic devices or forms a choreographer could use in a group dance, with an example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A motif is a short movement phrase that expresses the theme of the dance, and it is the basic building block that the choreographer develops. Variation is the change made to a motif to develop it, such as altering its size, speed, level or direction, changing the body part used, or adding repetition. For example, a motif of a step, an arm sweep and a turn can be varied by performing it at a low level, performing it faster, or using the legs instead of the arms. The same idea returns in changed form, so the dance has both unity and development.",
+    "prompt": "Explain motif and variation in dance.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-athletics-s1": {
+  "keyTerms": [
+   {
+    "definition": "A group of running, jumping, throwing and walking events, performed indoors or outdoors, measured against the performer's own ability and against others' achievements.",
+    "term": "Athletics"
+   },
+   {
+    "definition": "The best result a performer has ever achieved in an event.",
+    "term": "Personal best"
+   },
+   {
+    "definition": "The best result a performer has achieved in the current season.",
+    "term": "Season's best"
+   },
+   {
+    "definition": "An official who measures throws and jumps and checks each attempt for fouls.",
+    "term": "Field judge"
+   },
+   {
+    "definition": "An official who watches the lanes and the finish of running events.",
+    "term": "Track judge"
+   },
+   {
+    "definition": "The official who starts running events and enforces the false start rules.",
+    "term": "Starter"
+   },
+   {
+    "definition": "The assessment of one athletics event chosen from one category, covering its skills, techniques, rules and safe practice.",
+    "term": "Performance assessment"
+   },
+   {
+    "definition": "The marked area into which a throw must land to count.",
+    "term": "Sector"
+   },
+   {
+    "definition": "A measurable result, such as a time or distance, that makes improvement easy to record and compare.",
+    "term": "Personal best (objective measurement)"
+   },
+   {
+    "definition": "Running, throwing and jumping; the learner selects one for the performance assessment.",
+    "term": "Three athletics categories"
+   },
+   {
+    "definition": "Sprints, middle distance, long distance and hurdles.",
+    "term": "Events in the running category"
+   },
+   {
+    "definition": "Shot-put, discus, javelin and hammer.",
+    "term": "Events in the throwing category"
+   },
+   {
+    "definition": "High jump, long jump and triple jump.",
+    "term": "Events in the jumping category"
+   },
+   {
+    "definition": "The starter, track judges and timekeepers or electronic timing.",
+    "term": "Officials at a running event"
+   },
+   {
+    "definition": "Field judges, who measure each attempt and check it for fouls.",
+    "term": "Officials at a field event"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Athletics is a group of running, jumping, throwing and walking events. Each is measurable in terms of the performer's own ability and against standards set by others' achievements.",
+    "h": "What athletics is",
+    "points": [
+     "The events may be performed indoors or outdoors.",
+     "Performance is judged by the measurement itself: a time for running events, a distance or height for throwing and jumping.",
+     "Progress is shown by comparing a performance with the performer's own earlier results and with the achievements of others."
+    ]
+   },
+   {
+    "h": "The three categories and their events",
+    "points": [
+     "Running events: sprints, middle distance, long distance and hurdles.",
+     "Sprints: 100 m, 200 m and 400 m.",
+     "Middle distance: 800 m and 1500 m.",
+     "Long distance: 5000 m, 10,000 m and beyond.",
+     "Hurdles: the hurdles events, each run over a row of barriers.",
+     "Throwing events: shot-put, discus, javelin and hammer.",
+     "Jumping events: high jump, long jump and triple jump."
+    ]
+   },
+   {
+    "h": "The choice rule for the performance assessment",
+    "points": [
+     "The learner selects one category: running, throwing or jumping.",
+     "Within that category, the performance assessment focuses on one activity, for example the discus.",
+     "The assessment covers the skills and techniques, the tactics, and the rules and safe practice of that one activity."
+    ]
+   },
+   {
+    "b": "Athletics results are objective, so a performer's improvement can be recorded and compared exactly.",
+    "h": "Measurement by time and distance",
+    "points": [
+     "A running time or a throwing or jumping distance is recorded by a timekeeper, electronic timing or a field judge's measurement, with no room for opinion about the result.",
+     "A personal best is the best result a performer has achieved; a season's best is the best result in the current season.",
+     "Recording these results allows a performer to set measurable goals, such as improving a personal best by a stated amount.",
+     "Comparing results over sessions shows whether a training plan is working, which is the basis of performance analysis in athletics.",
+     "Results are also compared with the achievements of others, so a performer can see where their standard sits in relation to a national or event standard."
+    ]
+   },
+   {
+    "h": "General rules and officials",
+    "points": [
+     "The starter controls the start of running events and enforces the false start rules.",
+     "Track judges watch the lanes and the finish of running events.",
+     "Field judges measure every throw and jump and check each attempt for fouls.",
+     "Timekeepers or electronic timing record the times of running events.",
+     "Field events allow a set number of attempts for each athlete, and the high jump has its own elimination rule."
+    ]
+   },
+   {
+    "h": "Safety common to all athletics events",
+    "points": [
+     "Warm up thoroughly before any event, including the muscles that will be used most in the event.",
+     "Throwing areas are cleared before a throw and controlled throughout: athletes throw only on command and retrieve implements only on command.",
+     "Nobody walks across a throwing sector while throws are being made.",
+     "Discus and hammer are thrown from cages, which must be in place before throwing starts.",
+     "Landing pits are raked and mats are in place before any jump.",
+     "Spikes are checked for damage before a session.",
+     "Implements must be of the correct weight for the age of the athletes."
+    ]
+   },
+   {
+    "h": "The performance assessment",
+    "points": [
+     "The assessment is of one event, chosen within one category.",
+     "It covers the listed skills and techniques of that event.",
+     "It covers the rules and conventions of the event, and the safe practice that goes with it.",
+     "Technique for each event is taught in the notes for that category, not here."
+    ]
+   },
+   {
+    "b": "The same principles from the theory chapters recur across the athletics events.",
+    "h": "Athletics as a context for theory",
+    "points": [
+     "Energy systems: a 100 m sprint draws mainly on the ATP-PC system, a 400 m race mainly on the lactic acid system with a large aerobic contribution, and a 10,000 m race mainly on the aerobic system (see the note titled Energy systems).",
+     "Levers and Newton's laws: a throw or jump is explained by a lever whose end speed depends on a straight, long arm or leg, and by Newton's third law, since the ground reaction force from the take-off propels the athlete (see the note titled Analysing skill: movement and quality perspectives).",
+     "Planes and axes: the turns of a discus or hammer thrower are rotation in the transverse plane about the longitudinal axis (see the note titled Analysing skill: the biomechanical perspective).",
+     "Fitness components and testing: a 10,000 m race depends on aerobic endurance, a shot-put throw depends on muscular strength and power, and a 100 m sprint depends on speed (see the notes on assessing fitness and the principles of training).",
+     "Periodisation: a training year is divided into phases so that general conditioning comes first, then event-specific training, with the peak timed for the main competitions (see the notes on designing a fitness plan)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "First, the throwing area is cleared before any throw and athletes throw only on command, so nobody is in the sector when the implement is released. Second, implements are retrieved only on command and carried back to the thrower rather than thrown back, so nobody is struck returning them. Third, nobody walks across the throwing sector while throws are being made, so people stay behind the throwers and out of the landing area.",
+    "prompt": "Outline three safety rules for a throwing event.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Athletics results are objective: a time or a distance is recorded exactly, so there is no room for opinion about the result. This allows the performer's improvement to be measured by comparing a personal best or a season's best with earlier results, and by comparing results across training sessions to see whether a training plan is working. Because each result is a precise number, a performer can set a measurable goal, such as improving a personal best by a stated amount, and check their progress towards it. The same numbers can also be compared with the achievements of others, so the performer can see where their standard sits.",
+    "prompt": "Explain why athletics events suit performance analysis and goal setting.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-athletics-s2": {
+  "keyTerms": [
+   {
+    "definition": "The start used in sprints from blocks, with hands behind the line and the body set low before the gun.",
+    "term": "Crouch start"
+   },
+   {
+    "definition": "The start used in middle and long distance, with one foot forward, the body leaning slightly and no hands on the track.",
+    "term": "Standing start"
+   },
+   {
+    "definition": "A race in which the second half is run faster than the first.",
+    "term": "Negative split"
+   },
+   {
+    "definition": "Controlling the speed over a race so that the athlete can sustain it to the finish.",
+    "term": "Pacing"
+   },
+   {
+    "definition": "Landing with the foot ahead of the centre of mass, which acts as a brake on each stride.",
+    "term": "Overstriding"
+   },
+   {
+    "definition": "Performing a movement with no unnecessary motion and the least energy needed for the result.",
+    "term": "Economy of movement"
+   },
+   {
+    "definition": "The leg driven over the hurdle first, with the knee leading.",
+    "term": "Lead leg"
+   },
+   {
+    "definition": "The leg brought round to the side over the hurdle, with the knee high and the foot turned out.",
+    "term": "Trail leg"
+   },
+   {
+    "definition": "A faster final burst of speed used near the end of a race to pass rivals.",
+    "term": "Kick"
+   },
+   {
+    "definition": "Hips slightly above the shoulders; shoulders over the hands; front leg bent at about 90 degrees and back leg at about 120 degrees.",
+    "term": "Crouch start: the Set position"
+   },
+   {
+    "definition": "One foot forward, body leaning slightly, weight on the front foot, no hands on the track; on 'Go' drive forward.",
+    "term": "Standing start: the 'Go' sequence"
+   },
+   {
+    "definition": "Drive, acceleration, maximum velocity, then maintenance of speed.",
+    "term": "Sprint drive: the phases in order"
+   },
+   {
+    "definition": "High knee lift; foot lands on the ball under the hips; full extension of the drive leg; heel pulled up on recovery; short ground contact.",
+    "term": "Lower body action in sprinting"
+   },
+   {
+    "definition": "Attack from a set distance; lead leg driven straight; trail leg brought round with the foot turned out; trunk leaning forward; run off quickly.",
+    "term": "Hurdles: the three-stride pattern"
+   },
+   {
+    "definition": "Arms crossing the body, overstriding and heel striking, tense shoulders, leaning back, and slowing before the line.",
+    "term": "Common running faults"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The running events and their demands",
+    "points": [
+     "Sprints (100 m, 200 m and 400 m) demand speed, power and reaction time, and are powered by the ATP-PC system in the first seconds, with the lactic acid system taking over for the longer sprints.",
+     "Middle distance (800 m and 1500 m) demands speed endurance and tactical awareness, powered by the lactic acid system with a large aerobic contribution.",
+     "Long distance (5000 m, 10,000 m and beyond) demands cardio-respiratory endurance and pacing, powered mainly by the aerobic system.",
+     "Hurdles demand speed, flexibility and rhythm, so that the stride pattern between barriers stays consistent."
+    ]
+   },
+   {
+    "h": "Starts",
+    "points": [
+     "Crouch start (sprints, from blocks): on 'On your marks' the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground.",
+     "Crouch start, 'Set': the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees and the back leg at about 120 degrees.",
+     "Crouch start, gun: the athlete drives out low with a powerful extension of the legs, while the opposite arm drives forward.",
+     "Standing start (middle and long distance): one foot is forward, the body leans slightly, the weight is on the front foot and no hands touch the track.",
+     "Standing start, 'Go': the athlete drives forward from the front foot."
+    ]
+   },
+   {
+    "h": "Drive and acceleration in sprinting",
+    "points": [
+     "At first the body is low and leaning forward, so that the drive pushes the athlete forward.",
+     "The body gradually becomes upright over about 20-30 m of the race.",
+     "Once upright, the athlete maintains speed through maximum velocity and into the final phase, which is the maintenance of speed."
+    ]
+   },
+   {
+    "h": "Sprint technique: upper body and lower body",
+    "points": [
+     "Upper body: the head is still and in line with the spine, the eyes look forward, and the face and shoulders are relaxed.",
+     "Arms are bent at about 90 degrees and drive from the shoulder, with the hand moving from the hip to chin level.",
+     "Arms do not cross the body.",
+     "Lower body: the knee lifts high on the drive, and the foot lands on the ball of the foot under the hips.",
+     "The drive leg extends fully at the hip, knee and ankle to push the body forward.",
+     "On recovery the heel is pulled up towards the bottom, so the leg swings through without wasted movement.",
+     "Ground contact is short, so that each stride drives the body forward rather than braking it."
+    ]
+   },
+   {
+    "h": "Middle and long distance technique and pacing",
+    "points": [
+     "The body is more upright than in a sprint, and the running is relaxed.",
+     "The knee lift and the arm drive are lower than in a sprint.",
+     "The foot lands mid-foot, under the body.",
+     "Breathing is rhythmic, matched to the stride, so that oxygen supply stays steady.",
+     "Economy of movement is the aim: smooth, efficient stride with no wasted motion.",
+     "Pacing: an even pace over the race or a negative split, with the second half faster than the first.",
+     "Going out too fast builds up lactic acid early, so the athlete cannot sustain the pace later.",
+     "The kick is used in the final part of the race to pass rivals."
+    ]
+   },
+   {
+    "h": "Hurdles technique",
+    "points": [
+     "The athlete attacks the hurdle from a set distance, so the stride pattern is consistent between barriers.",
+     "The lead leg is driven up straight, with the knee leading.",
+     "The trail leg is brought round to the side with the knee high and the foot turned out.",
+     "The trunk leans forward over the hurdle, and the arm opposite the lead leg drives.",
+     "The athlete runs off the hurdle quickly, back into the normal stride.",
+     "Hurdles are usually run with a consistent number of strides between them, for example three strides."
+    ]
+   },
+   {
+    "h": "Finishes",
+    "points": [
+     "The athlete runs through the line without slowing down.",
+     "At the line the torso dips forward; the head and arms do not count for the finish.",
+     "In athletics the finish is decided by the torso crossing the line."
+    ]
+   },
+   {
+    "h": "Overall efficiency and common faults",
+    "points": [
+     "Efficient running is relaxed, with minimal side-to-side movement, good posture and a steady rhythm.",
+     "Arms crossing the body waste energy and twist the trunk.",
+     "Overstriding and heel striking act as brakes, because the foot lands ahead of the centre of mass.",
+     "Tense shoulders and a leaning-back posture reduce the efficiency of the stride.",
+     "Slowing down before the line loses time that the athlete has already earned."
+    ]
+   },
+   {
+    "h": "Tactics in middle distance racing",
+    "points": [
+     "The athlete positions near the front on the inside to avoid being boxed in.",
+     "The athlete responds to surges by rivals rather than being carried by them.",
+     "The final kick is timed to start at the point where the athlete can sustain it to the line."
+    ]
+   },
+   {
+    "h": "Rules for running events",
+    "points": [
+     "At senior level, under current World Athletics rules, one false start results in disqualification with no warning.",
+     "Sprints stay in their lanes for the whole race.",
+     "In the 800 m, runners break from their lanes into the inside lane after the first bend.",
+     "Obstruction of another runner is a breach of the rules."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Crouch start: on 'On your marks' the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground. On 'Set' the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees with the back leg at about 120 degrees. On the gun the sprinter drives out low with a powerful extension of the legs while the opposite arm drives forward. Upper body action: the head is still and in line with the spine, the eyes look forward, the face and shoulders are relaxed, and the arms are bent at about 90 degrees, driving from the shoulder with the hand moving from hip to chin level and not crossing the body. Lower body action: the knee lifts high, the foot lands on the ball of the foot under the hips, and the drive leg extends fully at the hip, knee and ankle. On recovery the heel is pulled up towards the bottom so the leg swings through, and ground contact is short.",
+    "prompt": "Describe the crouch start and the upper and lower body action of a sprinter, giving key technique points.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, the body position: a sprinter leans forward at first and becomes upright over about 20-30 m, whereas a distance runner is more upright and relaxed from the start. Second, the knee lift and arm drive: a sprinter lifts the knee high and drives the arms from the shoulder, while a distance runner uses a lower knee lift and arm drive, landing mid-foot to conserve energy over the longer race.",
+    "prompt": "Describe two differences between sprint running technique and distance running technique.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-athletics-s3": {
+  "keyTerms": [
+   {
+    "definition": "The sequential transfer of force from the legs through the hips, trunk, shoulder and arm to the implement, with each segment adding speed.",
+    "term": "Summation of forces"
+   },
+   {
+    "definition": "The linked sequence of body segments that transfers force from the ground up to the implement in a throw.",
+    "term": "Kinetic chain"
+   },
+   {
+    "definition": "The marked area into which a throw must land to count.",
+    "term": "Sector"
+   },
+   {
+    "definition": "The board at the front of the circle that the thrower must not touch.",
+    "term": "Stop board"
+   },
+   {
+    "definition": "A movement across the shot-put circle in which the thrower moves backwards and across, staying low.",
+    "term": "Glide"
+   },
+   {
+    "definition": "A movement in which the thrower switches feet to turn back and stay inside the circle after a throw.",
+    "term": "Reverse"
+   },
+   {
+    "definition": "The impulse steps of the javelin approach, in which the feet cross to build speed before the front leg is planted.",
+    "term": "Cross-over steps"
+   },
+   {
+    "definition": "The backward movement of the javelin over the last strides, with a straight arm, before the throw.",
+    "term": "Withdrawal"
+   },
+   {
+    "definition": "The swings used at the start of a discus or hammer throw to build momentum before the turns.",
+    "term": "Preliminary swings"
+   },
+   {
+    "definition": "The horizontal plane in which discus and hammer turns occur, about the longitudinal axis.",
+    "term": "Transverse plane"
+   },
+   {
+    "definition": "Release speed first, then release angle, then release height.",
+    "term": "Factors that determine distance in throwing"
+   },
+   {
+    "definition": "Grip at the base of the fingers and shot tucked in the neck; stance at the back of the circle; glide or rotation; drive from the legs and hip turn; push from the neck at about 40 degrees; reverse to stay in the circle.",
+    "term": "Shot-put: the sequence of the throw"
+   },
+   {
+    "definition": "Fingertips over the rim; preliminary swings; turn of one and a half rotations; long straight arm sweeping at shoulder height; release off the index finger; reverse to stay in the circle.",
+    "term": "Discus: the sequence of the throw"
+   },
+   {
+    "definition": "Grip behind the cord; approach carried above the shoulder; withdrawal with a straight arm; cross-over steps; plant front leg; hips then shoulders rotate; release at about 30-35 degrees.",
+    "term": "Javelin: the sequence of the throw"
+   },
+   {
+    "definition": "Two-handed grip; preliminary winds; three or four accelerating turns; low and high points of the orbit; release over the left shoulder for a right-hander; thrown from a cage.",
+    "term": "Hammer: the sequence of the throw"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Principles common to all throws",
+    "points": [
+     "Distance depends mainly on release speed, then on release angle and release height.",
+     "Summation of forces (kinetic chain): force is generated from the legs, passes through the hips and trunk, then to the shoulder, arm and hand in sequence, with each segment adding speed.",
+     "A long, straight throwing arm at release lengthens the lever, which increases the speed of release."
+    ]
+   },
+   {
+    "h": "Rules common to the circle throws",
+    "points": [
+     "The throw starts from a stationary position inside the circle.",
+     "The implement must land within the sector.",
+     "The thrower must not touch the top of the stop board or step on or outside the circle's edge.",
+     "The thrower leaves the circle from the back half, and only after the implement has landed.",
+     "A thrower who leaves the circle before the implement lands commits a foul."
+    ]
+   },
+   {
+    "h": "Shot-put",
+    "points": [
+     "Grip: the shot rests on the fingers at their base, not in the palm, and is tucked into the neck under the jaw.",
+     "Stance and preparation: the athlete stands at the back of the circle facing away from the throwing direction, with the elbow held high.",
+     "Movement into the throw: the athlete moves across the circle by a glide or a rotational movement, drives from the legs, and turns the hips.",
+     "Release and follow-through: the shot is pushed from the neck at about 40 degrees with a wrist flick; a reverse switches the feet so the athlete stays in the circle.",
+     "Key rules: the shot is pushed, not thrown; a throwing action from behind the shoulder is a foul.",
+     "Safety: no cage is used for the shot, so the sector must be checked clear before each put."
+    ]
+   },
+   {
+    "h": "Discus",
+    "points": [
+     "Grip: the fingertips are spread over the rim of the discus, with the palm facing down.",
+     "Stance and preparation: the athlete stands at the back of the circle and makes preliminary swings to build the turn.",
+     "Movement into the throw: the athlete makes a turn of one and a half rotations across the circle in the transverse plane about the longitudinal axis (see the note titled Analysing skill: the biomechanical perspective), with the arm long and straight, sweeping round at shoulder height.",
+     "Release and follow-through: the discus is released off the index finger, spinning clockwise for a right-hander, and a reverse keeps the athlete in the circle.",
+     "Key rules: the discus is thrown with its spin set up in the turn, and its flight is judged by where it lands in the sector.",
+     "Safety: discus is thrown from a cage, so the cage must be in place before the turns begin."
+    ]
+   },
+   {
+    "h": "Javelin",
+    "points": [
+     "Grip: held behind the cord, using a grip such as the Finnish or American grip.",
+     "Stance and preparation: the javelin is carried above the shoulder during the approach run.",
+     "Movement into the throw: over the last strides the javelin is withdrawn back with a straight arm, followed by cross-over (impulse) steps, then the front leg is planted.",
+     "Release and follow-through: the hips and then the shoulders rotate, the elbow leads over the shoulder, and the throw is made over a braced front leg at about 30-35 degrees along the line of the shaft.",
+     "Key rules: the javelin must land tip first in the sector.",
+     "Safety: the approach run passes ahead of the thrower, so the javelin is not thrown until the area in front is clear."
+    ]
+   },
+   {
+    "h": "Hammer",
+    "points": [
+     "Grip: both hands hold the handle of the hammer.",
+     "Stance and preparation: preliminary winds (swings) of the hammer are made around the head.",
+     "Movement into the throw: three or four accelerating turns are made on the heels and toes, in the transverse plane about the longitudinal axis, with long straight arms.",
+     "Release and follow-through: the hammer passes through a low point and a high point of its orbit, and is released over the left shoulder for a right-hander.",
+     "Key rules: the hammer is thrown from a cage, which must be fully in place before the throw.",
+     "Safety: the cage contains the turns and the release, so the thrower stays inside it until the hammer has left the hand."
+    ]
+   },
+   {
+    "h": "Overall efficiency and common faults",
+    "points": [
+     "Efficient throwing is a smooth rhythm, with balance in the circle and the kinetic chain sequenced from the legs to the hand.",
+     "A blocked or braced front side lets the force from the legs transfer into the throw.",
+     "Throwing with the arm only, without a leg drive, loses most of the available speed.",
+     "Opening the shoulders too early ends the rotation before release.",
+     "A low release angle sends the implement flat and short.",
+     "Falling out of the circle during the throw is a foul."
+    ]
+   },
+   {
+    "h": "Safety in throwing events",
+    "points": [
+     "Throw only on command, and retrieve only on command.",
+     "Carry implements back to the thrower; never throw them back.",
+     "Stay behind the thrower while a throw is being made.",
+     "Check the sector is clear before each throw."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Shot-put: the shot rests on the fingers at their base and is tucked into the neck under the jaw, with the elbow held high. The thrower stands at the back of the circle, moves across it by a glide or rotation, and drives from the legs with a hip turn. The shot is pushed from the neck at about 40 degrees with a wrist flick, and the thrower reverses feet to stay in the circle. Summation of forces: force generated from the legs passes through the hips and trunk to the shoulder, arm and hand in sequence, and each segment adds speed as it passes on the force. A braced front side stops the force being lost, and a long, straight throwing arm at release lengthens the lever, so the shot leaves the hand faster.",
+    "prompt": "Describe the grip, movement into the throw and release of one throwing event, and explain how the summation of forces increases release speed.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, athletes throw only on command and retrieve implements only on command, so nobody is in the sector when a throw is made. Second, implements are carried back to the thrower rather than thrown back, so nobody is struck returning them. Third, the sector is checked clear before each throw and nobody walks across it while throws are being made; discus and hammer are also thrown from cages, which must be in place before the throw.",
+    "prompt": "Outline three safety rules that apply in throwing events.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-athletics-s4": {
+  "keyTerms": [
+   {
+    "definition": "The final push from the ground that launches the jumper into flight, using a powerful extension of the hip, knee and ankle.",
+    "term": "Take-off"
+   },
+   {
+    "definition": "The point at which the body's mass is balanced; its height and angle at take-off determine the jump.",
+    "term": "Centre of mass"
+   },
+   {
+    "definition": "The high jump style in which the jumper takes off from the foot further from the bar and clears it back first.",
+    "term": "Fosbury flop"
+   },
+   {
+    "definition": "A long jump flight technique in which the legs are cycled to delay them dropping and keep the body balanced.",
+    "term": "Hitch-kick"
+   },
+   {
+    "definition": "The first phase of the triple jump, in which the jumper takes off and lands on the same foot.",
+    "term": "Hop"
+   },
+   {
+    "definition": "The second phase of the triple jump, in which the jumper lands on the other foot.",
+    "term": "Step"
+   },
+   {
+    "definition": "A mark on the runway that a long or triple jumper uses to check that the run-up has the right number of strides.",
+    "term": "Check mark"
+   },
+   {
+    "definition": "The board from which the long and triple jumper takes off, over which the jumper must not step.",
+    "term": "Take-off board"
+   },
+   {
+    "definition": "Hop (takes off and lands on the same foot), then step (lands on the other foot), then jump (lands in the pit on both feet).",
+    "term": "Triple jump: the order of the phases"
+   },
+   {
+    "definition": "The foot further from the bar.",
+    "term": "High jump: which foot to take off from"
+   },
+   {
+    "definition": "Three consecutive failures eliminate the jumper, whether at one height or across heights.",
+    "term": "High jump: elimination"
+   },
+   {
+    "definition": "A hang, a sail or a hitch-kick, used to keep balance and delay the legs dropping.",
+    "term": "Long jump: flight options"
+   },
+   {
+    "definition": "From the take-off line to the nearest mark in the sand made by any part of the body.",
+    "term": "Long and triple jump: how the jump is measured"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Principles of jumping",
+    "points": [
+     "Jumping converts the speed of the run-up into height (high jump) or horizontal distance (long and triple jump) at take-off.",
+     "The distance or height achieved depends on the take-off speed, the take-off angle and the height of the centre of mass at take-off.",
+     "Take-off uses a powerful, extended drive of the hip, knee and ankle, and the free leg and arms swing upward to add lift.",
+     "Newton's third law explains take-off: the jumper pushes down into the ground, and the ground reaction force pushes the jumper up and forward."
+    ]
+   },
+   {
+    "h": "High jump (Fosbury flop)",
+    "points": [
+     "Run-up: a curved, J-shaped approach, straight at first and then curving in the final strides.",
+     "Run-up: the jumper leans away from the bar on the curve.",
+     "Take-off: the jumper takes off from the foot further from the bar, driving the knee of the free leg up.",
+     "Take-off: the body rotates so that the back faces the bar.",
+     "Flight: the jumper arches over the bar with the head and shoulders back and the hips high, then lifts the legs over.",
+     "Landing: the jumper lands on the upper back and shoulders on the mat."
+    ]
+   },
+   {
+    "h": "Long jump",
+    "points": [
+     "Run-up: an accelerating run-up with a consistent number of strides, checked by a check mark on the runway.",
+     "Take-off: an active, flat-footed take-off from the board, without stopping on the board.",
+     "Take-off: the free knee is driven up to help the body rotate forward.",
+     "Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping.",
+     "Landing: the legs are extended forward, and the jumper falls forward or sideways, not backwards."
+    ]
+   },
+   {
+    "h": "Triple jump",
+    "points": [
+     "Run-up: as for the long jump, with an accelerating run-up and a consistent stride pattern.",
+     "Take-off (hop): the jumper takes off from the board and lands on the same foot.",
+     "Flight (step): the jumper lands on the other foot, keeping the phases balanced.",
+     "Landing (jump): the jumper lands in the pit on both feet.",
+     "The sequence is always hop, then step, then jump.",
+     "The phases should have roughly even rhythm, and speed is maintained through all three.",
+     "Landings are active and flat-footed.",
+     "Arm action, either single or double, drives each phase."
+    ]
+   },
+   {
+    "h": "Rules and fouls for jumping events",
+    "points": [
+     "High jump: the take-off must be from one foot.",
+     "High jump: three consecutive failures eliminate the jumper, whether at one height or across heights.",
+     "High jump: the bar must stay on the supports; knocking it off is a failure.",
+     "Long and triple jump: stepping over the take-off board line is a foul.",
+     "Long and triple jump: the jump is measured from the take-off line to the nearest mark in the sand made by any part of the body."
+    ]
+   },
+   {
+    "h": "Overall efficiency and common faults",
+    "points": [
+     "An efficient jump has a consistent run-up, speed maintained through take-off, an upright posture at take-off and a controlled landing.",
+     "Slowing down before the board removes the speed that the jump depends on.",
+     "Overstriding at take-off lands the foot ahead of the body, which brakes the jump.",
+     "Sitting back on landing loses distance.",
+     "Flattening the curve in the high jump reduces the lean away from the bar and the rotation needed to clear it."
+    ]
+   },
+   {
+    "h": "Safety in jumping events",
+    "points": [
+     "Landing pits are dug and raked before any jump.",
+     "Landing mats are positioned and checked before the high jump.",
+     "The runway is clear of people and equipment during the run-up.",
+     "Spikes are checked for damage before use.",
+     "The take-off area is dry, so the jumper does not slip at take-off."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Run-up: the jumper accelerates with a consistent number of strides, checked by a check mark on the runway, so the foot lands on the board at the right point. Take-off: the jumper makes an active, flat-footed take-off from the board without stopping, driving the free knee up to help rotation and keeping the body upright. Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping, so that the legs can be extended further forward. Landing: the legs are extended forward and the jumper falls forward or sideways, not backwards, so that the mark in the sand is as far from the take-off line as possible.",
+    "prompt": "Describe the run-up, take-off, flight and landing in the long jump, giving key technique points for each phase.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The triple jump has three phases in a fixed order. The hop is the first phase: the jumper takes off from the board and lands on the same foot. The step is the second phase: the jumper lands on the other foot, keeping the phases balanced and maintaining speed. The jump is the third phase: the jumper lands in the pit on both feet. Arm action, either single or double, drives each phase.",
+    "prompt": "Describe the three phases of the triple jump.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-business-enterprise-sport-s1": {
+  "keyTerms": [
+   {
+    "definition": "A business's provision of money, products or services to a sport, team, event or performer in return for association, exposure and commercial benefit.",
+    "term": "Sponsorship"
+   },
+   {
+    "definition": "A sponsorship in which the sponsor's name is attached to a competition or event.",
+    "term": "Title sponsorship"
+   },
+   {
+    "definition": "The right to attach a sponsor's name to a venue or competition.",
+    "term": "Naming rights"
+   },
+   {
+    "definition": "A paid arrangement in which a performer publicly promotes and uses a product or brand.",
+    "term": "Endorsement"
+   },
+   {
+    "definition": "The sale of branded goods connected with a sport, team, event or performer.",
+    "term": "Merchandising"
+   },
+   {
+    "definition": "Advertising that uses sport, sports settings or athletes to sell products, including products unrelated to sport.",
+    "term": "Sport-related advertising"
+   },
+   {
+    "definition": "The deliberate display of a brand's product within a sporting event, broadcast or competition.",
+    "term": "Product placement"
+   },
+   {
+    "definition": "A social media personality who is paid or sponsored to promote products to their followers.",
+    "term": "Influencer"
+   },
+   {
+    "definition": "How widely a brand is known, which sponsorship and advertising aim to increase.",
+    "term": "Brand awareness"
+   },
+   {
+    "definition": "A copy of a team's playing kit sold to supporters.",
+    "term": "Replica kit"
+   },
+   {
+    "definition": "The growth of sport as a business, with decisions shaped by money and commercial partners.",
+    "term": "Commercialisation"
+   },
+   {
+    "definition": "A set of agreed rules that states the standards an organisation must meet.",
+    "term": "Code of practice"
+   },
+   {
+    "definition": "Television and online adverts featuring athletes; social media and influencer content; shirt and stadium advertising; product placement; branded events and competitions.",
+    "term": "Five forms of sport-related advertising"
+   },
+   {
+    "definition": "Being active is enjoyable and achievable; effort and perseverance pay off; role models of diverse backgrounds and abilities; healthy lifestyles.",
+    "term": "Four positive messages sport-related advertising can give young people"
+   },
+   {
+    "definition": "Inequality, because sponsors favour popular, men's and elite sport; commercialisation, with changes made to suit sponsors and television; the sport's image linked to unhealthy products.",
+    "term": "Three disadvantages of sponsorship for the sport"
+   },
+   {
+    "definition": "Dependence on one sponsor; loss of income if the sponsor withdraws; sponsor influence over scheduling and decisions.",
+    "term": "Three disadvantages of sponsorship for an NGB"
+   },
+   {
+    "definition": "None: the sponsor has no say over team selection, coaching or club decisions, because selection should reflect ability and development.",
+    "term": "Sponsor's role in team selection under the code of practice"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Key definitions",
+    "points": [
+     "Sponsorship: a business provides money, products or services to a sport, team, event or performer in return for association, exposure and commercial benefit.",
+     "Title sponsorship: the sponsor's name is attached to a competition, such as the Guinness Six Nations, the men's rugby championship that Guinness has sponsored since 2019.",
+     "Other sponsorship forms: a logo on a team's jersey, and naming rights to a venue or competition.",
+     "Endorsement: a performer is paid to publicly promote and use a product or brand.",
+     "Merchandising: selling branded goods, such as jerseys, scarves, equipment and souvenirs, connected with a sport, team, event or performer.",
+     "Sport-related advertising: advertising that uses sport, sports settings or athletes to sell products, including products unrelated to sport."
+    ]
+   },
+   {
+    "h": "Sponsorship, endorsement and merchandising compared",
+    "points": [
+     "Sponsorship is a business relationship with a sport, team or event, and the income goes to that organisation.",
+     "Endorsement is a performer promoting a product, and the income goes to the performer.",
+     "Merchandising is the sale of branded goods, and the income goes to the club, NGB or event that owns the brand.",
+     "Endorsement example: a performer is paid to appear in an advert for a brand of running shoes they wear.",
+     "Merchandising example: a club sells replica jerseys and scarves in its shop, and each sale brings income to the club."
+    ]
+   },
+   {
+    "h": "What a sponsor gains",
+    "points": [
+     "Brand awareness and exposure to a large audience.",
+     "A positive image through association with success and with health.",
+     "Access to target markets, such as the young people and families who follow a sport.",
+     "Hospitality for clients and staff at matches and events.",
+     "Higher sales of the sponsor's products."
+    ]
+   },
+   {
+    "h": "Impact of sponsorship, endorsement and merchandising on sport and performers",
+    "points": [
+     "Sponsorship funds grassroots programmes, facilities, coaching, events and broadcasting.",
+     "Sponsorship allows elite athletes to train full-time.",
+     "Endorsement brings large income to star performers and raises their profile.",
+     "Endorsement obligations, such as personal appearances and filming, take time away from training.",
+     "A performer's image is tied to the brand, so a problem with the brand can damage the performer's reputation, and the reverse.",
+     "Merchandising brings major income to clubs and NGBs.",
+     "Merchandising builds fan identity with a team, a sport or an event.",
+     "Replica kits change often and are expensive for families."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of sponsorship for the national governing body (NGB)",
+    "points": [
+     "Advantage, income: sponsorship money pays for development and high-performance programmes.",
+     "Advantage, facilities: sponsor funds can build or improve facilities.",
+     "Advantage, coach education: sponsor funds pay for the training of coaches.",
+     "Advantage, expertise: sponsors bring marketing expertise that helps the NGB promote the sport.",
+     "Advantage, recognition: the NGB's name and competitions gain public recognition through sponsors' advertising.",
+     "Disadvantage, dependence: relying on one sponsor leaves the NGB exposed.",
+     "Disadvantage, withdrawal: the NGB loses income if the sponsor withdraws.",
+     "Disadvantage, influence: a sponsor may try to influence scheduling and decisions.",
+     "Disadvantage, reputation: an unsuitable sponsor can damage the NGB's reputation.",
+     "Disadvantage, ethics: brands such as alcohol or gambling can conflict with the values the NGB promotes to young members."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of sponsorship for the performer",
+    "points": [
+     "Advantage, income: sponsorship money lets the performer train full-time.",
+     "Advantage, equipment and travel: sponsors may provide free equipment and travel.",
+     "Advantage, profile: a higher profile can open a career after sport.",
+     "Disadvantage, obligations: contracts set appearances, filming and other demands on the performer's time.",
+     "Disadvantage, pressure: the performer must perform and win to keep the deal.",
+     "Disadvantage, injury or poor form: the deal can end after an injury or a run of poor results.",
+     "Disadvantage, privacy: the performer gives up some privacy when their image is used commercially.",
+     "Disadvantage, conduct: the performer must not do anything that damages the brand.",
+     "Disadvantage, conflict: the performer's personal deal can clash with the sponsorship of their team.",
+     "Disadvantage, unwanted products: the performer may be linked to a product they would not choose."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of sponsorship for the sport or activity",
+    "points": [
+     "Advantage, profile: sponsorship brings higher profile and more media coverage.",
+     "Advantage, events: sponsors help to fund better events.",
+     "Advantage, facilities: sponsors help to fund better facilities.",
+     "Advantage, participation: a higher profile can attract more participants.",
+     "Disadvantage, inequality: sponsors favour popular sports, men's sport and elite sport, so other sports struggle to attract money.",
+     "Disadvantage, commercialisation: changes are made to suit sponsors and television rather than the sport's own needs.",
+     "Disadvantage, image: the sport's image is linked to unhealthy products."
+    ]
+   },
+   {
+    "h": "Sport-related advertising: forms and messages to young people",
+    "points": [
+     "Form: television and online adverts featuring athletes.",
+     "Form: social media and influencer content.",
+     "Form: shirt and stadium advertising.",
+     "Form: product placement in sport.",
+     "Form: branded events and competitions.",
+     "Positive message: being active is enjoyable and achievable.",
+     "Positive message: effort and perseverance pay off.",
+     "Positive message: role models of diverse backgrounds and abilities show that sport is open to everyone.",
+     "Positive message: healthy lifestyles are presented as normal.",
+     "Negative message: sport is linked with unhealthy products such as sugary drinks, fast food, alcohol and gambling.",
+     "Negative message: unrealistic body ideals are presented as the norm.",
+     "Negative message: success appears to depend on expensive gear.",
+     "Negative message: winning at all costs is presented as the goal.",
+     "Negative message: betting adverts shown during matches normalise gambling."
+    ]
+   },
+   {
+    "h": "Analysing a sport-related advert",
+    "points": [
+     "1. Who is shown: the age, gender, body type and ability of the people in the advert.",
+     "2. What product is sold, and whether it is linked to health or to sport.",
+     "3. What message the advert gives about sport, bodies and success.",
+     "4. Whether that message is positive or negative for young viewers, and why.",
+     "5. The likely effect on young viewers: whether it encourages activity, unhealthy choices or unrealistic expectations."
+    ]
+   },
+   {
+    "b": "Each criterion below carries a justification, so the committee can explain its choice to parents and members.",
+    "h": "Code of practice for selecting sponsors of youth sport",
+    "points": [
+     "Criterion 1: no sponsors whose products are unsuitable for young people, such as alcohol, gambling, tobacco and vaping, or high-fat and high-sugar food and drink. Justification: a logo on a child's jersey is a constant endorsement to the child and everyone watching, so an unhealthy brand contradicts the club's health message.",
+     "Criterion 2: the sponsor's values and conduct must match the club's code of ethics, child safeguarding, inclusion and fair play. Justification: a sponsor shown on the club's kit is associated with its values, so a sponsor whose conduct breaks them damages the club's credibility with young players and parents.",
+     "Criterion 3: no use of children's images, names or data in marketing without parental consent. Justification: children cannot judge how a commercial company will use their image, so parents must decide.",
+     "Criterion 4: sponsorship benefits the whole club fairly, including girls' and boys' teams and all age groups, not only elite teams. Justification: a deal that funds one team alone leaves other young members without coaching, facilities or equipment.",
+     "Criterion 5: the sponsor has no say over team selection, coaching or club decisions. Justification: selection and coaching should reflect players' ability and development, not what suits a commercial partner.",
+     "Criterion 6: a transparent written agreement, approved by the committee, with a fixed term and a review and exit clause. Justification: a written, time-limited agreement lets the club check what it receives, review the deal and leave it if the sponsor no longer meets the criteria."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "For the NGB, sponsorship brings income for development and high-performance programmes, funds facilities and coach education, gives access to sponsors' marketing expertise, and raises the sport's profile. The disadvantages are dependence on one sponsor, the loss of income if that sponsor withdraws, the risk that a sponsor influences scheduling and decisions, reputational damage from an unsuitable sponsor, and ethical conflicts with brands such as alcohol or gambling. For the performer, the advantages are income to train full-time, free equipment and travel, and a higher profile that can help a career after sport. The disadvantages are contractual obligations and time demands, pressure to perform and win to keep the deal, the loss of the deal after injury or poor form, reduced privacy, the need to avoid damaging the brand, possible clashes with team sponsors, and being linked to a product they would not choose. For the sport, sponsorship brings higher profile and media coverage, better events and facilities, and more participants. The disadvantages are that sponsors favour popular, men's and elite sport, so other sports struggle to attract money; that commercialisation changes the sport to suit sponsors and television; and that the sport's image becomes linked to unhealthy products.",
+    "prompt": "Discuss the advantages and disadvantages of sponsorship for a national governing body, the performers and the sport.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "1. No sponsors whose products are unsuitable for young people, such as alcohol, gambling, tobacco and vaping, or high-fat and high-sugar food and drink. Justification: a sponsor's logo on a young player's jersey is a constant endorsement to the player and everyone watching, so an unhealthy brand contradicts the club's health message. 2. The sponsor has no say over team selection, coaching or club decisions. Justification: selection must reflect each player's ability and development, and a sponsor that influenced selection would undermine fair play and the development of every young member. 3. No use of children's images, names or data in marketing without parental consent. Justification: children cannot judge how a company will use their image, so the parents must decide, which protects the child's privacy and safety.",
+    "prompt": "Write three statements you would include in a code of practice for selecting commercial sponsorship for a youth sports team, and justify each.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Television and online adverts featuring athletes: a positive message is that effort and perseverance pay off, because the athlete is shown training hard and succeeding, so young viewers learn that persistence brings results. A negative message is that unrealistic body ideals and expensive gear are presented as the route to success, so a young viewer may compare their own body with the athlete's and feel they must buy the product to succeed. Social media and influencer content: a positive message is that role models of diverse backgrounds and abilities show that sport is open to everyone, so young people who doubt themselves see someone like them taking part. A negative message is that influencers promote unhealthy products such as sugary drinks and fast food, linking sport with unhealthy choices, and that the posts can present unrealistic body ideals as normal.",
+    "prompt": "Analyse two different forms of sport-related advertising in terms of the messages they give to young people.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-business-enterprise-sport-s2": {
+  "keyTerms": [
+   {
+    "definition": "The range of businesses that make, sell, broadcast, host or organise sport and physical activity.",
+    "term": "Sport industry"
+   },
+   {
+    "definition": "A source of income for a business, such as sponsorship, ticketing or merchandise.",
+    "term": "Revenue stream"
+   },
+   {
+    "definition": "The right to show a sporting event on television or online, which broadcasters pay for.",
+    "term": "Broadcasting rights"
+   },
+   {
+    "definition": "Sales of event tickets together with packages of food and seats sold to businesses and guests.",
+    "term": "Ticketing and hospitality"
+   },
+   {
+    "definition": "Renting out sports facilities, such as pitches, halls and pools, to clubs and groups.",
+    "term": "Facility hire"
+   },
+   {
+    "definition": "A regular payment made to belong to a club or gym and use its facilities.",
+    "term": "Membership fee"
+   },
+   {
+    "definition": "Identifying a need in sport and meeting it with a product, service or event.",
+    "term": "Enterprise"
+   },
+   {
+    "definition": "The group of customers that a product, service or event is designed for.",
+    "term": "Target market"
+   },
+   {
+    "definition": "An organisation whose participants are not paid for taking part.",
+    "term": "Amateur organisation"
+   },
+   {
+    "definition": "A yearly published account of a company's activities, finances and performance.",
+    "term": "Annual report"
+   },
+   {
+    "definition": "A copy of a team's jersey sold to supporters.",
+    "term": "Replica jersey"
+   },
+   {
+    "definition": "Broadcasting rights, sponsorship, ticketing and hospitality, merchandising, membership and participation fees, facility hire and events.",
+    "term": "Seven revenue streams in sport"
+   },
+   {
+    "definition": "Target market, value, costs, revenue and risk.",
+    "term": "Five considerations in an enterprise plan"
+   },
+   {
+    "definition": "The company's website and annual reports; news articles; interviews; visiting the business; its social media.",
+    "term": "Five sources for investigating a business"
+   },
+   {
+    "definition": "Ticketing and corporate hospitality; concerts and other events; conference and meeting facilities; the GAA Museum and stadium tours; naming and advertising opportunities.",
+    "term": "Five business activities at Croke Park"
+   },
+   {
+    "definition": "By selling replica jerseys and leisurewear to supporters.",
+    "term": "How O'Neills earns from supporters"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Sectors of the sport industry",
+    "points": [
+     "Sportswear and equipment manufacturers and retailers: make and sell kit, footwear and equipment.",
+     "Media and broadcasters: sell coverage of sport to audiences and buy the rights to show events.",
+     "Stadiums and venues: host matches, concerts and other events, and earn from ticketing and hire.",
+     "Gyms and leisure centres: sell memberships, classes and access to facilities.",
+     "Sports nutrition: manufactures and sells foods and supplements for athletes and active people.",
+     "Event organisers: plan and run competitions, races and festivals.",
+     "Tourism and travel: carry and house visitors who travel to take part in or watch sport.",
+     "Betting companies: take bets on sporting events and sponsor teams and competitions.",
+     "Sports clubs and NGBs: operate as businesses that earn income from members, events, sponsors and merchandise."
+    ]
+   },
+   {
+    "h": "Revenue streams in sport",
+    "points": [
+     "Broadcasting rights: sold to television and online platforms for the right to show events.",
+     "Sponsorship: business money or products given in return for association and exposure.",
+     "Ticketing and hospitality: sales of match and event tickets, and packages of food and seats for businesses and guests.",
+     "Merchandising: sales of branded kit, scarves and souvenirs.",
+     "Membership and participation fees: regular payments by club members and people taking part.",
+     "Facility hire: renting pitches, halls and pools to clubs and groups.",
+     "Events: income from hosting competitions, concerts and festivals."
+    ]
+   },
+   {
+    "h": "Enterprise in sport",
+    "points": [
+     "Enterprise means identifying a need in sport and meeting it with a product, service or event.",
+     "Examples: a coaching camp, a sports app or a fitness class.",
+     "An enterprise plan weighs the target market, the value offered, the costs, the expected revenue and the risk.",
+     "Target market: the group of customers the product is designed for, such as young players, parents or older adults."
+    ]
+   },
+   {
+    "h": "How to investigate a business",
+    "points": [
+     "Question 1: what does the business sell, and to whom?",
+     "Question 2: how is it involved in sport, as a supplier, sponsor, owner or broadcaster?",
+     "Question 3: how does it earn money from sport?",
+     "Question 4: how does it promote itself through sport?",
+     "Question 5: what is its impact on participation, on the sport and on the local economy?",
+     "Question 6: what ethical issues does it raise?",
+     "Question 7: what challenges does it face?",
+     "Sources: the company's website and annual reports, news articles, interviews, visits to the business and its social media."
+    ]
+   },
+   {
+    "h": "Worked investigation 1: O'Neills, an Irish sportswear manufacturer",
+    "points": [
+     "What it is: an Irish sportswear manufacturer, best known for GAA jerseys and team kit.",
+     "Other kit: it also supplies rugby, soccer and other club and school kits.",
+     "Involvement as a supplier: it supplies kit to county and club teams and to schools.",
+     "Involvement with fans: it sells replica jerseys and leisurewear to supporters.",
+     "Involvement as a sponsor: it sponsors and supports clubs and events.",
+     "Visibility: kit deals put its brand in front of players, supporters and crowds.",
+     "Key finding 1: its business depends on the club and county calendar and on GAA culture.",
+     "Key finding 2: it employs people in manufacturing in Ireland.",
+     "Key finding 3: replica jerseys turn county identity into sales.",
+     "Key finding 4: it competes with large international brands."
+    ]
+   },
+   {
+    "h": "Worked investigation 2: Croke Park as a business",
+    "points": [
+     "What it is: the GAA's headquarters and main stadium, in Dublin, used for major GAA games.",
+     "Ticketing and corporate hospitality for games.",
+     "Concerts and other events held at the stadium.",
+     "Conference and meeting facilities.",
+     "The GAA Museum and stadium tours.",
+     "Naming and advertising opportunities.",
+     "Key finding 1: non-GAA events earn income that supports the GAA.",
+     "Key finding 2: the stadium brings visitors and spending to the surrounding area.",
+     "Key finding 3: the GAA is an amateur organisation whose players are not paid, while the stadium operates commercially.",
+     "Key finding 4: large events can affect local residents."
+    ]
+   },
+   {
+    "h": "Evaluating a business's involvement in sport",
+    "points": [
+     "Benefit, funding: money from the business supports the sport.",
+     "Benefit, equipment: the business supplies equipment to teams and clubs.",
+     "Benefit, jobs: the business creates jobs in its own operation and in related services.",
+     "Benefit, publicity: the business gives the sport publicity.",
+     "Benefit, facilities: the business helps to provide new or improved facilities.",
+     "Concern, priorities: commercial interests may outweigh the interests of participants.",
+     "Concern, costs: families bear costs such as replica kits and tickets.",
+     "Concern, products: unhealthy or gambling products are linked with sport.",
+     "Concern, scheduling: the business may influence the timing of fixtures and events.",
+     "Concern, athletes: athletes' images may be exploited for commercial gain."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "O'Neills is an Irish sportswear manufacturer best known for GAA jerseys and team kit, and it also supplies rugby, soccer and other club and school kits. Its involvement in sport is as a supplier to county and club teams and to schools, as a seller of replica jerseys and leisurewear to supporters, and as a sponsor and supporter of clubs and events. Its revenue comes from kit deals with teams and schools and from sales of replica jerseys, so its income is tied to the club and county calendar and to GAA culture. Its impact on the sport is that kit deals put its brand in front of players and supporters, and that it employs people in manufacturing in Ireland, which benefits the local economy. Its challenges include competition from large international brands. In evaluation, its involvement brings funding, equipment and publicity to clubs and schools, but replica jerseys are a cost to families, and a business that depends on the calendar is exposed when the season is quiet.",
+    "prompt": "Analyse the involvement of a named business in sport.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Croke Park, the GAA's headquarters and main stadium in Dublin, has three key findings. First, non-GAA events such as concerts earn income that supports the GAA, so the stadium's commercial activity helps to fund the wider organisation. Second, the stadium brings visitors and spending to the surrounding area of Dublin, which benefits local businesses. Third, the GAA is an amateur organisation whose players are not paid, while the stadium operates commercially, so the organisation combines amateur sport with business operations such as ticketing, corporate hospitality and stadium tours.",
+    "prompt": "During your studies you investigated a named business involved in sport. Outline three key findings.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-business-enterprise-sport-s3": {
+  "keyTerms": [
+   {
+    "definition": "An organised event in which large numbers of people of mixed ability take part at the same time, usually for personal challenge, health or charity rather than to win.",
+    "term": "Mass-participation sporting event"
+   },
+   {
+    "definition": "A mass-participation cycling event, usually on open roads, for riders of mixed ability.",
+    "term": "Sportive"
+   },
+   {
+    "definition": "A swimming event held in natural open water, such as a lake or the sea.",
+    "term": "Open-water swim"
+   },
+   {
+    "definition": "A mass-participation run with physical obstacles set along the route.",
+    "term": "Obstacle run"
+   },
+   {
+    "definition": "The organised supervision of an event by trained staff or volunteers to manage crowds and safety.",
+    "term": "Stewarding"
+   },
+   {
+    "definition": "The amount each participant pays to take part in an event.",
+    "term": "Entry fee"
+   },
+   {
+    "definition": "A device worn on the body that records activity, such as steps, heart rate and distance.",
+    "term": "Wearable tracker"
+   },
+   {
+    "definition": "A structured training plan that takes a beginner from little or no running to running 5 km.",
+    "term": "Couch-to-5k programme"
+   },
+   {
+    "definition": "Raising money for a good cause, often through sponsored participation in an event.",
+    "term": "Charity fundraising"
+   },
+   {
+    "definition": "An activity or event organised by an employer to encourage staff to take part in sport.",
+    "term": "Workplace challenge"
+   },
+   {
+    "definition": "Branded products, such as T-shirts, medals and photographs, sold to participants and spectators.",
+    "term": "Event merchandise"
+   },
+   {
+    "definition": "Health and fitness awareness; charity fundraising and personal challenge goals; social media, apps and wearable trackers; inclusive formats; sponsorship and professional organisers; running and cycling clubs, couch-to-5k programmes and workplace challenges.",
+    "term": "Six reasons for the growth of mass-participation events"
+   },
+   {
+    "definition": "The organiser and charities.",
+    "term": "Who benefits from event entry fees"
+   },
+   {
+    "definition": "Hotels, restaurants, pubs, shops and transport are busy, with visitors from outside the area.",
+    "term": "Local businesses on event weekends"
+   },
+   {
+    "definition": "Road closures, litter and environmental impact, and policing and stewarding costs.",
+    "term": "Costs that fall on an event's surroundings"
+   },
+   {
+    "definition": "Businesses that sell event photography or provide timing chips, and businesses that run training groups or organise events.",
+    "term": "Two new kinds of enterprise an event creates"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What mass-participation events are",
+    "points": [
+     "Mass-participation sporting events: organised events in which large numbers of people of mixed ability take part at the same time.",
+     "Usual aim: personal challenge, health or charity, rather than winning.",
+     "Types: city marathons, fun runs, parkrun, cycling sportives, open-water swims, obstacle and colour runs and triathlons."
+    ]
+   },
+   {
+    "h": "Irish examples",
+    "points": [
+     "Dublin Marathon: held in Dublin each year.",
+     "Women's Mini Marathon: a women's mass-participation event in Dublin.",
+     "parkrun: a free, weekly, timed 5 km event held on Saturday mornings.",
+     "Great Limerick Run: a mass-participation running event in Limerick."
+    ]
+   },
+   {
+    "h": "Reasons for growth",
+    "points": [
+     "Health and fitness awareness, promoted nationally.",
+     "Charity fundraising and personal challenge goals, such as events people want to complete at least once in their lives.",
+     "Social media, apps and wearable trackers make training and sharing results easy.",
+     "Inclusive formats: walk, jog or run options, shorter distances, women-only events and free weekly events.",
+     "Sponsorship and professional event organisers who market events widely.",
+     "Running and cycling clubs, couch-to-5k style programmes and workplace challenges."
+    ]
+   },
+   {
+    "h": "Business and enterprise opportunities",
+    "points": [
+     "Entry fees: income for the organiser and for charities.",
+     "Title and partner sponsorship: brands gain exposure to thousands of participants and spectators.",
+     "Merchandise and event products: branded T-shirts, medals and photographs; the organiser and the event brand benefit from sales.",
+     "Retail: running shoes, clothing, watches, trackers and nutrition products bought for training; sports retailers benefit.",
+     "Services: coaching, training plans and apps, physiotherapy, sports massage and timing companies; these providers benefit.",
+     "Local economy: hotels, restaurants, pubs, shops and transport are busy on event weekends with visitors from outside the area; local businesses benefit.",
+     "Media and advertising: live and online coverage carries sponsors' brands to viewers beyond the start line; broadcasters and advertisers benefit.",
+     "Charities: raise large sums through participants' fundraising.",
+     "Enterprise: new businesses are set up to organise events, sell event photography, provide timing chips or run training groups; their founders benefit."
+    ]
+   },
+   {
+    "h": "Benefits to participants and communities",
+    "points": [
+     "Health: participants gain fitness and wellbeing.",
+     "Goal-setting: a fixed event date gives participants a training target.",
+     "Community spirit: people train, cheer and volunteer together.",
+     "Inclusivity: events welcome people of mixed ability.",
+     "Charity income: money is raised for good causes."
+    ]
+   },
+   {
+    "h": "Costs and problems",
+    "points": [
+     "Road closures and disruption to residents.",
+     "Policing and stewarding costs that must be met.",
+     "Litter and environmental impact.",
+     "Rising entry fees that exclude lower-income groups.",
+     "Injury risk for participants who are unprepared.",
+     "Events dominated by commercial interests rather than by participants."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Mass-participation events have grown because health and fitness awareness is promoted nationally, and because charity fundraising and personal challenge goals give people a reason to enter. Social media, apps and wearable trackers make training and sharing results easy, while inclusive formats such as walk, jog or run options, shorter distances and women-only events widen the range of people who take part. Running and cycling clubs, couch-to-5k programmes and workplace challenges bring newcomers in, and sponsorship and professional event organisers market events widely. This growth creates business opportunities. Entry fees bring income to the organiser and to charities, and title and partner sponsorship gives brands exposure to thousands of participants and spectators. Branded T-shirts, medals and photographs give income to the organiser and the event brand. Retailers sell running shoes, clothing, watches, trackers and nutrition products bought for training, and services such as coaching, training plans, physiotherapy, sports massage and timing companies serve participants. Local hotels, restaurants, pubs, shops and transport are busy on event weekends with visitors from outside the area. Media coverage carries sponsors' brands to viewers, and new enterprises can organise events, sell event photography, provide timing chips or run training groups. The Dublin Marathon, the Women's Mini Marathon, parkrun and the Great Limerick Run each illustrate these opportunities. The growth also brings costs, such as road closures and litter, and rising entry fees can exclude lower-income groups.",
+    "prompt": "Examine the growth of mass-participation sporting events and the opportunities for business and enterprise they provide.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Mass-participation sporting events are organised events in which large numbers of people of mixed ability take part at the same time, usually for personal challenge, health or charity rather than to win. Two examples are the Dublin Marathon and parkrun. Two opportunities for businesses are: first, merchandise, as branded T-shirts, medals and photographs are sold to participants, giving income to the organiser and the event brand; second, retail, as runners buy running shoes, clothing, watches and trackers for training, giving income to sports retailers.",
+    "prompt": "Define mass-participation sporting events, give two examples and outline two opportunities they provide for businesses.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-business-enterprise-sport-s4": {
+  "keyTerms": [
+   {
+    "definition": "Using sport to promote and sell products, services or places, and promoting sport itself to attract participants, spectators, sponsors and broadcasters.",
+    "term": "Sports marketing"
+   },
+   {
+    "definition": "Travel to take part in or watch sport, or to visit sporting attractions.",
+    "term": "Sports tourism"
+   },
+   {
+    "definition": "A visitor who travels to take part in a sport or activity, such as golf, surfing, cycling or walking.",
+    "term": "Active sports tourist"
+   },
+   {
+    "definition": "A visitor who travels to watch a sporting event, such as an international match or a golf tournament.",
+    "term": "Event sports tourist"
+   },
+   {
+    "definition": "A visitor who travels to see sporting heritage, such as stadiums, museums and halls of fame.",
+    "term": "Nostalgia sports tourist"
+   },
+   {
+    "definition": "An off-road walking and cycling route, such as the Great Western Greenway in Co. Mayo.",
+    "term": "Greenway"
+   },
+   {
+    "definition": "The lasting benefits an event leaves behind, such as facilities and a positive image.",
+    "term": "Legacy"
+   },
+   {
+    "definition": "Travel to places linked with a country's history or culture, such as sporting museums and stadium tours.",
+    "term": "Heritage tourism"
+   },
+   {
+    "definition": "Crowding and traffic jams caused by large numbers of visitors arriving at the same time.",
+    "term": "Congestion"
+   },
+   {
+    "definition": "A facility built for an event that is little used once the event is over.",
+    "term": "Under-used facility"
+   },
+   {
+    "definition": "A place that is marketed to visitors for a particular activity or experience.",
+    "term": "Destination"
+   },
+   {
+    "definition": "Active (travel to take part); event (travel to watch); nostalgia (visit stadiums, museums and halls of fame).",
+    "term": "Three types of sports tourist"
+   },
+   {
+    "definition": "2006 at the K Club, Co. Kildare; 2027 scheduled for Adare Manor, Co. Limerick.",
+    "term": "Ryder Cup venues for 2006 and 2027"
+   },
+   {
+    "definition": "It began in Dublin in 1998.",
+    "term": "Tour de France in Ireland"
+   },
+   {
+    "definition": "The Aviva Stadium.",
+    "term": "Where Six Nations matches are played in Dublin"
+   },
+   {
+    "definition": "It has held events on Inis Mór, Aran Islands.",
+    "term": "Red Bull Cliff Diving World Series in Ireland"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Sports marketing and sports tourism",
+    "points": [
+     "Sports marketing: using sport to promote and sell products, services or places, and promoting sport itself to attract participants, spectators, sponsors and broadcasters.",
+     "Sports tourism: travel to take part in or watch sport, or to visit sporting attractions.",
+     "Active sports tourist: travels to take part, for example in golf, surfing, cycling, walking or running events.",
+     "Event sports tourist: travels to watch, for example international matches, golf tournaments or horse racing.",
+     "Nostalgia sports tourist: visits stadiums, museums and halls of fame."
+    ]
+   },
+   {
+    "h": "Marketing Ireland for activities",
+    "points": [
+     "Golf: Ireland is marketed as a destination for golf, so visitors travel specifically to play.",
+     "Surfing and water sports are marketed on the Wild Atlantic Way, a tourism route along Ireland's west coast.",
+     "Walking and cycling are marketed on greenways, which are off-road routes such as the Great Western Greenway in Co. Mayo and the Waterford Greenway.",
+     "Visitors who come specifically for an activity stay longer and spend more."
+    ]
+   },
+   {
+    "h": "Bidding for and hosting major international events",
+    "points": [
+     "Bidding for and hosting major international events brings visiting teams, media and spectators to Ireland.",
+     "Hosting an event shows Ireland to a worldwide television audience.",
+     "The 2006 Ryder Cup was held at the K Club, Co. Kildare; the 2027 Ryder Cup is scheduled for Adare Manor, Co. Limerick.",
+     "The Tour de France began in Dublin in 1998.",
+     "Six Nations matches are played at the Aviva Stadium, Dublin.",
+     "American college football games have been played at the Aviva Stadium, Dublin."
+    ]
+   },
+   {
+    "h": "Annual events, spectacle and heritage",
+    "points": [
+     "Annual events attract visitors every year, such as the Galway Races, an annual horse-racing festival in Galway.",
+     "The Irish Open, a professional golf championship held in Ireland, attracts visitors every year.",
+     "Spectacle events in scenic locations market the landscape: the Red Bull Cliff Diving World Series has held events on Inis Mór in the Aran Islands.",
+     "Sporting heritage attractions: the GAA Museum and stadium tours at Croke Park, Dublin.",
+     "Famous athletes and teams are used in tourism campaigns to publicise Ireland."
+    ]
+   },
+   {
+    "h": "Benefits of sports tourism for Ireland",
+    "points": [
+     "Economic: visitor spending on accommodation, food, transport and retail.",
+     "Economic: jobs in tourism and hospitality.",
+     "Economic: taxes raised from visitor spending.",
+     "Economic: benefits spread to rural and coastal areas outside the main tourist season.",
+     "Image and legacy: a positive international image for Ireland.",
+     "Image and legacy: improved facilities and infrastructure that local people can use afterwards.",
+     "Image and legacy: repeat visits by people who first came for a sporting event.",
+     "Community: pride in hosting events.",
+     "Community: volunteering to run events.",
+     "Community: increased local participation, inspired by events."
+    ]
+   },
+   {
+    "h": "Costs and limitations",
+    "points": [
+     "Public cost of bidding, hosting and security.",
+     "Money can leave the area through international companies.",
+     "Congestion and overcrowding in host areas.",
+     "Rising prices and disruption for residents.",
+     "Environmental damage caused by visitors.",
+     "Facilities built for one event may be under-used afterwards.",
+     "Ireland's weather limits some events.",
+     "Ireland has limited large venues, which restricts the size of some events.",
+     "Transport links limit some events."
+    ]
+   },
+   {
+    "h": "Evaluating the potential of sports marketing for tourism in Ireland",
+    "points": [
+     "High potential for activity tourism, given Ireland's landscape and Irish sporting culture.",
+     "Heritage tourism also has high potential, rooted in Irish sporting culture.",
+     "The potential depends on investment in facilities and transport.",
+     "The benefits depend on being spread locally, beyond the venue and the event weekend."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Sports marketing can develop Ireland's tourism in four ways. First, Ireland is marketed for specific activities: golf, surfing and water sports on the Wild Atlantic Way, a tourism route along the west coast, and walking and cycling on greenways such as the Great Western Greenway in Co. Mayo. Visitors who come for an activity stay longer and spend more. Second, hosting major international events brings visiting teams, media and spectators, and shows Ireland to a worldwide television audience. Examples are the 2006 Ryder Cup at the K Club in Co. Kildare, the Six Nations matches and American college football games at the Aviva Stadium in Dublin, and the Tour de France start in Dublin in 1998. The 2027 Ryder Cup is scheduled for Adare Manor in Co. Limerick. Third, annual events attract visitors every year, such as the Galway Races and the Irish Open golf championship. Fourth, spectacle and heritage marketing uses scenic places and sporting history: the Red Bull Cliff Diving World Series has held events on Inis Mór, and the GAA Museum and stadium tours at Croke Park draw visitors interested in sporting heritage. The benefits are economic, through spending on accommodation, food, transport and retail, jobs, taxes, and benefits spread to rural and coastal areas; they also include a positive international image, facilities that remain for local people, and community pride, volunteering and participation. The limitations are the public cost of bidding, hosting and security, money leaving the area through international companies, congestion and rising prices for residents, environmental damage, facilities that are under-used after an event, and Ireland's weather, limited large venues and transport links. Overall, the potential is high for activity and heritage tourism, given Ireland's landscape and sporting culture, but it depends on investment in facilities and transport and on spreading the benefits beyond the event itself.",
+    "prompt": "Discuss the potential of sports marketing for the development of tourism in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Sports marketing means using sport to promote and sell products, services or places, and promoting sport itself to attract participants, spectators, sponsors and broadcasters. One way it could develop tourism in Ireland is by marketing the country as a destination for golf. Visitors travel specifically to play on Irish courses, stay longer and spend more, which brings income to hotels, restaurants and transport operators. The Irish Open golf championship, held in Ireland each year, adds to this by attracting visitors for the event itself.",
+    "prompt": "Explain sports marketing and describe one way it could help develop tourism in Ireland.",
+    "type": "short"
+   }
+  ]
+ },
  "pe-ethics-fair-play-s1": {
   "keyTerms": [
    {
@@ -905,6 +5476,1363 @@
     "marks": 6,
     "model": "Protein powder. First, it supplies protein for muscle repair after resistance or high-volume training. Second, it is a convenient source of protein when a proper meal is not available soon after training.",
     "prompt": "Name a sports supplement and give two reasons an athlete might use it.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-games-s1": {
+  "keyTerms": [
+   {
+    "definition": "A game in which teams invade the opponents' territory to score in a goal or zone.",
+    "term": "Invasion game"
+   },
+   {
+    "definition": "A game in which players send an object over a net or against a wall so the opponent cannot return it.",
+    "term": "Net/wall game"
+   },
+   {
+    "definition": "A game in which one team strikes an object and runs to score while the other fields to limit runs and get batters out.",
+    "term": "Striking/fielding game"
+   },
+   {
+    "definition": "Understanding what is happening in a game and why, including the tactics each team is using.",
+    "term": "Game appreciation"
+   },
+   {
+    "definition": "Spreading the attack across the playing area to stretch the defence.",
+    "term": "Width"
+   },
+   {
+    "definition": "Breaking through the defence with a pass or run into the scoring area.",
+    "term": "Penetration"
+   },
+   {
+    "definition": "Keeping defenders close together so there is little space between them.",
+    "term": "Compactness"
+   },
+   {
+    "definition": "A team-mate positioned behind a defender applying pressure, ready to take over if the attacker gets past.",
+    "term": "Cover"
+   },
+   {
+    "definition": "The immediate switch from attack to defence when possession is lost, or from defence to attack when it is won.",
+    "term": "Transition"
+   },
+   {
+    "definition": "A small-sided or rule-modified game used to practise skills and tactics under set conditions.",
+    "term": "Conditioned practice"
+   },
+   {
+    "definition": "Moving behind a team-mate to stop a ball that is missed or overthrown.",
+    "term": "Backing up"
+   },
+   {
+    "definition": "Moving off the ball to create space and options for team-mates.",
+    "term": "Mobility"
+   },
+   {
+    "definition": "Gaelic football, hurling and camogie, rugby union, soccer, basketball, hockey, netball and Olympic handball.",
+    "term": "Invasion games named in the specification"
+   },
+   {
+    "definition": "Badminton, tennis, volleyball, table tennis, handball and squash.",
+    "term": "Net/wall games named in the specification"
+   },
+   {
+    "definition": "Cricket, softball and rounders.",
+    "term": "Striking/fielding games named in the specification"
+   },
+   {
+    "definition": "The listed skills; applying and adapting tactics and strategies in conditioned or competitive play; rules and safe practice.",
+    "term": "What the performance assessment covers"
+   },
+   {
+    "definition": "Create space on the opponent's side, move the opponent, return to a base position, and vary pace, height and direction.",
+    "term": "Net/wall principles of play"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Games are individual, pair or team activities that need activity-specific skills, game appreciation, decision-making, tactical knowledge and strategic thinking in pursuit of a defined goal.",
+    "h": "What a game is",
+    "points": []
+   },
+   {
+    "h": "The three categories of games",
+    "points": [
+     "Invasion games: teams invade the opponents' territory to score in a goal or zone.",
+     "Invasion games named in the specification: Gaelic football, hurling and camogie, rugby union, soccer, basketball, hockey, netball and Olympic handball.",
+     "Net/wall games: players send an object over a net or against a wall so the opponent cannot return it.",
+     "Net/wall games named in the specification: badminton, tennis, volleyball, table tennis, handball (Gaelic handball, played on a court) and squash.",
+     "Striking/fielding games: one team strikes an object and runs to score while the other fields to limit runs and get batters out.",
+     "Striking/fielding games named in the specification: cricket, softball and rounders."
+    ]
+   },
+   {
+    "h": "Game appreciation and decision-making",
+    "points": [
+     "Game appreciation: understanding what is happening in a game and why, including the tactics each team is using.",
+     "Reading the game: recognising a developing situation, such as space opening up or a team-mate being free.",
+     "Decision-making: choosing the right option, such as a pass, a shot or a dribble, for the situation.",
+     "Anticipation: predicting what opponents will do next, so the player acts before the opportunity or threat arrives."
+    ]
+   },
+   {
+    "h": "Attacking principles in invasion games",
+    "points": [
+     "Possession: keeping control of the ball so the team can attack without giving it away.",
+     "Width: spreading the attack across the playing area to stretch the defence.",
+     "Depth: moving the attack forward towards the goal or scoring zone.",
+     "Penetration: breaking through the defence with a pass or run into the scoring area.",
+     "Support: positioning team-mates close enough to receive the ball and help the player with it.",
+     "Mobility: moving off the ball to create space and options for team-mates."
+    ]
+   },
+   {
+    "h": "Defensive principles in invasion games",
+    "points": [
+     "Pressure: closing down the player with the ball to limit their options and time.",
+     "Delay: slowing the attack so that team-mates can get back into position.",
+     "Cover: a team-mate positioned behind the defender applying pressure, ready to take over if the attacker gets past.",
+     "Balance: keeping defenders spread so the team is not exposed on one side of the playing area.",
+     "Compactness: keeping defenders close together so there is little space between them."
+    ]
+   },
+   {
+    "h": "Transition between attack and defence",
+    "points": [
+     "Losing possession triggers an immediate switch from attack to defence.",
+     "Winning possession triggers an immediate switch from defence to attack."
+    ]
+   },
+   {
+    "h": "Principles of play in net/wall games",
+    "points": [
+     "Create space on the opponent's side by placing the object where they cannot easily reach it.",
+     "Move the opponent: make them travel to reach the object and return it.",
+     "Return to a base position after each shot, so the player can reach the next shot.",
+     "Vary pace, height and direction so the opponent has difficulty returning the object."
+    ]
+   },
+   {
+    "h": "Principles of play in striking and fielding games",
+    "points": [
+     "Batting: place the ball into gaps in the fielding side, so it cannot be caught and runs can be scored.",
+     "Batting: run sensibly, making good decisions about whether a run is available.",
+     "Fielding: position players to cover the gaps where the batter is likely to hit.",
+     "Fielding: back up team-mates, moving behind them to stop a ball that is missed or overthrown.",
+     "Fielding: make quick returns to the target, so that runs are limited."
+    ]
+   },
+   {
+    "h": "Choice rule and the performance assessment",
+    "points": [
+     "Learners study one category and one game from it.",
+     "The performance assessment focuses on one activity in the category, such as Gaelic football.",
+     "Conditioned practices are small-sided or rule-modified games.",
+     "The performance assessment covers the listed skills, the ability to apply and adapt tactics and strategies in conditioned or competitive play, and rules and safe practice.",
+     "Performance shows skills, tactics and rule knowledge."
+    ]
+   },
+   {
+    "h": "Safety common to all games",
+    "points": [
+     "Warm up before play.",
+     "Wear protective equipment suited to the game.",
+     "Wear suitable footwear.",
+     "Check the playing surface and goals before play.",
+     "Rules on dangerous play apply to every game.",
+     "Officials enforce safety by stopping play when a risk appears, as set out in the notes titled The role of official."
+    ]
+   },
+   {
+    "h": "Games as a context for theory",
+    "points": [
+     "Structures and strategies: a structure is how a team organises its players and a strategy is the overall plan it uses to score or stop the opposition; apply both to the named game, as set out in the notes titled Structures, strategies and compositional elements.",
+     "Roles: each player's job within the team structure, such as attacker or defender, as set out in the notes titled Roles and relationships.",
+     "Officials and scoring systems: name the official who applies the rules and the scoring system of the named game, both covered in the notes titled The role of official.",
+     "Fitness profile: the fitness components the named game demands, such as speed, agility and endurance, as set out in the notes titled Physical fitness and Performance-related fitness.",
+     "Energy systems in intermittent sport: short bursts of high-intensity play draw mainly on the phosphagen and anaerobic glycolytic systems, while the aerobic system supports recovery between bursts, as set out in the notes titled Energy systems.",
+     "Ethics and fair play: following the rules and the spirit of the game and respecting opponents and officials, as set out in the notes titled Principles of ethical practice."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Activity: Gaelic football. Width: the attacking team spreads its players across the full playing area, so the defence has to cover more ground and gaps open for a pass or a run into the middle. Support: team-mates position themselves close enough to the player on the ball to receive a pass, so the ball can be moved quickly if the first option is blocked and the team keeps possession.",
+    "prompt": "Explain two principles of play in an invasion game of your choice.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Invasion games: teams invade the opponents' territory to score in a goal or zone, for example Gaelic football and basketball. Net/wall games: players send an object over a net or against a wall so the opponent cannot return it, for example badminton and tennis. Striking/fielding games: one team strikes an object and runs to score while the other fields to limit runs and get batters out, for example cricket and rounders.",
+    "prompt": "Name the three categories of games and give two examples of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-games-s2": {
+  "keyTerms": [
+   {
+    "definition": "Dropping the ball onto the foot and kicking it back up to the hands while running.",
+    "term": "Solo (Gaelic football)"
+   },
+   {
+    "definition": "Lifting the ball off the ground with the toe and catching it in the hands.",
+    "term": "Toe-to-hand pick-up"
+   },
+   {
+    "definition": "Striking a ball held in one hand with the fist or open palm, rather than throwing it.",
+    "term": "Hand pass"
+   },
+   {
+    "definition": "Positioning the body between an opponent and the basket to win a rebound.",
+    "term": "Box out"
+   },
+   {
+    "definition": "A close-range basketball shot taken off the foot opposite the shooting hand after two steps.",
+    "term": "Lay-up"
+   },
+   {
+    "definition": "A basketball shooting cue for balance, eyes on the target, elbow under the ball and follow-through.",
+    "term": "BEEF"
+   },
+   {
+    "definition": "Keeping one foot planted while turning on the other.",
+    "term": "Pivot"
+   },
+   {
+    "definition": "A rugby union contest in which the ball carrier stays on their feet while players bind around them.",
+    "term": "Maul"
+   },
+   {
+    "definition": "A rugby union contest for the ball on the ground, in which players bind and stay on their feet.",
+    "term": "Ruck"
+   },
+   {
+    "definition": "A rugby union infringement in which the ball is knocked forward with the hand or arm.",
+    "term": "Knock-on"
+   },
+   {
+    "definition": "Keeping an attacker goal-side and side-on, delaying them until help arrives.",
+    "term": "Jockeying"
+   },
+   {
+    "definition": "Directing an attacker away from goal, towards an area where they can be dispossessed.",
+    "term": "Channelling"
+   },
+   {
+    "definition": "A maximum of four steps holding the ball before it must be soloed, bounced or released.",
+    "term": "Gaelic football: steps limit"
+   },
+   {
+    "definition": "A maximum of four steps with the ball carried in the hand; the ball may not be picked directly off the ground with the hand.",
+    "term": "Hurling: steps limit"
+   },
+   {
+    "definition": "No more than three seconds holding the ball.",
+    "term": "Netball: holding limit"
+   },
+   {
+    "definition": "A maximum of three steps and three seconds holding the ball.",
+    "term": "Olympic handball: holding limit"
+   },
+   {
+    "definition": "Only the flat (face) side of the stick may be used.",
+    "term": "Hockey: which side of the stick"
+   },
+   {
+    "definition": "Passes go backwards or level only; a forward pass is an infringement.",
+    "term": "Rugby union: direction of passes"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Gaelic football",
+    "points": [
+     "Catching: catch a high ball with the hands in a W shape and the fingers spread.",
+     "Hand pass: hold the ball in one hand and strike it with the fist or open palm; it is struck, not thrown.",
+     "Soloing: drop the ball onto the foot and kick it back to the hands while running.",
+     "Toe-to-hand pick-up: lift the ball off the ground with the toe and catch it in the hands.",
+     "Kicking from the hands: eyes on the ball, non-kicking foot beside the ball's line, and follow through towards the target.",
+     "Tackling and blocking: the shoulder-to-shoulder tackle, and blocking.",
+     "A player may hold the ball for a maximum of four steps before it must be soloed, bounced or released.",
+     "The ball may not be bounced twice in a row; soloing may be repeated.",
+     "The ball may not be picked directly off the ground with the hands."
+    ]
+   },
+   {
+    "h": "Hurling and camogie",
+    "points": [
+     "Ready position: dominant hand at the top of the hurley.",
+     "Pick-up: the roll lift and the jab lift.",
+     "Catching: catch with the hand protected.",
+     "Soloing: the ball is balanced on the bas of the hurley while running.",
+     "Striking from the hand and off the ground: hands together for power, hands apart for control.",
+     "Tackling: the hook and the block.",
+     "Hand pass: struck with the palm.",
+     "The ball may be carried in the hand for a maximum of four steps.",
+     "The ball may not be picked directly off the ground with the hand; a lift is used instead."
+    ]
+   },
+   {
+    "h": "Rugby union",
+    "points": [
+     "Rugby passes go backwards or level, never forwards.",
+     "Receiving: hands up as a target, with the fingers spread.",
+     "Spin pass: used to gain distance.",
+     "Tackling: cheek to cheek, shoulder into the thigh, and wrap the arms.",
+     "Tackling finish: drive, then finish on top of the ball carrier.",
+     "Maul: the ball carrier stays on their feet.",
+     "Ruck: the ball is on the ground, and players bind and stay on their feet.",
+     "Evasion: side-step and swerve.",
+     "Infringements: forward pass and knock-on.",
+     "Tackles must be below the shoulders, and the tackler must release."
+    ]
+   },
+   {
+    "h": "Basketball",
+    "points": [
+     "Chest pass: thumbs down at release, stepping into the pass.",
+     "Bounce pass: bounced two-thirds of the way to the receiver.",
+     "Overhead pass: passed from above the head.",
+     "Dribbling: fingertips on the ball, ball below the waist, eyes up, and the ball protected by the body.",
+     "Lay-up: right-hand lay-up off the left foot, after two steps.",
+     "Set and jump shot: the BEEF cue, which is balance, eyes on the target, elbow under the ball and follow-through.",
+     "Rebounding: box out the opponent to win position under the basket.",
+     "Defensive stance: low, feet shoulder-width apart, sliding without crossing the feet.",
+     "Pivot footwork: keep one foot planted while turning on the other.",
+     "Travelling: moving the pivot foot or taking too many steps while holding the ball without dribbling.",
+     "Double dribble: dribbling with both hands at once, or starting a new dribble after stopping one.",
+     "Three seconds: an attacking player may not stay in the key (restricted area) for more than three seconds.",
+     "Personal fouls: illegal contact such as pushing, holding or charging gives the opponent possession or free throws."
+    ]
+   },
+   {
+    "h": "Soccer",
+    "points": [
+     "Inside-of-the-foot pass: ankle locked, standing foot beside the ball, and follow-through to the target.",
+     "Lofted pass and chip: the ball is lifted into the air to pass over the defence.",
+     "Cushioning control: the foot gives on contact to absorb the ball's pace.",
+     "Dribbling: with both feet, with changes of pace.",
+     "Shooting with the laces: head over the ball, non-kicking foot beside it.",
+     "Heading: use the forehead, with the eyes open.",
+     "Defending: jockeying (stay goal-side, side-on, delay) and the block tackle.",
+     "Goalkeeping: set position; W-shaped catch for high balls and scoop for low balls.",
+     "Goalkeeping: dive with the body behind the ball, and narrow the angle to the shooter.",
+     "Goalkeeping: punch crosses; distribute by throw, roll and kick.",
+     "Key rules: only the goalkeeper may handle the ball, and only inside their own penalty area.",
+     "Key rules: a player is offside if, when the ball is played to them, they are in the opponents' half and nearer the goal line than both the ball and the second-last defender.",
+     "Key rules: fouls such as tripping, pushing or a careless tackle give a free kick, or a penalty if committed by a defender in their own penalty area."
+    ]
+   },
+   {
+    "h": "Netball",
+    "points": [
+     "Passing: chest, shoulder, bounce and lob passes.",
+     "Footwork: land on one foot and pivot; do not step with the landing foot.",
+     "Shooting: ball on the fingertips above the head, knees bent, with a flick of the wrist.",
+     "Dodging: to get free of the marker.",
+     "Marking: arms out, 0.9 m from the player being marked.",
+     "Key rules: a player may hold the ball for no more than three seconds.",
+     "Key rules: no contact, and playing areas by position."
+    ]
+   },
+   {
+    "h": "Hockey",
+    "points": [
+     "Grip: left hand at the top of the stick, right hand lower down.",
+     "Passing and stopping: push pass, slap and hit; stopping the ball on the open stick.",
+     "Dribbling: with the open stick and with the reverse stick.",
+     "Flicks: a lifting stroke used to move the ball off the ground.",
+     "Shooting: hit the ball towards goal from inside the shooting circle.",
+     "Defending: jockeying and channelling the attacker away from goal.",
+     "In hockey only the flat (face) side of the stick is used.",
+     "Goals may only be scored from inside the shooting circle.",
+     "No dangerous play with the ball or stick.",
+     "Goalkeeping: protective kit, kicking clearances, and saves with the pads and kickers.",
+     "Goalkeeping: defending short corners, facing penalty flicks, and diving and sliding saves."
+    ]
+   },
+   {
+    "h": "Olympic handball",
+    "points": [
+     "Catching: hands form a W.",
+     "Passing: one-handed passes.",
+     "Shooting: jump shot from outside the goal area; penalty throw.",
+     "Moving free: getting clear of a marker to receive the ball.",
+     "Defending: marking in a zone.",
+     "Key rules: maximum three steps and three seconds holding the ball.",
+     "Key rules: only the goalkeeper may stand in the goal area."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Activity: Gaelic football. Skill one, kicking from the hands: the player keeps their eyes on the ball, places the non-kicking foot beside the line of the ball, and strikes through it, following through towards the target, so the kick has accuracy and direction. Skill two, the hand pass: the ball is held in one hand and struck with the fist or open palm rather than thrown, so the pass can be delivered quickly to a team-mate in a tight space, without losing control of the ball.",
+    "prompt": "Describe two skills from an invasion game of your choice, giving key technique points for each.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Lay-up: a right-hand lay-up is taken off the left foot after two steps. The player gathers the ball, takes two steps towards the basket, jumps off the left foot and places the ball up towards the basket with the right hand. Part practice: the coach isolates one sub-routine of the lay-up and practises it alone before the whole skill. First the footwork, two steps and a jump off the left foot, is practised without the ball. Next the ball handling is added, with a gather and a catch while stepping. Then the release is practised on its own, placing the ball up with the right hand. When each part is secure, the coach puts them back together and the player performs the whole lay-up.",
+    "prompt": "Describe the lay-up in basketball and explain how a coach could use part practice to teach it.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Gaelic football. First, a player may hold the ball for a maximum of four steps before it must be soloed, bounced or released. Second, the ball may not be bounced twice in a row, although soloing may be repeated. Third, the ball may not be picked directly off the ground with the hands; the toe-lift is used instead.",
+    "prompt": "Outline three rules of a named invasion game that affect how players move with the ball.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-games-s3": {
+  "keyTerms": [
+   {
+    "definition": "A high, deep shot in badminton, hit to the back of the court to gain time.",
+    "term": "Clear"
+   },
+   {
+    "definition": "A badminton shot disguised as a clear that lands just over the net.",
+    "term": "Drop shot"
+   },
+   {
+    "definition": "A steep, powerful attacking shot hit from a high contact point.",
+    "term": "Smash"
+   },
+   {
+    "definition": "A high shot hit over an opponent who is standing at the net.",
+    "term": "Lob"
+   },
+   {
+    "definition": "A shot played before the ball bounces.",
+    "term": "Volley"
+   },
+   {
+    "definition": "A squash shot hit onto a side wall first, so that it travels to the front wall.",
+    "term": "Boast"
+   },
+   {
+    "definition": "A squash replay of a rally after interference between players.",
+    "term": "Let"
+   },
+   {
+    "definition": "A volleyball forearm pass, made low, that keeps the ball in play.",
+    "term": "Dig"
+   },
+   {
+    "definition": "A volleyball touch with the hands above the forehead that places the ball for a team-mate to spike.",
+    "term": "Set"
+   },
+   {
+    "definition": "A jump at the net with the hands above it, to stop the opponent's attack.",
+    "term": "Blocking (volleyball)"
+   },
+   {
+    "definition": "A soft backspin shot in table tennis that keeps the ball low over the table.",
+    "term": "Push"
+   },
+   {
+    "definition": "Forward spin that makes the ball dip quickly after clearing the net.",
+    "term": "Topspin"
+   },
+   {
+    "definition": "A Gaelic handball shot struck before the ball bounces.",
+    "term": "Fly shot"
+   },
+   {
+    "definition": "The serve is hit below the waist, diagonally into the opposite service box.",
+    "term": "Badminton: serve direction and height"
+   },
+   {
+    "definition": "The ball is tossed at least 16 cm up from an open palm.",
+    "term": "Table tennis: legal serve toss"
+   },
+   {
+    "definition": "A maximum of three touches per side; the same player may not touch the ball twice in a row except after a block.",
+    "term": "Volleyball: touch limits"
+   },
+   {
+    "definition": "15, 30, 40, game, with deuce and advantage.",
+    "term": "Tennis: scoring sequence"
+   },
+   {
+    "definition": "60 x 30 feet and 40 x 20 feet.",
+    "term": "Gaelic handball: court sizes"
+   },
+   {
+    "definition": "The legs, not swinging the arms.",
+    "term": "Volleyball: source of forearm pass power"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Badminton",
+    "points": [
+     "Grips: forehand and backhand grips.",
+     "Ready position: a balanced stance, with the player returning to base after each shot.",
+     "In badminton the serve is hit below the waist and diagonally into the opposite service box.",
+     "High serve: hit deep to the back of the court.",
+     "Low serve: hit just over the net, to the front service line.",
+     "Net shots: soft, tumbling shots played from near the net, which keep the shuttle low over the net so the opponent cannot attack it.",
+     "Clear: hit high and deep to the back of the court to gain time.",
+     "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward.",
+     "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended.",
+     "Tactics: move the opponent around the four corners of the court and attack the weaker side."
+    ]
+   },
+   {
+    "h": "Tennis",
+    "points": [
+     "Grips: continental grip for the serve and volley; eastern or semi-western grip for groundstrokes.",
+     "Serve: ball toss slightly in front, trophy position, contact at full stretch, with pronation.",
+     "Serve variations: flat, slice and kick.",
+     "Drives: forehand and backhand, with early preparation, a side-on stance, a low-to-high swing and a follow-through.",
+     "Volley: a short punch with a firm wrist, racket head up, moving forward.",
+     "Lob: hit high over a net player.",
+     "Smash: side-on, pointing at the ball and hit at full extension.",
+     "Tactics: serve and volley, baseline play, and attacking the weaker side.",
+     "Scoring: 15, 30, 40, game, with deuce and advantage."
+    ]
+   },
+   {
+    "h": "Table tennis",
+    "points": [
+     "Grips: shake-hand or penhold.",
+     "Legal serve: the ball is tossed at least 16 cm up from an open palm and struck behind the end line.",
+     "Drives: forehand and backhand, with topspin, close to the table.",
+     "Push: backspin, soft, keeping the ball low.",
+     "Block: racket angled to absorb a fast attack close to the table.",
+     "Smash: a high ball hit flat and hard.",
+     "Tactics: vary spin and placement.",
+     "Scoring: games to 11 points, won by two clear points."
+    ]
+   },
+   {
+    "h": "Volleyball",
+    "points": [
+     "Underarm serve: used by beginners.",
+     "Overarm serve: the floating serve has no spin and moves unpredictably.",
+     "Dig (forearm pass): forearms together to form a platform, with the legs bent.",
+     "Volleyball forearm pass power comes from the legs, not swinging the arms.",
+     "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended.",
+     "Spike: approach, a two-foot jump, high contact and a wrist snap.",
+     "Block: jump with the hands above the net and penetrate forward to stop the spike.",
+     "Tactics: a dig, set and spike sequence, using the three touches.",
+     "Rules: a maximum of three touches per side.",
+     "Rules: the same player may not touch the ball twice in a row, except after a block.",
+     "Scoring: rally scoring."
+    ]
+   },
+   {
+    "h": "Squash",
+    "points": [
+     "Ready position: on the T.",
+     "Serve: one foot in the service box; the ball hits the front wall above the service line and lands in the opposite back quarter.",
+     "Straight drive: along the side wall, hit to length, to the back of the court.",
+     "Volley: cut the ball off early, before it bounces.",
+     "Boast: hit onto a side wall first, so the ball travels to the front wall.",
+     "Lob: hit high to the back of the court.",
+     "Tactics: dominate the T, hit to length, and move the opponent.",
+     "Rules: let and stroke rules for interference."
+    ]
+   },
+   {
+    "h": "Handball (Gaelic handball)",
+    "points": [
+     "Underarm stroke: low, swinging upwards, side-on.",
+     "Overhand stroke: struck from above the shoulder, for power and kill shots.",
+     "Back wall shot: played after the ball rebounds off the back wall.",
+     "Straight hit: struck from the short line.",
+     "Fly shot: struck before the ball bounces.",
+     "Side-arm stroke: used only on the 40 x 20 court.",
+     "Serve: the ball is bounced and struck so that it lands beyond the short line.",
+     "Courts: 60 x 30 feet and 40 x 20 feet.",
+     "Tactics: use both hands, play kill shots low on the front wall, and move the opponent."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Activity: badminton. Clear: a high, deep shot to the back of the court. The player hits it high and deep so the shuttle comes down behind the opponent. Tactical purpose: it gains time, so the player can recover to the base position, and it pushes the opponent to the back of the court. Drop shot: disguised as a clear, so the preparation looks the same until contact, and the shuttle lands just over the net. Tactical purpose: it draws the opponent forward to the net, leaving the space behind them open for a later shot.",
+    "prompt": "Describe two shots from a net/wall game of your choice, giving key technique points and the tactical purpose of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The dig, or forearm pass, is played with the forearms together to form a platform, with the legs bent. The player moves under the ball early so that it meets the forearms, and the contact is made on the forearms so the ball rebounds upwards. Power comes from the legs: the player pushes up with the legs to send the ball towards the target, not by swinging the arms. The pass keeps the ball in play so a team-mate can set it for a spike.",
+    "prompt": "Describe the forearm pass (dig) in volleyball.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-games-s4": {
+  "keyTerms": [
+   {
+    "definition": "A team's turn to bat, after which the teams swap roles.",
+    "term": "Innings"
+   },
+   {
+    "definition": "A drive in which the batter steps the front foot towards a full ball, keeping the head over it.",
+    "term": "Front-foot drive"
+   },
+   {
+    "definition": "A square shot on the off side played to a short, wide ball.",
+    "term": "Cut"
+   },
+   {
+    "definition": "A horizontal-bat shot played to a short ball on the leg side.",
+    "term": "Pull"
+   },
+   {
+    "definition": "A shot that deflects the ball finely on the leg side.",
+    "term": "Glance"
+   },
+   {
+    "definition": "The direction of the bowler's delivery, aimed at or just outside off stump.",
+    "term": "Line"
+   },
+   {
+    "definition": "How far down the pitch the ball lands, with a good length making the batter unsure whether to go forward or back.",
+    "term": "Length"
+   },
+   {
+    "definition": "The edge of the cricket field, where a ball that reaches it scores 4 or 6.",
+    "term": "Boundary"
+   },
+   {
+    "definition": "A way of getting a batter out, such as bowled, caught, run out, LBW or stumped.",
+    "term": "Dismissal"
+   },
+   {
+    "definition": "The score in rounders gained by a batter who reaches fourth post.",
+    "term": "Rounder"
+   },
+   {
+    "definition": "The rounders fielder positioned behind the batter.",
+    "term": "Backstop"
+   },
+   {
+    "definition": "Softball fielders who guard the bases.",
+    "term": "Basemen"
+   },
+   {
+    "definition": "Moving behind a fielder who is throwing, so that a missed or overthrown ball can be stopped.",
+    "term": "Backing up"
+   },
+   {
+    "definition": "4 when the ball crosses the boundary along the ground; 6 when it crosses on the full.",
+    "term": "Cricket: boundary scores"
+   },
+   {
+    "definition": "Bowled, caught, run out, LBW and stumped.",
+    "term": "Cricket: dismissals"
+   },
+   {
+    "definition": "By a batter reaching fourth post.",
+    "term": "Rounders: how a rounder is scored"
+   },
+   {
+    "definition": "If caught; if a post is stumped before the batter reaches it; or if the batter overtakes another batter.",
+    "term": "Rounders: how a batter is out"
+   },
+   {
+    "definition": "It passes between the batter's head and knee on the batting side.",
+    "term": "Rounders: a good ball"
+   },
+   {
+    "definition": "Three outs.",
+    "term": "Softball: what ends an innings"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What striking and fielding games share",
+    "points": [
+     "One team bats to score runs (or rounders) while the other bowls or pitches and fields to stop runs and get batters out.",
+     "Innings: each team bats in an innings, after which the teams swap roles."
+    ]
+   },
+   {
+    "h": "Cricket batting stance and grip",
+    "points": [
+     "Stance: side-on, feet shoulder-width apart, head still and eyes level.",
+     "Grip: hands together at the top of the handle."
+    ]
+   },
+   {
+    "h": "Cricket drives, cut, pull and glance",
+    "points": [
+     "Drives (straight, on and off) are played to a full ball with a front-foot step towards the ball.",
+     "Front-foot drive: head over the ball, high elbow, and a straight bat follow-through.",
+     "Back-foot shots are played to shorter balls.",
+     "Cut: square on the off side to a short, wide ball.",
+     "Pull: horizontal bat to a short ball on the leg side.",
+     "Glance: deflects the ball finely on the leg side."
+    ]
+   },
+   {
+    "h": "Cricket bowling action",
+    "points": [
+     "Action in order: run-up, gather, side-on or front-on delivery stride, release, follow-through.",
+     "Straight bowling arm, with no throwing.",
+     "In cricket the bowling arm must not straighten during delivery (throwing is illegal)."
+    ]
+   },
+   {
+    "h": "Line, length and types of delivery",
+    "points": [
+     "Line: aim at or just outside off stump.",
+     "Good length: makes the batter unsure whether to go forward or back.",
+     "Medium and fast pace: bowling that uses seam and swing.",
+     "Spin: off-spin and leg-spin, which turn the ball off the pitch."
+    ]
+   },
+   {
+    "h": "Cricket fielding: close and deep",
+    "points": [
+     "Close fielding (slips, short leg): low, ready, with soft hands.",
+     "Deep fielding (boundary): take a long barrier to stop the ball.",
+     "Deep fielding: attack the ball and make a flat throw to the keeper."
+    ]
+   },
+   {
+    "h": "Catching and throwing in softball and rounders",
+    "points": [
+     "Catching: two-handed, with the hands forming a cup or basket and giving with the ball.",
+     "Throwing: overarm, from a side-on stance, stepping towards the target."
+    ]
+   },
+   {
+    "h": "Hitting in softball and rounders",
+    "points": [
+     "Stance: side-on, with the eyes on the ball.",
+     "Swing: level through the ball, with a full follow-through.",
+     "After the hit, the batter runs to the next post or base."
+    ]
+   },
+   {
+    "h": "Pitching and bowling in softball and rounders",
+    "points": [
+     "Rounders bowling is underarm.",
+     "In rounders the ball must pass between the batter's head and knee on the batting side.",
+     "Variations: pace, swerve and spin.",
+     "Line and length: the ball is pitched to a consistent line and length."
+    ]
+   },
+   {
+    "h": "Fielding positions in softball and rounders",
+    "points": [
+     "Rounders positions: backstop, bowler, and first to fourth post fielders.",
+     "Softball positions: basemen, with deep fielders covering the outfield.",
+     "Fielding on base: stretch to catch the ball with a foot on the base.",
+     "Deep fielders back up: move behind the fielder throwing the ball, so that a missed or overthrown ball can be stopped."
+    ]
+   },
+   {
+    "h": "Cricket runs, boundaries and dismissals",
+    "points": [
+     "Runs: batters run between the wickets to score.",
+     "Boundaries: 4 runs when the ball crosses the boundary along the ground, and 6 when it crosses on the full.",
+     "Dismissals: bowled, caught, run out, LBW and stumped."
+    ]
+   },
+   {
+    "h": "Rounders and softball scoring",
+    "points": [
+     "Rounders: a rounder is scored by reaching fourth post.",
+     "Rounders: a batter is out if caught, if a post is stumped before they reach it, or if they overtake another batter.",
+     "Softball: runs are scored for reaching home.",
+     "Softball: three outs end the innings."
+    ]
+   },
+   {
+    "h": "Tactics",
+    "points": [
+     "Batting into gaps: placing the ball where fielders cannot reach it.",
+     "Running calls between wickets or posts: yes, no or wait.",
+     "Fielding placement is set for the batter and for the bowler.",
+     "Bowling to the field that has been set."
+    ]
+   },
+   {
+    "h": "Safety in striking and fielding games",
+    "points": [
+     "Cricket protective equipment: helmet, pads, gloves and box.",
+     "A hard ball creates a danger zone, so players must stay alert to where it is travelling.",
+     "Batters drop the bat, never throw it.",
+     "Fielders call for catches so that team-mates do not collide."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Front-foot drive: the batter steps the front foot towards the pitch of a full ball, keeps the head over the ball with the eyes on it, and drives with a high elbow, finishing with a straight bat follow-through. Line and length: the bowler aims at or just outside off stump, which is the line the batter must judge. A good length makes the batter unsure whether to go forward or back, so the batter has to read the length early. A full ball suits the front-foot drive, while a shorter ball calls for a back-foot shot such as the cut, pull or glance.",
+    "prompt": "Describe the front-foot drive in cricket and explain how line and length affect the batter's choice of shot.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Catch: use two hands, with the hands forming a cup or basket, and give with the ball as it arrives so that it is cushioned. Throw: use an overarm throw from a side-on stance, stepping towards the target as the ball is released.",
+    "prompt": "Describe how to catch and throw a ball in rounders or softball.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-gender-physical-activity-s1": {
+  "keyTerms": [
+   {
+    "definition": "The biological characteristics, such as chromosomes, hormones and physical make-up, that define a person as male or female.",
+    "term": "Sex"
+   },
+   {
+    "definition": "The socially constructed roles, behaviours and expectations that a society attaches to being male or female.",
+    "term": "Gender"
+   },
+   {
+    "definition": "Taking part in physical activity or sport, recreationally or competitively, as a player, coach or leader.",
+    "term": "Participation"
+   },
+   {
+    "definition": "Leaving sport or physical activity altogether, often during adolescence.",
+    "term": "Drop-out"
+   },
+   {
+    "definition": "A physical activity that a society labels as suitable for boys or for girls.",
+    "term": "Gendered activity"
+   },
+   {
+    "definition": "An activity in which players do not make deliberate physical contact with each other, such as dance or individual fitness.",
+    "term": "Non-contact activity"
+   },
+   {
+    "definition": "The teams, coaches, facilities, fixtures and funding that make participation possible.",
+    "term": "Provision"
+   },
+   {
+    "definition": "A person whose visible example inspires others to take part or to aspire to a role in sport.",
+    "term": "Role model"
+   },
+   {
+    "definition": "Involving students in deciding which activities are offered and how they are run.",
+    "term": "Student voice"
+   },
+   {
+    "definition": "A local partnership that delivers sport and physical activity programmes within a county or area.",
+    "term": "Local Sports Partnership"
+   },
+   {
+    "definition": "Sex is biological; gender is the socially constructed roles, behaviours and expectations a society attaches to being male or female.",
+    "term": "Sex versus gender"
+   },
+   {
+    "definition": "A broader activity offer with choice; girls-only or non-competitive sessions; flexible kit and private changing; equal facilities and recognition; female role models and leaders; student voice and tracking participation.",
+    "term": "Ways to address the imbalance in school (list)"
+   },
+   {
+    "definition": "Girls' and women's teams with female coaches; social, beginner and return-to-sport programmes; fair allocation of pitches, halls and coaching; safe, accessible, well-lit facilities and transport; visibility campaigns and media coverage; Local Sports Partnership programmes for teenage girls.",
+    "term": "Ways to address the imbalance in the community (list)"
+   },
+   {
+    "definition": "Launched in 2018 to increase the visibility of women's sport in Ireland.",
+    "term": "20x20 campaign: launch year and aim"
+   },
+   {
+    "definition": "The Ladies Gaelic Football Association (LGFA) and the Camogie Association.",
+    "term": "Ladies' Gaelic games: governing bodies"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Differences in participation are best understood through gender, the social side of being male or female, rather than through biology alone.",
+    "h": "Sex and gender (assumed knowledge)",
+    "points": [
+     "Sex: the biological characteristics, such as chromosomes, hormones and physical make-up, that define a person as male or female.",
+     "Gender: the socially constructed roles, behaviours and expectations that a society attaches to being male or female.",
+     "Gender expectations differ between societies and change over time, so the activities seen as suitable for each sex are social rather than fixed.",
+     "Gendered activities: physical activities that a society labels as suitable for boys or for girls."
+    ]
+   },
+   {
+    "h": "Participation patterns: how much, which activities and when drop-out happens",
+    "points": [
+     "How much: on average, girls are less active than boys in physical activity and sport.",
+     "When: girls drop out of sport in greater numbers than boys during adolescence, especially in the senior cycle years.",
+     "Which activities: boys more often play competitive team and contact sports, such as rugby and Gaelic football.",
+     "Which activities: girls more often choose dance, gymnastics, individual fitness and non-contact activities.",
+     "Many activities are labelled 'for boys' or 'for girls', which steers young people towards the activities seen as suitable for their gender.",
+     "Participation changes across the life course and is shaped by many interacting influences rather than by biology alone."
+    ]
+   },
+   {
+    "h": "Family influences",
+    "points": [
+     "Parents' own activity and encouragement shape whether a child sees physical activity as normal.",
+     "Parents decide what they will pay for and drive their children to, which controls access to clubs, coaching and training.",
+     "For boys: parents may encourage sons into contact sports and competitive team games.",
+     "For girls: parents may steer daughters towards activities they consider suitable, such as dance or gymnastics.",
+     "Example: a parent pays a son's club fees and drives him to matches, while a daughter's wish to join the same club is not supported."
+    ]
+   },
+   {
+    "h": "Peer influences",
+    "points": [
+     "Friends' choices can decide whether a young person joins an activity or stays in it.",
+     "Fear of being judged by peers stops young people trying new activities.",
+     "For teenage girls: being sporty may be seen as uncool, so girls may downplay their interest in sport to fit in with friends.",
+     "For boys: sport can be central to status among peers, so skill in team sports can bring respect, while boys who are not sporty may lose standing."
+    ]
+   },
+   {
+    "h": "School influences",
+    "points": [
+     "The range of activities offered often centres on competitive team games, which draw boys more than girls.",
+     "For girls: a narrow range of activities leaves those who prefer non-contact or individual activities with little to choose from.",
+     "For boys: competitive team games give boys a visible route into school teams and inter-school competition.",
+     "PE kit and changing facilities can deter girls where changing space is shared, poorly kept or lacks privacy.",
+     "Teacher expectations and attention: boys' teams often receive more of the teacher's time, and teachers may hold different expectations of girls' competitiveness.",
+     "Timetabling decides which activities run and when, so a fixed timetable can limit the choices open to each group."
+    ]
+   },
+   {
+    "h": "Community provision and role models",
+    "points": [
+     "Provision: the teams, coaches, facility time and fixtures that let people take part, and how much of each is on offer.",
+     "For boys: boys often have more teams, better facility slots and more fixtures, so they can train and play more regularly.",
+     "For girls: fewer teams, coaches and facility slots limit how regularly they can train and play.",
+     "Role models: fewer visible female athletes, coaches and administrators mean girls see fewer people like themselves in sport and its leadership.",
+     "For boys: male role models dominate many visible team and contact sports, which reinforces the view that these sports belong to boys."
+    ]
+   },
+   {
+    "h": "Clothing and kit",
+    "points": [
+     "Tight, short or revealing kit, such as swimwear, leotards, athletics briefs and short skirts, can make teenagers self-conscious about their bodies.",
+     "For girls: self-consciousness about kit can lead to avoiding an activity or dropping out, especially in adolescence.",
+     "For boys: tight or revealing kit can produce the same self-consciousness, leading some boys to avoid the activity too.",
+     "Comfortable kit that students can choose helps young people take part without feeling exposed."
+    ]
+   },
+   {
+    "h": "Pressures and pathways for boys",
+    "points": [
+     "Provision and pathways: boys often have more established routes from school teams into competitive club sport.",
+     "Pressure to be strong and competitive: boys may feel they must excel in contact and team sports to be respected.",
+     "Ridicule: boys who choose activities labelled feminine, such as dance, may be mocked, which narrows their choices too."
+    ]
+   },
+   {
+    "h": "Time, cost, safety and transport",
+    "points": [
+     "Time, cost and transport limit participation for all young people, especially where clubs and facilities are far from home.",
+     "For girls: safety concerns about travelling home after evening training or matches can keep them from attending.",
+     "For boys: the same time, cost and transport limits apply, but safety concerns weigh less heavily."
+    ]
+   },
+   {
+    "h": "Body image, media and socialisation",
+    "points": [
+     "Body image and media: idealised thin, toned and muscular bodies in advertising and social media can make young people dissatisfied with their own bodies and deter them from activity (developed in Gender, media and body image).",
+     "Gender socialisation and hegemonic ideals: family, peers, school and media teach boys and girls what is appropriate for their sex, and dominant ideals of masculinity and femininity steer them towards some activities and away from others (developed in Gender socialisation and its impact on participation)."
+    ]
+   },
+   {
+    "h": "Addressing the imbalance in school",
+    "points": [
+     "Broaden the activity offer with dance, fitness classes, aquatics, outdoor pursuits and non-contact versions of games, and give students a choice, so girls who avoid competitive team games have options.",
+     "Offer girls-only or friendship-group options and non-competitive sessions alongside competitive teams, which removes the fear of being judged in mixed or competitive settings.",
+     "Provide flexible, comfortable PE kit and private, clean changing facilities, which removes self-consciousness about kit and changing.",
+     "Give girls' teams equal facility time, fixtures, coaching and recognition, shown in assemblies, on noticeboards and on social media, which removes unequal provision and invisibility.",
+     "Bring in female role models and leaders, such as older students acting as leaders and visiting female athletes and coaches, which tackles the shortage of visible women in sport.",
+     "Use student voice: survey students and plan activities from the results, so provision matches what students want.",
+     "Track participation by gender to see whether the gap is closing and which measures need changing."
+    ]
+   },
+   {
+    "h": "Addressing the imbalance in the community",
+    "points": [
+     "Clubs offering girls' and women's teams at every age, with female coaches, give girls a team to join at each stage of their development.",
+     "Social, beginner and return-to-sport programmes, such as women's recreational leagues and mothers-and-daughters sessions, bring in people who would not join competitive teams.",
+     "Allocate pitches, halls and coaching fairly between girls' and boys' teams.",
+     "Provide safe, accessible, well-lit facilities and transport.",
+     "Local Sports Partnership programmes targeting teenage girls reach girls through local provision.",
+     "The Ladies Gaelic Football Association (LGFA) and the Camogie Association govern ladies' Gaelic football and camogie, giving girls and women their own pathway in those games.",
+     "The 20x20 campaign, launched in 2018, aims to increase the visibility of women's sport in Ireland, under the slogan 'If she can't see it, she can't be it'. Sport Ireland has a Women in Sport policy, and media coverage of women's sport adds to its visibility."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Family: parents shape activity through their own participation, what they pay for and drive to, and what they encourage. A parent may steer a son towards contact sports and a daughter towards dance, so the son gains a route into competitive sport while the daughter's options narrow. Peers: friends' choices and fear of judgement decide whether young people join or stay. A teenage girl may downplay her interest in sport because being sporty seems uncool, while for a boy sport can be central to status among peers, so he may keep playing to keep his standing. School: a range of activities dominated by competitive team games gives boys the activities they more often choose, but leaves girls who prefer non-contact activities with little choice, and boys' teams often get more of the teacher's time. Community provision: boys often have more teams, coaches and facility slots, so they can train and play more regularly, while girls' teams have fewer slots and fewer coaches. Clothing: tight or revealing kit such as leotards, athletics briefs and short skirts can make girls self-conscious and lead some of them to drop out in adolescence. Pressure on boys: boys who choose dance may be mocked, and pressure to be strong and competitive narrows the choices open to them. These influences work together, so the gap between boys and girls is social and can be narrowed by changing the conditions that produce it.",
+    "prompt": "Examine the main influences that impact on the participation patterns of boys and girls in physical activity and sport.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "First, broaden the activity offer and give students a choice. Dance, fitness classes, aquatics, outdoor pursuits and non-contact versions of games give girls, who more often choose non-contact and individual activity, options they will actually take up. This removes the barrier of a narrow programme dominated by competitive team games, and it keeps boys who prefer these activities engaged too. Second, provide flexible, comfortable PE kit and private, clean changing facilities. A girl who is self-conscious about tight or short kit, or who has no privacy to change, can then take part without fear of being watched or judged, so the barrier of self-consciousness is removed. The school can check whether either strategy is working by surveying students and tracking participation by gender.",
+    "prompt": "Discuss two ways in which a school could address an imbalance between boys' and girls' levels of participation.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Some sports require kit that is tight, short or revealing, such as swimwear, leotards, athletics briefs and short skirts. Wearing such kit can make a teenager feel exposed and self-conscious about their body, and worry about being watched or judged can lead them to avoid the activity or drop out, especially in adolescence. For example, a girl may avoid swimming lessons or athletics because she dislikes the kit she has to wear. A solution is comfortable kit that students can choose, such as tracksuit bottoms and loose tops, so they can take part without feeling exposed.",
+    "prompt": "Explain how the clothing required in some sports can affect participation.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-gender-physical-activity-s2": {
+  "keyTerms": [
+   {
+    "definition": "A person's perceptions, thoughts and feelings about their own body, including how they think others see it.",
+    "term": "Body image"
+   },
+   {
+    "definition": "The shape or appearance promoted as desirable, such as slim and toned for women or lean and muscular for men.",
+    "term": "Body ideal"
+   },
+   {
+    "definition": "Valuing the body for what it can do, such as move, balance and perform, rather than for how it looks.",
+    "term": "Body functionality"
+   },
+   {
+    "definition": "A person's overall sense of their own worth and value.",
+    "term": "Self-esteem"
+   },
+   {
+    "definition": "An acute awareness of how one looks and of how others may judge one's appearance.",
+    "term": "Self-consciousness"
+   },
+   {
+    "definition": "The extent to which a person is content with their own body.",
+    "term": "Body satisfaction"
+   },
+   {
+    "definition": "Harmful eating habits linked to an intense focus on body weight or shape.",
+    "term": "Disordered eating"
+   },
+   {
+    "definition": "A condition in which a person believes their body is too small despite being muscular.",
+    "term": "Muscle dysmorphia"
+   },
+   {
+    "definition": "The ability to understand, question and evaluate media messages, including how images are edited and selected.",
+    "term": "Media literacy"
+   },
+   {
+    "definition": "Presenting a person mainly as an object of sexual appeal rather than for what they do.",
+    "term": "Sexualised representation"
+   },
+   {
+    "definition": "A person's perceptions, thoughts and feelings about their own body, including how they think others see it; it can be positive or negative.",
+    "term": "Body image: definition"
+   },
+   {
+    "definition": "Self-consciousness about appearance; feeling watched or judged; sweating and revealing kit; fear of becoming too muscular.",
+    "term": "Ways body image deters girls from activity"
+   },
+   {
+    "definition": "Pressure to be muscular, which pushes boys away from activities seen as unmasculine; feeling too small, too heavy or unathletic, which leads to avoiding team sports and changing rooms.",
+    "term": "Ways body image deters boys from activity"
+   },
+   {
+    "definition": "Better fitness, competence and self-esteem, and a shift in focus from how the body looks to what it can do.",
+    "term": "Positive effects of participation on body image"
+   },
+   {
+    "definition": "Media literacy education; a wide range of body types; coverage focused on skill and achievement; comfortable kit; PE that values effort and enjoyment over appearance.",
+    "term": "Responses to negative body image and media (list)"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Body image concerns a perception, not actual shape or weight, and it is shaped by the ideals a society promotes.",
+    "h": "Body image and body ideals",
+    "points": [
+     "Body image: a person's perceptions, thoughts and feelings about their own body, including how they think others see it.",
+     "Body image can be positive or negative, and it is not the same as the body's actual shape or weight.",
+     "Body ideals: the ideal promoted for women is typically slim and toned; for men, it is lean and muscular.",
+     "Few people naturally match these ideals.",
+     "The ideals draw on dominant notions of masculinity and femininity, described in Gender socialisation and its impact on participation."
+    ]
+   },
+   {
+    "h": "How body image influences female participation",
+    "points": [
+     "Self-consciousness about appearance, feeling watched or judged, sweating and revealing kit lead some girls to avoid activity or drop out, especially in adolescence.",
+     "Fear of becoming too muscular steers girls away from strength training and contact sports."
+    ]
+   },
+   {
+    "h": "How body image influences male participation",
+    "points": [
+     "Pressure to be muscular pushes boys towards weight training and away from activities seen as unmasculine.",
+     "Boys who feel too small, too heavy or unathletic may avoid team sports and changing rooms."
+    ]
+   },
+   {
+    "h": "Body image as a barrier or a support for both sexes",
+    "points": [
+     "Negative body image is a barrier to joining and staying in physical activity for both males and females.",
+     "Positive body image supports joining and staying in physical activity for both males and females."
+    ]
+   },
+   {
+    "h": "How participation influences body image",
+    "points": [
+     "Positive effect: regular activity improves fitness, competence and self-esteem.",
+     "Positive effect: it shifts attention from how the body looks to what it can do, known as body functionality.",
+     "Negative effect: activities that emphasise weight or appearance, such as gymnastics, dance, distance running, weight-category sports and bodybuilding, can lead to unhealthy dieting, disordered eating or excessive exercise.",
+     "Muscle dysmorphia: in males, the belief that one's body is too small despite being muscular, an extreme effect of body image pressure."
+    ]
+   },
+   {
+    "h": "Media representations of male and female bodies",
+    "points": [
+     "Media, including TV, magazines, advertising and social media, show narrow, idealised bodies: thin and toned women, and lean muscular men.",
+     "Many images are edited or filtered, so the bodies they show are not a realistic picture of typical bodies.",
+     "Female athletes are more often shown for appearance, sexualised poses or personal life, while male athletes are more often shown for power, strength and action.",
+     "Social media lets young people compare themselves constantly with idealised images, including those posted by influencers and fitness accounts.",
+     "Male athletes in aesthetic activities and female athletes in power and contact sports are shown less often, which reinforces ideas about which activities suit each gender."
+    ]
+   },
+   {
+    "h": "Debate: do media representations help or hinder participation?",
+    "points": [
+     "Hinder: unattainable ideals lower body satisfaction, and young people who do not match them can feel excluded from activity.",
+     "Hinder: when activity is framed as a way to change appearance rather than for enjoyment and health, the motivation is weak and fragile.",
+     "Hinder: sexualised images of women can discourage girls from taking part.",
+     "Help: images of fit, healthy athletes can inspire young people to start and keep going.",
+     "Help: greater coverage of diverse body types and of women's sport shows that bodies of many shapes and sizes perform well.",
+     "Help: athletes who speak openly about body confidence challenge narrow ideals.",
+     "Verdict: the effect depends on focus; images that emphasise performance and diversity encourage participation, while images that emphasise appearance and narrow ideals discourage it."
+    ]
+   },
+   {
+    "h": "Responses to negative body image and media effects",
+    "points": [
+     "Media literacy education: teaching young people how images are edited and selected, so they can read them critically.",
+     "Representation: media and schools using a wide range of body types in images and teaching materials.",
+     "Coverage that focuses on skill and achievement rather than appearance.",
+     "Comfortable kit choices that let young people move without feeling exposed.",
+     "PE that values effort and enjoyment over appearance."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "Case for the statement: lean women and muscular men can inspire. Fit, healthy athletes show young people what training achieves and encourage them to start and keep going. Greater coverage of diverse body types and of women's sport shows that bodies of many shapes and sizes perform well, and athletes who speak openly about body confidence challenge narrow ideals. Case against the statement: the same images set unattainable ideals that lower body satisfaction, and young people who do not match them can feel excluded from activity. Many images are edited or filtered, and social media lets young people compare themselves constantly with influencers and fitness accounts. When activity is framed as a way to change appearance rather than for enjoyment and health, the motivation is weak and fragile. Sexualised images of women can also discourage girls from taking part. Conclusion: the statement is only partly valid. Lean and muscular images can promote participation when they focus on performance, skill and a range of body types, but when they focus on appearance and narrow ideals they are more likely to discourage young people. The media's effect depends on what the images emphasise, not on the bodies alone.",
+    "prompt": "'By showcasing lean women and muscular men, the media helps to promote physical activity among young people.' Discuss the validity of this statement.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Body image influences females: self-consciousness about appearance, feeling watched or judged, sweating and revealing kit lead some girls to avoid activity or drop out, especially in adolescence, and fear of becoming too muscular steers girls away from strength training and contact sports. Body image influences males: pressure to be muscular pushes boys towards weight training and away from activities seen as unmasculine, and boys who feel too small, too heavy or unathletic may avoid team sports and changing rooms. Participation influences body image positively: regular activity improves fitness, competence and self-esteem, and shifts focus from how the body looks to what it can do. Participation influences body image negatively when it emphasises weight or appearance: activities such as gymnastics, dance and bodybuilding can lead to unhealthy dieting, disordered eating or excessive exercise, and in males an extreme effect is muscle dysmorphia. Participation can therefore raise body confidence or, in appearance-focused activities, lower it.",
+    "prompt": "Discuss how body image influences, and is influenced by, physical activity participation for males and females.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Body image is a person's perceptions, thoughts and feelings about their own body, including how they think others see it. It can be positive or negative, and it is not the same as the body's actual shape or weight. First, a girl who is self-conscious about her appearance, feels watched or judged, or dislikes sweating and revealing kit may avoid an activity or drop out, especially in adolescence. Second, a boy who feels too small, too heavy or unathletic may avoid team sports and changing rooms, or pressure to be muscular may push him towards weight training and away from activities seen as unmasculine.",
+    "prompt": "Explain body image and describe two ways it can affect participation in physical activity.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-gender-physical-activity-s3": {
+  "keyTerms": [
+   {
+    "definition": "The lifelong process of learning the norms, values and behaviour that a society expects of its members.",
+    "term": "Socialisation"
+   },
+   {
+    "definition": "The process of learning what is seen as appropriate for boys and men, and for girls and women.",
+    "term": "Gender socialisation"
+   },
+   {
+    "definition": "The people and institutions, such as family, peers, school and media, that teach individuals a society's norms.",
+    "term": "Agents of socialisation"
+   },
+   {
+    "definition": "The way a society's norms, expectations, rules and media images define how bodies should look, move and behave.",
+    "term": "Social regulation of the body"
+   },
+   {
+    "definition": "The dominance of one set of ideas or values that most people accept as natural.",
+    "term": "Hegemony"
+   },
+   {
+    "definition": "The dominant, widely accepted idea of what it means to be a man, treated as the norm against which men are measured.",
+    "term": "Hegemonic masculinity"
+   },
+   {
+    "definition": "The dominant, widely accepted idea of what it means to be a woman, treated as the norm against which women are measured.",
+    "term": "Hegemonic femininity"
+   },
+   {
+    "definition": "An accepted standard of behaviour that a society expects its members to follow.",
+    "term": "Norm"
+   },
+   {
+    "definition": "A fixed, oversimplified belief about what people of a particular group are like.",
+    "term": "Stereotype"
+   },
+   {
+    "definition": "The habit of constantly monitoring and judging one's own appearance against social expectations.",
+    "term": "Self-surveillance"
+   },
+   {
+    "definition": "Family, peers, school, media, sports clubs and coaches, and religion and culture.",
+    "term": "Agents of gender socialisation (list)"
+   },
+   {
+    "definition": "The sociologist R. W. Connell.",
+    "term": "Who developed the concept of hegemonic masculinity"
+   },
+   {
+    "definition": "Physical strength, toughness, aggression, competitiveness, dominance, emotional restraint, risk-taking and heterosexuality.",
+    "term": "Characteristics of hegemonic masculinity (list)"
+   },
+   {
+    "definition": "Slimness, grace, attractiveness and an appearance focus, gentleness, passivity and non-aggression, caring and deference.",
+    "term": "Characteristics of hegemonic femininity (list)"
+   },
+   {
+    "definition": "2012, in London.",
+    "term": "Women's boxing: first Olympic Games inclusion"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Gender socialisation shapes which activities young people see as open to them.",
+    "h": "Socialisation and gender socialisation",
+    "points": [
+     "Socialisation: the lifelong process of learning the norms, values and behaviour expected in a society.",
+     "Gender socialisation: learning what is seen as appropriate for boys and men, and for girls and women."
+    ]
+   },
+   {
+    "h": "Agents of gender socialisation",
+    "points": [
+     "Family: the toys children are given, the activities encouraged and the behaviour praised.",
+     "Peers: friends reward behaviour that fits gender norms and mock behaviour that does not.",
+     "School: the activities offered and the expectations teachers hold.",
+     "Media: the images of male and female athletes that young people see.",
+     "Sports clubs and coaches: the activities offered and the language used with boys and girls.",
+     "Religion and culture: the roles and behaviour a community treats as proper for each sex."
+    ]
+   },
+   {
+    "h": "Examples of gender socialisation in sport",
+    "points": [
+     "Boys are given footballs and encouraged to be rough and competitive.",
+     "Girls are given dance classes and praised for being neat and graceful.",
+     "Comments such as 'throws like a girl' teach children that some physical skills belong to one sex."
+    ]
+   },
+   {
+    "h": "Social regulation of the body: definition and history",
+    "points": [
+     "Social regulation of the body: the way society, through its norms, expectations, rules and media images, defines how bodies should look, move and behave.",
+     "This regulation determines which physical activity people feel is appropriate or available to them.",
+     "Past: women were historically excluded or restricted, for example barred from some events and clubs.",
+     "Past: women's competition distances were limited and dress rules restricted their participation.",
+     "Past: a belief that strenuous exercise harmed women's health discouraged women from taking part.",
+     "Women's boxing was first included in the Olympic Games in 2012, in London."
+    ]
+   },
+   {
+    "h": "Social regulation of the body today",
+    "points": [
+     "Dress codes and kit expectations set out what women and men should wear to take part.",
+     "Muscular women, and men who take part in activities seen as feminine, are judged or criticised.",
+     "Unequal provision and pay for women's sport persist.",
+     "Appearance expectations continue to shape which activities people feel comfortable taking part in."
+    ]
+   },
+   {
+    "h": "Effects of social regulation on women and men",
+    "points": [
+     "For women: girls are steered away from contact, power and strength sports and from visible muscle.",
+     "For women: women practise self-surveillance, constantly monitoring and judging their appearance.",
+     "For women: these pressures contribute to drop-out in adolescence.",
+     "For men: pressure to be strong, tough and competitive.",
+     "For men: avoidance of dance, gymnastics and synchronised swimming, which are seen as feminine.",
+     "For men: pressure to play through pain and injury.",
+     "For men: reluctance to show weakness or seek help."
+    ]
+   },
+   {
+    "h": "Hegemonic masculinity: definition and characteristics",
+    "points": [
+     "Hegemonic masculinity: the dominant, widely accepted idea of what it means to be a man in a society, treated as the norm against which men are measured.",
+     "It is a standard that individual men are measured against; it does not describe all men.",
+     "The concept was developed by the sociologist R. W. Connell.",
+     "Characteristics: physical strength, toughness, aggression, competitiveness, dominance, emotional restraint, risk-taking and heterosexuality."
+    ]
+   },
+   {
+    "h": "Hegemonic masculinity: impact on boys and girls",
+    "points": [
+     "For boys: boys who fit the ideal gain high status in contact team sports.",
+     "For boys: boys who are less sporty or prefer aesthetic activities are excluded or ridiculed.",
+     "For boys: boys are encouraged to play through injury and violence.",
+     "For boys: boys who do not fit the ideal may drop out.",
+     "For girls: sport itself is defined as masculine, so girls who play are seen as less feminine.",
+     "For girls: women's sport is treated as second-rate."
+    ]
+   },
+   {
+    "h": "Hegemonic femininity: definition and characteristics",
+    "points": [
+     "Hegemonic femininity: the dominant, widely accepted idea of what it means to be a woman in a society, treated as the norm against which women are measured.",
+     "It is a standard that individual women are measured against; it does not describe all women.",
+     "Characteristics: slimness, grace, attractiveness and an appearance focus, gentleness, passivity and non-aggression, caring and deference."
+    ]
+   },
+   {
+    "h": "Hegemonic femininity: impact on girls and boys",
+    "points": [
+     "For girls: activities that are aggressive, muscular, sweaty or contact-based seem unfeminine, so girls avoid them or drop out.",
+     "For girls: an emphasis on appearance leads to self-consciousness about how they look while taking part.",
+     "For girls: they are channelled into aesthetic activities, such as dance or gymnastics.",
+     "For boys: activities linked to femininity, such as dance and gymnastics, are avoided for fear of ridicule."
+    ]
+   },
+   {
+    "h": "Challenging these norms",
+    "points": [
+     "Visible role models who break stereotypes, such as women playing rugby, boxing and Gaelic games, and men taking part in dance.",
+     "Equal provision and media coverage for women's and men's sport.",
+     "Mixed and choice-based PE, so boys and girls can choose activities without gender labels.",
+     "Coaches and teachers who challenge stereotyped comments as they happen."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Hegemonic masculinity is the dominant, widely accepted idea of what it means to be a man in a society, treated as the norm against which men are measured. Its characteristics include physical strength, toughness, aggression, competitiveness, dominance, emotional restraint, risk-taking and heterosexuality. Because contact team sports reward these traits, boys who fit gain status, while boys who are less sporty or prefer aesthetic activities may be excluded or ridiculed, and boys may be pushed to play through injury or drop out. Girls are also affected: sport itself is defined as masculine, so girls who play are seen as less feminine, and women's sport is treated as second-rate. Hegemonic femininity is the dominant, widely accepted idea of what it means to be a woman, treated as the norm against which women are measured. Its characteristics include slimness, grace, attractiveness, an appearance focus, gentleness, passivity, non-aggression, caring and deference. Activities that are aggressive, muscular, sweaty or contact-based seem unfeminine, so girls avoid them or drop out, and an emphasis on appearance brings self-consciousness. Girls are channelled into aesthetic activities such as dance. Boys are affected too: activities linked to femininity, such as dance and gymnastics, are avoided for fear of ridicule, which narrows their choices.",
+    "prompt": "Explain hegemonic femininity and hegemonic masculinity, and why each might impact on the participation of boys and girls.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Social regulation of the body is the way society, through its norms, expectations, rules and media images, defines how bodies should look, move and behave, which shapes the activities people feel are appropriate or available to them. Historically, women were excluded or restricted: they were barred from some events and clubs, competition distances were limited, dress rules applied, and a belief that strenuous exercise harmed women's health discouraged them from taking part. Women's boxing was first included in the Olympic Games in 2012, in London. Today, dress codes and kit expectations, judgement of muscular women or of men in feminine activities, and unequal provision and pay for women's sport continue to limit participation. For women, girls are steered away from contact, power and strength sports and from visible muscle, women practise self-surveillance of their appearance, and these pressures contribute to drop-out in adolescence. For men, the pressure to be strong, tough and competitive leads to avoidance of dance, gymnastics and synchronised swimming, pressure to play through pain and injury, and reluctance to show weakness or seek help. Women's participation is therefore narrowed by exclusion and appearance pressure, and men's by expectations of toughness.",
+    "prompt": "Discuss how social regulation of the body impacts on the participation levels of men and women in physical activity.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Hegemonic masculinity is the dominant, widely accepted idea of what it means to be a man in a society, treated as the norm against which men are measured. It is a standard rather than a description of every man, and it includes physical strength, toughness, aggression, competitiveness and emotional restraint. One way it affects boys' participation: boys who do not fit the ideal, for example those who are less sporty or prefer dance, may be excluded or ridiculed by peers, which may lead them to drop out of sport altogether.",
+    "prompt": "Explain hegemonic masculinity and give one way it can affect boys' participation in sport.",
     "type": "short"
    }
   ]
@@ -2973,6 +8901,649 @@
     "marks": 6,
     "model": "Marathon: aerobic, because it lasts over two hours at low to moderate intensity. 400 m: lactic acid system, because it is a high-intensity effort lasting about 45 seconds or more. Long jump: ATP-PC, because the run-up and take-off are a maximal effort lasting only a few seconds.",
     "prompt": "Identify the main energy system for a marathon, a 400 m race and a long jump, and give a reason for each.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-personal-exercise-fitness-s1": {
+  "keyTerms": [
+   {
+    "definition": "Active and purposeful participation in a personally designed exercise and fitness programme that reflects the performer's interests, goals and the principles of training.",
+    "term": "Personal exercise and fitness"
+   },
+   {
+    "definition": "An activity that gradually raises heart rate at the start of a warm-up.",
+    "term": "Pulse raiser"
+   },
+   {
+    "definition": "Stretching through controlled movement across the full range of a joint's motion.",
+    "term": "Dynamic stretching"
+   },
+   {
+    "definition": "Holding a stretched position still, without bouncing.",
+    "term": "Static stretching"
+   },
+   {
+    "definition": "The fifteen-minute main part of the performance, made up of a cardiovascular section and a muscular strength and endurance section.",
+    "term": "Development section"
+   },
+   {
+    "definition": "The five-minute end of a performance, in which intensity is reduced gradually and the muscles used are stretched statically.",
+    "term": "Cool-down"
+   },
+   {
+    "definition": "A change that makes an exercise harder in small steps, such as more repetitions or sets, a larger load, longer duration, greater complexity or less recovery.",
+    "term": "Progression"
+   },
+   {
+    "definition": "An easier or harder version of an exercise, chosen so that the programme suits the individual.",
+    "term": "Adaptation"
+   },
+   {
+    "definition": "A partner who stands by during a heavy lift, ready to help if the lift fails.",
+    "term": "Spotter"
+   },
+   {
+    "definition": "An aim to improve the fitness and skills that a particular physical activity demands.",
+    "term": "Performance goal"
+   },
+   {
+    "definition": "Fitness that supports good health, as opposed to the fitness and skill needed for one physical activity.",
+    "term": "Health-related fitness"
+   },
+   {
+    "definition": "A pulse raiser; mobility and dynamic stretches; movements that rehearse the development section.",
+    "term": "Five-minute warm-up: three elements"
+   },
+   {
+    "definition": "A cardiovascular section, then a muscular strength and endurance section, which can be a circuit.",
+    "term": "Fifteen-minute development section: two sections in order"
+   },
+   {
+    "definition": "A gradual reduction in intensity, then static stretches of the muscles used.",
+    "term": "Five-minute cool-down: two steps in order"
+   },
+   {
+    "definition": "Set the goal; choose the methods; apply FITT and the principles of training; choose exercises; set work and recovery; plan progression over weeks; record each session.",
+    "term": "Designing a programme: seven steps in order"
+   },
+   {
+    "definition": "Correct technique and posture; appropriate loads; a spotter for heavy lifts; checked equipment; hydration; stopping for pain or dizziness; adequate space.",
+    "term": "Safe practice: seven points"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What the area is",
+    "points": [
+     "The area is active and purposeful participation in a personally designed exercise and fitness programme.",
+     "The programme reflects the performer's own interests and goals.",
+     "The programme applies the principles of training to the chosen methods and exercises."
+    ]
+   },
+   {
+    "h": "Choosing the activities",
+    "points": [
+     "The aerobic choice is one method: continuous training, interval training, fartlek training, aerobics or step aerobics, spinning, or indoor rowing.",
+     "The second choice is one other conditioning and resistance activity: weight training, core stability or circuit training.",
+     "Only one of each is chosen, so each performance uses exactly two activities."
+    ]
+   },
+   {
+    "h": "Five-minute warm-up",
+    "points": [
+     "The warm-up lasts five minutes and comes first in the performance.",
+     "It includes a pulse raiser, an activity that gradually raises heart rate.",
+     "It includes mobility work and dynamic stretches, which move the joints and muscles through their range.",
+     "It includes movements that rehearse the development section, so the actions to come are practised first."
+    ]
+   },
+   {
+    "h": "Fifteen-minute development section",
+    "points": [
+     "The development section lasts fifteen minutes and is the main part of the performance.",
+     "The cardiovascular section uses the chosen aerobic method.",
+     "The muscular strength and endurance section uses the chosen conditioning and resistance activity.",
+     "The muscular strength and endurance section can be organised as a circuit."
+    ]
+   },
+   {
+    "h": "Five-minute cool-down",
+    "points": [
+     "The cool-down lasts five minutes and comes last in the performance.",
+     "Intensity is reduced gradually rather than stopping abruptly.",
+     "Static stretches then cover the muscles used in the performance, each held still."
+    ]
+   },
+   {
+    "h": "Setting the goal: performance or health-related fitness",
+    "points": [
+     "The programme aims either to improve performance in a physical activity or to improve health-related fitness.",
+     "A performance goal targets the fitness and skills that a chosen physical activity demands.",
+     "A health-related goal targets fitness that supports good health."
+    ]
+   },
+   {
+    "h": "Designing the programme",
+    "points": [
+     "1. Set the goal.",
+     "2. Choose the methods.",
+     "3. Apply FITT (frequency, intensity, time and type) and the principles of training.",
+     "4. Choose the exercises.",
+     "5. Set the work and recovery periods.",
+     "6. Plan progression over weeks.",
+     "7. Record each session."
+    ]
+   },
+   {
+    "h": "Progressions and adaptations",
+    "points": [
+     "A progression makes an exercise harder in small steps, by increasing the load, repetitions, sets, duration or complexity.",
+     "Recovery can also be reduced to progress, by shortening the rest between sets or efforts.",
+     "An adaptation is an easier or harder version of an exercise, chosen so the programme suits the individual.",
+     "Press-up adaptations: on the knees or against a wall for an easier version, and with the feet raised for a harder version."
+    ]
+   },
+   {
+    "h": "Safe practice",
+    "points": [
+     "Technique and posture must be correct before the load is increased.",
+     "The load must be appropriate to the performer.",
+     "A spotter is used for heavy lifts.",
+     "Equipment is checked before use.",
+     "Fluids are taken to stay hydrated through the session.",
+     "The performer stops the exercise if there is pain or dizziness.",
+     "The space must be adequate for the activity."
+    ]
+   },
+   {
+    "h": "NCCA clarification: aerobic and anaerobic training",
+    "points": [
+     "The NCCA clarification on curriculumonline.ie states that the training may be aerobic and/or anaerobic.",
+     "Aerobic training releases energy using oxygen; anaerobic training releases energy without oxygen.",
+     "A programme can therefore combine aerobic and anaerobic methods."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "The performance has three parts. The warm-up lasts five minutes and includes a pulse raiser, mobility and dynamic stretches, and movements that rehearse the development section. The development section lasts fifteen minutes and has two sections: a cardiovascular section that uses the chosen aerobic method, and a muscular strength and endurance section that uses the chosen conditioning and resistance activity, which can be organised as a circuit. The cool-down lasts five minutes: intensity is reduced gradually, then static stretches are held for the muscles used in the performance.",
+    "prompt": "Outline the structure of a personal exercise and fitness performance and describe the content of each part.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Progressions: 1. Add repetitions over successive weeks, then add sets, making each change in small steps. 2. Reduce recovery, for example by shortening the rest between sets. Adaptations: 1. Press-up on the knees, an easier version for a performer who cannot yet manage the full exercise. 2. Press-up with the feet raised, a harder version.",
+    "prompt": "Give two progressions and two adaptations for a press-up.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-personal-exercise-fitness-s2": {
+  "keyTerms": [
+   {
+    "definition": "Steady exercise at a constant intensity in the aerobic zone, with no rest.",
+    "term": "Continuous training"
+   },
+   {
+    "definition": "Continuous training lasting 20 to 60 minutes.",
+    "term": "Intermediate slow distance"
+   },
+   {
+    "definition": "Continuous training lasting more than 60 minutes.",
+    "term": "Long slow distance"
+   },
+   {
+    "definition": "Hard work periods alternated with recovery periods in a set pattern.",
+    "term": "Interval training"
+   },
+   {
+    "definition": "The length of a recovery period compared with the work period before it, written for example as 1:2.",
+    "term": "Work-to-recovery ratio"
+   },
+   {
+    "definition": "Continuous running with unstructured or structured bursts of speed over varied terrain.",
+    "term": "Fartlek training"
+   },
+   {
+    "definition": "A sequence of blocks of aerobics moves combined and performed in time with music.",
+    "term": "Routine"
+   },
+   {
+    "definition": "A smooth change from one move to the next in an aerobics routine.",
+    "term": "Transition"
+   },
+   {
+    "definition": "The pedalling rate on a spinning bike, measured in revolutions per minute.",
+    "term": "Cadence"
+   },
+   {
+    "definition": "The number of strokes taken per minute on an indoor rower.",
+    "term": "Stroke rate"
+   },
+   {
+    "definition": "The indoor rower setting that adjusts resistance, changing how hard each stroke feels.",
+    "term": "Damper setting"
+   },
+   {
+    "definition": "The time taken to row 500 m, shown on the rowing monitor.",
+    "term": "Pace per 500 m"
+   },
+   {
+    "definition": "Catch, drive (legs, body, arms), finish, recovery (arms, body, legs).",
+    "term": "Rowing stroke order"
+   },
+   {
+    "definition": "Basic step, V-step, grapevine, knee lift, step touch.",
+    "term": "Basic aerobics steps"
+   },
+   {
+    "definition": "Seated climb, standing climb, seated flat, sprints.",
+    "term": "Spinning techniques"
+   },
+   {
+    "definition": "Saddle height set so the knee is slightly bent at the bottom of the pedal stroke.",
+    "term": "Spinning set-up check"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Continuous training is exercise at a constant intensity in the aerobic zone, with no rest.",
+    "h": "Continuous training",
+    "points": [
+     "Purpose: builds cardio-respiratory endurance and an aerobic base, and supports body composition.",
+     "Intermediate slow distance: continuous work for 20 to 60 minutes.",
+     "Long slow distance: continuous work for more than 60 minutes.",
+     "Typical FITT example: frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running."
+    ]
+   },
+   {
+    "h": "Interval training",
+    "points": [
+     "Readiness: a fitness base and correct technique must be in place before high-intensity intervals are added.",
+     "Work-to-recovery ratios (typical guidance): 1:1 or 1:2 for aerobic and lactic intervals; 1:3 or more for maximal efforts.",
+     "Interval duration: short intervals develop speed and anaerobic power; longer intervals develop aerobic capacity.",
+     "Each hard work period is followed by a recovery period, repeated in a set pattern.",
+     "Illustrative FITT example: type running; intensity hard for each effort; time 6 × 3 minutes of hard work with 3 minutes of easy jogging between efforts, a 1:1 ratio."
+    ]
+   },
+   {
+    "h": "Fartlek training",
+    "points": [
+     "Fartlek is continuous running with unstructured or structured bursts of speed.",
+     "Readiness: a fitness base is needed before fast bursts are added, because bursts raise the load sharply.",
+     "Terrain: hills, sand, grass and trails vary the load of the same run.",
+     "Interval duration: unstructured bursts are chosen by the performer as the run goes; structured bursts are set in advance, such as sprints between markers.",
+     "Illustrative FITT example: type running; time 30 minutes; sprints between markers and hill efforts."
+    ]
+   },
+   {
+    "h": "Aerobics and step aerobics",
+    "points": [
+     "Basic steps: basic step, V-step, grapevine, knee lift and step touch.",
+     "Stepping technique: in step aerobics, the whole foot is placed on the step when stepping up and down.",
+     "Routine: blocks of moves combined into a sequence.",
+     "Transitions: smooth changes between moves, so the routine flows.",
+     "Timing and rhythm: moves are performed in time with the beats of the music, often counted in blocks such as 32 counts.",
+     "Training zones: the routine keeps heart rate in the aerobic zone, about 60 to 80% of maximum heart rate.",
+     "FITT: type is step aerobics; intensity is kept in the aerobic zone; time is the length of the routine; frequency is the number of sessions a week."
+    ]
+   },
+   {
+    "h": "Spinning",
+    "points": [
+     "Techniques: seated climb, standing climb, seated flat and sprints.",
+     "Bike set-up: the saddle height is set so the knee is slightly bent at the bottom of the pedal stroke.",
+     "Workout intensity is set by resistance and cadence, and monitored by heart-rate zones or perceived exertion.",
+     "Session design: warm-up, then intervals of climbs and sprints, then cool-down.",
+     "Training zones: heart-rate zones guide the intensity of the climbs and sprints.",
+     "FITT: type is a stationary bike ride; intensity is the resistance and cadence chosen; time and frequency are planned around the session length and the sessions each week."
+    ]
+   },
+   {
+    "h": "Indoor rowing",
+    "points": [
+     "Stroke sequence: catch, drive, finish, then recovery.",
+     "Drive: legs first, then body, then arms.",
+     "Recovery: arms first, then body, then legs.",
+     "Time and distance: a steady piece of 20 minutes, or a 2,000 m test, which is the standard rowing test distance.",
+     "Targets: pace per 500 m, shown on the monitor, and stroke rate, the number of strokes per minute.",
+     "Resistance: the damper setting adjusts how hard each stroke feels.",
+     "Session design: warm-up, then intervals or a steady piece, then cool-down."
+    ]
+   },
+   {
+    "h": "Worked session: a games player building cardio-respiratory endurance (illustrative)",
+    "points": [
+     "Frequency: 3 sessions a week, with a rest day between sessions.",
+     "Intensity: 60 to 80% of maximum heart rate, mostly in the aerobic zone.",
+     "Time: 30 minutes in total, with 20 minutes of main work between the warm-up and cool-down.",
+     "Type: fartlek on grass, with sprints between markers and a hill effort.",
+     "Warm-up (5 minutes): easy jogging, then dynamic leg movements that rehearse the bursts at low intensity.",
+     "Cool-down (5 minutes): gradual slowing to a walk, then static stretches of the legs."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Continuous training is steady exercise at a constant intensity in the aerobic zone, with no rest. It builds cardio-respiratory endurance and an aerobic base, but it has no changes of pace, so it is the least like the stop-start pattern of a game. Interval training alternates hard work periods with recovery periods. It suits a games player because it develops speed and the ability to recover between efforts; the ratio depends on the effort, with 1:1 or 1:2 for aerobic and lactic intervals and 1:3 or more for maximal efforts. Fartlek training is continuous running with bursts of speed over varied terrain, unstructured or structured, so it trains the aerobic and anaerobic systems together, as a game does. FITT for continuous training (typical guidance): frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running. Interval and fartlek training both need a fitness base and correct technique before the fast bursts are added.",
+    "prompt": "Compare continuous, interval and fartlek training for a games player, using FITT for one of them.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Begin with a warm-up on the bike, with the saddle set so the knee is slightly bent at the bottom of the pedal stroke. The main section is built from intervals of seated and standing climbs and seated flat riding, with resistance and cadence set so that heart rate stays in the aerobic zone, about 60 to 80% of maximum heart rate, for sustained periods; this develops cardio-respiratory endurance. Sprints are placed between the climbs as the session's harder efforts. Finish with a cool-down that gradually reduces the resistance and cadence before stretching.",
+    "prompt": "Describe how a spinning session could be designed to improve cardio-respiratory endurance.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-personal-exercise-fitness-s3": {
+  "keyTerms": [
+   {
+    "definition": "The ability of the trunk muscles to hold the spine steady during movement.",
+    "term": "Core stability"
+   },
+   {
+    "definition": "A spine held in its natural curves, without arching or rounding.",
+    "term": "Neutral spine"
+   },
+   {
+    "definition": "A series of stations worked in turn, with set work and rest intervals.",
+    "term": "Circuit training"
+   },
+   {
+    "definition": "One exercise point in a circuit.",
+    "term": "Station"
+   },
+   {
+    "definition": "The set work period followed by a set rest period at each circuit station.",
+    "term": "Work-recovery interval"
+   },
+   {
+    "definition": "Heavy loads with few repetitions and longer rests, used to build strength.",
+    "term": "Strength loading"
+   },
+   {
+    "definition": "Light loads with many repetitions and shorter rests, used to build muscular endurance.",
+    "term": "Muscular endurance loading"
+   },
+   {
+    "definition": "One group of consecutive repetitions of an exercise, followed by a rest.",
+    "term": "Set"
+   },
+   {
+    "definition": "Keeping the knees in line with the toes during a squat.",
+    "term": "Knee tracking"
+   },
+   {
+    "definition": "Relaxation and breathing; control; routine; alignment; flow.",
+    "term": "Core stability: five elements"
+   },
+   {
+    "definition": "Strength: about 3 to 6 repetitions, heavy load, longer rest. Muscular endurance: about 15 or more repetitions, light load, short rest.",
+    "term": "Loading ranges (typical guidance)"
+   },
+   {
+    "definition": "Feet shoulder-width apart, chest up, knees track over toes, sit back until thighs are parallel, drive up through the heels.",
+    "term": "Squat technique cues"
+   },
+   {
+    "definition": "Alternate muscle groups between stations; use 8 to 10 stations; set the number of circuits; progress by more work time, less rest or more circuits.",
+    "term": "Circuit design steps"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Weight-training safety",
+    "points": [
+     "Warm up before lifting, so the muscles are ready for load.",
+     "Learn correct technique before adding any load.",
+     "Breathe out on the effort of each lift.",
+     "Move under control, lowering the weight with the same care as lifting it.",
+     "Use a spotter for heavy pressing exercises.",
+     "Check that the collars on the bar are secured before each lift.",
+     "Increase the load progressively, one step at a time, rather than jumping to a heavy weight."
+    ]
+   },
+   {
+    "h": "Upper-body pushing: pressing and extensions",
+    "points": [
+     "Pressing (bench press or shoulder press): the grip is just wider than the shoulders.",
+     "Lower the bar under control.",
+     "Press to full extension without locking out aggressively.",
+     "Keep the back flat on the bench.",
+     "Triceps extension (works the triceps): keep the elbows still and extend at the elbow only."
+    ]
+   },
+   {
+    "h": "Upper-body pulling: rows and curls",
+    "points": [
+     "Bent-over or seated row (works the upper back): keep a flat back.",
+     "Pull the elbows back and squeeze the shoulder blades together.",
+     "Biceps curl (works the biceps): keep the elbows fixed at the sides."
+    ]
+   },
+   {
+    "h": "Lower-body exercises: squats and lunges",
+    "points": [
+     "Squat (works the thighs): feet shoulder-width apart and chest up.",
+     "Knees track over the toes during the squat.",
+     "Sit back until the thighs are parallel with the floor.",
+     "Drive up through the heels to stand.",
+     "Lunge: take a long step, with the front knee over the ankle.",
+     "Lunge: lower the back knee towards the floor, keeping the trunk upright."
+    ]
+   },
+   {
+    "h": "Loading for strength and for muscular endurance",
+    "points": [
+     "Strength: heavy loads with few repetitions, about 3 to 6 per set, and longer rests between sets (typical guidance).",
+     "Muscular endurance: light loads with many repetitions, about 15 or more per set, and short rests between sets (typical guidance).",
+     "The two loadings are opposites: strength is the heaviest load for the fewest repetitions, and endurance is the lightest load for the most.",
+     "A set is one group of consecutive repetitions, followed by a rest before the next set."
+    ]
+   },
+   {
+    "h": "Core stability: what the core is",
+    "points": [
+     "The core is the group of trunk muscles, the abdominals, back and pelvis, that stabilise the spine.",
+     "Core stability supports posture.",
+     "Core stability supports balance.",
+     "Core stability supports the transfer of force through the trunk.",
+     "Core stability helps prevent injury."
+    ]
+   },
+   {
+    "h": "Core stability: breathing, control, alignment and flow",
+    "points": [
+     "Relaxation and breathing: breathing is controlled, and the breath is never held.",
+     "Control: movements are slow and precise.",
+     "Control: positions are held without shaking or sagging.",
+     "Alignment: the spine is kept neutral, the head is in line and the hips are level.",
+     "Flow: transitions between exercises are smooth."
+    ]
+   },
+   {
+    "h": "Core stability routine and example exercises",
+    "points": [
+     "A routine is a planned sequence of core exercises, performed in one session.",
+     "Example routine, in order: plank, side plank, bird-dog, dead bug, glute bridge.",
+     "The plank and side plank are held positions, while the bird-dog, dead bug and glute bridge are moving exercises."
+    ]
+   },
+   {
+    "h": "Circuit training: themes, equipment and intervals",
+    "points": [
+     "Circuit training is a series of stations, each worked in turn.",
+     "Themes: muscular endurance, cardio, or sport-specific skills; the exercises at each station match the theme.",
+     "Equipment: body weight, medicine balls, kettlebells or steps.",
+     "Work-recovery intervals (typical guidance): 30 seconds of work, then 30 seconds of rest at each station."
+    ]
+   },
+   {
+    "h": "Designing a circuit, with an example for a games player",
+    "points": [
+     "Alternate muscle groups between stations (upper body, lower body, core and cardio), so each group recovers while the others work.",
+     "Use 8 to 10 stations (typical guidance).",
+     "Set the number of circuits to complete.",
+     "Progress by increasing the work time, reducing the rest, or adding circuits.",
+     "Illustrative example circuit for a games player, in order: squats, press-ups, plank, step-ups onto a step, lunges, medicine-ball throws, side plank and passes against a wall."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Activity: soccer. Weight training: use light loads with many repetitions, about 15 or more per set, and short rests between sets, so the muscles keep working for longer. Choose exercises that match the leg and trunk demands of the game, such as squats and lunges, and add repetitions over successive weeks before adding load. Circuit training: set up stations themed on muscular endurance, using body weight or steps, with work and rest intervals of typically 30 seconds of work and 30 seconds of rest at each station. Alternate upper-body, lower-body, core and cardio stations so each group recovers, and progress by reducing the rest or adding circuits. Together the weight and circuit work build endurance in the muscles the game uses.",
+    "prompt": "Describe how weight training and circuit training could be used to improve muscular endurance in a physical activity of your choice.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "1. Knees track over the toes: keeping the knees in line with the toes keeps the knee joint in a safe line, so it does not take twisting force under load. 2. Chest up: keeping the chest up holds the trunk upright and the back in a stable, neutral position, so the load goes through the legs rather than the lower back.",
+    "prompt": "Give two key technique points for a squat and explain why each matters.",
+    "type": "short"
+   }
+  ]
+ },
+ "pe-personal-exercise-fitness-s4": {
+  "keyTerms": [
+   {
+    "definition": "The estimated highest heart rate, found by subtracting age from 220 beats per minute.",
+    "term": "Maximum heart rate"
+   },
+   {
+    "definition": "The heart-rate band of about 60 to 80% of maximum heart rate, used for aerobic training.",
+    "term": "Aerobic training zone"
+   },
+   {
+    "definition": "The heart-rate band of about 80 to 90% of maximum heart rate.",
+    "term": "Anaerobic training zone"
+   },
+   {
+    "definition": "The lower limit of the aerobic zone, below which training gives little cardio-respiratory benefit.",
+    "term": "Aerobic threshold"
+   },
+   {
+    "definition": "The intensity above which lactic acid builds up faster than it can be removed.",
+    "term": "Anaerobic (lactate) threshold"
+   },
+   {
+    "definition": "The ratio of recovery time to work time in intervals, circuits or weight sets, such as 1:2.",
+    "term": "Work-recovery ratio"
+   },
+   {
+    "definition": "The performer's own score of how hard they are working.",
+    "term": "Rating of perceived exertion"
+   },
+   {
+    "definition": "A written record of each session, used to check progress against targets.",
+    "term": "Training log"
+   },
+   {
+    "definition": "Readiness, specificity, progression, overload, rest and recovery.",
+    "term": "Principles named by the specification"
+   },
+   {
+    "definition": "220 minus 17 is 203; the aerobic zone is about 122 to 162 beats per minute.",
+    "term": "Continuous running for a 17-year-old: zone"
+   },
+   {
+    "definition": "2 to 3 sets of 15 or more repetitions at a light load, 30 to 60 seconds' rest, adding repetitions and then load.",
+    "term": "Weight training for muscular endurance: starting plan"
+   },
+   {
+    "definition": "Heart-rate monitor or pulse checks; rating of perceived exertion; training log.",
+    "term": "Three monitoring methods"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The aspects to apply",
+    "points": [
+     "Readiness: the performer is physically and mentally ready, with a fitness base and technique in place.",
+     "Specificity: the training matches the demands of the activity or goal.",
+     "Progression: the training load rises gradually.",
+     "Overload: the body works harder than normal, adjusted through FITT (frequency, intensity, time and type).",
+     "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt.",
+     "Training zones: the heart-rate bands for aerobic and anaerobic work.",
+     "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold.",
+     "Work-recovery intervals: the ratio of recovery time to work time.",
+     "Warm-up and cool-down: the start and end of every session."
+    ]
+   },
+   {
+    "h": "Worked example: continuous running for a 17-year-old, principles applied (illustrative)",
+    "points": [
+     "Readiness: a fitness base and running technique are in place before the runs are lengthened; interval or heavy weight work is added only after this.",
+     "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power.",
+     "Progression: 5 minutes is added to the continuous runs each week.",
+     "Overload through FITT: time rises from 25 to 40 minutes per run, frequency is 3 runs a week, intensity stays in the aerobic zone, and type is running.",
+     "Rest and recovery: one rest day between runs."
+    ]
+   },
+   {
+    "h": "Worked example: continuous running, zones and thresholds (illustrative)",
+    "points": [
+     "Maximum heart rate is estimated as 220 minus age: 220 − 17 = 203 beats per minute.",
+     "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute.",
+     "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect.",
+     "Anaerobic zone: about 80% to 90% of maximum heart rate, starting at about 162 beats per minute for this runner.",
+     "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it."
+    ]
+   },
+   {
+    "h": "Worked example: weight training for muscular endurance (illustrative)",
+    "points": [
+     "Readiness: correct technique and warm-up sets with a light load come before any increase in load.",
+     "Specificity: the exercises chosen must use the muscles the activity uses.",
+     "Progression: repetitions are added first, rising towards 15 or more per set; a small load is added once all repetitions are completed with good form.",
+     "Overload through FITT: 2 to 3 sets of 15 or more repetitions, at a light load, using resistance exercises.",
+     "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles."
+    ]
+   },
+   {
+    "h": "Work-recovery intervals in intervals, circuits and weight sets (typical guidance)",
+    "points": [
+     "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period.",
+     "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts.",
+     "Circuits follow the same logic: 30 seconds of work to 30 seconds of rest is a 1:1 ratio.",
+     "Weight training rests: longer rests between sets for strength, shorter rests for endurance."
+    ]
+   },
+   {
+    "h": "Warm-up and cool-down for each method",
+    "points": [
+     "Running: an easy jog, then dynamic leg drills; the cool-down is a walk, then static stretches.",
+     "Weight training: light cardio, mobility work and warm-up sets with a light load; the cool-down stretches the muscles used.",
+     "Aerobics: low-impact moves that build up gradually; the cool-down slows the tempo, then stretches.",
+     "Spinning and indoor rowing: each session starts with a warm-up and ends with a cool-down around the intervals or steady piece."
+    ]
+   },
+   {
+    "h": "Monitoring the programme",
+    "points": [
+     "Heart-rate monitor or pulse checks confirm that heart rate sits in the target zone.",
+     "Rating of perceived exertion: the performer's own score of how hard they are working, used alongside heart rate.",
+     "Training log: a record of each session, so targets can be compared with results from earlier weeks.",
+     "A target met early means the load is increased; a target not reached means the programme is adjusted."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Method: interval training for a hurler. Readiness: before high-intensity intervals are added, the hurler needs a fitness base and correct technique, so the early weeks use continuous running and skill work, and the intervals start only once that base is in place. Specificity: the work periods copy the stop-start pattern of a match, so each hard effort is a sprint or a hard hurling movement followed by easy jogging. Progression: the load rises gradually, for example by adding an interval each week before shortening the recovery. Overload: FITT is applied by increasing the time spent at hard effort, starting from 6 × 3 minutes of hard work with 3 minutes of easy jogging between efforts, so the body works harder than normal. Rest and recovery: the recovery periods within the session, rest days between sessions and easy weeks let the body adapt, and too little rest leads to overtraining.",
+    "prompt": "Apply the principles of readiness, specificity, progression, overload and rest/recovery to a training method of your choice.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Maximum heart rate is 220 minus 17, which is 203 beats per minute. The aerobic zone is about 60% to 80% of 203, so about 122 to 162 beats per minute. In continuous training the runner checks their pulse during the run and keeps it inside this band: a reading below about 122 means the run is too easy and the pace should rise, while a reading above about 162 means the effort has moved into the anaerobic zone and the pace should drop. Continuous training is kept near but below the anaerobic (lactate) threshold, so the runner stays in the aerobic zone for the whole run.",
+    "prompt": "Calculate the aerobic training zone for a 17-year-old and explain how they could use it in continuous training.",
     "type": "short"
    }
   ]

@@ -206,7 +206,7 @@ test("the shipped biology notes file is up to date with content/biology", () => 
   );
 });
 
-// PE: chapters 1-8 have outline subsections in data.js; pe-pipeline-content.js rebuilds each
+// PE: chapters have outline subsections in data.js; pe-pipeline-content.js rebuilds each
 // chapter with a "<chapter>-core" review outcome first. Authored notes replace that outcome's
 // old notes and flashcards but keep its practice questions.
 function buildPe(args) {
@@ -233,7 +233,10 @@ test("PE authored chapters keep the review outcome's questions but drop its old 
   const authored = after.__courseData.chapters.filter(
     (c) => c.subject === "pe" && c.learningOutcomes.some((o) => o.authored)
   );
-  assert.equal(authored.length, 8);
+  const shells = before.__courseData.chapters.filter(
+    (c) => c.subject === "pe" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id))
+  );
+  assert.equal(authored.length, shells.length, "every PE chapter with subsections should have authored notes");
   authored.forEach((c) => {
     const [review, ...subsections] = c.learningOutcomes;
     assert.equal(review.id, `${c.id}-core`);
@@ -246,6 +249,5 @@ test("PE authored chapters keep the review outcome's questions but drop its old 
     });
   });
   const untouched = after.__courseData.chapters.filter((c) => c.subject === "pe" && !authored.includes(c));
-  assert.equal(untouched.length, 8);
   untouched.forEach((c) => assert.ok(c.learningOutcomes[0].keyTerms.length > 0, `${c.id} keeps its deck`));
 });
