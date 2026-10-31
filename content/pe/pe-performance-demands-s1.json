@@ -1,0 +1,58 @@
+{
+  "loId": "pe-performance-demands-s1",
+  "chapterId": "pe-performance-demands",
+  "subsection": "1. Physical fitness",
+  "syllabusRef": "2.1",
+  "notes": [
+    {
+      "h": "Health and fitness",
+      "points": [
+        "Health, as defined by the World Health Organization: a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "Health is broader than fitness: a person can be fit for their sport but unwell, or healthy but unfit.",
+        "Physical fitness: the ability to carry out daily tasks and physical activity with vigour and without undue fatigue, with energy left to meet emergencies.",
+        "The specification names four demands of performance: health-related fitness, performance-related fitness, psychological preparation, and diet and nutrition. Each has its own notes in this chapter."
+      ]
+    },
+    {
+      "h": "The two categories of fitness",
+      "points": [
+        "Health-related fitness (HRF): the components linked to good health and a lower risk of disease that everyone needs for daily life: cardio-respiratory endurance, muscular endurance, strength, flexibility and body composition.",
+        "Performance-related fitness (PRF), also called skill-related fitness: the components needed for successful performance in sport: agility, balance, co-ordination, power, speed and reaction time.",
+        "Classifying a component: co-ordination, agility and reaction time are PRF; muscular endurance, flexibility and strength are HRF."
+      ]
+    },
+    {
+      "h": "Differences between health-related and performance-related fitness",
+      "points": [
+        "Purpose: HRF supports health and the demands of daily living; PRF supports the demands of a particular sport or activity.",
+        "Who needs it: everyone needs HRF; PRF matters mainly to performers, and which components matter depends on the activity.",
+        "Trainability: HRF responds well to training for most people; PRF is more strongly influenced by genetics and is more specific to the activity.",
+        "How it is developed: HRF through general exercise such as running, swimming and resistance work; PRF mainly through sport-specific drills and practice."
+      ]
+    },
+    {
+      "h": "Is health-related fitness the same as performance-related fitness?",
+      "points": [
+        "The statement is inaccurate, because the two differ in purpose, in who needs them, in how trainable they are and in how they are developed.",
+        "They are linked, however: a performer needs both, and many sports demand a high level of an HRF component, such as cardio-respiratory endurance for a Gaelic football midfielder.",
+        "Good HRF also supports PRF: strength underpins power, and flexibility helps agility."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Health", "definition": "A state of complete physical, mental and social well-being and not merely the absence of disease or infirmity (World Health Organization)." },
+    { "term": "Physical fitness", "definition": "The ability to carry out daily tasks and physical activity with vigour and without undue fatigue." },
+    { "term": "Health-related fitness", "definition": "The fitness components linked to good health that everyone needs: cardio-respiratory endurance, muscular endurance, strength, flexibility and body composition." },
+    { "term": "Performance-related fitness", "definition": "The fitness components needed for sporting performance: agility, balance, co-ordination, power, speed and reaction time." }
+  ],
+  "factCards": [
+    { "term": "The five health-related fitness components", "definition": "Cardio-respiratory endurance, muscular endurance, strength, flexibility, body composition." },
+    { "term": "The six performance-related fitness components", "definition": "Agility, balance, co-ordination, power, speed, reaction time." },
+    { "term": "Four demands of performance named by the specification", "definition": "Health-related fitness, performance-related fitness, psychological preparation, diet and nutrition." },
+    { "term": "Two differences between HRF and PRF", "definition": "Any two of: purpose (health versus sport), who needs it (everyone versus performers), trainability (HRF more trainable, PRF more genetic), how it is developed (general exercise versus sport-specific drills)." }
+  ],
+  "questions": [
+    { "marks": 6, "prompt": "'Health-related fitness is the same as performance-related fitness.' Discuss the accuracy of this statement.", "model": "The statement is not accurate. Health-related fitness (cardio-respiratory endurance, muscular endurance, strength, flexibility, body composition) is needed by everyone for health and daily living, while performance-related fitness (agility, balance, co-ordination, power, speed, reaction time) is needed for success in sport. HRF responds well to training, whereas PRF is more influenced by genetics and specific to the activity. However, they overlap: a Gaelic football midfielder needs high cardio-respiratory endurance (HRF) as well as speed and agility (PRF), and strength underpins power." },
+    { "marks": 6, "prompt": "Name three components of physical fitness and state whether each is health-related or performance-related.", "model": "Flexibility: health-related. Agility: performance-related. Muscular endurance: health-related." }
+  ]
+}

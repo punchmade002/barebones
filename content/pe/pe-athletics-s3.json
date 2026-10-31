@@ -1,0 +1,121 @@
+{
+  "loId": "pe-athletics-s3",
+  "chapterId": "pe-athletics",
+  "subsection": "3. Throwing events",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Principles common to all throws",
+      "points": [
+        "Distance depends mainly on release speed, then on release angle and release height.",
+        "Summation of forces (kinetic chain): force is generated from the legs, passes through the hips and trunk, then to the shoulder, arm and hand in sequence, with each segment adding speed.",
+        "A long, straight throwing arm at release lengthens the lever, which increases the speed of release."
+      ]
+    },
+    {
+      "h": "Rules common to the circle throws",
+      "points": [
+        "The throw starts from a stationary position inside the circle.",
+        "The implement must land within the sector.",
+        "The thrower must not touch the top of the stop board or step on or outside the circle's edge.",
+        "The thrower leaves the circle from the back half, and only after the implement has landed.",
+        "A thrower who leaves the circle before the implement lands commits a foul."
+      ]
+    },
+    {
+      "h": "Shot-put",
+      "points": [
+        "Grip: the shot rests on the fingers at their base, not in the palm, and is tucked into the neck under the jaw.",
+        "Stance and preparation: the athlete stands at the back of the circle facing away from the throwing direction, with the elbow held high.",
+        "Movement into the throw: the athlete moves across the circle by a glide or a rotational movement, drives from the legs, and turns the hips.",
+        "Release and follow-through: the shot is pushed from the neck at about 40 degrees with a wrist flick; a reverse switches the feet so the athlete stays in the circle.",
+        "Key rules: the shot is pushed, not thrown; a throwing action from behind the shoulder is a foul.",
+        "Safety: no cage is used for the shot, so the sector must be checked clear before each put."
+      ]
+    },
+    {
+      "h": "Discus",
+      "points": [
+        "Grip: the fingertips are spread over the rim of the discus, with the palm facing down.",
+        "Stance and preparation: the athlete stands at the back of the circle and makes preliminary swings to build the turn.",
+        "Movement into the throw: the athlete makes a turn of one and a half rotations across the circle in the transverse plane about the longitudinal axis (see the note titled Analysing skill: the biomechanical perspective), with the arm long and straight, sweeping round at shoulder height.",
+        "Release and follow-through: the discus is released off the index finger, spinning clockwise for a right-hander, and a reverse keeps the athlete in the circle.",
+        "Key rules: the discus is thrown with its spin set up in the turn, and its flight is judged by where it lands in the sector.",
+        "Safety: discus is thrown from a cage, so the cage must be in place before the turns begin."
+      ]
+    },
+    {
+      "h": "Javelin",
+      "points": [
+        "Grip: held behind the cord, using a grip such as the Finnish or American grip.",
+        "Stance and preparation: the javelin is carried above the shoulder during the approach run.",
+        "Movement into the throw: over the last strides the javelin is withdrawn back with a straight arm, followed by cross-over (impulse) steps, then the front leg is planted.",
+        "Release and follow-through: the hips and then the shoulders rotate, the elbow leads over the shoulder, and the throw is made over a braced front leg at about 30-35 degrees along the line of the shaft.",
+        "Key rules: the javelin must land tip first in the sector.",
+        "Safety: the approach run passes ahead of the thrower, so the javelin is not thrown until the area in front is clear."
+      ]
+    },
+    {
+      "h": "Hammer",
+      "points": [
+        "Grip: both hands hold the handle of the hammer.",
+        "Stance and preparation: preliminary winds (swings) of the hammer are made around the head.",
+        "Movement into the throw: three or four accelerating turns are made on the heels and toes, in the transverse plane about the longitudinal axis, with long straight arms.",
+        "Release and follow-through: the hammer passes through a low point and a high point of its orbit, and is released over the left shoulder for a right-hander.",
+        "Key rules: the hammer is thrown from a cage, which must be fully in place before the throw.",
+        "Safety: the cage contains the turns and the release, so the thrower stays inside it until the hammer has left the hand."
+      ]
+    },
+    {
+      "h": "Overall efficiency and common faults",
+      "points": [
+        "Efficient throwing is a smooth rhythm, with balance in the circle and the kinetic chain sequenced from the legs to the hand.",
+        "A blocked or braced front side lets the force from the legs transfer into the throw.",
+        "Throwing with the arm only, without a leg drive, loses most of the available speed.",
+        "Opening the shoulders too early ends the rotation before release.",
+        "A low release angle sends the implement flat and short.",
+        "Falling out of the circle during the throw is a foul."
+      ]
+    },
+    {
+      "h": "Safety in throwing events",
+      "points": [
+        "Throw only on command, and retrieve only on command.",
+        "Carry implements back to the thrower; never throw them back.",
+        "Stay behind the thrower while a throw is being made.",
+        "Check the sector is clear before each throw."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Summation of forces", "definition": "The sequential transfer of force from the legs through the hips, trunk, shoulder and arm to the implement, with each segment adding speed." },
+    { "term": "Kinetic chain", "definition": "The linked sequence of body segments that transfers force from the ground up to the implement in a throw." },
+    { "term": "Sector", "definition": "The marked area into which a throw must land to count." },
+    { "term": "Stop board", "definition": "The board at the front of the circle that the thrower must not touch." },
+    { "term": "Glide", "definition": "A movement across the shot-put circle in which the thrower moves backwards and across, staying low." },
+    { "term": "Reverse", "definition": "A movement in which the thrower switches feet to turn back and stay inside the circle after a throw." },
+    { "term": "Cross-over steps", "definition": "The impulse steps of the javelin approach, in which the feet cross to build speed before the front leg is planted." },
+    { "term": "Withdrawal", "definition": "The backward movement of the javelin over the last strides, with a straight arm, before the throw." },
+    { "term": "Preliminary swings", "definition": "The swings used at the start of a discus or hammer throw to build momentum before the turns." },
+    { "term": "Transverse plane", "definition": "The horizontal plane in which discus and hammer turns occur, about the longitudinal axis." }
+  ],
+  "factCards": [
+    { "term": "Factors that determine distance in throwing", "definition": "Release speed first, then release angle, then release height." },
+    { "term": "Shot-put: the sequence of the throw", "definition": "Grip at the base of the fingers and shot tucked in the neck; stance at the back of the circle; glide or rotation; drive from the legs and hip turn; push from the neck at about 40 degrees; reverse to stay in the circle." },
+    { "term": "Discus: the sequence of the throw", "definition": "Fingertips over the rim; preliminary swings; turn of one and a half rotations; long straight arm sweeping at shoulder height; release off the index finger; reverse to stay in the circle." },
+    { "term": "Javelin: the sequence of the throw", "definition": "Grip behind the cord; approach carried above the shoulder; withdrawal with a straight arm; cross-over steps; plant front leg; hips then shoulders rotate; release at about 30-35 degrees." },
+    { "term": "Hammer: the sequence of the throw", "definition": "Two-handed grip; preliminary winds; three or four accelerating turns; low and high points of the orbit; release over the left shoulder for a right-hander; thrown from a cage." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Describe the grip, movement into the throw and release of one throwing event, and explain how the summation of forces increases release speed.",
+      "model": "Shot-put: the shot rests on the fingers at their base and is tucked into the neck under the jaw, with the elbow held high. The thrower stands at the back of the circle, moves across it by a glide or rotation, and drives from the legs with a hip turn. The shot is pushed from the neck at about 40 degrees with a wrist flick, and the thrower reverses feet to stay in the circle. Summation of forces: force generated from the legs passes through the hips and trunk to the shoulder, arm and hand in sequence, and each segment adds speed as it passes on the force. A braced front side stops the force being lost, and a long, straight throwing arm at release lengthens the lever, so the shot leaves the hand faster."
+    },
+    {
+      "marks": 6,
+      "prompt": "Outline three safety rules that apply in throwing events.",
+      "model": "First, athletes throw only on command and retrieve implements only on command, so nobody is in the sector when a throw is made. Second, implements are carried back to the thrower rather than thrown back, so nobody is struck returning them. Third, the sector is checked clear before each throw and nobody walks across it while throws are being made; discus and hammer are also thrown from cages, which must be in place before the throw."
+    }
+  ]
+}

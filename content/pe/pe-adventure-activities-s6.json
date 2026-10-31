@@ -1,0 +1,161 @@
+{
+  "loId": "pe-adventure-activities-s6",
+  "chapterId": "pe-adventure-activities",
+  "subsection": "6. Rowing and sculling",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Sculling and sweep rowing",
+      "points": [
+        "In sculling, each rower uses two oars, one in each hand.",
+        "In sweep rowing, each rower uses one oar, on one side of the boat."
+      ]
+    },
+    {
+      "h": "Boat and equipment",
+      "points": [
+        "The boat is called a shell.",
+        "Each rower sits on a seat that runs on a slide.",
+        "The feet push against a foot stretcher.",
+        "The rigger is the arm that projects from the side of the boat and carries the gate.",
+        "The gate is the swivel that holds the oar.",
+        "The blade is the flat end of the oar that enters the water, and the handle is the end held by the rower."
+      ]
+    },
+    {
+      "h": "Catch",
+      "points": [
+        "The catch is the start of the stroke, at the front of the slide.",
+        "The shins are near vertical and the arms are long.",
+        "The blade is placed quickly into the water."
+      ]
+    },
+    {
+      "h": "Drive",
+      "points": [
+        "The drive is the power phase of the stroke.",
+        "The legs push first, then the back swings, then the arms draw the handle to the body.",
+        "The blade stays buried in the water throughout the drive."
+      ]
+    },
+    {
+      "h": "Finish and extraction",
+      "points": [
+        "The handle is drawn to the lower ribs.",
+        "The blade is tapped down and out of the water cleanly."
+      ]
+    },
+    {
+      "h": "Recovery",
+      "points": [
+        "Hands away comes first: the arms extend.",
+        "The body then swings forward.",
+        "The slide comes forward slowly and under control.",
+        "The recovery is slow and controlled, in contrast to the fast drive."
+      ]
+    },
+    {
+      "h": "Drive and recovery sequence",
+      "points": [
+        "The drive sequence is legs, body, arms.",
+        "The recovery sequence is arms, body, legs.",
+        "The two sequences run in opposite orders, so they must not be reversed."
+      ]
+    },
+    {
+      "h": "Square blades and feathering",
+      "points": [
+        "A square blade stays vertical (square) throughout the stroke, including on the recovery.",
+        "Square blades are easier for beginners and are used in drills.",
+        "Feathering means turning the blade flat on the recovery to reduce air resistance."
+      ]
+    },
+    {
+      "h": "Stroke side and bow side",
+      "points": [
+        "The stroke side in sweep rowing is the side of the rower's oar on their right as they sit facing the stern.",
+        "Because rowers face the stern, the rower's right is the port side of the boat.",
+        "The bow side is the other side, which is the starboard side of the boat.",
+        "Rowers learn to row on both sides."
+      ]
+    },
+    {
+      "h": "Single stroke to hands away",
+      "points": [
+        "This is a drill in which the rower completes one stroke and stops at the hands-away position.",
+        "At hands away, the arms are extended and the body is still upright.",
+        "The drill checks balance and sequence before continuing."
+      ]
+    },
+    {
+      "h": "Paddling with square blades",
+      "points": [
+        "Paddling is light, controlled, continuous rowing at low pressure with square blades.",
+        "It practises timing and blade height."
+      ]
+    },
+    {
+      "h": "Crew timing and commands",
+      "points": [
+        "Blades enter and leave the water together.",
+        "The stroke sets the rhythm for the crew.",
+        "In a coxed boat, the cox steers and gives the commands."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Capsize and swim drills are done before going out.",
+        "The rower stays with the boat if it capsizes.",
+        "Weather and water conditions are checked before going out.",
+        "Lights and high-visibility clothing are worn in poor light.",
+        "Launches are supervised.",
+        "The rower knows the circulation pattern on the water, which is the traffic flow of boats."
+      ]
+    },
+    {
+      "h": "Demands",
+      "points": [
+        "The standard international rowing race distance is 2,000 m, and the aerobic system dominates over that distance.",
+        "Cardio-respiratory endurance and muscular endurance are needed.",
+        "Power is needed in the drive.",
+        "Flexibility is needed at the catch.",
+        "Co-ordination and timing within the crew are needed."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Sculling", "definition": "Rowing with two oars, one in each hand." },
+    { "term": "Sweep rowing", "definition": "Rowing with one oar on one side of the boat." },
+    { "term": "Catch", "definition": "The start of the stroke, when the blade is placed in the water at the front of the slide." },
+    { "term": "Drive", "definition": "The power phase of the stroke, in which the legs, back and arms push the boat forward." },
+    { "term": "Finish", "definition": "The end of the drive, when the handle is drawn to the lower ribs and the blade is taken out of the water." },
+    { "term": "Recovery", "definition": "The part of the stroke in which the arms, body and slide return to the catch position." },
+    { "term": "Feathering", "definition": "Turning the blade flat on the recovery to reduce air resistance." },
+    { "term": "Square blade", "definition": "A blade that stays vertical throughout the stroke, including the recovery." },
+    { "term": "Gate", "definition": "The swivel that holds the oar." },
+    { "term": "Rigger", "definition": "The arm that projects from the side of the boat and carries the gate." },
+    { "term": "Stroke side", "definition": "The port side of the boat, where the rower's oar is on their right as they face the stern." },
+    { "term": "Hands away", "definition": "The position at the start of the recovery, with the arms extended." },
+    { "term": "Slide", "definition": "The seat that runs backwards and forwards on rails." }
+  ],
+  "factCards": [
+    { "term": "Drive sequence in order", "definition": "Legs, body, arms." },
+    { "term": "Recovery sequence in order", "definition": "Arms, body, legs." },
+    { "term": "Phases of the rowing stroke in order", "definition": "Catch, drive, finish (extraction), recovery." },
+    { "term": "Stroke side in sweep rowing", "definition": "The port side: the oar on the rower's right as they face the stern." },
+    { "term": "Single stroke to hands away: purpose", "definition": "A drill to check balance and sequence before continuing." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe the phases of the rowing stroke, giving two key technique points for each phase.",
+      "model": "The catch is the start of the stroke, at the front of the slide. The shins are near vertical, the arms are long, and the blade is placed quickly into the water. The drive is the power phase: the legs push first, then the back swings, then the arms draw the handle to the body, and the blade stays buried in the water. The finish, or extraction, is the end of the drive: the handle is drawn to the lower ribs, and the blade is tapped down and out of the water cleanly. The recovery returns the rower to the catch: hands away comes first, with the arms extended, then the body swings forward, and the slide comes forward slowly and under control."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain the difference between sculling and sweep rowing.",
+      "model": "In sculling, each rower uses two oars, one in each hand, so each rower propels the boat with both blades. In sweep rowing, each rower uses one oar, on one side of the boat, so each rower works only one side: either the stroke side, which is the port side, or the bow side, which is the starboard side."
+    }
+  ]
+}

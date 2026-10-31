@@ -1,0 +1,162 @@
+{
+  "loId": "pe-artistic-aesthetic-movement-s3",
+  "chapterId": "pe-artistic-aesthetic-movement",
+  "subsection": "3. Rhythmic gymnastics",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "What rhythmic gymnastics is",
+      "points": [
+        "Rhythmic gymnastics is a floor discipline that combines dance-like body movement with handling a piece of apparatus.",
+        "Routines are set to music.",
+        "The apparatus used is a ball, hoop, ribbon, rope or club."
+      ]
+    },
+    {
+      "h": "Balances and pivots",
+      "points": [
+        "Balance: the performer stands on one foot on relevé, meaning on the toes, with the free leg held in a clear shape.",
+        "The balance is held still.",
+        "Pivot: the performer turns on one foot, on the ball of the foot, with a fixed body shape held through the turn."
+      ]
+    },
+    {
+      "h": "Rolls and splits",
+      "points": [
+        "Body rolls: controlled rolls of the body on the floor.",
+        "Front splits and side splits are performed on the floor or in the air."
+      ]
+    },
+    {
+      "h": "Hops, leaps and skips",
+      "points": [
+        "These are travelling movements with a clear shape held in the air.",
+        "A split leap, with the legs at maximum range, is an example.",
+        "Each one finishes with a soft landing."
+      ]
+    },
+    {
+      "h": "Body waves, bends, circles, swings and turns",
+      "points": [
+        "These are flowing movements through the whole body.",
+        "They show flexibility and fluency."
+      ]
+    },
+    {
+      "h": "Ball",
+      "points": [
+        "Rolls of the ball along the arms and along the floor.",
+        "Bounces of the ball on the floor.",
+        "Throws and catches with one hand, without gripping the ball."
+      ]
+    },
+    {
+      "h": "Hoop",
+      "points": [
+        "Rolls of the hoop along the floor.",
+        "Rotations of the hoop around the hand or body.",
+        "Throws and catches of the hoop, and passing through the hoop."
+      ]
+    },
+    {
+      "h": "Ribbon",
+      "points": [
+        "Continuous patterns such as spirals, snakes and circles.",
+        "The ribbon must stay in motion throughout.",
+        "Stopping or knotting the ribbon is a fault."
+      ]
+    },
+    {
+      "h": "Rope",
+      "points": [
+        "Skips and jumps through the rope.",
+        "Swings and circles of the rope.",
+        "Throws and catches of the rope."
+      ]
+    },
+    {
+      "h": "Clubs",
+      "points": [
+        "Mills: small circles made with the clubs.",
+        "Swings with the clubs.",
+        "Tapping with the clubs.",
+        "Throws and catches of one or both clubs."
+      ]
+    },
+    {
+      "h": "Working with music",
+      "points": [
+        "Movements are matched to the tempo of the music.",
+        "Movements are matched to the phrasing and accents of the music.",
+        "The routine reflects the mood of the music."
+      ]
+    },
+    {
+      "h": "Composing the routine",
+      "points": [
+        "The routine has a start position and an end position.",
+        "It uses a variety of body groups and apparatus elements.",
+        "Space and levels are used throughout.",
+        "Links between elements flow smoothly.",
+        "Body work and apparatus work are coordinated with each other."
+      ]
+    },
+    {
+      "h": "Judging",
+      "points": [
+        "Difficulty: body and apparatus elements are scored for difficulty.",
+        "Execution: deductions are taken for loss of balance, dropped apparatus and poor technique.",
+        "Artistry: music, expression and composition are judged."
+      ]
+    },
+    {
+      "h": "Demands",
+      "points": [
+        "Flexibility and balance are both required.",
+        "Hand-eye co-ordination is needed to handle the apparatus.",
+        "Muscular endurance is needed to sustain the routine.",
+        "Rhythm and timing match the movements to the music.",
+        "Concentration is needed throughout the routine."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Warm-up includes flexibility preparation.",
+        "Performers need adequate space between them.",
+        "A suitable floor surface is used.",
+        "The condition of the apparatus is checked before use."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Rhythmic gymnastics", "definition": "A floor discipline combining dance-like body movement with handling a piece of apparatus, performed to music." },
+    { "term": "Relevé", "definition": "Rising onto the toes or the ball of the foot with the heel lifted." },
+    { "term": "Pivot", "definition": "A turn on one foot on the ball of the foot, with a fixed body shape." },
+    { "term": "Split leap", "definition": "A leap in which the legs are held at maximum range in a split shape in the air." },
+    { "term": "Mill", "definition": "A small circle made with a club." },
+    { "term": "Body wave", "definition": "A flowing movement that travels through the whole body." },
+    { "term": "Apparatus", "definition": "A hand-held object used in a routine: a ball, hoop, ribbon, rope or club." },
+    { "term": "Phrasing", "definition": "The way music is grouped into shaped sections called phrases." },
+    { "term": "Accent", "definition": "A beat or note in the music that is emphasised." }
+  ],
+  "factCards": [
+    { "term": "Five pieces of apparatus", "definition": "Ball, hoop, ribbon, rope and club." },
+    { "term": "Body movement groups", "definition": "Balances, pivots, rolls, splits, hops, leaps and skips, and body waves, bends, circles, swings and turns." },
+    { "term": "Ribbon: what it must never do", "definition": "Stop or knot. It stays in continuous motion through patterns such as spirals, snakes and circles." },
+    { "term": "Club skills", "definition": "Mills, swings, tapping, and throws and catches of one or both clubs." },
+    { "term": "Judging components", "definition": "Difficulty of body and apparatus elements; execution, reduced for loss of balance, dropped apparatus and poor technique; artistry through music, expression and composition." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe how a rhythmic gymnast combines body movement and apparatus handling in a routine set to music.",
+      "model": "A rhythmic gymnast performs a routine to music, combining body movement with apparatus handling throughout. The body movement groups are balances on relevé, pivots, rolls, splits, hops, leaps and skips, and body waves, bends, circles, swings and turns. These are linked with apparatus skills, for example a split leap performed while a ball is rolled along the arm, or a hoop rotated around the hand during a balance. The routine starts and ends in set positions, the links between elements flow, and the body work and apparatus work are coordinated with each other. Movements are matched to the tempo, phrasing and accents of the music, and the routine reflects its mood. Judging covers the difficulty of the body and apparatus elements, deductions for loss of balance, dropped apparatus and poor technique, and artistry through music, expression and composition."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name three pieces of rhythmic gymnastics apparatus and one skill performed with each.",
+      "model": "Ball: a throw and catch with one hand, without gripping the ball. Hoop: a rotation around the hand or body. Ribbon: a continuous spiral, kept in motion without stopping or knotting."
+    }
+  ]
+}
