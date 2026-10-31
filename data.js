@@ -252,6 +252,57 @@ const COURSE_DATA = {
         { id: "pe-technology-media-sport-s1", code: "PE8.1", syllabusRef: "8.1", title: "The impact of technology on sport and physical activity", notes: [], keyTerms: [], questions: [] },
         { id: "pe-technology-media-sport-s2", code: "PE8.2", syllabusRef: "8.2", title: "Media in sport", notes: [], keyTerms: [], questions: [] }
     ] },
+    { id: "pe-gender-physical-activity", number: 9, subject: "pe", title: "Gender and Physical Activity", examQuestions: [], learningOutcomes: [
+        { id: "pe-gender-physical-activity-s1", code: "PE9.1", syllabusRef: "9.1", title: "Gender, sport and physical activity", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-gender-physical-activity-s2", code: "PE9.2", syllabusRef: "9.2", title: "Gender, media and body image", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-gender-physical-activity-s3", code: "PE9.3", syllabusRef: "9.3", title: "Gender socialisation and its impact on participation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-business-enterprise-sport", number: 10, subject: "pe", title: "Business and Enterprise in Physical Activity and Sport", examQuestions: [], learningOutcomes: [
+        { id: "pe-business-enterprise-sport-s1", code: "PE10.1", syllabusRef: "10.1", title: "Sponsorship and advertising", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s2", code: "PE10.2", syllabusRef: "10.2", title: "The business dimension", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s3", code: "PE10.3", syllabusRef: "10.3", title: "Mass participation in sport", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s4", code: "PE10.4", syllabusRef: "10.4", title: "Tourism and sport", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-adventure-activities", number: 11, subject: "pe", title: "Adventure Activities", examQuestions: [], learningOutcomes: [
+        { id: "pe-adventure-activities-s1", code: "PE11.1", syllabusRef: "S6", title: "The adventure activities area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-adventure-activities-s2", code: "PE11.2", syllabusRef: "S6", title: "Orienteering", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-adventure-activities-s3", code: "PE11.3", syllabusRef: "S6", title: "Kayaking", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-adventure-activities-s4", code: "PE11.4", syllabusRef: "S6", title: "Rock-climbing", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-adventure-activities-s5", code: "PE11.5", syllabusRef: "S6", title: "Sailing", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-adventure-activities-s6", code: "PE11.6", syllabusRef: "S6", title: "Rowing and sculling", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-aquatics", number: 12, subject: "pe", title: "Aquatics", examQuestions: [], learningOutcomes: [
+        { id: "pe-aquatics-s1", code: "PE12.1", syllabusRef: "S6", title: "The aquatics area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s2", code: "PE12.2", syllabusRef: "S6", title: "Lifesaving", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s3", code: "PE12.3", syllabusRef: "S6", title: "Survival swimming", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s4", code: "PE12.4", syllabusRef: "S6", title: "Two swimming strokes", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s5", code: "PE12.5", syllabusRef: "S6", title: "Water polo", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s6", code: "PE12.6", syllabusRef: "S6", title: "Synchronised swimming", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-artistic-aesthetic-movement", number: 13, subject: "pe", title: "Artistic and Aesthetic Movement", examQuestions: [], learningOutcomes: [
+        { id: "pe-artistic-aesthetic-movement-s1", code: "PE13.1", syllabusRef: "S6", title: "The artistic and aesthetic area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s2", code: "PE13.2", syllabusRef: "S6", title: "Artistic gymnastics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s3", code: "PE13.3", syllabusRef: "S6", title: "Rhythmic gymnastics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s4", code: "PE13.4", syllabusRef: "S6", title: "Dance", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-athletics", number: 14, subject: "pe", title: "Athletics", examQuestions: [], learningOutcomes: [
+        { id: "pe-athletics-s1", code: "PE14.1", syllabusRef: "S6", title: "The athletics area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s2", code: "PE14.2", syllabusRef: "S6", title: "Running events", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s3", code: "PE14.3", syllabusRef: "S6", title: "Throwing events", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s4", code: "PE14.4", syllabusRef: "S6", title: "Jumping events", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-games", number: 15, subject: "pe", title: "Games", examQuestions: [], learningOutcomes: [
+        { id: "pe-games-s1", code: "PE15.1", syllabusRef: "S6", title: "The games area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s2", code: "PE15.2", syllabusRef: "S6", title: "Invasion games", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s3", code: "PE15.3", syllabusRef: "S6", title: "Net/wall games", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s4", code: "PE15.4", syllabusRef: "S6", title: "Striking/fielding games", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-personal-exercise-fitness", number: 16, subject: "pe", title: "Personal Exercise and Fitness Activities", examQuestions: [], learningOutcomes: [
+        { id: "pe-personal-exercise-fitness-s1", code: "PE16.1", syllabusRef: "S6", title: "The personal exercise and fitness area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s2", code: "PE16.2", syllabusRef: "S6", title: "Aerobic training methods", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s3", code: "PE16.3", syllabusRef: "S6", title: "Conditioning and resistance", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s4", code: "PE16.4", syllabusRef: "S6", title: "Applying training principles to each method", notes: [], keyTerms: [], questions: [] }
+    ] },
     {
       id: "bio1", number: 1, subject: "biology", title: "Scientific Knowledge",
       examQuestions: [],
