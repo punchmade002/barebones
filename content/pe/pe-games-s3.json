@@ -1,0 +1,128 @@
+{
+  "loId": "pe-games-s3",
+  "chapterId": "pe-games",
+  "subsection": "3. Net/wall games",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Badminton",
+      "points": [
+        "Grips: forehand and backhand grips.",
+        "Ready position: a balanced stance, with the player returning to base after each shot.",
+        "In badminton the serve is hit below the waist and diagonally into the opposite service box.",
+        "High serve: hit deep to the back of the court.",
+        "Low serve: hit just over the net, to the front service line.",
+        "Net shots: soft, tumbling shots played from near the net, which keep the shuttle low over the net so the opponent cannot attack it.",
+        "Clear: hit high and deep to the back of the court to gain time.",
+        "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward.",
+        "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended.",
+        "Tactics: move the opponent around the four corners of the court and attack the weaker side."
+      ]
+    },
+    {
+      "h": "Tennis",
+      "points": [
+        "Grips: continental grip for the serve and volley; eastern or semi-western grip for groundstrokes.",
+        "Serve: ball toss slightly in front, trophy position, contact at full stretch, with pronation.",
+        "Serve variations: flat, slice and kick.",
+        "Drives: forehand and backhand, with early preparation, a side-on stance, a low-to-high swing and a follow-through.",
+        "Volley: a short punch with a firm wrist, racket head up, moving forward.",
+        "Lob: hit high over a net player.",
+        "Smash: side-on, pointing at the ball and hit at full extension.",
+        "Tactics: serve and volley, baseline play, and attacking the weaker side.",
+        "Scoring: 15, 30, 40, game, with deuce and advantage."
+      ]
+    },
+    {
+      "h": "Table tennis",
+      "points": [
+        "Grips: shake-hand or penhold.",
+        "Legal serve: the ball is tossed at least 16 cm up from an open palm and struck behind the end line.",
+        "Drives: forehand and backhand, with topspin, close to the table.",
+        "Push: backspin, soft, keeping the ball low.",
+        "Block: racket angled to absorb a fast attack close to the table.",
+        "Smash: a high ball hit flat and hard.",
+        "Tactics: vary spin and placement.",
+        "Scoring: games to 11 points, won by two clear points."
+      ]
+    },
+    {
+      "h": "Volleyball",
+      "points": [
+        "Underarm serve: used by beginners.",
+        "Overarm serve: the floating serve has no spin and moves unpredictably.",
+        "Dig (forearm pass): forearms together to form a platform, with the legs bent.",
+        "Volleyball forearm pass power comes from the legs, not swinging the arms.",
+        "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended.",
+        "Spike: approach, a two-foot jump, high contact and a wrist snap.",
+        "Block: jump with the hands above the net and penetrate forward to stop the spike.",
+        "Tactics: a dig, set and spike sequence, using the three touches.",
+        "Rules: a maximum of three touches per side.",
+        "Rules: the same player may not touch the ball twice in a row, except after a block.",
+        "Scoring: rally scoring."
+      ]
+    },
+    {
+      "h": "Squash",
+      "points": [
+        "Ready position: on the T.",
+        "Serve: one foot in the service box; the ball hits the front wall above the service line and lands in the opposite back quarter.",
+        "Straight drive: along the side wall, hit to length, to the back of the court.",
+        "Volley: cut the ball off early, before it bounces.",
+        "Boast: hit onto a side wall first, so the ball travels to the front wall.",
+        "Lob: hit high to the back of the court.",
+        "Tactics: dominate the T, hit to length, and move the opponent.",
+        "Rules: let and stroke rules for interference."
+      ]
+    },
+    {
+      "h": "Handball (Gaelic handball)",
+      "points": [
+        "Underarm stroke: low, swinging upwards, side-on.",
+        "Overhand stroke: struck from above the shoulder, for power and kill shots.",
+        "Back wall shot: played after the ball rebounds off the back wall.",
+        "Straight hit: struck from the short line.",
+        "Fly shot: struck before the ball bounces.",
+        "Side-arm stroke: used only on the 40 x 20 court.",
+        "Serve: the ball is bounced and struck so that it lands beyond the short line.",
+        "Courts: 60 x 30 feet and 40 x 20 feet.",
+        "Tactics: use both hands, play kill shots low on the front wall, and move the opponent."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Clear", "definition": "A high, deep shot in badminton, hit to the back of the court to gain time." },
+    { "term": "Drop shot", "definition": "A badminton shot disguised as a clear that lands just over the net." },
+    { "term": "Smash", "definition": "A steep, powerful attacking shot hit from a high contact point." },
+    { "term": "Lob", "definition": "A high shot hit over an opponent who is standing at the net." },
+    { "term": "Volley", "definition": "A shot played before the ball bounces." },
+    { "term": "Boast", "definition": "A squash shot hit onto a side wall first, so that it travels to the front wall." },
+    { "term": "Let", "definition": "A squash replay of a rally after interference between players." },
+    { "term": "Dig", "definition": "A volleyball forearm pass, made low, that keeps the ball in play." },
+    { "term": "Set", "definition": "A volleyball touch with the hands above the forehead that places the ball for a team-mate to spike." },
+    { "term": "Blocking (volleyball)", "definition": "A jump at the net with the hands above it, to stop the opponent's attack." },
+    { "term": "Push", "definition": "A soft backspin shot in table tennis that keeps the ball low over the table." },
+    { "term": "Topspin", "definition": "Forward spin that makes the ball dip quickly after clearing the net." },
+    { "term": "Fly shot", "definition": "A Gaelic handball shot struck before the ball bounces." }
+  ],
+  "factCards": [
+    { "term": "Badminton: serve direction and height", "definition": "The serve is hit below the waist, diagonally into the opposite service box." },
+    { "term": "Table tennis: legal serve toss", "definition": "The ball is tossed at least 16 cm up from an open palm." },
+    { "term": "Volleyball: touch limits", "definition": "A maximum of three touches per side; the same player may not touch the ball twice in a row except after a block." },
+    { "term": "Tennis: scoring sequence", "definition": "15, 30, 40, game, with deuce and advantage." },
+    { "term": "Gaelic handball: court sizes", "definition": "60 x 30 feet and 40 x 20 feet." },
+    { "term": "Volleyball: source of forearm pass power", "definition": "The legs, not swinging the arms." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe two shots from a net/wall game of your choice, giving key technique points and the tactical purpose of each.",
+      "model": "Activity: badminton. Clear: a high, deep shot to the back of the court. The player hits it high and deep so the shuttle comes down behind the opponent. Tactical purpose: it gains time, so the player can recover to the base position, and it pushes the opponent to the back of the court. Drop shot: disguised as a clear, so the preparation looks the same until contact, and the shuttle lands just over the net. Tactical purpose: it draws the opponent forward to the net, leaving the space behind them open for a later shot."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe the forearm pass (dig) in volleyball.",
+      "model": "The dig, or forearm pass, is played with the forearms together to form a platform, with the legs bent. The player moves under the ball early so that it meets the forearms, and the contact is made on the forearms so the ball rebounds upwards. Power comes from the legs: the player pushes up with the legs to send the ball towards the target, not by swinging the arms. The pass keeps the ball in play so a team-mate can set it for a spike."
+    }
+  ]
+}
