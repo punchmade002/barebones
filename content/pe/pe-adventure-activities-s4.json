@@ -1,0 +1,216 @@
+{
+  "loId": "pe-adventure-activities-s4",
+  "chapterId": "pe-adventure-activities",
+  "subsection": "4. Rock-climbing",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Equipment",
+      "points": [
+        "Harness: the body attachment the climber wears, to which the rope is tied.",
+        "Helmet: protects the head from falling rock and from falls.",
+        "Climbing shoes: fitted shoes that give grip on small holds.",
+        "Rope: joins the climber to the belayer.",
+        "Belay device: a friction device through which the belayer controls the rope.",
+        "Locking karabiners: karabiners with a locking gate that prevents them opening accidentally.",
+        "Slings and anchors: slings connect the rope to fixed anchors on the rock or wall.",
+        "Chalk: keeps the hands dry to improve grip."
+      ]
+    },
+    {
+      "h": "Pre-climb safety checks (buddy check)",
+      "points": [
+        "The harness is correctly fitted and buckled.",
+        "The knot is tied and dressed.",
+        "The belay device and locking karabiner are correctly loaded and locked.",
+        "The helmet is on."
+      ]
+    },
+    {
+      "h": "Knots",
+      "points": [
+        "Figure-of-eight follow-through: ties the rope to the harness and is finished with a stopper knot.",
+        "The partner checks the figure-of-eight before the climb.",
+        "Clove hitch: attaches the rope to an anchor.",
+        "Overhand on the bight: the other basic knot listed for this activity."
+      ]
+    },
+    {
+      "h": "Top rope and bottom rope",
+      "points": [
+        "Top rope: the rope runs from the climber up through an anchor at the top and down to the belayer, so a fall is short.",
+        "Bottom rope, as the specification calls it: the belay and anchor are at the bottom of the route.",
+        "Climbing is single pitch, outdoors or on an indoor climbing wall."
+      ]
+    },
+    {
+      "h": "Single and multiple anchors",
+      "points": [
+        "A single anchor is one fixed point of attachment for the rope.",
+        "Multiple anchors share the load, so the failure of one is backed up by the others."
+      ]
+    },
+    {
+      "h": "Belaying",
+      "points": [
+        "The belayer manages the rope through the belay device so that the climber is protected.",
+        "The brake hand never leaves the rope.",
+        "Take in slack as the climber rises.",
+        "Lock off to hold a fall.",
+        "Lower the climber smoothly."
+      ]
+    },
+    {
+      "h": "Rope management",
+      "points": [
+        "Flake the rope, laying it out in loose loops so that it runs freely.",
+        "Keep the rope clear of feet and tangles."
+      ]
+    },
+    {
+      "h": "Climbing calls",
+      "points": [
+        "Calls are short, clear and acknowledged.",
+        "1. 'Safe': the climber is secure.",
+        "2. 'Belay on?' and 'On belay': the belayer is ready.",
+        "3. 'Climbing' or 'Climb on': the climber is starting to climb.",
+        "4. 'Take in': slack is removed.",
+        "5. 'Slack': rope is given.",
+        "6. 'Take': the belayer holds the climber's weight.",
+        "7. 'Lower' or 'Lowering': the climber is lowered.",
+        "8. 'Rope below!': a warning to anyone below."
+      ]
+    },
+    {
+      "h": "Three-point and two-point contact",
+      "points": [
+        "Three-point contact: two hands and a foot, or two feet and a hand, in contact at all times while one limb moves.",
+        "Two-point contact is used correctly for dynamic moves."
+      ]
+    },
+    {
+      "h": "Footwork",
+      "points": [
+        "Weight is kept over the feet.",
+        "The edge or toe of the shoe is used precisely.",
+        "Arms are kept straight to save energy.",
+        "The hips are kept close to the wall."
+      ]
+    },
+    {
+      "h": "Jams",
+      "points": [
+        "A jam is a hand, finger or foot wedged into a crack to make a hold.",
+        "The specification names hand jams, finger jams and foot jams."
+      ]
+    },
+    {
+      "h": "Lay back",
+      "points": [
+        "Hands pull on a vertical edge while the feet push against the wall in the opposite direction."
+      ]
+    },
+    {
+      "h": "Undercling",
+      "points": [
+        "The climber pulls up on the underside of a hold while the feet push.",
+        "The body is kept close to the rock."
+      ]
+    },
+    {
+      "h": "Bridging",
+      "points": [
+        "The legs are spread across two opposite walls, as in a corner.",
+        "The feet push out to rest or to move up."
+      ]
+    },
+    {
+      "h": "Overhang",
+      "points": [
+        "Keep the arms straight, the feet high and the hips close to the wall.",
+        "Move quickly between rests."
+      ]
+    },
+    {
+      "h": "Mantle shelf",
+      "points": [
+        "Push down on the ledge with the hands, pressing the body up as when getting out of a swimming pool.",
+        "Then bring one foot up onto the shelf."
+      ]
+    },
+    {
+      "h": "Traversing",
+      "points": [
+        "Traversing means moving sideways using hands and feet.",
+        "It is used for warm-up and bouldering.",
+        "Keep three points of contact and the body balanced over the feet."
+      ]
+    },
+    {
+      "h": "Abseiling",
+      "points": [
+        "Abseiling descends a fixed rope using a friction device.",
+        "The feet are flat and wide on the rock.",
+        "The body leans back, roughly perpendicular to the rock.",
+        "The control hand is on the rope below the device.",
+        "Lock off part-way down to free both hands to collect equipment.",
+        "A safety backup, such as a prusik or a separate belay, is used."
+      ]
+    },
+    {
+      "h": "Safety and conventions",
+      "points": [
+        "Qualified supervision is required.",
+        "Anchors are checked before use.",
+        "Nobody stands directly below a climber.",
+        "Helmets are worn outdoors.",
+        "Weather and rock conditions are checked.",
+        "The crag and its access rules are respected."
+      ]
+    },
+    {
+      "h": "Demands",
+      "points": [
+        "Muscular endurance and strength of the fingers, forearms, shoulders and core.",
+        "Flexibility and balance.",
+        "Concentration and the management of fear and anxiety.",
+        "Trust and communication between climber and belayer."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Belay", "definition": "The protection the belayer gives the climber through the rope and belay device." },
+    { "term": "Belay device", "definition": "A friction device through which the belayer controls the rope." },
+    { "term": "Top rope", "definition": "A rope that runs from the climber up through an anchor at the top and down to the belayer, so that a fall is short." },
+    { "term": "Anchor", "definition": "A fixed point of attachment on the rock or wall." },
+    { "term": "Figure-of-eight follow-through", "definition": "The knot that ties the climbing rope to the harness, finished with a stopper knot." },
+    { "term": "Clove hitch", "definition": "A knot that attaches the rope to an anchor." },
+    { "term": "Three-point contact", "definition": "Two hands and a foot, or two feet and a hand, kept on the rock while one limb moves." },
+    { "term": "Lay back", "definition": "Pulling on a vertical edge with the hands while pushing the feet against the wall in the opposite direction." },
+    { "term": "Undercling", "definition": "Pulling up on the underside of a hold while the feet push." },
+    { "term": "Bridging", "definition": "Spreading the legs across two opposite walls and pushing out with the feet." },
+    { "term": "Mantle shelf", "definition": "A ledge that is pressed down on with the hands to bring the body up onto it." },
+    { "term": "Traversing", "definition": "Moving sideways across the rock using hands and feet." },
+    { "term": "Lock off", "definition": "Holding the body's weight on the rope with the brake hand, so that the other hand is free." },
+    { "term": "Prusik", "definition": "A friction knot used as a backup on a rope during an abseil." }
+  ],
+  "factCards": [
+    { "term": "Climbing calls in order", "definition": "'Safe'; 'Belay on?' and 'On belay'; 'Climbing' or 'Climb on'; 'Take in'; 'Slack'; 'Take'; 'Lower' or 'Lowering'; 'Rope below!' as a warning." },
+    { "term": "Buddy check: four items", "definition": "Harness fitted and buckled; knot tied and dressed; belay device and locking karabiner loaded and locked; helmet on." },
+    { "term": "Abseiling: how to free both hands", "definition": "Lock off part-way down, then collect equipment with both hands free." },
+    { "term": "Three-point contact: which limbs", "definition": "Two hands and a foot, or two feet and a hand." },
+    { "term": "Figure-of-eight follow-through: what finishes it", "definition": "A stopper knot, checked by the partner." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe the safety checks and communication a climber and belayer should use before and during a top-rope climb.",
+      "model": "Before the climb, the partners complete a buddy check. The harness is correctly fitted and buckled, the figure-of-eight follow-through is tied and dressed with a stopper knot and checked by the partner, the belay device and locking karabiner are correctly loaded and locked, and the helmet is on. During the climb, the climber calls 'Safe' when secure, and 'Belay on?', to which the belayer answers 'On belay' once ready. The climber then calls 'Climbing' or 'Climb on' to start. The climber calls 'Take in' to have slack removed, 'Slack' to be given rope, and 'Take' to be held on the rope. 'Lower' or 'Lowering' is called when the climber comes down, and 'Rope below!' warns anyone underneath. The calls are short, clear and acknowledged, and the belayer's brake hand never leaves the rope."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain two climbing techniques that help a climber conserve energy.",
+      "model": "Keeping the arms straight is one technique. The weight is carried by the skeleton rather than sustained by muscle effort, so the arms tire more slowly. The second is keeping the hips close to the wall, together with the weight kept over the feet. This keeps the body's centre of gravity close to the rock, so less force is needed to hold the body in place."
+    }
+  ]
+}

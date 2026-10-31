@@ -1,0 +1,173 @@
+{
+  "loId": "pe-adventure-activities-s5",
+  "chapterId": "pe-adventure-activities",
+  "subsection": "5. Sailing",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Boat parts and terms",
+      "points": [
+        "The main parts of a dinghy are the hull, the bow (front), the stern (back), the mast and the boom.",
+        "The sails are the mainsail, carried on the mast, and the jib at the front of the boat.",
+        "The rudder is moved by the tiller to steer the boat.",
+        "The centreboard or daggerboard is lowered from the hull to resist sideways drift.",
+        "Sheets are the ropes that control the sails.",
+        "Windward is the side of the boat the wind blows from; leeward is the side away from the wind.",
+        "Port is the left side of the boat facing the bow; starboard is the right side.",
+        "The helm steers the boat, and the crew helps to trim the sails and balance the boat."
+      ]
+    },
+    {
+      "h": "Points of sailing",
+      "points": [
+        "Close-hauled: sailing as close to the wind as possible.",
+        "Close reach: sailing between close-hauled and beam reach.",
+        "Beam reach: the wind is across the boat.",
+        "Broad reach: sailing with the wind from behind, but not directly behind.",
+        "Run: sailing with the wind from directly behind."
+      ]
+    },
+    {
+      "h": "The no-go zone",
+      "points": [
+        "The no-go zone is about 45 degrees either side of the wind direction.",
+        "A sail cannot drive the boat through the no-go zone."
+      ]
+    },
+    {
+      "h": "The five essentials",
+      "points": [
+        "Sail trim: setting the sails for the wind.",
+        "Boat balance: keeping the boat level from side to side.",
+        "Boat trim: balancing the boat fore and aft, from bow to stern.",
+        "Centreboard position: raised or lowered to control sideways drift.",
+        "Course made good: the actual progress made towards the destination, taking the wind's effect into account."
+      ]
+    },
+    {
+      "h": "Leaving and returning on a windward shore",
+      "points": [
+        "A windward shore has wind blowing off the shore.",
+        "Leaving is easy, because the wind blows the boat away from the shore.",
+        "Returning means sailing upwind, so the boat approaches close-hauled.",
+        "The sails are let out to stop the boat."
+      ]
+    },
+    {
+      "h": "Leaving and returning on a leeward shore",
+      "points": [
+        "A leeward shore has wind blowing onto the shore.",
+        "It is harder and more dangerous than a windward shore.",
+        "Leaving requires pushing off and sailing close-hauled to get away from the shore.",
+        "Returning means the boat is blown in fast, so the mainsail is lowered or depowered early.",
+        "The boat then approaches slowly under jib."
+      ]
+    },
+    {
+      "h": "Tacking",
+      "points": [
+        "Tacking, or going about, turns the bow through the wind to change direction when sailing upwind.",
+        "1. Call 'Ready about'.",
+        "2. Call 'Lee-oh'.",
+        "3. Push the tiller away.",
+        "4. Cross the boat under the boom.",
+        "5. Change hands.",
+        "6. Sheet in on the new side."
+      ]
+    },
+    {
+      "h": "Gybing",
+      "points": [
+        "Gybing turns the stern through the wind when sailing downwind, so that the boom swings across the boat.",
+        "1. Call 'Stand by to gybe'.",
+        "2. Call 'Gybe-oh'.",
+        "3. Pull the tiller towards you.",
+        "4. Duck.",
+        "5. Control the boom across.",
+        "6. Straighten up.",
+        "Gybing is more dangerous than tacking because the boom swings quickly."
+      ]
+    },
+    {
+      "h": "Upwind and downwind courses",
+      "points": [
+        "Upwind, the boat zig-zags by tacking close-hauled, because it cannot sail directly into the wind.",
+        "Downwind, the boat runs or sails a broad reach with the centreboard mostly up.",
+        "On a downwind course, beware of an accidental gybe."
+      ]
+    },
+    {
+      "h": "Capsize recovery",
+      "points": [
+        "1. Stay with the boat.",
+        "2. Check that the crew is safe.",
+        "3. Swim to the centreboard.",
+        "4. One person stands on the centreboard and leans back to right the boat, while the other is scooped in.",
+        "5. Bail out.",
+        "Never swim away from the boat."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear a buoyancy aid at all times.",
+        "Wear clothing suited to cold water.",
+        "Check the weather and tides before going out.",
+        "A safety boat should be available.",
+        "Tell someone your plan before going out."
+      ]
+    },
+    {
+      "h": "Rules of the road",
+      "points": [
+        "A boat on port tack gives way to a boat on starboard tack.",
+        "On port tack the wind blows onto the port side of the boat; on starboard tack it blows onto the starboard side.",
+        "A windward boat keeps clear of a leeward boat.",
+        "An overtaking boat keeps clear of the boat it is overtaking."
+      ]
+    },
+    {
+      "h": "Demands",
+      "points": [
+        "Balance, co-ordination and agility when moving across the boat.",
+        "Muscular endurance for hiking, which means leaning the body out over the side to balance the boat.",
+        "Decision-making in changing wind.",
+        "Teamwork and communication between helm and crew."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Windward", "definition": "The side of the boat, or the shore, from which the wind blows." },
+    { "term": "Leeward", "definition": "The side away from the wind." },
+    { "term": "Close-hauled", "definition": "Sailing as close to the wind as possible." },
+    { "term": "No-go zone", "definition": "The area about 45 degrees either side of the wind direction in which a sail cannot drive the boat." },
+    { "term": "Tacking", "definition": "Turning the bow through the wind to change direction when sailing upwind." },
+    { "term": "Gybing", "definition": "Turning the stern through the wind when sailing downwind, so that the boom swings across the boat." },
+    { "term": "Centreboard", "definition": "A board lowered from the hull to resist sideways drift." },
+    { "term": "Sheet", "definition": "A rope that controls the angle of a sail." },
+    { "term": "Port tack", "definition": "Sailing with the wind blowing onto the port side of the boat." },
+    { "term": "Starboard tack", "definition": "Sailing with the wind blowing onto the starboard side of the boat." },
+    { "term": "Course made good", "definition": "The actual progress made towards the destination, taking the wind into account." },
+    { "term": "Helm", "definition": "The person who steers the boat." },
+    { "term": "Hiking", "definition": "Leaning the body out over the side of the boat to balance it." },
+    { "term": "Depower", "definition": "Reducing the drive of a sail, for example by easing the sheet or lowering the mainsail." }
+  ],
+  "factCards": [
+    { "term": "Tacking: calls and actions in order", "definition": "'Ready about'; 'Lee-oh'; push the tiller away; cross the boat under the boom; change hands; sheet in on the new side." },
+    { "term": "Gybing: calls and actions in order", "definition": "'Stand by to gybe'; 'Gybe-oh'; pull the tiller towards you; duck; control the boom across; straighten up." },
+    { "term": "Tacking or gybing: which turns the bow through the wind", "definition": "Tacking turns the bow through the wind; gybing turns the stern through the wind." },
+    { "term": "Port tack or starboard tack: which gives way", "definition": "A boat on port tack gives way to a boat on starboard tack." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe the difference between tacking and gybing and outline the key steps of a tack.",
+      "model": "Tacking turns the bow through the wind to change direction when sailing upwind. Gybing turns the stern through the wind when sailing downwind, so that the boom swings across the boat. The key steps of a tack are: call 'Ready about'; call 'Lee-oh'; push the tiller away; cross the boat under the boom; change hands; and sheet in on the new side."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why leaving a leeward shore is more difficult than leaving a windward shore.",
+      "model": "On a windward shore the wind blows off the land, so it blows the boat away from the shore and leaving is easy. On a leeward shore the wind blows onto the land, so the boat must push off and sail close-hauled to get away from the shore. Because the wind pushes the boat towards the land, this is harder and more dangerous than leaving a windward shore."
+    }
+  ]
+}
