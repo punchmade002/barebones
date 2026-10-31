@@ -6,9 +6,8 @@
   and a worked example). This outline says what to cover; that file says how to write it.
 - **Information packages:** before notes are written, a higher model writes a package per
   subsection in `course-outlines/packages/pe/` (scope checklist plus checked facts). The
-  writing model works from the package. Done so far: chapters 1–8 (Topics 1–8, all 38
-  subsections). Their subsections are defined in `data.js`; chapters 9–16 still have one
-  "Core Concepts" outcome each.
+  writing model works from the package. Done: all 16 chapters (73 subsections), with
+  subsections defined in `data.js` and notes in `content/pe/` built into `pe-notes.js`.
 - **Assumed knowledge:** the specification lists outcomes, not the basics they rest on. Notes
   must also teach what a student needs to meet each outcome (`NOTES_STANDARD.md` rule 9), e.g.
   the stages-of-learning model behind "outline the stages of learning a new skill", the named
