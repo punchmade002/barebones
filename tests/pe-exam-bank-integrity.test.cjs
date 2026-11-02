@@ -122,7 +122,9 @@ test("part marks sum to the marks available for the section", () => {
   const bad = questions.filter((q) => {
     const target = expected[q.sectionId];
     if (!target) return false;
-    return q.parts.reduce((sum, p) => sum + (p.marks || 0), 0) !== target;
+    // Parts dropped because their topic is not examined in June 2027 still count towards the total.
+    const parts = q.parts.concat(q.omittedParts || []);
+    return parts.reduce((sum, p) => sum + (p.marks || 0), 0) !== target;
   });
   assert.equal(bad.length, 0, `${bad.length} question(s) whose part marks do not sum correctly: ${bad.slice(0, 5).map((q) => q.id).join(", ")}`);
 });
@@ -141,6 +143,6 @@ test("no question is filed twice against the same paper", () => {
 test("the bank still covers every paper it is meant to", () => {
   const papers = new Set(questions.map((q) => `${q.year}-${/Higher/.test(q.source) ? "HL" : "OL"}`));
   assert.equal(papers.size, 10, `expected 10 papers, found ${[...papers].sort().join(", ")}`);
-  assert.ok(questions.length >= 155, `expected at least 155 questions, found ${questions.length}`);
-  assert.ok(parts.length >= 530, `expected at least 530 parts, found ${parts.length}`);
+  assert.ok(questions.length >= 150, `expected at least 150 questions, found ${questions.length}`);
+  assert.ok(parts.length >= 519, `expected at least 519 parts, found ${parts.length}`);
 });

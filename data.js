@@ -242,16 +242,6 @@ const COURSE_DATA = {
         { id: "pe-ethics-fair-play-s4", code: "PE6.4", syllabusRef: "6.4", title: "Anti-doping rules", notes: [], keyTerms: [], questions: [] },
         { id: "pe-ethics-fair-play-s5", code: "PE6.5", syllabusRef: "6.5", title: "Best practice for the use of supplements", notes: [], keyTerms: [], questions: [] }
     ] },
-    { id: "pe-physical-activity-inclusion", number: 7, subject: "pe", title: "Physical Activity and Inclusion", examQuestions: [], learningOutcomes: [
-        { id: "pe-physical-activity-inclusion-s1", code: "PE7.1", syllabusRef: "7.1", title: "Supports and barriers for selected groups", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-physical-activity-inclusion-s2", code: "PE7.2", syllabusRef: "7.2", title: "Addressing barriers to physical activity", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-physical-activity-inclusion-s3", code: "PE7.3", syllabusRef: "7.3", title: "Developments over the past twenty years", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-physical-activity-inclusion-s4", code: "PE7.4", syllabusRef: "7.4", title: "Adapted physical activity", notes: [], keyTerms: [], questions: [] }
-    ] },
-    { id: "pe-technology-media-sport", number: 8, subject: "pe", title: "Technology, Media and Sport", examQuestions: [], learningOutcomes: [
-        { id: "pe-technology-media-sport-s1", code: "PE8.1", syllabusRef: "8.1", title: "The impact of technology on sport and physical activity", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-technology-media-sport-s2", code: "PE8.2", syllabusRef: "8.2", title: "Media in sport", notes: [], keyTerms: [], questions: [] }
-    ] },
     { id: "pe-gender-physical-activity", number: 9, subject: "pe", title: "Gender and Physical Activity", examQuestions: [], learningOutcomes: [
         { id: "pe-gender-physical-activity-s1", code: "PE9.1", syllabusRef: "9.1", title: "Gender, sport and physical activity", notes: [], keyTerms: [], questions: [] },
         { id: "pe-gender-physical-activity-s2", code: "PE9.2", syllabusRef: "9.2", title: "Gender, media and body image", notes: [], keyTerms: [], questions: [] },
@@ -262,14 +252,6 @@ const COURSE_DATA = {
         { id: "pe-business-enterprise-sport-s2", code: "PE10.2", syllabusRef: "10.2", title: "The business dimension", notes: [], keyTerms: [], questions: [] },
         { id: "pe-business-enterprise-sport-s3", code: "PE10.3", syllabusRef: "10.3", title: "Mass participation in sport", notes: [], keyTerms: [], questions: [] },
         { id: "pe-business-enterprise-sport-s4", code: "PE10.4", syllabusRef: "10.4", title: "Tourism and sport", notes: [], keyTerms: [], questions: [] }
-    ] },
-    { id: "pe-adventure-activities", number: 11, subject: "pe", title: "Adventure Activities", examQuestions: [], learningOutcomes: [
-        { id: "pe-adventure-activities-s1", code: "PE11.1", syllabusRef: "S6", title: "The adventure activities area", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-adventure-activities-s2", code: "PE11.2", syllabusRef: "S6", title: "Orienteering", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-adventure-activities-s3", code: "PE11.3", syllabusRef: "S6", title: "Kayaking", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-adventure-activities-s4", code: "PE11.4", syllabusRef: "S6", title: "Rock-climbing", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-adventure-activities-s5", code: "PE11.5", syllabusRef: "S6", title: "Sailing", notes: [], keyTerms: [], questions: [] },
-        { id: "pe-adventure-activities-s6", code: "PE11.6", syllabusRef: "S6", title: "Rowing and sculling", notes: [], keyTerms: [], questions: [] }
     ] },
     { id: "pe-aquatics", number: 12, subject: "pe", title: "Aquatics", examQuestions: [], learningOutcomes: [
         { id: "pe-aquatics-s1", code: "PE12.1", syllabusRef: "S6", title: "The aquatics area", notes: [], keyTerms: [], questions: [] },

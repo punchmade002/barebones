@@ -6,7 +6,7 @@
   and a worked example). This outline says what to cover; that file says how to write it.
 - **Information packages:** before notes are written, a higher model writes a package per
   subsection in `course-outlines/packages/pe/` (scope checklist plus checked facts). The
-  writing model works from the package. Done: all 16 chapters (73 subsections), with
+  writing model works from the package. Done: all 13 chapters in the course (61 subsections), with
   subsections defined in `data.js` and notes in `content/pe/` built into `pe-notes.js`.
 - **Assumed knowledge:** the specification lists outcomes, not the basics they rest on. Notes
   must also teach what a student needs to meet each outcome (`NOTES_STANDARD.md` rule 9), e.g.
@@ -37,7 +37,14 @@
   keep every ID exactly as written. The ten theory chapters follow the specification's ten
   topics; the six activity chapters follow its six physical activity areas. (`data.js` still
   holds the legacy shells `pe1`–`pe9`, `pe-casestudy` and `pe-acronyms`; `pe-pipeline-content.js`
-  replaces them with the 16 chapters at load time, so they are not chapter IDs.)
+  replaces them with the 13 chapters at load time, so they are not chapter IDs.)
+- **Removed from the course (owner's decision, 2 November 2026):** Topic 7
+  (`pe-physical-activity-inclusion`) and Topic 8 (`pe-technology-media-sport`), because they
+  are not examined in June 2027, and Adventure Activities (`pe-adventure-activities`), because
+  the activity areas belong to the performance assessment and project, which the app does not
+  cover yet. Their chapters, notes, packages, flashcards and test questions were deleted (they
+  remain in git history). Past-paper questions only on Topics 7 and 8 were deleted; mixed
+  Section C questions keep their other parts, with the dropped parts listed in `omittedParts`.
 - **What each subsection contains:**
   - **"Syllabus"** is what the specification says students "should be able to" do, close to its
     own wording. This is the required scope; every item must be covered.
@@ -59,8 +66,8 @@
     (`pe-business-enterprise-sport`)
 
   **Topic 7 (`pe-physical-activity-inclusion`) and Topic 8 (`pe-technology-media-sport`) are
-  not prescribed for 2027** and will not be examined as topics. Their chapters keep their IDs
-  and past-paper questions (earlier cohorts were examined on them), but write their notes last.
+  not prescribed for 2027** and will not be examined as topics, so they are not in the course
+  (see "Removed from the course" above).
   Some of their content is still examinable through other topics: media and gender stereotypes
   [8.2] overlap with [9.2]; video and analysis software [8.1] with [4.2]; barriers for women
   [7.1] with [9.1].
@@ -249,7 +256,8 @@ the same methods of analysis. The PAP follows this cycle (see Appendix B).
 Students examine the personal, social and contextual barriers and supports to participation and
 performance, and learn to question, critique and challenge what happens in the name of physical
 activity and sport at local, national and international level. Topics 5 and 6 are compulsory;
-for June 2027, Topics 9 and 10 are prescribed and Topics 7 and 8 are not.
+for June 2027, Topics 9 and 10 are prescribed and Topics 7 and 8 are not, so Topics 7 and 8
+are not in the course.
 
 ### pe-promoting-physical-activity — Promoting Physical Activity [Topic 5: 5.1–5.4]
 1. **Benefits of physical activity participation** [5.1]: discuss the personal, social and
@@ -298,43 +306,11 @@ national governing bodies and the groups responsible for sport at local and nati
    supplements designed to optimise performance in one selected activity.
    SimpleStudy: Ethics and Fair Play.
 
-### pe-physical-activity-inclusion — Physical Activity and Inclusion [Topic 7: 7.1–7.4] — NOT PRESCRIBED FOR JUNE 2027
-Write last (see "Prescribed topics" above).
-1. **Supports and barriers for selected groups** [7.1]: analyse the supports and barriers to
-   participation for at least two groups; discuss examples of discrimination, stereotyping,
-   inclusiveness and/or prejudice in provision for these groups; investigate how the media
-   cover sport from these groups' perspective.
-   - Settings: women; older adults; people with physical disability; people with intellectual
-     disability; different ethnic groups; different socio-economic groups. Write all six.
-   - SimpleStudy: Physical Activity and Inclusion.
-2. **Addressing barriers to physical activity** [7.2]: discuss how barriers might be or have
-   been addressed by the individuals themselves, their representative groups and/or voluntary
-   and statutory organisations.
-   SimpleStudy: Physical Activity and Inclusion.
-3. **Developments over the past twenty years** [7.3]: discuss developments in physical activity
-   and sport over the last twenty years from one group's perspective. Write one for each group
-   in 7.1.
-   SimpleStudy: Physical Activity and Inclusion.
-4. **Adapted physical activity** [7.4]: examine whether and how participants with a disability
-   could take part in the three selected activities; evaluate provision for adapted activity in
-   their school and/or community; examine pathways towards excellence in adapted physical
-   activities.
-   SimpleStudy: Physical Activity and Inclusion.
+### pe-physical-activity-inclusion — Physical Activity and Inclusion [Topic 7: 7.1–7.4] — REMOVED
+Not prescribed for June 2027; removed from the course (see "Removed from the course" above).
 
-### pe-technology-media-sport — Technology, Media and Sport [Topic 8: 8.1–8.2] — NOT PRESCRIBED FOR JUNE 2027
-Write last (see "Prescribed topics" above).
-1. **The impact of technology on sport and physical activity** [8.1]: examine how developments
-   in technology affect the performer, coach/choreographer, official and spectator in the
-   selected activities; discuss their own use of technology in planning for optimum
-   performance; evaluate technology's role in analysing training and evaluating performance.
-   SimpleStudy: Technology, Media, and Sport.
-2. **Media in sport** [8.2]: investigate media coverage of elite performance and of mass
-   participation; examine the media's role in maintaining gender stereotypes of men and women
-   in sport; identify what gives the selected activities media and/or spectator appeal; analyse
-   the impact of media coverage on spectator behaviour.
-   - Settings: television, internet, newspapers and digital media (from the topic
-     introduction).
-   - SimpleStudy: Technology, Media, and Sport.
+### pe-technology-media-sport — Technology, Media and Sport [Topic 8: 8.1–8.2] — REMOVED
+Not prescribed for June 2027; removed from the course (see "Removed from the course" above).
 
 ### pe-gender-physical-activity — Gender and Physical Activity [Topic 9: 9.1–9.3] — PRESCRIBED FOR JUNE 2027
 The specification frames the topic with two questions: why young women have lower participation
@@ -387,36 +363,10 @@ and the choice rule; each later subsection is one activity's profile, built arou
 specification's listed skills and techniques and linked to the rules, safety, structures and
 strategies, fitness demands and analysis methods from the theory chapters.
 
-### pe-adventure-activities — Adventure Activities [S6]
-1. **The adventure activities area:** individual and co-operative activities in a challenging,
-   usually outdoor, environment where uncontrollable elements influence the choice and use of
-   skills and strategies; emphasis on interpersonal skills and reflection. Learners choose one
-   of orienteering, canoeing/kayaking, rock-climbing, sailing or rowing/sculling.
-   SimpleStudy: Adventure Activities.
-2. **Orienteering:** map-reading; pacing skills; navigation skills; route-planning; adhering to
-   safe-practice procedures; demonstrating respect for the environment.
-3. **Kayaking:** two variants with separate skill lists.
-   - Moving/white water: launching and landing at a low wall/bank; paddling (forwards,
-     backwards, stopping, sweep and reverse sweep, edging, stern rudder, ferry glide and reverse
-     ferry glide); breaking in and out of a current (into the eddy with bow rudder/low brace and
-     no brace, out of it with low brace and bow rudder); negotiating currents and water features
-     (stoppers, standing waves, whirlpools, green water); capsize drill, Eskimo roll, self-rescue
-     and recovery; two advanced/group skills from capsize and rescue (self and with rope), e.g.
-     combat roll, high cross, hanging draw.
-   - Inland flat water/coastal: launching and landing; paddling (forwards, backwards, stopping,
-     sweep and reverse sweep static and moving, stern rudder, bow rudder, figure-of-8 course
-     forwards and backwards, ferry glide and reverse ferry glide); draw strokes/sculling draw and
-     sculling for support; capsize drill, rolls, self-rescue and recovery; deep-water rescues
-     (swimmer to boat/X-rescue, rafting).
-4. **Rock-climbing** (outdoors or indoor wall, single pitch): using equipment and safe
-   procedures; basic knots; climbing calls and communication; climbing bottom and top rope
-   (single and multiple anchors), rope management, belaying, hand/finger/foot jams, 3-point
-   and/or 2-point contact, lay backing, undercling, bridging; climbing an overhang and/or mantle
-   shelf; traversing; abseiling straight, locking off to collect equipment part-way down.
-5. **Sailing:** leaving and returning to a windward shore and a leeward shore; tacking/going
-   about (upwind); gybing; capsize drill and recovery; sailing a course up/downwind.
-6. **Rowing/sculling:** sculling strokes; rowing on stroke side; rowing on bow side; paddling
-   with square blades; single stroke to hands away.
+### pe-adventure-activities — Adventure Activities [S6] — REMOVED
+Removed from the course until the performance assessment and project are covered (see
+"Removed from the course" above). The specification's activities are orienteering,
+canoeing/kayaking, rock-climbing, sailing and rowing/sculling.
 
 ### pe-aquatics — Aquatics [S6]
 1. **The aquatics area:** water-based activities using swimming and/or diving skills for
@@ -560,8 +510,9 @@ strategies, fitness demands and analysis methods from the theory chapters.
   (`pe-test-questions.js`, Promoting Physical Activity), which is outside both specifications.
   See the decisions list in the restructure report.
 - **App structure:** `pe-pipeline-content.js` copies notes from the legacy `pe1`–`pe9`
-  chapters into the 16 chapters by a fixed map, and several notes land outside their syllabus
-  topic. Safe practice, injuries and first aid (`pe8`, Topic 3.3) feed Adventure Activities and
+  chapters into the 13 chapters by a fixed map, and several notes land outside their syllabus
+  topic. Safe practice, injuries and first aid (`pe8`, Topic 3.3) feed Structures, Strategies,
+  Roles and Conventions (its practice questions) and
   Aquatics. Training principles, methods and periodisation (`pe2`, Topic 2.5–2.6) feed Planning
   for Optimum Performance. Drugs and anti-doping answers sit in `pe4` (Diet) questions, not
   Ethics. The `pe-acronyms` notes are not shown anywhere. When notes are rewritten, place each
