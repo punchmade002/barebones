@@ -1,0 +1,116 @@
+{
+  "loId": "pe-personal-exercise-fitness-s2",
+  "chapterId": "pe-personal-exercise-fitness",
+  "subsection": "2. Aerobic training methods",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Continuous training",
+      "b": "Continuous training is exercise at a constant intensity in the aerobic zone, with no rest.",
+      "points": [
+        "Purpose: builds cardio-respiratory endurance and an aerobic base, and supports body composition.",
+        "Intermediate slow distance: continuous work for 20 to 60 minutes.",
+        "Long slow distance: continuous work for more than 60 minutes.",
+        "Typical FITT example: frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running."
+      ]
+    },
+    {
+      "h": "Interval training",
+      "points": [
+        "Readiness: a fitness base and correct technique must be in place before high-intensity intervals are added.",
+        "Work-to-recovery ratios (typical guidance): 1:1 or 1:2 for aerobic and lactic intervals; 1:3 or more for maximal efforts.",
+        "Interval duration: short intervals develop speed and anaerobic power; longer intervals develop aerobic capacity.",
+        "Each hard work period is followed by a recovery period, repeated in a set pattern.",
+        "Illustrative FITT example: type running; intensity hard for each effort; time 6 × 3 minutes of hard work with 3 minutes of easy jogging between efforts, a 1:1 ratio."
+      ]
+    },
+    {
+      "h": "Fartlek training",
+      "points": [
+        "Fartlek is continuous running with unstructured or structured bursts of speed.",
+        "Readiness: a fitness base is needed before fast bursts are added, because bursts raise the load sharply.",
+        "Terrain: hills, sand, grass and trails vary the load of the same run.",
+        "Interval duration: unstructured bursts are chosen by the performer as the run goes; structured bursts are set in advance, such as sprints between markers.",
+        "Illustrative FITT example: type running; time 30 minutes; sprints between markers and hill efforts."
+      ]
+    },
+    {
+      "h": "Aerobics and step aerobics",
+      "points": [
+        "Basic steps: basic step, V-step, grapevine, knee lift and step touch.",
+        "Stepping technique: in step aerobics, the whole foot is placed on the step when stepping up and down.",
+        "Routine: blocks of moves combined into a sequence.",
+        "Transitions: smooth changes between moves, so the routine flows.",
+        "Timing and rhythm: moves are performed in time with the beats of the music, often counted in blocks such as 32 counts.",
+        "Training zones: the routine keeps heart rate in the aerobic zone, about 60 to 80% of maximum heart rate.",
+        "FITT: type is step aerobics; intensity is kept in the aerobic zone; time is the length of the routine; frequency is the number of sessions a week."
+      ]
+    },
+    {
+      "h": "Spinning",
+      "points": [
+        "Techniques: seated climb, standing climb, seated flat and sprints.",
+        "Bike set-up: the saddle height is set so the knee is slightly bent at the bottom of the pedal stroke.",
+        "Workout intensity is set by resistance and cadence, and monitored by heart-rate zones or perceived exertion.",
+        "Session design: warm-up, then intervals of climbs and sprints, then cool-down.",
+        "Training zones: heart-rate zones guide the intensity of the climbs and sprints.",
+        "FITT: type is a stationary bike ride; intensity is the resistance and cadence chosen; time and frequency are planned around the session length and the sessions each week."
+      ]
+    },
+    {
+      "h": "Indoor rowing",
+      "points": [
+        "Stroke sequence: catch, drive, finish, then recovery.",
+        "Drive: legs first, then body, then arms.",
+        "Recovery: arms first, then body, then legs.",
+        "Time and distance: a steady piece of 20 minutes, or a 2,000 m test, which is the standard rowing test distance.",
+        "Targets: pace per 500 m, shown on the monitor, and stroke rate, the number of strokes per minute.",
+        "Resistance: the damper setting adjusts how hard each stroke feels.",
+        "Session design: warm-up, then intervals or a steady piece, then cool-down."
+      ]
+    },
+    {
+      "h": "Worked session: a games player building cardio-respiratory endurance (illustrative)",
+      "points": [
+        "Frequency: 3 sessions a week, with a rest day between sessions.",
+        "Intensity: 60 to 80% of maximum heart rate, mostly in the aerobic zone.",
+        "Time: 30 minutes in total, with 20 minutes of main work between the warm-up and cool-down.",
+        "Type: fartlek on grass, with sprints between markers and a hill effort.",
+        "Warm-up (5 minutes): easy jogging, then dynamic leg movements that rehearse the bursts at low intensity.",
+        "Cool-down (5 minutes): gradual slowing to a walk, then static stretches of the legs."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Continuous training", "definition": "Steady exercise at a constant intensity in the aerobic zone, with no rest." },
+    { "term": "Intermediate slow distance", "definition": "Continuous training lasting 20 to 60 minutes." },
+    { "term": "Long slow distance", "definition": "Continuous training lasting more than 60 minutes." },
+    { "term": "Interval training", "definition": "Hard work periods alternated with recovery periods in a set pattern." },
+    { "term": "Work-to-recovery ratio", "definition": "The length of a recovery period compared with the work period before it, written for example as 1:2." },
+    { "term": "Fartlek training", "definition": "Continuous running with unstructured or structured bursts of speed over varied terrain." },
+    { "term": "Routine", "definition": "A sequence of blocks of aerobics moves combined and performed in time with music." },
+    { "term": "Transition", "definition": "A smooth change from one move to the next in an aerobics routine." },
+    { "term": "Cadence", "definition": "The pedalling rate on a spinning bike, measured in revolutions per minute." },
+    { "term": "Stroke rate", "definition": "The number of strokes taken per minute on an indoor rower." },
+    { "term": "Damper setting", "definition": "The indoor rower setting that adjusts resistance, changing how hard each stroke feels." },
+    { "term": "Pace per 500 m", "definition": "The time taken to row 500 m, shown on the rowing monitor." }
+  ],
+  "factCards": [
+    { "term": "Rowing stroke order", "definition": "Catch, drive (legs, body, arms), finish, recovery (arms, body, legs)." },
+    { "term": "Basic aerobics steps", "definition": "Basic step, V-step, grapevine, knee lift, step touch." },
+    { "term": "Spinning techniques", "definition": "Seated climb, standing climb, seated flat, sprints." },
+    { "term": "Spinning set-up check", "definition": "Saddle height set so the knee is slightly bent at the bottom of the pedal stroke." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Compare continuous, interval and fartlek training for a games player, using FITT for one of them.",
+      "model": "Continuous training is steady exercise at a constant intensity in the aerobic zone, with no rest. It builds cardio-respiratory endurance and an aerobic base, but it has no changes of pace, so it is the least like the stop-start pattern of a game. Interval training alternates hard work periods with recovery periods. It suits a games player because it develops speed and the ability to recover between efforts; the ratio depends on the effort, with 1:1 or 1:2 for aerobic and lactic intervals and 1:3 or more for maximal efforts. Fartlek training is continuous running with bursts of speed over varied terrain, unstructured or structured, so it trains the aerobic and anaerobic systems together, as a game does. FITT for continuous training (typical guidance): frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running. Interval and fartlek training both need a fitness base and correct technique before the fast bursts are added."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe how a spinning session could be designed to improve cardio-respiratory endurance.",
+      "model": "Begin with a warm-up on the bike, with the saddle set so the knee is slightly bent at the bottom of the pedal stroke. The main section is built from intervals of seated and standing climbs and seated flat riding, with resistance and cadence set so that heart rate stays in the aerobic zone, about 60 to 80% of maximum heart rate, for sustained periods; this develops cardio-respiratory endurance. Sprints are placed between the climbs as the session's harder efforts. Finish with a cool-down that gradually reduces the resistance and cadence before stretching."
+    }
+  ]
+}

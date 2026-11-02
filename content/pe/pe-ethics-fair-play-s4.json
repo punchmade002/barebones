@@ -1,0 +1,169 @@
+{
+  "loId": "pe-ethics-fair-play-s4",
+  "chapterId": "pe-ethics-fair-play",
+  "subsection": "4. Anti-doping rules",
+  "syllabusRef": "6.4",
+  "notes": [
+    {
+      "h": "Who makes and runs the rules",
+      "points": [
+        "The World Anti-Doping Agency (WADA) sets the World Anti-Doping Code and the Prohibited List.",
+        "In Ireland, Sport Ireland runs the Irish Anti-Doping Programme and the Irish Anti-Doping Rules.",
+        "The Irish rules apply the World Anti-Doping Code to all athletes in sports governed by national governing bodies that Sport Ireland recognises."
+      ]
+    },
+    {
+      "h": "Strict liability",
+      "points": [
+        "Athletes are responsible for any prohibited substance found in their body, whether or not they intended to cheat.",
+        "Athletes must therefore check every medicine and supplement they take before taking it."
+      ]
+    },
+    {
+      "h": "Anti-doping rule violations",
+      "points": [
+        "Presence: a prohibited substance, its metabolites or markers found in a sample.",
+        "Use: use or attempted use of a prohibited substance or method.",
+        "Refusal: evading, refusing or failing to submit to sample collection after being notified.",
+        "Whereabouts failures: three missed tests and/or filing failures within 12 months.",
+        "Tampering: tampering or attempted tampering with any part of doping control.",
+        "Possession: possession of a prohibited substance or method.",
+        "Trafficking: trafficking or attempted trafficking, including selling a prohibited substance.",
+        "Administration: administering or attempting to administer a prohibited substance or method to an athlete.",
+        "Complicity: assisting or covering up a violation.",
+        "Prohibited association: working with a banned coach or doctor."
+      ]
+    },
+    {
+      "h": "Testing, whereabouts and the athlete biological passport",
+      "points": [
+        "Testing: urine and blood samples are taken in competition and out of competition, often with no advance notice.",
+        "Each sample is sealed and split into an A and a B sample, which are analysed in WADA-accredited laboratories; the B sample can be tested to confirm a positive A sample.",
+        "Whereabouts: athletes in the registered testing pool give their location in advance.",
+        "The whereabouts requirement includes a daily 60-minute slot when the athlete is available for testing.",
+        "Athlete biological passport: blood and steroid markers are monitored over time to detect the effects of doping."
+      ]
+    },
+    {
+      "h": "Results management, hearings and sanctions",
+      "points": [
+        "Sport Ireland notifies the athlete of the suspected violation.",
+        "An independent disciplinary panel hears the case, and appeals are possible.",
+        "Sanctions include disqualification of results and loss of medals and prize money.",
+        "Sanctions include a period of ineligibility, normally four years for an intentional first violation.",
+        "The decision is published."
+      ]
+    },
+    {
+      "h": "Education and investigation",
+      "points": [
+        "Anti-doping education programmes are run for athletes and support staff.",
+        "Investigations use information from sources other than sample tests."
+      ]
+    },
+    {
+      "h": "Therapeutic use exemptions",
+      "points": [
+        "A therapeutic use exemption (TUE) is permission to use a prohibited substance or method to treat a diagnosed medical condition.",
+        "The athlete applies in advance, except in an emergency, to the relevant anti-doping organisation, with medical evidence.",
+        "An independent panel of doctors decides the application.",
+        "Condition 1: the athlete's health would be significantly impaired without the substance or method.",
+        "Condition 2: it gives no additional performance enhancement beyond a return to normal health.",
+        "Condition 3: there is no reasonable permitted alternative.",
+        "Condition 4: the need is not a consequence of earlier use without a TUE.",
+        "Example: insulin for type 1 diabetes.",
+        "Example: certain asthma medications taken above the permitted doses.",
+        "Example: prescribed stimulant medication for diagnosed ADHD.",
+        "A doctor's prescription alone does not make a prohibited medicine allowed; a TUE is needed."
+      ]
+    },
+    {
+      "h": "What a violation means for the performer and the activity",
+      "points": [
+        "For the performer: a ban, disqualification of results, loss of medals, funding and sponsorship, damage to reputation, and the health risks of the drug itself.",
+        "For the activity: lost credibility and public trust, withdrawal of sponsors and broadcasters, and young people and parents turning away from the sport."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Anti-doping rule violation",
+      "definition": "A breach of the anti-doping rules, such as a positive test, a refused test or a whereabouts failure."
+    },
+    {
+      "term": "Strict liability",
+      "definition": "The principle that an athlete is responsible for any prohibited substance found in their body, whether or not they intended to cheat."
+    },
+    {
+      "term": "Therapeutic use exemption (TUE)",
+      "definition": "Permission, granted under strict conditions, to use a prohibited substance or method to treat a diagnosed medical condition."
+    },
+    {
+      "term": "Whereabouts",
+      "definition": "The information an athlete in the registered testing pool gives in advance about where they can be found for testing."
+    },
+    {
+      "term": "Registered testing pool",
+      "definition": "The group of athletes who must provide whereabouts information so that they can be tested out of competition."
+    },
+    {
+      "term": "Athlete biological passport",
+      "definition": "A record of an athlete's blood and steroid markers over time, used to detect the effects of doping."
+    },
+    {
+      "term": "A and B samples",
+      "definition": "The two parts of a sample, each analysed in a WADA-accredited laboratory, so that a result can be confirmed."
+    },
+    {
+      "term": "Ineligibility",
+      "definition": "A period during which an athlete is banned from competing."
+    },
+    {
+      "term": "Independent disciplinary panel",
+      "definition": "A panel that hears an anti-doping case independently and decides on sanctions."
+    },
+    {
+      "term": "Sport Ireland",
+      "definition": "The body that runs the Irish Anti-Doping Programme and the Irish Anti-Doping Rules."
+    },
+    {
+      "term": "Trafficking",
+      "definition": "Selling, supplying or distributing a prohibited substance or method, or attempting to do so."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Whereabouts failures that count as a violation",
+      "definition": "Three missed tests and/or filing failures within 12 months."
+    },
+    {
+      "term": "The four conditions for a TUE",
+      "definition": "Health significantly impaired without it; no additional performance enhancement beyond a return to normal health; no reasonable permitted alternative; the need is not caused by earlier use without a TUE."
+    },
+    {
+      "term": "Two TUE examples",
+      "definition": "Insulin for type 1 diabetes, and prescribed stimulant medication for diagnosed ADHD."
+    },
+    {
+      "term": "Five ways Irish anti-doping rules are enforced",
+      "definition": "Testing in and out of competition; whereabouts requirements; the athlete biological passport; results management, hearings and sanctions; education and investigation."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "State four current Irish anti-doping rules.",
+      "model": "1. The presence of a prohibited substance, its metabolites or markers in a sample. 2. The use or attempted use of a prohibited substance or method. 3. Evading, refusing or failing to submit to sample collection after being notified. 4. Whereabouts failures: three missed tests and/or filing failures within 12 months."
+    },
+    {
+      "marks": 8,
+      "prompt": "Explain therapeutic use exemption and describe two circumstances in which one might be granted.",
+      "model": "A therapeutic use exemption (TUE) is permission to use a prohibited substance or method to treat a diagnosed medical condition. The athlete applies in advance, with medical evidence, to the relevant anti-doping organisation, and an independent panel of doctors decides. It is granted only if the athlete's health would be significantly impaired without the medicine, if it gives no performance benefit beyond a return to normal health, and if there is no reasonable permitted alternative. Circumstance 1: an athlete with type 1 diabetes who needs insulin. Circumstance 2: an athlete with diagnosed ADHD who takes prescribed stimulant medication."
+    },
+    {
+      "marks": 6,
+      "prompt": "Identify three ways in which Irish anti-doping rules are enforced.",
+      "model": "1. Testing: urine and blood samples are taken in and out of competition, often without notice, and analysed in WADA-accredited laboratories. 2. Whereabouts: athletes in the registered testing pool give their location in advance, including a daily 60-minute slot for testing. 3. Sanctions after a hearing: an independent panel can disqualify results, remove medals and prize money, and impose a ban, normally four years for an intentional first violation."
+    }
+  ]
+}

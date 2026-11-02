@@ -9,8 +9,24 @@
     "syllabus": {
       "authority": "NCCA",
       "url": "https://www.curriculumonline.ie/getmedia/41817053-8f40-4365-8893-dba1a68508f3/LCPE_Specification_en.pdf",
-      "effectiveFrom": "2018",
-      "firstExamYear": 2022
+      "effectiveFrom": "September 2018",
+      "firstExamYear": 2020,
+      "examinedTo": "June 2027",
+      "replacedBy": {
+        "url": "https://www.curriculumonline.ie/getmedia/e3c33f7c-a88b-4050-bed3-c892ec995ba2/SC-PE-Spec-ENG-INT.pdf",
+        "effectiveFrom": "September 2026",
+        "firstExamYear": 2028
+      },
+      "prescribedTopics": {
+        "examYear": 2027,
+        "authority": "SEC",
+        "circular": "S51/25",
+        "url": "https://www.examinations.ie/docs/viewer.php?q=cf8fc63b2b7440740391278bc6d85a8a70437b0b",
+        "topics": [
+          9,
+          10
+        ]
+      }
     },
     "research": {
       "provider": "SimpleStudy",

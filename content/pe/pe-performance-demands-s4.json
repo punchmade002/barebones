@@ -1,0 +1,85 @@
+{
+  "loId": "pe-performance-demands-s4",
+  "chapterId": "pe-performance-demands",
+  "subsection": "4. Applying the fitness components",
+  "syllabusRef": "2.4",
+  "notes": [
+    {
+      "h": "Analysing the fitness demands of an activity",
+      "points": [
+        "Needs analysis: working out which fitness components an activity, position or role demands by examining its duration, intensity, pattern of work and rest, the movements involved and the energy systems used.",
+        "The performer's current fitness is then compared with those demands, usually by fitness testing, to find the gaps to train.",
+        "Examining the extent: rank each component as essential, important or less important for the activity, and justify each with a specific moment of play or performance.",
+        "Positions and roles differ within one activity: a soccer goalkeeper needs reaction time, power and agility more than cardio-respiratory endurance, while a midfielder needs the reverse."
+      ]
+    },
+    {
+      "h": "Fitness profile: an invasion game (Gaelic football)",
+      "points": [
+        "Cardio-respiratory endurance (essential): players cover long distances over two halves and must recover between efforts.",
+        "Speed (essential): to win the race to a breaking ball or get away from a marker.",
+        "Agility (essential): to side-step a tackler or turn quickly in defence.",
+        "Power (important): to jump for a high catch and to kick long.",
+        "Muscular endurance (important): legs keep working for repeated sprints and challenges late in the game."
+      ]
+    },
+    {
+      "h": "Fitness profile: an aesthetic activity (artistic gymnastics)",
+      "points": [
+        "Flexibility (essential): for splits, walkovers and extended body lines.",
+        "Strength (essential): to support body weight in balances and on the hands.",
+        "Balance (essential): for held positions and landings.",
+        "Power (essential): for jumps, tumbles and vaults.",
+        "Co-ordination (essential): to link elements fluently.",
+        "Cardio-respiratory endurance (less important): routines are short."
+      ]
+    },
+    {
+      "h": "Fitness profile: an endurance activity (distance running)",
+      "points": [
+        "Cardio-respiratory endurance (essential): the event lasts many minutes or hours at a steady pace.",
+        "Muscular endurance (essential): the legs repeat thousands of strides.",
+        "Body composition (important): a low body-fat percentage reduces the weight carried.",
+        "Reaction time (less important): a slow start matters little over a long race."
+      ]
+    },
+    {
+      "h": "Developing fitness in a demanding practice context",
+      "b": "Fitness can be trained inside the activity itself, while skills are practised under the fatigue and pressure of competition.",
+      "points": [
+        "Methods: conditioned and small-sided games, game-speed drills and skill circuits.",
+        "Example: a small-sided possession game with a two-touch limit develops cardio-respiratory endurance, agility and speed while players pass and move.",
+        "Example: a dribbling relay through cones develops speed, agility and co-ordination.",
+        "Benefit: specificity, because players use the same movements, energy systems and decisions as in competition.",
+        "Benefit: it is motivating and time-efficient, and trains skill under fatigue.",
+        "Limitation: intensity and overload are harder to control precisely, and some players work less than others.",
+        "Limitation: it may not develop maximal strength or flexibility, so it is combined with training outside the activity."
+      ]
+    },
+    {
+      "h": "A combined approach to health- and performance-related fitness",
+      "points": [
+        "A combined approach develops a health-related and a performance-related component in the same activity or session.",
+        "Designing one: name the two components, describe what the performer does with sets, repetitions or time, state how it progresses, explain how each component is trained, and link it to the activity's demands.",
+        "Example, flexibility (HRF) and balance (PRF): a single-leg balance-and-reach routine, standing on one leg and reaching the free foot out slowly to points around the body through a full range, progressing to an unstable surface.",
+        "Example, muscular endurance (HRF) and agility (PRF): a circuit alternating ladder footwork drills with body-weight squats and lunges, with timed work and rest at each station."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Needs analysis", "definition": "Working out which fitness components an activity or role demands from its duration, intensity, work-to-rest pattern, movements and energy systems." },
+    { "term": "Conditioned game", "definition": "A game with modified rules, such as limited touches or a smaller area, used to develop particular skills or fitness." },
+    { "term": "Small-sided game", "definition": "A game with fewer players and a smaller area, which increases involvement and intensity." },
+    { "term": "Combined approach", "definition": "Training a health-related and a performance-related fitness component together in one activity or session." }
+  ],
+  "factCards": [
+    { "term": "Combined approach example: flexibility and balance", "definition": "A single-leg balance-and-reach routine through a full range of movement, progressing to an unstable surface." },
+    { "term": "Main fitness component: 10,000 m runner and shot-putter", "definition": "10,000 m: cardio-respiratory endurance, for a long, steady aerobic effort. Shot-put: power, for an explosive throw." },
+    { "term": "Two benefits and one limitation of training fitness inside the activity", "definition": "Benefits: specificity; motivating and trains skill under fatigue. Limitation: overload is hard to control." }
+  ],
+  "questions": [
+    { "marks": 12, "prompt": "Discuss the extent to which reaction time, muscular endurance and power are required in a physical activity of your choice.", "model": "Activity: basketball. Power is essential: players jump for rebounds and blocks and push off explosively to drive past a defender, so strength applied at speed decides who wins the ball. Reaction time is important: defenders react to a dribbler's change of direction and to deflected passes, and players react to loose balls, but anticipation and reading the play reduce how much depends on raw reaction. Muscular endurance is important: the legs must keep a low defensive stance and repeat jumps over four quarters, and when it fails, shooting and defending suffer late in the game. Overall, power is the most decisive of the three, but all three are needed." },
+    { "marks": 8, "prompt": "Outline one activity that could be used as a combined approach to training flexibility and balance in a physical activity of your choice.", "model": "Activity: soccer. A single-leg balance-and-reach routine: the player stands on one leg with a slight bend at the knee and slowly reaches the free foot as far as possible forward, sideways and backward, touching the floor lightly each time, for three sets of five reaches on each leg. Reaching to the end of the range at the hip develops flexibility (health-related), while holding the body steady over one foot develops dynamic balance (performance-related). It progresses by standing on a cushion or wobble board. Both are needed in soccer for stretching to reach a ball and staying balanced while striking it." },
+    { "marks": 6, "prompt": "Identify the main component of fitness needed by a marathon runner and by a shot-putter and explain each choice.", "model": "Marathon runner: cardio-respiratory endurance, because the race lasts over two hours at a steady pace and depends on a continuous supply of oxygen to the muscles. Shot-putter: power, because the throw is a single explosive effort lasting a few seconds in which strength must be applied at high speed." }
+  ]
+}
