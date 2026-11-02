@@ -205,3 +205,49 @@ test("the shipped biology notes file is up to date with content/biology", () => 
     "run: python3 scripts/build_notes.py biology"
   );
 });
+
+// PE: chapters have outline subsections in data.js; pe-pipeline-content.js rebuilds each
+// chapter with a "<chapter>-core" review outcome first. Authored notes replace that outcome's
+// old notes and flashcards but keep its practice questions.
+function buildPe(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "pe", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("the shipped PE notes file is up to date with content/pe", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "pe-notes.js");
+  const result = buildPe(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "pe-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py pe"
+  );
+});
+
+test("PE authored chapters keep the review outcome's questions but drop its old notes", () => {
+  const before = load(["data.js", "pe-content.js", "pe-exam-questions.js", "pe-flashcards.js", "pe-pipeline-content.js"]);
+  const after = load(["data.js", "pe-content.js", "pe-exam-questions.js", "pe-flashcards.js", "pe-pipeline-content.js", "pe-notes.js"]);
+  const chapter = (context, id) => context.__courseData.chapters.find((c) => c.id === id);
+  const authored = after.__courseData.chapters.filter(
+    (c) => c.subject === "pe" && c.learningOutcomes.some((o) => o.authored)
+  );
+  const shells = before.__courseData.chapters.filter(
+    (c) => c.subject === "pe" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id))
+  );
+  assert.equal(authored.length, shells.length, "every PE chapter with subsections should have authored notes");
+  authored.forEach((c) => {
+    const [review, ...subsections] = c.learningOutcomes;
+    assert.equal(review.id, `${c.id}-core`);
+    assert.equal(review.notes.length, 0, `${c.id} review should drop its old notes`);
+    assert.equal(review.keyTerms.length, 0, `${c.id} review should drop its old flashcards`);
+    assert.equal(review.questions.length, chapter(before, c.id).learningOutcomes[0].questions.length);
+    subsections.forEach((o, i) => {
+      assert.equal(o.id, `${c.id}-s${i + 1}`);
+      assert.ok(o.authored && o.notes.length > 0, `${o.id} should carry authored notes`);
+    });
+  });
+  const untouched = after.__courseData.chapters.filter((c) => c.subject === "pe" && !authored.includes(c));
+  untouched.forEach((c) => assert.ok(c.learningOutcomes[0].keyTerms.length > 0, `${c.id} keeps its deck`));
+});

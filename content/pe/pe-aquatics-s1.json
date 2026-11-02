@@ -1,0 +1,130 @@
+{
+  "loId": "pe-aquatics-s1",
+  "chapterId": "pe-aquatics",
+  "subsection": "1. The aquatics area",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "What the aquatics area is",
+      "b": "Aquatics covers water-based activities that use swimming and/or diving skills and techniques.",
+      "points": [
+        "Each aquatic activity serves one of three purposes: performance, water safety or recreation.",
+        "Performance: racing strokes, water polo and synchronised swimming.",
+        "Water safety: lifesaving and survival swimming.",
+        "Recreation: water activity done for enjoyment."
+      ]
+    },
+    {
+      "h": "The five options and the choice rule",
+      "points": [
+        "The five options are lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming.",
+        "Choice rule: a learner selects one of these five options.",
+        "The two swimming strokes option means choosing two of the four competitive strokes: front crawl, backstroke, breaststroke and butterfly.",
+        "In each activity, learners aim to develop the standard of their performance, be creative and be consistent."
+      ]
+    },
+    {
+      "h": "Pool safety",
+      "points": [
+        "Swimming takes place under lifeguard supervision.",
+        "Know the depths of the pool before entering the water.",
+        "No diving in shallow water.",
+        "Walk, do not run, on the poolside, because wet surfaces are slippery.",
+        "Enter the water feet first when the depth is unknown.",
+        "Follow the pool rules at all times.",
+        "Shower before entering the pool, for hygiene."
+      ]
+    },
+    {
+      "h": "Open-water safety",
+      "points": [
+        "Cold water shock: a sudden gasp and rapid breathing when a person enters cold water.",
+        "Currents and tides can carry a swimmer away from the point of entry.",
+        "Check the conditions before entering the water.",
+        "Never swim alone.",
+        "Wear a bright swim cap so the swimmer is easy to see.",
+        "Swim parallel to the shore rather than straight out from it."
+      ]
+    },
+    {
+      "h": "The performance assessment",
+      "points": [
+        "The performance assessment is worth 30% of the marks and is assessed at common level.",
+        "The State Examinations Commission (SEC) assesses the performance from video.",
+        "The chosen aquatics activity is one of the student's three activities.",
+        "The assessment covers the listed skills and techniques applied in conditioned, competitive or personal performance.",
+        "It also covers tactics or compositional knowledge, and rules and safe practice before, during and after the activity."
+      ]
+    },
+    {
+      "h": "Aquatics as a context for theory",
+      "points": [
+        "Energy systems: sprint and distance swimming place different demands on the energy systems.",
+        "Technique analysis: a stroke is analysed through its body position, arm action, kick, breathing and co-ordination.",
+        "Newton's third law of motion: a swimmer pushes water backwards, and the water pushes the swimmer forward with an equal force.",
+        "Streamlining: the shape of the body determines how much resistance the water creates.",
+        "Lifeguard as an official: the lifeguard supervises swimmers and enforces the pool's safety rules."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Aquatics",
+      "definition": "Water-based activities that use swimming and/or diving skills and techniques for performance, water safety or recreation."
+    },
+    {
+      "term": "Water safety",
+      "definition": "Procedures and behaviours that protect swimmers from drowning and other harm in and around water."
+    },
+    {
+      "term": "Cold water shock",
+      "definition": "A sudden gasp and rapid breathing that happens when a person enters cold water."
+    },
+    {
+      "term": "Performance assessment",
+      "definition": "The assessment, worth 30% of the marks, in which the student's chosen aquatics activity is assessed from video by the SEC."
+    },
+    {
+      "term": "Propulsion",
+      "definition": "The forward movement a swimmer produces by pushing water backwards."
+    },
+    {
+      "term": "Newton's third law of motion",
+      "definition": "For every action there is an equal and opposite reaction."
+    },
+    {
+      "term": "Streamlining",
+      "definition": "A body shape that reduces resistance in the water."
+    },
+    {
+      "term": "Lifeguard",
+      "definition": "A trained person who supervises swimmers and enforces pool safety."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Name the five aquatics options",
+      "definition": "Lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming."
+    },
+    {
+      "term": "Three purposes of aquatic activity",
+      "definition": "Performance, water safety and recreation."
+    },
+    {
+      "term": "Open-water safety checks",
+      "definition": "Check the conditions, never swim alone, wear a bright swim cap, and swim parallel to the shore."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline three safety rules that apply at a swimming pool and explain why each is needed.",
+      "model": "Walk, do not run, on the poolside: wet surfaces are slippery, so running greatly increases the risk of a fall and injury. No diving in shallow water: the water may not be deep enough for a dive, so a head or neck injury can result. Enter the water feet first when the depth is unknown: the feet and legs reach the bottom first, so the swimmer can check the depth and avoid striking the head on an unseen bottom."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain how Newton's third law of motion applies to propulsion in swimming.",
+      "model": "Newton's third law states that for every action there is an equal and opposite reaction. In swimming, the swimmer pushes water backwards with the hands and feet, which is the action. The water pushes back on the swimmer with an equal force in the opposite direction, which is forward, and this is the reaction. This forward force is propulsion, so a stronger backward push on the water produces a larger forward movement."
+    }
+  ]
+}

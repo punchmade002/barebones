@@ -45,5 +45,12 @@
 
 ## Coverage cautions
 
+- Scope is the 2018 LCPE specification, first examined 2020 and examined to June 2027. Do not
+  use the 2026 specification (first examined 2028). The full outline is
+  `course-outlines/pe.md`.
+- Topics 1–6 are compulsory. Of Topics 7–10 the SEC prescribes two per cohort; for June 2027
+  (circular S51/25) these are Topic 9, Gender and physical activity, and Topic 10, Business and
+  enterprise in physical activity and sport. SimpleStudy lists all four without marking which
+  are prescribed.
 - Examples must not imply that one training method is universally suitable. Include participant
   needs, activity demands, safety and progression.
