@@ -13,7 +13,7 @@
   influences participation (females, males); how participation influences body image
   (positive and negative); media representations of male and female bodies; a debate block
   with both sides on whether media images help or hinder participation; responses. Media and
-  gender stereotypes in general are also taught in "Media in sport" (Topic 8, not prescribed
+  gender stereotypes in general belong to Topic 8, which is not in this course (not prescribed
   for 2027), so this subsection must be complete on its own.
 
 ## 1. Must cover

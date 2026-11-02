@@ -53,7 +53,7 @@ Approaches to promotion and their evaluation
 
 ## 3. Traps
 
-- Supports and barriers for specific groups (women, older adults, people with disabilities, ethnic and socio-economic groups) are in `pe-physical-activity-inclusion`; here keep to school and community in general.
+- Supports and barriers for specific groups (women, older adults, people with disabilities, ethnic and socio-economic groups) belong to Topic 7, which is not in this course (not prescribed for June 2027); here keep to school and community in general.
 - The gender participation gap is taught in `pe-gender-physical-activity`; mention it only as one observed pattern.
 - National policies, NGBs and significant people are in "Physical activity promotion".
 

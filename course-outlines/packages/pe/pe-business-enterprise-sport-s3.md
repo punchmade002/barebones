@@ -49,7 +49,7 @@ Benefits and costs
 ## 3. Traps
 
 - Do not copy the past-paper description of the Great Limerick Run's popularity.
-- Media coverage of mass participation is in "Media in sport" (Topic 8); refer to it in one bullet at most.
+- Media coverage of mass participation belongs to Topic 8, which is not in this course; refer to it in one bullet at most.
 - Tourism from events in general is the next subsection; here focus on the event's own business opportunities and local spending.
 
 ## 4. What exams ask

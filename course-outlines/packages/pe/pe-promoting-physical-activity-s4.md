@@ -47,7 +47,7 @@ Provision and support for excellence
 
 - Gaelic games players are amateurs; do not describe them as paid professionals.
 - Do not invent funding amounts or carding levels.
-- Adapted pathways for athletes with disabilities are in `pe-physical-activity-inclusion` ("Adapted physical activity").
+- Adapted pathways for athletes with disabilities belong to Topic 7, which is not in this course (not prescribed for June 2027); do not teach them here.
 - The NGB's general role is in "Physical activity promotion"; here focus on excellence.
 
 ## 4. What exams ask
