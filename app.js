@@ -1396,6 +1396,7 @@ function renderTabVisibility() {
 
 function renderAll() {
   reconcileSelection();
+  requestExamPack(selectedSubjectId);
   renderAccount();
   renderProfileAvatar();
   renderAccountIdentity();
@@ -2246,6 +2247,11 @@ function handleTestSetupChange(event) {
 
 function startTest(retestItems) {
   if (!getCurrentUser()) return;
+  // Tests draw on past-paper questions, so wait for the subject's bank first.
+  if (!examPackReady(selectedSubjectId)) {
+    requestExamPack(selectedSubjectId).then(() => startTest(retestItems));
+    return;
+  }
   const settings = getTestSettings();
   const scope = getTestScope(settings);
   if (!scope.subject || !scope.chapters.length) return;
@@ -2910,6 +2916,27 @@ function cardsForOutcome(outcome, subjectId) {
   }));
 }
 
+// Past-paper banks load per subject (exam-packs.js) rather than with the page.
+// Opening a subject asks for its bank, and the views redraw when it arrives.
+function examPackReady(subjectId) {
+  return !window.ExamPacks || window.ExamPacks.isLoaded(subjectId);
+}
+
+function requestExamPack(subjectId) {
+  if (examPackReady(subjectId)) return Promise.resolve();
+  return window.ExamPacks.load(subjectId).then(() => {
+    testPoolCache.clear();
+    if (selectedSubjectId === subjectId) renderAll();
+    const breakdown = document.getElementById("examBreakdownModal");
+    if (breakdownSelection?.subjectId === subjectId && breakdown && !breakdown.classList.contains("hidden")) {
+      selectBreakdownSection(subjectId, breakdownSelection.idx);
+    }
+  }, (error) => {
+    console.error(error);
+    if (selectedSubjectId === subjectId && els.examTab?.classList.contains("active")) renderExamSection();
+  });
+}
+
 function getExamQuestionsForChapter(chapter) {
   const source = getOriginalChapter(chapter.id);
   const cached = source?.examQuestions || [];
@@ -3034,9 +3061,12 @@ function renderExamSection() {
 
   const papersLink = examPapersLink(selectedSubjectId);
   if (!examGroups.length) {
+    const emptyMessage = examPackReady(selectedSubjectId)
+      ? "No past paper questions available for this chapter yet."
+      : "Loading past paper questions…";
     els.examContainer.innerHTML = papersLink + `
       <div class="exam-empty">
-        <p class="muted">No past paper questions available for this chapter yet.</p>
+        <p class="muted">${emptyMessage}</p>
       </div>${offSpecToggle}`;
     return;
   }
@@ -4403,9 +4433,13 @@ function examSectionBadge(section, data) {
   return `<span class="exam-section-badge" style="background:${bg};color:${section.color};border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
 }
 
+let breakdownSelection = null; // { subjectId, idx } of the section shown in the paper guide
+
 function openExamBreakdown(subjectId) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
   if (!data) return;
+  breakdownSelection = null;
+  requestExamPack(subjectId);
   document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   document.body.style.overflow = 'hidden';
@@ -4487,7 +4521,11 @@ function selectBreakdownSection(subjectId, idx) {
     el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
   });
 
+  breakdownSelection = { subjectId, idx };
   const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
+  const emptyMessage = examPackReady(subjectId)
+    ? 'No past-paper questions indexed for this section yet.'
+    : 'Loading past-paper questions…';
 
   const tips = section.tips;
   document.getElementById('breakdownDetail').innerHTML = `
@@ -4510,7 +4548,7 @@ function selectBreakdownSection(subjectId, idx) {
            onclick="openSectionQuestions('${subjectId}',${idx})">
            Exam Questions (${questions.length})
          </button>`
-      : '<p class="breakdown-detail-empty">No past-paper questions indexed for this section yet.</p>'
+      : `<p class="breakdown-detail-empty">${emptyMessage}</p>`
     }`;
 }
 
