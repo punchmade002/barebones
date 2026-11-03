@@ -5,7 +5,7 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js"]);
+const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js", "paper-archive.js"]);
 
 // Loads every local data script app.html loads, in the same order, plus the builder.
 function createContext() {
