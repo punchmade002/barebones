@@ -8,7 +8,13 @@
 
   var supportedSubjects = new Set(["geography", "home-economics", "pe"]);
   var decks = globalThis.FLASHCARDS_DB || {};
-  var examQuestions = Array.isArray(globalThis.EXAM_QUESTIONS_DB) ? globalThis.EXAM_QUESTIONS_DB : [];
+  // Where each chapter's past-paper blocks sit in its notes, so they can be rebuilt
+  // once a subject's exam pack (exam-packs.js) arrives after this script has run.
+  var blueprintSlots = [];
+
+  function loadedExamQuestions() {
+    return Array.isArray(globalThis.EXAM_QUESTIONS_DB) ? globalThis.EXAM_QUESTIONS_DB : [];
+  }
 
   var chapterOverview = {
     // Geography
@@ -142,7 +148,7 @@
 
   function examBlueprints(chapter) {
     var candidates = [];
-    examQuestions.forEach(function (question) {
+    loadedExamQuestions().forEach(function (question) {
       if (question.chapterId !== chapter.id) return;
       (question.parts || []).forEach(function (part) {
         var score = scorePart(part, question);
@@ -205,7 +211,9 @@
     }
     if (existing.length) notes = notes.concat(existing);
     notes = notes.concat(conceptBlocks(cards, chapter.subject));
-    notes = notes.concat(examBlueprints(chapter));
+    var blueprints = examBlueprints(chapter);
+    blueprintSlots.push({ chapter: chapter, outcome: outcome, at: notes.length, count: blueprints.length });
+    notes = notes.concat(blueprints);
     notes.push({ h: "How to build a full-mark answer", b: subjectMethod[chapter.subject] });
 
     outcome.notes = notes;
@@ -216,4 +224,13 @@
       item.notes = [];
     });
   });
+
+  globalThis.refreshGeneratedExamBlueprints = function (subjectId) {
+    blueprintSlots.forEach(function (slot) {
+      if (slot.chapter.subject !== subjectId) return;
+      var blueprints = examBlueprints(slot.chapter);
+      slot.outcome.notes.splice.apply(slot.outcome.notes, [slot.at, slot.count].concat(blueprints));
+      slot.count = blueprints.length;
+    });
+  };
 })();

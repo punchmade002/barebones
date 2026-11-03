@@ -100,3 +100,30 @@ test("the generated adapter does not replace hand-written Chemistry notes", () =
     .map((chapter) => chapter.learningOutcomes.flatMap((outcome) => outcome.notes || []).length);
   assert.deepEqual(after, before);
 });
+
+test("past-paper notes match eager loading when the exam pack arrives after the adapter", () => {
+  // JSON round-trip: each vm context has its own Array prototype, which deepEqual compares.
+  const notesFor = (context) => JSON.parse(JSON.stringify(context.__courseData.chapters
+    .filter((chapter) => chapter.subject === "home-economics")
+    .map((chapter) => chapter.learningOutcomes.flatMap((outcome) => outcome.notes || []).map((note) => note.h))));
+
+  const eager = load([
+    "data.js",
+    "home-economics-exam-questions.js",
+    "home-economics-flashcards.js",
+    "generated-notes-content.js",
+  ]);
+  const lazy = load([
+    "data.js",
+    "home-economics-flashcards.js",
+    "generated-notes-content.js",
+  ]);
+  const withoutPack = notesFor(lazy);
+  vm.runInContext(fs.readFileSync(path.join(root, "home-economics-exam-questions.js"), "utf8"), lazy);
+  lazy.refreshGeneratedExamBlueprints("home-economics");
+
+  assert.notDeepEqual(withoutPack, notesFor(eager), "the pack should add past-paper blocks");
+  assert.deepEqual(notesFor(lazy), notesFor(eager));
+  lazy.refreshGeneratedExamBlueprints("home-economics");
+  assert.deepEqual(notesFor(lazy), notesFor(eager), "refreshing twice should not duplicate blocks");
+});
