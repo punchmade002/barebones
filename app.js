@@ -2913,11 +2913,36 @@ function isOffSpecExamGroup(group) {
 function renderExamPaperImages(group) {
   if (!group.images?.length) return "";
   const where = [group.year, group.level === "ordinary" ? "Ordinary Level" : group.level === "higher" ? "Higher Level" : "", group.questionNumber ? `Question ${group.questionNumber}` : ""].filter(Boolean).join(" ");
+  const scale = getExamPaperScale();
   return `<div class="exam-paper">${group.images.map((src, i) => `
-    <button type="button" class="exam-paper-page" onclick="openDiagramModal('${escapeHtml(src)}')" aria-label="Enlarge page ${i + 1} of ${group.images.length}">
-      <img src="${escapeHtml(src)}" alt="${escapeHtml(`${where} as printed on the paper${group.images.length > 1 ? `, page ${i + 1} of ${group.images.length}` : ""}`)}" loading="lazy" />
-    </button>`).join("")}
+    <div class="exam-paper-sheet" style="--paper-scale: ${scale}%">
+      <button type="button" class="exam-paper-page" onclick="openDiagramModal('${escapeHtml(src)}')" aria-label="Enlarge page ${i + 1} of ${group.images.length}">
+        <img src="${escapeHtml(src)}" alt="${escapeHtml(`${where} as printed on the paper${group.images.length > 1 ? `, page ${i + 1} of ${group.images.length}` : ""}`)}" loading="lazy" />
+      </button>
+      <input type="range" class="exam-paper-size" min="${EXAM_PAPER_SCALE_MIN}" max="100" step="5" value="${scale}" oninput="setExamPaperScale(this)" aria-label="Page size" aria-valuetext="${scale}%" title="Page size" />
+    </div>`).join("")}
   </div>`;
+}
+
+// Crops are full paper width, which reads too large on a wide screen. Each page gets its own
+// size slider; the last size picked becomes the starting size for every page shown after it.
+const EXAM_PAPER_SCALE_KEY = "bare-bones-exam-paper-scale";
+const EXAM_PAPER_SCALE_MIN = 40;
+
+function getExamPaperScale() {
+  try {
+    const saved = Number(localStorage.getItem(EXAM_PAPER_SCALE_KEY));
+    if (saved >= EXAM_PAPER_SCALE_MIN && saved <= 100) return saved;
+  } catch {}
+  return 100;
+}
+
+function setExamPaperScale(input) {
+  input.closest(".exam-paper-sheet")?.style.setProperty("--paper-scale", `${input.value}%`);
+  input.setAttribute("aria-valuetext", `${input.value}%`);
+  try {
+    localStorage.setItem(EXAM_PAPER_SCALE_KEY, input.value);
+  } catch {}
 }
 
 // Part rows for image-based questions carry no question text, only what the paper can't show.
