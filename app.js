@@ -4497,7 +4497,7 @@ function renderBreakdownModal(data) {
   return `<div class="bd-screen">
     ${head(meta)}
     ${renderBreakdownBar(data)}
-    <div class="bd-panels">
+    <div class="bd-panels" onmouseleave="peekBreakdownSection(null)">
       ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
     </div>
   </div>`;
@@ -4510,7 +4510,8 @@ function renderBreakdownBar(data) {
     ${data.sections.map((s, i) => `
       <button type="button" class="bd-bar-seg" style="--sec:${s.color};flex-grow:${s.marks}"
         data-idx="${i}" tabindex="-1" onclick="selectBreakdownSection('${data.subject}', ${i})">
-        <span>${s.marks}</span>
+        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)} · ${s.marks}</span>
+        <span class="bd-bar-strip"></span>
       </button>`).join('')}
   </div>`;
 }
@@ -4541,8 +4542,8 @@ function renderBreakdownPanel(data, section, idx) {
     : `<p class="bd-empty">Tips for this section are on the way.</p>`;
 
   return `
-    <section class="bd-panel" style="--sec:${section.color}" data-idx="${idx}"
-      onmouseenter="peekBreakdownSection(${idx})" onmouseleave="peekBreakdownSection(null)">
+    <section class="bd-panel" style="--sec:${section.color};--i:${idx}" data-idx="${idx}"
+      onmouseenter="peekBreakdownSection(${idx})">
       <button type="button" class="bd-panel-head" aria-expanded="false"
         onclick="selectBreakdownSection('${data.subject}', ${idx})">
         <span class="bd-kicker">${escapeHtml(kicker || `Part ${idx + 1}`)}</span>
@@ -4551,6 +4552,7 @@ function renderBreakdownPanel(data, section, idx) {
           <span class="bd-marks"><strong>${section.marks}</strong> marks</span>
           <span class="bd-facts">${pct != null ? `${pct}% of paper` : ''}${mins ? ` · ~${mins} min` : ''}${section.minutesPerQuestion ? ` · ${section.minutesPerQuestion} min per question` : ''}</span>` : ''}
       </button>
+      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Hover to open</span>
       <div class="bd-panel-body">
         ${body}
         <div class="bd-questions" data-questions-slot></div>
@@ -4560,10 +4562,12 @@ function renderBreakdownPanel(data, section, idx) {
 
 // Hovering a panel opens it without moving the pinned section; leaving falls back to the pinned one
 function peekBreakdownSection(idx) {
-  document.querySelectorAll('#examBreakdownModal .bd-panel').forEach((el) => {
+  document.querySelectorAll('#examBreakdownModal .bd-panel, #examBreakdownModal .bd-bar-seg').forEach((el) => {
     el.classList.toggle('is-peek', idx != null && Number(el.dataset.idx) === idx);
   });
-  document.querySelector('#examBreakdownModal .bd-panels')?.classList.toggle('is-peeking', idx != null);
+  document.querySelectorAll('#examBreakdownModal .bd-panels, #examBreakdownModal .bd-bar').forEach((el) => {
+    el.classList.toggle('is-peeking', idx != null);
+  });
 }
 
 function selectBreakdownSection(subjectId, idx) {
