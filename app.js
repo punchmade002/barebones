@@ -474,6 +474,9 @@ let activatingAuthUserId = "";
 let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
 // The subsection whose notes are open; paging through notes leaves selectedOutcomeId alone.
 let notesOutcomeId = "";
+// Questions whose every part tests a topic dropped from the current course stay hidden
+// unless the student asks to see them. Declared up here because renderAll() runs first.
+let showOffSpecExamQuestions = false;
 let expandedSubjectId = "";
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
@@ -2909,10 +2912,6 @@ function getExamQuestionsForChapter(chapter) {
   // Fall back to live DB for chapters loaded via additive scripts after the initial push loop.
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
 }
-
-// Questions whose every part tests a topic dropped from the current course stay hidden
-// unless the student asks to see them.
-let showOffSpecExamQuestions = false;
 
 function isOffSpecExamGroup(group) {
   const parts = group?.parts || [];
