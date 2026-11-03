@@ -394,31 +394,47 @@
   gap: 0.35rem;
 }
 
-/* The markup tools float over the top of the page, out of the way of the title */
+/* The markup tools sit top right, under the zoom and Open PDF controls: the tools on
+   one row, their colours with undo and clear on the next. They're drawn half as big
+   again as the bar's own buttons, to be easy to hit with a pen or a finger. */
 .pv-tools {
   position: absolute;
   top: 14px;
-  left: 50%;
+  right: 14px;
   z-index: 2;
   display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  max-width: calc(100% - 24px);
-  padding: 0.3rem;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.45rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--r-full);
+  border-radius: 36px;
   background: rgba(22, 21, 18, 0.86);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  transform: translateX(-50%);
 }
+
+.pv-tools-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.pv-tools .pv-tool,
+.pv-tools .pv-act {
+  min-width: 54px;
+  height: 54px;
+  font-size: 1.65rem;
+}
+
+.pv-tools svg { width: 30px; height: 30px; }
+.pv-tools .pv-act--text { margin-left: auto; padding: 0 1.2rem; font-size: 1.2rem; }
 
 .pv-toolset {
   display: flex;
   flex: none;
-  gap: 0.15rem;
-  padding: 0.2rem;
+  gap: 0.22rem;
+  padding: 0.3rem;
   border-radius: var(--r-full);
   background: var(--desk-3);
 }
@@ -438,7 +454,7 @@
   transition: background var(--t) var(--ease), color var(--t) var(--ease);
 }
 
-.pv-act--text { padding: 0 0.8rem; font-size: 0.8rem; white-space: nowrap; }
+.pv-act--text { display: flex; align-items: center; padding: 0 0.8rem; font-size: 0.8rem; white-space: pre; }
 
 .pv-back:hover,
 .pv-tool:hover,
@@ -456,15 +472,15 @@
 .pv-colors {
   display: flex;
   flex: none;
-  gap: 0.3rem;
-  padding: 0 0.25rem;
+  gap: 0.45rem;
+  padding: 0 0.4rem;
 }
 
 .pv-swatch {
   flex: none;
   padding: 0;
-  width: 22px !important;
-  height: 22px;
+  width: 33px !important;
+  height: 33px;
   border-radius: 50%;
   background: var(--swatch) !important;
   box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.18);
@@ -472,7 +488,7 @@
 }
 
 .pv-swatch:hover { transform: scale(1.12); }
-.pv-swatch.is-active { box-shadow: 0 0 0 2px var(--desk-2), 0 0 0 4px var(--desk-ink); }
+.pv-swatch.is-active { box-shadow: 0 0 0 3px var(--desk-2), 0 0 0 6px var(--desk-ink); }
 
 .pv-open {
   padding: 0.45rem 0.85rem;
@@ -496,7 +512,7 @@
   position: absolute;
   inset: 0;
   display: flex;
-  padding: 72px 32px 32px;
+  padding: 32px;
   overflow: auto;
   overscroll-behavior: contain;
   background:
@@ -529,6 +545,39 @@
 
 .paper-viewer[data-tool="view"] .pv-ink { pointer-events: none; }
 .paper-viewer[data-tool="eraser"] .pv-ink { cursor: cell; }
+.paper-viewer[data-tool="text"] .pv-ink { cursor: text; }
+
+.pv-text-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Sized from the page's width (--pv-w), so a box keeps its place and size at every zoom */
+.pv-textbox {
+  position: absolute;
+  min-width: 1.5em;
+  padding: 0.1em 0.25em;
+  border: 1.5px dashed transparent;
+  border-radius: 3px;
+  font-family: var(--font);
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  pointer-events: auto;
+  cursor: text;
+  outline: none;
+  translate: -0.25em -0.7em;
+}
+
+.pv-textbox:hover { border-color: rgba(250, 76, 6, 0.35); }
+.pv-textbox:focus { border-color: var(--accent); background: rgba(255, 255, 255, 0.85); }
+
+/* Drawing passes over text boxes; the eraser removes one with a click */
+.paper-viewer[data-tool="pen"] .pv-textbox,
+.paper-viewer[data-tool="highlighter"] .pv-textbox { pointer-events: none; }
+.paper-viewer[data-tool="eraser"] .pv-textbox { cursor: cell; }
 
 .pv-turn {
   position: absolute;
@@ -706,20 +755,35 @@
   .pv-back span { display: none; }
   .pv-open { display: none; }
 
+  /* No room for a second row or the bigger buttons: one centred strip across the top */
   .pv-tools {
     top: 8px;
+    right: auto;
+    left: 50%;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    max-width: calc(100% - 16px);
+    padding: 0.3rem;
+    border-radius: var(--r-full);
     overflow-x: auto;
     scrollbar-width: none;
+    transform: translateX(-50%);
   }
+
+  .pv-tools-row { flex: none; gap: 0.3rem; }
+  .pv-toolset { gap: 0.1rem; padding: 0.2rem; }
+  .pv-tools svg { width: 20px; height: 20px; }
 
   .pv-zoom { gap: 0.1rem; }
   .pv-zoom .pv-act { min-width: 30px; }
   .pv-zoom #pvZoomFit { min-width: 40px; padding: 0 0.3rem; }
-  .pv-tool, .pv-act { min-width: 34px; height: 34px; }
+  .pv-tools .pv-tool, .pv-tools .pv-act { min-width: 32px; height: 32px; font-size: 1.1rem; }
+  .pv-tools .pv-act--text { padding: 0 0.55rem; font-size: 0.8rem; }
   .pv-wide { display: none; }
   .pv-colors { gap: 0.2rem; padding: 0 0.1rem; }
   .pv-swatch { width: 20px !important; height: 20px; }
-  .pv-act--text { padding: 0 0.6rem; }
+  .pv-swatch.is-active { box-shadow: 0 0 0 2px var(--desk-2), 0 0 0 4px var(--desk-ink); }
 
   .pv-stage { padding: 60px 12px 12px; }
   .pv-turn { width: 40px !important; height: 40px; margin-top: -20px; opacity: 0.85; }

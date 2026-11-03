@@ -1,5 +1,6 @@
 // Exam papers: every whole past paper for a subject, opened one page at a time in a viewer
-// with a page strip along the bottom and a pen, highlighter and eraser for writing on it.
+// with a page strip along the bottom and a pen, highlighter, text boxes and an eraser for
+// writing on it.
 // The list comes from exam-papers.js (scripts/build_exam_papers.py). PDF.js is fetched the
 // first time a paper is opened, and a student's markup is kept in this browser per paper.
 
@@ -14,6 +15,8 @@ const PAPER_TOOLS = {
   pen: { width: 0.0028, alpha: 1, colors: ["#1A1916", "#DC2626", "#2563EB"] },
   highlighter: { width: 0.02, alpha: 0.42, colors: ["#FACC15", "#4ADE80", "#F472B6"] },
   eraser: { reach: 0.012 },
+  // A text box's font size; 0.022 of the width sits just above the paper's own print
+  text: { size: 0.022, colors: ["#1A1916", "#DC2626", "#2563EB"] },
 };
 
 const papersState = { subjectId: "", level: "all" };
@@ -24,7 +27,11 @@ const viewer = {
   page: 1,
   zoom: 1,
   tool: "view",
-  colors: { pen: PAPER_TOOLS.pen.colors[0], highlighter: PAPER_TOOLS.highlighter.colors[0] },
+  colors: {
+    pen: PAPER_TOOLS.pen.colors[0],
+    highlighter: PAPER_TOOLS.highlighter.colors[0],
+    text: PAPER_TOOLS.text.colors[0],
+  },
   ink: {},
   undo: {},
   stroke: null,
@@ -178,6 +185,8 @@ async function openPaperViewer(paper) {
   pv.tag.innerHTML = paper.oldCourse ? oldCourseTag() : "";
   pv.open.href = paper.file;
   pv.strip.innerHTML = "";
+  pv.textLayer.innerHTML = "";
+  pv.textLayer.dataset.key = "";
   pv.pageLabel.textContent = "";
   pv.sheet.classList.add("is-loading");
   setPaperStatus("Opening the paper…");
@@ -290,7 +299,10 @@ async function renderPaperPage() {
   }
   pv.ink.width = canvas.width;
   pv.ink.height = canvas.height;
+  pv.sheet.style.setProperty("--pv-w", `${width}px`);
   pv.sheet.classList.remove("is-loading");
+  // Text boxes scale with --pv-w, so a zoom keeps them (and any box being typed in) as they are
+  if (pv.textLayer.dataset.key !== `${viewer.paper.file}#${pageNumber}`) renderPaperText();
   pv.zoomFit.textContent = viewer.zoom === 1 ? "Fit" : `${Math.round(viewer.zoom * 100)}%`;
   drawPaperInk();
 }
@@ -372,16 +384,19 @@ function loadPaperInk(file) {
 }
 
 function savePaperInk() {
-  const ink = Object.fromEntries(Object.entries(viewer.ink).filter(([, strokes]) => strokes.length));
-  viewer.ink = ink;
+  viewer.ink = Object.fromEntries(Object.entries(viewer.ink).filter(([, items]) => items.length));
+  // A text box still empty (just placed, not typed in yet) isn't kept
+  const stored = Object.fromEntries(Object.entries(viewer.ink)
+    .map(([page, items]) => [page, items.filter((item) => item.tool !== "text" || item.text.trim())])
+    .filter(([, items]) => items.length));
   try {
-    if (Object.keys(ink).length) localStorage.setItem(paperInkKey(viewer.paper.file), JSON.stringify(ink));
+    if (Object.keys(stored).length) localStorage.setItem(paperInkKey(viewer.paper.file), JSON.stringify(stored));
     else localStorage.removeItem(paperInkKey(viewer.paper.file));
   } catch (error) {
     console.error(error);
   }
   pv.strip.querySelector(`.pv-thumb[data-page="${viewer.page}"]`)
-    ?.classList.toggle("has-ink", Boolean(ink[viewer.page]?.length));
+    ?.classList.toggle("has-ink", Boolean(stored[viewer.page]?.length));
 }
 
 function pageStrokes() {
@@ -390,9 +405,7 @@ function pageStrokes() {
 }
 
 function rememberForUndo() {
-  const stack = viewer.undo[viewer.page] || (viewer.undo[viewer.page] = []);
-  stack.push(JSON.stringify(pageStrokes()));
-  if (stack.length > 60) stack.shift();
+  pushUndo(JSON.stringify(pageStrokes()));
 }
 
 function undoPaperInk() {
@@ -401,6 +414,7 @@ function undoPaperInk() {
   viewer.ink[viewer.page] = JSON.parse(stack.pop());
   savePaperInk();
   drawPaperInk();
+  renderPaperText();
 }
 
 function clearPaperPage() {
@@ -409,6 +423,7 @@ function clearPaperPage() {
   viewer.ink[viewer.page] = [];
   savePaperInk();
   drawPaperInk();
+  renderPaperText();
 }
 
 function drawPaperInk() {
@@ -416,7 +431,7 @@ function drawPaperInk() {
   const w = pv.ink.width;
   const h = pv.ink.height;
   ctx.clearRect(0, 0, w, h);
-  const strokes = [...(viewer.ink[viewer.page] || [])];
+  const strokes = (viewer.ink[viewer.page] || []).filter((item) => item.tool !== "text");
   if (viewer.stroke) strokes.push(viewer.stroke);
   // Highlighter goes under the pen so written answers stay crisp on top
   strokes.sort((a, b) => (a.tool === "highlighter" ? 0 : 1) - (b.tool === "highlighter" ? 0 : 1));
@@ -459,7 +474,7 @@ function eraseAt([x, y]) {
   const aspect = pv.ink.height / pv.ink.width;
   const reach = PAPER_TOOLS.eraser.reach;
   // Distances are measured in page widths so the eraser is round on the page
-  const near = (stroke) => stroke.points.some(([px, py], i) => {
+  const near = (stroke) => stroke.tool !== "text" && stroke.points.some(([px, py], i) => {
     const [qx, qy] = stroke.points[i + 1] || [px, py];
     const ax = px, ay = py * aspect, bx = qx, by = qy * aspect, cx = x, cy = y * aspect;
     const len = (bx - ax) ** 2 + (by - ay) ** 2;
@@ -481,6 +496,11 @@ function eraseAt([x, y]) {
 function bindPaperInk() {
   pv.ink.addEventListener("pointerdown", (event) => {
     if (viewer.tool === "view" || event.button > 0) return;
+    if (viewer.tool === "text") {
+      event.preventDefault();
+      placeTextBox(inkPoint(event));
+      return;
+    }
     if (viewer.pointerId !== null) return;
     event.preventDefault();
     viewer.pointerId = event.pointerId;
@@ -540,6 +560,97 @@ function bindPaperInk() {
   pv.ink.addEventListener("pointercancel", finish);
 }
 
+// ── Text boxes ───────────────────────────────────────────
+
+function renderPaperText() {
+  if (pv.textLayer.contains(document.activeElement)) document.activeElement.blur();
+  pv.textLayer.dataset.key = viewer.paper ? `${viewer.paper.file}#${viewer.page}` : "";
+  pv.textLayer.innerHTML = "";
+  (viewer.ink[viewer.page] || []).forEach((item) => {
+    if (item.tool === "text") pv.textLayer.appendChild(makeTextBox(item));
+  });
+}
+
+// The text tool places one box where the page is next clicked, then hands back to Move
+function placeTextBox([x, y]) {
+  const before = JSON.stringify(pageStrokes());
+  const item = {
+    tool: "text",
+    x: Math.round(x * 1e4) / 1e4,
+    y: Math.round(y * 1e4) / 1e4,
+    color: viewer.colors.text,
+    size: PAPER_TOOLS.text.size,
+    text: "",
+  };
+  pageStrokes().push(item);
+  const box = makeTextBox(item, before);
+  pv.textLayer.appendChild(box);
+  setPaperTool("view");
+  box.focus();
+}
+
+function makeTextBox(item, newBefore = null) {
+  const box = document.createElement("div");
+  box.className = "pv-textbox";
+  try {
+    box.contentEditable = "plaintext-only";
+  } catch (error) {
+    box.contentEditable = "true";
+  }
+  box.spellcheck = false;
+  box.setAttribute("role", "textbox");
+  box.setAttribute("aria-label", "Text box");
+  box.style.left = `${item.x * 100}%`;
+  box.style.top = `${item.y * 100}%`;
+  box.style.maxWidth = `${(1 - item.x) * 100}%`;
+  box.style.color = item.color;
+  box.style.fontSize = `calc(var(--pv-w) * ${item.size})`;
+  box.textContent = item.text;
+
+  // Undo steps back over a whole edit, from focus to blur, rather than each keystroke
+  let before = newBefore;
+  let startText = item.text;
+  box.addEventListener("focus", () => {
+    if (newBefore === null) before = JSON.stringify(pageStrokes());
+    startText = item.text;
+  });
+  box.addEventListener("input", () => {
+    item.text = box.innerText.replace(/\n$/, "");
+    savePaperInk();
+  });
+  box.addEventListener("blur", () => {
+    const strokes = viewer.ink[viewer.page] || [];
+    if (!strokes.includes(item)) return;
+    if (!item.text.trim()) {
+      strokes.splice(strokes.indexOf(item), 1);
+      box.remove();
+      if (newBefore === null) pushUndo(before);
+    } else if (newBefore !== null || item.text !== startText) {
+      pushUndo(before);
+    }
+    newBefore = null;
+    savePaperInk();
+  });
+  // Typing stays in the box: the viewer's and the app's key shortcuts don't see it
+  box.addEventListener("keydown", (event) => event.stopPropagation());
+  box.addEventListener("pointerdown", (event) => {
+    if (viewer.tool !== "eraser") return;
+    event.preventDefault();
+    const strokes = pageStrokes();
+    pushUndo(JSON.stringify(strokes));
+    strokes.splice(strokes.indexOf(item), 1);
+    box.remove();
+    savePaperInk();
+  });
+  return box;
+}
+
+function pushUndo(snapshot) {
+  const stack = viewer.undo[viewer.page] || (viewer.undo[viewer.page] = []);
+  stack.push(snapshot);
+  if (stack.length > 60) stack.shift();
+}
+
 function setPaperTool(tool) {
   viewer.tool = tool;
   pv.root.dataset.tool = tool;
@@ -580,6 +691,7 @@ function initPaperArchive() {
     sheet: byId("pvSheet"),
     page: byId("pvPage"),
     ink: byId("pvInk"),
+    textLayer: byId("pvText"),
     prev: byId("pvPrev"),
     next: byId("pvNext"),
     status: byId("pvStatus"),
@@ -617,6 +729,14 @@ function initPaperArchive() {
     const viewerOpen = !pv.root.classList.contains("hidden");
     const archiveOpen = !byId("papersScreen").classList.contains("hidden");
     if (!viewerOpen && !archiveOpen) return;
+    if (event.target.isContentEditable) {
+      // Escape finishes the text box instead of closing the paper
+      if (event.key === "Escape") {
+        event.stopImmediatePropagation();
+        event.target.blur();
+      }
+      return;
+    }
     if (event.key === "Escape") {
       event.stopImmediatePropagation();
       if (viewerOpen) leavePhoneScreen("paper", closePaperViewer);
@@ -643,6 +763,7 @@ function initPaperArchive() {
       p: () => setPaperTool("pen"),
       h: () => setPaperTool("highlighter"),
       e: () => setPaperTool("eraser"),
+      t: () => setPaperTool("text"),
     };
     const action = keys[event.key] || keys[event.key.toLowerCase()];
     // Up and down scroll the page instead when it is zoomed past the screen
