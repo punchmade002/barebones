@@ -303,6 +303,8 @@ async function renderPaperPage() {
   pv.sheet.classList.remove("is-loading");
   // Text boxes scale with --pv-w, so a zoom keeps them (and any box being typed in) as they are
   if (pv.textLayer.dataset.key !== `${viewer.paper.file}#${pageNumber}`) renderPaperText();
+  pv.stage.classList.toggle("can-pan",
+    pv.stage.scrollWidth > pv.stage.clientWidth + 1 || pv.stage.scrollHeight > pv.stage.clientHeight + 1);
   pv.zoomFit.textContent = viewer.zoom === 1 ? "Fit" : `${Math.round(viewer.zoom * 100)}%`;
   drawPaperInk();
 }
@@ -634,15 +636,93 @@ function makeTextBox(item, newBefore = null) {
   // Typing stays in the box: the viewer's and the app's key shortcuts don't see it
   box.addEventListener("keydown", (event) => event.stopPropagation());
   box.addEventListener("pointerdown", (event) => {
-    if (viewer.tool !== "eraser") return;
-    event.preventDefault();
-    const strokes = pageStrokes();
-    pushUndo(JSON.stringify(strokes));
-    strokes.splice(strokes.indexOf(item), 1);
-    box.remove();
-    savePaperInk();
+    if (viewer.tool === "eraser") {
+      event.preventDefault();
+      const strokes = pageStrokes();
+      pushUndo(JSON.stringify(strokes));
+      strokes.splice(strokes.indexOf(item), 1);
+      box.remove();
+      savePaperInk();
+      return;
+    }
+    if (viewer.tool === "view" && event.button === 0 && document.activeElement !== box) dragTextBox(event, box, item);
   });
   return box;
+}
+
+// With Move, pressing a text box and moving drags it; a press that doesn't move is a click,
+// which puts the cursor in the box where it was clicked
+function dragTextBox(event, box, item) {
+  event.preventDefault();
+  const sheet = pv.sheet.getBoundingClientRect();
+  const start = { x: event.clientX, y: event.clientY, itemX: item.x, itemY: item.y };
+  const snapshot = JSON.stringify(pageStrokes());
+  let dragging = false;
+  try { box.setPointerCapture(event.pointerId); } catch (error) { /* the drag still follows */ }
+
+  const move = (e) => {
+    if (e.pointerId !== event.pointerId) return;
+    const dx = e.clientX - start.x;
+    const dy = e.clientY - start.y;
+    if (!dragging && Math.hypot(dx, dy) < 4) return;
+    dragging = true;
+    box.classList.add("is-dragging");
+    item.x = Math.min(0.98, Math.max(0, start.itemX + dx / sheet.width));
+    item.y = Math.min(0.99, Math.max(0.01, start.itemY + dy / sheet.height));
+    box.style.left = `${item.x * 100}%`;
+    box.style.top = `${item.y * 100}%`;
+    box.style.maxWidth = `${(1 - item.x) * 100}%`;
+  };
+  const end = (e) => {
+    if (e.pointerId !== event.pointerId) return;
+    box.removeEventListener("pointermove", move);
+    box.removeEventListener("pointerup", end);
+    box.removeEventListener("pointercancel", end);
+    box.classList.remove("is-dragging");
+    if (dragging) {
+      item.x = Math.round(item.x * 1e4) / 1e4;
+      item.y = Math.round(item.y * 1e4) / 1e4;
+      pushUndo(snapshot);
+      savePaperInk();
+      return;
+    }
+    if (e.type === "pointercancel") return;
+    box.focus();
+    const range = document.caretRangeFromPoint?.(e.clientX, e.clientY);
+    if (range && box.contains(range.startContainer)) {
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }
+  };
+  box.addEventListener("pointermove", move);
+  box.addEventListener("pointerup", end);
+  box.addEventListener("pointercancel", end);
+}
+
+// With Move, dragging a zoomed page with a mouse or stylus pans it (fingers already scroll)
+function bindPaperPan() {
+  let pan = null;
+  pv.stage.addEventListener("pointerdown", (event) => {
+    if (viewer.tool !== "view" || event.button > 0 || event.pointerType === "touch") return;
+    if (event.target.closest(".pv-textbox")) return;
+    event.preventDefault();
+    pan = { id: event.pointerId, x: event.clientX, y: event.clientY, left: pv.stage.scrollLeft, top: pv.stage.scrollTop };
+    try { pv.stage.setPointerCapture(event.pointerId); } catch (error) { /* panning still follows */ }
+    pv.stage.classList.add("is-panning");
+  });
+  pv.stage.addEventListener("pointermove", (event) => {
+    if (event.pointerId !== pan?.id) return;
+    pv.stage.scrollLeft = pan.left - (event.clientX - pan.x);
+    pv.stage.scrollTop = pan.top - (event.clientY - pan.y);
+  });
+  const end = (event) => {
+    if (event.pointerId !== pan?.id) return;
+    pan = null;
+    pv.stage.classList.remove("is-panning");
+  };
+  pv.stage.addEventListener("pointerup", end);
+  pv.stage.addEventListener("pointercancel", end);
 }
 
 function pushUndo(snapshot) {
@@ -715,6 +795,7 @@ function initPaperArchive() {
     button.addEventListener("click", () => setPaperTool(button.dataset.tool));
   });
   bindPaperInk();
+  bindPaperPan();
   setPaperTool("view");
 
   let resizeTimer = 0;

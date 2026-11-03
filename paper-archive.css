@@ -585,6 +585,14 @@
 .pv-textbox:hover { border-color: rgba(250, 76, 6, 0.35); }
 .pv-textbox:focus { border-color: var(--accent); background: rgba(255, 255, 255, 0.85); }
 
+/* Move drags a zoomed page around, and drags text boxes; clicking a box still edits it */
+.paper-viewer[data-tool="view"] .pv-stage.can-pan { cursor: grab; }
+.pv-stage.is-panning,
+.pv-stage.is-panning * { cursor: grabbing !important; user-select: none; }
+
+.paper-viewer[data-tool="view"] .pv-textbox:not(:focus) { cursor: move; touch-action: none; }
+.pv-textbox.is-dragging { border-color: var(--accent); cursor: grabbing; user-select: none; }
+
 /* Drawing passes over text boxes; the eraser removes one with a click */
 .paper-viewer[data-tool="pen"] .pv-textbox,
 .paper-viewer[data-tool="highlighter"] .pv-textbox { pointer-events: none; }
