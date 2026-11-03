@@ -122,6 +122,8 @@ Full-screen backdrop: `rgba(26,25,22,0.6)` + `backdrop-filter: blur(6px)`. Card:
 
 Full Notes is edge-to-edge (no backdrop), `background: --bg`.
 
+In a chapter with subsections, Full Notes pages through them: round arrows sit at mid-height either side of the reading column (beside the title on phones), the arrow keys and a sideways swipe do the same, and each page ends on a "Next subsection" link. Paging leaves the subsection being studied unchanged. The subsection grid has its own Full notes pill, which opens on the first subsection.
+
 ### Progress Page
 Not an overlay: `.progress-screen` is a fixed, full-viewport page on `--bg`. Title is orange, `clamp(2.4rem, 5vw, 3.6rem)`, weight 800. Body is a `min(1180px, 100%)` column: a summary band, then one row per subject carrying the percentage, an overall bar and a strip of per-chapter columns, with a "Chapter detail" link into a named-chapter list.
 
