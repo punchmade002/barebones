@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="./responsive.css?v=5" />
-    <link rel="stylesheet" href="./paper-archive.css?v=2" />
+    <link rel="stylesheet" href="./paper-archive.css?v=3" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -327,6 +327,7 @@
           <div id="pvSheet" class="pv-sheet">
             <canvas id="pvPage" class="pv-page"></canvas>
             <canvas id="pvInk" class="pv-ink"></canvas>
+            <div id="pvText" class="pv-text-layer"></div>
           </div>
         </div>
         <div class="pv-tools" role="toolbar" aria-label="Markup">
@@ -340,15 +341,20 @@
             <button class="pv-tool" type="button" data-tool="highlighter" title="Highlighter (H)" aria-label="Highlighter" aria-pressed="false">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 15l-2.5 2.5V20h-3l3-3L9 15z" /><path d="M9 15l3 3 8.3-8.3a2.1 2.1 0 0 0 0-3L17.3 3.7a2.1 2.1 0 0 0-3 0L6 12l3 3z" /></svg>
             </button>
+            <button class="pv-tool" type="button" data-tool="text" title="Text box (T): click the page where it goes" aria-label="Text box" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7V5h14v2" /><path d="M12 5v14" /><path d="M9 19h6" /></svg>
+            </button>
             <button class="pv-tool" type="button" data-tool="eraser" title="Eraser (E)" aria-label="Eraser" aria-pressed="false">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 20H20" /><path d="M5.3 16.3l9.9-11.1a2 2 0 0 1 2.9-.1l2 2a2 2 0 0 1 0 2.8L11 20H8.5l-3.2-3.2a.4.4 0 0 1 0-.5z" /><path d="M10 10.5l5.5 5.5" /></svg>
             </button>
           </div>
-          <div id="pvColors" class="pv-colors" aria-label="Colour"></div>
-          <button id="pvUndo" class="pv-act" type="button" title="Undo (Ctrl+Z)" aria-label="Undo">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5" /><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11" /></svg>
-          </button>
-          <button id="pvClear" class="pv-act pv-act--text" type="button">Clear<span class="pv-wide"> page</span></button>
+          <div class="pv-tools-row">
+            <div id="pvColors" class="pv-colors" aria-label="Colour"></div>
+            <button id="pvUndo" class="pv-act" type="button" title="Undo (Ctrl+Z)" aria-label="Undo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5" /><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11" /></svg>
+            </button>
+            <button id="pvClear" class="pv-act pv-act--text" type="button">Clear<span class="pv-wide"> page</span></button>
+          </div>
         </div>
         <button id="pvPrev" class="pv-turn pv-turn--prev" type="button" aria-label="Previous page">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
@@ -422,7 +428,7 @@
     <script src="./history-content.js?v=2"></script>
     <script src="./history-test-questions.js?v=1"></script>
     <script src="./exam-questions-db.js?v=4"></script>
-    <script src="./exam-breakdown.js?v=3"></script>
+    <script src="./exam-breakdown.js?v=4"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
     <script src="./auth.js?v=2"></script>
@@ -444,7 +450,7 @@
     <script src="./exam-packs.js?v=1"></script>
     <script src="./app.js?v=76"></script>
     <script src="./exam-papers.js?v=1"></script>
-    <script src="./paper-archive.js?v=1"></script>
+    <script src="./paper-archive.js?v=2"></script>
     <script src="./timer.js?v=2"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
