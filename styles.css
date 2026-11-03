@@ -1939,6 +1939,45 @@ details[open] > summary::before { transform: rotate(90deg); }
   line-height: 1.65;
 }
 
+/* Question as printed: crops of the original paper, read like the sheet itself */
+.exam-paper {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.6rem 0.6rem 0.9rem;
+}
+
+.exam-paper-page {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r-xs);
+  background: var(--panel);
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: none;
+}
+
+.exam-paper-page:hover { border-color: var(--accent-light); transform: none; }
+.exam-paper-page:active { transform: none !important; }
+.exam-paper-page:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.exam-paper-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.exam-part-note { margin: 0; }
+
+.exam-offspec-toggle {
+  justify-self: start;
+  width: auto;
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  padding: 0.35rem 0.88rem;
+}
+
 .exam-diagram-inline {
   border: 1.5px solid var(--line);
   border-radius: var(--r-md);

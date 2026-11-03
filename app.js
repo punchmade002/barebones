@@ -2439,6 +2439,7 @@ function renderTestQuestion(item) {
       <span>${plural(item.marks, "mark")} · about ${minutes} min</span>
     </p>
     ${item.context ? `<div class="test-context">${testMultiline(item.context)}</div>` : ""}
+    ${item.images?.length ? renderExamPaperImages({ images: item.images, year: item.year, questionNumber: item.questionNumber, level: item.level }) : ""}
     <h2 class="test-prompt test-prompt--exam">${testMultiline(item.prompt)}</h2>
     ${item.diagram ? `<button type="button" class="button-secondary test-diagram" data-test-diagram="${escapeHtml(item.diagram)}">Show diagram</button>` : ""}
     <textarea class="test-answer" data-test-text rows="${item.marks >= 20 ? 10 : 6}" placeholder="Your answer">${escapeHtml(response.text || "")}</textarea>`;
@@ -2901,9 +2902,41 @@ function cardsForOutcome(outcome, subjectId) {
 function getExamQuestionsForChapter(chapter) {
   const source = getOriginalChapter(chapter.id);
   const cached = source?.examQuestions || [];
+  // Rebuilt (paper-crop) questions load after the push loop, so list them ahead of the cache.
+  const rebuilt = (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id && q.images?.length);
+  if (rebuilt.length) return [...rebuilt, ...cached.filter(q => !rebuilt.includes(q))];
   if (cached.length) return cached;
   // Fall back to live DB for chapters loaded via additive scripts after the initial push loop.
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
+}
+
+// Questions whose every part tests a topic dropped from the current course stay hidden
+// unless the student asks to see them.
+let showOffSpecExamQuestions = false;
+
+function isOffSpecExamGroup(group) {
+  const parts = group?.parts || [];
+  return parts.length > 0 && parts.every((part) => part.offSpec);
+}
+
+// Rebuilt banks show the question exactly as printed on the paper (cropped from the PDF),
+// so students read the stem, data and figures the way they will in the exam.
+function renderExamPaperImages(group) {
+  if (!group.images?.length) return "";
+  const where = [group.year, group.level === "ordinary" ? "Ordinary Level" : group.level === "higher" ? "Higher Level" : "", group.questionNumber ? `Question ${group.questionNumber}` : ""].filter(Boolean).join(" ");
+  return `<div class="exam-paper">${group.images.map((src, i) => `
+    <button type="button" class="exam-paper-page" onclick="openDiagramModal('${escapeHtml(src)}')" aria-label="Enlarge page ${i + 1} of ${group.images.length}">
+      <img src="${escapeHtml(src)}" alt="${escapeHtml(`${where} as printed on the paper${group.images.length > 1 ? `, page ${i + 1} of ${group.images.length}` : ""}`)}" loading="lazy" />
+    </button>`).join("")}
+  </div>`;
+}
+
+// Part rows for image-based questions carry no question text, only what the paper can't show.
+function renderExamPartStatus(group, part) {
+  if (!group.images?.length) return "";
+  if (part.offSpec) return `<p class="exam-part-note muted small">Not on the current course, so there is no model answer.</p>`;
+  if (!part.model) return `<p class="exam-part-note muted small">Model answer under review.</p>`;
+  return "";
 }
 
 function compactExamSource(group) {
@@ -2916,7 +2949,8 @@ function compactExamSource(group) {
   const section = namedSection
     ? (/^\d+$/.test(namedSection) ? `S${namedSection}` : namedSection.toUpperCase())
     : letterSection.toUpperCase();
-  const pieces = [year, paper ? `P${paper}` : section, question ? `Q${question}` : ""].filter(Boolean);
+  const level = group?.level === "higher" ? "HL" : group?.level === "ordinary" ? "OL" : "";
+  const pieces = [year, level, paper ? `P${paper}` : section, question ? `Q${question}` : ""].filter(Boolean);
   return pieces.length >= 2 ? pieces.join(" ") : compactText(source).slice(0, 32);
 }
 
@@ -2929,8 +2963,8 @@ function getExamDisclaimer(subject) {
     },
     biology: {
       tone: "info",
-      status: "Mostly reliable",
-      body: "The Biology course has minor differences from previous years. The core content is largely unchanged, so past papers remain useful.",
+      status: "Previous course",
+      body: "These papers (2015 to 2025) were set on the previous Biology course; the new course is first examined in 2027. Most of the content carries over. Parts on dropped topics have no model answer, and questions made up entirely of dropped topics are hidden.",
     },
     chemistry: {
       tone: "warning",
@@ -2964,13 +2998,18 @@ function getExamDisclaimer(subject) {
 function renderExamSection() {
   const chapter = getSelectedChapter();
   if (!chapter) return;
-  const examGroups = getExamQuestionsForChapter(chapter);
+  const allGroups = getExamQuestionsForChapter(chapter);
+  const hiddenCount = allGroups.filter(isOffSpecExamGroup).length;
+  const examGroups = showOffSpecExamQuestions ? allGroups : allGroups.filter((group) => !isOffSpecExamGroup(group));
+  const offSpecToggle = hiddenCount
+    ? `<button type="button" class="button-secondary exam-offspec-toggle" onclick="showOffSpecExamQuestions = !showOffSpecExamQuestions; renderExamSection();">${showOffSpecExamQuestions ? "Hide" : "Show"} ${plural(hiddenCount, "question")} not on the current course</button>`
+    : "";
 
   if (!examGroups.length) {
     els.examContainer.innerHTML = `
       <div class="exam-empty">
         <p class="muted">No past paper questions available for this chapter yet.</p>
-      </div>`;
+      </div>${offSpecToggle}`;
     return;
   }
 
@@ -2991,7 +3030,8 @@ function renderExamSection() {
             <span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? "" : "s"}${timingStr}</span>
             ${diagramBtn}
           </div>
-          <p class="exam-question-text">${escapeHtml(part.question)}</p>
+          ${part.question ? `<p class="exam-question-text">${escapeHtml(part.question)}</p>` : ""}
+          ${renderExamPartStatus(group, part)}
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join("");
@@ -3011,7 +3051,7 @@ function renderExamSection() {
       : "";
 
     const _sq = getSectionForQuestion(group.id);
-    const totalQMarks = (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
+    const totalQMarks = group.totalMarks || (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
     const totalQMins = getRecommendedMinutes(group.subject, totalQMarks);
     const meta = [
       totalQMarks ? `${totalQMarks} marks` : "",
@@ -3029,11 +3069,12 @@ function renderExamSection() {
         </button>
         <div class="exam-group-body hidden" id="${escapeHtml(bodyId)}">
           ${contextBox}
+          ${renderExamPaperImages(group)}
           ${parts}
           ${appliesToBlock}
         </div>
       </div>`;
-  }).join("");
+  }).join("") + offSpecToggle;
 
   bindExamAccordions(els.examContainer);
 
@@ -4408,7 +4449,7 @@ function selectBreakdownSection(subjectId, idx) {
     el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
   });
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
 
   const tips = section.tips;
   document.getElementById('breakdownDetail').innerHTML = `
@@ -4440,7 +4481,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
   if (!data) return;
   const section = data.sections[sectionIdx];
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
 
   const questionsHtml = questions.map((group, qi) => {
     const parts = (group.parts || []).map((part, pIdx) => {
@@ -4457,13 +4498,14 @@ function openSectionQuestions(subjectId, sectionIdx) {
             <span class="exam-part-label">${escapeHtml(part.label || '')}</span>
             ${part.marks ? `<span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? '' : 's'}</span>` : ''}
           </div>
-          <p class="exam-question-text">${escapeHtml(part.question || '')}</p>
+          ${part.question ? `<p class="exam-question-text">${escapeHtml(part.question)}</p>` : ''}
           ${diagramHtml}
+          ${renderExamPartStatus(group, part)}
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join('');
 
-    const totalMarks = (group.parts || []).reduce((sum, part) => sum + (part.marks || 0), 0);
+    const totalMarks = group.totalMarks || (group.parts || []).reduce((sum, part) => sum + (part.marks || 0), 0);
     const bodyId = `breakdown-exam-body-${qi}`;
 
     return `
@@ -4473,7 +4515,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
           <span class="exam-group-meta">${totalMarks ? `${totalMarks} marks` : ""}${group.parts?.length > 1 ? ` · ${group.parts.length} parts` : ""}</span>
           <span class="exam-group-chevron" aria-hidden="true">⌄</span>
         </button>
-        <div class="exam-group-body hidden" id="${bodyId}">${parts}</div>
+        <div class="exam-group-body hidden" id="${bodyId}">${renderExamPaperImages(group)}${parts}</div>
       </div>`;
   }).join('');
 

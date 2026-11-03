@@ -264,6 +264,10 @@
   }
 
   function isAnswerablePart(part, group) {
+    // Rebuilt banks show the printed question as images, so a part has no text of its own.
+    if (group?.images?.length) {
+      return Boolean(part && !part.offSpec && Number(part.marks) > 0 && compact(part.model));
+    }
     if (!part || !compact(part.question) || !(Number(part.marks) > 0)) return false;
     if (!compact(part.model) && !part.workedSolution) return false;
     if (needsPrintedSource(part, group)) return false;
@@ -324,7 +328,7 @@
           part,
           index,
           answerable: isAnswerablePart(part, group),
-          standalone: index === 0 || !BACK_REFERENCE_RE.test(part.question || ""),
+          standalone: index === 0 || Boolean(group.images?.length) || !BACK_REFERENCE_RE.test(part.question || ""),
           seconds: examPartSeconds(input.breakdown, part.marks),
         }));
         if (parts.some((p) => p.answerable)) examGroups.push({ chapterId: chapter.id, group, parts });
@@ -512,7 +516,10 @@
       source: group.source || "",
       year: group.year || null,
       label: part.label || "",
-      prompt: part.question,
+      prompt: part.question || `Answer part ${part.label} of the question shown.`,
+      images: group.images || [],
+      level: group.level || "",
+      questionNumber: group.questionNumber || null,
       model: part.model || "",
       workedSolution: part.workedSolution || null,
       diagram: part.diagram || "",
