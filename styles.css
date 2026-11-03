@@ -4845,6 +4845,120 @@ body.onboarding-open .timer-widget {
 #fullNotesScreen .full-notes-body .note-points li { margin-bottom: 0.55rem; padding-left: 0.2rem; }
 #fullNotesScreen .full-notes-body .note-points li::marker { color: var(--accent); }
 
+/* ── Full notes pager — a subsection's notes step to its neighbours ── */
+.notes-pager { display: none; }
+
+#fullNotesScreen.is-paged .notes-pager {
+  position: fixed;
+  top: calc(50% - 1.5rem);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border-radius: var(--r-full);
+  background: var(--panel);
+  color: var(--ink-2);
+  box-shadow: var(--s1);
+}
+
+#fullNotesScreen.is-paged .notes-pager--prev { left: clamp(0.75rem, 2vw, 2rem); }
+#fullNotesScreen.is-paged .notes-pager--next { right: clamp(0.75rem, 2vw, 2rem); }
+
+.notes-pager svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#fullNotesScreen.is-paged .notes-pager:hover:not(:disabled) {
+  background: var(--accent-xlight);
+  border-color: var(--accent-light);
+  color: var(--accent-strong);
+}
+
+#fullNotesScreen.is-paged .notes-pager:disabled {
+  opacity: 0.3;
+  cursor: default;
+  box-shadow: none;
+}
+
+.notes-pager:focus-visible,
+.notes-next-section:focus-visible,
+.outcome-picker-notes:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Keep the reading column clear of the side arrows */
+#fullNotesScreen.is-paged .full-notes-body {
+  padding-inline: clamp(4.75rem, 8vw, 6rem);
+}
+
+.notes-next-section {
+  display: grid;
+  gap: 0.2rem;
+  margin-top: 1rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: var(--r-md);
+  font-size: inherit; /* so its 68ch column matches the notes above */
+  text-align: left;
+}
+
+.notes-next-section span {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.notes-next-section strong {
+  color: var(--ink);
+  font-size: 1.1rem;
+  letter-spacing: -0.015em;
+}
+
+.notes-next-section strong::after {
+  content: " →";
+  color: var(--accent);
+}
+
+.notes-next-section:hover {
+  background: var(--accent-xxlight);
+  border-color: var(--accent-light);
+}
+
+.notes-enter-next { animation: notes-enter-next 260ms var(--ease) both; }
+.notes-enter-prev { animation: notes-enter-prev 260ms var(--ease) both; }
+
+@keyframes notes-enter-next {
+  from { opacity: 0; transform: translateX(1.5rem); }
+}
+
+@keyframes notes-enter-prev {
+  from { opacity: 0; transform: translateX(-1.5rem); }
+}
+
+.outcome-picker-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.outcome-picker-head .outcome-picker-notes {
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--panel);
+  color: var(--ink-2);
+  font-size: 0.78rem;
+  padding: 0.4rem 0.9rem;
+}
+
 /* ── Live reading — lyrics-style, three lines at a time ── */
 .live-reader {
   flex: 1;
@@ -4991,6 +5105,16 @@ body.onboarding-open .timer-widget {
   #fullNotesScreen .full-notes-card .toolbar { flex-wrap: wrap; }
   .full-notes-actions { width: 100%; }
   .full-notes-actions button { flex: 1; }
+  /* No room beside the text on a phone: the arrows flank the title instead */
+  #fullNotesScreen.is-paged .notes-pager {
+    position: static;
+    flex: 0 0 auto;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: none;
+  }
+  #fullNotesScreen.is-paged #fullNotesTitle { flex: 1; }
+  #fullNotesScreen.is-paged .full-notes-body { padding-inline: 1rem; }
   .live-reader-controls { flex-wrap: wrap; }
   /* Leave room for the floating study timer in the bottom-right corner. */
   .live-reader-speed { width: 100%; margin-left: 0; padding-right: 4.5rem; justify-content: center; }
@@ -5001,6 +5125,8 @@ body.onboarding-open .timer-widget {
   .live-reader-track,
   .lr-line,
   .outcome-card { transition: none; }
+  .notes-enter-next,
+  .notes-enter-prev { animation: none; }
 }
 
 /* ── Test ────────────────────────────────────── */
