@@ -65,6 +65,17 @@
 .exam-papers-link:hover { background: var(--desk-2); }
 .exam-papers-link:hover .exam-papers-link-arrow { transform: translateX(4px); }
 
+/* On the subject view it's the app's orange, like the Progress button */
+.exam-papers-link.overview-papers-link {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--so);
+}
+
+.overview-papers-link small { color: rgba(255, 255, 255, 0.86); }
+.overview-papers-link .exam-papers-link-arrow { color: #fff; }
+.exam-papers-link.overview-papers-link:hover { background: var(--accent-strong); }
+
 /* ── Archive ── */
 
 .papers-screen {
