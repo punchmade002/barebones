@@ -450,6 +450,8 @@ const els = {
   fullNotesTitle: document.getElementById("fullNotesTitle"),
   fullNotesBody: document.getElementById("fullNotesBody"),
   closeFullNotes: document.getElementById("closeFullNotes"),
+  fullNotesPrev: document.getElementById("fullNotesPrev"),
+  fullNotesNext: document.getElementById("fullNotesNext"),
   hierarchyPanel: document.getElementById("hierarchyPanel"),
   testContainer: document.getElementById("testContainer"),
   testScreen: document.getElementById("testScreen"),
@@ -470,6 +472,8 @@ let authSaveInFlight = null;
 let authActivationPromise = null;
 let activatingAuthUserId = "";
 let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
+// The subsection whose notes are open; paging through notes leaves selectedOutcomeId alone.
+let notesOutcomeId = "";
 let expandedSubjectId = "";
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
@@ -594,8 +598,9 @@ function bindEvents() {
   els.testScreen.addEventListener("click", handleTestScreenClick);
   els.testScreen.addEventListener("input", handleTestScreenInput);
   document.addEventListener("keydown", handleTestKeyboard);
-  els.openFullNotes.addEventListener("click", openFullNotes);
+  els.openFullNotes.addEventListener("click", () => openFullNotes());
   els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
+  bindFullNotesPager();
   bindLiveReader();
   els.openProgress.addEventListener("click", openProgress);
   document.addEventListener("click", (event) => {
@@ -1746,9 +1751,15 @@ function renderOutcomePicker() {
   picker.innerHTML = `
     <header class="outcome-picker-head">
       <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
+      <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
     </header>
     <div class="outcome-picker-grid">${cardsHtml}</div>
   `;
+
+  // From the grid the notes open on the first subsection and page on from there
+  picker.querySelector(".outcome-picker-notes").addEventListener("click", () => {
+    openFullNotes(chapter.learningOutcomes[0].id);
+  });
 
   picker.querySelectorAll(".outcome-card").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -3616,22 +3627,86 @@ function getSelectedOutcome() {
   return ch?.learningOutcomes.find((lo) => lo.id === selectedOutcomeId) || null;
 }
 
-function openFullNotes() {
+function openFullNotes(outcomeId = selectedOutcomeId) {
   const chapter = getSelectedChapter();
   if (!chapter) return;
-  const outcome = chapterHasSubsections(chapter) ? getSelectedOutcome() : null;
-  const heading = outcome ? compactText(outcome.title || "") : chapter.title;
-  els.fullNotesTitle.innerHTML = `
-    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)}` : ""}</span>
-    <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
-  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome);
+  notesOutcomeId = chapterHasSubsections(chapter) ? outcomeId : "";
   els.openLiveReading.classList.remove("hidden");
   closeLiveReader();
+  renderFullNotesPage();
   els.fullNotesScreen.classList.remove("hidden");
-  els.fullNotesBody.scrollTop = 0;
   document.body.style.overflow = "hidden";
   pushPhoneScreen("notes");
   markNotesViewed(chapter.id);
+}
+
+// In a chapter with subsections the notes are pages: the arrows either side,
+// the arrow keys and a sideways swipe step between them.
+function renderFullNotesPage(step = 0) {
+  const chapter = getSelectedChapter();
+  const outcomes = chapterHasSubsections(chapter) ? chapter.learningOutcomes : [];
+  const index = outcomes.findIndex((lo) => lo.id === notesOutcomeId);
+  const outcome = outcomes[index] || null;
+  const prev = outcomes[index - 1];
+  const next = outcomes[index + 1];
+  const heading = outcome ? compactText(outcome.title || "") : chapter.title;
+  els.fullNotesTitle.innerHTML = `
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}</span>
+    <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
+  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome) + (next ? `
+    <button class="notes-next-section" type="button" data-notes-step="1">
+      <span>Next subsection</span>
+      <strong>${escapeHtml(compactText(next.title || ""))}</strong>
+    </button>` : "");
+  els.fullNotesBody.scrollTop = 0;
+
+  els.fullNotesScreen.classList.toggle("is-paged", Boolean(outcome));
+  [[els.fullNotesPrev, prev, "Previous"], [els.fullNotesNext, next, "Next"]].forEach(([btn, lo, label]) => {
+    btn.disabled = !lo;
+    btn.title = lo ? `${label}: ${compactText(lo.title || "")}` : "";
+  });
+
+  els.fullNotesBody.classList.remove("notes-enter-next", "notes-enter-prev");
+  if (step) {
+    void els.fullNotesBody.offsetWidth; // restart the entrance animation
+    els.fullNotesBody.classList.add(step > 0 ? "notes-enter-next" : "notes-enter-prev");
+  }
+}
+
+function stepFullNotes(step) {
+  if (!els.fullNotesScreen.classList.contains("is-paged")) return;
+  const outcomes = getSelectedChapter()?.learningOutcomes || [];
+  const target = outcomes[outcomes.findIndex((lo) => lo.id === notesOutcomeId) + step];
+  if (!target) return;
+  closeLiveReader();
+  notesOutcomeId = target.id;
+  renderFullNotesPage(step);
+}
+
+function bindFullNotesPager() {
+  els.fullNotesPrev.addEventListener("click", () => stepFullNotes(-1));
+  els.fullNotesNext.addEventListener("click", () => stepFullNotes(1));
+  els.fullNotesBody.addEventListener("click", (event) => {
+    if (event.target.closest("[data-notes-step]")) stepFullNotes(1);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (els.fullNotesScreen.classList.contains("hidden") || !els.liveReader.classList.contains("hidden")) return;
+    if (event.altKey || event.metaKey || event.ctrlKey || event.target.closest?.("input, textarea, select")) return;
+    if (event.key === "ArrowLeft") stepFullNotes(-1);
+    else if (event.key === "ArrowRight") stepFullNotes(1);
+  });
+  // A clearly sideways swipe pages; anything steeper is left to scrolling
+  let touch = null;
+  els.fullNotesBody.addEventListener("touchstart", (event) => {
+    touch = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+  }, { passive: true });
+  els.fullNotesBody.addEventListener("touchend", (event) => {
+    if (!touch) return;
+    const dx = event.changedTouches[0].clientX - touch.x;
+    const dy = event.changedTouches[0].clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) stepFullNotes(dx < 0 ? 1 : -1);
+  }, { passive: true });
 }
 
 function buildFullNotesHtml(chapter, outcome = null) {
@@ -4408,6 +4483,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
 
   // Populate and open the full-notes screen (true full-screen overlay)
   document.getElementById('fullNotesTitle').textContent = `${section.name}: Practice questions`;
+  els.fullNotesScreen.classList.remove('is-paged');
   closeLiveReader();
   els.openLiveReading.classList.add('hidden');
   document.getElementById('fullNotesBody').innerHTML = `<div class="exam-container exam-container--fullscreen">${questionsHtml}</div>`;
