@@ -28,24 +28,12 @@
   white-space: nowrap;
 }
 
-/* Entry points: subject overview and the top of the Exam tab */
-.overview-papers-btn {
-  width: auto;
-  margin-left: auto;
-  padding: 0.4rem 1rem;
-  border: 1.5px solid var(--line);
-  border-radius: var(--r-full);
-  background: var(--panel);
-  color: var(--ink-2);
-  font-size: 0.8rem;
-  font-weight: 650;
-  align-self: center;
-}
-
-.overview-papers-btn:hover {
-  background: var(--accent-xlight);
-  border-color: var(--accent-light);
-  color: var(--accent-strong);
+/* Entry points: the top of the Exam tab, and the subject overview, where it sits
+   above the first chapter at one and a half times a chapter row's height */
+.exam-papers-link.overview-papers-link {
+  min-height: 108px;
+  margin-bottom: 0.4rem;
+  padding: 0.7rem 1rem;
 }
 
 .exam-papers-link {
@@ -660,6 +648,14 @@
 /* ── Phones ── */
 
 @media (max-width: 640px) {
+  /* A phone's chapter rows are 61px high */
+  .exam-papers-link.overview-papers-link {
+    min-height: 92px;
+    margin-bottom: 0.3rem;
+    padding: 0.75rem 0.85rem;
+    border-radius: var(--r-sm);
+  }
+
   /* Phones keep the timer in the top bar, where these screens put their own controls */
   body:has(#papersScreen:not(.hidden)) .timer-widget,
   body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }

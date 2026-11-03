@@ -1822,12 +1822,12 @@ function renderSubjectOverview() {
       <div class="overview-header-text">
         <h3>${escapeHtml(ss.subject.title)}</h3>
         <span class="muted small">${ss.pct}% · ${ss.earned}/${ss.total} concepts</span>
-        ${hasExamPapers(ss.subject.id) ? `<button class="overview-papers-btn" type="button" onclick="openExamPapers('${escapeHtml(ss.subject.id)}')">Exam papers</button>` : ""}
       </div>
       <div class="overview-total-bar">
         <div class="overview-total-fill" style="width:${ss.pct}%"></div>
       </div>
     </div>
+    ${examPapersLink(ss.subject.id, "overview-papers-link")}
     <div class="overview-chapter-list">${rows}</div>
   `;
 }
@@ -3118,10 +3118,10 @@ function renderExamSection() {
 }
 
 // The whole papers sit behind the question-by-question list, one tap away
-function examPapersLink(subjectId) {
+function examPapersLink(subjectId, extraClass = "") {
   if (!hasExamPapers(subjectId)) return "";
   const years = window.EXAM_PAPERS[subjectId].papers.map((p) => p.year);
-  return `<button class="exam-papers-link" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
+  return `<button class="exam-papers-link ${extraClass}" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
     <span><strong>Whole exam papers</strong><small>${Math.min(...years)}–${Math.max(...years)} · write on them as you go</small></span>
     <span class="exam-papers-link-arrow" aria-hidden="true">›</span>
   </button>`;
