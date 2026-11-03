@@ -477,6 +477,11 @@ let notesOutcomeId = "";
 // Questions whose every part tests a topic dropped from the current course stay hidden
 // unless the student asks to see them. Declared up here because renderAll() runs first.
 let showOffSpecExamQuestions = false;
+// Crops are full paper width, which reads too large on a wide screen. Each page gets its own
+// size slider; the last size picked becomes the starting size for every page shown after it.
+// Declared up here because renderAll() can draw the Exam tab first.
+const EXAM_PAPER_SCALE_KEY = "bare-bones-exam-paper-scale";
+const EXAM_PAPER_SCALE_MIN = 40;
 let expandedSubjectId = "";
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
@@ -2933,11 +2938,6 @@ function renderExamPaperImages(group) {
     </div>`).join("")}
   </div>`;
 }
-
-// Crops are full paper width, which reads too large on a wide screen. Each page gets its own
-// size slider; the last size picked becomes the starting size for every page shown after it.
-const EXAM_PAPER_SCALE_KEY = "bare-bones-exam-paper-scale";
-const EXAM_PAPER_SCALE_MIN = 40;
 
 function getExamPaperScale() {
   try {
