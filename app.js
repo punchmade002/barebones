@@ -4430,126 +4430,173 @@ function examSectionBadge(section, data) {
   }
   const timeStr = mins != null ? ` · ~${mins} min` : '';
   const bg = section.color + '22';
-  return `<span class="exam-section-badge" style="background:${bg};color:${section.color};border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
+  return `<span class="exam-section-badge" style="background:${bg};color:color-mix(in srgb, ${section.color} 62%, #1A1916);border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
 }
 
-let breakdownSelection = null; // { subjectId, idx } of the section shown in the paper guide
+let breakdownSelection = null; // { subjectId, idx } of the section open in the paper guide
 
 function openExamBreakdown(subjectId) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
   if (!data) return;
+  // Coming back from a section's questions keeps that section open; a fresh open starts on the first one
+  const startIdx = breakdownSelection?.subjectId === subjectId ? breakdownSelection.idx : 0;
   breakdownSelection = null;
   requestExamPack(subjectId);
   document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   document.body.style.overflow = 'hidden';
+  if (data.sections?.length) selectBreakdownSection(subjectId, Math.min(startIdx, data.sections.length - 1));
 }
 
 function closeExamBreakdown() {
   document.getElementById('examBreakdownModal').classList.add('hidden');
   document.body.style.overflow = '';
+  breakdownSelection = null;
+}
+
+// "Section A – Short Questions" → { kicker: "Section A", title: "Short Questions" }
+function splitSectionName(name) {
+  const [kicker, ...rest] = String(name).split(/\s+[–-]\s+/);
+  return rest.length ? { kicker, title: rest.join(' – ') } : { kicker: '', title: kicker };
+}
+
+function sectionMinutes(section, data) {
+  if (!section.marks || !data.totalMarks || !data.totalMinutes) return null;
+  return Math.round((section.marks / data.totalMarks) * data.totalMinutes);
 }
 
 function renderBreakdownModal(data) {
   const subjectTitle = data.subject.charAt(0).toUpperCase() + data.subject.slice(1);
-  if (data.notice) {
-    return `
-      <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0.75rem 0">${subjectTitle} — Exam Breakdown</h2>
-      <div class="breakdown-tip-group" style="max-width:480px">
-        <div class="breakdown-tip-label">Notice</div>
-        <div class="breakdown-tip-text">${escapeHtml(data.notice)}</div>
-      </div>`;
-  }
-  const timeStr = data.timingNote ? ` · ${data.timingNote}` : data.totalMinutes ? ` · ${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '';
-  return `
-    <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0 0">${subjectTitle} — Exam Breakdown</h2>
-    <p style="font-size:0.82rem;color:var(--muted);margin:0.2rem 0 0">Total: ${data.totalMarks} marks${timeStr} — click a section to see tips and practice questions</p>
-    <div class="breakdown-layout">
-      <div>
-        ${renderBreakdownPie(data.sections, data.subject)}
-        <ul class="breakdown-section-list">
-          ${data.sections.map((s, i) => `
-            <li class="breakdown-section-item" onclick="selectBreakdownSection('${data.subject}', ${i})" data-idx="${i}">
-              <span class="breakdown-dot" style="background:${s.color}"></span>
-              <span>${s.name}</span>
-              <span class="breakdown-marks">${s.marks} marks</span>
-            </li>`).join('')}
-        </ul>
+  const head = (meta) => `
+    <header class="bd-head">
+      <div class="bd-head-text">
+        <span class="bd-eyebrow">Paper guide</span>
+        <h2 class="bd-title">${subjectTitle}</h2>
       </div>
-      <div id="breakdownDetail" class="breakdown-detail">
-        <p class="breakdown-detail-empty">Select a section to see tips and practice questions.</p>
+      ${meta}
+    </header>`;
+
+  if (data.notice) {
+    return `<div class="bd-screen">
+      ${head('')}
+      <div class="bd-notice">
+        <span class="bd-label">Notice</span>
+        <p>${escapeHtml(data.notice)}</p>
       </div>
     </div>`;
+  }
+
+  const timeStr = data.timingNote || (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '');
+  const meta = `
+    <dl class="bd-stats">
+      ${data.totalMarks ? `<div><dt>Marks</dt><dd>${data.totalMarks}</dd></div>` : ''}
+      ${timeStr ? `<div><dt>Time</dt><dd>${escapeHtml(timeStr)}</dd></div>` : ''}
+      <div><dt>${data.sections.length === 1 ? 'Section' : 'Sections'}</dt><dd>${data.sections.length}</dd></div>
+    </dl>`;
+
+  return `<div class="bd-screen">
+    ${head(meta)}
+    ${renderBreakdownBar(data)}
+    <div class="bd-panels" onmouseleave="peekBreakdownSection(null)">
+      ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
+    </div>
+  </div>`;
 }
 
-function renderBreakdownPie(sections, subjectId) {
-  const total = sections.reduce((s, x) => s + x.marks, 0);
-  const cx = 90, cy = 90, r = 78;
-  let angle = -Math.PI / 2;
-  const paths = sections.map((sec, i) => {
-    const sweep = (sec.marks / total) * 2 * Math.PI;
-    const x1 = cx + r * Math.cos(angle);
-    const y1 = cy + r * Math.sin(angle);
-    angle += sweep;
-    const x2 = cx + r * Math.cos(angle);
-    const y2 = cy + r * Math.sin(angle);
-    const large = sweep > Math.PI ? 1 : 0;
-    const pct = Math.round((sec.marks / total) * 100);
-    const midAngle = angle - sweep / 2;
-    const lx = cx + (r * 0.6) * Math.cos(midAngle);
-    const ly = cy + (r * 0.6) * Math.sin(midAngle);
-    return `<path class="breakdown-wedge" d="M${cx},${cy} L${x1.toFixed(2)},${y1.toFixed(2)} A${r},${r} 0 ${large},1 ${x2.toFixed(2)},${y2.toFixed(2)} Z"
-              fill="${sec.color}" data-idx="${i}"
-              onclick="selectBreakdownSection('${subjectId}', ${i})"
-              title="${sec.name} — ${sec.marks} marks"/>
-            <text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" text-anchor="middle" dominant-baseline="middle"
-              style="font-size:11px;font-weight:700;fill:#fff;pointer-events:none">${pct}%</text>`;
-  }).join('');
-  return `<div class="breakdown-pie-wrap"><svg viewBox="0 0 180 180">${paths}</svg></div>`;
+// Proportional strip of the paper's marks, one segment per section
+function renderBreakdownBar(data) {
+  if (!data.sections.every((s) => s.marks)) return '';
+  return `<div class="bd-bar" aria-hidden="true">
+    ${data.sections.map((s, i) => `
+      <button type="button" class="bd-bar-seg" style="--sec:${s.color};flex-grow:${s.marks}"
+        data-idx="${i}" tabindex="-1" onclick="selectBreakdownSection('${data.subject}', ${i})">
+        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)} · ${s.marks}</span>
+        <span class="bd-bar-strip"></span>
+      </button>`).join('')}
+  </div>`;
+}
+
+function renderBreakdownPanel(data, section, idx) {
+  const { kicker, title } = splitSectionName(section.name);
+  const pct = section.marks && data.totalMarks ? Math.round((section.marks / data.totalMarks) * 100) : null;
+  const mins = sectionMinutes(section, data);
+  const tips = section.tips;
+  const body = tips
+    ? `
+      <div class="bd-tips">
+        <div class="bd-tip">
+          <span class="bd-label">Timing</span>
+          <p>${tips.timing}</p>
+        </div>
+        <div class="bd-tip">
+          <span class="bd-label">Answer structure</span>
+          <p>${tips.structure}</p>
+        </div>
+        <div class="bd-tip bd-tip--wide">
+          <span class="bd-label">Reminders</span>
+          <ul class="bd-reminders">
+            ${tips.reminders.map((r) => `<li>${escapeHtml(r)}</li>`).join('')}
+          </ul>
+        </div>
+      </div>`
+    : `<p class="bd-empty">Tips for this section are on the way.</p>`;
+
+  return `
+    <section class="bd-panel" style="--sec:${section.color};--i:${idx}" data-idx="${idx}"
+      onmouseenter="peekBreakdownSection(${idx})">
+      <button type="button" class="bd-panel-head" aria-expanded="false"
+        onclick="selectBreakdownSection('${data.subject}', ${idx})">
+        <span class="bd-kicker">${escapeHtml(kicker || `Part ${idx + 1}`)}</span>
+        <span class="bd-panel-title">${escapeHtml(title)}</span>
+        ${section.marks ? `
+          <span class="bd-marks"><strong>${section.marks}</strong> marks</span>
+          <span class="bd-facts">${pct != null ? `${pct}% of paper` : ''}${mins ? ` · ~${mins} min` : ''}${section.minutesPerQuestion ? ` · ${section.minutesPerQuestion} min per question` : ''}</span>` : ''}
+      </button>
+      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Hover to open</span>
+      <div class="bd-panel-body">
+        ${body}
+        <div class="bd-questions" data-questions-slot></div>
+      </div>
+    </section>`;
+}
+
+// Hovering a panel opens it without moving the pinned section; leaving falls back to the pinned one
+function peekBreakdownSection(idx) {
+  document.querySelectorAll('#examBreakdownModal .bd-panel, #examBreakdownModal .bd-bar-seg').forEach((el) => {
+    el.classList.toggle('is-peek', idx != null && Number(el.dataset.idx) === idx);
+  });
+  document.querySelectorAll('#examBreakdownModal .bd-panels, #examBreakdownModal .bd-bar').forEach((el) => {
+    el.classList.toggle('is-peeking', idx != null);
+  });
 }
 
 function selectBreakdownSection(subjectId, idx) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
-  if (!data) return;
-  const section = data.sections[idx];
-
-  document.querySelectorAll('.breakdown-section-item').forEach((el, i) => {
-    el.classList.toggle('active', i === idx);
-    el.style.borderColor = i === idx ? section.color : '';
-  });
-  document.querySelectorAll('.breakdown-wedge').forEach((el) => {
-    el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
-  });
-
+  if (!data?.sections?.[idx]) return;
   breakdownSelection = { subjectId, idx };
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
-  const emptyMessage = examPackReady(subjectId)
-    ? 'No past-paper questions indexed for this section yet.'
-    : 'Loading past-paper questions…';
 
-  const tips = section.tips;
-  document.getElementById('breakdownDetail').innerHTML = `
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Timing</div>
-      <div class="breakdown-tip-text">${tips.timing}</div>
-    </div>
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Answer Structure</div>
-      <div class="breakdown-tip-text">${tips.structure}</div>
-    </div>
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Reminders</div>
-      <ul class="breakdown-reminders">
-        ${tips.reminders.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
-      </ul>
-    </div>
-    ${questions.length
-      ? `<button class="button-primary" style="margin-top:0.25rem;align-self:flex-start"
-           onclick="openSectionQuestions('${subjectId}',${idx})">
-           Exam Questions (${questions.length})
+  const modal = document.getElementById('examBreakdownModal');
+  modal.querySelectorAll('.bd-panel').forEach((el) => {
+    const open = Number(el.dataset.idx) === idx;
+    el.classList.toggle('is-open', open);
+    el.querySelector('.bd-panel-head').setAttribute('aria-expanded', String(open));
+  });
+  modal.querySelectorAll('.bd-bar-seg').forEach((el) => {
+    el.classList.toggle('is-open', Number(el.dataset.idx) === idx);
+  });
+
+  // Question counts arrive with the exam pack, so every panel's button is refreshed together
+  const packReady = examPackReady(subjectId);
+  modal.querySelectorAll('[data-questions-slot]').forEach((slot) => {
+    const i = Number(slot.closest('.bd-panel').dataset.idx);
+    const section = data.sections[i];
+    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q)).length;
+    slot.innerHTML = count
+      ? `<button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
+           Practise past-paper questions <span>${count}</span>
          </button>`
-      : `<p class="breakdown-detail-empty">${emptyMessage}</p>`
-    }`;
+      : `<p class="bd-empty">${packReady ? 'No past-paper questions indexed for this section yet.' : 'Loading past-paper questions…'}</p>`;
+  });
 }
 
 function openSectionQuestions(subjectId, sectionIdx) {
