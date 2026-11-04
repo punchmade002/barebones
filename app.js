@@ -4461,8 +4461,21 @@ function splitSectionName(name) {
 }
 
 function sectionMinutes(section, data) {
-  if (!section.marks || !data.totalMarks || !data.totalMinutes) return null;
+  if (!section.marks || section.marksRange || !data.totalMarks || !data.totalMinutes) return null;
   return Math.round((section.marks / data.totalMarks) * data.totalMinutes);
+}
+
+// A section whose share changes from year to year (History's essays) carries a marksRange
+function sectionMarksText(section) {
+  return section.marksRange ? section.marksRange.join('–') : String(section.marks);
+}
+
+function sectionShareText(section, data) {
+  if (!section.marks || !data.totalMarks) return '';
+  const pct = (marks) => Math.round((marks / data.totalMarks) * 100);
+  return section.marksRange
+    ? `${section.marksRange.map(pct).join('–')}% of paper`
+    : `${pct(section.marks)}% of paper`;
 }
 
 function renderBreakdownModal(data) {
@@ -4497,7 +4510,7 @@ function renderBreakdownModal(data) {
   return `<div class="bd-screen">
     ${head(meta)}
     ${renderBreakdownBar(data)}
-    <div class="bd-panels" onmouseleave="peekBreakdownSection(null)">
+    <div class="bd-panels">
       ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
     </div>
   </div>`;
@@ -4510,7 +4523,7 @@ function renderBreakdownBar(data) {
     ${data.sections.map((s, i) => `
       <button type="button" class="bd-bar-seg" style="--sec:${s.color};flex-grow:${s.marks}"
         data-idx="${i}" tabindex="-1" onclick="selectBreakdownSection('${data.subject}', ${i})">
-        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)} · ${s.marks}</span>
+        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)} · ${sectionMarksText(s)}</span>
         <span class="bd-bar-strip"></span>
       </button>`).join('')}
   </div>`;
@@ -4518,8 +4531,10 @@ function renderBreakdownBar(data) {
 
 function renderBreakdownPanel(data, section, idx) {
   const { kicker, title } = splitSectionName(section.name);
-  const pct = section.marks && data.totalMarks ? Math.round((section.marks / data.totalMarks) * 100) : null;
-  const mins = sectionMinutes(section, data);
+  const share = sectionShareText(section, data);
+  // A section that is one question long would show the same time twice, so only its per-question time is kept
+  const sectionMins = sectionMinutes(section, data);
+  const mins = sectionMins && !(section.minutesPerQuestion && sectionMins < section.minutesPerQuestion * 2) ? sectionMins : null;
   const tips = section.tips;
   const body = tips
     ? `
@@ -4543,31 +4558,20 @@ function renderBreakdownPanel(data, section, idx) {
 
   return `
     <section class="bd-panel" style="--sec:${section.color};--i:${idx}" data-idx="${idx}"
-      onmouseenter="peekBreakdownSection(${idx})">
-      <button type="button" class="bd-panel-head" aria-expanded="false"
-        onclick="selectBreakdownSection('${data.subject}', ${idx})">
+      onclick="if (!this.classList.contains('is-open')) selectBreakdownSection('${data.subject}', ${idx})">
+      <button type="button" class="bd-panel-head" aria-expanded="false">
         <span class="bd-kicker">${escapeHtml(kicker || `Part ${idx + 1}`)}</span>
         <span class="bd-panel-title">${escapeHtml(title)}</span>
         ${section.marks ? `
-          <span class="bd-marks"><strong>${section.marks}</strong> marks</span>
-          <span class="bd-facts">${pct != null ? `${pct}% of paper` : ''}${mins ? ` · ~${mins} min` : ''}${section.minutesPerQuestion ? ` · ${section.minutesPerQuestion} min per question` : ''}</span>` : ''}
+          <span class="bd-marks${section.marksRange ? ' bd-marks--range' : ''}"><strong>${sectionMarksText(section)}</strong> marks</span>
+          <span class="bd-facts">${[share, mins && `~${mins} min`, section.minutesPerQuestion && `${section.minutesPerQuestion} min per question`].filter(Boolean).join(' · ')}</span>` : ''}
       </button>
-      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Hover to open</span>
+      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Click to open</span>
       <div class="bd-panel-body">
         ${body}
         <div class="bd-questions" data-questions-slot></div>
       </div>
     </section>`;
-}
-
-// Hovering a panel opens it without moving the pinned section; leaving falls back to the pinned one
-function peekBreakdownSection(idx) {
-  document.querySelectorAll('#examBreakdownModal .bd-panel, #examBreakdownModal .bd-bar-seg').forEach((el) => {
-    el.classList.toggle('is-peek', idx != null && Number(el.dataset.idx) === idx);
-  });
-  document.querySelectorAll('#examBreakdownModal .bd-panels, #examBreakdownModal .bd-bar').forEach((el) => {
-    el.classList.toggle('is-peeking', idx != null);
-  });
 }
 
 function selectBreakdownSection(subjectId, idx) {

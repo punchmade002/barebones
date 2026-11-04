@@ -242,17 +242,58 @@ window.EXAM_BREAKDOWN.history = {
     {
       id: "hist-section1",
       name: "Section 1 – Documents",
-      color: "#E0512A"
+      marks: 100,
+      color: "#E0512A",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes — Question 1 is compulsory and is always on the documents-based study topic. Spend about 15 minutes on parts (a)–(c) and the rest on (d), which carries 40 of the 100 marks.",
+        structure: "At Higher level the question has four parts: (a) comprehension (20), (b) comparison (20), (c) criticism (20) and (d) contextualisation (40). Answer (a)–(c) from the documents and quote them by name (\"In document A…\"). Part (d) is a short essay on the wider topic: write several developed paragraphs, each with names, dates and evidence.",
+        reminders: [
+          "Read both documents fully before answering anything",
+          "Comprehension: take your answer straight from the document named in the question",
+          "Comparison: point to a specific similarity or difference in both documents, not a general impression",
+          "Criticism: judge bias, propaganda, reliability or objectivity, and back it with a line from the document",
+          "Contextualisation is about the topic, not the documents — use your own knowledge and don't retell them"
+        ]
+      }
     },
     {
       id: "hist-section2",
-      name: "Section 2 – Short Questions",
-      color: "#D29A2E"
+      name: "Section 2 – Ireland",
+      marks: 150,
+      marksRange: [100, 200],
+      color: "#D29A2E",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes per essay. You answer one Irish essay if the documents topic is Irish, and two if it is European — check the paper's instructions before choosing.",
+        structure: "Higher level essays are marked out of 100: up to 60 for the points you make (cumulative mark) and up to 40 for how well the essay answers the question overall (overall evaluation). Open by addressing the question, write 6–8 developed paragraphs with specific evidence, and close with a conclusion that answers it directly.",
+        reminders: [
+          "Answer the exact question asked — a narrative of everything you know scores poorly on overall evaluation",
+          "Each paragraph should make one clear historical point backed by names, dates, statistics or quotations",
+          "Questions often say \"how\", \"why\" or \"to what extent\" — judge and explain, don't just describe",
+          "Each essay must come from a different topic, and none from your documents topic",
+          "At Ordinary level each topic question is split into a source question, a short paragraph and a longer answer"
+        ]
+      }
     },
     {
       id: "hist-section3",
-      name: "Section 3 – Long Questions",
-      color: "#2F6F73"
+      name: "Section 3 – Europe and the Wider World",
+      marks: 150,
+      marksRange: [100, 200],
+      color: "#2F6F73",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes per essay. You answer two European essays if the documents topic is Irish, and one if it is European — check the paper's instructions before choosing.",
+        structure: "Marked the same way as the Irish essays: up to 60 for your points and up to 40 for overall evaluation. Plan for two or three minutes first, then write 6–8 developed paragraphs that each move the argument on, ending with a conclusion that answers the question.",
+        reminders: [
+          "Read every question on your topic before choosing — pick the one you can argue, not just the one you recognise",
+          "Use key figures, events and dates precisely, and explain their significance",
+          "Questions often join two themes (e.g. politics and society) — cover both or you cap your marks",
+          "Leave time for every essay: a missing paragraph costs less than a missing essay",
+          "Your Research Study Report is a further 100 marks (20% of the grade) on top of this 400-mark paper"
+        ]
+      }
     }
   ]
 };
