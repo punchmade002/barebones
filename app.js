@@ -4534,7 +4534,7 @@ function renderBreakdownPanel(data, section, idx) {
   const share = sectionShareText(section, data);
   // A section that is one question long would show the same time twice, so only its per-question time is kept
   const sectionMins = sectionMinutes(section, data);
-  const mins = sectionMins && !(section.minutesPerQuestion && sectionMins < section.minutesPerQuestion * 2) ? sectionMins : null;
+  const mins = sectionMins && !(section.minutesPerQuestion && sectionMins < section.minutesPerQuestion * 1.5) ? sectionMins : null;
   const tips = section.tips;
   const body = tips
     ? `
