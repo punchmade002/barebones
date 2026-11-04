@@ -17,3 +17,6 @@ pipeline/__pycache__/
 *.env
 *.env.txt
 .env*
+
+# Private local folder (npm packages, scratch)
+/private/
