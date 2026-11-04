@@ -1,0 +1,13 @@
+{
+  "name": "barebones",
+  "version": "1.0.0",
+  "description": "Leaving Cert study app - stripped back",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static HTML project'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
