@@ -36,7 +36,8 @@ test("PE pipeline chapters are visible and address every generated asset", () =>
       .map((question) => question.chapterId)
   );
 
-  assert.equal(chapters.length, 16);
+  // Topics 7 and 8 (not prescribed for June 2027) and Adventure Activities are out of the course.
+  assert.equal(chapters.length, 13);
   assert.deepEqual([...chapterIds].sort(), deckIds.sort());
   assert.ok([...questionChapterIds].every((id) => chapterIds.has(id)));
   chapters.forEach((chapter) => {
@@ -69,7 +70,7 @@ test("PE practice questions have one canonical chapter and retain full coverage"
   const normalise = (prompt) => String(prompt || "").trim().toLowerCase().replace(/\s+/g, " ");
   const prompts = questions.map(({ question }) => normalise(question.prompt));
 
-  assert.equal(questions.length, 53, "all 52 original prompts and the ethics top-up should remain available");
+  assert.equal(questions.length, 47, "all 46 kept original prompts and the ethics top-up should remain available");
   assert.equal(new Set(prompts).size, questions.length, "a practice prompt must not appear in two chapters");
   chapters.forEach((chapter) => {
     const count = chapter.learningOutcomes.reduce(

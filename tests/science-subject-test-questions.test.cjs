@@ -25,10 +25,10 @@ function shortQuestions(outcome) {
 for (const config of [
   {
     subject: "pe",
-    chapters: 16,
-    outcomes: 16,
+    chapters: 13,
+    outcomes: 13,
     minimumPerOutcome: 3,
-    added: 16,
+    added: 10,
     setup: ["data.js", "pe-content.js", "pe-flashcards.js", "pe-pipeline-content.js"],
     additions: "pe-test-questions.js",
   },

@@ -14,7 +14,7 @@ window.EXAM_BREAKDOWN.biology = {
       id: "bio-sectionA",
       name: "Section A – Short Questions",
       marks: 100,
-      color: "#F97316",
+      color: "#E0512A",
       minutesPerQuestion: 6,
       tips: {
         timing: "≤30 minutes — answer any 5 of the 7 questions (20 marks each, ~6 minutes per question). Attempt all 7 if time allows and your best 5 need not be chosen in advance.",
@@ -34,7 +34,7 @@ window.EXAM_BREAKDOWN.biology = {
       id: "bio-sectionB",
       name: "Section B – Medium Questions",
       marks: 60,
-      color: "#10B981",
+      color: "#D29A2E",
       minutesPerQuestion: 15,
       tips: {
         timing: "≤30 minutes — answer any 2 of the 3 questions (30 marks each, ~15 minutes per question).",
@@ -54,7 +54,7 @@ window.EXAM_BREAKDOWN.biology = {
       id: "bio-sectionC",
       name: "Section C – Long Questions",
       marks: 240,
-      color: "#3B82F6",
+      color: "#2F6F73",
       minutesPerQuestion: 30,
       tips: {
         timing: "120 minutes — answer any 4 of the 6 questions (60 marks each, ~30 minutes per question). Section C questions are supplied on a separate booklet but answered in the same answerbook.",
@@ -82,7 +82,7 @@ window.EXAM_BREAKDOWN.pe = {
       id: "pe-sectionA",
       name: "Section A – Short Answer",
       marks: 80,
-      color: "#F97316",
+      color: "#E0512A",
       minutesPerQuestion: 5,
       tips: {
         timing: "~50 minutes — answer any 10 of the 12 questions (8 marks each, ~5 minutes per question). You are marked on your best 10, so attempt all 12 if time allows.",
@@ -102,7 +102,7 @@ window.EXAM_BREAKDOWN.pe = {
       id: "pe-sectionB",
       name: "Section B – Case Study",
       marks: 50,
-      color: "#10B981",
+      color: "#D29A2E",
       minutesPerQuestion: 30,
       tips: {
         timing: "~30 minutes — question 13 is compulsory and is the only question in this section.",
@@ -122,7 +122,7 @@ window.EXAM_BREAKDOWN.pe = {
       id: "pe-sectionC",
       name: "Section C – Long Questions",
       marks: 120,
-      color: "#3B82F6",
+      color: "#2F6F73",
       minutesPerQuestion: 23,
       tips: {
         timing: "~70 minutes — answer any 3 of the 5 questions (~23 minutes each, 40 marks each).",
@@ -151,7 +151,7 @@ window.EXAM_BREAKDOWN.maths = {
       id: "maths-paper1",
       name: "Paper 1",
       marks: 300,
-      color: "#F97316",
+      color: "#E0512A",
       minutesPerQuestion: 20,
       tips: {
         timing: "2 hours 30 minutes. Section A: answer any 5 of 6 questions (30 marks each, ~15 min each). Section B: answer any 3 of 4 questions (50 marks each, ~25 min each). Leave 5 minutes at the end to check units and simplification.",
@@ -170,7 +170,7 @@ window.EXAM_BREAKDOWN.maths = {
       id: "maths-paper2",
       name: "Paper 2",
       marks: 300,
-      color: "#3B82F6",
+      color: "#2F6F73",
       minutesPerQuestion: 20,
       tips: {
         timing: "2 hours 30 minutes. Same structure as Paper 1: Section A — any 5 of 6 (30 marks each); Section B — any 3 of 4 (50 marks each). Both papers are sat on different days.",
@@ -197,7 +197,7 @@ window.EXAM_BREAKDOWN.chemistry = {
       id: "chem-sectionA",
       name: "Section A – Compulsory Question",
       marks: 50,
-      color: "#F97316",
+      color: "#E0512A",
       minutesPerQuestion: 25,
       tips: {
         timing: "~25 minutes — Q1 is compulsory and worth 50 marks. It is an integrative question combining diagrams, data tables, graphs and multiple short parts across several topics.",
@@ -216,7 +216,7 @@ window.EXAM_BREAKDOWN.chemistry = {
       id: "chem-sectionB",
       name: "Section B – Long Questions",
       marks: 250,
-      color: "#3B82F6",
+      color: "#2F6F73",
       minutesPerQuestion: 25,
       tips: {
         timing: "~125 minutes — answer any 5 of Q2–Q7 (~25 minutes each, 50 marks each). Read all six questions before choosing your five.",
@@ -242,17 +242,58 @@ window.EXAM_BREAKDOWN.history = {
     {
       id: "hist-section1",
       name: "Section 1 – Documents",
-      color: "#F97316"
+      marks: 100,
+      color: "#E0512A",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes — Question 1 is compulsory and is always on the documents-based study topic. Spend about 15 minutes on parts (a)–(c) and the rest on (d), which carries 40 of the 100 marks.",
+        structure: "At Higher level the question has four parts: (a) comprehension (20), (b) comparison (20), (c) criticism (20) and (d) contextualisation (40). Answer (a)–(c) from the documents and quote them by name (\"In document A…\"). Part (d) is a short essay on the wider topic: write several developed paragraphs, each with names, dates and evidence.",
+        reminders: [
+          "Read both documents fully before answering anything",
+          "Comprehension: take your answer straight from the document named in the question",
+          "Comparison: point to a specific similarity or difference in both documents, not a general impression",
+          "Criticism: judge bias, propaganda, reliability or objectivity, and back it with a line from the document",
+          "Contextualisation is about the topic, not the documents — use your own knowledge and don't retell them"
+        ]
+      }
     },
     {
       id: "hist-section2",
-      name: "Section 2 – Short Questions",
-      color: "#10B981"
+      name: "Section 2 – Ireland",
+      marks: 150,
+      marksRange: [100, 200],
+      color: "#D29A2E",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes per essay. You answer one Irish essay if the documents topic is Irish, and two if it is European — check the paper's instructions before choosing.",
+        structure: "Higher level essays are marked out of 100: up to 60 for the points you make (cumulative mark) and up to 40 for how well the essay answers the question overall (overall evaluation). Open by addressing the question, write 6–8 developed paragraphs with specific evidence, and close with a conclusion that answers it directly.",
+        reminders: [
+          "Answer the exact question asked — a narrative of everything you know scores poorly on overall evaluation",
+          "Each paragraph should make one clear historical point backed by names, dates, statistics or quotations",
+          "Questions often say \"how\", \"why\" or \"to what extent\" — judge and explain, don't just describe",
+          "Each essay must come from a different topic, and none from your documents topic",
+          "At Ordinary level each topic question is split into a source question, a short paragraph and a longer answer"
+        ]
+      }
     },
     {
       id: "hist-section3",
-      name: "Section 3 – Long Questions",
-      color: "#3B82F6"
+      name: "Section 3 – Europe and the Wider World",
+      marks: 150,
+      marksRange: [100, 200],
+      color: "#2F6F73",
+      minutesPerQuestion: 40,
+      tips: {
+        timing: "~40 minutes per essay. You answer two European essays if the documents topic is Irish, and one if it is European — check the paper's instructions before choosing.",
+        structure: "Marked the same way as the Irish essays: up to 60 for your points and up to 40 for overall evaluation. Plan for two or three minutes first, then write 6–8 developed paragraphs that each move the argument on, ending with a conclusion that answers the question.",
+        reminders: [
+          "Read every question on your topic before choosing — pick the one you can argue, not just the one you recognise",
+          "Use key figures, events and dates precisely, and explain their significance",
+          "Questions often join two themes (e.g. politics and society) — cover both or you cap your marks",
+          "Leave time for every essay: a missing paragraph costs less than a missing essay",
+          "Your Research Study Report is a further 100 marks (20% of the grade) on top of this 400-mark paper"
+        ]
+      }
     }
   ]
 };

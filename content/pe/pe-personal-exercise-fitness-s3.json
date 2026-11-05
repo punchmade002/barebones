@@ -1,0 +1,134 @@
+{
+  "loId": "pe-personal-exercise-fitness-s3",
+  "chapterId": "pe-personal-exercise-fitness",
+  "subsection": "3. Conditioning and resistance",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Weight-training safety",
+      "points": [
+        "Warm up before lifting, so the muscles are ready for load.",
+        "Learn correct technique before adding any load.",
+        "Breathe out on the effort of each lift.",
+        "Move under control, lowering the weight with the same care as lifting it.",
+        "Use a spotter for heavy pressing exercises.",
+        "Check that the collars on the bar are secured before each lift.",
+        "Increase the load progressively, one step at a time, rather than jumping to a heavy weight."
+      ]
+    },
+    {
+      "h": "Upper-body pushing: pressing and extensions",
+      "points": [
+        "Pressing (bench press or shoulder press): the grip is just wider than the shoulders.",
+        "Lower the bar under control.",
+        "Press to full extension without locking out aggressively.",
+        "Keep the back flat on the bench.",
+        "Triceps extension (works the triceps): keep the elbows still and extend at the elbow only."
+      ]
+    },
+    {
+      "h": "Upper-body pulling: rows and curls",
+      "points": [
+        "Bent-over or seated row (works the upper back): keep a flat back.",
+        "Pull the elbows back and squeeze the shoulder blades together.",
+        "Biceps curl (works the biceps): keep the elbows fixed at the sides."
+      ]
+    },
+    {
+      "h": "Lower-body exercises: squats and lunges",
+      "points": [
+        "Squat (works the thighs): feet shoulder-width apart and chest up.",
+        "Knees track over the toes during the squat.",
+        "Sit back until the thighs are parallel with the floor.",
+        "Drive up through the heels to stand.",
+        "Lunge: take a long step, with the front knee over the ankle.",
+        "Lunge: lower the back knee towards the floor, keeping the trunk upright."
+      ]
+    },
+    {
+      "h": "Loading for strength and for muscular endurance",
+      "points": [
+        "Strength: heavy loads with few repetitions, about 3 to 6 per set, and longer rests between sets (typical guidance).",
+        "Muscular endurance: light loads with many repetitions, about 15 or more per set, and short rests between sets (typical guidance).",
+        "The two loadings are opposites: strength is the heaviest load for the fewest repetitions, and endurance is the lightest load for the most.",
+        "A set is one group of consecutive repetitions, followed by a rest before the next set."
+      ]
+    },
+    {
+      "h": "Core stability: what the core is",
+      "points": [
+        "The core is the group of trunk muscles, the abdominals, back and pelvis, that stabilise the spine.",
+        "Core stability supports posture.",
+        "Core stability supports balance.",
+        "Core stability supports the transfer of force through the trunk.",
+        "Core stability helps prevent injury."
+      ]
+    },
+    {
+      "h": "Core stability: breathing, control, alignment and flow",
+      "points": [
+        "Relaxation and breathing: breathing is controlled, and the breath is never held.",
+        "Control: movements are slow and precise.",
+        "Control: positions are held without shaking or sagging.",
+        "Alignment: the spine is kept neutral, the head is in line and the hips are level.",
+        "Flow: transitions between exercises are smooth."
+      ]
+    },
+    {
+      "h": "Core stability routine and example exercises",
+      "points": [
+        "A routine is a planned sequence of core exercises, performed in one session.",
+        "Example routine, in order: plank, side plank, bird-dog, dead bug, glute bridge.",
+        "The plank and side plank are held positions, while the bird-dog, dead bug and glute bridge are moving exercises."
+      ]
+    },
+    {
+      "h": "Circuit training: themes, equipment and intervals",
+      "points": [
+        "Circuit training is a series of stations, each worked in turn.",
+        "Themes: muscular endurance, cardio, or sport-specific skills; the exercises at each station match the theme.",
+        "Equipment: body weight, medicine balls, kettlebells or steps.",
+        "Work-recovery intervals (typical guidance): 30 seconds of work, then 30 seconds of rest at each station."
+      ]
+    },
+    {
+      "h": "Designing a circuit, with an example for a games player",
+      "points": [
+        "Alternate muscle groups between stations (upper body, lower body, core and cardio), so each group recovers while the others work.",
+        "Use 8 to 10 stations (typical guidance).",
+        "Set the number of circuits to complete.",
+        "Progress by increasing the work time, reducing the rest, or adding circuits.",
+        "Illustrative example circuit for a games player, in order: squats, press-ups, plank, step-ups onto a step, lunges, medicine-ball throws, side plank and passes against a wall."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Core stability", "definition": "The ability of the trunk muscles to hold the spine steady during movement." },
+    { "term": "Neutral spine", "definition": "A spine held in its natural curves, without arching or rounding." },
+    { "term": "Circuit training", "definition": "A series of stations worked in turn, with set work and rest intervals." },
+    { "term": "Station", "definition": "One exercise point in a circuit." },
+    { "term": "Work-recovery interval", "definition": "The set work period followed by a set rest period at each circuit station." },
+    { "term": "Strength loading", "definition": "Heavy loads with few repetitions and longer rests, used to build strength." },
+    { "term": "Muscular endurance loading", "definition": "Light loads with many repetitions and shorter rests, used to build muscular endurance." },
+    { "term": "Set", "definition": "One group of consecutive repetitions of an exercise, followed by a rest." },
+    { "term": "Knee tracking", "definition": "Keeping the knees in line with the toes during a squat." }
+  ],
+  "factCards": [
+    { "term": "Core stability: five elements", "definition": "Relaxation and breathing; control; routine; alignment; flow." },
+    { "term": "Loading ranges (typical guidance)", "definition": "Strength: about 3 to 6 repetitions, heavy load, longer rest. Muscular endurance: about 15 or more repetitions, light load, short rest." },
+    { "term": "Squat technique cues", "definition": "Feet shoulder-width apart, chest up, knees track over toes, sit back until thighs are parallel, drive up through the heels." },
+    { "term": "Circuit design steps", "definition": "Alternate muscle groups between stations; use 8 to 10 stations; set the number of circuits; progress by more work time, less rest or more circuits." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe how weight training and circuit training could be used to improve muscular endurance in a physical activity of your choice.",
+      "model": "Activity: soccer. Weight training: use light loads with many repetitions, about 15 or more per set, and short rests between sets, so the muscles keep working for longer. Choose exercises that match the leg and trunk demands of the game, such as squats and lunges, and add repetitions over successive weeks before adding load. Circuit training: set up stations themed on muscular endurance, using body weight or steps, with work and rest intervals of typically 30 seconds of work and 30 seconds of rest at each station. Alternate upper-body, lower-body, core and cardio stations so each group recovers, and progress by reducing the rest or adding circuits. Together the weight and circuit work build endurance in the muscles the game uses."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two key technique points for a squat and explain why each matters.",
+      "model": "1. Knees track over the toes: keeping the knees in line with the toes keeps the knee joint in a safe line, so it does not take twisting force under load. 2. Chest up: keeping the chest up holds the trunk upright and the back in a stable, neutral position, so the load goes through the legs rather than the lower back."
+    }
+  ]
+}

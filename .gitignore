@@ -12,3 +12,8 @@ pipeline/__pycache__/
 
 # Local export of account emails (contains personal data)
 /mailing list
+
+# API keys and other secrets
+*.env
+*.env.txt
+.env*

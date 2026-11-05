@@ -1,0 +1,114 @@
+{
+  "loId": "pe-learning-skill-technique-s3",
+  "chapterId": "pe-learning-skill-technique",
+  "subsection": "3. Analysing skill: movement and quality perspectives",
+  "syllabusRef": "1.2",
+  "notes": [
+    {
+      "h": "Scalar and vector quantities",
+      "points": [
+        "Scalar quantity: has size (magnitude) only, such as distance, speed, mass and time.",
+        "Vector quantity: has size and direction, such as displacement, velocity, acceleration, force, momentum and weight. A vector can be drawn as an arrow whose length shows its size.",
+        "Distance is the total length of path travelled (scalar); displacement is the straight-line change in position from start to finish in a given direction (vector).",
+        "A 400 m runner on a standard track runs a distance of 400 m but finishes where they started, so their displacement is zero.",
+        "Direction decides outcomes in sport: a pass's velocity, not just its speed, decides whether it reaches a team-mate."
+      ]
+    },
+    {
+      "h": "Motion quantities",
+      "points": [
+        "Speed = distance ÷ time (scalar).",
+        "Velocity = displacement ÷ time (vector).",
+        "Acceleration = change in velocity ÷ time taken (vector); deceleration is negative acceleration, such as a defender braking to change direction.",
+        "Momentum = mass × velocity (vector): a heavier or faster rugby player is harder to stop.",
+        "Classified: speed is a scalar; velocity and momentum are vectors, because velocity includes direction and momentum depends on velocity."
+      ]
+    },
+    {
+      "h": "Forces that change motion",
+      "points": [
+        "Muscular force: produced by the performer's muscles to move the body or an implement.",
+        "Gravity: pulls every body and object towards the ground; its force on a body is its weight.",
+        "Friction: opposes sliding between surfaces; studs and grip on footwear increase it.",
+        "Air resistance and water resistance (drag): oppose motion through air or water; streamlining reduces them.",
+        "Ground reaction force: the push back from the ground when a performer pushes against it."
+      ]
+    },
+    {
+      "h": "Newton's three laws of motion",
+      "points": [
+        "First law (law of inertia): a body stays at rest, or keeps moving at a constant velocity in a straight line, unless an external unbalanced force acts on it.",
+        "First law examples: a ball on the penalty spot stays still until it is kicked; a sprinter in the blocks stays still until they drive against the blocks; a sliding player slows down only because friction acts on them.",
+        "Second law (law of acceleration): the acceleration of a body is proportional to the force applied, happens in the direction of the force, and is inversely proportional to the body's mass (F = m × a, with force in newtons, mass in kilograms and acceleration in metres per second squared).",
+        "Second law examples: a harder kick gives the ball greater acceleration; the same force accelerates a lighter implement more than a heavier one. This is the law used to calculate the acceleration of a kicked ball.",
+        "Third law (law of action and reaction): for every action there is an equal and opposite reaction.",
+        "Third law examples: a sprinter pushes back and down on the blocks and the ground reaction force drives them forward; a swimmer's hand pushes water backwards and the water pushes the swimmer forwards; a jumper drives down into the take-off board and is pushed upwards."
+      ]
+    },
+    {
+      "h": "All three laws applied to swimming",
+      "points": [
+        "First law: the swimmer on the blocks stays at rest until the leg drive applies a force; off the wall, a streamlined glide keeps speed because less water resistance acts to slow it.",
+        "Second law: a stronger, better-directed arm pull and leg kick produce greater acceleration for the same body mass.",
+        "Third law: the hand and forearm push water backwards and the water pushes the swimmer forwards; at the dive, the force into the blocks is returned as forward propulsion."
+      ]
+    },
+    {
+      "h": "Why Newton's laws are used to analyse movement",
+      "points": [
+        "They explain what starts, stops and changes a movement, so a coach can see the cause of a fault rather than just its effect.",
+        "They show where and in what direction force must be applied, such as driving through the ball rather than at it.",
+        "They guide technique corrections, such as directing force in the intended direction of travel at a jump take-off.",
+        "They inform the choice of equipment, such as a lighter implement for faster acceleration in training."
+      ]
+    },
+    {
+      "h": "Quality and effectiveness: economy of movement",
+      "points": [
+        "Economy of movement: performing a skill with no unnecessary movement and the least energy needed for the result.",
+        "It delays fatigue, so technique holds up late in a performance.",
+        "It improves consistency and accuracy, because there are fewer moving parts to go wrong.",
+        "It makes a movement look fluent, adding to its aesthetic quality.",
+        "Front crawl example: a flat, streamlined body position with the hips high reduces drag, so more of each arm pull produces forward motion; sinking legs waste energy.",
+        "Distance running example: a relaxed arm swing without side-to-side twisting of the trunk saves energy over the race.",
+        "Economy is improved by practising until the skill is automatic, correcting technique using video, and building the flexibility and strength to hold efficient positions."
+      ]
+    },
+    {
+      "h": "Quality and effectiveness: creative application of skill",
+      "points": [
+        "Creative application: using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents, rather than reproducing the standard version.",
+        "It depends on the skill being automatic, so the performer's attention is free to read the situation.",
+        "It deceives and unbalances opponents and opens options when the expected one is closed off.",
+        "It makes a performer less predictable and harder to defend against.",
+        "In dance and gymnastics it adds artistic merit and originality.",
+        "Examples: a no-look pass in basketball; a disguised drop shot in badminton; a dummy solo in Gaelic football; an original linking movement in a gymnastics floor routine."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Scalar quantity", "definition": "A quantity with size only, such as distance, speed, mass or time." },
+    { "term": "Vector quantity", "definition": "A quantity with size and direction, such as displacement, velocity, acceleration, force or momentum." },
+    { "term": "Displacement", "definition": "The straight-line change in position from start to finish, in a given direction." },
+    { "term": "Velocity", "definition": "Displacement divided by time: speed in a given direction." },
+    { "term": "Acceleration", "definition": "The change in velocity divided by the time taken." },
+    { "term": "Momentum", "definition": "Mass multiplied by velocity; a vector quantity." },
+    { "term": "Newton's first law", "definition": "A body stays at rest or at constant velocity unless an external unbalanced force acts on it (law of inertia)." },
+    { "term": "Newton's second law", "definition": "Acceleration is proportional to the force applied, in the direction of the force, and inversely proportional to mass (F = m × a)." },
+    { "term": "Newton's third law", "definition": "For every action there is an equal and opposite reaction." },
+    { "term": "Ground reaction force", "definition": "The equal and opposite force the ground exerts on a performer who pushes against it." },
+    { "term": "Economy of movement", "definition": "Performing a skill with no unnecessary movement and the least energy needed for the result." },
+    { "term": "Creative application of skill", "definition": "Using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents." }
+  ],
+  "factCards": [
+    { "term": "Which Newton's law calculates the acceleration of a kicked ball?", "definition": "The second law: F = m × a, so acceleration equals force divided by mass." },
+    { "term": "Speed, velocity, momentum: scalar or vector?", "definition": "Speed is a scalar; velocity and momentum are vectors because they include direction." },
+    { "term": "400 m race: distance and displacement", "definition": "Distance 400 m; displacement zero, because the runner finishes where they started." },
+    { "term": "Two benefits of creative application of skill", "definition": "It deceives opponents and opens options when the expected one is closed; it makes a performer less predictable." }
+  ],
+  "questions": [
+    { "marks": 12, "prompt": "Examine how each of Newton's three laws of motion applies to performance in a physical activity of your choice.", "model": "Activity: sprinting. First law: a body stays at rest or moves at constant velocity unless an external force acts. The sprinter stays still in the blocks until they apply force by driving against them; once running, they would keep their velocity but for air resistance and friction, so they must keep applying force to maintain speed. Second law: acceleration is proportional to the force applied and inversely proportional to mass (F = m × a). The more force the sprinter applies against the blocks and the track in the drive phase, the greater their acceleration, so strength and power training improve the start. Third law: for every action there is an equal and opposite reaction. The sprinter pushes back and down against the blocks and the track, and the ground reaction force pushes them forward and up; directing force backwards rather than downwards sends more of the reaction forward." },
+    { "marks": 6, "prompt": "Distinguish between scalar and vector quantities, giving two sporting examples of each.", "model": "A scalar has size only; a vector has size and direction. Scalars: the distance a midfielder covers in a match, and the speed of a sprinter. Vectors: the displacement of a 400 m runner (zero, as they finish where they started) and the velocity of a pass, which must have the right direction to reach a team-mate." },
+    { "marks": 8, "prompt": "Explain creative application of skill and give an example from a physical activity of your choice.", "model": "Creative application of skill is using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents. It relies on the skill being automatic, so the performer can focus on the opposition. It is effective because it deceives and unbalances opponents and opens options that the standard skill would not. Example: in basketball, a guard with defenders expecting a pass to the wing makes a no-look pass to a cutting team-mate, so the defence reacts too late and the team-mate scores." }
+  ]
+}

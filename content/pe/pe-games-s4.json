@@ -1,0 +1,161 @@
+{
+  "loId": "pe-games-s4",
+  "chapterId": "pe-games",
+  "subsection": "4. Striking/fielding games",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "What striking and fielding games share",
+      "points": [
+        "One team bats to score runs (or rounders) while the other bowls or pitches and fields to stop runs and get batters out.",
+        "Innings: each team bats in an innings, after which the teams swap roles."
+      ]
+    },
+    {
+      "h": "Cricket batting stance and grip",
+      "points": [
+        "Stance: side-on, feet shoulder-width apart, head still and eyes level.",
+        "Grip: hands together at the top of the handle."
+      ]
+    },
+    {
+      "h": "Cricket drives, cut, pull and glance",
+      "points": [
+        "Drives (straight, on and off) are played to a full ball with a front-foot step towards the ball.",
+        "Front-foot drive: head over the ball, high elbow, and a straight bat follow-through.",
+        "Back-foot shots are played to shorter balls.",
+        "Cut: square on the off side to a short, wide ball.",
+        "Pull: horizontal bat to a short ball on the leg side.",
+        "Glance: deflects the ball finely on the leg side."
+      ]
+    },
+    {
+      "h": "Cricket bowling action",
+      "points": [
+        "Action in order: run-up, gather, side-on or front-on delivery stride, release, follow-through.",
+        "Straight bowling arm, with no throwing.",
+        "In cricket the bowling arm must not straighten during delivery (throwing is illegal)."
+      ]
+    },
+    {
+      "h": "Line, length and types of delivery",
+      "points": [
+        "Line: aim at or just outside off stump.",
+        "Good length: makes the batter unsure whether to go forward or back.",
+        "Medium and fast pace: bowling that uses seam and swing.",
+        "Spin: off-spin and leg-spin, which turn the ball off the pitch."
+      ]
+    },
+    {
+      "h": "Cricket fielding: close and deep",
+      "points": [
+        "Close fielding (slips, short leg): low, ready, with soft hands.",
+        "Deep fielding (boundary): take a long barrier to stop the ball.",
+        "Deep fielding: attack the ball and make a flat throw to the keeper."
+      ]
+    },
+    {
+      "h": "Catching and throwing in softball and rounders",
+      "points": [
+        "Catching: two-handed, with the hands forming a cup or basket and giving with the ball.",
+        "Throwing: overarm, from a side-on stance, stepping towards the target."
+      ]
+    },
+    {
+      "h": "Hitting in softball and rounders",
+      "points": [
+        "Stance: side-on, with the eyes on the ball.",
+        "Swing: level through the ball, with a full follow-through.",
+        "After the hit, the batter runs to the next post or base."
+      ]
+    },
+    {
+      "h": "Pitching and bowling in softball and rounders",
+      "points": [
+        "Rounders bowling is underarm.",
+        "In rounders the ball must pass between the batter's head and knee on the batting side.",
+        "Variations: pace, swerve and spin.",
+        "Line and length: the ball is pitched to a consistent line and length."
+      ]
+    },
+    {
+      "h": "Fielding positions in softball and rounders",
+      "points": [
+        "Rounders positions: backstop, bowler, and first to fourth post fielders.",
+        "Softball positions: basemen, with deep fielders covering the outfield.",
+        "Fielding on base: stretch to catch the ball with a foot on the base.",
+        "Deep fielders back up: move behind the fielder throwing the ball, so that a missed or overthrown ball can be stopped."
+      ]
+    },
+    {
+      "h": "Cricket runs, boundaries and dismissals",
+      "points": [
+        "Runs: batters run between the wickets to score.",
+        "Boundaries: 4 runs when the ball crosses the boundary along the ground, and 6 when it crosses on the full.",
+        "Dismissals: bowled, caught, run out, LBW and stumped."
+      ]
+    },
+    {
+      "h": "Rounders and softball scoring",
+      "points": [
+        "Rounders: a rounder is scored by reaching fourth post.",
+        "Rounders: a batter is out if caught, if a post is stumped before they reach it, or if they overtake another batter.",
+        "Softball: runs are scored for reaching home.",
+        "Softball: three outs end the innings."
+      ]
+    },
+    {
+      "h": "Tactics",
+      "points": [
+        "Batting into gaps: placing the ball where fielders cannot reach it.",
+        "Running calls between wickets or posts: yes, no or wait.",
+        "Fielding placement is set for the batter and for the bowler.",
+        "Bowling to the field that has been set."
+      ]
+    },
+    {
+      "h": "Safety in striking and fielding games",
+      "points": [
+        "Cricket protective equipment: helmet, pads, gloves and box.",
+        "A hard ball creates a danger zone, so players must stay alert to where it is travelling.",
+        "Batters drop the bat, never throw it.",
+        "Fielders call for catches so that team-mates do not collide."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Innings", "definition": "A team's turn to bat, after which the teams swap roles." },
+    { "term": "Front-foot drive", "definition": "A drive in which the batter steps the front foot towards a full ball, keeping the head over it." },
+    { "term": "Cut", "definition": "A square shot on the off side played to a short, wide ball." },
+    { "term": "Pull", "definition": "A horizontal-bat shot played to a short ball on the leg side." },
+    { "term": "Glance", "definition": "A shot that deflects the ball finely on the leg side." },
+    { "term": "Line", "definition": "The direction of the bowler's delivery, aimed at or just outside off stump." },
+    { "term": "Length", "definition": "How far down the pitch the ball lands, with a good length making the batter unsure whether to go forward or back." },
+    { "term": "Boundary", "definition": "The edge of the cricket field, where a ball that reaches it scores 4 or 6." },
+    { "term": "Dismissal", "definition": "A way of getting a batter out, such as bowled, caught, run out, LBW or stumped." },
+    { "term": "Rounder", "definition": "The score in rounders gained by a batter who reaches fourth post." },
+    { "term": "Backstop", "definition": "The rounders fielder positioned behind the batter." },
+    { "term": "Basemen", "definition": "Softball fielders who guard the bases." },
+    { "term": "Backing up", "definition": "Moving behind a fielder who is throwing, so that a missed or overthrown ball can be stopped." }
+  ],
+  "factCards": [
+    { "term": "Cricket: boundary scores", "definition": "4 when the ball crosses the boundary along the ground; 6 when it crosses on the full." },
+    { "term": "Cricket: dismissals", "definition": "Bowled, caught, run out, LBW and stumped." },
+    { "term": "Rounders: how a rounder is scored", "definition": "By a batter reaching fourth post." },
+    { "term": "Rounders: how a batter is out", "definition": "If caught; if a post is stumped before the batter reaches it; or if the batter overtakes another batter." },
+    { "term": "Rounders: a good ball", "definition": "It passes between the batter's head and knee on the batting side." },
+    { "term": "Softball: what ends an innings", "definition": "Three outs." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Describe the front-foot drive in cricket and explain how line and length affect the batter's choice of shot.",
+      "model": "Front-foot drive: the batter steps the front foot towards the pitch of a full ball, keeps the head over the ball with the eyes on it, and drives with a high elbow, finishing with a straight bat follow-through. Line and length: the bowler aims at or just outside off stump, which is the line the batter must judge. A good length makes the batter unsure whether to go forward or back, so the batter has to read the length early. A full ball suits the front-foot drive, while a shorter ball calls for a back-foot shot such as the cut, pull or glance."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe how to catch and throw a ball in rounders or softball.",
+      "model": "Catch: use two hands, with the hands forming a cup or basket, and give with the ball as it arrives so that it is cushioned. Throw: use an overarm throw from a side-on stance, stepping towards the target as the ball is released."
+    }
+  ]
+}

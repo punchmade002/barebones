@@ -1,0 +1,138 @@
+{
+  "loId": "pe-aquatics-s5",
+  "chapterId": "pe-aquatics",
+  "subsection": "5. Water polo",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "The game",
+      "points": [
+        "Two teams play, each with six field players and a goalkeeper in the water, seven in total.",
+        "The aim is to throw the ball into the opponents' goal.",
+        "Field players may handle the ball with one hand only; the goalkeeper may use two.",
+        "Field players may not touch the bottom of the pool; in some pools the goalkeeper may."
+      ]
+    },
+    {
+      "h": "Basic movement",
+      "points": [
+        "Eggbeater kick: an alternating circular leg kick that keeps the player high and stable in the water.",
+        "The eggbeater kick lets the player pass, shoot and defend from a high position.",
+        "Head-up front crawl: the head stays up, so the player can see the ball and the other players."
+      ]
+    },
+    {
+      "h": "Passing and receiving",
+      "points": [
+        "Dry pass: thrown to the receiver's hand above the water, and caught without touching the water.",
+        "Wet pass: put into the water in front of a team-mate, who swims onto it.",
+        "The passer uses the eggbeater kick to rise out of the water.",
+        "Passes can be made with one hand from above the head."
+      ]
+    },
+    {
+      "h": "Shooting",
+      "points": [
+        "Power shot: taken from above the head, with an eggbeater lift and body rotation.",
+        "Push shot: taken from the water surface.",
+        "Backhand shot: thrown with the back of the throwing hand leading.",
+        "Lob: a high shot played over the goalkeeper.",
+        "Aim for the corners of the goal."
+      ]
+    },
+    {
+      "h": "Moving with the ball",
+      "points": [
+        "Dribbling: the player swims head-up front crawl with the ball between the arms.",
+        "The ball is pushed forward by the bow wave of the swimmer."
+      ]
+    },
+    {
+      "h": "Moving free",
+      "points": [
+        "Sprint and change direction to lose a marker.",
+        "Drive towards the goal.",
+        "Position to receive the ball."
+      ]
+    },
+    {
+      "h": "Marking and intercepting",
+      "points": [
+        "Stay between the opponent and the goal.",
+        "Use the eggbeater kick to stay high in the water.",
+        "Raise an arm to block passes and shots.",
+        "Anticipate passes."
+      ]
+    },
+    {
+      "h": "Basic rules and fouls",
+      "points": [
+        "Field players use one hand only on the ball.",
+        "No holding, sinking or pulling an opponent who does not have the ball.",
+        "Such a foul may be an ordinary foul or an exclusion foul.",
+        "A shot clock limits how long a team may keep possession without shooting."
+      ]
+    },
+    {
+      "h": "Positions and simple tactics",
+      "points": [
+        "The centre forward sets up in the hole set, in front of the goal.",
+        "Drivers are field players who attack by driving towards the goal.",
+        "After a turnover, a team may counter-attack quickly.",
+        "Defence is played as zone or man-to-man.",
+        "After an exclusion, the attacking team has an extra player and uses it to create a shot."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Caps with ear guards protect the ears.",
+        "Fingernails are trimmed.",
+        "No jewellery is worn.",
+        "Deep water is supervised."
+      ]
+    },
+    {
+      "h": "Physical demands",
+      "points": [
+        "Cardio-respiratory and muscular endurance: the legs work for long periods in the eggbeater kick.",
+        "Power: needed for the shooting skills.",
+        "Agility in the water: quick changes of direction when moving free and marking.",
+        "Physical contest: close marking and blocking involve physical contact."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Eggbeater kick", "definition": "An alternating circular leg kick that keeps the player high and stable in the water." },
+    { "term": "Dry pass", "definition": "A pass thrown to the receiver's hand above the water, caught without touching the water." },
+    { "term": "Wet pass", "definition": "A pass put into the water in front of a team-mate, who swims onto it." },
+    { "term": "Power shot", "definition": "A shot taken from above the head with an eggbeater lift and body rotation." },
+    { "term": "Lob", "definition": "A high shot played over the goalkeeper." },
+    { "term": "Dribbling", "definition": "Moving with the ball by swimming head-up front crawl with the ball between the arms." },
+    { "term": "Hole set", "definition": "The centre forward's position in front of the goal." },
+    { "term": "Driver", "definition": "A field player who attacks by driving towards the goal." },
+    { "term": "Counter-attack", "definition": "A quick attack made after possession changes hands, moving the ball upfield." },
+    { "term": "Exclusion foul", "definition": "A serious foul that removes the offending player from the game for a period and gives the opposing team an extra player." },
+    { "term": "Shot clock", "definition": "A timer that limits how long a team may keep possession without shooting." },
+    { "term": "Man-to-man defence", "definition": "A defence in which each defender marks one opponent." },
+    { "term": "Zone defence", "definition": "A defence in which each defender guards an area rather than a single player." }
+  ],
+  "factCards": [
+    { "term": "How many players does each team have in the water?", "definition": "Six field players and a goalkeeper, seven in total." },
+    { "term": "How many hands may a field player use on the ball?", "definition": "One hand only. The goalkeeper may use two." },
+    { "term": "Where does a wet pass go?", "definition": "Into the water in front of a team-mate, who swims onto it." },
+    { "term": "How is a power shot made?", "definition": "From above the head, with an eggbeater lift and body rotation." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Explain two skills used in water polo and give key technique points for each.",
+      "model": "Dry pass: the ball is thrown to the receiver's hand above the water, so it is caught without touching the water. The passer uses the eggbeater kick to rise out of the water and passes with one hand from above the head. Power shot: the shot is taken from above the head, with an eggbeater lift that raises the player out of the water. The player rotates the body and throws the ball, aiming for the corners of the goal."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe the eggbeater kick and explain why it is important in water polo.",
+      "model": "The eggbeater kick is an alternating circular leg kick, in which the legs move in circles out of step with each other. It keeps the player high and stable in the water. It is important because it leaves the arms free to pass, shoot and block, and without it the player would sink and lose the height needed to pass, shoot or defend."
+    }
+  ]
+}

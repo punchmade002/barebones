@@ -1,0 +1,134 @@
+{
+  "loId": "pe-performance-demands-s5",
+  "chapterId": "pe-performance-demands",
+  "subsection": "5. Assessing fitness and the principles of training",
+  "syllabusRef": "2.5",
+  "notes": [
+    {
+      "h": "Why fitness is tested, and good practice",
+      "points": [
+        "Purposes: identify strengths and weaknesses against the demands of the activity, set realistic goals, design and monitor a training programme, motivate the performer, and compare results with norms (normative data).",
+        "Valid: a test measures what it claims to measure.",
+        "Reliable: a test gives consistent results when repeated under the same conditions.",
+        "Standardised protocol: the same warm-up, surface, time of day, equipment and tester each time, so results can be compared.",
+        "Tests must be safe and suited to the performer, and are repeated before and after a programme to show progress.",
+        "Field tests are practical, cheap and can test many people at once; laboratory tests are more accurate but expensive."
+      ]
+    },
+    {
+      "h": "Tests for the health-related components",
+      "points": [
+        "Cardio-respiratory endurance: the multistage fitness test (bleep test), running 20 m shuttles at a pace set by bleeps that get faster each level until the performer can no longer keep up; the level reached is recorded and VO2 max (maximum oxygen uptake) is estimated.",
+        "Cardio-respiratory endurance: the Cooper 12-minute run, recording the distance covered in 12 minutes.",
+        "Cardio-respiratory endurance for intermittent team sports: the Yo-Yo intermittent recovery test, repeated shuttles with short recovery breaks.",
+        "Muscular endurance: press-up and sit-up (curl-up) tests, the maximum number in one minute or to exhaustion; or the time a plank is held.",
+        "Strength: the hand-grip dynamometer, or a one-repetition maximum (1RM), the heaviest weight lifted once with correct technique.",
+        "Flexibility: the sit-and-reach test, measuring hamstring and lower-back flexibility as the distance reached past the toes.",
+        "Body composition: skinfold callipers at set sites, bioelectrical impedance scales, or BMI (body mass index), which can wrongly class muscular people as overweight."
+      ]
+    },
+    {
+      "h": "Tests for the performance-related components",
+      "points": [
+        "Speed: a 30 m sprint from a standing start, timed.",
+        "Agility: the Illinois agility run or the T-test, timing a set course with changes of direction.",
+        "Power: the vertical (sergeant) jump, measuring jump height, or the standing broad jump, measuring distance.",
+        "Balance: the stork stand, timing how long the performer balances on one foot.",
+        "Co-ordination: the alternate-hand wall-toss test, counting catches in 30 seconds.",
+        "Reaction time: the ruler drop test, in which a partner drops a ruler between the performer's thumb and finger and the distance it falls before being caught is recorded."
+      ]
+    },
+    {
+      "h": "Designing a fitness test battery",
+      "points": [
+        "A test battery is a set of tests chosen to measure the components a specific activity demands, based on a needs analysis.",
+        "Step 1: analyse the activity's demands and select its key components.",
+        "Step 2: choose one valid, reliable test for each component that is specific to the activity.",
+        "Step 3: order the tests so fatigue does not distort results: non-fatiguing tests such as flexibility, power and agility first, and the maximal endurance test last.",
+        "Step 4: standardise the conditions, record the results and compare them with norms or previous results.",
+        "Example battery for soccer: 30 m sprint (speed for breaking away), Illinois agility run (changes of direction), vertical jump (power for heading), then the Yo-Yo intermittent recovery test (repeated high-intensity running)."
+      ]
+    },
+    {
+      "h": "Principles of training",
+      "b": "The specification names readiness, specificity, progression, overload and rest/recovery. Exam answers also accept reversibility, individual differences and variety.",
+      "points": [
+        "Specificity: training must match the demands of the activity, including its energy systems, muscles, movements and speeds.",
+        "Progression: the training load is increased gradually as the body adapts.",
+        "Overload: the body must work harder than normal to adapt, achieved by raising frequency, intensity or time.",
+        "Rest and recovery: the body adapts during recovery, so too little rest leads to overtraining.",
+        "Readiness: the performer must be physically and mentally ready for the training, considering age, maturity, fitness base and skill.",
+        "Reversibility: fitness gains are lost if training stops.",
+        "Individual differences: programmes should suit the individual's fitness, goals and response to training.",
+        "Variety (avoiding tedium): varying training keeps motivation high and reduces overuse injuries."
+      ]
+    },
+    {
+      "h": "Evaluating the principles from a performance perspective",
+      "points": [
+        "Specificity transfers training directly to competition, but too narrow a focus can neglect general fitness and cause overuse injuries.",
+        "Overload drives improvement, but progressing too fast raises injury and overtraining risk.",
+        "Rest and recovery allow adaptation, but too much rest causes reversibility.",
+        "Readiness protects young athletes, who should not be given adult training loads before they are physically mature."
+      ]
+    },
+    {
+      "h": "The FITT formula",
+      "b": "Frequency (how often), Intensity (how hard), Time (how long) and Type (what kind of exercise). The values below are typical guidance, not fixed rules.",
+      "points": [
+        "Cardio-respiratory endurance: 3 to 5 times a week, 60 to 80% of maximum heart rate, at least 20 minutes, continuous running, cycling or swimming.",
+        "Muscular endurance: 2 to 3 times a week, light loads, 15 or more repetitions in 2 to 3 sets, circuits or body-weight exercises.",
+        "Strength: 2 to 3 times a week with rest days between, heavy loads, 3 to 6 repetitions in 3 to 5 sets, free weights or machines.",
+        "Flexibility: 3 to 5 times a week, stretch to mild tension, hold each stretch about 30 seconds, static, dynamic or PNF stretching.",
+        "Body composition: most days, moderate intensity, longer sessions of 30 minutes or more, aerobic exercise combined with a balanced diet.",
+        "Speed: 2 to 3 times a week, maximal efforts, short sprints with full recovery, sprint intervals.",
+        "Agility: 2 to 3 times a week, high intensity, short drills with recovery, ladder and cone drills.",
+        "Power: 2 to 3 times a week, explosive maximal efforts, low repetitions with full recovery, plyometrics or jump training.",
+        "Balance: 3 or more times a week, progressively harder positions, short holds, single-leg and unstable-surface exercises.",
+        "Co-ordination: regular short practices, increasing complexity, skill drills combining body parts.",
+        "Reaction time: regular short practices, maximal responses, reaction drills to sounds or visual signals."
+      ]
+    },
+    {
+      "h": "Training zones and thresholds",
+      "points": [
+        "Maximum heart rate is estimated as 220 minus age.",
+        "Aerobic training zone: about 60 to 80% of maximum heart rate. Anaerobic training zone: about 80 to 90%.",
+        "Aerobic threshold: the lower edge of the aerobic zone, below which training gives little cardio-respiratory benefit.",
+        "Anaerobic (lactate) threshold: the intensity above which lactic acid builds up faster than it can be removed.",
+        "Example: a 17-year-old's estimated maximum heart rate is 220 − 17 = 203 beats per minute, so the aerobic zone is about 122 to 162 beats per minute.",
+        "Intensity is monitored by heart rate or by the rating of perceived exertion (RPE), the performer's own score of how hard they are working."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Validity", "definition": "The extent to which a test measures what it claims to measure." },
+    { "term": "Reliability", "definition": "The extent to which a test gives consistent results when repeated under the same conditions." },
+    { "term": "Normative data", "definition": "Typical results for a population, used to compare an individual's test score." },
+    { "term": "Test battery", "definition": "A set of fitness tests chosen to measure the components a specific activity demands." },
+    { "term": "Multistage fitness test", "definition": "A test of cardio-respiratory endurance using 20 m shuttles at a pace set by bleeps that get faster each level." },
+    { "term": "Sit-and-reach test", "definition": "A test of hamstring and lower-back flexibility." },
+    { "term": "One-repetition maximum (1RM)", "definition": "The heaviest weight that can be lifted once with correct technique." },
+    { "term": "Specificity", "definition": "The principle that training must match the demands of the activity." },
+    { "term": "Progression", "definition": "The principle that training load is increased gradually as the body adapts." },
+    { "term": "Overload", "definition": "The principle that the body must work harder than normal in order to adapt." },
+    { "term": "Readiness", "definition": "The principle that a performer must be physically and mentally ready for the training." },
+    { "term": "Reversibility", "definition": "The principle that fitness gains are lost when training stops." },
+    { "term": "FITT formula", "definition": "Frequency, Intensity, Time and Type: the variables used to plan and overload training." },
+    { "term": "Aerobic training zone", "definition": "About 60 to 80% of maximum heart rate." },
+    { "term": "Anaerobic threshold", "definition": "The intensity above which lactic acid builds up faster than it can be removed." },
+    { "term": "Rating of perceived exertion", "definition": "A performer's own score of how hard they are working." }
+  ],
+  "factCards": [
+    { "term": "Test for each HRF component", "definition": "Cardio-respiratory endurance: bleep test or Cooper run. Muscular endurance: press-up or sit-up test. Strength: hand-grip dynamometer. Flexibility: sit-and-reach. Body composition: skinfold callipers." },
+    { "term": "Test for each PRF component", "definition": "Speed: 30 m sprint. Agility: Illinois run. Power: vertical jump. Balance: stork stand. Co-ordination: wall-toss. Reaction time: ruler drop." },
+    { "term": "Order of tests in a battery", "definition": "Non-fatiguing tests such as flexibility, power and agility first; the maximal endurance test last." },
+    { "term": "Estimating maximum heart rate", "definition": "220 minus age." },
+    { "term": "Principles of training named by the specification", "definition": "Readiness, specificity, progression, overload, rest/recovery." }
+  ],
+  "questions": [
+    { "marks": 12, "prompt": "Design a fitness test battery for a physical activity of your choice, justifying each test.", "model": "Activity: Gaelic football. A needs analysis shows the game demands speed, agility, power and the ability to repeat high-intensity efforts. 1. 30 m sprint: measures speed, needed to win the race to a breaking ball. 2. Illinois agility run: measures changes of direction, needed to evade or track a marker. 3. Vertical jump: measures power, needed for high catches in midfield. 4. Yo-Yo intermittent recovery test: measures the ability to repeat runs with short recovery, matching the stop-start pattern of a match. The tests are done in this order on the same surface after the same warm-up, so the fatiguing endurance test does not affect the others, and results are compared with previous tests." },
+    { "marks": 10, "prompt": "Examine the impact that two principles of training can have on the performance of an athlete.", "model": "1. Specificity: training must match the demands of the activity. A hurler who does short, maximal sprints with recovery, sport-specific agility drills and striking under fatigue develops the energy systems and movements used in matches, so fitness transfers directly to performance; long slow runs would develop endurance the game uses less. Too narrow a focus, however, can neglect general fitness and cause overuse injuries. 2. Progressive overload: the body must work harder than normal and the load must rise gradually. Adding repetitions or weight every week or two causes the body to adapt, so strength and endurance keep improving. If the load rises too quickly, the athlete risks injury and overtraining, so progression must be matched to recovery." },
+    { "marks": 6, "prompt": "Apply the FITT formula to cardio-respiratory endurance.", "model": "Frequency: 3 to 5 sessions a week. Intensity: about 60 to 80% of maximum heart rate (220 minus age), in the aerobic training zone. Time: at least 20 minutes of continuous work. Type: continuous running, cycling or swimming. These are typical guidance values." }
+  ]
+}
