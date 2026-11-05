@@ -1,0 +1,79 @@
+{
+  "loId": "ch2-s1",
+  "chapterId": "ch2",
+  "subsection": "1. Public, private, semi-state and not-for-profit enterprises",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    { "h": "Four types of enterprise", "b": "Enterprises are classified by who owns them and what their main aim is, and that aim shapes how they are funded and held to account.", "points": [
+      "Private enterprises are owned by individuals or shareholders and aim to earn profit for those owners.",
+      "Public enterprises are owned and run by the State or a local authority to deliver services for the whole community.",
+      "Semi-state enterprises are State-owned commercial bodies that sell goods or services in the market but operate at arm's length from government.",
+      "Not-for-profit enterprises pursue a social, charitable or community purpose, and any surplus is reinvested in that purpose rather than paid to owners."
+    ] },
+    { "h": "Public enterprises", "b": "Public enterprises exist because some services are needed by everyone but are not profitable enough for private firms to supply them.", "points": [
+      "Government departments, such as the Department of Social Protection, deliver State policy and pay services such as social welfare directly.",
+      "Local authorities, such as county councils, provide housing, roads, planning, libraries and fire services in their area.",
+      "The HSE runs most publicly funded health services, including hospitals and community care, and it is not expected to make a profit.",
+      "Public enterprises aim for universal access and social outcomes, so they are judged on the reach and quality of services rather than on profit."
+    ] },
+    { "h": "Semi-state commercial bodies", "b": "Semi-state bodies combine State ownership with commercial trading, so they must balance a public service role with covering their costs.", "points": [
+      "Examples include the ESB, which generates and supplies electricity, An Post, which runs the postal network, and Coillte, which manages State forestry.",
+      "They earn revenue from customers, but because the State owns them, government policy can shape their pricing, investment and strategy.",
+      "Several semi-state bodies compete with private firms, which pushes them to improve efficiency and customer service.",
+      "A surplus can be reinvested in networks and infrastructure or paid to the State as a dividend, which links commercial results to public finances."
+    ] },
+    { "h": "Private enterprises", "b": "Private enterprises make up the largest group of businesses in most economies and drive most day-to-day business activity.", "points": [
+      "Private firms range from sole traders to listed multinational companies, and they are funded by owners, banks, investors and retained profit.",
+      "Their main aim is profit, which rewards owners and gives them a strong incentive to innovate and control costs.",
+      "Private firms create jobs and wealth and pay corporation tax, income tax and VAT, which help fund public services."
+    ] },
+    { "h": "Not-for-profit enterprises", "b": "Not-for-profit enterprises include charities, social enterprises and non-governmental organisations, usually called NGOs.", "points": [
+      "Charities are registered and regulated by the Charities Regulator and must serve a purpose that the law recognises as public benefit, such as relief of poverty or advancement of education.",
+      "Social enterprises trade goods or services to pursue a social aim, and they reinvest most of their surplus in that aim, which shows entrepreneurial thinking with an ethical purpose.",
+      "NGOs such as Concern Worldwide and Trócaire work on development and humanitarian problems and rely largely on donations and government grants.",
+      "Not-for-profit does not mean unpaid: these bodies employ staff and compete for funding, contracts and skilled people."
+    ] },
+    { "h": "Contribution to the economy", "b": "Each type of enterprise contributes in a different way, both in local communities and across the national economy.", "points": [
+      "Private enterprises provide most private-sector employment and generate tax revenue and exports, making them central to national income.",
+      "Public enterprises provide the essential services and infrastructure that every other business and community depends on, and their jobs are spread across every county.",
+      "Semi-state bodies build and run national infrastructure, such as the electricity grid and the postal network, which underpin business activity.",
+      "Not-for-profit bodies support communities locally, for example through a community centre, a care service or a training project run by a social enterprise.",
+      "In a town, the largest employer may be a public body, a private firm or a co-operative, and that mix affects local spending and how resilient the area is to shocks."
+    ] },
+    { "h": "Funding and accountability", "b": "How an enterprise is funded determines the people and bodies it must answer to.", "points": [
+      "Public enterprises are funded mainly from taxation and State grants, so they are accountable to the Oireachtas and to the public.",
+      "The Comptroller and Auditor General audits public bodies, and the Public Accounts Committee of the Oireachtas examines how public money is spent.",
+      "Semi-state bodies earn revenue from sales but answer to a sponsoring government department and publish annual reports.",
+      "Private enterprises are funded by owners, shareholders, lenders and trading income, and they are accountable mainly to shareholders and creditors.",
+      "Not-for-profit bodies rely on donations, grants and fundraising, so they are accountable to donors, funders and regulators such as the Charities Regulator."
+    ] },
+    { "h": "Strengths and limits of each type", "b": "No single type of enterprise is best in every situation, so each has trade-offs that a business or government must weigh.", "points": [
+      "Private enterprises respond quickly to customers and are efficient because owners bear losses, but they may neglect services that do not make a profit.",
+      "Public enterprises give access to everyone regardless of ability to pay, but they can lack competitive pressure and may face political interference in decisions.",
+      "Semi-state bodies combine State control with commercial discipline, but they can face conflicting goals of profit and public service.",
+      "Not-for-profit bodies pursue social goals and build public trust, but their funding from donations and grants can be unpredictable."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Private enterprise", "definition": "A business owned by individuals or shareholders that aims to make a profit for those owners." },
+    { "term": "Public enterprise", "definition": "An organisation owned and run by the State or a local authority to deliver services for the whole community." },
+    { "term": "Semi-state enterprise", "definition": "A commercial body owned by the State that sells goods or services in the market while operating at arm's length from government." },
+    { "term": "Not-for-profit enterprise", "definition": "An organisation that pursues a social, charitable or community purpose and reinvests any surplus in that purpose instead of paying it to owners." },
+    { "term": "Social enterprise", "definition": "A business that trades goods or services to pursue a social aim and reinvests most of its surplus in that aim." },
+    { "term": "Charity", "definition": "A registered not-for-profit organisation that serves a purpose the law recognises as public benefit and is regulated for doing so." },
+    { "term": "NGO", "definition": "A non-governmental organisation, usually not-for-profit, that works on development, humanitarian or social problems and relies mainly on donations and grants." },
+    { "term": "Surplus", "definition": "The revenue left over after all costs have been paid, which a not-for-profit body reinvests in its mission." }
+  ],
+  "factCards": [
+    { "term": "Four types of enterprise by ownership and aim", "definition": "Private, public, semi-state and not-for-profit." },
+    { "term": "Main sources of funding for a public body", "definition": "Taxation, State grants and charges for certain services." },
+    { "term": "Bodies that hold public bodies to account for spending", "definition": "The Oireachtas, the Comptroller and Auditor General and the Public Accounts Committee." },
+    { "term": "Advantage and disadvantage of a not-for-profit enterprise", "definition": "Advantage: it pursues social goals and builds public trust. Disadvantage: its funding from donations and grants is unpredictable." },
+    { "term": "Three Irish examples of semi-state bodies", "definition": "ESB, An Post and Coillte." },
+    { "term": "Two ways a semi-state body can use a surplus", "definition": "Reinvest it in networks and infrastructure, or pay it to the State as a dividend." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Compare public and private enterprises as providers of essential services in Ireland, referring to their aims, funding and accountability.", "model": "Aims: a public body such as the HSE aims to give universal access to health care, so it treats patients who cannot pay, whereas a private provider aims to earn profit for its owners and may focus on services that pay. Funding: the HSE is funded mainly from taxation and State grants, while a private provider is funded by fees, insurance payments and shareholders' capital. Accountability: the HSE answers to the Oireachtas and the public through the Public Accounts Committee, while a private firm answers mainly to its shareholders and creditors. Evaluation: the public model protects access for everyone, but the private model can respond faster to demand and bring in capital for investment without waiting for budget decisions." },
+    { "marks": 15, "prompt": "Explain the contribution of semi-state enterprises to the Irish economy, using one named example.", "model": "Semi-state enterprises provide infrastructure that other businesses rely on. For example, the ESB supplies the electricity grid that powers factories, offices and shops, so reliable and affordable energy supports production and investment across the economy. Semi-state bodies also employ people across the country, which supports local spending and communities. Because the State owns them, government policy can steer their investment towards national goals such as the energy transition, although State ownership can also bring political interference in commercial decisions." }
+  ]
+}

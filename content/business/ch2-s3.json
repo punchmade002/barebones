@@ -1,0 +1,78 @@
+{
+  "loId": "ch2-s3",
+  "chapterId": "ch2",
+  "subsection": "3. Regulation, governance and ESG",
+  "syllabusRef": "1.2.3, 1.2.4, 1.2.5",
+  "notes": [
+    { "h": "Purpose of regulation", "b": "Regulation is the set of rules, set by the State or an independent body, that controls how businesses operate.", "points": [
+      "Regulation protects stakeholders such as customers, employees and the public from harm, for example from unsafe products or misleading advertising.",
+      "It promotes fair competition, so that no firm gains an advantage by breaking the rules, by colluding with rivals or by abusing a dominant position.",
+      "It protects safety at work and in the environment, by setting standards that businesses must meet regardless of their profit motive.",
+      "It builds trust in markets, which encourages customers, employees and investors to take part, for example by keeping customer deposits in banks secure."
+    ] },
+    { "h": "Internal regulation", "b": "Internal regulation is the set of controls a business puts in place itself, beyond what the law requires.", "points": [
+      "The board of directors has a legal duty to act in the best interests of the company, to act with care and skill, and to avoid conflicts of interest.",
+      "Internal audit is an independent review function that checks whether controls are working and reports its findings to the audit committee or board.",
+      "Risk management means identifying, assessing and controlling events that could stop the business meeting its objectives, such as fraud, a cyber attack or a supply disruption, usually recorded in a risk register.",
+      "A compliance function checks that the business obeys laws, regulations and its own policies, and it reports any breaches to senior management.",
+      "A code of conduct sets out expected ethical behaviour for employees and directors, and protected reporting channels let staff raise concerns about wrongdoing."
+    ] },
+    { "h": "External regulation", "b": "External regulation is imposed on a business by law, independent statutory bodies and independent auditors.", "points": [
+      "A statutory external audit is required by the Companies Act 2014 for many companies, and an independent auditor reports to shareholders on whether the accounts give a true and fair view.",
+      "The Central Bank of Ireland supervises banks, insurers and investment firms, and it has powers to investigate and penalise firms that breach its rules.",
+      "The Competition and Consumer Protection Commission enforces competition and consumer law and reviews proposed mergers that could reduce competition.",
+      "The Corporate Enforcement Authority enforces company law, investigates breaches by companies and directors, and can bring prosecutions.",
+      "Revenue enforces tax law, the Health and Safety Authority enforces workplace safety, and the Environmental Protection Agency enforces environmental law.",
+      "The Data Protection Commission enforces the GDPR, which governs how businesses collect, store and use personal data."
+    ] },
+    { "h": "Corporate governance", "b": "Corporate governance is the system of rules, practices and processes by which a company is directed and controlled.", "points": [
+      "Accountability means directors answer to shareholders and other stakeholders for their decisions and results, and transparency means disclosing accurate information on time.",
+      "A board usually combines executive directors, who run the business, with non-executive directors, who bring independent scrutiny to decisions.",
+      "Good governance often separates the roles of chair and chief executive, so that no single person holds unchecked power over the business.",
+      "Board committees do specialist work: an audit committee oversees financial reporting and internal audit, and a remuneration committee sets executive pay.",
+      "Shareholders exercise governance rights by voting at the annual general meeting, including on the appointment and removal of directors.",
+      "Strong governance is a form of ethics in practice, because it sets the culture that decides whether controls are respected or ignored."
+    ] },
+    { "h": "The three ESG pillars", "b": "ESG stands for environmental, social and governance factors, which investors and other stakeholders use to judge a company's sustainability and ethics.", "points": [
+      "Environmental factors cover carbon emissions, energy use, water use, waste and pollution, for example a food company cutting the packaging waste it sends to landfill.",
+      "Social factors cover employees' health and safety, pay and diversity, fair treatment of customers and suppliers, and the impact of the business on its local community.",
+      "Governance factors cover board structure, executive pay, anti-bribery controls, tax transparency and the protection of shareholder rights.",
+      "Environmental and social harm can cost a business customers, staff and access to finance, so managing ESG risk is a practical form of business sustainability."
+    ] },
+    { "h": "ESG reporting", "b": "An ESG report discloses how a company performs on environmental, social and governance factors, usually alongside its financial results.", "points": [
+      "Investors and lenders use ESG reports to assess long-term risks, such as climate-related disruption or abuse in the supply chain, which can affect future profits.",
+      "Reporting builds stakeholder trust and can help a business win contracts from customers that require suppliers to meet sustainability standards.",
+      "The EU Corporate Sustainability Reporting Directive requires larger companies to publish standardised sustainability reports, and Ireland has transposed it into Irish law.",
+      "Reports under the Directive must be checked by an independent assurance provider, so the information is not left entirely to the company's own judgement."
+    ] },
+    { "h": "Evaluating regulation and governance", "b": "Regulation and governance bring benefits and costs, and their effectiveness depends on how consistently they are applied.", "points": [
+      "The benefits are protection for stakeholders, greater trust and a level playing field between firms that obey the rules.",
+      "The costs are compliance expenses and staff time, which weigh more heavily on small and medium enterprises that have few staff to handle reporting.",
+      "Over-regulation can slow innovation and deter entrepreneurs, while under-regulation allows fraud, unsafe practices and environmental damage to go unchecked.",
+      "Regulation works best when it is enforced consistently and when businesses adopt internal controls that go beyond the legal minimum."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Regulation", "definition": "Rules set and enforced by the State or an independent body that control how businesses operate." },
+    { "term": "Corporate governance", "definition": "The system of rules, practices and processes by which a company is directed and controlled." },
+    { "term": "Accountability", "definition": "The duty to explain and answer for decisions and results to those with a legitimate interest, such as shareholders." },
+    { "term": "Transparency", "definition": "Openly disclosing accurate and timely information so that stakeholders can understand a business's decisions and performance." },
+    { "term": "Internal audit", "definition": "A review function inside an organisation that independently checks whether its controls, risk management and governance are working." },
+    { "term": "Risk management", "definition": "The process of identifying, assessing and controlling events that could stop a business meeting its objectives." },
+    { "term": "Compliance", "definition": "Ensuring that a business follows laws, regulations and its own policies, and reporting any breaches." },
+    { "term": "Statutory audit", "definition": "An independent audit of a company's accounts required by law, reporting to shareholders on whether the accounts give a true and fair view." },
+    { "term": "ESG", "definition": "Environmental, social and governance factors used to assess a company's sustainability and ethical performance." }
+  ],
+  "factCards": [
+    { "term": "Three elements of an ESG report", "definition": "Environmental, social and governance." },
+    { "term": "Four purposes of regulation", "definition": "Protecting stakeholders, ensuring fair competition, protecting safety and building trust." },
+    { "term": "Regulator of banks, insurers and investment firms in Ireland", "definition": "The Central Bank of Ireland." },
+    { "term": "Body that enforces consumer law and reviews mergers", "definition": "The Competition and Consumer Protection Commission." },
+    { "term": "Main burden of regulation for a small firm", "definition": "Compliance costs and staff time, which weigh more heavily on firms with few employees." },
+    { "term": "Two roles that separate control within a board", "definition": "Chair and chief executive, which good governance often keeps apart." }
+  ],
+  "questions": [
+    { "marks": 25, "prompt": "Explain how corporate governance, internal controls and external regulation work together to protect stakeholders, and evaluate the effectiveness of each.", "model": "Corporate governance sets the framework of accountability and transparency, so the board answers to shareholders for its decisions and the company discloses accurate information. Internal controls such as risk management, internal audit and a compliance function detect and prevent problems before they harm stakeholders, for example by stopping fraud in payment processes. External regulation sets minimum standards that every firm must meet, such as the statutory audit under the Companies Act 2014, and it gives regulators such as the Central Bank powers to investigate and penalise. Evaluation: internal controls are flexible and suited to the business, but they can be weakened by a board that ignores them, while external regulation is independent but can be backward-looking and costly for smaller firms. Protection is strongest when all three operate together, because governance sets the culture, internal controls catch problems early and regulation provides a safety net." },
+    { "marks": 15, "prompt": "Explain the three elements of an ESG report and why investors and lenders value it.", "model": "Environmental factors, such as carbon emissions and resource use, show the company's impact on the planet and its exposure to climate risk. Social factors, such as employee welfare, diversity and supply chain practices, show how the company treats people. Governance factors, such as board structure and executive pay, show how well the company is directed and controlled. Investors and lenders value this information because non-financial risks can damage future profits, and reporting lets them compare firms and judge long-term sustainability." }
+  ]
+}
