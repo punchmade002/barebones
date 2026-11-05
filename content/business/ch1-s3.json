@@ -1,0 +1,71 @@
+{
+  "loId": "ch1-s3",
+  "chapterId": "ch1",
+  "subsection": "3. Stakeholder mapping and prioritising stakeholder interests",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    { "h": "What stakeholder mapping is", "b": "Stakeholder mapping identifies each stakeholder affected by a decision and records how much power and interest each one has. The map can be written or visual.", "points": [
+      "A stakeholder map records the stakeholders, their interdependencies, their inter-relationships, and their power and influence over the decision.",
+      "Interdependencies are the reliance one stakeholder has on another, such as a supplier that depends on a retailer's orders.",
+      "Inter-relationships are the working relationships between stakeholders, which may be co-operative or competitive.",
+      "Power is the ability to affect a decision directly, such as through a vote, a contract or legal authority, while influence works indirectly through persuasion or public pressure."
+    ] },
+    { "h": "The power-interest grid", "b": "The power-interest grid places each stakeholder on two axes, power and interest, to show what action each one requires.", "points": [
+      "High power and high interest: manage closely, by involving the stakeholder in the decision and keeping them fully informed.",
+      "High power and low interest: keep satisfied, by meeting their key concerns without overloading them with detail.",
+      "Low power and high interest: keep informed, by sharing updates so the stakeholder feels heard and can respond.",
+      "Low power and low interest: monitor, by checking periodically whether their position or influence has changed."
+    ] },
+    { "h": "Mapping a decision step by step", "b": "A consistent method makes the map defensible. The same steps apply to any decision in a case study.", "points": [
+      "Step one: state the decision clearly, such as whether a restaurant should add plant-based dishes to its menu.",
+      "Step two: list every stakeholder affected, internal and external, including those affected only indirectly.",
+      "Step three: assess each stakeholder's interest in the decision and their power to influence it, giving a reason for each judgement.",
+      "Step four: place each stakeholder on the grid and state the action each quadrant requires.",
+      "Step five: note the interdependencies and likely conflicts, since these affect how the planned actions should be carried out."
+    ] },
+    { "h": "Why prioritise stakeholder interests", "b": "No business can meet every stakeholder's demands in full, so prioritising focuses limited resources where they matter most.", "points": [
+      "Limited resources: time, money and management attention are scarce, so they must go to the stakeholders with the most power and interest.",
+      "Decision speed: a clear order of priority lets the business decide and act without waiting for every group to agree.",
+      "Avoiding conflict: addressing the most powerful concerns early reduces the chance of disputes later.",
+      "Legitimacy: showing that concerns were weighed fairly makes the decision more acceptable to those affected by it.",
+      "Ethics and sustainability: a community or environmental concern may need priority even when the group holds little formal power, because the harm it describes is serious."
+    ] },
+    { "h": "Limitations of stakeholder mapping", "b": "A map is a snapshot of judgements that may be wrong or out of date. Its limitations must be stated when the map informs a decision.", "points": [
+      "Positions change: a stakeholder's interest can rise suddenly after a news story, so the map needs regular updating.",
+      "Subjective judgements: scores for power and interest depend on the mapper's view, so two people may place the same stakeholder differently.",
+      "Oversimplification: a two-dimensional grid can hide a stakeholder's values and the complexity of their concerns.",
+      "Hidden stakeholders: groups affected by the decision but not identified at the start, such as future customers, may be missed."
+    ] },
+    { "h": "Worked mapping: an Irish case", "b": "This worked example applies the method to a realistic decision. The judgements are illustrative and show how reasons are given for each placement.", "points": [
+      "Decision: a Cork bakery is considering opening a second shop in Galway.",
+      "Owners: high power and high interest, so manage closely by involving them in the choice of location and financing.",
+      "Local residents near the proposed Galway site: high interest, and moderate but real power through planning objections, so manage closely by consulting them before the planning application is made.",
+      "Employees at the existing Cork shop: low power over the decision but high interest in job security and hours, so keep informed and address their concerns in staffing plans.",
+      "The bank providing the loan: high power over whether the expansion goes ahead, but limited interest in daily operations, so keep satisfied with a clear business plan showing how the loan will be repaid.",
+      "Suppliers of flour and other ingredients: low power and low interest, although orders could grow, so monitor the position as the expansion proceeds."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Stakeholder mapping", "definition": "The process of identifying the stakeholders affected by a decision and recording their power, influence, interest and relationships." },
+    { "term": "Power-interest grid", "definition": "A two-by-two matrix that places stakeholders by their power over a decision and their interest in it, to decide how each should be managed." },
+    { "term": "Power", "definition": "The ability of a stakeholder to affect a decision directly, such as through a vote, a contract or legal authority." },
+    { "term": "Influence", "definition": "The ability of a stakeholder to shape a decision indirectly, through persuasion, public pressure or reputation." },
+    { "term": "Manage closely", "definition": "The action for stakeholders with high power and high interest, who should be involved fully in the decision." },
+    { "term": "Keep satisfied", "definition": "The action for stakeholders with high power and low interest, whose key concerns must be met without overloading them." },
+    { "term": "Keep informed", "definition": "The action for stakeholders with low power and high interest, who should receive updates so they can respond." },
+    { "term": "Monitor", "definition": "The action for stakeholders with low power and low interest, whose position should be checked periodically for change." },
+    { "term": "Stakeholder prioritisation", "definition": "Ranking stakeholders' concerns so that limited resources and decision time go to those of greatest importance." }
+  ],
+  "factCards": [
+    { "term": "Five steps for mapping a decision", "definition": "State the decision, list the affected stakeholders, assess interest and power, place them on the grid, then note the interdependencies." },
+    { "term": "Four reasons to prioritise stakeholders", "definition": "Scarce resources, decision speed, avoiding conflict and legitimacy." },
+    { "term": "Three weaknesses of a stakeholder map", "definition": "Positions change, judgements are subjective, and the grid oversimplifies." },
+    { "term": "Who a map often misses", "definition": "Future customers and groups affected only indirectly by the decision." },
+    { "term": "Why a low-power group may still be prioritised", "definition": "Ethical and sustainability concerns, such as environmental harm, can require action regardless of formal power." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Conduct stakeholder mapping to identify and prioritise four stakeholders affected by a decision of an Irish hotel to close its restaurant on Mondays.", "model": "Owners: high power over the decision and high interest in profit, so they are managed closely through a full costing of the change and their approval of the plan. Restaurant staff: low power over the decision but high interest in hours and pay, so they are kept informed and their concerns are addressed in rota planning, which also avoids staff losses. Hotel guests who dine in the restaurant: moderate power through their choice of hotel and high interest in service, so they are kept informed through notices and given alternatives nearby. Local food suppliers: low power and moderate interest because the order volume will fall, so they are monitored and notified early so they can adjust. The priority order follows from power and interest, with owners and staff addressed first." },
+    { "marks": 15, "prompt": "Explain why prioritising stakeholder interests is important for a business facing a difficult decision.", "model": "Resources such as management time and money are limited, so a business cannot satisfy every stakeholder in full. Prioritising directs effort to the stakeholders with the most power and interest, so the decision can be implemented without the most important objections being ignored. A clear order of priority also speeds the decision, because the business does not have to wait for every group to agree before acting. Finally, showing that concerns were weighed fairly makes the decision more legitimate to those affected." },
+    { "marks": 10, "prompt": "Explain two limitations of using a power-interest grid to inform a business decision.", "model": "The first limitation is that the placement of each stakeholder depends on judgements about power and interest, which can differ between people and may be biased, so two maps of the same decision may look different. The second limitation is that a two-dimensional grid simplifies complex stakeholder positions, so a stakeholder's values or the detail of their concerns may be lost, and the action assigned may not fit their real needs." }
+  ]
+}
