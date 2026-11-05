@@ -1281,7 +1281,7 @@ SimpleStudy: none.
   | National housing policy [2.1.4] | *Delivering Homes, Building Communities 2025–2030* |
 
   The Family Law (Maintenance of Spouses and Children) Act 1976, the Family Home Protection Act
-  1976, the Child Care Act 1991, the Consumer Credit Act 1995 and the Protection of Young Persons
+  1976, the Child Care Act 1991 (its functions exercised since 2014 by Tusla, the Child and Family Agency), the Consumer Credit Act 1995 and the Protection of Young Persons
   (Employment) Act 1996 remain in force (as amended) and keep their syllabus names. SEC papers up
   to 2026 sometimes still named a superseded Act (e.g. the Sale of Goods and Supply of Services
   Act 1980 in 2026); the outline follows the current law.
