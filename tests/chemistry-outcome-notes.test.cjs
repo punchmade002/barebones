@@ -3,6 +3,8 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
+const os = require("node:os");
+const { spawnSync } = require("node:child_process");
 
 const root = path.resolve(__dirname, "..");
 
@@ -11,40 +13,43 @@ function loadChemistry() {
   context.window = context;
   context.globalThis = context;
   vm.createContext(context);
-  for (const file of ["data.js", "chemistry-content.js"]) {
+  for (const file of ["data.js", "chemistry-content.js", "chemistry-notes.js"]) {
     vm.runInContext(fs.readFileSync(path.join(root, file), "utf8"), context, { filename: file });
   }
   vm.runInContext("globalThis.__courseData = COURSE_DATA", context);
   return context.__courseData.chapters.filter((chapter) => chapter.subject === "chemistry");
 }
 
-test("every Chemistry learning outcome has substantive, outcome-level notes", () => {
-  const chapters = loadChemistry();
-  const outcomes = chapters.flatMap((chapter) => chapter.learningOutcomes);
+const isSplit = (chapter) => chapter.learningOutcomes.some((outcome) => /-s\d+$/.test(outcome.id));
 
+test("every Chemistry chapter keeps a review outcome and has authored notes in every subsection", () => {
+  const chapters = loadChemistry();
   assert.equal(chapters.length, 26);
-  outcomes.forEach((outcome) => {
-    assert.ok(outcome.notes.length > 0, `${outcome.id} should have notes`);
-    outcome.notes.forEach((note) => {
-      assert.ok(note.h, `${outcome.id} should have a note heading`);
-      assert.ok(note.b.length >= 120, `${outcome.id} should have substantive teaching text`);
+  const split = chapters.filter(isSplit);
+  assert.equal(split.length, 26);
+  split.forEach((chapter) => {
+    const [review, ...subsections] = chapter.learningOutcomes;
+    assert.equal(review.id, `${chapter.id}-1`);
+    assert.equal(review.notes.length, 0, `${review.id} holds only the chapter's test questions`);
+    assert.ok(review.questions.length >= 1, `${review.id} keeps the chapter's test questions`);
+    subsections.forEach((outcome, index) => {
+      assert.equal(outcome.id, `${chapter.id}-s${index + 1}`);
+      assert.ok(outcome.syllabusRef, `${outcome.id} needs its specification reference`);
+      assert.ok(outcome.authored, `${outcome.id} should have authored notes`);
+      // A subsection is only worth its own heading with a substantial group of points.
+      assert.ok(outcome.notes.length >= 8, `${outcome.id} has ${outcome.notes.length} note blocks; merge it into a neighbour`);
+      assert.ok(outcome.keyTerms.length >= 3, `${outcome.id} should have flashcards`);
+      assert.ok(outcome.questions.length >= 1, `${outcome.id} should have a practice question`);
     });
   });
 });
 
-test("cross-chapter organic and quantitative material is attached to its specification outcome", () => {
-  const outcomes = new Map(
-    loadChemistry().flatMap((chapter) => chapter.learningOutcomes).map((outcome) => [outcome.id, outcome])
-  );
-  const headings = (id) => outcomes.get(id).notes.map((note) => note.h);
-
-  assert.ok(headings("chem8-2").includes("Relative atomic mass and the mass spectrometer"));
-  assert.ok(headings("chem8-3").includes("Avogadro's Law and Molar Volume of a Gas"));
-  assert.ok(headings("chem8-4").includes("Experiment 9.1: Measuring Mr of a Volatile Liquid"));
-  assert.ok(headings("chem24-5").includes("Acidity of Alcohols and Carboxylic Acids"));
-  assert.ok(headings("chem25-10").includes("Addition Polymers"));
-
-  assert.ok(!headings("chem4-1").includes("Relative atomic mass and the mass spectrometer"));
-  assert.ok(!headings("chem9-5").includes("Avogadro's Law and Molar Volume of a Gas"));
-  assert.ok(!headings("chem24-1").includes("Addition Polymers"));
+test("the shipped chemistry notes file is up to date with content/chemistry", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "chemistry-notes.js");
+  const result = spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "chemistry", "--out", out], {
+    encoding: "utf8",
+  });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(fs.readFileSync(out, "utf8"), fs.readFileSync(path.join(root, "chemistry-notes.js"), "utf8"),
+    "run python3 scripts/build_notes.py chemistry");
 });
