@@ -1,0 +1,129 @@
+{
+  "loId": "hom-education-s4",
+  "chapterId": "hom-education",
+  "subsection": "4. Equality of opportunity in education",
+  "syllabusRef": "6.2",
+  "notes": [
+    {
+      "h": "Meaning of equality of opportunity (Higher Level only)",
+      "b": "Equality of opportunity means every student has a fair chance to access, take part in and benefit from education, whatever their background.",
+      "points": [
+        "Equal access means every student can enrol and attend; equal outcomes means students finish with similar results, which does not follow automatically from equal access.",
+        "Students begin school from different starting points, so equal treatment alone may not give equal opportunity.",
+        "Equity means giving extra support in proportion to need, so that students at a disadvantage can reach the same level of achievement.",
+        "Barriers to equality of opportunity include gender, socio-economic status, disability, family background and location."
+      ]
+    },
+    {
+      "h": "Gender and equality of opportunity (Higher Level only)",
+      "points": [
+        "Boys are more likely than girls to leave school early and to have lower literacy levels at second level.",
+        "Subject choice can be gendered: fewer girls than boys take subjects such as Physics, and fewer boys take subjects such as Home Economics.",
+        "Teacher and parent expectations can differ by gender, which can influence the subjects and courses students consider.",
+        "Schools can widen opportunity by encouraging students to choose subjects on the basis of ability and interest rather than gender stereotypes."
+      ]
+    },
+    {
+      "h": "Socio-economic status and equality of opportunity (Higher Level only)",
+      "points": [
+        "Families with low incomes may struggle to pay for books, equipment, uniforms and school activities.",
+        "Allowances, book rental schemes and grants reduce these costs, but they do not remove the wider gap in resources between families.",
+        "Parents with higher levels of education are more likely to have high expectations for their children and to be able to help with schoolwork.",
+        "Students from lower socio-economic groups are more likely to leave school early and less likely to progress to third level.",
+        "Students in lower-status groups may be placed in lower streams or sets, which can limit the grades and courses open to them.",
+        "Teacher expectations and the locality of a school can reinforce the effects of socio-economic status."
+      ]
+    },
+    {
+      "h": "Disadvantaged students (Higher Level only)",
+      "points": [
+        "Disadvantaged students include those from low-income families, Travellers, Roma, students from migrant families, students with disabilities, homeless young people and young people in care.",
+        "Students from migrant families may need language support in English or Irish, and their qualifications from other countries may not be recognised.",
+        "The DEIS (Delivering Equality of Opportunity in Schools) programme identifies schools serving disadvantaged communities and gives them extra staffing and supports.",
+        "Students living in disadvantaged areas may face poor housing, poor health, lack of study space and limited access to after-school activities."
+      ]
+    },
+    {
+      "h": "Early school leavers (Higher Level only)",
+      "points": [
+        "An early school leaver is a young person who leaves school before completing a senior cycle programme such as the Leaving Certificate.",
+        "Early school leaving is more likely among students with poor attendance, low literacy and numeracy, or learning difficulties.",
+        "Bullying, family problems, poverty, and negative peer pressure all increase the risk of leaving school early.",
+        "Leaving school early limits access to further and third-level education and to skilled employment.",
+        "Early school leaving is linked with unemployment, low pay, poor health and social exclusion later in life."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Equality of opportunity",
+      "definition": "The principle that every student has a fair chance to access, take part in and benefit from education, regardless of background."
+    },
+    {
+      "term": "Equity",
+      "definition": "Providing extra support in proportion to need so that students who start at a disadvantage can reach a comparable level of achievement."
+    },
+    {
+      "term": "Socio-economic status",
+      "definition": "A family's social and economic position, usually based on income, occupation and education level."
+    },
+    {
+      "term": "Early school leaver",
+      "definition": "A young person who leaves school before completing a senior cycle programme such as the Leaving Certificate."
+    },
+    {
+      "term": "Educational disadvantage",
+      "definition": "The situation where a student's background, location or circumstances limit their access to education and their achievement in it."
+    },
+    {
+      "term": "Streaming",
+      "definition": "Grouping students by ability for particular subjects or for the whole school year, which can affect the grades and courses open to them."
+    },
+    {
+      "term": "DEIS",
+      "definition": "Delivering Equality of Opportunity in Schools, the Department of Education programme that gives extra supports to schools serving disadvantaged communities."
+    },
+    {
+      "term": "Gendered subject choice",
+      "definition": "Patterns in which students choose subjects differently by gender, often reflecting stereotypes rather than ability."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two areas in which boys are more likely than girls to struggle at school",
+      "definition": "Early school leaving and literacy at second level."
+    },
+    {
+      "term": "Three costs that can limit a low-income family's child",
+      "definition": "Books, equipment, uniforms and school activities."
+    },
+    {
+      "term": "Groups counted as disadvantaged in education",
+      "definition": "Low-income families, Travellers, Roma, students from migrant families, students with disabilities, homeless young people and young people in care."
+    },
+    {
+      "term": "Two effects of early school leaving on later life",
+      "definition": "Unemployment and low pay, with poor health and social exclusion also linked."
+    },
+    {
+      "term": "Two factors that increase the risk of leaving school early",
+      "definition": "Poor attendance and low literacy or numeracy, with bullying and family problems also raising the risk."
+    },
+    {
+      "term": "Programme that targets schools serving disadvantaged communities",
+      "definition": "DEIS, which provides extra staffing and supports."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which socio-economic status can limit equality of opportunity in education.",
+      "model": "Any two, three marks each: families with low incomes struggle to pay for books, equipment and uniforms and so may be excluded from full participation; parents with lower levels of education may have lower expectations and less ability to help with schoolwork; students from lower socio-economic groups are more likely to leave school early and less likely to progress to third level; placement in lower streams can limit grades and courses."
+    },
+    {
+      "marks": 24,
+      "prompt": "Analyse how gender, socio-economic status and early school leaving affect equality of opportunity in education, referring to one initiative that responds to disadvantage.",
+      "model": "Gender: boys more likely to leave school early and to have lower literacy; subject choice shaped by gender stereotypes, with fewer girls in Physics and fewer boys in Home Economics. Socio-economic status: cost of books, equipment and uniforms; allowances, book rental and grants reduce but do not remove barriers; parental education and expectations; lower socio-economic groups less likely to progress to third level; streaming and teacher expectations. Early school leaving: definition as leaving before completing senior cycle; risk factors such as poor attendance, low literacy, bullying, family problems and poverty; consequences such as limited access to further and third-level education and skilled work, and later unemployment and social exclusion. Initiative: DEIS, which gives extra staffing and supports to schools in disadvantaged communities, with an explanation of how it addresses one of the barriers named."
+    }
+  ]
+}
