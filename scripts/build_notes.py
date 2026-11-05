@@ -36,11 +36,11 @@ INTERNAL_IDS: set[str] = set()
 # Ids look like geo-rivers-s2 or bio19-s2, so a token may contain digits before its first hyphen.
 ID_TOKEN = re.compile(r"\b[a-z][a-z0-9]*(?:-[a-z0-9]+)+\b")
 # Subjects whose chapter review outcome still carries the old hand-written notes and
-# flashcards, mapped to that outcome's id suffix (biology <chapter>-1; PE <chapter>-core, built
+# flashcards, mapped to that outcome's id suffix (biology and history <chapter>-1; PE <chapter>-core, built
 # by pe-pipeline-content.js). When a chapter's authored notes arrive, those are cleared so the
 # old content (which predates the current syllabus or outline) doesn't sit beside the new notes.
 # The review outcome keeps its test questions.
-RETIRE_REVIEW_NOTES = {"biology": "-1", "pe": "-core"}
+RETIRE_REVIEW_NOTES = {"biology": "-1", "history": "-1", "pe": "-core"}
 
 
 def outcome_ids(subject: str) -> dict[str, str]:

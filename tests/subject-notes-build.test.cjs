@@ -283,3 +283,40 @@ test("business chapters with subsections are fully authored and load without the
     });
   });
 });
+
+function buildHistory(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "history", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("the shipped history notes file is up to date with content/history", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "history-notes.js");
+  const result = buildHistory(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "history-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py history"
+  );
+});
+
+test("history chapters are split into outline subsections and authored chapters are complete", () => {
+  const after = load(["data.js", "history-test-questions.js", "history-notes.js"]);
+  const chapters = after.__courseData.chapters.filter((c) => c.subject === "history");
+  assert.equal(chapters.length, 12);
+  chapters.forEach((c) => {
+    assert.equal(c.learningOutcomes[0].id, `${c.id}-1`, `${c.id} keeps its review outcome first`);
+    assert.ok(c.learningOutcomes[0].questions.length >= 3, `${c.id} review keeps its test questions`);
+    const subs = c.learningOutcomes.slice(1);
+    assert.ok(subs.length >= 7, `${c.id} has its outline subsections`);
+    subs.forEach((o, i) => assert.equal(o.id, `${c.id}-s${i + 1}`));
+    if (subs.some((o) => o.authored)) {
+      subs.forEach((o) => {
+        assert.ok(o.authored, `${o.id} should have authored notes (write whole chapters)`);
+        assert.ok(o.notes.length >= 4, `${o.id} has too few note blocks`);
+        assert.ok(o.keyTerms.length >= 6, `${o.id} has too few flashcards`);
+      });
+    }
+  });
+});

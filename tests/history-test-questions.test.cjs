@@ -24,7 +24,9 @@ test("every broad History learning outcome has several hand-authored test questi
 
   assert.equal(chapters.length, 12);
   chapters.forEach((chapter) => {
-    chapter.learningOutcomes.forEach((outcome) => {
+    // Chapters are split into outline subsections; the authored test set sits on each
+    // chapter's review outcome (<chapter>-1), not on every subsection.
+    chapter.learningOutcomes.filter((outcome) => outcome.id === `${chapter.id}-1`).forEach((outcome) => {
       assert.ok(outcome.questions.length >= 3, `${outcome.id} should have several questions`);
       outcome.questions.forEach((question) => {
         assert.equal(question.type, "short", `${outcome.id} should use written answers`);
