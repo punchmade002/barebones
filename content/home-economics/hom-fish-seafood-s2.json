@@ -1,0 +1,130 @@
+{
+  "loId": "hom-fish-seafood-s2",
+  "chapterId": "hom-fish-seafood",
+  "subsection": "2. Selection, spoilage and storage",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Judging freshness when buying fish",
+      "b": "Freshness is judged by sight, touch and smell, and by the reliability of the seller.",
+      "points": [
+        "Eyes: bright, clear and bulging; sunken or cloudy eyes show the fish is old.",
+        "Gills: bright red; grey or brown gills show the fish is not fresh.",
+        "Flesh: firm and elastic, springing back when pressed.",
+        "Skin and scales: moist and shiny, with tight scales and no bruising or breaks in the skin.",
+        "Smell: a mild sea smell; a strong or unpleasant smell means the fish is spoiling.",
+        "Shellfish: heavy for its size and alive; mussels should be closed, because an open mussel is dead.",
+        "Smoked fish should look glossy; frozen fish should be solid with its packaging intact.",
+        "Buy from a reliable, hygienic retailer where the fish is kept on ice, check the sell-by date, and buy fish in season.",
+        "The Sea-Fisheries Protection Authority controls hygiene in fish landing and seafood processing, within the food safety system overseen by the Food Safety Authority of Ireland (FSAI)."
+      ]
+    },
+    {
+      "h": "Causes of fish spoilage",
+      "b": "Spoilage is rapid, so fish must be used or processed as soon as possible after it is caught.",
+      "points": [
+        "Oxidative rancidity: fats in the fish, especially the polyunsaturated fats in oily fish, react with oxygen in the air, giving an unpleasant smell and taste.",
+        "Bacterial action: a struggling fish uses up its glycogen stores before it dies.",
+        "Normally glycogen converts to lactic acid, which is a preservative; without lactic acid, fish goes off quickly.",
+        "Bacteria work on the flesh and produce trimethylamine, a strong-smelling nitrogen compound that gives spoiled fish its characteristic odour.",
+        "Enzymic activity: enzymes in the flesh cause deterioration even at low temperatures."
+      ]
+    },
+    {
+      "h": "Storing fresh fish",
+      "points": [
+        "Fresh fish is kept chilled, below 5 °C, packed on crushed ice until it is used.",
+        "Raw fish is stored on the lowest shelf of the fridge in a covered container, so that drips cannot contaminate other food.",
+        "Raw fish is kept apart from cooked and ready-to-eat foods to prevent cross-contamination.",
+        "Fresh fish is used on the day of purchase or as soon as possible after it.",
+        "Covering the fish stops it drying out and absorbing the smells of other food."
+      ]
+    },
+    {
+      "h": "Freezing fresh fish",
+      "b": "Freezing stops microbial growth and inactivates enzymes, because the water in the flesh is held as ice.",
+      "points": [
+        "Freeze only very fresh fish; freezing cannot improve fish that is already poor in quality.",
+        "Turn the freezer to its fast-freeze setting 3 to 4 hours before freezing the fish.",
+        "Freeze fish in usable quantities, so that only the amount needed is thawed.",
+        "Do not freeze more than about a tenth of the freezer's capacity in any 24 hours, so that the food already frozen stays frozen.",
+        "Wrap fish tightly in moisture-proof packaging or vacuum pack it, to prevent freezer burn and oxidation.",
+        "Label each package with the name of the fish and the date.",
+        "Store frozen fish at −18 °C or below.",
+        "Thaw frozen fish in the fridge and do not refreeze it once thawed."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Oxidative rancidity",
+      "definition": "The deterioration of fish fats when they react with oxygen in the air, producing an unpleasant smell and taste."
+    },
+    {
+      "term": "Trimethylamine",
+      "definition": "A strong-smelling nitrogen compound produced by bacteria acting on fish flesh, which gives spoiled fish its odour."
+    },
+    {
+      "term": "Glycogen",
+      "definition": "A stored carbohydrate in fish muscle that normally converts to lactic acid after death, helping to preserve the flesh."
+    },
+    {
+      "term": "Lactic acid",
+      "definition": "A preservative acid formed from glycogen in the flesh of freshly caught fish."
+    },
+    {
+      "term": "Enzymic activity",
+      "definition": "The action of enzymes in the flesh that breaks down the fish and causes deterioration, even at low temperatures."
+    },
+    {
+      "term": "Fast freezing",
+      "definition": "Freezing food quickly at a very low temperature so that small ice crystals form and the food keeps its quality."
+    },
+    {
+      "term": "Freezer burn",
+      "definition": "Drying and discolouration of the surface of frozen food caused by poor packaging that lets in air."
+    },
+    {
+      "term": "Cross-contamination",
+      "definition": "The transfer of bacteria from raw food to cooked or ready-to-eat food."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Five signs of fresh whole fish",
+      "definition": "Bright, bulging eyes; bright red gills; firm, elastic flesh; moist, shiny skin with tight scales; and a mild sea smell."
+    },
+    {
+      "term": "Three causes of fish spoilage",
+      "definition": "Oxidative rancidity, bacterial action and enzymic activity."
+    },
+    {
+      "term": "Four rules for freezing fresh fish",
+      "definition": "Freeze only very fresh fish; use the fast-freeze setting beforehand; freeze in usable quantities; and label with name and date."
+    },
+    {
+      "term": "Two effects of freezing on the quality of fish",
+      "definition": "Texture may change as ice crystals form, and some B vitamins may be lost."
+    },
+    {
+      "term": "Storage temperature for frozen fish",
+      "definition": "−18 °C or below."
+    },
+    {
+      "term": "Two checks on shellfish when buying",
+      "definition": "Shellfish should be alive, and mussels should be closed."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline four guidelines to follow when buying fresh fish.",
+      "model": "Any four of: eyes bright and bulging; gills bright red; flesh firm and springing back when pressed; skin moist and shiny with tight scales and no bruising; mild sea smell; shellfish heavy for its size and alive, with mussels closed; buy from a reliable hygienic retailer where the fish is kept on ice; check the sell-by date; buy fish in season."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain three causes of fish spoilage and describe how freezing fresh fish, when carried out correctly, slows or stops that spoilage.",
+      "model": "Oxidative rancidity: fish fats react with oxygen in the air, causing an unpleasant smell and taste; oily fish is especially affected. Bacterial action: after death the fish has used up its glycogen, so lactic acid is not formed to preserve it; bacteria then work on the flesh and produce trimethylamine, a strong-smelling compound. Enzymic activity: enzymes in the flesh cause deterioration even at low temperatures. Freezing: the fish must be very fresh and frozen quickly, using the fast-freeze setting, so that small ice crystals form. Freezing at a low temperature, held at −18 °C or below, stops microbial growth and inactivates enzymes, as the water is held as ice. Wrapping in moisture-proof packaging or vacuum packing prevents freezer burn and reduces oxidation. The fish should be labelled with name and date, and thawed in the fridge without being refrozen."
+    }
+  ]
+}

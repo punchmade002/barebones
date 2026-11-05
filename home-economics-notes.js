@@ -3,6 +3,1121 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "hom-cereals-grains-s1": {
+  "keyTerms": [
+   {
+    "definition": "The outer layers of a cereal grain, rich in fibre, B group vitamins and minerals.",
+    "term": "Bran"
+   },
+   {
+    "definition": "The largest part of a cereal grain, made mainly of starch and protein.",
+    "term": "Endosperm"
+   },
+   {
+    "definition": "The embryo at the base of a cereal grain, rich in vitamin E, unsaturated fat and B group vitamins.",
+    "term": "Germ"
+   },
+   {
+    "definition": "A cereal product that contains all three parts of the grain: bran, endosperm and germ.",
+    "term": "Wholegrain cereal"
+   },
+   {
+    "definition": "Indigestible plant material that adds bulk to faeces and helps prevent constipation.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "The rhythmic muscular contraction of the gut that moves food along the digestive tract.",
+    "term": "Peristalsis"
+   },
+   {
+    "definition": "A protein that lacks one or more essential amino acids in sufficient amounts for growth and repair.",
+    "term": "Low biological value protein"
+   },
+   {
+    "definition": "A compound in bran that binds minerals such as iron, calcium and zinc and reduces their absorption.",
+    "term": "Phytic acid"
+   },
+   {
+    "definition": "A condition in which gluten damages the lining of the small intestine, so gluten must be avoided.",
+    "term": "Coeliac disease"
+   },
+   {
+    "definition": "Bran, endosperm and germ.",
+    "term": "Three parts of the cereal grain"
+   },
+   {
+    "definition": "Vitamin E, unsaturated fat and B group vitamins.",
+    "term": "Three nutrients concentrated in the germ"
+   },
+   {
+    "definition": "It adds bulk to faeces, absorbs water and stimulates peristalsis.",
+    "term": "Three effects of dietary fibre on the digestive system"
+   },
+   {
+    "definition": "Wheat, rice, oats, maize, barley and rye.",
+    "term": "Six cereals used most widely as food"
+   },
+   {
+    "definition": "Coeliac disease requires gluten to be avoided, and large amounts of starchy food can lead to weight gain.",
+    "term": "Two reasons some people limit their intake of cereals"
+   },
+   {
+    "definition": "Starch, which supplies energy.",
+    "term": "Main nutrient in the endosperm"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Every cereal grain has three parts, and its nutrients are spread unevenly across them.",
+    "h": "Structure of the cereal grain",
+    "points": [
+     "Bran: the outer layers of the grain, made mainly of cellulose, which is an insoluble fibre; it is the grain's richest source of B group vitamins and minerals.",
+     "Endosperm: the largest part of the grain, storing starch; it also contains most of the grain's protein, which forms gluten when wheat flour is mixed with water.",
+     "Germ: the small embryo at the base of the grain, which would grow into a new plant; it is rich in vitamin E, unsaturated fat, protein and B group vitamins.",
+     "Diagram: longitudinal section of the wheat grain showing bran around the outside, a large endosperm, and the germ at the base; label all three parts and the crease along one side."
+    ]
+   },
+   {
+    "h": "Nutritional significance of each part",
+    "points": [
+     "Bran: dietary fibre adds bulk to faeces and stimulates peristalsis; the bran also supplies iron, magnesium and phosphorus.",
+     "Endosperm: starch is the main carbohydrate in cereals and supplies energy for heat and activity; the protein it contains is of low biological value.",
+     "Germ: vitamin E acts as an antioxidant, and the germ supplies most of the grain's unsaturated fat.",
+     "Germ: thiamine (vitamin B1) is one of the B group vitamins concentrated in the germ.",
+     "Refining removes most of the bran and germ, so white flour and refined cereals lose most of their fibre, vitamin E and minerals."
+    ]
+   },
+   {
+    "h": "Nutritive value of cereals",
+    "points": [
+     "Protein: provides protein for growth and repair of body cells, but cereal protein is of low biological value because it is low in the essential amino acid lysine.",
+     "Carbohydrate: starch provides energy for heat and activity.",
+     "Fibre: wholegrain cereals provide insoluble fibre from the bran, and oats and barley provide soluble fibre.",
+     "Fat: cereals are low in total fat, and the fat they contain is mainly unsaturated and concentrated in the germ.",
+     "Vitamins: B group vitamins (thiamine, niacin and riboflavin) and vitamin E.",
+     "Minerals: calcium, iron and phosphorus, much of the iron and phosphorus being found in the bran and germ.",
+     "Water: cereals are dry foods with a low water content, so they keep well when stored correctly."
+    ]
+   },
+   {
+    "h": "Dietetic value of cereals",
+    "points": [
+     "Energy: starchy cereals are an inexpensive source of energy and form the staple food in many diets.",
+     "Constipation: the fibre in wholegrain cereals increases stool bulk and helps prevent constipation and bowel disorders.",
+     "Blood cholesterol and blood sugar: soluble fibre from oats and barley can help lower blood cholesterol and slows the absorption of glucose after a meal.",
+     "Satiety: fibre-rich foods give a feeling of fullness, which supports weight control.",
+     "Versatility: cereals can be used in sweet and savoury dishes, and they are quick and easy to prepare.",
+     "Coeliac disease: gluten in wheat, barley and rye, and in oats unless they are certified gluten-free, cannot be tolerated by people with coeliac disease."
+    ]
+   },
+   {
+    "h": "Wholegrain cereals",
+    "points": [
+     "A wholegrain cereal product contains all three parts of the grain: bran, endosperm and germ.",
+     "Wholegrain products provide more fibre, B group vitamins, vitamin E and minerals than refined products made from the same cereal.",
+     "Phytic acid in the bran binds iron, calcium and zinc and reduces their absorption; very high fibre intakes can have the same effect.",
+     "Beans on wholemeal toast is an example of combining cereal protein with pulses, which raises the biological value of the protein.",
+     "A wholegrain label does not cancel excess sugar, fat or salt in a product, so the nutrition panel must still be checked."
+    ]
+   },
+   {
+    "h": "Reasons for limiting cereal intake",
+    "points": [
+     "Coeliac disease: gluten damages the lining of the small intestine, so gluten-containing cereals must be avoided.",
+     "Weight gain: large portions of starchy foods, especially with added fat or sugar, supply more energy than the body uses.",
+     "Blood sugar: refined cereals are digested quickly and raise blood glucose quickly, so people managing blood sugar often choose wholegrain cereals.",
+     "Hidden salt and sugar: many breakfast cereals, breads and sauces contain added salt or sugar."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Dietary fibre: adds bulk to faeces and stimulates peristalsis, which helps prevent constipation. B group vitamins: help the body release energy from carbohydrate and keep the nervous system and skin healthy. Full marks for any two relevant nutrients from the bran (fibre, B group vitamins, iron, magnesium, phosphorus) with a correct function for each.",
+    "prompt": "Name two nutrients found in the bran of the wheat grain and explain the nutritional importance of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Structure: wholegrain cereals keep the bran, endosperm and germ, so they contribute more nutrients than refined cereals. Nutritive value: starch from the endosperm supplies energy; the protein is of low biological value and is low in lysine, so pulses improve its quality; fibre from the bran and the germ's unsaturated fat, vitamin E and B group vitamins supply nutrients; iron, calcium and phosphorus are provided. Dietetic value: fibre prevents constipation and adds bulk; soluble fibre from oats and barley helps lower blood cholesterol and slows glucose absorption; fibre promotes fullness for weight control; cereals are inexpensive, versatile and quick to prepare. Limitation: gluten makes wheat, barley and rye unsuitable for people with coeliac disease; phytic acid reduces mineral absorption; a wholegrain label does not cancel high sugar, fat or salt, so the whole diet must be balanced.",
+    "prompt": "Discuss how the nutritive and dietetic value of wholegrain cereals contributes to a healthy diet, and identify one limitation of relying on cereals as a source of nutrients.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cereals-grains-s2": {
+  "keyTerms": [
+   {
+    "definition": "A breakfast cereal made from grains that have been rolled flat and toasted, such as cornflakes.",
+    "term": "Flaked cereal"
+   },
+   {
+    "definition": "A breakfast cereal made by heating grains under pressure until they expand, such as puffed rice.",
+    "term": "Puffed cereal"
+   },
+   {
+    "definition": "A breakfast cereal made from cooked grains formed into shreds and baked, such as shredded wheat.",
+    "term": "Shredded cereal"
+   },
+   {
+    "definition": "An uncooked mixture of rolled oats or other cereal flakes with nuts, dried fruit and seeds.",
+    "term": "Muesli"
+   },
+   {
+    "definition": "The addition of nutrients such as vitamins and minerals to a food.",
+    "term": "Fortification"
+   },
+   {
+    "definition": "The date until which a food keeps its quality when stored as directed.",
+    "term": "Best-before date"
+   },
+   {
+    "definition": "The development of unpleasant flavours and smells when fats in a food oxidise.",
+    "term": "Rancidity"
+   },
+   {
+    "definition": "The hardening and drying of bread and baked goods as their starch changes structure over time.",
+    "term": "Staling"
+   },
+   {
+    "definition": "Wheat, rice, oats, maize, barley and rye.",
+    "term": "Six main cereals used as food"
+   },
+   {
+    "definition": "Flaked, puffed and shredded.",
+    "term": "Three types of ready-to-eat breakfast cereal"
+   },
+   {
+    "definition": "Store in a cool, dry place; use an airtight container once opened; use by the best-before date.",
+    "term": "Three guidelines for storing cereal products"
+   },
+   {
+    "definition": "Iron, folic acid and B group vitamins.",
+    "term": "Three nutrients commonly added to fortified cereal"
+   },
+   {
+    "definition": "It reduces the risk of neural tube defects in a developing baby.",
+    "term": "Main purpose of folic acid in fortified flour"
+   },
+   {
+    "definition": "The unsaturated fat in the germ can turn rancid.",
+    "term": "Why wholegrain flour spoils sooner than white flour"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Each main cereal is used to make a range of products, and the cereal named in the product tells you its basic ingredient.",
+    "h": "The main cereals and their products",
+    "points": [
+     "Wheat: white, wholemeal, self-raising and strong flour; bread; pasta; couscous; bulgur; and shredded wheat breakfast cereal.",
+     "Rice: white and brown rice; rice flour; rice cakes; rice paper; rice noodles; and rice pudding.",
+     "Oats: porridge, oatcakes, flapjacks and muesli.",
+     "Maize (corn): cornflour, cornflakes, popcorn, polenta and corn oil; sweetcorn is eaten as a vegetable.",
+     "Barley: pearl barley, barley flakes, barley water, soups and malt, which is used to make beer and whiskey.",
+     "Rye: rye bread, rye flour and crispbread."
+    ]
+   },
+   {
+    "h": "Breakfast cereals",
+    "points": [
+     "Flaked cereals, such as cornflakes, are made from grains that have been rolled flat and toasted.",
+     "Puffed cereals, such as puffed rice, are made by heating grains under pressure until they expand.",
+     "Shredded cereals, such as shredded wheat, are made from cooked grains formed into shreds and baked.",
+     "Muesli and granola are mixes of cereal flakes with nuts, dried fruit and seeds; granola is usually bound with a sweetener and baked.",
+     "Porridge oats need cooking in water or milk, while ready-to-eat cereals need no cooking.",
+     "Sugar, salt and fat levels vary widely between brands of breakfast cereal, so compare the nutrition panels before choosing."
+    ]
+   },
+   {
+    "b": "Fortification is the addition of nutrients to a food.",
+    "h": "Food fortification",
+    "points": [
+     "Fortification replaces nutrients lost during processing, such as the B group vitamins and iron removed when wheat is refined.",
+     "Fortification can also raise a nutrient above the level normally present, for example vitamins A and D added to low-fat milk.",
+     "Folic acid added to flour helps reduce the risk of neural tube defects in a developing baby.",
+     "Iron, folic acid and B group vitamins are the nutrients most commonly added to flour and breakfast cereals.",
+     "Vitamin D and calcium added to foods help address diet-related conditions such as osteoporosis.",
+     "Fortified products help improve intake of a nutrient, but they do not replace a varied diet, and a fortified cereal can still be high in sugar."
+    ]
+   },
+   {
+    "h": "Storing cereal products",
+    "points": [
+     "Store cereal products in a cool, dry place to prevent mould growth and infestation by insects such as weevils.",
+     "Once opened, transfer flour, cereals and pasta to an airtight container so that moisture and pests cannot enter.",
+     "Use products by the best-before date, after which flour and cereals lose quality and may become stale or infested.",
+     "Wholegrain products and wholemeal flour have a shorter shelf life than white products because the unsaturated fat in the germ can turn rancid.",
+     "Cereals absorb strong odours, so keep them away from spices and other strong-smelling foods.",
+     "Bread stales faster in a fridge than at room temperature, so store bread in a bread bin or wrapped at room temperature."
+    ]
+   },
+   {
+    "h": "Selecting cereal products",
+    "points": [
+     "Ingredients are listed in descending order of weight, so a wholegrain product should name a wholegrain cereal first.",
+     "Check the nutrition panel for fibre, sugar and salt, which are usually given per 100 g.",
+     "Choose products with the best-before date clearly printed, and check the packaging is undamaged and sealed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of wheat, rice, oats, maize, barley and rye, each with a different product made from it. Examples: wheat: pasta or bread; rice: rice cakes or rice pudding; oats: porridge or flapjacks; maize: cornflakes or cornflour; barley: pearl barley or barley water; rye: rye bread or crispbread. Each product must be different and made from the named cereal.",
+    "prompt": "Name three cereals and give one different product made from each cereal.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Fortification: adding nutrients such as vitamins and minerals to a food. Reasons: to replace nutrients lost in processing, such as B group vitamins and iron removed when wheat is refined; to raise levels above those normally present; to help address diet-related illness and nutrient shortfalls. Examples: folic acid added to flour to reduce neural tube defects; iron and B group vitamins added to breakfast cereals; vitamins A and D added to low-fat milk. Limitation: a fortified product does not cancel high sugar or salt. Storage: keep in a cool, dry place away from strong odours; transfer to an airtight container once opened to keep out moisture and pests; use by the best-before date; wholegrain and wholemeal products keep for less time because the germ's unsaturated fat can turn rancid; check packaging is sealed and undamaged before purchase.",
+    "prompt": "Discuss food fortification, giving the reasons for adding nutrients to cereal products and examples of nutrients added, and outline how a consumer should store breakfast cereals to keep them safe and of good quality.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cereals-grains-s3": {
+  "keyTerms": [
+   {
+    "definition": "The process of separating the parts of a cereal grain and grinding the endosperm into flour.",
+    "term": "Milling"
+   },
+   {
+    "definition": "Adding a controlled amount of water to grain and letting it rest so the bran toughens and the endosperm softens before milling.",
+    "term": "Conditioning"
+   },
+   {
+    "definition": "The first roller stage in milling, which cracks open the grain and releases the endosperm while keeping the bran and germ in larger pieces.",
+    "term": "Break rolling"
+   },
+   {
+    "definition": "The stage in milling where smooth rollers and sieves grind the endosperm into fine flour.",
+    "term": "Reduction rolling"
+   },
+   {
+    "definition": "The proportion of the original grain that is kept in the flour.",
+    "term": "Extraction rate"
+   },
+   {
+    "definition": "A flour made from hard wheat with a high gluten content, used for yeast breads.",
+    "term": "Strong flour"
+   },
+   {
+    "definition": "An elastic protein network formed from gliadin and glutenin when wheat flour is mixed with water.",
+    "term": "Gluten"
+   },
+   {
+    "definition": "The ability to follow a food product back through its production, using batch codes and date marks.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "Cleaning, conditioning, roller milling and sifting.",
+    "term": "Four stages of producing flour"
+   },
+   {
+    "definition": "Bran, germ and endosperm.",
+    "term": "Three parts separated during milling"
+   },
+   {
+    "definition": "Strong flour for bread; white plain flour for pastry and sauces; self-raising flour for cakes; wholemeal flour for brown bread.",
+    "term": "Four flours and one use each"
+   },
+   {
+    "definition": "Gliadin and glutenin.",
+    "term": "Two proteins that form gluten"
+   },
+   {
+    "definition": "The name of the food, the ingredients list and the net quantity.",
+    "term": "Three required details on a flour label"
+   },
+   {
+    "definition": "It keeps out moisture and insects, and it prevents contamination and absorption of odours.",
+    "term": "Two reasons flour is packed in sealed food-grade bags"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Milling separates the bran, germ and endosperm of the grain and reduces the endosperm to fine flour.",
+    "h": "Production of flour (milling)",
+    "points": [
+     "Cleaning: the grain is passed through sieves, air currents and magnets to remove stones, dust, chaff and metal.",
+     "Conditioning (tempering): a controlled amount of water is added and the grain is left to rest, which toughens the bran so it separates cleanly and softens the endosperm for milling.",
+     "Break rolling: corrugated rollers crack open the grain and release the endosperm while the bran and germ stay in larger pieces.",
+     "Sifting (plansifting): sieves separate the bran, germ and endosperm particles by size.",
+     "Reduction rolling: smooth rollers grind the endosperm repeatedly, with a sieving step after each pass, until it becomes fine white flour.",
+     "Blending and testing: flour from different batches is blended for consistent quality, tested for moisture and gluten strength, and fortified where required.",
+     "Extraction rate: the proportion of the original grain kept in the flour; white flour has a low extraction rate, and wholemeal flour keeps the whole grain.",
+     "Diagram: flow diagram of the milling stages in order, with the bran, germ and endosperm streams branching off at the sifting step."
+    ]
+   },
+   {
+    "h": "Types of flour and their uses",
+    "points": [
+     "Strong flour: made from hard wheat with a high gluten content; used for yeast breads, because the gluten traps the carbon dioxide produced by yeast.",
+     "White plain (cream) flour: medium gluten content; used for pastry, sauces, scones and cakes.",
+     "Self-raising flour: plain flour with a raising agent, usually baking powder, added; used for cakes, sponges, scones and biscuits.",
+     "Wholemeal (wholewheat) flour: milled from the whole grain, so it contains bran, germ and endosperm; used for brown bread, scones, muffins and wholemeal pastry, and gives a denser texture because the bran cuts the gluten strands.",
+     "Wheatmeal flour: partly refined, with some bran removed; used for brown bread and soda bread.",
+     "Cornflour: a fine starch made from the endosperm of maize; used as a thickener for sauces, custards and gravy.",
+     "Rice flour and other gluten-free flours: used in baking for people with coeliac disease."
+    ]
+   },
+   {
+    "b": "Gluten is the protein network that gives bread and pastry their structure, and its development is controlled by the way flour is handled.",
+    "h": "Gluten in flour",
+    "points": [
+     "Gluten forms when the proteins gliadin and glutenin in wheat flour are mixed with water.",
+     "Gluten is elastic and stretchy: it traps gas and gives bread its structure.",
+     "Kneading develops gluten, producing a strong, elastic dough, whereas rubbing in fat and mixing lightly limit gluten, giving tender pastry.",
+     "Strong flour contains more gluten-forming protein than plain flour, so it gives a more elastic dough."
+    ]
+   },
+   {
+    "h": "Flour as a processed food",
+    "points": [
+     "Flour is a processed food: milling turns the whole grain into a refined ingredient with a different nutrient profile.",
+     "Packaging: flour is packed in strong, sealed, food-grade bags that protect it from moisture, insects, contamination and odours.",
+     "Labelling: the label gives the name of the food, the ingredients list, the net quantity, the nutrition declaration, the best-before date, storage instructions and the name and address of the food business.",
+     "Allergens: wheat and gluten must be emphasised in the ingredients list, for example in bold type.",
+     "Traceability: a batch code and date mark allow the manufacturer to trace the flour back through production.",
+     "Fortified flour: the added nutrients are shown on the nutrition declaration."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Cleaning: removes stones, dust, chaff and metal, so the flour is safe and of good quality. Conditioning: water is added and the grain rests, toughening the bran so it separates cleanly and softening the endosperm for milling. Other acceptable answers include break rolling (cracks the grain and releases the endosperm), sifting (separates bran, germ and endosperm by size) and reduction rolling (grinds the endosperm into fine flour).",
+    "prompt": "Name two stages in the production of flour and explain why each stage is needed.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Milling: cleaning removes foreign matter; conditioning adds water and rests the grain; break rolling opens the grain and releases the endosperm; sifting separates bran, germ and endosperm by size; reduction rolling grinds the endosperm into fine flour; the flour is blended, tested and fortified where required. Extraction rate determines whether the flour is white or wholemeal. Packaging: sealed, food-grade bags protect the flour from moisture, insects, contamination and odours. Label: the type of flour, the ingredients list, net quantity, nutrition declaration, wheat and gluten allergen emphasis, best-before date, storage instructions and the name and address of the food business. These let the consumer choose the right type for baking, identify allergens, compare products and store the flour correctly; the batch code supports traceability if a problem arises.",
+    "prompt": "Describe how wheat is milled into flour, and explain how the packaging and label of a bag of flour help the consumer to choose and use it safely.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cereals-grains-s4": {
+  "keyTerms": [
+   {
+    "definition": "The process in which starch granules absorb water, swell and burst when heated, thickening the liquid.",
+    "term": "Gelatinisation"
+   },
+   {
+    "definition": "The breakdown of starch into dextrins by dry heat, which browns the surface of cereal products.",
+    "term": "Dextrinisation"
+   },
+   {
+    "definition": "The browning of sugars under dry heat, which produces colour and flavour.",
+    "term": "Caramelisation"
+   },
+   {
+    "definition": "A type of starch that leaches out of swollen granules during gelatinisation and helps thicken a liquid.",
+    "term": "Amylose"
+   },
+   {
+    "definition": "The setting of protein by heat, which firms the structure of batters and doughs.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "Leaving yeast dough in a warm place so that the yeast ferments and the dough rises.",
+    "term": "Proving"
+   },
+   {
+    "definition": "A substance or process that produces gas or steam to make a baked product light and open in texture.",
+    "term": "Raising agent"
+   },
+   {
+    "definition": "A chemical raising agent containing bicarbonate of soda, an acid salt and a starch filler.",
+    "term": "Baking powder"
+   },
+   {
+    "definition": "A cooked mixture of fat and flour used as the base for thickening a sauce.",
+    "term": "Roux"
+   },
+   {
+    "definition": "Dextrinisation browns and crisps the starch on the surface, and sugars caramelise.",
+    "term": "Two effects of dry heat on cereal products"
+   },
+   {
+    "definition": "Physical (air and steam), chemical (bicarbonate of soda and baking powder) and biological (yeast).",
+    "term": "Three types of raising agent"
+   },
+   {
+    "definition": "Granules absorb water and swell; amylose leaches out; the mixture thickens; granules burst on further heating.",
+    "term": "Four stages of gelatinisation"
+   },
+   {
+    "definition": "Carbon dioxide and alcohol.",
+    "term": "Two products of yeast fermentation"
+   },
+   {
+    "definition": "B group vitamins.",
+    "term": "Vitamins lost into the cooking water when rice is boiled"
+   },
+   {
+    "definition": "Warmth and a supply of sugar and moisture.",
+    "term": "Two conditions yeast needs to ferment dough"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Heat changes the starch, protein and cellulose in cereals, and the method of heating decides which change dominates.",
+    "h": "Effects of heat on cereals",
+    "points": [
+     "Moist heat (boiling, simmering, steaming) makes starch granules swell, burst and absorb liquid.",
+     "Dry heat (baking, roasting, frying) dries the surface and dextrinises the starch, forming a brown, crisp crust.",
+     "Dry heat also caramelises sugars in cereal products, adding colour and flavour.",
+     "Heat softens the cellulose in the bran and cell walls, so cooked cereals are easier to digest.",
+     "Heat coagulates protein, which sets the structure of batters, doughs and cooked cereals.",
+     "Heat destroys some B group vitamins, and more are lost when cereals are boiled in large volumes of water that is then discarded."
+    ]
+   },
+   {
+    "b": "Gelatinisation is the thickening of starch in a liquid when it is heated.",
+    "h": "Gelatinisation",
+    "points": [
+     "Stage 1: starch granules absorb water in the liquid and swell.",
+     "Stage 2: some starch (amylose) leaches out of the swollen granules into the liquid.",
+     "Stage 3: the mixture thickens as the swollen granules fill the liquid.",
+     "Stage 4: on further heating the granules burst, and the starch is fully gelatinised.",
+     "Flour or cornflour must be cooked long enough to gelatinise fully, otherwise the sauce tastes floury.",
+     "A roux is cooked fat and flour, mixed before the liquid is added; coating the starch granules with fat keeps the flour from forming lumps."
+    ]
+   },
+   {
+    "h": "Cooking rice and other cereals",
+    "points": [
+     "Rinsing rice removes surface starch so that the cooked grains stay separate.",
+     "Absorption method: rice is cooked in a measured amount of water until all of the water is absorbed.",
+     "Boiling method: rice is cooked in excess water, which is drained off afterwards.",
+     "Moist heat makes rice grains swell, burst and absorb liquid, and gelatinisation gives the cooked rice its soft texture.",
+     "Fibre in the grain softens during cooking, making the rice easier to digest.",
+     "B group vitamins leach into the cooking water, so use only the water needed and use the cooking liquid where practical.",
+     "Brown rice takes longer to cook than white rice because the intact bran layer slows water absorption."
+    ]
+   },
+   {
+    "b": "A raising agent produces gas or steam that expands in the mixture during baking and is held in place as the structure sets.",
+    "h": "Raising agents",
+    "points": [
+     "Physical raising agents: air is incorporated by whisking eggs or creaming fat and sugar, and it expands in the oven, as in a sponge cake.",
+     "Steam: water in a mixture turns to steam in the oven and expands the product, as in choux pastry, puff pastry and pancakes.",
+     "Biological raising agent: yeast ferments sugars in warm, moist dough, producing carbon dioxide and alcohol; gluten traps the carbon dioxide, and the dough rises during proving.",
+     "Yeast needs warmth and food to ferment and is killed by too much heat, so dough is proved in a warm place and then baked.",
+     "Bicarbonate of soda (bread soda) releases carbon dioxide when it reacts with an acid such as buttermilk, yoghurt, treacle or honey in the presence of moisture and heat.",
+     "Baking powder contains bicarbonate of soda with an acid salt and a starch filler; the acid and alkali react when moistened and heated to release carbon dioxide.",
+     "Raising agents for named products: bread uses yeast or bread soda; sponge cake uses air or baking powder; muffins use baking powder or bread soda; lemon drizzle cake uses baking powder or air."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Sponge cake: air incorporated by whisking, or baking powder. Bread: yeast or bread soda. Explanation, yeast: it ferments sugars in warm, moist dough, producing carbon dioxide; gluten traps the gas, so the dough expands during proving and the gas expands further in the oven. Explanation, bread soda: it reacts with an acid in the presence of moisture and heat to release carbon dioxide.",
+    "prompt": "Name a suitable raising agent for a sponge cake and for a loaf of bread, and explain how one of them produces the lift in the product.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Moist heat: starch granules swell, burst and absorb liquid; cellulose softens; B group vitamins may leach into the water; protein coagulates in batters. Dry heat: starch dextrinises and the surface browns; sugars caramelise; the surface crisps; protein sets. Heat in general improves digestibility. Gelatinisation in a white sauce: fat and flour are cooked to form a roux, the liquid is added gradually to avoid lumps, and the mixture is brought to the boil; starch granules absorb water and swell, amylose leaches out, the mixture thickens as the swollen granules fill the liquid, and the granules burst with further heating. The sauce must be cooked long enough for the starch to gelatinise fully, so that it does not taste floury.",
+    "prompt": "Discuss the effects of moist and dry heat on cereals, and explain how gelatinisation thickens a white sauce made with flour.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cereals-grains-s5": {
+  "keyTerms": [
+   {
+    "definition": "A short pastry made by rubbing cold fat into flour and binding with cold water, giving a crumbly texture.",
+    "term": "Shortcrust pastry"
+   },
+   {
+    "definition": "A puff pastry in which pieces of fat are folded into the dough in several turns to form flaky layers.",
+    "term": "Rough puff pastry"
+   },
+   {
+    "definition": "A cooked paste of water, fat and flour, mixed with beaten egg, that rises by steam into a hollow shell.",
+    "term": "Choux pastry"
+   },
+   {
+    "definition": "A pastry made from very thin sheets of dough layered with fat or oil, which become crisp when baked.",
+    "term": "Filo pastry"
+   },
+   {
+    "definition": "A pastry made with shredded suet and self-raising flour, which is steamed or boiled.",
+    "term": "Suet pastry"
+   },
+   {
+    "definition": "Working cold fat into flour with the fingertips until the mixture resembles breadcrumbs.",
+    "term": "Rubbing in"
+   },
+   {
+    "definition": "Baking a pastry case before its filling is added, usually with baking beans or paper to keep its shape.",
+    "term": "Blind baking"
+   },
+   {
+    "definition": "The contraction of pastry during baking, caused by overstretched gluten or insufficient resting.",
+    "term": "Shrinkage"
+   },
+   {
+    "definition": "Flour, fat and water.",
+    "term": "Three ingredients in shortcrust pastry"
+   },
+   {
+    "definition": "Choux: eclairs or profiteroles; filo: spring rolls; suet: steamed pudding.",
+    "term": "Three pastry types with a dish each"
+   },
+   {
+    "definition": "It relaxes the gluten, reducing shrinkage, and it firms the fat so that layers stay distinct.",
+    "term": "Two reasons for chilling pastry"
+   },
+   {
+    "definition": "Keep ingredients cool; weigh accurately; handle the dough minimally; bake in a preheated hot oven.",
+    "term": "Four principles for successful pastry"
+   },
+   {
+    "definition": "Steam from the water in the fat pushes apart the layers of dough in a hot oven.",
+    "term": "Why rough puff pastry rises"
+   },
+   {
+    "definition": "It is tough, it shrinks during baking, and it lacks flakiness.",
+    "term": "Three signs of overhandled pastry"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Pastries are grouped by how the fat is incorporated into the flour, and this decides their texture.",
+    "h": "Classification of pastry",
+    "points": [
+     "Short pastries (shortcrust, sweet shortcrust, suet and biscuit pastry): the fat is rubbed into the flour so that it coats the flour particles and limits gluten, giving a crumbly texture.",
+     "Puff pastries (rough puff, puff and flaky): pieces or layers of fat are folded into the dough, so layers of dough and fat separate and rise, giving a flaky texture.",
+     "Choux pastry: a cooked paste of water, fat and flour, with beaten egg added; it contains no rubbed-in fat and rises by steam into a hollow shell, as in eclairs and profiteroles.",
+     "Filo pastry: very thin sheets of dough layered with fat or oil, which become crisp when baked, as in spring rolls.",
+     "Suet pastry: made with shredded suet and self-raising flour, and steamed or boiled, as in a steamed pudding."
+    ]
+   },
+   {
+    "b": "Shortcrust is the most common short pastry and forms the base for sweet and savoury tarts and pies.",
+    "h": "Shortcrust pastry",
+    "points": [
+     "Ingredients: plain flour, a pinch of salt, cold fat (butter, margarine or lard) in roughly half the weight of the flour, and cold water to bind; sugar is added for sweet shortcrust.",
+     "Step 1: sift the flour and salt into a bowl, which aerates the flour and removes lumps.",
+     "Step 2: rub the cold fat into the flour with the fingertips until the mixture resembles fine breadcrumbs.",
+     "Step 3: add cold water gradually, mixing with a round-bladed knife until the dough just comes together.",
+     "Step 4: knead lightly, wrap and chill the dough so the gluten relaxes and the fat firms.",
+     "Step 5: roll lightly on a floured surface, line the tin, and chill again before baking.",
+     "Step 6: bake in a preheated hot oven until golden, then reduce the heat if the pastry is browning too quickly.",
+     "Presentation: sweet shortcrust is dusted with icing sugar or glazed; savoury shortcrust is used for quiche and pies, with the edges crimped."
+    ]
+   },
+   {
+    "b": "Rough puff is a puff pastry in which the fat is left in pieces rather than rubbed in, and it is folded in several turns to create layers.",
+    "h": "Rough puff pastry",
+    "points": [
+     "Ingredients: plain flour, a pinch of salt, cold fat (butter or block margarine), and cold water to bind.",
+     "Step 1: cut the cold fat into irregular pieces, leave them visible and mix them lightly with the flour, binding the dough with cold water.",
+     "Step 2: roll the dough into a long rectangle, fold the bottom third up and the top third down, then turn the dough a quarter turn.",
+     "Step 3: repeat the roll, fold and turn several times, chilling between turns so the fat stays firm and the layers stay distinct.",
+     "Step 4: roll to the required thickness and chill before cutting so that the edges stay sharp.",
+     "Step 5: bake in a very hot preheated oven; the water in the fat turns to steam and pushes the layers apart, so the pastry rises and becomes flaky.",
+     "Presentation: sausage rolls, vol-au-vents and pie toppings; the layers should be even and golden, with sharp edges."
+    ]
+   },
+   {
+    "h": "Principles for success in pastry",
+    "points": [
+     "Keep the ingredients, hands, utensils and kitchen cool so that the fat does not melt before baking.",
+     "Weigh ingredients accurately so that the flour-to-fat ratio is correct.",
+     "Add cold liquid gradually; too much liquid makes the pastry tough and increases shrinkage.",
+     "Avoid overhandling: working the dough develops gluten, which makes pastry tough.",
+     "Rest and chill pastry before rolling and baking so that the gluten relaxes and the pastry does not shrink.",
+     "Roll evenly and lightly, and avoid stretching the dough, which causes shrinkage.",
+     "Bake in a preheated hot oven, and use blind baking for fillings that are not baked, such as quiche, which keeps the base crisp."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Keep ingredients and utensils cool, so the fat does not melt and the pastry stays short. Handle the dough as little as possible, because overhandling develops gluten and makes the pastry tough. Add cold water gradually, so the dough is bound without becoming sticky or tough. Other acceptable guidelines include chilling before rolling, rolling lightly and using a preheated hot oven.",
+    "prompt": "Name three guidelines that help a student make a light shortcrust pastry, and explain why each one helps.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Preparation: cold fat is cut into pieces and mixed with flour and salt, then bound with cold water to form a dough. Folding: the dough is rolled into a rectangle, folded in three and turned a quarter turn, then this is repeated several times with chilling between turns, so that layers of dough and fat form. Cooking: the pastry is baked in a very hot preheated oven; the water in the fat turns to steam and pushes the layers apart, so the pastry rises and becomes flaky. Presentation: it is cut to size, with sharp edges, and used for sausage rolls, vol-au-vents or pie toppings, with even, golden layers. Principles: keep the fat cool so it stays in pieces; do not overhandle the dough; chill between turns and before cutting; roll evenly and avoid stretching; use a hot oven and do not let the fat melt before baking.",
+    "prompt": "Describe the preparation, cooking and presentation of rough puff pastry, and explain the principles a cook must follow for the pastry to rise evenly and become flaky.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s1": {
+  "keyTerms": [
+   {
+    "definition": "The splitting of a chemical bond by adding water, giving two smaller molecules.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "The chemical bond that links two amino acids in a protein chain.",
+    "term": "Peptide bond"
+   },
+   {
+    "definition": "The active gastric enzyme that hydrolyses protein into peptones, activated by hydrochloric acid.",
+    "term": "Pepsin"
+   },
+   {
+    "definition": "The pancreatic protease that hydrolyses peptones into peptides in the small intestine.",
+    "term": "Trypsin"
+   },
+   {
+    "definition": "An enzyme in intestinal juice that converts inactive trypsinogen into active trypsin.",
+    "term": "Enterokinase"
+   },
+   {
+    "definition": "A finger-like projection of the small intestine wall that absorbs digested food through its capillaries and lacteal.",
+    "term": "Villus"
+   },
+   {
+    "definition": "The blood vessel that carries absorbed nutrients from the small intestine to the liver.",
+    "term": "Hepatic portal vein"
+   },
+   {
+    "definition": "The removal of the amino group from an amino acid in the liver, producing ammonia.",
+    "term": "Deamination"
+   },
+   {
+    "definition": "It unfolds protein so enzymes can act on it, converts pepsinogen into pepsin, provides the acidic pH pepsin needs, and kills most bacteria in food.",
+    "term": "Four functions of hydrochloric acid in the stomach"
+   },
+   {
+    "definition": "Enterokinase, found in the intestinal juice, converts trypsinogen into trypsin.",
+    "term": "What activates the inactive pancreatic protease in the small intestine"
+   },
+   {
+    "definition": "Pepsin acts on protein as its substrate and produces peptones as its product.",
+    "term": "Substrate and product of pepsin"
+   },
+   {
+    "definition": "Rennin acts in the stomach of infants, changing caseinogen into casein, which clots milk.",
+    "term": "Where rennin acts and what it changes"
+   },
+   {
+    "definition": "Villi, the finger-like projections of the intestine wall, and microvilli on the surface of the cells lining each villus.",
+    "term": "Two structures that increase absorptive surface in the small intestine"
+   },
+   {
+    "definition": "The hepatic portal vein.",
+    "term": "Blood vessel carrying absorbed amino acids from the villi to the liver"
+   },
+   {
+    "definition": "Ammonia, which the liver converts into urea.",
+    "term": "Nitrogen-containing compound formed when the amino group is removed from an amino acid"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Digestion is hydrolysis: enzymes split large food molecules into smaller units that can be absorbed.",
+    "h": "Enzymes and hydrolysis (assumed knowledge)",
+    "points": [
+     "Enzymes are proteins that act as biological catalysts, speeding up digestion without being used up.",
+     "Each enzyme has an active site whose shape fits one type of substrate, so an enzyme acts on only one kind of molecule.",
+     "Hydrolysis breaks a chemical bond by adding water: a hydrogen atom attaches to one part of the molecule and a hydroxyl group to the other.",
+     "Protein is a chain of amino acids joined by peptide bonds; proteases (also called proteinases) hydrolyse these bonds.",
+     "Enzymes lower the activation energy of a reaction, so digestion proceeds at body temperature, about 37 °C.",
+     "Each digestive enzyme has an optimum pH: pepsin works in strong acid, while pancreatic and intestinal enzymes work in the alkaline conditions of the small intestine.",
+     "Diagram: two amino acids joined by a peptide bond, with the water molecule added during hydrolysis labelled."
+    ]
+   },
+   {
+    "h": "Protein digestion table (organ, secretion, enzyme, substrate, product)",
+    "points": [
+     "Stomach: gastric juice; pepsin; protein; peptones.",
+     "Stomach of infants: gastric juice; rennin; caseinogen; casein.",
+     "Pancreas: pancreatic juice; trypsin; peptones; peptides.",
+     "Small intestine: intestinal juice; peptidases (erepsin); peptides; amino acids."
+    ]
+   },
+   {
+    "h": "Stomach: protein digestion begins",
+    "points": [
+     "Gastric glands in the stomach wall secrete gastric juice, which contains hydrochloric acid and the inactive enzyme pepsinogen.",
+     "Hydrochloric acid unfolds (denatures) the protein, exposing its peptide bonds to enzyme action.",
+     "Hydrochloric acid converts pepsinogen into the active enzyme pepsin, which works best at a pH of about 2.",
+     "Pepsin hydrolyses protein into peptones, which are shorter chains than the original protein.",
+     "Rennin clots milk by changing the soluble milk protein caseinogen into casein, so milk stays in the stomach long enough to be digested; it acts mainly in infants.",
+     "The stomach churns food into a semi-liquid mixture called chyme, which passes slowly into the duodenum."
+    ]
+   },
+   {
+    "h": "Small intestine: protein digestion is completed",
+    "points": [
+     "The pancreas secretes pancreatic juice into the duodenum; it contains trypsin, made in inactive form as trypsinogen.",
+     "Enterokinase in the intestinal juice converts trypsinogen into active trypsin.",
+     "Trypsin hydrolyses peptones into shorter peptides, which are still too large to be absorbed.",
+     "Intestinal juice is secreted by glands in the wall of the small intestine and contains peptidases (erepsin).",
+     "Peptidases hydrolyse peptides into amino acids, the main form in which protein is absorbed.",
+     "Small peptides that are not fully hydrolysed in the intestinal juice are also absorbed through the villi."
+    ]
+   },
+   {
+    "h": "Route through the alimentary canal",
+    "points": [
+     "Mouth: no protein is digested, because saliva contains no protein-digesting enzyme.",
+     "Stomach: pepsin and rennin act on the protein, and chyme passes into the duodenum.",
+     "Duodenum (first part of the small intestine): trypsin and peptidases complete digestion, and pancreatic juice enters through the pancreatic duct.",
+     "Villi of the small intestine: amino acids are absorbed into the capillaries inside each villus.",
+     "Hepatic portal vein: carries the absorbed amino acids from the small intestine to the liver.",
+     "Liver: processes the amino acids before they enter the general circulation.",
+     "Diagram: the digestive system, labelled mouth, stomach, pancreas, small intestine, liver and hepatic portal vein."
+    ]
+   },
+   {
+    "h": "Absorption of amino acids",
+    "points": [
+     "Villi are finger-like projections of the small intestine wall that greatly increase its surface area for absorption.",
+     "Amino acids are absorbed mainly by active transport, which uses energy and carrier proteins and is coupled with the uptake of sodium ions.",
+     "Amino acids move through the cells lining each villus into the capillary network inside it.",
+     "Diagram: cross-section of a villus showing the capillary network and the lacteal in its centre."
+    ]
+   },
+   {
+    "h": "Utilisation of amino acids (Higher Level only)",
+    "points": [
+     "Body cells take up amino acids from the blood and use them to build body protein, enzymes, hormones and antibodies.",
+     "The liver synthesises plasma proteins, such as albumin, from amino acids.",
+     "Amino acids cannot be stored, so surplus amino acids are broken down in the liver.",
+     "Deamination removes the amino group from an amino acid, leaving a carbon skeleton that can be used for energy or converted into glucose or fat.",
+     "The removed amino group forms ammonia, which the liver converts into urea.",
+     "Urea enters the blood, is filtered out by the kidneys and leaves the body in urine."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Stomach: gastric juice from the stomach wall. Hydrochloric acid converts pepsinogen into pepsin. Pepsin acts on protein, the substrate, to produce peptones. Small intestine: pancreatic juice from the pancreas. Trypsin, activated from trypsinogen by enterokinase in the intestinal juice, acts on peptones to produce peptides. Peptidases in the intestinal juice hydrolyse peptides into amino acids.",
+    "prompt": "Outline the digestion of dietary protein in the stomach and in the small intestine. For each organ, name the secretion, the enzyme, the substrate and the product.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Mouth: no protein digestion, as saliva has no protein-digesting enzyme. Stomach: hydrochloric acid unfolds protein and activates pepsin, which hydrolyses protein to peptones; rennin changes caseinogen to casein in infants. Duodenum: pancreatic juice contains trypsin, activated by enterokinase, which hydrolyses peptones to peptides; intestinal juice peptidases hydrolyse peptides to amino acids. Absorption: villi increase the surface area; amino acids are absorbed mainly by active transport coupled with sodium ions into the capillaries of the villi. Hepatic portal vein carries the amino acids to the liver. Liver: amino acids are used to synthesise plasma proteins; surplus amino acids are deaminated, removing the amino group, which forms ammonia that is converted to urea; the carbon skeleton is used for energy or converted to glucose or fat; urea is filtered by the kidneys and excreted in urine.",
+    "prompt": "Trace the route of dietary protein from the mouth to the liver. Explain how protein is hydrolysed at each stage, how the products are absorbed, and what the liver does with the amino acids it receives.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s2": {
+  "keyTerms": [
+   {
+    "definition": "The enzyme in saliva that begins starch digestion in the mouth, producing dextrins and maltose.",
+    "term": "Salivary amylase"
+   },
+   {
+    "definition": "The enzyme in pancreatic juice that hydrolyses the remaining starch into maltose in the small intestine.",
+    "term": "Pancreatic amylase"
+   },
+   {
+    "definition": "An intestinal enzyme that hydrolyses maltose into two glucose molecules.",
+    "term": "Maltase"
+   },
+   {
+    "definition": "An intestinal enzyme that hydrolyses sucrose into glucose and fructose.",
+    "term": "Sucrase"
+   },
+   {
+    "definition": "An intestinal enzyme that hydrolyses lactose into glucose and galactose.",
+    "term": "Lactase"
+   },
+   {
+    "definition": "The bond that links sugar units in disaccharides and polysaccharides.",
+    "term": "Glycosidic bond"
+   },
+   {
+    "definition": "A short chain of glucose units formed when starch is partly hydrolysed.",
+    "term": "Dextrin"
+   },
+   {
+    "definition": "A branched polysaccharide of glucose that the liver and muscles store for later use.",
+    "term": "Glycogen"
+   },
+   {
+    "definition": "The hormone from the pancreas that lowers blood glucose by promoting its uptake and storage.",
+    "term": "Insulin"
+   },
+   {
+    "definition": "They increase the surface area for absorption, contain a capillary network that takes up monosaccharides and amino acids, and contain a lacteal that absorbs fat.",
+    "term": "Three functions of the villi"
+   },
+   {
+    "definition": "Active transport, used for glucose and galactose with sodium ions, and facilitated diffusion, used for fructose.",
+    "term": "Two ways monosaccharides pass through the wall of a villus"
+   },
+   {
+    "definition": "Sucrase, found in intestinal juice, produces glucose and fructose.",
+    "term": "Enzyme that splits sucrose and its products"
+   },
+   {
+    "definition": "Glucose and galactose, produced by lactase in the small intestine.",
+    "term": "Products of lactose digestion"
+   },
+   {
+    "definition": "Salivary amylase produces dextrins and maltose.",
+    "term": "Enzyme in saliva and the products it makes from starch"
+   },
+   {
+    "definition": "Insulin, from the beta cells of the pancreas.",
+    "term": "Hormone that lowers blood glucose and where it is made"
+   },
+   {
+    "definition": "Glucagon, from the alpha cells of the pancreas.",
+    "term": "Hormone that raises blood glucose and where it is made"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Carbohydrate digestion is the hydrolysis of the glycosidic bonds that link sugar units.",
+    "h": "Enzymes and hydrolysis of carbohydrates (assumed knowledge)",
+    "points": [
+     "Starch is a polysaccharide made of many glucose units joined by glycosidic bonds.",
+     "Maltose is two glucose units joined together; sucrose is glucose joined to fructose; lactose is glucose joined to galactose.",
+     "Hydrolysis adds water across a glycosidic bond, splitting a disaccharide into two monosaccharides or a polysaccharide into smaller units.",
+     "Each carbohydrate-digesting enzyme acts on one substrate: amylase on starch, maltase on maltose, sucrase on sucrose and lactase on lactose.",
+     "Diagram: glucose unit linked to a second glucose unit by a glycosidic bond, with the water added during hydrolysis labelled."
+    ]
+   },
+   {
+    "h": "Mouth: starch digestion begins",
+    "points": [
+     "Organ and secretion: the salivary glands secrete saliva, which contains salivary amylase.",
+     "Substrate and product: salivary amylase hydrolyses starch into dextrins and maltose.",
+     "Digestion in the mouth is brief, because food is chewed and swallowed quickly, so much of the starch reaches the small intestine undigested.",
+     "Diagram: the alimentary canal, with the mouth, salivary glands and oesophagus labelled."
+    ]
+   },
+   {
+    "h": "Stomach: carbohydrate digestion stops",
+    "points": [
+     "The acid of the stomach, hydrochloric acid, denatures salivary amylase and stops its action on starch.",
+     "The stomach secretes no enzyme that digests carbohydrate.",
+     "Starch, dextrins and maltose leave the stomach as part of the chyme and pass into the duodenum."
+    ]
+   },
+   {
+    "h": "Small intestine: carbohydrate digestion is completed",
+    "points": [
+     "Organ and secretion: the pancreas secretes pancreatic juice, which contains pancreatic amylase.",
+     "Pancreatic amylase hydrolyses the remaining starch and dextrins into maltose.",
+     "The wall of the small intestine secretes intestinal juice, which contains maltase, sucrase and lactase.",
+     "Maltase hydrolyses maltose into two glucose molecules.",
+     "Sucrase hydrolyses sucrose into glucose and fructose.",
+     "Lactase hydrolyses lactose into glucose and galactose.",
+     "Non-starch polysaccharides (dietary fibre) are not hydrolysed by human enzymes and pass into the large intestine."
+    ]
+   },
+   {
+    "h": "Route through the alimentary canal",
+    "points": [
+     "Mouth: salivary amylase begins starch digestion.",
+     "Stomach: acid stops amylase action, and food is mixed to form chyme.",
+     "Duodenum: pancreatic amylase and intestinal juice complete digestion to monosaccharides.",
+     "Villi of the small intestine: monosaccharides are absorbed into the capillaries inside each villus.",
+     "Hepatic portal vein: carries the monosaccharides from the small intestine to the liver.",
+     "Liver: receives the glucose and galactose first, before glucose enters the general circulation.",
+     "Diagram: the digestive system, labelled mouth, stomach, pancreas, small intestine, liver and hepatic portal vein."
+    ]
+   },
+   {
+    "h": "Absorption of monosaccharides",
+    "points": [
+     "Villi increase the surface area of the small intestine wall; each villus contains a capillary network.",
+     "Glucose and galactose are absorbed by active transport, which uses energy and is coupled with sodium ions.",
+     "Fructose is absorbed by facilitated diffusion, which moves it down its concentration gradient through carrier proteins.",
+     "Monosaccharides leave the villi in the blood of the capillaries, which join to form the hepatic portal vein.",
+     "Diagram: cross-section of a villus showing the capillary network and the direction of glucose and fructose movement."
+    ]
+   },
+   {
+    "h": "Utilisation of glucose (Higher Level only)",
+    "points": [
+     "Glucose is the main fuel for the brain and red blood cells.",
+     "Cells oxidise glucose in respiration, releasing energy that is stored in ATP.",
+     "Surplus glucose is stored as glycogen, a branched polysaccharide, in the liver and muscles.",
+     "Insulin, released from the beta cells of the pancreas, promotes the uptake of glucose into cells and its storage as glycogen, which lowers blood glucose.",
+     "Glucagon, released from the alpha cells of the pancreas, causes the liver to break down glycogen and release glucose, which raises blood glucose.",
+     "When glycogen stores are full, the liver converts surplus glucose into fatty acids and triglycerides."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Enzyme: lactase. Secretion: intestinal juice from the wall of the small intestine. Products: glucose and galactose. Explanation: lactose is a disaccharide, and only monosaccharides are absorbed through the wall of the villi, by active transport or facilitated diffusion.",
+    "prompt": "Lactose is digested in the small intestine. Name the enzyme that digests it, the secretion that contains the enzyme, and the two monosaccharides it produces. Explain why lactose must be hydrolysed before it can be absorbed by the villi.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Mouth: saliva from the salivary glands; salivary amylase acts on starch to produce dextrins and maltose. Stomach: hydrochloric acid denatures salivary amylase, so digestion stops; no carbohydrate enzyme is secreted. Small intestine: pancreatic juice; pancreatic amylase acts on starch to produce maltose. Intestinal juice: maltase acts on maltose to produce glucose; sucrase acts on sucrose to produce glucose and fructose; lactase acts on lactose to produce glucose and galactose. Absorption: glucose and galactose by active transport with sodium ions; fructose by facilitated diffusion; the monosaccharides enter the capillaries of the villi, which join to form the hepatic portal vein carrying them to the liver. Fibre, a non-starch polysaccharide, passes undigested to the large intestine.",
+    "prompt": "Trace the digestion of starch from the mouth to the small intestine. For each stage, name the secretion, the enzyme, the substrate and the product, then explain how the resulting monosaccharides are absorbed and carried to the liver.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3": {
+  "keyTerms": [
+   {
+    "definition": "A lipid made of one glycerol molecule bonded to three fatty acid chains.",
+    "term": "Triglyceride"
+   },
+   {
+    "definition": "The enzyme that hydrolyses the ester bonds of triglycerides into fatty acids and glycerol.",
+    "term": "Lipase"
+   },
+   {
+    "definition": "An alkaline fluid made by the liver, stored in the gall bladder and released into the duodenum to emulsify fat.",
+    "term": "Bile"
+   },
+   {
+    "definition": "The breaking of large fat globules into very small droplets, which increases the surface area for lipase.",
+    "term": "Emulsification"
+   },
+   {
+    "definition": "The compounds in bile that emulsify fat in the small intestine.",
+    "term": "Bile salts"
+   },
+   {
+    "definition": "A droplet of triglyceride coated with protein, formed in the villi and carried in lymph.",
+    "term": "Chylomicron"
+   },
+   {
+    "definition": "A lymph capillary at the centre of each villus that absorbs fat.",
+    "term": "Lacteal"
+   },
+   {
+    "definition": "A particle of lipid and protein that transports fats in the blood.",
+    "term": "Lipoprotein"
+   },
+   {
+    "definition": "The three-carbon alcohol that forms the backbone of a triglyceride.",
+    "term": "Glycerol"
+   },
+   {
+    "definition": "It emulsifies fat, neutralises acid chyme from the stomach, and carries waste products such as bilirubin out of the body.",
+    "term": "Three functions of bile"
+   },
+   {
+    "definition": "Fatty acids and glycerol, with some monoglycerides.",
+    "term": "Products of lipid digestion in the small intestine"
+   },
+   {
+    "definition": "The pancreas, in pancreatic juice, and the wall of the small intestine, in intestinal juice.",
+    "term": "Organs that secrete lipase into the small intestine"
+   },
+   {
+    "definition": "Chylomicrons, which enter the lacteals.",
+    "term": "Form in which long-chain fat leaves the villi"
+   },
+   {
+    "definition": "The hepatic portal vein.",
+    "term": "Vessel that carries short-chain fatty acids to the liver"
+   },
+   {
+    "definition": "It is made by the liver and stored in the gall bladder.",
+    "term": "Where bile is made and where it is stored"
+   },
+   {
+    "definition": "The small intestine, where bile emulsifies it and lipase hydrolyses it.",
+    "term": "Stage at which most fat is first digested"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A triglyceride is one glycerol molecule bonded to three fatty acid chains by ester bonds.",
+    "h": "Enzymes and hydrolysis of triglycerides (assumed knowledge)",
+    "points": [
+     "Lipase is the enzyme that hydrolyses the ester bonds of triglycerides, splitting them into fatty acids and glycerol.",
+     "Fats do not dissolve in water, so lipase acts only at the surface of fat droplets; a larger droplet surface area speeds digestion.",
+     "Diagram: a triglyceride showing one glycerol backbone and three fatty acid chains, with the ester bonds labelled."
+    ]
+   },
+   {
+    "h": "Mouth and stomach: little fat digestion",
+    "points": [
+     "Very little fat is digested before it reaches the small intestine.",
+     "Gastric lipase in the stomach hydrolyses only a small proportion of the triglycerides.",
+     "Fat slows the emptying of the stomach, so it stays there for longer than carbohydrate or protein."
+    ]
+   },
+   {
+    "h": "Bile and emulsification in the small intestine",
+    "points": [
+     "The liver produces bile, which is stored in the gall bladder and released through the bile duct into the duodenum.",
+     "Bile is not an enzyme; its bile salts emulsify fat, breaking large fat globules into very small droplets.",
+     "Emulsification increases the surface area of the fat, so lipase can act on far more of it.",
+     "Bile is alkaline, so it neutralises the acid chyme from the stomach and creates conditions in which pancreatic enzymes can work.",
+     "Diagram: the liver, gall bladder, bile duct, pancreatic duct and duodenum, with the flow of bile labelled."
+    ]
+   },
+   {
+    "h": "Small intestine: lipid digestion is completed",
+    "points": [
+     "Organ and secretion: the pancreas secretes pancreatic juice containing lipase, and the wall of the small intestine secretes intestinal juice containing lipase.",
+     "Substrate: triglycerides in the emulsified fat droplets.",
+     "Product: lipase hydrolyses triglycerides into fatty acids and glycerol, with monoglycerides and diglycerides as intermediate products."
+    ]
+   },
+   {
+    "h": "Route through the alimentary canal",
+    "points": [
+     "Mouth and stomach: little or no lipid digestion takes place.",
+     "Duodenum: bile emulsifies the fat and pancreatic lipase hydrolyses it.",
+     "Villi and lacteals: fatty acids and monoglycerides are absorbed into the villi, and long-chain fat enters the lacteals.",
+     "Lymphatic system: lymph carries the fat from the lacteals into the thoracic duct and then into the bloodstream.",
+     "Hepatic portal vein: carries short-chain fatty acids and glycerol, absorbed directly into the capillaries, to the liver.",
+     "Liver: receives the absorbed fats and processes them before they are distributed around the body.",
+     "Diagram: the digestive system, labelled mouth, stomach, liver, gall bladder, pancreas, small intestine and hepatic portal vein."
+    ]
+   },
+   {
+    "h": "Absorption of fatty acids and glycerol",
+    "points": [
+     "Short-chain fatty acids and glycerol are absorbed into the capillaries of the villi and do not need to be rebuilt.",
+     "Long-chain fatty acids and monoglycerides diffuse into the cells lining the villi, where they are rebuilt into triglycerides.",
+     "The triglycerides are coated with protein to form chylomicrons, which are too large to enter the capillaries.",
+     "Chylomicrons pass into the lacteals, the lymph capillaries at the centre of each villus.",
+     "Lymph carries the chylomicrons through the lymphatic system into the thoracic duct, which empties into the blood near the heart."
+    ]
+   },
+   {
+    "h": "Utilisation of triglycerides (Higher Level only)",
+    "points": [
+     "Lipids travel in the blood as lipoproteins: chylomicrons carry dietary fat, and very-low-density lipoproteins (VLDL) carry fat made in the liver.",
+     "Lipoprotein lipase at the body tissues hydrolyses the triglycerides in lipoproteins into fatty acids and glycerol, which the cells take up.",
+     "Muscle cells oxidise fatty acids in respiration to release energy.",
+     "Glycerol is converted into glucose in the liver or enters glycolysis.",
+     "Surplus fatty acids are rebuilt into triglycerides and stored in adipose (fat) tissue under the skin and around organs.",
+     "The liver converts surplus carbohydrate into fatty acids and triglycerides, which it exports as VLDL."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Bile from the liver, stored in the gall bladder and released into the duodenum, contains bile salts that emulsify fat into very small droplets, increasing its surface area. Bile is alkaline and neutralises acid chyme. Pancreatic juice from the pancreas and intestinal juice from the wall of the small intestine contain lipase, which hydrolyses triglycerides into fatty acids and glycerol.",
+    "prompt": "Outline how dietary fat is emulsified and digested in the small intestine. Name the secretions involved and state the role of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Mouth and stomach: little fat digestion; gastric lipase hydrolyses a small proportion of triglycerides. Small intestine: liver produces bile, stored in gall bladder, released into duodenum; bile salts emulsify fat, increasing surface area; bile is alkaline and neutralises chyme. Pancreatic juice and intestinal juice contain lipase, which hydrolyses triglycerides to fatty acids and glycerol. Absorption: short-chain fatty acids and glycerol enter the villus capillaries and the hepatic portal vein; long-chain fatty acids and monoglycerides are rebuilt into triglycerides in the villus cells, coated with protein to form chylomicrons, and enter the lacteals. Lymph carries chylomicrons through the thoracic duct into the blood. Liver: processes absorbed fats and produces VLDL. Body tissues: lipoprotein lipase releases fatty acids and glycerol; muscle cells oxidise fatty acids in respiration for energy; glycerol is converted to glucose or enters glycolysis; surplus fat is stored in adipose tissue.",
+    "prompt": "Trace the route of dietary fat from the mouth to the body tissues. Name the organ, secretion, enzyme, substrate and product at each digestive stage, explain how the products are absorbed and carried through the body, and describe how the liver and body tissues use the absorbed fat.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-education-s1": {
   "keyTerms": [
    {
@@ -679,6 +1794,543 @@
    }
   ]
  },
+ "hom-fish-seafood-s1": {
+  "keyTerms": [
+   {
+    "definition": "A short muscle segment; the flesh of fish is made of these short fibres, separated by thin layers of connective tissue.",
+    "term": "Myomere"
+   },
+   {
+    "definition": "Lean fish with almost no fat in the flesh, such as cod, haddock and plaice.",
+    "term": "White fish"
+   },
+   {
+    "definition": "Fish with high fat content in the flesh, rich in polyunsaturated fat, omega-3 fatty acids and vitamins A and D.",
+    "term": "Oily fish"
+   },
+   {
+    "definition": "Crustaceans and molluscs, such as prawns, lobster, mussels and oysters, eaten as seafood.",
+    "term": "Shellfish"
+   },
+   {
+    "definition": "Protein that contains all the essential amino acids in the proportions the body needs.",
+    "term": "High biological value (HBV) protein"
+   },
+   {
+    "definition": "Polyunsaturated fatty acids, found mainly in oily fish, that the body cannot make and must obtain from food.",
+    "term": "Omega-3 fatty acids"
+   },
+   {
+    "definition": "Fatty acids that the body cannot make, so they must be supplied in the diet.",
+    "term": "Essential fatty acids"
+   },
+   {
+    "definition": "A vitamin that dissolves in fat rather than water, such as vitamin D in oily fish.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "White fish, oily fish and shellfish.",
+    "term": "Three groups of fresh fish"
+   },
+   {
+    "definition": "Cod, haddock, whiting, plaice and sole.",
+    "term": "Five named white fish"
+   },
+   {
+    "definition": "Salmon, trout, mackerel, herring and tuna.",
+    "term": "Five named oily fish"
+   },
+   {
+    "definition": "Lobster, crab and prawns.",
+    "term": "Three named crustacean shellfish"
+   },
+   {
+    "definition": "Oysters, mussels and cockles.",
+    "term": "Three named mollusc shellfish"
+   },
+   {
+    "definition": "High biological value, containing all essential amino acids, and easy to digest.",
+    "term": "Three properties of fish protein"
+   },
+   {
+    "definition": "They reduce the risk of heart attack, reduce the risk of stroke, reduce blood clotting and reduce the build-up of cholesterol.",
+    "term": "Four benefits of omega-3 fatty acids"
+   },
+   {
+    "definition": "Iodine and fluorine.",
+    "term": "Two minerals supplied by sea fish"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fish is grouped by the fat content of its flesh and by whether it has a backbone.",
+    "h": "Classification of fish",
+    "points": [
+     "White fish: lean fish with almost no fat in the flesh, e.g. cod, haddock, whiting, plaice and sole.",
+     "Oily fish: fish with high fat in the flesh, e.g. salmon, trout, mackerel, herring and tuna.",
+     "Crustacean shellfish: lobster, crab and prawns, which have a hard outer shell.",
+     "Mollusc shellfish: oysters, mussels and cockles, which have shells that open and close.",
+     "Fish flesh is made of short muscle fibres called myomeres, separated by thin layers of connective tissue, so it has less connective tissue than meat.",
+     "The flesh of fish has a water content of about 65 to 80 per cent, and water content falls as fat content rises."
+    ]
+   },
+   {
+    "h": "Nutritive value of fish",
+    "points": [
+     "Protein: fish is a source of high biological value (HBV) protein, which supplies all the essential amino acids needed for growth and repair.",
+     "Fat: white fish has almost no fat, while oily fish supplies polyunsaturated fat, including the omega-3 fatty acids EPA and DHA.",
+     "Carbohydrate: fish contains no carbohydrate.",
+     "B group vitamins: all fish supplies them.",
+     "Vitamins A and D: supplied by oily fish, and by the liver oils of fish.",
+     "Vitamin C: supplied by oysters.",
+     "Iodine and fluorine: supplied by sea fish.",
+     "Phosphorus, potassium and zinc: supplied by most fish.",
+     "Calcium: supplied by canned fish eaten with its soft bones, such as sardines and canned salmon.",
+     "Iron: supplied by shellfish and sardines.",
+     "Cholesterol: present in shellfish."
+    ]
+   },
+   {
+    "b": "Oily fish is the main food source of these two nutrients.",
+    "h": "Omega-3 fatty acids and vitamin D in oily fish",
+    "points": [
+     "Essential fatty acids cannot be made by the body, so they must be obtained from food.",
+     "Omega-3 fatty acids are polyunsaturated fats; oily fish is their main dietary source.",
+     "Omega-3 fatty acids make platelets less sticky, which reduces the formation of blood clots.",
+     "Omega-3 fatty acids reduce the risk of heart attack, stroke and circulatory disease.",
+     "Omega-3 fatty acids reduce the build-up of cholesterol in the arteries and can help lower high blood pressure.",
+     "Omega-3 fatty acids support healthy brain activity and concentration.",
+     "Vitamin D is a fat-soluble vitamin that helps the body absorb calcium, supporting healthy bones and teeth."
+    ]
+   },
+   {
+    "h": "Dietetic value and contribution to the diet",
+    "points": [
+     "Fish is easy to digest, because its short muscle fibres and low connective tissue make the flesh soft; this suits children, the elderly and convalescents.",
+     "Its HBV protein supports growth in children and adolescents and repair of tissue in all age groups.",
+     "Fish is a meat alternative and can replace meat in the main meal.",
+     "White fish is low in fat and calories, so it suits low-calorie and low-fat diets.",
+     "Oily fish is recommended for people with coronary heart disease, because its omega-3 fats help reduce the risk of heart disease.",
+     "Fish contains no carbohydrate, so it should be served with starchy foods such as potatoes, rice or bread.",
+     "Shellfish contains cholesterol, which should be considered in a low-cholesterol diet.",
+     "Fish cooks quickly, which saves time and fuel, and it can be prepared by many cooking methods.",
+     "Processed fish products such as canned and frozen fish make fish available out of season.",
+     "Irish healthy eating guidelines from the Department of Health, as shown in the Food Pyramid, recommend eating fish regularly, including oily fish."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Oily fish has high fat in its flesh, mostly polyunsaturated, while white fish has almost no fat in the flesh. Oily fish supplies omega-3 fatty acids (EPA and DHA). Oily fish also supplies vitamins A and D. Any two of these nutrients earn the marks.",
+    "prompt": "Compare oily fish with white fish in terms of fat content, and name two nutrients that oily fish supplies in greater amounts than white fish.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Nutritive value: fish is a source of HBV protein containing all essential amino acids. White fish has almost no fat, while oily fish supplies polyunsaturated fat with omega-3 fatty acids and vitamins A and D. All fish supplies B group vitamins. Sea fish supplies iodine and fluorine; most fish supplies phosphorus, potassium and zinc. Canned fish with soft bones supplies calcium; shellfish and sardines supply iron; oysters supply vitamin C. Fish contains no carbohydrate. Shellfish contains cholesterol. Dietetic value: fish is easy to digest and suits children, the elderly and convalescents. Its protein supports growth and repair. It can replace meat. White fish suits low-fat and low-calorie diets. Omega-3 fats reduce the risk of heart attack, stroke and circulatory disease, so oily fish suits people with heart disease. Fish should be served with starchy foods because it contains no carbohydrate. It cooks quickly and can be prepared many ways. Irish healthy eating guidelines from the Department of Health recommend regular fish, including oily fish.",
+    "prompt": "Discuss the nutritive value of fish and its dietetic value in the diet, referring to white fish, oily fish and shellfish.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2": {
+  "keyTerms": [
+   {
+    "definition": "The deterioration of fish fats when they react with oxygen in the air, producing an unpleasant smell and taste.",
+    "term": "Oxidative rancidity"
+   },
+   {
+    "definition": "A strong-smelling nitrogen compound produced by bacteria acting on fish flesh, which gives spoiled fish its odour.",
+    "term": "Trimethylamine"
+   },
+   {
+    "definition": "A stored carbohydrate in fish muscle that normally converts to lactic acid after death, helping to preserve the flesh.",
+    "term": "Glycogen"
+   },
+   {
+    "definition": "A preservative acid formed from glycogen in the flesh of freshly caught fish.",
+    "term": "Lactic acid"
+   },
+   {
+    "definition": "The action of enzymes in the flesh that breaks down the fish and causes deterioration, even at low temperatures.",
+    "term": "Enzymic activity"
+   },
+   {
+    "definition": "Freezing food quickly at a very low temperature so that small ice crystals form and the food keeps its quality.",
+    "term": "Fast freezing"
+   },
+   {
+    "definition": "Drying and discolouration of the surface of frozen food caused by poor packaging that lets in air.",
+    "term": "Freezer burn"
+   },
+   {
+    "definition": "The transfer of bacteria from raw food to cooked or ready-to-eat food.",
+    "term": "Cross-contamination"
+   },
+   {
+    "definition": "Bright, bulging eyes; bright red gills; firm, elastic flesh; moist, shiny skin with tight scales; and a mild sea smell.",
+    "term": "Five signs of fresh whole fish"
+   },
+   {
+    "definition": "Oxidative rancidity, bacterial action and enzymic activity.",
+    "term": "Three causes of fish spoilage"
+   },
+   {
+    "definition": "Freeze only very fresh fish; use the fast-freeze setting beforehand; freeze in usable quantities; and label with name and date.",
+    "term": "Four rules for freezing fresh fish"
+   },
+   {
+    "definition": "Texture may change as ice crystals form, and some B vitamins may be lost.",
+    "term": "Two effects of freezing on the quality of fish"
+   },
+   {
+    "definition": "−18 °C or below.",
+    "term": "Storage temperature for frozen fish"
+   },
+   {
+    "definition": "Shellfish should be alive, and mussels should be closed.",
+    "term": "Two checks on shellfish when buying"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Freshness is judged by sight, touch and smell, and by the reliability of the seller.",
+    "h": "Judging freshness when buying fish",
+    "points": [
+     "Eyes: bright, clear and bulging; sunken or cloudy eyes show the fish is old.",
+     "Gills: bright red; grey or brown gills show the fish is not fresh.",
+     "Flesh: firm and elastic, springing back when pressed.",
+     "Skin and scales: moist and shiny, with tight scales and no bruising or breaks in the skin.",
+     "Smell: a mild sea smell; a strong or unpleasant smell means the fish is spoiling.",
+     "Shellfish: heavy for its size and alive; mussels should be closed, because an open mussel is dead.",
+     "Smoked fish should look glossy; frozen fish should be solid with its packaging intact.",
+     "Buy from a reliable, hygienic retailer where the fish is kept on ice, check the sell-by date, and buy fish in season.",
+     "The Sea-Fisheries Protection Authority controls hygiene in fish landing and seafood processing, within the food safety system overseen by the Food Safety Authority of Ireland (FSAI)."
+    ]
+   },
+   {
+    "b": "Spoilage is rapid, so fish must be used or processed as soon as possible after it is caught.",
+    "h": "Causes of fish spoilage",
+    "points": [
+     "Oxidative rancidity: fats in the fish, especially the polyunsaturated fats in oily fish, react with oxygen in the air, giving an unpleasant smell and taste.",
+     "Bacterial action: a struggling fish uses up its glycogen stores before it dies.",
+     "Normally glycogen converts to lactic acid, which is a preservative; without lactic acid, fish goes off quickly.",
+     "Bacteria work on the flesh and produce trimethylamine, a strong-smelling nitrogen compound that gives spoiled fish its characteristic odour.",
+     "Enzymic activity: enzymes in the flesh cause deterioration even at low temperatures."
+    ]
+   },
+   {
+    "h": "Storing fresh fish",
+    "points": [
+     "Fresh fish is kept chilled, below 5 °C, packed on crushed ice until it is used.",
+     "Raw fish is stored on the lowest shelf of the fridge in a covered container, so that drips cannot contaminate other food.",
+     "Raw fish is kept apart from cooked and ready-to-eat foods to prevent cross-contamination.",
+     "Fresh fish is used on the day of purchase or as soon as possible after it.",
+     "Covering the fish stops it drying out and absorbing the smells of other food."
+    ]
+   },
+   {
+    "b": "Freezing stops microbial growth and inactivates enzymes, because the water in the flesh is held as ice.",
+    "h": "Freezing fresh fish",
+    "points": [
+     "Freeze only very fresh fish; freezing cannot improve fish that is already poor in quality.",
+     "Turn the freezer to its fast-freeze setting 3 to 4 hours before freezing the fish.",
+     "Freeze fish in usable quantities, so that only the amount needed is thawed.",
+     "Do not freeze more than about a tenth of the freezer's capacity in any 24 hours, so that the food already frozen stays frozen.",
+     "Wrap fish tightly in moisture-proof packaging or vacuum pack it, to prevent freezer burn and oxidation.",
+     "Label each package with the name of the fish and the date.",
+     "Store frozen fish at −18 °C or below.",
+     "Thaw frozen fish in the fridge and do not refreeze it once thawed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any four of: eyes bright and bulging; gills bright red; flesh firm and springing back when pressed; skin moist and shiny with tight scales and no bruising; mild sea smell; shellfish heavy for its size and alive, with mussels closed; buy from a reliable hygienic retailer where the fish is kept on ice; check the sell-by date; buy fish in season.",
+    "prompt": "Outline four guidelines to follow when buying fresh fish.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Oxidative rancidity: fish fats react with oxygen in the air, causing an unpleasant smell and taste; oily fish is especially affected. Bacterial action: after death the fish has used up its glycogen, so lactic acid is not formed to preserve it; bacteria then work on the flesh and produce trimethylamine, a strong-smelling compound. Enzymic activity: enzymes in the flesh cause deterioration even at low temperatures. Freezing: the fish must be very fresh and frozen quickly, using the fast-freeze setting, so that small ice crystals form. Freezing at a low temperature, held at −18 °C or below, stops microbial growth and inactivates enzymes, as the water is held as ice. Wrapping in moisture-proof packaging or vacuum packing prevents freezer burn and reduces oxidation. The fish should be labelled with name and date, and thawed in the fridge without being refrozen.",
+    "prompt": "Explain three causes of fish spoilage and describe how freezing fresh fish, when carried out correctly, slows or stops that spoilage.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3": {
+  "keyTerms": [
+   {
+    "definition": "The setting of fish protein when heated, so that the flesh turns opaque and firms.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "The transfer of heat from molecule to molecule through a solid or a liquid in contact with the food.",
+    "term": "Conduction"
+   },
+   {
+    "definition": "The transfer of heat through circulating liquid, steam or hot air, in which hot material rises and cooler material falls.",
+    "term": "Convection"
+   },
+   {
+    "definition": "The transfer of heat by infrared rays travelling in straight lines from a heat source to the food.",
+    "term": "Radiation"
+   },
+   {
+    "definition": "A moist method of cooking food gently in liquid kept just below simmering point.",
+    "term": "Poaching"
+   },
+   {
+    "definition": "A moist method of cooking food in steam rising from boiling water.",
+    "term": "Steaming"
+   },
+   {
+    "definition": "A dry method of cooking food by radiant heat from a grill, which seals the surface of the food.",
+    "term": "Grilling"
+   },
+   {
+    "definition": "Cooking food quickly by electromagnetic waves that make the water molecules in it vibrate and generate heat.",
+    "term": "Microwave cooking"
+   },
+   {
+    "definition": "The protein sets and turns opaque; the flesh firms and flakes; and the protein becomes easier to digest.",
+    "term": "Three effects of cooking on fish protein"
+   },
+   {
+    "definition": "Poaching, steaming and stewing or casserole cooking.",
+    "term": "Three moist methods of cooking fish"
+   },
+   {
+    "definition": "Grilling, barbecuing, baking and shallow frying.",
+    "term": "Four dry methods of cooking fish"
+   },
+   {
+    "definition": "Convection, carried by steam.",
+    "term": "Heat transfer used in steaming"
+   },
+   {
+    "definition": "Some B vitamins and minerals pass into the cooking liquid, which can be used in a sauce.",
+    "term": "Two nutrients lost when fish is cooked in liquid"
+   },
+   {
+    "definition": "Just below simmering point, around 85 °C.",
+    "term": "Temperature for poaching fish"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Preparing fish for cooking",
+    "points": [
+     "Whole round fish is scaled, gutted and washed before cooking; the head and fins may be removed.",
+     "Fillets are cut away from the bones; leaving the skin on helps a delicate fillet hold its shape during cooking.",
+     "Mussels are scrubbed and the beards removed, and any mussel that stays open when tapped is discarded."
+    ]
+   },
+   {
+    "b": "Fish needs less cooking than meat, and the effects of heat are fast and easy to overdo.",
+    "h": "Effects of cooking on fish",
+    "points": [
+     "Coagulation: the protein in the flesh sets, so raw translucent flesh turns opaque and firm.",
+     "Flaking: heat breaks down the connective tissue between the muscle segments, so the flesh separates into flakes.",
+     "Overcooking toughens the protein and dries out the flesh, because the moisture is squeezed out.",
+     "Heat destroys bacteria and parasites, so cooked fish is safe to eat when cooked through.",
+     "Heat changes the protein so that it is easier to digest, and flavour develops during cooking.",
+     "Some B vitamins and minerals are lost into the cooking liquid; the liquid can be used in a sauce to keep them."
+    ]
+   },
+   {
+    "b": "Every cooking method transfers heat in one of the ways below, and each method suits fish differently.",
+    "h": "Heat transfer in cooking",
+    "points": [
+     "Conduction: heat passes from molecule to molecule through a solid or a liquid in contact with the food, e.g. the pan in shallow frying.",
+     "Convection: heat is carried through circulating liquid, steam or hot air, in which hot material rises and cooler material falls, e.g. poaching, steaming and oven baking.",
+     "Radiation: infrared heat travels in straight lines from the heat source to the surface of the food, e.g. grilling and barbecuing.",
+     "Microwave: electromagnetic waves make the water molecules in food vibrate, producing heat inside the food."
+    ]
+   },
+   {
+    "h": "Moist cooking methods",
+    "points": [
+     "Poaching: fish is cooked gently in liquid just below simmering point, around 85 °C, on the hob or in a covered casserole in the oven.",
+     "Poaching principle: convection and conduction heat the liquid gently, which cooks the fish without breaking up the delicate flesh.",
+     "Steaming: food is cooked by steam rising from boiling water, either between two plates over a saucepan, in a covered bowl standing in boiling water, or in a steamer.",
+     "Stewing or casserole cooking: food is cooked slowly in liquid in a covered container on the hob or in the oven, using convection and conduction.",
+     "Poached fish is easy to digest and keeps its moisture, but it may lack flavour, so it is usually served with a sauce."
+    ]
+   },
+   {
+    "h": "Dry cooking methods",
+    "points": [
+     "Grilling: food is cooked by radiant heat under the grill; the heat seals the surface, retaining flavour, moisture and nutrients.",
+     "Grilled fish is quick to cook, but it is easily overcooked and dries out if left unwatched.",
+     "Barbecuing: food is cooked by radiant heat on a grid over burning charcoal or gas flames.",
+     "Baking: food is cooked by dry heat from the oven, transferred by convection.",
+     "Roasting: food is cooked in a little fat in a roasting tin in the oven.",
+     "Shallow frying: food is cooked in hot fat in a pan on the hob, with heat transferred by conduction through the fat.",
+     "Deep frying: food is immersed in hot fat in a deep fat fryer, so that a coating such as batter or breadcrumbs crisps and seals the fish.",
+     "Stir-frying: small pieces are cooked quickly in a wok in a small amount of oil."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Heat causes the protein to coagulate, so the flesh turns from translucent to opaque and firms. The connective tissue between the muscle segments breaks down, so the flesh flakes. Protein becomes easier to digest. Overcooking toughens the protein and squeezes out moisture, so the flesh becomes dry and tough.",
+    "prompt": "Explain how heat changes the protein in fish during cooking, and why overcooking spoils the texture of the fish.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Dry methods: grilling uses radiant heat from the grill; the heat seals the surface and retains flavour, moisture and nutrients, but the fish is easily overcooked and dried. Shallow frying uses conduction through hot fat in a pan on the hob; the fish browns and develops flavour but absorbs fat. Barbecuing uses radiant heat over charcoal or gas flames; baking uses convection in the oven. Moist methods: poaching cooks fish in liquid just below simmering point, around 85 °C, using convection and conduction; the fish stays moist and digestible but may lack flavour, so it is served with a sauce. Steaming uses convection from steam rising from boiling water, retaining moisture and nutrients. Stewing or casserole cooking uses convection and conduction in liquid in a covered container. Palatability: fish cooked by dry methods has more flavour and colour but can be dry if overcooked; fish cooked by moist methods is tender and moist but can taste bland; both are digestible when cooked through.",
+    "prompt": "Describe two dry and two moist methods of cooking fish, naming the principle of heat transfer used in each, and comment on the palatability of the cooked fish.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fish-seafood-s4": {
+  "keyTerms": [
+   {
+    "definition": "Packaging food in a sealed bag from which air has been removed, so that oxygen cannot cause oxidation.",
+    "term": "Vacuum packing"
+   },
+   {
+    "definition": "Heating food to a high temperature in an airtight container, destroying micro-organisms and their spores.",
+    "term": "Sterilisation"
+   },
+   {
+    "definition": "Soaking fish in a salt solution so that salt penetrates the flesh and preserves it.",
+    "term": "Brining"
+   },
+   {
+    "definition": "Rubbing salt directly onto fish so that water is drawn out of the flesh.",
+    "term": "Dry salting"
+   },
+   {
+    "definition": "The movement of water through a membrane from a weaker solution to a stronger one, which draws water out of fish flesh in salting.",
+    "term": "Osmosis"
+   },
+   {
+    "definition": "Smoking fish at a temperature that rises to about 80 °C, cooking the fish during the process.",
+    "term": "Hot smoking"
+   },
+   {
+    "definition": "Smoking fish at temperatures not exceeding about 27 °C, so the flesh is not cooked.",
+    "term": "Cold smoking"
+   },
+   {
+    "definition": "A fish product that has been frozen, canned, smoked, salted or otherwise treated to extend shelf life or add convenience.",
+    "term": "Processed fish product"
+   },
+   {
+    "definition": "Freezing, canning, smoking and salting.",
+    "term": "Four processing methods that extend fish shelf life"
+   },
+   {
+    "definition": "Colour and flavour are largely unchanged; texture may change; and some B vitamins and extractives are lost.",
+    "term": "Three effects of freezing on fish quality"
+   },
+   {
+    "definition": "Some heat-sensitive vitamins such as B vitamins are partly lost, and the flesh becomes soft.",
+    "term": "Two effects of canning on fish"
+   },
+   {
+    "definition": "About 80 °C, so the fish is cooked during smoking.",
+    "term": "Approximate temperature reached in hot smoking"
+   },
+   {
+    "definition": "About 27 °C, so the flesh is not cooked.",
+    "term": "Maximum temperature in cold smoking"
+   },
+   {
+    "definition": "About −30 °C, forming small ice crystals in the flesh.",
+    "term": "Temperature for fast freezing fish"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Processing extends the shelf life of fish by killing or slowing micro-organisms, slowing enzyme action, or removing the water that micro-organisms need.",
+    "h": "Processing to extend shelf life",
+    "points": [
+     "The four methods named for fish are freezing, canning, smoking and salting.",
+     "Vacuum packing removes air, so oxygen cannot cause oxidative rancidity."
+    ]
+   },
+   {
+    "h": "Freezing in detail",
+    "points": [
+     "Principle: low temperatures stop micro-organisms from multiplying and inactivate enzymes.",
+     "The water in the flesh is converted to ice, so it is not available to micro-organisms.",
+     "Fast freezing, at about −30 °C, forms small ice crystals that cause less damage to the flesh than slow freezing.",
+     "Effects: colour and flavour are largely unchanged, and nutrients are well retained.",
+     "Effects: texture may change, and some B vitamins and extractives are lost.",
+     "Poor wrapping causes freezer burn, and air in the packaging allows oxidative rancidity in oily fish."
+    ]
+   },
+   {
+    "h": "Canning",
+    "points": [
+     "Principle: fish is sealed in airtight cans and heated to sterilise it, destroying micro-organisms and their spores.",
+     "The airtight seal prevents micro-organisms from entering after heating.",
+     "Effects: canned fish keeps for a long time without refrigeration, and the flesh becomes soft.",
+     "Effects: some heat-sensitive vitamins, such as B vitamins, are partly lost during heating.",
+     "Soft bones in canned fish such as sardines and salmon supply calcium.",
+     "Examples: tuna, sardines and salmon, packed in brine, oil or tomato sauce."
+    ]
+   },
+   {
+    "h": "Salting and brining",
+    "points": [
+     "Dry salting: salt is rubbed onto the fish; brining: the fish is soaked in a salt solution.",
+     "Principle: salt draws water out of the flesh by osmosis, so less water is available to micro-organisms.",
+     "Salt also slows bacterial growth and enzyme action, extending shelf life.",
+     "Effects: the flesh becomes firmer and the fish has a strong salty flavour.",
+     "High sodium from salt can contribute to high blood pressure, so salted fish should be eaten in moderation.",
+     "Examples: salted cod and salted herring."
+    ]
+   },
+   {
+    "b": "Smoking preserves fish with smoke compounds and with the drying and salting that precede it.",
+    "h": "Smoking",
+    "points": [
+     "Smoke is produced by smouldering wood, peat or sawdust.",
+     "Smoke compounds such as phenols, creosote and formaldehyde coat the fish, acting as preservatives and antioxidants and giving colour and flavour.",
+     "Preparation: the fish is filleted and trimmed, brined or dry-salted, rinsed and dried before smoking.",
+     "Hot smoking: the temperature is raised gradually to about 80 °C, so the fish is cooked during smoking and needs no further cooking.",
+     "Cold smoking: the fish is smoked at temperatures not exceeding about 27 °C, so the flesh is not cooked by smoking: cold-smoked salmon is eaten without further cooking, while cold-smoked kippers and smoked cod are cooked before eating.",
+     "Examples: hot-smoked trout and mackerel; smoked salmon and smoked cod."
+    ]
+   },
+   {
+    "h": "Processed fish products",
+    "points": [
+     "Frozen products: fish fingers, fish cakes, fish fillets, breaded or battered portions and ready fish meals.",
+     "Canned products: tuna, sardines and salmon.",
+     "Smoked products: trout, salmon, cod and mackerel.",
+     "Ready-to-cook products have no waste and save preparation time.",
+     "Ready meals and ready-to-serve products are quick and easy to prepare and can be used as starters or main courses.",
+     "Products are good value and versatile, and they make fish available out of season.",
+     "Breaded or battered products and fish in a sauce contain carbohydrate, so they add starchy food to the meal.",
+     "The FSAI sets the food safety framework for processed fish, including HACCP-based controls in processing plants."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Salt draws water out of the fish flesh by osmosis, so less water is available to micro-organisms and enzyme action is slowed. This stops bacteria multiplying and extends shelf life. One effect: the flesh becomes firmer and has a strong salty flavour.",
+    "prompt": "Explain the principle of salting as a method of preserving fish, and state one effect of salting on the flesh.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Preparation common to both: the fish is filleted and trimmed, brined or dry-salted, rinsed and dried, which forms a surface that takes smoke well. Smoke is produced by smouldering wood, peat or sawdust, and smoke compounds such as phenols and creosote preserve the fish and give colour and flavour. Hot smoking: the temperature is raised gradually to about 80 °C, so the fish is cooked during smoking and is ready to eat. Cold smoking: the temperature does not exceed about 27 °C, so the flesh is not cooked by smoking: cold-smoked salmon is eaten without further cooking, while cold-smoked kippers and smoked cod are cooked before eating. Comparison: hot smoking uses a much higher temperature and cooks the fish; cold smoking uses a low temperature and does not. Both methods preserve fish with smoke compounds and with the salting that precedes them.",
+    "prompt": "Describe how fish is prepared and smoked by the hot and cold methods, and compare the two methods in terms of the temperature used and whether the fish is cooked.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-food-industry-s1": {
   "keyTerms": [
    {
@@ -1058,6 +2710,1779 @@
     "marks": 18,
     "model": "Production: production operatives, food technologists, quality control technicians, food microbiologists, food engineers and craft trades such as butcher, baker and confectioner. Food service: chefs, caterers, waiters and waitresses, hotel and restaurant managers. Health and science: dietitians and nutritionists advising on diet, Environmental Health Officers inspecting food premises for the HSE, agricultural scientists and food safety scientists. Employers: state bodies such as Bord Bia, Teagasc, BIM, FSAI and the HSE; food manufacturers and retailers. Routes: apprenticeships, further education and training courses, and third-level degrees in food science, dietetics or culinary arts.",
     "prompt": "Discuss the range of careers available in the food industry, referring to production, food service, health and science. Outline the routes and qualifications needed to enter them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fruit-vegetables-s1": {
+  "keyTerms": [
+   {
+    "definition": "The edible seeds of leguminous plants, such as peas, beans and lentils, which are richer in protein and fibre than other vegetables.",
+    "term": "Pulses"
+   },
+   {
+    "definition": "Beta-carotene, a pigment in orange, yellow, red and dark green produce that the body converts into vitamin A.",
+    "term": "Pro-vitamin A"
+   },
+   {
+    "definition": "A plant carbohydrate that the body cannot digest, forming dietary fibre in the cell walls of fruit and vegetables.",
+    "term": "Non-starch polysaccharide"
+   },
+   {
+    "definition": "Protein that lacks one or more essential amino acids in the proportions the body needs, as found in most vegetables.",
+    "term": "Low-biological-value protein"
+   },
+   {
+    "definition": "A swollen underground stem that stores starch, such as the potato.",
+    "term": "Tuber"
+   },
+   {
+    "definition": "A fleshy fruit with a central core containing the seeds, such as the apple or pear.",
+    "term": "Pome fruit"
+   },
+   {
+    "definition": "A fruit with a single hard stone enclosing the seed, such as the plum, cherry or apricot.",
+    "term": "Stone fruit"
+   },
+   {
+    "definition": "A nutrient or compound that protects cells against damage caused by free radicals, such as vitamins A, C and E.",
+    "term": "Antioxidant"
+   },
+   {
+    "definition": "Flowers, the edible flower buds of the plant.",
+    "term": "Vegetable class that includes broccoli and cauliflower"
+   },
+   {
+    "definition": "Carrots, sweet potatoes and red or yellow peppers; spinach is also a good source.",
+    "term": "Three vegetables rich in pro-vitamin A"
+   },
+   {
+    "definition": "Avocados, which supply mainly unsaturated fat.",
+    "term": "Fat in fruit: the exception"
+   },
+   {
+    "definition": "Glucose, fructose and sucrose.",
+    "term": "Sugars present in all fruit"
+   },
+   {
+    "definition": "They are low in energy and fat, and their fibre and water content increase fullness.",
+    "term": "Two reasons vegetables suit weight-control diets"
+   },
+   {
+    "definition": "Supplied mainly by green vegetables.",
+    "term": "Vitamin K in vegetables"
+   },
+   {
+    "definition": "At least five portions a day, under the Department of Health healthy-eating guidelines.",
+    "term": "Daily fruit and vegetable target in Irish guidance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Vegetables are grouped by the part of the plant that is eaten, which largely determines their nutrient content.",
+    "h": "Classes of vegetables",
+    "points": [
+     "Roots (carrots, turnips, beetroot, parsnips): storage organs of the plant, supplying starch and sugars; orange varieties such as carrots are rich in beta-carotene.",
+     "Bulbs (onions, leeks): layered leaf bases that store sugar and give flavour; onions contain small amounts of sugar.",
+     "Tubers (potatoes): swollen underground stems that store starch; potatoes are an important source of vitamin C in the Irish diet.",
+     "Leafy greens (cabbage, spinach, lettuce): good sources of folate, calcium and non-haem iron.",
+     "Flowers (broccoli, cauliflower): the edible flower buds, which supply vitamin C and folate.",
+     "Pulses (peas, beans, lentils): seeds of leguminous plants, richer in protein and fibre than other vegetables.",
+     "Stems (asparagus, celery): edible shoots and stalks with a high water content and little energy.",
+     "Fruit vegetables (tomatoes, peppers, cucumbers): the fruit or seed-bearing part of the plant, eaten as a savoury vegetable.",
+     "Fungi (mushrooms): not plants; a source of riboflavin (B2) and niacin."
+    ]
+   },
+   {
+    "h": "Classes of fruit",
+    "points": [
+     "Citrus fruit (oranges, lemons, grapefruit): among the richest dietary sources of vitamin C.",
+     "Soft and berry fruit (strawberries, blackcurrants, raspberries): blackcurrants and strawberries are high in vitamin C.",
+     "Stone fruit (plums, cherries, apricots, peaches): one large stone enclosing the seed; apricots are rich in pro-vitamin A.",
+     "Pome fruit (apples, pears): fleshy fruit with a core containing the seeds; the skin and flesh of apples supply pectin.",
+     "Exotic fruit (kiwi, mango, melon): kiwi fruit is a valuable source of vitamin C."
+    ]
+   },
+   {
+    "h": "Nutritive value of fruit",
+    "points": [
+     "All fruit contains sugars: glucose, fructose and sucrose, which provide energy and sweetness.",
+     "Underripe fruit such as bananas contains starch, which turns into sugar as the fruit ripens.",
+     "Cellulose in the cell walls is an insoluble fibre; pectin is a soluble fibre found in the cell walls of fruit.",
+     "Fruit contains almost no protein and virtually no fat; avocados are the exception, supplying mainly unsaturated fat.",
+     "Bananas are a useful source of potassium; fruit contains only small amounts of calcium and iron.",
+     "Yellow, orange and red fruit provides pro-vitamin A (beta-carotene), which the body converts to vitamin A.",
+     "Blackcurrants and kiwi fruit are among the best sources of vitamin C.",
+     "Fruit has a high water content, which contributes to hydration."
+    ]
+   },
+   {
+    "h": "Nutritive value of vegetables",
+    "points": [
+     "Protein: vegetables contain small amounts of mainly low-biological-value protein; pulses are richer in protein, and soya beans supply high-biological-value protein.",
+     "Fat: vegetables are generally very low in fat; olives, avocados and soya beans are the exceptions and supply mainly unsaturated fat.",
+     "Carbohydrate: vegetables provide fibre (non-starch polysaccharides), starch in potatoes, root vegetables and pulses, and small amounts of sugar in carrots and onions.",
+     "Fibre (non-starch polysaccharides) adds bulk to the stool, stimulates peristalsis and helps prevent constipation.",
+     "Beta-carotene: dark green, orange, yellow and red vegetables supply beta-carotene, which the body converts to vitamin A.",
+     "Vitamin C: leafy greens, peppers, tomatoes and potatoes provide vitamin C.",
+     "B vitamins and folate: pulses supply thiamine (B1), riboflavin (B2) and B6; leafy greens supply folate. Green vegetables also supply vitamin K.",
+     "Minerals: non-haem iron (dark green vegetables and pulses), calcium (root vegetables and leafy greens), potassium and magnesium, with traces of zinc and iodine.",
+     "Water: vegetables are roughly 70 to 95 per cent water."
+    ]
+   },
+   {
+    "h": "Contribution to the diet",
+    "points": [
+     "Low energy density, high fibre and high water content make vegetables suitable for weight control and low-calorie diets.",
+     "Vegetables contain no cholesterol and little saturated fat, which suits heart-healthy and low-cholesterol diets.",
+     "The antioxidant vitamins A, C and E supplied by vegetables help protect cells against damage.",
+     "Soya beans and pulses provide protein for vegetarian diets, and vegetables add iron and folate to those diets.",
+     "Vegetables do not provide vitamin B12 and are poor in vitamin D, so they cannot meet all nutritional needs alone."
+    ]
+   },
+   {
+    "h": "Healthy-eating guidance and consumption",
+    "points": [
+     "Irish healthy-eating guidance from the Department of Health recommends at least five portions of fruit and vegetables a day.",
+     "The Department of Health Food Pyramid places fruit and vegetables on its lower shelves, with fats, oils and sugars at the top.",
+     "Many adults eat fewer portions of fruit and vegetables than recommended, and young people eat even fewer vegetables than adults."
+    ]
+   },
+   {
+    "h": "Ways to increase daily intake",
+    "points": [
+     "Add vegetables to soups, stews, sauces, curries and Bolognese.",
+     "Add fruit to breakfast cereals, yoghurt and baking, or use fruit salads as fillings.",
+     "Make smoothies and fresh juices, and add greens such as spinach to smoothies.",
+     "Use vegetable noodles or cauliflower rice in place of some starchy carbohydrate foods.",
+     "Serve vegetarian main courses, and use vegetables in stir-fries and as toppings on pizza.",
+     "Pack cherry tomatoes, carrot sticks and fruit pieces for lunch boxes and snacks."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three classes with an example and a nutrient, for example: roots, carrots, beta-carotene; leafy greens, spinach, folate or iron; pulses, peas, protein and fibre; bulbs, onions, flavour and small amounts of sugar; tubers, potatoes, starch and vitamin C; flowers, broccoli, vitamin C.",
+    "prompt": "Name one vegetable from each of three different classes and give one nutrient supplied by each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Nutritive value: fruit supplies sugars, fibre (cellulose and pectin), vitamin C and pro-vitamin A, with little protein or fat and small amounts of minerals; vegetables supply small amounts of mainly low-biological-value protein, pulses and soya as richer sources, very little fat, fibre, starch in potatoes, roots and pulses, beta-carotene, vitamin C, B vitamins, folate, vitamin K, non-haem iron and calcium. Contribution: low energy and fat with high fibre and water supports weight control; no cholesterol and little saturated fat supports heart health; antioxidant vitamins protect cells; pulses and soya support vegetarian diets. Limitations: no vitamin B12 and poor in vitamin D. Ways to include: soups, stews, sauces, smoothies, juices, stir-fries, fruit with cereals and yoghurt, vegetable noodles or cauliflower rice in place of starch, vegetarian main courses, lunch-box snacks. Guidance: Department of Health healthy-eating guidelines and Food Pyramid recommend at least five portions a day, with fruit and vegetables on the lower shelves of the pyramid, which are eaten most often.",
+    "prompt": "Assess the contribution of fruit and vegetables to a healthy diet, referring to their nutritive value, the ways they can be included in meals, and current healthy-eating guidance.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fruit-vegetables-s2": {
+  "keyTerms": [
+   {
+    "definition": "The brown discolouration of cut or bruised produce caused by oxidase reacting with oxygen.",
+    "term": "Enzymic browning"
+   },
+   {
+    "definition": "Brief immersion of vegetables in boiling water, followed by rapid cooling, before freezing.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "The pressure of water inside plant cells that keeps leaves and stems firm; loss of turgor causes wilting.",
+    "term": "Turgor"
+   },
+   {
+    "definition": "A toxic substance produced by some moulds growing on food.",
+    "term": "Mycotoxin"
+   },
+   {
+    "definition": "The highest EU marketing grade for fresh fruit and vegetables, uniform and free from defects.",
+    "term": "Extra class"
+   },
+   {
+    "definition": "A gas given off by ripening fruit such as apples, which speeds the ripening of nearby produce.",
+    "term": "Ethylene"
+   },
+   {
+    "definition": "The transfer of micro-organisms from raw food, surfaces or hands to food that will not be cooked.",
+    "term": "Cross-contamination"
+   },
+   {
+    "definition": "The continued breakdown of stored sugars in harvested produce, which releases water and heat.",
+    "term": "Respiration"
+   },
+   {
+    "definition": "Enzymes, moisture loss and microbial contamination.",
+    "term": "Three causes of spoilage in vegetables"
+   },
+   {
+    "definition": "Minus 18 degrees Celsius or below.",
+    "term": "Storage temperature for frozen fruit and vegetables"
+   },
+   {
+    "definition": "Extra, Class I and Class II.",
+    "term": "Three EU marketing grades for fresh produce"
+   },
+   {
+    "definition": "Vitamin C is lost, and texture and appearance deteriorate.",
+    "term": "Two effects of long storage on fresh vegetables"
+   },
+   {
+    "definition": "It denatures enzymes that would otherwise cause deterioration during freezer storage.",
+    "term": "Why blanching is done before freezing"
+   },
+   {
+    "definition": "Vegetables, because apples release ethylene, which speeds up their ripening.",
+    "term": "Produce that should be kept apart from apples"
+   },
+   {
+    "definition": "It is concentrated in sugar and energy because most of its water has been removed.",
+    "term": "Main nutritional drawback of dried fruit"
+   },
+   {
+    "definition": "Mycotoxins are produced by some moulds, and bruised or damaged produce allows moulds to grow.",
+    "term": "Hazard that causes mould growth on stored vegetables"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Buying fresh, frozen, canned, dried and pre-prepared produce",
+    "points": [
+     "Fresh: choose firm produce with no bruising, cuts or discolouration; in-season produce is usually cheaper and has the best flavour.",
+     "Frozen: picked and frozen soon after harvest, frozen fruit and vegetables retain most of their nutrients, and the product can be cooked from frozen.",
+     "Canned: cooked and sealed in tins or jars; canned fruit is usually packed in syrup or juice, and canned vegetables often contain added salt.",
+     "Dried: most of the water is removed, so dried fruit such as raisins and apricots keeps for long periods but is concentrated in sugar and energy.",
+     "Pre-prepared: washed, peeled, cut or ready-to-cook products such as salad bags and vegetable stir-fry mixes; these are convenient but cost more and have a shorter shelf life than whole produce."
+    ]
+   },
+   {
+    "b": "Fresh fruit and vegetables are graded under EU marketing standards by the condition of the produce.",
+    "h": "Quality and grading",
+    "points": [
+     "Extra class: the best quality, uniform in shape, size and colour, and free from defects.",
+     "Class I: good quality, with minor defects allowed provided they do not affect general appearance, keeping quality or presentation.",
+     "Class II: acceptable quality with more defects allowed, but still fit for consumption.",
+     "Indicators of quality include firmness, colour, freshness, absence of bruising and uniform size.",
+     "The Bord Bia quality mark on Irish produce indicates that it has met quality assurance standards.",
+     "EU food information rules, Regulation (EU) No 1169/2011, require the country of origin to be given for fresh fruit and vegetables."
+    ]
+   },
+   {
+    "h": "Effects of storage and storage guidelines",
+    "points": [
+     "Fresh vegetables should be refrigerated at about 5 degrees Celsius or below and used as soon as possible, because vitamin C declines during storage.",
+     "Salad vegetables keep best in a bag in the refrigerator, which limits moisture loss without trapping condensation.",
+     "Potatoes should be stored in a cool, dark, dry, ventilated place; light makes them turn green and develop bitter, potentially harmful solanine.",
+     "Onions and root vegetables keep best in a cool, dry, ventilated place; damp conditions encourage rot.",
+     "Apples release ethylene, a gas that speeds the ripening of other produce, so they should be stored apart from vegetables.",
+     "Bananas and other tropical fruit are ripened at room temperature and refrigerated only once ripe.",
+     "Frozen fruit and vegetables are stored at minus 18 degrees Celsius or below.",
+     "Canned food is kept in a cool, dry place, and dented, swollen or leaking cans are discarded.",
+     "Fresh produce is stored away from raw meat to prevent cross-contamination."
+    ]
+   },
+   {
+    "h": "Spoilage by enzymes",
+    "points": [
+     "Enzymes remain active after harvesting; they continue the ripening process until the produce becomes over-ripe, soft and eventually decays.",
+     "When cells are cut or bruised, oxidase is released and reacts with oxygen, causing enzymic browning.",
+     "Enzymic browning also destroys some vitamin C and carotene.",
+     "Blanching before freezing denatures the enzymes; unblanched vegetables continue to deteriorate even in a freezer."
+    ]
+   },
+   {
+    "h": "Spoilage by moisture loss",
+    "points": [
+     "Moisture is lost through respiration and evaporation, especially in warm, dry, uncovered storage.",
+     "Loss of water causes cells to lose turgor: leafy vegetables wilt, roots shrivel and skins wrinkle.",
+     "Produce loses mass and becomes limp, with poorer texture and appearance.",
+     "Humid refrigerated storage and suitable packaging slow moisture loss."
+    ]
+   },
+   {
+    "h": "Spoilage by micro-organisms",
+    "points": [
+     "Bacteria, yeasts and moulds come from soil, dirty hands, equipment, pests, damaged produce and cross-contamination.",
+     "Bruises and cuts give micro-organisms access to nutrients and moisture.",
+     "Warmth, time and a suitable pH allow micro-organisms to multiply rapidly.",
+     "Bacteria cause soft, slimy rot and unpleasant odours; moulds form coloured fuzzy growth and some produce harmful mycotoxins.",
+     "Prevention: good hygiene, removing damaged items, separating produce from raw meat, refrigeration and prompt use.",
+     "Food businesses must follow the hygiene rules in Regulation (EC) No 852/2004, given effect in Ireland by the European Communities (Hygiene of Foodstuffs) Regulations 2006.",
+     "The Food Safety Authority of Ireland, established under the Food Safety Authority of Ireland Act 1998, gives food safety guidance on handling and storing produce."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two: vitamin C declines with time in storage; moisture is lost by respiration and evaporation, so vegetables wilt and lose texture; enzymes continue ripening and softening until the produce decays; micro-organisms multiply, especially where produce is damaged or stored warm.",
+    "prompt": "Outline two reasons why fresh vegetables lose quality during storage.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Enzymes: continue ripening after harvest, softening the produce until it decays; oxidase released from cut or bruised cells causes enzymic browning and destroys some vitamin C; prevention is prompt use, refrigeration and blanching before freezing. Moisture loss: respiration and evaporation lower cell turgor, so leafy vegetables wilt, roots shrivel and produce loses mass and texture; prevention is humid refrigerated storage, suitable packaging that does not trap condensation and avoiding warm, dry, uncovered storage. Micro-organisms: bacteria, yeasts and moulds enter from soil, hands, equipment, pests and damaged produce; bruises give access to nutrients and moisture; warmth and time allow rapid growth; bacteria cause soft slimy rot and moulds cause coloured fuzzy growth and mycotoxins; prevention is hygiene, removing damaged items, separating produce from raw meat, refrigeration at about 5 degrees Celsius or below and prompt use.",
+    "prompt": "Describe how enzymes, moisture loss and micro-organisms each reduce the quality of stored fresh vegetables, and explain the storage and handling measures that prevent each cause.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fruit-vegetables-s3": {
+  "keyTerms": [
+   {
+    "definition": "A vitamin, such as vitamin C or a B vitamin, that dissolves in water and is lost into cooking water or drip liquid.",
+    "term": "Water-soluble vitamin"
+   },
+   {
+    "definition": "A vitamin, such as vitamin A, D, E or K, that dissolves in fat and is not lost into cooking water.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "The loss of soluble nutrients and minerals from food into the water used to wash, soak or cook it.",
+    "term": "Leaching"
+   },
+   {
+    "definition": "Brief immersion of vegetables in boiling water followed by rapid cooling, to prepare them for freezing.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "The swelling of starch granules in hot water, which softens the food and makes starch digestible.",
+    "term": "Gelatinisation"
+   },
+   {
+    "definition": "The browning and flavour change that occurs when natural sugars are heated strongly.",
+    "term": "Caramelisation"
+   },
+   {
+    "definition": "The green pigment in vegetables, which changes to an olive-brown colour when overcooked or cooked in acid.",
+    "term": "Chlorophyll"
+   },
+   {
+    "definition": "Cooked until still slightly firm to the bite, which keeps texture and reduces nutrient loss.",
+    "term": "Al dente"
+   },
+   {
+    "definition": "Steaming, microwaving, stir-frying and boiling in the minimum amount of water with a lid.",
+    "term": "Four cooking methods that retain most nutrients"
+   },
+   {
+    "definition": "It destroys vitamin C and softens the texture, although it keeps the vegetables green.",
+    "term": "Why bicarbonate of soda should not be added to vegetable cooking water"
+   },
+   {
+    "definition": "Denatures enzymes, fixes bright colour, and reduces micro-organisms on the surface.",
+    "term": "Three purposes of blanching before freezing"
+   },
+   {
+    "definition": "Heat, oxidation and leaching into cooking water.",
+    "term": "Three causes of vitamin C loss in cooking"
+   },
+   {
+    "definition": "Carotene is fat-soluble and stable to heat, so it is not lost into cooking water.",
+    "term": "Carotene in cooking"
+   },
+   {
+    "definition": "Chlorophyll converts to pheophytin, turning the vegetable olive-brown.",
+    "term": "Colour change of chlorophyll in acid"
+   },
+   {
+    "definition": "Gelatinisation: starch granules swell and absorb water, softening the potato.",
+    "term": "Starch change in potatoes on heating"
+   },
+   {
+    "definition": "They speed up the destruction of vitamin C during cooking.",
+    "term": "Why copper and brass pans are avoided for vegetables"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Effects of preparation on nutrients",
+    "points": [
+     "Vitamin C is water-soluble and is destroyed by oxidation, so cutting exposes more surface to air and causes greater loss.",
+     "Soaking, or leaving prepared vegetables standing in water, lets water-soluble vitamins and minerals leach out.",
+     "Washing before cutting prevents losses of soluble nutrients that would occur if cut pieces were washed.",
+     "Large pieces lose fewer nutrients than small pieces because less surface is exposed to water and air.",
+     "A sharp knife or peeler removes less tissue and causes less cell damage than a blunt tool.",
+     "Peeling thinly, or leaving edible skins on, keeps nutrients that lie just under the skin, such as vitamin C in potatoes.",
+     "Vegetables should be prepared just before cooking to limit the time nutrients are exposed to air and water."
+    ]
+   },
+   {
+    "h": "Effects of cooking on nutrients",
+    "points": [
+     "Vitamin C is destroyed by heat and oxidation, and it is lost into cooking water, especially with prolonged boiling.",
+     "Water-soluble B vitamins, including thiamine, riboflavin and folate, leach into cooking water and are reduced by prolonged heat.",
+     "Carotene is fat-soluble and stable to heat, so it is not lost into cooking water.",
+     "Bicarbonate of soda keeps vegetables green, but it destroys vitamin C and softens texture.",
+     "Copper and brass pans speed up the destruction of vitamin C; stainless steel or enamel pans should be used instead.",
+     "Long cooking gives a poor flavour and nutrient content, while short cooking in minimum water keeps most nutrients."
+    ]
+   },
+   {
+    "h": "Effects of cooking on colour, texture and flavour",
+    "points": [
+     "Green colour comes from chlorophyll, which turns olive-brown when vegetables are overcooked or cooked in an acid medium, forming pheophytin.",
+     "Red cabbage contains anthocyanin pigments that turn blue-green in alkaline conditions and red in acid conditions.",
+     "Carotenoid pigments such as beta-carotene remain stable, so orange and red vegetables keep their colour in cooking.",
+     "Heat softens the cellulose and pectin in cell walls, so overcooked vegetables become mushy.",
+     "Starch in potatoes and pulses gelatinises when heated in water: the granules swell and absorb water, softening the food.",
+     "Volatile flavour compounds escape in steam, so flavour is lost during prolonged boiling.",
+     "Roasting or frying natural sugars in onions and carrots causes caramelisation, which improves flavour.",
+     "Overcooked cabbage and other brassicas release sulphur compounds, which produce a strong, unpleasant odour."
+    ]
+   },
+   {
+    "h": "Cooking methods that retain nutrients",
+    "points": [
+     "Boiling: cook in the minimum amount of boiling water in a saucepan with a tight-fitting lid, for the minimum time.",
+     "Steaming: vegetables cook in steam above boiling water, so fewer nutrients leach away than in boiling water.",
+     "Microwaving: a short cooking time with very little water retains much of the vitamin C.",
+     "Stir-frying: small pieces cooked quickly in a little oil keep their colour, crispness and vitamins; fat-soluble vitamins are absorbed from the oil.",
+     "Frozen vegetables should be cooked from frozen without thawing, to avoid losses in the drip liquid.",
+     "Vegetables should be served immediately and kept slightly crisp, since nutrients continue to be lost during holding.",
+     "Cooking liquid is kept and used in soups, sauces or gravy so that the dissolved nutrients are eaten."
+    ]
+   },
+   {
+    "h": "Blanching",
+    "points": [
+     "Blanching: vegetables are briefly immersed in boiling water and then cooled rapidly in cold water.",
+     "Blanching before freezing denatures enzymes, fixes bright colour and reduces the number of micro-organisms on the surface.",
+     "Blanching causes some loss of water-soluble vitamins, but this is necessary before freezing."
+    ]
+   },
+   {
+    "h": "Preparing and cooking fruit",
+    "points": [
+     "Fruit is often eaten raw to keep its vitamin C; cooked fruit loses more vitamin C than raw fruit.",
+     "Stewed fruit should be cooked in a small amount of water with a lid, for a short time, to limit vitamin C loss and keep its texture.",
+     "Apples and pears keep more fibre and nutrients when the skin is left on or peeled thinly.",
+     "Cut fruit browns through enzymic oxidation; acidic juice such as lemon juice slows browning and helps to keep colour in fruit salads."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two: cutting exposes more surface to air, so vitamin C is oxidised and destroyed; standing in water or soaking lets water-soluble vitamins and minerals leach out; enzymes and browning reactions begin once cells are damaged.",
+    "prompt": "State two reasons why vegetables should be prepared shortly before they are cooked.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Nutritive value: vitamin C is lost through cutting, soaking, heat, oxidation and leaching into cooking water; water-soluble B vitamins and folate leach out and are reduced by prolonged heat. Colour: chlorophyll turns olive-brown with overcooking or in acid, and bicarbonate of soda keeps green colour only by destroying vitamin C. Texture: heat softens cellulose and pectin, so overcooked vegetables become mushy. Flavour: volatile compounds escape in steam and sulphur compounds in brassicas produce strong odours when overcooked. Recommended method: wash before cutting, prepare just before cooking, use large pieces, then steam, microwave or stir-fry, or boil in the minimum water with a tight lid for the minimum time, serve immediately and use any cooking liquid in soups or sauces.",
+    "prompt": "Explain how preparation and cooking affect the nutritive value, colour, texture and flavour of green vegetables, and recommend a method of cooking that keeps most of their nutrients.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-fruit-vegetables-s4": {
+  "keyTerms": [
+   {
+    "definition": "Brief immersion of vegetables in boiling water followed by rapid cooling, used before freezing to denature enzymes.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "Heating sealed food to a temperature that destroys micro-organisms and enzymes, allowing long storage without refrigeration.",
+    "term": "Heat sterilisation"
+   },
+   {
+    "definition": "A solution of salt in water used as a packing liquid for canned vegetables.",
+    "term": "Brine"
+   },
+   {
+    "definition": "The removal of water from food by drying, which prevents the growth of micro-organisms and the action of enzymes.",
+    "term": "Dehydration"
+   },
+   {
+    "definition": "The juice released from frozen food on thawing, which carries away water-soluble vitamins and minerals.",
+    "term": "Drip loss"
+   },
+   {
+    "definition": "A code that identifies an approved food additive in the EU, such as E100 for a colouring or E300 for ascorbic acid.",
+    "term": "E number"
+   },
+   {
+    "definition": "A food that has been partly or fully prepared, so that less time is needed to make it ready to eat.",
+    "term": "Convenience food"
+   },
+   {
+    "definition": "A juice from which most of the water has been removed, which is reconstituted with water before sale.",
+    "term": "Concentrate"
+   },
+   {
+    "definition": "Freezing, canning and drying (dehydration).",
+    "term": "Three commercial processing methods for fruit and vegetables"
+   },
+   {
+    "definition": "Loss of water-soluble vitamins such as vitamin C into the liquid, and a higher sodium content from added salt.",
+    "term": "Two nutritional effects of canning"
+   },
+   {
+    "definition": "Colourings, preservatives and antioxidants.",
+    "term": "Three types of additive used in canned vegetables"
+   },
+   {
+    "definition": "It is often packed in heavy syrup.",
+    "term": "Why canned fruit can be high in sugar"
+   },
+   {
+    "definition": "In the blanching water and in the drip released on thawing.",
+    "term": "Where vitamin C is lost in frozen vegetables"
+   },
+   {
+    "definition": "Large ice crystals damage cell walls, so the vegetables become limp when thawed.",
+    "term": "Effect of slow freezing on texture"
+   },
+   {
+    "definition": "E100 to E180.",
+    "term": "E-number range for colourings"
+   },
+   {
+    "definition": "Ascorbic acid, identified as E300.",
+    "term": "Antioxidant that prevents browning in cut or frozen fruit"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Commercial processing of fruit and vegetables",
+    "points": [
+     "Processing changes fresh produce into products with a longer shelf life, greater convenience, or both.",
+     "The main commercial methods for fruit and vegetables are freezing, canning and drying (dehydration).",
+     "Processing may involve washing, peeling, cutting, blanching or cooking, sealing, and adding brine, syrup, juice or additives.",
+     "Processed products must carry the ingredients list, net quantity, date and storage instructions required under Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+    ]
+   },
+   {
+    "h": "Freezing",
+    "points": [
+     "Vegetables are blanched before freezing to denature enzymes that would otherwise cause deterioration.",
+     "Quick freezing at about minus 25 degrees Celsius or lower forms small ice crystals, which damage cell walls less.",
+     "Slow freezing forms large ice crystals that rupture cell walls, so the food becomes limp and loses juice as drip on thawing.",
+     "Vitamin C and B vitamins are lost into the blanching water and into the drip on thawing.",
+     "Colour, flavour and most nutrients are well retained in frozen vegetables when freezing is carried out properly.",
+     "Melons, pears and bananas do not freeze well, because their texture becomes soft and mushy on thawing."
+    ]
+   },
+   {
+    "h": "Canning",
+    "points": [
+     "Produce is washed, prepared, blanched or cooked, packed into cans or jars with brine, syrup or juice, sealed, and heat-sterilised.",
+     "Heat sterilisation destroys micro-organisms and enzymes, giving a long shelf life without refrigeration.",
+     "Canning causes loss of water-soluble vitamins, including vitamin C, into the liquid and through heat.",
+     "Canning can change the colour, texture and flavour of fruit and vegetables.",
+     "Canned vegetables contain added salt in the brine, which raises their sodium content.",
+     "Canned fruit packed in heavy syrup has a high sugar content, making it unsuitable for a diabetic diet; fruit packed in natural juice has less added sugar."
+    ]
+   },
+   {
+    "h": "Drying (dehydration)",
+    "points": [
+     "Water is removed from produce by controlled warm air, and the dried product is sealed in moisture-proof packaging.",
+     "Dried fruit such as raisins, apricots and prunes is concentrated in sugar, energy and fibre because most of the water has been removed.",
+     "Dried peas, beans and lentils are pulses that keep for long periods and are rehydrated before cooking.",
+     "Dehydration may reduce B vitamins, vitamin A and vitamin E, and it alters colour, texture and flavour.",
+     "Removing water lowers the water available to micro-organisms and enzymes, which prevents their activity."
+    ]
+   },
+   {
+    "h": "Additives in processed fruit and vegetables",
+    "points": [
+     "Colourings, in the E100 to E180 range, restore or enhance colour lost during processing, for example in canned vegetables.",
+     "Preservatives prevent micro-organisms from growing; sulphur dioxide (E220) is used as a preservative in some dried fruit.",
+     "Antioxidants prevent browning; ascorbic acid (E300) is used to stop cut or frozen fruit darkening.",
+     "Flavourings and sweeteners are added to some canned and processed fruit and vegetables and must be declared on the label.",
+     "Additives are used to enhance colour, flavour, texture and keeping quality, and to improve nutritive value where nutrients are lost in processing.",
+     "Food additives are approved under Regulation (EC) No 1333/2008 on food additives and are identified by E numbers."
+    ]
+   },
+   {
+    "h": "Processed and convenience products",
+    "points": [
+     "Convenience vegetables include pre-washed salads, ready-to-cook vegetable mixes, and vegetable crisps and wedges.",
+     "Fruit products include fruit juices, smoothies, fruit salads in juice, fruit yoghurts and dried fruit snacks.",
+     "Fruit juice may be fresh natural juice or made from concentrate; concentrated juice can have a high sugar content.",
+     "Juice and smoothies contain concentrated sugars and lack the fibre of whole fruit.",
+     "Vegetables in soups, sauces and ready meals often contain added salt, fat and sugar, which lowers their nutritional value compared with fresh vegetables."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two: water-soluble vitamins such as vitamin C are lost into the liquid and through heat; the brine adds salt, so the sodium content rises; some fibre and minerals are lost into the packing liquid.",
+    "prompt": "Outline two ways in which canning changes the nutritional value of vegetables.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Freezing: blanching denatures enzymes; slow freezing forms large ice crystals that damage cell walls and cause drip loss; some vitamin C and B vitamins are lost in blanching water and drip; colour and flavour are well retained; long shelf life in a freezer. Canning: heat sterilisation destroys micro-organisms and enzymes, giving a long shelf life without refrigeration; water-soluble vitamins are lost, colour, texture and flavour change, and sodium rises from brine. Drying: removing water prevents micro-organisms and enzyme activity; dried fruit is concentrated in sugar and energy and fibre; B vitamins, vitamin A and vitamin E may be reduced; texture and flavour change. Additives: colourings in the E100 to E180 range restore colour, preservatives such as sulphur dioxide (E220) prevent spoilage, antioxidants such as ascorbic acid (E300) prevent browning, and flavourings and sweeteners are added and declared on the label; additives are approved under Regulation (EC) No 1333/2008.",
+    "prompt": "Compare freezing, canning and drying as methods of processing vegetables, referring to nutritive value, texture, flavour and shelf life, and describe how additives are used in processed fruit and vegetables.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s1": {
+  "keyTerms": [
+   {
+    "definition": "A small organic molecule with an amino group and a carboxyl group, which are the building blocks of protein.",
+    "term": "Amino acid"
+   },
+   {
+    "definition": "The -NH2 group of an amino acid, which carries the nitrogen in protein.",
+    "term": "Amino group"
+   },
+   {
+    "definition": "The -COOH group of an amino acid, which gives it its acidic part.",
+    "term": "Carboxyl group"
+   },
+   {
+    "definition": "The variable part of an amino acid that distinguishes one amino acid from another.",
+    "term": "Side group (R group)"
+   },
+   {
+    "definition": "An amino acid the body cannot make in sufficient amounts, so it must be supplied by the diet.",
+    "term": "Essential amino acid"
+   },
+   {
+    "definition": "An amino acid the body can make from other amino acids and nitrogen-containing compounds.",
+    "term": "Non-essential amino acid"
+   },
+   {
+    "definition": "The -CO-NH- link formed between the carboxyl group of one amino acid and the amino group of another, with water released.",
+    "term": "Peptide bond"
+   },
+   {
+    "definition": "The breaking of a chemical bond by adding water, as when peptide bonds are split during digestion.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "A long chain of amino acids joined by peptide bonds.",
+    "term": "Polypeptide"
+   },
+   {
+    "definition": "Carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins.",
+    "term": "Elements found in protein"
+   },
+   {
+    "definition": "An amino group, a carboxyl group, a hydrogen atom and a variable side group (R).",
+    "term": "Four parts of an amino acid"
+   },
+   {
+    "definition": "Lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan.",
+    "term": "Eight essential amino acids for adults"
+   },
+   {
+    "definition": "Histidine and arginine.",
+    "term": "Extra essential amino acids for children"
+   },
+   {
+    "definition": "Alanine, glycine, serine, aspartic acid, glutamic acid and proline.",
+    "term": "Examples of non-essential amino acids"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Elements in protein",
+    "points": [
+     "Protein contains carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins.",
+     "Protein is the only nutrient that contains nitrogen; carbohydrate and fat contain none.",
+     "Nitrogen is present in the amino group of every amino acid, so the nitrogen in a food comes from its protein."
+    ]
+   },
+   {
+    "b": "Every amino acid has the same central carbon atom bonded to four groups. Only the side group differs between amino acids.",
+    "h": "Basic structure of an amino acid",
+    "points": [
+     "An amino group, -NH2, which carries the nitrogen.",
+     "A carboxyl group, -COOH, which gives the amino acid its acidic part.",
+     "A hydrogen atom.",
+     "A variable side group, labelled R, which gives each amino acid its identity.",
+     "The body builds its proteins from 20 different amino acids.",
+     "Diagram: a central carbon bonded to H, R, -COOH and -NH2, with R labelled as the side group that varies."
+    ]
+   },
+   {
+    "h": "Essential amino acids (Higher Level only)",
+    "points": [
+     "Essential amino acids cannot be made by the body in sufficient amounts, so they must be supplied by the diet.",
+     "Eight amino acids are essential for adults: lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan.",
+     "Children also need histidine and arginine, which makes ten essential amino acids for children.",
+     "Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds, so food does not need to supply them.",
+     "Examples of non-essential amino acids: alanine, glycine, serine, aspartic acid, glutamic acid and proline."
+    ]
+   },
+   {
+    "h": "Peptides and the peptide bond (Higher Level only)",
+    "points": [
+     "A peptide bond forms when the carboxyl group of one amino acid reacts with the amino group of another.",
+     "Water is released in this reaction, so peptide bond formation is a condensation reaction.",
+     "Two amino acids joined by one peptide bond form a dipeptide.",
+     "A peptide is a short chain of amino acids; a long chain is called a polypeptide, and a protein is made of one or more polypeptide chains.",
+     "Diagram: two amino acids joined by a peptide bond, with the -CO-NH- link and the water molecule released labelled."
+    ]
+   },
+   {
+    "h": "Hydrolysis (Higher Level only)",
+    "points": [
+     "Hydrolysis breaks a peptide bond by adding a molecule of water, which reverses the condensation reaction.",
+     "Repeated hydrolysis splits a polypeptide into smaller peptides and finally into free amino acids.",
+     "Enzymes such as pepsin and trypsin catalyse this hydrolysis in digestion, as covered in Digestion and Metabolism."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Elements: carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins. Protein is the only nutrient containing nitrogen. Amino acid parts: an amino group (-NH2), a carboxyl group (-COOH), a hydrogen atom and a variable side group (R).",
+    "prompt": "Name the elements found in protein and identify the four parts of the basic structure of an amino acid.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Peptide bond: the carboxyl group of one amino acid reacts with the amino group of another, releasing water (condensation); the bond is the -CO-NH- link; two amino acids joined form a dipeptide. Hydrolysis: a molecule of water is added to break the peptide bond, releasing the amino acids; enzymes such as pepsin and trypsin catalyse this in digestion. Essential amino acids cannot be made by the body in sufficient amounts and must be supplied by food; example lysine (eight essential for adults, ten for children). Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds; example alanine. Non-essential does not mean unimportant.",
+    "prompt": "Describe how two amino acids join to form a peptide bond, and explain how hydrolysis reverses this. Distinguish between essential and non-essential amino acids, giving one example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s2": {
+  "keyTerms": [
+   {
+    "definition": "The number and sequence of amino acids in a polypeptide chain.",
+    "term": "Primary structure"
+   },
+   {
+    "definition": "The coiling or folding of a polypeptide chain into a spiral or pleated sheet, held in place by hydrogen bonds.",
+    "term": "Secondary structure"
+   },
+   {
+    "definition": "The overall three-dimensional folding of a polypeptide chain, held by disulphide, hydrogen and salt bonds.",
+    "term": "Tertiary structure"
+   },
+   {
+    "definition": "A bond between the sulphur atoms of two cysteine amino acids, joining two parts of a chain or two chains.",
+    "term": "Disulphide link"
+   },
+   {
+    "definition": "A weak attraction between a hydrogen atom in one part of a chain and an oxygen atom in another part.",
+    "term": "Hydrogen bond"
+   },
+   {
+    "definition": "An attraction between oppositely charged side groups on the amino acids of a protein chain.",
+    "term": "Salt bond"
+   },
+   {
+    "definition": "A protein whose chains are long and straight, coiled or zig-zag, giving a tough structure.",
+    "term": "Fibrous protein"
+   },
+   {
+    "definition": "A protein whose chain is folded into a compact, roughly spherical shape.",
+    "term": "Globular protein"
+   },
+   {
+    "definition": "Disulphide links, hydrogen bonds and salt bonds.",
+    "term": "Three bonds that hold tertiary structure"
+   },
+   {
+    "definition": "Collagen and myosin.",
+    "term": "Two examples of fibrous proteins"
+   },
+   {
+    "definition": "Albumin (egg white), myoglobin (meat) and lactalbumin (milk).",
+    "term": "Three globular protein examples"
+   },
+   {
+    "definition": "Peptide bonds, formed by condensation between amino acids, which link them into a chain.",
+    "term": "Bonds forming the backbone of a polypeptide chain"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The primary structure is the basic order of amino acids in a protein molecule.",
+    "h": "Primary structure",
+    "points": [
+     "Primary structure is the number and sequence of amino acids in a polypeptide chain.",
+     "The amino acids are linked by peptide bonds, which form the backbone of the chain.",
+     "Primary structure determines the shape the chain can later take, so changing one amino acid in the sequence can change how the protein folds and behaves.",
+     "Settings: models made from differently coloured blocks or shapes, one colour per amino acid, joined in sequence to represent a polypeptide.",
+     "Diagram: a row of labelled amino acid blocks linked by peptide bonds to show primary structure."
+    ]
+   },
+   {
+    "b": "Secondary structure is the local coiling or folding of the polypeptide chain.",
+    "h": "Secondary structure (Higher Level only)",
+    "points": [
+     "Hydrogen bonds form between a hydrogen atom in one part of the chain and an oxygen atom in another part, in the same chain or a neighbouring chain.",
+     "Each hydrogen bond is weak, but many together hold the coil in shape.",
+     "The chain is often arranged as a spiral, which gives the protein a definite shape.",
+     "Collagen is an example in which polypeptide chains are linked by hydrogen bonds."
+    ]
+   },
+   {
+    "b": "Tertiary structure is the overall three-dimensional folding of the whole polypeptide chain.",
+    "h": "Tertiary structure (Higher Level only)",
+    "points": [
+     "Disulphide links form between the sulphur atoms of two cysteine amino acids, each containing an SH group, and can join two parts of one chain or two chains.",
+     "Salt bonds form between oppositely charged side groups on amino acids.",
+     "Hydrogen bonds add further links between sections of the folded chain.",
+     "Fibrous tertiary structure: long, straight, coiled or zig-zag chains, as in collagen.",
+     "Globular tertiary structure: the chain is folded into a compact, roughly spherical shape, as in albumin.",
+     "Breaking these bonds unfolds the tertiary structure, which is the first step in denaturation.",
+     "Diagram: a folded polypeptide showing disulphide, hydrogen and salt bonds between sections of the chain."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Primary structure is the number and sequence of amino acids in the polypeptide chain. The amino acids are joined by peptide bonds, formed when water is released between the carboxyl group of one amino acid and the amino group of the next. The primary structure determines the shape the chain can later take.",
+    "prompt": "Outline the primary structure of a protein and name the bond that joins its amino acids.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Secondary structure: coiling or folding of the polypeptide chain into a spiral or sheet; held by hydrogen bonds between a hydrogen atom in one part of the chain and an oxygen atom in another; many weak hydrogen bonds together hold the shape; collagen, where chains are linked by hydrogen bonds. Tertiary structure: the overall three-dimensional folding of the whole chain; held by disulphide links between two cysteine amino acids (SH groups, within one chain or between chains), salt bonds between oppositely charged side groups, and hydrogen bonds; fibrous form, long straight, coiled or zig-zag chains, e.g. collagen; globular form, a compact spherical shape, e.g. albumin. Breaking these bonds unfolds the structure, which is how denaturation begins.",
+    "prompt": "Describe the secondary and tertiary structures of protein. In your answer, name the bonds that hold each structure together and give one example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s3": {
+  "keyTerms": [
+   {
+    "definition": "A protein that yields only amino acids on hydrolysis.",
+    "term": "Simple protein"
+   },
+   {
+    "definition": "A protein formed by a protein part combined with a non-protein part.",
+    "term": "Conjugated protein"
+   },
+   {
+    "definition": "The non-protein part of a conjugated protein.",
+    "term": "Prosthetic group"
+   },
+   {
+    "definition": "A conjugated protein in which a protein is combined with a lipid.",
+    "term": "Lipoprotein"
+   },
+   {
+    "definition": "A conjugated protein in which a protein is combined with a phosphate group.",
+    "term": "Phosphoprotein"
+   },
+   {
+    "definition": "A conjugated protein in which a protein is combined with a nucleic acid.",
+    "term": "Nucleoprotein"
+   },
+   {
+    "definition": "A conjugated protein in which a protein is combined with a coloured non-protein part.",
+    "term": "Chromoprotein"
+   },
+   {
+    "definition": "A plant simple protein that dissolves in dilute acid or alkali but not in water or alcohol.",
+    "term": "Glutelin"
+   },
+   {
+    "definition": "A plant simple protein that dissolves in 70 to 80 per cent alcohol but not in water.",
+    "term": "Prolamine"
+   },
+   {
+    "definition": "Lipoproteins, phosphoproteins, nucleoproteins and chromoproteins.",
+    "term": "Four classes of conjugated protein"
+   },
+   {
+    "definition": "Collagen, elastin and myosin.",
+    "term": "Three fibrous animal proteins"
+   },
+   {
+    "definition": "70 to 80 per cent alcohol; prolamines do not dissolve in water.",
+    "term": "Solvent that dissolves prolamines"
+   },
+   {
+    "definition": "Casein.",
+    "term": "Milk protein classed as a phosphoprotein"
+   },
+   {
+    "definition": "Glutenin (glutelin) and gliadin (prolamine).",
+    "term": "Wheat proteins classed as glutelin and prolamine"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Simple proteins yield only amino acids when they are hydrolysed. They are classed by source as animal or plant proteins.",
+    "h": "Simple proteins",
+    "points": [
+     "Animal simple proteins are found in meat, fish, eggs, milk, cheese and yoghurt.",
+     "Plant simple proteins are found in cereals, pulses, soya beans, nuts and seeds.",
+     "Settings: a poster with one named food example for each class of protein."
+    ]
+   },
+   {
+    "b": "A conjugated protein is a protein part combined with a non-protein part, called the prosthetic group.",
+    "h": "Conjugated proteins",
+    "points": [
+     "Lipoproteins: protein combined with a lipid, found in cell membranes and egg yolk.",
+     "Phosphoproteins: protein combined with a phosphate group, such as casein in milk.",
+     "Nucleoproteins: protein combined with a nucleic acid, found in chromosomes and cell nuclei.",
+     "Chromoproteins: protein combined with a coloured non-protein part, such as haemoglobin in blood, whose prosthetic group is haem.",
+     "On hydrolysis a conjugated protein yields amino acids together with its non-protein part, unlike a simple protein."
+    ]
+   },
+   {
+    "h": "Fibrous and globular animal proteins (Higher Level only)",
+    "points": [
+     "Fibrous animal proteins have long chains arranged in strands, which gives tough structural tissue.",
+     "Examples of fibrous proteins: collagen in connective tissue, elastin in elastic ligaments and myosin in muscle.",
+     "Globular animal proteins have compact, roughly spherical chains, and most of them dissolve in water.",
+     "Examples of globular proteins: albumin in egg white, lactalbumin in milk and myoglobin in meat."
+    ]
+   },
+   {
+    "h": "Glutelins and prolamines (Higher Level only)",
+    "points": [
+     "Glutelins and prolamines are the main protein types of cereal grains, and they are classed as plant simple proteins.",
+     "Glutelins dissolve in dilute acid or alkali but not in water or alcohol; they occur in wheat as glutenin and in rice as oryzenin.",
+     "Prolamines dissolve in 70 to 80 per cent alcohol but not in water; they occur in wheat as gliadin and in maize as zein."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Simple proteins are classed as animal (e.g. meat, fish, eggs, milk) and plant (e.g. cereals, pulses, soya beans, nuts). A named conjugated protein, such as casein (a phosphoprotein, with a phosphate group as the non-protein part) or haemoglobin (a chromoprotein, with haem, a coloured iron-containing group, as the non-protein part).",
+    "prompt": "Classify simple proteins by source and give one food example of each class. Name one conjugated protein and state its non-protein part.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Simple proteins yield only amino acids on hydrolysis and are classed by source as animal or plant proteins. Conjugated proteins are a protein part combined with a non-protein part. Lipoproteins: protein with a lipid, e.g. in cell membranes or egg yolk. Phosphoproteins: protein with a phosphate group, e.g. casein in milk. Nucleoproteins: protein with a nucleic acid, e.g. chromosomes in cell nuclei. Chromoproteins: protein with a coloured non-protein part, e.g. haemoglobin in blood.",
+    "prompt": "Distinguish between simple and conjugated proteins. Name the four types of conjugated protein and give one example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s4": {
+  "keyTerms": [
+   {
+    "definition": "A soluble globular protein found in egg white, meat and milk whey.",
+    "term": "Albumin"
+   },
+   {
+    "definition": "The main protein of milk, which coagulates when rennin acts on it in cheese-making.",
+    "term": "Casein"
+   },
+   {
+    "definition": "A derived protein that forms when collagen is heated in moisture and sets to a gel on cooling.",
+    "term": "Gelatine"
+   },
+   {
+    "definition": "A protein formed by chemical or enzymatic action on another protein, such as gelatine from collagen.",
+    "term": "Derived protein"
+   },
+   {
+    "definition": "The elastic protein network formed when the wheat proteins gliadin and glutenin are mixed with water.",
+    "term": "Gluten"
+   },
+   {
+    "definition": "The fibrous protein of connective tissue, which converts to gelatine when heated in moisture.",
+    "term": "Collagen"
+   },
+   {
+    "definition": "A fibrous muscle protein that, with actin, forms the contractile filaments of meat and fish.",
+    "term": "Myosin"
+   },
+   {
+    "definition": "A muscle protein that, with myosin, forms the contractile filaments of meat and fish.",
+    "term": "Actin"
+   },
+   {
+    "definition": "Soya beans, pulses, cereals, nuts and seeds.",
+    "term": "Five plant protein sources"
+   },
+   {
+    "definition": "Egg white.",
+    "term": "Main food source of albumin"
+   },
+   {
+    "definition": "Gluten, from the gliadin and glutenin of wheat.",
+    "term": "Protein formed when wheat flour is mixed with water"
+   },
+   {
+    "definition": "Collagen in animal bones, skin and connective tissue.",
+    "term": "Animal tissue that gelatine is made from"
+   },
+   {
+    "definition": "Collagen, myosin and actin.",
+    "term": "Three named proteins of meat and fish"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Animal and plant protein sources",
+    "points": [
+     "Animal protein sources: meat, fish, poultry, milk, cheese, yoghurt and eggs.",
+     "Plant protein sources: soya beans, pulses (lentils, peas and beans), cereals, nuts and seeds.",
+     "Cereals such as wheat, rice and maize supply protein as well as carbohydrate; potatoes contain only small amounts of protein."
+    ]
+   },
+   {
+    "h": "Albumin",
+    "points": [
+     "Albumin is the main protein of egg white, and it is also found in lean meat.",
+     "Lactalbumin, a related albumin, is found in the whey of milk.",
+     "Albumin is a soluble globular protein."
+    ]
+   },
+   {
+    "h": "Casein",
+    "points": [
+     "Casein is the main protein of milk.",
+     "Casein is present in cheese and yoghurt, the products made from milk.",
+     "Rennin coagulates casein, which is the first step in making cheese."
+    ]
+   },
+   {
+    "h": "Gelatine and gluten",
+    "points": [
+     "Gelatine is not present in raw meat; it forms when collagen from animal bones, skin and connective tissue is heated in moisture.",
+     "Gelatine is used in jelly, aspic and gelatine-set mousses and desserts.",
+     "Gluten is the protein of wheat and wheat flour.",
+     "Gluten forms when the proteins gliadin and glutenin are mixed with water.",
+     "Gluten gives bread dough its elastic, stretchy texture, which traps the carbon dioxide made by yeast."
+    ]
+   },
+   {
+    "h": "Myosin, actin and collagen (Higher Level only)",
+    "points": [
+     "Myosin and actin are the contractile proteins of muscle, and they are found in the flesh of meat and fish.",
+     "Collagen is the main protein of connective tissue and is found in meat, fish and bones.",
+     "Collagen in meat and fish is the source of gelatine when it is heated in moisture."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Albumin: egg white (also meat). Casein: milk, cheese or yoghurt. Gluten: wheat or wheat flour. Animal protein source: for example meat, fish, eggs or milk. Plant protein source: for example soya beans, pulses, cereals, nuts or seeds.",
+    "prompt": "Identify a food that supplies each of these proteins: albumin, casein and gluten. Name one animal and one plant protein source in the diet.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Gelatine: a derived protein formed when collagen from animal bones, skin and connective tissue is heated in moisture; it is not present in raw meat; it is used in jelly, aspic and gelatine-set mousses and desserts. Gluten: formed when the wheat proteins gliadin and glutenin are mixed with water; kneading develops an elastic network; the network traps the carbon dioxide made by yeast, so the bread rises and has an open, elastic texture.",
+    "prompt": "Explain how gelatine is formed from collagen and describe the foods that contain it. Outline how gluten is formed in bread dough and state why it matters to the texture of bread.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s5": {
+  "keyTerms": [
+   {
+    "definition": "The irreversible unfolding of a protein's secondary and tertiary structure, without breaking its peptide bonds.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "The setting of denatured protein chains, which link together to form a solid or semi-solid mass.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "The trapping of air bubbles in a protein film when egg white is whisked, with gentle heat fixing the foam.",
+    "term": "Foam formation"
+   },
+   {
+    "definition": "The formation of a network of protein chains that traps water when a hot protein solution cools.",
+    "term": "Gel formation"
+   },
+   {
+    "definition": "Non-enzymic browning of protein and reducing sugar on heating, giving brown colour and roasted flavour.",
+    "term": "Maillard reaction"
+   },
+   {
+    "definition": "Softening meat by breaking down its muscle fibres or connective tissue, using mechanical action, moist heat, acid or enzymes.",
+    "term": "Tenderising"
+   },
+   {
+    "definition": "An enzyme from the stomach of young calves that coagulates casein in milk.",
+    "term": "Rennin"
+   },
+   {
+    "definition": "An enzyme that hydrolyses the peptide bonds of protein, such as papain.",
+    "term": "Proteolytic enzyme"
+   },
+   {
+    "definition": "A derived protein formed when collagen is heated in moisture; it sets to a gel on cooling.",
+    "term": "Gelatine"
+   },
+   {
+    "definition": "Heat, mechanical action, chemicals (acids, alkalis and salt) and enzymes.",
+    "term": "Four causes of denaturation"
+   },
+   {
+    "definition": "Milk curdled by lemon juice, and meat tenderised by a vinegar marinade.",
+    "term": "Two examples of acid denaturing protein"
+   },
+   {
+    "definition": "Slow moist cooking to convert collagen, marinating in acid, and enzymes such as papain.",
+    "term": "Three ways to tenderise meat"
+   },
+   {
+    "definition": "About 60 degrees C.",
+    "term": "Temperature at which egg white starts to coagulate"
+   },
+   {
+    "definition": "A toasted bread crust and roast meat.",
+    "term": "Two foods that show the Maillard reaction"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Denaturation is the irreversible unfolding of the secondary and tertiary structure of a protein, without breaking its peptide bonds.",
+    "h": "Denaturation and coagulation",
+    "points": [
+     "Denatured chains lose the original shape and functional properties of the protein.",
+     "Denatured chains can then link to one another, and this linking is coagulation.",
+     "Coagulation is the setting of denatured protein into a solid or semi-solid mass.",
+     "Denaturation changes texture, appearance and digestibility; denatured protein is more digestible.",
+     "Denaturation can be caused by heat, mechanical action, chemicals and enzymes.",
+     "Egg white coagulates from about 60 degrees C, turning from transparent to opaque and firm.",
+     "Fish flesh changes from translucent to opaque as its protein coagulates during cooking.",
+     "Examples of coagulation in cookery: omelette, quiche, meringue, soufflé and lemon meringue pie."
+    ]
+   },
+   {
+    "h": "Foam formation (Higher Level only)",
+    "points": [
+     "Whisking or beating stretches and unfolds the albumen chains, which arrange themselves around the air bubbles.",
+     "The protein film around each bubble holds the trapped air, forming a foam.",
+     "Gentle heat then coagulates the albumen around the bubbles, fixing the foam.",
+     "Over-whisking denatures the protein too far, so the foam becomes grainy and collapses.",
+     "Examples: meringue, pavlova, soufflé and whisked sponge cake."
+    ]
+   },
+   {
+    "h": "Gel formation (Higher Level only)",
+    "points": [
+     "A gel forms when protein chains dissolved in a hot liquid cool and link into a network that traps water.",
+     "Gelatine is the main protein used to make gels in cookery.",
+     "A firmer gel results from a higher concentration of gelatine.",
+     "Examples: jelly, aspic and mousses."
+    ]
+   },
+   {
+    "h": "Effect of dry heat",
+    "points": [
+     "Dry heat (roasting, baking, grilling and frying) denatures the surface protein, causing shrinkage and firmness.",
+     "Prolonged dry heat dries the muscle protein and makes meat tough.",
+     "Dry heat at high temperatures produces the Maillard reaction, which browns the surface of meat, bread and biscuits."
+    ]
+   },
+   {
+    "h": "Maillard reaction",
+    "points": [
+     "The Maillard reaction is non-enzymic browning, which happens when protein and a reducing sugar react on heating.",
+     "It needs high heat and a dry surface with little moisture; it does not need enzymes.",
+     "It produces brown colour and roasted flavour, as in a toasted bread crust, roast meat and toasted cheese."
+    ]
+   },
+   {
+    "h": "Effect of moist heat",
+    "points": [
+     "Moist heat (boiling, stewing and poaching) converts the collagen in connective tissue to gelatine, which tenderises meat.",
+     "Collagen conversion needs long, slow cooking in moisture, so cheaper cuts of meat become tender.",
+     "Prolonged high heat toughens muscle protein, so gentle moist heat is used for tender results.",
+     "Heat breaks the weak bonds that hold the folded structure, which is why heat denatures protein."
+    ]
+   },
+   {
+    "h": "Effect of mechanical action",
+    "points": [
+     "Whisking, beating, kneading and mincing unfold protein chains.",
+     "Kneading bread dough stretches gluten chains into an elastic network that traps the carbon dioxide from yeast.",
+     "Beating meat with a mallet breaks up the muscle fibres and tenderises it.",
+     "Excessive agitation denatures protein so far that it becomes tough or curdled."
+    ]
+   },
+   {
+    "h": "Effect of pH and salt",
+    "points": [
+     "Acids such as lemon juice and vinegar denature protein; lemon juice added to milk curdles it.",
+     "A marinade of acid, such as vinegar or wine, tenderises meat by denaturing its surface protein.",
+     "Alkalis also denature protein and change its texture.",
+     "Cheese-making uses acid and salt to control coagulation and the texture of the curd.",
+     "The acid in the stomach denatures food protein before enzymes hydrolyse it."
+    ]
+   },
+   {
+    "h": "Effect of enzymes",
+    "points": [
+     "Rennin, from the stomach of young calves, coagulates casein in milk for cheese-making.",
+     "Papain, from papaya, is a proteolytic enzyme that breaks down meat protein and tenderises tough meat.",
+     "Proteolytic enzymes hydrolyse peptide bonds, so too much enzyme action makes protein soft and mushy.",
+     "Enzymes in the digestive tract hydrolyse protein to amino acids, as covered in Digestion and Metabolism.",
+     "Heat inactivates enzymes, which is why cooking stops enzymic tenderising."
+    ]
+   },
+   {
+    "h": "Investigation: heat and whisking on egg white",
+    "points": [
+     "Aim: to show how heat and mechanical action denature egg white protein.",
+     "Independent variable: the treatment (heating in a water bath, or whisking); dependent variable: the change in appearance and texture of the white.",
+     "Controlled variables: the same volume of egg white, the same starting temperature and the same type of dish.",
+     "Method: place an untreated sample of egg white in a labelled dish for comparison; heat a second sample gently in a water bath until it sets; whisk a third sample until stiff.",
+     "Safety: use fresh eggs, wash hands after handling raw egg, and do not taste raw egg white.",
+     "Expected result: the heated white turns opaque and firm, and the whisked white forms a stable foam; the untreated white stays clear and runny."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Mechanical action: whisking or beating unfolds the protein chains, which arrange around air bubbles to form a foam; example: whisked egg white for a meringue. Acid: denatures the protein and can cause coagulation; example: lemon juice curdles milk, or vinegar in a marinade tenderises meat.",
+    "prompt": "Outline how mechanical action and acid each cause protein to change during food preparation, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Dry heat: denatures surface protein, causing shrinkage and firmness; prolonged dry heat makes meat tough; high temperatures produce the Maillard reaction. Maillard reaction: non-enzymic browning of protein and reducing sugar on heating, giving brown colour and roasted flavour; it needs high heat and a dry surface. Moist heat: converts collagen to gelatine, tenderising meat when cooked slowly; prolonged high heat toughens muscle protein. Mechanical action: whisking forms a foam; kneading develops an elastic gluten network; beating tenderises meat. Enzymes: rennin coagulates casein in cheese-making; papain tenderises meat; proteolytic enzymes hydrolyse protein, making it soft if overused; heat inactivates enzymes.",
+    "prompt": "Explain the effect of dry heat, moist heat, mechanical action and enzymes on protein during the preparation and cooking of food. Describe the Maillard reaction in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s6": {
+  "keyTerms": [
+   {
+    "definition": "A protein that builds and maintains body tissues, such as collagen in connective tissue or myosin in muscle.",
+    "term": "Structural protein"
+   },
+   {
+    "definition": "A protein that regulates body processes, such as a hormone, enzyme, antibody or blood plasma protein.",
+    "term": "Physiologically active protein"
+   },
+   {
+    "definition": "A protein in food that supplies amino acids, including the essential amino acids the body cannot make.",
+    "term": "Nutrient protein"
+   },
+   {
+    "definition": "A protein that acts as a biological catalyst, speeding up a specific chemical reaction in the body.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "A chemical messenger made by a gland and carried in the blood to control a process in another part of the body.",
+    "term": "Hormone"
+   },
+   {
+    "definition": "A protein made by white blood cells that binds to a specific invading micro-organism or toxin to help destroy it.",
+    "term": "Antibody"
+   },
+   {
+    "definition": "A fibrous structural protein that forms connective tissue, tendons, ligaments and skin, giving them strength.",
+    "term": "Collagen"
+   },
+   {
+    "definition": "A protein in red blood cells that carries oxygen from the lungs to the body's tissues.",
+    "term": "Haemoglobin"
+   },
+   {
+    "definition": "A protein dissolved in the liquid part of the blood, such as albumin or fibrinogen, that has a role in blood volume or clotting.",
+    "term": "Plasma protein"
+   },
+   {
+    "definition": "Structural proteins, physiologically active proteins and nutrient proteins.",
+    "term": "Three biological functions of protein"
+   },
+   {
+    "definition": "Hormones, enzymes, antibodies and blood plasma proteins.",
+    "term": "Four types of physiologically active protein"
+   },
+   {
+    "definition": "Collagen in connective tissue, keratin in hair and nails, and myosin and actin in muscle.",
+    "term": "Named structural proteins and the tissues they build"
+   },
+   {
+    "definition": "Albumin helps keep water within the blood vessels; fibrinogen is converted to fibrin, which forms clots.",
+    "term": "Two jobs of albumin and fibrinogen in the blood"
+   },
+   {
+    "definition": "Supplying essential amino acids for making body proteins, and supplying energy when amino acids are in surplus.",
+    "term": "Two roles of nutrient proteins in the body"
+   },
+   {
+    "definition": "Oxygen, from the lungs to the body's tissues, in red blood cells.",
+    "term": "What haemoglobin carries"
+   },
+   {
+    "definition": "Antibodies, made by white blood cells, bind to invading micro-organisms and toxins.",
+    "term": "Protein role in the immune response"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Protein has three broad roles in the body: building structures, regulating processes and supplying amino acids.",
+    "h": "Three biological functions of protein",
+    "points": [
+     "Structural proteins build and maintain body tissues such as cells, muscle, skin and connective tissue.",
+     "Physiologically active proteins regulate body processes, acting as hormones, enzymes, antibodies and blood proteins.",
+     "Nutrient proteins are the proteins of food that supply amino acids, including the essential amino acids the body cannot make."
+    ]
+   },
+   {
+    "h": "Structural proteins",
+    "points": [
+     "Growth and repair: amino acids from protein are used to make new body cells and to repair damaged tissue.",
+     "Muscle: myosin and actin filaments make up muscle fibres and contract to produce movement.",
+     "Connective tissue: collagen forms the fibres of tendons, ligaments and skin, giving them strength.",
+     "Hair and nails: keratin, a structural protein, forms hair and nails.",
+     "Cell membranes: proteins are built into the membranes around cells, helping to control what passes in and out."
+    ]
+   },
+   {
+    "h": "Physiologically active proteins",
+    "points": [
+     "Hormones: protein hormones such as insulin, made in the pancreas, control processes like blood glucose levels.",
+     "Enzymes: protein catalysts speed up chemical reactions, for example pepsin, which breaks down protein in the stomach.",
+     "Antibodies: proteins made by white blood cells bind to invading micro-organisms and toxins as part of the immune response.",
+     "Blood plasma proteins: albumin keeps water within the blood vessels, helping to maintain blood volume and pressure.",
+     "Clotting proteins: fibrinogen is converted to fibrin, which forms the mesh that stops bleeding after an injury.",
+     "Haemoglobin, a protein in red blood cells, carries oxygen from the lungs to the body tissues."
+    ]
+   },
+   {
+    "h": "Nutrient proteins",
+    "points": [
+     "Nutrient proteins supply the essential amino acids that the body cannot manufacture and must obtain from food.",
+     "Amino acids supplied by food are used to make the body's own structural and active proteins.",
+     "Surplus amino acids are not stored as protein and can be used for energy (see Energy value)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Growth and repair of body cells, using amino acids to make new cells and repair damaged tissue, for example collagen in connective tissue. Formation of muscle, with myosin and actin contracting to produce movement. Keratin forms hair and nails, and collagen gives skin and tendons strength.",
+    "prompt": "Outline two functions of protein that help to build or maintain body tissue, and name one protein that carries out each function.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Structural proteins build and maintain body tissues: growth and repair of cells, formation of muscle with myosin and actin, collagen in connective tissue and skin, keratin in hair and nails, and proteins in cell membranes. Physiologically active proteins regulate body processes: hormones such as insulin control blood glucose; enzymes such as pepsin speed up digestion in the stomach; antibodies produced by white blood cells fight invading micro-organisms and toxins; albumin maintains blood volume and fibrinogen helps the blood clot; haemoglobin carries oxygen in red blood cells. Nutrient proteins supply the essential amino acids that the body cannot make, and surplus amino acids are used for energy.",
+    "prompt": "Describe the three biological functions of protein in the body, giving at least one named protein or example for each function.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s7": {
+  "keyTerms": [
+   {
+    "definition": "A measure of how fully a protein food supplies the essential amino acids the body needs, in the proportions it needs them.",
+    "term": "Biological value"
+   },
+   {
+    "definition": "A protein that contains all the essential amino acids in adequate amounts, such as the protein in eggs.",
+    "term": "Complete protein"
+   },
+   {
+    "definition": "A protein that lacks one or more essential amino acids, such as the protein in most cereals and pulses.",
+    "term": "Incomplete protein"
+   },
+   {
+    "definition": "Combining two protein foods of low biological value so that each supplies the essential amino acid the other lacks.",
+    "term": "Complementation"
+   },
+   {
+    "definition": "The improvement in the biological value of a protein food when it is eaten with a food that supplies its missing essential amino acids.",
+    "term": "Supplementary value"
+   },
+   {
+    "definition": "The essential amino acid present in the smallest amount relative to the body's needs in a particular protein food.",
+    "term": "Limiting amino acid"
+   },
+   {
+    "definition": "The price per standard measure, such as per kilogram or per 100 g, used to compare the cost of products in different pack sizes.",
+    "term": "Unit price"
+   },
+   {
+    "definition": "The part of a food that can be eaten after bone, fat, gristle or other waste is removed.",
+    "term": "Usable portion"
+   },
+   {
+    "definition": "High biological value (complete) protein and low biological value (incomplete) protein.",
+    "term": "Two categories of protein by biological value"
+   },
+   {
+    "definition": "Lysine.",
+    "term": "Limiting amino acid in cereals"
+   },
+   {
+    "definition": "Methionine.",
+    "term": "Limiting amino acid in pulses"
+   },
+   {
+    "definition": "Beans on toast, and hummus with pitta bread.",
+    "term": "Two examples of complementary pairs"
+   },
+   {
+    "definition": "Eggs, milk and fish.",
+    "term": "Three animal sources of high biological value protein"
+   },
+   {
+    "definition": "Eggs, dried or tinned pulses and tinned mackerel.",
+    "term": "Three low-cost sources of protein"
+   },
+   {
+    "definition": "5 degrees Celsius or below.",
+    "term": "Maximum storage temperature for chilled protein foods"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Biological value (BV) measures how fully a protein food supplies the essential amino acids the body needs, in the right proportions.",
+    "h": "High and low biological value",
+    "points": [
+     "High biological value (HBV) protein, also called complete protein, contains all the essential amino acids in adequate amounts.",
+     "HBV sources are mainly animal foods: meat, fish, poultry, eggs, milk, cheese and yoghurt.",
+     "Soya beans are the main plant exception: they contain all the essential amino acids and are classed as HBV.",
+     "Low biological value (LBV) protein, also called incomplete protein, lacks one or more essential amino acids or contains them in small amounts.",
+     "LBV sources are mainly plant foods: cereals such as wheat, rice and maize, and pulses such as peas, beans and lentils, along with nuts and seeds."
+    ]
+   },
+   {
+    "b": "Two LBV foods eaten together can supply all the essential amino acids, because each supplies what the other lacks.",
+    "h": "Complementation (supplementary value)",
+    "points": [
+     "This is called complementation, or supplementary value, and the combined meal provides protein of high biological value.",
+     "Beans on toast: bread supplies methionine, which beans lack, while beans supply lysine, which bread lacks.",
+     "Hummus with pitta bread and dhal with chapatti are further complementary pairs.",
+     "Complementation lets vegetarians and vegans meet their protein needs from plant foods alone."
+    ]
+   },
+   {
+    "h": "Planning meals that complement protein",
+    "points": [
+     "Pair a cereal (rice, pasta, bread or oats) with a pulse (lentils, chickpeas, beans or peas) in the same meal, for example lentil soup with wholemeal bread.",
+     "Add a small amount of egg, milk, cheese or yoghurt to a plant-based meal to raise its biological value.",
+     "Soya products such as tofu and textured vegetable protein are HBV, so they can provide protein alone in a vegetarian meal.",
+     "Use pulses as meat extenders, adding them to minced meat dishes such as bolognese or chilli to stretch the meat."
+    ]
+   },
+   {
+    "b": "Protein is often a large part of a food bill, so value depends on cost per usable portion rather than the price of the pack.",
+    "h": "Value for money when buying protein foods",
+    "points": [
+     "Compare unit prices, such as price per kilogram or per 100 g, to judge value across different pack sizes and brands.",
+     "Allow for waste: bone, gristle, fat and cooking losses reduce the usable portion of meat and fish.",
+     "Cheaper cuts of meat for stewing and braising are as nutritious as expensive cuts and suit slow, moist cooking.",
+     "Eggs, milk, cheese, dried or tinned pulses and tinned mackerel are low-cost sources of protein.",
+     "Fish is usually cheaper when in season.",
+     "Own-brand products and special offers save money only if the extra food can be used before it spoils.",
+     "Bulk buying saves money when the food is divided into portions and frozen, so that only the amount needed is thawed."
+    ]
+   },
+   {
+    "h": "Buying protein foods safely",
+    "points": [
+     "Chilled meat, fish and dairy should be kept at 5 degrees Celsius or below, so they are bought last and carried home in a cool bag.",
+     "Frozen protein foods should be solid when bought, and packs that have thawed and refrozen should be avoided.",
+     "Packaging should be sealed and undamaged, and cans should not be bulging.",
+     "Check the use-by date and the quality assurance and traceability information on the label before buying."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Complementation is combining two low biological value protein foods so that the essential amino acid lacking in one is supplied by the other, giving a meal of high biological value. Example: beans on toast, where the bread supplies methionine that the beans lack, and the beans supply lysine that the bread lacks.",
+    "prompt": "Explain what is meant by complementation of protein and give one example of two foods that complement each other.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "High biological value proteins contain all the essential amino acids and come mainly from animal foods such as meat, fish, eggs, milk and cheese; soya beans are the main plant exception. Low biological value proteins lack one or more essential amino acids and come from cereals, pulses, nuts and seeds. Complementation combines two low biological value foods, such as beans and bread or hummus and pitta, so that together they supply all the essential amino acids. Value for money: compare unit prices and the usable portion rather than the pack price; choose cheaper cuts of meat, which are as nutritious as expensive cuts, and use slow moist cooking; buy fish in season; use eggs, milk, cheese, pulses and tinned mackerel as low-cost protein; use pulses to extend meat; buy own-brand products and special offers only if the food can be used in time; and divide bulk purchases into portions for freezing.",
+    "prompt": "Discuss the biological value of protein foods, and explain how a consumer can get good value for money when buying protein foods.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s8": {
+  "keyTerms": [
+   {
+    "definition": "A nutrient that provides energy only when carbohydrate and fat do not meet energy needs, or when protein is in surplus to the body's needs for growth and repair.",
+    "term": "Supplementary energy source"
+   },
+   {
+    "definition": "The removal of the amino group from surplus amino acids in the liver, so that the remaining carbon skeleton can be used for energy.",
+    "term": "Deamination"
+   },
+   {
+    "definition": "The nitrogen-containing group, NH₂, that is removed from an amino acid during deamination.",
+    "term": "Amino group"
+   },
+   {
+    "definition": "A highly toxic nitrogen compound formed when the amino group is removed from an amino acid.",
+    "term": "Ammonia"
+   },
+   {
+    "definition": "A much less toxic compound formed in the liver from ammonia and carbon dioxide, and excreted by the kidneys in urine.",
+    "term": "Urea"
+   },
+   {
+    "definition": "The part of an amino acid that remains after the amino group is removed, which can be oxidised for energy or converted to glucose or fat.",
+    "term": "Carbon skeleton"
+   },
+   {
+    "definition": "The stored form of glucose in the liver and muscles, which can be broken down to release glucose when energy is needed.",
+    "term": "Glycogen"
+   },
+   {
+    "definition": "Body tissue made of fat cells that stores energy as fat.",
+    "term": "Adipose tissue"
+   },
+   {
+    "definition": "17 kJ per gram.",
+    "term": "Energy in kilojoules per gram of protein"
+   },
+   {
+    "definition": "4 kcal per gram.",
+    "term": "Energy in kilocalories per gram of protein"
+   },
+   {
+    "definition": "Protein, carbohydrate and fat.",
+    "term": "Three nutrients that supply energy"
+   },
+   {
+    "definition": "Urea, formed in the liver from ammonia and carbon dioxide, is filtered by the kidneys and excreted in urine.",
+    "term": "Nitrogenous waste of deamination and its route out of the body"
+   },
+   {
+    "definition": "It is oxidised in respiration for energy; it is converted to glucose and stored as glycogen; or it is converted to fat and stored in adipose tissue.",
+    "term": "Three fates of the carbon skeleton after deamination"
+   },
+   {
+    "definition": "9 kcal per gram, more than twice the 4 kcal per gram of protein.",
+    "term": "Energy in kilocalories per gram of fat, compared with protein"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Protein provides energy, but its main role is growth and repair, so it is a supplementary energy source.",
+    "h": "Energy value of protein",
+    "points": [
+     "Protein provides 17 kJ, or 4 kcal, of energy per gram.",
+     "Carbohydrate provides 16 kJ, or 3.75 kcal, per gram; fat provides 37 kJ, or 9 kcal, per gram; alcohol provides 29 kJ, or 7 kcal, per gram.",
+     "Fat provides more than twice as much energy per gram as protein.",
+     "Protein is used mainly for energy when carbohydrate and fat intake is too low to meet energy needs.",
+     "Surplus protein is used for energy after the body's needs for growth, repair and body proteins are met."
+    ]
+   },
+   {
+    "b": "Protein is one of the three nutrients that supply energy, and its contribution depends on how many grams are eaten.",
+    "h": "Contribution to the average diet",
+    "points": [
+     "Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol.",
+     "Lean meat and fish supply protein with little energy, because they contain little fat.",
+     "Full-fat milk, cheese and fatty meat supply protein together with considerable fat and therefore more energy.",
+     "Pulses supply protein along with carbohydrate and fibre, and little fat."
+    ]
+   },
+   {
+    "h": "Calculating energy from protein",
+    "points": [
+     "1. Find the grams of protein in the food or portion from its nutrition label or a food composition table.",
+     "2. Multiply the grams of protein by 17 kJ, or by 4 kcal, to find the energy in that portion.",
+     "Sample data: a portion with 25 g of protein gives 25 x 17 = 425 kJ, or 25 x 4 = 100 kcal.",
+     "3. Add the energy from protein, carbohydrate, fat and alcohol to find the total energy of the portion."
+    ]
+   },
+   {
+    "b": "Deamination removes the nitrogen from surplus amino acids so that their carbon skeleton can be used for energy.",
+    "h": "Deamination (Higher Level only)",
+    "points": [
+     "Amino acids cannot be stored as protein, so surplus amino acids are carried to the liver.",
+     "In the liver, the amino group (NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.",
+     "The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic.",
+     "Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.",
+     "Adequate fluid intake is needed so that the kidneys can excrete the urea.",
+     "The remaining carbon skeleton, which carries the COOH group, is oxidised in respiration to release energy.",
+     "Surplus carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Protein provides 17 kJ, or 4 kcal, per gram. It is a supplementary energy source: it is used for energy when carbohydrate and fat intake is too low, and when protein is in surplus to the needs for growth, repair and body proteins. Surplus amino acids cannot be stored as protein, so they are deaminated and their carbon skeleton is oxidised for energy or converted to glucose or fat.",
+    "prompt": "Explain how protein contributes to the body's energy supply, and give the energy value of protein in kilojoules and kilocalories per gram.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Surplus amino acids are carried to the liver, where the amino group is removed. This forms ammonia, which is highly toxic. The liver combines ammonia with carbon dioxide to form urea, which is much less toxic. Urea enters the blood, is filtered from the blood by the kidneys and is excreted in urine, so adequate fluid is needed. The remaining carbon skeleton, which contains the COOH group, is oxidised during respiration to release energy, or is converted to glucose and stored as glycogen, or to fat and stored in adipose tissue. Deamination allows energy to be recovered from surplus protein while the nitrogen is removed safely.",
+    "prompt": "Describe the deamination of surplus protein, naming the organ involved, the toxic and non-toxic nitrogen compounds formed, and the route by which the waste leaves the body.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-proteins-s9": {
+  "keyTerms": [
+   {
+    "definition": "A protein food made from a plant or micro-organism source to replace meat, fish or eggs in the diet.",
+    "term": "Novel protein food"
+   },
+   {
+    "definition": "A dried, extruded soya product that is rehydrated and used as a meat substitute in mince-type dishes.",
+    "term": "Textured vegetable protein"
+   },
+   {
+    "definition": "A protein food made from a fungus grown by controlled fermentation and textured to resemble meat.",
+    "term": "Mycoprotein"
+   },
+   {
+    "definition": "A soya curd made by curdling soya milk and pressing the curds into blocks.",
+    "term": "Tofu"
+   },
+   {
+    "definition": "A firm, chewy food made from cooked soya beans fermented by a mould.",
+    "term": "Tempeh"
+   },
+   {
+    "definition": "A fermented paste made from soya beans, rice, salt and water.",
+    "term": "Miso"
+   },
+   {
+    "definition": "A process in which a heated mixture is forced through a shaped opening, giving it a fibrous texture.",
+    "term": "Extrusion"
+   },
+   {
+    "definition": "An ingredient that holds the pieces of a textured protein product together during shaping and setting.",
+    "term": "Binder"
+   },
+   {
+    "definition": "Soaking a dried food in liquid so that it regains its moisture before cooking.",
+    "term": "Rehydration"
+   },
+   {
+    "definition": "Soya beans.",
+    "term": "Plant source used for most novel protein foods"
+   },
+   {
+    "definition": "Fungi, bacteria, yeast and algae.",
+    "term": "Four micro-organism groups used as novel protein sources"
+   },
+   {
+    "definition": "Soya beans, rice, salt and water, fermented into a paste.",
+    "term": "Ingredients of miso"
+   },
+   {
+    "definition": "Vitamin B12, which is not found in plant foods.",
+    "term": "Vitamin that vegans must obtain from fortified foods or supplements"
+   },
+   {
+    "definition": "Protein per serving, portion size, energy, saturated fat, sugar, fibre and salt.",
+    "term": "Label figures to compare on a protein bar"
+   },
+   {
+    "definition": "Steaming to set the binder, after the mass has been textured and cut.",
+    "term": "Step that sets the binder in a meat-textured fungal product"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Novel (alternative) protein foods are made from plant or micro-organism sources to replace meat, fish or eggs in the diet.",
+    "h": "Sources of novel protein foods",
+    "points": [
+     "Soya beans are the main plant source, used for tofu, tempeh, textured vegetable protein, miso and soya milk, yoghurt and cheese.",
+     "Other plant sources include wheat gluten, which is used to make seitan, and pulses such as chickpeas and lentils.",
+     "Micro-organism sources are fungi, bacteria, yeast and algae.",
+     "Mycoprotein is a protein food made from a fungus grown by fermentation; it is sold as Quorn in products such as mince and burgers.",
+     "Nutritional yeast is a micro-organism product used as a flavouring and a source of protein in vegan cooking."
+    ]
+   },
+   {
+    "h": "Soya products and how they are made",
+    "points": [
+     "Tofu: soya milk is curdled and the curds are pressed into blocks; it is bland and takes on flavour from marinades or smoking.",
+     "Soya milk: soaked soya beans are ground with their soaking water and the mixture is strained.",
+     "Tempeh: cooked soya beans are fermented, giving a firm, chewy texture.",
+     "Miso: soya beans are mixed with rice, salt and water and fermented into a paste.",
+     "Soya yoghurt: soya milk is fermented in the same way as dairy yoghurt."
+    ]
+   },
+   {
+    "h": "Manufacture of textured vegetable protein (TVP)",
+    "points": [
+     "1. Soya beans are cleaned and de-hulled, and their oil is extracted.",
+     "2. The de-oiled beans are ground into flour.",
+     "3. Carbohydrate is removed, leaving a protein-rich flour.",
+     "4. Vegetable oil, flavourings, seasonings and nutritional additives such as vitamin B12, iron and methionine are added.",
+     "5. The mixture is heated and extruded, forming a textured, fibrous product.",
+     "6. The product is cut, cubed or chopped into pieces such as mince.",
+     "7. The pieces are dried, packed and labelled."
+    ]
+   },
+   {
+    "h": "Manufacture of mycoprotein",
+    "points": [
+     "1. A fungus is fermented in carefully controlled conditions so that it grows in large quantities.",
+     "2. The fungal cells are harvested, filtered and drained.",
+     "3. A binder holds the fungal sheets together, and flavour and colour are added.",
+     "4. The mass is textured to resemble meat.",
+     "5. It is sliced, cubed or shredded, steamed to set the binder, then packed and labelled."
+    ]
+   },
+   {
+    "b": "Soya and mycoprotein products can supply protein in place of meat, but their nutritional value depends on the product.",
+    "h": "Nutritional significance and contribution to the diet",
+    "points": [
+     "Soya products supply high biological value protein, polyunsaturated fat, fibre and B group vitamins.",
+     "Calcium and iron are present in many soya products, especially tofu set with calcium salts.",
+     "Mycoprotein is relatively high in protein and fibre.",
+     "Plant foods contain no vitamin B12, so vegans need it from fortified foods or supplements.",
+     "Processed alternatives may contain added salt, sugar and additives, so their labels should be checked.",
+     "In the Food Pyramid of the Department of Health healthy eating guidelines, meat, fish and alternatives form one food group, which supplies protein and iron."
+    ]
+   },
+   {
+    "h": "Selection, storage and preparation",
+    "points": [
+     "Labels must show ingredients, allergens and a nutrition declaration, under Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+     "Dried TVP and dried pulses keep in airtight containers in a cool, dry place.",
+     "TVP must be rehydrated in hot stock or water before use, and it takes on the flavour of the liquid.",
+     "Tofu is sold chilled or in sealed packs; once opened it should be kept covered in fresh water in the refrigerator.",
+     "Tofu is pressed or drained before frying, so that it browns well and holds its shape.",
+     "Mycoprotein products are sold chilled or frozen and should be cooked thoroughly as the pack directs."
+    ]
+   },
+   {
+    "h": "Processing and cooking",
+    "points": [
+     "Extrusion gives textured vegetable protein its fibrous, chewy texture, which resembles meat.",
+     "Marinating or smoking gives tofu flavour, as it is bland on its own.",
+     "Fermentation by moulds or bacteria gives tempeh, miso and soya yoghurt their texture and flavour.",
+     "Mycoprotein is shaped and then steamed to set its binder, so that the pieces hold together during cooking."
+    ]
+   },
+   {
+    "b": "Protein bars and high-protein products should be judged from the label data rather than from the words high protein on the packet.",
+    "h": "Evaluating protein bars and high-protein products",
+    "points": [
+     "Compare protein per serving, portion size and energy, not the protein claim alone.",
+     "Check sugar, saturated fat, salt and fibre, as bars often contain added sugar, saturated fat and salt.",
+     "Protein bars may be made with milk or whey protein, or soya protein, which supply high biological value protein.",
+     "A high-protein fruit yoghurt supplies high biological value milk protein, calcium, phosphorus and B group vitamins.",
+     "Sweetened fruit preparations raise the free sugar content of a yoghurt; full-fat versions contain more saturated fat, and low-fat versions may contain more added sugar.",
+     "Plain yoghurt with fresh fruit is generally the less processed choice, and bars are most useful where portability is needed, such as for sport."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two alternatives such as tofu, tempeh, textured vegetable protein, mycoprotein, seitan, soya milk or lentils. Advantages: high biological value protein; polyunsaturated fat; fibre; B group vitamins; calcium and iron (in many soya products); inexpensive and versatile, and quick to prepare.",
+    "prompt": "Name two protein alternatives suitable for a vegan diet, and state two nutritional advantages of including them.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Name the product, for example textured vegetable protein or mycoprotein. For textured vegetable protein: soya beans are cleaned, de-hulled and their oil extracted; the beans are ground to flour; carbohydrate is removed; vegetable oil, flavourings, seasonings and nutritional additives such as vitamin B12, iron and methionine are added; the mixture is heated and extruded; it is cut or cubed into mince-like pieces; it is dried, packed and labelled. For mycoprotein: a fungus is fermented under controlled conditions; the cells are harvested, filtered and drained; a binder is added; flavour and colour are added; the mass is textured, sliced, cubed or shredded and steamed to set the binder; it is packed and labelled.",
+    "prompt": "Select one novel protein food you have studied, name it, and set out its stages of manufacture.",
     "type": "short"
    }
   ]

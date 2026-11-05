@@ -1,0 +1,134 @@
+{
+  "loId": "hom-cereals-grains-s2",
+  "chapterId": "hom-cereals-grains",
+  "subsection": "2. Cereals and cereal products",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "The main cereals and their products",
+      "b": "Each main cereal is used to make a range of products, and the cereal named in the product tells you its basic ingredient.",
+      "points": [
+        "Wheat: white, wholemeal, self-raising and strong flour; bread; pasta; couscous; bulgur; and shredded wheat breakfast cereal.",
+        "Rice: white and brown rice; rice flour; rice cakes; rice paper; rice noodles; and rice pudding.",
+        "Oats: porridge, oatcakes, flapjacks and muesli.",
+        "Maize (corn): cornflour, cornflakes, popcorn, polenta and corn oil; sweetcorn is eaten as a vegetable.",
+        "Barley: pearl barley, barley flakes, barley water, soups and malt, which is used to make beer and whiskey.",
+        "Rye: rye bread, rye flour and crispbread."
+      ]
+    },
+    {
+      "h": "Breakfast cereals",
+      "points": [
+        "Flaked cereals, such as cornflakes, are made from grains that have been rolled flat and toasted.",
+        "Puffed cereals, such as puffed rice, are made by heating grains under pressure until they expand.",
+        "Shredded cereals, such as shredded wheat, are made from cooked grains formed into shreds and baked.",
+        "Muesli and granola are mixes of cereal flakes with nuts, dried fruit and seeds; granola is usually bound with a sweetener and baked.",
+        "Porridge oats need cooking in water or milk, while ready-to-eat cereals need no cooking.",
+        "Sugar, salt and fat levels vary widely between brands of breakfast cereal, so compare the nutrition panels before choosing."
+      ]
+    },
+    {
+      "h": "Food fortification",
+      "b": "Fortification is the addition of nutrients to a food.",
+      "points": [
+        "Fortification replaces nutrients lost during processing, such as the B group vitamins and iron removed when wheat is refined.",
+        "Fortification can also raise a nutrient above the level normally present, for example vitamins A and D added to low-fat milk.",
+        "Folic acid added to flour helps reduce the risk of neural tube defects in a developing baby.",
+        "Iron, folic acid and B group vitamins are the nutrients most commonly added to flour and breakfast cereals.",
+        "Vitamin D and calcium added to foods help address diet-related conditions such as osteoporosis.",
+        "Fortified products help improve intake of a nutrient, but they do not replace a varied diet, and a fortified cereal can still be high in sugar."
+      ]
+    },
+    {
+      "h": "Storing cereal products",
+      "points": [
+        "Store cereal products in a cool, dry place to prevent mould growth and infestation by insects such as weevils.",
+        "Once opened, transfer flour, cereals and pasta to an airtight container so that moisture and pests cannot enter.",
+        "Use products by the best-before date, after which flour and cereals lose quality and may become stale or infested.",
+        "Wholegrain products and wholemeal flour have a shorter shelf life than white products because the unsaturated fat in the germ can turn rancid.",
+        "Cereals absorb strong odours, so keep them away from spices and other strong-smelling foods.",
+        "Bread stales faster in a fridge than at room temperature, so store bread in a bread bin or wrapped at room temperature."
+      ]
+    },
+    {
+      "h": "Selecting cereal products",
+      "points": [
+        "Ingredients are listed in descending order of weight, so a wholegrain product should name a wholegrain cereal first.",
+        "Check the nutrition panel for fibre, sugar and salt, which are usually given per 100 g.",
+        "Choose products with the best-before date clearly printed, and check the packaging is undamaged and sealed."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Flaked cereal",
+      "definition": "A breakfast cereal made from grains that have been rolled flat and toasted, such as cornflakes."
+    },
+    {
+      "term": "Puffed cereal",
+      "definition": "A breakfast cereal made by heating grains under pressure until they expand, such as puffed rice."
+    },
+    {
+      "term": "Shredded cereal",
+      "definition": "A breakfast cereal made from cooked grains formed into shreds and baked, such as shredded wheat."
+    },
+    {
+      "term": "Muesli",
+      "definition": "An uncooked mixture of rolled oats or other cereal flakes with nuts, dried fruit and seeds."
+    },
+    {
+      "term": "Fortification",
+      "definition": "The addition of nutrients such as vitamins and minerals to a food."
+    },
+    {
+      "term": "Best-before date",
+      "definition": "The date until which a food keeps its quality when stored as directed."
+    },
+    {
+      "term": "Rancidity",
+      "definition": "The development of unpleasant flavours and smells when fats in a food oxidise."
+    },
+    {
+      "term": "Staling",
+      "definition": "The hardening and drying of bread and baked goods as their starch changes structure over time."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Six main cereals used as food",
+      "definition": "Wheat, rice, oats, maize, barley and rye."
+    },
+    {
+      "term": "Three types of ready-to-eat breakfast cereal",
+      "definition": "Flaked, puffed and shredded."
+    },
+    {
+      "term": "Three guidelines for storing cereal products",
+      "definition": "Store in a cool, dry place; use an airtight container once opened; use by the best-before date."
+    },
+    {
+      "term": "Three nutrients commonly added to fortified cereal",
+      "definition": "Iron, folic acid and B group vitamins."
+    },
+    {
+      "term": "Main purpose of folic acid in fortified flour",
+      "definition": "It reduces the risk of neural tube defects in a developing baby."
+    },
+    {
+      "term": "Why wholegrain flour spoils sooner than white flour",
+      "definition": "The unsaturated fat in the germ can turn rancid."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name three cereals and give one different product made from each cereal.",
+      "model": "Any three of wheat, rice, oats, maize, barley and rye, each with a different product made from it. Examples: wheat: pasta or bread; rice: rice cakes or rice pudding; oats: porridge or flapjacks; maize: cornflakes or cornflour; barley: pearl barley or barley water; rye: rye bread or crispbread. Each product must be different and made from the named cereal."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss food fortification, giving the reasons for adding nutrients to cereal products and examples of nutrients added, and outline how a consumer should store breakfast cereals to keep them safe and of good quality.",
+      "model": "Fortification: adding nutrients such as vitamins and minerals to a food. Reasons: to replace nutrients lost in processing, such as B group vitamins and iron removed when wheat is refined; to raise levels above those normally present; to help address diet-related illness and nutrient shortfalls. Examples: folic acid added to flour to reduce neural tube defects; iron and B group vitamins added to breakfast cereals; vitamins A and D added to low-fat milk. Limitation: a fortified product does not cancel high sugar or salt. Storage: keep in a cool, dry place away from strong odours; transfer to an airtight container once opened to keep out moisture and pests; use by the best-before date; wholegrain and wholemeal products keep for less time because the germ's unsaturated fat can turn rancid; check packaging is sealed and undamaged before purchase."
+    }
+  ]
+}

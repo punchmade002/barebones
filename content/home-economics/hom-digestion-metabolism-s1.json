@@ -1,0 +1,160 @@
+{
+  "loId": "hom-digestion-metabolism-s1",
+  "chapterId": "hom-digestion-metabolism",
+  "subsection": "1. Digestion and absorption of protein",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Enzymes and hydrolysis (assumed knowledge)",
+      "b": "Digestion is hydrolysis: enzymes split large food molecules into smaller units that can be absorbed.",
+      "points": [
+        "Enzymes are proteins that act as biological catalysts, speeding up digestion without being used up.",
+        "Each enzyme has an active site whose shape fits one type of substrate, so an enzyme acts on only one kind of molecule.",
+        "Hydrolysis breaks a chemical bond by adding water: a hydrogen atom attaches to one part of the molecule and a hydroxyl group to the other.",
+        "Protein is a chain of amino acids joined by peptide bonds; proteases (also called proteinases) hydrolyse these bonds.",
+        "Enzymes lower the activation energy of a reaction, so digestion proceeds at body temperature, about 37 °C.",
+        "Each digestive enzyme has an optimum pH: pepsin works in strong acid, while pancreatic and intestinal enzymes work in the alkaline conditions of the small intestine.",
+        "Diagram: two amino acids joined by a peptide bond, with the water molecule added during hydrolysis labelled."
+      ]
+    },
+    {
+      "h": "Protein digestion table (organ, secretion, enzyme, substrate, product)",
+      "points": [
+        "Stomach: gastric juice; pepsin; protein; peptones.",
+        "Stomach of infants: gastric juice; rennin; caseinogen; casein.",
+        "Pancreas: pancreatic juice; trypsin; peptones; peptides.",
+        "Small intestine: intestinal juice; peptidases (erepsin); peptides; amino acids."
+      ]
+    },
+    {
+      "h": "Stomach: protein digestion begins",
+      "points": [
+        "Gastric glands in the stomach wall secrete gastric juice, which contains hydrochloric acid and the inactive enzyme pepsinogen.",
+        "Hydrochloric acid unfolds (denatures) the protein, exposing its peptide bonds to enzyme action.",
+        "Hydrochloric acid converts pepsinogen into the active enzyme pepsin, which works best at a pH of about 2.",
+        "Pepsin hydrolyses protein into peptones, which are shorter chains than the original protein.",
+        "Rennin clots milk by changing the soluble milk protein caseinogen into casein, so milk stays in the stomach long enough to be digested; it acts mainly in infants.",
+        "The stomach churns food into a semi-liquid mixture called chyme, which passes slowly into the duodenum."
+      ]
+    },
+    {
+      "h": "Small intestine: protein digestion is completed",
+      "points": [
+        "The pancreas secretes pancreatic juice into the duodenum; it contains trypsin, made in inactive form as trypsinogen.",
+        "Enterokinase in the intestinal juice converts trypsinogen into active trypsin.",
+        "Trypsin hydrolyses peptones into shorter peptides, which are still too large to be absorbed.",
+        "Intestinal juice is secreted by glands in the wall of the small intestine and contains peptidases (erepsin).",
+        "Peptidases hydrolyse peptides into amino acids, the main form in which protein is absorbed.",
+        "Small peptides that are not fully hydrolysed in the intestinal juice are also absorbed through the villi."
+      ]
+    },
+    {
+      "h": "Route through the alimentary canal",
+      "points": [
+        "Mouth: no protein is digested, because saliva contains no protein-digesting enzyme.",
+        "Stomach: pepsin and rennin act on the protein, and chyme passes into the duodenum.",
+        "Duodenum (first part of the small intestine): trypsin and peptidases complete digestion, and pancreatic juice enters through the pancreatic duct.",
+        "Villi of the small intestine: amino acids are absorbed into the capillaries inside each villus.",
+        "Hepatic portal vein: carries the absorbed amino acids from the small intestine to the liver.",
+        "Liver: processes the amino acids before they enter the general circulation.",
+        "Diagram: the digestive system, labelled mouth, stomach, pancreas, small intestine, liver and hepatic portal vein."
+      ]
+    },
+    {
+      "h": "Absorption of amino acids",
+      "points": [
+        "Villi are finger-like projections of the small intestine wall that greatly increase its surface area for absorption.",
+        "Amino acids are absorbed mainly by active transport, which uses energy and carrier proteins and is coupled with the uptake of sodium ions.",
+        "Amino acids move through the cells lining each villus into the capillary network inside it.",
+        "Diagram: cross-section of a villus showing the capillary network and the lacteal in its centre."
+      ]
+    },
+    {
+      "h": "Utilisation of amino acids (Higher Level only)",
+      "points": [
+        "Body cells take up amino acids from the blood and use them to build body protein, enzymes, hormones and antibodies.",
+        "The liver synthesises plasma proteins, such as albumin, from amino acids.",
+        "Amino acids cannot be stored, so surplus amino acids are broken down in the liver.",
+        "Deamination removes the amino group from an amino acid, leaving a carbon skeleton that can be used for energy or converted into glucose or fat.",
+        "The removed amino group forms ammonia, which the liver converts into urea.",
+        "Urea enters the blood, is filtered out by the kidneys and leaves the body in urine."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Hydrolysis",
+      "definition": "The splitting of a chemical bond by adding water, giving two smaller molecules."
+    },
+    {
+      "term": "Peptide bond",
+      "definition": "The chemical bond that links two amino acids in a protein chain."
+    },
+    {
+      "term": "Pepsin",
+      "definition": "The active gastric enzyme that hydrolyses protein into peptones, activated by hydrochloric acid."
+    },
+    {
+      "term": "Trypsin",
+      "definition": "The pancreatic protease that hydrolyses peptones into peptides in the small intestine."
+    },
+    {
+      "term": "Enterokinase",
+      "definition": "An enzyme in intestinal juice that converts inactive trypsinogen into active trypsin."
+    },
+    {
+      "term": "Villus",
+      "definition": "A finger-like projection of the small intestine wall that absorbs digested food through its capillaries and lacteal."
+    },
+    {
+      "term": "Hepatic portal vein",
+      "definition": "The blood vessel that carries absorbed nutrients from the small intestine to the liver."
+    },
+    {
+      "term": "Deamination",
+      "definition": "The removal of the amino group from an amino acid in the liver, producing ammonia."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four functions of hydrochloric acid in the stomach",
+      "definition": "It unfolds protein so enzymes can act on it, converts pepsinogen into pepsin, provides the acidic pH pepsin needs, and kills most bacteria in food."
+    },
+    {
+      "term": "What activates the inactive pancreatic protease in the small intestine",
+      "definition": "Enterokinase, found in the intestinal juice, converts trypsinogen into trypsin."
+    },
+    {
+      "term": "Substrate and product of pepsin",
+      "definition": "Pepsin acts on protein as its substrate and produces peptones as its product."
+    },
+    {
+      "term": "Where rennin acts and what it changes",
+      "definition": "Rennin acts in the stomach of infants, changing caseinogen into casein, which clots milk."
+    },
+    {
+      "term": "Two structures that increase absorptive surface in the small intestine",
+      "definition": "Villi, the finger-like projections of the intestine wall, and microvilli on the surface of the cells lining each villus."
+    },
+    {
+      "term": "Blood vessel carrying absorbed amino acids from the villi to the liver",
+      "definition": "The hepatic portal vein."
+    },
+    {
+      "term": "Nitrogen-containing compound formed when the amino group is removed from an amino acid",
+      "definition": "Ammonia, which the liver converts into urea."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline the digestion of dietary protein in the stomach and in the small intestine. For each organ, name the secretion, the enzyme, the substrate and the product.",
+      "model": "Stomach: gastric juice from the stomach wall. Hydrochloric acid converts pepsinogen into pepsin. Pepsin acts on protein, the substrate, to produce peptones. Small intestine: pancreatic juice from the pancreas. Trypsin, activated from trypsinogen by enterokinase in the intestinal juice, acts on peptones to produce peptides. Peptidases in the intestinal juice hydrolyse peptides into amino acids."
+    },
+    {
+      "marks": 24,
+      "prompt": "Trace the route of dietary protein from the mouth to the liver. Explain how protein is hydrolysed at each stage, how the products are absorbed, and what the liver does with the amino acids it receives.",
+      "model": "Mouth: no protein digestion, as saliva has no protein-digesting enzyme. Stomach: hydrochloric acid unfolds protein and activates pepsin, which hydrolyses protein to peptones; rennin changes caseinogen to casein in infants. Duodenum: pancreatic juice contains trypsin, activated by enterokinase, which hydrolyses peptones to peptides; intestinal juice peptidases hydrolyse peptides to amino acids. Absorption: villi increase the surface area; amino acids are absorbed mainly by active transport coupled with sodium ions into the capillaries of the villi. Hepatic portal vein carries the amino acids to the liver. Liver: amino acids are used to synthesise plasma proteins; surplus amino acids are deaminated, removing the amino group, which forms ammonia that is converted to urea; the carbon skeleton is used for energy or converted to glucose or fat; urea is filtered by the kidneys and excreted in urine."
+    }
+  ]
+}
