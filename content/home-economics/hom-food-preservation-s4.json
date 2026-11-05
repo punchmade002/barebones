@@ -1,0 +1,138 @@
+{
+  "loId": "hom-food-preservation-s4",
+  "chapterId": "hom-food-preservation",
+  "subsection": "4. Dehydration",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "Principle of dehydration",
+      "b": "Dehydration removes most of the available water from food, so that micro-organisms cannot multiply and enzymes cannot act.",
+      "points": [
+        "Micro-organisms need available water; drying to a low moisture level stops their growth but does not kill all of them.",
+        "Fresh fruit and vegetables contain roughly 70 to 95 per cent water, so they lose most of their weight when dried.",
+        "Dried food is light and compact, which reduces its storage space and the cost of transporting it.",
+        "Damp dried food can re-absorb moisture from the air and go mouldy, so it must be stored in dry, airtight conditions.",
+        "Blanching vegetables before drying inactivates enzymes that would otherwise cause darkening and off-flavours during storage."
+      ]
+    },
+    {
+      "h": "Drying methods at home",
+      "points": [
+        "Oven drying: food is spread in a single layer on trays and dried at a low temperature, with the oven door slightly open to let moisture escape.",
+        "Electric dehydrator: a fan circulates warm air at a controlled low temperature over trays, so food dries evenly.",
+        "Sun drying: food is laid on trays or racks in warm, dry weather; it is slow and uncontrolled, and exposes food to dust and insects.",
+        "Air drying: herbs are tied in small bunches and hung in a warm, dry, airy place away from direct sunlight.",
+        "Onions and garlic are cured in a warm, dry, ventilated place until their outer skins are papery."
+      ]
+    },
+    {
+      "h": "Commercial drying methods",
+      "points": [
+        "Spray drying: liquid food is sprayed as a fine mist into a hot air chamber, where the water evaporates in seconds and leaves a powder, as in milk powder.",
+        "Drum drying: a thin layer of liquid or purée is spread on a heated rotating drum and dries into flakes.",
+        "Accelerated freeze drying (AFD): the food is frozen first, then placed in a vacuum chamber where the ice turns directly into water vapour without melting; this process is called sublimation.",
+        "Freeze-dried foods are light, rehydrate quickly and keep their shape, colour and flavour better than air-dried foods."
+      ]
+    },
+    {
+      "h": "Effects of drying on food",
+      "points": [
+        "Water-soluble vitamins, especially vitamin C and the B vitamins, are lost during drying.",
+        "Vitamins A and E are reduced, because they are sensitive to heat and oxidation.",
+        "Colour darkens, especially in fruit left in the sun, because of oxidation and browning reactions; blanching helps prevent this.",
+        "Dried fruit is concentrated in sugar, so a small portion gives much more sugar and energy than the same weight of fresh fruit.",
+        "Texture becomes leathery or brittle, and the flavour becomes more concentrated.",
+        "Minerals and fibre are retained, because drying does not destroy them.",
+        "Dried food shrinks and must be soaked in water (rehydrated) before cooking."
+      ]
+    },
+    {
+      "h": "Preparing and testing food for drying",
+      "points": [
+        "Choose ripe, sound, undamaged produce and wash it thoroughly.",
+        "Cut food into even, thin pieces so that they all dry at the same rate.",
+        "Test dryness: dried fruit should be leathery and pliable, with no moist centre or sticky patches.",
+        "Dried vegetables should be brittle and snap cleanly when bent.",
+        "Condition dried food by packing it loosely in a jar for several days and shaking the jar daily; condensation on the inside means the food needs more drying.",
+        "Store dried food in airtight, moisture-proof containers in a cool, dark, dry place, since light and moisture reduce its quality."
+      ]
+    },
+    {
+      "h": "Foods suited to drying",
+      "points": [
+        "Fruit such as apples, apricots, pears, bananas and grapes (which become raisins).",
+        "Vegetables such as onions, carrots and tomatoes.",
+        "Herbs such as mint, parsley, thyme and rosemary, which keep their flavour well when dried.",
+        "Meat and fish, which are salted before drying or smoked and dried, as in dried fish."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Dehydration",
+      "definition": "Removing most of the water from food so that micro-organisms and enzymes cannot grow or act."
+    },
+    {
+      "term": "Available water",
+      "definition": "The water in food that is free to be used by micro-organisms and enzymes, as opposed to water bound to other food components."
+    },
+    {
+      "term": "Accelerated freeze drying",
+      "definition": "A commercial drying method in which food is frozen and then the ice is removed under vacuum by sublimation."
+    },
+    {
+      "term": "Sublimation",
+      "definition": "The change of a solid directly into a gas without first becoming a liquid, as occurs with ice in freeze drying."
+    },
+    {
+      "term": "Spray drying",
+      "definition": "Drying a liquid by spraying it as a mist into hot air so that the water evaporates in seconds, leaving a powder."
+    },
+    {
+      "term": "Drum drying",
+      "definition": "Drying a thin layer of liquid or purée on a heated rotating drum to produce flakes."
+    },
+    {
+      "term": "Conditioning",
+      "definition": "Storing dried food in a loosely filled jar for several days so that residual moisture is evenly distributed and any remaining dampness shows as condensation."
+    },
+    {
+      "term": "Rehydration",
+      "definition": "Soaking dried food in water so that it absorbs moisture and returns towards its fresh texture before cooking."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three methods of drying food at home",
+      "definition": "Oven drying, electric dehydrator drying and sun drying."
+    },
+    {
+      "term": "Four vitamins reduced by drying",
+      "definition": "Vitamin C, the B vitamins, vitamin A and vitamin E."
+    },
+    {
+      "term": "Process of accelerated freeze drying",
+      "definition": "The food is frozen, placed in a vacuum chamber, and the ice sublimes directly to water vapour, leaving a dry, porous structure."
+    },
+    {
+      "term": "Test for correctly dried fruit",
+      "definition": "It is leathery and pliable, with no moist centre or sticky patches."
+    },
+    {
+      "term": "Sign that dried food needs more drying",
+      "definition": "Condensation inside the jar during conditioning."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why micro-organisms cannot grow in properly dried food, and state one effect that drying has on the vitamin content of food.",
+      "model": "Micro-organisms need available water to grow and reproduce; removing most of the water from food makes it unavailable, so growth stops, although micro-organisms are not necessarily killed. Drying also reduces the enzyme activity that would cause spoilage. One effect on vitamins: water-soluble vitamins such as vitamin C and the B vitamins are lost during drying, and vitamins A and E are reduced by heat and oxidation."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the advantages and disadvantages of drying fruit and vegetables at home compared with freezing them.",
+      "model": "Advantages of drying: food is light and compact and needs no freezer, so it is convenient for storage and for an unplugged or power-cut situation; dried foods keep for a long period when stored dry and airtight; concentrated flavour and sugar make dried fruit useful as a snack or ingredient. Disadvantages: vitamin C and B vitamins are lost more than in freezing; colour darkens and texture changes; dried fruit is high in sugar per portion; drying takes many hours and the process must be controlled to avoid mould. Freezing keeps colour, texture and nutrients better but needs a freezer and continuous energy. Each point is set against the matching point for freezing."
+    }
+  ]
+}

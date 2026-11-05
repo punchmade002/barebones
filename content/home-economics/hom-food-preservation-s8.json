@@ -1,0 +1,126 @@
+{
+  "loId": "hom-food-preservation-s8",
+  "chapterId": "hom-food-preservation",
+  "subsection": "8. Comparative evaluation of preserved foods",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "Planning a comparative study (Higher Level only)",
+      "b": "A comparative evaluation tests whether one preserved food is better than another, so the test must be fair and the criteria must be set in advance.",
+      "points": [
+        "Choose one food that can be preserved by two methods, such as strawberries frozen and strawberries made into jam.",
+        "Use sound, ripe fruit from the same batch for both methods, so differences come from the preservation method rather than the raw material.",
+        "Compare the same criteria for each method: nutritional value, sensory qualities, safety, storage life, time, energy and packaging.",
+        "State the underlying principle of each method and the risk of spoilage that each carries.",
+        "Conclude by judging which method suits the stated purpose, weighing its advantages against its disadvantages."
+      ]
+    },
+    {
+      "h": "Nutritional comparison: freezing and canning (Higher Level only)",
+      "points": [
+        "Freezing keeps more vitamin C than canning, because canning uses higher temperatures for longer.",
+        "Water-soluble vitamins, such as vitamin C and the B group, leach into blanching water and canning liquid, and are lost when the liquid is drained away.",
+        "Thiamine (vitamin B1) is heat-sensitive, so the high temperatures of canning destroy much of it.",
+        "Sample data for practice: vitamin C in peas was 25 mg when fresh, 17 mg after freezing and 8 mg after canning.",
+        "Sample data for practice: sodium in peas was 1 mg when fresh and 230 mg after canning, because salt is added during canning."
+      ]
+    },
+    {
+      "h": "Sensory and nutritional comparison: frozen strawberries and jam (Higher Level only)",
+      "points": [
+        "Frozen strawberries keep their colour and flavour closer to those of fresh fruit.",
+        "Thawed frozen strawberries are softer and release juice, because ice crystals have damaged the cell walls.",
+        "Jam is sweeter, darker from cooking, and firmer and spreadable in texture.",
+        "Jam loses some heat-sensitive vitamin C during boiling, whereas frozen fruit retains more.",
+        "Jam's high sugar content makes it unsuitable for people restricting their sugar intake."
+      ]
+    },
+    {
+      "h": "Risk of spoilage in each method (Higher Level only)",
+      "points": [
+        "Frozen fruit is not sterile: if the temperature fluctuates, partial thawing releases moisture, and surviving micro-organisms can grow.",
+        "Freezer burn occurs when air reaches the food through loose or damaged packs, causing drying, toughening and discolouration by oxidation.",
+        "Thawed fruit should be used promptly and never refrozen.",
+        "Jam spoils by fermentation or mould growth when the sugar is too low, setting point is not reached, jars are not clean, or the seal fails.",
+        "A bulging lid, gas, mould or an off-odour in a jar means the jam must be discarded."
+      ]
+    },
+    {
+      "h": "Energy, cost and environmental factors (Higher Level only)",
+      "points": [
+        "Freezing needs a continuous electricity supply and freezer space; jam needs no freezer but needs fuel for cooking.",
+        "Sealed jam keeps well without a freezer and has a long shelf life when stored in a cool, dark place.",
+        "Low-acid vegetables such as peas must be pressure canned, because boiling water does not destroy the spores of Clostridium botulinum.",
+        "Glass jars can be washed and reused or recycled; plastic freezer bags are usually made from non-renewable oil and are hard to recycle."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Comparative evaluation",
+      "definition": "A structured comparison of two or more preserved foods or methods against set criteria, leading to a judgement on suitability."
+    },
+    {
+      "term": "Sensory qualities",
+      "definition": "The features of food perceived by the senses, such as colour, flavour, aroma and texture."
+    },
+    {
+      "term": "Water-soluble vitamin",
+      "definition": "A vitamin that dissolves in water, such as vitamin C or a B vitamin, and is lost in cooking water or drained liquid."
+    },
+    {
+      "term": "Brine",
+      "definition": "A solution of salt in water used to preserve or pack food, which raises the sodium content of the food."
+    },
+    {
+      "term": "Pressure canning",
+      "definition": "Processing sealed jars in a pressure cooker at a temperature above boiling point, which is needed to destroy the spores in low-acid foods."
+    },
+    {
+      "term": "Freezer burn",
+      "definition": "Drying, toughening and discolouration of frozen food caused by air reaching the surface through loose or damaged packaging."
+    },
+    {
+      "term": "Oxidation",
+      "definition": "A chemical reaction with oxygen that causes discolouration, loss of flavour and rancidity in food."
+    },
+    {
+      "term": "Sterile",
+      "definition": "Free from all living micro-organisms."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two vitamins lost during canning",
+      "definition": "Vitamin C and thiamine (vitamin B1), both reduced by the high temperatures and long processing of canning."
+    },
+    {
+      "term": "Two effects of ice-crystal damage on thawed fruit",
+      "definition": "The texture becomes softer, and juice drains from the damaged cells on thawing."
+    },
+    {
+      "term": "Four causes of jam spoilage",
+      "definition": "Too little sugar, setting point not reached, unclean jars, and a failed seal."
+    },
+    {
+      "term": "Method needed to can low-acid vegetables safely",
+      "definition": "Pressure canning, because temperatures above boiling are needed to destroy the spores of Clostridium botulinum."
+    },
+    {
+      "term": "What a comparative conclusion must do",
+      "definition": "Judge which method is more suitable for the stated purpose, weighing advantages against disadvantages."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one nutritional difference between frozen and canned vegetables and explain the reason for it.",
+      "model": "Vitamin C: canned vegetables lose more vitamin C than frozen ones, because canning uses high temperatures for longer, and the vitamin dissolves into the liquid that is drained away. Alternative answer: canned vegetables contain more sodium than frozen ones, because salt is added during canning."
+    },
+    {
+      "marks": 24,
+      "prompt": "Plan and evaluate a comparison between two preserved versions of the same food, covering the criteria you would use, how you would keep the test fair, the spoilage risks of each method and a final judgement.",
+      "model": "Food and methods: one fruit, such as strawberries, preserved by freezing and by jam making. Fair test: the same sound, ripe batch of fruit is used for both methods, and the same criteria are compared. Criteria: nutritional value (vitamin C loss in jam from boiling; retention in frozen fruit), sensory qualities (frozen fruit closer to fresh colour and flavour; jam sweeter, darker and firmer), safety, storage life, time, energy and packaging. Principles: freezing removes heat and makes water unavailable, with blanching only for vegetables; jam uses heat, a concentrated sugar solution by osmosis, pectin and acid, and a sealed jar. Spoilage risks: frozen fruit is not sterile and can spoil after partial thawing or fluctuating temperature, and freezer burn follows loose packs; jam can ferment or grow mould if sugar is too low, setting point is not reached, jars are unclean or the seal fails. Judgement: freezing suits fresh-tasting fruit for desserts and is the better choice where a freezer is available and the fruit is to be used soon after thawing; jam suits long storage without a freezer, though it has a high sugar content and more loss of fresh qualities. The judgement must state which method suits the stated purpose and why."
+    }
+  ]
+}

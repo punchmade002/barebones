@@ -3,6 +3,766 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "hom-carbohydrates-s1": {
+  "keyTerms": [
+   {
+    "definition": "The process by which green plants use light energy to make glucose from carbon dioxide and water, releasing oxygen.",
+    "term": "Photosynthesis"
+   },
+   {
+    "definition": "The green pigment in chloroplasts that absorbs light energy for photosynthesis.",
+    "term": "Chlorophyll"
+   },
+   {
+    "definition": "The organelle in leaf cells that contains chlorophyll and is the site of photosynthesis.",
+    "term": "Chloroplast"
+   },
+   {
+    "definition": "Small pores, mainly on the underside of a leaf, through which carbon dioxide enters and oxygen leaves.",
+    "term": "Stomata"
+   },
+   {
+    "definition": "An organism, such as a green plant, that makes its own food from simple substances.",
+    "term": "Producer"
+   },
+   {
+    "definition": "The plant tissue that carries water and mineral salts up from the roots to the leaves.",
+    "term": "Xylem"
+   },
+   {
+    "definition": "The plant tissue that transports sucrose and other dissolved food from the leaves to the rest of the plant.",
+    "term": "Phloem"
+   },
+   {
+    "definition": "An insoluble polysaccharide that plants store in leaves, stems, roots and tubers as an energy reserve.",
+    "term": "Starch"
+   },
+   {
+    "definition": "Light energy, chlorophyll, carbon dioxide and water.",
+    "term": "Four requirements for photosynthesis"
+   },
+   {
+    "definition": "Glucose, which the plant uses or stores, and oxygen, which is released.",
+    "term": "Two products of photosynthesis"
+   },
+   {
+    "definition": "Converts it to starch for storage, to cellulose for cell walls, or to sucrose for transport.",
+    "term": "Three things a plant does with surplus glucose"
+   },
+   {
+    "definition": "Carbon dioxide enters the leaf and oxygen leaves it.",
+    "term": "Two gases exchanged through the stomata"
+   },
+   {
+    "definition": "From the roots, up the stem to the leaves, through the xylem.",
+    "term": "Route taken by water in a plant"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Green plants make glucose from carbon dioxide and water, using light energy. This process is photosynthesis.",
+    "h": "Photosynthesis: the reaction",
+    "points": [
+     "Word equation: carbon dioxide + water, in the presence of light and chlorophyll, gives glucose + oxygen.",
+     "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.",
+     "Chlorophyll, the green pigment in the chloroplasts of leaf cells, absorbs light energy and uses it to drive the reaction.",
+     "Diagram: leaf cross-section labelled with stomata, palisade cells containing chloroplasts, and arrows showing carbon dioxide entering and oxygen leaving."
+    ]
+   },
+   {
+    "h": "Getting the raw materials to the leaf",
+    "points": [
+     "Carbon dioxide diffuses into the leaf through stomata, small pores mainly on the lower surface.",
+     "Root hair cells absorb water, which is carried up the stem to the leaves in the xylem.",
+     "Oxygen, the by-product of photosynthesis, diffuses out of the leaf through the stomata."
+    ]
+   },
+   {
+    "h": "What the plant does with its glucose",
+    "points": [
+     "Glucose is used in respiration, releasing energy for growth and the plant's other processes.",
+     "Surplus glucose is joined into starch, an insoluble store kept in leaves, stems, roots and tubers such as potatoes.",
+     "Glucose is converted to sucrose, which is carried in the phloem to other parts of the plant.",
+     "Glucose is joined into cellulose, the main structural material of plant cell walls."
+    ]
+   },
+   {
+    "h": "Photosynthesis and human nutrition",
+    "points": [
+     "Plants are producers: people and animals obtain their carbohydrates by eating plants, or animals that have eaten plants.",
+     "The sugars, starch and fibre in the diet all trace back to photosynthesis.",
+     "Photosynthesis releases the oxygen that the body uses in aerobic respiration."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Light energy is absorbed by chlorophyll in the chloroplasts. Carbon dioxide enters the leaf through the stomata and water is absorbed by the roots and carried to the leaves in the xylem. The reaction produces glucose, and oxygen is released as a by-product through the stomata.",
+    "prompt": "Explain how a green plant converts carbon dioxide and water into glucose, naming the energy source and the gas released.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Glucose is formed in the chloroplasts of leaf cells by photosynthesis. The plant uses some glucose in respiration to release energy for growth. Surplus glucose is joined into starch and stored in leaves, stems, roots and tubers. Glucose is converted to sucrose and transported in the phloem to other parts of the plant. Glucose is also joined into cellulose to build cell walls. People depend on photosynthesis because plants are producers: all dietary carbohydrate comes directly from plants or from animals that eat plants. Photosynthesis also releases the oxygen needed for aerobic respiration.",
+    "prompt": "Trace the route of carbohydrate from its formation in a leaf to its storage and use within the plant, and explain why photosynthesis matters to people.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-carbohydrates-s2": {
+  "keyTerms": [
+   {
+    "definition": "A carbohydrate with one sugar unit, such as glucose, fructose or galactose.",
+    "term": "Monosaccharide"
+   },
+   {
+    "definition": "A carbohydrate formed from two monosaccharide units joined together.",
+    "term": "Disaccharide"
+   },
+   {
+    "definition": "A carbohydrate made of many monosaccharide units joined in long chains, such as starch or cellulose.",
+    "term": "Polysaccharide"
+   },
+   {
+    "definition": "The bond that joins two sugar units in a disaccharide or polysaccharide.",
+    "term": "Glycosidic link"
+   },
+   {
+    "definition": "A reaction in which two molecules join and a small molecule, usually water, is removed.",
+    "term": "Condensation reaction"
+   },
+   {
+    "definition": "The straight-chain component of starch, made of glucose units.",
+    "term": "Amylose"
+   },
+   {
+    "definition": "The branched component of starch, made of glucose units.",
+    "term": "Amylopectin"
+   },
+   {
+    "definition": "A highly branched glucose polymer that is the animal storage form of carbohydrate.",
+    "term": "Glycogen"
+   },
+   {
+    "definition": "One of two or more compounds with the same molecular formula but different atomic arrangements, such as glucose and fructose.",
+    "term": "Isomer"
+   },
+   {
+    "definition": "Carbon, hydrogen and oxygen.",
+    "term": "Three elements found in carbohydrates"
+   },
+   {
+    "definition": "Glucose, fructose and galactose.",
+    "term": "Three monosaccharides"
+   },
+   {
+    "definition": "Sucrose, lactose and maltose.",
+    "term": "Three disaccharides"
+   },
+   {
+    "definition": "Starch, glycogen, cellulose and pectin.",
+    "term": "Four polysaccharides"
+   },
+   {
+    "definition": "C₆H₁₂O₆.",
+    "term": "Chemical formula of the monosaccharides"
+   },
+   {
+    "definition": "Sucrose, the table sugar.",
+    "term": "Disaccharide formed from glucose and fructose"
+   },
+   {
+    "definition": "Lactose, the sugar found in milk.",
+    "term": "Disaccharide formed from glucose and galactose"
+   },
+   {
+    "definition": "Maltose, which forms when starch is broken down during the germination of barley.",
+    "term": "Disaccharide formed from two glucose units"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Elements in carbohydrates",
+    "points": [
+     "Carbohydrates contain carbon, hydrogen and oxygen only; they contain no nitrogen.",
+     "Carbohydrates have hydrogen and oxygen in a 2:1 ratio, the same as in water, which is why they are described as hydrated carbon."
+    ]
+   },
+   {
+    "b": "Carbohydrates are grouped by the number of sugar units in each molecule.",
+    "h": "Classification by number of sugar units",
+    "points": [
+     "Monosaccharides (simple sugars) have one sugar unit: glucose, fructose and galactose, each with the formula C₆H₁₂O₆.",
+     "Disaccharides (double sugars) have two sugar units: sucrose, lactose and maltose, each with the formula C₁₂H₂₂O₁₁.",
+     "Polysaccharides (complex carbohydrates) have many sugar units joined in long chains: starch, glycogen, cellulose and pectin, with the general formula (C₆H₁₀O₅)ₙ."
+    ]
+   },
+   {
+    "h": "Basic structure of a monosaccharide (Higher Level only)",
+    "points": [
+     "A monosaccharide is a single sugar unit that cannot be split by hydrolysis into a simpler sugar.",
+     "Glucose has six carbon atoms, twelve hydrogen atoms and six oxygen atoms per molecule.",
+     "In solution, glucose forms a ring structure with hydroxyl (–OH) groups attached to the carbon atoms; these groups take part in linking sugar units together.",
+     "Fructose and galactose have the same formula as glucose, C₆H₁₂O₆, but their atoms are arranged differently.",
+     "Diagram: glucose molecule drawn as a ring, with the carbon atoms numbered and the hydroxyl groups labelled."
+    ]
+   },
+   {
+    "h": "Formation of disaccharides and polysaccharides (Higher Level only)",
+    "points": [
+     "Two monosaccharides join by a condensation reaction, in which one molecule of water is eliminated as the bond forms.",
+     "The bond between two sugar units is called a glycosidic link.",
+     "Glucose + glucose gives maltose; glucose + fructose gives sucrose; glucose + galactose gives lactose.",
+     "Polysaccharides form when many monosaccharide units join in the same way, with a molecule of water lost at each link.",
+     "Starch is a mixture of amylose, which has straight chains of glucose, and amylopectin, which has branched chains.",
+     "Glycogen is a highly branched polymer of glucose, the form in which animals store carbohydrate.",
+     "Cellulose has unbranched chains of glucose units held side by side by hydrogen bonds, forming strong fibres in plant cell walls.",
+     "Diagram: two glucose units joined by a glycosidic link, labelled with the water molecule released, and the resulting maltose molecule."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Monosaccharides: formula C₆H₁₂O₆, example glucose (or fructose or galactose). Disaccharides: formula C₁₂H₂₂O₁₁, example sucrose (or lactose or maltose). Polysaccharides: formula (C₆H₁₀O₅)ₙ, example starch (or glycogen, cellulose or pectin). Each group is defined by the number of sugar units it contains.",
+    "prompt": "Classify carbohydrates into three groups, giving the chemical formula and one example for each group.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "A monosaccharide is a single sugar unit with the formula C₆H₁₂O₆; glucose has six carbon, twelve hydrogen and six oxygen atoms and forms a ring in solution with hydroxyl groups. A disaccharide forms when two monosaccharides join by a condensation reaction, eliminating one molecule of water and creating a glycosidic link; example: sucrose from glucose and fructose, formula C₁₂H₂₂O₁₁. A polysaccharide forms when many monosaccharide units join in the same way, with water lost at each link; example: starch, made of amylose and amylopectin chains. Marks are for the monosaccharide structure, the condensation reaction with water lost, and a named example of each class.",
+    "prompt": "Describe the basic chemical structure of a monosaccharide, explain how a disaccharide and a polysaccharide are formed, and give one example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-carbohydrates-s3": {
+  "keyTerms": [
+   {
+    "definition": "The disaccharide made of glucose and fructose, extracted from sugar beet and sugar cane as table sugar.",
+    "term": "Sucrose"
+   },
+   {
+    "definition": "The disaccharide made of glucose and galactose, found in milk and milk products.",
+    "term": "Lactose"
+   },
+   {
+    "definition": "The disaccharide made of two glucose units, produced when starch breaks down during the germination of barley.",
+    "term": "Maltose"
+   },
+   {
+    "definition": "A polysaccharide that is the main carbohydrate in cereals, potatoes, rice and pasta.",
+    "term": "Starch"
+   },
+   {
+    "definition": "A non-starch polysaccharide found in the cell walls of fruit, especially apples and citrus fruit.",
+    "term": "Pectin"
+   },
+   {
+    "definition": "A plant polysaccharide, such as cellulose or pectin, that the human digestive system cannot break down and that forms dietary fibre.",
+    "term": "Non-starch polysaccharide"
+   },
+   {
+    "definition": "The outer layer of a cereal grain, rich in cellulose and removed when grain is refined into white flour.",
+    "term": "Bran"
+   },
+   {
+    "definition": "Potatoes, rice, pasta and bread.",
+    "term": "Four sources of starch in the diet"
+   },
+   {
+    "definition": "Fruit and honey.",
+    "term": "Sources of fructose"
+   },
+   {
+    "definition": "It is released when lactose is digested; it is not usually eaten free.",
+    "term": "Where galactose comes from in the diet"
+   },
+   {
+    "definition": "The skins of fruit and vegetables, and wholegrain cereals and bran.",
+    "term": "Two sources of cellulose"
+   },
+   {
+    "definition": "Sunflower, pumpkin, sesame and linseed.",
+    "term": "Four seeds high in fibre"
+   },
+   {
+    "definition": "Barley, through germinated grain used to make malt.",
+    "term": "Main source of maltose"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Sources of monosaccharides",
+    "points": [
+     "Glucose and fructose occur naturally in fruit; fructose is also the main sugar in honey.",
+     "Galactose is not usually eaten free; it is released when lactose, the sugar in milk, is digested.",
+     "Glucose syrup, a refined sugar used in sweets and processed foods, is a source of glucose in the diet."
+    ]
+   },
+   {
+    "h": "Sources of disaccharides",
+    "points": [
+     "Sucrose, the table sugar, is extracted from sugar beet and sugar cane; it also occurs naturally in many fruit and vegetables.",
+     "Lactose is the sugar found in milk and milk products such as yoghurt and cheese.",
+     "Maltose is produced when starch is broken down during the germination of barley, the basis of malt.",
+     "Added sugars are found in biscuits, cakes, sweets, jam, fizzy drinks and breakfast cereals."
+    ]
+   },
+   {
+    "h": "Sources of starch",
+    "points": [
+     "Potatoes, rice, pasta and bread are the main starch foods in the Irish diet.",
+     "Cereal grains such as wheat, oats, barley, maize and rice are rich sources of starch; flour is made from ground grain.",
+     "Pulses such as peas, beans and lentils, and root vegetables, contain starch as well as fibre.",
+     "Porridge oats and many breakfast cereals are starch-based."
+    ]
+   },
+   {
+    "h": "Sources of non-starch polysaccharides (dietary fibre)",
+    "points": [
+     "Cellulose is found in the skins of fruit and vegetables, in leafy vegetables, in wholegrain cereals and in bran.",
+     "Pectin is found in the cell walls of fruit, especially apples and citrus fruit.",
+     "Wholemeal bread, brown rice and wholemeal pasta contain more fibre than white versions because the bran is retained in the grain.",
+     "Seeds such as sunflower, pumpkin, sesame and linseed are high in fibre, as are nuts and dried beans and lentils.",
+     "Settings: a collage or poster grouping foods by the type of carbohydrate they contain."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Monosaccharide: glucose from fruit, or fructose from honey. Disaccharide: sucrose from table sugar, or lactose from milk. Polysaccharide: starch from potatoes, or cellulose from the skins of vegetables.",
+    "prompt": "Name one dietary source of a monosaccharide, one of a disaccharide and one of a polysaccharide.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Sugars: table sugar, honey, fruit, milk (lactose), and added sugars in biscuits, cakes, sweets, jam, fizzy drinks and cereals. Starch: potatoes, rice, pasta, bread, flour, breakfast cereals, porridge oats, peas, beans and lentils. Non-starch polysaccharides: skins of fruit and vegetables, wholegrain cereals, bran, seeds, nuts, pulses, apples and citrus fruit (pectin). Improvement: wholegrain bread, brown rice and pasta replace white versions to add fibre; fresh fruit replaces sugary snacks and juice; whole fruit and vegetables eaten with the skins on; naturally sugar-containing foods such as milk and fruit supply vitamins and minerals alongside their sugar.",
+    "prompt": "Give an account of the dietary sources of sugars, starch and non-starch polysaccharides, and explain how choosing particular sources can improve the nutritional quality of the diet.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-carbohydrates-s4": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of a compound by reaction with water, which splits the bond between its units.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "The hydrolysis of sucrose into glucose and fructose, caused by heating with an acid or by the enzyme invertase.",
+    "term": "Inversion"
+   },
+   {
+    "definition": "The mixture of glucose and fructose produced when sucrose is inverted, which resists crystallisation.",
+    "term": "Invert sugar"
+   },
+   {
+    "definition": "The browning of sugar when it is heated alone, producing caramel with a distinctive flavour.",
+    "term": "Caramelisation"
+   },
+   {
+    "definition": "The formation of sugar crystals from a concentrated sugar solution as it cools.",
+    "term": "Crystallisation"
+   },
+   {
+    "definition": "The formation of brown dextrins from starch when dry heat is applied.",
+    "term": "Dextrinisation"
+   },
+   {
+    "definition": "The swelling and bursting of starch granules in a heated liquid, which thickens the liquid into a sol.",
+    "term": "Gelatinisation"
+   },
+   {
+    "definition": "Describes a substance that absorbs moisture from the air, as starch and sugar do.",
+    "term": "Hygroscopic"
+   },
+   {
+    "definition": "A polysaccharide in fruit that forms a gel with sugar and acid.",
+    "term": "Pectin"
+   },
+   {
+    "definition": "The browning and flavour development that occurs when sugar and amino acids react under dry heat.",
+    "term": "Maillard reaction"
+   },
+   {
+    "definition": "Salivary amylase, pancreatic amylase, maltase, sucrase and lactase.",
+    "term": "Five enzymes that digest carbohydrates"
+   },
+   {
+    "definition": "Pectin, sugar and acid.",
+    "term": "Three ingredients needed for jam to set"
+   },
+   {
+    "definition": "Glucose and fructose, forming invert sugar.",
+    "term": "Monosaccharides formed when sucrose is inverted"
+   },
+   {
+    "definition": "Gelatinisation of starch, which thickens liquids, and softening of cellulose in vegetable cell walls.",
+    "term": "Two effects of moist heat on carbohydrates"
+   },
+   {
+    "definition": "Preservation, gel formation with pectin, and inversion, which stops large crystals forming.",
+    "term": "Three properties of sugar that matter in jam making"
+   },
+   {
+    "definition": "The glycosidic link, formed by a condensation reaction that releases water.",
+    "term": "Bond that links glucose units in starch"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Sweetness and solubility of sugars",
+    "points": [
+     "All sugars are sweet, but to different degrees: fructose is sweeter than sucrose, and lactose is the least sweet of the common sugars.",
+     "Sugars dissolve readily in water, and solubility increases as the water is heated.",
+     "A sugar syrup forms when sugar dissolves in heated water; syrups are used to sweeten drinks and sauces and to make icing."
+    ]
+   },
+   {
+    "b": "Starch behaves differently from sugar: it is insoluble in cold water and must be heated to thicken a liquid.",
+    "h": "Starch: gelatinisation and hygroscopic properties",
+    "points": [
+     "Gelatinisation: when starch is heated in a liquid, the granules swell, burst and absorb the liquid, thickening it into a sol (a colloidal solution).",
+     "Gelatinised starch thickens white sauces, custard, soups, gravies and fillings for pies and flans.",
+     "A roux is a mixture of fat and flour cooked before liquid is added; the starch in the flour gelatinises as the liquid is stirred in.",
+     "Starch is hygroscopic: it absorbs moisture from the air, so dry starchy foods soften if they are stored in a damp place."
+    ]
+   },
+   {
+    "h": "Effects of dry and moist heat on carbohydrates in cooking",
+    "points": [
+     "Dry heat (roasting, baking, toasting) browns the surface of starchy and sugary foods and gives them a crisp texture.",
+     "Moist heat (boiling, steaming, stewing) gelatinises starch, thickening sauces and puddings.",
+     "Moist heat softens the cellulose in vegetable cell walls, so vegetables become tender when cooked.",
+     "Sugar dissolves in the cooking juices of stewed fruit, producing a syrup that carries the flavour of the fruit."
+    ]
+   },
+   {
+    "h": "Enzymes in the digestion of carbohydrates",
+    "points": [
+     "Salivary amylase in the mouth begins breaking starch down into smaller polysaccharides and maltose.",
+     "Pancreatic amylase, released into the small intestine, completes the breakdown of starch to maltose.",
+     "Maltase, sucrase and lactase, made by the small intestine, split maltose, sucrose and lactose into monosaccharides.",
+     "Only monosaccharides (glucose, fructose and galactose) can pass through the wall of the small intestine into the blood.",
+     "Human digestive enzymes cannot break down cellulose, so it passes through the intestine as dietary fibre."
+    ]
+   },
+   {
+    "h": "Culinary properties of sugar",
+    "points": [
+     "Preservation: sugar draws water out of microorganisms, slowing spoilage in jam, chutney and crystallised fruit.",
+     "Fermentation: sugar is the food for yeast, which produces carbon dioxide that makes bread dough rise.",
+     "Aeration: creamed sugar and fat trap air in sponge cakes, and sugar stabilises the foam of whisked egg white in meringue.",
+     "Maillard reaction: sugar reacts with amino acids when heated dry, browning and flavouring roasted meat, toast and baked goods.",
+     "Gel formation: sugar, acid and pectin together set jam into a gel."
+    ]
+   },
+   {
+    "h": "Hydrolysis and inversion (Higher Level only)",
+    "points": [
+     "Hydrolysis is the breakdown of a compound by reaction with water, in which the bond between two units is split and water is added across it.",
+     "Hydrolysis of a disaccharide gives its monosaccharide units: sucrose gives glucose and fructose, and lactose gives glucose and galactose.",
+     "Inversion is the hydrolysis of sucrose by heating with an acid, or by the enzyme invertase, producing invert sugar: a mixture of glucose and fructose.",
+     "Invert sugar is less likely to crystallise than sucrose, so it is used in jam and boiled sweets."
+    ]
+   },
+   {
+    "h": "Caramelisation, crystallisation and dextrinisation (Higher Level only)",
+    "points": [
+     "Caramelisation: heating sugar alone makes it melt and then brown into caramel with a distinctive flavour; overheating makes caramel dark and bitter.",
+     "Caramel is used in caramel sauce, crème caramel and toffee.",
+     "Crystallisation: sugar crystals form when a sugar solution is more concentrated than the liquid can hold and then cools.",
+     "Controlled crystallisation gives the texture of fudge and fondant, while unwanted large crystals make jam grainy.",
+     "Dextrinisation: dry heat breaks starch down into shorter chains of glucose units called dextrins, which are brown in colour.",
+     "Dextrinisation gives toast and the crust of baked bread their brown colour and flavour."
+    ]
+   },
+   {
+    "h": "Pectin extraction and gel formation (Higher Level only)",
+    "points": [
+     "Pectin is extracted from fruit, especially apples and citrus peel, by simmering the fruit in water acidified with lemon juice.",
+     "A pectin gel forms only when pectin, sugar and acid are present in the right proportions, and the mixture is boiled and then cooled.",
+     "During cooling, pectin molecules link into a network that traps the liquid, so the jam sets.",
+     "Unripe fruit contains more pectin than ripe fruit, so under-ripe apples are a good source of pectin for jam."
+    ]
+   },
+   {
+    "h": "Investigation: caramelisation of sugar (Higher Level only)",
+    "points": [
+     "Aim: to observe how granulated sugar changes when it is heated on its own, with no water added.",
+     "Method: place a measured quantity of granulated sugar in a dry, heavy-based pan on a low heat, stirring gently as it melts, and note the colour at regular intervals.",
+     "Variables: heating time is the independent variable; colour, smell and taste are the dependent variables.",
+     "Control: a sample of the same sugar left unheated, for comparison.",
+     "Safety: molten sugar is extremely hot and causes severe burns; use heatproof utensils and keep hands and skin away from the pan.",
+     "Expected results: the colour darkens gradually from pale to golden, then deep brown, and the caramel smell strengthens."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Caramelisation: heated sugar melts and browns to caramel, used in crème caramel or caramel sauce. Crystallisation: sugar crystals form from a concentrated solution as it cools, used in fudge or fondant. Other acceptable properties: solubility (syrups for icing), Maillard browning (roasted meat), aeration (sponge cakes), preservation (jam), fermentation (bread).",
+    "prompt": "Describe two properties of sugar that are useful in cooking, giving a culinary example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Dry heat: starch is converted to brown dextrins (dextrinisation), giving toast and baked bread a brown colour; sugar caramelises and reacts with amino acids in the Maillard reaction, browning and flavouring roasted foods. Moist heat: starch granules swell, burst and absorb liquid (gelatinisation), thickening sauces, custard and soup; cellulose in vegetable cell walls softens so vegetables become tender. Digestion: salivary amylase in the mouth and pancreatic amylase in the small intestine break starch down to maltose; maltase, sucrase and lactase split maltose, sucrose and lactose into monosaccharides, which are absorbed into the blood; cellulose is not broken down and passes through as fibre.",
+    "prompt": "Explain how dry heat and moist heat change carbohydrates during cooking, and describe how enzymes break down carbohydrates during digestion.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-carbohydrates-s5": {
+  "keyTerms": [
+   {
+    "definition": "The wave-like contraction of the intestinal muscles that moves food along the digestive tract.",
+    "term": "Peristalsis"
+   },
+   {
+    "definition": "The reserve of glycogen kept in the liver and muscles, which can be converted back to glucose for energy.",
+    "term": "Glycogen store"
+   },
+   {
+    "definition": "The use of carbohydrate for energy so that protein is available for growth and repair.",
+    "term": "Protein sparing"
+   },
+   {
+    "definition": "Body fat stored under the skin and around organs, which stores energy and insulates the body.",
+    "term": "Adipose tissue"
+   },
+   {
+    "definition": "Fibre that dissolves or swells in water, such as pectin, which slows the absorption of glucose.",
+    "term": "Soluble fibre"
+   },
+   {
+    "definition": "An ingredient, such as pectin, that forms a gel and gives a food its set.",
+    "term": "Gelling agent"
+   },
+   {
+    "definition": "How pleasant a food is to taste and eat, which sugar improves.",
+    "term": "Palatability"
+   },
+   {
+    "definition": "Providing heat and energy, sparing protein, and storing energy as glycogen or adipose tissue.",
+    "term": "Three functions of carbohydrate in the body"
+   },
+   {
+    "definition": "It absorbs water, adds bulk, stimulates peristalsis and prevents constipation.",
+    "term": "Four ways fibre helps the bowel"
+   },
+   {
+    "definition": "It gives a feeling of fullness, and it slows the release of glucose into the blood.",
+    "term": "Two ways fibre helps control appetite"
+   },
+   {
+    "definition": "Constipation, haemorrhoids, diverticular disease and colon cancer.",
+    "term": "Four conditions linked to low fibre intake"
+   },
+   {
+    "definition": "Setting jam and jelly, and acting as a gelling agent in some confectionery and desserts.",
+    "term": "Two culinary functions of pectin"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Carbohydrate is the body's main and fastest source of energy.",
+    "h": "Biological functions of sugars and starch",
+    "points": [
+     "Heat and energy: glucose is oxidised in respiration, releasing energy for movement, growth and maintaining body temperature.",
+     "The brain relies on glucose as its main fuel.",
+     "Protein sparing: because carbohydrate supplies energy, protein is kept for growth and repair rather than being used for energy.",
+     "Glycogen store: surplus glucose is converted to glycogen and stored in the liver and muscles as a short-term energy reserve.",
+     "Fat storage: when glycogen stores are full, excess glucose is converted to fat and stored as adipose tissue, which also insulates the body.",
+     "Starch is digested to glucose in the body, so it provides the same energy as sugars."
+    ]
+   },
+   {
+    "h": "Biological functions of dietary fibre",
+    "points": [
+     "Fibre absorbs water and adds bulk to the contents of the intestine.",
+     "The bulk stimulates peristalsis, the wave-like muscular contraction that moves food through the intestine.",
+     "Regular movement of the bowel prevents constipation and reduces the straining that causes haemorrhoids (piles).",
+     "Low fibre intake is a risk factor for constipation, haemorrhoids, diverticular disease and colon cancer.",
+     "Fibre gives a feeling of fullness, which helps control appetite and body weight.",
+     "Soluble fibre such as pectin slows the release of glucose into the blood and helps to lower LDL cholesterol."
+    ]
+   },
+   {
+    "h": "Culinary functions of sugars",
+    "points": [
+     "Sweetening and flavouring cakes, desserts, drinks, sauces and sweets.",
+     "Preserving jam, chutney, syrup and crystallised fruit.",
+     "Feeding yeast so that bread dough rises.",
+     "Browning and caramel flavour in baked goods, glazes and crème caramel.",
+     "Giving the texture of fudge, fondant and boiled sweets through controlled crystallisation.",
+     "Giving volume to sponge cakes and meringues."
+    ]
+   },
+   {
+    "h": "Culinary functions of starch and pectin",
+    "points": [
+     "Starch thickens sauces, soups and gravies, and binds the fat and flour of a roux.",
+     "Starch gives structure to batters, pastry and bread.",
+     "Pectin sets fruit preparations into jam and jelly.",
+     "Pectin is used as a gelling agent and stabiliser in some confectionery and desserts."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Fibre absorbs water and adds bulk to the intestinal contents. The bulk stimulates peristalsis, moving food through the intestine. Together these prevent constipation and reduce the straining that causes haemorrhoids, and they lower the risk of diverticular disease.",
+    "prompt": "Outline two ways in which dietary fibre supports the health of the bowel.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Energy: glucose is oxidised in respiration to release heat and energy for movement and growth; the brain depends on glucose. Protein sparing: carbohydrate supplies energy, so protein is kept for growth and repair. Storage: surplus glucose is stored as glycogen in the liver and muscles, and excess beyond that is converted to fat stored as adipose tissue, which insulates the body. Fibre: absorbs water, adds bulk, stimulates peristalsis, prevents constipation, gives fullness and slows glucose release. Cooking: starch thickens sauces and soups, binds a roux and gives structure to pastry and bread; pectin sets jam and acts as a gelling agent in desserts.",
+    "prompt": "Explain the functions of carbohydrates in the body, referring to energy, protein sparing and storage, and the functions of starch and pectin in cooking.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-carbohydrates-s6": {
+  "keyTerms": [
+   {
+    "definition": "The amount of energy a food provides, measured in kilojoules (kJ) or kilocalories (kcal).",
+    "term": "Energy value"
+   },
+   {
+    "definition": "A unit of energy, commonly called a Calorie, equal to about 4.2 kilojoules.",
+    "term": "Kilocalorie"
+   },
+   {
+    "definition": "The part of plant food made of non-starch polysaccharides that the human digestive system does not break down.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "A plant polysaccharide, such as cellulose or pectin, that forms dietary fibre.",
+    "term": "Non-starch polysaccharide"
+   },
+   {
+    "definition": "A sweetener that is many times sweeter than sugar and so is needed in very small amounts.",
+    "term": "Intense sweetener"
+   },
+   {
+    "definition": "A sweetener, such as sorbitol, that has a similar bulk to sugar and provides some energy.",
+    "term": "Bulk sweetener"
+   },
+   {
+    "definition": "A substance that absorbs and holds moisture, keeping a food from drying out.",
+    "term": "Humectant"
+   },
+   {
+    "definition": "The Irish food guide that places bread, cereals, potatoes, rice and pasta at its base as the foods to eat most of.",
+    "term": "Food Pyramid"
+   },
+   {
+    "definition": "Protein 17 kJ (4 kcal), carbohydrate 16 kJ (3.75 kcal), fat 37 kJ (9 kcal) and alcohol 29 kJ (7 kcal).",
+    "term": "Energy values per gram of protein, carbohydrate, fat and alcohol"
+   },
+   {
+    "definition": "Aspartame and saccharin.",
+    "term": "Two intense sweeteners"
+   },
+   {
+    "definition": "Sorbitol, mannitol and xylitol.",
+    "term": "Three bulk sweeteners"
+   },
+   {
+    "definition": "Tooth decay, weight gain and obesity, type 2 diabetes, and heart disease.",
+    "term": "Four effects of high sugar intake"
+   },
+   {
+    "definition": "Reduce the sugar in recipes, use spices, vanilla or ripe fruit for flavour, avoid adding sugar to drinks and cereals, and use unsweetened fruit in desserts.",
+    "term": "Four strategies for reducing sugar when preparing food"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Energy value of carbohydrates",
+    "points": [
+     "Carbohydrate provides 16 kJ (3.75 kcal) per gram; sugars and starch have the same energy value.",
+     "For comparison, protein provides 17 kJ (4 kcal) per gram, fat 37 kJ (9 kcal) per gram and alcohol 29 kJ (7 kcal) per gram.",
+     "Fibre is not digested, so it contributes little usable energy.",
+     "Energy from a food is calculated by multiplying the grams of carbohydrate by 16 kJ, or by 3.75 kcal.",
+     "Worked example: 30 g of sugar provides 30 × 16 = 480 kJ, or 30 × 3.75 = 112.5 kcal.",
+     "Settings: a comparative study of the energy value of foods with and without added sugar, such as two breakfast cereals, using the carbohydrate and energy figures on their labels.",
+     "Settings: compare the energy in a food, such as a bar of chocolate, with the time an activity takes to use it up."
+    ]
+   },
+   {
+    "h": "Contribution of carbohydrates to the average diet",
+    "points": [
+     "The Food Pyramid places bread, cereals, potatoes, rice and pasta at its base, so they should supply the largest share of the energy in the diet.",
+     "Foods with added sugar supply energy but few other nutrients, so they are described as energy-dense and nutrient-poor.",
+     "Replacing sugary foods with wholegrain starchy foods, fruit and vegetables raises the intake of fibre and vitamins."
+    ]
+   },
+   {
+    "h": "Dietary fibre: EFSA recommendation and how to meet it",
+    "points": [
+     "The European Food Safety Authority (EFSA) recommends a daily intake of dietary fibre for adults, measured as non-starch polysaccharides.",
+     "Irish healthy eating guidance from the Department of Health and the Food Pyramid advises eating plenty of wholegrain cereals, fruit and vegetables every day.",
+     "Choose wholegrain or wholemeal bread, brown rice and wholemeal pasta in place of white versions.",
+     "Eat fruit and vegetables with their skins on, and bake or boil potatoes in their jackets, since most of the fibre in a potato is in the skin.",
+     "Add pulses such as beans, lentils and peas to soups, stews and salads.",
+     "Add seeds such as sunflower, pumpkin and linseed, bran or porridge oats to breakfast cereals, yoghurt and salads.",
+     "Check the fibre content per 100 g on the nutrition label when choosing breakfast cereals.",
+     "Snack on fresh fruit, dried fruit or a handful of nuts instead of biscuits or crisps."
+    ]
+   },
+   {
+    "h": "Reducing sugar intake",
+    "points": [
+     "Read ingredient lists: added sugars appear under names such as sucrose, glucose syrup, fructose, honey, cane sugar and fruit juice concentrate.",
+     "Choose reduced-sugar or sugar-free versions of drinks, jams, cereals and yoghurts.",
+     "Replace fizzy drinks with water or with fruit juice diluted with sparkling water.",
+     "Eat whole fruit rather than juices or smoothies, which contain less fibre.",
+     "Do not add sugar to tea, coffee or breakfast cereals; reduce the sugar in recipes and use spices, vanilla or ripe fruit for flavour.",
+     "Limit sweets, biscuits, cakes and sweet sauces, and keep fruit or vegetable sticks as snacks."
+    ]
+   },
+   {
+    "h": "Effects of high sugar intake",
+    "points": [
+     "Tooth decay: bacteria in plaque ferment sugar to produce acid, which dissolves the enamel of the teeth.",
+     "Weight gain and obesity: sugary foods are energy-dense, so regular intake adds to excess energy intake.",
+     "Type 2 diabetes: a diet high in sugar and energy is a risk factor for type 2 diabetes, which is linked to excess body weight.",
+     "Heart disease and high blood pressure: high sugar intake is associated with a higher risk of heart disease and raised blood pressure.",
+     "Nutritional deficiency: foods high in sugar displace fruit, vegetables and other nutrient-rich foods from the diet."
+    ]
+   },
+   {
+    "h": "Artificial sweeteners",
+    "points": [
+     "Intense sweeteners, such as aspartame and saccharin, are many times sweeter than sugar, so only tiny amounts are needed and they add almost no energy.",
+     "Bulk sweeteners, such as sorbitol, mannitol and xylitol, have a similar bulk to sugar and provide some energy.",
+     "Sorbitol and other bulk sweeteners act as humectants: they retain moisture and stop products drying out.",
+     "Sweeteners are used in low-calorie, sugar-free and diabetic foods, drinks and confectionery.",
+     "Sweeteners cannot replace all of sugar's functions: they do not provide the bulk, browning or preserving action of sugar."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Energy value of carbohydrate: 16 kJ per gram. 40 × 16 = 640 kJ. Energy value of carbohydrate in kilocalories: 3.75 kcal per gram. 40 × 3.75 = 150 kcal.",
+    "prompt": "Calculate the energy provided by 40 g of starch, giving your answer in kilojoules and in kilocalories, and show your working.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Fibre: swap white bread, rice and pasta for wholegrain versions; eat fruit and vegetables with skins on; add pulses to soups, stews and salads; add seeds, bran or porridge oats to cereals; choose high-fibre breakfast cereals and check the fibre per 100 g on the label; snack on fruit or nuts. Sugar: read ingredient lists for added sugars under names such as sucrose, glucose syrup, honey and fruit juice concentrate; choose reduced-sugar drinks and cereals; replace fizzy drinks with water or diluted juice; eat whole fruit rather than juice; do not add sugar to tea, coffee or cereals; limit sweets, biscuits and cakes. Effects of high sugar: tooth decay from acid produced by plaque bacteria; weight gain and obesity from energy-dense foods; type 2 diabetes; heart disease and high blood pressure; displacement of fruit, vegetables and other nutrient-rich foods, leading to nutritional deficiency. Sweeteners may reduce sugar and energy intake but cannot replace sugar's bulk, browning or preserving action.",
+    "prompt": "Discuss how the average diet can be adjusted to meet the EFSA fibre recommendation and reduce sugar intake, and evaluate the effects of a diet high in sugar on health.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-cereals-grains-s1": {
   "keyTerms": [
    {
@@ -649,6 +1409,2127 @@
     "marks": 24,
     "model": "Preparation: cold fat is cut into pieces and mixed with flour and salt, then bound with cold water to form a dough. Folding: the dough is rolled into a rectangle, folded in three and turned a quarter turn, then this is repeated several times with chilling between turns, so that layers of dough and fat form. Cooking: the pastry is baked in a very hot preheated oven; the water in the fat turns to steam and pushes the layers apart, so the pastry rises and becomes flaky. Presentation: it is cut to size, with sharp edges, and used for sausage rolls, vol-au-vents or pie toppings, with even, golden layers. Principles: keep the fat cool so it stays in pieces; do not overhandle the dough; chill between turns and before cutting; roll evenly and avoid stretching; use a hot oven and do not let the fat melt before baking.",
     "prompt": "Describe the preparation, cooking and presentation of rough puff pastry, and explain the principles a cook must follow for the pastry to rise evenly and become flaky.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s1": {
+  "keyTerms": [
+   {
+    "definition": "A change that alters the appearance, size, state or texture of food without forming new substances.",
+    "term": "Physical change"
+   },
+   {
+    "definition": "A change that alters the molecular structure of food and forms new substances.",
+    "term": "Chemical change"
+   },
+   {
+    "definition": "The setting of egg or milk protein into a solid structure when it is heated.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "The swelling and thickening of starch granules as they absorb water and are heated.",
+    "term": "Gelatinisation"
+   },
+   {
+    "definition": "Browning of cut fruit or vegetables caused by enzymes reacting with oxygen and phenolic compounds.",
+    "term": "Enzymic browning"
+   },
+   {
+    "definition": "The enzyme in fruit and vegetables that causes enzymic browning when their cells are damaged.",
+    "term": "Polyphenol oxidase"
+   },
+   {
+    "definition": "A non-enzymic browning reaction between amino acids and reducing sugars under dry heat, producing colour and flavour.",
+    "term": "Maillard reaction"
+   },
+   {
+    "definition": "The browning of melted sugar under strong heat, producing caramel.",
+    "term": "Caramelisation"
+   },
+   {
+    "definition": "The breakdown of starch by dry heat into dextrins, which brown and crisp the surface of food.",
+    "term": "Dextrinisation"
+   },
+   {
+    "definition": "A vitamin, such as vitamin C or a B-group vitamin, that dissolves in water and is lost into cooking water.",
+    "term": "Water-soluble vitamin"
+   },
+   {
+    "definition": "Damaged cells releasing polyphenol oxidase, phenolic compounds in the food, and oxygen from the air.",
+    "term": "Three conditions needed for enzymic browning"
+   },
+   {
+    "definition": "Add acid such as lemon juice; exclude air by keeping the food under water or syrup; blanch vegetables to destroy the enzyme.",
+    "term": "Three ways to prevent enzymic browning"
+   },
+   {
+    "definition": "Amino acids and reducing sugars.",
+    "term": "Two reactants in the Maillard reaction"
+   },
+   {
+    "definition": "Maillard reaction, caramelisation and dextrinisation.",
+    "term": "Three non-enzymic browning processes"
+   },
+   {
+    "definition": "Bicarbonate of soda with an acid such as buttermilk, and baking powder.",
+    "term": "Two chemical raising agents"
+   },
+   {
+    "definition": "Shrinkage; increase in size from water absorption; tenderising of meat; thickening from starch gelatinisation.",
+    "term": "Four physical changes in food during cooking"
+   },
+   {
+    "definition": "Vitamin C and a B-group vitamin such as thiamine.",
+    "term": "Two water-soluble vitamins lost in cooking water"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A physical change alters the size, shape, state, colour or texture of food without forming new substances.",
+    "h": "Physical changes during cooking",
+    "points": [
+     "Coagulation: heat unfolds egg and milk proteins, which bond into a set structure, as in custard, scrambled egg and omelette.",
+     "Gelatinisation: starch granules absorb water and swell when heated, thickening sauces, gravies and custard.",
+     "Tenderising: long, moist cooking converts collagen in connective tissue into gelatine, making tough cuts of meat tender.",
+     "Shrinkage: meat loses water and melted fat during cooking, so it becomes smaller and lighter.",
+     "Increase in size: dried beans, pasta and rice absorb water and swell during cooking.",
+     "Colour change: meat turns from pink to brown or grey as its myoglobin is heated; green vegetables lose their bright colour as chlorophyll turns olive-brown in the presence of acid or with overcooking."
+    ]
+   },
+   {
+    "b": "A chemical change alters the molecular structure of food and forms new substances with different colours, flavours and textures.",
+    "h": "Chemical changes during cooking",
+    "points": [
+     "Chemical raising agent: bicarbonate of soda reacts with an acid such as buttermilk and releases carbon dioxide gas, which makes soda bread rise.",
+     "Baking powder contains bicarbonate of soda and an acid, and releases carbon dioxide when it is moistened and heated.",
+     "Biological raising agent: yeast feeds on sugar during fermentation and gives off carbon dioxide, which makes bread dough rise."
+    ]
+   },
+   {
+    "b": "Enzymic browning is a chemical change caused by enzymes in damaged fruit and vegetables. It happens without heat.",
+    "h": "Enzymic browning",
+    "points": [
+     "Cutting, peeling or bruising breaks cell walls and lets the enzyme polyphenol oxidase meet phenolic compounds in the food.",
+     "Oxygen from the air is needed: the enzyme oxidises the phenolic compounds, which then form brown pigments.",
+     "Examples: sliced apple, banana, avocado, potato and mushroom turning brown on standing.",
+     "Acid such as lemon juice lowers the pH and slows the enzyme's action; vitamin C (ascorbic acid) reduces the first brown products back to colourless compounds.",
+     "Keeping cut surfaces under water, sugar syrup or a layer of juice excludes oxygen.",
+     "Blanching vegetables in boiling water inactivates polyphenol oxidase before they are frozen.",
+     "Refrigeration slows enzyme activity but does not stop it."
+    ]
+   },
+   {
+    "h": "Investigation: controlling enzymic browning on a fresh apple",
+    "points": [
+     "Aim: to find which treatment best slows enzymic browning on a sliced apple.",
+     "Hypothesis: lemon juice will slow browning more than an untreated slice, because acid slows polyphenol oxidase.",
+     "Independent variable: the treatment applied to each slice, e.g. untreated (the control), dipped in lemon juice, dipped in sugar syrup, dipped in salt water.",
+     "Dependent variable: the degree of browning, rated on a 0 to 5 colour scale at fixed times.",
+     "Controlled variables: the same apple variety and ripeness, slices of the same thickness cut with the same knife, the same dipping time, the same room temperature and the same time after cutting.",
+     "Method: 1. Wash and dry the apple and cut it into slices of equal thickness. 2. Dip each treated slice for the same time, keeping one untreated slice as the control. 3. Lay all slices on labelled plates and record the colour of each every 5 minutes for 30 minutes.",
+     "Safety and hygiene: wash hands and the apple, use a clean board and a sharp knife held with a claw grip, and wipe up any spilled juice.",
+     "Expected result: the untreated control browns first and most, while the lemon juice slices stay palest for longest.",
+     "Evaluation: a rating by eye is subjective and apples vary, so repeat the test with several apples and average the ratings."
+    ]
+   },
+   {
+    "b": "Non-enzymic browning needs heat and does not involve enzymes. Its three processes are the Maillard reaction, caramelisation and dextrinisation.",
+    "h": "Non-enzymic browning",
+    "points": [
+     "Maillard reaction: amino acids from protein react with reducing sugars such as glucose when food is heated in dry conditions, producing brown colour and roasted flavour.",
+     "Maillard browning shows on roast meat and poultry skin, roast potatoes, toast and the crust of bread.",
+     "Little Maillard browning occurs in boiled or stewed food, because water keeps the surface below the temperature needed for browning.",
+     "Caramelisation: sugar melts and darkens under strong heat, forming caramel with a sweet, slightly bitter flavour; it needs no protein.",
+     "Caramelisation examples: caramel sauce, crème caramel and toffee.",
+     "Dextrinisation: dry heat breaks starch down into short-chain dextrins, which brown and give a crisp, golden surface.",
+     "Dextrinisation examples: toast, the golden top of a crumble, and the surface of baked biscuits."
+    ]
+   },
+   {
+    "h": "Loss of nutrients during preparation and cooking",
+    "points": [
+     "Water-soluble vitamins, vitamin C and the B group, dissolve into cooking water and are lost when it is poured away.",
+     "Vitamin C is also destroyed by heat and oxidation, so the longer vegetables are cooked and exposed to air, the more is lost.",
+     "Fat-soluble vitamins A, D, E and K are more stable in cooking but drain away with the fat from grilled or roasted food.",
+     "Minerals such as potassium and iron leach into cooking water along with the water-soluble vitamins.",
+     "Cutting vegetables into small pieces increases the surface exposed to water and air, and soaking them before cooking increases loss.",
+     "Peeling thinly or cooking in the skin reduces loss, because nutrients are concentrated just beneath the skin.",
+     "Holding cooked vegetables hot for long periods destroys further vitamin C.",
+     "Steaming, stir-frying and microwaving use little water and short cooking times, so they conserve more nutrients.",
+     "Cooking liquid from vegetables can be used in soups, sauces or gravies to recover some nutrients."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Cutting or bruising damages cell walls and releases the enzyme polyphenol oxidase. The enzyme acts on phenolic compounds in the presence of oxygen from the air, oxidising them to brown pigments. Prevention, any one of: add lemon juice, whose acid slows the enzyme; keep the cut surface under water or syrup to exclude oxygen; blanch vegetables in boiling water to destroy the enzyme before freezing.",
+    "prompt": "Explain how enzymic browning occurs in cut fruit and state one method of preventing it.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Physical changes: coagulation of egg protein, as in custard; gelatinisation of starch, thickening a sauce; tenderising of meat as collagen converts to gelatine in moist cooking; shrinkage of meat as water and fat are lost; increase in size of dried beans as they absorb water. Chemical changes: Maillard reaction between amino acids and reducing sugars under dry heat, browning roast meat and toast; caramelisation of sugar, as in toffee; dextrinisation of starch, as in toast; chemical raising agents releasing carbon dioxide, as in soda bread. Nutrient loss: water-soluble vitamins and minerals leach into cooking water, and vitamin C is destroyed by heat and air. Reducing loss: cut vegetables into large pieces just before cooking; use little water and a short cooking time; cook with a lid on; peel thinly or cook in the skin; steam or stir-fry; do not hold cooked vegetables hot for long; use the cooking liquid in soups or sauces.",
+    "prompt": "Describe the physical and chemical changes that take place in food during cooking, with examples, and explain how a cook can reduce the loss of nutrients when preparing vegetables.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s2": {
+  "keyTerms": [
+   {
+    "definition": "Heat transfer through a solid from one molecule to the next, without the material moving.",
+    "term": "Conduction"
+   },
+   {
+    "definition": "Heat transfer through a liquid or gas by currents formed as heated fluid rises and cooler fluid sinks.",
+    "term": "Convection"
+   },
+   {
+    "definition": "Heat transfer by infrared rays that travel in straight lines and heat the surface they strike.",
+    "term": "Radiation"
+   },
+   {
+    "definition": "Convection in which a fan circulates the hot air or liquid, as in a fan oven.",
+    "term": "Forced convection"
+   },
+   {
+    "definition": "The change in a protein's structure caused by heat, which makes the protein set.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "The connective tissue protein in meat that converts to gelatine during long, moist cooking.",
+    "term": "Collagen"
+   },
+   {
+    "definition": "The heat released when steam condenses on cooler food, which helps to cook it.",
+    "term": "Latent heat"
+   },
+   {
+    "definition": "The temperature range of 5 to 63 °C in which bacteria multiply quickly.",
+    "term": "Danger zone"
+   },
+   {
+    "definition": "Radiation, felt as heat, that is absorbed by the surface of food and not by the air around it.",
+    "term": "Infrared"
+   },
+   {
+    "definition": "Conduction, convection and radiation.",
+    "term": "Three heat transfer methods used in cooking"
+   },
+   {
+    "definition": "A heated liquid or gas becomes less dense and rises, while cooler, denser material sinks to take its place.",
+    "term": "What drives a convection current"
+   },
+   {
+    "definition": "Heat passing from a pan base into boiling water or fat; searing a steak in a pan; heat passing through a cake tin into the base of a cake.",
+    "term": "Three examples of conduction in cooking"
+   },
+   {
+    "definition": "Make food safe by destroying harmful micro-organisms; improve digestibility by denaturing protein and gelatinising starch; improve flavour, colour and texture.",
+    "term": "Three aims of cooking food"
+   },
+   {
+    "definition": "Grilling and barbecuing.",
+    "term": "Two cooking methods that depend mainly on radiation"
+   },
+   {
+    "definition": "Its flesh has little connective tissue and sets quickly, so high heat toughens and dries it.",
+    "term": "Why fish needs gentle, short cooking"
+   },
+   {
+    "definition": "Scrambled egg becomes rubbery, and custard curdles.",
+    "term": "Two effects of cooking eggs at too high a temperature"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Aims of cooking",
+    "points": [
+     "Cooking makes food safe by destroying harmful micro-organisms, so food must be heated right through to the centre; FSAI guidance on safe cooking applies in Irish kitchens.",
+     "Heat denatures protein, changing its structure so that digestive enzymes can act on it more easily.",
+     "Cooking gelatinises starch, which makes rice, potatoes and pasta easier to digest.",
+     "Cooking softens the cellulose in plant cell walls, making vegetables tender and easier to chew.",
+     "Heat develops flavour and changes colour and texture, making food more appetising.",
+     "Cooking destroys enzymes and most spoilage micro-organisms, which extends the time food stays fit to eat."
+    ]
+   },
+   {
+    "h": "Principles of cooking",
+    "points": [
+     "Heat moves from the source into the food; the cook controls how much heat reaches the food, for how long, and whether moisture is present.",
+     "Too low a temperature or too short a time leaves food undercooked and unsafe; too high a temperature or too long a time dries, toughens and burns the surface.",
+     "Thickness governs cooking time: thin pieces cook quickly and evenly, while a large joint needs lower heat for longer so that the centre cooks before the outside burns.",
+     "Moist methods prevent drying; dry methods need added fat, basting or a covered dish to keep food juicy.",
+     "Food type governs the method: cuts rich in connective tissue need long, slow cooking, while delicate foods need short cooking.",
+     "Cooked food must be served promptly or cooled quickly, because the danger zone of 5 to 63 °C is where bacteria multiply fastest."
+    ]
+   },
+   {
+    "b": "Conduction is heat transfer through a solid from one molecule to the next, without the material itself moving.",
+    "h": "Conduction",
+    "points": [
+     "As molecules are heated they vibrate faster and pass energy to their neighbours until the whole piece is hot.",
+     "Metals such as aluminium and copper conduct heat quickly, which is why cooking pans are made from them; glass and ceramic conduct heat slowly.",
+     "Pan-based methods begin with conduction: heat passes from the cooker through the pan base into the liquid or fat, and then into the food.",
+     "Boiling, poaching, stewing and shallow frying all depend on conduction through the pan base.",
+     "Searing a steak in a hot pan: heat conducts from the pan surface into the outer layers of the meat and then gradually towards the centre.",
+     "Baking trays and cake tins conduct heat into the base of a cake, so the base sets before the top.",
+     "Solids conduct heat more slowly than liquids, so a large piece of solid food takes longer to cook through.",
+     "Diagram: arrows from a gas flame through a pan base into the food, labelled as conduction, with the direction of heat flow marked."
+    ]
+   },
+   {
+    "b": "Convection is heat transfer through a liquid or gas by currents: the heated fluid becomes less dense and rises, and cooler, denser fluid sinks to take its place.",
+    "h": "Convection",
+    "points": [
+     "Natural convection occurs in a pot of boiling water, in a stew and in the hot air of a conventional oven.",
+     "Forced convection: the fan in a fan oven circulates hot air, so food cooks faster and more evenly than in a conventional oven.",
+     "Deep-fat frying: convection currents in the hot oil carry heat to every surface of the immersed food at once.",
+     "Steaming: steam rises from boiling water and condenses on cooler food, releasing its latent heat to cook it.",
+     "Examples: boiling, steaming, deep-fat frying, and baking or roasting in a fan oven.",
+     "Diagram: a pot of water with arrows showing hot water rising from the base, cooling at the surface and sinking at the sides."
+    ]
+   },
+   {
+    "b": "Radiation is heat transfer by infrared rays that travel in straight lines from a hot source to the surface of the food. No medium is needed.",
+    "h": "Radiation",
+    "points": [
+     "The surface struck by radiant heat absorbs it, so browning and crisping happen on that surface while the centre cooks by conduction.",
+     "Grilling uses an element or flame above or below the food; thin pieces cook quickly because the heat is intense.",
+     "Barbecuing and toasting use radiant heat from glowing coals, gas flames or elements.",
+     "Dark, matt surfaces absorb radiant heat more readily than shiny surfaces, which reflect it.",
+     "Radiant heat weakens with distance from the source, so the height of a grill rack is adjusted to control the heat.",
+     "Diagram: straight arrows from a grill element to the top surface of a piece of food, labelled as radiation."
+    ]
+   },
+   {
+    "h": "Applying the principles to food commodities",
+    "points": [
+     "Meat: tough cuts need long, moist cooking so that collagen converts to gelatine; tender cuts can be grilled or fried quickly.",
+     "Fish: its flesh has little connective tissue and sets quickly, so it needs short cooking at gentle heat; poaching and steaming suit it.",
+     "Eggs: egg proteins set at moderate temperatures, so eggs and custards need gentle heat; high heat makes scrambled egg rubbery and custard curdle.",
+     "Vegetables and fruit: short cooking in a little boiling water, or steaming, keeps colour and water-soluble vitamins.",
+     "Cereals and pasta: starch needs water and heat to gelatinise, so rice and pasta are cooked in plenty of boiling water.",
+     "Milk and cheese: milk scorches on direct heat and cheese turns stringy at high temperatures, so sauces containing them are cooked gently.",
+     "Fats and oils: fat overheats and smokes if heated too far, so frying oil must be watched and an oil with a high smoke point chosen for deep-fat frying.",
+     "Pastry: the fat is kept cold when rubbed in, and the dry heat of the oven sets the flaky structure."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Conduction: heat passes from molecule to molecule through a solid, as through the base of a pan; example: boiling, poaching or shallow frying. Convection: heat is carried through a liquid or gas by currents, as hot liquid or air rises and cooler material sinks; example: boiling, steaming, deep-fat frying or baking in a fan oven. Radiation: heat travels in infrared rays from the source to the surface of the food; example: grilling or barbecuing. Any two methods with one example each gain full marks.",
+    "prompt": "Name two methods of heat transfer used in cooking. For each, give one cooking method that uses it.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Conduction: heat passes through a solid from molecule to molecule without the material moving; heat from the pan base reaches the food, and solids conduct heat slowly. Convection: heated liquid or air becomes less dense and rises, while cooler material sinks, creating currents that spread heat through the food or cooking liquid. Radiation: infrared rays travel in straight lines from the source and heat the surface struck, with no medium needed. Tough meat: use long, moist cooking, such as stewing or braising in a covered pan with a little liquid, so the heat converts collagen to gelatine; keep the temperature low so the meat does not toughen. Fish: its flesh has little connective tissue and sets quickly, so use short, gentle cooking such as poaching or steaming, with conduction or convection carrying gentle heat to the centre; check that the flesh flakes and is cooked through, which keeps it safe and moist.",
+    "prompt": "Explain how heat is transferred by conduction, convection and radiation during cooking. Then describe how a cook should apply these principles when cooking a tough cut of meat and a fish fillet.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s3": {
+  "keyTerms": [
+   {
+    "definition": "Methods that cook food in water, stock or steam, such as boiling, stewing, steaming and poaching.",
+    "term": "Moist cooking"
+   },
+   {
+    "definition": "Methods that cook food with hot air or radiant heat and little or no added liquid, such as roasting, baking and grilling.",
+    "term": "Dry cooking"
+   },
+   {
+    "definition": "Methods that use fat as the cooking medium, such as shallow frying, deep-fat frying and stir-frying.",
+    "term": "Fat-based cooking"
+   },
+   {
+    "definition": "Cooking food gently in liquid kept slightly below simmering point.",
+    "term": "Poaching"
+   },
+   {
+    "definition": "Slow cooking of food in a small amount of liquid in a covered pan.",
+    "term": "Stewing"
+   },
+   {
+    "definition": "Browning meat in fat, then cooking it slowly with a little liquid in a covered dish.",
+    "term": "Braising"
+   },
+   {
+    "definition": "Cooking food in a little fat in a covered pan on the hob.",
+    "term": "Pot roasting"
+   },
+   {
+    "definition": "Cooking food in the steam from boiling water, without the food being immersed in the water.",
+    "term": "Steaming"
+   },
+   {
+    "definition": "Quick cooking of small pieces of food tossed in a little oil over high heat.",
+    "term": "Stir-frying"
+   },
+   {
+    "definition": "Cooking food by radiant heat from an element above or below it.",
+    "term": "Grilling"
+   },
+   {
+    "definition": "Boiling, steaming and stewing.",
+    "term": "Three moist cooking methods"
+   },
+   {
+    "definition": "Grilling and barbecuing.",
+    "term": "Two dry cooking methods that rely on radiant heat"
+   },
+   {
+    "definition": "Preheat the grill; oil the grid; use thin pieces; turn the food with tongs.",
+    "term": "Four guidelines for grilling"
+   },
+   {
+    "definition": "Its soft, moist texture is easy to chew and swallow; it adds no fat; it retains nutrients and natural flavour.",
+    "term": "Three reasons steaming suits an older person"
+   },
+   {
+    "definition": "Food is cooked in a little fat in a covered pan on the hob, retaining its own juices.",
+    "term": "What pot roasting involves"
+   },
+   {
+    "definition": "Fish, chicken, rice and vegetables.",
+    "term": "Four foods suited to steaming"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Methods are grouped as moist (water or steam as the medium), dry (hot air or radiant heat with little or no added liquid) or fat-based (fat as the medium).",
+    "h": "Choosing a cooking method",
+    "points": [
+     "The food: tender cuts and delicate foods such as fish, eggs and vegetables suit quick methods; tough, fibrous cuts need long, moist methods.",
+     "Nutrition: steaming, stir-frying and grilling use little or no water, so they conserve water-soluble vitamins.",
+     "Palatability: dry and fat-based methods brown and crisp the surface, adding colour and flavour; moist methods give a soft, tender texture.",
+     "Diet: steaming, poaching, boiling and grilling on a rack add little or no fat, which suits a diet that limits fat.",
+     "Consumer needs: an older person who has difficulty chewing or swallowing needs soft, moist, easily digested food.",
+     "Time and equipment: a pressure cooker shortens cooking time, while stewing and braising take hours in a covered pan or oven.",
+     "Cost: slow moist cooking makes an inexpensive cut of meat tender and palatable."
+    ]
+   },
+   {
+    "h": "Moist methods",
+    "points": [
+     "Boiling: food is cooked in rapidly bubbling water at boiling point, 100 °C at sea level; it is quick, but water-soluble vitamins leach into the water.",
+     "Simmering: liquid is kept just below boiling point, with small bubbles breaking the surface; used for stocks and soups.",
+     "Stewing: food is cooked slowly in a small amount of liquid in a covered pan; it suits tough meat and vegetables, as in Irish stew.",
+     "Steaming: food is cooked by the steam from boiling water without touching the water, so nutrients and shape are kept; it suits fish, vegetables, rice and steamed puddings.",
+     "Poaching: food is cooked gently in liquid kept slightly below simmering point; used for eggs, fish and fruit such as pears.",
+     "Braising: meat is browned in fat, then cooked slowly with a little liquid in a covered dish, which tenderises tough cuts.",
+     "Pressure cooking: steam is trapped in a sealed pan, raising the temperature above 100 °C and shortening the cooking time."
+    ]
+   },
+   {
+    "h": "Dry methods",
+    "points": [
+     "Roasting: meat or vegetables are cooked uncovered in an oven, usually with a little fat; the surface browns while the centre cooks by conduction and convection.",
+     "Baking: food is cooked by dry hot air in an oven, as with cakes, bread, pastry, fish pie and lasagne.",
+     "Grilling: food is cooked by radiant heat from an element above or below it; it suits tender cuts, thin fish, sausages, rashers, tomatoes, mushrooms, peppers and kebabs.",
+     "Barbecuing: grilling outdoors over charcoal or gas, which gives a smoky flavour.",
+     "Grilling lowers the fat content of food, because fat drips away from it."
+    ]
+   },
+   {
+    "h": "Guidelines for grilling",
+    "points": [
+     "Preheat the grill to the required temperature so that the surface seals on contact.",
+     "Oil the grid or the food to prevent sticking.",
+     "Use thin pieces, so that heat reaches the centre before the surface burns.",
+     "Do not add salt before grilling, because salt draws moisture to the surface.",
+     "Turn the food with tongs rather than a fork, so that its juices stay inside.",
+     "Use the correct cooking time, since grilled food dries out and overcooks quickly."
+    ]
+   },
+   {
+    "h": "Fat-based methods",
+    "points": [
+     "Shallow frying: food is cooked in a small amount of fat in a shallow pan, partly submerged and turned once or twice, giving a crisp surface.",
+     "Deep-fat frying: food is fully immersed in hot oil, which seals the surface quickly; the food absorbs some fat, so it is higher in fat and energy than grilled food.",
+     "Stir-frying: small pieces are tossed quickly over high heat in a wok or large pan with a little oil, keeping colour, crispness and vitamin C.",
+     "Dry frying: food is cooked in a non-stick pan without added fat, using the fat already in foods such as bacon rashers and sausages.",
+     "Pot roasting: meat is cooked in a little fat in a covered pan on the hob, so it cooks in its own juices and steam and stays moist."
+    ]
+   },
+   {
+    "h": "Steaming for an older person",
+    "points": [
+     "The moist, soft texture of steamed food is easy to chew and swallow.",
+     "Steaming adds no fat, so it suits a diet that limits fat.",
+     "Steaming retains nutrients and the natural flavour of the food.",
+     "Fish, chicken, rice and vegetables suit steaming; steamed puddings are a traditional example.",
+     "Herbs and lemon juice add flavour without added salt, which suits a diet that limits salt."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of: fish, sausages, rashers, steak, lamb cutlets, tomatoes, mushrooms, peppers, fruit kebabs. Explanation for each: the radiant heat of the grill browns and cooks the surface quickly; foods that are thin or tender cook through before they dry out, since heat reaches the centre quickly in thin pieces and tender cuts have little connective tissue to soften; fat drips away, so the finished food is lower in fat. Full marks need a named food and a reason for each.",
+    "prompt": "Name three foods suited to grilling and explain why grilling suits each of them.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Beef: braising or stewing, with the meat browned in fat, then cooked slowly with a little liquid in a covered dish; the long moist cooking converts collagen into gelatine, tenderising the meat and giving a rich, soft texture; the small amount of liquid and low temperature limit the loss of water-soluble vitamins, and the juices can be served as gravy. Fish: steaming or poaching; the fish cooks gently in steam or liquid just below simmering, so it stays moist, keeps its shape and flakes in tender pieces, and vitamins are retained because the food does not sit in boiling water. Two factors for an older person: the texture must be soft and moist, since dry methods such as roasting or grilling can make food hard to chew and swallow; the method should add little or no fat, since moist methods such as steaming add none; and the method should retain nutrients and flavour, which moist methods do by using little water and short cooking.",
+    "prompt": "A family is planning a meal with a tough cut of beef and a fillet of white fish. Describe a suitable moist cooking method for each food and explain how the method conserves nutrients and improves palatability. Then explain two factors a cook should consider when choosing between a dry and a moist method for a meal for an older person.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s4": {
+  "keyTerms": [
+   {
+    "definition": "A cooked mixture of equal amounts of fat and flour, used to thicken sauces and soups.",
+    "term": "Roux"
+   },
+   {
+    "definition": "A thickening mixture of egg yolk and cream stirred into a hot soup or sauce.",
+    "term": "Liaison"
+   },
+   {
+    "definition": "Cooked food sieved or blended to a smooth, thick texture.",
+    "term": "Purée"
+   },
+   {
+    "definition": "A clear soup made from stock clarified with egg white and minced meat.",
+    "term": "Consommé"
+   },
+   {
+    "definition": "A flavoured liquid made by simmering bones, meat or vegetables in water with herbs.",
+    "term": "Stock"
+   },
+   {
+    "definition": "Cooking vegetables gently in a little fat in a covered pan until soft, without colouring them.",
+    "term": "Sweating"
+   },
+   {
+    "definition": "A mixture of two liquids that do not normally blend, such as oil and egg yolk, held together by an emulsifier.",
+    "term": "Emulsion"
+   },
+   {
+    "definition": "A thin, sieved purée of raw or cooked fruit or vegetables, used as a sauce.",
+    "term": "Coulis"
+   },
+   {
+    "definition": "A cold Spanish soup made from raw tomato, pepper and cucumber.",
+    "term": "Gazpacho"
+   },
+   {
+    "definition": "A ready-made soup that needs little or no preparation before it is served.",
+    "term": "Convenience soup"
+   },
+   {
+    "definition": "A method of cooking food, chilling it quickly and storing it under refrigeration until it is reheated.",
+    "term": "Cook-chill"
+   },
+   {
+    "definition": "Clear soups, such as consommé, and broths.",
+    "term": "Two classes of thin soup"
+   },
+   {
+    "definition": "White, parsley, cheese and béchamel.",
+    "term": "Four roux-based sauces"
+   },
+   {
+    "definition": "Custard, mayonnaise and hollandaise.",
+    "term": "Three egg-based sauces"
+   },
+   {
+    "definition": "Chocolate, toffee and butterscotch.",
+    "term": "Three sweet sauces"
+   },
+   {
+    "definition": "Dehydrated or packaged, cook-chill, canned, frozen, and single-portion.",
+    "term": "Five types of convenience soup"
+   },
+   {
+    "definition": "High salt content; artificial colours and flavours; additives.",
+    "term": "Three disadvantages of convenience soups"
+   },
+   {
+    "definition": "To remove the raw flour taste, and to allow the starch to thicken the liquid smoothly.",
+    "term": "Two reasons a roux is cooked before liquid is added"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Classes of soup",
+    "points": [
+     "Clear soups are thin and transparent; consommé is a clear soup made from clarified stock, clarified with egg white and minced meat.",
+     "Broths are thin, clear soups made by simmering meat or vegetables in water, e.g. chicken broth or vegetable broth.",
+     "Purée soups are thick soups in which cooked vegetables are sieved or blended to a smooth texture, e.g. carrot or leek and potato.",
+     "Thickened soups use a thickening agent such as a roux, cornflour, puréed potato, or a liaison of egg yolk and cream.",
+     "Cold soups are served chilled; gazpacho is a Spanish cold soup of raw tomato, pepper and cucumber."
+    ]
+   },
+   {
+    "h": "Preparing and cooking soups",
+    "points": [
+     "Stock is the base of most soups: a liquid made by simmering bones, meat or vegetables in water with herbs, which gives the soup its flavour.",
+     "Vegetables are washed, peeled and cut into even pieces so that they cook at the same rate.",
+     "Sweating: vegetables are cooked gently in a little fat in a covered pan until soft, without browning, to release their flavour.",
+     "The stock or liquid is added, the soup is brought to the boil and then simmered until the vegetables are tender; boiling hard breaks up the vegetables.",
+     "Purée soups are sieved or blended until smooth, with the blender only partly filled and the lid held down.",
+     "Seasoning is added at the end, because the flavour and salt concentrate as the soup reduces."
+    ]
+   },
+   {
+    "h": "Presenting soups",
+    "points": [
+     "Thick soups are served hot in warm bowls, garnished with croutons, chopped parsley, a swirl of cream or grated cheese.",
+     "Clear soups are garnished with thin strips of vegetable or chopped herbs.",
+     "Cold soups are chilled thoroughly before serving and garnished with finely diced vegetables or a little cream."
+    ]
+   },
+   {
+    "b": "A roux is a cooked mixture of fat and flour, and the amount of liquid added decides the thickness of the sauce.",
+    "h": "Making a roux and a roux-based sauce",
+    "points": [
+     "Method: melt the fat, stir in an equal amount of flour, and cook the mixture briefly to remove the raw flour taste.",
+     "A white roux is cooked only briefly, until pale; it thickens most strongly and is used for white, parsley, cheese and béchamel sauces.",
+     "A brown roux is cooked longer until golden or brown; it thickens less and is used for brown and stewing sauces.",
+     "Liquid is added gradually while stirring or whisking so that the starch disperses without lumps.",
+     "The starch gelatinises and thickens as the sauce comes to the boil; the sauce is then simmered to cook the starch fully.",
+     "Thick, coating and thin pouring sauces are made by using progressively less liquid to the same amount of fat and flour.",
+     "Béchamel is a white sauce made by infusing milk with flavourings such as onion, bay leaf and cloves.",
+     "Panada is a thick, roux-based paste used to bind ingredients such as croquettes."
+    ]
+   },
+   {
+    "h": "Classes of sauce and their examples",
+    "points": [
+     "Roux-based sauces: white, parsley, cheese, mushroom, béchamel, curry and stewing sauce.",
+     "Egg-based sauces: custard, where egg proteins coagulate in hot milk; mayonnaise, an emulsion of oil in egg yolk; hollandaise, an emulsion of butter in egg yolk with lemon juice.",
+     "Sweet sauces: chocolate, toffee, caramel and butterscotch, served with desserts.",
+     "Fruit sauces: apple sauce, orange sauce and coulis, a thin purée of raw or cooked fruit, often sieved.",
+     "Cold sauces and dressings: mint sauce and French dressing, which are served cold.",
+     "Miscellaneous sauces: bread sauce, thickened with breadcrumbs."
+    ]
+   },
+   {
+    "h": "Types of convenience soup",
+    "points": [
+     "Dehydrated or packaged soups are dried mixes reconstituted with boiling water or milk; they have a long shelf life.",
+     "Cook-chill soups are sold chilled and heated before eating; they have a shorter shelf life than canned soups.",
+     "Canned soups are sterilised in sealed tins, giving a long shelf life, and only need heating.",
+     "Frozen soups are stored at −18 °C and heated after thawing; they keep their flavour well.",
+     "Single-portion soups are sold in individual pots or cups that are heated or reconstituted for one serving."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of convenience soups",
+    "points": [
+     "Advantages: little preparation time, simple skills needed, useful in an emergency, wide variety available, and easy to store.",
+     "Disadvantages: expensive per portion, often high in salt, and may contain artificial colours and flavours and additives.",
+     "Adding fresh vegetables, herbs or milk to a convenience soup improves its flavour and adds nutrients."
+    ]
+   },
+   {
+    "b": "Labelling rules for food are set by Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+    "h": "Food labelling on convenience soups",
+    "points": [
+     "The label must give the name of the food, the ingredients list, and the net quantity in metric units.",
+     "Ingredients are listed in descending order of weight at the time of manufacture, so the first ingredient is the one used in greatest amount.",
+     "Allergenic ingredients, such as gluten, milk, eggs, celery and nuts, must be emphasised within the ingredients list.",
+     "The nutrition declaration gives energy and the amounts of fat, saturates, carbohydrate, sugars, protein and salt per 100 g or 100 ml.",
+     "Cooking instructions, storage conditions and a use-by or best-before date are shown.",
+     "The name and address of the food business operator are given, along with the country of origin where it is required.",
+     "Genetically modified or irradiated ingredients must be declared where they are present.",
+     "Labels let the consumer compare soups by salt content, ingredients and allergens, and check that the soup suits their needs."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Melt the fat and stir in an equal amount of flour; cook the mixture briefly until pale to remove the raw flour taste. Add the liquid gradually, stirring or whisking to prevent lumps, then bring to the boil and simmer until the starch has thickened the sauce. Any two sauces: white sauce, parsley sauce, cheese sauce, béchamel, mushroom sauce.",
+    "prompt": "Explain how a white roux is made and name two sauces made from it.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Thin soups: clear soups such as consommé, and broths such as chicken or vegetable broth. Thick soups: purées such as carrot or leek and potato, and thickened soups made with a roux, cornflour or a liaison of egg yolk and cream. Cold soups: gazpacho, a Spanish soup of raw tomato, pepper and cucumber, chilled before serving. Advantages of convenience soups: little preparation time; simple skills needed; useful in an emergency; wide variety; easy to store. Disadvantages: expensive per portion; often high in salt; artificial colours, flavours and additives may be present. Label checks, any two: the ingredients list, with allergens emphasised; the salt and nutrition declaration; the net quantity; the use-by or best-before date; the storage and cooking instructions; whether any ingredient is genetically modified or irradiated.",
+    "prompt": "Classify soups into thin, thick and cold classes, giving an example of each. Then outline the advantages and disadvantages of convenience soups for a busy household, and state two pieces of information a consumer should check on the label.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s5": {
+  "keyTerms": [
+   {
+    "definition": "The transfer of bacteria from raw food, hands or equipment to food that is ready to eat.",
+    "term": "Cross-contamination"
+   },
+   {
+    "definition": "A knife-handling technique in which the fingertips of the guiding hand are curled under so that the knuckles guide the blade.",
+    "term": "Claw grip"
+   },
+   {
+    "definition": "A pan with a thick base that spreads heat evenly across the cooking surface and reduces hot spots.",
+    "term": "Heavy-based pan"
+   },
+   {
+    "definition": "A surface on a pan that prevents food sticking, allowing cooking with little fat, but damaged by overheating and metal utensils.",
+    "term": "Non-stick coating"
+   },
+   {
+    "definition": "A heavy metal used for cookware that retains heat well and must be dried and oiled to prevent rust.",
+    "term": "Cast iron"
+   },
+   {
+    "definition": "A knife with a toothed edge used for cutting bread and soft-skinned foods.",
+    "term": "Serrated knife"
+   },
+   {
+    "definition": "A sealed pan that cooks food quickly under steam pressure and must not be opened until the pressure is released.",
+    "term": "Pressure cooker"
+   },
+   {
+    "definition": "Describes a container marked as suitable for microwave use and containing no metal.",
+    "term": "Microwave-safe"
+   },
+   {
+    "definition": "A hob that heats magnetic pans directly through electromagnetic induction, so only pans with a magnetic base can be used.",
+    "term": "Induction hob"
+   },
+   {
+    "definition": "Cook's knife for general chopping; serrated knife for bread and soft-skinned foods; paring knife for small, detailed work.",
+    "term": "Three knife types for kitchen use"
+   },
+   {
+    "definition": "Point the blade down and away from the body; carry it by the handle at the side; never try to catch a falling knife.",
+    "term": "Three rules for carrying a knife"
+   },
+   {
+    "definition": "Use separate colour-coded chopping boards for raw and cooked foods; wash hands after handling raw meat; store raw meat below ready-to-eat food in the fridge; clean and sanitise equipment between tasks.",
+    "term": "Four ways to prevent cross-contamination in the kitchen"
+   },
+   {
+    "definition": "Dry it straight after washing; wipe it with a thin film of oil; never leave it soaking or damp.",
+    "term": "Three care rules for cast iron"
+   },
+   {
+    "definition": "Overheating an empty pan, and scraping the surface with metal utensils.",
+    "term": "Two things that damage a non-stick coating"
+   },
+   {
+    "definition": "That the sealing ring and the valve are clean and undamaged; that the lid is locked on correctly before heating.",
+    "term": "Two checks before using a pressure cooker"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Choose equipment for the quantity of food, the cooking method and the type of hob, and check how the material conducts heat.",
+    "h": "Selecting pans and cooking equipment",
+    "points": [
+     "A heavy, thick base spreads heat evenly and reduces hot spots that scorch food; a thin base heats unevenly.",
+     "Aluminium and copper conduct heat quickly; stainless steel is durable and does not react with acidic foods, but it conducts heat less well unless the base is bonded to copper or aluminium.",
+     "Cast iron retains heat well and suits slow, even cooking such as braising, but it is heavy and rusts if left damp.",
+     "A non-stick coating allows frying with little fat, but it is damaged by overheating an empty pan and by metal utensils.",
+     "A close-fitting lid retains steam, so food simmers with less energy and in less time.",
+     "A pan base should match the ring size, so that the full base makes contact with the heat source.",
+     "Induction hobs need pans with a magnetic base; aluminium and copper pans without one will not heat.",
+     "Handles should be heat-resistant and firmly fixed; plastic and wooden handles are not suitable for the oven unless the manufacturer states it."
+    ]
+   },
+   {
+    "h": "Knives and chopping boards",
+    "points": [
+     "A cook's knife is used for general chopping, a serrated knife for bread and soft-skinned foods, and a paring knife for small, detailed work.",
+     "A sharp knife is safer than a blunt one because it cuts with less force and is less likely to slip.",
+     "The claw grip curls the fingertips of the guiding hand under, so the knuckles guide the blade and the fingertips stay clear of it.",
+     "Place the chopping board on a damp cloth or non-slip mat so that it cannot move while cutting.",
+     "Colour-coded boards keep raw meat, raw vegetables and ready-to-eat foods apart, preventing cross-contamination.",
+     "Carry a knife by its handle with the blade pointing down and away from the body; never leave a knife in a sink of water.",
+     "Store knives in a block, on a rack or on a magnetic strip, so that the edges are protected and the blades are not loose in a drawer."
+    ]
+   },
+   {
+    "h": "Safe use of the hob, oven and electrical appliances",
+    "points": [
+     "Turn pan handles inwards over the hob so they cannot be knocked or pulled, and never leave hot oil unattended.",
+     "Lift lids away from the face so that escaping steam does not scald.",
+     "Use oven gloves or a dry cloth to handle hot dishes; a damp cloth conducts heat and causes scalds.",
+     "Keep the flex of electrical appliances away from hot surfaces and water, and never handle an appliance with wet hands.",
+     "Switch off and unplug an appliance before cleaning its blades or removing food from them.",
+     "Do not use an appliance with a damaged flex or plug; it must be repaired or replaced before use.",
+     "Pressure cooker: check that the sealing ring and valve are clean and undamaged, and never open the lid until the pressure has been released.",
+     "Microwave: use containers marked as microwave-safe and never place metal in the cavity."
+    ]
+   },
+   {
+    "h": "Care and cleaning of equipment",
+    "points": [
+     "Wash equipment in hot soapy water or in a dishwasher, then rinse and dry it thoroughly before storing it, so that bacteria cannot grow in damp areas.",
+     "Do not run cold water into a hot pan; the sudden change in temperature can warp the base and crack a non-stick or ceramic surface.",
+     "Cast iron must be dried straight after washing and wiped with a thin film of oil to prevent rust.",
+     "Wooden or silicone utensils protect non-stick surfaces, whereas metal utensils scratch them.",
+     "Use abrasive pads only on surfaces that tolerate them; stainless steel and cast iron tolerate them better than non-stick coatings.",
+     "Dishcloths, sponges and tea towels can carry bacteria and should be changed or washed regularly."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Base material: the pan must have a magnetic base, otherwise it will not heat on an induction hob. Base thickness: a heavy, thick base spreads heat evenly and reduces hot spots. Size: the pan base should match the ring size so that the full base makes contact with the hob. A close-fitting lid retains steam and reduces cooking time and energy. Heat-resistant handles that are firmly fixed make the pan safe to lift and move.",
+    "prompt": "Outline three factors to consider when selecting a saucepan for use on an induction hob.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Non-stick pan: avoid overheating an empty pan, as this damages the coating. Use wooden or silicone utensils, because metal scratches the surface. Allow the pan to cool before washing it, since cold water on a hot pan can warp the base or crack the coating. Wash in hot soapy water, rinse and dry before storing. Chopping board: place it on a damp cloth or non-slip mat so it does not move while cutting. Keep it separate from raw meat and ready-to-eat foods, using a colour-coded board for each. Wash in hot soapy water after each use, dry thoroughly and store upright so air can circulate. Replace boards that become deeply cut or grooved, because bacteria can collect in the cuts.",
+    "prompt": "Explain how a non-stick frying pan and a wooden chopping board should be used and cared for so that they stay safe and hygienic.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s6": {
+  "keyTerms": [
+   {
+    "definition": "A recipe that supplies the right proportions of food groups and nutrients to meet the needs of the people eating it.",
+    "term": "Balanced recipe"
+   },
+   {
+    "definition": "The Irish guide to food groups showing how much of each group to eat, from cereals and breads at the base to fats, oils, sugar and salt at the top.",
+    "term": "Food Pyramid"
+   },
+   {
+    "definition": "A recipe written for a set number of servings, used as the starting point when adapting quantities.",
+    "term": "Standard recipe"
+   },
+   {
+    "definition": "Adjusting every ingredient in a recipe by the same factor to make more or fewer portions.",
+    "term": "Scaling"
+   },
+   {
+    "definition": "Judging the appearance, colour, smell, texture and shape of food when choosing, preparing and serving it.",
+    "term": "Aesthetic awareness"
+   },
+   {
+    "definition": "An edible decoration added to a dish to enhance its appearance and complement its flavour.",
+    "term": "Garnish"
+   },
+   {
+    "definition": "Free of the gluten proteins found in wheat, barley and rye, and therefore suitable for a person with coeliac disease.",
+    "term": "Gluten-free"
+   },
+   {
+    "definition": "An eating pattern adapted for a medical condition or a personal choice, such as coeliac, diabetic, vegetarian or low-salt.",
+    "term": "Modified diet"
+   },
+   {
+    "definition": "A reduced ability to digest lactose, the sugar in milk, because of too little of the enzyme lactase.",
+    "term": "Lactose intolerance"
+   },
+   {
+    "definition": "Replacing one ingredient with another to change the nutritional content, cost or suitability of a dish.",
+    "term": "Substitution"
+   },
+   {
+    "definition": "To make it more nutritious; to suit a special diet; to change the number of portions; to economise by substituting cheaper ingredients.",
+    "term": "Four reasons for modifying a recipe"
+   },
+   {
+    "definition": "Appearance and colour; smell; texture.",
+    "term": "Three aspects of food judged through the senses"
+   },
+   {
+    "definition": "Multiply or divide every ingredient by the same factor; check the cooking time and the tin or dish size; taste and adjust the seasoning.",
+    "term": "Three rules for scaling a recipe up or down"
+   },
+   {
+    "definition": "Wheat, barley and rye.",
+    "term": "Three cereals that contain gluten"
+   },
+   {
+    "definition": "Colour contrast on the plate; a suitable edible garnish; portion size and arrangement in keeping with the dish.",
+    "term": "Three elements to check before serving a dish"
+   },
+   {
+    "definition": "Cereals, breads, potatoes, pasta and rice, which should make up the largest share of the daily diet.",
+    "term": "Food at the base of the Food Pyramid"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A recipe is balanced when a dish or meal supplies the right proportions of nutrients for the people who will eat it.",
+    "h": "Recipe balance",
+    "points": [
+     "The Healthy Eating Guidelines and the Irish Food Pyramid are the reference points for checking that a recipe includes each food group in the right proportion.",
+     "Cereals, breads, potatoes, pasta and rice form the base of the Food Pyramid and should make up the largest share of the diet.",
+     "Fruit and vegetables form the next level, and dairy foods and then meat, fish, eggs, beans and nuts are eaten in smaller amounts.",
+     "Fats, oils, sugar and salt sit at the top of the Food Pyramid and should be used sparingly.",
+     "A main course should combine a protein food, a starchy food and vegetables, so that protein, carbohydrate, vitamins, minerals and fibre are all present.",
+     "Wholegrain or wholemeal versions of starchy foods add fibre, B vitamins and minerals to a dish.",
+     "Oily fish, lean meat, pulses and low-fat dairy supply protein with less saturated fat than fatty cuts of meat and full-fat dairy.",
+     "Fresh, frozen or tinned fruit and vegetables in a main course or dessert supply vitamin C, folate and fibre."
+    ]
+   },
+   {
+    "h": "Reasons for modifying a recipe",
+    "points": [
+     "To make a dish more nutritious, by adding fibre or reducing fat, sugar or salt, in line with healthy-eating guidelines.",
+     "To cater for a person on a special diet, such as a coeliac who needs gluten-free flour.",
+     "To increase or decrease the number of portions, because standard recipes are written for a set number of servings, for example four adults.",
+     "To add variety to a basic recipe, for example by adding nuts to a vegetable stir-fry.",
+     "To economise, by substituting an expensive ingredient with a cheaper one, for example margarine for butter in a sponge.",
+     "To suit the likes and dislikes of those eating, for example by leaving out an ingredient that a family member avoids."
+    ]
+   },
+   {
+    "h": "Methods of modifying a recipe",
+    "points": [
+     "Reduce fat by grilling, baking or steaming instead of frying, by trimming visible fat from meat, and by using a vegetable oil or low-fat spread instead of butter.",
+     "Reduce salt by omitting added salt and stock cubes, and by flavouring with herbs, spices, garlic or lemon juice.",
+     "Reduce sugar by using less, or by adding fruit that gives natural sweetness.",
+     "Increase fibre by replacing white flour with wholemeal flour, and by adding pulses, oats or extra vegetables.",
+     "Gluten-free cooking replaces wheat flour with a gluten-free flour, such as rice or maize flour, and checks that other ingredients are gluten-free.",
+     "Vegetarian versions replace meat with pulses, tofu, eggs or mushrooms, while keeping a source of iron and protein in the dish.",
+     "Scale a recipe by multiplying or dividing every ingredient by the same factor, then check the cooking time and the size of the tin or dish, since larger quantities usually take longer.",
+     "Taste and adjust the seasoning after modifying a recipe, because reduced salt or sugar changes the flavour."
+    ]
+   },
+   {
+    "b": "Sight, smell and texture help a cook judge food before it is bought and while it is prepared.",
+    "h": "Aesthetic awareness in choosing food",
+    "points": [
+     "Sight judges appearance and colour, which indicate freshness or ripeness, for example a firm, bright, unbruised apple.",
+     "Certain colours are linked to flavours, such as yellow with lemon, and people expect particular appearances: blue mould is acceptable on some cheeses but not on bread.",
+     "Smell detects freshness and rancidity through receptor cells in the nasal cavity.",
+     "Texture is judged by the mouth and by the eye, and a variety of textures, such as a crisp salad served with a soft dish, makes a meal more appealing.",
+     "The shape and size of cut pieces affect appearance; uniform cuts look neater and cook evenly."
+    ]
+   },
+   {
+    "h": "Aesthetic awareness in preparing and presenting food",
+    "points": [
+     "Cooking changes colour; green vegetables cooked briefly in fast-boiling water keep their colour, while overcooking dulls it.",
+     "A garnish adds colour and contrast, for example parsley on soup, grated cheese on pasta or icing sugar on a sponge.",
+     "A garnish should be edible, in keeping with the dish and small enough not to overpower it.",
+     "Hot food should be served hot and cold food cold, on warmed or chilled plates.",
+     "Choose contrasting colours on the plate, such as a red pepper beside green beans, and vary the textures.",
+     "Arrange food with height and balance, keep the rim of the plate clean and portion each item in proportion to the dish."
+    ]
+   },
+   {
+    "h": "Dishes for individuals and family groups",
+    "points": [
+     "For one person, plan a single-serving dish such as a filled jacket potato, or cook a batch that can be frozen in single portions.",
+     "For a family group, choose dishes that suit the range of ages and tastes, and use lower-cost cuts and ingredients.",
+     "A one-pot or batch dish, such as a casserole, feeds several people at low cost with little washing-up.",
+     "Young children need small, soft pieces that are easy to chew, with little added salt and sugar.",
+     "Older people often need smaller, nutrient-dense portions, with soft textures if chewing is difficult.",
+     "Teenagers and active adults need larger portions and energy-rich starchy foods.",
+     "Cook a dish in advance and reheat it on a busy day, so that the meal is ready at a convenient time for a family."
+    ]
+   },
+   {
+    "b": "A modified diet changes the choice of food and cooking methods but must still be balanced and attractive. The full dietary requirements of each diet are covered in Meal Planning and Special Diets.",
+    "h": "Dishes for modified diets",
+    "points": [
+     "Coeliac disease: wheat, barley and rye contain gluten, so these are replaced in bread, pastry and sauces by gluten-free flours and starches.",
+     "Diabetes: carbohydrate portions are controlled and added sugar is reduced, with wholegrain starches and high-fibre vegetables preferred.",
+     "Low-fat or heart-healthy diets: lean meat, oily fish and low-fat dairy are used, with cooking methods that need little added fat.",
+     "Low-salt diets: stock cubes, processed meats and salted snacks are avoided, and dishes are flavoured with herbs and spices.",
+     "Vegetarian diets: pulses, tofu, eggs or dairy foods replace meat as the protein, and iron-rich foods are included.",
+     "Lactose intolerance: lactose-free milk or a calcium-enriched non-dairy alternative replaces milk, and labels are checked for hidden milk ingredients."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "To make the dish more nutritious in line with healthy-eating guidelines, for example by adding fibre or reducing fat, sugar or salt. To cater for an individual on a special diet, such as a coeliac who needs gluten-free flour. To change the number of portions, since standard recipes are written for a set number of servings. To add variety to a basic recipe. To economise by substituting an expensive ingredient with a cheaper one. To suit the likes and dislikes of those eating. Any three with a brief explanation earn full marks.",
+    "prompt": "Outline three reasons why a cook might modify a standard recipe.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Identify the gluten sources: wheat, barley and rye in flour, bread, pastry, sauces and stock. Replace them with gluten-free flours and starches such as rice or maize flour, and check that stock cubes, sauces and processed ingredients are gluten-free. Keep the balance of the dish: retain a protein food, a starchy food and vegetables, and use wholegrain gluten-free alternatives where available to add fibre, vitamins and minerals. Adjust the method if needed, for example thickening a sauce with a gluten-free starch rather than wheat flour. Presentation: keep the colour contrast and texture variety, add a fresh garnish and serve hot food hot. Avoid cross-contamination by cleaning surfaces and utensils and by using separate equipment for gluten-free cooking. Taste and adjust the seasoning, since the flavour can change when ingredients are substituted. Keep the dish suitable for the rest of the family so that everyone eats the same meal.",
+    "prompt": "Discuss how a cook can adapt a family dish for a family member with coeliac disease so that it stays balanced and appealing.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-cooking-methods-s7": {
+  "keyTerms": [
+   {
+    "definition": "The analysis and research section of each coursework assignment, which cites all sources of information.",
+    "term": "Investigation"
+   },
+   {
+    "definition": "Testing food with the senses to describe its characteristics and to compare products.",
+    "term": "Sensory analysis"
+   },
+   {
+    "definition": "A sensory test in which a panel rates agreed attributes of a product on a scale.",
+    "term": "Descriptive rating test"
+   },
+   {
+    "definition": "A radial chart in which each arm shows the rated strength of one sensory attribute, so that two products can be compared at a glance.",
+    "term": "Star diagram"
+   },
+   {
+    "definition": "A seasoned liquid in which food is soaked before cooking to add flavour and tenderise it.",
+    "term": "Marinade"
+   },
+   {
+    "definition": "Very thin, stretched sheets of dough that are brushed with fat between layers and baked to a crisp finish.",
+    "term": "Filo pastry"
+   },
+   {
+    "definition": "A laminated pastry made from layers of dough and fat, rolled and folded so that it rises in the oven.",
+    "term": "Puff pastry"
+   },
+   {
+    "definition": "The comparison of two or more similar products by testing to identify their differences.",
+    "term": "Comparative analysis"
+   },
+   {
+    "definition": "A prepared food that reduces preparation and cooking time, which coursework dishes should avoid in favour of fresh foods.",
+    "term": "Convenience food"
+   },
+   {
+    "definition": "Investigation 32; Planning and Preparation 8; Implementation 28; Evaluation 12; a total of 80.",
+    "term": "Marks for the four headings of each assignment"
+   },
+   {
+    "definition": "A Application of Nutritional Principles; B Food Preparation and Cooking Processes; C Food Technology; D Properties of a Food; E Comparative Analysis including Sensory Analysis.",
+    "term": "Five areas of practice in the coursework"
+   },
+   {
+    "definition": "The preparation process, skill or equipment; the key points for success; dishes that illustrate it.",
+    "term": "Three things an Area B investigation covers"
+   },
+   {
+    "definition": "The testing technique and its possible outcomes; the foods or products tested; the conditions to control.",
+    "term": "Three things an Area E investigation covers"
+   },
+   {
+    "definition": "First, practical work may be done in pairs, or in groups for Area E only. Second, the written record must be the candidate's own work.",
+    "term": "Two rules on group work in the coursework"
+   },
+   {
+    "definition": "Area C, Food Technology.",
+    "term": "Area with no assignment set for 2027"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The practical coursework is 20% of the total marks in Home Economics Scientific and Social. Each assignment is recorded in the SEC's digital Food Studies Practical Coursework Journal.",
+    "h": "Weighting, recording and marks",
+    "points": [
+     "Each assignment is recorded under four headings: Investigation, Planning and Preparation, Implementation and Evaluation.",
+     "Investigation (analysis and research) is marked out of 32.",
+     "Planning and Preparation is marked out of 8, for the ingredients with quantities and costing and for the key equipment.",
+     "Implementation is marked out of 28, for the procedure followed, the key factors considered, and safety and hygiene.",
+     "Evaluation is marked out of 12, for the implementation and for the specific requirements of the assignment.",
+     "The four headings total 80 marks for each assignment.",
+     "For 2027 candidates present two of the five assignments the SEC set, and the two highest-scoring assignments count."
+    ]
+   },
+   {
+    "b": "Every assignment falls under one of five areas, and the investigation for that assignment covers the points set for its area.",
+    "h": "Areas of practice",
+    "points": [
+     "Area A: Application of Nutritional Principles.",
+     "Area B: Food Preparation and Cooking Processes, involving new skills or equipment.",
+     "Area C: Food Technology.",
+     "Area D: Properties of a Food.",
+     "Area E: Comparative Analysis, including Sensory Analysis."
+    ]
+   },
+   {
+    "h": "What each area's investigation covers",
+    "points": [
+     "Area A: the nutritional needs being investigated, the appropriate meal-planning guidelines, and suitable or modified dishes.",
+     "Area B: the preparation process, skill or equipment, the key points for success, and dishes that illustrate it.",
+     "Area C: the processing method and its principles, containers, packaging and labelling, and suitable foods or dishes.",
+     "Area D: the definition of the property, the principles associated with it, and dishes that illustrate it.",
+     "Area E: the testing technique and its possible outcomes, the foods or products tested, and the conditions that must be controlled."
+    ]
+   },
+   {
+    "h": "Rules for dishes, sources and group work",
+    "points": [
+     "Dishes must meet the requirements of the assignment.",
+     "A dish may not be repeated, or partially repeated, across assignments.",
+     "Fresh foods should be used rather than convenience foods.",
+     "Practical work may be done in pairs, or in groups for Area E only.",
+     "The written record must be the candidate's own work, even where practical work was shared.",
+     "Every area requires sources of information to be cited, and all sources must be referenced, including AI-generated material."
+    ]
+   },
+   {
+    "b": "The SEC set five assignments for 2027. The theory for each is taught in the chapter named after it.",
+    "h": "The 2027 assignments: Areas A and B",
+    "points": [
+     "Assignment 1 (Area A): the challenges older people face in keeping a healthy diet; their nutritional needs and meal-planning guidelines; two-course main-meal menus; preparation of one main course. Theory: Meal Planning and Special Diets.",
+     "Assignment 2 (Area A): the causes and effects of iron deficiency; the nutritional needs and meal-planning factors for reducing the risk; two-course main-meal menus; preparation of one main course. Theory: Vitamins and Minerals, and Meal Planning and Special Diets.",
+     "Assignment 3 (Area B): commercially prepared filo and puff pastry, covering brands, forms, ingredients, cost, and sweet and savoury dishes; the key points for success with one of them; preparation of one dish; evaluation of the advantages and disadvantages of the chosen pastry. Theory: Cereals and Grains."
+    ]
+   },
+   {
+    "h": "The 2027 assignments: Areas D and E",
+    "points": [
+     "No Area C assignment was set for 2027.",
+     "Assignment 4 (Area D): types of marinade and the dishes that use each; the benefits of marinating and its underlying principles; the key points for success; preparation of one marinated dish; evaluation of whether the marinade achieved its purpose. Theory: Meat: Selection, Properties, and Cooking, covering tenderising.",
+     "Assignment 5 (Area E): descriptive rating tests and their use in the food industry; the range of commercial granola, covering brands, ingredients, nutritional content and cost; a descriptive rating test on two similar brands using six agreed sensory attributes and star diagrams; comparison of the two sensory profiles. Theory: Food Additives and Processing, covering sensory analysis and evaluation."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Investigation (analysis and research): 32 marks. Planning and Preparation (ingredients with quantities and costing, and key equipment): 8 marks. Implementation (the procedure followed, the key factors considered, and safety and hygiene): 28 marks. Evaluation (of the implementation and of the specific requirements of the assignment): 12 marks. Total for each assignment: 80 marks.",
+    "prompt": "Outline the four headings under which each Food Studies coursework assignment is marked, giving the marks for each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Area E is Comparative Analysis, including Sensory Analysis. The investigation must describe the testing technique and its possible outcomes. A descriptive rating test uses a panel that rates agreed sensory attributes, such as appearance, aroma, flavour, texture and aftertaste, for each product. The results can be shown on star diagrams so that the two sensory profiles can be compared. The foods or products tested, such as two similar brands of a product, must be identified with their ingredients, nutritional content and cost. The conditions to control include the place and timing of the test, the number and type of tasters, hygiene and equipment, the temperature at which the samples are served, the sample quantity and uniformity, the coding of samples and the order in which they are presented. Sources of information must be cited, and the written record must be the candidate's own work even where the practical work was done in a group.",
+    "prompt": "Discuss what must be covered in an Area E coursework investigation, including the sensory test, the foods tested and the conditions that must be controlled.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s1": {
+  "keyTerms": [
+   {
+    "definition": "A protein that contains all the essential amino acids in the proportions the body needs for growth and repair.",
+    "term": "High biological value (HBV) protein"
+   },
+   {
+    "definition": "The main protein in milk, which coagulates to form curds when rennet or acid is added.",
+    "term": "Casein"
+   },
+   {
+    "definition": "The liquid that separates from milk curds during cheese making, containing whey proteins and most of the lactose.",
+    "term": "Whey"
+   },
+   {
+    "definition": "The disaccharide sugar found in milk, made of glucose and galactose.",
+    "term": "Lactose"
+   },
+   {
+    "definition": "A vitamin dissolved in and carried by fat, such as vitamins A, D, E and K.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "A food to which nutrients such as vitamins or minerals have been added that are not normally present in it.",
+    "term": "Fortified food"
+   },
+   {
+    "definition": "Milk from which almost all the fat has been removed, leaving 0.1 to 0.4% fat.",
+    "term": "Skimmed milk"
+   },
+   {
+    "definition": "The nutrients a food supplies, measured by its composition.",
+    "term": "Nutritive value"
+   },
+   {
+    "definition": "The contribution a food makes to a healthy diet, including how it suits particular needs and how it is used.",
+    "term": "Dietetic value"
+   },
+   {
+    "definition": "Protein, calcium, phosphorus and vitamins A, B and D.",
+    "term": "Four nutrients milk supplies in useful amounts"
+   },
+   {
+    "definition": "Vitamin C and iron, with fibre also absent.",
+    "term": "Two nutrients milk lacks"
+   },
+   {
+    "definition": "Easily digested protein, calcium and phosphorus for bones and teeth, and a versatile, inexpensive food that suits invalid and elderly diets.",
+    "term": "Three dietetic values of milk for older people"
+   },
+   {
+    "definition": "Semi-skimmed milk, which has less fat and energy than whole milk.",
+    "term": "Milk type higher in calcium, protein and carbohydrate than whole milk"
+   },
+   {
+    "definition": "Vitamins A and D are removed with the fat when milk is skimmed.",
+    "term": "Vitamins removed with the fat in skimmed milk"
+   },
+   {
+    "definition": "Calcium, with vitamins A and D, are commonly added to fortified milk.",
+    "term": "Nutrient added to fortified milk for bone health"
+   },
+   {
+    "definition": "Vitamin B12 is needed for healthy red blood cells, folate and fatty-acid metabolism, and the myelin sheath of nerves.",
+    "term": "Vitamin needed for healthy red blood cells in milk"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Milk is a complete food for young mammals and a useful source of most nutrients in the human diet.",
+    "h": "Composition of milk",
+    "points": [
+     "Water makes up about 87% of milk, which contributes to hydration.",
+     "Protein makes up about 3.5% of whole milk. It is mainly casein, with whey proteins making up the rest, and it is high biological value (HBV) protein.",
+     "Fat in whole milk is about 3.5 to 4%, mostly saturated, and it carries the fat-soluble vitamins A and D.",
+     "Lactose is the milk sugar, a disaccharide that supplies energy and aids the absorption of calcium.",
+     "Minerals: calcium and phosphorus for bones and teeth, with traces of magnesium, potassium and sodium.",
+     "Vitamins: A, D and B group vitamins, including riboflavin (B2) and B12."
+    ]
+   },
+   {
+    "h": "Nutrients milk does not supply",
+    "points": [
+     "Milk contains no vitamin C.",
+     "Milk contains no fibre.",
+     "Milk contains very little starch, so its carbohydrate is almost all lactose.",
+     "Milk is low in iron."
+    ]
+   },
+   {
+    "h": "Dietetic value of milk",
+    "points": [
+     "Protein supports growth and repair in children, adolescents and pregnant women.",
+     "Calcium and phosphorus support bone and tooth development and maintenance, and are needed by older people and nursing mothers.",
+     "Lactose and fat give energy for an active lifestyle.",
+     "Milk is easily digested, so it suits invalid and elderly diets.",
+     "Milk is versatile, used in drinks, cereals, sauces, soups, puddings and baking.",
+     "Milk is inexpensive, widely available and quick to use with no preparation.",
+     "Milk can be fortified to add nutrients that are otherwise low.",
+     "The Department of Health healthy eating guidelines and the Irish Food Pyramid place milk in the dairy food group, which should be included every day."
+    ]
+   },
+   {
+    "h": "Milk in young children's diets",
+    "points": [
+     "Young children need the energy and fat-soluble vitamins A and D that whole milk supplies.",
+     "Reduced-fat and skimmed milks have less energy and fewer fat-soluble vitamins, so they are less suitable as a young child's main milk.",
+     "Milk is low in iron, so iron-rich foods such as meat, fish or fortified cereals should be given alongside it.",
+     "Milk can be used in young children's diets in cereals, sauces, soups and puddings to add protein and calcium."
+    ]
+   },
+   {
+    "h": "Types of milk",
+    "points": [
+     "Whole milk: about 3.5 to 4% fat, with the most energy and vitamin A of the common types.",
+     "Semi-skimmed milk: less fat and energy than whole milk, but higher in protein, carbohydrate and calcium.",
+     "Skimmed milk: 0.1 to 0.4% fat; the fat is removed along with vitamins A and D, so it suits low-fat and low-cholesterol diets.",
+     "Low-fat milk: sits between whole and skimmed milk in fat and energy content.",
+     "Fortified milk: vitamins such as A and D, folic acid, calcium, protein or omega-3 fatty acids are added to whole, low-fat or skimmed milk.",
+     "Long-life (UHT) milk is a separate heat-treated type; its processing is covered in the next subsection."
+    ]
+   },
+   {
+    "h": "Choosing milk by comparing nutrition information",
+    "points": [
+     "Energy and fat content: a lower-energy, lower-fat milk suits a slimming or low-cholesterol diet.",
+     "Protein: needed for growth and repair, so compare grams per 100 ml for growing teenagers.",
+     "Calcium: compare the amount per 100 ml for bones and teeth.",
+     "Vitamin B12: needed for healthy red blood cells, folate and fatty-acid metabolism, and the myelin sheath of nerves.",
+     "A fat-free milk compared with whole milk has lower energy and fat, similar protein and vitamin B12, and more calcium, which is the basis for recommending it to a teenager."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Protein: growth and repair of body tissues. Calcium: development and maintenance of strong bones and teeth. Riboflavin (B2): release of energy from food. Vitamin A: healthy skin, eyes and lining membranes. Vitamin D: absorption of calcium for bones and teeth. Any four with a function gives full marks.",
+    "prompt": "Name four nutrients found in milk and give one function in the body of each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Nutritive value: a complete food with about 87% water; HBV protein (casein and whey); saturated fat carrying vitamins A and D in whole milk; lactose for energy; calcium and phosphorus for bones and teeth; traces of magnesium, potassium and sodium; B group vitamins; no vitamin C, fibre or significant iron. Dietetic value: protein for growth and repair in children, adolescents and pregnant women; calcium and phosphorus for bones and teeth in older people and nursing mothers; easily digested, suiting invalid and elderly diets; versatile, inexpensive and fortifiable; should be combined with starch, fibre, vitamin C and iron foods. Choice: whole milk for young children and others needing energy and fat-soluble vitamins; semi-skimmed for families wanting less fat with extra protein and calcium; skimmed or low-fat milk for consumers on low-fat, low-cholesterol or low-energy diets, with the fat-soluble vitamins A and D lost or reduced; fortified milk where a particular nutrient is needed.",
+    "prompt": "Give an account of the nutritive and dietetic value of milk, and explain how the choice between whole, semi-skimmed and skimmed milk depends on the needs of the consumer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2": {
+  "keyTerms": [
+   {
+    "definition": "Heat treatment of milk at 72 to 75°C for 15 to 25 seconds, followed by rapid cooling, which destroys pathogenic and most spoilage bacteria.",
+    "term": "Pasteurisation"
+   },
+   {
+    "definition": "Heat treatment of milk at a higher temperature for longer in sealed containers, which destroys all bacteria and their spores.",
+    "term": "Sterilisation"
+   },
+   {
+    "definition": "Heating milk to about 132°C for 1 to 3 seconds and packing it aseptically to give commercially sterile milk with a long unopened shelf life.",
+    "term": "Ultra-heat treatment (UHT)"
+   },
+   {
+    "definition": "A process that breaks fat globules into smaller particles and distributes them evenly through milk.",
+    "term": "Homogenisation"
+   },
+   {
+    "definition": "Packing a sterilised product into sterile containers in a sterile environment to prevent recontamination.",
+    "term": "Aseptic packaging"
+   },
+   {
+    "definition": "The period a food can be stored and remain safe and of acceptable quality under stated conditions.",
+    "term": "Shelf life"
+   },
+   {
+    "definition": "A micro-organism that can cause disease when present in food.",
+    "term": "Pathogenic micro-organism"
+   },
+   {
+    "definition": "A dormant, heat-resistant form of certain bacteria that can survive heat treatments which destroy the active bacteria.",
+    "term": "Spore"
+   },
+   {
+    "definition": "Adjusting the fat content of milk to a set level so that whole, low-fat or skimmed milk is produced consistently.",
+    "term": "Standardisation"
+   },
+   {
+    "definition": "15 to 25 seconds, then cooled rapidly to below 10°C.",
+    "term": "Heat treatment at 72 to 75°C: time and cooling"
+   },
+   {
+    "definition": "About 132°C for 1 to 3 seconds.",
+    "term": "Temperature and time of UHT"
+   },
+   {
+    "definition": "It destroys all micro-organisms and spores; unopened milk keeps for several months; there is some loss of heat-sensitive B vitamins and vitamin C.",
+    "term": "Three effects of UHT on milk"
+   },
+   {
+    "definition": "It destroys pathogenic and most spoilage bacteria; there is some loss of thiamine and vitamin C.",
+    "term": "Two effects of the low-temperature heat treatment on milk"
+   },
+   {
+    "definition": "Milk is creamier, and the smaller fat globules are more easily digested.",
+    "term": "Two benefits of the even fat distribution in homogenised milk"
+   },
+   {
+    "definition": "Glass bottles, metal cans, plastic cartons and waxed cardboard cartons.",
+    "term": "Four containers used to package milk"
+   },
+   {
+    "definition": "Type of milk, brand, quantity, nutritional information, date stamp and storage instructions.",
+    "term": "Six items on a milk label"
+   },
+   {
+    "definition": "Evaporated milk and condensed milk, the latter usually sweetened.",
+    "term": "Two dried or concentrated milks made by removing water"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Raw milk spoils quickly and can carry pathogenic bacteria, so manufacturers heat-treat and package it to extend its shelf life.",
+    "h": "Why milk is processed",
+    "points": [
+     "Heat treatment destroys pathogenic bacteria and most spoilage bacteria.",
+     "Refrigeration slows bacterial growth but does not destroy bacteria.",
+     "Every heat treatment causes some loss of heat-sensitive vitamins, so the process chosen balances safety, shelf life and nutrient loss."
+    ]
+   },
+   {
+    "h": "Pasteurisation",
+    "points": [
+     "Milk is heated to 72 to 75°C for 15 to 25 seconds.",
+     "It is then cooled rapidly to below 10°C and packaged.",
+     "Effect: pathogenic bacteria and most spoilage bacteria are destroyed.",
+     "Nutritive effect: some thiamine (B1) and vitamin C are lost.",
+     "Pasteurised milk must be kept refrigerated, and its shelf life is short compared with UHT milk."
+    ]
+   },
+   {
+    "h": "Sterilisation",
+    "points": [
+     "Milk is heated to a higher temperature for longer than in pasteurisation, in sealed containers.",
+     "Effect: all bacteria and their spores are destroyed, so the milk is safer and keeps for several months.",
+     "Nutritive effect: some thiamine is lost.",
+     "Flavour is altered by the stronger heat, giving a cooked taste."
+    ]
+   },
+   {
+    "h": "Ultra-heat treatment (UHT)",
+    "points": [
+     "Milk is heated to approximately 132°C for 1 to 3 seconds, then cooled rapidly.",
+     "It is packed aseptically into sterile, airtight cartons.",
+     "Effect: pathogenic and spoilage micro-organisms are destroyed, giving commercially sterile milk.",
+     "Unopened UHT milk keeps for several months without refrigeration; once opened it must be refrigerated.",
+     "Nutritive effect: some loss of heat-sensitive B group vitamins and vitamin C.",
+     "There may be a slight cooked flavour."
+    ]
+   },
+   {
+    "h": "Homogenisation",
+    "points": [
+     "Fat globules are broken into smaller particles and distributed evenly through the milk.",
+     "Even distribution stops cream rising to the surface, so the milk stays uniform.",
+     "The milk is creamier in texture.",
+     "Smaller fat globules are more easily digested.",
+     "In production, homogenisation is usually carried out before pasteurisation or UHT treatment."
+    ]
+   },
+   {
+    "h": "Stages of milk production",
+    "points": [
+     "1. Milk is collected from farms, cooled and tested for quality and bacterial content.",
+     "2. Milk is separated where cream is required, and skimmed milk is produced.",
+     "3. The fat content is standardised to make whole, low-fat or skimmed milk.",
+     "4. Vitamins or minerals are added if a fortified milk is being made.",
+     "5. Milk is homogenised and then heat-treated by pasteurisation, sterilisation or UHT.",
+     "6. Milk is packaged under hygienic conditions.",
+     "7. Milk is labelled, stored and distributed, with pasteurised milk kept chilled throughout."
+    ]
+   },
+   {
+    "h": "Packaging and labelling of milk",
+    "points": [
+     "Packaging: glass bottles, metal cans, plastic cartons or waxed cardboard cartons.",
+     "Packaging protects milk from light and contamination and holds the stated quantity.",
+     "Label: type of milk (whole, semi-skimmed, skimmed or fortified), brand and quantity.",
+     "Label: nutritional information, including energy, protein, fat and carbohydrate.",
+     "Label: date stamp, either use-by or best-before, and storage instructions.",
+     "Labels must comply with Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+    ]
+   },
+   {
+    "b": "Milk is a processed food whose processing extends shelf life while keeping it useful as a nutritious food.",
+    "h": "Milk as a processed food",
+    "points": [
+     "Evaporated milk is concentrated by removing water.",
+     "Condensed milk is concentrated by removing water and is usually sweetened.",
+     "Dried milk is made into powder by spray drying or roller drying, giving a long shelf life.",
+     "Processed milks have the convenience of long storage and can be used where fresh milk is not available."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Fat globules are broken into smaller particles and spread evenly through the milk. This stops cream separating and rising to the top, so the milk is uniform. The milk is creamier in texture. The smaller fat globules are more easily digested, which is a benefit to the consumer.",
+    "prompt": "Describe what homogenisation does to milk and give one benefit to the consumer.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Process named, such as pasteurisation, sterilisation or UHT. Method: milk is heated to a stated temperature for a stated time (pasteurisation 72 to 75°C for 15 to 25 seconds, cooled rapidly to below 10°C; UHT about 132°C for 1 to 3 seconds, packed aseptically). Effect on nutrients: some loss of thiamine (B1) and vitamin C in pasteurisation; some loss of heat-sensitive B vitamins and vitamin C in UHT. Packaging: glass bottles, metal cans, plastic or waxed cardboard cartons. Labelling: type of milk, brand, quantity, nutritional information, date stamp and storage instructions, meeting EU food information rules as given effect in Ireland.",
+    "prompt": "Describe one heat treatment used to extend the shelf life of milk, referring to how the process is carried out, its effect on the nutritive value of milk, and how the packaged milk is labelled.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3": {
+  "keyTerms": [
+   {
+    "definition": "Agitating cream so that the fat globules break and clump together to form butter.",
+    "term": "Churning"
+   },
+   {
+    "definition": "The liquid left after cream has been churned into butter.",
+    "term": "Buttermilk"
+   },
+   {
+    "definition": "Cream with the highest fat content, which whips to stiff peaks.",
+    "term": "Double cream"
+   },
+   {
+    "definition": "Lactic acid bacteria added to milk to convert lactose to lactic acid in products such as yoghurt and cheese.",
+    "term": "Lactic culture"
+   },
+   {
+    "definition": "Holding a culture-inoculated mixture at a constant warm temperature so the bacteria can multiply and ferment the milk.",
+    "term": "Incubation"
+   },
+   {
+    "definition": "A live micro-organism that, when eaten in sufficient amount, benefits the gut.",
+    "term": "Probiotic"
+   },
+   {
+    "definition": "Yoghurt to which an additional culture such as Lactobacillus acidophilus has been added.",
+    "term": "Bio-yoghurt"
+   },
+   {
+    "definition": "A food to which an ingredient has been added that is claimed to give a health benefit beyond basic nutrition.",
+    "term": "Functional food"
+   },
+   {
+    "definition": "Separating milk into cream and skimmed milk by spinning it at high speed, so the lighter fat rises.",
+    "term": "Centrifugal separation"
+   },
+   {
+    "definition": "80 to 90°C.",
+    "term": "Heat treatment range for milk before yoghurt making"
+   },
+   {
+    "definition": "About 37°C.",
+    "term": "Temperature to which milk is cooled before the culture is added"
+   },
+   {
+    "definition": "6 to 8 hours.",
+    "term": "Incubation time for yoghurt"
+   },
+   {
+    "definition": "About 5°C.",
+    "term": "Temperature to which yoghurt is cooled to halt fermentation"
+   },
+   {
+    "definition": "Sweeteners; fruit or nuts; colours, flavours or stabilisers.",
+    "term": "Three types of ingredient that may be added to yoghurt after culturing"
+   },
+   {
+    "definition": "Cream substitute; salad dressing or dip; dessert topping.",
+    "term": "Three culinary uses of yoghurt"
+   },
+   {
+    "definition": "It aids digestion.",
+    "term": "Benefit to the consumer of the acidophilus culture"
+   },
+   {
+    "definition": "Low-fat products; fortified and functional foods; convenient portion and snack packs; extended shelf life.",
+    "term": "Four measures the dairy industry has taken to meet consumer trends"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Cream: nutritional significance and types",
+    "points": [
+     "Cream is the fat-rich layer separated from milk, so it is high in energy and contributes little protein or carbohydrate.",
+     "Its fat is mostly saturated and contains cholesterol.",
+     "The fat-soluble vitamins A and D are carried in the cream fat.",
+     "Cream contains no vitamin C and no fibre.",
+     "Double cream has the highest fat content and whips to stiff peaks.",
+     "Single cream has less fat, does not whip, and is used to pour over desserts and in sauces.",
+     "Whipping cream is whipped to a foam by beating air into it.",
+     "Sour cream is cultured with lactic acid bacteria, giving a tangy flavour used in dips and toppings."
+    ]
+   },
+   {
+    "h": "Processing cream",
+    "points": [
+     "Cream is separated from milk by centrifugal separation, which spins the milk so the lighter fat rises.",
+     "The separated cream is then pasteurised or UHT treated, as for milk.",
+     "The fat content of each cream is standardised to the level named on the label."
+    ]
+   },
+   {
+    "h": "Selecting and storing cream",
+    "points": [
+     "Select cream with the fat content stated on the label, which shows whether it is single, double or whipping cream.",
+     "Check the use-by date and that the carton is intact and sealed.",
+     "Refrigerate cream promptly and keep it in its sealed container, away from strong-smelling foods.",
+     "Once opened, use cream within the period stated on the label.",
+     "Whipped cream does not keep and should be used soon after whipping."
+    ]
+   },
+   {
+    "h": "Butter: production and nutritional significance",
+    "points": [
+     "Butter is made by churning cream, which breaks down the fat globules so the fat clumps together.",
+     "The liquid left after churning is buttermilk.",
+     "Butter is mainly fat with a small amount of water, and its fat is mostly saturated.",
+     "Butter is high in cholesterol and supplies vitamins A and D from its fat.",
+     "Salted butter has salt added for flavour and preservation, so unsalted butter suits those limiting salt.",
+     "Low-fat and spreadable butters contain less fat or are blended with other fats and water, and are chosen to reduce saturated fat."
+    ]
+   },
+   {
+    "h": "Culinary uses and storage of butter",
+    "points": [
+     "Spreading on bread and toast.",
+     "Shortcrust and other pastry, where the fat is rubbed into the flour to make a crumbly texture.",
+     "Creaming with sugar in cake making, where air is beaten into the fat to aerate the mixture.",
+     "Frying and making sauces.",
+     "Butter is refrigerated, kept covered, and stored away from strong-smelling foods to prevent it absorbing odours.",
+     "Buy butter from a clean shop in intact packs, and use it before the use-by date."
+    ]
+   },
+   {
+    "b": "Yoghurt is made from milk and so shares milk's nutrients, with the lactic acid making it easier to digest for many people.",
+    "h": "Yoghurt: nutritional significance",
+    "points": [
+     "Yoghurt supplies HBV protein for growth and repair.",
+     "Yoghurt supplies lactose as an energy source.",
+     "Yoghurt is rich in calcium and phosphorus for bones and teeth.",
+     "Yoghurt supplies vitamins A, D and B group vitamins.",
+     "Yoghurt is about 87% water, with traces of minerals such as potassium.",
+     "Full-fat yoghurt contains saturated fat, and yoghurt lacks vitamin C and iron.",
+     "Dietetic value: yoghurt suits all ages, is versatile, fortifiable, inexpensive and a convenient snack.",
+     "Yoghurt is a cream substitute for those limiting cream's fat, and should be balanced with starch, fibre and iron foods."
+    ]
+   },
+   {
+    "h": "Yoghurt manufacture",
+    "points": [
+     "1. Milk is homogenised.",
+     "2. Milk is pasteurised at 80 to 90°C.",
+     "3. Milk is cooled to about 37°C.",
+     "4. A lactic culture such as Lactobacillus bulgaricus is added.",
+     "5. The mixture is incubated for 6 to 8 hours. Lactose changes to lactic acid, and the milk proteins coagulate and thicken to form yoghurt.",
+     "6. The yoghurt is cooled to about 5°C to halt fermentation.",
+     "7. Sweeteners, fruit, nuts, colours, flavours or stabilisers may be added.",
+     "8. The yoghurt is weighed, packaged and labelled."
+    ]
+   },
+   {
+    "h": "Bio-yoghurt and probiotic cultures",
+    "points": [
+     "Bio-yoghurt contains an added culture such as Lactobacillus acidophilus.",
+     "Acidophilus bacteria aid digestion.",
+     "Probiotic yoghurts contain live bacteria intended to benefit the gut.",
+     "The culture is added after pasteurisation, because heat would destroy it."
+    ]
+   },
+   {
+    "h": "Selecting, storing and using yoghurt",
+    "points": [
+     "Buy from a clean shop, and check the use-by date and that the lid is intact.",
+     "Check the ingredients list for sugar, fruit and possible allergens, and the origin of the product.",
+     "Refrigerate yoghurt promptly, rotate stock so older packs are used first, and reseal with the original lid.",
+     "Uses: eaten alone or as a drink, in desserts, salads and smoothies.",
+     "Uses: as a garnish or topping, on cereal, as a dip, and in curries and baking."
+    ]
+   },
+   {
+    "h": "Dairy industry responses to consumer trends",
+    "points": [
+     "Low-fat and skimmed products, including low-fat cheese and low-fat butter.",
+     "Fortified products, such as milk with added vitamins, calcium or omega-3 fatty acids.",
+     "Functional yoghurts with added probiotic cultures or plant stanols.",
+     "Lactose-free, sugar-free and high-protein yoghurts.",
+     "Convenience formats: individually wrapped cheese portions, drinking yoghurts and frozen yoghurt.",
+     "Added-value products such as grated cheese and flavoured spreadable butter.",
+     "Extended shelf life through UHT treatment and aseptic packaging.",
+     "Resealable packs and varied sizes for family use."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The culture is added after the milk has been pasteurised and cooled to about 37°C. The lactic acid bacteria convert lactose into lactic acid, which gives yoghurt its sharp flavour and acts as a preservative. The acid causes the milk proteins to coagulate, thickening the mixture into yoghurt during incubation of 6 to 8 hours.",
+    "prompt": "Explain the role of the lactic culture in yoghurt making and state the temperature at which it is added.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Nutritional significance: HBV protein for growth and repair; lactose and fat for energy; calcium and phosphorus for bones and teeth; vitamins A, D and B group; about 87% water; saturated fat in full-fat varieties; no vitamin C or iron, so it should be balanced with starch, fibre and iron foods. Dietetic value: suits all ages, versatile, digestible, fortifiable, inexpensive and convenient. Buying: clean shop, check use-by date and intact lid, check ingredients and allergens and origin. Storage: refrigerate promptly, rotate stock, reseal with the original lid and use by the date stated.",
+    "prompt": "Discuss the nutritional significance of yoghurt in the diet, and describe the guidelines to follow when buying and storing it.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s4": {
+  "keyTerms": [
+   {
+    "definition": "Lactic acid bacteria added to milk at the start of cheese making, which convert lactose into lactic acid.",
+    "term": "Starter culture"
+   },
+   {
+    "definition": "A preparation containing the enzyme rennin, which coagulates caseinogen into casein during cheese making.",
+    "term": "Rennet"
+   },
+   {
+    "definition": "The milk protein that coagulates to form the solid structure of cheese curds.",
+    "term": "Casein"
+   },
+   {
+    "definition": "The solid part of milk that forms when casein coagulates, which is pressed into cheese.",
+    "term": "Curd"
+   },
+   {
+    "definition": "The liquid part of milk that separates from curds, containing most of the lactose.",
+    "term": "Whey"
+   },
+   {
+    "definition": "The stage in cheese making where curds are cut into blocks and piled together to drain away whey.",
+    "term": "Cheddaring"
+   },
+   {
+    "definition": "Heating curds to 35 to 40°C to squeeze out more whey and achieve the correct consistency.",
+    "term": "Scalding"
+   },
+   {
+    "definition": "Cheese blended and heated with other ingredients to give a uniform product, such as cheese slices or spreads.",
+    "term": "Processed cheese"
+   },
+   {
+    "definition": "A cheese ripened by a mould that grows through the body of the cheese, giving blue veins.",
+    "term": "Blue-veined cheese"
+   },
+   {
+    "definition": "Cheese made on a farm in small batches, with distinctive flavour and character.",
+    "term": "Farmhouse cheese"
+   },
+   {
+    "definition": "Hard: Cheddar. Semi-hard: Edam. Soft: feta.",
+    "term": "Three classes of cheese, each with one example"
+   },
+   {
+    "definition": "Rennin, the enzyme in rennet.",
+    "term": "Enzyme that changes caseinogen into casein"
+   },
+   {
+    "definition": "About 30°C.",
+    "term": "Temperature to which milk is heated before rennet is added"
+   },
+   {
+    "definition": "35 to 40°C.",
+    "term": "Heating range to squeeze out more whey from curds"
+   },
+   {
+    "definition": "About 2%, for flavour and preservation.",
+    "term": "Salt added to cheese blocks before moulding"
+   },
+   {
+    "definition": "3 to 12 months.",
+    "term": "Ripening period for hard cheese in storage"
+   },
+   {
+    "definition": "Protein coagulates and shrinks; fat melts and separates, making the cheese stringy.",
+    "term": "Two effects of cooking on cheese"
+   },
+   {
+    "definition": "Vitamin C, iron and fibre.",
+    "term": "Three nutrients cheese is deficient in"
+   },
+   {
+    "definition": "Distinctive flavour and quality; interest in local provenance and traceability; promotion at farmers' markets, restaurants and in the media.",
+    "term": "Three reasons for the popularity of Irish cheese made on small farms"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Classification of cheese",
+    "points": [
+     "Hard cheese: low in moisture and matured for longer; examples are Cheddar, Parmesan, Cheshire and Emmenthal.",
+     "Semi-hard or semi-soft cheese: examples are Gouda, Edam and Halloumi.",
+     "Soft cheese: high in moisture and not matured; examples are cottage cheese, cream cheese, feta, mozzarella, Brie and Camembert.",
+     "Processed cheese: cheese blended and heated with other ingredients to form a uniform product; examples are cheese slices, cheese spreads and processed cheddars.",
+     "Smoked cheese: cheese flavoured by smoking, often sold as a processed product.",
+     "Blue-veined cheese: ripened by a mould growing through the cheese; examples are Cashel Blue, Stilton, Roquefort and Gorgonzola."
+    ]
+   },
+   {
+    "h": "Nutritive value of cheese",
+    "points": [
+     "Protein is high biological value (HBV) casein, containing all essential amino acids for growth, repair and the making of enzymes, hormones and antibodies.",
+     "Protein content varies by type; soft cheese contains less protein than hard cheese.",
+     "Full-fat cheese contains considerable saturated fat and cholesterol, supplying concentrated energy.",
+     "Higher water content means less fat; cheese made from skimmed milk is lower in fat.",
+     "Cheese contains very little carbohydrate, because most of the lactose drains away in the whey.",
+     "Vitamin A and beta-carotene support healthy skin, vision and membranes.",
+     "Riboflavin (B2) and B12 are the main B group vitamins supplied.",
+     "Calcium and phosphorus support bones and teeth; some vitamin D is supplied to aid calcium absorption.",
+     "Sodium is supplied, mainly by salt added during production, so cheddar is high in salt.",
+     "Cheese is deficient in vitamin C, iron and fibre."
+    ]
+   },
+   {
+    "h": "Dietetic value of cheese",
+    "points": [
+     "Cheese is a relatively cheap protein food with no waste and needs no cooking.",
+     "Protein and calcium support growth in children and adolescents, and are needed in pregnancy and by nursing mothers.",
+     "Cheese is a high-energy food suited to active people.",
+     "Cottage cheese and low-fat varieties suit low-kilocalorie, low-cholesterol and weight-watching diets.",
+     "Some cheeses are difficult to digest, and full-fat varieties are high in saturated fat.",
+     "Soft cheeses should be avoided by pregnant women because of the risk of listeria.",
+     "Cheese lacks carbohydrate, so it should be eaten with foods such as bread, and with vegetables or fruit for fibre and vitamin C.",
+     "Cheese is versatile and wide in variety, which helps variety in the diet."
+    ]
+   },
+   {
+    "h": "Starter culture and rennet",
+    "points": [
+     "Lactic acid bacteria are added to the milk as a starter culture.",
+     "The bacteria convert lactose into lactic acid, which preserves the cheese and adds flavour.",
+     "Rennet contains the enzyme rennin, which changes caseinogen in the milk into casein.",
+     "Casein coagulates, so the milk proteins bond and separate the milk into curds and whey.",
+     "Curds are the solid part; whey is the liquid part, which contains most of the lactose."
+    ]
+   },
+   {
+    "h": "Stages of cheese production",
+    "points": [
+     "1. A culture of lactic acid bacteria is added to pasteurised milk.",
+     "2. The milk is heated to about 30°C and rennet is added.",
+     "3. The mixture separates into curds and whey, which is drained off after the curds are chopped to release more whey.",
+     "4. The curds are heated to 35 to 40°C, which squeezes out more whey and gives the correct consistency.",
+     "5. Cheddaring: the curds are cut into blocks and piled on each other to complete drainage of whey.",
+     "6. The blocks are cut and about 2% salt is added for flavour and preservation.",
+     "7. The salted curds are placed in moulds and pressed; the moulds may be sprayed with hot water to form a protective rind.",
+     "8. The cheese is removed, date stamped and stored for 3 to 12 months to ripen, then graded."
+    ]
+   },
+   {
+    "h": "Packaging and labelling of cheese",
+    "points": [
+     "Vacuum packing in polythene zip-lock bags, which extends shelf life.",
+     "Waxed paper wrapping and plastic tubs for smaller portions.",
+     "Labelling: type of cheese, brand, quantity and nutritional information.",
+     "Labelling: date stamp and storage instructions.",
+     "Labels must comply with Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+    ]
+   },
+   {
+    "h": "Effects of cooking on cheese",
+    "points": [
+     "Colour changes as the cheese browns.",
+     "Protein coagulates and shrinks.",
+     "Fat melts, and if overheated it separates from the cheese.",
+     "Overcooked cheese becomes stringy, tough and indigestible.",
+     "Overcooking can carbonise the cheese.",
+     "Little loss of nutrients occurs when cheese is cooked."
+    ]
+   },
+   {
+    "h": "Culinary uses of cheese",
+    "points": [
+     "Sandwiches and snacks, including cheese slices in sandwiches.",
+     "Baking and pastry, such as cheese scones and cheese pastry.",
+     "Savoury and sweet fillings, and sauces.",
+     "Desserts, such as cheesecake, and cheeseboards.",
+     "Main ingredient in pasta, potato and salad dishes.",
+     "Dips, fondue, toppings and garnishes.",
+     "Choosing: Parmesan, a hard cheese, is grated over pasta carbonara; cream cheese is used in lemon cheesecake; cheddar slices are used in a cheese sandwich."
+    ]
+   },
+   {
+    "h": "Irish farmhouse cheese",
+    "points": [
+     "Farmhouse cheese is made on farms in small batches from cow's, goat's or sheep's milk.",
+     "Its distinctive flavours, textures and degrees of maturity differ from mass-produced cheese.",
+     "Consumers value traceable local food, short food miles and support for rural family businesses.",
+     "It is promoted at farmers' markets, specialist shops, restaurants, food tourism and in the media.",
+     "Awards and quality assurance strengthen its premium image.",
+     "Farmhouse varieties include soft, hard, blue, flavoured, organic and reduced-fat cheeses."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A lactic acid culture is added to pasteurised milk, and the milk is heated to about 30°C. Rennet is added; its enzyme changes caseinogen into casein, which coagulates the milk. The mixture separates into curds and whey. The curds are chopped to release more whey, which is drained off, and the curds are then heated and pressed.",
+    "prompt": "Outline how curds and whey are separated when making a hard cheese.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Nutritional significance: HBV protein for growth and repair; calcium and phosphorus for bones and teeth; vitamins A and B2, with B12 and some vitamin D; full-fat cheese high in saturated fat, cholesterol and energy; reduced-fat cheese lower in fat and energy, suiting low-cholesterol and weight-watching diets; high in salt, especially cheddar; little carbohydrate, and no vitamin C, iron or fibre. Combination: eat with wholegrain bread or other carbohydrate, with vegetables or fruit for fibre and vitamin C, and with iron-rich foods; control portions of full-fat, salty cheese; avoid soft cheeses during pregnancy.",
+    "prompt": "Discuss the nutritional significance of full-fat and reduced-fat cheese, and explain how cheese should be combined with other foods to give a balanced meal.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s5": {
+  "keyTerms": [
+   {
+    "definition": "The white of the egg, a watery mixture of proteins that surrounds the yolk.",
+    "term": "Albumen"
+   },
+   {
+    "definition": "The yellow centre of the egg, rich in fat, lecithin, cholesterol, vitamins and minerals.",
+    "term": "Yolk"
+   },
+   {
+    "definition": "Two cord-like strands of albumen that anchor the yolk in the centre of the egg.",
+    "term": "Chalazae"
+   },
+   {
+    "definition": "The pocket at the blunt end of the egg between the shell membranes, which enlarges as the egg ages.",
+    "term": "Air cell"
+   },
+   {
+    "definition": "One of the two thin membranes lining the shell, which help keep bacteria out.",
+    "term": "Shell membrane"
+   },
+   {
+    "definition": "The small spot on the yolk surface, which would develop into a chick if fertilised.",
+    "term": "Germinal disc"
+   },
+   {
+    "definition": "The main protein in the egg white, which is high biological value.",
+    "term": "Ovalbumin"
+   },
+   {
+    "definition": "A person who eats dairy products and eggs but no meat or fish.",
+    "term": "Lacto-vegetarian"
+   },
+   {
+    "definition": "Albumin, ovalbumin and globulin.",
+    "term": "Three proteins found in the white of the egg"
+   },
+   {
+    "definition": "Vitellin and livetin.",
+    "term": "Two proteins found in the yolk"
+   },
+   {
+    "definition": "A, D, E and K, all found in the yolk.",
+    "term": "Four fat-soluble vitamins found in eggs"
+   },
+   {
+    "definition": "Iron.",
+    "term": "Mineral found in the yolk that forms haemoglobin"
+   },
+   {
+    "definition": "Vitamin C.",
+    "term": "Vitamin that eggs lack"
+   },
+   {
+    "definition": "They are easily digested, and they supply HBV protein for growth and repair.",
+    "term": "Two reasons eggs suit older people and invalids"
+   },
+   {
+    "definition": "They replace meat and fish as a protein; they supply HBV protein for lacto-vegetarians; they supply some B vitamins, including B12.",
+    "term": "Three ways eggs suit a vegetarian diet"
+   },
+   {
+    "definition": "Protein about 13% and fat about 12%.",
+    "term": "Approximate protein and fat content of an egg"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Shell and air cell",
+    "points": [
+     "Shell: porous calcium carbonate that protects the contents and allows gases to pass through.",
+     "Shell membranes: two thin membranes lining the shell that help keep out bacteria.",
+     "Air cell: a pocket at the blunt end between the membranes, which enlarges as the egg ages and indicates its freshness.",
+     "Diagram: cross-section of an egg, labelling shell, shell membranes and air cell."
+    ]
+   },
+   {
+    "b": "The two liquid parts of the egg are held in place by structures that anchor the yolk at the centre.",
+    "h": "Albumen, yolk and their attachments",
+    "points": [
+     "Albumen (white): surrounds the yolk and is a watery mixture of proteins, mainly albumin, ovalbumin and globulin.",
+     "Chalazae: two cord-like strands of albumen that anchor the yolk in the centre of the egg.",
+     "Yolk: a rich, yellow centre surrounded by the vitelline membrane, containing fat, lecithin, cholesterol, proteins, vitamins and minerals.",
+     "Germinal disc: a small spot on the surface of the yolk, which would develop into a chick if fertilised.",
+     "Diagram: the albumen, chalazae, vitelline membrane, yolk and germinal disc, labelled on the same cross-section."
+    ]
+   },
+   {
+    "h": "Nutritive value of eggs",
+    "points": [
+     "Protein is about 13% of the egg and is high biological value (HBV), with a biological value of 100%.",
+     "White protein: albumin, ovalbumin and globulin. Yolk protein: vitellin and livetin.",
+     "Fat is about 12%, almost all in the yolk, and is mostly saturated and finely emulsified by lecithin.",
+     "The white is fat-free; cholesterol is found only in the yolk.",
+     "Eggs contain no carbohydrate and no fibre.",
+     "Fat-soluble vitamins A, D, E and K are found in the yolk.",
+     "B group vitamins are found in both the white and the yolk, including B1, B2, niacin and B12.",
+     "Eggs lack vitamin C.",
+     "Minerals make up about 1% of the egg: calcium, phosphorus, zinc and sulphur, with iron in the yolk.",
+     "The egg is about 75% water.",
+     "Free-range eggs can contain higher levels of some vitamins, such as niacin and B12, than eggs from caged hens."
+    ]
+   },
+   {
+    "h": "Contribution of eggs to the diet",
+    "points": [
+     "Eggs are cheap, nutritious and suitable for people on low budgets.",
+     "Eggs are a protein alternative to meat and fish.",
+     "Eggs supply HBV protein for lacto-vegetarians, who eat dairy products and eggs.",
+     "Eggs are easily digested, so they suit children, older people and convalescents.",
+     "Eggs are quick and easy to cook, and are versatile in sweet and savoury dishes.",
+     "Eggs can be eaten alone, or with toast or other carbohydrate foods to make a meal.",
+     "Eggs contain saturated fat and cholesterol, so intake should be moderate for people limiting cholesterol.",
+     "Eggs should be served with complex carbohydrate, fibre and vitamin C foods to balance the diet."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Shell: protects the contents and allows gases to pass through. Albumen: supplies HBV protein and cushions the yolk. Yolk: supplies fat, fat-soluble vitamins, iron and lecithin. Chalazae: anchor the yolk in the centre. Air cell: indicates the freshness of the egg, enlarging as it ages. Any three parts with functions give full marks.",
+    "prompt": "Name three parts of an egg and give the function of each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Nutritive value: about 13% HBV protein with 100% biological value (albumin, ovalbumin and globulin in the white; vitellin and livetin in the yolk); about 12% fat, mostly saturated in the yolk, with lecithin and cholesterol; the white is fat-free; no carbohydrate or fibre; fat-soluble vitamins A, D, E and K in the yolk; B group vitamins in both parts; minerals including calcium, phosphorus, iron and zinc; no vitamin C; about 75% water. Contribution: HBV protein for growth and repair in children and adolescents; easily digested for older people and convalescents; protein for lacto-vegetarians; cheap, quick and versatile for families on low budgets; should be served with carbohydrate and vitamin C foods, and eaten in moderation by people limiting cholesterol.",
+    "prompt": "Describe the nutritive value of eggs and explain how eggs contribute to the diet of different groups of people.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s6": {
+  "keyTerms": [
+   {
+    "definition": "The setting of egg protein when heated, as the protein chains unfold and bond together around water.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "The unfolding of protein chains by heat, acid or mechanical action, which changes their structure.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "Incorporating air into a mixture, often by whisking, to produce a foam.",
+    "term": "Aeration"
+   },
+   {
+    "definition": "A stable mixture of two liquids that do not normally mix, such as oil and water.",
+    "term": "Emulsion"
+   },
+   {
+    "definition": "A substance that allows two immiscible liquids to form and stay as an emulsion.",
+    "term": "Emulsifier"
+   },
+   {
+    "definition": "The natural emulsifier found in egg yolk, with a hydrophilic head and a hydrophobic tail.",
+    "term": "Lecithin"
+   },
+   {
+    "definition": "Describes a part of a molecule that is attracted to water.",
+    "term": "Hydrophilic"
+   },
+   {
+    "definition": "Describes a part of a molecule that is attracted to oil and repelled by water.",
+    "term": "Hydrophobic"
+   },
+   {
+    "definition": "The ability to follow a food back through production to its farm or producer using codes and records.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "About 60 to 65°C.",
+    "term": "Temperature at which egg white coagulates"
+   },
+   {
+    "definition": "About 65 to 70°C.",
+    "term": "Temperature at which egg yolk coagulates"
+   },
+   {
+    "definition": "Meringues and soufflés.",
+    "term": "Two culinary uses of whisked egg whites"
+   },
+   {
+    "definition": "Further heating, or adding a setting agent such as gelatine.",
+    "term": "Two ways to stabilise a permanent foam"
+   },
+   {
+    "definition": "Mayonnaise; hollandaise sauce; blending fat and sugar in cakes.",
+    "term": "Three culinary uses of an egg emulsion"
+   },
+   {
+    "definition": "The head attaches to water; the tail attaches to oil.",
+    "term": "Two parts of lecithin and what each attaches to"
+   },
+   {
+    "definition": "4°C, in the egg compartment.",
+    "term": "Storage temperature and position for eggs in a fridge"
+   },
+   {
+    "definition": "Country of origin; producer name and registration number; week number; class and size; best-before date.",
+    "term": "Five items on an egg carton"
+   },
+   {
+    "definition": "Incoming hens are certified salmonella free; laying hens are checked for salmonella monthly.",
+    "term": "Two salmonella controls in Irish egg production"
+   },
+   {
+    "definition": "Bord Bia.",
+    "term": "Body that awards the egg quality mark in Ireland"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Selecting eggs and reading the labelling",
+    "points": [
+     "Eggs are graded by class and by size, which is small, medium or large.",
+     "Choose eggs with clean, unbroken shells from a clean shop.",
+     "Check the best-before date on the carton.",
+     "The carton shows the country of origin and the name and address of the producer or packer, with a registration number.",
+     "The carton shows the week number, the class and the size.",
+     "The farming method is stated: organic, free-range, barn or caged.",
+     "Each egg is stamped with a producer code, so it can be traced back to its farm and county.",
+     "Bord Bia Quality Assurance mark confirms that the producer meets its requirements.",
+     "Labels must be clear, legible, indelible and not misleading, under Regulation (EU) No 1169/2011 as given effect in Ireland.",
+     "Organic eggs come from hens reared to organic standards, with no routine antibiotic or growth-hormone treatment and feed free of artificial pesticides and fertilisers."
+    ]
+   },
+   {
+    "h": "Quality assurance in egg production",
+    "points": [
+     "Ireland has an EU-approved national salmonella control plan for laying hens.",
+     "Incoming hens must be certified as salmonella free.",
+     "Laying hens are checked for salmonella each month.",
+     "All feed for laying hens is heat-treated.",
+     "Management systems ensure full traceability of every egg.",
+     "All producers and suppliers are inspected and approved.",
+     "Every system is independently inspected before the Bord Bia Quality mark is awarded."
+    ]
+   },
+   {
+    "h": "Storing eggs",
+    "points": [
+     "Store eggs in the fridge at 4°C, in the egg compartment rather than the door.",
+     "Keep eggs in their carton with the pointed end down.",
+     "Keep eggs away from strongly flavoured foods, as the shell is porous.",
+     "Do not wash the shell, as washing speeds staling.",
+     "Use eggs within the best-before date.",
+     "Leftover egg white can be kept in a sealed container for 2 to 4 days.",
+     "Leftover egg yolk can be kept covered with water in a sealed container for up to 4 days."
+    ]
+   },
+   {
+    "b": "Coagulation is the setting of egg protein when heated, which thickens and binds food.",
+    "h": "Coagulation",
+    "points": [
+     "Egg white coagulates at about 60 to 65°C; egg yolk coagulates at about 65 to 70°C.",
+     "The protein chains untwist, or denature, and bond together around small pockets of water.",
+     "Overheating makes the protein clump and squeeze out its water, causing curdling.",
+     "Culinary uses: thickening custards and quiche.",
+     "Culinary uses: binding burgers and fishcakes, and coating fish or chicken goujons.",
+     "Culinary uses: glazing scones and pastry, and clarifying consommé.",
+     "Culinary uses: cooking boiled, poached, scrambled and fried eggs."
+    ]
+   },
+   {
+    "h": "Aeration",
+    "points": [
+     "Whisking traps bubbles of air in the egg mixture.",
+     "The heat from whisking partly unfolds the egg protein, which lines up around the air bubbles and sets slightly.",
+     "This forms a temporary foam, which is stabilised permanently by further heating or by a setting agent such as gelatine.",
+     "Whole eggs aerate sponge cakes.",
+     "Whisked egg whites make meringues and soufflés."
+    ]
+   },
+   {
+    "h": "Emulsification",
+    "points": [
+     "An emulsion is a permanent mixture of two liquids that do not normally mix, such as oil and vinegar.",
+     "Lecithin, found in the yolk, is a natural emulsifier.",
+     "The hydrophilic head of the lecithin molecule attaches to water, and the hydrophobic tail attaches to oil.",
+     "This holds the oil and vinegar together and prevents them separating.",
+     "Culinary uses: mayonnaise and hollandaise sauce.",
+     "Culinary uses: blending fat and sugar when making cakes."
+    ]
+   },
+   {
+    "h": "Effects of heat on eggs",
+    "points": [
+     "Colour changes: the white turns from transparent to opaque.",
+     "The egg white becomes insoluble when heated.",
+     "Vitamin B is lost during cooking.",
+     "Heat kills bacteria, including salmonella.",
+     "Overcooking makes eggs tough and rubbery.",
+     "Iron and sulphur in an overcooked yolk react to form a green ring around it."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Whisking traps air bubbles in the egg white. The heat from whisking partly unfolds the protein, which lines up around the bubbles and sets slightly. This forms a temporary foam. Culinary use: meringue, or a soufflé. The foam is fixed by further heating or by a setting agent such as gelatine.",
+    "prompt": "Explain how whisking egg whites produces a foam, and give one culinary use of the foam.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Coagulation: egg protein sets when heated, at about 60 to 65°C in the white and 65 to 70°C in the yolk, as the protein chains unfold and bond around water; used for thickening custards and quiche, binding burgers, coating fish or glazing pastry; overheating causes curdling and a tough texture. Aeration: whisking traps air, the protein sets around the bubbles to form a foam that is fixed by heat or gelatine; used in sponge cakes, meringues and soufflés. Emulsification: lecithin in the yolk has a hydrophilic head attached to water and a hydrophobic tail attached to oil, holding immiscible liquids together; used in mayonnaise, hollandaise sauce or cake batters where fat and sugar are blended.",
+    "prompt": "Explain how eggs are used in cooking for coagulation, aeration and emulsification, giving a culinary use for each property.",
     "type": "short"
    }
   ]
@@ -1794,6 +4675,1013 @@
    }
   ]
  },
+ "hom-energy-nutrition-s1": {
+  "keyTerms": [
+   {
+    "definition": "The minimum energy the body needs at complete rest to keep vital functions and body temperature going.",
+    "term": "Basal metabolic rate (BMR)"
+   },
+   {
+    "definition": "A metric unit of energy; 1 kcal is about 4.2 kJ.",
+    "term": "Kilojoule (kJ)"
+   },
+   {
+    "definition": "A unit of energy still used on food labels; 1 kcal is about 4.2 kJ.",
+    "term": "Kilocalorie (kcal)"
+   },
+   {
+    "definition": "Muscle, bone and organ tissue, which uses more energy at rest than fat tissue does.",
+    "term": "Lean tissue"
+   },
+   {
+    "definition": "Hormones from the thyroid gland that raise the rate at which the body uses energy.",
+    "term": "Thyroid hormones"
+   },
+   {
+    "definition": "The amount of energy a person needs each day to balance their energy use and maintain health.",
+    "term": "Energy requirement"
+   },
+   {
+    "definition": "The energy the body uses to digest, absorb and process the food it eats.",
+    "term": "Thermic effect of food"
+   },
+   {
+    "definition": "A way of living with little physical activity, so that daily energy output is low.",
+    "term": "Sedentary lifestyle"
+   },
+   {
+    "definition": "Breathing; circulation of blood by the heart; activity of the brain and internal organs; maintaining body temperature.",
+    "term": "Four body functions that use energy at rest"
+   },
+   {
+    "definition": "The person lies completely still and awake in a warm room, after a fast of about 12 hours.",
+    "term": "Conditions for measuring BMR"
+   },
+   {
+    "definition": "Age; gender; body size and lean muscle mass; thyroid hormones.",
+    "term": "Four factors that affect BMR"
+   },
+   {
+    "definition": "The body produces more heat to keep its temperature stable, so energy use rises; shivering, a muscular response, also uses extra energy.",
+    "term": "Two effects of a cold climate on energy needs"
+   },
+   {
+    "definition": "Growth of the baby, placenta and mother's extra tissue during pregnancy; production of breast milk during lactation.",
+    "term": "Two extra energy needs in pregnancy and lactation"
+   },
+   {
+    "definition": "BMR; energy for physical activity; energy used to digest and absorb food.",
+    "term": "Three main components of daily energy use"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Energy is what the body needs to carry out all its functions, including breathing, circulating blood and moving.",
+    "h": "Energy in the body",
+    "points": [
+     "Energy is measured in kilojoules (kJ) or kilocalories (kcal); 1 kcal is about 4.2 kJ.",
+     "The body releases energy from carbohydrate, protein, fat and alcohol through chemical reactions, and uses it for every body function.",
+     "Energy not used straight away is stored as glycogen in the liver and muscles, or as fat in adipose tissue."
+    ]
+   },
+   {
+    "h": "Basal metabolic rate (BMR)",
+    "points": [
+     "BMR is the minimum energy the body needs to stay alive while completely at rest.",
+     "It pays for the functions that continue at rest: breathing, the heartbeat and circulation of blood, and the work of the brain, liver, kidneys and other internal organs.",
+     "It also pays for maintaining body temperature.",
+     "BMR is measured lying completely still and awake, in a warm room, after a fast of about 12 hours.",
+     "For most people BMR is the largest single share of total daily energy use."
+    ]
+   },
+   {
+    "h": "Factors that affect BMR",
+    "points": [
+     "Age: BMR is highest during growth and falls with age, as lean muscle tissue declines.",
+     "Gender: men generally have a higher BMR than women of the same weight, because they have more lean muscle tissue and less fat.",
+     "Body size and composition: a larger body needs more energy, and lean muscle uses more energy at rest than fat tissue does.",
+     "Hormones: thyroid hormones raise BMR when they are produced in excess by an overactive thyroid gland, and lower it when the thyroid is underactive.",
+     "Activity does not change BMR itself; it changes the total energy the body uses in a day."
+    ]
+   },
+   {
+    "h": "Growth",
+    "points": [
+     "Energy is needed to build new body tissue, especially muscle, bone and blood.",
+     "Infants and young children need a high amount of energy for their size because they are growing quickly.",
+     "Teenagers have growth spurts with a high energy need; boys generally need more than girls at this stage."
+    ]
+   },
+   {
+    "b": "Physical activity is the most variable part of daily energy use, so it is the factor an individual can change most easily.",
+    "h": "Physical activity",
+    "points": [
+     "Energy used in activity depends on the intensity, duration and frequency of the activity.",
+     "Occupational activity: a manual worker, such as a builder or farm worker, uses far more energy than an office worker.",
+     "Leisure activity: walking, cycling, gardening and playing sport add to daily energy use.",
+     "Sedentary lifestyle: low activity means low energy output, so less food energy is needed to balance the body's needs."
+    ]
+   },
+   {
+    "h": "Total daily energy requirement",
+    "points": [
+     "Total daily energy use is made up of BMR, energy for physical activity, and energy used to digest and absorb food.",
+     "Occupation: manual and athletic work increases the requirement; sedentary work lowers it.",
+     "Climate: in cold conditions the body produces extra heat to keep its temperature stable, so energy needs rise.",
+     "Pregnancy: extra energy is needed for the growth of the baby, the placenta and the mother's extra tissue.",
+     "Lactation: extra energy is needed to make breast milk.",
+     "Health: fever, illness and recovery from injury or surgery raise energy needs; prolonged immobility lowers them."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Age: BMR is highest during growth and falls with age because lean muscle tissue declines, so an older adult needs less energy at rest. Gender: men generally have a higher BMR than women of the same weight because they have more lean muscle tissue and less fat. Body size and composition, pregnancy and thyroid hormones are also accepted, with a brief explanation of how each one changes BMR.",
+    "prompt": "Outline two factors that affect the basal metabolic rate of an adult.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "BMR: a teenager has a high BMR because of growth and lean muscle development, and boys generally have a higher BMR than girls of the same weight. Growth spurts raise energy needs further. Physical activity: competitive training has high intensity, long duration and high frequency, so energy for activity is a large share of the total. Thermic effect of food: a larger amount of food eaten to meet the demand also raises the energy the body uses to digest it. Climate: training in cold or hot conditions changes the energy used to maintain body temperature. Health: illness or injury lowers activity and so reduces requirements until recovery. Intake should match these needs so that energy balance is maintained.",
+    "prompt": "Discuss the factors that determine the total daily energy requirement of a teenager who plays competitive sport.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2": {
+  "keyTerms": [
+   {
+    "definition": "The state in which energy taken in through food equals energy used by the body, so body weight stays steady.",
+    "term": "Energy balance"
+   },
+   {
+    "definition": "Energy intake greater than energy output, with the surplus stored mainly as fat.",
+    "term": "Positive energy balance"
+   },
+   {
+    "definition": "Energy output greater than energy intake, so stored fat and glycogen are used and weight falls.",
+    "term": "Negative energy balance"
+   },
+   {
+    "definition": "A condition of excess body fat that carries health risks, usually caused by a long-term positive energy balance.",
+    "term": "Obesity"
+   },
+   {
+    "definition": "Body weight in kilograms divided by height in metres squared, used to classify body weight.",
+    "term": "Body mass index (BMI)"
+   },
+   {
+    "definition": "Calories from food that provide energy but little or no nutritional value.",
+    "term": "Empty kilocalories"
+   },
+   {
+    "definition": "Body fat tissue, which stores surplus energy from food.",
+    "term": "Adipose tissue"
+   },
+   {
+    "definition": "A way of living with little physical activity, so that daily energy output is low.",
+    "term": "Sedentary lifestyle"
+   },
+   {
+    "definition": "Type 2 diabetes; coronary heart disease; high blood pressure; gallstones.",
+    "term": "Four health risks of obesity"
+   },
+   {
+    "definition": "Energy imbalance; sedentary lifestyle; lack of exercise; psychological factors such as boredom; hormonal imbalance such as an underactive thyroid.",
+    "term": "Five causes of obesity"
+   },
+   {
+    "definition": "Weight in kilograms divided by height in metres squared.",
+    "term": "Formula for BMI"
+   },
+   {
+    "definition": "18.5 to 24.9.",
+    "term": "BMI range for a healthy weight"
+   },
+   {
+    "definition": "30 and above.",
+    "term": "BMI value that classifies obesity"
+   },
+   {
+    "definition": "Surplus energy is stored as adipose tissue, so weight is gained; over time this increases the risk of overweight and obesity.",
+    "term": "Two outcomes of a positive energy balance"
+   },
+   {
+    "definition": "Energy output falls; the body needs less food energy, so surplus intake leads to weight gain; cardiovascular fitness declines.",
+    "term": "Three effects of a sedentary lifestyle on energy balance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Energy balance compares the energy taken in through food and drink with the energy the body uses.",
+    "h": "Energy balance and body weight",
+    "points": [
+     "Energy input is the energy in the food and drink consumed; energy output is the energy used by BMR, physical activity, growth and digestion.",
+     "Energy balance is achieved when energy input equals energy output; body weight then stays steady.",
+     "Positive energy balance: input exceeds output, and the surplus is stored as adipose (fat) tissue, so weight is gained.",
+     "Negative energy balance: output exceeds input, so the body uses stored glycogen and fat, and weight is lost.",
+     "Maintaining energy balance keeps a person at a healthy weight and supports energy for work, study and growth."
+    ]
+   },
+   {
+    "h": "Adjusting intake and output",
+    "points": [
+     "To reduce energy intake: cut back on sugary drinks, sweets, fried and fatty foods, and check portion sizes.",
+     "To increase energy output: add daily walking, cycling, stairs instead of lifts, or a regular sport.",
+     "To reduce time spent sedentary: limit television, computer and gaming time and break up long periods of sitting.",
+     "A gradual change, sustained over time, is more effective than crash dieting."
+    ]
+   },
+   {
+    "b": "Case studies give a person's lifestyle and daily menu; the answer should analyse the energy balance and then recommend changes.",
+    "h": "Case study method: recommending changes",
+    "points": [
+     "1. Identify the person's energy output: occupation, activity level, time spent sitting and any growth or pregnancy needs.",
+     "2. Estimate the energy input from the menu: note the high-energy items, such as fried foods, cakes, sugary drinks and large portions.",
+     "3. State whether the person is in positive or negative energy balance, and what this may do to body weight.",
+     "4. Recommend a change to intake: replace the high-energy items with fruit, vegetables, wholegrain foods or lean protein.",
+     "5. Recommend a change to output: name a specific activity, how often and for how long.",
+     "6. Write a one-day menu that meets the person's energy needs and matches the guidelines."
+    ]
+   },
+   {
+    "h": "Empty kilocalories",
+    "points": [
+     "Empty kilocalories are calories from food that supply little or no nutrition, such as sweets, sugary soft drinks, crisps and alcohol.",
+     "They add to energy intake without supplying protein, vitamins or minerals, so they can cause positive energy balance while the diet is poor in nutrients.",
+     "Replacing empty kilocalories with fruit, vegetables or wholegrain foods gives the same energy with more nutrients."
+    ]
+   },
+   {
+    "b": "Obesity is a condition of excess body fat, usually caused by a long-term positive energy balance.",
+    "h": "Obesity: causes",
+    "points": [
+     "Energy imbalance: intake consistently exceeds output, so the surplus is stored as fat.",
+     "Sedentary lifestyle: a job or leisure time spent sitting lowers energy output.",
+     "Lack of exercise: regular physical activity is not part of daily routine.",
+     "Psychological factors: depression, boredom and stress can lead to overeating and snacking.",
+     "Hormonal imbalance: an underactive thyroid gland lowers BMR, so the same food intake produces weight gain.",
+     "Unhealthy eating patterns: frequent snacking, skipped meals followed by overeating, and frequent takeaways.",
+     "Poor food choices: a high intake of processed foods, sugary drinks and fatty foods.",
+     "Large portion sizes of energy-dense foods increase intake without adding to fullness."
+    ]
+   },
+   {
+    "h": "Obesity: health risks",
+    "points": [
+     "Type 2 diabetes: excess fat reduces the body's response to insulin, so blood glucose rises.",
+     "Coronary heart disease and stroke: obesity raises blood pressure and blood cholesterol levels.",
+     "High blood pressure and high cholesterol, both linked to excess weight.",
+     "Gallstones: excess body fat increases the risk of gallstone formation.",
+     "Arthritis and back pain: extra weight puts stress on the weight-bearing joints and the spine.",
+     "Varicose veins: excess weight increases pressure on the veins in the legs.",
+     "Depression and poor self-esteem, which can both result from obesity and make it harder to change habits.",
+     "Difficulties in pregnancy and childbirth, and infertility.",
+     "Reduced life expectancy, as the combined risks shorten life."
+    ]
+   },
+   {
+    "b": "BMI is a simple measure that relates body weight to height and is used to classify body weight.",
+    "h": "Body mass index (BMI)",
+    "points": [
+     "BMI = weight in kilograms divided by height in metres squared.",
+     "Below 18.5: underweight.",
+     "18.5 to 24.9: healthy weight range.",
+     "25 to 29.9: overweight.",
+     "30 and above: obese.",
+     "BMI does not distinguish between muscle and fat, so a muscular athlete may score as overweight.",
+     "Waist measurement is used alongside BMI, because fat stored around the abdomen carries greater health risk."
+    ]
+   },
+   {
+    "h": "Calculating and reading BMI from data",
+    "points": [
+     "Step 1: convert height to metres (for example, 175 cm = 1.75 m).",
+     "Step 2: square the height (1.75 x 1.75 = 3.06).",
+     "Step 3: divide weight by the squared height (sample data: 70 kg / 3.06 = 22.9, in the healthy range).",
+     "Read a BMI table by finding the row for the height and the column for the weight, and matching the result to the categories above.",
+     "When comparing groups in data, note which group has the higher share in the overweight or obese categories and link this to diet and activity."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Energy imbalance: intake regularly exceeds output, and the surplus is stored as adipose fat, so weight rises. Sedentary lifestyle: low physical activity reduces energy output, so food energy that is not used is stored as fat. Also accepted: unhealthy eating patterns such as snacking, poor food choices with a high intake of processed foods, psychological factors such as boredom or stress eating, and an underactive thyroid lowering BMR.",
+    "prompt": "Give two causes of obesity and explain how each one leads to excess body weight.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Health risks: type 2 diabetes, as excess fat reduces the response to insulin; coronary heart disease and stroke, as raised blood pressure and cholesterol damage blood vessels; high blood pressure; gallstones; arthritis and back pain from strain on weight-bearing joints and the spine; varicose veins; depression and poor self-esteem; difficulties in pregnancy and childbirth; reduced life expectancy. Changes: reduce energy input by cutting back on sugary drinks, sweets and fried foods, and by controlling portion sizes; increase energy output by adding regular brisk walking, cycling or a sport. Any change should be gradual and sustained, and the person's BMI and waist measurement can be used to track progress.",
+    "prompt": "Discuss the health risks associated with obesity, and outline two changes an adult could make to restore energy balance.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s3": {
+  "keyTerms": [
+   {
+    "definition": "The amount of energy a food or nutrient supplies, measured in kilojoules or kilocalories per gram.",
+    "term": "Energy value"
+   },
+   {
+    "definition": "A metric unit of energy; 1 kcal is about 4.2 kJ.",
+    "term": "Kilojoule (kJ)"
+   },
+   {
+    "definition": "The chemical name for fats and oils, which supply 37 kJ (9 kcal) per gram.",
+    "term": "Lipid"
+   },
+   {
+    "definition": "The main form of fat in food and in the body, made of one glycerol molecule and three fatty acids.",
+    "term": "Triglyceride"
+   },
+   {
+    "definition": "The amount of energy in a given weight of food; fat-rich foods have a high energy density.",
+    "term": "Energy density"
+   },
+   {
+    "definition": "A table giving the nutrient and energy content of foods, usually per 100 g of edible food.",
+    "term": "Food composition table"
+   },
+   {
+    "definition": "A protein food that contains all the essential amino acids the body cannot make.",
+    "term": "High biological value (HBV) protein"
+   },
+   {
+    "definition": "Indigestible plant material that aids bowel function and supplies little usable energy.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "The stored form of glucose, kept in the liver and muscles.",
+    "term": "Glycogen"
+   },
+   {
+    "definition": "Protein 17 kJ (4 kcal); carbohydrate 16 kJ (3.75 kcal); fat 37 kJ (9 kcal).",
+    "term": "Energy values per gram of protein, carbohydrate and fat"
+   },
+   {
+    "definition": "29 kJ (7 kcal).",
+    "term": "Energy value of alcohol per gram"
+   },
+   {
+    "definition": "Find the grams of each energy nutrient; multiply each by its energy value per gram; add the results.",
+    "term": "Steps to calculate the energy value of a food"
+   },
+   {
+    "definition": "The nutrient and energy content of an edible food, usually per 100 g.",
+    "term": "What a food composition table gives"
+   },
+   {
+    "definition": "Fat, at 37 kJ (9 kcal) per gram, more than twice the value of carbohydrate or protein.",
+    "term": "Most energy-dense nutrient per gram"
+   },
+   {
+    "definition": "Protein, carbohydrate and fat (lipid).",
+    "term": "Three nutrients that supply energy in food"
+   },
+   {
+    "definition": "Growth and repair of body tissues; making enzymes, hormones and antibodies.",
+    "term": "Two uses of protein other than energy"
+   },
+   {
+    "definition": "The body cannot digest it, so it passes largely undigested through the small intestine into the large intestine.",
+    "term": "Why dietary fibre supplies little usable energy"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Protein, carbohydrate and fat (lipid) supply energy; each has a fixed energy value per gram.",
+    "h": "Energy-giving nutrients",
+    "points": [
+     "Protein: 17 kJ (4 kcal) per gram.",
+     "Carbohydrate: 16 kJ (3.75 kcal) per gram.",
+     "Fat (lipid): 37 kJ (9 kcal) per gram.",
+     "Alcohol also supplies energy, at 29 kJ (7 kcal) per gram, but supplies no protein, vitamins or minerals.",
+     "Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy."
+    ]
+   },
+   {
+    "h": "Calculating the energy value of a food",
+    "points": [
+     "Step 1: find the grams of protein, carbohydrate and fat in the portion, using a food composition table, which gives values per 100 g.",
+     "Step 2: multiply each nutrient by its energy value per gram.",
+     "Step 3: add the three results to give the total energy in kilojoules.",
+     "Worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ, a total of 1510 kJ.",
+     "To convert kilojoules to kilocalories, divide by 4.2 (sample data: 1510 kJ is about 360 kcal)."
+    ]
+   },
+   {
+    "h": "Protein",
+    "points": [
+     "Protein is made of amino acids; the body uses it mainly for growth and repair of tissue, but it can also supply energy.",
+     "Protein is not stored in the body, so surplus protein is broken down and used for energy or converted to fat.",
+     "High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids.",
+     "Protein is not a major energy source in a healthy diet: its value per gram equals that of carbohydrate, but it is eaten in smaller amounts."
+    ]
+   },
+   {
+    "h": "Carbohydrate",
+    "points": [
+     "Carbohydrate is the body's main and most readily available source of energy.",
+     "Sugars and starches are digested to glucose, which is used by cells or stored as glycogen in the liver and muscles.",
+     "Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate with fibre, vitamins and minerals.",
+     "Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories."
+    ]
+   },
+   {
+    "h": "Fat (lipid)",
+    "points": [
+     "Fats and oils are lipids, mostly triglycerides, made of glycerol and fatty acids.",
+     "Fat supplies the most energy per gram of the three energy nutrients, more than twice that of carbohydrate or protein.",
+     "Surplus energy from fat is stored as adipose tissue, which is why high-fat diets contribute strongly to weight gain.",
+     "Saturated fats come mainly from animal foods and some plant oils, such as palm oil; unsaturated fats come from vegetable oils, nuts, seeds and oily fish."
+    ]
+   },
+   {
+    "b": "The contribution of each nutrient to a diet depends on how much of it is eaten, and on its energy density.",
+    "h": "Energy density and the average diet",
+    "points": [
+     "Energy density is the energy per gram of a food; foods high in fat and sugar are the most energy-dense.",
+     "Healthy eating guidelines aim for carbohydrate, mostly from starchy wholegrain foods, to supply the largest share of energy in the diet.",
+     "The average Irish diet has historically drawn a higher share of its energy from fat, and from added sugar in drinks and processed foods, than recommended.",
+     "Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total to give its percentage share."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Protein: 12 x 17 = 204 kJ. Carbohydrate: 60 x 16 = 960 kJ. Fat: 8 x 37 = 296 kJ. Total: 204 + 960 + 296 = 1460 kJ per 100 g. Marks are given for the energy value per gram of each nutrient, the correct multiplication, the addition and the unit.",
+    "prompt": "Calculate the energy value, in kilojoules, of 100 g of a food containing 12 g protein, 60 g carbohydrate and 8 g fat. Show your working.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Energy values: protein 17 kJ (4 kcal) per gram; carbohydrate 16 kJ (3.75 kcal) per gram; fat 37 kJ (9 kcal) per gram. Protein: its main role is growth and repair, so its energy contribution is secondary and it is not stored. Carbohydrate: the main energy source, from starchy foods and sugars, digested to glucose and stored as glycogen. Fat: the most energy-dense nutrient; in the Irish diet fat has provided a higher share of energy than recommended, from butter, fatty meat, processed foods and cakes. Discussion should note that healthy guidelines aim for carbohydrate, mostly wholegrain, to supply the largest share, and that the high energy density of fat contributes to excess energy intake and weight gain.",
+    "prompt": "Explain the energy value of protein, carbohydrate and fat, and discuss how each contributes to the energy value of the average Irish diet.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s4": {
+  "keyTerms": [
+   {
+    "definition": "Official advice on the types and amounts of food needed to maintain health and prevent disease.",
+    "term": "Dietary guidelines"
+   },
+   {
+    "definition": "The intake of a nutrient that meets the needs of nearly all healthy people in a group, used as a planning guide.",
+    "term": "Recommended Dietary Allowance (RDA)"
+   },
+   {
+    "definition": "A table of the nutrient and energy content of foods, usually per 100 g of edible food.",
+    "term": "Food composition table"
+   },
+   {
+    "definition": "A diagram of stacked shelves showing the foods to eat most often at the base and those to use sparingly at the top.",
+    "term": "Food Pyramid"
+   },
+   {
+    "definition": "A standard amount of a food group used for planning and counting servings in a diet.",
+    "term": "Portion"
+   },
+   {
+    "definition": "A concentrated source of a nutrient in tablet, capsule or powder form, taken in addition to food.",
+    "term": "Food supplement"
+   },
+   {
+    "definition": "A fat, mainly from animal foods, that raises blood cholesterol when eaten in excess.",
+    "term": "Saturated fat"
+   },
+   {
+    "definition": "Indigestible plant material in wholegrain foods, fruit and vegetables that aids bowel function.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "About five to seven portions a day, spread across meals.",
+    "term": "Daily fruit and vegetable portions in the guidelines"
+   },
+   {
+    "definition": "Regular physical activity; adequate sleep, rest and stress management; avoiding tobacco and limiting alcohol.",
+    "term": "Three lifestyle guidelines for good health"
+   },
+   {
+    "definition": "Coronary heart disease; raised blood cholesterol.",
+    "term": "Two health conditions linked to a high saturated fat intake"
+   },
+   {
+    "definition": "Preventing neural tube defects in a developing baby when taken before conception and in early pregnancy.",
+    "term": "Main protective use of folic acid"
+   },
+   {
+    "definition": "Age; sex; health; activity level.",
+    "term": "Four factors used to adjust portions on the Food Pyramid"
+   },
+   {
+    "definition": "The nutrient and energy content of an edible food, usually per 100 g, stated as raw or cooked.",
+    "term": "What a food composition table gives"
+   },
+   {
+    "definition": "Calculating the nutrients and energy in a day's menu; comparing the totals with RDAs and guidelines.",
+    "term": "Two uses of food composition tables with menus"
+   },
+   {
+    "definition": "Showing the types of food to eat; indicating relative amounts from each shelf; guiding portions for age, sex, health and activity.",
+    "term": "Three functions of the Food Pyramid in planning"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Dietary guidelines turn nutrition science into advice for the general population, and are revised as evidence changes.",
+    "h": "How dietary guidelines are formulated",
+    "points": [
+     "Evidence comes from nutrition research, national food consumption surveys and health data on diet-related diseases.",
+     "Expert committees review the evidence and set advice on the types of food to eat and the amounts to limit.",
+     "The Department of Health publishes the healthy eating guidelines for Ireland; the Food Pyramid is one of the tools used to explain them.",
+     "The guidelines aim to prevent nutrient deficiency and to reduce the risk of obesity, type 2 diabetes, coronary heart disease, high blood pressure and some cancers."
+    ]
+   },
+   {
+    "h": "Principles of the healthy eating guidelines",
+    "points": [
+     "Eat plenty of fruit and vegetables: about five to seven portions a day, spread across meals.",
+     "Base meals on starchy foods, choosing wholegrain bread, cereals, potatoes, pasta and rice.",
+     "Include protein from lean meat, poultry, fish, eggs, beans, lentils and nuts, with fish eaten regularly.",
+     "Choose milk, yoghurt and cheese in lower-fat forms, as they supply calcium and HBV protein.",
+     "Use fats and oils sparingly, and prefer unsaturated oils such as rapeseed and olive oil.",
+     "Limit foods and drinks high in fat, sugar and salt, which are not needed for health and should be occasional.",
+     "Drink water as the main drink, and keep alcohol within recommended limits.",
+     "Eat regular meals and prepare food with methods that add little fat, such as steaming, grilling and baking."
+    ]
+   },
+   {
+    "h": "Why each guideline matters",
+    "points": [
+     "Fruit and vegetables supply fibre, vitamins, minerals and antioxidants that protect against chronic disease.",
+     "Wholegrain starchy foods give more fibre and nutrients than refined white flour products, and promote bowel health.",
+     "Saturated fat raises blood cholesterol, which increases the risk of coronary heart disease.",
+     "Excess salt is linked to high blood pressure, which increases the risk of stroke and heart disease.",
+     "Sugar adds energy without nutrients, contributes to obesity, and causes tooth decay."
+    ]
+   },
+   {
+    "b": "An RDA is a planning value for the nutrient intake needed by nearly all healthy people in a group.",
+    "h": "Recommended Dietary Allowance (RDA)",
+    "points": [
+     "An RDA is set for each nutrient and differs by age, sex and life stage, such as pregnancy, lactation or adolescence.",
+     "RDAs are used to plan menus and check that a diet supplies enough of each nutrient over the day.",
+     "An RDA is a guide for a group; it is not a precise target for an individual.",
+     "Intake far above the RDA does not give extra benefit and can be harmful for some nutrients, so supplements should be used with care.",
+     "Nutrients that are often low in Irish diets, such as iron and calcium, are the ones to check against the RDA when planning a menu."
+    ]
+   },
+   {
+    "h": "Food composition tables",
+    "points": [
+     "A food composition table gives the nutrient and energy content of a food, usually per 100 g of edible food.",
+     "Tables state whether values are for raw or cooked food, so the matching version must be used.",
+     "Method: for each food, work out the grams eaten, divide by 100, then multiply by the value per 100 g.",
+     "Example (sample data): 150 g of a food with 3 g fibre per 100 g supplies 150 / 100 x 3 = 4.5 g fibre.",
+     "Add the results for all foods in the menu to give the day's total for each nutrient and for energy, then compare the total with the RDA."
+    ]
+   },
+   {
+    "h": "Computer nutrition programs",
+    "points": [
+     "Nutrition programs contain a built-in food composition database; the user enters each food and the quantity eaten.",
+     "The program totals the energy and nutrients for the day and compares them with the guidelines or RDAs.",
+     "Check that the portion size entered matches the food as eaten, and that the correct cooking method is selected.",
+     "A program shows which nutrients are low or high, which helps the planner adjust the menu."
+    ]
+   },
+   {
+    "h": "The Food Pyramid",
+    "points": [
+     "The Food Pyramid converts healthy eating advice into the types and relative amounts of food needed each day.",
+     "Foods are grouped in shelves; the larger lower shelves show foods to eat most often, and the small top shelf shows fats, oils, sugar and salt to use sparingly.",
+     "Bottom shelves: wholegrain breads, cereals, potatoes, pasta and rice, which form the largest share of the day's food.",
+     "Dairy and protein foods: milk, yoghurt and cheese; meat, fish, eggs, beans and nuts, including lean choices.",
+     "Water is the main drink, and foods and drinks high in fat, sugar and salt are occasional.",
+     "The number and size of portions are adjusted for age, sex, health and activity level.",
+     "Meals are planned by taking foods from each shelf across breakfast, lunch, dinner and snacks, so that energy balance is achieved and both deficiency and excess are prevented."
+    ]
+   },
+   {
+    "h": "Serving recommendations",
+    "points": [
+     "A portion is a standard amount of food used for planning, counting and comparing diets.",
+     "One piece of fruit, such as an apple, or one serving of vegetables counts as one portion of fruit or vegetables.",
+     "One glass of milk counts as one portion of milk, yoghurt or cheese in the dairy group.",
+     "Portion size should be adjusted to the person's age and activity: teenagers and active adults need larger portions from the starchy foods shelf than older, less active adults."
+    ]
+   },
+   {
+    "h": "Food supplements",
+    "points": [
+     "Food supplements are concentrates of nutrients such as vitamins, minerals, omega-3 fatty acids and amino acids, sold in tablet, capsule or powder form.",
+     "They may be used to fill gaps where diet is restricted, where allergies or intolerances exclude foods, or where a person has special needs.",
+     "Folic acid prevents neural tube defects in a developing baby when taken before conception and in early pregnancy.",
+     "Iron supplements can treat anaemia caused by low iron intake, under medical advice.",
+     "Older people may absorb nutrients less efficiently, so they may need supplements, particularly vitamin D.",
+     "Supplements cannot replace a varied diet, because food supplies fibre and other nutrients that supplements do not contain.",
+     "High doses of some vitamins and minerals can be harmful, so supplements should not be taken above the recommended levels."
+    ]
+   },
+   {
+    "h": "Lifestyle guidelines for health",
+    "points": [
+     "Regular physical activity: build activity into daily life, such as brisk walking, cycling, sport or active housework, and include muscle-strengthening and weight-bearing exercise.",
+     "Physical activity improves cardiovascular fitness, maintains muscle and bone, supports weight control and may raise protective HDL cholesterol.",
+     "Mental health: get adequate sleep and rest, keep a realistic workload, and use stress management and relaxation.",
+     "Avoid tobacco and second-hand smoke, which damage the lungs and blood vessels and greatly raise the risk of cancer and coronary heart disease.",
+     "Limit alcohol: it supplies empty kilocalories, harms the liver and judgement, and must never be used to manage stress.",
+     "Regular health checks and good personal hygiene complete the guidelines.",
+     "Together these habits reduce the risk of obesity, type 2 diabetes, hypertension and heart disease."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The table gives the nutrient and energy content per 100 g of food, so the amount eaten can be calculated by scaling the value to the portion. The totals for all foods in a day's menu can then be compared with the RDA for each nutrient, showing which nutrients are low or high and where the menu needs adjusting. Full marks require the link between the table values and the calculation or comparison.",
+    "prompt": "Outline two ways a food composition table is used when planning a menu.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Food Pyramid: it converts guidelines into types and relative amounts of food; the larger lower shelves are chosen most often and the small top shelf is used sparingly. Fruit and vegetables, about five to seven portions a day, appear at every meal for fibre, vitamins and minerals. Wholegrain cereals, bread, potatoes, pasta and rice provide the main carbohydrate. Dairy and protein foods are chosen in lower-fat forms and lean choices; fish is included regularly. Fats, sugar and salt are limited, water is the main drink, and portions are adjusted for age, sex, health and activity to achieve energy balance. Lifestyle: regular physical activity; sleep, rest and stress management; avoiding tobacco and limiting alcohol. These reduce the risk of obesity, type 2 diabetes, hypertension and heart disease.",
+    "prompt": "Explain how the Food Pyramid is used to plan healthy balanced meals, and describe three lifestyle guidelines that support good health.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s5": {
+  "keyTerms": [
+   {
+    "definition": "Poor nutrition caused by a diet that is unbalanced, supplying too much or too little of one or more nutrients.",
+    "term": "Malnutrition"
+   },
+   {
+    "definition": "A fat, mainly from animal foods, that raises blood cholesterol when eaten in excess.",
+    "term": "Saturated fat"
+   },
+   {
+    "definition": "Indigestible plant material in wholegrain foods, fruit and vegetables that aids bowel function.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "Flour from which the bran and germ have been removed, lowering its fibre and nutrient content.",
+    "term": "Refined flour"
+   },
+   {
+    "definition": "The red pigment in blood that carries oxygen, which contains iron.",
+    "term": "Haemoglobin"
+   },
+   {
+    "definition": "A condition of tiredness and weakness caused by too little iron to make enough haemoglobin.",
+    "term": "Iron-deficiency anaemia"
+   },
+   {
+    "definition": "A condition in which bones become weak and brittle, often caused by long-term low calcium intake.",
+    "term": "Osteoporosis"
+   },
+   {
+    "definition": "A ready-made or quick-to-prepare food that saves time in cooking.",
+    "term": "Convenience food"
+   },
+   {
+    "definition": "Potatoes, oatmeal and wholemeal bread, with milk and butter.",
+    "term": "Staple foods of the early twentieth-century Irish diet"
+   },
+   {
+    "definition": "Irregular meals and snacking; main meal eaten in the evening; more eating out; more convenience and microwave foods.",
+    "term": "Four changes in Irish eating patterns"
+   },
+   {
+    "definition": "Low dietary fibre; high saturated fat; relatively low iron intake; relatively low calcium intake.",
+    "term": "Four malnutrition concerns in the current Irish diet"
+   },
+   {
+    "definition": "Iron-deficiency anaemia, with tiredness, pale skin, weakness and poor concentration.",
+    "term": "Main effect of low iron intake"
+   },
+   {
+    "definition": "Weak bones and osteoporosis; dental decay.",
+    "term": "Two effects of low calcium intake"
+   },
+   {
+    "definition": "Switch to wholegrain bread, oats, brown rice and pulses, and eat more fruit and vegetables.",
+    "term": "Corrective measure for low fibre"
+   },
+   {
+    "definition": "Butter, fatty meat, processed meat, pastries, cakes, biscuits and fried foods.",
+    "term": "Foods high in saturated fat to limit"
+   },
+   {
+    "definition": "Family members work and study at different times; convenience and eating out replaced home cooking at midday.",
+    "term": "Two reasons the traditional main meal changed"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Before the mid-twentieth century most Irish households ate a simple diet based on home-grown and home-made foods.",
+    "h": "The Irish diet in the early twentieth century",
+    "points": [
+     "Potatoes were the staple food, eaten in large quantities with milk, butter and buttermilk.",
+     "Oatmeal and home-baked wholemeal bread, such as soda bread, supplied carbohydrate and fibre.",
+     "Vegetables were seasonal and home-grown; fresh fruit was limited.",
+     "Meat, especially bacon and salted meat, was eaten occasionally rather than daily.",
+     "The main meal, called dinner, was eaten at midday, and food was cooked from raw on an open fire or range.",
+     "Processed and convenience foods were largely absent, so meals were prepared from basic ingredients."
+    ]
+   },
+   {
+    "h": "Changes in food and eating patterns since the early twentieth century",
+    "points": [
+     "Refined white flour and white bread replaced much of the wholemeal bread and oatmeal, lowering the fibre content of the diet.",
+     "Rice and pasta partly replaced potatoes, and processed cereals replaced porridge for many families.",
+     "Sugar, sweets and soft drinks increased in the diet, adding empty kilocalories.",
+     "Fat intake rose, from butter, cream, fatty meat, processed meat, cakes, pastries and fried foods.",
+     "Processed, frozen and ready-made convenience foods became common, with microwave cooking and short preparation times.",
+     "Imported fruit and vegetables became available all year round, while home-grown seasonal produce declined.",
+     "Eating out and takeaway meals became more frequent, and holidays abroad and immigration introduced new foods.",
+     "Food labelling and health information gave consumers more knowledge of nutritional value when they choose food."
+    ]
+   },
+   {
+    "h": "Contemporary trends in Irish eating patterns",
+    "points": [
+     "Meals are irregular, and many people eat snacks instead of planned meals.",
+     "The main meal is often eaten in the evening, and family members may eat at different times.",
+     "Convenience and ready-made foods are chosen for speed, and microwave and barbecued foods form part of many diets.",
+     "Eating out and takeaways are a regular part of many households' diet.",
+     "Consumers show more health awareness, and low-fat and reduced-sugar products are widely available.",
+     "Television, advertising and food marketing influence food choices, particularly for children and teenagers."
+    ]
+   },
+   {
+    "b": "Compared with the healthy eating guidelines, the typical Irish diet is higher in fat, salt and sugar and lower in fibre, fruit and vegetables.",
+    "h": "Comparing the Irish diet with current guidelines",
+    "points": [
+     "Fibre: intake is below the guidelines because fewer wholegrain foods, fruit and vegetables are eaten.",
+     "Fruit and vegetables: intakes fall short of the five to seven portions a day recommended.",
+     "Saturated fat: intake is above the level recommended, from butter, fatty meat and processed foods.",
+     "Salt and sugar: intakes are above the guidelines, mainly from processed foods, sweets and drinks.",
+     "Fish: intake is lower than recommended, particularly oily fish.",
+     "Iron and calcium: intakes are relatively low, especially for teenage girls and women of child-bearing age.",
+     "Water: many people drink sugary drinks instead of water as the main drink.",
+     "The Department of Health healthy eating guidelines are the benchmark for this comparison."
+    ]
+   },
+   {
+    "h": "Low dietary fibre",
+    "points": [
+     "Cause: refining flour removes the bran and germ; processed and convenience foods and reduced fruit and vegetable intake lower fibre.",
+     "Effects: constipation, a higher risk of bowel disorders, and a lower feeling of fullness, which can contribute to overeating and obesity.",
+     "Corrective measures: choose wholegrain bread, oats, brown rice and wholegrain pasta; eat fruit and vegetables with their skin where possible; add pulses such as beans and lentils.",
+     "Increase fibre gradually and drink plenty of water, so that the bowel is not upset.",
+     "The Irish Cancer Society gives information on diet, fibre and cancer risk."
+    ]
+   },
+   {
+    "h": "High saturated fat",
+    "points": [
+     "Sources: butter, full-fat dairy, fatty meat, processed meats, cakes, pastries, biscuits and fried foods.",
+     "Effects: raised blood cholesterol, which increases the risk of coronary heart disease and stroke; excess energy from fat can lead to obesity.",
+     "Corrective measures: use lower-fat milk and spreads, choose lean meat, grill or bake instead of frying, and use unsaturated oils such as rapeseed or olive oil.",
+     "Replace some meat meals with oily fish, which supplies unsaturated fats.",
+     "The Irish Heart Foundation gives information on saturated fat, salt and heart health."
+    ]
+   },
+   {
+    "h": "Low iron intake",
+    "points": [
+     "Iron is needed to make haemoglobin, the red pigment in blood that carries oxygen around the body.",
+     "Sources: lean red meat, liver, eggs, wholegrain and fortified cereals, pulses and dark green vegetables.",
+     "Effects: iron-deficiency anaemia, with tiredness, pale skin, weakness and poor concentration.",
+     "Causes: low intake of red meat, the blood loss of menstruation, and rapid growth in adolescence increase the need for iron.",
+     "Corrective measures: include lean red meat, wholegrain or fortified cereals and pulses, and eat foods rich in vitamin C at the same meal, which improves iron absorption."
+    ]
+   },
+   {
+    "h": "Low calcium intake",
+    "points": [
+     "Calcium is needed for the formation of bones and teeth, blood clotting, muscle contraction and normal nerve function.",
+     "Sources: milk, yoghurt, cheese, fortified plant milks, dark green vegetables, sesame seeds and fish eaten with its bones, such as sardines.",
+     "Effects: weak bones and osteoporosis in later life, dental decay, muscle cramps and impaired blood clotting.",
+     "Causes: low intake of dairy foods, and low vitamin D, which is needed to absorb calcium.",
+     "Corrective measures: choose low-fat milk, yoghurt and cheese, add fortified foods, and include dark green vegetables and oily fish with bones."
+    ]
+   },
+   {
+    "h": "Method: comparing a day's menu with the guidelines",
+    "points": [
+     "Step 1: list every food and drink eaten in the day, with portion sizes.",
+     "Step 2: identify the sources of fibre, saturated fat, salt, sugar, iron and calcium in the menu.",
+     "Step 3: compare each nutrient with the healthy eating guidelines, saying whether it is too high, too low or about right.",
+     "Step 4: recommend specific changes, such as wholegrain instead of white bread, a serving of fish, or a lower-fat dairy choice.",
+     "Step 5: rewrite one meal or the whole day to show the changes."
+    ]
+   },
+   {
+    "h": "Method: reading data on Irish consumption",
+    "points": [
+     "Read the units, the years covered and the groups surveyed before drawing conclusions.",
+     "Identify the trend by comparing the first and last data points, and note any change of direction in between.",
+     "Quote the figures from the data exactly, and state which food or nutrient they describe.",
+     "Compare the data with the healthy eating guidelines and link the difference to a health risk such as heart disease, obesity or anaemia.",
+     "Suggest a reason for the trend, such as convenience foods, eating out or changes in family routines."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Refined white flour and white bread replaced wholemeal bread and oatmeal, lowering fibre intake. Rice and pasta partly replaced potatoes, and sugar, fat and processed convenience foods increased, with more eating out and takeaway meals. Full marks need a clearly stated change and a brief explanation of its effect on nutrition or eating pattern.",
+    "prompt": "Outline two changes in the Irish diet since the early twentieth century.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Concerns: low dietary fibre, high saturated fat, relatively low iron and calcium. Iron: needed for haemoglobin, which carries oxygen; low intake causes iron-deficiency anaemia, with tiredness, pale skin, weakness and poor concentration. Causes: low intake of red meat, menstrual blood loss and the growth of adolescence, plus convenience foods and irregular meals replacing iron-rich home cooking. Corrective measures: lean red meat, wholegrain or fortified cereals and pulses, eaten with vitamin C foods to improve absorption. Any answer should set iron against the healthy eating guidelines and relate the low intake to the eating patterns of the early twentieth century and today.",
+    "prompt": "Discuss the malnutrition concerns in the current Irish diet, with reference to the causes, effects and corrective measures for a low iron intake.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s6": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of large food molecules into smaller ones by the addition of water.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "A liquid that dissolves other substances; water is a good solvent in the body.",
+    "term": "Solvent"
+   },
+   {
+    "definition": "A condition in which the body loses more water than it takes in, reducing body function.",
+    "term": "Dehydration"
+   },
+   {
+    "definition": "The liquid part of blood, mostly water, that carries cells, nutrients, hormones and waste.",
+    "term": "Blood plasma"
+   },
+   {
+    "definition": "Water-based fluid in the uterus that cushions and protects the developing baby.",
+    "term": "Amniotic fluid"
+   },
+   {
+    "definition": "Water containing dissolved calcium and magnesium salts, which can supply some calcium to the diet.",
+    "term": "Hard water"
+   },
+   {
+    "definition": "A waste product of protein breakdown, removed from the body in urine dissolved in water.",
+    "term": "Urea"
+   },
+   {
+    "definition": "A salt, such as sodium or potassium, that dissolves in body fluids and is lost in sweat during exercise.",
+    "term": "Electrolyte"
+   },
+   {
+    "definition": "Transporting nutrients, oxygen, hormones and enzymes; regulating body temperature through sweating; removing waste products in urine; aiding digestion and preventing constipation.",
+    "term": "Four biological functions of water"
+   },
+   {
+    "definition": "Water boils at 100 °C and freezes at 0 °C at normal atmospheric pressure.",
+    "term": "Two physical properties of water"
+   },
+   {
+    "definition": "It carries nutrients and oxygen to the foetus through the placenta; amniotic fluid cushions the developing baby.",
+    "term": "Two reasons water is needed in pregnancy"
+   },
+   {
+    "definition": "Sweat, which evaporates to cool the body; large losses cause dehydration.",
+    "term": "Main way the body loses water during sport"
+   },
+   {
+    "definition": "Calcium and fluoride; hard water is the richer source of calcium.",
+    "term": "Minerals supplied by water"
+   },
+   {
+    "definition": "None; water contains no energy.",
+    "term": "Energy supplied by water"
+   },
+   {
+    "definition": "Reduced stamina and strength; poorer concentration and a higher risk of heat exhaustion.",
+    "term": "Two effects of dehydration on performance in sport"
+   }
+  ],
+  "notes": [
+   {
+    "h": "General properties of water",
+    "points": [
+     "Pure water is colourless, odourless and tasteless.",
+     "Water boils at 100 °C and freezes at 0 °C at normal atmospheric pressure.",
+     "Water is a good solvent: it dissolves many minerals, sugars and other substances, which is why it carries nutrients in the body.",
+     "Water absorbs and retains heat well, so it helps keep body temperature steady.",
+     "Water is neutral, with a pH of 7.",
+     "Ice is less dense than liquid water, so it floats."
+    ]
+   },
+   {
+    "b": "Water is a major component of the body and is needed in every body cell and tissue fluid.",
+    "h": "Water in the body",
+    "points": [
+     "Water is an essential component of all body cells.",
+     "Water is the main part of blood plasma, lymph and the other body tissue fluids.",
+     "Water is a part of saliva, digestive juices and mucus.",
+     "Water lubricates joints and membranes, such as those around the lungs and digestive tract.",
+     "Water carries nutrients, oxygen, carbon dioxide, hormones and enzymes around the body in the blood and tissue fluids.",
+     "Because water dissolves these substances, they can move from the blood into the cells that need them."
+    ]
+   },
+   {
+    "h": "Temperature regulation",
+    "points": [
+     "Water absorbs heat from the body when it evaporates, so sweating cools the body.",
+     "Water in the blood and tissues helps spread heat evenly, keeping the internal body temperature near 37 °C.",
+     "When the body is hot, more sweat is produced; when cold, less water is lost from the skin."
+    ]
+   },
+   {
+    "h": "Removal of waste",
+    "points": [
+     "The kidneys filter the blood, and water carries waste products such as urea out of the body in urine.",
+     "Water is also lost in faeces, sweat and breath, and this loss must be replaced.",
+     "Adequate water intake keeps urine dilute and helps the kidneys remove waste efficiently."
+    ]
+   },
+   {
+    "h": "Water and digestion",
+    "points": [
+     "Hydrolysis is the breakdown of large food molecules into smaller ones by adding water, and it is needed for digestion of carbohydrate, protein and fat.",
+     "Water in saliva and digestive juices softens food and makes it easier to swallow and digest.",
+     "Water keeps faeces soft, so it prevents constipation, especially when fibre intake is high."
+    ]
+   },
+   {
+    "h": "Minerals in water",
+    "points": [
+     "Water supplies small amounts of calcium, fluoride and magnesium.",
+     "Hard water contains more calcium than soft water, so it is a useful source of calcium in the diet.",
+     "Fluoride from water helps to strengthen tooth enamel and protect teeth from decay."
+    ]
+   },
+   {
+    "h": "Dehydration and thirst",
+    "points": [
+     "Thirst is the body's signal that its water content has fallen; quenching thirst is one function of water.",
+     "Dehydration occurs when water losses are greater than intake, and it results in dark urine, headache, tiredness and dizziness.",
+     "Severe dehydration can cause confusion, low blood pressure and shock, so fluids must be replaced promptly.",
+     "Water is the main drink in the diet, and foods such as fruit and vegetables also supply water."
+    ]
+   },
+   {
+    "h": "Water in pregnancy",
+    "points": [
+     "The blood volume of a pregnant woman increases, and water is needed to carry nutrients and oxygen to the foetus through the placenta.",
+     "Amniotic fluid, which is mostly water, cushions and protects the developing baby.",
+     "Water helps to prevent constipation, which is common in pregnancy.",
+     "Breastfeeding women need extra water, because breast milk is mostly water and is produced in large amounts."
+    ]
+   },
+   {
+    "h": "Water in sport",
+    "points": [
+     "During exercise the body loses water and salts as sweat; water losses are replaced by drinking before, during and after activity.",
+     "Dehydration during sport reduces stamina, strength and concentration, and raises the risk of heat exhaustion and heat stroke.",
+     "Drinking regularly in small amounts during prolonged or intense exercise is more effective than drinking a large amount at once.",
+     "For prolonged or very intense exercise, drinks containing sodium and potassium replace the salts lost in sweat."
+    ]
+   },
+   {
+    "h": "Energy and water intake",
+    "points": [
+     "Water supplies no energy, so it can be drunk freely without adding to energy intake.",
+     "Sugary drinks supply energy as empty kilocalories, so plain water is the best choice for hydration.",
+     "Factors that increase water needs include hot weather, exercise, fever, vomiting, diarrhoea, pregnancy and breastfeeding."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a brief explanation: transporting nutrients, oxygen, carbon dioxide, hormones and enzymes around the body; removing waste products such as urea in urine; regulating body temperature through sweating; aiding hydrolysis during digestion and preventing constipation; forming the main part of blood plasma and body tissue fluids; providing small amounts of calcium and fluoride.",
+    "prompt": "State three biological functions of water.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Temperature: water is lost as sweat, which evaporates to cool the body; water in blood and tissues spreads heat evenly. Other functions: transport of nutrients and oxygen, removal of waste in urine, hydrolysis in digestion, and prevention of constipation. Sport: exercise increases sweat losses, so water must be replaced before, during and after activity, in small regular amounts. Dehydration reduces stamina, strength and concentration, and increases the risk of heat exhaustion and heat stroke. For prolonged or intense exercise, drinks containing sodium and potassium replace the salts lost in sweat. Plain water is the best drink because it supplies no energy, unlike sugary drinks.",
+    "prompt": "Discuss the importance of water for an active adult, including its role in temperature regulation and the effects of dehydration on performance.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-fish-seafood-s1": {
   "keyTerms": [
    {
@@ -2714,6 +6602,1310 @@
    }
   ]
  },
+ "hom-food-preservation-s1": {
+  "keyTerms": [
+   {
+    "definition": "Any change in food, caused by enzymes, micro-organisms, oxidation or moisture loss, that makes it unpleasant or unsafe to eat.",
+    "term": "Food spoilage"
+   },
+   {
+    "definition": "A living organism too small to see without a microscope, such as a bacterium, yeast or mould.",
+    "term": "Micro-organism"
+   },
+   {
+    "definition": "A protein that speeds up a specific chemical reaction in food, such as ripening or browning, without being used up.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "The movement of water across a partially permeable membrane from a dilute solution to a more concentrated one.",
+    "term": "Osmosis"
+   },
+   {
+    "definition": "A reaction between food and oxygen that causes rancidity in fats and browning on cut surfaces.",
+    "term": "Oxidation"
+   },
+   {
+    "definition": "A dormant, heat-resistant form produced by some bacteria and moulds that survives unfavourable conditions.",
+    "term": "Spore"
+   },
+   {
+    "definition": "The temperature range of 5 to 63 °C in which food poisoning bacteria multiply rapidly.",
+    "term": "Danger zone"
+   },
+   {
+    "definition": "Any treatment that stops or slows the spoilage of food so that it can be stored safely for longer.",
+    "term": "Preservation"
+   },
+   {
+    "definition": "Reducing waste, making food available out of season, making food safer, and enabling perishable food to be transported and stored.",
+    "term": "Four reasons for preserving food"
+   },
+   {
+    "definition": "Enzyme action, microbial contamination and moisture loss through the skin.",
+    "term": "Three ways fresh produce deteriorates"
+   },
+   {
+    "definition": "Food, acidity, temperature, time, oxygen and moisture.",
+    "term": "The six conditions micro-organisms need (FAT TOM)"
+   },
+   {
+    "definition": "Destroy micro-organisms; inactivate enzymes; prevent re-contamination; control available water; control temperature; control pH.",
+    "term": "Six principles behind every preservation method"
+   },
+   {
+    "definition": "Bacteria, yeasts and moulds.",
+    "term": "Three groups of micro-organisms that spoil food"
+   },
+   {
+    "definition": "5 to 63 °C, the range in which food poisoning bacteria multiply rapidly.",
+    "term": "Danger zone temperature range"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Preservation slows or stops the natural changes that make food unsafe or unusable, so that food can be kept, moved and eaten later.",
+    "h": "Why food is preserved",
+    "points": [
+     "It reduces waste by keeping surplus produce, such as a glut of home-grown fruit, usable for months rather than days.",
+     "It makes food available out of season and over long distances, so perishable foods can be transported and stored.",
+     "It makes food safer by destroying food poisoning micro-organisms or stopping them from growing.",
+     "It creates foods with distinct textures and flavours, such as jam, chutney, dried fruit and cured meat.",
+     "It reduces the environmental footprint of food because less of it is thrown away and produce can be bought when in season."
+    ]
+   },
+   {
+    "h": "What causes food spoilage",
+    "points": [
+     "Enzymes are proteins naturally present in food. After harvest or slaughter they continue to ripen, soften, darken and change flavour.",
+     "Micro-organisms (bacteria, yeasts and moulds) grow on food, causing decay, off-odours and, in some cases, food poisoning.",
+     "Oxidation occurs when oxygen reacts with fats, causing rancidity, and with the cut surfaces of fruit and vegetables, causing browning.",
+     "Moisture loss through the skins of fruit and vegetables causes shrivelling and wilting.",
+     "Incorrect storage temperature allows micro-organisms and enzymes to work quickly.",
+     "Poor hygiene and handling carry micro-organisms from hands, equipment, pests or raw food onto prepared food.",
+     "Chemical contaminants, such as residues from cleaning products or pesticides, can make food unsafe."
+    ]
+   },
+   {
+    "b": "Micro-organisms need six conditions. Preservation methods work by removing or controlling one or more of them.",
+    "h": "Conditions micro-organisms need to grow",
+    "points": [
+     "The six conditions are food, acidity, temperature, time, oxygen and moisture, summarised by the memory aid FAT TOM.",
+     "Bacteria that cause food poisoning grow fastest in the danger zone of 5 to 63 °C, which is why chilled and hot food is kept outside it.",
+     "Moulds and yeasts tolerate acid, sugar and low moisture better than most bacteria, so they spoil jam and dried fruit.",
+     "Moulds appear as fuzzy colonies or threads; yeasts produce bubbling, gas and a sour or alcoholic smell.",
+     "Enzymes work best at moderate temperatures and are destroyed by heat; cold slows them but does not stop them.",
+     "Micro-organisms cannot multiply in food with little available water, which is why drying and concentrated sugar or salt preserve food."
+    ]
+   },
+   {
+    "h": "Types of micro-organism",
+    "points": [
+     "Bacteria are single-celled organisms; some cause food poisoning and others spoil food by producing acid and gas.",
+     "Yeasts are single-celled fungi that ferment sugars into alcohol and carbon dioxide.",
+     "Moulds are multicellular fungi that grow as visible threads and spread by airborne spores.",
+     "Spores are dormant, resistant forms produced by some bacteria and moulds; they survive heat and cold until conditions improve.",
+     "Enzymes are biological catalysts made of protein, and each one acts on a specific substance in food."
+    ]
+   },
+   {
+    "b": "Osmosis is the movement of water across a partially permeable membrane from a dilute solution to a more concentrated one.",
+    "h": "Osmosis and its role in preservation",
+    "points": [
+     "The cell membrane of a micro-organism is partially permeable, so water leaves the cell when the surrounding solution is concentrated.",
+     "Loss of water makes the cell shrink and stop growing, and at high concentrations it can kill the cell.",
+     "The same process draws water out of food, which is why salted meat and fish and sugared fruit keep."
+    ]
+   },
+   {
+    "h": "The principles that underlie every method",
+    "points": [
+     "Remove or destroy micro-organisms, using heat treatment, irradiation or chemical preservatives such as salt, sugar or vinegar.",
+     "Inactivate enzymes, using blanching, heat, acid or the removal of oxygen.",
+     "Prevent re-contamination after treatment, using clean containers, airtight sealing and correct packaging.",
+     "Control available water, by removing it (dehydration) or binding it (concentrated sugar or salt).",
+     "Control temperature, by slowing growth at low temperature (freezing) or stopping it at high temperature (heat processing).",
+     "Control pH, by adding acid such as vinegar or lemon juice, which prevents growth of many spoilage and food poisoning bacteria.",
+     "Most methods combine principles: jam uses heat, sugar and sealing together."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Enzymes are natural proteins present in food that continue to ripen, soften, darken and change flavour after harvest or slaughter. They act on specific substances in the food, so the food changes even when no micro-organisms are present. Control: blanching destroys enzymes with heat; cold storage slows enzyme action; acids such as lemon juice inactivate enzymes.",
+    "prompt": "Explain how enzymes cause food to spoil, and name one way the action of enzymes can be controlled.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Causes of spoilage: enzymes, micro-organisms (bacteria, yeasts and moulds), oxidation and moisture loss, and incorrect storage temperature. Principles: destroy or remove micro-organisms by heat, irradiation or chemicals such as salt, sugar and vinegar. Inactivate enzymes by blanching, heat or acid. Prevent re-contamination by clean, airtight packaging. Control available water by dehydration or by binding water with sugar or salt, using osmosis. Control temperature by freezing, which slows growth, or heat processing, which stops it. Control pH by adding acid.",
+    "prompt": "Discuss the principles of food preservation, explaining how the causes of spoilage are controlled by each principle.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s2": {
+  "keyTerms": [
+   {
+    "definition": "Freezing food rapidly at about −25 °C to −40 °C so that small ice crystals form and cell damage is minimised.",
+    "term": "Quick freezing"
+   },
+   {
+    "definition": "Freezing food at a higher temperature so that large ice crystals form and damage the cell walls.",
+    "term": "Slow freezing"
+   },
+   {
+    "definition": "Briefly boiling vegetables and then cooling them in iced water to inactivate enzymes before freezing.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "Dehydration, oxidation and toughening of the surface of frozen food where air has reached it.",
+    "term": "Freezer burn"
+   },
+   {
+    "definition": "Liquid lost from food on thawing, carrying water-soluble vitamins and minerals with it.",
+    "term": "Drip loss"
+   },
+   {
+    "definition": "The empty space left at the top of a container so that liquid can expand as it freezes.",
+    "term": "Headspace"
+   },
+   {
+    "definition": "Commercial freezing in which very cold air is blown over food on a conveyor belt.",
+    "term": "Air blast freezing"
+   },
+   {
+    "definition": "Commercial freezing in which cold air blown up through a perforated belt freezes each piece separately so they do not stick together.",
+    "term": "Flow freezing"
+   },
+   {
+    "definition": "Commercial freezing using liquid nitrogen or carbon dioxide, which freezes food almost instantly.",
+    "term": "Cryogenic freezing"
+   },
+   {
+    "definition": "Commercial freezing in which food is pressed between two cold metal plates.",
+    "term": "Plate freezing"
+   },
+   {
+    "definition": "Large ice crystals damage the cell walls, so the food loses texture; colour and flavour are poorer on thawing; soluble vitamins B1 and C are lost in drip.",
+    "term": "Three effects of slow freezing"
+   },
+   {
+    "definition": "About −25 °C to −40 °C, in the fast-freeze section of the freezer.",
+    "term": "Temperature range for quick freezing"
+   },
+   {
+    "definition": "It inactivates enzymes, destroys some surface micro-organisms and helps retain colour, flavour and texture during frozen storage.",
+    "term": "Three things blanching does to vegetables"
+   },
+   {
+    "definition": "Air blast freezing, plate (contact) freezing, flow (fluidised bed) freezing and cryogenic freezing.",
+    "term": "Four commercial freezing methods"
+   },
+   {
+    "definition": "Use moisture-proof and vapour-proof packaging, remove the air, leave headspace for liquids, and seal, label and date each pack.",
+    "term": "Four packing guidelines for home freezing"
+   },
+   {
+    "definition": "−18 °C or colder.",
+    "term": "Home freezer storage temperature"
+   },
+   {
+    "definition": "It reduces waste, saves time and fuel through bulk cooking, and provides emergency stock and convenience.",
+    "term": "Three benefits of frozen food in meal planning"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Freezing preserves food by lowering its temperature far enough to stop enzyme action and microbial growth, and by turning free water into ice that micro-organisms cannot use.",
+    "h": "Principle of freezing",
+    "points": [
+     "Low temperature slows enzyme reactions and stops micro-organisms from reproducing, but it does not kill most of them.",
+     "Frozen food is not sterile: micro-organisms become dormant and start growing again when the food thaws.",
+     "Pure water freezes at 0 °C; food freezes below this because its dissolved sugars and salts lower its freezing point.",
+     "Water expands by about 9 per cent when it freezes, which is why liquids need headspace in their containers.",
+     "Freezing itself does little harm to nutritive value; most nutrient losses happen during blanching and thawing."
+    ]
+   },
+   {
+    "h": "Quick freezing and slow freezing",
+    "points": [
+     "Quick freezing takes place at about −25 °C to −40 °C in the fast-freeze section of a freezer, so the food passes through the freezing range rapidly.",
+     "Quick freezing forms small ice crystals within the cells, which causes little damage to the cell walls.",
+     "Quick freezing retains the texture, colour, flavour and nutritive value of food better than slow freezing does.",
+     "Slow freezing takes place at about 0 °C to −24 °C, in an ordinary freezer compartment, where ice forms gradually.",
+     "Slow freezing forms large ice crystals that pierce and rupture cell walls, allowing juices to escape.",
+     "Slow-frozen food is limp and soft when thawed, and it loses drip containing soluble vitamins B1 and C and minerals.",
+     "The fast-freeze setting should be switched on about 3 to 4 hours before food is placed in the freezer."
+    ]
+   },
+   {
+    "b": "Blanching is a brief heat treatment given to vegetables before freezing.",
+    "h": "Blanching vegetables",
+    "points": [
+     "The vegetables are placed in boiling water for a set time, then plunged into ice-cold water for the same length of time to stop the cooking.",
+     "Blanching inactivates enzymes that would otherwise cause loss of colour, flavour and texture during frozen storage.",
+     "Blanching destroys some micro-organisms on the surface of the vegetables.",
+     "Blanching loses water-soluble vitamins, particularly vitamin C and vitamin B1, into the water.",
+     "Blanch small batches in plenty of water so that the water returns to the boil quickly and the timing stays accurate.",
+     "Fruit is not blanched; soft fruit is open-frozen on trays or packed in sugar syrup."
+    ]
+   },
+   {
+    "h": "Home freezing method",
+    "points": [
+     "Choose best-quality fresh food, and cool cooked food quickly before it goes into the freezer.",
+     "Portion food into usable quantities so that only what is needed is thawed.",
+     "Open-freeze sticky or delicate items, such as berries, on a tray first so that they do not stick together.",
+     "Pack food in strong, moisture-proof and vapour-proof polythene freezer bags, foil or rigid plastic containers, and remove as much air as possible.",
+     "Leave headspace in containers holding liquids to allow for expansion as the food freezes.",
+     "Seal, label with contents and date, and place new packs against the cold walls or base of the freezer so they freeze quickly.",
+     "Do not overload the freezer: freeze no more than about one-tenth of the freezer's capacity in any 24 hours.",
+     "Store frozen food at −18 °C or colder; the safe storage time depends on the food, and fatty foods keep for a shorter period."
+    ]
+   },
+   {
+    "h": "Freezer burn and thawing",
+    "points": [
+     "Freezer burn occurs when air reaches the surface of food, causing dehydration, oxidation, toughening and discolouration, especially of protein foods such as meat and fish.",
+     "Airtight packaging with the air removed prevents freezer burn.",
+     "Thaw food in a fridge, or cook it from frozen where the recipe allows, so that the food stays below the danger zone while it thaws.",
+     "Thawed food should be used promptly and not refrozen, because quality declines and micro-organisms may have multiplied."
+    ]
+   },
+   {
+    "b": "Commercial methods freeze food faster than home freezers, producing smaller ice crystals and less damage to the food.",
+    "h": "Commercial freezing methods",
+    "points": [
+     "Air blast freezing: cold air at about −30 °C to −40 °C is blown over food on a conveyor belt, taking about 2 to 3 hours; suitable for most foods.",
+     "Plate (contact) freezing: food is pressed between two cold metal plates at about −30 °C to −40 °C; suitable for thin, flat foods such as fish fillets and pieces of meat.",
+     "Flow (fluidised bed) freezing: cold air at about −30 °C to −40 °C is blown up through a perforated conveyor belt, so each piece is frozen separately and does not stick; suitable for peas and small items.",
+     "Cryogenic freezing: food is exposed to liquid nitrogen or carbon dioxide, which freezes it almost instantly; suitable for delicate foods such as strawberries and prawns.",
+     "Frozen foods are kept in cold stores at −18 °C or colder and moved in refrigerated transport to maintain the cold chain."
+    ]
+   },
+   {
+    "h": "Frozen food in meal planning",
+    "points": [
+     "Freezing surplus food before it spoils reduces household waste.",
+     "Bulk cooking and freezing portions saves time and fuel, since a large batch is cooked once.",
+     "A freezer stock of meals and ingredients provides emergency food and convenience on busy days.",
+     "Buying in bulk or when produce is in season is more economical, and freezing keeps it for a longer period.",
+     "Frozen foods provide a wide variety of vegetables, fish and fruit all year, including items not available fresh locally.",
+     "Freezing retains colour, texture, flavour and nutritive value well compared with heat processing.",
+     "Leftovers can be frozen for reuse, giving ready-made portions.",
+     "Labelling each pack with contents, date and portion size lets older items be used first."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Quick freezing takes place at about −25 °C to −40 °C, so small ice crystals form within the cells, causing little damage to the cell walls. The food keeps its texture, colour, flavour and nutrients on thawing. Slow freezing takes place at about 0 °C to −24 °C, so large ice crystals form, rupturing cell walls. On thawing the food is soft, loses juice and drip, and loses colour, flavour and nutrients.",
+    "prompt": "Explain the difference between quick freezing and slow freezing in terms of ice crystal size and the effect on the food.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Principle: low temperature stops enzyme action and microbial growth; water becomes ice and is unavailable to micro-organisms; quick freezing keeps the structure of the food intact. Preparation: choose fresh, best-quality vegetables and blanch them in boiling water for a set time, then cool them rapidly in iced water to inactivate enzymes. Packing: drain and dry, portion into usable quantities, remove as much air as possible in moisture-proof and vapour-proof bags or containers, seal and label with contents and date. Freezing: place packs against the cold walls of the freezer, freezing no more than one-tenth of the capacity in 24 hours, at about −25 °C. Storage: keep at −18 °C or colder and use promptly after thawing.",
+    "prompt": "Describe how to carry out home freezing of fresh vegetables, including the preparation, packing and storage, and explain the principle on which freezing preserves them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s3": {
+  "keyTerms": [
+   {
+    "definition": "A moderate heat treatment that destroys most food poisoning bacteria in a food, but not all spores, so the food still needs chilling.",
+    "term": "Pasteurisation"
+   },
+   {
+    "definition": "Heat treatment at a high temperature that destroys all micro-organisms, including spores.",
+    "term": "Sterilisation"
+   },
+   {
+    "definition": "Sealing food in a can or jar and heat-processing it so that it can be stored for a long period.",
+    "term": "Canning"
+   },
+   {
+    "definition": "Preserving fruit or vegetables in sealed jars by heat processing them in a water bath or pressure canner.",
+    "term": "Bottling"
+   },
+   {
+    "definition": "A natural gelling substance found in the cell walls of fruit that causes jam to set when combined with acid and sugar.",
+    "term": "Pectin"
+   },
+   {
+    "definition": "The stage in jam making at which the mixture has boiled enough for pectin, acid and sugar to form a gel on cooling.",
+    "term": "Setting point"
+   },
+   {
+    "definition": "The gap left between the food and the top of a jar or container to allow for expansion and the formation of a vacuum.",
+    "term": "Headspace"
+   },
+   {
+    "definition": "A low-pressure space that forms inside a jar as hot contents cool, pulling the lid down and keeping air out.",
+    "term": "Vacuum seal"
+   },
+   {
+    "definition": "A food poisoning bacterium that forms heat-resistant spores, which must be destroyed by pressure canning in low-acid foods.",
+    "term": "Clostridium botulinum"
+   },
+   {
+    "definition": "A change in the three-dimensional structure of an enzyme or protein caused by heat, which destroys its activity.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "Loss of vitamin C and thiamine (B1), an increase in sodium from added salt, and changes to colour, texture and flavour.",
+    "term": "Three effects of canning on vegetables"
+   },
+   {
+    "definition": "Pasteurisation destroys most food poisoning bacteria but not all spores, so the product must be chilled; sterilisation destroys all micro-organisms including spores, allowing room-temperature storage when sealed.",
+    "term": "Difference between pasteurisation and sterilisation"
+   },
+   {
+    "definition": "Too little sugar, setting point not reached, a faulty seal, and unsterilised jars or a contaminated spoon.",
+    "term": "Four faults that lead to spoiled jam"
+   },
+   {
+    "definition": "Pectin, acid and sugar.",
+    "term": "Three ingredients that make jam set"
+   },
+   {
+    "definition": "Boiling water at normal pressure does not reach a temperature high enough to destroy Clostridium botulinum spores in low-acid foods.",
+    "term": "Why low-acid vegetables need a pressure canner"
+   },
+   {
+    "definition": "100 °C.",
+    "term": "Temperature of boiling water at normal pressure"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Heat processing destroys micro-organisms and inactivates enzymes. Sealing the food in a clean, airtight container then stops new micro-organisms from entering.",
+    "h": "Principle of heat processing",
+    "points": [
+     "Heat destroys vegetative bacteria, yeasts and moulds and denatures the enzymes that cause spoilage.",
+     "Spores of some bacteria are very heat-resistant and survive boiling at normal pressure, so they need higher temperatures held for longer.",
+     "Heat also changes the colour, texture and flavour of food, which is why heat-processed fruit and vegetables differ from fresh produce.",
+     "Pasteurisation uses a moderate heat treatment that destroys most food poisoning bacteria but not all spores, so pasteurised products still need refrigeration.",
+     "Sterilisation uses higher temperatures to destroy all micro-organisms, including spores, so a sealed sterilised product can be stored at room temperature."
+    ]
+   },
+   {
+    "h": "Canning",
+    "points": [
+     "Commercial canning: food is sealed in cans and heated under pressure at a high temperature for a long period to sterilise it.",
+     "Home canning of fruit: clean, sterilised jars are filled with fruit in syrup or juice, sealed and processed in a boiling-water bath.",
+     "Low-acid vegetables such as peas, beans and carrots must be processed in a pressure canner, because boiling water at normal pressure, which is 100 °C, does not destroy Clostridium botulinum spores.",
+     "Acidic foods such as fruit can be processed in boiling water, because the acid stops the spores from germinating.",
+     "Jars must be filled hot, leaving headspace, and sealed at once; the contents cool and form a vacuum that holds the lid down.",
+     "A bulging lid or can end indicates gas produced by micro-organisms, and the contents must be discarded unopened.",
+     "In Ireland, commercial canning is covered by food hygiene law, which the FSAI enforces through its official agencies, such as the HSE Environmental Health Service."
+    ]
+   },
+   {
+    "h": "Effects of canning on food",
+    "points": [
+     "Vitamin C is heat-sensitive and water-soluble, so it is lost during high-temperature canning, especially in the canning liquid.",
+     "Thiamine (vitamin B1) is unstable at high temperature and is reduced by canning.",
+     "Canned vegetables gain sodium from added salt, so no-added-salt versions are preferred on a low-salt diet.",
+     "Fruit canned in heavy syrup gains sugar, and food packed in oil gains fat, which raises the energy content.",
+     "Canned vegetables are softer, paler and less bright in colour than fresh or frozen produce.",
+     "Frozen produce retains more vitamin C than canned produce of the same food, because the processing temperatures are lower."
+    ]
+   },
+   {
+    "b": "Jam is preserved by heat, a high concentration of sugar and a sealed jar. It sets because pectin, acid and sugar combine.",
+    "h": "Jam making: underlying principles",
+    "points": [
+     "Fruit is simmered first to soften its tissues and release pectin, a natural gelling substance found in the cell walls of fruit.",
+     "Apples, redcurrants, gooseberries and lemons are high in pectin, and under-ripe fruit contains more pectin than over-ripe fruit.",
+     "Acid, from lemon juice or the fruit itself, releases pectin from the cell walls and helps the pectin form a gel.",
+     "Sugar is added in the correct proportion and dissolved fully before the mixture is boiled rapidly to setting point.",
+     "Setting point is confirmed by the wrinkle test, in which a spoonful of jam dropped onto a cold saucer wrinkles when pushed with a finger.",
+     "Boiling destroys micro-organisms and inactivates enzymes in the fruit.",
+     "Sugar preserves by osmosis: at high concentration it draws water out of microbial cells, so they cannot multiply.",
+     "Jam loses some heat-sensitive vitamin C during boiling.",
+     "Scum is skimmed from the surface, and the jam is potted into hot sterilised jars, sealed at once, labelled and stored in a cool, dry place.",
+     "Jam ferments or grows mould if too little sugar is used, setting point is not reached, jars are not sterilised, the seal fails or a used spoon introduces yeasts and moulds."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Canning uses high temperatures for a long period, so heat-sensitive vitamin C is destroyed and thiamine (vitamin B1) is reduced. Vitamin C is water-soluble, so some is also lost into the canning liquid. Salt added to the can increases the sodium content.",
+    "prompt": "Explain how canning changes the nutritional value of peas.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Method: sterilise the jars; prepare the fruit; simmer it in a heavy pan to soften it and release pectin; add the correct proportion of sugar and dissolve it; boil rapidly to setting point, tested with a cold saucer; skim the scum; pot into hot sterilised jars; seal at once; label and store in a cool, dry place. Principles: boiling destroys micro-organisms and inactivates enzymes; sugar preserves by osmosis, drawing water out of microbial cells; pectin, acid and sugar form the gel; the sealed jar prevents re-entry of micro-organisms.",
+    "prompt": "Give an account of how jam is made at home, explaining the underlying principles that preserve the jam and make it set.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s4": {
+  "keyTerms": [
+   {
+    "definition": "Removing most of the water from food so that micro-organisms and enzymes cannot grow or act.",
+    "term": "Dehydration"
+   },
+   {
+    "definition": "The water in food that is free to be used by micro-organisms and enzymes, as opposed to water bound to other food components.",
+    "term": "Available water"
+   },
+   {
+    "definition": "A commercial drying method in which food is frozen and then the ice is removed under vacuum by sublimation.",
+    "term": "Accelerated freeze drying"
+   },
+   {
+    "definition": "The change of a solid directly into a gas without first becoming a liquid, as occurs with ice in freeze drying.",
+    "term": "Sublimation"
+   },
+   {
+    "definition": "Drying a liquid by spraying it as a mist into hot air so that the water evaporates in seconds, leaving a powder.",
+    "term": "Spray drying"
+   },
+   {
+    "definition": "Drying a thin layer of liquid or purée on a heated rotating drum to produce flakes.",
+    "term": "Drum drying"
+   },
+   {
+    "definition": "Storing dried food in a loosely filled jar for several days so that residual moisture is evenly distributed and any remaining dampness shows as condensation.",
+    "term": "Conditioning"
+   },
+   {
+    "definition": "Soaking dried food in water so that it absorbs moisture and returns towards its fresh texture before cooking.",
+    "term": "Rehydration"
+   },
+   {
+    "definition": "Oven drying, electric dehydrator drying and sun drying.",
+    "term": "Three methods of drying food at home"
+   },
+   {
+    "definition": "Vitamin C, the B vitamins, vitamin A and vitamin E.",
+    "term": "Four vitamins reduced by drying"
+   },
+   {
+    "definition": "The food is frozen, placed in a vacuum chamber, and the ice sublimes directly to water vapour, leaving a dry, porous structure.",
+    "term": "Process of accelerated freeze drying"
+   },
+   {
+    "definition": "It is leathery and pliable, with no moist centre or sticky patches.",
+    "term": "Test for correctly dried fruit"
+   },
+   {
+    "definition": "Condensation inside the jar during conditioning.",
+    "term": "Sign that dried food needs more drying"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Dehydration removes most of the available water from food, so that micro-organisms cannot multiply and enzymes cannot act.",
+    "h": "Principle of dehydration",
+    "points": [
+     "Micro-organisms need available water; drying to a low moisture level stops their growth but does not kill all of them.",
+     "Fresh fruit and vegetables contain roughly 70 to 95 per cent water, so they lose most of their weight when dried.",
+     "Dried food is light and compact, which reduces its storage space and the cost of transporting it.",
+     "Damp dried food can re-absorb moisture from the air and go mouldy, so it must be stored in dry, airtight conditions.",
+     "Blanching vegetables before drying inactivates enzymes that would otherwise cause darkening and off-flavours during storage."
+    ]
+   },
+   {
+    "h": "Drying methods at home",
+    "points": [
+     "Oven drying: food is spread in a single layer on trays and dried at a low temperature, with the oven door slightly open to let moisture escape.",
+     "Electric dehydrator: a fan circulates warm air at a controlled low temperature over trays, so food dries evenly.",
+     "Sun drying: food is laid on trays or racks in warm, dry weather; it is slow and uncontrolled, and exposes food to dust and insects.",
+     "Air drying: herbs are tied in small bunches and hung in a warm, dry, airy place away from direct sunlight.",
+     "Onions and garlic are cured in a warm, dry, ventilated place until their outer skins are papery."
+    ]
+   },
+   {
+    "h": "Commercial drying methods",
+    "points": [
+     "Spray drying: liquid food is sprayed as a fine mist into a hot air chamber, where the water evaporates in seconds and leaves a powder, as in milk powder.",
+     "Drum drying: a thin layer of liquid or purée is spread on a heated rotating drum and dries into flakes.",
+     "Accelerated freeze drying (AFD): the food is frozen first, then placed in a vacuum chamber where the ice turns directly into water vapour without melting; this process is called sublimation.",
+     "Freeze-dried foods are light, rehydrate quickly and keep their shape, colour and flavour better than air-dried foods."
+    ]
+   },
+   {
+    "h": "Effects of drying on food",
+    "points": [
+     "Water-soluble vitamins, especially vitamin C and the B vitamins, are lost during drying.",
+     "Vitamins A and E are reduced, because they are sensitive to heat and oxidation.",
+     "Colour darkens, especially in fruit left in the sun, because of oxidation and browning reactions; blanching helps prevent this.",
+     "Dried fruit is concentrated in sugar, so a small portion gives much more sugar and energy than the same weight of fresh fruit.",
+     "Texture becomes leathery or brittle, and the flavour becomes more concentrated.",
+     "Minerals and fibre are retained, because drying does not destroy them.",
+     "Dried food shrinks and must be soaked in water (rehydrated) before cooking."
+    ]
+   },
+   {
+    "h": "Preparing and testing food for drying",
+    "points": [
+     "Choose ripe, sound, undamaged produce and wash it thoroughly.",
+     "Cut food into even, thin pieces so that they all dry at the same rate.",
+     "Test dryness: dried fruit should be leathery and pliable, with no moist centre or sticky patches.",
+     "Dried vegetables should be brittle and snap cleanly when bent.",
+     "Condition dried food by packing it loosely in a jar for several days and shaking the jar daily; condensation on the inside means the food needs more drying.",
+     "Store dried food in airtight, moisture-proof containers in a cool, dark, dry place, since light and moisture reduce its quality."
+    ]
+   },
+   {
+    "h": "Foods suited to drying",
+    "points": [
+     "Fruit such as apples, apricots, pears, bananas and grapes (which become raisins).",
+     "Vegetables such as onions, carrots and tomatoes.",
+     "Herbs such as mint, parsley, thyme and rosemary, which keep their flavour well when dried.",
+     "Meat and fish, which are salted before drying or smoked and dried, as in dried fish."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Micro-organisms need available water to grow and reproduce; removing most of the water from food makes it unavailable, so growth stops, although micro-organisms are not necessarily killed. Drying also reduces the enzyme activity that would cause spoilage. One effect on vitamins: water-soluble vitamins such as vitamin C and the B vitamins are lost during drying, and vitamins A and E are reduced by heat and oxidation.",
+    "prompt": "Explain why micro-organisms cannot grow in properly dried food, and state one effect that drying has on the vitamin content of food.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Advantages of drying: food is light and compact and needs no freezer, so it is convenient for storage and for an unplugged or power-cut situation; dried foods keep for a long period when stored dry and airtight; concentrated flavour and sugar make dried fruit useful as a snack or ingredient. Disadvantages: vitamin C and B vitamins are lost more than in freezing; colour darkens and texture changes; dried fruit is high in sugar per portion; drying takes many hours and the process must be controlled to avoid mould. Freezing keeps colour, texture and nutrients better but needs a freezer and continuous energy. Each point is set against the matching point for freezing.",
+    "prompt": "Discuss the advantages and disadvantages of drying fruit and vegetables at home compared with freezing them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s5": {
+  "keyTerms": [
+   {
+    "definition": "Preserving food with substances such as sugar, salt, vinegar, smoke or permitted preservatives that draw out water, lower pH or inhibit micro-organisms.",
+    "term": "Chemical preservation"
+   },
+   {
+    "definition": "A substance added to food to prevent or slow spoilage by micro-organisms or enzymes.",
+    "term": "Preservative"
+   },
+   {
+    "definition": "Preserving meat or fish with salt, sometimes with nitrites, to draw out moisture and inhibit micro-organisms.",
+    "term": "Curing"
+   },
+   {
+    "definition": "Immersing food in a strong salt solution so that salt draws water out by osmosis.",
+    "term": "Brining"
+   },
+   {
+    "definition": "Packing food in salt so that the salt draws moisture out of it.",
+    "term": "Dry salting"
+   },
+   {
+    "definition": "The acid in vinegar, which lowers the pH of food and inhibits most spoilage and food poisoning bacteria.",
+    "term": "Acetic acid"
+   },
+   {
+    "definition": "Smoking food at a low temperature, which flavours and partly preserves it without cooking it.",
+    "term": "Cold smoking"
+   },
+   {
+    "definition": "Smoking food at a higher temperature, which cooks it as well as preserving it.",
+    "term": "Hot smoking"
+   },
+   {
+    "definition": "A code number given to a permitted food additive in the EU, such as E200 for sorbic acid.",
+    "term": "E number"
+   },
+   {
+    "definition": "A vegetable preserved in vinegar or brine, often with spices.",
+    "term": "Pickle"
+   },
+   {
+    "definition": "Sugar, salt and vinegar.",
+    "term": "Three traditional home preservatives"
+   },
+   {
+    "definition": "Cold smoking, which flavours and partly preserves food without cooking it, and hot smoking, which cooks the food as it is smoked.",
+    "term": "Two types of smoking"
+   },
+   {
+    "definition": "E200 sorbic acid, E210 benzoic acid and E220 sulphur dioxide.",
+    "term": "Three common permitted preservatives by E number"
+   },
+   {
+    "definition": "Sodium nitrite (E250), which also inhibits Clostridium botulinum.",
+    "term": "Preservative that gives cured meat its pink colour"
+   },
+   {
+    "definition": "Fruit and/or vegetables, vinegar, sugar and spices.",
+    "term": "Main ingredients of a fruit or vegetable chutney"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Chemical preservatives either draw water out of food and micro-organisms, lower the pH of the food, or directly inhibit micro-organisms.",
+    "h": "Principle of chemical preservation",
+    "points": [
+     "Sugar, salt and vinegar are the traditional home preservatives, and smoke was the traditional preservative for fish and meat.",
+     "Preservatives are used at concentrations that stop micro-organisms from growing; a low concentration may encourage their growth instead.",
+     "Permitted chemical preservatives are controlled in the EU under Regulation (EC) No 1333/2008 on food additives, which lists those allowed, the foods they may be used in and the maximum levels.",
+     "Permitted preservatives carry E numbers and must be named in the ingredients list on the label, under Regulation (EU) No 1169/2011 on food information to consumers."
+    ]
+   },
+   {
+    "h": "Sugar as a preservative",
+    "points": [
+     "At high concentration, sugar binds water and draws it out of microbial cells by osmosis, so the micro-organisms cannot multiply.",
+     "Sugar is the preservative in jam, marmalade, syrups and crystallised fruit.",
+     "Yeasts and moulds tolerate sugar better than most bacteria, so sugared products still need sealed, clean containers.",
+     "The Department of Health healthy eating guidelines advise limiting foods high in added sugar, since excess sugar is linked to tooth decay and excess energy intake."
+    ]
+   },
+   {
+    "h": "Salt as a preservative",
+    "points": [
+     "Salt draws water out of food and micro-organisms by osmosis, and it reduces the available water for enzyme action.",
+     "Dry salting: food is packed in salt, which draws out moisture; this method is used for salt cod and salt pork.",
+     "Brining: food is immersed in a strong salt solution, as used for olives and for brine pickles of vegetables.",
+     "Salt-cured foods must be stored in cool, dry conditions, since moisture in the air can cause surface mould.",
+     "Excess salt raises blood pressure, and the Department of Health healthy eating guidelines advise reducing salt in the diet."
+    ]
+   },
+   {
+    "h": "Vinegar and acidity",
+    "points": [
+     "Vinegar is a dilute solution of acetic acid, which lowers the pH of food and inhibits most spoilage and food poisoning bacteria.",
+     "Vinegar pickling: vegetables such as onions, cucumbers and beetroot are packed in spiced vinegar, which acts as the preservative.",
+     "Vinegar also gives sharpness and flavour, and its effectiveness depends on its acetic acid strength."
+    ]
+   },
+   {
+    "h": "Chutney and pickles",
+    "points": [
+     "Chutney is made by cooking fruit and/or vegetables slowly with vinegar, sugar and spices until the mixture is thick.",
+     "Cooking destroys micro-organisms, while the vinegar and sugar prevent any survivors from growing.",
+     "Spices such as mustard seed, chilli and ginger add flavour to the finished product.",
+     "Chutney is poured hot into sterilised jars, sealed and stored in a cool, dark place; once opened it is kept in the fridge.",
+     "Pickles are vegetables preserved in vinegar or brine; vinegar pickles are covered with spiced vinegar and sugar and sealed."
+    ]
+   },
+   {
+    "h": "Smoking",
+    "points": [
+     "Smoking exposes food to smoke from burning wood; smoke contains phenols and organic acids that inhibit micro-organisms and oxidation.",
+     "Smoke dries the surface of the food, which slows micro-organism growth.",
+     "Cold smoking is carried out at a low temperature, below about 30 °C, so the food is flavoured and partly preserved but remains raw, as in smoked salmon.",
+     "Hot smoking cooks the food during smoking, giving a ready-to-eat product, as in smoked mackerel.",
+     "Smoking gives limited shelf life on its own, so smoked meat and fish are usually also salted or cured."
+    ]
+   },
+   {
+    "h": "Permitted chemical preservatives",
+    "points": [
+     "Sorbic acid (E200) and potassium sorbate (E202) inhibit moulds and yeasts in foods such as cheese and baked goods.",
+     "Benzoic acid (E210) and sodium benzoate (E211) inhibit yeasts, moulds and bacteria in acidic foods such as soft drinks and fruit products.",
+     "Sulphur dioxide (E220) and sulphites inhibit micro-organisms and prevent browning in products such as dried fruit and wine.",
+     "Sodium nitrite (E250) and sodium nitrate (E251) are used in cured meat; nitrite inhibits Clostridium botulinum and gives cured meat its pink colour.",
+     "Preservatives can cause sensitivity reactions in some people, which is why they must be named on the label."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Salt draws water out of the food and out of micro-organisms by osmosis, so the available water falls and micro-organisms cannot multiply. Salt also reduces the water available for enzyme action. It is applied by dry salting, where the food is packed in salt, or by brining, where the food is immersed in a strong salt solution. Nitrites may be added to cured meat to inhibit Clostridium botulinum.",
+    "prompt": "Explain how salt preserves meat and fish.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Sugar: at high concentration it preserves by osmosis, drawing water out of micro-organisms; it also gives sweetness and helps set jam. Disadvantages of sugar: high intake is linked to tooth decay and excess energy, and a low concentration does not preserve and can encourage yeasts. Vinegar: acetic acid lowers the pH, inhibiting most spoilage and food poisoning bacteria; it is used in chutneys and pickles and gives flavour and sharpness. Disadvantages of vinegar: its strong flavour may be unacceptable, and it changes the taste of the product. Used together in a cooked, sealed chutney, the two inhibit growth more effectively than either alone.",
+    "prompt": "Discuss the advantages and disadvantages of using sugar and vinegar as chemical preservatives in home-made preserves.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s6": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of carbohydrates, mainly sugars, by micro-organisms, producing new substances such as alcohol, acids and carbon dioxide.",
+    "term": "Fermentation"
+   },
+   {
+    "definition": "A known, pure strain of micro-organisms added in a measured amount to make a food in a controlled way.",
+    "term": "Starter culture"
+   },
+   {
+    "definition": "Fermentation carried out without oxygen, such as the alcoholic fermentation carried out by yeast.",
+    "term": "Anaerobic fermentation"
+   },
+   {
+    "definition": "The oxidation of ethanol to acetic acid by acetic acid bacteria, which needs oxygen and is the basis of vinegar making.",
+    "term": "Acetic acid fermentation"
+   },
+   {
+    "definition": "The conversion of sugars, such as lactose, into lactic acid by lactic acid bacteria.",
+    "term": "Lactic acid fermentation"
+   },
+   {
+    "definition": "An enzyme that coagulates milk into curds and whey in cheese making.",
+    "term": "Rennet"
+   },
+   {
+    "definition": "The solid, coagulated part of milk that is separated from the liquid whey in cheese making.",
+    "term": "Curd"
+   },
+   {
+    "definition": "A protein-rich food made from a fungus grown by fermentation, used as a meat substitute.",
+    "term": "Mycoprotein"
+   },
+   {
+    "definition": "Carbon dioxide, ethanol, lactic acid and acetic acid. Carbon dioxide raises bread and carbonates drinks; the acids give sour tastes and lower pH.",
+    "term": "Four by-products of fermentation"
+   },
+   {
+    "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus, which convert lactose into lactic acid.",
+    "term": "Two bacteria used as yoghurt starter cultures"
+   },
+   {
+    "definition": "Penicillium camemberti, which forms the white rind of Camembert-type cheese, and Penicillium roqueforti, which forms the blue veins of blue cheese.",
+    "term": "Two moulds used in cheese making"
+   },
+   {
+    "definition": "Yeast ferments sugar to ethanol; acetic acid bacteria then oxidise the ethanol to acetic acid in the presence of oxygen.",
+    "term": "Two stages of making vinegar"
+   },
+   {
+    "definition": "Bread, beer and wine. Carbon dioxide from yeast raises bread; ethanol gives beer and wine their alcohol content.",
+    "term": "Three products made by yeast fermentation"
+   },
+   {
+    "definition": "A suitable substrate containing fermentable sugar, a known starter culture, and a suitable temperature.",
+    "term": "Three conditions for controlled fermentation"
+   },
+   {
+    "definition": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂: glucose gives ethanol and carbon dioxide.",
+    "term": "Equation for alcoholic fermentation of glucose"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fermentation is the controlled breakdown of carbohydrates, mainly sugars, by micro-organisms, which produces new substances called by-products.",
+    "h": "What fermentation is (Higher Level only)",
+    "points": [
+     "The micro-organisms used are yeasts, bacteria and moulds, each carrying out a different type of fermentation.",
+     "Alcoholic fermentation: the yeast Saccharomyces cerevisiae converts glucose into ethanol and carbon dioxide in the absence of oxygen.",
+     "Chemical equation for alcoholic fermentation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.",
+     "Lactic acid fermentation: lactic acid bacteria such as Lactobacillus convert lactose or other sugars into lactic acid without oxygen.",
+     "Acetic acid fermentation: acetic acid bacteria such as Acetobacter oxidise ethanol into acetic acid, and this stage needs a supply of oxygen."
+    ]
+   },
+   {
+    "h": "By-products of fermentation (Higher Level only)",
+    "points": [
+     "Carbon dioxide is a gas that makes bread dough rise and gives drinks their fizz when it is retained in a sealed container.",
+     "Ethanol is the alcohol in beer, wine and spirits, and at high concentration it inhibits spoilage micro-organisms.",
+     "Lactic acid gives a sour taste to yoghurt, sauerkraut and cultured sour cream, and lowers the pH of the food.",
+     "Acetic acid gives vinegar its sharp taste and also lowers the pH, inhibiting spoilage micro-organisms.",
+     "Flavour compounds formed during fermentation give cheese, yoghurt and bread their distinctive flavours."
+    ]
+   },
+   {
+    "h": "Yeast fermentation in bread, beer and wine (Higher Level only)",
+    "points": [
+     "Bread: yeast ferments the sugars present in flour and dough, and the carbon dioxide is trapped in the gluten network, raising the dough.",
+     "Bread: the ethanol produced evaporates during baking, so little alcohol remains in the loaf.",
+     "Beer: yeast ferments sugars released from malted barley, and the carbon dioxide produced is kept in the sealed container to carbonate the beer.",
+     "Wine: yeast ferments the sugars in grape juice, and fermentation stops when the sugar is used up or the alcohol level becomes toxic to the yeast.",
+     "Yeast needs a supply of sugar, nutrients and a suitable temperature to grow and ferment."
+    ]
+   },
+   {
+    "h": "Bacterial and mould fermentation in dairy products (Higher Level only)",
+    "points": [
+     "Yoghurt: the starter cultures Lactobacillus bulgaricus and Streptococcus thermophilus convert lactose into lactic acid.",
+     "Yoghurt: the lactic acid lowers the pH of the milk, so the milk protein casein coagulates and thickens the product.",
+     "Cheese: starter bacteria produce lactic acid, and rennet, an enzyme, coagulates the milk into curds and whey.",
+     "Cheese ripening: enzymes and micro-organisms break down proteins and fats, developing the flavour and texture of the cheese.",
+     "Mould-ripened cheese: Penicillium camemberti forms the white rind of Camembert-type cheese, and Penicillium roqueforti forms the blue veins of blue cheese."
+    ]
+   },
+   {
+    "h": "Vinegar, sauerkraut and mycoprotein (Higher Level only)",
+    "points": [
+     "Vinegar is made in two stages: yeast ferments fruit or grain sugars into ethanol, then acetic acid bacteria oxidise the ethanol to acetic acid.",
+     "The acetic acid stage needs oxygen, so the liquid is left exposed to air.",
+     "Sauerkraut: shredded cabbage is salted, so lactic acid bacteria ferment its sugars while many spoilage organisms are inhibited.",
+     "Mycoprotein: the fungus Fusarium venenatum is grown by fermentation on a sugar-based medium in large vats and then processed into a meat substitute."
+    ]
+   },
+   {
+    "h": "Fermentation as a method of preservation (Higher Level only)",
+    "points": [
+     "Fermentation preserves food by producing acids, ethanol and carbon dioxide that lower the pH or inhibit spoilage micro-organisms.",
+     "Salt used in sauerkraut and other brined foods draws water out of micro-organisms by osmosis.",
+     "Fermented foods are not sterile; the controlled micro-organisms outcompete the spoilage organisms that would otherwise grow."
+    ]
+   },
+   {
+    "h": "Controlling fermentation (Higher Level only)",
+    "points": [
+     "Substrate: the food must contain fermentable sugar; barley is malted first to release maltose, which yeast can ferment.",
+     "Starter culture: a pure, known strain is added in a known amount to ensure the intended product forms.",
+     "Temperature: each micro-organism has an optimum temperature, and temperatures that are too high kill yeast.",
+     "Hygiene: equipment is cleaned and sterilised so that unwanted micro-organisms do not compete with the starter culture.",
+     "Timing: fermentation is stopped when the required acidity, alcohol level or flavour is reached, for example by chilling or pasteurising."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Yeast ferments the sugars in the flour and dough, producing carbon dioxide and ethanol. The carbon dioxide is trapped in the gluten network, so the dough rises. The ethanol evaporates during baking, leaving little alcohol in the loaf. The heat of the oven kills the yeast and sets the risen structure.",
+    "prompt": "Explain the role of yeast in the production of bread.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Types: yeasts carry out alcoholic fermentation in bread, beer and wine; lactic acid bacteria ferment milk for yoghurt and cheese and cabbage for sauerkraut; acetic acid bacteria oxidise ethanol to make vinegar; moulds such as Penicillium ripen blue and Camembert-type cheeses and Fusarium venenatum makes mycoprotein. Products: carbon dioxide raises or carbonates; ethanol gives alcohol and preserves; lactic and acetic acids give sour flavours, lower pH and preserve; flavour compounds develop in cheese and yoghurt. Conditions: a suitable substrate containing sugar or lactose; a pure starter culture in a known amount; an optimum temperature, since too much heat kills yeast; oxygen for acetic acid bacteria but not for yeast; clean equipment so that unwanted micro-organisms do not compete; and stopping the process at the required stage by chilling or pasteurising.",
+    "prompt": "Discuss the role of micro-organisms in fermented foods, referring to the types of micro-organism involved, the products formed and the conditions needed to control fermentation.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s7": {
+  "keyTerms": [
+   {
+    "definition": "Preservation by exposing food to ionising radiation, which destroys micro-organisms and pests without significant heating.",
+    "term": "Irradiation"
+   },
+   {
+    "definition": "High-energy radiation that can remove electrons from atoms and so damage the DNA of micro-organisms.",
+    "term": "Ionising radiation"
+   },
+   {
+    "definition": "Short-wave radiation from radioactive sources such as cobalt-60 or caesium-137, used to irradiate food.",
+    "term": "Gamma rays"
+   },
+   {
+    "definition": "The amount of radiation energy absorbed by the food, measured in grays, which is energy per kilogram.",
+    "term": "Dose"
+   },
+   {
+    "definition": "Another name for irradiation, because pathogens are destroyed with little heating of the food.",
+    "term": "Cold pasteurisation"
+   },
+   {
+    "definition": "A highly reactive molecule with an unpaired electron, which can form in irradiated food and react with other food components.",
+    "term": "Free radical"
+   },
+   {
+    "definition": "The development of stale, off-flavours in fats and oils through oxidation.",
+    "term": "Rancidity"
+   },
+   {
+    "definition": "The international symbol for irradiated food.",
+    "term": "Radura"
+   },
+   {
+    "definition": "Gamma rays (from cobalt-60 or caesium-137), X-rays and electron beams.",
+    "term": "Three sources of radiation used to irradiate food"
+   },
+   {
+    "definition": "It destroys food-poisoning bacteria and parasites, prolongs shelf life, prevents sprouting of potatoes and onions, and delays ripening of fruit.",
+    "term": "Four benefits of irradiating food"
+   },
+   {
+    "definition": "Vitamin C and B group vitamins can be lost, and fatty foods can become rancid.",
+    "term": "Two drawbacks of irradiating food"
+   },
+   {
+    "definition": "Potatoes and onions.",
+    "term": "Two vegetables irradiated to prevent sprouting"
+   },
+   {
+    "definition": "It delays ripening and controls moulds on soft fruit.",
+    "term": "Two effects of irradiation on fruit"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Irradiation exposes food to ionising radiation, which destroys micro-organisms and pests without heating the food noticeably.",
+    "h": "What irradiation is (Higher Level only)",
+    "points": [
+     "Sources: gamma rays from cobalt-60 or caesium-137, X-rays, or high-energy electron beams.",
+     "The food is passed past the source for a set time so that it receives a defined dose of radiation.",
+     "It is a cold process, so it is sometimes called cold pasteurisation.",
+     "Irradiated food does not become radioactive at the doses used for food."
+    ]
+   },
+   {
+    "h": "How irradiation destroys micro-organisms and pests (Higher Level only)",
+    "points": [
+     "Ionising radiation damages the DNA of micro-organisms, so they cannot reproduce.",
+     "It destroys food-poisoning bacteria such as Salmonella, and parasites in food.",
+     "It controls moulds on soft fruit, extending their shelf life.",
+     "It kills insects and their eggs in grain, spices and other dried foods.",
+     "Bacterial spores and some viruses are highly resistant and need very high doses."
+    ]
+   },
+   {
+    "h": "Effects on shelf life and ripening (Higher Level only)",
+    "points": [
+     "It extends the shelf life of fresh and frozen meat, poultry, fish and fruit.",
+     "It prevents sprouting in potatoes and onions, so they can be stored for longer.",
+     "It delays the ripening of fruit, extending its storage life.",
+     "It can be applied after food is sealed in its packaging, which prevents re-contamination.",
+     "It reduces the need for chemical preservatives."
+    ]
+   },
+   {
+    "h": "Effects on nutrients and food quality (Higher Level only)",
+    "points": [
+     "Vitamin C and the B group vitamins, such as thiamine, can be partly destroyed.",
+     "Colour, flavour and texture change very little at normal doses.",
+     "Free radicals and other reactive molecules can form in the food during irradiation.",
+     "Fatty foods can develop rancidity, a stale or off-flavour, through the oxidation of their fats."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages (Higher Level only)",
+    "points": [
+     "Advantage: no heat is applied, so heat-sensitive foods keep more of their quality than they would after canning.",
+     "Advantage: it destroys enzymes that cause ripening and spoilage, as well as micro-organisms.",
+     "Advantage: it leaves no chemical residues in the food.",
+     "Disadvantage: many consumers reject irradiated food, which limits its commercial use.",
+     "Disadvantage: specialised plant and radiation sources are expensive and need strict safety controls.",
+     "Disadvantage: some micro-organisms need very high doses, so the treatment is not effective against all of them."
+    ]
+   },
+   {
+    "h": "Regulation and labelling (Higher Level only)",
+    "points": [
+     "In the EU, irradiation is permitted only for specified foods.",
+     "Irradiated food sold in the EU must be labelled as irradiated.",
+     "The Radura is the international symbol for irradiated food.",
+     "Irradiated food sold in Ireland follows the same EU rules."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Vitamin losses: vitamin C and the B group vitamins such as thiamine are sensitive to radiation, which breaks down their chemical structure, so they are partly destroyed. Rancidity: radiation produces free radicals that start oxidation of fats, giving stale off-flavours in fatty foods.",
+    "prompt": "Describe two effects that irradiation has on the nutritional value or quality of food, and explain how each one occurs.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Advantages: it kills bacteria, moulds and insects in dried herbs and spices without heating them, so their aroma and colour change very little; it leaves no chemical residues; it can be applied after sealing, which prevents re-contamination; it reduces the need for chemical preservatives. Limitations: the plant and radiation sources are expensive and need strict safety controls, which favours large producers; spore-forming bacteria are resistant and need very high doses; some quality losses, such as rancidity in oily spices, can still occur. Consumer acceptance: many consumers are wary of irradiated food and may reject it, so the company must label the product as irradiated, display the Radura symbol and use only foods permitted under EU rules.",
+    "prompt": "Assess irradiation as a method of preserving dried herbs and spices for a food company, referring to its advantages, its limitations and consumer acceptance.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s8": {
+  "keyTerms": [
+   {
+    "definition": "A structured comparison of two or more preserved foods or methods against set criteria, leading to a judgement on suitability.",
+    "term": "Comparative evaluation"
+   },
+   {
+    "definition": "The features of food perceived by the senses, such as colour, flavour, aroma and texture.",
+    "term": "Sensory qualities"
+   },
+   {
+    "definition": "A vitamin that dissolves in water, such as vitamin C or a B vitamin, and is lost in cooking water or drained liquid.",
+    "term": "Water-soluble vitamin"
+   },
+   {
+    "definition": "A solution of salt in water used to preserve or pack food, which raises the sodium content of the food.",
+    "term": "Brine"
+   },
+   {
+    "definition": "Processing sealed jars in a pressure cooker at a temperature above boiling point, which is needed to destroy the spores in low-acid foods.",
+    "term": "Pressure canning"
+   },
+   {
+    "definition": "Drying, toughening and discolouration of frozen food caused by air reaching the surface through loose or damaged packaging.",
+    "term": "Freezer burn"
+   },
+   {
+    "definition": "A chemical reaction with oxygen that causes discolouration, loss of flavour and rancidity in food.",
+    "term": "Oxidation"
+   },
+   {
+    "definition": "Free from all living micro-organisms.",
+    "term": "Sterile"
+   },
+   {
+    "definition": "Vitamin C and thiamine (vitamin B1), both reduced by the high temperatures and long processing of canning.",
+    "term": "Two vitamins lost during canning"
+   },
+   {
+    "definition": "The texture becomes softer, and juice drains from the damaged cells on thawing.",
+    "term": "Two effects of ice-crystal damage on thawed fruit"
+   },
+   {
+    "definition": "Too little sugar, setting point not reached, unclean jars, and a failed seal.",
+    "term": "Four causes of jam spoilage"
+   },
+   {
+    "definition": "Pressure canning, because temperatures above boiling are needed to destroy the spores of Clostridium botulinum.",
+    "term": "Method needed to can low-acid vegetables safely"
+   },
+   {
+    "definition": "Judge which method is more suitable for the stated purpose, weighing advantages against disadvantages.",
+    "term": "What a comparative conclusion must do"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A comparative evaluation tests whether one preserved food is better than another, so the test must be fair and the criteria must be set in advance.",
+    "h": "Planning a comparative study (Higher Level only)",
+    "points": [
+     "Choose one food that can be preserved by two methods, such as strawberries frozen and strawberries made into jam.",
+     "Use sound, ripe fruit from the same batch for both methods, so differences come from the preservation method rather than the raw material.",
+     "Compare the same criteria for each method: nutritional value, sensory qualities, safety, storage life, time, energy and packaging.",
+     "State the underlying principle of each method and the risk of spoilage that each carries.",
+     "Conclude by judging which method suits the stated purpose, weighing its advantages against its disadvantages."
+    ]
+   },
+   {
+    "h": "Nutritional comparison: freezing and canning (Higher Level only)",
+    "points": [
+     "Freezing keeps more vitamin C than canning, because canning uses higher temperatures for longer.",
+     "Water-soluble vitamins, such as vitamin C and the B group, leach into blanching water and canning liquid, and are lost when the liquid is drained away.",
+     "Thiamine (vitamin B1) is heat-sensitive, so the high temperatures of canning destroy much of it.",
+     "Sample data for practice: vitamin C in peas was 25 mg when fresh, 17 mg after freezing and 8 mg after canning.",
+     "Sample data for practice: sodium in peas was 1 mg when fresh and 230 mg after canning, because salt is added during canning."
+    ]
+   },
+   {
+    "h": "Sensory and nutritional comparison: frozen strawberries and jam (Higher Level only)",
+    "points": [
+     "Frozen strawberries keep their colour and flavour closer to those of fresh fruit.",
+     "Thawed frozen strawberries are softer and release juice, because ice crystals have damaged the cell walls.",
+     "Jam is sweeter, darker from cooking, and firmer and spreadable in texture.",
+     "Jam loses some heat-sensitive vitamin C during boiling, whereas frozen fruit retains more.",
+     "Jam's high sugar content makes it unsuitable for people restricting their sugar intake."
+    ]
+   },
+   {
+    "h": "Risk of spoilage in each method (Higher Level only)",
+    "points": [
+     "Frozen fruit is not sterile: if the temperature fluctuates, partial thawing releases moisture, and surviving micro-organisms can grow.",
+     "Freezer burn occurs when air reaches the food through loose or damaged packs, causing drying, toughening and discolouration by oxidation.",
+     "Thawed fruit should be used promptly and never refrozen.",
+     "Jam spoils by fermentation or mould growth when the sugar is too low, setting point is not reached, jars are not clean, or the seal fails.",
+     "A bulging lid, gas, mould or an off-odour in a jar means the jam must be discarded."
+    ]
+   },
+   {
+    "h": "Energy, cost and environmental factors (Higher Level only)",
+    "points": [
+     "Freezing needs a continuous electricity supply and freezer space; jam needs no freezer but needs fuel for cooking.",
+     "Sealed jam keeps well without a freezer and has a long shelf life when stored in a cool, dark place.",
+     "Low-acid vegetables such as peas must be pressure canned, because boiling water does not destroy the spores of Clostridium botulinum.",
+     "Glass jars can be washed and reused or recycled; plastic freezer bags are usually made from non-renewable oil and are hard to recycle."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Vitamin C: canned vegetables lose more vitamin C than frozen ones, because canning uses high temperatures for longer, and the vitamin dissolves into the liquid that is drained away. Alternative answer: canned vegetables contain more sodium than frozen ones, because salt is added during canning.",
+    "prompt": "Name one nutritional difference between frozen and canned vegetables and explain the reason for it.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Food and methods: one fruit, such as strawberries, preserved by freezing and by jam making. Fair test: the same sound, ripe batch of fruit is used for both methods, and the same criteria are compared. Criteria: nutritional value (vitamin C loss in jam from boiling; retention in frozen fruit), sensory qualities (frozen fruit closer to fresh colour and flavour; jam sweeter, darker and firmer), safety, storage life, time, energy and packaging. Principles: freezing removes heat and makes water unavailable, with blanching only for vegetables; jam uses heat, a concentrated sugar solution by osmosis, pectin and acid, and a sealed jar. Spoilage risks: frozen fruit is not sterile and can spoil after partial thawing or fluctuating temperature, and freezer burn follows loose packs; jam can ferment or grow mould if sugar is too low, setting point is not reached, jars are unclean or the seal fails. Judgement: freezing suits fresh-tasting fruit for desserts and is the better choice where a freezer is available and the fruit is to be used soon after thawing; jam suits long storage without a freezer, though it has a high sugar content and more loss of fresh qualities. The judgement must state which method suits the stated purpose and why.",
+    "prompt": "Plan and evaluate a comparison between two preserved versions of the same food, covering the criteria you would use, how you would keep the test fair, the spoilage risks of each method and a final judgement.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-preservation-s9": {
+  "keyTerms": [
+   {
+    "definition": "Plunging vegetables into boiling water for a short time to inactivate enzymes before freezing, then cooling them quickly in ice-cold water.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "Freezing food in a single layer on a tray before packing, so the pieces do not stick together.",
+    "term": "Open freezing"
+   },
+   {
+    "definition": "The empty space left at the top of a container so that liquid can expand on freezing without breaking the container.",
+    "term": "Headspace"
+   },
+   {
+    "definition": "Using the freezer's fast-freeze setting to freeze food quickly so that small ice crystals form.",
+    "term": "Fast-freezing"
+   },
+   {
+    "definition": "A natural substance in fruit that forms a gel with sugar and acid to set jam.",
+    "term": "Pectin"
+   },
+   {
+    "definition": "The stage in boiling jam at which enough water has evaporated and the mixture forms a gel when cooled.",
+    "term": "Setting point"
+   },
+   {
+    "definition": "Removing the scum that rises to the surface of jam during boiling.",
+    "term": "Skimming"
+   },
+   {
+    "definition": "To destroy micro-organisms on equipment, such as jars and lids, by boiling or heating them.",
+    "term": "Sterilise"
+   },
+   {
+    "definition": "About -25°C, which freezes food quickly so that small ice crystals form.",
+    "term": "Temperature for fast-freezing food at home"
+   },
+   {
+    "definition": "-18°C or colder.",
+    "term": "Home freezer storage temperature"
+   },
+   {
+    "definition": "Boil them in water, cool them in ice-cold water for the same time, then drain and dry them.",
+    "term": "Three steps of blanching vegetables"
+   },
+   {
+    "definition": "Cool the food first; freeze no more than one-tenth of the freezer capacity in 24 hours; use airtight, labelled packaging with the air removed; allow room for liquids to expand.",
+    "term": "Four guidelines for freezing fresh food"
+   },
+   {
+    "definition": "The pieces stay separate, so they can be packed in usable portions, and they freeze quickly in a single layer.",
+    "term": "Two reasons for open-freezing strawberries"
+   },
+   {
+    "definition": "Fruit, sugar and an acid such as lemon juice.",
+    "term": "Three ingredients of jam"
+   },
+   {
+    "definition": "The cold saucer test and the sugar thermometer test.",
+    "term": "Two tests for setting point"
+   },
+   {
+    "definition": "Cooking apples, blackcurrants and citrus fruit.",
+    "term": "Fruits high in pectin"
+   },
+   {
+    "definition": "Bananas, lettuce, melons and pears.",
+    "term": "Foods that freeze poorly"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Home freezing works best with fresh, good-quality food that is frozen soon after it is harvested or bought.",
+    "h": "Home freezing: suitable foods",
+    "points": [
+     "Vegetables that freeze well include carrots, peas, beans and broccoli.",
+     "Fruit that freezes well includes apples and strawberries.",
+     "Meat and fish, baked foods, soups, sauces and complete meals can all be frozen at home.",
+     "Bananas and lettuce do not freeze well and are not suitable for home freezing.",
+     "Melons and pears also freeze poorly."
+    ]
+   },
+   {
+    "h": "Home freezing: preparing and blanching vegetables",
+    "points": [
+     "1. Wash the vegetables and prepare them by trimming, peeling and cutting them into even pieces.",
+     "2. Blanch by plunging the pieces into boiling water for the recommended time for that vegetable.",
+     "3. Cool quickly by transferring the pieces to ice-cold water for the same time as the blanching.",
+     "4. Drain thoroughly and dry the pieces on absorbent paper or a clean tea towel, so that surface water does not form ice."
+    ]
+   },
+   {
+    "h": "Home freezing: packing",
+    "points": [
+     "1. Cool cooked food completely before packing, because warm food raises the temperature of the freezer.",
+     "2. Open-freeze fruit such as strawberries by spreading them in a single layer on a tray, so the pieces do not stick together.",
+     "3. Pack the food in usable, family-sized portions in strong, moisture- and vapour-proof freezer bags or rigid containers.",
+     "4. Leave headspace in rigid containers, because liquids expand on freezing.",
+     "5. Remove the air from bags and seal them securely with ties or heat sealing.",
+     "6. Label each pack with its contents and the date."
+    ]
+   },
+   {
+    "h": "Home freezing: fast-freezing and storage",
+    "points": [
+     "Switch the freezer to its fast-freeze setting 3–4 hours before adding food.",
+     "Add no more than one-tenth of the freezer's capacity in any 24-hour period.",
+     "Place the packs against the sides or base of the freezer so that they freeze quickly.",
+     "Store the frozen food at -18°C or colder."
+    ]
+   },
+   {
+    "h": "Home freezing: safety",
+    "points": [
+     "Use knives, graters and food processors carefully, cutting away from the body and keeping fingers clear of the blades.",
+     "Wash hands before preparation, cover any cuts with a dressing, and tie back long hair.",
+     "Use oven gloves when handling the blanching pan, turn pan handles inward, and do not overfill the pan.",
+     "Avoid overloaded sockets, trailing flexes and wet hands near electrical appliances.",
+     "Keep raw and cooked foods separate during preparation and clean surfaces between tasks."
+    ]
+   },
+   {
+    "h": "Home jam making: suitable fruit and ingredients",
+    "points": [
+     "Use ripe, sound fruit that is free from mould and bruising.",
+     "Pectin is found mainly in the skin and core of fruit; cooking apples, blackcurrants and citrus fruit are high in pectin.",
+     "Strawberries are low in pectin, so lemon juice or another acid is added to help the jam set.",
+     "The sugar is measured in the correct proportion for the fruit and warmed, then stirred in until fully dissolved before the mixture is boiled."
+    ]
+   },
+   {
+    "h": "Home jam making: method",
+    "points": [
+     "1. Wash the jars and lids, sterilise them, and keep them hot until filling.",
+     "2. Wash the fruit, remove stalks and damaged parts, and cut the fruit as the recipe requires.",
+     "3. Simmer the fruit gently in a heavy-based pan until it softens and releases its pectin.",
+     "4. Add the warmed sugar and stir until it has completely dissolved.",
+     "5. Boil the mixture rapidly until setting point is reached.",
+     "6. Test for setting point with a cold saucer, pushing a drop of jam with a finger to see if it wrinkles, or with a sugar thermometer.",
+     "7. Skim off the scum from the surface, then pour the jam into the hot jars and leave a small space at the top."
+    ]
+   },
+   {
+    "h": "Home jam making: packaging and storage",
+    "points": [
+     "Use clean, undamaged glass jars with new lids, and wipe the rim of each jar before sealing.",
+     "Seal each jar immediately while the jam is hot, so that a vacuum forms as it cools.",
+     "Label each jar with the contents and the date.",
+     "Store sealed jars in a cool, dry, dark place, and refrigerate any jar once it has been opened."
+    ]
+   },
+   {
+    "h": "Home jam making: safety",
+    "points": [
+     "Hot sugar syrup can cause severe scalds, so handle the pan with oven gloves and pour carefully.",
+     "Do not overfill the pan, as the mixture foams up and boils over when it is at a rolling boil.",
+     "Keep children and pets away from the cooker while the jam is boiling.",
+     "Remove scum with a clean, dry spoon, because a wet or used spoon can introduce micro-organisms into the jam."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Blanching heats the vegetables in boiling water to inactivate enzymes, which would otherwise cause loss of colour, flavour, texture and nutrients during frozen storage. Plunging them into ice-cold water for the same time stops the cooking, so the vegetables stay firm and do not become overcooked. Drying them removes surface water, which would otherwise form ice and encourage the growth of micro-organisms.",
+    "prompt": "Explain why vegetables are blanched and then plunged into ice-cold water before they are packed for the freezer.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Ingredients: ripe, sound fruit; for a low-pectin fruit such as strawberries, lemon juice or another acid is added; sugar in the correct proportion. Preparation: wash and sterilise jars and lids and keep them hot; wash and prepare the fruit. Cooking: simmer the fruit gently in a heavy-based pan to soften it and release pectin; add the warmed sugar and stir until dissolved; boil rapidly to setting point, tested with a cold saucer or sugar thermometer. Safety: use oven gloves, turn pan handles inward, do not overfill the pan, keep children away from the cooker and handle hot syrup carefully. Finishing: skim the scum with a clean, dry spoon, pour into hot jars leaving a small space at the top, wipe the rim, and seal immediately so a vacuum forms as the jar cools. Storage: label with contents and date and store in a cool, dry, dark place; refrigerate once opened and discard any jar with a bulging lid, gas, mould or off-odour.",
+    "prompt": "Describe a home-made preserve from fruit, from choosing the ingredients to storing the finished product, with the safety precautions at each stage.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-fruit-vegetables-s1": {
   "keyTerms": [
    {
@@ -3316,6 +8508,2231 @@
     "marks": 20,
     "model": "Freezing: blanching denatures enzymes; slow freezing forms large ice crystals that damage cell walls and cause drip loss; some vitamin C and B vitamins are lost in blanching water and drip; colour and flavour are well retained; long shelf life in a freezer. Canning: heat sterilisation destroys micro-organisms and enzymes, giving a long shelf life without refrigeration; water-soluble vitamins are lost, colour, texture and flavour change, and sodium rises from brine. Drying: removing water prevents micro-organisms and enzyme activity; dried fruit is concentrated in sugar and energy and fibre; B vitamins, vitamin A and vitamin E may be reduced; texture and flavour change. Additives: colourings in the E100 to E180 range restore colour, preservatives such as sulphur dioxide (E220) prevent spoilage, antioxidants such as ascorbic acid (E300) prevent browning, and flavourings and sweeteners are added and declared on the label; additives are approved under Regulation (EC) No 1333/2008.",
     "prompt": "Compare freezing, canning and drying as methods of processing vegetables, referring to nutritive value, texture, flavour and shelf life, and describe how additives are used in processed fruit and vegetables.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s1": {
+  "keyTerms": [
+   {
+    "definition": "A fatty acid with no double bonds between its carbon atoms, usually solid at room temperature.",
+    "term": "Saturated fatty acid"
+   },
+   {
+    "definition": "A fatty acid with one double bond in its carbon chain.",
+    "term": "Monounsaturated fatty acid"
+   },
+   {
+    "definition": "A fatty acid with two or more double bonds in its carbon chain.",
+    "term": "Polyunsaturated fatty acid"
+   },
+   {
+    "definition": "A polyunsaturated fatty acid that the body cannot make, so it must be obtained from food.",
+    "term": "Essential fatty acid"
+   },
+   {
+    "definition": "An unsaturated fatty acid whose hydrogen atoms at a double bond lie on the same side of the chain.",
+    "term": "Cis fatty acid"
+   },
+   {
+    "definition": "An unsaturated fatty acid whose hydrogen atoms at a double bond lie on opposite sides of the chain.",
+    "term": "Trans fatty acid"
+   },
+   {
+    "definition": "A polyunsaturated fatty acid with its first double bond between the third and fourth carbon atoms counted from the methyl end.",
+    "term": "Omega-3 fatty acid"
+   },
+   {
+    "definition": "The –COOH group at one end of a fatty acid chain, which reacts with glycerol to form a lipid.",
+    "term": "Carboxyl group"
+   },
+   {
+    "definition": "Low-density lipoprotein, which carries cholesterol through the blood and can deposit it on artery walls.",
+    "term": "LDL"
+   },
+   {
+    "definition": "High-density lipoprotein, which removes cholesterol from the blood and carries it to the liver.",
+    "term": "HDL"
+   },
+   {
+    "definition": "Saturated (no double bonds), monounsaturated (one double bond) and polyunsaturated (more than one double bond).",
+    "term": "Three classes of fatty acid, by double bonds"
+   },
+   {
+    "definition": "Linoleic acid (omega-6) and linolenic acid (omega-3).",
+    "term": "Two essential fatty acids most often named"
+   },
+   {
+    "definition": "Supporting growth, forming part of cell membranes, and forming prostaglandins, which regulate blood clotting, blood pressure and inflammation.",
+    "term": "Three functions of essential fatty acids"
+   },
+   {
+    "definition": "Reducing the risk of heart attack, reducing the risk of stroke, reducing the formation of blood clots and supporting healthy brain activity.",
+    "term": "Four effects of omega-3 fatty acids in the diet"
+   },
+   {
+    "definition": "They raise LDL cholesterol and lower HDL cholesterol.",
+    "term": "Effect of trans fatty acids on blood cholesterol"
+   },
+   {
+    "definition": "Between the third and fourth carbon atoms counted from the methyl end.",
+    "term": "Carbon position of the first double bond in omega-3s"
+   },
+   {
+    "definition": "Salmon, mackerel, herring, sardines and trout.",
+    "term": "Oily fish rich in omega-3"
+   },
+   {
+    "definition": "Walnuts, flaxseed (linseed), soya beans and rapeseed (canola) oil.",
+    "term": "Plant sources of omega-3"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fatty acids are the building blocks of lipids. They are classified by the number of double bonds between carbon atoms in the chain.",
+    "h": "Classification of fatty acids",
+    "points": [
+     "A fatty acid is a long chain of carbon atoms with a carboxyl group (–COOH) at one end and a methyl group (–CH₃) at the other.",
+     "Saturated fatty acids have no double bonds between carbon atoms; every carbon carries its full quota of hydrogen atoms.",
+     "Monounsaturated fatty acids have one double bond in the carbon chain.",
+     "Polyunsaturated fatty acids have two or more double bonds in the carbon chain.",
+     "Saturated fats are generally solid at room temperature; monounsaturated and polyunsaturated fats are generally liquid oils.",
+     "Examples: stearic acid is saturated, oleic acid is monounsaturated and linoleic acid is polyunsaturated."
+    ]
+   },
+   {
+    "h": "Structure of fatty acids (Higher Level only)",
+    "points": [
+     "Saturated fatty acids contain only single C–C bonds, so the chain is flexible and packs tightly, making the fat solid.",
+     "Each C=C double bond in an unsaturated fatty acid creates a bend in the chain, so the molecules pack less tightly and the fat stays liquid.",
+     "A polyunsaturated fatty acid has more than one bend in its chain for every double bond it contains.",
+     "Omega-3 fatty acids are polyunsaturated, with the first double bond between the third and fourth carbon atoms counted from the methyl end.",
+     "Diagram: a labelled chain showing the carboxyl end, the methyl end and the position of the double bonds in a saturated, a monounsaturated and a polyunsaturated fatty acid."
+    ]
+   },
+   {
+    "h": "Cis and trans fatty acids (Higher Level only)",
+    "points": [
+     "In a cis fatty acid the hydrogen atoms on either side of the double bond lie on the same side of the carbon chain, so the chain bends.",
+     "In a trans fatty acid the hydrogen atoms on either side of the double bond lie on opposite sides, so the chain stays nearly straight, like a saturated fatty acid.",
+     "Most naturally occurring unsaturated fatty acids are cis.",
+     "Trans fatty acids form during partial hydrogenation of oils, and cis fatty acids can be converted to trans fatty acids during high-temperature cooking and processing.",
+     "Foods rich in trans fatty acids include hard margarines, some shortenings and fat that has been used repeatedly in a deep-fat fryer."
+    ]
+   },
+   {
+    "h": "Essential fatty acids",
+    "points": [
+     "Essential fatty acids are polyunsaturated fatty acids that the body cannot manufacture, so they must be obtained from food.",
+     "Linoleic acid (an omega-6 fatty acid) and linolenic acid (an omega-3 fatty acid) are the two essential fatty acids most often named.",
+     "Arachidonic acid is also counted as essential, because the body forms it only from linoleic acid.",
+     "Essential fatty acids are needed for growth and for the structure of cell membranes.",
+     "The body uses essential fatty acids to make prostaglandins, hormone-like compounds that regulate blood clotting, blood pressure and inflammation."
+    ]
+   },
+   {
+    "h": "Omega-3 fatty acids: function and sources",
+    "points": [
+     "Omega-3 fatty acids help reduce the risk of heart attack, stroke, circulatory disease and the formation of blood clots.",
+     "Omega-3 fatty acids are linked with healthy brain activity and with a reduced risk of certain cancers.",
+     "Oily fish are the main animal source: salmon, mackerel, herring, sardines and trout.",
+     "Plant sources include walnuts, flaxseed (linseed), soya beans and rapeseed (canola) oil.",
+     "Some eggs and milk are enriched with omega-3 by changing the diet of the hens or cows."
+    ]
+   },
+   {
+    "b": "The type of fatty acid in the diet affects the amount of cholesterol carried in the blood.",
+    "h": "Significance of fatty acids in the diet",
+    "points": [
+     "LDL (low-density lipoprotein) carries cholesterol through the blood and can deposit it on artery walls, where it narrows the arteries.",
+     "HDL (high-density lipoprotein) removes cholesterol from the circulation and carries it to the liver.",
+     "Saturated fatty acids raise LDL cholesterol, increasing the risk of coronary heart disease (CHD).",
+     "Unsaturated cis fatty acids reduce LDL cholesterol and help to raise HDL cholesterol.",
+     "Trans fatty acids raise LDL cholesterol and lower HDL cholesterol, increasing the risk of CHD.",
+     "Monounsaturated and polyunsaturated fats can lower total cholesterol when they replace saturated fats in the diet."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Saturated fatty acid: no double bonds between carbon atoms, so each carbon holds its full quota of hydrogen; a flexible chain that packs tightly and is solid at room temperature. Monounsaturated fatty acid: one double bond, which bends the chain so it packs less tightly and is liquid at room temperature. Food rich in saturated fat: butter, lard or the fat in meat. Food rich in monounsaturated fat: olive oil or avocado. Award one mark for each correct point, up to 6.",
+    "prompt": "Compare the structure of a saturated fatty acid with that of a monounsaturated fatty acid, and name one food rich in each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Saturated fatty acids raise LDL cholesterol, which carries cholesterol into artery walls and narrows the arteries, increasing the risk of coronary heart disease. Trans fatty acids raise LDL and lower HDL, adding to the risk. Cis monounsaturated and polyunsaturated fatty acids reduce LDL and help to raise HDL, which removes cholesterol from the circulation and carries it to the liver. Essential fatty acids, linoleic and linolenic acid (with arachidonic acid), cannot be manufactured by the body, so they must be supplied by food. They are needed for growth, cell membranes and prostaglandins, which regulate blood clotting, blood pressure and inflammation. Omega-3 fatty acids reduce the risk of heart attack, stroke and clots, and are linked with healthy brain activity. The structure of cis and trans fatty acids and food sources of omega-3, such as oily fish, walnuts and flaxseed, may also be included.",
+    "prompt": "Explain how the different types of fatty acid in the diet affect the cholesterol carried in the blood, and explain why some fatty acids must be eaten because the body cannot make them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s2": {
+  "keyTerms": [
+   {
+    "definition": "A lipid formed from one glycerol molecule joined to three fatty acid molecules.",
+    "term": "Triglyceride"
+   },
+   {
+    "definition": "A three-carbon alcohol with three hydroxyl groups, which combines with fatty acids to form a triglyceride.",
+    "term": "Glycerol"
+   },
+   {
+    "definition": "The –OH group on glycerol that reacts with the carboxyl group of a fatty acid.",
+    "term": "Hydroxyl group"
+   },
+   {
+    "definition": "The –COO– link formed between glycerol and a fatty acid when a triglyceride is made.",
+    "term": "Ester bond"
+   },
+   {
+    "definition": "A reaction in which two molecules join and a small molecule, such as water, is removed.",
+    "term": "Condensation reaction"
+   },
+   {
+    "definition": "The type of fatty acid, saturated, monounsaturated or polyunsaturated, that makes up the largest proportion of a lipid.",
+    "term": "Predominant fatty acid"
+   },
+   {
+    "definition": "A lipid obtained from land animals, such as butter, lard, suet and dripping.",
+    "term": "Animal fat"
+   },
+   {
+    "definition": "A lipid obtained from seeds, nuts or fruits of plants, usually liquid at room temperature.",
+    "term": "Vegetable oil"
+   },
+   {
+    "definition": "A lipid obtained from fish or other sea creatures, such as the oil in oily fish.",
+    "term": "Marine lipid"
+   },
+   {
+    "definition": "Carbon, hydrogen and oxygen.",
+    "term": "Three elements in a lipid"
+   },
+   {
+    "definition": "One glycerol molecule and three fatty acid molecules.",
+    "term": "Components of one triglyceride"
+   },
+   {
+    "definition": "Three.",
+    "term": "Water molecules removed when a triglyceride forms"
+   },
+   {
+    "definition": "Animal, vegetable (plant) and marine.",
+    "term": "Three sources of lipids"
+   },
+   {
+    "definition": "Palm oil or coconut oil.",
+    "term": "Example of a saturated vegetable fat"
+   },
+   {
+    "definition": "Oily fish, such as mackerel, herring or sardines, and fish-liver oil such as cod-liver oil.",
+    "term": "Example of a marine lipid"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Most fats and oils in food are triglycerides: one glycerol molecule combined with three fatty acid molecules.",
+    "h": "Chemical composition of a triglyceride (Higher Level only)",
+    "points": [
+     "Lipids are composed of carbon (C), hydrogen (H) and oxygen (O) atoms only; they contain no nitrogen.",
+     "Glycerol is an alcohol, with the formula C₃H₈O₃, and carries three hydroxyl (–OH) groups, one on each carbon atom.",
+     "The three fatty acids in one triglyceride can be the same or different.",
+     "The carboxyl group of each fatty acid joins to one hydroxyl group of glycerol, forming an ester bond (–COO–)."
+    ]
+   },
+   {
+    "h": "Molecular structure of a triglyceride (Higher Level only)",
+    "points": [
+     "Each ester bond forms by condensation, in which one molecule of water (H₂O) is eliminated.",
+     "Three water molecules are removed when one glycerol and three fatty acids combine to form one triglyceride.",
+     "A triglyceride is therefore a glycerol backbone with three fatty acid chains hanging from it.",
+     "Diagram: a glycerol backbone with three fatty acid chains attached by ester (–COO–) links, marking the three water molecules released during formation."
+    ]
+   },
+   {
+    "h": "Classifying lipids by source",
+    "points": [
+     "Animal fats come from land animals, for example butter, lard, suet, dripping, cheese and the fat in meat.",
+     "Vegetable (plant) oils come from seeds, nuts and fruits, for example olive, sunflower, corn, soya and rapeseed oils, and avocado oil.",
+     "Marine lipids come from fish and other sea creatures, for example the oil in oily fish such as mackerel, herring and sardines, and fish-liver oils such as cod-liver oil.",
+     "Palm oil and coconut oil come from plants but are high in saturated fat, so they behave like animal fats in the diet."
+    ]
+   },
+   {
+    "h": "Classifying lipids by fatty acid content",
+    "points": [
+     "A lipid is classed as saturated, monounsaturated or polyunsaturated according to which type of fatty acid makes up the largest proportion of its fatty acids.",
+     "Olive oil is classed as monounsaturated because most of its fatty acids have one double bond.",
+     "Sunflower and corn oils are classed as polyunsaturated because most of their fatty acids have more than one double bond.",
+     "Butter and lard are classed as saturated because saturated fatty acids form the largest proportion of their fatty acids.",
+     "Most fats contain a mixture of all three fatty acid types, so classification depends on the predominant type."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "One glycerol molecule and three fatty acid molecules. Each carboxyl group of a fatty acid reacts with a hydroxyl group of glycerol, forming an ester bond (–COO–). Each bond forms by condensation, eliminating one molecule of water, so three water molecules are removed in total. Award one mark for each correct point, up to 6.",
+    "prompt": "Name the molecules that combine to form a triglyceride, and describe how the bonds between them form.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "By source: animal fats from land animals, for example butter or lard; vegetable oils from seeds, nuts and fruits, for example olive or sunflower oil; marine lipids from fish, for example oily fish or cod-liver oil. Palm and coconut oil, though plant-derived, are high in saturated fat. By fatty acid content: a lipid is saturated, monounsaturated or polyunsaturated according to the predominant fatty acid type, for example butter is saturated, olive oil is monounsaturated and sunflower oil is polyunsaturated. Most fats are mixtures, so the predominant type is the one that determines the classification. A labelled diagram of the triglyceride structure may also be included.",
+    "prompt": "Explain how lipids are classified according to their source and according to the fatty acids they contain, giving one example in each category.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s3": {
+  "keyTerms": [
+   {
+    "definition": "Rendered pig fat, used in pastry and frying.",
+    "term": "Lard"
+   },
+   {
+    "definition": "The hard fat found around the kidneys and loins of cattle and sheep, used in suet pastry and puddings.",
+    "term": "Suet"
+   },
+   {
+    "definition": "Fat collected from roasted meat, used for frying and roasting.",
+    "term": "Dripping"
+   },
+   {
+    "definition": "Heating animal fat tissue so that the fat melts and separates from the tissue.",
+    "term": "Rendering"
+   },
+   {
+    "definition": "Fish with a high oil content in its flesh and liver, such as mackerel, herring and sardines.",
+    "term": "Oily fish"
+   },
+   {
+    "definition": "Oil extracted from fish livers, such as cod-liver oil, rich in polyunsaturated fat and vitamins A and D.",
+    "term": "Fish-liver oil"
+   },
+   {
+    "definition": "The embryo of the wheat grain, which contains a small amount of lipid.",
+    "term": "Wheat germ"
+   },
+   {
+    "definition": "The yolk. The white contains no fat.",
+    "term": "Part of an egg that contains fat"
+   },
+   {
+    "definition": "Olives or olive oil, avocados, nuts and nut oils, and soya beans.",
+    "term": "Four vegetable sources of lipids"
+   },
+   {
+    "definition": "Butter, lard and the fat in meat such as bacon.",
+    "term": "Three animal sources of high saturated fat"
+   },
+   {
+    "definition": "Predominantly saturated.",
+    "term": "Coconut oil fat type"
+   },
+   {
+    "definition": "The germ.",
+    "term": "Part of the wheat grain that contains lipid"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Animal sources of lipids",
+    "points": [
+     "Meat fat, such as the fat on bacon, the fat trimmed from beef and the fat in sausages, is a major source of lipid in meat products.",
+     "Butter, cream, whole milk and cheese supply fat together with the fat-soluble vitamin A.",
+     "Egg yolk contains fat and lecithin; the egg white contains no fat.",
+     "Lard is rendered pig fat used in pastry and frying.",
+     "Suet is the hard fat from around the kidneys and loins of cattle and sheep, used in suet pastry and puddings.",
+     "Dripping is the fat that collects from roasted meat, used for frying and roasting."
+    ]
+   },
+   {
+    "h": "Vegetable sources of lipids",
+    "points": [
+     "Olive oil and olives are vegetable sources of lipid.",
+     "Avocados are a fruit that supplies lipid.",
+     "Sunflower, corn, soya and sesame oils are common vegetable oils.",
+     "Nuts such as almonds, hazelnuts and walnuts are a concentrated source of lipid.",
+     "Wheat germ and oats contain small amounts of lipid, with wheat germ being the embryo of the wheat grain.",
+     "Margarine and vegetable spreads are made from processed plant oils."
+    ]
+   },
+   {
+    "h": "Marine sources of lipids",
+    "points": [
+     "Oily fish such as mackerel, herring, sardines, salmon and trout are a marine source of omega-3 fatty acids.",
+     "Fish-liver oils, such as cod-liver oil, provide polyunsaturated fat along with the fat-soluble vitamins A and D.",
+     "Shellfish, such as prawns and mussels, contain only small amounts of lipid."
+    ]
+   },
+   {
+    "h": "Distribution of saturated, monounsaturated and polyunsaturated fat in food (Higher Level only)",
+    "points": [
+     "Animal fats such as butter, lard and dripping are mostly saturated.",
+     "Coconut oil and palm oil are high in saturated fat despite coming from plants.",
+     "Olive oil, avocado and rapeseed (canola) oil are mostly monounsaturated.",
+     "Sunflower, corn and soya oils are mostly polyunsaturated.",
+     "Oily fish is high in polyunsaturated fat, including omega-3.",
+     "Most foods contain all three fatty acid types, so butter, for example, contains a substantial share of monounsaturated fat as well as saturated fat."
+    ]
+   },
+   {
+    "h": "Activity: poster of lipid sources",
+    "points": [
+     "Group the sources into three columns headed animal, vegetable (plant) and marine.",
+     "Give one example food for each column and the type of fatty acid that predominates in it.",
+     "Add the main health message for each food, such as the role of omega-3 in oily fish or the saturated fat in butter.",
+     "Show the source of each food with a small picture or label so the groups are clear at a glance."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Animal: butter, with saturated fatty acids as the main type. Vegetable: olive oil, with monounsaturated fatty acids as the main type. Marine: oily fish such as mackerel, with polyunsaturated fatty acids as the main type, including omega-3. Award one mark for each correct food and one for each correct fatty acid type, up to 6.",
+    "prompt": "Name one lipid-rich food from each of the three source groups, animal, vegetable and marine, and state the main type of fatty acid in each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Animal sources such as butter, lard, dripping and the fat in meat are mainly saturated. Vegetable sources such as olive oil and avocado are mainly monounsaturated; sunflower, corn and soya oils are mainly polyunsaturated. Marine sources such as oily fish are high in polyunsaturated fat, including omega-3. Coconut and palm oils come from plants but are high in saturated fat. To lower saturated fat, a household can replace butter, lard and fatty meat with vegetable oils, low-saturate spreads and oily fish, use lean cuts of meat and trim visible fat, and read labels to compare the saturated fat content of similar products.",
+    "prompt": "Sort a range of lipid-rich foods into animal, vegetable and marine sources, state which fatty acid type predominates in each, and explain which choices a household could make to lower its intake of saturated fat.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s4": {
+  "keyTerms": [
+   {
+    "definition": "The temperature at which a solid fat becomes liquid when heated.",
+    "term": "Melting point"
+   },
+   {
+    "definition": "The temperature at which a lipid begins to decompose and give off a continuous blue haze.",
+    "term": "Smoke point"
+   },
+   {
+    "definition": "The temperature at which the vapour from an overheated lipid ignites spontaneously.",
+    "term": "Flash point"
+   },
+   {
+    "definition": "A dispersion of one liquid in another, such as oil in water, that would not normally mix.",
+    "term": "Emulsion"
+   },
+   {
+    "definition": "A substance with a water-attracting end and a water-repelling end that coats droplets and keeps an emulsion stable.",
+    "term": "Emulsifying agent"
+   },
+   {
+    "definition": "A substance, such as starch or a gum, that thickens the water phase and prevents emulsion droplets joining together.",
+    "term": "Stabiliser"
+   },
+   {
+    "definition": "The ability of a fat to be shaped and spread at room temperature while remaining firm.",
+    "term": "Plasticity"
+   },
+   {
+    "definition": "The addition of hydrogen to the double bonds of unsaturated fatty acids using a nickel catalyst.",
+    "term": "Hydrogenation"
+   },
+   {
+    "definition": "Spoilage of a fat caused by oxygen reacting with the double bonds of unsaturated fatty acids.",
+    "term": "Oxidative rancidity"
+   },
+   {
+    "definition": "Spoilage of a fat caused by lipase and water breaking it into fatty acids and glycerol.",
+    "term": "Hydrolytic rancidity"
+   },
+   {
+    "definition": "A substance that slows oxidative rancidity by reacting with oxygen before it attacks a fat.",
+    "term": "Antioxidant"
+   },
+   {
+    "definition": "About 200 °C for solid fats and about 250 °C for oils.",
+    "term": "Approximate smoke points of fats and oils"
+   },
+   {
+    "definition": "About 310 °C for solid fats and about 325 °C for oils.",
+    "term": "Approximate flash points of fats and oils"
+   },
+   {
+    "definition": "Impurities, food particles and free fatty acids, all of which build up when oil is used repeatedly.",
+    "term": "Three factors that lower the smoke point of a fat"
+   },
+   {
+    "definition": "Oxidative (caused by oxygen) and hydrolytic (caused by water and lipase).",
+    "term": "Two kinds of spoilage in fats"
+   },
+   {
+    "definition": "Mayonnaise and hollandaise sauce.",
+    "term": "Two foods that are permanent emulsions"
+   },
+   {
+    "definition": "French dressing.",
+    "term": "Temporary emulsion example"
+   },
+   {
+    "definition": "Lecithin in egg yolk and mustard.",
+    "term": "Two natural emulsifiers in common foods"
+   },
+   {
+    "definition": "BHA (butylated hydroxyanisole) and BHT (butylated hydroxytoluene).",
+    "term": "Synthetic antioxidants used in fats"
+   }
+  ],
+  "notes": [
+   {
+    "b": "These three temperatures describe how a fat behaves on heating, which determines its use in cooking.",
+    "h": "Melting, smoke and flash points",
+    "points": [
+     "Melting point: solid fats melt when heated to about 30–40 °C; oils are already liquid at room temperature.",
+     "Fats with a higher proportion of unsaturated fatty acids have lower melting points.",
+     "Smoke point: the temperature at which a lipid begins to decompose and give off a continuous blue haze.",
+     "Smoke points are about 200 °C for solid fats and about 250 °C for oils.",
+     "On decomposition, glycerol and fatty acids separate, and acrolein, which has an acrid smell, is released.",
+     "Free fatty acids, impurities and food particles left in oil lower its smoke point, and repeated use builds these up.",
+     "Flash point: the temperature at which the vapour from an overheated lipid ignites spontaneously.",
+     "Flash points are about 310 °C for solid fats and about 325 °C for oils.",
+     "A fat that reaches its flash point is a serious fire hazard."
+    ]
+   },
+   {
+    "b": "An emulsion is a dispersion of two liquids that do not mix normally, such as oil and water.",
+    "h": "Formation of emulsions",
+    "points": [
+     "Vigorous shaking, whisking or blending breaks one liquid into droplets that spread through the other.",
+     "A temporary emulsion, such as French dressing, separates again on standing.",
+     "A permanent emulsion, such as mayonnaise, stays stable because an emulsifying agent coats the droplets.",
+     "An emulsifier has a hydrophilic (water-attracting) end and a hydrophobic (water-repelling) end, which sit at the boundary between oil and water.",
+     "Oil-in-water emulsions have oil droplets dispersed in water, as in mayonnaise.",
+     "Water-in-oil emulsions have water droplets dispersed in fat, as in butter and some spreads."
+    ]
+   },
+   {
+    "h": "Emulsifying agents and stabilisers (Higher Level only)",
+    "points": [
+     "Emulsifying agents include lecithin (found in egg yolk and soya), mustard, and mono- and diglycerides such as glycerol monostearate (GMS).",
+     "Stabilisers do not form the emulsion; they thicken the water phase and stop droplets joining together.",
+     "Examples of stabilisers are starch and gums such as xanthan gum."
+    ]
+   },
+   {
+    "h": "Plasticity and hydrogenation (Higher Level only)",
+    "points": [
+     "Plasticity is the ability of a fat to be shaped and spread at room temperature while remaining firm.",
+     "Plasticity depends on the proportion of saturated fatty acids; a fat with a high proportion of unsaturated fatty acids is too soft to hold its shape.",
+     "Plastic fats are valued in pastry and cake making because they can be creamed or rubbed into flour.",
+     "Hydrogenation adds hydrogen to the double bonds of unsaturated fatty acids in the presence of a nickel catalyst.",
+     "Hydrogenation converts liquid oils into semi-solid or solid fats, and is used to make hard margarines and shortenings."
+    ]
+   },
+   {
+    "b": "Rancidity is the spoilage of fats and oils, which gives them an unpleasant taste and smell.",
+    "h": "Rancidity (Higher Level only)",
+    "points": [
+     "Oxidative rancidity: oxygen from the air reacts with the double bonds of unsaturated fatty acids.",
+     "Oxidative rancidity produces aldehydes and ketones, which cause the rancid smell.",
+     "Light, heat and metal ions speed up oxidative rancidity.",
+     "Hydrolytic rancidity: water, together with lipase from the food or from micro-organisms, breaks fats down into fatty acids and glycerol.",
+     "Hydrolytic rancidity can occur in a freezer where enzymes were not destroyed before freezing; blanching vegetables destroys these enzymes.",
+     "Fats are protected from rancidity when stored in airtight containers in a cool, dark place."
+    ]
+   },
+   {
+    "h": "Antioxidants (Higher Level only)",
+    "points": [
+     "Antioxidants slow oxidative rancidity by reacting with oxygen or free radicals before they attack the double bonds.",
+     "Vitamin E (tocopherols) is a natural antioxidant present in some vegetable oils.",
+     "Synthetic antioxidants added to fats include butylated hydroxyanisole (BHA) and butylated hydroxytoluene (BHT).",
+     "Antioxidants are added to margarines and oils to extend their shelf life."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Smoke point: the temperature at which a fat begins to decompose and give off a continuous blue haze. Flash point: the higher temperature at which the vapour from the overheated fat ignites spontaneously. A fat with a low smoke point starts to decompose at a lower temperature during frying, producing acrid smoke and acrolein, giving a poor flavour and a fire risk. Award one mark for each correct point, up to 6.",
+    "prompt": "Explain what is meant by the smoke point and the flash point of a fat, and state why a fat with a low smoke point is less suitable for deep-fat frying.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Immiscible oil and water are forced together by vigorous shaking, whisking or blending, which breaks one liquid into droplets dispersed through the other. An emulsifying agent has a water-attracting end and a water-repelling end, so it sits at the boundary between oil and water and coats the droplets, preventing them from joining together. Lecithin in egg yolk and mustard are examples of emulsifying agents. Stabilisers such as starch or gums thicken the water phase, slowing the movement of droplets and keeping the emulsion stable. A permanent emulsion is mayonnaise, an oil-in-water emulsion held together by egg yolk lecithin. A temporary emulsion is French dressing, which separates on standing and must be shaken before use. A labelled diagram showing an emulsifier at the oil-water boundary may also be included.",
+    "prompt": "Describe how an emulsion forms, and discuss the roles of emulsifying agents and stabilisers in keeping an emulsion stable, giving one permanent and one temporary example.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s5": {
+  "keyTerms": [
+   {
+    "definition": "Body fat stored under the skin and around organs, which provides energy, insulation and cushioning.",
+    "term": "Adipose tissue"
+   },
+   {
+    "definition": "A lipid containing phosphorus that forms the structure of cell membranes.",
+    "term": "Phospholipid"
+   },
+   {
+    "definition": "A sterol found in animal foods that the body needs for cell membranes, bile salts and hormones.",
+    "term": "Cholesterol"
+   },
+   {
+    "definition": "A vitamin, such as A, D, E or K, that dissolves in fat and is carried by lipids in the body.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "The amount of energy a food provides per gram, which is highest for fat.",
+    "term": "Energy density"
+   },
+   {
+    "definition": "A unit of energy used in food labelling, equal to 1000 joules.",
+    "term": "Kilojoule"
+   },
+   {
+    "definition": "A unit of energy, also called a Calorie, commonly used on food labels, equal to 4.184 kJ.",
+    "term": "Kilocalorie"
+   },
+   {
+    "definition": "The feeling of fullness that reduces hunger and stops eating.",
+    "term": "Satiety"
+   },
+   {
+    "definition": "A hardened deposit that can form in the gall bladder from cholesterol and bile.",
+    "term": "Gallstone"
+   },
+   {
+    "definition": "Providing energy, insulating the body, protecting organs, and carrying fat-soluble vitamins.",
+    "term": "Four functions of lipids in the body"
+   },
+   {
+    "definition": "Forming cell membranes, making bile salts for fat digestion, making steroid hormones, and making vitamin D.",
+    "term": "Four uses of cholesterol in the body"
+   },
+   {
+    "definition": "37 kJ or 9 kcal.",
+    "term": "Energy value of fat per gram"
+   },
+   {
+    "definition": "16 kJ or 3.75 kcal.",
+    "term": "Energy value of carbohydrate per gram"
+   },
+   {
+    "definition": "Obesity, coronary heart disease, Type 2 diabetes and gallstones.",
+    "term": "Four health effects of a diet high in saturated fat"
+   },
+   {
+    "definition": "A, D, E and K.",
+    "term": "Four fat-soluble vitamins"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Biological functions of lipids",
+    "points": [
+     "Lipids are a concentrated source of energy, supplying the body with more energy per gram than carbohydrate or protein.",
+     "Adipose tissue, the body's stored fat, lies under the skin and insulates the body against heat loss.",
+     "Adipose tissue around organs such as the kidneys cushions them against knocks and pressure.",
+     "Lipids carry the fat-soluble vitamins A, D, E and K and help the body absorb them.",
+     "Lipids slow the emptying of the stomach, which helps to delay hunger.",
+     "Phospholipids are lipids that form part of the structure of every cell membrane."
+    ]
+   },
+   {
+    "h": "Cholesterol",
+    "points": [
+     "Cholesterol is a fat-like substance called a sterol, found only in animal foods such as egg yolk, meat, butter and cheese.",
+     "The liver makes most of the cholesterol the body needs, so the amount eaten has less effect on blood cholesterol than the saturated fat in the diet.",
+     "The body uses cholesterol to make cell membranes, bile salts for digesting fat, and steroid hormones such as oestrogen and testosterone.",
+     "Saturated fat in the diet raises blood LDL cholesterol more than dietary cholesterol does."
+    ]
+   },
+   {
+    "h": "Health effects of a diet high in saturated fat",
+    "points": [
+     "Excess energy from saturated fat is stored as adipose tissue, which can lead to obesity.",
+     "Raised LDL cholesterol narrows arteries, increasing the risk of coronary heart disease and high blood pressure.",
+     "Excess body fat reduces the effectiveness of insulin, increasing the risk of Type 2 diabetes.",
+     "Cholesterol is a main component of gallstones, which can form in the gall bladder.",
+     "Irish healthy eating guidelines from the Department of Health advise replacing saturated fats with unsaturated fats rather than simply eating less fat."
+    ]
+   },
+   {
+    "h": "Energy value of lipids",
+    "points": [
+     "Fat provides 37 kJ or 9 kcal of energy per gram.",
+     "Carbohydrate provides 16 kJ or 3.75 kcal per gram; protein provides 17 kJ or 4 kcal per gram; alcohol provides 29 kJ or 7 kcal per gram.",
+     "Energy from fat is calculated by multiplying the grams of fat by 37 kJ, or by 9 kcal.",
+     "Worked example (sample data): 20 g of fat gives 20 × 37 = 740 kJ, or 20 × 9 = 180 kcal.",
+     "Much of the fat in the average diet is hidden in processed foods, cakes, pastries, fried foods and takeaways."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Insulation: adipose tissue under the skin traps body heat and reduces heat loss to the environment. Protection: a layer of adipose tissue around organs such as the kidneys cushions them against knocks and pressure. Award one mark for each way named and one for each correct explanation, up to 6 in total.",
+    "prompt": "State two ways in which lipids protect or insulate the body, and explain how each one works.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Fat provides 37 kJ or 9 kcal per gram, carbohydrate 16 kJ or 3.75 kcal per gram and protein 17 kJ or 4 kcal per gram, so fat is the most energy-dense nutrient. Excess energy from fat is stored as adipose tissue, which can lead to obesity. Saturated fat raises LDL cholesterol, which deposits cholesterol on artery walls, increasing the risk of coronary heart disease and high blood pressure. Excess body fat reduces the effectiveness of insulin, increasing the risk of Type 2 diabetes. Cholesterol is a main component of gallstones. Irish healthy eating guidelines from the Department of Health advise replacing saturated fats with unsaturated fats.",
+    "prompt": "Compare the energy value of lipids with that of carbohydrate and protein, then discuss how a diet high in saturated fat can affect health.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-lipids-s6": {
+  "keyTerms": [
+   {
+    "definition": "A scraped-surface heat exchanger that chills and churns margarine into a plastic fat.",
+    "term": "Votator"
+   },
+   {
+    "definition": "The water-based part of an emulsion, such as the water and milk in margarine.",
+    "term": "Aqueous phase"
+   },
+   {
+    "definition": "Adding vitamins or minerals to a food that does not contain them naturally, such as vitamins A and D to margarine.",
+    "term": "Fortification"
+   },
+   {
+    "definition": "A spread with less fat and more water than butter or margarine, which is unsuitable for frying or baking.",
+    "term": "Low-fat spread"
+   },
+   {
+    "definition": "A spread with added plant stanol or sterol esters that reduce the absorption of cholesterol.",
+    "term": "Functional dairy spread"
+   },
+   {
+    "definition": "A plant-derived compound added to spreads that blocks cholesterol absorption in the small intestine.",
+    "term": "Plant stanol ester"
+   },
+   {
+    "definition": "The last date on which a perishable food, such as a fresh spread, should be eaten.",
+    "term": "Use-by date"
+   },
+   {
+    "definition": "The panel on a food label that states the energy and nutrient content per 100 g or per portion.",
+    "term": "Nutrition declaration"
+   },
+   {
+    "definition": "Refining the oil, hydrogenating it, blending it with the water phase and lecithin, churning and chilling it in a votator, and weighing and packing it.",
+    "term": "Five stages in making margarine"
+   },
+   {
+    "definition": "The list of ingredients, allergens, the net quantity and the nutrition declaration.",
+    "term": "Four items a fat product label must show"
+   },
+   {
+    "definition": "A functional dairy spread.",
+    "term": "Type of spread with added plant stanol esters"
+   },
+   {
+    "definition": "Energy value, saturated fat content, polyunsaturated fat content and salt content.",
+    "term": "Four criteria for comparing spreads from data"
+   },
+   {
+    "definition": "A dark, airtight container kept in a cool place.",
+    "term": "Best storage for cooking oil"
+   },
+   {
+    "definition": "Grill, steam or poach instead of frying, and trim visible fat from meat before cooking.",
+    "term": "Two ways to reduce fat in cooking"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Nutritional significance of fats and oils",
+    "points": [
+     "Fats and oils are almost pure fat, so they contribute energy and fat-soluble vitamins but little protein, carbohydrate or minerals.",
+     "Butter and margarine contain traces of minerals such as calcium and sodium.",
+     "Margarine is usually fortified with vitamins A and D, which are not naturally present in plant oils.",
+     "Spreads contain water as well as fat, so a lower-fat spread contains more water than a butter or margarine of the same type.",
+     "Much of the fat in the diet comes from processed, convenience and takeaway foods rather than from the spread or oil added at home."
+    ]
+   },
+   {
+    "h": "Selecting fats and oils",
+    "points": [
+     "The ingredients list shows the largest ingredient first, so a spread listing water or vegetable oil first contains mainly those.",
+     "Choose spreads and oils with a higher proportion of unsaturated fat and a lower proportion of saturated fat.",
+     "Oils have higher smoke points than butter, so oils suit frying and butter suits spreading and baking.",
+     "Hard margarines and shortenings made by hydrogenation suit pastry because they are plastic at room temperature.",
+     "Choose spreads with few hydrogenated fats in the ingredients list when reducing trans fat in the diet."
+    ]
+   },
+   {
+    "h": "Storing foods containing lipids",
+    "points": [
+     "Store butter and spreads covered in the refrigerator, because fats absorb strong odours such as onion.",
+     "Store oils in dark, airtight containers in a cool place to limit oxidative rancidity.",
+     "Store nuts and seeds in airtight containers, because their oils go rancid quickly.",
+     "Keep used frying oil covered and strain it, so food particles do not speed up its breakdown."
+    ]
+   },
+   {
+    "h": "Preparation, cooking and processing",
+    "points": [
+     "Trimming visible fat from meat before cooking reduces the fat in the finished dish.",
+     "Grilling, steaming, poaching and microwaving add little or no fat, while frying adds fat and therefore energy.",
+     "Deep-fat frying at the correct temperature limits the amount of oil that food absorbs.",
+     "Creaming butter or margarine with sugar traps air in the mixture, giving cakes a light texture.",
+     "Fat from roasted meat collects in the tin and can be strained and used as dripping for frying.",
+     "Shallow frying in fat transfers heat evenly to food and gives it a golden colour."
+    ]
+   },
+   {
+    "h": "Production of margarine, with packaging and labelling",
+    "points": [
+     "Vegetable oil is extracted from seeds and then refined to remove impurities.",
+     "Hydrogen is added to the oil in the presence of a nickel catalyst, making it semi-solid.",
+     "The hydrogenated fat is blended with other oils, and the water phase is prepared from water or skimmed milk, salt, colour, flavour and vitamins A and D.",
+     "Lecithin is added as an emulsifier to form a stable water-in-oil emulsion.",
+     "The emulsion is churned and chilled rapidly in a votator, a scraped-surface heat exchanger, to form a plastic fat.",
+     "The margarine is weighed and packed in foil or plastic tubs.",
+     "The label lists the ingredients in descending order by weight, highlights allergens, gives a nutrition declaration, the net quantity, a use-by date and storage instructions.",
+     "In Ireland, food labelling follows Regulation (EU) No 1169/2011 as given effect by the European Union (Provision of Food Information to Consumers) Regulations 2014, with the FSAI giving guidance on food safety and labelling."
+    ]
+   },
+   {
+    "h": "Low-fat and functional dairy spreads",
+    "points": [
+     "Low-fat spreads contain less fat and more water than butter, so they suit a calorie-controlled diet.",
+     "Low-fat spreads are made from vegetable oils, water and milk proteins, and are low in saturated fat.",
+     "Low-fat spreads are unsuitable for frying or baking because of their high water content.",
+     "Functional dairy spreads contain plant stanol or sterol esters, which reduce the absorption of cholesterol in the small intestine so that it is excreted.",
+     "Functional dairy spreads contain virtually no trans fatty acids and need to be eaten regularly to have a lowering effect on cholesterol."
+    ]
+   },
+   {
+    "h": "Evaluating spreads from data",
+    "points": [
+     "Compare the energy value per 100 g or per serving of each spread.",
+     "Compare total fat, saturated fat, monounsaturated fat and polyunsaturated fat, and the salt content, for each spread.",
+     "Lower energy and lower saturated fat suit weight control and reduce the risk of coronary heart disease.",
+     "Higher monounsaturated and polyunsaturated fat, and a lower saturated fat content, suit a diet aimed at protecting the heart.",
+     "Check the water content and whether the spread is suitable for frying or baking.",
+     "Give a reason for each judgement, referring to the figures for each spread."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Vitamin A: supports vision, growth and the immune system. Vitamin D: helps the body absorb calcium and maintain healthy bones. Award one mark for each nutrient named and up to two marks for each explanation, to a maximum of 6.",
+    "prompt": "State two nutrients added to margarine through fortification, and explain the role of each in the body.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Vegetable oil is extracted and refined, then hydrogen is added at the double bonds using a nickel catalyst to produce a semi-solid fat. The oils are blended and the water phase is prepared with milk or water, salt, colour, flavour, and vitamins A and D. Lecithin is added as an emulsifier, and the emulsion is churned and chilled in a votator to form a plastic fat. The margarine is weighed and packed in foil or plastic tubs. The label gives the name of the product, the ingredients in descending order by weight, allergens, the net quantity, a nutrition declaration per 100 g, a use-by date, storage instructions and the business name and address. Labelling follows Regulation (EU) No 1169/2011 as given effect by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+    "prompt": "Outline the stages in the production of margarine, and describe the information a consumer can find on its label.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meal-planning-s1": {
+  "keyTerms": [
+   {
+    "definition": "The decision to buy and eat a particular food, shaped by personal, social and economic factors.",
+    "term": "Food choice"
+   },
+   {
+    "definition": "The shared customs, beliefs and traditions of a group that determine which foods are regarded as normal, acceptable or special.",
+    "term": "Culture"
+   },
+   {
+    "definition": "The taste, smell, appearance, texture and temperature of food, which affect whether it is enjoyed and accepted.",
+    "term": "Sensory aspects"
+   },
+   {
+    "definition": "Knowledge of healthy eating guidance and food composition that guides a person's choice of foods.",
+    "term": "Nutritional awareness"
+   },
+   {
+    "definition": "Food that is ready to eat or needs little preparation, such as ready meals and pre-cut vegetables.",
+    "term": "Convenience food"
+   },
+   {
+    "definition": "Food that has been changed from its natural state by methods such as canning, freezing, curing or adding ingredients.",
+    "term": "Processed food"
+   },
+   {
+    "definition": "A reluctance to try new or unfamiliar foods, most common in young children.",
+    "term": "Food neophobia"
+   },
+   {
+    "definition": "The effect of friends and classmates on what a young person chooses to eat.",
+    "term": "Peer influence"
+   },
+   {
+    "definition": "Culture, eating patterns, sensory aspects, nutritional awareness, health status, availability, finance, and marketing and advertising.",
+    "term": "Eight factors that influence food choices"
+   },
+   {
+    "definition": "Certain foods are associated with particular cultures; religious rules exclude or require certain foods; immigration and travel bring new foods into the diet.",
+    "term": "Three ways culture affects food choices"
+   },
+   {
+    "definition": "More convenience and processed food; more eating out and fast food; less time for cooking and more irregular meals.",
+    "term": "Three changes in Irish eating habits since the early twentieth century"
+   },
+   {
+    "definition": "Convenience and eating on the go; cheap, heavily advertised processed food.",
+    "term": "Two reasons teenagers find it hard to eat a healthy diet"
+   },
+   {
+    "definition": "Higher income allows more frequent eating out and expensive foods; lower income leads to cheaper options, own-brand foods and fewer luxury items.",
+    "term": "Two ways money affects food choices"
+   },
+   {
+    "definition": "Nutrition, health and allergies; cost and degree of processing; portion size suited to a small child.",
+    "term": "Three factors parents consider for pre-school children"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A food choice results from several pressures acting together. Each factor below can be named and explained on its own.",
+    "h": "Factors that shape food choices",
+    "points": [
+     "Culture: the foods a group regards as normal, acceptable or celebratory, and the foods linked with a particular country or tradition.",
+     "Religion: some faiths restrict foods; Jews and Muslims do not eat pork, and some Hindus follow a vegetarian diet.",
+     "Eating patterns: the number and timing of meals, snacking, eating out and whether the family eats together all shape what is bought and eaten.",
+     "Sensory aspects: taste, smell, appearance, texture and temperature decide whether a food is accepted, and unfamiliar flavours are often refused at first.",
+     "Nutritional awareness: knowledge of healthy eating guidance and food labels steers people towards lower-fat, lower-sugar and higher-fibre products.",
+     "Health status: allergies, coeliac disease, diabetes and coronary heart disease limit the foods a person can safely eat.",
+     "Availability: seasonal produce, the range stocked by local shops and the distance to a supermarket determine what is on offer.",
+     "Finance: income sets the budget, so people on low incomes tend to buy cheaper and more processed foods and inexpensive protein such as pulses.",
+     "Marketing and advertising: packaging, brand image, special offers, shelf placement and endorsements by celebrities or influencers encourage purchases."
+    ]
+   },
+   {
+    "h": "Changes in Irish eating patterns since the early twentieth century",
+    "points": [
+     "Potatoes and bread have been partly replaced by pasta, rice and a wider range of breads.",
+     "Convenience, ready-meal and processed foods have become more common, bringing more salt, sugar and saturated fat into the diet.",
+     "Eating out, takeaways and fast food have increased, as has eating on the go.",
+     "Meals have become more irregular: family members often eat at different times, and the main meal has moved to the evening.",
+     "Foreign holidays, television, travel and immigration have introduced new cuisines and ingredients to Irish diets.",
+     "Microwaving, stir-frying and barbecuing are now common cooking methods in Irish homes.",
+     "Greater nutritional awareness has encouraged more fruit, vegetables and wholegrain foods."
+    ]
+   },
+   {
+    "h": "Food choices of pre-school children, teenagers and students",
+    "points": [
+     "Parents make most food choices for pre-school children, weighing nutrition, cost, allergies, the degree of processing and portion size suited to a small child.",
+     "Young children often refuse new foods at first and may need to be offered a food many times before accepting it; this is called food neophobia.",
+     "Involving children in preparation and presenting food attractively encourages them to try new foods.",
+     "Teenagers' choices are influenced by peer groups, advertising and social media, and by the money they control from pocket money or part-time work.",
+     "Many teenagers prefer fatty, salty and sugary foods, which they have often been exposed to since early childhood.",
+     "A teenager may choose a vegetarian diet for religious, moral, health, economic or family reasons.",
+     "Students' daily choices depend on limited time, a tight budget, the range sold in the canteen or vending machines, and whether there are facilities to reheat food."
+    ]
+   },
+   {
+    "h": "Answering questions on food choice data",
+    "points": [
+     "Data questions use a table or chart; describe the overall trend first, then support it with specific figures.",
+     "Compare two groups, such as parents and children, by stating which group is higher and by how much.",
+     "Suggest reasons for differences by drawing on the factors that shape food choices.",
+     "Relate the results to healthy eating guidelines, saying whether consumption meets them or falls short.",
+     "Comment on what the results mean for planning meals or for health education."
+    ]
+   },
+   {
+    "h": "Settings for discussing food choice",
+    "points": [
+     "Comparing meal patterns between countries, such as when the main meal is eaten and how many meals are normal.",
+     "A theme day or week on the foods of a culture or period, such as a traditional Irish breakfast."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Religious rules exclude certain foods, for example Jews and Muslims do not eat pork, so these foods are avoided at home and when eating out. Some Hindus follow a vegetarian diet, so meals are built around pulses, dairy, vegetables and grains. Fasting periods and religious festivals also change meal times and the foods served. Any two ways, each with a name and an explanation, earn 3 marks.",
+    "prompt": "Outline two ways in which religious beliefs can influence a family's food choices.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Advertising and marketing: television, social media and influencers promote sugary drinks, fast food and snacks, often through celebrities. Bright packaging and cartoon characters appeal to young people. Special offers, bundle deals and placement at checkouts encourage impulse buying. Local availability: a town with many takeaways and convenience stores offers fewer fresh options, and vending machines in schools can limit healthy choices. A shop stocking fresh fruit, vegetables and wholegrain bread makes healthy choices easier. Peer and social factors: teenagers copy friends' eating habits and eat together in groups where fast food is popular. Evaluation: teenagers with good nutritional awareness can resist marketing, but family influence and cost still limit what they can choose.",
+    "prompt": "Discuss how advertising and marketing, together with the range of food available locally, can influence the food choices of teenagers.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meal-planning-s2": {
+  "keyTerms": [
+   {
+    "definition": "The relationship between the energy taken in through food and the energy used by the body; a surplus is stored as body fat.",
+    "term": "Energy balance"
+   },
+   {
+    "definition": "The gradual introduction of solid foods alongside breast milk or formula, usually from about six months.",
+    "term": "Weaning"
+   },
+   {
+    "definition": "A period of rapid physical growth in adolescence, roughly between 12 and 19 years, that increases nutrient needs.",
+    "term": "Growth spurt"
+   },
+   {
+    "definition": "The synthetic form of folate, a B vitamin taken before conception and in early pregnancy to protect against neural-tube defects.",
+    "term": "Folic acid"
+   },
+   {
+    "definition": "A birth defect of the brain or spinal cord, such as spina bifida, which folic acid helps to prevent.",
+    "term": "Neural-tube defect"
+   },
+   {
+    "definition": "The period of recovery after illness or surgery, when the need for protein and nutrients for repair is high but appetite may be low.",
+    "term": "Convalescence"
+   },
+   {
+    "definition": "A food-borne infection caused by Listeria bacteria that can seriously harm an unborn baby; risk foods include unpasteurised dairy products and pâté.",
+    "term": "Listeriosis"
+   },
+   {
+    "definition": "A B vitamin found mainly in animal foods that is needed for red blood cells and nerve function.",
+    "term": "Vitamin B12"
+   },
+   {
+    "definition": "About six months; breast milk alone meets a baby's nutritional needs until then.",
+    "term": "Age at which weaning usually begins"
+   },
+   {
+    "definition": "Folic acid, iron and calcium.",
+    "term": "Three nutrients pregnant women need particular attention to"
+   },
+   {
+    "definition": "Age, sex, health status, pregnancy and activity.",
+    "term": "Five factors that affect dietary and food requirements"
+   },
+   {
+    "definition": "Iron is lost in menstrual blood; rapid growth increases the body's need for iron.",
+    "term": "Two reasons teenage girls need extra iron"
+   },
+   {
+    "definition": "Neural-tube defects in the developing baby and anaemia in the mother.",
+    "term": "Two conditions a folate deficiency can cause in pregnancy"
+   },
+   {
+    "definition": "Pâté; unpasteurised milk and soft mould-ripened cheese; raw or undercooked meat; raw or undercooked eggs.",
+    "term": "Four foods pregnant women should avoid"
+   },
+   {
+    "definition": "Less energy is needed as muscle mass and activity decline; protein remains important for maintaining muscle.",
+    "term": "Two ways an older person's energy needs differ from an adult's"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Energy and nutrient needs change with the stage of life and with circumstances, so every meal plan starts from the person's requirements.",
+    "h": "Factors that change dietary requirements",
+    "points": [
+     "Age: energy and nutrient needs change at each life stage, and needs per kilogram of body weight are highest in infancy and adolescence.",
+     "Sex: men generally need more energy than women because of greater muscle mass, while women of childbearing age need extra iron.",
+     "Health status: illness, allergy, diabetes or a digestive disorder can change the foods a person can eat or how well nutrients are absorbed.",
+     "Pregnancy and breastfeeding increase the need for energy, protein, folate, iron and calcium.",
+     "Activity: energy needs rise with physical activity, and active people need more fluid and carbohydrate.",
+     "Energy balance: energy taken in as food should match energy used; any surplus is stored as body fat."
+    ]
+   },
+   {
+    "h": "Babies and young children",
+    "points": [
+     "Breast milk supplies all the nutrients a baby needs for about the first six months.",
+     "Breastfed babies are advised to take a vitamin D supplement, because breast milk contains little vitamin D.",
+     "Weaning begins at about six months, when the iron stored at birth starts to run low; puréed meat and iron-fortified cereals supply iron.",
+     "Young children need protein for growth, calcium and vitamin D for bones and teeth, and iron for blood.",
+     "Pre-school children have small, variable appetites, so small, frequent, nutritious meals and snacks suit them better than large meals.",
+     "Sugary foods and drinks should be limited to protect developing teeth, and salt should be kept low in foods for babies and young children.",
+     "Fussy eating is common; offering a variety of foods in small portions, without forcing a child to eat, helps them accept new foods."
+    ]
+   },
+   {
+    "h": "Children and adolescents",
+    "points": [
+     "Children need every nutrient in balanced proportions, following the Irish Food Pyramid with portions suited to their age.",
+     "Adolescents go through a growth spurt, roughly between the ages of 12 and 19, which increases the need for every nutrient.",
+     "Girls need extra iron once they begin menstruating, because menstrual blood loss depletes iron stores.",
+     "Calcium and vitamin D build bone mass during adolescence, so good intake now reduces the risk of osteoporosis later.",
+     "Active teenagers need high-energy starchy foods such as pasta, potatoes, rice and wholegrain cereals.",
+     "Protein from meat, fish, eggs, dairy and pulses supports growth and repair.",
+     "Fruit and vegetables supply fibre and vitamin C, and vitamin C improves the absorption of iron from plant foods.",
+     "High-salt, high-sugar and high-fat snacks and fizzy drinks add energy but few nutrients, so they should be limited.",
+     "Irregular meals and skipped breakfasts are common in adolescence and make it harder to meet nutritional needs."
+    ]
+   },
+   {
+    "h": "Adults",
+    "points": [
+     "Adults need to balance energy intake with activity to maintain a healthy weight.",
+     "Daily starchy foods, fruit and vegetables supply the fibre, vitamins and minerals that support bowel health.",
+     "Protein maintains muscle and repairs tissue, so a protein food is included at each main meal.",
+     "Unsaturated oils should replace saturated fats, and sugar and salt should be kept low.",
+     "Women of childbearing age need adequate folate and iron, because menstrual losses continue."
+    ]
+   },
+   {
+    "h": "Older people",
+    "points": [
+     "Energy needs fall with age because muscle mass and activity decline, so portions should be smaller but still nutritious.",
+     "Protein remains important for maintaining muscle, so older people should include a protein food at main meals.",
+     "Calcium and vitamin D protect the bones, and calcium absorption decreases with age.",
+     "Vitamin B12 absorption can fall in later life, so older people may need B12 from fortified foods or supplements.",
+     "Fibre and fluid prevent constipation, which is common among older people who are less active.",
+     "Chewing and swallowing difficulties, or dentures, call for soft, moist and easy-to-chew foods."
+    ]
+   },
+   {
+    "h": "Pregnancy and breastfeeding",
+    "points": [
+     "Folic acid taken before conception and in early pregnancy helps prevent neural-tube defects in the developing baby.",
+     "Iron supports the extra blood volume of pregnancy and the baby's iron stores; vitamin C eaten at the same meal improves iron absorption.",
+     "Calcium and vitamin D are needed for the baby's bones and teeth and to protect the mother's bones.",
+     "Protein supports the growth of fetal tissue, the placenta and maternal tissues.",
+     "Omega-3 fatty acids from cooked oily fish, such as salmon, support the development of the baby's brain and nervous system.",
+     "Energy needs rise only modestly, mainly in later pregnancy; a pregnant woman should not eat for two.",
+     "Fibre and fluid help prevent constipation, which is common in pregnancy.",
+     "Pâté, unpasteurised milk, soft mould-ripened cheese, and raw or undercooked meat and eggs carry a risk of listeria or salmonella and should be avoided.",
+     "Alcohol should be avoided in pregnancy, and caffeine and salt should be limited.",
+     "Breastfeeding women need extra energy, protein, calcium and fluid to produce milk."
+    ]
+   },
+   {
+    "h": "Convalescents and active people",
+    "points": [
+     "Convalescents need small, appetising, easy-to-digest portions, because appetite is often reduced during recovery.",
+     "Protein from lean meat, fish, eggs and dairy supports tissue repair.",
+     "Iron and vitamin C support recovery of blood levels, and vitamin C from fruit and vegetables aids iron absorption.",
+     "Lightly seasoned meals are better tolerated; spicy, fried, oily and greasy foods should be avoided.",
+     "Active people need extra energy, mainly from complex carbohydrates such as wholegrain bread, pasta, rice and potatoes.",
+     "Sweat losses mean active people need extra fluid, drunk before, during and after exercise.",
+     "Protein supports muscle repair and growth after exercise, and fruit, yoghurt or wholegrain sandwiches supply energy between meals."
+    ]
+   },
+   {
+    "h": "Meals for irregular working hours",
+    "points": [
+     "Irregular shifts disrupt mealtimes, so people often skip meals or rely on fast food and vending machines.",
+     "Batch cooking allows balanced meals to be eaten at staggered times without much last-minute preparation.",
+     "Soups, casseroles and other reheatable portions suit people eating at different times.",
+     "Packed lunches with fruit, wholegrain bread and yoghurt keep nutrition on track during long working days.",
+     "Slow cookers and timers allow a meal to cook while the household is out."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Babies rely on breast milk or formula for most of their nutrition until about six months, whereas pre-school children eat a range of solid foods from the Irish Food Pyramid. Breastfed babies need a vitamin D supplement, while a pre-school child gets vitamin D from food and sunlight. A baby's iron comes from breast milk and iron-fortified weaning foods, while a pre-school child needs iron from meat, fish, pulses and fortified cereals. Babies feed little and often on demand, while pre-school children need regular meals and snacks with a varied diet. Any three differences, each explained, earn 6 marks.",
+    "prompt": "Outline three differences between the dietary requirements of a baby and those of a pre-school child.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Requirements: protein for fetal and maternal tissues; folic acid before conception and in early pregnancy to prevent neural-tube defects; iron for extra blood volume and fetal stores, with vitamin C at the same meal to aid absorption; calcium and vitamin D for the baby's bones and teeth; omega-3 fatty acids from cooked oily fish for the brain; fibre and fluid to prevent constipation; modest extra energy, mainly later in pregnancy. Food safety: avoid pâté, unpasteurised dairy, soft mould-ripened cheese, raw or undercooked meat and eggs; avoid alcohol; limit caffeine and salt. Meal plan: breakfast of fortified porridge with pasteurised milk and fruit; lunch of lentil and vegetable soup with wholemeal bread and a yoghurt; dinner of thoroughly cooked salmon with potatoes, broccoli and carrots, followed by fresh fruit; water through the day. Each meal combines protein, starch, fruit or vegetables and dairy, and avoids high-risk foods.",
+    "prompt": "Discuss the dietary requirements of a pregnant woman and explain how a family could plan meals across a day to meet them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meal-planning-s3": {
+  "keyTerms": [
+   {
+    "definition": "A measure of weight for height, calculated as weight in kilograms divided by height in metres squared.",
+    "term": "Body mass index"
+   },
+   {
+    "definition": "A condition of excess body fat resulting from a sustained energy surplus, which raises the risk of other diseases.",
+    "term": "Obesity"
+   },
+   {
+    "definition": "Narrowing or blockage of the coronary arteries that supply the heart muscle with blood.",
+    "term": "Coronary heart disease"
+   },
+   {
+    "definition": "A hormone made by the pancreas that lowers blood glucose by moving it into body cells.",
+    "term": "Insulin"
+   },
+   {
+    "definition": "A condition in which the body's cells respond poorly to insulin, mainly linked to excess weight and inactivity.",
+    "term": "Type 2 diabetes"
+   },
+   {
+    "definition": "Conditions in which small pouches form in the wall of the large intestine, often caused by straining on a low-fibre diet.",
+    "term": "Diverticular disease"
+   },
+   {
+    "definition": "A thinning and weakening of bone that makes it porous, brittle and prone to fracture.",
+    "term": "Osteoporosis"
+   },
+   {
+    "definition": "Decay of the teeth caused by acid produced when bacteria in plaque ferment sugars.",
+    "term": "Dental caries"
+   },
+   {
+    "definition": "Inflammation and infection of the gums and the tissues that support the teeth.",
+    "term": "Periodontal disease"
+   },
+   {
+    "definition": "Coronary heart disease, Type 2 diabetes and high blood pressure.",
+    "term": "Three conditions linked with obesity"
+   },
+   {
+    "definition": "The body's cells respond poorly to insulin; it is linked to excess weight and inactivity.",
+    "term": "Two features of Type 2 diabetes"
+   },
+   {
+    "definition": "Low calcium intake; inactivity; smoking; excess alcohol.",
+    "term": "Four factors that raise the risk of osteoporosis"
+   },
+   {
+    "definition": "Eat high-fibre wholegrains, fruit and vegetables; drink plenty of water.",
+    "term": "Two dietary ways to prevent constipation"
+   },
+   {
+    "definition": "Limit sugary snacks and drinks, especially between meals; choose water or milk to drink; use fluoride toothpaste.",
+    "term": "Three dietary guidelines to reduce dental caries"
+   },
+   {
+    "definition": "It raises blood pressure, damages artery walls and increases the risk of stroke.",
+    "term": "Three effects of excess salt on the body"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Obesity develops when the energy taken in as food regularly exceeds the energy the body uses, and the surplus is stored as adipose tissue.",
+    "h": "Energy imbalance and obesity",
+    "points": [
+     "Body mass index (BMI) is weight in kilograms divided by height in metres squared; a BMI of 30 or more is classed as obesity.",
+     "Fatty and sugary foods are energy-dense, so a small portion can supply a large amount of energy.",
+     "Sugary drinks, cream sauces, fried foods, large portions and late-night eating all increase energy intake.",
+     "Obesity increases the risk of coronary heart disease, Type 2 diabetes, high blood pressure and gallstones.",
+     "Sedentary lifestyles add to the problem, so a lower-energy diet is combined with more physical activity.",
+     "Weight-loss guidance includes a low-fat, reduced-sugar diet, extra fibre and water, lean protein and less processed food."
+    ]
+   },
+   {
+    "h": "Coronary heart disease",
+    "points": [
+     "Coronary heart disease occurs when the coronary arteries, which supply the heart muscle, become narrowed or blocked by fatty deposits.",
+     "Saturated fat raises LDL cholesterol, which is deposited in artery walls and narrows them.",
+     "Trans fats, found in some hard margarines and in fried and processed foods, raise LDL and lower HDL cholesterol.",
+     "Refined carbohydrates and sugar contribute to raised blood triglycerides and reduced HDL cholesterol.",
+     "Excess salt raises blood pressure, which damages artery walls and makes the heart work harder.",
+     "Smoking, inactivity and excess alcohol add to the risk, and a diet low in fibre, fruit and vegetables offers little protection."
+    ]
+   },
+   {
+    "h": "Diabetes",
+    "points": [
+     "Insulin is a hormone made by the pancreas that moves glucose from the blood into body cells.",
+     "Type 1 diabetes: the pancreas produces little or no insulin, usually from childhood, adolescence or young adulthood; it is controlled with insulin, diet and exercise and cannot be reversed.",
+     "Type 2 diabetes: insulin is produced, but the body's cells respond poorly to it; it accounts for about 90 per cent of cases and develops mainly in later adulthood.",
+     "Excess weight and inactivity are the main risk factors for Type 2 diabetes, and weight loss can improve it.",
+     "Gestational diabetes develops during pregnancy and usually resolves after the birth.",
+     "Symptoms include frequent urination, thirst, hunger, weight loss and tiredness.",
+     "Diets high in sugar and refined carbohydrate, combined with excess weight, raise the risk of Type 2 diabetes."
+    ]
+   },
+   {
+    "h": "Bowel disease",
+    "points": [
+     "Constipation: hard, dry stools are difficult to pass, usually caused by too little fibre and fluid and too little activity.",
+     "Diverticular disease: small pouches called diverticula form in the wall of the large intestine when pressure from straining pushes the lining outwards.",
+     "Diverticulitis: inflamed or infected diverticula cause pain and need medical treatment.",
+     "Haemorrhoids: swollen veins around the anus, caused by straining during constipation.",
+     "Prevention: eat wholegrain cereals, brown bread and wholegrain rice, nuts and seeds, and fruit and vegetables with their skins on, eaten raw where possible.",
+     "Whole fruit and vegetables supply more fibre than juice, and fresh or dried fruit is a better snack than processed alternatives."
+    ]
+   },
+   {
+    "h": "Osteoporosis",
+    "points": [
+     "Osteoporosis is a thinning and weakening of the bone, which becomes porous, brittle and prone to fracture.",
+     "Bone mass peaks in early adulthood, after which bone is gradually lost.",
+     "Vitamin D helps the gut absorb calcium, and vitamin C is needed for the collagen framework of bone.",
+     "Phytates, oxalates, excess fibre and tannins in some foods can reduce calcium absorption.",
+     "Excess caffeine and alcohol increase calcium loss.",
+     "Risk factors include older age, the fall in oestrogen after menopause, smoking and inactivity.",
+     "Weight-bearing exercise helps to maintain bone strength."
+    ]
+   },
+   {
+    "h": "Dental caries and gum disease",
+    "points": [
+     "Bacteria in plaque ferment sugars in the mouth to produce acid, which dissolves enamel and causes dental caries (decay).",
+     "Frequent snacking and sticky sweets keep the mouth acidic for longer, increasing the risk of decay.",
+     "Fluoride strengthens enamel and makes it more resistant to acid; fluoride toothpaste is used twice a day.",
+     "Calcium and phosphorus support the formation of enamel and dentine.",
+     "Periodontal disease is inflammation of the gums and the tissues around the teeth, caused by a build-up of plaque."
+    ]
+   },
+   {
+    "h": "Links between diet-related conditions",
+    "points": [
+     "Excess energy leads to obesity, which increases the risk of Type 2 diabetes and coronary heart disease.",
+     "Excess salt raises blood pressure, which increases the risk of coronary heart disease.",
+     "A diet high in sugar contributes to both obesity and dental caries.",
+     "A low-fibre, low-fluid diet can cause constipation, which in turn can lead to diverticular disease."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Constipation: without bulk and water, stools become hard and difficult to pass. Diverticular disease: straining to pass hard stools raises pressure in the large intestine and forms pouches in its wall. Haemorrhoids: swollen veins around the anus caused by straining during constipation. Any two problems, each named and explained, earn 3 marks.",
+    "prompt": "Outline two diet-related problems that can result from a diet low in fibre and fluid.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Excess energy intake occurs when food energy regularly exceeds energy used, and the surplus is stored as adipose tissue, producing obesity, shown by a BMI of 30 or more. Obesity raises LDL cholesterol and blood pressure and narrows the coronary arteries, increasing the risk of coronary heart disease. Obesity also reduces insulin effectiveness, and excess sugar intake adds to the risk of Type 2 diabetes, where cells respond poorly to insulin. Obesity can also be linked to gallstones and high blood pressure. Dental caries is worsened by sugary foods eaten often, which produce acid in the mouth. Management: reduce energy and sugar intake, increase fibre and activity, and monitor weight.",
+    "prompt": "Discuss the links between excess energy intake, obesity and two other diet-related conditions.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meal-planning-s4": {
+  "keyTerms": [
+   {
+    "definition": "A person who eats no meat, poultry, fish or eggs, but includes milk and dairy products in the diet.",
+    "term": "Lacto-vegetarian"
+   },
+   {
+    "definition": "A diet that excludes all animal-derived foods, including meat, fish, eggs, dairy products and honey.",
+    "term": "Vegan diet"
+   },
+   {
+    "definition": "A lifelong intolerance to gluten that damages the villi of the small intestine and reduces the absorption of nutrients.",
+    "term": "Coeliac disease"
+   },
+   {
+    "definition": "A protein found in wheat, barley and rye that causes damage to the small intestine in people with coeliac disease.",
+    "term": "Gluten"
+   },
+   {
+    "definition": "Compounds found naturally in plants that reduce the absorption of cholesterol from the gut when added to foods.",
+    "term": "Plant sterols"
+   },
+   {
+    "definition": "A ranking of carbohydrate foods by how quickly they raise blood glucose; low-GI foods release glucose slowly.",
+    "term": "Glycaemic index"
+   },
+   {
+    "definition": "A food that provides health benefits beyond its basic nutritive value, such as plant sterol spreads or probiotic yoghurt.",
+    "term": "Functional food"
+   },
+   {
+    "definition": "Low-density lipoprotein, the form of cholesterol that carries cholesterol to artery walls and is linked with saturated fat.",
+    "term": "LDL"
+   },
+   {
+    "definition": "High-density lipoprotein, the form of cholesterol that carries cholesterol away from the arteries and is linked with unsaturated fat.",
+    "term": "HDL"
+   },
+   {
+    "definition": "A protein food made from a fungus, used in products such as Quorn; vegan versions contain no egg.",
+    "term": "Mycoprotein"
+   },
+   {
+    "definition": "Plant sterol spreads lower cholesterol absorption; omega-3 eggs and milk reduce heart-disease risk; prebiotic or probiotic yoghurt improves digestion.",
+    "term": "Three functional foods for coronary heart disease and their benefits"
+   },
+   {
+    "definition": "Maintain a healthy weight; do not smoke; limit alcohol; exercise regularly.",
+    "term": "Four lifestyle changes that reduce the risk of coronary heart disease"
+   },
+   {
+    "definition": "Rice, corn (maize) and potatoes.",
+    "term": "Three naturally gluten-free staples for a coeliac diet"
+   },
+   {
+    "definition": "Bread, cakes and biscuits; pastries, pizzas and pies; processed foods such as sausages, some soups, sauces and gravies.",
+    "term": "Three foods a coeliac should avoid"
+   },
+   {
+    "definition": "Vitamin B12, calcium and iron.",
+    "term": "Three nutrients a vegan must plan carefully"
+   },
+   {
+    "definition": "Grill, bake, steam or boil instead of frying; use low-fat dairy and trim or skim visible fat.",
+    "term": "Two ways to make a coronary heart disease dish lower in fat"
+   },
+   {
+    "definition": "They produce specialised ranges such as gluten-free and diabetic products; they give detailed labels and packet recipes.",
+    "term": "Two ways manufacturers help people on special diets"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The aim of the coronary heart disease diet is to lower LDL cholesterol and blood pressure and to reduce the strain on the heart and arteries.",
+    "h": "Coronary heart disease diet",
+    "points": [
+     "Replace saturated animal fats with mono- and polyunsaturated oils such as olive, rapeseed and sunflower oil.",
+     "Choose low-fat dairy products and lean meat, and trim visible fat from meat before cooking.",
+     "Eat oily fish such as salmon, mackerel and sardines, which supply omega-3 fatty acids.",
+     "Increase soluble fibre from oats, beans, lentils, fruit and vegetables, which helps lower LDL cholesterol.",
+     "Reduce salt and use herbs, spices and lemon juice for flavour.",
+     "Reduce refined carbohydrate, such as white bread, sugary foods and sugary drinks.",
+     "Grill, bake, steam or boil food rather than frying it, avoid creamy sauces, and skim fat from stock and gravy."
+    ]
+   },
+   {
+    "h": "Cholesterol and coronary heart disease",
+    "points": [
+     "Cholesterol is a soft, wax-like substance found in every body cell, made mainly by the liver and also obtained from animal foods.",
+     "Cholesterol forms part of cell membranes and bile, is needed for some hormones, and helps transport fats in the blood.",
+     "Low-density lipoprotein (LDL) is associated with saturated fat and deposits cholesterol in artery walls, hardening them.",
+     "High-density lipoprotein (HDL) is associated with unsaturated fat and carries cholesterol away from the arteries to the liver.",
+     "Lifestyle changes that reduce CHD risk include maintaining a healthy weight, not smoking, avoiding excess alcohol, exercising regularly and reducing stress."
+    ]
+   },
+   {
+    "h": "Functional foods for coronary heart disease",
+    "points": [
+     "A functional food has health benefits beyond its basic nutritive value.",
+     "Plant sterol and stanol spreads, yoghurts and cheese spreads reduce cholesterol absorption and lower LDL cholesterol.",
+     "Omega-3 eggs and milk reduce the risk of heart disease.",
+     "Prebiotic and probiotic milk and yoghurt improve digestion.",
+     "Fortified foods add vitamins and minerals that the diet may otherwise lack."
+    ]
+   },
+   {
+    "b": "A lacto-vegetarian eats no meat, poultry, fish or eggs, but includes milk and dairy products.",
+    "h": "Lacto-vegetarian diet",
+    "points": [
+     "Protein comes from milk, cheese, yoghurt, pulses, nuts, seeds and soya products such as tofu and textured vegetable protein (TVP).",
+     "Calcium comes from milk, yoghurt and cheese, and from green leafy vegetables and fortified soya products.",
+     "Iron comes from green leafy vegetables, pulses, wholegrains and fortified cereals; vitamin C from fruit and vegetables at the same meal improves absorption.",
+     "Vitamin B12 comes from dairy products, and vitamin D from fortified spreads and cereals and from sunlight.",
+     "Some cheeses are made with animal rennet, and some mycoprotein products such as Quorn contain egg, so labels must be checked.",
+     "Eggs are excluded, so the diet relies on dairy and pulses for protein and on fortified foods for nutrients that eggs would normally supply."
+    ]
+   },
+   {
+    "b": "A vegan diet excludes all animal-derived foods, including meat, fish, eggs, milk, cheese and honey.",
+    "h": "Vegan diet (Higher Level only)",
+    "points": [
+     "Protein comes from pulses, nuts, seeds, soya products, vegan mycoprotein, seitan and tempeh; combining pulses with grains or nuts provides a complete range of amino acids.",
+     "Vitamin B12 has no reliable plant source, so it must come from fortified foods or a supplement.",
+     "Calcium comes from fortified soya milk, calcium-set tofu, sesame seeds in tahini, nuts and dark green vegetables.",
+     "Iron comes from pulses, wholegrains, dried fruit and dark green vegetables; vitamin C from peppers, tomatoes, berries and citrus improves absorption.",
+     "Vitamin D comes from fortified foods and sunlight, and omega-3 fats from flaxseed, walnuts and rapeseed oil.",
+     "Stock cubes, margarine, custard and some bread and sweets can contain animal ingredients, so vegan-labelled products should be chosen."
+    ]
+   },
+   {
+    "b": "Coeliac disease is a lifelong intolerance to gluten, the protein found in wheat, barley and rye.",
+    "h": "Coeliac diet (Higher Level only)",
+    "points": [
+     "Gluten damages the villi, the finger-like lining of the small intestine, so food is not properly absorbed and deficiencies can develop.",
+     "Avoid bread, cakes, biscuits, pastries, pizzas and pies made with wheat, and processed foods such as sausages, some soups, sauces and gravies.",
+     "Build meals around naturally gluten-free staples such as rice, corn (maize), potatoes, soya products and lentils.",
+     "Check ingredient lists for hidden gluten in stock, sauces, malt products and processed meats.",
+     "Look for the gluten-free symbol, a crossed-grain mark, on certified products.",
+     "Gluten-free breads and cereals are often low in fibre, so choose brown rice, beans and other high-fibre gluten-free foods.",
+     "Replace the iron, calcium and folate normally supplied by wheat products with other naturally gluten-free or fortified sources."
+    ]
+   },
+   {
+    "b": "The diabetic diet aims to keep blood glucose stable, maintain a healthy weight and reduce the risk of heart disease.",
+    "h": "Diabetic diet (Higher Level only)",
+    "points": [
+     "Regular meals at set times prevent large swings in blood glucose; skipping meals is avoided.",
+     "Low-glycaemic-index carbohydrates such as wholegrain bread, oats, pasta and pulses release glucose slowly.",
+     "Refined sugar, sugar-sweetened soft drinks and sugary confectionery are avoided, and low-calorie sweeteners can replace sugar.",
+     "Fibre-rich fruit and vegetables and low-sugar fruits are chosen, as high-sugar fruit should be limited.",
+     "Saturated fat and salt are reduced, and unsaturated oils are used instead.",
+     "Insulin dose is matched to the carbohydrate eaten in people using insulin, so meal timing and portions must be consistent."
+    ]
+   },
+   {
+    "h": "How manufacturers and retailers meet special dietary needs",
+    "points": [
+     "Manufacturers produce specialised ranges such as gluten-free, diabetic, vegetarian and coronary heart disease products.",
+     "Manufacturers give detailed labels and packet recipes and offer smaller portion sizes for people who need them.",
+     "Retailers provide specialist shops, designated shelves and wider ranges of special-diet foods.",
+     "Retailers run in-store cookery demonstrations to show customers how to use special-diet products."
+    ]
+   },
+   {
+    "h": "Food labelling for special diets",
+    "points": [
+     "Ingredients must be listed in descending order of weight, so the main ingredients are easy to identify.",
+     "Under Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014, allergens must be highlighted in the ingredient list.",
+     "Nutrition information shows the energy, fat, saturated fat, sugar, salt and fibre content of the food.",
+     "Symbols show gluten-free, vegetarian and vegan status and whether a food is fortified or functional.",
+     "Labels give cooking and storage instructions and the net quantity, helping people choose foods safely."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Include protein at every meal from milk, cheese, yoghurt, pulses, nuts, seeds and soya products. Include calcium-rich dairy such as milk, yoghurt and cheese each day. Pair iron-rich foods such as pulses, wholegrains and green leafy vegetables with a source of vitamin C at the same meal. Also check labels for egg in mycoprotein products and for animal rennet in cheese. Any three guidelines, each explained, earn 6 marks.",
+    "prompt": "Outline three meal planning guidelines for a person following a lacto-vegetarian diet.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Reduce saturated fat by replacing animal fats with mono- and polyunsaturated oils, choosing lean meat, fish and low-fat dairy, and trimming visible fat. Eat oily fish for omega-3 fatty acids. Increase soluble fibre from oats, beans, lentils, fruit and vegetables to lower LDL cholesterol. Reduce salt and refined carbohydrate and sugar. Use cooking methods such as grilling, baking, steaming or boiling, and avoid creamy sauces. Functional foods: plant sterol and stanol spreads reduce cholesterol absorption; omega-3 eggs and milk reduce heart-disease risk; prebiotic and probiotic dairy improves digestion. Lifestyle: maintain a healthy weight, do not smoke, limit alcohol and exercise regularly.",
+    "prompt": "Discuss the dietary guidelines to follow when planning and preparing meals for a person with coronary heart disease, including the role of functional foods.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meal-planning-s5": {
+  "keyTerms": [
+   {
+    "definition": "A diagram from the Food Safety Authority of Ireland that shows the foods to eat most often at its base and those to eat sparingly at its top.",
+    "term": "Food Pyramid"
+   },
+   {
+    "definition": "The date after which a food should not be eaten, for safety reasons.",
+    "term": "Use-by date"
+   },
+   {
+    "definition": "The date until which a food keeps its best quality; it may still be safe to eat after this date.",
+    "term": "Best-before date"
+   },
+   {
+    "definition": "Preparing a large quantity of a dish at one time and storing the portions for later use.",
+    "term": "Batch cooking"
+   },
+   {
+    "definition": "The temperature range of 5 °C to 63 °C in which bacteria multiply rapidly in food.",
+    "term": "Danger zone"
+   },
+   {
+    "definition": "The price of a product per standard quantity, such as per kilogram, used to compare value between sizes and brands.",
+    "term": "Unit price"
+   },
+   {
+    "definition": "Serving food in amounts matched to a person's energy needs and appetite.",
+    "term": "Portion control"
+   },
+   {
+    "definition": "Food that is ready to eat or needs little preparation, such as ready meals and pre-cut vegetables.",
+    "term": "Convenience food"
+   },
+   {
+    "definition": "Consider the people and their needs; check the nutritional balance across the day; check time, cost and equipment before shopping.",
+    "term": "Three steps when planning a menu"
+   },
+   {
+    "definition": "Wholegrain starchy foods such as bread, cereals, potatoes, pasta and rice, eaten most often.",
+    "term": "Foods at the base of the Irish Food Pyramid"
+   },
+   {
+    "definition": "They retain nutritional and sensory quality; they save time and money; they reduce food waste.",
+    "term": "Three benefits of frozen foods in meal planning"
+   },
+   {
+    "definition": "A use-by date is about safety and food must not be eaten after it; a best-before date is about quality.",
+    "term": "Difference between a use-by and a best-before date"
+   },
+   {
+    "definition": "Use a shopping list; buy seasonal and own-brand foods; plan meals to use leftovers.",
+    "term": "Three ways to reduce the food bill"
+   },
+   {
+    "definition": "A microwave oven and a pressure cooker.",
+    "term": "Two time-saving appliances for meal preparation"
+   },
+   {
+    "definition": "5 °C to 63 °C, the range in which bacteria multiply quickly.",
+    "term": "Temperature range of the danger zone"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Healthy eating guidelines in Ireland are set out in the Department of Health healthy eating guidelines and the Healthy Eating Food Pyramid, both published by the Department of Health under Healthy Ireland.",
+    "h": "Planning meals with the current dietary guidelines",
+    "points": [
+     "The Food Pyramid shows the foods to eat most often at its base: wholegrain bread, cereals, potatoes, pasta and rice.",
+     "Fruit and vegetables form the next shelf, and five or more portions a day are recommended.",
+     "Milk, yoghurt and cheese, preferably lower-fat versions, supply calcium and protein.",
+     "Meat, fish, eggs, beans, pulses and nuts supply protein; at least two portions of fish a week are advised, one of them oily.",
+     "Fats, spreads, oils and sugary foods sit at the top of the pyramid and are used sparingly, with unsaturated oils preferred.",
+     "Water is the main drink, and sugary drinks are limited.",
+     "Salt intake is kept low by cooking with less salt and reading labels."
+    ]
+   },
+   {
+    "h": "Planning a day's meals",
+    "points": [
+     "Each meal includes a starchy food, fruit or vegetables, and a protein food or dairy, so all food groups are covered across the day.",
+     "Breakfast is not skipped, and a packed lunch or snack supplies fruit and wholegrain foods between meals.",
+     "Colour, flavour, texture and cooking method are varied so that meals are appetising and not repetitive.",
+     "Portion sizes are matched to age, appetite and activity, and energy is balanced across the day.",
+     "Planning begins with the people being fed: their ages, health needs, likes and dislikes, and any special diets.",
+     "Before shopping, the planner checks cooking time, budget and equipment, then writes a shopping list and a cooking order."
+    ]
+   },
+   {
+    "h": "Resources: knowledge and skills",
+    "points": [
+     "A skilled cook can adapt recipes to add fibre, reduce fat or cater for a special diet.",
+     "A less experienced cook may rely on convenience foods, so simple recipes with few stages suit them.",
+     "Following a tested recipe with accurate measures gives consistent results and portion sizes."
+    ]
+   },
+   {
+    "h": "Resources: time and equipment",
+    "points": [
+     "Quick dishes such as stir-fries, omelettes and soups suit a limited preparation time.",
+     "Batch cooking large quantities and freezing portions saves time on later days.",
+     "A microwave, pressure cooker, slow cooker or food processor reduces cooking and preparation time.",
+     "Frozen fruit and vegetables are frozen at peak ripeness, retain most of their nutrients and reduce waste.",
+     "Freezers should be kept at -18 °C, and cooked food should not be left between 5 °C and 63 °C, the range in which bacteria multiply quickly."
+    ]
+   },
+   {
+    "h": "Resources: money and choice of foods",
+    "points": [
+     "A shopping list based on planned meals prevents impulse buying and waste.",
+     "Seasonal produce is usually cheaper and fresher than out-of-season imports.",
+     "Own-brand products are often cheaper than branded equivalents with the same ingredients; unit prices should be compared.",
+     "Pulses, eggs and tinned fish are inexpensive sources of protein.",
+     "Cheap processed foods are often high in salt, sugar and fat, so budget plans should still include fresh produce, wholegrains and milk."
+    ]
+   },
+   {
+    "h": "Reducing food waste",
+    "points": [
+     "A use-by date relates to food safety and food must not be eaten after it; a best-before date relates to quality, and food may still be safe after it.",
+     "Stock is rotated so that older items are used first.",
+     "Leftovers are planned into the next day's meals, for example turning a roast into soup or a pie.",
+     "Food that will not be used in time is frozen before its use-by date."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Money: a fixed budget limits the range of foods, so a family plans meals around cheaper, nutritious foods such as pulses, eggs and seasonal produce. Shopping: a written list and comparison of unit prices stop impulse buying and waste. Quality: a tight budget may mean choosing own-brand or processed foods, so the planner balances these with fresh fruit, vegetables and wholegrains. Any three ways, each explained, earn 6 marks.",
+    "prompt": "Outline three ways in which money available affects family meal planning.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Guidelines: each meal includes a wholegrain starch, fruit or vegetables, and a protein food or dairy, with fish at least twice a week, one of them oily. Breakfast: porridge made with milk and topped with fruit, and wholemeal toast. Lunch: homemade vegetable and lentil soup with wholemeal bread, followed by a yoghurt and an apple. Dinner: a bean and vegetable chilli made in a slow cooker with brown rice and a side of seasonal vegetables. Budget: a shopping list, own-brand and seasonal produce, and pulses as the main protein. Time and equipment: the soup and chilli are made in batches and portions are frozen; the slow cooker frees time during the day. Waste: leftovers are used for the next day's lunch and food is frozen before its use-by date. Water is the main drink.",
+    "prompt": "Plan a day of three meals for a family of four on a limited budget, explaining how the current dietary guidelines, time, equipment and food waste are taken into account.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1": {
+  "keyTerms": [
+   {
+    "definition": "The edible organs of an animal, such as liver, kidney and heart.",
+    "term": "Offal"
+   },
+   {
+    "definition": "A protein that contains all the essential amino acids in the proportions the body needs.",
+    "term": "High biological value (HBV) protein"
+   },
+   {
+    "definition": "Iron found in animal foods, absorbed by the body more readily than the non-haem iron in plant foods.",
+    "term": "Haem iron"
+   },
+   {
+    "definition": "A thread-like structure within a muscle fibre, made of actin and myosin, that contracts to shorten the muscle.",
+    "term": "Myofibril"
+   },
+   {
+    "definition": "A thick contractile protein in myofibrils that works with actin to shorten the muscle.",
+    "term": "Myosin"
+   },
+   {
+    "definition": "A thin contractile protein in myofibrils that slides along myosin during muscle contraction.",
+    "term": "Actin"
+   },
+   {
+    "definition": "A tough, insoluble connective tissue protein that converts to gelatine when cooked slowly in moisture.",
+    "term": "Collagen"
+   },
+   {
+    "definition": "A springy connective tissue protein found in tendons and ligaments that is not softened by cooking.",
+    "term": "Elastin"
+   },
+   {
+    "definition": "The red, oxygen-storing pigment in muscle that gives raw meat its colour.",
+    "term": "Myoglobin"
+   },
+   {
+    "definition": "Fat deposits lying within the muscle, which give meat juiciness and flavour.",
+    "term": "Marbling"
+   },
+   {
+    "definition": "Actin and myosin.",
+    "term": "Two proteins that make up myofibrils"
+   },
+   {
+    "definition": "Marbling within the muscle, a layer of fat under the skin, and fat around the organs.",
+    "term": "Three types of fat found in meat"
+   },
+   {
+    "definition": "Growth, repair of body cells, making enzymes and hormones, and making antibodies for immunity.",
+    "term": "Four functions of protein in the body"
+   },
+   {
+    "definition": "Haem iron, cobalamin (vitamin B12) and high biological value protein.",
+    "term": "Three nutrients meat supplies in valuable amounts"
+   },
+   {
+    "definition": "Vitamin A and vitamin D.",
+    "term": "Two vitamins found mainly in liver"
+   },
+   {
+    "definition": "Collagen, which becomes gelatine when cooked slowly in moisture, and elastin, which cooking does not soften.",
+    "term": "Two connective tissue proteins"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Categories of meat",
+    "points": [
+     "Red meat: beef, lamb, pork and veal.",
+     "Poultry: chicken, turkey and duck; the breast is paler than the leg because it contains less myoglobin.",
+     "Offal: edible organs such as liver, kidney and heart; liver is the richest source of several vitamins and iron among the offal."
+    ]
+   },
+   {
+    "b": "Meat is valued mainly for its protein, haem iron and B group vitamins, and it contributes little carbohydrate to the diet.",
+    "h": "Nutritional significance of meat",
+    "points": [
+     "Protein: meat is a high biological value (HBV) protein source, supplying all the essential amino acids in the proportions the body needs.",
+     "Meat supplies about 20 to 30 per cent protein by weight.",
+     "Protein supplies amino acids for growth and repair of body cells and for making enzymes, hormones and antibodies.",
+     "Fat: meat fat is mainly saturated; it supplies energy and insulation, and its amount depends on the animal, the cut and whether visible fat is removed.",
+     "Carbohydrate: meat contains no carbohydrate, so it should be served with a starchy food such as potatoes, pasta or bread.",
+     "Haem iron: red meat, poultry and offal contain haem iron, which the body absorbs more readily than non-haem iron from plant foods.",
+     "Iron is needed to make haemoglobin, which carries oxygen in the blood.",
+     "Zinc supports enzyme activity, potassium supports muscle function, and phosphorus supports bones, teeth and energy release.",
+     "B group vitamins help the body release energy from food; cobalamin (B12) is found naturally only in animal foods.",
+     "Vitamin A and vitamin D are found mainly in liver; meat contains no vitamin C.",
+     "Water makes up about 50 to 60 per cent of meat, and extractives released during cooking give meat its flavour."
+    ]
+   },
+   {
+    "h": "Dietetic value of meat",
+    "points": [
+     "Protein from meat supports growth in children and teenagers and repair of tissue in adults.",
+     "People with coronary heart disease should limit saturated fat and cholesterol, so lean cuts are chosen and visible fat is trimmed.",
+     "Haem iron is especially important for pregnant women, menstruating women, children and teenagers, to prevent iron-deficiency anaemia.",
+     "Tough or overcooked meat is harder to digest, so tender cuts cooked gently suit older people and anyone with a poor appetite.",
+     "Department of Health healthy eating guidelines advise limiting processed meats because of their salt and saturated fat content.",
+     "The Irish Food Pyramid places meat, fish, eggs and beans in one food group, with lean and unprocessed choices recommended."
+    ]
+   },
+   {
+    "h": "Structure of meat",
+    "points": [
+     "Muscle is made of bundles of long, thin fibres, each fibre being a single muscle cell, running in the direction of the pull.",
+     "Fibres are grouped into bundles, which are held together by connective tissue.",
+     "Each fibre contains myofibrils made of the proteins actin and myosin; these slide past each other to shorten the muscle.",
+     "Connective tissue holds the muscle together and attaches it to bone; it contains collagen and elastin.",
+     "Fat is found as marbling within the muscle, as a layer under the skin, and around the organs; marbling adds juiciness and flavour."
+    ]
+   },
+   {
+    "h": "Proteins in meat",
+    "points": [
+     "Myosin and actin are the contractile proteins of the myofibrils and make up most of the muscle fibre.",
+     "Myoglobin is the oxygen-carrying pigment of muscle and gives raw meat its red colour; it turns brown or grey when heated.",
+     "Globulin is a soluble protein of the muscle fluid and is lost into cooking juices.",
+     "Collagen is an insoluble protein that forms tough connective tissue; it converts to gelatine when heated slowly in moisture.",
+     "Elastin is a springy connective tissue protein in tendons and ligaments; cooking does not soften it."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two proteins named, one mark each: myosin, actin, globulin, collagen, elastin or myoglobin. Two functions, one mark each: growth; repair of body cells; making enzymes; making hormones; making antibodies. Credit a function linked to the named protein, such as myosin and actin enabling muscle contraction for movement.",
+    "prompt": "Name two proteins found in meat and state two functions of protein in the body.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Protein: HBV protein supplying all essential amino acids; about 20 to 30 per cent of meat; needed for growth, repair, enzymes and hormones. Fat: mainly saturated; energy and insulation; amount varies with animal, cut and cooking method; limit for coronary heart disease. Carbohydrate: none, so serve with potatoes, pasta or bread. Minerals: haem iron in red meat, poultry and offal for haemoglobin and preventing anaemia; zinc for enzyme activity; potassium for muscle function; phosphorus for bones and energy release. Vitamins: B group vitamins for releasing energy from food; B12 found only in animal foods; vitamins A and D in liver; no vitamin C. Dietetic note: needs for growing children, pregnant women and teenagers; processed meats high in salt and saturated fat.",
+    "prompt": "Give an account of the nutritional significance of meat in the diet, referring to protein, fat, carbohydrate, minerals and vitamins.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meat-preparation-s2": {
+  "keyTerms": [
+   {
+    "definition": "The date after which highly perishable food, such as raw meat, must not be eaten because it may be unsafe.",
+    "term": "Use-by date"
+   },
+   {
+    "definition": "The date until which a food keeps its best quality; it does not indicate safety.",
+    "term": "Best-before date"
+   },
+   {
+    "definition": "The transfer of bacteria from raw meat to cooked or ready-to-eat food, through drips, boards, knives or hands.",
+    "term": "Cross-contamination"
+   },
+   {
+    "definition": "The ability to follow a food product back through each stage of production to its origin, such as the farm.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "The liquid lost from meat on thawing or cooking, which carries away soluble nutrients and extractives.",
+    "term": "Drip loss"
+   },
+   {
+    "definition": "Dry, discoloured patches on frozen meat caused by moisture loss where the meat was exposed to air.",
+    "term": "Freezer burn"
+   },
+   {
+    "definition": "The examination by a veterinary inspector of an animal before it is slaughtered.",
+    "term": "Ante-mortem inspection"
+   },
+   {
+    "definition": "The spoilage of fat through oxidation, giving meat an off-flavour and smell.",
+    "term": "Rancidity"
+   },
+   {
+    "definition": "A grey or brown colour, a sticky or slimy surface, and a sour or off smell.",
+    "term": "Three signs of spoiled raw meat"
+   },
+   {
+    "definition": "Animal welfare and care standards; regulated animal feed; accurate traceability of livestock and veterinary medicines.",
+    "term": "Three requirements of the Bord Bia Quality Assurance Scheme"
+   },
+   {
+    "definition": "5 °C and 63 °C.",
+    "term": "Two temperatures that bound the bacterial danger zone"
+   },
+   {
+    "definition": "The HSE Environmental Health Service, local authorities, and the Department of Agriculture, Food and the Marine.",
+    "term": "Three bodies that carry out food controls under FSAI service contracts"
+   },
+   {
+    "definition": "Large ice crystals rupture cell walls, and drip loss occurs on thawing.",
+    "term": "Two effects of slow freezing on meat"
+   },
+   {
+    "definition": "-18 °C or colder.",
+    "term": "Freezer temperature for raw meat"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Buying meat and meat products",
+    "points": [
+     "Fresh red meat is bright red, firm and moist with a fresh smell; a grey or brown colour, a sticky surface or a sour smell means the meat is spoiling.",
+     "Loose meat is cut to order at the counter; prepacked meat must be labelled with the product name, weight, storage instructions and a date mark.",
+     "A use-by date marks the end of the safe life of highly perishable meat and must not be passed; a best-before date indicates quality only.",
+     "Ingredient lists on meat products run in descending order of weight, and allergens must be highlighted, under the European Union (Provision of Food Information to Consumers) Regulations 2014, which give effect to Regulation (EU) No 1169/2011.",
+     "Fresh beef must be labelled with its country of origin under EU rules and carries a traceability code linking the meat to the animal.",
+     "Frozen meat should be solidly frozen; packs with ice crystals inside, thawed juice or freezer burn have usually been stored badly.",
+     "Buy meat last on a shopping trip and carry it home in an insulated bag to keep it chilled.",
+     "Consumers can reject faulty meat under the Consumer Rights Act 2022, which requires goods to be of satisfactory quality and fit for purpose.",
+     "The Competition and Consumer Protection Commission (CCPC) enforces the Consumer Protection Act 2007 against misleading food labelling."
+    ]
+   },
+   {
+    "h": "Factors affecting consumer decisions when buying meat",
+    "points": [
+     "Price: cheaper cuts such as shin, neck, mince and chicken thighs cost less per portion than prime cuts such as fillet.",
+     "Convenience: ready-prepared, marinated and processed meats save time and cooking skill.",
+     "Health: lean cuts, skinless poultry and low-salt products suit people controlling their fat, salt or weight intake.",
+     "Origin: many shoppers prefer Irish meat, and the Bord Bia logo signals assured Irish produce.",
+     "Animal welfare and farming method: free-range, organic and assured production appeals to shoppers concerned about welfare and the environment.",
+     "Appearance and freshness: colour, texture and smell are used to judge quality, and marbling in beef affects its appeal.",
+     "Packaging and portion size: small packs suit single people and reduce waste; large family packs usually cost less per kilogram.",
+     "Advertising, recipes and in-store promotions influence choice and encourage shoppers to try new products.",
+     "Household size and cooking facilities: a household without an oven may buy minced or ready-to-cook meat."
+    ]
+   },
+   {
+    "h": "Bord Bia Quality Assurance Scheme",
+    "points": [
+     "The Bord Bia Quality Assurance Scheme certifies Irish meat from farm through to processing against standards for food safety, animal welfare and traceability.",
+     "Requirements include animal welfare and care standards, regulated animal feed, competent herd management and records of veterinary medicines.",
+     "Traceability: livestock and meat are identified so each product can be traced back to the farm of origin.",
+     "Pest control and hygiene are required on farms and in processing plants, which are inspected to check compliance.",
+     "Bord Bia advises the industry and government on meat quality and promotes Irish meat to export markets."
+    ]
+   },
+   {
+    "h": "Official measures to keep meat safe",
+    "points": [
+     "The Food Safety Authority of Ireland (FSAI) is the national food safety body, established under the Food Safety Authority of Ireland Act 1998.",
+     "The Department of Agriculture, Food and the Marine controls animal health, veterinary inspection and residue monitoring.",
+     "Veterinary inspectors examine animals before slaughter (ante-mortem inspection) and carcasses after slaughter (post-mortem inspection) in abattoirs.",
+     "Residue testing checks meat for banned substances and for drug residues left by veterinary medicines.",
+     "Regulation (EC) No 852/2004 requires food businesses to run HACCP-based food safety management, given effect in Ireland by the European Communities (Hygiene of Foodstuffs) Regulations 2006.",
+     "Regulation (EU) 2017/625, given effect by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020, governs how food premises are inspected.",
+     "Regulation (EC) No 178/2002 general food law prohibits placing unsafe food on the market and requires traceability one step back and one step forward.",
+     "Inspections of food premises are carried out by the HSE Environmental Health Service and local authorities under FSAI service contracts, alongside the Department of Agriculture, Food and the Marine."
+    ]
+   },
+   {
+    "h": "Storing meat safely",
+    "points": [
+     "Keep raw meat in the refrigerator at 5 °C or below, because bacteria multiply rapidly between 5 °C and 63 °C, the danger zone.",
+     "Store raw meat covered on the lowest shelf so that drips cannot fall onto cooked or ready-to-eat food.",
+     "Use separate boards and knives for raw meat to prevent cross-contamination.",
+     "Use fresh raw meat within 2 to 3 days of purchase, or freeze it on the day of purchase.",
+     "A freezer temperature of -18 °C or colder keeps meat safe; quality declines the longer meat is kept frozen.",
+     "Thaw frozen meat slowly in the refrigerator, in a container so juices cannot contaminate other food, and cook it fully once thawed.",
+     "Vacuum-packed meat stays in its pack until needed and must be treated as fresh once opened.",
+     "Cool cooked meat quickly and refrigerate it promptly, because hot meat left to cool slowly allows bacteria to multiply.",
+     "Minced meat and offal spoil faster than whole cuts because bacteria spread over a larger surface area."
+    ]
+   },
+   {
+    "h": "Effects of storage on meat",
+    "points": [
+     "Refrigeration slows the growth of micro-organisms but does not kill them, so meat still spoils eventually.",
+     "Freezing stops microbial growth and enzyme activity but does not destroy all micro-organisms.",
+     "Slow freezing forms large ice crystals that rupture cell walls, causing drip loss and a soft texture on thawing.",
+     "Drip loss carries away soluble nutrients and extractives, so thawing liquid should be used in cooking.",
+     "Fat can go rancid in poorly stored meat, and freezer burn causes dry, discoloured patches where meat was exposed to air."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Colour: bright red for fresh red meat, with grey or brown indicating spoilage. Texture: firm and moist, not sticky or slimy. Smell: fresh, with a sour smell indicating spoilage. Date: the use-by date has not passed. Packaging: intact, with no leaking juices. Storage: chilled display, or frozen solid with no ice crystals for frozen meat. Each check described with its reason gains the marks.",
+    "prompt": "Describe two checks a shopper can make to judge whether fresh meat is of good quality and safe to buy.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Traceability: animals identified and movements recorded; each product traceable one step back and one step forward under Regulation (EC) No 178/2002. Farm stage: Bord Bia Quality Assurance Scheme requires animal welfare standards, regulated feed, competent herd management and veterinary medicine records; farm inspections; pest control. Department of Agriculture, Food and the Marine: animal health, residue testing for banned substances and drug residues. Processing stage: ante-mortem and post-mortem inspection by veterinary inspectors in abattoirs; HACCP-based food safety management under Regulation (EC) No 852/2004 given effect by the 2006 Regulations. Official controls under Regulation (EU) 2017/625 (2020 Regulations), carried out by the HSE Environmental Health Service and local authorities under FSAI service contracts. FSAI as the national food safety authority under the 1998 Act. Consumer stage: use-by dates, correct refrigeration at 5 °C or below, and freezer storage at -18 °C; labelling of origin and ingredients.",
+    "prompt": "Explain how the Irish meat industry and official bodies keep meat safe from farm to consumer, referring to traceability, inspection and assurance schemes.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meat-preparation-s3": {
+  "keyTerms": [
+   {
+    "definition": "The stiffening of muscle after slaughter, during which glycogen converts to lactic acid and the meat later tenderises on hanging.",
+    "term": "Rigor mortis"
+   },
+   {
+    "definition": "An enzyme that breaks down protein bonds in muscle and connective tissue, used to tenderise meat.",
+    "term": "Proteolytic enzyme"
+   },
+   {
+    "definition": "A seasoned liquid, often containing acid, in which meat is soaked to soften it and add flavour.",
+    "term": "Marinade"
+   },
+   {
+    "definition": "A concentrated salt solution used to add moisture to meat or to cure it.",
+    "term": "Brine"
+   },
+   {
+    "definition": "Toughening of meat caused by chilling it too quickly after slaughter, which makes the muscle contract.",
+    "term": "Cold shortening"
+   },
+   {
+    "definition": "The setting of protein when heated, causing meat to firm and its fibres to harden.",
+    "term": "Coagulation"
+   },
+   {
+    "definition": "The change in the structure of a protein caused by heat or acid, which alters its texture and colour.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "The browning reaction between sugars and amino acids on the surface of meat during dry heat, which creates roasted flavours.",
+    "term": "Maillard reaction"
+   },
+   {
+    "definition": "The transfer of heat through a solid, such as a pan or grill plate.",
+    "term": "Conduction"
+   },
+   {
+    "definition": "The transfer of heat through a liquid or air as hotter material rises and cooler material sinks.",
+    "term": "Convection"
+   },
+   {
+    "definition": "The transfer of heat by infrared waves travelling directly from a source, such as a grill element.",
+    "term": "Radiation"
+   },
+   {
+    "definition": "Age of the animal, activity of the muscle, and treatment before slaughter.",
+    "term": "Three causes of toughness in meat"
+   },
+   {
+    "definition": "Mincing, pounding with a steak hammer, and piercing with needles or skewers.",
+    "term": "Three mechanical tenderising methods"
+   },
+   {
+    "definition": "Papain from papaya and bromelain from pineapple.",
+    "term": "Two proteolytic enzymes from fruit"
+   },
+   {
+    "definition": "Conduction, convection and radiation.",
+    "term": "Three heat transfer methods in cooking"
+   },
+   {
+    "definition": "Coagulation, which firms the meat, and shrinkage, which squeezes out water and fat.",
+    "term": "Two effects of heat on meat protein"
+   },
+   {
+    "definition": "Fillet, sirloin and rump steak.",
+    "term": "Three tender cuts suited to dry cooking"
+   },
+   {
+    "definition": "Shin, chuck and brisket.",
+    "term": "Three tough cuts suited to slow moist cooking"
+   },
+   {
+    "definition": "About 80 to 90 °C, in a small amount of liquid.",
+    "term": "Temperature range for stewing meat"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Causes of toughness",
+    "points": [
+     "Age: older animals have thicker muscle fibres and more connective tissue, and the collagen in it is more cross-linked, so the meat is tougher.",
+     "Activity: muscles that work hard, such as the legs, neck and shoulder, have larger fibres and more connective tissue than the loin or fillet.",
+     "Treatment before slaughter: a rested animal has glycogen stores, but a stressed or exhausted animal uses up its glycogen, so less lactic acid forms after slaughter and the meat stays firm.",
+     "Hanging: meat that is not hung long enough, or is chilled too quickly after slaughter, contracts (cold shortening) and stays tough.",
+     "Cooking: high heat, fast cooking or overcooking coagulates the protein and squeezes out juices, leaving the meat dry and tough.",
+     "Connective tissue: collagen is not broken down by quick dry cooking, so tough cuts need slow moist cooking."
+    ]
+   },
+   {
+    "h": "Methods of tenderising and their principles",
+    "points": [
+     "Hanging after slaughter: rigor mortis sets in, glycogen turns to lactic acid, and the meat's own enzymes break down fibres during hanging.",
+     "Mincing: a mincer breaks fibres and connective tissue into small pieces, so tough cuts become tender in products such as burgers.",
+     "Pounding: a steak hammer breaks up muscle fibres and connective tissue.",
+     "Piercing: needles or skewers puncture fibres and connective tissue and allow marinade or brine to penetrate.",
+     "Proteolytic enzymes: papain from papaya, bromelain from pineapple and ficin from figs split the protein bonds in muscle and connective tissue; they are sprinkled on or injected before cooking.",
+     "Acid marinades: lemon juice, vinegar, wine or yoghurt soften muscle protein by acid action and add flavour.",
+     "Brining and curing: a salt solution dissolves some muscle proteins so the meat holds more water and stays juicy during cooking.",
+     "Slow moist cooking: stewing or braising at a low temperature converts collagen to gelatine, which softens the meat and separates the fibres.",
+     "Pressure cooking: steam at high pressure and temperature cooks tough cuts quickly and converts collagen to gelatine."
+    ]
+   },
+   {
+    "h": "Effects of cooking on meat",
+    "points": [
+     "Coagulation: heating makes the protein coagulate, so the meat firms and its fibres harden.",
+     "Shrinkage: water and fat are lost from the meat as it cooks, reducing its weight and size.",
+     "Fat melts during cooking, and in roasting it bastes the meat as it drips.",
+     "Collagen converts to gelatine in moist cooking, which tenderises the meat.",
+     "Myoglobin denatures at cooking temperatures, so the meat changes from red to brown or grey.",
+     "Micro-organisms are destroyed, so thorough cooking makes meat safe to eat.",
+     "Water-soluble vitamins, especially thiamine (B1), leach into cooking juices; the juices are used in gravy or sauce to retain them.",
+     "Flavour develops: extractives are released, and the Maillard reaction between sugars and amino acids browns the surface and gives a roasted flavour.",
+     "Overcooking makes protein tough and dry and lowers its digestibility."
+    ]
+   },
+   {
+    "h": "Heat transfer and cooking principles",
+    "points": [
+     "Conduction: heat passes through a solid such as a pan, so frying uses conduction through hot fat.",
+     "Convection: heat moves through a liquid or hot air, so stewing in liquid and roasting in a hot oven rely on convection.",
+     "Radiation: infrared heat travels directly from the source, so grilling and barbecuing rely on radiant heat.",
+     "Microwaves make water molecules in the food vibrate, producing heat inside the food.",
+     "Stewing: meat is simmered in a small amount of liquid at about 80 to 90 °C, which tenderises it and keeps it moist."
+    ]
+   },
+   {
+    "h": "Suitable cooking methods for different cuts",
+    "points": [
+     "Tender cuts such as fillet, sirloin, rump steak, loin chops and chicken breast suit dry methods: grilling, frying, roasting or barbecuing, which cook them quickly.",
+     "Tough cuts such as shin, chuck, brisket, neck, oxtail and flank need slow moist cooking: stewing, braising or casseroling.",
+     "Lamb shanks and beef shin become tender when braised slowly in liquid.",
+     "Mince is fried and then simmered in dishes such as bolognese, or shaped into burgers and grilled.",
+     "Poultry is cooked until no pink meat remains, the juices run clear and the centre is steaming hot.",
+     "Liver and kidney are cooked quickly by frying or grilling, because long cooking toughens them."
+    ]
+   },
+   {
+    "h": "Evaluating a cooking method",
+    "points": [
+     "An evaluation names the method, states its underlying principle, describes its effect on the meat, and weighs advantages against disadvantages.",
+     "Stewing advantages: it tenderises tough cuts, keeps the meat moist, makes use of cheap cuts, and the liquid becomes a sauce.",
+     "Stewing disadvantages: it takes a long time, and nutrients leach into the liquid if it is discarded.",
+     "Frying: it is fast and browns the surface, but it adds fat and dries or toughens the meat if overcooked.",
+     "Grilling: radiant heat browns tender cuts quickly with little added fat, but it can dry out lean meat.",
+     "Roasting: dry heat in an oven suits tender joints, and fat drips away from a rack.",
+     "Microwaving: it is fast and efficient, but it does not brown meat unless combined with a grill, and it can cook unevenly."
+    ]
+   },
+   {
+    "h": "Low-cost meat menus for a family",
+    "points": [
+     "Choose inexpensive cuts such as mince, chicken thighs, shin or stewing steak, and cook them by slow moist methods.",
+     "Stretch mince with vegetables or lentils; a bolognese with carrots, onions and lentils uses less meat without losing flavour.",
+     "Starchy foods such as potatoes, pasta, rice or bread complete the meal, make it filling and supply energy.",
+     "Cabbage and potatoes add vitamin C, which meat does not contain.",
+     "Meat supplies protein for growing children and haem iron for teenage girls and pregnant women, so it is worth including in a low-cost family meal.",
+     "Stock made from bones, and the cooking juices, make soups and gravies that keep extractives and water-soluble vitamins in the meal.",
+     "Batch cooking a casserole and freezing the portions saves fuel and time."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Mincing or pounding: physical breakdown of muscle fibres and connective tissue into smaller pieces, so the meat is softer. Proteolytic enzymes such as papain or bromelain: split protein bonds in muscle and connective tissue, softening the meat. Acid marinades: acid softens and denatures the muscle protein and adds flavour. Piercing with needles: punctures fibres and lets the marinade or brine penetrate. Each method with its principle gains the marks.",
+    "prompt": "Describe the principle behind two methods of tenderising meat that do not rely on slow cooking.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Name the method, for example stewing. Principle: conduction and convection through a small amount of liquid at about 80 to 90 °C. Effect on the meat: collagen converts to gelatine, so the fibres soften and separate; the meat stays moist; colour changes to brown; micro-organisms are destroyed; flavour from extractives in the stock. Nutrients: water-soluble vitamins such as thiamine leach into the liquid, so the liquid is used as a sauce. Advantages: tenderises cheap tough cuts, economical, low attention needed while cooking, can cook a whole meal in one pot. Disadvantages: long cooking time and fuel use, so less suitable where time is short; loss of nutrients if the liquid is discarded. Conclusion weighs these against the family's needs, for example batch cooking and freezing portions to save time.",
+    "prompt": "Evaluate one cooking method suitable for a tough cut of meat, referring to its underlying principle, how it changes the meat, and its advantages and disadvantages for a family with limited time.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-meat-preparation-s4": {
+  "keyTerms": [
+   {
+    "definition": "Meat that has been minced, salted, cured, smoked, cooked or otherwise altered before sale.",
+    "term": "Processed meat"
+   },
+   {
+    "definition": "Preserving meat by adding salt, sugar and curing salts so that micro-organisms are inhibited.",
+    "term": "Curing"
+   },
+   {
+    "definition": "The movement of water across a membrane from a weaker to a stronger salt solution, which dehydrates micro-organisms in salted meat.",
+    "term": "Osmosis"
+   },
+   {
+    "definition": "A curing salt that inhibits spoilage bacteria and gives cured meat its pink colour.",
+    "term": "Nitrite"
+   },
+   {
+    "definition": "Packaging meat after air has been removed, which prevents aerobic micro-organisms from growing.",
+    "term": "Vacuum packing"
+   },
+   {
+    "definition": "Packaging in which the air is replaced with a gas mixture that slows the spoilage of meat.",
+    "term": "Modified atmosphere packaging"
+   },
+   {
+    "definition": "Sealing food in cans and heat-sterilising it, which destroys micro-organisms and inactivates enzymes.",
+    "term": "Canning"
+   },
+   {
+    "definition": "A dried soya protein product that is rehydrated and used to extend meat in some products.",
+    "term": "Textured vegetable protein"
+   },
+   {
+    "definition": "Freezing meat quickly in a very cold air blast so that it freezes rapidly.",
+    "term": "Blast freezing"
+   },
+   {
+    "definition": "Refrigeration, freezing, curing and canning.",
+    "term": "Four processes that extend the shelf life of meat"
+   },
+   {
+    "definition": "Economy, little waste and convenience.",
+    "term": "Three advantages of processed meat"
+   },
+   {
+    "definition": "High salt content and high saturated fat content.",
+    "term": "Two disadvantages of processed meat"
+   },
+   {
+    "definition": "Carbon dioxide, nitrogen and oxygen.",
+    "term": "Three gases used in modified atmosphere packs"
+   },
+   {
+    "definition": "Listeria monocytogenes, which makes ready-to-eat cooked and cured meats a food safety concern.",
+    "term": "Bacterium that can grow at refrigerator temperatures"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What processed meat is",
+    "points": [
+     "Processed meat is meat that has been minced, salted, cured, smoked, cooked or otherwise altered before sale.",
+     "Examples: frozen burgers, nuggets and sausages; rashers and cooked ham; luncheon meats; salami; canned stew and corned beef.",
+     "Cured meats such as bacon and ham contain salt and curing salts (sodium nitrite), which give them a pink colour and a cured flavour.",
+     "Minced products use trimmings, offal and fat, with seasonings and binders added.",
+     "Textured vegetable protein (TVP), a dried soya product, is used as a meat extender in some burgers and stews.",
+     "Food additives in processed meat must be approved under Regulation (EC) No 1333/2008 on food additives, and products list them by E number."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of processed meat",
+    "points": [
+     "Economy: products are cheap per portion and can use cheaper cuts and trimmings.",
+     "Little waste: all parts of the carcass are used, and portions are uniform.",
+     "Convenience: products cook quickly and need little preparation, cooking skill or equipment.",
+     "Fuel and labour saving: a frozen product often needs only reheating.",
+     "Long shelf life: frozen, canned and cured products keep far longer than fresh meat.",
+     "Variety: different flavours, shapes and sizes give choice and appeal to children.",
+     "Disadvantages: high salt content can contribute to high blood pressure, and many products are high in saturated fat from fatty trimmings.",
+     "Many products contain added water, fillers and additives, so their meat content is lower than the name suggests.",
+     "Freezing retains most nutrients in processed products, while canning and dehydration lose some B vitamins."
+    ]
+   },
+   {
+    "h": "Processes that extend the shelf life of meat",
+    "points": [
+     "Refrigeration: keeping meat chilled slows bacterial growth and enzyme activity, extending its life by days; Listeria monocytogenes can still grow at refrigerator temperatures, so ready-to-eat cooked and cured meats need careful hygiene.",
+     "Freezing: low temperatures stop microbial growth and enzyme activity, and frozen meat keeps for months.",
+     "Vacuum packing: air is removed so aerobic micro-organisms cannot grow; the sealed pack must be kept refrigerated.",
+     "Modified atmosphere packaging: air is replaced with a gas mix, usually carbon dioxide and nitrogen, which slows spoilage.",
+     "Curing and salting: salt, sugar and nitrite draw water from micro-organisms and inhibit spoilage bacteria.",
+     "Smoking: smoke compounds and light drying slow microbial growth and add flavour.",
+     "Canning: food sealed in cans is heat-sterilised under pressure, destroying micro-organisms and inactivating enzymes.",
+     "Dehydration: removing moisture stops microbes growing, since they need water to multiply; freeze-drying removes water from frozen meat under vacuum."
+    ]
+   },
+   {
+    "b": "Curing is worked through in full as an example of a process that extends the shelf life of meat.",
+    "h": "Curing: method, principle and effect",
+    "points": [
+     "Method: meat is trimmed, then rubbed with or injected with brine containing salt, sugar and curing salts (sodium nitrite), and held in a cool room for several days.",
+     "Method: after curing, the meat may be smoked, or sold green (uncooked) as raw cured meat.",
+     "Principle: salt draws water out of micro-organisms by osmosis, dehydrating them and reducing the water available for growth.",
+     "Principle: nitrite inhibits spoilage bacteria, including Clostridium botulinum, and fixes the pink colour of cured meat.",
+     "Effect on meat: there is little loss of nutritive value, but the sodium content rises.",
+     "Effect on meat: the meat becomes firmer and drier, and its flavour changes to a salty, cured taste."
+    ]
+   },
+   {
+    "h": "Freezing: method, principle and effect",
+    "points": [
+     "Method: meat is boned, trimmed and wrapped in moisture-proof packaging, then blast frozen so that it freezes quickly.",
+     "Principle: low temperatures inhibit enzyme activity and microbial growth, and the moisture in the meat turns to ice, which is unavailable to micro-organisms.",
+     "Effect on meat: colour, texture and most nutrients are retained, although slight losses of B vitamins and minerals occur in drip.",
+     "Effect on meat: freezer burn and rancidity occur if the packaging fails and the meat is exposed to air."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two examples, one mark each: sausages, rashers, cooked ham, burgers, nuggets, salami, canned corned beef. One reason, with explanation for full marks: convenience, because they cook quickly with little preparation; economy, because they are cheap per portion and use cheaper cuts and trimmings; long shelf life, so they can be stored in the freezer or pantry.",
+    "prompt": "Give two examples of processed meat products and explain one reason why consumers buy them.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Freezing: method, meat boned, trimmed and wrapped in moisture-proof packaging, then blast frozen. Principle: low temperatures inhibit enzyme activity and microbial growth; moisture turns to ice, which is unavailable to micro-organisms. Effect on the meat: colour, texture and most nutrients retained; slight loss of B vitamins and minerals in drip; freezer burn if packaging fails; the meat keeps for months. Alternative accepted: curing, with method of brine or dry cure and holding in a cool room; principle of osmosis drawing water from micro-organisms and nitrite inhibiting spoilage bacteria; effect of a rise in sodium, firmer and drier texture and a pink colour.",
+    "prompt": "Describe one process used to extend the shelf life of meat, referring to the method, the principle behind it and its effect on the meat.",
     "type": "short"
    }
   ]
@@ -4483,6 +11900,1297 @@
     "marks": 20,
     "model": "Name the product, for example textured vegetable protein or mycoprotein. For textured vegetable protein: soya beans are cleaned, de-hulled and their oil extracted; the beans are ground to flour; carbohydrate is removed; vegetable oil, flavourings, seasonings and nutritional additives such as vitamin B12, iron and methionine are added; the mixture is heated and extruded; it is cut or cubed into mince-like pieces; it is dried, packed and labelled. For mycoprotein: a fungus is fermented under controlled conditions; the cells are harvested, filtered and drained; a binder is added; flavour and colour are added; the mass is textured, sliced, cubed or shredded and steamed to set the binder; it is packed and labelled.",
     "prompt": "Select one novel protein food you have studied, name it, and set out its stages of manufacture.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-resource-management-s1": {
+  "keyTerms": [
+   {
+    "definition": "Anything a family can draw on to meet its needs and wants.",
+    "term": "Resources"
+   },
+   {
+    "definition": "The efficient use of available resources to achieve the goals of the family.",
+    "term": "Resource management"
+   },
+   {
+    "definition": "The time, energy, skills and knowledge of the people in a family.",
+    "term": "Human resources"
+   },
+   {
+    "definition": "The equipment, food, goods and other physical items a family uses in the home.",
+    "term": "Material resources"
+   },
+   {
+    "definition": "The income, savings and credit available to a family to pay for what it needs.",
+    "term": "Economic resources"
+   },
+   {
+    "definition": "The physical surroundings and community facilities that support family life.",
+    "term": "Environmental resources"
+   },
+   {
+    "definition": "A planned, step-by-step way of turning a need or goal into a result using available resources.",
+    "term": "Management system"
+   },
+   {
+    "definition": "A group, such as the family, that plans and controls its own resources.",
+    "term": "Managerial unit"
+   },
+   {
+    "definition": "Human (time, energy, skills, knowledge), material (equipment, food, goods), economic (income, savings, credit) and environmental (space, facilities, surroundings).",
+    "term": "Four types of resource used in family management"
+   },
+   {
+    "definition": "To use available resources efficiently to achieve goals; to improve the quality of family life.",
+    "term": "Two aims of family resource management"
+   },
+   {
+    "definition": "Tasks are completed on time with less stress; time and money are not wasted on last-minute decisions; the workload is shared fairly.",
+    "term": "Three benefits of a planned household routine"
+   },
+   {
+    "definition": "Meal planning, budgeting, housework and childcare.",
+    "term": "Four examples of everyday tasks that need a management system"
+   },
+   {
+    "definition": "The natural, primary and fundamental unit group of society.",
+    "term": "Irish Constitution, Article 41: how the family is described"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Resource management is the planned use of the resources a family has available to reach its goals.",
+    "h": "Purpose of family resource management",
+    "points": [
+     "Resources are anything a family can draw on to meet its needs and wants.",
+     "Human resources: the time, energy, skills and knowledge of family members.",
+     "Material resources: equipment, food, ingredients, clothing, furniture and other household goods.",
+     "Economic resources: income, savings and credit available to the family.",
+     "Environmental resources: the physical surroundings and community facilities that support family life, such as space, daylight and local services.",
+     "The core purpose is to use available resources efficiently in order to achieve goals.",
+     "A second purpose is to improve the quality of family life, and to enable each family member to reach their full potential.",
+     "Good management reduces waste of time, money, food and energy."
+    ]
+   },
+   {
+    "b": "A management system is a planned, step-by-step way of turning a need or goal into a result using the resources available.",
+    "h": "Management systems",
+    "points": [
+     "A management system lets a family decide what needs doing, who does it, when it is done and which resources it needs.",
+     "Everyday tasks that use a management system include meal planning, budgeting, housework, childcare and shopping.",
+     "One-off events such as a birthday party, a holiday or a house move also use a management system.",
+     "Systems work best when the goals, standards and responsibilities are agreed in advance, so that members know what is expected of them.",
+     "Systems are not fixed: they are adjusted when circumstances change, such as a new job or the arrival of a baby."
+    ]
+   },
+   {
+    "h": "How good management contributes to a well-run home",
+    "points": [
+     "Planned routines make sure meals, laundry and school preparation are done on time, with less last-minute stress.",
+     "Meal plans and shopping lists reduce impulse buying and the amount of food that is wasted.",
+     "Shared tasks spread the workload fairly, so no single member carries the whole household.",
+     "Goals and standards agreed by all members give the family a shared direction and reduce conflict.",
+     "Efficient use of time and equipment frees time for leisure, rest and relationships.",
+     "Careful use of energy and water lowers the cost of running the home."
+    ]
+   },
+   {
+    "b": "The family is a small group that pools, allocates and controls its own resources.",
+    "h": "The family as a managerial unit",
+    "points": [
+     "Article 41 of the Irish Constitution recognises the family as the natural, primary and fundamental unit group of society.",
+     "Each member contributes resources such as earnings, time or skills, and each member benefits from the shared pool.",
+     "Adults usually plan and coordinate; children and teenagers take on tasks and share in decisions as they grow older.",
+     "Family goals may be short term, such as a weekly shop or a family outing, or long term, such as buying a home or saving for education.",
+     "Management requires balancing individual wants against the needs and goals of the household as a whole."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Purpose, any two points at 2 marks each (4 marks): to use available resources efficiently in order to achieve goals; to improve the quality of family life; to enable each family member to reach their full potential. Example (2 marks): a weekly meal plan with a shopping list uses money and time efficiently and reduces food waste.",
+    "prompt": "Outline the purpose of family resource management and give one example of how a family can use its resources efficiently.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Family as a managerial unit: the family pools its income, time, skills and goods and decides how they are allocated. Types of resource: human (time, energy, skills, knowledge), material (equipment, food, goods), economic (income, savings, credit) and environmental (space, facilities, surroundings). Goals: short term, such as a weekly shop or an outing, and long term, such as buying a home or saving for education. Process: adults plan and coordinate; children and teenagers take on tasks and share in decisions as they grow older. Management system: tasks, responsibilities and standards are agreed in advance and the plan is adjusted when circumstances change. Balance: individual wants must be weighed against the needs and goals of the household as a whole. Outcome: resources are used efficiently, waste is reduced and the quality of family life improves.",
+    "prompt": "Discuss how a family, acting as a managerial unit, uses its resources to achieve its goals. Refer to the types of resource and to the goals a family may set in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-resource-management-s2": {
+  "keyTerms": [
+   {
+    "definition": "The model of a management system made up of inputs, throughputs and outputs.",
+    "term": "Management framework"
+   },
+   {
+    "definition": "The resources, needs, wants and goals a family brings into the management process.",
+    "term": "Inputs"
+   },
+   {
+    "definition": "The planning, organising and implementing actions that change inputs into outputs.",
+    "term": "Throughputs"
+   },
+   {
+    "definition": "The results of the management process, including goals achieved, satisfaction and evaluation.",
+    "term": "Outputs"
+   },
+   {
+    "definition": "Necessities that must be met, such as food, shelter and warmth.",
+    "term": "Needs"
+   },
+   {
+    "definition": "Desires that go beyond necessities.",
+    "term": "Wants"
+   },
+   {
+    "definition": "The outcomes a family sets out to achieve.",
+    "term": "Goals"
+   },
+   {
+    "definition": "Passing a task to another member together with the instructions and resources needed to complete it.",
+    "term": "Delegation"
+   },
+   {
+    "definition": "Information about the result of an action, used to improve the next cycle of management.",
+    "term": "Feedback"
+   },
+   {
+    "definition": "Choosing one course of action from a set of alternatives after weighing them against goals and resources.",
+    "term": "Decision-making"
+   },
+   {
+    "definition": "The sharing of information, ideas, values and concerns between family members.",
+    "term": "Communication"
+   },
+   {
+    "definition": "Inputs, throughputs and outputs.",
+    "term": "Three components of the management process"
+   },
+   {
+    "definition": "Planning, organising and implementing.",
+    "term": "Three stages of throughputs"
+   },
+   {
+    "definition": "Goals achieved; changes in values, goals and standards; satisfaction; evaluation; effective use of feedback.",
+    "term": "Five outputs checked at the end of a management cycle"
+   },
+   {
+    "definition": "Identify the problem or need; gather information; weigh the alternatives against goals and resources; choose a course of action and review it.",
+    "term": "Four steps in decision-making"
+   },
+   {
+    "definition": "It shares information and ideas; it allocates tasks fairly; it helps to resolve conflict.",
+    "term": "Three benefits of shared decision-making in a family"
+   },
+   {
+    "definition": "Time, people (human energy), skills and knowledge, and equipment.",
+    "term": "Four resources, other than money, needed for a good management system"
+   },
+   {
+    "definition": "Work sharing, delegation and rotating tasks on the basis of fairness rather than sex.",
+    "term": "Three ways household tasks can be shared in modern families"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Inputs are what a family brings into the management process at the start.",
+    "h": "Inputs (Higher Level only)",
+    "points": [
+     "Human resources are the time, energy, skills and knowledge of family members, which are used to make and carry out decisions.",
+     "Material resources are equipment, ingredients, clothing, furniture and other household goods used in the task.",
+     "Needs are necessities that must be met, such as food, shelter and warmth.",
+     "Wants are desires that go beyond necessities, such as a particular brand, a holiday or a new appliance.",
+     "Goals are the outcomes the family sets out to achieve, such as a balanced weekly budget or a family meal on the table by six o'clock.",
+     "Inputs are the starting point: a poorly defined need or goal at this stage leads to a result that does not meet the family's needs."
+    ]
+   },
+   {
+    "b": "Throughputs are the actions a family takes to change its inputs into outputs.",
+    "h": "Throughputs (Higher Level only)",
+    "points": [
+     "Planning: gathering information, identifying the alternatives, weighing them up and deciding on a course of action.",
+     "Organising: allocating tasks and responsibilities, deciding who does what and when, and arranging the resources each task needs.",
+     "Implementing: putting the plan into action, such as booking, buying, cooking or cleaning.",
+     "Adjusting during implementation: changes are made when needs arise, such as an unexpected guest or a shortage of an ingredient.",
+     "A plan lists the steps in order and the resources each step needs, so that work can be checked against it."
+    ]
+   },
+   {
+    "b": "Outputs are the results produced by the throughputs, and they are measured against the goals set in the inputs.",
+    "h": "Outputs (Higher Level only)",
+    "points": [
+     "Goals achieved: whether the outcome matches the goals the family set.",
+     "Changes in values, goals and standards: the result may show that a goal or standard was unrealistic and needs to be revised.",
+     "Satisfaction: whether family members are happy with the result and whether their needs and wants were met.",
+     "Evaluation: an assessment of whether time, money and energy were used efficiently and effectively.",
+     "Effective use of feedback: information about the result is fed back into the system so that the next cycle of planning is improved."
+    ]
+   },
+   {
+    "b": "A decision is a choice of one course of action from a set of alternatives.",
+    "h": "Decision-making",
+    "points": [
+     "Steps in decision-making: identify the problem or need, gather information, list the options, weigh each option against the goals and resources, choose one and act on it.",
+     "Review after acting: check whether the decision achieved the goal, and record what should be done differently next time.",
+     "Sharing information and ideas before a decision allows the family to allocate tasks fairly.",
+     "Decisions made with the views of all members help to resolve conflict and build commitment to the outcome.",
+     "Decision-making gives members a broader view of the issues and improves the efficiency of the family's work.",
+     "Decisions are easier when the family's values and goals have been agreed beforehand."
+    ]
+   },
+   {
+    "b": "Communication is the sharing of information, ideas, values and concerns between family members.",
+    "h": "Communication in the management process",
+    "points": [
+     "Communication is needed at every stage: agreeing goals in the inputs, allocating tasks in organising and reporting progress in implementing.",
+     "Open discussion of what is and is not working provides the feedback that is used to evaluate the outputs.",
+     "Family meetings, a shared written list or a shared calendar are practical ways to communicate decisions.",
+     "A decision that is not communicated to every member can lead to duplicated work, missed tasks and conflict."
+    ]
+   },
+   {
+    "h": "Planning routines for modern patterns of living",
+    "points": [
+     "Modern families may include two working adults, shift workers, lone parents or a parent working from home, and routines must be planned around these patterns.",
+     "Work sharing: tasks such as cooking, shopping, laundry and cleaning are divided between members.",
+     "Responsibility for family tasks: each member is given a defined task for which they are accountable.",
+     "Delegation: an adult passes a task to another member and gives them the instructions and resources needed to complete it.",
+     "Gender equity: household tasks are shared on the basis of ability and availability rather than assigned by sex.",
+     "Checklists for routines: a daily or weekly checklist lists each task, who completes it and when it is due.",
+     "Work schedules: a written timetable, such as a weekly cleaning rota, shows the sequence of tasks and who is responsible for each one."
+    ]
+   },
+   {
+    "b": "The framework can be used for meal planning, money and home management, problem solving and decision-making. A family birthday party is used here as the example.",
+    "h": "Applying the management framework to a named event (Also examined)",
+    "points": [
+     "Inputs: the need is a celebration; the goal is a happy party for a child; the want is a particular cake; the human resources are time and help from relatives; the material resources are food, decorations and invitations; the money available sets the budget.",
+     "Throughputs: planning the guest list and the budget; organising who buys food, who prepares the room and who sends invitations; implementing the plan and adjusting for extra guests.",
+     "Outputs: whether the goal of a happy party was achieved, whether the money was kept within budget, whether members were satisfied, and what would improve the next event.",
+     "Feedback from the outputs is recorded so that the next party is planned more efficiently."
+    ]
+   },
+   {
+    "h": "Resources other than money (Also examined)",
+    "points": [
+     "Time: allows planning and avoids waste; tasks are completed more efficiently when time is scheduled.",
+     "People: family members make and carry out decisions and tasks.",
+     "Skills and knowledge: support problem solving, healthy meals and budgeting.",
+     "Equipment: saves time and energy; a washing machine, for example, replaces hours of hand washing.",
+     "Human energy: allows tasks to be completed in an acceptable and harmonious way."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Stages (3 marks): inputs (needs, wants, goals, human and material resources); throughputs (planning, organising, implementing); outputs (goals achieved, satisfaction, evaluation and feedback). Description (3 marks), for example: planning the weekly menu within the food budget, using the family's needs and time; organising who shops and who cooks; implementing by preparing the meal and adjusting for a late arrival; evaluating whether the meal met the family's needs and whether the money was used well.",
+    "prompt": "Name the three stages of the management process and describe how one of them could be used when planning a family meal.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Inputs: the need for a break, goals such as rest and family time, wants such as a particular destination, human resources (time, skills, energy of members) and material resources and money that set the budget. Throughputs: planning involves gathering information on costs and options and deciding on a course of action; organising allocates tasks such as booking, packing and arranging transport; implementing carries out the plan and adjusts for changes. Decision-making: identify the options, weigh them against the budget and goals, choose one and review it. Communication: members share information and views so that decisions are agreed and tasks are not duplicated or missed. Outputs: evaluate whether the goals were achieved, whether the budget was kept, whether all members were satisfied and record feedback for planning the next holiday.",
+    "prompt": "Using the management framework, explain how a family could plan and evaluate a family holiday. Refer to decision-making and communication in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-resource-management-s3": {
+  "keyTerms": [
+   {
+    "definition": "The sequence of stages a family passes through over time, each with different priorities and resource needs.",
+    "term": "Life cycle"
+   },
+   {
+    "definition": "The way family members work, including the number of earners, hours worked and where the work takes place.",
+    "term": "Employment pattern"
+   },
+   {
+    "definition": "The situation where a family member must combine paid work outside the home with the responsibilities of a parent or home manager.",
+    "term": "Dual role"
+   },
+   {
+    "definition": "The shared customs, food, dress, religious practices and celebrations that shape how a family lives and manages its home.",
+    "term": "Culture"
+   },
+   {
+    "definition": "A family's beliefs about what matters most, which guide its decisions.",
+    "term": "Values"
+   },
+   {
+    "definition": "The levels of quality a family sets for its home, meals, appearance and finances.",
+    "term": "Standards"
+   },
+   {
+    "definition": "The behaviour and responsibilities expected of men and women within a household.",
+    "term": "Sex roles"
+   },
+   {
+    "definition": "A family's position based on its income, occupation and education, which affects the resources it has.",
+    "term": "Socio-economic status"
+   },
+   {
+    "definition": "The number and make-up of the people in a family, including children and members with special needs.",
+    "term": "Family composition"
+   },
+   {
+    "definition": "The everyday pattern of work, leisure, eating and travel that a family follows.",
+    "term": "Lifestyle"
+   },
+   {
+    "definition": "Newly married couple; family with young children; family with school-going children; family with teenagers; older couple after the children have left home.",
+    "term": "Five typical stages of the family life cycle"
+   },
+   {
+    "definition": "Their needs for time, money and space increase; childcare and routines must be planned; daily timetables and budgets are built around their care.",
+    "term": "Three effects of young children on family management"
+   },
+   {
+    "definition": "Meal times change; sleep patterns change; routines must be built around the shift pattern.",
+    "term": "Three effects of shift work on household management"
+   },
+   {
+    "definition": "Dress code; the food eaten; religious practices; festivals and celebrations.",
+    "term": "Four ways culture can affect family management"
+   },
+   {
+    "definition": "Choosing local shopping; choosing organic or sustainable food; changing priorities when circumstances change, such as illness.",
+    "term": "Three ways a family's values can change how it is managed"
+   },
+   {
+    "definition": "Number of people in the family; presence of members with special needs; number of children; whether it is a lone-parent or two-parent household.",
+    "term": "Four elements of family composition"
+   },
+   {
+    "definition": "It has more money for spending, saving and credit repayments; it has less time for household tasks.",
+    "term": "Two ways a dual-income household differs from a single-income household"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A family's priorities, resources and ability to take part in household tasks change as its members age.",
+    "h": "Stages in the life cycle",
+    "points": [
+     "Stages include a newly married couple, a family with young children, a family with school-going children, a family with teenagers and an older couple whose children have left home.",
+     "Young children need time, money and space for feeding, care and supervision, so childcare and daily routines become central to management.",
+     "Older children can take on tasks and join family decisions, which reduces the workload on parents.",
+     "Teenagers increase the family's spending on clothing, books, school costs and leisure, and they need planning for further education.",
+     "Older people may have a reduced income and reduced mobility, which affects choices about food, transport and housing.",
+     "Newly married couples and childless households often have more flexible time and more income for leisure than families with young children."
+    ]
+   },
+   {
+    "b": "The way family members work determines how much money the family has and when its members are free to carry out tasks.",
+    "h": "Employment patterns",
+    "points": [
+     "A dual-income household has more money available but less time for housework and meal preparation.",
+     "A single-income household has less money to manage, so budgeting and planning for essentials are more critical.",
+     "Full-time, part-time, job-sharing, flexible and seasonal hours each change when family members are available for tasks.",
+     "Shift work and night work change meal times and sleep patterns, and routines must be built around them.",
+     "Commuting adds travel time and cost, which affects the family budget and the time left for household work.",
+     "Working from home, or a parent working abroad, changes how tasks and childcare are shared."
+    ]
+   },
+   {
+    "h": "Managing a dual role",
+    "points": [
+     "A dual role arises when both partners work outside the home, so extra planning is needed for childcare, meals and housework.",
+     "A lone parent carries both the earner role and the parent role, with no second adult to share tasks or decisions.",
+     "Dual roles need delegation and shared planning, such as a weekly planning meeting or a shared calendar."
+    ]
+   },
+   {
+    "h": "Culture and values",
+    "points": [
+     "Culture shapes family management through dress codes, the food a family eats, religious practices, and festivals and celebrations.",
+     "Culture also shapes expectations about who does which tasks and who is expected to earn income.",
+     "Values are a family's beliefs about what matters, such as health, sustainability, education, faith or community.",
+     "Values determine decisions, such as buying local food, choosing organic produce or reducing waste.",
+     "Values change when circumstances change, for example after the illness of a family member."
+    ]
+   },
+   {
+    "h": "Standards and sex roles",
+    "points": [
+     "Standards are the levels of quality a family sets for its home, meals, appearance and finances, such as how clean the house is kept.",
+     "Standards determine how much time, money and effort a task requires.",
+     "High standards can cause strain and overload when time and resources are limited; low standards can affect health and comfort.",
+     "Sex roles are the behaviour expected of men and women within a household.",
+     "Traditional sex roles assigned household work to women and income-earning to men; gender roles are increasingly equal, with shared childcare, cooking and cleaning.",
+     "When one partner is expected to carry all household tasks, the workload becomes unfair and management is harder to share."
+    ]
+   },
+   {
+    "b": "Lifestyle is the everyday pattern of work, leisure, eating and travel that a family follows; it is shaped by socio-economic status and family composition.",
+    "h": "Lifestyle: socio-economic status and family composition",
+    "points": [
+     "Socio-economic status affects income, which sets the total resources available to the family and the choices it can make.",
+     "Families from lower socio-economic backgrounds give priority to essentials such as food, heating and housing.",
+     "Families from higher socio-economic backgrounds may place more emphasis on luxuries, leisure and extra services.",
+     "Socio-economic group also influences educational opportunity and the type of employment available, which in turn affects income.",
+     "Family composition is the number and make-up of the people in the family, including the number of children and whether it is a lone-parent or two-parent household.",
+     "A larger family needs more food, clothing and space, so budgets and meal plans must be scaled up.",
+     "A family member with a disability or special needs can increase household costs and reduce the time or ability of others to earn."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two points at 3 marks each. Young children need time, money and space for care, so childcare and daily routines must be planned around them. Teenagers increase spending on clothing, books and school costs and need planning for further education; older children can take on tasks and join family decisions, reducing the parents' workload. Any two well-explained examples with a clear link to management earn full marks.",
+    "prompt": "Explain how a family's stage in the life cycle affects the management of its home. Give two examples.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Employment patterns: a dual-income household has more money but less time, so planning, delegation and shared tasks are needed; a single-income household has less money, so budgeting for essentials is critical. Shift work changes meal times and sleep patterns, so routines are built around the shift pattern. Commuting adds time and cost to the budget. Culture: food, dress code, religious practices and festivals shape spending and the timing of tasks; culture also shapes expectations of who does which tasks and who earns income. Link: a family that works shifts and follows a religious festival calendar must plan its meals, budget and time around both, combining the influence of employment and culture on its resource management.",
+    "prompt": "Discuss how employment patterns and culture affect the management of a family's resources. Use examples from family life in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-vitamins-minerals-s1": {
+  "keyTerms": [
+   {
+    "definition": "A vitamin that dissolves in fat, is absorbed with dietary fat and is stored in the liver and fatty tissue.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "The active form of vitamin A, found in animal foods such as liver, dairy products and eggs.",
+    "term": "Retinol"
+   },
+   {
+    "definition": "A plant pigment that the body converts into retinol, acting as a provitamin A and an antioxidant.",
+    "term": "Beta-carotene"
+   },
+   {
+    "definition": "The light-sensitive pigment in the rod cells of the retina, formed from retinol and opsin, that allows vision in dim light.",
+    "term": "Rhodopsin"
+   },
+   {
+    "definition": "Vitamin D3, formed in the skin by ultraviolet B light acting on a cholesterol derivative.",
+    "term": "Cholecalciferol"
+   },
+   {
+    "definition": "An active form of vitamin E that acts as an antioxidant protecting cell membranes.",
+    "term": "Tocopherol"
+   },
+   {
+    "definition": "The chemical group to which vitamin K belongs, with K1 from plants and K2 from gut bacteria.",
+    "term": "Naphthoquinone"
+   },
+   {
+    "definition": "Dryness and damage of the eyes caused by severe vitamin A deficiency, which can lead to blindness.",
+    "term": "Xerophthalmia"
+   },
+   {
+    "definition": "A childhood disease in which bones soften and bend because of a lack of vitamin D and calcium.",
+    "term": "Rickets"
+   },
+   {
+    "definition": "A condition in adults in which bones become soft and painful because they are not properly mineralised.",
+    "term": "Osteomalacia"
+   },
+   {
+    "definition": "Vitamins A, D, E and K.",
+    "term": "The four fat-soluble vitamins"
+   },
+   {
+    "definition": "Night blindness; dry, damaged eyes (xerophthalmia); dry, rough skin.",
+    "term": "Three signs of vitamin A deficiency"
+   },
+   {
+    "definition": "Oily fish such as salmon and mackerel, and egg yolk.",
+    "term": "Two dietary sources of vitamin D"
+   },
+   {
+    "definition": "Increases absorption of calcium and phosphorus; helps regulate blood calcium; supports the formation of strong bones and teeth.",
+    "term": "Three functions of vitamin D"
+   },
+   {
+    "definition": "It allows the liver to make clotting factors such as prothrombin, so that blood clots.",
+    "term": "Role of vitamin K in blood clotting"
+   },
+   {
+    "definition": "Vegetable oils, nuts and seeds, wholegrain cereals and green leafy vegetables.",
+    "term": "Food sources of vitamin E"
+   },
+   {
+    "definition": "Their gut bacteria are not yet established and they risk bleeding; a single injection at birth prevents this.",
+    "term": "Why newborn babies receive vitamin K"
+   },
+   {
+    "definition": "Cholecalciferol (D3) from skin exposure to sunlight, and ergocalciferol (D2) from mushrooms and yeast.",
+    "term": "Two forms of vitamin D"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Vitamins A, D, E and K dissolve in fat, so they are absorbed together with dietary fat.",
+    "h": "Fat-soluble vitamins: absorption and storage",
+    "points": [
+     "Fat-soluble vitamins are absorbed in the small intestine along with dietary fats and are carried in the lymphatic system before entering the blood.",
+     "The liver and fatty tissue store fat-soluble vitamins, so the body keeps a reserve between meals.",
+     "Because they are stored, excess intake from supplements or large amounts of liver can build up to toxic levels; water-soluble vitamins are excreted in urine instead.",
+     "Excess vitamin A is harmful in pregnancy, so high-dose vitamin A supplements are avoided during pregnancy."
+    ]
+   },
+   {
+    "h": "Vitamin A (retinol and beta-carotene): sources and functions",
+    "points": [
+     "Retinol is the active form of vitamin A, found in animal foods: liver, fish liver oils, oily fish, dairy products, eggs and fortified margarine.",
+     "Beta-carotene is a provitamin A found in plant foods; the body converts it into retinol in the intestine.",
+     "Good beta-carotene sources include carrots, sweet potatoes, apricots, red and orange peppers, tomatoes and dark green leafy vegetables.",
+     "Retinol combines with the protein opsin to form rhodopsin, the pigment in the rod cells of the retina that allows vision in dim light.",
+     "Vitamin A keeps the cells lining the eyes, mouth, respiratory tract, urinary tract and skin healthy and moist.",
+     "Vitamin A supports growth, cell repair and a healthy immune system.",
+     "Beta-carotene acts as an antioxidant, neutralising free radicals that damage cells."
+    ]
+   },
+   {
+    "h": "Vitamin A: deficiency",
+    "points": [
+     "Night blindness, the earliest sign: poor vision in dim light because rhodopsin is not regenerated.",
+     "Xerophthalmia: the eyes become dry and damaged, and in severe cases the cornea is destroyed and blindness follows.",
+     "Dry, rough skin and dry, brittle hair.",
+     "Lowered resistance to infection, because the mucous membranes lose their protective role.",
+     "Vitamin A deficiency is a leading cause of preventable childhood blindness worldwide."
+    ]
+   },
+   {
+    "h": "Vitamin D (cholecalciferol): sources and functions",
+    "points": [
+     "Cholecalciferol (vitamin D3) forms in the skin when ultraviolet B from sunlight acts on a cholesterol derivative in the skin.",
+     "Ergocalciferol (vitamin D2) is the plant and fungal form, made when mushrooms and yeast are exposed to ultraviolet light.",
+     "Dietary sources include oily fish such as salmon, mackerel and sardines, egg yolk, liver, fortified margarine and fortified milk.",
+     "Vitamin D increases the absorption of calcium and phosphorus from the small intestine.",
+     "Vitamin D raises blood calcium levels, working with parathormone when blood calcium falls.",
+     "Vitamin D supports the mineralisation of bones and the formation of teeth.",
+     "In Ireland, weak winter sunlight means that dietary sources of vitamin D matter most in the winter months."
+    ]
+   },
+   {
+    "h": "Vitamin D: deficiency",
+    "points": [
+     "Rickets in children: bones soften and bend, causing bow legs, delayed growth and poor tooth formation.",
+     "Osteomalacia in adults: bones become soft, weak and painful because they are not properly mineralised.",
+     "Low vitamin D lowers calcium absorption, which is a contributing factor in osteoporosis, where bone density falls."
+    ]
+   },
+   {
+    "h": "Vitamin E (tocopherols): sources, functions and deficiency",
+    "points": [
+     "Tocopherols are the active forms of vitamin E; alpha-tocopherol is the form the human body uses most.",
+     "Rich sources are vegetable oils such as sunflower and wheatgerm oil, nuts and seeds such as almonds and sunflower seeds, wholegrain cereals and green leafy vegetables.",
+     "Vitamin E is an antioxidant that protects the membranes of cells and polyunsaturated fatty acids from oxidation.",
+     "By protecting LDL cholesterol from oxidation, vitamin E helps protect the arteries.",
+     "Deficiency is rare and can cause nerve and muscle damage and the breakdown of red blood cells."
+    ]
+   },
+   {
+    "h": "Vitamin K (naphthoquinones): sources and functions",
+    "points": [
+     "Vitamin K1 (phylloquinone) comes from green leafy vegetables such as spinach, broccoli, cabbage and kale.",
+     "Vitamin K2 (menaquinones) is made by bacteria in the large intestine and is also found in dairy products, eggs and meat.",
+     "The liver needs vitamin K to make the clotting factors, including prothrombin, that allow blood to clot.",
+     "Vitamin K activates osteocalcin, a protein that binds calcium into bone, so it supports bone formation.",
+     "Deficiency impairs blood clotting, causing bleeding and easy bruising.",
+     "Newborn babies are given a vitamin K injection at birth, because their gut bacteria are not yet established and they risk bleeding."
+    ]
+   },
+   {
+    "h": "Properties of the fat-soluble vitamins (Higher Level only)",
+    "points": [
+     "Vitamin A is insoluble in water but soluble in fats and organic solvents.",
+     "Vitamin A is heat-stable in normal cooking but is destroyed by prolonged high temperatures.",
+     "Vitamin A is destroyed by oxygen, so exposed or oxidised foods lose it.",
+     "Vitamin D is insoluble in water and is relatively heat-stable in normal cooking.",
+     "Vitamin E is insoluble in water and heat-stable in normal cooking, but it is destroyed by oxidation.",
+     "Vitamin K is insoluble in water and heat-stable in normal cooking.",
+     "Vitamin K is destroyed by light and by alkalis."
+    ]
+   },
+   {
+    "h": "Evaluating foods as providers of vitamins",
+    "points": [
+     "Food composition tables give the vitamin content of foods, usually per 100 g, so fresh and processed foods can be compared on the same basis.",
+     "The mandatory nutrition declaration on a food label lists energy, fat, saturates, carbohydrate, sugars, protein and salt, under Regulation (EU) No 1169/2011.",
+     "In Ireland, the European Union (Provision of Food Information to Consumers) Regulations 2014 give effect to Regulation (EU) No 1169/2011.",
+     "The Food Safety Authority of Ireland (FSAI) advises on food labelling and nutrition in Ireland.",
+     "Fortified foods, such as margarine with added vitamins A and D and fortified breakfast cereals, supply vitamins that the natural food does not contain.",
+     "Fresh produce loses vitamin C in storage, while frozen vegetables, blanched before freezing, usually retain more vitamin C than long-stored fresh vegetables.",
+     "Canning and prolonged cooking destroy heat-sensitive vitamins, so a processed food may contain less of a vitamin than its fresh form."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two of vitamins A, D, E and K, each with a correct function: vitamin A for vision in dim light, or for healthy skin and mucous membranes; vitamin D for absorption of calcium and phosphorus; vitamin E as an antioxidant protecting cell membranes; vitamin K for blood clotting. One mark for each correct name and one for each correct function.",
+    "prompt": "Name two fat-soluble vitamins and give one function of each in the body.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Absorption and storage: fat-soluble vitamins are absorbed with dietary fat in the small intestine and stored in the liver and fatty tissue, so excess can build up to toxic levels. Vitamin A: retinol from liver, fish liver oils, dairy products and eggs; beta-carotene from carrots, sweet potatoes, apricots, green leafy vegetables and red or orange peppers. Functions: forms rhodopsin for vision in dim light; keeps the skin, eyes and mucous membranes healthy; supports growth and immunity; beta-carotene acts as an antioxidant. Deficiency: night blindness, xerophthalmia, dry rough skin, lowered resistance to infection. Vitamin D: cholecalciferol forms in the skin in sunlight; sources are oily fish, egg yolk, fortified margarine and milk. Functions: increases absorption of calcium and phosphorus, regulates blood calcium, supports bone and tooth formation. Deficiency: rickets in children, osteomalacia in adults, contributes to osteoporosis.",
+    "prompt": "Discuss the sources, functions and effects of deficiency of vitamin A and vitamin D in the diet, and explain how fat-soluble vitamins are absorbed and stored in the body.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-vitamins-minerals-s2": {
+  "keyTerms": [
+   {
+    "definition": "The chemical name for vitamin C, a water-soluble antioxidant needed for collagen formation.",
+    "term": "Ascorbic acid"
+   },
+   {
+    "definition": "A disease caused by severe, prolonged lack of vitamin C, with bleeding gums, loose teeth and slow wound healing.",
+    "term": "Scurvy"
+   },
+   {
+    "definition": "The fibrous protein that gives strength to skin, blood vessels, gums, bones and teeth, and whose formation requires vitamin C.",
+    "term": "Collagen"
+   },
+   {
+    "definition": "The Fe³⁺ form of iron, which vitamin C reduces to the ferrous form before it can be absorbed.",
+    "term": "Ferric iron"
+   },
+   {
+    "definition": "The chemical name for vitamin B12, the water-soluble vitamin that contains cobalt and is found only in animal foods.",
+    "term": "Cobalamin"
+   },
+   {
+    "definition": "A protein made in the stomach that binds vitamin B12 so that it can be absorbed in the ileum.",
+    "term": "Intrinsic factor"
+   },
+   {
+    "definition": "An anaemia caused by lack of vitamin B12, in which the red blood cells are large and unable to carry oxygen effectively.",
+    "term": "Pernicious anaemia"
+   },
+   {
+    "definition": "A water-soluble B-group vitamin needed for DNA and RNA synthesis and for protecting the developing neural tube.",
+    "term": "Folate"
+   },
+   {
+    "definition": "A birth defect of the brain or spinal cord, such as spina bifida, that folate in early pregnancy helps to prevent.",
+    "term": "Neural tube defect"
+   },
+   {
+    "definition": "The loss of water-soluble vitamins and minerals from food into the cooking water.",
+    "term": "Leaching"
+   },
+   {
+    "definition": "Making collagen; aiding wound healing; increasing non-haem iron absorption; acting as an antioxidant.",
+    "term": "Four functions of vitamin C"
+   },
+   {
+    "definition": "Bleeding gums, loose teeth, slow wound healing, easy bruising and tiredness.",
+    "term": "Signs of scurvy"
+   },
+   {
+    "definition": "Liver and kidney, red meat, oily fish, eggs, milk and cheese.",
+    "term": "Animal sources of vitamin B12"
+   },
+   {
+    "definition": "Forming healthy red blood cells with folate; maintaining the myelin sheath around nerve fibres.",
+    "term": "Two functions of vitamin B12"
+   },
+   {
+    "definition": "It is needed to synthesise DNA and RNA, so cells can divide and the body can grow.",
+    "term": "Cell-level role of folate"
+   },
+   {
+    "definition": "Spina bifida and anencephaly.",
+    "term": "Two conditions prevented by folic acid in early pregnancy"
+   },
+   {
+    "definition": "Lack of intrinsic factor in the stomach, and a strict vegan diet without fortified foods.",
+    "term": "Two causes of vitamin B12 deficiency"
+   },
+   {
+    "definition": "Leaching into cooking water; destruction by prolonged heat; oxidation after cutting or exposure to air and light.",
+    "term": "Three ways vitamin C is lost from food"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Vitamin C (ascorbic acid): sources and functions",
+    "points": [
+     "Citrus fruit, blackcurrants, rosehips, kiwi, strawberries, peppers, broccoli, tomatoes, cabbage and new potatoes are good sources of vitamin C.",
+     "Vitamin C is needed to make collagen, the connective tissue that gives strength to skin, blood vessels, gums, bones and teeth.",
+     "By supporting collagen formation, vitamin C speeds up the healing of wounds.",
+     "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+     "Vitamin C is an antioxidant that protects cells from damage by free radicals.",
+     "Vitamin C supports the immune system, helping the body resist infection."
+    ]
+   },
+   {
+    "h": "Vitamin C: deficiency (scurvy)",
+    "points": [
+     "Scurvy develops after a severe and prolonged lack of vitamin C in the diet.",
+     "Weak collagen causes bleeding gums, loose teeth and easy bruising.",
+     "Wounds heal slowly because new tissue cannot be formed properly.",
+     "Reduced iron absorption can lead to anaemia, with tiredness and pale skin.",
+     "The body becomes more susceptible to infection."
+    ]
+   },
+   {
+    "h": "Vitamin B12 (cobalamin): sources and functions",
+    "points": [
+     "Vitamin B12 occurs naturally only in animal foods: liver and kidney, red meat, oily fish, eggs, milk and cheese.",
+     "Plant foods contain no natural vitamin B12; vegans need fortified foods such as some breakfast cereals and yeast extracts.",
+     "Vitamin B12 works with folate to form healthy red blood cells.",
+     "Vitamin B12 maintains the myelin sheath, the fatty layer that insulates nerve fibres and keeps nerve impulses working normally.",
+     "Vitamin B12 is needed for the synthesis of DNA in cells that divide rapidly.",
+     "The stomach makes intrinsic factor, a protein that binds vitamin B12 so that it can be absorbed in the ileum.",
+     "The liver stores vitamin B12, and the store can last for several years."
+    ]
+   },
+   {
+    "h": "Vitamin B12: deficiency",
+    "points": [
+     "Pernicious anaemia results when B12 is lacking and red blood cells are large, immature and unable to carry oxygen effectively.",
+     "Symptoms of anaemia include tiredness, weakness, pale skin and breathlessness.",
+     "Nerve damage causes numbness and tingling in the hands and feet, and poor balance.",
+     "Lack of intrinsic factor, often through an autoimmune condition, prevents B12 absorption even when the diet is adequate.",
+     "A strict vegan diet without fortified foods can also cause deficiency."
+    ]
+   },
+   {
+    "h": "Folate (folic acid): sources and functions",
+    "points": [
+     "Natural folate is found in dark green leafy vegetables such as spinach and broccoli, in pulses such as chickpeas and lentils, in asparagus, oranges and liver.",
+     "Folic acid is the synthetic form used in supplements and in fortified foods such as breakfast cereals.",
+     "Folate is needed to synthesise DNA and RNA, so it is essential for cell division and growth.",
+     "Folate works with vitamin B12 to form red blood cells.",
+     "In early pregnancy, folate is essential for the development of the neural tube, which becomes the brain and spinal cord."
+    ]
+   },
+   {
+    "h": "Folate: deficiency and protection",
+    "points": [
+     "A lack of folate causes megaloblastic anaemia, with the same large, immature red blood cells as B12 deficiency.",
+     "Neural tube defects, such as spina bifida and anencephaly, can develop in the unborn baby if folate is lacking in early pregnancy.",
+     "Folic acid supplements are recommended before conception and during early pregnancy to reduce the risk of neural tube defects."
+    ]
+   },
+   {
+    "h": "Properties of vitamins C, B12 and folate (Higher Level only)",
+    "points": [
+     "Vitamin C is a white, crystalline, acidic substance with a sweet-sour taste.",
+     "Vitamin C is water-soluble and is lost into cooking water when vegetables are boiled or soaked.",
+     "Vitamin C is destroyed by prolonged heat, by alkalis and by oxidation in air.",
+     "The enzyme oxidase destroys vitamin C once vegetables are cut or bruised, so cut vegetables should be cooked promptly.",
+     "Copper and brass pans destroy vitamin C, and alkalis such as bicarbonate of soda do too.",
+     "Folate is water-soluble and is sensitive to heat, light and oxygen.",
+     "Folate is lost into cooking water during prolonged boiling.",
+     "Vitamin B12 contains the mineral cobalt, which gives it the name cobalamin."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Vitamin C converts non-haem iron from the ferric (Fe³⁺) form to the ferrous (Fe²⁺) form, which is absorbed more readily in the small intestine. Two plant foods, any two of: citrus fruit, blackcurrants, kiwi, strawberries, peppers, broccoli, tomatoes, cabbage, new potatoes. Marks for the mechanism (conversion of ferric to ferrous, better absorption) and for each correct food.",
+    "prompt": "Explain how vitamin C helps the body absorb iron from a plant-based meal, and name two plant foods that are good sources of vitamin C.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Vitamin B12: found only in animal foods such as liver, kidney, red meat, oily fish, eggs, milk and cheese; fortified foods supply it to vegans. Functions: forms healthy red blood cells with folate; maintains the myelin sheath around nerves; needed for DNA synthesis. Absorption needs intrinsic factor from the stomach. Deficiency: pernicious anaemia with large immature red blood cells, tiredness and pale skin; nerve damage with numbness and poor balance. Folate: natural folate in dark green leafy vegetables, pulses, asparagus, oranges and liver; folic acid in supplements and fortified cereals. Functions: synthesis of DNA and RNA for cell division and growth; protects the developing neural tube in early pregnancy. Deficiency: megaloblastic anaemia; neural tube defects such as spina bifida. Working together: both are needed to form healthy red blood cells, and a deficiency of either produces the same type of anaemia.",
+    "prompt": "Discuss the sources, functions and effects of deficiency of vitamin B12 and folate, and explain why the two vitamins work together in the body.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-vitamins-minerals-s3": {
+  "keyTerms": [
+   {
+    "definition": "A non-protein helper molecule, often derived from a B-group vitamin, that allows an enzyme to carry out its reaction.",
+    "term": "Coenzyme"
+   },
+   {
+    "definition": "Vitamin B1, a water-soluble vitamin that helps release energy from carbohydrate and supports nerve function.",
+    "term": "Thiamine"
+   },
+   {
+    "definition": "The deficiency disease caused by a lack of thiamine, with fatigue, weakness, nerve damage and heart problems.",
+    "term": "Beriberi"
+   },
+   {
+    "definition": "Vitamin B2, a water-soluble vitamin that helps release energy and keeps the skin, eyes and mucous membranes healthy.",
+    "term": "Riboflavin"
+   },
+   {
+    "definition": "Cracking and soreness at the corners of the mouth, caused by a lack of riboflavin.",
+    "term": "Angular cheilitis"
+   },
+   {
+    "definition": "Vitamin B3, which the body can make from tryptophan and which helps release energy from food.",
+    "term": "Niacin"
+   },
+   {
+    "definition": "The deficiency disease caused by a lack of niacin, with dermatitis, diarrhoea, dementia and death.",
+    "term": "Pellagra"
+   },
+   {
+    "definition": "Vitamin B6, needed for the breakdown of amino acids and the formation of haemoglobin.",
+    "term": "Pyridoxine"
+   },
+   {
+    "definition": "An essential amino acid from protein foods that the body can convert into niacin.",
+    "term": "Tryptophan"
+   },
+   {
+    "definition": "A chemical that carries nerve impulses across the gap between two nerve cells.",
+    "term": "Neurotransmitter"
+   },
+   {
+    "definition": "Dermatitis, diarrhoea, dementia and death.",
+    "term": "The four Ds of niacin deficiency"
+   },
+   {
+    "definition": "Fatigue, weakness, depression and irritability, memory loss, and nerve or heart damage.",
+    "term": "Signs of beriberi"
+   },
+   {
+    "definition": "Cracks at the corners of the mouth, a sore inflamed tongue, and eyes sensitive to light.",
+    "term": "Mouth and tongue signs of low riboflavin intake"
+   },
+   {
+    "definition": "Acting as coenzymes; releasing energy from carbohydrate, fat and protein; maintaining a healthy nervous system.",
+    "term": "Three roles shared by the B-group vitamins"
+   },
+   {
+    "definition": "Breaking down and using amino acids; helping to form haemoglobin.",
+    "term": "Two roles of pyridoxine in the body"
+   },
+   {
+    "definition": "Wholegrain cereals and pork.",
+    "term": "Two foods rich in thiamine"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The B-complex vitamins: overview",
+    "points": [
+     "The B-complex vitamins are water-soluble, so any excess is excreted in urine.",
+     "Most B-complex vitamins are not stored in the body in useful amounts, so they must be supplied daily in the diet.",
+     "The B-complex vitamins act mainly as coenzymes, helping enzymes release energy from carbohydrate, fat and protein.",
+     "Wholegrain cereals, meat, pulses and fortified breakfast cereals are the main dietary sources of the B-complex group."
+    ]
+   },
+   {
+    "h": "Vitamin B1 (thiamine): sources, functions and deficiency",
+    "points": [
+     "Thiamine sources include wholegrain cereals, pork, pulses, nuts and fortified breakfast cereals.",
+     "Thiamine acts as a coenzyme that helps release energy from carbohydrate.",
+     "Thiamine is needed for normal nerve function and for a healthy heart.",
+     "Beriberi is the deficiency disease, with fatigue, weakness, depression, irritability and memory loss.",
+     "Dry beriberi damages the nerves, causing numbness and weakness; wet beriberi affects the heart.",
+     "Heavy alcohol use reduces the absorption of thiamine, which can lead to deficiency."
+    ]
+   },
+   {
+    "h": "Vitamin B2 (riboflavin): sources, functions and deficiency",
+    "points": [
+     "Riboflavin sources include milk and dairy products, eggs, lean meat, liver, green vegetables, mushrooms and fortified cereals.",
+     "Riboflavin helps release energy from carbohydrate, fat and protein.",
+     "Riboflavin helps maintain healthy skin, eyes and mucous membranes.",
+     "A deficiency causes cracks and soreness at the corners of the mouth, known as angular cheilitis.",
+     "A deficiency also causes a sore, inflamed tongue, skin disorders and eyes that are sensitive to light."
+    ]
+   },
+   {
+    "h": "Niacin (vitamin B3): sources, functions and deficiency",
+    "points": [
+     "Niacin sources include meat, poultry, fish, peanuts, wholegrain cereals, mushrooms, eggs, milk and fortified cereals.",
+     "The body can make niacin from the amino acid tryptophan, found in protein foods.",
+     "Niacin helps release energy from carbohydrate, fat and protein.",
+     "Niacin keeps the skin, nervous system and digestive system healthy.",
+     "Deficiency causes pellagra, with the four Ds: dermatitis, diarrhoea, dementia and death."
+    ]
+   },
+   {
+    "h": "Vitamin B6 (pyridoxine): sources, functions and deficiency",
+    "points": [
+     "Pyridoxine sources include chicken, fish such as tuna and salmon, pork, potatoes, bananas, pulses, wholegrain cereals and nuts.",
+     "Pyridoxine is needed for the breakdown and use of amino acids, so it is central to protein metabolism.",
+     "Pyridoxine helps the body form haemoglobin in red blood cells.",
+     "Pyridoxine takes part in making neurotransmitters, the chemicals that carry messages between nerve cells.",
+     "Deficiency causes skin rashes around the mouth and nose, confusion, depression and anaemia."
+    ]
+   },
+   {
+    "h": "The other B-group vitamins: properties (Higher Level only)",
+    "points": [
+     "Thiamine is destroyed by alkalis and by prolonged heat, and it is lost into cooking water.",
+     "Riboflavin is destroyed by light, which is why milk in clear bottles loses riboflavin.",
+     "Riboflavin is heat-stable in normal cooking and gives a yellow colour to solutions that contain it.",
+     "Niacin is stable to heat, light and air, so little is lost in normal cooking.",
+     "Niacin is soluble in water and can be lost into cooking water if it is boiled and drained.",
+     "Pyridoxine is sensitive to light and is lost into cooking water."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two correctly matched pairs: thiamine (B1) causes beriberi; niacin (B3) causes pellagra; riboflavin (B2) causes cracks at the corners of the mouth and a sore tongue; pyridoxine (B6) causes skin rashes, confusion, depression and anaemia. One mark for each correct vitamin and one for each correct disease or effect.",
+    "prompt": "Name two B-group vitamins and state the deficiency disease caused by a lack of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "B-complex vitamins are water-soluble and act mainly as coenzymes in energy metabolism; they are not stored in useful amounts so a daily dietary supply is needed. Thiamine (B1): wholegrain cereals, pork, pulses, nuts; releases energy from carbohydrate; deficiency causes beriberi with fatigue, weakness, memory loss and nerve or heart damage. Riboflavin (B2): milk, eggs, lean meat, liver, green vegetables, mushrooms; helps release energy from carbohydrate, fat and protein; deficiency causes angular cheilitis, a sore tongue and light-sensitive eyes. Niacin (B3): meat, poultry, fish, peanuts, wholegrain cereals, eggs; can be made from tryptophan; releases energy from carbohydrate, fat and protein; deficiency causes pellagra with dermatitis, diarrhoea, dementia and death. Pyridoxine (B6): chicken, fish, pork, potatoes, bananas, pulses; needed for amino acid metabolism; deficiency causes skin rashes, confusion, depression and anaemia. Losses: thiamine and pyridoxine are lost into cooking water; riboflavin is destroyed by light.",
+    "prompt": "Discuss the role of the B-complex vitamins in releasing energy from food, giving the sources and the effects of deficiency for at least two named vitamins.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-vitamins-minerals-s4": {
+  "keyTerms": [
+   {
+    "definition": "A mineral needed by the body in amounts above 100 mg a day, such as calcium, phosphorus, potassium or sodium.",
+    "term": "Major mineral"
+   },
+   {
+    "definition": "A mineral needed by the body in very small amounts, such as iron, zinc or iodine.",
+    "term": "Trace mineral"
+   },
+   {
+    "definition": "The iron-containing protein in red blood cells that carries oxygen from the lungs to the body's tissues.",
+    "term": "Haemoglobin"
+   },
+   {
+    "definition": "The iron-containing protein in muscle cells that stores oxygen for muscle use.",
+    "term": "Myoglobin"
+   },
+   {
+    "definition": "The thyroid hormone, containing iodine, that controls the rate of metabolism.",
+    "term": "Thyroxine"
+   },
+   {
+    "definition": "An enlargement of the thyroid gland, usually caused by a lack of iodine.",
+    "term": "Goitre"
+   },
+   {
+    "definition": "A mineral that carries an electrical charge in body fluids, such as sodium or potassium, and helps regulate fluid balance.",
+    "term": "Electrolyte"
+   },
+   {
+    "definition": "A condition in which bone density falls, making bones thin, brittle and prone to fracture.",
+    "term": "Osteoporosis"
+   },
+   {
+    "definition": "A condition in which the blood has too few healthy red blood cells or too little haemoglobin to carry enough oxygen.",
+    "term": "Anaemia"
+   },
+   {
+    "definition": "A condition in adults in which bones become soft and painful because of a lack of calcium, phosphorus or vitamin D.",
+    "term": "Osteomalacia"
+   },
+   {
+    "definition": "Forming strong bones and teeth; supporting blood clotting.",
+    "term": "Two functions of calcium"
+   },
+   {
+    "definition": "Liver, red meat and poultry.",
+    "term": "Three sources of haem iron"
+   },
+   {
+    "definition": "Tiredness and lack of energy; pale skin; breathlessness.",
+    "term": "Three signs of iron deficiency anaemia"
+   },
+   {
+    "definition": "Regulating fluid balance and nerve impulses; allowing muscles, including the heart, to contract.",
+    "term": "Two roles of potassium"
+   },
+   {
+    "definition": "Maintaining fluid balance and blood pressure; transmitting nerve impulses.",
+    "term": "Two roles of sodium"
+   },
+   {
+    "definition": "Oysters, red meat and wholegrain cereals.",
+    "term": "Three sources of zinc"
+   },
+   {
+    "definition": "Thyroxine, which controls the rate of metabolism.",
+    "term": "Hormone that contains iodine"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Minerals: what they are and how they are classed",
+    "points": [
+     "Minerals are inorganic elements that the body cannot make, so they must be obtained from food.",
+     "Major minerals are needed in amounts above 100 mg a day, and include calcium, phosphorus, potassium, sodium and magnesium.",
+     "Minerals are not destroyed by cooking, but they can be lost into cooking water."
+    ]
+   },
+   {
+    "h": "Calcium: sources, functions and deficiency",
+    "points": [
+     "Milk, cheese and yoghurt are the richest dietary sources of calcium.",
+     "Canned sardines and canned salmon with their bones, leafy greens such as kale and broccoli, and calcium-set tofu are further sources.",
+     "Calcium forms the mineral salts that give bones and teeth their hardness.",
+     "Calcium is needed for blood clotting, normal muscle contraction, including the heartbeat, and nerve impulse transmission.",
+     "Rickets in children and osteomalacia in adults result from too little calcium, phosphorus or vitamin D.",
+     "Osteoporosis causes bones to become thin, porous, brittle and prone to fracture.",
+     "Osteoporosis risk is raised by low calcium and vitamin D intake, lack of weight-bearing exercise, smoking and the fall in oestrogen after menopause."
+    ]
+   },
+   {
+    "h": "Iron: sources, functions and deficiency",
+    "points": [
+     "Haem iron is found in red meat, liver and offal, poultry and fish.",
+     "Non-haem iron is found in eggs, wholegrain cereals, pulses, dark green vegetables, dried fruit, nuts and seeds.",
+     "Iron is an essential part of haemoglobin, the protein in red blood cells that carries oxygen around the body.",
+     "Iron is part of myoglobin, which stores oxygen in muscle cells.",
+     "Iron is part of enzymes that release energy from food.",
+     "Iron deficiency causes anaemia, with tiredness, a pale skin colour, breathlessness and poor concentration."
+    ]
+   },
+   {
+    "h": "Trace minerals needed in the diet (Higher Level only)",
+    "points": [
+     "Trace minerals are needed by the body in very small amounts, and the diet must supply them in amounts measured in milligrams or micrograms.",
+     "The trace minerals needed in the diet include zinc and iodine, which are set out below, as well as iron, which is covered in the iron block.",
+     "Iron, zinc and iodine each play a specific role in the body that the other minerals cannot replace."
+    ]
+   },
+   {
+    "h": "Zinc (Higher Level only)",
+    "points": [
+     "Zinc sources include oysters and other shellfish, red meat, poultry, dairy products, eggs, wholegrain cereals, pulses and nuts.",
+     "Zinc is a component of many enzymes and supports growth and cell division.",
+     "Zinc supports wound healing and a healthy immune system.",
+     "Zinc contributes to a normal sense of taste and smell.",
+     "Deficiency causes poor growth, delayed wound healing, dry flaky skin, loss of taste and reduced immunity."
+    ]
+   },
+   {
+    "h": "Iodine (Higher Level only)",
+    "points": [
+     "Iodine sources include seafood and seaweed, dairy products, eggs and iodised salt.",
+     "Iodine is part of thyroxine, the thyroid hormone that controls the rate of metabolism.",
+     "Deficiency causes goitre, an enlargement of the thyroid gland as it tries to make more thyroxine.",
+     "Iodine deficiency causes lethargy in adults and delayed mental and physical development in children."
+    ]
+   },
+   {
+    "h": "Potassium (Higher Level only)",
+    "points": [
+     "Potassium sources include bananas, potatoes eaten in their skins, tomatoes, dried fruit, pulses, leafy vegetables, milk, meat and fish.",
+     "Potassium is the main electrolyte inside cells and helps regulate fluid balance.",
+     "Potassium is needed to transmit nerve impulses and for muscle contraction, including the heartbeat.",
+     "Potassium works with sodium to regulate blood pressure, and a high potassium intake helps lower it.",
+     "Deficiency causes muscle weakness, cramps and an irregular heartbeat, often after prolonged vomiting or diarrhoea."
+    ]
+   },
+   {
+    "h": "Sodium (Higher Level only)",
+    "points": [
+     "Sodium is mainly consumed as salt; table salt, cured and processed meats, cheese, bread, crisps and ready meals supply most of it.",
+     "Fresh, unprocessed foods contain only small amounts of naturally occurring sodium.",
+     "Sodium is the main electrolyte outside cells and regulates fluid balance and blood volume.",
+     "Sodium is needed to transmit nerve impulses and for muscle contraction.",
+     "Sodium helps the small intestine absorb glucose and some amino acids.",
+     "Excess sodium raises blood pressure, which increases the risk of stroke and heart disease.",
+     "The Food Safety Authority of Ireland (FSAI) leads Ireland's national salt reduction programme.",
+     "Deficiency is uncommon but causes muscle cramps, headache and confusion."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two of: formation of strong bones and teeth; blood clotting; normal muscle contraction, including the heartbeat; nerve impulse transmission. Any one calcium food, such as milk, cheese, yoghurt, canned sardines or leafy greens. One mark for each correct function and one for the food.",
+    "prompt": "Give two functions of calcium in the body and name one food that supplies it.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Iron: haem iron from red meat, liver, offal, poultry and fish; non-haem iron from eggs, wholegrain cereals, pulses, dark green vegetables, dried fruit, nuts and seeds. Functions: forms haemoglobin, which carries oxygen in red blood cells; forms myoglobin in muscles; part of enzymes that release energy from food. Deficiency: iron-deficiency anaemia with tiredness, pale skin, breathlessness and poor concentration. Calcium: milk, cheese, yoghurt, canned sardines and salmon with bones, leafy greens. Functions: forms strong bones and teeth; needed for blood clotting, muscle contraction and nerve impulses. Deficiency: rickets in children, osteomalacia and osteoporosis in adults, with bones that soften, break easily or lose density. Vitamin D aids calcium absorption and vitamin C aids non-haem iron absorption.",
+    "prompt": "Discuss the importance of iron and calcium in the diet, including their sources, functions and the effects of a deficiency of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-vitamins-minerals-s5": {
+  "keyTerms": [
+   {
+    "definition": "Iron from animal foods that is already in the ferrous form and is absorbed readily, largely independent of other foods in the meal.",
+    "term": "Haem iron"
+   },
+   {
+    "definition": "Iron from plant foods and eggs, in the ferric form, which must be converted to the ferrous form before it is absorbed.",
+    "term": "Non-haem iron"
+   },
+   {
+    "definition": "The Fe²⁺ form of iron, which the intestine absorbs more readily than the ferric form.",
+    "term": "Ferrous iron"
+   },
+   {
+    "definition": "The Fe³⁺ form of iron, which is less readily absorbed and must be reduced by vitamin C or stomach acid.",
+    "term": "Ferric iron"
+   },
+   {
+    "definition": "A compound in cereal grains, bran and pulses that binds iron and calcium into insoluble forms the body cannot absorb.",
+    "term": "Phytic acid"
+   },
+   {
+    "definition": "A compound in spinach and rhubarb that binds calcium and iron into insoluble forms the body cannot absorb.",
+    "term": "Oxalic acid"
+   },
+   {
+    "definition": "Compounds in tea and coffee that bind iron and reduce its absorption when the drinks are taken with food.",
+    "term": "Tannins"
+   },
+   {
+    "definition": "The effect by which meat, fish or poultry eaten with plant foods increases the absorption of non-haem iron.",
+    "term": "Meat factor"
+   },
+   {
+    "definition": "The parathyroid hormone that raises blood calcium by increasing absorption from food and release from bone.",
+    "term": "Parathormone"
+   },
+   {
+    "definition": "The protein in the liver that stores surplus iron until the body needs it.",
+    "term": "Ferritin"
+   },
+   {
+    "definition": "Vitamin C; meat, fish or poultry eaten in the same meal; hydrochloric acid in the stomach.",
+    "term": "Three factors that help non-haem iron absorption"
+   },
+   {
+    "definition": "Tannins in tea and coffee; phytates in wholegrain cereals; oxalates in spinach and rhubarb.",
+    "term": "Three inhibitors of iron absorption"
+   },
+   {
+    "definition": "Vitamin D and lactose.",
+    "term": "Two factors that aid calcium absorption"
+   },
+   {
+    "definition": "Phytic acid and oxalic acid.",
+    "term": "Two substances that bind calcium"
+   },
+   {
+    "definition": "Ferritin, which holds surplus iron until the body needs it.",
+    "term": "Protein that stores iron in the liver"
+   },
+   {
+    "definition": "Transferrin, which carries absorbed iron to the tissues that need it.",
+    "term": "Protein that carries iron in the blood"
+   },
+   {
+    "definition": "Parathormone, which increases calcium absorption from food and release from bone.",
+    "term": "Hormone that raises blood calcium"
+   },
+   {
+    "definition": "Red meat, liver, poultry and fish.",
+    "term": "Animal foods rich in haem iron"
+   }
+  ],
+  "notes": [
+   {
+    "h": "How iron is absorbed and stored (assumed knowledge)",
+    "points": [
+     "Most iron is absorbed in the duodenum, the first part of the small intestine.",
+     "Absorbed iron binds to transferrin, a protein that carries it in the blood to where it is needed.",
+     "Surplus iron is stored in the liver as ferritin, and the body has little ability to excrete iron.",
+     "Iron is lost in small amounts through sweat, shed skin cells and, in women, menstrual blood."
+    ]
+   },
+   {
+    "h": "The role of vitamins in iron and calcium absorption",
+    "points": [
+     "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+     "Vitamin C also aids the absorption of calcium.",
+     "Vitamin D stimulates the production of a calcium-binding protein in the lining of the small intestine, increasing calcium absorption.",
+     "Vitamin D increases the absorption of phosphorus, which must be present in a balanced ratio with calcium.",
+     "Where vitamin D is lacking, calcium absorption falls even when dietary calcium is adequate, so bones weaken."
+    ]
+   },
+   {
+    "h": "Haem and non-haem iron",
+    "points": [
+     "Haem iron comes from animal foods such as red meat, liver, poultry and fish, and is already in the ferrous form.",
+     "Haem iron is absorbed more readily than non-haem iron, and its absorption is largely unaffected by other foods in the meal.",
+     "Non-haem iron comes from plant foods, pulses, wholegrain cereals, nuts, seeds, dark green vegetables and eggs.",
+     "Non-haem iron is in the ferric form and must be converted to the ferrous form before the intestine can absorb it.",
+     "Eating meat, fish or poultry in the same meal as non-haem iron foods increases the absorption of non-haem iron, an effect known as the meat factor."
+    ]
+   },
+   {
+    "h": "Factors that aid iron absorption",
+    "points": [
+     "Vitamin C is a major enhancer of non-haem iron absorption, acting on the ferric iron in plant foods.",
+     "Hydrochloric acid in the stomach helps convert ferric iron to ferrous iron, aiding absorption.",
+     "Eating vitamin C-rich fruit or vegetables with an iron-rich meal increases absorption, for example a glass of orange juice with lentils."
+    ]
+   },
+   {
+    "h": "Factors that inhibit iron absorption",
+    "points": [
+     "Tannins in tea and coffee bind iron into an insoluble compound, so these drinks should not be taken with an iron-rich meal.",
+     "Phytates in wholegrain cereals and pulses bind iron and reduce its absorption.",
+     "Oxalates in spinach and rhubarb bind iron, reducing its absorption.",
+     "Calcium from dairy products or supplements taken with a meal competes with iron for absorption."
+    ]
+   },
+   {
+    "h": "Factors that aid calcium absorption",
+    "points": [
+     "Vitamin D is the main vitamin that drives calcium absorption from the intestine.",
+     "Lactose, the sugar in milk, improves calcium absorption.",
+     "An acidic environment in the stomach and small intestine keeps calcium soluble and easier to absorb.",
+     "Adequate protein provides amino acids that combine with calcium to make it more soluble, aiding absorption.",
+     "Parathormone, the parathyroid hormone, raises blood calcium by increasing its absorption from food and its release from bone.",
+     "Oestrogen supports calcium absorption and bone retention, and the fall in oestrogen after menopause increases the risk of osteoporosis."
+    ]
+   },
+   {
+    "h": "Other factors that inhibit calcium absorption",
+    "points": [
+     "Excess dietary fibre reduces calcium absorption.",
+     "Excess fat in the diet reduces calcium absorption by binding to it in the intestine.",
+     "Caffeine in tea and coffee increases the loss of calcium in urine.",
+     "Excess salt increases the loss of calcium in urine.",
+     "Alcohol reduces calcium absorption and increases its loss from the body.",
+     "Smoking and nicotine reduce calcium absorption and bone density."
+    ]
+   },
+   {
+    "h": "Phytates and oxalates and calcium absorption (Higher Level only)",
+    "points": [
+     "Phytic acid, found in cereal grains, bran and pulses, binds calcium to form calcium phytate, an insoluble compound that the body cannot absorb.",
+     "Oxalic acid, found in spinach and rhubarb, binds calcium to form calcium oxalate, which is insoluble and not absorbed.",
+     "Because of its oxalate, the calcium in spinach is poorly absorbed, even though spinach contains calcium.",
+     "Phytates and oxalates are most damaging when eaten in large amounts at the same meal as calcium-rich foods such as milk or cheese."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Non-haem iron from plant foods is in the ferric (Fe³⁺) form, which is poorly absorbed. Vitamin C reduces it to the ferrous (Fe²⁺) form, which the small intestine absorbs more readily. Vitamin C also helps by creating an acidic environment that aids iron absorption. Example from a vegetarian meal: a salad of spinach, tomato and red pepper with lemon juice dressing. One mark each for the ferric to ferrous conversion, the greater absorption of ferrous iron, and a correct example of vitamin C in the meal.",
+    "prompt": "Explain how vitamin C increases the absorption of iron from a vegetarian meal.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Iron: haem iron from meat, fish and poultry is absorbed readily; non-haem iron from plant foods and eggs must be converted from ferric to ferrous form. Aids: vitamin C, meat, fish or poultry eaten at the same meal (the meat factor), stomach acid. Inhibitors: tannins in tea and coffee, phytates in wholegrain cereals and pulses, oxalates in spinach and rhubarb, calcium taken at the same meal. Calcium: aided by vitamin D, lactose, an acidic environment, adequate protein and parathormone; oestrogen supports retention. Inhibitors: excess fibre, excess fat, caffeine, excess salt, alcohol, smoking; phytic and oxalic acids bind calcium into insoluble forms. Diet planning: pair non-haem iron foods with vitamin C sources and avoid tea or coffee at iron-rich meals; include vitamin D sources; use dairy or fortified foods for calcium while limiting excess salt, caffeine and alcohol; make sure spinach and rhubarb are not counted as reliable calcium sources.",
+    "prompt": "Discuss the factors that aid and inhibit the absorption of calcium and iron from food, and explain how these factors could affect the planning of a diet.",
     "type": "short"
    }
   ]

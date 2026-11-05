@@ -1,0 +1,150 @@
+{
+  "loId": "hom-energy-nutrition-s3",
+  "chapterId": "hom-energy-nutrition",
+  "subsection": "3. Energy value of the nutrients",
+  "syllabusRef": "1.1.2, 1.1.3, 1.1.4",
+  "notes": [
+    {
+      "h": "Energy-giving nutrients",
+      "b": "Protein, carbohydrate and fat (lipid) supply energy; each has a fixed energy value per gram.",
+      "points": [
+        "Protein: 17 kJ (4 kcal) per gram.",
+        "Carbohydrate: 16 kJ (3.75 kcal) per gram.",
+        "Fat (lipid): 37 kJ (9 kcal) per gram.",
+        "Alcohol also supplies energy, at 29 kJ (7 kcal) per gram, but supplies no protein, vitamins or minerals.",
+        "Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy."
+      ]
+    },
+    {
+      "h": "Calculating the energy value of a food",
+      "points": [
+        "Step 1: find the grams of protein, carbohydrate and fat in the portion, using a food composition table, which gives values per 100 g.",
+        "Step 2: multiply each nutrient by its energy value per gram.",
+        "Step 3: add the three results to give the total energy in kilojoules.",
+        "Worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ, a total of 1510 kJ.",
+        "To convert kilojoules to kilocalories, divide by 4.2 (sample data: 1510 kJ is about 360 kcal)."
+      ]
+    },
+    {
+      "h": "Protein",
+      "points": [
+        "Protein is made of amino acids; the body uses it mainly for growth and repair of tissue, but it can also supply energy.",
+        "Protein is not stored in the body, so surplus protein is broken down and used for energy or converted to fat.",
+        "High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids.",
+        "Protein is not a major energy source in a healthy diet: its value per gram equals that of carbohydrate, but it is eaten in smaller amounts."
+      ]
+    },
+    {
+      "h": "Carbohydrate",
+      "points": [
+        "Carbohydrate is the body's main and most readily available source of energy.",
+        "Sugars and starches are digested to glucose, which is used by cells or stored as glycogen in the liver and muscles.",
+        "Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate with fibre, vitamins and minerals.",
+        "Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories."
+      ]
+    },
+    {
+      "h": "Fat (lipid)",
+      "points": [
+        "Fats and oils are lipids, mostly triglycerides, made of glycerol and fatty acids.",
+        "Fat supplies the most energy per gram of the three energy nutrients, more than twice that of carbohydrate or protein.",
+        "Surplus energy from fat is stored as adipose tissue, which is why high-fat diets contribute strongly to weight gain.",
+        "Saturated fats come mainly from animal foods and some plant oils, such as palm oil; unsaturated fats come from vegetable oils, nuts, seeds and oily fish."
+      ]
+    },
+    {
+      "h": "Energy density and the average diet",
+      "b": "The contribution of each nutrient to a diet depends on how much of it is eaten, and on its energy density.",
+      "points": [
+        "Energy density is the energy per gram of a food; foods high in fat and sugar are the most energy-dense.",
+        "Healthy eating guidelines aim for carbohydrate, mostly from starchy wholegrain foods, to supply the largest share of energy in the diet.",
+        "The average Irish diet has historically drawn a higher share of its energy from fat, and from added sugar in drinks and processed foods, than recommended.",
+        "Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total to give its percentage share."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Energy value",
+      "definition": "The amount of energy a food or nutrient supplies, measured in kilojoules or kilocalories per gram."
+    },
+    {
+      "term": "Kilojoule (kJ)",
+      "definition": "A metric unit of energy; 1 kcal is about 4.2 kJ."
+    },
+    {
+      "term": "Lipid",
+      "definition": "The chemical name for fats and oils, which supply 37 kJ (9 kcal) per gram."
+    },
+    {
+      "term": "Triglyceride",
+      "definition": "The main form of fat in food and in the body, made of one glycerol molecule and three fatty acids."
+    },
+    {
+      "term": "Energy density",
+      "definition": "The amount of energy in a given weight of food; fat-rich foods have a high energy density."
+    },
+    {
+      "term": "Food composition table",
+      "definition": "A table giving the nutrient and energy content of foods, usually per 100 g of edible food."
+    },
+    {
+      "term": "High biological value (HBV) protein",
+      "definition": "A protein food that contains all the essential amino acids the body cannot make."
+    },
+    {
+      "term": "Dietary fibre",
+      "definition": "Indigestible plant material that aids bowel function and supplies little usable energy."
+    },
+    {
+      "term": "Glycogen",
+      "definition": "The stored form of glucose, kept in the liver and muscles."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Energy values per gram of protein, carbohydrate and fat",
+      "definition": "Protein 17 kJ (4 kcal); carbohydrate 16 kJ (3.75 kcal); fat 37 kJ (9 kcal)."
+    },
+    {
+      "term": "Energy value of alcohol per gram",
+      "definition": "29 kJ (7 kcal)."
+    },
+    {
+      "term": "Steps to calculate the energy value of a food",
+      "definition": "Find the grams of each energy nutrient; multiply each by its energy value per gram; add the results."
+    },
+    {
+      "term": "What a food composition table gives",
+      "definition": "The nutrient and energy content of an edible food, usually per 100 g."
+    },
+    {
+      "term": "Most energy-dense nutrient per gram",
+      "definition": "Fat, at 37 kJ (9 kcal) per gram, more than twice the value of carbohydrate or protein."
+    },
+    {
+      "term": "Three nutrients that supply energy in food",
+      "definition": "Protein, carbohydrate and fat (lipid)."
+    },
+    {
+      "term": "Two uses of protein other than energy",
+      "definition": "Growth and repair of body tissues; making enzymes, hormones and antibodies."
+    },
+    {
+      "term": "Why dietary fibre supplies little usable energy",
+      "definition": "The body cannot digest it, so it passes largely undigested through the small intestine into the large intestine."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Calculate the energy value, in kilojoules, of 100 g of a food containing 12 g protein, 60 g carbohydrate and 8 g fat. Show your working.",
+      "model": "Protein: 12 x 17 = 204 kJ. Carbohydrate: 60 x 16 = 960 kJ. Fat: 8 x 37 = 296 kJ. Total: 204 + 960 + 296 = 1460 kJ per 100 g. Marks are given for the energy value per gram of each nutrient, the correct multiplication, the addition and the unit."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain the energy value of protein, carbohydrate and fat, and discuss how each contributes to the energy value of the average Irish diet.",
+      "model": "Energy values: protein 17 kJ (4 kcal) per gram; carbohydrate 16 kJ (3.75 kcal) per gram; fat 37 kJ (9 kcal) per gram. Protein: its main role is growth and repair, so its energy contribution is secondary and it is not stored. Carbohydrate: the main energy source, from starchy foods and sugars, digested to glucose and stored as glycogen. Fat: the most energy-dense nutrient; in the Irish diet fat has provided a higher share of energy than recommended, from butter, fatty meat, processed foods and cakes. Discussion should note that healthy guidelines aim for carbohydrate, mostly wholegrain, to supply the largest share, and that the high energy density of fat contributes to excess energy intake and weight gain."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "loId": "hom-meal-planning-s5",
+  "chapterId": "hom-meal-planning",
+  "subsection": "5. Meal management and planning",
+  "syllabusRef": "1.3.3",
+  "notes": [
+    {
+      "h": "Planning meals with the current dietary guidelines",
+      "b": "Healthy eating guidelines in Ireland are set out in the Department of Health healthy eating guidelines and the Healthy Eating Food Pyramid, both published by the Department of Health under Healthy Ireland.",
+      "points": [
+        "The Food Pyramid shows the foods to eat most often at its base: wholegrain bread, cereals, potatoes, pasta and rice.",
+        "Fruit and vegetables form the next shelf, and five or more portions a day are recommended.",
+        "Milk, yoghurt and cheese, preferably lower-fat versions, supply calcium and protein.",
+        "Meat, fish, eggs, beans, pulses and nuts supply protein; at least two portions of fish a week are advised, one of them oily.",
+        "Fats, spreads, oils and sugary foods sit at the top of the pyramid and are used sparingly, with unsaturated oils preferred.",
+        "Water is the main drink, and sugary drinks are limited.",
+        "Salt intake is kept low by cooking with less salt and reading labels."
+      ]
+    },
+    {
+      "h": "Planning a day's meals",
+      "points": [
+        "Each meal includes a starchy food, fruit or vegetables, and a protein food or dairy, so all food groups are covered across the day.",
+        "Breakfast is not skipped, and a packed lunch or snack supplies fruit and wholegrain foods between meals.",
+        "Colour, flavour, texture and cooking method are varied so that meals are appetising and not repetitive.",
+        "Portion sizes are matched to age, appetite and activity, and energy is balanced across the day.",
+        "Planning begins with the people being fed: their ages, health needs, likes and dislikes, and any special diets.",
+        "Before shopping, the planner checks cooking time, budget and equipment, then writes a shopping list and a cooking order."
+      ]
+    },
+    {
+      "h": "Resources: knowledge and skills",
+      "points": [
+        "A skilled cook can adapt recipes to add fibre, reduce fat or cater for a special diet.",
+        "A less experienced cook may rely on convenience foods, so simple recipes with few stages suit them.",
+        "Following a tested recipe with accurate measures gives consistent results and portion sizes."
+      ]
+    },
+    {
+      "h": "Resources: time and equipment",
+      "points": [
+        "Quick dishes such as stir-fries, omelettes and soups suit a limited preparation time.",
+        "Batch cooking large quantities and freezing portions saves time on later days.",
+        "A microwave, pressure cooker, slow cooker or food processor reduces cooking and preparation time.",
+        "Frozen fruit and vegetables are frozen at peak ripeness, retain most of their nutrients and reduce waste.",
+        "Freezers should be kept at -18 °C, and cooked food should not be left between 5 °C and 63 °C, the range in which bacteria multiply quickly."
+      ]
+    },
+    {
+      "h": "Resources: money and choice of foods",
+      "points": [
+        "A shopping list based on planned meals prevents impulse buying and waste.",
+        "Seasonal produce is usually cheaper and fresher than out-of-season imports.",
+        "Own-brand products are often cheaper than branded equivalents with the same ingredients; unit prices should be compared.",
+        "Pulses, eggs and tinned fish are inexpensive sources of protein.",
+        "Cheap processed foods are often high in salt, sugar and fat, so budget plans should still include fresh produce, wholegrains and milk."
+      ]
+    },
+    {
+      "h": "Reducing food waste",
+      "points": [
+        "A use-by date relates to food safety and food must not be eaten after it; a best-before date relates to quality, and food may still be safe after it.",
+        "Stock is rotated so that older items are used first.",
+        "Leftovers are planned into the next day's meals, for example turning a roast into soup or a pie.",
+        "Food that will not be used in time is frozen before its use-by date."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Food Pyramid",
+      "definition": "A diagram from the Food Safety Authority of Ireland that shows the foods to eat most often at its base and those to eat sparingly at its top."
+    },
+    {
+      "term": "Use-by date",
+      "definition": "The date after which a food should not be eaten, for safety reasons."
+    },
+    {
+      "term": "Best-before date",
+      "definition": "The date until which a food keeps its best quality; it may still be safe to eat after this date."
+    },
+    {
+      "term": "Batch cooking",
+      "definition": "Preparing a large quantity of a dish at one time and storing the portions for later use."
+    },
+    {
+      "term": "Danger zone",
+      "definition": "The temperature range of 5 °C to 63 °C in which bacteria multiply rapidly in food."
+    },
+    {
+      "term": "Unit price",
+      "definition": "The price of a product per standard quantity, such as per kilogram, used to compare value between sizes and brands."
+    },
+    {
+      "term": "Portion control",
+      "definition": "Serving food in amounts matched to a person's energy needs and appetite."
+    },
+    {
+      "term": "Convenience food",
+      "definition": "Food that is ready to eat or needs little preparation, such as ready meals and pre-cut vegetables."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three steps when planning a menu",
+      "definition": "Consider the people and their needs; check the nutritional balance across the day; check time, cost and equipment before shopping."
+    },
+    {
+      "term": "Foods at the base of the Irish Food Pyramid",
+      "definition": "Wholegrain starchy foods such as bread, cereals, potatoes, pasta and rice, eaten most often."
+    },
+    {
+      "term": "Three benefits of frozen foods in meal planning",
+      "definition": "They retain nutritional and sensory quality; they save time and money; they reduce food waste."
+    },
+    {
+      "term": "Difference between a use-by and a best-before date",
+      "definition": "A use-by date is about safety and food must not be eaten after it; a best-before date is about quality."
+    },
+    {
+      "term": "Three ways to reduce the food bill",
+      "definition": "Use a shopping list; buy seasonal and own-brand foods; plan meals to use leftovers."
+    },
+    {
+      "term": "Two time-saving appliances for meal preparation",
+      "definition": "A microwave oven and a pressure cooker."
+    },
+    {
+      "term": "Temperature range of the danger zone",
+      "definition": "5 °C to 63 °C, the range in which bacteria multiply quickly."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline three ways in which money available affects family meal planning.",
+      "model": "Money: a fixed budget limits the range of foods, so a family plans meals around cheaper, nutritious foods such as pulses, eggs and seasonal produce. Shopping: a written list and comparison of unit prices stop impulse buying and waste. Quality: a tight budget may mean choosing own-brand or processed foods, so the planner balances these with fresh fruit, vegetables and wholegrains. Any three ways, each explained, earn 6 marks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Plan a day of three meals for a family of four on a limited budget, explaining how the current dietary guidelines, time, equipment and food waste are taken into account.",
+      "model": "Guidelines: each meal includes a wholegrain starch, fruit or vegetables, and a protein food or dairy, with fish at least twice a week, one of them oily. Breakfast: porridge made with milk and topped with fruit, and wholemeal toast. Lunch: homemade vegetable and lentil soup with wholemeal bread, followed by a yoghurt and an apple. Dinner: a bean and vegetable chilli made in a slow cooker with brown rice and a side of seasonal vegetables. Budget: a shopping list, own-brand and seasonal produce, and pulses as the main protein. Time and equipment: the soup and chilli are made in batches and portions are frozen; the slow cooker frees time during the day. Waste: leftovers are used for the next day's lunch and food is frozen before its use-by date. Water is the main drink."
+    }
+  ]
+}
