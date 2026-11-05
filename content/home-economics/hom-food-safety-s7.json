@@ -1,0 +1,169 @@
+{
+  "loId": "hom-food-safety-s7",
+  "chapterId": "hom-food-safety",
+  "subsection": "7. HACCP and ISO 9000",
+  "syllabusRef": "1.3.10",
+  "notes": [
+    {
+      "h": "HACCP terms (Higher Level only)",
+      "points": [
+        "HACCP stands for Hazard Analysis and Critical Control Point, a preventive system that identifies and controls hazards before they can reach the consumer.",
+        "A hazard is anything that could contaminate food or harm the consumer.",
+        "Biological hazards are micro-organisms, such as food poisoning bacteria and moulds.",
+        "Chemical hazards include pesticide residues, cleaning chemicals and metal residues.",
+        "Physical hazards are foreign bodies such as glass, metal or bone.",
+        "Hazard analysis identifies the hazards at each stage of food processing and assesses how likely and how serious each one is.",
+        "A control measure is an action that prevents, removes or reduces a hazard, such as thorough cooking.",
+        "A critical control point is a step at which a control measure is essential and can be monitored."
+      ]
+    },
+    {
+      "h": "The seven principles of HACCP (Higher Level only)",
+      "points": [
+        "Principle 1: carry out a hazard analysis at each stage of the process.",
+        "Principle 2: identify the critical control points.",
+        "Principle 3: set a critical limit for each critical control point, such as a minimum cooking temperature.",
+        "Principle 4: set up monitoring procedures to check each critical control point.",
+        "Principle 5: set corrective actions to take when monitoring shows that a critical limit has not been met.",
+        "Principle 6: set up verification procedures to confirm that the system is working.",
+        "Principle 7: keep records and documentation of the system and its results."
+      ]
+    },
+    {
+      "h": "Purchase, transport and storage of a hot main course (Higher Level only)",
+      "points": [
+        "Purchase hazards: damaged goods, bacterial or chemical contamination, and pests.",
+        "Purchase controls: buy from a reputable shop, and check packaging, use-by dates, temperatures and any signs of pest damage.",
+        "Transport hazard: bacteria multiply when food warms up during transport and delays.",
+        "Transport control: carry perishable food in cool bags or refrigerated containers, cover it, and minimise the time before it is stored.",
+        "Storage hazards: bacterial multiplication and cross-contamination of food.",
+        "Storage controls: chill perishable food below 5°C, freeze food at −18°C, and keep raw food separate from cooked food."
+      ]
+    },
+    {
+      "h": "Preparation and cooking of a hot main course (Higher Level only)",
+      "points": [
+        "Preparation hazards: contamination of food, multiplication of bacteria and cross-contamination.",
+        "Preparation controls: wash hands with antibacterial soap before and after handling food, and handle food as little as possible.",
+        "Use colour-coded boards and separate utensils for raw and cooked meat, and keep raw meat away from cooked meat and ready-to-eat foods.",
+        "Thaw frozen meat or poultry fully, preferably in the fridge on the bottom shelf, before cooking it.",
+        "Cooking hazard: bacteria that survive cooking, which can cause food poisoning.",
+        "Cooking control: cook thoroughly, turning or stirring the food regularly so that it cooks evenly.",
+        "Poultry must reach a core temperature of at least 72°C to destroy bacteria."
+      ]
+    },
+    {
+      "h": "Serving and reheating a hot main course (Higher Level only)",
+      "points": [
+        "Serving hazards: surviving bacteria multiplying in food that is held too long, and cross-contamination from utensils.",
+        "Serving controls: serve cooked food straight after cooking, on a clean plate, with clean utensils.",
+        "Hold cooked food above 63°C, and do not hold it for more than about 90 minutes.",
+        "Reheating hazard: food that has been cooled and stored can have bacteria that multiply during storage.",
+        "Reheating control: reheat food quickly to above 100°C, and reheat it only once.",
+        "A marinade used on raw meat must be brought to the boil before it is used as a sauce, otherwise it carries raw-meat bacteria."
+      ]
+    },
+    {
+      "h": "Benefits of HACCP (Higher Level only)",
+      "points": [
+        "HACCP eliminates or reduces hazards, so that food is safer.",
+        "It focuses workers on safety at every step of food preparation.",
+        "It meets legal requirements and provides written records as evidence of safe practice.",
+        "Records help a business plan for future safety, time and cost.",
+        "In a catering business, HACCP helps prevent food poisoning outbreaks by controlling hazards from purchase to service.",
+        "The system should be reviewed and evaluated regularly."
+      ]
+    },
+    {
+      "h": "ISO 9000 (Higher Level only)",
+      "points": [
+        "ISO is the International Organization for Standardization, which publishes internationally agreed standards.",
+        "ISO 9000 is a family of standards for quality management systems.",
+        "A quality management system uses documented procedures, records and regular internal review to ensure that products meet customer requirements.",
+        "Continual improvement of the system is a central principle of ISO 9000.",
+        "ISO 9001 is the standard in the family against which organisations are formally certified.",
+        "HACCP is a food safety system, whereas ISO 9000 covers quality management in general, and a food business can use both."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "HACCP",
+      "definition": "A preventive food safety system that identifies hazards in food processing and controls them at critical points."
+    },
+    {
+      "term": "Hazard",
+      "definition": "Anything that could contaminate food or harm the consumer, including micro-organisms, chemicals and foreign bodies."
+    },
+    {
+      "term": "Hazard analysis",
+      "definition": "The identification of hazards at each stage of food processing, and an assessment of how likely and how serious each one is."
+    },
+    {
+      "term": "Control measure",
+      "definition": "An action that prevents, removes or reduces a hazard, such as thorough cooking or chilling."
+    },
+    {
+      "term": "Critical control point",
+      "definition": "A step in food processing at which a control measure is essential and can be monitored."
+    },
+    {
+      "term": "Critical limit",
+      "definition": "The maximum or minimum value, such as a cooking temperature, that a critical control point must meet to keep food safe."
+    },
+    {
+      "term": "Corrective action",
+      "definition": "The action taken when monitoring shows that a critical limit has not been met."
+    },
+    {
+      "term": "Verification",
+      "definition": "Checks, such as reviews and tests, that confirm a HACCP system is working as planned."
+    },
+    {
+      "term": "ISO 9000",
+      "definition": "A family of international standards for quality management systems, published by the International Organization for Standardization."
+    },
+    {
+      "term": "Quality management system",
+      "definition": "A system of documented procedures, records and reviews used by an organisation to make sure its products meet requirements."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three types of hazard",
+      "definition": "Biological (bacteria and moulds), chemical (pesticide residues, cleaning chemicals and metal residues) and physical (glass, metal and bone)."
+    },
+    {
+      "term": "Seven principles of HACCP",
+      "definition": "Hazard analysis; identifying critical control points; setting critical limits; monitoring; corrective actions; verification; and records and documentation."
+    },
+    {
+      "term": "Three benefits of implementing HACCP",
+      "definition": "It eliminates or reduces hazards and produces safer food; it focuses workers on safety; and it fulfils legal requirements and provides records as evidence."
+    },
+    {
+      "term": "Five stages of HACCP for a hot main course",
+      "definition": "Purchase; transport and storage; preparation; cooking; and serving and reheating."
+    },
+    {
+      "term": "Minimum core temperature for cooking poultry",
+      "definition": "72°C, held in the centre of the food to destroy bacteria."
+    },
+    {
+      "term": "Full name of the body that publishes ISO standards",
+      "definition": "The International Organization for Standardization."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the three types of hazard that can contaminate food, giving one example of each.",
+      "model": "Biological hazard: food poisoning bacteria such as Salmonella, or moulds. Chemical hazard: pesticide residues, cleaning chemicals or metal residues. Physical hazard: foreign bodies such as glass, metal or bone."
+    },
+    {
+      "marks": 24,
+      "prompt": "Outline the stages of a HACCP system for making and serving a hot main course, identifying a hazard and a corresponding control measure at each stage.",
+      "model": "Purchase: hazards are damaged goods, contamination and pests; controls are buying from a reputable shop, checking packaging, dates, temperatures and pest damage. Transport and storage: hazards are bacterial growth and cross-contamination; controls are cool bags, minimal delay, covered food, chilling below 5°C and freezing at −18°C. Preparation: hazards are contamination, bacterial multiplication and cross-contamination; controls are handwashing, colour-coded boards, separate utensils for raw and cooked food, and fully thawing food in the fridge. Cooking: hazard is bacteria surviving cooking; control is thorough cooking with poultry reaching at least 72°C in the centre, turning food regularly. Serving and reheating: hazards are multiplication of surviving bacteria and cross-contamination from utensils; controls are serving on clean plates, holding food above 63°C for no more than about 90 minutes, and reheating quickly to above 100°C only once."
+    }
+  ]
+}

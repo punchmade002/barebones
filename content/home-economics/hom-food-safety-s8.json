@@ -1,0 +1,154 @@
+{
+  "loId": "hom-food-safety-s8",
+  "chapterId": "hom-food-safety",
+  "subsection": "8. National agencies in food safety",
+  "syllabusRef": "1.3.10",
+  "notes": [
+    {
+      "h": "Food Safety Authority of Ireland (Higher Level only)",
+      "points": [
+        "The Food Safety Authority of Ireland (FSAI) is the state body responsible for food safety in Ireland, established under the Food Safety Authority of Ireland Act 1998.",
+        "The FSAI operates under the Department of Health.",
+        "It co-ordinates the enforcement of food safety legislation in Ireland and advises the Minister on food safety.",
+        "It protects consumers by ensuring that food is safe to eat and that food information is accurate.",
+        "It works with food businesses to make sure food is produced safely, including through HACCP systems.",
+        "It takes action when a food premises is in breach of food regulations.",
+        "It gives consumers and food businesses authoritative advice and publishes food safety information.",
+        "It processes applications for novel foods and for new methods of food processing.",
+        "It does not promote Irish food at home or abroad; that is the role of Bord Bia (the Irish Food Board)."
+      ]
+    },
+    {
+      "h": "Official agencies under contract to the FSAI (Higher Level only)",
+      "b": "The FSAI does not carry out most food controls itself. Official agencies do this work under service contracts with the FSAI.",
+      "points": [
+        "The official agencies are the Health Service Executive (HSE), the Department of Agriculture, Food and the Marine, the Sea-Fisheries Protection Authority and the local authorities.",
+        "Official agencies carry out inspections, sampling and analysis of food in the places they cover.",
+        "The Sea-Fisheries Protection Authority carries out food safety controls on fish and shellfish.",
+        "Local authorities carry out food controls under contract to the FSAI in their own areas."
+      ]
+    },
+    {
+      "h": "Health Service Executive: Environmental Health Service (Higher Level only)",
+      "points": [
+        "Environmental health officers, working in the HSE's Environmental Health Service, carry out the inspections of food premises.",
+        "The service registers new food premises.",
+        "It inspects food premises and farms.",
+        "It handles hygiene complaints and issues closure orders where food premises are unsafe.",
+        "It ensures food safety at public gatherings.",
+        "It monitors compliance with food, labelling, additives and contaminants legislation.",
+        "It responds to rapid alerts and recalls.",
+        "It educates and advises food businesses on compliance with the law."
+      ]
+    },
+    {
+      "h": "Public Analyst Laboratories (Higher Level only)",
+      "points": [
+        "The Public Analyst Laboratories are run by the HSE.",
+        "They analyse food and water.",
+        "They test food for compliance with food law and labelling law.",
+        "They test samples submitted by members of the public, for a fee.",
+        "Their results help ensure that food sold to consumers is safe and wholesome."
+      ]
+    },
+    {
+      "h": "Department of Agriculture, Food and the Marine (Higher Level only)",
+      "points": [
+        "It monitors food safety in meat and meat products, milk and milk products, and eggs and egg products.",
+        "It monitors the use of pesticides in food production.",
+        "It enforces EU controls on the import of animal-based foods from countries outside the EU.",
+        "It is responsible for the registration and traceability of cattle, pigs and sheep.",
+        "It ensures correct hygiene procedures are followed from the dairy farm through to the retailer and the consumer."
+      ]
+    },
+    {
+      "h": "How the agencies work together (Higher Level only)",
+      "points": [
+        "The FSAI and the official agencies work together on inspections, sampling, alerts, product withdrawals and recalls.",
+        "Traceability allows an unsafe product to be traced back to its supplier and forward to the businesses that received it.",
+        "A product withdrawal removes a product from the supply chain, whereas a product recall also collects it from consumers.",
+        "Rapid alerts pass warnings about unsafe food quickly to the agencies that must act on them."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Food Safety Authority of Ireland",
+      "definition": "The state body responsible for food safety in Ireland, which co-ordinates food safety enforcement and advises consumers and food businesses."
+    },
+    {
+      "term": "Official agency",
+      "definition": "A body, such as the HSE or a local authority, that carries out food controls under contract to the FSAI."
+    },
+    {
+      "term": "Environmental health officer",
+      "definition": "An officer of the HSE's Environmental Health Service who inspects food premises and investigates hygiene complaints."
+    },
+    {
+      "term": "Public Analyst Laboratory",
+      "definition": "A laboratory run by the HSE that analyses food and water to check that they are safe and comply with the law."
+    },
+    {
+      "term": "Closure order",
+      "definition": "An order that closes a food premises, issued by the Environmental Health Service when the premises is unsafe."
+    },
+    {
+      "term": "Rapid alert",
+      "definition": "A warning about an unsafe food that is passed quickly to the agencies that must act on it."
+    },
+    {
+      "term": "Product withdrawal",
+      "definition": "The removal of an unsafe product from the supply chain, before it reaches consumers."
+    },
+    {
+      "term": "Product recall",
+      "definition": "The collection of an unsafe product from consumers who have already bought it."
+    },
+    {
+      "term": "Traceability",
+      "definition": "The ability to trace a food back to its supplier and forward to the businesses that received it."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Department that the FSAI operates under",
+      "definition": "The Department of Health."
+    },
+    {
+      "term": "Four official agencies that carry out food controls under contract to the FSAI",
+      "definition": "The HSE, the Department of Agriculture, Food and the Marine, the Sea-Fisheries Protection Authority and the local authorities."
+    },
+    {
+      "term": "Four functions of the Public Analyst Laboratories",
+      "definition": "Analysing food and water; testing compliance with food and labelling law; testing public samples for a fee; and ensuring that food is safe and wholesome."
+    },
+    {
+      "term": "Three functions of the Environmental Health Service in food safety",
+      "definition": "Registering new food premises; inspecting food premises and farms; and handling hygiene complaints and issuing closure orders."
+    },
+    {
+      "term": "Three functions of the Department of Agriculture, Food and the Marine in food safety",
+      "definition": "Monitoring meat, milk and egg products and pesticide use; enforcing EU controls on imports of animal-based foods from outside the EU; and registering and tracing cattle, pigs and sheep."
+    },
+    {
+      "term": "Which body promotes Irish food, drink and horticulture",
+      "definition": "Bord Bia (the Irish Food Board), not the FSAI."
+    },
+    {
+      "term": "Two things the FSAI gives consumers and food businesses",
+      "definition": "Authoritative advice, and published food safety information."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify two official agencies that carry out food controls under contract to the FSAI, and state one food safety function of each.",
+      "model": "Health Service Executive: its Environmental Health Service registers new food premises and inspects them, or handles hygiene complaints and issues closure orders. Department of Agriculture, Food and the Marine: monitors food safety in meat, milk and egg products, or enforces EU controls on imports of animal-based foods from outside the EU. Other accepted agencies include the Sea-Fisheries Protection Authority, which controls fish and shellfish safety, and local authorities, which carry out food controls in their areas."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss how the FSAI and the official agencies work together to protect consumers from unsafe food.",
+      "model": "The FSAI operates under the Department of Health and co-ordinates the enforcement of food safety legislation, advising the Minister and ensuring that food is safe and honestly labelled. Official agencies carry out the controls under contract: the HSE's Environmental Health Service inspects food premises, registers new premises, handles hygiene complaints and issues closure orders; Public Analyst Laboratories analyse food and water and test compliance with food and labelling law; the Department of Agriculture, Food and the Marine monitors meat, milk, egg products and pesticide use and controls imports from outside the EU; the Sea-Fisheries Protection Authority controls fish and shellfish; local authorities carry out controls in their areas. Together they use inspections and sampling, and work on rapid alerts, traceability, product withdrawals and recalls, so that unsafe food is removed from sale quickly and consumers are advised."
+    }
+  ]
+}
