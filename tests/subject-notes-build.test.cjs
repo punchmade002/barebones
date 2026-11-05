@@ -270,7 +270,7 @@ test("the shipped business notes file is up to date with content/business", () =
 });
 
 test("business chapters with subsections are fully authored and load without the old notes", () => {
-  const after = load(["data.js", "business-content.js", "business-notes.js"]);
+  const after = load(["data.js", "business-notes.js"]);
   const chapters = after.__courseData.chapters.filter(
     (c) => c.subject === "business" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id) && o.authored)
   );

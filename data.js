@@ -105,30 +105,28 @@ const COURSE_DATA = {
       id: "ch10", number: 10, subject: "business", title: "Operations and Finance", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo10-1", code: "10.1", title: "Operational model — Key Partners, Activities & Resources", notes: [], keyTerms: [], questions: [] },
-      { id: "lo10-2", code: "10.2", title: "Costs, sources of finance, revenue streams across the lifecycle", notes: [], keyTerms: [], questions: [] },
-      { id: "lo10-3", code: "10.3", title: "Cashflow analysis", notes: [], keyTerms: [], questions: [] }
+      { id: "ch10-s1", code: "10.1", syllabusRef: "2.5.1", title: "The operational model: key partners, activities and resources", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s2", code: "10.2", syllabusRef: "2.5.2", title: "Costs and revenue streams", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s3", code: "10.3", syllabusRef: "2.5.2", title: "Sources of finance across the lifecycle", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s4", code: "10.4", syllabusRef: "2.5.3", title: "Cash-flow analysis", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch11", number: 11, subject: "business", title: "Growth, Development and Expansion", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo11-1", code: "11.1", title: "Importance of identifying competition", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-2", code: "11.2", title: "Porter's Five Forces", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-3", code: "11.3", title: "Strategies to adapt or expand", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-4", code: "11.4", title: "Technology supporting adaptation and expansion", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-5", code: "11.5", title: "Cost-Benefit Analysis (CBA) of expansion", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-6", code: "11.6", title: "Adapting marketing mix or business model", notes: [], keyTerms: [], questions: [] }
+      { id: "ch11-s1", code: "11.1", syllabusRef: "2.6.1, 2.6.2", title: "Competition, competitive advantage and Porter's five forces", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s2", code: "11.2", syllabusRef: "2.6.3, 2.6.4", title: "Strategies to adapt or expand, and the role of technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s3", code: "11.3", syllabusRef: "2.6.5", title: "Cost-benefit analysis of expansion", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s4", code: "11.4", syllabusRef: "2.6.6", title: "Adapting to external drivers through the marketing mix and business model", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch12", number: 12, subject: "business", title: "Managing Risk", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo12-1", code: "12.1", title: "Challenges and risks of enterprise", notes: [], keyTerms: [], questions: [] },
-      { id: "lo12-2", code: "12.2", title: "Importance of assessing and managing risks", notes: [], keyTerms: [], questions: [] },
-      { id: "lo12-3", code: "12.3", title: "Risk management strategies and types of insurance", notes: [], keyTerms: [], questions: [] }
+      { id: "ch12-s1", code: "12.1", syllabusRef: "2.7.1, 2.7.2", title: "The risks of enterprise and why risk management matters", notes: [], keyTerms: [], questions: [] },
+      { id: "ch12-s2", code: "12.2", syllabusRef: "2.7.3", title: "Risk management strategies and insurance", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -163,26 +161,18 @@ const COURSE_DATA = {
       id: "ch16", number: 16, subject: "business", title: "The Rationale for Planning", strand: 3,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo16-1", code: "16.1", title: "Internal and external changes facing organisations", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-2", code: "16.2", title: "Reasons for resistance to change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-3", code: "16.3", title: "Practices that promote innovation and intrapreneurial thinking", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-4", code: "16.4", title: "Overcoming resistance to change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-5", code: "16.5", title: "Strategic planning as an ongoing process", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-6", code: "16.6", title: "Benefits of strategic planning", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-7", code: "16.7", title: "Force-Field Analysis", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-8", code: "16.8", title: "Contingency planning for crisis management", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-9", code: "16.9", title: "Factors to consider when developing a contingency plan", notes: [], keyTerms: [], questions: [] }
+      { id: "ch16-s1", code: "16.1", syllabusRef: "3.4.1–3.4.4", title: "Change, resistance to change and fostering innovation", notes: [], keyTerms: [], questions: [] },
+      { id: "ch16-s2", code: "16.2", syllabusRef: "3.4.5–3.4.7", title: "Strategic planning and force-field analysis", notes: [], keyTerms: [], questions: [] },
+      { id: "ch16-s3", code: "16.3", syllabusRef: "3.4.8, 3.4.9", title: "Contingency planning and crisis management", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch17", number: 17, subject: "business", title: "Making Informed Decisions as a Consumer", strand: 4,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo17-1", code: "17.1", title: "Consumer rights and responsibilities under current legislation", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-2", code: "17.2", title: "Ethics, sustainability and the circular economy", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-3", code: "17.3", title: "Impact of digital technology on consumer behaviour", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-4", code: "17.4", title: "Personal data protection — GDPR", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-5", code: "17.5", title: "Importance of making informed consumer decisions", notes: [], keyTerms: [], questions: [] }
+      { id: "ch17-s1", code: "17.1", syllabusRef: "4.1.1", title: "Consumer rights, responsibilities and legislation", notes: [], keyTerms: [], questions: [] },
+      { id: "ch17-s2", code: "17.2", syllabusRef: "4.1.2, 4.1.3", title: "Ethical and sustainable consumption, the shadow economy and digital technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch17-s3", code: "17.3", syllabusRef: "4.1.4, 4.1.5", title: "Protecting personal data; making informed consumer decisions", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
