@@ -26184,6 +26184,986 @@
    }
   ]
  },
+ "hom-unemployment-poverty-s1": {
+  "keyTerms": [
+   {
+    "definition": "Being without paid work while being available for work and actively seeking it.",
+    "term": "Unemployment"
+   },
+   {
+    "definition": "The number of people in employment plus the number of unemployed people.",
+    "term": "Labour force"
+   },
+   {
+    "definition": "The number of unemployed people expressed as a percentage of the labour force.",
+    "term": "Unemployment rate"
+   },
+   {
+    "definition": "Taking specific steps, such as applying for jobs, to find paid employment.",
+    "term": "Actively seeking work"
+   },
+   {
+    "definition": "A brief period out of work, usually between jobs or after leaving education.",
+    "term": "Short-term unemployment"
+   },
+   {
+    "definition": "Short-term unemployment caused by the normal time workers take to move between jobs.",
+    "term": "Frictional unemployment"
+   },
+   {
+    "definition": "Being out of work for one year or more.",
+    "term": "Long-term unemployment"
+   },
+   {
+    "definition": "The rate of unemployment measured by the Central Statistics Office using the ILO definition.",
+    "term": "Standardised unemployment rate"
+   },
+   {
+    "definition": "The Department of Social Protection's count of people claiming jobseeker payments.",
+    "term": "Live Register"
+   },
+   {
+    "definition": "No paid employment; available to start work; actively seeking work.",
+    "term": "Three conditions for counting as jobless"
+   },
+   {
+    "definition": "Unemployed people divided by the labour force, multiplied by 100.",
+    "term": "Formula for the unemployment rate"
+   },
+   {
+    "definition": "The Central Statistics Office's Labour Force Survey and the Live Register kept by the Department of Social Protection.",
+    "term": "Two sources for measuring unemployment in Ireland"
+   },
+   {
+    "definition": "One year or more.",
+    "term": "Minimum time out of work to be classed as long-term"
+   },
+   {
+    "definition": "Construction and related trades, and retail and service industries.",
+    "term": "Sectors hardest hit by the 2008 downturn"
+   },
+   {
+    "definition": "Recent graduates, foreign workers and young people.",
+    "term": "Groups most affected by the post-2008 rise in joblessness"
+   },
+   {
+    "definition": "Students, and people in full-time home duties who are not seeking work.",
+    "term": "Two examples of people not counted as jobless"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Unemployment is being without paid work while being willing and able to take up work.",
+    "h": "What counts as unemployed",
+    "points": [
+     "Three conditions must all be met: the person has no paid employment, is available to start work, and is actively seeking work.",
+     "Available for work: the person could start work within a short period, normally within two weeks.",
+     "Actively seeking work: the person has taken specific steps to find work, such as applying for posts, answering advertisements or registering with Intreo, the Department of Social Protection's public employment service.",
+     "Students, people in full-time home duties, retired people and those unable to work through illness or disability are not counted as unemployed, because they are not available for work or are not seeking it.",
+     "A person in part-time work who wants more hours is counted as employed in the standard measure."
+    ]
+   },
+   {
+    "h": "The labour force and the unemployment rate",
+    "points": [
+     "The labour force is the number of people in employment plus the number of unemployed people.",
+     "The unemployment rate is the number of unemployed people divided by the labour force, multiplied by 100.",
+     "A rate is more useful than a raw total when comparing periods or areas, because the size of the labour force changes over time.",
+     "The Central Statistics Office measures unemployment in Ireland using the definition set by the International Labour Organization (ILO)."
+    ]
+   },
+   {
+    "h": "Short-term, frictional and long-term unemployment",
+    "points": [
+     "Short-term unemployment is a brief spell out of work, usually between jobs or after leaving education.",
+     "Frictional unemployment is short-term unemployment caused by the normal time workers take to move from one job to another.",
+     "Long-term unemployment is being out of work for one year or more."
+    ]
+   },
+   {
+    "b": "The extent of unemployment is shown by rates and by the numbers affected, drawn from two main sources.",
+    "h": "Extent of unemployment in Ireland (Higher Level only)",
+    "points": [
+     "The Labour Force Survey is a household survey by the Central Statistics Office that produces the standardised unemployment rate.",
+     "The Live Register, kept by the Department of Social Protection, counts people claiming jobseeker payments, including some part-time workers, so it is not the standard measure of unemployment.",
+     "Unemployment rose sharply after the economic downturn that began in 2008, with construction and related trades worst affected.",
+     "Retail and service industries also shed jobs during the downturn as consumer spending fell.",
+     "Recent graduates, foreign workers and young people were among the groups hit hardest by the rise in unemployment.",
+     "Unemployment peaked in the early 2010s and then fell steadily as the economy recovered.",
+     "Unemployment rates vary between regions; areas that lost major employers tend to keep higher rates for longer."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Three conditions: the person has no paid employment; is available to start work, normally within two weeks; and is actively seeking work by taking specific steps, such as applying for posts or registering with Intreo. Available for work means the person could start a job within a short period and is not prevented, for example by full-time study or illness, from taking it up.",
+    "prompt": "State the three conditions a person must meet to be classed as unemployed in Ireland, and explain what being available for work means.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Measurement: the Central Statistics Office's Labour Force Survey uses the ILO definition to produce the standardised unemployment rate; the Live Register kept by the Department of Social Protection counts people claiming jobseeker payments but is not the standard measure. Each measure is a rate or a count, and rates allow comparison over time. Change after 2008: the economic downturn caused a sharp rise in unemployment; construction and related trades were worst affected, with retail and service industries also losing jobs; recent graduates, foreign workers and young people were hit hard; unemployment peaked in the early 2010s and then fell steadily as the economy recovered.",
+    "prompt": "Explain how unemployment is measured in Ireland, and describe how the extent of unemployment changed after 2008.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s2": {
+  "keyTerms": [
+   {
+    "definition": "Unemployment caused by work that depends on the time of year, such as construction or tourism work in winter.",
+    "term": "Seasonal unemployment"
+   },
+   {
+    "definition": "Unemployment caused by jobs being concentrated in certain regions, leaving people in other areas without work.",
+    "term": "Geographical unemployment"
+   },
+   {
+    "definition": "Job loss caused when machines or automation replace workers.",
+    "term": "Technical unemployment"
+   },
+   {
+    "definition": "The hard core of unemployment that persists even when the economy is growing.",
+    "term": "Residual unemployment"
+   },
+   {
+    "definition": "An area with persistently high unemployment, often after the closure of its main employer.",
+    "term": "Unemployment black spot"
+   },
+   {
+    "definition": "The use of machines and computerised systems to carry out tasks previously done by people.",
+    "term": "Automation"
+   },
+   {
+    "definition": "The growing integration of national economies, which allows firms to move production to lower-cost countries.",
+    "term": "Globalisation"
+   },
+   {
+    "definition": "The ability of a firm or country to sell goods and services against rivals, influenced by costs and quality.",
+    "term": "Competitiveness"
+   },
+   {
+    "definition": "Seasonal, geographical, technical, difficulty adapting to changing industry requirements, low demand for products and services, and residual.",
+    "term": "Six causes of unemployment"
+   },
+   {
+    "definition": "Automated production lines in manufacturing; self-service and online banking replacing bank tellers.",
+    "term": "Two examples of technology replacing staff"
+   },
+   {
+    "definition": "Consumers cut spending; firms reduce output and staff; lower incomes reduce spending further.",
+    "term": "Three effects of a recession on consumer spending"
+   },
+   {
+    "definition": "Local shops and services close; spending in the area falls; a shrinking population makes firms less willing to locate there.",
+    "term": "Three ways rural depopulation deepens local job loss"
+   },
+   {
+    "definition": "Discrimination; mistrust of their ability to do the work; employers' lack of awareness of their skills.",
+    "term": "Three reasons employers may pass over certain applicants"
+   },
+   {
+    "definition": "Construction work, and work in tourism and hospitality.",
+    "term": "Two examples of seasonal work in Ireland"
+   }
+  ],
+  "notes": [
+   {
+    "b": "These causes come from when and where work is available rather than from the workers themselves.",
+    "h": "Seasonal and geographical unemployment (Higher Level only)",
+    "points": [
+     "Seasonal unemployment: jobs depend on the time of year, for example in construction, farming, tourism and hotels, which slow down in winter.",
+     "Seasonal workers in these industries are often laid off each winter and re-employed in spring or summer.",
+     "Geographical unemployment: jobs are concentrated in certain regions, so people living far from employment centres are more likely to be out of work.",
+     "Unemployment black spots are areas that lost their main employer, such as a factory closure, and keep high unemployment for many years.",
+     "Outward migration from rural areas removes working-age people, which closes shops and services and reduces the number of local jobs.",
+     "When a local firm closes, job losses spread to suppliers and services that depended on its workers' spending."
+    ]
+   },
+   {
+    "b": "Changes in production methods and in the structure of industry reduce the number of jobs available.",
+    "h": "Technical change and changing industry requirements (Higher Level only)",
+    "points": [
+     "Technical unemployment: machines and automation replace workers, for example automated production lines in manufacturing and self-service banking that reduces the number of bank tellers.",
+     "Difficulty adapting: workers whose skills no longer match industry needs struggle to find new work.",
+     "Primary industries such as agriculture and fishing, and secondary industries such as manufacturing, employ fewer people than in the past, while service and technology industries need new skills.",
+     "Globalisation: manufacturers relocate production to countries with lower labour costs, removing jobs from Ireland.",
+     "Rising educational requirements: many jobs now require qualifications, so people with few or none are excluded from applying."
+    ]
+   },
+   {
+    "b": "Unemployment rises when firms sell less, because they cut output and staff.",
+    "h": "Level of demand for products and services (Higher Level only)",
+    "points": [
+     "A recession reduces consumer spending, so firms reduce production and make workers redundant.",
+     "Cheaper imported goods reduce demand for Irish-made products, and the firms producing them cut jobs.",
+     "Online shopping and cheaper foreign holidays move spending away from Irish shops and tourism businesses.",
+     "Unemployment reduces household income, which reduces spending further and causes more job losses in local shops and services.",
+     "High wage costs reduce the competitiveness of Irish firms against rivals abroad, leading to lost sales and job losses."
+    ]
+   },
+   {
+    "b": "Residual unemployment is the hard core of people who stay out of work even when the economy is growing.",
+    "h": "Residual unemployment (Higher Level only)",
+    "points": [
+     "Causes include poor skills, long periods out of work, ill health or disability, and living in an area with few jobs.",
+     "Residual unemployment persists during economic growth, so growth alone does not remove it.",
+     "Long-term unemployed people make up much of the residual group."
+    ]
+   },
+   {
+    "b": "Some groups face barriers in addition to the general level of demand for labour.",
+    "h": "Groups who find it hard to get work",
+    "points": [
+     "Travellers and ethnic minorities can face discrimination in recruitment.",
+     "Refugees and asylum seekers may not have permission to work or a valid work permit, and may lack the language skills employers require.",
+     "People with disabilities or ill health may be excluded because employers doubt their ability to do the work.",
+     "Homeless people, people with criminal records and early school leavers face employers who are unaware of their abilities, and often lack skills or qualifications.",
+     "Residents of unemployment black spots face few local vacancies and may need to travel or move to find work."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Geographical unemployment: jobs are concentrated in certain regions; when a major employer closes, a black spot forms with few alternative jobs, and job losses spread to local suppliers and services. Outward migration from rural areas: working-age people leave, which closes local shops and services and reduces the number of local jobs.",
+    "prompt": "Name two causes of unemployment that are linked to where people live, and explain how each one leads to job loss.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Technical change: automation and machines replace workers, for example automated production lines and self-service banking; workers whose skills no longer match industry needs struggle to find new work; primary and secondary industries employ fewer people while service and technology industries need new skills; globalisation moves production to lower-cost countries. Demand for products and services: a recession reduces consumer spending, so firms cut output and staff; cheaper imported goods and online shopping reduce demand for Irish goods and services; cheaper foreign holidays reduce spending on Irish tourism; unemployment reduces household income, which reduces spending further; high wage costs reduce competitiveness, leading to lost sales. Each cause reduces the number of jobs available, and the effects reinforce one another.",
+    "prompt": "Analyse the causes of unemployment in Ireland, with reference to technical change and to the level of demand for products and services.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s3": {
+  "keyTerms": [
+   {
+    "definition": "A lack of secure income that leaves a household unable to meet regular costs.",
+    "term": "Financial insecurity"
+   },
+   {
+    "definition": "Missed or late repayments on a mortgage.",
+    "term": "Mortgage arrears"
+   },
+   {
+    "definition": "A fall in social standing and self-esteem that can follow the loss of work.",
+    "term": "Loss of status"
+   },
+   {
+    "definition": "A lack of regular contact with other people, often caused by losing work.",
+    "term": "Social isolation"
+   },
+   {
+    "definition": "Unemployment passed from parents to children, who may lack working role models.",
+    "term": "Intergenerational unemployment"
+   },
+   {
+    "definition": "Paid work carried out without being declared for tax or social insurance.",
+    "term": "Black economy"
+   },
+   {
+    "definition": "Conduct that harms or disturbs others, such as crime, vandalism or intimidation.",
+    "term": "Antisocial behaviour"
+   },
+   {
+    "definition": "Leaving one's own country to live and work abroad.",
+    "term": "Emigration"
+   },
+   {
+    "definition": "Financial insecurity; loss of self-esteem and status; depression.",
+    "term": "Three effects of unemployment on the individual"
+   },
+   {
+    "definition": "Lower living standard and debt; strain on relationships; children losing activities and educational opportunities; risk of losing the home.",
+    "term": "Four effects of unemployment on the family"
+   },
+   {
+    "definition": "Higher welfare and tax costs; crime and antisocial behaviour; emigration of skilled workers.",
+    "term": "Three effects of unemployment on society"
+   },
+   {
+    "definition": "Falling spending closes shops and services, which causes further job losses and encourages people to leave the area.",
+    "term": "Local chain reaction in an unemployment black spot"
+   },
+   {
+    "definition": "Children have fewer working role models and may lower their expectations of work.",
+    "term": "How unemployment can pass to the next generation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Unemployment affects a person's income, status and health at the same time.",
+    "h": "Effects on the individual",
+    "points": [
+     "Financial insecurity: lost income forces people to cut spending, lower their living standards and rely on savings or credit.",
+     "Debt: unpaid bills and loans can lead to mortgage arrears and, in serious cases, repossession of the family home.",
+     "Loss of identity and status: unemployed people may feel undervalued and lose self-esteem and social standing.",
+     "Depression and stress: long-term unemployment can create feelings of hopelessness, failure and guilt.",
+     "Social isolation: losing work removes daily contact with colleagues and reduces participation in social activities.",
+     "Boredom and loss of routine can lead to poorer physical health.",
+     "Addiction: some people turn to alcohol, drugs or gambling to cope, which adds to their difficulties."
+    ]
+   },
+   {
+    "h": "Effects on the family unit",
+    "points": [
+     "Reduced income lowers the family's living standard, so it may struggle to afford food, clothing, heating and other basics.",
+     "Financial pressure and changed roles within the household cause arguments and strain relationships.",
+     "Relationship strain can lead to separation or family breakdown.",
+     "Children may have to give up activities such as sports, music lessons or school trips.",
+     "Families that fall behind on rent or mortgage repayments face a risk of homelessness.",
+     "Reliance on welfare payments can shape family finances for long periods."
+    ]
+   },
+   {
+    "h": "Effects passed on to children",
+    "points": [
+     "Children's educational opportunities suffer when a family cannot pay for books, technology or a quiet study space.",
+     "Children of unemployed parents have fewer working role models, which can lower their expectations of work.",
+     "Intergenerational unemployment: disadvantage can be repeated when children reach working age.",
+     "Financial pressure at home can lead to early school leaving, reducing the qualifications children take into the labour market."
+    ]
+   },
+   {
+    "h": "Effects on society",
+    "points": [
+     "Cost to the state: higher welfare payments and taxes are needed to support unemployed people and their families.",
+     "Loss of tax and social insurance (PRSI) income reduces the funds available for public services.",
+     "Antisocial behaviour, crime and vandalism are more common in areas with high long-term unemployment.",
+     "Emigration of workers, including skilled workers, reduces the population and the skills base.",
+     "The black economy grows, as unpaid or undeclared work avoids tax and PRSI.",
+     "Social exclusion: people cut off from work, income and social networks become harder to reintegrate."
+    ]
+   },
+   {
+    "h": "Local chain reaction in unemployment black spots",
+    "points": [
+     "Falling local spending closes shops and services, which causes further job losses in the area.",
+     "Population loss reduces the number of users of local schools and transport, making services harder to keep open.",
+     "Black spots acquire a poor reputation, which deters investment and new businesses."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Financial insecurity: loss of income forces cuts in spending, lower living standards, debt and possible mortgage arrears. Loss of identity and status: the person may feel undervalued and lose self-esteem and social standing. Depression, stress and social isolation: loss of work removes daily contact with others and can create hopelessness and failure. Each effect needs a clear explanation to earn full marks.",
+    "prompt": "Outline two effects of unemployment on the individual.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Family: reduced income and living standard, debt and risk of losing the home; strain on relationships and possible separation; children losing activities and educational opportunities, such as books or a quiet study space; reliance on welfare for long periods. Society: higher welfare and tax costs for the state; loss of tax and PRSI income for public services; crime, antisocial behaviour and vandalism in areas with high long-term unemployment; emigration of workers and skills; growth of the black economy; decline of shops and services in unemployment black spots, which deters investment. Intergenerational effects link the family and society, as disadvantage can be repeated by the next generation.",
+    "prompt": "Discuss the effects of unemployment on the family and on society.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s4": {
+  "keyTerms": [
+   {
+    "definition": "A lack of adequate income and resources to meet basic needs and to take part in normal life in society.",
+    "term": "Poverty"
+   },
+   {
+    "definition": "Income too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened.",
+    "term": "Absolute poverty"
+   },
+   {
+    "definition": "Living below the standard of living that society regards as basic, which limits participation in normal activities.",
+    "term": "Relative poverty"
+   },
+   {
+    "definition": "An income threshold below which a household is considered to be at risk of poverty.",
+    "term": "Poverty line"
+   },
+   {
+    "definition": "The proportion of people whose income is below the poverty line.",
+    "term": "At-risk-of-poverty rate"
+   },
+   {
+    "definition": "Being below the poverty line and experiencing enforced deprivation of basic necessities.",
+    "term": "Consistent poverty"
+   },
+   {
+    "definition": "Lacking basic necessities because a household cannot afford them.",
+    "term": "Enforced deprivation"
+   },
+   {
+    "definition": "The middle income when all household incomes are ranked from lowest to highest.",
+    "term": "Median income"
+   },
+   {
+    "definition": "The Central Statistics Office survey used to measure income, poverty and deprivation in Ireland.",
+    "term": "Survey on Income and Living Conditions"
+   },
+   {
+    "definition": "Food, clothing, warmth and shelter.",
+    "term": "Basic needs that a survival-level income must cover"
+   },
+   {
+    "definition": "Income below the poverty line, and enforced deprivation of at least two basic necessities.",
+    "term": "Two conditions that must both apply in the combined measure of low income and deprivation"
+   },
+   {
+    "definition": "Keeping the home adequately warm; a warm waterproof coat; a meal with meat or fish every second day.",
+    "term": "Three examples of basic necessities households may be unable to afford"
+   },
+   {
+    "definition": "Lone-parent households; long-term unemployed people; people with disabilities or long-term illness; Travellers.",
+    "term": "Four groups most at risk of poverty in Ireland"
+   },
+   {
+    "definition": "The Central Statistics Office, through its Survey on Income and Living Conditions.",
+    "term": "Body that publishes Irish income and deprivation figures"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Poverty is a lack of the income and resources needed for basic needs and for normal participation in society.",
+    "h": "Defining poverty",
+    "points": [
+     "Poverty means inadequate food, clothing, shelter and warmth, caused by insufficient income or resources.",
+     "Poverty also means being unable to take part in socially acceptable activities that most people take for granted.",
+     "Poverty is examined through two concepts: absolute poverty and relative poverty."
+    ]
+   },
+   {
+    "h": "Absolute poverty",
+    "points": [
+     "Absolute poverty is income too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened.",
+     "The standard is fixed: it does not depend on the living standards of the surrounding society.",
+     "A person in absolute poverty has no viable way of solving the problem alone and needs outside help.",
+     "Absolute poverty is rare in modern Ireland, but homeless people may experience it."
+    ]
+   },
+   {
+    "b": "Relative poverty is judged against the living standards of the society in which a person lives.",
+    "h": "Relative poverty and the poverty line",
+    "points": [
+     "A person in relative poverty lives below what society recognises as a basic standard of living.",
+     "The poverty line is an income threshold below which a household is considered to be at risk of poverty.",
+     "The Central Statistics Office sets the at-risk-of-poverty threshold at 60% of median equivalised household income.",
+     "Because the poverty line moves as incomes change, relative poverty can persist even when incomes rise.",
+     "Examples of relative poverty: being unable to afford a warm waterproof coat, two pairs of strong shoes, adequate heating, or a meal with meat or fish every second day.",
+     "Photographs of the same type of home or setting from different times and places show that the accepted standard of living changes."
+    ]
+   },
+   {
+    "h": "Consistent poverty and the at-risk-of-poverty rate",
+    "points": [
+     "The at-risk-of-poverty rate is the share of people whose income is below the poverty line.",
+     "Enforced deprivation: a household lacks basic necessities because it cannot afford them, not by choice.",
+     "Consistent poverty: a household is below the poverty line and experiences enforced deprivation of at least two basic necessities.",
+     "Consistent poverty is narrower than the at-risk-of-poverty rate, because it counts only people who are both low-income and deprived."
+    ]
+   },
+   {
+    "b": "The Central Statistics Office tracks income and deprivation annually through its Survey on Income and Living Conditions.",
+    "h": "Extent of poverty in Ireland today",
+    "points": [
+     "Poverty in Ireland fell from the 1960s and 1970s onwards, but rose during the recession of the 1980s.",
+     "Poverty fell during the Celtic Tiger period of economic growth in the 1990s and early 2000s.",
+     "Poverty rose again after 2008 as unemployment soared, and rose further with high housing and living costs.",
+     "The COVID-19 pandemic increased the risk of poverty for people who lost work or income."
+    ]
+   },
+   {
+    "b": "Some groups face a higher risk of poverty because of low income, limited skills, or caring responsibilities.",
+    "h": "Groups at risk of poverty",
+    "points": [
+     "Lone-parent households, particularly those without paid work.",
+     "Unemployed people and long-term unemployed people, who depend on welfare or low-paid work.",
+     "Low-paid workers, including those on the minimum wage who may not qualify for state supports.",
+     "People with disabilities or long-term illness, who may be unable to work or face extra costs.",
+     "Older people living alone, particularly women over 65, and those in substandard homes that are expensive to heat.",
+     "Travellers and ethnic minorities, who face poor housing and discrimination in the labour market.",
+     "Refugees and asylum seekers, who may lack skills, qualifications and the right to work.",
+     "Homeless people, who face isolation and poor health.",
+     "Small farm households, which can be asset rich but cash poor and often cannot access income-based payments.",
+     "Early school leavers, and people in a cycle of deprivation who lack education and opportunity."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Absolute poverty: income is too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened; the standard is fixed and does not depend on what others in society enjoy. Relative poverty: a person lives below the standard of living society regards as basic, measured against the poverty line, so they cannot take part in normal activities that most people enjoy. Three marks for each correct explanation.",
+    "prompt": "Distinguish between absolute poverty and relative poverty.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Measures: the poverty line is set by the Central Statistics Office at 60% of median equivalised household income; the at-risk-of-poverty rate is the share of people below that line; consistent poverty combines income below the line with enforced deprivation of at least two basic necessities; the Survey on Income and Living Conditions is the source of these figures. Extent: poverty fell from the 1960s and 1970s, rose in the 1980s recession, fell during the Celtic Tiger, and rose again after 2008, with housing and living costs and the COVID-19 pandemic adding pressure. Groups at risk: lone-parent households; unemployed and long-term unemployed people; low-paid workers; people with disabilities or long-term illness; older people living alone, particularly women over 65; Travellers and ethnic minorities; refugees and asylum seekers; homeless people; early school leavers.",
+    "prompt": "Examine how poverty is measured in Ireland, and describe the groups most at risk of poverty.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s5": {
+  "keyTerms": [
+   {
+    "definition": "The process by which disadvantage, such as low education and income, is passed from one generation to the next and repeats.",
+    "term": "Cycle of poverty"
+   },
+   {
+    "definition": "The reinforcing process in which a lack of resources, services and opportunities in families or areas causes further disadvantage.",
+    "term": "Cycle of deprivation"
+   },
+   {
+    "definition": "A situation in which moving from welfare into low-paid work brings little or no gain in net income because supports are withdrawn.",
+    "term": "Poverty trap"
+   },
+   {
+    "definition": "The State's decisions on welfare, housing, pay, education and employment, which shape who is poor and for how long.",
+    "term": "Social policy"
+   },
+   {
+    "definition": "The lack of resources, services and opportunities that are normal in society, and the exclusion that results.",
+    "term": "Deprivation"
+   },
+   {
+    "definition": "An area with persistently high unemployment, often where a major industry has closed.",
+    "term": "Employment blackspot"
+   },
+   {
+    "definition": "Being unable to take part in activities considered normal in society because of low income and limited resources.",
+    "term": "Social exclusion"
+   },
+   {
+    "definition": "Unemployment and low pay; limited education and qualifications; high housing and living costs; lone parenthood and large families relying on one income.",
+    "term": "Four reasons poverty continues in modern western society"
+   },
+   {
+    "definition": "Early school leaving with few qualifications; poorer health and development; low self-esteem and reduced participation in school life.",
+    "term": "Three effects of poverty on children"
+   },
+   {
+    "definition": "Transport, childcare and work clothing, plus the loss of supports such as housing assistance or a medical card.",
+    "term": "Costs that can cancel out the gain from low-paid work"
+   },
+   {
+    "definition": "Within families, disadvantage passes from parents to children through limited support for learning and work; within areas, concentrated unemployment and closing services reinforce each other.",
+    "term": "Two ways disadvantage reinforces itself within families and areas"
+   },
+   {
+    "definition": "Rent, mortgage, utility and credit arrears build up when income cannot cover essential bills.",
+    "term": "Effect of poverty on family finances"
+   },
+   {
+    "definition": "Persistently high unemployment, long-term welfare dependence and the closure of a major local employer or industry.",
+    "term": "Signs that an area has concentrated joblessness and decline"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Poverty persists where income from work is low or missing and where the costs of living absorb whatever income there is.",
+    "h": "Reasons poverty continues in modern western society",
+    "points": [
+     "Unemployment: a household with no earned income depends on State payments, which are normally lower than wages.",
+     "Long-term unemployment erodes skills, work habits and confidence, making re-entry to the labour market harder.",
+     "Low pay: unskilled and minimum-wage work often leaves full-time workers unable to afford an acceptable standard of living.",
+     "Limited education: early school leavers and people with few qualifications are concentrated in low-paid and insecure work.",
+     "Lone parenthood and large families: one income must cover food, housing and childcare for several people.",
+     "High housing and living costs: rent, mortgage repayments, energy and transport take a large share of low incomes.",
+     "Addiction and gambling: spending on alcohol, drugs or gambling diverts money from essentials and leads to debt.",
+     "Recession and industrial decline: the closure of a major employer removes jobs and the local businesses that depended on its workers' spending.",
+     "Globalisation and automation: production moved abroad or mechanised reduces demand for unskilled labour, mainly in manufacturing."
+    ]
+   },
+   {
+    "b": "Disadvantage is passed from one generation to the next, so poverty repeats itself unless something interrupts the pattern.",
+    "h": "The cycle of poverty (Higher Level only)",
+    "points": [
+     "Children raised in low-income households often have less access to good education, health care and social networks than children from better-off families.",
+     "Some children from poorer families place less value on education, leave school early and move into unemployment or low-paid work.",
+     "Their own children are then born into the same financial conditions, so the pattern repeats across generations.",
+     "Each stage reinforces the next: low income means poorer housing and diet, which affect health and school attendance, which in turn limit later earnings.",
+     "Breaking the cycle requires intervention at the point where it repeats, for example early-years education, family support and access to training."
+    ]
+   },
+   {
+    "b": "Social policy is the set of State decisions on welfare, housing, minimum pay, education and employment supports.",
+    "h": "Influence of social policy on poverty (Higher Level only)",
+    "points": [
+     "These decisions determine who is poor and for how long, because they set the income, housing and training available to each household.",
+     "Critics argue that welfare payments set below the cost of basic needs keep recipients in poverty.",
+     "Other critics argue that generous payments reduce the incentive to seek work and so sustain dependence on the State.",
+     "A minimum wage sets a legal floor for pay, so it directly determines what a full-time low-paid worker earns.",
+     "Housing policy affects poverty directly: the supply and cost of social and private rented housing decide how much of a low income is left after rent.",
+     "Support that is poorly targeted or changes often leaves gaps, so families move in and out of poverty rather than escaping it."
+    ]
+   },
+   {
+    "b": "Deprivation is the lack of resources, services and opportunities that are normal in society, and it builds up over time.",
+    "h": "Cycle of deprivation in families and geographical areas (Higher Level only)",
+    "points": [
+     "In families, low income, low education and ill health limit the support parents can give children for learning, and children inherit the same limits.",
+     "Children in such families often have little contact with people in employment, so they grow up with few working role models.",
+     "In geographical areas, concentrated unemployment and dependence on welfare create employment blackspots, often after a major industry closes.",
+     "Services in those areas, such as shops, buses, schools and health centres, close as spending falls, making the area less attractive to employers and families.",
+     "Deprivation reinforces itself: an area losing population and skilled workers loses the tax base and demand that could sustain new employment.",
+     "Responses target the locality as well as the household: community education, transport, job creation and local services."
+    ]
+   },
+   {
+    "b": "The poverty trap is a situation in which taking up work brings little or no gain in net income.",
+    "h": "The poverty trap (Higher Level only)",
+    "points": [
+     "A household moving from welfare into low-paid work loses payments and supports as earnings rise, so its net income increases very little.",
+     "Supports often withdrawn as earnings rise include housing assistance, medical card eligibility and, in some cases, child-related payments.",
+     "The costs of working, such as transport, childcare and work clothing, reduce the gain further.",
+     "When welfare is financially more rewarding than low-paid work, people have little incentive to take employment, which keeps them dependent.",
+     "Payments reduced gradually as earnings rise, rather than withdrawn all at once, lessen the trap; in-work payments such as the Working Family Payment are designed for low-paid working families."
+    ]
+   },
+   {
+    "h": "Effects of poverty on the individual",
+    "points": [
+     "Stress, worry and fear about money, which can lead to depression and poor mental health.",
+     "Loss of status and self-esteem, and a feeling of worthlessness, which can reduce confidence to seek work or training.",
+     "Social isolation, because the cost of leisure, travel and social activities is beyond reach.",
+     "Poor diet, and poorly heated or damp housing, increase the risk of illness, and ill health can prevent people from working.",
+     "Dependence on alcohol, drugs or gambling as a means of escape, which adds to debt and poverty."
+    ]
+   },
+   {
+    "h": "Effects of poverty on families and children",
+    "points": [
+     "Families may be unable to afford adequate food, clothing, heating and housing, and fall into rent, mortgage or utility arrears.",
+     "Financial pressure increases conflict and relationship strain, and can contribute to family breakdown.",
+     "Children may be unable to take part in school trips, sport or activities their peers attend, which affects belonging and self-esteem.",
+     "Children without a quiet place to study, books or internet access may fall behind in school.",
+     "Children growing up in poverty are more likely to leave school early with few qualifications, which limits their later earnings.",
+     "Poorer diet and access to health care can affect children's physical health and development.",
+     "Loss of a home forces children to move school and loses the stability that supports their learning."
+    ]
+   },
+   {
+    "h": "Effects of poverty on the community and the State",
+    "points": [
+     "Higher demand for welfare, health and housing services increases the cost to the State.",
+     "Concentrated poverty can contribute to crime, anti-social behaviour and vandalism in an area.",
+     "Falling spending in poorer areas leads to shop closures and fewer local services, which reduces jobs further.",
+     "Poverty reduces the skills and productive capacity available to the economy."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The poverty trap is a situation in which moving from welfare into work brings little or no gain in net income. Earnings from low-paid work cause payments or supports to be withdrawn. Supports that may be lost include housing assistance and medical card eligibility. The extra costs of working, such as childcare and travel, reduce the gain further. Because welfare can be financially more rewarding than low-paid work, people have little incentive to take up employment and remain dependent on the State.",
+    "prompt": "Explain what is meant by the poverty trap and describe one way it discourages people from taking up work.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Reasons for persistence: unemployment and low pay leave households without adequate income; limited education and qualifications restrict people to insecure work; high housing and living costs absorb low incomes; lone parenthood and large families depend on one income; addiction and debt drain resources; recession and industrial decline remove jobs; globalisation and automation reduce demand for unskilled labour. Cycle of deprivation: in families, low income and low education limit the support parents give children, who inherit the same disadvantage; in geographical areas, concentrated unemployment and dependence on welfare create employment blackspots, and closing services reduce the area's attractiveness, which deepens decline. Social policy: welfare payments set below the cost of basic needs can keep recipients in poverty, while generous payments are criticised for reducing the incentive to work; the minimum wage sets the floor for low pay; housing policy determines the rent burden; the poverty trap arises when withdrawal of supports offsets earnings; policy that is poorly targeted or changes often leaves families moving in and out of poverty. Assessment: the cycle of deprivation and social policy interact, since policy can either break or reinforce the cycle through education, housing and employment supports.",
+    "prompt": "Examine why poverty persists in modern western societies, and assess how the cycle of deprivation and social policy contribute to it.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s6": {
+  "keyTerms": [
+   {
+    "definition": "State payments funded by PRSI contributions, available to people with a sufficient contribution record.",
+    "term": "Social insurance"
+   },
+   {
+    "definition": "State payments made on the basis of need, which are means-tested and do not depend on a contribution record.",
+    "term": "Social assistance"
+   },
+   {
+    "definition": "An assessment of a household's income, savings and circumstances that decides whether, and how much, a payment is made.",
+    "term": "Means test"
+   },
+   {
+    "definition": "A means-tested payment for an unemployed person who is capable of and available for work and does not qualify for Jobseeker's Benefit.",
+    "term": "Jobseeker's Allowance"
+   },
+   {
+    "definition": "A card giving free GP visits and other health services to people who meet income-based eligibility rules.",
+    "term": "Medical card"
+   },
+   {
+    "definition": "Investment by an overseas company in a business or facility in Ireland, such as a new factory or office.",
+    "term": "Foreign direct investment"
+   },
+   {
+    "definition": "The State agency that attracts and supports overseas companies investing in Ireland.",
+    "term": "IDA Ireland"
+   },
+   {
+    "definition": "The State agency that supports Irish-owned companies to grow their sales, exports and employment.",
+    "term": "Enterprise Ireland"
+   },
+   {
+    "definition": "A tax-free, means-tested payment for low-paid working families with a dependent child.",
+    "term": "Working Family Payment"
+   },
+   {
+    "definition": "A means-tested payment, made through the local authority, that helps households pay rent in the private rented sector.",
+    "term": "Housing Assistance Payment"
+   },
+   {
+    "definition": "Social insurance depends on a record of PRSI contributions; social assistance is means-tested and does not depend on contributions.",
+    "term": "Main difference between the two routes to State income support"
+   },
+   {
+    "definition": "Being unemployed, capable of work, available for full-time work and genuinely seeking employment.",
+    "term": "Conditions an unemployed person must meet for the means-tested unemployment payment"
+   },
+   {
+    "definition": "Child Benefit.",
+    "term": "Payment made to every qualifying child regardless of parental income"
+   },
+   {
+    "definition": "The Working Family Payment, which is means-tested and tax-free.",
+    "term": "In-work support for low-paid families with a dependent child"
+   },
+   {
+    "definition": "It helps qualifying households meet heating costs during the winter season.",
+    "term": "Purpose of the Fuel Allowance"
+   },
+   {
+    "definition": "It reduces childcare costs for families; it prepares children for primary school; it builds social and learning skills.",
+    "term": "Three benefits of the free pre-school place (ECCE)"
+   },
+   {
+    "definition": "IDA Ireland, which offers grants, site selection and advice to multinational firms.",
+    "term": "Irish State agency that wins overseas company investment"
+   },
+   {
+    "definition": "It creates direct jobs in the area; it brings tax revenue and new skills into the local economy.",
+    "term": "Two ways foreign investment can reduce local unemployment"
+   },
+   {
+    "definition": "Sudden job losses in an area when a parent company closes or moves a plant.",
+    "term": "Main risk of relying on a few large overseas employers"
+   },
+   {
+    "definition": "MABS, the Money Advice and Budgeting Service.",
+    "term": "Free budgeting service for households in debt"
+   }
+  ],
+  "notes": [
+   {
+    "b": "State income support is paid through two routes, and the route determines the conditions a claimant must meet.",
+    "h": "Social insurance and social assistance",
+    "points": [
+     "Social insurance payments depend on a record of PRSI contributions paid while in work and are not means-tested.",
+     "Jobseeker's Benefit is the main social insurance payment for an unemployed person who has enough paid contributions.",
+     "Social assistance payments are means-tested: the household's income and savings are assessed, and no contribution record is required.",
+     "Jobseeker's Allowance is the main social assistance payment for an unemployed person who does not qualify for Jobseeker's Benefit or whose benefit has ended.",
+     "A Jobseeker's Allowance claimant must be unemployed, capable of work, available for full-time work and genuinely seeking employment.",
+     "Supplementary Welfare Allowance is a means-tested payment for people whose income does not meet their basic needs."
+    ]
+   },
+   {
+    "h": "Payments for families and children",
+    "points": [
+     "Child Benefit is paid for each qualifying child and is not means-tested, so it reaches families on every income level.",
+     "Payments for lone parents are means-tested and recognise that one adult is carrying the full cost of the household.",
+     "The Working Family Payment is a tax-free, means-tested payment for low-paid workers who have a dependent child.",
+     "Means-tested payments are reduced as income rises, so the household gains less from extra earnings than the wage itself.",
+     "The Fuel Allowance is paid to qualifying households to help with heating costs during the winter season."
+    ]
+   },
+   {
+    "h": "Schemes that reduce expenditure for low-income families",
+    "points": [
+     "Medical card: gives free GP visits and access to certain health services; eligibility depends on income and health needs.",
+     "Back to School Clothing and Footwear Allowance: a once-yearly payment that helps families meet the cost of school uniforms and shoes.",
+     "Household Benefits Package: an energy allowance and related benefits for qualifying older people and people with certain disabilities or long-term illnesses.",
+     "Free pre-school place (ECCE): an early-learning place before primary school, which reduces childcare costs for families.",
+     "Housing Assistance Payment: a means-tested payment made through the local authority to help households pay rent in the private rented sector.",
+     "Money Advice and Budgeting Service (MABS): a free, confidential, State-funded service that helps people in debt, mainly low-income households, to budget and deal with creditors."
+    ]
+   },
+   {
+    "b": "These initiatives work through training, business supports and job creation rather than income support alone.",
+    "h": "Statutory initiatives to create employment",
+    "points": [
+     "Enterprise Ireland helps Irish-owned companies increase sales, exports and employment through grants, market advice and training.",
+     "Local Enterprise Offices in each county give training, mentoring and grants to people starting or expanding small businesses.",
+     "SOLAS is the State further education and training authority; it funds, plans and coordinates further education and training through the Education and Training Boards.",
+     "SOLAS supports apprenticeships, vocational courses and literacy, numeracy and digital training, matching the skills of unemployed people to vacancies.",
+     "Work-based learning and CV and job-search preparation give unemployed people the experience that employers ask for."
+    ]
+   },
+   {
+    "b": "Foreign direct investment is investment by an overseas company that sets up or expands operations in Ireland.",
+    "h": "Initiatives encouraging foreign investment (Higher Level only)",
+    "points": [
+     "IDA Ireland is the State agency that attracts overseas companies and supports them through grants, site selection and advice.",
+     "A low corporation tax rate is a key incentive for multinational companies to locate in Ireland.",
+     "A young, educated, English-speaking workforce and access to the European Union's single market attract multinational firms.",
+     "Foreign investment creates direct jobs and tax revenue and brings new skills into local labour markets, reducing unemployment.",
+     "Dependence on a few large multinationals is a weakness: if a parent company closes or moves a plant, a local area can lose many jobs at once.",
+     "Multinational employment is often concentrated in larger towns and cities, so rural areas benefit less from it."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Social insurance payments depend on a record of PRSI contributions paid while in work and are not means-tested. Example: Jobseeker's Benefit for a worker who has lost a job and has enough paid contributions. Social assistance payments are based on need, assessed through a means test of the household's income and savings, and do not depend on contributions. Example: Jobseeker's Allowance for an unemployed person who does not qualify for Jobseeker's Benefit.",
+    "prompt": "Distinguish between social insurance and social assistance payments, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Social welfare: social insurance payments depend on PRSI contributions, while social assistance payments such as Jobseeker's Allowance and Supplementary Welfare Allowance are means-tested and paid on the basis of need; Child Benefit is universal for each qualifying child; the Working Family Payment supports low-paid working families with a dependent child. Schemes reducing costs: the medical card gives free GP visits to those who meet income and health criteria; the Back to School Clothing and Footwear Allowance helps with uniforms and shoes; the Fuel Allowance helps with heating costs; the Housing Assistance Payment helps with rent in the private rented sector; the free pre-school place (ECCE) reduces childcare costs. Each scheme addresses a specific cost pressure that would otherwise push a family into poverty. Foreign investment: foreign direct investment is investment by overseas companies in Irish operations; IDA Ireland attracts it with grants, site selection and advice; a low corporation tax rate and a skilled, English-speaking workforce are key attractions; it creates direct jobs, tax revenue and new skills, reducing unemployment. Limitations: dependence on a few large multinationals exposes local areas to sudden job losses when plants close; multinational jobs are concentrated in larger towns and cities, so rural areas gain less. Assessment: income supports relieve immediate hardship, while investment and employment supports address the root cause of unemployment, so the two work best together.",
+    "prompt": "Discuss the statutory responses to poverty in Ireland. Refer to social welfare payments, at least one scheme that reduces costs for low-income families, and the role of foreign investment in creating employment.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7": {
+  "keyTerms": [
+   {
+    "definition": "A non-profit body, run largely by volunteers, that provides services or campaigns on a social issue independently of government.",
+    "term": "Voluntary organisation"
+   },
+   {
+    "definition": "A business owned and democratically controlled by its members, who share its surplus.",
+    "term": "Co-operative"
+   },
+   {
+    "definition": "A member-owned co-operative that offers savings accounts and affordable loans to its members.",
+    "term": "Credit union"
+   },
+   {
+    "definition": "Small-scale production of goods, often in the home, using traditional or handmade skills.",
+    "term": "Cottage industry"
+   },
+   {
+    "definition": "Locally delivered courses, such as adult literacy, that help people who left school early return to learning.",
+    "term": "Community education"
+   },
+   {
+    "definition": "Temporary paid work on local community projects, offered to long-term unemployed people to build work experience.",
+    "term": "Community employment"
+   },
+   {
+    "definition": "An organisation that campaigns to influence public opinion and government policy on a particular issue.",
+    "term": "Pressure group"
+   },
+   {
+    "definition": "Voluntary and open membership; democratic member control; member economic participation; autonomy and independence; education, training and information; co-operation among co-operatives; concern for community.",
+    "term": "Seven principles set by the International Co-operative Alliance"
+   },
+   {
+    "definition": "Each member has one vote regardless of investment; the surplus is shared among members or reinvested rather than paid to outside shareholders.",
+    "term": "Two features that separate a member-owned business from an ordinary company"
+   },
+   {
+    "definition": "Its tenants.",
+    "term": "Who owns a housing co-operative"
+   },
+   {
+    "definition": "Savings accounts and affordable loans, owned and run by its members.",
+    "term": "Services a member-owned savings body offers low-income households"
+   },
+   {
+    "definition": "Financial help with bills and school costs; practical help such as food, fuel vouchers or furniture; personal visits and advice on State entitlements.",
+    "term": "Three types of voluntary support for a family when the main earner loses work"
+   },
+   {
+    "definition": "The Society of St Vincent de Paul.",
+    "term": "Irish charity whose local volunteer conferences visit households"
+   },
+   {
+    "definition": "Simon Community.",
+    "term": "Irish organisation that provides emergency accommodation for people who are homeless"
+   },
+   {
+    "definition": "Paid work for long-term unemployed people on projects such as the environment, heritage, sport and tourism.",
+    "term": "Type of temporary work offered on local community projects"
+   },
+   {
+    "definition": "It provides an extra or sole source of income in areas with limited employment; it needs little capital because it uses simple equipment and home premises.",
+    "term": "Two ways home-based handmade production helps families"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Voluntary organisations are non-profit bodies run largely by volunteers. Many receive some State funding, but they are independent of government.",
+    "h": "Voluntary organisations",
+    "points": [
+     "The Society of St Vincent de Paul works through local volunteer conferences that visit households in their area confidentially and assess the help needed.",
+     "St Vincent de Paul provides food or fuel vouchers, help with essential household bills, school books and uniforms, furniture and emergency accommodation.",
+     "St Vincent de Paul raises its funds through charity shops and public and church collections.",
+     "Simon Community provides support and emergency accommodation to people who are homeless or at risk of homelessness.",
+     "Focus Ireland works to prevent homelessness and provides accommodation, training in personal and life skills, and information on job opportunities.",
+     "Voluntary organisations direct clients to State entitlements, MABS and Citizens Information, linking people to services they are entitled to.",
+     "Voluntary organisations act as pressure groups: they gather evidence on local need and campaign for changes in public policy.",
+     "Unfunded services, such as volunteer-run listening services, fill gaps that statutory services do not cover."
+    ]
+   },
+   {
+    "b": "Community initiatives are locally run responses to unemployment and early school leaving, often funded by the State.",
+    "h": "Community-based education, training and employment",
+    "points": [
+     "Community education centres offer adult literacy and numeracy classes and personal development courses, often for people who left school early.",
+     "Community training workshops offer practical and vocational skills, often with a route to a recognised qualification.",
+     "Education and Training Boards provide adult and further education, and many community courses are delivered through them.",
+     "Community Employment provides temporary paid work on local projects such as the environment, heritage, sport and tourism, for long-term unemployed people.",
+     "Community-based projects build confidence, work experience and social networks, which help people move back into paid work.",
+     "Local groups identify training needs in their area, such as skills gaps in the local economy, and design courses to meet them."
+    ]
+   },
+   {
+    "b": "A co-operative is a business owned and democratically controlled by its members, who share its surplus.",
+    "h": "Co-operatives",
+    "points": [
+     "Each member has one vote regardless of how much they have invested, and members elect the board.",
+     "The surplus is shared among members in proportion to their use of the co-operative or reinvested in the business, rather than paid to outside shareholders.",
+     "Worker co-operatives are owned by their employees, consumer co-operatives by their customers, and housing co-operatives by their tenants.",
+     "Credit unions are member-owned co-operatives that offer savings accounts and affordable loans, a key service for low-income households.",
+     "A community co-operative can run a shop, a childcare service or local transport where no private business will, creating local jobs.",
+     "Profits stay with members and the local area rather than leaving the community with outside owners."
+    ]
+   },
+   {
+    "b": "A cottage industry is small-scale production carried out in the home or a small workshop, using traditional or handmade skills.",
+    "h": "Cottage industries",
+    "points": [
+     "Products include hand-knitted Aran jumpers, weaving, pottery and other handmade crafts, often sold to local and tourist markets.",
+     "Cottage industries give families an extra or sole source of income, especially in rural areas where other employment is limited.",
+     "They need little capital, because the equipment is simple and production takes place at home.",
+     "Limitations include seasonal or irregular income, small output, limited marketing reach and reliance on tourism.",
+     "Local Enterprise Offices can help producers with training and grants to develop craft businesses."
+    ]
+   },
+   {
+    "h": "Combat Poverty Agency (former State body)",
+    "points": [
+     "The Combat Poverty Agency was a State body that researched poverty, advised government and funded anti-poverty projects.",
+     "It no longer exists as an independent agency, so current answers should name the bodies and organisations that carry out this work today."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A credit union is a member-owned co-operative that offers savings accounts and affordable loans, giving low-income households access to credit without relying on high-cost lenders. Members have one vote each, so decisions are made democratically. A community co-operative can run a shop, childcare service or local transport where no private business will, which keeps essential services and jobs in the area. Profits or surpluses stay with members and the local community rather than going to outside owners.",
+    "prompt": "Describe how a credit union or a community co-operative can help people on low incomes.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Voluntary organisations: non-profit bodies run largely by volunteers, independent of government, though many receive State funding. The Society of St Vincent de Paul uses local volunteer conferences to visit households confidentially, providing food or fuel vouchers, help with bills, school books and uniforms, and emergency accommodation; it raises funds through charity shops and collections. Simon Community and Focus Ireland respond to homelessness, providing emergency accommodation, training and information on job opportunities. Voluntary organisations link clients to State entitlements and to MABS and Citizens Information, act as pressure groups by campaigning for policy change, and fill gaps through unfunded services. Community-based education, training and employment: community education centres provide adult literacy and numeracy classes for people who left school early; training workshops offer vocational skills with recognised qualifications; Education and Training Boards deliver adult and further education; Community Employment gives long-term unemployed people temporary paid work on local projects, building work experience. These initiatives respond to local needs and build confidence and networks that help people return to paid work. Co-operatives and cottage industries: co-operatives keep services and jobs in a community, and cottage industries give families an extra or sole income with little capital. Assessment: voluntary and community responses are quick, personal and local, reaching people statutory services miss, but they depend on volunteers and funding and do not remove the structural causes of poverty, so they complement State responsibility rather than replace it.",
+    "prompt": "Discuss the contribution of voluntary organisations and community-based education, training and employment initiatives to responding to poverty in Ireland. Refer to named organisations or initiatives.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-vitamins-minerals-s1": {
   "keyTerms": [
    {
