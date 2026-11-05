@@ -1,0 +1,106 @@
+{
+  "loId": "hom-family-law-s4",
+  "chapterId": "hom-family-law",
+  "subsection": "4. The Judicial Separation and Family Law Reform Act 1989",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "What judicial separation is (Higher Level only)",
+      "b": "Judicial separation is a court decree under which spouses live apart with the court's orders in place. It does not end the marriage.",
+      "points": [
+        "A judicial separation decree means the spouses are no longer required to live together, and the court sets out the arrangements for their maintenance and property.",
+        "Because the marriage continues, neither spouse is free to remarry after a judicial separation.",
+        "The application is made to the Circuit Court or the High Court, which can both grant a judicial separation.",
+        "A judicial separation is a legal status that the court grants, unlike informal separation, which spouses agree between themselves without a court order."
+      ]
+    },
+    {
+      "h": "Grounds for judicial separation (Higher Level only)",
+      "points": [
+        "Adultery by the respondent spouse since the marriage.",
+        "Unreasonable behaviour by the respondent that makes it unreasonable for the applicant to continue living with them.",
+        "Desertion by the respondent for a continuous period of at least one year immediately before the application.",
+        "The applicant must establish one of the statutory grounds before the court can grant the decree."
+      ]
+    },
+    {
+      "h": "Orders the court can make (Higher Level only)",
+      "points": [
+        "Maintenance orders requiring one spouse to provide financial support for the other spouse and for the children.",
+        "Property orders that divide or transfer property between the spouses, including the family home.",
+        "Orders on the custody of children, which decide where a child lives and who has responsibility for their upbringing.",
+        "Access orders, which set out the arrangements for a parent who does not have custody to see the child.",
+        "Orders that can be made together with the decree, so that the financial and childcare arrangements are settled at the same time.",
+        "Maintenance orders made on judicial separation can later be varied by the court if the circumstances of either spouse change."
+      ]
+    },
+    {
+      "h": "Effects and comparison (Higher Level only)",
+      "points": [
+        "Judicial separation differs from divorce because divorce ends the marriage and allows both spouses to remarry, while judicial separation does not.",
+        "Legal separation is a binding agreement made between the spouses, whereas judicial separation is a decree made by the court.",
+        "Divorce, by contrast, requires the spouses to have lived apart for at least two of the previous three years (Family Law Act 2019), and it ends the marriage."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Judicial separation",
+      "definition": "A court decree under which spouses live apart without the marriage being dissolved, with the court setting out maintenance and property arrangements."
+    },
+    {
+      "term": "Decree",
+      "definition": "A formal order of the court that grants a judicial separation or divorce."
+    },
+    {
+      "term": "Respondent",
+      "definition": "The spouse against whom an application for judicial separation is made."
+    },
+    {
+      "term": "Desertion",
+      "definition": "One spouse leaving the other without reasonable cause and without the other's consent, for a continuous period."
+    },
+    {
+      "term": "Access order",
+      "definition": "A court order setting out when a parent who does not have custody may see a child."
+    },
+    {
+      "term": "Custody order",
+      "definition": "A court order deciding with whom a child lives and who is responsible for the child's upbringing."
+    },
+    {
+      "term": "Property adjustment",
+      "definition": "A court order that divides or transfers property between spouses when the marriage is ending."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Grounds for judicial separation under the 1989 Act",
+      "definition": "Adultery, unreasonable behaviour, and desertion for at least one year."
+    },
+    {
+      "term": "Courts that can grant judicial separation",
+      "definition": "The Circuit Court or the High Court."
+    },
+    {
+      "term": "Status of spouses after judicial separation",
+      "definition": "The marriage continues, so neither spouse can remarry."
+    },
+    {
+      "term": "Orders that can accompany a judicial separation",
+      "definition": "Maintenance, property, custody and access orders."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why a spouse cannot remarry after a judicial separation.",
+      "model": "A judicial separation is a court decree that allows spouses to live apart, but it does not end the marriage. Because the marriage continues to exist in law, neither spouse is free to remarry. Only divorce ends the marriage and permits remarriage."
+    },
+    {
+      "marks": 18,
+      "prompt": "Outline the grounds on which a spouse may seek judicial separation under the Judicial Separation and Family Law Reform Act 1989, and the orders a court may make.",
+      "model": "The grounds include adultery by the respondent spouse since the marriage, unreasonable behaviour by the respondent that makes it unreasonable for the applicant to continue living with them, and desertion for a continuous period of at least one year immediately before the application. The application is made to the Circuit Court or the High Court. If the decree is granted, the marriage continues, so neither spouse may remarry. The court can make maintenance orders for the spouse and the children, property orders that divide or transfer property including the family home, custody orders deciding where a child lives, and access orders setting out contact arrangements for a parent without custody. These orders can be made together with the decree so that the arrangements are settled at the same time."
+    }
+  ]
+}
