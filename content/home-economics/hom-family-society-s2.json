@@ -1,0 +1,130 @@
+{
+  "loId": "hom-family-society-s2",
+  "chapterId": "hom-family-society",
+  "subsection": "2. The historical development of the Irish family",
+  "syllabusRef": "3.1.3",
+  "notes": [
+    {
+      "h": "The Irish family before the 1960s (Higher Level only)",
+      "b": "Until the 1960s the Irish family was largely rural, agricultural and organised around the farm as an economic unit.",
+      "points": [
+        "The extended family was common, with grandparents, unmarried relatives and children living in one household or close by.",
+        "Agriculture provided most employment, so family members worked together on the farm and shared its income.",
+        "Families were large, and high child mortality meant many children did not reach adulthood.",
+        "Authority was patriarchal: the father controlled decisions and finances, and discipline was authoritarian.",
+        "Gender roles were segregated, with men working outside the home and women responsible for housework and the children.",
+        "The Catholic Church had a strong influence on marriage, morality and family life.",
+        "Marriages were often arranged, and many people never married, particularly in rural areas.",
+        "Rural electrification in the 1940s eased the workload of mothers by bringing electric appliances and lighting to farm homes."
+      ]
+    },
+    {
+      "h": "The Irish family from the 1960s to the 1990s (Higher Level only)",
+      "b": "Industrial and economic change weakened the rural extended family and moved the family towards the nuclear form.",
+      "points": [
+        "Free second-level education was introduced in 1967, so more children stayed in school for longer.",
+        "Industrialisation and the growth of services drew people from farms to towns and cities, loosening links with the extended family.",
+        "Couples married younger and increasingly married for love rather than for land or money.",
+        "Women's paid employment grew, and both parents could work outside the home, reducing the domestic role of women.",
+        "Wages rose and living standards improved, so families could afford more goods and better housing.",
+        "Contraception was legalised for married couples in 1979, and family size fell as couples chose to have fewer children.",
+        "Emigration stayed high during the 1980s, and many families were separated when adult children left to find work."
+      ]
+    },
+    {
+      "h": "Changes in family law (Higher Level only)",
+      "b": "Changes in the law made separation, divorce and other partnerships legally recognised, which altered family structure.",
+      "points": [
+        "The Judicial Separation and Family Law Reform Act 1989 provided for judicial separation, allowing spouses to live apart under a court order on property and maintenance.",
+        "Divorce was approved by referendum in 1995, by a narrow majority.",
+        "The Family Law (Divorce) Act 1996 set out the conditions for divorce, including a period of living apart, and was later amended by the Family Law Act 2019.",
+        "Civil partnership, introduced in 2010, gave same-sex couples legal recognition and rights similar to those of marriage.",
+        "Same-sex marriage was approved by referendum in 2015, extending marriage to same-sex couples."
+      ]
+    },
+    {
+      "h": "The Irish family from the 1990s to the present (Higher Level only)",
+      "b": "Economic growth, legal change and the recession after 2008 reshaped family roles, living arrangements and family life abroad.",
+      "points": [
+        "Dual-income families became common, and parents shared decisions and household tasks more equally.",
+        "Lone-parent and blended families grew as separation and divorce became legal options.",
+        "Demand for childcare rose as both parents worked, and families relied on creches, childminders and grandparents.",
+        "Role overload arose when parents cared for their own children and elderly parents at the same time.",
+        "The recession after 2008 brought unemployment, mortgage arrears and emigration, and some fathers became the main carers at home.",
+        "Family members often live abroad, and mobile phones, email and video calls keep relatives in contact across distances."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Extended family",
+      "definition": "A family including parents, children and wider relatives such as grandparents, aunts, uncles and cousins, who live in one household or close by."
+    },
+    {
+      "term": "Nuclear family",
+      "definition": "A family made up of parents and their dependent children living in a self-contained household."
+    },
+    {
+      "term": "Patriarchal authority",
+      "definition": "Family control held by the father, who makes the main decisions and controls finances."
+    },
+    {
+      "term": "Rural electrification",
+      "definition": "The extension of mains electricity to rural homes, which reduced the domestic workload of women."
+    },
+    {
+      "term": "Judicial separation",
+      "definition": "A court order allowing spouses to live apart with legal orders on property and maintenance, without ending the marriage."
+    },
+    {
+      "term": "Civil partnership",
+      "definition": "A legal relationship between two people, introduced in Ireland in 2010, giving rights similar to those of marriage."
+    },
+    {
+      "term": "Dual-income family",
+      "definition": "A family in which both parents have paid employment."
+    },
+    {
+      "term": "Role overload",
+      "definition": "The strain of carrying out too many roles at once, such as caring for children and elderly parents."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three features of the Irish family before the 1960s",
+      "definition": "Extended family living arrangements; large families; the family as an agricultural economic unit."
+    },
+    {
+      "term": "Year free second-level education was introduced in Ireland",
+      "definition": "1967, under Minister for Education Donogh O'Malley."
+    },
+    {
+      "term": "Year divorce was approved in an Irish referendum",
+      "definition": "1995, followed by the Family Law (Divorce) Act 1996."
+    },
+    {
+      "term": "Year same-sex marriage was approved in an Irish referendum",
+      "definition": "2015."
+    },
+    {
+      "term": "Three changes in Irish family life from the 1990s",
+      "definition": "Dual-income families; lone-parent and blended families; same-sex partnerships."
+    },
+    {
+      "term": "Two effects of the recession after 2008 on families",
+      "definition": "Unemployment and mortgage arrears; emigration that separated families."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which the Irish family has changed since the 1960s.",
+      "model": "Two changes, each with explanation. For example: the decline of the rural extended family and the move to nuclear families as people moved from farms to towns; or dual-income families, with both parents working outside the home and sharing household tasks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the historical development of the Irish family from the beginning of the twentieth century to the present day, referring to family structure, family roles and family law.",
+      "model": "Early twentieth century: extended family common; large families; high child mortality; agriculture as economic base; patriarchal authority; segregated gender roles; strong Church influence. 1960s to 1990s: free second-level education from 1967; move from farms to towns; nuclear families; younger marriage for love; more women in paid work; contraception legal for married couples from 1979; smaller families; emigration. Family law: judicial separation from 1989; divorce approved in 1995 and provided for by the Family Law (Divorce) Act 1996; civil partnership from 2010; same-sex marriage from a 2015 referendum. Present day: dual-income families; shared roles; lone-parent and blended families; demand for childcare; role overload; recession after 2008 with emigration and stay-at-home fathers; communication technology keeping families in touch across distance."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "loId": "hom-environmental-issues-s3",
+  "chapterId": "hom-environmental-issues",
+  "subsection": "3. Pollution",
+  "syllabusRef": "2.2.2",
+  "notes": [
+    {
+      "h": "Types of pollution",
+      "b": "Pollution is the release of substances or energy into the environment at a rate that harms living things or damages natural processes.",
+      "points": [
+        "Air pollution: gases and particles released into the atmosphere, mainly from burning fossil fuels, industry, traffic and domestic fires.",
+        "Water pollution: harmful substances entering rivers, lakes, groundwater or the sea, from sewage, farming, industry and households.",
+        "Noise pollution: unwanted or excessive sound from traffic, construction, industry and household equipment.",
+        "Litter and land pollution: discarded waste on streets, in the countryside and in water, which harms wildlife and blocks drains."
+      ]
+    },
+    {
+      "h": "Causes of air pollution",
+      "points": [
+        "Carbon dioxide and sulphur dioxide are released when fossil fuels such as coal, oil, peat and gas are burned for electricity, transport and home heating.",
+        "Nitrogen oxides are produced by vehicle engines and by any high-temperature combustion.",
+        "Carbon monoxide is produced by incomplete combustion, for example in poorly maintained boilers, stoves and vehicle exhausts.",
+        "CFCs (chlorofluorocarbons) released from old fridge refrigerants and older aerosol sprays destroy ozone in the upper atmosphere.",
+        "Smoke from solid fuels such as coal and smoky turf burned in open fires adds particulates to the air."
+      ]
+    },
+    {
+      "h": "Effects of air pollution",
+      "points": [
+        "Global warming: carbon dioxide and other greenhouse gases trap heat in the atmosphere, raising average temperatures and altering weather patterns.",
+        "Acid rain: sulphur dioxide and nitrogen oxides dissolve in rainwater to form acids, which lower the pH of soil and water, harm plants and fish, and corrode metal and stone buildings.",
+        "Ozone depletion: CFCs break down ozone in the stratosphere, allowing more harmful ultraviolet radiation to reach the earth's surface.",
+        "Health: particulates and carbon monoxide cause respiratory illness, aggravate asthma and place extra strain on the heart."
+      ]
+    },
+    {
+      "h": "Causes of water pollution",
+      "points": [
+        "Untreated or poorly treated sewage discharged into rivers and the sea.",
+        "Fertiliser and slurry washed off farmland into waterways after heavy rain.",
+        "Phosphates in washing powders and detergents, which enter waterways through household drains.",
+        "Industrial effluent, chemical waste and pesticides that are dumped or washed into water.",
+        "Oil leaking from vehicles and heating oil tanks, which runs off into drains and streams."
+      ]
+    },
+    {
+      "h": "Effects of water pollution",
+      "points": [
+        "Eutrophication: excess nitrates and phosphates cause rapid growth of algae, which forms an algal bloom on the water surface.",
+        "The bloom blocks light, so submerged plants die; when the algae die, bacteria decompose them and use up dissolved oxygen.",
+        "Low oxygen levels kill fish and other aquatic life, leaving lakes and rivers depleted.",
+        "Toxic substances can accumulate up the food chain, affecting fish and birds that feed on contaminated organisms.",
+        "Chemical contamination of drinking water sources threatens human health."
+      ]
+    },
+    {
+      "h": "Causes and effects of noise pollution",
+      "points": [
+        "Main sources: road and air traffic, construction and roadworks, lawnmowers, music systems, televisions and alarms.",
+        "Noise is measured in decibels (dB), a logarithmic scale: an increase of 10 dB represents roughly a tenfold increase in sound intensity.",
+        "Effects of persistent noise: stress, tension, headaches, disturbed sleep and insomnia.",
+        "Long-term exposure to loud sound causes permanent hearing damage.",
+        "Noise reduces concentration in schools and workplaces."
+      ]
+    },
+    {
+      "h": "How consumers can reduce pollution",
+      "points": [
+        "Walk, cycle, use public transport or share car journeys to reduce vehicle emissions.",
+        "Drive an electric car or choose a low-emission vehicle; keep tyres correctly inflated and the engine serviced to reduce fuel use and emissions.",
+        "Use smokeless fuels or renewable heat, such as heat pumps, instead of smoky solid fuels.",
+        "Choose energy-efficient appliances so that less fossil fuel is burned to generate the electricity they use.",
+        "Avoid products containing CFCs, and choose aerosols and cleaning products that are free of them.",
+        "Use phosphate-free detergents and never pour paint, oil or chemicals down drains.",
+        "Compost garden waste rather than burning it, and use fertilisers sparingly.",
+        "Reduce noise by keeping music and television volumes down, avoiding noisy garden work at unsocial hours, and maintaining equipment."
+      ]
+    },
+    {
+      "h": "Government initiatives against pollution",
+      "points": [
+        "Landfill levy: a charge per tonne of waste sent to landfill, which encourages recycling and recovery.",
+        "Restrictions on the sale of smoky coal in urban areas reduce smoke and particulate pollution from domestic fires.",
+        "The Environmental Protection Agency (EPA) monitors air and water quality, licenses industrial emissions and enforces environmental law.",
+        "A carbon tax on fossil fuels makes burning them more expensive, encouraging energy efficiency and renewable alternatives.",
+        "Support for renewable energy and energy efficiency reduces the fossil fuel that would otherwise be burned."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Pollution",
+      "definition": "The release of substances or energy into the environment at a rate that harms living things or natural processes."
+    },
+    {
+      "term": "Eutrophication",
+      "definition": "Nutrient enrichment of water by nitrates and phosphates, which causes excessive growth of algae."
+    },
+    {
+      "term": "Algal bloom",
+      "definition": "A rapid growth of algae on the surface of water, which blocks light and can deplete the oxygen in the water."
+    },
+    {
+      "term": "Acid rain",
+      "definition": "Rainfall made acidic by sulphur dioxide and nitrogen oxides dissolving in it, which damages plants, water and buildings."
+    },
+    {
+      "term": "Global warming",
+      "definition": "The rise in average temperatures caused by greenhouse gases trapping heat in the atmosphere."
+    },
+    {
+      "term": "Ozone depletion",
+      "definition": "The thinning of the ozone layer, mainly by CFCs, which allows more ultraviolet radiation to reach the earth."
+    },
+    {
+      "term": "CFC",
+      "definition": "Chlorofluorocarbon, a synthetic gas formerly used in refrigerants, aerosols and foams that destroys ozone."
+    },
+    {
+      "term": "Particulate",
+      "definition": "A tiny solid particle or droplet in the air, such as soot or smoke, that can be inhaled."
+    },
+    {
+      "term": "Decibel",
+      "definition": "The unit used to measure the loudness of sound on a logarithmic scale."
+    },
+    {
+      "term": "Effluent",
+      "definition": "Liquid waste discharged from homes, farms or industry into a water body."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three effects of acid rain",
+      "definition": "It lowers the pH of soil and water, harming plants and fish; it corrodes metal and stone buildings; it damages forests."
+    },
+    {
+      "term": "Four causes of air pollution",
+      "definition": "Burning fossil fuels in power stations and homes; vehicle emissions; CFCs from old fridges and aerosols; smoke from solid fuels and industrial emissions."
+    },
+    {
+      "term": "Three effects of nutrient pollution in water",
+      "definition": "Algal blooms cover the water surface; oxygen levels fall as the algae decompose; fish and other aquatic life die."
+    },
+    {
+      "term": "Four ways consumers can reduce air pollution",
+      "definition": "Walk, cycle or use public transport; choose an electric or low-emission vehicle; use smokeless or renewable heat; avoid products containing CFCs."
+    },
+    {
+      "term": "Three effects of noise pollution",
+      "definition": "Stress and headaches; disturbed sleep and insomnia; permanent hearing damage from long-term exposure."
+    },
+    {
+      "term": "Two household sources of CFCs",
+      "definition": "Old refrigerators and freezers, through their refrigerant and foam insulation; some older aerosol sprays."
+    },
+    {
+      "term": "Three government measures against pollution",
+      "definition": "A landfill levy; restrictions on the sale of smoky coal; a carbon tax on fossil fuels."
+    },
+    {
+      "term": "Two effects of burning coal, oil and peat",
+      "definition": "Sulphur dioxide that forms acid rain; carbon dioxide that adds to global warming."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two types of pollution and state one effect of each on the environment.",
+      "model": "Two types, each correctly named, for example air, water or noise pollution. One effect for each: air pollution causes global warming, acid rain or ozone depletion; water pollution causes algal blooms, oxygen depletion and the death of fish and aquatic life; noise pollution causes stress, disturbed sleep and hearing damage. Each effect must be linked to the named type."
+    },
+    {
+      "marks": 24,
+      "prompt": "Identify two types of pollution. For each, describe its main causes and two effects on the environment, and outline one way in which a consumer can reduce it.",
+      "model": "Two types, correctly named. For each type, two causes: for air pollution, burning fossil fuels for heating and transport, and CFCs from fridges and aerosols; for water pollution, sewage and farm run-off of fertiliser and slurry, and phosphates in detergents. For each type, two effects: for air pollution, global warming and acid rain; for water pollution, eutrophication with algal blooms and oxygen depletion that kills fish. A consumer reduction measure for each type, such as walking, cycling or using public transport, or using phosphate-free detergents and not pouring chemicals down drains."
+    }
+  ]
+}

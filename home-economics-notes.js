@@ -5682,6 +5682,679 @@
    }
   ]
  },
+ "hom-environmental-issues-s1": {
+  "keyTerms": [
+   {
+    "definition": "A material or energy source taken from the natural environment for human use.",
+    "term": "Natural resource"
+   },
+   {
+    "definition": "A resource that is naturally replenished and is not used up by constant use, provided it is used no faster than it is replaced.",
+    "term": "Renewable resource"
+   },
+   {
+    "definition": "A resource that is limited in supply and cannot be replaced on human timescales once it is used up.",
+    "term": "Non-renewable resource"
+   },
+   {
+    "definition": "A resource whose supply is fixed, so it will eventually be used up.",
+    "term": "Finite resource"
+   },
+   {
+    "definition": "Using resources in a way that meets present needs without reducing the ability of future generations to meet theirs.",
+    "term": "Sustainable use"
+   },
+   {
+    "definition": "A fuel such as coal, oil, natural gas or peat, formed from the remains of organisms over very long periods.",
+    "term": "Fossil fuel"
+   },
+   {
+    "definition": "Plant and animal material used as a fuel, either burned directly or converted to biogas.",
+    "term": "Biomass"
+   },
+   {
+    "definition": "Heat stored in the earth's crust, which is used for heating buildings or generating electricity.",
+    "term": "Geothermal energy"
+   },
+   {
+    "definition": "A panel that converts sunlight directly into electricity.",
+    "term": "Photovoltaic panel"
+   },
+   {
+    "definition": "A gas, such as carbon dioxide, that traps heat in the atmosphere.",
+    "term": "Greenhouse gas"
+   },
+   {
+    "definition": "Solar, wind, hydroelectric, geothermal, biomass, tidal and wave energy.",
+    "term": "Seven renewable energy sources"
+   },
+   {
+    "definition": "Coal, oil, natural gas and peat.",
+    "term": "Four fossil fuels"
+   },
+   {
+    "definition": "They do not run out on human timescales; they produce little or no pollution during operation; they reduce dependence on imported fuel.",
+    "term": "Three benefits of renewable energy"
+   },
+   {
+    "definition": "Output varies with weather and daylight, so storage or a backup supply is needed; installation costs can be high for systems such as solar panels and turbines.",
+    "term": "Two drawbacks of renewable energy"
+   },
+   {
+    "definition": "Carbon dioxide adds to global warming; sulphur dioxide forms acid rain; particulates and nitrogen oxides harm the respiratory health of people nearby.",
+    "term": "Three effects of burning fossil fuels"
+   },
+   {
+    "definition": "Uranium, a mined, finite fuel.",
+    "term": "Source of nuclear electricity"
+   },
+   {
+    "definition": "Insulate the home to cut heating demand; use appliances efficiently so less electricity is needed.",
+    "term": "Two ways to conserve energy at home"
+   },
+   {
+    "definition": "Iron ore, copper ore and bauxite (aluminium ore).",
+    "term": "Three non-renewable mineral resources"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A natural resource is a material or energy source taken from the environment. Sustainable use meets present needs without reducing the ability of future generations to meet theirs.",
+    "h": "Natural resources and sustainable use",
+    "points": [
+     "Consumers influence resource use through what they buy, how long they keep products in use and how they dispose of them.",
+     "Resources are classed by how quickly they are replaced: renewable resources are replenished naturally, while non-renewable resources are finite.",
+     "Consumers conserve resources by buying only what is needed, choosing durable and repairable goods, and using items fully before replacing them."
+    ]
+   },
+   {
+    "b": "A renewable resource is naturally replenished and is not used up by constant use, provided it is used no faster than it is replaced.",
+    "h": "Renewable energy sources",
+    "points": [
+     "Solar energy: photovoltaic panels convert sunlight directly into electricity, and solar thermal panels use sunlight to heat water.",
+     "Wind energy: turbines convert the kinetic energy of moving air into electricity; Irish wind farms are usually sited on exposed upland and coastal land.",
+     "Hydroelectric energy: falling water turns turbines, so the source depends on a steady flow of water and a difference in height.",
+     "Biomass: wood, straw, energy crops and other plant or animal material are burned, or converted to biogas, to release heat or electricity.",
+     "Geothermal energy: heat stored in the earth's crust is brought to the surface as hot water or steam to heat buildings or generate electricity.",
+     "Tidal energy uses the rise and fall of the tides to drive turbines; wave energy uses the motion of waves to drive devices."
+    ]
+   },
+   {
+    "h": "Benefits of renewable energy",
+    "points": [
+     "Renewable sources are sustainable: their supply does not run out on human timescales.",
+     "Most produce little or no air pollution or carbon dioxide while generating energy, reducing damage to air and water.",
+     "Using renewables reduces dependence on imported fuel, which improves energy security.",
+     "Some renewables can be installed in a home, such as solar panels on a roof or a small wind turbine, so energy is produced where it is used.",
+     "Building, maintaining and manufacturing renewable systems creates employment.",
+     "Limitation: wind and solar output varies with weather and daylight, so storage or a backup supply is needed."
+    ]
+   },
+   {
+    "b": "A non-renewable resource is limited in supply and cannot be replaced within a human lifetime once it is used up.",
+    "h": "Non-renewable resources",
+    "points": [
+     "Fossil fuels are coal, oil, natural gas and peat, formed from the remains of plants and animals over very long periods: peat over thousands of years, coal, oil and gas over millions.",
+     "Peat (turf) is dug from bogs for home heating and electricity generation, and bog habitats do not regenerate quickly.",
+     "Nuclear energy uses uranium, a mined, finite fuel.",
+     "Iron ore, copper ore and bauxite (the ore of aluminium) are non-renewable mineral resources; recycling extends the life of the metal they yield."
+    ]
+   },
+   {
+    "h": "Environmental effects of non-renewable resources",
+    "points": [
+     "Burning fossil fuels releases carbon dioxide, the main greenhouse gas, which contributes to global warming.",
+     "Burning coal, oil and peat releases sulphur dioxide, which forms acid rain.",
+     "Mining, quarrying and peat extraction destroy habitats and landscapes.",
+     "As reserves fall, fuel becomes harder and more costly to extract, so supplies become less secure."
+    ]
+   },
+   {
+    "h": "Consumer responsibility in managing resources",
+    "points": [
+     "Reduce energy demand, for example by insulating the home and using appliances efficiently, so less fossil fuel is burned.",
+     "Choose a renewable electricity supplier, or install a renewable system, where practical.",
+     "Buy wood and paper products certified by a recognised scheme such as FSC or PEFC, which confirms that the timber came from managed forests.",
+     "Reuse and recycle metals, glass and paper so that finite materials are used again.",
+     "Choose products made with recycled content."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two correctly named renewable sources, from solar, wind, hydroelectric, geothermal, biomass, tidal and wave energy. One benefit, fully explained: renewable sources produce little or no carbon dioxide or pollution while generating energy, so they reduce global warming and air pollution. Alternatively: they do not run out, so supply is sustainable and does not deplete the environment.",
+    "prompt": "Identify two renewable energy sources and describe one environmental benefit of using renewable energy rather than fossil fuels.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Definition of a renewable resource as naturally replenished and not used up by constant use, with two named examples such as solar or wind energy. Definition of a non-renewable resource as limited in supply and not replaced once used up, with two named examples such as coal or peat. Environmental effects: carbon dioxide from burning fossil fuels adds to global warming; sulphur dioxide forms acid rain; mining and peat extraction destroy habitats. Household measures: insulate the home and draught-proof it to reduce heating demand; use appliances efficiently and switch off standby; choose a renewable electricity supplier or install a renewable system such as solar panels; reuse and recycle materials to reduce demand for new resources.",
+    "prompt": "Explain the difference between renewable and non-renewable resources, giving two examples of each. Describe the environmental effects of using non-renewable energy, and outline how a household can reduce its dependence on it.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2": {
+  "keyTerms": [
+   {
+    "definition": "Managing waste so that it is reduced, reused, recycled or recovered before any remainder is disposed of.",
+    "term": "Sustainable waste management"
+   },
+   {
+    "definition": "A ranking of waste options from most to least preferred: prevention, minimisation, reuse, recycling, recovery and disposal.",
+    "term": "Waste hierarchy"
+   },
+   {
+    "definition": "Able to be broken down by micro-organisms into natural substances.",
+    "term": "Biodegradable"
+   },
+   {
+    "definition": "The controlled breakdown of biodegradable waste by micro-organisms into a soil conditioner.",
+    "term": "Composting"
+   },
+   {
+    "definition": "The disposal of waste by burying it in the ground, where organic waste decomposes and releases methane.",
+    "term": "Landfill"
+   },
+   {
+    "definition": "Processing used materials into new products so that they do not go to waste.",
+    "term": "Recycling"
+   },
+   {
+    "definition": "A symbol showing that the packaging producer has contributed financially to packaging recovery and recycling.",
+    "term": "Green Dot"
+   },
+   {
+    "definition": "A flower symbol awarded to products and services that cause minimum environmental damage over their life cycle.",
+    "term": "EU Ecolabel"
+   },
+   {
+    "definition": "A thin, light plastic packaging film that closely fits the food it wraps and acts as a barrier to moisture and gases.",
+    "term": "Flexible film"
+   },
+   {
+    "definition": "Waste electrical and electronic equipment, which must be collected and treated separately from general household waste.",
+    "term": "WEEE"
+   },
+   {
+    "definition": "Prevention, minimisation, reuse, recycling, recovery and disposal, in order of preference.",
+    "term": "Six stages of the waste hierarchy"
+   },
+   {
+    "definition": "Buy concentrated products; choose loose produce; refuse over-packaged goods; bring reusable bags and containers.",
+    "term": "Four consumer actions to reduce packaging waste"
+   },
+   {
+    "definition": "That the packaging producer has contributed financially to packaging recovery and recycling; it does not show that the packaging itself is recyclable.",
+    "term": "What the Green Dot shows"
+   },
+   {
+    "definition": "It keeps food and garden waste out of landfill and so reduces methane; it returns nutrients to the soil; it reduces the need for peat-based compost.",
+    "term": "Three benefits of composting"
+   },
+   {
+    "definition": "Lead, mercury, cadmium and brominated flame retardants.",
+    "term": "Four hazardous substances in electrical goods"
+   },
+   {
+    "definition": "Low cost, a good barrier against moisture and gases, and suitability for heat sealing and frozen food.",
+    "term": "Three benefits of flexible films"
+   },
+   {
+    "definition": "Whether the item is made of recyclable material; the recycled content as a percentage; the plastic type as a number inside the triangle.",
+    "term": "Three pieces of information on a recycling symbol"
+   },
+   {
+    "definition": "Remove the doors; hand the appliance to an authorised treatment facility to recover the refrigerant and foam.",
+    "term": "Two steps before disposing of an old fridge"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Sustainable waste management ranks waste options from most to least preferred, so that as little waste as possible reaches disposal.",
+    "h": "The waste hierarchy",
+    "points": [
+     "Order of preference: prevention, minimisation, reuse, recycling, recovery and disposal.",
+     "Prevention and minimisation come first: buying only what is needed and avoiding excess packaging stops waste being created.",
+     "Reuse means using an item again for its original purpose, such as refilling a container or using a jar for storage.",
+     "Recycling processes used materials into new products, such as paper, glass, metals and certain plastics.",
+     "Energy recovery burns residual waste to generate heat or electricity.",
+     "Disposal, mainly landfill, is the least preferred option; organic waste decomposes anaerobically in landfill and releases methane, a potent greenhouse gas."
+    ]
+   },
+   {
+    "h": "Composting",
+    "points": [
+     "Biodegradable material such as food scraps, tea leaves and garden waste is broken down by micro-organisms into a nutrient-rich soil conditioner.",
+     "Composting keeps biodegradable waste out of landfill, so less methane is produced.",
+     "Compost returns nutrients and organic matter to the soil, reducing the need for peat-based compost."
+    ]
+   },
+   {
+    "h": "Household actions for reducing waste",
+    "points": [
+     "Plan meals and write a shopping list to avoid buying food that will be thrown away.",
+     "Buy concentrated products, such as concentrated detergents, which need less packaging per wash.",
+     "Buy in bulk where this reduces packaging per unit, and use refill stations for dry goods.",
+     "Use reusable bags, bottles and containers instead of single-use alternatives.",
+     "Separate waste at home into recyclables, food and garden waste, and residual waste so that each stream can be treated.",
+     "Take paint and unwanted medicines to designated collection points rather than placing them in household bins."
+    ]
+   },
+   {
+    "h": "Recycling and packaging symbols",
+    "points": [
+     "The recycling symbol (three arrows forming a triangle) shows that the packaging is made of recyclable material; it does not confirm that a local collection exists.",
+     "A percentage inside the arrows shows the proportion of recycled content in the packaging.",
+     "A number inside the triangle identifies the plastic type: 1 is PET, used for drinks bottles, and 2 is HDPE, used for milk and detergent containers."
+    ]
+   },
+   {
+    "h": "Green Dot and EU Ecolabel",
+    "points": [
+     "The Green Dot shows that the packaging producer has contributed financially to the recovery and recycling of packaging waste.",
+     "In Ireland, Repak is the scheme whose members display the Green Dot on their packaging.",
+     "The Green Dot does not show that the item itself is recyclable.",
+     "The EU Ecolabel, a flower symbol, certifies that a product or service causes minimum environmental damage over its life cycle.",
+     "The Ecolabel assessment considers the energy and materials used in manufacture, the pollution produced, and how far the product can be reused."
+    ]
+   },
+   {
+    "h": "Initiatives to reduce excess packaging",
+    "points": [
+     "A levy on single-use plastic shopping bags, charged at the point of sale, discourages their use.",
+     "EU packaging rules require producers to meet national recovery and recycling targets, and producers finance this through compliance schemes.",
+     "Local authority bring centres and kerbside collections gather glass, cans, paper and plastic packaging for recycling.",
+     "Consumers can refuse over-packaged goods, choose loose produce and bring their own containers to refill counters.",
+     "Manufacturers reduce excess packaging by using less material per product and lighter materials."
+    ]
+   },
+   {
+    "h": "Packaging materials and their waste",
+    "points": [
+     "Flexible films are light, low-cost plastic films that fit the shape of the food closely and can be printed on and heat-sealed.",
+     "Flexible films give a good barrier against moisture and gases, which extends shelf life and reduces spoilage, and they are suitable for frozen food.",
+     "Their drawback is that many multi-layer films are hard to recycle, so they are often sent to landfill or energy recovery.",
+     "Glass can be washed, reused or recycled repeatedly without loss of quality, but it is heavy and costly to transport.",
+     "Steel and aluminium cans are highly recyclable; aluminium can be recycled repeatedly without loss of quality.",
+     "Paper and card are recyclable, though their fibres shorten with each recycling cycle."
+    ]
+   },
+   {
+    "b": "WEEE is waste electrical and electronic equipment, and it is governed by its own collection and take-back rules.",
+    "h": "Disposal of electrical appliances (WEEE)",
+    "points": [
+     "Electrical goods contain hazardous substances such as lead, mercury, cadmium and brominated flame retardants, so they must not go into general household waste.",
+     "The crossed-out wheeled bin symbol means the item must be collected separately from household waste.",
+     "Retailers selling a new electrical item must take back an equivalent old item free of charge when the consumer buys the replacement.",
+     "Local authority recycling centres accept small appliances, batteries and other electrical items.",
+     "Remove batteries from appliances and dispose of them separately before the appliance is handed in.",
+     "Remove the doors from old fridges and freezers before disposal so that children cannot become trapped inside.",
+     "Older fridges and freezers contain refrigerant and insulating foam made with CFCs or HCFCs, which must be removed by an authorised treatment facility."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Recycling: used materials are processed into new products, so the material itself is reused in manufacture; example: glass bottles or aluminium cans. Composting: biodegradable material is broken down by micro-organisms into a soil conditioner rather than being manufactured again; example: fruit and vegetable peelings or garden waste. Full marks need the process named for each method and a suitable example for each.",
+    "prompt": "Explain the difference between recycling and composting as ways of managing household waste, and give one example of a material suited to each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Packaging reduction: buy concentrated products; choose loose produce; buy in bulk where packaging per unit is lower; refuse over-packaged goods; bring reusable bags and containers. Green Dot: the producer has contributed financially to packaging recovery and recycling; it does not show that the item is recyclable. EU Ecolabel: the product or service causes minimum environmental damage over its life cycle, considering manufacturing energy and materials, pollution and reusability. Disposal of electrical appliances: keep them out of household bins because they contain hazardous substances; return them to a retailer, which must take back an equivalent old item when a new one is bought, or to a local authority recycling centre; remove batteries and, for fridges and freezers, the doors; older units must go to an authorised treatment facility to remove refrigerant and foam.",
+    "prompt": "Discuss how consumers can reduce the excess packaging they bring into the home. Describe what the Green Dot and the EU Ecolabel indicate to the consumer, and explain how an old electrical appliance should be disposed of.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-environmental-issues-s3": {
+  "keyTerms": [
+   {
+    "definition": "The release of substances or energy into the environment at a rate that harms living things or natural processes.",
+    "term": "Pollution"
+   },
+   {
+    "definition": "Nutrient enrichment of water by nitrates and phosphates, which causes excessive growth of algae.",
+    "term": "Eutrophication"
+   },
+   {
+    "definition": "A rapid growth of algae on the surface of water, which blocks light and can deplete the oxygen in the water.",
+    "term": "Algal bloom"
+   },
+   {
+    "definition": "Rainfall made acidic by sulphur dioxide and nitrogen oxides dissolving in it, which damages plants, water and buildings.",
+    "term": "Acid rain"
+   },
+   {
+    "definition": "The rise in average temperatures caused by greenhouse gases trapping heat in the atmosphere.",
+    "term": "Global warming"
+   },
+   {
+    "definition": "The thinning of the ozone layer, mainly by CFCs, which allows more ultraviolet radiation to reach the earth.",
+    "term": "Ozone depletion"
+   },
+   {
+    "definition": "Chlorofluorocarbon, a synthetic gas formerly used in refrigerants, aerosols and foams that destroys ozone.",
+    "term": "CFC"
+   },
+   {
+    "definition": "A tiny solid particle or droplet in the air, such as soot or smoke, that can be inhaled.",
+    "term": "Particulate"
+   },
+   {
+    "definition": "The unit used to measure the loudness of sound on a logarithmic scale.",
+    "term": "Decibel"
+   },
+   {
+    "definition": "Liquid waste discharged from homes, farms or industry into a water body.",
+    "term": "Effluent"
+   },
+   {
+    "definition": "It lowers the pH of soil and water, harming plants and fish; it corrodes metal and stone buildings; it damages forests.",
+    "term": "Three effects of acid rain"
+   },
+   {
+    "definition": "Burning fossil fuels in power stations and homes; vehicle emissions; CFCs from old fridges and aerosols; smoke from solid fuels and industrial emissions.",
+    "term": "Four causes of air pollution"
+   },
+   {
+    "definition": "Algal blooms cover the water surface; oxygen levels fall as the algae decompose; fish and other aquatic life die.",
+    "term": "Three effects of nutrient pollution in water"
+   },
+   {
+    "definition": "Walk, cycle or use public transport; choose an electric or low-emission vehicle; use smokeless or renewable heat; avoid products containing CFCs.",
+    "term": "Four ways consumers can reduce air pollution"
+   },
+   {
+    "definition": "Stress and headaches; disturbed sleep and insomnia; permanent hearing damage from long-term exposure.",
+    "term": "Three effects of noise pollution"
+   },
+   {
+    "definition": "Old refrigerators and freezers, through their refrigerant and foam insulation; some older aerosol sprays.",
+    "term": "Two household sources of CFCs"
+   },
+   {
+    "definition": "A landfill levy; restrictions on the sale of smoky coal; a carbon tax on fossil fuels.",
+    "term": "Three government measures against pollution"
+   },
+   {
+    "definition": "Sulphur dioxide that forms acid rain; carbon dioxide that adds to global warming.",
+    "term": "Two effects of burning coal, oil and peat"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Pollution is the release of substances or energy into the environment at a rate that harms living things or damages natural processes.",
+    "h": "Types of pollution",
+    "points": [
+     "Air pollution: gases and particles released into the atmosphere, mainly from burning fossil fuels, industry, traffic and domestic fires.",
+     "Water pollution: harmful substances entering rivers, lakes, groundwater or the sea, from sewage, farming, industry and households.",
+     "Noise pollution: unwanted or excessive sound from traffic, construction, industry and household equipment.",
+     "Litter and land pollution: discarded waste on streets, in the countryside and in water, which harms wildlife and blocks drains."
+    ]
+   },
+   {
+    "h": "Causes of air pollution",
+    "points": [
+     "Carbon dioxide and sulphur dioxide are released when fossil fuels such as coal, oil, peat and gas are burned for electricity, transport and home heating.",
+     "Nitrogen oxides are produced by vehicle engines and by any high-temperature combustion.",
+     "Carbon monoxide is produced by incomplete combustion, for example in poorly maintained boilers, stoves and vehicle exhausts.",
+     "CFCs (chlorofluorocarbons) released from old fridge refrigerants and older aerosol sprays destroy ozone in the upper atmosphere.",
+     "Smoke from solid fuels such as coal and smoky turf burned in open fires adds particulates to the air."
+    ]
+   },
+   {
+    "h": "Effects of air pollution",
+    "points": [
+     "Global warming: carbon dioxide and other greenhouse gases trap heat in the atmosphere, raising average temperatures and altering weather patterns.",
+     "Acid rain: sulphur dioxide and nitrogen oxides dissolve in rainwater to form acids, which lower the pH of soil and water, harm plants and fish, and corrode metal and stone buildings.",
+     "Ozone depletion: CFCs break down ozone in the stratosphere, allowing more harmful ultraviolet radiation to reach the earth's surface.",
+     "Health: particulates and carbon monoxide cause respiratory illness, aggravate asthma and place extra strain on the heart."
+    ]
+   },
+   {
+    "h": "Causes of water pollution",
+    "points": [
+     "Untreated or poorly treated sewage discharged into rivers and the sea.",
+     "Fertiliser and slurry washed off farmland into waterways after heavy rain.",
+     "Phosphates in washing powders and detergents, which enter waterways through household drains.",
+     "Industrial effluent, chemical waste and pesticides that are dumped or washed into water.",
+     "Oil leaking from vehicles and heating oil tanks, which runs off into drains and streams."
+    ]
+   },
+   {
+    "h": "Effects of water pollution",
+    "points": [
+     "Eutrophication: excess nitrates and phosphates cause rapid growth of algae, which forms an algal bloom on the water surface.",
+     "The bloom blocks light, so submerged plants die; when the algae die, bacteria decompose them and use up dissolved oxygen.",
+     "Low oxygen levels kill fish and other aquatic life, leaving lakes and rivers depleted.",
+     "Toxic substances can accumulate up the food chain, affecting fish and birds that feed on contaminated organisms.",
+     "Chemical contamination of drinking water sources threatens human health."
+    ]
+   },
+   {
+    "h": "Causes and effects of noise pollution",
+    "points": [
+     "Main sources: road and air traffic, construction and roadworks, lawnmowers, music systems, televisions and alarms.",
+     "Noise is measured in decibels (dB), a logarithmic scale: an increase of 10 dB represents roughly a tenfold increase in sound intensity.",
+     "Effects of persistent noise: stress, tension, headaches, disturbed sleep and insomnia.",
+     "Long-term exposure to loud sound causes permanent hearing damage.",
+     "Noise reduces concentration in schools and workplaces."
+    ]
+   },
+   {
+    "h": "How consumers can reduce pollution",
+    "points": [
+     "Walk, cycle, use public transport or share car journeys to reduce vehicle emissions.",
+     "Drive an electric car or choose a low-emission vehicle; keep tyres correctly inflated and the engine serviced to reduce fuel use and emissions.",
+     "Use smokeless fuels or renewable heat, such as heat pumps, instead of smoky solid fuels.",
+     "Choose energy-efficient appliances so that less fossil fuel is burned to generate the electricity they use.",
+     "Avoid products containing CFCs, and choose aerosols and cleaning products that are free of them.",
+     "Use phosphate-free detergents and never pour paint, oil or chemicals down drains.",
+     "Compost garden waste rather than burning it, and use fertilisers sparingly.",
+     "Reduce noise by keeping music and television volumes down, avoiding noisy garden work at unsocial hours, and maintaining equipment."
+    ]
+   },
+   {
+    "h": "Government initiatives against pollution",
+    "points": [
+     "Landfill levy: a charge per tonne of waste sent to landfill, which encourages recycling and recovery.",
+     "Restrictions on the sale of smoky coal in urban areas reduce smoke and particulate pollution from domestic fires.",
+     "The Environmental Protection Agency (EPA) monitors air and water quality, licenses industrial emissions and enforces environmental law.",
+     "A carbon tax on fossil fuels makes burning them more expensive, encouraging energy efficiency and renewable alternatives.",
+     "Support for renewable energy and energy efficiency reduces the fossil fuel that would otherwise be burned."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two types, each correctly named, for example air, water or noise pollution. One effect for each: air pollution causes global warming, acid rain or ozone depletion; water pollution causes algal blooms, oxygen depletion and the death of fish and aquatic life; noise pollution causes stress, disturbed sleep and hearing damage. Each effect must be linked to the named type.",
+    "prompt": "Name two types of pollution and state one effect of each on the environment.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Two types, correctly named. For each type, two causes: for air pollution, burning fossil fuels for heating and transport, and CFCs from fridges and aerosols; for water pollution, sewage and farm run-off of fertiliser and slurry, and phosphates in detergents. For each type, two effects: for air pollution, global warming and acid rain; for water pollution, eutrophication with algal blooms and oxygen depletion that kills fish. A consumer reduction measure for each type, such as walking, cycling or using public transport, or using phosphate-free detergents and not pouring chemicals down drains.",
+    "prompt": "Identify two types of pollution. For each, describe its main causes and two effects on the environment, and outline one way in which a consumer can reduce it.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-environmental-issues-s4": {
+  "keyTerms": [
+   {
+    "definition": "The escape of heat from a building through its roof, walls, floor, windows and gaps.",
+    "term": "Heat loss"
+   },
+   {
+    "definition": "Sealing gaps around doors, windows and floors to stop warm air escaping and cold air entering.",
+    "term": "Draught-proofing"
+   },
+   {
+    "definition": "Insulating material placed in the gap between the two leaves of a masonry wall to reduce heat loss.",
+    "term": "Cavity wall insulation"
+   },
+   {
+    "definition": "Insulating material wrapped around a hot water cylinder or pipes to reduce heat loss.",
+    "term": "Lagging"
+   },
+   {
+    "definition": "A valve that controls the heat output of an individual radiator according to the room temperature.",
+    "term": "Thermostatic radiator valve"
+   },
+   {
+    "definition": "The EU label rating an appliance's energy efficiency from A to G, with its annual energy consumption and noise level.",
+    "term": "Energy label"
+   },
+   {
+    "definition": "The electricity an appliance keeps drawing while it appears switched off but remains plugged in and in standby mode.",
+    "term": "Standby power"
+   },
+   {
+    "definition": "A washing machine setting that uses less energy or water, usually by running at a lower temperature for longer.",
+    "term": "Eco programme"
+   },
+   {
+    "definition": "Food that is discarded rather than eaten, which wastes the resources used to produce it and releases methane when landfilled.",
+    "term": "Food waste"
+   },
+   {
+    "definition": "Food that is grown and harvested at its natural time of year, which avoids energy used in heated or refrigerated growing and storage.",
+    "term": "Seasonal food"
+   },
+   {
+    "definition": "Roof and attic insulation; cavity wall insulation; double or triple glazing; draught-proofing.",
+    "term": "Four measures to cut heat loss from the home"
+   },
+   {
+    "definition": "They stop the heating running when the house is empty; they keep rooms at the set temperature rather than overheating them; they allow unused rooms to be kept cooler.",
+    "term": "Three ways a thermostat and programmer save energy"
+   },
+   {
+    "definition": "A lower wash temperature; full loads only; an eco programme; a higher spin speed.",
+    "term": "Four washing machine settings that save energy"
+   },
+   {
+    "definition": "It releases methane when landfilled; it wastes the energy and water used to produce it; it wastes the energy used to transport and package it.",
+    "term": "Three reasons food waste harms the environment"
+   },
+   {
+    "definition": "Less energy for long-distance transport; less packaging needed for shipping; less energy for heated or refrigerated growing and storage.",
+    "term": "Three benefits of seasonal and local food"
+   },
+   {
+    "definition": "Energy efficiency rating from A to G; annual energy consumption; noise level; water use for washing machines and dishwashers.",
+    "term": "Four pieces of information on an EU energy label"
+   },
+   {
+    "definition": "Keep it at or below 5 °C rather than colder; keep its filters and condenser coils clean.",
+    "term": "Two steps to reduce the energy used by a fridge"
+   },
+   {
+    "definition": "It keeps the appliance in use for longer; it avoids the energy and materials needed to manufacture a new one.",
+    "term": "Two reasons to repair an appliance rather than replace it"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Everyday household activities use energy, water and materials, and generate emissions and waste. The impact of each activity depends on how much energy it uses and which fuel supplies that energy.",
+    "h": "Environmental impact of household activity",
+    "points": [
+     "Space heating and hot water account for the largest share of energy use in most homes.",
+     "Electricity used in the home is generated partly by burning fossil fuels, releasing carbon dioxide at the power station.",
+     "Water used in the home must be pumped and treated, and hot water also needs energy to heat it.",
+     "Packaging, food waste and discarded appliances all add to the waste that is landfilled or recovered."
+    ]
+   },
+   {
+    "h": "Heating the home",
+    "points": [
+     "Heat escapes through the roof, walls, floor and windows; insulation laid on the floor of the roof space is one of the most effective measures for an existing house.",
+     "Cavity wall insulation fills the gap between the two leaves of a masonry wall, reducing heat loss through the walls.",
+     "Draught-proofing seals gaps around doors, windows, letterboxes and floorboards, which stops warm air escaping and cold air entering.",
+     "Double or triple glazing reduces heat loss through windows; closing thick curtains at night adds a further layer of insulation.",
+     "A lagging jacket on the hot water cylinder and insulated pipes reduce heat lost while water is stored and moved.",
+     "A room thermostat and a programmer ensure that the heating runs only when it is needed; lowering the set temperature, even slightly, reduces fuel use.",
+     "Thermostatic radiator valves control the temperature of individual radiators, so unused rooms can be kept cooler.",
+     "Reflective panels behind radiators on external walls send heat back into the room rather than into the wall.",
+     "An annual boiler service keeps combustion efficient so that less fuel is burned for the same heat.",
+     "Renewable heat sources, such as heat pumps, solar thermal panels and stoves burning wood from sustainably managed forests, reduce reliance on fossil fuels."
+    ]
+   },
+   {
+    "h": "Washing clothes",
+    "points": [
+     "Heating the water accounts for most of the energy used by a washing machine on a hot wash.",
+     "A cold or 30 °C wash uses far less energy than a 60 °C or 90 °C wash, and modern detergents clean well at lower temperatures.",
+     "A full load uses almost the same energy and water as a part load, so run the machine only when it is full.",
+     "An eco programme runs at lower temperatures or with less water, using less energy per load.",
+     "A higher spin speed removes more water before drying, which reduces the time a dryer must run.",
+     "A tumble dryer is one of the most energy-intensive appliances in the home, so line drying saves significant energy.",
+     "Using the correct dose of detergent avoids residue in the water and reduces the amount of product that enters drains."
+    ]
+   },
+   {
+    "h": "Food consumption",
+    "points": [
+     "Food waste sent to landfill decomposes anaerobically and releases methane, a greenhouse gas.",
+     "Food production uses land, water, fertiliser and energy, so wasted food wastes all the resources used to grow, transport and package it.",
+     "Plan meals and buy only what will be eaten; use leftovers and freeze surplus food promptly.",
+     "Store food correctly: keep the fridge at or below 5 °C, and freeze food at -18 °C or below, which slows bacterial growth and preserves it.",
+     "Vegetables, pulses and cereals generally need less land, water and energy to produce than meat and dairy, so eating more plant-based foods lowers the environmental impact of the diet.",
+     "Seasonal and local food avoids the energy used for long-distance transport and for heated or refrigerated storage and growing.",
+     "Buy loose fruit and vegetables and products with minimal packaging, and use a reusable bag and containers for bulk and counter purchases."
+    ]
+   },
+   {
+    "h": "Reading an appliance energy label",
+    "points": [
+     "The EU energy label rates an appliance from A to G for energy efficiency; A-rated appliances are the most efficient.",
+     "The label also shows the appliance's annual energy consumption and its noise level.",
+     "For washing machines and dishwashers, the label shows water use as well.",
+     "Choosing a model with a higher rating and the right capacity for the household gives the lowest energy use; an oversized appliance uses more energy than its load needs."
+    ]
+   },
+   {
+    "h": "Using appliances efficiently",
+    "points": [
+     "Standby mode draws electricity continuously; switch appliances off at the socket, or use a switched power strip.",
+     "LED bulbs use much less power than incandescent bulbs and last much longer.",
+     "Use the oven only when needed, avoid preheating for longer than necessary, and use a microwave or slow cooker for small quantities.",
+     "Boil only the water needed in a kettle.",
+     "Clogged filters and dirty condenser coils make fridges and dryers use more energy; keep them clean.",
+     "A fridge set colder than necessary wastes energy, and a freezer that is not kept full uses more energy to stay cold.",
+     "Keeping a working appliance in use through servicing, repair or second-hand sale avoids the energy and materials needed to manufacture a replacement."
+    ]
+   },
+   {
+    "h": "Water use in the home",
+    "points": [
+     "Shorter showers use less hot water than baths, and so less energy is needed for heating.",
+     "Turning off the tap while brushing teeth and fixing dripping taps save water that would otherwise be wasted.",
+     "A dual-flush toilet allows the smaller flush to be used for liquid waste, saving water with each flush.",
+     "Collecting rainwater in a butt provides free water for the garden."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two correctly described measures, each with its benefit. Examples: insulating the roof or walls, which reduces the heat lost and so the fuel burned, lowering carbon dioxide emissions; draught-proofing, which stops warm air escaping and reduces fuel use; fitting a programmer and thermostats, so that the heating runs only when needed; servicing the boiler, so that fuel burns more completely. Each measure must be linked to a reduction in fuel use or emissions.",
+    "prompt": "Describe two ways a household can reduce the energy used for heating, and explain the environmental benefit of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Heating: heat escapes through the roof, walls, floor and windows; burning fuel for heat releases carbon dioxide; recommend insulation or draught-proofing with the benefit of less fuel burned, plus a programmer and thermostat. Washing clothes: heating water uses most of the energy in a hot wash; recommend a cold or 30 degree wash, or an eco programme, with the benefit of less energy used and less detergent entering waterways; line drying avoids the energy used by a dryer. Food: food waste releases methane in landfill and wastes the resources used to produce it; recommend planning meals and buying only what will be eaten, with the benefit of fewer resources wasted; eating more plant-based foods reduces land, water and energy use. Appliances: choose a highly rated appliance on the EU energy label with the right capacity; switch off standby power; keeping working appliances in use avoids the energy used to make replacements. Each recommendation must be linked to its environmental benefit.",
+    "prompt": "Discuss how the choices a household makes about heating, washing clothes, food and appliances affect the environment. Recommend a practical change in each area and explain its environmental benefit.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-family-caring-s1": {
   "keyTerms": [
    {
@@ -6277,6 +6950,664 @@
     "marks": 20,
     "model": "Difficulties: limited employment and educational opportunities for the member; social isolation and prejudice; shortage of help and respite, leaving carers exhausted; limited mobility and inaccessible transport; inadequate State financial support, which can force a parent out of paid work; insufficient medical and educational services; loss of income and extra costs; added duties for siblings; stress and fear for the future. Statutory services: the HSE provides health, disability and family support services, the education system provides support for children with special educational needs, and a formal assessment of needs allows access to these services. Voluntary organisations: independent, non-profit bodies such as the Rehab Group offer education, training, employment, social care and home services, and can provide respite care, support groups and advocacy. Full marks need several difficulties explained, at least one statutory and one voluntary service with its role, and a link between the service and the difficulty it addresses.",
     "prompt": "Discuss the difficulties a family may experience when a member has special needs, and explain how statutory services and voluntary organisations can help.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-society-s1": {
+  "keyTerms": [
+   {
+    "definition": "A group of people related by blood, marriage or adoption who usually share responsibility for one another.",
+    "term": "Family"
+   },
+   {
+    "definition": "The network of relationships through blood, marriage or common ancestry.",
+    "term": "Kinship"
+   },
+   {
+    "definition": "The fact that the family exists in every known human society, although its form varies.",
+    "term": "Universality of the family"
+   },
+   {
+    "definition": "Marriage to one partner at a time.",
+    "term": "Monogamy"
+   },
+   {
+    "definition": "Marriage to more than one spouse at the same time.",
+    "term": "Polygamy"
+   },
+   {
+    "definition": "A form of polygamy in which one husband has several wives.",
+    "term": "Polygyny"
+   },
+   {
+    "definition": "A form of polygamy in which one wife has several husbands.",
+    "term": "Polyandry"
+   },
+   {
+    "definition": "Tracing family line and inheritance through the father.",
+    "term": "Patrilineal descent"
+   },
+   {
+    "definition": "Tracing family line and inheritance through the mother.",
+    "term": "Matrilineal descent"
+   },
+   {
+    "definition": "A couple living with or near the wife's family after marriage.",
+    "term": "Matrilocal residence"
+   },
+   {
+    "definition": "Common residence, economic co-operation and reproduction.",
+    "term": "Murdock's 1949 definition: three features of the family"
+   },
+   {
+    "definition": "The natural, primary and fundamental unit group of society.",
+    "term": "How Article 41 of the Irish Constitution describes the family"
+   },
+   {
+    "definition": "Consanguineal relatives are related by blood; affinal relatives are related by marriage.",
+    "term": "Two classes of relatives by type of tie"
+   },
+   {
+    "definition": "On blood, marriage and adoption; on shared residence; on shared economic life and child rearing.",
+    "term": "Three ways in which a definition of the family may be based"
+   },
+   {
+    "definition": "West Sumatra, Indonesia.",
+    "term": "Region where the Minangkabau are matrilineal"
+   },
+   {
+    "definition": "A series of marriages, one after another, with only one spouse at a time.",
+    "term": "Serial monogamy"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A family is a group of people linked by kinship, meaning ties of blood, marriage or adoption.",
+    "h": "Defining the family",
+    "points": [
+     "Traditional definition: a group related by blood, marriage or adoption, usually living together and sharing responsibility for its members.",
+     "George Peter Murdock (1949) defined the family as a social group with common residence, economic co-operation and reproduction.",
+     "Article 41 of the Constitution of Ireland describes the family as the natural, primary and fundamental unit group of society.",
+     "A family can span more than one household, for example when grandparents living elsewhere remain part of the family group.",
+     "Legal definitions focus on marriage, blood and adoption ties; sociological definitions focus on the relationships and functions of the group."
+    ]
+   },
+   {
+    "b": "Universality means the family exists in every known human society, although its form differs from one society to another.",
+    "h": "Universality of the family",
+    "points": [
+     "Every known society has a family group that raises children and organises kinship relationships.",
+     "The structure of the family varies: nuclear, extended, polygamous and matrilineal forms are all found in different cultures.",
+     "The structure of a family is shaped by economic, religious and political conditions, so one family type is not found everywhere.",
+     "The functions of the family, such as raising children and caring for dependants, appear in all societies even where the structure differs."
+    ]
+   },
+   {
+    "h": "Forms of marriage, descent and residence (assumed knowledge)",
+    "points": [
+     "Monogamy is marriage to one partner at a time; serial monogamy is a series of marriages, one after another.",
+     "Polygamy is marriage to more than one spouse at a time; polygyny is one husband with several wives, and polyandry is one wife with several husbands.",
+     "Patrilineal descent traces family and inheritance through the father's line; matrilineal descent traces them through the mother's line.",
+     "Patrilocal residence means a couple lives with or near the husband's family; matrilocal residence means they live with or near the wife's family.",
+     "Consanguineal relatives are related by blood; affinal relatives are related by marriage."
+    ]
+   },
+   {
+    "h": "Families in other societies (case studies)",
+    "points": [
+     "The Minangkabau of West Sumatra, Indonesia, are a matrilineal society in which property is passed through the female line.",
+     "Kibbutzim in Israel historically raised children in communal children's houses, showing that some family functions can be carried out outside the household.",
+     "Comparing cases shows which features are universal, such as kinship and child rearing, and which vary, such as residence, descent and household size."
+    ]
+   },
+   {
+    "h": "Comparing definitions (settings)",
+    "points": [
+     "A definition based only on marriage excludes cohabiting couples with children, so sociologists usually include the parent-child relationship.",
+     "A definition based only on shared residence excludes family members who live apart, such as a parent working abroad.",
+     "Criteria used in most definitions: blood or adoptive ties, marriage or a committed partnership, shared residence, shared economic life and raising children."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two definitions, each with explanation. Traditional definition: a group related by blood, marriage or adoption who usually share responsibility for one another. Sociological definition: a social group with common residence, economic co-operation and reproduction (Murdock). Alternatively, the Article 41 description of the family as the natural, primary and fundamental unit group of society, with the reason it is described that way.",
+    "prompt": "Outline two ways in which the family may be defined.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Universality: every known society has a family group that raises children and organises kinship. Variation: nuclear, extended, polygamous and matrilineal forms are found in different cultures. Explanation of variation: economic, religious and political conditions shape structure, e.g. patrilineal descent where inheritance passes through the father's line, matrilocal residence where the couple lives with the wife's family. Example case: the Minangkabau of West Sumatra with matrilineal property. Conclusion of the argument: the form varies but the basic functions and kinship ties remain in every society.",
+    "prompt": "Examine how the family is found in all known societies while its structure varies from one culture to another, giving examples.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-society-s2": {
+  "keyTerms": [
+   {
+    "definition": "A family including parents, children and wider relatives such as grandparents, aunts, uncles and cousins, who live in one household or close by.",
+    "term": "Extended family"
+   },
+   {
+    "definition": "A family made up of parents and their dependent children living in a self-contained household.",
+    "term": "Nuclear family"
+   },
+   {
+    "definition": "Family control held by the father, who makes the main decisions and controls finances.",
+    "term": "Patriarchal authority"
+   },
+   {
+    "definition": "The extension of mains electricity to rural homes, which reduced the domestic workload of women.",
+    "term": "Rural electrification"
+   },
+   {
+    "definition": "A court order allowing spouses to live apart with legal orders on property and maintenance, without ending the marriage.",
+    "term": "Judicial separation"
+   },
+   {
+    "definition": "A legal relationship between two people, introduced in Ireland in 2010, giving rights similar to those of marriage.",
+    "term": "Civil partnership"
+   },
+   {
+    "definition": "A family in which both parents have paid employment.",
+    "term": "Dual-income family"
+   },
+   {
+    "definition": "The strain of carrying out too many roles at once, such as caring for children and elderly parents.",
+    "term": "Role overload"
+   },
+   {
+    "definition": "Extended family living arrangements; large families; the family as an agricultural economic unit.",
+    "term": "Three features of the Irish family before the 1960s"
+   },
+   {
+    "definition": "1967, under Minister for Education Donogh O'Malley.",
+    "term": "Year free second-level education was introduced in Ireland"
+   },
+   {
+    "definition": "1995, followed by the Family Law (Divorce) Act 1996.",
+    "term": "Year divorce was approved in an Irish referendum"
+   },
+   {
+    "definition": "2015.",
+    "term": "Year same-sex marriage was approved in an Irish referendum"
+   },
+   {
+    "definition": "Dual-income families; lone-parent and blended families; same-sex partnerships.",
+    "term": "Three changes in Irish family life from the 1990s"
+   },
+   {
+    "definition": "Unemployment and mortgage arrears; emigration that separated families.",
+    "term": "Two effects of the recession after 2008 on families"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Until the 1960s the Irish family was largely rural, agricultural and organised around the farm as an economic unit.",
+    "h": "The Irish family before the 1960s (Higher Level only)",
+    "points": [
+     "The extended family was common, with grandparents, unmarried relatives and children living in one household or close by.",
+     "Agriculture provided most employment, so family members worked together on the farm and shared its income.",
+     "Families were large, and high child mortality meant many children did not reach adulthood.",
+     "Authority was patriarchal: the father controlled decisions and finances, and discipline was authoritarian.",
+     "Gender roles were segregated, with men working outside the home and women responsible for housework and the children.",
+     "The Catholic Church had a strong influence on marriage, morality and family life.",
+     "Marriages were often arranged, and many people never married, particularly in rural areas.",
+     "Rural electrification in the 1940s eased the workload of mothers by bringing electric appliances and lighting to farm homes."
+    ]
+   },
+   {
+    "b": "Industrial and economic change weakened the rural extended family and moved the family towards the nuclear form.",
+    "h": "The Irish family from the 1960s to the 1990s (Higher Level only)",
+    "points": [
+     "Free second-level education was introduced in 1967, so more children stayed in school for longer.",
+     "Industrialisation and the growth of services drew people from farms to towns and cities, loosening links with the extended family.",
+     "Couples married younger and increasingly married for love rather than for land or money.",
+     "Women's paid employment grew, and both parents could work outside the home, reducing the domestic role of women.",
+     "Wages rose and living standards improved, so families could afford more goods and better housing.",
+     "Contraception was legalised for married couples in 1979, and family size fell as couples chose to have fewer children.",
+     "Emigration stayed high during the 1980s, and many families were separated when adult children left to find work."
+    ]
+   },
+   {
+    "b": "Changes in the law made separation, divorce and other partnerships legally recognised, which altered family structure.",
+    "h": "Changes in family law (Higher Level only)",
+    "points": [
+     "The Judicial Separation and Family Law Reform Act 1989 provided for judicial separation, allowing spouses to live apart under a court order on property and maintenance.",
+     "Divorce was approved by referendum in 1995, by a narrow majority.",
+     "The Family Law (Divorce) Act 1996 set out the conditions for divorce, including a period of living apart, and was later amended by the Family Law Act 2019.",
+     "Civil partnership, introduced in 2010, gave same-sex couples legal recognition and rights similar to those of marriage.",
+     "Same-sex marriage was approved by referendum in 2015, extending marriage to same-sex couples."
+    ]
+   },
+   {
+    "b": "Economic growth, legal change and the recession after 2008 reshaped family roles, living arrangements and family life abroad.",
+    "h": "The Irish family from the 1990s to the present (Higher Level only)",
+    "points": [
+     "Dual-income families became common, and parents shared decisions and household tasks more equally.",
+     "Lone-parent and blended families grew as separation and divorce became legal options.",
+     "Demand for childcare rose as both parents worked, and families relied on creches, childminders and grandparents.",
+     "Role overload arose when parents cared for their own children and elderly parents at the same time.",
+     "The recession after 2008 brought unemployment, mortgage arrears and emigration, and some fathers became the main carers at home.",
+     "Family members often live abroad, and mobile phones, email and video calls keep relatives in contact across distances."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two changes, each with explanation. For example: the decline of the rural extended family and the move to nuclear families as people moved from farms to towns; or dual-income families, with both parents working outside the home and sharing household tasks.",
+    "prompt": "Outline two ways in which the Irish family has changed since the 1960s.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Early twentieth century: extended family common; large families; high child mortality; agriculture as economic base; patriarchal authority; segregated gender roles; strong Church influence. 1960s to 1990s: free second-level education from 1967; move from farms to towns; nuclear families; younger marriage for love; more women in paid work; contraception legal for married couples from 1979; smaller families; emigration. Family law: judicial separation from 1989; divorce approved in 1995 and provided for by the Family Law (Divorce) Act 1996; civil partnership from 2010; same-sex marriage from a 2015 referendum. Present day: dual-income families; shared roles; lone-parent and blended families; demand for childcare; role overload; recession after 2008 with emigration and stay-at-home fathers; communication technology keeping families in touch across distance.",
+    "prompt": "Discuss the historical development of the Irish family from the beginning of the twentieth century to the present day, referring to family structure, family roles and family law.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-society-s3": {
+  "keyTerms": [
+   {
+    "definition": "A family of two parents and their dependent children living together in a self-contained household.",
+    "term": "Nuclear family"
+   },
+   {
+    "definition": "A family in which one parent lives with one or more dependent children.",
+    "term": "Lone-parent family"
+   },
+   {
+    "definition": "A family that includes parents, children and wider relatives such as grandparents, aunts, uncles and cousins.",
+    "term": "Extended family"
+   },
+   {
+    "definition": "A family formed when one or both partners bring children from an earlier relationship into a new union.",
+    "term": "Blended family"
+   },
+   {
+    "definition": "A child who relies on parents or guardians for financial support and care.",
+    "term": "Dependent child"
+   },
+   {
+    "definition": "A partner of a parent who is not the child's biological or adoptive parent.",
+    "term": "Step-parent"
+   },
+   {
+    "definition": "People who live together under one roof and share living arrangements, which may differ from the family they belong to.",
+    "term": "Household"
+   },
+   {
+    "definition": "Two unmarried adults living together as a couple.",
+    "term": "Cohabitation"
+   },
+   {
+    "definition": "Separation or divorce; the death of a partner; a parent's choice to raise a child alone.",
+    "term": "Three ways a single parent can end up raising children alone"
+   },
+   {
+    "definition": "Grandparents, aunts, uncles and cousins.",
+    "term": "Wider relatives counted in a multi-generation group"
+   },
+   {
+    "definition": "A self-contained household; a small and mobile unit.",
+    "term": "Two features of a small two-parent household"
+   },
+   {
+    "definition": "Through remarriage or cohabitation; sometimes after the death of a spouse.",
+    "term": "Two routes by which a new partnership brings children together"
+   },
+   {
+    "definition": "Nordic States fund parental leave and childcare; southern European grandparents often provide childcare.",
+    "term": "Two ways European family roles differ from Irish family roles"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A nuclear family is a parent or parents with their dependent children, living together in a self-contained household.",
+    "h": "Nuclear family",
+    "points": [
+     "Two parents, married or cohabiting, and their dependent children form one self-contained household.",
+     "The unit is small and mobile, so members can move for work, which often separates the family from relatives.",
+     "Tasks, child rearing and decision-making are usually shared between both parents.",
+     "Children depend mainly on the parents' income and on State supports such as Child Benefit."
+    ]
+   },
+   {
+    "h": "Lone-parent family",
+    "points": [
+     "A lone-parent family is one parent living with one or more dependent children.",
+     "Causes include separation, divorce, the death of a partner, and a parent's choice to raise a child alone.",
+     "The lone parent carries the full economic, emotional and workload responsibility, often on one income.",
+     "Lone parents who work need reliable childcare, and may depend on relatives or on the One-Parent Family Payment.",
+     "Lone parenthood can be temporary, ending when the children grow up or when a new partner joins the household."
+    ]
+   },
+   {
+    "b": "An extended family includes wider relatives beyond the parents and children, and its members stay closely linked.",
+    "h": "Extended family",
+    "points": [
+     "Members include grandparents, aunts, uncles and cousins, who live in the same household or close by.",
+     "Members are interdependent, sharing childcare, housework, money and care for older relatives.",
+     "Members often work together as one economic unit, such as a family farm or family business.",
+     "Historically, roles were segregated by gender, with men and women carrying out separate tasks.",
+     "Extended families are common in many cultures, where grandparents often provide much of the childcare."
+    ]
+   },
+   {
+    "b": "A blended family forms when one or both partners bring children from an earlier relationship into a new union.",
+    "h": "Blended family",
+    "points": [
+     "Blended families arise through remarriage or cohabitation, and sometimes after the death of a spouse.",
+     "Step-parents, step-siblings and half-siblings may all live in the household, creating new relationships.",
+     "The adults must agree on rules and discipline, which can be difficult when children have different expectations.",
+     "Parents may have financial obligations to children from an earlier relationship as well as to children of the new union.",
+     "A joint child of the new partners creates a sibling group that differs in age and background from the earlier children."
+    ]
+   },
+   {
+    "h": "Comparing Irish families with European families (settings)",
+    "points": [
+     "Structure: compare the proportions of nuclear, lone-parent, extended and blended households, using the most recent published statistics.",
+     "Size: compare the number of children per family and how family size has changed since the mid-twentieth century.",
+     "Roles: Nordic countries provide State-funded parental leave and childcare, which supports shared parenting.",
+     "Roles: in many southern European countries grandparents often provide much of the childcare, and adult children may remain at home longer.",
+     "State support: compare how far each country relies on the State and on the extended family to support parents."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two structures, each identified and described. Lone-parent family: one parent living with one or more dependent children, arising through separation, bereavement or choice. Blended family: partners with children from earlier relationships, arising through remarriage or cohabitation, with step-relationships and rules to agree. Accept any two of nuclear, extended, lone-parent or blended, with accurate descriptions.",
+    "prompt": "Identify and describe two modern family structures.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Lone-parent family: one parent and dependent children; one income; full economic, emotional and workload responsibility; reliance on childcare and on relatives or State supports such as the One-Parent Family Payment. Challenges include financial pressure, role overload and limited time. Extended family: parents, children and wider relatives living together or nearby; interdependence; shared childcare, housework and money; often one economic unit. Challenges include segregated roles, dependence on the older generation, and conflict over authority and living space. Comparison: the lone-parent family has one adult to share responsibilities, while the extended family has several adults but may have shared expectations to manage.",
+    "prompt": "Compare the characteristics of lone-parent families and extended families, and explain the challenges each type of family may face.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-society-s4": {
+  "keyTerms": [
+   {
+    "definition": "Two unmarried adults living together as a couple in a shared home.",
+    "term": "Cohabitation"
+   },
+   {
+    "definition": "Medical techniques, such as fertility treatment, that help couples to conceive a child.",
+    "term": "Assisted human reproduction"
+   },
+   {
+    "definition": "A couple in which both partners pursue paid careers.",
+    "term": "Dual-career family"
+   },
+   {
+    "definition": "The movement of people from rural areas to towns and cities.",
+    "term": "Urbanisation"
+   },
+   {
+    "definition": "A family whose members live in different countries but remain connected.",
+    "term": "Transnational family"
+   },
+   {
+    "definition": "Paid work carried out from home or another location away from the employer's premises.",
+    "term": "Remote working"
+   },
+   {
+    "definition": "Repayments on a home loan that have fallen due but have not been paid.",
+    "term": "Mortgage arrears"
+   },
+   {
+    "definition": "Tension that arises when the demands of two or more family or work roles clash.",
+    "term": "Role conflict"
+   },
+   {
+    "definition": "Divorce and separation; remarriage; births outside marriage.",
+    "term": "Three social changes that increased the number of lone-parent and blended families"
+   },
+   {
+    "definition": "Unemployment and mortgage arrears; emigration; rising housing and childcare costs.",
+    "term": "Three economic pressures on Irish families since 2008"
+   },
+   {
+    "definition": "Household appliances; mobile phones and video calls; contraception and assisted reproduction.",
+    "term": "Three technologies that changed family life"
+   },
+   {
+    "definition": "Adult children stay at home or return, creating extended households.",
+    "term": "Effect of the recession on living arrangements"
+   },
+   {
+    "definition": "The family is split between countries, with parents and children living apart.",
+    "term": "Effect of a parent working abroad on family structure"
+   },
+   {
+    "definition": "Cyberbullying can be carried out at home; face-to-face conversation can be reduced.",
+    "term": "Two ways social media can affect family communication"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Social change has altered who forms a family, when families form and how they are organised.",
+    "h": "Social changes affecting family structure (Higher Level only)",
+    "points": [
+     "Divorce became legal under the Family Law (Divorce) Act 1996, which increased the number of lone-parent and blended families.",
+     "Later marriage and later first births have led to smaller families and fewer children per family.",
+     "A growing proportion of children are born outside marriage, and cohabitation is now a common alternative to marriage.",
+     "Gender equality in education and employment has produced dual-career couples and more shared household roles.",
+     "Declining religious influence has weakened the Church's influence on decisions about marriage and family life.",
+     "Urbanisation moved families from rural areas to towns and cities, loosening links with the extended family.",
+     "Same-sex couples can marry, and same-sex parent families are now a recognised family structure."
+    ]
+   },
+   {
+    "b": "Economic pressures shape how many adults earn, where families live and whether relatives share a home.",
+    "h": "Economic changes affecting family structure (Higher Level only)",
+    "points": [
+     "The recession after 2008 brought job losses, mortgage arrears and reduced family incomes.",
+     "During the recession some families moved in with relatives, and adult children stayed at home or returned to it.",
+     "Emigration during recessions separates families, as parents or adult children move abroad for work.",
+     "Rising housing and childcare costs make two incomes necessary for many families, which can delay or limit family size.",
+     "Women's paid employment has increased, so many mothers work outside the home.",
+     "Job mobility and flexible working patterns, such as shift and part-time work, change how caring time is shared.",
+     "Long-term unemployment reduces family income, increasing financial stress and the risk of conflict within the family."
+    ]
+   },
+   {
+    "b": "Technology has changed how families are formed, how housework is done and how family members keep in touch.",
+    "h": "Technological changes affecting family structure (Higher Level only)",
+    "points": [
+     "Contraception allows couples to decide whether and when to have children, which affects family size and timing.",
+     "Assisted human reproduction, such as fertility treatment, allows some couples to have children who might not otherwise have done so.",
+     "Household appliances such as washing machines and dishwashers reduced the time spent on housework, freeing parents for paid work and leisure.",
+     "Mobile phones, email and video calls keep family members in contact across distance and time zones.",
+     "Remote working lets parents work from home, changing when and where family life takes place.",
+     "Online banking and online services reduce the time spent on household administration.",
+     "Social media and screens create new pressures, including cyberbullying and less face-to-face communication within families."
+    ]
+   },
+   {
+    "h": "Combined effects of social, economic and technological change (Higher Level only)",
+    "points": [
+     "Recession plus housing costs: adult children remain in the family home or return to it, creating extended households.",
+     "Recession plus emigration: parents and children live in different countries, so the family is split across borders.",
+     "Remote working plus childcare costs: a parent can combine paid work with caring for children at home.",
+     "Divorce plus technology: separated parents in different households keep shared parenting arrangements going through video calls and messages."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two social changes, each with explanation. For example: divorce and separation, which have increased lone-parent and blended families as partners separate and form new unions; later marriage and smaller families, as couples have fewer children later in life. Other accepted examples: births outside marriage, cohabitation, or gender equality leading to dual-career couples.",
+    "prompt": "Name two social changes that have affected family structure and explain how each has done so.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Economic change: recession after 2008 brought unemployment, mortgage arrears and emigration, so families split or adult children remained at home, creating extended households. Rising housing and childcare costs make two incomes necessary, delaying or limiting family size. Women's paid work means many mothers work outside the home. Technological change: contraception and assisted human reproduction let couples choose the timing and size of their families. Household appliances reduced housework and freed parents for paid work. Mobile phones and video calls keep relatives in contact across borders, supporting transnational families. Remote working lets parents combine paid work with childcare at home. Social media brings new pressures, including cyberbullying. Assessment: economic pressures change the structure of families most directly, while technology mainly changes how family members manage their roles and stay in touch.",
+    "prompt": "Assess how economic and technological changes have affected family life and family structures in Ireland, giving examples.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-society-s5": {
+  "keyTerms": [
+   {
+    "definition": "The family's role in meeting the basic bodily needs of its members and protecting dependants.",
+    "term": "Physical function"
+   },
+   {
+    "definition": "The family's role in providing income and financial support for its dependants.",
+    "term": "Economic function"
+   },
+   {
+    "definition": "The family's role in giving love, security and a sense of belonging.",
+    "term": "Emotional function"
+   },
+   {
+    "definition": "The family's role in passing on skills, language, values and customs and preparing children for formal schooling.",
+    "term": "Educational function"
+   },
+   {
+    "definition": "The family's role in teaching children the norms and behaviour that allow them to live acceptably in society.",
+    "term": "Social function"
+   },
+   {
+    "definition": "The lifelong process by which a person learns the norms, values and behaviour of their society.",
+    "term": "Socialisation"
+   },
+   {
+    "definition": "A person who relies on another for financial support, such as a child or an older person who cannot work.",
+    "term": "Dependant"
+   },
+   {
+    "definition": "The unwritten lessons pupils learn at school, such as punctuality, respect for authority and how to behave with peers.",
+    "term": "Hidden curriculum"
+   },
+   {
+    "definition": "The biological production of children, which ensures the continuation of the population.",
+    "term": "Procreation"
+   },
+   {
+    "definition": "An accepted standard of behaviour within a society or group.",
+    "term": "Norm"
+   },
+   {
+    "definition": "A State scheme providing a free pre-school year for children before they start primary school.",
+    "term": "Early Childhood Care and Education"
+   },
+   {
+    "definition": "Food, warmth, shelter and clothing.",
+    "term": "Four basic needs the family meets for its members"
+   },
+   {
+    "definition": "Self-esteem; the ability to express feelings; healthy relationships.",
+    "term": "Three things children gain from emotional security at home"
+   },
+   {
+    "definition": "Praise and encouragement; a stimulating environment; passing on beliefs and customs.",
+    "term": "Three ways the family educates children informally"
+   },
+   {
+    "definition": "Child Benefit and the Working Family Payment.",
+    "term": "Two State payments that support family income"
+   },
+   {
+    "definition": "The Early Childhood Care and Education (ECCE) scheme.",
+    "term": "Pre-school scheme giving a free year before primary school"
+   },
+   {
+    "definition": "Five: physical, economic, emotional, educational and social.",
+    "term": "Number of categories used to classify family functions"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The physical function meets the basic bodily needs of family members and protects those who cannot protect themselves.",
+    "h": "Physical function",
+    "points": [
+     "The family provides food, warmth, shelter, clothing and rest for its members.",
+     "Procreation ensures the continuation of the population and gives children their first physical home.",
+     "The family protects dependants who are vulnerable, including young children, older people, the sick and people with disabilities.",
+     "Other social institutions supplement this function through local authority housing, GP and public health services, and school meals programmes.",
+     "The State supports the physical function through the medical card, housing supports, and home help services for older people."
+    ]
+   },
+   {
+    "b": "The economic function provides income and support for dependants, and links the family to the wider economy.",
+    "h": "Economic function",
+    "points": [
+     "Adults earn income to support dependants, meaning children, and older children in full-time education.",
+     "Family members pay taxes and spend on goods and services, which supports the wider economy.",
+     "Historically, the farm or family business was a single economic unit in which every member worked.",
+     "Credit unions, banks and insurers supplement the family's financial management by offering savings, loans and cover against loss.",
+     "The Money Advice and Budgeting Service (MABS) helps families manage debt and plan their budgets.",
+     "The State supports this function through social welfare payments, including Child Benefit, the One-Parent Family Payment, the Working Family Payment (formerly Family Income Supplement), and carer's and disability allowances."
+    ]
+   },
+   {
+    "b": "The emotional function gives family members love, security and a sense of belonging.",
+    "h": "Emotional function",
+    "points": [
+     "A secure home gives children the emotional base from which they develop self-esteem.",
+     "Family members learn to express feelings and to form healthy relationships through daily interaction.",
+     "Parents act as role models and support each other, which helps children develop emotionally.",
+     "Counselling in schools, youth services and bereavement support supplement the family when it cannot meet emotional needs.",
+     "The State supports this function through parenting programmes and family support services run by community and voluntary groups."
+    ]
+   },
+   {
+    "b": "The educational function passes on skills, language and values, and prepares children for formal schooling.",
+    "h": "Educational function",
+    "points": [
+     "The family is the primary educator, passing on beliefs, language, skills and customs through informal learning from birth.",
+     "Praise, encouragement and a stimulating home environment promote early intellectual development.",
+     "Parents support formal schooling through help with homework, reading together and educational outings.",
+     "Pre-school, primary and second-level schools, and third-level education, take over formal instruction as the child grows.",
+     "The State supports this function through the Early Childhood Care and Education (ECCE) scheme, free schooling, and special needs assistance in schools."
+    ]
+   },
+   {
+    "b": "The social function teaches children the norms, values and behaviour that allow them to live acceptably in society.",
+    "h": "Social function",
+    "points": [
+     "Through observation and imitation, children learn the norms, values and behaviour that society accepts.",
+     "Consistent discipline and fair boundaries help children develop self-control and respect for others.",
+     "Language, manners and social skills are learned at home before children enter school.",
+     "Schools reinforce socialisation through the hidden curriculum, and peer groups and youth organisations continue it.",
+     "When a family fails to socialise a child, the State can intervene, and the judicial system deals with individuals who do not conform."
+    ]
+   },
+   {
+    "h": "Classifying family activities (settings)",
+    "points": [
+     "Brainstorming: list each activity a family carries out in a week, then assign each one to a category.",
+     "Cooking a meal serves the physical function and also teaches table manners, which serves the social function.",
+     "Reading together serves the educational function and also the emotional function, by building closeness and confidence.",
+     "Paying bills and budgeting serve the economic function and teach children money management, which is part of the educational function."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "One function named, for example the economic function, and one or two State supports explained: Child Benefit as a regular payment that helps with the cost of raising children, and the Working Family Payment for low-paid working families. Any other accurate State support for the chosen function, such as ECCE for the educational function or parenting programmes for the emotional function, with an explanation of how it helps.",
+    "prompt": "Explain how the State assists the family with one of its functions.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Physical: the family provides food, warmth, shelter and clothing and protects dependants; supplemented by housing, GP and public health services and school meals. Economic: the family provides income and support for dependants and pays taxes that support the economy; supplemented by social welfare payments and MABS. Emotional: the family gives love, security and self-esteem; supplemented by counselling services and parenting programmes. Educational: the family is the primary educator, passing on skills and customs and supporting homework; supplemented by pre-school, schools and the ECCE scheme. Social: the family teaches norms, values and discipline through observation and imitation; supplemented by schools through the hidden curriculum, peer groups and, where the family fails, the judicial system. Conclusion of the answer: the family remains the core institution for every function, with other institutions sharing or taking over the functions when families cannot meet them.",
+    "prompt": "Discuss the functions of the family in society, explaining how other social institutions supplement or take over each function.",
     "type": "short"
    }
   ]
@@ -13664,6 +14995,726 @@
     "marks": 24,
     "model": "Freezing: method, meat boned, trimmed and wrapped in moisture-proof packaging, then blast frozen. Principle: low temperatures inhibit enzyme activity and microbial growth; moisture turns to ice, which is unavailable to micro-organisms. Effect on the meat: colour, texture and most nutrients retained; slight loss of B vitamins and minerals in drip; freezer burn if packaging fails; the meat keeps for months. Alternative accepted: curing, with method of brine or dry cure and holding in a cool room; principle of osmosis drawing water from micro-organisms and nitrite inhibiting spoilage bacteria; effect of a rise in sodium, firmer and drier texture and a pink colour.",
     "prompt": "Describe one process used to extend the shelf life of meat, referring to the method, the principle behind it and its effect on the meat.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-personal-finance-s1": {
+  "keyTerms": [
+   {
+    "definition": "Income earned before any deductions are made.",
+    "term": "Gross income"
+   },
+   {
+    "definition": "Take-home pay: gross income after compulsory and voluntary deductions have been made.",
+    "term": "Net income"
+   },
+   {
+    "definition": "Pay As You Earn, the income tax deducted from wages by the employer and paid to the State.",
+    "term": "PAYE"
+   },
+   {
+    "definition": "Pay Related Social Insurance, a compulsory percentage of pay shared by employer and employee to fund social insurance benefits.",
+    "term": "PRSI"
+   },
+   {
+    "definition": "Universal Social Charge, a compulsory charge on gross income that rises with income.",
+    "term": "USC"
+   },
+   {
+    "definition": "An amount deducted from the income tax a person owes, which reduces the tax paid.",
+    "term": "Tax credit"
+   },
+   {
+    "definition": "A State payment available to people who have made the minimum PRSI contributions, and not dependent on means.",
+    "term": "Social insurance payment"
+   },
+   {
+    "definition": "A means-tested State payment for people whose PRSI contributions are insufficient for social insurance payments.",
+    "term": "Social assistance payment"
+   },
+   {
+    "definition": "An assessment of a claimant's income against a set limit to decide whether a payment is made and how much.",
+    "term": "Means test"
+   },
+   {
+    "definition": "Wages, salaries, pensions, and social welfare allowances and benefits.",
+    "term": "Four sources of household income"
+   },
+   {
+    "definition": "PAYE, PRSI and USC.",
+    "term": "Three compulsory deductions from gross pay"
+   },
+   {
+    "definition": "Age, gender and social class.",
+    "term": "Three social factors that affect household income"
+   },
+   {
+    "definition": "The contributory pension, based on PRSI contributions and not means tested, and the non-contributory pension, which is means-tested social assistance.",
+    "term": "Two types of State old age pension"
+   },
+   {
+    "definition": "Social insurance is based on PRSI contributions and is not means tested; social assistance is means tested and for people with insufficient PRSI contributions.",
+    "term": "Social insurance versus social assistance"
+   },
+   {
+    "definition": "Child Benefit, paid for each qualifying child and not means tested.",
+    "term": "Universal payment for children"
+   },
+   {
+    "definition": "Employees on low pay who have children; it is means tested.",
+    "term": "Working Family Payment: who it helps"
+   },
+   {
+    "definition": "It is means tested, and it can be paid temporarily to people awaiting another benefit.",
+    "term": "Two features of Supplementary Welfare Allowance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A household shares income, spending and saving decisions, and it is the basic financial unit of the economy.",
+    "h": "The household as a financial unit",
+    "points": [
+     "Households spend on goods and services, which supports the jobs and businesses that supply them.",
+     "Households pay taxes, which fund public services and State welfare payments.",
+     "Households buy property, and property purchases generate stamp duty for the State.",
+     "Families teach children money management, and children grow up to form the future workforce.",
+     "Families usually run their finances independently but may need State aid when income falls short of need."
+    ]
+   },
+   {
+    "h": "Sources of household income",
+    "points": [
+     "Wages: payment for hours worked or output, usually paid weekly or fortnightly, often for manual or hourly work.",
+     "Salaries: a fixed annual amount paid in regular instalments, usually for non-manual or professional work.",
+     "Pensions: income from a former employer's scheme or a personal pension fund after retirement.",
+     "Social welfare allowances and benefits: payments made by the State to people who are unemployed, ill, caring, retired or raising children."
+    ]
+   },
+   {
+    "h": "Social factors that affect household income",
+    "points": [
+     "Age: income tends to rise with experience and promotion, then falls at retirement unless a pension has been arranged.",
+     "Age: teenagers can earn part-time income that eases the financial strain on the family.",
+     "Gender: equal-pay law requires equal pay for the same work, but men still hold more senior management posts in many sectors.",
+     "Social class: low qualifications or early school leaving can lead to low pay or unemployment, while higher education widens access to better-paid work.",
+     "Culture: cultural norms shape whether women take paid work and which spending priorities a household sets.",
+     "Employment pattern: the number of family members in paid work, and whether hours are full-time, part-time, job-sharing, flexible or seasonal, all change household income.",
+     "Disability or addiction: can reduce earning capacity and raise household costs."
+    ]
+   },
+   {
+    "h": "Gross and net income",
+    "points": [
+     "Gross income is income earned before any deductions are made.",
+     "Net income is take-home pay: gross income after deductions have been made.",
+     "Compulsory deductions from gross pay are PAYE, PRSI and USC.",
+     "Voluntary deductions include union subscriptions, pension contributions, additional voluntary contributions (AVCs), health insurance, savings, social club fees and holiday fund payments.",
+     "Budgets are planned from net income, because net income is the money a household actually has to spend and save."
+    ]
+   },
+   {
+    "h": "PAYE, PRSI and USC",
+    "points": [
+     "PAYE (Pay As You Earn) is income tax deducted by the employer from each pay, based on the employee's earnings.",
+     "PRSI (Pay Related Social Insurance) is a compulsory percentage of pay, shared by employer and employee, that funds social insurance benefits.",
+     "Employees earning below a set threshold are exempt from paying employee PRSI.",
+     "USC (Universal Social Charge) is a compulsory charge on gross income, calculated as a percentage that rises with income.",
+     "Employees with gross income below a set threshold are exempt from paying USC."
+    ]
+   },
+   {
+    "h": "Tax credits",
+    "points": [
+     "A tax credit reduces the amount of income tax a person has to pay.",
+     "Income tax is worked out on gross income first, and the person's tax credits are then deducted from it.",
+     "Employees are notified each year of their tax credits and of their standard rate cut-off point."
+    ]
+   },
+   {
+    "h": "Social insurance and social assistance payments",
+    "points": [
+     "Social insurance payments are paid to people who have made the minimum PRSI contributions, and they are not means tested.",
+     "Examples of social insurance payments: Jobseeker's Benefit, Illness Benefit and the contributory State pension.",
+     "Social assistance payments are for people whose PRSI contributions are insufficient to qualify for social insurance payments, and they are means tested.",
+     "Examples of social assistance payments: Jobseeker's Allowance and Carer's Allowance.",
+     "A means test compares the claimant's income with a set limit, and the payment reduces or stops as income rises above it."
+    ]
+   },
+   {
+    "h": "Named welfare payments",
+    "points": [
+     "Child Benefit: a universal payment for each qualifying child, not means tested.",
+     "Working Family Payment: paid to employees on low pay who have children, and means tested.",
+     "Supplementary Welfare Allowance: means tested, and paid to people whose means cannot meet their own needs or those of their dependants.",
+     "Supplementary Welfare Allowance can also be a temporary payment for people awaiting another benefit.",
+     "Maternity benefit: a social insurance payment for employees on maternity leave."
+    ]
+   },
+   {
+    "h": "State pensions",
+    "points": [
+     "The contributory State old age pension is based on the claimant's record of PRSI contributions.",
+     "The contributory pension is not means tested, so other income does not normally remove entitlement to it.",
+     "The non-contributory old age pension is means-tested social assistance for an older person who lacks enough PRSI contributions.",
+     "Eligibility for the non-contributory pension depends on means and on habitual residence in the State."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Gross income is income earned before any deductions are made. Net income is take-home pay, the amount left after deductions have been made. Two compulsory deductions: PAYE, which is income tax deducted by the employer; PRSI, which is pay-related social insurance paid by employer and employee to fund social welfare benefits. USC, the universal social charge on gross income, is also acceptable.",
+    "prompt": "Explain the difference between gross income and net income, and name two compulsory deductions made from gross pay.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Age: income rises with experience and promotion and falls at retirement unless a pension is in place; teenagers may earn part-time income. Gender: equal-pay law applies, but senior management can remain male-dominated. Social class: low qualifications or early school leaving limit pay and job options, while higher education widens them. Culture: shapes whether women take paid work and what the household prioritises. Employment pattern: number of family members working, full-time, part-time, job-sharing, flexible or seasonal hours. Disability or addiction: reduces earning capacity and raises costs. Social insurance payments: based on the minimum PRSI contributions, not means tested; example Jobseeker's Benefit or Illness Benefit. Social assistance payments: for people with insufficient PRSI contributions, means tested; example Jobseeker's Allowance or Carer's Allowance.",
+    "prompt": "Analyse the factors that affect household income, and explain the difference between social insurance payments and social assistance payments, giving one named example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-personal-finance-s2": {
+  "keyTerms": [
+   {
+    "definition": "Spending on necessities such as housing, utilities, food, clothing, transport and medical bills.",
+    "term": "Essential expenditure"
+   },
+   {
+    "definition": "Spending on non-essentials, made only after essential expenditure and savings have been provided for.",
+    "term": "Discretionary expenditure"
+   },
+   {
+    "definition": "Essential costs that stay the same each week or month, such as rent or a mortgage repayment.",
+    "term": "Fixed expenditure"
+   },
+   {
+    "definition": "Essential costs that vary in amount or timing, such as clothing or school expenses.",
+    "term": "Irregular expenditure"
+   },
+   {
+    "definition": "A plan that matches planned income to planned spending over a set period.",
+    "term": "Budget"
+   },
+   {
+    "definition": "The stage a household has reached, such as young children, older children or retirement, which changes its spending priorities.",
+    "term": "Life-cycle stage"
+   },
+   {
+    "definition": "Savings set aside to cover unexpected costs such as job loss or an urgent repair.",
+    "term": "Emergency fund"
+   },
+   {
+    "definition": "The Money Advice and Budgeting Service, a free and independent Irish service that helps households with debt and budgeting.",
+    "term": "MABS"
+   },
+   {
+    "definition": "Socio-economic class, urban or rural location, gender of the earner, family size and life-cycle stage.",
+    "term": "Five factors that affect spending patterns"
+   },
+   {
+    "definition": "Rent or mortgage repayments, insurance premiums and telephone bills.",
+    "term": "Three examples of fixed essential costs"
+   },
+   {
+    "definition": "Clothing, doctor's bills and school expenses.",
+    "term": "Three examples of irregular essential costs"
+   },
+   {
+    "definition": "Plan essential needs first; allow for short-term and long-term savings; keep receipts and records; review the budget regularly and change it when circumstances change.",
+    "term": "Four guidelines for drawing up a budget"
+   },
+   {
+    "definition": "Debt advice; budgeting and repayment schedules; negotiation with lenders; income maximisation.",
+    "term": "Four services MABS offers"
+   },
+   {
+    "definition": "Financial security; avoids overspending and impulse buying; reduces reliance on credit; reduces stress.",
+    "term": "Four benefits of budgeting"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The level of income sets how much a household can spend, save and borrow, and spending must match income to avoid debt.",
+    "h": "Patterns of household expenditure",
+    "points": [
+     "Low-income households spend a larger share of income on food and have less left for discretionary spending.",
+     "Higher-income households have more discretionary income, so spending on leisure and holidays takes a larger share of their budget.",
+     "Family size and life-cycle stage change priorities: young children add costs for food, clothing and schooling, while older children can help decide and manage spending.",
+     "Urban and rural location change patterns, for example through transport costs and housing costs.",
+     "Socio-economic class and the gender of the earner also alter patterns of spending.",
+     "Employment affects money, travel time and cost, and meal and sleep patterns, especially under shift work."
+    ]
+   },
+   {
+    "h": "Essential and discretionary expenditure",
+    "points": [
+     "Essential expenditure is spending on necessities such as housing, utilities, food, clothing, transport, insurance and medical bills.",
+     "Discretionary expenditure is spending on non-essentials, made only after essential expenditure and savings have been provided for.",
+     "Examples of discretionary expenditure: holidays, entertainment, alcohol, cosmetics, leisure and gym membership, and streaming services.",
+     "Fixed essential costs stay the same each week or month, such as rent or a mortgage repayment, insurance and telephone bills.",
+     "Irregular essential costs vary in amount or timing, such as clothing, doctor's bills and school expenses."
+    ]
+   },
+   {
+    "h": "Planning a personal or family budget",
+    "points": [
+     "Step 1: list all income, using net (take-home) income.",
+     "Step 2: list planned fixed, irregular and discretionary expenditure for each week or month.",
+     "Step 3: plan essential needs first, such as rent or mortgage and household bills, before any discretionary spending.",
+     "Step 4: allocate money for short-term and long-term savings, and for emergencies.",
+     "Step 5: allow for personal spending and special occasions such as Christmas and holidays.",
+     "Step 6: keep bills and receipts, and record one month of spending to find where overspending occurs.",
+     "Step 7: review the budget regularly, and change it when family circumstances or income change."
+    ]
+   },
+   {
+    "h": "Why budgeting matters",
+    "points": [
+     "Budgeting builds money-management skills that transfer to independent living.",
+     "Budgeting identifies overspending and impulse buying before they lead to debt.",
+     "Budgeting reduces reliance on credit and supports a good credit record.",
+     "A budget gives financial security and reduces the worry and stress caused by unpaid bills.",
+     "A budget that allows some saving can cover unexpected events, such as job loss or an urgent repair."
+    ]
+   },
+   {
+    "b": "Sample data: a family of two adults and two children with a combined net income of 900 euro a week.",
+    "h": "Sample budget plan (sample data)",
+    "points": [
+     "Housing, the largest essential cost, is allocated about a quarter of income: 225 euro.",
+     "Food is allocated about a quarter of income: 225 euro.",
+     "Household bills are allocated about 15 per cent of income: 135 euro; education about 10 per cent: 90 euro.",
+     "Clothing, leisure, savings, health and discretionary spending are each allocated about 5 per cent: 45 euro each.",
+     "The plan allocates the full net income, so no money is left unplanned; it is reviewed each month.",
+     "The percentages are a planning guide, not a rule, and should be adjusted to the family's actual fixed costs."
+    ]
+   },
+   {
+    "h": "Money Advice and Budgeting Service (MABS)",
+    "points": [
+     "MABS is a free, independent service that helps households with debt, budgeting and money-management skills.",
+     "MABS helps families draw up realistic budgets and repayment schedules.",
+     "MABS negotiates with lenders on behalf of households in debt.",
+     "MABS supports mortgage-debt resolution, personal insolvency and income maximisation, such as checking entitlement to State supports.",
+     "MABS advises on financial products and interest rates, and on cheaper sources of credit such as credit unions."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Fixed essential expenditure: necessary costs that stay the same each week or month, for example rent or a mortgage repayment, an insurance premium or a telephone bill. Irregular essential expenditure: necessary costs that vary in amount or timing, for example clothing, a doctor's bill or school expenses. One example given for each type.",
+    "prompt": "Explain what is meant by fixed essential expenditure and irregular essential expenditure, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Steps: list all net income; list planned fixed, irregular and discretionary expenditure; plan essentials first (housing, food, household bills); allocate savings for the short and long term and for emergencies; allow for personal spending and special occasions; keep bills and receipts and record a month of spending to find overspending. Review: check the budget regularly against actual spending and change it when income or family circumstances change. Reasons: budgeting reduces reliance on credit and reduces stress. MABS: a free, independent service that helps with debt, budgeting and repayment schedules, negotiates with lenders, supports mortgage-debt resolution and personal insolvency, and maximises income.",
+    "prompt": "A family of two adults and two children has a fixed net income each month. Describe the steps the family should take to draw up a budget that avoids debt, and explain how the budget should be reviewed. Refer to the role of MABS for a family that is already in debt.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-personal-finance-s3": {
+  "keyTerms": [
+   {
+    "definition": "Goods or services obtained now with payment deferred, usually with interest or charges applied.",
+    "term": "Credit"
+   },
+   {
+    "definition": "An agreement to hire goods and pay for them in instalments, with ownership passing to the buyer only after the final payment.",
+    "term": "Hire purchase"
+   },
+   {
+    "definition": "The yearly cost of credit expressed as a percentage, including charges, used to compare credit offers.",
+    "term": "Annual percentage rate (APR)"
+   },
+   {
+    "definition": "The price of goods paid for in full at the time of purchase.",
+    "term": "Cash price"
+   },
+   {
+    "definition": "The total amount repayable under a credit agreement minus the cash price.",
+    "term": "Cost of credit"
+   },
+   {
+    "definition": "A card that takes payment directly from the holder's bank account.",
+    "term": "Debit card"
+   },
+   {
+    "definition": "A card that lets the holder buy now and pay later, subject to a credit limit and interest on any unpaid balance.",
+    "term": "Credit card"
+   },
+   {
+    "definition": "A payment authorised by the account holder that lets a company take a set amount from the account on a regular date.",
+    "term": "Direct debit"
+   },
+   {
+    "definition": "A regular fixed payment made by the bank on the account holder's instruction.",
+    "term": "Standing order"
+   },
+   {
+    "definition": "An agreed facility that allows the account balance to go below zero up to an agreed limit.",
+    "term": "Overdraft"
+   },
+   {
+    "definition": "Irish legislation, as amended, that protects consumers who buy on credit, including hire purchase.",
+    "term": "Consumer Credit Act 1995"
+   },
+   {
+    "definition": "The APR; the total cash price; the cost of credit; the number and amount of instalments; the date of each instalment.",
+    "term": "Five items a credit advertisement must show"
+   },
+   {
+    "definition": "The buyer does not own the goods until the final payment; interest can make the total cost high; missed payments can lead to repossession.",
+    "term": "Three disadvantages of hire purchase"
+   },
+   {
+    "definition": "Cost, security, convenience and availability.",
+    "term": "Four criteria for choosing a payment method"
+   },
+   {
+    "definition": "Credit card, store card and hire purchase.",
+    "term": "Three types of credit for household goods"
+   },
+   {
+    "definition": "It is fast and convenient, and the buyer can see exactly what has been spent.",
+    "term": "Two advantages of paying by cash"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Methods of payment for goods and services",
+    "points": [
+     "Cash: immediate payment in notes and coins; it is fast and shows exactly what has been spent, but carrying large amounts is unsafe.",
+     "Cheque: a written order to the bank to pay a sum to a named person; it requires a bank account and takes time to clear.",
+     "Credit card: goods are bought now and paid for later; a minimum monthly payment is required, and interest applies to any balance not cleared.",
+     "Debit card (laser card): the amount is taken from the bank account immediately, and the card can be used for cashback and ATM withdrawals.",
+     "Direct debit: the account holder authorises a company or utility to take a set amount from the account on a regular date.",
+     "Standing order: the account holder instructs the bank to make a fixed payment at regular intervals to a named payee.",
+     "Online banking: payments and transfers made from a bank account through a computer or phone."
+    ]
+   },
+   {
+    "h": "Criteria for choosing a payment method",
+    "points": [
+     "Cost: whether the method charges fees or interest.",
+     "Security: the risk of loss or theft, and whether the method leaves a record of the payment.",
+     "Convenience: speed of payment, the ability to pay at a distance or online, and ease of budgeting.",
+     "Availability: whether the retailer or service provider accepts the method, and whether the buyer holds the card or account needed.",
+     "Control: whether the buyer can see and limit spending, which is easier with cash or a debit card than with credit.",
+     "Size of purchase: cash suits small everyday purchases, while credit or instalment methods suit large, expensive items the household cannot pay for at once."
+    ]
+   },
+   {
+    "h": "Types of credit for household purchases",
+    "points": [
+     "Credit card: a revolving credit facility with a credit limit; it can offer an interest-free period if the full balance is paid on time.",
+     "Charge card: the full balance is due each month, and no interest is charged on it.",
+     "Store card: credit offered by a retailer, usable for purchases in that shop.",
+     "Overdraft: the bank allows the account balance to go below zero up to an agreed limit, with interest charged on the amount overdrawn.",
+     "Personal or term loan: a fixed sum borrowed and repaid in instalments over a set period.",
+     "Credit union loan: members can borrow from the credit union, usually after building up a savings record."
+    ]
+   },
+   {
+    "h": "Hire purchase",
+    "points": [
+     "Hire purchase combines hiring and buying: the buyer pays a deposit and then instalments over an agreed period.",
+     "The goods belong to the finance company until the final payment is made, and ownership passes to the buyer only then.",
+     "Once more than one-third of the total price has been paid, the finance company needs a court order to repossess the goods.",
+     "Advantage: the goods can be used immediately and the cost is spread across instalments.",
+     "Disadvantages: interest can make the total cost much higher than the cash price, and missed payments can lead to repossession."
+    ]
+   },
+   {
+    "h": "Cost of credit",
+    "points": [
+     "Total cash price: the price of goods if they are paid for in full at the time of purchase.",
+     "Cost of credit: the total amount repayable under the credit agreement minus the cash price.",
+     "Annual percentage rate (APR): the yearly cost of borrowing, as a percentage, including charges; it allows different credit offers to be compared.",
+     "To compare cash and credit, a buyer works out the cost of credit and decides whether the immediate use of the goods is worth that extra cost."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of using credit",
+    "points": [
+     "Advantages: goods are available immediately, and large purchases become affordable.",
+     "Advantages: credit can cover urgent costs, such as an emergency repair, and avoids the need to carry large amounts of cash.",
+     "Advantages: loan repayments are fixed over a set period, so the cost is predictable.",
+     "Disadvantages: high interest is charged if the credit balance is not repaid in full.",
+     "Disadvantages: credit makes overspending and impulse buying easier, and several credit agreements at once increase the risk of debt."
+    ]
+   },
+   {
+    "h": "Consumer Credit Act 1995 (as amended)",
+    "points": [
+     "The Consumer Credit Act 1995 (as amended) protects consumers who buy on credit, including through hire purchase and other credit agreements.",
+     "A credit agreement must be in writing and must set out the cost of the credit and the terms of repayment.",
+     "Advertisements for credit must state the APR, the total cash price, the cost of credit, the number and amount of instalments, and the date of each instalment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The buyer pays a deposit, then equal instalments over an agreed period. The buyer can use the machine immediately, but the finance company owns it until the final payment. Risk: if repayments are missed, the goods may be repossessed; alternatively, interest makes the total cost higher than the cash price.",
+    "prompt": "Describe how a hire-purchase agreement works for a household buying a washing machine, and state one risk the buyer faces.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Factors: cost (fees and interest), security (risk of loss and a payment record), convenience, availability (whether the retailer accepts the method), control over spending, and the size of the purchase. Advantages of credit: immediate use of goods, spreading of costs, fixed repayments, interest-free period on a credit card if paid on time. Disadvantages: high interest if not cleared, overspending, too many agreements, repossession under hire purchase, and not owning hire-purchase goods until the final payment. Consumer Credit Act 1995 (as amended): credit agreements must be in writing and set out the cost and repayment terms; advertisements must show the APR, total cash price, cost of credit and instalment details, so buyers can compare offers.",
+    "prompt": "Discuss the factors a household should weigh when choosing a method of payment for a major household purchase, and assess the advantages and disadvantages of using credit to buy it. Refer to the protection given by the Consumer Credit Act 1995.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-personal-finance-s4": {
+  "keyTerms": [
+   {
+    "definition": "A bank or credit union account from which money can be withdrawn on demand, usually with low interest.",
+    "term": "Demand deposit account"
+   },
+   {
+    "definition": "A deposit account that requires a set period of notice before money can be withdrawn.",
+    "term": "Notice account"
+   },
+   {
+    "definition": "Money locked away for an agreed fixed period at a fixed rate, with interest lost or reduced on early withdrawal.",
+    "term": "Term deposit"
+   },
+   {
+    "definition": "A fixed-term Post Office savings product with interest higher than a deposit account, reduced if cashed in early.",
+    "term": "Savings certificate"
+   },
+   {
+    "definition": "A savings account in a member-owned credit union, on which an annual dividend is paid.",
+    "term": "Credit union share account"
+   },
+   {
+    "definition": "The yearly interest rate including the effect of compounding, used to compare savings schemes.",
+    "term": "Annual equivalent rate (AER)"
+   },
+   {
+    "definition": "A tax deducted from interest on most bank and credit union deposit accounts before the interest is paid.",
+    "term": "Deposit Interest Retention Tax (DIRT)"
+   },
+   {
+    "definition": "Earning interest on both the original sum saved and the interest already added to it.",
+    "term": "Compounding"
+   },
+   {
+    "definition": "Reduces financial worry; provides for emergencies; avoids loans and credit; can earn interest.",
+    "term": "Four benefits of regular saving"
+   },
+   {
+    "definition": "Security, interest, access and tax.",
+    "term": "Four factors to weigh when choosing a savings scheme"
+   },
+   {
+    "definition": "Demand deposit, notice and term deposit accounts.",
+    "term": "Three types of bank saving account"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Reasons for saving",
+    "points": [
+     "Saving reduces financial worry and gives the household security against unexpected costs.",
+     "A savings fund covers emergencies, such as job loss or an urgent repair, so the household does not have to borrow.",
+     "Regular saving allows the household to plan for expensive items or events, such as a holiday or a car.",
+     "Saving avoids the need for loans and credit agreements, and so avoids the interest charged on them.",
+     "Money held in a suitable scheme earns interest and grows over time.",
+     "Saving sets a good example for children and builds a sound financial reputation for the family."
+    ]
+   },
+   {
+    "h": "Bank and building society accounts",
+    "points": [
+     "Demand deposit account: money can be withdrawn on demand, so it suits short-term saving and an emergency fund.",
+     "Notice account: withdrawals require a set period of notice, and the interest paid is usually higher than on a demand deposit account.",
+     "Term deposit: money is locked away for an agreed period at a fixed rate, and early withdrawal usually reduces or loses the interest.",
+     "Regular saver account: a monthly deposit is made into an account that pays a higher rate in return for regular saving."
+    ]
+   },
+   {
+    "h": "Post Office savings products",
+    "points": [
+     "Instalment saving scheme: a fixed amount is saved each month for an initial period, and the money is then left to earn interest for a further period.",
+     "Savings certificates: a fixed-term product paying interest higher than an ordinary deposit account, with interest reduced if the certificate is cashed in early.",
+     "Savings bonds: a fixed-term product that pays interest at set intervals, with early withdrawal reducing or removing the interest earned."
+    ]
+   },
+   {
+    "h": "Credit union savings",
+    "points": [
+     "A credit union is a member-owned, non-profit cooperative, and its share and saver accounts are run for its members.",
+     "Members can usually save small amounts regularly, and the credit union pays an annual dividend on savings.",
+     "Members with a savings record find it easier to qualify for a credit union loan."
+    ]
+   },
+   {
+    "h": "Choosing a savings scheme",
+    "points": [
+     "Security: whether the savings are protected by a State or deposit guarantee, and how stable the institution is.",
+     "Interest: the rate paid, and the annual equivalent rate (AER), which shows the yearly return including the effect of compounding.",
+     "Compounding: interest is paid on earlier interest, so a longer-term deposit grows faster than the simple rate suggests.",
+     "Access: how quickly money can be withdrawn, and whether notice periods or penalties apply.",
+     "Tax: whether the interest is tax free, or subject to Deposit Interest Retention Tax (DIRT), which is deducted from interest on most bank and credit union deposits.",
+     "Purpose: short-term access for emergencies, and longer-term schemes for planned spending."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A named scheme such as a demand deposit account or a notice account. Access: a demand deposit account allows withdrawal on demand, so the money is available when the holiday is booked; a notice account needs notice to be given before money can be withdrawn. The scheme earns interest on the savings while they build up. A term deposit would lock the money away and reduce access.",
+    "prompt": "Name one savings scheme suited to a family saving for a holiday within the next year, and explain how it meets the family's need for access to money.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Security: each is a secure place to save, with protection of deposits depending on the institution and any State guarantee. Interest: the savings certificate pays more than an ordinary deposit account but is reduced if cashed in early; the credit union pays a dividend on savings; the bank account pays interest that depends on the account type. Access: the bank demand deposit and the credit union account allow withdrawal, while the certificate is locked for a term. Tax: interest on bank and credit union deposits is subject to DIRT, while savings certificate interest is tax free. A demand deposit or credit union account suits an emergency fund because the money can be reached quickly.",
+    "prompt": "Compare a bank deposit account, a Post Office savings certificate and a credit union share account as savings schemes for a family, using security, interest, access and tax. Explain which of them would suit a family building an emergency fund.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-personal-finance-s5": {
+  "keyTerms": [
+   {
+    "definition": "The sum paid annually or in instalments to the insurance company to keep a policy in force.",
+    "term": "Insurance premium"
+   },
+   {
+    "definition": "The written details of the terms and conditions of the insurance cover.",
+    "term": "Insurance policy"
+   },
+   {
+    "definition": "An agent who advises the consumer on insurance and arranges cover with insurers.",
+    "term": "Broker"
+   },
+   {
+    "definition": "Life assurance that covers a set period and pays only if death occurs within it.",
+    "term": "Term assurance"
+   },
+   {
+    "definition": "Life assurance that lasts for the insured person's lifetime, provided premiums are paid, and pays an agreed sum on death.",
+    "term": "Whole-of-life assurance"
+   },
+   {
+    "definition": "Life assurance that pays a sum at the end of a set term or on earlier death, combining cover with saving.",
+    "term": "Endowment assurance"
+   },
+   {
+    "definition": "Term assurance taken out with a mortgage, which clears the outstanding debt if the insured dies during the mortgage term.",
+    "term": "Mortgage protection policy"
+   },
+   {
+    "definition": "Voluntary cover that pays for private hospital and consultant costs within the policy terms.",
+    "term": "Private health insurance"
+   },
+   {
+    "definition": "Cover for the structure of a home against damage such as fire, storm and flood.",
+    "term": "Buildings insurance"
+   },
+   {
+    "definition": "Term assurance, whole-of-life assurance and endowment assurance.",
+    "term": "Three types of life assurance"
+   },
+   {
+    "definition": "Choice of private or semi-private accommodation; help with consultant fees; shorter waiting times; access to outpatient clinics.",
+    "term": "Four advantages of private health insurance"
+   },
+   {
+    "definition": "Buildings, contents and car insurance.",
+    "term": "Three types of household insurance"
+   },
+   {
+    "definition": "Third-party insurance, required before the car is driven on public roads.",
+    "term": "Cover the law requires for a car"
+   },
+   {
+    "definition": "Financial security for dependants after a premature death; peace of mind.",
+    "term": "Two benefits of life assurance"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Insurance and risk",
+    "points": [
+     "Insurance spreads the financial risk of an event, such as death, illness, fire or theft, across many people who each pay a premium.",
+     "The insured pays a premium to the insurer, and the insurer pays a stated sum when the insured event occurs.",
+     "Cover applies only to the events named in the policy.",
+     "Insurance protects a household against a large, unexpected cost that it could not otherwise meet."
+    ]
+   },
+   {
+    "h": "Key insurance terms",
+    "points": [
+     "Premium: the sum paid annually or in instalments to the insurance company to keep a policy in force.",
+     "Policy: the written document setting out the terms and conditions of the cover.",
+     "Broker: an agent who advises the consumer on insurance and arranges cover with insurance companies.",
+     "Insurer: the insurance company that accepts the risk and pays claims."
+    ]
+   },
+   {
+    "h": "Pay-related social insurance (PRSI) benefits",
+    "points": [
+     "PRSI is the State's social insurance scheme; entitlement to its benefits depends on a record of contributions, not on means.",
+     "PRSI is a compulsory scheme set by law, not a private policy chosen by the individual.",
+     "PRSI-linked payments include Jobseeker's Benefit, Illness Benefit, maternity benefit, Carer's Benefit and the contributory State pension."
+    ]
+   },
+   {
+    "h": "Health insurance",
+    "points": [
+     "Private health insurance pays for hospital and consultant costs within the terms of the policy.",
+     "Advantages: choice of private or semi-private hospital accommodation, help with consultant fees, and shorter waiting times for some treatment.",
+     "Cover can include access to outpatient clinics and convalescence after treatment.",
+     "Premiums may qualify for tax relief, which reduces the cost of cover.",
+     "Health insurance is voluntary private cover, held alongside the public health system."
+    ]
+   },
+   {
+    "h": "Household insurance",
+    "points": [
+     "Buildings insurance covers the structure of the home against damage such as fire, storm and flood; mortgage lenders usually require it.",
+     "Contents insurance covers furniture, appliances and personal belongings against loss or damage.",
+     "Buildings and contents cover can be combined in one household policy.",
+     "Car insurance: third-party cover is required by law before a car is driven on public roads.",
+     "Travel insurance covers medical costs, cancelled trips and lost luggage abroad.",
+     "Mobile phone insurance covers loss, theft or damage to a phone."
+    ]
+   },
+   {
+    "h": "Life assurance",
+    "points": [
+     "Life assurance pays a lump sum to the insured person's family or beneficiary on death, either during the policy term or after it, depending on the type.",
+     "Term assurance covers a set period and pays only if death occurs within that period; it is generally the cheapest type.",
+     "Whole-of-life assurance lasts for life, as long as premiums are paid, and pays an agreed sum on death.",
+     "Endowment assurance pays a sum at the end of a set term or on earlier death, combining cover with saving.",
+     "A mortgage protection policy is term assurance taken out with a mortgage; if the insured dies before the mortgage is repaid, the debt is cleared.",
+     "Convertible term assurance can be converted into a longer-term policy during the term.",
+     "Benefits of life assurance: financial security for dependants after a premature death, peace of mind, and some policies can be cashed in or act as savings."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Premium: the sum paid annually or in instalments to the insurance company to keep the policy in force. Difference: term assurance covers a set period and pays only if death occurs within that period; whole-of-life assurance lasts for life, as long as premiums are paid, and pays an agreed sum on death.",
+    "prompt": "Explain the term premium, and describe one difference between term assurance and whole-of-life assurance.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Household insurance: buildings cover protects the structure of the home, usually required by mortgage lenders; contents cover protects furniture and belongings; car insurance is required by law. Health insurance: private cover for hospital and consultant costs, with choice of accommodation and shorter waiting times. Insurance protects against a large unexpected cost. Premium: the sum paid to keep cover in force. Policy: the written terms and conditions, which set out what is covered. Broker: an agent who advises on the cover needed and arranges it with insurers, comparing terms for the family.",
+    "prompt": "Discuss why a family should consider buying household insurance and health insurance, and explain the role of a broker in choosing cover. Refer to the difference between a policy and a premium.",
     "type": "short"
    }
   ]
