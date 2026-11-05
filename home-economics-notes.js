@@ -6219,6 +6219,1046 @@
    }
   ]
  },
+ "hom-food-additives-s1": {
+  "keyTerms": [
+   {
+    "definition": "Any food changed from its raw state by one or more processes, such as milling, heating, freezing or adding ingredients.",
+    "term": "Processed food"
+   },
+   {
+    "definition": "Processing that involves many stages and ingredients, so the final product is far removed from its raw material.",
+    "term": "Extensive processing"
+   },
+   {
+    "definition": "Heating milk to a set temperature for a set time to destroy pathogens and most spoilage organisms, then cooling it rapidly.",
+    "term": "Pasteurisation"
+   },
+   {
+    "definition": "Ultra-high temperature heat treatment for a few seconds, followed by aseptic packaging, which gives milk a long shelf life until opened.",
+    "term": "UHT treatment"
+   },
+   {
+    "definition": "A product made by processing a raw material so that it has greater economic value or better suits consumer needs.",
+    "term": "Added-value food"
+   },
+   {
+    "definition": "Food that is cooked, rapidly chilled, kept refrigerated and reheated thoroughly before serving.",
+    "term": "Cook-chill food"
+   },
+   {
+    "definition": "A food that gives health benefits beyond its basic nutritional value because of an added or naturally present ingredient.",
+    "term": "Functional food"
+   },
+   {
+    "definition": "A live micro-organism that, when eaten in sufficient amounts, benefits the digestive system.",
+    "term": "Probiotic"
+   },
+   {
+    "definition": "Adding nutrients to food so that their level is higher than the level naturally present.",
+    "term": "Fortification"
+   },
+   {
+    "definition": "An industrial formulation made largely from refined ingredients and additives, with little or no whole food.",
+    "term": "Ultra-processed food"
+   },
+   {
+    "definition": "Forcing milk under pressure through small openings so that fat globules are broken up and stay evenly dispersed.",
+    "term": "Homogenisation"
+   },
+   {
+    "definition": "Altering the DNA of an organism to change a characteristic such as size, ripening speed or disease resistance.",
+    "term": "Genetic modification"
+   },
+   {
+    "definition": "To extend shelf life, make food safe to eat, cut down on waste, and provide a wide choice of good-quality food all year round.",
+    "term": "Four reasons food is processed"
+   },
+   {
+    "definition": "Food undergoing extensive processing; food processed to extend shelf life; added-value food.",
+    "term": "Three processed-food profiles"
+   },
+   {
+    "definition": "To replace nutrients lost in processing, and to address public health needs such as folic acid for pregnant women.",
+    "term": "Two aims of fortification"
+   },
+   {
+    "definition": "They ferment lactose to lactic acid; the falling pH coagulates the casein, giving yoghurt its sour flavour and thick texture.",
+    "term": "Effect of lactic acid bacteria on yoghurt"
+   },
+   {
+    "definition": "It coagulates milk into curds and whey.",
+    "term": "Role of rennet in cheese making"
+   },
+   {
+    "definition": "Reduced blood cholesterol from plant sterols; improved digestion from probiotics; reduced risk of neural tube defects from folic acid.",
+    "term": "Three health benefits of functional foods"
+   },
+   {
+    "definition": "It is heated to a very high temperature for a few seconds and sealed in aseptic packaging, so it keeps at room temperature until opened.",
+    "term": "Two features of UHT milk"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Processing changes a raw food into a product that is safer, longer-lasting, more convenient or more valuable.",
+    "h": "Why food is processed",
+    "points": [
+     "Main reasons for processing: to extend shelf life, make food safe to eat, cut down on waste, provide a wide choice of good-quality food all year round and create new food products.",
+     "Minimal processing includes washing, cutting, bagging salad leaves or freezing vegetables, with no ingredient added.",
+     "Extensive processing involves many stages and ingredients, so the finished product is far removed from its raw material."
+    ]
+   },
+   {
+    "h": "Profile 1: food undergoing extensive processing",
+    "points": [
+     "Flour is made by milling cleaned wheat grain between rollers, separating the bran and germ from the starchy endosperm.",
+     "Removing the bran and germ lowers fibre and some vitamins and minerals, so white flour is often fortified with calcium, iron and B vitamins.",
+     "White flour keeps longer than wholegrain flour because the germ, which contains oils that can turn rancid, has been removed.",
+     "Flour is then an ingredient in bread, cakes, pasta and breakfast cereals, each of which passes through further stages such as mixing, baking or extrusion, then packaging.",
+     "Setting: a visit to a local mill shows these stages in practice."
+    ]
+   },
+   {
+    "b": "Preservation methods slow or stop the micro-organisms and enzymes that spoil food.",
+    "h": "Profile 2: food processed to extend shelf life",
+    "points": [
+     "Pasteurisation heats milk to destroy pathogens and most spoilage organisms, then cools it rapidly.",
+     "UHT (ultra-high temperature) treatment heats milk for a few seconds at a much higher temperature; sealed in aseptic packaging, it keeps at room temperature until opened.",
+     "Homogenisation forces milk under pressure through small openings, breaking fat globules so that cream does not rise to the top.",
+     "A creamery receives milk from farms, tests its quality, pasteurises it and separates cream from skimmed milk.",
+     "Canning heats food in sealed containers to destroy micro-organisms; freezing and storage at or below -18 °C stops most micro-organisms from growing.",
+     "Drying removes moisture so micro-organisms cannot grow, and vacuum packing removes air to slow spoilage.",
+     "Setting: a visit to a local creamery or cheese plant shows milk being pasteurised and separated in practice."
+    ]
+   },
+   {
+    "b": "Added value means processing a raw material into a product with greater economic value, or greater convenience or appeal, for both the manufacturer and the consumer.",
+    "h": "Profile 3: added-value food",
+    "points": [
+     "Examples: cook-chill soups and readymade meals, cheese and grated cheese, flavoured yoghurts, sliced cooked ham, herb-flavoured oils and vinegars, jams, pickles and fruit sauces.",
+     "Cook-chill foods are cooked, chilled rapidly, kept refrigerated and reheated thoroughly before serving.",
+     "Milk is the raw material for cheese and yoghurt; each involves culturing, coagulating or otherwise changing the milk into a new product with a higher selling price.",
+     "Cheese: pasteurised milk is inoculated with lactic acid bacteria, rennet coagulates it into curds and whey, the curds are cut, drained, heated, salted and pressed, then the cheese is ripened for months before grading and sealing.",
+     "The manufacturer gains a higher selling price, while the consumer gains convenience, taste or a health benefit."
+    ]
+   },
+   {
+    "h": "Making yoghurt: production stages",
+    "points": [
+     "1. Milk is tested on reception and its fat content is standardised; milk solids may be added to give body.",
+     "2. Milk is homogenised under pressure so that fat globules stay evenly dispersed.",
+     "3. Milk is pasteurised to destroy pathogens, then cooled to the temperature the starter culture needs.",
+     "4. Lactic acid bacteria, and any probiotic culture, are added and the milk is incubated; the bacteria ferment lactose to lactic acid.",
+     "5. The falling pH coagulates the casein, giving yoghurt its thick texture and sour flavour.",
+     "6. Once the correct acidity is reached, the yoghurt is chilled quickly to slow fermentation.",
+     "7. Fruit purée, permitted sugar, stabiliser or flavouring may be blended in; the yoghurt is filled, sealed, coded and kept refrigerated in the chill chain."
+    ]
+   },
+   {
+    "h": "Functional foods and fortification",
+    "points": [
+     "A functional food gives health benefits beyond its basic nutritional value because of an added or naturally present ingredient.",
+     "Live yoghurt with probiotic bacteria supports the digestive system.",
+     "Plant sterol spreads reduce blood cholesterol.",
+     "Omega-3 enriched foods are linked with a lower risk of coronary heart disease.",
+     "Folic acid enriched foods reduce the risk of neural tube defects in a developing baby.",
+     "Fortification adds nutrients so that their level in the food is higher than the level naturally present.",
+     "Fortification replaces nutrients lost in processing and addresses public health needs.",
+     "Breakfast cereals are often fortified with iron and vitamins, fruit juices with vitamin C, and margarine and dairy spreads with vitamins A and D.",
+     "Iodised salt addresses iodine deficiency, as iodine is needed for normal thyroid function."
+    ]
+   },
+   {
+    "h": "Merits of processed and convenience foods",
+    "points": [
+     "They save preparation, cooking and cleaning time and need little cooking skill, which suits busy households and people with limited mobility.",
+     "Long shelf life gives a wide choice of food all year round, including out-of-season produce.",
+     "They give consistent quality, taste and portion size, and clear portions aid meal planning.",
+     "Processing reduces waste, and frozen or canned foods keep many of their nutrients.",
+     "They are easy to store and are useful as an emergency meal."
+    ]
+   },
+   {
+    "h": "Disadvantages of processed and convenience foods",
+    "points": [
+     "Many are high in salt, sugar and saturated fat and low in fibre.",
+     "They are often more expensive per portion than home-prepared food of similar size.",
+     "Many contain additives, and a minority of consumers react to particular substances.",
+     "Packaging adds waste and environmental impact.",
+     "Reliance on ready meals reduces cooking skills and can unbalance the diet.",
+     "Taste, colour and texture can be inferior to the fresh equivalent."
+    ]
+   },
+   {
+    "h": "Ultra-processed foods",
+    "points": [
+     "Ultra-processed foods are industrial formulations made largely from refined ingredients and additives, with little or no whole food.",
+     "Examples: packaged snacks, sugary drinks, instant noodles and many ready meals.",
+     "They are designed for convenience, palatability and long shelf life, and often contain flavourings, colourings, emulsifiers and sweeteners that are not used in home cooking."
+    ]
+   },
+   {
+    "h": "Genetically modified and organic food",
+    "points": [
+     "Genetic modification alters the DNA of a plant or animal to change a characteristic such as size, speed of ripening or resistance to disease.",
+     "Soya and maize are examples of crops widely grown as genetically modified varieties.",
+     "EU law requires foods containing genetically modified ingredients, including foods made from genetically modified soya or maize, to be labelled.",
+     "Organic produce is grown without synthetic chemical fertilisers, pesticides and preservatives.",
+     "Organic farming is less intensive and must follow rules on fertiliser use and on pest, weed and disease control.",
+     "Organic certification is given by inspection bodies recognised by the Department of Agriculture, Food and the Marine, and certified products carry the symbol of the certifying body.",
+     "Lower yields and more labour make organic food more expensive."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "An added-value food is made by processing a raw material so that it has greater economic value and better meets consumer needs. Milk is processed into a product with a higher selling price than the raw milk, by adding ingredients or by processes such as culturing, flavouring or cooking. Two examples: cheese or grated cheese; live yoghurt; cook-chill soup; readymade meals; sliced ham; herb-flavoured oils; jams; pickles.",
+    "prompt": "A dairy processor turns surplus milk into a new product that sells for more than raw milk. Explain why this product is an added-value food, and name two examples of added-value foods.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Merits: they save preparation, cooking and cleaning time and need little skill; a long shelf life gives year-round choice; quality and portion size are consistent; little food is wasted; frozen and canned foods keep many nutrients; fortification can add vitamins and minerals; they are easy to store and useful in an emergency. Disadvantages: many are high in salt, sugar and saturated fat and low in fibre; they are often dearer per portion than home cooking; many contain additives, and some consumers react to particular substances; packaging adds waste; reliance on ready meals reduces cooking skills and can unbalance the diet; large portions and marketing can encourage overeating. Use: choose products by comparing labels, keep the portion sizes sensible, and combine them with fresh vegetables, wholegrains and fruit, so that the convenience is used selectively and the diet stays balanced.",
+    "prompt": "Discuss the merits and disadvantages of including processed and convenience foods in a busy family's diet, and suggest how the family could use them to best effect.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-additives-s2": {
+  "keyTerms": [
+   {
+    "definition": "Packaging in which the air is replaced with a controlled mixture of gases, then heat sealed, to slow the spoilage of food.",
+    "term": "Modified atmosphere packaging"
+   },
+   {
+    "definition": "Packaging that breaks down into the raw materials of nature through the action of micro-organisms.",
+    "term": "Biodegradable packaging"
+   },
+   {
+    "definition": "Describes a material that can be collected and reprocessed into new products.",
+    "term": "Recyclable"
+   },
+   {
+    "definition": "A coating applied inside metal cans so that the metal does not react with the food.",
+    "term": "Lacquer"
+   },
+   {
+    "definition": "A sealed pack design that shows clearly whether the contents have been opened or interfered with.",
+    "term": "Tamper-evident seal"
+   },
+   {
+    "definition": "A date after which a highly perishable food should not be eaten, for safety reasons.",
+    "term": "Use-by date"
+   },
+   {
+    "definition": "A date after which a food may lose quality, though it is not necessarily unsafe.",
+    "term": "Best-before date"
+   },
+   {
+    "definition": "Showing an allergenic ingredient in the ingredients list in a way that makes it stand out, such as bold type.",
+    "term": "Allergen emphasis"
+   },
+   {
+    "definition": "The standard panel of energy and nutrient values that manufacturers must give on the label of most pre-packed foods.",
+    "term": "Nutrition declaration"
+   },
+   {
+    "definition": "A batch code printed on packaging that allows a product to be traced back through production and distribution.",
+    "term": "Lot code"
+   },
+   {
+    "definition": "Strong and durable; airtight or moisture-proof; hygienic and safe; easy to open and reseal; lightweight and easy to store.",
+    "term": "Five desirable characteristics of food packaging"
+   },
+   {
+    "definition": "They are light and relatively inexpensive, easy to print on for labelling, and made from a renewable resource that is biodegradable and recyclable.",
+    "term": "Three advantages of paper and cardboard packaging"
+   },
+   {
+    "definition": "Carbon dioxide, nitrogen and oxygen, in a controlled mixture.",
+    "term": "Gases used in modified atmosphere packaging"
+   },
+   {
+    "definition": "It is inert, so it displaces oxygen and prevents oxidation and spoilage.",
+    "term": "Why nitrogen is used in food packs"
+   },
+   {
+    "definition": "Energy, fat, saturates, carbohydrate, sugars, protein and salt.",
+    "term": "Items in the mandatory nutrition declaration"
+   },
+   {
+    "definition": "A use-by date is a food safety date for highly perishable food; a best-before date is a quality date.",
+    "term": "Difference between use-by and best-before dates"
+   },
+   {
+    "definition": "Comparing products, selecting diets, protecting people with allergies, and reducing waste through correct storage and use.",
+    "term": "Four ways labels help consumers"
+   },
+   {
+    "definition": "It stops the metal reacting with the food.",
+    "term": "Purpose of lacquer in a tin can"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Packaging materials and their uses",
+    "points": [
+     "Metals (aluminium and tin) are strong and airtight; they are used for canned fish and fruit, takeaway containers and aerosol whipped cream. Tins are lacquered inside so the metal does not react with the food.",
+     "Glass (jars and bottles) is hygienic, transparent and reusable; it is used for beverages, mayonnaise, sauces, preserves and cooking oil.",
+     "Plastics (polythene, PET and similar polymers) are lightweight, flexible and moisture-proof; they are used for polythene bags, PET soft drink bottles, yoghurt pots, dairy spreads and dried pasta.",
+     "Polystyrene is lightweight, insulating, shock-absorbing and easily moulded; it is used for egg trays and takeaway trays, and is not readily biodegradable.",
+     "Paper and cardboard are light, inexpensive, easy to print on and renewable; they are used for cereal boxes, egg cartons and paper bags for bread, cakes, flour and sugar.",
+     "Waxed cartons use a wax coating to make the board waterproof; they are cheap, lightweight, printable and heat-sealable."
+    ]
+   },
+   {
+    "h": "Suitability for purpose",
+    "points": [
+     "Packaging must be strong and durable enough to survive handling and transport.",
+     "It must be airtight or moisture- and vapour-proof, depending on the food.",
+     "It must be hygienic and safe, and must not react with or taint the food, so it should be odourless.",
+     "It should be easy to open and, where needed, easy to reseal.",
+     "It should be lightweight, stackable and easy to store.",
+     "It should be heat resistant where the food is heated in the pack, and printable so that labels can be applied.",
+     "It should be attractive to the consumer and economical to produce."
+    ]
+   },
+   {
+    "h": "Functions of packaging",
+    "points": [
+     "Protection: packaging guards food against physical damage and against contamination by micro-organisms and dirt.",
+     "Containment: it holds the product in the portion size intended for the consumer.",
+     "Information: it carries the product name, ingredients, nutrition and storage details.",
+     "Tamper evidence: a sealed pack shows whether the contents have been interfered with."
+    ]
+   },
+   {
+    "h": "Environmental impact of packaging",
+    "points": [
+     "Metal and plastic packaging is not biodegradable and is made from non-renewable resources, but both can be recycled.",
+     "Glass can be reused and recycled indefinitely without losing quality.",
+     "Paper and cardboard are made from a renewable resource, are biodegradable and are widely recyclable.",
+     "Polystyrene is bulky and not readily biodegradable, so its environmental impact depends on whether it is collected for recycling.",
+     "The impact is reduced by using less packaging, reusing containers and recycling materials."
+    ]
+   },
+   {
+    "h": "Modified atmosphere and biodegradable packaging",
+    "points": [
+     "Modified atmosphere packaging (MAP): the air is removed and replaced with a controlled mixture of carbon dioxide, nitrogen and oxygen, and the pack is heat sealed.",
+     "The gas mixture slows the growth of bacteria, yeasts and moulds, so the shelf life of the food is extended.",
+     "MAP is used for fresh meat, fish, fruit and vegetables, baked goods and cheese.",
+     "Biodegradable packaging breaks down into the raw materials of nature, with micro-organisms doing much of the work.",
+     "Examples of biodegradable packaging: paper bags for bread, cakes, sugar and flour, and cardboard for cereals, takeaway foods and eggs.",
+     "Diagram: a labelled sealed pack showing the gas mixture inside the tray and the heat-sealed film lid."
+    ]
+   },
+   {
+    "b": "The European Union (Provision of Food Information to Consumers) Regulations 2014 give effect in Ireland to Regulation (EU) No 1169/2011, and the Food Safety Authority of Ireland enforces them.",
+    "h": "Legal labelling requirements",
+    "points": [
+     "The name of the food must be stated, along with a list of ingredients in descending order by weight.",
+     "Allergens such as milk, egg, nuts and gluten cereals must be emphasised within the ingredients list.",
+     "The net quantity must be stated, and the name and address of the food business operator must appear on the label.",
+     "A use-by date is given for highly perishable food and is a food safety date; a best-before date is a quality date, after which the food may still be safe.",
+     "Storage conditions and cooking or usage instructions must be given, for example keep refrigerated or stir before use.",
+     "A lot or batch code is shown for traceability, and the country of origin is given where the law requires it.",
+     "Additives are identified by their class name followed by the specific name or E number."
+    ]
+   },
+   {
+    "h": "Nutrition declaration and claims",
+    "points": [
+     "The mandatory nutrition declaration gives energy, fat, saturates, carbohydrate, sugars, protein and salt.",
+     "Values are given per 100 g or 100 ml, and often per portion as well.",
+     "Claims such as low fat or contains live cultures must be accurate and not misleading, and nutrition and health claims must meet the EU rules.",
+     "Low fat does not necessarily mean low sugar, salt or energy, so the full declaration must be read."
+    ]
+   },
+   {
+    "h": "Labelling as a source of consumer information",
+    "points": [
+     "Labels allow consumers to compare products on energy, fat, sugar and salt, rather than being guided by brand, pictures or health claims.",
+     "Consumers following a low-salt, low-saturated-fat or high-fibre diet can select products by their declared values.",
+     "Ingredients and allergen emphasis protect people with coeliac disease, milk, egg, nut or other allergies.",
+     "Use-by and best-before dates, storage and reheating instructions protect safety and reduce food waste.",
+     "The manufacturer's details and the lot code support traceability and complaints.",
+     "Quality assurance, organic, fair-trade and gluten-free marks guide consumers with particular ethical or dietary choices."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Glass is used for beverages, sauces, preserves and oil. It is transparent so the product can be seen, it is inert so it does not react with the food, and it is hygienic and reusable or recyclable. Paper and cardboard are used for cereals, eggs, bread and cakes. They are light, cheap, easy to print on for labelling and protective enough for dry or fragile foods, and they are biodegradable and recyclable. Full marks need one example and one reason for each material.",
+    "prompt": "Explain why glass and paper are used to package different types of food. Give one example of each material and a reason it suits the food it holds.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Manufacturer: packaging protects the product, extends its shelf life through methods such as modified atmosphere packaging, carries branding and gives a tamper-evident seal; the label meets legal requirements and identifies the batch for traceability. Limitation: packaging adds cost and must meet the labelling rules, which can be time-consuming. Consumer: the label gives the ingredients in order of weight, allergens emphasised, the nutrition declaration per 100 g and per portion, use-by or best-before dates and storage instructions, so choices and safety are informed. Limitation: a label can be misread, as low fat does not mean low sugar, salt or energy. Environment: material choice matters; glass is reusable and recyclable, paper and cardboard are renewable and biodegradable, and metal and plastic are recyclable but not biodegradable. Limitation: excess packaging creates waste, so reducing and reusing it is the best response.",
+    "prompt": "Assess how the packaging and labelling of a food product serve the manufacturer, the consumer and the environment, and identify one limitation of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-additives-s3": {
+  "keyTerms": [
+   {
+    "definition": "An unwanted substance that enters food accidentally at any stage from production to consumption.",
+    "term": "Contaminant"
+   },
+   {
+    "definition": "A small amount of a substance, such as a pesticide or veterinary medicine, that remains in food after legitimate use.",
+    "term": "Residue"
+   },
+   {
+    "definition": "A chemical used to kill or control pests on crops, including insecticides, fungicides and herbicides.",
+    "term": "Pesticide"
+   },
+   {
+    "definition": "The minimum time that must pass after a chemical is applied or administered before the crop, milk or meat can be sold.",
+    "term": "Withdrawal period"
+   },
+   {
+    "definition": "A metal such as lead, cadmium or mercury that is toxic at low levels and can accumulate in the body.",
+    "term": "Heavy metal"
+   },
+   {
+    "definition": "The build-up of a substance in an organism over time, so that concentrations are higher in animals further up the food chain.",
+    "term": "Bioaccumulation"
+   },
+   {
+    "definition": "The transfer of chemicals from packaging or food-contact materials into the food they contain.",
+    "term": "Migration"
+   },
+   {
+    "definition": "The ability to follow a food or ingredient through each stage of production and distribution using records such as lot codes.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "The withdrawal of a food batch from sale and consumers when it is found to be unsafe.",
+    "term": "Recall"
+   },
+   {
+    "definition": "Insecticides target insects, fungicides target fungi and herbicides target weeds.",
+    "term": "Three types of pesticide and their targets"
+   },
+   {
+    "definition": "Lead, cadmium and mercury.",
+    "term": "Three heavy metals of concern in food"
+   },
+   {
+    "definition": "They can inhibit the lactic acid bacteria, so fermentation and ripening fail.",
+    "term": "Effect of antibiotic residues on yoghurt and cheese"
+   },
+   {
+    "definition": "Large predatory fish such as shark and swordfish.",
+    "term": "Fish that accumulate high mercury levels"
+   },
+   {
+    "definition": "They migrate from the packaging or food-contact material into the food, most readily when the food is fatty or acidic.",
+    "term": "How chemicals reach food from packaging"
+   },
+   {
+    "definition": "The HSE Public Analyst Laboratories and the Department of Agriculture, Food and the Marine, working under FSAI service contracts.",
+    "term": "Two bodies that test food for residues in Ireland"
+   },
+   {
+    "definition": "It allows residues to fall to a safe level between treatment and sale or harvest.",
+    "term": "Purpose of a withdrawal period"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A contaminant is an unwanted substance that gets into food by accident, at any stage from farm to plate.",
+    "h": "What contaminants are and how they enter food",
+    "points": [
+     "Contaminants can enter during primary production on the farm, during processing, during packaging, during storage and during cooking.",
+     "A residue is a small amount of a substance left in food after it was used legitimately, such as a pesticide or a veterinary medicine.",
+     "General food law, set out in Regulation (EC) No 178/2002, requires that food placed on the market is not unsafe.",
+     "The Food Safety Authority of Ireland coordinates national enforcement of food safety, including control of contaminants."
+    ]
+   },
+   {
+    "h": "Pesticide residues",
+    "points": [
+     "Pesticides are chemicals used on crops: insecticides against insects, fungicides against fungi and herbicides against weeds.",
+     "A withdrawal period is the minimum time between the last spraying and harvest, allowing residues to fall to a safe level.",
+     "Residues can remain on fruit, vegetables and cereals and so enter the diet.",
+     "Washing and peeling reduce the amount of pesticide residue on fresh produce.",
+     "Residues are monitored by official testing carried out by agencies under FSAI service contracts, including the Department of Agriculture, Food and the Marine and the HSE Public Analyst Laboratories."
+    ]
+   },
+   {
+    "h": "Antibiotic and veterinary medicine residues",
+    "points": [
+     "Antibiotics are given to livestock to treat or prevent disease.",
+     "If milk or meat is sold before the withdrawal period has passed, antibiotic residues remain in the food.",
+     "Antibiotic residues in milk can prevent the lactic acid bacteria used for yoghurt and cheese from fermenting, so the product fails to set or ripen properly.",
+     "Antibiotic residues can cause allergic reactions in sensitive people and may contribute to the spread of antibiotic-resistant bacteria."
+    ]
+   },
+   {
+    "h": "Heavy metals and environmental contaminants",
+    "points": [
+     "Heavy metals such as lead, cadmium and mercury enter food from soil, water and air contaminated by industry or traffic.",
+     "Plants grown in contaminated soil can absorb metals, and shellfish filtering polluted water can accumulate them.",
+     "Mercury accumulates in large predatory fish such as shark and swordfish, a process known as bioaccumulation.",
+     "Because metals build up in the body over time, repeated exposure is a greater concern than a single exposure."
+    ]
+   },
+   {
+    "h": "Chemical contaminants from processing and packaging",
+    "points": [
+     "Cleaning agents, lubricants and sanitisers used in food premises can contaminate food if they are not rinsed off or are misused.",
+     "Chemicals can migrate from packaging or other food-contact materials into food, particularly fatty or acidic foods.",
+     "Food-grade materials and separate storage of chemicals from food reduce the risk of contamination.",
+     "Pest control chemicals stored near food can contaminate it if the storage is not properly separated."
+    ]
+   },
+   {
+    "h": "Controlling contaminants",
+    "points": [
+     "On the farm, good agricultural practice and observance of withdrawal periods control pesticide and veterinary residues.",
+     "Food businesses buy raw materials from approved suppliers and test them on reception.",
+     "Traceability records, including lot codes, allow a contaminated batch to be identified and recalled quickly.",
+     "Official control agencies sample and test food and raw materials to check that the limits on contaminants are met."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Pesticides: chemicals sprayed on crops to control insects, fungi or weeds leave residues on fruit, vegetables and cereals, which enter the diet if not removed by washing or peeling. Heavy metals: lead, cadmium or mercury present in soil, water or air contaminated by industry or traffic are absorbed by plants or accumulated by shellfish and predatory fish. Other valid sources: antibiotic residues in milk or meat sold before the withdrawal period has passed; chemicals migrating from packaging into the food.",
+    "prompt": "Name two sources of contamination in the food chain and explain how each one enters food.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Primary production: pesticides applied to crops and veterinary medicines given to livestock leave residues if withdrawal periods are not observed; heavy metals from polluted soil and water are absorbed by plants and animals. Processing: cleaning agents, lubricants and sanitisers can contaminate food if they are misused or not rinsed off. Packaging and storage: chemicals can migrate from packaging into fatty or acidic foods, and pest control chemicals stored near food can contaminate it. Cooking: contaminants already present remain in the food. Control: buy raw materials from approved suppliers and test them on reception; observe withdrawal periods on farms; store chemicals separately using food-grade materials; keep traceability records with lot codes so that a batch can be recalled; official agencies sample and test food and act against premises that breach the regulations.",
+    "prompt": "Discuss how contaminants can enter food at different stages of the food chain, and explain how a food business can control them.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-additives-s4": {
+  "keyTerms": [
+   {
+    "definition": "A substance added to food during manufacture to improve its colour, taste, texture, appearance, keeping qualities or nutritive value, or to aid processing.",
+    "term": "Food additive"
+   },
+   {
+    "definition": "A flavouring that improves an existing flavour and makes it seem stronger, such as monosodium glutamate.",
+    "term": "Flavour enhancer"
+   },
+   {
+    "definition": "An additive that inhibits the growth of micro-organisms, delaying spoilage and extending shelf life.",
+    "term": "Preservative"
+   },
+   {
+    "definition": "An artificial sweetener many times sweeter than sugar, used in very small amounts and contributing negligible energy.",
+    "term": "Intense sweetener"
+   },
+   {
+    "definition": "A polyol, such as sorbitol or mannitol, that is less intensely sweet than sugar and is used in larger amounts for bulk and texture.",
+    "term": "Bulk sweetener"
+   },
+   {
+    "definition": "An additive that reacts with oxygen to prevent the oxidation of fats and oils, which would otherwise make them rancid.",
+    "term": "Antioxidant"
+   },
+   {
+    "definition": "A vitamin or mineral added to food to raise its nutrient content.",
+    "term": "Nutritional supplement"
+   },
+   {
+    "definition": "An additive with a hydrophilic head and a hydrophobic tail that holds two immiscible liquids together.",
+    "term": "Emulsifier"
+   },
+   {
+    "definition": "A substance that attracts and retains water, keeping food moist and preventing it from drying and hardening.",
+    "term": "Humectant"
+   },
+   {
+    "definition": "A conditioning agent that prevents dried or powdered foods from forming lumps.",
+    "term": "Anti-caking agent"
+   },
+   {
+    "definition": "An additive that changes the physical properties of food, such as its texture, consistency, moisture or stability.",
+    "term": "Physical conditioning agent"
+   },
+   {
+    "definition": "Saccharin, aspartame, acesulfame K and sucralose.",
+    "term": "Four intense sweeteners"
+   },
+   {
+    "definition": "Sorbitol and mannitol.",
+    "term": "Two bulk sweeteners"
+   },
+   {
+    "definition": "Vitamin C (E300) and vitamin E (E306).",
+    "term": "Two natural antioxidants"
+   },
+   {
+    "definition": "BHA (E320) and BHT (E321).",
+    "term": "Two artificial antioxidants"
+   },
+   {
+    "definition": "Caramel, chlorophyll and carotene.",
+    "term": "Three natural colourings"
+   },
+   {
+    "definition": "They keep food moist, preventing it from drying out and hardening, as in marzipan.",
+    "term": "Function of humectants"
+   },
+   {
+    "definition": "They prevent scum and froth forming on the surface of food as it boils.",
+    "term": "Function of anti-foaming agents"
+   },
+   {
+    "definition": "Its hydrophilic head attaches to the water and its hydrophobic tail attaches to the oil, so the two do not separate.",
+    "term": "How an emulsifier holds oil and water together"
+   },
+   {
+    "definition": "It is an artificial ester that gives a rum flavour.",
+    "term": "Ethyl acetate in flavourings"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A food additive is a natural or artificial substance added to food during manufacture to improve colour, taste, texture, appearance, keeping qualities or nutritive value, or to aid processing.",
+    "h": "What additives are and how they are classified",
+    "points": [
+     "Additives are grouped into classes by their function: colourings, flavourings, sweeteners, preservatives, antioxidants, nutritional supplements and, at Higher Level, physical conditioning agents.",
+     "Each class has natural and artificial examples, and the function of the additive is the basis for its class.",
+     "Settings: examine food labels to find the additives used, identify the class of each from its name or E number, and suggest the reason it was added."
+    ]
+   },
+   {
+    "h": "Colourings",
+    "points": [
+     "Function: colourings restore colour lost in processing, make food more attractive and give a consistent appearance from batch to batch.",
+     "Natural colourings include caramel (E150), chlorophyll (E140), carotene (E160a), cochineal (E120) and turmeric (E100).",
+     "Artificial colourings include tartrazine (E102), a yellow dye used in soft drinks and sweets.",
+     "Colourings are used in sweets, soft drinks, desserts, baked goods and cheese products."
+    ]
+   },
+   {
+    "h": "Flavourings and flavour enhancers",
+    "points": [
+     "Natural flavourings include herbs, spices, sugar and salt, which add flavour to bland food or replace flavour lost in processing.",
+     "Artificial flavourings are chemical compounds such as esters and aldehydes; ethyl acetate gives a rum flavour, amyl acetate a pear flavour and benzaldehyde a cherry flavour.",
+     "Flavour enhancers improve an existing flavour and make it seem stronger; monosodium glutamate (E621) is the most common example.",
+     "Monosodium glutamate is used in soups, sauces, stock cubes and prepared meals."
+    ]
+   },
+   {
+    "h": "Preservatives",
+    "points": [
+     "Preservatives inhibit the growth of micro-organisms, delaying spoilage and extending shelf life.",
+     "Natural preservatives include salt, sugar, vinegar and smoke.",
+     "Chemical preservatives include sulphur dioxide (E220) and potassium sorbate (E202), used in soft drinks, jams and baked goods.",
+     "Sulphur dioxide destroys some vitamin B, so its use reduces the nutritive value of the food."
+    ]
+   },
+   {
+    "h": "Sweeteners",
+    "points": [
+     "Nutritive sweeteners such as sugar, honey, glucose syrup and fructose supply energy as well as sweetness.",
+     "Intense sweeteners are many times sweeter than sugar, so only a tiny amount is needed and they contribute negligible energy.",
+     "Intense sweeteners include saccharin (E954), aspartame (E951), acesulfame K (E950) and sucralose (E955).",
+     "Because the quantity used is so small, intense sweeteners do not provide sugar's bulk, browning, preservation or texture, so a bulking agent may also be needed.",
+     "Intense sweeteners are used in low-energy soft drinks, tabletop sweeteners, yoghurts, desserts and foods for people reducing their sugar intake.",
+     "Products containing aspartame carry a label warning for people with phenylketonuria, as it contains phenylalanine.",
+     "Bulk sweeteners, or polyols, include sorbitol (E420) and mannitol (E421); they are less intensely sweet, are used in larger amounts and give bulk and texture.",
+     "Polyols are found in sugar-free confectionery and chewing gum, and excessive amounts can have a laxative effect.",
+     "Artificial sweeteners are useful in slimming and diabetic products because they reduce sucrose, although the energy and portion size of the whole product still matter."
+    ]
+   },
+   {
+    "h": "Antioxidants",
+    "points": [
+     "Antioxidants react with oxygen so that it cannot attack the fats and oils in food, preventing oxidative rancidity.",
+     "Natural antioxidants include vitamin C (E300, ascorbic acid) and vitamin E (E306, tocopherols).",
+     "Artificial antioxidants include BHA (E320) and BHT (E321).",
+     "Antioxidants are used in fats, cooking oils, crisps, biscuits, stock cubes, cheese spread, chewing gum and tinned fish.",
+     "By slowing rancidity, antioxidants extend shelf life and reduce food waste."
+    ]
+   },
+   {
+    "h": "Nutritional supplements",
+    "points": [
+     "Nutritional supplements are vitamins, minerals and other nutrients added to food to raise its nutrient content.",
+     "They are the additives used for fortification, so the food supplies more of a nutrient than it naturally contains.",
+     "Unlike sweeteners, preservatives and colourings, their purpose is nutritional rather than technological."
+    ]
+   },
+   {
+    "h": "Emulsifiers and stabilisers (Higher Level only)",
+    "points": [
+     "An emulsifier holds two immiscible liquids, such as oil and water, together so that they do not separate.",
+     "An emulsifier molecule has a hydrophilic head that attaches to water and a hydrophobic tail that attaches to oil, linking the two phases.",
+     "Examples are lecithin (E322) and mono- and diglycerides of fatty acids (E471).",
+     "Emulsifiers are used in mayonnaise, ice cream and sauces.",
+     "A stabiliser prevents an emulsion from separating over time; alginates, guar gum and carrageenan are examples.",
+     "Diagram: an emulsifier molecule with a hydrophilic head and a hydrophobic tail, shown at the boundary between an oil droplet and water."
+    ]
+   },
+   {
+    "h": "Humectants, anti-caking agents and setting agents (Higher Level only)",
+    "points": [
+     "A humectant attracts and retains water, preventing food from losing moisture, drying out and hardening; sorbitol and mannitol are examples.",
+     "Humectants are used in marzipan, cakes and sweets, so that they stay soft.",
+     "An anti-caking agent prevents lumps forming in dried or powdered foods; polyphosphates are an example that also increases water retention.",
+     "A setting agent helps a food to set; pectin aids the setting of jams.",
+     "A firming agent keeps fruit and vegetables firm during processing."
+    ]
+   },
+   {
+    "h": "Other physical conditioning agents (Higher Level only)",
+    "points": [
+     "Anti-foaming agents prevent scum and froth forming on the surface of food as it boils.",
+     "Anti-spattering agents keep water droplets apart in cooking oils, preventing spatter.",
+     "Buffers maintain the pH of a food at the level required for processing or taste.",
+     "Packaging gases, such as nitrogen, are sealed into sachet foods to replace air and prevent oxidation.",
+     "Release agents form a coating that stops foods from sticking to each other or to equipment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Colourings: caramel (E150) restores or adds a brown colour lost in processing and gives a consistent appearance. Preservatives: potassium sorbate (E202) inhibits the growth of micro-organisms in soft drinks and baked goods, delaying spoilage and extending shelf life. Other valid pairs: sulphur dioxide (E220) as a preservative, which prevents spoilage; tartrazine (E102) as a colouring, which makes sweets or soft drinks more attractive; monosodium glutamate (E621) as a flavour enhancer, which makes an existing flavour seem stronger.",
+    "prompt": "Give one example from each of two classes of food additive and state the function of each example you give.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "Sweeteners: a nutritive sweetener such as sugar or glucose syrup supplies energy and sweetness; in a low-energy squash an intense sweetener such as aspartame (E951), sucralose (E955) or saccharin (E954) gives sweetness with negligible energy, and a bulking agent such as a polyol may be added because intense sweeteners lack sugar's bulk and texture. Preservatives: potassium sorbate (E202) or sulphur dioxide (E220) inhibit micro-organisms that would ferment or spoil the squash, extending shelf life. Colourings: a natural colouring such as carotene (E160a) or caramel (E150) restores or adds the expected colour; an artificial colouring such as tartrazine (E102) gives a consistent colour from batch to batch.",
+    "prompt": "Describe the sweeteners, preservatives and colourings that a manufacturer might use in a fruit squash, giving an example and a function for each class.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-additives-s5": {
+  "keyTerms": [
+   {
+    "definition": "The EU regulation on food additives, which sets the approved list, conditions of use and labelling rules for additives in the European Union.",
+    "term": "Regulation (EC) No 1333/2008"
+   },
+   {
+    "definition": "The EU list of additives that have been tested for safety and are permitted for use in specified foods.",
+    "term": "Approved list"
+   },
+   {
+    "definition": "A code beginning with E, given to each approved additive, which identifies it on the label.",
+    "term": "E number"
+   },
+   {
+    "definition": "The least amount of an additive needed to achieve its intended effect in a food.",
+    "term": "Smallest effective quantity"
+   },
+   {
+    "definition": "The amount of nutrients a food supplies, which an additive must not reduce.",
+    "term": "Nutritive value"
+   },
+   {
+    "definition": "Food made for infants and young children, to which EU rules restrict or forbid certain additives.",
+    "term": "Baby food"
+   },
+   {
+    "definition": "The checking, sampling and inspection carried out by official bodies to ensure that food law is obeyed.",
+    "term": "Enforcement"
+   },
+   {
+    "definition": "The Irish body that coordinates national food safety enforcement, including the safe use of food additives.",
+    "term": "Food Safety Authority of Ireland"
+   },
+   {
+    "definition": "They must not reduce nutritive value, disguise faults, present a health hazard or mislead the consumer, and must be used in the smallest effective quantity.",
+    "term": "Five conditions of use for additives under EU law"
+   },
+   {
+    "definition": "E100 to E199.",
+    "term": "E number range for colourings"
+   },
+   {
+    "definition": "E200 to E299.",
+    "term": "E number range for preservatives"
+   },
+   {
+    "definition": "Fresh fruit, fresh vegetables, fresh meat, poultry and fish.",
+    "term": "Foods in which colourings are not permitted"
+   },
+   {
+    "definition": "Flavourings.",
+    "term": "Additives that are not given E numbers"
+   },
+   {
+    "definition": "The Food Safety Authority of Ireland.",
+    "term": "Irish body that enforces the safe use of additives"
+   },
+   {
+    "definition": "As an EU regulation, it applies directly in Ireland without a separate Irish Act.",
+    "term": "Legal status of Regulation (EC) No 1333/2008 in Ireland"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The use of food additives in the European Union is controlled by Regulation (EC) No 1333/2008 on food additives, which sets rules for preservatives, colourings, emulsifiers and antioxidants, among other additives.",
+    "h": "The legal framework",
+    "points": [
+     "As an EU regulation, it applies directly in Ireland without needing a separate Irish Act.",
+     "An additive may be used only if it appears on the approved list of additives for the EU.",
+     "Each additive must be tested for safety before it is approved.",
+     "Each approved additive is assigned an E number, except flavourings, which are not given E numbers."
+    ]
+   },
+   {
+    "h": "E numbers and the classes they identify",
+    "points": [
+     "E100 to E199 are colourings, for example E150 caramel and E102 tartrazine.",
+     "E200 to E299 are preservatives, for example E202 potassium sorbate and E220 sulphur dioxide.",
+     "E300 to E399 are antioxidants, for example E300 vitamin C and E320 BHA; the range also includes acidity regulators.",
+     "E400 to E499 are thickeners, stabilisers and emulsifiers, for example E322 lecithin.",
+     "E600 to E699 are flavour enhancers, for example E621 monosodium glutamate.",
+     "E900 to E999 include sweeteners, for example E950 acesulfame K, E951 aspartame, E954 saccharin and E955 sucralose."
+    ]
+   },
+   {
+    "h": "Conditions of use",
+    "points": [
+     "An additive must not reduce the nutritive value of the food.",
+     "An additive must not be used to disguise poor quality or faulty processing.",
+     "An additive must not present a health hazard to the consumer.",
+     "An additive must not mislead the consumer about the food.",
+     "Each additive must be used in the smallest quantity needed to achieve its effect.",
+     "Colourings are not permitted in fresh fruit, fresh vegetables, fresh meat, poultry or fish.",
+     "Colourings are not permitted in baby food, and sweeteners are not permitted in food for infants and young children."
+    ]
+   },
+   {
+    "h": "Labelling of additives",
+    "points": [
+     "The label must show the class name of the additive followed by its specific name or E number, for example preservative: sulphur dioxide or preservative: E220.",
+     "Flavourings are declared by name rather than by an E number.",
+     "Consumers can therefore identify the function and the approved status of an additive from its label."
+    ]
+   },
+   {
+    "h": "Enforcement in Ireland",
+    "points": [
+     "The Food Safety Authority of Ireland is responsible for enforcing the safe use of food additives in Ireland.",
+     "Official agencies working under FSAI service contracts, including the Department of Agriculture, Food and the Marine, the HSE Public Analyst Laboratories and local authorities, check compliance through inspection and sampling.",
+     "The FSAI advises ministers, regulators, industry and consumers, and processes applications for new foods and processing methods."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The label lets the consumer identify each additive and its function, so the consumer can check whether it is approved and make an informed choice; it also supports enforcement, since officials can check that approved additives are used correctly. Legal basis: Regulation (EC) No 1333/2008 on food additives, which applies directly in Ireland, requires an approved list, E numbers for approved additives (except flavourings) and labelling of the additive's class name and specific name or E number.",
+    "prompt": "Explain why a food label must show the E number or name of each additive, and state the legal basis for the control of additives in the EU.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Approval: an additive may be used only if it is on the EU approved list, which means it has been tested for safety and is assigned an E number (flavourings excepted). Conditions of use: an additive must not reduce nutritive value, disguise faulty processing, present a health hazard or mislead the consumer, and must be used in the smallest effective quantity; colourings are not permitted in fresh fruit, vegetables, meat, poultry or fish, and colourings and sweeteners are restricted in baby food and food for young children. Labelling: the class name and the specific name or E number of each additive must be on the label, so the consumer can identify it. Enforcement: the Food Safety Authority of Ireland enforces the safe use of additives, with official agencies such as the Department of Agriculture, Food and the Marine, the HSE Public Analyst Laboratories and local authorities checking compliance by inspection and sampling.",
+    "prompt": "Outline how European Union law controls the use of food additives in Ireland, covering approval, conditions of use and labelling, and name the Irish body that enforces the rules.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-additives-s6": {
+  "keyTerms": [
+   {
+    "definition": "The scientific evaluation of food using the senses, carried out under controlled conditions.",
+    "term": "Sensory analysis"
+   },
+   {
+    "definition": "A sensory test that shows whether consumers like or dislike a product, or prefer one product to another.",
+    "term": "Preference test"
+   },
+   {
+    "definition": "A sensory test that shows whether testers can detect a difference between samples.",
+    "term": "Difference test"
+   },
+   {
+    "definition": "A sensory test that describes the perceived sensory characteristics of a product.",
+    "term": "Descriptive test"
+   },
+   {
+    "definition": "A preference test in which the tester rates how much they like a product on a numbered scale.",
+    "term": "Hedonic rating scale"
+   },
+   {
+    "definition": "A difference test in which the tester identifies the odd sample among three coded samples.",
+    "term": "Triangle test"
+   },
+   {
+    "definition": "A difference test in which the tester matches one of two coded samples to a reference sample.",
+    "term": "Duo-trio test"
+   },
+   {
+    "definition": "Labelling samples with random codes so that the tester does not know their identity, avoiding bias.",
+    "term": "Coding"
+   },
+   {
+    "definition": "The sensations of texture and temperature detected by the nerves in the mouth.",
+    "term": "Mouthfeel"
+   },
+   {
+    "definition": "The fifth basic taste, savoury and associated with glutamate.",
+    "term": "Umami"
+   },
+   {
+    "definition": "Preference tests, difference tests and descriptive tests.",
+    "term": "Three categories of sensory test"
+   },
+   {
+    "definition": "One in three.",
+    "term": "Chance of a correct answer in a triangle test"
+   },
+   {
+    "definition": "One in two.",
+    "term": "Chance of a correct answer in a duo-trio test"
+   },
+   {
+    "definition": "The simple difference paired comparison test and the directional paired comparison test.",
+    "term": "Two difference tests that use paired samples"
+   },
+   {
+    "definition": "To check that consumers cannot perceive the change.",
+    "term": "Purpose of a difference test on a reformulated product"
+   },
+   {
+    "definition": "Sight, smell, taste, touch (mouthfeel) and hearing.",
+    "term": "Five senses that influence food choice"
+   },
+   {
+    "definition": "Mid-morning and mid-afternoon, when taste sensitivity is best.",
+    "term": "Best times for sensory testing"
+   },
+   {
+    "definition": "At least 30 minutes before a sensory test.",
+    "term": "Waiting time after strongly flavoured food"
+   },
+   {
+    "definition": "To describe the perceived sensory characteristics of a product and how processing, packaging or storage changes them.",
+    "term": "Purpose of a descriptive test"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Evaluation judges a dish against stated criteria, using evidence from the dish itself.",
+    "h": "Critical evaluation of dishes and meals",
+    "points": [
+     "Criteria include nutritional value (energy, fibre, fat, sugar and salt), cost per portion, sensory qualities, time and skill required, suitability for the household, safety and hygiene, and packaging and waste.",
+     "Method: state the criterion, give evidence from the recipe, label or tasting, make a judgement and give the reason for it, then suggest an improvement.",
+     "Settings: evaluate a family meal against a healthy-eating guideline, such as the Department of Health Food Pyramid, and suggest changes to the portions or ingredients."
+    ]
+   },
+   {
+    "h": "Comparing home-made and commercial products",
+    "points": [
+     "Cost: home-made food from basic ingredients is often cheaper per portion, whereas commercial products carry the costs of labour, packaging and distribution.",
+     "Nutrition: home-made food lets the cook control salt, sugar, fat and fibre, while the commercial nutrition declaration allows products to be compared.",
+     "Additives: home-made food usually contains none of the preservatives, colourings or emulsifiers that many commercial products contain.",
+     "Time and skill: commercial products need little time or skill, while home-made food needs preparation, cooking and cleaning time.",
+     "Sensory quality: home-made food may taste fresher, while a commercial product gives the same taste and texture from one batch to the next.",
+     "Shelf life: commercial products are processed to last longer, while home-made food usually needs refrigeration and is eaten within a short time.",
+     "Packaging and waste: home-made food bought in loose ingredients may create less packaging waste than a pre-packed commercial equivalent."
+    ]
+   },
+   {
+    "b": "Sensory analysis is the scientific evaluation of food using the senses, carried out under controlled conditions.",
+    "h": "Uses of sensory analysis in the food industry (Higher Level only)",
+    "points": [
+     "Product development: testing samples to find which version consumers prefer before a new product is launched.",
+     "Modifying an existing product: for example reducing the salt in a product, with difference tests used to confirm that consumers cannot perceive the change.",
+     "Matching an existing product: testing so that an own-label food can be made to taste like the leading brand.",
+     "Evaluation and quality control: checking that the final product meets its original specification, such as the shortness of a biscuit.",
+     "Comparing an own-brand product with a leading brand, and supporting marketing claims about taste or texture."
+    ]
+   },
+   {
+    "h": "Preference tests (Higher Level only)",
+    "points": [
+     "Preference tests show whether consumers like or dislike a product, or prefer one product to another.",
+     "Paired preference test: the tester chooses the preferred of two coded samples.",
+     "Hedonic rating scale: the tester rates how much they like a product on a numbered scale from dislike extremely to like extremely.",
+     "Food action rating: the tester states how likely they are to buy or eat the product.",
+     "Preference ranking: the tester ranks several samples from most to least preferred."
+    ]
+   },
+   {
+    "h": "Difference and descriptive tests (Higher Level only)",
+    "points": [
+     "Difference tests show whether a difference exists between samples and, if so, how noticeable it is.",
+     "Simple difference paired comparison: the tester says whether two coded samples, which may be the same or different, are different.",
+     "Directional paired comparison: the tester identifies which of two samples has a greater intensity of a stated characteristic, such as sweetness.",
+     "Triangle test: the tester identifies which of three coded samples is different from the other two.",
+     "Duo-trio test: the tester is given a reference sample and two coded samples, and identifies the coded sample that differs from the reference.",
+     "Descriptive tests describe the perceived sensory characteristics of products.",
+     "Descriptive ranking ranks samples by the intensity of a characteristic; descriptive rating scores that intensity on a scale."
+    ]
+   },
+   {
+    "b": "The triangle test checks whether testers can detect a difference between two products.",
+    "h": "Investigation: triangle test (Higher Level only)",
+    "points": [
+     "Aim: to find out whether testers can identify the odd sample among three coded samples.",
+     "Independent variable: the samples, two identical and one different.",
+     "Dependent variable: the tester's choice of the odd sample.",
+     "Controlled variables: temperature, amount, shape, colour and container of each sample, timing of the test and the room conditions.",
+     "Method: 1. Set up a tray with three coded samples in a balanced, randomised order. 2. Each tester tastes the samples in the order given. 3. The tester identifies the sample that is different. 4. Record the responses on a sheet. 5. Reveal the codes and count the correct answers.",
+     "Chance: testers guess correctly one time in three, so the number of correct answers is compared with this chance level.",
+     "Expected result: if significantly more testers than chance identify the odd sample, a difference is detected.",
+     "Diagram: a tray with three identical, coded containers, one marked as the odd sample for the investigator's records only."
+    ]
+   },
+   {
+    "h": "Conditions for accurate sensory results (Higher Level only)",
+    "points": [
+     "Location: testing booths or enough space between testers, with no talking so that information is not shared.",
+     "Lighting and ventilation: bright, preferably natural, light, and ventilation that removes lingering odours.",
+     "Timing: mid-morning or mid-afternoon, when taste sensitivity is best, with no strongly flavoured food or drink for at least 30 minutes before the test.",
+     "Organisers: the people who set up the test should not take part as testers.",
+     "Samples: all samples at the same temperature, of uniform shape, colour and amount, and in identical containers, with water or a dry cracker for rinsing.",
+     "Coding and sequence: samples are coded so that the codes do not cause bias, and the order of presentation is planned and balanced.",
+     "Hygiene and dietary needs: strict hygiene and food safety are maintained, and special dietary conditions, such as coeliac disease, are catered for."
+    ]
+   },
+   {
+    "h": "The senses and food choice",
+    "points": [
+     "Sight: appearance, colour, size, shape and gloss are used to judge whether food looks acceptable and fresh.",
+     "Expectations of colour matter: mould is acceptable on Stilton cheese but not on bread.",
+     "Smell: aroma and odour help to judge freshness, and a rancid or off smell leads to rejection.",
+     "Taste: the taste buds detect sweet, salt, sour and bitter, and umami is the fifth taste, given by glutamate.",
+     "Touch and mouthfeel: nerves in the mouth detect texture, temperature and chemical heat, such as the burn of chilli.",
+     "Hearing: the sound of food, such as sizzling sausages, crunchy vegetables or fizzy drinks, influences choice and eating.",
+     "Cooking changes the senses: colour changes, flavours intensify and an aroma develops, making cooked food more appetising than raw."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The tester is given a reference sample first, then two coded samples, one of which is the same as the reference and one of which is different. The tester tastes the samples in the order given, starting with the reference, and identifies the coded sample that differs from it. The samples are presented in random order and the responses are recorded on a sheet. A food company would use it to check whether a modified product can be distinguished from the original, for example after a recipe change, to confirm that consumers cannot perceive the change.",
+    "prompt": "Describe what happens in a duo-trio test, and give one reason a food company would use this test.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Nutrition: the home-made dish allows control of salt, sugar, fat and fibre and usually has no additives, whereas the commercial product has a nutrition declaration that must be checked against the portion size and may be high in salt, sugar or saturated fat. Cost: home-made food from basic ingredients is usually cheaper per portion, while the commercial product carries labour, packaging and distribution costs. Sensory quality: the home-made dish may taste fresher, while the commercial product gives a consistent taste and texture from batch to batch. Convenience: the commercial product needs little time or skill and has a longer shelf life, while the home-made dish needs preparation and cooking time and should be eaten within a short time. Conclusion: the home-made dish is the better choice for nutrition and cost, and the commercial product for convenience. Sensory testing: a preference test, such as a paired preference or hedonic rating test, would show which dish consumers prefer, and a difference test such as a triangle test would show whether the two can be told apart. Testing under controlled conditions, with coded samples at the same temperature and presented in a balanced order, would make the results reliable.",
+    "prompt": "Evaluate a home-made dish against a commercial equivalent, considering nutrition, cost, sensory quality and convenience. Explain how sensory testing could confirm your conclusion.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-food-industry-s1": {
   "keyTerms": [
    {
@@ -13645,6 +14685,722 @@
     "marks": 18,
     "model": "Employment patterns: a dual-income household has more money but less time, so planning, delegation and shared tasks are needed; a single-income household has less money, so budgeting for essentials is critical. Shift work changes meal times and sleep patterns, so routines are built around the shift pattern. Commuting adds time and cost to the budget. Culture: food, dress code, religious practices and festivals shape spending and the timing of tasks; culture also shapes expectations of who does which tasks and who earns income. Link: a family that works shifts and follows a religious festival calendar must plan its meals, budget and time around both, combining the influence of employment and culture on its resource management.",
     "prompt": "Discuss how employment patterns and culture affect the management of a family's resources. Use examples from family life in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-sociological-concepts-s1": {
+  "keyTerms": [
+   {
+    "definition": "A group of people who share a territory, institutions and a common way of life.",
+    "term": "Society"
+   },
+   {
+    "definition": "The learned way of life of a society, including its language, customs, beliefs, values, norms and objects.",
+    "term": "Culture"
+   },
+   {
+    "definition": "The physical objects a society makes and uses.",
+    "term": "Material culture"
+   },
+   {
+    "definition": "A smaller group within a larger society that holds some distinct norms and values.",
+    "term": "Subculture"
+   },
+   {
+    "definition": "A rule of behaviour that a society expects its members to follow.",
+    "term": "Norm"
+   },
+   {
+    "definition": "Everyday conventions of behaviour whose breach brings mild disapproval.",
+    "term": "Folkways"
+   },
+   {
+    "definition": "Norms with strong moral significance whose breach brings serious disapproval.",
+    "term": "Mores"
+   },
+   {
+    "definition": "A reward for conforming to a norm or a penalty for breaking one.",
+    "term": "Sanction"
+   },
+   {
+    "definition": "A broad belief about what is desirable, important or worth striving for.",
+    "term": "Value"
+   },
+   {
+    "definition": "Judging another culture by the standards of one's own culture.",
+    "term": "Ethnocentrism"
+   },
+   {
+    "definition": "Understanding a culture by its own standards rather than by another culture's standards.",
+    "term": "Cultural relativism"
+   },
+   {
+    "definition": "A shared territory, shared institutions and a shared culture.",
+    "term": "Three features that define a society"
+   },
+   {
+    "definition": "Material culture is the physical objects a society makes and uses; non-material culture is language, beliefs, values, norms and customs.",
+    "term": "Two forms of culture"
+   },
+   {
+    "definition": "Positive sanctions reward conformity, such as praise or promotion; negative sanctions punish deviance, such as fines or imprisonment.",
+    "term": "Two types of sanction"
+   },
+   {
+    "definition": "Folkways are everyday conventions whose breach brings mild disapproval; mores carry strong moral weight and their breach brings serious disapproval.",
+    "term": "Folkways compared with mores"
+   },
+   {
+    "definition": "Laws are formally written down, and their breach is punished by officially appointed bodies such as the courts.",
+    "term": "Two defining features of laws as norms"
+   },
+   {
+    "definition": "Respect for life, which underpins the norm against violence.",
+    "term": "Example of a value linked to a norm"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Sociology studies how people organise their lives together. A society is the basic unit of that study.",
+    "h": "Society and culture",
+    "points": [
+     "A society is a group of people who share a territory, a set of institutions and a common way of life.",
+     "Culture is the learned way of life of a society: its language, customs, beliefs, values, norms, art and objects.",
+     "Culture is not inherited biologically; it is learned through socialisation and passed from one generation to the next.",
+     "Material culture is the physical objects a society makes and uses, such as clothing, tools and housing.",
+     "Non-material culture is the intangible side of culture: language, beliefs, values, norms, customs and rituals.",
+     "Members of a society share common symbols and meanings, such as the Irish language and traditional Irish music.",
+     "A subculture is a smaller group within a larger society that holds some distinct norms and values, such as a musical or sporting subculture.",
+     "Ethnocentrism is judging another culture by the standards of one's own culture.",
+     "Cultural relativism is understanding a culture by its own standards rather than by the standards of another culture."
+    ]
+   },
+   {
+    "b": "Norms are the rules that tell people how to behave in a given situation.",
+    "h": "Norms, mores and sanctions",
+    "points": [
+     "A norm is a rule of behaviour that a society expects its members to follow.",
+     "Folkways are everyday conventions, such as queueing at a bus stop; breaking them brings mild disapproval.",
+     "Mores are norms with strong moral significance, such as the prohibition on theft or violence; breaking them brings serious disapproval.",
+     "Laws are norms that are formally written down and enforced by the state through officially appointed bodies such as the courts.",
+     "A sanction is a reward for conforming to a norm or a penalty for breaking one.",
+     "Positive sanctions reward conformity, for example praise, awards or promotion.",
+     "Negative sanctions punish deviance, for example ridicule or ostracism (informal) or fines and imprisonment (formal).",
+     "Deviance is behaviour that breaks a norm; what counts as deviance varies between societies and changes over time.",
+     "Norms about punctuality, personal space and greeting differ from one culture to another."
+    ]
+   },
+   {
+    "b": "Values sit behind norms. A norm is the specific rule; a value is the broad belief that the rule expresses.",
+    "h": "Values",
+    "points": [
+     "A value is a broad belief about what is desirable, important or worth striving for.",
+     "Values are general and abstract; norms are specific rules that put a value into practice.",
+     "Example of a value and its norm: a value placed on respect for life underpins the norm against violence.",
+     "Examples of Irish values include family, education, honesty and equality.",
+     "Core values are held strongly and change slowly; peripheral values are held less firmly and change more readily.",
+     "Values are transmitted through socialisation, first in the family and later through school, peers and the media.",
+     "Values can conflict, for example individual freedom and obligation to the community, and societies resolve such conflicts through norms and laws."
+    ]
+   },
+   {
+    "h": "Answering questions that ask you to explain a set of terms",
+    "points": [
+     "Give each term its own answer so that each one can be credited separately.",
+     "Open with a one-sentence definition that uses the correct sociological meaning.",
+     "Add the point that separates the term from the one most often confused with it, such as folkways from mores or norms from values.",
+     "Give a specific example from Irish or everyday life for each term.",
+     "Where a term links to another in the set, say how: for example, values underpin norms, and norms are enforced by sanctions."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Folkways are everyday conventions of behaviour, and breaking them brings mild disapproval. Example: queueing at a bus stop or shop counter. Mores are norms with strong moral significance, and breaking them brings serious disapproval. Example: the prohibition on theft or violence.",
+    "prompt": "Distinguish between folkways and mores, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Values are broad beliefs about what is important, for example respect for life, honesty or equality. Norms are the specific rules that put values into practice, for example the norm against violence or the norm of telling the truth in court. Mores and laws carry the strongest expression of values, while folkways cover everyday conventions. Sanctions enforce norms: positive sanctions such as praise, awards or promotion reward conformity, and negative sanctions such as ridicule, fines or imprisonment punish deviance. Informal sanctions come from individuals and groups, and formal sanctions come from officially appointed bodies such as the courts. Irish examples: the value placed on education is reflected in the norm of school attendance, enforced informally by parents and formally by the state; the value of equality is reflected in laws against discrimination.",
+    "prompt": "Discuss how values, norms and sanctions work together to keep order in a society, using examples from Irish life.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-sociological-concepts-s2": {
+  "keyTerms": [
+   {
+    "definition": "A social position a person holds within a group or society.",
+    "term": "Status"
+   },
+   {
+    "definition": "A status given at birth or without choice, such as sex or family background.",
+    "term": "Ascribed status"
+   },
+   {
+    "definition": "A status gained through effort or choice, such as a qualification or a job.",
+    "term": "Achieved status"
+   },
+   {
+    "definition": "A status that dominates how others see a person and outweighs their other statuses.",
+    "term": "Master status"
+   },
+   {
+    "definition": "The set of behaviours and expectations attached to a status.",
+    "term": "Role"
+   },
+   {
+    "definition": "A situation in which the incompatible demands of two roles cannot both be met.",
+    "term": "Role conflict"
+   },
+   {
+    "definition": "A situation in which a person has too many roles and cannot meet all the demands placed on them.",
+    "term": "Role overload"
+   },
+   {
+    "definition": "A category of people grouped by occupation, income, education, wealth and housing.",
+    "term": "Socio-economic group"
+   },
+   {
+    "definition": "The division of a society into layers of unequal rank.",
+    "term": "Social stratification"
+   },
+   {
+    "definition": "The movement of an individual or group between socio-economic groups.",
+    "term": "Social mobility"
+   },
+   {
+    "definition": "Movement between groups caused by changes in the occupational structure of the economy.",
+    "term": "Structural mobility"
+   },
+   {
+    "definition": "A comparison of a person's socio-economic position with the position of their parents.",
+    "term": "Intergenerational mobility"
+   },
+   {
+    "definition": "Ascribed status is given at birth or without choice; achieved status is gained through effort or choice.",
+    "term": "Two types of status"
+   },
+   {
+    "definition": "Intergenerational mobility compares a person with their parents; intragenerational mobility compares a person at different points in their own career.",
+    "term": "Two time frames for measuring social mobility"
+   },
+   {
+    "definition": "Low family income, lack of access to third-level education and discrimination.",
+    "term": "Three barriers to social mobility"
+   },
+   {
+    "definition": "Education and qualifications, skills and training, and access to occupations with promotion prospects.",
+    "term": "Three factors that help people move up"
+   },
+   {
+    "definition": "Role conflict arises when two roles make incompatible demands; role overload arises when a person has too many roles to meet.",
+    "term": "Two forms of role pressure"
+   },
+   {
+    "definition": "Growth or decline of particular occupations as the economy changes, such as the expansion of professional and service jobs.",
+    "term": "Cause of structural mobility"
+   },
+   {
+    "definition": "Electrician, plumber, carpenter or motor mechanic.",
+    "term": "Example of a skilled manual occupation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A status is a position a person holds within a group or society. Each person holds several statuses at the same time.",
+    "h": "Status",
+    "points": [
+     "A status is a social position, such as mother, teacher, employee or citizen.",
+     "An ascribed status is given at birth or without choice, for example sex, ethnic origin or the family into which a person is born.",
+     "An achieved status is gained through effort or choice, for example a qualification, a job or a marriage.",
+     "A master status is a status that dominates how others see a person and outweighs the person's other statuses, for example being a serving prisoner.",
+     "Societies that allocate status mainly by birth are described as closed; societies that allocate it mainly by achievement are described as open."
+    ]
+   },
+   {
+    "b": "A role is the behaviour that goes with a status. Roles are learned through socialisation.",
+    "h": "Role",
+    "points": [
+     "A role is the set of behaviours and expectations attached to a status.",
+     "For example, the role of a student includes attending class, completing homework and respecting the teacher.",
+     "Roles change over the life course: a person moves from the role of child to adolescent to adult, and each stage brings different expectations.",
+     "Role conflict occurs when the demands of two roles are incompatible, for example a parent who is also a manager and is asked to work late when a child is ill.",
+     "Role overload occurs when a person has too many roles and cannot meet all the demands placed on them, for example a working parent who also cares for an elderly relative.",
+     "Role conflict and role overload are most common where people hold several demanding roles at once."
+    ]
+   },
+   {
+    "b": "Socio-economic groups classify people by their economic and social position. They are a form of social stratification.",
+    "h": "Socio-economic groupings",
+    "points": [
+     "A socio-economic group is a category of people grouped by occupation, income, education, wealth and housing.",
+     "Social stratification is the division of a society into layers of unequal rank, and socio-economic groups are its most common measure.",
+     "Occupational classifications commonly include professional, managerial and technical, non-manual, skilled manual, semi-skilled and unskilled groups.",
+     "Example of a skilled manual occupation: electrician, plumber, carpenter or motor mechanic.",
+     "Level of education is one of the strongest factors separating socio-economic groups, because it governs access to skilled and professional work.",
+     "Life chances, including educational attainment and health, tend to differ between socio-economic groups."
+    ]
+   },
+   {
+    "b": "Social mobility is the movement of an individual or a group between socio-economic groups.",
+    "h": "Social mobility",
+    "points": [
+     "Upward mobility is movement to a higher socio-economic group, for example a skilled worker who becomes a manager after completing a degree.",
+     "Downward mobility is movement to a lower socio-economic group, for example after the loss of a skilled job with no replacement at the same level.",
+     "Intergenerational mobility compares a person's position with the position of their parents.",
+     "Intragenerational mobility, sometimes called career mobility, compares a person's position at different points in their own working life.",
+     "Structural mobility is movement caused by changes in the occupational structure, such as the growth of professional jobs, even when people's relative positions do not change.",
+     "Exchange mobility is movement in both directions that balances out, so that the overall pattern of relative positions stays the same.",
+     "Factors that help people move up include education and qualifications, skills and training, and access to occupations with promotion prospects.",
+     "Barriers to mobility include low family income, lack of access to third-level education, discrimination and living in an area with few employment opportunities.",
+     "Social mobility is more likely in an open society, where status is achieved, than in a closed society, where status is ascribed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Ascribed status is given at birth or without choice, for example sex, ethnic origin or family background. Achieved status is gained through effort or choice, for example a qualification, a job or a marriage.",
+    "prompt": "Distinguish between ascribed status and achieved status, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Role conflict arises when the incompatible demands of two roles cannot both be met, for example a parent who is also a manager and is asked to work late when a child is ill. Role overload arises when a person holds too many roles, for example a working parent who also cares for an elderly relative. Socio-economic groups are categories based on occupation, income, education, wealth and housing. Social mobility is the movement of individuals between these groups. Education is a key route to upward mobility because qualifications open access to skilled and professional occupations. Upward mobility is movement to a higher group, for example a skilled worker who becomes a manager after a degree. Structural mobility also results from changes in the occupational structure. Barriers such as low family income and limited access to third-level education can prevent education from producing mobility.",
+    "prompt": "Discuss how role conflict and role overload can arise in family and working life, and explain how education can allow a person to move between socio-economic groups.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-sociological-concepts-s3": {
+  "keyTerms": [
+   {
+    "definition": "A small, intimate, face-to-face group with long-lasting relationships, such as the family.",
+    "term": "Primary group"
+   },
+   {
+    "definition": "A larger, formal group organised around a specific goal, with impersonal relationships, such as a school or workplace.",
+    "term": "Secondary group"
+   },
+   {
+    "definition": "A group with which a person identifies and feels loyalty.",
+    "term": "In-group"
+   },
+   {
+    "definition": "A group whose norms and values a person uses to judge their own behaviour.",
+    "term": "Reference group"
+   },
+   {
+    "definition": "The network of relationships between people related by blood, marriage or adoption.",
+    "term": "Kinship"
+   },
+   {
+    "definition": "Relatives related by blood.",
+    "term": "Consanguineal kin"
+   },
+   {
+    "definition": "Relatives related through marriage.",
+    "term": "Affinal kin"
+   },
+   {
+    "definition": "The lifelong process by which people learn the norms, values, roles and skills of their society.",
+    "term": "Socialisation"
+   },
+   {
+    "definition": "Learning the norms of a role or group that a person hopes to join.",
+    "term": "Anticipatory socialisation"
+   },
+   {
+    "definition": "Learning new norms after a major change in life.",
+    "term": "Resocialisation"
+   },
+   {
+    "definition": "Marriage between one husband and one wife at a time.",
+    "term": "Monogamy"
+   },
+   {
+    "definition": "Marriage to more than one spouse at the same time.",
+    "term": "Polygamy"
+   },
+   {
+    "definition": "The family, school, peer group, mass media, religion and the workplace.",
+    "term": "Six agents of socialisation"
+   },
+   {
+    "definition": "Primary groups are small and intimate; secondary groups are larger, formal and goal-oriented.",
+    "term": "Two types of social group"
+   },
+   {
+    "definition": "Consanguineal kin are related by blood; affinal kin are related through marriage.",
+    "term": "Two kinds of kin"
+   },
+   {
+    "definition": "Polygyny is one man with several wives; polyandry is one woman with several husbands.",
+    "term": "Two forms of polygamy"
+   },
+   {
+    "definition": "The family of orientation is the family a person is born into; the family of procreation is the family formed through their own marriage or partnership and children.",
+    "term": "Family of orientation and family of procreation"
+   },
+   {
+    "definition": "A student learning the norms of the workplace before starting an apprenticeship.",
+    "term": "Example of anticipatory socialisation"
+   },
+   {
+    "definition": "Learning new routines, rules and norms on entering military training or prison.",
+    "term": "Example of resocialisation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A social group is two or more people who interact regularly and share a sense of belonging. Groups differ in how close and how formal their relationships are.",
+    "h": "Primary and secondary social groups",
+    "points": [
+     "A primary group is small, intimate and face-to-face, with long-lasting relationships; examples are the family and close friends.",
+     "Primary groups meet emotional needs and shape a person's personality and sense of identity.",
+     "A secondary group is larger and more formal, with relationships that are impersonal and often short-term; examples are a school, a workplace and a trade union.",
+     "Secondary groups are organised around a specific goal, such as completing a course or producing goods.",
+     "An in-group is a group with which a person identifies and feels loyalty; an out-group is a group that members see as different from or opposed to their own.",
+     "A reference group is a group whose norms and values a person uses to judge their own behaviour, even if they are not a member of it."
+    ]
+   },
+   {
+    "b": "Kinship is the network of relationships between people who are related by blood, marriage or adoption.",
+    "h": "Kinship",
+    "points": [
+     "Kinship is a relationship based on blood, marriage or adoption.",
+     "Consanguineal kin are related by blood, for example parents, siblings, grandparents and cousins.",
+     "Affinal kin are related through marriage, for example a spouse's parents, who are in-laws.",
+     "A nuclear family is parents and their dependent children living together as one household.",
+     "An extended family includes kin beyond the nuclear family, such as grandparents, aunts, uncles and cousins, who live together or keep in close contact.",
+     "The family of orientation is the family a person is born into; the family of procreation is the family a person forms through their own marriage or partnership and children.",
+     "Kin networks provide practical and emotional support, including childcare, financial help and care for older members.",
+     "Kinship obligations include mutual support and, in many societies, inheritance rights between relatives."
+    ]
+   },
+   {
+    "b": "Socialisation is the lifelong process by which people learn the norms, values, roles and skills of their society.",
+    "h": "Socialisation",
+    "points": [
+     "Socialisation is lifelong, so it continues in adolescence and adulthood as well as in childhood.",
+     "Primary socialisation takes place in early childhood, mainly within the family, where children learn language, self-control and basic norms.",
+     "Secondary socialisation takes place in wider settings such as school, the peer group, the workplace, religious institutions and the media.",
+     "Agents of socialisation are the people and institutions that transmit norms and values; the main agents are the family, school, peer group, mass media, religion and the workplace.",
+     "The peer group becomes an important agent in adolescence, when young people test independence and learn the norms of their age group.",
+     "Mass media, including television, the internet and social media, transmit norms and values and shape consumer habits.",
+     "Anticipatory socialisation is learning the norms of a role or group that a person hopes to join, such as a student learning workplace norms before starting an apprenticeship.",
+     "Resocialisation is learning new norms after a major change in life, such as entering the army or prison, where old habits are replaced.",
+     "Through socialisation the culture of a society is passed from one generation to the next, which maintains continuity over time."
+    ]
+   },
+   {
+    "b": "Monogamy is one form of marriage; the other forms are classed as polygamy.",
+    "h": "Monogamy (also examined)",
+    "points": [
+     "Monogamy is marriage between one husband and one wife at a time.",
+     "Monogamy is the norm in the Western world, and it is the only form of marriage recognised in Ireland.",
+     "Polygamy is marriage to more than one spouse at the same time; polygyny is one man with several wives, and polyandry is one woman with several husbands.",
+     "Polygamy is illegal in Ireland.",
+     "Bigamy is entering a marriage while still legally married to another person.",
+     "Serial monogamy is a succession of monogamous marriages, one after another, following divorce or the death of a spouse.",
+     "Spouses in a monogamous marriage are expected to remain faithful and loyal to each other, live together, and support one another and their children financially.",
+     "Civil and religious marriages are both legally recognised in Ireland, and both are monogamous."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A primary group is small, intimate and face-to-face, with long-lasting relationships, for example the family or close friends. It meets emotional needs and shapes personality. A secondary group is larger and more formal, with impersonal and often short-term relationships, organised around a goal, for example a school, a workplace or a trade union.",
+    "prompt": "Explain the difference between a primary social group and a secondary social group, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Socialisation is the lifelong process by which people learn the norms, values, roles and skills of their society. Primary socialisation takes place in early childhood, mainly in the family, where children learn language, self-control and basic norms. Secondary socialisation takes place in school, through the peer group, in religious institutions, in the workplace and through the media. The peer group becomes important in adolescence, when young people test independence and learn the norms of their age group. Anticipatory socialisation prepares a person for a role they hope to take up, and resocialisation replaces old norms after a major change. Through socialisation culture passes from one generation to the next. Kinship is the network of relationships based on blood, marriage or adoption. Consanguineal kin are related by blood and affinal kin through marriage. Extended family members provide childcare, financial help and care for older relatives, and kin networks give practical and emotional support in times of difficulty. Kinship obligations include mutual support and inheritance in many societies.",
+    "prompt": "Explain how the family and other agents of socialisation prepare a child for adult life, and discuss the part played by kinship in supporting family members.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-sociological-concepts-s4": {
+  "keyTerms": [
+   {
+    "definition": "An organised set of norms, roles and values that meets a basic need of society.",
+    "term": "Social institution"
+   },
+   {
+    "definition": "The view that each institution performs functions that help keep society stable.",
+    "term": "Functionalism"
+   },
+   {
+    "definition": "An intended and recognised result of an institution.",
+    "term": "Manifest function"
+   },
+   {
+    "definition": "An unintended and often hidden result of an institution.",
+    "term": "Latent function"
+   },
+   {
+    "definition": "The division of government into legislature, executive and judiciary, so that no single branch holds unchecked authority.",
+    "term": "Separation of powers"
+   },
+   {
+    "definition": "The national parliament of Ireland, consisting of the President, Dáil Éireann and Seanad Éireann.",
+    "term": "Oireachtas"
+   },
+   {
+    "definition": "The degree to which members of a society share values and feel bound together.",
+    "term": "Social cohesion"
+   },
+   {
+    "definition": "The household, which pools income and shares consumption and work.",
+    "term": "Basic economic unit"
+   },
+   {
+    "definition": "The family, education, religion, the economy and government.",
+    "term": "Five main social institutions"
+   },
+   {
+    "definition": "Reproduction of the population, socialisation of children, and care and economic support of its members.",
+    "term": "Three functions of the family"
+   },
+   {
+    "definition": "Transmitting knowledge and skills, passing on the culture and national identity, and sorting people into positions by qualification.",
+    "term": "Three functions of education"
+   },
+   {
+    "definition": "The legislature makes laws, the executive carries them out, and the judiciary interprets and applies them.",
+    "term": "Three branches of government"
+   },
+   {
+    "definition": "The President, Dáil Éireann and Seanad Éireann.",
+    "term": "Three parts of the Oireachtas"
+   },
+   {
+    "definition": "A manifest function is intended and recognised; a latent function is unintended and often hidden.",
+    "term": "Two types of function"
+   },
+   {
+    "definition": "Providing supervised care for children while their parents are at work.",
+    "term": "Example of a latent function of school"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A social institution is an organised set of norms, roles and values that meets a basic need of society. Institutions last across generations, while individual groups come and go.",
+    "h": "What a social institution is",
+    "points": [
+     "A social institution is an organised set of norms, roles and values built around a basic need of society.",
+     "The five main social institutions are the family, education, religion, the economy and government.",
+     "Functionalism is the view that each institution performs functions that help keep society stable.",
+     "A manifest function is an intended and recognised result of an institution, for example the school's function of educating young people.",
+     "A latent function is an unintended and often hidden result of an institution, for example a school providing supervised care for children while parents are at work."
+    ]
+   },
+   {
+    "h": "The family",
+    "points": [
+     "The family is the institution that reproduces the population and provides for the care of children, older people and dependants.",
+     "The family socialises children, passing on language, norms, values and skills.",
+     "The family is the basic economic unit of consumption and provides economic support through shared income and household work.",
+     "The family provides emotional security and a sense of belonging and identity."
+    ]
+   },
+   {
+    "h": "Education",
+    "points": [
+     "Education transmits knowledge, skills and the culture of a society from one generation to the next.",
+     "Education promotes social cohesion by teaching shared history, language and civic values, such as the Irish language and Irish history in Irish schools.",
+     "Education sorts and allocates people to positions in the economy by means of qualifications.",
+     "In Ireland, education runs through primary, post-primary, further and higher education, and the Leaving Certificate is the state examination that most students use for entry to third-level courses.",
+     "Education can also support social mobility by giving people qualifications that open access to skilled and professional occupations."
+    ]
+   },
+   {
+    "h": "Religion",
+    "points": [
+     "Religion provides a system of beliefs that gives meaning to life and explains events that cannot be explained by science alone.",
+     "Religion provides moral codes that guide behaviour and reinforce many of a society's norms and values.",
+     "Religious rituals mark key stages of life, such as birth, marriage and death.",
+     "Religious institutions provide community networks and social support to their members.",
+     "In Ireland many primary schools and hospitals were historically founded and run by religious bodies, and many schools still have a religious patron."
+    ]
+   },
+   {
+    "h": "The economy",
+    "points": [
+     "The economic institution organises the production, distribution and consumption of goods and services.",
+     "Employment is the main way the economy allocates status and income to individuals and families.",
+     "Economic institutions include businesses, banks, markets and the systems of trade through which goods move between producers and consumers.",
+     "Economic institutions shape family life, for example by determining whether one or both parents must work outside the home."
+    ]
+   },
+   {
+    "h": "Government and the political system",
+    "points": [
+     "The political institution maintains order, makes laws and provides public services, including social welfare.",
+     "Political institutions are typically divided into three branches of government: the legislature, which makes laws; the executive, which carries them out; and the judiciary, which interprets and applies them.",
+     "This division of powers is called the separation of powers, and it prevents any one branch from holding unchecked authority.",
+     "In Ireland the Oireachtas, the national parliament, consists of the President, Dáil Éireann and Seanad Éireann.",
+     "Citizens take part in government by electing representatives to the Dáil in general elections."
+    ]
+   },
+   {
+    "h": "Health and the media",
+    "points": [
+     "The health institution promotes health and provides care and treatment for illness and injury.",
+     "In Ireland the public health service is provided through the Health Service Executive.",
+     "The media, including newspapers, radio, television and online platforms, inform the public and entertain it.",
+     "The media also shape public opinion and transmit norms and values, which makes them both an institution and an agent of socialisation."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Reproduction of the population, for example through having and raising children. Socialisation of children, for example teaching them language, norms and values in the home. Care and economic support of members, for example caring for an elderly relative or sharing household income and work.",
+    "prompt": "Name three functions of the family as a social institution, and give one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Education transmits knowledge, skills and culture from one generation to the next, promotes social cohesion through shared language and history, and sorts people into positions in the economy by qualifications. Education can produce change by opening access to skilled occupations and so supporting social mobility. The economy organises production, distribution and consumption, and allocates status and income through employment. Its stability depends on the employment it provides, and it can produce change when the occupational structure shifts, for example through the growth of professional and service jobs, which changes the balance of socio-economic groups and the pattern of family life.",
+    "prompt": "Discuss how the education system and the economy contribute to the stability of society, and explain how each can also be a source of change.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-sociological-concepts-s5": {
+  "keyTerms": [
+   {
+    "definition": "A significant alteration in the structures, institutions, relationships, values or behaviour of a society over time.",
+    "term": "Social change"
+   },
+   {
+    "definition": "The delay between the appearance of a new material invention and the adjustment of norms and institutions to it.",
+    "term": "Cultural lag"
+   },
+   {
+    "definition": "The movement of people from rural areas to towns and cities.",
+    "term": "Urbanisation"
+   },
+   {
+    "definition": "The development of factory production, which moves workers from farms and rural trades into towns.",
+    "term": "Industrialisation"
+   },
+   {
+    "definition": "The spread of ideas, fashions and practices between societies.",
+    "term": "Cultural diffusion"
+   },
+   {
+    "definition": "The growth of economic and cultural links between countries, so that changes in one country affect others.",
+    "term": "Globalisation"
+   },
+   {
+    "definition": "The advantage a group gains from the existing system, which may lead it to oppose change.",
+    "term": "Vested interest"
+   },
+   {
+    "definition": "Change in the size, age structure or birth rate of a population.",
+    "term": "Demographic change"
+   },
+   {
+    "definition": "Technological, economic, legal and political, and demographic change.",
+    "term": "Four causes of social change"
+   },
+   {
+    "definition": "Gradual change builds up slowly over decades; rapid change happens suddenly, often through a single law or event.",
+    "term": "Two rates at which social change occurs"
+   },
+   {
+    "definition": "1995.",
+    "term": "Year of the Irish divorce referendum"
+   },
+   {
+    "definition": "Vested interests, tradition and religious belief, and fear of the unknown.",
+    "term": "Three reasons people resist social change"
+   },
+   {
+    "definition": "Laws and social norms on privacy and online conduct lagging behind the rapid spread of social media.",
+    "term": "Example of cultural lag"
+   },
+   {
+    "definition": "Greater demand for health and care services, and greater need for support for older people.",
+    "term": "Two effects of an ageing population"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Social change is a significant alteration in the structures, institutions, relationships, values or behaviour of a society over time.",
+    "h": "What social change is",
+    "points": [
+     "Social change can be gradual, such as the slow shift in attitudes to the role of women over several decades, or rapid, such as a sudden change in law.",
+     "Cultural lag is the gap in time between the appearance of a new material invention and the adjustment of norms and institutions to it; the concept was developed by the sociologist William Ogburn.",
+     "A society in which change is accepted easily has a higher rate of adaptation than one in which tradition is strongly defended."
+    ]
+   },
+   {
+    "h": "Causes of social change",
+    "points": [
+     "Technological change: the spread of the internet and smartphones has changed how people communicate, work and spend leisure time.",
+     "Economic change: industrialisation moved many workers from farms and rural trades into factories and towns.",
+     "Urbanisation: the movement of people from rural areas to towns and cities weakens close kin ties and brings new lifestyles and services.",
+     "Demographic change: falling birth rates, an ageing population and longer life expectancy alter the structure of households and the demand for services.",
+     "Legal and political change: new laws change behaviour and norms; in Ireland, divorce became legal after a referendum in 1995 and the Family Law (Divorce) Act 1996 set out the process.",
+     "Cultural diffusion: ideas, fashions and practices spread between societies through travel, migration and the media.",
+     "Globalisation: economic and cultural links between countries increase, so that events and ideas in one country affect others.",
+     "Social movements and pressure groups campaign for change, for example in favour of equality, and gain support for their aims.",
+     "Education: wider access to education changes attitudes, expectations and the value placed on qualifications."
+    ]
+   },
+   {
+    "b": "Social change affects the family, the economy and everyday life, and its effects can be both positive and negative.",
+    "h": "Effects of social change",
+    "points": [
+     "Changing gender roles: more women take part in paid employment, and household tasks are more often shared between partners.",
+     "Smaller families: many couples have fewer children or have them later in life.",
+     "Changing family structures: lone-parent and blended families have become more common.",
+     "An ageing population increases demand for health and care services and for support for older people.",
+     "Changes in values, such as greater acceptance of diversity, change the norms people expect of one another.",
+     "Social change can cause tension and conflict between groups that hold different values, for example older and younger generations.",
+     "Rapid change can leave some groups behind, for example people whose skills are no longer needed in changing industries."
+    ]
+   },
+   {
+    "h": "Resistance to change",
+    "points": [
+     "Vested interests are groups who benefit from the existing system and may oppose changes that would reduce their advantages.",
+     "Tradition and religious belief can resist changes in norms and values that conflict with long-held teachings.",
+     "Fear of the unknown and uncertainty about the consequences of change make people reluctant to accept it.",
+     "The cost of change, in money, time and disruption, can slow or prevent it."
+    ]
+   },
+   {
+    "h": "Social change in Ireland",
+    "points": [
+     "Divorce: Irish voters approved divorce by referendum in 1995, and the Family Law (Divorce) Act 1996 made it available in Ireland.",
+     "Women in employment: the proportion of women in paid work increased substantially from the 1970s onwards.",
+     "Migration: movement into Ireland increased during the Celtic Tiger period of the 1990s and 2000s, bringing new languages, cultures and religions.",
+     "Irish families and communities have been affected by emigration and return migration, which move relatives apart and then back together."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Technological change, for example the spread of the internet and smartphones, which changed how people communicate, work and spend leisure time. Urbanisation, for example the movement of people from rural areas to towns and cities, which loosened close kin ties and brought new lifestyles.",
+    "prompt": "Outline two causes of social change, giving an example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Causes include technological change, such as the spread of the internet and smartphones; economic change, such as industrialisation and the growth of services, which moved workers from rural trades into towns; urbanisation, which weakened close kin ties; demographic change, such as falling birth rates and an ageing population; and legal change, such as the 1995 divorce referendum and the Family Law (Divorce) Act 1996. Cultural diffusion through migration and the media, and globalisation, also introduced new ideas. Effects include changing gender roles, with more women in paid employment and more shared household tasks; smaller families and later childbearing; changing family structures, including lone-parent and blended families; increased demand for health and care services because of an ageing population; and changing values, such as greater acceptance of diversity. Change can cause tension between generations and leave some groups behind when their skills are no longer needed. Resistance from vested interests, tradition and fear of the unknown can slow change, and cultural lag can mean norms take time to catch up with technology.",
+    "prompt": "Discuss the causes and effects of social change in Ireland over recent decades.",
     "type": "short"
    }
   ]
