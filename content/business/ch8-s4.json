@@ -4,77 +4,158 @@
   "subsection": "4. The digital economy and technology-driven business models",
   "syllabusRef": "2.3.6, 2.3.7",
   "notes": [
-    { "h": "Digital technology as a driver of change", "b": "Digital technology has changed how businesses sell, serve customers and organise their work, creating both threats and opportunities.", "points": [
-      "E-commerce lets a business sell online to customers anywhere, reducing the need for physical premises in every location.",
-      "Platforms connect buyers and sellers, or users and content, so the platform owner earns income from the connections it makes possible.",
-      "Data collected from customers allows businesses to target products and to understand buying patterns that were previously hidden.",
-      "Artificial intelligence and automation cut labour costs and speed up tasks such as customer service and stock control, but they can also displace some jobs.",
-      "Digital change can have internal drivers, such as a business seeking lower costs, or external drivers, such as customers who now shop online."
-    ] },
-    { "h": "Marketplace model", "b": "A marketplace model brings buyers and sellers together on a digital platform and earns income by charging a fee on transactions.", "points": [
-      "It earns income through a commission or listing fee on each sale or booking completed through the platform.",
-      "Key characteristics: the platform owns little or no stock, grows as more buyers and sellers join, and benefits from network effects.",
-      "Advantages: low inventory risk, rapid scalability and a wide reach that gives small sellers access to customers they could not reach alone.",
-      "Disadvantages: the platform must attract enough users on both sides, and it faces disputes over quality, delivery and fees.",
-      "Example (verify): Etsy, an online marketplace where independent sellers list handmade and vintage goods for a commission."
-    ] },
-    { "h": "Subscription model in the digital economy", "b": "Digital subscription models charge a recurring fee for continuous access to online content, software or services.", "points": [
-      "Revenue comes from monthly or annual payments, often with a free or cheaper tier that brings users in before they pay.",
-      "Key characteristics: revenue is predictable, the service is updated continuously and keeping customers is central to success.",
-      "Advantages: predictable income, a close link to customers through usage data and lower marketing costs for existing users.",
-      "Disadvantages: subscribers can cancel with little effort, so the business must keep adding value, and cancellations are costly.",
-      "Example (verify): Netflix, which provides on-demand film and television for a regular fee."
-    ] },
-    { "h": "Crowdfunding as a model and a source of finance", "b": "Crowdfunding raises money from many people, usually through an online platform, and it is both a business model and a way of obtaining finance.", "points": [
-      "The platform takes a fee on the funds raised, while the business gains finance from many backers at once.",
-      "Reward crowdfunding: backers receive a product or perk in return for their contribution, which suits consumer products.",
-      "Equity crowdfunding: backers buy shares in the business, so they share in its success and its risks.",
-      "Lending crowdfunding: backers lend money to the business, which repays them with interest over an agreed period.",
-      "Advantages: finance without a bank loan, a market test for a product before launch and a ready group of supporters.",
-      "Disadvantages: campaigns can fail to reach their target, platform fees apply, and reward backers may wait a long time for their items.",
-      "Example (verify): a small food or design business that pre-sells a first product run to backers on a rewards platform."
-    ] },
-    { "h": "Advertising-supported model", "b": "An advertising-supported model gives users a service free of charge and earns its income by selling access to their attention to advertisers.", "points": [
-      "Advertisers pay for placements, often according to the number of views, clicks or the targeted audience reached.",
-      "Key characteristics: a large user base is essential, and the business uses data to target adverts more precisely.",
-      "Advantages: users pay nothing, which widens reach, and income grows as the audience grows.",
-      "Disadvantages: revenue depends on the advertising market, some users dislike adverts, and privacy concerns can bring tighter regulation.",
-      "Example (verify): a social media platform or a free search engine that funds its free service through targeted advertising."
-    ] },
-    { "h": "Digital models compared with non-digital models", "b": "Digital models share the core logic of traditional models, but they differ in cost structure, reach, growth and the data they collect.", "points": [
-      "Similarity: both must create value for customers and capture enough income to cover their costs.",
-      "Cost structure: digital models often have high fixed costs for software and data, but a low extra cost for each additional user.",
-      "Reach: a digital business can serve customers in other countries with little additional physical presence.",
-      "Growth: network and scale effects let digital models grow faster than models that need premises or extra staff for every new customer.",
-      "Data: digital models collect customer behaviour continuously, which non-digital models rarely do on the same scale."
-    ] },
-    { "h": "How Irish businesses have adapted", "b": "Irish firms have moved online or added new models in response to customer demand and competition.", "points": [
-      "A traditional retailer may sell online and offer click-and-collect, so customers order from home and collect from a local store.",
-      "A food producer may launch a subscription box delivered to homes, creating recurring income from loyal customers.",
-      "Tesco Ireland (verify) offers online grocery ordering with home delivery, extending a store-based business into digital channels."
-    ] }
+    {
+      "h": "Digital technology as a driver of change",
+      "b": "Digital technology has changed how businesses sell, serve customers and organise their work, creating both threats and opportunities.",
+      "points": [
+        "E-commerce lets a business sell online to customers anywhere, reducing the need for physical premises in every location.",
+        "Platforms connect buyers and sellers, or users and content, so the platform owner earns income from the connections it makes possible.",
+        "Data collected from customers allows businesses to target products and to understand buying patterns that were previously hidden.",
+        "Artificial intelligence and automation cut labour costs and speed up tasks such as customer service and stock control, but they can also displace some jobs.",
+        "Digital change can have internal drivers, such as a business seeking lower costs, or external drivers, such as customers who now shop online."
+      ]
+    },
+    {
+      "h": "Marketplace model",
+      "b": "A marketplace model brings buyers and sellers together on a digital platform and earns income by charging a fee on transactions.",
+      "points": [
+        "It earns income through a commission or listing fee on each sale or booking completed through the platform.",
+        "Key characteristics: the platform owns little or no stock, grows as more buyers and sellers join, and benefits from network effects.",
+        "Advantages: low inventory risk, rapid scalability and a wide reach that gives small sellers access to customers they could not reach alone.",
+        "Disadvantages: the platform must attract enough users on both sides, and it faces disputes over quality, delivery and fees.",
+        "Example: Etsy, an online marketplace where independent sellers list handmade and vintage goods for a commission."
+      ]
+    },
+    {
+      "h": "Subscription model in the digital economy",
+      "b": "Digital subscription models charge a recurring fee for continuous access to online content, software or services.",
+      "points": [
+        "Revenue comes from monthly or annual payments, often with a free or cheaper tier that brings users in before they pay.",
+        "Key characteristics: revenue is predictable, the service is updated continuously and keeping customers is central to success.",
+        "Advantages: predictable income, a close link to customers through usage data and lower marketing costs for existing users.",
+        "Disadvantages: subscribers can cancel with little effort, so the business must keep adding value, and cancellations are costly.",
+        "Example: Netflix, which provides on-demand film and television for a regular fee."
+      ]
+    },
+    {
+      "h": "Crowdfunding as a model and a source of finance",
+      "b": "Crowdfunding raises money from many people, usually through an online platform, and it is both a business model and a way of obtaining finance.",
+      "points": [
+        "The platform takes a fee on the funds raised, while the business gains finance from many backers at once.",
+        "Reward crowdfunding: backers receive a product or perk in return for their contribution, which suits consumer products.",
+        "Equity crowdfunding: backers buy shares in the business, so they share in its success and its risks.",
+        "Lending crowdfunding: backers lend money to the business, which repays them with interest over an agreed period.",
+        "Advantages: finance without a bank loan, a market test for a product before launch and a ready group of supporters.",
+        "Disadvantages: campaigns can fail to reach their target, platform fees apply, and reward backers may wait a long time for their items.",
+        "Example: a small food or design business that pre-sells a first product run to backers on a rewards platform."
+      ]
+    },
+    {
+      "h": "Advertising-supported model",
+      "b": "An advertising-supported model gives users a service free of charge and earns its income by selling access to their attention to advertisers.",
+      "points": [
+        "Advertisers pay for placements, often according to the number of views, clicks or the targeted audience reached.",
+        "Key characteristics: a large user base is essential, and the business uses data to target adverts more precisely.",
+        "Advantages: users pay nothing, which widens reach, and income grows as the audience grows.",
+        "Disadvantages: revenue depends on the advertising market, some users dislike adverts, and privacy concerns can bring tighter regulation.",
+        "Example: a social media platform or a free search engine that funds its free service through targeted advertising."
+      ]
+    },
+    {
+      "h": "Digital models compared with non-digital models",
+      "b": "Digital models share the core logic of traditional models, but they differ in cost structure, reach, growth and the data they collect.",
+      "points": [
+        "Similarity: both must create value for customers and capture enough income to cover their costs.",
+        "Cost structure: digital models often have high fixed costs for software and data, but a low extra cost for each additional user.",
+        "Reach: a digital business can serve customers in other countries with little additional physical presence.",
+        "Growth: network and scale effects let digital models grow faster than models that need premises or extra staff for every new customer.",
+        "Data: digital models collect customer behaviour continuously, which non-digital models rarely do on the same scale."
+      ]
+    },
+    {
+      "h": "How Irish businesses have adapted",
+      "b": "Irish firms have moved online or added new models in response to customer demand and competition.",
+      "points": [
+        "A traditional retailer may sell online and offer click-and-collect, so customers order from home and collect from a local store.",
+        "A food producer may launch a subscription box delivered to homes, creating recurring income from loyal customers.",
+        "Tesco Ireland offers online grocery ordering with home delivery, extending a store-based business into digital channels."
+      ]
+    }
   ],
   "keyTerms": [
-    { "term": "digital economy", "definition": "The part of economic activity based on digital technology, including online trading, platforms and the use of data." },
-    { "term": "marketplace model", "definition": "A business model that brings buyers and sellers together on a platform and earns a fee on each transaction." },
-    { "term": "crowdfunding", "definition": "Raising money from many individuals, usually online, in exchange for a reward, shares or repayment." },
-    { "term": "reward crowdfunding", "definition": "A form of crowdfunding in which backers receive a product or perk in return for their contribution." },
-    { "term": "advertising-supported model", "definition": "A business model that provides a service free to users and earns income from advertisers who pay to reach them." },
-    { "term": "subscription model", "definition": "A business model that charges a recurring fee for continued access to a product or service." },
-    { "term": "network effects", "definition": "The increase in a platform's value to each user as more people join it, which draws in still more users." },
-    { "term": "e-commerce", "definition": "Buying and selling goods or services online, using websites, apps or other digital channels." },
-    { "term": "churn", "definition": "The rate at which customers stop using or cancel a subscription service, reducing the base of paying users." }
+    {
+      "term": "digital economy",
+      "definition": "The part of economic activity based on digital technology, including online trading, platforms and the use of data."
+    },
+    {
+      "term": "marketplace model",
+      "definition": "A business model that brings buyers and sellers together on a platform and earns a fee on each transaction."
+    },
+    {
+      "term": "crowdfunding",
+      "definition": "Raising money from many individuals, usually online, in exchange for a reward, shares or repayment."
+    },
+    {
+      "term": "reward crowdfunding",
+      "definition": "A form of crowdfunding in which backers receive a product or perk in return for their contribution."
+    },
+    {
+      "term": "advertising-supported model",
+      "definition": "A business model that provides a service free to users and earns income from advertisers who pay to reach them."
+    },
+    {
+      "term": "subscription model",
+      "definition": "A business model that charges a recurring fee for continued access to a product or service."
+    },
+    {
+      "term": "network effects",
+      "definition": "The increase in a platform's value to each user as more people join it, which draws in still more users."
+    },
+    {
+      "term": "e-commerce",
+      "definition": "Buying and selling goods or services online, using websites, apps or other digital channels."
+    },
+    {
+      "term": "churn",
+      "definition": "The rate at which customers stop using or cancel a subscription service, reducing the base of paying users."
+    }
   ],
   "factCards": [
-    { "term": "Four technology-driven models", "definition": "Marketplace, subscription, crowdfunding and advertising-supported." },
-    { "term": "Three crowdfunding types", "definition": "Reward, equity and lending. Reward backers get a product or perk, equity backers buy shares, and lenders are repaid with interest." },
-    { "term": "Main revenue of the advertising model", "definition": "Fees from advertisers paid per view, per click or per targeted audience reached." },
-    { "term": "Cost contrast in digital models", "definition": "High fixed costs for software and data, but a low extra cost for each additional user." },
-    { "term": "Two drivers of digital change", "definition": "Internal drivers such as a wish to cut costs, and external drivers such as changing customer behaviour." },
-    { "term": "Main risk of a marketplace", "definition": "It depends on attracting enough buyers and sellers on both sides of the platform." }
+    {
+      "term": "Four technology-driven models",
+      "definition": "Marketplace, subscription, crowdfunding and advertising-supported."
+    },
+    {
+      "term": "Three crowdfunding types",
+      "definition": "Reward, equity and lending. Reward backers get a product or perk, equity backers buy shares, and lenders are repaid with interest."
+    },
+    {
+      "term": "Main revenue of the advertising model",
+      "definition": "Fees from advertisers paid per view, per click or per targeted audience reached."
+    },
+    {
+      "term": "Cost contrast in digital models",
+      "definition": "High fixed costs for software and data, but a low extra cost for each additional user."
+    },
+    {
+      "term": "Two drivers of digital change",
+      "definition": "Internal drivers such as a wish to cut costs, and external drivers such as changing customer behaviour."
+    },
+    {
+      "term": "Main risk of a marketplace",
+      "definition": "It depends on attracting enough buyers and sellers on both sides of the platform."
+    }
   ],
   "questions": [
-    { "marks": 15, "prompt": "Describe how crowdfunding works as a source of finance for a start-up, and give two features of the advertising-supported model.", "model": "Crowdfunding lets a start-up raise money from many individuals through an online platform, rather than from a bank or a small group of investors. The start-up sets a funding target and a deadline, and if the target is reached the money is collected. Depending on the type, backers receive a reward, shares or repayment with interest. Two features of the advertising-supported model are that the service is free to users, so its reach is wide, and that revenue depends on advertisers paying according to views, clicks or targeted audiences. The model also depends on a large user base, because income grows only as the audience grows." },
-    { "marks": 20, "prompt": "Compare a digital subscription business with a marketplace platform on how each earns revenue, what it costs to run, and how easily it can grow.", "model": "Revenue: a subscription business earns recurring payments from each customer, so income is predictable, while a marketplace earns a commission or fee on each transaction, so income depends on sales volume. Cost: a subscription service has high fixed costs for content or software, and each extra subscriber costs little. A marketplace owns little stock, so its main costs are technology, trust and safety, and customer support. Growth: both can scale quickly, but a marketplace grows through network effects, because each new buyer or seller makes the platform more valuable to others. A subscription business grows by attracting and keeping subscribers, and it faces churn when subscribers cancel. Overall, the subscription model offers steadier income, while the marketplace offers faster growth but depends on keeping both sides of the platform active." }
+    {
+      "marks": 15,
+      "prompt": "Describe how crowdfunding works as a source of finance for a start-up, and give two features of the advertising-supported model.",
+      "model": "Crowdfunding lets a start-up raise money from many individuals through an online platform, rather than from a bank or a small group of investors. The start-up sets a funding target and a deadline, and if the target is reached the money is collected. Depending on the type, backers receive a reward, shares or repayment with interest. Two features of the advertising-supported model are that the service is free to users, so its reach is wide, and that revenue depends on advertisers paying according to views, clicks or targeted audiences. The model also depends on a large user base, because income grows only as the audience grows."
+    },
+    {
+      "marks": 20,
+      "prompt": "Compare a digital subscription business with a marketplace platform on how each earns revenue, what it costs to run, and how easily it can grow.",
+      "model": "Revenue: a subscription business earns recurring payments from each customer, so income is predictable, while a marketplace earns a commission or fee on each transaction, so income depends on sales volume. Cost: a subscription service has high fixed costs for content or software, and each extra subscriber costs little. A marketplace owns little stock, so its main costs are technology, trust and safety, and customer support. Growth: both can scale quickly, but a marketplace grows through network effects, because each new buyer or seller makes the platform more valuable to others. A subscription business grows by attracting and keeping subscribers, and it faces churn when subscribers cancel. Overall, the subscription model offers steadier income, while the marketplace offers faster growth but depends on keeping both sides of the platform active."
+    }
   ]
 }
