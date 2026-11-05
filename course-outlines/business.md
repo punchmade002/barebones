@@ -28,10 +28,9 @@
   user's approval (ch0, ch2–ch5, ch13–ch15, ch18–ch19) are outlined in Appendix B. They have no
   notes yet: 86 of the 138 learning outcomes (62%) still have no content in the app.
 - **Subsection ids** for notes are `<chapter-id>-s<n>` (e.g. `ch9-s3`), in the order below.
-  ch0–ch9 use them in `data.js` (split 2026-11-05, when their notes were written), as do the
-  other added chapters. ch10–ch12, ch16 and ch17 still list the old per-outcome entries
-  (`lo10-1` etc.) with the old notes from `business-content.js`; split them, and remove their
-  block from that file, when their notes are written.
+  Every chapter uses them in `data.js` (split 2026-11-05, when notes were first written for
+  the whole course). The old per-outcome entries (`lo1-1` etc.) and `business-content.js`, which
+  held the pre-restructure notes, were retired then; they remain in git history.
 - **What each subsection contains:**
   - **Syllabus**: what the specification says students learn about and should be able to do,
     close to its wording. This is the required scope; every item must be covered.
