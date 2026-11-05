@@ -1,0 +1,137 @@
+{
+  "loId": "hom-dairy-eggs-s5",
+  "chapterId": "hom-dairy-eggs",
+  "subsection": "5. Eggs: structure, nutritional significance and contribution to the diet",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Shell and air cell",
+      "points": [
+        "Shell: porous calcium carbonate that protects the contents and allows gases to pass through.",
+        "Shell membranes: two thin membranes lining the shell that help keep out bacteria.",
+        "Air cell: a pocket at the blunt end between the membranes, which enlarges as the egg ages and indicates its freshness.",
+        "Diagram: cross-section of an egg, labelling shell, shell membranes and air cell."
+      ]
+    },
+    {
+      "h": "Albumen, yolk and their attachments",
+      "b": "The two liquid parts of the egg are held in place by structures that anchor the yolk at the centre.",
+      "points": [
+        "Albumen (white): surrounds the yolk and is a watery mixture of proteins, mainly albumin, ovalbumin and globulin.",
+        "Chalazae: two cord-like strands of albumen that anchor the yolk in the centre of the egg.",
+        "Yolk: a rich, yellow centre surrounded by the vitelline membrane, containing fat, lecithin, cholesterol, proteins, vitamins and minerals.",
+        "Germinal disc: a small spot on the surface of the yolk, which would develop into a chick if fertilised.",
+        "Diagram: the albumen, chalazae, vitelline membrane, yolk and germinal disc, labelled on the same cross-section."
+      ]
+    },
+    {
+      "h": "Nutritive value of eggs",
+      "points": [
+        "Protein is about 13% of the egg and is high biological value (HBV), with a biological value of 100%.",
+        "White protein: albumin, ovalbumin and globulin. Yolk protein: vitellin and livetin.",
+        "Fat is about 12%, almost all in the yolk, and is mostly saturated and finely emulsified by lecithin.",
+        "The white is fat-free; cholesterol is found only in the yolk.",
+        "Eggs contain no carbohydrate and no fibre.",
+        "Fat-soluble vitamins A, D, E and K are found in the yolk.",
+        "B group vitamins are found in both the white and the yolk, including B1, B2, niacin and B12.",
+        "Eggs lack vitamin C.",
+        "Minerals make up about 1% of the egg: calcium, phosphorus, zinc and sulphur, with iron in the yolk.",
+        "The egg is about 75% water.",
+        "Free-range eggs can contain higher levels of some vitamins, such as niacin and B12, than eggs from caged hens."
+      ]
+    },
+    {
+      "h": "Contribution of eggs to the diet",
+      "points": [
+        "Eggs are cheap, nutritious and suitable for people on low budgets.",
+        "Eggs are a protein alternative to meat and fish.",
+        "Eggs supply HBV protein for lacto-vegetarians, who eat dairy products and eggs.",
+        "Eggs are easily digested, so they suit children, older people and convalescents.",
+        "Eggs are quick and easy to cook, and are versatile in sweet and savoury dishes.",
+        "Eggs can be eaten alone, or with toast or other carbohydrate foods to make a meal.",
+        "Eggs contain saturated fat and cholesterol, so intake should be moderate for people limiting cholesterol.",
+        "Eggs should be served with complex carbohydrate, fibre and vitamin C foods to balance the diet."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Albumen",
+      "definition": "The white of the egg, a watery mixture of proteins that surrounds the yolk."
+    },
+    {
+      "term": "Yolk",
+      "definition": "The yellow centre of the egg, rich in fat, lecithin, cholesterol, vitamins and minerals."
+    },
+    {
+      "term": "Chalazae",
+      "definition": "Two cord-like strands of albumen that anchor the yolk in the centre of the egg."
+    },
+    {
+      "term": "Air cell",
+      "definition": "The pocket at the blunt end of the egg between the shell membranes, which enlarges as the egg ages."
+    },
+    {
+      "term": "Shell membrane",
+      "definition": "One of the two thin membranes lining the shell, which help keep bacteria out."
+    },
+    {
+      "term": "Germinal disc",
+      "definition": "The small spot on the yolk surface, which would develop into a chick if fertilised."
+    },
+    {
+      "term": "Ovalbumin",
+      "definition": "The main protein in the egg white, which is high biological value."
+    },
+    {
+      "term": "Lacto-vegetarian",
+      "definition": "A person who eats dairy products and eggs but no meat or fish."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three proteins found in the white of the egg",
+      "definition": "Albumin, ovalbumin and globulin."
+    },
+    {
+      "term": "Two proteins found in the yolk",
+      "definition": "Vitellin and livetin."
+    },
+    {
+      "term": "Four fat-soluble vitamins found in eggs",
+      "definition": "A, D, E and K, all found in the yolk."
+    },
+    {
+      "term": "Mineral found in the yolk that forms haemoglobin",
+      "definition": "Iron."
+    },
+    {
+      "term": "Vitamin that eggs lack",
+      "definition": "Vitamin C."
+    },
+    {
+      "term": "Two reasons eggs suit older people and invalids",
+      "definition": "They are easily digested, and they supply HBV protein for growth and repair."
+    },
+    {
+      "term": "Three ways eggs suit a vegetarian diet",
+      "definition": "They replace meat and fish as a protein; they supply HBV protein for lacto-vegetarians; they supply some B vitamins, including B12."
+    },
+    {
+      "term": "Approximate protein and fat content of an egg",
+      "definition": "Protein about 13% and fat about 12%."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name three parts of an egg and give the function of each.",
+      "model": "Shell: protects the contents and allows gases to pass through. Albumen: supplies HBV protein and cushions the yolk. Yolk: supplies fat, fat-soluble vitamins, iron and lecithin. Chalazae: anchor the yolk in the centre. Air cell: indicates the freshness of the egg, enlarging as it ages. Any three parts with functions give full marks."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe the nutritive value of eggs and explain how eggs contribute to the diet of different groups of people.",
+      "model": "Nutritive value: about 13% HBV protein with 100% biological value (albumin, ovalbumin and globulin in the white; vitellin and livetin in the yolk); about 12% fat, mostly saturated in the yolk, with lecithin and cholesterol; the white is fat-free; no carbohydrate or fibre; fat-soluble vitamins A, D, E and K in the yolk; B group vitamins in both parts; minerals including calcium, phosphorus, iron and zinc; no vitamin C; about 75% water. Contribution: HBV protein for growth and repair in children and adolescents; easily digested for older people and convalescents; protein for lacto-vegetarians; cheap, quick and versatile for families on low budgets; should be served with carbohydrate and vitamin C foods, and eaten in moderation by people limiting cholesterol."
+    }
+  ]
+}

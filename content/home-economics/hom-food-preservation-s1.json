@@ -1,0 +1,146 @@
+{
+  "loId": "hom-food-preservation-s1",
+  "chapterId": "hom-food-preservation",
+  "subsection": "1. Principles of food preservation",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "Why food is preserved",
+      "b": "Preservation slows or stops the natural changes that make food unsafe or unusable, so that food can be kept, moved and eaten later.",
+      "points": [
+        "It reduces waste by keeping surplus produce, such as a glut of home-grown fruit, usable for months rather than days.",
+        "It makes food available out of season and over long distances, so perishable foods can be transported and stored.",
+        "It makes food safer by destroying food poisoning micro-organisms or stopping them from growing.",
+        "It creates foods with distinct textures and flavours, such as jam, chutney, dried fruit and cured meat.",
+        "It reduces the environmental footprint of food because less of it is thrown away and produce can be bought when in season."
+      ]
+    },
+    {
+      "h": "What causes food spoilage",
+      "points": [
+        "Enzymes are proteins naturally present in food. After harvest or slaughter they continue to ripen, soften, darken and change flavour.",
+        "Micro-organisms (bacteria, yeasts and moulds) grow on food, causing decay, off-odours and, in some cases, food poisoning.",
+        "Oxidation occurs when oxygen reacts with fats, causing rancidity, and with the cut surfaces of fruit and vegetables, causing browning.",
+        "Moisture loss through the skins of fruit and vegetables causes shrivelling and wilting.",
+        "Incorrect storage temperature allows micro-organisms and enzymes to work quickly.",
+        "Poor hygiene and handling carry micro-organisms from hands, equipment, pests or raw food onto prepared food.",
+        "Chemical contaminants, such as residues from cleaning products or pesticides, can make food unsafe."
+      ]
+    },
+    {
+      "h": "Conditions micro-organisms need to grow",
+      "b": "Micro-organisms need six conditions. Preservation methods work by removing or controlling one or more of them.",
+      "points": [
+        "The six conditions are food, acidity, temperature, time, oxygen and moisture, summarised by the memory aid FAT TOM.",
+        "Bacteria that cause food poisoning grow fastest in the danger zone of 5 to 63 °C, which is why chilled and hot food is kept outside it.",
+        "Moulds and yeasts tolerate acid, sugar and low moisture better than most bacteria, so they spoil jam and dried fruit.",
+        "Moulds appear as fuzzy colonies or threads; yeasts produce bubbling, gas and a sour or alcoholic smell.",
+        "Enzymes work best at moderate temperatures and are destroyed by heat; cold slows them but does not stop them.",
+        "Micro-organisms cannot multiply in food with little available water, which is why drying and concentrated sugar or salt preserve food."
+      ]
+    },
+    {
+      "h": "Types of micro-organism",
+      "points": [
+        "Bacteria are single-celled organisms; some cause food poisoning and others spoil food by producing acid and gas.",
+        "Yeasts are single-celled fungi that ferment sugars into alcohol and carbon dioxide.",
+        "Moulds are multicellular fungi that grow as visible threads and spread by airborne spores.",
+        "Spores are dormant, resistant forms produced by some bacteria and moulds; they survive heat and cold until conditions improve.",
+        "Enzymes are biological catalysts made of protein, and each one acts on a specific substance in food."
+      ]
+    },
+    {
+      "h": "Osmosis and its role in preservation",
+      "b": "Osmosis is the movement of water across a partially permeable membrane from a dilute solution to a more concentrated one.",
+      "points": [
+        "The cell membrane of a micro-organism is partially permeable, so water leaves the cell when the surrounding solution is concentrated.",
+        "Loss of water makes the cell shrink and stop growing, and at high concentrations it can kill the cell.",
+        "The same process draws water out of food, which is why salted meat and fish and sugared fruit keep."
+      ]
+    },
+    {
+      "h": "The principles that underlie every method",
+      "points": [
+        "Remove or destroy micro-organisms, using heat treatment, irradiation or chemical preservatives such as salt, sugar or vinegar.",
+        "Inactivate enzymes, using blanching, heat, acid or the removal of oxygen.",
+        "Prevent re-contamination after treatment, using clean containers, airtight sealing and correct packaging.",
+        "Control available water, by removing it (dehydration) or binding it (concentrated sugar or salt).",
+        "Control temperature, by slowing growth at low temperature (freezing) or stopping it at high temperature (heat processing).",
+        "Control pH, by adding acid such as vinegar or lemon juice, which prevents growth of many spoilage and food poisoning bacteria.",
+        "Most methods combine principles: jam uses heat, sugar and sealing together."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Food spoilage",
+      "definition": "Any change in food, caused by enzymes, micro-organisms, oxidation or moisture loss, that makes it unpleasant or unsafe to eat."
+    },
+    {
+      "term": "Micro-organism",
+      "definition": "A living organism too small to see without a microscope, such as a bacterium, yeast or mould."
+    },
+    {
+      "term": "Enzyme",
+      "definition": "A protein that speeds up a specific chemical reaction in food, such as ripening or browning, without being used up."
+    },
+    {
+      "term": "Osmosis",
+      "definition": "The movement of water across a partially permeable membrane from a dilute solution to a more concentrated one."
+    },
+    {
+      "term": "Oxidation",
+      "definition": "A reaction between food and oxygen that causes rancidity in fats and browning on cut surfaces."
+    },
+    {
+      "term": "Spore",
+      "definition": "A dormant, heat-resistant form produced by some bacteria and moulds that survives unfavourable conditions."
+    },
+    {
+      "term": "Danger zone",
+      "definition": "The temperature range of 5 to 63 °C in which food poisoning bacteria multiply rapidly."
+    },
+    {
+      "term": "Preservation",
+      "definition": "Any treatment that stops or slows the spoilage of food so that it can be stored safely for longer."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four reasons for preserving food",
+      "definition": "Reducing waste, making food available out of season, making food safer, and enabling perishable food to be transported and stored."
+    },
+    {
+      "term": "Three ways fresh produce deteriorates",
+      "definition": "Enzyme action, microbial contamination and moisture loss through the skin."
+    },
+    {
+      "term": "The six conditions micro-organisms need (FAT TOM)",
+      "definition": "Food, acidity, temperature, time, oxygen and moisture."
+    },
+    {
+      "term": "Six principles behind every preservation method",
+      "definition": "Destroy micro-organisms; inactivate enzymes; prevent re-contamination; control available water; control temperature; control pH."
+    },
+    {
+      "term": "Three groups of micro-organisms that spoil food",
+      "definition": "Bacteria, yeasts and moulds."
+    },
+    {
+      "term": "Danger zone temperature range",
+      "definition": "5 to 63 °C, the range in which food poisoning bacteria multiply rapidly."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how enzymes cause food to spoil, and name one way the action of enzymes can be controlled.",
+      "model": "Enzymes are natural proteins present in food that continue to ripen, soften, darken and change flavour after harvest or slaughter. They act on specific substances in the food, so the food changes even when no micro-organisms are present. Control: blanching destroys enzymes with heat; cold storage slows enzyme action; acids such as lemon juice inactivate enzymes."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the principles of food preservation, explaining how the causes of spoilage are controlled by each principle.",
+      "model": "Causes of spoilage: enzymes, micro-organisms (bacteria, yeasts and moulds), oxidation and moisture loss, and incorrect storage temperature. Principles: destroy or remove micro-organisms by heat, irradiation or chemicals such as salt, sugar and vinegar. Inactivate enzymes by blanching, heat or acid. Prevent re-contamination by clean, airtight packaging. Control available water by dehydration or by binding water with sugar or salt, using osmosis. Control temperature by freezing, which slows growth, or heat processing, which stops it. Control pH by adding acid."
+    }
+  ]
+}

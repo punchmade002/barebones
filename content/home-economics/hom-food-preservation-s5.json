@@ -1,0 +1,151 @@
+{
+  "loId": "hom-food-preservation-s5",
+  "chapterId": "hom-food-preservation",
+  "subsection": "5. Chemical preservation",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "Principle of chemical preservation",
+      "b": "Chemical preservatives either draw water out of food and micro-organisms, lower the pH of the food, or directly inhibit micro-organisms.",
+      "points": [
+        "Sugar, salt and vinegar are the traditional home preservatives, and smoke was the traditional preservative for fish and meat.",
+        "Preservatives are used at concentrations that stop micro-organisms from growing; a low concentration may encourage their growth instead.",
+        "Permitted chemical preservatives are controlled in the EU under Regulation (EC) No 1333/2008 on food additives, which lists those allowed, the foods they may be used in and the maximum levels.",
+        "Permitted preservatives carry E numbers and must be named in the ingredients list on the label, under Regulation (EU) No 1169/2011 on food information to consumers."
+      ]
+    },
+    {
+      "h": "Sugar as a preservative",
+      "points": [
+        "At high concentration, sugar binds water and draws it out of microbial cells by osmosis, so the micro-organisms cannot multiply.",
+        "Sugar is the preservative in jam, marmalade, syrups and crystallised fruit.",
+        "Yeasts and moulds tolerate sugar better than most bacteria, so sugared products still need sealed, clean containers.",
+        "The Department of Health healthy eating guidelines advise limiting foods high in added sugar, since excess sugar is linked to tooth decay and excess energy intake."
+      ]
+    },
+    {
+      "h": "Salt as a preservative",
+      "points": [
+        "Salt draws water out of food and micro-organisms by osmosis, and it reduces the available water for enzyme action.",
+        "Dry salting: food is packed in salt, which draws out moisture; this method is used for salt cod and salt pork.",
+        "Brining: food is immersed in a strong salt solution, as used for olives and for brine pickles of vegetables.",
+        "Salt-cured foods must be stored in cool, dry conditions, since moisture in the air can cause surface mould.",
+        "Excess salt raises blood pressure, and the Department of Health healthy eating guidelines advise reducing salt in the diet."
+      ]
+    },
+    {
+      "h": "Vinegar and acidity",
+      "points": [
+        "Vinegar is a dilute solution of acetic acid, which lowers the pH of food and inhibits most spoilage and food poisoning bacteria.",
+        "Vinegar pickling: vegetables such as onions, cucumbers and beetroot are packed in spiced vinegar, which acts as the preservative.",
+        "Vinegar also gives sharpness and flavour, and its effectiveness depends on its acetic acid strength."
+      ]
+    },
+    {
+      "h": "Chutney and pickles",
+      "points": [
+        "Chutney is made by cooking fruit and/or vegetables slowly with vinegar, sugar and spices until the mixture is thick.",
+        "Cooking destroys micro-organisms, while the vinegar and sugar prevent any survivors from growing.",
+        "Spices such as mustard seed, chilli and ginger add flavour to the finished product.",
+        "Chutney is poured hot into sterilised jars, sealed and stored in a cool, dark place; once opened it is kept in the fridge.",
+        "Pickles are vegetables preserved in vinegar or brine; vinegar pickles are covered with spiced vinegar and sugar and sealed."
+      ]
+    },
+    {
+      "h": "Smoking",
+      "points": [
+        "Smoking exposes food to smoke from burning wood; smoke contains phenols and organic acids that inhibit micro-organisms and oxidation.",
+        "Smoke dries the surface of the food, which slows micro-organism growth.",
+        "Cold smoking is carried out at a low temperature, below about 30 °C, so the food is flavoured and partly preserved but remains raw, as in smoked salmon.",
+        "Hot smoking cooks the food during smoking, giving a ready-to-eat product, as in smoked mackerel.",
+        "Smoking gives limited shelf life on its own, so smoked meat and fish are usually also salted or cured."
+      ]
+    },
+    {
+      "h": "Permitted chemical preservatives",
+      "points": [
+        "Sorbic acid (E200) and potassium sorbate (E202) inhibit moulds and yeasts in foods such as cheese and baked goods.",
+        "Benzoic acid (E210) and sodium benzoate (E211) inhibit yeasts, moulds and bacteria in acidic foods such as soft drinks and fruit products.",
+        "Sulphur dioxide (E220) and sulphites inhibit micro-organisms and prevent browning in products such as dried fruit and wine.",
+        "Sodium nitrite (E250) and sodium nitrate (E251) are used in cured meat; nitrite inhibits Clostridium botulinum and gives cured meat its pink colour.",
+        "Preservatives can cause sensitivity reactions in some people, which is why they must be named on the label."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Chemical preservation",
+      "definition": "Preserving food with substances such as sugar, salt, vinegar, smoke or permitted preservatives that draw out water, lower pH or inhibit micro-organisms."
+    },
+    {
+      "term": "Preservative",
+      "definition": "A substance added to food to prevent or slow spoilage by micro-organisms or enzymes."
+    },
+    {
+      "term": "Curing",
+      "definition": "Preserving meat or fish with salt, sometimes with nitrites, to draw out moisture and inhibit micro-organisms."
+    },
+    {
+      "term": "Brining",
+      "definition": "Immersing food in a strong salt solution so that salt draws water out by osmosis."
+    },
+    {
+      "term": "Dry salting",
+      "definition": "Packing food in salt so that the salt draws moisture out of it."
+    },
+    {
+      "term": "Acetic acid",
+      "definition": "The acid in vinegar, which lowers the pH of food and inhibits most spoilage and food poisoning bacteria."
+    },
+    {
+      "term": "Cold smoking",
+      "definition": "Smoking food at a low temperature, which flavours and partly preserves it without cooking it."
+    },
+    {
+      "term": "Hot smoking",
+      "definition": "Smoking food at a higher temperature, which cooks it as well as preserving it."
+    },
+    {
+      "term": "E number",
+      "definition": "A code number given to a permitted food additive in the EU, such as E200 for sorbic acid."
+    },
+    {
+      "term": "Pickle",
+      "definition": "A vegetable preserved in vinegar or brine, often with spices."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three traditional home preservatives",
+      "definition": "Sugar, salt and vinegar."
+    },
+    {
+      "term": "Two types of smoking",
+      "definition": "Cold smoking, which flavours and partly preserves food without cooking it, and hot smoking, which cooks the food as it is smoked."
+    },
+    {
+      "term": "Three common permitted preservatives by E number",
+      "definition": "E200 sorbic acid, E210 benzoic acid and E220 sulphur dioxide."
+    },
+    {
+      "term": "Preservative that gives cured meat its pink colour",
+      "definition": "Sodium nitrite (E250), which also inhibits Clostridium botulinum."
+    },
+    {
+      "term": "Main ingredients of a fruit or vegetable chutney",
+      "definition": "Fruit and/or vegetables, vinegar, sugar and spices."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how salt preserves meat and fish.",
+      "model": "Salt draws water out of the food and out of micro-organisms by osmosis, so the available water falls and micro-organisms cannot multiply. Salt also reduces the water available for enzyme action. It is applied by dry salting, where the food is packed in salt, or by brining, where the food is immersed in a strong salt solution. Nitrites may be added to cured meat to inhibit Clostridium botulinum."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the advantages and disadvantages of using sugar and vinegar as chemical preservatives in home-made preserves.",
+      "model": "Sugar: at high concentration it preserves by osmosis, drawing water out of micro-organisms; it also gives sweetness and helps set jam. Disadvantages of sugar: high intake is linked to tooth decay and excess energy, and a low concentration does not preserve and can encourage yeasts. Vinegar: acetic acid lowers the pH, inhibiting most spoilage and food poisoning bacteria; it is used in chutneys and pickles and gives flavour and sharpness. Disadvantages of vinegar: its strong flavour may be unacceptable, and it changes the taste of the product. Used together in a cooked, sealed chutney, the two inhibit growth more effectively than either alone."
+    }
+  ]
+}

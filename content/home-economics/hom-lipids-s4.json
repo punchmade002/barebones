@@ -1,0 +1,166 @@
+{
+  "loId": "hom-lipids-s4",
+  "chapterId": "hom-lipids",
+  "subsection": "4. Properties",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Melting, smoke and flash points",
+      "b": "These three temperatures describe how a fat behaves on heating, which determines its use in cooking.",
+      "points": [
+        "Melting point: solid fats melt when heated to about 30–40 °C; oils are already liquid at room temperature.",
+        "Fats with a higher proportion of unsaturated fatty acids have lower melting points.",
+        "Smoke point: the temperature at which a lipid begins to decompose and give off a continuous blue haze.",
+        "Smoke points are about 200 °C for solid fats and about 250 °C for oils.",
+        "On decomposition, glycerol and fatty acids separate, and acrolein, which has an acrid smell, is released.",
+        "Free fatty acids, impurities and food particles left in oil lower its smoke point, and repeated use builds these up.",
+        "Flash point: the temperature at which the vapour from an overheated lipid ignites spontaneously.",
+        "Flash points are about 310 °C for solid fats and about 325 °C for oils.",
+        "A fat that reaches its flash point is a serious fire hazard."
+      ]
+    },
+    {
+      "h": "Formation of emulsions",
+      "b": "An emulsion is a dispersion of two liquids that do not mix normally, such as oil and water.",
+      "points": [
+        "Vigorous shaking, whisking or blending breaks one liquid into droplets that spread through the other.",
+        "A temporary emulsion, such as French dressing, separates again on standing.",
+        "A permanent emulsion, such as mayonnaise, stays stable because an emulsifying agent coats the droplets.",
+        "An emulsifier has a hydrophilic (water-attracting) end and a hydrophobic (water-repelling) end, which sit at the boundary between oil and water.",
+        "Oil-in-water emulsions have oil droplets dispersed in water, as in mayonnaise.",
+        "Water-in-oil emulsions have water droplets dispersed in fat, as in butter and some spreads."
+      ]
+    },
+    {
+      "h": "Emulsifying agents and stabilisers (Higher Level only)",
+      "points": [
+        "Emulsifying agents include lecithin (found in egg yolk and soya), mustard, and mono- and diglycerides such as glycerol monostearate (GMS).",
+        "Stabilisers do not form the emulsion; they thicken the water phase and stop droplets joining together.",
+        "Examples of stabilisers are starch and gums such as xanthan gum."
+      ]
+    },
+    {
+      "h": "Plasticity and hydrogenation (Higher Level only)",
+      "points": [
+        "Plasticity is the ability of a fat to be shaped and spread at room temperature while remaining firm.",
+        "Plasticity depends on the proportion of saturated fatty acids; a fat with a high proportion of unsaturated fatty acids is too soft to hold its shape.",
+        "Plastic fats are valued in pastry and cake making because they can be creamed or rubbed into flour.",
+        "Hydrogenation adds hydrogen to the double bonds of unsaturated fatty acids in the presence of a nickel catalyst.",
+        "Hydrogenation converts liquid oils into semi-solid or solid fats, and is used to make hard margarines and shortenings."
+      ]
+    },
+    {
+      "h": "Rancidity (Higher Level only)",
+      "b": "Rancidity is the spoilage of fats and oils, which gives them an unpleasant taste and smell.",
+      "points": [
+        "Oxidative rancidity: oxygen from the air reacts with the double bonds of unsaturated fatty acids.",
+        "Oxidative rancidity produces aldehydes and ketones, which cause the rancid smell.",
+        "Light, heat and metal ions speed up oxidative rancidity.",
+        "Hydrolytic rancidity: water, together with lipase from the food or from micro-organisms, breaks fats down into fatty acids and glycerol.",
+        "Hydrolytic rancidity can occur in a freezer where enzymes were not destroyed before freezing; blanching vegetables destroys these enzymes.",
+        "Fats are protected from rancidity when stored in airtight containers in a cool, dark place."
+      ]
+    },
+    {
+      "h": "Antioxidants (Higher Level only)",
+      "points": [
+        "Antioxidants slow oxidative rancidity by reacting with oxygen or free radicals before they attack the double bonds.",
+        "Vitamin E (tocopherols) is a natural antioxidant present in some vegetable oils.",
+        "Synthetic antioxidants added to fats include butylated hydroxyanisole (BHA) and butylated hydroxytoluene (BHT).",
+        "Antioxidants are added to margarines and oils to extend their shelf life."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Melting point",
+      "definition": "The temperature at which a solid fat becomes liquid when heated."
+    },
+    {
+      "term": "Smoke point",
+      "definition": "The temperature at which a lipid begins to decompose and give off a continuous blue haze."
+    },
+    {
+      "term": "Flash point",
+      "definition": "The temperature at which the vapour from an overheated lipid ignites spontaneously."
+    },
+    {
+      "term": "Emulsion",
+      "definition": "A dispersion of one liquid in another, such as oil in water, that would not normally mix."
+    },
+    {
+      "term": "Emulsifying agent",
+      "definition": "A substance with a water-attracting end and a water-repelling end that coats droplets and keeps an emulsion stable."
+    },
+    {
+      "term": "Stabiliser",
+      "definition": "A substance, such as starch or a gum, that thickens the water phase and prevents emulsion droplets joining together."
+    },
+    {
+      "term": "Plasticity",
+      "definition": "The ability of a fat to be shaped and spread at room temperature while remaining firm."
+    },
+    {
+      "term": "Hydrogenation",
+      "definition": "The addition of hydrogen to the double bonds of unsaturated fatty acids using a nickel catalyst."
+    },
+    {
+      "term": "Oxidative rancidity",
+      "definition": "Spoilage of a fat caused by oxygen reacting with the double bonds of unsaturated fatty acids."
+    },
+    {
+      "term": "Hydrolytic rancidity",
+      "definition": "Spoilage of a fat caused by lipase and water breaking it into fatty acids and glycerol."
+    },
+    {
+      "term": "Antioxidant",
+      "definition": "A substance that slows oxidative rancidity by reacting with oxygen before it attacks a fat."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Approximate smoke points of fats and oils",
+      "definition": "About 200 °C for solid fats and about 250 °C for oils."
+    },
+    {
+      "term": "Approximate flash points of fats and oils",
+      "definition": "About 310 °C for solid fats and about 325 °C for oils."
+    },
+    {
+      "term": "Three factors that lower the smoke point of a fat",
+      "definition": "Impurities, food particles and free fatty acids, all of which build up when oil is used repeatedly."
+    },
+    {
+      "term": "Two kinds of spoilage in fats",
+      "definition": "Oxidative (caused by oxygen) and hydrolytic (caused by water and lipase)."
+    },
+    {
+      "term": "Two foods that are permanent emulsions",
+      "definition": "Mayonnaise and hollandaise sauce."
+    },
+    {
+      "term": "Temporary emulsion example",
+      "definition": "French dressing."
+    },
+    {
+      "term": "Two natural emulsifiers in common foods",
+      "definition": "Lecithin in egg yolk and mustard."
+    },
+    {
+      "term": "Synthetic antioxidants used in fats",
+      "definition": "BHA (butylated hydroxyanisole) and BHT (butylated hydroxytoluene)."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by the smoke point and the flash point of a fat, and state why a fat with a low smoke point is less suitable for deep-fat frying.",
+      "model": "Smoke point: the temperature at which a fat begins to decompose and give off a continuous blue haze. Flash point: the higher temperature at which the vapour from the overheated fat ignites spontaneously. A fat with a low smoke point starts to decompose at a lower temperature during frying, producing acrid smoke and acrolein, giving a poor flavour and a fire risk. Award one mark for each correct point, up to 6."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe how an emulsion forms, and discuss the roles of emulsifying agents and stabilisers in keeping an emulsion stable, giving one permanent and one temporary example.",
+      "model": "Immiscible oil and water are forced together by vigorous shaking, whisking or blending, which breaks one liquid into droplets dispersed through the other. An emulsifying agent has a water-attracting end and a water-repelling end, so it sits at the boundary between oil and water and coats the droplets, preventing them from joining together. Lecithin in egg yolk and mustard are examples of emulsifying agents. Stabilisers such as starch or gums thicken the water phase, slowing the movement of droplets and keeping the emulsion stable. A permanent emulsion is mayonnaise, an oil-in-water emulsion held together by egg yolk lecithin. A temporary emulsion is French dressing, which separates on standing and must be shaken before use. A labelled diagram showing an emulsifier at the oil-water boundary may also be included."
+    }
+  ]
+}

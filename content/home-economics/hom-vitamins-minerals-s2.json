@@ -1,0 +1,170 @@
+{
+  "loId": "hom-vitamins-minerals-s2",
+  "chapterId": "hom-vitamins-minerals",
+  "subsection": "2. Water-soluble vitamins C, B12 and folate",
+  "syllabusRef": "1.1.5",
+  "notes": [
+    {
+      "h": "Vitamin C (ascorbic acid): sources and functions",
+      "points": [
+        "Citrus fruit, blackcurrants, rosehips, kiwi, strawberries, peppers, broccoli, tomatoes, cabbage and new potatoes are good sources of vitamin C.",
+        "Vitamin C is needed to make collagen, the connective tissue that gives strength to skin, blood vessels, gums, bones and teeth.",
+        "By supporting collagen formation, vitamin C speeds up the healing of wounds.",
+        "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+        "Vitamin C is an antioxidant that protects cells from damage by free radicals.",
+        "Vitamin C supports the immune system, helping the body resist infection."
+      ]
+    },
+    {
+      "h": "Vitamin C: deficiency (scurvy)",
+      "points": [
+        "Scurvy develops after a severe and prolonged lack of vitamin C in the diet.",
+        "Weak collagen causes bleeding gums, loose teeth and easy bruising.",
+        "Wounds heal slowly because new tissue cannot be formed properly.",
+        "Reduced iron absorption can lead to anaemia, with tiredness and pale skin.",
+        "The body becomes more susceptible to infection."
+      ]
+    },
+    {
+      "h": "Vitamin B12 (cobalamin): sources and functions",
+      "points": [
+        "Vitamin B12 occurs naturally only in animal foods: liver and kidney, red meat, oily fish, eggs, milk and cheese.",
+        "Plant foods contain no natural vitamin B12; vegans need fortified foods such as some breakfast cereals and yeast extracts.",
+        "Vitamin B12 works with folate to form healthy red blood cells.",
+        "Vitamin B12 maintains the myelin sheath, the fatty layer that insulates nerve fibres and keeps nerve impulses working normally.",
+        "Vitamin B12 is needed for the synthesis of DNA in cells that divide rapidly.",
+        "The stomach makes intrinsic factor, a protein that binds vitamin B12 so that it can be absorbed in the ileum.",
+        "The liver stores vitamin B12, and the store can last for several years."
+      ]
+    },
+    {
+      "h": "Vitamin B12: deficiency",
+      "points": [
+        "Pernicious anaemia results when B12 is lacking and red blood cells are large, immature and unable to carry oxygen effectively.",
+        "Symptoms of anaemia include tiredness, weakness, pale skin and breathlessness.",
+        "Nerve damage causes numbness and tingling in the hands and feet, and poor balance.",
+        "Lack of intrinsic factor, often through an autoimmune condition, prevents B12 absorption even when the diet is adequate.",
+        "A strict vegan diet without fortified foods can also cause deficiency."
+      ]
+    },
+    {
+      "h": "Folate (folic acid): sources and functions",
+      "points": [
+        "Natural folate is found in dark green leafy vegetables such as spinach and broccoli, in pulses such as chickpeas and lentils, in asparagus, oranges and liver.",
+        "Folic acid is the synthetic form used in supplements and in fortified foods such as breakfast cereals.",
+        "Folate is needed to synthesise DNA and RNA, so it is essential for cell division and growth.",
+        "Folate works with vitamin B12 to form red blood cells.",
+        "In early pregnancy, folate is essential for the development of the neural tube, which becomes the brain and spinal cord."
+      ]
+    },
+    {
+      "h": "Folate: deficiency and protection",
+      "points": [
+        "A lack of folate causes megaloblastic anaemia, with the same large, immature red blood cells as B12 deficiency.",
+        "Neural tube defects, such as spina bifida and anencephaly, can develop in the unborn baby if folate is lacking in early pregnancy.",
+        "Folic acid supplements are recommended before conception and during early pregnancy to reduce the risk of neural tube defects."
+      ]
+    },
+    {
+      "h": "Properties of vitamins C, B12 and folate (Higher Level only)",
+      "points": [
+        "Vitamin C is a white, crystalline, acidic substance with a sweet-sour taste.",
+        "Vitamin C is water-soluble and is lost into cooking water when vegetables are boiled or soaked.",
+        "Vitamin C is destroyed by prolonged heat, by alkalis and by oxidation in air.",
+        "The enzyme oxidase destroys vitamin C once vegetables are cut or bruised, so cut vegetables should be cooked promptly.",
+        "Copper and brass pans destroy vitamin C, and alkalis such as bicarbonate of soda do too.",
+        "Folate is water-soluble and is sensitive to heat, light and oxygen.",
+        "Folate is lost into cooking water during prolonged boiling.",
+        "Vitamin B12 contains the mineral cobalt, which gives it the name cobalamin."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Ascorbic acid",
+      "definition": "The chemical name for vitamin C, a water-soluble antioxidant needed for collagen formation."
+    },
+    {
+      "term": "Scurvy",
+      "definition": "A disease caused by severe, prolonged lack of vitamin C, with bleeding gums, loose teeth and slow wound healing."
+    },
+    {
+      "term": "Collagen",
+      "definition": "The fibrous protein that gives strength to skin, blood vessels, gums, bones and teeth, and whose formation requires vitamin C."
+    },
+    {
+      "term": "Ferric iron",
+      "definition": "The Fe³⁺ form of iron, which vitamin C reduces to the ferrous form before it can be absorbed."
+    },
+    {
+      "term": "Cobalamin",
+      "definition": "The chemical name for vitamin B12, the water-soluble vitamin that contains cobalt and is found only in animal foods."
+    },
+    {
+      "term": "Intrinsic factor",
+      "definition": "A protein made in the stomach that binds vitamin B12 so that it can be absorbed in the ileum."
+    },
+    {
+      "term": "Pernicious anaemia",
+      "definition": "An anaemia caused by lack of vitamin B12, in which the red blood cells are large and unable to carry oxygen effectively."
+    },
+    {
+      "term": "Folate",
+      "definition": "A water-soluble B-group vitamin needed for DNA and RNA synthesis and for protecting the developing neural tube."
+    },
+    {
+      "term": "Neural tube defect",
+      "definition": "A birth defect of the brain or spinal cord, such as spina bifida, that folate in early pregnancy helps to prevent."
+    },
+    {
+      "term": "Leaching",
+      "definition": "The loss of water-soluble vitamins and minerals from food into the cooking water."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four functions of vitamin C",
+      "definition": "Making collagen; aiding wound healing; increasing non-haem iron absorption; acting as an antioxidant."
+    },
+    {
+      "term": "Signs of scurvy",
+      "definition": "Bleeding gums, loose teeth, slow wound healing, easy bruising and tiredness."
+    },
+    {
+      "term": "Animal sources of vitamin B12",
+      "definition": "Liver and kidney, red meat, oily fish, eggs, milk and cheese."
+    },
+    {
+      "term": "Two functions of vitamin B12",
+      "definition": "Forming healthy red blood cells with folate; maintaining the myelin sheath around nerve fibres."
+    },
+    {
+      "term": "Cell-level role of folate",
+      "definition": "It is needed to synthesise DNA and RNA, so cells can divide and the body can grow."
+    },
+    {
+      "term": "Two conditions prevented by folic acid in early pregnancy",
+      "definition": "Spina bifida and anencephaly."
+    },
+    {
+      "term": "Two causes of vitamin B12 deficiency",
+      "definition": "Lack of intrinsic factor in the stomach, and a strict vegan diet without fortified foods."
+    },
+    {
+      "term": "Three ways vitamin C is lost from food",
+      "definition": "Leaching into cooking water; destruction by prolonged heat; oxidation after cutting or exposure to air and light."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how vitamin C helps the body absorb iron from a plant-based meal, and name two plant foods that are good sources of vitamin C.",
+      "model": "Vitamin C converts non-haem iron from the ferric (Fe³⁺) form to the ferrous (Fe²⁺) form, which is absorbed more readily in the small intestine. Two plant foods, any two of: citrus fruit, blackcurrants, kiwi, strawberries, peppers, broccoli, tomatoes, cabbage, new potatoes. Marks for the mechanism (conversion of ferric to ferrous, better absorption) and for each correct food."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the sources, functions and effects of deficiency of vitamin B12 and folate, and explain why the two vitamins work together in the body.",
+      "model": "Vitamin B12: found only in animal foods such as liver, kidney, red meat, oily fish, eggs, milk and cheese; fortified foods supply it to vegans. Functions: forms healthy red blood cells with folate; maintains the myelin sheath around nerves; needed for DNA synthesis. Absorption needs intrinsic factor from the stomach. Deficiency: pernicious anaemia with large immature red blood cells, tiredness and pale skin; nerve damage with numbness and poor balance. Folate: natural folate in dark green leafy vegetables, pulses, asparagus, oranges and liver; folic acid in supplements and fortified cereals. Functions: synthesis of DNA and RNA for cell division and growth; protects the developing neural tube in early pregnancy. Deficiency: megaloblastic anaemia; neural tube defects such as spina bifida. Working together: both are needed to form healthy red blood cells, and a deficiency of either produces the same type of anaemia."
+    }
+  ]
+}

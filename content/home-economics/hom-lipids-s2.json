@@ -1,0 +1,122 @@
+{
+  "loId": "hom-lipids-s2",
+  "chapterId": "hom-lipids",
+  "subsection": "2. Triglycerides and the classification of lipids",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Chemical composition of a triglyceride (Higher Level only)",
+      "b": "Most fats and oils in food are triglycerides: one glycerol molecule combined with three fatty acid molecules.",
+      "points": [
+        "Lipids are composed of carbon (C), hydrogen (H) and oxygen (O) atoms only; they contain no nitrogen.",
+        "Glycerol is an alcohol, with the formula C₃H₈O₃, and carries three hydroxyl (–OH) groups, one on each carbon atom.",
+        "The three fatty acids in one triglyceride can be the same or different.",
+        "The carboxyl group of each fatty acid joins to one hydroxyl group of glycerol, forming an ester bond (–COO–)."
+      ]
+    },
+    {
+      "h": "Molecular structure of a triglyceride (Higher Level only)",
+      "points": [
+        "Each ester bond forms by condensation, in which one molecule of water (H₂O) is eliminated.",
+        "Three water molecules are removed when one glycerol and three fatty acids combine to form one triglyceride.",
+        "A triglyceride is therefore a glycerol backbone with three fatty acid chains hanging from it.",
+        "Diagram: a glycerol backbone with three fatty acid chains attached by ester (–COO–) links, marking the three water molecules released during formation."
+      ]
+    },
+    {
+      "h": "Classifying lipids by source",
+      "points": [
+        "Animal fats come from land animals, for example butter, lard, suet, dripping, cheese and the fat in meat.",
+        "Vegetable (plant) oils come from seeds, nuts and fruits, for example olive, sunflower, corn, soya and rapeseed oils, and avocado oil.",
+        "Marine lipids come from fish and other sea creatures, for example the oil in oily fish such as mackerel, herring and sardines, and fish-liver oils such as cod-liver oil.",
+        "Palm oil and coconut oil come from plants but are high in saturated fat, so they behave like animal fats in the diet."
+      ]
+    },
+    {
+      "h": "Classifying lipids by fatty acid content",
+      "points": [
+        "A lipid is classed as saturated, monounsaturated or polyunsaturated according to which type of fatty acid makes up the largest proportion of its fatty acids.",
+        "Olive oil is classed as monounsaturated because most of its fatty acids have one double bond.",
+        "Sunflower and corn oils are classed as polyunsaturated because most of their fatty acids have more than one double bond.",
+        "Butter and lard are classed as saturated because saturated fatty acids form the largest proportion of their fatty acids.",
+        "Most fats contain a mixture of all three fatty acid types, so classification depends on the predominant type."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Triglyceride",
+      "definition": "A lipid formed from one glycerol molecule joined to three fatty acid molecules."
+    },
+    {
+      "term": "Glycerol",
+      "definition": "A three-carbon alcohol with three hydroxyl groups, which combines with fatty acids to form a triglyceride."
+    },
+    {
+      "term": "Hydroxyl group",
+      "definition": "The –OH group on glycerol that reacts with the carboxyl group of a fatty acid."
+    },
+    {
+      "term": "Ester bond",
+      "definition": "The –COO– link formed between glycerol and a fatty acid when a triglyceride is made."
+    },
+    {
+      "term": "Condensation reaction",
+      "definition": "A reaction in which two molecules join and a small molecule, such as water, is removed."
+    },
+    {
+      "term": "Predominant fatty acid",
+      "definition": "The type of fatty acid, saturated, monounsaturated or polyunsaturated, that makes up the largest proportion of a lipid."
+    },
+    {
+      "term": "Animal fat",
+      "definition": "A lipid obtained from land animals, such as butter, lard, suet and dripping."
+    },
+    {
+      "term": "Vegetable oil",
+      "definition": "A lipid obtained from seeds, nuts or fruits of plants, usually liquid at room temperature."
+    },
+    {
+      "term": "Marine lipid",
+      "definition": "A lipid obtained from fish or other sea creatures, such as the oil in oily fish."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three elements in a lipid",
+      "definition": "Carbon, hydrogen and oxygen."
+    },
+    {
+      "term": "Components of one triglyceride",
+      "definition": "One glycerol molecule and three fatty acid molecules."
+    },
+    {
+      "term": "Water molecules removed when a triglyceride forms",
+      "definition": "Three."
+    },
+    {
+      "term": "Three sources of lipids",
+      "definition": "Animal, vegetable (plant) and marine."
+    },
+    {
+      "term": "Example of a saturated vegetable fat",
+      "definition": "Palm oil or coconut oil."
+    },
+    {
+      "term": "Example of a marine lipid",
+      "definition": "Oily fish, such as mackerel, herring or sardines, and fish-liver oil such as cod-liver oil."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the molecules that combine to form a triglyceride, and describe how the bonds between them form.",
+      "model": "One glycerol molecule and three fatty acid molecules. Each carboxyl group of a fatty acid reacts with a hydroxyl group of glycerol, forming an ester bond (–COO–). Each bond forms by condensation, eliminating one molecule of water, so three water molecules are removed in total. Award one mark for each correct point, up to 6."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain how lipids are classified according to their source and according to the fatty acids they contain, giving one example in each category.",
+      "model": "By source: animal fats from land animals, for example butter or lard; vegetable oils from seeds, nuts and fruits, for example olive or sunflower oil; marine lipids from fish, for example oily fish or cod-liver oil. Palm and coconut oil, though plant-derived, are high in saturated fat. By fatty acid content: a lipid is saturated, monounsaturated or polyunsaturated according to the predominant fatty acid type, for example butter is saturated, olive oil is monounsaturated and sunflower oil is polyunsaturated. Most fats are mixtures, so the predominant type is the one that determines the classification. A labelled diagram of the triglyceride structure may also be included."
+    }
+  ]
+}

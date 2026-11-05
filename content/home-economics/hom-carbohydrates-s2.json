@@ -1,0 +1,131 @@
+{
+  "loId": "hom-carbohydrates-s2",
+  "chapterId": "hom-carbohydrates",
+  "subsection": "2. Composition, structure and classification",
+  "syllabusRef": "1.1.3",
+  "notes": [
+    {
+      "h": "Elements in carbohydrates",
+      "points": [
+        "Carbohydrates contain carbon, hydrogen and oxygen only; they contain no nitrogen.",
+        "Carbohydrates have hydrogen and oxygen in a 2:1 ratio, the same as in water, which is why they are described as hydrated carbon."
+      ]
+    },
+    {
+      "h": "Classification by number of sugar units",
+      "b": "Carbohydrates are grouped by the number of sugar units in each molecule.",
+      "points": [
+        "Monosaccharides (simple sugars) have one sugar unit: glucose, fructose and galactose, each with the formula C₆H₁₂O₆.",
+        "Disaccharides (double sugars) have two sugar units: sucrose, lactose and maltose, each with the formula C₁₂H₂₂O₁₁.",
+        "Polysaccharides (complex carbohydrates) have many sugar units joined in long chains: starch, glycogen, cellulose and pectin, with the general formula (C₆H₁₀O₅)ₙ."
+      ]
+    },
+    {
+      "h": "Basic structure of a monosaccharide (Higher Level only)",
+      "points": [
+        "A monosaccharide is a single sugar unit that cannot be split by hydrolysis into a simpler sugar.",
+        "Glucose has six carbon atoms, twelve hydrogen atoms and six oxygen atoms per molecule.",
+        "In solution, glucose forms a ring structure with hydroxyl (–OH) groups attached to the carbon atoms; these groups take part in linking sugar units together.",
+        "Fructose and galactose have the same formula as glucose, C₆H₁₂O₆, but their atoms are arranged differently.",
+        "Diagram: glucose molecule drawn as a ring, with the carbon atoms numbered and the hydroxyl groups labelled."
+      ]
+    },
+    {
+      "h": "Formation of disaccharides and polysaccharides (Higher Level only)",
+      "points": [
+        "Two monosaccharides join by a condensation reaction, in which one molecule of water is eliminated as the bond forms.",
+        "The bond between two sugar units is called a glycosidic link.",
+        "Glucose + glucose gives maltose; glucose + fructose gives sucrose; glucose + galactose gives lactose.",
+        "Polysaccharides form when many monosaccharide units join in the same way, with a molecule of water lost at each link.",
+        "Starch is a mixture of amylose, which has straight chains of glucose, and amylopectin, which has branched chains.",
+        "Glycogen is a highly branched polymer of glucose, the form in which animals store carbohydrate.",
+        "Cellulose has unbranched chains of glucose units held side by side by hydrogen bonds, forming strong fibres in plant cell walls.",
+        "Diagram: two glucose units joined by a glycosidic link, labelled with the water molecule released, and the resulting maltose molecule."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Monosaccharide",
+      "definition": "A carbohydrate with one sugar unit, such as glucose, fructose or galactose."
+    },
+    {
+      "term": "Disaccharide",
+      "definition": "A carbohydrate formed from two monosaccharide units joined together."
+    },
+    {
+      "term": "Polysaccharide",
+      "definition": "A carbohydrate made of many monosaccharide units joined in long chains, such as starch or cellulose."
+    },
+    {
+      "term": "Glycosidic link",
+      "definition": "The bond that joins two sugar units in a disaccharide or polysaccharide."
+    },
+    {
+      "term": "Condensation reaction",
+      "definition": "A reaction in which two molecules join and a small molecule, usually water, is removed."
+    },
+    {
+      "term": "Amylose",
+      "definition": "The straight-chain component of starch, made of glucose units."
+    },
+    {
+      "term": "Amylopectin",
+      "definition": "The branched component of starch, made of glucose units."
+    },
+    {
+      "term": "Glycogen",
+      "definition": "A highly branched glucose polymer that is the animal storage form of carbohydrate."
+    },
+    {
+      "term": "Isomer",
+      "definition": "One of two or more compounds with the same molecular formula but different atomic arrangements, such as glucose and fructose."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three elements found in carbohydrates",
+      "definition": "Carbon, hydrogen and oxygen."
+    },
+    {
+      "term": "Three monosaccharides",
+      "definition": "Glucose, fructose and galactose."
+    },
+    {
+      "term": "Three disaccharides",
+      "definition": "Sucrose, lactose and maltose."
+    },
+    {
+      "term": "Four polysaccharides",
+      "definition": "Starch, glycogen, cellulose and pectin."
+    },
+    {
+      "term": "Chemical formula of the monosaccharides",
+      "definition": "C₆H₁₂O₆."
+    },
+    {
+      "term": "Disaccharide formed from glucose and fructose",
+      "definition": "Sucrose, the table sugar."
+    },
+    {
+      "term": "Disaccharide formed from glucose and galactose",
+      "definition": "Lactose, the sugar found in milk."
+    },
+    {
+      "term": "Disaccharide formed from two glucose units",
+      "definition": "Maltose, which forms when starch is broken down during the germination of barley."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Classify carbohydrates into three groups, giving the chemical formula and one example for each group.",
+      "model": "Monosaccharides: formula C₆H₁₂O₆, example glucose (or fructose or galactose). Disaccharides: formula C₁₂H₂₂O₁₁, example sucrose (or lactose or maltose). Polysaccharides: formula (C₆H₁₀O₅)ₙ, example starch (or glycogen, cellulose or pectin). Each group is defined by the number of sugar units it contains."
+    },
+    {
+      "marks": 24,
+      "prompt": "Describe the basic chemical structure of a monosaccharide, explain how a disaccharide and a polysaccharide are formed, and give one example of each.",
+      "model": "A monosaccharide is a single sugar unit with the formula C₆H₁₂O₆; glucose has six carbon, twelve hydrogen and six oxygen atoms and forms a ring in solution with hydroxyl groups. A disaccharide forms when two monosaccharides join by a condensation reaction, eliminating one molecule of water and creating a glycosidic link; example: sucrose from glucose and fructose, formula C₁₂H₂₂O₁₁. A polysaccharide forms when many monosaccharide units join in the same way, with water lost at each link; example: starch, made of amylose and amylopectin chains. Marks are for the monosaccharide structure, the condensation reaction with water lost, and a named example of each class."
+    }
+  ]
+}

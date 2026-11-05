@@ -1,0 +1,160 @@
+{
+  "loId": "hom-lipids-s1",
+  "chapterId": "hom-lipids",
+  "subsection": "1. Fatty acids",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Classification of fatty acids",
+      "b": "Fatty acids are the building blocks of lipids. They are classified by the number of double bonds between carbon atoms in the chain.",
+      "points": [
+        "A fatty acid is a long chain of carbon atoms with a carboxyl group (–COOH) at one end and a methyl group (–CH₃) at the other.",
+        "Saturated fatty acids have no double bonds between carbon atoms; every carbon carries its full quota of hydrogen atoms.",
+        "Monounsaturated fatty acids have one double bond in the carbon chain.",
+        "Polyunsaturated fatty acids have two or more double bonds in the carbon chain.",
+        "Saturated fats are generally solid at room temperature; monounsaturated and polyunsaturated fats are generally liquid oils.",
+        "Examples: stearic acid is saturated, oleic acid is monounsaturated and linoleic acid is polyunsaturated."
+      ]
+    },
+    {
+      "h": "Structure of fatty acids (Higher Level only)",
+      "points": [
+        "Saturated fatty acids contain only single C–C bonds, so the chain is flexible and packs tightly, making the fat solid.",
+        "Each C=C double bond in an unsaturated fatty acid creates a bend in the chain, so the molecules pack less tightly and the fat stays liquid.",
+        "A polyunsaturated fatty acid has more than one bend in its chain for every double bond it contains.",
+        "Omega-3 fatty acids are polyunsaturated, with the first double bond between the third and fourth carbon atoms counted from the methyl end.",
+        "Diagram: a labelled chain showing the carboxyl end, the methyl end and the position of the double bonds in a saturated, a monounsaturated and a polyunsaturated fatty acid."
+      ]
+    },
+    {
+      "h": "Cis and trans fatty acids (Higher Level only)",
+      "points": [
+        "In a cis fatty acid the hydrogen atoms on either side of the double bond lie on the same side of the carbon chain, so the chain bends.",
+        "In a trans fatty acid the hydrogen atoms on either side of the double bond lie on opposite sides, so the chain stays nearly straight, like a saturated fatty acid.",
+        "Most naturally occurring unsaturated fatty acids are cis.",
+        "Trans fatty acids form during partial hydrogenation of oils, and cis fatty acids can be converted to trans fatty acids during high-temperature cooking and processing.",
+        "Foods rich in trans fatty acids include hard margarines, some shortenings and fat that has been used repeatedly in a deep-fat fryer."
+      ]
+    },
+    {
+      "h": "Essential fatty acids",
+      "points": [
+        "Essential fatty acids are polyunsaturated fatty acids that the body cannot manufacture, so they must be obtained from food.",
+        "Linoleic acid (an omega-6 fatty acid) and linolenic acid (an omega-3 fatty acid) are the two essential fatty acids most often named.",
+        "Arachidonic acid is also counted as essential, because the body forms it only from linoleic acid.",
+        "Essential fatty acids are needed for growth and for the structure of cell membranes.",
+        "The body uses essential fatty acids to make prostaglandins, hormone-like compounds that regulate blood clotting, blood pressure and inflammation."
+      ]
+    },
+    {
+      "h": "Omega-3 fatty acids: function and sources",
+      "points": [
+        "Omega-3 fatty acids help reduce the risk of heart attack, stroke, circulatory disease and the formation of blood clots.",
+        "Omega-3 fatty acids are linked with healthy brain activity and with a reduced risk of certain cancers.",
+        "Oily fish are the main animal source: salmon, mackerel, herring, sardines and trout.",
+        "Plant sources include walnuts, flaxseed (linseed), soya beans and rapeseed (canola) oil.",
+        "Some eggs and milk are enriched with omega-3 by changing the diet of the hens or cows."
+      ]
+    },
+    {
+      "h": "Significance of fatty acids in the diet",
+      "b": "The type of fatty acid in the diet affects the amount of cholesterol carried in the blood.",
+      "points": [
+        "LDL (low-density lipoprotein) carries cholesterol through the blood and can deposit it on artery walls, where it narrows the arteries.",
+        "HDL (high-density lipoprotein) removes cholesterol from the circulation and carries it to the liver.",
+        "Saturated fatty acids raise LDL cholesterol, increasing the risk of coronary heart disease (CHD).",
+        "Unsaturated cis fatty acids reduce LDL cholesterol and help to raise HDL cholesterol.",
+        "Trans fatty acids raise LDL cholesterol and lower HDL cholesterol, increasing the risk of CHD.",
+        "Monounsaturated and polyunsaturated fats can lower total cholesterol when they replace saturated fats in the diet."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Saturated fatty acid",
+      "definition": "A fatty acid with no double bonds between its carbon atoms, usually solid at room temperature."
+    },
+    {
+      "term": "Monounsaturated fatty acid",
+      "definition": "A fatty acid with one double bond in its carbon chain."
+    },
+    {
+      "term": "Polyunsaturated fatty acid",
+      "definition": "A fatty acid with two or more double bonds in its carbon chain."
+    },
+    {
+      "term": "Essential fatty acid",
+      "definition": "A polyunsaturated fatty acid that the body cannot make, so it must be obtained from food."
+    },
+    {
+      "term": "Cis fatty acid",
+      "definition": "An unsaturated fatty acid whose hydrogen atoms at a double bond lie on the same side of the chain."
+    },
+    {
+      "term": "Trans fatty acid",
+      "definition": "An unsaturated fatty acid whose hydrogen atoms at a double bond lie on opposite sides of the chain."
+    },
+    {
+      "term": "Omega-3 fatty acid",
+      "definition": "A polyunsaturated fatty acid with its first double bond between the third and fourth carbon atoms counted from the methyl end."
+    },
+    {
+      "term": "Carboxyl group",
+      "definition": "The –COOH group at one end of a fatty acid chain, which reacts with glycerol to form a lipid."
+    },
+    {
+      "term": "LDL",
+      "definition": "Low-density lipoprotein, which carries cholesterol through the blood and can deposit it on artery walls."
+    },
+    {
+      "term": "HDL",
+      "definition": "High-density lipoprotein, which removes cholesterol from the blood and carries it to the liver."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three classes of fatty acid, by double bonds",
+      "definition": "Saturated (no double bonds), monounsaturated (one double bond) and polyunsaturated (more than one double bond)."
+    },
+    {
+      "term": "Two essential fatty acids most often named",
+      "definition": "Linoleic acid (omega-6) and linolenic acid (omega-3)."
+    },
+    {
+      "term": "Three functions of essential fatty acids",
+      "definition": "Supporting growth, forming part of cell membranes, and forming prostaglandins, which regulate blood clotting, blood pressure and inflammation."
+    },
+    {
+      "term": "Four effects of omega-3 fatty acids in the diet",
+      "definition": "Reducing the risk of heart attack, reducing the risk of stroke, reducing the formation of blood clots and supporting healthy brain activity."
+    },
+    {
+      "term": "Effect of trans fatty acids on blood cholesterol",
+      "definition": "They raise LDL cholesterol and lower HDL cholesterol."
+    },
+    {
+      "term": "Carbon position of the first double bond in omega-3s",
+      "definition": "Between the third and fourth carbon atoms counted from the methyl end."
+    },
+    {
+      "term": "Oily fish rich in omega-3",
+      "definition": "Salmon, mackerel, herring, sardines and trout."
+    },
+    {
+      "term": "Plant sources of omega-3",
+      "definition": "Walnuts, flaxseed (linseed), soya beans and rapeseed (canola) oil."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Compare the structure of a saturated fatty acid with that of a monounsaturated fatty acid, and name one food rich in each.",
+      "model": "Saturated fatty acid: no double bonds between carbon atoms, so each carbon holds its full quota of hydrogen; a flexible chain that packs tightly and is solid at room temperature. Monounsaturated fatty acid: one double bond, which bends the chain so it packs less tightly and is liquid at room temperature. Food rich in saturated fat: butter, lard or the fat in meat. Food rich in monounsaturated fat: olive oil or avocado. Award one mark for each correct point, up to 6."
+    },
+    {
+      "marks": 20,
+      "prompt": "Explain how the different types of fatty acid in the diet affect the cholesterol carried in the blood, and explain why some fatty acids must be eaten because the body cannot make them.",
+      "model": "Saturated fatty acids raise LDL cholesterol, which carries cholesterol into artery walls and narrows the arteries, increasing the risk of coronary heart disease. Trans fatty acids raise LDL and lower HDL, adding to the risk. Cis monounsaturated and polyunsaturated fatty acids reduce LDL and help to raise HDL, which removes cholesterol from the circulation and carries it to the liver. Essential fatty acids, linoleic and linolenic acid (with arachidonic acid), cannot be manufactured by the body, so they must be supplied by food. They are needed for growth, cell membranes and prostaglandins, which regulate blood clotting, blood pressure and inflammation. Omega-3 fatty acids reduce the risk of heart attack, stroke and clots, and are linked with healthy brain activity. The structure of cis and trans fatty acids and food sources of omega-3, such as oily fish, walnuts and flaxseed, may also be included."
+    }
+  ]
+}
