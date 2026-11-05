@@ -4,8 +4,12 @@
 
 - **How to write the notes:** follow `course-outlines/NOTES_STANDARD.md` (rules, output format,
   and a worked example). This outline says **what** each chapter's notes must cover; that file
-  says **how** to write them. Do not write notes from this outline alone: an information package
-  (`course-outlines/packages/home-economics/`, see `packages/README.md`) is written first.
+  says **how** to write them. First edition (2026-11-05): all 199 subsections in
+  `content/home-economics/` were written by Haiku agents from this outline and the past-paper
+  marking schemes, without information packages, then spot-checked (legislation names, bodies,
+  dates and figures corrected where wrong). Before revising a subsection, write its information
+  package (`course-outlines/packages/home-economics/`, see `packages/README.md`) and review the
+  notes against it.
 - **The syllabus:** the NCCA *Leaving Certificate Home Economics – Scientific and Social Syllabus
   (Ordinary Level and Higher Level)*, © 2001, introduced in schools in September 2002 and first
   examined in 2004. It is the syllabus examined in **June 2027**. The official PDF is
