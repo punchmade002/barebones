@@ -1,0 +1,115 @@
+{
+  "loId": "hom-personal-finance-s4",
+  "chapterId": "hom-personal-finance",
+  "subsection": "4. Saving",
+  "syllabusRef": "2.1.3",
+  "notes": [
+    {
+      "h": "Reasons for saving",
+      "points": [
+        "Saving reduces financial worry and gives the household security against unexpected costs.",
+        "A savings fund covers emergencies, such as job loss or an urgent repair, so the household does not have to borrow.",
+        "Regular saving allows the household to plan for expensive items or events, such as a holiday or a car.",
+        "Saving avoids the need for loans and credit agreements, and so avoids the interest charged on them.",
+        "Money held in a suitable scheme earns interest and grows over time.",
+        "Saving sets a good example for children and builds a sound financial reputation for the family."
+      ]
+    },
+    {
+      "h": "Bank and building society accounts",
+      "points": [
+        "Demand deposit account: money can be withdrawn on demand, so it suits short-term saving and an emergency fund.",
+        "Notice account: withdrawals require a set period of notice, and the interest paid is usually higher than on a demand deposit account.",
+        "Term deposit: money is locked away for an agreed period at a fixed rate, and early withdrawal usually reduces or loses the interest.",
+        "Regular saver account: a monthly deposit is made into an account that pays a higher rate in return for regular saving."
+      ]
+    },
+    {
+      "h": "Post Office savings products",
+      "points": [
+        "Instalment saving scheme: a fixed amount is saved each month for an initial period, and the money is then left to earn interest for a further period.",
+        "Savings certificates: a fixed-term product paying interest higher than an ordinary deposit account, with interest reduced if the certificate is cashed in early.",
+        "Savings bonds: a fixed-term product that pays interest at set intervals, with early withdrawal reducing or removing the interest earned."
+      ]
+    },
+    {
+      "h": "Credit union savings",
+      "points": [
+        "A credit union is a member-owned, non-profit cooperative, and its share and saver accounts are run for its members.",
+        "Members can usually save small amounts regularly, and the credit union pays an annual dividend on savings.",
+        "Members with a savings record find it easier to qualify for a credit union loan."
+      ]
+    },
+    {
+      "h": "Choosing a savings scheme",
+      "points": [
+        "Security: whether the savings are protected by a State or deposit guarantee, and how stable the institution is.",
+        "Interest: the rate paid, and the annual equivalent rate (AER), which shows the yearly return including the effect of compounding.",
+        "Compounding: interest is paid on earlier interest, so a longer-term deposit grows faster than the simple rate suggests.",
+        "Access: how quickly money can be withdrawn, and whether notice periods or penalties apply.",
+        "Tax: whether the interest is tax free, or subject to Deposit Interest Retention Tax (DIRT), which is deducted from interest on most bank and credit union deposits.",
+        "Purpose: short-term access for emergencies, and longer-term schemes for planned spending."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Demand deposit account",
+      "definition": "A bank or credit union account from which money can be withdrawn on demand, usually with low interest."
+    },
+    {
+      "term": "Notice account",
+      "definition": "A deposit account that requires a set period of notice before money can be withdrawn."
+    },
+    {
+      "term": "Term deposit",
+      "definition": "Money locked away for an agreed fixed period at a fixed rate, with interest lost or reduced on early withdrawal."
+    },
+    {
+      "term": "Savings certificate",
+      "definition": "A fixed-term Post Office savings product with interest higher than a deposit account, reduced if cashed in early."
+    },
+    {
+      "term": "Credit union share account",
+      "definition": "A savings account in a member-owned credit union, on which an annual dividend is paid."
+    },
+    {
+      "term": "Annual equivalent rate (AER)",
+      "definition": "The yearly interest rate including the effect of compounding, used to compare savings schemes."
+    },
+    {
+      "term": "Deposit Interest Retention Tax (DIRT)",
+      "definition": "A tax deducted from interest on most bank and credit union deposit accounts before the interest is paid."
+    },
+    {
+      "term": "Compounding",
+      "definition": "Earning interest on both the original sum saved and the interest already added to it."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four benefits of regular saving",
+      "definition": "Reduces financial worry; provides for emergencies; avoids loans and credit; can earn interest."
+    },
+    {
+      "term": "Four factors to weigh when choosing a savings scheme",
+      "definition": "Security, interest, access and tax."
+    },
+    {
+      "term": "Three types of bank saving account",
+      "definition": "Demand deposit, notice and term deposit accounts."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one savings scheme suited to a family saving for a holiday within the next year, and explain how it meets the family's need for access to money.",
+      "model": "A named scheme such as a demand deposit account or a notice account. Access: a demand deposit account allows withdrawal on demand, so the money is available when the holiday is booked; a notice account needs notice to be given before money can be withdrawn. The scheme earns interest on the savings while they build up. A term deposit would lock the money away and reduce access."
+    },
+    {
+      "marks": 20,
+      "prompt": "Compare a bank deposit account, a Post Office savings certificate and a credit union share account as savings schemes for a family, using security, interest, access and tax. Explain which of them would suit a family building an emergency fund.",
+      "model": "Security: each is a secure place to save, with protection of deposits depending on the institution and any State guarantee. Interest: the savings certificate pays more than an ordinary deposit account but is reduced if cashed in early; the credit union pays a dividend on savings; the bank account pays interest that depends on the account type. Access: the bank demand deposit and the credit union account allow withdrawal, while the certificate is locked for a term. Tax: interest on bank and credit union deposits is subject to DIRT, while savings certificate interest is tax free. A demand deposit or credit union account suits an emergency fund because the money can be reached quickly."
+    }
+  ]
+}

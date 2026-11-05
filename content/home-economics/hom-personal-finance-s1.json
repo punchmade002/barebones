@@ -1,0 +1,181 @@
+{
+  "loId": "hom-personal-finance-s1",
+  "chapterId": "hom-personal-finance",
+  "subsection": "1. Household income",
+  "syllabusRef": "2.1.3",
+  "notes": [
+    {
+      "h": "The household as a financial unit",
+      "b": "A household shares income, spending and saving decisions, and it is the basic financial unit of the economy.",
+      "points": [
+        "Households spend on goods and services, which supports the jobs and businesses that supply them.",
+        "Households pay taxes, which fund public services and State welfare payments.",
+        "Households buy property, and property purchases generate stamp duty for the State.",
+        "Families teach children money management, and children grow up to form the future workforce.",
+        "Families usually run their finances independently but may need State aid when income falls short of need."
+      ]
+    },
+    {
+      "h": "Sources of household income",
+      "points": [
+        "Wages: payment for hours worked or output, usually paid weekly or fortnightly, often for manual or hourly work.",
+        "Salaries: a fixed annual amount paid in regular instalments, usually for non-manual or professional work.",
+        "Pensions: income from a former employer's scheme or a personal pension fund after retirement.",
+        "Social welfare allowances and benefits: payments made by the State to people who are unemployed, ill, caring, retired or raising children."
+      ]
+    },
+    {
+      "h": "Social factors that affect household income",
+      "points": [
+        "Age: income tends to rise with experience and promotion, then falls at retirement unless a pension has been arranged.",
+        "Age: teenagers can earn part-time income that eases the financial strain on the family.",
+        "Gender: equal-pay law requires equal pay for the same work, but men still hold more senior management posts in many sectors.",
+        "Social class: low qualifications or early school leaving can lead to low pay or unemployment, while higher education widens access to better-paid work.",
+        "Culture: cultural norms shape whether women take paid work and which spending priorities a household sets.",
+        "Employment pattern: the number of family members in paid work, and whether hours are full-time, part-time, job-sharing, flexible or seasonal, all change household income.",
+        "Disability or addiction: can reduce earning capacity and raise household costs."
+      ]
+    },
+    {
+      "h": "Gross and net income",
+      "points": [
+        "Gross income is income earned before any deductions are made.",
+        "Net income is take-home pay: gross income after deductions have been made.",
+        "Compulsory deductions from gross pay are PAYE, PRSI and USC.",
+        "Voluntary deductions include union subscriptions, pension contributions, additional voluntary contributions (AVCs), health insurance, savings, social club fees and holiday fund payments.",
+        "Budgets are planned from net income, because net income is the money a household actually has to spend and save."
+      ]
+    },
+    {
+      "h": "PAYE, PRSI and USC",
+      "points": [
+        "PAYE (Pay As You Earn) is income tax deducted by the employer from each pay, based on the employee's earnings.",
+        "PRSI (Pay Related Social Insurance) is a compulsory percentage of pay, shared by employer and employee, that funds social insurance benefits.",
+        "Employees earning below a set threshold are exempt from paying employee PRSI.",
+        "USC (Universal Social Charge) is a compulsory charge on gross income, calculated as a percentage that rises with income.",
+        "Employees with gross income below a set threshold are exempt from paying USC."
+      ]
+    },
+    {
+      "h": "Tax credits",
+      "points": [
+        "A tax credit reduces the amount of income tax a person has to pay.",
+        "Income tax is worked out on gross income first, and the person's tax credits are then deducted from it.",
+        "Employees are notified each year of their tax credits and of their standard rate cut-off point."
+      ]
+    },
+    {
+      "h": "Social insurance and social assistance payments",
+      "points": [
+        "Social insurance payments are paid to people who have made the minimum PRSI contributions, and they are not means tested.",
+        "Examples of social insurance payments: Jobseeker's Benefit, Illness Benefit and the contributory State pension.",
+        "Social assistance payments are for people whose PRSI contributions are insufficient to qualify for social insurance payments, and they are means tested.",
+        "Examples of social assistance payments: Jobseeker's Allowance and Carer's Allowance.",
+        "A means test compares the claimant's income with a set limit, and the payment reduces or stops as income rises above it."
+      ]
+    },
+    {
+      "h": "Named welfare payments",
+      "points": [
+        "Child Benefit: a universal payment for each qualifying child, not means tested.",
+        "Working Family Payment: paid to employees on low pay who have children, and means tested.",
+        "Supplementary Welfare Allowance: means tested, and paid to people whose means cannot meet their own needs or those of their dependants.",
+        "Supplementary Welfare Allowance can also be a temporary payment for people awaiting another benefit.",
+        "Maternity benefit: a social insurance payment for employees on maternity leave."
+      ]
+    },
+    {
+      "h": "State pensions",
+      "points": [
+        "The contributory State old age pension is based on the claimant's record of PRSI contributions.",
+        "The contributory pension is not means tested, so other income does not normally remove entitlement to it.",
+        "The non-contributory old age pension is means-tested social assistance for an older person who lacks enough PRSI contributions.",
+        "Eligibility for the non-contributory pension depends on means and on habitual residence in the State."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Gross income",
+      "definition": "Income earned before any deductions are made."
+    },
+    {
+      "term": "Net income",
+      "definition": "Take-home pay: gross income after compulsory and voluntary deductions have been made."
+    },
+    {
+      "term": "PAYE",
+      "definition": "Pay As You Earn, the income tax deducted from wages by the employer and paid to the State."
+    },
+    {
+      "term": "PRSI",
+      "definition": "Pay Related Social Insurance, a compulsory percentage of pay shared by employer and employee to fund social insurance benefits."
+    },
+    {
+      "term": "USC",
+      "definition": "Universal Social Charge, a compulsory charge on gross income that rises with income."
+    },
+    {
+      "term": "Tax credit",
+      "definition": "An amount deducted from the income tax a person owes, which reduces the tax paid."
+    },
+    {
+      "term": "Social insurance payment",
+      "definition": "A State payment available to people who have made the minimum PRSI contributions, and not dependent on means."
+    },
+    {
+      "term": "Social assistance payment",
+      "definition": "A means-tested State payment for people whose PRSI contributions are insufficient for social insurance payments."
+    },
+    {
+      "term": "Means test",
+      "definition": "An assessment of a claimant's income against a set limit to decide whether a payment is made and how much."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four sources of household income",
+      "definition": "Wages, salaries, pensions, and social welfare allowances and benefits."
+    },
+    {
+      "term": "Three compulsory deductions from gross pay",
+      "definition": "PAYE, PRSI and USC."
+    },
+    {
+      "term": "Three social factors that affect household income",
+      "definition": "Age, gender and social class."
+    },
+    {
+      "term": "Two types of State old age pension",
+      "definition": "The contributory pension, based on PRSI contributions and not means tested, and the non-contributory pension, which is means-tested social assistance."
+    },
+    {
+      "term": "Social insurance versus social assistance",
+      "definition": "Social insurance is based on PRSI contributions and is not means tested; social assistance is means tested and for people with insufficient PRSI contributions."
+    },
+    {
+      "term": "Universal payment for children",
+      "definition": "Child Benefit, paid for each qualifying child and not means tested."
+    },
+    {
+      "term": "Working Family Payment: who it helps",
+      "definition": "Employees on low pay who have children; it is means tested."
+    },
+    {
+      "term": "Two features of Supplementary Welfare Allowance",
+      "definition": "It is means tested, and it can be paid temporarily to people awaiting another benefit."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the difference between gross income and net income, and name two compulsory deductions made from gross pay.",
+      "model": "Gross income is income earned before any deductions are made. Net income is take-home pay, the amount left after deductions have been made. Two compulsory deductions: PAYE, which is income tax deducted by the employer; PRSI, which is pay-related social insurance paid by employer and employee to fund social welfare benefits. USC, the universal social charge on gross income, is also acceptable."
+    },
+    {
+      "marks": 24,
+      "prompt": "Analyse the factors that affect household income, and explain the difference between social insurance payments and social assistance payments, giving one named example of each.",
+      "model": "Age: income rises with experience and promotion and falls at retirement unless a pension is in place; teenagers may earn part-time income. Gender: equal-pay law applies, but senior management can remain male-dominated. Social class: low qualifications or early school leaving limit pay and job options, while higher education widens them. Culture: shapes whether women take paid work and what the household prioritises. Employment pattern: number of family members working, full-time, part-time, job-sharing, flexible or seasonal hours. Disability or addiction: reduces earning capacity and raises costs. Social insurance payments: based on the minimum PRSI contributions, not means tested; example Jobseeker's Benefit or Illness Benefit. Social assistance payments: for people with insufficient PRSI contributions, means tested; example Jobseeker's Allowance or Carer's Allowance."
+    }
+  ]
+}

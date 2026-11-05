@@ -1,0 +1,157 @@
+{
+  "loId": "hom-environmental-issues-s1",
+  "chapterId": "hom-environmental-issues",
+  "subsection": "1. Renewable and non-renewable resources",
+  "syllabusRef": "2.2.2",
+  "notes": [
+    {
+      "h": "Natural resources and sustainable use",
+      "b": "A natural resource is a material or energy source taken from the environment. Sustainable use meets present needs without reducing the ability of future generations to meet theirs.",
+      "points": [
+        "Consumers influence resource use through what they buy, how long they keep products in use and how they dispose of them.",
+        "Resources are classed by how quickly they are replaced: renewable resources are replenished naturally, while non-renewable resources are finite.",
+        "Consumers conserve resources by buying only what is needed, choosing durable and repairable goods, and using items fully before replacing them."
+      ]
+    },
+    {
+      "h": "Renewable energy sources",
+      "b": "A renewable resource is naturally replenished and is not used up by constant use, provided it is used no faster than it is replaced.",
+      "points": [
+        "Solar energy: photovoltaic panels convert sunlight directly into electricity, and solar thermal panels use sunlight to heat water.",
+        "Wind energy: turbines convert the kinetic energy of moving air into electricity; Irish wind farms are usually sited on exposed upland and coastal land.",
+        "Hydroelectric energy: falling water turns turbines, so the source depends on a steady flow of water and a difference in height.",
+        "Biomass: wood, straw, energy crops and other plant or animal material are burned, or converted to biogas, to release heat or electricity.",
+        "Geothermal energy: heat stored in the earth's crust is brought to the surface as hot water or steam to heat buildings or generate electricity.",
+        "Tidal energy uses the rise and fall of the tides to drive turbines; wave energy uses the motion of waves to drive devices."
+      ]
+    },
+    {
+      "h": "Benefits of renewable energy",
+      "points": [
+        "Renewable sources are sustainable: their supply does not run out on human timescales.",
+        "Most produce little or no air pollution or carbon dioxide while generating energy, reducing damage to air and water.",
+        "Using renewables reduces dependence on imported fuel, which improves energy security.",
+        "Some renewables can be installed in a home, such as solar panels on a roof or a small wind turbine, so energy is produced where it is used.",
+        "Building, maintaining and manufacturing renewable systems creates employment.",
+        "Limitation: wind and solar output varies with weather and daylight, so storage or a backup supply is needed."
+      ]
+    },
+    {
+      "h": "Non-renewable resources",
+      "b": "A non-renewable resource is limited in supply and cannot be replaced within a human lifetime once it is used up.",
+      "points": [
+        "Fossil fuels are coal, oil, natural gas and peat, formed from the remains of plants and animals over very long periods: peat over thousands of years, coal, oil and gas over millions.",
+        "Peat (turf) is dug from bogs for home heating and electricity generation, and bog habitats do not regenerate quickly.",
+        "Nuclear energy uses uranium, a mined, finite fuel.",
+        "Iron ore, copper ore and bauxite (the ore of aluminium) are non-renewable mineral resources; recycling extends the life of the metal they yield."
+      ]
+    },
+    {
+      "h": "Environmental effects of non-renewable resources",
+      "points": [
+        "Burning fossil fuels releases carbon dioxide, the main greenhouse gas, which contributes to global warming.",
+        "Burning coal, oil and peat releases sulphur dioxide, which forms acid rain.",
+        "Mining, quarrying and peat extraction destroy habitats and landscapes.",
+        "As reserves fall, fuel becomes harder and more costly to extract, so supplies become less secure."
+      ]
+    },
+    {
+      "h": "Consumer responsibility in managing resources",
+      "points": [
+        "Reduce energy demand, for example by insulating the home and using appliances efficiently, so less fossil fuel is burned.",
+        "Choose a renewable electricity supplier, or install a renewable system, where practical.",
+        "Buy wood and paper products certified by a recognised scheme such as FSC or PEFC, which confirms that the timber came from managed forests.",
+        "Reuse and recycle metals, glass and paper so that finite materials are used again.",
+        "Choose products made with recycled content."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Natural resource",
+      "definition": "A material or energy source taken from the natural environment for human use."
+    },
+    {
+      "term": "Renewable resource",
+      "definition": "A resource that is naturally replenished and is not used up by constant use, provided it is used no faster than it is replaced."
+    },
+    {
+      "term": "Non-renewable resource",
+      "definition": "A resource that is limited in supply and cannot be replaced on human timescales once it is used up."
+    },
+    {
+      "term": "Finite resource",
+      "definition": "A resource whose supply is fixed, so it will eventually be used up."
+    },
+    {
+      "term": "Sustainable use",
+      "definition": "Using resources in a way that meets present needs without reducing the ability of future generations to meet theirs."
+    },
+    {
+      "term": "Fossil fuel",
+      "definition": "A fuel such as coal, oil, natural gas or peat, formed from the remains of organisms over very long periods."
+    },
+    {
+      "term": "Biomass",
+      "definition": "Plant and animal material used as a fuel, either burned directly or converted to biogas."
+    },
+    {
+      "term": "Geothermal energy",
+      "definition": "Heat stored in the earth's crust, which is used for heating buildings or generating electricity."
+    },
+    {
+      "term": "Photovoltaic panel",
+      "definition": "A panel that converts sunlight directly into electricity."
+    },
+    {
+      "term": "Greenhouse gas",
+      "definition": "A gas, such as carbon dioxide, that traps heat in the atmosphere."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Seven renewable energy sources",
+      "definition": "Solar, wind, hydroelectric, geothermal, biomass, tidal and wave energy."
+    },
+    {
+      "term": "Four fossil fuels",
+      "definition": "Coal, oil, natural gas and peat."
+    },
+    {
+      "term": "Three benefits of renewable energy",
+      "definition": "They do not run out on human timescales; they produce little or no pollution during operation; they reduce dependence on imported fuel."
+    },
+    {
+      "term": "Two drawbacks of renewable energy",
+      "definition": "Output varies with weather and daylight, so storage or a backup supply is needed; installation costs can be high for systems such as solar panels and turbines."
+    },
+    {
+      "term": "Three effects of burning fossil fuels",
+      "definition": "Carbon dioxide adds to global warming; sulphur dioxide forms acid rain; particulates and nitrogen oxides harm the respiratory health of people nearby."
+    },
+    {
+      "term": "Source of nuclear electricity",
+      "definition": "Uranium, a mined, finite fuel."
+    },
+    {
+      "term": "Two ways to conserve energy at home",
+      "definition": "Insulate the home to cut heating demand; use appliances efficiently so less electricity is needed."
+    },
+    {
+      "term": "Three non-renewable mineral resources",
+      "definition": "Iron ore, copper ore and bauxite (aluminium ore)."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify two renewable energy sources and describe one environmental benefit of using renewable energy rather than fossil fuels.",
+      "model": "Two correctly named renewable sources, from solar, wind, hydroelectric, geothermal, biomass, tidal and wave energy. One benefit, fully explained: renewable sources produce little or no carbon dioxide or pollution while generating energy, so they reduce global warming and air pollution. Alternatively: they do not run out, so supply is sustainable and does not deplete the environment."
+    },
+    {
+      "marks": 24,
+      "prompt": "Explain the difference between renewable and non-renewable resources, giving two examples of each. Describe the environmental effects of using non-renewable energy, and outline how a household can reduce its dependence on it.",
+      "model": "Definition of a renewable resource as naturally replenished and not used up by constant use, with two named examples such as solar or wind energy. Definition of a non-renewable resource as limited in supply and not replaced once used up, with two named examples such as coal or peat. Environmental effects: carbon dioxide from burning fossil fuels adds to global warming; sulphur dioxide forms acid rain; mining and peat extraction destroy habitats. Household measures: insulate the home and draught-proof it to reduce heating demand; use appliances efficiently and switch off standby; choose a renewable electricity supplier or install a renewable system such as solar panels; reuse and recycle materials to reduce demand for new resources."
+    }
+  ]
+}
