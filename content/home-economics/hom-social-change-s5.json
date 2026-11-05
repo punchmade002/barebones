@@ -1,0 +1,120 @@
+{
+  "loId": "hom-social-change-s5",
+  "chapterId": "hom-social-change",
+  "subsection": "5. Women in the workforce and equality legislation",
+  "syllabusRef": "6.1",
+  "notes": [
+    {
+      "h": "Increased participation of women in the workforce",
+      "b": "Women's participation in paid work has risen steadily over recent decades and now forms a large part of the workforce.",
+      "points": [
+        "Higher educational attainment among women has increased their qualifications for professional and managerial posts.",
+        "Smaller families and access to contraception let women plan a return to work after childbirth, or stay in employment.",
+        "Economic need for a second income led many couples to have both partners in paid work.",
+        "Flexible arrangements such as part-time work, job-sharing, flexitime and term-time working help women combine work and family.",
+        "Childcare, pre-school and after-school provision make it possible for parents to work outside the home.",
+        "Jobs have become less gender-specific: women work as engineers, doctors and lawyers, and men work as nurses and childminders.",
+        "Maternity leave and job protection allow women to return to their posts after having a child."
+      ]
+    },
+    {
+      "h": "Effects of women's employment on family life",
+      "points": [
+        "Dual-earner households often have higher household incomes and greater financial independence for each partner.",
+        "Women's employment has changed the division of housework and childcare, and many couples now share these tasks.",
+        "Combining work and family can create role overload and time pressure, especially for lone parents and parents of young children.",
+        "The need for childcare means many families rely on grandparents, relatives or paid childminders.",
+        "Economic independence gives women more choice about whether to remain in an unhappy marriage.",
+        "Career moves can require relocation, so women's jobs can influence family decisions about where to live."
+      ]
+    },
+    {
+      "h": "Equality legislation: equal pay and employment opportunities",
+      "points": [
+        "Equal pay legislation requires employers to pay men and women the same rate for the same work or for work of equal value.",
+        "Equal opportunities legislation prohibits discrimination in recruitment, selection, promotion and training on grounds including gender and marital status.",
+        "Equal treatment rules cover terms and conditions of employment, so women and men have equal access to benefits linked to work.",
+        "Employment rights protect women during pregnancy and maternity leave, and against dismissal because of pregnancy.",
+        "Family status is also a protected ground, which covers employees with caring responsibilities for children or other dependants.",
+        "Legislation is enforced through complaints to the state bodies that deal with employment equality claims."
+      ]
+    },
+    {
+      "h": "Barriers that remain",
+      "points": [
+        "Women are more likely than men to work part-time, often because of caring responsibilities.",
+        "A gender pay gap persists in many sectors, partly because men and women are concentrated in different types of work.",
+        "Women remain under-represented in senior management, a pattern known as the glass ceiling.",
+        "Career breaks for childcare can reduce pension entitlements and promotion prospects."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Participation rate",
+      "definition": "The proportion of the working-age population that is either in paid employment or actively seeking work."
+    },
+    {
+      "term": "Dual-earner household",
+      "definition": "A household in which both partners are in paid employment."
+    },
+    {
+      "term": "Equal pay",
+      "definition": "The principle that men and women are paid the same for the same work or work of equal value."
+    },
+    {
+      "term": "Job-sharing",
+      "definition": "An arrangement in which two people share one full-time job and divide its hours, pay and responsibilities."
+    },
+    {
+      "term": "Term-time working",
+      "definition": "An arrangement that allows an employee to work during school terms and take unpaid leave during school holidays."
+    },
+    {
+      "term": "Occupational segregation",
+      "definition": "The concentration of men and women in different types of work, which can limit pay and promotion."
+    },
+    {
+      "term": "Gender pay gap",
+      "definition": "The difference between average pay for men and average pay for women in the labour market or a workplace."
+    },
+    {
+      "term": "Role overload",
+      "definition": "Pressure that arises when a person faces too many demands from work and family responsibilities at once."
+    },
+    {
+      "term": "Glass ceiling",
+      "definition": "An invisible barrier that prevents qualified women from reaching senior management positions."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four flexible working arrangements that help women combine work and family",
+      "definition": "Part-time work, job-sharing, flexitime and term-time working."
+    },
+    {
+      "term": "Three areas covered by equality legislation at work",
+      "definition": "Equal pay, equal treatment in recruitment and promotion, and equal terms and conditions of employment."
+    },
+    {
+      "term": "Three effects of women's employment on family life",
+      "definition": "Higher household income, shared housework and childcare, and greater demand for childcare services."
+    },
+    {
+      "term": "Two reasons more women entered paid work",
+      "definition": "Higher educational attainment and the economic need for a second income."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two reasons why more women have entered the Irish workforce in recent decades.",
+      "model": "Higher educational attainment among women and their wish to use their qualifications. Economic need for a second income. Smaller families and access to contraception. Part-time and flexible working options that allow women to combine work and family."
+    },
+    {
+      "marks": 24,
+      "prompt": "Analyse the effects of women's increased participation in paid work on family life, and explain how equal pay legislation supports women in employment.",
+      "model": "Effects: dual-earner households have higher incomes and greater financial independence for each partner, which can improve living standards and reduce dependence in marriage. Shared housework and childcare have become more common, but role overload and time pressure are a risk for parents, especially lone parents. Families depend more on childcare services, grandparents and relatives. Women's careers can shape decisions about where the family lives. Equal pay legislation: it requires employers to pay men and women the same for the same work or work of equal value. Equal opportunities rules prohibit discrimination in recruitment, promotion and training on grounds including gender and marital status. Employment rights protect women during pregnancy and maternity leave. These protections encourage women to stay in and return to paid work, although gender pay gaps and occupational segregation persist."
+    }
+  ]
+}

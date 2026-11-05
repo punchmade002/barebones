@@ -1,0 +1,161 @@
+{
+  "loId": "hom-home-services-s4",
+  "chapterId": "hom-home-services",
+  "subsection": "4. Water",
+  "syllabusRef": "4.5.2",
+  "notes": [
+    {
+      "h": "Public water treatment and supply",
+      "b": "Water supplied through the public mains is treated to make it safe for drinking and domestic use before it reaches the home.",
+      "points": [
+        "Stage 1, screening: water passes through screens that remove floating debris and large solids.",
+        "Stage 2, sedimentation: chemicals are added to bind fine dirt into larger particles, which sink to the base of the tank and are removed.",
+        "Stage 3, filtration: water passes through filter beds of sand, gravel and stones to remove remaining particles.",
+        "Stage 4, chlorination: chlorine is added to kill bacteria and other micro-organisms.",
+        "Stage 5, testing: samples are tested for quality and purity before the water is released.",
+        "Stage 6, storage: treated water is held in a high-level reservoir so it cannot become contaminated and so pressure is available for distribution.",
+        "Distribution: clean water flows from the reservoir through a mains pipe to houses, with manholes or valves at regular intervals for inspection and repair."
+      ]
+    },
+    {
+      "h": "Components of the cold water supply system",
+      "points": [
+        "Mains pipe: carries clean water from the public main into the house.",
+        "Stop cock: a valve that turns the water off at the main, usually near the boundary or under the kitchen sink; a second stop cock may be found inside the house.",
+        "Rising main: a pipe that carries water from the stop cock up to the cold water storage tank in the attic.",
+        "Cold water storage tank: a tank in the attic that stores water for the cold taps, the WC cistern and the hot water cylinder.",
+        "Ball valve (float valve): a valve on the storage tank that controls the water level and shuts off the inflow when the tank is full.",
+        "Overflow pipe: a pipe leading from the tank to the outside of the house, which carries excess water out if the ball valve fails.",
+        "Distribution pipes: carry cold water from the tank to the kitchen and bathroom taps, the WC cistern and the feed to the hot water cylinder.",
+        "Drinking water tap: often fed directly from the rising main at the kitchen sink, so drinking water does not pass through the storage tank.",
+        "Diagram: plan of a cold water system showing the mains pipe, stop cock, rising main, attic tank with ball valve and overflow, and distribution pipes to the taps, WC and cylinder."
+      ]
+    },
+    {
+      "h": "How the cold water system works",
+      "points": [
+        "Water enters through the mains pipe, passes the stop cock and rises through the rising main into the attic tank.",
+        "The ball valve closes when the tank reaches its set level, so the tank is never over-filled.",
+        "Water is stored in the tank and flows out by gravity to the taps, cistern and cylinder when a tap is opened or a cistern refills.",
+        "Water pressure depends on the height of the tank above the outlet: a tank in the attic gives enough pressure at lower-level taps without a pump.",
+        "Overflow water leaves through the overflow pipe, which carries it outside so that water is not damaged or leaking into the ceilings below.",
+        "The stop cock is closed to isolate the supply during repairs, when a pipe bursts or when the house is left empty for a long period."
+      ]
+    },
+    {
+      "h": "Preventing freezing in the cold water system",
+      "points": [
+        "Water freezes at 0 °C and expands as it turns to ice, so pipes and tanks in cold spaces such as the attic and external walls can split.",
+        "Lag the cold water storage tank with an insulated lid or jacket, and lag the pipes in the attic and in external walls with pipe insulation.",
+        "Insulate the attic floor so that heat from the house keeps the tank and pipes above freezing.",
+        "Keep the heating on at a low setting in very cold weather, rather than switching it off, so the building remains warm.",
+        "Open the doors of cupboards containing pipes on external walls so that warm air reaches them.",
+        "In severe cold, allow a tap to run slowly, because moving water is less likely to freeze.",
+        "If a pipe freezes, turn off the water at the stop cock, open the nearest tap and thaw the pipe gently with a warm cloth or a hot water bottle; never use a naked flame or a blowtorch.",
+        "After thawing, check the pipes and joints for leaks before turning the water back on."
+      ]
+    },
+    {
+      "h": "Conserving water in the home",
+      "points": [
+        "Take a shower instead of a bath, because a shower uses far less water than filling a bath.",
+        "Turn off the tap while brushing teeth and shaving, and do not leave taps running.",
+        "Wash vegetables and small amounts of dishes in a basin or a plugged sink rather than under a running tap.",
+        "Repair leaks and dripping taps promptly, because a constant drip wastes a large volume over a year.",
+        "Fit a dual-flush WC cistern so that the half-flush can be used for liquids, and fit cisterns with reduced-volume flushes where possible.",
+        "Use washing machines and dishwashers only on full loads, or on half-load or economy programmes for lightly soiled items.",
+        "Install mixer taps, which deliver the right temperature without running hot and cold water separately.",
+        "Do not overfill the kettle, since only the water needed should be heated.",
+        "Collect rainwater from the roof in a butt for watering the garden and washing outdoor surfaces."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Stop cock",
+      "definition": "A valve that turns off the water supply to a house, used for repairs, burst pipes or flooding."
+    },
+    {
+      "term": "Ball valve",
+      "definition": "A float-operated valve on a storage tank that controls the water level and closes when the tank is full."
+    },
+    {
+      "term": "Storage tank",
+      "definition": "A tank in the attic that holds cold water for the taps, WC cistern and hot water cylinder."
+    },
+    {
+      "term": "Overflow pipe",
+      "definition": "A pipe that carries excess water from a storage tank to the outside of the house if the ball valve fails."
+    },
+    {
+      "term": "Rising main",
+      "definition": "The pipe that carries water from the stop cock up to the cold water storage tank."
+    },
+    {
+      "term": "Mains pipe",
+      "definition": "The pipe that brings clean water from the public main into the house."
+    },
+    {
+      "term": "Chlorination",
+      "definition": "The addition of chlorine to water to kill bacteria and other micro-organisms."
+    },
+    {
+      "term": "Sedimentation",
+      "definition": "The settling out of solid particles from water after chemicals have bound them together, so they can be removed."
+    },
+    {
+      "term": "Filtration",
+      "definition": "The passing of water through beds of sand, gravel and stones to remove remaining particles."
+    },
+    {
+      "term": "Pipe lagging",
+      "definition": "Insulation wrapped around pipes and tanks to prevent water from freezing in cold spaces."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Six stages of treating public water",
+      "definition": "Screening, sedimentation with chemicals, filtration through sand and gravel, chlorination, testing, and storage in a high-level reservoir."
+    },
+    {
+      "term": "Three functions of the stop cock",
+      "definition": "It isolates the supply for repairs; it stops flooding from a burst pipe; it turns the water off when the house is left empty."
+    },
+    {
+      "term": "Three functions of the ball valve",
+      "definition": "It controls the water level in the tank; it shuts off the inflow when the tank is full; it prevents the tank overflowing into the house."
+    },
+    {
+      "term": "Purpose of the overflow pipe",
+      "definition": "It carries excess water from the tank to the outside of the house if the ball valve fails."
+    },
+    {
+      "term": "Why the storage tank is placed in the attic",
+      "definition": "A high-level tank gives water enough gravity pressure to supply the taps and cistern without a pump."
+    },
+    {
+      "term": "Two ways to protect the cold water system from freezing",
+      "definition": "Lag the tank and pipes with insulation; insulate the attic floor and keep the heating on at a low setting in cold weather."
+    },
+    {
+      "term": "Water-saving feature of a WC cistern",
+      "definition": "A dual-flush system that offers a full flush and a half flush, using less water for liquids."
+    },
+    {
+      "term": "Three ways to conserve water in the kitchen",
+      "definition": "Use a plugged sink or basin for washing dishes and vegetables; repair dripping taps; run dishwashers and washing machines on full loads or economy programmes."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the function of the ball valve and the overflow pipe in a domestic cold water system.",
+      "model": "Ball valve: controls the water level in the storage tank by closing the inflow when the tank is full, which prevents the tank overflowing into the house. Overflow pipe: carries excess water from the tank to the outside of the house if the ball valve fails. Full marks need a correct function for each part, with the reason it matters to the house."
+    },
+    {
+      "marks": 24,
+      "prompt": "Describe the stages in treating public water before it reaches the home. Then describe three ways of conserving water in the home and one way of protecting the cold water system from freezing.",
+      "model": "Treatment: screening removes floating debris; sedimentation uses chemicals to bind fine dirt, which sinks and is removed; filtration through sand, gravel and stones removes remaining particles; chlorination kills bacteria; testing checks quality; storage in a high-level reservoir keeps the water clean and gives pressure. Conservation: take a shower instead of a bath; turn off taps while brushing teeth and wash dishes in a plugged sink or basin; repair dripping taps; fit a dual-flush WC cistern; use washing machines and dishwashers on full loads or economy programmes. Freezing: lag the storage tank and pipes in the attic and external walls with insulation, or insulate the attic floor; keep heating on at a low setting in cold weather. Full marks need four treatment stages in order, three correctly explained conservation methods and one protection method with reasons."
+    }
+  ]
+}

@@ -2347,6 +2347,1871 @@
    }
   ]
  },
+ "hom-clothing-selection-s1": {
+  "keyTerms": [
+   {
+    "definition": "The reduction in a fabric's length or width caused by laundering, drying or heat.",
+    "term": "Shrinkage"
+   },
+   {
+    "definition": "The irreversible matting of wool fibres caused by heat, moisture and agitation, as their scales interlock.",
+    "term": "Felting"
+   },
+   {
+    "definition": "The ability of a fabric to stop water wetting or passing through it, through its structure or a surface finish.",
+    "term": "Water repellence"
+   },
+   {
+    "definition": "The ability of a fabric to return to its smooth state after being folded or crushed.",
+    "term": "Crease recovery"
+   },
+   {
+    "definition": "A detergent component that reduces the surface tension of water so that it can wet fibres and lift soil away.",
+    "term": "Surfactant"
+   },
+   {
+    "definition": "A biological catalyst in a detergent that breaks down specific stains such as protein, starch or fat.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "A detergent component that absorbs ultraviolet light and emits blue light, making white fabric appear whiter.",
+    "term": "Fluorescent whitening agent"
+   },
+   {
+    "definition": "A fabric that allows water vapour from perspiration to pass out while still resisting rain.",
+    "term": "Breathable fabric"
+   },
+   {
+    "definition": "Cotton, linen and wool absorb water readily; polyester and nylon absorb very little.",
+    "term": "Three fibre types with the most water absorbency"
+   },
+   {
+    "definition": "Relaxation shrinkage in cotton and linen, felting shrinkage in wool, and heat shrinkage from over-hot washing or tumble drying.",
+    "term": "Three types of shrinkage"
+   },
+   {
+    "definition": "Proteases break down protein stains, amylases break down starch stains and lipases break down fat stains.",
+    "term": "Three enzymes in laundry detergent and the stains they break down"
+   },
+   {
+    "definition": "Wash at a suitable temperature, avoid tumble drying, and buy pre-shrunk or shrink-proofed fabric.",
+    "term": "Three ways to reduce shrinkage in a garment"
+   },
+   {
+    "definition": "A triangle with diagonal stripes or a cross through it; bleach must not be used on the fabric.",
+    "term": "Symbol meaning do not bleach"
+   },
+   {
+    "definition": "A washtub with a hand inside it, usually at low temperature with gentle action.",
+    "term": "Symbol meaning hand wash only"
+   },
+   {
+    "definition": "An iron with two dots, suitable for wool and wool-polyester blends.",
+    "term": "Symbol meaning medium iron"
+   },
+   {
+    "definition": "Applying a resin crease-resistant finish to cotton or linen, and steaming to relax wrinkles in wool.",
+    "term": "Two ways to improve crease recovery"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The properties of a fabric come from its fibres, its yarn and its construction, and these properties decide how it reacts to water, heat, friction and detergent.",
+    "h": "Why fabric care depends on fibre type",
+    "points": [
+     "Natural cellulose fibres (cotton, linen) absorb water readily, swell when wet and are strong when wet.",
+     "Protein fibres (wool, silk) absorb moisture, are damaged by alkaline detergents and high temperatures, and can felt or shrink when agitated in hot water.",
+     "Manufactured fibres such as polyester and nylon absorb very little water, dry quickly and keep their shape, but they can attract static and melt at high heat.",
+     "Blended fabrics combine the care needs of both fibres, so the more sensitive fibre sets the washing temperature.",
+     "Fabric construction matters too: a tightly woven fabric resists water penetration more than a loosely knitted one."
+    ]
+   },
+   {
+    "b": "Shrinkage is the reduction in a fabric's length or width after laundering.",
+    "h": "Shrinkage",
+    "points": [
+     "Relaxation shrinkage happens when fibres released from the tension of spinning and weaving return to their natural length in water, most noticeably in cotton and linen.",
+     "Felting shrinkage happens to wool when the scales on its fibres interlock under heat, moisture and agitation, and it cannot be reversed.",
+     "Heat shrinkage occurs when a fabric is washed or tumble dried above the temperature it can tolerate.",
+     "Shrinkage is calculated as the original length minus the new length, divided by the original length, multiplied by 100.",
+     "Pre-shrinking, or a shrink-proof finish, reduces shrinkage in garments that will be laundered often."
+    ]
+   },
+   {
+    "b": "Water repellence is the ability of a fabric to stop water wetting or passing through it.",
+    "h": "Water repellence",
+    "points": [
+     "Water-repellent fabrics have a close weave or tight knit, so the gaps between yarns are too small for water to penetrate.",
+     "Fibres that do not absorb water, such as polyester and nylon, shed water more readily than cotton or linen.",
+     "A water-repellent finish coats the surface of the fabric with a chemical so that water forms beads that roll off.",
+     "Water-repellent fabrics can still allow body moisture to pass out; breathable fabrics let perspiration escape while resisting rain.",
+     "A waterproof fabric or laminate stops water passing through entirely and is usually sealed at the seams."
+    ]
+   },
+   {
+    "b": "Crease recovery is the ability of a fabric to return to its original smooth state after being folded or crushed.",
+    "h": "Crease recovery",
+    "points": [
+     "A crease forms when fibres are bent and the bonds between them shift, holding the fabric in the folded position.",
+     "Cotton and linen creases easily because their cellulose chains form hydrogen bonds that break and re-form when the fabric is wet and dried.",
+     "Wool recovers well from creasing because its fibres are elastic, and wrinkles can be relaxed by steaming.",
+     "Polyester and nylon have good crease recovery because their fibres spring back to shape once the folding force is removed.",
+     "Crease-resistant finishes, such as resin finishes on cotton, improve recovery and reduce the need for ironing."
+    ]
+   },
+   {
+    "b": "Care labels on garments use standard symbols, arranged in a fixed order, to show the safe method of laundering, drying, ironing and dry cleaning.",
+    "h": "Fabric care symbols",
+    "points": [
+     "A washtub symbol shows that the garment can be washed; dots inside the tub give the maximum water temperature.",
+     "A washtub with a hand inside means hand wash only, usually at a low temperature and with gentle action.",
+     "A washtub with a cross through it means the garment must not be washed in water.",
+     "A triangle means bleach may be used; a crossed-out triangle means do not bleach.",
+     "A square containing a circle means the garment can be tumble dried; dots inside the circle give the drying heat, and a cross means do not tumble dry.",
+     "A square with horizontal bars means dry flat; a square with a vertical line means line dry.",
+     "An iron symbol with one dot means a low iron, two dots a medium iron and three dots a hot iron, and a cross means do not iron.",
+     "A circle symbol shows dry cleaning, with letters indicating the solvent or process the cleaner must use."
+    ]
+   },
+   {
+    "b": "A modern laundry detergent contains several components, each with a specific job in removing soil from the fabric.",
+    "h": "Detergent components and how they clean",
+    "points": [
+     "Surfactants reduce the surface tension of water, so the water can wet the fibres thoroughly and lift oily and greasy soil away.",
+     "Surfactants form a film around loosened soil particles, keeping them suspended in the wash water so they do not redeposit on the fabric.",
+     "Enzymes are biological catalysts that break down stains: proteases break down protein stains such as blood and egg, amylases break down starch stains and lipases break down fat stains.",
+     "Enzymes work best within a specific temperature range and are damaged by very high temperatures.",
+     "Fluorescent whitening agents absorb ultraviolet light and re-emit it as blue light, which makes white fabrics look brighter and whiter.",
+     "Fluorescent agents do not remove stains; they only change how the fabric reflects light, so they are unsuitable for coloured fabrics."
+    ]
+   },
+   {
+    "b": "Simple tests allow a consumer or student to compare how fabrics behave in relation to their general properties.",
+    "h": "Scientific tests on fabrics",
+    "points": [
+     "Shrinkage test: mark a set length on each sample, wash it under the same conditions, dry it, measure again and compare the percentage change.",
+     "Water repellence test: place drops of water on the fabric surface and observe whether they bead and roll off or soak in and spread.",
+     "Crease recovery test: crumple each sample in a closed fist for one minute, release and smooth it, then rate how well each sample recovers.",
+     "Each test must use equal sample sizes and the same conditions so that the results can be compared fairly.",
+     "Tests should be repeated on several samples of each fabric to give reliable results, and any variation noted."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Cotton is a cellulose fibre, and its fibres release the tension set during spinning and weaving when wet, so they return to a shorter, looser length. The hot water speeds this relaxation, and tumble drying applies further heat that shortens the fabric. The result is relaxation shrinkage combined with heat shrinkage, which reduces the garment's length and width and can make it tight to wear. Washing at a lower temperature and drying flat or on a line reduces the problem.",
+    "prompt": "Explain what happens to a cotton shirt in a hot wash that is then tumble dried, and name the type of shrinkage involved.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Surfactants reduce the surface tension of the wash water, so it can wet the cotton fibres and penetrate beneath the greasy soil, lifting it away from the fabric. The surfactant molecules surround the loosened grease and keep it suspended in the water, so it does not redeposit on the garment. Lipases, an enzyme, break down fat stains into smaller molecules that wash out more easily, and they work best within a suitable temperature range. Fluorescent whitening agents do not remove stains; they only make white fabric look brighter and should be avoided on coloured fabrics. Care is needed to choose a wash temperature that suits the fabric and the enzymes, to check the care label for bleach and drying instructions, and to separate colours so that dye does not run. Pre-treating a stain before washing improves the result.",
+    "prompt": "Describe how a detergent removes a greasy stain from a cotton garment, referring to at least three detergent components and the care needed for fabric and colour.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-clothing-selection-s2": {
+  "keyTerms": [
+   {
+    "definition": "A need that an outfit must meet, such as protection, comfort, occasion or budget.",
+    "term": "Clothing requirement"
+   },
+   {
+    "definition": "A person or group whose clothing choices are copied by others and help set the direction of fashion.",
+    "term": "Trendsetter"
+   },
+   {
+    "definition": "The style accepted by a group of people at a particular time, which changes over time.",
+    "term": "Fashion"
+   },
+   {
+    "definition": "The use of computer software to design and develop garments and patterns on screen before production.",
+    "term": "Computer-aided design (CAD)"
+   },
+   {
+    "definition": "The tendency to adopt the clothing and behaviour of a group in order to fit in.",
+    "term": "Conformity"
+   },
+   {
+    "definition": "Formal, tailored clothing worn to project authority and status, typically in a business setting.",
+    "term": "Power dressing"
+   },
+   {
+    "definition": "A very fine synthetic fibre that gives fabric a soft feel and can be used to make lightweight, durable garments.",
+    "term": "Microfibre"
+   },
+   {
+    "definition": "A long piece of fabric wrapped around the body, traditional dress for many women in India.",
+    "term": "Sari"
+   },
+   {
+    "definition": "Function, cost versus money available, and availability of suitable clothing.",
+    "term": "Three factors that determine clothing requirements"
+   },
+   {
+    "definition": "Conformity, changing gender roles and culture, which shape the styles people choose and the dress codes they follow.",
+    "term": "Three social influences on clothing"
+   },
+   {
+    "definition": "Prosperity encouraging spending, recession producing simpler and cheaper clothing, and the cost of raw materials and labour.",
+    "term": "Three economic influences on clothing design"
+   },
+   {
+    "definition": "CAD, advanced sewing and cutting machinery, and new high-tech fibres.",
+    "term": "Three industrial influences on clothing"
+   },
+   {
+    "definition": "Magazines, television and film popularise styles, and young people copy the clothes worn by celebrities.",
+    "term": "Two ways the media influences clothing"
+   },
+   {
+    "definition": "It determines modesty and traditional dress, and it inspires designs such as Russian fur trims and Indian saris.",
+    "term": "Two ways culture influences clothing"
+   },
+   {
+    "definition": "Trendsetters' choices are copied by others, and high street retailers then copy the styles that designers show at seasonal collections.",
+    "term": "Trendsetter influence on the mass market"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Clothing requirements are the needs an outfit must meet, and they vary between people and situations.",
+    "h": "Factors that determine what people need to wear",
+    "points": [
+     "Function: clothing must protect the body from weather, provide the movement an activity needs and be safe for the wearer's work or play.",
+     "Climate and season decide the weight of fabric, the amount of covering and the need for waterproof or insulating layers.",
+     "Cost versus money available: a buyer weighs the price of a garment against their budget, and the purchase cost is balanced against durability and the number of times it will be worn.",
+     "Availability: clothing can only be bought if it is stocked in the shops or online in the right size, colour and style.",
+     "Personal taste and body shape guide the choice of style, colour and fit.",
+     "Occasion and activity define the level of formality, such as a school uniform, work wear, sportswear or a wedding outfit."
+    ]
+   },
+   {
+    "h": "Social and cultural influences",
+    "points": [
+     "Culture shapes modesty and dress codes, and it inspires designs, for example traditional dress such as the Indian sari and pashmina shawl.",
+     "Religious and national traditions influence the clothing worn for ceremonies, festivals and rites of passage.",
+     "Peer groups influence teenagers, who often adopt the styles and brands their friends wear to gain acceptance.",
+     "Status: clothing signals a person's rank, wealth or profession, such as the uniform of a nurse or a Garda.",
+     "Identification: uniforms show that a person belongs to a group or holds a role."
+    ]
+   },
+   {
+    "h": "Influences of the media, trendsetters and fashion",
+    "points": [
+     "Magazines, newspapers, television, film and advertising popularise fashion by showing what is worn.",
+     "Young people copy the clothes worn by actors, presenters, musicians and sports stars they admire.",
+     "Trendsetters are individuals or groups whose choices are copied by others, and they set the direction for the mass market.",
+     "Fashion houses and designers launch collections at seasonal shows, which are then copied by high street retailers.",
+     "Fashion is the currently accepted style, and it changes over time, so clothing that was fashionable in one decade can look dated in the next."
+    ]
+   },
+   {
+    "b": "Social, economic and industrial conditions shape how garments are designed, made and sold.",
+    "h": "Social, economic and industrial influences on design and construction (Higher Level only)",
+    "points": [
+     "Social: conformity, the wish to fit in with a group, drives demand for common styles.",
+     "Social: changes in women's status and in male roles have altered the silhouettes and tailoring that designers offer.",
+     "Economic: prosperity encourages consumers to spend on fashion, including power dressing and luxury items.",
+     "Economic: in a downturn, consumers buy simpler, more sombre and lower-cost clothing, and manufacturers use cheaper materials.",
+     "Economic: production costs, including raw materials and labour, set the price a garment must be sold at.",
+     "Industrial: computer-aided design (CAD) allows designers to develop patterns and styles on screen before production.",
+     "Industrial: advanced sewing machines, computerised cutting and mass production make garments faster and cheaper to make.",
+     "Industrial: new and high-tech fibres and blends, such as stretch fibres and microfibres, create fabrics with new properties.",
+     "Industrial: media, communication and fast transport allow new styles to reach markets around the world within days."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Function: a waterproof jacket for a hiking trip protects against rain and wind. Cost versus money available: a student may buy a cheaper jumper that will be worn for one season, because their budget is limited. Availability: a person in a rural area may only find clothes in local shops, which limits their choice of size and style.",
+    "prompt": "Name three factors that influence what a person needs to wear, and give one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Social influences: conformity leads consumers to buy common styles that suit their peer group, and changes in the status of women and the role of men have altered the tailoring and silhouettes designers offer. Economic influences: when prosperity grows, consumers spend more on fashion, including power dressing and luxury items; in a recession, consumers buy simpler, more sombre clothing and manufacturers use cheaper materials, and production costs for raw materials and labour set the selling price. Industrial influences: CAD allows designers to develop styles and patterns on screen before production, advanced sewing machines and computerised cutting speed up construction, and new high-tech and microfibre materials create fabrics with new properties. Media and fast transport spread new styles quickly, so manufacturers can respond to demand rapidly.",
+    "prompt": "Discuss how social, economic and industrial influences have shaped the design and construction of clothing.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-clothing-selection-s3": {
+  "keyTerms": [
+   {
+    "definition": "The overall outline or shape of a garment when it is worn.",
+    "term": "Silhouette"
+   },
+   {
+    "definition": "Clothing that combines sportswear, such as leggings, joggers and hoodies, with everyday dress.",
+    "term": "Athleisure"
+   },
+   {
+    "definition": "A person with a large social media following whose choices of clothing and products are copied by others.",
+    "term": "Influencer"
+   },
+   {
+    "definition": "Second-hand clothing from an earlier period, often valued for its style and age.",
+    "term": "Vintage clothing"
+   },
+   {
+    "definition": "Turning an old or unwanted garment into a new one with a higher value, for example by adding patches or embroidery.",
+    "term": "Upcycling"
+   },
+   {
+    "definition": "Inexpensive, quickly produced clothing that follows trends closely and is designed to be replaced frequently.",
+    "term": "Fast fashion"
+   },
+   {
+    "definition": "A finish that makes new garments look worn, through frayed edges, grated patches or bleaching.",
+    "term": "Distressed look"
+   },
+   {
+    "definition": "An approach to clothing in which garments are designed to be repaired, reused or recycled to keep materials in use.",
+    "term": "Circular fashion"
+   },
+   {
+    "definition": "Colour, shape or silhouette, and texture, each of which can be seen in fashionable garments.",
+    "term": "Three elements of design used to describe a current trend"
+   },
+   {
+    "definition": "Leggings or joggers, hoodies, zipped jackets, trainers and T-shirts.",
+    "term": "Five items in the athleisure look"
+   },
+   {
+    "definition": "Comfort, versatility and durability.",
+    "term": "Three strengths of athleisure"
+   },
+   {
+    "definition": "It spreads a fashion image internationally within hours, and influencers display outfits that followers copy.",
+    "term": "Two ways social media shapes a trend"
+   },
+   {
+    "definition": "They create a focal point, add colour and contrast, and tie the outfit together by repeating a colour.",
+    "term": "Three ways accessories complete an outfit"
+   },
+   {
+    "definition": "It encourages frequent buying, produces waste and offers garments of low quality that wear out quickly.",
+    "term": "Three disadvantages of fast fashion"
+   },
+   {
+    "definition": "Garments already owned or bought second-hand, reusing existing items and reducing demand for new production.",
+    "term": "Pre-loved clothing"
+   },
+   {
+    "definition": "Bleaching and frayed or distressed edges.",
+    "term": "Two features of the punk vintage look"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A trend is recognised by the features it repeats across garments and outfits, and the elements of design are the tools used to describe them.",
+    "h": "Identifying a trend through the elements of design",
+    "points": [
+     "Colour: bright, fluorescent or tonal colour schemes, colour panelling and monochrome outfits.",
+     "Shape and silhouette: oversized or boxy shapes, cocoon shoulders, high-waisted trousers, capri pants, peplum skirts and dresses, and tailored coats or capes.",
+     "Line: exaggerated vertical lines to add height, horizontal lines to widen and shorten, and diagonal lines for contrast and movement.",
+     "Proportion: the relationship between garment parts, such as a short jacket worn over a long dress, or a deep cropped top with wide trousers.",
+     "Pattern: geometric prints, herringbone, zig-zag, polka dot and bold retro statements.",
+     "Texture: shiny finishes that reflect light, matt fabrics that absorb it, embroidery, sequins, beads and distressed or frayed surfaces.",
+     "Accessories: belts, large bags, statement jewellery, collar necklaces, hats and fascinators."
+    ]
+   },
+   {
+    "h": "Influences on current trends",
+    "points": [
+     "Social media spreads a fashion image internationally within hours, and repeated exposure can turn a colour or garment into a trend.",
+     "Influencers and bloggers display outfits and styling videos, and their endorsements can encourage or discourage a purchase.",
+     "Celebrities, musicians and athletes are photographed in specific designers' clothes, and their style is copied by fans.",
+     "Designers and fashion houses define the season's direction through seasonal collections and fashion weeks.",
+     "Environmental concern has created demand for sustainable or circular fashion, favouring durable natural or recycled materials, repair and upcycling.",
+     "Trends are also shaped by travel and by culture, including the styles of other countries that become popular at home."
+    ]
+   },
+   {
+    "b": "Athleisure combines sportswear with everyday dress.",
+    "h": "Athleisure",
+    "points": [
+     "Typical items include leggings or joggers, hoodies, zipped jackets and trainers worn for work, school and leisure.",
+     "Stretch and breathable fabrics give comfort and freedom of movement, and they wash easily.",
+     "Its strengths are comfort, versatility, durability, affordability and adaptability to many occasions.",
+     "Its weaknesses are that it can look too informal for some workplaces and that it may encourage a casual dress code to slip into everyday life.",
+     "Athleisure can support activity, since clothing that is comfortable to wear makes it easier to exercise and move.",
+     "It is suited to a wardrobe staple when the pieces are neutral in colour and can be combined with smarter items."
+    ]
+   },
+   {
+    "h": "Vintage and pre-loved clothing",
+    "points": [
+     "Vintage clothing is older clothing, often from a previous decade, bought in charity shops, second-hand stores or online marketplaces.",
+     "Pre-loved clothing extends the life of garments already owned, reducing the demand for new production.",
+     "Distressed looks, such as frayed edges, grated patches and bleached areas, take inspiration from the vintage punk look.",
+     "Retro statements, such as bold patterns and bright colours from earlier decades, are revived by designers and high street brands.",
+     "Upcycling changes an old garment into a new one, for example by adding patches, embroidery or appliqué.",
+     "Vintage pieces can be a unique way for a wearer to express individuality, since fewer people wear them."
+    ]
+   },
+   {
+    "h": "Accessories as part of a trend",
+    "points": [
+     "Accessories complete an outfit and create a focal point, drawing the eye to a feature of the look.",
+     "They add colour and contrast, and they tie an outfit together by repeating a colour from another garment.",
+     "Accessories can change the feel of a basic outfit, for example a scarf or hat that makes a plain outfit look smart or casual.",
+     "A vintage look can be created with items such as retro sunglasses, large brooches and patterned scarves.",
+     "Accessories are often the cheapest way to follow a trend, as one item can update an existing outfit."
+    ]
+   },
+   {
+    "b": "A critical evaluation weighs the advantages and disadvantages of a trend rather than simply describing it.",
+    "h": "Critical evaluation of a trend",
+    "points": [
+     "Advantages: a trend can express identity, create employment in the fashion sector and bring new ideas to design.",
+     "Disadvantages: fast fashion encourages frequent buying, leading to waste and to garments of low quality that wear out quickly.",
+     "Cost: following trends can be expensive, and garments may date quickly once a trend passes.",
+     "Comfort and function: a trend should be judged on whether the garment is comfortable and suits the wearer's activity.",
+     "Suitability: a trend may not flatter every body shape, so a critical evaluation considers who it suits and who it does not."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Social media spreads a fashion image internationally within hours, so a colour, garment or vintage look can become a trend quickly. Influencers and celebrities display outfits, styling videos and shopping links, so followers can copy the look immediately and buy the items shown.",
+    "prompt": "Describe two ways that social media influences current fashion trends.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Name the trend, such as athleisure, and describe its key features. Colour: neutral or monochrome colour schemes give a sleek, coordinated look, and bright colours add interest. Line and shape: relaxed, oversized or stretch silhouettes allow movement and suit many body shapes, but a very loose shape can make a short wearer look shorter. Comfort and function: stretch, breathable fabrics allow free movement and absorb perspiration, and the garment can be worn for work, school or exercise. Evaluation: the trend is versatile and affordable, but it can look too informal for some workplaces, and fast production of such garments creates waste and wears out quickly. A conclusion weighs the advantages against the disadvantages and states whether the trend is suitable for the wearer.",
+    "prompt": "Critically evaluate a current fashion trend of your choice, referring to its use of colour, line or shape, and its comfort and function.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-clothing-selection-s4": {
+  "keyTerms": [
+   {
+    "definition": "The basic visual components of a garment: line, shape, colour, texture and pattern.",
+    "term": "Elements of design"
+   },
+   {
+    "definition": "The ways in which the elements are arranged, including proportion, balance, emphasis, harmony and rhythm.",
+    "term": "Principles of design"
+   },
+   {
+    "definition": "The relationship between the size of one part of a garment and the size of another part or of the whole.",
+    "term": "Proportion"
+   },
+   {
+    "definition": "The creation of a focal point that draws the eye to one area of a garment.",
+    "term": "Emphasis"
+   },
+   {
+    "definition": "The sense that all the parts of a design work together and complement each other.",
+    "term": "Harmony"
+   },
+   {
+    "definition": "The movement of the eye through a garment created by the repetition of a colour, line or shape.",
+    "term": "Rhythm"
+   },
+   {
+    "definition": "A stitched fold of fabric that removes excess material to shape a garment around a body curve.",
+    "term": "Dart"
+   },
+   {
+    "definition": "A long seam running from the shoulder or armhole to the hem that shapes a garment without a waist seam.",
+    "term": "Princess seam"
+   },
+   {
+    "definition": "Line, shape, colour, texture and pattern.",
+    "term": "Five elements of design"
+   },
+   {
+    "definition": "Proportion, balance and emphasis.",
+    "term": "Three principles of design"
+   },
+   {
+    "definition": "They give the impression of length, make the figure look slimmer and taller, and draw the eye upward.",
+    "term": "Three effects of vertical lines on the figure"
+   },
+   {
+    "definition": "They advance and enlarge the figure, making it look bigger.",
+    "term": "Two effects of light colours on the figure"
+   },
+   {
+    "definition": "Function, comfort and aesthetic appeal.",
+    "term": "Three criteria for evaluating a garment"
+   },
+   {
+    "definition": "They add width to the figure and draw attention to the middle of the body.",
+    "term": "Two effects of horizontal stripes"
+   },
+   {
+    "definition": "Darts remove excess fabric to create shape around the body, and pleats add fullness and movement to a skirt or sleeve.",
+    "term": "Two functions of darts and pleats in construction"
+   },
+   {
+    "definition": "Symmetrical, asymmetrical and vertical balance, each of which distributes the parts of a design differently.",
+    "term": "Three ways to achieve balance in a design"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The elements are the visual building blocks of a garment, and each can be changed to alter the look of the outfit.",
+    "h": "The elements of design",
+    "points": [
+     "Line: a visible edge or direction in a garment, created by seams, necklines, hemlines, trims, pleats and fastenings.",
+     "Shape: the outline of a garment or of an area within it, such as a neckline, sleeve or pocket.",
+     "Colour: hue, tone and intensity; warm colours such as red and orange advance, while cool colours such as blue and green recede.",
+     "Texture: the surface quality of a fabric, which can be smooth, rough, shiny or matt, and which can be seen or felt.",
+     "Pattern: the repetition of line, shape or colour over a surface, such as stripes, checks, herringbone, zig-zag or polka dots."
+    ]
+   },
+   {
+    "h": "Line and its effect on the figure",
+    "points": [
+     "Vertical lines give the impression of length and make the figure look slimmer and taller.",
+     "Horizontal lines draw the eye across the body, which widens and shortens the figure.",
+     "Diagonal lines add contrast and movement, and they lead the eye across the garment.",
+     "Curved lines soften an outfit and add a feminine feel, such as the curve of a rounded neckline.",
+     "A princess seam, which runs from the shoulder or armhole to the hem, shapes the garment to the body without a waist seam."
+    ]
+   },
+   {
+    "h": "Colour and texture effects",
+    "points": [
+     "Dark colours recede and reduce the apparent size of the figure, while light colours advance and enlarge it.",
+     "One colour worn from head to toe, or tonal shades of one colour, creates a longer, unbroken line.",
+     "Contrasting or complementary colours at the top and bottom divide the outfit and can balance the shape of the figure.",
+     "Shiny fabrics reflect light and increase the apparent size of the figure, while matt fabrics absorb light and reduce it.",
+     "Rough or heavily textured fabrics look bulkier, while smooth fabrics give a neater, more streamlined finish."
+    ]
+   },
+   {
+    "h": "Pattern and shape effects",
+    "points": [
+     "Small patterns suit small figures, and large patterns can be carried well by a larger figure.",
+     "Vertical stripes add height, and horizontal stripes add width and draw attention to the middle of the figure.",
+     "Pattern placed near the face or neckline draws attention to the upper body, which can distract from the lower body.",
+     "Narrow rectangular shapes slim the figure, while triangular shapes widen the top or bottom and balance the hips or shoulders.",
+     "A fitted bodice with a full skirt gives an hourglass shape, and a fitted top with straight trousers gives a streamlined shape."
+    ]
+   },
+   {
+    "b": "The principles describe how the elements are arranged to create a unified garment.",
+    "h": "The principles of design",
+    "points": [
+     "Proportion: the relationship between the sizes of parts of a garment, such as pockets sized to the garment and a collar sized to the neckline.",
+     "Balance: the way the parts of a design are distributed, which may be symmetrical, asymmetrical or vertical.",
+     "Emphasis: a focal point that draws the eye to one area over another, created by a brooch, contrasting trim, a bold hemline or a neckline.",
+     "Harmony: the sense that all parts of a design work together and complement one another, for example by repeating one colour.",
+     "Rhythm or repetition: the repeated use of a colour, line or shape, which moves the eye through the garment."
+    ]
+   },
+   {
+    "h": "Applying the elements and principles to garment construction",
+    "points": [
+     "Seams join the parts of a garment, and their placement creates line and can add shaping to the body.",
+     "Darts remove excess fabric to shape a garment around the bust, waist or hips.",
+     "Pleats and gathers add fullness and movement to a skirt or sleeve, and they can add visual interest at the waist.",
+     "Pockets, fastenings and collars add line and emphasis, and they must be positioned in proportion to the garment.",
+     "Fabric choice affects how the design hangs, whether a crisp shape holds or a soft drape flows."
+    ]
+   },
+   {
+    "b": "A garment is evaluated against three criteria: how well its design serves its function, its comfort and its aesthetic appeal.",
+    "h": "Evaluating a garment or outfit",
+    "points": [
+     "Function: the garment must suit the activity, climate and occasion it is intended for, such as freedom of movement for sport.",
+     "Comfort: the fabric, fit and ease of movement determine whether the wearer is comfortable.",
+     "Aesthetic appeal: the colour, line, texture and proportion must produce an attractive and pleasing overall look.",
+     "A well-designed garment shows a clear relationship between the design features and the function they serve.",
+     "Using colour and design to flatter the body: choose colours and lines that emphasise the wearer's best features and balance any areas they wish to de-emphasise."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Three elements: line, colour and texture. Line can make a short figure look taller by using vertical lines, such as a long open jacket, a princess seam or a column of buttons, which give an impression of length. Dark, matt colours in the outfit can also help the figure look longer, because they recede and reduce the visual size of the body.",
+    "prompt": "Name three elements of design and state how one of them can be used to make a short figure look taller.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Emphasis: a focal point such as an embellished neckline, a contrasting brooch or a bold hemline draws the eye to one feature, and the rest of the outfit is kept simpler so that the focal point stands out. Proportion: the sizes of the parts are in balance with each other and with the wearer, for example a single colour running from neckline to hem creates an unbroken line, and pockets, collars and trims are sized to suit the garment. A well-proportioned outfit looks harmonious and suits the occasion.",
+    "prompt": "Explain how the principles of emphasis and proportion can be applied to the design of an outfit for a formal occasion.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-clothing-selection-s5": {
+  "keyTerms": [
+   {
+    "definition": "The set of requirements a garment must meet, including its purpose, the occasion and the budget.",
+    "term": "Design brief"
+   },
+   {
+    "definition": "A drawn design showing the garment's line, shape and features, with labels to explain them.",
+    "term": "Fashion sketch"
+   },
+   {
+    "definition": "A full-scale tissue paper pattern for a garment, sold with an envelope that gives sizing and construction information.",
+    "term": "Commercial pattern"
+   },
+   {
+    "definition": "The finished, non-fraying edge along each side of a woven fabric.",
+    "term": "Selvedge"
+   },
+   {
+    "definition": "The line printed on a pattern piece that is placed parallel to the selvedge of the fabric.",
+    "term": "Grain line"
+   },
+   {
+    "definition": "The direction of the pile or surface pattern on a fabric, which must be kept the same on all pieces.",
+    "term": "Nap"
+   },
+   {
+    "definition": "A marked line on a commercial pattern along which the pattern can be lengthened or shortened.",
+    "term": "Alteration line"
+   },
+   {
+    "definition": "Long, temporary hand stitches used to hold pieces together before the garment is machine sewn.",
+    "term": "Tacking"
+   },
+   {
+    "definition": "Define the brief, investigate, generate ideas, present, refine, implement and evaluate.",
+    "term": "Seven stages of the design process"
+   },
+   {
+    "definition": "The buyer's skill level with patterns, the cost of the pattern, and the pattern's suitability for the wearer's measurements and preference.",
+    "term": "Three factors to consider when selecting a commercial pattern"
+   },
+   {
+    "definition": "Cut through the alteration lines and insert tissue paper to lengthen, or redraw the seam and fitting lines to match.",
+    "term": "Two ways to lengthen a commercial pattern"
+   },
+   {
+    "definition": "Skirts and trousers are sized by hip measurement on a commercial pattern.",
+    "term": "Hip measurement use"
+   },
+   {
+    "definition": "Lay out and cut, pin and tack, machine sew, insert fastenings and finish, and press.",
+    "term": "Five stages of the plan of work for a garment"
+   },
+   {
+    "definition": "Standard body measurements and fabric quantity needed for each size and style.",
+    "term": "Two items on a commercial pattern envelope"
+   },
+   {
+    "definition": "One process chosen from a choice of three set by the State Examinations Commission.",
+    "term": "Mandatory process for the Elective 2 coursework garment in 2027"
+   },
+   {
+    "definition": "Grain line parallel to the selvedge, and a piece placed on a fold exactly on the fold line.",
+    "term": "Two correct placements of a pattern piece on fabric"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The design process is a set of stages that moves from the brief to a finished, evaluated garment.",
+    "h": "The design process",
+    "points": [
+     "1. Define and analyse the brief: identify who the garment is for, its purpose, the occasion, the budget and any constraints.",
+     "2. Investigate and research: gather ideas from magazines, fabric samples, pattern books and observation of current trends.",
+     "3. Generate possible ideas: sketch several designs, varying line, shape, colour and pattern.",
+     "4. Present the ideas: a labelled fashion sketch and a short written description show the chosen design features.",
+     "5. Refine the design: adjust the chosen design, the fabric and the trimmings until they meet the brief.",
+     "6. Implement: plan the work, select fabric and pattern, cut, construct and finish the garment.",
+     "7. Evaluate: assess the finished garment for fit, finish, comfort, function and appearance, and note improvements."
+    ]
+   },
+   {
+    "h": "Sketching and describing a design",
+    "points": [
+     "A fashion sketch shows the garment's line, shape, proportion and harmony, and it can show colour and fabric.",
+     "The front view and, where needed, the back view show the design features that the sketch must label.",
+     "The written description covers colour, design, line, proportion, shape, pockets, seams, neckline, sleeves, fabric and finishes, and accessories.",
+     "Each design feature named in the description must be visible in the sketch."
+    ]
+   },
+   {
+    "h": "Selecting fabric for the design",
+    "points": [
+     "Fabric is chosen for its suitability to the purpose: its absorbency, shrinkage, water repellence and crease recovery.",
+     "A fabric test sample is washed and dried to check shrinkage before cutting, so the finished garment fits after laundering.",
+     "Fabric choice must match the design: a soft drape suits a flowing skirt, while a crisp fabric holds the shape of a tailored jacket.",
+     "Notions such as zips, buttons, interfacing, lining and thread should be chosen to match the fabric's care needs and colour."
+    ]
+   },
+   {
+    "b": "A commercial pattern is a full-scale tissue paper pattern sold in a sealed envelope.",
+    "h": "Selecting and reading a commercial pattern",
+    "points": [
+     "Choose a simple pattern with few darts and seams for a beginner, and a pattern with an easy-sew range where one is offered.",
+     "Skirts and trousers are sized by hip measurement; dresses, shirts, coats and jackets are sized by bust or chest measurement.",
+     "Other selection factors include the buyer's preference, the cost of the pattern and the value it offers for the number of garments it can make.",
+     "The envelope gives the standard body measurements and the finished measurements of the garment.",
+     "The envelope lists the fabric quantity needed for each size and style, and whether the fabric should be plaid or diagonal-matched.",
+     "The envelope lists the notions needed, such as buttons, zips, interfacing, lining and trimmings, and the number of pattern pieces.",
+     "The envelope shows front and back views and suitable fabrics, and it may include advice on the layout and construction order."
+    ]
+   },
+   {
+    "h": "Taking body measurements",
+    "points": [
+     "Bust or chest: measure around the fullest part of the bust or the chest.",
+     "Waist: measure around the natural waistline, with the tape held comfortably, not pulled tight.",
+     "Hips: measure around the widest part of the hips, keeping the tape level all the way round.",
+     "Nape to waist: measure from the most prominent bone at the base of the neck down to the waistline.",
+     "Inside leg: measure from the crotch down the inside of the leg to the required hemline."
+    ]
+   },
+   {
+    "h": "Laying out and cutting the pattern",
+    "points": [
+     "Follow the pattern instructions and pin the pattern pieces to the fabric with the fabric folded as directed.",
+     "Place the straight grain of the pattern parallel to the selvedge of the fabric, so the garment hangs correctly.",
+     "Pattern pieces to be placed on a fold must sit exactly on the fold line, so the garment is symmetrical when opened out.",
+     "Take account of the nap, or direction of the pile, and of any pattern or print on the fabric, so that all pieces face the same way.",
+     "Keep the fabric flat while pinning and cutting, and cut accurately around the pattern edges.",
+     "Diagram: pattern pieces on fabric showing the grain line parallel to the selvedge and a piece placed exactly on the fold."
+    ]
+   },
+   {
+    "h": "Plan of work for construction",
+    "points": [
+     "Stage 1: lay out and cut the pattern pieces.",
+     "Stage 2: transfer markings and pin and tack the pieces together to check the fit.",
+     "Stage 3: machine sew and assemble the garment, joining seams in the order the pattern gives.",
+     "Stage 4: insert fastenings, add trimmings and complete the hems and edges.",
+     "Stage 5: press the seams and the finished garment, which removes creases and sets the shape.",
+     "Stage 6: evaluate the fit and finish, and note any changes needed."
+    ]
+   },
+   {
+    "b": "A commercial pattern is made for a standard figure, so it is often changed to suit a particular person.",
+    "h": "Modifying a commercial pattern (Higher Level only)",
+    "points": [
+     "Lengthen a pattern: cut through the alteration lines, insert tissue paper and redraw the seam and fitting lines.",
+     "Shorten a pattern: fold along one of the alteration lines by half the amount to be removed, and redraw the seam and fitting lines.",
+     "Alteration lines are marked on the pattern, showing where the length can be changed.",
+     "Similar adjustments can change the width of the waist, hip, bust or sleeve by folding along the marked lines.",
+     "A pattern is modified when the buyer's measurements differ from the size chosen, or when the design needs a different length or width."
+    ]
+   },
+   {
+    "h": "The Elective 2 coursework garment",
+    "points": [
+     "The Elective 2 coursework garment is worth 100 marks, or 10 per cent of the total marks.",
+     "For 2027, the candidate completes one mandatory process from a choice of three set by the State Examinations Commission (SEC).",
+     "The coursework includes the design process, the sketch and description, fabric selection and the construction of the garment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Follow the pattern instructions; fold the fabric as directed. Place the straight grain of the pattern parallel to the selvedge. Place pieces that go on a fold exactly on the fold line. Consider the nap and any print on the fabric so all pieces face the same way. Pin the pieces flat, keep the fabric smooth, and cut accurately around the edges.",
+    "prompt": "List the stages that should be followed when laying out and cutting a commercial pattern on fabric.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Define and analyse the brief, identifying the purpose, occasion, budget and constraints of the garment. Investigate and research ideas from magazines, fabric samples and pattern books. Generate several possible ideas and present the best one as a labelled fashion sketch with a written description of its line, shape, colour, pattern, neckline, sleeves, fabric and accessories. Refine the design and select suitable fabric, testing its shrinkage, water repellence and crease recovery, and choose a commercial pattern that matches the wearer's measurements. Implement the design by laying out and cutting the pattern, pinning and tacking to check fit, machine sewing, inserting fastenings and finishing, and pressing. Evaluate the finished garment for fit, finish, comfort, function and appearance, against the original brief, and note any improvements for next time.",
+    "prompt": "Outline the design process a student would follow to make a garment for a specific brief, and explain how the design is evaluated once it is finished.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6": {
+  "keyTerms": [
+   {
+    "definition": "A small business run from a person's home, often making products by hand.",
+    "term": "Cottage industry"
+   },
+   {
+    "definition": "A designer and maker of hats and headwear.",
+    "term": "Milliner"
+   },
+   {
+    "definition": "Made-to-measure, high-quality fashion, produced by hand by skilled craftspeople.",
+    "term": "Couture"
+   },
+   {
+    "definition": "Selling goods or services to customers in other countries.",
+    "term": "Export"
+   },
+   {
+    "definition": "A traditional Irish knitting style that uses textured stitches to form cable and basket patterns.",
+    "term": "Aran knitting"
+   },
+   {
+    "definition": "A local body that supports the development of small businesses and entrepreneurs in its area.",
+    "term": "Enterprise Board"
+   },
+   {
+    "definition": "A retailer that sells goods at low prices, relying on high sales volumes.",
+    "term": "Discount store"
+   },
+   {
+    "definition": "A shop or gallery that sells the work of Irish designers and makers, often under one roof.",
+    "term": "Design centre"
+   },
+   {
+    "definition": "Fashion designer, tailor, milliner and fashion journalist, among others.",
+    "term": "Four careers in the Irish clothing and textile industries"
+   },
+   {
+    "definition": "Showing at fashion weeks, selling through design centres, and promoting work through fashion blogs and social media.",
+    "term": "Three ways Irish fashion is promoted"
+   },
+   {
+    "definition": "Low-cost overseas production and discount stores with high-volume, low-price sales.",
+    "term": "Two challenges facing the Irish clothing industry"
+   },
+   {
+    "definition": "They need little start-up investment, provide work in rural areas and keep traditional crafts alive.",
+    "term": "Three benefits of cottage industries"
+   },
+   {
+    "definition": "Aran knitting, lace and crochet work, Irish linen and hand-weaving.",
+    "term": "Four traditional crafts that influence Irish design"
+   },
+   {
+    "definition": "Philip Treacy, a contemporary designer from County Galway whose work includes couture hats.",
+    "term": "Irish designer who trained in millinery in London"
+   },
+   {
+    "definition": "They create employment, export their work abroad and promote Irish design.",
+    "term": "Three ways Irish designers contribute to the industry"
+   },
+   {
+    "definition": "Menswear, womenswear, children's wear, knitwear, sportswear, accessories, lingerie and footwear.",
+    "term": "Garments produced by Irish manufacturers"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The industries cover the design, manufacture, distribution and sale of clothing, textiles and accessories.",
+    "h": "Structure of the Irish clothing and textile industries",
+    "points": [
+     "Manufacturers produce menswear, womenswear, children's wear, knitwear, sportswear, accessories, lingerie and footwear.",
+     "Designers create ranges that are made by manufacturers and sold through their own shops or through retailers.",
+     "Distributors and retailers move the finished goods from the factory to the consumer, through shops, department stores and online sales.",
+     "The industries provide employment in manufacture, distribution and sales, and Irish designers export their work abroad.",
+     "Irish designers produce ranges for high street stores as well as for their own labels.",
+     "Enterprise Boards support designers and small firms to grow their businesses."
+    ]
+   },
+   {
+    "b": "A cottage or home-based industry is a business run from a person's home, often by one or a few people making a product by hand.",
+    "h": "Small businesses and cottage industries",
+    "points": [
+     "Start-up costs are low, so a business can be set up without a large investment in premises or machinery.",
+     "The work can be done around family commitments, which suits people who cannot work fixed hours.",
+     "Cottage industries provide work in rural areas and so help keep people in their communities.",
+     "They keep traditional crafts alive, such as hand-knitting, weaving, lace-making and crochet.",
+     "Small businesses can develop distinctive products that stand out from mass-produced clothing.",
+     "Cottage industries are often promoted through craft shops and design centres, which sell the work of makers directly to the public."
+    ]
+   },
+   {
+    "h": "Traditional crafts and Irish design",
+    "points": [
+     "Aran knitting uses textured stitches, and its patterns have inspired modern coats and coatigans.",
+     "Irish linen is woven into products ranging from light tops and skirts to heavy coats and jackets.",
+     "Lace and crochet work feature in wedding dresses and other occasion wear.",
+     "Hand-weaving produces textured fabrics that designers use in contemporary clothing.",
+     "Traditional crafts contribute to the identity of Irish design, which designers use to market Irish fashion abroad."
+    ]
+   },
+   {
+    "h": "Irish fashion designers",
+    "points": [
+     "John Rocha and Simone Rocha are Irish designers whose work is sold internationally.",
+     "Philip Treacy is a contemporary Irish designer from County Galway who works in millinery.",
+     "Philip Treacy studied fashion in Dublin, then trained in millinery at the Royal College of Art in London, and he built an international career creating couture hats.",
+     "Other Irish designers include Lainey Keogh, Paul Costelloe, Louise Kennedy, Carolyn Donnelly and Orla Kiely.",
+     "Irish designers have created clothing and accessories for royalty, celebrities, world leaders and major events.",
+     "Irish designers have contributed to the industry by creating employment, exporting their work and promoting Irish design."
+    ]
+   },
+   {
+    "h": "Promoting Irish fashion",
+    "points": [
+     "Design centres such as Kilkenny Design Centre and the design centre at Powerscourt Townhouse, Dublin, sell the work of Irish designers and craftspeople.",
+     "Enterprise Boards provide support to small designers and makers.",
+     "Irish designers show their collections at international fashion shows, and fashion weeks give them exposure to buyers and the press.",
+     "Public figures wearing Irish designers' clothing create publicity for the designers.",
+     "Fashion blogs and social media promote Irish designers to a wide audience at home and abroad."
+    ]
+   },
+   {
+    "h": "Challenges facing the industry",
+    "points": [
+     "Low-cost manufacturing overseas offers cheaper and faster labour, so Irish producers find it hard to compete on price.",
+     "Discount stores sell clothing at low prices in high volumes, which pressures Irish firms that make smaller runs of higher-quality garments.",
+     "A small home market limits the number of customers available to Irish designers, so growth depends on export sales.",
+     "Small firms and cottage industries have limited funds for marketing, equipment and expansion.",
+     "Keeping skilled workers and training new ones is a continuing challenge for manufacturers."
+    ]
+   },
+   {
+    "h": "Careers in the clothing and textile industries",
+    "points": [
+     "Creative careers include fashion designer, milliner, stylist and fashion journalist.",
+     "Technical careers include tailor, machinist and clothing manufacturer.",
+     "Presentation careers include model and photographer, and fashion advertising and blogging.",
+     "Retail careers include retail sales assistant."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Small businesses and cottage industries need little start-up investment, so they allow people to set up in business without large premises or machinery. They provide work in rural areas, which helps keep people in their communities, and they can work around family commitments. They also keep traditional Irish crafts such as knitting, weaving and lace-making alive, and they produce distinctive hand-made products that stand out from mass-produced clothing.",
+    "prompt": "Explain the role played by small businesses and cottage industries in the Irish clothing industry.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Challenges: low-cost manufacturing overseas offers cheaper and faster labour, so Irish producers struggle to compete on price; discount stores sell at low prices in high volumes, which pressures firms making smaller runs of higher-quality garments; the small home market limits customers, so growth depends on exporting; and small firms have limited funds for marketing, equipment and expansion. Keeping skilled workers and training new ones is an ongoing challenge. Promotion: Irish designers show collections at international fashion shows and fashion weeks, and public figures who wear Irish designers' clothing create publicity. Design centres such as Kilkenny Design Centre and the design centre at Powerscourt Townhouse, Dublin, sell the work of Irish designers, and Enterprise Boards support small designers and makers.",
+    "prompt": "Discuss the challenges facing the clothing and textile industry in Ireland and outline one way the industry is promoted at home and abroad.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s1": {
+  "keyTerms": [
+   {
+    "definition": "The arrangement, display and promotion of goods in a shop to encourage consumers to buy.",
+    "term": "Merchandising"
+   },
+   {
+    "definition": "An unplanned purchase made on the spot, often triggered by displays, packaging, pricing or in-store stimuli.",
+    "term": "Impulse buying"
+   },
+   {
+    "definition": "Products sold under a retailer's own name, often cheaper because the retailer avoids national advertising costs.",
+    "term": "Own-brand goods"
+   },
+   {
+    "definition": "A product sold at or below cost to draw shoppers into a store, who then buy other items at normal prices.",
+    "term": "Loss leader"
+   },
+   {
+    "definition": "Pricing an item just below a round figure so that it appears cheaper.",
+    "term": "Charm pricing"
+   },
+   {
+    "definition": "A reward scheme in which points earned on purchases are exchanged for discounts or goods.",
+    "term": "Shopper loyalty scheme"
+   },
+   {
+    "definition": "An arrangement that spreads the cost of goods or a bill over instalments paid over a set period.",
+    "term": "Easy-pay scheme"
+   },
+   {
+    "definition": "An agreement to pay for goods in instalments, where ownership passes only after the final payment.",
+    "term": "Hire purchase"
+   },
+   {
+    "definition": "The income left after tax and essential bills, available for discretionary spending.",
+    "term": "Disposable income"
+   },
+   {
+    "definition": "Background music, aromas such as freshly baked bread, good lighting and warmth, and colourful displays.",
+    "term": "Four in-store stimuli that encourage buying"
+   },
+   {
+    "definition": "Repeat custom from the same shoppers, data on what each customer buys, and targeted offers based on that data.",
+    "term": "Three ways a retailer benefits from a rewards card"
+   },
+   {
+    "definition": "The total cost is higher than the cash price because of interest and charges, and they can encourage buying of non-essential goods and debt.",
+    "term": "Two drawbacks of easy-pay arrangements"
+   },
+   {
+    "definition": "Convenient for people short of time, a wide choice from a catalogue, and ordering by post or phone from home.",
+    "term": "Three advantages of mail order"
+   },
+   {
+    "definition": "Clothes cannot be tried on, delivery can take a long time, and postage adds to the cost.",
+    "term": "Three disadvantages of mail order"
+   },
+   {
+    "definition": "Ingredients in descending order of weight, net quantity, a use-by or best-before date, and storage or cooking instructions.",
+    "term": "Four pieces of information a food label must show"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Consumers choose goods and services by weighing needs against income, and by responding to influences from the market and from other people.",
+    "h": "Factors that affect consumer choice",
+    "points": [
+     "Household income sets the limit on spending; a household on a tight budget compares unit prices, buys own-brand and bulk items, and delays non-essential purchases.",
+     "Disposable income is the money left after tax and essential bills; it decides how much is free for discretionary spending such as eating out or branded clothing.",
+     "When income rises, households often trade up to branded or higher-quality goods; when it falls, they trade down to cheaper alternatives.",
+     "Essential needs such as food, heating and shelter are bought first; luxury wants are the first to be cut when income falls.",
+     "Credit and easy-pay arrangements can allow spending above current income, and the debt they create reduces future choice.",
+     "Values and lifestyle shape choice: health, convenience, ethical concerns, and cultural or religious practice all influence what is bought.",
+     "Household composition narrows choice: family size, life-cycle stage and dietary needs, such as a coeliac or diabetic member, determine which goods are suitable.",
+     "Time pressure pushes busy households towards convenience foods, takeaway meals and online shopping."
+    ]
+   },
+   {
+    "h": "Brands and own-brand goods",
+    "points": [
+     "A brand is a name, logo or design that identifies a manufacturer's product and distinguishes it from competing goods.",
+     "Branded goods are made by a manufacturer and are usually advertised nationally; they tend to cost more than equivalent goods.",
+     "Own-brand goods are sold under the retailer's own name; they are often cheaper because the retailer avoids the cost of national advertising.",
+     "Brand loyalty is habitual repeat buying of one brand, which saves the effort of comparing alternatives."
+    ]
+   },
+   {
+    "b": "Advertising informs consumers about goods and services and tries to create a want for them.",
+    "h": "Advertising and its influence",
+    "points": [
+     "Advertising creates awareness of a new product and builds brand loyalty, so that consumers ask for the product by name.",
+     "Media used include television, radio, print, outdoor billboards, websites, social media, and sponsorship of sport and events.",
+     "Celebrity endorsement transfers the image or popularity of a well-known person to the product.",
+     "Product differentiation: advertising highlights a feature, such as a special ingredient, that sets one brand apart from similar goods.",
+     "Advertising aimed at children and teenagers can prompt impulse purchases, because young consumers have less experience of judging value."
+    ]
+   },
+   {
+    "b": "Merchandising is the arrangement and presentation of goods in a shop to encourage consumers to buy more, and to buy more often.",
+    "h": "In-store merchandising techniques",
+    "points": [
+     "Store layout: goods are arranged in clearly identifiable departments, and essentials such as bread and milk are placed at the back so that shoppers pass other products on the way to them.",
+     "Route design: aisles are arranged to keep shoppers moving through the store, so that they see more products and spend longer browsing.",
+     "Product placement: complementary goods are shelved together, such as biscuits beside tea, and sweets and magazines are placed at the checkout.",
+     "Shelf position: premium or luxury goods are placed at eye level, while cheaper products are often placed on lower or higher shelves.",
+     "Fresh produce near the entrance encourages shoppers to take a trolley or basket.",
+     "Special offers displayed at the end of aisles draw attention to promotional stock.",
+     "In-store stimuli: background music that slows the pace of shopping, aromas such as freshly baked bread, good lighting and warmth, and colourful displays.",
+     "Sampling and demonstrations let shoppers taste or try a product before buying it."
+    ]
+   },
+   {
+    "b": "Pricing techniques make a price look lower, or make a purchase look more valuable, than it is.",
+    "h": "Pricing and promotional techniques",
+    "points": [
+     "Charm pricing: a price set just below a round figure, so that the item appears cheaper than it is.",
+     "Multi-buy offers, such as three items for a set price, encourage consumers to buy more than they would at a single-item price.",
+     "Clearance and reduction labels suggest extra value and can prompt impulse buying of goods the shopper did not plan to buy.",
+     "Loss leaders: a well-known product is sold at or below cost to draw shoppers into the store, who then buy other items at normal prices.",
+     "Coupons and money-off vouchers reward a specific purchase and are often distributed through loyalty schemes or advertising."
+    ]
+   },
+   {
+    "b": "Loyalty schemes reward repeat custom with points or discounts, and give retailers information about what customers buy.",
+    "h": "Shopper loyalty schemes",
+    "points": [
+     "Customers earn points or tokens for each amount spent; the points are exchanged for money off goods, vouchers or goods after a set period.",
+     "Examples in Ireland include the Tesco Clubcard and the Dunnes Stores Value Club card.",
+     "Schemes encourage saving for special occasions, such as Christmas, by building up points over time.",
+     "Shoppers may spend more to reach a reward target, and points can take priority over price when they compare shops.",
+     "Card use gives retailers data on buying patterns, which helps them target offers and plan stock.",
+     "Disadvantages: the scheme discourages shopping around, can lead to unplanned purchases, and requires the card to be carried."
+    ]
+   },
+   {
+    "b": "Easy-pay arrangements spread the cost of a purchase over time, so goods can be bought without paying the full price at once.",
+    "h": "Easy-pay and hire purchase",
+    "points": [
+     "Easy-pay schemes: a retailer or utility company lets the consumer pay for goods or a bill in instalments over a set period, such as twelve months.",
+     "Hire purchase: the consumer takes the goods under an agreement to pay instalments, and ownership passes only when the final instalment is paid.",
+     "Hire purchase is governed by the Consumer Credit Act 1995, which requires written agreements and gives the consumer a cooling-off period.",
+     "Advantages: goods can be used immediately, the cost is spread over time, and essentials can be bought when cash is not available.",
+     "Disadvantages: the total cost is higher than the cash price because of interest and charges, and easy-pay can encourage buying of non-essential goods."
+    ]
+   },
+   {
+    "b": "Both allow shopping from home, but the consumer cannot inspect the goods before buying them.",
+    "h": "Television and mail order shopping",
+    "points": [
+     "Television buying: goods are demonstrated on screen and ordered by phone or online, often with a limited-time offer that creates urgency.",
+     "Mail order: goods are chosen from a catalogue, leaflet or website and delivered by post or courier.",
+     "Advantages of mail order: convenient for people without time to shop, a wide range is available, and orders can be placed by post or phone.",
+     "Disadvantages of mail order: clothes cannot be tried on, delivery can take weeks, and postage adds to the cost.",
+     "Distance purchases carry a statutory right to cancel within a cooling-off period under the Consumer Rights Act 2022."
+    ]
+   },
+   {
+    "b": "Online shopping offers convenience and easy price comparison, but adds risks around payment, delivery and personal data.",
+    "h": "Online shopping",
+    "points": [
+     "Advantages: access at any hour from home, easy comparison of prices across retailers, a wider range, and customer reviews.",
+     "Disadvantages: goods cannot be seen or handled before purchase, and delivery can be delayed or carry extra charges.",
+     "Payment risk: card details can be taken through phishing emails or fake websites, so pay only on secure sites that show a padlock symbol and an address beginning https.",
+     "Overspending risk: stored card details and one-click ordering make impulse purchases quick and easy.",
+     "Retailers collect data on browsing and buying, which can be used to target advertising at the individual consumer."
+    ]
+   },
+   {
+    "b": "Packaging protects the product and carries information, and labels on pre-packed foods are a legal requirement.",
+    "h": "Packaging and labelling",
+    "points": [
+     "Packaging attracts attention on the shelf and conveys quality through colour, shape and design.",
+     "Mandatory food labels show the name of the food, ingredients listed in descending order of weight, net quantity, a use-by or best-before date, storage conditions, and the name and address of the food business.",
+     "Use-by dates apply to highly perishable foods and must not be passed; best-before dates indicate quality, and the food may still be safe after them.",
+     "The 14 major allergens must be emphasised in the ingredients list, for example in bold or capitals.",
+     "A nutrition declaration gives energy and nutrient content per 100 g or per portion, in a set order.",
+     "Cooking and storage instructions must be given, and the country of origin where the law requires it.",
+     "Claims such as low fat, light or high fibre may be made only where the product meets defined criteria.",
+     "Quality marks, such as the Bord Bia Quality Mark for Irish food, show that a product meets a defined standard.",
+     "EU food information rules are set out in Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two distinct techniques, each explained with how it influences buying. Store layout: essentials are placed at the back so that shoppers pass other goods on the way, which increases browsing and extra purchases. Product placement or shelf position: complementary goods are shelved together, and luxury goods are placed at eye level, which draws attention and encourages purchases. Other acceptable answers include in-store stimuli such as music or aromas, sampling, multi-buy and pricing offers, and loyalty schemes, each linked to a clear effect on the shopper.",
+    "prompt": "Explain two merchandising techniques that supermarkets use to influence what consumers buy.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Household income: sets the limit on spending, so a tight budget leads to comparison of unit prices, own-brand purchases and cutting of non-essential items, while a rise in income can lead to trading up to branded or higher-quality food. Advertising: creates awareness and brand loyalty, uses celebrity endorsement and sponsorship to link a product with a positive image, highlights differentiating features, and can prompt impulse buying, particularly among children and teenagers. Packaging: attracts attention on the shelf through colour and design, and conveys quality. Labelling: gives ingredients in descending order of weight, allergen emphasis for the 14 major allergens, nutrition declarations, use-by and best-before dates, and storage and cooking instructions, allowing informed choice for consumers with allergies, dietary restrictions or health concerns. A complete answer links each factor to its effect on the purchase decision and gives at least one example from food shopping.",
+    "prompt": "Discuss how household income, advertising, and packaging and labelling influence a consumer's choice of food.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2": {
+  "keyTerms": [
+   {
+    "definition": "A single, locally owned shop offering personal service and a specialised range.",
+    "term": "Independent retailer"
+   },
+   {
+    "definition": "One of several outlets under the same ownership, selling a standard range and buying in bulk.",
+    "term": "Chain store"
+   },
+   {
+    "definition": "A large store divided into departments that sell clothing, household goods and cosmetics.",
+    "term": "Department store"
+   },
+   {
+    "definition": "A store selling a limited range at low prices, kept low by minimal service and fast stock turnover.",
+    "term": "Discount store"
+   },
+   {
+    "definition": "The worth a shopper attaches to a price, judged against a reference price such as a previous or recommended price.",
+    "term": "Perceived value"
+   },
+   {
+    "definition": "The uncertainty a consumer feels about whether a product will meet expectations, which makes unfamiliar products harder to buy.",
+    "term": "Perceived risk"
+   },
+   {
+    "definition": "The collection of existing information from published or online sources, such as state agency reports.",
+    "term": "Desk research"
+   },
+   {
+    "definition": "The collection of new information directly from consumers through observation, interviews and surveys.",
+    "term": "Field research"
+   },
+   {
+    "definition": "Information collected for the first time for a specific purpose, such as a survey carried out by the researcher.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Information that already exists and was collected for another purpose, such as census or government figures.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "A short, informal interview with a member of the public, used to gather quick opinions.",
+    "term": "Vox pop"
+   },
+   {
+    "definition": "A guided discussion with a small group of consumers about a product, service or advertisement.",
+    "term": "Focus group"
+   },
+   {
+    "definition": "Large amounts of information can be collected quickly, it is relatively inexpensive, and it needs no direct contact with consumers.",
+    "term": "Three advantages of gathering information from published sources"
+   },
+   {
+    "definition": "The information is general rather than detailed, it is quantitative so it shows what people do rather than why, and it may not answer a specific question about a product.",
+    "term": "Three limitations of relying on published sources for market information"
+   },
+   {
+    "definition": "Observation, interviews, surveys and vox pops.",
+    "term": "Four methods of collecting new information from consumers"
+   },
+   {
+    "definition": "It identifies the type of person likely to buy, shows whether a product meets requirements, and shows the size and location of the market.",
+    "term": "Three benefits of research to a retailer"
+   },
+   {
+    "definition": "A self-service layout and a wide range of food and household goods.",
+    "term": "Two features of a supermarket"
+   },
+   {
+    "definition": "The Central Statistics Office (CSO).",
+    "term": "Irish state body whose data is a common source for desk research"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Retail outlets are grouped by ownership, range of goods and pricing policy.",
+    "h": "Classes of retail outlet (Higher Level only)",
+    "points": [
+     "Independent retailer: a single, locally owned shop, such as a butcher, jeweller or boutique, offering personal service and a specialised range.",
+     "Chain store (multiple retailer): several outlets under one owner, selling a standard range and buying in bulk, such as Penneys.",
+     "Supermarket: a self-service store selling a wide range of food and household goods, such as Tesco or SuperValu.",
+     "Department store: a large store divided into departments selling clothing, household goods and cosmetics, such as Brown Thomas or Arnotts.",
+     "Discount store: a store selling a limited range at low prices, kept low by minimal service and fast turnover of stock, such as Dealz.",
+     "Mail-order or online retailer: sells from a catalogue or website and delivers to the consumer's home, such as ASOS.",
+     "Market stall or farmers' market: small-scale direct selling, often by producers, typically of fresh produce.",
+     "Independent retailers compete on personal service and specialist knowledge, while chains and supermarkets compete on range and price."
+    ]
+   },
+   {
+    "b": "Retailers design the shopping environment around how people perceive value, risk and time.",
+    "h": "Retail psychology (Higher Level only)",
+    "points": [
+     "Impulse buying: an unplanned purchase triggered by a display, a special offer or a product seen at the checkout.",
+     "Perceived value: shoppers judge a price against a reference price, so a 'was' price makes a reduction seem a bargain even when the saving is small.",
+     "Relaxed shoppers browse for longer and so see and buy more products.",
+     "Perceived risk: consumers hesitate over unfamiliar products, so a known brand reduces the risk they feel in buying.",
+     "Limited time and attention: shoppers rely on quick cues such as colour, packaging and brand names rather than reading every label.",
+     "Scarcity and urgency: labels such as 'limited offer' encourage a purchase now rather than later.",
+     "Social proof: displays showing many units, or a 'best seller' label, suggest that other people approve of the product."
+    ]
+   },
+   {
+    "b": "Shopping patterns have changed in response to time pressure, technology and changing values.",
+    "h": "Changes in shopping patterns (Higher Level only)",
+    "points": [
+     "Frequency: many households have moved from a single weekly bulk shop to several smaller top-up trips.",
+     "One-stop shopping: large out-of-town centres sell food, clothing and services under one roof.",
+     "Extended hours: late-night, Sunday and 24-hour opening give shoppers more flexibility.",
+     "Online, television and social media shopping: consumers order through websites, apps, TV shopping channels and social media, often with home delivery.",
+     "Payment: cash has been largely replaced by debit cards, contactless payment and mobile payment apps.",
+     "Self-checkout and scan-as-you-go systems let shoppers bypass the checkout queue.",
+     "Resale and second-hand trade: charity shops, vintage stores and online resale platforms have grown as shoppers seek value and reduce waste.",
+     "Drivers of change: time pressure, budget, health and special diets, family structure, and environmental and ethical values."
+    ]
+   },
+   {
+    "b": "Consumer research gathers information about what consumers want, how they buy, and how large a market is.",
+    "h": "Consumer research: desk and field research (Higher Level only)",
+    "points": [
+     "Purpose: research identifies consumer wants and expectations, tests the market before a product is launched, and highlights trends, market size and potential markets.",
+     "Desk research uses existing (secondary) information, such as reports from state agencies, Central Statistics Office data and internet sources.",
+     "Desk research is quick to carry out, relatively inexpensive, and can cover a large amount of information.",
+     "Desk research is general and quantitative, so it shows what people do rather than why, and it may not answer a specific question about a product.",
+     "Field research collects new (primary) information directly from consumers through observation, interviews, surveys, vox pops, consumer panels and focus groups.",
+     "Field research is qualitative and detailed, showing attitudes, preferences and reasons for buying, but it takes longer and costs more.",
+     "A vox pop is a short, informal interview with members of the public in a public place, used to gather opinions quickly.",
+     "A consumer panel is a fixed group of consumers who report on products over time; a focus group is a guided discussion with a small group about a product.",
+     "Loyalty card data and application forms record buying habits and personal details, which retailers use as a research source."
+    ]
+   },
+   {
+    "b": "Research benefits both the retailer and the consumer.",
+    "h": "Uses of consumer research (Higher Level only)",
+    "points": [
+     "Retailer: research identifies the type of person likely to buy a product.",
+     "Retailer: research shows whether a product meets consumer requirements, and shows the size and location of the market.",
+     "Manufacturer: research shows what consumers will buy before production is committed.",
+     "Consumer: research identifies what consumers need, so that products can be improved in quality.",
+     "Consumer: competition between retailers informed by research can help keep prices down."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two classes, each with a feature and an example. Independent retailer: a single, locally owned shop with personal service and a specialist range, such as a butcher or jeweller. Department store: a large store divided into departments selling clothing, household goods and cosmetics, such as Brown Thomas. Other acceptable answers include supermarket, chain store, discount store and mail-order or online retailer, each with a correct feature and a correct example.",
+    "prompt": "Describe the main features of two classes of retail outlet, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Changes in shopping patterns: more frequent top-up trips, one-stop shopping in large centres, extended and 24-hour opening, online, television and social media shopping with home delivery, cashless payment and self-checkout, and growth of resale. Effects on consumers: more choice and convenience, but greater risk of overspending and of payment fraud online. Effects on retailers: need to offer online ordering and delivery, to extend hours, and to compete on range and convenience, while smaller independent shops may lose trade. Consumer research: desk research uses existing data, such as state agency reports and Central Statistics Office figures, to show market trends and size quickly and cheaply; field research uses surveys, interviews, focus groups and consumer panels to find out why consumers are changing their habits. Together they show a retailer which products to stock, what type of customer to target, and where to locate or sell. A complete answer links each change to a consumer or retailer effect and shows how a named research method would reveal it.",
+    "prompt": "Analyse how changes in shopping patterns affect consumers and retailers, and explain how consumer research helps a retailer respond to these changes.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s3": {
+  "keyTerms": [
+   {
+    "definition": "An individual who buys goods or services for personal use rather than for business purposes.",
+    "term": "Consumer"
+   },
+   {
+    "definition": "A business that sells goods or services to consumers and is their first point of contact for a complaint.",
+    "term": "Retailer"
+   },
+   {
+    "definition": "The business that makes a product and, where it gives one, provides the manufacturer's guarantee.",
+    "term": "Manufacturer"
+   },
+   {
+    "definition": "A contract between the manufacturer and the consumer, usually offered in addition to statutory rights.",
+    "term": "Guarantee"
+   },
+   {
+    "definition": "A Latin principle meaning let the buyer beware, placing the duty to check goods on the buyer.",
+    "term": "Caveat emptor"
+   },
+   {
+    "definition": "Evidence, such as a receipt, that shows when, where and what was bought.",
+    "term": "Proof of purchase"
+   },
+   {
+    "definition": "The price per standard measure, such as per kilogram or per litre, used to compare pack sizes.",
+    "term": "Unit price"
+   },
+   {
+    "definition": "The remedy a consumer receives for a faulty product or service, such as repair, replacement or refund.",
+    "term": "Redress"
+   },
+   {
+    "definition": "Read the labels and terms, compare value and unit prices, and check whether the product is needed and what it will cost in total.",
+    "term": "Three steps an informed consumer takes before buying"
+   },
+   {
+    "definition": "The manufacturer and the consumer.",
+    "term": "Parties to a manufacturer's guarantee"
+   },
+   {
+    "definition": "Caveat emptor, meaning let the buyer beware.",
+    "term": "Latin principle that places the duty of checking goods on the buyer"
+   },
+   {
+    "definition": "Right to safety, right to honest and truthful information, right to choice, right to value for money, and right to redress.",
+    "term": "Five basic consumer rights"
+   },
+   {
+    "definition": "The receipt or proof of purchase, and a record of when and where the goods were bought.",
+    "term": "Two things a consumer should keep to support a complaint"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A purchase involves several parties, each with a different relationship to the consumer.",
+    "h": "Parties to a consumer transaction",
+    "points": [
+     "The consumer is an individual who buys goods or services for personal use, not for business.",
+     "The retailer or trader sells goods or services in the course of business and is the consumer's first point of contact for a complaint.",
+     "Under consumer law the retailer is responsible for faults in goods, even when the manufacturer made them, and must deal with the complaint.",
+     "The manufacturer makes the product and is the other party to any manufacturer's guarantee.",
+     "A guarantee is a contract between the manufacturer and the consumer, usually offered in addition to the consumer's statutory rights.",
+     "The supplier or distributor moves goods from the manufacturer to the retailer."
+    ]
+   },
+   {
+    "b": "Informed decisions rest on reliable information from the product, the seller and independent sources.",
+    "h": "Sources of consumer information",
+    "points": [
+     "Labels, instructions and care labels give ingredients, use and care information, and warnings about hazards.",
+     "Unit pricing shows the price per kilogram or per litre, which allows comparison between different pack sizes.",
+     "Advertising and sales material should be checked against the product label and independent information.",
+     "Independent consumer publications and testing reports compare products on quality and value for money.",
+     "Citizens Information gives free, confidential information on consumer rights.",
+     "The Competition and Consumer Protection Commission publishes guidance on consumer rights and on unfair trading.",
+     "Terms and conditions and returns policies should be read before purchase, as they set out what the seller offers."
+    ]
+   },
+   {
+    "b": "The consumer's part in a transaction is to be informed, careful and honest.",
+    "h": "Responsibilities of the informed consumer",
+    "points": [
+     "Know your rights: the basic rights and remedies under consumer law apply whether or not the seller mentions them.",
+     "Read and understand labels and terms before buying, including ingredients, dates, guarantee conditions and cancellation terms.",
+     "Compare value, not only price: weigh price against quality, durability, and the cost of running or maintaining the product.",
+     "Keep receipts and proof of purchase, since they show when, where and what was bought, and are needed for any claim.",
+     "Follow instructions and care labels; a fault caused by misuse is unlikely to be the trader's responsibility.",
+     "Report faults promptly: stop using a faulty product and raise the problem quickly, as delay can weaken a claim.",
+     "Give accurate, truthful information when complaining, including a clear description of the problem and the redress wanted.",
+     "Plan purchases and resist pressure selling: check whether a product is needed before buying, and do not be rushed by sales talk."
+    ]
+   },
+   {
+    "b": "Traditional buying principles still shape how a consumer should approach a purchase.",
+    "h": "Caveat emptor and critical buying",
+    "points": [
+     "Caveat emptor means let the buyer beware; it places the duty on the buyer to check goods before buying.",
+     "Modern consumer law limits caveat emptor by giving statutory rights that apply automatically, but inspecting goods before purchase remains the best protection.",
+     "A needs-based decision is guided by necessity and income; a wants-based decision is more open to advertising and impulse buying.",
+     "Vague claims such as 'the best' or 'new' without supporting evidence should be questioned before they influence a purchase.",
+     "Check the total cost, including interest and charges, before agreeing to credit or easy-pay arrangements."
+    ]
+   },
+   {
+    "b": "These rights are commonly named in consumer education and in examination answers.",
+    "h": "The five basic consumer rights",
+    "points": [
+     "Right to safety: products and services should not endanger health or put lives at risk.",
+     "Right to honest and truthful information: consumers should be given accurate information about goods and services.",
+     "Right to choice: consumers should be able to choose from a range of available goods and services.",
+     "Right to value for money: goods and services should be of a quality that matches the price paid.",
+     "Right to redress: a consumer whose goods or service are faulty can seek repair, replacement or a refund."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two ways, each explained with its purpose. Reading labels: ingredients, dates, nutrition information, care instructions and warnings allow the consumer to judge suitability, safety and use before buying. Comparing unit prices and quality: the price per kilogram or litre and the product's quality and durability show whether the purchase is good value. Other acceptable answers include checking advertising claims against independent information, reading terms and conditions, and seeking advice from Citizens Information.",
+    "prompt": "Explain two ways in which a consumer can make an informed choice using the information available to them.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Knowing rights: the consumer should understand the basic rights and remedies, which apply whether or not the seller mentions them. Reading information: labels, instructions, terms, guarantee conditions and cancellation terms should be read and understood before buying. Comparing value: price should be weighed against quality, durability and running costs, using unit prices where available. Records: receipts and proof of purchase must be kept, since they are needed for any claim. Using products properly: instructions and care labels should be followed, because misuse may defeat a claim. Reporting promptly: faults should be raised quickly and accurately, with a clear description of the redress wanted. Critical buying: vague advertising claims should be questioned, purchases planned, and the total cost of credit checked. A complete answer links each responsibility to the protection it gives the consumer.",
+    "prompt": "Discuss the responsibilities a consumer has in relation to information and rights when buying goods and services.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s4": {
+  "keyTerms": [
+   {
+    "definition": "A person who supplies goods, services or digital content in the course of business.",
+    "term": "Trader"
+   },
+   {
+    "definition": "A right given by law that applies automatically to a contract and cannot be removed by the trader's terms.",
+    "term": "Statutory right"
+   },
+   {
+    "definition": "The standard that goods should be durable, safe, free from minor defects and acceptable in appearance and finish.",
+    "term": "Satisfactory quality"
+   },
+   {
+    "definition": "The standard that goods must be suitable for their usual use, or for a particular purpose made known to the trader.",
+    "term": "Fit for purpose"
+   },
+   {
+    "definition": "Data produced and supplied in digital form, such as downloaded software, music or films.",
+    "term": "Digital content"
+   },
+   {
+    "definition": "A commercial practice in which material information that a consumer needs is left out, so that the consumer decides wrongly.",
+    "term": "Misleading omission"
+   },
+   {
+    "definition": "A commercial practice that uses harassment, coercion, undue influence or pressure to limit a consumer's freedom to choose.",
+    "term": "Aggressive practice"
+   },
+   {
+    "definition": "A remedy in which the consumer pays less for goods or services that do not meet the statutory standard.",
+    "term": "Price reduction"
+   },
+   {
+    "definition": "Repair or replacement first; a price reduction or refund if these are not possible or fail.",
+    "term": "Order of remedies for faulty goods"
+   },
+   {
+    "definition": "Satisfactory quality, fitness for purpose, matching the description, and matching any sample or model.",
+    "term": "Four standards that goods must meet"
+   },
+   {
+    "definition": "Within 30 days of supply, faulty goods can be rejected and the consumer receives a full refund.",
+    "term": "Time limit for rejecting faulty goods outright"
+   },
+   {
+    "definition": "False or misleading information about the price itself, and false or misleading information about previous prices or recommended retail prices.",
+    "term": "Two types of misleading price information forbidden by the Consumer Protection Act 2007"
+   },
+   {
+    "definition": "Misleading actions, misleading omissions, aggressive practices, and practices prohibited outright.",
+    "term": "Categories of practice the Consumer Protection Act 2007 treats as unfair"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Consumer Rights Act 2022 sets out statutory rights and remedies for consumers who buy goods, services or digital content from traders.",
+    "h": "Consumer Rights Act 2022: scope",
+    "points": [
+     "A trader is a person who supplies goods, services or digital content in the course of business.",
+     "A consumer is an individual acting for purposes that are not part of their business.",
+     "Statutory rights apply automatically to every contract between a trader and a consumer, whether or not the trader mentions them.",
+     "A trader cannot remove statutory rights through terms and conditions or notices; a 'no refunds' sign does not override the Act.",
+     "Digital content, such as downloaded software, music or films, is covered by the same standards of quality, fitness and description as goods."
+    ]
+   },
+   {
+    "b": "Goods must meet four standards at the time they are supplied.",
+    "h": "Statutory rights for goods",
+    "points": [
+     "Satisfactory quality: goods should be durable, safe, free from minor defects, and have an acceptable appearance and finish.",
+     "Fit for purpose: goods must be fit for the purposes for which goods of that type are normally used, and for any particular purpose made known to the trader.",
+     "As described: goods must match any description given by the trader, the label or the advertisement.",
+     "Correspond to sample or model: goods must match a sample or model shown to the consumer before purchase.",
+     "A fault that is present when the goods are supplied is the trader's responsibility, even if it appears only later."
+    ]
+   },
+   {
+    "b": "Services are measured against the standard of a competent provider.",
+    "h": "Statutory rights for services",
+    "points": [
+     "Reasonable care and skill: a service must be performed with the care and skill a competent provider would show.",
+     "Materials: any materials used in a service must be of satisfactory quality and fit for their purpose.",
+     "Time: a service must be performed within a reasonable time where no time was agreed.",
+     "Price: where no price was agreed, the consumer pays a reasonable price for the service."
+    ]
+   },
+   {
+    "b": "Remedies for goods and services that do not meet their statutory standard are applied in a set order.",
+    "h": "Remedies under the Consumer Rights Act 2022",
+    "points": [
+     "First remedy for goods: repair or replacement at the trader's cost, within a reasonable time and without significant inconvenience to the consumer.",
+     "Second remedy for goods: a price reduction or a refund, where repair or replacement is not possible, is not carried out within a reasonable time, or causes significant inconvenience.",
+     "Short-term right to reject: faulty goods can be rejected within 30 days of supply and the consumer receives a full refund.",
+     "Services that are not performed to the required standard can be re-performed or result in a price reduction."
+    ]
+   },
+   {
+    "b": "Sale goods have the same statutory rights as other goods, with one exception based on what the consumer was told before buying.",
+    "h": "Sale goods and disclosed faults",
+    "points": [
+     "Goods bought in a sale are covered by the same statutory rights as goods bought at full price.",
+     "Exception: a fault that the trader pointed out before the sale is not covered by the statutory rights for that fault.",
+     "A consumer who was not told of a fault before purchase keeps the full statutory remedies for it."
+    ]
+   },
+   {
+    "b": "The Act prohibits commercial practices that are unfair to consumers, including advertising and selling practices.",
+    "h": "Consumer Protection Act 2007: unfair commercial practices",
+    "points": [
+     "Misleading actions: giving false or deceptive information about a product, its price, its origin or the trader's identity.",
+     "Misleading omissions: leaving out material information that a consumer needs in order to make a decision.",
+     "Aggressive practices: harassment, coercion, undue influence or pressure that limits the consumer's freedom to choose.",
+     "Prohibited practices: a list of practices banned outright, such as falsely claiming that a product has an approval it does not have.",
+     "The Act is enforced by the Competition and Consumer Protection Commission, which can investigate and prosecute offences."
+    ]
+   },
+   {
+    "b": "Price claims must be accurate, including claims about reductions and comparisons.",
+    "h": "Consumer Protection Act 2007: misleading price claims",
+    "points": [
+     "False or misleading information about the price of goods or services is prohibited.",
+     "A claimed previous price or a claimed reduction must be accurate; a false or misleading reduction is an unfair practice.",
+     "A recommended retail price must not be used misleadingly to suggest a saving the consumer would not in fact make."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Goods must be of satisfactory quality and fit for purpose when supplied, and a fault present at supply is the trader's responsibility even if it appears later. The consumer can require repair or replacement at the trader's cost, within a reasonable time and without significant inconvenience. If repair or replacement is not possible or is not carried out, the consumer can take a price reduction or refund. Within 30 days of supply the consumer can reject the faulty appliance and receive a full refund. Statutory rights cannot be removed by a sign or the terms of sale.",
+    "prompt": "Explain how the Consumer Rights Act 2022 protects a consumer who buys an appliance that develops a fault shortly after purchase.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Services: the consumer is entitled to a service performed with reasonable care and skill, using materials of satisfactory quality and fit for purpose, within a reasonable time where none was agreed, and at a reasonable price where none was agreed. If the service is not performed to standard, the consumer can require it to be performed again, or obtain a price reduction. These rights apply automatically and cannot be excluded by the trader's terms. Consumer Protection Act 2007: the Act forbids false or misleading information about goods, services and prices. A trader may not claim a previous price or a reduction that is untrue, and may not use a recommended retail price misleadingly to suggest a saving. The Competition and Consumer Protection Commission enforces the Act and can investigate and prosecute offences. A complete answer distinguishes the contract rights given to the consumer from the advertising and pricing controls that protect consumers before purchase.",
+    "prompt": "Discuss the statutory rights a consumer has when buying services under the Consumer Rights Act 2022, and explain how the Consumer Protection Act 2007 protects consumers against misleading price claims.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s5": {
+  "keyTerms": [
+   {
+    "definition": "A body established by law with legal powers to investigate, enforce and in some cases prosecute.",
+    "term": "Statutory body"
+   },
+   {
+    "definition": "An independent or industry-based body that advises, researches and lobbies, without legal power to compel a trader.",
+    "term": "Voluntary body"
+   },
+   {
+    "definition": "The practice by which an industry sets and polices its own standards, often through a code.",
+    "term": "Self-regulation"
+   },
+   {
+    "definition": "Putting the case for consumers to government so that policy and law reflect consumer interests.",
+    "term": "Lobbying"
+   },
+   {
+    "definition": "Bringing a criminal case against a trader for an offence under consumer law.",
+    "term": "Prosecution"
+   },
+   {
+    "definition": "An organisation of businesses in one sector that protects its members' interests and sets their standards.",
+    "term": "Trade association"
+   },
+   {
+    "definition": "Written rules of conduct that an industry or association agrees to follow.",
+    "term": "Codes of practice"
+   },
+   {
+    "definition": "The final step in a complaints process, reached only after the trader or provider has been given a chance to resolve the matter.",
+    "term": "Last resort"
+   },
+   {
+    "definition": "Enforces consumer law and investigates unfair or illegal trading practices; informs consumers of their rights; advises government on consumer issues.",
+    "term": "Three functions of the Competition and Consumer Protection Commission"
+   },
+   {
+    "definition": "Free, confidential information on rights and entitlements, and advice on consumer issues.",
+    "term": "Two services of Citizens Information"
+   },
+   {
+    "definition": "Investigates complaints about financial service providers, as a last resort after the provider's own complaints process.",
+    "term": "Role of the Financial Services and Pensions Ombudsman"
+   },
+   {
+    "definition": "Promotes legal, decent, honest and truthful advertising; investigates public complaints and can require advertisements to be changed or withdrawn.",
+    "term": "Two functions of the Advertising Standards Authority of Ireland"
+   },
+   {
+    "definition": "Researches goods and services and publishes findings; provides objective information and advice; lobbies government on consumer issues.",
+    "term": "Three activities of the Consumers' Association of Ireland"
+   },
+   {
+    "definition": "Legally established bodies have statutory powers to investigate and enforce; advisory bodies rely on research, advice and self-regulation.",
+    "term": "Main difference between legally established and advisory consumer organisations"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Consumer protection bodies are either established by law with legal powers, or operate voluntarily through advice, research and self-regulation.",
+    "h": "Statutory and voluntary bodies compared",
+    "points": [
+     "Statutory bodies are established by an Act of the Oireachtas and have legal powers to investigate, enforce and, in some cases, prosecute.",
+     "Voluntary bodies are independent or industry-based; they advise, research, lobby and handle complaints, but they cannot compel a trader to act.",
+     "Self-regulation: the advertising industry sets its own standards through a code, and a voluntary body handles public complaints under that code.",
+     "A consumer with a complaint about a trader should usually approach the trader first, then a statutory or voluntary body."
+    ]
+   },
+   {
+    "b": "The Competition and Consumer Protection Commission is the state body that enforces consumer law.",
+    "h": "Competition and Consumer Protection Commission (statutory)",
+    "points": [
+     "Enforces the Consumer Protection Act 2007 and other consumer law.",
+     "Investigates unfair and illegal trading practices, including false or misleading advertising and pricing.",
+     "Can prosecute offences under consumer law.",
+     "Informs consumers of their rights through its website and helpline, and runs consumer information campaigns.",
+     "Enforces non-food product safety rules.",
+     "Advises government on consumer issues."
+    ]
+   },
+   {
+    "b": "Citizens Information provides free, confidential information and advice on rights and entitlements.",
+    "h": "Citizens Information and the Citizens Information Board (statutory)",
+    "points": [
+     "The Citizens Information Board is a statutory body that funds and oversees Citizens Information services.",
+     "Citizens Information Centres are local, independent services that give free, confidential information on consumer issues.",
+     "Services cover consumer issues, social welfare entitlements, housing and other rights.",
+     "The Citizens Information website and phone service give access to information on rights from anywhere in Ireland."
+    ]
+   },
+   {
+    "b": "Ombudsman offices investigate complaints that have not been resolved directly with the body concerned.",
+    "h": "Office of the Ombudsman and Financial Services and Pensions Ombudsman (statutory)",
+    "points": [
+     "The Office of the Ombudsman investigates complaints about the administrative actions of public bodies, such as government departments and the HSE.",
+     "The Financial Services and Pensions Ombudsman investigates complaints about financial service providers, such as banks, insurers and pension providers.",
+     "Both are a last resort: the consumer must first use the provider's or body's own complaints procedure.",
+     "Investigations are free of charge to the complainant."
+    ]
+   },
+   {
+    "b": "The FSAI protects consumers from food-related risks.",
+    "h": "Food Safety Authority of Ireland (statutory)",
+    "points": [
+     "Established under the Food Safety Authority of Ireland Act 1998.",
+     "Sets food safety standards, monitors food safety and gives consumer advice on food.",
+     "Works with official control agencies, such as the HSE and local authorities, that inspect food businesses."
+    ]
+   },
+   {
+    "b": "The Consumers' Association of Ireland is an independent organisation that represents consumers.",
+    "h": "Consumers' Association of Ireland (voluntary)",
+    "points": [
+     "Researches and tests goods and services and publishes its findings in Consumer Choice.",
+     "Provides objective information and advice on consumer products and services, including a personal advisory service.",
+     "Lobbies government on consumer issues and represents consumers on a number of bodies."
+    ]
+   },
+   {
+    "b": "The Advertising Standards Authority of Ireland is a self-regulatory body for advertising.",
+    "h": "Advertising Standards Authority of Ireland (voluntary)",
+    "points": [
+     "Promotes high standards in advertising, requiring that marketing communications are legal, decent, honest and truthful.",
+     "Investigates complaints from the public about advertisements, such as false claims or offensive content.",
+     "Can recommend that an advertisement be altered, or require that it be withdrawn."
+    ]
+   },
+   {
+    "h": "Other voluntary and industry bodies",
+    "points": [
+     "Trade associations look after the interests of their members and may have codes of practice and complaints procedures.",
+     "European Consumer Centre Ireland gives advice on buying goods or services from traders in other EU countries."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Statutory body: set up by law, with legal powers to investigate, enforce and prosecute; for example the Competition and Consumer Protection Commission. Voluntary body: independent or industry-based, offering advice, research, lobbying and complaint handling, but with no power to compel a trader to act; for example the Consumers' Association of Ireland or the Advertising Standards Authority of Ireland. Other correct names are acceptable, provided the distinction in legal powers is made.",
+    "prompt": "Distinguish between a statutory body and a voluntary body concerned with consumer protection, naming one of each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Advertisement: the Advertising Standards Authority of Ireland, a voluntary self-regulatory body, investigates public complaints about false, misleading or offensive advertising and can require changes or withdrawal of the advertisement. The Competition and Consumer Protection Commission, a statutory body, investigates misleading advertising and pricing and can prosecute offences under the Consumer Protection Act 2007. Faulty service or goods: Citizens Information, a statutory service through the Citizens Information Board, gives free, confidential advice on rights and how to complain. The Consumers' Association of Ireland, a voluntary body, gives objective advice and represents consumers. For a complaint against a financial service provider, the Financial Services and Pensions Ombudsman investigates as a last resort. A complete answer distinguishes the legal powers of statutory bodies from the advice and self-regulation offered by voluntary bodies.",
+    "prompt": "Discuss the role of at least three bodies, statutory and voluntary, that help a consumer who has a complaint about an advertisement or a faulty service.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-consumer-rights-s6": {
+  "keyTerms": [
+   {
+    "definition": "A District Court mechanism for resolving low-value consumer disputes about goods or services without a solicitor.",
+    "term": "Small claims procedure"
+   },
+   {
+    "definition": "The District Court official who receives small claims, sends them to the respondent and tries to settle disputes.",
+    "term": "Registrar"
+   },
+   {
+    "definition": "The trader against whom a small claim is made.",
+    "term": "Respondent"
+   },
+   {
+    "definition": "The consumer who brings a small claim.",
+    "term": "Claimant"
+   },
+   {
+    "definition": "A claim made by the respondent against the claimant in reply to the original claim.",
+    "term": "Counterclaim"
+   },
+   {
+    "definition": "The remedy a consumer receives for a fault, such as repair, replacement or refund.",
+    "term": "Redress"
+   },
+   {
+    "definition": "Evidence, such as a receipt, that shows when, where and what was bought.",
+    "term": "Proof of purchase"
+   },
+   {
+    "definition": "A complaint set out in writing, with details of the goods or service and the redress wanted.",
+    "term": "Written complaint"
+   },
+   {
+    "definition": "It is inexpensive, with a fixed low fee; it is fast and simple; and no solicitor is needed.",
+    "term": "Three benefits of the District Court route for small disputes"
+   },
+   {
+    "definition": "15 days, in which to admit the claim, dispute it, or make a counterclaim.",
+    "term": "Time the trader has to reply to a claim"
+   },
+   {
+    "definition": "28 days.",
+    "term": "Time the trader has to comply once a claim is not disputed"
+   },
+   {
+    "definition": "A description of the goods or service, a copy of the receipt, where and when they were bought, and the redress sought.",
+    "term": "Four items to include in a letter of complaint"
+   },
+   {
+    "definition": "Return the goods to the retailer with the receipt; speak to the manager; put the complaint in writing.",
+    "term": "Three steps taken before using the District Court route"
+   },
+   {
+    "definition": "Citizens Information, which gives free confidential information, and the Competition and Consumer Protection Commission, which informs consumers of their rights.",
+    "term": "Two sources of advice before going to court"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A complaint is strongest when it is prompt, documented and specific about the redress wanted.",
+    "h": "Steps when goods are faulty",
+    "points": [
+     "Stop using the faulty product and keep it safe for inspection.",
+     "Return it to the retailer as soon as possible with the receipt, which is the proof of purchase.",
+     "Speak to the manager, describe the fault briefly, and state the redress wanted: repair, replacement or refund.",
+     "Ask for a realistic remedy that matches the problem and the value of the goods.",
+     "If the retailer does not resolve the matter, put the complaint in writing, with a description of the goods, where and when they were bought, a copy of the receipt, and the redress sought.",
+     "Keep copies of all letters, emails and replies, since they are evidence if the matter goes further.",
+     "Where the goods carry a manufacturer's guarantee, the manufacturer can also be contacted; the retailer remains responsible for statutory rights.",
+     "Seek advice from Citizens Information or the Competition and Consumer Protection Commission before taking further action."
+    ]
+   },
+   {
+    "b": "Services are complained about in the same way, with attention to what was agreed and to timing.",
+    "h": "Steps when a service is faulty",
+    "points": [
+     "Complain promptly to the supplier, because delay can make the problem harder to prove.",
+     "Describe what was agreed and what was delivered, referring to any quote, contract or written terms.",
+     "Ask for the service to be carried out again, or for a price reduction, refund or other redress.",
+     "Keep receipts, invoices, quotes and any correspondence about the service."
+    ]
+   },
+   {
+    "b": "Misleading advertising is handled by different bodies from faulty goods and services.",
+    "h": "Complaints about advertising and misleading claims",
+    "points": [
+     "An advertisement that seems false, misleading or offensive can be reported to the Advertising Standards Authority of Ireland.",
+     "Misleading practices, including false price claims, can be reported to the Competition and Consumer Protection Commission.",
+     "Keep a copy or screenshot of the advertisement, with its date and where it appeared, as evidence."
+    ]
+   },
+   {
+    "b": "The small claims procedure is a special mechanism within the District Court structure for small consumer disputes.",
+    "h": "The small claims procedure: what it is",
+    "points": [
+     "It deals with disputes about goods or services bought for private use from a person selling them in the course of business.",
+     "The claim must be within a monetary limit set in law; larger claims go through the ordinary courts.",
+     "It is designed to resolve claims quickly, cheaply and without a solicitor."
+    ]
+   },
+   {
+    "b": "A claim passes through the Registrar's office in stages.",
+    "h": "The small claims procedure: how it operates",
+    "points": [
+     "1. The consumer completes the claim form at the District Court office and pays a small, fixed fee.",
+     "2. The Registrar sends a copy of the claim to the respondent, the trader against whom the claim is made.",
+     "3. The respondent has 15 days to admit the claim, dispute it, or make a counterclaim.",
+     "4. If the claim is not disputed within 15 days, the claimant succeeds, and the respondent has 28 days to comply.",
+     "5. If the claim is disputed, the Registrar tries to settle the matter between the parties.",
+     "6. Claims not settled are referred to a hearing before a judge, where the consumer presents evidence such as receipts and correspondence."
+    ]
+   },
+   {
+    "b": "The procedure suits low-value disputes where the cost of ordinary court proceedings would outweigh the claim.",
+    "h": "Benefits and limits of the small claims procedure",
+    "points": [
+     "It is inexpensive, fast and simple, with a fixed low fee.",
+     "A solicitor is not required, which keeps costs down.",
+     "It is available at local District Court offices across the country.",
+     "It resolves disputes about goods and services without the consumer having to go through the full court system.",
+     "Claims above the monetary limit set in law cannot use the procedure."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Return the item promptly to the retailer with the receipt, and speak to the manager, stating the redress wanted. If the retailer refuses, put the complaint in writing, including a description of the goods, where and when they were bought, a copy of the receipt, and the redress sought. Seek advice from Citizens Information or the Competition and Consumer Protection Commission. If the matter remains unresolved, the consumer can bring a claim through the small claims procedure at the District Court.",
+    "prompt": "Outline three steps a consumer should take when a faulty product has been bought and the retailer refuses to help.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Lodging: the consumer completes the claim form at the District Court office and pays a small fixed fee. Notice: the Registrar sends the claim to the respondent, who has 15 days to admit it, dispute it or counterclaim. Outcome if not disputed: the claim succeeds and the respondent has 28 days to comply. Outcome if disputed: the Registrar tries to settle the matter; unsettled claims are heard by a judge, with the consumer presenting receipts and correspondence as evidence. Benefits: inexpensive, fast and simple; no solicitor needed; available at local District Court offices; resolves disputes about goods and services without the full court system. Limitations: only claims within a monetary limit set in law can be used; a disputed claim can still need a hearing; and the consumer must have the evidence to prove the fault. A complete answer sets out the stages in order and links each benefit or limit to how the procedure operates.",
+    "prompt": "Explain how the small claims procedure works, from the consumer lodging a claim to the outcome, and discuss its benefits and limitations.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-cooking-methods-s1": {
   "keyTerms": [
    {
@@ -14898,6 +16763,2207 @@
    }
   ]
  },
+ "hom-home-services-s1": {
+  "keyTerms": [
+   {
+    "definition": "A fuel formed over millions of years from the remains of plants or marine organisms buried under sediment, such as coal, natural gas and oil.",
+    "term": "Fossil fuel"
+   },
+   {
+    "definition": "An energy source that is replenished naturally within a human timescale, such as solar energy, wind or wood from managed forests.",
+    "term": "Renewable energy source"
+   },
+   {
+    "definition": "An energy source with finite reserves that cannot be replaced on a human timescale.",
+    "term": "Non-renewable energy source"
+   },
+   {
+    "definition": "The ability of an energy source to meet present needs without depleting resources or harming the environment for future generations.",
+    "term": "Sustainability"
+   },
+   {
+    "definition": "Recently living organic material, such as wood, used as a fuel and capable of being regrown.",
+    "term": "Biomass"
+   },
+   {
+    "definition": "A panel of solar cells that converts sunlight directly into direct current electricity.",
+    "term": "Photovoltaic panel"
+   },
+   {
+    "definition": "A roof panel that absorbs solar radiation to heat water, which then flows to a hot water cylinder.",
+    "term": "Solar thermal collector"
+   },
+   {
+    "definition": "A refined petroleum product used as home heating oil.",
+    "term": "Kerosene"
+   },
+   {
+    "definition": "A processed solid fuel that burns with very little smoke.",
+    "term": "Smokeless fuel"
+   },
+   {
+    "definition": "The main component of natural gas, a hydrocarbon with the formula CH₄.",
+    "term": "Methane"
+   },
+   {
+    "definition": "Coal, turf (peat), wood and smokeless fuel.",
+    "term": "Four solid fuels burned in Irish homes"
+   },
+   {
+    "definition": "It burns cleanly and almost completely; it needs no storage tank in the home; its heat can be controlled quickly.",
+    "term": "Three advantages of piped natural gas"
+   },
+   {
+    "definition": "It is non-renewable with finite reserves; it needs an outdoor storage tank and regular deliveries; it releases more carbon dioxide per unit of heat than natural gas.",
+    "term": "Three disadvantages of heating oil"
+   },
+   {
+    "definition": "Solar thermal collectors heat water for a cylinder; photovoltaic panels generate electricity.",
+    "term": "Two ways solar energy is used in the home"
+   },
+   {
+    "definition": "Cloud cover and short winter days; shading from trees or buildings, or a roof that does not face south.",
+    "term": "Two factors that reduce solar panel output"
+   },
+   {
+    "definition": "Natural gas is odourless, so a sulphur-based odorant gives it a smell that makes leaks detectable.",
+    "term": "Purpose of the odorant added to natural gas"
+   },
+   {
+    "definition": "Trees regrow and can be replanted on managed land, so the carbon released on burning is taken up again by new growth.",
+    "term": "Why wood fuel is classed as renewable"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Every home energy supply is a fuel or a flow of energy that is converted into heat, light, power or sound. Fuels are classed by whether they can be replaced.",
+    "h": "Energy basics for home supplies",
+    "points": [
+     "Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment.",
+     "Combustion needs fuel, oxygen and a source of heat; complete combustion of a hydrocarbon gives carbon dioxide and water vapour.",
+     "Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables.",
+     "A non-renewable source has finite reserves that cannot be replaced on a human timescale; a renewable source is replenished naturally within a human lifetime.",
+     "Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations."
+    ]
+   },
+   {
+    "h": "Electricity",
+    "points": [
+     "Electricity is a secondary energy: it is generated from other sources and carried to the home, so its environmental impact depends on how it was generated.",
+     "Power stations burn natural gas, coal, peat or oil, or use wind, hydro or solar energy to drive generators.",
+     "The national grid carries electricity at high voltage over long distances, which reduces energy lost as heat in the cables.",
+     "Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V used in Irish homes.",
+     "A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used.",
+     "Electricity is convenient for lighting, cooking, heating and appliances, and it can be produced in the home from solar panels or small wind turbines."
+    ]
+   },
+   {
+    "h": "Natural gas",
+    "points": [
+     "Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment.",
+     "Ireland's main indigenous supply comes from the Corrib gas field, offshore from Co. Mayo; further supply is imported through a pipeline from Britain.",
+     "Gas is distributed through a national pipeline network and burned in boilers, cookers and fires in the home.",
+     "Advantages: it burns cleanly and almost completely, needs no storage tank in the home, and its heat can be controlled quickly.",
+     "Disadvantages: it is non-renewable with finite reserves, and it is dangerous if it leaks or if appliances burn incompletely.",
+     "Natural gas is odourless, so a sulphur-based odorant is added so that leaks can be smelled.",
+     "Sustainability: reserves are limited and worldwide demand is rising; per unit of heat, gas releases less carbon dioxide than oil or coal, so it is often described as a transitional fuel.",
+     "Diagram: a simple pipeline route from the gas network through a meter and a regulator to a boiler and a cooker."
+    ]
+   },
+   {
+    "h": "Oil (kerosene) for heating",
+    "points": [
+     "Home heating oil is kerosene, a fossil fuel refined from crude oil that was formed from marine organisms over millions of years.",
+     "Ireland relies on imported oil, so supply and price depend on world markets.",
+     "Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank and arrange refills.",
+     "It is burned in a boiler with a burner, which needs a flue to carry the gases outside and regular servicing to stay efficient.",
+     "Burning oil releases carbon dioxide, sulphur dioxide from the sulphur in the fuel, and soot if the burner is poorly adjusted.",
+     "Sustainability: oil is non-renewable with finite reserves, and it releases more carbon dioxide per unit of heat than natural gas."
+    ]
+   },
+   {
+    "h": "Solid fuels",
+    "points": [
+     "Solid fuels used in the home are coal, turf (peat), wood and manufactured smokeless fuel.",
+     "Coal is a fossil fuel mined from underground seams; it is burned in open fires and stoves and produces a high level of carbon dioxide and smoke.",
+     "Smokeless fuel is a processed solid fuel that burns with little smoke, which reduces smoke and particulate pollution in towns.",
+     "Turf (peat) forms very slowly in bogs over thousands of years, so it is effectively non-renewable on a human timescale, and burning it releases carbon dioxide.",
+     "Wood (logs, pellets and chips) is a biomass fuel: it is renewable when trees are replanted and the forest is managed sustainably, because regrowth takes up the carbon released on burning.",
+     "Solid fuels need dry storage, a chimney or flue and regular cleaning, because soot builds up and can cause chimney fires and carbon monoxide poisoning.",
+     "An open fire loses much of its heat up the chimney, while an enclosed stove transfers more of the heat into the room."
+    ]
+   },
+   {
+    "h": "Solar energy",
+    "points": [
+     "Solar energy is radiant energy from the sun. It is renewable and free to collect, but it is intermittent.",
+     "Solar thermal collectors on the roof absorb sunlight to heat water that circulates to a hot water cylinder, supplying much of the household hot water in summer.",
+     "Photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use.",
+     "Surplus PV electricity can be exported to the grid, and a battery can store it for use when the sun is not shining.",
+     "Output depends on sunlight, so it falls on cloudy days, in winter and at night, and it is reduced by shade from trees or buildings.",
+     "A roof facing south with no shading gives the best output; the roof must also be strong enough to carry the panels.",
+     "Sustainability: solar energy has no fuel to extract or deliver and produces no emissions in use; manufacturing the panels does use energy and materials.",
+     "Diagram: plan view of a south-facing roof with PV panels and solar thermal collectors; schematic of a PV system showing panels, inverter, meter and the house circuit."
+    ]
+   },
+   {
+    "h": "Renewable and non-renewable sources compared",
+    "points": [
+     "Renewable sources for the home: solar energy, wind (turbines feeding the grid), biomass such as wood, and heat pumps that draw heat from the ground or air using electricity.",
+     "Non-renewable sources for the home: natural gas, heating oil, coal and peat.",
+     "Non-renewable fuels are finite and rising in demand, and their supply depends on extraction, imports and transport.",
+     "Renewable sources have high start-up costs and depend on local weather, but their running fuel is free and they produce few emissions in use.",
+     "SEAI (Sustainable Energy Authority of Ireland) provides information and grants that support the use of renewable heating and solar energy in homes."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Non-renewable: natural gas, a finite fossil fuel with limited reserves whose demand is rising. Heating oil, a finite fossil fuel refined from imported crude oil, stored in tanks and releasing carbon dioxide when burned. Renewable: solar energy, which is replenished daily by sunlight, has no fuel to deliver and produces no emissions in use. Full marks need two named non-renewable sources and one renewable source, each with a correct sustainability point.",
+    "prompt": "Name two non-renewable energy sources used in the home and one renewable energy source. State one sustainability point about each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Natural gas: a fossil fuel, mainly methane, formed from marine organisms over millions of years; Ireland's main indigenous supply is the Corrib gas field off Co. Mayo, supplemented by imports through a pipeline from Britain. It is distributed through a pipeline network to boilers, cookers and fires. It is non-renewable with finite reserves and rising demand, so it is not sustainable in the long term; it burns cleanly and releases less carbon dioxide per unit of heat than oil or coal, which makes it a transitional fuel. Solar energy: renewable radiant energy from the sun, with no fuel to deliver and no emissions in use. It is used through solar thermal collectors that heat water in a cylinder, and photovoltaic panels that generate electricity through an inverter. Its output varies with weather, season and shading, so it needs a battery or grid connection, and manufacturing the panels uses energy and materials. Conclusion: solar energy is the more sustainable supply, while natural gas is a finite fuel that reduces emissions compared with oil and coal.",
+    "prompt": "Discuss the sustainability of natural gas and solar energy as supplies for the home. Refer to the source of each, its sustainability and how it is used in the home.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s2": {
+  "keyTerms": [
+   {
+    "definition": "The transfer of heat through a solid material from a warmer part to a cooler part.",
+    "term": "Conduction"
+   },
+   {
+    "definition": "The movement of heat by moving air or water, in which warm fluid rises and cooler fluid takes its place.",
+    "term": "Convection"
+   },
+   {
+    "definition": "A part of a building structure where heat escapes faster than through the surrounding insulated fabric.",
+    "term": "Thermal bridge"
+   },
+   {
+    "definition": "Burning a fuel with enough oxygen to produce only carbon dioxide and water vapour.",
+    "term": "Complete combustion"
+   },
+   {
+    "definition": "Burning a fuel with too little oxygen, producing carbon monoxide and soot.",
+    "term": "Incomplete combustion"
+   },
+   {
+    "definition": "A colourless, odourless and poisonous gas formed by incomplete combustion, which binds to haemoglobin in the blood.",
+    "term": "Carbon monoxide"
+   },
+   {
+    "definition": "A gas, such as carbon dioxide, that traps heat in the atmosphere and contributes to global warming.",
+    "term": "Greenhouse gas"
+   },
+   {
+    "definition": "Rainfall made acidic by dissolved sulphur dioxide and nitrogen oxides, which damages buildings, lakes and forests.",
+    "term": "Acid rain"
+   },
+   {
+    "definition": "A valve on a radiator that senses room temperature and reduces the flow of hot water once the set temperature is reached.",
+    "term": "Thermostatic radiator valve"
+   },
+   {
+    "definition": "A boiler that recovers heat from its flue gases, making it more efficient than a standard boiler.",
+    "term": "Condensing boiler"
+   },
+   {
+    "definition": "Conduction through the walls, roof, floor and glazing; warm air escaping through draughts and gaps; and uninsulated pipes and cylinders losing heat to the surroundings.",
+    "term": "Three routes of heat loss in a house"
+   },
+   {
+    "definition": "Carbon dioxide and water vapour.",
+    "term": "Two products of complete combustion of methane"
+   },
+   {
+    "definition": "It is colourless and odourless and binds to haemoglobin, so less oxygen is carried around the body.",
+    "term": "Why carbon monoxide is dangerous"
+   },
+   {
+    "definition": "It forms acid rain, which damages buildings and harms lakes and forests.",
+    "term": "Two effects of sulphur dioxide emissions"
+   },
+   {
+    "definition": "It causes global warming and contributes to climate change.",
+    "term": "Two effects of carbon dioxide emissions"
+   },
+   {
+    "definition": "Quilt laid between the joists in the attic; a layer of insulation fitted above or below the roof structure.",
+    "term": "Two measures for reducing heat loss through the roof"
+   },
+   {
+    "definition": "They sense room temperature and reduce hot water flow when the set point is reached; they allow each room to be controlled separately.",
+    "term": "Two functions of thermostatic radiator valves"
+   },
+   {
+    "definition": "Draught-proofing doors and windows; sealing letterboxes and floorboards; fitting seals and brushes around gaps.",
+    "term": "Three strategies for reducing heat loss through air leakage"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Heat moves from warm to cool by conduction, convection and radiation. In a house most heat is lost through the fabric and through air leakage.",
+    "h": "How heat is lost from a house",
+    "points": [
+     "Conduction: heat passes through solid walls, roof, floor and glazing from the warm inside to the cold outside.",
+     "Convection: warm air rises and escapes through gaps, while cold air enters at lower levels, creating draughts.",
+     "Air leakage: gaps around doors, windows, floorboards, letterboxes and chimneys let warm air out and draw cold air in.",
+     "Heat rises, so an uninsulated roof or attic is one of the largest routes for heat loss in a typical house.",
+     "Single glazing loses heat much faster than an insulated wall; double glazing traps a layer of still air between two panes, which slows heat transfer.",
+     "Thermal bridges are parts of the structure, such as lintels and junctions between walls and floors, where heat escapes faster than through the surrounding fabric.",
+     "Uninsulated hot water cylinders and pipes lose heat continuously to the surrounding air, even when no water is drawn off.",
+     "Heating that runs with no timer, room thermostat or radiator valves heats rooms that are not in use."
+    ]
+   },
+   {
+    "b": "Burning any carbon-based fuel releases gases and particles. The completeness of combustion decides which pollutants are produced.",
+    "h": "Emissions from burning fuels in the home (Higher Level only)",
+    "points": [
+     "Complete combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O, giving carbon dioxide and water vapour.",
+     "Incomplete combustion, caused by too little air or a dirty or faulty burner, produces carbon monoxide (CO) and soot.",
+     "Carbon monoxide is a colourless, odourless and poisonous gas that binds to haemoglobin in the blood, so less oxygen is carried around the body.",
+     "Carbon dioxide is a greenhouse gas that traps heat in the atmosphere, contributing to global warming and climate change.",
+     "Sulphur dioxide (SO₂) from the sulphur in oil and solid fuels dissolves in rainwater to form acid rain, which damages buildings, lakes and forests.",
+     "Nitrogen oxides formed at high temperatures in boilers and engines contribute to smog and acid rain.",
+     "Smoke and particulates from solid fuels cause smog, soiling of buildings and respiratory problems such as asthma and bronchitis.",
+     "Per unit of heat, coal releases the most carbon dioxide among the fuels used in homes, followed by oil, then natural gas; wood is largely carbon-neutral over a managed cycle.",
+     "Diagram: a flow chart from fuel burned in the boiler or stove to the pollutants released (CO₂, CO, SO₂, nitrogen oxides, particulates) and their environmental effects."
+    ]
+   },
+   {
+    "b": "Aim: to identify where energy is wasted in a home and to recommend changes that improve efficiency.",
+    "h": "Investigating energy inefficiency in the home",
+    "points": [
+     "Step 1: walk through the house and note draughts, uninsulated attic space, single glazing, missing draught seals and any unlagged cylinder or pipes.",
+     "Step 2: check for draughts by holding the back of the hand or a smoke pencil near gaps, noting where air movement shows leakage.",
+     "Step 3: record the heating controls: whether there is a timer, a room thermostat and radiator valves, and the thermostat setting in each room.",
+     "Step 4: record the room temperatures at the same time on two occasions, and the hours the heating runs each day.",
+     "Step 5: identify how hot water is heated (boiler, immersion or electric shower), how long the immersion runs, and whether the cylinder is insulated.",
+     "Step 6: observe cooking practices, such as opening the oven door often, preheating for longer than needed, using large pans on small rings, leaving pans uncovered and boiling more water than needed in the kettle.",
+     "Step 7: compare meter readings or fuel deliveries over a set period, and note appliances left on standby.",
+     "Safety: keep naked flames away from gas and oil appliances and do not use a lit taper to check for leaks from fuel pipes.",
+     "Expected result: a list of inefficiencies with the evidence for each, ranked by the energy each one wastes."
+    ]
+   },
+   {
+    "h": "Strategies to improve energy efficiency and reduce emissions",
+    "points": [
+     "Insulation: quilt laid between the joists in the attic, cavity wall insulation, internal or external wall insulation, and floor insulation.",
+     "Glazing: double or triple glazing with lined curtains closed at night, and low-emissivity coatings on glass.",
+     "Draught-proofing of doors, windows, letterboxes and floorboards with seals and brushes.",
+     "Heating controls: a programmer or timer, a room thermostat, thermostatic radiator valves on each radiator, and a cylinder thermostat with a time switch for hot water.",
+     "Efficient boilers: a condensing boiler recovers heat from its flue gases, and an annual service keeps the burner adjusted so combustion stays complete.",
+     "Hot water: lagging the cylinder and pipes with jackets, using the immersion only when required, and choosing a shower over a bath.",
+     "Renewable heat: solar thermal collectors, a heat pump or a well-managed wood-burning stove with a flue and an air supply controlled for complete combustion.",
+     "Cooking: using lids, matching pan size to the ring, using the microwave or a slow cooker for small or long cooking, and filling the oven when it is on.",
+     "Lighting and appliances: LED lamps, switching off unused lights, A-rated appliances, full loads on washing machines and dishwashers, and switching off standby.",
+     "Energy-efficient house design: a compact shape with less external wall area, large south-facing windows for passive solar gain, zoned heating and sensor lighting.",
+     "Ventilation balanced with insulation: an airtight fabric needs a controlled ventilation system so that moisture and stale air are removed without wasting heat.",
+     "The Building Energy Rating (BER) assessment, carried out by an SEAI-registered assessor, shows the energy efficiency of a house and where improvements would have most effect."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Carbon dioxide: a greenhouse gas that traps heat in the atmosphere and contributes to global warming and climate change. Sulphur dioxide: released from oil and solid fuels, it dissolves in rainwater to form acid rain, which damages buildings, lakes and forests. Carbon monoxide or smoke and particulates are also accepted, with one correct effect each. Full marks need two correctly named pollutants, each with a correct environmental effect.",
+    "prompt": "Name two pollutants released when fuels are burned in the home and state one environmental effect of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Heat loss: conduction through walls, roof, floor and single glazing; air leakage through draughts and gaps; thermal bridges at junctions and lintels; an uninsulated attic, since heat rises; uninsulated cylinder and pipes. Heating waste: no timer or room thermostat, radiators heating unused rooms, and a boiler not serviced so combustion becomes incomplete. Emissions: complete combustion releases carbon dioxide and water; incomplete combustion releases carbon monoxide and soot; sulphur dioxide from oil and solid fuels causes acid rain; particulates cause smog. Strategies for heating: attic and wall insulation, double glazing with curtains, draught-proofing, a timer, a room thermostat, thermostatic radiator valves on each radiator, a condensing boiler with an annual service. Strategies for hot water: lagging the cylinder and pipes, a cylinder thermostat and time switch, using the immersion only when required and showers instead of baths. Renewable heat such as solar thermal collectors or a heat pump reduces emissions. Full marks need several named waste points in both heat loss and heating systems, a link to emissions with a correct chemical or environmental effect, and at least three justified strategies for heating and hot water.",
+    "prompt": "Discuss the ways in which energy is wasted in a typical family home, and recommend strategies to improve the efficiency of the heating and hot water systems. Refer to heat loss, emissions and the cost of fuel.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s3": {
+  "keyTerms": [
+   {
+    "definition": "The electrical pressure that pushes current around a circuit, measured in volts (V).",
+    "term": "Voltage"
+   },
+   {
+    "definition": "The rate of flow of electric charge through a conductor, measured in amperes (A).",
+    "term": "Current"
+   },
+   {
+    "definition": "The rate at which an appliance uses electrical energy, measured in watts (W).",
+    "term": "Wattage"
+   },
+   {
+    "definition": "The energy used by a 1000-watt appliance running for one hour, which is the unit used on electricity bills.",
+    "term": "Kilowatt-hour"
+   },
+   {
+    "definition": "A fixed daily charge on an electricity bill that covers network maintenance, meter reading and billing.",
+    "term": "Standing charge"
+   },
+   {
+    "definition": "A circuit that runs from the consumer unit through each socket and back to the consumer unit, forming a loop.",
+    "term": "Ring circuit"
+   },
+   {
+    "definition": "The board that receives the mains supply and distributes it to the household circuits through protective devices.",
+    "term": "Consumer unit"
+   },
+   {
+    "definition": "A switch in the consumer unit that trips to cut off current when a fault or overload occurs and can be reset.",
+    "term": "Miniature circuit breaker"
+   },
+   {
+    "definition": "A device that trips and cuts off the supply when it detects current leaking to earth, protecting people from electric shock.",
+    "term": "Residual current device"
+   },
+   {
+    "definition": "A conductor that provides a safe path for fault current to flow to earth, so that a protective device trips.",
+    "term": "Earth wire"
+   },
+   {
+    "definition": "230 V at 50 Hz.",
+    "term": "Standard Irish domestic voltage"
+   },
+   {
+    "definition": "Voltage in volts (electrical pressure); current in amps (rate of flow of charge); power in watts (rate of energy use).",
+    "term": "Three quantities measured in an electrical circuit"
+   },
+   {
+    "definition": "A standing charge, which is fixed, and a unit charge, which is paid for each kWh used.",
+    "term": "Two components of an electricity bill"
+   },
+   {
+    "definition": "6 kWh, since 2 kW × 3 hours = 6 kWh.",
+    "term": "Energy used by a 2 kW heater running for 3 hours"
+   },
+   {
+    "definition": "A fuse, which melts when the current is too high; an MCB, which trips and can be reset; an RCD, which trips when current leaks to earth.",
+    "term": "Three devices that protect against electrical faults"
+   },
+   {
+    "definition": "It carries fault current safely to earth, causing the fuse or MCB to trip and preventing electric shock.",
+    "term": "Function of the earth wire"
+   },
+   {
+    "definition": "Headache, dizziness and nausea, which can be mistaken for flu; a carbon monoxide alarm gives early warning.",
+    "term": "Symptoms of carbon monoxide poisoning"
+   },
+   {
+    "definition": "Turn off the gas supply at the meter; open doors and windows; avoid switches, matches and other flames, and contact the emergency gas service.",
+    "term": "Three immediate actions if a gas smell is detected"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Electricity in the home is described by three quantities. The relationship between them lets a student calculate the current an appliance draws.",
+    "h": "Electrical quantities: voltage, current and wattage",
+    "points": [
+     "Voltage (V) is the electrical pressure that pushes current around a circuit; the standard Irish domestic supply is 230 V at 50 Hz.",
+     "Current (I), measured in amperes or amps (A), is the rate of flow of electric charge through a conductor.",
+     "Wattage (W) is the rate at which an appliance uses electrical energy; 1 kilowatt (kW) equals 1000 watts.",
+     "Power relationship: wattage = voltage × current, so current = wattage ÷ voltage.",
+     "Worked example: a 2300 W kettle on a 230 V supply draws 2300 ÷ 230 = 10 A.",
+     "A higher wattage appliance uses more electricity per hour, so a 3 kW heater uses three times the energy of a 1 kW appliance running for the same time.",
+     "Appliance rating plates give the voltage and wattage, and appliances rated for 230 V must be used on the Irish supply to avoid damage.",
+     "Plugs are fitted with a fuse matched to the appliance's wattage; a plug rated at 13 A is the largest used on a standard domestic socket circuit."
+    ]
+   },
+   {
+    "b": "Electricity is generated at a distance from the home and reaches it in stages, each changing the voltage for efficient transmission.",
+    "h": "Electricity supply to the home",
+    "points": [
+     "Stage 1: generation at a power station, where a generator is turned by steam, water or wind.",
+     "Stage 2: a step-up transformer raises the voltage for transmission on the national grid, which reduces the current and so the energy lost as heat in the cables.",
+     "Stage 3: step-down substations reduce the voltage for distribution on local networks.",
+     "Stage 4: a final transformer near the home reduces the voltage to 230 V.",
+     "Stage 5: a mains service cable carries the supply into the house, through the meter cabinet and the electricity meter.",
+     "Stage 6: the consumer unit (fuse board) with its main switch and circuit breakers distributes the supply to circuits serving sockets, lighting, cookers and immersion heaters.",
+     "Diagram: flow chart of the six stages from power station to consumer unit, with a labelled transformer at each change of voltage."
+    ]
+   },
+   {
+    "h": "Kilowatt-hour, tariffs and costings",
+    "points": [
+     "A kilowatt-hour (kWh), or unit, is the energy used by a 1000-watt (1 kW) appliance running for one hour.",
+     "Energy in kWh = power in kW × time in hours; for example, a 2 kW heater running for 3 hours uses 2 × 3 = 6 kWh.",
+     "Cost of running an appliance = energy in kWh × the unit rate charged by the supplier.",
+     "A standing charge is a fixed daily charge that covers maintenance of the network, meter reading and billing, and is payable whether or not electricity is used.",
+     "The unit charge is the price for each kWh used, and appears on the bill as the number of units consumed multiplied by the rate.",
+     "A night-rate or time-of-use tariff charges less for electricity used at off-peak times, so storage heaters and immersion heaters can be run at night.",
+     "A smart meter shows real-time consumption, which helps a household see the cost of each appliance and shift use to cheaper periods.",
+     "Reading the meter: the difference between two readings taken a set period apart gives the number of units used in that period."
+    ]
+   },
+   {
+    "h": "Safety devices: fuses, MCBs, RCDs and the earth wire",
+    "points": [
+     "A fuse is a deliberate weak link: a thin wire inside the fuse melts when the current exceeds its rating, breaking the circuit and preventing fire.",
+     "A miniature circuit breaker (MCB) is a switch that trips when the current exceeds its rating or a fault occurs, and can be reset once the fault is repaired.",
+     "A residual current device (RCD) detects an imbalance between live and neutral currents, which signals current leaking to earth through a person or fault, and trips within milliseconds.",
+     "Socket circuits are commonly protected by RCDs with a sensitivity of 30 mA, which can trip before a fatal shock is delivered.",
+     "The earth wire, usually green and yellow, is a safe path for fault current to flow to earth; the surge of current blows the fuse or trips the MCB.",
+     "Appliances with double insulation have a plastic casing and no earth connection, so the appliance cannot become live through a metal part.",
+     "Each circuit has its own protective device in the consumer unit, so a fault on one circuit disconnects only that circuit."
+    ]
+   },
+   {
+    "b": "A ring circuit is a single circuit that supplies many sockets in a room or floor from one protective device.",
+    "h": "Ring circuit (Higher Level only)",
+    "points": [
+     "The live, neutral and earth conductors run from the consumer unit, out through each socket in turn, and return to the consumer unit, forming a continuous loop.",
+     "Each socket is supplied from two directions, so the cable can be smaller than a single radial cable carrying the same load to every socket.",
+     "Upstairs and downstairs ring circuits are often wired separately, so a fault on one floor does not disconnect the other.",
+     "A spur is a short branch from a socket in the ring, which can supply one additional socket or one fixed appliance.",
+     "The ring is protected by one MCB or fuse in the consumer unit, which trips if the total current on the loop exceeds its rating.",
+     "Diagram: a wiring circuit showing the consumer unit, live, neutral and earth conductors forming a loop, sockets along the loop and one spur labelled."
+    ]
+   },
+   {
+    "h": "Safe use of electricity",
+    "points": [
+     "Do not overload sockets or use multiple adaptors; each plug and socket should be used within its rating.",
+     "Check flexes and plugs regularly for damage, and never pull a plug out by its flex.",
+     "Unplug appliances before cleaning or repairing them, and never repair an appliance while it is connected to the supply.",
+     "Never handle electrical equipment with wet hands, and keep water and electricity apart in the bathroom and kitchen.",
+     "Keep flexes away from hobs, sinks and heat sources, and never cover a heater or drape clothes over it.",
+     "Use only safety-approved appliances, and do not use portable heaters in bathrooms.",
+     "Electric blankets should be checked for damage, and not left switched on under a sleeping person or folded.",
+     "Outdoor sockets and appliances need an RCD and weatherproof fittings; repairs and new circuits must be carried out by a qualified electrician.",
+     "Unplug all appliances, except a fridge or freezer, before going to bed to reduce the risk of an electrical fire."
+    ]
+   },
+   {
+    "h": "Safe use of gas in the home",
+    "points": [
+     "Natural gas and LPG are odourless without the odorant, so a gas smell is an emergency: turn off the gas supply at the meter, open doors and windows, and do not use switches, matches or other flames.",
+     "Carbon monoxide is produced when gas, oil or solid fuel burns incompletely, for example from a blocked flue or a faulty boiler; it has no smell and causes headache, dizziness and nausea.",
+     "A carbon monoxide alarm gives early warning of the gas, and should be fitted in rooms containing fuel-burning appliances.",
+     "Gas appliances need adequate ventilation for the air needed to burn the gas, and must not be blocked by furniture or closed vents.",
+     "Gas appliances should be installed by a registered installer and serviced at regular intervals so the flue and burner stay safe and efficient."
+    ]
+   },
+   {
+    "b": "Electrical services must match the use of the room, and the layout must keep sockets and switches safe and convenient.",
+    "h": "Planning electrical services for one room",
+    "points": [
+     "Lighting: plan layers of light, with ambient lighting from ceiling fittings, task lighting over work areas and accent lighting for display.",
+     "Switches should be placed at the door, within easy reach, and sockets at a safe height away from water sources.",
+     "Heating options: electric storage heaters charged on night rate, panel heaters on a thermostat, or electric underfloor heating, each controlled by a thermostat or timer.",
+     "Ventilation: a fan with a timer or humidity switch, fitted in a kitchen or bathroom, removes moisture and cooking smells from the room.",
+     "Circuits and sockets: enough sockets on the ring or a separate circuit so no extension lead is needed for regular appliances.",
+     "Safety: the fittings for a bathroom must suit its zone rating, and any new work must be certified by a qualified electrician."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Fuse: a thin wire that melts when the current exceeds the rating, breaking the circuit to prevent fire. Miniature circuit breaker: a switch that trips to cut off the current on overload or fault and can be reset once the fault is repaired. Residual current device: detects current leaking to earth and trips within milliseconds, protecting people from electric shock. Full marks need the function of each device, stated correctly and distinguished from the others.",
+    "prompt": "Explain the function of a fuse, a miniature circuit breaker and a residual current device in a household circuit.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Supply: electricity is generated at a power station, stepped up by a transformer for transmission on the national grid, stepped down at substations for distribution, stepped down again near the home to 230 V, then carried by the mains service cable through the meter cabinet and meter to the consumer unit. Consumer unit: receives the supply and distributes it to circuits through fuses or MCBs, with RCDs for additional protection. Ring circuit: live, neutral and earth conductors run from the consumer unit through each socket and back to it, forming a loop; each socket is fed from two directions, and the circuit is protected by one device in the consumer unit. Earth wire: carries fault current away to earth so that the protective device trips. Full marks need the stages of supply in order, the role of the consumer unit, a correct description of the ring circuit's loop and protection, and the role of the earth wire.",
+    "prompt": "Describe how electricity is supplied to a home, and explain how a ring circuit and the consumer unit protect the household from electrical faults.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s4": {
+  "keyTerms": [
+   {
+    "definition": "A valve that turns off the water supply to a house, used for repairs, burst pipes or flooding.",
+    "term": "Stop cock"
+   },
+   {
+    "definition": "A float-operated valve on a storage tank that controls the water level and closes when the tank is full.",
+    "term": "Ball valve"
+   },
+   {
+    "definition": "A tank in the attic that holds cold water for the taps, WC cistern and hot water cylinder.",
+    "term": "Storage tank"
+   },
+   {
+    "definition": "A pipe that carries excess water from a storage tank to the outside of the house if the ball valve fails.",
+    "term": "Overflow pipe"
+   },
+   {
+    "definition": "The pipe that carries water from the stop cock up to the cold water storage tank.",
+    "term": "Rising main"
+   },
+   {
+    "definition": "The pipe that brings clean water from the public main into the house.",
+    "term": "Mains pipe"
+   },
+   {
+    "definition": "The addition of chlorine to water to kill bacteria and other micro-organisms.",
+    "term": "Chlorination"
+   },
+   {
+    "definition": "The settling out of solid particles from water after chemicals have bound them together, so they can be removed.",
+    "term": "Sedimentation"
+   },
+   {
+    "definition": "The passing of water through beds of sand, gravel and stones to remove remaining particles.",
+    "term": "Filtration"
+   },
+   {
+    "definition": "Insulation wrapped around pipes and tanks to prevent water from freezing in cold spaces.",
+    "term": "Pipe lagging"
+   },
+   {
+    "definition": "Screening, sedimentation with chemicals, filtration through sand and gravel, chlorination, testing, and storage in a high-level reservoir.",
+    "term": "Six stages of treating public water"
+   },
+   {
+    "definition": "It isolates the supply for repairs; it stops flooding from a burst pipe; it turns the water off when the house is left empty.",
+    "term": "Three functions of the stop cock"
+   },
+   {
+    "definition": "It controls the water level in the tank; it shuts off the inflow when the tank is full; it prevents the tank overflowing into the house.",
+    "term": "Three functions of the ball valve"
+   },
+   {
+    "definition": "It carries excess water from the tank to the outside of the house if the ball valve fails.",
+    "term": "Purpose of the overflow pipe"
+   },
+   {
+    "definition": "A high-level tank gives water enough gravity pressure to supply the taps and cistern without a pump.",
+    "term": "Why the storage tank is placed in the attic"
+   },
+   {
+    "definition": "Lag the tank and pipes with insulation; insulate the attic floor and keep the heating on at a low setting in cold weather.",
+    "term": "Two ways to protect the cold water system from freezing"
+   },
+   {
+    "definition": "A dual-flush system that offers a full flush and a half flush, using less water for liquids.",
+    "term": "Water-saving feature of a WC cistern"
+   },
+   {
+    "definition": "Use a plugged sink or basin for washing dishes and vegetables; repair dripping taps; run dishwashers and washing machines on full loads or economy programmes.",
+    "term": "Three ways to conserve water in the kitchen"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Water supplied through the public mains is treated to make it safe for drinking and domestic use before it reaches the home.",
+    "h": "Public water treatment and supply",
+    "points": [
+     "Stage 1, screening: water passes through screens that remove floating debris and large solids.",
+     "Stage 2, sedimentation: chemicals are added to bind fine dirt into larger particles, which sink to the base of the tank and are removed.",
+     "Stage 3, filtration: water passes through filter beds of sand, gravel and stones to remove remaining particles.",
+     "Stage 4, chlorination: chlorine is added to kill bacteria and other micro-organisms.",
+     "Stage 5, testing: samples are tested for quality and purity before the water is released.",
+     "Stage 6, storage: treated water is held in a high-level reservoir so it cannot become contaminated and so pressure is available for distribution.",
+     "Distribution: clean water flows from the reservoir through a mains pipe to houses, with manholes or valves at regular intervals for inspection and repair."
+    ]
+   },
+   {
+    "h": "Components of the cold water supply system",
+    "points": [
+     "Mains pipe: carries clean water from the public main into the house.",
+     "Stop cock: a valve that turns the water off at the main, usually near the boundary or under the kitchen sink; a second stop cock may be found inside the house.",
+     "Rising main: a pipe that carries water from the stop cock up to the cold water storage tank in the attic.",
+     "Cold water storage tank: a tank in the attic that stores water for the cold taps, the WC cistern and the hot water cylinder.",
+     "Ball valve (float valve): a valve on the storage tank that controls the water level and shuts off the inflow when the tank is full.",
+     "Overflow pipe: a pipe leading from the tank to the outside of the house, which carries excess water out if the ball valve fails.",
+     "Distribution pipes: carry cold water from the tank to the kitchen and bathroom taps, the WC cistern and the feed to the hot water cylinder.",
+     "Drinking water tap: often fed directly from the rising main at the kitchen sink, so drinking water does not pass through the storage tank.",
+     "Diagram: plan of a cold water system showing the mains pipe, stop cock, rising main, attic tank with ball valve and overflow, and distribution pipes to the taps, WC and cylinder."
+    ]
+   },
+   {
+    "h": "How the cold water system works",
+    "points": [
+     "Water enters through the mains pipe, passes the stop cock and rises through the rising main into the attic tank.",
+     "The ball valve closes when the tank reaches its set level, so the tank is never over-filled.",
+     "Water is stored in the tank and flows out by gravity to the taps, cistern and cylinder when a tap is opened or a cistern refills.",
+     "Water pressure depends on the height of the tank above the outlet: a tank in the attic gives enough pressure at lower-level taps without a pump.",
+     "Overflow water leaves through the overflow pipe, which carries it outside so that water is not damaged or leaking into the ceilings below.",
+     "The stop cock is closed to isolate the supply during repairs, when a pipe bursts or when the house is left empty for a long period."
+    ]
+   },
+   {
+    "h": "Preventing freezing in the cold water system",
+    "points": [
+     "Water freezes at 0 °C and expands as it turns to ice, so pipes and tanks in cold spaces such as the attic and external walls can split.",
+     "Lag the cold water storage tank with an insulated lid or jacket, and lag the pipes in the attic and in external walls with pipe insulation.",
+     "Insulate the attic floor so that heat from the house keeps the tank and pipes above freezing.",
+     "Keep the heating on at a low setting in very cold weather, rather than switching it off, so the building remains warm.",
+     "Open the doors of cupboards containing pipes on external walls so that warm air reaches them.",
+     "In severe cold, allow a tap to run slowly, because moving water is less likely to freeze.",
+     "If a pipe freezes, turn off the water at the stop cock, open the nearest tap and thaw the pipe gently with a warm cloth or a hot water bottle; never use a naked flame or a blowtorch.",
+     "After thawing, check the pipes and joints for leaks before turning the water back on."
+    ]
+   },
+   {
+    "h": "Conserving water in the home",
+    "points": [
+     "Take a shower instead of a bath, because a shower uses far less water than filling a bath.",
+     "Turn off the tap while brushing teeth and shaving, and do not leave taps running.",
+     "Wash vegetables and small amounts of dishes in a basin or a plugged sink rather than under a running tap.",
+     "Repair leaks and dripping taps promptly, because a constant drip wastes a large volume over a year.",
+     "Fit a dual-flush WC cistern so that the half-flush can be used for liquids, and fit cisterns with reduced-volume flushes where possible.",
+     "Use washing machines and dishwashers only on full loads, or on half-load or economy programmes for lightly soiled items.",
+     "Install mixer taps, which deliver the right temperature without running hot and cold water separately.",
+     "Do not overfill the kettle, since only the water needed should be heated.",
+     "Collect rainwater from the roof in a butt for watering the garden and washing outdoor surfaces."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Ball valve: controls the water level in the storage tank by closing the inflow when the tank is full, which prevents the tank overflowing into the house. Overflow pipe: carries excess water from the tank to the outside of the house if the ball valve fails. Full marks need a correct function for each part, with the reason it matters to the house.",
+    "prompt": "State the function of the ball valve and the overflow pipe in a domestic cold water system.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Treatment: screening removes floating debris; sedimentation uses chemicals to bind fine dirt, which sinks and is removed; filtration through sand, gravel and stones removes remaining particles; chlorination kills bacteria; testing checks quality; storage in a high-level reservoir keeps the water clean and gives pressure. Conservation: take a shower instead of a bath; turn off taps while brushing teeth and wash dishes in a plugged sink or basin; repair dripping taps; fit a dual-flush WC cistern; use washing machines and dishwashers on full loads or economy programmes. Freezing: lag the storage tank and pipes in the attic and external walls with insulation, or insulate the attic floor; keep heating on at a low setting in cold weather. Full marks need four treatment stages in order, three correctly explained conservation methods and one protection method with reasons.",
+    "prompt": "Describe the stages in treating public water before it reaches the home. Then describe three ways of conserving water in the home and one way of protecting the cold water system from freezing.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s5": {
+  "keyTerms": [
+   {
+    "definition": "Heat transfer through a fluid by warmed, less dense fluid rising while cooler fluid moves in to replace it.",
+    "term": "Convection"
+   },
+   {
+    "definition": "The feeling of comfortable warmth, which depends on air temperature, surface temperatures, humidity, air movement, clothing and activity.",
+    "term": "Thermal comfort"
+   },
+   {
+    "definition": "A device that senses temperature and switches a heat source off at a set level and back on as it cools.",
+    "term": "Thermostat"
+   },
+   {
+    "definition": "Two metals bonded together that bend when heated because one expands more than the other, used to make and break a circuit.",
+    "term": "Bimetal strip"
+   },
+   {
+    "definition": "A valve on a radiator that opens or closes in response to room temperature, controlling the hot water flowing into that radiator.",
+    "term": "Thermostatic radiator valve"
+   },
+   {
+    "definition": "Dividing a heating system into separate areas, each with its own timer and thermostat.",
+    "term": "Zoning"
+   },
+   {
+    "definition": "A timer that switches heating and hot water on and off at set times.",
+    "term": "Programmer"
+   },
+   {
+    "definition": "A heating system in which a boiler heats water that a pump circulates through pipes to radiators in a closed loop.",
+    "term": "Wet central heating system"
+   },
+   {
+    "definition": "A tank, usually in the roof space, that takes up the extra volume of water as it heats and acts as an overflow.",
+    "term": "Expansion tank"
+   },
+   {
+    "definition": "A dry heating system that stores heat in thermal blocks charged with off-peak electricity and releases it during the day.",
+    "term": "Storage heater"
+   },
+   {
+    "definition": "A device that raises heat collected from the ground or air to a temperature usable for heating a house.",
+    "term": "Heat pump"
+   },
+   {
+    "definition": "Heating a building by designing it so that sunlight entering through glazing is absorbed and stored as heat in walls and floors.",
+    "term": "Passive solar heating"
+   },
+   {
+    "definition": "Air temperature, the temperature of surrounding surfaces, humidity, air movement, clothing and activity level.",
+    "term": "Six factors that determine thermal comfort"
+   },
+   {
+    "definition": "A programmer, thermostats (boiler and room) and thermostatic radiator valves.",
+    "term": "Three heating controls that save energy"
+   },
+   {
+    "definition": "Full central heating, partial central heating, background heating and local heating.",
+    "term": "Four heating options for a home"
+   },
+   {
+    "definition": "Boiler, circulating pump, small-bore pipes, radiators, expansion tank with overflow pipe, and hot-water cylinder.",
+    "term": "Parts of a wet central heating system"
+   },
+   {
+    "definition": "Cost (installation, running and maintenance), efficiency and environmental impact, and convenience and control.",
+    "term": "Three factors when choosing a heating system"
+   },
+   {
+    "definition": "Convection, by warming the air beside it, and radiation from its surface.",
+    "term": "Two ways a radiator transfers heat to a room"
+   },
+   {
+    "definition": "Brass, which expands more when heated, bonded to invar, which expands very little.",
+    "term": "Metals in the switching strip of a thermostat"
+   },
+   {
+    "definition": "Off-peak night-rate electricity, which heats the thermal blocks overnight for release during the day.",
+    "term": "Electricity used to charge storage heaters"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Heat transfer in the home",
+    "points": [
+     "Conduction: heat passes through a solid because vibrating particles pass energy to their neighbours. Metals conduct well; air, wool and polystyrene conduct poorly.",
+     "Convection: a warmed fluid becomes less dense and rises, and cooler fluid moves in to replace it, setting up a circulating current.",
+     "Radiation: heat travels as infrared waves through air without heating the air, so a warm surface heats the objects it faces, such as a bar fire or a sunlit wall.",
+     "A radiator heats a room mainly by convection, with some heat given off by radiation from its surface.",
+     "Solids, liquids and gases expand when heated, and different metals expand by different amounts."
+    ]
+   },
+   {
+    "b": "Thermal comfort is the feeling of warmth that suits a person's clothing and activity.",
+    "h": "Thermal comfort and the factors that affect it",
+    "points": [
+     "Six factors determine thermal comfort: air temperature, the temperature of surrounding surfaces, humidity, air movement, clothing and activity level.",
+     "A cold wall or single-glazed window makes a person feel cold even when the air temperature is correct, because the body loses heat by radiation to cold surfaces.",
+     "Each room needs a different temperature: living spaces need more warmth than bedrooms, and older people, babies and people who are ill need warm rooms with a steady temperature.",
+     "Insulation, draught proofing and controlled ventilation reduce heat loss and cold surfaces without creating draughts."
+    ]
+   },
+   {
+    "h": "Thermostats and how they work",
+    "points": [
+     "A thermostat is a temperature-sensing switch that turns a heat source off at a set temperature and back on as it cools.",
+     "Its working part is a bimetal strip, made of brass and invar bonded together.",
+     "Brass expands more than invar when heated, so the strip bends and breaks the electric circuit, switching the appliance off.",
+     "As the strip cools it straightens and reconnects the circuit, switching the appliance on again.",
+     "Bimetal thermostats operate kettles, irons, ovens, immersion heaters, electric blankets and refrigerators.",
+     "A boiler thermostat stops the boiler when the water reaches its target temperature and restarts it when the water falls.",
+     "A room thermostat senses air temperature and switches the heating circuit on or off to keep the room at its set level.",
+     "A thermostatic radiator valve (TRV) controls the flow of hot water into one radiator, so each room can have its own setting.",
+     "Diagram: a bimetal strip with brass on one side and invar on the other, shown curved when hot and straight when cool, with the contacts that make and break the circuit."
+    ]
+   },
+   {
+    "h": "Heating controls and energy saving",
+    "points": [
+     "A programmer (timer) switches heating and hot water on and off at preset times, such as before the family wakes and before they return home.",
+     "Timers and thermostats used together prevent heating empty rooms and overheating, so less fuel is burned.",
+     "Zoning gives each area its own timer and thermostat, so bedrooms, living spaces and unused rooms can run at different settings.",
+     "Smart controls allow a household to change heating schedules from a phone when its plans change."
+    ]
+   },
+   {
+    "h": "Heating options",
+    "points": [
+     "Full central heating: one boiler heats water that is pumped to radiators throughout the whole dwelling, and it can also supply hot water.",
+     "Partial central heating: radiators heat only some rooms, usually the main living areas.",
+     "Background heating: a low, steady level of heat is supplied to the whole house, with local heaters used for extra warmth.",
+     "Local heating: individual room heaters, such as electric fires, gas heaters or stoves, heat only the room they are in.",
+     "Storage heating (dry system): electric elements inside thermal blocks of fireclay or concrete are charged on off-peak night electricity and release heat through the day, often with an afternoon boost.",
+     "Underfloor heating: pipes or electric cables beneath the floor warm the floor, which then heats the room by radiation and convection.",
+     "Ground-source heating: pipes buried in the ground collect heat, and a heat pump raises it to a temperature suitable for heating the house.",
+     "Passive solar heating: large south-facing windows admit winter sunlight, which the walls and floors absorb and release as heat.",
+     "Active solar heating: solar collectors absorb sunlight, transfer the heat to water and store it in a cylinder."
+    ]
+   },
+   {
+    "h": "Factors in choosing a heating system",
+    "points": [
+     "Installation, running and maintenance costs must all be considered, not only the purchase price.",
+     "Fuel price and availability differ between oil, gas, solid fuel and electricity.",
+     "Energy efficiency: an efficient system uses less fuel for the same heat output, and a condensing boiler recovers heat from its flue gases.",
+     "Environmental impact: fossil fuels release carbon dioxide, while wood and solar energy are renewable sources.",
+     "Heat output must match the house: floor area, insulation, number of occupants and hot-water demand decide the size of system needed.",
+     "Family needs: households with babies, older people or illness need reliable and precise control of warmth.",
+     "Convenience and control: timers, thermostats and smart controls make a system easier to run economically.",
+     "Safety: radiator surfaces and any open flame need consideration where young children are present.",
+     "Space and appearance: boilers, tanks and radiators take up wall or floor space, while underfloor systems leave walls clear."
+    ]
+   },
+   {
+    "b": "A wet system heats water in a boiler and circulates it round a closed loop of pipes to radiators.",
+    "h": "Wet central heating: components and principle",
+    "points": [
+     "Parts: boiler, circulating pump, small-bore pipes, radiators, an expansion tank with an overflow pipe, and a hot-water cylinder that acts as a heat exchanger.",
+     "The boiler may be fired by oil, gas, electricity, solid fuel or solar energy.",
+     "Water heated in the boiler expands, becomes less dense and rises up the flow pipe to the radiators by convection.",
+     "A pump drives the water round the closed loop, so the system works in long pipe runs where natural convection would be too weak.",
+     "Each radiator warms the air beside it by convection and gives off heat from its surface by radiation.",
+     "The cooler water returns through the return pipe to the boiler to be reheated.",
+     "As water heats it expands; the expansion tank, usually in the roof space, takes up the extra water and acts as an overflow for steam and excess water.",
+     "The hot-water cylinder transfers heat from the circulating water to the stored domestic hot water.",
+     "Diagram: plan of the closed loop showing the boiler, pump, flow and return pipes, radiators, expansion tank in the roof space and hot-water cylinder, with arrows showing the direction of water flow."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Boiler thermostat (3 marks): it senses the water temperature in the boiler and switches the burner off when the target temperature is reached, restarting it as the water cools, so the boiler does not overheat or waste fuel. Room thermostat (3 marks): it senses the air temperature in the room and switches the heating circuit on or off to keep the room at the set level.",
+    "prompt": "Outline the purpose of a boiler thermostat and of a room thermostat in a wet central heating system.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Description: a wet system with a boiler fired by oil, gas, solid fuel, electricity or solar energy; a circulating pump; small-bore pipes; radiators in each room; an expansion tank with an overflow pipe; and a hot-water cylinder for domestic hot water. Principle: water heated in the boiler expands and becomes less dense, so it rises up the flow pipe by convection, while the pump drives it round a closed loop. Each radiator heats the room by convection and radiation, and the cooler water returns through the return pipe to the boiler. Controls: a programmer to set heating times, a boiler thermostat to stop the boiler at its target temperature, a room thermostat to hold the room at its set level, thermostatic radiator valves for individual rooms, and zoning so unused areas are not heated. Together these reduce wasted fuel while keeping rooms comfortable.",
+    "prompt": "Describe a wet central heating system suitable for a family home. Explain the principle by which heat is carried from the boiler to the rooms, and name the controls that help the system run efficiently.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s6": {
+  "keyTerms": [
+   {
+    "definition": "A material or method that reduces the transfer of heat through the fabric of a building.",
+    "term": "Insulation"
+   },
+   {
+    "definition": "Window glass with a thin coating that reflects radiant heat back into the room while letting light through.",
+    "term": "Low-emissivity (low-E) glazing"
+   },
+   {
+    "definition": "Two panes of glass separated by a sealed gap of air or argon, which reduces heat loss through a window.",
+    "term": "Double glazing"
+   },
+   {
+    "definition": "Sealing the gaps around doors, windows and floors to stop air leaking in and out of a room.",
+    "term": "Draught proofing"
+   },
+   {
+    "definition": "Insulating material placed in the gap between the two leaves of a cavity wall.",
+    "term": "Cavity wall insulation"
+   },
+   {
+    "definition": "Insulated plasterboard fixed to the inside face of a wall to add insulation on the room side.",
+    "term": "Internal dry lining"
+   },
+   {
+    "definition": "An insulating jacket or sleeve placed around a hot-water cylinder or pipe to reduce heat loss.",
+    "term": "Lagging"
+   },
+   {
+    "definition": "Insulating pellets, such as polystyrene or vermiculite, poured between the joists of an attic floor.",
+    "term": "Loose-fill insulation"
+   },
+   {
+    "definition": "Strips of mineral or glass fibre laid between ceiling joists or rafters to trap air and reduce heat loss.",
+    "term": "Fibre blanket"
+   },
+   {
+    "definition": "A rating from A1 to G that shows how much energy a dwelling needs to heat and run.",
+    "term": "Building Energy Rating (BER)"
+   },
+   {
+    "definition": "Attic insulation, cavity wall insulation, double or triple glazing, and floor insulation with carpet and underlay.",
+    "term": "Four methods of insulating a home"
+   },
+   {
+    "definition": "Lower fuel bills, a steadier indoor temperature, and less carbon dioxide released from burning fuel.",
+    "term": "Three advantages of a well-insulated home"
+   },
+   {
+    "definition": "Trapped air, polystyrene, fibreglass, wool and cellulose.",
+    "term": "Five poor conductors used in insulation"
+   },
+   {
+    "definition": "Argon, which conducts heat less well than air.",
+    "term": "Gas used between the panes of some double glazing"
+   },
+   {
+    "definition": "Draught excluders, sealing strips around frames, and lined curtains.",
+    "term": "Three ways to stop draughts at windows and doors"
+   },
+   {
+    "definition": "Internal dry lining and external insulation covered with reinforced render.",
+    "term": "Two wall insulation methods for a solid wall"
+   },
+   {
+    "definition": "It reflects radiant heat back into the room and lets visible light pass through.",
+    "term": "Two effects of a low-E coating on a window"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Principles of insulation",
+    "points": [
+     "Insulation slows the escape of heat from a house by reducing conduction, convection and radiation, so less fuel is needed to keep it warm.",
+     "Poor conductors such as still air, polystyrene, fibreglass, wool and cellulose trap air in small spaces, which reduces heat transfer by conduction.",
+     "Fibre and foam insulation contains air in small cells, which restricts the air movement that would otherwise carry heat by convection.",
+     "Reflective foil and low-emissivity (low-E) coatings reduce heat loss by radiation.",
+     "Draught proofing reduces heat lost through air leakage around doors, windows and floorboards."
+    ]
+   },
+   {
+    "b": "Heat rises and escapes through the roof, so the roof space is one of the most important places to insulate.",
+    "h": "Insulating the attic",
+    "points": [
+     "Fibre blanket: strips of mineral or glass fibre are laid between the ceiling joists.",
+     "Loose fill: pellets of polystyrene or vermiculite are poured between the joists.",
+     "Sprayed foam: foam is applied between the roof rafters, where it expands and sets into a solid layer.",
+     "Blown fibre: cellulose or mineral fibre is blown into the roof space to cover it evenly.",
+     "Diagram: cross-section of a roof showing the joists, the ceiling below and an insulation layer laid between the joists, with the roof space above."
+    ]
+   },
+   {
+    "h": "Insulating walls",
+    "points": [
+     "Cavity wall insulation: the gap between the inner and outer leaves of a cavity wall is filled with insulating beads, foam or mineral wool.",
+     "Internal dry lining: insulated plasterboard is fixed to the inside face of a wall, adding insulation on the room side.",
+     "External insulation: insulating boards are fixed to the outside of the wall and covered with reinforced, waterproof render.",
+     "Solid walls have no cavity, so they can only be insulated from the inside (dry lining) or the outside (external insulation).",
+     "Diagram: cross-section of a cavity wall showing the outer leaf, the insulated cavity, the inner leaf and an internal dry lining."
+    ]
+   },
+   {
+    "h": "Insulating floors, windows, doors and pipes",
+    "points": [
+     "Floors: gaps between floorboards are filled and a carpet with underlay is laid, reducing heat loss through the floor.",
+     "Double glazing: two panes are separated by a sealed gap of air or argon, a gas that conducts heat less well than air.",
+     "Triple glazing adds a third pane and a second sealed gap for further insulation.",
+     "Low-E glazing: a thin coating on the pane reflects radiant heat back into the room.",
+     "Lined, heavy curtains and secondary windows trap a layer of still air against cold glass.",
+     "Draught excluders and sealing strips around doors and windows stop air leaking in and out.",
+     "Lagging: a jacket around the hot-water cylinder and sleeves on exposed pipes reduce heat loss and help prevent pipes freezing."
+    ]
+   },
+   {
+    "h": "Advantages of a well-insulated home",
+    "points": [
+     "Lower fuel bills, because less heat escapes and the heating runs for shorter periods.",
+     "A steadier indoor temperature with fewer cold surfaces, which improves comfort.",
+     "Less noise, because insulation absorbs sound from outside and between rooms.",
+     "Less fuel burned, so lower carbon dioxide emissions and reduced reliance on fossil fuels.",
+     "Less condensation, because inner wall and window surfaces stay warm.",
+     "A higher Building Energy Rating (BER), which rates a dwelling's energy performance from A1 to G, and can increase the value of the property."
+    ]
+   },
+   {
+    "h": "Practical context: evaluating insulation in your own home",
+    "points": [
+     "Inspect the attic for the depth and coverage of insulation, and check whether joists or pipes are left uncovered.",
+     "Check doors and windows for draughts by feeling for cold air around the frames on a windy day.",
+     "Note cold rooms, cold surfaces and any signs of condensation or damp.",
+     "Recommend improvements in order of effect and cost, such as topping up attic insulation, draught proofing and lined curtains before wall insulation.",
+     "Justify each recommendation by the heat loss it reduces."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of: less heat lost through the walls, so lower fuel bills (2 marks); a steadier temperature in rooms with fewer cold walls, so more comfort (2 marks); less fuel burned, so lower carbon dioxide emissions (2 marks). Also accepted: less noise from outside and between rooms; less condensation on inner wall surfaces.",
+    "prompt": "Identify three benefits to a household of fitting cavity wall insulation to its house.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Principle: insulating materials are poor conductors of heat and trap still air in small spaces, which slows heat transfer by conduction and limits convection. Reflective coatings reduce heat loss by radiation, and draught proofing reduces air leakage. Method 1, attic: fibre blanket, loose fill, sprayed foam or blown fibre laid in or above the roof space to protect the ceiling and roof. Method 2, walls: cavity wall insulation of beads, foam or mineral wool in a cavity, or internal dry lining or external insulation with render for solid walls. Method 3, windows: double or triple glazing with a sealed air or argon gap and low-E coating, combined with lined curtains. Each method reduces the heat escaping through the area it covers, so less fuel is needed to keep the house warm.",
+    "prompt": "Explain the underlying principle by which insulation reduces heat loss from a home. Describe three methods of insulating different parts of a home, and state the area each method protects.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s7": {
+  "keyTerms": [
+   {
+    "definition": "The supply of fresh air to a room and removal of stale, moist or polluted air from it.",
+    "term": "Ventilation"
+   },
+   {
+    "definition": "Air movement through openings such as windows, vents and chimneys, driven by wind and by temperature differences.",
+    "term": "Natural ventilation"
+   },
+   {
+    "definition": "Air movement produced by a fan or powered system, such as an extractor fan or a mechanical ventilation system.",
+    "term": "Artificial ventilation"
+   },
+   {
+    "definition": "An electric fan fitted in a wall, ceiling or window that removes stale, moist air by suction.",
+    "term": "Extractor fan"
+   },
+   {
+    "definition": "A perforated brick or grille set in an external wall to let air into a room or underfloor space.",
+    "term": "Air brick"
+   },
+   {
+    "definition": "A small adjustable vent in a window frame that allows a continuous low flow of fresh air.",
+    "term": "Trickle vent"
+   },
+   {
+    "definition": "Air flowing through a room from one opening to another on the opposite side, giving a high rate of air change.",
+    "term": "Cross-ventilation"
+   },
+   {
+    "definition": "Water that forms when warm, moist air cools on a cold surface and its water vapour turns to liquid.",
+    "term": "Condensation"
+   },
+   {
+    "definition": "The amount of water vapour held in the air, which rises when cooking, bathing and drying clothes indoors.",
+    "term": "Humidity"
+   },
+   {
+    "definition": "The burning of fuel, which needs a steady supply of oxygen and produces waste gases that must be vented.",
+    "term": "Combustion"
+   },
+   {
+    "definition": "Opening windows and doors, air bricks, trickle vents in window frames, and a chimney or flue used with an open fire.",
+    "term": "Four ways air moves without a fan"
+   },
+   {
+    "definition": "It provides fresh air and removes stale air, controls humidity and temperature, and prevents condensation, mould and damp.",
+    "term": "Three advantages of good ventilation"
+   },
+   {
+    "definition": "Ducted, which expels air outside through a duct, and ductless, which filters the air and returns it to the room.",
+    "term": "Two types of cooker hood"
+   },
+   {
+    "definition": "Condensation with mould and damp, a build-up of carbon monoxide and carbon dioxide, and worsened asthma and bronchitis.",
+    "term": "Three effects of poor ventilation"
+   },
+   {
+    "definition": "Warm air rises and leaves through high outlets, and cooler air enters through low openings.",
+    "term": "Two ways warm air moves through a room with natural ventilation"
+   },
+   {
+    "definition": "In an external wall or ceiling, and in kitchens and bathrooms where moisture and smells are produced.",
+    "term": "Two places an extractor fan is commonly fitted"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why a home needs ventilation",
+    "points": [
+     "Ventilation supplies fresh air for breathing and for the combustion of fuel in open fires and gas appliances.",
+     "It removes stale, moist air and cooking smells, and it controls humidity and temperature.",
+     "It prevents condensation, mould and damp, which damage the fabric of the house and can aggravate asthma and bronchitis.",
+     "Modern airtight construction, double glazing and tight-fitting doors and windows reduce natural air flow, so artificial methods are often needed.",
+     "Fresh air should be introduced without causing a draught or lowering the room temperature."
+    ]
+   },
+   {
+    "h": "Effects of poor ventilation",
+    "points": [
+     "Stale, stuffy air with high humidity and lingering smells.",
+     "Condensation on cold surfaces such as windows, external walls and room corners, which leads to damp and mould.",
+     "Build-up of carbon monoxide from combustion appliances that are not properly vented, and of carbon dioxide, with a lower supply of oxygen.",
+     "Worsened respiratory conditions such as asthma and bronchitis.",
+     "Steam and heat collecting in kitchens, creating overheating and slippery floors.",
+     "Structural damage to walls, ceilings and window frames from persistent damp."
+    ]
+   },
+   {
+    "h": "The principle of ventilation",
+    "points": [
+     "Convection: warm air is less dense and rises to high outlets, while cooler fresh air enters through low openings, producing an exchange of air.",
+     "Suction: an extractor fan lowers the pressure inside a room, drawing out stale air, while fresh air enters through openings such as vents and gaps under doors.",
+     "Combustion appliances need a steady air supply, and a flue carries their waste gases up and out of the house."
+    ]
+   },
+   {
+    "h": "Natural ventilation methods",
+    "points": [
+     "Opening windows and doors is the simplest method; opening windows on opposite sides of a room gives cross-ventilation and the greatest air change.",
+     "Air bricks and wall vents are openings in external walls that let air into and out of a room.",
+     "Trickle vents are small adjustable vents in window frames that let fresh air in continuously at a low rate.",
+     "Chimneys and flues: an open fire draws air into the room and carries smoke up the chimney as hot gases rise.",
+     "Natural ventilation depends on the weather and the season, so it cannot be relied on to give a constant air supply.",
+     "Diagram: cross-section of a room showing warm, stale air rising out of a high vent and cooler fresh air entering through a low air brick."
+    ]
+   },
+   {
+    "h": "Artificial ventilation methods",
+    "points": [
+     "Extractor fan: an electric motor turns blades that create suction and remove stale air; shutters open when the fan runs and close when it is switched off.",
+     "Extractor fans are fitted to an external wall, the ceiling or a window, and are placed in kitchens and bathrooms where moisture and smells are produced.",
+     "Ducted cooker hood: a motor drives a fan that draws air up through grease filters and expels it outside through a duct.",
+     "Ductless cooker hood: filters trap grease and fumes, and the cleaned air is recirculated into the room.",
+     "Mechanical ventilation system: a duct system in the ceiling or floor, in which a fan blows fresh air in and removes stale air, and some systems warm the incoming air.",
+     "Diagram: an extractor fan in an external wall with shutters, and a ducted cooker hood with its duct running to the outside."
+    ]
+   },
+   {
+    "h": "Condensation",
+    "points": [
+     "Condensation forms when warm, moist air touches a cold surface and its water vapour turns to liquid.",
+     "Everyday sources of moisture are cooking, bathing, drying clothes indoors and breathing.",
+     "Effects include damp patches, mould growth on walls and ceilings, peeling paint and wallpaper, and rotting window frames.",
+     "Prevention: extractor fans in kitchens and bathrooms, lids on pots, drying clothes outdoors or in a well-ventilated room, and keeping cold surfaces warm with insulation and steady heating."
+    ]
+   },
+   {
+    "h": "Practical context: evaluating ventilation at home or in the home economics room",
+    "points": [
+     "Assess ventilation by noting smells, stuffiness, condensation on windows and any mould or damp in corners.",
+     "Check which vents, air bricks and extractor fans are present and whether they are working and unobstructed.",
+     "Recommend improvements such as an extractor fan or cooker hood over the cooker, trickle vents in windows, and keeping the kitchen door closed while cooking."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of: lingering cooking smells and stale air (2 marks); condensation on cold surfaces leading to damp and mould (2 marks); overheating and slippery floors from steam and heat that cannot escape (2 marks). Also accepted: a build-up of carbon monoxide from a gas cooker that is not properly vented.",
+    "prompt": "Outline three effects of inadequate ventilation in a kitchen.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Natural method: opening a window or using an air brick or trickle vent. Principle: convection, as warm, moist air rises and leaves through a high opening while cooler fresh air enters through a low opening, producing an exchange of air driven by temperature differences and wind. Artificial method: an extractor fan or a ducted cooker hood placed over the cooker. Principle: an electric motor turns blades that create suction, drawing steam, fumes and odours out of the room; shutters or the duct carry the air outside, and fresh air replaces it through openings. A ductless hood instead passes the air through grease and odour filters and returns it to the room.",
+    "prompt": "Recommend one natural method and one artificial method of ventilating a kitchen. For each method, name it and explain its underlying principle.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-services-s8": {
+  "keyTerms": [
+   {
+    "definition": "The bouncing back of light rays from a shiny or smooth surface.",
+    "term": "Reflection"
+   },
+   {
+    "definition": "The bending of light rays as they pass through a thick or ridged transparent material.",
+    "term": "Refraction"
+   },
+   {
+    "definition": "The scattering of light rays when they pass through a translucent material or strike a rough surface.",
+    "term": "Diffusion"
+   },
+   {
+    "definition": "The taking in of light by a dark or matt surface, which then does not reflect it.",
+    "term": "Absorption"
+   },
+   {
+    "definition": "The splitting of white light into its component colours by a prism or crystal.",
+    "term": "Dispersion"
+   },
+   {
+    "definition": "A low-energy lamp in which an electric current through mercury vapour produces ultraviolet light that a phosphor coating converts to visible light.",
+    "term": "Compact fluorescent lamp (CFL)"
+   },
+   {
+    "definition": "A semiconductor device that produces light directly from electricity with very little heat and a long life.",
+    "term": "Light-emitting diode (LED)"
+   },
+   {
+    "definition": "Overall lighting that provides a basic level of light throughout a room.",
+    "term": "General lighting"
+   },
+   {
+    "definition": "Focused lighting placed where a specific activity, such as cooking or reading, takes place.",
+    "term": "Task lighting"
+   },
+   {
+    "definition": "Lighting used to highlight a particular feature or object in a room.",
+    "term": "Accent lighting"
+   },
+   {
+    "definition": "Uncomfortable brightness from a light source or reflective surface that interferes with seeing comfortably.",
+    "term": "Glare"
+   },
+   {
+    "definition": "Reflection, refraction, diffusion, absorption and dispersion.",
+    "term": "Five properties of light"
+   },
+   {
+    "definition": "General, task and accent lighting.",
+    "term": "Three types of lighting in a planned scheme"
+   },
+   {
+    "definition": "Much lower energy use and a much longer life.",
+    "term": "Two advantages of LEDs over filament bulbs"
+   },
+   {
+    "definition": "Dimmers, timers and motion sensors.",
+    "term": "Three energy-saving lighting controls"
+   },
+   {
+    "definition": "A higher purchase price, and mercury in the tube, which means they need safe disposal.",
+    "term": "Two disadvantages of CFLs"
+   },
+   {
+    "definition": "Correct voltage, correct fuse rating, properly installed fittings, and adequate space between the bulb and the shade.",
+    "term": "Four safety points when planning lighting"
+   },
+   {
+    "definition": "LED lighting, sensor lighting, smart-controlled lighting and photovoltaic outdoor lights.",
+    "term": "Four contemporary lighting developments"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Properties of light and their application (Higher Level only)",
+    "points": [
+     "Reflection: light rays bounce back from shiny surfaces such as mirrors, glazed tiles and white ceilings, which brightens a room.",
+     "Refraction: light rays bend as they pass through thick or ridged glass, such as glass bricks, which spreads light through a room.",
+     "Diffusion: light rays scatter when they pass through translucent material such as frosted glass, net curtains or fabric shades, giving soft light.",
+     "Absorption: dark, matt surfaces take in light rather than reflecting it, so a room with dark walls appears smaller and cosier.",
+     "Dispersion: a prism or crystal splits white light into its component colours, as in a crystal chandelier."
+    ]
+   },
+   {
+    "h": "Planning a lighting system (Higher Level only)",
+    "points": [
+     "Plan the lighting at the design stage, so that outlets and fittings are positioned before construction begins.",
+     "Match the lighting to the function of the room: a kitchen needs bright task lighting at work surfaces, while a living room needs a softer mix of light.",
+     "Combine general, task and accent lighting, and use one or more focal points to set the atmosphere.",
+     "Balance natural and artificial light: the aspect of the room and the size of its windows determine how much daylight it receives.",
+     "Avoid glare by placing fittings away from the normal line of sight and by using shades that spread the light.",
+     "Allow flexibility with dimmers, timers and movable lamps so that the light can suit different activities and times of day.",
+     "Safety: use the correct voltage and fuse rating, install fittings correctly, and leave adequate space between the bulb and the shade.",
+     "Maintenance: fittings should be easy to clean, and bulbs and any replaceable parts should be easy to reach.",
+     "The colour of walls and ceilings affects the light in a room: pale colours reflect light, while dark colours absorb it."
+    ]
+   },
+   {
+    "h": "How energy-efficient lamps work (Higher Level only)",
+    "points": [
+     "A filament bulb produces light by heating a tungsten filament, and most of the energy it uses is given off as heat.",
+     "Compact fluorescent lamp (CFL): electric current passes through argon gas and mercury vapour inside a looped glass tube, producing ultraviolet light.",
+     "A phosphor coating on the inside of the CFL tube converts the ultraviolet light into visible light.",
+     "CFLs use much less energy and last much longer than filament bulbs, but they cost more to buy and contain mercury, so they must be disposed of safely.",
+     "Light-emitting diode (LED): light is produced when electrons combine with gaps called holes in a semiconductor, and the colour depends on the semiconductor material.",
+     "LEDs use far less electricity than filament bulbs, start instantly, give off little heat and have a very long life.",
+     "Energy-saving use: dimmers, timers, motion sensors and switching off unneeded lights reduce the energy used by any lamp."
+    ]
+   },
+   {
+    "h": "Contemporary lighting developments (Higher Level only)",
+    "points": [
+     "LED strips, bulbs and compact fittings are available in different colour temperatures and can be fitted into small or awkward spaces.",
+     "Sensor or motion-activated lighting switches on only when movement is detected, saving energy in halls, stairs and outdoor areas.",
+     "Smart lighting can be controlled from a phone or voice assistant to set schedules, dim the lights or change their colour.",
+     "Colour-changing LEDs and LED rope lighting create ambience and can be used as accent lighting.",
+     "Photovoltaic outdoor lights use a solar panel to charge a battery during the day and light up at night.",
+     "Dimmable LEDs need a compatible dimmer, and cheap LED lamps may flicker or give poor colour rendering."
+    ]
+   },
+   {
+    "h": "Types of lighting fitting by function (Higher Level only)",
+    "points": [
+     "General lighting: central ceiling fittings such as semi-flush and flush fittings, pendants, chandeliers and rise-and-fall fittings.",
+     "Task lighting: under-cabinet lights, desk lamps and recessed downlights that light a specific activity.",
+     "Accent lighting: picture lights, wall brackets, track lights and spotlights that highlight a feature."
+    ]
+   },
+   {
+    "h": "Practical context: investigating contemporary lighting (Higher Level only)",
+    "points": [
+     "Collect examples of contemporary lighting from magazines, brochures and shop visits, and record the type of fitting and its lamp, such as LED or CFL.",
+     "For each example, note whether it provides general, task or accent lighting, and what its packaging states about brightness and colour temperature.",
+     "Evaluate each example for energy efficiency, safety, maintenance and suitability for a named room."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of: reflection, with light bouncing off a mirror or glazed tile (2 marks); refraction, with light bending through a glass brick or thick glass (2 marks); diffusion, with light scattered through frosted glass or a translucent shade (2 marks). Also accepted: absorption by dark matt walls, and dispersion through a crystal chandelier.",
+    "prompt": "Name three properties of light and give an example, from the home, of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Principles: use the room's natural light and aspect; match the lighting to each function, with task lighting over work surfaces and a softer general or accent light for dining; combine general, task and accent lighting around a focal point; avoid glare by careful positioning and shades; allow flexibility with dimmers and timers; ensure safety through correct voltage, fuse rating and fittings; choose fittings that are easy to clean and maintain; consider energy efficiency and the look of the fittings. Source 1, LED: a semiconductor produces light when electrons combine with holes, giving light directly from electricity with little heat and a long life, suitable for recessed, under-cabinet or pendant fittings. Source 2, CFL: current through argon and mercury vapour produces ultraviolet light, and a phosphor coating converts it to visible light; it uses much less energy than a filament bulb but contains mercury and needs safe disposal.",
+    "prompt": "Discuss the principles to consider when planning a lighting system for a kitchen and dining area in a family home. Recommend two energy-efficient light sources for the room, explaining the underlying principle of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s1": {
+  "keyTerms": [
+   {
+    "definition": "Influences on housing choice that relate to a household's income, employment, size and stage of family life.",
+    "term": "Socio-economic factors"
+   },
+   {
+    "definition": "The supply of suitable homes at a given time and place, which limits what a household can choose.",
+    "term": "Availability"
+   },
+   {
+    "definition": "The right to remain in a home without being asked to leave, enjoyed by an owner-occupier and protected for tenants by law.",
+    "term": "Security of tenure"
+   },
+   {
+    "definition": "Rent paid to a landlord that gives the tenant no return or ownership of the property.",
+    "term": "Dead money"
+   },
+   {
+    "definition": "A housing development supported by shops, schools, transport, amenities and infrastructure that allow residents to live and work locally.",
+    "term": "Sustainable community"
+   },
+   {
+    "definition": "Housing built at a greater number of homes per hectare, typically through apartments and terraced houses in urban areas.",
+    "term": "High-density development"
+   },
+   {
+    "definition": "Homes let by private landlords and businesses to tenants at market rents.",
+    "term": "Private rented sector"
+   },
+   {
+    "definition": "A home designed to high energy efficiency standards, often with renewable energy and sustainable materials.",
+    "term": "Eco-house"
+   },
+   {
+    "definition": "Cost, location and the size of the household. Personal preference and availability are also important.",
+    "term": "Three factors that influence housing choice"
+   },
+   {
+    "definition": "Sustainable communities with amenities; social and affordable housing; energy-efficient homes; supports to alleviate homelessness.",
+    "term": "Four features of national housing policy"
+   },
+   {
+    "definition": "The home may rise in value as an investment; the owner has security of tenure; the owner can design, alter and choose how to use the home.",
+    "term": "Three advantages of buying a home"
+   },
+   {
+    "definition": "Rent gives no return; agency fees, deposit and advance rent add to costs; the tenant must insure the contents.",
+    "term": "Three disadvantages of renting a home"
+   },
+   {
+    "definition": "Families with children, who need schools and childcare; older people, who need shops and health services; commuters, who need public transport.",
+    "term": "Groups that rely on local schools, shops and transport"
+   },
+   {
+    "definition": "Minimum physical standards for rented accommodation require structural soundness, safe services and adequate ventilation, lighting and water.",
+    "term": "Why a landlord must maintain a rented home"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A household chooses a home by weighing what it needs and can afford against what is available in the place it wants to live.",
+    "h": "Factors that shape housing choice",
+    "points": [
+     "Socio-economic factors include income, employment, household size and the stage of the family life cycle, such as young children, teenagers or an older couple whose children have left home.",
+     "Cost decides the size, type and location of home a household can afford; the deposit and running costs matter as much as the purchase price or rent.",
+     "Location is shaped by proximity to work, schools, shops, childcare, public transport, health services and family or friends.",
+     "Personal preference covers layout, aspect, view, garden size and whether the household wants to own or rent.",
+     "Special needs, such as those of older people or people with a disability, may call for single-storey living, step-free access or a stairlift.",
+     "Availability, meaning the supply of suitable homes at a given time and place, limits choice; in some urban areas private supply is short and social housing waiting lists are long.",
+     "Setting: a case study of a student, a young couple or a retired couple, asking which of these factors matters most to them."
+    ]
+   },
+   {
+    "h": "Trends in housing development",
+    "points": [
+     "Mixed house types are planned together in new estates, combining detached, semi-detached, terraced and apartment units.",
+     "New developments include shared open space, play areas and local shops, and some estates are gated.",
+     "Refurbishment and inner-city redevelopment bring vacant or derelict buildings back into residential use.",
+     "Apartment living and higher-density development grow in cities, using less land per household.",
+     "Eco-houses, built to high energy efficiency standards with renewable heating, are an emerging development trend.",
+     "Demand for housing in a particular area is driven by employment growth, which pulls people towards commuter towns and cities."
+    ]
+   },
+   {
+    "b": "The current national plan is Delivering Homes, Building Communities 2025 to 2030. It sets the government's direction for housing supply, sustainability and support for households.",
+    "h": "Irish national housing policy",
+    "points": [
+     "Sustainable communities: new housing should be supported by shops, schools, transport, parks and other infrastructure.",
+     "Social and affordable housing is a core element, delivered by local authorities, approved housing bodies and voluntary and co-operative housing organisations.",
+     "Energy-efficient homes are promoted through building standards, BER ratings and grants for upgrading existing homes.",
+     "Protection of listed buildings and the natural environment, with grants available to help retain listed buildings.",
+     "Supports to alleviate homelessness, and specific accommodation for Travellers.",
+     "Rent supports for tenants, and registration of rented accommodation so that rented homes are on a register.",
+     "Higher-density living and increased housing supply in urban areas, with the aim of making more homes available at affordable cost."
+    ]
+   },
+   {
+    "h": "Buying a home: advantages and disadvantages",
+    "points": [
+     "Advantage: a home may rise in value, so it can act as an investment.",
+     "Advantage: security of tenure, because an owner cannot be asked to leave by a landlord.",
+     "Advantage: freedom to choose the design and type of home, to alter it, and to decide whether to share it with others.",
+     "Advantage: mortgage repayments may cost less than rent over the long term, and grants may apply to some purchases.",
+     "Disadvantage: a large deposit and a long financial commitment are needed before the purchase can be completed.",
+     "Disadvantage: legal, lending, survey and stamp duty fees add to the initial cost.",
+     "Disadvantage: the owner pays for all maintenance and repairs, including property tax where it applies.",
+     "Disadvantage: the value may fall, leaving the owner owing more than the home is worth.",
+     "Disadvantage: buying ties the household to one location, so moving is slow and expensive."
+    ]
+   },
+   {
+    "h": "Renting a home: advantages and disadvantages",
+    "points": [
+     "Advantage: little capital is needed, usually only a deposit and rent paid in advance.",
+     "Advantage: mobility, so a household can move when work or family circumstances change.",
+     "Advantage: the landlord is normally responsible for structural repairs and maintenance.",
+     "Advantage: a wider choice of accommodation, from apartments and houses to shared houses and digs.",
+     "Advantage: tenants have legal protections, including notice periods before a tenancy can be ended.",
+     "Disadvantage: rent paid gives no return, often described as dead money.",
+     "Disadvantage: agency fees, a deposit and rent in advance add to the initial cost.",
+     "Disadvantage: the tenant must insure the contents of the home.",
+     "Disadvantage: facilities may be poor or shared, and the tenant has no say over changes to the property."
+    ]
+   },
+   {
+    "h": "The private rented sector",
+    "points": [
+     "Private rented housing is provided by individual landlords and businesses; rent depends on demand and supply, location, size, quality and amenities.",
+     "Minimum physical standards apply: the property must be structurally sound, with safe gas and electricity supplies and good repair.",
+     "Every room must have adequate ventilation and lighting, and hot and cold water must be provided.",
+     "Bathrooms and showers must be in good working order and kept in a proper state of repair.",
+     "Landlords must register rented accommodation, which helps the state track rented housing and its standards.",
+     "Private renting is popular with students, young workers and people who are saving for a deposit to buy a home."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Advantages: little capital is needed, only a deposit and rent in advance; mobility to move when circumstances change; the landlord is normally responsible for structural repairs and maintenance; a wider choice of accommodation. Disadvantages: rent gives no return; agency fees, deposit and advance rent add to costs; the tenant must insure the contents; facilities may be poor or shared.",
+    "prompt": "State two advantages and two disadvantages of a family renting a home.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Socio-economic factors: income and employment affect what can be afforded; household size and the stage of the family life cycle determine the number of rooms needed; children's schooling and older people's needs affect the choice. Cost: purchase price, deposit and running costs decide the size, type and location of home. Location: proximity to work, schools, shops, childcare, transport and family. Personal preference: layout, aspect, garden, and whether to own or rent. Special needs: single-storey living or step-free access for people with a disability or older people. Availability: the supply of suitable homes in the area, with long waiting lists for social housing in some places. Policy: sustainable communities supported by amenities and infrastructure; social and affordable housing provided by local authorities, approved housing bodies and co-operatives; energy-efficient homes; rent supports and registration of rented accommodation; supports for people experiencing homelessness; higher-density living in urban areas to increase supply.",
+    "prompt": "Discuss the factors that influence a household's choice of housing, and comment on how national housing policy aims to meet the housing needs of households.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s2": {
+  "keyTerms": [
+   {
+    "definition": "The part of the purchase price paid by the buyer from their own funds, with the lender providing the rest.",
+    "term": "Deposit"
+   },
+   {
+    "definition": "A loan to buy property, secured on the property, which the lender can repossess if repayments are not made.",
+    "term": "Mortgage"
+   },
+   {
+    "definition": "A life assurance policy that pays off the outstanding mortgage if the borrower dies during the loan term.",
+    "term": "Mortgage protection policy"
+   },
+   {
+    "definition": "A borrower's total income before tax and deductions, used by lenders to set the maximum loan.",
+    "term": "Gross income"
+   },
+   {
+    "definition": "A repayment mortgage in which each repayment covers interest and part of the capital, so the debt reduces over the term.",
+    "term": "Annuity mortgage"
+   },
+   {
+    "definition": "A mortgage in which the borrower pays interest on the loan and a premium on a life assurance policy that is intended to repay the loan at maturity.",
+    "term": "Endowment mortgage"
+   },
+   {
+    "definition": "A mortgage whose interest rate moves in line with a published benchmark rate, plus a fixed margin.",
+    "term": "Tracker mortgage"
+   },
+   {
+    "definition": "An interest rate that changes with market rates, so the borrower's repayments can rise or fall.",
+    "term": "Variable interest rate"
+   },
+   {
+    "definition": "A credit agreement in which goods are paid for in instalments, with ownership passing only after the final payment.",
+    "term": "Hire purchase"
+   },
+   {
+    "definition": "The total yearly cost of credit, expressed as a percentage, which must be disclosed to the borrower.",
+    "term": "Annual percentage rate of charge"
+   },
+   {
+    "definition": "Secure employment and proof of income; good credit history and saving; a loan within the borrowing limit; a property in good condition.",
+    "term": "Four conditions for mortgage approval"
+   },
+   {
+    "definition": "Fixed, variable and a combination of the two.",
+    "term": "Three types of mortgage interest rate"
+   },
+   {
+    "definition": "Each repayment is split between interest and capital; the amount owed declines over the term.",
+    "term": "Two features of a repayment mortgage"
+   },
+   {
+    "definition": "The lender receives the outstanding loan balance from the policy, so the family is not left with the debt.",
+    "term": "Who benefits if the borrower dies during the mortgage term"
+   },
+   {
+    "definition": "Solicitor's and legal fees; stamp duty; the valuation and survey carried out for the lender.",
+    "term": "Three costs in addition to the purchase price"
+   },
+   {
+    "definition": "Goods are paid for by instalments; ownership passes only when the final instalment is paid.",
+    "term": "Two features of buying goods on instalment credit"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The amount a buyer must borrow is the purchase price minus the deposit, plus the other costs of buying.",
+    "h": "Finance needed to buy a home (Higher Level only)",
+    "points": [
+     "Factors that determine the amount required: the purchase price, the size and location of the house, and the buyer's savings.",
+     "Additional costs of buying include solicitor's fees, stamp duty, the valuation and survey carried out for the lender, and any fitting-out costs.",
+     "A deposit is the buyer's own money paid towards the purchase price; the lender supplies the balance as a mortgage.",
+     "Sources of finance: the buyer's savings, a mortgage from a bank, building society or other lending institution, a credit union loan, or help from parents or family.",
+     "A mortgage is a loan secured on the house itself, so the lender can repossess the property if repayments are not made."
+    ]
+   },
+   {
+    "b": "A lending institution assesses whether the applicant can repay the loan and whether the property is a suitable security for it.",
+    "h": "Conditions attached to mortgage approval (Higher Level only)",
+    "points": [
+     "Borrowing limit: the loan is capped at a set multiple of the applicant's gross income.",
+     "Loan-to-value limit: the loan cannot exceed a set share of the property's value, so the buyer must provide the balance as a deposit.",
+     "Secure employment: the applicant must be in stable work so that repayments can be met over the term.",
+     "Proof of income: payslips, a P60 and bank statements show the lender what the applicant earns.",
+     "Good credit history: evidence of steady saving and reasonable spending, with no record of missed repayments.",
+     "Term of the loan: repayments are spread over a long period, but an older applicant is usually offered a shorter term so the loan ends before retirement.",
+     "Property condition: the lender surveys the house, and it must be in good condition before the loan is released."
+    ]
+   },
+   {
+    "b": "A mortgage protection policy is a life assurance policy that protects the lender's loan and the borrower's family if the borrower dies during the term.",
+    "h": "Mortgage protection (Higher Level only)",
+    "points": [
+     "The policy pays off the outstanding mortgage balance if the borrower dies during the term of the loan.",
+     "Without cover, the remaining debt would fall on the borrower's family, who could be forced to sell the home.",
+     "Annuity and pension-linked mortgages require a mortgage protection policy to be taken out with the loan.",
+     "An endowment mortgage does not need a separate protection policy, because its life assurance policy already covers the loan."
+    ]
+   },
+   {
+    "h": "Types of mortgage (Higher Level only)",
+    "points": [
+     "Annuity (repayment) mortgage: each repayment pays part of the interest and part of the capital borrowed, so the amount owed falls over time. It is the most common type.",
+     "Endowment mortgage: the borrower pays interest on the loan and a premium on a life assurance policy designed to repay the loan when it matures, though the policy yield may not fully cover the loan.",
+     "Pension-linked mortgage: interest is paid on the loan and a sum is paid into a pension scheme, and the loan is repaid from the pension fund on retirement; popular with self-employed people because of tax relief on pension contributions.",
+     "Tracker mortgage: the interest rate follows a published benchmark rate, usually the European Central Bank rate, plus a fixed margin.",
+     "Interest-only mortgage: the borrower pays only the interest for a period, and the capital is still owed at the end of that period.",
+     "Current account (offset) mortgage: savings held in a linked current account reduce the balance on which interest is charged."
+    ]
+   },
+   {
+    "h": "Interest rates and repayments (Higher Level only)",
+    "points": [
+     "A fixed rate stays the same for a set number of years, so repayments are constant during that period and protected from rises.",
+     "A variable rate moves with market interest rates, so repayments rise when rates rise and fall when rates fall.",
+     "A combination mortgage divides the loan between a fixed portion and a variable portion.",
+     "A fixed rate is usually higher than the variable rate at the start, because the lender takes on the risk of rate changes.",
+     "A shorter loan term means higher repayments but less interest paid in total."
+    ]
+   },
+   {
+    "h": "Hire purchase (Higher Level only)",
+    "points": [
+     "Hire purchase is a way of buying goods such as furniture or appliances by paying in instalments.",
+     "The buyer does not own the goods until the final instalment is paid.",
+     "Hire purchase agreements are governed by the Consumer Credit Act 1995, as amended.",
+     "The annual percentage rate of charge must be disclosed to the consumer before the agreement is signed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A tracker mortgage has an interest rate that follows a published benchmark rate, usually the European Central Bank rate, plus a fixed margin. When the benchmark rate rises, the interest rate and repayments rise; when it falls, they fall. The repayments therefore vary over the term, and the borrower carries the risk of rate increases.",
+    "prompt": "Explain what a tracker mortgage is and how its repayments change over the loan term.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Borrowing limit: the loan is set as a multiple of gross income. Loan-to-value: the loan is limited to a share of the property's value, so the buyer must provide a deposit. Secure employment and proof of income: payslips and a P60 show the applicant can meet repayments. Good credit history and regular saving show sound financial management. Term of the loan: long repayment periods, with shorter terms for older applicants. Property condition: the house is surveyed and must be in good condition as security. Mortgage protection policy: a life assurance policy that pays off the outstanding balance if the borrower dies during the term, so that the family is not left with the debt and the lender is repaid. It is required with annuity and pension-linked mortgages, while an endowment mortgage's life policy serves the same purpose.",
+    "prompt": "Discuss the conditions a lending institution is likely to set before approving a mortgage, and explain the purpose of a mortgage protection policy.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s3": {
+  "keyTerms": [
+   {
+    "definition": "A roof covering of reeds, straw or hay, used on rural cottages in nineteenth-century Ireland.",
+    "term": "Thatch"
+   },
+   {
+    "definition": "A door divided horizontally so that the top half can be opened separately, common on rural cottages.",
+    "term": "Half-door"
+   },
+   {
+    "definition": "A row of town houses of two to four storeys, with basements and high ceilings, built in Irish towns in the eighteenth and early nineteenth centuries.",
+    "term": "Georgian terrace"
+   },
+   {
+    "definition": "A large house or building divided into rooms or flats, each let to a separate family, common in Irish towns in the nineteenth century.",
+    "term": "Tenement"
+   },
+   {
+    "definition": "The extension of mains electricity to rural homes, which in Ireland was carried out mainly in the 1950s.",
+    "term": "Rural electrification"
+   },
+   {
+    "definition": "A single-storey house with rooms built into the roof space behind dormer windows.",
+    "term": "Dormer bungalow"
+   },
+   {
+    "definition": "The direction a house or room faces, which determines how much daylight and solar heat it receives.",
+    "term": "Aspect"
+   },
+   {
+    "definition": "A modern style that uses the proportions and symmetry of Georgian houses in new construction.",
+    "term": "Neo-Georgian"
+   },
+   {
+    "definition": "The repair of an older building to its original character, often supported by grants for listed or traditional buildings.",
+    "term": "Restoration"
+   },
+   {
+    "definition": "Single-storey construction; a thatched roof; an open hearth used for cooking and heating.",
+    "term": "Three features of a nineteenth-century rural cottage"
+   },
+   {
+    "definition": "Social, cultural, economic and environmental factors.",
+    "term": "Four categories of factors influencing housing style"
+   },
+   {
+    "definition": "Rural electrification and government housing grants.",
+    "term": "Two causes of change in rural housing in the mid-twentieth century"
+   },
+   {
+    "definition": "They were divided and let to poorer families as wealthier residents moved to suburban terraced houses.",
+    "term": "Late nineteenth-century use of Georgian town houses"
+   },
+   {
+    "definition": "No stairs to climb; step-free access that is easier to adapt; a compact layout that is simpler to heat and maintain.",
+    "term": "Three benefits of a bungalow for older people"
+   },
+   {
+    "definition": "Two to four storeys with basements; high ceilings and prominent doorways.",
+    "term": "Two features of a Georgian town house"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Early nineteenth-century housing in Ireland reflected the materials available locally and the wealth of each household.",
+    "h": "Rural housing in the nineteenth century (Higher Level only)",
+    "points": [
+     "Labourers and small farmers lived in single-storey thatched cottages with stone or mud walls, a half-door and a small number of windows.",
+     "Thatch was made of reeds, straw or hay, and an open hearth in the main room was used for both cooking and heating.",
+     "Some cottages had a loft directly under the thatch, reached by a ladder, where children slept.",
+     "Prosperous farmers lived in two-storey, slate-roofed houses with several bedrooms and a parlour.",
+     "Wealthy landowners lived in large estate houses, with servants' quarters generally in the basement.",
+     "Diagram: a thatched cottage in cross-section, showing the thatched roof, the loft reached by ladder, the open hearth and the half-door."
+    ]
+   },
+   {
+    "h": "Urban and late nineteenth-century housing (Higher Level only)",
+    "points": [
+     "Georgian terraces in towns were two, three or four storeys high, with basements and high ceilings.",
+     "Workers lived in small single-storey cottages or in crowded tenements, and shopkeepers often lived above their shops.",
+     "Improved transport in the later nineteenth century brought a greater variety of building materials, and houses became more ornate in Gothic and Tudor styles.",
+     "Two-storey, slate-roofed stone buildings became the most common rural dwelling by the end of the century.",
+     "As wealthier families moved to suburban terraced houses, many large Georgian houses in towns were divided and rented to poorer families."
+    ]
+   },
+   {
+    "h": "Housing in the early twentieth century (Higher Level only)",
+    "points": [
+     "Detached and semi-detached houses appeared, along with council housing and new housing estates.",
+     "Brick with plaster walls replaced stone, and tiles replaced slates; two-storey houses were built where land was expensive.",
+     "Rural electrification in the 1950s changed rural homes, and government housing grants funded improvements to rural houses.",
+     "The slate-roofed bungalow gradually replaced the thatched cottage in rural Ireland."
+    ]
+   },
+   {
+    "h": "Housing in the late twentieth and twenty-first centuries (Higher Level only)",
+    "points": [
+     "Late twentieth-century private estates were built to a common design, while individual private houses varied between classical and modern styles.",
+     "Building regulations greatly improved housing standards, and new materials such as double glazing, PVC and fibreglass came into use.",
+     "Twenty-first-century estates usually consist of one style but include single-storey detached, dormer and two-storey semi-detached houses.",
+     "Old dilapidated buildings and thatched cottages are restored, and custom-designed houses are built on private sites.",
+     "Attic space is converted into rooms with Velux roof windows, and conservatories and sunroom extensions are added to many houses."
+    ]
+   },
+   {
+    "h": "Popular housing styles in Ireland today",
+    "points": [
+     "Bungalows are single-storey and suit older people and rural sites; the dormer bungalow adds rooms in the roof space.",
+     "Two-storey detached houses suit large families and sites with space for a garden.",
+     "Semi-detached and terraced houses make efficient use of land; a terraced house loses less heat than a detached house because it shares walls with its neighbours.",
+     "Apartments save space and maintenance, suit first-time buyers, downsizers and city living, and are usually in secure complexes.",
+     "Townhouses are multi-storey homes built on small urban sites, with limited outdoor space.",
+     "Traditional, neo-Georgian and restored houses offer proportion and character, while modern minimalist homes are bright and easy to care for.",
+     "Old cottages are kept for holiday and local use in tourist areas."
+    ]
+   },
+   {
+    "h": "Factors influencing the choice of housing style",
+    "points": [
+     "Social factors: family size, children's ages, special needs or disability, and whether the household wants a garden or office space.",
+     "Cultural factors: personal taste and aesthetics, and regional building traditions such as local stone or slate that shape the look of rural houses.",
+     "Economic factors: income and money available, the cost of land, and the resale value and investment potential of the style.",
+     "Environmental factors: aspect, so that south-facing rooms gain daylight and solar heat; exposure to wind and rain; and energy efficiency through insulation and glazing.",
+     "Environmental factors: the style must fit the surrounding landscape and neighbouring buildings, and planning rules control scale and materials in many areas.",
+     "Setting: a school visit to houses from different periods, or photographs of house styles used to discuss their suitability to their surroundings."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Single-storey thatched cottage with stone or mud walls and few windows; a half-door; an open hearth used for cooking and heating; a loft under the thatch reached by a ladder, where children slept. Wealthier farmers had two-storey slated houses; landowners had estate houses.",
+    "prompt": "Describe the main features of a typical rural house in Ireland in the early nineteenth century.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Social factors: family size and the number of bedrooms needed; children's ages and the need for a garden; older people or people with a disability may need a single-storey bungalow or step-free access; a single person or couple may prefer an apartment near work, amenities and transport; privacy and the wish to live close to neighbours. Economic factors: income and the money available for a deposit or building; the cost of land, which pushes urban development towards apartments and two-storey houses; running costs, with terraced and semi-detached houses cheaper to heat than detached ones; resale value and investment potential of the chosen style. Each factor should be linked to the specific style: the bungalow suits older people on a larger rural site, the semi-detached house suits a growing family in a suburb, and the apartment suits first-time buyers and downsizers in a city.",
+    "prompt": "Explain how social and economic factors influence a household's choice between a bungalow, a semi-detached house and an apartment.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s4": {
+  "keyTerms": [
+   {
+    "definition": "Housing provided at subsidised rents or costs for households in need, through local authorities, approved housing bodies or co-operatives.",
+    "term": "Social housing"
+   },
+   {
+    "definition": "A household that owns the home it lives in and is paying off a mortgage on it or has paid it off.",
+    "term": "Owner-occupier"
+   },
+   {
+    "definition": "Housing built and managed by a group of members who pool their resources to share the costs of site, builder and professional services.",
+    "term": "Co-operative housing"
+   },
+   {
+    "definition": "A scheme, such as First Home, in which the State and lenders own a share of a new home alongside the buyer, who can buy out that share later.",
+    "term": "Shared equity"
+   },
+   {
+    "definition": "A situation in which a household cannot afford to heat its home adequately, often because of poor insulation or outdated heating.",
+    "term": "Fuel poverty"
+   },
+   {
+    "definition": "The extent to which housing supply meets the needs of different groups in terms of affordability, suitability, accessibility and location.",
+    "term": "Adequacy of provision"
+   },
+   {
+    "definition": "Temporary shelter, such as a hostel or emergency bed and breakfast, provided to people who have no home.",
+    "term": "Emergency accommodation"
+   },
+   {
+    "definition": "Facilities such as schools, shops, transport, parks and healthcare that make a housing development a place to live.",
+    "term": "Amenities"
+   },
+   {
+    "definition": "A non-profit body approved to provide social housing, often for particular groups such as older people or people with disabilities.",
+    "term": "Approved housing body"
+   },
+   {
+    "definition": "More bedrooms and storage; a safe enclosed garden for young children; space for a car or sports equipment.",
+    "term": "Three ways a family's housing needs differ from a single person's"
+   },
+   {
+    "definition": "Ramps for wheelchair or walking-aid users; lowered switches and sockets; flashing visual alarms; an accessible bathroom.",
+    "term": "Four home adjustments for people with disabilities"
+   },
+   {
+    "definition": "Local authority housing; voluntary housing provided by approved housing bodies; co-operative housing built by a group of members.",
+    "term": "Three providers of subsidised homes"
+   },
+   {
+    "definition": "Schools and childcare; shops and services; public transport; play areas and parks.",
+    "term": "Four facilities a new housing development should provide"
+   },
+   {
+    "definition": "Poor insulation and draughts; outdated or inefficient heating systems.",
+    "term": "Two reasons older housing can be costly to heat"
+   },
+   {
+    "definition": "Rent-assisted private accommodation, leading on to a permanent home.",
+    "term": "Stage of homelessness support that follows emergency shelter"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Each household group needs a different combination of space, location, access and services.",
+    "h": "Housing requirements of different groups",
+    "points": [
+     "Families need enough bedrooms for every member, adequate storage, a well-equipped and ventilated kitchen, and a living room for relaxing and watching television.",
+     "Families with young children need a safe, enclosed back garden; families with a car or sports equipment may need a garage or shed.",
+     "Single people usually need smaller, affordable accommodation close to work, college or public transport, with space for study.",
+     "Older people need single-storey living or a stairlift, level entrances, a home that is warm and easy to heat, and nearness to shops, health services and community facilities.",
+     "People with disabilities need adjustments that depend on the disability: ramps for wheelchair or walking-aid users, lowered switches and sockets, flashing lights linked to doorbells and alarms for people with a hearing disability, and an accessible bathroom.",
+     "Homeless people need emergency shelter in hostels or emergency bed and breakfast accommodation, followed by rent-assisted private accommodation and then a permanent home."
+    ]
+   },
+   {
+    "h": "Social housing provision",
+    "points": [
+     "Local authority housing is rented housing allocated by need, with priority given to households unable to house themselves.",
+     "Allocation by local authorities considers household size, income, current accommodation, age and disability, and families, people with disabilities and older people are often given priority.",
+     "Voluntary housing is provided by approved housing bodies and voluntary organisations, often for specific groups such as older people, people with disabilities or homeless people.",
+     "Co-operative housing is built by a group of members who pool the costs of the site, builder and solicitor, and a local authority may provide a low-cost site for a co-operative whose members are on its waiting list.",
+     "Shared equity and affordable purchase: under the First Home scheme the State and participating lenders take an equity share in a new home, which the buyer can buy out later; local authorities also sell affordable homes below market price.",
+     "Demand for social housing exceeds supply, so applicants can wait for a number of years for a home."
+    ]
+   },
+   {
+    "h": "Distribution of housing (Higher Level only)",
+    "points": [
+     "Owner-occupation is the largest tenure in Ireland, followed by private renting and social housing.",
+     "Urban areas have higher density, more apartments and greater demand, while rural areas have one-off houses and, in some places, vacant homes.",
+     "Private housing is built by developers and sold or let on the open market; social housing is built and allocated by local authorities and approved housing bodies.",
+     "Strong demand in cities and commuter areas pushes up prices and rents, while some rural areas have vacant housing but fewer jobs and services."
+    ]
+   },
+   {
+    "h": "Quality of accommodation and comparative costs (Higher Level only)",
+    "points": [
+     "A BER certificate rates a home's energy efficiency from A, the most efficient, to G, the least efficient.",
+     "Older housing stock is often poorly insulated and costly to heat, which can cause fuel poverty.",
+     "Damp, poor ventilation and inadequate lighting reduce the quality of accommodation and can affect health.",
+     "Buying involves a deposit, mortgage repayments and maintenance, and builds equity; renting involves rent with no return but lower upfront costs.",
+     "In high-demand urban areas, rent can be as high as, or higher than, mortgage repayments, but buying requires a deposit that many people cannot save.",
+     "Rural homes are often cheaper to buy than urban ones, but residents may have to travel further to reach schools, shops and jobs."
+    ]
+   },
+   {
+    "h": "Adequacy of housing provision (Higher Level only)",
+    "points": [
+     "Adequacy means more than the number of dwellings: housing must be affordable, secure, suitable, accessible and near employment, transport, schools, healthcare and shops.",
+     "Low-income families, lone parents, homeless people, older people and people with disabilities may not get housing suited to their needs.",
+     "Emergency accommodation does not offer the stability of a permanent home.",
+     "Local authority building, voluntary and co-operative schemes increase supply, and adaptation grants help particular groups to stay in their homes.",
+     "Renovating vacant property and planning mixed, serviced developments are further ways to improve adequacy."
+    ]
+   },
+   {
+    "h": "Local amenities and services",
+    "points": [
+     "Schools, childcare and playgrounds serve children and reduce long journeys for families.",
+     "Shops, post offices, banks and community centres provide necessities and social contact.",
+     "Public transport gives access to employment and services; a development without transport isolates its residents.",
+     "Parks, sports grounds and play areas promote exercise, leisure and community interaction.",
+     "Street lighting improves safety, and regular refuse collection keeps the area hygienic.",
+     "Accessible healthcare, pharmacies and services for older people or people with disabilities support independence.",
+     "Setting: a group housing study of a local area such as a townland, village or housing estate, recording which amenities are present and which are missing."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Single-storey living or a stairlift, so that the person can reach all rooms safely without climbing stairs; level or ramped entrances and step-free access; a home that is warm and easy to heat, with good insulation; a location close to shops, health services and public transport. Any two features, each named and described, earn the marks.",
+    "prompt": "Name and describe two features a home should have to meet the needs of an older person living alone.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Adequacy means affordable, secure, suitable, accessible and well located housing. Families: adequate space, bedrooms and storage, and safe outdoor space; provision is limited in cities where large family homes are scarce and expensive. Single people: smaller, affordable accommodation such as apartments and private rented homes is available in urban areas, but rents are high and shared accommodation can be poor quality. Homeless people: emergency accommodation such as hostels and emergency bed and breakfast provides shelter but not the stability of a home; move-on supports such as rent-assisted private accommodation help some people, but long social housing waiting lists and the limited supply of permanent homes leave many in emergency accommodation. Overall distribution: strong demand in cities and commuter areas and vacancy in some rural areas; social provision by local authorities, approved housing bodies and co-operatives helps, but supply does not meet demand. Quality: older stock is costly to heat and may be damp, so some homes are not adequate. A balanced evaluation should reach a conclusion on which groups are best and worst served.",
+    "prompt": "Evaluate the adequacy of housing provision in Ireland today for families, single people and homeless people.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s5": {
+  "keyTerms": [
+   {
+    "definition": "Approval from the local authority that is required before most house building or extension work may begin.",
+    "term": "Planning permission"
+   },
+   {
+    "definition": "A preliminary approval, based on a site map, which shows whether the planning authority agrees in principle to a development.",
+    "term": "Outline planning permission"
+   },
+   {
+    "definition": "Approval given on detailed plans, drawings and specifications, after public notice and consideration of objections.",
+    "term": "Full planning permission"
+   },
+   {
+    "definition": "A notice displayed on the proposed site to inform the public that a planning application has been made.",
+    "term": "Site notice"
+   },
+   {
+    "definition": "The public record kept by the local authority of planning applications, which members of the public may inspect.",
+    "term": "Planning register"
+   },
+   {
+    "definition": "The direction a site or house faces, which determines the daylight and solar heat it receives.",
+    "term": "Aspect"
+   },
+   {
+    "definition": "A professional who surveys a site or building, identifies problems and recommends solutions.",
+    "term": "Surveyor"
+   },
+   {
+    "definition": "Documents proving legal ownership of a property, checked by a solicitor during a purchase.",
+    "term": "Title deeds"
+   },
+   {
+    "definition": "The builder's final rectification of faults and unfinished work before a house is handed over.",
+    "term": "Snagging"
+   },
+   {
+    "definition": "A set of pre-drawn house designs that a buyer can purchase at lower cost than an architect's design.",
+    "term": "Book of house plans"
+   },
+   {
+    "definition": "A site map showing the location and layout of the proposed house, without detailed house plans.",
+    "term": "What an outline application must include"
+   },
+   {
+    "definition": "Detailed plans with elevations and finishes; site layout with water supply and drainage; copies of the public notices; the fee and details of materials.",
+    "term": "Four details a full application must contain"
+   },
+   {
+    "definition": "To make sure houses fit the local development plan; to stop houses overlooking neighbours; to keep factories out of residential areas.",
+    "term": "Three reasons a house needs approval before building"
+   },
+   {
+    "definition": "An Coimisiún Pleanála, which replaced An Bord Pleanála in June 2025.",
+    "term": "Body that hears appeals against a planning decision"
+   },
+   {
+    "definition": "To survey the site and building, identify problem areas and recommend solutions before they affect the structure.",
+    "term": "Role of the site and building survey professional"
+   },
+   {
+    "definition": "Checking the title deeds; checking rights of way with the Land Registry; advising on building and planning regulations.",
+    "term": "Three tasks of a solicitor in a house purchase"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The location of a home is decided by the site's suitability, the household's needs and the cost of the site.",
+    "h": "Choosing a location",
+    "points": [
+     "Urban or rural setting: urban sites offer shops, transport and services, while rural sites offer space but may need a private water supply and waste treatment.",
+     "Proximity to family, work, schools and shops affects daily travel time and the ease of family life.",
+     "Ground conditions: a stable soil structure and freedom from flood risk are checked by a site survey before building.",
+     "Aspect: the orientation of the site determines how much daylight and solar heat the house receives.",
+     "Budget: the price of the site and the cost of connecting services limit the location a household can afford.",
+     "Building and planning regulations that apply to the area can restrict where and how a house may be built.",
+     "Setting: a case study of a family with particular needs, used to choose the location, house design, interior and services for that family."
+    ]
+   },
+   {
+    "h": "Choosing a house style",
+    "points": [
+     "House style is chosen by comparing traditional and modern designs, and bungalow and two-storey layouts, against the family's budget.",
+     "Size, age group and lifestyle of the family determine the number of bedrooms, the amount of living space and the need for storage.",
+     "Special needs, such as a wheelchair user, may require a single-storey house, step-free access and wider doors.",
+     "Potential to convert the attic, extend the house or add a garage must be checked against planning rules for the area.",
+     "Personal taste and the style of neighbouring houses determine whether a design fits its surroundings."
+    ]
+   },
+   {
+    "h": "Outline and full planning permission",
+    "points": [
+     "Planning permission from the local authority is required for most building work unless the development is exempt under the planning regulations.",
+     "Outline permission establishes whether the planning authority agrees in principle to a development, before detailed plans are prepared.",
+     "An outline application needs only a site map showing the location and layout of the proposed house, not detailed house plans.",
+     "Full permission requires detailed plans and drawings, the site layout, details of water supply and drainage, and the materials to be used in construction.",
+     "Full permission also requires the appropriate fee, copies of the public notices and the position of the site notice."
+    ]
+   },
+   {
+    "h": "Procedure for full planning permission",
+    "points": [
+     "1. Publish a notice of intention to apply in a local newspaper, and erect a site notice on the proposed site.",
+     "2. Lodge the application, the site maps, the house plans and the fee with the local authority, which acknowledges receipt.",
+     "3. The application is placed on the planning register, where members of the public can inspect it and lodge written objections.",
+     "4. Planning officials inspect the site before a decision is made.",
+     "5. The authority grants or refuses permission; if permission is refused, the applicant must be given the reasons.",
+     "6. Appeals against the decision of the planning authority are made to An Coimisiún Pleanála, which replaced An Bord Pleanála in June 2025.",
+     "Diagram: a flowchart of the six stages of full planning permission, from the notices through to the decision and the appeal route."
+    ]
+   },
+   {
+    "h": "Reasons for planning control",
+    "points": [
+     "Developments must fit in with the local development plan for the area.",
+     "Houses must not be built so that they overlook neighbours.",
+     "Industrial factories must not be built in residential areas.",
+     "Scenic areas have restrictions on house building, and new houses must conform to the style of others in the area."
+    ]
+   },
+   {
+    "h": "Professional services",
+    "points": [
+     "Architect: advises on the site and design, prepares the plans and drawings, applies for planning permission and may supervise construction.",
+     "Engineer: advises on the structure, supervises structural work and solves building problems.",
+     "Surveyor: surveys the site and building, identifies potential problem areas and recommends how to deal with them before they affect the building.",
+     "Solicitor: handles the legal side, including contracts, title deeds, rights of way checked with the Land Registry, and legal advice on building and planning regulations.",
+     "Builder: agrees the price and completion date, prepares the site, manages subcontractors such as electricians and plumbers, and rectifies faults.",
+     "Other services include interior designers, landscape architects, electricians, plumbers and BER assessors.",
+     "A book of house plans offers pre-drawn designs at lower cost, but the plans still need planning permission and may need an architect or engineer to adapt them to the site."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Outline permission establishes whether the planning authority agrees in principle to the development. It needs only a site map showing the location and layout, not detailed house plans. Full permission needs detailed plans and drawings, site layout with water supply and drainage details, the fee, copies of the public notices and the materials to be used. Full permission is the decision that allows building to begin.",
+    "prompt": "Explain the difference between outline planning permission and full planning permission.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Architect: advises on site and design, prepares plans and drawings, applies for planning permission and may oversee construction. Engineer: advises on the structure, supervises structural work and solves building problems. Surveyor: surveys the site and building, identifies problem areas and recommends solutions. Solicitor: handles contracts, title deeds, rights of way and legal advice on building and planning regulations. Builder: agrees price and timescale, prepares the site, manages subcontractors and rectifies faults. Other services include interior designers, electricians, plumbers and BER assessors. Each professional should be linked to the stage at which they are needed, and the answer should explain how the services work together to produce a house that meets planning and building standards.",
+    "prompt": "Discuss the professional services a family would use when building a new house, and explain the role each one plays.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-housing-s6": {
+  "keyTerms": [
+   {
+    "definition": "The design of a space and its fittings to suit how people move, reach and work in it.",
+    "term": "Ergonomics"
+   },
+   {
+    "definition": "The direction a house or room faces, which determines how much daylight and solar heat it receives.",
+    "term": "Aspect"
+   },
+   {
+    "definition": "Designing a house's layout, orientation and glazing so that it captures and retains solar heat without mechanical systems.",
+    "term": "Passive solar design"
+   },
+   {
+    "definition": "A Building Energy Rating certificate that rates a home's energy efficiency from A to G.",
+    "term": "BER certificate"
+   },
+   {
+    "definition": "A certificate confirming that completed building work meets the Building Regulations.",
+    "term": "Certificate of compliance"
+   },
+   {
+    "definition": "The system through which local authorities enforce the Building Regulations on new building work.",
+    "term": "Building control"
+   },
+   {
+    "definition": "A fault in the structure of a building, such as in its foundations, walls or roof, that affects its stability.",
+    "term": "Structural defect"
+   },
+   {
+    "definition": "A guarantee, such as HomeBond's, that covers major structural defects in a new home for a set period.",
+    "term": "Structural defects warranty"
+   },
+   {
+    "definition": "A heating system divided into zones, each with its own thermostat or timer, so that rooms are heated only when needed.",
+    "term": "Zoned heating"
+   },
+   {
+    "definition": "The cost of acquiring the site and building the house, before the home is occupied.",
+    "term": "Initial cost"
+   },
+   {
+    "definition": "Aesthetic and environmental factors; present and future family requirements; initial and maintenance costs.",
+    "term": "Three factors that influence house design"
+   },
+   {
+    "definition": "Room and window areas; wall thickness and insulation levels; the heating system; the floor and wall types.",
+    "term": "Four elements a BER assessor measures"
+   },
+   {
+    "definition": "The sink, the cooker and the fridge.",
+    "term": "Three points of the kitchen work triangle"
+   },
+   {
+    "definition": "Safety, materials and construction; insulation, heating and lighting; ventilation and waste.",
+    "term": "Three areas covered by the Building Regulations"
+   },
+   {
+    "definition": "Cover for major structural defects in the home; protection of the buyer's deposit if a registered builder fails.",
+    "term": "Two protections given by HomeBond's scheme"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Aesthetic and environmental factors",
+    "points": [
+     "Aesthetic factors: the elements of design (colour, pattern, shape, texture and line) and principles such as proportion and balance create an attractive home that does not date quickly.",
+     "Aspect: a south-facing living room gains the most daylight and solar heat, so rooms are placed according to their use and the sun's path.",
+     "Passive solar design uses the layout, orientation and glazing of the house to capture and retain heat without mechanical systems.",
+     "Environmental factors include the use of durable, sustainable and locally sourced materials and the minimising of energy used in making them.",
+     "The house should fit its surroundings, with its scale and materials suiting the landscape and neighbouring buildings.",
+     "Site slope and drainage affect the layout of the house, the foundations and the position of the garden."
+    ]
+   },
+   {
+    "h": "Present and future family requirements",
+    "points": [
+     "The number and ages of family members determine the number of bedrooms, the bathrooms and the amount of living space.",
+     "Storage for clothing, sports and garden equipment must be provided in proportion to the size of the family.",
+     "Teenagers need study space, and a home office may be needed where family members work from home.",
+     "Future needs are planned for by allowing space to extend, convert the attic or add a ground-floor bedroom.",
+     "Accessibility for people with disabilities requires wide doors, level access and an accessible bathroom.",
+     "Room use should be planned so that each room suits its function, such as a utility room for washing and drying."
+    ]
+   },
+   {
+    "h": "Energy efficiency and the BER certificate",
+    "points": [
+     "Insulation in the roof, walls or cavity reduces heat loss, and double glazing reduces heat loss through windows.",
+     "Heating systems can be made efficient with zoned heating, thermostats and timers, or geothermal heating.",
+     "A BER certificate rates energy efficiency on a scale from A, the most efficient, to G, the least efficient.",
+     "A registered assessor measures the area of the rooms and windows, the thickness of the walls, the levels of insulation, the heating system and the floor and wall types.",
+     "A BER certificate is required when a home is sold or rented, and the rating must be shown in commercial advertisements.",
+     "Insulation, efficient heating and passive solar design all improve the BER rating and reduce running costs."
+    ]
+   },
+   {
+    "h": "Ergonomics and technological developments",
+    "points": [
+     "Ergonomics is the design of a space so that it suits how people move and work; in a kitchen, the sink, cooker and fridge are placed at the three points of an imaginary triangle.",
+     "Circulation space must allow people to move safely between work surfaces and to open doors and drawers without obstruction.",
+     "Switches and sockets are placed at heights that can be reached comfortably, including by children and people with limited mobility.",
+     "Sensor lights, compact fluorescent and LED lamps reduce energy use in the home.",
+     "Solar panels, thermostatic and timer controls, underfloor heating and centralised vacuum systems are technological developments that save energy or labour.",
+     "Phone-linked alarm systems and electronic gates and garage doors add security to the home."
+    ]
+   },
+   {
+    "h": "Initial and maintenance costs",
+    "points": [
+     "Initial costs include the site, the builder, professional fees, materials, mortgage and legal fees and stamp duty.",
+     "Maintenance costs include cleaning, decorating, roof and gutter repair, and servicing of the heating system.",
+     "Durable, low-maintenance materials such as brick and uPVC windows reduce long-term repair and decoration costs.",
+     "Energy-efficient design lowers running costs over the life of the house, even where it adds to the initial cost.",
+     "A cheap build can cost more over time if it has poor insulation, weak materials or a costly heating system."
+    ]
+   },
+   {
+    "h": "Regulation of house-building standards (Higher Level only)",
+    "points": [
+     "The Building Regulations set standards for the safety, materials and construction of buildings, and for insulation, heating, lighting, ventilation and waste.",
+     "Local authorities enforce the Building Regulations through building control.",
+     "Under the Building Control (Amendment) Regulations 2014, a certificate of compliance must be provided to show that completed work complies with the Building Regulations.",
+     "The National House Building Guarantee Scheme, operated by HomeBond, requires registered builders' homes to be inspected during construction and certified to standard.",
+     "A structural defects warranty such as HomeBond's covers major structural defects in a new home for a set period after completion.",
+     "HomeBond's scheme protects the deposits of buyers if a registered builder fails before completing the home.",
+     "SEAI home energy grants support insulation, heating upgrades and renewable energy such as solar panels in existing homes."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Insulation in the roof, walls or cavity reduces heat loss, so less fuel is needed to keep rooms warm. Double glazing reduces heat loss through windows. Zoned heating with thermostats and timers heats only the rooms in use at the times they are needed. Passive solar design, with south-facing glazing, captures solar heat for free. Any three features, each linked to a reduction in heat loss or energy use, earn the marks.",
+    "prompt": "State three features of house design that improve energy efficiency and explain how each reduces energy use.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Suitability for the family: three bedrooms may be adequate for a family of five, but the children may share and need storage. Ground-floor kitchen and living room suit family life. The wheelchair user cannot reach the upstairs bedrooms or the single bathroom, so the layout is unsuitable without changes. Circulation and doors must be wide enough for a wheelchair. Aspect and energy efficiency: the house should be checked for south-facing living space and insulation. Modifications: provide a ground-floor bedroom and an accessible bathroom with level or ramped access and wide doors, or install a stairlift; lower switches and sockets; add a utility room or storage. Any two sensible modifications, justified for this family, earn the marks, and the evaluation should reach a conclusion on suitability.",
+    "prompt": "Evaluate the suitability of a two-storey house with a ground-floor kitchen and living room, three upstairs bedrooms and one bathroom for a family of two adults and three young children, one of whom uses a wheelchair. Suggest two modifications.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-lipids-s1": {
   "keyTerms": [
    {
@@ -19935,6 +24001,733 @@
    }
   ]
  },
+ "hom-social-change-s1": {
+  "keyTerms": [
+   {
+    "definition": "The growth in the proportion of a country's population living in towns and cities.",
+    "term": "Urbanisation"
+   },
+   {
+    "definition": "The decline in the number of people living in the countryside, usually through migration to towns or abroad.",
+    "term": "Rural depopulation"
+   },
+   {
+    "definition": "The way people are spread across the landscape, in dispersed rural homes, villages, towns and cities.",
+    "term": "Settlement pattern"
+   },
+   {
+    "definition": "The relocation of government departments or agencies from the capital to regional locations.",
+    "term": "Decentralisation"
+   },
+   {
+    "definition": "Travelling regularly between home and work, often over a long distance.",
+    "term": "Commuting"
+   },
+   {
+    "definition": "The growth of residential areas on the edge of cities, from which residents travel daily to work in the city.",
+    "term": "Suburbanisation"
+   },
+   {
+    "definition": "A scheme that helps people settle in rural areas in order to slow the loss of rural population.",
+    "term": "Rural resettlement"
+   },
+   {
+    "definition": "Low-density development spreading outward from a city into surrounding countryside.",
+    "term": "Urban sprawl"
+   },
+   {
+    "definition": "Employment, education, services and infrastructure, and a wider choice of housing.",
+    "term": "Four reasons people move from rural to urban areas"
+   },
+   {
+    "definition": "Isolation, the closure of local services, and fewer relatives nearby to give daily support.",
+    "term": "Three problems facing older people left in rural villages"
+   },
+   {
+    "definition": "Greater distance from extended family, long commutes, high housing costs, and urban congestion or pollution.",
+    "term": "Four effects of urbanisation on family life"
+   },
+   {
+    "definition": "Overseas investment attraction through IDA Ireland, growth support for Irish firms through Enterprise Ireland, and local enterprise advice and grants for small businesses.",
+    "term": "Three kinds of state support for rural enterprise"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Settlement change means a rising share of the population lives in towns and cities, while the countryside loses population.",
+    "h": "Rural to urban movement",
+    "points": [
+     "Urbanisation is the growth in the proportion of a country's population living in towns and cities.",
+     "Rural depopulation is the fall in the number of people living in the countryside, through migration to towns or abroad.",
+     "Rural depopulation is most marked where farm employment has fallen, because larger and mechanised farms need fewer workers.",
+     "Young adults are the group most likely to leave rural areas for education and first jobs, leaving older people behind in many villages.",
+     "Rural areas that lose population also lose local services such as post offices, Garda stations and schools, which makes rural life less attractive."
+    ]
+   },
+   {
+    "h": "Causes of movement to urban areas",
+    "points": [
+     "Employment: towns and cities contain most of the jobs in manufacturing, services and office work.",
+     "Education: third-level colleges and specialist schools are concentrated in urban centres.",
+     "Services and infrastructure: hospitals, shops, public transport, leisure facilities and fast broadband are more available in towns and cities.",
+     "Housing: towns offer a wider choice of rented and owned accommodation, including apartments for people without land.",
+     "Family and social ties: moving closer to friends, relatives or a partner's workplace draws many people into towns."
+    ]
+   },
+   {
+    "h": "Effects of urbanisation on family life",
+    "points": [
+     "Families in cities are often farther from grandparents and extended family, so there is less daily childcare and practical help.",
+     "Urban families have easier access to childcare, health, education and entertainment, which can improve quality of life.",
+     "Long commutes from suburbs to city workplaces reduce the time parents spend at home and add pressure to family routines.",
+     "Urban neighbourhoods can face overcrowding, traffic congestion, noise and air pollution.",
+     "High housing costs in cities can delay marriage and the birth of children until young couples can afford a home."
+    ]
+   },
+   {
+    "h": "Effects of rural depopulation on family life",
+    "points": [
+     "Older people living alone in rural areas can become isolated when younger family members move away.",
+     "Children in depopulated areas may attend smaller schools with fewer classmates, and grandparents are less available for childcare.",
+     "Rural decline can cause whole family units to emigrate, weakening the local network of family and neighbourly support.",
+     "Withdrawal of services such as shops, banks and transport makes daily life harder for families who remain in the countryside."
+    ]
+   },
+   {
+    "b": "Governments and state agencies have used job creation and infrastructure to slow rural depopulation.",
+    "h": "Initiatives to keep population in rural areas",
+    "points": [
+     "Redeployment of government departments and state agencies to rural locations creates public-sector jobs outside the cities.",
+     "Decentralisation moves public service jobs from the capital to regional towns.",
+     "Rural resettlement schemes help people settle in the countryside and help keep rural communities viable.",
+     "IDA Ireland seeks overseas investment and encourages foreign firms to locate in regional towns.",
+     "Enterprise Ireland helps Irish firms grow their sales and employment, including firms outside Dublin.",
+     "Local enterprise supports, such as advice, mentoring and small grants, help small businesses and cottage industries create sustainable local jobs.",
+     "Investment in roads and telecommunications, including broadband, makes rural living and remote working practical.",
+     "Community employment and training programmes, such as those in childcare and horticulture, give rural people skills and work experience."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Employment: most jobs are located in towns and cities. Services: better access to third-level education, hospitals, shops and public transport. Housing: a wider choice of housing and rental accommodation is available in towns.",
+    "prompt": "State two reasons why many people in Ireland have moved from rural areas to urban areas in recent decades.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Urban growth: families are often far from grandparents and relatives, so informal childcare and practical help are reduced. Commuting from suburbs lengthens the working day and reduces family time. Housing costs in cities can delay family formation. Urban areas offer better access to childcare, health and education services, but may suffer congestion, pollution and some crime and antisocial behaviour. Rural decline: older people living alone can become isolated when younger relatives emigrate or move to cities. Local services such as shops, post offices and schools close, making daily family life harder. Children may attend smaller schools with fewer peers. Initiative: redeployment of government departments and state agencies to rural towns creates public-sector jobs; IDA Ireland and Enterprise Ireland support investment and firms outside the cities; improved roads and broadband allow remote working.",
+    "prompt": "Explain how the growth of towns and cities and the decline of rural populations have affected the daily lives and support networks of Irish families. Refer to at least one state initiative that aims to keep people in rural areas.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-social-change-s2": {
+  "keyTerms": [
+   {
+    "definition": "The number of hours regarded as a normal full-time week, which has shortened over time.",
+    "term": "Standard working week"
+   },
+   {
+    "definition": "An arrangement that lets employees choose their start and finish times within agreed limits.",
+    "term": "Flexitime"
+   },
+   {
+    "definition": "Working set periods at different times of day or night so that a workplace operates over extended hours.",
+    "term": "Shift work"
+   },
+   {
+    "definition": "The paid holiday entitlement that an employee earns each year.",
+    "term": "Annual leave"
+   },
+   {
+    "definition": "Time not spent on paid work, household duties or personal care, used for recreation.",
+    "term": "Leisure time"
+   },
+   {
+    "definition": "Income left after tax and essential deductions, available for spending or saving.",
+    "term": "Disposable income"
+   },
+   {
+    "definition": "The lowest hourly rate of pay that an employer is legally allowed to pay a worker.",
+    "term": "National minimum wage"
+   },
+   {
+    "definition": "The terms under which people work, including hours, breaks, leave, safety and sick pay.",
+    "term": "Conditions of work"
+   },
+   {
+    "definition": "An organisation of workers that negotiates pay and conditions on behalf of its members.",
+    "term": "Trade union"
+   },
+   {
+    "definition": "Television, radio, the home computer and the internet.",
+    "term": "Four home entertainment media that changed family leisure"
+   },
+   {
+    "definition": "More time for shared meals, more time for children's homework and activities, and more time for household tasks.",
+    "term": "Three benefits of a shorter working week for family life"
+   },
+   {
+    "definition": "A maximum average working week and mandatory rest breaks.",
+    "term": "Two legal protections on working hours"
+   },
+   {
+    "definition": "Sick pay, maternity leave, occupational pensions and safe working conditions.",
+    "term": "Four features of improved conditions of work"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The standard working week has shortened over the last century, which has changed how families divide their time.",
+    "h": "Reduction in working hours",
+    "points": [
+     "Working hours fell as the standard working week was shortened and regular overtime became less common for many workers.",
+     "Part-time and flexible hours let some parents work around school hours and be at home earlier in the day.",
+     "Shift work and extended opening hours in retail and services mean that some family members work evenings or weekends, so families must plan time together.",
+     "Shorter hours give families more time for shared meals, homework, household tasks and outings.",
+     "More time at home allows adults to care for children and for older relatives.",
+     "Maximum working hours and rest breaks are set by Irish law, so an employee cannot be required to work beyond legal limits."
+    ]
+   },
+   {
+    "h": "Increased leisure time",
+    "points": [
+     "Paid annual leave gives employees a set number of holiday weeks each year, which made family holidays a regular feature of family life.",
+     "Labour-saving appliances such as washing machines and dishwashers cut the time spent on housework, releasing time for leisure.",
+     "Weekends became the main block of free time for most workers and their families.",
+     "Home entertainment such as television, radio, computers and the internet changed how families spend evenings, often indoors.",
+     "Community sport and clubs, such as GAA, soccer, swimming and dance, give children and parents structured leisure outside the home.",
+     "Rising household incomes increased spending on leisure, including cinema, sport, holidays and eating out."
+    ]
+   },
+   {
+    "h": "Improved pay and conditions of work",
+    "points": [
+     "Real pay rose as productivity and living standards increased, giving families more disposable income.",
+     "A statutory national minimum wage sets the lowest legal hourly pay, protecting low-paid workers and their families.",
+     "Sick pay and maternity leave allow employees to take time off for illness or childbirth without losing all of their income.",
+     "Occupational pension schemes provide retirement income, reducing the need for children to support retired parents.",
+     "Health and safety laws require employers to provide safe workplaces and reduce the risk of workplace injury.",
+     "Grievance procedures give employees a route to challenge poor treatment or unfair conditions.",
+     "Trade unions negotiate pay and conditions on behalf of members through collective agreements.",
+     "Better pay allows families to save, buy homes and pay for education and leisure."
+    ]
+   },
+   {
+    "h": "Effects of changes in work on family life",
+    "points": [
+     "Higher incomes let families move to larger or better housing and buy household goods.",
+     "Reduced hours and more leisure can strengthen family relationships through shared activities.",
+     "Long hours or shift work can cause tiredness and strain, and reduce time spent with children.",
+     "When both parents work full-time, there may be less time for family meals and supervision of children."
+    ]
+   },
+   {
+    "h": "Practical setting: family life then and now",
+    "points": [
+     "Interview an older relative about the hours worked each week, the holidays taken each year and the leisure activities they had as a young adult.",
+     "Record the same three measures for a present-day family and note the differences in working hours, holidays and leisure.",
+     "Compare the two answers to show how changes in work have altered who has time for leisure and when it is taken."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "More time for shared family meals and activities. More time for children's homework, sport and leisure. More time for household tasks and for caring for older relatives.",
+    "prompt": "Name two ways in which shorter working hours have changed family life in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Reduced hours and paid annual leave created regular blocks of free time, so family holidays, weekend outings and shared activities became routine. Labour-saving appliances released time from housework for leisure. Rising real pay and disposable income allowed families to spend on sport, cinema, holidays and eating out, and to buy homes and goods that changed family routines. Pay protections such as a statutory national minimum wage, sick pay and maternity leave give security, reducing financial stress that strains relationships. Health and safety protections and grievance procedures reduce risk and give recourse for poor treatment. Shift work and long hours can still reduce time together, so families must plan joint activities. Home entertainment has increased indoor leisure, while community clubs offer shared activities outside the home.",
+    "prompt": "Explain how improvements in pay and conditions of work, together with reduced working hours, have changed leisure patterns and relationships within families. Refer to at least one named support or legal protection in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-social-change-s3": {
+  "keyTerms": [
+   {
+    "definition": "Income support paid by the state to people who are unemployed, sick, disabled, retired or caring for others.",
+    "term": "Social welfare"
+   },
+   {
+    "definition": "An assessment of household income and savings that decides whether a payment is made and how much it is.",
+    "term": "Means test"
+   },
+   {
+    "definition": "A payment made to everyone in a category, such as every child, without a means test.",
+    "term": "Universal payment"
+   },
+   {
+    "definition": "Pay-related social insurance, paid by employees and employers, which funds contributory social welfare payments.",
+    "term": "PRSI"
+   },
+   {
+    "definition": "Education after second level, provided in universities, institutes of technology and colleges.",
+    "term": "Third-level education"
+   },
+   {
+    "definition": "Education that gives adults who left school early a route to qualifications.",
+    "term": "Second-chance education"
+   },
+   {
+    "definition": "A school staff member who supports pupils with special educational needs in mainstream classes.",
+    "term": "Special needs assistant"
+   },
+   {
+    "definition": "A card giving eligible people free GP visits and prescribed medicines.",
+    "term": "Medical card"
+   },
+   {
+    "definition": "An alternative admission pathway to third-level education for students from under-represented groups.",
+    "term": "Access route"
+   },
+   {
+    "definition": "Better parental help with learning, greater financial independence for women, and higher earning power that raises household living standards.",
+    "term": "Three ways improved education supports family life"
+   },
+   {
+    "definition": "School Completion Programme, Leaving Certificate Applied, Youthreach and Transition Year.",
+    "term": "Four programmes or courses that help young people stay in education"
+   },
+   {
+    "definition": "Social insurance payments funded by PRSI contributions, and means-tested payments based on household income.",
+    "term": "Two types of social welfare payment"
+   },
+   {
+    "definition": "They reduce child poverty, give older people financial independence, and help families cope with illness or unemployment.",
+    "term": "Three effects of welfare payments on family life"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Access to education has widened across generations, so more children and adults now complete school and continue into further study.",
+    "h": "Improved provision of education",
+    "points": [
+     "Free second-level education was introduced from 1967, removing the fees that had kept many children from completing school.",
+     "Third-level tuition fees were abolished for eligible undergraduates from 1996, widening access to universities and institutes of technology.",
+     "A free pre-school year, the Early Childhood Care and Education scheme, gives every child access to early education before primary school.",
+     "Special needs assistants support pupils with special educational needs within mainstream classrooms.",
+     "The School Completion Programme targets students at risk of leaving school early, through homework clubs, breakfast clubs and individual school retention plans.",
+     "Leaving Certificate Applied is a modular, practical programme assessed over two years, preparing students for work and adult life.",
+     "Youthreach and Transition Year offer practical, work-based and personal development learning to young people in different circumstances.",
+     "Post Leaving Certificate courses and adult education give adults a second route to qualifications for work or further study.",
+     "The Higher Education Access Route, HEAR, improves third-level access for socially disadvantaged students, and DARE does the same for students with disabilities.",
+     "The Back to Education Allowance supports people on eligible social welfare payments to take approved courses."
+    ]
+   },
+   {
+    "h": "Effects of improved education on family life",
+    "points": [
+     "Better-educated parents are better able to help with homework and to encourage children's achievement.",
+     "Women's education has increased their financial independence and their participation in paid employment.",
+     "Educational attainment affects job prospects and earnings, which in turn affect the standard of living of the family.",
+     "Adult education lets parents return to work after raising children, adding a second income to the household."
+    ]
+   },
+   {
+    "b": "Social welfare is income support paid by the state to people who are unemployed, sick, disabled, retired, widowed or caring for others.",
+    "h": "Social welfare: purpose and types of payment",
+    "points": [
+     "Social insurance payments are funded by PRSI contributions from employees and employers, and depend on a record of contributions.",
+     "Means-tested payments depend on an assessment of household income and savings, so they are targeted at households in need.",
+     "Universal payments such as child benefit are paid for each child regardless of parental income.",
+     "Payments for lone parents and for low-income working families support parents who have the main responsibility for children.",
+     "A once-yearly clothing and footwear allowance helps families on low incomes meet the cost of school clothing.",
+     "Medical cards give eligible families access to free GP visits and prescribed medicines."
+    ]
+   },
+   {
+    "h": "Social welfare and family life",
+    "points": [
+     "Welfare payments reduce child poverty by giving families a regular income when a parent is out of work or on a low wage.",
+     "Old age pensions give older people financial independence, reducing their dependence on adult children.",
+     "Carer's payments allow a family member to care for an elderly or disabled relative at home.",
+     "Conditions attached to many payments, such as job-seeking requirements, aim to prevent long-term dependence on welfare.",
+     "Critics argue that welfare can discourage people from taking up low-paid work, which is why work incentives form part of many schemes."
+    ]
+   },
+   {
+    "h": "Practical setting: schooling then and now",
+    "points": [
+     "Ask an older relative how many years they attended school, how many children were in their class and whether they stayed on after the minimum school-leaving age.",
+     "Record the same details for a present-day young person and compare the answers.",
+     "Note which support services, such as special needs assistants and school completion programmes, were not available to the older relative."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Free second-level education introduced from 1967. A free pre-school year before primary school under the Early Childhood Care and Education scheme. Special needs assistants in mainstream classes. School Completion Programme for students at risk of leaving early.",
+    "prompt": "State two ways in which the state has improved the provision of education for children and young people in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Education: free second-level schooling and the abolition of third-level fees widened access, so more children complete school and continue into further study. Higher educational attainment raises employment prospects and earnings, which improves family living standards. Adult and second-chance education lets parents return to work, adding a second income. Support programmes such as the School Completion Programme and special needs assistants keep vulnerable pupils in school. Welfare: means-tested and universal payments give regular income to families with children, lone parents and low-paid workers; child benefit is paid per child regardless of income; medical cards give free GP visits to eligible families; old age pensions give older people independence. Limitation: payments can fail to lift a family out of poverty if they are low, and conditions such as job-seeking requirements or income thresholds can discourage some people from taking low-paid work.",
+    "prompt": "Explain how improvements in education and in social welfare have helped Irish families. Discuss one limitation of welfare support in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-social-change-s4": {
+  "keyTerms": [
+   {
+    "definition": "Living together as a couple without being legally married.",
+    "term": "Cohabitation"
+   },
+   {
+    "definition": "A pattern of family roles in which partners share responsibilities such as finances, housework and childcare equally.",
+    "term": "Egalitarian roles"
+   },
+   {
+    "definition": "A division of responsibilities in which the father earns the income and the mother runs the home and cares for children.",
+    "term": "Traditional family roles"
+   },
+   {
+    "definition": "A court order allowing spouses to live apart, dealing with maintenance and property, without ending the marriage.",
+    "term": "Judicial separation"
+   },
+   {
+    "definition": "A family in which one parent lives with and cares for one or more children.",
+    "term": "Lone-parent family"
+   },
+   {
+    "definition": "A family formed when a parent with children marries or cohabits with a partner who may also have children.",
+    "term": "Blended family"
+   },
+   {
+    "definition": "An approach to raising children that gives weight to their views, needs and participation in decisions.",
+    "term": "Child-centred parenting"
+   },
+   {
+    "definition": "A family made up of two parents and their children living together.",
+    "term": "Nuclear family"
+   },
+   {
+    "definition": "Methods used to prevent pregnancy, allowing couples to plan the number and timing of children.",
+    "term": "Contraception"
+   },
+   {
+    "definition": "The spouses have lived apart for four of the previous five years, there is no reasonable prospect of reconciliation, and proper provision has been made for the spouse and dependants.",
+    "term": "Three conditions for granting a divorce under Irish law"
+   },
+   {
+    "definition": "More child-centred decision-making, shared childcare between mothers and fathers, and smaller family size.",
+    "term": "Three shifts in attitudes to parenting"
+   },
+   {
+    "definition": "Better education for women, contraception, urbanisation and mobility, and personal freedom.",
+    "term": "Four causes of changing attitudes to family life"
+   },
+   {
+    "definition": "Nuclear, extended, lone-parent and blended families.",
+    "term": "Four types of modern family structure"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Attitudes to marriage",
+    "points": [
+     "Couples now tend to marry later, often after completing their education and establishing a career.",
+     "Cohabitation, living together without being married, has become common and is widely accepted.",
+     "Marriage is no longer seen as the only acceptable basis for a family, and many children are born to parents who are not married.",
+     "Divorce became legal in Ireland after a referendum in 1995, and the Family Law (Divorce) Act 1996 sets out the conditions for granting one.",
+     "Under that Act, a divorce may be granted only where the spouses have lived apart for four of the previous five years, there is no reasonable prospect of reconciliation, and proper provision has been made for the spouse and dependants.",
+     "Judicial separation, provided for under the Judicial Separation and Family Law Reform Act 1989, allows spouses to live apart under a court order that deals with maintenance and property.",
+     "The 2015 marriage referendum allowed same-sex couples to marry, reflecting wider acceptance of different types of family."
+    ]
+   },
+   {
+    "h": "Attitudes to parenting",
+    "points": [
+     "Parenting has become more child-centred, with greater emphasis on children's views, open communication and negotiated rules.",
+     "Physical punishment of children by parents is prohibited by Irish law.",
+     "Smaller families are now more common, as contraception lets couples plan the number and timing of their children.",
+     "Mothers and fathers increasingly share childcare, and paternity leave recognises the role of the father.",
+     "Parental leave allows parents to take unpaid time off work to care for children.",
+     "Grandparents often take on regular childcare, particularly where both parents work outside the home."
+    ]
+   },
+   {
+    "h": "Traditional roles within the family",
+    "points": [
+     "Traditional roles assigned the male as breadwinner and the female as homemaker, with responsibilities kept largely separate.",
+     "Egalitarian roles, where partners share finances, housework, discipline and decisions, are now more common.",
+     "A man taking on the role of house husband or primary carer is now socially accepted.",
+     "The decline in the influence of the Church lessened expectations about marriage, sexuality and parental roles.",
+     "Children may take on more responsibility for household tasks, and older children may look after younger siblings.",
+     "Family diversity means that nuclear, extended, lone-parent, blended, cohabiting and same-sex-parent families are all recognised as families."
+    ]
+   },
+   {
+    "h": "Causes of changing attitudes",
+    "points": [
+     "Improved education, particularly for women, has widened choices about careers, marriage and having children.",
+     "Contraception and family planning allowed couples to plan families and delay childbearing.",
+     "Urbanisation and greater mobility loosened the influence of extended family and the local community.",
+     "Greater personal freedom and individual choice came to be valued over duty to family or community.",
+     "Media and international influences introduced new ideas about relationships and family life."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Couples marry later, often after completing education and establishing a career. Cohabitation without marriage is widely accepted. Many children are born to parents who are not married. Divorce is available under the Family Law (Divorce) Act 1996.",
+    "prompt": "Name two changes in attitudes to marriage in Ireland in recent decades.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Parenting has become more child-centred, with children's views and negotiated rules given weight, and physical punishment is prohibited by law. Smaller families, made possible by contraception, mean parents can give each child more attention. Traditional roles of male breadwinner and female homemaker have given way to egalitarian sharing of finances, housework, discipline and childcare, and fathers can take paternity leave. Children may gain more say in family decisions and may take on more household responsibility, or look after younger siblings. Where both parents work, children may rely more on grandparents or childcare services, and may experience less time with their parents.",
+    "prompt": "Explain how attitudes to parenting and to traditional family roles have changed, and describe the effects of these changes on children.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-social-change-s5": {
+  "keyTerms": [
+   {
+    "definition": "The proportion of the working-age population that is either in paid employment or actively seeking work.",
+    "term": "Participation rate"
+   },
+   {
+    "definition": "A household in which both partners are in paid employment.",
+    "term": "Dual-earner household"
+   },
+   {
+    "definition": "The principle that men and women are paid the same for the same work or work of equal value.",
+    "term": "Equal pay"
+   },
+   {
+    "definition": "An arrangement in which two people share one full-time job and divide its hours, pay and responsibilities.",
+    "term": "Job-sharing"
+   },
+   {
+    "definition": "An arrangement that allows an employee to work during school terms and take unpaid leave during school holidays.",
+    "term": "Term-time working"
+   },
+   {
+    "definition": "The concentration of men and women in different types of work, which can limit pay and promotion.",
+    "term": "Occupational segregation"
+   },
+   {
+    "definition": "The difference between average pay for men and average pay for women in the labour market or a workplace.",
+    "term": "Gender pay gap"
+   },
+   {
+    "definition": "Pressure that arises when a person faces too many demands from work and family responsibilities at once.",
+    "term": "Role overload"
+   },
+   {
+    "definition": "An invisible barrier that prevents qualified women from reaching senior management positions.",
+    "term": "Glass ceiling"
+   },
+   {
+    "definition": "Part-time work, job-sharing, flexitime and term-time working.",
+    "term": "Four flexible working arrangements that help women combine work and family"
+   },
+   {
+    "definition": "Equal pay, equal treatment in recruitment and promotion, and equal terms and conditions of employment.",
+    "term": "Three areas covered by equality legislation at work"
+   },
+   {
+    "definition": "Higher household income, shared housework and childcare, and greater demand for childcare services.",
+    "term": "Three effects of women's employment on family life"
+   },
+   {
+    "definition": "Higher educational attainment and the economic need for a second income.",
+    "term": "Two reasons more women entered paid work"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Women's participation in paid work has risen steadily over recent decades and now forms a large part of the workforce.",
+    "h": "Increased participation of women in the workforce",
+    "points": [
+     "Higher educational attainment among women has increased their qualifications for professional and managerial posts.",
+     "Smaller families and access to contraception let women plan a return to work after childbirth, or stay in employment.",
+     "Economic need for a second income led many couples to have both partners in paid work.",
+     "Flexible arrangements such as part-time work, job-sharing, flexitime and term-time working help women combine work and family.",
+     "Childcare, pre-school and after-school provision make it possible for parents to work outside the home.",
+     "Jobs have become less gender-specific: women work as engineers, doctors and lawyers, and men work as nurses and childminders.",
+     "Maternity leave and job protection allow women to return to their posts after having a child."
+    ]
+   },
+   {
+    "h": "Effects of women's employment on family life",
+    "points": [
+     "Dual-earner households often have higher household incomes and greater financial independence for each partner.",
+     "Women's employment has changed the division of housework and childcare, and many couples now share these tasks.",
+     "Combining work and family can create role overload and time pressure, especially for lone parents and parents of young children.",
+     "The need for childcare means many families rely on grandparents, relatives or paid childminders.",
+     "Economic independence gives women more choice about whether to remain in an unhappy marriage.",
+     "Career moves can require relocation, so women's jobs can influence family decisions about where to live."
+    ]
+   },
+   {
+    "h": "Equality legislation: equal pay and employment opportunities",
+    "points": [
+     "Equal pay legislation requires employers to pay men and women the same rate for the same work or for work of equal value.",
+     "Equal opportunities legislation prohibits discrimination in recruitment, selection, promotion and training on grounds including gender and marital status.",
+     "Equal treatment rules cover terms and conditions of employment, so women and men have equal access to benefits linked to work.",
+     "Employment rights protect women during pregnancy and maternity leave, and against dismissal because of pregnancy.",
+     "Family status is also a protected ground, which covers employees with caring responsibilities for children or other dependants.",
+     "Legislation is enforced through complaints to the state bodies that deal with employment equality claims."
+    ]
+   },
+   {
+    "h": "Barriers that remain",
+    "points": [
+     "Women are more likely than men to work part-time, often because of caring responsibilities.",
+     "A gender pay gap persists in many sectors, partly because men and women are concentrated in different types of work.",
+     "Women remain under-represented in senior management, a pattern known as the glass ceiling.",
+     "Career breaks for childcare can reduce pension entitlements and promotion prospects."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Higher educational attainment among women and their wish to use their qualifications. Economic need for a second income. Smaller families and access to contraception. Part-time and flexible working options that allow women to combine work and family.",
+    "prompt": "Give two reasons why more women have entered the Irish workforce in recent decades.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Effects: dual-earner households have higher incomes and greater financial independence for each partner, which can improve living standards and reduce dependence in marriage. Shared housework and childcare have become more common, but role overload and time pressure are a risk for parents, especially lone parents. Families depend more on childcare services, grandparents and relatives. Women's careers can shape decisions about where the family lives. Equal pay legislation: it requires employers to pay men and women the same for the same work or work of equal value. Equal opportunities rules prohibit discrimination in recruitment, promotion and training on grounds including gender and marital status. Employment rights protect women during pregnancy and maternity leave. These protections encourage women to stay in and return to paid work, although gender pay gaps and occupational segregation persist.",
+    "prompt": "Analyse the effects of women's increased participation in paid work on family life, and explain how equal pay legislation supports women in employment.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-social-change-s6": {
+  "keyTerms": [
+   {
+    "definition": "The condition of people who are available for and willing to work but do not have paid employment.",
+    "term": "Unemployment"
+   },
+   {
+    "definition": "Short-term unemployment that occurs while people move between jobs or enter the labour market.",
+    "term": "Frictional unemployment"
+   },
+   {
+    "definition": "Unemployment caused by lasting changes in the economy, such as new technology or the decline of an industry.",
+    "term": "Structural unemployment"
+   },
+   {
+    "definition": "Unemployment that rises during economic recessions when demand for goods and services falls.",
+    "term": "Cyclical unemployment"
+   },
+   {
+    "definition": "Unemployment in industries whose work depends on the time of year.",
+    "term": "Seasonal unemployment"
+   },
+   {
+    "definition": "Being out of work for a year or more while looking for work.",
+    "term": "Long-term unemployment"
+   },
+   {
+    "definition": "A change in family roles in which a parent takes on the caring tasks and the other partner loses a traditional role.",
+    "term": "Role reversal"
+   },
+   {
+    "definition": "Payments that are overdue, such as unpaid rent, mortgage repayments or utility bills.",
+    "term": "Arrears"
+   },
+   {
+    "definition": "Loss of income, loss of status, stress or depression, and social isolation.",
+    "term": "Four effects of unemployment on the individual"
+   },
+   {
+    "definition": "Frictional, structural, cyclical and seasonal.",
+    "term": "Four types of unemployment"
+   },
+   {
+    "definition": "A lower standard of living and poorer diet, missed school and leisure activities, and fewer working role models.",
+    "term": "Three ways unemployment affects children"
+   },
+   {
+    "definition": "Social welfare income support and free debt advice from MABS.",
+    "term": "Two state supports for unemployed families"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Unemployment exists when people who are available for and willing to work do not have paid employment.",
+    "h": "Unemployment and its types",
+    "points": [
+     "Frictional unemployment is short-term and occurs while people move between jobs.",
+     "Structural unemployment results from lasting changes in the economy, such as technology replacing workers or the decline of a whole industry.",
+     "Cyclical unemployment rises during recessions, when demand for goods and services falls.",
+     "Seasonal unemployment occurs in industries that depend on the time of year, such as tourism or construction.",
+     "Long-term unemployment means being out of work for a year or more.",
+     "Unemployment black spots are areas where many people are out of work for long periods, often after the closure of a major employer."
+    ]
+   },
+   {
+    "h": "Effects on the individual",
+    "points": [
+     "Loss of income reduces the ability to pay for food, clothing, heating and housing.",
+     "Loss of work status can reduce self-esteem and confidence.",
+     "Unemployment is linked with stress, depression and other mental health problems.",
+     "Some unemployed people turn to alcohol or drugs to cope, which can add to financial and health problems.",
+     "Long periods without work reduce skills and employability, making it harder to find work later.",
+     "Social isolation can follow as workplace contacts and routines are lost."
+    ]
+   },
+   {
+    "h": "Effects on family life",
+    "points": [
+     "Lower income can lead to debt, mortgage or rent arrears and reliance on credit.",
+     "Financial strain can cause arguments between partners and increase the risk of relationship breakdown.",
+     "Roles can reverse: a parent who becomes the main carer at home may have reduced authority or status in the family.",
+     "Children may miss school trips, activities and leisure, and tight budgets can lead to poorer diets.",
+     "Unemployment can cause family members to move away, including emigration, to find work.",
+     "Children of long-term unemployed parents may lack working adults as role models for employment."
+    ]
+   },
+   {
+    "h": "Effects on society",
+    "points": [
+     "Social welfare spending rises while tax revenue falls when people lose work.",
+     "Concentration of unemployment in particular areas creates social exclusion and unemployment black spots.",
+     "Crime, antisocial behaviour and vandalism can increase in areas of high unemployment.",
+     "Loss of skills and productive effort reduces the output and growth of the economy."
+    ]
+   },
+   {
+    "h": "Supports for unemployed families",
+    "points": [
+     "Social welfare payments provide income support to people who have lost work and meet the conditions for a payment.",
+     "Citizens Information provides free, impartial information on entitlements to payments and services.",
+     "MABS, the Money Advice and Budgeting Service, gives free help with debt and household budgeting.",
+     "The Back to Education Allowance supports people on eligible payments to take approved courses that improve their skills.",
+     "Training and activation programmes help people build skills and return to employment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Loss of income makes it hard to pay mortgage or rent and bills, leading to arrears and debt. Spending on food, clothing and leisure has to be cut. Savings are used up, or the family must borrow.",
+    "prompt": "Name two effects of unemployment on family finances.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Finances: loss of income leads to arrears on rent or mortgage, debt, reduced spending on essentials and leisure, and reliance on savings or credit. Relationships: financial strain causes arguments and can lead to relationship breakdown; a parent who becomes the main carer at home may lose authority or status, and roles can reverse. Children: they may miss school trips and activities, face a poorer diet on a tight budget, and lack working adults as role models for employment. Family members may have to move or emigrate to find work. Support: social welfare income support gives a regular income to those who meet the conditions; MABS gives free help with debt and budgeting; Citizens Information explains entitlements; the Back to Education Allowance helps unemployed people take approved courses.",
+    "prompt": "Analyse how long-term unemployment affects a family's finances, relationships and children, and describe one support that helps families cope.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-sociological-concepts-s1": {
   "keyTerms": [
    {
@@ -20647,6 +25440,746 @@
     "marks": 24,
     "model": "Causes include technological change, such as the spread of the internet and smartphones; economic change, such as industrialisation and the growth of services, which moved workers from rural trades into towns; urbanisation, which weakened close kin ties; demographic change, such as falling birth rates and an ageing population; and legal change, such as the 1995 divorce referendum and the Family Law (Divorce) Act 1996. Cultural diffusion through migration and the media, and globalisation, also introduced new ideas. Effects include changing gender roles, with more women in paid employment and more shared household tasks; smaller families and later childbearing; changing family structures, including lone-parent and blended families; increased demand for health and care services because of an ageing population; and changing values, such as greater acceptance of diversity. Change can cause tension between generations and leave some groups behind when their skills are no longer needed. Resistance from vested interests, tradition and fear of the unknown can slow change, and cultural lag can mean norms take time to catch up with technology.",
     "prompt": "Discuss the causes and effects of social change in Ireland over recent decades.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s1": {
+  "keyTerms": [
+   {
+    "definition": "The principle that a textile's properties must match the job it is required to do in the home.",
+    "term": "Fitness for purpose"
+   },
+   {
+    "definition": "The ability of a fabric to take in and hold moisture.",
+    "term": "Absorbency"
+   },
+   {
+    "definition": "The tendency of a fabric to ignite and burn readily when exposed to a flame.",
+    "term": "Flammability"
+   },
+   {
+    "definition": "The ability of a fabric to resist wrinkling and recover its smooth shape during use and washing.",
+    "term": "Crease resistance"
+   },
+   {
+    "definition": "The ability of a fabric's colour to resist running in water and fading in light.",
+    "term": "Colourfastness"
+   },
+   {
+    "definition": "The way a fabric hangs and falls in folds under its own weight.",
+    "term": "Drape"
+   },
+   {
+    "definition": "The ability of a fabric to withstand wear, abrasion and tearing over a long period of use.",
+    "term": "Durability"
+   },
+   {
+    "definition": "The visual and tactile qualities of a textile, such as colour, pattern, texture and lustre, that make it attractive.",
+    "term": "Aesthetic appeal"
+   },
+   {
+    "definition": "Warmth and insulation, protection, privacy and decoration.",
+    "term": "Four functions of household textiles"
+   },
+   {
+    "definition": "Fitness for purpose, cost and personal choice.",
+    "term": "Three factors in selecting textiles for the home"
+   },
+   {
+    "definition": "Cotton: it is absorbent, strong when wet and easy to launder.",
+    "term": "Fabric for towels and the reason"
+   },
+   {
+    "definition": "Polyester: it drapes well, is fade resistant, washes easily and resists creasing.",
+    "term": "Fabric chosen for curtains and its main properties"
+   },
+   {
+    "definition": "Flammability: an untreated fabric ignites and burns readily when exposed to a flame.",
+    "term": "Property of untreated fabric that creates a fire risk"
+   },
+   {
+    "definition": "Cotton and linen: both are absorbent and washable.",
+    "term": "Two natural fabrics suitable for household textiles"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Textiles are used throughout the home for practical and decorative purposes, often several at once.",
+    "h": "Functions of household textiles",
+    "points": [
+     "Warmth and insulation: blankets, duvets and throws trap still air within their fibres and layers, reducing heat loss from the body.",
+     "Sound absorption: carpets, rugs, curtains and upholstery absorb sound and reduce echo in a room.",
+     "Privacy and light control: curtains and blinds screen the room from view and control the light entering it.",
+     "Comfort: cushions, mattress covers and upholstery give softness and support.",
+     "Protection: oven gloves and aprons protect the user from heat and spills, and carpets protect floors from wear.",
+     "Absorbency: towels and bath mats take up water from the body or from the floor.",
+     "Decoration: curtains, cushions, wall hangings and bedspreads add colour, pattern and texture to a room.",
+     "Hygiene: washable textiles can be laundered to remove dirt and micro-organisms."
+    ]
+   },
+   {
+    "b": "A textile is chosen by weighing the properties of the fabric against the job it has to do, the money available and the household's preferences.",
+    "h": "Selection criteria for household textiles",
+    "points": [
+     "Fitness for purpose: the fabric's properties must suit its job, e.g. a towel needs absorbency and a curtain needs to drape well and resist fading.",
+     "Suitability in use: the fabric must withstand the wear, washing and conditions of the room it is used in, such as a kitchen or a child's bedroom.",
+     "Cost: the price of the fabric must fit the budget; natural fibres such as wool and silk cost more than most synthetic fibres.",
+     "Personal choice: colour, style, comfort and a preference for natural or easy-care fabrics.",
+     "Aesthetic appeal: appearance, texture, drape, lustre, colour and pattern.",
+     "Ease of care: the washing, drying and ironing a fabric needs affects how practical it is for the household."
+    ]
+   },
+   {
+    "h": "Fabric properties that matter in the home",
+    "points": [
+     "Absorbent: the fabric takes in and holds moisture; cotton and linen are absorbent, which makes them suitable for towels.",
+     "Flammable: the fabric ignites and burns readily when exposed to a flame, creating a fire risk.",
+     "Crease-resistant: the fabric resists wrinkling in use and in washing and returns towards its smooth shape, so less ironing is needed.",
+     "Colourfast: the colour resists running in water and fading in light, so it stays bright after washing; the dye must be fixed firmly to the fibres.",
+     "Durable: the fabric resists abrasion, tearing and wear over a long period of use.",
+     "Drape: the way a fabric hangs in folds; a good drape suits curtains and loose clothing."
+    ]
+   },
+   {
+    "h": "Matching fabrics to household items",
+    "points": [
+     "Cotton towels: absorbent, strong when wet and able to withstand hot washing.",
+     "Linen tea towels: absorbent, strong and quick drying, but creases easily unless treated.",
+     "Polyester curtains: drape well, resist fading, wash easily and resist creasing.",
+     "Cotton curtains: easy to launder and dye, with a crisp appearance, but shrink if not pre-shrunk.",
+     "Wool blankets: warm, insulating, absorbent and elastic, but can shrink and felt if washed at high temperatures.",
+     "Nylon carpets: strong, hard wearing and resistant to abrasion from foot traffic."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of: warmth or insulation (a wool throw or rug); sound absorption (a carpet or heavy curtains); privacy (lined curtains or blinds); comfort (cushions or upholstered sofa); decoration (wall hangings or a patterned curtain); protection (a rug protecting the floor from wear).",
+    "prompt": "Identify three functions of textiles used in a living room and give one example of a textile for each function.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Fitness for purpose: a textile's properties must match its use, e.g. a towel must be absorbent and strong when wet, so cotton is chosen; a curtain must drape well and resist fading, so polyester is chosen. Cost: natural fibres such as wool and silk are more expensive than most synthetic fibres, so a family with a limited budget may choose a cheaper polyester or cotton blend for everyday items. Personal choice: preferences for colour, style, comfort and easy-care fabrics affect the choice, e.g. a household that wants low maintenance chooses a crease-resistant synthetic blend for bed linen. The factors often pull against each other, e.g. a cheap fabric may not have the properties the purpose requires, so the household must weigh cost against fitness for purpose.",
+    "prompt": "Explain how cost, fitness for purpose and personal choice influence a household's choice of textiles. Give an example for each factor.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s2": {
+  "keyTerms": [
+   {
+    "definition": "A chemical treatment applied to a textile to reduce its flammability and lower the risk of ignition.",
+    "term": "Fire-retardant finish"
+   },
+   {
+    "definition": "The property of a fabric that stops burning once it is removed from a flame.",
+    "term": "Self-extinguishing"
+   },
+   {
+    "definition": "The black, insulating carbon layer that forms on a treated fabric when exposed to heat, protecting the fibres beneath.",
+    "term": "Char"
+   },
+   {
+    "definition": "A surface of loose fibre loops or cut ends on a fabric, which ignites more easily than a smooth surface.",
+    "term": "Raised pile"
+   },
+   {
+    "definition": "Fire resistance that is built into the fibre itself rather than added by a finish.",
+    "term": "Inherent flame retardancy"
+   },
+   {
+    "definition": "The soft covering and padding on furniture, such as the fabric and filling of a sofa or armchair.",
+    "term": "Upholstery"
+   },
+   {
+    "definition": "The ability of a fabric or filling to spring back to its original shape after being compressed.",
+    "term": "Resilience"
+   },
+   {
+    "definition": "Combustion-modified high-resilience foam, a filling designed to resist ignition and reduce toxic fumes.",
+    "term": "CMHR foam"
+   },
+   {
+    "definition": "Fabric construction (loose yarns and raised pile ignite easily); the filling material (avoid untreated synthetic foam); and a flame-retardant finish or fire-resistance label.",
+    "term": "Three factors to consider for fire safety in household textiles"
+   },
+   {
+    "definition": "It reduces the risk of ignition, and it makes the fabric self-extinguish when removed from a flame.",
+    "term": "Two effects of Proban on a fabric"
+   },
+   {
+    "definition": "It may cause an allergic reaction, and the treated fabric may need special care during cleaning.",
+    "term": "Two drawbacks of Proban"
+   },
+   {
+    "definition": "Children's nightwear, protective workwear, upholstered furniture and military clothing.",
+    "term": "Four textile uses of a flame-retardant finish"
+   },
+   {
+    "definition": "The materials meet the requirements for resisting ignition from a lit cigarette and from a match.",
+    "term": "Meaning of a label stating resistance to cigarette and match ignition"
+   },
+   {
+    "definition": "The EU General Product Safety Regulation, Regulation (EU) 2023/988.",
+    "term": "Legislation for domestic upholstered furniture fire safety from July 2026"
+   },
+   {
+    "definition": "Durable, comfortable, resilient and stain resistant.",
+    "term": "Four desirable properties of fabric for upholstered furniture"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fire risk depends on the structure of the fabric, the fibres in it and the materials filling it.",
+    "h": "Fire safety when selecting household textiles",
+    "points": [
+     "Loosely spun yarns ignite very easily, so loosely spun fabrics are a poor choice where fire risk is high.",
+     "Fabrics with a raised pile or nap ignite more easily than smooth, tightly woven fabrics.",
+     "Blends of man-made and natural fibres can burn more quickly than either fibre on its own.",
+     "Synthetic foam filling releases gases that can ignite and engulf a room in flames, and it produces toxic fumes when it burns.",
+     "A combustion-modified high-resilience (CMHR) foam is a safer filling for cushions and upholstery; check the label for it.",
+     "Inherently flame-retardant fabrics keep their resistance because the fibre itself resists ignition; coated fabrics rely on a surface finish.",
+     "Labels can state fire resistance, for example that materials meet the requirements for resistance to cigarette and match ignition.",
+     "Higher-risk items in the home include children's nightwear, upholstered furniture and protective workwear."
+    ]
+   },
+   {
+    "b": "Proban is one of the fire-retardant finishes used on household textiles; Pyrovatex is another.",
+    "h": "Proban: a named fire-retardant finish",
+    "points": [
+     "Proban is applied in a chemical finishing process to cellulosic fibres such as cotton, linen and viscose.",
+     "It adds a layer of phosphorus and nitrogen to the fibre structure, so it is fixed within the fibre rather than sitting on the surface.",
+     "Effect 1: it reduces the fabric's flammability and lowers the risk of ignition.",
+     "Effect 2: when removed from a flame the fabric self-extinguishes, because an insulating char forms around the fibres and the fabric neither melts nor keeps burning.",
+     "Drawback 1: the finish may cause an allergic reaction in some people.",
+     "Drawback 2: the treated fabric may need special care during cleaning, as the finish can be affected by some washing methods.",
+     "Uses: children's nightwear, protective workwear, upholstered furniture and military clothing.",
+     "Identification: the presence of the finish is shown on the product label or in the manufacturer's information rather than by sight or feel."
+    ]
+   },
+   {
+    "b": "Upholstery fabric is chosen to withstand constant use while staying comfortable and safe.",
+    "h": "Properties of fabric for upholstered furniture",
+    "points": [
+     "Durable: the fabric resists abrasion and tearing from repeated sitting and rubbing.",
+     "Hard wearing: the fabric keeps its appearance under frequent use.",
+     "Resilient: the fabric springs back after being compressed, so cushions stay firm and keep their shape; wool is resilient, while cotton loses its shape more readily.",
+     "Comfortable: the fabric has a pleasant handle and does not feel harsh against the body.",
+     "Stain resistant: spills are less likely to soak in, and can be wiped away more easily.",
+     "Fire resistant: the fabric and its filling must meet fire-resistance requirements, as shown on the label."
+    ]
+   },
+   {
+    "h": "Upholstered furniture fire safety requirements (Higher Level only)",
+    "points": [
+     "From July 2026, the fire safety requirements for domestic upholstered furniture are those of the EU General Product Safety Regulation, Regulation (EU) 2023/988.",
+     "The regulation applies in Ireland as an EU regulation, so furniture sold here must meet its requirements.",
+     "The Competition and Consumer Protection Commission (CCPC) is the Irish body that enforces consumer product safety law.",
+     "Manufacturers and sellers must ensure that products placed on the market are safe for consumers before they are sold."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Proban (or Pyrovatex). Effect: it reduces the flammability of the fabric, lowering the risk of ignition; or it makes the fabric self-extinguish when removed from a flame; or it can cause an allergic reaction in some people, and treated fabric may need special care when cleaned.",
+    "prompt": "Name one fire-retardant finish used on household textiles and describe one effect it has on a fabric.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Fabric construction: a smooth, tightly woven fabric is safer than a loosely spun yarn or a fabric with a raised pile, which ignite more easily. Fibre content: a fabric made from one fibre type burns less quickly than a blend of man-made and natural fibres. Filling: untreated synthetic foam releases gases that can ignite and give off toxic fumes, so a combustion-modified high-resilience foam is safer. Treatment: a flame-retardant finish such as Proban reduces ignition risk and makes the fabric self-extinguish when removed from a flame, although the finish may cause an allergic reaction or need careful cleaning. Labelling: a label showing resistance to cigarette and match ignition confirms the fabric and filling have been tested. From July 2026, the fire safety requirements for domestic upholstered furniture are those of the EU General Product Safety Regulation, Regulation (EU) 2023/988.",
+    "prompt": "Explain how the choice of fabric, filling and fire-retardant treatment for an upholstered sofa can reduce fire risk in the home.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s3": {
+  "keyTerms": [
+   {
+    "definition": "A fibre obtained directly from a plant or animal, which needs only cleaning and processing before it is spun into yarn.",
+    "term": "Natural fibre"
+   },
+   {
+    "definition": "A man-made fibre formed by dissolving a natural polymer, usually cellulose, and reforming it as a fibre.",
+    "term": "Regenerated fibre"
+   },
+   {
+    "definition": "A man-made fibre formed from polymers made from chemicals derived from coal or petroleum.",
+    "term": "Synthetic fibre"
+   },
+   {
+    "definition": "A natural polymer found in plant cell walls, the main component of cotton, linen and wood pulp.",
+    "term": "Cellulose"
+   },
+   {
+    "definition": "A natural fibre made of protein, such as wool (keratin) or silk (fibroin).",
+    "term": "Protein fibre"
+   },
+   {
+    "definition": "A long chain of repeated small molecular units that forms the basis of all fibres.",
+    "term": "Polymer"
+   },
+   {
+    "definition": "A small molecule that links with others to form a polymer.",
+    "term": "Monomer"
+   },
+   {
+    "definition": "A metal plate with many fine holes through which a polymer is forced to form filaments.",
+    "term": "Spinneret"
+   },
+   {
+    "definition": "Natural, regenerated and synthetic.",
+    "term": "Three classes of textile fibre"
+   },
+   {
+    "definition": "Cotton (from the seed hairs) and linen (from the flax stem).",
+    "term": "Two natural fibres of plant origin"
+   },
+   {
+    "definition": "Wool (from sheep fleece) and silk (from the silkworm cocoon).",
+    "term": "Two natural fibres of animal origin"
+   },
+   {
+    "definition": "Nylon, polyester, acrylic and elastane.",
+    "term": "Four synthetic fibres"
+   },
+   {
+    "definition": "Cellulose from wood pulp, dissolved in chemicals and reformed as a fibre.",
+    "term": "Raw material for viscose fibre"
+   },
+   {
+    "definition": "A metal plate with many fine holes, through which the polymer is forced and solidified into filaments.",
+    "term": "Device that forms filaments from a polymer"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fibres are grouped by where their raw material comes from and how the fibre is formed.",
+    "h": "Classification of textile fibres",
+    "points": [
+     "Natural fibres are obtained directly from plants or animals and need only cleaning and processing before they are spun into yarn.",
+     "Natural fibres of plant origin are made of cellulose; natural fibres of animal origin are made of protein.",
+     "Regenerated fibres are made by dissolving a natural polymer, usually cellulose, and forcing the solution through a spinneret so that it reforms as a fibre.",
+     "Synthetic fibres are made from polymers built from chemicals derived from coal or petroleum.",
+     "Diagram: a classification tree branching from textile fibres into natural (plant and animal), regenerated and synthetic, with one named example at the end of each branch."
+    ]
+   },
+   {
+    "h": "Natural fibres: sources and uses",
+    "points": [
+     "Cotton: a cellulose fibre from the seed hairs of the cotton plant; used for shirts, towels, bed linen and denim.",
+     "Linen: a cellulose fibre from the stem of the flax plant; used for tea towels, tablecloths and summer clothing.",
+     "Wool: a protein fibre from the fleece of sheep; used for knitwear, tweed, blankets and carpets.",
+     "Silk: a protein filament from the cocoon of the silkworm; used for scarves, ties, formal wear and luxury bedding.",
+     "Cotton and linen absorb moisture readily and are cool to wear; wool and silk are warm because they trap air in their structure."
+    ]
+   },
+   {
+    "h": "Regenerated fibres: sources and uses",
+    "points": [
+     "Viscose (rayon): cellulose from wood pulp is treated with chemicals, dissolved and forced through spinnerets into a chemical bath, where the fibre reforms.",
+     "Viscose is absorbent, drapes well and dyes well; it is used for dresses, linings and soft furnishings.",
+     "Acetate: cellulose is chemically modified with acetic acid, dissolved and extruded to form a fibre with a silky, lustrous appearance.",
+     "Acetate drapes well and is used for linings, blouses and ties.",
+     "Regenerated fibres start from a plant-based raw material, so they are not made from petroleum-based chemicals."
+    ]
+   },
+   {
+    "h": "Synthetic fibres: sources and uses",
+    "points": [
+     "Nylon (polyamide): made from chemicals derived from coal or petroleum; used for hosiery, swimwear, jackets and carpets.",
+     "Polyester: made from petroleum-based chemicals; used for shirts, fleece, curtains and bed linen.",
+     "Acrylic: made from a polymer of acrylonitrile; it resembles wool in warmth and is used for knitwear, socks and blankets.",
+     "Elastane (Lycra): a stretch fibre that is usually blended in small amounts with other fibres for swimwear, sportswear and hosiery.",
+     "Synthetic fibres can be produced in a range of thicknesses and lustres by changing the spinneret holes and the amount of drawing."
+    ]
+   },
+   {
+    "h": "Regenerated and synthetic fibres compared",
+    "points": [
+     "Source: regenerated fibres begin with a natural polymer, cellulose from wood pulp; synthetic fibres begin with small molecules, called monomers, made from coal or petroleum.",
+     "Process: regenerated fibres are dissolved and reformed from an existing natural polymer; synthetic fibres are formed by linking monomers into a polymer, then extruding it.",
+     "Moisture: regenerated fibres such as viscose absorb moisture like cotton; synthetic fibres such as polyester absorb little moisture and dry quickly.",
+     "Heat: nylon and polyester melt at high temperatures, whereas viscose chars and burns like cotton.",
+     "Example: a viscose blouse is more absorbent and comfortable next to the skin; a polyester blouse resists creasing and dries more quickly."
+    ]
+   },
+   {
+    "h": "Making man-made fibres",
+    "points": [
+     "A molten polymer or a polymer solution is forced through a spinneret, a metal plate with many fine holes.",
+     "The emerging streams solidify as they cool in air, or as the solution sets in a chemical bath.",
+     "The filaments are drawn, or stretched, to align their molecules and increase their strength.",
+     "Diagram: a spinneret cross-section showing polymer pumped through holes, forming filaments that are drawn onto a winding bobbin."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Cotton (plant origin): used for towels or shirts. Wool or silk (protein): wool is used for knitwear or blankets; silk is used for scarves or ties. Nylon, polyester or acrylic (synthetic): nylon for hosiery or carpets; polyester for shirts or curtains; acrylic for knitwear or socks.",
+    "prompt": "Name one natural fibre of plant origin, one protein fibre and one synthetic fibre. State one use of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Raw materials: regenerated fibres such as viscose and acetate start from cellulose, usually from wood pulp; synthetic fibres such as nylon and polyester start from chemicals derived from coal or petroleum. Manufacture: cellulose is dissolved in chemicals and forced through a spinneret to reform as a fibre; synthetic polymers are formed by linking monomers, then extruded through a spinneret and drawn. Properties: viscose is absorbent and drapes well, and it chars and burns like cotton; polyester absorbs little moisture, dries quickly, resists creasing and melts at high temperatures. Examples: viscose for dresses or linings; polyester for shirts, fleece or curtains.",
+    "prompt": "Compare regenerated fibres with synthetic fibres. Refer to their raw materials, how each is made and one property of each, and give one example of each type.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s4": {
+  "keyTerms": [
+   {
+    "definition": "A short fibre, such as cotton or wool, that must be spun together with other fibres to make a yarn.",
+    "term": "Staple fibre"
+   },
+   {
+    "definition": "A continuous, very long fibre, such as silk or a man-made fibre, that can be twisted into a yarn without spinning.",
+    "term": "Filament"
+   },
+   {
+    "definition": "The process of separating cotton fibres from their seeds and removing large impurities.",
+    "term": "Ginning"
+   },
+   {
+    "definition": "The process of combing fibres into a loose, aligned web and drawing them into a sliver.",
+    "term": "Carding"
+   },
+   {
+    "definition": "A treatment of cotton with caustic soda under tension, which increases its lustre, strength and affinity for dye.",
+    "term": "Mercerising"
+   },
+   {
+    "definition": "A process that crimps or loops filaments to add bulk, softness and warmth to a yarn.",
+    "term": "Texturising"
+   },
+   {
+    "definition": "A method of identifying a fibre by observing how it burns, whether it melts, its smell and the residue it leaves.",
+    "term": "Burning test"
+   },
+   {
+    "definition": "A method of identifying a fibre by its shape, surface and cross-section when viewed under magnification.",
+    "term": "Microscopic evaluation"
+   },
+   {
+    "definition": "A yarn made from two or more different fibres mixed together to combine their properties.",
+    "term": "Blended yarn"
+   },
+   {
+    "definition": "The burning test and microscopic evaluation.",
+    "term": "Two methods of identifying a fibre"
+   },
+   {
+    "definition": "Harvesting the bolls, ginning, cleaning and blending, and carding.",
+    "term": "Four stages of cotton fibre production"
+   },
+   {
+    "definition": "The polymer is formed from monomers, extruded through a spinneret, and cooled and drawn into filament.",
+    "term": "Three stages in making nylon filament"
+   },
+   {
+    "definition": "It burns readily with a steady flame, smells of burning paper, keeps burning when removed and leaves soft grey ash.",
+    "term": "Burning test result for cotton"
+   },
+   {
+    "definition": "It burns slowly, self-extinguishes, smells of burning hair and leaves a crushable black bead.",
+    "term": "Burning test result for wool"
+   },
+   {
+    "definition": "A flat, twisted ribbon with natural convolutions and a central canal (lumen).",
+    "term": "Microscopic feature of cotton"
+   },
+   {
+    "definition": "Overlapping scales on the surface of each fibre.",
+    "term": "Microscopic feature of wool"
+   },
+   {
+    "definition": "Crimping (or false-twist texturising) and air-jet texturing.",
+    "term": "Two ways filament yarn is textured"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A profile follows one named fabric from its fibre to its end use, with the evidence used to identify it.",
+    "h": "Structure of a fabric profile",
+    "points": [
+     "Fibre content: name the fabric and its fibres, e.g. woven cotton or knitted polyester.",
+     "Fibre production: how the fibre is obtained from its raw material, or made from a polymer.",
+     "Yarn production: how the fibres become a yarn, by spinning staple fibres or by twisting filaments.",
+     "Properties: two or three properties, each linked to the fibre structure or the yarn.",
+     "Identification: the burning test result and the microscopic appearance of the fibres.",
+     "Uses: suitable household or clothing uses, with a reason based on the properties."
+    ]
+   },
+   {
+    "h": "Natural fabric profile: woven cotton",
+    "points": [
+     "Fibre production: cotton bolls open when the plant matures, and the fibres are harvested by hand or machine.",
+     "Ginning: machines separate the fibres from the seeds and remove large impurities.",
+     "Cleaning and blending: fibres are cleaned and mixed so that the yarn is uniform.",
+     "Carding: fibres are combed into a loose web and drawn into a continuous sliver.",
+     "Spinning: the sliver is twisted into yarn; combing before spinning removes short fibres and gives a finer, smoother yarn.",
+     "Properties: absorbent, strong and stronger when wet, cool to wear, and creases easily unless treated.",
+     "Burning test: cotton burns readily with a steady flame, smells of burning paper, keeps burning when removed from the flame and leaves a soft grey ash.",
+     "Microscope: each fibre is a flat, twisted ribbon with natural twists (convolutions) and a central canal (lumen).",
+     "Uses: towels, bed linen and shirts, where absorbency and washability matter."
+    ]
+   },
+   {
+    "h": "Manufactured fabric profile: nylon",
+    "points": [
+     "Polymer: two monomers, a diamine and a dicarboxylic acid, in equal proportions are heated to form a long nylon polymer.",
+     "Extrusion: the molten polymer is forced through a spinneret, a plate with many fine holes.",
+     "Cooling and drawing: the filaments solidify as they cool, then are drawn to align their molecules and increase strength.",
+     "Yarn production: the continuous filaments are twisted together into a filament yarn, which can be textured to add bulk.",
+     "Properties: very strong, elastic, abrasion resistant, lightweight, low in absorbency and quick drying.",
+     "Burning test: nylon melts and shrinks away from the flame, forms a hard bead and gives off a chemical smell.",
+     "Microscope: smooth, uniform filaments with a round cross-section and no scales or convolutions.",
+     "Uses: hosiery, swimwear, lingerie, jackets and carpets."
+    ]
+   },
+   {
+    "h": "Blended fabric profile: polyester and cotton (Higher Level only)",
+    "points": [
+     "Blend: polyester and cotton fibres are mixed together, usually in the same yarn, to combine the properties of both.",
+     "Yarn production: the staple fibres are blended before carding, then drawn and spun into one yarn; a blend can also be made by using different fibre yarns for the warp and weft.",
+     "Properties: cotton gives absorbency and comfort, while polyester gives crease resistance, strength and quick drying.",
+     "Compared with pure cotton, the blend dries faster and is easier to iron.",
+     "Burning test: mixed results, as the blend burns like cotton and melts like polyester; the test is indicative only.",
+     "Microscope: both fibre types are visible in the same sample, with cotton's twisted ribbon structure beside polyester's smooth filaments.",
+     "Uses: shirts, school uniforms, bed linen and curtains."
+    ]
+   },
+   {
+    "h": "Yarn and filament modification (Higher Level only)",
+    "points": [
+     "Filament modification changes a continuous filament yarn so that it is bulkier, softer or stretchier, without changing the polymer.",
+     "Crimping and texturising: the filaments are crimped or looped, trapping air to give bulk and warmth; bulked polyester such as Crimplene is an example.",
+     "Air-jet texturing: compressed air loops the filaments, giving bulk without mechanical crimping.",
+     "Heat setting: a textured yarn is heated under tension so that it keeps its crimp or loops in the finished fabric.",
+     "Mercerising: cotton yarn or fabric is treated with caustic soda under tension, which gives extra lustre, strength and a better affinity for dye.",
+     "Textured or slub yarns: uneven thick and thin sections, or loops added to a yarn, create surface interest in a fabric."
+    ]
+   },
+   {
+    "b": "Fibre identification is an investigation in which a known control sample is compared with an unknown sample.",
+    "h": "Investigation: identifying a fibre by burning and microscope",
+    "points": [
+     "Aim: to identify an unknown fabric sample from its burning behaviour and its microscopic appearance.",
+     "Method: remove any finish where possible, hold a small fibre sample with forceps and bring it slowly towards a flame held over a non-flammable surface.",
+     "Observations: record how the fibre burns, whether it melts, the smell, and the appearance of the residue.",
+     "Control: test a known sample of cotton, wool or nylon under the same conditions, and compare the results.",
+     "Microscope: mount a few fibres in water on a slide, examine them under magnification and compare their shape with the reference descriptions.",
+     "Safety: ventilate the room, keep water and a fire blanket nearby, and do not breathe in fumes from the burning sample.",
+     "Conclusion: the fibre is identified when both the burning result and the microscopic appearance match a known fibre."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Remove any finish, hold a small sample with forceps and bring it slowly to a flame over a non-flammable surface. Wool burns slowly, shrinks and curls away, tends to self-extinguish when removed, smells of burning hair and leaves a crushable black bead. Nylon melts and shrinks away from the flame, forms a hard bead and gives off a chemical smell. Compare the results with a known wool and a known nylon control, and ventilate the room with water and a fire blanket nearby.",
+    "prompt": "Describe how a burning test could show whether an unknown sample is wool or nylon.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Fibre production: a polymer is formed by heating monomers together; the molten polymer is extruded through a spinneret, cooled and drawn into filaments. Yarn production: the continuous filaments are twisted into a filament yarn, which can be textured to add bulk and warmth. Properties: polyester is strong, crease resistant, quick drying and low in absorbency; nylon is strong, elastic and abrasion resistant. Identification: in a burning test the sample melts and shrinks away from the flame and forms a hard bead; under the microscope the filaments are smooth, uniform and round in cross-section with no scales or convolutions. Use: a polyester shirt or fleece, chosen because it resists creasing and dries quickly, or a nylon carpet, chosen because it is hard wearing.",
+    "prompt": "Prepare a profile of one fabric made from a manufactured fibre. Cover how the fibre is produced, how the yarn is made, two properties of the fabric, the identification results and a suitable use.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5": {
+  "keyTerms": [
+   {
+    "definition": "The lengthwise yarns held under tension on a loom, across which the weft is woven.",
+    "term": "Warp"
+   },
+   {
+    "definition": "The yarns passed across the warp at right angles during weaving.",
+    "term": "Weft"
+   },
+   {
+    "definition": "The tightly woven edge of a woven fabric, formed where the weft turns back, which resists fraying.",
+    "term": "Selvedge"
+   },
+   {
+    "definition": "A weave in which the weft passes over two or more warp yarns before passing under one, forming diagonal lines.",
+    "term": "Twill weave"
+   },
+   {
+    "definition": "A method of knitting in which loops are formed across each row from a single yarn.",
+    "term": "Weft knitting"
+   },
+   {
+    "definition": "The matting of wool fibres together by heat, moisture and agitation so that their scales interlock.",
+    "term": "Felting"
+   },
+   {
+    "definition": "A treatment applied to a fabric to improve its performance, such as crease resistance, water repellence or stain resistance.",
+    "term": "Functional finish"
+   },
+   {
+    "definition": "A dye that forms strong chemical bonds with cellulose fibres such as cotton and linen.",
+    "term": "Reactive dye"
+   },
+   {
+    "definition": "A printing method in which ink is pushed through a stencilled mesh screen onto the fabric, with one screen for each colour.",
+    "term": "Screen printing"
+   },
+   {
+    "definition": "A design method in which a shaped piece of fabric is attached to a background by stitching.",
+    "term": "Appliqué"
+   },
+   {
+    "definition": "A performance test that measures how far a folded fabric opens after a set load is removed.",
+    "term": "Crease-recovery test"
+   },
+   {
+    "definition": "Plain, twill and satin.",
+    "term": "Three basic weave structures"
+   },
+   {
+    "definition": "Plain (jersey), rib and purl.",
+    "term": "Three basic knit structures"
+   },
+   {
+    "definition": "Screen printing and roller printing.",
+    "term": "Two printing methods used on cotton"
+   },
+   {
+    "definition": "Appliqué, embroidery, quilting and smocking.",
+    "term": "Four design application methods"
+   },
+   {
+    "definition": "It reduces wrinkling in use and washing, and it may slightly reduce the fabric's strength and absorbency.",
+    "term": "Two effects of a crease-resistant finish"
+   },
+   {
+    "definition": "Fold a sample under a set load, release it and measure the angle it opens to with a protractor; the wider the angle, the better the recovery.",
+    "term": "How crease recovery is measured"
+   },
+   {
+    "definition": "Acid dyes, applied in an acidic dye bath.",
+    "term": "Dye class used for wool and silk"
+   },
+   {
+    "definition": "Water repellence, stain resistance and anti-static.",
+    "term": "Three functional finishes other than crease resistance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Woven fabric is made by interlacing two sets of yarns at right angles on a loom.",
+    "h": "Fabric construction: weaving",
+    "points": [
+     "Warp yarns run lengthways and are held under tension on the loom; weft yarns are passed across them at right angles.",
+     "Plain weave: each weft yarn passes alternately over and under each warp yarn; it is the simplest and most stable interlacing, used for calico and cotton shirting.",
+     "Twill weave: each weft passes over two or more warp yarns before passing under one, and the pattern shifts each row, forming diagonal lines; twill is more drapable and hard wearing than plain weave, as in denim.",
+     "Satin weave: long floats of yarn cross the surface with few interlacings, giving a smooth, lustrous face that is less durable and more prone to snagging.",
+     "Selvedges: the tightly woven edges formed where the weft turns back, which resist fraying.",
+     "Diagram: interlacing grids for plain, twill and satin weaves, marking the warp and weft yarns that pass over or under at each crossing."
+    ]
+   },
+   {
+    "b": "Knitted fabric is formed from interlocking loops, so it stretches and recovers its shape.",
+    "h": "Fabric construction: knitting",
+    "points": [
+     "Weft knitting: loops are formed across each row, so one yarn can make the whole fabric; warp knitting forms loops along the length of the fabric.",
+     "Plain (jersey) knit: loops are formed in one direction on each row, giving a smooth face and a looped reverse; it stretches across the width and is used for T-shirts.",
+     "Rib knit: knit and purl columns alternate, typically 1 by 1, giving elasticity in both directions; used for cuffs and waistbands.",
+     "Purl knit: loops are pulled to the reverse side, producing the purl face of a fabric, the reverse of a plain knit.",
+     "Double knit: two sets of needles make a double-thickness fabric that is warm and reversible.",
+     "Knitted fabric is warm because its loops trap air, drapes well and can be knitted into shaped garments with few seams.",
+     "Hand-knitted fabric has greater stretch than machine-knitted fabric, depending on the yarn used and the looping structure."
+    ]
+   },
+   {
+    "h": "Felting and bonding (Higher Level only)",
+    "points": [
+     "Felting: wool fibres are matted together by heat, moisture and agitation; the scales on each fibre interlock, so no yarn is needed.",
+     "Non-woven bonding: fibres are fixed into a web using adhesive, heat or needle punching, forming a fabric without weaving or knitting.",
+     "Needle punching: barbed needles push fibres through a web, interlocking them mechanically.",
+     "Felt is used for hats, interlinings and insulation; bonded non-woven fabrics are used for interlinings and disposable items."
+    ]
+   },
+   {
+    "b": "A finish is applied after weaving or knitting to change the fabric's appearance, handle or performance.",
+    "h": "Functional finishes",
+    "points": [
+     "Crease-resistant finish: a resin finish cross-links the cellulose in cotton and linen so the fabric resists wrinkling; it can slightly reduce strength and absorbency.",
+     "Water-repellent finish: a silicone or fluorocarbon coating makes water bead on the surface while the fabric stays breathable.",
+     "Stain-resistant finish: a fluorocarbon finish makes spills bead up on the surface so they can be wiped away before they soak in.",
+     "Anti-static finish: applied to synthetic fibres, or added through a fabric conditioner, to reduce static build-up.",
+     "Flame-retardant finish: described under the safety topic in this chapter; it is a functional finish for household textiles."
+    ]
+   },
+   {
+    "h": "Calendering and shrink resistance (Higher Level only)",
+    "points": [
+     "Calendering: fabric is passed between heated rollers under pressure, flattening the surface to give a smooth, glossy or embossed finish.",
+     "Shrink resistance: a finish or controlled pre-treatment reduces the shrinkage of cotton and wool during washing."
+    ]
+   },
+   {
+    "b": "Colour is applied either by dyeing the yarn or fabric, or by printing a design onto the surface.",
+    "h": "Colour application",
+    "points": [
+     "Reactive dyes form strong chemical bonds with cotton and linen, giving bright, washfast colour.",
+     "Acid dyes are used on protein fibres such as wool and silk, and on nylon, in an acidic dye bath.",
+     "Disperse dyes are used on polyester and acetate, applied as fine particles dispersed in water.",
+     "Yarn dyeing: yarn is dyed before weaving or knitting, producing stripes, checks and tweeds.",
+     "Piece dyeing: the finished fabric is dyed in one plain colour after it has been constructed.",
+     "Screen printing: a stencil on a fine mesh screen blocks off the areas that should not print, and ink is pushed through the open mesh with a squeegee; each colour needs its own screen.",
+     "Roller printing: engraved rollers, one for each colour, print the fabric continuously and quickly, suited to long runs.",
+     "Resist dyeing: wax (batik) or tying (tie-dye) stops dye reaching parts of the fabric, leaving a pattern.",
+     "Diagram: cross-section of a screen-printing stage showing the screen, stencil, squeegee, ink and fabric beneath."
+    ]
+   },
+   {
+    "b": "Design is applied to a fabric by adding decoration once the fabric has been made.",
+    "h": "Design application",
+    "points": [
+     "Appliqué: a shaped piece of fabric is attached to a background with stitching; raw edges are turned under or satin stitched.",
+     "Embroidery: decorative threads are stitched onto the fabric surface by hand or machine, e.g. cross stitch or chain stitch.",
+     "Quilting: a top fabric, wadding and backing are stitched together through all layers, trapping the wadding in a pattern.",
+     "Patchwork: pieces of fabric are sewn together to form a design, often combined with quilting.",
+     "Smocking: fabric is gathered and held in pleats by stitching in a pattern, giving stretch and decoration, often on children's clothing.",
+     "Embossing: a heated, patterned roller presses a raised design into the fabric surface.",
+     "Beading and sequins: small pieces are sewn on by hand or machine to add sparkle and texture."
+    ]
+   },
+   {
+    "b": "Performance tests compare fabrics under identical conditions to judge their suitability for a particular use.",
+    "h": "Fabric performance testing (Higher Level only)",
+    "points": [
+     "Fair test: samples are cut to the same size with the grain in the same direction, conditioned in the same room, and tested under the same load and time.",
+     "Crease-recovery test: a sample is folded in half, placed under a set weight for a set time, then released and left to recover; the angle between the two halves is measured with a protractor, and the angle closest to 180 degrees shows the best recovery.",
+     "Absorbency test: a set volume of water is dropped onto the fabric and the time it takes to soak in is recorded; a fabric that absorbs quickly is suited to towels.",
+     "Colourfastness test: a sample is sewn between white fabrics and washed in a detergent solution; the change in colour of the sample and the staining of the white fabrics are compared with a grey scale.",
+     "Shrinkage test: a sample is measured, washed at a set temperature, dried and measured again, and the percentage change is calculated.",
+     "Repeat each test and calculate an average so that a single result does not mislead."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Weaving and knitting. Weaving: warp yarns are held under tension on a loom and weft yarns pass across them at right angles, with each weft passing over and under the warp in a set pattern to interlace the two sets of yarns. Knitting: loops of yarn are pulled through previous loops to form a fabric; loops formed across each row give weft knitting, which stretches and recovers its shape.",
+    "prompt": "Name two fabric construction techniques and describe how one of them forms a fabric.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Construction: a plain or twill weave gives a stable, durable fabric suited to shirts or workwear, while a knitted fabric stretches and recovers its shape, suiting T-shirts and sportswear. Finish: a crease-resistant resin finish on cotton reduces wrinkling and suits a shirt that must look neat after washing, though it may slightly reduce strength. Colour: screen printing, with one screen per colour, gives a clear, repeatable pattern on a cotton fabric, while reactive dyes give bright, washfast colour. Design: appliqué or embroidery adds decoration to a fabric without weakening it and suits a child's garment. Performance testing: a crease-recovery test, carried out under identical conditions, measures how far a folded sample opens, so that a shirt fabric can be chosen with the best recovery; an absorbency test shows whether a fabric suits towels.",
+    "prompt": "Discuss how the construction, finish, colour application, design application and performance testing of a fabric affect its suitability for its end use. Refer to at least one functional finish, one colour application method, one design application method and one performance test.",
     "type": "short"
    }
   ]
