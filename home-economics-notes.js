@@ -5682,6 +5682,605 @@
    }
   ]
  },
+ "hom-family-caring-s1": {
+  "keyTerms": [
+   {
+    "definition": "The sequence of stages a family passes through, from couple to childbearing, child-rearing, launching and later life, each with different roles and demands.",
+    "term": "Family life cycle"
+   },
+   {
+    "definition": "The parental responsibility to supply the food, clothing, shelter and money the family needs.",
+    "term": "Provider role"
+   },
+   {
+    "definition": "The process through which family members learn language, values, norms and the behaviour expected in their society.",
+    "term": "Socialisation"
+   },
+   {
+    "definition": "A traditional division of family tasks by gender, with men as breadwinners and women as homemakers and carers.",
+    "term": "Segregated roles"
+   },
+   {
+    "definition": "A household in which both partners are in paid employment.",
+    "term": "Dual-earner family"
+   },
+   {
+    "definition": "A family in which one parent has sole day-to-day responsibility for the children.",
+    "term": "Lone-parent family"
+   },
+   {
+    "definition": "A clash between the demands of two or more roles held by one person that cannot all be met at the same time.",
+    "term": "Role conflict"
+   },
+   {
+    "definition": "A situation in which one person has more responsibilities than the time or resources available allow them to fulfil.",
+    "term": "Role overload"
+   },
+   {
+    "definition": "Adults who care for ageing parents while also raising or supporting their own children.",
+    "term": "Sandwich generation"
+   },
+   {
+    "definition": "Provider, nurturer, educator and protector.",
+    "term": "Four main roles of parents"
+   },
+   {
+    "definition": "Increased paid work by women, growth in lone-parent families, and smaller families.",
+    "term": "Three social factors that have changed family roles"
+   },
+   {
+    "definition": "Rising housing and childcare costs that make two incomes necessary, and the longer working hours needed to meet them.",
+    "term": "Two economic factors that have changed family roles"
+   },
+   {
+    "definition": "Contributing to household tasks, managing their own schoolwork, respecting family rules and privacy, and making responsible decisions within agreed limits.",
+    "term": "Four responsibilities of adolescents in the family"
+   },
+   {
+    "definition": "Work-family conflict, between paid employment and parenting, and role overload, where there are too many roles for the time available.",
+    "term": "Two common forms of role conflict"
+   },
+   {
+    "definition": "Age, health and the number of dependants in the household.",
+    "term": "Three factors that alter a member's role over the life cycle"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Family roles change as members move through stages, and each stage brings different responsibilities.",
+    "h": "Family life cycle and changing roles",
+    "points": [
+     "Couple stage: partners set up a shared home and divide household tasks, often according to paid work, time and skills.",
+     "Childbearing and child-rearing stage: parents take on the provider, nurturing, educating and socialising roles, and the workload is at its peak.",
+     "Adolescent stage: children take on more household tasks and independent responsibilities while parents move from direct control towards guidance.",
+     "Launching stage: grown children leave home, and parents' roles change from daily care to advice and support at a distance.",
+     "Later life stage: older members may move from giving care to needing it, and adult children often take on practical and financial support for them."
+    ]
+   },
+   {
+    "h": "Main roles of parents",
+    "points": [
+     "Provider: supplying food, clothing, shelter and money for the family's needs.",
+     "Nurturer: giving love, affection and emotional security.",
+     "Educator: teaching skills, language, values and good habits through daily routines and example.",
+     "Socialiser: introducing children to the norms, beliefs and behaviour expected in family and community.",
+     "Protector: ensuring safety, supervising children and making decisions in their best interests.",
+     "Manager: planning the household budget, meals, schedules and maintenance of the home.",
+     "Disciplinarian: setting boundaries and consequences that are explained and applied consistently."
+    ]
+   },
+   {
+    "h": "Roles of adolescents in the family",
+    "points": [
+     "Contributing to the household: helping with cooking, cleaning, shopping and minding younger siblings.",
+     "Managing their own schoolwork, timekeeping and personal belongings.",
+     "Developing independence: making decisions about friends, leisure and part-time work within agreed limits.",
+     "Respecting family rules and the privacy of others in shared space.",
+     "Some adolescents earn money through part-time work, or give informal care to a sibling or grandparent."
+    ]
+   },
+   {
+    "h": "Gender and family roles",
+    "points": [
+     "Traditional segregated roles assigned men as breadwinners and women as homemakers and primary carers of children.",
+     "Where women work outside the home, they often still carry the larger share of domestic work and childcare.",
+     "Men's roles have expanded to include direct childcare, cooking and shared decision-making, and some fathers take the primary caring role.",
+     "Gender stereotypes can limit children's roles, for example expecting girls to help in the kitchen and boys to do outdoor jobs.",
+     "Sharing household tasks equally reduces overload and resentment, and gives children a model of shared responsibility.",
+     "Adult daughters often take on more of the care of ageing parents than sons do."
+    ]
+   },
+   {
+    "h": "Social and economic factors changing family roles (Higher Level only)",
+    "points": [
+     "Women's participation in paid employment has increased, so many households depend on two earners and domestic roles have had to be shared.",
+     "Lone-parent families have increased, so one adult often carries the provider, carer and household roles alone.",
+     "Smaller families, by choice or because of later marriage and childbearing, mean each child receives more parental time and money.",
+     "Rising housing, childcare and education costs make two incomes necessary for many households, shifting the provider role to both partners.",
+     "Longer working hours and commuting reduce the time available for family meals, shared activities and housework.",
+     "Longer life expectancy means some families care for parents or grandparents while still raising children, a pattern called the sandwich generation.",
+     "Labour-saving appliances reduce the time needed for housework, which allows household tasks to be divided differently.",
+     "Greater acceptance of cohabitation, separation and blended families has created new parenting roles, such as step-parent."
+    ]
+   },
+   {
+    "b": "Role conflict arises when the demands of two or more roles held by one person cannot be met at the same time.",
+    "h": "Role conflict (Higher Level only)",
+    "points": [
+     "Work-family conflict: a parent is needed at work during the hours a child is ill or has a school event.",
+     "Role overload: one person carries too many responsibilities, such as employee, parent, carer and homemaker, for the time available.",
+     "Conflict between partners over who does which tasks, or whose career takes priority.",
+     "Intergenerational conflict: an adult may have to care for an older parent while still raising children at home.",
+     "Consequences include fatigue, reduced quality of parenting, tension between partners and guilt.",
+     "Reducing conflict: explicit agreement on the division of tasks, flexible working arrangements, shared decision-making and help from extended family or services."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a brief explanation. Women's increased participation in paid employment means that domestic roles and childcare are shared more between partners, or handled by paid services. Smaller families and later childbearing mean parents give each child more time and money. Rising housing and childcare costs mean many households need two incomes, so the provider role is shared by both partners.",
+    "prompt": "Outline three ways in which the roles of family members have changed in recent times.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Life cycle: couples share household tasks; during childbearing and child-rearing, parents carry the provider, nurturing, educating, socialising and protecting roles; adolescents take on household tasks and gradual independence while parents move towards guidance; launching brings a shift to advice from a distance; in later life older members may need care and adult children take on practical and financial support. Social factors: more women in paid work, growth of lone-parent and smaller families, later marriage and childbearing, and acceptance of cohabitation and blended families. Economic factors: rising housing, childcare and education costs require two incomes, longer working hours reduce time for household tasks, and labour-saving appliances allow tasks to be divided differently. Full marks need the stages in order, a role or responsibility at each stage, and at least one social and one economic factor explained with its effect on roles.",
+    "prompt": "Discuss how the roles and responsibilities of family members change through the family life cycle, and analyse the social and economic factors that have changed these roles.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-caring-s2": {
+  "keyTerms": [
+   {
+    "definition": "The basic requirements for survival and growth, including food, shelter, clothing, warmth, sleep, health care and protection.",
+    "term": "Physical needs"
+   },
+   {
+    "definition": "The emotional requirements for healthy development, including love, security, praise, stimulation and a sense of belonging.",
+    "term": "Psychological needs"
+   },
+   {
+    "definition": "The strong emotional bond formed between a young child and a consistent caregiver, which underpins security and trust.",
+    "term": "Attachment"
+   },
+   {
+    "definition": "A person's sense of their own worth, built through love, praise and experience of success.",
+    "term": "Self-esteem"
+   },
+   {
+    "definition": "Listening fully, without interrupting, and checking understanding before responding, so that the speaker feels heard.",
+    "term": "Active listening"
+   },
+   {
+    "definition": "A process in which two sides discuss differing views to reach an agreement both can accept.",
+    "term": "Negotiation"
+   },
+   {
+    "definition": "An agreement in which each side gives up part of its position so that a solution can be reached.",
+    "term": "Compromise"
+   },
+   {
+    "definition": "A court order that places a child at risk under the care of the State, usually for a set period.",
+    "term": "Care order"
+   },
+   {
+    "definition": "A short-term court order that removes a child from immediate danger when there is an urgent risk to the child's welfare.",
+    "term": "Emergency care order"
+   },
+   {
+    "definition": "Food, shelter, clothing and protection from harm.",
+    "term": "Four physical needs of young children"
+   },
+   {
+    "definition": "Love, security and trust, praise and encouragement, and learning stimulation.",
+    "term": "Four psychological needs of young children"
+   },
+   {
+    "definition": "The right to life, name and nationality; the right to be raised by parents unless this is against the child's interests; the right to protection from abuse and neglect; and the right to education.",
+    "term": "Four rights of children within the family"
+   },
+   {
+    "definition": "Problems are raised before they escalate, rules are explained and agreed, and household plans are shared.",
+    "term": "Three ways open communication prevents conflict"
+   },
+   {
+    "definition": "Adolescents seek independence; peer and media values differ from family values; and adults expect responsibility without granting matching freedom.",
+    "term": "Three reasons adolescents and parents clash"
+   },
+   {
+    "definition": "Firm but fair discipline; listening and defining the issue; negotiation and compromise; and a home atmosphere where adolescents can talk freely.",
+    "term": "Four ways to deal with conflict between adolescents and adults"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Young children depend entirely on adults to meet their basic needs for growth and survival.",
+    "h": "Physical needs of young children",
+    "points": [
+     "Food: a balanced diet in suitable amounts supports growth, with new foods introduced as the child grows.",
+     "Shelter: a warm, dry, safe home protects children from weather and hazards.",
+     "Clothing: suitable clothing protects against cold and injury and allows free movement.",
+     "Sleep and rest: regular sleep supports growth, concentration and the repair of the body.",
+     "Health care: regular check-ups, immunisation and prompt treatment of illness prevent disease and support healthy development.",
+     "Hygiene: washing, care of teeth and toilet training prevent infection.",
+     "Safety and protection: supervision and safe surroundings prevent accidents and abuse."
+    ]
+   },
+   {
+    "h": "Psychological needs of young children",
+    "points": [
+     "Love and affection: warm physical and verbal affection helps children feel valued.",
+     "Security and trust: a dependable, consistent caregiver teaches children that the world is predictable and safe.",
+     "Attachment: a strong bond with a consistent caregiver forms the basis for later relationships.",
+     "Praise and encouragement: recognising effort builds self-esteem and motivation.",
+     "Stimulation and learning: play, conversation, reading and exploration develop language and thinking.",
+     "Routine and boundaries: consistent limits help children learn self-control and understand expectations.",
+     "Social contact: interaction within the family teaches children to form friendships and relate to others."
+    ]
+   },
+   {
+    "h": "Needs of adolescents",
+    "points": [
+     "Growth: rapid growth increases the body's need for energy, protein, calcium and iron.",
+     "Sleep: adolescents need extended sleep, and changes in their body clock can make early starts difficult.",
+     "Independence: adolescents need increasing freedom to make choices, with parents gradually reducing direct control.",
+     "Identity and self-esteem: adolescents build a personal identity through relationships, interests and feedback from others.",
+     "Peer acceptance: friendships become central, so a safe place at home to meet friends supports them.",
+     "Privacy: adolescents need personal space and private time, which parents should respect.",
+     "Emotional support: adolescents need to be listened to without judgement when problems arise."
+    ]
+   },
+   {
+    "h": "How the family meets children's needs",
+    "points": [
+     "Daily routines: regular meal, sleep and homework times give structure and security.",
+     "Modelling: children learn behaviour, language and values by watching how adults act.",
+     "Teaching: parents teach self-care, manners, safety and social skills during everyday activities.",
+     "Health monitoring: parents arrange medical care, watch for illness and promote healthy eating and exercise.",
+     "Responsiveness: a prompt response to a child's distress builds attachment and trust.",
+     "The home is where language, values and early skills are first learned, before formal schooling begins."
+    ]
+   },
+   {
+    "h": "Rights of children within the family",
+    "points": [
+     "Right to life, and to a name and nationality.",
+     "Right to be cared for by parents and to live with them, unless this would be contrary to the child's interests.",
+     "Right to protection from abuse and neglect.",
+     "Right to education and to develop physically, mentally, socially, morally and spiritually.",
+     "Right to rest, play, leisure, culture and recreation.",
+     "Right to basic privacy and to equal treatment within the family and outside the home.",
+     "Right to maintenance, meaning financial support from parents.",
+     "Right to express an opinion and be heard in matters affecting the child, in line with age and maturity."
+    ]
+   },
+   {
+    "h": "Legal protection of children at risk",
+    "points": [
+     "The Child Care Act 1991 sets out the State's duty to protect children whose health, development or welfare is at risk.",
+     "Where a child is at risk, the Act provides for care orders and emergency care orders, which place the child outside the home, for example with a foster family.",
+     "HSE child and family services work with families to prevent harm before court action is needed.",
+     "Parents' rights and duties are balanced against the child's rights, and the State intervenes only where the child's welfare requires it."
+    ]
+   },
+   {
+    "h": "Conflict between adolescents and adults",
+    "points": [
+     "Causes: adolescents seek independence and may feel their parents are out of touch with them.",
+     "Peer and media influence can bring adolescents' values into conflict with the values of their parents.",
+     "Adolescents accept adult responsibilities but are not yet allowed adult freedoms, which causes frustration.",
+     "Relationships with peers and partners can take priority over schoolwork and family commitments, leading to disagreement.",
+     "Parents need to let go gradually and trust young people, while still setting limits.",
+     "Firm but fair discipline: rules are enforced consistently and, where possible, explained and agreed.",
+     "Listening and defining the issue: each side states its view and the problem is named clearly rather than made personal.",
+     "Negotiation and compromise: possible solutions are weighed together and reviewed after a trial period.",
+     "Home atmosphere: adolescents are more likely to resolve conflict when they feel free to talk to parents, who can draw on their greater life experience while still hearing the young person's view."
+    ]
+   },
+   {
+    "h": "Importance of good communication in the family",
+    "points": [
+     "Communication lets members express needs, feelings and opinions, so that each person feels heard, valued and secure.",
+     "Problems discussed openly are more likely to be solved before they become serious conflict.",
+     "Bottled-up feelings can lead to resentment, stress and withdrawal.",
+     "Discussion of spending, meals, childcare and the care of vulnerable members allows household work to be shared fairly.",
+     "Explaining the reasons for rules, rather than simply imposing them, makes them more likely to be accepted.",
+     "Children learn language, empathy and negotiation by taking part in conversation with adults.",
+     "Older members who encourage and praise achievement build confidence in younger members.",
+     "Secrecy or aggressive criticism creates mistrust, loneliness and conflict.",
+     "Active listening means listening without interrupting, using calm language and checking understanding before replying."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a brief explanation. Love and affection: warm physical and verbal affection shows the child is valued. Security and trust: a dependable, consistent caregiver makes the child feel safe. Praise and encouragement: recognising effort builds self-esteem. Stimulation: play, conversation and reading develop language and thinking. Routine and boundaries: consistent limits teach self-control.",
+    "prompt": "Outline three ways in which parents meet the psychological needs of young children.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Needs: adolescents need food and sleep to support rapid growth, privacy and personal space, independence with gradually reduced parental control, a developing identity and self-esteem, peer acceptance, and emotional support when problems arise. Parents meet these needs through routines, respect for privacy, listening without judgement, and a gradual handover of responsibility. Conflict: caused by the search for independence, peer and media influence, the mismatch between adult responsibilities and adult freedoms, and competing priorities such as friendships over schoolwork. Management: firm but fair discipline with rules explained and agreed; listening and defining the issue clearly; negotiation and compromise with a review after a trial period; a home atmosphere where the adolescent feels free to talk. Full marks need the needs, how the family meets them, the causes of conflict and at least two management methods.",
+    "prompt": "Discuss how the family meets the physical and psychological needs of adolescents, and explain how conflict between adolescents and adults can be managed.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-caring-s3": {
+  "keyTerms": [
+   {
+    "definition": "Self-contained units for older people, usually with a warden or manager on hand and shared communal facilities.",
+    "term": "Sheltered housing"
+   },
+   {
+    "definition": "A self-contained living unit built within or attached to a family member's house for an older relative.",
+    "term": "Granny flat"
+   },
+   {
+    "definition": "Friction that arises when the attitudes, values or views of one generation clash with those of another.",
+    "term": "Generation conflict"
+   },
+   {
+    "definition": "A change to a home, such as handrails, ramps or a level-access shower, that allows a person with reduced mobility to live safely and independently.",
+    "term": "Home adaptation"
+   },
+   {
+    "definition": "Full-time accommodation in a nursing or care home, providing nursing and personal care for people with high care needs.",
+    "term": "Residential care"
+   },
+   {
+    "definition": "A community nurse who visits people at home to advise on health, support recovery and identify care needs.",
+    "term": "Public health nurse"
+   },
+   {
+    "definition": "A State entitlement giving free GP visits and certain medicines to people who meet income or health criteria.",
+    "term": "Medical card"
+   },
+   {
+    "definition": "Social and recreational groups for retired people that build friendships and reduce isolation.",
+    "term": "Active retirement"
+   },
+   {
+    "definition": "The bond and interaction between members of different generations within a family.",
+    "term": "Intergenerational relationship"
+   },
+   {
+    "definition": "Adapting the home; using home help and home care services; receiving public health nurse visits and community meals; and using a personal alarm.",
+    "term": "Four ways older people keep their independence at home"
+   },
+   {
+    "definition": "A self-contained unit of their own, a warden or manager on hand for support, and regular contact with neighbours.",
+    "term": "Three advantages of sheltered housing"
+   },
+   {
+    "definition": "Loss of privacy, the risk of generation conflict, and growing dependence on the family.",
+    "term": "Three disadvantages of living with a family member"
+   },
+   {
+    "definition": "Collecting them from school, minding them while parents work, and helping with homework.",
+    "term": "Three ways grandparents support grandchildren"
+   },
+   {
+    "definition": "Differing values and attitudes shaped by different times, and the loss of independence that can make an older person's wishes clash with family decisions.",
+    "term": "Two causes of generation conflict"
+   },
+   {
+    "definition": "Good communication, clear boundaries and expectations, patience and understanding, and compromise through negotiation.",
+    "term": "Four ways to deal with generation conflict"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Independence means an older person keeps control over daily decisions and actions, which supports dignity, health and wellbeing.",
+    "h": "The importance of independence for older people",
+    "points": [
+     "Dignity and self-esteem: making their own decisions protects an older person's sense of worth and identity.",
+     "Physical health: staying active and managing everyday tasks maintains strength, mobility and balance.",
+     "Mental health: making choices and having a purpose reduces the risk of depression and loneliness.",
+     "Family roles: an independent older person needs less care, so the burden on family members is shared more fairly.",
+     "Living in their own home lets older people keep their routines, friends and community ties."
+    ]
+   },
+   {
+    "h": "Ways older people can maintain independence at home",
+    "points": [
+     "Adapting the home: handrails, ramps, non-slip flooring, good lighting, a level-access shower, and a stairlift or downstairs bedroom.",
+     "Sheltered housing: self-contained units with a warden or manager on hand and shared communal facilities.",
+     "Bungalow living: a single-storey home removes the difficulty of stairs.",
+     "Granny flat: a self-contained unit built within or attached to a family member's house, giving privacy with family support nearby.",
+     "Downsizing to a smaller house reduces maintenance, cleaning and running costs.",
+     "Active retirement groups build a social circle and prevent isolation.",
+     "Community meal services provide meals at reduced rates for older people who find cooking difficult.",
+     "Personal alarm systems let an older person call for help in an emergency while living alone."
+    ]
+   },
+   {
+    "h": "Health and home supports available to older people",
+    "points": [
+     "Home help and home care assistants, provided through the HSE, help with personal care and household tasks.",
+     "Public health nurses visit older people at home to address minor health problems and advise on care.",
+     "A medical card gives free GP visits and certain medicines to people who qualify on income or health grounds.",
+     "Free travel schemes make public transport affordable and allow older people to keep going out.",
+     "The State pension gives a regular income to people who have reached pension age, supporting financial independence.",
+     "Means-tested social welfare payments provide income support to older people with insufficient means.",
+     "Neighbours, relatives and voluntary groups provide visits, shopping and company."
+    ]
+   },
+   {
+    "h": "Accommodation options for older people",
+    "points": [
+     "Remaining in their own home: advantages are familiarity, independence and community ties; disadvantages are maintenance costs, isolation and the need for adaptations.",
+     "Living with a family member: advantages are close support and companionship; disadvantages are loss of privacy, possible generation conflict and growing dependence.",
+     "Granny flat or extension: advantages are privacy with family support nearby; disadvantages are the cost of building, the need for planning permission and shared space concerns.",
+     "Sheltered housing: advantages are a self-contained unit, security and contact with neighbours; disadvantages are communal rules and limited choice of location.",
+     "Residential care in a nursing home: advantages are 24-hour nursing and personal care for high needs; disadvantages are loss of the home and of independence, and high cost.",
+     "The choice depends on health, mobility, finances, family support and the older person's own wishes."
+    ]
+   },
+   {
+    "h": "Causes of generation conflict",
+    "points": [
+     "Generation conflict occurs when the attitudes and views of one generation clash with those of another.",
+     "Parents and adolescents disagree over curfews, friends, technology and independence.",
+     "Adults and their own parents may disagree over care, living arrangements, spending or the older person's role in the household.",
+     "Older people may judge younger generations by their own youth without accounting for social changes such as technology and working life.",
+     "Changing moral values and lifestyle choices, such as attitudes to marriage and religion, can divide generations.",
+     "When an older person loses independence, decisions made for them can cause frustration and conflict."
+    ]
+   },
+   {
+    "h": "Dealing with generation conflict",
+    "points": [
+     "Good communication avoids confrontation and lets each generation state its view and listen to the other.",
+     "Clear expectations: everyone should know what is expected of them and where the boundaries lie.",
+     "Patience and understanding: recognising that values change over time reduces hostility.",
+     "Respect for experience: younger people can value the wisdom older generations have gained, and older people can accept change.",
+     "Compromise and negotiation: shared arrangements, such as visiting times or care responsibilities, are agreed together.",
+     "Early action: problems are addressed before they grow, rather than being ignored.",
+     "Regular family meetings create an atmosphere in which family members can talk openly."
+    ]
+   },
+   {
+    "h": "Roles and responsibilities of grandparents",
+    "points": [
+     "Childcare: collecting grandchildren from school or minding them while parents work reduces childcare costs for the family.",
+     "Emotional support: grandparents listen to and reassure children and adults during stressful times.",
+     "Transmitting values: older members pass on values, traditions, culture and family history, giving children identity.",
+     "Practical help: grandparents assist with homework, meals and household maintenance.",
+     "Financial help: grandparents may help adult children with occasional costs, such as a deposit for a house.",
+     "Advice and experience: older people help with decisions and act as positive role models.",
+     "Responsibilities: respecting parents' rules and boundaries, communicating honestly and not undermining parental decisions.",
+     "As they age, the family may need to provide transport, care, money and emotional support to the older person in return."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a brief explanation. Handrails and ramps make moving around safer. A level-access shower or downstairs bedroom removes the need for stairs. Non-slip flooring and good lighting reduce the risk of falls. A stairlift helps if mobility falls. A personal alarm allows the person to call for help.",
+    "prompt": "Outline three ways in which an older person's home can be adapted to support independence.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Grandparents: provide childcare, such as collecting children from school or minding them while parents work; give emotional support and reassurance; pass on values, traditions, culture and family history; help with homework, meals and housework; give financial help with occasional costs; offer advice and act as role models. Their responsibilities include respecting parents' rules, communicating honestly and not undermining parental decisions. Generation conflict: arises when the views of one generation clash with another, for example over childcare, living arrangements or changing values. Management: good communication that lets each side be heard; clear expectations and boundaries; patience and understanding that values change; respect for the experience of older people and the views of younger people; compromise and negotiation on shared arrangements; early action rather than ignoring problems. Full marks need roles with examples and both causes and management methods.",
+    "prompt": "Discuss the role of grandparents in supporting the family, and explain how the family can deal with generation conflict.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-caring-s4": {
+  "keyTerms": [
+   {
+    "definition": "Physical, mental or emotional needs that require support beyond what the usual family routine can provide.",
+    "term": "Special needs"
+   },
+   {
+    "definition": "A service the State is responsible for providing, funded through public money and delivered under official responsibility.",
+    "term": "Statutory service"
+   },
+   {
+    "definition": "An independent, non-profit body that provides services, support or advocacy, usually relying on donations, fundraising and volunteers.",
+    "term": "Voluntary organisation"
+   },
+   {
+    "definition": "Temporary relief for a full-time carer, in which another person looks after the person in need of care for a short period.",
+    "term": "Respite care"
+   },
+   {
+    "definition": "Speaking up for and defending the rights and interests of a person who may find it hard to do so alone.",
+    "term": "Advocacy"
+   },
+   {
+    "definition": "Equipment that helps a person with a disability carry out everyday tasks, such as a wheelchair or a hoist.",
+    "term": "Assistive equipment"
+   },
+   {
+    "definition": "A person, often a family member, who provides regular unpaid care to a relative with ongoing needs.",
+    "term": "Carer"
+   },
+   {
+    "definition": "A lack of contact with family, friends and the community, which can affect a person's health and wellbeing.",
+    "term": "Social isolation"
+   },
+   {
+    "definition": "Limited employment and educational opportunities; social isolation and prejudice; and loss of income with extra costs.",
+    "term": "Three difficulties a family may face when a member has special needs"
+   },
+   {
+    "definition": "Providing care at home; adapting the home; encouraging independence; and claiming all available assistance and grants.",
+    "term": "Four ways a family can respond to a member with a disability"
+   },
+   {
+    "definition": "Statutory services, voluntary organisations, and professionals such as therapists and teachers.",
+    "term": "Three sources of help from outside the family"
+   },
+   {
+    "definition": "Education, training, employment, social care and home services for people with disabilities.",
+    "term": "Five service areas of the Rehab Group"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The family responds practically, emotionally and financially, and usually draws on outside services as well.",
+    "h": "How the family responds to a member with special needs (Higher Level only)",
+    "points": [
+     "Care at home: family members provide daily personal care, supervision and transport, often reorganising work and routines around the member's needs.",
+     "Adapting the home: ramps, wider doorways, grab rails and a downstairs bedroom improve access and safety.",
+     "Encouraging independence: the family builds the member's skills in self-care, communication, mobility and decision-making, within safe limits.",
+     "Working with professionals: doctors, therapists, teachers and social workers plan support together.",
+     "Claiming assistance: families apply for all the State assistance and grants the member qualifies for, including those for equipment and adaptations.",
+     "Emotional support: family members reassure the member, listen to concerns and protect the member's dignity and self-worth.",
+     "Advocacy: families speak up for the member's rights and lobby for better State support."
+    ]
+   },
+   {
+    "h": "Difficulties the family may experience (Higher Level only)",
+    "points": [
+     "Limited employment and educational opportunities for the member restrict independence and income.",
+     "Social isolation and prejudice exclude the member and the family from community life.",
+     "A shortage of help and respite leaves carers exhausted.",
+     "Limited mobility and inaccessible transport and buildings restrict daily life.",
+     "Inadequate State financial support can force a parent to give up paid work to provide full-time care.",
+     "Insufficient medical and educational services cause delays in assessment and support.",
+     "Loss of income and the extra costs of care, equipment and transport place strain on the household budget.",
+     "Siblings may be given added duties and receive less parental attention.",
+     "Challenging behaviour in some conditions strains relationships and daily routines.",
+     "Stress, fatigue and fear for the future, particularly about who will care for the member when parents can no longer do so."
+    ]
+   },
+   {
+    "h": "Statutory and voluntary services (Higher Level only)",
+    "points": [
+     "Statutory services are provided by the State, mainly through the HSE, which offers health, disability and family support services.",
+     "The Department of Health sets national policy for the health and disability services delivered by the HSE.",
+     "Education services for children with special educational needs are provided through schools within the State education system.",
+     "Families can request a formal assessment of health and educational needs in order to access services.",
+     "Voluntary organisations are independent, non-profit bodies that provide services, support and advocacy alongside the State.",
+     "The Rehab Group is an independent non-profit organisation that provides education, training, employment, social care and home services for people with disabilities.",
+     "Rehab Group training programmes include certified courses in areas such as catering and computing.",
+     "Voluntary services can offer respite care, support groups and advocacy that statutory services may not provide."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a brief explanation. Ramps, wider doorways and grab rails make the home accessible. A downstairs bedroom removes the need for stairs. Routines are reorganised around the member's care, for example by arranging work hours, transport and daily supervision. Encouraging the member to learn self-care within safe limits builds independence.",
+    "prompt": "Outline three ways a family can adapt its home and routines to meet the needs of a member with special needs.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Difficulties: limited employment and educational opportunities for the member; social isolation and prejudice; shortage of help and respite, leaving carers exhausted; limited mobility and inaccessible transport; inadequate State financial support, which can force a parent out of paid work; insufficient medical and educational services; loss of income and extra costs; added duties for siblings; stress and fear for the future. Statutory services: the HSE provides health, disability and family support services, the education system provides support for children with special educational needs, and a formal assessment of needs allows access to these services. Voluntary organisations: independent, non-profit bodies such as the Rehab Group offer education, training, employment, social care and home services, and can provide respite care, support groups and advocacy. Full marks need several difficulties explained, at least one statutory and one voluntary service with its role, and a link between the service and the difficulty it addresses.",
+    "prompt": "Discuss the difficulties a family may experience when a member has special needs, and explain how statutory services and voluntary organisations can help.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-fish-seafood-s1": {
   "keyTerms": [
    {
