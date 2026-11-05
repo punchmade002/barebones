@@ -1,0 +1,131 @@
+{
+  "loId": "hom-social-change-s3",
+  "chapterId": "hom-social-change",
+  "subsection": "3. Education and social welfare",
+  "syllabusRef": "6.1",
+  "notes": [
+    {
+      "h": "Improved provision of education",
+      "b": "Access to education has widened across generations, so more children and adults now complete school and continue into further study.",
+      "points": [
+        "Free second-level education was introduced from 1967, removing the fees that had kept many children from completing school.",
+        "Third-level tuition fees were abolished for eligible undergraduates from 1996, widening access to universities and institutes of technology.",
+        "A free pre-school year, the Early Childhood Care and Education scheme, gives every child access to early education before primary school.",
+        "Special needs assistants support pupils with special educational needs within mainstream classrooms.",
+        "The School Completion Programme targets students at risk of leaving school early, through homework clubs, breakfast clubs and individual school retention plans.",
+        "Leaving Certificate Applied is a modular, practical programme assessed over two years, preparing students for work and adult life.",
+        "Youthreach and Transition Year offer practical, work-based and personal development learning to young people in different circumstances.",
+        "Post Leaving Certificate courses and adult education give adults a second route to qualifications for work or further study.",
+        "The Higher Education Access Route, HEAR, improves third-level access for socially disadvantaged students, and DARE does the same for students with disabilities.",
+        "The Back to Education Allowance supports people on eligible social welfare payments to take approved courses."
+      ]
+    },
+    {
+      "h": "Effects of improved education on family life",
+      "points": [
+        "Better-educated parents are better able to help with homework and to encourage children's achievement.",
+        "Women's education has increased their financial independence and their participation in paid employment.",
+        "Educational attainment affects job prospects and earnings, which in turn affect the standard of living of the family.",
+        "Adult education lets parents return to work after raising children, adding a second income to the household."
+      ]
+    },
+    {
+      "h": "Social welfare: purpose and types of payment",
+      "b": "Social welfare is income support paid by the state to people who are unemployed, sick, disabled, retired, widowed or caring for others.",
+      "points": [
+        "Social insurance payments are funded by PRSI contributions from employees and employers, and depend on a record of contributions.",
+        "Means-tested payments depend on an assessment of household income and savings, so they are targeted at households in need.",
+        "Universal payments such as child benefit are paid for each child regardless of parental income.",
+        "Payments for lone parents and for low-income working families support parents who have the main responsibility for children.",
+        "A once-yearly clothing and footwear allowance helps families on low incomes meet the cost of school clothing.",
+        "Medical cards give eligible families access to free GP visits and prescribed medicines."
+      ]
+    },
+    {
+      "h": "Social welfare and family life",
+      "points": [
+        "Welfare payments reduce child poverty by giving families a regular income when a parent is out of work or on a low wage.",
+        "Old age pensions give older people financial independence, reducing their dependence on adult children.",
+        "Carer's payments allow a family member to care for an elderly or disabled relative at home.",
+        "Conditions attached to many payments, such as job-seeking requirements, aim to prevent long-term dependence on welfare.",
+        "Critics argue that welfare can discourage people from taking up low-paid work, which is why work incentives form part of many schemes."
+      ]
+    },
+    {
+      "h": "Practical setting: schooling then and now",
+      "points": [
+        "Ask an older relative how many years they attended school, how many children were in their class and whether they stayed on after the minimum school-leaving age.",
+        "Record the same details for a present-day young person and compare the answers.",
+        "Note which support services, such as special needs assistants and school completion programmes, were not available to the older relative."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Social welfare",
+      "definition": "Income support paid by the state to people who are unemployed, sick, disabled, retired or caring for others."
+    },
+    {
+      "term": "Means test",
+      "definition": "An assessment of household income and savings that decides whether a payment is made and how much it is."
+    },
+    {
+      "term": "Universal payment",
+      "definition": "A payment made to everyone in a category, such as every child, without a means test."
+    },
+    {
+      "term": "PRSI",
+      "definition": "Pay-related social insurance, paid by employees and employers, which funds contributory social welfare payments."
+    },
+    {
+      "term": "Third-level education",
+      "definition": "Education after second level, provided in universities, institutes of technology and colleges."
+    },
+    {
+      "term": "Second-chance education",
+      "definition": "Education that gives adults who left school early a route to qualifications."
+    },
+    {
+      "term": "Special needs assistant",
+      "definition": "A school staff member who supports pupils with special educational needs in mainstream classes."
+    },
+    {
+      "term": "Medical card",
+      "definition": "A card giving eligible people free GP visits and prescribed medicines."
+    },
+    {
+      "term": "Access route",
+      "definition": "An alternative admission pathway to third-level education for students from under-represented groups."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three ways improved education supports family life",
+      "definition": "Better parental help with learning, greater financial independence for women, and higher earning power that raises household living standards."
+    },
+    {
+      "term": "Four programmes or courses that help young people stay in education",
+      "definition": "School Completion Programme, Leaving Certificate Applied, Youthreach and Transition Year."
+    },
+    {
+      "term": "Two types of social welfare payment",
+      "definition": "Social insurance payments funded by PRSI contributions, and means-tested payments based on household income."
+    },
+    {
+      "term": "Three effects of welfare payments on family life",
+      "definition": "They reduce child poverty, give older people financial independence, and help families cope with illness or unemployment."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State two ways in which the state has improved the provision of education for children and young people in Ireland.",
+      "model": "Free second-level education introduced from 1967. A free pre-school year before primary school under the Early Childhood Care and Education scheme. Special needs assistants in mainstream classes. School Completion Programme for students at risk of leaving early."
+    },
+    {
+      "marks": 24,
+      "prompt": "Explain how improvements in education and in social welfare have helped Irish families. Discuss one limitation of welfare support in your answer.",
+      "model": "Education: free second-level schooling and the abolition of third-level fees widened access, so more children complete school and continue into further study. Higher educational attainment raises employment prospects and earnings, which improves family living standards. Adult and second-chance education lets parents return to work, adding a second income. Support programmes such as the School Completion Programme and special needs assistants keep vulnerable pupils in school. Welfare: means-tested and universal payments give regular income to families with children, lone parents and low-paid workers; child benefit is paid per child regardless of income; medical cards give free GP visits to eligible families; old age pensions give older people independence. Limitation: payments can fail to lift a family out of poverty if they are low, and conditions such as job-seeking requirements or income thresholds can discourage some people from taking low-paid work."
+    }
+  ]
+}

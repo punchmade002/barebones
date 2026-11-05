@@ -1,0 +1,156 @@
+{
+  "loId": "hom-home-services-s6",
+  "chapterId": "hom-home-services",
+  "subsection": "6. Insulation",
+  "syllabusRef": "4.5.4",
+  "notes": [
+    {
+      "h": "Principles of insulation",
+      "points": [
+        "Insulation slows the escape of heat from a house by reducing conduction, convection and radiation, so less fuel is needed to keep it warm.",
+        "Poor conductors such as still air, polystyrene, fibreglass, wool and cellulose trap air in small spaces, which reduces heat transfer by conduction.",
+        "Fibre and foam insulation contains air in small cells, which restricts the air movement that would otherwise carry heat by convection.",
+        "Reflective foil and low-emissivity (low-E) coatings reduce heat loss by radiation.",
+        "Draught proofing reduces heat lost through air leakage around doors, windows and floorboards."
+      ]
+    },
+    {
+      "h": "Insulating the attic",
+      "b": "Heat rises and escapes through the roof, so the roof space is one of the most important places to insulate.",
+      "points": [
+        "Fibre blanket: strips of mineral or glass fibre are laid between the ceiling joists.",
+        "Loose fill: pellets of polystyrene or vermiculite are poured between the joists.",
+        "Sprayed foam: foam is applied between the roof rafters, where it expands and sets into a solid layer.",
+        "Blown fibre: cellulose or mineral fibre is blown into the roof space to cover it evenly.",
+        "Diagram: cross-section of a roof showing the joists, the ceiling below and an insulation layer laid between the joists, with the roof space above."
+      ]
+    },
+    {
+      "h": "Insulating walls",
+      "points": [
+        "Cavity wall insulation: the gap between the inner and outer leaves of a cavity wall is filled with insulating beads, foam or mineral wool.",
+        "Internal dry lining: insulated plasterboard is fixed to the inside face of a wall, adding insulation on the room side.",
+        "External insulation: insulating boards are fixed to the outside of the wall and covered with reinforced, waterproof render.",
+        "Solid walls have no cavity, so they can only be insulated from the inside (dry lining) or the outside (external insulation).",
+        "Diagram: cross-section of a cavity wall showing the outer leaf, the insulated cavity, the inner leaf and an internal dry lining."
+      ]
+    },
+    {
+      "h": "Insulating floors, windows, doors and pipes",
+      "points": [
+        "Floors: gaps between floorboards are filled and a carpet with underlay is laid, reducing heat loss through the floor.",
+        "Double glazing: two panes are separated by a sealed gap of air or argon, a gas that conducts heat less well than air.",
+        "Triple glazing adds a third pane and a second sealed gap for further insulation.",
+        "Low-E glazing: a thin coating on the pane reflects radiant heat back into the room.",
+        "Lined, heavy curtains and secondary windows trap a layer of still air against cold glass.",
+        "Draught excluders and sealing strips around doors and windows stop air leaking in and out.",
+        "Lagging: a jacket around the hot-water cylinder and sleeves on exposed pipes reduce heat loss and help prevent pipes freezing."
+      ]
+    },
+    {
+      "h": "Advantages of a well-insulated home",
+      "points": [
+        "Lower fuel bills, because less heat escapes and the heating runs for shorter periods.",
+        "A steadier indoor temperature with fewer cold surfaces, which improves comfort.",
+        "Less noise, because insulation absorbs sound from outside and between rooms.",
+        "Less fuel burned, so lower carbon dioxide emissions and reduced reliance on fossil fuels.",
+        "Less condensation, because inner wall and window surfaces stay warm.",
+        "A higher Building Energy Rating (BER), which rates a dwelling's energy performance from A1 to G, and can increase the value of the property."
+      ]
+    },
+    {
+      "h": "Practical context: evaluating insulation in your own home",
+      "points": [
+        "Inspect the attic for the depth and coverage of insulation, and check whether joists or pipes are left uncovered.",
+        "Check doors and windows for draughts by feeling for cold air around the frames on a windy day.",
+        "Note cold rooms, cold surfaces and any signs of condensation or damp.",
+        "Recommend improvements in order of effect and cost, such as topping up attic insulation, draught proofing and lined curtains before wall insulation.",
+        "Justify each recommendation by the heat loss it reduces."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Insulation",
+      "definition": "A material or method that reduces the transfer of heat through the fabric of a building."
+    },
+    {
+      "term": "Low-emissivity (low-E) glazing",
+      "definition": "Window glass with a thin coating that reflects radiant heat back into the room while letting light through."
+    },
+    {
+      "term": "Double glazing",
+      "definition": "Two panes of glass separated by a sealed gap of air or argon, which reduces heat loss through a window."
+    },
+    {
+      "term": "Draught proofing",
+      "definition": "Sealing the gaps around doors, windows and floors to stop air leaking in and out of a room."
+    },
+    {
+      "term": "Cavity wall insulation",
+      "definition": "Insulating material placed in the gap between the two leaves of a cavity wall."
+    },
+    {
+      "term": "Internal dry lining",
+      "definition": "Insulated plasterboard fixed to the inside face of a wall to add insulation on the room side."
+    },
+    {
+      "term": "Lagging",
+      "definition": "An insulating jacket or sleeve placed around a hot-water cylinder or pipe to reduce heat loss."
+    },
+    {
+      "term": "Loose-fill insulation",
+      "definition": "Insulating pellets, such as polystyrene or vermiculite, poured between the joists of an attic floor."
+    },
+    {
+      "term": "Fibre blanket",
+      "definition": "Strips of mineral or glass fibre laid between ceiling joists or rafters to trap air and reduce heat loss."
+    },
+    {
+      "term": "Building Energy Rating (BER)",
+      "definition": "A rating from A1 to G that shows how much energy a dwelling needs to heat and run."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four methods of insulating a home",
+      "definition": "Attic insulation, cavity wall insulation, double or triple glazing, and floor insulation with carpet and underlay."
+    },
+    {
+      "term": "Three advantages of a well-insulated home",
+      "definition": "Lower fuel bills, a steadier indoor temperature, and less carbon dioxide released from burning fuel."
+    },
+    {
+      "term": "Five poor conductors used in insulation",
+      "definition": "Trapped air, polystyrene, fibreglass, wool and cellulose."
+    },
+    {
+      "term": "Gas used between the panes of some double glazing",
+      "definition": "Argon, which conducts heat less well than air."
+    },
+    {
+      "term": "Three ways to stop draughts at windows and doors",
+      "definition": "Draught excluders, sealing strips around frames, and lined curtains."
+    },
+    {
+      "term": "Two wall insulation methods for a solid wall",
+      "definition": "Internal dry lining and external insulation covered with reinforced render."
+    },
+    {
+      "term": "Two effects of a low-E coating on a window",
+      "definition": "It reflects radiant heat back into the room and lets visible light pass through."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify three benefits to a household of fitting cavity wall insulation to its house.",
+      "model": "Any three of: less heat lost through the walls, so lower fuel bills (2 marks); a steadier temperature in rooms with fewer cold walls, so more comfort (2 marks); less fuel burned, so lower carbon dioxide emissions (2 marks). Also accepted: less noise from outside and between rooms; less condensation on inner wall surfaces."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain the underlying principle by which insulation reduces heat loss from a home. Describe three methods of insulating different parts of a home, and state the area each method protects.",
+      "model": "Principle: insulating materials are poor conductors of heat and trap still air in small spaces, which slows heat transfer by conduction and limits convection. Reflective coatings reduce heat loss by radiation, and draught proofing reduces air leakage. Method 1, attic: fibre blanket, loose fill, sprayed foam or blown fibre laid in or above the roof space to protect the ceiling and roof. Method 2, walls: cavity wall insulation of beads, foam or mineral wool in a cavity, or internal dry lining or external insulation with render for solid walls. Method 3, windows: double or triple glazing with a sealed air or argon gap and low-E coating, combined with lined curtains. Each method reduces the heat escaping through the area it covers, so less fuel is needed to keep the house warm."
+    }
+  ]
+}
