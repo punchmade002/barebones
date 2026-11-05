@@ -1,0 +1,145 @@
+{
+  "loId": "bio17-s2",
+  "chapterId": "bio17",
+  "subsection": "Transcription and translation",
+  "syllabusRef": "2.3.5",
+  "notes": [
+    {
+      "h": "The molecules of transcription and translation and their roles (Higher Level only)",
+      "points": [
+        "DNA holds the gene, the base sequence that codes for the protein.",
+        "In transcription only one of the two strands of the gene is read, the template strand; the DNA is not used up or changed, and it stays in the nucleus.",
+        "RNA polymerase is the enzyme that carries out transcription, joining free RNA nucleotides into a strand complementary to the template.",
+        "mRNA (messenger RNA) is a single-stranded copy of one gene's code, a series of codons, which carries the code from the nucleus to a ribosome.",
+        "mRNA is short-lived and is broken down after use.",
+        "tRNA (transfer RNA) is a small RNA molecule in the cytoplasm that carries one specific amino acid to the ribosome.",
+        "Each tRNA's anticodon pairs with a matching codon on the mRNA, so tRNA is the molecule that “translates” codons into amino acids.",
+        "tRNA brings amino acids to the ribosome; it does not make them.",
+        "rRNA (ribosomal RNA) makes up the ribosome together with proteins.",
+        "rRNA holds the mRNA and tRNAs in position, and the rRNA of the large subunit catalyses the formation of peptide bonds between amino acids, so it acts as an enzyme.",
+        "The ribosome is the site of translation, made of rRNA and protein in two subunits: a small subunit that binds the mRNA and a large subunit with room for two tRNAs at a time.",
+        "Ribosomes are free in the cytoplasm, making proteins used in the cell, or attached to the rough endoplasmic reticulum, making proteins for export or for membranes (see “Endoplasmic reticulum and Golgi apparatus” in “Structures and organelles of animal and plant cells”)."
+      ]
+    },
+    {
+      "h": "How transcription makes mRNA (Higher Level only)",
+      "b": "Transcription is the making of an mRNA copy of a gene, and it takes place in the nucleus.",
+      "points": [
+        "1. RNA polymerase attaches to the DNA at the start of the gene, unwinds the double helix there and separates the two strands by breaking the hydrogen bonds.",
+        "2. One strand, the template strand, is read.",
+        "2. Free RNA nucleotides pair with its exposed bases by complementary base pairing: A on DNA pairs with U on RNA, T with A, C with G, and G with C.",
+        "3. RNA polymerase joins the RNA nucleotides into a strand of mRNA as it moves along the gene.",
+        "3. Behind it, the DNA strands re-join and rewind.",
+        "4. At the end of the gene, RNA polymerase detaches and the finished mRNA is released.",
+        "4. The mRNA leaves the nucleus through a nuclear pore and goes to a ribosome.",
+        "Diagram: a section of DNA unwound by RNA polymerase, with the template strand and the mRNA strand growing alongside it; label DNA, template strand, RNA polymerase, free RNA nucleotides, mRNA, base pair A–U, direction of movement."
+      ]
+    },
+    {
+      "h": "The structure of tRNA and its link to the codon code (Higher Level only)",
+      "points": [
+        "A tRNA is a single strand of about 80 RNA nucleotides that folds back on itself.",
+        "Hydrogen bonds between complementary bases in some regions hold the folded molecule in shape.",
+        "The folded molecule is a clover-leaf in two dimensions and folds further into an L shape in three dimensions.",
+        "At one end is the amino-acid attachment site, where one specific amino acid is attached by a specific enzyme, using energy from ATP.",
+        "At the opposite end is a loop with the anticodon: three unpaired bases that pair with a complementary codon on mRNA.",
+        "The code is read in codons of three bases, so each tRNA has an anticodon of exactly three bases and matches one codon.",
+        "Each tRNA brings one amino acid: the attachment of a specific amino acid to each tRNA with a specific anticodon is what links each codon to its amino acid.",
+        "The ribosome holds two tRNAs side by side on neighbouring codons, so the code is read three bases at a time without gaps or overlaps.",
+        "Diagram: a clover-leaf tRNA, labelled: single RNA strand, regions of base pairing (hydrogen bonds), anticodon loop with three bases, amino-acid attachment site, amino acid."
+      ]
+    },
+    {
+      "h": "How translation makes a polypeptide (Higher Level only)",
+      "b": "Translation is the making of a polypeptide from the code in mRNA, and it takes place at ribosomes in the cytoplasm.",
+      "points": [
+        "1. Start: the small ribosomal subunit attaches to the mRNA and moves along it to the start codon, AUG.",
+        "1. A tRNA with the anticodon UAC, carrying methionine, pairs with the start codon, and the large subunit then joins.",
+        "2. A second tRNA, whose anticodon is complementary to the next codon, arrives carrying its amino acid and pairs with that codon in the second position in the ribosome.",
+        "3. A peptide bond forms between the two amino acids, a condensation reaction that releases water.",
+        "3. The first tRNA's amino acid is now attached to the second amino acid.",
+        "4. The ribosome moves along the mRNA by one codon, three bases.",
+        "4. The first tRNA, now without its amino acid, is released into the cytoplasm, where it can pick up another of the same amino acid.",
+        "4. A new tRNA pairs with the codon now in the empty position.",
+        "5. Steps 2 to 4 repeat, the chain growing by one amino acid each time, in the order set by the codons.",
+        "6. End: when a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, and a protein release factor binds instead.",
+        "6. The polypeptide is released, and the ribosome's subunits separate from the mRNA.",
+        "Many ribosomes can translate the same mRNA at once, one behind the other, forming a polysome, so many copies of the protein are made quickly.",
+        "Translation also needs energy to move the ribosome along the mRNA.",
+        "Diagram: a ribosome (small and large subunits) on an mRNA strand, with two tRNAs paired to neighbouring codons, a growing polypeptide chain attached to one, a peptide bond forming, and a released tRNA leaving; label mRNA, codon, anticodon, tRNA, amino acid, peptide bond, ribosome (large and small subunits), polypeptide, direction of movement."
+      ]
+    },
+    {
+      "h": "From polypeptide to functional protein (Higher Level only)",
+      "points": [
+        "The sequence of amino acids (the primary structure) determines how the chain folds.",
+        "Bonds form between amino acids in different parts of the chain, such as hydrogen bonds and, in some proteins, sulphur bridges, giving the protein its particular three-dimensional shape.",
+        "Some proteins are made of more than one polypeptide; haemoglobin has four.",
+        "The shape determines the function, for example the active site of an enzyme or the binding site of an antibody or receptor (see “Genes, proteins and traits”).",
+        "A change in the amino-acid sequence can change the shape and stop the protein working (see “Mutations”).",
+        "Proteins made on the rough endoplasmic reticulum are folded and modified there and in the Golgi apparatus, then packaged into vesicles for export, such as digestive enzymes and insulin (detail in “Endoplasmic reticulum and Golgi apparatus” in “Structures and organelles of animal and plant cells”).",
+        "In prokaryotes, which have no nucleus, transcription and translation both take place in the cytoplasm, and ribosomes can begin translating an mRNA while it is still being transcribed."
+      ]
+    },
+    {
+      "h": "Replication and transcription compared (Higher Level only)",
+      "points": [
+        "Product: replication makes a complete copy of all the DNA, giving two DNA molecules; transcription makes an RNA copy of one gene, the mRNA.",
+        "Strands used: replication uses both strands as templates; transcription uses only one strand of the gene.",
+        "Enzymes: DNA helicase and DNA polymerase in replication; RNA polymerase in transcription.",
+        "Nucleotides and pairing: DNA nucleotides contain deoxyribose and pair A with T; RNA nucleotides contain ribose, and A on DNA pairs with U.",
+        "When: replication happens once per cycle, in S phase; transcription happens throughout the cell's life, for whichever genes are needed, many times.",
+        "Fate of the product: new DNA stays in the nucleus; mRNA leaves for the cytoplasm and is broken down after use."
+      ]
+    },
+    {
+      "h": "Modelling transcription and translation (Higher Level only)",
+      "points": [
+        "Method step 1: write the mRNA complementary to the template strand (A → U, T → A, C → G, G → C).",
+        "Method step 2: divide the mRNA into codons from the start codon.",
+        "Method step 3: write the tRNA anticodon complementary to each codon.",
+        "Method step 4: use the codon table given to find the amino acids.",
+        "Method step 5: stop at a stop codon.",
+        "Worked example: template DNA TAC AAA CCG ATT gives mRNA AUG UUU GGC UAA.",
+        "The anticodons are UAC, AAA and CCG, with none for the stop codon UAA.",
+        "The polypeptide is methionine, phenylalanine and glycine, and then the chain stops.",
+        "Three codons code for amino acids, so the worked example gives three amino acids joined by two peptide bonds.",
+        "Physical or role-play model: paper strips for DNA, in a “nucleus” area, are copied onto mRNA strips that are carried to a “ribosome” area; cards for tRNA have a three-base anticodon on one side and an amino acid on the other.",
+        "In the role-play, students match anticodons to codons in order and link the amino acids with clips to represent peptide bonds.",
+        "Limitations of the role-play: it is slow and flat, and ignores the enzymes, energy and folding."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "RNA polymerase", "definition": "The enzyme that carries out transcription, joining free RNA nucleotides into a strand of mRNA complementary to the template strand." },
+    { "term": "Template strand", "definition": "The DNA strand of a gene that is read to make a complementary mRNA during transcription." },
+    { "term": "mRNA", "definition": "Messenger RNA: a single-stranded copy of one gene's code that carries the code from the nucleus to a ribosome." },
+    { "term": "tRNA", "definition": "Transfer RNA: a small RNA molecule that carries one specific amino acid to the ribosome and pairs its anticodon with a codon." },
+    { "term": "rRNA", "definition": "Ribosomal RNA: the RNA that, with proteins, makes up the ribosome and catalyses peptide-bond formation." },
+    { "term": "Ribosome", "definition": "The site of translation, made of rRNA and protein in a small subunit and a large subunit." },
+    { "term": "Codon", "definition": "A sequence of three bases on mRNA that codes for one amino acid." },
+    { "term": "Anticodon", "definition": "Three unpaired bases on a tRNA loop that pair with a complementary codon on mRNA." },
+    { "term": "Start codon", "definition": "The codon AUG, which marks the start of translation and codes for methionine." },
+    { "term": "Stop codon", "definition": "One of UAA, UAG or UGA, which no tRNA matches, so translation ends." },
+    { "term": "Peptide bond", "definition": "The bond joining two amino acids, formed by a condensation reaction that releases water." },
+    { "term": "Polysome", "definition": "Several ribosomes translating the same mRNA at once, one behind the other." },
+    { "term": "Primary structure", "definition": "The sequence of amino acids in a polypeptide, which determines how the chain folds." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe the process of transcription, naming the enzyme involved and the site in the cell.",
+      "model": "Transcription takes place in the nucleus. RNA polymerase attaches to the DNA at the start of the gene, unwinds the double helix there and separates the two strands by breaking the hydrogen bonds. One strand, the template strand, is read. Free RNA nucleotides pair with its exposed bases by complementary base pairing, with A on DNA pairing with U on RNA, T with A, C with G and G with C. RNA polymerase joins the RNA nucleotides into a strand of mRNA as it moves along the gene, and the DNA strands re-join behind it. At the end of the gene RNA polymerase detaches, and the finished mRNA is released and leaves the nucleus through a nuclear pore to a ribosome."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the events of translation, from the arrival of mRNA at the ribosome to the formation of a functional protein.",
+      "model": "The small ribosomal subunit attaches to the mRNA and moves along it to the start codon AUG. A tRNA with the anticodon UAC, carrying methionine, pairs with the start codon, and the large subunit joins. A second tRNA, whose anticodon is complementary to the next codon, arrives carrying its amino acid and pairs with that codon. A peptide bond forms between the two amino acids, catalysed by the rRNA of the ribosome. The ribosome moves along the mRNA by one codon, the first tRNA is released without its amino acid, and a new tRNA pairs with the codon now in the empty position. These steps repeat, so the chain grows one amino acid at a time in the order set by the codons. When a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, a release factor binds, the polypeptide is released and the subunits separate. The amino-acid sequence then folds, through bonds between amino acids, into a three-dimensional shape, and that shape gives the protein its function."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw a labelled diagram of a tRNA molecule and explain how its structure relates to the triplet nature of the genetic code.",
+      "model": "The diagram shows a single RNA strand folded into a clover-leaf, with regions of base pairing held by hydrogen bonds, an anticodon loop with three bases, and the amino-acid attachment site with its amino acid at the other end. The genetic code is read in codons of three bases, so each tRNA has an anticodon of exactly three bases that pairs with one complementary codon on the mRNA. Each tRNA carries one specific amino acid, attached according to its anticodon, so each codon is linked to one amino acid. Because the ribosome holds two tRNAs on neighbouring codons, the code is read three bases at a time."
+    }
+  ]
+}

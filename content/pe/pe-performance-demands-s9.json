@@ -1,0 +1,96 @@
+{
+  "loId": "pe-performance-demands-s9",
+  "chapterId": "pe-performance-demands",
+  "subsection": "9. Energy systems",
+  "syllabusRef": "2.8",
+  "notes": [
+    {
+      "h": "ATP: the energy for muscle contraction",
+      "points": [
+        "ATP (adenosine triphosphate) is the only direct source of energy for muscle contraction.",
+        "Muscles store only enough ATP for about 2 to 3 seconds of work, so it must be constantly resynthesised by three energy systems."
+      ]
+    },
+    {
+      "h": "The ATP-PC (alactic) system",
+      "points": [
+        "Fuel: phosphocreatine (PC) stored in the muscle; no oxygen is needed (anaerobic).",
+        "Intensity and duration: maximal intensity, for about 8 to 10 seconds.",
+        "By-products: none that cause fatigue; fatigue comes from PC running out.",
+        "Recovery: PC stores are about half restored in 30 seconds and almost fully restored in about 3 minutes of rest.",
+        "Sporting examples: 100 m sprint, long jump, shot-put, a tackle, a jump to catch a ball."
+      ]
+    },
+    {
+      "h": "The lactic acid (anaerobic glycolytic) system",
+      "points": [
+        "Fuel: carbohydrate (glycogen and glucose) broken down without oxygen.",
+        "Intensity and duration: high intensity, from about 10 seconds to about 2 minutes.",
+        "By-product: lactic acid, which lowers the pH in the muscle and causes fatigue and a burning feeling.",
+        "Recovery: removing lactic acid takes much longer, up to about an hour, and is faster with an active cool-down.",
+        "Sporting examples: 400 m race, 100 m swim, a long sustained attack in a team game."
+      ]
+    },
+    {
+      "h": "The aerobic system",
+      "points": [
+        "Fuel: carbohydrate and fat (protein only in extreme cases), broken down with oxygen.",
+        "Intensity and duration: low to moderate intensity, from about 2 minutes to several hours.",
+        "By-products: carbon dioxide and water, which are easily removed and do not cause fatigue.",
+        "It produces far more ATP from each molecule of fuel than the anaerobic systems, but more slowly.",
+        "Sporting examples: marathon, 10 km open-water swim, the background work of a Gaelic football match.",
+        "It also powers recovery between high-intensity efforts, such as restoring PC between sprints."
+      ]
+    },
+    {
+      "h": "The energy continuum and relative contribution",
+      "points": [
+        "All three systems work at all times; the one that predominates depends on the duration and intensity of the activity.",
+        "Short, maximal activities rely mainly on ATP-PC; high-intensity efforts lasting up to about 2 minutes rely mainly on the lactic acid system; longer, moderate efforts rely mainly on the aerobic system.",
+        "Main system by event: long jump (3 to 5 seconds, high intensity) ATP-PC; 400 m (45 seconds or more, high intensity) lactic acid; marathon (2 hours or more, low to medium intensity) aerobic.",
+        "Intermittent team games use all three: ATP-PC for sprints, jumps and tackles; lactic acid for repeated efforts with short recovery; aerobic for the overall duration and for recovery between efforts.",
+        "On an energy-system graph of contribution against time, the ATP-PC line peaks first and falls within about 10 seconds, the lactic acid line peaks next, and the aerobic line rises steadily and dominates after about 2 minutes."
+      ]
+    },
+    {
+      "h": "Using the energy systems in preparation, performance and recovery",
+      "points": [
+        "Preparation: train the predominant system (specificity). For ATP-PC, short maximal sprints with full recovery; for the lactic acid system, repeated high-intensity intervals with short recovery to build tolerance of lactic acid; for the aerobic system, continuous or long-interval training.",
+        "Work-to-rest ratios match the system: for ATP-PC, about 1:3 or longer so PC is restored before the next effort; for the lactic acid system, shorter recovery; aerobic work is near-continuous.",
+        "Performance: pacing strategy matters; going too hard early in a 400 m or 1500 m race floods the muscles with lactic acid.",
+        "Performance: substitutions and breaks in play let team players restore PC between efforts.",
+        "Recovery: an active cool-down removes lactic acid faster; carbohydrate refuels glycogen for the lactic acid and aerobic systems; full rest between maximal efforts restores PC.",
+        "Diet link: carbohydrate fuels the lactic acid and aerobic systems; creatine supplementation aims to raise PC stores for the ATP-PC system."
+      ]
+    },
+    {
+      "h": "Two contrasting swimming events",
+      "points": [
+        "100 m backstroke: about one minute at very high intensity, so the ATP-PC system powers the start and the lactic acid system supplies most of the race. Preparation focuses on maximal starts and turns with full recovery and on high-intensity intervals with short recovery.",
+        "10 km open-water swim: about two hours at moderate intensity, so the aerobic system supplies almost all the energy, using carbohydrate and fat. Preparation focuses on long continuous swims and long intervals, pacing practice and feeding with carbohydrate during the race."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "ATP", "definition": "Adenosine triphosphate, the only direct source of energy for muscle contraction." },
+    { "term": "Phosphocreatine (PC)", "definition": "A high-energy compound stored in muscle that rapidly resynthesises ATP in the ATP-PC system." },
+    { "term": "ATP-PC system", "definition": "The anaerobic system that uses phosphocreatine for maximal efforts of about 8 to 10 seconds, with no fatiguing by-products." },
+    { "term": "Lactic acid system", "definition": "The anaerobic system that breaks down carbohydrate without oxygen for high-intensity efforts of about 10 seconds to 2 minutes, producing lactic acid." },
+    { "term": "Aerobic system", "definition": "The system that breaks down carbohydrate and fat with oxygen for low to moderate intensity over long durations, producing carbon dioxide and water." },
+    { "term": "Lactic acid", "definition": "A by-product of the lactic acid system that lowers muscle pH and causes fatigue." },
+    { "term": "Energy continuum", "definition": "The idea that all three energy systems always contribute, with the predominant one set by the duration and intensity of the activity." },
+    { "term": "Anaerobic", "definition": "Without oxygen." },
+    { "term": "Aerobic", "definition": "With oxygen." }
+  ],
+  "factCards": [
+    { "term": "Three energy systems", "definition": "ATP-PC (alactic), lactic acid (anaerobic glycolytic), aerobic." },
+    { "term": "Main energy system: marathon, 400 m, long jump", "definition": "Marathon: aerobic. 400 m: lactic acid. Long jump: ATP-PC." },
+    { "term": "How long PC takes to restore", "definition": "About half in 30 seconds; almost fully in about 3 minutes." },
+    { "term": "By-products of each energy system", "definition": "ATP-PC: none that cause fatigue. Lactic acid: lactic acid. Aerobic: carbon dioxide and water." }
+  ],
+  "questions": [
+    { "marks": 12, "prompt": "Explain how an understanding of the ATP-PC and aerobic energy systems can inform preparation for a sprint event and an endurance event.", "model": "The ATP-PC system uses stored phosphocreatine without oxygen to supply energy for maximal efforts of about 8 to 10 seconds, with no fatiguing by-products; PC is almost fully restored after about 3 minutes' rest. For a 100 m sprinter, training should be short, maximal sprints and starts with long recovery (about 1:3 or more), so each effort is at full intensity on full PC stores, plus strength and power work. The aerobic system uses carbohydrate and fat with oxygen at low to moderate intensity for long durations, producing carbon dioxide and water. For a marathon runner, training should be long continuous runs and long intervals in the aerobic zone to improve oxygen delivery and use, with high-carbohydrate meals and carbohydrate loading before the race and carbohydrate during it, because glycogen depletion causes fatigue. Recovery also differs: the sprinter needs full rest between efforts, while the endurance athlete needs glycogen refuelling and rehydration." },
+    { "marks": 8, "prompt": "Describe how two energy systems contribute to performance in a team game of your choice.", "model": "Game: soccer. The ATP-PC system supplies energy for short, maximal actions lasting up to about 10 seconds, such as a sprint to beat a defender, a jump to head the ball or a shot, using stored phosphocreatine without oxygen. The aerobic system supplies energy for the 90 minutes of jogging, running and positioning, using carbohydrate and fat with oxygen, and also restores PC between sprints, so a player with good aerobic fitness recovers faster and can repeat high-intensity efforts late in the game." },
+    { "marks": 6, "prompt": "Identify the main energy system for a marathon, a 400 m race and a long jump, and give a reason for each.", "model": "Marathon: aerobic, because it lasts over two hours at low to moderate intensity. 400 m: lactic acid system, because it is a high-intensity effort lasting about 45 seconds or more. Long jump: ATP-PC, because the run-up and take-off are a maximal effort lasting only a few seconds." }
+  ]
+}

@@ -255,14 +255,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(d)",
-        "question": "Name the piece of equipment used to measure the calorific values of foods.",
-        "marks": 6,
-        "model": "Bomb / calorimeter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(e)",
         "question": "Write the equilibrium constant (Kc) expression for the following reaction:\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
         "marks": 6,
@@ -361,30 +353,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(b)(i)",
-        "question": "Name the French scientist who discovered radioactivity in 1896.",
-        "marks": 5,
-        "model": "Becquerel",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(ii)",
-        "question": "Name the Polish born scientist who received the Nobel prize in 1911 for the isolation of the radioactive elements polonium and radium.",
-        "marks": 6,
-        "model": "Marie Curie",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(iii)",
-        "question": "Polonium-210 decays with a half-life of 138 days by emitting alpha particles. What is meant by the term half-life? What are alpha particles?",
-        "marks": 12,
-        "model": "Half-life: Time taken for half of a sample to disintegrate (decay) (6 marks)\nAlpha particles: Helium nuclei (or composition) (3 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(c)(i)",
         "question": "The scientist shown in the picture discovered the nucleus of the atom by bombarding thin sheets of a particular element with alpha particles from a radioactive source. Name this scientist.",
         "marks": 6,
@@ -397,64 +365,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name the element he bombarded with alpha particles.",
         "marks": 6,
         "model": "Gold",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2007-OR-Q6",
-    "subject": "chemistry",
-    "chapterId": "chem23",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Ordinary 2007 — Q6",
-    "year": 2007,
-    "parts": [
-      {
-        "label": "(a)",
-        "question": "What do you understand by octane number?",
-        "marks": 8,
-        "model": "Measure of the ability of a fuel to resist knocking (cause knocking) (auto-ignite) (prevent auto-ignition)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)",
-        "question": "The structures of the two compounds (A and B) on which octane numbers are based are shown. Name the two compounds.",
-        "marks": 12,
-        "model": "A: Heptane (6 marks)\nB: 2,2,4-trimethyl // pentane / iso-octane (6 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)",
-        "question": "One of these two compounds is assigned an octane number of 100, and the other an octane number of 0. Which compound is assigned the higher octane number?",
-        "marks": 6,
-        "model": "B",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)",
-        "question": "Suggest one conversion that could be carried out in an oil refinery on the compound of zero octane number in order to produce a compound of higher octane number.",
-        "marks": 6,
-        "model": "Reforming / dehydrocyclisation / cracking / isomerisation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(e)",
-        "question": "The molecular formula for benzene is C₆H₆. Draw the structure of the molecule. Would you expect the octane number of benzene to be high or low? Give a reason for your answer.",
-        "marks": 12,
-        "model": "Structure: benzene ring (6 marks)\nWould be: High (3 marks)\nReason: Ring structure / unsaturated / aromatic (3 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(f)",
-        "question": "What effects would be noticed when driving a car if the octane number of the petrol used were too low?",
-        "marks": 6,
-        "model": "Knocking / pinking / miss-firing / low power / autoignition",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -1247,14 +1157,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "Q3(vi)",
-        "question": "The above apparatus can also be used to demonstrate catalytic cracking using liquid paraffin in place of liquid X. What is meant by catalytic cracking? In carrying out this experiment, what solid would you use in place of Y?",
-        "marks": 9,
-        "model": "Catalytic cracking is the breaking of long-chain hydrocarbons (alkanes) into shorter, more useful chains using heat and a catalyst, producing alkanes and alkenes. In place of Y (Al₂O₃), use a zeolite catalyst (or silica-alumina catalyst). The zeolite provides a porous structure with active sites that catalyse C-C bond breakage at lower temperatures (~500°C) than thermal cracking alone, increasing efficiency and selectivity toward desired products.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "Q3(vii)",
         "question": "When a sample of liquid paraffin was cracked, the mixture of products was found to contain a number of isomeric compounds of the formula C₄H₈. Draw the structure and give the IUPAC name of two of these compounds.",
         "marks": 12,
@@ -1469,38 +1371,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Volume of Y (Cl₂) = 45 cm³ = 0.045 dm³\nMoles of Cl₂ = 0.045/24.0 = 0.001875 mol\n\nFrom the anode equation (2Cl⁻ → Cl₂ + 2e⁻), 1 mol Cl₂ requires 2 mol electrons.\nElectrons transferred = 0.001875 × 2 = 0.00375 mol\nCharge passed = 0.00375 × 96500 = 361.875 C\n\nCurrent = Charge/Time = 361.875/386 = 0.938 A (≈ 0.94 A)\n\nFrom cathode equation (2H₂O + 2e⁻ → H₂ + 2OH⁻), 2 mol electrons produce 1 mol H₂.\nMoles of H₂ = 0.00375/2 = 0.001875 mol\nVolume of X (H₂) = 0.001875 × 24.0 = 0.045 dm³ = 45 cm³\n\nCurrent = 0.94 A; Volume of H₂ = 45 cm³",
         "diagram": "",
         "model_source": "ai-h1"
-      },
-      {
-        "label": "Q7(b)(i)",
-        "question": "Why is it necessary to use an electrolytic method for the extraction of sodium?",
-        "marks": 6,
-        "model": "Sodium cannot be extracted by chemical reduction methods because it is too reactive and a very strong reducing agent would be required—one more reactive than sodium itself, which does not exist in practical terms. Sodium sits high in the reactivity series; no suitable chemical reductant can displace it from its compounds. Electrolysis is necessary because it uses electrical energy to drive the non-spontaneous oxidation-reduction reaction, reducing sodium ions directly at the cathode to produce molten sodium metal. This is the only economically viable extraction method.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "Q7(b)(ii)",
-        "question": "Explain why the electrolyte in the Downs cell melts at a temperature well below the melting point of sodium chloride. What is the advantage of the lower melting point of the electrolyte?",
-        "marks": 6,
-        "model": "The electrolyte in the Downs cell is a mixture of sodium chloride with calcium chloride (and sometimes potassium chloride). Calcium chloride lowers the melting point of the mixture through the formation of a eutectic mixture—a combination that melts at a temperature well below the individual melting points of either pure component. Pure NaCl melts at 801°C, but the eutectic NaCl/CaCl₂ mixture melts around 580°C. The advantage is significant energy savings: operating at a lower temperature reduces heat losses, decreases energy consumption for maintaining the melt, and improves the efficiency and economics of the industrial process.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "Q7(b)(iii)",
-        "question": "What is the other product of the electrolysis? Write an equation for the reaction in its production.",
-        "marks": 9,
-        "model": "The other product of electrolysis in the Downs cell is sodium (Na) metal, produced at the cathode. However, if the question refers to the ionic products, sodium hydroxide (NaOH) or aqueous sodium ions may form. The primary product alongside chlorine is liquid sodium metal.\n\nCathode reaction: Na⁺(l) + e⁻ → Na(l)\n\nThis produces molten sodium, which is less dense than the molten salt and floats to the surface, allowing it to be separated and collected. Sodium metal is the valuable product; it is used in chemical synthesis, pharmaceuticals, and as a reducing agent in various industrial processes.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "Q7(b)(iv)",
-        "question": "Identify the two materials, A and B. Why is material B not used for the anode?",
-        "marks": 9,
-        "model": "Material A is steel (or iron) and material B is copper (or another non-graphite metal cathode). Steel (iron) is suitable for use as the cathode because iron does not react with molten sodium under the conditions of the Downs cell, and it conducts electricity efficiently. Copper (material B) is not used as the cathode because molten sodium is highly reactive and readily dissolves in (or reacts with) copper at the high operating temperature, forming a sodium-copper alloy, which contaminates the product and damages the electrode. Graphite is used as the anode because it is inert to chlorine gas and the molten electrolyte, resisting oxidation and corrosion.",
-        "diagram": "",
-        "model_source": "ai-h1"
       }
     ]
   },
@@ -1633,14 +1503,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is meant by allotropic forms?",
         "marks": 6,
         "model": "Allotropic forms are different physical states of the same element in which atoms are bonded together in different ways within the same physical state. They have different structural arrangements, resulting in different chemical and physical properties, though the element remains chemically identical. Examples include diamond and graphite (carbon), and O₂ and O₃ (oxygen).",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "Q10(a)(ii)",
-        "question": "Starting with sulphur, outline the steps involved in the manufacture of sulphuric acid by the Contact process.",
-        "marks": 12,
-        "model": "Sulphur is burned in air to produce sulphur dioxide: S + O₂ → SO₂. This gas is passed with air over a heated vanadium pentoxide (V₂O₅) catalyst to oxidise sulphur dioxide to sulphur trioxide: 2SO₂ + O₂ ⇌ 2SO₃. The reaction is exothermic and reversible; excess air drives equilibrium forward. Sulphur trioxide is absorbed in concentrated sulphuric acid to form oleum (H₂SO₄·nSO₃), which is then diluted with water to produce sulphuric acid: SO₃ + H₂O → H₂SO₄. Cooling and recycling of unreacted gases increases yield.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -2147,24 +2009,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "The molecular formula of glucose is C6H12O6.\nWrite the empirical formula for glucose.",
         "marks": 6,
         "model": "CH2O",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2018-OR-Q4",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Ordinary 2018 — Q4",
-    "year": 2018,
-    "parts": [
-      {
-        "label": "h",
-        "question": "What happens during the primary stage of sewage treatment?",
-        "marks": 6,
-        "model": "settlement / settling / screening / sedimentation / mechanical (physical) separation (purification) / removal of suspended solids / large particles removed by grit channels",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -2863,56 +2707,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2018-OR-Q11c(B)",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Ordinary 2018 — Q11c(B)",
-    "year": 2018,
-    "parts": [
-      {
-        "label": "c(B)(i)",
-        "question": "Answer the questions below about any one of these three case studies: industrial production of ammonia, industrial production of nitric acid, industrial production of magnesium oxide.\nState the formula of the main product of the industry you studied.",
-        "marks": 3,
-        "model": "NH3 / HNO3 / MgO",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(ii)",
-        "question": "What is the major use of this product?",
-        "marks": 6,
-        "model": "NH3: make fertilizer (urea, ammonium nitrate, ammonium sulfate, nitric acid, nylon); HNO3: fertilizer (ammonium nitrate, calcium ammonium nitrate, CAN, explosive) manufacture; MgO: refractory / fire brick / lining chimneys (furnaces)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(iii)",
-        "question": "Select, from the left of the scheme below, two feedstock materials for the industry you studied.",
-        "marks": 6,
-        "model": "NH3: H2 in natural gas or coal / N2 in air / river water; HNO3: ammonia / O2 in air / river water; MgO: seawater / limestone / river water",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(iv)",
-        "question": "Select an infrastructural feature from the right of the scheme below and explain how it is essential in the industry you studied.",
-        "marks": 6,
-        "model": "transport network: to transport feedstock (workers, product); third-level institute: to supply educated workforce; power supply: to provide energy for furnaces (kilns, pumps); telecommunications: to allow communications with suppliers (market, customers, workforce)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(v)",
-        "question": "How does the industry you studied deal with either emissions or waste effluent?",
-        "marks": 4,
-        "model": "emissions: scrubbers (filters, electrostatic precipitation) to remove dust (ammonia) / oxides of nitrogen; waste effluent: remove ammonia or nitrates from waste water before release from plant / adjust pH of water / remove suspended solids from water",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2002-OR-Q1",
     "subject": "chemistry",
     "chapterId": "chem25",
@@ -3267,22 +3061,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(c)",
-        "question": "Which compound is assigned an octane rating of 100?\nWhat problem arises in a combustion engine if the octane rating of the fuel used is too low?",
-        "marks": 12,
-        "model": "Compound C (2,2,4-trimethylpentane) is assigned an octane rating of 100. A low octane rating fuel causes knock (or detonation) in a combustion engine. Knock occurs when fuel self-ignites before the spark plug fires, causing uncontrolled rapid combustion that produces shock waves. This results in engine damage, reduced efficiency, and loss of power. Branched hydrocarbons resist knock better than straight-chain alkanes.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(d)",
-        "question": "In the past, compounds of a heavy metal were added to petrol to increase its octane rating. Name this metal.",
-        "marks": 6,
-        "model": "The heavy metal is lead. Lead compounds, particularly tetraethyl lead (Pb(C₂H₅)₄), were added to petrol as an anti-knock agent to increase the octane rating. This practice has been phased out in many countries due to the toxicity of lead and its environmental and health hazards.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(e)",
         "question": "Which of the three compounds A, B or C, is a major component of liquid petroleum gas, LPG?",
         "marks": 6,
@@ -3301,26 +3079,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2002,
     "parts": [
       {
-        "label": "(a)",
-        "question": "Mass spectrometry (MS), thin layer chromatography (TLC), gas chromatography (GC) and high performance liquid chromatography (HPLC) are all techniques used in chemistry.\nState one use that is made of mass spectrometry.",
-        "marks": 5,
-        "model": "Mass spectrometry is used to determine the relative molecular mass of a compound. A sample is ionized and accelerated through an electric field. The ions are separated by their mass-to-charge ratio and detected, producing a mass spectrum that shows the molecular ion peak, allowing precise identification of the substance's molar mass.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(b)",
         "question": "Describe an experiment to separate a mixture of dyes or indicators using thin layer chromatography.\nState one use that is made of this technique in forensic science.",
         "marks": 24,
         "model": "A baseline is drawn in pencil near the bottom of a dry TLC plate. A concentrated spot of the dye mixture is applied on the baseline using a capillary tube. The plate is placed in a solvent-filled chromatography chamber, with the solvent level below the baseline. The solvent rises up the plate by capillary action, carrying the dyes at different rates based on their differing solubilities in the mobile phase and affinities for the stationary phase (silica gel). The components separate into distinct spots at different heights (different Rf values). The plate is removed, the solvent front marked, and the separated dyes identified by their positions.\n\nIn forensic science, TLC is used to identify and match dyes found in fibres at crime scenes with dyes from suspected sources, such as clothing or materials, providing evidence linking suspects to scenes or confirming the origin of trace evidence.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)",
-        "question": "Give one application for:\n(i) gas chromatography (GC)\n(ii) high performance liquid chromatography (HPLC).",
-        "marks": 12,
-        "model": "(i) Gas chromatography is used to separate and identify volatile organic compounds in a mixture. A gaseous sample is injected into a heated column containing an inert gas carrier. Components are separated based on their different boiling points and interactions with the column's stationary phase, then detected and quantified.\n\n(ii) High performance liquid chromatography is used to separate and analyse non-volatile or heat-sensitive compounds, such as drugs in pharmaceutical samples or pesticides in food. A liquid sample is pumped under high pressure through a column packed with fine particles. Components separate based on their differing solubilities in the mobile and stationary phases, allowing both identification and quantification.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -3355,14 +3117,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Treatment of a domestic water supply may involve each of the following stages:\nsedimentation, flocculation, filtration, chlorination, fluoridation, pH adjustment\nIn the case of any four of these stages, explain how the water is treated and state the purpose of each of these four stages.",
         "marks": 24,
         "model": "**Sedimentation:** Coarse particles (sand, silt, organic matter) settle under gravity in settling tanks, removing large suspended solids and reducing turbidity before further treatment.\n\n**Flocculation:** Aluminium sulphate (alum) or ferric sulphate is added; these hydrolyse to form gelatinous metal hydroxides that aggregate fine suspended particles into larger flocs, which then settle readily.\n\n**Filtration:** Water passes through sand and gravel beds; suspended particles and some flocs are trapped, further clarifying the water and removing turbidity, bacteria and some pathogens.\n\n**Chlorination:** Chlorine gas (Cl₂) is bubbled through water or sodium hypochlorite (NaOCl) is added; chlorine is a strong oxidising agent that kills bacteria, viruses and other pathogens, preventing waterborne disease and protecting public health. It also oxidises and removes some organic contaminants.\n\n**Fluoridation:** Fluoride compounds (sodium fluoride, NaF, or sodium hexafluorosilicate) are added in controlled amounts (~1 mg/L); fluoride ions strengthen tooth enamel, reducing dental decay and improving dental health in the population.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)",
-        "question": "Sewage treatment can be divided into three stages: primary, secondary and tertiary treatment. Explain what happens in each of these stages.",
-        "marks": 18,
-        "model": "**Primary treatment:** Raw sewage enters settlement tanks where heavier solids (grit, faeces, food waste) settle as sludge under gravity over 1–2 hours; grease and oils float to the surface and are skimmed off. This removes ~30% of organic matter. The remaining liquid (liquor) passes to secondary treatment.\n\n**Secondary treatment:** Activated sludge aeration or biological filters introduce oxygen and microorganisms (bacteria and protozoa) that aerobically oxidise remaining dissolved and colloidal organic matter (proteins, carbohydrates, lipids) to CO₂ and H₂O, reducing BOD by ~90%. The microorganism biomass (activated sludge) is then settled out; some is returned to aerate fresh sewage, the rest is removed.\n\n**Tertiary treatment:** The biologically treated effluent undergoes final polishing—sand filtration removes fine suspended solids; reed beds or constructed wetlands provide additional biological treatment and nutrient removal; chlorination or UV disinfection eliminates remaining pathogens. This produces water of sufficiently high quality for discharge to rivers or reuse, protecting aquatic ecosystems and public health.",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -3465,14 +3219,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Zinc reacts with hydrochloric acid to produce zinc chloride and hydrogen gas.\nThe reaction proceeds according to the following equation:\nZn + 2HCl → ZnCl₂ + H₂\nIn an experiment 32.5 g of zinc were reacted with hydrochloric acid and the hydrogen gas was collected.\n(i) How many moles of zinc were used?\n(ii) How many moles of hydrochloric acid were needed to react fully with this amount of zinc?\n(iii) What mass of zinc chloride was produced?\n(iv) What volume of hydrogen gas (measured at s.t.p.) was produced?\n[Relative atomic masses: Cl = 35.5, Zn = 65; molar volume at s.t.p. = 22.4 litres]",
         "marks": 25,
         "model": "Since the forward reaction is exothermic, an increase in temperature favours the reverse (endothermic) reaction. According to Le Chatelier's principle, the equilibrium shifts to the left (towards reactants) to absorb the added heat energy. This reverse shift converts the pink [Co(H₂O)₆]²⁺ complex ions back into blue CoCl₂, so the solution changes colour from pink to blue as temperature increases. The equilibrium position moves leftward, decreasing the concentration of the pink complex ion and increasing the concentration of blue cobalt(II) chloride.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)",
-        "question": "Answer either part A or part B.\nA:\n(i) Name the product of the industry on which you carried out a case study. Where in Ireland is this industry located?\n(ii) Give one reason why this is a suitable location for the industry.\n(iii) Is the production process a batch process or a continuous process? Explain your answer. Name one of the raw materials used in the production process.\nOR\nB:\n(i) Name the father-and-son team who received the Nobel Prize for their work in developing the X-ray technique for determining crystal structure.\n(ii) Give an example of a macromolecular crystal. Name the binding force in this crystal. State one use of this substance.\n(iii) Give an example of a molecular crystal. Name the binding force in this crystal.",
-        "marks": 25,
-        "model": "Moles of Zn = mass ÷ relative atomic mass = 32.5 g ÷ 65 g/mol = 0.5 mol",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -3709,14 +3455,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d",
-        "question": "Name the apparatus used to measure the calorific value of a food, e.g. a new snack bar.",
-        "marks": 6,
-        "model": "bomb calorimeter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "e",
         "question": "Explain what happens when liquid A in the apparatus begins to boil.",
         "marks": 6,
@@ -3737,22 +3475,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is the volume at s.t.p. of 2 moles of helium (He) gas?",
         "marks": 6,
         "model": "44.8 litres",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "h",
-        "question": "What term is used to describe the time interval during which the number of nuclei of a certain radioactive isotope in a sample reduces by 50%?",
-        "marks": 6,
-        "model": "half-life",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "i",
-        "question": "State one beneficial effect on the environment of removing nitrates and phosphates in tertiary sewage treatment.",
-        "marks": 6,
-        "model": "to avoid algal bloom / to avoid eutrophication / to avoid scum / to avoid smelly water / to avoid fish kill / to avoid pollution of water",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -3877,22 +3599,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Why are small quantities of mercaptans added to LPG?",
         "marks": 6,
         "model": "safety / to give it an odour (smell) / because LPG (it) has no odour (smell) / for easy detection / in case of a leak to enable detection",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(i)",
-        "question": "What is meant by the octane number of petrol?",
-        "marks": 6,
-        "model": "tendency of fuel to resist pre-ignition (auto-ignition, knocking, pinking) / tendency of a fuel to pre-ignite (auto-ignite knock, pink)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "Give one way of increasing the octane number of a fuel.",
-        "marks": 6,
-        "model": "isomerisation / catalytic cracking / dehydrocyclisation (reforming) / add lead / add oxygenate / add methanol (ethanol, MTBE, methyl tert-butyl ether) / use short chain molecules",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -4187,14 +3893,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c(i)A",
-        "question": "What is a batch process?",
-        "marks": 6,
-        "model": "all reactants added at start / fixed time / short duration / fixed start time / definite amount of reactant / reaction vessel cleaned after each run / product removed at the end",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c(ii)A",
         "question": "Explain the underlined term.",
         "marks": 6,
@@ -4423,14 +4121,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Number of moles: 0.01076 (Allow 0.01 to 0.011 mol) (9)\nRelative molecular mass: 57 to 63 (6)",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "Why is this method unsuitable for liquids that are non-volatile?\n\nWhat modern instrumental technique could be used as a more accurate method to measure the relative molecular masses of volatile and non-volatile liquids as well as of solid and gaseous substances?",
-        "marks": 9,
-        "model": "Why: do not vaporise easily / boiling points too high / boiling points too near (higher than) boiling point of water / boiling points too near (higher than) 100 °C (373 K) / have to vaporise below 100 °C (3)\nWhat: mass spectrometer (6)",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -4447,14 +4137,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "State the number of:\n(i) sub-levels (subshells)\n(ii) orbitals\noccupied by electrons in an argon atom in its ground state.",
         "marks": 6,
         "model": "(i) 5 (3)\n(ii) 9 (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Write a balanced nuclear reaction for the beta particle decay of iodine-131.",
-        "marks": 6,
-        "model": "¹³¹₅₃I → ¹³¹₅₄Xe + ⁰₋₁e (β)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -4611,22 +4293,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Several processes are used in oil refining to convert less useful hydrocarbons into more useful ones. For each conversion, (i) to (iii), name the process involved.",
         "marks": 8,
         "model": "(i) dehydrocyclisation (cyclodehydrogenation) / reforming (3)\n(ii) catalytic cracking (3)\n(iii) isomerisation / reforming (2)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Name a hydrocarbon that X could be and draw its structural formula.\nName the product of process (iii) and state its octane number.",
-        "marks": 12,
-        "model": "Hydrocarbon: but-1-ene / but-2-ene / 2-methylpropene (3)\nStructure: CH₂=CHCH₂CH₃ / CH₃CH=CHCH₃ / CH₃C(CH₃)=CH₂ (or other valid isomers) (3)\nProduct: 2,2,4-trimethylpentane / isooctane (3)\nOctane number: 100 (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Explain why the substance MTBE (methyl tert-butyl ether) is sometimes added to motor fuel.\nName the substance previously added to motor fuel for the same purpose and state why its use was discontinued.",
-        "marks": 9,
-        "model": "Explain: increase octane number / prevent auto-ignition (pre-ignition, early ignition, ignition before spark, knocking, pinking) (3)\nName: lead compounds e.g. tetraethyl lead (3)\nState: toxic (poisonous, health hazard to living things) / poisons (damages) catalytic converters / pollutes the environment (3)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -5017,22 +4683,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2012,
     "parts": [
       {
-        "label": "c(i)A",
-        "question": "Bauxite from Africa is transported to Aughinish in Co. Limerick, where it is converted to pure alumina (Al₂O₃). The alumina is then shipped to Russia where aluminium metal is produced from it by electrolysis.\n\nDescribe the chemical processes used to produce pure alumina from bauxite.",
-        "marks": 12,
-        "model": "Heating (digestion) of the bauxite with sodium hydroxide (NaOH) (3) // to produce soluble sodium aluminate (NaAlO₂) (3) // seeding with crystals of aluminium oxide trihydrate (Al₂O₃.3H₂O) (3) // precipitation of aluminium oxide trihydrate (Al₂O₃.3H₂O) / conversion of sodium aluminate (NaAlO₂) to aluminium oxide trihydrate (Al₂O₃.3H₂O) (3) // heating to remove water from Al₂O₃.3H₂O - ANY FOUR",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)A",
-        "question": "Draw a labelled diagram of the electrolytic cell used to produce aluminium metal from alumina.",
-        "marks": 9,
-        "model": "Graphite anode(s) labelled (3) // graphite cathode labelled (3) // molten alumina and cryolite labelled (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c(iii)A",
         "question": "Explain why the recycling of aluminium is environmentally desirable.",
         "marks": 4,
@@ -5063,14 +4713,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Explain why nitrogen gas is chemically inert.",
         "marks": 6,
         "model": "High energy (strong, difficult to break) bond (3) // non-polar (3) // triple bond - ANY TWO",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)B",
-        "question": "What is meant by the fixation of nitrogen gas in the atmosphere?",
-        "marks": 6,
-        "model": "Conversion of atmospheric nitrogen (3) // to useful (chemically reactive) compounds (3)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -5163,14 +4805,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "State three precautions that should be observed when carrying out the preparation of ethene by this method.",
         "marks": 9,
         "model": "keep gas from flame / air-tight stopper / secure assembly / don't use first gas jar // safety screen / glasses (goggles) / protective clothing / tie hair back // before heat removed take tube from water / disconnect tube / dismantle apparatus // use tongs / gloves // avoid inhaling glass wool / wear mask (ANY THREE)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Give the name or formula of the solid Y used in the preparation of ethyne in the school laboratory.\nDescribe the appearance of this solid.",
-        "marks": 6,
-        "model": "calcium(II) dicarbide / calcium carbide / carbide / calcium acetylide / CaC₂ // black / dark / grey / off-white / grey black / sandy / buff / brown-grey / dirty solid",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -5271,14 +4905,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "The scientist pictured on the right used charged oil drops to determine the size of the charge on a sub-atomic particle.\nName the scientist, and the sub-atomic particle involved in his experiments.",
         "marks": 6,
         "model": "Robert Millikan // electron",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "What change occurs in the nucleus of an atom when it undergoes beta emission?",
-        "marks": 6,
-        "model": "neutron changes to proton / number of neutrons decrease(s) by 1, number of protons increase(s) by 1",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -5419,14 +5045,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Give a use for the kerosene fraction obtained when crude oil is fractionated.\nExplain why some of the kerosene produced in oil refining is subjected to catalytic cracking.",
         "marks": 9,
         "model": "home (central, domestic) heating / used as paraffin oil / jet (aviation, aircraft) fuel / tractor fuel (TVO) / bus fuel / rocket fuel / storing reactive elements (metals e.g. alkali metals; non-metals e.g. white phosphorus) / solvent / lubricant / lighting (paraffin lamps) / cooking / produce petrol (gasoline) / camping stoves // greater demand for shorter chains (smaller molecules, kerosene chains too long) // useful products // lighter fractions // increased octane number // production of raw materials (alkenes – or named alkene, monomers, compounds) for making polymers (plastics, petrochemicals)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Straight chain molecules of C₁₃H₂₈ occur in the kerosene fraction. Upon cracking a molecule of C₁₃H₂₈, a C₂H₄ molecule, a C₄H₈ molecule and an unbranched alkane molecule are obtained.\nIdentify this unbranched alkane molecule and state its octane number.\nDraw structures for three of the isomers of C₄H₈.",
-        "marks": 15,
-        "model": "heptane / C₇H₁₆ / CH₃(CH₂)₅CH₃ // octane number: 0 / zero (naught, nought) // [Three structural isomers of C₄H₈ including but-1-ene, cis-but-2-ene, trans-but-2-ene, 2-methylpropene]",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -5607,14 +5225,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "(i) [Dot and cross diagram showing N with three bonding pairs and one lone pair, with H atoms bonded to three of the electron pairs] // (ii) three bonding and one non-bonding (lone) pair / four electron (valence) pairs giving bond arrangement (shape of molecule) to be pyramidal // greater repelling power (repulsion) of lone pair / lone pair pushes bonds closer together // (iii) intermolecular (between molecules) attraction involving slightly (δ) positive (+) hydrogen (H) atom and slightly (δ) negative (–) atom {highly electronegative element(s)/atom(s), F, O, N} // [Diagram showing hydrogen bonding between two or more ammonia molecules with dotted line indicating hydrogen bond]",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Answer either part A or part B.\nA:\n(i) Why can very electropositive metals such as sodium only be extracted from their ores by electrolysis?\n(ii) Explain why the electrolyte used in the Downs cell is molten. What is the purpose of the calcium chloride used in the process?\n(iii) Write a balanced equation for overall reaction in the Downs cell. Explain how the products are prevented from recombining after they have been formed by electrolysis. Give one commercial use for each product.\nOR\nB:\nWrite balanced chemical equations showing\n(i) the formation of ozone in the stratosphere,\n(ii) the photodissociation of ozone.\nCFCs are a group of substances known to have caused damage to the ozone layer.\n(iii) State two effects of damage to the ozone layer.\n(iv) Give one former major use of CFCs.\n(v) Give an example of a CFC.\n(vi) Identify the group of compounds now used as ozone friendly CFC replacements.",
-        "marks": 25,
-        "model": "A(i): ores very stable (hard to reduce) / metals (sodium) high (near top) of electrochemical series / high (near top) of reactivity series / have low (high negative) Eº / have high standard oxidation potential / electrons are the strongest (very strong) reducing agents // A(ii): to allow conduction (to allow electricity to flow, solid non-conducting) / to allow movement of ions (no movement of ions in solid) // to lower melting point (mp) of electrolyte / fluxing agent // A(iii): NaCl → Na + ½Cl₂ / 2NaCl → 2Na + Cl₂ // separated by steel gauze (mesh) / floating sodium (Na) removed through pipe (tube) and chlorine (Cl₂) extracted through hood // sodium: street lighting / coolant (heat exchanger) in nuclear reactors / making alloys / making lead tetraethyl / extraction of less electropositive metals / drying organic solvents / producing potassium (rubidium, cesium) / making sodium hydride (NaH) / making sodium peroxide (Na₂O₂) / measuring neutron radiation dosage // chlorine: chlorination (water treatment) / disinfectant / bactericide / antiseptic / in swimming pools / making polymers (plastics, PVC) / making of chloroalkanes / powerful oxidizing agent / weapon (poison gas, chemical warfare) // OR B(i): O₂ → 2O• / O₂ → O• + O• / O₃ ← O₂ + O• // B(ii): O₃ → O₂ + O• // B(iii): more ultra-violet (uv) reaches earth // sunburn (skin damage) // skin cancer (melanoma, skin disease) // eye damage // damage to plants (ANY TWO) // B(iv): refrigerant (fridges) / air-conditioning / aerosol propellant for deodorants, insecticides / dry cleaning / solvents / fire extinguishers / expanded polymers (blowing agents) / burger cartons // B(v): [Any CFC with name or formula e.g. CCl₂F₂ (dichlorodifluoromethane, CFC-12)] // B(vi): HCFCs (hydrochlorofluorocarbons) / HFCs (hydrofluorocarbons)",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -5787,14 +5397,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "When 100 cm3 of 1.0 M hydrochloric acid reacted with excess sodium hydroxide solution, 5.71 kJ of heat were produced.\n(i) How many moles of hydrochloric acid reacted?\n(ii) How many kJ of heat would have been produced if one mole of hydrochloric acid (HCl) reacted?\n(iii) Hydrochloric acid reacts with sodium hydroxide according to the equation:\nHCl + NaOH → NaCl + H2O\nWhat is the heat of reaction (∆H) for the reaction between hydrochloric acid and sodium hydroxide?",
         "marks": 12,
         "model": "(i) Moles of HCl: n = M × V / 1000 = 1.0 × 100 / 1000 = 0.1 mol\n\n(ii) Heat produced per mole: From the equation HCl + NaOH → NaCl + H₂O, 0.1 mol of HCl produces 5.71 kJ. Therefore, 1 mol of HCl would produce: 5.71 / 0.1 = 57.1 kJ\n\n(iii) The heat of reaction (ΔH) for the reaction is −57.1 kJ mol⁻¹. The negative sign indicates the reaction is exothermic, releasing 57.1 kJ of heat per mole of HCl that reacts with sodium hydroxide.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "",
-        "question": "The energy content (calorific value) of foods and fuels can be measured in a special piece of apparatus. Name this apparatus.",
-        "marks": 6,
-        "model": "A bomb calorimeter (or bomb calorimeter apparatus) is used to measure the energy content of foods and fuels. This apparatus consists of a sealed steel vessel (bomb) in which the food or fuel is ignited in oxygen under pressure. The heat released by complete combustion is measured by the temperature rise of the surrounding water jacket, allowing the calorific value (energy content per gram or per mole) to be calculated accurately.",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -6059,14 +5661,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "(b) Define pH.\nDescribe how you would use universal indicator paper (pH paper) or solution to measure the pH of a river water sample.\nCalculate the pH of a 0.001 M solution of nitric acid (HNO3).",
         "marks": 25,
         "model": "**pH definition:** pH is the negative logarithm of hydrogen ion concentration; pH = −log[H⁺]. It is a measure of the acidity or alkalinity of a solution on a scale from 0 to 14, where 7 is neutral.\n\n**Measurement procedure:** Pour a sample of river water into a clean, dry test tube or beaker. Dip universal indicator paper (or add a few drops of universal indicator solution) into the sample. Allow the paper to change colour fully and compare the resulting colour against the pH scale printed on the indicator container. Record the pH value corresponding to the colour observed.\n\n**Calculation:** HNO₃ is a strong acid and fully ionises: [H⁺] = 0.001 M = 1 × 10⁻³ M. pH = −log(1 × 10⁻³) = −(−3) = **3**.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "",
-        "question": "(c) Answer part A or part B.\nA: Explain the terms (i) feedstock and (ii) co-products as used in industrial chemistry.\nExplain how batch and continuous processes differ.\nSpecify two ways in which the chemical industry has made a positive contribution to modern life.\nor\nB: Name the father and son team pictured on the right who were pioneers in the study of X-ray crystallography.\nCopy the table into your answer book and fill in the missing information about the binding forces in each crystal.\nType of crystal | Example | Binding Forces\nIonic | Sodium chloride | ?\nMolecular | Iodine | ?\nCovalent macromolecular | Diamond | ?\nName the scientist pictured on the right who determined the crystal structures of vitamin B12 and penicillin.",
-        "marks": 25,
-        "model": "**Feedstock:** The raw material/starting substance(s) fed into an industrial chemical process; it is the input material that undergoes chemical transformation.\n\n**Co-products:** Substances produced alongside the main product during a chemical reaction; they may be valuable or require disposal/recycling depending on their properties and market demand.\n\n**Batch vs. continuous processes:** In a batch process, reactants are loaded, the reaction proceeds to completion in a vessel, then products are removed and the vessel is recharged. This allows flexibility and is used for smaller-scale or variable production. In a continuous process, reactants flow continuously into the reactor, products flow continuously out, and the system operates at steady state. Continuous processes are more efficient, use less energy per unit product, and suit large-scale production of uniform goods.\n\n**Two positive contributions:** (1) Production of ammonia via the Haber process provides nitrogen fertilisers essential for increasing agricultural yield and feeding global populations. (2) Development of pharmaceuticals and antibiotics through industrial synthesis has dramatically improved human health and life expectancy.",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -6409,14 +6003,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Liquefied (liquid) petroleum gas // Propane / 2-methylpropane (isobutane)",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "What is meant by the octane number of a fuel?\nWould you expect compound C or compound D to have the higher octane number? Give a reason for your answer.\nWhy were lead compounds added to motor fuel in the past?\nWhy was the addition of lead compounds to motor fuel discontinued?",
-        "marks": 12,
-        "model": "Ability (tendency) of fuel to resist auto-ignition (knocking, pinking) // D // Shorter chain / branched // To increase octane number / to prevent auto-ignition (knocking, pinking) // Poisonous (toxic) / damage to catalytic converter / pollutant",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -6517,14 +6103,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is hard water?\nWould you expect the water supply in a limestone district to be hard? Give a reason for your answer.\nDistinguish between temporary hardness and permanent hardness of water.\nState one advantage and one disadvantage of a hard water supply.",
         "marks": 24,
         "model": "Does not easily form lather with soap / forms scum with soap // Yes // Would contain calcium (Ca) ions (compounds, Ca²⁺) / limestone would dissolve in rainwater (carbonic acid, H₂CO₃) / limestone is a calcium compound (calcium carbonate, CaCO₃) // Temporary: removed by boiling / caused by calcium (magnesium) hydrogencarbonates // Permanent: not removed by boiling / caused by soluble calcium (magnesium) salts (CaCl₂, MgCl₂, CaSO₄, MgSO₄, etc) // Advantage: good for teeth (bones) / contains calcium / nice taste / better for brewing / better for tanning leather // Disadvantage: wastes soap / blocks pipes / scale (deposit) on kettles (boilers) / produces scum",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "The following words that relate to sewage treatment are omitted from the passage: nitrates, solid, sedimentation, eutrophication, micro-organisms.\nIn primary treatment, sewage is passed through grids and over grit channels to remove [1] material and is then transferred to [2] tanks where suspended solids are allowed to settle. In secondary treatment the sewage undergoes biological oxidation by [3]. Tertiary treatment removes [4] and phosphates which could cause [5] in rivers and lakes.\nWrite in your answer book the omitted word corresponding to each number (1 to 5).",
-        "marks": 20,
-        "model": "1: solid // 2: sedimentation // 3: micro-organisms // 4: nitrates // 5: eutrophication",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -6809,22 +6387,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is the trend in the size of atomic radii going down the first group of the periodic table?",
         "marks": 6,
         "model": "Atomic radius increases going down Group 1. Each successive element has an additional electron shell (main energy level) further from the nucleus. Although nuclear charge increases, the effect of increased shielding (screening) by inner electrons outweighs this, resulting in a larger atomic radius.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "d",
-        "question": "Name the piece of equipment used to measure the calorific values of foods and fuels.",
-        "marks": 6,
-        "model": "A bomb calorimeter (or calorimeter) is used to measure the calorific values of foods and fuels. The sample is burned in a sealed combustion chamber surrounded by water, and the temperature rise of the water allows calculation of the energy released.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "e",
-        "question": "What is meant by the octane number of a fuel?",
-        "marks": 6,
-        "model": "The octane number of a fuel is a measure of its resistance to knocking (pre-ignition) in petrol engines. It is a scale from 0 to 100, where 2,2,4-trimethylpentane is assigned 100 and n-heptane is assigned 0. Higher octane number indicates better anti-knock performance.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -7121,14 +6683,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "b(i)",
-        "question": "Mass spectrometry (MS), gas chromatography (GC), high-performance liquid chromatography (HPLC) and thin-layer chromatography (TLC) are all used in analytical chemistry. In the case of each one of these analytical techniques state one important application of the technique.",
-        "marks": 16,
-        "model": "Mass spectrometry: determination of molecular weight/relative molecular mass and identification of molecular ion peak. Gas chromatography: separation and identification of components in volatile mixtures; quality control of fuels and organic compounds. High-performance liquid chromatography: separation of non-volatile/thermally unstable compounds; pharmaceutical analysis and detection of drugs in biological samples. Thin-layer chromatography: rapid separation and identification of compounds in mixtures; determination of purity of organic compounds and detection of pigments.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "b(ii)",
         "question": "Choose one of these analytical techniques and explain the principle upon which it is based.",
         "marks": 9,
@@ -7195,14 +6749,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "a(iv)",
-        "question": "Who was the Polish born scientist who received the Nobel Prize in 1911 for isolating the radioactive elements polonium and radium?",
-        "marks": 5,
-        "model": "Marie Curie (1867–1934), Polish-born physicist and chemist, received the Nobel Prize in Chemistry in 1911 for the discovery and isolation of polonium and radium. She conducted pioneering research on radioactivity and was the first woman to win a Nobel Prize and the first person to win Nobel Prizes in two different scientific fields.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "a(v)",
         "question": "Who is credited with the discovery of the nucleus of the atom?",
         "marks": 5,
@@ -7235,14 +6781,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "c(i)A",
-        "question": "Name the main product of the chemical industry on which you carried out a case study. What use is made of the product you have named?",
-        "marks": 10,
-        "model": "The main product of the chemical industry case study is ammonia (NH₃). Ammonia is used as a fertiliser (in the form of ammonium salts such as ammonium nitrate), as a feedstock for the production of nitric acid and other nitrogen compounds, as a refrigerant, and in the manufacture of plastics, textiles, and cleaning products.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "c(ii)A",
         "question": "Name the principal raw material used in this industry. Give the source of the raw material you have named.",
         "marks": 9,
@@ -7251,42 +6789,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "c(iii)A",
-        "question": "Is the process by which the product is made a batch or a continuous process? Explain your answer.",
-        "marks": 6,
-        "model": "Ammonia is produced by a continuous process. This is because the reaction is reversible and exothermic; continuous processing allows for the removal of product as it forms, shifting the equilibrium forward and maximising yield. Continuous processes are more economical and efficient for large-scale industrial production than batch processes.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "c(i)B",
-        "question": "In 1964 Dorothy Hodgkin was awarded the Nobel Prize in Chemistry for determining the structures of complex organic molecules. Identify either the vitamin or the antibiotic whose structures were determined by Hodgkin.",
-        "marks": 4,
-        "model": "Dorothy Hodgkin determined the structure of vitamin B₁₂ (cyanocobalamin), a complex cobalt-containing organic molecule essential for human health. Alternatively, she determined the structure of penicillin, the antibiotic discovered by Fleming. Her work elucidated the three-dimensional atomic arrangement of these medically important compounds.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "c(ii)B",
         "question": "What experimental technique did she use to determine these structures?",
         "marks": 6,
         "model": "Dorothy Hodgkin used X-ray crystallography to determine the structures of complex organic molecules. This technique involves directing X-rays at crystalline samples and analysing the diffraction patterns produced. The patterns reveal information about the positions of atoms in the crystal, allowing reconstruction of the three-dimensional molecular structure.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "c(iii)B",
-        "question": "The father and son team who pioneered this technique are pictured. Who are they?",
-        "marks": 6,
-        "model": "William Henry Bragg (father) and William Lawrence Bragg (son) pioneered X-ray crystallography. William Henry Bragg discovered that crystals could diffract X-rays, and William Lawrence Bragg derived Bragg's Law, which relates the angle of X-ray diffraction to atomic spacing in crystals. Their work established X-ray crystallography as a powerful technique for determining molecular structures.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "c(iv)B",
-        "question": "Give two examples of covalent macromolecular solids.",
-        "marks": 9,
-        "model": "Two examples of covalent macromolecular solids are diamond and silicon dioxide (SiO₂). Diamond is a form of carbon in which each carbon atom is bonded to four other carbon atoms in a tetrahedral arrangement, forming an extended three-dimensional network. Silicon dioxide has a similar structure where silicon atoms are bonded to oxygen atoms, forming a continuous network of Si–O bonds throughout the solid.",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -7641,34 +7147,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2002,
     "parts": [
       {
-        "label": "7a",
-        "question": "Give one application of each of these techniques: mass spectrometry and gas chromatography.",
-        "marks": 8,
-        "model": "Mass spectrometry: separating isotopes / measuring relative atomic mass / measuring relative molecular mass / determining structure / identifying species / measuring relative abundance / analysing waste gases / water analysis / drug metabolites / quality control / environmental analysis (4)\nGas chromatography: blood alcohol analysis / drug testing / separating water pollutants / separating alcohols (carboxylic acids, esters) / working out metabolic pathways / studying enzyme reaction mechanisms / identifying flavourings in drinks / detecting pesticides / organic analysis for C & H / identifying functional groups / hormones in meat / determining position of double bond (4)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "7b",
         "question": "What are the main principles on which each of these techniques is based?",
         "marks": 18,
         "model": "Mass spectrometry: charged particle / ionisation (3); moving in a magnetic field experiences acceleration (3); experiences a force / is deflected in a circular path according to their mass/charge ratio (3)\nGas chromatography: mobile phase a gas (3); stationary phase porous (non-volatile liquid) (3); separation of the mixture based on different interactions (attractions, adsorptions) with the phases (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "7c",
-        "question": "What are the fundamental processes that occur in a mass spectrometer?",
-        "marks": 15,
-        "model": "Vaporisation of sample (3); ionisation to positive ions (3); acceleration in electric field (3); separation in magnetic field by mass (3); detection producing a mass spectrum (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "7d",
-        "question": "HPLC is another chromatographic technique. What do the letters HPLC stand for? State one application of this technique.",
-        "marks": 9,
-        "model": "HPLC: high-performance [Accept 'high pressure'] (3) liquid chromatography (3)\nApplication: testing for drugs / analysis of food for vitamins (impurities, additives, growth promoters, caffeine) / separating dyes / blood alcohol / separating components of something named (3)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -7695,14 +7177,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Methane is a major component of natural gas. Why are mercaptans often added to natural gas?\nWhat environmental change or effect is associated with the release of methane to the atmosphere?\nApart from leaking gas pipes, name a major source from which methane is released to the atmosphere.",
         "marks": 9,
         "model": "Why mercaptans: to give an odour (smell) / to detect leaks (3)\nEnvironmental effect: greenhouse effect / global warming / trapping heat (IR) / reducing ozone damage / removing chlorine radicals (3)\nSource: fossil fuels / oil / coal (coal gas, coal mines) / marshes (bogs, paddy fields) / animals (cows, sheep) / dumps (landfill) / slurry / anaerobic decay / compost (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "8c",
-        "question": "What structural feature of 2,2,4-trimethylpentane results in it having a high octane rating? Give one other structural feature which increases the octane number of a hydrocarbon.",
-        "marks": 6,
-        "model": "Feature: branching / methyl branches / presence of five (very many) methyl groups / short chain (3)\nOther: ring / branching (unless used above) / aromatic / short chain (if not used above) (3)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -7753,22 +7227,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Various chemicals are often added in other stages of water treatment. Identify one other stage in water treatment which involves the addition of a chemical to the water. Name one chemical added during this stage and state why this chemical is added.",
         "marks": 9,
         "model": "Stage: chlorination / sterilisation / fluoridation / pH adjustment (neutralisation) (3)\nName: chlorination: chlorine / sodium hypochlorite; sterilisation: chlorine / sodium hypochlorite / ozone; fluoridation: sodium fluorosilicate / ammonium fluorosilicate / hexafluorosilicic acid / sodium fluoride / calcium fluoride; pH adjust: sodium hydroxide / calcium hydroxide / sodium carbonate / sulfuric acid / carbon dioxide (3)\nReason: chlorination: kills germs (bacteria, micro-organisms) / sterilises; fluoridation: prevents tooth decay; pH adjust: raise/lower pH (neutralise) / protect pipework (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "9b",
-        "question": "Distinguish between the primary and secondary stages of sewage treatment.",
-        "marks": 12,
-        "model": "Primary: removal of solids (large particles, floating debris, large items, twigs) by screening and settlement (sedimentation, grit channels) / physical (6)\nSecondary: oxidation / breakdown / use of air (oxygen) by micro-organisms (bacteria) / biological / activated sludge (6)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "9bii",
-        "question": "What is the purpose of tertiary treatment?",
-        "marks": 6,
-        "model": "Removal of nitrates (nitrogen compounds) and phosphates (phosphorous compounds) [Accept: to prevent algal bloom, to avoid eutrophication, or to remove plant nutrients for 3 marks]",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -7869,14 +7327,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What are alpha-particles (α-particles)?\nDescribe the experiment carried out by Rutherford and his co-workers that led to the discovery of the nucleus. Explain how Rutherford interpreted the results of this experiment to conclude that the atom has a nucleus.",
         "marks": 25,
         "model": "What: helium (4) nuclei (3) // He²⁺ / two protons and two neutrons (7) [Accept: atomic no. 2, mass no 4]\nDescribe: bombarded gold foil (leaf) with α-particles (3); used zinc sulfide detector / phosphorescent screen / detector for scattered α-particles (3); most passed straight through / some deflected at large angles / some reflected (bounced back) (6)\nExplain: mass concentrated (contained in small space) / positive charge concentrated (contained in small space) / atom is mostly empty space (6)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11c",
-        "question": "Answer either part A or part B.\nA: Distinguish between a batch and a continuous production process.\nAnswer both of the following questions in relation to one of the following processes: ammonia manufacture, nitric acid manufacture, or magnesium oxide manufacture.\n(i) State one reason in favour of the Irish location of this industrial plant.\n(ii) Give a brief outline of the processes carried out in the manufacture of the main product, giving balanced chemical equations where relevant.\nOR\nB: Aluminium is extracted from bauxite.\n(i) Where in Ireland is bauxite purified to produce alumina?\n(ii) Outline the steps involved in the extraction of alumina from bauxite, giving balanced chemical equations where relevant.\n(iii) Give two reasons why it is preferable to produce aluminium by recycling rather than by extracting it from its ore.",
-        "marks": 25,
-        "model": "A - Batch: feedstock (raw materials, reactants) in vessel gives product / process repeated with new lot (3); Continuous: feedstock fed in at one end; product out at other end (3)\n(i) Reason: natural gas supply / workforce available / sea for cooling / transport available / local demand for product (4)\n(ii) NH₃: hydrogen from methane natural gas / nitrogen from air / CH₄ + H₂O → CO + 3H₂ / nickel catalyst / CO + H₂O = CO₂ + H₂ / high pressure / high temperature / iron catalyst (ANY FOUR); N₂ + 3H₂ → 2NH₃ (12)\nHNO₃: 4NH₃ + 5O₂ → 4NO + 6H₂O; high pressure / high temp / platinum-rhodium catalyst / NO reacts with oxygen to give NO₂ / NO + O₂ → NO₂ / thisreacts with water to give HNO₃ / 3NO₂ + H₂O → 2HNO₃ + NO (ANY FOUR) (12)\nMgO: lime produced from limestone / CaCO₃ → CaO + CO₂ / CaO + H₂O → Ca(OH)₂ / reaction with the MgCl₂ in seawater / magnesium hydroxide heated to give magnesium oxide / Mg(OH)₂ → MgO + H₂O (ANY FOUR); Ca(OH)₂ + MgCl₂ → Mg(OH)₂ + CaCl₂ (12)\nOR\nB - (i) Aughinish / Shannon estuary / Limerick / Askeaton / Foynes (4)\n(ii) Al₂O₃.3H₂O + 2NaOH → 2NaAlO₂ + 4H₂O; digestion (dissolving) with sodium hydroxide to produce sodium aluminate / filtration (clarification) to remove impurities / precipitation of Al₂O₃.3H₂O / 2NaAlO₂ + 4H₂O → Al₂O₃.3H₂O + 2NaOH / removal of water (dehydration, calcination) / by heating / Al₂O₃.3H₂O → Al₂O₃ + 3H₂O (ANY FOUR) (12)\n(iii) saves energy / cheaper / avoids litter / reduces (limits) environmental damage / prevents loss of aluminium (conservation of natural resources) (ANY TWO) (6)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -8127,22 +7577,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Minimum combined energy of colliding particles (molecules, atoms, ions) for reaction to take place between them or minimum combined energy of particles (molecules, atoms, ions) for effective collisions.",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "j",
-        "question": "By referring to the diagram of the infrared spectrum of aspirin, or otherwise, give a simple explanation of the principle of infrared spectrometry.",
-        "marks": 6,
-        "model": "Molecules (compounds, substances, bonds, groups of atoms, functional groups) absorb infrared radiation of different (characteristic, certain) frequencies (wavelengths, energies).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or part B.\nA: Describe a chemical method for removing acidic gases from industrial chimney waste.\nOR\nB: Name the analytical technique that was the basis of the work for which Dorothy Hodgkin was awarded the 1964 Nobel Prize for Chemistry.",
-        "marks": 6,
-        "model": "A: Scrubbing (reaction) with limestone (calcium carbonate, CaCO₃, CaO, hydroxide compounds, amines, zeolites, etc). B: X-ray crystallography.",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -8225,22 +7659,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Give a major use for:\n(i) kerosene,\n(ii) residue.",
         "marks": 6,
         "model": "(i) Aviation (airplane, jet) fuel / home heating (cooking, lighting) oil. (ii) Roofing / road making / waterproofing.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Name the oil refining process that converts octane into 2,2,4-trimethylpentane.\nName the oil refining process that converts octane into ethylbenzene according to the following balanced equation:\nC₈H₁₈ (l) → C₈H₁₀ (l) + 4H₂ (g)\nExplain why these conversions are desirable.\nCalculate the heat of reaction for the conversion of octane to ethylbenzene above, given that the heats of formation of octane and ethylbenzene are –250.1 and –12.5 kJ mol⁻¹ respectively.",
-        "marks": 18,
-        "model": "NAME: Isomerisation. NAME: Dehydrocyclisation / reforming. EXPLAIN: Improves (increases) octane rating (number) / reduces tendency of fuel to cause knocking / by making molecules (compounds, hydrocarbons) that are branched (cyclic, shorter chained). CALCULATE: 237.6 kJ.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "On undergoing catalytic cracking a gas oil molecule C₁₈H₃₈ is broken into three smaller molecules, each of which is a hydrocarbon. Two of these hydrocarbons are octane and propene. Deduce the molecular formula of the third molecule formed.",
-        "marks": 6,
-        "model": "C₇H₁₄.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -8393,14 +7811,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂ / Ca(HCO₃)₂ → CaCO₃ + H₂CO₃.",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "Explain in words or by balanced equations how this water with temporary hardness is deionised using a cation-exchange resin (RH) and an anion-exchange resin (R*OH).",
-        "marks": 8,
-        "model": "Two hydrogen ions (2H⁺) from the cation-exchange resin (RH) replace a Ca²⁺ (cations, positive ions) in the water: 2RH + Ca²⁺ → R₂Ca + 2H⁺; a hydroxide (hydroxyl) ion (OH⁻) from the anion-exchange resin (R*OH) replaces a HCO₃⁻ (anions, negative ions) in the water: R*OH + HCO₃⁻ → R*HCO₃ + OH⁻; hydrogen ion(s) (H⁺) and hydroxide (hydroxyl) ion(s) (OH⁻) combine to form water: 2H⁺ + 2OH⁻ → 2H₂O.",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -8463,40 +7873,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2016-HI-Q10",
-    "subject": "chemistry",
-    "chapterId": "chem2",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2016 — Q10",
-    "year": 2016,
-    "parts": [
-      {
-        "label": "c(i)",
-        "question": "What are isotopes?\nWhat is a radioisotope?\nDefine the half-life of a radioisotope.",
-        "marks": 13,
-        "model": "WHAT: Atoms with same atomic number (Z) / atoms with same number of protons / atoms of same (an) element having different mass numbers (A) / having different numbers of neutrons. WHAT: Isotope (atom) with unstable nucleus / nucleus (isotope) spontaneously decays (decomposes, emits radiation). DEFINE: Time taken for half the sample to decay (decompose) / for activity to reduce by (to) a half.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "John Joly was an Irish scientist who in 1914 pioneered the treatment of cancer using a radium compound containing radium–226.\nComplete the following nuclear equation to show the alpha decay of radium–226:\n²²⁶₈₈Ra → _____ + _____",
-        "marks": 6,
-        "model": "²²²₈₆Rn + ⁴₂He.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)",
-        "question": "Radium–223 undergoes alpha decay and is also used in radiotherapy.\nStarting with a sample containing 1.0 × 10⁻⁴ moles of radium–223, how many of these atoms remain when 87.5% of the sample has decayed?",
-        "marks": 6,
-        "model": "7.5 × 10¹⁸ atoms of radium–223.",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2016-HI-Q11",
     "subject": "chemistry",
     "chapterId": "chem10",
@@ -8541,98 +7917,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Which, if any, of the three hydrides would you expect to have intermolecular hydrogen bonding?\nJustify your answer.\nSuggest a reason why:\n(i) ammonia has the highest boiling point of the three hydrides,\n(ii) phosphine's boiling point is lower than that of arsine.",
         "marks": 12,
         "model": "WHICH: Azane / ammonia / NH₃. JUSTIFY: Nitrogen (N) small and strongly electronegative / hydrogen bonds occur when hydrogen is bonded to nitrogen, oxygen, fluorine. SUGGEST (i): Hydrogen bonding in azane (ammonia, NH₃) stronger than the other intermolecular forces (dipole-dipole, van der Waals) in phosphane or arsane. SUGGEST (ii): Phosphine (PH₃) molecules smaller (lighter, smallest of the two) / phosphine (PH₃) has smaller (smallest of the two) molecular mass / phosphine (PH₃) has fewer (fewest of the two) electrons.",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2016-HI-Q11",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2016 — Q11",
-    "year": 2016,
-    "parts": [
-      {
-        "label": "c(A)(i)",
-        "question": "What is the beneficial effect of the ozone layer?",
-        "marks": 4,
-        "model": "Absorbs {shields earth (us) from} ultraviolet (uv) radiation.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(A)(ii)",
-        "question": "How is ozone formed in the stratosphere?",
-        "marks": 9,
-        "model": "High energy {frequency (short wavelength)} radiation / ultraviolet (uv) radiation / UVC breaks oxygen molecules (O₂) into separate atoms (radicals) [O₂ → 2O]; these oxygen atoms (O, O●, radicals) react with oxygen molecules (O₂) to form ozone (O₃) [O + O₂ → O₃].",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(A)(iii)",
-        "question": "CFCs release chlorine radicals when they photodissociate in the stratosphere.\nDescribe using balanced equations why chlorine radicals are so damaging to the ozone layer.",
-        "marks": 9,
-        "model": "Cl + O₃ → ClO + O₂; ClO + O → Cl + O₂; chain reaction / process repeats (continues) / Cl (Cl●) attacks another O₃ (ozone molecule).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(A)(iv)",
-        "question": "Why are HCFCs significantly less damaging to the ozone layer than CFCs?",
-        "marks": 3,
-        "model": "Broken down before they reach stratosphere / broken down more easily than CFCs / broken down in troposphere / shorter atmospheric residence times / more reactive than CFCs / less stable than CFCs / CH bonds break before CF or CCl bonds in free radical reactions.",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2016-HI-Q11",
-    "subject": "chemistry",
-    "chapterId": "chem22",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2016 — Q11",
-    "year": 2016,
-    "parts": [
-      {
-        "label": "c(B)(i)",
-        "question": "Give one everyday application for each product of this electrolysis of molten sodium chloride.",
-        "marks": 6,
-        "model": "Sodium (Na) used in street lighting (lasers, fireworks, desiccant, drying agent, coolant in nuclear reactors). Chlorine used to disinfect (kill microorganisms) / chlorine used in water treatment (purification) / chlorine used as oxidising reagent (agent) / chlorine used in making plastics (PVC, polyvinylchloride, polychloroethene).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(ii)",
-        "question": "Why must the electrolyte be molten?\nHow does using some calcium chloride as part of the electrolyte make the electrolysis more cost effective?",
-        "marks": 6,
-        "model": "WHY: Molten sodium chloride conducts electricity / solid sodium chloride cannot (does not) conduct electricity. HOW: Lowers melting point (melting temperature) of electrolyte / lowers the electrolysis temperature / fluxing agent.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(iii)",
-        "question": "What is the function of the steel mesh?",
-        "marks": 3,
-        "model": "To prevent recombination of the products / to keep products separate / to keep sodium (Na) and chlorine (Cl₂) separate.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(iv)",
-        "question": "Write a balanced equation for the cell reaction.",
-        "marks": 6,
-        "model": "Na⁺ + Cl⁻ → Na + ½Cl₂ or 2Na⁺ + 2Cl⁻ → 2Na + Cl₂ or NaCl → Na + ½Cl₂ or 2NaCl → 2Na + Cl₂.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(B)(v)",
-        "question": "Why is electrolysis the method of choice for the extraction of aluminium from its ores?",
-        "marks": 4,
-        "model": "Aluminium also electropositive / aluminium high up (in) electrochemical series / chemical reducing agents not strong enough to reduce aluminium ore / aluminium ore not easily reduced.",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -8829,14 +8113,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b",
-        "question": "What is the principal use made of oxygenates such as methyl tert-butyl ether, MTBE, in the petrochemicals industry?",
-        "marks": 6,
-        "model": "Raise octane number / prevent auto-ignition (pre-ignition, knocking, pinking) / cleaner emissions / less pollution / less carbon monoxide produced",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c",
         "question": "Distinguish between sigma (σ) and pi (π) covalent bonding.",
         "marks": 6,
@@ -8897,14 +8173,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Ultraviolet absorption spectroscopy can be used in the quantitative analysis of some organic compounds (e.g. drug metabolites and plant pigments). What is the underlying principle of this analytical technique?",
         "marks": 6,
         "model": "Absorbance is directly proportional to (varies directly with) concentration of substance",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or B.\nA: The use of CFCs as refrigerant gases has been discontinued. Name a group of substances used to replace CFCs as refrigerant gases.\nor\nB: Name the electrochemist who was the first to isolate the elements sodium and potassium in 1807 by passing electricity through sodium hydroxide and potassium hydroxide, respectively.",
-        "marks": 6,
-        "model": "A: Hydrochlorofluorocarbons (HCFCs) / hydrofluorocarbons (HFCs) / perfluorocarbons (PFCs). B: Sir Humphry Davy",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -9009,14 +8277,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "Which of these isomers would you predict to have the lowest octane number?\nJustify your choice in terms of the structural features of the molecules.",
-        "marks": 9,
-        "model": "Pentane / the first one / the straight-chain isomer. Justification: Pentane is a straight (unbranched) chain molecule",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d",
         "question": "Write a balanced equation for the combustion of pentane (C₅H₁₂) in excess oxygen.",
         "marks": 6,
@@ -9045,14 +8305,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Bitumen is a residue fraction obtained from crude oil. Give one use for bitumen.",
         "marks": 3,
         "model": "Road surfacing (tarring) / roofing / waterproofing",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "h",
-        "question": "What is catalytic cracking? What is its economic importance in oil refining?",
-        "marks": 6,
-        "model": "Catalytic cracking: Splitting (breaking) of long chain molecules by heat and catalyst(s). Economic importance: Gives useful products (more demand) / products needed for petrol / products used as feedstock for chemical industry (source of alkenes) / gives higher octane numbers",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -9367,14 +8619,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "(ii) In this experiment it was observed that most of the alpha particles went straight through the gold foil. Two other observations were made. State these other observations and explain how each helped Rutherford deduce that the atom has a nucleus.",
         "marks": 12,
         "model": "First observation: Deflection of alpha particles. Explanation: Particles passed close to small, positive mass/charge. Second observation: Alpha particles reflected/rebounded. Explanation: Particles collided with small, very dense mass/nucleus",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Polonium-210 decays emitting an alpha particle. Copy and complete the equation for the alpha-decay of polonium-210, filling in the values of x (atomic number), y (mass number) and Z (elemental symbol).\n²¹⁰₈₄Po → ʸₓZ + ⁴₂He",
-        "marks": 6,
-        "model": "y = 206, x = 82, Z = Pb (or Pb-206). Accept x = 82, y = 206, z = Pb",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -10005,22 +9249,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "a(iv)",
-        "question": "Name the chemical process that can convert octane into 2,2,4-trimethylpentane.",
-        "marks": 0,
-        "model": "isomerisation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(v)",
-        "question": "Identify the inorganic co-product of the chemical process in which hexane is converted into cyclohexane.",
-        "marks": 0,
-        "model": "hydrogen (gas) / H2",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(i)",
         "question": "What is meant by the heat of combustion of a fuel?",
         "marks": 12,
@@ -10495,42 +9723,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2025,
     "parts": [
       {
-        "label": "a(i)",
-        "question": "What is meant by total hardness?",
-        "marks": 25,
-        "model": "temporary hardness and permanent hardness / all calcium ions and all magnesium ions",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(ii)",
-        "question": "Write the full name for edta, a reagent used to determine total hardness.",
-        "marks": 0,
-        "model": "ethylenediaminetetraacetic acid",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(iii)",
-        "question": "Name a suitable method for removing total hardness from water for domestic use.",
-        "marks": 0,
-        "model": "ion-exchange / use of deioniser",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "a(iv)",
         "question": "Describe a chemical test to confirm the presence of nitrate ions in a water sample.",
         "marks": 0,
         "model": "add iron(II) sulfate solution / FeSO4 (2); add concentrated sulfuric acid / H2SO4 (2); brown ring forms (at interface) (2)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(v)",
-        "question": "Identify an instrumental method of analysis that could be used to detect and measure the concentration of lead ions in a water sample.",
-        "marks": 0,
-        "model": "atomic absorption spectrometry / AAS",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -10591,114 +9787,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c(i)",
-        "question": "Name one scientist credited with the discovery of the element radium.",
-        "marks": 25,
-        "model": "(Marie / Pierre) Curie",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "What is an alpha particle?",
-        "marks": 0,
-        "model": "(particle consisting of) 2 protons and 2 neutrons / helium nucleus",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)",
-        "question": "Identify the radioisotope produced when radium–226 emits an alpha particle.",
-        "marks": 0,
-        "model": "Rn–222 / radon–222",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iv)",
-        "question": "Explain why a person wearing a watch containing this luminous paint is not at risk from the alpha radiation emitted by the radium–226.",
-        "marks": 0,
-        "model": "low penetrating ability (of alpha radiation)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(v)",
-        "question": "State a reason why a radium watch manufactured 100 years ago is still considered a source of ionising radiation.",
-        "marks": 0,
-        "model": "long half-life / very little of sample will have decayed in 100 years",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(vi)",
-        "question": "The nuclear equation represents the beta-particle decay of radium–225: Ra₈₈²²⁵ → Z_Y^X + e₋₁⁰. Identify the number X.",
-        "marks": 0,
-        "model": "225",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(vii)",
-        "question": "Identify the number Y in the nuclear equation.",
-        "marks": 0,
-        "model": "89",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(viii)",
-        "question": "Identify the element Z in the nuclear equation.",
-        "marks": 0,
-        "model": "actinium / Ac",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(i)",
-        "question": "The nitrogen cycle on Earth is a biogeochemical process which transforms inert nitrogen gas in the atmosphere to a more usable form for living organisms. Explain why nitrogen gas in the atmosphere is chemically inert.",
-        "marks": 25,
-        "model": "presence of the triple bond",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(ii)",
-        "question": "Write balanced chemical equations for the natural fixation by lightning of atmospheric nitrogen converting it first to NO and then to NO2.",
-        "marks": 0,
-        "model": "N2 + O2 → 2NO (3 × 1 + 2); 2NO + O2 → 2NO2 (3 × 1 + 2)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d(A)(iii)",
         "question": "Identify the two acids formed when nitrogen dioxide reacts with water.",
         "marks": 0,
         "model": "HNO2 / nitrous acid (3); HNO3 / nitric acid (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(iv)",
-        "question": "Explain why plants need nitrogen.",
-        "marks": 0,
-        "model": "make protein / formation of DNA / amino acids etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(v)",
-        "question": "Describe how nitrate ions in the soil are recycled to nitrogen gas in the atmosphere.",
-        "marks": 0,
-        "model": "denitrification / denitrifying bacteria",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(vi)",
-        "question": "Describe one pathway by which nitrogen compounds in living organisms are recycled to nitrogen gas in the atmosphere.",
-        "marks": 0,
-        "model": "decay / decomposition / excretion etc.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -10761,14 +9853,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2010,
     "parts": [
       {
-        "label": "a",
-        "question": "What is the full name of the edta reagent?",
-        "marks": 5,
-        "model": "Ethylenediamine tetraacetic acid or 1,2-bis[bis(carboxymethyl)amino] ethane",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b",
         "question": "Name an indicator suitable for this titration and state the colour change observed at the end point of the titration.",
         "marks": 9,
@@ -10781,30 +9865,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is the general purpose of buffer solutions?\nWhat buffer was required for this titration?\nWhat problem would have been encountered in this titration if the wrong buffer were used?",
         "marks": 9,
         "model": "Purpose: To stabilise the pH of a solution / resist changes in pH. Buffer: pH 10 / Ammonia-ammonium chloride. Problem: Poor/inaccurate end point / edta complexing with other ions / incomplete complexing with calcium and magnesium ions",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Explain the two operations, involving the titration flask and its contents, carried out as the edta was being added from the burette during the titrations.",
-        "marks": 6,
-        "model": "Swirl to mix; Allow time after addition from burette for reaction; Wash down sides with deionised water; On white surface (any two)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "It was found that 50.0 cm³ samples of the hard water before ion exchange required an average of 9.20 cm³ of 0.01 M edta solution for complete reaction and that 50.0 cm³ samples of the water after ion exchange required an average of 2.40 cm³ of the same edta solution for complete reaction.\nCalculate the total hardness of the water before ion exchange in:\n(i) moles per litre of calcium and magnesium ions (M²⁺),\n(ii) grams per litre expressed in terms of CaCO₃,\n(iii) ppm in terms of CaCO₃.\nRepeat these calculations for the water after ion-exchange.",
-        "marks": 15,
-        "model": "Before: (i) 1.84 × 10⁻³ M or 0.00184 M (ii) 1.84 × 10⁻¹ or 0.184 (iii) 184. After: 4.8 × 10⁻⁴ M or 0.00048 M; 4.8 × 10⁻² or 0.048; 48",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "f",
-        "question": "State and explain whether the water having passed through the deioniser is suitable for use as deionised water in the laboratory or if the deioniser needs to be changed or regenerated.",
-        "marks": 6,
-        "model": "The water is unsuitable / the deioniser needs to be replaced because hardness/ions remain present after passing through the deioniser",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -10983,14 +10043,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "i",
-        "question": "What happens during the secondary stage of sewage treatment?",
-        "marks": 6,
-        "model": "Biological/biochemical/by micro-organisms/bacteria/activated sludge oxidation/decomposition/digestion of sewage/carbon containing material",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "j",
         "question": "Draw the structural formulae of any two molecules with the molecular formula C₃H₆O₂.",
         "marks": 6,
@@ -11083,26 +10135,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "What is meant by auto-ignition in petrol engines?\nCompound Y has an octane number of 83 and therefore has the same octane rating as an 83:17 mixture of two reference hydrocarbons. Name the reference hydrocarbon that is the major component of the 83:17 reference mixture.",
-        "marks": 6,
-        "model": "Tendency to premature ignition/explosion/knocking/ignition before spark/before piston reaches top. 2,2,4-trimethylpentane/iso-octane",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d",
         "question": "Define heat of combustion.\nOutline how the heat of combustion of X could be measured using a bomb calorimeter.",
         "marks": 15,
         "model": "Energy released/heat change when one mole of substance is burned/reacts completely in oxygen/excess oxygen. Place known amount/mass of substance in bomb calorimeter/sample in crucible; Pressurise with oxygen/burn in excess oxygen/burn completely; Place bomb in known quantity water; Ignite electrically/ignition coil labelled; Find heat using rise in temperature and heat capacity/Q = mcΔT or Q = CΔT; Calculate for one mole (any three)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "In order to increase its octane rating, compound X is converted to compound Z in oil refineries by the following reforming (dehydrocyclisation) process:\nC₇H₁₆(l) → C₇H₈(l) + 4H₂(g)\nCalculate the heat change for this reaction given that the heats of formation of C₇H₁₆(l), and C₇H₈(l) are –224.2 and 12.4 kJ mol⁻¹, respectively.\nState one important industrial use for the hydrogen produced in this reaction.",
-        "marks": 12,
-        "model": "ΔH = +236.6 kJ mol⁻¹ [–236.6 gets 3 marks only]. Calculation: 12.4 – (–224.2) = 236.6 or 12.4 + 224.2 = 236.6. Industrial use: Hydrogenation of vegetable oils/fats (making margarine) / fuel / preparation of HCl/ammonia/methanol",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -11317,14 +10353,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b3",
-        "question": "(iii) Name the instrumental technique that could have been used to confirm the identity of the product based on its absorption of a unique set of low energy electromagnetic radiations.",
-        "marks": 3,
-        "model": "Infra-red (IR) spectroscopy",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b4",
         "question": "(iv) Give one important use of benzoic acid or its salts.",
         "marks": 4,
@@ -11427,56 +10455,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2010-HI-Q11b",
-    "subject": "chemistry",
-    "chapterId": "chem2",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2010 — Q11b",
-    "year": 2010,
-    "parts": [
-      {
-        "label": "b1",
-        "question": "Define (i) radioactivity, (ii) the half-life of a radioactive isotope.",
-        "marks": 10,
-        "model": "(i) Spontaneous random decay/disintegration/decomposition of nucleus to release α, β or γ radiation; or spontaneous random emission of radiation/radiant energy/rays/particles from unstable nuclei/due to nuclear decay. (ii) Time taken for half of radioactive isotopes/atoms/nuclei in sample to disintegrate/decay; or time for sample to reach half its activity; or t½ = ln2/λ with meaning of λ",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b2",
-        "question": "Americium–241 is a radioactive isotope used in domestic smoke detectors. Americium–241 has a half-life of 432 years and decays by emitting alpha particles to produce neptunium.\nDetermine the value of A and the value of Z in the following nuclear equation for the alpha decay of an americium–241 nucleus.\n²⁴¹₉₅ Am → ᴬ_Z Np + ⁴₂ He + energy",
-        "marks": 6,
-        "model": "A = 237; Z = 93",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b3",
-        "question": "Alpha particles are hazardous to human health. State one risk associated with exposure to alpha radiation.",
-        "marks": 3,
-        "model": "Causes ionisation / causes cancer / causes mutation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b4",
-        "question": "Explain why the occupants of a house fitted with smoke detectors containing americium–241 are not at risk from alpha radiation emitted by these devices.",
-        "marks": 3,
-        "model": "Radiation is not very penetrating",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b5",
-        "question": "Householders are advised to replace the batteries in smoke detectors regularly. Explain whether or not the americium–241 needs to be replaced regularly also.",
-        "marks": 3,
-        "model": "Half-life is over 400 years/very long; sample does not deplete quickly",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2010-HI-Q11cA",
     "subject": "chemistry",
     "chapterId": "chem23",
@@ -11515,14 +10493,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Covalent",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "cA5",
-        "question": "The spatial arrangement of carbon atoms in each of these three structures was established by analysing the scattering of X-rays by the crystals. What was the surname of the father and son who pioneered this technique?",
-        "marks": 4,
-        "model": "Bragg",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -11535,34 +10505,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2010,
     "parts": [
       {
-        "label": "cB1",
-        "question": "Oxygen is produced on an industrial scale by the liquefaction and fractional distillation of air.\n(i) What substances are removed in the purification of the air feedstock before it is liquefied?",
-        "marks": 4,
-        "model": "Dust; moisture; carbon dioxide",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "cB2",
         "question": "(ii) Describe with the aid of a labelled diagram how the fractional distillation of the pure liquid air is carried out.",
         "marks": 9,
         "model": "Relevant diagram with one correct label; Compressed air warms up in column; liquid oxygen (highest boiling point) collects at base of column and is removed; gaseous nitrogen (lowest boiling point) comes off at top of column",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cB3",
-        "question": "(iii) Explain whether the fractional distillation of air is a continuous or a batch process.",
-        "marks": 6,
-        "model": "Continuous; Air goes in at one end and product comes out at other in continuous manner; Air is cooled and fractionated continuously",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cB4",
-        "question": "(iv) Name and give one industrial use of a co-product of the fractional distillation of air.",
-        "marks": 6,
-        "model": "Liquid nitrogen/neon/argon/krypton/xenon. Uses: Nitrogen – inert atmosphere/fast freezing/gas chromatography/spectroscopy; Neon – inert atmosphere/lighting/lasers/TV tubes/refrigerant; Argon – inert atmosphere/lighting/lasers/MRI/CT; Xenon – inert atmosphere/photography/lighting/lasers/MRI/CT [Use must be matched with named co-product]",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -11581,14 +10527,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Identify the two ions (represented by M2+) that most commonly cause hardness when dissolved in water.",
         "marks": 5,
         "model": "Calcium (Ca) ions / Ca2+ and Magnesium (Mg) ions / Mg2+",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "1(a)(ii)",
-        "question": "Explain the term total hardness.",
-        "marks": 3,
-        "model": "Sum of all permanent and temporary hardness due to sum of dissolved Ca2+ and Mg2+ ions",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -11629,38 +10567,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Describe the correct procedure for preparing a burette, that had been previously rinsed with deionised water and some 0.010 M edta solution, for this titration.",
         "marks": 12,
         "model": "Clamp vertically; fill above zero mark using dropper; fill part below tap before adjusting to initial mark; fill with clean dry funnel; remove funnel before adjusting to initial mark; ensure no bubbles before adjusting to initial mark; bottom of meniscus on zero mark; read at eye-level",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "1(e)(i)",
-        "question": "Calculate the number of moles of edta in 9.2 cm3 of a 0.010 M solution.",
-        "marks": 3,
-        "model": "0.000092 (9.2 × 10–5, 23/250000) moles edta",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "1(e)(ii)",
-        "question": "Calculate the number of moles of M2+ ion that reacted with this quantity of edta.",
-        "marks": 3,
-        "model": "0.000092 (9.2 × 10–5, 23/250000) moles of M2+ (M2+ : edta = 1 : 1)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "1(e)(iii)",
-        "question": "Calculate the number of moles of M2+ ion removed by the deioniser from a litre of the original supply of hard water.",
-        "marks": 3,
-        "model": "0.00368 (3.68 × 10–3, 23/6250) – 0.0037 moles of M2+ removed from one litre",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "1(e)(iv)",
-        "question": "Calculate the total hardness removed by the deioniser expressed in g l–1 of CaCO3 and in p.p.m. CaCO3.",
-        "marks": 6,
-        "model": "0.368 (3.68 × 10–1, 46/125) – 0.37 g CaCO3 hardness removed from one litre; 368 – 370 p.p.m. CaCO3 hardness removed from one litre",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -11941,14 +10847,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "H2CO3 ⇌ HCO3– + H+; HCO3– ⇌ CO32– + H+ or H2CO3 + H2O ⇌ HCO3– + H3O+; HCO3– + H2O ⇌ CO32– + H3O+",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "4(l)B",
-        "question": "Iodine (I2) is an example of a molecular crystal. What distinguishes molecular crystals from other types of crystals?",
-        "marks": 6,
-        "model": "Molecules occupy lattice points; held together by intermolecular (van der Waals, London, dispersion, dipole-dipole, hydrogen) bonds",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -12023,30 +10921,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Loses/donates 4s electrons to become Ca2+ with stable noble gas (argon) configuration; forms Ca2+ to satisfy octet rule; to have stable full outer octet",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "5(d)(i)",
-        "question": "Define radioactivity.",
-        "marks": 6,
-        "model": "Spontaneous decay (disintegration, break-up) of an unstable atomic nucleus with emission of different types of radiation (alpha, beta and/or gamma)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "5(d)(ii)",
-        "question": "Copy and complete the following nuclear equation for the alpha decay of the radon–222 isotope.\n₈₆²²²Rn → __ + ₂⁴He",
-        "marks": 3,
-        "model": "₈₄²¹⁸Po",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "5(d)(iii)",
-        "question": "Suggest a reason why it is not possible to change lead (Pb) atoms into gold (Au) atoms by a chemical reaction or a series of chemical reactions.",
-        "marks": 3,
-        "model": "Lead into gold involves nuclear reaction/change to nucleus/change of atomic number; chemical reactions involve electrons only; transmutation is not a chemical reaction",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -12071,38 +10945,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Compare petrol and diesel in terms of boiling point.",
         "marks": 2,
         "model": "Petrol has lower boiling point; diesel has higher boiling point",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6(b)(i)",
-        "question": "Explain the term octane number of a fuel.",
-        "marks": 3,
-        "model": "Measure of tendency of a fuel to resist knocking (autoigniting, pre-igniting); fuel performance rating based on equivalence to certain mixture of hydrocarbons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6(b)(ii)",
-        "question": "Give the systematic IUPAC name and draw the structure of a molecule of the alkane fuel assigned an octane number of zero.",
-        "marks": 6,
-        "model": "Heptane (n-heptane); CH3(CH2)5CH3",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6(b)(iii)",
-        "question": "Give the systematic IUPAC name and draw the structure of a molecule of the alkane fuel assigned an octane number of 100.",
-        "marks": 6,
-        "model": "2,2,4-trimethylpentane (or iso-octane); CH3C(CH3)2CH2CH(CH3)CH3",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6(b)(iv)",
-        "question": "What structural feature of the molecules of the alkane fuel assigned octane number 100 accounts for its high octane number?",
-        "marks": 3,
-        "model": "Branched chain; branching on chain; short chain",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -12727,56 +11569,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2022-HI-Q11(d)A",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2022 — Q11(d)A",
-    "year": 2022,
-    "parts": [
-      {
-        "label": "11(d)A(i)",
-        "question": "Explain the term photodissociation.",
-        "marks": 8,
-        "model": "Break-up (splitting up, decomposing) of a molecule using light (UV, electromagnetic radiation)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(ii)",
-        "question": "Write a balanced equation for the photodissociation of ozone in the stratosphere.",
-        "marks": 3,
-        "model": "O3 → O2 + O•",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(iii)",
-        "question": "State one major use for CFCs before the Montreal Protocol.",
-        "marks": 6,
-        "model": "Refrigerant/air conditioner/fridge/freezer; propellant for aerosols; to make expanded polystyrene/plastic foam; fire extinguishant",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(iv)",
-        "question": "Show by means of balanced equations the photodissociation of a molecule of CCl3F giving a chlorine free radical and how chlorine free radicals break down ozone in a chain reaction.",
-        "marks": 6,
-        "model": "CCl3F → CCl2F• + Cl•; O3 + Cl• → O2 + ClO•; ClO• + O• → O2 + Cl•",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(v)",
-        "question": "Explain using a balanced equation how the presence of methane in the atmosphere can help absorb chlorine free radicals.",
-        "marks": 2,
-        "model": "CH4 + Cl• → CH3• + HCl",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2022-HI-Q11(d)B",
     "subject": "chemistry",
     "chapterId": "chem22",
@@ -12805,14 +11597,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "How does a sacrificial anode help protect the steel hull of a ship from rusting?",
         "marks": 3,
         "model": "Metal of sacrificial anode higher up electrochemical series than iron; metal of anode corrodes first before steel; anode more electropositive than steel hull",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)B(iv)",
-        "question": "Anodised aluminium is more resistant to corrosion than ordinary aluminium. What is anodised aluminium?",
-        "marks": 6,
-        "model": "Has aluminium oxide (Al2O3) thickened coat on surface",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -12855,14 +11639,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "In making the additions to the sample, why should the solutions used be concentrated?",
         "marks": 6,
         "model": "To minimise the amount of the water sample that is displaced; minimise the change in the oxygen dissolved in the sample; so that a small volume (amount) supplies excess",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Describe how the additions of the concentrated solution of manganese(II) sulfate (MnSO4) and alkaline potassium iodide (KOH/KI) to the bottle of river water should be carried out. What essential precaution should be taken when replacing the stopper of the bottle after these additions are made?",
-        "marks": 12,
-        "model": "Remove a few cm³ of river water from the bottle; addition made so that water overflows from the bottle. Make additions under the level of the water using a dropper (pipette, syringe). Do not bubble air (oxygen) into the water in the process. Essential precaution: do not trap air (oxygen) bubbles",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -13149,14 +11925,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2005,
     "parts": [
       {
-        "label": "a",
-        "question": "(i) Name both of the reference hydrocarbons present in the mixture used when measuring octane number by this comparison method.\n(ii) State two structural features of a hydrocarbon molecule which contribute to it having a high octane number.\n(iii) Lead compounds were used in the past to increase the octane number of fuels. Why are lead compounds unsuitable as additives for petrol used in modern cars?\n(iv) Identify one additive or type of additive, other than a compound of lead, used to increase the octane number of fuels.",
-        "marks": 20,
-        "model": "(i) 2,2,4-trimethylpentane (isooctane) and heptane (n-heptane). (ii) Short chain length / branching / ring (cyclic) / aromatic (any two). (iii) Catalyst poison / destroys catalytic converter. (iv) Oxygenate / alcohol / methanol / ethanol / ether (alkoxyalkane) / methyl-t-butyl ether (MTBE)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b",
         "question": "There are three structural isomers of the hydrocarbon of formula C₅H₁₂. In the case of each of these isomers, draw the structure of the molecule and give its systematic IUPAC name.",
         "marks": 18,
@@ -13253,14 +12021,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is meant by the biochemical oxygen demand (BOD) of a water sample?",
         "marks": 6,
         "model": "p.p.m. (mg l⁻¹) (amount) of oxygen consumed when sample kept in the dark for five days at 20 °C (293 K)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "Describe clearly the processes involved in the primary and secondary stages of urban sewage treatment. What substances are removed by tertiary treatment of sewage?",
-        "marks": 18,
-        "model": "Primary: removal of solids (large particles, floating debris, large items, twigs, etc.) by screening and settlement (sedimentation, grit channels) / physical. Secondary: oxidation / breakdown / use of air (oxygen, aerobic digestion, anaerobic digestion) by micro-organisms (bacteria) / biological / chemical / activated sludge. Tertiary: removes nitrates (nitrogen compounds) and phosphates (phosphorus compounds)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -13659,14 +12419,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name a process used to extract clove oil from cloves.",
         "marks": 6,
         "model": "Steam / distillation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "h",
-        "question": "2,2,4-trimethylpentane has a higher octane number than heptane. Explain the underlined term.",
-        "marks": 6,
-        "model": "Measure of (tendency of) a fuel to resist knocking (pinking, autoignition, pre-ignition); or indication of how well a fuel causes knocking.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -14123,22 +12875,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "a(v)",
-        "question": "Define radioactivity.",
-        "marks": 3,
-        "model": "Spontaneous decay of unstable nucleus / unstable nucleus releasing radiation.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(vi)",
-        "question": "H(1,3) is radioactive and decays by emitting a beta particle. What is a beta particle?",
-        "marks": 1,
-        "model": "Electron / negative particle with very small mass",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(i)",
         "question": "Explain the underlined term (chemical equilibrium).",
         "marks": 6,
@@ -14349,42 +13085,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d(i)",
-        "question": "In a chemical reaction between substances X and Y, substances C and D are formed (X + Y → C + D). In industry, substances X and Y, dissolved in an organic solvent, react together in a steel vessel equipped with a stirring mechanism. A number of hours later the C and D produced are separated and purified. The reaction vessel is emptied, cleaned, and the process is repeated. D is the co-product. Is the manufacture of C as described above a batch process or a continuous process?",
-        "marks": 3,
-        "model": "Batch",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(ii)",
-        "question": "Why is steel a suitable material for reaction vessels in the chemical industry?",
-        "marks": 9,
-        "model": "Unreactive (inert) / resistant to corrosion / can withstand heating (pressure) / easily cleaned.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d(iii)",
         "question": "Suggest two possible ways of increasing the rate of production of C.",
         "marks": 4,
         "model": "Add catalyst / heat (increase temperature) / increase reactant concentration / increase factory output. (Any two)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(iv)",
-        "question": "What happens to co-products of the chemical industry such as D after they are isolated and purified?",
-        "marks": 6,
-        "model": "Sold / disposed of / used / stored",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(v)",
-        "question": "Suggest what could be done with the solvent and any unreacted X and Y to reduce manufacturing costs.",
-        "marks": 6,
-        "model": "Recycle / re-use / recover",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -14459,14 +13163,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "A small volume of another solution was added to the water samples before commencing the titrations.\n(i) Identify this solution.\n(ii) Why was this solution added?",
         "marks": 6,
         "model": "(i) pH 10 buffer or buffer with pH > 10 or ammoniacal buffer. (ii) To ensure accurate end point, to keep pH at about 10, to ensure indicator works properly, to ensure sharp end point/colour change.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "Calculate:\n(i) the average number of moles of edta used in the titrations,\n(ii) the number of moles of M²⁺ ion in 50.0 cm³ of hard water,\n(iii) the total hardness of the water expressed in grams per litre of CaCO₃,\n(iv) the total hardness of the water expressed as p.p.m. (mg l⁻¹) of CaCO₃.",
-        "marks": 15,
-        "model": "(i) 9.3 × 10⁻⁵ moles or 0.000093 moles. (ii) 9.3 × 10⁻⁵ moles or 0.000093 moles. (iii) 0.186 g/l or 0.19 g/l. (iv) 186 p.p.m. or 190 p.p.m.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -14679,26 +13375,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b",
-        "question": "A sample of magnesium metal was introduced into a mass spectrometer and vaporised. What were the next three fundamental processes that occurred in the mass spectrometer?",
-        "marks": 9,
-        "model": "Ionisation, acceleration, separation/deflection in a magnetic field.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c",
         "question": "Use the data given in the mass spectrum to calculate the relative atomic mass of magnesium correct to two decimal places.",
         "marks": 6,
         "model": "24.32",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "The radioisotope carbon-14 emits beta particles and has a half-life of 5730 years.\n(i) Define radioactivity.\n(ii) What change takes place in the structure of the nucleus of an atom when beta decay occurs?\n(iii) Write a balanced equation for the beta decay of a carbon-14 nucleus.\n(iv) A piece of fossilised yew from a tree that was alive about 6000 years ago was excavated from Boora Bog, Co. Offaly. When a tiny fragment of it was analysed, it was found to contain 1.5 × 10¹² carbon-14 atoms. Explain why the fragment of yew must have contained 3.0 × 10¹² carbon-14 atoms 5730 years before the analysis. What mass of carbon-14 did the fragment contain 5730 years before the analysis?",
-        "marks": 27,
-        "model": "(i) Spontaneous decay (disintegration) of an atomic nucleus with emission of different types of radiation (alpha, beta, gamma). (ii) A neutron changes into a proton and an electron that is emitted from nucleus. (iii) ¹⁴₇C → ¹⁴₆N + ₀⁻¹e or ¹⁴₇C → ¹⁴₆N + β⁻. (iv) 5730 is the half-life; the number of carbon-14 atoms halves in 5730 years, so there were twice as many 5730 years ago. Mass: 7.0 × 10⁻¹¹ g",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -14945,14 +13625,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Arrhenius: substance that dissociates into OH⁻ in water. Brønsted-Lowry: NH₃ accepts a proton (H⁺). pH of HCl: 0.30. pH of ethanoic acid: 2.52. Acid neutralised: ethanoic acid. Evidence: initial pH is 2.52 not 0.30; steep part of graph is mostly above pH 7. Indicator property: changes colour between pH 6–9 coinciding with steep part of graph.",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Answer part A, B, or C for industrial chemistry case studies including: (A) Magnesium oxide production from seawater, (B) Ammonia to nitric acid conversion, or (C) Haber process and urea production. OR answer part B on Bauxite to Aluminium.",
-        "marks": 25,
-        "model": "Multiple possible answers depending on case study chosen. For (A): Last two stages: MgCl₂ + Ca(OH)₂ → Mg(OH)₂ + CaCl₂ and Mg(OH)₂ → MgO + H₂O. Major use: refractory material. Higher concentration: CaCl₂. Measure: control dust/water temperature. For (B)i: Last two stages convert NO to NO₂ to HNO₃. For (B)ii: Catalyst is Pt-Rh, hydrogen from CH₄ + H₂O or electrolysis, nitrogen from fractional distillation of air. OR Bauxite (B): Last two stages: 2NaAlO₂ + 4H₂O → Al₂O₃·3H₂O + 2NaOH and Al₂O₃·3H₂O → Al₂O₃ + 3H₂O, then electrolysis of molten alumina.",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -15105,38 +13777,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2006,
     "parts": [
       {
-        "label": "(a)",
-        "question": "A colorimetric experiment was used to estimate the concentration of free chlorine in the sample. What is the general principle of all colorimetric experiments?",
-        "marks": 8,
-        "model": "intensity (depth) of colour / absorbance / transmittance // proportional to (varies directly with) concentration",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)",
-        "question": "Identify a suitable reagent to test for free chlorine in swimming pool water and state the colour which develops when this reagent reacts with free chlorine.",
-        "marks": 6,
-        "model": "Reagent: acidified potassium iodide (KI/H+) / DPD1 tablet / DPD reagent and buffer. Colour: for iodide: brown/red/orange/yellow // for DPD: red/pink",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)",
-        "question": "Describe briefly how you would estimate the concentration of free chlorine in a sample using either a comparator or a colorimeter.",
-        "marks": 12,
-        "model": "Comparator: Add reagent to sample // Colour develops // Compare with chart (disc, card) // Best match gives concentration. Colorimeter: Prepare standard solutions // Place in colorimeter and note readings (absorbance/transmittance) // Plot readings vs concentration // Get concentration from graph (curve)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)",
-        "question": "Give the name or formula of a free chlorine species in the swimming pool water. Give a reason why the concentration of free chlorine in treated drinking water is usually between 0.2 - 0.5 p.p.m. whereas in swimming pool water it should be between 1 - 5 p.p.m.",
-        "marks": 9,
-        "model": "Species: chlorine (Cl2) / chlorate(I) (hypochlorite, ClO¯) / chloric(I) acid (hypochlorous acid, HOCl). Reason: need for greater concentration of chlorine in swimming pool water to kill pathogens / swimming pool more contaminated / higher level would be dangerous to drink",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(e)(i)",
         "question": "When 1200 cm³ of swimming pool water was filtered, the mass of the filter paper, upon drying, had increased by 0.78 g. Calculate the concentration in p.p.m. of suspended solids.",
         "marks": 9,
@@ -15175,14 +13815,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name the scientist, shown in the photograph, who identified cathode rays as subatomic particles.",
         "marks": 6,
         "model": "J J Thomson",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)",
-        "question": "Give two differences between a nuclear reaction and a chemical reaction.",
-        "marks": 6,
-        "model": "involves nucleus of atoms not electron cloud / no breaking of chemical bonds // involves new elements being generated / transmutation // involves large scale release of energy from nucleus // involves release of nuclear radiation",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -15285,14 +13917,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(a)(iii)",
-        "question": "What instrumental technique is based on the fact that each element has unique atomic spectra?",
-        "marks": 3,
-        "model": "atomic absorption spectrometry (AAS)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(a)(iv)",
         "question": "Define atomic orbital.",
         "marks": 6,
@@ -15342,54 +13966,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "source": "LC Chemistry Higher 2006 — Q6",
     "year": 2006,
     "parts": [
-      {
-        "label": "(a)(i)",
-        "question": "What is meant by the octane number of a fuel?",
-        "marks": 8,
-        "model": "measure of (indication of, showing) tendency (likelihood) to auto-ignite (knock, pink, pre-ignite, ignite early) / number representing ability of fuel to resist auto-igniting // based on a scale where 2,2,4-trimethylpentane (iso-octane) is assigned 100 and heptane (n-heptane) a value of 0",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a)(ii)",
-        "question": "Hexane has the lowest octane number of the four compounds listed. What structural feature of the molecule contributes to this?",
-        "marks": 3,
-        "model": "straight chain / unbranched",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a)(iii)",
-        "question": "In the case of each of the other three compounds, identify the structural feature of its molecules which contributes to it having a high octane number.",
-        "marks": 9,
-        "model": "cyclohexane: ring / cyclic // benzene: aromatic [Accept ring / cyclic] // 2,2,4-trimethylpentane: branched",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a)(iv)",
-        "question": "Name the process carried out in an oil refinery that converts hexane to compounds such as cyclohexane and benzene. Why is the use of benzene in petrol strictly controlled?",
-        "marks": 6,
-        "model": "Process: dehydrocyclisation (cyclodehydrogenation). Why: benzene is carcinogenic / benzene is toxic (poisonous, harmful to health)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(i)",
-        "question": "Give two reasons why oxygenates such as MTBE are added to petrol.",
-        "marks": 6,
-        "model": "high (increase) octane rating (number) / reduces knocking / fuel burns better / improves fuel efficiency // produce clean products / reduce pollution / less carbon monoxide produced / do not poison catalyst in catalytic converter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(ii)",
-        "question": "Give two reasons why the addition of lead to petrol has been discontinued.",
-        "marks": 6,
-        "model": "it poisons (destroys) the catalyst in catalytic converter // lead emission presents a health hazard / toxic (poisonous) to living things",
-        "diagram": "",
-        "model_source": "scheme"
-      },
       {
         "label": "(c)",
         "question": "The combustion of cyclohexane may be described by the following balanced equation: C6H12(l) + 9O2(g) → 6CO2(g) + 6H2O(l). Given that the heats of formation of cyclohexane, carbon dioxide and water are –156, –394 and –286 kJ mol⁻¹, respectively, calculate the heat of combustion of cyclohexane.",
@@ -15463,14 +14039,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is hard water?",
         "marks": 5,
         "model": "water which does not easily form lather (forms scum instead of lather) with soap // water containing calcium or magnesium ions or their salts",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a)(ii)",
-        "question": "A supply of hard water is treated for domestic use by ion-exchange. You may assume that all the hardness is due to Ca(HCO3)2. Explain in words or using a balanced equation how a cation exchange resin, represented by RNa, softens this water supply.",
-        "marks": 6,
-        "model": "each calcium ion (Ca²⁺) is replaced by 2 sodium ions (Na⁺) from the resin // 2 RNa + Ca²⁺ + 2HCO3⁻ → 2 Na⁺ + R2Ca + 2HCO3⁻",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -15611,14 +14179,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Define relative atomic mass, Ar.",
         "marks": 6,
         "model": "average mass of atom(s) of element / average of isotopes taking abundances into account // relative to (based on) 1/12 mass of carbon-12 atom",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a)(iii)",
-        "question": "What is the principle on which the mass spectrometer is based?",
-        "marks": 9,
-        "model": "positive ions (particles) separated (deflected, spread out) // based on (according to) relative mass(es) {charge/mass ratio} // when moving in a magnetic field",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -15809,74 +14369,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2006-HI-Q11(c)A",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2006 — Q11(c)A",
-    "year": 2006,
-    "parts": [
-      {
-        "label": "(c)A(i)",
-        "question": "For ammonia manufacture - What are the raw materials? Describe how the raw materials are treated before they become the feedstock for the manufacturing process.",
-        "marks": 12,
-        "model": "Raw materials: air // natural gas (methane, CH4) // water [ANY TWO]. Treatment: air: filter / liquefaction (distillation) / natural gas (methane, CH4) burned in it to get nitrogen // natural gas: desulfurise / steam reform (react with steam) // water: deionised / react with natural gas (steam reforming)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)A(ii)",
-        "question": "Name one product of the ammonia process which, if discharged, could cause pollution.",
-        "marks": 3,
-        "model": "ammonia / carbon dioxide / oxides of nitrogen",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)A(iii)",
-        "question": "State the most important use of the main product of the ammonia process. What makes this product particularly suitable for this use?",
-        "marks": 10,
-        "model": "Use: fertilisers {urea, CO(NH2)2, C.A.N., any soluble ammonium salt} / nylon / nitric acid (HNO3). Reason: contains nitrogen",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2006-HI-Q11(c)B",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2006 — Q11(c)B",
-    "year": 2006,
-    "parts": [
-      {
-        "label": "(c)B(i)",
-        "question": "What materials must be added to a blast furnace in operation?",
-        "marks": 12,
-        "model": "iron ore {haematite (Fe2O3), magnetite (Fe3O4), siderite (FeCO3), pyrite (iron pyrites, FeS2)} // coke (C) // limestone (calcium carbonate/CaCO3) // hot air",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)B(ii)",
-        "question": "Name the principal reducing agent in the blast furnace and write a balanced equation for its reaction with haematite (Fe2O3).",
-        "marks": 9,
-        "model": "Name: carbon monoxide (CO). Equation: Fe2O3 + 3CO → 2Fe + 3CO2",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)B(iii)",
-        "question": "Why is the pig iron produced in a blast furnace further processed into steel?",
-        "marks": 4,
-        "model": "pig iron brittle (impure, high carbon content) / greater demand for steel / smaller demand for pig iron / steel more useful / pig iron less useful / pig iron cannot be re-worked / pig iron rusts more easily",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2012-OR-Q1",
     "subject": "chemistry",
     "chapterId": "chem25",
@@ -15913,14 +14405,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name the type of organic reaction involved in the preparation of ethene from liquid X according to the following equation.\nX → C2H4 + H2O",
         "marks": 6,
         "model": "elimination / dehydration",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Draw a labelled diagram for the preparation and collection of ethyne gas in the school laboratory. Indicate clearly on the diagram the names or formulas of the substances used in the preparation.",
-        "marks": 12,
-        "model": "dropping funnel and buchner // collection over water // calcium(II) dicarbide / calcium dicarbide / calcium carbide / CaC2 in flask // water in funnel (Any three: 6 + 2 × 3). [Absence of diagram lose 3 marks]",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -16137,22 +14621,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "16 g [Allow 3 marks for 0.5 moles or 11.2/22.4 moles]",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "j",
-        "question": "State one use of a mass spectrometer.",
-        "marks": 6,
-        "model": "finding relative atomic mass (molecular mass) / separating isotopes / finding percentages (relative abundances) of isotopes / identification / determining structure / analysing waste gases (from cars, dumps, etc.) / water analysis / environmental analysis / detecting drug metabolites / quality control",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or part B.\nA: Explain the term co-product in industrial chemistry.\nor\nB: The father and son in the pictures pioneered the technique of x-ray crystallography. Give their surname.",
-        "marks": 6,
-        "model": "A: products formed other than (as well as) the main (principal) product. B: Bragg",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -16235,30 +14703,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name any two of the fractions obtained by the fractional distillation of crude oil in an oil refinery. Give one use of each fraction you have named.",
         "marks": 15,
         "model": "Name any two: refinery gas // light gasoline (petrol) // naphtha // kerosene // gas oil (diesel) // residue (bitumen) (Any two: 6 + 3). Give uses corresponding to each named fraction (2 × 3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(i)",
-        "question": "The octane number of a fuel is an indication of its tendency to cause auto-ignition (knocking). Octane numbers are based on two reference hydrocarbons: heptane and 2,2,4-trimethylpentane (iso-octane). What are the octane numbers of these reference hydrocarbons?",
-        "marks": 6,
-        "model": "heptane: 0 // 2,2,4-trimethylpentane (iso-octane): 100",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "Write the structural formula of either one of the reference hydrocarbons.",
-        "marks": 6,
-        "model": "heptane: CH3CH2CH2CH2CH2CH2CH3 / CH3(CH2)5CH3 / structural formula. 2,2,4-trimethylpentane: appropriate structural formula with correct branching",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)",
-        "question": "State one way in which the octane number of a fuel can be increased.",
-        "marks": 6,
-        "model": "isomerisation / reforming / dehydrocyclisation / cracking / additive(s) / oxygenate(s) / alcohol / ethanol / methanol / methyl-t-butyl ether (MTBE, 2-methoxy-2-methylpropane) / lead compounds / addition of high octane substrates (ring compounds, short chained compounds, branched compounds) [Any one]",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -16617,50 +15061,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c(i)",
-        "question": "Name the main product of the industry on which you carried out a case study. State one important use of this product.",
-        "marks": 7,
-        "model": "Candidate should name a specific industry case study with main product and use",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "Where in Ireland is the industry located? Give any two reasons why this is a suitable location for the industry.",
-        "marks": 9,
-        "model": "Location and two reasons from: workforce available // transport (road, rail, river, sea, air) available // raw materials near // local demand for product // river (sea) for cooling // important for local economy // etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)",
-        "question": "State one way in which safety is promoted in the industry.",
-        "marks": 3,
-        "model": "safety training / protective clothing / ear muffs / first aid / medical personnel (doctor, nurse) available / fire service available / fire drills / alarms (sirens) / restricted areas / etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iv)",
-        "question": "Suggest one way in which costs are minimised in the industry.",
-        "marks": 6,
-        "model": "heat exchangers / better catalysts / recycling / co-products / improved efficiency / cheaper labour (lower wages) / sourcing cheaper raw materials / reducing transport costs / etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c(alt-i)",
         "question": "Alternative to part A: Copy the table below into your answer book and use it to compare the properties of metals and non-metals:\n\nPROPERTY | METALS | NON-METALS\nHardness | ? | ?\nLustre | ? | ?\nConduction of heat | ? | ?\nConduction of electricity | ? | ?\nDuctility | ? | ?",
         "marks": 15,
         "model": "Hardness: hard / soft // Lustre: yes // Conduction of heat: yes // Conduction of electricity: yes // Ductility: yes [For non-metals: soft, no, no, no, no] (5 × 3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(alt-ii)",
-        "question": "Alternative part B: What is an alloy? Give one example.",
-        "marks": 14,
-        "model": "Alloy: mixture // of metals / of metal and non-metal (2 × 3). Example: steel / brass / bronze / nichrome / alnico / solder / pewter / etc. (4)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -16855,22 +15259,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2023,
     "parts": [
       {
-        "label": "a(i)",
-        "question": "With the aid of a labelled diagram, describe how the concentration of suspended solids in a sample of this water could have been measured",
-        "marks": 11,
-        "model": "filtration diagram with at least one label; known (stated) volume water / find mass dried filter paper / weigh dried filter paper",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(ii)",
-        "question": "Describe how the concentration of dissolved solids could then have been determined",
-        "marks": 9,
-        "model": "evaporate to dryness; known (stated) volume; filtered water; in beaker (evaporating basin, etc); find mass residue / weigh residue; calculate the concentration",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "a(iii)",
         "question": "Express the concentration in g per litre (given 500 cm3 of water contained 0.04 g of suspended solids)",
         "marks": 3,
@@ -16952,13 +15340,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "c",
-        "question": "In your answerbook write the words required to complete the following statement about alpha particles: 'An alpha particle released by a radioactive nucleus consists of two _______ and ______ neutrons.'",
-        "marks": 6,
-        "model": "protons; two",
-        "diagram": ""
-      },
-      {
         "label": "d",
         "question": "State the relationship between the pressure and volume of a fixed mass of gas at constant temperature according to Boyle's law",
         "marks": 6,
@@ -16980,24 +15361,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "diagram": ""
       },
       {
-        "label": "g",
-        "question": "What is a bomb calorimeter used to measure?",
-        "marks": 6,
-        "model": "heat / energy (kilogram calorific) of combustion / content (value) of fuel (food)",
-        "diagram": ""
-      },
-      {
         "label": "h",
         "question": "Burning coal is an exothermic reaction. Explain the underlined term",
         "marks": 6,
         "model": "heat (energy) released / negative ∆H",
-        "diagram": ""
-      },
-      {
-        "label": "i",
-        "question": "Name the semi-solid organic by-product of sewage treatment, collected in settlement tanks, and removed periodically for use as a soil conditioner and fertiliser",
-        "marks": 6,
-        "model": "sludge / biosolids (slurry, manure)",
         "diagram": ""
       },
       {
@@ -17714,42 +16081,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d(A)(i)",
-        "question": "State one use of oxygen",
-        "marks": 4,
-        "model": "breathing (respiration) gas for patients (divers, firefighters, pilots, etc.) / steelmaking / to support combustion of ethyne, in rockets etc. / welding / reduce river pollution / etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(ii)",
-        "question": "State one use for nitrogen based on its inertness",
-        "marks": 3,
-        "model": "packaging of food / flushing (purging) tanks of flammable substances / freezing (preserving) food (biological specimens, sperm, semen) / remove unwanted skin cells / treat skin cancer (warts, verrucae) / etc.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d(A)(iii)",
         "question": "How is the inertness of nitrogen explained by the structure of its molecules?",
         "marks": 3,
         "model": "triple (strong) bond / N≡N / high bond energy / non-polar",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(iv)",
-        "question": "How abundant is nitrogen in the air?",
-        "marks": 3,
-        "model": "about four-fifths (78 – 80%)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(v)",
-        "question": "Explain the term nitrogen fixation",
-        "marks": 6,
-        "model": "the conversion of atmospheric nitrogen to compounds that can be used (absorbed) by plants / to more reactive compounds / to nitrates / to NO2",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -18010,14 +16345,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d",
-        "question": "List the following three types of radiation in order of decreasing penetrating power:\nalpha-(α-), beta-(β-), gamma-(γ-)",
-        "marks": 6,
-        "model": "gamma-(γ) > beta-(β) > alpha-(α) [Allow 3 marks for any two in the correct order or all three in reverse order]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "e",
         "question": "Write a balanced chemical equation for the combustion of methane, CH4, in oxygen.",
         "marks": 6,
@@ -18116,14 +16443,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b(iii)",
-        "question": "The scientist who discovered the radioactive elements polonium and radium",
-        "marks": 6,
-        "model": "Curie",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(iv)",
         "question": "The scientist who discovered that electrons were sub-atomic particles",
         "marks": 6,
@@ -18154,30 +16473,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Select from the list the fraction which is the main fraction used to make petrol.\n(gas, naphtha, kerosene, gas oil, residue)",
         "marks": 5,
         "model": "Naphtha [Accept kerosene]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(i)",
-        "question": "What is meant by the term octane rating?",
-        "marks": 6,
-        "model": "A measure of the smoothness with which a petroleum spirit burns relative to a mixture of iso-octane and heptane; or a measure of the tendency of a fuel to autoignite; or a measure of the tendency of a fuel to cause knocking (resist knocking)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(ii)",
-        "question": "Name the heavy metal that was commonly used in compounds that were added to petrol to increase its octane rating. Why was its use discontinued?",
-        "marks": 12,
-        "model": "Lead (6)\nPoisonous / toxic / environmental reasons / health / pollution (6)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(iii)",
-        "question": "Name a chemical process that is now used to increase the octane rating of petrol.",
-        "marks": 6,
-        "model": "Catalytic reforming / Dehydrocyclisation / Cracking / isomerisation",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -18494,62 +16789,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "When carbon dioxide is passed through limewater (3) it turns milky (3)",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "c(i)A",
-        "question": "What is the chemical formula for ozone?",
-        "marks": 6,
-        "model": "O3",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)A",
-        "question": "State one beneficial effect of the ozone layer.",
-        "marks": 4,
-        "model": "Screens uv-light coming from the sun",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)A",
-        "question": "CFCs are believed to be the main cause of damage to the ozone layer.\n(i) What are CFCs? What use is made of CFCs?",
-        "marks": 9,
-        "model": "Chlorofluorocarbons (6)\nRefrigerant gases / making expanded polystyrene / aerosol propellant (3) [Accept fire extinguishers]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iv)A",
-        "question": "State one consequence of damage to the ozone layer.",
-        "marks": 6,
-        "model": "Harmful uv-light reaching the earth's surface / plant (animal) damage / damages plankton in the oceans / interferes with food chain / cancer risks / can contribute to global warming",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(i)B",
-        "question": "Give two properties of transition metals.",
-        "marks": 7,
-        "model": "Catalysts / form coloured compounds / variable valencies [Accept 'conduct' for 4 marks]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)B",
-        "question": "Iron can be made using the blast furnace. Identify the three materials added at the top of the blast furnace.",
-        "marks": 9,
-        "model": "Iron ore / named ore of iron / formula of an iron ore (3)\nLimestone / CaCO3 (3)\nCoke / charcoal / carbon / C (3)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)B",
-        "question": "Write an equation for the reduction of iron oxide, Fe2O3, to iron in the blast furnace.",
-        "marks": 9,
-        "model": "Fe2O3 + 3CO → 2Fe + 3CO2\nor 2Fe2O3 + 3C → 4Fe + 3CO2\nor Fe2O3 + 3C → 2Fe + 3CO\n[Award 9 marks if fully correct; 6 marks for two reactants or two products or one of each correct]",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -18760,14 +16999,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "Write a balanced nuclear equation for the beta-particle decay of the ²²³Fr nucleus.",
-        "marks": 6,
-        "model": "Fr₈₇²²³ → Ra₈₈²²³ + e⁻₋₁₀",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d",
         "question": "The scientist pictured on the right is Werner Heisenberg.\nState the famous principle, published in 1927, which bears his name.",
         "marks": 6,
@@ -18808,26 +17039,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "i",
-        "question": "Give two structural features of hydrocarbons with high octane numbers.",
-        "marks": 6,
-        "model": "short chains / branches / rings (cyclic compounds, aromatic compounds, compounds with a benzene ring) - any two",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "j",
         "question": "State two processes that are carried out during the primary treatment of sewage.",
         "marks": 6,
         "model": "screening / passing over grit channels (traps) / settlement (sedimentation) - any two",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or part B.\nA: Give two uses for the oxygen gas produced by the fractionation of liquid air.\nor\nB: State two advantages of anodising aluminium.",
-        "marks": 6,
-        "model": "A: steel-making, breathing aid, diving, high altitude flying, climbing, rocket fuel, oxyacetylene flame (welding, cutting metals), combat pollution, medical (hospital use, treatment), beauty (skin) treatment, recreation in oxygen bar, using bomb calorimeter - any two; B: corrosion resistance / protection, can be dyed, toughens metal - any two",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -19096,14 +17311,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Define relative atomic mass.",
         "marks": 6,
         "model": "average mass of atom(s) of element / average mass of the isotopes of an element taking their abundances into account relative to 1/12 of mass of carbon–12 atom",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b(iii)",
-        "question": "Three of the five fundamental processes that occur in mass spectrometry are detection, acceleration and vaporisation of substance.\nWhat are the two other fundamental processes that occur in mass spectrometry?\nList all five processes in the order in which they occur.",
-        "marks": 9,
-        "model": "Two other processes: ionisation to form positive ions / separation; Order: vaporisation, ionisation, acceleration, separation, detection",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -19654,34 +17861,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "4(g)(i)",
-        "question": "Explain why oxygenates are often added to petrol.",
-        "marks": 3,
-        "model": "increase octane number / reduce auto-ignition / smoother combustion",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4(g)(ii)",
-        "question": "Identify an oxygenate suitable for this purpose.",
-        "marks": 3,
-        "model": "alcohol / any named alcohol, e.g. ethanol / ether / any named ether e.g. MTBE",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "4(h)(i)",
         "question": "What is the specific purpose of adding aluminium sulfate during water treatment?",
         "marks": 3,
         "model": "flocculation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4(h)(ii)",
-        "question": "What is the specific purpose of adding aluminium sulfate during the tertiary stage of sewage treatment?",
-        "marks": 3,
-        "model": "to remove phosphates",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -19714,22 +17897,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Identify three chemical species formed when carbon dioxide gas dissolves in pure water.",
         "marks": 6,
         "model": "H₂CO₃ / HCO₃⁻ / CO₃²⁻ / H⁺ [any three]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4(l)B(i)",
-        "question": "Outline the contribution of Lawrence Bragg to crystallography.",
-        "marks": 3,
-        "model": "developed X-ray (crystallography) technique",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4(l)B(ii)",
-        "question": "Outline the contribution of Dorothy Hodgkin to crystallography.",
-        "marks": 3,
-        "model": "the structure of (bio)molecules",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -20220,54 +18387,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2024,
     "parts": [
       {
-        "label": "10(b)(i)",
-        "question": "What is meant by radioactivity?",
-        "marks": 6,
-        "model": "(spontaneous) disintegration of a nucleus with the release of radiation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(ii)",
-        "question": "What is meant by the half-life of a radioisotope?",
-        "marks": 3,
-        "model": "time for half a sample to decay / time for activity to halve",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(iii)",
-        "question": "Identify the number X.",
-        "marks": 2,
-        "model": "206",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(iv)",
-        "question": "Identify the number Y.",
-        "marks": 2,
-        "model": "82",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(v)",
-        "question": "Identify the element represented by Z.",
-        "marks": 2,
-        "model": "lead / Pb",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(vi)",
-        "question": "Identify the two noble gas radioisotopes formed when a radium–226 nucleus undergoes alpha decay.",
-        "marks": 4,
-        "model": "radon / Rn, helium / He",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "10(b)(vii)",
         "question": "Calculate the maximum mass of radium that could be isolated from 0.1 g of RaCl₂.",
         "marks": 6,
@@ -20444,76 +18563,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "11(c)(v)",
-        "question": "Explain how water may be deionised using ion exchange resins.",
-        "marks": 3,
-        "model": "ions exchanged for H⁺ and OH⁻",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "11(c)(vi)",
         "question": "Explain why deionised water is not as pure as distilled water.",
         "marks": 4,
         "model": "may contain dissolved gases / may contain non-ionic material / may contain organic compounds / may contain suspended material",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2024-HI-Q11(d)A",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2024 — Q11(d)A",
-    "year": 2024,
-    "parts": [
-      {
-        "label": "11(d)A(i)",
-        "question": "What is ozone?",
-        "marks": 4,
-        "model": "O₃",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(ii)",
-        "question": "Explain how ozone is formed in the stratosphere.",
-        "marks": 6,
-        "model": "O₂ → 2O•; O• + O₂ → O₃",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(iii)",
-        "question": "What are CFCs?",
-        "marks": 3,
-        "model": "chlorofluorocarbons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(iv)",
-        "question": "State one main use of CFCs.",
-        "marks": 3,
-        "model": "refrigerant / aerosol/propellant / fire suppressant / blowing agent / solvent / chemical precursor",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(v)",
-        "question": "Explain how CFCs in the stratosphere damage the ozone layer.",
-        "marks": 6,
-        "model": "source of free radicals / source of Cl (atoms); which cause ozone to become O₂",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(d)A(vi)",
-        "question": "Identify one example of an ozone-friendly CFC replacement.",
-        "marks": 3,
-        "model": "HCFCs / HFCs",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -20884,22 +18937,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "What is catalytic cracking? Why is it carried out in oil refining?",
-        "marks": 9,
-        "model": "What: splitting (breaking) of long chain molecules (hydrocarbons) // by the action of heat and catalyst(s) / to give short chains (small molecules). Why: gives useful products (more demand for products) / products needed for petrol / products used as feedstock for chemical industry (source of alkenes, source of ethene) / gives products with higher octane numbers",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Hydrogen gas can be obtained industrially by the reaction between natural gas and water in the form of steam (steam reforming).\n(i) Describe another method by which large quantities of hydrogen can be obtained from water.\n(ii) State one disadvantage of using hydrogen as a fuel.",
-        "marks": 9,
-        "model": "(i) electrolysis. (ii) difficult to store / difficult to transport / not easily liquefied / tanks have to withstand high pressures / low density (light) / explosive",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "e",
         "question": "Steam reforming takes place according to the following balanced equation:\nCH₄ (g) + H₂O (g) → CO (g) + 3H₂ (g)\nCalculate the heat of this steam reforming reaction given that the heats of formation of methane, steam and carbon monoxide are –74.6, –242 and –111 kJ mol⁻¹ respectively.",
         "marks": 12,
@@ -21048,24 +19085,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "chemistry-pp-2011-HI-Q10c",
-    "subject": "chemistry",
-    "chapterId": "chem2",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2011 — Q10c",
-    "year": 2011,
-    "parts": [
-      {
-        "label": "c",
-        "question": "What are isotopes?\nDefine (i) radioactivity, (ii) radioisotope.\nCarbon–14 decays by beta particle emission. Write a balanced equation to describe beta-decay of the carbon–14 nucleus.\nThe world's oldest shoe, found in a cave in Armenia, is pictured on the right. In June 2010, having been radiocarbon dated, it was reported to be 5500 years old.\nExplain why the carbon–12 to carbon–14 isotope ratio in the shoe leather changed over the 5500 years since the shoe was made.",
-        "marks": 25,
-        "model": "What: atoms of same element (same atomic number, same number of protons) // having different mass numbers (different numbers of neutrons). Define: (i) spontaneous random decay of (disintegration of, decomposition of, breaking up of, change within) a nucleus // to release α, β or γ radiation. (ii) radioactive isotope / radioactive form of element / forms of elements that emit radiation / isotope with unstable nucleus. Write: ¹⁴C → ⁰₋₁e + ₇¹⁴N. Explain: carbon–14 decayed (changed to nitrogen)",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "chemistry-pp-2011-HI-Q11a",
     "subject": "chemistry",
     "chapterId": "chem20",
@@ -21114,24 +19133,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Roy Plunkett, pictured on the right, produced the polymer poly(tetrafluoroethene) (Teflon) accidentally in 1938 when he was researching refrigerants.\n(i) Identify the monomer used to manufacture poly(tetrafluoroethene) (Teflon).\n(ii) What type of polymerisation reaction occurs in the manufacture of poly(tetrafluoroethene) (Teflon)?\n(iii) Draw two repeating units of the Teflon polymer.\n(iv) Give two properties of poly(tetrafluoroethene) (Teflon). In the case of each property you have stated, give a major use of the polymer that makes use of that property.",
         "marks": 25,
         "model": "(i) Identify: tetrafluoroethene / tetrafluoroethylene / C₂F₄. (ii) What: addition. (iii) Draw: –CF₂–CF₂–CF₂–CF₂– [End bonds not required]. (iv) Give properties and uses (matched): Inert (unreactive, stable) - Artificial blood vessels / containers / tubing / plumbing tape. Temperature tolerant - Cooking utensils (or named utensil). Hydrophobic (repellent, non-stick) - Cooking utensils (or named utensil) / clothing (fabric, Gore-Tex). Corrosion resistant - Artificial blood vessels / containers / tubing / plumbing tape. Low friction - Lubrication / bearings / gears",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2011-HI-Q11cB",
-    "subject": "chemistry",
-    "chapterId": "chem20",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Higher 2011 — Q11cB",
-    "year": 2011,
-    "parts": [
-      {
-        "label": "cB",
-        "question": "Outline the chemical processes that give rise to the occurrence of ozone gas in the stratosphere. Why is ozone gas not produced in this way in the lower atmosphere?\nThe destruction of the ozone layer is a matter of environmental concern. A non-metal oxide and chlorine atoms from CFCs are considered to be mainly responsible for the destruction of ozone.\n(i) What are CFC molecules?\n(ii) Why do CFC molecules have long residence times in the lower atmosphere?\n(iii) Give a major use of CFCs before their production was restricted in 1987.\n(iv) Name the non-metallic oxide that is associated with ozone destruction in the stratosphere. Give a source of this oxide.",
-        "marks": 25,
-        "model": "Outline: decomposition of oxygen molecule into oxygen atoms (radicals) by high-energy ultraviolet (uv) light / O₂ →^uv 2O• // reaction of oxygen atom (radical) with oxygen molecule forming ozone / O• + O₂ → O₃. Why: lack of high-energy ultra-violet (uv) light / oxygen not decomposed. (i) chlorofluorocarbons (cpds of C, F & Cl). (ii) they are stable (unreactive) / insufficient (lack of) high-energy ultraviolet (uv) light / insoluble in water. (iii) refrigerant (fridges) / air-conditioning / aerosols / dry cleaning / solvents / fire extinguishers / expanded polymers (blowing agents) / burger cartons. (iv) Name: nitrogen(II) oxide (nitric oxide, nitrogen monoxide). Give: electrical discharge (lightning, spark plug) / car (aircraft) engines / exhaust gases (fumes) / micro-organisms (bacteria, microbes, fungi) / traces produced in other living organisms (plants, animals)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -21456,14 +19457,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "h",
-        "question": "In oil refining why is catalytic cracking of gas oil carried out?",
-        "marks": 6,
-        "model": "to get smaller (more valuable, more useful) molecules (fuel) / to convert less useful fuel (molecules) to more useful fuel (molecules) / demand for gas oil not high compared to products of catalytic cracking / to get alkenes / to get raw materials for polymer industry / to increase octane number",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "i",
         "question": "Sachets of silica gel (SiO2) are often used to absorb moisture inside packaging. Calculate the percentage by mass, to the nearest whole number, of the element silicon in silica gel.",
         "marks": 6,
@@ -21566,14 +19559,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "How many neutrons are there in an atom of carbon–14?",
         "marks": 3,
         "model": "8",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Radioactivity is the process by which an unstable part of an atom decays or loses energy, emitting one or more types of radiation. Name one type of radiation emitted in radioactive decay.",
-        "marks": 6,
-        "model": "alpha (α, helium nuclei) particles / beta (β, electrons) particles / gamma (γ) rays / electromagnetic radiation",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -21940,14 +19925,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2020,
     "parts": [
       {
-        "label": "a",
-        "question": "In sewage treatment the first or primary treatment stage is 1. Its purpose is to remove most of the solid matter using meshes, grit channels and primary settlement tanks. Secondary treatment is 2 where the remaining organic matter in the sewage is broken down 3 by 4. Settlement tanks are often used again at the end of secondary treatment. Tertiary treatment, involving 5 processes, is expensive and is only used when it is necessary to remove 6 that could cause 7. The treated water is released to the sea, a river or a lake. The semi-solid by-product of sewage treatment is called 8.\n\nWrite in your answerbook the omitted word corresponding to each of the numbers (1 to 8).",
-        "marks": 25,
-        "model": "1: physical; 2: biological; 3: aerobically; 4: microorganisms; 5: chemical; 6: nutrients; 7: eutrophication; 8: sludge",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(i)",
         "question": "In which state of matter, solid, liquid or gas, are the particles moving around fastest?",
         "marks": 4,
@@ -22086,46 +20063,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "cA(i)",
-        "question": "The process carried out in a particular chemical plant is a continuous process. Explain the underlined term.",
-        "marks": 4,
-        "model": "reactants continuously (always) being added / products continuously (always) being removed / non-stop / not a batch process / reaction vessel only emptied (cleaned) very occasionally / reactants flow into reactor as products flow out",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cA(ii)",
-        "question": "In a chemical industry process what name is given to the substances which react to form the main product?",
-        "marks": 6,
-        "model": "feedstock",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cA(iii)",
-        "question": "In a chemical industry process what name is given to any other substances made in the reaction in addition to the main product?",
-        "marks": 6,
-        "model": "co-products",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cA(iv)",
-        "question": "In a chemical industry process what name is given to the analysis of materials used up or made in the process to verify their identities and measure their purity?",
-        "marks": 6,
-        "model": "quality control (assurance) / QC / QA",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cA(v)",
-        "question": "In a chemical industry process what name is given to the procedures taken to avoid damage to local soil or waterways?",
-        "marks": 3,
-        "model": "effluent (emission, pollution, environmental) control / waste disposal / environmental management (control)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "cB(i)",
         "question": "A crystal consists of a regular repeating pattern of particles. These particles can be atoms, ions or molecules. The photograph on the right shows sodium chloride (NaCl) crystals. The diagram below represents the arrangement of minute particles that make up part of a sodium chloride crystal. What particles, atoms, ions or molecules, make up a sodium chloride crystal?",
         "marks": 6,
@@ -22146,22 +20083,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What particles, atoms, ions or molecules, become free to move around when ice crystals melt?",
         "marks": 3,
         "model": "molecules",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cB(iv)",
-        "question": "Why can metallic crystals conduct electricity?",
-        "marks": 6,
-        "model": "electrons free to move / delocalised electrons / electrons shared by all atoms (positive ions)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "cB(v)",
-        "question": "What type of electromagnetic radiation did William and Lawrence Bragg first use to determine crystal structures?",
-        "marks": 4,
-        "model": "x-rays",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -22388,14 +20309,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Name: Thermometer\nWhat: Polystyrene",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "4(k)",
-        "question": "Answer part A or part B.\nA: List two factors that would influence the location of a chemical factory.\nB: Explain the term alloy. Give an example of an alloy.",
-        "marks": 6,
-        "model": "A: Infrastructure / available workforce / raw materials / access to market / taxation breaks\nB: Mixture of metals [or metal with another element such as carbon]; Examples: Steel / bronze / brass / solder / pewter",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -22470,14 +20383,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Mention two situations in which there may be a hazardous build-up of methane gas.\nWhy are the levels of methane in the lower atmosphere a cause of environmental concern?",
         "marks": 15,
         "model": "Situations: In coal mines / in dumps / in fuel tanks or tankers / in sewage (effluent treatment) systems\nWhy: Methane is a greenhouse gas / causes global warming",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6(d)",
-        "question": "What do you understand by the octane number of a fuel?\nWhat is the significance of the compound 2,2,4-trimethylpentane in relation to octane numbers?\nDraw the structural formula of 2,2,4-trimethylpentane.",
-        "marks": 18,
-        "model": "What: Measure of the ability of a fuel to resist knocking\nWhat: Reference hydrocarbon / assigned octane number of 100\nDraw: CH3C(CH3)2CH2CH(CH3)2",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -22606,14 +20511,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Define: –log10 [H+]\nName: (i): Sulfuric acid / acid\n(ii): Lime / sodium hydroxide\nWhat: Corrosion of pipe work\nFlocculation: A flocculating agent is added (e.g. aluminium sulfate) / Removes finely suspended / reference to formation of clumps (flocs) or settling\nOr Fluoridation: A fluoridating agent is added (e.g. sodium fluoride or antimony hexafluoride) / Prevention of tooth decay",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "9(b)",
-        "question": "The following words/phrases, which all relate to sewage treatment, are omitted from the passage below.\nbiological oxidation / eutrophication / nitrates & phosphates / solids\nWrite in your answer book the omitted word/phrase corresponding to each number (1 to 4).\nThe primary stage of sewage treatment involves the removal of ____1_____. The remaining liquid waste undergoes _____2____ during the secondary stage. The levels of ____3_____ are lowered during the tertiary stage to help prevent ____4____.",
-        "marks": 18,
-        "model": "1: Solids\n2: Biological oxidation\n3: Nitrates and phosphates\n4: Eutrophication",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -22646,30 +20543,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What volume of sulfur dioxide (at s.t.p.) was produced in the reaction? How many molecules did this volume contain?",
         "marks": 12,
         "model": "Volume: 2.24 litres / 0.1 × 22.4\nHow: 6 × 10²² molecules / 0.1 × 6 × 10²³",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(i)",
-        "question": "The concentration of free chlorine in swimming pool water or bleach can be estimated using a colorimeter or a comparator.\nWhat is meant by free chlorine? What is its function in swimming pools?",
-        "marks": 7,
-        "model": "What: Chlorine present as hypochlorite ion (OCl–) / hypochlorous acid (HOCl)\nFunction: Disinfect / kill bacteria (germs)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(ii)",
-        "question": "Why is it important to regularly monitor the level of free chlorine in swimming pools?",
-        "marks": 6,
-        "model": "To maintain appropriate levels / chlorine levels don't get too low (high)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10(b)(iii)",
-        "question": "Outline how you would carry out the estimation of free chlorine using a colorimeter or a comparator.",
-        "marks": 12,
-        "model": "Collect sample under level of pool surface / Add to cuvette (analyser bottle) / Add reagent (DPD tablet) / Place in comparator / Hach meter / data logger / Compare colour to chart / take reading",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -22744,30 +20617,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "The terms below are all encountered in the study of chemistry.\nalpha particle / diffusion / Arrhenius base / reducing agent / molecule / empirical formula\nIn your answer book, match each term with its description (A, B, C, D, E or F) in the table below.\nA: Produces hydroxyl (OH–) ions in aqueous solution.\nB: Loses electrons in a chemical reaction.\nC: Shows the simplest ratio of atoms in a molecule.\nD: The smallest part of a substance that can exist independently.\nE: Is emitted by some radioactive elements and has a relative atomic mass of 4.\nF: Spreading and mixing of substances due to random motion of their particles.",
         "marks": 25,
         "model": "Arrhenius base: A\nReducing agent: B\nEmpirical formula: C\nMolecule: D\nAlpha particle: E\nDiffusion: F",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(c)(a)(i)",
-        "question": "By clear examples or otherwise, distinguish between the following pairs of terms used in industrial chemistry.\nMain product and co-product.",
-        "marks": 6,
-        "model": "Principal product as opposed to another product generated by or during the process",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(c)(a)(ii)",
-        "question": "Fixed costs and variable costs.",
-        "marks": 6,
-        "model": "Costs over which you have no control",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11(c)(a)(iii)",
-        "question": "Batch process and continuous process.",
-        "marks": 6,
-        "model": "A process where the product is made in lots or batches as opposed to a continuous feed in of reactants and a continuous output of product",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -23036,26 +20885,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b",
-        "question": "Name the piece of equipment used to measure the calorific values of foods and fuels.",
-        "marks": 6,
-        "model": "bomb // calorimeter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c",
         "question": "What is an exothermic reaction?",
         "marks": 6,
         "model": "evolves (gives out) // heat",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Name a process carried out in oil refineries to increase the octane number of fuels.",
-        "marks": 6,
-        "model": "cracking / reforming / isomerisation / dehydrocyclisation / addition of MTBE / addition of lead compounds",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -23104,14 +20937,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name two of the metals that form the catalyst in the catalytic converter of a car.",
         "marks": 6,
         "model": "platinum // rhodium // palladium // cerium",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or part B.\nA: Give one major use that was made of chlorofluorocarbons (CFCs) before they were banned for general use.\nOR\nB: Name the non-metallic element generally found in steel at concentrations of less than 1.7%.",
-        "marks": 6,
-        "model": "A: propellant in aerosols / refrigerants / to expand plastics / fire retardants / air-conditioning / dry cleaning / solvents / expanded polymers / burger cartons // B: carbon",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -23220,14 +21045,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Give a major use of (i) kerosene, (ii) the residue fraction (bitumen).",
         "marks": 6,
         "model": "kerosene: aviation fuel / heating // bitumen: road surfacing / roofing / water proofing",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(i)",
-        "question": "The diagram shows an arrangement of apparatus suitable for the preparation of ethyne gas in a school laboratory. Identify a solid X and a liquid Y suitable for this preparation.",
-        "marks": 12,
-        "model": "X: calcium carbide / calcium dicarbide / CaC2 // Y: water / H2O",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -23380,14 +21197,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "1: chlorination // 2: filtration // 3: pH adjustment // 4: fluoridation // 5: sedimentation / flocculation // 6: sedimentation / flocculation",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Sewage treatment is often broken up into three stages: primary, secondary and tertiary. Describe the processes carried out in any two of these stages and the effects these processes have on the material being treated.",
-        "marks": 14,
-        "model": "primary: screening / passing through a grid / use of grit channels / settling // removal of solid material // secondary: biological digester / trickling tank / trickling filter / bio-tower / activated sludge unit / settling // biological destruction of waste material / oxidation by micro-organisms // tertiary: addition of polyelectrolyte / precipitation agents / biological denitrification (for nitrates) / settling // removal of nitrates (phosphates)",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -23434,22 +21243,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2011,
     "parts": [
       {
-        "label": "a",
-        "question": "What is radioactivity? Name the three types of radiation associated with radioactive substances. Which is the most penetrating of these radiations?",
-        "marks": 19,
-        "model": "spontaneous random // decomposition (disintegration or decay) of the nucleus of an atom // alpha (α) // beta (β) // gamma (γ) // gamma (γ)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "a(ii)",
-        "question": "Marie Curie, pictured on the right, was the recipient of two Nobel prizes. One Nobel prize related to the isolation of two radioactive elements. One of these elements was named in honour of the country of her birth. Name both radioactive elements.",
-        "marks": 6,
-        "model": "radium (Ra) // polonium (Po)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(i)",
         "question": "When a piece of aluminium of mass 2.7 g was dissolved in excess hydrochloric acid the following reaction occurred. 2Al + 6HCl → 2AlCl3 + 3H2\nHow many moles of aluminium reacted?",
         "marks": 9,
@@ -23494,22 +21287,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Carbon dioxide is produced in large quantities by the combustion of fossil fuels. Give the name and formula of one other oxide, produced in the burning of fossil fuels, that gives rise to acid rain.",
         "marks": 6,
         "model": "nitrogen monoxide [nitrogen(II) oxide, nitric oxide] / nitrogen dioxide [nitrogen(IV) oxide] / sulfur dioxide / sulphur trioxide // NO / NO2 / SO2 / SO3",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c-B(i)",
-        "question": "Name the English scientist who isolated the elements sodium and potassium in the early 1800s. What technique did he use to isolate sodium and potassium?",
-        "marks": 10,
-        "model": "Humphry Davy // electrolysis",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c-B(ii)",
-        "question": "Iron can be isolated from its ores in a blast furnace. Explain why sodium cannot be extracted in a similar way.",
-        "marks": 6,
-        "model": "sodium too reactive / stable salts",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -23763,14 +21540,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
       },
       {
         "label": "",
-        "question": "(b) Bananas contain small quantities of potassium-40, a radioactive isotope. What is the daughter nucleus when K-40 emits an electron in beta decay?",
-        "marks": 6,
-        "model": "Calcium-40 / Ca-40",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
         "question": "(c) State Avogadro's law.",
         "marks": 6,
         "model": "Equal volumes of gases at the same temperature and pressure have equal number(s) of particles (atoms, molecules, moles)",
@@ -23951,49 +21720,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
       },
       {
         "label": "",
-        "question": "(a)(iii) Explain which of A, B and C is most likely to auto-ignite in a petrol engine.",
-        "marks": 2,
-        "model": "A because it has the longest chain / A because it least branched / A is straight-chained / A has lowest octane number",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
         "question": "(a)(iv) Give the systematic IUPAC names for A, B and C.",
         "marks": 6,
         "model": "A: pentane. B: 2-methylbutane. C: 2,2-dimethylpropane",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(b)(i) Name the oil refining process in which one molecule of alkane W was converted into one molecule of octane and two propene molecules.",
-        "marks": 3,
-        "model": "Catalytic cracking",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(b)(ii) Deduce the formula of W.",
-        "marks": 3,
-        "model": "C14H30",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(c)(i) What is the advantage of adding tetraethyllead to petrol?",
-        "marks": 3,
-        "model": "To reduce auto-ignition (knocking, pinking, pre-ignition) / to increase the octane rating of the fuel / source of free radicals",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(c)(ii) Why was its use in car engines discontinued?",
-        "marks": 3,
-        "model": "Toxic / poisonous / harmful / probably carcinogenic / damages catalytic converters / damages environment / pollutant",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -24523,33 +22252,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
       },
       {
         "label": "",
-        "question": "(c) Part B: (ii) Crystals may be classified as ionic, molecular, metallic, and covalent macromolecular. To which of these categories does crystalline iodine (I2) belong? Justify your answer.",
-        "marks": 6,
-        "model": "Molecular. Iodine molecules (I2) occupy lattice points / held together by weak intermolecular (van der Waals) forces / sublimes / low melting point",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(c) Part B: (iii) What technique was used by Dorothy Hodgkin to determine the molecular structure of vitamin B12?",
-        "marks": 3,
-        "model": "X-ray crystallography / x-ray scattering / x-ray analysis / x-ray diffraction",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
         "question": "(c) Part B: (iv) Explain, in terms of its structure and bonding, why graphite can be used as a lubricant.",
         "marks": 6,
         "model": "Planes (sheets, layers) of carbon atoms covalently bonded // planes of carbon atoms bonded together by weak intermolecular (van der Waals) forces",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "",
-        "question": "(c) Part B: (v) Explain, with reference to the structure of metallic crystals, why silver (Ag) is an excellent electrical conductor.",
-        "marks": 6,
-        "model": "Positively charged silver ions // valence (outer) electrons delocalised (free to move)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -24656,34 +22361,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2015,
     "parts": [
       {
-        "label": "a",
-        "question": "Describe how the concentration of suspended solids in sample A could have been measured.",
-        "marks": 12,
-        "model": "known volume of water sample // through filter paper // of known mass / through weighed filter paper // dry filter paper / place in oven (on radiator, etc) // find new mass of filter paper and residue / reweigh filter paper and residue",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b",
         "question": "Calculate the mass in grams of dissolved solids in 250 cm³ of sample B.",
         "marks": 6,
         "model": "0.35 g / 250 cm³",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Hardness in swimming-pool water can contribute to cloudiness.\nWhat solution was titrated against a known volume of sample C to measure its total hardness?\nWhen some of sample C was boiled, filtered, and re-analysed for hardness, the result was 175 p.p.m. CaCO₃.\nSuggest a reason why the second result was significantly lower than the first.",
-        "marks": 9,
-        "model": "Solution titrated: EDTA (edta) / ethylenediaminetetraacetic acid. Reason: temporary hardness removed / only permanent hardness remaining / precipitate of carbonate (CO₃²⁻) formed by boiling and removed by filtration / soluble hydrogencarbonate (HCO₃⁻) removed as (converted to) solid (precipitate, insoluble compound) by boiling",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Identify a reagent (or reagents) used to detect free chlorine in a water sample.\nDescribe how a comparator or a colorimeter could have been used to estimate the concentration of free chlorine in sample D.",
-        "marks": 15,
-        "model": "Reagent: DPD (diethylphenylenediamine) / KI (potassium iodide, I⁻) and H⁺ (acid). Method - Comparator: add reagent (tablet, sachet) to sample in suitable container / stir (dissolve, mix, allow time, wait) for colour to develop / compare colour with chart (disc, card, comparator display) / read (match, get, note) concentration (ppm) of free chlorine from chart. Method - Colorimeter: prepare a number of standard solutions / take (note) colorimeter readings (absorbances, transmittances, colour intensities) / plot graph of concentration versus reading / read (get, note) concentration (ppm) of sample from graph using sample absorbance",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -24718,14 +22399,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Explain why relative atomic masses are rarely whole numbers.",
         "marks": 6,
         "model": "average of mass numbers of the isotopes of an element / average mass of all (an) atom(s) of an element",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "What change takes place in the nucleus of an atom when beta decay occurs?",
-        "marks": 6,
-        "model": "a neutron changes into a proton / and an electron (+ e⁻) that is emitted",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -24770,14 +22443,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "i",
-        "question": "What is the purpose of tertiary sewage treatment?",
-        "marks": 6,
-        "model": "reduce (remove, lower) nitrates [nitrate identified by name (formula)] // reduce (remove, lower) phosphates [phosphate identified by name (formula)] or to prevent (avoid) algal bloom (eutrophication) downstream",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "j",
         "question": "Calculate the number of moles of nitrogen gas at a pressure of 1.85 × 10⁵ Pa and a temperature of 293 K in the 6.50 × 10⁻⁵ m³ volume inside a new tennis ball.\nGive your answer correct to one significant figure.",
         "marks": 6,
@@ -24808,14 +22473,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "During the 1870s Crookes investigated cathode rays using vacuum tubes.\n(i) Give one way of detecting the presence of cathode rays in a vacuum tube.\n(ii) Name the scientist who around 1897 identified cathode rays as subatomic particles and, using a vacuum tube, measured their charge-to-mass ratio.\nWhat name was given to the subatomic particle he identified?",
         "marks": 9,
         "model": "(i) fluorescence / glow / coloured light / shadow cast by anode (cross, object) / deflection of beam using magnetic (electric) field / paddle (wheel) rotated clockwise / paddle (wheel) pushed (moved to) right / using a charged electroscope / associated static electricity\n(ii) Scientist: J.J. Thomson. Particle: electron",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Name one of the three scientists who shared the 1903 Nobel prize in Physics for their pioneering work on radioactivity which provided evidence for subatomic particles.",
-        "marks": 3,
-        "model": "Henri Becquerel / Marie Curie / Pierre Curie",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -24874,22 +22531,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "(i) Name the fraction, obtained from crude oil, that is used as fuel for jet aircraft.\n(ii) What process is used to convert molecules in this fraction to smaller molecules that are in greater demand?",
         "marks": 6,
         "model": "(i) kerosene (kerosine, paraffin)\n(ii) catalytic cracking",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "What are the two reference hydrocarbons used to assign octane numbers to fuels?",
-        "marks": 6,
-        "model": "heptane / n-heptane / CH₃(CH₂)₅CH₃ // 2,2,4-trimethylpentane (isooctane) / (CH₃)₃CCH₂CH(CH₃)₂",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Give two advantages of adding oxygenates, such as ethanol, to petrol.",
-        "marks": 6,
-        "model": "increases octane number (rating) / reduces knocking (pinking, pre-ignition) // reduces pollution / less negative environmental impact / less harm to environment / greener (cleaner, eco-friendly) fuel / cleaner burn of fuel / more complete combustion / lowers carbon monoxide emission / lowers emission of carbon (soot) particles / lowers emission of polyaromatics / eliminates need for lead compounds / emissions less toxic",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -25408,14 +23049,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "Supply the two missing words in the following sentence. 'An alpha particle consists of two _______ and two _______.'",
-        "marks": 6,
-        "model": "protons // neutrons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d(i)",
         "question": "When magnesium ribbon is burned in oxygen the reaction that takes place is: Mg + ½O2 → Mg2+ + O2–\nWhich element is reduced?",
         "marks": 3,
@@ -25452,22 +23085,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Calculate the percentage by mass of zinc in zinc oxide (ZnO), a white compound used in total sunblock creams.",
         "marks": 6,
         "model": "80.2 %",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "h",
-        "question": "What does the octane number of a fuel tell us about the fuel?",
-        "marks": 6,
-        "model": "the tendency of the fuel to resist (cause) knocking (pinking, autoignition, pre-ignition) / indication of how well a fuel resists (causes) knocking",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "i",
-        "question": "What happens during the secondary stage of sewage treatment?",
-        "marks": 6,
-        "model": "breakdown / consumption / digestion / oxidation // biological / biochemical / by bacteria / by microorganisms / by activated sludge",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -26093,54 +23710,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c_A(i)",
-        "question": "Consider the simplified version of the nitrogen cycle shown in the diagram. Nitrogen is the most abundant gas in the Earth's atmosphere. What is the percentage, by volume, of nitrogen in the air we breathe?",
-        "marks": 6,
-        "model": "78% (± 2%)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_A(ii)",
-        "question": "Nitrogen gas is unreactive and is converted into more reactive nitrates. Give one method of natural fixation of nitrogen.",
-        "marks": 6,
-        "model": "lightning / nitrogen-fixing bacteria / legumes (named legume plant)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_A(iii)",
-        "question": "How are nitrogen compounds absorbed by most plants?",
-        "marks": 3,
-        "model": "through (by) root / from soil / in water absorbed by plant / active transport / in solution",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_A(iv)",
-        "question": "How are nitrogen compounds transferred from plants to animals?",
-        "marks": 3,
-        "model": "eaten",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_A(v)",
-        "question": "What use do plants and animals make of the nitrogen compounds they absorb?",
-        "marks": 3,
-        "model": "protein manufacture / growth / repair of tissue (cells)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_A(vi)",
-        "question": "Why are all these conversions together called the nitrogen cycle?",
-        "marks": 4,
-        "model": "nitrogen returned to atmosphere / constant concentration of nitrogen in atmosphere / nitrogen never gets used up / nitrogen being converted from one compound (form) into another / process keeps repeating / nitrogen never removed from the system of reactions",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c_B(i)",
         "question": "The figure of Eros standing in Piccadilly Circus in London since 1893 is made of aluminium metal. Explain the term corrosion of a metal.",
         "marks": 6,
@@ -26153,14 +23722,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "How well do you think the figure of Eros would have resisted corrosion if it had been made of iron instead of aluminium?",
         "marks": 6,
         "model": "iron corrodes (rusts) more easily / aluminium less easily corroded; oxide of aluminium adheres / oxide of iron (rust) flakes off",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c_B(iii)",
-        "question": "How is iron extracted from its ores?",
-        "marks": 9,
-        "model": "in blast furnace / in smelter; by reduction (reduced); by coke (C, CO)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -26381,14 +23942,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d",
-        "question": "Name the piece of equipment used to measure the calorific value of foods and fuels.",
-        "marks": 6,
-        "model": "Bomb / Calorimeter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "e",
         "question": "Give the name or formula of the acid which is the cause of the sting of nettles.",
         "marks": 6,
@@ -26433,14 +23986,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Define reduction in terms of electron transfer.",
         "marks": 6,
         "model": "Reduction involves the gain of electrons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "What is the chemical formula for ozone? State one beneficial effect of the ozone layer.\nOR\nState two general chemical properties of transition metals.",
-        "marks": 6,
-        "model": "Ozone: O3. Benefit: Screens harmful UV / Lower skin cancer incidence. OR Transition metals: Exhibit variable valency (oxidation no.) / Form coloured compounds / Are often catalysts",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -26495,22 +24040,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "f",
-        "question": "Who discovered that uranium salts emitted radiation?",
-        "marks": 6,
-        "model": "Becquerel",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "g",
-        "question": "Who received a Nobel Prize for the isolation of the elements polonium and radium?",
-        "marks": 6,
-        "model": "Curie",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "h",
         "question": "Whose determination of the charge on the nucleus of atoms allowed the systematic arrangement of the elements in the modern periodic table?",
         "marks": 6,
@@ -26549,14 +24078,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "In a chemical reaction, three molecules of ethyne can combine to form an aromatic molecule of formula C6H6. Give the name or structure of this molecule.",
         "marks": 6,
         "model": "Benzene / Hexagonal ring structure with alternating single and double bonds",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b(i)",
-        "question": "The diagram shows an apparatus which could be used for the preparation of ethyne gas. Identify the solid A and the liquid B used in the preparation.",
-        "marks": 12,
-        "model": "Solid A: Calcium carbide / calcium dicarbide / calcium acetylide / CaC2 / any correctly named dicarbide. Liquid B: Water / H2O",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -26807,22 +24328,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "pH = 1. Calculation: pH = –log10[0.1] = 1",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "c(i)",
-        "question": "It is possible to estimate the free chlorine in swimming pool water or bleach using a colorimeter or a comparator. Describe how you could measure the free chlorine in either swimming pool water or bleach using one of these methods.",
-        "marks": 18,
-        "model": "Comparator method: Take known volume of water / fill the compartment(s) with water / Add DPP tablet(s) / Crush / stir / Colour develops / Add sample to cuvette / Compare colour with colour card. Colorimeter method: Take known volume of water / Add iodide and acid / to release iodine / colour develops / Add sample to cuvette / Insert in colorimeter / Take reading / Compare value with calibration graph",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)",
-        "question": "Outline briefly the principles on which the technique you have described in (i) is based.",
-        "marks": 7,
-        "model": "Colour developed is directly related to the concentration",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -26903,22 +24408,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "State one commercial use of oxygen and one commercial use of nitrogen.",
         "marks": 6,
         "model": "Oxygen: Cutting torches (tools) / specified medical use. Nitrogen: Ammonia synthesis / as an inert gas",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iii)A",
-        "question": "What is meant by nitrogen fixation? Why is it important?",
-        "marks": 9,
-        "model": "Nitrogen fixation: Conversion of atmospheric nitrogen to nitrogen compounds that can be used (chemically reactive). Important: Generates plant nutrients / chemically active sources of nitrogen",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(iv)A",
-        "question": "Give one way in which nitrogen is fixed in nature.",
-        "marks": 6,
-        "model": "Electrical storms / legumes / nitrogen fixing bacteria",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -27025,14 +24514,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What conclusion should have been reached had a white precipitate been observed instead of the brown precipitate after the first two additions of reagents to the bottle filled with river water?",
         "marks": 3,
         "model": "There was almost (virtually) no (negligible, extremely low) dissolved oxygen (O2) in the water",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "h",
-        "question": "Kits, designed for use in the field, allow the dissolved oxygen concentration to be measured immediately on collection of the sample. Why is the immediate determination of dissolved oxygen considered best practice?",
-        "marks": 3,
-        "model": "Biochemical (biological) reactions (photosynthesis, respiration, metabolism) occur or action of micro-organisms (bacteria, algae, diatoms)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -27229,26 +24710,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2013,
     "parts": [
       {
-        "label": "i",
-        "question": "What happens during secondary sewage treatment?",
-        "marks": 6,
-        "model": "Oxidation / aeration / digestion (breakdown, decomposition) / biological (biochemical) action / by micro-organisms (bacteria) / by activated sludge",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "j",
         "question": "What is meant by heterogeneous catalysis?",
         "marks": 6,
         "model": "Reactant(s) (substrate) and catalyst in different phase(s) / boundary between reactants and catalyst",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Write a balanced equation for the formation of calcium silicate (a component of slag) from calcium oxide in steelmaking.\nOR\nWrite a balanced equation for the formation of ozone in the stratosphere.",
-        "marks": 6,
-        "model": "CaO + SiO2 → CaSiO3 OR O• + O2 → O3",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -27305,26 +24770,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2013,
     "parts": [
       {
-        "label": "a",
-        "question": "Define the octane number of a fuel.",
-        "marks": 5,
-        "model": "Measure of tendency (likelihood) to auto-ignite (pre-ignite, ignite early, ignite before spark, knock, pink) / number representing ability (tendency, measure) to resist auto-igniting / number based on a scale where 2,2,4-trimethylpentane (iso-octane) is assigned a rating of 100 and heptane (n-heptane) a value of 0 / percentage by volume of 2,2,4-trimethylpentane (iso-octane) in a blend (mix) with heptane (n-heptane) that matches the behaviour of the fuel",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b",
         "question": "(i) Give the systematic (IUPAC) names for A and B.\n(ii) Explain the term isomerisation. Draw the structural formula of another isomer of A and B.\n(iii) Predict whether A or B has the higher octane number. Justify your answer.",
         "marks": 21,
         "model": "(i) A: pentane; B: 2-methylbutane. (ii) Changing to different structure(s) / different arrangement of atoms / changing straight to branched and vice versa / that have the same molecular formula. Draw: C(CH3)4 or equivalent structural formula. (iii) B / 2-methylbutane has higher octane number. Justify: shorter chain / branch (A has longer chain / no branch)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Ethyne is produced from calcium carbide and water according to the following balanced equation:\nCaC2 (s) + 2H2O (l) → C2H2 (g) + Ca(OH)2 (s)\nCalculate the heat change for this reaction given that the heats of formation of calcium carbide, water, ethyne and calcium hydroxide are –59.8, –285.8, 227.4 and –985.2 kJ mol–1 respectively.",
-        "marks": 15,
-        "model": "–126.4 kJ (using ΔH(reaction) = ΣΔHf(products) – ΣΔHf(reactants) = [227.4 + (–985.2)] – [(–59.8) + (2 × –285.8)] = –126.4 kJ)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -27509,14 +24958,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "The following redox reaction is highly exothermic and is used to produce molten iron for welding pieces of steel together:\n8Al + 3Fe3O4 → 4Al2O3 + 9Fe\n(i) Define oxidation in terms of change in oxidation number. Show using oxidation numbers that this is a redox reaction. Identify the reducing agent.\n(ii) What mass of aluminium powder is required to produce 1008 g of molten iron for a single railway track weld? What mass of aluminium oxide is produced as waste in the process?",
         "marks": 25,
         "model": "(i) Definition: increase in oxidation number. Show: Al increased (oxidised) 0 to +3; Fe decreased (reduced) +2⅔ (or +3) to 0. Identify: Al (aluminium). (ii) 1008 g Fe = 18 mol ≡ 16 mol Al × 27 = 432 g. 16 mol Al ≡ 8 mol Al2O3 × 102 = 816 g",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Caesium–137 is a radioactive isotope of the alkali metal caesium. Caesium–137 decays by beta-particle emission with a half-life of 30 days.\n(i) Define radioactivity.\n(ii) Give two differences between chemical reactions and nuclear reactions.\n(iii) Give two properties of beta-particles.\n(iv) A certain mass of caesium–137 leaked on a particular day. What fraction of this mass remained as caesium–137 after 90 days?",
-        "marks": 25,
-        "model": "(i) Spontaneous random decay of (disintegration of, decomposition of) a nucleus releasing α, β or γ radiation. (ii) Chemical: involves electrons / no change to nucleus / bonds broken (formed) / elements unchanged / mass conserved. Nuclear: electron cloud (electrons) not involved / nuclear change / release of energy (radiation) from nucleus / new elements (transmutation) / mass not conserved. (iii) Negative (minus, –) charge; negligible mass (mass of electron); high speed; moderately penetrating; moderately ionising; damage body cells (DNA); deflected by electric fields; deflected by magnetic fields; cause electroluminescence (fluorescence). Any two. (iv) 1/8 / ⅛ / 0.125 / 12.5%",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -27755,30 +25196,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "d",
-        "question": "On what principle is the analytical technique mass spectrometry based?",
-        "marks": 6,
-        "model": "Positive ions (charged particles) separated (deflected) by mass (3 marks) when moving in a magnetic field (3 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e",
-        "question": "What happens during secondary sewage treatment?",
-        "marks": 6,
-        "model": "Oxidation/breakdown/use of air (oxygen) (3 marks) by micro-organisms (bacteria)/biological/chemical/activated sludge (3 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "f",
-        "question": "List the following three types of radiation in order of increasing penetrating power:\nalpha- (α-)    beta- (β-)    gamma- (γ-)",
-        "marks": 6,
-        "model": "alpha, beta, gamma",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "g",
         "question": "What is the percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃?",
         "marks": 6,
@@ -27799,22 +25216,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "State two ways in which Mendeleev's periodic table of the elements differs from that of Moseley.",
         "marks": 6,
         "model": "Mendeleev: order of atomic mass (weight); gaps (fewer elements); reversed elements; man-made elements absent; transition elements not in separate block; lanthanides/rare earths not in separate block; actinides not in separate block; no detectable naturally-occurring radioactive elements. Moseley: opposite for all points. Any two differences required (2 × 3 marks).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "j",
-        "question": "State two ways, other than the addition of lead compounds, that the octane rating of a fuel can be increased.",
-        "marks": 6,
-        "model": "Oxygenates (MTBE, methanol, ethanol) / Branches / Short chains / Rings (ring hydrocarbon) / Isomerisation / Reforming / Dehydrocyclisation / Cracking. Any two required (2 × 3 marks).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or B:\nA: Describe with the aid of an equation how nitrogen fixation occurs in nature.\nB: State two properties of transition metals.",
-        "marks": 6,
-        "model": "A: N₂ + O₂ → 2NO or ½N₂ + ½O₂ → NO (formulas 3 marks, balancing 3 marks)\nB: Variable valency / Coloured ions (compounds) / Act as catalysts. Any two required (2 × 3 marks).",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -27951,14 +25352,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "(i) Define pH.\n(ii) A bottle of vinegar is labelled 6% (w/v) acetic acid (ethanoic acid). The dissociation constant, Ka, for ethanoic acid is 1.8 × 10⁻⁵. Calculate the approximate pH of the vinegar solution.",
         "marks": 18,
         "model": "(i) pH = –log₁₀[H⁺] / –log₁₀[H₃O⁺] / negative log to base ten of hydrogen (hydronium) ion concentration (6 marks)\n(ii) Calculate: 6% (w/v) = 6 g in 100 cm³ = 60 g/l (3 marks); 60 g/l ÷ 60 = 1 mol/l (3 marks); [H⁺]² = 1.8 × 10⁻⁵ / [H⁺] = √(1.8 × 10⁻⁵) = 0.0042 (3 marks); pH = –log[H⁺] = –log√(1.8 × 10⁻⁵) = 2.37 – 2.4 (3 marks)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "(i) The free chlorine present in swimming-pool water can be measured using a colorimeter or comparator. What is the principle on which the technique that uses each of these methods is based?\n(ii) What is meant by free chlorine?",
-        "marks": 18,
-        "model": "(i) Absorbance / Intensity (depth) of colour (6 marks); is proportional (3 marks); to concentration / amount (3 marks)\n(ii) Free chlorine: Chlorine present as chloric(I) acid (hypochlorous acid, HOCl, HClO) and chlorate(I) ions (hypochlorite ions, OCl⁻, ClO⁻) or chlorine (dichlorine, Cl₂) available as oxidising agent. Any two acceptable (2 × 3 marks).",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -28493,14 +25886,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b",
-        "question": "The French scientist discovered radioactivity while experimenting with uranium salts.\n(i) Name the French scientist.\n(ii) What is radioactivity?\n(iii) Name one type of radiation emitted by radioactive substances. Describe its penetrating ability in air, and state its charge, if any.\n(iv) Give an example of a radioactive isotope and state one of its uses.",
-        "marks": 25,
-        "model": "(i) Becquerel. (ii) spontaneous disintegration (breakdown) of nucleus of atom / emitting radiation. (iii) alpha / D / beta / E / gamma / J. Penetrating ability: poor & positive / medium & negative / high & none [matched]. (iv) Example: Co-60 / Am-238 / C-14. Use: cancer treatment / smoke alarms / carbon dating [matched]",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c",
         "question": "Answer part A or part B.\nA:\n(i) Define relative atomic mass (Ar).\n(ii) The molecular formula of glucose is C6H12O6 and its relative molecular mass is 180. What is the empirical formula for glucose?\n(iii) Calculate the percentage by mass of carbon in glucose.\n(iv) Another organic compound B has the same empirical formula as glucose but its relative molecular mass is 60. What is the molecular formula of B?\nB: [alternative part not extracted]",
         "marks": 25,
@@ -28899,14 +26284,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is the average number of electrons shared between any two adjacent carbon atoms in a molecule of benzene?",
         "marks": 3,
         "model": "3.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(l)A",
-        "question": "Give one advantage and one disadvantage of using a batch process in the chemical industry.",
-        "marks": 6,
-        "model": "Advantage: suits slower reactions / suits pharmaceutical industry / flexible reaction vessels / suits small quantities / low capital costs. Disadvantage: contamination possible / high labour costs / costly unit cost / filling vessel takes time.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -29501,30 +26878,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(b)(iii)",
-        "question": "How could a process like the secondary stage of sewage treatment reduce the quantities of organic matter in pig slurry effluent?",
-        "marks": 6,
-        "model": "Oxidation (breakdown, digestion) of organic matter by biological process involving microorganisms (bacteria).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(iv)",
-        "question": "Why was the raw slurry diluted and aerated before analysis?",
-        "marks": 6,
-        "model": "All oxygen would be consumed between analyses / BOD greater than oxygen available / BOD too high to measure / oxygen has low solubility / to ensure oxygen present during storage / to avoid oxygen level falling too low.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)(v)",
-        "question": "Calculate the BOD of the raw pig slurry.",
-        "marks": 4,
-        "model": "BOD = 2.7 × 100 × 100 = 27,000 p.p.m. / 2.7 × 10⁴ p.p.m.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(c)(i)",
         "question": "What was Dalton's atomic theory?",
         "marks": 6,
@@ -29537,14 +26890,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name the scientist whose work on cathode rays led him to identify the electron as a subatomic particle.",
         "marks": 3,
         "model": "J.J. Thomson.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(c)(iii)",
-        "question": "What happens in a radioactive nucleus during beta decay?",
-        "marks": 6,
-        "model": "Neutron changes into a proton and an electron which is emitted / n → p + e⁻.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -29573,14 +26918,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(d)A(ii)",
-        "question": "Describe how lightning generates the gases NO and NO₂ in the atmosphere.",
-        "marks": 6,
-        "model": "N₂ + O₂ → 2NO / nitrogen and oxygen combine to form NO. 2NO + O₂ → 2NO₂ / NO combines with oxygen to form NO₂. Lightning provides energy.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(d)A(iii)",
         "question": "Write a balanced equation for the reaction of NO₂ with water forming acid rain.",
         "marks": 6,
@@ -29589,50 +26926,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(d)A(iv)",
-        "question": "What use do plants make of these nitrate compounds?",
-        "marks": 3,
-        "model": "Manufacture of protein (amino acids).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)A(v)",
-        "question": "Describe one pathway by which nitrogen in animals is restored to the atmosphere completing the nitrogen cycle.",
-        "marks": 6,
-        "model": "Death and decay of animal / ammonium compounds (ammonia) formed. Bacteria convert nitrogen compounds to nitrogen gas / denitrification.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "(d)B(i)",
         "question": "Explain the underlined term: elemental copper found free in nature.",
         "marks": 4,
         "model": "Using electricity to break down a chemical substance / to cause a chemical reaction.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)B(ii)",
-        "question": "Aluminium is extracted from molten aluminium oxide by electrolysis. Why must the aluminium oxide be molten?",
-        "marks": 3,
-        "model": "Ions are free to move.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)B(iii)",
-        "question": "Write balanced equations for the reactions that occur at the graphite electrodes, and for the overall reaction, during the electrolysis of aluminium oxide.",
-        "marks": 9,
-        "model": "Cathode: Al³⁺ + 3e⁻ → Al. Anode: O²⁻ → ½O₂ + 2e⁻. Overall: Al₂O₃ → 2Al + 1½O₂.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "(d)B(iv)",
-        "question": "Identify the chemical method used to extract iron from iron ore.",
-        "marks": 3,
-        "model": "Reduction (reaction with CO, C, coke) in blast furnace.",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -30189,14 +27486,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(a) continued",
-        "question": "Use the heat of combustion of ethyne (-1299 kJ mol-1) supplied in the data above to calculate the kilogram calorific value of ethyne (relative molecular mass = 26).",
-        "marks": 6,
-        "model": "The molar heat of combustion of ethyne is 1299 kJ mol⁻¹. The relative molecular mass is 26 g mol⁻¹. Calorific value per gram = 1299 kJ ÷ 26 = 49.96 kJ g⁻¹. Calorific value per kilogram = 49.96 × 1000 = 49,960 kJ kg⁻¹ or approximately 50,000 kJ kg⁻¹ or 50 MJ kg⁻¹.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(b)",
         "question": "Define the heat of combustion of a substance.\nDescribe an experiment you could carry out in the school laboratory to measure the heat of combustion of a liquid such as methanol.\nWhat are the main sources of error in the experimental procedure you have described?",
         "marks": 27,
@@ -30323,22 +27612,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(b)",
-        "question": "In the Haber process ammonia is made from nitrogen and hydrogen.\nWhat is the main source of (i) nitrogen (ii) hydrogen in the Haber process?",
-        "marks": 12,
-        "model": "In the Haber process:\n(i) Nitrogen is obtained from the air/atmosphere. Nitrogen comprises approximately 78% of air and is separated by fractional distillation of liquid air.\n(ii) Hydrogen is obtained from natural gas or petroleum. Hydrogen is produced by the steam reforming of methane from natural gas, or by the cracking of hydrocarbons from petroleum.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(b) continued",
-        "question": "The Haber process is important as an industrial method of nitrogen fixation.\nWhat is meant by nitrogen fixation? How does it occur in nature?",
-        "marks": 9,
-        "model": "Nitrogen fixation is the process of converting inert atmospheric nitrogen (N₂) into useful nitrogen compounds such as ammonia (NH₃) and nitrates (NO₃⁻) that can be utilised by living organisms.\n\nIn nature, nitrogen fixation occurs through:\n1. Biological fixation by nitrogen-fixing bacteria (e.g. Rhizobium species) living in root nodules of leguminous plants. These bacteria possess the enzyme nitrogenase which catalyses the conversion of N₂ to NH₃.\n2. Lightning fixation, where electrical energy in thunderstorms converts N₂ and O₂ into nitrogen oxides.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(c)",
         "question": "Ammonia reacts with nitric acid to produce ammonium nitrate.\nWrite an equation for this reaction.",
         "marks": 6,
@@ -30377,14 +27650,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Flame tests can be used to identify the metal present in different salts.\nIn the case of any three of the following metals state the colour observed in flame tests:\nlithium, sodium, potassium, magnesium, calcium, copper",
         "marks": 15,
         "model": "A region of space around the nucleus in which there is a high probability of finding an electron. It is defined by the wave function solution of the Schrödinger equation. Orbitals have different shapes (s, p, d, f) and can hold a maximum of two electrons.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(b)",
-        "question": "Iron is made from its ore in a Blast Furnace.\n(i) What three materials are added at the top of a Blast Furnace?",
-        "marks": 18,
-        "model": "Niels Bohr first proposed the energy level model in 1913. Flame test colours: lithium produces red flame; sodium produces yellow flame; potassium produces lilac/violet flame; magnesium produces white flame; calcium produces brick-red flame; copper produces blue-green flame.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -30645,14 +27910,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "f",
-        "question": "The arrangement for the preparation of ethyne gas is shown in the diagram. Identify liquid A and solid B.",
-        "marks": 6,
-        "model": "Liquid A: water (H2O). Solid B: calcium(II) dicarbide / calcium dicarbide / calcium carbide / CaC2",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "g",
         "question": "State the shape of\n(i) the hydrogen chloride molecule (HCl),\n(ii) the water molecule (H2O).",
         "marks": 6,
@@ -30683,14 +27940,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Diffusion",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "k",
-        "question": "Answer part A or part B.\nA: State one method by which nitrogen is fixed in nature.\nOR\nB: Name a metal which is extracted by an electrochemical method.",
-        "marks": 6,
-        "model": "A: Lightning / bacteria/micro-organisms / volcano / legumes/clover. OR B: Sodium / aluminium / lithium / magnesium / calcium",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -30715,14 +27964,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "(i) Who was the Russian scientist who arranged the elements in order of increasing relative atomic mass in developing his periodic table in the 1860s?\n(ii) What is the order used in arranging the elements in the modern periodic table?",
         "marks": 9,
         "model": "(i) Mendeleev. (ii) Order of increasing atomic number (Z)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Carbon–14 is a radioactive isotope of carbon. It is a beta-particle (β-particle) emitter and has a half-life of about 5700 years.\n(i) Explain the underlined term (radioactive).\n(ii) What is a beta-particle?\n(iii) Explain what is meant by the half-life of a radioactive isotope.\n(iv) Give one use of carbon–14.",
-        "marks": 18,
-        "model": "(i) Spontaneous decay/disintegration of unstable nuclei with emission of radiation. (ii) A high-speed electron (e⁻). (iii) Time taken for half the radioactive atoms to decay / for half the mass of sample to decay / for activity to decrease by half. (iv) Radiocarbon dating of ancient artefacts / tracer in studying reactions",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -30791,14 +28032,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Define\n(i) acid,\n(ii) base,\naccording to the theory of Arrhenius.\nExplain the term neutralisation.\nGive the name and formula of the strong acid which is a constituent of gastric juice in the stomach.",
         "marks": 20,
         "model": "(i) Acid: dissociates to give hydrogen ions (H⁺) in aqueous solution. (ii) Base: dissociates to give hydroxyl/hydroxide ions (OH⁻) in aqueous solution. Neutralisation: reaction between acid and base giving salt and water only. Strong acid: hydrochloric acid / HCl",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Describe how you would measure the concentration\n(i) of suspended solids,\n(ii) of dissolved solids,\nin a water sample.",
-        "marks": 18,
-        "model": "(i) Find mass of filter paper / filter known volume / dry and reweigh / subtract. (ii) Find mass of evaporating dish / evaporate to dryness / known volume of filtered water / cool and reweigh / subtract",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -30925,14 +28158,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "A mass of 8.4 g of pure sodium hydrogencarbonate was completely converted to sodium carbonate, water and carbon dioxide by the action of heat. The equation for the reaction is: 2NaHCO3 → Na2CO3 + H2O + CO2\n(i) How many moles of sodium hydrogencarbonate (NaHCO3) were used up?\n(ii) What mass of water was produced?\n(iii) What volume of carbon dioxide was produced at standard temperature and pressure? How many molecules of carbon dioxide did this volume contain?",
         "marks": 25,
         "model": "(i) 0.1 moles. (ii) 0.9 grams. (iii) Volume: 1.12 litres. Molecules: 3 × 10²²",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c",
-        "question": "Gas chromatography (GC), thin-layer chromatography (TLC) and high-performance liquid chromatography (HPLC) are techniques used in analytical chemistry.\n(i) State the principle on which all chromatographic techniques are based.\n(ii) Which of these three techniques is routinely used in blood-alcohol testing?\n(iii) Describe an experiment you carried out in the school laboratory to separate a mixture of indicators using thin-layer, paper or column chromatography.",
-        "marks": 25,
-        "model": "(i) Separation - mixture of components passes through mobile phase through stationary phase. (ii) Gas chromatography / GC. (iii) Paper/TLC: apply mixture with dropper 2 cm above eluent / place in tank / indicators separate as they move with eluent. Column: dissolve mixture in eluent / add to column / continue to add eluent so it flows through / separation into bands",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -31063,22 +28288,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2023,
     "parts": [
       {
-        "label": "Q2(a)(i)",
-        "question": "Draw a labelled diagram to show a suitable arrangement of apparatus and chemicals for the preparation of ethyne from the reaction of calcium carbide with water and for the collection of the gas in test-tubes over water.",
-        "marks": 9,
-        "model": "Correct arrangement of apparatus with labels showing water, calcium carbide, and collection over water.",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q2(a)(ii)",
-        "question": "Why would you expect the first test-tube of gas collected to be less pure than the others?",
-        "marks": 5,
-        "model": "Air (oxygen, nitrogen) present in the apparatus initially",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "Q2(b)(i)",
         "question": "What was observed when a few drops of dilute bromine solution were added to one of the test-tubes of ethyne?",
         "marks": 3,
@@ -31131,14 +28340,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "How does the flame used in oxyacetylene welding, where ethyne is burned in pure oxygen, differ from the flame observed when ethyne was burned in air in a combustion test?",
         "marks": 6,
         "model": "Hotter / cleaner (less sooty, less smoky, no soot, no smoke) / less bright / blue. Also produces water (H₂O).",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q2(d)",
-        "question": "Find the maximum theoretical volume of ethyne gas produced in the reaction CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂, in litres measured at room temperature and pressure, from 2.0 g of calcium carbide that is 80% pure.",
-        "marks": 9,
-        "model": "0.6 litres ethyne",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -31307,14 +28508,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "Q4(f)",
-        "question": "Identify the fundamental processes corresponding to stages 2 and 4 in a mass spectrometer.",
-        "marks": 6,
-        "model": "Stage 2: Ionisation // Stage 4: Separation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "Q4(g)",
         "question": "A laboratory technician diluted 25.0 cm³ of a 0.12 M solution to 30.0 cm³ by adding deionised water. Find the new concentration of the solution in moles per litre.",
         "marks": 6,
@@ -31367,14 +28560,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Write one or more balanced equations to explain how limestone can be used as a scrubber to remove sulfur dioxide from waste gases.",
         "marks": 6,
         "model": "CaCO₃ + SO₂ → CaSO₃ + CO₂ or CaCO₃ → CaO + CO₂ and CaO + SO₂ → CaSO₃",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q4(l)B",
-        "question": "Explain why metallic crystals are good conductors of electricity.",
-        "marks": 6,
-        "model": "Valence electrons free to move through (shared by, delocalised amongst) positive (metal) ions",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -31499,14 +28684,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Pentane and 2-methylbutane are structural isomers of C₅H₁₂. Give the systematic IUPAC name of the other structural isomer of C₅H₁₂ and draw its molecular structure.",
         "marks": 9,
         "model": "2,2-dimethylpropane. Structure: CH₃C(CH₃)₂CH₃",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q6(c)",
-        "question": "The alkane C₁₅H₃₂ occurs in the gas oil fraction obtained from crude oil refining. A molecule of C₁₅H₃₂ was converted into a molecule of 2-methylbutane, a molecule of but-1-ene and one other molecule during catalytic cracking. What was the molecular formula of the third molecule formed?",
-        "marks": 6,
-        "model": "C₆H₁₂",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -31815,22 +28992,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2023,
     "parts": [
       {
-        "label": "Q10(a)(i)",
-        "question": "Suggest a reason why the volume of benzene in petrol is limited to about 1% despite the fact that it improves petrol's octane number.",
-        "marks": 4,
-        "model": "Carcinogenic / causes cancer / mutagenic / breaks (damages) DNA (chromosomes) / toxic / harmful",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q10(a)(ii)",
-        "question": "Name the oil refining process in which hexane is converted into benzene.",
-        "marks": 6,
-        "model": "Dehydrocyclisation (reforming)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "Q10(a)(iii)",
         "question": "A single benzene molecule has 42 electrons. How many of these electrons are involved in carbon to hydrogen bonding?",
         "marks": 3,
@@ -31907,38 +29068,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What are isotopes?",
         "marks": 3,
         "model": "Atoms with same atomic number (same Z, equal numbers protons) / atoms of the same element // different number of neutrons (different A) / different mass numbers",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q10(c)(ii)",
-        "question": "What is radioactivity?",
-        "marks": 3,
-        "model": "Spontaneous decay (disintegration, break-up, splitting) of an unstable atomic nucleus (of atomic nuclei) // with emission of radiation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q10(c)(iii)",
-        "question": "When an iodine–131 nucleus decays to form a xenon–131 nucleus, a beta particle is released. Copy and complete the following nuclear equation for this decay reaction: ₅₃¹³¹I → ___ + ₋₁⁰e",
-        "marks": 3,
-        "model": "₅₄¹³¹Xe",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q10(c)(iv)",
-        "question": "Explain the origin of the electron released as a beta particle in this reaction.",
-        "marks": 6,
-        "model": "Neutron // changes into proton and electron",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q10(c)(v)",
-        "question": "Alpha particles can be stopped by a sheet of paper. Are beta particles more or less penetrating than alpha particles?",
-        "marks": 4,
-        "model": "More",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -32081,14 +29210,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "Q11(d)A(i)",
-        "question": "Write balanced equations for the natural fixation by lightning of atmospheric nitrogen converting it first to NO and then to NO₂.",
-        "marks": 8,
-        "model": "N₂ + O₂ → 2NO; 2NO + O₂ → 2NO₂ or NO + ½O₂ → NO₂",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "Q11(d)A(ii)",
         "question": "Why is nitrogen gas unreactive?",
         "marks": 3,
@@ -32119,54 +29240,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Absorbs (retains) heat energy (infrared radiation) in Earth's atmosphere / contributes to global warming (climate change)",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(i)",
-        "question": "Write a balanced equation for the conversion of Al₂O₃·3H₂O to NaAlO₂.",
-        "marks": 6,
-        "model": "Al₂O₃·3H₂O + 2NaOH → 2NaAlO₂ + 4H₂O",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(ii)",
-        "question": "Identify a possible negative impact on the environment adjacent to a plant where the Al₂O₃ is separated from the other materials present in the bauxite.",
-        "marks": 3,
-        "model": "Sludge (red mud, iron oxide) byproduct (produced, separated, stored) / waste water could cause contamination if not treated / dust unsightly (harmful to health, harmful to environment) if released / gaseous emissions filtered to avoid health environment damage / fossil fuel consumption has global warming effects",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(iii)",
-        "question": "What is the main economic consideration when locating the plant where the electrolysis of the molten Al₂O₃ is to take place?",
-        "marks": 3,
-        "model": "Availability of cheap electricity (cost of electricity)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(iv)",
-        "question": "Why must the Al₂O₃ be molten or dissolved for the electrolysis stage?",
-        "marks": 3,
-        "model": "Ions free to move when molten or dissolved / alumina (Al₂O₃) conducts electricity when molten or dissolved / solid alumina (Al₂O₃) does not (cannot) conduct electricity",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(v)",
-        "question": "Write a balanced half-equation for the reaction that takes place at the negative electrode during the electrolysis of molten Al₂O₃.",
-        "marks": 6,
-        "model": "Al³⁺ + 3e⁻ → Al or 2Al³⁺ + 6e⁻ → 2Al",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "Q11(d)B(vi)",
-        "question": "The melting point of Al₂O₃ is 2,072 °C but the temperature of the electrolyte is only about 1,000 °C. Explain.",
-        "marks": 4,
-        "model": "Cryolite (Na₃AlF₆, impurity, solvent, aluminium fluoride AlF₃, calcium fluoride CaF₂) added",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -32191,14 +29264,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Identify gas B",
         "marks": 1,
         "model": "ethyne",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Describe what happens in the reaction flask when liquid A is added slowly to calcium carbide.",
-        "marks": 6,
-        "model": "effervescence / fizzing / bubbling (bubbles) / flask gets hot / steam / white smoke (vapour) / solid disappearing / dirty brown liquid produced / carbide reacts / gas formed (evolved) / gas flows along delivery tube",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -32405,14 +29470,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Some carbon atoms have a greater mass than others. Explain.",
         "marks": 6,
         "model": "isotopes / different numbers of neutrons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "Some elements are radioactive. Explain the underlined term.",
-        "marks": 6,
-        "model": "spontaneous decay of unstable nucleus / spontaneous decay of unstable atom; releasing radiation (or named radiation)",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -32649,30 +29706,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Which of the three fractions is often catalytically cracked to make smaller molecules for use in petrol?",
         "marks": 6,
         "model": "gas oil (diesel oil) / kerosene",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e(i)",
-        "question": "What term is used as a measure of the tendency of a fuel to cause knocking in an engine?",
-        "marks": 6,
-        "model": "octane number (octane rating)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e(ii)",
-        "question": "Why were lead compounds previously added to petrol?",
-        "marks": 6,
-        "model": "to improve (increase) octane number (rating) / to reduce knocking (pinking, pinging, tapping, engine noise) / to stop petrol autoigniting (pre-igniting, igniting too early, igniting before spark)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "e(iii)",
-        "question": "Why was the addition of lead compounds to petrol discontinued?",
-        "marks": 6,
-        "model": "toxic / poisonous / harmful / may cause cancer (brain damage) / damages health / poisons catalytic converter (causes pollution (damages environment) 3)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -33169,84 +30202,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2021,
     "parts": [
       {
-        "label": "d(A)(i)",
-        "question": "Air is the source of several industrial gases. The three main products separated from liquid air by fractional distillation are N2, O2 and Ar. When the liquid air, at a temperature below –196 °C, is allowed to warm up slowly, the component gases separate according to boiling point.\nWhich of the three elements, nitrogen, oxygen or argon, is the most abundant in air?",
-        "marks": 4,
-        "model": "nitrogen (N2, N)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(ii)",
-        "question": "Argon is used to fill the spaces between the sheets of glass in double and triple glazed windows. Give one major use for each of the other two elements, N2 and O2, separated in the fractional distillation of liquid air.",
-        "marks": 6,
-        "model": "nitrogen: packaging food to prevent oxidation / packaging to prevent crushing of food (crisps, etc, delicate items) / flushing (purging) tanks of flammable liquids (gases, vapours) / freezing (preserving) food (biological specimens, sperm, semen) / remove unwanted skin cells / remove skin cancer (warts, verrucae) / feedstock for ammonia industry, etc; oxygen: breathing (respiration) gas for patients (divers, firefighters, pilots, etc) / steelmaking / to support combustion of ethyne, in rockets etc / skin (muscle) therapy / welding / reduce river pollution / etc",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d(A)(iii)",
         "question": "Both N2 and Ar are chemically inert. Explain the inertness of nitrogen gas.",
         "marks": 6,
         "model": "triple bond / strong bond / non-polar",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(iv)",
-        "question": "Nitrogen in air is essential to plants but they cannot make use of the gas itself. What term describes the conversion of N2 into compounds that can be used by plants?",
-        "marks": 6,
-        "model": "nitrogen fixation",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(A)(v)",
-        "question": "Ozone (O3), that occurs in the stratosphere, is another form of the element oxygen. Give a beneficial role of ozone in the stratosphere.",
-        "marks": 3,
-        "model": "absorb (protect from) uv (ultraviolet) radiation",
-        "diagram": "",
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "chemistry-pp-2021-OR-Q11d(B)",
-    "subject": "chemistry",
-    "chapterId": "chem7",
-    "sectionId": "chem-sectionB",
-    "source": "LC Chemistry Ordinary 2021 — Q11d(B)",
-    "year": 2021,
-    "parts": [
-      {
-        "label": "d(B)(i)",
-        "question": "The diagram shows a blast furnace used to extract iron, a transition element, from its ores by chemical reduction.\nGive one general property of transition elements.",
-        "marks": 4,
-        "model": "metals (metallic) / often good catalysts / variable valency / form coloured compounds, etc",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(B)(ii)",
-        "question": "Identify X added in the charge to bring about the reduction of the iron ore and to act as a fuel for the furnace.",
-        "marks": 6,
-        "model": "coke (carbon, C)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(B)(iii)",
-        "question": "Calcium oxide obtained from the limestone reacts with impurities in the iron ore to make co-product Y that is collected at the base of the furnace.\nWhat name is usually given to Y?\nGive a use for Y.",
-        "marks": 9,
-        "model": "slag / calcium silicate (CaSiO4); roadmaking (hardcore) / lightweight building blocks / cement making",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d(B)(iv)",
-        "question": "Identify the main impurity in the pig iron whose concentration is reduced during steel making.",
-        "marks": 6,
-        "model": "carbon (C) (allow sand or silicon or silica)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -33559,14 +30518,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "Petrol may contain oxygenates.\nGive an example of an oxygenate used in petrol.\nWhy are oxygenates added to petrol?",
-        "marks": 6,
-        "model": "Example: methanol / ethanol / propanol / MTBE; Reason: reduce pollution (emissions, carbon monoxide) / increase octane rating / reduce knocking",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "d",
         "question": "Define heat of formation.\nThe heats of formation of propane, carbon dioxide and water are –104.7, –393.5 and –285.8 kJ mol⁻¹ respectively. Write a balanced equation for the combustion of propane in a plentiful oxygen supply and use the data provided to calculate the heat of combustion of propane.",
         "marks": 21,
@@ -33843,14 +30794,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b(i)",
-        "question": "Identify solid X and liquid Y, the reagents used in the preparation of ethyne gas.",
-        "marks": 12,
-        "model": "X = Calcium carbide / calcium dicarbide / CaC2 (any suitable carbide)\nY = Water / H2O",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(ii)",
         "question": "Describe what you would observe when a sample of ethyne gas is burned in air.",
         "marks": 6,
@@ -33975,14 +30918,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b",
-        "question": "Describe how the student could have then measured the concentration of dissolved solids in the sea water.",
-        "marks": 12,
-        "model": "Weigh a beaker. Evaporate water. Filtrate. Reweigh the beaker. Increase in mass is mass of dissolved solids",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c",
         "question": "Describe how the student could have carried out a flame test to show that a sodium salt was present in the dissolved solids collected. What flame colour would indicate the presence of sodium ions?",
         "marks": 18,
@@ -34029,14 +30964,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "What is the trend in the size of atomic radii going down any group of the periodic table?",
         "marks": 6,
         "model": "Increase",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Name the piece of equipment used to measure the calorific values of foods and fuels.",
-        "marks": 6,
-        "model": "Bomb / calorimeter",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -34127,14 +31054,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Name the subatomic particle that is responsible for the difference between carbon-12 and carbon-14. How many of these particles are found in an atom of carbon-14?",
         "marks": 6,
         "model": "Neutron. 8",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b(iii)",
-        "question": "Carbon-14 is radioactive and is an emitter of β-particles (beta-particles). Explain what a β-particle is. Give one use of carbon-14.",
-        "marks": 12,
-        "model": "Electron coming from the nucleus. Use: Carbon dating",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -34337,14 +31256,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Any three: Screening / Flocculation / Sedimentation (settling) / pH adjustment / Chlorination (ozone treatment) / Fluoridation / Filtration.\nWhy: Remove large debris / encourage coagulation of suspended solids / allow suspended material to settle / readjust pH to one suitable for transmission / disinfect (kill pathogens) / for tooth strength / removal of insoluble solids",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "b",
-        "question": "The following words all relate to sewage treatment. These words are omitted from the passage below: eutrophication, nitrates, biological, sedimentation, solid\nWrite in your answer book the omitted words corresponding to each of the numbers 1 to 5.\nIn primary treatment, sewage is passed through grids and over grit channels to remove dense ___1___ material. The sewage is then transferred to ___2___ tanks where suspended solids are allowed settle to the bottom. In secondary treatment the sewage is broken down by ___3___ digestion. Tertiary treatment removes phosphates and ___4___. These nutrients can cause ___5___ if their concentrations build up in lakes and rivers.",
-        "marks": 30,
-        "model": "1: Solid\n2: Sedimentation\n3: Biological\n4: Nitrates\n5: Eutrophication",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -34381,26 +31292,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b(i)",
-        "question": "Mass spectrometry (MS), gas chromatography (GC), high-performance liquid chromatography (HPLC) and thin-layer chromatography (TLC) are all used in analytical chemistry. Give one application of mass spectrometry.",
-        "marks": 4,
-        "model": "Atomic mass measurement / molecular mass measurement / molecule (compound) identification / analyse gases from dumps / analyse organic pollutants in water",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(ii)",
         "question": "Give an application of thin-layer chromatography (TLC) in forensic science.",
         "marks": 6,
         "model": "Dye identification (separation) / drug identification",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "b(iii)",
-        "question": "Give an application of high-performance liquid chromatography (HPLC) in the food industry.",
-        "marks": 6,
-        "model": "Growth promoter identification / vitamin identification",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -34507,14 +31402,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "If the conical flask were surrounded by ice-water, would the time taken for the cross to become invisible be greater, less or unchanged? Explain your answer.",
         "marks": 6,
         "model": "Greater. Explanation: Rate increases with temperature / slower reaction when cold",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(i)A",
-        "question": "Explain the term feedstock in industrial chemistry.",
-        "marks": 7,
-        "model": "Reactants / The raw material prepared for process",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -34789,22 +31676,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c",
-        "question": "Describe the steps the students could have taken to measure the concentration of suspended solids in the river water.",
-        "marks": 9,
-        "model": "filter / known volume / through filter paper / previously weighed / of known mass / wash filter paper with distilled water / dry / place in oven / reweigh / find difference in masses",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "d",
-        "question": "Describe with the aid of a labelled diagram how the concentration of dissolved solids could have been measured.",
-        "marks": 9,
-        "model": "known volume / previously filtered water / in a dry / beaker (container) / previously weighed / of known mass / evaporate (heat) to dryness / cool / reweigh beaker (container) / find difference in masses",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "e(i)",
         "question": "The students found that 500 cm³ of the river water contained 0.03 g of suspended solids and that 200 cm³ of the water contained 0.13 g of dissolved solids. Find the concentration of suspended solids in grams per litre.",
         "marks": 6,
@@ -34891,14 +31762,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Give the name or formula of the carboxylic acid in vinegar.",
         "marks": 6,
         "model": "ethanoic (acetic) acid / CH3COOH",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "i",
-        "question": "At which of the three stages of sewage treatment are phosphates and nitrates removed?",
-        "marks": 6,
-        "model": "tertiary / third / last",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -35315,14 +32178,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "b(ii)",
-        "question": "Name the instrument used to accurately measure the calorific values of different foods.",
-        "marks": 4,
-        "model": "bomb // calorimeter",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "b(iii)",
         "question": "Define heat of combustion of a substance.",
         "marks": 6,
@@ -35405,34 +32260,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "c(i)A",
-        "question": "Oxygen gas (O2) is produced industrially by liquefaction and fractional distillation of air. What other gas is the major product of this process? What is the approximate percentage of this second gas in the atmosphere? Give a widespread use for this second gas.",
-        "marks": 10,
-        "model": "nitrogen / N2 // 78% (allow 76 – 80%) // packaging / making ammonia / medical use to freeze tissue / flushing tanks",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "c(ii)A",
         "question": "Name the other form of oxygen gas (O3) formed in the stratosphere. What environmentally beneficial effect does O3 have? Identify a group of chemicals that damages O3.",
         "marks": 15,
         "model": "ozone // blocks uv rays from sun / removes chlorine atoms (radicals, Cl•) from atmosphere / prevents cataracts (skin cancer) // CFCs / chlorofluorocarbons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(i)B",
-        "question": "The diagram shows a blast furnace used to extract iron metal from iron ore. Give the name or formula of an ore of iron. Name another substance added in the charge with the iron ore. What name is given to the impurity removed at X?",
-        "marks": 15,
-        "model": "iron oxide, magnetite, haematite (FeO, Fe2O3, Fe3O4) / iron sulfide (FeS) / pyrites // coke / limestone // slag",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "c(ii)B",
-        "question": "Most of the iron produced is converted to an alloy of iron. Name this alloy. What other element is always present in this alloy?",
-        "marks": 10,
-        "model": "steel (cast iron, pig iron) // carbon (silicon)",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -35733,14 +32564,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "4h",
-        "question": "Describe what happens during the primary stage of sewage treatment.",
-        "marks": 6,
-        "model": "screening / sedimentation / settling",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "4i",
         "question": "When a small amount of air freshener is sprayed in a room it is soon detected in all parts of the room. Explain why this occurs.",
         "marks": 6,
@@ -35761,22 +32584,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Molecular structures X and Y both represent cyclic hydrocarbons that contain six carbon atoms. Which of these hydrocarbons is an aromatic compound?",
         "marks": 6,
         "model": "X",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4l(A)",
-        "question": "Explain the term \"continuous process\" in industrial chemistry.",
-        "marks": 6,
-        "model": "process never stops",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "4l(B)",
-        "question": "Name the scientist pictured who used X-ray crystallography to determine the structure of vitamin B12.",
-        "marks": 6,
-        "model": "Hodgkin",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -35917,30 +32724,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Identify the sulfur-containing compounds which may be added to give LPG an unpleasant smell, warning of leaks.",
         "marks": 4,
         "model": "mercaptans / thiols",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6b(i)",
-        "question": "E10 petrol is a fuel containing up to 10% bioethanol. E10 petrol and E5 petrol have different octane numbers. What is meant by the term octane number?",
-        "marks": 9,
-        "model": "measure of a fuels tendency to resist/cause auto-ignition / knocking",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6b(ii)",
-        "question": "State two ways of increasing the octane number of a fuel.",
-        "marks": 6,
-        "model": "isomerisation, catalytic cracking, dehydrocyclisation, adding oxygenates, adding lead (compounds) (any two)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "6b(iii)",
-        "question": "Explain the significance of the compounds heptane and 2,2,4-trimethylpentane in relation to octane number.",
-        "marks": 3,
-        "model": "reference compounds / octane numbers of 0 and 100",
         "diagram": "",
         "model_source": "scheme"
       },
@@ -36269,14 +33052,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2024,
     "parts": [
       {
-        "label": "10c(i)",
-        "question": "Radon-222 (²²²Rn86) is found in high levels in areas such as Galway and Wicklow. Radon-222 is the most stable isotope of radon, with a half-life of approximately 3.8 days. It decays by emitting an alpha particle. Explain the underlined term.",
-        "marks": 6,
-        "model": "time taken for half a sample to decay / for activity to half",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "10c(ii)",
         "question": "How many protons are present in an atom of ²²²Rn86?",
         "marks": 8,
@@ -36297,22 +33072,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "How many electrons are present in a neutral atom of ²²²Rn86?",
         "marks": 2,
         "model": "86",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10c(v)",
-        "question": "What is an alpha particle?",
-        "marks": 4,
-        "model": "helium nucleus / two protons and two neutrons",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "10c(vi)",
-        "question": "State one property of an alpha particle.",
-        "marks": 3,
-        "model": "(positively) charged / mass = 4 / low penetrating power / highly ionising",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -36441,22 +33200,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "mobile phase, e.g. water; stationary phase, e.g. filter paper; (separated/unseparated) mixture in correct location",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "11c(iii)",
-        "question": "HPLC is an advanced instrumental method of separation which uses chromatography. What is meant by HPLC?",
-        "marks": 4,
-        "model": "high performance / pressure liquid chromatography",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11c(iv)",
-        "question": "Name one other instrumental method of separation or analysis.",
-        "marks": 3,
-        "model": "e.g. distillation",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -36523,38 +33266,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "State two differences between metals and non-metals.",
         "marks": 8,
         "model": "metals: conduct heat / conduct electricity / lustrous / malleable / high melting point / high boiling point (any two)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11d(B)(ii)",
-        "question": "What is an alloy?",
-        "marks": 6,
-        "model": "mixture involving metal(s)",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11d(B)(iii)",
-        "question": "State one example of an alloy.",
-        "marks": 4,
-        "model": "e.g. steel / nichrome / brass / bronze / alnico",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11d(B)(iv)",
-        "question": "State the composition of the alloy you have named.",
-        "marks": 4,
-        "model": "Fe + C / Ni + Cr / Cu + Zn / Cu + Sn / Fe + Al + Ni + Co",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "11d(B)(v)",
-        "question": "Suggest a reason why alloys can be more useful than pure metals.",
-        "marks": 3,
-        "model": "less corrosive / less reactive / stronger / harder",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -36875,14 +33586,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Diffusers are used to perfume a room. The fragrant oils in the solution evaporate and diffuse into the air. What is diffusion?",
         "marks": 6,
         "model": "movement of a substance / spreading out of a substance",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "l",
-        "question": "Answer part A or part B.\nA: Write the chemical formula for ozone.\nB: Name the English scientist who discovered in 1807 that the elements sodium and potassium could be extracted from their salts by electrolysis.",
-        "marks": 6,
-        "model": "A: O₃; B: (Humphrey) Davy",
         "diagram": "",
         "model_source": "scheme"
       }
@@ -37323,30 +34026,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2025,
     "parts": [
       {
-        "label": "i",
-        "question": "Settling tanks are used at different stages of sewage treatment. What happens in a settling tank?",
-        "marks": 9,
-        "model": "removes insoluble solids / heavier solids to sink to the bottom",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "ii",
-        "question": "At what stage of sewage treatment (primary, secondary or tertiary) is the organic biodegradable matter broken down by bacteria?",
-        "marks": 7,
-        "model": "secondary",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "iii",
-        "question": "What is the specific purpose of the tertiary stage of sewage treatment?",
-        "marks": 7,
-        "model": "to remove nitrates / phosphates",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
         "label": "iv",
         "question": "Describe a problem that arises when sewage is not treated before discharging it into the sea, a river or a lake.",
         "marks": 2,
@@ -37703,22 +34382,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "zinc / Zn",
         "diagram": "",
         "model_source": "scheme"
-      },
-      {
-        "label": "iv",
-        "question": "State an advantage of recycling aluminium in preference to extracting more of the metal from its ores.",
-        "marks": 2,
-        "model": "extraction is costly / extraction uses a lot of energy",
-        "diagram": "",
-        "model_source": "scheme"
-      },
-      {
-        "label": "v",
-        "question": "Name a process involved in the manufacture of steel.",
-        "marks": 2,
-        "model": "electric arc process / smelting",
-        "diagram": "",
-        "model_source": "scheme"
       }
     ]
   },
@@ -37739,26 +34402,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(b)",
-        "question": "Describe the correct procedure for rinsing the burette and filling it with edta reagent.",
-        "marks": 15,
-        "model": "Rinse the burette with deionised water several times to remove contaminants. Rinse 2–3 times with small portions of the EDTA reagent to equilibrate the burette and prevent dilution. Pour EDTA solution into the burette using a funnel. Open the stopcock briefly to fill the space below the tap, ensuring no air bubble remains at the jet. Close the stopcock. Record the initial burette reading at the bottom of the meniscus at eye level.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(c)",
         "question": "The addition of a small quantity of another solution to the water in the conical flask is essential before commencing the titration. What solution must be added and what is its purpose?",
         "marks": 6,
         "model": "Solution: ammonia buffer (or ammonium chloride–ammonia solution / buffer of pH 10). Purpose: EDTA-metal complexation and indicator colour change are pH-dependent. The buffer maintains pH ~10, the optimal pH range for this titration, ensuring sharp endpoint detection and accurate results.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(d)",
-        "question": "In the experiment it was found that 100 cm³ portions of the water required an average titre of 8.10 cm³ of 0.010 M edta solution. Calculate the total hardness in:\n(i) moles per litre,\n(ii) grams per litre expressed in terms of CaCO₃ and\n(iii) p.p.m. expressed in terms of CaCO₃.",
-        "marks": 15,
-        "model": "(i) Moles per litre: n(EDTA) = 0.010 × (8.10/1000) = 8.1 × 10⁻⁵ mol. From 1:1 stoichiometry (EDTA : Ca²⁺/Mg²⁺), total hardness = 8.1 × 10⁻⁵ ÷ 0.1 = 8.1 × 10⁻⁴ mol/L. (ii) In terms of CaCO₃: molar mass CaCO₃ = 100 g/mol. Hardness = 8.1 × 10⁻⁴ × 100 = 0.081 g/L. (iii) p.p.m. (mg/L) in terms of CaCO₃: 0.081 g/L = 81 mg/L = 81 p.p.m.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -37991,14 +34638,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "To detect sulfite ions, add barium chloride solution: a white precipitate of barium sulfite forms. Alternatively, acidify the solution with dilute hydrochloric acid; sulfite ions produce SO₂ gas which decolourises bleach solution.",
         "diagram": "",
         "model_source": "ai-h1"
-      },
-      {
-        "label": "(k)",
-        "question": "Answer part A or B.\nA: How is oxygen gas produced industrially?\nB: How does the anodising of aluminium protect it from corrosion?",
-        "marks": 0,
-        "model": "At the negative electrode (cathode), iodide ions are oxidised to iodine, which is produced as a colourless gas initially. The iodine then reacts with starch (if present) to form a blue complex, or appears as a brown/purple colour in solution. Phenolphthalein turns pink due to OH⁻ ions produced by water reduction.",
-        "diagram": "",
-        "model_source": "ai-h1"
       }
     ]
   },
@@ -38097,14 +34736,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Methane is often found in gas fields which occur in association with crude oil deposits. Crude oil is fractionated in order to obtain more useful products. Outline clearly how the fractionation process is carried out.",
         "marks": 12,
         "model": "Crude oil fractionation: Crude oil is heated to approximately 350°C, vaporising most of it. The hot vapour enters a fractionating column (fractionation tower) maintained at a temperature gradient: hotter at the bottom (~350°C) and cooler at the top (~40°C). Long-chain hydrocarbons (higher boiling points) condense quickly and fall to the bottom, collecting as fuel oil/bitumen. Short-chain hydrocarbons (lower boiling points) rise through the column and condense at cooler sections higher up, collecting at different levels. Petroleum gas exits from the top as vapour. Each fraction is drawn off at different heights, producing petrol, kerosene, diesel oil, fuel oil, and bitumen in order of decreasing boiling point and increasing viscosity.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(e)",
-        "question": "Identify two structural features of a hydrocarbon fuel which affect its octane number.",
-        "marks": 6,
-        "model": "Two structural features of hydrocarbon fuels affecting octane number: (1) Degree of branching: branched-chain alkanes (e.g. iso-octane) have higher octane numbers and resist knocking better than straight-chain alkanes (n-heptane has octane number 0). Branching increases resistance to self-ignition and detonation. (2) Aromatic character: aromatic hydrocarbons and their alkyl derivatives have higher octane numbers than equivalent alkanes, as the stable benzene ring structure resists knocking. Unsaturation in the carbon chain also increases octane number.",
         "diagram": "",
         "model_source": "ai-h1"
       }
@@ -38324,14 +34955,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(b)(ii)",
-        "question": "The fact that each element has a unique line spectrum forms the basis for an instrumental technique which can be used to detect heavy metals and to measure their concentrations in a soil or a water sample. Name the instrumental technique.",
-        "marks": 3,
-        "model": "Atomic absorption spectrometry (AAS)",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(b)(iii)",
         "question": "Bohr's atomic theory was later modified. Give one reason why this theory was updated.",
         "marks": 3,
@@ -38382,38 +35005,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2004,
     "parts": [
       {
-        "label": "(a)",
-        "question": "Define radioactivity.",
-        "marks": 6,
-        "model": "Radioactivity is the spontaneous and uncontrollable disintegration of unstable atomic nuclei, accompanied by the emission of radiation (alpha particles, beta particles, or gamma rays). The process occurs naturally in elements with unstable nuclei and results in the transformation of one element into another.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(i)",
-        "question": "State two properties of beta (β) particles.",
-        "marks": 6,
-        "model": "Beta (β) particles are high-speed electrons emitted from the nucleus. They have negligible mass compared to alpha particles and carry a negative charge (−1). Beta particles have high penetrating power and can be stopped by thin metal foil or several millimetres of aluminium.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(ii)",
-        "question": "Write an equation for the nuclear reaction involved in the beta decay of ¹⁴C (carbon-14).",
-        "marks": 6,
-        "model": "¹⁴C → ¹⁴N + ⁰₋₁e (or ⁰₋₁β)\n\nIn beta decay, a neutron converts to a proton, emitting an electron (beta particle) and an antineutrino. The atomic number increases by one while the mass number remains unchanged.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(iii)",
-        "question": "Explain how the carbon-14 isotope allows certain archaeological discoveries to be dated.",
-        "marks": 7,
-        "model": "Living organisms maintain a constant ratio of ¹⁴C to ¹²C through continuous carbon exchange. Upon death, the organism stops absorbing carbon and the ¹⁴C decays at a known rate (half-life ~5,730 years). By measuring the remaining ¹⁴C activity in archaeological samples and comparing it to the initial ratio, the time elapsed since death can be calculated, enabling accurate dating of artefacts.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(b)",
         "question": "Define pH.",
         "marks": 7,
@@ -38434,22 +35025,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Calculate the approximate pH of a vinegar solution that contains 4.5 g of ethanoic acid per 100 cm³. The value of Ka for ethanoic acid is 1.8 × 10⁻⁵.",
         "marks": 12,
         "model": "Molar mass of ethanoic acid = 60 g/mol. Concentration = (4.5 g ÷ 60) ÷ 0.1 dm³ = 0.75 mol/dm³.\n\nFor a weak acid: [H⁺] = √(Ka × M) = √(1.8 × 10⁻⁵ × 0.75) = √(1.35 × 10⁻⁵) = 3.67 × 10⁻³ mol/dm³\n\npH = −log(3.67 × 10⁻³) = 2.44 (or approximately 2.4)",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)A(i)",
-        "question": "Write a brief note on the contribution made to our understanding of crystal structures by Lawrence and William Bragg.",
-        "marks": 7,
-        "model": "Lawrence Bragg and his father William Bragg revolutionised crystal structure analysis through X-ray diffraction. They developed Bragg's Law (nλ = 2d sinθ), which explains how X-rays are diffracted by crystal planes. Their work established that crystals have ordered, periodic atomic arrangements and enabled the determination of crystal structures from diffraction patterns.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)A(ii)",
-        "question": "Write a brief note on the contribution made to our understanding of crystal structures by Dorothy Hodgkin.",
-        "marks": 7,
-        "model": "Dorothy Hodgkin pioneered X-ray crystallography for biological molecules. She determined the structures of penicillin (1945) and vitamin B₁₂, proving that complex organic molecules have precise three-dimensional structures. Her work established that protein and enzyme structures could be solved using crystallographic methods, transforming biochemistry and earning her the Nobel Prize in Chemistry (1964).",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -38710,14 +35285,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "ai-h1"
       },
       {
-        "label": "(c)",
-        "question": "Give two properties of alpha particles.",
-        "marks": 0,
-        "model": "Alpha particles are positively charged (charge +2) / helium nuclei (He nuclei). They are relatively massive and have low penetrating power. They ionise atoms readily in their path.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(d)",
         "question": "Name the type of spectroscopy, based on absorptions within a particular range of electromagnetic frequencies, and used as a 'fingerprinting' technique to identify organic and inorganic compounds.",
         "marks": 0,
@@ -38768,14 +35335,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
       {
         "label": "(j)",
         "question": "Complete and balance the equation:\nC₂H₅OH + Na",
-        "marks": 0,
-        "model": "C₂H₅OH + Na → C₂H₅ONa + ½H₂ (or 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂)",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(k)",
-        "question": "Answer part A or part B.\nA: State the two main ways by which nitrogen is fixed in nature.\nOR\nB: State two ways in which steel differs from the iron produced in a blast furnace.",
         "marks": 0,
         "model": "C₂H₅OH + Na → C₂H₅ONa + ½H₂ (or 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂)",
         "diagram": "",
@@ -38858,42 +35417,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "year": 2008,
     "parts": [
       {
-        "label": "(a)(i)",
-        "question": "What is meant by the octane number of a fuel?",
-        "marks": 5,
-        "model": "The octane number is a measure of the resistance of a fuel to knocking (premature detonation) in an internal combustion engine. It is defined as a percentage: a fuel with octane number 95 has the same resistance to knocking as a mixture of 95% 2,2,4-trimethylpentane and 5% heptane.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(ii)",
-        "question": "The two hydrocarbons used as references when establishing the octane number of a fuel are heptane and 2,2,4-trimethylpentane. Draw the structure of each of these molecules.",
-        "marks": 6,
-        "model": "Heptane: CH₃-CH₂-CH₂-CH₂-CH₂-CH₂-CH₃ (straight-chain structure, seven carbons)\n\n2,2,4-trimethylpentane: A five-carbon main chain with methyl branches at positions 2, 2, and 4:\n        CH₃\n         |\nCH₃-C-CH₂-CH-CH₃\n         |        |\n        CH₃     CH₃",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
         "label": "(a)(iii)",
         "question": "Crude oil is separated into a number of fractions in oil refining. Name the two fractions which contain molecules with the carbon chain lengths needed for petrol.",
         "marks": 6,
         "model": "Naphtha and straight-run gasoline (or light distillate). Naphtha contains hydrocarbons in the C₅–C₁₁ range, while straight-run gasoline contains those in the C₆–C₁₀ range. Both fractions provide molecules with the carbon chain lengths (approximately 5–10 carbons) required for petrol.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(iv)",
-        "question": "Dehydrocyclisation is one of the processes used to increase the octane numbers of hydrocarbons. What two changes to the hydrocarbon molecules occur during this process?",
-        "marks": 6,
-        "model": "During dehydrocyclisation, two changes occur: (1) the hydrocarbon chain undergoes cyclisation, converting a straight or branched alkane into a cycloalkane, and (2) dehydrogenation occurs, introducing carbon–carbon double bonds to form an aromatic or unsaturated cyclic compound. These changes increase the octane number by producing more compact, branched, and aromatic structures.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(v)",
-        "question": "Ethanol is an example of an oxygenate. Give another example of an oxygenate.\nGive two reasons why oxygenates are added to petrol.",
-        "marks": 9,
-        "model": "Example: methyl tert-butyl ether (MTBE) / ethyl tert-butyl ether (ETBE) / methanol / propanol.\n\nReasons oxygenates are added: (1) They increase the oxygen content of petrol, promoting more complete combustion and reducing harmful emissions of carbon monoxide and unburned hydrocarbons. (2) They increase the octane number, improving engine performance and reducing knocking.",
         "diagram": "",
         "model_source": "ai-h1"
       },
@@ -39049,22 +35576,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "source": "LC Chemistry Higher 2008 — Q10",
     "year": 2008,
     "parts": [
-      {
-        "label": "(a)(i)",
-        "question": "Describe how the student could determine by filtration the total suspended solids (expressed as ppm) in the water.",
-        "marks": 9,
-        "model": "Measure a known volume (e.g. 100 cm³) of water sample using a graduated cylinder. Weigh a piece of filter paper to constant mass. Pour the water through the filter paper into a funnel/Büchner funnel, allowing all liquid to pass through. Rinse the residue on the filter paper with deionised water. Dry the filter paper containing residue at 110°C to constant mass (until successive weighings differ by ≤0.5 mg). Calculate mass of suspended solids = final mass − initial filter paper mass. Convert to ppm: (mass in mg / volume in cm³) × 1000.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(a)(ii)",
-        "question": "How could the student determine the total dissolved solids (expressed as ppm) in a sample of the filtered seawater?",
-        "marks": 9,
-        "model": "Evaporate a known volume (e.g. 100 cm³) of the filtered seawater to dryness in a weighed evaporating basin on a heating mat or hot plate. Cool in a desiccator to room temperature and weigh. Repeat heating, cooling and weighing until constant mass is achieved. The mass of dissolved solids = final mass − initial basin mass. Convert to ppm: (mass in mg / volume in cm³) × 1000.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
       {
         "label": "(a)(iii)",
         "question": "Describe a test to confirm the presence of the chloride ion in aqueous solution.",
@@ -39224,30 +35735,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "question": "Acidic oxides can be removed from waste gases by scrubbers in chimneys before the gases are released into the atmosphere. Name a reagent used in scrubbers to remove acidic oxides.",
         "marks": 3,
         "model": "Calcium hydroxide (Ca(OH)₂) or calcium carbonate (CaCO₃) or sodium hydroxide (NaOH). These basic substances neutralise acidic oxides like SO₂ and NO₂ in scrubbers before release to atmosphere.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)(B)(i)",
-        "question": "Name the ore from which aluminium is extracted. What substance is used to convert this ore into a soluble aluminium compound in the first stage of the extraction?",
-        "marks": 7,
-        "model": "Ore: bauxite (aluminium oxide ore / Al₂O₃). Substance used: sodium hydroxide (NaOH) solution. Bauxite is treated with concentrated NaOH, which dissolves the aluminium oxide as soluble sodium aluminate (NaAlO₂), separating it from insoluble impurities.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)(B)(ii)",
-        "question": "Write balanced equations for the reactions taking place at the positive and negative electrodes in the electrolysis of alumina.",
-        "marks": 12,
-        "model": "Negative electrode (cathode): Al³⁺ + 3e⁻ → Al. Positive electrode (anode): 2O²⁻ − 4e⁻ → O₂. Overall cell reaction: 2Al₂O₃ → 4Al + 3O₂ (electricity). Molten alumina (Al₂O₃) is electrolysed; Al³⁺ ions are reduced at the cathode to molten aluminium metal, while O²⁻ ions are oxidised at the anode to oxygen gas.",
-        "diagram": "",
-        "model_source": "ai-h1"
-      },
-      {
-        "label": "(c)(B)(iii)",
-        "question": "What is the function of cryolite (Na₃AlF₆) in the electrolysis of alumina?",
-        "marks": 3,
-        "model": "Cryolite (Na₃AlF₆) lowers the melting point of alumina from ~2050°C to ~950°C, reducing energy costs. It dissolves alumina to form a conductive molten electrolyte, enabling safe and economic electrolysis.",
         "diagram": "",
         "model_source": "ai-h1"
       },

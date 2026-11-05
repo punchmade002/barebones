@@ -1,0 +1,89 @@
+{
+  "loId": "bio12-s1",
+  "chapterId": "bio12",
+  "subsection": "Variation",
+  "syllabusRef": "1.5.1",
+  "notes": [
+    {
+      "h": "What variation is",
+      "points": [
+        "Variation is the differences between individuals of the same species, such as in height, eye colour, blood group or resistance to a disease.",
+        "Genetic (inherited) variation is caused by differences in alleles and genes, and can be passed to offspring.",
+        "Environmental (acquired) variation is caused by the conditions an organism lives in, e.g. a scar, a suntan, muscles built by exercise, or a plant's size in poor soil. It is not passed on through the DNA.",
+        "Most characteristics depend on both: phenotype = genotype + environment (see Key concepts of information transfer).",
+        "Only genetic variation matters for evolution, because only it can be inherited and acted on by natural selection (see The theory of evolution by natural selection).",
+        "Discontinuous variation: individuals fall into a few distinct groups with no in-between forms, e.g. the human ABO blood group, round or wrinkled pea seeds, or albinism. It is usually controlled by one or a few genes, with little effect from the environment, and is shown in a bar chart.",
+        "Continuous variation: individuals show a smooth range between two extremes, e.g. human height, mass, skin colour or leaf length. It is usually controlled by many genes together with the environment. Most individuals are near the middle, giving a bell-shaped (normal) distribution shown in a histogram.",
+        "Diagram: a bar chart of the four ABO blood groups (discontinuous) beside a bell-shaped histogram of height in a class (continuous); label the axes blood group or height class, and number of people."
+      ]
+    },
+    {
+      "h": "Variation from sexual reproduction",
+      "points": [
+        "Sexual reproduction does not create new alleles. It produces new combinations of existing alleles in every generation, so every offspring (except identical twins) is genetically unique.",
+        "Independent assortment: which chromosome of each homologous pair enters a gamete is random and independent of the other pairs, so one person can make 2²³, about 8.4 million, different combinations of chromosomes in their gametes. The division itself is explained in Mitosis and meiosis, and Mendel's law of independent assortment in Mendel's Laws.",
+        "Random fertilisation: any one of the father's millions of sperm types can fertilise any one of the mother's egg types, so two parents can produce about 8.4 million × 8.4 million, about 70 trillion (7 × 10¹³), different combinations of chromosomes, before other sources of variation are counted.",
+        "Two parents: each offspring combines alleles from two different individuals, so alleles that arose in different family lines come together. The choice of mate also varies.",
+        "Asexual reproduction has one parent and no gametes. Cells divide by mitosis (bacteria divide by binary fission), so offspring are genetically identical clones, e.g. bacteria, potato tubers and strawberry runners. Their only source of genetic variation is mutation.",
+        "A population of clones may all be destroyed by the same disease or change in the environment. The potatoes grown in Ireland before the Great Famine were mostly a single variety, the Lumper, propagated from tubers, so the plants were almost genetically identical. When potato blight, caused by Phytophthora infestans, arrived in 1845, none was resistant and the crop failed across the country.",
+        "Diagram: two homologous pairs (one long, one short, coloured to show the chromosome from the mother and the one from the father) in a cell, the two possible ways they can line up before separating, and the four resulting kinds of gamete; label homologous pair, gamete, maternal chromosome and paternal chromosome."
+      ]
+    },
+    {
+      "h": "Variation from mutation",
+      "b": "Mutation is the only source of new alleles, so it is the original source of all genetic variation.",
+      "points": [
+        "A mutation is a change in the DNA: in the base sequence of a gene, or in the structure or number of chromosomes.",
+        "Mutations happen spontaneously, mainly as rare copying errors when DNA is replicated.",
+        "Mutagens such as ionising radiation (X-rays, gamma rays), ultraviolet light and certain chemicals, e.g. some in tobacco smoke, increase the rate of mutation. Mutations are random: mutagens change the rate but not the direction.",
+        "Gene (point) mutation: a change in the base sequence of one gene, e.g. one base replaced by another, or a base added or lost. It creates a new allele of that gene. Example: sickle-cell anaemia is caused by a change of a single base in a gene for haemoglobin.",
+        "Chromosome mutation: a change in the structure of a chromosome, such as a section lost (deletion), copied (duplication), turned around (inversion) or moved to another chromosome (translocation). It affects many genes at once.",
+        "Changes in chromosome number also cause variation. Down syndrome is caused by an extra copy of chromosome 21 (47 chromosomes in total). In plants, whole extra sets of chromosomes (polyploidy) are common; bread wheat has six sets.",
+        "Most mutations are neutral (no effect, e.g. in non-coding DNA, or a change that gives the same amino acid) or harmful; a few are beneficial in a particular environment. Chromosome mutations are usually harmful in animals, but polyploidy is often tolerated in plants, and many crop plants are polyploid.",
+        "Beneficial example, lactase persistence: most mammals stop making lactase, the enzyme that digests milk sugar, after weaning. A mutation in the DNA controlling the lactase gene keeps it switched on in adults.",
+        "The lactase mutation became common in populations with a long history of dairy farming, such as northern Europe including Ireland, because adults who could digest milk had an advantage.",
+        "Only mutations in cells that make gametes (or in a gamete) are inherited. A somatic mutation, e.g. a skin cell damaged by ultraviolet light, affects only the cells descended from it and may cause cancer, but is not passed to offspring.",
+        "Each gene mutates rarely, but there are many genes and many individuals, so new mutations arise in every generation. Organisms that reproduce very fast, such as bacteria, accumulate mutations quickly (antibiotic resistance is in Evidence for evolution)."
+      ]
+    },
+    {
+      "h": "Sexual reproduction and mutation compared",
+      "points": [
+        "What it does: sexual reproduction shuffles existing alleles into new combinations; mutation creates new alleles or new chromosome arrangements.",
+        "How often: sexual reproduction happens in every generation, in every offspring; mutation happens rarely and at random.",
+        "Effect on the individual: sexual reproduction makes every offspring different, but each allele in the new combination was already present and working in a parent; most mutations are neutral or harmful, and a few are beneficial.",
+        "Organisms: sexual reproduction occurs only in sexually reproducing organisms; mutation occurs in all organisms, including those that reproduce asexually.",
+        "Together, mutation supplies new alleles and sexual reproduction spreads them into new combinations, giving the variation on which natural selection acts."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Variation", "definition": "The differences between individuals of the same species." },
+    { "term": "Genetic variation", "definition": "Variation caused by differences in alleles and genes, which can be passed to offspring." },
+    { "term": "Environmental variation", "definition": "Variation caused by the conditions an organism lives in, which is not inherited." },
+    { "term": "Discontinuous variation", "definition": "Variation where individuals fall into a few distinct groups with no intermediate forms." },
+    { "term": "Continuous variation", "definition": "Variation where individuals show a smooth range between two extremes, usually controlled by many genes and the environment." },
+    { "term": "Independent assortment", "definition": "The random, independent sorting of each homologous pair of chromosomes into gametes, which creates variation." },
+    { "term": "Clone", "definition": "A genetically identical offspring produced without fertilisation, e.g. by mitosis or binary fission." },
+    { "term": "Mutation", "definition": "A change in the base sequence of a gene or in the structure or number of chromosomes." },
+    { "term": "Mutagen", "definition": "An agent, such as ionising radiation, ultraviolet light or certain chemicals, that increases the rate of mutation." },
+    { "term": "Somatic mutation", "definition": "A mutation in a body cell, which affects only that cell's descendants and is not passed to offspring." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two ways in which sexual reproduction produces variation, and explain why offspring produced asexually show little variation.",
+      "model": "Two ways: first, independent assortment of homologous chromosomes in meiosis, so each gamete receives a random mix of maternal and paternal chromosomes (about 8.4 million combinations per person); second, random fertilisation, since any sperm can fuse with any egg, giving about 70 trillion combinations from two parents. Asexual reproduction produces offspring by mitosis (or binary fission) with one parent and no gametes, so the offspring are clones that are genetically identical to the parent. There is no reshuffling of alleles, so the only new variation comes from rare mutation."
+    },
+    {
+      "marks": 9,
+      "prompt": "Define mutation. Distinguish between a gene mutation and a chromosome mutation, giving one example of each.",
+      "model": "A mutation is a change in the DNA: in the base sequence of a gene, or in the structure or number of chromosomes. A gene mutation changes the base sequence of one gene, e.g. one base is replaced by another, creating a new allele; sickle-cell anaemia is caused by a change of a single base in a gene for haemoglobin. A chromosome mutation affects many genes at once, either by changing the structure of a chromosome (a section is lost by deletion, copied by duplication, turned around by inversion or moved to another chromosome by translocation) or by changing the number of chromosomes; Down syndrome, with an extra copy of chromosome 21 and 47 chromosomes in total, is an example of a change in number."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how mutation and sexual reproduction together provide the variation needed for evolution.",
+      "model": "Mutation is the only source of new alleles, so it is the original source of all genetic variation; it is random, rare, and occurs in gametes or in cells that make gametes, because only mutations in gametes are inherited. Most mutations are neutral or harmful, but a few are beneficial in a particular environment, as with the lactase mutation that allows adults to digest milk in populations with a history of dairy farming. Sexual reproduction then shuffles the existing alleles into new combinations: independent assortment in meiosis and random fertilisation mean that every offspring is genetically unique. The result is a population with a range of inherited differences, and only inherited variation can be acted on by natural selection, which is how evolution occurs."
+    }
+  ]
+}

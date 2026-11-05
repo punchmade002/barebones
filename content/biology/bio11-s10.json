@@ -1,0 +1,90 @@
+{
+  "loId": "bio11-s10",
+  "chapterId": "bio11",
+  "subsection": "Sex determination",
+  "syllabusRef": "1.4.9",
+  "notes": [
+    {
+      "h": "Human chromosomes",
+      "points": [
+        "The numbers are taught in “Chromosome structure and genes”: 46 chromosomes in 23 pairs, 22 pairs of autosomes (the same in both sexes) and one pair of sex chromosomes, which decide the person's sex.",
+        "Females have two X chromosomes (XX); males have one X and one Y (XY).",
+        "The X is a large chromosome carrying roughly 800–900 protein-coding genes.",
+        "The Y is much smaller and carries well under 100 genes, most of them concerned with male development and sperm production.",
+        "A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY.",
+        "Diagram: a simplified karyotype of 22 numbered autosome pairs plus the sex-chromosome pair, with a female (XX) and a male (XY) version of pair 23, the Y drawn clearly smaller than the X."
+      ]
+    },
+    {
+      "h": "Gametes and the cross",
+      "points": [
+        "Gametes are haploid, with 23 chromosomes: 22 autosomes and one sex chromosome.",
+        "All of a woman's eggs carry an X (23,X).",
+        "A man's sperm carry either an X (23,X) or a Y (23,Y), in equal numbers, because the X and Y separate into different cells in meiosis.",
+        "Parents' phenotypes: female × male.",
+        "Parents' genotypes: XX × XY.",
+        "Gametes: X × X, Y.",
+        "Punnett square: XX, XX / XY, XY (or 2 × 1: XX, XY).",
+        "Offspring genotypes: 1 XX : 1 XY.",
+        "Offspring phenotypes: 1 female : 1 male (50% each).",
+        "Diagram: the Punnett square of this cross, with the mother's egg (X) on one side and the father's sperm (X and Y) on the other, each box labelled with genotype and sex."
+      ]
+    },
+    {
+      "h": "What decides the sex of a child",
+      "points": [
+        "The sex of a child is decided at fertilisation by the sperm: an X-carrying sperm gives a girl (XX); a Y-carrying sperm gives a boy (XY).",
+        "So the father's gamete decides the sex; the mother always gives an X.",
+        "Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children.",
+        "Across a large population the sex ratio is close to 1 : 1.",
+        "A boy receives his X from his mother and his Y from his father; a girl receives one X from each parent.",
+        "This is why X-linked traits pass from mother to son; see “Sex-linked traits”."
+      ]
+    },
+    {
+      "h": "How the Y chromosome causes maleness",
+      "points": [
+        "The Y chromosome carries the SRY gene (sex-determining region of the Y).",
+        "In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads into testes.",
+        "The testes then make testosterone, which brings about the development of the male reproductive system.",
+        "In an XX embryo, with no Y and so no SRY, the gonads develop into ovaries and the female reproductive system develops.",
+        "So it is the presence of a Y (SRY), not the number of X chromosomes, that makes the embryo male."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Sex chromosomes",
+      "definition": "The pair of chromosomes that decide a person's sex: XX in females and XY in males."
+    },
+    {
+      "term": "Autosome",
+      "definition": "A chromosome that is not a sex chromosome; humans have 22 pairs."
+    },
+    {
+      "term": "Karyotype",
+      "definition": "A photograph or diagram of a cell's chromosomes arranged in their pairs by size."
+    },
+    {
+      "term": "SRY gene",
+      "definition": "The sex-determining region of the Y chromosome, which switches on testis development in an XY embryo."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the sex chromosomes found in a human male and female, and the sex chromosomes found in their gametes.",
+      "model": "A human male has sex chromosomes XY and a human female has XX. A male's sperm carry either an X or a Y (23,X or 23,Y), in equal numbers. A female's eggs all carry an X (23,X)."
+    },
+    {
+      "marks": 9,
+      "prompt": "Using a genetic cross, show how sex is inherited in humans and explain why the chance of having a daughter is 50%.",
+      "model": "Parents' phenotypes: female × male. Parents' genotypes: XX × XY. Gametes: X × X, Y. Punnett square: XX, XX / XY, XY (or 2 × 1: XX, XY). Offspring genotypes: 1 XX : 1 XY. Offspring phenotypes: 1 female : 1 male (50% each). Explanation: all eggs carry X, and half the sperm carry X and half carry Y, because the X and Y separate into different cells in meiosis. The sperm that fertilises the egg decides the sex, and each fertilisation is independent, so each pregnancy has a 1 in 2 chance of a daughter."
+    },
+    {
+      "marks": 6,
+      "prompt": "A couple have three sons. Explain whether their next child is more likely to be a daughter.",
+      "model": "No. Each fertilisation is independent, so the chance of a daughter stays at 1 in 2 (50%), whatever the sex of earlier children. The sex depends on which sperm fertilises the egg: an X-carrying sperm gives a girl and a Y-carrying sperm gives a boy."
+    }
+  ]
+}

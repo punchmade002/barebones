@@ -1,0 +1,70 @@
+{
+  "loId": "ch10-s1",
+  "chapterId": "ch10",
+  "subsection": "1. The operational model: key partners, activities and resources",
+  "syllabusRef": "2.5.1",
+  "notes": [
+    { "h": "The operational model", "b": "The operational model sets out how a business creates and delivers its product or service: the resources it uses, the work it does and the outside organisations it relies on. On the business model canvas these correspond to the key resources, key activities and key partnerships blocks, which connect to the cost structure.", "points": [
+      "Key resources are the assets a business must have in order to operate, and they fall into four types.",
+      "Physical resources are tangible assets such as buildings, vehicles, machinery and stock.",
+      "Human resources are the skills, experience and effort of employees and owners.",
+      "Intellectual resources are non-physical assets such as patents, trademarks, brand names, software and know-how.",
+      "Financial resources are the cash, credit and investment available to fund operations."
+    ] },
+    { "h": "Key activities", "b": "Key activities are the core work a business performs to deliver value to its customers.", "points": [
+      "Production activities make or assemble the product, such as baking bread or assembling furniture in a factory.",
+      "Problem-solving activities deal with individual customer needs, such as a consultancy designing a bespoke solution for one client.",
+      "Platform or network activities maintain a system that others use, such as an online marketplace that matches buyers and sellers.",
+      "A business can have more than one key activity, such as a software firm that combines platform maintenance with customer support."
+    ] },
+    { "h": "Key partners", "b": "Key partners are the external organisations a business relies on to operate. The type of relationship decides how much control the business keeps.", "points": [
+      "Suppliers provide raw materials, components or services, and the business depends on them for timely, quality inputs.",
+      "Strategic alliances are cooperative agreements between businesses that remain independent, such as two airlines sharing routes.",
+      "Outsourcing means paying an external firm to perform an activity such as payroll, cleaning or IT support.",
+      "Key partners give a business access to resources or capabilities it does not have in house."
+    ] },
+    { "h": "Production methods", "b": "The production method describes how output is organised, and it shapes the resources and activities a business needs.", "points": [
+      "Job production makes one-off items to a customer's specification, such as a custom yacht or a tailored suit.",
+      "Batch production makes a group of identical items in one run before switching to a different product, such as a bakery running a batch of loaves and then a batch of rolls.",
+      "Mass production makes large volumes of standard items, usually on a continuous line, such as cars or tinned food.",
+      "Job production relies on skilled workers and flexible equipment, while mass production relies on specialised machinery and steady, high demand."
+    ] },
+    { "h": "Why the operational model changes", "b": "The operational model is not fixed. It changes as the business and its environment change.", "points": [
+      "Growth can push a business from job production towards batch or mass production as orders become larger and more predictable.",
+      "New technology, such as automation or cloud software, can replace manual activities and change which resources matter most.",
+      "Cost pressure can lead a business to outsource activities or switch to cheaper suppliers.",
+      "Sustainability goals can lead a business to change suppliers or processes, such as choosing certified materials or cutting packaging waste.",
+      "Supply-chain shocks, such as a shortage of components, can push a business to find a second supplier or hold more stock."
+    ] },
+    { "h": "Evaluating changes to the model", "b": "A change to one part of the operational model usually affects the others and the cost base.", "points": [
+      "Relying on one key partner creates risk, because a failure or price rise by that partner can halt production.",
+      "Outsourcing can cut costs and bring in expertise, but the business has less direct control over quality and timing.",
+      "Investing in new resources such as machinery adds capacity but also adds fixed costs that sales must cover.",
+      "The key resources, key activities and key partners on the canvas work together, so a new partner usually changes activities and costs too."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Operational model", "definition": "The set of resources, activities and partners a business uses to create and deliver its product or service." },
+    { "term": "Key resources", "definition": "The physical, human, intellectual and financial assets a business must have to operate." },
+    { "term": "Key activities", "definition": "The core work a business performs to deliver value, such as production, problem-solving or running a platform." },
+    { "term": "Key partners", "definition": "External organisations, such as suppliers and allies, that a business relies on to operate." },
+    { "term": "Strategic alliance", "definition": "A cooperative agreement between independent businesses to share resources or markets without merging." },
+    { "term": "Outsourcing", "definition": "Paying an external organisation to perform an activity the business would otherwise do itself." },
+    { "term": "Job production", "definition": "Making one-off items to a customer's specification." },
+    { "term": "Batch production", "definition": "Making a group of identical items in one run before changing to a different product." },
+    { "term": "Mass production", "definition": "Making large volumes of standard items, usually on a continuous line." }
+  ],
+  "factCards": [
+    { "term": "Types of key resource", "definition": "Physical, human, intellectual and financial." },
+    { "term": "Three types of key activity", "definition": "Production, problem-solving and platform or network." },
+    { "term": "Reasons an operational model changes", "definition": "Growth, new technology, cost pressure, sustainability goals and supply-chain shocks." },
+    { "term": "Benefit of paying an outside firm for a task", "definition": "It gives access to specialist skills and can turn some fixed costs into variable payments." },
+    { "term": "Risk of relying on a single supplier", "definition": "Supply disruption and loss of bargaining power if the supplier fails or raises prices." },
+    { "term": "Example of one-off custom making", "definition": "A custom-built yacht or a bespoke suit." },
+    { "term": "Example of an assembly line", "definition": "Cars or tinned food made in volume on a continuous line." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Describe the operational model of a small Irish business that makes artisan jam and sells through local shops and its own website. Explain why this model may change as the business grows.", "model": "Key resources: physical resources such as a kitchen, jars and a delivery van; human resources in the owner and two part-time staff; intellectual resources in the recipes and brand name; financial resources in savings and a small bank overdraft. Key activities: batch production of jam in the kitchen, which is a production activity, and running the website, which is a platform activity. Key partners: a fruit grower, a glass-jar supplier and a courier. As the business grows, orders become larger and more predictable, so it may move to bigger production runs and invest in equipment. If the fruit grower cannot supply enough, the business will need a second supplier, which changes its key partners. Outsourcing deliveries to a courier would free staff time for production, so the activities mix would shift as well." },
+    { "marks": 10, "prompt": "Define key partners and outline two types of key partnership, giving an example of each.", "model": "Key partners are the external organisations a business relies on to operate. A supplier relationship is one type: a bakery that buys flour from a mill depends on that mill for an essential input. A strategic alliance is a second type: two independent firms agree to share a distribution network in a foreign market while each remains a separate business." }
+  ]
+}

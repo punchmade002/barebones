@@ -1,0 +1,114 @@
+{
+  "loId": "bio13-s1",
+  "chapterId": "bio13",
+  "subsection": "Enzymes as catalysts",
+  "syllabusRef": "2.1.1",
+  "notes": [
+    {
+      "h": "Catalysts and enzymes",
+      "points": [
+        "A catalyst is a substance that speeds up a chemical reaction without being used up or permanently changed by it, so it can be used again and again.",
+        "A catalyst does not change which products form or how much product is made in the end; it only makes the reaction reach that point faster.",
+        "An enzyme is a biological catalyst: a catalyst made by a living cell.",
+        "Almost all enzymes are globular proteins, folded into a precise three-dimensional shape (protein structure is covered in “Structures of biomolecules”).",
+        "Because enzymes are proteins, they are made at ribosomes, following the instructions in a gene.",
+        "Enzymes are needed only in small amounts, because each molecule is reused many times; catalase, among the fastest, breaks down millions of hydrogen peroxide molecules per second.",
+        "Enzymes are unchanged at the end of the reaction.",
+        "Enzymes are specific, each acting on one reaction or one type of reaction (see the block on specificity below).",
+        "Enzyme activity is affected by temperature and pH, and enzymes are denatured by heat and by extremes of pH (detail in “Investigation: rate of enzyme activity”).",
+        "Most enzyme names end in -ase, and many are named after their substrate: maltase acts on maltose, lipase on lipids, protease on proteins, sucrase on sucrose.",
+        "Some older names, such as pepsin and trypsin, don't follow this rule.",
+        "Most enzymes work inside the cell that made them (intracellular), e.g. the enzymes of respiration in the cytoplasm and mitochondria and of photosynthesis in chloroplasts.",
+        "Some enzymes are secreted to work outside the cell (extracellular), e.g. digestive enzymes released into the gut (detail in “The Digestive System”) and the enzymes that fungi and bacteria release onto their food."
+      ]
+    },
+    {
+      "h": "How enzymes speed up reactions: activation energy",
+      "points": [
+        "Activation energy is the minimum energy that reacting molecules need before a reaction can start: the energy needed to break or strain existing bonds.",
+        "Activation energy is an energy hill that must be climbed even when the reaction releases energy overall.",
+        "Without a catalyst, most reactions of metabolism have such a high activation energy that, at body temperature (37 °C), they would happen far too slowly to keep a cell alive.",
+        "Heating would supply the energy, but high temperatures would damage cells and their proteins.",
+        "An enzyme provides an alternative route for the reaction with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster.",
+        "The overall energy change of the reaction (energy released or taken in) stays the same.",
+        "Diagram: an energy-profile graph with energy on the y-axis and progress of reaction on the x-axis; reactants at a higher level on the left and products lower on the right; two humps, a tall one labelled without enzyme and a lower one labelled with enzyme, with the activation energy of each marked by a vertical arrow from the reactants to the top of its hump."
+      ]
+    },
+    {
+      "h": "How enzymes work: active site and enzyme–substrate complex",
+      "points": [
+        "The substrate is the molecule an enzyme acts on; the products are the molecules made.",
+        "Example: catalase acts on its substrate hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂.",
+        "The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place.",
+        "The active site's shape, and the chemical charges in it, are complementary to the substrate: the two fit together.",
+        "Step 1: the substrate collides with the enzyme and binds to the active site, forming an enzyme–substrate complex.",
+        "Enzyme and substrate molecules meet by random movement, so anything that increases collisions (more substrate, more enzyme, higher temperature) increases the rate, up to a point.",
+        "Step 2: while the substrate is held in the active site, the enzyme lowers the activation energy, for example by straining the bonds that must break, or by holding two substrate molecules close together in the right position to react.",
+        "The substrate is then converted to products, forming an enzyme–product complex.",
+        "Step 3: the products have a different shape, no longer fit, and are released.",
+        "The active site is then free and unchanged, ready to bind another substrate molecule.",
+        "Summary: enzyme + substrate → enzyme–substrate complex → enzyme + products.",
+        "The same mechanism works for catabolic reactions, where one substrate is split into smaller products (e.g. amylase splits starch into maltose).",
+        "It also works for anabolic reactions, where two or more substrates are joined into a larger product (e.g. DNA polymerase joins nucleotides into a new DNA strand when DNA is copied; ATP synthase joins ADP and phosphate into ATP).",
+        "Diagram: three stages in a row: an enzyme with a labelled active site and a substrate of complementary shape approaching; the enzyme–substrate complex; the enzyme unchanged, with two products leaving. Label enzyme, active site, substrate, enzyme–substrate complex and products. A matching diagram for a joining reaction is optional."
+      ]
+    },
+    {
+      "h": "Enzymes as selective catalysts: specificity",
+      "points": [
+        "Specificity means that each enzyme catalyses only one reaction, or one type of reaction, because only a substrate with the complementary shape fits its active site.",
+        "This is what “selective catalysts” means: amylase digests starch but not protein or fat; pepsin digests protein but not starch.",
+        "The lock-and-key model is the simplest explanation: the substrate (the key) fits only the active site (the lock) of the right shape.",
+        "The lock-and-key model was later refined to the induced-fit model, in which the active site changes shape slightly as the substrate binds (the history of the two models is in “Models”; the Higher Level detail is in “Enzyme structure and specificity”).",
+        "Because enzymes are specific, a cell needs thousands of different enzymes, one for each of its reactions, and it can control a reaction by making, or not making, the one enzyme that catalyses it.",
+        "Anything that changes the shape of the active site stops the substrate fitting, so the enzyme stops working: high temperature or extreme pH (denaturation, see “Investigation: rate of enzyme activity”).",
+        "A change in the enzyme's amino-acid sequence, caused by a mutation in its gene, also changes the active site and stops the substrate fitting."
+      ]
+    },
+    {
+      "h": "The importance of enzymes in metabolism",
+      "points": [
+        "Every reaction of metabolism is catalysed by its own specific enzyme.",
+        "Without enzymes, the reactions that keep cells alive (respiration, photosynthesis, protein synthesis, DNA copying, digestion) would be far too slow at the temperatures and pH inside living things.",
+        "Most processes are metabolic pathways: a sequence of reactions, each catalysed by a different enzyme, in which the product of one reaction is the substrate of the next.",
+        "Respiration and photosynthesis are such pathways (detail in “Respiration” and “Photosynthesis”).",
+        "Diagram: a pathway written as A → B → C → D, with enzyme 1, enzyme 2 and enzyme 3 written over the arrows.",
+        "Because each step needs its own enzyme, a cell controls which reactions happen, and how fast, by switching on or off the genes for particular enzymes and by activating or inhibiting enzymes already made.",
+        "If one enzyme in a pathway is missing, the pathway stops at that step: its substrate builds up and the later products are not made.",
+        "Many enzymes need a non-protein helper: a mineral ion (e.g. magnesium for many enzymes that use ATP; see “Minerals”) or a coenzyme made from a vitamin.",
+        "Some drugs and poisons work by blocking an enzyme: e.g. some insecticides and nerve agents inhibit the enzyme that breaks down a neurotransmitter (detail in “Conduction across the synaptic cleft and its disruption”).",
+        "Lactose intolerance: many adults make little lactase, the enzyme that digests lactose (milk sugar), so undigested lactose passes to the large intestine, where bacteria ferment it, causing bloating, wind, cramps and diarrhoea.",
+        "Lactose-free milk is made using lactase (see “Industrial enzymes”).",
+        "Phenylketonuria (PKU): an inherited lack of the enzyme that converts the amino acid phenylalanine into another amino acid (tyrosine), so phenylalanine builds up in the blood and damages the developing brain.",
+        "PKU is detected by the heel-prick test given to newborn babies in Ireland, and is controlled by a diet low in phenylalanine."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Catalyst", "definition": "A substance that speeds up a chemical reaction without being used up or permanently changed by it." },
+    { "term": "Enzyme", "definition": "A biological catalyst, made by a living cell, that is almost always a globular protein." },
+    { "term": "Activation energy", "definition": "The minimum energy that reacting molecules need before a reaction can start." },
+    { "term": "Substrate", "definition": "The molecule that an enzyme acts on." },
+    { "term": "Active site", "definition": "The small region of an enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place." },
+    { "term": "Enzyme–substrate complex", "definition": "The temporary structure formed when a substrate binds to the active site of an enzyme." },
+    { "term": "Specificity", "definition": "The property by which an enzyme catalyses only one reaction, or one type of reaction, because only a complementary substrate fits its active site." },
+    { "term": "Lock-and-key model", "definition": "The model in which a substrate of exactly the right shape fits a rigid active site, like a key in a lock." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is an enzyme? Explain what is meant by the active site of an enzyme.",
+      "model": "An enzyme is a biological catalyst: a catalyst made by a living cell. Almost all enzymes are globular proteins folded into a precise three-dimensional shape. The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place. Its shape and charges are complementary to the substrate, so the two fit together."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how an enzyme speeds up a biochemical reaction. Refer to activation energy and the enzyme–substrate complex in your answer.",
+      "model": "Activation energy is the minimum energy that reacting molecules need before a reaction can start. An enzyme provides an alternative route with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster. The substrate binds to the active site, forming an enzyme–substrate complex. While it is bound, the enzyme lowers the activation energy, for example by straining the bonds that must break or by holding two substrate molecules close together in the right position. The substrate is converted to products, which have a different shape, no longer fit the active site and are released. The enzyme is unchanged and free to bind another substrate molecule. The enzyme does not supply energy to the reaction, and the overall energy change of the reaction stays the same."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain why enzymes are described as selective catalysts and why they are essential to metabolism. Include a labelled diagram.",
+      "model": "Enzymes are selective because each enzyme catalyses only one reaction, or one type of reaction: only a substrate with the complementary shape fits its active site. So amylase digests starch but not protein or fat, and pepsin digests protein but not starch. A cell therefore needs thousands of different enzymes, one for each of its reactions, and it controls a reaction by making, or not making, the enzyme that catalyses it. Enzymes are essential to metabolism because every metabolic reaction is catalysed by its own specific enzyme. Without them, respiration, photosynthesis, protein synthesis, DNA copying and digestion would be far too slow at the temperatures and pH inside living things. Most processes are pathways in which the product of each reaction is the substrate of the next, each step needing its own enzyme. If one enzyme is missing, the pathway stops at that step, as in phenylketonuria, where phenylalanine builds up. A labelled diagram would show the enzyme with its labelled active site, the substrate, the enzyme–substrate complex and the products."
+    }
+  ]
+}

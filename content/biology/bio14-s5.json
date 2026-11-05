@@ -1,0 +1,76 @@
+{
+  "loId": "bio14-s5",
+  "chapterId": "bio14",
+  "subsection": "The chloroplast's internal structure",
+  "syllabusRef": "2.2.5",
+  "notes": [
+    {
+      "h": "Internal structure of the chloroplast (Higher Level only)",
+      "points": [
+        "Envelope: two membranes, an outer and an inner, surround the chloroplast. The inner membrane controls which substances enter and leave, such as CO₂ going in and the products of photosynthesis going out, and keeps the stroma's enzymes and conditions separate from the cytoplasm.",
+        "Thylakoids are flattened membrane sacs inside the chloroplast, separate from the envelope. Each encloses a fluid-filled space called the thylakoid space, or lumen.",
+        "Thylakoids are stacked like piles of coins into grana (singular: granum). Grana are joined by single, unstacked thylakoid membranes called intergranal lamellae, so the whole system is one connected network of membranes.",
+        "The thylakoid membranes hold the pigments in their clusters and reaction centres, the electron transport chains and the enzyme ATP synthase. They are the site of the light-dependent reactions.",
+        "Stroma: the fluid around the thylakoids, containing the enzymes of the light-independent reactions, so it is the site of those reactions. It also contains starch grains, which are a temporary store of glucose, lipid droplets, ribosomes and a small loop of DNA.",
+        "The chloroplast makes some of its own proteins, including some of the proteins of the thylakoid membrane and of the light-independent reactions, using its own DNA and ribosomes. How this DNA is inherited is explained in Nuclear and non-nuclear inheritance.",
+        "Diagram: an electron-microscope-level drawing of a chloroplast in section, labelled outer membrane, inner membrane, stroma, granum, thylakoid, thylakoid space, intergranal lamella, starch grain, ribosomes and DNA. This extends the simpler chloroplast diagram in Structures and organelles of animal and plant cells."
+      ]
+    },
+    {
+      "h": "The electron transport chain in the thylakoid membrane (Higher Level only)",
+      "points": [
+        "An electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level, releasing energy in small steps that can be used.",
+        "In the thylakoid membrane, the chain is made of a number of large protein complexes embedded in (spanning) the membrane, linked by smaller mobile electron carriers that move within or along the membrane and carry electrons from one complex to the next.",
+        "Some protein complexes contain the clusters of pigment molecules and the reaction-centre chlorophyll; others pass electrons on and use their energy.",
+        "NADP⁺ is reduced to NADPH on the stroma side of the membrane, right where the light-independent reactions use it.",
+        "Embedding the complexes in a membrane holds them in a fixed order and close together, so electrons pass quickly and in the right sequence. The energy released can be used to move protons across the membrane, as described in the block on the thylakoid proton gradient below."
+      ]
+    },
+    {
+      "h": "The thylakoid proton gradient (Higher Level only)",
+      "points": [
+        "As electrons pass along the chain, protons (H⁺) are moved from the stroma into the thylakoid space; protons released by the photolysis of water are also released there. The small, enclosed thylakoid space therefore builds up a high concentration of protons.",
+        "The protons flow back out of the thylakoid space into the stroma through ATP synthase in the thylakoid membrane, and the enzyme uses this flow to make ATP from ADP and Pi on the stroma side, where the light-independent reactions need it. The same mechanism makes ATP in mitochondria, explained in The mitochondrion's internal structure and ATP synthase."
+      ]
+    },
+    {
+      "h": "How the internal structure facilitates photosynthesis (Higher Level only)",
+      "points": [
+        "Large surface area: the many stacked thylakoids give a huge area of membrane for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH can be made.",
+        "Organisation of pigments: grouping many pigment molecules around each reaction centre funnels the energy of photons absorbed over a wide area, and over a range of colours, to the reaction centres.",
+        "Separate compartments: the thylakoid space is a small, enclosed compartment, so protons can be concentrated in it to drive ATP synthase. The thylakoid membrane is not freely permeable to protons, so the gradient is kept.",
+        "Two stages side by side: the light-dependent reactions on the membranes and the light-independent reactions in the stroma are next to each other. ATP and NADPH are released into the stroma directly where they are used, and ADP + Pi and NADP⁺ return a short distance.",
+        "The stroma holds all the enzymes of the light-independent reactions in one compartment, with their substrates, and stores the product temporarily as starch.",
+        "Own DNA and ribosomes let the chloroplast make the membrane and enzyme proteins that its two stages need, on the spot.",
+        "Related: the leaf cells that do most photosynthesis, the palisade mesophyll, are packed with chloroplasts, which can move within the cell towards or away from the light.",
+        "Diagram: a section of a thylakoid membrane, with the stroma above and the thylakoid space below. Show a pigment cluster with its reaction-centre chlorophyll receiving light; electron carriers and protein complexes in the membrane, with an arrow for electron flow; water being split on the thylakoid-space side (H₂O → 2H⁺ + ½O₂ + 2e⁻); H⁺ being moved into the thylakoid space and building up there; NADP⁺ + H⁺ → NADPH on the stroma side; and ATP synthase, with H⁺ flowing out into the stroma and ADP + Pi → ATP. Label protein complex, mobile electron carrier, thylakoid membrane, thylakoid space, stroma and ATP synthase."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Thylakoid space", "definition": "The fluid-filled space enclosed by a thylakoid membrane, where protons build up during the light-dependent reactions." },
+    { "term": "Granum", "definition": "A stack of thylakoids in the chloroplast; grana are joined by intergranal lamellae." },
+    { "term": "Intergranal lamella", "definition": "A single, unstacked thylakoid membrane that joins one granum to another." },
+    { "term": "Electron transport chain", "definition": "A series of electron carriers that pass electrons from one to the next, releasing energy in small steps that can be used." },
+    { "term": "Protein complex", "definition": "A large protein embedded in the thylakoid membrane that forms part of the electron transport chain, some containing pigment clusters and reaction-centre chlorophyll." },
+    { "term": "Mobile electron carrier", "definition": "A small electron carrier that moves within or along the thylakoid membrane, passing electrons between protein complexes." },
+    { "term": "ATP synthase", "definition": "The enzyme in the thylakoid membrane that uses the flow of protons back into the stroma to make ATP from ADP and Pi." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the part of the chloroplast where (i) the light-dependent reactions and (ii) the light-independent reactions take place, and give one way in which each part is suited to its role.",
+      "model": "(i) The light-dependent reactions take place on the thylakoid membranes, which are stacked into grana. The membranes form many thylakoids, which give a large surface area for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH made. (ii) The light-independent reactions take place in the stroma, which holds all the enzymes of these reactions in one compartment, together with their substrates. The stroma is next to the thylakoid membranes, so ATP and NADPH are released directly where they are used."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe the electron transport chain of the thylakoid membrane and explain why it is embedded in a membrane.",
+      "model": "The electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level, releasing energy in small steps. In the thylakoid membrane it is made of large protein complexes embedded in the membrane, linked by smaller mobile electron carriers that carry electrons from one complex to the next. Some protein complexes contain the pigment clusters and reaction-centre chlorophyll, while others pass electrons on and use their energy; NADP⁺ is reduced to NADPH on the stroma side. It is embedded in a membrane because this holds the complexes in a fixed order and close together, so electrons pass quickly and in the right sequence. It also allows the energy released along the chain to move protons from the stroma into the thylakoid space, where they build up a high concentration, creating a gradient that the enzyme ATP synthase uses to make ATP."
+    },
+    {
+      "marks": 12,
+      "prompt": "Draw a labelled diagram of the internal structure of a chloroplast and explain how three features of this structure facilitate photosynthesis.",
+      "model": "The diagram shows a chloroplast in section, surrounded by an outer and an inner membrane forming the envelope. Inside is the stroma, a fluid containing the enzymes of the light-independent reactions, starch grains, ribosomes and a small loop of DNA. Within the stroma are grana, stacks of thylakoids, each thylakoid being a flattened membrane sac enclosing a thylakoid space. Grana are joined by intergranal lamellae, which are single unstacked thylakoid membranes. The diagram labels each of these parts. Three features that facilitate photosynthesis are: first, the stacked thylakoids give a large membrane surface area for pigment clusters, electron transport chains and ATP synthase, so more light is absorbed and more ATP and NADPH are made. Second, grouping many pigment molecules around each reaction centre funnels the energy of absorbed photons, over a wide area and range of colours, to the reaction centres. Third, the small, enclosed thylakoid space and a membrane that is not freely permeable to protons allow protons to be concentrated, so the gradient is kept and ATP synthase can make ATP."
+    }
+  ]
+}

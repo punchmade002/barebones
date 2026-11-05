@@ -1,0 +1,108 @@
+{
+  "loId": "bio19-s3",
+  "chapterId": "bio19",
+  "subsection": "Neurons",
+  "syllabusRef": "2.4.6",
+  "notes": [
+    {
+      "h": "Neurons and their types",
+      "b": "A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses.",
+      "points": [
+        "Neurons are long and thin, so a single cell can connect distant parts of the body.",
+        "Sensory neurons carry impulses from receptors to the CNS.",
+        "Motor neurons carry impulses from the CNS to effectors.",
+        "Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS."
+      ]
+    },
+    {
+      "h": "Cell body, dendrites and axon",
+      "points": [
+        "The cell body contains the nucleus and most of the cytoplasm and organelles, keeping the cell alive.",
+        "The cell body makes the neurotransmitter and the proteins the neuron needs.",
+        "Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.",
+        "Branching lets one neuron receive signals from many others.",
+        "The axon is a long single fibre that carries impulses away from the cell body.",
+        "The axon's length lets impulses reach distant effectors."
+      ]
+    },
+    {
+      "h": "Myelin sheath and Schwann cells",
+      "points": [
+        "The myelin sheath is a fatty insulating layer around many axons.",
+        "It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.",
+        "Schwann cells are cells that wrap around the axon in the PNS, their membrane forming the myelin sheath."
+      ]
+    },
+    {
+      "h": "Axon terminals and neurotransmitter vesicles",
+      "points": [
+        "The axon ends in swollen synaptic knobs, also called axon terminals.",
+        "Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter.",
+        "The neurotransmitter is released to pass the impulse to the next cell; release itself is described in Neurotransmission."
+      ]
+    },
+    {
+      "h": "Motor neurons",
+      "points": [
+        "A motor neuron has its cell body at one end, inside the CNS, with many dendrites.",
+        "It has one long axon, which ends in axon terminals on a muscle or gland.",
+        "Its many dendrites receive input from many interneurons."
+      ]
+    },
+    {
+      "h": "Sensory neurons",
+      "points": [
+        "A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body.",
+        "Its cell body sits to one side of the fibre, in a ganglion outside the CNS.",
+        "A shorter axon carries the impulse on into the CNS.",
+        "The long dendron reaches from a receptor, e.g. in the skin of the foot, to the spinal cord.",
+        "The cell body lies off the main pathway, so it does not slow the impulse."
+      ]
+    },
+    {
+      "h": "Interneurons",
+      "points": [
+        "Interneurons are short, with many branched connections.",
+        "They are found only in the CNS.",
+        "They connect sensory neurons to motor neurons and link many neurons together."
+      ]
+    },
+    {
+      "h": "Drawing a motor and a sensory neuron",
+      "points": [
+        "Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse."
+      ]
+    },
+    {
+      "h": "Multiple sclerosis",
+      "points": [
+        "Multiple sclerosis (MS) is an autoimmune disease in which the body's immune system damages the myelin sheath in the CNS.",
+        "Damaged myelin slows or blocks impulses.",
+        "Symptoms include problems with movement, balance and vision."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Neuron", "definition": "A nerve cell, the basic unit of the nervous system, which carries electrochemical nerve impulses." },
+    { "term": "Dendrite", "definition": "A short, branched extension of a neuron that receives impulses and carries them towards the cell body." },
+    { "term": "Dendron", "definition": "The long fibre of a sensory neuron that carries impulses from the receptor to the cell body." },
+    { "term": "Axon", "definition": "The long single fibre of a neuron that carries impulses away from the cell body." },
+    { "term": "Myelin sheath", "definition": "A fatty insulating layer around many axons that speeds up the impulse." },
+    { "term": "Node of Ranvier", "definition": "A small gap in the myelin sheath, across which the impulse jumps." },
+    { "term": "Schwann cell", "definition": "A cell in the PNS that wraps around an axon, its membrane forming the myelin sheath." },
+    { "term": "Neurotransmitter vesicle", "definition": "A tiny sac in a synaptic knob that stores neurotransmitter." },
+    { "term": "Interneuron", "definition": "A short neuron found only in the CNS that links neurons together." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Draw a labelled diagram of a motor neuron and give the function of the dendrites, the axon and the myelin sheath.",
+      "model": "Diagram: a motor neuron with its cell body at one end inside the CNS, many dendrites branching from the cell body, one long axon wrapped in myelin sheath with nodes of Ranvier, axon terminals containing neurotransmitter vesicles, and an arrow showing the impulse travelling from the cell body towards the effector. Dendrites receive impulses from other neurons or receptors and carry them towards the cell body. The axon is a long single fibre that carries impulses away from the cell body to distant effectors. The myelin sheath is a fatty insulating layer that speeds up the impulse, which jumps between the nodes of Ranvier."
+    },
+    {
+      "marks": 9,
+      "prompt": "Relate the structure of a sensory neuron to its function and state one difference between a sensory and a motor neuron.",
+      "model": "A sensory neuron has a long dendron that carries impulses from the receptor to the cell body, so the impulse reaches the CNS from a distant receptor. Its cell body sits off the main pathway in a ganglion outside the CNS, so it does not slow the impulse, and a shorter axon carries the impulse on into the CNS. One difference: a motor neuron's cell body lies inside the CNS and its impulses travel from the CNS to an effector, whereas a sensory neuron carries impulses from a receptor to the CNS."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "loId": "bio11-s4",
+  "chapterId": "bio11",
+  "subsection": "Genetic and epigenetic mechanisms",
+  "syllabusRef": "1.4.3",
+  "notes": [
+    {
+      "h": "Genetic mechanisms",
+      "points": [
+        "Genetic inheritance works by passing on DNA: the sequence of bases in the genes is copied when cells divide and passed to offspring in the gametes (see “Nuclear and non-nuclear inheritance” for how).",
+        "The information is stored in the base sequence itself. It is copied very accurately, so it is stable over many generations.",
+        "It changes only by mutation, a change in the base sequence or in the chromosomes (see “Variation”).",
+        "A mutation is usually permanent: it is copied into every cell descended from the cell where it happened and, if it is in a gamete, into the offspring.",
+        "The genetic code is the same in every body cell, so genetic mechanisms alone cannot explain why cells with the same DNA become different, or why identical twins grow more different with age. Epigenetic mechanisms explain these."
+      ]
+    },
+    {
+      "h": "The concept of epigenetics",
+      "points": [
+        "Epigenetics is the study of changes in gene expression (which genes are switched on or off, and how strongly) that are not caused by changes in the DNA base sequence.",
+        "“Epi-” means “on top of”: the changes are chemical marks added on top of the DNA. The full set of marks in a cell is its epigenome.",
+        "Epigenetic marks are caused by development and by the environment and behaviour, e.g. diet, stress, smoking, exposure to pollutants and other chemicals, and temperature; in insects, the food a larva is given.",
+        "The marks are copied when a cell divides by mitosis, so a change can last for the rest of an organism's life. They keep specialised cells specialised: a liver cell's daughter cells are liver cells.",
+        "Some epigenetic changes are reversible: marks can be added and removed by enzymes, e.g. in response to a change in diet or lifestyle.",
+        "In humans, smokers' blood cells show changed patterns of marks on some genes, and some of these changes partly reverse after a person stops smoking.",
+        "In mammals most marks are erased and reset in the gametes and early embryo, so epigenetic changes are usually not passed on. Some escape erasure and are inherited, as in agouti mice.",
+        "In plants, marks are more often passed on through seeds, as in toadflax. Passing marks to the next generation in this way is epigenetic inheritance.",
+        "Identical twins have the same DNA, and when young their epigenetic marks are very similar. In older twins, especially those who have lived apart or had different lifestyles, the marks are much more different, matching differences in health.",
+        "The environment changes the epigenome over a lifetime."
+      ]
+    },
+    {
+      "h": "How epigenetic marks work",
+      "points": [
+        "DNA methylation: an enzyme adds a small chemical group, a methyl group (CH₃), to cytosine bases in the DNA, especially in the control region at the start of a gene.",
+        "Methylation usually switches the gene off, because the cell's machinery can no longer read it. Removing the methyl groups can switch it back on.",
+        "The base sequence is unchanged: a methylated C still pairs with G.",
+        "Histone modification: chemical groups are added to or removed from the histone proteins that the DNA is wound around (histones are described in “Chromosome structure and genes”).",
+        "Adding acetyl groups loosens the packing so the genes there can be read and are switched on; other changes tighten the packing so the genes cannot be read and are switched off.",
+        "Tightly packed, heavily methylated DNA is inactive; loosely packed, unmethylated DNA is active. So the same DNA can give different phenotypes depending on its marks.",
+        "Diagram: two versions of the same gene side by side. Left: DNA loosely wound around histones, with no methyl groups, and an arrow “gene read → protein made → gene switched on”. Right: DNA tightly packed, with methyl groups (drawn as small flags) on the DNA, and a cross through “gene read → gene switched off”. Label DNA, histone, methyl group, gene on and gene off."
+      ]
+    },
+    {
+      "h": "Genetic and epigenetic mechanisms compared",
+      "points": [
+        "What changes: the DNA base sequence (genetic) versus gene expression, through chemical marks on the DNA and histones (epigenetic); the base sequence is unchanged in epigenetic change.",
+        "Cause: mutation, from random copying errors or mutagens such as radiation (genetic), versus the environment, behaviour and development, such as diet, stress, chemicals and temperature (epigenetic).",
+        "Reversibility: usually permanent (genetic) versus often reversible (epigenetic).",
+        "Speed: genetic change in a population is slow, spreading over many generations, whereas epigenetic change can happen within an organism's lifetime, in response to its surroundings.",
+        "Inheritance: reliably passed on in every generation through the gametes, following Mendel's laws for nuclear genes (genetic), versus usually erased in the gametes and early embryo in mammals (epigenetic); sometimes passed on, more often in plants, and often fading over a few generations.",
+        "Within one organism: the same in all body cells, except for new mutations (genetic), versus different in different cell types and tissues (epigenetic).",
+        "Similarities: both change the phenotype by changing which proteins are made; both are copied when cells divide by mitosis; both can be involved in disease, e.g. some cancers involve both mutations and abnormal methylation that silences genes which normally control cell division (see “Causes, prevention and treatment of cancer”)."
+      ]
+    },
+    {
+      "h": "Example 1: honeybee queens and workers (Higher Level only)",
+      "points": [
+        "In a honeybee colony, the queen (large, fertile, lays the eggs, lives for years) and the workers (smaller, sterile females that forage and care for the larvae, living for weeks in summer) develop from genetically identical female larvae.",
+        "Trigger: diet. All young larvae are fed royal jelly, a secretion of worker bees, for the first few days.",
+        "A larva fed royal jelly throughout its development, in a special large cell, becomes a queen; the rest are switched to a diet including pollen and honey and become workers.",
+        "Mechanism: the different diets produce different patterns of DNA methylation in the developing bee, switching on different sets of genes.",
+        "Evidence: in 2008, researchers in Australia reduced the activity of the enzyme that adds methyl groups to DNA in newly hatched larvae. Most of these larvae developed into queens with working ovaries, as if they had been fed royal jelly.",
+        "One genotype gives two very different phenotypes because the environment (food) changes gene expression during development.",
+        "The marks are passed on through every cell division in the developing bee, but the caste is not passed to the queen's offspring: each larva's caste is decided by its own diet."
+      ]
+    },
+    {
+      "h": "Example 2: agouti mice (Higher Level only)",
+      "points": [
+        "The agouti gene in mice normally controls fur colour, giving brown fur. In mice with a variant called agouti viable yellow, an extra stretch of DNA inserted beside the gene can switch it on in every cell all the time.",
+        "When that region is unmethylated, the gene is always on: the mice have yellow fur and become obese, with a higher risk of diabetes and cancer.",
+        "When it is heavily methylated, the gene is switched off and the mice are brown and lean; partly methylated mice are mottled. Genetically identical mice in the same litter can be any of these.",
+        "Effect of the mother's diet: in a study published in 2003 (Robert Waterland and Randy Jirtle), pregnant mothers given extra methyl-donor nutrients (folic acid, vitamin B12, choline and betaine) had more brown, healthy offspring, because more methyl groups were added to the gene in the embryos.",
+        "In later work, exposing pregnant mothers to the plastics chemical bisphenol A (BPA) reduced methylation and gave more yellow offspring; methyl-donor supplements cancelled this effect.",
+        "Inheritance: the offspring's coat colour tends to resemble its mother's, because the marks on this gene are not fully erased when the eggs are made. So it is a true example of epigenetic inheritance.",
+        "The effects can be changed (reversed) by diet."
+      ]
+    },
+    {
+      "h": "Example 3: the Dutch Hunger Winter (Higher Level only)",
+      "points": [
+        "In the winter of 1944–1945, during the Second World War, a German blockade cut food supplies to the occupied western Netherlands. Food rations fell well below 1,000 kilocalories a day.",
+        "About 20,000 people died before the region was liberated in May 1945.",
+        "The famine had a clear start and end, and records of births were kept, so scientists could study people who were in the womb during it. Those whose mothers were starved in early pregnancy had higher rates of obesity, heart disease and some other conditions as adults.",
+        "A study published in 2008 found that, about 60 years later, people exposed to the famine around conception had less methylation of a growth gene, IGF2 (insulin-like growth factor 2), than their brothers or sisters of the same sex who were not exposed.",
+        "The environment before birth left a lasting mark on gene expression.",
+        "Some studies report effects on the next generation (the grandchildren of the starved mothers), but this evidence is weaker and debated.",
+        "So this is clear evidence of a lasting epigenetic effect of the environment in humans, and possible but uncertain evidence of inheritance across generations."
+      ]
+    },
+    {
+      "h": "Example 4: vernalisation in plants (Higher Level only)",
+      "points": [
+        "Vernalisation is the need of some plants to experience a long period of cold (winter) before they can flower. It stops them flowering in autumn and makes them flower in spring, when conditions suit seed production.",
+        "In thale cress (Arabidopsis thaliana), a small wild plant, a gene called FLC (FLOWERING LOCUS C) blocks flowering.",
+        "During weeks of cold, histone modifications gradually switch FLC off, and the longer the cold lasts, the more cells have FLC switched off.",
+        "FLC stays switched off after the weather warms, because the marks are copied through all later cell divisions, so the plant flowers in spring.",
+        "The change is epigenetic: the FLC gene's base sequence is unchanged.",
+        "The change is reset in each generation: FLC is switched back on in the seeds, so each new plant must go through its own winter. This is an epigenetic memory within one plant's life, not inheritance to offspring.",
+        "Many crops, such as winter wheat, need vernalisation, which is why they are sown in autumn."
+      ]
+    },
+    {
+      "h": "Example 5: toadflax flowers (Higher Level only)",
+      "points": [
+        "Common toadflax (Linaria vulgaris), a wild plant, normally has flowers with one plane of symmetry (bilaterally symmetrical) and a single spur.",
+        "A natural variant, the peloric form, has radially symmetrical flowers with five spurs. Carl Linnaeus first described it in the 1740s.",
+        "In 1999, Enrico Coen's group at the John Innes Centre in Norwich showed that peloric plants have the same base sequence in the key flower-symmetry gene (Lcyc) as normal plants, but the gene is heavily methylated and switched off.",
+        "This is an epigenetic change (sometimes called an epimutation), not a mutation.",
+        "The methylated, switched-off state is passed on through the seeds to the next generation, so the peloric form is inherited in wild populations.",
+        "Occasionally the methylation is lost and branches with normal flowers appear, showing the change is reversible.",
+        "This is a heritable natural variation, noticed for more than 250 years, caused by an epigenetic mark rather than a change in DNA sequence."
+      ]
+    },
+    {
+      "h": "Researching an example (Higher Level only)",
+      "b": "Research one example of epigenetic inheritance in detail, using the steps below.",
+      "points": [
+        "Step 1: choose an example and find reliable sources (scientific organisations, universities and review articles; see “Recognising bias and evaluating sources”).",
+        "Step 2: identify the organism and the trait.",
+        "Step 3: identify the environmental or behavioural trigger.",
+        "Step 4: identify the gene and the epigenetic change (methylation or histone modification), if known.",
+        "Step 5: describe the effect on the phenotype.",
+        "Step 6: describe the evidence that the change is epigenetic (same DNA sequence, different marks).",
+        "Step 7: state whether it is reversible and whether it is passed to offspring.",
+        "Step 8: evaluate the strength of the evidence, e.g. animal studies versus observational studies in humans.",
+        "Worked model, agouti mice: organism and trait, mouse fur colour; trigger, the mother's diet; gene and mark, methylation of the agouti gene; effect, yellow obese or brown lean mice; evidence, genetically identical mice with different methylation; passed on partly through the mother, and reversed by methyl donors."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Epigenetics", "definition": "The study of changes in gene expression that are not caused by changes in the DNA base sequence, but by chemical marks added on top of the DNA." },
+    { "term": "Epigenome", "definition": "The full set of epigenetic marks in a cell." },
+    { "term": "DNA methylation", "definition": "The addition of a methyl group (CH₃) to cytosine bases in DNA, which usually switches the gene off." },
+    { "term": "Histone modification", "definition": "The addition or removal of chemical groups on histone proteins, which loosens or tightens the packing of DNA and so switches genes on or off." },
+    { "term": "Epigenetic inheritance", "definition": "The passing of epigenetic marks to the next generation through the gametes or seeds." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by epigenetics and describe how DNA methylation affects a gene.",
+      "model": "Epigenetics is the study of changes in gene expression, which genes are switched on or off and how strongly, that are not caused by changes in the DNA base sequence. The changes are chemical marks added on top of the DNA, caused by development, the environment and behaviour. DNA methylation is when an enzyme adds a methyl group (CH₃) to cytosine bases, especially in the control region at the start of a gene. Methylation usually switches the gene off, because the cell's machinery can no longer read it; the base sequence is unchanged."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare genetic and epigenetic mechanisms of inheritance.",
+      "model": "What changes: genetic mechanisms change the DNA base sequence, whereas epigenetic mechanisms change gene expression through chemical marks, and the base sequence is unchanged. Cause: genetic change comes from mutation, from random copying errors or mutagens such as radiation, whereas epigenetic marks are caused by the environment, behaviour and development, such as diet, stress and chemicals. Reversibility: genetic changes are usually permanent, whereas epigenetic changes are often reversible. Speed: genetic change in a population is slow, spreading over many generations, whereas epigenetic change can happen within an organism's lifetime. Inheritance: genetic changes are reliably passed on through the gametes, whereas epigenetic marks are usually erased in mammals and only sometimes passed on. Within one organism: genetic changes are the same in all body cells, whereas epigenetic marks differ between cell types and tissues. Similarity: both change the phenotype by changing which proteins are made, and both are copied when cells divide by mitosis."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe one example of epigenetic inheritance that you have researched.",
+      "model": "Agouti mice. The organism is the mouse and the trait is fur colour. The trigger is the mother's diet: extra methyl-donor nutrients (folic acid, vitamin B12, choline and betaine) or exposure to bisphenol A. The gene is the agouti gene, and the epigenetic change is methylation of a region beside it: unmethylated gives yellow, obese mice, and heavily methylated gives brown, lean mice. Genetically identical mice in the same litter can be any of these, which shows the difference comes from the marks rather than the DNA sequence. The offspring's coat colour tends to resemble the mother's, because the marks are not fully erased when the eggs are made, so the effect is passed on. It can be reversed by diet, so the effect is reversible."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "loId": "bio33-s4",
+  "chapterId": "bio33",
+  "subsection": "The microbiome",
+  "syllabusRef": "3.2.4",
+  "notes": [
+    {
+      "h": "The concept of a microbiome",
+      "points": [
+        "A microbiome is the whole community of microorganisms (bacteria, archaea, fungi, protists and viruses) living together in a particular environment, such as the human gut, the skin or the soil.",
+        "A microbiome also includes the genes of these microorganisms and the products they make.",
+        "The organisms themselves are often called the microbiota; many people use the two words for the same thing.",
+        "A microbiome is an ecological community: its members compete, feed on each other's products and interact with their host or surroundings.",
+        "The make-up of a microbiome changes with conditions such as food, pH, oxygen, temperature and water.",
+        "A diverse microbiome, with many species, is generally more stable and recovers better after a disturbance.",
+        "Most of these microorganisms cannot be grown on agar in the laboratory, so microbiomes are studied mainly by extracting all the DNA from a sample, e.g. faeces or soil.",
+        "The extracted DNA is sequenced to identify which organisms and genes are present (see “DNA sequencing”; computer analysis is in “Bioinformatics: genome databases”).",
+        "Most microorganisms are not pathogens: the majority in a healthy microbiome are harmless (commensals) or beneficial (mutualists) (see “Biotic factors and relationships”)."
+      ]
+    },
+    {
+      "h": "The human microbiome and how it is acquired",
+      "points": [
+        "Humans carry microbiomes in the gut, mouth, nose, skin and vagina.",
+        "The largest is in the gut, and most of the gut's microorganisms live in the large intestine (colon), where food moves slowly and there is almost no oxygen, so most are anaerobic bacteria.",
+        "A 2016 estimate found that the body contains about as many bacterial cells (about 38 trillion) as human cells (about 30 trillion), a ratio of roughly 1 : 1.",
+        "The older, often-quoted figure of ten bacteria for every human cell is now thought to be an overestimate.",
+        "The gut contains hundreds of species, and each person's combination is different.",
+        "A baby's gut is colonised at birth and soon after.",
+        "Babies born vaginally pick up microorganisms from the mother's vagina and gut.",
+        "Babies born by caesarean section are first colonised mostly by skin and hospital microorganisms, so their early gut microbiome is different.",
+        "Breast milk contains sugars (oligosaccharides) that the baby cannot digest but that feed beneficial gut bacteria such as Bifidobacterium.",
+        "The microbiome changes with diet, weaning, antibiotics, environment (e.g. pets, farm animals, siblings) and age, becoming more stable in childhood.",
+        "The host provides a warm, moist, food-rich, stable home, and the microorganisms provide digestion, vitamins and protection.",
+        "This mutualism is an example of how organisms depend on each other."
+      ]
+    },
+    {
+      "h": "The gut microbiome and digestion",
+      "points": [
+        "Human enzymes cannot digest dietary fibre, e.g. cellulose and other plant cell-wall polysaccharides, and resistant starch, so it reaches the large intestine undigested.",
+        "There, gut bacteria ferment the fibre anaerobically, using their own enzymes.",
+        "The main products of fermentation are short-chain fatty acids (SCFAs): acetate, propionate and butyrate.",
+        "The colon absorbs the SCFAs: butyrate is the main energy source of the cells lining the colon, keeping the lining healthy.",
+        "The other SCFAs are carried to the liver and body cells and used for energy.",
+        "Gases, namely CO₂, hydrogen and, in some people, methane made by archaea, are by-products of fermentation.",
+        "Gut bacteria make vitamin K, needed for blood clotting, and some B vitamins, part of which the body absorbs.",
+        "Gut bacteria also break down some substances that human enzymes cannot, e.g. some plant chemicals and some drugs.",
+        "Gut bacteria convert bile salts, which affects how fats are absorbed.",
+
+        "Herbivores depend even more on their microbiome: cattle, sheep and rabbits rely on microorganisms to digest cellulose (see “Biotic factors and relationships”).",
+        "The digestive system is described in “The Digestive System”, and the large intestine's absorption of water in “Absorption, transport and storage”."
+      ]
+    },
+    {
+      "h": "The gut microbiome, immune signalling and protection",
+      "points": [
+        "Protection against pathogens, called colonisation resistance: the normal gut microbiota occupy the space and attachment sites on the gut lining and use up the nutrients that pathogens would need.",
+        "Some gut microorganisms make acids that lower the pH, and some make antibacterial proteins (bacteriocins) that kill competing bacteria.",
+        "The skin and vaginal microbiota protect in the same way.",
+        "In the vagina, Lactobacillus bacteria make lactic acid, keeping the pH low, which stops many pathogens growing (see “Innate and adaptive immunity”).",
+        "When antibiotics kill many normal gut bacteria, pathogens can take over: e.g. the bacterium Clostridioides difficile can multiply and cause severe diarrhoea.",
+        "The yeast Candida can also overgrow when the normal microbiota are reduced, causing thrush (see “Pathogens”).",
+        "Repeated C. difficile infection can be treated by faecal microbiota transplant, which restores a healthy microbiome from a donor (see “Microorganisms in industry”).",
+        "Immune signalling: the gut wall contains a large part of the body's immune tissue.",
+        "Molecules from gut microorganisms, e.g. parts of their cell walls and SCFAs such as butyrate, are detected by immune cells in the gut lining, which then send signals.",
+        "In early life these signals ‘train’ the immune system to tolerate harmless microorganisms and food while still responding to pathogens.",
+        "E.g. butyrate promotes suppressor T cells (also called regulatory T cells), which damp down inflammation (see “White blood cells”).",
+        "The microbiome helps maintain the gut barrier: it stimulates the lining to make mucus and keeps its cells tightly joined.",
+        "This stops bacteria and their products leaking into the blood and triggering inflammation.",
+        "Germ-free mice, raised completely free of microorganisms, have poorly developed gut immune tissue.",
+        "A less diverse or altered gut microbiome has been linked to inflammatory bowel disease, allergies, asthma and some autoimmune diseases, which fits the hygiene hypothesis (see “Emerging diseases and society”).",
+        "These links are mostly correlations: it is often not known whether the altered microbiome causes the disease or results from it."
+      ]
+    },
+    {
+      "h": "The gut microbiome and metabolic health",
+      "points": [
+        "Metabolic health means healthy body mass, blood glucose, blood fats and blood pressure, without obesity or type 2 diabetes.",
+        "The gut microbiome affects metabolic health in several ways.",
+        "It affects how much energy is extracted from food: more efficient fermentation of fibre releases more energy as SCFAs.",
+        "Signals from SCFAs affect appetite hormones and how the body stores fat and controls blood glucose.",
+        "Inflammation from a leaky gut barrier is linked to insulin resistance.",
+        "In a 2006 study, germ-free mice given gut microorganisms from obese mice gained more body fat than germ-free mice given microorganisms from lean mice, on the same diet.",
+        "This shows the microbiome can affect fat storage, at least in mice.",
+        "In humans, people with obesity or type 2 diabetes often have a less diverse gut microbiome, but this is a correlation, partly explained by differences in diet.",
+        "A diet high in varied fibre from vegetables, fruit, pulses and whole grains feeds fibre-fermenting bacteria and is linked to a more diverse microbiome and more SCFAs.",
+        "A diet high in sugar, fat and processed food and low in fibre is linked to lower diversity."
+      ]
+    },
+    {
+      "h": "Disruption and promoting a healthy microbiome",
+      "points": [
+        "Dysbiosis is an imbalance in the microbiome, e.g. a loss of diversity or of beneficial species, or overgrowth of harmful ones.",
+        "Causes of dysbiosis include antibiotics, which kill beneficial as well as harmful bacteria, a low-fibre diet, infection, stress and some medicines.",
+        "Eat plenty of varied fibre to promote a healthy gut microbiome.",
+        "Eat fermented foods containing live microorganisms, e.g. live yogurt or kefir.",
+        "Take antibiotics only when needed and complete the course as prescribed; this also reduces antibiotic resistance (see “Emergence and spread of infectious disease”).",
+        "Probiotics are live microorganisms taken in food or supplements, e.g. Lactobacillus and Bifidobacterium species, to benefit health.",
+        "Prebiotics are food components that humans cannot digest but that feed beneficial gut bacteria, e.g. some fibres in onions, garlic, leeks, bananas and oats.",
+        "Evidence that probiotics help is good for some conditions, e.g. reducing diarrhoea caused by antibiotics, but weak or mixed for many claims.",
+        "Most probiotics do not permanently change the microbiome."
+      ]
+    },
+    {
+      "h": "The soil microbiome: nutrient cycling",
+      "points": [
+        "Soil contains an enormous variety of microorganisms: a single gram of fertile soil can contain hundreds of millions to billions of bacteria, many metres of fungal hyphae and thousands of species.",
+        "Together these microorganisms cycle many nutrients, not just one.",
+        "Carbon: bacteria and fungi decompose dead plants, animals and dung, respiring the organic carbon and releasing CO₂.",
+        "Part of the dead matter is turned into stable humus, which stores carbon in the soil for many years (see “The carbon cycle”).",
+        "Fungi are the main decomposers of wood and of the tough lignin and cellulose of dead plants.",
+        "Nitrogen: decomposers release ammonium from proteins in dead matter.",
+        "Nitrogen-fixing bacteria, both free-living and in legume root nodules, add nitrogen from the air.",
+        "Nitrifying bacteria convert ammonium to nitrate, the main form plants absorb.",
+        "Denitrifying bacteria in waterlogged soils convert nitrate back to nitrogen gas, and some nitrous oxide, N₂O, is released (see “The nitrogen cycle”).",
+        "Phosphorus: some soil bacteria and fungi release phosphate from organic matter and from insoluble minerals.",
+        "Mycorrhizal fungi carry phosphate and water to plant roots in exchange for sugars (see “Biotic factors and relationships”).",
+        "Sulfur: decomposers release sulfur from proteins as sulfate, which plants absorb.",
+        "Methane: in waterlogged soils and bogs, where there is no oxygen, methane-producing archaea release methane.",
+        "In drier, aerated soils other bacteria oxidise methane, so soils can be a source or a sink of methane."
+      ]
+    },
+    {
+      "h": "The soil microbiome: other roles",
+      "points": [
+        "Soil structure: fungal hyphae bind soil particles together, and bacteria make sticky polysaccharides, forming crumbs, called aggregates, with air spaces between them.",
+        "This structure improves drainage and aeration and reduces erosion.",
+        "A healthy, diverse soil microbiome suppresses some plant diseases, by competition and by antibiotic production.",
+        "Some bacteria and fungi promote plant growth, e.g. nitrogen fixers and mycorrhizae.",
+        "Intensive farming, with heavy use of artificial fertiliser and pesticides, frequent ploughing and compaction, can reduce soil microbial diversity.",
+        "Practices such as adding manure or compost, growing clover, reduced ploughing and crop rotation support soil microbial diversity (see “Ethics and sustainability of nutrient cycling”)."
+      ]
+    },
+    {
+      "h": "Climate warming and soil microbiomes",
+      "points": [
+        "A rise in temperature speeds up the enzyme-controlled respiration of soil microorganisms, up to their optimum, so they decompose soil organic matter faster and release more CO₂.",
+        "Long-term field experiments have measured extra loss of soil carbon as CO₂ from warmed plots: forest soil plots are warmed by buried heating cables and compared with unheated plots.",
+        "Soils store more carbon than the atmosphere and all plants together.",
+        "Extra CO₂ released by warming adds to the greenhouse effect, which causes more warming, which speeds decomposition further.",
+        "This positive feedback is a major uncertainty in climate predictions.",
+        "In the Arctic, frozen soils, called permafrost, store huge amounts of undecomposed organic matter.",
+        "As permafrost thaws, microorganisms decompose this matter, releasing CO₂ and, in waterlogged thawed soil, methane, a more powerful greenhouse gas.",
+        "Irish bogs store carbon as peat, because waterlogging stops decomposition.",
+        "Warmer, drier summers, and draining, lower the water table and let air in, so aerobic microorganisms decompose the peat and release CO₂.",
+        "Warmer waterlogged peat also releases more methane (carbon sinks are described in “Climate change and biological strategies”).",
+        "Warming can speed up the release of ammonium and nitrate, giving plants more nutrients in the short term but causing more leaching of nitrate.",
+        "Warming can also increase the nitrous oxide, a greenhouse gas, released by nitrifying and denitrifying bacteria.",
+        "Drought reduces microbial activity, and rewetting dry soil causes a sudden burst of CO₂ release.",
+        "Warming and drought change which species dominate, e.g. the balance of bacteria and fungi, which can change how fast nutrients are cycled.",
+        "In some long-term experiments the extra CO₂ release declined after some years, because the easily decomposed carbon was used up or the microbial community adjusted (acclimatised).",
+        "How large the long-term feedback will be is still being researched."
+      ]
+    },
+    {
+      "h": "Exploring microbiomes: an investigation and secondary data",
+      "points": [
+        "Investigation: soil microbial activity at different temperatures.",
+        "Aim: to show that soil microorganisms release CO₂ by respiration, and that they do so faster when warmer.",
+        "Independent variable: temperature, e.g. 5 °C, 15 °C and 25 °C.",
+        "Step 1: put equal masses, e.g. 20 g, of the same fresh soil into sealed containers, each with a small open tube of hydrogencarbonate indicator (or limewater) suspended above the soil, not touching it.",
+        "Step 2: set up a control with the same mass of soil that has been sterilised by heating in an oven, so its microorganisms are dead.",
+        "Step 3: keep sets at different temperatures, e.g. 5 °C, 15 °C and 25 °C, in the dark.",
+        "Step 4: record the time for the indicator to change from red to yellow (more CO₂), or for the limewater to turn milky.",
+        "Expected result: the colour changes fastest at the highest temperature, and not, or very little, in the sterilised control.",
+        "Keep the apparatus in the dark, so that no photosynthesis by algae or seedlings removes CO₂.",
+        "Wash hands after handling soil.",
+        "Hydrogencarbonate indicator colours: red (orange-red) at normal air CO₂ levels, yellow when CO₂ rises, and purple when CO₂ falls.",
+        "Secondary data to explore include published results of microbiome sequencing studies, e.g. comparisons of the gut microbiomes of people on different diets, or of babies born vaginally and by caesarean section.",
+        "Long-term soil-warming experiments and soil carbon measurements are also secondary data to explore.",
+        "When evaluating these data, check the sample size, whether the study was in humans or animals, and whether it shows correlation or cause (see “Evaluating evidence”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Microbiome", "definition": "The whole community of microorganisms living together in a particular environment, with their genes and the products they make." },
+    { "term": "Microbiota", "definition": "The microorganisms themselves that make up a microbiome." },
+    { "term": "Commensal", "definition": "A microorganism that lives in or on a host without harming it." },
+    { "term": "Mutualist", "definition": "A microorganism that lives with a host to the benefit of both." },
+    { "term": "Dysbiosis", "definition": "An imbalance in the microbiome, such as a loss of diversity or overgrowth of harmful microorganisms." },
+    { "term": "Short-chain fatty acids (SCFAs)", "definition": "Acids such as acetate, propionate and butyrate, produced when gut bacteria ferment fibre." },
+    { "term": "Colonisation resistance", "definition": "Protection against pathogens provided by the normal microbiota, which occupy attachment sites and use up nutrients." },
+    { "term": "Bacteriocin", "definition": "An antibacterial protein made by some bacteria that kills competing bacteria." },
+    { "term": "Faecal microbiota transplant", "definition": "The placing of gut microorganisms from a healthy donor into a patient's gut to restore a healthy microbiome." },
+    { "term": "Suppressor T cell", "definition": "A type of T cell, also called a regulatory T cell, that damps down inflammation." },
+    { "term": "Metabolic health", "definition": "Healthy body mass, blood glucose, blood fats and blood pressure, without obesity or type 2 diabetes." },
+    { "term": "Probiotic", "definition": "A live microorganism taken in food or supplements to benefit health." },
+    { "term": "Prebiotic", "definition": "A food component that humans cannot digest but that feeds beneficial gut bacteria." },
+    { "term": "Humus", "definition": "Stable organic matter in soil, formed from dead matter, that stores carbon for many years." },
+    { "term": "Aggregate", "definition": "A crumb of soil particles bound together by fungal hyphae and bacterial polysaccharides, with air spaces between them." },
+    { "term": "Permafrost", "definition": "Permanently frozen soil that stores large amounts of undecomposed organic matter." },
+    { "term": "Positive feedback", "definition": "A process in which the effect of a change increases the change itself, e.g. warming releasing CO₂ that causes more warming." },
+    { "term": "Hydrogencarbonate indicator", "definition": "An indicator that is red at normal air CO₂ levels, yellow when CO₂ rises and purple when CO₂ falls." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by a microbiome? Give two ways in which the gut microbiome benefits human health.",
+      "model": "A microbiome is the whole community of microorganisms living together in a particular environment, together with their genes and the products they make. Two benefits of the gut microbiome: it ferments dietary fibre to short-chain fatty acids, such as butyrate, which is the main energy source of the cells lining the colon; it makes vitamin K, needed for blood clotting. Other valid benefits: its microorganisms compete with pathogens and occupy attachment sites, providing colonisation resistance; and its molecules help train the immune system."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how soil microbiomes are involved in the cycling of carbon and nitrogen, and explain how climate warming could affect the carbon stored in soils.",
+      "model": "Carbon: bacteria and fungi decompose dead plants, animals and dung, respiring the organic carbon and releasing CO₂; part of the dead matter becomes stable humus, which stores carbon in the soil. Nitrogen: decomposers release ammonium from proteins, nitrogen-fixing bacteria add nitrogen from the air, nitrifying bacteria convert ammonium to nitrate, and denitrifying bacteria convert nitrate back to nitrogen gas. Climate warming speeds up the enzyme-controlled respiration of soil microorganisms, so they decompose soil organic matter faster and release more CO₂; for example, permafrost thaws and its stored organic matter is decomposed, releasing CO₂ and methane. The extra CO₂ adds to the greenhouse effect, causing more warming, which speeds decomposition further: a positive feedback."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explore the role of the gut microbiome in immune signalling and metabolic health, and evaluate the evidence that the microbiome affects health.",
+      "model": "Immune signalling: molecules from gut microorganisms, such as parts of their cell walls and butyrate, are detected by immune cells in the gut lining, which send signals; butyrate promotes suppressor T cells that damp down inflammation, and this trains the immune system to tolerate harmless microorganisms and food. Metabolic health: more efficient fermentation of fibre releases more energy as SCFAs, which affect appetite hormones and how the body stores fat and controls blood glucose; inflammation from a leaky gut barrier is linked to insulin resistance. Evidence: antibiotics that disrupt the microbiome can allow Clostridioides difficile to cause severe diarrhoea; germ-free mice have poorly developed gut immune tissue; in a 2006 study, germ-free mice given microorganisms from obese mice gained more body fat than those given microorganisms from lean mice. Limits: the links in humans, such as those with obesity, type 2 diabetes, allergies and asthma, are mostly correlations, and it is often not known whether the altered microbiome causes the disease or results from it."
+    }
+  ]
+}

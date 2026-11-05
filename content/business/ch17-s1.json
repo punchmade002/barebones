@@ -1,0 +1,97 @@
+{
+  "loId": "ch17-s1",
+  "chapterId": "ch17",
+  "subsection": "1. Consumer rights, responsibilities and legislation",
+  "syllabusRef": "4.1.1",
+  "notes": [
+    { "h": "The Consumer Rights Act 2022", "b": "The Consumer Rights Act 2022 is the main Irish statute setting out the rights of consumers who buy goods, services and digital products.", "points": [
+      "The Act consolidated and modernised much of the older Irish law on the sale of goods and the supply of services.",
+      "It covers goods, services, digital content and digital services, so the consumer has rights whatever is bought.",
+      "Goods must be of satisfactory quality, fit for their purpose and as described by the trader.",
+      "Services must be carried out with reasonable care and skill, and within a reasonable time where no time was agreed.",
+      "Digital content and digital services must be of satisfactory quality and fit for purpose, and must match what was described when they were sold."
+    ] },
+    { "h": "Remedies for faulty goods", "b": "The Act sets out a sequence of remedies that the consumer can use when goods do not meet the required standard.", "points": [
+      "The short-term right to reject allows a consumer to return faulty goods for a full refund within 30 days of purchase.",
+      "After the short-term period, the consumer normally has the right to a repair or a replacement, which the trader must provide within a reasonable time and without significant inconvenience.",
+      "If a repair or replacement is not possible or fails, the consumer may be entitled to a price reduction or to end the contract and receive a refund.",
+      "Consumers have up to two years from delivery to claim that goods did not conform to the contract.",
+      "For the first 12 months, a fault that appears is presumed to have existed at the time of delivery, unless the trader can show otherwise."
+    ] },
+    { "h": "Remedies for services and digital content", "b": "Services and digital content have their own remedies, which focus on repeating the service or fixing the fault.", "points": [
+      "If a service is not performed with reasonable care and skill, the consumer can require the trader to repeat it or to fix the problem.",
+      "If the trader does not put the problem right, the consumer can seek a price reduction that reflects the value they did not receive.",
+      "Faulty digital content can be repaired or replaced, and the consumer may be entitled to a price reduction if this fails.",
+      "Ending the contract is available where the trader's failure is serious, and the consumer then receives an appropriate refund."
+    ] },
+    { "h": "Unfair contract terms", "b": "The Act protects consumers from terms in standard contracts that create a significant imbalance against them.", "points": [
+      "A term is unfair if it causes a significant imbalance in the parties' rights and obligations to the detriment of the consumer, contrary to good faith.",
+      "Terms must be transparent, which means written in plain and intelligible language that an ordinary consumer can understand.",
+      "An unfair term does not bind the consumer, while the rest of the contract can still stand."
+    ] },
+    { "h": "The Consumer Protection Act 2007", "b": "The Consumer Protection Act 2007 controls how businesses market and sell to consumers, and it gives effect to an EU directive on unfair commercial practices.", "points": [
+      "A commercial practice is unfair if it is misleading or aggressive, or if it falls short of the standard of care a trader is expected to show towards consumers.",
+      "A misleading action gives the consumer false or deceptive information, such as claiming a product has a feature it does not have.",
+      "A misleading omission hides or leaves out information the consumer needs to make an informed decision.",
+      "An aggressive practice uses harassment, coercion or undue influence that significantly restricts a consumer's freedom of choice.",
+      "The Act lists prohibited practices that are always unlawful, such as bait advertising, where a product is promoted without any real intention of supplying it on the advertised terms."
+    ] },
+    { "h": "The CCPC", "b": "The Competition and Consumer Protection Commission enforces consumer protection law and competition law in Ireland.", "points": [
+      "The CCPC was established under the Competition and Consumer Protection Act 2014, bringing together the work of earlier bodies.",
+      "Its powers include investigating suspected breaches, seeking court orders to stop unlawful practices and prosecuting offences.",
+      "It publishes guidance so that consumers and businesses understand their rights and obligations, which helps to prevent breaches.",
+      "The CCPC focuses on wider breaches that affect many consumers and generally does not resolve individual complaints about a single purchase."
+    ] },
+    { "h": "Advertising and promotion rules", "b": "Advertising is regulated by law and by a self-regulatory code, so promotions must be honest and fair.", "points": [
+      "The Advertising Standards Authority for Ireland (ASAI) enforces an industry code of standards for advertising and marketing communications.",
+      "Advertising that is misleading, offensive or unfair can be ruled against, and the ASAI can require it to be withdrawn or changed.",
+      "Comparative advertising must compare products fairly and must not denigrate competitors.",
+      "Consumers can complain to the ASAI about an advertisement, which gives them a route for concerns about promotion."
+    ] },
+    { "h": "Consumer responsibilities", "b": "Rights come with responsibilities, and consumers protect their position by acting sensibly.", "points": [
+      "Keep receipts, order confirmations and warranty documents, because they are evidence of the purchase and of what was agreed.",
+      "Read the terms before buying, particularly the conditions on cancellation, delivery and returns.",
+      "Act promptly when a fault appears, since delay can weaken a claim and make it harder to show that the fault was present at sale.",
+      "Use goods properly and as instructed, since damage caused by misuse is not the trader's responsibility.",
+      "Check the trader's identity and contact details before paying, so there is someone to pursue if things go wrong."
+    ] },
+    { "h": "Redress: escalating a complaint", "b": "A consumer should escalate a complaint in order, starting with the simplest and least costly route.", "points": [
+      "First, complain to the seller in writing, stating the problem, the remedy wanted and a reasonable deadline for a response.",
+      "Second, use an alternative dispute resolution service, which offers a faster and less formal route than the courts.",
+      "Third, use the Small Claims procedure in the District Court for smaller claims, which is designed so that individuals can take a case without a solicitor.",
+      "Finally, the courts can hear a claim, but cost and time make this the last resort for most consumers."
+    ] },
+    { "h": "Buying inside and outside the EU", "b": "Protection depends on where the trader is based, so buying from outside the EU carries greater risk.", "points": [
+      "Inside the EU, consumers benefit from EU-wide rules on consumer contracts, which apply to purchases from traders in other member states.",
+      "The European Consumer Centre Ireland helps Irish consumers with cross-border complaints involving traders in other EU countries.",
+      "Since Brexit, the UK is outside the EU, so EU consumer rules do not automatically apply to purchases from UK traders.",
+      "Purchases from outside the EU may attract customs duty and import VAT, which increase the final cost and can be unexpected.",
+      "Remedies for non-EU purchases can be weaker and harder to enforce, so the consumer may rely on the trader's goodwill or on the protection offered by the payment provider.",
+      "Before buying from outside the EU, a consumer should check the trader's location and its returns policy."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Consumer Rights Act 2022", "definition": "The Irish statute that sets out consumer rights and remedies for goods, services, digital content and digital services." },
+    { "term": "Consumer Protection Act 2007", "definition": "The Irish statute that prohibits unfair, misleading and aggressive commercial practices towards consumers." },
+    { "term": "CCPC", "definition": "The Irish body that enforces consumer protection law and competition law, established under the Competition and Consumer Protection Act 2014." },
+    { "term": "Short-term right to reject", "definition": "The right to return faulty goods for a full refund within a short period after purchase." },
+    { "term": "Misleading action", "definition": "A commercial practice that gives false or deceptive information about a product or a trader." },
+    { "term": "Aggressive practice", "definition": "A commercial practice that uses harassment, coercion or undue influence to restrict a consumer's freedom of choice." },
+    { "term": "Unfair contract term", "definition": "A term in a standard consumer contract that creates a significant imbalance against the consumer." },
+    { "term": "Alternative dispute resolution", "definition": "A method of settling a complaint outside the courts, using a neutral third party." }
+  ],
+  "factCards": [
+    { "term": "Remedies for faulty goods, in order", "definition": "Short-term right to reject, then repair or replacement, then a price reduction or a final right to reject." },
+    { "term": "Length of the legal guarantee for goods", "definition": "Consumers have up to two years from delivery to claim, with a fault in the first 12 months presumed to have existed at delivery." },
+    { "term": "Cancellation period for online purchases", "definition": "Consumers can normally cancel distance purchases, such as online orders, within 14 days of receiving the goods." },
+    { "term": "Example of bait advertising", "definition": "Promoting a product at an attractive price with no real intention of supplying it on those terms, so that customers are steered to a different item." },
+    { "term": "Redress steps in order", "definition": "Complain to the seller, use alternative dispute resolution, use the Small Claims procedure, then go to court." },
+    { "term": "Consumer responsibilities", "definition": "Keep receipts, read the terms, act promptly and use goods properly." },
+    { "term": "Who enforces advertising standards", "definition": "The Advertising Standards Authority for Ireland, which enforces the industry code for advertising and marketing communications." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A consumer buys a laptop from a shop and it develops a fault. Explain the remedies available under the Consumer Rights Act 2022 depending on when the fault appears, and outline the steps the consumer should take.", "model": "If the fault appears within 30 days of purchase, the consumer can use the short-term right to reject and return the laptop for a full refund. After that period, the consumer is normally entitled to ask for a repair or a replacement, which the retailer must carry out within a reasonable time and without significant inconvenience. If the repair or replacement fails or is not possible, the consumer may be entitled to a price reduction or to end the contract and receive a refund. Because a fault that appears within the first 12 months is presumed to have existed when the laptop was delivered, the retailer must show otherwise, so the consumer does not have to prove that the fault was present from the start. The consumer should keep the receipt and order confirmation, report the fault promptly and in writing, and state the remedy wanted. If the retailer refuses to act, the consumer can escalate the complaint through alternative dispute resolution or the Small Claims procedure." },
+    { "marks": 10, "prompt": "Distinguish between a misleading action and a misleading omission under the Consumer Protection Act 2007, giving one example of each for a gym's advertising.", "model": "A misleading action gives the consumer false or deceptive information. For example, a gym that advertises a free trial when the trial is only available after a paid joining fee has made a false statement about its offer. A misleading omission leaves out information the consumer needs to make an informed decision. For example, a gym that advertises a low monthly fee without mentioning a compulsory annual charge has omitted material information." },
+    { "marks": 15, "prompt": "Explain the role of the Competition and Consumer Protection Commission in protecting consumers, and discuss one limitation of its role.", "model": "The CCPC enforces consumer protection law, including the Consumer Protection Act 2007, by investigating suspected breaches and taking enforcement action against businesses. It can seek court orders to stop unlawful practices and can prosecute offences. It also publishes guidance so that consumers and businesses understand their rights and obligations, which can prevent problems from arising. A limitation is that the CCPC focuses on wider breaches that affect many consumers and generally does not resolve individual complaints. A consumer with a problem about one purchase must still use the seller's complaints process, alternative dispute resolution or the courts to obtain a remedy." }
+  ]
+}

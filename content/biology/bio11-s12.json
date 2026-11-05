@@ -1,0 +1,117 @@
+{
+  "loId": "bio11-s12",
+  "chapterId": "bio11",
+  "subsection": "Benefits and limitations of Mendelian genetics",
+  "syllabusRef": "1.4.11",
+  "notes": [
+    {
+      "h": "What Mendelian genetics is",
+      "points": [
+        "Mendelian genetics is the study of how traits controlled by single genes are inherited, using Mendel's principles.",
+        "Its principles: each organism has two alleles of each gene, one from each parent, and the two alleles separate into different gametes.",
+        "One allele can be dominant over the other, and alleles of different genes are inherited independently.",
+        "It predicts offspring ratios with genetic crosses (as in “Monohybrid crosses”).",
+        "A Mendelian (single-gene) trait is controlled by one gene with clear alternative forms.",
+        "This gives discontinuous variation: an individual is in one category or another, e.g. tall or dwarf pea plants, or having cystic fibrosis or not."
+      ]
+    },
+    {
+      "h": "Benefits: the predictive power of Mendelian genetics",
+      "points": [
+        "Predicting offspring: knowing the parents' genotypes, a cross predicts the probability of each genotype and phenotype in the offspring; for example, two carriers of cystic fibrosis have a 1 in 4 chance of an affected child (the cross is in “Monohybrid crosses”).",
+        "Genetic counselling and screening in medicine: families with a history of a single-gene disorder can be told the risks to future children.",
+        "Carrier testing tells people whether they carry a recessive allele before they have children.",
+        "Cystic fibrosis is an important example in Ireland, which has the highest rate of cystic fibrosis in the world; about 1 in 19 Irish people is a carrier.",
+        "Other single-gene disorders whose inheritance follows Mendel's rules: sickle-cell anaemia (recessive), Huntington's disease (dominant: an affected heterozygous parent has a 1 in 2 chance of passing it to each child), haemophilia and colour blindness (sex-linked; see “Sex-linked traits”).",
+        "Identifying an unknown genotype: a test cross or a pedigree reveals whether an individual carries a hidden recessive allele, e.g. checking whether a breeding animal carries an allele for an inherited disease before it is used for breeding.",
+        "Plant and animal breeding: breeders use Mendel's principles to produce true-breeding varieties and to combine desirable traits from two parents (e.g. a high yield from one variety with disease resistance from another) into one variety, predicting how many offspring of each kind to expect.",
+        "Foundation of modern genetics: Mendel's idea that traits are passed on by separate, unchanging units (genes) that segregate in gametes is the basis of later discoveries, such as genes being carried on chromosomes, DNA being the genetic material, and gene mapping.",
+        "It also explains how hidden recessive alleles keep variation in a population, which natural selection acts on (see “Variation”).",
+        "Genetic databases and testing: modern genetic tests and genome databases identify alleles known to cause single-gene diseases, and Mendel's rules turn a test result into a risk for a person's children (database searches are in “Bioinformatics: genome databases”)."
+      ]
+    },
+    {
+      "h": "Limitations: complex traits and the environment",
+      "points": [
+        "Complex traits involving multiple gene interactions (polygenic traits): most traits are controlled by many genes, each with a small effect, e.g. human height, skin colour and eye colour.",
+        "They show continuous variation (a range of values, not a few categories), so they don't give simple ratios such as 3 : 1 and can't be predicted with a Punnett square.",
+        "Genes interacting with one another: the effect of one gene can depend on other genes, e.g. a gene that blocks all pigment production (as in albinism) hides the effects of the other genes for colour.",
+        "The offspring ratios no longer match the simple Mendelian ratios.",
+        "Environmental factors: the phenotype results from the genotype and the environment together.",
+        "A person's height depends on diet and health in childhood as well as genes; identical twins, with the same genotype, can differ in height and weight.",
+        "The flowers of some hydrangea plants are blue in acidic soil and pink in alkaline soil; a plant grown in poor light or poor soil is shorter than its genotype allows.",
+        "Mendelian ratios can't predict traits strongly affected by the environment."
+      ]
+    },
+    {
+      "h": "Limitations: multifactorial diseases and epigenetics",
+      "points": [
+        "Common diseases are multifactorial: conditions such as heart disease, type 2 diabetes and most cancers depend on many genes plus lifestyle and environment (diet, exercise, smoking).",
+        "A person's risk can be estimated but not predicted from a simple cross.",
+        "Genetic susceptibility to cancer is in “Causes, prevention and treatment of cancer”.",
+        "Epigenetic effects: environment and behaviour can switch genes on or off without changing the DNA sequence, and some such changes can be passed on, which Mendel's laws don't account for (see “Genetic and epigenetic mechanisms”)."
+      ]
+    },
+    {
+      "h": "Limitations: exceptions to Mendel's rules",
+      "points": [
+        "Linked genes on the same chromosome don't assort independently (“Linkage”).",
+        "With incomplete dominance the heterozygote is intermediate, so the F2 gives 1 : 2 : 1 not 3 : 1 (“Incomplete dominance”).",
+        "Sex-linked genes give different results in sons and daughters (“Sex-linked traits”).",
+        "Many genes have more than two alleles in a population, e.g. the ABO blood group gene has three (A, B and O)."
+      ]
+    },
+    {
+      "h": "Limitations: non-nuclear inheritance and probability",
+      "points": [
+        "Non-nuclear inheritance: genes in mitochondria (and chloroplasts) are passed on mainly through the egg's cytoplasm, so they are inherited from the mother only and don't follow Mendel's rules (see “Nuclear and non-nuclear inheritance”).",
+        "Predictions are probabilities: a ratio describes chances, not exact outcomes, and is reliable only for large numbers of offspring.",
+        "Human families are small, so a couple with a 1 in 4 risk may have no affected children or several.",
+        "Mendelian genetics also can't say which child will be affected."
+      ]
+    },
+    {
+      "h": "Heredity in the modern world",
+      "points": [
+        "Mendelian genetics remains accurate and useful for single-gene traits, in genetic counselling, carrier testing and breeding.",
+        "Most human traits and common diseases are complex.",
+        "Modern genetics adds polygenic risk, gene–environment interaction, epigenetics and whole-genome sequencing to Mendel's principles rather than replacing them."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Polygenic trait",
+      "definition": "A trait controlled by many genes, each with a small effect, showing continuous variation."
+    },
+    {
+      "term": "Multifactorial disease",
+      "definition": "A condition that depends on many genes plus lifestyle and environment."
+    },
+    {
+      "term": "Epigenetics",
+      "definition": "Changes that switch genes on or off without changing the DNA sequence, and which can sometimes be passed on."
+    },
+    {
+      "term": "Genetic counselling",
+      "definition": "Advice to families on the risks of a single-gene disorder for their future children, based on Mendelian predictions."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two benefits of Mendelian genetics in the modern world, with an example of each.",
+      "model": "Predicting offspring: knowing the parents' genotypes, a genetic cross gives the probability of each genotype and phenotype; for example, two carriers of cystic fibrosis have a 1 in 4 chance of an affected child. Carrier testing and breeding: breeders use Mendel's principles to combine a high yield from one variety with disease resistance from another, predicting how many offspring of each kind to expect."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why Mendel's Laws cannot be used to predict the height of a child from the height of its parents.",
+      "model": "Height is a polygenic trait: it is controlled by many genes, each with a small effect, so it shows continuous variation rather than a few categories, and it does not give simple ratios such as 3 : 1 that a Punnett square can predict. Height is also strongly affected by the environment; for example, a child's height depends on diet and health in childhood as well as on genes. Ratios are reliable only for large numbers of offspring, so they cannot predict an individual child's height."
+    },
+    {
+      "marks": 12,
+      "prompt": "Identify the benefits and limitations of Mendelian genetics for our understanding of heredity.",
+      "model": "Benefits: Mendelian genetics predicts offspring probabilities with genetic crosses, for example the 1 in 4 risk of cystic fibrosis for two carriers. It is used in genetic counselling and carrier testing, and in plant and animal breeding to combine desirable traits. It is the foundation of modern genetics, including the idea that genes are carried on chromosomes. Limitations: polygenic traits such as height show continuous variation and do not give simple ratios. Environmental factors, such as diet and health, change the phenotype. Common diseases such as heart disease and type 2 diabetes are multifactorial. Epigenetic changes switch genes on or off without changing the DNA sequence. Judgement: Mendelian genetics remains accurate and useful for single-gene traits, while most human traits and common diseases are complex, so modern genetics adds polygenic risk, gene-environment interaction and epigenetics to Mendel's principles rather than replacing them."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "loId": "bio8-s8",
+  "chapterId": "bio8",
+  "subsection": "Investigation: reducing sugars, quantitatively",
+  "syllabusRef": "1.2.6",
+  "notes": [
+    {
+      "h": "Planning the quantitative investigation",
+      "points": [
+        "Aim: to compare the concentration of reducing sugar in a range of food samples, by comparing their Benedict's results with those of glucose solutions of known concentration.",
+        "Hypothesis, e.g.: “Grape juice contains a higher concentration of reducing sugar than milk.” A prediction that ranks the foods is also acceptable.",
+        "Principle: the more reducing sugar in a sample, the more blue copper(II) ions are reduced to brick-red copper(I) oxide. The colour therefore moves further along the scale described in “Investigation: food tests”, and more precipitate forms. This works only if Benedict's is in excess, so the colour keeps changing with sugar concentration across the range tested.",
+        "Independent variable: the food sample, and for the standards the known glucose concentration. Dependent variable: the concentration of reducing sugar, judged from the colour, or measured as absorbance with a colorimeter.",
+        "Controlled variables: the mass of food and the volume of water used to make each extract; the volume of sample and of Benedict's solution; the concentration of Benedict's; the water-bath temperature; the heating time; and the time before the colours are compared.",
+        "Controls: a tube of distilled water with Benedict's solution (0%, no reducing sugar) is the negative control and stays blue. The standard glucose solutions act as positive controls and as the reference scale.",
+        "Equipment and materials: glucose powder, electronic balance, volumetric flask or graduated cylinder, beakers, distilled water, graduated pipettes or syringes, test tubes and rack, labels, mortar and pestle, filter funnel and paper, hot water bath with thermometer, test-tube holder, timer, Benedict's solution, white tile or card and safety glasses. Optionally a colorimeter with cuvettes and glucose test strips.",
+        "Example food samples: grape juice, apple juice, orange juice, honey, milk, onion, a sports drink, and a table-sugar solution, which is expected to stay blue because sucrose is non-reducing."
+      ]
+    },
+    {
+      "h": "Method: making the standard glucose solutions",
+      "points": [
+        "Step 1: make a stock solution of 1% glucose by dissolving 1 g of glucose in distilled water and making it up to 100 cm³.",
+        "Step 2: dilute the stock with distilled water to make a range of known concentrations, e.g. 1%, 0.5%, 0.25%, 0.1% and 0% (distilled water only).",
+        "Worked dilutions: 5 cm³ of 1% stock plus 5 cm³ of water gives 0.5%; 2.5 cm³ of stock plus 7.5 cm³ of water gives 0.25%; 1 cm³ of stock plus 9 cm³ of water gives 0.1%.",
+        "Step 3: label each tube with its concentration. Any evenly spread range is acceptable; a serial dilution, halving the concentration each time, also works."
+      ]
+    },
+    {
+      "h": "Method: preparing the food samples",
+      "points": [
+        "Step 1: weigh the same mass of each solid food, e.g. 5 g, on an electronic balance.",
+        "Step 2: crush it with a mortar and pestle in the same volume of distilled water, e.g. 50 cm³.",
+        "Step 3: filter to give a clear extract.",
+        "Step 4: dilute liquid foods by the same factor, e.g. 1 cm³ of juice plus 9 cm³ of water, so that very sweet samples fall within the range of the standards. Record the dilution so the original concentration can be worked out."
+      ]
+    },
+    {
+      "h": "Method: the Benedict's test against a colour scale",
+      "points": [
+        "Step 1: place 2 cm³ of each standard and 2 cm³ of each food extract in separate labelled test tubes.",
+        "Step 2: add 2 cm³ of Benedict's solution to every tube and mix.",
+        "Step 3: place all the tubes in the same hot water bath (near boiling, at least about 80 °C) at the same time, and heat them for exactly the same time, e.g. 5 minutes.",
+        "Step 4: remove all the tubes at the same time and place them in a rack in front of a white background.",
+        "Step 5: arrange the standards in order to form a colour scale.",
+        "Step 6: compare each food tube with the scale and record the standard it matches most closely, or the two it lies between.",
+        "Step 7: repeat the whole test three times for each food and use the most common or average result.",
+        "Diagram: a row of test tubes of the standards after heating, labelled 0%, 0.1%, 0.25%, 0.5% and 1%, with colours running from blue at 0% through green, yellow and orange to brick red at the highest concentration, and a food tube being matched against them. Do not tie an exact colour to each concentration, as it depends on the Benedict's volume and heating time."
+      ]
+    },
+    {
+      "h": "More quantitative method 1: colorimeter",
+      "points": [
+        "A colorimeter measures how much light of a chosen colour passes through a solution (transmission) or is absorbed by it (absorbance). It gives a number instead of a judgement by eye.",
+        "Method: after heating, let the precipitate settle, or filter or centrifuge each tube, to leave the remaining blue solution. Zero the colorimeter with a cuvette of distilled water.",
+        "Measure the absorbance of each standard's solution using a red filter, because blue solutions absorb red light.",
+        "The more reducing sugar that was present, the more copper(II) ions were used up. The remaining solution is paler blue, so its absorbance is lower and its transmission higher.",
+        "Plot a calibration curve: absorbance on the y-axis against known glucose concentration on the x-axis for the standards, with a line or smooth curve of best fit. Measure the absorbance of each food extract and read its concentration from the curve, then multiply by any dilution factor."
+      ]
+    },
+    {
+      "h": "More quantitative method 2: glucose test strips",
+      "points": [
+        "A glucose test strip has a pad containing the enzymes glucose oxidase and peroxidase and a dye. When dipped in a solution, the pad changes colour according to the glucose concentration, and the colour is matched to a chart on the container that gives the concentration. Test the standards first to check the strips.",
+        "Limitation: the enzyme is specific to glucose, so strips detect glucose only, not other reducing sugars such as fructose, lactose or maltose. Milk, for example, gives a negative or low strip result but a positive Benedict's result.",
+        "Strips have a limited range, so samples may need diluting.",
+        "Technology and health link: similar strips and electronic glucose meters are used by people with diabetes to monitor their glucose (see “The Endocrine System”)."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear safety glasses. Benedict's solution is harmful if swallowed or splashed in the eyes; wash splashes off with water.",
+        "Heat only in a water bath, never directly in a flame, because the mixture can boil suddenly and spurt. Use a test-tube holder, and take care with near-boiling water and hot tubes.",
+        "Do not eat or taste any food in the lab. Note allergies, and clean up spills: sugar solutions make benches sticky and floors slippery."
+      ]
+    },
+    {
+      "h": "Results and conclusion",
+      "points": [
+        "Record primary data in a table: food sample; colour after heating; matching standard, as an estimated percentage of reducing sugar; repeats; and, with a colorimeter, absorbance and the concentration read from the curve.",
+        "Expected pattern: honey and grape juice give orange to brick red, showing high reducing sugar, mostly glucose and fructose. Other fruit juices and sports drinks give yellow to orange. Milk gives green to yellow, because of its lactose. The table-sugar solution and water stay blue. Actual results depend on the products used, so exact percentages are not given here.",
+        "Conclusion: rank the foods by reducing-sugar concentration, give each an estimated range, e.g. “between 0.25% and 0.5%”, state whether the results support the hypothesis, and refer to the primary data.",
+        "This method is semi-quantitative: it estimates a range rather than an exact value, because matching colours by eye is a judgement. The colorimeter gives a more precise and objective value."
+      ]
+    },
+    {
+      "h": "Sources of error and improvements",
+      "points": [
+        "Judging colour by eye is subjective. Improve it with a colorimeter, or by having several people judge independently.",
+        "Unequal heating, such as tubes put in or taken out at different times, or a water bath that cools, changes the colour. Heat all tubes together for the same time, and check the bath temperature with a thermometer.",
+        "If Benedict's is not in excess, all the copper(II) ions are used up and every concentrated sample looks brick red. Dilute the samples or use more Benedict's.",
+        "Coloured or cloudy food extracts affect the colour. Filter them and dilute coloured juices.",
+        "The precipitate settles over time, changing the appearance. Compare all the tubes at the same time after heating.",
+        "Inaccurate measuring of volumes and masses. Use graduated pipettes or syringes and an electronic balance.",
+        "Too few standards give a coarse scale. Use more standards spread over the range, and repeat each test at least three times to check repeatability."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Colorimeter", "definition": "An instrument that measures how much light of a chosen colour passes through or is absorbed by a solution, giving a number instead of a judgement by eye." },
+    { "term": "Absorbance", "definition": "The amount of light of a chosen colour that a solution absorbs; for Benedict's it falls as reducing sugar concentration rises." },
+    { "term": "Calibration curve", "definition": "A graph of absorbance against known concentration for standard solutions, used to read the concentration of an unknown." },
+    { "term": "Glucose test strip", "definition": "A strip with glucose oxidase and peroxidase in a dye pad that changes colour with glucose concentration; it detects glucose only." },
+    { "term": "Semi-quantitative", "definition": "Estimating a range of values, rather than an exact value, from a judgement such as matching a colour to a scale." },
+    { "term": "Dilution factor", "definition": "The number by which a sample was diluted, used to work out the original concentration." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would compare the concentration of reducing sugar in three fruit juices. Include how you would make the comparison quantitative and two variables you would control.",
+      "model": "Make a stock 1% glucose solution and dilute it to make standards of 1%, 0.5%, 0.25%, 0.1% and 0%. Prepare each juice in the same way, diluting by the same factor if needed, and record the dilution. Put 2 cm³ of each standard and of each juice extract in labelled tubes, add 2 cm³ of Benedict's solution to each, and heat all the tubes together in the same hot water bath, near boiling, for the same time, for example 5 minutes. Compare the colours against the standards in front of a white background, and record the standard each juice matches. To make the comparison quantitative, measure the absorbance of each tube with a colorimeter using a red filter, plot a calibration curve of absorbance against glucose concentration, and read each juice's concentration from it, then multiply by the dilution factor. Two variables to control are the volume of sample and Benedict's solution, and the heating time and water-bath temperature."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain how you would make 10 cm³ each of 1%, 0.5% and 0.1% glucose solutions from a 1% stock solution.",
+      "model": "The 1% solution is the stock solution itself, so 10 cm³ of the stock is used. For 0.5%, mix 5 cm³ of the 1% stock with 5 cm³ of distilled water. For 0.1%, mix 1 cm³ of the 1% stock with 9 cm³ of distilled water. Each mixture is 10 cm³ and is labelled with its concentration."
+    },
+    {
+      "marks": 9,
+      "prompt": "A food gave a brick-red Benedict's result but a negative result with a glucose test strip. Suggest an explanation, and give one advantage of using a colorimeter over judging colour by eye.",
+      "model": "The food probably contains a reducing sugar other than glucose, such as lactose or fructose, which reduces Benedict's solution but is not detected by a glucose test strip, because the strip's enzyme is specific to glucose. One advantage of a colorimeter is that it gives an objective numerical value of absorbance, rather than a judgement by eye, so the result is more precise and can be read from a calibration curve."
+    }
+  ]
+}

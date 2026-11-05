@@ -1,0 +1,74 @@
+{
+  "loId": "ch12-s1",
+  "chapterId": "ch12",
+  "subsection": "1. The risks of enterprise and why risk management matters",
+  "syllabusRef": "2.7.1, 2.7.2",
+  "notes": [
+    { "h": "Enterprise and risk", "b": "Enterprise means taking a business idea forward and running a venture. The person who starts it carries the risk that the venture fails.", "points": [
+      "An entrepreneur brings together money, premises, people and ideas to pursue a business opportunity, and bears the financial loss if it fails.",
+      "Risk is the chance that an event will harm a business or stop it reaching its objectives.",
+      "The outcome of a new venture is uncertain, so risk cannot be removed entirely; it can only be identified, reduced and managed.",
+      "Profit is often seen as the reward for bearing risk, which is why taking sensible risks is central to enterprise."
+    ] },
+    { "h": "Challenges of starting a business", "b": "New businesses face several challenges that can threaten their survival in the first years.", "points": [
+      "Finance: raising start-up capital and keeping enough cash flowing until sales cover costs is often the hardest challenge.",
+      "Competition: established firms and new rivals can take market share and force prices down.",
+      "Time: the owner often works very long hours and may struggle to balance running the business with other demands.",
+      "Skills: a founder may lack experience in marketing, accounting or managing staff, which raises the chance of costly mistakes.",
+      "Regulation: licences, employment law, tax obligations and health and safety rules add cost and paperwork from the start."
+    ] },
+    { "h": "Categories of business risk", "b": "Grouping risks into categories helps a firm identify each one in a structured way.", "points": [
+      "Financial risk: losses caused by poor cash flow, rising borrowing costs, bad debts or movements in exchange rates.",
+      "Market risk: falls in demand, changes in customer tastes or actions by competitors that reduce sales or prices.",
+      "Operational risk: failures in processes, equipment breakdown, supplier problems or loss of key staff that disrupt production or service.",
+      "Legal and compliance risk: breaking contract, employment, consumer, tax or data protection law.",
+      "Reputational risk: damage to a brand from poor product quality, a safety incident or a public complaint, which can lose customers.",
+      "Cyber and technological risk: hacking, ransomware, data loss or system failure that halts trading or exposes customer data.",
+      "Environmental and climate risk: flooding, extreme weather, shortages of raw materials or new carbon rules that affect costs and premises.",
+      "Personal risk to the entrepreneur: illness, loss of income, or personal guarantees given to lenders that can put the owner's own assets at risk."
+    ] },
+    { "h": "The risk assessment process", "b": "Risk assessment is a repeating cycle that shows a firm which risks need action first.", "points": [
+      "Step one, identify: list the risks the business faces, using the main categories and the knowledge of staff.",
+      "Step two, evaluate: estimate the likelihood of each risk occurring and the impact on the business if it does.",
+      "Step three, prioritise: place each risk on a risk matrix so that high-likelihood, high-impact risks are dealt with first.",
+      "Step four, act: choose a response such as avoiding, reducing, transferring or accepting the risk.",
+      "Step five, monitor: review the risk register regularly, because likelihood and impact change as the business and its environment change."
+    ] },
+    { "h": "Why managing risk matters", "b": "Managing risk protects a business against threats that could stop it trading and lets it pursue opportunities with a clear view of the downside.", "points": [
+      "Survival: a single uninsured fire, lawsuit or serious cyber attack can close a small business, so managing risk protects its ability to keep trading.",
+      "Lower costs: good controls, such as fire safety and security measures, can help a firm obtain lower insurance premiums.",
+      "Legal duty: the Safety, Health and Welfare at Work Act 2005 requires employers to manage risks to the safety and health of employees, and the Health and Safety Authority enforces it.",
+      "Investor and lender confidence: banks and investors are more willing to finance firms that show they identify and control their risks.",
+      "Continuity: planning for disruption, such as a supplier failure or flood, lets a firm recover quickly and keep serving customers.",
+      "Better decisions: knowing the risks helps managers judge whether an opportunity is worth its potential downside."
+    ] },
+    { "h": "Risk, sustainability and digital change", "b": "The four cross-cutting angles of the course all create or change business risk.", "points": [
+      "Environmental risk includes the cost of meeting climate rules, such as limits on carbon emissions from transport and manufacturing.",
+      "An ethical lapse, such as unsafe working conditions among a supplier's staff, creates both legal risk and reputational risk for the buyer.",
+      "Moving sales online adds cyber risk: a firm must protect customer payment data and comply with data protection law.",
+      "An entrepreneur who plans for risk from the start, rather than reacting to it, is more likely to build a business that lasts."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Risk", "definition": "The chance that an event will harm a business or prevent it from achieving its objectives." },
+    { "term": "Risk management", "definition": "The process of identifying, assessing, responding to and monitoring risks so that a business can protect itself and pursue its goals." },
+    { "term": "Risk matrix", "definition": "A grid that plots the likelihood of each risk against its impact so that risks can be ranked by priority." },
+    { "term": "Likelihood", "definition": "How probable it is that a particular risk event will happen within a given period." },
+    { "term": "Impact", "definition": "The size of the damage a risk would cause to a business if it occurred." },
+    { "term": "Financial risk", "definition": "The risk of loss from poor cash flow, rising borrowing costs, bad debts or exchange rate movements." },
+    { "term": "Operational risk", "definition": "The risk that failures in processes, equipment, suppliers or staff disrupt a business's production or service." },
+    { "term": "Business continuity", "definition": "A plan that keeps essential operations running, or allows quick recovery, after a disruptive event." }
+  ],
+  "factCards": [
+    { "term": "Five challenges of starting a business", "definition": "Finance, competition, time, skills and regulation." },
+    { "term": "Five steps of risk assessment", "definition": "Identify, evaluate likelihood and impact, prioritise in a risk matrix, act, then monitor." },
+    { "term": "Eight categories of business risk", "definition": "Financial, market, operational, legal and compliance, reputational, cyber and technological, environmental and climate, and personal risk to the entrepreneur." },
+    { "term": "Five reasons to manage risk", "definition": "Survival, lower costs and premiums, legal duty, investor and lender confidence, and continuity." },
+    { "term": "Irish law on workplace risk", "definition": "The Safety, Health and Welfare at Work Act 2005, enforced by the Health and Safety Authority." },
+    { "term": "Axes of a risk matrix", "definition": "Likelihood on one axis and impact on the other; risks in the high-likelihood, high-impact corner get priority." }
+  ],
+  "questions": [
+    { "marks": 10, "prompt": "Explain two reasons why managing risk is important for a new business.", "model": "First, risk management protects survival. A new business has little capital, so a single uninsured fire, a large bad debt or a cyber attack could close it. By identifying these threats and planning responses in advance, the firm can absorb a shock and keep trading. Second, it lowers costs and supports funding. Insurers often offer lower premiums to firms that show good safety and security controls, and banks and investors are more willing to lend to or invest in a business that can show its risks are controlled." },
+    { "marks": 20, "prompt": "Outline the stages of a risk assessment and explain how a risk matrix helps a manager decide which risks to address first. Use an example from a retail business.", "model": "The first stage is identification, where the manager lists risks such as theft, a supplier failure, a data breach or a fall in footfall, using staff knowledge and the main risk categories. The second stage is evaluation, where each risk is given an estimate of its likelihood and of its impact on the business. The risk matrix then places each risk on a grid with likelihood on one axis and impact on the other, so the manager can see which risks fall in the high-likelihood, high-impact corner. For a shop, frequent shoplifting that steadily drains stock would sit in that corner and be dealt with first, while a rare flood that would cause limited loss could be monitored. The final stages are acting on the priority risks and monitoring the matrix regularly, because likelihood changes as trading conditions change." }
+  ]
+}

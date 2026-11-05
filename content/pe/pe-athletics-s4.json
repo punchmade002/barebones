@@ -1,0 +1,149 @@
+{
+  "loId": "pe-athletics-s4",
+  "chapterId": "pe-athletics",
+  "subsection": "4. Jumping events",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Principles of jumping",
+      "points": [
+        "Jumping converts the speed of the run-up into height (high jump) or horizontal distance (long and triple jump) at take-off.",
+        "The distance or height achieved depends on the take-off speed, the take-off angle and the height of the centre of mass at take-off.",
+        "Take-off uses a powerful, extended drive of the hip, knee and ankle, and the free leg and arms swing upward to add lift.",
+        "Newton's third law explains take-off: the jumper pushes down into the ground, and the ground reaction force pushes the jumper up and forward."
+      ]
+    },
+    {
+      "h": "High jump (Fosbury flop)",
+      "points": [
+        "Run-up: a curved, J-shaped approach, straight at first and then curving in the final strides.",
+        "Run-up: the jumper leans away from the bar on the curve.",
+        "Take-off: the jumper takes off from the foot further from the bar, driving the knee of the free leg up.",
+        "Take-off: the body rotates so that the back faces the bar.",
+        "Flight: the jumper arches over the bar with the head and shoulders back and the hips high, then lifts the legs over.",
+        "Landing: the jumper lands on the upper back and shoulders on the mat."
+      ]
+    },
+    {
+      "h": "Long jump",
+      "points": [
+        "Run-up: an accelerating run-up with a consistent number of strides, checked by a check mark on the runway.",
+        "Take-off: an active, flat-footed take-off from the board, without stopping on the board.",
+        "Take-off: the free knee is driven up to help the body rotate forward.",
+        "Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping.",
+        "Landing: the legs are extended forward, and the jumper falls forward or sideways, not backwards."
+      ]
+    },
+    {
+      "h": "Triple jump",
+      "points": [
+        "Run-up: as for the long jump, with an accelerating run-up and a consistent stride pattern.",
+        "Take-off (hop): the jumper takes off from the board and lands on the same foot.",
+        "Flight (step): the jumper lands on the other foot, keeping the phases balanced.",
+        "Landing (jump): the jumper lands in the pit on both feet.",
+        "The sequence is always hop, then step, then jump.",
+        "The phases should have roughly even rhythm, and speed is maintained through all three.",
+        "Landings are active and flat-footed.",
+        "Arm action, either single or double, drives each phase."
+      ]
+    },
+    {
+      "h": "Rules and fouls for jumping events",
+      "points": [
+        "High jump: the take-off must be from one foot.",
+        "High jump: three consecutive failures eliminate the jumper, whether at one height or across heights.",
+        "High jump: the bar must stay on the supports; knocking it off is a failure.",
+        "Long and triple jump: stepping over the take-off board line is a foul.",
+        "Long and triple jump: the jump is measured from the take-off line to the nearest mark in the sand made by any part of the body."
+      ]
+    },
+    {
+      "h": "Overall efficiency and common faults",
+      "points": [
+        "An efficient jump has a consistent run-up, speed maintained through take-off, an upright posture at take-off and a controlled landing.",
+        "Slowing down before the board removes the speed that the jump depends on.",
+        "Overstriding at take-off lands the foot ahead of the body, which brakes the jump.",
+        "Sitting back on landing loses distance.",
+        "Flattening the curve in the high jump reduces the lean away from the bar and the rotation needed to clear it."
+      ]
+    },
+    {
+      "h": "Safety in jumping events",
+      "points": [
+        "Landing pits are dug and raked before any jump.",
+        "Landing mats are positioned and checked before the high jump.",
+        "The runway is clear of people and equipment during the run-up.",
+        "Spikes are checked for damage before use.",
+        "The take-off area is dry, so the jumper does not slip at take-off."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Take-off",
+      "definition": "The final push from the ground that launches the jumper into flight, using a powerful extension of the hip, knee and ankle."
+    },
+    {
+      "term": "Centre of mass",
+      "definition": "The point at which the body's mass is balanced; its height and angle at take-off determine the jump."
+    },
+    {
+      "term": "Fosbury flop",
+      "definition": "The high jump style in which the jumper takes off from the foot further from the bar and clears it back first."
+    },
+    {
+      "term": "Hitch-kick",
+      "definition": "A long jump flight technique in which the legs are cycled to delay them dropping and keep the body balanced."
+    },
+    {
+      "term": "Hop",
+      "definition": "The first phase of the triple jump, in which the jumper takes off and lands on the same foot."
+    },
+    {
+      "term": "Step",
+      "definition": "The second phase of the triple jump, in which the jumper lands on the other foot."
+    },
+    {
+      "term": "Check mark",
+      "definition": "A mark on the runway that a long or triple jumper uses to check that the run-up has the right number of strides."
+    },
+    {
+      "term": "Take-off board",
+      "definition": "The board from which the long and triple jumper takes off, over which the jumper must not step."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Triple jump: the order of the phases",
+      "definition": "Hop (takes off and lands on the same foot), then step (lands on the other foot), then jump (lands in the pit on both feet)."
+    },
+    {
+      "term": "High jump: which foot to take off from",
+      "definition": "The foot further from the bar."
+    },
+    {
+      "term": "High jump: elimination",
+      "definition": "Three consecutive failures eliminate the jumper, whether at one height or across heights."
+    },
+    {
+      "term": "Long jump: flight options",
+      "definition": "A hang, a sail or a hitch-kick, used to keep balance and delay the legs dropping."
+    },
+    {
+      "term": "Long and triple jump: how the jump is measured",
+      "definition": "From the take-off line to the nearest mark in the sand made by any part of the body."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Describe the run-up, take-off, flight and landing in the long jump, giving key technique points for each phase.",
+      "model": "Run-up: the jumper accelerates with a consistent number of strides, checked by a check mark on the runway, so the foot lands on the board at the right point. Take-off: the jumper makes an active, flat-footed take-off from the board without stopping, driving the free knee up to help rotation and keeping the body upright. Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping, so that the legs can be extended further forward. Landing: the legs are extended forward and the jumper falls forward or sideways, not backwards, so that the mark in the sand is as far from the take-off line as possible."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe the three phases of the triple jump.",
+      "model": "The triple jump has three phases in a fixed order. The hop is the first phase: the jumper takes off from the board and lands on the same foot. The step is the second phase: the jumper lands on the other foot, keeping the phases balanced and maintaining speed. The jump is the third phase: the jumper lands in the pit on both feet. Arm action, either single or double, drives each phase."
+    }
+  ]
+}

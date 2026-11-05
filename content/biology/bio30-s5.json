@@ -1,0 +1,222 @@
+{
+  "loId": "bio30-s5",
+  "chapterId": "bio30",
+  "subsection": "Investigation: rate of transpiration",
+  "syllabusRef": "2.6.16",
+  "notes": [
+    {
+      "h": "Investigation: how each factor changes the rate of transpiration",
+      "b": "The rate of transpiration is the volume, or mass, of water lost by a plant per unit time. It depends on how steep the water vapour concentration gradient is between the air spaces of the leaf, which are saturated with water vapour, and the outside air; how fast water evaporates; and how wide the stomata are open.",
+      "points": [
+        "Air movement: wind blows away the layer of humid air that builds up around the leaf, keeping the outside air dry and the gradient steep, so the rate increases. In still air the humid layer builds up and the rate falls.",
+        "Temperature: warmer water molecules have more kinetic energy, so they evaporate from the mesophyll cell walls and diffuse out faster. Warm air can also hold more water vapour, so the gradient is steeper. The rate increases with temperature.",
+        "At very high temperatures the plant may begin to wilt and close its stomata, and then the rate falls.",
+        "Surface area: more leaves, or larger leaves, mean more stomata and more evaporating surface, so the rate increases roughly in proportion to the leaf area.",
+        "Cuticle: a waxy cuticle is waterproof, so only a little water is lost through it, and most is lost through the stomata. Leaves with a thick cuticle lose less water than leaves with a thin one. A leaf surface covered with an artificial waterproof layer, such as petroleum jelly, loses almost none through that surface.",
+        "Light intensity: stomata open in the light and close in darkness, so the rate increases with light intensity, until the stomata are fully open, and is very low in darkness. A lamp also warms the leaf, which raises the rate further unless the temperature is controlled.",
+        "CO₂ concentration: a high concentration of CO₂ around the leaf partly closes the stomata, so the rate falls; a low concentration opens them wider, so the rate rises. The Higher Level explanation is in CO₂ as a controlling factor in plant stomata.",
+        "Humidity, which is not named by the specification but must be controlled when the other factors are tested: humid air reduces the gradient, so the rate falls. This matters whenever a shoot is enclosed in a plastic bag, as in the CO₂ method, because the air in the bag becomes humid."
+      ]
+    },
+    {
+      "h": "Planning: aim, hypotheses and variables",
+      "points": [
+        "Aim: to investigate the effect of one factor (air movement, temperature, surface area, cuticle, light intensity or CO₂ concentration) on the rate of transpiration of a leafy shoot. Change one factor per investigation.",
+        "Example hypotheses, each resting on the theory above: “Increasing air movement increases the rate of transpiration”; “The rate of transpiration increases as temperature increases”; “The rate increases as leaf area increases”; “Covering the lower surface of a leaf reduces water loss more than covering the upper surface”; “The rate increases as light intensity increases”; “Increasing the CO₂ concentration around a shoot reduces its rate of transpiration”.",
+        "Independent variable, using light intensity as the example: the lamp distance, or the light meter reading in lux. For the other factors, the independent variable is swapped and everything else is kept constant.",
+        "Dependent variable, using light intensity as the example: the rate of water uptake, the distance moved by the air bubble per minute, converted to a volume per minute.",
+        "Controlled variables, using light intensity as the example: the same shoot (same species, same number and size of leaves), temperature (a thermometer by the shoot and a heat shield), air movement (no fans, windows closed), humidity (the same room), CO₂ (the same room air), the time allowed to adjust, and the length of each timing.",
+        "Controls: a baseline reading for the same shoot in normal room conditions, still air, room temperature and normal light, to compare each change against. A leafless stem in the potometer, with all leaves removed and the cut surfaces sealed, shows that almost all the water is lost through the leaves. For the cuticle investigation the control is an untreated leaf; for the CO₂ investigation it is an identical bag with no CO₂ added or removed.",
+        "The potometer measures water uptake, not water loss. The two are almost equal, because nearly all the water a shoot takes up is lost by transpiration; only a tiny amount is used in photosynthesis or to keep the cells turgid. The mass-loss method measures water loss directly."
+      ]
+    },
+    {
+      "h": "Equipment and materials",
+      "points": [
+        "Bubble potometer: a capillary tube with a scale, a reservoir or syringe with a tap for resetting the bubble, and rubber tubing or a bung to hold the shoot.",
+        "Other apparatus: clamp stand; a leafy shoot of a woody shrub with a stiff stem, e.g. laurel or privet; sharp knife or scalpel; a basin or sink of water; petroleum jelly (Vaseline); paper towels; stopwatch; ruler; thermometer; bench lamp (LED preferred) and metre stick; light meter (optional); electric fan; heat shield, such as a flat-sided tank or beaker of water.",
+        "For the CO₂ method: a clear plastic bag with string or tape; soda lime, to absorb CO₂; and a CO₂ source, either a flask of marble chips with dilute hydrochloric acid connected by tubing, or a CO₂ cylinder.",
+        "For the cuticle and surface-area methods: graph paper, for measuring leaf area; and, for the alternative methods, an electronic balance, cobalt chloride paper, forceps and clear tape."
+      ]
+    },
+    {
+      "h": "Setting up the potometer",
+      "points": [
+        "1. Cut a leafy shoot from the plant, then immediately recut the stem at a slant under water, a few centimetres further up, so that no air enters the xylem. An air bubble would break the water columns (see Transport of water and minerals).",
+        "2. Submerge the potometer in the basin of water so that it fills completely, with no air bubbles.",
+        "3. Fit the shoot into the rubber tubing or bung under water, so that the joint is airtight.",
+        "4. Take the assembled potometer out of the water and clamp it upright, with the capillary tube horizontal.",
+        "5. Seal all joints with petroleum jelly to prevent leaks.",
+        "6. Gently dry the leaves with a paper towel, since water on their surface would evaporate and add to the loss.",
+        "7. Introduce one air bubble into the capillary tube by lifting its open end out of the water for a moment, then return it to a beaker of water.",
+        "8. Leave the shoot for about 5 minutes to adjust to the conditions.",
+        "9. Record the starting position of the bubble on the scale, start the stopwatch, and record the distance the bubble moves towards the shoot in a set time, e.g. 5 minutes.",
+        "10. Return the bubble to the start of the scale by opening the reservoir tap, or by pushing water in from the syringe.",
+        "11. Repeat at least three times under the same conditions, and calculate the mean.",
+        "Diagram: a bubble potometer clamped on a stand, with a leafy shoot sealed into the top with petroleum jelly, the water-filled tube, a reservoir with a tap, and a horizontal capillary tube with a scale and an air bubble, its open end dipping into a beaker of water; label each part and draw an arrow for the direction the bubble moves."
+      ]
+    },
+    {
+      "h": "Calculating the rate",
+      "points": [
+        "Rate of water uptake = distance moved by the bubble ÷ time, e.g. in mm per minute. Use this when all the readings use the same potometer.",
+        "To give a volume, use the volume of a cylinder: volume = πr² × distance moved, where r is the radius of the capillary tube.",
+        "Worked example: radius 0.5 mm, bubble moves 30 mm in 5 minutes. Volume = 3.14 × 0.5² × 30 = 3.14 × 0.25 × 30 = 23.6 mm³ in 5 minutes, so the rate is 23.6 ÷ 5 = 4.7 mm³ per minute.",
+        "To compare shoots of different sizes, divide by the leaf area. Draw round each leaf on 1 cm² graph paper, count the squares that are at least half covered, and add up the total for all the leaves.",
+        "Worked example: 4.7 mm³ per minute ÷ 50 cm² = 0.094 mm³ per minute per cm².",
+        "Mass-loss method: rate = mass lost ÷ time, e.g. in g per hour. Percentage mass loss = (mass lost ÷ starting mass) × 100, which allows leaves of different sizes to be compared.",
+        "Worked example: a leaf of 2.0 g that weighs 1.5 g after 24 hours has lost 0.5 g, which is 25%."
+      ]
+    },
+    {
+      "h": "Method: air movement",
+      "points": [
+        "1. Take the baseline reading in still air, as in the potometer setup.",
+        "2. Place an electric fan at a fixed distance, e.g. 1 m, from the shoot on its lowest setting. Wait 5 minutes and take three readings.",
+        "3. Repeat on the medium and highest settings, or with the fan at decreasing distances.",
+        "4. Check that the fan does not change the temperature by reading the thermometer near the shoot.",
+        "Expected: the rate increases as air movement increases."
+      ]
+    },
+    {
+      "h": "Method: temperature",
+      "points": [
+        "1. Take readings with the potometer in places at different, steady temperatures, e.g. a cool room, the laboratory and a warm room, measuring the air temperature beside the shoot with a thermometer each time.",
+        "2. Allow the shoot about 10 minutes to reach each temperature before taking three readings.",
+        "3. Do not use a fan heater blowing on the shoot, because it changes air movement as well as temperature. If a heater is used, place it at a distance, behind a heat shield.",
+        "4. Keep the light intensity the same in each place, with the same lamp and no direct sunlight.",
+        "Expected: the rate increases with temperature."
+      ]
+    },
+    {
+      "h": "Method: surface area",
+      "points": [
+        "1. Take readings with all the leaves on the shoot.",
+        "2. Remove one or two leaves by cutting them off at the base of the leaf stalk, seal the cut surfaces with petroleum jelly, and take new readings.",
+        "3. Repeat until no leaves remain.",
+        "4. Measure the area of each removed leaf on graph paper, as in the calculation method, so that the total leaf area left at each stage is known. Alternatively, compare shoots with different total leaf areas.",
+        "Expected: the rate falls as the leaf area falls, roughly in proportion, and the leafless stem gives almost no movement of the bubble. Plot the rate against the leaf area."
+      ]
+    },
+    {
+      "h": "Method: presence or absence of cuticle",
+      "points": [
+        "1. Pick four similar leaves of the same size from the same plant.",
+        "2. Leave leaf A untreated, as the control. Coat the upper surface of leaf B with a thin layer of petroleum jelly, coat the lower surface of leaf C, and coat both surfaces of leaf D. The petroleum jelly acts as an artificial, thicker waterproof cuticle.",
+        "3. Seal the cut end of each leaf stalk with petroleum jelly.",
+        "4. Weigh each leaf on an electronic balance.",
+        "5. Hang the leaves on a string across the room, in the same conditions.",
+        "6. Reweigh each leaf every day for several days, and calculate the percentage mass loss.",
+        "Expected results: A loses the most mass. B loses nearly as much as A, because its upper surface has a thick cuticle and few stomata. C loses much less, because the stomata on its lower surface are blocked. D loses almost none.",
+        "Conclusion: the cuticle greatly reduces water loss, and most water is lost through the stomata on the lower surface.",
+        "Variation using the potometer: coat the upper surfaces, then the lower surfaces, of all the leaves on the potometer shoot, and take readings after each, compared with the untreated reading. Alternatively, compare shoots of plants with a thick, shiny waxy cuticle, such as laurel, and plants with thin, soft leaves of similar area."
+      ]
+    },
+    {
+      "h": "Method: cobalt chloride paper (supporting method)",
+      "points": [
+        "Dry cobalt chloride paper is blue, and it turns pink when it absorbs water.",
+        "Using forceps, place a small square on the upper surface and one on the lower surface of a leaf still on the plant, and cover each with clear tape.",
+        "Time how long each square takes to turn pink.",
+        "Expected: the paper on the lower surface turns pink first, showing that more water vapour leaves through the lower surface, where most of the stomata are."
+      ]
+    },
+    {
+      "h": "Method: light intensity",
+      "points": [
+        "1. Work in a darkened room.",
+        "2. Place a lamp at a set distance from the shoot, e.g. 10 cm, with a heat shield between them. Wait 5 minutes and take three readings.",
+        "3. Repeat at 20, 30, 40 and 50 cm, measuring the distance from the bulb to the shoot with a metre stick. Alternatively, measure the light intensity with a light meter, since intensity does not fall in simple proportion to distance (see Investigation: rate of photosynthesis).",
+        "4. Take a final set of readings in darkness, with the lamp off and the shoot covered with a black bag or box.",
+        "5. Check the thermometer beside the shoot at each distance.",
+        "Expected: the rate is highest with the lamp closest, and very low in darkness, when the stomata close."
+      ]
+    },
+    {
+      "h": "Method: CO₂ concentration",
+      "points": [
+        "1. Take readings with the shoot in a clear plastic bag sealed loosely around the stem, with nothing added. This is the control for the effect of the bag and its humidity.",
+        "2. Raised CO₂: pass CO₂ into the bag through a tube from a flask of marble chips and dilute hydrochloric acid, or from a CO₂ cylinder. Tie the bag, wait 10 minutes and take three readings.",
+        "3. Lowered CO₂: place a small open dish of soda lime, which absorbs CO₂, inside the bag, not touching the leaves. Tie the bag, wait 10 minutes and take three readings.",
+        "4. Keep the shoot in bright light throughout, at a constant temperature, and keep each run short, because humidity builds up inside the bag.",
+        "Expected: raised CO₂ lowers the rate, and lowered CO₂ raises it slightly. The effect is smaller and harder to detect than the effects of light or air movement, so careful repeats and comparison with secondary data are needed."
+      ]
+    },
+    {
+      "h": "Safety in the transpiration investigation",
+      "points": [
+        "Cut away from the body on a tile, and take care with the knife or scalpel. Glass capillary tubes break easily, so handle them gently and report breakages.",
+        "Keep the lamp, the fan and their cables away from the basin and the potometer, and dry your hands before touching switches. Lamp bulbs, except LEDs, get very hot, so let them cool before moving them. Keep fingers clear of the fan blades.",
+        "Cobalt chloride paper is toxic and can cause cancer. Handle it only with forceps, wear gloves, and wash your hands afterwards.",
+        "Soda lime is corrosive, because it contains sodium hydroxide. Wear safety glasses and gloves, and do not touch it. Dilute hydrochloric acid is an irritant, so wear safety glasses.",
+        "Wash hands after handling plants, since some, such as laurel, are poisonous if eaten, and after handling petroleum jelly."
+      ]
+    },
+    {
+      "h": "Results, graphs and conclusions",
+      "points": [
+        "Record the primary data in a table: the independent variable (e.g. lamp distance in cm, fan setting, temperature in °C or leaf area in cm²), the three readings of distance moved in the set time, the mean, and the rate in mm per minute or mm³ per minute.",
+        "For the cuticle investigation, record the starting mass, each day's mass and the percentage mass loss for each leaf.",
+        "Plot the mean rate on the y-axis against the independent variable on the x-axis, with units. Use a bar chart for categories, such as fan settings, treatments A to D, or still and moving air, and a line graph for continuous variables, such as temperature, leaf area or light intensity.",
+        "Expected patterns: the rate rises with air movement, temperature, leaf area and light intensity. It falls with a thick or artificial cuticle, especially on the lower surface, and with raised CO₂. At high light intensity the rate levels off once the stomata are fully open.",
+        "Conclusion: state the relationship shown by the primary data, explain it using the theory of how each factor works (gradient, evaporation and stomatal opening), and say whether it supports the hypothesis. Use the mean of the repeats, and compare with other groups' results.",
+        "Diagram: four leaves hanging on a string, labelled A untreated, B upper surface coated, C lower surface coated and D both surfaces coated, with a bar chart of the expected percentage mass loss, with A highest, B slightly lower, C much lower and D lowest."
+      ]
+    },
+    {
+      "h": "Using secondary data",
+      "points": [
+        "Secondary data are results collected by others, such as other groups' class results, published graphs and tables, weather data (temperature, humidity and wind speed from a weather station or Met Éireann, Ireland's national weather service), or results from electronic sensors and data loggers measuring humidity or mass loss.",
+        "Pooling class results increases the sample size and checks reproducibility.",
+        "Interpreting a graph of transpiration over 24 hours: the rate is very low at night, when the stomata are closed, and the air is often cooler and still. It rises after dawn as the stomata open, light increases and the air warms. It peaks around the early afternoon, when light and temperature are highest and the air is driest, and it falls in the evening.",
+        "On a hot, dry afternoon the graph may dip if the plant begins to wilt and closes its stomata.",
+        "Because the effect of CO₂ is small in a school laboratory, published results from controlled-atmosphere experiments can be used for the CO₂ factor. These are plants grown at different CO₂ concentrations, with all other conditions fixed, and they support the conclusion that higher CO₂ reduces stomatal opening and transpiration.",
+        "Compare primary and secondary data by checking whether your results show the same trend as the published data. If they differ, look for an uncontrolled variable or a source of error, and evaluate the sources for reliability (see Recognising bias and evaluating sources)."
+      ]
+    },
+    {
+      "h": "Sources of error and limitations",
+      "points": [
+        "The potometer measures water uptake, not water loss, and a small amount of the water taken up is used by the plant.",
+        "Air leaks at the joints, or air entering the cut stem, stop or slow the bubble and give a falsely low rate. Cut the stem under water and seal the joints with petroleum jelly.",
+        "Changing one factor often changes another: a lamp heats the shoot, a fan or heater moves air, and a plastic bag raises humidity. Use a heat shield, keep heaters away, use a control bag and check the thermometer.",
+        "Room conditions, such as temperature, humidity, sunlight through windows and people moving about, change during a lesson. Take readings close together in time, and repeat them.",
+        "Too little time to adjust after each change gives a rate that still reflects the previous condition. Wait about 5 to 10 minutes.",
+        "A cut shoot behaves differently from a whole plant and may wilt during a long investigation. Use a healthy shoot and a short investigation, or a fresh shoot for each run, and measure its leaf area.",
+        "Reading the bubble position by eye on a scale is imprecise. Read at eye level and repeat at least three times, calculating a mean."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Rate of transpiration", "definition": "The volume, or mass, of water lost by a plant per unit time." },
+    { "term": "Potometer", "definition": "An apparatus that measures the rate of water uptake by a cut leafy shoot, by the distance a bubble moves along a capillary tube." },
+    { "term": "Bubble potometer", "definition": "A potometer with a capillary tube, a scale, a reservoir and an air bubble, which is moved by the water uptake of the shoot." },
+    { "term": "Independent variable", "definition": "The factor that the investigator deliberately changes in an experiment." },
+    { "term": "Dependent variable", "definition": "The factor that is measured in an experiment, which changes in response to the independent variable." },
+    { "term": "Controlled variable", "definition": "A factor that is kept the same throughout an experiment so that it does not affect the results." },
+    { "term": "Control", "definition": "A set-up that is identical to the test except for the factor being investigated, used as a comparison." },
+    { "term": "Percentage mass loss", "definition": "The mass lost by a leaf as a percentage of its starting mass, which allows leaves of different sizes to be compared." },
+    { "term": "Cobalt chloride paper", "definition": "Paper that is blue when dry and turns pink when it absorbs water vapour, used to show where water vapour is lost from a leaf." },
+    { "term": "Petroleum jelly", "definition": "A waterproof substance that acts as an artificial cuticle when it is spread on a leaf surface." },
+    { "term": "Soda lime", "definition": "A corrosive mixture that absorbs CO₂, used to lower the CO₂ concentration around a shoot." },
+    { "term": "Primary data", "definition": "Results that the investigator collects directly from their own experiment." },
+    { "term": "Secondary data", "definition": "Results collected by others, such as published data, weather data or class results from other groups." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the effect of (i) increased air movement and (ii) increased light intensity on the rate of transpiration, and explain each effect.",
+      "model": "(i) Increased air movement increases the rate of transpiration. Wind blows away the layer of humid air that builds up around the leaf, so the outside air stays dry and the water vapour concentration gradient between the leaf and the air stays steep, so water vapour diffuses out faster. (ii) Increased light intensity increases the rate of transpiration. Stomata open in the light and close in darkness, so with more light they open wider, giving more diffusion of water vapour out of the leaf, until the stomata are fully open."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would use a potometer to investigate the effect of light intensity on the rate of transpiration. Include how you would set up the apparatus, vary light intensity, measure the rate, and keep two other factors constant, and state one limitation of the method.",
+      "model": "Cut a leafy shoot from the plant and recut the stem at a slant under water, so no air enters the xylem. Submerge the potometer so that it fills with no air bubbles, fit the shoot under water into the tubing or bung, then clamp the potometer upright with the capillary tube horizontal. Seal all joints with petroleum jelly and dry the leaves with a paper towel. Introduce one air bubble, leave the shoot for about 5 minutes to adjust, and record the starting position of the bubble. Place a lamp at a set distance, e.g. 10 cm, with a heat shield between the lamp and the shoot, and record the distance the bubble moves in a set time, e.g. 5 minutes. Return the bubble to the start and repeat at 20, 30, 40 and 50 cm, and in darkness with the shoot covered. Take at least three readings at each distance and calculate the mean. Light intensity can also be measured with a light meter. Keep the temperature constant, by checking the thermometer beside the shoot and using a heat shield, and keep the air movement constant, by having no fans and the windows closed. One limitation is that the potometer measures water uptake, not water loss, although the two are almost equal."
+    },
+    {
+      "marks": 9,
+      "prompt": "Four similar leaves were treated with petroleum jelly as follows: A none, B upper surface, C lower surface, D both surfaces. They were weighed and hung up for three days. Predict the order of percentage mass loss, from greatest to least, and explain your prediction. Calculate the percentage mass loss of a leaf that fell from 2.0 g to 1.5 g.",
+      "model": "The predicted order, from greatest to least percentage mass loss, is A, then B, then C, then D. Leaf A has no coating, so it keeps its natural cuticle and loses the most water through its open stomata. Leaf B has its upper surface coated, which blocks little because the upper surface has a thick cuticle and few stomata, so it loses nearly as much as A. Leaf C has its lower surface coated, which blocks the stomata on the surface where most of them lie, so it loses much less water. Leaf D has both surfaces coated, so it loses almost none. Percentage mass loss = (mass lost ÷ starting mass) × 100. The leaf lost 2.0 − 1.5 = 0.5 g, so the percentage mass loss = (0.5 ÷ 2.0) × 100 = 25%."
+    }
+  ]
+}

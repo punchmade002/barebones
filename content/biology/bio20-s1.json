@@ -1,0 +1,131 @@
+{
+  "loId": "bio20-s1",
+  "chapterId": "bio20",
+  "subsection": "Glands, locations and hormones",
+  "syllabusRef": "2.4.10",
+  "notes": [
+    {
+      "h": "The endocrine system",
+      "b": "Hormones are chemical messengers carried in the blood. Glands that release them directly into the blood make up the endocrine system.",
+      "points": [
+        "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. Only cells with receptors for that hormone respond.",
+        "Endocrine glands are ductless: they secrete hormones directly into the blood.",
+        "Exocrine glands secrete through ducts, for example the salivary and sweat glands.",
+        "The pancreas is both: an exocrine gland making digestive enzymes and an endocrine gland making insulin.",
+        "Diagram: outline of the human body showing the position of the pituitary, thyroid, parathyroids, adrenals, pancreas, ovaries and testes."
+      ]
+    },
+    {
+      "h": "Pituitary gland: the master gland",
+      "b": "The pituitary is at the base of the brain, below and attached to the hypothalamus. It is called the master gland because several of its hormones control other glands.",
+      "points": [
+        "TSH (thyroid-stimulating hormone) stimulates the thyroid to release thyroxine.",
+        "Oxytocin causes the uterus to contract during labour, and causes milk to be released from the breasts during breastfeeding.",
+        "Oxytocin is made in the hypothalamus and released from the pituitary."
+      ]
+    },
+    {
+      "h": "FSH, LH and ADH (Higher Level only)",
+      "points": [
+        "FSH (follicle-stimulating hormone): in females, stimulates a follicle in the ovary to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes.",
+        "LH (luteinising hormone): in females, a surge of LH causes ovulation and the empty follicle to become the corpus luteum; in males, stimulates the testes to produce testosterone.",
+        "ADH (antidiuretic hormone): makes the collecting ducts of the kidney more permeable, so more water is reabsorbed into the blood and a smaller volume of more concentrated urine is produced.",
+        "ADH is made in the hypothalamus and released from the pituitary. Its role in osmoregulation is covered in The Urinary System."
+      ]
+    },
+    {
+      "h": "Thyroid gland",
+      "points": [
+        "Location: in the neck, in front of the trachea, just below the larynx.",
+        "Thyroxine controls the metabolic rate, which is the rate of respiration in cells.",
+        "Thyroxine is needed for normal growth and development.",
+        "Thyroxine contains iodine."
+      ]
+    },
+    {
+      "h": "Parathyroid glands",
+      "points": [
+        "Location: four small glands on the back of the thyroid.",
+        "Parathyroid hormone raises the calcium level of the blood when it falls.",
+        "It does this by releasing calcium from bone, increasing calcium absorption from the gut and increasing calcium reabsorption in the kidneys."
+      ]
+    },
+    {
+      "h": "Adrenal glands and adrenaline",
+      "points": [
+        "Location: one on top of each kidney.",
+        "Adrenaline prepares the body for fight or flight in stress or danger.",
+        "It increases heart rate and breathing rate.",
+        "It raises blood glucose by causing the liver to convert glycogen to glucose.",
+        "It diverts blood to the muscles and dilates the pupils."
+      ]
+    },
+    {
+      "h": "Pancreas and insulin",
+      "points": [
+        "Location: in the abdomen, behind the stomach.",
+        "Clusters of cells called the islets of Langerhans secrete insulin.",
+        "Insulin lowers blood glucose by making cells take up glucose from the blood.",
+        "Insulin makes the liver and muscles convert glucose to glycogen for storage."
+      ]
+    },
+    {
+      "h": "Testes and testosterone",
+      "points": [
+        "Location: in the scrotum, outside the abdomen.",
+        "Testosterone causes sperm production to begin at puberty.",
+        "It causes the male secondary sexual characteristics: growth of facial and body hair, deepening of the voice and increased muscle growth."
+      ]
+    },
+    {
+      "h": "Ovaries, oestrogen and progesterone",
+      "points": [
+        "Location: in the lower abdomen, one on each side of the uterus.",
+        "Oestrogen causes the female secondary sexual characteristics, such as breast development and widening of the hips.",
+        "Oestrogen repairs and thickens the endometrium after menstruation.",
+        "Progesterone maintains the endometrium and maintains pregnancy."
+      ]
+    },
+    {
+      "h": "Summary: glands, locations, hormones and functions",
+      "points": [
+        "Adrenal glands: on top of each kidney; adrenaline; fight or flight, raising heart rate and blood glucose.",
+        "Pituitary gland: base of the brain; TSH and oxytocin; TSH controls thyroxine release, oxytocin causes uterine contraction and milk release.",
+        "Pituitary gland (Higher Level only): base of the brain; FSH, LH and ADH; FSH and LH act on the ovaries and testes, ADH increases water reabsorption in the collecting ducts.",
+        "Thyroid gland: in the neck; thyroxine; controls metabolic rate.",
+        "Parathyroid glands: on the back of the thyroid; parathyroid hormone; raises blood calcium.",
+        "Pancreas: behind the stomach; insulin; lowers blood glucose.",
+        "Testes: in the scrotum; testosterone; sperm production and male secondary sexual characteristics.",
+        "Ovaries: in the lower abdomen; oestrogen and progesterone; female secondary sexual characteristics, the endometrium and pregnancy."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Hormone", "definition": "A chemical messenger made by an endocrine gland, carried in the blood, that acts only on cells with receptors for it." },
+    { "term": "Endocrine gland", "definition": "A ductless gland that secretes hormones directly into the blood." },
+    { "term": "Exocrine gland", "definition": "A gland that secretes its product through a duct, such as a salivary or sweat gland." },
+    { "term": "Target cell", "definition": "A cell with receptors for a particular hormone, which the hormone acts on." },
+    { "term": "Master gland", "definition": "The pituitary gland, whose hormones control several other glands." },
+    { "term": "Islets of Langerhans", "definition": "Clusters of cells in the pancreas that secrete insulin." },
+    { "term": "Fight or flight", "definition": "The body's response to stress or danger, prepared by adrenaline." },
+    { "term": "Thyroxine", "definition": "A hormone from the thyroid gland that controls the metabolic rate and contains iodine." },
+    { "term": "Oxytocin", "definition": "A pituitary hormone that causes the uterus to contract in labour and releases milk during breastfeeding." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "For each of the following hormones, name the gland that produces it, state where the gland is located, and give one function: thyroxine, adrenaline, insulin, testosterone.",
+      "model": "Thyroxine: produced by the thyroid gland, which is in the neck in front of the trachea, just below the larynx. It controls the metabolic rate. Adrenaline: produced by the adrenal glands, one on top of each kidney. It prepares the body for fight or flight, for example by increasing heart rate. Insulin: produced by the islets of Langerhans in the pancreas, which is in the abdomen behind the stomach. It lowers blood glucose by making cells take up glucose from the blood. Testosterone: produced by the testes, which are in the scrotum outside the abdomen. It causes sperm production to begin at puberty and the male secondary sexual characteristics."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is a hormone? Explain why a hormone affects only certain cells in the body.",
+      "model": "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. A hormone affects only certain cells because only cells with receptors for that hormone respond to it."
+    },
+    {
+      "marks": 9,
+      "prompt": "(Higher Level only) Give one function of FSH, LH and ADH.",
+      "model": "FSH: in females, stimulates a follicle in the ovary to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes. LH: in females, a surge of LH causes ovulation; in males, stimulates the testes to produce testosterone. ADH: makes the collecting ducts of the kidney more permeable, so more water is reabsorbed into the blood and a smaller volume of more concentrated urine is produced. One function of each is enough, and for FSH and LH one sex is enough."
+    }
+  ]
+}

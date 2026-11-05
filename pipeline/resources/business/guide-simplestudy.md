@@ -53,6 +53,14 @@
 
 ## Coverage cautions
 
+- Scope is the 2025 NCCA specification, first examined June 2027 (written exam 60%, Business
+  Alive Investigative Study 40%). Do not use the old syllabus (© 1996, examined 1999 to June
+  2026): every SEC paper before 2027 was set on it and is legacy practice only. The full outline
+  is `course-outlines/business.md`.
+- Several SimpleStudy unit titles carry old-syllabus names ("Management Activities: Planning,
+  Organising and Controlling", "Conflict Resolution: Industrial Relations"). Use the
+  specification's section names; the outline's Appendix A lists the differences and the
+  old-syllabus topics not to teach.
 - Business law, consumer protection and economic policy can change. Verify time-sensitive facts
   against current primary sources before publication.
 - The SimpleStudy title “Devloping Questions to Research” contained a spelling error; this guide

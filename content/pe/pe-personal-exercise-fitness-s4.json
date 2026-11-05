@@ -1,0 +1,107 @@
+{
+  "loId": "pe-personal-exercise-fitness-s4",
+  "chapterId": "pe-personal-exercise-fitness",
+  "subsection": "4. Applying training principles to each method",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "The aspects to apply",
+      "points": [
+        "Readiness: the performer is physically and mentally ready, with a fitness base and technique in place.",
+        "Specificity: the training matches the demands of the activity or goal.",
+        "Progression: the training load rises gradually.",
+        "Overload: the body works harder than normal, adjusted through FITT (frequency, intensity, time and type).",
+        "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt.",
+        "Training zones: the heart-rate bands for aerobic and anaerobic work.",
+        "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold.",
+        "Work-recovery intervals: the ratio of recovery time to work time.",
+        "Warm-up and cool-down: the start and end of every session."
+      ]
+    },
+    {
+      "h": "Worked example: continuous running for a 17-year-old, principles applied (illustrative)",
+      "points": [
+        "Readiness: a fitness base and running technique are in place before the runs are lengthened; interval or heavy weight work is added only after this.",
+        "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power.",
+        "Progression: 5 minutes is added to the continuous runs each week.",
+        "Overload through FITT: time rises from 25 to 40 minutes per run, frequency is 3 runs a week, intensity stays in the aerobic zone, and type is running.",
+        "Rest and recovery: one rest day between runs."
+      ]
+    },
+    {
+      "h": "Worked example: continuous running, zones and thresholds (illustrative)",
+      "points": [
+        "Maximum heart rate is estimated as 220 minus age: 220 − 17 = 203 beats per minute.",
+        "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute.",
+        "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect.",
+        "Anaerobic zone: about 80% to 90% of maximum heart rate, starting at about 162 beats per minute for this runner.",
+        "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it."
+      ]
+    },
+    {
+      "h": "Worked example: weight training for muscular endurance (illustrative)",
+      "points": [
+        "Readiness: correct technique and warm-up sets with a light load come before any increase in load.",
+        "Specificity: the exercises chosen must use the muscles the activity uses.",
+        "Progression: repetitions are added first, rising towards 15 or more per set; a small load is added once all repetitions are completed with good form.",
+        "Overload through FITT: 2 to 3 sets of 15 or more repetitions, at a light load, using resistance exercises.",
+        "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles."
+      ]
+    },
+    {
+      "h": "Work-recovery intervals in intervals, circuits and weight sets (typical guidance)",
+      "points": [
+        "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period.",
+        "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts.",
+        "Circuits follow the same logic: 30 seconds of work to 30 seconds of rest is a 1:1 ratio.",
+        "Weight training rests: longer rests between sets for strength, shorter rests for endurance."
+      ]
+    },
+    {
+      "h": "Warm-up and cool-down for each method",
+      "points": [
+        "Running: an easy jog, then dynamic leg drills; the cool-down is a walk, then static stretches.",
+        "Weight training: light cardio, mobility work and warm-up sets with a light load; the cool-down stretches the muscles used.",
+        "Aerobics: low-impact moves that build up gradually; the cool-down slows the tempo, then stretches.",
+        "Spinning and indoor rowing: each session starts with a warm-up and ends with a cool-down around the intervals or steady piece."
+      ]
+    },
+    {
+      "h": "Monitoring the programme",
+      "points": [
+        "Heart-rate monitor or pulse checks confirm that heart rate sits in the target zone.",
+        "Rating of perceived exertion: the performer's own score of how hard they are working, used alongside heart rate.",
+        "Training log: a record of each session, so targets can be compared with results from earlier weeks.",
+        "A target met early means the load is increased; a target not reached means the programme is adjusted."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Maximum heart rate", "definition": "The estimated highest heart rate, found by subtracting age from 220 beats per minute." },
+    { "term": "Aerobic training zone", "definition": "The heart-rate band of about 60 to 80% of maximum heart rate, used for aerobic training." },
+    { "term": "Anaerobic training zone", "definition": "The heart-rate band of about 80 to 90% of maximum heart rate." },
+    { "term": "Aerobic threshold", "definition": "The lower limit of the aerobic zone, below which training gives little cardio-respiratory benefit." },
+    { "term": "Anaerobic (lactate) threshold", "definition": "The intensity above which lactic acid builds up faster than it can be removed." },
+    { "term": "Work-recovery ratio", "definition": "The ratio of recovery time to work time in intervals, circuits or weight sets, such as 1:2." },
+    { "term": "Rating of perceived exertion", "definition": "The performer's own score of how hard they are working." },
+    { "term": "Training log", "definition": "A written record of each session, used to check progress against targets." }
+  ],
+  "factCards": [
+    { "term": "Principles named by the specification", "definition": "Readiness, specificity, progression, overload, rest and recovery." },
+    { "term": "Continuous running for a 17-year-old: zone", "definition": "220 minus 17 is 203; the aerobic zone is about 122 to 162 beats per minute." },
+    { "term": "Weight training for muscular endurance: starting plan", "definition": "2 to 3 sets of 15 or more repetitions at a light load, 30 to 60 seconds' rest, adding repetitions and then load." },
+    { "term": "Three monitoring methods", "definition": "Heart-rate monitor or pulse checks; rating of perceived exertion; training log." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Apply the principles of readiness, specificity, progression, overload and rest/recovery to a training method of your choice.",
+      "model": "Method: interval training for a hurler. Readiness: before high-intensity intervals are added, the hurler needs a fitness base and correct technique, so the early weeks use continuous running and skill work, and the intervals start only once that base is in place. Specificity: the work periods copy the stop-start pattern of a match, so each hard effort is a sprint or a hard hurling movement followed by easy jogging. Progression: the load rises gradually, for example by adding an interval each week before shortening the recovery. Overload: FITT is applied by increasing the time spent at hard effort, starting from 6 × 3 minutes of hard work with 3 minutes of easy jogging between efforts, so the body works harder than normal. Rest and recovery: the recovery periods within the session, rest days between sessions and easy weeks let the body adapt, and too little rest leads to overtraining."
+    },
+    {
+      "marks": 6,
+      "prompt": "Calculate the aerobic training zone for a 17-year-old and explain how they could use it in continuous training.",
+      "model": "Maximum heart rate is 220 minus 17, which is 203 beats per minute. The aerobic zone is about 60% to 80% of 203, so about 122 to 162 beats per minute. In continuous training the runner checks their pulse during the run and keeps it inside this band: a reading below about 122 means the run is too easy and the pace should rise, while a reading above about 162 means the effort has moved into the anaerobic zone and the pace should drop. Continuous training is kept near but below the anaerobic (lactate) threshold, so the runner stays in the aerobic zone for the whole run."
+    }
+  ]
+}

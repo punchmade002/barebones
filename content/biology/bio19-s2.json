@@ -1,0 +1,94 @@
+{
+  "loId": "bio19-s2",
+  "chapterId": "bio19",
+  "subsection": "The reflex action",
+  "syllabusRef": "2.4.4",
+  "notes": [
+    {
+      "h": "Stimulus, receptor and effector",
+      "b": "A reflex begins with a stimulus that a receptor detects and ends with a response from an effector.",
+      "points": [
+        "A stimulus is a change in the internal or external environment that can be detected.",
+        "A receptor detects the stimulus.",
+        "An effector, a muscle or a gland, carries out the response."
+      ]
+    },
+    {
+      "h": "What a reflex action is",
+      "points": [
+        "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought.",
+        "Reflexes protect the body from harm, e.g. pulling a hand from a hot object or blinking when something approaches the eye.",
+        "Reflexes also maintain posture and normal body functions; coughing and sneezing clear the airways.",
+        "Reflexes are inborn, so they are not learned.",
+        "The same stimulus always produces the same response."
+      ]
+    },
+    {
+      "h": "The reflex arc",
+      "b": "The reflex arc is the pathway an impulse follows in a reflex action.",
+      "points": [
+        "The pathway runs receptor, sensory neuron, interneuron in the grey matter of the spinal cord, motor neuron, effector.",
+        "The sensory neuron enters the spinal cord through the dorsal root; its cell body lies in the dorsal root ganglion.",
+        "The motor neuron leaves the spinal cord through the ventral root.",
+        "Diagram: reflex arc drawn through a transverse section of the spinal cord, labelling receptor in the skin, sensory neuron, dorsal root ganglion, interneuron, grey matter, white matter, motor neuron, ventral root and effector muscle, with arrows showing the direction of the impulse."
+      ]
+    },
+    {
+      "h": "The withdrawal reflex, step by step",
+      "b": "Example: touching a hot object.",
+      "points": [
+        "1. Pain and heat receptors in the skin of the finger are stimulated.",
+        "2. An impulse travels along a sensory neuron to the spinal cord.",
+        "3. It passes across a synapse to an interneuron in the grey matter.",
+        "4. It passes across a synapse to a motor neuron.",
+        "5. The motor neuron carries the impulse to the biceps, the effector.",
+        "6. The biceps contracts and the hand is pulled away from the object."
+      ]
+    },
+    {
+      "h": "Speed and the brain",
+      "points": [
+        "The impulse takes a short route through the spinal cord, crossing few synapses.",
+        "It does not wait for a decision by the brain, which is why reflexes are rapid.",
+        "Interneurons also carry impulses up the spinal cord to the brain, so pain is felt just after the hand has moved.",
+        "The brain can sometimes override a reflex, e.g. when a person holds on to a hot plate to avoid dropping it."
+      ]
+    },
+    {
+      "h": "The knee-jerk reflex",
+      "points": [
+        "Tapping the tendon below the kneecap stretches the thigh muscle.",
+        "The sensory neuron synapses directly with the motor neuron in the spinal cord, with no interneuron.",
+        "The leg kicks; doctors use this reflex to test the nervous system."
+      ]
+    },
+    {
+      "h": "Reflexes controlled by the brain",
+      "points": [
+        "Some reflexes are controlled by the brain rather than the spinal cord.",
+        "Examples are the pupil narrowing in bright light and blinking."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Stimulus", "definition": "A change in the internal or external environment that can be detected." },
+    { "term": "Receptor", "definition": "A cell or structure that detects a stimulus and starts an impulse." },
+    { "term": "Effector", "definition": "A muscle or gland that carries out a response." },
+    { "term": "Reflex action", "definition": "A rapid, automatic, involuntary response to a stimulus, happening without conscious thought." },
+    { "term": "Reflex arc", "definition": "The pathway an impulse follows in a reflex action: receptor, sensory neuron, interneuron, motor neuron, effector." },
+    { "term": "Withdrawal reflex", "definition": "A reflex that pulls a body part away from a painful or harmful stimulus, such as a hand from a hot object." },
+    { "term": "Knee-jerk reflex", "definition": "A reflex in which tapping the tendon below the kneecap kicks the leg; the sensory neuron synapses directly with the motor neuron." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe the pathway of a nerve impulse in a reflex action, naming each structure involved, and explain why reflex actions are rapid.",
+      "model": "A pain or heat receptor in the skin of the finger is stimulated. The impulse travels along a sensory neuron, which enters the spinal cord through the dorsal root, and passes across a synapse to an interneuron in the grey matter. It crosses a second synapse to a motor neuron, which leaves the spinal cord through the ventral root and carries the impulse to the effector, the biceps muscle, which contracts and pulls the hand away. Reflex actions are rapid because the route through the spinal cord is short, crosses few synapses and does not wait for a decision by the brain."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is a reflex action? Give two examples and state the benefit of each.",
+      "model": "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought. Example 1: the withdrawal reflex pulls the hand away from a hot object, protecting the body from harm. Example 2: blinking when something approaches the eye protects the eye from harm."
+    }
+  ]
+}

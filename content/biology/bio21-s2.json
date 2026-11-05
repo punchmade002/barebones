@@ -1,0 +1,116 @@
+{
+  "loId": "bio21-s2",
+  "chapterId": "bio21",
+  "subsection": "Homeostasis as a stimulus-response model",
+  "syllabusRef": "2.4.5",
+  "notes": [
+    {
+      "h": "What homeostasis is",
+      "b": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. The internal environment is the tissue fluid and blood around the cells.",
+      "points": [
+        "Factors kept constant include body temperature, blood glucose concentration, water and salt balance, blood pH and carbon dioxide level.",
+        "Enzymes work best within a narrow range of temperature and pH.",
+        "If the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis.",
+        "Steady conditions let cells function whatever the conditions outside the body.",
+        "Values fluctuate slightly around a set point (normal level) rather than staying perfectly fixed; for example, normal core body temperature is about 37 °C."
+      ]
+    },
+    {
+      "h": "Components of a homeostatic control system",
+      "points": [
+        "Stimulus: a change away from the set point.",
+        "Receptor: detects the change.",
+        "Control centre: compares the change with the set point and sends instructions. It is often in the brain, e.g. the hypothalamus, or in a gland.",
+        "Effector: a muscle or gland that carries out the response.",
+        "Response: returns the factor towards the set point.",
+        "In vertebrates, the control centre is linked to receptors and effectors by nervous pathways (neurons, fast) and hormonal pathways (hormones in the blood, slower)."
+      ]
+    },
+    {
+      "h": "Negative feedback",
+      "points": [
+        "In negative feedback, the response reverses the original change.",
+        "Once the factor returns to normal, the stimulus is removed and the response stops.",
+        "Because the response stops at the set point, the factor oscillates close to it.",
+        "Diagram: a negative-feedback loop of set point, change, receptor, control centre, effector, response and back towards the set point, with a second branch for a change in the opposite direction."
+      ]
+    },
+    {
+      "h": "Positive feedback (contrast)",
+      "points": [
+        "Positive feedback: the response increases the original change, e.g. oxytocin causes stronger and stronger contractions during labour.",
+        "Positive feedback is rare and is not used in homeostasis."
+      ]
+    },
+    {
+      "h": "Worked example: body temperature (mainly nervous)",
+      "points": [
+        "Stimulus and receptors: receptors in the hypothalamus detect blood temperature, and receptors in the skin detect skin temperature.",
+        "Control centre: the hypothalamus compares the temperature with the set point.",
+        "Too hot, effector 1: sweat glands produce sweat, which cools the skin as it evaporates.",
+        "Too hot, effector 2: arterioles in the skin widen (vasodilation), so more blood flows near the surface and loses heat.",
+        "Too cold, effector 1: muscles shiver, releasing heat from respiration.",
+        "Too cold, effector 2: arterioles in the skin narrow (vasoconstriction), reducing heat loss.",
+        "Behaviour changes, such as adding clothes or seeking shelter, also help restore the temperature."
+      ]
+    },
+    {
+      "h": "Worked example: blood glucose (hormonal)",
+      "points": [
+        "Stimulus: blood glucose rises after a meal.",
+        "Receptor: cells of the pancreas detect the rise.",
+        "Response: the pancreas releases insulin.",
+        "Effect: cells take up glucose, and the liver stores it as glycogen.",
+        "Glucose falls back to normal, so less insulin is released.",
+        "In type 1 diabetes this feedback fails because too little insulin is made."
+      ]
+    },
+    {
+      "h": "Worked example: thyroxine (feedback on the hormone itself)",
+      "points": [
+        "Stimulus: thyroxine falls below normal in the blood.",
+        "Receptors: the hypothalamus and pituitary gland detect the low level.",
+        "Response: the pituitary releases TSH, and the thyroid releases thyroxine.",
+        "High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls."
+      ]
+    },
+    {
+      "h": "Worked example: water balance (hormonal)",
+      "points": [
+        "The hypothalamus detects the water concentration of the blood, and the pituitary adjusts the release of ADH.",
+        "ADH changes how much water the kidneys reabsorb; the nephron detail is in The Urinary System."
+      ]
+    },
+    {
+      "h": "Worked example: breathing rate",
+      "b": "A rise in blood carbon dioxide is detected by the brain, which increases the breathing rate. The control of breathing is covered in The Breathing System."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Homeostasis", "definition": "The maintenance of a relatively constant internal environment despite changes in external or internal conditions." },
+    { "term": "Internal environment", "definition": "The tissue fluid and blood surrounding the cells." },
+    { "term": "Set point", "definition": "The normal level around which a factor such as body temperature fluctuates." },
+    { "term": "Control centre", "definition": "The part that compares a change with the set point and sends instructions to effectors." },
+    { "term": "Negative feedback", "definition": "A response that reverses the original change, so the factor returns towards the set point." },
+    { "term": "Positive feedback", "definition": "A response that increases the original change; it is rare and not used in homeostasis." },
+    { "term": "Vasodilation", "definition": "Widening of arterioles, allowing more blood to flow near the skin surface and lose heat." },
+    { "term": "Vasoconstriction", "definition": "Narrowing of arterioles, reducing blood flow near the skin surface and reducing heat loss." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by homeostasis? Give two reasons why it is important.",
+      "model": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. Two reasons it is important: enzymes work best within a narrow range of temperature and pH, so steady conditions keep them working well; and if the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis, so a steady concentration protects the cell."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain the term negative feedback and describe how it controls the level of thyroxine in the blood.",
+      "model": "Negative feedback is a response that reverses the original change, so the factor returns towards its set point. Once the factor returns to normal, the stimulus is removed and the response stops. Thyroxine: when thyroxine is low, the hypothalamus and pituitary gland detect it, and the pituitary releases TSH, which makes the thyroid release thyroxine. High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls and the level returns to normal."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how the human body responds to a rise in body temperature, naming the receptor, control centre and effectors involved.",
+      "model": "Receptors: receptors in the hypothalamus detect a rise in blood temperature, and receptors in the skin detect a rise in skin temperature. Control centre: the hypothalamus compares the temperature with the set point and sends instructions. Effectors: sweat glands produce sweat, which cools the skin as it evaporates, and arterioles in the skin widen (vasodilation), so more blood flows near the surface and loses heat."
+    }
+  ]
+}

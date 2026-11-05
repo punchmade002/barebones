@@ -1,0 +1,179 @@
+{
+  "loId": "bio22-s6",
+  "chapterId": "bio22",
+  "subsection": "Emergence and spread of infectious disease",
+  "syllabusRef": "2.4.15",
+  "notes": [
+    {
+      "h": "Key terms",
+      "points": [
+        "An emerging infectious disease is one that has newly appeared in a population, or one that was known but is rapidly increasing in incidence (the number of new cases) or in geographic range.",
+        "A re-emerging disease is one that had declined and is increasing again, e.g. measles where vaccination rates fall, or TB with drug-resistant strains.",
+        "Endemic means always present at a fairly steady level in a region.",
+        "An epidemic, or outbreak, is a sudden increase in cases above the expected level in a region.",
+        "A pandemic is an epidemic that spreads across several continents or worldwide, e.g. COVID-19, which the World Health Organization declared a pandemic on 11 March 2020.",
+        "A zoonosis is an infectious disease that passes from animals to humans, e.g. avian influenza or rabies.",
+        "Most emerging human diseases are zoonoses, often from wild animals (examples in Emerging diseases and society).",
+        "A reservoir is a host population in which a pathogen persists and from which it infects others, e.g. badgers for bovine TB in Ireland, or wild birds for avian influenza.",
+        "A carrier is an infected individual who shows no symptoms but can pass on the pathogen."
+      ]
+    },
+    {
+      "h": "How infectious diseases are transmitted",
+      "points": [
+        "Airborne droplets and aerosols from coughs, sneezes and breath spread influenza, TB, measles and COVID-19.",
+        "Wind-borne spores spread ash dieback, cereal rusts and potato blight in plants.",
+        "Direct contact, touch and skin to skin, spreads ringworm and athlete's foot.",
+        "Indirect contact via contaminated objects and surfaces (fomites), hands, tools and clothing spreads disease. In plants, contact with hands and tools spreads tobacco mosaic virus.",
+        "Contaminated food and water, the faecal–oral route, spreads cholera, Salmonella food poisoning and amoebic dysentery.",
+        "Body fluids spread HIV and hepatitis B through sexual contact, blood (shared needles and unscreened transfusions) and mother to baby.",
+        "Vectors are animals that carry pathogens between hosts: mosquitoes (malaria), ticks (Lyme disease), tsetse flies (sleeping sickness), elm bark beetles (Dutch elm disease), aphids (many plant viruses, e.g. barley yellow dwarf virus) and biting midges (bluetongue virus of sheep and cattle).",
+        "In plants, rain splash, soil, infected seed, tubers and cuttings also spread disease. Vegetative propagation passes viruses and blight to the next crop, and grafting does too."
+      ]
+    },
+    {
+      "h": "Movement of organisms: local, regional and global",
+      "points": [
+        "Local spread occurs within a household, school, hospital or farm, between neighbouring fields by wind and rain splash, and between neighbouring farms by animals straying, shared equipment, vehicles and people's boots.",
+        "Regional spread occurs when farm animals move through marts and between farms, when plants and animals are traded within a country or the EU, when wild animals move seasonally, and when people commute and holiday.",
+        "In the 2001 foot-and-mouth disease epidemic in Britain, infected sheep were moved through markets across the country before the disease was detected, spreading it to many farms.",
+        "Control of that epidemic needed a ban on animal movement and the culling of millions of animals.",
+        "Global spread: air travel can carry an infected person to any continent within a day, faster than many diseases take to show symptoms.",
+        "COVID-19 reached every continent within months of its first identification in Wuhan, China, in December 2019.",
+        "International trade moves pathogens and vectors in plants, wood, soil, live animals and goods. Ash dieback spread through Europe partly in imported young ash plants and was found in Ireland in 2012.",
+        "The second, more aggressive epidemic of Dutch elm disease reached Britain from the late 1960s in imported elm logs.",
+        "The Asian tiger mosquito (Aedes albopictus), a vector of several viruses, has spread to many countries in used tyres and plants.",
+        "Migrating wild birds carry avian influenza between continents.",
+        "The pet and wildlife trade spread chytrid fungus (Batrachochytrium dendrobatidis) around the world in the trade in amphibians. It is linked to the decline of hundreds of amphibian species and the extinction of some."
+      ]
+    },
+    {
+      "h": "Factor 1: persistence of the pathogen in a host",
+      "points": [
+        "The longer a host is infectious, the more others it can infect.",
+        "Persistence includes long infectious periods, carriers without symptoms, latent infections that reactivate, and reservoir hosts.",
+        "HIV may cause no symptoms for years while the person can still pass it on.",
+        "Herpes viruses stay latent in nerve cells for life (see Viruses: replication).",
+        "TB bacteria can stay dormant in the lungs for years and become active later.",
+        "Mary Mallon, known as Typhoid Mary, was born in Co. Tyrone in 1869 and worked as a cook in New York. She carried the typhoid bacterium, Salmonella Typhi, without symptoms and infected many of the families she cooked for.",
+        "Health authorities isolated her for most of the rest of her life.",
+        "Bovine TB persists in Irish cattle partly because badgers act as a wildlife reservoir that reinfects herds.",
+        "Plant viruses persist in perennial plants, weeds and tubers, so infected seed potatoes carry viruses into the next year's crop.",
+        "Phytophthora infestans survives the winter in infected tubers left in the ground or in dumps."
+      ]
+    },
+    {
+      "h": "Factor 2: mutations",
+      "points": [
+        "Pathogens with short generation times and large populations produce many mutants.",
+        "RNA viruses mutate fastest because their copying enzyme doesn't proofread (see Viruses: replication).",
+        "Antigenic drift: small mutations gradually change a virus's surface antigens, so memory cells and antibodies from earlier infections or vaccines no longer fit well.",
+        "Antigenic drift is why influenza returns every winter and why flu vaccines are updated each year.",
+        "Mutations likewise produced new SARS-CoV-2 variants, such as Delta and Omicron, that spread faster or partly escaped immunity, causing new waves of COVID-19.",
+        "Antigenic shift (influenza): if two different flu viruses infect the same cell, e.g. in a pig, their RNA segments can mix to form a new strain with surface antigens that no human population has met.",
+        "Antigenic shift has caused flu pandemics, e.g. the 2009 H1N1 (swine flu) pandemic.",
+        "Mutations can let a pathogen infect a new host species (spillover, e.g. a bird virus gaining the ability to infect mammals), become more transmissible, or overcome resistance bred into crops.",
+        "The Ug99 strain of wheat stem rust, identified in Uganda in 1999, overcame resistance genes used in most of the world's wheat varieties."
+      ]
+    },
+    {
+      "h": "Factor 3: antibiotic or chemical resistance",
+      "points": [
+        "Step 1: random mutations, or genes passed between bacteria on plasmids, make a few individuals resistant (resistance arises by natural selection, see The theory of evolution by natural selection).",
+        "Step 2: the antibiotic or chemical kills the susceptible individuals.",
+        "Step 3: the resistant survivors reproduce with less competition.",
+        "Step 4: the next generation is mostly resistant. The chemical doesn't cause the mutation; it selects it.",
+        "Overuse and misuse of antibiotics speed up resistance: use for viral infections, not finishing courses, and use in farm animals.",
+        "Poor infection control in hospitals and heavy repeated use of one pesticide also speed up resistance.",
+        "MRSA (methicillin-resistant Staphylococcus aureus) is resistant to many antibiotics and spreads in hospitals.",
+        "Multidrug-resistant TB, malaria parasites resistant to some antimalarial drugs, and mosquitoes resistant to insecticides, which weakens malaria control.",
+        "Fungi that cause crop diseases are resistant to some fungicides, and parasitic worms of sheep and cattle are resistant to some anthelmintics.",
+        "Resistant pathogens persist longer in hosts and spread further, linking factors 1 and 3."
+      ]
+    },
+    {
+      "h": "Factor 4: immunity level in the population",
+      "points": [
+        "A pathogen spreads only if it can reach susceptible (non-immune) hosts. The higher the proportion of immune individuals, the fewer susceptible hosts there are and the slower the spread. This is herd immunity (see Acquired immunity, prevention and treatment).",
+        "A pathogen new to a population meets no immunity at all, so it spreads fast and can be very severe, e.g. COVID-19 in 2020, before vaccines.",
+        "Smallpox and measles, brought by Europeans to the Americas from the late 1400s, killed very large numbers of Indigenous people, who had never been exposed to them.",
+        "Immunity falls when vaccination rates drop, as when measles outbreaks return.",
+        "Immunity also falls when protection from vaccination or infection wanes over time, and where many people have weakened immune systems, e.g. from untreated HIV or malnutrition, or the very young and very old.",
+        "In plants, the equivalent is genetic uniformity. A monoculture of one genetically identical variety has no resistant individuals, so a pathogen that infects one plant can infect them all.",
+        "In Ireland in the 1840s, most of the poor depended on one potato variety, the Lumper, grown from tubers (genetically identical clones) and susceptible to blight.",
+        "When Phytophthora infestans arrived in 1845, crops failed across the country in successive years. About one million people died and over a million emigrated in the Great Famine."
+      ]
+    },
+    {
+      "h": "Factor 5: mobility in affected populations",
+      "points": [
+        "The more infected hosts move and mix, the more contacts each has and the further the pathogen spreads (the routes are in the block on movement of organisms below).",
+        "Crowding in cities, refugee camps, festivals and mass gatherings, travel and migration, and the movement of livestock all increase spread.",
+        "Migration of wild animals, such as birds, also moves pathogens into new areas.",
+        "Vector mobility: climate warming lets vectors survive further north and for longer each year, carrying disease into new regions.",
+        "Bluetongue, a midge-borne virus of sheep and cattle, spread into northern Europe from 2006.",
+        "Reducing mobility reduces spread: animal movement bans in foot-and-mouth outbreaks, travel restrictions and quarantine in human epidemics, and import controls on plants (detail in Emerging diseases and society)."
+      ]
+    },
+    {
+      "h": "Factor 6: the reproduction number, R₀",
+      "points": [
+        "The basic reproduction number, R₀ ('R nought'), is the average number of new (secondary) infections caused by one infected individual in a population where everyone is susceptible, with no immunity and no control measures.",
+        "R₀ greater than 1: each case causes more than one new case on average, so numbers grow and an epidemic can occur.",
+        "R₀ equal to 1: numbers stay steady, which is endemic.",
+        "R₀ less than 1: each case causes fewer than one new case, so the outbreak dies out.",
+        "Growth example: with R₀ = 2, one case leads to 2, then 4, then 8, then 16 new cases per generation of infection. After 10 generations, one case has led to 2¹⁰ = 1,024 new cases in that generation.",
+        "Decline example: with R₀ = 0.5, 100 cases give 50, then 25, then about 12, and the outbreak fades.",
+        "Diagram: a branching tree from one case, giving 2, then 4, then 8 cases (R₀ = 2), beside a single chain with one case per generation (R₀ = 1). Label each generation.",
+        "R₀ depends on the pathogen, the host and the environment: how long a host is infectious (persistence), how many contacts an infected host has per day (mobility and crowding), and the chance that a contact passes on the infection (the transmission route, and mutations that make a pathogen more transmissible).",
+        "So R₀ is not fixed for a disease: it differs between populations and settings.",
+        "The effective reproduction number, R (sometimes written Rt), is the average number of new infections per case at a given time, in a population where some people are immune or control measures are in place.",
+        "Approximately, R = R₀ × the proportion still susceptible. For example, R₀ = 3 with half the population immune gives R = 3 × 0.5 = 1.5.",
+        "Control aims to bring R below 1.",
+        "Herd-immunity threshold: to stop sustained spread, the proportion immune must be at least 1 − 1/R₀.",
+        "Examples: R₀ = 2 needs 1 − ½ = 50% immune; R₀ = 4 needs 1 − ¼ = 75% immune; R₀ = 10 needs 90% immune.",
+        "Measles is one of the most contagious diseases, with R₀ usually quoted as 12–18, so about 95% of people must be immune. The World Health Organization therefore recommends at least 95% coverage with two doses of measles vaccine.",
+        "The model's assumptions (see Models) are that everyone is equally likely to meet everyone else and that R₀ stays constant.",
+        "Real populations are clustered, behaviour changes during outbreaks and new variants change R₀, so estimates are updated as data come in."
+      ]
+    },
+    {
+      "h": "How the factors interact",
+      "points": [
+        "The factors act together, not one at a time. A mutation that makes a virus more transmissible raises R₀, and a population with low immunity and high mobility then lets it spread widely.",
+        "Long persistence in carriers lets a pathogen reach new areas undetected, and resistance to drugs lets infections last longer, raising R₀ further.",
+        "Plant example: a genetically uniform crop (low immunity), a pathogen spread by wind and trade (mobility) and survival in tubers (persistence) together explain the speed of the potato famine.",
+        "Other drivers increase contact between pathogens and new hosts: clearing forests and expanding farms into wild areas, intensive farming of large numbers of genetically similar animals kept close together, climate change (vectors' ranges), poverty, poor sanitation, and conflict, which weakens health systems."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Emerging disease", "definition": "An infectious disease that has newly appeared in a population, or is rapidly increasing in incidence or geographic range." },
+    { "term": "Endemic", "definition": "Always present at a fairly steady level in a region." },
+    { "term": "Pandemic", "definition": "An epidemic that spreads across several continents or worldwide." },
+    { "term": "Zoonosis", "definition": "An infectious disease that passes from animals to humans." },
+    { "term": "Reservoir", "definition": "A host population in which a pathogen persists and from which it infects others." },
+    { "term": "Antigenic drift", "definition": "Gradual change in a virus's surface antigens caused by small mutations, so earlier immunity fits less well." },
+    { "term": "Antigenic shift", "definition": "A sudden change in a virus's surface antigens when RNA segments from two different flu viruses mix to form a new strain." },
+    { "term": "Basic reproduction number (R₀)", "definition": "The average number of secondary infections caused by one case in a fully susceptible population with no control measures." },
+    { "term": "Effective reproduction number (R)", "definition": "The average number of new infections per case at a given time, allowing for immunity and control measures." },
+    { "term": "Herd-immunity threshold", "definition": "The proportion of a population that must be immune, equal to 1 − 1/R₀, to stop sustained spread." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by the reproduction number, R₀? Explain what happens to an outbreak when R₀ is greater than 1 and when it is less than 1.",
+      "model": "R₀ is the average number of new secondary infections caused by one infected individual in a population where everyone is susceptible, with no immunity and no control measures. When R₀ is greater than 1, each case causes more than one new case on average, so numbers grow and an epidemic can occur. When R₀ is less than 1, each case causes fewer than one new case, so the outbreak dies out."
+    },
+    {
+      "marks": 9,
+      "prompt": "A disease has an R₀ of 4. (i) Calculate the percentage of the population that must be immune to prevent its spread. (ii) Explain why vaccinating this percentage protects people who are not vaccinated.",
+      "model": "(i) The herd-immunity threshold is 1 − 1/R₀ = 1 − 1/4 = 0.75, so 75% of the population must be immune. (ii) When 75% of people are immune, the pathogen can find too few susceptible hosts. Each case then causes on average no more than one new infection, so the effective reproduction number falls to 1 or below and spread cannot be sustained. People who are not vaccinated are protected indirectly, because the pathogen has few susceptible hosts to reach them."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explore how any three of the following factors contribute to the emergence of infectious diseases in plants and animals: persistence of the pathogen in a host, mutations, chemical resistance, the immunity level of the population, mobility.",
+      "model": "Persistence: a pathogen that survives in a host for a long time can infect many others. Phytophthora infestans survives the winter in infected potato tubers, so blight returns the next year, and TB bacteria can stay dormant in the lungs for years. Mutations: a changing pathogen escapes existing immunity or resistance. Antigenic drift changes influenza surface antigens each year, so flu vaccines must be updated, and the Ug99 strain of wheat stem rust overcame resistance genes used in most of the world's wheat. Immunity level: a population with low immunity lets a pathogen spread quickly. The Lumper potato, a genetically uniform crop, had no resistant plants, so blight spread through it and caused the Irish Great Famine, while measles outbreaks return where vaccination rates fall."
+    }
+  ]
+}

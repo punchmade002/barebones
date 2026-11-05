@@ -1,0 +1,119 @@
+{
+  "loId": "bio3-s1",
+  "chapterId": "bio3",
+  "subsection": "Evaluating evidence",
+  "syllabusRef": "U3.1",
+  "notes": [
+    {
+      "h": "Evidence and the three tests",
+      "b": "Evidence is the information (observations, measurements, results of studies) used to support or refute a claim. A claim is a statement that something is true, e.g. “vitamin C prevents colds”. Evidence is judged on relevance, accuracy and bias.",
+      "points": [
+        "Relevance: does the evidence actually address this claim? Evidence about a different organism, population, dose or situation may not apply. A study in mice, or on cells in a dish, does not show the same effect in humans.",
+        "A study of elite athletes may not apply to the general population, and a study of a pure chemical may not apply to a food that contains a little of it.",
+        "Accuracy: is the evidence correct and reported correctly? Check whether it comes from a reliable method, whether it has been reproduced, whether the numbers in a report match the original study, and whether the conclusion goes further than the data allow.",
+        "Bias: has the evidence, or the way it is presented, been pushed in one direction? The types of bias in sources, including funding, conflict of interest, cherry-picking, publication bias, confirmation bias, sampling bias and political bias, are taught in “Recognising bias and evaluating sources”. Here they are applied to the evidence behind an argument."
+      ]
+    },
+    {
+      "h": "Weighing the strength of evidence",
+      "b": "The types of evidence below are ranked from weakest to strongest.",
+      "points": [
+        "Anecdote or personal testimony (“it worked for me”) is the weakest, because one person’s experience can be due to chance, the placebo effect, natural recovery or other causes.",
+        "Expert opinion without data, or a single case report, is weak. It is useful for raising a question.",
+        "Laboratory studies on cells or animals are useful for finding mechanisms, but they may not apply to humans.",
+        "Observational studies of large groups of people, e.g. following thousands of people and comparing smokers with non-smokers, are good for finding links (correlations). They cannot on their own show cause and effect, because other factors may differ between the groups.",
+        "Randomised controlled trials place people randomly in a treatment group or a control group, usually double-blind. They are the strongest single study for showing that a treatment causes an effect. Blinding and placebos are taught in “Objectivity and data quality”, and how to design controlled investigations is in “Designing and conducting investigations”.",
+        "Systematic reviews and meta-analyses combine all good-quality studies on a question. They are the strongest overall evidence because they do not rely on one study.",
+        "Scientific consensus is the agreed view of most experts in a field, reached after many studies, e.g. that human activity is causing climate change and that vaccines do not cause autism. A single new study rarely overturns a consensus; it needs to be reproduced first."
+      ]
+    },
+    {
+      "h": "Common errors in reasoning from evidence",
+      "points": [
+        "Correlation presented as causation: media reports often say that a food, drug or habit “causes” or “prevents” a disease when a study found only a correlation. Correlation and its other explanations are taught in “Producing and analysing data”.",
+        "In large health studies, experiments on people are often impossible or unethical, so a link is accepted as causal only when several kinds of evidence agree. The cause comes before the effect; more exposure gives more effect (a dose–response pattern); the same link is found in many independent studies in different populations; and a biological mechanism explains it.",
+        "Smoking and lung cancer met all of these tests, which is why smoking is accepted as a cause of lung cancer.",
+        "Small samples: results from few individuals are more likely to be due to chance.",
+        "No control group: without a comparison, an improvement may have happened anyway.",
+        "Relative and absolute risk: a headline saying a food “doubles the risk” of a disease may describe a rise from 1 in 10,000 to 2 in 10,000. This is an arithmetic illustration, not real data, and the absolute increase is small. Always ask “doubled from what?”",
+        "Extrapolating beyond the data: assuming that a trend continues outside the range tested, or that the effect of a high dose applies to a low dose."
+      ]
+    },
+    {
+      "h": "How the media present science",
+      "points": [
+        "Media include newspapers, television, radio, websites, podcasts, social media and advertising. Most people learn about science from them rather than from journals, so media reports shape public opinion and decisions on health, the environment and technology.",
+        "Headlines exaggerate to attract readers or clicks (sensationalism). A single preliminary study may be reported as a breakthrough or a “cure”, and animal or cell results may be reported as if they apply to humans.",
+        "Uncertainty and limitations are often left out. Press releases from universities and companies may themselves exaggerate.",
+        "False balance: giving equal time to a fringe view and to the scientific consensus, e.g. one climate scientist debating one climate-change denier, makes the evidence seem evenly split when it is not.",
+        "Misinformation is false or misleading information spread without intent to deceive. Disinformation is false information spread deliberately to deceive, e.g. for profit or political gain.",
+        "Social media spread both quickly, because posts that provoke emotion are shared more and algorithms show people more of what they already engage with, creating echo chambers.",
+        "Persuasion techniques to recognise: appeal to authority (a celebrity or a doctor speaking outside their expertise); appeal to nature (“natural means safe”, though many natural substances are poisonous, e.g. deadly nightshade); emotive language and images; testimonials instead of data; “scientists are hiding the truth” conspiracy claims, which cannot be tested; and scientific-sounding words used to sell a product.",
+        "Responsible science reporting names the study and where it was published, gives the sample size and the type of study, states the limitations, separates the evidence from opinion, and includes comment from independent experts."
+      ]
+    },
+    {
+      "h": "Evaluating a media-based argument",
+      "points": [
+        "1. Identify the claim and who is making it.",
+        "2. Find the original evidence: is a study named, and was it peer reviewed?",
+        "3. Check relevance: who or what was studied, and does it apply to the claim?",
+        "4. Check the strength of the evidence: type of study, sample size, control group, and whether the result has been reproduced (see “Weighing the strength of evidence” and “Common errors in reasoning from evidence”).",
+        "5. Check accuracy: does the report match the study? Is correlation presented as causation? Is the risk given as relative or absolute?",
+        "6. Check bias: who funded the study and the report, what is their purpose, and are other views or limitations mentioned?",
+        "7. Check what other reliable sources and the scientific consensus say.",
+        "8. Make a judgement: how far the evidence supports the claim, and what further evidence is needed."
+      ]
+    },
+    {
+      "h": "Case study: the MMR vaccine and autism",
+      "points": [
+        "The claim: in 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR (measles, mumps and rubella) vaccine and autism.",
+        "Relevance and strength: the sample was tiny and had no control group. At most, the paper showed a coincidence in timing, not a cause.",
+        "Bias: Wakefield had an undisclosed conflict of interest. He had been paid by lawyers acting for parents who wanted to sue vaccine manufacturers.",
+        "Media: the claim was reported widely, often with false balance.",
+        "Investigation: the journalist Brian Deer found that the children’s medical details had been misrepresented. The Lancet retracted the paper in 2010, and Wakefield was struck off the UK medical register in 2010.",
+        "Later evidence: large studies found no link, e.g. a 2019 Danish study of over 650,000 children.",
+        "Effect: vaccination rates fell in the UK and Ireland and in other countries, and measles outbreaks followed.",
+        "The case shows how one weak study, amplified by the media, can harm public health long after it has been disproved. The paper was published in a peer-reviewed journal, so peer review alone did not prevent the harm."
+      ]
+    },
+    {
+      "h": "Applying the checklist to technology claims",
+      "points": [
+        "Technology claims need the same checklist. For example, a claim that a new app “detects cancer”, or that a gene test “predicts your ideal diet”, should be tested by asking what evidence shows that it works, in whom, how accurately, and who profits from it."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Evidence", "definition": "Observations, measurements or study results used to support or refute a claim." },
+    { "term": "Claim", "definition": "A statement that something is true, which can be tested against evidence." },
+    { "term": "Randomised controlled trial", "definition": "A study in which people are placed randomly in a treatment group or a control group, usually double-blind." },
+    { "term": "Systematic review", "definition": "A review that combines all good-quality studies on a question." },
+    { "term": "Meta-analysis", "definition": "A statistical method that combines the results of several studies to give an overall result." },
+    { "term": "Scientific consensus", "definition": "The agreed view of most experts in a field, reached after many studies." },
+    { "term": "Relative risk", "definition": "The risk of a disease in one group compared with the risk in another, expressed as a ratio." },
+    { "term": "Absolute risk", "definition": "The actual chance of a disease occurring in a group, e.g. 1 in 10,000." },
+    { "term": "False balance", "definition": "Presenting a fringe view as if it were equal in weight to the scientific consensus." },
+    { "term": "Misinformation", "definition": "False or misleading information spread without intent to deceive." },
+    { "term": "Disinformation", "definition": "False information spread deliberately to deceive." },
+    { "term": "Sensationalism", "definition": "Exaggerating a result to attract readers or clicks." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "A news report says that people who drink green tea live longer, so green tea “adds years to your life”. Explain why this conclusion may not be justified and what evidence would be needed to show cause.",
+      "model": "The report probably describes a correlation found in an observational study: green-tea drinkers live longer. A correlation does not show that green tea causes the longer life, because other factors may differ between the groups; for example, green-tea drinkers may have healthier lifestyles. To show cause, the evidence would need a dose–response pattern, in which more tea gives a greater effect; consistent results from many independent studies in different populations; a biological mechanism that explains the effect; and ideally a randomised controlled trial, in which people are placed randomly in a green-tea group or a control group."
+    },
+    {
+      "marks": 12,
+      "prompt": "A newspaper headline reads “Chocolate protects against heart disease, say scientists”. The article reports a study of 40 mice. Evaluate this media argument for relevance, accuracy and bias.",
+      "model": "Relevance: the study was carried out on mice, so its results may not apply to humans. Laboratory studies on animals are useful for finding mechanisms but do not show what happens in people. Accuracy: the sample of 40 mice is small, so the result may be due to chance, and a preliminary animal study does not justify the headline, which overstates the finding. The article should be checked for whether it states the limitations and the type of study. Bias: the source should be checked to see who funded the study and whether a chocolate company is involved, because a conflict of interest could influence the conclusion. Judgement: the claim that chocolate protects against heart disease is not supported for humans by this evidence. To judge the claim properly, look for randomised controlled trials in people, systematic reviews, and the scientific consensus from reliable bodies."
+    },
+    {
+      "marks": 9,
+      "prompt": "Using the MMR vaccine case, explain how a weak scientific claim can harm public health.",
+      "model": "In 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR vaccine and autism. The study was weak: the sample was tiny, it had no control group, and it showed at most a coincidence in timing. Wakefield had an undisclosed conflict of interest, having been paid by lawyers acting for parents who wanted to sue vaccine manufacturers. The claim was reported widely by the media, often with false balance, so it seemed more credible than the evidence justified. Investigation by the journalist Brian Deer showed that the children’s medical details had been misrepresented. The Lancet retracted the paper in 2010, and Wakefield was struck off the UK medical register in the same year. Large studies, including a 2019 Danish study of over 650,000 children, found no link. However, vaccination rates fell in the UK and Ireland and in other countries, and measles outbreaks followed, so the weak claim harmed public health long after it was disproved."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "loId": "bio15-s5",
+  "chapterId": "bio15",
+  "subsection": "The mitochondrion's internal structure and ATP synthase",
+  "syllabusRef": "2.2.5",
+  "notes": [
+    {
+      "h": "Internal structure of the mitochondrion (Higher Level only)",
+      "points": [
+        "Outer membrane: smooth, it surrounds the mitochondrion and is permeable to small molecules such as pyruvate, ADP and ATP.",
+        "Inner membrane: folded into many cristae (singular crista), which greatly increase its surface area. It holds the electron transport chains and ATP synthase. It is impermeable to protons except through ATP synthase.",
+        "Intermembrane space: the narrow space between the outer and inner membranes, into which protons are moved. This is the space outside the inner membrane in the specification's wording.",
+        "Matrix: the fluid inside the inner membrane. It contains the enzymes of the link step and the citric acid cycle, and the mitochondrion's own small loop of DNA and ribosomes, so it makes some of its own proteins.",
+        "Diagram: an electron-microscope-level drawing of a mitochondrion in section, labelled outer membrane, inner membrane, cristae, intermembrane space, matrix, DNA, ribosomes, and ATP synthase shown as small knobs on the matrix side of the cristae. This extends the simpler diagram in Structures and organelles of animal and plant cells."
+      ]
+    },
+    {
+      "h": "The electron transport chain in the inner membrane (Higher Level only)",
+      "points": [
+        "The chain is made of a number of large protein complexes embedded in, and spanning, the inner membrane. Smaller mobile electron carriers link them, moving within or along the membrane and carrying electrons from one complex to the next.",
+        "NADH delivers electrons to the first complex. The electrons move from complex to complex, each at a lower energy level, and at the last complex they are passed to oxygen, forming water. The stages are in Second-stage process."
+      ]
+    },
+    {
+      "h": "How the chain makes ATP: the proton gradient and ATP synthase (Higher Level only)",
+      "points": [
+        "1. Electrons arrive: high-energy electrons from NADH are transferred to a protein complex in the inner membrane. Electrons are negatively charged, so their arrival gives the complex a negative charge, a charge difference.",
+        "2. Protons are attracted: the charge difference attracts positively charged protons (H⁺) to the complex. The protons are given by donor molecules: NADH releases a proton when it gives up its electrons, and more protons come from the solution in the matrix.",
+        "3. Protons are moved out: the protons pass through the complex from the matrix side to the outside of the inner membrane, into the intermembrane space. Energy from the electrons drives this. It happens at several complexes along the chain as the electrons pass from one to the next. Textbooks call this proton pumping.",
+        "4. A gradient builds: protons accumulate in the narrow intermembrane space, giving a high concentration of protons outside the inner membrane and a low concentration in the matrix. This proton (concentration) gradient is a store of energy, like water held behind a dam. It also makes the intermembrane space more positive and more acidic than the matrix.",
+        "5. Protons flow back: the inner membrane lets protons through only at the enzyme ATP synthase. They flow back down their gradient, from the intermembrane space across the inner membrane into the matrix, through a channel in ATP synthase. They do not pass back through the electron transport complexes.",
+        "6. ATP is made: ATP synthase harnesses the flow of protons. It turns part of the enzyme, like a water wheel or turbine, and uses the energy to join ADP and Pi into ATP on the matrix side.",
+        "7. Oxygen keeps the system running: oxygen accepts the electrons and protons at the end of the chain, forming water, so electrons keep flowing and protons keep being moved out. Without oxygen, the gradient is not maintained and ATP synthase stops.",
+        "Making ATP using a proton gradient across a membrane is called chemiosmosis. Nature of Science: the idea was proposed by the British biochemist Peter Mitchell in 1961 and was at first widely doubted. He was awarded the Nobel Prize in Chemistry in 1978, once experiments had supported it.",
+        "Diagram: a section of the inner membrane, with the matrix below and the intermembrane space above. Show NADH → NAD⁺ + H⁺ + 2e⁻ at the first complex; electrons moving along the protein complexes and mobile carriers, by an arrow; H⁺ passing up through the complexes into the intermembrane space and building up there, with many H⁺ drawn; ½O₂ + 2H⁺ + 2e⁻ → H₂O at the last complex; and ATP synthase, with H⁺ flowing down through it into the matrix while ADP + Pi → ATP. Label protein complex, mobile electron carrier, inner membrane, intermembrane space, matrix, ATP synthase and proton gradient."
+      ]
+    },
+    {
+      "h": "How the internal structure facilitates respiration (Higher Level only)",
+      "points": [
+        "Cristae: folding gives a large area of inner membrane, which holds very many electron transport chains and ATP synthase molecules, so more ATP can be made. Mitochondria in very active cells, such as heart and flight muscle, have more densely packed cristae.",
+        "Narrow intermembrane space: its small volume means that protons moved into it quickly build up a high concentration and a steep gradient.",
+        "Impermeable inner membrane: the gradient is kept, and protons can return only through ATP synthase, so their energy is not wasted.",
+        "Complexes embedded in the membrane in a fixed order: electrons pass quickly and in sequence, and protons are moved in one direction only, across the membrane.",
+        "Matrix next to the inner membrane: the enzymes of the link step and the citric acid cycle are right beside the chains, so NADH is delivered quickly. ATP is made into the matrix, from where it is exported to the cytoplasm.",
+        "Double membrane: separates the matrix's enzymes and conditions from the cytoplasm. The outer and inner membranes together create the intermembrane space.",
+        "Own DNA and ribosomes: the mitochondrion makes some of its own proteins, including some of the chain's, and can divide to make more mitochondria when a cell needs more energy, for example in muscles during training."
+      ]
+    },
+    {
+      "h": "Comparing the mitochondrion with the thylakoid membrane (Higher Level only)",
+      "points": [
+        "Similarities: both have electron transport chains of protein complexes and mobile electron carriers embedded in a membrane. Both use the energy of electrons passing along the chain to move protons across the membrane, building a proton gradient, and both make ATP as protons flow back through ATP synthase (chemiosmosis). Both have a large membrane area, from cristae or stacked thylakoids. Both organelles have their own DNA and ribosomes.",
+        "Source of energy: the mitochondrion uses chemical energy from food (glucose), delivered as electrons by NADH; the chloroplast uses light energy, absorbed by chlorophyll.",
+        "Source of electrons: NADH, from glucose, in the mitochondrion; water, via the reaction-centre chlorophyll, in the chloroplast.",
+        "Final electron acceptor: oxygen, forming water, in the mitochondrion; NADP⁺, forming NADPH, in the chloroplast (non-cyclic pathway).",
+        "Oxygen: used at the end of the chain in mitochondria; released by photolysis in chloroplasts.",
+        "Which membrane: the inner membrane of the envelope (cristae) in the mitochondrion; the thylakoid membrane, a separate internal membrane system, in the chloroplast, not its envelope.",
+        "Where protons build up: in the intermembrane space, between the inner and outer membranes, in the mitochondrion; inside the thylakoid space in the chloroplast.",
+        "Where ATP is made and used: in the matrix, then exported for use all over the cell, in the mitochondrion; in the stroma, where it is used in the light-independent reactions, in the chloroplast.",
+        "Diagram: side-by-side sketches of a section of the inner mitochondrial membrane and a section of the thylakoid membrane. Each shows its chain, the direction of proton movement, the high-proton compartment (intermembrane space; thylakoid space) and ATP synthase. Label the electron source and final acceptor on each."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Cristae", "definition": "The folds of the inner mitochondrial membrane, which greatly increase its surface area for electron transport chains and ATP synthase." },
+    { "term": "Intermembrane space", "definition": "The narrow space between the outer and inner mitochondrial membranes, into which protons are pumped." },
+    { "term": "Matrix", "definition": "The fluid inside the inner mitochondrial membrane, containing the enzymes of the link step and the citric acid cycle, DNA and ribosomes." },
+    { "term": "Protein complex", "definition": "A large protein embedded in the inner membrane that takes electrons from one carrier and passes them on, moving protons across the membrane as it does so." },
+    { "term": "Mobile electron carrier", "definition": "A small carrier that moves within or along the membrane, passing electrons from one protein complex to the next." },
+    { "term": "Proton gradient", "definition": "A high concentration of protons in the intermembrane space, compared with the matrix, which stores energy that drives ATP synthase." },
+    { "term": "ATP synthase", "definition": "The enzyme that uses the flow of protons back across the inner membrane to join ADP and Pi into ATP in the matrix." },
+    { "term": "Chemiosmosis", "definition": "The making of ATP using a proton gradient across a membrane." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the location of the electron transport chain in a mitochondrion and explain why the inner membrane is folded.",
+      "model": "The electron transport chain is located in the inner membrane of the mitochondrion, on the cristae. The inner membrane is folded into cristae to increase its surface area, which allows many electron transport chains and ATP synthase molecules to be held, so that more ATP can be made."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how the transfer of electrons along the electron transport chain leads to the production of ATP by ATP synthase.",
+      "model": "High-energy electrons from NADH are transferred to a protein complex in the inner membrane, giving it a negative charge. This attracts protons, which are given by donor molecules such as NADH, and energy from the electrons moves the protons through the complex into the intermembrane space. As the electrons pass from complex to complex, more protons are moved, so protons accumulate in the intermembrane space and form a high concentration outside the inner membrane, a proton gradient. The inner membrane allows protons to pass back only through ATP synthase. The protons flow down their gradient through ATP synthase into the matrix, and this flow turns the enzyme, which uses the energy to join ADP and Pi into ATP. Oxygen accepts the electrons at the end of the chain, forming water, which keeps the electrons flowing."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare the electron transport chain of the inner mitochondrial membrane with that of the thylakoid membrane, giving two similarities and three differences.",
+      "model": "Similarities: both chains consist of protein complexes and mobile electron carriers embedded in a membrane, and both use electron transfer to move protons across the membrane, building a proton gradient that drives ATP synthase. Differences: the mitochondrion uses chemical energy from glucose delivered by NADH, whereas the chloroplast uses light energy absorbed by chlorophyll. In the mitochondrion, oxygen is the final electron acceptor and forms water; in the chloroplast, NADP⁺ is the final acceptor and forms NADPH. Protons build up in the intermembrane space in the mitochondrion, and in the thylakoid space in the chloroplast."
+    }
+  ]
+}

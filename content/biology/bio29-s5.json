@@ -1,0 +1,100 @@
+{
+  "loId": "bio29-s5",
+  "chapterId": "bio29",
+  "subsection": "Blood vessels",
+  "syllabusRef": "2.6.13",
+  "notes": [
+    {
+      "h": "Vessel walls and the closed circuit",
+      "points": [
+        "Blood flows in a closed circuit: heart, arteries, arterioles, capillaries, venules, veins, and back to the heart. Arteries carry blood away from the heart; veins carry blood towards the heart; capillaries link them inside the organs, and it is across capillary walls that materials are exchanged with the cells.",
+        "The walls of arteries and veins have three layers. The inner layer is the endothelium, one cell thick and smooth, which reduces friction. The middle layer is smooth muscle and elastic fibres. The outer layer is tough connective tissue containing collagen fibres, which protects the vessel and stops it over-stretching. The space in the centre, through which blood flows, is the lumen. Capillaries have only the endothelium."
+      ]
+    },
+    {
+      "h": "Arteries",
+      "points": [
+        "Role: arteries carry blood away from the heart to the organs, at high pressure. All arteries carry oxygenated blood except the pulmonary artery (see ‘Circulation’).",
+        "Thick wall, with a thick middle layer of muscle and elastic fibres, to withstand the high pressure of blood pumped from the ventricles without bursting.",
+        "Elastic fibres: the wall stretches as each surge of blood enters, then recoils between beats. This pushes the blood on, keeps the pressure up between beats and smooths the flow. The stretching is felt as the pulse (see ‘Heartbeat’).",
+        "Narrow lumen relative to the thickness of the wall, which helps keep the pressure high. In section, an artery keeps a round shape, because its thick wall holds it open.",
+        "No valves, except the semilunar valves where the aorta and pulmonary artery leave the heart (taught in ‘Investigation: the heart’). The high pressure keeps blood moving forwards. Blood flows fast and in spurts, and a cut artery spurts bright red blood.",
+        "Arterioles are the smallest arteries, leading into the capillary networks. Their walls have a high proportion of smooth muscle, which contracts to narrow them (vasoconstriction) or relaxes to widen them (vasodilation). They control how much blood flows to each organ, for example more to the muscles in exercise and more to the skin when hot (see ‘Homeostasis as a stimulus-response model’)."
+      ]
+    },
+    {
+      "h": "Veins",
+      "points": [
+        "Role: veins carry blood from the organs back towards the heart, at low pressure. All veins carry deoxygenated blood except the pulmonary veins.",
+        "Thin wall, with a thin middle layer and few elastic fibres, because the pressure is low. The wall is easily squashed, so in section a vein often looks flattened or irregular.",
+        "Wide lumen, which reduces resistance to the slow-moving blood.",
+        "Valves: pocket-shaped, or semilunar, valves are found especially in the veins of the limbs and let blood flow only towards the heart. When blood starts to flow backwards, it fills the pockets, which close the vein.",
+        "Skeletal muscle pump: contracting skeletal muscles squeeze the veins that run between them, pushing blood along, and the valves prevent backflow. Breathing movements lower the pressure in the thorax during inhalation and draw blood towards the heart. Veins next to arteries are squeezed by the arterial pulse. This is why standing still for a long time makes blood pool in the legs.",
+        "Venules are small veins that collect blood from capillary networks and join to form veins.",
+        "Diagram: a longitudinal section of a vein showing an open valve, with blood flowing towards the heart, and a closed valve, with its pockets filled and blocking backflow. Add arrows, and label the wall, lumen and valve."
+      ]
+    },
+    {
+      "h": "Capillaries",
+      "points": [
+        "Role: the exchange of materials between the blood and the body cells. Capillaries form dense networks, called capillary beds, in every tissue, so that no cell is far from one.",
+        "The wall is only one cell thick, consisting of endothelium only, with no muscle or elastic layers, so the diffusion distance is very short.",
+        "The lumen is very narrow, only wide enough for red blood cells to pass in single file, which brings them close to the wall. Capillaries are so numerous that their total cross-section is large, so blood flows slowly through them, giving time for exchange.",
+        "Leaky: there are small gaps between the endothelial cells, so plasma fluid and small dissolved molecules can pass out, and white blood cells can squeeze through. Red blood cells and large plasma proteins cannot.",
+        "Pressure falls as blood flows through the capillaries, so blood leaving them enters the venules at low pressure. That is why veins have no pulse."
+      ]
+    },
+    {
+      "h": "Exchange at the capillaries: tissue fluid",
+      "points": [
+        "At the arterial end of a capillary bed, the blood pressure is higher and forces plasma, which is water with dissolved glucose, amino acids, salts and oxygen, out through the capillary wall into the spaces between the cells. This fluid is tissue fluid. It bathes every cell and forms the internal environment (see ‘Homeostasis as a stimulus-response model’). Red blood cells and plasma proteins stay in the capillary.",
+        "Substances pass between tissue fluid and cells by diffusion and active transport. Oxygen and nutrients enter the cells; CO₂, urea and other wastes leave them.",
+        "At the venous end the pressure is lower, and the plasma proteins left in the blood draw water back in by osmosis. So most of the tissue fluid, now carrying CO₂ and wastes, returns to the capillary. The small amount of excess fluid is drained away by lymph vessels and returned to the blood.",
+        "Diagram: a capillary bed between an arteriole and a venule, surrounded by body cells. Add arrows for fluid leaving at the arterial end and returning at the venous end, and for O₂ and nutrients entering the cells and CO₂ and wastes leaving them."
+      ]
+    },
+    {
+      "h": "Comparing arteries, veins and capillaries",
+      "points": [
+        "Direction of flow: arteries carry blood away from the heart; veins carry it towards the heart; capillaries link arterioles to venules within an organ.",
+        "Pressure: high and pulsing in arteries; falling through the capillaries; low and steady in veins.",
+        "Wall: thick, muscular and elastic in arteries; thin, with little muscle and elastic tissue, in veins; one cell thick, endothelium only, in capillaries.",
+        "Lumen: narrow relative to the wall in arteries; wide in veins; just wide enough for one red blood cell in capillaries.",
+        "Valves: none in arteries, apart from at the heart; present in veins; none in capillaries.",
+        "Speed of flow: fast in arteries; slow in capillaries; slow but steady in veins.",
+        "Oxygen content: arteries usually carry oxygenated blood and veins deoxygenated blood, except in the pulmonary circuit, and capillaries are where exchange happens. This is not how the vessels are defined; they are defined by direction of flow.",
+        "Exchange: no exchange with the tissues through the thick walls of arteries and veins; all exchange happens in capillaries.",
+        "Diagram: transverse sections of an artery, a vein and a capillary drawn side by side. The artery is round, with a thick wall of endothelium, thick muscle and elastic layer and outer connective tissue, and a narrow lumen. The vein has a thin wall with the same three layers, a thinner middle layer, a wide lumen and is often flattened. The capillary is a ring of one or two endothelial cells around a lumen holding one red blood cell. Label each layer and the lumen."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Endothelium", "definition": "The one-cell-thick inner lining of blood vessels, the only layer of a capillary wall." },
+    { "term": "Lumen", "definition": "The central space of a blood vessel through which blood flows." },
+    { "term": "Arteriole", "definition": "A small artery leading into a capillary network, whose smooth muscle controls blood flow to an organ." },
+    { "term": "Venule", "definition": "A small vein that collects blood from a capillary network and joins with others to form a vein." },
+    { "term": "Capillary bed", "definition": "A dense network of capillaries in a tissue, so that no cell is far from one." },
+    { "term": "Vasoconstriction", "definition": "The narrowing of an arteriole caused by contraction of its smooth muscle." },
+    { "term": "Vasodilation", "definition": "The widening of an arteriole caused by relaxation of its smooth muscle." },
+    { "term": "Tissue fluid", "definition": "The fluid forced out of capillaries at their arterial end, which bathes the body cells." },
+    { "term": "Skeletal muscle pump", "definition": "The squeezing of veins by contracting skeletal muscles, which pushes blood towards the heart past the valves." },
+    { "term": "Valve (vein)", "definition": "A pocket-shaped valve in a vein that lets blood flow only towards the heart." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two structural differences between an artery and a vein and explain the reason for each.",
+      "model": "First, an artery has a thick wall with a thick middle layer of muscle and elastic fibres, while a vein has a thin wall with few elastic fibres. The artery needs this to withstand the high pressure of blood pumped from the ventricles, and the elastic fibres stretch and recoil to keep the pressure up between beats. The vein's thin wall suits the low pressure of blood returning to the heart. Second, veins have valves and arteries do not, except at the heart. The low pressure in veins would allow blood to flow backwards, so valves prevent backflow and allow blood to be moved towards the heart by skeletal muscle contraction. The high pressure in arteries keeps blood moving forwards, so no valves are needed."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw a labelled longitudinal section of a vein to show a valve, and explain how blood is moved through veins towards the heart.",
+      "model": "The diagram shows a longitudinal section of a vein, with the wall, lumen and valve labelled. An open valve allows blood to flow towards the heart, while a closed valve has its pockets filled with blood, which blocks backflow. Blood is moved through veins towards the heart by the skeletal muscle pump: contracting skeletal muscles squeeze the veins running between them, pushing blood along, and the valves prevent blood flowing back. Breathing movements also help, because the pressure in the thorax falls during inhalation and draws blood towards the heart. Veins next to arteries are squeezed by the arterial pulse, which also helps push blood along."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how the structure of capillaries suits them to their role, and describe how materials are exchanged between the blood and the body cells.",
+      "model": "Capillaries have walls only one cell thick, made of endothelium alone, so the diffusion distance is very short. Their lumen is just wide enough for red blood cells to pass in single file, which brings the cells close to the wall and slows the blood so there is time for exchange. Capillaries form dense networks in every tissue, so no cell is far from one. The gaps between the endothelial cells let plasma and small dissolved molecules pass out. At the arterial end of a capillary bed the blood pressure is high and forces plasma out through the capillary wall as tissue fluid, which bathes the cells. Oxygen and nutrients diffuse from the tissue fluid into the cells, and carbon dioxide and wastes diffuse out of the cells into the tissue fluid. At the venous end the pressure is lower, and the plasma proteins left in the blood draw most of the tissue fluid back into the capillary by osmosis. The small amount of excess fluid is drained away by lymph vessels."
+    }
+  ]
+}

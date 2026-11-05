@@ -18,7 +18,6 @@
     "pe-structures-strategies-roles-conventions": ["pe7", "pe9"],
     "pe-planning-optimum-performance": ["pe2", "pe-casestudy"],
     "pe-ethics-fair-play": ["pe9"],
-    "pe-adventure-activities": ["pe8"],
     "pe-aquatics": ["pe8"],
     "pe-artistic-aesthetic-movement": ["pe7"],
     "pe-athletics": ["pe1", "pe6"],
@@ -75,9 +74,9 @@
       "pe-structures-strategies-roles-conventions",
     ],
     pe8: [
-      "pe-adventure-activities",
-      "pe-adventure-activities",
-      "pe-adventure-activities",
+      "pe-structures-strategies-roles-conventions",
+      "pe-structures-strategies-roles-conventions",
+      "pe-structures-strategies-roles-conventions",
       "pe-aquatics",
     ],
     pe9: [
@@ -95,11 +94,8 @@
     ["pe-planning-optimum-performance", "Planning for Optimum Performance"],
     ["pe-promoting-physical-activity", "Promoting Physical Activity"],
     ["pe-ethics-fair-play", "Ethics and Fair Play"],
-    ["pe-physical-activity-inclusion", "Physical Activity and Inclusion"],
-    ["pe-technology-media-sport", "Technology, Media and Sport"],
     ["pe-gender-physical-activity", "Gender and Physical Activity"],
     ["pe-business-enterprise-sport", "Business and Enterprise in Physical Activity and Sport"],
-    ["pe-adventure-activities", "Adventure Activities"],
     ["pe-aquatics", "Aquatics"],
     ["pe-artistic-aesthetic-movement", "Artistic and Aesthetic Movement"],
     ["pe-athletics", "Athletics"],
@@ -108,10 +104,18 @@
   ];
 
   // Keep the hand-authored PE chapters as a safe fallback if the generated
-  // deck failed to load for any reason.
+  // deck failed to load for any reason. The subsection shells from data.js
+  // are dropped so they do not appear beside the legacy chapters.
   if (!chapterDefinitions.some(function (chapter) {
     return Array.isArray(decks[chapter[0]]) && decks[chapter[0]].length > 0;
-  })) return;
+  })) {
+    COURSE_DATA.chapters = COURSE_DATA.chapters.filter(function (chapter) {
+      return !(chapter.subject === "pe" && chapterDefinitions.some(function (definition) {
+        return definition[0] === chapter.id;
+      }));
+    });
+    return;
+  }
 
   var pipelineChapters = chapterDefinitions.map(function (chapter, index) {
     var id = chapter[0];
@@ -132,6 +136,9 @@
         return (owners[questionIndex] || owners[0]) === id;
       });
     });
+    // Outline subsections declared for this chapter in data.js (course-outlines/pe.md).
+    var shell = legacyChapters.get(id);
+    var subsections = shell && Array.isArray(shell.learningOutcomes) ? shell.learningOutcomes : [];
     return {
       id: id,
       number: index + 1,
@@ -142,14 +149,14 @@
         {
           id: id + "-core",
           code: (index + 1) + ".0",
-          title: "Core Concepts",
+          title: subsections.length ? "Chapter review" : "Core Concepts",
           // Preserve relevant hand-authored depth from the original PE taxonomy.
           // The final notes adapter adds the pipeline concepts and answer method.
           notes: authoredNotes.slice(),
           keyTerms: cards.slice(),
           questions: authoredQuestions.slice(),
         },
-      ],
+      ].concat(subsections),
     };
   });
 

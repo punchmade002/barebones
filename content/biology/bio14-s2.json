@@ -1,0 +1,170 @@
+{
+  "loId": "bio14-s2",
+  "chapterId": "bio14",
+  "subsection": "Investigation: rate of photosynthesis",
+  "syllabusRef": "2.2.2",
+  "notes": [
+    {
+      "h": "Rate of photosynthesis and limiting factors",
+      "points": [
+        "The rate of photosynthesis is the amount of product made, or reactant used, per unit time.",
+        "It is usually measured as the rate of oxygen production, in bubbles per minute or cm³ of gas per minute, but it can also be measured as the rate of CO₂ uptake. The oxygen comes from the splitting of water in the light-dependent stage (see Photosynthesis as an anabolic process).",
+        "Light intensity: light supplies the energy for the light-dependent stage, so more light means more ATP and hydrogen are made per minute and the rate rises, until another factor holds it back.",
+        "Carbon dioxide concentration: CO₂ is the raw material of the light-independent stage, so more CO₂ raises the rate, until another factor holds it back.",
+        "Temperature: the light-independent stage is controlled by enzymes. Raising the temperature increases the rate, because molecules move faster and collide more often with the enzymes' active sites, up to an optimum. Above the optimum the rate falls quickly as the enzymes are denatured. Enzyme action is explained in Enzymes as catalysts.",
+        "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. At any moment the rate of photosynthesis is limited by whichever of light intensity, CO₂ concentration or temperature is furthest from its best value.",
+        "Raising a limiting factor increases the rate. Raising a factor that is not limiting has no effect.",
+        "Net rate: a plant respires all the time, using some of the oxygen it makes, so the oxygen given off is photosynthesis minus respiration.",
+        "In very dim light the two processes are equal and no oxygen is given off; this is the compensation point. In darkness the plant takes in oxygen."
+      ]
+    },
+    {
+      "h": "Investigation planning: aim, variables, control and equipment",
+      "points": [
+        "Aim: to investigate the effect of light intensity (or CO₂ concentration, or temperature) on the rate of photosynthesis of pondweed. Change only one factor in each investigation.",
+        "Elodea (Canadian pondweed) is the standard school plant. It is aquatic, so the oxygen it gives off appears as visible bubbles from the cut stem, which can be counted or collected. It is easy to obtain, grows quickly and photosynthesises rapidly.",
+        "Hypotheses: as light intensity increases, the rate of photosynthesis increases until it levels off; as CO₂ concentration increases, the rate increases until it levels off; the rate increases with temperature up to an optimum and then decreases. Each rests on the theory of rate and limiting factors above.",
+        "Light-intensity investigation: the independent variable is light intensity, changed by the distance of the lamp from the plant or measured with a light meter in lux. The dependent variable is the rate of oxygen production, as bubbles per minute or cm³ of gas per minute.",
+        "Controlled variables: temperature (water bath), CO₂ concentration (the same sodium hydrogencarbonate concentration), the same piece of pondweed (same species, length and number of leaves), the same lamp and bulb, the time allowed to adjust, and the length of the counting period.",
+        "For the other factors, the independent variable is swapped for CO₂ concentration or temperature, and light intensity is kept constant.",
+        "Control: an identical set-up kept in darkness (lamp off, tube covered with foil), or a tube with no plant, gives no bubbles. This shows that the bubbles come from photosynthesis by the plant in the light, not from gas leaving the solution.",
+        "Equipment and materials: fresh Elodea, scalpel or scissors, boiling tube or test tube, paper clip to weigh the pondweed down, beaker of water as a water bath (or an electric water bath), thermometer, bench lamp (an LED bulb gives out less heat), metre stick or ruler, stopwatch, and a light meter (optional).",
+        "Chemicals: sodium hydrogencarbonate (NaHCO₃) powder, or solutions of known concentration, in water that has been boiled and cooled. For measuring volume: a funnel and graduated tube, or a capillary tube attached to a syringe, called a photosynthometer. A glowing splint is optional, for testing the gas."
+      ]
+    },
+    {
+      "h": "Investigation set-up and measurement",
+      "points": [
+        "1. Fill a boiling tube with water containing a set concentration of sodium hydrogencarbonate. It dissolves to supply CO₂ to the plant, so that CO₂ is not limiting (except in the carbon dioxide investigation).",
+        "2. Cut a healthy shoot of pondweed about 5 to 8 cm long, cutting the stem cleanly and slantwise under water.",
+        "3. Place it in the tube upside down, with the cut end at the top, weighed down with a paper clip.",
+        "4. Stand the tube in a beaker of water at a constant temperature, for example 25 °C, checked with a thermometer.",
+        "5. Carry out the investigation in a darkened room, so that the lamp is the only light source.",
+        "Counting: let the plant adjust to each new condition for about 5 minutes, then count the bubbles leaving the cut end in one minute. Repeat the count three times at each setting and calculate the mean.",
+        "Collecting (more accurate): place an inverted funnel over the pondweed in a beaker, with a water-filled graduated tube over the stem of the funnel, and record the volume of gas collected in a set time, for example 5 minutes. Alternatively, draw the gas up a capillary tube with a syringe and measure the length of the bubble.",
+        "Volume per unit time is more accurate than counting, because bubbles vary in size.",
+        "Testing the gas (optional): collected gas relights a glowing splint, showing that it is rich in oxygen. It is not pure oxygen; some nitrogen and carbon dioxide dissolved in the water also come out."
+      ]
+    },
+    {
+      "h": "Investigation method: light intensity",
+      "points": [
+        "1. Set up as in the basic set-up.",
+        "2. Place the lamp 10 cm from the pondweed, measured with a metre stick from the bulb to the plant.",
+        "3. Allow 5 minutes to adjust, then count the bubbles per minute three times.",
+        "4. Move the lamp to 20, 30, 40 and 50 cm, and repeat.",
+        "5. Check the water temperature at each distance and keep it constant, by adding cold or warm water to the bath.",
+        "A lamp close to the plant also heats it, which would change two variables at once. Use an LED bulb, or place a beaker or flat-sided tank of water between the lamp and the plant as a heat shield, and check the thermometer.",
+        "Moving the lamp further away lowers the light intensity as the inverse square of the distance (light intensity ∝ 1/d²): doubling the distance gives a quarter of the light intensity.",
+        "Plot the rate against 1/d² to show the relationship with light intensity, or measure the light intensity at each position with a light meter."
+      ]
+    },
+    {
+      "h": "Investigation method: carbon dioxide concentration",
+      "points": [
+        "1. Make up a series of sodium hydrogencarbonate solutions of increasing concentration, for example 0%, 0.25%, 0.5%, 0.75% and 1%, using water that has been boiled and cooled. Boiling removes dissolved CO₂, so the 0% tube has very little.",
+        "2. Keep the lamp at a fixed distance close to the plant, for example 10 cm, and keep the temperature constant.",
+        "3. Place the same pondweed in each solution in turn, allow 5 minutes to adjust, and count the bubbles per minute three times.",
+        "4. Calculate the mean for each concentration."
+      ]
+    },
+    {
+      "h": "Investigation method: temperature",
+      "points": [
+        "1. Set up as in the basic set-up, with a fixed lamp distance and a fixed sodium hydrogencarbonate concentration.",
+        "2. Place the tube in a water bath at a range of temperatures, for example 10, 20, 30, 40 and 50 °C, using ice or warm water or electric water baths, and check each with a thermometer.",
+        "3. Let the tube reach the bath temperature, about 5 minutes, then count the bubbles per minute three times.",
+        "4. If the first pondweed stops producing bubbles, use a fresh piece for the higher temperatures, and note that you have done so.",
+        "Warm water holds less dissolved gas, so some bubbles at high temperatures can come from gas leaving the solution. The darkness control at each temperature checks this."
+      ]
+    },
+    {
+      "h": "Investigation safety",
+      "points": [
+        "Electricity and water: keep the lamp, its cable and plug away from the water bath, dry your hands before touching switches, and do not move a lamp while it is on and hot.",
+        "Lamp bulbs, other than LEDs, get very hot and can burn; let them cool before moving them.",
+        "Take care with the scalpel: cut on a tile, away from the body. Take care with hot water baths and glassware.",
+        "Wash your hands after handling pondweed and pond water.",
+        "Elodea canadensis is a non-native invasive species in Ireland. Never put leftover pondweed or its water into ponds, lakes, rivers or drains; dispose of it in compost or general waste."
+      ]
+    },
+    {
+      "h": "Investigation results, graphs and conclusion",
+      "points": [
+        "Record the primary data in a table: the independent variable (distance in cm and 1/d², concentration in %, or temperature in °C), the three counts and the mean number of bubbles per minute.",
+        "Plot the mean rate on the y-axis against the independent variable on the x-axis, with units, and join the points with a smooth curve or straight lines.",
+        "Light intensity: as the lamp moves closer, light intensity increases and the rate increases. At high intensity the curve levels off, forming a plateau, because another factor, CO₂ concentration or temperature, has become limiting. The rate of photosynthesis therefore falls as the distance increases.",
+        "CO₂ concentration: the rate increases with CO₂ concentration and then levels off, because light intensity or temperature becomes limiting. At 0% (boiled water) there are few or no bubbles.",
+        "Temperature: the rate rises up to an optimum, then falls steeply above it, as the enzymes of the light-independent stage are denatured. At the highest temperatures bubbling may stop. The curve is not symmetrical: the fall is steeper than the rise.",
+        "Conclusion: state the relationship shown by the primary data and whether it supports the hypothesis. On the levelling-off part of the graph, name the factor that is now limiting.",
+        "Diagram: the set-up, with a lamp and metre stick, a heat shield, a beaker water bath with a thermometer, and a boiling tube of sodium hydrogencarbonate solution with an upside-down pondweed shoot giving off bubbles from the cut end (or, as an alternative, the funnel and graduated collecting tube). Label each part.",
+        "Diagram: two sketch graphs. (a) Rate against light intensity, rising and then levelling off, with a second, higher curve labelled higher CO₂ concentration that levels off at a higher rate; label the rising part light limiting and the plateau CO₂ or temperature limiting. (b) Rate against temperature, rising to an optimum and then falling steeply."
+      ]
+    },
+    {
+      "h": "Using secondary data",
+      "points": [
+        "Secondary data are results collected by others: other groups' class results, textbook or published graphs, or data-logger results from an oxygen or CO₂ sensor. Pooling class results increases the sample size and checks reproducibility.",
+        "Interpreting a graph of rate against light intensity at two CO₂ concentrations (or two temperatures): where the two curves overlap, light is the limiting factor, because raising CO₂ makes no difference.",
+        "Where the two curves separate and each levels off, CO₂ (or temperature) is limiting, because raising it raises the plateau.",
+        "Applying limiting factors: commercial glasshouse growers raise the yield of crops such as tomatoes and lettuce by supplying extra light (artificial lighting), heat and CO₂. Heat and CO₂ can come from burning paraffin or propane, which also gives heat, or from adding CO₂ gas.",
+        "Each factor is kept just high enough that it is not limiting. Raising a factor that is not limiting wastes fuel and money and adds to emissions."
+      ]
+    },
+    {
+      "h": "Sources of error and limitations",
+      "points": [
+        "Bubbles vary in size and can be missed or merge when the rate is fast, so counting is imprecise. Collecting the volume of gas is more accurate.",
+        "Other light in the room, such as daylight or other groups' lamps, changes the light intensity; work in a darkened room.",
+        "Temperature can drift, especially with a hot bulb close to the plant. Check and adjust it.",
+        "The gas is not pure oxygen, and some oxygen dissolves in the water instead of forming bubbles, so the bubbles underestimate the true rate. The measured rate is also a net rate, after respiration.",
+        "The carbon dioxide from sodium hydrogencarbonate is used up over time, and the plant's response may change during a long investigation. Use fresh solution, a fresh plant for each run if needed, and repeat the whole series.",
+        "Allowing too little time to adjust after each change gives rates that still reflect the previous setting.",
+        "Repeat each reading at least three times and calculate a mean. Compare your results with other groups' results."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Rate of photosynthesis",
+      "definition": "The amount of product made, or reactant used, per unit time; often measured as the rate of oxygen production."
+    },
+    {
+      "term": "Limiting factor",
+      "definition": "The factor in shortest supply, which holds back the rate of a process even when the other factors are increased."
+    },
+    {
+      "term": "Compensation point",
+      "definition": "The light intensity at which the rate of photosynthesis equals the rate of respiration, so no net gas exchange occurs."
+    },
+    {
+      "term": "Optimum",
+      "definition": "The temperature at which enzyme-controlled reactions proceed fastest; above it the enzymes are denatured and the rate falls."
+    },
+    {
+      "term": "Inverse square law",
+      "definition": "Light intensity falls as the inverse square of the distance from the source, so doubling the distance gives a quarter of the intensity."
+    },
+    {
+      "term": "Secondary data",
+      "definition": "Results collected by others, such as other groups' results, textbook graphs or data-logger results, used to support conclusions."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by a limiting factor, and name two factors that can limit the rate of photosynthesis.",
+      "model": "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. Raising a limiting factor increases the rate, while raising a factor that is not limiting has no effect. Two factors that can limit the rate of photosynthesis are light intensity and carbon dioxide concentration; temperature can also be limiting."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would investigate the effect of light intensity on the rate of photosynthesis. Include how you would vary light intensity, measure the rate and keep two other factors constant.",
+      "model": "Use a fresh shoot of pondweed (Elodea), cut slantwise under water and placed upside down in a boiling tube of sodium hydrogencarbonate solution, which supplies carbon dioxide so that it is not limiting. Weigh the shoot down with a paper clip and keep the tube in a darkened room, with a lamp as the only light source. Vary light intensity by moving the lamp to distances such as 10, 20, 30, 40 and 50 cm from the plant, measured with a metre stick; light intensity falls as the inverse square of the distance, so doubling the distance gives a quarter of the intensity, or measure intensity with a light meter. Allow about 5 minutes to adjust at each distance, then count the bubbles of oxygen leaving the cut end in one minute, repeat three times and calculate the mean. Measure rate as the mean number of bubbles per minute. Keep temperature constant by standing the tube in a water bath checked with a thermometer, and use an LED bulb or a heat shield to stop the lamp heating the water. Keep the carbon dioxide concentration constant by using the same sodium hydrogencarbonate solution, and use the same piece of pondweed for each run. Include a control in darkness, which gives no bubbles, to show that the bubbles come from photosynthesis."
+    },
+    {
+      "marks": 9,
+      "prompt": "Sketch a graph of the expected results of an investigation into the effect of carbon dioxide concentration on the rate of photosynthesis, and explain its shape. Suggest how a glasshouse grower could use this information.",
+      "model": "Plot rate of photosynthesis on the y-axis against carbon dioxide concentration on the x-axis. The line rises as the concentration increases, then levels off at a plateau. The rise occurs because carbon dioxide is the raw material of the light-independent stage, so more of it raises the rate. The plateau occurs because another factor, light intensity or temperature, has become limiting, so raising carbon dioxide further makes no difference. A glasshouse grower can use this to supply carbon dioxide only up to the level where it stops being limiting, for example by burning paraffin or propane or adding CO₂ gas, and not beyond it, since extra carbon dioxide beyond that point wastes money and adds to emissions."
+    }
+  ]
+}

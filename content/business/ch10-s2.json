@@ -1,0 +1,69 @@
+{
+  "loId": "ch10-s2",
+  "chapterId": "ch10",
+  "subsection": "2. Costs and revenue streams: fixed, variable and recurring income",
+  "syllabusRef": "2.5.2",
+  "notes": [
+    { "h": "Fixed and variable costs", "b": "Costs are classified by how they behave as output changes. Each cost belongs to one group, so learn the test for each.", "points": [
+      "Fixed costs stay the same in total whatever the level of output in the short run, such as rent, insurance and the salaries of permanent staff.",
+      "Variable costs change directly with output, such as raw materials, packaging and wages paid per item made.",
+      "Electricity is semi-variable, because it has a fixed standing charge as well as a charge that rises with usage.",
+      "Total cost equals fixed costs plus variable costs at a given level of output."
+    ] },
+    { "h": "Start-up and running costs", "b": "Costs can also be grouped by when they arise in the life of the business.", "points": [
+      "Start-up costs are incurred before trading begins, such as legal fees, fit-out of premises, equipment and initial stock.",
+      "Running costs are the ongoing costs of operating once trading starts, such as wages, rent, utilities and marketing.",
+      "Start-up costs are usually one-off, so they weigh heavily on cash in the early months.",
+      "A business that underestimates its running costs can run short of cash even when sales are growing."
+    ] },
+    { "h": "Revenue streams", "b": "A revenue stream is a source of income. The main difference between streams is how often the customer pays.", "points": [
+      "A one-off transaction is a single sale where the customer pays once, such as buying a laptop or a meal in a restaurant.",
+      "A recurring stream brings in income repeatedly, which makes cash flow easier to predict.",
+      "A subscription is a regular fee for continued access to a product or service, such as a monthly gym membership.",
+      "Licensing earns fees for letting others use intellectual property such as a brand, patent or software.",
+      "Usage fees charge customers according to how much they use a service, such as a per-unit charge for mobile data.",
+      "Advertising revenue comes from selling space or airtime to other businesses, which is how many free apps and websites earn their income."
+    ] },
+    { "h": "Profit and break-even", "b": "Profit is what remains when costs are deducted from revenue. Break-even is the output at which total revenue equals total cost.", "points": [
+      "Profit equals total revenue minus total costs.",
+      "Contribution per unit is the selling price minus the variable cost per unit, and it goes towards covering fixed costs.",
+      "Break-even quantity equals fixed costs divided by contribution per unit.",
+      "Sample figures: fixed costs of €6,000, a selling price of €15 and a variable cost of €9 give a contribution of €6 and a break-even of 1,000 units.",
+      "Above break-even each extra unit adds to profit, while below it the business makes a loss."
+    ] },
+    { "h": "Changes through the life cycle", "b": "Costs and revenues change as a product, and the business as a whole, moves through its life cycle.", "points": [
+      "In the introduction stage sales are low, promotion costs are high and the business may make a loss.",
+      "In the growth stage sales rise quickly and unit costs fall as output increases, so profit grows.",
+      "In the maturity stage sales level off, competition increases and price pressure reduces margins.",
+      "In the decline stage sales fall, so the business may cut costs, narrow its range or withdraw the product.",
+      "Over the business life cycle the mix of costs and revenue streams shifts too, and a mature firm may rely more on recurring income."
+    ] },
+    { "h": "Evaluation", "b": "The mix of costs and revenue streams affects a business's risk as well as its profit.", "points": [
+      "A business dependent on one-off sales has less predictable cash flow than one with recurring income.",
+      "High fixed costs make profit sensitive to changes in sales, so a small fall in sales can turn a profit into a loss.",
+      "Moving to subscriptions can build customer loyalty, but customers may cancel if the service stops providing value."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Fixed costs", "definition": "Costs that stay the same in total whatever the level of output in the short run." },
+    { "term": "Variable costs", "definition": "Costs that rise or fall directly with the level of output." },
+    { "term": "Total cost", "definition": "The sum of all fixed and variable costs at a given level of output." },
+    { "term": "Start-up costs", "definition": "Costs incurred before a business begins trading, such as equipment, fit-out and legal fees." },
+    { "term": "Revenue stream", "definition": "A source of income that a business earns from customers or other parties." },
+    { "term": "Recurring revenue", "definition": "Income a business earns repeatedly from the same customers over time, such as subscription fees." },
+    { "term": "Break-even point", "definition": "The level of output at which total revenue equals total cost, so profit is zero." },
+    { "term": "Contribution per unit", "definition": "Selling price per unit minus variable cost per unit, which goes towards covering fixed costs." }
+  ],
+  "factCards": [
+    { "term": "Three overheads that do not change with output", "definition": "Rent, insurance and salaries of permanent staff." },
+    { "term": "Why electricity is classed as semi-variable", "definition": "It has a fixed standing charge as well as a charge that rises with usage." },
+    { "term": "Four stages of the product life cycle", "definition": "Introduction, growth, maturity and decline." },
+    { "term": "Four common forms of recurring income", "definition": "Subscriptions, licensing, usage fees and advertising." },
+    { "term": "Main risk of a large overhead base", "definition": "Profit is very sensitive to any fall in sales." },
+    { "term": "Common reason a growing business runs short of cash", "definition": "Costs are paid before the sales they support turn into cash." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A café owner is opening a coffee shop in Galway. Classify the main costs as fixed, variable or semi-variable, distinguish start-up costs from running costs, and explain how costs and revenue would change as the shop moves through the business life cycle.", "model": "Classification: rent, insurance and permanent staff salaries are fixed; coffee beans, milk, cups and packaging are variable; electricity is semi-variable. Start-up: the espresso machine, fit-out, licences, legal fees and initial stock, all paid before the first sale. Running: rent, utilities, staff wages and marketing that continue once trading starts. Revenue: mainly one-off sales of coffee, which could be supplemented by recurring income from a loyalty subscription or regular sales of bags of beans. Life cycle: in the introduction stage marketing spend is high and sales low, so a loss is likely; in the growth stage sales rise and unit costs fall; in the maturity stage competition squeezes prices, so the owner must control costs closely." },
+    { "marks": 10, "prompt": "A business has fixed costs of €10,000, a selling price of €20 per unit and a variable cost of €12 per unit. Calculate its break-even quantity and explain what happens to profit above that level of output.", "model": "Contribution per unit is €20 minus €12, which is €8. Break-even quantity is €10,000 divided by €8, which is 1,250 units. Above 1,250 units each additional unit adds €8 to profit, because the contribution covers the unit's own variable cost and the fixed costs have already been covered." }
+  ]
+}

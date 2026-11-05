@@ -1,0 +1,104 @@
+{
+  "loId": "bio31-s9",
+  "chapterId": "bio31",
+  "subsection": "Pyramids of biomass",
+  "syllabusRef": "3.1.9",
+  "notes": [
+    {
+      "h": "What a pyramid of biomass is (Higher Level only)",
+      "points": [
+        "Biomass is the total mass of living material, usually measured as dry mass (the mass after all water is removed), in a given area or volume at a given time. It is measured in grams per square metre (g/m²) for land, or grams per cubic metre (g/m³) for water.",
+        "A pyramid of biomass shows the total dry mass of the organisms at each trophic level of a food chain or web, at one time, per unit area. Each level is a horizontal bar whose width is proportional to its biomass, with the producers at the base.",
+        "Dry mass is used because the water content of organisms varies greatly, e.g. lettuce leaves are mostly water and wood much less, and it changes from hour to hour. Fresh (wet) mass would therefore be misleading.",
+        "Pyramids of biomass are almost always upright, because biomass decreases at each trophic level. Only part of the food eaten becomes the consumer's body; the rest is respired (lost as CO₂ and water), egested or excreted (see “Energy and nutrient transfer”)."
+      ]
+    },
+    {
+      "h": "Measuring biomass (Higher Level only)",
+      "points": [
+        "1. Sample the organisms at each trophic level in a measured area, e.g. a quadrat.",
+        "2. Dry them in an oven at about 80–100 °C, which is below the temperature at which organic matter burns.",
+        "3. Weigh them, return them to the oven and reweigh until the mass stays constant, which means all the water has gone.",
+        "4. Scale up to the whole area.",
+        "Drying kills the organisms, so only small samples are taken, and the biomass of large organisms such as trees is estimated from their measurements."
+      ]
+    },
+    {
+      "h": "Comparing the shapes for one food chain (Higher Level only)",
+      "points": [
+        "Diagram: a pyramid of numbers and a pyramid of biomass for the same food chain, oak tree → caterpillars → blue tits → sparrowhawk, drawn side by side. The numbers pyramid has a narrow base for the one tree, while the biomass pyramid is upright, with the widest bar for the tree."
+      ]
+    },
+    {
+      "h": "Inverted pyramids of biomass (Higher Level only)",
+      "points": [
+        "In some aquatic ecosystems, at certain times, the biomass of the producers (phytoplankton) is smaller than that of the primary consumers (zooplankton) that eat them, so the pyramid is inverted at the base.",
+        "Reason: phytoplankton are tiny, reproduce very rapidly and are eaten almost as fast as they are produced. At any one moment the standing crop, the biomass present, is therefore small, even though over a year they produce far more biomass than the zooplankton. The pyramid measures the biomass present at one moment, not the rate at which it is produced.",
+        "Diagram: an inverted pyramid of biomass for phytoplankton → zooplankton, with the producer bar narrower than the primary consumer bar, labelled."
+      ]
+    },
+    {
+      "h": "Comparing pyramids of numbers and pyramids of biomass (Higher Level only)",
+      "points": [
+        "Similarities: both show the trophic levels of a food chain or web as stacked bars with the producers at the base. Both are usually upright, both are measured at one time and change with the seasons, and both rely on sampling.",
+        "Similarities: both are models that show why there are fewer, or less mass of, top consumers, and both usually leave out decomposers.",
+        "What is measured: the number of individuals for pyramids of numbers, against the total dry mass per unit area for pyramids of biomass.",
+        "Size of organisms: pyramids of numbers ignore it, so one tree counts as one. Pyramids of biomass take it into account, so a large tree counts for its full mass. A biomass pyramid therefore gives a truer picture of how much food is available at each level.",
+        "Shape: pyramids of numbers are often inverted or spindle-shaped where one large producer feeds many herbivores or where parasites are involved. Pyramids of biomass are almost always upright on land, including for tree-based chains and parasite chains, and are inverted only in some aquatic ecosystems at some times.",
+        "Ease of collecting data: counting is quicker and does not harm the organisms, for pyramids of numbers. Drying and weighing is slow and destructive, so it needs small samples, and large organisms must be estimated, for pyramids of biomass.",
+        "Drawing to scale: very large differences in numbers, e.g. millions of grass plants and one fox, make pyramids of numbers hard to draw to scale. Biomass values are usually less extreme, so pyramids of biomass are easier to draw to scale.",
+        "What neither shows well is the rate of production over time. Biomass shows only the standing crop, so short-lived, fast-reproducing organisms are under-represented.",
+        "What neither shows well is the energy content. A gram of fat contains about twice the energy of a gram of carbohydrate or protein, so equal biomass does not mean equal energy.",
+        "Judgement: pyramids of numbers are useful for a quick, non-destructive survey of feeding relationships, especially where the organisms are similar in size. Pyramids of biomass better show the amount of material passing up a food chain and the effect of energy loss, so they are more useful for comparing ecosystems. A pyramid of energy, which shows the energy flowing through each level over a period of time and is never inverted, overcomes the limitations of both."
+      ]
+    },
+    {
+      "h": "Worked example: a woodland food chain (sample data) (Higher Level only)",
+      "points": [
+        "Sample data (invented for practice) for a woodland food chain in one area: oak trees 1 (total dry biomass 2 000 kg); caterpillars 5 000 (total dry biomass 0.5 kg); blue tits 4 (total dry biomass 0.02 kg).",
+        "Pyramid of numbers: narrow base (1), very wide caterpillar bar (5 000), narrow top (4), so the pyramid is spindle-shaped.",
+        "Pyramid of biomass: upright, decreasing from 2 000 kg to 0.5 kg to 0.02 kg (not to scale).",
+        "Interpretation: the tree is one organism but contains far more material than all the caterpillars, so the pyramid of biomass shows the food available at each level correctly."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Biomass",
+      "definition": "The total mass of living material in a given area or volume at a given time, usually measured as dry mass."
+    },
+    {
+      "term": "Dry mass",
+      "definition": "The mass of an organism after all its water has been removed."
+    },
+    {
+      "term": "Pyramid of biomass",
+      "definition": "A diagram showing the total dry mass of the organisms at each trophic level of a food chain, per unit area, at one time."
+    },
+    {
+      "term": "Standing crop",
+      "definition": "The biomass of the organisms present in an area at one moment."
+    },
+    {
+      "term": "Inverted pyramid of biomass",
+      "definition": "A pyramid of biomass whose producer bar is narrower than the primary consumer bar, as in some aquatic ecosystems where phytoplankton turn over rapidly."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by a pyramid of biomass? Explain why dry mass is used.",
+      "model": "A pyramid of biomass shows the total dry mass of the organisms at each trophic level of a food chain or web, per unit area, at one time. Each level is a horizontal bar whose width is proportional to its biomass, with the producers at the base. Dry mass is used because the water content of organisms varies greatly, for example lettuce leaves are mostly water and wood much less, and it changes from hour to hour. Using fresh, wet mass would therefore give misleading comparisons, so the organisms are dried to constant mass and weighed."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare the use of pyramids of numbers and pyramids of biomass in the study of ecosystems.",
+      "model": "Similarities: both show the trophic levels of a food chain or web as stacked bars with the producers at the base; both are usually upright; both are measured at one time, change with the seasons and rely on sampling; and both usually leave out decomposers. Differences: pyramids of numbers count individuals, while pyramids of biomass measure total dry mass per unit area. Pyramids of numbers ignore the size of organisms, so one oak tree counts as one, whereas pyramids of biomass take size into account, so the tree counts for its full mass. Pyramids of numbers are often inverted or spindle-shaped where one large producer feeds many herbivores or parasites are involved; pyramids of biomass are almost always upright on land and inverted only in some aquatic ecosystems at some times. Counting is quick and harmless for pyramids of numbers, whereas drying and weighing is slow and destructive for pyramids of biomass, so large organisms must be estimated. Very large differences in numbers make pyramids of numbers hard to draw to scale, while biomass pyramids are easier to draw to scale. Neither shows the rate of production over time or the energy content well. Judgement: pyramids of numbers are useful for a quick, non-destructive survey of feeding relationships, while pyramids of biomass better show the amount of material passing up a food chain and are more useful for comparing ecosystems."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw a pyramid of numbers and a pyramid of biomass for the food chain oak tree → caterpillars → blue tits. Explain why the shapes differ and why a pyramid of biomass can be inverted in a lake.",
+      "model": "The pyramid of numbers has a narrow base for the one oak tree, a very wide bar for the many caterpillars, and narrower bars for the few blue tits, so it is spindle-shaped. The pyramid of biomass is upright, with the widest bar for the oak tree, because it measures the dry mass of each level. The shapes differ because a pyramid of numbers ignores the size of organisms, while a pyramid of biomass takes it into account. In a lake, a pyramid of biomass can be inverted at the base: phytoplankton are tiny, reproduce very rapidly and are eaten almost as fast as they are produced, so at one moment their standing crop, the biomass present, can be less than the biomass of the zooplankton that eat them. Over a year, however, the phytoplankton produce far more biomass than the zooplankton, because the pyramid shows biomass at one moment and not the rate of production."
+    }
+  ]
+}

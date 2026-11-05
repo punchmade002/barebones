@@ -1,0 +1,111 @@
+{
+  "loId": "bio17-s1",
+  "chapterId": "bio17",
+  "subsection": "Modelling DNA replication and information flow",
+  "syllabusRef": "2.3.4",
+  "notes": [
+    {
+      "h": "How DNA replicates: the model step by step (Higher Level only)",
+      "points": [
+        "Replication takes place in the nucleus during the S phase of interphase (see “The cell cycle”).",
+        "In eukaryotes replication begins at many points along each chromosome at once, so the very long molecules are copied quickly.",
+        "Bacteria start replication at one point on their circular chromosome.",
+        "1. DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds between complementary bases, forming a Y-shaped replication fork.",
+        "2. Each exposed strand acts as a template.",
+        "2. Free DNA nucleotides, made in the cell and present in the nucleus, pair with the exposed bases by complementary base pairing (A–T, C–G).",
+        "3. DNA polymerase joins each new nucleotide to the growing strand, forming the sugar–phosphate backbone of the new strand.",
+        "3. DNA polymerase adds nucleotides only where they pair correctly with the template.",
+        "4. DNA polymerase proofreads each new base pair and removes and replaces most wrongly paired nucleotides; other repair enzymes correct many of the rest.",
+        "4. A mistake that is not corrected becomes a permanent change in the base sequence, a point mutation (see “Mutations”).",
+        "5. Each new DNA molecule, made of one template strand plus its new complementary strand, twists into a double helix.",
+        "5. The two new molecules are identical to each other and to the original, and remain joined as two sister chromatids at a centromere until they separate at anaphase of mitosis.",
+        "Replication needs energy, supplied by ATP (see “ATP”) and by the nucleotides themselves as they are added.",
+        "Diagram: a replication fork, labelled: parent (original) DNA double helix, DNA helicase at the fork, hydrogen bonds being broken, the two template strands, free nucleotides, DNA polymerase adding nucleotides, the new complementary strands, and the two daughter molecules, each with one old strand (dark) and one new strand (light)."
+      ]
+    },
+    {
+      "h": "Semi-conservative replication and the Meselson–Stahl evidence (Higher Level only)",
+      "points": [
+        "Semi-conservative replication: each new DNA molecule contains one strand from the original molecule (conserved) and one newly made strand.",
+        "Watson and Crick predicted this in 1953 from the base-pairing model (see “Models”).",
+        "Conservative replication: the original double helix stays intact, and a completely new molecule is made.",
+        "Dispersive replication: each new molecule is a patchwork of old and new pieces in both strands.",
+        "The Meselson–Stahl experiment (Matthew Meselson and Franklin Stahl, 1958) tested the three models.",
+        "1. They grew the bacterium E. coli for many generations in a medium whose only nitrogen was the heavy isotope ¹⁵N, so all its DNA was “heavy”.",
+        "2. They moved the bacteria to a medium containing only normal, light ¹⁴N.",
+        "3. After each generation they extracted the DNA and spun it at high speed in a caesium chloride solution, which forms a density gradient, so DNA settles as a band at a level that matches its density.",
+        "Before the transfer there is one heavy band.",
+        "After one generation there is one band of intermediate density, so conservative replication, which would give one heavy and one light band, is ruled out.",
+        "After two generations there are one intermediate band and one light band, of equal size, so dispersive replication, which would give a single band at every generation, becoming lighter, is ruled out.",
+        "Only the semi-conservative model fits both results.",
+        "Diagram: three centrifuge tubes side by side (generation 0, 1, 2) showing band positions heavy; intermediate; intermediate and light; with a strand diagram under each showing heavy strands dark and light strands pale."
+      ]
+    },
+    {
+      "h": "Using the model to predict and count (Higher Level only)",
+      "points": [
+        "Predicting daughter molecules: given a parent molecule with strands ATGCCA and TACGGT, the strands separate.",
+        "ATGCCA is the template for a new TACGGT, and TACGGT is the template for a new ATGCCA.",
+        "The two daughter molecules are identical to the parent, each with one old strand and one new strand.",
+        "Counting nucleotides: copying a DNA molecule of 1,000 base pairs makes two new strands of 1,000 nucleotides each, so 2,000 free nucleotides are used.",
+        "If 30% of the parent's bases are adenine, then 30% of the free nucleotides used are A and 30% are T.",
+        "The remaining free nucleotides are 20% C and 20% G, because A = T and C = G in double-stranded DNA (see “Nucleotides, DNA and RNA”).",
+        "Generations: one DNA molecule replicated three times gives 2³ = 8 molecules.",
+        "In a Meselson–Stahl-type experiment only 2 of these 8 still contain an original heavy strand, because each original strand is kept whole and never broken up.",
+        "Physical model: build a short double strand from paper or plastic nucleotide pieces in four colours, one per base, that fit only their correct partners.",
+        "Separate the strands, add free pieces to each, and compare the two products with the original; use two shades for old and new pieces to show semi-conservation.",
+        "Strength of the physical model: it shows templates, base pairing and identical products.",
+        "Limitations of the physical model: it is flat and short, and does not show the helix, the enzymes, the energy needed, or the speed and accuracy of copying in cells (models in general are in “Models”)."
+      ]
+    },
+    {
+      "h": "The flow of genetic information (Higher Level only)",
+      "b": "The ribosome works from an mRNA copy of a gene rather than from the DNA itself, for three reasons.",
+      "points": [
+        "Genetic information flows from DNA to mRNA to protein: DNA → transcription → mRNA → translation → protein.",
+        "Replication copies DNA to DNA.",
+        "Francis Crick called this one-way flow from nucleic acid to protein the “central dogma” of molecular biology.",
+        "Transcription: in the nucleus, the base sequence of one gene is copied into a molecule of messenger RNA (mRNA), using one DNA strand as the template.",
+        "The mRNA leaves the nucleus through a nuclear pore and travels to a ribosome in the cytoplasm, either free or attached to rough endoplasmic reticulum; the DNA stays in the nucleus.",
+        "Translation: at the ribosome, the mRNA's codons are read, transfer RNA molecules bring the matching amino acids, and these are joined in the order set by the codons to make a specific polypeptide, which folds into a functional protein (steps and roles in “Transcription and translation”).",
+        "The DNA is kept safe in the nucleus and is not damaged by being used directly.",
+        "Many mRNA copies can be made from one gene, and each is read by many ribosomes, so a lot of protein can be made quickly.",
+        "mRNA is broken down after use, so the cell can switch protein production on and off.",
+        "Exception: retroviruses such as HIV carry RNA and use the enzyme reverse transcriptase to make DNA from their RNA, so information flows from RNA to DNA (detail in “Viruses: replication”).",
+        "Information never flows from protein back to nucleic acid.",
+        "Diagram: a flow diagram of a eukaryotic cell showing a gene on DNA in the nucleus → transcription → mRNA passing through a nuclear pore → ribosome in the cytoplasm → translation → polypeptide folding into a protein. Label: nucleus, DNA, gene, mRNA, nuclear pore, ribosome, tRNA bringing amino acid, polypeptide."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Semi-conservative replication", "definition": "Replication in which each new DNA molecule keeps one strand from the original molecule and gains one newly made strand." },
+    { "term": "Conservative replication", "definition": "A rejected model in which the original double helix stays intact and a completely new molecule is made." },
+    { "term": "Dispersive replication", "definition": "A rejected model in which each new molecule is a patchwork of old and new pieces in both strands." },
+    { "term": "Meselson–Stahl experiment", "definition": "The 1958 experiment in E. coli that used heavy and light nitrogen isotopes and density-gradient centrifugation to show that replication is semi-conservative." },
+    { "term": "DNA helicase", "definition": "The enzyme that unwinds the DNA double helix and separates the two strands by breaking the hydrogen bonds between bases." },
+    { "term": "Replication fork", "definition": "The Y-shaped point where the two DNA strands are separated during replication." },
+    { "term": "DNA polymerase", "definition": "The enzyme that joins each new nucleotide to the growing strand during replication and proofreads each new base pair." },
+    { "term": "Proofreading", "definition": "The checking of each new base pair by DNA polymerase, which removes and replaces most wrongly paired nucleotides." },
+    { "term": "Central dogma", "definition": "Crick's name for the one-way flow of genetic information from nucleic acid to protein: DNA to mRNA to protein." },
+    { "term": "Transcription", "definition": "The copying of one gene's base sequence into a molecule of mRNA, using one DNA strand as the template." },
+    { "term": "Translation", "definition": "The making of a polypeptide at a ribosome, in the order set by the codons of an mRNA." },
+    { "term": "Reverse transcriptase", "definition": "The enzyme that makes DNA from an RNA template, used by retroviruses such as HIV." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe the replication of DNA, naming the enzymes involved.",
+      "model": "DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds between complementary bases, forming a Y-shaped replication fork. Each exposed strand acts as a template. Free DNA nucleotides pair with the exposed bases by complementary base pairing, A with T and C with G. DNA polymerase joins each new nucleotide to the growing strand, adding only nucleotides that pair correctly with the template. DNA polymerase proofreads each new base pair and removes and replaces most wrongly paired nucleotides, and other repair enzymes correct many of the rest. The result is two identical DNA molecules, each made of one original strand and one new strand, so replication is semi-conservative. A labelled diagram of the replication fork can show the parent helix, helicase, the template strands, free nucleotides, DNA polymerase and the two daughter molecules."
+    },
+    {
+      "marks": 12,
+      "prompt": "Bacteria grown on heavy nitrogen (¹⁵N) were transferred to light nitrogen (¹⁴N). Describe and explain the bands of DNA expected after one and after two generations, and explain how these results support the semi-conservative model.",
+      "model": "Semi-conservative replication means each new DNA molecule contains one strand from the original molecule and one newly made strand. Before the transfer all the DNA contains ¹⁵N and forms one heavy band. After one generation every DNA molecule has one heavy strand from the original molecule and one new light strand, so the DNA forms one band of intermediate density. This rules out conservative replication, which would give one heavy and one light band. After two generations there are two kinds of molecule in equal numbers: half have one old and one new strand and so form an intermediate band, and half have two new light strands and form a light band. The two bands are of equal size. Dispersive replication would give a single band at every generation, becoming lighter, so it is ruled out. Only the semi-conservative model explains both the single intermediate band after one generation and the intermediate and light bands in equal amounts after two generations. Watson and Crick predicted semi-conservative copying in 1953 from the base-pairing model, and this experiment confirmed it."
+    },
+    {
+      "marks": 6,
+      "prompt": "Outline how genetic information flows from a gene to a protein, and give one reason why the cell uses mRNA rather than DNA at the ribosome.",
+      "model": "The base sequence of a gene is transcribed into mRNA in the nucleus, using one DNA strand as the template. The mRNA leaves the nucleus through a nuclear pore and travels to a ribosome in the cytoplasm. At the ribosome, the codons of the mRNA are read, transfer RNA molecules bring the matching amino acids, and these are joined in the order set by the codons to make a polypeptide, which folds into a functional protein. One reason the cell uses mRNA is that the DNA is kept safe in the nucleus and is not damaged by being used directly; many mRNA copies can be made from one gene, and each is read by many ribosomes."
+    }
+  ]
+}

@@ -55,7 +55,6 @@ test("authored notes attach to their subsection and replace the generated chapte
   const context = load([
     "data.js",
     "geography-exam-questions.js",
-    "geography-flashcards.js",
     "geography-test-questions.js",
     out,
     "generated-notes-content.js",
@@ -100,6 +99,32 @@ test("the build rejects notes that break the standard", () => {
   assert.match(result.stdout, /subsections \(-s1, -s2/);
 });
 
+test("fact cards follow the key terms and may not repeat a card", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "notes-facts-"));
+  const notes = JSON.parse(fs.readFileSync(path.join(fixtures, "geo-rivers-s1.json"), "utf8"));
+  const fact = { term: "Name an Irish example of a lake delta", definition: "Between the Upper and Lower Lakes at Glendalough, Co. Wicklow." };
+  notes.factCards = [fact];
+  fs.writeFileSync(path.join(dir, "geo-rivers-s1.json"), JSON.stringify(notes));
+  const out = path.join(dir, "geography-notes.js");
+  const result = build(["--content", dir, "--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+
+  const context = load(["data.js", out]);
+  const outcome = context.__courseData.chapters
+    .find((chapter) => chapter.id === "geo-rivers").learningOutcomes
+    .find((lo) => lo.id === "geo-rivers-s1");
+  assert.equal(outcome.keyTerms.length, notes.keyTerms.length + 1);
+  assert.equal(outcome.keyTerms[0].term, notes.keyTerms[0].term, "key terms keep their positions");
+  assert.equal(outcome.keyTerms.at(-1).term, fact.term);
+  assert.equal(outcome.keyTerms.at(-1).section, outcome.title);
+
+  notes.factCards.push({ term: notes.keyTerms[0].term, definition: "A repeated front." });
+  fs.writeFileSync(path.join(dir, "geo-rivers-s1.json"), JSON.stringify(notes));
+  const bad = build(["--check", "--content", dir]);
+  assert.notEqual(bad.status, 0);
+  assert.match(bad.stdout, /factCards\[1\]\.term: repeats another card/);
+});
+
 test("the shipped geography notes file is up to date with content/geography", () => {
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "geography-notes.js");
   const result = build(["--out", out]);
@@ -141,4 +166,152 @@ test("the shipped home economics notes file is up to date with content/home-econ
     fs.readFileSync(path.join(root, "home-economics-notes.js"), "utf8"),
     "run: python3 scripts/build_notes.py home-economics"
   );
+});
+
+// Biology: chapters are split into subsections as their notes are written. The review outcome
+// (<chapter>-1) still carries the pre-2025 hand-written notes from bio-content.js, so the build
+// clears those once a chapter has authored notes, keeping the chapter's test questions.
+function buildBiology(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "biology", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("split biology chapters keep their review outcome first and number their subsections", () => {
+  const context = load(["data.js"]);
+  const split = context.__courseData.chapters.filter(
+    (chapter) => chapter.subject === "biology" && chapter.learningOutcomes.some((o) => /-s\d+$/.test(o.id))
+  );
+  assert.ok(split.length >= 3);
+  split.forEach((chapter) => {
+    const [review, ...rest] = chapter.learningOutcomes;
+    assert.equal(review.id, `${chapter.id}-1`);
+    rest.forEach((outcome, index) => {
+      assert.equal(outcome.id, `${chapter.id}-s${index + 1}`);
+      assert.ok(outcome.syllabusRef, `${outcome.id} needs its specification reference`);
+    });
+  });
+});
+
+test("biology authored notes replace the old chapter notes but keep the chapter's test questions", () => {
+  // Build without one chapter's files, so that chapter stands in for one not yet authored.
+  const content = fs.mkdtempSync(path.join(os.tmpdir(), "notes-content-"));
+  fs.readdirSync(path.join(root, "content", "biology"))
+    .filter((name) => name.endsWith(".json") && !name.startsWith("bio23-"))
+    .forEach((name) => fs.copyFileSync(path.join(root, "content", "biology", name), path.join(content, name)));
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "biology-notes.js");
+  const result = buildBiology(["--out", out, "--content", content]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  const context = load(["data.js", "bio-content.js", "biology-test-questions.js", out]);
+  const chapters = context.__courseData.chapters;
+  const authoredChapter = chapters.find((chapter) =>
+    chapter.subject === "biology" && chapter.learningOutcomes.some((outcome) => outcome.authored)
+  );
+  assert.ok(authoredChapter, "at least one biology chapter has authored notes");
+  const review = authoredChapter.learningOutcomes[0];
+  assert.equal(review.notes.length, 0, "old notes are cleared");
+  assert.equal(review.keyTerms.length, 0, "old flashcards are cleared");
+  assert.ok(review.questions.length >= 3, "the chapter's test questions stay");
+  const untouched = chapters.find((chapter) => chapter.id === "bio23");
+  assert.ok(untouched.learningOutcomes[0].notes.length > 0, "chapters without authored notes keep theirs");
+});
+
+test("the notes build catches biology-style internal ids", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "notes-bio-"));
+  const file = fs.readdirSync(path.join(root, "content", "biology")).find((name) => name.endsWith(".json"));
+  const data = JSON.parse(fs.readFileSync(path.join(root, "content", "biology", file), "utf8"));
+  data.notes[0].points.push("See bio19-s2 for the reflex arc.");
+  fs.writeFileSync(path.join(dir, file), JSON.stringify(data));
+  const result = buildBiology(["--check", "--content", dir]);
+  assert.notEqual(result.status, 0);
+  assert.match(result.stdout, /internal id 'bio19-s2'/);
+});
+
+test("the shipped biology notes file is up to date with content/biology", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "biology-notes.js");
+  const result = buildBiology(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "biology-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py biology"
+  );
+});
+
+// PE: chapters have outline subsections in data.js; pe-pipeline-content.js rebuilds each
+// chapter with a "<chapter>-core" review outcome first. Authored notes replace that outcome's
+// old notes and flashcards but keep its practice questions.
+function buildPe(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "pe", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("the shipped PE notes file is up to date with content/pe", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "pe-notes.js");
+  const result = buildPe(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "pe-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py pe"
+  );
+});
+
+test("PE authored chapters keep the review outcome's questions but drop its old notes", () => {
+  const before = load(["data.js", "pe-content.js", "pe-exam-questions.js", "pe-flashcards.js", "pe-pipeline-content.js"]);
+  const after = load(["data.js", "pe-content.js", "pe-exam-questions.js", "pe-flashcards.js", "pe-pipeline-content.js", "pe-notes.js"]);
+  const chapter = (context, id) => context.__courseData.chapters.find((c) => c.id === id);
+  const authored = after.__courseData.chapters.filter(
+    (c) => c.subject === "pe" && c.learningOutcomes.some((o) => o.authored)
+  );
+  const shells = before.__courseData.chapters.filter(
+    (c) => c.subject === "pe" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id))
+  );
+  assert.equal(authored.length, shells.length, "every PE chapter with subsections should have authored notes");
+  authored.forEach((c) => {
+    const [review, ...subsections] = c.learningOutcomes;
+    assert.equal(review.id, `${c.id}-core`);
+    assert.equal(review.notes.length, 0, `${c.id} review should drop its old notes`);
+    assert.equal(review.keyTerms.length, 0, `${c.id} review should drop its old flashcards`);
+    assert.equal(review.questions.length, chapter(before, c.id).learningOutcomes[0].questions.length);
+    subsections.forEach((o, i) => {
+      assert.equal(o.id, `${c.id}-s${i + 1}`);
+      assert.ok(o.authored && o.notes.length > 0, `${o.id} should carry authored notes`);
+    });
+  });
+  const untouched = after.__courseData.chapters.filter((c) => c.subject === "pe" && !authored.includes(c));
+  untouched.forEach((c) => assert.ok(c.learningOutcomes[0].keyTerms.length > 0, `${c.id} keeps its deck`));
+});
+
+function buildBusiness(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "business", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("the shipped business notes file is up to date with content/business", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "business-notes.js");
+  const result = buildBusiness(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "business-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py business"
+  );
+});
+
+test("business chapters with subsections are fully authored and load without the old notes", () => {
+  const after = load(["data.js", "business-notes.js"]);
+  const chapters = after.__courseData.chapters.filter(
+    (c) => c.subject === "business" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id) && o.authored)
+  );
+  assert.ok(chapters.length > 0, "expected authored business chapters");
+  chapters.forEach((c) => {
+    c.learningOutcomes.forEach((o) => {
+      assert.ok(o.authored, `${o.id} should have authored notes (write whole chapters)`);
+      assert.ok(o.notes.length >= 4, `${o.id} has too few note blocks`);
+      assert.ok(o.keyTerms.length >= 6, `${o.id} has too few flashcards`);
+    });
+  });
 });

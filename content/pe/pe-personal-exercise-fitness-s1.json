@@ -1,0 +1,131 @@
+{
+  "loId": "pe-personal-exercise-fitness-s1",
+  "chapterId": "pe-personal-exercise-fitness",
+  "subsection": "1. The personal exercise and fitness area",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "What the area is",
+      "points": [
+        "The area is active and purposeful participation in a personally designed exercise and fitness programme.",
+        "The programme reflects the performer's own interests and goals.",
+        "The programme applies the principles of training to the chosen methods and exercises."
+      ]
+    },
+    {
+      "h": "Choosing the activities",
+      "points": [
+        "The aerobic choice is one method: continuous training, interval training, fartlek training, aerobics or step aerobics, spinning, or indoor rowing.",
+        "The second choice is one other conditioning and resistance activity: weight training, core stability or circuit training.",
+        "Only one of each is chosen, so each performance uses exactly two activities."
+      ]
+    },
+    {
+      "h": "Five-minute warm-up",
+      "points": [
+        "The warm-up lasts five minutes and comes first in the performance.",
+        "It includes a pulse raiser, an activity that gradually raises heart rate.",
+        "It includes mobility work and dynamic stretches, which move the joints and muscles through their range.",
+        "It includes movements that rehearse the development section, so the actions to come are practised first."
+      ]
+    },
+    {
+      "h": "Fifteen-minute development section",
+      "points": [
+        "The development section lasts fifteen minutes and is the main part of the performance.",
+        "The cardiovascular section uses the chosen aerobic method.",
+        "The muscular strength and endurance section uses the chosen conditioning and resistance activity.",
+        "The muscular strength and endurance section can be organised as a circuit."
+      ]
+    },
+    {
+      "h": "Five-minute cool-down",
+      "points": [
+        "The cool-down lasts five minutes and comes last in the performance.",
+        "Intensity is reduced gradually rather than stopping abruptly.",
+        "Static stretches then cover the muscles used in the performance, each held still."
+      ]
+    },
+    {
+      "h": "Setting the goal: performance or health-related fitness",
+      "points": [
+        "The programme aims either to improve performance in a physical activity or to improve health-related fitness.",
+        "A performance goal targets the fitness and skills that a chosen physical activity demands.",
+        "A health-related goal targets fitness that supports good health."
+      ]
+    },
+    {
+      "h": "Designing the programme",
+      "points": [
+        "1. Set the goal.",
+        "2. Choose the methods.",
+        "3. Apply FITT (frequency, intensity, time and type) and the principles of training.",
+        "4. Choose the exercises.",
+        "5. Set the work and recovery periods.",
+        "6. Plan progression over weeks.",
+        "7. Record each session."
+      ]
+    },
+    {
+      "h": "Progressions and adaptations",
+      "points": [
+        "A progression makes an exercise harder in small steps, by increasing the load, repetitions, sets, duration or complexity.",
+        "Recovery can also be reduced to progress, by shortening the rest between sets or efforts.",
+        "An adaptation is an easier or harder version of an exercise, chosen so the programme suits the individual.",
+        "Press-up adaptations: on the knees or against a wall for an easier version, and with the feet raised for a harder version."
+      ]
+    },
+    {
+      "h": "Safe practice",
+      "points": [
+        "Technique and posture must be correct before the load is increased.",
+        "The load must be appropriate to the performer.",
+        "A spotter is used for heavy lifts.",
+        "Equipment is checked before use.",
+        "Fluids are taken to stay hydrated through the session.",
+        "The performer stops the exercise if there is pain or dizziness.",
+        "The space must be adequate for the activity."
+      ]
+    },
+    {
+      "h": "NCCA clarification: aerobic and anaerobic training",
+      "points": [
+        "The NCCA clarification on curriculumonline.ie states that the training may be aerobic and/or anaerobic.",
+        "Aerobic training releases energy using oxygen; anaerobic training releases energy without oxygen.",
+        "A programme can therefore combine aerobic and anaerobic methods."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Personal exercise and fitness", "definition": "Active and purposeful participation in a personally designed exercise and fitness programme that reflects the performer's interests, goals and the principles of training." },
+    { "term": "Pulse raiser", "definition": "An activity that gradually raises heart rate at the start of a warm-up." },
+    { "term": "Dynamic stretching", "definition": "Stretching through controlled movement across the full range of a joint's motion." },
+    { "term": "Static stretching", "definition": "Holding a stretched position still, without bouncing." },
+    { "term": "Development section", "definition": "The fifteen-minute main part of the performance, made up of a cardiovascular section and a muscular strength and endurance section." },
+    { "term": "Cool-down", "definition": "The five-minute end of a performance, in which intensity is reduced gradually and the muscles used are stretched statically." },
+    { "term": "Progression", "definition": "A change that makes an exercise harder in small steps, such as more repetitions or sets, a larger load, longer duration, greater complexity or less recovery." },
+    { "term": "Adaptation", "definition": "An easier or harder version of an exercise, chosen so that the programme suits the individual." },
+    { "term": "Spotter", "definition": "A partner who stands by during a heavy lift, ready to help if the lift fails." },
+    { "term": "Performance goal", "definition": "An aim to improve the fitness and skills that a particular physical activity demands." },
+    { "term": "Health-related fitness", "definition": "Fitness that supports good health, as opposed to the fitness and skill needed for one physical activity." }
+  ],
+  "factCards": [
+    { "term": "Five-minute warm-up: three elements", "definition": "A pulse raiser; mobility and dynamic stretches; movements that rehearse the development section." },
+    { "term": "Fifteen-minute development section: two sections in order", "definition": "A cardiovascular section, then a muscular strength and endurance section, which can be a circuit." },
+    { "term": "Five-minute cool-down: two steps in order", "definition": "A gradual reduction in intensity, then static stretches of the muscles used." },
+    { "term": "Designing a programme: seven steps in order", "definition": "Set the goal; choose the methods; apply FITT and the principles of training; choose exercises; set work and recovery; plan progression over weeks; record each session." },
+    { "term": "Safe practice: seven points", "definition": "Correct technique and posture; appropriate loads; a spotter for heavy lifts; checked equipment; hydration; stopping for pain or dizziness; adequate space." }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Outline the structure of a personal exercise and fitness performance and describe the content of each part.",
+      "model": "The performance has three parts. The warm-up lasts five minutes and includes a pulse raiser, mobility and dynamic stretches, and movements that rehearse the development section. The development section lasts fifteen minutes and has two sections: a cardiovascular section that uses the chosen aerobic method, and a muscular strength and endurance section that uses the chosen conditioning and resistance activity, which can be organised as a circuit. The cool-down lasts five minutes: intensity is reduced gradually, then static stretches are held for the muscles used in the performance."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two progressions and two adaptations for a press-up.",
+      "model": "Progressions: 1. Add repetitions over successive weeks, then add sets, making each change in small steps. 2. Reduce recovery, for example by shortening the rest between sets. Adaptations: 1. Press-up on the knees, an easier version for a performer who cannot yet manage the full exercise. 2. Press-up with the feet raised, a harder version."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "loId": "bio34-s2",
+  "chapterId": "bio34",
+  "subsection": "The nitrogen cycle",
+  "syllabusRef": "3.2.6",
+  "notes": [
+    {
+      "h": "Why nitrogen must be cycled",
+      "points": [
+        "Living things need nitrogen to make amino acids and proteins, nucleic acids (DNA and RNA), ATP and chlorophyll (why plants need it, and the signs of deficiency, are covered in “Minerals”).",
+        "About 78% of the air is nitrogen gas (N₂), but plants and animals cannot use it: the two atoms are held by a very strong triple bond that few organisms can break.",
+        "Plants can absorb nitrogen only as ions dissolved in soil water, mainly nitrate (NO₃⁻) and also ammonium (NH₄⁺). Nitrogen must therefore be converted, or fixed, before it enters food chains, and recycled from dead matter.",
+        "The forms to recognise are nitrogen gas (N₂); ammonia (NH₃) and ammonium (NH₄⁺); nitrite (NO₂⁻); nitrate (NO₃⁻); and organic nitrogen in proteins, nucleic acids and urea."
+      ]
+    },
+    {
+      "h": "Nitrogen fixation",
+      "b": "Nitrogen fixation converts nitrogen gas from the air into nitrogen compounds that living things can use, such as ammonium, ammonia or nitrate.",
+      "points": [
+        "Free-living nitrogen-fixing bacteria in the soil and in water convert N₂ to ammonium, which they use to make their own proteins. When they die, decomposition releases the nitrogen to the soil.",
+        "Nitrogen-fixing bacteria in root nodules (small swellings on the roots) of legumes, the pea family, e.g. clover, peas and beans, fix nitrogen for the plant.",
+        "The bacteria give the plant ammonium, which it uses to make amino acids. The plant gives the bacteria carbohydrates from photosynthesis and a protected, low-oxygen home. Both benefit, so this is mutualism (the word is explained in “Biotic factors and relationships”).",
+        "Fixation takes a lot of energy, supplied as ATP from the bacteria's respiration, and uses an enzyme that oxygen damages. This is why nodules keep oxygen levels low: they contain a red pigment that binds oxygen, so active nodules are pink inside.",
+        "Legumes grow well in nitrogen-poor soil. When they die or are ploughed in, the nitrogen in their tissues enriches the soil.",
+        "Clover grown with grass, and legumes in crop rotation, reduce the need for nitrogen fertiliser.",
+        "Atmospheric fixation by lightning: the energy of lightning makes nitrogen react with oxygen to form nitrogen oxides, which dissolve in rain and reach the soil as nitrate. This is a small contribution compared with biological fixation.",
+        "Industrial fixation by the Haber process: nitrogen from the air combines with hydrogen (made mainly from natural gas) at high temperature and pressure to make ammonia, which is turned into nitrogen fertilisers such as ammonium nitrate and urea.",
+        "Human activity, mainly the Haber process, now fixes at least as much nitrogen each year as all natural processes on land. The sustainability issues are covered in “Ethics and sustainability of nutrient cycling”."
+      ]
+    },
+    {
+      "h": "Assimilation and passing along food chains",
+      "points": [
+        "Uptake: plant roots absorb nitrate and ammonium from soil water. Nitrate is taken in by active transport, against its concentration gradient, using ATP (see “Diffusion, osmosis and active transport”), and travels to the leaves in the xylem.",
+        "Assimilation: the plant uses the nitrogen, together with sugars from photosynthesis, to make amino acids, then proteins, and also nucleic acids and chlorophyll.",
+        "Feeding: animals get nitrogen only by eating plants or other animals. They digest the proteins into amino acids and build their own proteins (digestion is covered in “Chemical breakdown”).",
+        "Excretion and death: animals excrete excess nitrogen (in mammals, as urea in urine). Faeces, urine, dead plants and dead animals return organic nitrogen to the soil."
+      ]
+    },
+    {
+      "h": "Decomposition",
+      "points": [
+        "Decomposers (bacteria and fungi) feed on dead organisms, faeces and urine. They digest the proteins and other nitrogen compounds and release the nitrogen as ammonia, which dissolves in soil water as ammonium (NH₄⁺). This step is often called ammonification (putrefaction).",
+        "Without decomposition, the nitrogen in dead matter would be locked up and the soil would run out of usable nitrogen.",
+        "Decomposition is fastest in warm, moist, aerated soil, the same conditions that speed up carbon decomposition in “The carbon cycle”.",
+        "Ammonium is the starting point for nitrification. Some ammonium is also taken up directly by plants."
+      ]
+    },
+    {
+      "h": "Nitrification",
+      "points": [
+        "Nitrification is the conversion of ammonium into nitrate by nitrifying bacteria in the soil, in two steps. First, one group of nitrifying bacteria oxidises ammonium (NH₄⁺) to nitrite (NO₂⁻). Second, a second group oxidises nitrite to nitrate (NO₃⁻).",
+        "Nitrifying bacteria are aerobic: they need oxygen. Nitrification is therefore fastest in well-drained, well-aerated soil. Ploughing and draining help it, while waterlogging stops it.",
+        "Nitrifying bacteria are autotrophic: they get energy from these chemical reactions (chemosynthesis) rather than from light or food. Nutrition types are covered in “Bacteria and fungi”.",
+        "Nitrate is the form plants absorb most. It is also very soluble and is not held by soil particles, so heavy rain easily washes it out of the soil (leaching) into ground water, rivers and lakes. The consequences are covered in “Ethics and sustainability of nutrient cycling”."
+      ]
+    },
+    {
+      "h": "Denitrification",
+      "points": [
+        "Denitrification is the conversion of nitrate in the soil back into nitrogen gas (N₂) by denitrifying bacteria. This returns nitrogen to the atmosphere and completes the cycle.",
+        "Denitrifying bacteria work in anaerobic conditions (no oxygen), such as waterlogged, compacted or poorly drained soils and the mud of lakes and marshes. They use nitrate in place of oxygen in respiration.",
+        "Denitrification removes usable nitrogen from the soil, lowering fertility, so farmers drain wet land.",
+        "It also gives off some nitrous oxide (N₂O), a greenhouse gas (see “Climate change and biological strategies”).",
+        "In wetlands and water treatment, denitrification is useful because it removes excess nitrate before it reaches rivers."
+      ]
+    },
+    {
+      "h": "Modelling the nitrogen cycle",
+      "b": "The model is a labelled diagram plus the processes in words, used to explain and predict.",
+      "points": [
+        "Diagram: the nitrogen cycle with boxes for nitrogen gas in the air; nitrogen compounds in plants (proteins); in animals (proteins); dead organisms and wastes (faeces, urine); ammonium in the soil; nitrite; nitrate in the soil; and root nodules of legumes. Labelled arrows show nitrogen fixation (air → nodules → plant, and air → free-living bacteria → soil ammonium); lightning (air → nitrate); the Haber process and fertiliser (air → soil nitrate); absorption (soil nitrate → plants); feeding (plants → animals); death and excretion (→ dead matter); decomposition (dead matter → ammonium); nitrification (ammonium → nitrite → nitrate); and denitrification (nitrate → air).",
+        "Fixation: N₂ becomes ammonium; nitrogen-fixing bacteria (free-living or in nodules) do it; it is anaerobic inside a nodule; it adds usable nitrogen.",
+        "Decomposition: organic nitrogen becomes ammonium; bacteria and fungi do it; it is aerobic or anaerobic; it recycles nitrogen.",
+        "Nitrification: ammonium becomes nitrite and then nitrate; nitrifying bacteria do it; it needs oxygen; it makes the form plants use most.",
+        "Denitrification: nitrate becomes N₂; denitrifying bacteria do it; it needs no oxygen; it removes usable nitrogen.",
+        "Prediction (a): if a field becomes waterlogged, nitrification stops and denitrification increases, so soil nitrate falls and plants become nitrogen-deficient.",
+        "Prediction (b): if a farmer grows clover, fixation increases, so there is more soil nitrogen the next season.",
+        "Prediction (c): heavy rain after fertiliser is spread leaches nitrate into a river (see “Ethics and sustainability of nutrient cycling”).",
+        "Limitation: the model shows the processes but not their rates or amounts.",
+        "Limitation: it does not show where nitrogen is lost, such as by leaching or by ammonia escaping from slurry, unless these are added.",
+        "Limitation: real soils contain many more microorganisms and steps than the four named groups. General limitations of models are covered in “Models”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Nitrogen fixation", "definition": "The conversion of nitrogen gas from the air into nitrogen compounds, such as ammonium, that living things can use." },
+    { "term": "Root nodule", "definition": "A small swelling on the roots of a legume that contains nitrogen-fixing bacteria." },
+    { "term": "Legume", "definition": "A member of the pea family, such as clover, peas or beans, whose root nodules fix nitrogen." },
+    { "term": "Ammonification", "definition": "The release of nitrogen from dead organisms and wastes as ammonia, which dissolves as ammonium; also called decomposition in this cycle." },
+    { "term": "Nitrification", "definition": "The two-step oxidation of ammonium to nitrite and then to nitrate by aerobic nitrifying bacteria." },
+    { "term": "Denitrification", "definition": "The conversion of nitrate back into nitrogen gas by denitrifying bacteria in anaerobic conditions." },
+    { "term": "Leaching", "definition": "The washing of soluble nitrate out of the soil into ground water, rivers and lakes by rain." },
+    { "term": "Haber process", "definition": "The industrial reaction of nitrogen from the air with hydrogen at high temperature and pressure to make ammonia." },
+    { "term": "Nitrous oxide", "definition": "A greenhouse gas, N₂O, released from soils by denitrification." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between nitrification and denitrification.",
+      "model": "Nitrification converts ammonium into nitrate in two steps: first ammonium is oxidised to nitrite, then nitrite is oxidised to nitrate, both by groups of nitrifying bacteria. It needs oxygen, so it is fastest in well-drained, well-aerated soil. Denitrification converts nitrate back into nitrogen gas, carried out by denitrifying bacteria. It happens in anaerobic conditions, such as waterlogged soil, where the bacteria use nitrate in place of oxygen in respiration. Nitrification makes nitrogen usable by plants, while denitrification removes it from the soil."
+    },
+    {
+      "marks": 12,
+      "prompt": "Model the nitrogen cycle, with reference to nitrogen fixation, nitrification, decomposition and denitrification. Include a labelled diagram.",
+      "model": "A labelled diagram shows nitrogen gas in the air, nitrogen compounds in plants, animals, dead matter and the soil, root nodules of legumes, nitrite and nitrate, joined by arrows for fixation, absorption, feeding, excretion, decomposition, nitrification and denitrification. Nitrogen fixation converts N₂ into ammonium, carried out by free-living nitrogen-fixing bacteria or by bacteria in root nodules. Decomposition, carried out by bacteria and fungi, releases nitrogen from dead organisms and wastes as ammonium. Nitrification converts ammonium to nitrite and then to nitrate, which is the form plants absorb most. Denitrification converts nitrate back into nitrogen gas in waterlogged, anaerobic soil. Plants take up nitrate and ammonium by active transport, use them to make amino acids and proteins, and animals gain nitrogen by eating them."
+    },
+    {
+      "marks": 9,
+      "prompt": "A farmer's field becomes waterlogged for several weeks. Use the nitrogen cycle to predict and explain the effect on the crop, and suggest how growing clover could help the following year.",
+      "model": "Waterlogging makes the soil anaerobic. Nitrifying bacteria need oxygen, so nitrification stops and no new nitrate is made from ammonium. Denitrifying bacteria work without oxygen, so they convert soil nitrate into nitrogen gas, which escapes to the air. Soil nitrate therefore falls, and plants that depend on nitrate become nitrogen-deficient, so the crop grows poorly. Clover is a legume with root nodules containing nitrogen-fixing bacteria. Growing it fixes atmospheric nitrogen into ammonium that the plant uses, and when the clover dies or is ploughed in, its nitrogen enriches the soil for the following year's crop."
+    }
+  ]
+}

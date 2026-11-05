@@ -174,6 +174,19 @@
       "definition": "The text, table, cartoon or extract given in an exam question, from which the answer is drawn."
     }
   ],
+  "factCards": [
+    { "term": "Primary or secondary? How to classify questionnaires, old maps and the census", "definition": "A questionnaire the student designs and carries out is primary; a published survey is secondary; old maps and the census are secondary. Secondary does not mean less useful: it gives background, past data and comparisons fieldwork cannot." },
+    { "term": "Name six present-day and five past secondary sources", "definition": "Present: textbooks; newspapers; official reports; development plans; tourist brochures; websites. Past: historical maps (old OS editions, town plans, estate maps); old photographs and postcards; old newspapers; earlier census returns; parish records." },
+    { "term": "Who produces official data in Ireland? Name five bodies and what each supplies", "definition": "CSO: census and official statistics; Met Éireann: weather and climate data; EPA: water and air quality reports; Tailte Éireann: national mapping and OS maps (Ordnance Survey Ireland joined it in 2023); local authorities: development plans." },
+    { "term": "How to spot bias in a source", "definition": "Ask who wrote it and why: a developer's brochure, a campaign group's leaflet, a political leaflet or an advertisement may be one-sided. Bias shows in one-sided arguments, emotive language and selective figures." },
+    { "term": "Reliability checklist for a secondary source: six checks", "definition": "Author (official body, expert or anonymous); date (current, or past for comparison); purpose (inform, persuade or sell); evidence (sources cited, data given); scale (national figures may not fit the local area); agreement with other sources." },
+    { "term": "Limitations of secondary data: name five", "definition": "It may be out of date; it was collected for another purpose; it may not cover the exact study area; definitions may differ between sources or dates; online sources may be unverified." },
+    { "term": "Fact vs opinion: identify each in a passage (illustrative)", "definition": "Illustrative newsletter: 'Traffic on Main Street has doubled since the new industrial estate opened' is a fact, checkable with traffic counts or council data; 'the relief road is a disaster for the town' is an opinion, shown by the emotive word 'disaster'." },
+    { "term": "Comparing an old map with a present-day map: the five steps", "definition": "Match scale and orientation; find fixed points on both (bridge, church, castle, main street); list what has appeared, disappeared and stayed; describe the change (e.g. a new bypass, loss of a mill, a straightened river); explain each change." },
+    { "term": "First Ordnance Survey of Ireland: its scale and date, and the limits of old sources", "definition": "It mapped the whole country at six inches to one mile in the 1830s and 1840s. Old maps may use different scales, symbols and place-name spellings and can be inaccurate; old photographs and accounts show a single moment, a chosen viewpoint or one writer's view." },
+    { "term": "Sketch map of a historical map (Higher, 20 marks): the method", "definition": "Rule a frame of the same shape. Old maps usually have no grid, so divide map and frame into a light pencil grid of equal sections; place and label only the features asked (e.g. shoreline, two streets drawn meeting, a named building); add title and north arrow." },
+    { "term": "Stimulus text or cartoon questions: how to answer them", "definition": "Read the question first; underline key terms and figures in the text; answer using the text's evidence plus your own knowledge, in correct geographical terms. For a cartoon, identify the message, the issue, who is shown and the viewpoint." }
+  ],
   "questions": [
     {
       "marks": 20,

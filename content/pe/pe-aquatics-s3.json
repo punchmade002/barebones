@@ -1,0 +1,136 @@
+{
+  "loId": "pe-aquatics-s3",
+  "chapterId": "pe-aquatics",
+  "subsection": "3. Survival swimming",
+  "syllabusRef": "S6",
+  "notes": [
+    {
+      "h": "Purpose of survival swimming",
+      "points": [
+        "Purpose: to stay alive and reach safety after an unexpected fall into water.",
+        "The swimmer is often clothed and cold, so the skills must conserve energy and heat until rescue."
+      ]
+    },
+    {
+      "h": "Entries into unknown conditions",
+      "points": [
+        "Enter feet first and slowly, sliding in, when conditions are unknown.",
+        "Straddle entry: used in known deep water, and keeps the head above the water."
+      ]
+    },
+    {
+      "h": "Submerging and surface dives",
+      "points": [
+        "Submerging feet first: push down with the arms, with the legs together, so the body sinks vertically.",
+        "Head-first surface dive: bend at the hips, then drive the legs up vertically so that their weight pushes the body down.",
+        "Feet-first surface dive: rise slightly, then sweep the arms up so the body sinks vertically feet first.",
+        "The feet-first surface dive is useful in unknown water."
+      ]
+    },
+    {
+      "h": "Floating",
+      "points": [
+        "Lie back with the head back and the ears in the water.",
+        "Spread the body and limbs to increase surface area.",
+        "Breathe calmly while floating.",
+        "Floating works with or without a buoyancy aid."
+      ]
+    },
+    {
+      "h": "Treading water and sculling",
+      "points": [
+        "Treading water: keep the body upright.",
+        "Treading water: the legs use an eggbeater kick or a breaststroke-type kick.",
+        "Treading water: the hands scull flat, moving back and forth near the surface.",
+        "Sculling: figure-of-eight hand movements push water down to keep the head up or to move gently."
+      ]
+    },
+    {
+      "h": "Swimming in clothing",
+      "points": [
+        "Clothes trap water and add drag.",
+        "Use slow, efficient strokes: breaststroke, sidestroke or back strokes with the arms under water.",
+        "Keep clothing on in cold water, where it provides insulation.",
+        "Maintain good form throughout."
+      ]
+    },
+    {
+      "h": "Underwater swimming",
+      "points": [
+        "Use a breaststroke-type arm and leg action.",
+        "Keep the eyes open.",
+        "Underwater swimming is used to escape surface hazards.",
+        "Never hyperventilate beforehand, because it suppresses the urge to breathe and can lead to blackout underwater."
+      ]
+    },
+    {
+      "h": "Turns in distance swimming",
+      "points": [
+        "Efficient open turns are made at the wall.",
+        "Efficient turns help keep a steady pace over the distance."
+      ]
+    },
+    {
+      "h": "Conserving heat: HELP",
+      "points": [
+        "HELP stands for Heat Escape Lessening Posture.",
+        "The swimmer floats with a buoyancy aid and draws the knees up to the chest.",
+        "The arms are crossed over the chest.",
+        "HELP protects the main areas of heat loss: the head, armpits and groin."
+      ]
+    },
+    {
+      "h": "Conserving heat: HUDDLE",
+      "points": [
+        "HUDDLE is performed with at least two others, each wearing a buoyancy aid.",
+        "The group holds each other closely, with chests together, to share heat and stay together.",
+        "Children are placed in the middle of the group."
+      ]
+    },
+    {
+      "h": "Cold water shock, hypothermia and keeping still",
+      "points": [
+        "On entry to cold water, the swimmer gasps and breathes rapidly.",
+        "For the first minute, stay still and calm.",
+        "Float rather than thrash.",
+        "HELP and HUDDLE keep the swimmer still, which conserves heat.",
+        "Swimming hard in cold water loses heat faster than keeping still.",
+        "Hypothermia: a dangerous fall in body temperature caused by heat loss.",
+        "The risk of hypothermia increases with time in cold water.",
+        "Limit movement to conserve heat, unless safety is very close."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Survival swimming", "definition": "Swimming skills used to stay alive and reach safety after an unexpected fall into water, often while clothed and cold." },
+    { "term": "Buoyancy aid", "definition": "A flotation device worn to keep the swimmer afloat." },
+    { "term": "Feet-first surface dive", "definition": "A dive in which the swimmer rises slightly and then sweeps the arms up so the body sinks vertically feet first." },
+    { "term": "Head-first surface dive", "definition": "A dive in which the swimmer bends at the hips and drives the legs up vertically so their weight pushes the body down." },
+    { "term": "Floating", "definition": "Staying on the surface by lying back with the body and limbs spread to increase surface area." },
+    { "term": "Treading water", "definition": "Staying upright in the water with the legs kicking and the hands sculling near the surface." },
+    { "term": "Sculling", "definition": "Figure-of-eight hand movements that push water down to support the body." },
+    { "term": "Cold water shock", "definition": "The sudden gasp and rapid breathing that occur on entry to cold water." },
+    { "term": "Hypothermia", "definition": "A dangerous fall in body temperature caused by heat loss, which increases the longer a swimmer stays in cold water." },
+    { "term": "HELP", "definition": "Heat Escape Lessening Posture, in which the swimmer floats with knees drawn up and arms crossed over the chest to limit heat loss." },
+    { "term": "HUDDLE", "definition": "A group position in which at least three people, each with a buoyancy aid, hold each other closely to share heat." }
+  ],
+  "factCards": [
+    { "term": "What does HELP stand for?", "definition": "Heat Escape Lessening Posture." },
+    { "term": "Which areas of heat loss does HELP protect?", "definition": "The head, armpits and groin." },
+    { "term": "How does a feet-first surface dive start?", "definition": "The swimmer rises slightly, then sweeps the arms up so the body sinks vertically feet first." },
+    { "term": "What should a swimmer do for the first minute after entering cold water?", "definition": "Stay still and calm, and float rather than thrash." },
+    { "term": "Who takes part in a HUDDLE?", "definition": "The swimmer and at least two others, each with a buoyancy aid, chests together, with children in the middle." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the HELP and HUDDLE positions and why each conserves heat.",
+      "model": "HELP (Heat Escape Lessening Posture): the swimmer floats with a buoyancy aid, draws the knees up to the chest and crosses the arms over the chest. This protects the head, armpits and groin, which are the main areas of heat loss, and reduces the body surface exposed to cold water. HUDDLE: at least two others, each with a buoyancy aid, hold each other closely with their chests together, so the group shares heat. Children are placed in the middle of the group. Both positions conserve heat by keeping the body still and reducing the exposed surface."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe how to tread water and float to conserve energy.",
+      "model": "To tread water, keep the body upright, use an eggbeater or breaststroke-type kick for the legs, and scull the hands flat back and forth near the surface, which keeps the head up with little effort. To float, lie back with the head back and the ears in the water, spread the body and limbs to increase surface area, and breathe calmly. Floating works with or without a buoyancy aid. Both skills conserve energy, because the body rests on the water instead of working continuously to stay up."
+    }
+  ]
+}

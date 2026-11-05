@@ -1,0 +1,101 @@
+{
+  "loId": "ch16-s2",
+  "chapterId": "ch16",
+  "subsection": "2. Strategic planning and force-field analysis",
+  "syllabusRef": "3.4.5, 3.4.6, 3.4.7",
+  "notes": [
+    { "h": "Strategic, tactical and operational planning", "b": "Planning happens at three levels, each with a different time horizon and a different group of managers responsible.", "points": [
+      "Strategic planning sets the long-term direction of the whole organisation and is led by senior management.",
+      "Tactical planning turns the strategy into medium-term plans for departments or functions, such as a marketing campaign for the coming year.",
+      "Operational planning organises the day-to-day work needed to meet tactical goals, such as weekly staff rotas and stock orders.",
+      "The three levels link together: operational plans deliver tactical plans, and tactical plans deliver the strategic direction."
+    ] },
+    { "h": "Mission, vision and goals", "b": "These statements give strategic planning its purpose and direction.", "points": [
+      "A mission statement explains why the organisation exists and what it does for its customers.",
+      "A vision statement describes the future state the organisation hopes to achieve.",
+      "Goals are broad aims, whereas objectives are specific targets set to achieve those goals.",
+      "Objectives written in the SMART format are specific, measurable, achievable, relevant and time-bound."
+    ] },
+    { "h": "The strategic planning cycle", "b": "Strategic planning is a continuous process, not a one-off exercise, because the business environment keeps changing.", "points": [
+      "Analysis: the business examines its internal capabilities and its external environment, using tools such as SWOT and STEEPLE.",
+      "Objective-setting: the firm decides what it wants to achieve, expressed as measurable objectives.",
+      "Strategy choice: management selects the course of action, such as entering a new market or cutting costs, that best meets the objectives.",
+      "Implementation: the plans are put into action, with resources, responsibilities and timetables assigned to named people.",
+      "Monitoring and review: performance is measured against the objectives and the plan is adjusted, which sends the cycle back to analysis."
+    ] },
+    { "h": "Benefits of strategic planning", "b": "Strategic planning gives an organisation several benefits that help it manage its future.", "points": [
+      "Direction: everyone understands where the organisation is heading and what it is trying to achieve.",
+      "Coordination: departments align their work towards shared goals, which reduces duplication and conflict.",
+      "Resource allocation: money, staff and equipment are directed to the priorities that matter most.",
+      "Anticipating change: planning highlights likely threats and opportunities early, leaving time to respond.",
+      "Motivation: staff who understand the purpose of their work tend to be more committed to it.",
+      "Control: managers have benchmarks against which progress can be measured and corrective action taken."
+    ] },
+    { "h": "Planning for change", "b": "Strategic planning matters most when an organisation must change, because change is risky and needs clear direction.", "points": [
+      "A change plan identifies what must change, when it will happen and who is responsible for each part of it.",
+      "Planning allows managers to allocate budgets and staff time to the change, rather than leaving it to happen by chance.",
+      "A plan that involves the people affected shows them the reasons for the change and the timeline, which helps to reduce resistance."
+    ] },
+    { "h": "What force-field analysis is", "b": "Force-field analysis is a decision tool developed by the psychologist Kurt Lewin. It compares the forces pushing for a change with the forces resisting it.", "points": [
+      "Driving forces are factors that push the organisation towards the proposed change, such as competitor action or rising customer demand.",
+      "Restraining forces are factors that oppose the change, such as cost, fear of disruption or a shortage of skills.",
+      "Forces can be internal, such as staff skills and organisational culture, or external, such as regulation and market conditions.",
+      "Each force is scored for its strength, normally on a scale from 1 (weak) to 5 (strong), which turns a list of factors into a quantified comparison.",
+      "The total of the driving scores is compared with the total of the restraining scores to show whether the change is likely to be supported."
+    ] },
+    { "h": "Using the result and its limitations", "b": "The scores guide the decision, but the method has weaknesses that managers must keep in mind.", "points": [
+      "A higher total for driving forces than restraining forces suggests the change is more likely to be worth pursuing.",
+      "A close result suggests the decision is marginal, so the business should look for ways to change the balance before committing.",
+      "Scores are subjective, so two managers may score the same force differently and the result depends on the judgement behind it.",
+      "The analysis does not weight forces by importance, so one very strong restraint can outweigh several weaker drivers.",
+      "Forces change over time, so a result can be out of date soon after it is produced.",
+      "The method lists forces but does not show how they interact, such as a driving force creating a new restraint.",
+      "It does not estimate costs, benefits or financial returns, so it should be used alongside financial analysis."
+    ] },
+    { "h": "Worked example: the decision and the driving forces", "b": "The following example is invented. Millbrook Bakehouse, a fictional Irish bakery chain with six shops, is deciding whether to install self-service ordering kiosks in all of them.", "points": [
+      "The decision: install self-service ordering kiosks in all six shops within the next twelve months.",
+      "Driving force, scored 4: rising wage costs make it expensive to staff the counters at peak times.",
+      "Driving force, scored 4: customers increasingly expect quick ordering at busy times, especially at lunch.",
+      "Driving force, scored 3: rival bakery chains have introduced kiosks, so Millbrook risks falling behind.",
+      "Driving force, scored 3: kiosks would free staff to spend more time baking and serving customers.",
+      "Driving total: 14, from the scores 4, 4, 3 and 3."
+    ] },
+    { "h": "Worked example: the restraining forces and the result", "b": "The restraining forces are scored in the same way, and the two totals are then compared.", "points": [
+      "Restraining force, scored 4: staff fear that kiosks will lead to job losses.",
+      "Restraining force, scored 3: the upfront cost of the kiosks and their installation is a significant investment.",
+      "Restraining force, scored 3: some older customers and those who want advice prefer counter service.",
+      "Restraining force, scored 2: a breakdown in kiosk technology could disrupt service in a shop.",
+      "Restraining total: 12, from the scores 4, 3, 3 and 2.",
+      "Result: the driving total of 14 exceeds the restraining total of 12, so the balance favours the change, but only narrowly."
+    ] },
+    { "h": "Worked example: shifting the balance", "b": "Because the result is close, Millbrook should act on the forces rather than simply accept or reject the proposal.", "points": [
+      "Strengthening the drivers: a six-week trial in one shop would produce hard evidence of time saved, which supports the case for the change.",
+      "Weakening the restraints: staff are offered retraining for new roles and a written commitment that no one will lose their job because of the kiosks.",
+      "Weakening the restraints: counter service stays available during quieter periods, reassuring customers who prefer to order in person.",
+      "Weakening the restraints: a maintenance contract with a fast-response service provider reduces the risk of breakdowns, the restraint with a score of 2."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Force-field analysis", "definition": "A decision tool that compares the forces driving a proposed change with the forces restraining it, using scores to judge the balance." },
+    { "term": "Driving force", "definition": "A factor that pushes an organisation towards a proposed change." },
+    { "term": "Restraining force", "definition": "A factor that opposes or holds back a proposed change." },
+    { "term": "Strategic planning", "definition": "The ongoing process of setting an organisation's long-term direction and deciding how to reach it." },
+    { "term": "Strategic planning cycle", "definition": "The continuous sequence of analysing, setting objectives, choosing a strategy, implementing, and monitoring and reviewing." },
+    { "term": "Mission statement", "definition": "A statement of why an organisation exists and what it does for its customers." },
+    { "term": "Vision statement", "definition": "A description of the future state that an organisation hopes to achieve." },
+    { "term": "Tactical planning", "definition": "Medium-term planning that turns the strategy into plans for departments or functions." }
+  ],
+  "factCards": [
+    { "term": "Steps of force-field analysis in order", "definition": "Identify the proposed change, list driving and restraining forces, score each force, total each side, then decide and plan actions to shift the balance." },
+    { "term": "Limitations of the force-field method", "definition": "Scores are subjective, forces are not weighted, the picture changes over time, and interactions between forces are not shown." },
+    { "term": "Benefits of strategic planning", "definition": "Direction, coordination, resource allocation, anticipating change, motivation and control." },
+    { "term": "Time horizons of the three planning levels", "definition": "Strategic planning is long-term, tactical planning is medium-term and operational planning is short-term." },
+    { "term": "Order of the planning cycle after analysis", "definition": "Set objectives, choose strategy, implement, then monitor and review, which feeds back into analysis." },
+    { "term": "Scoring scale in force-field analysis", "definition": "Each force is scored from 1 for weak to 5 for strong, and the scores for each side are totalled." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A clothing retailer is considering moving its stock management to a new online system. Use a force-field analysis to examine the decision, identifying at least four driving forces and four restraining forces with scores, and reach a conclusion.", "model": "Driving forces, scored from 1 (weak) to 5 (strong). Real-time stock data would let the retailer see sales across its shops and website as they happen, scored 4. Fewer stock-counting errors and less time spent on manual counts, scored 4. Competitors already use similar systems, scored 3. Reduced overstocking would cut the cost of unsold clothing, scored 3. Driving total: 14. Restraining forces. Staff unfamiliar with the software need training, scored 3. Licence and set-up costs must be paid up front, scored 3. Errors during the transfer of stock records could cause serious problems, scored 4. Disruption during the switchover in the busy season could hurt sales, scored 3. Restraining total: 13. Conclusion: the balance is slightly favourable at 14 to 13, so the decision is marginal. The retailer should strengthen the drivers by piloting the system in one shop to produce evidence of time saved and stock accuracy. It should weaken the restraints by backing up all data before the transfer, training staff in advance and scheduling the switch after the busy season. Re-scoring after these steps would show whether the balance has moved clearly in favour of the change, and the scores should be checked with managers because they are subjective." },
+    { "marks": 10, "prompt": "Distinguish between tactical planning and operational planning, giving one example of each for a restaurant.", "model": "Tactical planning is medium-term and turns the strategy into plans for a department or function. For example, a restaurant might plan its summer menu, promotions and seasonal staffing for the next six months. Operational planning is short-term and organises the day-to-day work needed to meet the tactical plans, such as the weekly staff rota and the orders placed with suppliers for the coming week." },
+    { "marks": 15, "prompt": "Explain three benefits of strategic planning for a business that operates in several counties.", "model": "Direction: when each branch understands the organisation's mission and long-term goals, managers in every county can aim their decisions at the same destination. Coordination: planning allows branches to share approaches, avoid duplicating marketing spend and align their timetables, so the business works as one organisation. Anticipating change: a planning process that scans the environment can detect new competitors, new regulation or shifts in local demand early, giving the firm time to respond before it is forced to react." }
+  ]
+}

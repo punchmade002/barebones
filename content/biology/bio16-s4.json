@@ -1,0 +1,101 @@
+{
+  "loId": "bio16-s4",
+  "chapterId": "bio16",
+  "subsection": "Cancer",
+  "syllabusRef": "2.3.7",
+  "notes": [
+    {
+      "h": "What cancer is",
+      "points": [
+        "Cancer is a group of diseases in which some body cells lose control of mitosis: they divide too often (the rate of division is abnormal) and too many times (the number of divisions is not limited). They can invade nearby tissues and spread to other parts of the body.",
+        "There are over 200 kinds of cancer, named after the organ or tissue where they start, e.g. lung, breast, skin, bowel and blood.",
+        "The main groups are: carcinomas, which start in epithelial tissues that line or cover organs (e.g. most lung, breast and bowel cancers); sarcomas, in bone, muscle or connective tissue; leukaemias, in the blood-forming cells of the bone marrow; and lymphomas, in the lymphatic system.",
+        "Cancer starts from a single cell whose DNA has changed (mutated). All the cancer cells in a tumour are descended from that cell by mitosis."
+      ]
+    },
+    {
+      "h": "How normal cell division is regulated",
+      "points": [
+        "Normal cells divide only when they receive signals to divide (growth factors from other cells), and stop when signals tell them to stop. Checkpoints in the cell cycle halt the cycle if the DNA is damaged or not copied correctly.",
+        "Two groups of genes control this. Proto-oncogenes code for proteins that stimulate the cell cycle, the accelerator, e.g. growth factor receptors. Tumour suppressor genes code for proteins that stop the cycle at checkpoints, the brakes; they also repair damaged DNA or make a badly damaged cell destroy itself.",
+        "Apoptosis is programmed cell death: a damaged or unwanted cell breaks itself down in a controlled way, without harming neighbouring cells. It removes cells with damaged DNA before they can divide.",
+        "TP53 is an example of a tumour suppressor gene. It codes for the protein p53, which stops the cell cycle when DNA is damaged so that the DNA can be repaired, or triggers apoptosis if the damage is too great; p53 is called the guardian of the genome. TP53 is mutated in about half of all human cancers.",
+        "Contact inhibition: normal cells in a tissue, and in a culture dish, stop dividing when they touch neighbouring cells, so they form a single layer.",
+        "Most normal human cells can divide only a limited number of times before they stop, because the protective caps at the ends of their chromosomes (telomeres) shorten with each division."
+      ]
+    },
+    {
+      "h": "How control is lost",
+      "points": [
+        "1. A mutation in a proto-oncogene can turn it into an oncogene, which is permanently switched on and keeps telling the cell to divide even with no signal, like an accelerator stuck down.",
+        "2. A mutation that inactivates a tumour suppressor gene removes the brakes: damaged cells keep dividing instead of stopping, being repaired or dying by apoptosis. Usually both copies (alleles) of a tumour suppressor gene must be inactivated before control is lost.",
+        "3. One mutation is usually not enough. Several mutations in different control genes must build up in the same cell, often over many years. This is why the risk of most cancers rises with age, and why anything that increases the rate of mutation raises the risk.",
+        "4. Once one cell has lost control, every daughter cell inherits the same mutations. As they divide faster and faster, further mutations arise, and the cells that divide fastest or survive best take over, so the cancer cells become more abnormal over time.",
+        "5. The immune system destroys many abnormal cells before they form a tumour, and people whose immune system is weakened have a higher risk of some cancers (see 'Immunity')."
+      ]
+    },
+    {
+      "h": "Characteristics of cancer cells",
+      "points": [
+        "Division: normal cells divide only when signalled, at a controlled rate; cancer cells divide rapidly and continuously without signals, and ignore signals to stop.",
+        "Lifespan: normal cells divide a limited number of times and die by apoptosis when damaged; cancer cells avoid apoptosis, and many keep their telomeres long by using the enzyme telomerase, so they can divide indefinitely (immortal cells).",
+        "Contact inhibition is lost: cancer cells ignore contact with neighbours and pile up into a mass, whereas normal cells stop at contact.",
+        "Specialisation: normal cells are specialised (differentiated) for a job; cancer cells are unspecialised (poorly differentiated) and don't carry out the tissue's function.",
+        "Appearance under the microscope: cancer cells vary in size and shape and have large, irregular, darkly staining nuclei, often with abnormal numbers of chromosomes, and many are seen dividing. This is how cancer is diagnosed from a biopsy or smear (see 'Microscopy').",
+        "Blood supply: cancer cells can release signals that make new blood vessels grow into the tumour (angiogenesis), supplying the oxygen and nutrients needed for further growth.",
+        "Attachment: normal cells stick to their neighbours and stay in place; cancer cells can lose this adhesion, break away and move.",
+        "HeLa cells are a famous example of immortal cancer cells. They were taken in 1951 from a cervical cancer of Henrietta Lacks at Johns Hopkins Hospital in Baltimore, USA, without her knowledge or consent. They were the first human cells to keep dividing indefinitely in the laboratory, and they are still used in research worldwide, including in developing the polio vaccine. Her case is a well-known example of the ethics of consent in research."
+      ]
+    },
+    {
+      "h": "Benign and malignant tumours",
+      "points": [
+        "A tumour is an abnormal mass of cells produced by uncontrolled division.",
+        "A benign tumour grows slowly, is usually enclosed in a capsule, does not invade surrounding tissue or spread, and its cells look fairly normal. It is usually removable by surgery and not life-threatening, though it can be dangerous if it presses on a vital organ such as the brain. Examples are most moles and warts. A benign tumour is not cancer.",
+        "A malignant tumour, which is a cancer, grows quickly, has no capsule, invades and destroys surrounding tissue, can spread around the body, and has abnormal cells.",
+        "Benign and malignant tumours differ in rate of growth (slow or quick), capsule (present or absent), invasion (none or destructive), spread (none or around the body) and appearance of cells (fairly normal or abnormal)."
+      ]
+    },
+    {
+      "h": "Spread: metastasis",
+      "points": [
+        "1. A cell mutates and divides without control, producing a clone of abnormal cells.",
+        "2. Further mutations and division form a small tumour in the tissue of origin, the primary tumour.",
+        "3. Angiogenesis supplies the tumour with blood, so it grows larger.",
+        "4. Cancer cells invade the surrounding tissue.",
+        "5. Some cells break away, enter blood vessels or lymph vessels, and are carried around the body.",
+        "6. They leave the vessels in another organ and divide there to form secondary tumours, called metastases.",
+        "Metastasis is the spread of cancer from the primary tumour to form secondary tumours elsewhere. Secondary tumours contain the same type of cells as the primary tumour: breast cancer that spreads to the bones is still breast cancer cells, not bone cancer. Metastasis makes cancer much harder to treat, which is why early detection matters (see 'Causes, prevention and treatment of cancer').",
+        "Tumours harm the body by pressing on and damaging organs; blocking tubes such as the airways, gut or blood vessels; destroying normal tissue and stopping it working, e.g. leukaemia cells crowd out normal blood-forming cells in the bone marrow, causing anaemia and infections; and using up the body's nutrients, causing weight loss.",
+        "Diagram: a sequence from normal tissue (a single neat layer of cells), to one mutated cell, to a mass of abnormal cells (the primary tumour) with a blood vessel growing into it, to cells invading and entering a blood vessel, to a secondary tumour in another organ. Label normal cells, cancer cell with large nucleus, primary tumour, blood vessel, invasion, metastasis and secondary tumour."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Cancer", "definition": "A group of diseases in which some body cells lose control of the rate and number of mitotic divisions and can invade and spread." },
+    { "term": "Proto-oncogene", "definition": "A normal gene that codes for proteins which stimulate the cell cycle; when mutated it becomes an oncogene." },
+    { "term": "Oncogene", "definition": "A mutated proto-oncogene that is permanently switched on and keeps stimulating cell division." },
+    { "term": "Tumour suppressor gene", "definition": "A gene that codes for proteins which stop the cell cycle, repair damaged DNA or trigger apoptosis." },
+    { "term": "Apoptosis", "definition": "Programmed cell death, in which a damaged or unwanted cell breaks itself down in a controlled way." },
+    { "term": "Angiogenesis", "definition": "The growth of new blood vessels into a tumour, supplying it with oxygen and nutrients." },
+    { "term": "Benign tumour", "definition": "An abnormal mass of cells that grows slowly, is enclosed in a capsule and does not invade or spread." },
+    { "term": "Metastasis", "definition": "The spread of cancer cells from a primary tumour to form secondary tumours in other parts of the body." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is cancer? State two ways in which cancer cells differ from normal cells.",
+      "model": "Cancer is a group of diseases in which some body cells lose control of mitosis: they divide too often and too many times, and they can invade nearby tissues and spread. Two differences: normal cells divide only when signalled and stop at contact, whereas cancer cells divide continuously without signals and pile up into a mass; normal cells die by apoptosis when damaged, whereas cancer cells avoid apoptosis and many keep their telomeres long, so they can divide indefinitely."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline how the loss of control of mitosis can lead to the development and spread of a cancer.",
+      "model": "In normal cells, proto-oncogenes stimulate division and tumour suppressor genes act as brakes, stopping the cycle at checkpoints, repairing DNA or triggering apoptosis. A mutation in a proto-oncogene can make it an oncogene that is permanently switched on. A mutation that inactivates a tumour suppressor gene removes the brakes, usually in both copies. Several such mutations must build up in one cell, often over many years. The mutated cell and its daughters divide without control and form a primary tumour. Angiogenesis supplies the tumour with blood, cancer cells invade the surrounding tissue, and some cells enter blood or lymph vessels, are carried around the body and form secondary tumours (metastases) in other organs. The secondary tumours contain the same type of cells as the primary tumour."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between a benign and a malignant tumour.",
+      "model": "A benign tumour grows slowly, is enclosed in a capsule, does not invade surrounding tissue or spread, and its cells look fairly normal. A malignant tumour grows quickly, has no capsule, invades and destroys surrounding tissue, can spread to other parts of the body, and has abnormal cells. A malignant tumour is a cancer; a benign tumour is not."
+    }
+  ]
+}

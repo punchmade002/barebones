@@ -1,0 +1,101 @@
+{
+  "loId": "ch14-s5",
+  "chapterId": "ch14",
+  "subsection": "5. Digital technology in the workplace: remote and blended working",
+  "syllabusRef": "3.2.11, 3.2.12, 3.2.13",
+  "notes": [
+    { "h": "How digital technology is changing work", "b": "Digital technology has changed how work is organised, where it is done and how it is monitored. Because it alters established jobs and business models, it is described as disruptive.", "points": [
+      "Collaboration platforms such as Microsoft Teams, Slack and Zoom let teams communicate, share files and meet across different locations.",
+      "Cloud computing stores data and runs software on remote servers, so staff can access their work from any device with an internet connection.",
+      "Automation and artificial intelligence handle repetitive tasks, such as data entry or routine customer queries, which changes the mix of jobs and skills a firm needs.",
+      "Monitoring software records activity such as log-in times, keystrokes or screen use, giving managers productivity data but raising privacy concerns.",
+      "Disruptive technology can make established ways of working obsolete quickly, forcing firms and workers to adapt their processes and skills."
+    ] },
+    { "h": "Defining remote and blended working", "b": "Remote and blended working are two of the diverse ways of working that digital technology has made practical.", "points": [
+      "Remote working means doing paid work from a location other than the employer's premises, most often the employee's home, using digital tools to stay connected.",
+      "Blended working, also called hybrid working, combines time on the employer's premises with time working remotely, such as two office days and three home days a week.",
+      "A fully remote firm has no central office for most staff, while a blended firm keeps an office that staff use for some days.",
+      "Other diverse ways of working include flexible hours, compressed hours and the four-day week, and these can be combined with remote or blended working."
+    ] },
+    { "h": "Opportunities of remote and blended working for employers", "b": "Employers can gain access to wider talent, possible cost savings and productivity gains, but they also face management challenges.", "points": [
+      "A wider talent pool: employers can recruit people who live far from the office, including people in rural areas or abroad, which helps fill skills gaps.",
+      "Office costs: smaller offices or hot-desking can reduce rent, utilities and maintenance costs, particularly in expensive city-centre locations.",
+      "Productivity: some employers report gains where staff have fewer interruptions and no commuting delays, although results depend on the type of work and on good management.",
+      "Retention and reduced absence: flexible arrangements can make an employer attractive to staff and may reduce absence linked to commuting or caring duties.",
+      "Business continuity: remote capability allows work to continue during disruption, such as severe weather or the closure of a premises."
+    ] },
+    { "h": "Challenges of remote and blended working for employers", "b": "Remote and blended working makes some management tasks harder and creates new risks for employers.", "points": [
+      "Supervision: managers cannot observe work directly, so they must manage by results, which requires clear objectives and regular communication.",
+      "Culture: the informal contact that builds shared identity and values can weaken when staff seldom meet in person.",
+      "Security: staff working on home networks and personal devices increase the risk of data breaches, phishing and loss of confidential information.",
+      "Health and safety: the employer keeps its duty of care towards remote workers and must assess the home workspace much as it would an office.",
+      "Equipment and support: employers may need to provide suitable equipment, reliable connectivity and IT support.",
+      "Two-tier workforce: employees who work on site may gain more visibility and opportunities, which can create unequal treatment between staff."
+    ] },
+    { "h": "Opportunities of remote and blended working for employees", "b": "Employees can gain flexibility, time and a better balance between work and their other responsibilities.", "points": [
+      "Flexibility: employees can organise their day around personal commitments such as childcare, caring duties or study.",
+      "Time and cost savings: avoiding a daily commute saves time and money on fuel, public transport or parking.",
+      "Work-life balance: reduced commuting and flexible hours can make it easier to manage family life, health appointments and rest.",
+      "Autonomy: employees who work remotely often feel more in control of how and when they complete tasks, which can raise job satisfaction.",
+      "Access to work: people for whom travel is difficult, including some people with disabilities, can reach jobs they could not otherwise take.",
+      "Quieter conditions at home can help some people concentrate, though this depends on their home circumstances."
+    ] },
+    { "h": "Challenges of remote and blended working for employees", "b": "Remote and blended working also brings problems for employees that affect their wellbeing and career progress.", "points": [
+      "Isolation: long periods without colleagues can lead to loneliness and a weaker sense of belonging.",
+      "Blurred boundaries: working from home can make it hard to switch off, so employees may feel always on call.",
+      "Career visibility: employees who are rarely in the office may miss informal networking and be overlooked for promotion, a problem known as proximity bias.",
+      "Informal learning: less contact with colleagues reduces learning through observation and casual conversation.",
+      "Home workspace: a poor setup can affect posture, comfort and concentration, and many homes lack a quiet, dedicated place to work.",
+      "Costs: employees may bear extra household costs, such as heating, electricity and internet, when working from home."
+    ] },
+    { "h": "Legal rights: the right to request remote working", "b": "Irish law gives employees a right to request remote working, but it does not give them an automatic right to it.", "points": [
+      "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to request remote working.",
+      "An employer must consider the request properly and may refuse it only on reasonable grounds, which should be explained to the employee.",
+      "The Workplace Relations Commission has issued a code of practice that explains how requests for remote working should be handled in practice.",
+      "Employers should handle requests consistently, since inconsistent decisions can lead to claims of unfair treatment."
+    ] },
+    { "h": "Ethical issues", "b": "Remote and blended working raises ethical questions about surveillance, fairness, privacy and wellbeing.", "points": [
+      "Surveillance: monitoring software that tracks keystrokes, screen time or location is intrusive, and it damages trust when used without a clear purpose.",
+      "Data protection: under the General Data Protection Regulation, monitoring must be lawful, transparent and proportionate, so staff should be told what is collected and why.",
+      "Fairness: measuring performance by visible activity rather than by results can unfairly penalise people who work efficiently or who have caring duties.",
+      "Equal access: employees without a suitable home workspace, reliable broadband or privacy are disadvantaged, which creates a fairness problem for employers who expect remote work.",
+      "The right to disconnect: staff should be able to switch off outside working hours without penalty, and Ireland has a code of practice on this right.",
+      "Mental health: always-on expectations can cause stress and burnout, so the employer's duty of care extends to remote workers.",
+      "Equal treatment: decisions on promotion and development should not depend on physical presence in the office."
+    ] },
+    { "h": "Sustainability issues", "b": "The environmental effects of remote and blended working are mixed, and the net result depends on how work is organised.", "points": [
+      "Fewer commutes: reduced car journeys cut transport emissions and traffic congestion, which is one of the most significant environmental benefits.",
+      "Home energy use: staff working at home use more heating, lighting and electricity, which can offset part of the saving, especially where the home is heated by fossil fuels.",
+      "Office footprint: smaller offices use less energy and fewer materials, although a partly used building can still consume a lot of energy.",
+      "Equipment: remote working increases demand for laptops, monitors and other devices, which adds to electronic waste and the emissions created in making them, so repair and reuse policies matter.",
+      "Regional development: remote work can help people live in or move to rural areas, supporting local services and easing pressure on cities, though it can reduce footfall for city-centre businesses.",
+      "Sustainable outcomes depend on policies such as using renewable energy, reusing equipment and avoiding unnecessary travel for meetings."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Remote working", "definition": "Paid work done from a location other than the employer's premises, usually at home, using digital tools." },
+    { "term": "Blended working", "definition": "A mix of working on the employer's premises and working remotely, also called hybrid working." },
+    { "term": "Collaboration platform", "definition": "Software that lets people communicate, share files and work together online across different locations." },
+    { "term": "Cloud computing", "definition": "Storing data and running software on remote servers that users reach over the internet." },
+    { "term": "Monitoring software", "definition": "Software that records employee activity, such as log-in times, keystrokes or screen use." },
+    { "term": "Proximity bias", "definition": "The tendency of managers to favour staff they see in person, which can disadvantage remote workers." },
+    { "term": "Right to disconnect", "definition": "The entitlement of employees to switch off from work and not be penalised for not responding to work contact outside working hours." },
+    { "term": "Right to request remote working", "definition": "The statutory entitlement of an employee to ask an employer for remote working, which the employer must consider." },
+    { "term": "Disruptive technology", "definition": "Technology that changes established products, services or ways of working so quickly that existing practices become obsolete." }
+  ],
+  "factCards": [
+    { "term": "Employer opportunities", "definition": "Wider talent pool, office cost savings, productivity gains, retention and business continuity." },
+    { "term": "Employer challenges", "definition": "Supervision, culture, security, health and safety, equipment and support, and a two-tier workforce." },
+    { "term": "Employee opportunities", "definition": "Flexibility, time and cost savings, work-life balance, autonomy and access to work." },
+    { "term": "Employee challenges", "definition": "Isolation, blurred boundaries, career visibility, lost informal learning, home workspace problems and household costs." },
+    { "term": "Ethical issues of remote work", "definition": "Surveillance, data protection, fairness, equal access, the right to disconnect and mental health." },
+    { "term": "Sustainability trade-off", "definition": "Lower commuting emissions and smaller offices, set against higher home energy use and more equipment waste." },
+    { "term": "Digital technologies changing work", "definition": "Collaboration platforms, cloud computing, automation and artificial intelligence, and monitoring software." },
+    { "term": "Handling a request for remote working", "definition": "Consider the request properly, weigh business needs, decide on reasonable grounds, explain any refusal and keep decisions consistent." }
+  ],
+  "questions": [
+    { "marks": 25, "prompt": "Evaluate the opportunities and challenges of blended working for an employer and for its employees, and analyse the ethical and sustainability issues it raises.", "model": "For employers, blended working widens the talent pool, so a firm in a regional town can recruit specialists who would never commute to its office. Smaller offices can cut rent and running costs, and some firms report productivity gains where staff have fewer interruptions. The challenges are real, however. Managers cannot watch staff work, so they must manage by results, which needs clear objectives and regular communication. Culture can weaken when people seldom meet, and staff working on home networks raise the risk of data breaches and phishing. Employers also keep a duty of care for remote workers, and a two-tier workforce can emerge if office-based staff gain more visibility and promotion. For employees, flexibility is the main benefit: people can organise their day around childcare or study, save time and money on commuting and often gain more control over their work. Yet isolation, blurred boundaries that make it hard to switch off, and the risk of proximity bias in promotion are serious downsides, and some employees carry extra household costs. Ethically, monitoring software that tracks keystrokes or screen time intrudes on privacy and can damage trust unless it is transparent, proportionate and lawful under the General Data Protection Regulation. Fairness is also at stake: measuring visible activity rather than results penalises efficient workers and people with caring duties, and employees without a suitable home workspace are disadvantaged. The right to disconnect protects wellbeing, and an employer must watch for always-on expectations that cause stress. On sustainability, fewer commutes reduce transport emissions and congestion, and remote work can support rural development. But home heating and lighting can offset part of the saving, and the extra devices add to electronic waste. The overall environmental effect therefore depends on energy sources, equipment reuse and how much travel is still needed for meetings." },
+    { "marks": 15, "prompt": "Discuss two ethical issues that arise when an employer monitors staff who work from home.", "model": "The first issue is privacy and surveillance. Monitoring software that records keystrokes, screen time or location can feel intrusive, and staff may lose trust in the employer if they are watched without being told why. Under the General Data Protection Regulation, monitoring must be lawful, transparent and proportionate, so an employer should tell staff what is collected, why it is needed and how long it is kept. The second issue is fairness. Measuring activity rather than results can penalise employees who work efficiently or who are most productive in short bursts, and it can disadvantage people with caring responsibilities who must work at certain hours. A fair approach judges performance on outcomes and uses monitoring only where it serves a clear, justified purpose." },
+    { "marks": 10, "prompt": "Outline the right of an Irish employee to request remote working, and explain how an employer should respond.", "model": "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to ask their employer for remote working. This is a right to make a request, not a right to be granted remote working. The employer must consider the request properly, weigh it against business needs, and refuse only on reasonable grounds, explaining the reasons to the employee. Consistent handling across staff, guided by the Workplace Relations Commission code of practice, helps the employer avoid claims of unfair treatment." }
+  ]
+}

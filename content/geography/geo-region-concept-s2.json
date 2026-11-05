@@ -85,7 +85,7 @@
         "Origin: created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris.",
         "Each was drawn so that every place could reach its main town (chef-lieu) within about a day's ride on horseback.",
         "There are 101 départements: 96 in metropolitan France and 5 overseas.",
-        "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes. Paris is 75, and Corsica has two, numbered 2A and 2B.",
+        "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes; Paris is 75. Corsica has two départements, numbered 2A and 2B, though its postcodes begin with 20.",
         "Many are named after natural features such as rivers and mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Seine-Maritime and Pyrénées-Atlantiques.",
         "Government: each has a prefect (préfet), appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges)."
       ]
@@ -151,6 +151,22 @@
       "term": "Chef-lieu",
       "definition": "The main town of a French département."
     }
+  ],
+  "factCards": [
+    { "term": "Administrative regions in Ireland: the hierarchy of scales, smallest to largest", "definition": "Townland and electoral division; local authority area (county or city council); Dáil constituency; regional assembly area; the State; the European Union, a supranational scale of 27 member states since the United Kingdom left in 2020." },
+    { "term": "Irish counties and provinces: the numbers and their status today", "definition": "There are 26 counties in the Republic and 32 on the island. The four provinces (Leinster, Munster, Connacht, Ulster) are historic and have no administrative function today." },
+    { "term": "County Dublin: two changes to its local government", "definition": "In 1994 County Dublin was divided into Fingal, South Dublin and Dún Laoghaire–Rathdown county councils, alongside Dublin City Council. Dublin Corporation became Dublin City Council in 2002 under the Local Government Act 2001." },
+    { "term": "Local Government Reform Act 2014: the 31 local authorities and other changes", "definition": "26 county councils, 3 city councils (Dublin, Cork, Galway) and 2 city and county councils (Limerick, Waterford); 949 councillors. Town councils were replaced by municipal districts, and North and South Tipperary merged into Tipperary County Council." },
+    { "term": "Irish local councils: functions and funding", "definition": "Housing; roads and traffic; planning permission and development plans; libraries; the fire service; environment and waste; parks and amenities. Funded partly by the Local Property Tax and commercial rates; elections every five years (2019, 2024)." },
+    { "term": "Cork City boundary extension, 2019: what it took in", "definition": "The boundary was extended in 2019 to take in the growing suburbs of Ballincollig, Blarney and Glanmire, and Cork Airport: an administrative boundary changing as population grows." },
+    { "term": "Irish regional assemblies and the 2000–2006 EU funding regions", "definition": "Three regional assemblies since 2015 (Northern and Western; Southern; Eastern and Midland) prepare regional plans and manage EU funds. From 2000 to 2006 the BMW region held Objective 1 status, the highest EU aid; the rest was the Southern and Eastern region." },
+    { "term": "Dáil constituencies: the rules on seats and representation", "definition": "Each constituency elects 3 to 5 TDs by PR-STV. The Constitution requires one TD for every 20,000 to 30,000 people, so boundaries are redrawn as population shifts between censuses." },
+    { "term": "Electoral Commission's 2023 review: the outcome", "definition": "The Electoral Commission, established in 2023 to replace constituency commissions, created 43 constituencies electing 174 TDs, first used in the 2024 general election." },
+    { "term": "Why constituencies cross county boundaries and change over time", "definition": "A county's population may not fit a 3-to-5-seat constituency, so some combine counties, e.g. Sligo–Leitrim. Growing areas such as Dublin and its commuter belt gain seats; declining areas lose them." },
+    { "term": "French départements: when and why they were created", "definition": "Created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris. Each was drawn so every place could reach its chef-lieu within about a day's ride on horseback." },
+    { "term": "French départements: the numbers to know, with named examples", "definition": "101 départements: 96 metropolitan and 5 overseas. Each has a number, used for example as the first two digits of postcodes (Paris is 75). Corsica is split into two départements, numbered 2A and 2B. Many are named after rivers or mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Pyrénées-Atlantiques." },
+    { "term": "French département: who governs it and what it is responsible for", "definition": "A prefect (préfet) appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges)." },
+    { "term": "France's three tiers of government and the 2016 regional reform", "definition": "About 35,000 communes (each with a mayor), départements and regions. In 2016 metropolitan regions were cut from 22 to 13 by merging, to compete in Europe; regions handle economic development, regional transport and lycées. Ireland is far more centralised." }
   ],
   "questions": [
     {

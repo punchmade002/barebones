@@ -1,0 +1,149 @@
+{
+  "loId": "bio11-s8",
+  "chapterId": "bio11",
+  "subsection": "Dihybrid crosses",
+  "syllabusRef": "1.4.7",
+  "notes": [
+    {
+      "h": "What a dihybrid cross is (Higher Level only)",
+      "points": [
+        "A dihybrid cross follows the inheritance of two different traits (two genes) at the same time, e.g. seed shape and seed colour in peas.",
+        "“Unlinked” means the two genes are on different chromosomes, so they assort independently and every combination of their alleles is equally likely in the gametes.",
+        "Genes on the same chromosome are covered in “Linkage”.",
+        "Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green.",
+        "A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry."
+      ]
+    },
+    {
+      "h": "Working out the gametes (Higher Level only)",
+      "points": [
+        "Each gamete gets one allele of each gene, so every gamete has two letters, one for each gene; never two of the same gene: RY, not Rr.",
+        "Method: pair each allele of the first gene with each allele of the second gene.",
+        "For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers (the Law of Independent Assortment).",
+        "The number of gamete types depends on how many genes are heterozygous: RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).",
+        "RrYy gives four (RY, Ry, rY, ry); rryy gives one (ry)."
+      ]
+    },
+    {
+      "h": "P to F1 (Higher Level only)",
+      "points": [
+        "Parents' phenotypes: round yellow × wrinkled green (both true-breeding).",
+        "Parents' genotypes: RRYY × rryy.",
+        "Gametes: RY × ry.",
+        "F1 genotype: all RrYy.",
+        "F1 phenotype: all round yellow (both dominant traits)."
+      ]
+    },
+    {
+      "h": "F1 × F1 to F2 (Higher Level only)",
+      "points": [
+        "Parents (F1): round yellow × round yellow.",
+        "Genotypes: RrYy × RrYy.",
+        "Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry.",
+        "Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance.",
+        "Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side):",
+        "Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy.",
+        "Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.",
+        "Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy.",
+        "Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.",
+        "F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16)."
+      ]
+    },
+    {
+      "h": "F2 phenotypes and the 9 : 3 : 3 : 1 ratio (Higher Level only)",
+      "points": [
+        "F2 phenotypes: 9 round yellow (at least one R and at least one Y) : 3 round green (at least one R, yy) : 3 wrinkled yellow (rr, at least one Y) : 1 wrinkled green (rryy).",
+        "The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance.",
+        "Mendel's F2 counts, close to this ratio, are in “Mendel's Laws”."
+      ]
+    },
+    {
+      "h": "Why new combinations appear (Higher Level only)",
+      "points": [
+        "Two of the four F2 phenotypes (round green and wrinkled yellow) are new combinations, found in neither the P nor the F1 generation.",
+        "They appear because the genes assort independently, and they are a source of variation in offspring.",
+        "Diagram: the full 4 × 4 Punnett square of the F1 × F1 cross, with gametes labelled on both sides, and the boxes coloured or marked by phenotype (9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green)."
+      ]
+    },
+    {
+      "h": "Checking with multiplied probabilities (Higher Level only)",
+      "points": [
+        "Because the genes are independent, the dihybrid result is the two monohybrid results multiplied.",
+        "Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green.",
+        "So round yellow = 3/4 × 3/4 = 9/16, round green = 3/4 × 1/4 = 3/16, wrinkled yellow = 3/16, wrinkled green = 1/4 × 1/4 = 1/16.",
+        "Use this to check a Punnett square; show the full square in an exam answer when asked for a genetic cross."
+      ]
+    },
+    {
+      "h": "Dihybrid test cross: double heterozygote × double homozygous recessive (Higher Level only)",
+      "points": [
+        "Round yellow (RrYy) × wrinkled green (rryy) is the dihybrid test cross.",
+        "Gametes: RY, Ry, rY, ry × ry.",
+        "Offspring genotypes: RrYy, Rryy, rrYy, rryy (1 : 1 : 1 : 1).",
+        "Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each).",
+        "A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently.",
+        "The same cross with linked genes is in “Linkage”.",
+        "The same pattern with other traits: in peas with tall (T) dominant to dwarf (t) and yellow (Y) dominant to green (y), TtYy × ttyy gives 1 tall yellow (TtYy) : 1 tall green (Ttyy) : 1 dwarf yellow (ttYy) : 1 dwarf green (ttyy)."
+      ]
+    },
+    {
+      "h": "Dihybrid cross: double heterozygote × single heterozygote (Higher Level only)",
+      "points": [
+        "Round yellow × round green: RrYy × Rryy.",
+        "Gametes: RY, Ry, rY, ry × Ry, ry.",
+        "Punnett square: 4 × 2 = 8 boxes; column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy.",
+        "Phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1).",
+        "Check: 3/4 round × 1/2 yellow = 3/8 round yellow."
+      ]
+    },
+    {
+      "h": "Dihybrid cross with incomplete dominance (Higher Level only)",
+      "points": [
+        "Snapdragons: tall (T) is dominant to dwarf (t); red (R) and white (W) flower colour show incomplete dominance (RW = pink).",
+        "Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height).",
+        "Parents' genotypes: ttRR × TtRW.",
+        "Gametes: tR × TR, TW, tR, tW.",
+        "Offspring: TtRR (tall, red), TtRW (tall, pink), ttRR (dwarf, red), ttRW (dwarf, pink), in a 1 : 1 : 1 : 1 ratio.",
+        "So 50% of the offspring have pink flowers and 50% are tall.",
+        "To the second generation: TTRR × ttWW gives an F1 of all TtRW (tall pink).",
+        "F1 × F1 gives 3 tall red : 6 tall pink : 3 tall white : 1 dwarf red : 2 dwarf pink : 1 dwarf white (out of 16).",
+        "These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Dihybrid cross",
+      "definition": "A genetic cross that follows the inheritance of two different traits, controlled by two genes, at the same time."
+    },
+    {
+      "term": "Unlinked genes",
+      "definition": "Genes on different chromosomes, which assort independently of each other."
+    },
+    {
+      "term": "Dihybrid test cross",
+      "definition": "A cross of a double heterozygote with a double homozygous recessive, giving a 1 : 1 : 1 : 1 ratio for unlinked genes."
+    },
+    {
+      "term": "9 : 3 : 3 : 1 ratio",
+      "definition": "The F2 phenotype ratio of a dihybrid cross of two unlinked genes with complete dominance."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give all the possible gametes of a pea plant with the genotype TtYy and explain why they occur in equal numbers.",
+      "model": "The possible gametes are TY, Ty, tY and ty. Each gamete gets one allele of each gene. The genes are unlinked, on different chromosomes, so the alleles of one gene separate independently of the alleles of the other gene (the Law of Independent Assortment). Each combination of T or t with Y or y is therefore equally likely, giving four gamete types in equal numbers."
+    },
+    {
+      "marks": 15,
+      "prompt": "A true-breeding round, yellow-seeded pea plant is crossed with a wrinkled, green-seeded plant. The F1 plants are crossed with each other. Using genetic crosses, show the genotypes and phenotypes of the F1 and F2 and give the F2 phenotype ratio.",
+      "model": "Key: R = round seed, r = wrinkled seed; Y = yellow seed, y = green seed. Parents' phenotypes: round yellow × wrinkled green. Parents' genotypes: RRYY × rryy. Gametes: RY × ry. F1 genotype: all RrYy. F1 phenotype: all round yellow. F1 × F1: round yellow × round yellow. Genotypes: RrYy × RrYy. Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry. Punnett square (16 boxes, each 1/16): row RY: RRYY, RRYy, RrYY, RrYy. Row Ry: RRYy, RRyy, RrYy, Rryy. Row rY: RrYY, RrYy, rrYY, rrYy. Row ry: RrYy, Rryy, rrYy, rryy. F2 phenotype ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green."
+    },
+    {
+      "marks": 12,
+      "prompt": "A pea plant with the genotype RrYy (round, yellow) is crossed with a plant with the genotype Rryy (round, green). The genes are not linked. Using a Punnett square, show the genotypes and phenotypes of the offspring and give the phenotype ratio.",
+      "model": "Parents' genotypes: RrYy × Rryy. Gametes: RY, Ry, rY, ry × Ry, ry. Punnett square (8 boxes): column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy. Offspring phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1). Check: 3/4 round × 1/2 yellow = 3/8 round yellow, and the other classes are checked the same way."
+    }
+  ]
+}

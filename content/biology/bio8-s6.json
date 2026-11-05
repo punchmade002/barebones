@@ -1,0 +1,99 @@
+{
+  "loId": "bio8-s6",
+  "chapterId": "bio8",
+  "subsection": "Water",
+  "syllabusRef": "1.2.4",
+  "notes": [
+    {
+      "h": "Water in living things and its properties",
+      "points": [
+        "Water is the most abundant substance in living things. It makes up about 60% of the mass of an adult human body and most of the mass of cytoplasm.",
+        "Many plant tissues and jellyfish are over 90% water. Organisms die quickly without water.",
+        "A water molecule, H₂O, is polar: the oxygen end carries a slight negative charge (δ−) and the hydrogen ends carry slight positive charges (δ+). Neighbouring molecules are attracted to each other by hydrogen bonds.",
+        "Because it is polar, water is an excellent solvent: ions (e.g. Na⁺, Cl⁻) and polar molecules (e.g. glucose, amino acids) dissolve in it. Lipids are non-polar and do not dissolve.",
+        "Hydrogen bonding gives water a high specific heat capacity, so it takes a lot of energy to raise its temperature. It also gives water a high latent heat of vaporisation, so a lot of energy is absorbed when it evaporates.",
+        "Hydrogen bonding makes water molecules stick to each other (cohesion) and to other surfaces (adhesion).",
+        "Diagram: two or three water molecules with δ+ on the hydrogens, δ− on the oxygen, and a dotted hydrogen bond between them."
+      ]
+    },
+    {
+      "h": "Medium for chemical reactions",
+      "points": [
+        "Almost all metabolic reactions take place in solution in water, in the cytoplasm and inside organelles, because dissolved molecules can move, collide and meet enzymes.",
+        "Water is also a reactant. It is split in photosynthesis, releasing oxygen, and it is used in every hydrolysis reaction, including digestion.",
+        "Water is a product of respiration and of every condensation reaction."
+      ]
+    },
+    {
+      "h": "Medium for transport",
+      "points": [
+        "In animals, blood plasma is mainly water. It carries dissolved glucose, amino acids, mineral ions, hormones, urea and carbon dioxide around the body; lymph and tissue fluid are also watery.",
+        "Urea and excess salts are excreted dissolved in water as urine.",
+        "In plants, water carries dissolved minerals up the xylem from the roots to the leaves. Sucrose and amino acids move through the phloem.",
+        "Cohesion between water molecules holds the column of water together in the xylem (detail in “Transport in Plants”).",
+        "Substances move into and out of cells by diffusion through the watery fluid around them (detail in “Transport Across Membranes”)."
+      ]
+    },
+    {
+      "h": "Regulation of temperature",
+      "points": [
+        "High specific heat capacity: water heats up and cools down slowly, so the water in an organism's body buffers it against sudden temperature changes. Lakes and seas give aquatic organisms a stable temperature.",
+        "Cooling by evaporation: because water absorbs a lot of heat when it evaporates, sweating in mammals cools the skin (detail in “Homeostasis”), panting cools dogs, and transpiration cools leaves.",
+        "Ice is less dense than liquid water, so it floats and forms an insulating layer on ponds and lakes, letting organisms survive beneath it in winter."
+      ]
+    },
+    {
+      "h": "Regulation of pH",
+      "points": [
+        "pH depends on the concentration of hydrogen ions (H⁺) in a solution; pure water is neutral, at pH 7. Acids and bases exert their effects only when they are dissolved in water.",
+        "Buffers, such as hydrogencarbonate and phosphate ions (see “Minerals”), work dissolved in body water. They keep the pH of cells and blood almost constant, so enzymes keep their shape and activity.",
+        "Water is the medium by which excess H⁺ ions are removed. The kidneys excrete them dissolved in urine. Carbon dioxide, which forms an acid in solution, is carried in the blood plasma to the lungs and breathed out."
+      ]
+    },
+    {
+      "h": "Osmoregulation",
+      "points": [
+        "Osmoregulation is the control of the water and salt (solute) concentration of body fluids. Water moves into or out of cells by osmosis, from a region of higher water concentration to a region of lower water concentration, through a selectively permeable membrane (detail in “Transport Across Membranes”).",
+        "Animal cells placed in pure water swell and may burst; in strong salt solution they shrink. So the concentration of the blood and tissue fluid must be kept steady.",
+        "In humans the kidneys do this, adjusting the volume of water in urine under the control of ADH (detail in “The Urinary System”).",
+        "Plant cells have a strong cell wall, so water entering by osmosis makes them turgid (swollen and firm) instead of bursting. Turgor pressure supports non-woody plants and leaves and opens stomata.",
+        "When water is lost, plant cells become flaccid and the plant wilts.",
+        "Single-celled freshwater organisms such as Amoeba constantly gain water by osmosis and expel it with a contractile vacuole."
+      ]
+    },
+    {
+      "h": "Other roles of water",
+      "points": [
+        "Lubrication: synovial fluid lubricates joints, and mucus and saliva help swallowing.",
+        "Support: the fluid pressure of a hydrostatic skeleton supports soft-bodied animals such as earthworms.",
+        "Habitat: water is the habitat of aquatic organisms.",
+        "Fertilisation: some organisms need water for fertilisation. Moss and fern sperm swim in water."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Polar molecule", "definition": "A molecule with slight positive and negative charges at different ends, such as water, which lets it dissolve ions and polar molecules." },
+    { "term": "Hydrogen bond", "definition": "The attraction between a slightly positive hydrogen end of one water molecule and the slightly negative oxygen end of another." },
+    { "term": "Specific heat capacity", "definition": "The energy needed to raise the temperature of a substance; water's value is high, so its temperature changes slowly." },
+    { "term": "Osmosis", "definition": "The movement of water across a selectively permeable membrane from a region of higher water concentration to lower water concentration." },
+    { "term": "Osmoregulation", "definition": "The control of the water and salt concentration of body fluids." },
+    { "term": "Turgor", "definition": "The swollen, firm state of a plant cell when water entering by osmosis presses against its cell wall." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give three roles of water in living organisms.",
+      "model": "Water is a medium for chemical reactions: almost all metabolic reactions take place in solution in water, and water is a reactant in hydrolysis. Water is a medium for transport: blood plasma carries dissolved glucose, amino acids and hormones, and the xylem carries dissolved minerals up the plant. Water helps regulate temperature: its high specific heat capacity buffers the body against sudden changes, and sweating cools the skin as water evaporates."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how the properties of water allow it to act as a medium for transport and to help regulate temperature.",
+      "model": "Water is a polar molecule, so it is an excellent solvent: ions such as Na⁺ and Cl⁻ and polar molecules such as glucose and amino acids dissolve in it. This lets blood plasma carry dissolved substances around the body, and lets the xylem carry dissolved minerals and cohesion holds the water column together. Hydrogen bonding gives water a high specific heat capacity, so its temperature changes slowly and the body is buffered against sudden changes. Water also has a high latent heat of vaporisation, so evaporation of sweat, panting or transpiration absorbs a lot of heat and cools the organism."
+    },
+    {
+      "marks": 9,
+      "prompt": "What is osmoregulation? Explain why it is important for animal cells and how plant cells respond to taking in water.",
+      "model": "Osmoregulation is the control of the water and salt concentration of body fluids. It is important for animal cells because water entering by osmosis would make them swell and burst in pure water, while in strong salt solution they would shrink; the kidneys keep the concentration of blood and tissue fluid steady by adjusting the water in urine under the control of ADH. Plant cells respond to taking in water by becoming turgid: the strong cell wall stops them bursting, and the turgor pressure supports non-woody plants and leaves and opens the stomata. When water is lost, the cells become flaccid and the plant wilts."
+    }
+  ]
+}

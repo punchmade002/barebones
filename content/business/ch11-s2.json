@@ -1,0 +1,91 @@
+{
+  "loId": "ch11-s2",
+  "chapterId": "ch11",
+  "subsection": "2. Strategies to adapt or expand, and the role of technology",
+  "syllabusRef": "2.6.3, 2.6.4",
+  "notes": [
+    { "h": "Why businesses expand", "b": "Expansion is a decision to grow output, markets or products. Each reason below is a motive for growth.", "points": [
+      "Economies of scale lower the average cost per unit as output rises, through bulk buying, specialised equipment and spreading fixed overheads.",
+      "Growing market share increases bargaining power and brand recognition.",
+      "Diversification spreads risk, so a fall in one product or market does not sink the whole business.",
+      "Growth can be necessary for survival, because a growing competitor may squeeze a small firm out of the market."
+    ] },
+    { "h": "Organic strategies", "b": "Organic (internal) growth uses the firm's own resources. It is slower than external growth but keeps control within the firm.", "points": [
+      "New product development adds products to the range, building on the firm's existing brand and skills.",
+      "Entering new markets means selling existing or new products to new customer groups or places.",
+      "Increasing capacity means investing in more premises, machinery or staff so the firm can produce more.",
+      "Franchising out lets the firm grow by licensing its brand and system to franchisees, who pay fees and royalties.",
+      "Exporting sells goods or services abroad, either directly or through agents or distributors."
+    ] },
+    { "h": "Advantages and disadvantages of organic growth", "b": "Organic strategies suit firms that want steady growth and tight control, but they can be too slow when a market is moving fast.", "points": [
+      "Organic growth avoids paying a purchase premium and keeps decisions within the existing business.",
+      "Organic growth is slow, and the firm may lack the skills or capital to enter new markets quickly.",
+      "Franchising spreads the capital needed for growth across franchisees, but the franchisor loses direct control over quality and service.",
+      "Exporting adds transport and distribution costs and reduces the firm's direct control over how its product is sold abroad.",
+      "A new product can fail if customers do not accept it, which is why demand should be tested before the firm commits."
+    ] },
+    { "h": "Inorganic strategies", "b": "Inorganic (external) growth combines with or buys other businesses. It is fast but brings integration risk.", "points": [
+      "A merger joins two firms into one new combined business, usually to gain scale and share skills.",
+      "A takeover or acquisition is when one firm buys control of another, which may be agreed with the target's board or forced on it.",
+      "A strategic alliance is a cooperation agreement between independent firms that share resources or markets without merging.",
+      "A joint venture creates a separate new business owned jointly by two or more firms, which share its costs, risks and profits."
+    ] },
+    { "h": "Advantages and disadvantages of inorganic growth", "b": "Each external strategy trades speed for control, and the trade-off differs between a full merger and a looser alliance.", "points": [
+      "Mergers and takeovers give rapid access to customers, markets and skills that would take years to build.",
+      "Acquisitions are costly, often requiring a premium over market value, and may be financed with debt or share issues.",
+      "Culture clashes and integration problems can destroy the value a merger was meant to create.",
+      "Strategic alliances are flexible and cheap to set up, but disputes over control and the risk of a partner learning the firm's methods are drawbacks.",
+      "Joint ventures share risk and bring in partner expertise, but conflicting goals and slow joint decisions are common problems.",
+      "Large mergers and takeovers may need clearance from the Competition and Consumer Protection Commission, which can delay or block them."
+    ] },
+    { "h": "Before expanding abroad", "b": "Expansion into an international market needs checks that a domestic expansion does not.", "points": [
+      "Market research must show real demand for the product in the target country, not just assumed demand.",
+      "Legal and regulatory requirements, such as product standards and tax rules, must be met before selling.",
+      "Exchange rate movements change the euro value of sales and costs, so currency risk must be assessed.",
+      "Cultural and language differences can affect the product, its packaging and the promotion message."
+    ] },
+    { "h": "Financing expansion", "b": "Expansion costs money, so the source of finance should match the scale and time horizon of the project.", "points": [
+      "The sources of finance covered earlier in this course apply here, and the choice should match how long the investment takes to pay back.",
+      "Long-term assets such as premises suit long-term finance, while a temporary build-up of stock suits short-term borrowing such as an overdraft.",
+      "Funding expansion from retained earnings avoids interest and loss of control, but growth is then limited to what profits allow."
+    ] },
+    { "h": "Technology that supports growth", "b": "Technology lets a business reach more customers, cut costs and make better decisions without the same investment in physical capacity.", "points": [
+      "E-commerce and online marketplaces let a small firm sell to national or international customers quickly.",
+      "Automation, such as robotic production or automated stock management, raises output without matching increases in labour.",
+      "Cloud computing lets a firm rent computing power and software as needed, so it can scale up without buying servers.",
+      "Data and AI tools help predict demand, personalise offers and spot trends faster than manual analysis.",
+      "Remote working widens the pool of workers a firm can hire and can reduce the need for office space."
+    ] },
+    { "h": "Risks of growing too fast", "b": "Rapid growth can break a business that has not built the systems to manage it.", "points": [
+      "Overtrading happens when sales grow faster than the working capital needed to fund them, so the firm runs short of cash despite healthy sales.",
+      "Quality can fall when production or service is stretched across more customers and new staff.",
+      "Management may be overstretched, with decisions made too slowly for a larger organisation.",
+      "Rapid growth funded by heavy borrowing increases fixed repayments and the risk of default.",
+      "Growth can dilute the brand and culture the business was built on."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Diversification", "definition": "Spreading a business's risk by adding products or markets that do not all move together." },
+    { "term": "Organic growth", "definition": "Expansion funded and managed from within the business's own resources." },
+    { "term": "Inorganic growth", "definition": "Expansion through combining with or buying other businesses." },
+    { "term": "Franchising", "definition": "Licensing a business model, brand and system to independent operators who pay fees and royalties." },
+    { "term": "Merger", "definition": "The combination of two firms into one new business." },
+    { "term": "Takeover", "definition": "One firm buying control of another firm, usually by acquiring a majority of its shares." },
+    { "term": "Strategic alliance", "definition": "A cooperative agreement between independent firms to share resources or markets without merging." },
+    { "term": "Joint venture", "definition": "A new, separate business jointly owned and run by two or more firms, which share its costs and profits." },
+    { "term": "Overtrading", "definition": "Growing sales faster than the working capital available to fund them, which leads to a cash shortage." },
+    { "term": "Cloud computing", "definition": "Renting computing power, storage and software over the internet instead of owning them." }
+  ],
+  "factCards": [
+    { "term": "Four reasons to expand", "definition": "Economies of scale, market share, diversification of risk and survival." },
+    { "term": "Five technologies that support growth", "definition": "E-commerce and marketplaces, automation, cloud, data and AI, and remote working." },
+    { "term": "Main drawback of buying another firm outright", "definition": "It often needs a premium over market value and carries integration risk." },
+    { "term": "Main advantage of sharing a new business with a partner", "definition": "Shared risk and access to the partner's expertise." },
+    { "term": "Early warning sign of a cash squeeze after rapid growth", "definition": "Sales rising quickly while cash falls and short-term borrowing climbs." },
+    { "term": "Main risk of licensing your brand to outlets", "definition": "The franchisor loses direct control over quality and service." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A family-owned Irish furniture manufacturer wants to grow. Compare two organic and two inorganic strategies it could use, and recommend one with justification.", "model": "Organic option one: a new product range, such as a children's line, built on existing manufacturing skills; it is low-cost and controlled but builds sales slowly. Organic option two: exporting to the UK using existing production; it opens a larger market but adds transport costs and currency risk. Inorganic option one: a takeover of a smaller furniture maker, which gives instant market access and staff but needs finance, a premium price and integration effort. Inorganic option two: a joint venture with a retailer to sell in a new region, which shares risk and brings retail expertise but requires agreement on control. Recommendation: launch the new range first, because it builds on current skills at low risk, and move to exporting once cash flow allows." },
+    { "marks": 10, "prompt": "Explain how cloud computing and automation can support a small business's growth, giving one benefit of each.", "model": "Cloud computing lets the business rent software and computing power as needed, so it can handle more orders or customers without buying servers; the benefit is a lower upfront investment. Automation, such as automated stock management, raises output or speeds processing without matching increases in staff; the benefit is a lower labour cost per unit as volume grows." }
+  ]
+}

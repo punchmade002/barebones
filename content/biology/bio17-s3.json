@@ -1,0 +1,163 @@
+{
+  "loId": "bio17-s3",
+  "chapterId": "bio17",
+  "subsection": "Mutations",
+  "syllabusRef": "2.3.6",
+  "notes": [
+    {
+      "h": "What a mutation is (Higher Level only)",
+      "points": [
+        "A mutation is a permanent change in the DNA: in the base sequence of a gene, called a point or gene mutation, or in the structure of a chromosome, called a chromosomal mutation.",
+        "A mutation that changes a gene produces a new allele.",
+        "Mutations arise spontaneously, mainly as uncorrected errors in base pairing during DNA replication (see “Modelling DNA replication and information flow”).",
+        "Mutagens increase the rate of mutation: ionising radiation (X-rays, gamma rays, radioactive substances) and ultraviolet light; chemicals such as those in tobacco smoke; and some viruses (detail in “Causes, prevention and treatment of cancer”).",
+        "Repair enzymes correct most damage.",
+        "Body-cell (somatic) mutations affect only the individual and the cells descended from the mutated cell, and are not inherited; they can lead to cancer (see “Cancer”).",
+        "Mutations in cells that form gametes (germ-line mutations) can be passed to offspring and are present in every cell of the child.",
+        "Most mutations are neutral, in non-coding DNA or silent; many are harmful, changing or stopping a protein; a few are beneficial in a particular environment, for example lactase persistence (described in “Variation”).",
+        "Mutations giving antibiotic resistance help bacteria survive antibiotics.",
+        "Mutation is the only source of new alleles, and so the ultimate source of variation for natural selection (see “Variation”)."
+      ]
+    },
+    {
+      "h": "Point mutations: how they occur and what they do (Higher Level only)",
+      "points": [
+        "A point mutation is a change in the nucleotide sequence at one point in a gene, usually of one or a few base pairs.",
+        "It occurs when a wrong nucleotide pairs during replication and is not corrected, or when a nucleotide is added or missed out.",
+        "At the next replication the change is copied into both strands and becomes permanent.",
+        "Substitution: one base is replaced by another, so only one codon changes.",
+        "Silent substitution: the new codon codes for the same amino acid, because the code is degenerate (see “The genetic code”), so the protein is unchanged.",
+        "Missense substitution: the new codon codes for a different amino acid, which may or may not change the protein's shape and function.",
+        "Nonsense substitution: the codon becomes a stop codon, so the polypeptide is cut short and usually does not work.",
+        "Insertion or deletion of one base, or of any number of bases that is not a multiple of three, is a frameshift: every codon after the change is read differently, because the code is read in threes without gaps from the start codon.",
+        "After a frameshift many amino acids are wrong, and a stop codon often appears early or is lost, so the protein usually does not work.",
+        "A frameshift near the start of a gene is more damaging than one near the end.",
+        "Insertion or deletion of three bases adds or removes one amino acid without a frameshift; the rest of the protein is normal, but even one missing amino acid can change the folding (see the cystic fibrosis example below)."
+      ]
+    },
+    {
+      "h": "Worked model: how point mutations change the amino-acid sequence (Higher Level only)",
+      "points": [
+        "Using a codon table, normal mRNA AUG UUU GGC AAA UAA codes for methionine, phenylalanine, glycine and lysine, then stops.",
+        "Substitution, silent: GGC changed to GGA; still glycine, so the protein is unchanged.",
+        "Substitution, missense: UUU changed to UCU; serine instead of phenylalanine.",
+        "Substitution, nonsense: AAA changed to UAA, a stop codon; the chain ends after glycine.",
+        "Insertion of G after AUG: AUG GUU UGG CAA AUA A… gives methionine, valine, tryptophan, glutamine, isoleucine…; every amino acid after the start is changed and the original stop codon is lost from the reading frame.",
+        "Deletion of the first U of UUU: AUG UUG GCA AAU AA… gives methionine, leucine, alanine, asparagine…; this is a frameshift.",
+        "Deletion of the whole codon UUU: AUG GGC AAA UAA gives methionine, glycine, lysine; one amino acid is missing and the rest is unchanged.",
+        "Word analogy for revision: THE CAT ATE THE RAT; substitution THE CAT ATE THE HAT changes one word; insertion THE CXA TAT ETH ERA T gives nonsense words after the change; deletion THE ATA TET HER AT shifts every word after it."
+      ]
+    },
+    {
+      "h": "Known examples of point mutations (Higher Level only)",
+      "points": [
+        "Sickle-cell anaemia is a substitution in the gene for beta-globin, one of the polypeptides of haemoglobin, on chromosome 11.",
+        "One base change alters the codon for the sixth amino acid from GAG to GUG in mRNA (CTC to CAC in the DNA strand being read), so valine replaces glutamic acid.",
+        "The changed haemoglobin, haemoglobin S, molecules stick together into long fibres when oxygen is low, distorting red blood cells into a rigid sickle shape.",
+        "Sickled cells block small blood vessels, causing pain and organ damage, and are destroyed quickly, causing anaemia.",
+        "Sickle-cell is recessive: people with two copies have the disease; people with one copy (sickle-cell trait) are usually healthy and are more resistant to malaria.",
+        "The sickle-cell allele is common in parts of Africa where malaria is common, an example of natural selection.",
+        "Cystic fibrosis is caused by mutations in the CFTR gene on chromosome 7, which codes for a chloride-ion channel protein in cell membranes.",
+        "The most common cystic fibrosis mutation, F508del (delta F508), is a deletion of three bases, which removes one amino acid, phenylalanine, at position 508 of the protein.",
+        "The faulty protein folds wrongly, is broken down by the cell and does not reach the membrane, giving thick, sticky mucus in the lungs and pancreas.",
+        "Cystic fibrosis is recessive, and Ireland has the highest rate of cystic fibrosis in the world.",
+        "Newer CFTR modulator drugs help the faulty protein fold and work, which shows how knowing the mutation leads to treatment.",
+        "Cystic fibrosis is one of the conditions tested for in the newborn heel-prick screening offered to every baby in Ireland (see “Prenatal and postnatal care”)."
+      ]
+    },
+    {
+      "h": "Chromosomal mutations: how they occur (Higher Level only)",
+      "points": [
+        "A chromosomal mutation is a change in the structure of one or more chromosomes that affects many genes at once.",
+        "It occurs when chromosomes break, for example from ionising radiation or chemicals, or from errors when chromosomes are copied or separated in meiosis, and the broken pieces are lost or rejoin in the wrong place.",
+        "Large changes can be seen under the light microscope in a karyotype.",
+        "Model: write a chromosome as A B C • D E F G H, where the letters are genes or groups of genes and • is the centromere; a different, non-homologous chromosome is M N O • P Q R.",
+        "Deletion: a section breaks off and is lost, so its genes are missing: A B C • D E F G H becomes A B C • D E H, with F and G lost.",
+        "Deletion is usually harmful, because a whole set of genes is missing.",
+        "Duplication: a section is copied twice, so its genes are repeated: A B C • D E F G H becomes A B C • D E F E F G H.",
+        "Extra copies can upset the balance of gene products; over evolutionary time, duplicated genes can mutate to take on new functions.",
+        "Inversion: a section breaks out, turns through 180 degrees and rejoins, so its genes are in reverse order: A B C • D E F G H becomes A B C • D G F E H.",
+        "No genes are lost, so an inversion often has no effect on the person, unless a break falls inside a gene; it can cause problems in meiosis, leading to gametes with missing or extra genes.",
+        "Translocation: a section of one chromosome breaks off and joins a different, non-homologous chromosome; in a reciprocal translocation two chromosomes swap sections.",
+        "In a reciprocal translocation, A B C • D E F G H and M N O • P Q R become A B C • D E F Q R and M N O • P G H.",
+        "If no genes are lost the person may be healthy, but a break can join two genes into a new hybrid (fusion) gene, and carriers can produce gametes with unbalanced sets of genes.",
+        "Diagram: each of the four mutations drawn as a chromosome with lettered bands and a centromere, before and after, with the translocation shown between two chromosomes of different sizes."
+      ]
+    },
+    {
+      "h": "Known examples of chromosomal mutations (Higher Level only)",
+      "points": [
+        "Deletion: cri du chat syndrome (French for “cry of the cat”) is caused by deletion of part of the short arm of chromosome 5.",
+        "Babies with cri du chat have a high-pitched cry like a cat's, a small head and low birth weight, and later intellectual disability and delayed development.",
+        "Duplication: Charcot–Marie–Tooth disease type 1A is caused by duplication of a small section of chromosome 17 containing the PMP22 gene.",
+        "The extra copy disrupts the insulating myelin sheath of nerves in the limbs, causing gradual weakness of the muscles of the feet and lower legs.",
+        "Inversion: an inversion within the gene for blood-clotting factor VIII on the X chromosome breaks the gene and causes nearly half of all cases of severe haemophilia A (haemophilia as a sex-linked trait is in “Sex-linked traits”).",
+        "A common inversion in chromosome 9 usually has no effect, because no genes are broken.",
+        "Translocation: the Philadelphia chromosome in chronic myeloid leukaemia (CML), a cancer of white blood cells.",
+        "A reciprocal translocation between chromosomes 9 and 22, in a bone-marrow stem cell, joins part of the ABL gene from chromosome 9 to the BCR gene on chromosome 22.",
+        "This forms a BCR-ABL fusion gene on a shortened chromosome 22, the Philadelphia chromosome.",
+        "The fusion gene codes for an enzyme that is permanently switched on and drives the cell to divide uncontrollably (an oncogene; see “Cancer”).",
+        "CML is caused by a somatic mutation and is not inherited.",
+        "The Philadelphia chromosome was discovered in Philadelphia, USA, in 1960 by Peter Nowell and David Hungerford; Janet Rowley showed in 1973 that it arises by translocation.",
+        "The drug imatinib, which blocks the BCR-ABL enzyme, is described in “Causes, prevention and treatment of cancer”."
+      ]
+    },
+    {
+      "h": "Changes in chromosome number (Higher Level only)",
+      "points": [
+        "Some conditions are caused by a change in the number of chromosomes, not in their structure, so they are not deletion, duplication, inversion or translocation.",
+        "They usually result from non-disjunction: a homologous pair, or two copies of a chromosome, fails to separate during meiosis, so a gamete has one chromosome too many or too few.",
+        "Down syndrome: in about 95% of cases there are three copies of chromosome 21 (trisomy 21), giving 47 chromosomes, after non-disjunction, usually during egg formation.",
+        "The risk of Down syndrome rises with the mother's age.",
+        "Features of Down syndrome include a characteristic facial appearance, some degree of intellectual disability and a higher risk of heart defects.",
+        "A few per cent of Down syndrome cases are caused instead by a translocation that attaches extra chromosome-21 material to another chromosome; only those cases involve a structural change.",
+        "Turner syndrome is a change in number with 45 chromosomes, X: one X and no second sex chromosome, female.",
+        "Klinefelter syndrome is a change in number with 47 chromosomes, XXY, male.",
+        "A karyotype is a photograph of a cell's chromosomes, taken during mitosis when they are condensed, and arranged in homologous pairs by size and shape.",
+        "A karyotype shows changes in number (for example three chromosome 21s) and large structural changes (for example the shortened chromosome 22)."
+      ]
+    },
+    {
+      "h": "Point and chromosomal mutations compared (Higher Level only)",
+      "points": [
+        "Scale: a point mutation changes one or a few bases in one gene; a chromosomal mutation changes the arrangement or number of copies of a large section with many genes.",
+        "How they arise: point mutations mainly from mispairing during replication; chromosomal mutations from breakage and wrong rejoining of chromosomes, often during meiosis.",
+        "Detection: point mutations need DNA sequencing (see “DNA sequencing”); large chromosomal mutations can be seen in a karyotype under the light microscope.",
+        "Examples: sickle-cell anaemia (substitution) and cystic fibrosis (three-base deletion); cri du chat (deletion), Charcot–Marie–Tooth type 1A (duplication), severe haemophilia A (inversion), and the Philadelphia chromosome in CML (translocation)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Point mutation", "definition": "A change in the nucleotide sequence at one point in a gene, usually of one or a few base pairs." },
+    { "term": "Substitution", "definition": "A point mutation in which one base is replaced by another, so only one codon changes." },
+    { "term": "Frameshift", "definition": "A change in the reading of every codon after an insertion or deletion of one base, or of a number of bases that is not a multiple of three." },
+    { "term": "Silent mutation", "definition": "A substitution in which the new codon codes for the same amino acid, so the protein is unchanged." },
+    { "term": "Missense mutation", "definition": "A substitution in which the new codon codes for a different amino acid." },
+    { "term": "Nonsense mutation", "definition": "A substitution in which the codon becomes a stop codon, so the polypeptide is cut short." },
+    { "term": "Chromosomal mutation", "definition": "A change in the structure of one or more chromosomes that affects many genes at once." },
+    { "term": "Translocation", "definition": "A chromosomal mutation in which a section of one chromosome joins a different, non-homologous chromosome." },
+    { "term": "Somatic mutation", "definition": "A mutation in a body cell, which affects only that individual and is not inherited." },
+    { "term": "Germ-line mutation", "definition": "A mutation in a cell that forms gametes, which can be passed to offspring." },
+    { "term": "Mutagen", "definition": "An agent, such as ionising radiation, ultraviolet light or a chemical, that increases the rate of mutation." },
+    { "term": "Non-disjunction", "definition": "The failure of a homologous pair, or of two copies of a chromosome, to separate during meiosis." },
+    { "term": "Karyotype", "definition": "A photograph of a cell's chromosomes, arranged in homologous pairs, used to show changes in number and large structural changes." },
+    { "term": "Philadelphia chromosome", "definition": "The shortened chromosome 22 formed by a reciprocal translocation with chromosome 9, which carries the BCR-ABL fusion gene in chronic myeloid leukaemia." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between a substitution and a deletion point mutation, and explain why a single-base deletion usually has a greater effect on the protein.",
+      "model": "A substitution replaces one base with another, so only one codon changes. Its effect may be silent, with the same amino acid and no change to the protein, missense, with one different amino acid, or nonsense, with a stop codon that cuts the chain short. A deletion removes a base, so every codon after the deletion is read in a different frame. This frameshift changes many amino acids and often creates an early stop codon, so the protein usually does not work. For example, with normal mRNA AUG UUU GGC AAA UAA, deleting the first U of UUU gives AUG UUG GCA AAU AA…, which codes for methionine, leucine, alanine and asparagine instead of methionine, phenylalanine, glycine, lysine and then stop."
+    },
+    {
+      "marks": 12,
+      "prompt": "Using lettered diagrams, show how deletion, duplication, inversion and translocation change a chromosome, and give a named example of a deletion and of a translocation.",
+      "model": "Take a chromosome written as A B C • D E F G H, where the letters are genes and • is the centromere. A deletion removes a section, giving A B C • D E H, with F and G lost. A duplication copies a section, giving A B C • D E F E F G H. An inversion turns a section through 180 degrees, giving A B C • D G F E H, so the genes are in reverse order and none are lost. A translocation moves a section to a different, non-homologous chromosome; in a reciprocal translocation with M N O • P Q R, the results are A B C • D E F Q R and M N O • P G H. A named deletion is cri du chat syndrome, caused by deletion of part of the short arm of chromosome 5. A named translocation is the Philadelphia chromosome in chronic myeloid leukaemia, a reciprocal translocation between chromosomes 9 and 22 that forms the BCR-ABL fusion gene on a shortened chromosome 22."
+    },
+    {
+      "marks": 9,
+      "prompt": "Sickle-cell anaemia and Down syndrome are both genetic conditions. Explain the type of change in the DNA or chromosomes that causes each, and explain why Down syndrome is not an example of one of the four types of chromosomal mutation.",
+      "model": "Sickle-cell anaemia is caused by a substitution point mutation in the beta-globin gene on chromosome 11. One base change alters the codon from GAG to GUG, so valine replaces glutamic acid in haemoglobin, and the altered haemoglobin forms fibres that distort red blood cells. Down syndrome is caused, in about 95% of cases, by three copies of chromosome 21 (trisomy 21). This is a change in the number of chromosomes, usually resulting from non-disjunction during meiosis. It is not one of the four types of chromosomal mutation (deletion, duplication, inversion or translocation), because no section of a chromosome is lost, repeated, reversed or moved; the chromosome has an extra copy. Only the small minority of cases caused by a translocation involve a structural change."
+    }
+  ]
+}

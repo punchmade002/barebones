@@ -1,0 +1,112 @@
+{
+  "loId": "bio11-s3",
+  "chapterId": "bio11",
+  "subsection": "Nuclear and non-nuclear inheritance",
+  "syllabusRef": "1.4.2",
+  "notes": [
+    {
+      "h": "Nuclear inheritance",
+      "b": "Nuclear inheritance is the transmission of the genes carried on the chromosomes in the nucleus.",
+      "points": [
+        "Nuclear inheritance is the inheritance of genes carried on the chromosomes in the nucleus. Nearly all of an organism's genes (in humans, about 20,000 protein-coding genes) are nuclear.",
+        "The DNA in the nucleus is copied before division.",
+        "Meiosis separates each homologous pair, so each gamete receives one chromosome of every pair, and therefore one allele of each gene.",
+        "At fertilisation the nuclei of a male and a female gamete fuse, so the zygote receives one set of chromosomes from each parent. Mitosis then passes the full set to every body cell.",
+        "Both parents contribute equally: the offspring inherits one allele of each autosomal gene from its mother and one from its father, so for nuclear genes it does not matter which parent carries an allele.",
+        "Reciprocal crosses give the same results: for example, a tall male crossed with a short female, and a short male crossed with a tall female. The exception is genes on the sex chromosomes (see “Sex-linked traits”).",
+        "Each gamete gets only one allele of each pair, chosen at random, so nuclear genes are inherited in the predictable ratios described by Mendel's laws (see “Monohybrid crosses” and “Mendel's Laws”).",
+        "New combinations of alleles arise in every generation (see “Variation”)."
+      ]
+    },
+    {
+      "h": "Non-nuclear inheritance (Higher Level only)",
+      "b": "Non-nuclear inheritance is the transmission of genes carried in DNA outside the nucleus, in mitochondria and chloroplasts.",
+      "points": [
+        "Non-nuclear (also called extranuclear or cytoplasmic) inheritance is the inheritance of genes carried in DNA outside the nucleus: in mitochondria, which are found in all eukaryotes, and in chloroplasts, which are found in plants and algae.",
+        "Each mitochondrion and chloroplast contains several copies of its own small, circular DNA molecule, not wound around histones, like the DNA of a bacterium. It also has its own small (70S) ribosomes.",
+        "A cell contains many such organelles, so it has hundreds to thousands of copies of the organelle DNA.",
+        "Organelle genes code for some of the proteins the organelle needs: for mitochondria, some proteins of aerobic respiration; for chloroplasts, some proteins of photosynthesis. They also code for the organelle's own rRNA and tRNA.",
+        "Most proteins in these organelles are coded by nuclear genes and imported, so the organelle depends on both genomes.",
+        "Mitochondria and chloroplasts are thought to be descended from bacteria that came to live inside an ancestral cell. Evidence includes their circular DNA, 70S ribosomes, double membrane and division by splitting in two.",
+        "New mitochondria and chloroplasts come only from the division of existing ones; the cell does not make them from scratch.",
+        "Organelles lie in the cytoplasm and are shared out between daughter cells at random when the cytoplasm divides, not by the spindle as chromosomes are. Their genes therefore do not segregate in meiosis and do not follow Mendel's laws or Mendelian ratios.",
+        "In humans and most animals, the egg contributes nearly all the cytoplasm of the zygote, including its mitochondria. The sperm contributes almost only its nucleus; the few sperm mitochondria, in its midpiece, that enter the egg are destroyed.",
+        "So mitochondrial genes are inherited from the mother only. In most flowering plants, chloroplasts (and mitochondria) are likewise inherited through the egg cell, from the female parent.",
+        "All the offspring of a mother share her mitochondrial DNA, whatever the father.",
+        "Reciprocal crosses give different results, with the offspring resembling the female parent for the trait.",
+        "Mitochondrial DNA does not mix between two parents, so it changes only by mutation and passes down the female line almost unchanged.",
+        "In 1909 Carl Correns studied the four-o'clock plant (Mirabilis jalapa), with branches bearing green, white or variegated (green-and-white) leaves; the white areas lack working chloroplasts.",
+        "Seeds from flowers on green branches gave green seedlings, and seeds from flowers on white branches gave white seedlings, which soon died. Seeds from variegated branches gave a mixture, whatever branch the pollen came from.",
+        "The offspring took the leaf type of the female parent: leaf colour was inherited through the chloroplasts in the egg's cytoplasm, one of the first demonstrations of non-nuclear inheritance."
+      ]
+    },
+    {
+      "h": "Mitochondrial inheritance in humans (Higher Level only)",
+      "points": [
+        "Human mitochondrial DNA is about 16,600 base pairs long and carries 37 genes, compared with about 20,000 protein-coding genes on nuclear chromosomes of up to hundreds of millions of base pairs each.",
+        "Mutations in mitochondrial DNA can cause diseases that mostly affect tissues with high energy demands, such as muscle, nerves, brain and eyes, because they reduce aerobic respiration.",
+        "Example: Leber's hereditary optic neuropathy (LHON), which causes loss of central vision, usually in young adults.",
+        "An affected mother can pass a mitochondrial disease to all her children, sons and daughters; an affected father passes it to none.",
+        "Severity varies: a cell may contain a mixture of normal and mutant mitochondria, and the proportion passed to each egg varies, so children of the same mother can be affected to different degrees.",
+        "Mitochondrial donation (“three-parent IVF”) replaces a mother's faulty mitochondria with healthy mitochondria from a donor egg, keeping the nuclear DNA of both parents.",
+        "In 2015 the UK became the first country to allow mitochondrial donation by law. The child's nuclear DNA comes from its two parents and its small amount of mitochondrial DNA from the donor. Its ethics are covered in “Ethics of genetic technologies”.",
+        "Because mitochondrial DNA passes down the female line without mixing and changes only by mutation, it is used to trace maternal ancestry and human migration and evolution.",
+        "It is also used to identify remains when nuclear DNA is too damaged, since there are many copies per cell and it survives better."
+      ]
+    },
+    {
+      "h": "Nuclear and non-nuclear inheritance compared (Higher Level only)",
+      "points": [
+        "Location: nuclear DNA is in chromosomes in the nucleus; non-nuclear DNA is in mitochondria and chloroplasts in the cytoplasm.",
+        "Form: nuclear DNA is long, linear molecules wound around histones; non-nuclear DNA is small, circular molecules without histones.",
+        "Amount: most of the genes are nuclear (about 20,000 protein-coding genes in humans); few are non-nuclear (37 in human mitochondria), coding mainly for the organelle's own proteins and RNA.",
+        "Copies: two copies of each autosomal gene in a diploid cell; hundreds to thousands of copies of organelle DNA per cell.",
+        "Parents contributing: both parents equally; usually the mother only (maternal inheritance).",
+        "Distribution to gametes and daughter cells: chromosomes are separated precisely by the spindle in meiosis and mitosis; organelles are shared out randomly when the cytoplasm divides.",
+        "Patterns: nuclear inheritance follows Mendel's laws with predictable ratios, and reciprocal crosses give the same results; non-nuclear inheritance gives no Mendelian ratios, and reciprocal crosses give different results.",
+        "Variation between generations: nuclear inheritance gives new combinations of alleles from both parents each generation; non-nuclear DNA does not mix, and changes only by mutation.",
+        "Similarity: both are DNA, using the same genetic code (with minor differences in mitochondria) and the same base pairing; both are copied before cell division; both can mutate and so cause inherited disease.",
+        "Diagram: a sperm and an egg fusing; the egg drawn large with many mitochondria in its cytoplasm and a nucleus, the sperm with a nucleus in its head and a few mitochondria in its midpiece; arrows show nuclear DNA from both parents and mitochondria from the egg only entering the zygote; label nucleus (nuclear DNA, from both parents) and mitochondria (mitochondrial DNA, from mother)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Nuclear inheritance",
+      "definition": "The inheritance of genes carried on the chromosomes in the nucleus, with one set of chromosomes from each parent."
+    },
+    {
+      "term": "Reciprocal cross",
+      "definition": "A pair of crosses in which the sex of the parent showing each trait is swapped, such as a tall male with a short female and a short male with a tall female."
+    },
+    {
+      "term": "Non-nuclear inheritance",
+      "definition": "The inheritance of genes carried in DNA outside the nucleus, in mitochondria and chloroplasts."
+    },
+    {
+      "term": "Mitochondrial DNA",
+      "definition": "The small, circular DNA of a mitochondrion; in humans about 16,600 base pairs carrying 37 genes."
+    },
+    {
+      "term": "Maternal inheritance",
+      "definition": "Inheritance from the mother only, as with mitochondrial genes, because the egg supplies the zygote's cytoplasm."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by nuclear inheritance.",
+      "model": "Nuclear inheritance is the inheritance of genes carried on the chromosomes in the nucleus, which are nearly all of an organism's genes (about 20,000 protein-coding genes in humans). Meiosis separates each homologous pair, so each gamete receives one chromosome of every pair. At fertilisation the nuclei of a male and a female gamete fuse, so the zygote receives one set of chromosomes from each parent. Both parents contribute equally, so the offspring inherits one allele of each autosomal gene from its mother and one from its father."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare nuclear inheritance with non-nuclear inheritance.",
+      "model": "Location: nuclear DNA is in chromosomes in the nucleus, whereas non-nuclear DNA is in mitochondria and chloroplasts in the cytoplasm. Form: nuclear DNA is long and linear, wound around histones; organelle DNA is small and circular, without histones. Parents: in nuclear inheritance both parents contribute equally, whereas in non-nuclear inheritance usually only the mother contributes. Patterns: nuclear genes follow Mendel's laws with predictable ratios, and reciprocal crosses give the same results; organelle genes give no Mendelian ratios, and reciprocal crosses give different results, with the offspring resembling the mother. Similarity: both are DNA with the same base pairing, both are copied before cell division, and both can mutate and so cause inherited disease."
+    },
+    {
+      "marks": 9,
+      "prompt": "A woman has a disease caused by a mutation in her mitochondrial DNA. Explain which of her children could inherit it, and why the children of an affected man would not.",
+      "model": "All of her children, both sons and daughters, can inherit the disease. In fertilisation the egg supplies nearly all the cytoplasm of the zygote, including its mitochondria, while the sperm contributes almost only its nucleus; the few sperm mitochondria that enter the egg are destroyed. Her children may be affected to different degrees, because the proportion of mutant mitochondria passed to each egg varies. The children of an affected man would not inherit the disease, because an affected father passes a mitochondrial disease to none of his children: his mitochondria are not passed on."
+    }
+  ]
+}

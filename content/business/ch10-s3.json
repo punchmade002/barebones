@@ -1,0 +1,73 @@
+{
+  "loId": "ch10-s3",
+  "chapterId": "ch10",
+  "subsection": "3. Sources of finance across the lifecycle: short, medium and long term",
+  "syllabusRef": "2.5.2",
+  "notes": [
+    { "h": "Short-term finance", "b": "Short-term finance covers day-to-day needs and is normally repaid within a year.", "points": [
+      "A bank overdraft lets a current account go below zero up to an agreed limit, with interest charged only on the amount used.",
+      "The bank can usually ask for an overdraft to be repaid at short notice, so it is a flexible but less secure source.",
+      "Trade credit lets a business pay a supplier after receiving goods, which is free within the agreed period but late payment can damage the relationship and bring charges.",
+      "Accrued expenses are costs such as wages or electricity that are incurred now and paid later, so they give free short-term finance.",
+      "Factoring means selling unpaid customer invoices to a factor for immediate cash, minus a fee, and the factor usually collects the debts.",
+      "Invoice discounting works like factoring, but the business keeps responsibility for collecting from its customers.",
+      "A credit card gives short-term borrowing, but interest on unpaid balances is often high, so it suits small or temporary needs."
+    ] },
+    { "h": "Medium-term finance", "b": "Medium-term finance pays for assets that last a few years, such as vehicles or equipment.", "points": [
+      "A term loan is borrowed for a fixed period, usually from a bank, and repaid in regular instalments of capital and interest.",
+      "Term loans are often secured on business assets, so the lender can take them if repayments are missed.",
+      "Leasing lets a business use an asset, such as a van or machine, by paying regular rentals, and the business does not own the asset.",
+      "Leasing preserves cash for other uses, but total payments can exceed the cost of buying the asset outright.",
+      "Hire purchase is similar to leasing, but the business pays a deposit and instalments and owns the asset once the final payment is made."
+    ] },
+    { "h": "Long-term equity", "b": "Equity is money put into the business by owners or shareholders. It does not have to be repaid, but the providers share control and profit.", "points": [
+      "Owner's equity is capital the owner puts into the business from savings or personal assets.",
+      "Share capital is money raised by issuing shares, so investors become part-owners and may receive dividends.",
+      "Venture capital is equity from specialist investment firms that back high-growth businesses and usually expect a large return and a say in decisions.",
+      "Business angels are wealthy individuals who invest their own money in early-stage businesses, often giving advice as well.",
+      "Retained earnings are profits kept in the business rather than paid out, so they carry no interest and no loss of control."
+    ] },
+    { "h": "Long-term debt and other sources", "b": "Long-term debt is borrowed over several years, while grants and crowdfunding do not add repayment obligations on the same terms.", "points": [
+      "Long-term loans are borrowed over several years and are usually used to fund premises or major expansion.",
+      "Debentures are long-term loans secured on the business's assets, with fixed interest paid to the holders.",
+      "Grants are funds from state agencies or other bodies that do not need to be repaid, but they usually come with conditions; state schemes are covered elsewhere in this course.",
+      "Crowdfunding raises small amounts from many people, either in return for a reward or in exchange for a share of the business."
+    ] },
+    { "h": "Choosing a source", "b": "The best source depends on what the money is for and how much control the owners are willing to give up.", "points": [
+      "Match the term of finance to the purpose: short-term finance for working capital, long-term finance for fixed assets.",
+      "Debt keeps ownership intact, but the fixed interest and repayments are a cash outflow the business must meet even in a weak year.",
+      "Equity brings no obligation to repay or pay interest, but it dilutes ownership and profit for existing owners.",
+      "Start-ups without assets or a trading record often struggle to get bank lending, which pushes them towards equity, grants or crowdfunding.",
+      "Owners weigh cost, control and risk together, so the cheapest source is not always the best one for the business."
+    ] },
+    { "h": "How sources change over the lifecycle", "b": "A business uses different sources as it moves from start-up to growth to maturity.", "points": [
+      "At start-up a business relies on owner's savings, family and friends, micro-loans and grants, because outside investors see a high risk.",
+      "In the growth stage it needs larger sums for expansion, so it turns to venture capital, bank loans and share issues.",
+      "At maturity it can fund most needs from retained earnings and may raise long-term debt or issue shares for large projects.",
+      "A proven track record makes lenders more willing to lend, which reduces the perceived risk for both sides."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Bank overdraft", "definition": "An agreed facility that lets a current account go below zero up to a set limit, with interest charged only on the amount used." },
+    { "term": "Trade credit", "definition": "Delayed payment granted by a supplier, so that goods can be paid for after they have been received." },
+    { "term": "Factoring", "definition": "Selling unpaid customer invoices to a factor for immediate cash, minus a fee, with the factor usually collecting the debts." },
+    { "term": "Term loan", "definition": "A loan borrowed for a fixed period and repaid in regular instalments of capital and interest." },
+    { "term": "Hire purchase", "definition": "Paying a deposit and then instalments for an asset, and owning it only after the final payment." },
+    { "term": "Venture capital", "definition": "Equity finance from specialist investors who back high-growth businesses in return for a share and some influence." },
+    { "term": "Business angel", "definition": "A wealthy individual who invests personal money in an early-stage business, often also giving advice." },
+    { "term": "Retained earnings", "definition": "Profits kept in the business rather than paid out to owners." },
+    { "term": "Crowdfunding", "definition": "Raising small sums from a large number of people, usually online, in return for a reward or a share." }
+  ],
+  "factCards": [
+    { "term": "Five short-term sources", "definition": "Bank overdraft, trade credit, accrued expenses, factoring and credit card." },
+    { "term": "Long-term equity sources", "definition": "Owner's equity, share capital, venture capital, business angels and retained earnings." },
+    { "term": "Long-term debt sources", "definition": "Long-term loans and debentures." },
+    { "term": "Main advantage of leasing", "definition": "Preserves cash and gives use of an asset without a large upfront payment." },
+    { "term": "Sources a start-up typically relies on", "definition": "Owner's savings, family and friends, micro-loans and grants." },
+    { "term": "Sources a mature business typically relies on", "definition": "Retained earnings, share issues and long-term debt." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "A bakery owner needs €30,000 to buy a delivery van and is choosing between a term loan and leasing. Compare the two options and recommend one, giving reasons.", "model": "A term loan gives ownership of the van at the end, with fixed repayments of capital and interest. The loan is often secured on business assets, and the repayments must be met even in a quiet month. Leasing needs no large upfront sum and preserves cash for ingredients and wages, but the bakery never owns the van and total payments can exceed the purchase price. Recommendation: if the bakery has steady income and wants to own the van, a term loan is better; if cash is tight in the first year, leasing protects working capital and is the safer choice." },
+    { "marks": 10, "prompt": "Explain why a start-up is more likely to use owner's savings, grants and micro-loans than venture capital at the outset.", "model": "At start-up the business has no trading record and a high level of risk, so specialist venture capital investors, who expect high growth and a say in decisions, are unlikely to invest. Owner's savings are available without an outside investor's approval, and grants need no repayment. Micro-loans are small and suit a limited first plan without giving up any share of the business." }
+  ]
+}

@@ -16,8 +16,9 @@ figures from past papers. Each package section below prevents one of those failu
 ## Package format (copy `geography/geo-glaciation-s1.md`)
 
 1. **Must cover:** a checklist with an id for each item. Every syllabus point, plus anything
-   past exams ask. One bullet or block per item. This replaces the writer's guesswork about
-   scope.
+   past exams ask, plus the assumed knowledge those points rest on (mark these items
+   "(assumed)"; see `NOTES_STANDARD.md` rule 9). One bullet or block per item. This replaces
+   the writer's guesswork about scope.
 2. **Checked facts and examples:** the only named places, dates and figures the notes may use.
    Include only what you are sure of. Where you aren't sure, write "No checked example. Do not
    name one."

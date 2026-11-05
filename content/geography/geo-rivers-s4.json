@@ -227,6 +227,22 @@
       "definition": "The OPW's Catchment Flood Risk Assessment and Management programme."
     }
   ],
+  "factCards": [
+    { "term": "Shannon Scheme: how the water reaches Ardnacrusha", "definition": "Parteen Weir diverts most of the Shannon's water into a headrace canal to the power station at Ardnacrusha, near Limerick; a tailrace returns it to the river. Lough Derg acts as the reservoir." },
+    { "term": "Shannon Scheme: effects on the river and its fish", "definition": "The Old River Shannon between Parteen and Limerick now carries much less water. Salmon and eel stocks declined, so the ESB built a fish pass and traps silver eels and transports them past the dam." },
+    { "term": "Shannon Scheme: who built it and when", "definition": "Built 1925 to 1929 by the German firm Siemens for the Irish Free State; Ireland's first large hydro-electric station." },
+    { "term": "Name four other Irish hydro-electric dams and their rivers", "definition": "Poulaphouca on the Liffey (Blessington Lakes, Co. Wicklow); Inniscarra and Carrigadrohid on the Lee (Co. Cork); Cathaleen's Fall on the Erne at Ballyshannon, Co. Donegal." },
+    { "term": "Aswan High Dam: when completed, its reservoir, and four benefits", "definition": "Flood control; year-round irrigation, allowing more than one crop a year; hydro-electricity; protection from drought. Completed 1970; its reservoir, Lake Nasser, extends into Sudan." },
+    { "term": "Aswan High Dam: impacts on river processes", "definition": "Silt is trapped in Lake Nasser, so farmers downstream rely on artificial fertilisers; clear water scours the bed below the dam; the Nile delta coast is eroding, for example at the Rosetta promontory." },
+    { "term": "Aswan High Dam: impacts on people and land", "definition": "Waterlogging and salinisation of irrigated land; schistosomiasis (bilharzia) spread through irrigation canals; the delta sardine fishery declined; Nubian people were displaced and Abu Simbel's temples moved." },
+    { "term": "Three Gorges Dam: key facts", "definition": "On the Yangtze in Hubei, China; the world's largest power station by installed capacity; completed 2006, fully operational 2012; over one million people relocated; aims to cut downstream flood peaks like the 1998 Yangtze floods, which killed thousands." },
+    { "term": "Canalisation: why floods downstream get worse", "definition": "A straighter, shorter channel has a steeper gradient and less friction, so velocity rises and floodwater is passed downstream faster, giving higher flood peaks that arrive sooner." },
+    { "term": "Canalisation: one Irish and two international examples", "definition": "Irish arterial drainage by the OPW under the Arterial Drainage Act 1945 (Moy and Boyne schemes); Mississippi cut-offs by the US Army Corps of Engineers; the Upper Rhine straightened in the 19th century under Tulla." },
+    { "term": "Embankments and levees: effect on river processes", "definition": "Flow is confined to the channel, so deposition raises the bed and the banks must be raised again; the floodplain gets no silt; if a levee fails the flood is sudden and severe." },
+    { "term": "Cork flood, November 2009: what happened", "definition": "During very heavy rain the ESB released large volumes from the full Inniscarra dam on the Lee; University College Cork and the city water treatment works flooded and many homes lost their water supply." },
+    { "term": "Mississippi levee system: three floods to know", "definition": "The 1927 flood led to the federal levee and floodway system; the 1993 flood breached many levees on the upper Mississippi and Missouri; in August 2005 Hurricane Katrina caused levee and floodwall failures in New Orleans, and about 80% of the city flooded." },
+    { "term": "Room for the River (Netherlands): what it does", "definition": "Begun after near-disastrous high water on the Rhine and Maas in 1993 and 1995: dykes moved back, floodplains lowered and side channels dug so the river can spread out safely." }
+  ],
   "questions": [
     {
       "marks": 30,

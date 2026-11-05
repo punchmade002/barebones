@@ -1,0 +1,118 @@
+{
+  "loId": "bio5-s1",
+  "chapterId": "bio5",
+  "subsection": "Characteristics of living things",
+  "syllabusRef": "1.1.1",
+  "notes": [
+    {
+      "h": "What makes something alive",
+      "b": "Biology is the study of living things (organisms). The specification lists eleven characteristics that together distinguish living from non-living things.",
+      "points": [
+        "An organism shows all eleven characteristics at some stage of its life, though not necessarily all at once: a dormant seed or a hibernating animal shows very little response or growth, but is still alive.",
+        "Some non-living things show one or two characteristics. A crystal grows, but only by adding material to its outside, not by making new material inside cells.",
+        "A fire “uses oxygen”, “releases energy” and “spreads”, but it has no cells, no heredity and no control of its reactions.",
+        "Something is alive only if it shows the full set. Viruses are the main borderline case (see “Viruses”)."
+      ]
+    },
+    {
+      "h": "Organisation and the cell",
+      "points": [
+        "Organisation: living things have a highly ordered structure. In multicellular organisms, cells are grouped into tissues, tissues into organs and organs into organ systems, each level carrying out particular jobs. Even a single cell has organised parts (organelles). The levels are described in “Levels of organisation”.",
+        "Cellular basis: all living things are made of one or more cells. The cell is the smallest unit that can carry out all the processes of life, so it is the basic unit of structure and function.",
+        "Unicellular organisms (e.g. bacteria, yeast, Amoeba) are one cell that carries out every life process. Multicellular organisms (e.g. humans, oak trees) have many specialised cells.",
+        "All cells share a cell membrane, cytoplasm, ribosomes and DNA as their genetic material. This shared basis is evidence that all life has a common origin.",
+        "The cell theory was developed in the 19th century. Matthias Schleiden concluded that all plants are made of cells (1838); Theodor Schwann extended this to animals (1839); Rudolf Virchow stated that all cells come from pre-existing cells (1855).",
+        "All cells arise only from pre-existing cells, by cell division."
+      ]
+    },
+    {
+      "h": "Nutrition, respiration and metabolism",
+      "points": [
+        "Nutrition: the way an organism obtains food, which supplies the energy and the raw materials (e.g. carbon, nitrogen, minerals) it needs.",
+        "Autotrophic nutrition: the organism makes its own food from simple inorganic substances. Photosynthetic autotrophs (plants, algae, some bacteria) use light energy to make glucose from carbon dioxide and water. A few bacteria are chemosynthetic, using energy from chemical reactions instead of light.",
+        "Heterotrophic nutrition: the organism takes in ready-made food made by other organisms, e.g. animals eat plants or other animals. Fungi and many bacteria absorb food from dead matter (saprophytes) or from a living host (parasites); detail is in “Microorganisms”.",
+        "Respiration: the controlled release of energy from food, mainly glucose, inside every living cell. The energy is trapped in ATP, which powers the cell’s activities.",
+        "Aerobic respiration uses oxygen: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. It releases much more energy per glucose than anaerobic respiration.",
+        "Anaerobic respiration happens without oxygen and releases less energy. In human muscle it produces lactic acid; in yeast and plant cells it produces ethanol and carbon dioxide.",
+        "Respiration is not the same as breathing. Breathing is the movement of air into and out of the lungs (gas exchange); respiration is a chemical process in cells. Plants respire all the time, day and night. The stages are in “Respiration”.",
+        "Metabolism: the sum of all the chemical reactions in an organism. Every reaction is controlled by an enzyme.",
+        "Anabolic reactions build large molecules from smaller ones and need energy, e.g. photosynthesis (glucose made from carbon dioxide and water) and protein synthesis from amino acids.",
+        "Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration, and the digestion of starch to maltose. The roles of biomolecules in these reactions are in “Biomolecules — The Chemicals of Life”."
+      ]
+    },
+    {
+      "h": "Excretion and homeostasis",
+      "points": [
+        "Excretion: the removal of the waste products of metabolism, which are substances made in cells that are harmful or not needed. If they built up they would poison cells or upset conditions such as pH.",
+        "Human examples: carbon dioxide from respiration is excreted by the lungs; urea, made in the liver from excess amino acids, is excreted by the kidneys in urine; excess water and salts are excreted by the kidneys and in sweat.",
+        "Plant examples: oxygen from photosynthesis and carbon dioxide from respiration diffuse out through the stomata. Some waste is stored in old leaves and lost when they fall.",
+        "Excretion is not egestion. Egestion is the removal of undigested food (faeces), which was never inside body cells and so is not a product of metabolism.",
+        "Homeostasis: the maintenance of a relatively constant internal environment, such as body temperature, blood glucose concentration, water and salt balance and pH, despite changes outside or inside the organism.",
+        "It matters because enzymes work only within narrow ranges of temperature and pH. Human core body temperature is kept at about 37 °C, and insulin lowers blood glucose after a meal. The mechanism (negative feedback) is in “Homeostasis”."
+      ]
+    },
+    {
+      "h": "Response, reproduction, growth and heredity",
+      "points": [
+        "Response: the ability to detect a change in the internal or external environment (a stimulus) and react to it, which helps the organism survive.",
+        "Animals respond quickly through the nervous system (e.g. pulling a hand away from a hot object) and more slowly with hormones. Plants respond more slowly, mainly through chemicals and their structure, e.g. guard cells close the stomata when water is short. Detail is in “Structures and systems for response”.",
+        "Reproduction: the production of new individuals of the same species. Every organism eventually dies, so reproduction is needed for the species to continue.",
+        "Asexual reproduction: one parent and no gametes. The offspring are genetically identical to the parent (clones), e.g. binary fission in bacteria and budding in yeast.",
+        "Sexual reproduction: two gametes (sex cells) fuse at fertilisation to form a zygote. The offspring are genetically different from the parents and from each other, which gives variation, e.g. humans and flowering plants.",
+        "Growth: a permanent increase in size and mass. It happens from within, by making new materials (anabolism), by cell division (mitosis) increasing the number of cells, and by cells enlarging and becoming specialised.",
+        "Plants keep growing throughout life at regions of dividing cells at the root and shoot tips. Most animals grow to a fixed adult size.",
+        "Heredity: the passing of genetic information, carried by genes made of DNA, from parents to offspring, so offspring inherit their parents’ characteristics. “Like produces like”, e.g. a cat’s offspring are always kittens.",
+        "Genes code for proteins, which control an organism’s traits. Variation arises from sexual reproduction and from mutations (changes in DNA). Detail is in “Genetic Inheritance”."
+      ]
+    },
+    {
+      "h": "Summary of the eleven characteristics",
+      "points": [
+        "Organisation: highly ordered structure, from cells up to organ systems.",
+        "Response: detecting a stimulus and reacting to it.",
+        "Respiration: releasing energy from food inside cells.",
+        "Nutrition: obtaining food for energy and raw materials.",
+        "Excretion: removing the waste products of metabolism.",
+        "Reproduction: producing new individuals of the same species.",
+        "Growth: a permanent increase in size and mass.",
+        "Metabolism: all the chemical reactions in an organism.",
+        "Homeostasis: keeping the internal environment relatively constant.",
+        "Heredity: passing genetic information from parents to offspring.",
+        "Cellular basis: made of cells, which arise only from pre-existing cells."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Organism", "definition": "An individual living thing." },
+    { "term": "Metabolism", "definition": "The sum of all the chemical reactions in an organism, each controlled by an enzyme." },
+    { "term": "Autotrophic nutrition", "definition": "Making its own food from simple inorganic substances." },
+    { "term": "Heterotrophic nutrition", "definition": "Taking in ready-made food made by other organisms." },
+    { "term": "Anabolic reaction", "definition": "A reaction that builds large molecules from smaller ones and needs energy." },
+    { "term": "Catabolic reaction", "definition": "A reaction that breaks large molecules into smaller ones and releases energy." },
+    { "term": "Aerobic respiration", "definition": "Release of energy from glucose using oxygen, producing carbon dioxide and water." },
+    { "term": "Anaerobic respiration", "definition": "Release of less energy from glucose without oxygen, producing lactic acid in human muscle or ethanol and carbon dioxide in yeast and plants." },
+    { "term": "Excretion", "definition": "The removal of the waste products of metabolism." },
+    { "term": "Egestion", "definition": "The removal of undigested food (faeces), which was never inside body cells." },
+    { "term": "Homeostasis", "definition": "The maintenance of a relatively constant internal environment despite changes inside or outside the organism." },
+    { "term": "Stimulus", "definition": "A change in the internal or external environment that an organism can detect." },
+    { "term": "Clone", "definition": "An offspring genetically identical to its parent, produced by asexual reproduction." },
+    { "term": "Heredity", "definition": "The passing of genetic information from parents to offspring." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by each of the following characteristics of living things: (i) metabolism, (ii) excretion, (iii) heredity.",
+      "model": "(i) Metabolism is the sum of all the chemical reactions in an organism, and every reaction is controlled by an enzyme. Anabolic reactions build large molecules and need energy, e.g. photosynthesis makes glucose from carbon dioxide and water; catabolic reactions break molecules down and release energy, e.g. respiration. (ii) Excretion is the removal of the waste products of metabolism, which would poison cells or upset conditions such as pH if they built up. For example, urea, made in the liver from excess amino acids, is excreted by the kidneys in urine. (iii) Heredity is the passing of genetic information, carried by genes made of DNA, from parents to offspring, so that offspring inherit their parents’ characteristics."
+    },
+    {
+      "marks": 9,
+      "prompt": "Distinguish between (i) autotrophic and heterotrophic nutrition, (ii) respiration and breathing, (iii) excretion and egestion.",
+      "model": "(i) Autotrophic organisms make their own food from simple inorganic substances, e.g. plants use light energy to make glucose from carbon dioxide and water. Heterotrophic organisms take in ready-made food made by other organisms, e.g. animals eat plants or other animals. (ii) Respiration is the controlled release of energy from food inside every living cell, a chemical process; breathing is the movement of air into and out of the lungs, which is gas exchange. (iii) Excretion is the removal of metabolic waste products, e.g. carbon dioxide excreted by the lungs; egestion is the removal of undigested food (faeces), which was never inside body cells."
+    },
+    {
+      "marks": 12,
+      "prompt": "A crystal grows in a saturated salt solution. Using the characteristics of living things, explain why the crystal is not alive.",
+      "model": "The crystal grows, but only by adding material to its outside, whereas a living organism grows from within by making new materials and by cell division (growth). The crystal has no cells, so it lacks cellular basis; it is not made of cells that arise from pre-existing cells. It does not respire, so it does not release energy from food; it has no nutrition, taking in no food and raw materials for growth; it has no excretion, so it produces no metabolic waste; it does not respond to stimuli; it does not reproduce, so it produces no new individuals; and it has no heredity, carrying no genetic information from parents. A crystal may show one or two characteristics, but it lacks most of the eleven, so it is not alive."
+    }
+  ]
+}

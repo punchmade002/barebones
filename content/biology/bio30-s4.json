@@ -1,0 +1,75 @@
+{
+  "loId": "bio30-s4",
+  "chapterId": "bio30",
+  "subsection": "CO₂ as a controlling factor in plant stomata",
+  "syllabusRef": "2.6.8",
+  "notes": [
+    {
+      "h": "The effect of CO₂ concentration on stomata (Higher Level only)",
+      "points": [
+        "The concentration of CO₂ in the air spaces inside the leaf is one of the factors that controls the width of the stomatal pores, along with light and water supply.",
+        "A low concentration of CO₂ inside the leaf causes the stomata to open, or to open wider.",
+        "A high concentration of CO₂ inside the leaf causes the stomata to close, or partly close.",
+        "This works through the guard-cell mechanism (see Transport of water and minerals). Guard cells respond to the CO₂ concentration around them. Low CO₂ leads to potassium ions (K⁺) being taken into the guard cells, water entering by osmosis and the guard cells becoming turgid, so the pore opens. High CO₂ leads to K⁺ leaving the guard cells, water following by osmosis and the guard cells becoming flaccid, so the pore closes.",
+        "The response is to the concentration inside the leaf, which depends on the balance between photosynthesis, which uses CO₂, and respiration, which releases it. It is not simply the concentration in the outside air."
+      ]
+    },
+    {
+      "h": "Why the response makes sense: day and night (Higher Level only)",
+      "points": [
+        "In the light, photosynthesis uses CO₂ faster than respiration produces it, so the CO₂ concentration in the air spaces falls. The low CO₂ opens the stomata, letting in more CO₂ for photosynthesis exactly when it is needed.",
+        "In darkness there is no photosynthesis, but respiration continues, so CO₂ builds up in the air spaces. The high CO₂ closes the stomata. The plant does not need CO₂ in the dark, so closing saves water that would otherwise be lost by transpiration.",
+        "This is a negative feedback loop. When internal CO₂ is low, the stomata open and CO₂ enters, so its concentration rises; as it rises, the stomata begin to close. CO₂ concentration therefore helps match the opening of the stomata to the leaf's demand for CO₂, keeping the balance between taking in CO₂ and losing water (negative feedback is defined in Homeostasis as a stimulus-response model).",
+        "The CO₂ response works together with the other controls. Light opens the stomata directly as well as by lowering CO₂ through photosynthesis. Shortage of water closes the stomata even when CO₂ is low, because preventing wilting takes priority over photosynthesis. So on a hot, dry afternoon the stomata may close although the leaf needs CO₂, and photosynthesis slows.",
+        "Experimental evidence: if a leaf in the light is given air with extra CO₂, its stomata close partly. If a leaf in the dark is given CO₂-free air, its stomata open partly. This shows that CO₂ acts on the stomata on its own, separately from light."
+      ]
+    },
+    {
+      "h": "CO₂, stomata and transpiration (Higher Level only)",
+      "points": [
+        "Because CO₂ controls the width of the stomata, it affects transpiration. Raising the CO₂ concentration around a leaf closes the stomata partly and reduces the rate of transpiration; lowering it opens them and increases the rate. This is why CO₂ concentration is one of the factors in Investigation: rate of transpiration.",
+        "Sustainability link: the CO₂ concentration of the atmosphere is rising, mainly from burning fossil fuels. Plants grown in raised CO₂ tend to open their stomata less, so they lose less water per unit of sugar made.",
+        "Leaves of the same species collected over the last two centuries and kept in herbarium collections show fewer stomata per unit area as CO₂ has risen.",
+        "Technology link: glasshouse growers add CO₂ to raise photosynthesis (see Investigation: rate of photosynthesis). The extra CO₂ also partly closes the stomata, so the plants lose less water."
+      ]
+    },
+    {
+      "h": "CO₂ as a controlling factor in plants and in humans compared (Higher Level only)",
+      "points": [
+        "What is detected: in plants, the CO₂ concentration inside the leaf is detected by the guard cells themselves. In humans, the CO₂ concentration of the blood is detected through its effect on blood pH, by chemoreceptors in the medulla oblongata and in the carotid and aortic bodies, which signal the breathing centre in the medulla (detail in CO₂ as a controlling factor in breathing).",
+        "Plants have no nerves, so the response is local, in each stoma.",
+        "Response to high CO₂: in plants the stomata close, reducing gas exchange. In humans the rate and depth of breathing increase, increasing gas exchange.",
+        "Response to low CO₂: in plants the stomata open. In humans breathing slows.",
+        "Why the responses are opposite: for a plant in the light, CO₂ is a raw material for photosynthesis, so low internal CO₂ signals that more is needed, and high internal CO₂ signals that none is being used, so water should be saved. For a human, CO₂ is a waste product of respiration that makes the blood more acidic, so high CO₂ signals that more must be removed.",
+        "What is similar: in both, CO₂ concentration is the main controlling signal for gas exchange, and the control works by negative feedback, returning the CO₂ level towards normal. In both, the controlled structures, the stomata in plants and the diaphragm and intercostal muscles that ventilate the alveoli in humans, adjust how much gas passes across the exchange surface."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "CO₂ as a controlling factor (Higher Level)", "definition": "The effect of the CO₂ concentration inside a leaf on the opening of its stomata: low CO₂ opens them and high CO₂ closes them." },
+    { "term": "Negative feedback (Higher Level)", "definition": "A control in which a change in a variable triggers a response that reverses the change, returning the variable towards its normal level." },
+    { "term": "Negative feedback in stomata (Higher Level)", "definition": "The loop in which low internal CO₂ opens the stomata, CO₂ enters and rises, and the rising CO₂ then makes the stomata begin to close." },
+    { "term": "Raw material", "definition": "A substance used up in a chemical reaction, such as CO₂ in photosynthesis." },
+    { "term": "Waste product", "definition": "A substance produced by a reaction that the body must remove, such as CO₂ from respiration." },
+    { "term": "Chemoreceptor (Higher Level)", "definition": "A receptor that detects a chemical change, such as the rise in blood CO₂ in humans, and sends signals to the brain." },
+    { "term": "Medulla oblongata (Higher Level)", "definition": "The part of the brainstem that contains the breathing centre, which increases the rate and depth of breathing when blood CO₂ rises." },
+    { "term": "Herbarium", "definition": "A collection of preserved plant specimens, which can be used to compare leaves gathered over many years." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the effect of a high concentration of carbon dioxide inside a leaf on its stomata, and explain why the CO₂ concentration inside a leaf is usually high at night.",
+      "model": "A high concentration of CO₂ inside the leaf causes the stomata to close, or partly close. At night there is no photosynthesis to use CO₂, but respiration continues in every living cell and releases CO₂ into the air spaces of the leaf, so the concentration builds up. Closing the stomata at night saves water that would otherwise be lost by transpiration."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how changes in carbon dioxide concentration inside a leaf help to control the opening of stomata during the day, and describe this as a negative feedback loop.",
+      "model": "In the light, photosynthesis uses CO₂ faster than respiration produces it, so the CO₂ concentration in the leaf falls. Low CO₂ causes the stomata to open: K⁺ enters the guard cells, water follows by osmosis, the guard cells become turgid and the pore opens, letting more CO₂ in. As CO₂ enters and its concentration rises, the stomata begin to close. This is negative feedback, because the change in CO₂ produces a response that reverses the change. The supply of CO₂ is matched to the leaf's demand, while water loss is limited."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare the role of carbon dioxide concentration as a controlling factor in plant stomata and in the human breathing system.",
+      "model": "In both plants and humans, CO₂ concentration is the main signal controlling gas exchange, and the control works by negative feedback that returns CO₂ towards normal. In plants, the guard cells detect the CO₂ concentration inside the leaf. Low CO₂ opens the stomata, and high CO₂ closes them, through the uptake and loss of K⁺ and the osmosis that follows. In humans, chemoreceptors in the medulla oblongata and in the carotid and aortic bodies detect the rise in blood CO₂, which lowers blood pH, and signal the breathing centre. High CO₂ increases the rate and depth of breathing, and low CO₂ slows it. The responses are opposite because CO₂ is a raw material for photosynthesis in plants, so low CO₂ means more is needed, whereas in humans it is a waste product of respiration that must be removed. In both, the controlled structures, the stomata or the diaphragm and intercostal muscles, adjust how much gas passes across the exchange surface."
+    }
+  ]
+}
