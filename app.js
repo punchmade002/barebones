@@ -604,6 +604,7 @@ function bindEvents() {
   els.testContainer.addEventListener("click", handleTestSetupClick);
   els.testContainer.addEventListener("change", handleTestSetupChange);
   els.testScreen.addEventListener("click", handleTestScreenClick);
+  els.testScreen.addEventListener("pointerdown", handleTestPointerDown);
   els.testScreen.addEventListener("input", handleTestScreenInput);
   document.addEventListener("keydown", handleTestKeyboard);
   els.openFullNotes.addEventListener("click", () => openFullNotes());
@@ -2428,6 +2429,7 @@ function renderTestQuestion(item) {
       <h2 class="test-prompt">${testMultiline(item.prompt)}</h2>
       ${renderTestOptions(item, response)}`;
   }
+  if (item.kind === "cloze" && item.bank) return renderClozeBank(item, response);
   if (item.kind === "cloze") {
     const blanks = response.blanks || [];
     const sentence = item.segments.map((segment) => {
@@ -2460,6 +2462,134 @@ function renderTestQuestion(item) {
     <h2 class="test-prompt test-prompt--exam">${testMultiline(item.prompt)}</h2>
     ${item.diagram ? `<button type="button" class="button-secondary test-diagram" data-test-diagram="${escapeHtml(item.diagram)}">Show diagram</button>` : ""}
     <textarea class="test-answer" data-test-text rows="${item.marks >= 20 ? 10 : 6}" placeholder="Your answer">${escapeHtml(response.text || "")}</textarea>`;
+}
+
+// Fill-the-gap with a word bank: gaps are drop targets, the bank's chips are
+// dragged (or tapped) into them. A used chip leaves a placeholder so the bank
+// does not reflow under the student's finger.
+function clozeTargetGap(item) {
+  const blanks = activeTest.responses[item.id]?.blanks || [];
+  const target = activeTest.gapTarget;
+  if (target?.itemId === item.id && target.gap < item.answers.length) return target.gap;
+  const empty = item.answers.findIndex((_, i) => !blanks[i]);
+  return empty >= 0 ? empty : item.answers.length - 1;
+}
+
+function renderClozeBank(item, response) {
+  const blanks = response.blanks || [];
+  const target = clozeTargetGap(item);
+  const sentence = item.segments.map((segment) => {
+    if (segment.blank === undefined) return escapeHtml(segment.text);
+    const i = segment.blank;
+    const word = blanks[i] || "";
+    const state = `${word ? " is-filled" : ""}${i === target ? " is-target" : ""}`;
+    return `<button type="button" class="test-gap${state}" data-test-gap="${i}"
+      aria-label="Gap ${i + 1}${word ? `: ${escapeHtml(word)}. Tap to clear` : ", empty"}">${word ? escapeHtml(word) : `<span aria-hidden="true">${i + 1}</span>`}</button>`;
+  }).join("");
+  const used = new Set(blanks.filter(Boolean));
+  const chips = item.bank.map((word, k) => used.has(word)
+    ? `<span class="test-chip is-used" aria-hidden="true">${escapeHtml(word)}</span>`
+    : `<button type="button" class="test-chip" data-test-chip="${k}">${k < 9 ? `<kbd>${k + 1}</kbd>` : ""}${escapeHtml(word)}</button>`).join("");
+  const gaps = item.answers.length === 1 ? "the gap" : "each gap";
+  return `
+    <p class="test-instruction">Drag a word into ${gaps}, or tap a word to drop it in the highlighted gap.</p>
+    <h2 class="test-prompt">${escapeHtml(item.prompt)}</h2>
+    <p class="test-cloze">${sentence}</p>
+    <div class="test-bank" role="group" aria-label="Word bank">${chips}</div>`;
+}
+
+function placeClozeWord(item, word, gap) {
+  const blanks = Array.from({ length: item.answers.length }, (_, i) => activeTest.responses[item.id]?.blanks?.[i] || "");
+  const from = blanks.indexOf(word);
+  if (from >= 0) blanks[from] = blanks[gap]; // moving a placed word swaps it with the gap's word
+  blanks[gap] = word;
+  setTestResponse(item, { blanks });
+  const next = blanks.findIndex((b) => !b);
+  activeTest.gapTarget = { itemId: item.id, gap: next >= 0 ? next : gap };
+}
+
+function clearClozeGap(item, gap) {
+  const blanks = [...(activeTest.responses[item.id]?.blanks || [])];
+  blanks[gap] = "";
+  setTestResponse(item, { blanks });
+  activeTest.gapTarget = { itemId: item.id, gap };
+}
+
+function redrawTestQuestion() {
+  renderTestScreen();
+  tickTestClock();
+}
+
+// Pointer-driven drag so it works the same with a mouse, a pen or a finger.
+let clozeDrag = null;
+let suppressTestClick = false;
+
+function handleTestPointerDown(event) {
+  if (!activeTest || activeTest.phase !== "run" || event.button > 0) return;
+  const item = activeTest.items[activeTest.index];
+  if (item?.kind !== "cloze" || !item.bank) return;
+  const chip = event.target.closest("button.test-chip");
+  const gap = event.target.closest(".test-gap.is-filled");
+  if (!chip && !gap) return;
+  const blanks = activeTest.responses[item.id]?.blanks || [];
+  const word = chip ? item.bank[Number(chip.dataset.testChip)] : blanks[Number(gap.dataset.testGap)];
+  if (!word) return;
+  clozeDrag = { item, word, source: chip || gap, fromGap: gap ? Number(gap.dataset.testGap) : null, x: event.clientX, y: event.clientY, ghost: null };
+  window.addEventListener("pointermove", handleTestPointerMove, { passive: false });
+  window.addEventListener("pointerup", handleTestPointerUp);
+  window.addEventListener("pointercancel", endClozeDrag);
+}
+
+function gapUnderPointer(event) {
+  return document.elementFromPoint(event.clientX, event.clientY)?.closest(".test-gap") || null;
+}
+
+function handleTestPointerMove(event) {
+  const drag = clozeDrag;
+  if (!drag) return;
+  if (!drag.ghost) {
+    if (Math.hypot(event.clientX - drag.x, event.clientY - drag.y) < 6) return;
+    const box = drag.source.getBoundingClientRect();
+    drag.offsetX = drag.x - box.left;
+    drag.offsetY = drag.y - box.top;
+    drag.ghost = document.createElement("span");
+    drag.ghost.className = "test-chip is-ghost";
+    drag.ghost.textContent = drag.word;
+    document.body.appendChild(drag.ghost);
+    drag.source.classList.add("is-lifted");
+    els.testScreen.classList.add("is-dragging");
+  }
+  event.preventDefault();
+  drag.ghost.style.transform = `translate(${event.clientX - drag.offsetX}px, ${event.clientY - drag.offsetY}px)`;
+  const over = gapUnderPointer(event);
+  els.testScreen.querySelectorAll(".test-gap.is-over").forEach((g) => g !== over && g.classList.remove("is-over"));
+  over?.classList.add("is-over");
+}
+
+function handleTestPointerUp(event) {
+  const drag = clozeDrag;
+  if (!drag) return;
+  const dragged = Boolean(drag.ghost);
+  endClozeDrag();
+  if (!dragged) return; // a tap: the click handler places the word
+  suppressTestClick = true;
+  window.setTimeout(() => { suppressTestClick = false; }, 0);
+  const over = gapUnderPointer(event);
+  if (over) placeClozeWord(drag.item, drag.word, Number(over.dataset.testGap));
+  else if (drag.fromGap !== null) clearClozeGap(drag.item, drag.fromGap); // dragged out of its gap
+  else return;
+  redrawTestQuestion();
+}
+
+function endClozeDrag() {
+  window.removeEventListener("pointermove", handleTestPointerMove);
+  window.removeEventListener("pointerup", handleTestPointerUp);
+  window.removeEventListener("pointercancel", endClozeDrag);
+  if (clozeDrag?.ghost) clozeDrag.ghost.remove();
+  clozeDrag?.source?.classList.remove("is-lifted");
+  els.testScreen.classList.remove("is-dragging");
+  els.testScreen.querySelectorAll(".test-gap.is-over").forEach((g) => g.classList.remove("is-over"));
+  clozeDrag = null;
 }
 
 function goToTestQuestion(index) {
@@ -2503,7 +2633,13 @@ function renderTestReview() {
   const intro = activeTest.timeUp
     ? "Time ran out. Anything you left blank scores zero."
     : `You finished in ${used}.`;
-  const hasSelfMarked = activeTest.items.some((item) => item.kind === "recall" || item.kind === "written");
+  const results = activeTest.items.map((item) => TestBuilder.markItem(item, activeTest.responses[item.id]));
+  const hasAutoMarked = results.some((result) => result.auto);
+  const note = pending
+    ? "Most answers are marked for you. Where no marking points could be found, compare your answer with the one shown and give yourself the marks an examiner would."
+    : hasAutoMarked
+      ? "Everything is marked. Written answers are checked against the marking scheme's points: look over each one, and change the mark if it missed something you said another way."
+      : "Every answer here was marked for you.";
 
   return `
     <div class="test-review">
@@ -2512,8 +2648,8 @@ function renderTestReview() {
         <button type="button" class="button-primary" data-test-action="save">${saveLabel}</button>`)}
       <main class="test-sheet">
         <header class="test-sheet-head">
-          <h1>Mark your answers</h1>
-          <p>${intro} ${hasSelfMarked ? "Quick questions are marked for you. For written answers, compare yours with the answer shown and give yourself the marks an examiner would." : "Every answer here was marked for you."}</p>
+          <h1>${pending ? "Mark your answers" : "Check your marks"}</h1>
+          <p>${intro} ${note}</p>
         </header>
         <ol class="test-review-list">
           ${activeTest.items.map((item, i) => renderTestReviewItem(item, i)).join("")}
@@ -2533,6 +2669,7 @@ function renderTestReviewItem(item, index) {
   if (result.needsSelfMark) verdict = `<span class="test-verdict is-pending">To mark</span>`;
   else if (item.kind === "recall" || item.kind === "written" || item.kind === "cloze") {
     verdict = `<span class="test-verdict${result.earned === item.marks ? " is-right" : result.earned ? " is-part" : " is-wrong"}">${result.earned}/${plural(item.marks, "mark")}</span>`;
+    if (result.auto?.confidence === "low" && !result.overridden) verdict = `<span class="test-verdict-check">Worth a check</span>${verdict}`;
   } else {
     verdict = `<span class="test-verdict ${result.correct ? "is-right" : "is-wrong"}">${result.correct ? "Right" : "Wrong"}</span>`;
   }
@@ -2572,7 +2709,8 @@ function renderTestReviewBody(item, response, result) {
       const given = String(blanks[i] || "").trim();
       const answer = item.answers[i];
       if (result.blanks[i]) return `<mark class="test-fill is-right">${escapeHtml(given || answer)}</mark>`;
-      const countIt = given
+      // A word picked from the bank is exactly right or wrong; only typed words can be argued.
+      const countIt = given && !item.bank
         ? `<button type="button" class="test-link test-count-it" data-test-override="${i}">I was right</button>`
         : "";
       return `<span class="test-fill-wrong">${given ? `<s>${escapeHtml(given)}</s> ` : ""}<mark class="test-fill">${escapeHtml(answer)}</mark>${countIt}</span>`;
@@ -2588,27 +2726,40 @@ function renderTestReviewBody(item, response, result) {
       <p>${response.text?.trim() ? testMultiline(response.text) : `<em>No answer</em>`}</p>
     </div>`;
 
+  // With an automatic mark the picker shows it, and choosing another overrides it.
+  const shown = result.needsSelfMark ? response.selfMarks : result.earned;
+  const resetLink = result.overridden && result.auto
+    ? `<button type="button" class="test-link" data-test-selfmark-reset>Use the automatic mark (${result.auto.earned})</button>`
+    : "";
+  const markLabel = result.needsSelfMark ? "Your marks" : result.overridden ? "Your mark" : "Mark";
+
   if (item.kind === "recall") {
-    const marks = response.selfMarks;
     const choices = [
       { value: 0, label: "Missed it" },
       { value: 1, label: "Partly" },
       { value: 2, label: "Got it" },
     ];
+    const card = result.auto
+      ? `<p><strong>${escapeHtml(item.term)}</strong> ${result.auto.points.map(renderMarkedPointText).join(" ")}</p>`
+      : `<p><strong>${escapeHtml(item.term)}</strong> ${escapeHtml(item.definition)}</p>`;
     return `
       <p class="test-review-prompt">${escapeHtml(item.prompt)}</p>
       ${answerBox}
       <div class="test-review-model">
         <span class="test-review-label">The flashcard</span>
-        <p><strong>${escapeHtml(item.term)}</strong> ${escapeHtml(item.definition)}</p>
+        ${card}
+        ${result.auto && response.text?.trim() ? `<span class="test-review-hint">Highlighted: the card's key words you used.</span>` : ""}
       </div>
-      <div class="test-selfmark" role="radiogroup" aria-label="How did you do?">
-        ${choices.map((c) => `<button type="button" class="test-choice${marks === c.value ? " is-active" : ""}" role="radio" aria-checked="${marks === c.value}" data-test-selfmark="${c.value}">${c.label}</button>`).join("")}
+      <div class="test-selfmark-row">
+        <div class="test-selfmark" role="radiogroup" aria-label="How did you do?">
+          ${choices.map((c) => `<button type="button" class="test-choice${shown === c.value ? " is-active" : ""}" role="radio" aria-checked="${shown === c.value}" data-test-selfmark="${c.value}">${c.label}</button>`).join("")}
+        </div>
+        ${resetLink}
       </div>`;
   }
 
-  // Written exam answer: model answer plus a marks picker.
-  const marks = response.selfMarks;
+  // Written exam answer: marking points (or the model answer) plus a marks picker.
+  const marks = shown;
   const picker = item.marks <= 12
     ? `<div class="test-selfmark test-selfmark--marks" role="radiogroup" aria-label="Marks out of ${item.marks}">
         ${Array.from({ length: item.marks + 1 }, (_, m) => `<button type="button" class="test-choice${marks === m ? " is-active" : ""}" role="radio" aria-checked="${marks === m}" data-test-selfmark="${m}">${m}</button>`).join("")}
@@ -2618,18 +2769,67 @@ function renderTestReviewBody(item, response, result) {
         <output>${Number.isFinite(marks) ? `${marks} / ${item.marks}` : "Drag to mark"}</output>
        </label>`;
   const scheme = item.schemePoints ? `<span class="test-review-hint">The marking scheme looks for ${plural(item.schemePoints, "point")}.</span>` : "";
+  const answered = Boolean(response.text?.trim());
+  const model = result.auto && answered
+    ? `<div class="test-review-model">
+        <span class="test-review-label">${item.groupId ? "Marking scheme points" : "Model answer points"}</span>
+        ${renderMarkingPoints(result.auto)}
+        <span class="test-review-hint">${markingSummary(result.auto)}</span>
+      </div>`
+    : `<div class="test-review-model">
+        <span class="test-review-label">${item.groupId ? "Marking scheme answer" : "Model answer"}</span>
+        <div class="exam-answer-text">${item.groupId ? formatModelAnswer(item.model) : formatAuthoredModel(item.model)}</div>
+        ${scheme}
+      </div>`;
   return `
     <p class="test-review-prompt">${testMultiline(item.prompt)}</p>
     ${answerBox}
-    <div class="test-review-model">
-      <span class="test-review-label">${item.groupId ? "Marking scheme answer" : "Model answer"}</span>
-      <div class="exam-answer-text">${item.groupId ? formatModelAnswer(item.model) : formatAuthoredModel(item.model)}</div>
-      ${scheme}
-    </div>
+    ${model}
     <div class="test-selfmark-row">
-      <span class="test-review-label">Your marks</span>
+      <span class="test-review-label">${markLabel}</span>
       ${picker}
+      ${resetLink}
     </div>`;
+}
+
+// A marking point's text with the words the student matched highlighted, and
+// (on a missed point) the key words they needed in bold.
+function renderMarkedPointText(point) {
+  const made = point.credit >= 1;
+  return point.parts.map((part) => {
+    const text = escapeHtml(part.text);
+    if (part.matched) return `<mark class="test-hit">${text}</mark>`;
+    if (part.key && !made) return `<strong>${text}</strong>`;
+    return text;
+  }).join("");
+}
+
+const POINT_STATES = {
+  made: { glyph: "✓", label: "Made" },
+  part: { glyph: "½", label: "Partly made" },
+  missed: { glyph: "", label: "Missed" },
+};
+
+function renderMarkingPoints(auto) {
+  return `<ol class="test-points">${auto.points.map((point) => {
+    const state = point.credit >= 1 ? "made" : point.credit > 0 ? "part" : "missed";
+    return `<li class="test-point is-${state}">
+      <span class="test-point-mark" aria-hidden="true">${POINT_STATES[state].glyph}</span>
+      <span class="sr-only">${POINT_STATES[state].label}:</span>
+      <span class="test-point-text">${renderMarkedPointText(point)}</span>
+    </li>`;
+  }).join("")}</ol>`;
+}
+
+function markingSummary(auto) {
+  const made = auto.points.filter((p) => p.credit >= 1).length;
+  const part = auto.points.filter((p) => p.credit > 0 && p.credit < 1).length;
+  const found = `You made ${made}${part ? ` (and partly ${part})` : ""} of ${plural(auto.points.length, "point")}`;
+  const needed = auto.points.length > 1 && auto.needed < auto.points.length ? `; full marks needs ${auto.needed}` : "";
+  const check = auto.confidence === "low"
+    ? " The scheme's answer is a sample, so check for points you made in your own words."
+    : "";
+  return `${found}${needed}.${check}`;
 }
 
 // Hand-written outcome questions write model answers in light Markdown
@@ -2792,7 +2992,7 @@ function rerenderReviewKeepingScroll() {
 function handleTestScreenClick(event) {
   if (!activeTest) return;
   const target = event.target.closest("button");
-  if (!target) return;
+  if (!target || suppressTestClick) return;
   const item = activeTest.items[activeTest.index];
   const reviewItem = target.closest(".test-review-item");
   const reviewed = reviewItem ? activeTest.items.find((i) => `review-${i.id}` === reviewItem.id) : null;
@@ -2803,6 +3003,18 @@ function handleTestScreenClick(event) {
     renderTestScreen();
     tickTestClock();
     els.testScreen.querySelector(".test-option.is-picked")?.focus({ preventScroll: true });
+  } else if (target.dataset.testChip !== undefined && activeTest.phase === "run") {
+    placeClozeWord(item, item.bank[Number(target.dataset.testChip)], clozeTargetGap(item));
+    redrawTestQuestion();
+  } else if (target.dataset.testGap !== undefined && activeTest.phase === "run") {
+    const gap = Number(target.dataset.testGap);
+    if (activeTest.responses[item.id]?.blanks?.[gap]) clearClozeGap(item, gap);
+    else activeTest.gapTarget = { itemId: item.id, gap };
+    redrawTestQuestion();
+  } else if (target.dataset.testSelfmarkReset !== undefined && reviewed) {
+    const { selfMarks, ...rest } = activeTest.responses[reviewed.id] || {};
+    activeTest.responses[reviewed.id] = rest;
+    rerenderReviewKeepingScroll();
   } else if (target.dataset.testGoto !== undefined) {
     goToTestQuestion(Number(target.dataset.testGoto));
   } else if (target.dataset.testDiagram) {
@@ -2896,7 +3108,14 @@ function handleTestKeyboard(event) {
   if (typing || event.metaKey || event.ctrlKey || event.altKey) return;
   if (event.key === "ArrowRight") goToTestQuestion(activeTest.index + 1);
   else if (event.key === "ArrowLeft") goToTestQuestion(activeTest.index - 1);
-  else if (TEST_CHOICE_KINDS.has(item.kind)) {
+  else if (item.kind === "cloze" && item.bank && /^[1-9]$/.test(event.key)) {
+    const word = item.bank[Number(event.key) - 1];
+    const placed = (activeTest.responses[item.id]?.blanks || []).includes(word);
+    if (word && !placed) {
+      placeClozeWord(item, word, clozeTargetGap(item));
+      redrawTestQuestion();
+    }
+  } else if (TEST_CHOICE_KINDS.has(item.kind)) {
     const key = event.key.toLowerCase();
     const index = /^[1-6]$/.test(key) ? Number(key) - 1 : "abcdef".indexOf(key);
     if (index >= 0 && index < item.options.length) {
