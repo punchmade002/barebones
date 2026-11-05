@@ -1,13 +1,20 @@
 // Exam papers: every whole past paper for a subject, opened one page at a time in a viewer
 // with a page strip along the bottom and a pen, highlighter, text boxes and an eraser for
 // writing on it.
-// The list comes from exam-papers.js (scripts/build_exam_papers.py). PDF.js is fetched the
-// first time a paper is opened, and a student's markup is kept in this browser per paper.
+// exam-papers.js (scripts/build_exam_papers.py) holds a short summary per subject; a subject's
+// paper list (exam-papers/<subject>/papers.js) loads when its archive is opened, and a paper's
+// PDF only when that paper is opened. PDF.js is fetched the first time a paper is opened, and a
+// student's markup is kept in this browser per paper.
 
 const PDFJS_SRC = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";
 const PDFJS_WORKER = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 const PAPER_INK_KEY = "bb-paper-ink:";
-const LEVEL_NAMES = { higher: "Higher level", ordinary: "Ordinary level" };
+const LEVEL_NAMES = {
+  higher: "Higher level",
+  ordinary: "Ordinary level",
+  foundation: "Foundation level",
+  common: "Both levels",
+};
 
 // Line widths and the eraser's reach are fractions of the page width, so markup keeps its
 // place and weight at every zoom
@@ -47,7 +54,32 @@ const pv = {};
 let pdfjsLoading = null;
 
 function hasExamPapers(subjectId) {
-  return Boolean(window.EXAM_PAPERS?.[subjectId]?.papers?.length);
+  return window.EXAM_PAPERS?.[subjectId]?.papers > 0;
+}
+
+// A subject's paper list, once its script has loaded
+function paperList(subjectId) {
+  return window.EXAM_PAPER_LISTS?.[subjectId] || null;
+}
+
+const paperListLoads = new Map();
+
+function loadPaperList(subjectId) {
+  if (paperList(subjectId)) return Promise.resolve();
+  if (paperListLoads.has(subjectId)) return paperListLoads.get(subjectId);
+  const promise = new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = window.EXAM_PAPERS[subjectId].list;
+    script.onload = () => (paperList(subjectId) ? resolve() : reject(new Error("Empty paper list")));
+    script.onerror = () => {
+      paperListLoads.delete(subjectId);
+      script.remove();
+      reject(new Error(`Could not load the paper list for ${subjectId}`));
+    };
+    document.head.appendChild(script);
+  });
+  paperListLoads.set(subjectId, promise);
+  return promise;
 }
 
 function oldCourseTag() {
@@ -58,8 +90,17 @@ function oldCourseTag() {
 
 function openExamPapers(subjectId) {
   if (!hasExamPapers(subjectId)) return;
+  if (papersState.subjectId !== subjectId) papersState.level = "all";
   papersState.subjectId = subjectId;
   renderPapersArchive();
+  if (!paperList(subjectId)) {
+    loadPaperList(subjectId).then(() => {
+      if (papersState.subjectId === subjectId) renderPapersArchive();
+    }, (error) => {
+      console.error(error);
+      if (papersState.subjectId === subjectId) renderPapersArchive(true);
+    });
+  }
   document.getElementById("papersScreen").classList.remove("hidden");
   document.getElementById("papersScreen").scrollTop = 0;
   document.body.style.overflow = "hidden";
@@ -72,10 +113,19 @@ function closeExamPapers() {
   document.body.style.overflow = "";
 }
 
-function renderPapersArchive() {
-  const archive = window.EXAM_PAPERS[papersState.subjectId];
+function renderPapersArchive(failed = false) {
+  const summary = window.EXAM_PAPERS[papersState.subjectId];
   const subject = SUBJECTS.find((s) => s.id === papersState.subjectId);
   document.getElementById("papersKicker").textContent = subject?.title || "";
+
+  const list = paperList(papersState.subjectId);
+  if (!list) {
+    document.getElementById("papersBody").innerHTML = `<p class="papers-status">${failed
+      ? "The papers could not be loaded. Check your connection and open them again."
+      : "Loading papers…"}</p>`;
+    return;
+  }
+  const archive = { ...summary, papers: list };
 
   const levels = [...new Set(archive.papers.map((p) => p.level))];
   const shown = archive.papers.filter((p) => papersState.level === "all" || p.level === papersState.level);
@@ -196,7 +246,9 @@ async function openPaperViewer(paper) {
 
   try {
     const pdfjs = await loadPdfJs();
-    const doc = await pdfjs.getDocument(paper.file).promise;
+    // Fetch only the parts of the file the pages on screen need (where the server allows
+    // range requests) rather than streaming the whole PDF in the background
+    const doc = await pdfjs.getDocument({ url: paper.file, disableAutoFetch: true, disableStream: true }).promise;
     if (loadId !== viewer.loadId) { doc.destroy(); return; }
     viewer.doc = doc;
     setPaperStatus("");

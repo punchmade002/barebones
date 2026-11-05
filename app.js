@@ -3150,9 +3150,9 @@ function renderExamSection() {
 // The whole papers sit behind the question-by-question list, one tap away
 function examPapersLink(subjectId, extraClass = "") {
   if (!hasExamPapers(subjectId)) return "";
-  const years = window.EXAM_PAPERS[subjectId].papers.map((p) => p.year);
+  const { from, to } = window.EXAM_PAPERS[subjectId];
   return `<button class="exam-papers-link ${extraClass}" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
-    <span><strong>Whole exam papers</strong><small>${Math.min(...years)}–${Math.max(...years)} · write on them as you go</small></span>
+    <span><strong>Whole exam papers</strong><small>${from}–${to} · write on them as you go</small></span>
     <span class="exam-papers-link-arrow" aria-hidden="true">›</span>
   </button>`;
 }
