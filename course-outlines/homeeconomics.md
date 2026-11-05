@@ -85,7 +85,10 @@
     assignment is marked out of 80: investigation (analysis and research) 32, planning and
     preparation 8, implementation 28, evaluation 12. Normally four of the five SEC assignments
     are presented; **for 2027, two of five**, and where more are presented the two
-    highest-scoring count. Details are in `hom-cooking-methods` s7.
+    highest-scoring count. The 2027 brief (M47/48A) still prints the standing "any four"
+    direction; the *Assessment Arrangements 2027* adjustment column (two from five) overrides
+    it. The completion date was 2 November 2026. Details and the five 2027 assignments are in
+    `hom-cooking-methods` s7.
   - **Textiles, Fashion and Design coursework** (Elective 2 only): a garment, 100 marks weighted
     to **10%**; for 2027 the garment must include one mandatory process from a choice of three
     set by the SEC.
@@ -93,8 +96,8 @@
     garment carries 10%).
   - Sources: SEC *Assessment Arrangements 2027* (Home Economics Scientific and Social page); SEC
     Leaving Certificate 2025 Home Economics Higher Level Section A answerbook, Section B and C
-    paper and marking scheme; SEC *Food Studies Assignments (20% of Total Marks)*; SEC Food
-    Studies Practical – Coursework Journal (2025).
+    paper and marking scheme; SEC *Food Studies Assignments 2027 (20% of Total Marks)*,
+    M47/48A; SEC Food Studies Practical – Coursework Journal (2025).
 
 ---
 
@@ -498,9 +501,31 @@ Home preservation of fruit and vegetables is in `hom-food-preservation`.
      Journal under these headings; dishes must meet the assignment, may not be repeated or
      partially repeated across assignments, and should use fresh foods rather than convenience
      foods. For 2027 candidates present two of the five assignments the SEC set, and the two
-     highest-scoring count.
-   - The 2027 assignment titles are in the SEC brief linked from *Assessment Arrangements 2027*;
-     add them to the package when available.
+     highest-scoring count (*Assessment Arrangements 2027*, adjustment column; the brief itself
+     still prints the standing "any four"). Practical work may be done in pairs, or in groups
+     for Area E, but the written record must be the candidate's own; all sources, including
+     AI-generated material, must be referenced. The completion date was 2 November 2026.
+   - **The five 2027 assignments** (SEC *Food Studies Assignments 2027*, M47/48A; no Area C
+     assignment was set this year). Notes should name each one and link it to the chapter that
+     teaches its theory, not write the coursework:
+     - **Assignment 1 (A):** the challenges older people face in keeping a healthy diet; their
+       nutritional needs and meal-planning guidelines; two-course main-meal menus; prepare one
+       main course. Theory: `hom-meal-planning` s2 and s5.
+     - **Assignment 2 (A):** the causes and effects of iron deficiency; nutritional needs and
+       meal-planning factors for reducing the risk; two-course main-meal menus; prepare one
+       main course. Theory: `hom-vitamins-minerals` s4 and s5, `hom-meal-planning` s3.
+     - **Assignment 3 (B):** commercially prepared filo and puff pastry (brands, forms,
+       ingredients, cost, sweet and savoury dishes); the key points for success with one of
+       them; prepare one dish; evaluate the advantages and disadvantages of the chosen pastry.
+       Theory: `hom-cereals-grains` s5.
+     - **Assignment 4 (D):** types of marinade and dishes that use each; the benefits of
+       marinating and its underlying principles; the key points for success; prepare one
+       marinated dish; evaluate whether the marinade achieved its purpose. Theory:
+       `hom-meat-preparation` s3 (tenderising).
+     - **Assignment 5 (E):** descriptive rating tests and their use in the food industry; the
+       range of commercial granola (brands, ingredients, nutritional content, cost); a
+       descriptive rating test on two similar brands using six agreed sensory attributes and
+       star diagrams; comparing the two sensory profiles. Theory: `hom-food-additives` s6.
 
 Pastry is in `hom-cereals-grains`; critical evaluation, comparison of home-made and commercial
 products, and sensory analysis are in `hom-food-additives`. SimpleStudy: Food Preparation.
