@@ -1,0 +1,80 @@
+{
+  "loId": "ch17-s2",
+  "chapterId": "ch17",
+  "subsection": "2. Ethical and sustainable consumption, the shadow economy and digital technology",
+  "syllabusRef": "4.1.2, 4.1.3",
+  "notes": [
+    { "h": "Ethical consumer choices", "b": "Ethical consumption means choosing products according to how they were produced, not only according to price and quality.", "points": [
+      "Fair trade products aim to give producers in developing countries a fairer price and better trading conditions.",
+      "Labour standards concern whether workers are paid fairly, work reasonable hours and can organise, and consumers can favour firms that meet them.",
+      "Animal welfare choices involve buying from suppliers that meet high standards of animal treatment.",
+      "Buying local supports nearby producers and shortens transport distances, which can benefit local employment and the environment.",
+      "Ethical choices can carry a higher price, so consumers must weigh their values against their budgets."
+    ] },
+    { "h": "Sustainable consumption", "b": "Sustainable consumers reduce the environmental impact of what they buy and use, following an order of preferred actions.", "points": [
+      "Reduce means buying less and avoiding unnecessary purchases, which has the largest environmental benefit.",
+      "Reuse means keeping products in use for longer, such as using refillable containers or passing items on to others.",
+      "Repair means fixing products rather than replacing them, which keeps the materials and labour already used in them in service.",
+      "Recycle means returning materials to be processed into new products, and it is the last of the preferred actions because it still uses energy and resources.",
+      "Buying second-hand extends the life of an item and avoids the resources needed to make a new one.",
+      "Energy labels show how efficiently an appliance uses electricity, allowing consumers to compare running costs and environmental impact."
+    ] },
+    { "h": "The circular economy", "b": "The circular economy keeps products and materials in use for as long as possible, rather than following a take, make and dispose pattern.", "points": [
+      "In a linear economy, products are made, used and thrown away, which wastes materials and creates waste.",
+      "In a circular economy, products are designed to be reused, repaired and recycled, so their value is retained for longer.",
+      "Consumers contribute by choosing durable products, returning items for recycling and buying repaired or refurbished goods.",
+      "Deposit return schemes refund a deposit paid on a drinks container when the empty container is returned for recycling.",
+      "Consumers can also support the circular economy by borrowing, sharing or renting items instead of owning them outright."
+    ] },
+    { "h": "The shadow economy", "b": "The shadow economy covers illegal goods or transactions outside the law or reporting rules, and it harms consumers, businesses and the economy.", "points": [
+      "Examples include counterfeit goods, cash work that is not reported for tax, and goods sold without the safety testing the law requires.",
+      "For consumers, buying through the shadow economy means losing consumer rights and guarantees, and facing safety risks from unregulated products.",
+      "For businesses, shadow economy competitors can undercut legal firms on price, which creates unfair competition.",
+      "For the economy, unreported income and transactions reduce tax revenue, which weakens the funding available for public services.",
+      "Shadow economy transactions are often hard to trace, which makes it difficult for authorities to protect consumers and enforce standards."
+    ] },
+    { "h": "Digital technology: positive effects on consumers", "b": "Digital technology gives consumers more information and choice, which can support better decisions.", "points": [
+      "Online shopping gives access to a wider range of products and suppliers than a local shop can offer.",
+      "Price comparison websites and apps let consumers compare prices quickly across several retailers.",
+      "Convenience allows purchases at any time and from home, saving travel time and effort.",
+      "Online reviews give consumers information from other buyers, which can reveal product quality and service problems.",
+      "Digital budgeting tools can help consumers track their spending and manage subscriptions."
+    ] },
+    { "h": "Digital technology: negative effects on consumers", "b": "Technology can also pressure consumers into buying and expose them to fraud and privacy risks.", "points": [
+      "One-click purchasing, saved payment details and instant deals encourage impulse buying.",
+      "Targeted advertising uses data about a person's browsing and purchases to show tailored adverts that can increase spending.",
+      "Dark patterns are interface designs that trick users into choices they did not intend, such as hidden subscription sign-ups.",
+      "Fraud, such as fake websites and phishing messages, can lead to lost money or stolen identity.",
+      "Personal information collected by apps and websites can be shared with third parties, raising privacy concerns.",
+      "Fake reviews can mislead consumers, and influencers may promote products without clearly disclosing a commercial relationship."
+    ] },
+    { "h": "Ethics and sustainability as drivers of behaviour", "b": "Informed consumers can use their purchasing power to reward businesses that act ethically and to pressure those that do not.", "points": [
+      "A consumer may avoid a brand because of its environmental record, which can reduce its sales and damage its reputation.",
+      "Labels and certification schemes help consumers identify ethical and sustainable products when they compare options.",
+      "Balancing price, quality and personal values is a decision each consumer makes, and budget constraints are a real limit on ethical choice."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Ethical consumption", "definition": "Buying choices based on how products are made and how workers, animals and communities are treated." },
+    { "term": "Fair trade", "definition": "A trading arrangement that gives producers in developing countries a fairer price and better trading conditions." },
+    { "term": "Circular economy", "definition": "An economic system that keeps resources in use for as long as possible through reuse, repair and recycling." },
+    { "term": "Shadow economy", "definition": "Illegal goods or transactions that take place outside the law or outside reporting rules." },
+    { "term": "Dark pattern", "definition": "An interface design that tricks users into choices they did not intend, such as hidden subscriptions." },
+    { "term": "Targeted advertising", "definition": "Adverts shown to a person based on data about their browsing, purchases or other personal information." },
+    { "term": "Deposit return scheme", "definition": "A scheme that refunds a deposit paid on a drinks container when the empty container is returned for recycling." },
+    { "term": "Impulse buying", "definition": "Unplanned purchasing triggered by emotion or convenience rather than a prior decision to buy." }
+  ],
+  "factCards": [
+    { "term": "Order of sustainable actions", "definition": "Reduce, reuse, repair, then recycle." },
+    { "term": "Ways a consumer supports the circular economy", "definition": "Buying durable products, repairing rather than replacing, buying second-hand, and returning items for recycling." },
+    { "term": "Consequences of the shadow economy for consumers", "definition": "No consumer rights or guarantees, and safety risks from unregulated products." },
+    { "term": "Consequences of the shadow economy for the economy", "definition": "Lost tax revenue, reduced funding for public services and weaker public services." },
+    { "term": "Positive effects of digital technology on consumers", "definition": "Choice, price comparison, convenience and reviews." },
+    { "term": "Negative effects of digital technology on consumers", "definition": "Impulse buying, targeted advertising, dark patterns, fraud, data use and influencer pressure." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "A teenager using a shopping app late at night spends more than planned on clothes. Explain how three features of digital technology might have influenced this purchasing behaviour, and suggest one step the consumer could take.", "model": "Dark patterns: the app may use a countdown timer or a limited-offer banner that pressures the user to buy immediately rather than reflect. Targeted advertising: the app uses browsing and purchase history to show clothing the consumer is likely to want, which makes unplanned purchases feel relevant. Saved payment details and one-tap checkout: stored card details remove the friction of stopping to think, which encourages impulse buying. Step: the consumer can remove saved payment details, switch off promotional notifications and wait a day before buying anything that was not planned." },
+    { "marks": 20, "prompt": "Evaluate the impact of the shadow economy on consumers, businesses and the economy in Ireland.", "model": "The shadow economy harms consumers by removing their rights. Goods bought from unlicensed traders may be unsafe or counterfeit, and buyers have no effective remedy if they are harmed. Businesses that operate legally face unfair competition, because shadow traders avoid taxes, insurance and regulatory costs and can undercut prices. This can lead to job losses and closures among compliant firms. For the economy, untaxed activity reduces the revenue available for public services and makes official statistics less reliable for policy. However, the scale of the harm varies by sector, and some people argue that informal work provides income to those excluded from formal employment. An evaluation should weigh these benefits against the harm to consumers and legal firms, and it should conclude that the overall impact is negative, because consumers lose protection and the state loses revenue." },
+    { "marks": 10, "prompt": "Outline two ways a household can reduce waste by changing its buying habits, and link each to the circular economy.", "model": "A household can buy second-hand clothes and furniture instead of new, which extends the life of items already in circulation and keeps materials in use. It can also repair appliances and shoes rather than replace them, so the resources and labour already invested are not wasted. Both actions keep products in use for longer, which is the central aim of the circular economy." }
+  ]
+}

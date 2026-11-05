@@ -1,0 +1,81 @@
+{
+  "loId": "ch16-s3",
+  "chapterId": "ch16",
+  "subsection": "3. Contingency planning and crisis management",
+  "syllabusRef": "3.4.8, 3.4.9",
+  "notes": [
+    { "h": "Key definitions", "b": "Contingency planning is one part of a wider approach to crisis management, so the terms need to be kept distinct.", "points": [
+      "A crisis is a sudden, unexpected event that threatens an organisation's people, operations, reputation or survival and needs an urgent response.",
+      "Crisis management is the process of preventing, preparing for, responding to, recovering from and reviewing such events.",
+      "A contingency plan is a prepared course of action to follow if a specified event occurs, such as a failure of the main computer system.",
+      "A contingency plan is written in advance, so that decisions are made calmly before the pressure of an actual event builds up."
+    ] },
+    { "h": "Local and national crises", "b": "Crises can start in one location or affect a whole country, and planning should cover both.", "points": [
+      "A local crisis affects one site or business, such as a fire at a production plant or the sudden loss of a key member of staff.",
+      "A cyber-attack on a firm's systems can be local to that business but still expose customer data and disrupt sales.",
+      "The 2021 ransomware attack on the Health Service Executive showed how a cyber-attack can halt core services across a whole public organisation.",
+      "A national crisis affects many businesses at once, such as a severe storm that damages power networks or a pandemic that closes workplaces.",
+      "A product recall, such as the withdrawal of a contaminated food product, may start with one supplier but affects every retailer that stocked it.",
+      "A supply failure, such as a disruption to imported components, can spread from one firm's supply chain to whole sectors of the economy."
+    ] },
+    { "h": "Stages of crisis management", "b": "The five stages form a cycle, because the review of one crisis improves prevention and preparation for the next.", "points": [
+      "Prevention reduces the chance of a crisis happening, for example through safety procedures and regular checks of systems and equipment.",
+      "Preparation means writing contingency plans, training staff and arranging backups before any crisis occurs.",
+      "Response is the immediate action taken once a crisis begins, guided by the contingency plan and by clear lines of command.",
+      "Recovery restores normal operations, which may include repairing systems, serving customers again and supporting affected staff.",
+      "Review examines what happened, what worked and what failed, and feeds those lessons back into prevention and preparation."
+    ] },
+    { "h": "What a contingency plan contains", "b": "A useful plan is specific enough to act on quickly, and it must be kept up to date.", "points": [
+      "Triggers define the events or warning signs that activate the plan, so that action starts at the right moment.",
+      "Responsibilities name who makes decisions and who carries out each task during the crisis.",
+      "A communication plan sets out who is told what, through which channels and how quickly, covering staff, customers and suppliers.",
+      "Backups provide copies of data and spare equipment, so operations can continue if the originals are lost or damaged.",
+      "Alternative suppliers provide a second source of essential goods or services if the main supplier fails."
+    ] },
+    { "h": "Factors to weigh when developing a plan", "b": "Each factor affects which contingency measures are worth paying for and how they should be prioritised.", "points": [
+      "Cost: the expense of each measure must be weighed against the losses it would prevent.",
+      "Time: some measures, such as qualifying a standby supplier, take time to set up, so they must be arranged before they are needed.",
+      "Risk likelihood and impact: a risk that is likely and severe deserves more attention than one that is rare and minor.",
+      "Resources: the availability of staff, money and equipment limits what can realistically be prepared.",
+      "Legal duties: obligations under health and safety law, such as the Safety, Health and Welfare at Work Act 2005, and under data protection law may require specific measures.",
+      "Stakeholders: the interests of customers, employees, suppliers and the public must be considered when priorities are set."
+    ] },
+    { "h": "Benefits and limits of contingency planning", "b": "Contingency planning reduces the damage from a crisis but cannot remove every risk.", "points": [
+      "It allows faster decisions in a crisis, because people already know their roles before the event occurs.",
+      "It can protect the reputation of the business, since a planned and prompt response appears competent to customers.",
+      "It can reduce costs by limiting the scale of losses and the length of any downtime.",
+      "Plans cost money and time to prepare and maintain, and a business may judge that the cost is too high for rare events.",
+      "A plan becomes out of date if it is not tested and updated, and an untested plan may fail when it is needed.",
+      "No plan can anticipate every event, so flexibility and judgement are still needed during a crisis."
+    ] },
+    { "h": "Contingency planning and digital transformation", "b": "As businesses rely more on digital systems, their contingency plans must cover technology failures as well as physical events.", "points": [
+      "Greater reliance on online systems means a system outage can quickly stop sales and operations.",
+      "Backups kept in a separate location allow recovery even when a local system has been compromised by an attack.",
+      "Staff training on phishing and security procedures reduces the chance that a cyber-attack succeeds."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Crisis", "definition": "A sudden, unexpected event that threatens an organisation's people, operations, reputation or survival." },
+    { "term": "Crisis management", "definition": "The process of preventing, preparing for, responding to, recovering from and reviewing such events." },
+    { "term": "Contingency plan", "definition": "A prepared course of action to follow if a specified event occurs, such as a system failure." },
+    { "term": "Trigger", "definition": "A specified event or warning sign that activates a contingency plan." },
+    { "term": "Backup", "definition": "A copy of data or a spare resource kept ready to use if the original is lost or fails." },
+    { "term": "Alternative supplier", "definition": "A second source of essential goods or services, ready to use if the main supplier fails." },
+    { "term": "Recovery", "definition": "The stage of the management process in which normal operations are restored after an event." },
+    { "term": "Risk likelihood and impact", "definition": "The two measures used together to decide how much attention a risk deserves." }
+  ],
+  "factCards": [
+    { "term": "Five stages in order", "definition": "Prevention, preparation, response, recovery and review." },
+    { "term": "Contents of a contingency plan", "definition": "Triggers, responsibilities, a communication plan, backups and alternative suppliers." },
+    { "term": "Factors to weigh when developing a plan", "definition": "Cost, time, risk likelihood and impact, resources, legal duties and stakeholders." },
+    { "term": "Benefits of contingency planning", "definition": "Faster decisions, a protected reputation and lower costs from smaller losses." },
+    { "term": "Limits of contingency planning", "definition": "It cannot anticipate every event, plans cost money to maintain, and untested plans may fail." },
+    { "term": "Example of a local crisis", "definition": "A fire at a single production site that halts output at one business." },
+    { "term": "Example of a national crisis", "definition": "A pandemic that closes workplaces across the country at the same time." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A small Irish food manufacturer depends on one supplier for a key ingredient. Explain how contingency planning could help it manage a supply failure, and discuss the factors it should weigh when developing the plan.", "model": "Contingency planning prepares the firm before the failure occurs. It can identify and vet an alternative supplier in advance and agree terms with them, so that production can switch quickly. The plan sets a trigger, such as a delivery that is late by a set period, and names who decides to switch and who contacts customers. The factors to weigh are cost, because holding extra stock or paying a second supplier costs money that must be compared with the losses from stopped production. Time matters because a new supplier must be checked and tested before it is needed. Risk likelihood and impact show how often a supply failure might occur and how severe the loss would be. Resources such as storage space and staff limit what can be prepared. Legal duties, including food safety rules that a new ingredient must meet, must be respected. Finally, stakeholders such as retailers and customers who rely on consistent supply shape the priorities of the plan." },
+    { "marks": 10, "prompt": "Distinguish between a crisis and a contingency plan, giving one example of how each would apply to a hotel.", "model": "A crisis is a sudden, unexpected event that threatens the hotel's operations, reputation or safety, such as a burst pipe that floods several rooms during a busy weekend. A contingency plan is the prepared response the hotel sets out in advance for such events, such as a plan to move affected guests to a partner hotel and to call an emergency repair contractor." },
+    { "marks": 15, "prompt": "Explain three benefits of contingency planning for a business that depends heavily on online sales.", "model": "Faster decisions: when staff know their roles before a website outage occurs, the business can act within minutes rather than debating who is responsible. Protected reputation: a prompt and planned communication to customers during an outage shows competence and reduces complaints. Lower costs: a backup of the sales system and an alternative payment provider allow orders to continue, so the losses from downtime are limited." }
+  ]
+}
