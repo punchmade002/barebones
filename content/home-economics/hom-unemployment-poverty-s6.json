@@ -1,0 +1,160 @@
+{
+  "loId": "hom-unemployment-poverty-s6",
+  "chapterId": "hom-unemployment-poverty",
+  "subsection": "6. Statutory responses",
+  "syllabusRef": "6.7",
+  "notes": [
+    {
+      "h": "Social insurance and social assistance",
+      "b": "State income support is paid through two routes, and the route determines the conditions a claimant must meet.",
+      "points": [
+        "Social insurance payments depend on a record of PRSI contributions paid while in work and are not means-tested.",
+        "Jobseeker's Benefit is the main social insurance payment for an unemployed person who has enough paid contributions.",
+        "Social assistance payments are means-tested: the household's income and savings are assessed, and no contribution record is required.",
+        "Jobseeker's Allowance is the main social assistance payment for an unemployed person who does not qualify for Jobseeker's Benefit or whose benefit has ended.",
+        "A Jobseeker's Allowance claimant must be unemployed, capable of work, available for full-time work and genuinely seeking employment.",
+        "Supplementary Welfare Allowance is a means-tested payment for people whose income does not meet their basic needs."
+      ]
+    },
+    {
+      "h": "Payments for families and children",
+      "points": [
+        "Child Benefit is paid for each qualifying child and is not means-tested, so it reaches families on every income level.",
+        "Payments for lone parents are means-tested and recognise that one adult is carrying the full cost of the household.",
+        "The Working Family Payment is a tax-free, means-tested payment for low-paid workers who have a dependent child.",
+        "Means-tested payments are reduced as income rises, so the household gains less from extra earnings than the wage itself.",
+        "The Fuel Allowance is paid to qualifying households to help with heating costs during the winter season."
+      ]
+    },
+    {
+      "h": "Schemes that reduce expenditure for low-income families",
+      "points": [
+        "Medical card: gives free GP visits and access to certain health services; eligibility depends on income and health needs.",
+        "Back to School Clothing and Footwear Allowance: a once-yearly payment that helps families meet the cost of school uniforms and shoes.",
+        "Household Benefits Package: an energy allowance and related benefits for qualifying older people and people with certain disabilities or long-term illnesses.",
+        "Free pre-school place (ECCE): an early-learning place before primary school, which reduces childcare costs for families.",
+        "Housing Assistance Payment: a means-tested payment made through the local authority to help households pay rent in the private rented sector.",
+        "Money Advice and Budgeting Service (MABS): a free, confidential, State-funded service that helps people in debt, mainly low-income households, to budget and deal with creditors."
+      ]
+    },
+    {
+      "h": "Statutory initiatives to create employment",
+      "b": "These initiatives work through training, business supports and job creation rather than income support alone.",
+      "points": [
+        "Enterprise Ireland helps Irish-owned companies increase sales, exports and employment through grants, market advice and training.",
+        "Local Enterprise Offices in each county give training, mentoring and grants to people starting or expanding small businesses.",
+        "SOLAS is the State further education and training authority; it funds, plans and coordinates further education and training through the Education and Training Boards.",
+        "SOLAS supports apprenticeships, vocational courses and literacy, numeracy and digital training, matching the skills of unemployed people to vacancies.",
+        "Work-based learning and CV and job-search preparation give unemployed people the experience that employers ask for."
+      ]
+    },
+    {
+      "h": "Initiatives encouraging foreign investment (Higher Level only)",
+      "b": "Foreign direct investment is investment by an overseas company that sets up or expands operations in Ireland.",
+      "points": [
+        "IDA Ireland is the State agency that attracts overseas companies and supports them through grants, site selection and advice.",
+        "A low corporation tax rate is a key incentive for multinational companies to locate in Ireland.",
+        "A young, educated, English-speaking workforce and access to the European Union's single market attract multinational firms.",
+        "Foreign investment creates direct jobs and tax revenue and brings new skills into local labour markets, reducing unemployment.",
+        "Dependence on a few large multinationals is a weakness: if a parent company closes or moves a plant, a local area can lose many jobs at once.",
+        "Multinational employment is often concentrated in larger towns and cities, so rural areas benefit less from it."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Social insurance",
+      "definition": "State payments funded by PRSI contributions, available to people with a sufficient contribution record."
+    },
+    {
+      "term": "Social assistance",
+      "definition": "State payments made on the basis of need, which are means-tested and do not depend on a contribution record."
+    },
+    {
+      "term": "Means test",
+      "definition": "An assessment of a household's income, savings and circumstances that decides whether, and how much, a payment is made."
+    },
+    {
+      "term": "Jobseeker's Allowance",
+      "definition": "A means-tested payment for an unemployed person who is capable of and available for work and does not qualify for Jobseeker's Benefit."
+    },
+    {
+      "term": "Medical card",
+      "definition": "A card giving free GP visits and other health services to people who meet income-based eligibility rules."
+    },
+    {
+      "term": "Foreign direct investment",
+      "definition": "Investment by an overseas company in a business or facility in Ireland, such as a new factory or office."
+    },
+    {
+      "term": "IDA Ireland",
+      "definition": "The State agency that attracts and supports overseas companies investing in Ireland."
+    },
+    {
+      "term": "Enterprise Ireland",
+      "definition": "The State agency that supports Irish-owned companies to grow their sales, exports and employment."
+    },
+    {
+      "term": "Working Family Payment",
+      "definition": "A tax-free, means-tested payment for low-paid working families with a dependent child."
+    },
+    {
+      "term": "Housing Assistance Payment",
+      "definition": "A means-tested payment, made through the local authority, that helps households pay rent in the private rented sector."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Main difference between the two routes to State income support",
+      "definition": "Social insurance depends on a record of PRSI contributions; social assistance is means-tested and does not depend on contributions."
+    },
+    {
+      "term": "Conditions an unemployed person must meet for the means-tested unemployment payment",
+      "definition": "Being unemployed, capable of work, available for full-time work and genuinely seeking employment."
+    },
+    {
+      "term": "Payment made to every qualifying child regardless of parental income",
+      "definition": "Child Benefit."
+    },
+    {
+      "term": "In-work support for low-paid families with a dependent child",
+      "definition": "The Working Family Payment, which is means-tested and tax-free."
+    },
+    {
+      "term": "Purpose of the Fuel Allowance",
+      "definition": "It helps qualifying households meet heating costs during the winter season."
+    },
+    {
+      "term": "Three benefits of the free pre-school place (ECCE)",
+      "definition": "It reduces childcare costs for families; it prepares children for primary school; it builds social and learning skills."
+    },
+    {
+      "term": "Irish State agency that wins overseas company investment",
+      "definition": "IDA Ireland, which offers grants, site selection and advice to multinational firms."
+    },
+    {
+      "term": "Two ways foreign investment can reduce local unemployment",
+      "definition": "It creates direct jobs in the area; it brings tax revenue and new skills into the local economy."
+    },
+    {
+      "term": "Main risk of relying on a few large overseas employers",
+      "definition": "Sudden job losses in an area when a parent company closes or moves a plant."
+    },
+    {
+      "term": "Free budgeting service for households in debt",
+      "definition": "MABS, the Money Advice and Budgeting Service."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between social insurance and social assistance payments, giving one example of each.",
+      "model": "Social insurance payments depend on a record of PRSI contributions paid while in work and are not means-tested. Example: Jobseeker's Benefit for a worker who has lost a job and has enough paid contributions. Social assistance payments are based on need, assessed through a means test of the household's income and savings, and do not depend on contributions. Example: Jobseeker's Allowance for an unemployed person who does not qualify for Jobseeker's Benefit."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the statutory responses to poverty in Ireland. Refer to social welfare payments, at least one scheme that reduces costs for low-income families, and the role of foreign investment in creating employment.",
+      "model": "Social welfare: social insurance payments depend on PRSI contributions, while social assistance payments such as Jobseeker's Allowance and Supplementary Welfare Allowance are means-tested and paid on the basis of need; Child Benefit is universal for each qualifying child; the Working Family Payment supports low-paid working families with a dependent child. Schemes reducing costs: the medical card gives free GP visits to those who meet income and health criteria; the Back to School Clothing and Footwear Allowance helps with uniforms and shoes; the Fuel Allowance helps with heating costs; the Housing Assistance Payment helps with rent in the private rented sector; the free pre-school place (ECCE) reduces childcare costs. Each scheme addresses a specific cost pressure that would otherwise push a family into poverty. Foreign investment: foreign direct investment is investment by overseas companies in Irish operations; IDA Ireland attracts it with grants, site selection and advice; a low corporation tax rate and a skilled, English-speaking workforce are key attractions; it creates direct jobs, tax revenue and new skills, reducing unemployment. Limitations: dependence on a few large multinationals exposes local areas to sudden job losses when plants close; multinational jobs are concentrated in larger towns and cities, so rural areas gain less. Assessment: income supports relieve immediate hardship, while investment and employment supports address the root cause of unemployment, so the two work best together."
+    }
+  ]
+}

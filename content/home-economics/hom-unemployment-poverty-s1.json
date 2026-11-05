@@ -1,0 +1,129 @@
+{
+  "loId": "hom-unemployment-poverty-s1",
+  "chapterId": "hom-unemployment-poverty",
+  "subsection": "1. Defining unemployment",
+  "syllabusRef": "6.5",
+  "notes": [
+    {
+      "h": "What counts as unemployed",
+      "b": "Unemployment is being without paid work while being willing and able to take up work.",
+      "points": [
+        "Three conditions must all be met: the person has no paid employment, is available to start work, and is actively seeking work.",
+        "Available for work: the person could start work within a short period, normally within two weeks.",
+        "Actively seeking work: the person has taken specific steps to find work, such as applying for posts, answering advertisements or registering with Intreo, the Department of Social Protection's public employment service.",
+        "Students, people in full-time home duties, retired people and those unable to work through illness or disability are not counted as unemployed, because they are not available for work or are not seeking it.",
+        "A person in part-time work who wants more hours is counted as employed in the standard measure."
+      ]
+    },
+    {
+      "h": "The labour force and the unemployment rate",
+      "points": [
+        "The labour force is the number of people in employment plus the number of unemployed people.",
+        "The unemployment rate is the number of unemployed people divided by the labour force, multiplied by 100.",
+        "A rate is more useful than a raw total when comparing periods or areas, because the size of the labour force changes over time.",
+        "The Central Statistics Office measures unemployment in Ireland using the definition set by the International Labour Organization (ILO)."
+      ]
+    },
+    {
+      "h": "Short-term, frictional and long-term unemployment",
+      "points": [
+        "Short-term unemployment is a brief spell out of work, usually between jobs or after leaving education.",
+        "Frictional unemployment is short-term unemployment caused by the normal time workers take to move from one job to another.",
+        "Long-term unemployment is being out of work for one year or more."
+      ]
+    },
+    {
+      "h": "Extent of unemployment in Ireland (Higher Level only)",
+      "b": "The extent of unemployment is shown by rates and by the numbers affected, drawn from two main sources.",
+      "points": [
+        "The Labour Force Survey is a household survey by the Central Statistics Office that produces the standardised unemployment rate.",
+        "The Live Register, kept by the Department of Social Protection, counts people claiming jobseeker payments, including some part-time workers, so it is not the standard measure of unemployment.",
+        "Unemployment rose sharply after the economic downturn that began in 2008, with construction and related trades worst affected.",
+        "Retail and service industries also shed jobs during the downturn as consumer spending fell.",
+        "Recent graduates, foreign workers and young people were among the groups hit hardest by the rise in unemployment.",
+        "Unemployment peaked in the early 2010s and then fell steadily as the economy recovered.",
+        "Unemployment rates vary between regions; areas that lost major employers tend to keep higher rates for longer."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Unemployment",
+      "definition": "Being without paid work while being available for work and actively seeking it."
+    },
+    {
+      "term": "Labour force",
+      "definition": "The number of people in employment plus the number of unemployed people."
+    },
+    {
+      "term": "Unemployment rate",
+      "definition": "The number of unemployed people expressed as a percentage of the labour force."
+    },
+    {
+      "term": "Actively seeking work",
+      "definition": "Taking specific steps, such as applying for jobs, to find paid employment."
+    },
+    {
+      "term": "Short-term unemployment",
+      "definition": "A brief period out of work, usually between jobs or after leaving education."
+    },
+    {
+      "term": "Frictional unemployment",
+      "definition": "Short-term unemployment caused by the normal time workers take to move between jobs."
+    },
+    {
+      "term": "Long-term unemployment",
+      "definition": "Being out of work for one year or more."
+    },
+    {
+      "term": "Standardised unemployment rate",
+      "definition": "The rate of unemployment measured by the Central Statistics Office using the ILO definition."
+    },
+    {
+      "term": "Live Register",
+      "definition": "The Department of Social Protection's count of people claiming jobseeker payments."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three conditions for counting as jobless",
+      "definition": "No paid employment; available to start work; actively seeking work."
+    },
+    {
+      "term": "Formula for the unemployment rate",
+      "definition": "Unemployed people divided by the labour force, multiplied by 100."
+    },
+    {
+      "term": "Two sources for measuring unemployment in Ireland",
+      "definition": "The Central Statistics Office's Labour Force Survey and the Live Register kept by the Department of Social Protection."
+    },
+    {
+      "term": "Minimum time out of work to be classed as long-term",
+      "definition": "One year or more."
+    },
+    {
+      "term": "Sectors hardest hit by the 2008 downturn",
+      "definition": "Construction and related trades, and retail and service industries."
+    },
+    {
+      "term": "Groups most affected by the post-2008 rise in joblessness",
+      "definition": "Recent graduates, foreign workers and young people."
+    },
+    {
+      "term": "Two examples of people not counted as jobless",
+      "definition": "Students, and people in full-time home duties who are not seeking work."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State the three conditions a person must meet to be classed as unemployed in Ireland, and explain what being available for work means.",
+      "model": "Three conditions: the person has no paid employment; is available to start work, normally within two weeks; and is actively seeking work by taking specific steps, such as applying for posts or registering with Intreo. Available for work means the person could start a job within a short period and is not prevented, for example by full-time study or illness, from taking it up."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how unemployment is measured in Ireland, and describe how the extent of unemployment changed after 2008.",
+      "model": "Measurement: the Central Statistics Office's Labour Force Survey uses the ILO definition to produce the standardised unemployment rate; the Live Register kept by the Department of Social Protection counts people claiming jobseeker payments but is not the standard measure. Each measure is a rate or a count, and rates allow comparison over time. Change after 2008: the economic downturn caused a sharp rise in unemployment; construction and related trades were worst affected, with retail and service industries also losing jobs; recent graduates, foreign workers and young people were hit hard; unemployment peaked in the early 2010s and then fell steadily as the economy recovered."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "loId": "hom-unemployment-poverty-s4",
+  "chapterId": "hom-unemployment-poverty",
+  "subsection": "4. Concepts of poverty",
+  "syllabusRef": "6.6.1",
+  "notes": [
+    {
+      "h": "Defining poverty",
+      "b": "Poverty is a lack of the income and resources needed for basic needs and for normal participation in society.",
+      "points": [
+        "Poverty means inadequate food, clothing, shelter and warmth, caused by insufficient income or resources.",
+        "Poverty also means being unable to take part in socially acceptable activities that most people take for granted.",
+        "Poverty is examined through two concepts: absolute poverty and relative poverty."
+      ]
+    },
+    {
+      "h": "Absolute poverty",
+      "points": [
+        "Absolute poverty is income too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened.",
+        "The standard is fixed: it does not depend on the living standards of the surrounding society.",
+        "A person in absolute poverty has no viable way of solving the problem alone and needs outside help.",
+        "Absolute poverty is rare in modern Ireland, but homeless people may experience it."
+      ]
+    },
+    {
+      "h": "Relative poverty and the poverty line",
+      "b": "Relative poverty is judged against the living standards of the society in which a person lives.",
+      "points": [
+        "A person in relative poverty lives below what society recognises as a basic standard of living.",
+        "The poverty line is an income threshold below which a household is considered to be at risk of poverty.",
+        "The Central Statistics Office sets the at-risk-of-poverty threshold at 60% of median equivalised household income.",
+        "Because the poverty line moves as incomes change, relative poverty can persist even when incomes rise.",
+        "Examples of relative poverty: being unable to afford a warm waterproof coat, two pairs of strong shoes, adequate heating, or a meal with meat or fish every second day.",
+        "Photographs of the same type of home or setting from different times and places show that the accepted standard of living changes."
+      ]
+    },
+    {
+      "h": "Consistent poverty and the at-risk-of-poverty rate",
+      "points": [
+        "The at-risk-of-poverty rate is the share of people whose income is below the poverty line.",
+        "Enforced deprivation: a household lacks basic necessities because it cannot afford them, not by choice.",
+        "Consistent poverty: a household is below the poverty line and experiences enforced deprivation of at least two basic necessities.",
+        "Consistent poverty is narrower than the at-risk-of-poverty rate, because it counts only people who are both low-income and deprived."
+      ]
+    },
+    {
+      "h": "Extent of poverty in Ireland today",
+      "b": "The Central Statistics Office tracks income and deprivation annually through its Survey on Income and Living Conditions.",
+      "points": [
+        "Poverty in Ireland fell from the 1960s and 1970s onwards, but rose during the recession of the 1980s.",
+        "Poverty fell during the Celtic Tiger period of economic growth in the 1990s and early 2000s.",
+        "Poverty rose again after 2008 as unemployment soared, and rose further with high housing and living costs.",
+        "The COVID-19 pandemic increased the risk of poverty for people who lost work or income."
+      ]
+    },
+    {
+      "h": "Groups at risk of poverty",
+      "b": "Some groups face a higher risk of poverty because of low income, limited skills, or caring responsibilities.",
+      "points": [
+        "Lone-parent households, particularly those without paid work.",
+        "Unemployed people and long-term unemployed people, who depend on welfare or low-paid work.",
+        "Low-paid workers, including those on the minimum wage who may not qualify for state supports.",
+        "People with disabilities or long-term illness, who may be unable to work or face extra costs.",
+        "Older people living alone, particularly women over 65, and those in substandard homes that are expensive to heat.",
+        "Travellers and ethnic minorities, who face poor housing and discrimination in the labour market.",
+        "Refugees and asylum seekers, who may lack skills, qualifications and the right to work.",
+        "Homeless people, who face isolation and poor health.",
+        "Small farm households, which can be asset rich but cash poor and often cannot access income-based payments.",
+        "Early school leavers, and people in a cycle of deprivation who lack education and opportunity."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Poverty",
+      "definition": "A lack of adequate income and resources to meet basic needs and to take part in normal life in society."
+    },
+    {
+      "term": "Absolute poverty",
+      "definition": "Income too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened."
+    },
+    {
+      "term": "Relative poverty",
+      "definition": "Living below the standard of living that society regards as basic, which limits participation in normal activities."
+    },
+    {
+      "term": "Poverty line",
+      "definition": "An income threshold below which a household is considered to be at risk of poverty."
+    },
+    {
+      "term": "At-risk-of-poverty rate",
+      "definition": "The proportion of people whose income is below the poverty line."
+    },
+    {
+      "term": "Consistent poverty",
+      "definition": "Being below the poverty line and experiencing enforced deprivation of basic necessities."
+    },
+    {
+      "term": "Enforced deprivation",
+      "definition": "Lacking basic necessities because a household cannot afford them."
+    },
+    {
+      "term": "Median income",
+      "definition": "The middle income when all household incomes are ranked from lowest to highest."
+    },
+    {
+      "term": "Survey on Income and Living Conditions",
+      "definition": "The Central Statistics Office survey used to measure income, poverty and deprivation in Ireland."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Basic needs that a survival-level income must cover",
+      "definition": "Food, clothing, warmth and shelter."
+    },
+    {
+      "term": "Two conditions that must both apply in the combined measure of low income and deprivation",
+      "definition": "Income below the poverty line, and enforced deprivation of at least two basic necessities."
+    },
+    {
+      "term": "Three examples of basic necessities households may be unable to afford",
+      "definition": "Keeping the home adequately warm; a warm waterproof coat; a meal with meat or fish every second day."
+    },
+    {
+      "term": "Four groups most at risk of poverty in Ireland",
+      "definition": "Lone-parent households; long-term unemployed people; people with disabilities or long-term illness; Travellers."
+    },
+    {
+      "term": "Body that publishes Irish income and deprivation figures",
+      "definition": "The Central Statistics Office, through its Survey on Income and Living Conditions."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between absolute poverty and relative poverty.",
+      "model": "Absolute poverty: income is too low to meet basic needs for food, clothing, warmth and shelter, so survival is threatened; the standard is fixed and does not depend on what others in society enjoy. Relative poverty: a person lives below the standard of living society regards as basic, measured against the poverty line, so they cannot take part in normal activities that most people enjoy. Three marks for each correct explanation."
+    },
+    {
+      "marks": 24,
+      "prompt": "Examine how poverty is measured in Ireland, and describe the groups most at risk of poverty.",
+      "model": "Measures: the poverty line is set by the Central Statistics Office at 60% of median equivalised household income; the at-risk-of-poverty rate is the share of people below that line; consistent poverty combines income below the line with enforced deprivation of at least two basic necessities; the Survey on Income and Living Conditions is the source of these figures. Extent: poverty fell from the 1960s and 1970s, rose in the 1980s recession, fell during the Celtic Tiger, and rose again after 2008, with housing and living costs and the COVID-19 pandemic adding pressure. Groups at risk: lone-parent households; unemployed and long-term unemployed people; low-paid workers; people with disabilities or long-term illness; older people living alone, particularly women over 65; Travellers and ethnic minorities; refugees and asylum seekers; homeless people; early school leavers."
+    }
+  ]
+}
