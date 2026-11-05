@@ -1,0 +1,106 @@
+{
+  "loId": "hom-proteins-s2",
+  "chapterId": "hom-proteins",
+  "subsection": "2. Structure",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Primary structure",
+      "b": "The primary structure is the basic order of amino acids in a protein molecule.",
+      "points": [
+        "Primary structure is the number and sequence of amino acids in a polypeptide chain.",
+        "The amino acids are linked by peptide bonds, which form the backbone of the chain.",
+        "Primary structure determines the shape the chain can later take, so changing one amino acid in the sequence can change how the protein folds and behaves.",
+        "Settings: models made from differently coloured blocks or shapes, one colour per amino acid, joined in sequence to represent a polypeptide.",
+        "Diagram: a row of labelled amino acid blocks linked by peptide bonds to show primary structure."
+      ]
+    },
+    {
+      "h": "Secondary structure (Higher Level only)",
+      "b": "Secondary structure is the local coiling or folding of the polypeptide chain.",
+      "points": [
+        "Hydrogen bonds form between a hydrogen atom in one part of the chain and an oxygen atom in another part, in the same chain or a neighbouring chain.",
+        "Each hydrogen bond is weak, but many together hold the coil in shape.",
+        "The chain is often arranged as a spiral, which gives the protein a definite shape.",
+        "Collagen is an example in which polypeptide chains are linked by hydrogen bonds."
+      ]
+    },
+    {
+      "h": "Tertiary structure (Higher Level only)",
+      "b": "Tertiary structure is the overall three-dimensional folding of the whole polypeptide chain.",
+      "points": [
+        "Disulphide links form between the sulphur atoms of two cysteine amino acids, each containing an SH group, and can join two parts of one chain or two chains.",
+        "Salt bonds form between oppositely charged side groups on amino acids.",
+        "Hydrogen bonds add further links between sections of the folded chain.",
+        "Fibrous tertiary structure: long, straight, coiled or zig-zag chains, as in collagen.",
+        "Globular tertiary structure: the chain is folded into a compact, roughly spherical shape, as in albumin.",
+        "Breaking these bonds unfolds the tertiary structure, which is the first step in denaturation.",
+        "Diagram: a folded polypeptide showing disulphide, hydrogen and salt bonds between sections of the chain."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Primary structure",
+      "definition": "The number and sequence of amino acids in a polypeptide chain."
+    },
+    {
+      "term": "Secondary structure",
+      "definition": "The coiling or folding of a polypeptide chain into a spiral or pleated sheet, held in place by hydrogen bonds."
+    },
+    {
+      "term": "Tertiary structure",
+      "definition": "The overall three-dimensional folding of a polypeptide chain, held by disulphide, hydrogen and salt bonds."
+    },
+    {
+      "term": "Disulphide link",
+      "definition": "A bond between the sulphur atoms of two cysteine amino acids, joining two parts of a chain or two chains."
+    },
+    {
+      "term": "Hydrogen bond",
+      "definition": "A weak attraction between a hydrogen atom in one part of a chain and an oxygen atom in another part."
+    },
+    {
+      "term": "Salt bond",
+      "definition": "An attraction between oppositely charged side groups on the amino acids of a protein chain."
+    },
+    {
+      "term": "Fibrous protein",
+      "definition": "A protein whose chains are long and straight, coiled or zig-zag, giving a tough structure."
+    },
+    {
+      "term": "Globular protein",
+      "definition": "A protein whose chain is folded into a compact, roughly spherical shape."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three bonds that hold tertiary structure",
+      "definition": "Disulphide links, hydrogen bonds and salt bonds."
+    },
+    {
+      "term": "Two examples of fibrous proteins",
+      "definition": "Collagen and myosin."
+    },
+    {
+      "term": "Three globular protein examples",
+      "definition": "Albumin (egg white), myoglobin (meat) and lactalbumin (milk)."
+    },
+    {
+      "term": "Bonds forming the backbone of a polypeptide chain",
+      "definition": "Peptide bonds, formed by condensation between amino acids, which link them into a chain."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline the primary structure of a protein and name the bond that joins its amino acids.",
+      "model": "Primary structure is the number and sequence of amino acids in the polypeptide chain. The amino acids are joined by peptide bonds, formed when water is released between the carboxyl group of one amino acid and the amino group of the next. The primary structure determines the shape the chain can later take."
+    },
+    {
+      "marks": 24,
+      "prompt": "Describe the secondary and tertiary structures of protein. In your answer, name the bonds that hold each structure together and give one example of each.",
+      "model": "Secondary structure: coiling or folding of the polypeptide chain into a spiral or sheet; held by hydrogen bonds between a hydrogen atom in one part of the chain and an oxygen atom in another; many weak hydrogen bonds together hold the shape; collagen, where chains are linked by hydrogen bonds. Tertiary structure: the overall three-dimensional folding of the whole chain; held by disulphide links between two cysteine amino acids (SH groups, within one chain or between chains), salt bonds between oppositely charged side groups, and hydrogen bonds; fibrous form, long straight, coiled or zig-zag chains, e.g. collagen; globular form, a compact spherical shape, e.g. albumin. Breaking these bonds unfolds the structure, which is how denaturation begins."
+    }
+  ]
+}

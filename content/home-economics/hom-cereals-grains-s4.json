@@ -1,0 +1,133 @@
+{
+  "loId": "hom-cereals-grains-s4",
+  "chapterId": "hom-cereals-grains",
+  "subsection": "4. Preparation and cooking of cereals",
+  "syllabusRef": "1.3.2, 1.3.4",
+  "notes": [
+    {
+      "h": "Effects of heat on cereals",
+      "b": "Heat changes the starch, protein and cellulose in cereals, and the method of heating decides which change dominates.",
+      "points": [
+        "Moist heat (boiling, simmering, steaming) makes starch granules swell, burst and absorb liquid.",
+        "Dry heat (baking, roasting, frying) dries the surface and dextrinises the starch, forming a brown, crisp crust.",
+        "Dry heat also caramelises sugars in cereal products, adding colour and flavour.",
+        "Heat softens the cellulose in the bran and cell walls, so cooked cereals are easier to digest.",
+        "Heat coagulates protein, which sets the structure of batters, doughs and cooked cereals.",
+        "Heat destroys some B group vitamins, and more are lost when cereals are boiled in large volumes of water that is then discarded."
+      ]
+    },
+    {
+      "h": "Gelatinisation",
+      "b": "Gelatinisation is the thickening of starch in a liquid when it is heated.",
+      "points": [
+        "Stage 1: starch granules absorb water in the liquid and swell.",
+        "Stage 2: some starch (amylose) leaches out of the swollen granules into the liquid.",
+        "Stage 3: the mixture thickens as the swollen granules fill the liquid.",
+        "Stage 4: on further heating the granules burst, and the starch is fully gelatinised.",
+        "Flour or cornflour must be cooked long enough to gelatinise fully, otherwise the sauce tastes floury.",
+        "A roux is cooked fat and flour, mixed before the liquid is added; coating the starch granules with fat keeps the flour from forming lumps."
+      ]
+    },
+    {
+      "h": "Cooking rice and other cereals",
+      "points": [
+        "Rinsing rice removes surface starch so that the cooked grains stay separate.",
+        "Absorption method: rice is cooked in a measured amount of water until all of the water is absorbed.",
+        "Boiling method: rice is cooked in excess water, which is drained off afterwards.",
+        "Moist heat makes rice grains swell, burst and absorb liquid, and gelatinisation gives the cooked rice its soft texture.",
+        "Fibre in the grain softens during cooking, making the rice easier to digest.",
+        "B group vitamins leach into the cooking water, so use only the water needed and use the cooking liquid where practical.",
+        "Brown rice takes longer to cook than white rice because the intact bran layer slows water absorption."
+      ]
+    },
+    {
+      "h": "Raising agents",
+      "b": "A raising agent produces gas or steam that expands in the mixture during baking and is held in place as the structure sets.",
+      "points": [
+        "Physical raising agents: air is incorporated by whisking eggs or creaming fat and sugar, and it expands in the oven, as in a sponge cake.",
+        "Steam: water in a mixture turns to steam in the oven and expands the product, as in choux pastry, puff pastry and pancakes.",
+        "Biological raising agent: yeast ferments sugars in warm, moist dough, producing carbon dioxide and alcohol; gluten traps the carbon dioxide, and the dough rises during proving.",
+        "Yeast needs warmth and food to ferment and is killed by too much heat, so dough is proved in a warm place and then baked.",
+        "Bicarbonate of soda (bread soda) releases carbon dioxide when it reacts with an acid such as buttermilk, yoghurt, treacle or honey in the presence of moisture and heat.",
+        "Baking powder contains bicarbonate of soda with an acid salt and a starch filler; the acid and alkali react when moistened and heated to release carbon dioxide.",
+        "Raising agents for named products: bread uses yeast or bread soda; sponge cake uses air or baking powder; muffins use baking powder or bread soda; lemon drizzle cake uses baking powder or air."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Gelatinisation",
+      "definition": "The process in which starch granules absorb water, swell and burst when heated, thickening the liquid."
+    },
+    {
+      "term": "Dextrinisation",
+      "definition": "The breakdown of starch into dextrins by dry heat, which browns the surface of cereal products."
+    },
+    {
+      "term": "Caramelisation",
+      "definition": "The browning of sugars under dry heat, which produces colour and flavour."
+    },
+    {
+      "term": "Amylose",
+      "definition": "A type of starch that leaches out of swollen granules during gelatinisation and helps thicken a liquid."
+    },
+    {
+      "term": "Coagulation",
+      "definition": "The setting of protein by heat, which firms the structure of batters and doughs."
+    },
+    {
+      "term": "Proving",
+      "definition": "Leaving yeast dough in a warm place so that the yeast ferments and the dough rises."
+    },
+    {
+      "term": "Raising agent",
+      "definition": "A substance or process that produces gas or steam to make a baked product light and open in texture."
+    },
+    {
+      "term": "Baking powder",
+      "definition": "A chemical raising agent containing bicarbonate of soda, an acid salt and a starch filler."
+    },
+    {
+      "term": "Roux",
+      "definition": "A cooked mixture of fat and flour used as the base for thickening a sauce."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two effects of dry heat on cereal products",
+      "definition": "Dextrinisation browns and crisps the starch on the surface, and sugars caramelise."
+    },
+    {
+      "term": "Three types of raising agent",
+      "definition": "Physical (air and steam), chemical (bicarbonate of soda and baking powder) and biological (yeast)."
+    },
+    {
+      "term": "Four stages of gelatinisation",
+      "definition": "Granules absorb water and swell; amylose leaches out; the mixture thickens; granules burst on further heating."
+    },
+    {
+      "term": "Two products of yeast fermentation",
+      "definition": "Carbon dioxide and alcohol."
+    },
+    {
+      "term": "Vitamins lost into the cooking water when rice is boiled",
+      "definition": "B group vitamins."
+    },
+    {
+      "term": "Two conditions yeast needs to ferment dough",
+      "definition": "Warmth and a supply of sugar and moisture."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name a suitable raising agent for a sponge cake and for a loaf of bread, and explain how one of them produces the lift in the product.",
+      "model": "Sponge cake: air incorporated by whisking, or baking powder. Bread: yeast or bread soda. Explanation, yeast: it ferments sugars in warm, moist dough, producing carbon dioxide; gluten traps the gas, so the dough expands during proving and the gas expands further in the oven. Explanation, bread soda: it reacts with an acid in the presence of moisture and heat to release carbon dioxide."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the effects of moist and dry heat on cereals, and explain how gelatinisation thickens a white sauce made with flour.",
+      "model": "Moist heat: starch granules swell, burst and absorb liquid; cellulose softens; B group vitamins may leach into the water; protein coagulates in batters. Dry heat: starch dextrinises and the surface browns; sugars caramelise; the surface crisps; protein sets. Heat in general improves digestibility. Gelatinisation in a white sauce: fat and flour are cooked to form a roux, the liquid is added gradually to avoid lumps, and the mixture is brought to the boil; starch granules absorb water and swell, amylose leaches out, the mixture thickens as the swollen granules fill the liquid, and the granules burst with further heating. The sauce must be cooked long enough for the starch to gelatinise fully, so that it does not taste floury."
+    }
+  ]
+}

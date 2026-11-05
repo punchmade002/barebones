@@ -1,0 +1,161 @@
+{
+  "loId": "hom-digestion-metabolism-s2",
+  "chapterId": "hom-digestion-metabolism",
+  "subsection": "2. Digestion and absorption of carbohydrates",
+  "syllabusRef": "1.1.3",
+  "notes": [
+    {
+      "h": "Enzymes and hydrolysis of carbohydrates (assumed knowledge)",
+      "b": "Carbohydrate digestion is the hydrolysis of the glycosidic bonds that link sugar units.",
+      "points": [
+        "Starch is a polysaccharide made of many glucose units joined by glycosidic bonds.",
+        "Maltose is two glucose units joined together; sucrose is glucose joined to fructose; lactose is glucose joined to galactose.",
+        "Hydrolysis adds water across a glycosidic bond, splitting a disaccharide into two monosaccharides or a polysaccharide into smaller units.",
+        "Each carbohydrate-digesting enzyme acts on one substrate: amylase on starch, maltase on maltose, sucrase on sucrose and lactase on lactose.",
+        "Diagram: glucose unit linked to a second glucose unit by a glycosidic bond, with the water added during hydrolysis labelled."
+      ]
+    },
+    {
+      "h": "Mouth: starch digestion begins",
+      "points": [
+        "Organ and secretion: the salivary glands secrete saliva, which contains salivary amylase.",
+        "Substrate and product: salivary amylase hydrolyses starch into dextrins and maltose.",
+        "Digestion in the mouth is brief, because food is chewed and swallowed quickly, so much of the starch reaches the small intestine undigested.",
+        "Diagram: the alimentary canal, with the mouth, salivary glands and oesophagus labelled."
+      ]
+    },
+    {
+      "h": "Stomach: carbohydrate digestion stops",
+      "points": [
+        "The acid of the stomach, hydrochloric acid, denatures salivary amylase and stops its action on starch.",
+        "The stomach secretes no enzyme that digests carbohydrate.",
+        "Starch, dextrins and maltose leave the stomach as part of the chyme and pass into the duodenum."
+      ]
+    },
+    {
+      "h": "Small intestine: carbohydrate digestion is completed",
+      "points": [
+        "Organ and secretion: the pancreas secretes pancreatic juice, which contains pancreatic amylase.",
+        "Pancreatic amylase hydrolyses the remaining starch and dextrins into maltose.",
+        "The wall of the small intestine secretes intestinal juice, which contains maltase, sucrase and lactase.",
+        "Maltase hydrolyses maltose into two glucose molecules.",
+        "Sucrase hydrolyses sucrose into glucose and fructose.",
+        "Lactase hydrolyses lactose into glucose and galactose.",
+        "Non-starch polysaccharides (dietary fibre) are not hydrolysed by human enzymes and pass into the large intestine."
+      ]
+    },
+    {
+      "h": "Route through the alimentary canal",
+      "points": [
+        "Mouth: salivary amylase begins starch digestion.",
+        "Stomach: acid stops amylase action, and food is mixed to form chyme.",
+        "Duodenum: pancreatic amylase and intestinal juice complete digestion to monosaccharides.",
+        "Villi of the small intestine: monosaccharides are absorbed into the capillaries inside each villus.",
+        "Hepatic portal vein: carries the monosaccharides from the small intestine to the liver.",
+        "Liver: receives the glucose and galactose first, before glucose enters the general circulation.",
+        "Diagram: the digestive system, labelled mouth, stomach, pancreas, small intestine, liver and hepatic portal vein."
+      ]
+    },
+    {
+      "h": "Absorption of monosaccharides",
+      "points": [
+        "Villi increase the surface area of the small intestine wall; each villus contains a capillary network.",
+        "Glucose and galactose are absorbed by active transport, which uses energy and is coupled with sodium ions.",
+        "Fructose is absorbed by facilitated diffusion, which moves it down its concentration gradient through carrier proteins.",
+        "Monosaccharides leave the villi in the blood of the capillaries, which join to form the hepatic portal vein.",
+        "Diagram: cross-section of a villus showing the capillary network and the direction of glucose and fructose movement."
+      ]
+    },
+    {
+      "h": "Utilisation of glucose (Higher Level only)",
+      "points": [
+        "Glucose is the main fuel for the brain and red blood cells.",
+        "Cells oxidise glucose in respiration, releasing energy that is stored in ATP.",
+        "Surplus glucose is stored as glycogen, a branched polysaccharide, in the liver and muscles.",
+        "Insulin, released from the beta cells of the pancreas, promotes the uptake of glucose into cells and its storage as glycogen, which lowers blood glucose.",
+        "Glucagon, released from the alpha cells of the pancreas, causes the liver to break down glycogen and release glucose, which raises blood glucose.",
+        "When glycogen stores are full, the liver converts surplus glucose into fatty acids and triglycerides."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Salivary amylase",
+      "definition": "The enzyme in saliva that begins starch digestion in the mouth, producing dextrins and maltose."
+    },
+    {
+      "term": "Pancreatic amylase",
+      "definition": "The enzyme in pancreatic juice that hydrolyses the remaining starch into maltose in the small intestine."
+    },
+    {
+      "term": "Maltase",
+      "definition": "An intestinal enzyme that hydrolyses maltose into two glucose molecules."
+    },
+    {
+      "term": "Sucrase",
+      "definition": "An intestinal enzyme that hydrolyses sucrose into glucose and fructose."
+    },
+    {
+      "term": "Lactase",
+      "definition": "An intestinal enzyme that hydrolyses lactose into glucose and galactose."
+    },
+    {
+      "term": "Glycosidic bond",
+      "definition": "The bond that links sugar units in disaccharides and polysaccharides."
+    },
+    {
+      "term": "Dextrin",
+      "definition": "A short chain of glucose units formed when starch is partly hydrolysed."
+    },
+    {
+      "term": "Glycogen",
+      "definition": "A branched polysaccharide of glucose that the liver and muscles store for later use."
+    },
+    {
+      "term": "Insulin",
+      "definition": "The hormone from the pancreas that lowers blood glucose by promoting its uptake and storage."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three functions of the villi",
+      "definition": "They increase the surface area for absorption, contain a capillary network that takes up monosaccharides and amino acids, and contain a lacteal that absorbs fat."
+    },
+    {
+      "term": "Two ways monosaccharides pass through the wall of a villus",
+      "definition": "Active transport, used for glucose and galactose with sodium ions, and facilitated diffusion, used for fructose."
+    },
+    {
+      "term": "Enzyme that splits sucrose and its products",
+      "definition": "Sucrase, found in intestinal juice, produces glucose and fructose."
+    },
+    {
+      "term": "Products of lactose digestion",
+      "definition": "Glucose and galactose, produced by lactase in the small intestine."
+    },
+    {
+      "term": "Enzyme in saliva and the products it makes from starch",
+      "definition": "Salivary amylase produces dextrins and maltose."
+    },
+    {
+      "term": "Hormone that lowers blood glucose and where it is made",
+      "definition": "Insulin, from the beta cells of the pancreas."
+    },
+    {
+      "term": "Hormone that raises blood glucose and where it is made",
+      "definition": "Glucagon, from the alpha cells of the pancreas."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Lactose is digested in the small intestine. Name the enzyme that digests it, the secretion that contains the enzyme, and the two monosaccharides it produces. Explain why lactose must be hydrolysed before it can be absorbed by the villi.",
+      "model": "Enzyme: lactase. Secretion: intestinal juice from the wall of the small intestine. Products: glucose and galactose. Explanation: lactose is a disaccharide, and only monosaccharides are absorbed through the wall of the villi, by active transport or facilitated diffusion."
+    },
+    {
+      "marks": 18,
+      "prompt": "Trace the digestion of starch from the mouth to the small intestine. For each stage, name the secretion, the enzyme, the substrate and the product, then explain how the resulting monosaccharides are absorbed and carried to the liver.",
+      "model": "Mouth: saliva from the salivary glands; salivary amylase acts on starch to produce dextrins and maltose. Stomach: hydrochloric acid denatures salivary amylase, so digestion stops; no carbohydrate enzyme is secreted. Small intestine: pancreatic juice; pancreatic amylase acts on starch to produce maltose. Intestinal juice: maltase acts on maltose to produce glucose; sucrase acts on sucrose to produce glucose and fructose; lactase acts on lactose to produce glucose and galactose. Absorption: glucose and galactose by active transport with sodium ions; fructose by facilitated diffusion; the monosaccharides enter the capillaries of the villi, which join to form the hepatic portal vein carrying them to the liver. Fibre, a non-starch polysaccharide, passes undigested to the large intestine."
+    }
+  ]
+}

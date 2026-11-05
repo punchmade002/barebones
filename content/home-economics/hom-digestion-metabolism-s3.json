@@ -1,0 +1,156 @@
+{
+  "loId": "hom-digestion-metabolism-s3",
+  "chapterId": "hom-digestion-metabolism",
+  "subsection": "3. Digestion and absorption of lipids",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Enzymes and hydrolysis of triglycerides (assumed knowledge)",
+      "b": "A triglyceride is one glycerol molecule bonded to three fatty acid chains by ester bonds.",
+      "points": [
+        "Lipase is the enzyme that hydrolyses the ester bonds of triglycerides, splitting them into fatty acids and glycerol.",
+        "Fats do not dissolve in water, so lipase acts only at the surface of fat droplets; a larger droplet surface area speeds digestion.",
+        "Diagram: a triglyceride showing one glycerol backbone and three fatty acid chains, with the ester bonds labelled."
+      ]
+    },
+    {
+      "h": "Mouth and stomach: little fat digestion",
+      "points": [
+        "Very little fat is digested before it reaches the small intestine.",
+        "Gastric lipase in the stomach hydrolyses only a small proportion of the triglycerides.",
+        "Fat slows the emptying of the stomach, so it stays there for longer than carbohydrate or protein."
+      ]
+    },
+    {
+      "h": "Bile and emulsification in the small intestine",
+      "points": [
+        "The liver produces bile, which is stored in the gall bladder and released through the bile duct into the duodenum.",
+        "Bile is not an enzyme; its bile salts emulsify fat, breaking large fat globules into very small droplets.",
+        "Emulsification increases the surface area of the fat, so lipase can act on far more of it.",
+        "Bile is alkaline, so it neutralises the acid chyme from the stomach and creates conditions in which pancreatic enzymes can work.",
+        "Diagram: the liver, gall bladder, bile duct, pancreatic duct and duodenum, with the flow of bile labelled."
+      ]
+    },
+    {
+      "h": "Small intestine: lipid digestion is completed",
+      "points": [
+        "Organ and secretion: the pancreas secretes pancreatic juice containing lipase, and the wall of the small intestine secretes intestinal juice containing lipase.",
+        "Substrate: triglycerides in the emulsified fat droplets.",
+        "Product: lipase hydrolyses triglycerides into fatty acids and glycerol, with monoglycerides and diglycerides as intermediate products."
+      ]
+    },
+    {
+      "h": "Route through the alimentary canal",
+      "points": [
+        "Mouth and stomach: little or no lipid digestion takes place.",
+        "Duodenum: bile emulsifies the fat and pancreatic lipase hydrolyses it.",
+        "Villi and lacteals: fatty acids and monoglycerides are absorbed into the villi, and long-chain fat enters the lacteals.",
+        "Lymphatic system: lymph carries the fat from the lacteals into the thoracic duct and then into the bloodstream.",
+        "Hepatic portal vein: carries short-chain fatty acids and glycerol, absorbed directly into the capillaries, to the liver.",
+        "Liver: receives the absorbed fats and processes them before they are distributed around the body.",
+        "Diagram: the digestive system, labelled mouth, stomach, liver, gall bladder, pancreas, small intestine and hepatic portal vein."
+      ]
+    },
+    {
+      "h": "Absorption of fatty acids and glycerol",
+      "points": [
+        "Short-chain fatty acids and glycerol are absorbed into the capillaries of the villi and do not need to be rebuilt.",
+        "Long-chain fatty acids and monoglycerides diffuse into the cells lining the villi, where they are rebuilt into triglycerides.",
+        "The triglycerides are coated with protein to form chylomicrons, which are too large to enter the capillaries.",
+        "Chylomicrons pass into the lacteals, the lymph capillaries at the centre of each villus.",
+        "Lymph carries the chylomicrons through the lymphatic system into the thoracic duct, which empties into the blood near the heart."
+      ]
+    },
+    {
+      "h": "Utilisation of triglycerides (Higher Level only)",
+      "points": [
+        "Lipids travel in the blood as lipoproteins: chylomicrons carry dietary fat, and very-low-density lipoproteins (VLDL) carry fat made in the liver.",
+        "Lipoprotein lipase at the body tissues hydrolyses the triglycerides in lipoproteins into fatty acids and glycerol, which the cells take up.",
+        "Muscle cells oxidise fatty acids in respiration to release energy.",
+        "Glycerol is converted into glucose in the liver or enters glycolysis.",
+        "Surplus fatty acids are rebuilt into triglycerides and stored in adipose (fat) tissue under the skin and around organs.",
+        "The liver converts surplus carbohydrate into fatty acids and triglycerides, which it exports as VLDL."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Triglyceride",
+      "definition": "A lipid made of one glycerol molecule bonded to three fatty acid chains."
+    },
+    {
+      "term": "Lipase",
+      "definition": "The enzyme that hydrolyses the ester bonds of triglycerides into fatty acids and glycerol."
+    },
+    {
+      "term": "Bile",
+      "definition": "An alkaline fluid made by the liver, stored in the gall bladder and released into the duodenum to emulsify fat."
+    },
+    {
+      "term": "Emulsification",
+      "definition": "The breaking of large fat globules into very small droplets, which increases the surface area for lipase."
+    },
+    {
+      "term": "Bile salts",
+      "definition": "The compounds in bile that emulsify fat in the small intestine."
+    },
+    {
+      "term": "Chylomicron",
+      "definition": "A droplet of triglyceride coated with protein, formed in the villi and carried in lymph."
+    },
+    {
+      "term": "Lacteal",
+      "definition": "A lymph capillary at the centre of each villus that absorbs fat."
+    },
+    {
+      "term": "Lipoprotein",
+      "definition": "A particle of lipid and protein that transports fats in the blood."
+    },
+    {
+      "term": "Glycerol",
+      "definition": "The three-carbon alcohol that forms the backbone of a triglyceride."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three functions of bile",
+      "definition": "It emulsifies fat, neutralises acid chyme from the stomach, and carries waste products such as bilirubin out of the body."
+    },
+    {
+      "term": "Products of lipid digestion in the small intestine",
+      "definition": "Fatty acids and glycerol, with some monoglycerides."
+    },
+    {
+      "term": "Organs that secrete lipase into the small intestine",
+      "definition": "The pancreas, in pancreatic juice, and the wall of the small intestine, in intestinal juice."
+    },
+    {
+      "term": "Form in which long-chain fat leaves the villi",
+      "definition": "Chylomicrons, which enter the lacteals."
+    },
+    {
+      "term": "Vessel that carries short-chain fatty acids to the liver",
+      "definition": "The hepatic portal vein."
+    },
+    {
+      "term": "Where bile is made and where it is stored",
+      "definition": "It is made by the liver and stored in the gall bladder."
+    },
+    {
+      "term": "Stage at which most fat is first digested",
+      "definition": "The small intestine, where bile emulsifies it and lipase hydrolyses it."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline how dietary fat is emulsified and digested in the small intestine. Name the secretions involved and state the role of each.",
+      "model": "Bile from the liver, stored in the gall bladder and released into the duodenum, contains bile salts that emulsify fat into very small droplets, increasing its surface area. Bile is alkaline and neutralises acid chyme. Pancreatic juice from the pancreas and intestinal juice from the wall of the small intestine contain lipase, which hydrolyses triglycerides into fatty acids and glycerol."
+    },
+    {
+      "marks": 24,
+      "prompt": "Trace the route of dietary fat from the mouth to the body tissues. Name the organ, secretion, enzyme, substrate and product at each digestive stage, explain how the products are absorbed and carried through the body, and describe how the liver and body tissues use the absorbed fat.",
+      "model": "Mouth and stomach: little fat digestion; gastric lipase hydrolyses a small proportion of triglycerides. Small intestine: liver produces bile, stored in gall bladder, released into duodenum; bile salts emulsify fat, increasing surface area; bile is alkaline and neutralises chyme. Pancreatic juice and intestinal juice contain lipase, which hydrolyses triglycerides to fatty acids and glycerol. Absorption: short-chain fatty acids and glycerol enter the villus capillaries and the hepatic portal vein; long-chain fatty acids and monoglycerides are rebuilt into triglycerides in the villus cells, coated with protein to form chylomicrons, and enter the lacteals. Lymph carries chylomicrons through the thoracic duct into the blood. Liver: processes absorbed fats and produces VLDL. Body tissues: lipoprotein lipase releases fatty acids and glycerol; muscle cells oxidise fatty acids in respiration for energy; glycerol is converted to glucose or enters glycolysis; surplus fat is stored in adipose tissue."
+    }
+  ]
+}

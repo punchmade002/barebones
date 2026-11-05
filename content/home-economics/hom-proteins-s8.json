@@ -1,0 +1,123 @@
+{
+  "loId": "hom-proteins-s8",
+  "chapterId": "hom-proteins",
+  "subsection": "8. Energy value",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Energy value of protein",
+      "b": "Protein provides energy, but its main role is growth and repair, so it is a supplementary energy source.",
+      "points": [
+        "Protein provides 17 kJ, or 4 kcal, of energy per gram.",
+        "Carbohydrate provides 16 kJ, or 3.75 kcal, per gram; fat provides 37 kJ, or 9 kcal, per gram; alcohol provides 29 kJ, or 7 kcal, per gram.",
+        "Fat provides more than twice as much energy per gram as protein.",
+        "Protein is used mainly for energy when carbohydrate and fat intake is too low to meet energy needs.",
+        "Surplus protein is used for energy after the body's needs for growth, repair and body proteins are met."
+      ]
+    },
+    {
+      "h": "Contribution to the average diet",
+      "b": "Protein is one of the three nutrients that supply energy, and its contribution depends on how many grams are eaten.",
+      "points": [
+        "Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol.",
+        "Lean meat and fish supply protein with little energy, because they contain little fat.",
+        "Full-fat milk, cheese and fatty meat supply protein together with considerable fat and therefore more energy.",
+        "Pulses supply protein along with carbohydrate and fibre, and little fat."
+      ]
+    },
+    {
+      "h": "Calculating energy from protein",
+      "points": [
+        "1. Find the grams of protein in the food or portion from its nutrition label or a food composition table.",
+        "2. Multiply the grams of protein by 17 kJ, or by 4 kcal, to find the energy in that portion.",
+        "Sample data: a portion with 25 g of protein gives 25 x 17 = 425 kJ, or 25 x 4 = 100 kcal.",
+        "3. Add the energy from protein, carbohydrate, fat and alcohol to find the total energy of the portion."
+      ]
+    },
+    {
+      "h": "Deamination (Higher Level only)",
+      "b": "Deamination removes the nitrogen from surplus amino acids so that their carbon skeleton can be used for energy.",
+      "points": [
+        "Amino acids cannot be stored as protein, so surplus amino acids are carried to the liver.",
+        "In the liver, the amino group (NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.",
+        "The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic.",
+        "Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.",
+        "Adequate fluid intake is needed so that the kidneys can excrete the urea.",
+        "The remaining carbon skeleton, which carries the COOH group, is oxidised in respiration to release energy.",
+        "Surplus carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Supplementary energy source",
+      "definition": "A nutrient that provides energy only when carbohydrate and fat do not meet energy needs, or when protein is in surplus to the body's needs for growth and repair."
+    },
+    {
+      "term": "Deamination",
+      "definition": "The removal of the amino group from surplus amino acids in the liver, so that the remaining carbon skeleton can be used for energy."
+    },
+    {
+      "term": "Amino group",
+      "definition": "The nitrogen-containing group, NH₂, that is removed from an amino acid during deamination."
+    },
+    {
+      "term": "Ammonia",
+      "definition": "A highly toxic nitrogen compound formed when the amino group is removed from an amino acid."
+    },
+    {
+      "term": "Urea",
+      "definition": "A much less toxic compound formed in the liver from ammonia and carbon dioxide, and excreted by the kidneys in urine."
+    },
+    {
+      "term": "Carbon skeleton",
+      "definition": "The part of an amino acid that remains after the amino group is removed, which can be oxidised for energy or converted to glucose or fat."
+    },
+    {
+      "term": "Glycogen",
+      "definition": "The stored form of glucose in the liver and muscles, which can be broken down to release glucose when energy is needed."
+    },
+    {
+      "term": "Adipose tissue",
+      "definition": "Body tissue made of fat cells that stores energy as fat."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Energy in kilojoules per gram of protein",
+      "definition": "17 kJ per gram."
+    },
+    {
+      "term": "Energy in kilocalories per gram of protein",
+      "definition": "4 kcal per gram."
+    },
+    {
+      "term": "Three nutrients that supply energy",
+      "definition": "Protein, carbohydrate and fat."
+    },
+    {
+      "term": "Nitrogenous waste of deamination and its route out of the body",
+      "definition": "Urea, formed in the liver from ammonia and carbon dioxide, is filtered by the kidneys and excreted in urine."
+    },
+    {
+      "term": "Three fates of the carbon skeleton after deamination",
+      "definition": "It is oxidised in respiration for energy; it is converted to glucose and stored as glycogen; or it is converted to fat and stored in adipose tissue."
+    },
+    {
+      "term": "Energy in kilocalories per gram of fat, compared with protein",
+      "definition": "9 kcal per gram, more than twice the 4 kcal per gram of protein."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how protein contributes to the body's energy supply, and give the energy value of protein in kilojoules and kilocalories per gram.",
+      "model": "Protein provides 17 kJ, or 4 kcal, per gram. It is a supplementary energy source: it is used for energy when carbohydrate and fat intake is too low, and when protein is in surplus to the needs for growth, repair and body proteins. Surplus amino acids cannot be stored as protein, so they are deaminated and their carbon skeleton is oxidised for energy or converted to glucose or fat."
+    },
+    {
+      "marks": 18,
+      "prompt": "Describe the deamination of surplus protein, naming the organ involved, the toxic and non-toxic nitrogen compounds formed, and the route by which the waste leaves the body.",
+      "model": "Surplus amino acids are carried to the liver, where the amino group is removed. This forms ammonia, which is highly toxic. The liver combines ammonia with carbon dioxide to form urea, which is much less toxic. Urea enters the blood, is filtered from the blood by the kidneys and is excreted in urine, so adequate fluid is needed. The remaining carbon skeleton, which contains the COOH group, is oxidised during respiration to release energy, or is converted to glucose and stored as glycogen, or to fat and stored in adipose tissue. Deamination allows energy to be recovered from surplus protein while the nitrogen is removed safely."
+    }
+  ]
+}
