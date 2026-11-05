@@ -1159,6 +1159,5465 @@
    }
   ]
  },
+ "ch10-s1": {
+  "keyTerms": [
+   {
+    "definition": "The set of resources, activities and partners a business uses to create and deliver its product or service.",
+    "term": "Operational model"
+   },
+   {
+    "definition": "The physical, human, intellectual and financial assets a business must have to operate.",
+    "term": "Key resources"
+   },
+   {
+    "definition": "The core work a business performs to deliver value, such as production, problem-solving or running a platform.",
+    "term": "Key activities"
+   },
+   {
+    "definition": "External organisations, such as suppliers and allies, that a business relies on to operate.",
+    "term": "Key partners"
+   },
+   {
+    "definition": "A cooperative agreement between independent businesses to share resources or markets without merging.",
+    "term": "Strategic alliance"
+   },
+   {
+    "definition": "Paying an external organisation to perform an activity the business would otherwise do itself.",
+    "term": "Outsourcing"
+   },
+   {
+    "definition": "Making one-off items to a customer's specification.",
+    "term": "Job production"
+   },
+   {
+    "definition": "Making a group of identical items in one run before changing to a different product.",
+    "term": "Batch production"
+   },
+   {
+    "definition": "Making large volumes of standard items, usually on a continuous line.",
+    "term": "Mass production"
+   },
+   {
+    "definition": "Physical, human, intellectual and financial.",
+    "term": "Types of key resource"
+   },
+   {
+    "definition": "Production, problem-solving and platform or network.",
+    "term": "Three types of key activity"
+   },
+   {
+    "definition": "Growth, new technology, cost pressure, sustainability goals and supply-chain shocks.",
+    "term": "Reasons an operational model changes"
+   },
+   {
+    "definition": "It gives access to specialist skills and can turn some fixed costs into variable payments.",
+    "term": "Benefit of paying an outside firm for a task"
+   },
+   {
+    "definition": "Supply disruption and loss of bargaining power if the supplier fails or raises prices.",
+    "term": "Risk of relying on a single supplier"
+   },
+   {
+    "definition": "A custom-built yacht or a bespoke suit.",
+    "term": "Example of one-off custom making"
+   },
+   {
+    "definition": "Cars or tinned food made in volume on a continuous line.",
+    "term": "Example of an assembly line"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The operational model sets out how a business creates and delivers its product or service: the resources it uses, the work it does and the outside organisations it relies on. On the business model canvas these correspond to the key resources, key activities and key partnerships blocks, which connect to the cost structure.",
+    "h": "The operational model",
+    "points": [
+     "Key resources are the assets a business must have in order to operate, and they fall into four types.",
+     "Physical resources are tangible assets such as buildings, vehicles, machinery and stock.",
+     "Human resources are the skills, experience and effort of employees and owners.",
+     "Intellectual resources are non-physical assets such as patents, trademarks, brand names, software and know-how.",
+     "Financial resources are the cash, credit and investment available to fund operations."
+    ]
+   },
+   {
+    "b": "Key activities are the core work a business performs to deliver value to its customers.",
+    "h": "Key activities",
+    "points": [
+     "Production activities make or assemble the product, such as baking bread or assembling furniture in a factory.",
+     "Problem-solving activities deal with individual customer needs, such as a consultancy designing a bespoke solution for one client.",
+     "Platform or network activities maintain a system that others use, such as an online marketplace that matches buyers and sellers.",
+     "A business can have more than one key activity, such as a software firm that combines platform maintenance with customer support."
+    ]
+   },
+   {
+    "b": "Key partners are the external organisations a business relies on to operate. The type of relationship decides how much control the business keeps.",
+    "h": "Key partners",
+    "points": [
+     "Suppliers provide raw materials, components or services, and the business depends on them for timely, quality inputs.",
+     "Strategic alliances are cooperative agreements between businesses that remain independent, such as two airlines sharing routes.",
+     "Outsourcing means paying an external firm to perform an activity such as payroll, cleaning or IT support.",
+     "Key partners give a business access to resources or capabilities it does not have in house."
+    ]
+   },
+   {
+    "b": "The production method describes how output is organised, and it shapes the resources and activities a business needs.",
+    "h": "Production methods",
+    "points": [
+     "Job production makes one-off items to a customer's specification, such as a custom yacht or a tailored suit.",
+     "Batch production makes a group of identical items in one run before switching to a different product, such as a bakery running a batch of loaves and then a batch of rolls.",
+     "Mass production makes large volumes of standard items, usually on a continuous line, such as cars or tinned food.",
+     "Job production relies on skilled workers and flexible equipment, while mass production relies on specialised machinery and steady, high demand."
+    ]
+   },
+   {
+    "b": "The operational model is not fixed. It changes as the business and its environment change.",
+    "h": "Why the operational model changes",
+    "points": [
+     "Growth can push a business from job production towards batch or mass production as orders become larger and more predictable.",
+     "New technology, such as automation or cloud software, can replace manual activities and change which resources matter most.",
+     "Cost pressure can lead a business to outsource activities or switch to cheaper suppliers.",
+     "Sustainability goals can lead a business to change suppliers or processes, such as choosing certified materials or cutting packaging waste.",
+     "Supply-chain shocks, such as a shortage of components, can push a business to find a second supplier or hold more stock."
+    ]
+   },
+   {
+    "b": "A change to one part of the operational model usually affects the others and the cost base.",
+    "h": "Evaluating changes to the model",
+    "points": [
+     "Relying on one key partner creates risk, because a failure or price rise by that partner can halt production.",
+     "Outsourcing can cut costs and bring in expertise, but the business has less direct control over quality and timing.",
+     "Investing in new resources such as machinery adds capacity but also adds fixed costs that sales must cover.",
+     "The key resources, key activities and key partners on the canvas work together, so a new partner usually changes activities and costs too."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "Key resources: physical resources such as a kitchen, jars and a delivery van; human resources in the owner and two part-time staff; intellectual resources in the recipes and brand name; financial resources in savings and a small bank overdraft. Key activities: batch production of jam in the kitchen, which is a production activity, and running the website, which is a platform activity. Key partners: a fruit grower, a glass-jar supplier and a courier. As the business grows, orders become larger and more predictable, so it may move to bigger production runs and invest in equipment. If the fruit grower cannot supply enough, the business will need a second supplier, which changes its key partners. Outsourcing deliveries to a courier would free staff time for production, so the activities mix would shift as well.",
+    "prompt": "Describe the operational model of a small Irish business that makes artisan jam and sells through local shops and its own website. Explain why this model may change as the business grows.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Key partners are the external organisations a business relies on to operate. A supplier relationship is one type: a bakery that buys flour from a mill depends on that mill for an essential input. A strategic alliance is a second type: two independent firms agree to share a distribution network in a foreign market while each remains a separate business.",
+    "prompt": "Define key partners and outline two types of key partnership, giving an example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch10-s2": {
+  "keyTerms": [
+   {
+    "definition": "Costs that stay the same in total whatever the level of output in the short run.",
+    "term": "Fixed costs"
+   },
+   {
+    "definition": "Costs that rise or fall directly with the level of output.",
+    "term": "Variable costs"
+   },
+   {
+    "definition": "The sum of all fixed and variable costs at a given level of output.",
+    "term": "Total cost"
+   },
+   {
+    "definition": "Costs incurred before a business begins trading, such as equipment, fit-out and legal fees.",
+    "term": "Start-up costs"
+   },
+   {
+    "definition": "A source of income that a business earns from customers or other parties.",
+    "term": "Revenue stream"
+   },
+   {
+    "definition": "Income a business earns repeatedly from the same customers over time, such as subscription fees.",
+    "term": "Recurring revenue"
+   },
+   {
+    "definition": "The level of output at which total revenue equals total cost, so profit is zero.",
+    "term": "Break-even point"
+   },
+   {
+    "definition": "Selling price per unit minus variable cost per unit, which goes towards covering fixed costs.",
+    "term": "Contribution per unit"
+   },
+   {
+    "definition": "Rent, insurance and salaries of permanent staff.",
+    "term": "Three overheads that do not change with output"
+   },
+   {
+    "definition": "It has a fixed standing charge as well as a charge that rises with usage.",
+    "term": "Why electricity is classed as semi-variable"
+   },
+   {
+    "definition": "Introduction, growth, maturity and decline.",
+    "term": "Four stages of the product life cycle"
+   },
+   {
+    "definition": "Subscriptions, licensing, usage fees and advertising.",
+    "term": "Four common forms of recurring income"
+   },
+   {
+    "definition": "Profit is very sensitive to any fall in sales.",
+    "term": "Main risk of a large overhead base"
+   },
+   {
+    "definition": "Costs are paid before the sales they support turn into cash.",
+    "term": "Common reason a growing business runs short of cash"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Costs are classified by how they behave as output changes. Each cost belongs to one group, so learn the test for each.",
+    "h": "Fixed and variable costs",
+    "points": [
+     "Fixed costs stay the same in total whatever the level of output in the short run, such as rent, insurance and the salaries of permanent staff.",
+     "Variable costs change directly with output, such as raw materials, packaging and wages paid per item made.",
+     "Electricity is semi-variable, because it has a fixed standing charge as well as a charge that rises with usage.",
+     "Total cost equals fixed costs plus variable costs at a given level of output."
+    ]
+   },
+   {
+    "b": "Costs can also be grouped by when they arise in the life of the business.",
+    "h": "Start-up and running costs",
+    "points": [
+     "Start-up costs are incurred before trading begins, such as legal fees, fit-out of premises, equipment and initial stock.",
+     "Running costs are the ongoing costs of operating once trading starts, such as wages, rent, utilities and marketing.",
+     "Start-up costs are usually one-off, so they weigh heavily on cash in the early months.",
+     "A business that underestimates its running costs can run short of cash even when sales are growing."
+    ]
+   },
+   {
+    "b": "A revenue stream is a source of income. The main difference between streams is how often the customer pays.",
+    "h": "Revenue streams",
+    "points": [
+     "A one-off transaction is a single sale where the customer pays once, such as buying a laptop or a meal in a restaurant.",
+     "A recurring stream brings in income repeatedly, which makes cash flow easier to predict.",
+     "A subscription is a regular fee for continued access to a product or service, such as a monthly gym membership.",
+     "Licensing earns fees for letting others use intellectual property such as a brand, patent or software.",
+     "Usage fees charge customers according to how much they use a service, such as a per-unit charge for mobile data.",
+     "Advertising revenue comes from selling space or airtime to other businesses, which is how many free apps and websites earn their income."
+    ]
+   },
+   {
+    "b": "Profit is what remains when costs are deducted from revenue. Break-even is the output at which total revenue equals total cost.",
+    "h": "Profit and break-even",
+    "points": [
+     "Profit equals total revenue minus total costs.",
+     "Contribution per unit is the selling price minus the variable cost per unit, and it goes towards covering fixed costs.",
+     "Break-even quantity equals fixed costs divided by contribution per unit.",
+     "Sample figures: fixed costs of €6,000, a selling price of €15 and a variable cost of €9 give a contribution of €6 and a break-even of 1,000 units.",
+     "Above break-even each extra unit adds to profit, while below it the business makes a loss."
+    ]
+   },
+   {
+    "b": "Costs and revenues change as a product, and the business as a whole, moves through its life cycle.",
+    "h": "Changes through the life cycle",
+    "points": [
+     "In the introduction stage sales are low, promotion costs are high and the business may make a loss.",
+     "In the growth stage sales rise quickly and unit costs fall as output increases, so profit grows.",
+     "In the maturity stage sales level off, competition increases and price pressure reduces margins.",
+     "In the decline stage sales fall, so the business may cut costs, narrow its range or withdraw the product.",
+     "Over the business life cycle the mix of costs and revenue streams shifts too, and a mature firm may rely more on recurring income."
+    ]
+   },
+   {
+    "b": "The mix of costs and revenue streams affects a business's risk as well as its profit.",
+    "h": "Evaluation",
+    "points": [
+     "A business dependent on one-off sales has less predictable cash flow than one with recurring income.",
+     "High fixed costs make profit sensitive to changes in sales, so a small fall in sales can turn a profit into a loss.",
+     "Moving to subscriptions can build customer loyalty, but customers may cancel if the service stops providing value."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Classification: rent, insurance and permanent staff salaries are fixed; coffee beans, milk, cups and packaging are variable; electricity is semi-variable. Start-up: the espresso machine, fit-out, licences, legal fees and initial stock, all paid before the first sale. Running: rent, utilities, staff wages and marketing that continue once trading starts. Revenue: mainly one-off sales of coffee, which could be supplemented by recurring income from a loyalty subscription or regular sales of bags of beans. Life cycle: in the introduction stage marketing spend is high and sales low, so a loss is likely; in the growth stage sales rise and unit costs fall; in the maturity stage competition squeezes prices, so the owner must control costs closely.",
+    "prompt": "A café owner is opening a coffee shop in Galway. Classify the main costs as fixed, variable or semi-variable, distinguish start-up costs from running costs, and explain how costs and revenue would change as the shop moves through the business life cycle.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Contribution per unit is €20 minus €12, which is €8. Break-even quantity is €10,000 divided by €8, which is 1,250 units. Above 1,250 units each additional unit adds €8 to profit, because the contribution covers the unit's own variable cost and the fixed costs have already been covered.",
+    "prompt": "A business has fixed costs of €10,000, a selling price of €20 per unit and a variable cost of €12 per unit. Calculate its break-even quantity and explain what happens to profit above that level of output.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch10-s3": {
+  "keyTerms": [
+   {
+    "definition": "An agreed facility that lets a current account go below zero up to a set limit, with interest charged only on the amount used.",
+    "term": "Bank overdraft"
+   },
+   {
+    "definition": "Delayed payment granted by a supplier, so that goods can be paid for after they have been received.",
+    "term": "Trade credit"
+   },
+   {
+    "definition": "Selling unpaid customer invoices to a factor for immediate cash, minus a fee, with the factor usually collecting the debts.",
+    "term": "Factoring"
+   },
+   {
+    "definition": "A loan borrowed for a fixed period and repaid in regular instalments of capital and interest.",
+    "term": "Term loan"
+   },
+   {
+    "definition": "Paying a deposit and then instalments for an asset, and owning it only after the final payment.",
+    "term": "Hire purchase"
+   },
+   {
+    "definition": "Equity finance from specialist investors who back high-growth businesses in return for a share and some influence.",
+    "term": "Venture capital"
+   },
+   {
+    "definition": "A wealthy individual who invests personal money in an early-stage business, often also giving advice.",
+    "term": "Business angel"
+   },
+   {
+    "definition": "Profits kept in the business rather than paid out to owners.",
+    "term": "Retained earnings"
+   },
+   {
+    "definition": "Raising small sums from a large number of people, usually online, in return for a reward or a share.",
+    "term": "Crowdfunding"
+   },
+   {
+    "definition": "Bank overdraft, trade credit, accrued expenses, factoring and credit card.",
+    "term": "Five short-term sources"
+   },
+   {
+    "definition": "Owner's equity, share capital, venture capital, business angels and retained earnings.",
+    "term": "Long-term equity sources"
+   },
+   {
+    "definition": "Long-term loans and debentures.",
+    "term": "Long-term debt sources"
+   },
+   {
+    "definition": "Preserves cash and gives use of an asset without a large upfront payment.",
+    "term": "Main advantage of leasing"
+   },
+   {
+    "definition": "Owner's savings, family and friends, micro-loans and grants.",
+    "term": "Sources a start-up typically relies on"
+   },
+   {
+    "definition": "Retained earnings, share issues and long-term debt.",
+    "term": "Sources a mature business typically relies on"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Short-term finance covers day-to-day needs and is normally repaid within a year.",
+    "h": "Short-term finance",
+    "points": [
+     "A bank overdraft lets a current account go below zero up to an agreed limit, with interest charged only on the amount used.",
+     "The bank can usually ask for an overdraft to be repaid at short notice, so it is a flexible but less secure source.",
+     "Trade credit lets a business pay a supplier after receiving goods, which is free within the agreed period but late payment can damage the relationship and bring charges.",
+     "Accrued expenses are costs such as wages or electricity that are incurred now and paid later, so they give free short-term finance.",
+     "Factoring means selling unpaid customer invoices to a factor for immediate cash, minus a fee, and the factor usually collects the debts.",
+     "Invoice discounting works like factoring, but the business keeps responsibility for collecting from its customers.",
+     "A credit card gives short-term borrowing, but interest on unpaid balances is often high, so it suits small or temporary needs."
+    ]
+   },
+   {
+    "b": "Medium-term finance pays for assets that last a few years, such as vehicles or equipment.",
+    "h": "Medium-term finance",
+    "points": [
+     "A term loan is borrowed for a fixed period, usually from a bank, and repaid in regular instalments of capital and interest.",
+     "Term loans are often secured on business assets, so the lender can take them if repayments are missed.",
+     "Leasing lets a business use an asset, such as a van or machine, by paying regular rentals, and the business does not own the asset.",
+     "Leasing preserves cash for other uses, but total payments can exceed the cost of buying the asset outright.",
+     "Hire purchase is similar to leasing, but the business pays a deposit and instalments and owns the asset once the final payment is made."
+    ]
+   },
+   {
+    "b": "Equity is money put into the business by owners or shareholders. It does not have to be repaid, but the providers share control and profit.",
+    "h": "Long-term equity",
+    "points": [
+     "Owner's equity is capital the owner puts into the business from savings or personal assets.",
+     "Share capital is money raised by issuing shares, so investors become part-owners and may receive dividends.",
+     "Venture capital is equity from specialist investment firms that back high-growth businesses and usually expect a large return and a say in decisions.",
+     "Business angels are wealthy individuals who invest their own money in early-stage businesses, often giving advice as well.",
+     "Retained earnings are profits kept in the business rather than paid out, so they carry no interest and no loss of control."
+    ]
+   },
+   {
+    "b": "Long-term debt is borrowed over several years, while grants and crowdfunding do not add repayment obligations on the same terms.",
+    "h": "Long-term debt and other sources",
+    "points": [
+     "Long-term loans are borrowed over several years and are usually used to fund premises or major expansion.",
+     "Debentures are long-term loans secured on the business's assets, with fixed interest paid to the holders.",
+     "Grants are funds from state agencies or other bodies that do not need to be repaid, but they usually come with conditions; state schemes are covered elsewhere in this course.",
+     "Crowdfunding raises small amounts from many people, either in return for a reward or in exchange for a share of the business."
+    ]
+   },
+   {
+    "b": "The best source depends on what the money is for and how much control the owners are willing to give up.",
+    "h": "Choosing a source",
+    "points": [
+     "Match the term of finance to the purpose: short-term finance for working capital, long-term finance for fixed assets.",
+     "Debt keeps ownership intact, but the fixed interest and repayments are a cash outflow the business must meet even in a weak year.",
+     "Equity brings no obligation to repay or pay interest, but it dilutes ownership and profit for existing owners.",
+     "Start-ups without assets or a trading record often struggle to get bank lending, which pushes them towards equity, grants or crowdfunding.",
+     "Owners weigh cost, control and risk together, so the cheapest source is not always the best one for the business."
+    ]
+   },
+   {
+    "b": "A business uses different sources as it moves from start-up to growth to maturity.",
+    "h": "How sources change over the lifecycle",
+    "points": [
+     "At start-up a business relies on owner's savings, family and friends, micro-loans and grants, because outside investors see a high risk.",
+     "In the growth stage it needs larger sums for expansion, so it turns to venture capital, bank loans and share issues.",
+     "At maturity it can fund most needs from retained earnings and may raise long-term debt or issue shares for large projects.",
+     "A proven track record makes lenders more willing to lend, which reduces the perceived risk for both sides."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "A term loan gives ownership of the van at the end, with fixed repayments of capital and interest. The loan is often secured on business assets, and the repayments must be met even in a quiet month. Leasing needs no large upfront sum and preserves cash for ingredients and wages, but the bakery never owns the van and total payments can exceed the purchase price. Recommendation: if the bakery has steady income and wants to own the van, a term loan is better; if cash is tight in the first year, leasing protects working capital and is the safer choice.",
+    "prompt": "A bakery owner needs €30,000 to buy a delivery van and is choosing between a term loan and leasing. Compare the two options and recommend one, giving reasons.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "At start-up the business has no trading record and a high level of risk, so specialist venture capital investors, who expect high growth and a say in decisions, are unlikely to invest. Owner's savings are available without an outside investor's approval, and grants need no repayment. Micro-loans are small and suit a limited first plan without giving up any share of the business.",
+    "prompt": "Explain why a start-up is more likely to use owner's savings, grants and micro-loans than venture capital at the outset.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch10-s4": {
+  "keyTerms": [
+   {
+    "definition": "A month-by-month prediction of cash receipts, payments and balances over a future period.",
+    "term": "Cash-flow forecast"
+   },
+   {
+    "definition": "Total receipts minus total payments for a period.",
+    "term": "Net cash flow"
+   },
+   {
+    "definition": "The cash held at the start of a period.",
+    "term": "Opening balance"
+   },
+   {
+    "definition": "The cash held at the end of a period, which becomes the next period's opening figure.",
+    "term": "Closing balance"
+   },
+   {
+    "definition": "A period in which payments exceed receipts, which reduces the balance and can leave it negative.",
+    "term": "Cash deficit"
+   },
+   {
+    "definition": "Customers who owe the business money for goods or services supplied on credit.",
+    "term": "Debtors"
+   },
+   {
+    "definition": "The ability of a business to pay its short-term bills as they fall due.",
+    "term": "Liquidity"
+   },
+   {
+    "definition": "Borrowing against unpaid customer invoices, where the business keeps responsibility for collecting the debts.",
+    "term": "Invoice discounting"
+   },
+   {
+    "definition": "Opening balance, receipts, payments, net cash flow and closing balance.",
+    "term": "Five rows of a monthly forecast"
+   },
+   {
+    "definition": "Seasonality, late payment by debtors and large one-off payments.",
+    "term": "Three common causes of a cash shortfall"
+   },
+   {
+    "definition": "Delaying or rescheduling payments, such as agreeing longer terms with suppliers.",
+    "term": "Remedy that moves a payment out of a deficit month"
+   },
+   {
+    "definition": "Profit records income and costs when earned or incurred; cash records money actually received and paid.",
+    "term": "Difference between cash and profit"
+   },
+   {
+    "definition": "Costs are paid before the sales they support turn into cash.",
+    "term": "Common reason a growing business runs short of cash"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A cash-flow forecast predicts the money coming in and going out of a business each month, so the owner can see when cash will run short.",
+    "h": "Purpose of a cash-flow forecast",
+    "points": [
+     "It shows when cash will run short, which gives time to arrange finance before a bill cannot be paid.",
+     "Lenders expect a forecast when a business applies for finance, because it shows how repayments will be met.",
+     "It lets an owner test a decision, such as buying equipment or giving customers longer credit, before committing to it.",
+     "It is usually prepared monthly for the next twelve months and updated as actual figures come in."
+    ]
+   },
+   {
+    "b": "A cash-flow forecast has a standard layout, with the same lines in the same order each month.",
+    "h": "Layout of the forecast",
+    "points": [
+     "The opening balance is the cash held at the start of the month.",
+     "Receipts are all the cash coming in, such as cash sales, payments from debtors and any capital introduced.",
+     "Payments are all the cash going out, such as stock, wages, rent, loan repayments and equipment.",
+     "Net cash flow is total receipts minus total payments for the month.",
+     "The closing balance is the opening balance plus net cash flow, and it becomes the next month's opening balance."
+    ]
+   },
+   {
+    "b": "The worked example uses invented sample figures for a small café over January to March. Each bullet is one figure from the forecast.",
+    "h": "Worked example: receipts and payments",
+    "points": [
+     "Sample figures, opening balance January: €2,000.",
+     "Sample figures, receipts January: cash sales of €7,000.",
+     "Sample figures, receipts February: cash sales of €5,000.",
+     "Sample figures, receipts March: cash sales of €9,000.",
+     "Sample figures, payments January: stock €3,000, wages €2,500, rent €1,000, utilities €500, total €7,000.",
+     "Sample figures, payments February: stock €2,500, wages €2,500, rent €1,000, utilities €500, oven purchase €4,000, total €10,500.",
+     "Sample figures, payments March: stock €3,500, wages €2,500, rent €1,000, utilities €500, total €7,500."
+    ]
+   },
+   {
+    "b": "Net cash flow is receipts minus payments each month, and each closing balance carries forward to the next month.",
+    "h": "Worked example: net flow and balances",
+    "points": [
+     "Sample figures, net cash flow January: €7,000 minus €7,000, which is €0.",
+     "Sample figures, net cash flow February: €5,000 minus €10,500, which is minus €5,500.",
+     "Sample figures, net cash flow March: €9,000 minus €7,500, which is €1,500.",
+     "Sample figures, closing balance January: €2,000 plus €0, which is €2,000.",
+     "Sample figures, closing balance February: €2,000 minus €5,500, which is minus €3,500.",
+     "Sample figures, closing balance March: minus €3,500 plus €1,500, which is minus €2,000."
+    ]
+   },
+   {
+    "b": "Reading the forecast means finding the months in deficit and working out the cause before choosing a remedy.",
+    "h": "Reading the forecast",
+    "points": [
+     "A month is in deficit when its closing balance is negative, meaning the business needs an overdraft or another form of borrowing.",
+     "In the sample figures February is the deficit month, and the cause is the €4,000 oven purchase rather than normal trading.",
+     "Seasonality, such as quieter trading in winter for a seaside café, can cause deficits in predictable months.",
+     "Late payment by debtors delays receipts, so a business can have sales on paper but no cash in the bank that month.",
+     "Repeated deficits across several months point to a structural problem, such as prices set too low, rather than a one-off event."
+    ]
+   },
+   {
+    "b": "Remedies should match the cause. A one-off gap needs different action from a shortfall that keeps recurring.",
+    "h": "Remedies",
+    "points": [
+     "Arranging an overdraft in advance agrees the limit before it is needed, which avoids the higher charges of an unarranged overdraft.",
+     "Delaying or rescheduling payments, such as agreeing longer terms with a supplier, moves a payment out of the deficit month.",
+     "Chasing debtors with prompt invoices, deposits or reminders brings receipts forward.",
+     "Sample figures, if the oven is leased at €500 a month from February instead of bought, February closes at €0 and March at €1,000.",
+     "Cutting costs, such as reducing stock or staff hours, helps only where the saving does not reduce sales.",
+     "Injecting capital through extra owner's equity or a share issue adds cash without adding loan repayments.",
+     "Invoice discounting or factoring turns unpaid invoices into immediate cash, at the cost of a fee."
+    ]
+   },
+   {
+    "b": "Cash and profit measure different things, and a business can be profitable on paper and still run out of cash.",
+    "h": "Cash versus profit",
+    "points": [
+     "Profit records income and costs when they are earned or incurred, whereas cash flow records money actually received and paid.",
+     "Credit sales count as revenue when the sale is made, but the cash arrives only when the customer pays.",
+     "A profitable business can run out of cash if its customers pay late or its loan repayments are high.",
+     "Cash-flow forecasts are used to manage liquidity, while profit figures show whether the business earns a return."
+    ]
+   },
+   {
+    "b": "A forecast is an estimate, so its reliability depends on the assumptions behind it.",
+    "h": "Evaluation",
+    "points": [
+     "A small error in the sales estimate can change a whole month's position, so sales assumptions need the most care.",
+     "A worst-case version of the forecast shows how much cash cushion the business needs before it commits to a plan.",
+     "Remedies have their own costs, such as overdraft interest or discounts given to customers for early payment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "June: net cash flow is €8,000 minus €6,500, which is €1,500, so the closing balance is €1,000 plus €1,500, which is €2,500. July: net cash flow is €6,000 minus €9,000, which is minus €3,000, so the closing balance is €2,500 minus €3,000, which is minus €500. July is the deficit month. August: net cash flow is €9,000 minus €6,000, which is €3,000, so the closing balance is minus €500 plus €3,000, which is €2,500. Recommendation: arrange an overdraft of at least €500 before July, which suits a short, one-off gap better than a long-term loan; alternatively, move €500 of July payments into August, when receipts recover. The business should also confirm that the July payment pattern will not repeat before choosing a longer-term fix.",
+    "prompt": "A shop forecasts these figures. June: receipts €8,000, payments €6,500. July: receipts €6,000, payments €9,000. August: receipts €9,000, payments €6,000. The opening balance for June is €1,000. Calculate the closing balance for each month, identify any deficit and recommend a suitable course of action.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Profit is revenue minus costs, recorded when sales are made and costs are incurred, so it includes credit sales that have not yet been paid. Cash flow records only money actually received and paid in the period. A profitable business can run out of cash if many customers pay late, because the sales count as profit but the cash has not arrived. It can also happen when a large loan repayment or equipment purchase falls due before the sales it funds have turned into cash.",
+    "prompt": "Explain the difference between cash flow and profit, and explain how a profitable business might still run out of cash.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch11-s1": {
+  "keyTerms": [
+   {
+    "definition": "A business that sells the same or very similar products to the same customers.",
+    "term": "Direct competitor"
+   },
+   {
+    "definition": "A business that meets the same customer need in a different way.",
+    "term": "Indirect competitor"
+   },
+   {
+    "definition": "A feature that lets a business outperform rivals and earn more or keep its customers.",
+    "term": "Competitive advantage"
+   },
+   {
+    "definition": "Being the lowest-cost producer in a market, so a firm can price lower or earn a higher margin.",
+    "term": "Cost leadership"
+   },
+   {
+    "definition": "Offering something customers value that rivals do not match, such as quality, brand, design or service.",
+    "term": "Differentiation"
+   },
+   {
+    "definition": "A framework for analysing industry competition through new entrants, suppliers, customers, substitutes and rivalry.",
+    "term": "Porter's five forces"
+   },
+   {
+    "definition": "Obstacles that make it difficult or costly for new firms to enter a market.",
+    "term": "Barriers to entry"
+   },
+   {
+    "definition": "The time, money or effort a customer or business incurs when changing to a different supplier.",
+    "term": "Switching costs"
+   },
+   {
+    "definition": "The fall in average cost per unit as output increases, which favours larger firms.",
+    "term": "Economies of scale"
+   },
+   {
+    "definition": "New entrants, supplier power, customer power, substitutes and competitive rivalry.",
+    "term": "The competitive forces, in order"
+   },
+   {
+    "definition": "Cost, differentiation and focus.",
+    "term": "Three sources of an edge over rivals"
+   },
+   {
+    "definition": "Low capital needs and easy access to distribution.",
+    "term": "Factor that raises the threat of new entrants"
+   },
+   {
+    "definition": "Few suppliers, or a unique input the business cannot easily replace.",
+    "term": "Factor that raises supplier power"
+   },
+   {
+    "definition": "Many similar-sized competitors, slow market growth and high fixed costs.",
+    "term": "Factor that raises rivalry"
+   },
+   {
+    "definition": "Direct and indirect.",
+    "term": "Two types of competitor"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A competitor is any business that competes for the same customers or spending. Identifying competitors early shapes pricing, marketing and strategy.",
+    "h": "Identifying competitors",
+    "points": [
+     "Direct competitors sell the same or very similar products to the same customers, such as two coffee shops on the same street.",
+     "Indirect competitors meet the same customer need in a different way, such as a juice bar competing with a coffee shop for a morning purchase.",
+     "Potential competitors, including firms that could enter the market, matter as much as current ones.",
+     "Knowing competitors helps a business set realistic prices, spot gaps in the market and anticipate price cuts or new products."
+    ]
+   },
+   {
+    "b": "Competitive advantage is a feature that lets a business outperform its rivals, and it is the basis of a sustainable strategy.",
+    "h": "Competitive advantage",
+    "points": [
+     "Cost leadership means producing at a lower cost than rivals, so the business can price lower or earn a higher margin.",
+     "Differentiation means offering something customers value and rivals do not match, such as brand, quality, design or service.",
+     "Focus means concentrating on a narrow market segment, either by cost or by differentiation, and serving it better than wider competitors.",
+     "A business capitalises on its advantage by protecting it, promoting it to customers and reinvesting the extra profit in further strengths."
+    ]
+   },
+   {
+    "b": "New entrants add capacity and compete for customers, so the threat is high when barriers to entry are low.",
+    "h": "Threat of new entrants",
+    "points": [
+     "High capital requirements, such as expensive plant or premises, deter new entrants.",
+     "Economies of scale give established firms lower unit costs, which makes entry at small scale difficult.",
+     "Strong brand loyalty and high switching costs make it harder for newcomers to win customers.",
+     "Licences, patents and regulation keep out some firms, and an incumbent's likely retaliation can deter entry as well.",
+     "Low start-up costs and easy access to customers, such as selling online, make the threat of new entrants high."
+    ]
+   },
+   {
+    "b": "Suppliers have power over a business when they can raise prices, cut quality or refuse to supply.",
+    "h": "Bargaining power of suppliers",
+    "points": [
+     "Few suppliers in the market, or a supplier offering a unique input, give suppliers high power because the business has few alternatives.",
+     "High switching costs, such as retraining staff or redesigning products to use another input, increase the business's dependence.",
+     "A supplier that could sell directly to the business's customers, which is forward integration, gains extra leverage.",
+     "Supplier power is low when there are many suppliers of standard inputs and the business buys in volume, because it can move between them."
+    ]
+   },
+   {
+    "b": "Customers have power when they can push prices down or demand higher quality.",
+    "h": "Bargaining power of customers",
+    "points": [
+     "A few large buyers that purchase in volume, such as a major supermarket group, can demand discounts from suppliers.",
+     "Standard products with many substitutes make customers price-sensitive and willing to switch.",
+     "Low switching costs, such as easy price comparison online, increase customer power.",
+     "Customer power is low when buyers are many and fragmented, and when the product is differentiated and hard to replace."
+    ]
+   },
+   {
+    "b": "A substitute meets the same need in a different way. The threat is high when substitutes offer similar value at a lower price.",
+    "h": "Threat of substitutes",
+    "points": [
+     "A substitute can be a different product, such as bottled water replacing a soft drink to quench thirst.",
+     "A substitute becomes more threatening as its price-performance ratio improves, such as online services replacing high-street services.",
+     "The threat is low when no close alternative exists or when switching to one costs the customer a lot.",
+     "Industries with many close substitutes face pressure to keep prices low and to keep innovating."
+    ]
+   },
+   {
+    "b": "Rivalry is the intensity of competition among firms that already operate in the market.",
+    "h": "Competitive rivalry",
+    "points": [
+     "Many competitors of similar size make rivalry intense, because no single firm dominates.",
+     "Slow market growth means firms must take share from each other, which increases rivalry.",
+     "High fixed costs push firms to fill their capacity, so they cut prices to win volume.",
+     "Low differentiation makes price the main basis of competition.",
+     "High exit barriers, such as specialised assets that cannot be sold, keep loss-making firms in the market."
+    ]
+   },
+   {
+    "b": "The five forces are a framework for judging how attractive an industry is and where a firm's advantage should lie.",
+    "h": "Applying the five forces",
+    "points": [
+     "Scoring each force as high, medium or low gives a quick picture of industry attractiveness.",
+     "Attractiveness is greatest where entry barriers are high, supplier and customer power are low, substitutes are few and rivalry is moderate.",
+     "The firm should then choose the advantage that best fits the forces it faces, such as cost leadership where buyers are price-sensitive."
+    ]
+   },
+   {
+    "b": "This worked example applies the five forces to the Irish grocery market using general, qualitative judgements.",
+    "h": "Worked analysis: the Irish grocery market",
+    "points": [
+     "New entrants: the threat is low to medium, because large store sites, buying scale and established brand loyalty are costly to match, although online grocers face lower site costs.",
+     "Suppliers: power is medium, because large food brands bargain strongly, while the main chains buy in volume and can switch between many suppliers for standard goods.",
+     "Customers: power is high, because shoppers can compare prices easily, switching costs are low and the main chains compete hard on price.",
+     "Substitutes: the threat is medium, because restaurants, convenience stores, markets and online delivery meet food needs in part.",
+     "Rivalry: intensity is high, because several large chains and discount operators compete in a mature market where growth comes mainly from taking share.",
+     "Conclusion: the market is only moderately attractive because margins are squeezed, so a firm needs a clear advantage, such as the low-cost model of the discounters or a focused niche like premium fresh food or convenience formats."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "New entrants: small studios are cheap to open, so the threat is high, although the chain's brand and buying scale give some protection. Suppliers: equipment makers are few and specialised, so supplier power is moderate, but the chain can negotiate because it buys in volume. Customers: members can switch gyms easily and many options exist, so customer power is high and retention matters. Substitutes: running clubs, home workouts and team sports meet fitness needs, so the threat is significant. Rivalry: several established gyms compete on price and facilities, so rivalry is high. Advantage: the chain should build differentiation through strong community classes and personal coaching, supported by lower unit costs from scale buying.",
+    "prompt": "A chain of gyms is planning to enter a new Irish city. Analyse the competitive forces it would face using Porter's five forces, and identify the competitive advantage the chain should build.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Cost leadership means having the lowest costs in the market, so the firm competes mainly on price. Differentiation means offering something rivals do not match, so the firm competes on quality, branding or experience and can charge a premium. A small craft brewery has limited scale and cannot match the unit costs of large brewers, so it is more likely to pursue differentiation through distinctive recipes, local branding and taproom experiences that build loyal customers.",
+    "prompt": "Distinguish between cost leadership and differentiation, and explain which a small Irish craft brewery would be more likely to pursue, giving reasons.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch11-s2": {
+  "keyTerms": [
+   {
+    "definition": "Spreading a business's risk by adding products or markets that do not all move together.",
+    "term": "Diversification"
+   },
+   {
+    "definition": "Expansion funded and managed from within the business's own resources.",
+    "term": "Organic growth"
+   },
+   {
+    "definition": "Expansion through combining with or buying other businesses.",
+    "term": "Inorganic growth"
+   },
+   {
+    "definition": "Licensing a business model, brand and system to independent operators who pay fees and royalties.",
+    "term": "Franchising"
+   },
+   {
+    "definition": "The combination of two firms into one new business.",
+    "term": "Merger"
+   },
+   {
+    "definition": "One firm buying control of another firm, usually by acquiring a majority of its shares.",
+    "term": "Takeover"
+   },
+   {
+    "definition": "A cooperative agreement between independent firms to share resources or markets without merging.",
+    "term": "Strategic alliance"
+   },
+   {
+    "definition": "A new, separate business jointly owned and run by two or more firms, which share its costs and profits.",
+    "term": "Joint venture"
+   },
+   {
+    "definition": "Growing sales faster than the working capital available to fund them, which leads to a cash shortage.",
+    "term": "Overtrading"
+   },
+   {
+    "definition": "Renting computing power, storage and software over the internet instead of owning them.",
+    "term": "Cloud computing"
+   },
+   {
+    "definition": "Economies of scale, market share, diversification of risk and survival.",
+    "term": "Four reasons to expand"
+   },
+   {
+    "definition": "E-commerce and marketplaces, automation, cloud, data and AI, and remote working.",
+    "term": "Five technologies that support growth"
+   },
+   {
+    "definition": "It often needs a premium over market value and carries integration risk.",
+    "term": "Main drawback of buying another firm outright"
+   },
+   {
+    "definition": "Shared risk and access to the partner's expertise.",
+    "term": "Main advantage of sharing a new business with a partner"
+   },
+   {
+    "definition": "Sales rising quickly while cash falls and short-term borrowing climbs.",
+    "term": "Early warning sign of a cash squeeze after rapid growth"
+   },
+   {
+    "definition": "The franchisor loses direct control over quality and service.",
+    "term": "Main risk of licensing your brand to outlets"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Expansion is a decision to grow output, markets or products. Each reason below is a motive for growth.",
+    "h": "Why businesses expand",
+    "points": [
+     "Economies of scale lower the average cost per unit as output rises, through bulk buying, specialised equipment and spreading fixed overheads.",
+     "Growing market share increases bargaining power and brand recognition.",
+     "Diversification spreads risk, so a fall in one product or market does not sink the whole business.",
+     "Growth can be necessary for survival, because a growing competitor may squeeze a small firm out of the market."
+    ]
+   },
+   {
+    "b": "Organic (internal) growth uses the firm's own resources. It is slower than external growth but keeps control within the firm.",
+    "h": "Organic strategies",
+    "points": [
+     "New product development adds products to the range, building on the firm's existing brand and skills.",
+     "Entering new markets means selling existing or new products to new customer groups or places.",
+     "Increasing capacity means investing in more premises, machinery or staff so the firm can produce more.",
+     "Franchising out lets the firm grow by licensing its brand and system to franchisees, who pay fees and royalties.",
+     "Exporting sells goods or services abroad, either directly or through agents or distributors."
+    ]
+   },
+   {
+    "b": "Organic strategies suit firms that want steady growth and tight control, but they can be too slow when a market is moving fast.",
+    "h": "Advantages and disadvantages of organic growth",
+    "points": [
+     "Organic growth avoids paying a purchase premium and keeps decisions within the existing business.",
+     "Organic growth is slow, and the firm may lack the skills or capital to enter new markets quickly.",
+     "Franchising spreads the capital needed for growth across franchisees, but the franchisor loses direct control over quality and service.",
+     "Exporting adds transport and distribution costs and reduces the firm's direct control over how its product is sold abroad.",
+     "A new product can fail if customers do not accept it, which is why demand should be tested before the firm commits."
+    ]
+   },
+   {
+    "b": "Inorganic (external) growth combines with or buys other businesses. It is fast but brings integration risk.",
+    "h": "Inorganic strategies",
+    "points": [
+     "A merger joins two firms into one new combined business, usually to gain scale and share skills.",
+     "A takeover or acquisition is when one firm buys control of another, which may be agreed with the target's board or forced on it.",
+     "A strategic alliance is a cooperation agreement between independent firms that share resources or markets without merging.",
+     "A joint venture creates a separate new business owned jointly by two or more firms, which share its costs, risks and profits."
+    ]
+   },
+   {
+    "b": "Each external strategy trades speed for control, and the trade-off differs between a full merger and a looser alliance.",
+    "h": "Advantages and disadvantages of inorganic growth",
+    "points": [
+     "Mergers and takeovers give rapid access to customers, markets and skills that would take years to build.",
+     "Acquisitions are costly, often requiring a premium over market value, and may be financed with debt or share issues.",
+     "Culture clashes and integration problems can destroy the value a merger was meant to create.",
+     "Strategic alliances are flexible and cheap to set up, but disputes over control and the risk of a partner learning the firm's methods are drawbacks.",
+     "Joint ventures share risk and bring in partner expertise, but conflicting goals and slow joint decisions are common problems.",
+     "Large mergers and takeovers may need clearance from the Competition and Consumer Protection Commission, which can delay or block them."
+    ]
+   },
+   {
+    "b": "Expansion into an international market needs checks that a domestic expansion does not.",
+    "h": "Before expanding abroad",
+    "points": [
+     "Market research must show real demand for the product in the target country, not just assumed demand.",
+     "Legal and regulatory requirements, such as product standards and tax rules, must be met before selling.",
+     "Exchange rate movements change the euro value of sales and costs, so currency risk must be assessed.",
+     "Cultural and language differences can affect the product, its packaging and the promotion message."
+    ]
+   },
+   {
+    "b": "Expansion costs money, so the source of finance should match the scale and time horizon of the project.",
+    "h": "Financing expansion",
+    "points": [
+     "The sources of finance covered earlier in this course apply here, and the choice should match how long the investment takes to pay back.",
+     "Long-term assets such as premises suit long-term finance, while a temporary build-up of stock suits short-term borrowing such as an overdraft.",
+     "Funding expansion from retained earnings avoids interest and loss of control, but growth is then limited to what profits allow."
+    ]
+   },
+   {
+    "b": "Technology lets a business reach more customers, cut costs and make better decisions without the same investment in physical capacity.",
+    "h": "Technology that supports growth",
+    "points": [
+     "E-commerce and online marketplaces let a small firm sell to national or international customers quickly.",
+     "Automation, such as robotic production or automated stock management, raises output without matching increases in labour.",
+     "Cloud computing lets a firm rent computing power and software as needed, so it can scale up without buying servers.",
+     "Data and AI tools help predict demand, personalise offers and spot trends faster than manual analysis.",
+     "Remote working widens the pool of workers a firm can hire and can reduce the need for office space."
+    ]
+   },
+   {
+    "b": "Rapid growth can break a business that has not built the systems to manage it.",
+    "h": "Risks of growing too fast",
+    "points": [
+     "Overtrading happens when sales grow faster than the working capital needed to fund them, so the firm runs short of cash despite healthy sales.",
+     "Quality can fall when production or service is stretched across more customers and new staff.",
+     "Management may be overstretched, with decisions made too slowly for a larger organisation.",
+     "Rapid growth funded by heavy borrowing increases fixed repayments and the risk of default.",
+     "Growth can dilute the brand and culture the business was built on."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Organic option one: a new product range, such as a children's line, built on existing manufacturing skills; it is low-cost and controlled but builds sales slowly. Organic option two: exporting to the UK using existing production; it opens a larger market but adds transport costs and currency risk. Inorganic option one: a takeover of a smaller furniture maker, which gives instant market access and staff but needs finance, a premium price and integration effort. Inorganic option two: a joint venture with a retailer to sell in a new region, which shares risk and brings retail expertise but requires agreement on control. Recommendation: launch the new range first, because it builds on current skills at low risk, and move to exporting once cash flow allows.",
+    "prompt": "A family-owned Irish furniture manufacturer wants to grow. Compare two organic and two inorganic strategies it could use, and recommend one with justification.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Cloud computing lets the business rent software and computing power as needed, so it can handle more orders or customers without buying servers; the benefit is a lower upfront investment. Automation, such as automated stock management, raises output or speeds processing without matching increases in staff; the benefit is a lower labour cost per unit as volume grows.",
+    "prompt": "Explain how cloud computing and automation can support a small business's growth, giving one benefit of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch11-s3": {
+  "keyTerms": [
+   {
+    "definition": "A method of comparing the expected costs of a decision with its expected benefits to decide whether it is worthwhile.",
+    "term": "Cost-benefit analysis"
+   },
+   {
+    "definition": "A cost or benefit that can be measured and expressed in money.",
+    "term": "Tangible item"
+   },
+   {
+    "definition": "A cost or benefit that is real but difficult to measure in money, such as reputation or staff morale.",
+    "term": "Intangible item"
+   },
+   {
+    "definition": "The value of the next best alternative given up when a choice is made.",
+    "term": "Opportunity cost"
+   },
+   {
+    "definition": "The time taken for cumulative net benefits to recover the initial outlay.",
+    "term": "Payback period"
+   },
+   {
+    "definition": "A cost that does not involve a direct outflow of money, such as lost staff time or disruption to existing customers.",
+    "term": "Non-financial cost"
+   },
+   {
+    "definition": "Any individual or group affected by a business decision, such as staff, customers, suppliers or the local community.",
+    "term": "Stakeholder"
+   },
+   {
+    "definition": "Total benefits minus total costs for a decision over a stated period.",
+    "term": "Net benefit"
+   },
+   {
+    "definition": "Identify the decision, list costs and benefits, quantify, compare, decide.",
+    "term": "Five stages of the comparison"
+   },
+   {
+    "definition": "Brand reputation and staff morale.",
+    "term": "Two intangible factors in an expansion decision"
+   },
+   {
+    "definition": "It depends on forecasts, which may be wrong, and intangible effects are hard to value.",
+    "term": "Main weakness of the comparison method"
+   },
+   {
+    "definition": "Total benefits exceed total costs over the period chosen.",
+    "term": "Test for accepting an expansion project"
+   },
+   {
+    "definition": "Using cash for a new site means the same cash cannot fund marketing or stock.",
+    "term": "Illustration of giving up an alternative"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Cost-benefit analysis compares the expected costs of a decision with its expected benefits, so the business can judge whether the decision is worth making.",
+    "h": "What cost-benefit analysis is",
+    "points": [
+     "It makes the business weigh the downside of a decision as well as the upside, which guards against decisions based only on optimism.",
+     "It can be applied to any major decision, such as opening a new site, buying a rival or launching a product.",
+     "Its result depends on forecasts, so it is only as good as the figures entered."
+    ]
+   },
+   {
+    "b": "The method follows five stages, which should be completed in order.",
+    "h": "Steps in the analysis",
+    "points": [
+     "Identify the decision and the alternatives being compared.",
+     "List all costs and benefits, both financial and non-financial, for the firm and for stakeholders such as staff, customers and the local community.",
+     "Quantify each item where possible by giving it a money value.",
+     "Compare total benefits with total costs over the period chosen.",
+     "Decide, and justify the decision by reference to the comparison and to any non-financial factors."
+    ]
+   },
+   {
+    "b": "Items in the analysis fall into two groups, and each needs a different kind of treatment.",
+    "h": "Tangible and intangible items",
+    "points": [
+     "Tangible items can be measured in money, such as sales revenue, equipment cost and rent.",
+     "Intangible items are real but hard to measure in money, such as brand reputation, staff morale and customer goodwill.",
+     "Intangible items should still be listed, because leaving them out can distort the decision.",
+     "A common approach is to estimate a money value for an intangible item, or to record it as a qualitative factor in the final recommendation."
+    ]
+   },
+   {
+    "b": "Two further factors change the comparison: what is given up by choosing an option, and when costs and benefits arise.",
+    "h": "Opportunity cost and timing",
+    "points": [
+     "Opportunity cost is the value of the next best alternative given up when a choice is made, such as using the cash to fund marketing instead.",
+     "Start-up costs such as a fit-out usually arise before benefits, so the timing of costs and benefits affects the comparison.",
+     "A short-term view looks at the first year's cash position, while a longer view counts benefits over several years."
+    ]
+   },
+   {
+    "b": "The example uses invented sample figures for a bakery deciding whether to open a second shop in Galway. Sales are held at the same level in each year after the opening.",
+    "h": "Worked example: investment figures and yearly results",
+    "points": [
+     "Sample figures, one-off costs in year 1: fit-out and equipment €180,000, initial marketing €15,000.",
+     "Sample figures, annual running costs: rent €36,000, wages €60,000, and ingredients and packaging €90,000, which is 30 per cent of sales.",
+     "Sample figures, annual sales from the Galway shop: €300,000 in each year.",
+     "Sample figures, year 1: benefits €300,000, costs €381,000 (€180,000 + €15,000 + €36,000 + €60,000 + €90,000), net result minus €81,000.",
+     "Sample figures, year 2: benefits €300,000, costs €186,000 (€36,000 + €60,000 + €90,000), net result €114,000.",
+     "Sample figures, year 3: benefits €300,000, costs €186,000, net result €114,000.",
+     "Sample figures, three-year total: minus €81,000 + €114,000 + €114,000, which is €147,000."
+    ]
+   },
+   {
+    "b": "The remaining steps test how quickly the outlay is recovered and whether the result survives a fall in sales.",
+    "h": "Worked example: payback, sensitivity and decision",
+    "points": [
+     "Sample figures, payback: the cumulative position moves from minus €81,000 at the end of year 1 to €33,000 at the end of year 2, so the outlay is recovered in year 2.",
+     "Sample figures, sensitivity: if sales fall 10 per cent to €270,000 a year and ingredients fall to €81,000, the three-year total is €84,000, which is still positive.",
+     "Non-financial benefits include new jobs in Galway, a stronger brand presence in the west and management experience for staff.",
+     "Non-financial costs include the management time the owners must give to the Galway project, which may slow the development of the existing Limerick shop.",
+     "Recommendation: proceed, because the three-year result stays positive even if sales fall 10 per cent, and the outlay is recovered in year 2, provided a staffing plan limits disruption to the Limerick shop."
+    ]
+   },
+   {
+    "b": "The method is a useful guide, but its result has limits that the decision-maker should state.",
+    "h": "Limitations of cost-benefit analysis",
+    "points": [
+     "Results depend on forecasts, which can be wrong, particularly sales forecasts for a new location.",
+     "Intangible effects are hard to value, so the final figure may leave out factors that matter most to stakeholders.",
+     "The choice of time period can change the answer: a short period may hide benefits that arrive later, while a long one relies on distant forecasts.",
+     "The result shows a net gain but not the risk of failure or the cash the firm must find before benefits start to arrive.",
+     "The analysis takes time and money to prepare, which may not be worthwhile for small, low-risk decisions."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Financial costs: the purchase price, including any premium over market value, refurbishment and integration costs, and interest on borrowed funds. Financial benefits: extra room revenue, savings from shared purchasing and any rise in occupancy. Non-financial costs: uncertainty for the staff of both hotels, a possible competition review and a clash of brands. Non-financial benefits: a larger presence in Kerry and a stronger position with tour operators. Quantification: estimate each money item over several years, value intangible factors where possible, then compare total benefits with total costs and calculate the net benefit. Recommendation: proceed only if the net benefit stays positive when occupancy is lower than forecast and the regulatory review is cleared.",
+    "prompt": "A hotel group is deciding whether to buy a rival hotel in Kerry. Identify the main financial and non-financial costs and benefits, explain how the analysis would be quantified, and recommend a decision.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Opportunity cost is the value of the next best alternative given up when a choice is made. If the business commits its funds to a new shop, the opportunity cost is the output and profit the production line it did not build would have generated.",
+    "prompt": "Explain the term opportunity cost and give one example relevant to a business choosing between two expansion projects.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch11-s4": {
+  "keyTerms": [
+   {
+    "definition": "Changes outside a business, such as customer tastes, competitors, technology and regulation, that affect how it operates.",
+    "term": "External drivers"
+   },
+   {
+    "definition": "The seven Ps used to plan a business's offering: product or service, pricing, promotion, people, packaging, process and place.",
+    "term": "Marketing mix"
+   },
+   {
+    "definition": "The ability of a business to keep earning enough to cover its costs and fund its future.",
+    "term": "Financial sustainability"
+   },
+   {
+    "definition": "Measurable characteristics of a population, such as age, household size and income level.",
+    "term": "Demographics"
+   },
+   {
+    "definition": "The way a business creates, delivers and captures value, including its revenue streams and cost structure.",
+    "term": "Business model"
+   },
+   {
+    "definition": "A situation where a new product takes sales away from an existing product of the same business.",
+    "term": "Cannibalisation"
+   },
+   {
+    "definition": "A business model in which customers pay a regular fee for continued access to a product or service.",
+    "term": "Subscription model"
+   },
+   {
+    "definition": "A programme that rewards repeat customers, such as with points or discounts, to encourage them to keep buying.",
+    "term": "Loyalty scheme"
+   },
+   {
+    "definition": "Social, technological, economic, environmental, political, legal and ethical factors.",
+    "term": "The STEEPLE checklist"
+   },
+   {
+    "definition": "Product or service, pricing, promotion, people, packaging, process and place.",
+    "term": "The seven Ps"
+   },
+   {
+    "definition": "A launch promotion and free samples.",
+    "term": "Remedy for low awareness of a new product"
+   },
+   {
+    "definition": "A phased launch in one region before a wider roll-out.",
+    "term": "Remedy for high development costs of a new product"
+   },
+   {
+    "definition": "Local radio, community centres and printed flyers.",
+    "term": "Ways to reach older customers"
+   },
+   {
+    "definition": "Customers pay on a set schedule, which smooths income across the year.",
+    "term": "Why regular payments help cash flow"
+   }
+  ],
+  "notes": [
+   {
+    "b": "External drivers are changes outside the business that force it to adapt. STEEPLE is a checklist for finding them, and the aim of adapting is to keep the business financially sustainable.",
+    "h": "External drivers and financial sustainability",
+    "points": [
+     "Customer demographics, such as an ageing population or a rise in single-person households, change what customers buy and how they buy.",
+     "Competition, including new entrants and substitutes, changes the prices and features a business needs to match.",
+     "Economic factors, such as inflation, interest rates and consumer incomes, change both costs and customers' spending power.",
+     "Technological, legal and environmental drivers, such as new digital channels, a rise in the minimum wage or stricter packaging rules, change costs and customer expectations.",
+     "A business that adapts early keeps its revenue and cost structure under control, while one that waits may be forced into deep cuts."
+    ]
+   },
+   {
+    "b": "The product or service is the first lever, and changes here affect what customers see and what it costs to provide.",
+    "h": "Adapting the product or service",
+    "points": [
+     "Changing the range to meet demand, such as a restaurant adding plant-based dishes as customer preferences shift.",
+     "Adjusting the offer for a customer group, such as smaller portions for older customers with smaller appetites.",
+     "Dropping low-selling or high-cost lines to protect margin when input costs rise."
+    ]
+   },
+   {
+    "b": "Price changes need care, because a rise that customers reject can lose more sales than it gains.",
+    "h": "Adapting price",
+    "points": [
+     "Passing on cost rises through price increases works only if customers still see the offer as good value.",
+     "Value packs and bundles keep customers buying when household budgets tighten.",
+     "Loyalty discounts or subscriptions give a regular price in return for commitment from the customer."
+    ]
+   },
+   {
+    "b": "Promotion should follow the channels customers actually use as their habits change.",
+    "h": "Adapting promotion",
+    "points": [
+     "Moving spending from print to digital channels, such as social media or email, when customers change how they find products.",
+     "Reaching older customers through channels they use, such as local newspapers or community noticeboards, rather than online adverts alone.",
+     "Using loyalty schemes and personal offers to keep existing customers when a competitor opens nearby."
+    ]
+   },
+   {
+    "b": "Staffing and operations often offset rising costs, but they must be managed with care.",
+    "h": "Adapting people and process",
+    "points": [
+     "People: retraining staff or hiring for new skills, such as online order handling, so the workforce matches new demands.",
+     "People: flexible rosters or part-time contracts help manage wage costs when labour costs rise, though they can affect staff morale.",
+     "Process: self-ordering screens or app-based ordering reduce the staff needed per sale, which offsets part of a higher wage bill.",
+     "Process: tighter stock control cuts waste and cost without changing what the customer receives."
+    ]
+   },
+   {
+    "b": "Packaging and place decide how the product reaches customers and how it is presented.",
+    "h": "Adapting packaging and place",
+    "points": [
+     "Packaging: eco-friendly materials respond to sustainability goals, and smaller or resealable packs suit single-person households.",
+     "Place: online ordering, delivery or click-and-collect extends the business's reach beyond its premises.",
+     "Place: opening in a town where the population is growing follows demographic change, rather than waiting for the local market to shrink."
+    ]
+   },
+   {
+    "b": "The business model is the widest response. It changes how the business earns money and what it does itself.",
+    "h": "Adapting the business model",
+    "points": [
+     "New revenue streams, such as catering, merchandise or meal kits, add income that does not depend on the core product alone.",
+     "New channels, such as a listing on a marketplace or a delivery partnership, widen the route to customers.",
+     "A subscription model turns some one-off sales into regular payments, which makes income easier to forecast.",
+     "Outsourcing non-core activities, such as payroll, delivery or cleaning, turns some fixed costs into variable payments and frees managers' time."
+    ]
+   },
+   {
+    "b": "A restaurant facing a rise in the minimum wage can combine several adaptations rather than rely on one.",
+    "h": "Worked example: rising labour costs in a restaurant",
+    "points": [
+     "The direct effect is higher labour costs, which squeeze the margin if prices and staffing stay the same.",
+     "Pricing: a modest price rise on main dishes, with a value lunch option kept, passes on part of the cost while protecting the price-sensitive lunchtime trade.",
+     "Process: tablet ordering at tables reduces the number of staff needed to take orders, which offsets part of the wage rise.",
+     "Product: a shorter menu built on shared ingredients cuts waste and speeds up service in the kitchen.",
+     "Business model: a weekly meal subscription for local office workers adds regular income to quieter weekday periods.",
+     "Evaluation: the changes take time to set up and may not fully offset the cost, so the owner should track margins after each one."
+    ]
+   },
+   {
+    "b": "A café in a town whose population is ageing adapts several parts of the marketing mix together.",
+    "h": "Worked example: an ageing population in a town",
+    "points": [
+     "Product: smaller portions, softer foods and a quieter seating area suit older customers.",
+     "Place: step-free access and accessible toilets make the café easier to use.",
+     "Promotion: flyers in community centres and local radio reach older customers who may not use social media.",
+     "Business model: a morning coffee club with a fixed monthly fee gives regular, predictable income."
+    ]
+   },
+   {
+    "b": "Introducing a new product carries risks that the business should plan for before launch.",
+    "h": "Challenges of launching a new product",
+    "points": [
+     "Low customer awareness can be tackled with a launch promotion and free samples.",
+     "High development and launch costs can be managed with a phased launch in one region before a wider roll-out.",
+     "Cannibalisation, where the new product takes sales from an existing line, can be limited by positioning it at a different customer group or price point.",
+     "Supply problems can be reduced by agreeing supplier capacity with key partners before the launch."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Product: stock more gift and local-interest titles and run author events, which are harder to replicate online. Price: offer a loyalty card or a paid membership with discounts, which builds repeat custom. Place: add an online store with click-and-collect, so the shop's premises are used for both browsing and collection. Business model: add new revenue streams such as café sales or paid workshops, and outsource online order delivery to a courier to avoid fixed delivery costs. Financial sustainability is the aim, so each change should be tested against its cost and cash flow before the bookshop commits to it.",
+    "prompt": "A small Irish bookshop faces rising rents and a shift of customers to online shopping. Explain how it could adapt its marketing mix and business model to protect its financial sustainability.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "The first challenge is cannibalisation, where the new product takes sales from existing lines and lowers overall margin. The business can address it by positioning the new product at a different customer group or price point, so the range widens rather than simply replacing sales. The second challenge is the high development and launch cost, which strains cash. The business can reduce the risk with a phased launch in one region first, measuring sales before a national roll-out.",
+    "prompt": "A business plans to launch a new product that may take sales from its existing range. Explain two challenges this creates and how the business could address them.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch12-s1": {
+  "keyTerms": [
+   {
+    "definition": "The chance that an event will harm a business or prevent it from achieving its objectives.",
+    "term": "Risk"
+   },
+   {
+    "definition": "The process of identifying, assessing, responding to and monitoring risks so that a business can protect itself and pursue its goals.",
+    "term": "Risk management"
+   },
+   {
+    "definition": "A grid that plots the likelihood of each risk against its impact so that risks can be ranked by priority.",
+    "term": "Risk matrix"
+   },
+   {
+    "definition": "How probable it is that a particular risk event will happen within a given period.",
+    "term": "Likelihood"
+   },
+   {
+    "definition": "The size of the damage a risk would cause to a business if it occurred.",
+    "term": "Impact"
+   },
+   {
+    "definition": "The risk of loss from poor cash flow, rising borrowing costs, bad debts or exchange rate movements.",
+    "term": "Financial risk"
+   },
+   {
+    "definition": "The risk that failures in processes, equipment, suppliers or staff disrupt a business's production or service.",
+    "term": "Operational risk"
+   },
+   {
+    "definition": "A plan that keeps essential operations running, or allows quick recovery, after a disruptive event.",
+    "term": "Business continuity"
+   },
+   {
+    "definition": "Finance, competition, time, skills and regulation.",
+    "term": "Five challenges of starting a business"
+   },
+   {
+    "definition": "Identify, evaluate likelihood and impact, prioritise in a risk matrix, act, then monitor.",
+    "term": "Five steps of risk assessment"
+   },
+   {
+    "definition": "Financial, market, operational, legal and compliance, reputational, cyber and technological, environmental and climate, and personal risk to the entrepreneur.",
+    "term": "Eight categories of business risk"
+   },
+   {
+    "definition": "Survival, lower costs and premiums, legal duty, investor and lender confidence, and continuity.",
+    "term": "Five reasons to manage risk"
+   },
+   {
+    "definition": "The Safety, Health and Welfare at Work Act 2005, enforced by the Health and Safety Authority.",
+    "term": "Irish law on workplace risk"
+   },
+   {
+    "definition": "Likelihood on one axis and impact on the other; risks in the high-likelihood, high-impact corner get priority.",
+    "term": "Axes of a risk matrix"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Enterprise means taking a business idea forward and running a venture. The person who starts it carries the risk that the venture fails.",
+    "h": "Enterprise and risk",
+    "points": [
+     "An entrepreneur brings together money, premises, people and ideas to pursue a business opportunity, and bears the financial loss if it fails.",
+     "Risk is the chance that an event will harm a business or stop it reaching its objectives.",
+     "The outcome of a new venture is uncertain, so risk cannot be removed entirely; it can only be identified, reduced and managed.",
+     "Profit is often seen as the reward for bearing risk, which is why taking sensible risks is central to enterprise."
+    ]
+   },
+   {
+    "b": "New businesses face several challenges that can threaten their survival in the first years.",
+    "h": "Challenges of starting a business",
+    "points": [
+     "Finance: raising start-up capital and keeping enough cash flowing until sales cover costs is often the hardest challenge.",
+     "Competition: established firms and new rivals can take market share and force prices down.",
+     "Time: the owner often works very long hours and may struggle to balance running the business with other demands.",
+     "Skills: a founder may lack experience in marketing, accounting or managing staff, which raises the chance of costly mistakes.",
+     "Regulation: licences, employment law, tax obligations and health and safety rules add cost and paperwork from the start."
+    ]
+   },
+   {
+    "b": "Grouping risks into categories helps a firm identify each one in a structured way.",
+    "h": "Categories of business risk",
+    "points": [
+     "Financial risk: losses caused by poor cash flow, rising borrowing costs, bad debts or movements in exchange rates.",
+     "Market risk: falls in demand, changes in customer tastes or actions by competitors that reduce sales or prices.",
+     "Operational risk: failures in processes, equipment breakdown, supplier problems or loss of key staff that disrupt production or service.",
+     "Legal and compliance risk: breaking contract, employment, consumer, tax or data protection law.",
+     "Reputational risk: damage to a brand from poor product quality, a safety incident or a public complaint, which can lose customers.",
+     "Cyber and technological risk: hacking, ransomware, data loss or system failure that halts trading or exposes customer data.",
+     "Environmental and climate risk: flooding, extreme weather, shortages of raw materials or new carbon rules that affect costs and premises.",
+     "Personal risk to the entrepreneur: illness, loss of income, or personal guarantees given to lenders that can put the owner's own assets at risk."
+    ]
+   },
+   {
+    "b": "Risk assessment is a repeating cycle that shows a firm which risks need action first.",
+    "h": "The risk assessment process",
+    "points": [
+     "Step one, identify: list the risks the business faces, using the main categories and the knowledge of staff.",
+     "Step two, evaluate: estimate the likelihood of each risk occurring and the impact on the business if it does.",
+     "Step three, prioritise: place each risk on a risk matrix so that high-likelihood, high-impact risks are dealt with first.",
+     "Step four, act: choose a response such as avoiding, reducing, transferring or accepting the risk.",
+     "Step five, monitor: review the risk register regularly, because likelihood and impact change as the business and its environment change."
+    ]
+   },
+   {
+    "b": "Managing risk protects a business against threats that could stop it trading and lets it pursue opportunities with a clear view of the downside.",
+    "h": "Why managing risk matters",
+    "points": [
+     "Survival: a single uninsured fire, lawsuit or serious cyber attack can close a small business, so managing risk protects its ability to keep trading.",
+     "Lower costs: good controls, such as fire safety and security measures, can help a firm obtain lower insurance premiums.",
+     "Legal duty: the Safety, Health and Welfare at Work Act 2005 requires employers to manage risks to the safety and health of employees, and the Health and Safety Authority enforces it.",
+     "Investor and lender confidence: banks and investors are more willing to finance firms that show they identify and control their risks.",
+     "Continuity: planning for disruption, such as a supplier failure or flood, lets a firm recover quickly and keep serving customers.",
+     "Better decisions: knowing the risks helps managers judge whether an opportunity is worth its potential downside."
+    ]
+   },
+   {
+    "b": "The four cross-cutting angles of the course all create or change business risk.",
+    "h": "Risk, sustainability and digital change",
+    "points": [
+     "Environmental risk includes the cost of meeting climate rules, such as limits on carbon emissions from transport and manufacturing.",
+     "An ethical lapse, such as unsafe working conditions among a supplier's staff, creates both legal risk and reputational risk for the buyer.",
+     "Moving sales online adds cyber risk: a firm must protect customer payment data and comply with data protection law.",
+     "An entrepreneur who plans for risk from the start, rather than reacting to it, is more likely to build a business that lasts."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "First, risk management protects survival. A new business has little capital, so a single uninsured fire, a large bad debt or a cyber attack could close it. By identifying these threats and planning responses in advance, the firm can absorb a shock and keep trading. Second, it lowers costs and supports funding. Insurers often offer lower premiums to firms that show good safety and security controls, and banks and investors are more willing to lend to or invest in a business that can show its risks are controlled.",
+    "prompt": "Explain two reasons why managing risk is important for a new business.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The first stage is identification, where the manager lists risks such as theft, a supplier failure, a data breach or a fall in footfall, using staff knowledge and the main risk categories. The second stage is evaluation, where each risk is given an estimate of its likelihood and of its impact on the business. The risk matrix then places each risk on a grid with likelihood on one axis and impact on the other, so the manager can see which risks fall in the high-likelihood, high-impact corner. For a shop, frequent shoplifting that steadily drains stock would sit in that corner and be dealt with first, while a rare flood that would cause limited loss could be monitored. The final stages are acting on the priority risks and monitoring the matrix regularly, because likelihood changes as trading conditions change.",
+    "prompt": "Outline the stages of a risk assessment and explain how a risk matrix helps a manager decide which risks to address first. Use an example from a retail business.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch12-s2": {
+  "keyTerms": [
+   {
+    "definition": "A strategy of not undertaking an activity, market or product because its risks outweigh its benefits.",
+    "term": "Risk avoidance"
+   },
+   {
+    "definition": "A strategy of dividing exposure across products, markets or suppliers so that one failure does not affect the whole business.",
+    "term": "Risk spread"
+   },
+   {
+    "definition": "A strategy of reducing the likelihood or impact of a risk through procedures, training, maintenance or security measures.",
+    "term": "Risk prevention"
+   },
+   {
+    "definition": "A strategy of shifting the financial consequences of a risk to another party, such as an insurer, through insurance or contract.",
+    "term": "Risk transfer"
+   },
+   {
+    "definition": "A strategy of accepting a risk and paying any resulting loss from the business's own funds.",
+    "term": "Risk retention"
+   },
+   {
+    "definition": "The payment a policyholder makes to an insurer in return for insurance cover.",
+    "term": "Premium"
+   },
+   {
+    "definition": "The amount a policyholder must pay towards each insured claim before the insurer pays the rest.",
+    "term": "Excess"
+   },
+   {
+    "definition": "Cover for a business's legal liability to members of the public for injury or property damage caused by its activities.",
+    "term": "Public liability insurance"
+   },
+   {
+    "definition": "Cover that replaces lost income and pays certain costs when an insured event stops a business trading.",
+    "term": "Business interruption insurance"
+   },
+   {
+    "definition": "Product, market and supplier diversification.",
+    "term": "Three types of spread"
+   },
+   {
+    "definition": "Staff training, safety procedures, planned maintenance, cyber security and quality control.",
+    "term": "Five forms of prevention"
+   },
+   {
+    "definition": "Public liability covers injury to the public, product liability covers faulty goods, and professional indemnity covers negligent advice or service.",
+    "term": "Three third-party liability covers"
+   },
+   {
+    "definition": "Employer's liability insurance and motor third-party cover for vehicles on public roads.",
+    "term": "Compulsory insurance in Ireland"
+   },
+   {
+    "definition": "Retention avoids premium costs and keeps the business in control of minor losses, but exposes it to large, unexpected losses.",
+    "term": "Advantages of retention"
+   },
+   {
+    "definition": "The lost opportunity: the profit the business could have earned from the market or activity it avoided.",
+    "term": "Cost of avoidance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Avoidance means not taking on a risk at all.",
+    "h": "Avoidance",
+    "points": [
+     "A firm avoids a risk by choosing not to enter a market, launch a product or carry out an activity whose risks outweigh its potential returns.",
+     "Avoidance removes the risk completely, so there is no loss and no ongoing cost to control it.",
+     "The cost is the lost opportunity: a business that avoids a market also gives up any profit that market could have earned.",
+     "Avoidance suits risks with severe impact that the business cannot afford, such as a hazardous activity or a market with unstable rules.",
+     "Because it limits growth, avoidance is best used for specific risks rather than as a general approach to business."
+    ]
+   },
+   {
+    "b": "Spreading risk divides exposure across several areas so that one failure does not destroy the whole business.",
+    "h": "Spread (diversification)",
+    "points": [
+     "Product diversification: offering several products so that a fall in demand for one is offset by sales of the others.",
+     "Market diversification: selling in several countries or to several customer groups, so a downturn in one market is cushioned.",
+     "Supplier diversification: using more than one supplier for key inputs, so that the failure of one supplier does not halt production.",
+     "Spread works only when the parts are not hit by the same event; if every product depends on one supplier, the spread is weak.",
+     "The cost of spreading is the extra management time and expense of running several products, markets or suppliers."
+    ]
+   },
+   {
+    "b": "Prevention reduces the likelihood of a risk or limits its impact when it does happen.",
+    "h": "Prevention and reduction",
+    "points": [
+     "Staff training teaches employees safe working methods and how to handle customer data securely.",
+     "Health and safety procedures, such as machine guards, workplace risk assessments and clear emergency exits, reduce the chance of injury.",
+     "Planned maintenance services equipment regularly, reducing breakdowns that would halt production.",
+     "Cyber security measures, such as firewalls, software updates, strong passwords and backups, reduce the chance of a data breach or ransomware attack.",
+     "Quality control checks products before sale, which lowers the likelihood of a product liability claim.",
+     "Prevention costs money and needs ongoing monitoring, so its cost should be weighed against the loss it prevents."
+    ]
+   },
+   {
+    "b": "Transfer shifts the financial consequences of a risk to another party.",
+    "h": "Transfer",
+    "points": [
+     "Insurance transfers the financial cost of an insured event to the insurer in return for a premium.",
+     "Contracts can transfer risk, for example by making a supplier responsible for defective goods or a subcontractor liable for its own work.",
+     "Outsourcing transfers some operational risk, such as payroll or IT support, to a specialist firm, although the business keeps its reputational exposure.",
+     "Transfer does not remove the risk itself, and it works only if the other party is able to pay."
+    ]
+   },
+   {
+    "b": "Retention means accepting a risk and paying for any resulting loss from the business's own resources.",
+    "h": "Retention",
+    "points": [
+     "Retention suits small, predictable losses, such as minor breakages, where the expected loss is less than the cost of insuring against it.",
+     "A business can set aside a contingency fund to meet losses it has chosen to retain.",
+     "Retention is dangerous when losses could be large, because one serious event could exceed the money set aside."
+    ]
+   },
+   {
+    "b": "Each strategy suits different risks and has its own cost and limit, so most firms combine several.",
+    "h": "Comparing the strategies",
+    "points": [
+     "Avoidance suits severe risks; its cost is lost opportunity and its limit is that the firm gains nothing from the activity it avoids.",
+     "Spread suits market and supply risks; its cost is complexity and its limit is that a common cause can still affect every part.",
+     "Prevention suits risks that procedures can control; its cost is ongoing spending and its limit is that it cannot stop every event.",
+     "Transfer suits large, unpredictable losses such as fire or liability claims; its cost is the premium and its limit is gaps in cover and exclusions.",
+     "Retention suits small, affordable losses; its cost is the amount actually lost and its limit is exposure to large losses.",
+     "A firm might insure its premises, train its staff and hold a cash reserve at the same time, using transfer, prevention and retention together."
+    ]
+   },
+   {
+    "b": "Insurance is a contract in which an insurer agrees to pay for specified losses in return for a payment.",
+    "h": "Insurance basics",
+    "points": [
+     "Premium: the payment the policyholder makes to the insurer for cover, usually monthly or yearly.",
+     "Policy: the written contract that sets out what is covered, the limits, the exclusions and the excess.",
+     "Claim: the request made by the policyholder for the insurer to pay for an insured loss.",
+     "Excess: the amount the policyholder must pay towards each claim before the insurer pays the rest; a higher excess usually means a lower premium.",
+     "Insurable risk: a risk that is accidental, can be measured and is not certain to happen, such as fire damage to premises.",
+     "Uninsurable risk: a loss that insurers will not cover, such as losses from a poor business decision or a fall in demand.",
+     "Insurance reduces the financial impact of a risk but does not prevent it, and an insurer may refuse a claim if a policy condition was breached."
+    ]
+   },
+   {
+    "b": "Firms choose products that match the specific risks they face.",
+    "h": "Business insurance products",
+    "points": [
+     "Property insurance covers buildings, stock and equipment against losses such as fire, theft and flood.",
+     "Public liability insurance covers claims by members of the public who are injured or whose property is damaged because of the business.",
+     "Employer's liability insurance covers claims by employees who are injured or become ill at work, and it is compulsory in Ireland.",
+     "Product liability insurance covers claims that a product sold by the business caused injury or damage.",
+     "Professional indemnity insurance covers claims that advice or a professional service was negligent or caused a client financial loss.",
+     "Motor insurance covers company vehicles, and third-party cover is compulsory for vehicles used on public roads in Ireland.",
+     "Business interruption insurance replaces lost income and pays some fixed costs while an insured event, such as a fire, halts trading.",
+     "Cyber insurance can cover the costs of a data breach, including response, legal costs and restoring systems.",
+     "Goods in transit insurance covers stock that is lost or damaged while being moved by road, sea or air.",
+     "Key-person insurance pays the business if a crucial employee dies or becomes unable to work, to cover lost profit or the cost of finding a replacement."
+    ]
+   },
+   {
+    "b": "Choosing cover means matching the policy to the firm's exposure and budget.",
+    "h": "Choosing insurance",
+    "points": [
+     "Risk exposure: identify which risks are most likely or most serious for this business, such as property for a manufacturer or professional indemnity for a consultant.",
+     "Cost against cover: compare the premium with the potential loss, because paying for cover of a small loss may not be worthwhile.",
+     "Legal requirements: some cover is compulsory, such as employer's liability and motor third-party insurance, so the firm must buy it.",
+     "Policy details: check the limits, exclusions and excess, because a policy that excludes the main risk offers little protection.",
+     "Review: update cover as the business grows, moves premises or adds products, since an old policy may leave new risks uncovered.",
+     "An insurance broker can compare insurers and explain policy terms, which helps a firm with no specialist knowledge make an informed choice."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Avoidance means the firm does not take on a risk it cannot afford, such as not launching a product that depends on an unproven, high-cost raw material. This removes the risk but gives up the profit that product could have earned. Spread means using more than one supplier for key materials, so that if one supplier fails production can continue from another, although the firm then has to manage several supplier relationships. Prevention means reducing the likelihood of harm, for example by training staff to operate machinery safely, servicing equipment on a schedule and fitting guards. This lowers the chance of injury and breakdown, at the ongoing cost of training and maintenance. Transfer means passing the financial consequences to others, for example through public liability and business interruption insurance, which pays claims and lost income in return for a premium. Insurance does not stop the incident, however, and policies have exclusions and limits.",
+    "prompt": "Discuss four risk management strategies that a small Irish manufacturing firm could use to respond to its risks.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A premium is the amount the policyholder pays the insurer, usually monthly or yearly, to keep the policy in force. An excess is the amount the policyholder must pay towards each claim before the insurer pays the rest. A firm might choose a higher excess because it lowers the premium, which suits a business that can afford small losses itself and wants to reduce its regular costs.",
+    "prompt": "Explain the difference between a premium and an excess in a business insurance policy, and give one reason a firm might choose a higher excess.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "First, risk exposure: the firm should identify its main risks, such as professional negligence claims from clients and the loss of a key staff member, and buy cover that addresses them, so that it does not pay for cover it does not need. Second, cost against cover: the firm should compare the premium with the potential loss and check the excess, because cover that costs more than the losses it would prevent may not be worthwhile. Third, legal requirements: the firm must hold any cover the law makes compulsory, such as employer's liability if it employs staff and motor third-party cover if it uses vehicles on public roads.",
+    "prompt": "A consultancy firm is choosing its insurance cover. Explain three factors it should consider when choosing insurance.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch13-s1": {
+  "keyTerms": [
+   {
+    "definition": "The process of setting a direction for an organisation and influencing people to follow it, often to bring about change.",
+    "term": "Leadership"
+   },
+   {
+    "definition": "The process of planning, organising, directing and controlling resources to achieve objectives efficiently.",
+    "term": "Management"
+   },
+   {
+    "definition": "The shared values, norms and behaviours that shape how people think and act in an organisation.",
+    "term": "Organisational culture"
+   },
+   {
+    "definition": "A style in which the leader makes decisions alone and expects staff to carry them out without discussion.",
+    "term": "Autocratic leadership"
+   },
+   {
+    "definition": "A style in which the leader involves staff in decisions and takes their views into account before deciding.",
+    "term": "Democratic leadership"
+   },
+   {
+    "definition": "A style in which the leader gives staff freedom to decide how work is done, with little direction or supervision.",
+    "term": "Laissez-faire leadership"
+   },
+   {
+    "definition": "A style in which the leader inspires people with a shared vision and motivates them to develop and go beyond routine expectations.",
+    "term": "Transformational leadership"
+   },
+   {
+    "definition": "A style in which the leader puts the needs of staff and others first and focuses on supporting them.",
+    "term": "Servant leadership"
+   },
+   {
+    "definition": "A style in which the leader uses rewards and penalties linked to performance, with clear targets and rules.",
+    "term": "Transactional leadership"
+   },
+   {
+    "definition": "Values, norms and behaviours.",
+    "term": "Three parts of organisational culture"
+   },
+   {
+    "definition": "Founders, the actions of leaders, the firm's history, its industry and the wider national environment.",
+    "term": "Factors that shape a firm's culture"
+   },
+   {
+    "definition": "Planning, organising, staffing, directing and controlling.",
+    "term": "Roles of a manager"
+   },
+   {
+    "definition": "Setting direction, inspiring staff, championing change, shaping culture and developing people.",
+    "term": "Roles of a leader"
+   },
+   {
+    "definition": "Autocratic leadership, because fast decisions and clear direction are needed.",
+    "term": "Style that suits a crisis"
+   },
+   {
+    "definition": "Transformational leadership, which challenges staff to question established methods and develop new ideas.",
+    "term": "Style most closely linked to innovation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Leadership and management are related but distinct functions, and an organisation needs both.",
+    "h": "Leadership and management",
+    "points": [
+     "Management is the process of planning, organising, directing and controlling resources to achieve set objectives efficiently.",
+     "Leadership is the process of setting a direction and influencing people to follow it, often to bring about change.",
+     "Managers plan, organise, staff and control operations so that targets for output, quality and budget are met.",
+     "Leaders set direction, inspire staff, champion change and shape the culture by modelling the values they want the firm to hold.",
+     "A person can lead while managing, or manage without leading; the distinction lies in the activity carried out, not the job title."
+    ]
+   },
+   {
+    "b": "Leadership and management differ in their focus, their source of power and their attitude to change.",
+    "h": "Differences between leadership and management",
+    "points": [
+     "Vision and execution: leaders set a vision of the future, while managers turn plans into day-to-day action and schedules.",
+     "Influence and authority: leaders win followers through trust and inspiration, while managers rely mainly on the formal authority of their position.",
+     "Change and stability: leaders drive change and innovation, while managers keep operations consistent and predictable.",
+     "Questions asked: leaders ask what the organisation should do and why, while managers ask how and when it will be done.",
+     "Time horizon: leaders take a long-term view of where the organisation is heading, while managers focus on short- and medium-term targets and budgets.",
+     "Relationships with staff: leaders motivate people to commit to goals, while managers organise tasks, allocate resources and monitor performance."
+    ]
+   },
+   {
+    "b": "Organisational culture is the shared set of values, norms and behaviours that shapes how people work in a firm.",
+    "h": "Organisational culture and innovation",
+    "points": [
+     "Values are the beliefs about what matters, such as customer service, safety or innovation.",
+     "Norms are the unwritten rules about acceptable behaviour, such as whether staff challenge decisions in meetings.",
+     "Behaviours are the visible actions staff take, such as how they treat customers or respond to a mistake.",
+     "Culture is shaped by founders, the actions of leaders, the firm's history, its industry and the wider national environment.",
+     "A culture that rewards experimentation and tolerates failure encourages staff to propose and test new products and processes.",
+     "A culture that punishes mistakes can make staff hide problems and avoid new ideas, so it blocks innovation.",
+     "Irish example: Ryanair's culture of tight cost control has shaped its pricing and operating model, and that consistency has been central to its success."
+    ]
+   },
+   {
+    "b": "In an autocratic style, the leader makes decisions alone and expects staff to carry them out without discussion.",
+    "h": "Autocratic leadership",
+    "points": [
+     "The leader decides, gives orders and closes down debate, so decisions are fast and direction is clear.",
+     "It suits emergencies, crises, or a workforce that needs close supervision and has little experience.",
+     "Effect on culture: staff have little say, which can produce low trust, dependence and reluctance to speak up.",
+     "Effect on innovation: staff ideas are rarely sought, so innovation depends on the leader's own thinking and tends to be limited."
+    ]
+   },
+   {
+    "b": "In a democratic style, the leader involves staff in decisions and weighs their views before deciding.",
+    "h": "Democratic leadership",
+    "points": [
+     "Staff views are gathered through meetings, surveys or teams before the leader decides, and in some firms the group votes.",
+     "It suits complex problems where the expertise of staff matters and where commitment to a decision is needed.",
+     "Effect on culture: it builds trust, belonging and shared ownership of decisions.",
+     "Effect on innovation: it draws on more ideas and supports change, although decisions can be slow and may compromise on the best option."
+    ]
+   },
+   {
+    "b": "In a laissez-faire style, the leader gives staff freedom to decide how work is done, with minimal direction or supervision.",
+    "h": "Laissez-faire leadership",
+    "points": [
+     "The leader sets broad goals and steps back, leaving staff to decide how the work is organised and completed.",
+     "It suits highly skilled, experienced and self-motivated professionals, such as research teams.",
+     "Effect on culture: it fosters independence, but without clear direction it can produce confusion, uneven standards and weak accountability.",
+     "Effect on innovation: staff are free to experiment, which can produce creative ideas, but without support many of them may not be developed."
+    ]
+   },
+   {
+    "b": "In a transformational style, the leader inspires people with a shared vision and motivates them to go beyond routine expectations.",
+    "h": "Transformational leadership",
+    "points": [
+     "The leader communicates a clear, compelling vision, challenges existing assumptions and encourages people to develop their own skills.",
+     "It suits organisations facing major change, intense competition or a need to reinvent products and processes.",
+     "Effect on culture: it builds commitment, shared purpose and a learning culture in which people feel valued.",
+     "Effect on innovation: staff are challenged to question established methods, which makes this style one of the most closely linked to innovation.",
+     "Limitation: it relies on the leader's personal credibility, and it stalls if the vision is not backed by practical plans."
+    ]
+   },
+   {
+    "b": "In a servant style, the leader puts the needs of staff, customers and the community first and sees the role as one of support.",
+    "h": "Servant leadership",
+    "points": [
+     "The leader listens, supports staff development and removes obstacles so that people can do their best work.",
+     "It suits organisations where trust, care and long-term relationships are central, such as healthcare, education and social enterprises.",
+     "Effect on culture: it builds trust, loyalty and an ethical culture in which people feel safe to speak up.",
+     "Effect on innovation: staff who feel trusted are more willing to share ideas, although the style may be slower to drive radical change."
+    ]
+   },
+   {
+    "b": "In a transactional style, the leader uses rewards and penalties linked to performance, with clear rules and targets.",
+    "h": "Transactional leadership",
+    "points": [
+     "The leader sets targets, monitors results and rewards or disciplines staff according to whether the targets are met.",
+     "It suits routine operations, production lines and compliance-heavy work, where consistency and reliability matter most.",
+     "Effect on culture: it creates clear expectations and order, but staff may focus only on hitting targets and feel closely controlled.",
+     "Effect on innovation: it is limited, because staff are rewarded for meeting existing standards rather than for taking risks with new ideas."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "Leadership focuses on vision and direction. A leader in a food company might set a goal of entering export markets within five years, whereas management turns that goal into action by planning budgets, schedules and sales targets. Leaders gain influence through trust and inspiration, while managers rely more on the authority of their position. A manager can order a stock check, but a leader persuades staff to adopt a new way of serving customers. Leaders tend to drive change and innovation, while managers keep existing processes stable and consistent, so a leader may introduce online ordering while a manager makes sure the new system runs reliably every day.",
+    "prompt": "Distinguish between leadership and management in an organisation, giving three points of difference with an example for each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Democratic leadership gathers ideas from the people who know the production process best, so factory staff can suggest product improvements that managers might not see. Consulting staff before decisions builds ownership, so employees are more willing to test new methods and accept change once a decision is made. Groups that share ideas openly can combine different skills, such as design, engineering and sales, which tends to produce more practical innovations. A limitation is that consultation can be slow. If a competitor launches a rival product, the firm may lose time, and the leader may have to compromise on the best option to keep the group committed.",
+    "prompt": "Outline how democratic leadership could foster innovation in an Irish manufacturing firm, and evaluate one limitation of this style.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A strong culture aligns staff behaviour with the firm's goals, so employees make consistent decisions that serve customers without waiting for instructions. A culture that values experimentation encourages staff to propose and test new ideas, which can lead to new products and services. Ryanair's focus on keeping costs low has shaped every part of its operating model, from pricing to the use of its aircraft, and that consistency has supported its business model.",
+    "prompt": "Analyse how a strong organisational culture can help a firm succeed, giving one example.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch13-s2": {
+  "keyTerms": [
+   {
+    "definition": "A formal process that lets an employee raise a complaint with their employer, who must investigate it and respond.",
+    "term": "Grievance procedure"
+   },
+   {
+    "definition": "A formal process an employer uses to deal with poor conduct or performance, usually with warnings and a chance for the employee to respond.",
+    "term": "Disciplinary procedure"
+   },
+   {
+    "definition": "Negotiation between employers and trade unions over pay and conditions for a group of workers.",
+    "term": "Collective bargaining"
+   },
+   {
+    "definition": "A trade union representative in a workplace who represents members and raises their concerns with management.",
+    "term": "Shop steward"
+   },
+   {
+    "definition": "A process in which a neutral third party helps both sides reach their own agreement, without imposing a settlement.",
+    "term": "Conciliation"
+   },
+   {
+    "definition": "A voluntary process in which a neutral mediator helps the parties communicate and find common ground to reach an agreement.",
+    "term": "Mediation"
+   },
+   {
+    "definition": "A process in which a third party hears both sides of a dispute and makes a decision on it.",
+    "term": "Arbitration"
+   },
+   {
+    "definition": "A formal process in which an official body, such as a Workplace Relations Commission adjudication officer, hears a complaint and issues a decision under the law.",
+    "term": "Adjudication"
+   },
+   {
+    "definition": "Action taken by workers, such as a strike, work-to-rule or overtime ban, to pressure an employer during a dispute.",
+    "term": "Industrial action"
+   },
+   {
+    "definition": "Absenteeism, low morale, staff turnover, industrial action and reputational damage.",
+    "term": "Negative effects of workplace conflict"
+   },
+   {
+    "definition": "Well-handled disagreement can produce new ideas and challenge poor practice.",
+    "term": "Positive effect of workplace conflict"
+   },
+   {
+    "definition": "Pay and conditions, workload, change, poor communication, personality clashes, discrimination and unclear roles.",
+    "term": "Seven causes of workplace conflict"
+   },
+   {
+    "definition": "The shop steward, a trade union representative in the workplace.",
+    "term": "Who raises members' concerns at work"
+   },
+   {
+    "definition": "In conciliation the parties reach their own agreement with help; in arbitration a third party decides.",
+    "term": "Conciliation compared with arbitration"
+   },
+   {
+    "definition": "The Workplace Relations Commission provides conciliation, mediation and adjudication; the Labour Court hears appeals and issues recommendations.",
+    "term": "Irish bodies for external dispute resolution"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Conflict arises when the interests, expectations or perceptions of employees and employers clash.",
+    "h": "Causes of workplace conflict",
+    "points": [
+     "Pay and conditions: disagreement over wages, bonuses, hours, holidays or pensions is a common source of conflict.",
+     "Workload: excessive or unevenly shared work causes frustration among staff and with managers.",
+     "Change: new technology, restructuring or new working methods can create fear of job loss and resistance to new routines.",
+     "Poor communication: messages that are unclear, late or never sent lead to misunderstanding and rumour.",
+     "Personality clashes: differences in working style or temperament can create tension between colleagues.",
+     "Discrimination: unfair treatment based on a protected characteristic, such as gender, race or age, creates grievances.",
+     "Unclear roles: when responsibilities overlap or are undefined, staff dispute who should do what, or important tasks go undone."
+    ]
+   },
+   {
+    "b": "Conflict can have positive and negative effects, depending on how it is handled.",
+    "h": "Effects of conflict",
+    "points": [
+     "Positive effect: well-handled disagreement can bring forward new ideas, challenge poor practice and improve decisions.",
+     "Absenteeism: unhappy staff may take more sick or unexplained leave, which reduces output.",
+     "Low morale: prolonged conflict reduces motivation, commitment and co-operation within teams.",
+     "Staff turnover: unresolved disputes can drive talented staff to leave, raising recruitment and training costs.",
+     "Industrial action: strikes, work-to-rule or overtime bans halt or slow production and damage customer relationships.",
+     "Reputational damage: a public dispute can make customers and potential employees less willing to deal with the firm."
+    ]
+   },
+   {
+    "b": "Organisations try to resolve conflict inside the workplace before involving outside bodies, and internal approaches are usually faster, cheaper and more private.",
+    "h": "Internal approaches to resolving conflict",
+    "points": [
+     "Grievance procedure: a formal process that lets an employee raise a complaint with the employer, who must investigate it and respond.",
+     "Disciplinary procedure: a formal process an employer uses to address poor conduct or performance, with warnings and a chance for the employee to reply.",
+     "Negotiation: the parties discuss their positions directly and seek a compromise that both can accept.",
+     "Collective bargaining: negotiation between employers and trade unions over pay and conditions for a group of workers.",
+     "The shop steward: a trade union representative in the workplace who acts for members and raises their concerns with management.",
+     "Human resources: the HR department advises on policy, handles complaints and helps managers deal with disputes fairly.",
+     "Internal mediation: a neutral person within the organisation helps the parties communicate and find an agreement."
+    ]
+   },
+   {
+    "b": "Industrial action is what workers may do when a dispute is not resolved.",
+    "h": "Industrial action",
+    "points": [
+     "A strike is a withdrawal of labour, in which workers stop working for a period to pressure the employer.",
+     "A work-to-rule means staff do only what their contract strictly requires, slowing work without stopping it.",
+     "An overtime ban means staff refuse to work extra hours, which can hold up production or service.",
+     "Industrial action is usually a last resort after internal and external procedures have been tried, and Irish law sets conditions on when it is lawful."
+    ]
+   },
+   {
+    "b": "Conciliation is an external process in which a neutral third party helps both sides reach their own agreement.",
+    "h": "Conciliation",
+    "points": [
+     "A conciliator meets both sides, separately and together, to clarify the issues and explore options.",
+     "The conciliator helps the sides agree but imposes nothing and issues no recommendation, so any agreement is the parties' own.",
+     "Conciliation is voluntary: both sides must agree to take part, and either can withdraw.",
+     "In Ireland, conciliation services are provided by the Workplace Relations Commission."
+    ]
+   },
+   {
+    "b": "Mediation is a voluntary process in which a neutral mediator helps the parties communicate and find common ground.",
+    "h": "Mediation",
+    "points": [
+     "A mediator guides the discussion and helps each side understand the other's position.",
+     "Mediation focuses on communication and common ground, and it often preserves working relationships.",
+     "It suits disputes between colleagues who must keep working together, where the relationship matters as much as the issue.",
+     "Mediation can settle a dispute before a formal grievance or disciplinary hearing becomes necessary."
+    ]
+   },
+   {
+    "b": "Arbitration is an external process in which a third party hears both sides and makes a decision.",
+    "h": "Arbitration",
+    "points": [
+     "An arbitrator hears evidence and arguments from both sides before reaching a decision.",
+     "The third party decides the outcome; the parties do not write the settlement themselves.",
+     "Arbitration is usually agreed by both sides, and where they agree to it in advance the decision is generally binding on them.",
+     "Arbitration is more formal than conciliation or mediation, with hearings and a written decision."
+    ]
+   },
+   {
+    "b": "Adjudication is a formal decision made by an official body under the law, rather than a settlement reached by the parties.",
+    "h": "Adjudication and the Irish bodies",
+    "points": [
+     "An adjudication officer of the Workplace Relations Commission hears an individual complaint under employment law and issues a decision.",
+     "Adjudication does not depend on the parties agreeing to it in advance, because the process is set by law.",
+     "Decisions on individual complaints can generally be appealed to the Labour Court.",
+     "The Labour Court can also issue recommendations on industrial relations disputes that are referred to it.",
+     "External approaches are normally used when internal procedures have failed or the parties cannot agree."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Unclear roles cause conflict when two employees each believe a task is theirs, or when a task is left undone because nobody accepted it. This can lead to duplicated work and resentment, which lowers morale. Poor communication causes conflict when important changes are announced late or not at all, so staff hear rumours and resist changes they do not understand. This slows the adoption of the change and can lead to formal complaints.",
+    "prompt": "Explain two causes of conflict in a workplace and the effect each cause could have on the organisation.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "In conciliation, a neutral third party meets both sides, helps them clarify the issues and explore options, but imposes nothing and issues no recommendation, so any agreement is one the parties reach themselves. In arbitration, a third party hears evidence and arguments from both sides and then makes a decision, which the parties are generally bound by when they agreed to arbitration in advance. The key difference is who controls the outcome: in conciliation the parties do, while in arbitration the arbitrator does.",
+    "prompt": "Distinguish between conciliation and arbitration as external approaches to resolving a workplace dispute.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "A grievance procedure lets the affected employee raise the workload problem formally, so the employer must investigate and respond. This shows staff that complaints are taken seriously and sets a timetable for a solution. Negotiation between the employer and the employee, or with the shop steward if the employee is a union member, allows the parties to compare the workload with the contract and agree adjustments, such as redistributing tasks or bringing in temporary help. Human resources can support this by reviewing workload data, checking role descriptions and advising the manager on fair allocation, which reduces the chance of the dispute recurring. If direct talks stall, internal mediation by a neutral person within the organisation can help the parties communicate and find a compromise before the matter goes to the Workplace Relations Commission.",
+    "prompt": "Analyse how internal procedures could resolve a dispute over workload before it reaches an outside body.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s1": {
+  "keyTerms": [
+   {
+    "definition": "Ensuring a business has the right number of people, with the right skills, in the right roles at the right time.",
+    "term": "Workforce planning"
+   },
+   {
+    "definition": "Filling a vacancy with an existing employee, through promotion or transfer.",
+    "term": "Internal recruitment"
+   },
+   {
+    "definition": "Filling a vacancy with a candidate from outside the organisation.",
+    "term": "External recruitment"
+   },
+   {
+    "definition": "A document setting out the purpose, duties, responsibilities and reporting lines of a role.",
+    "term": "Job description"
+   },
+   {
+    "definition": "A document listing the qualifications, skills, experience and personal attributes a candidate needs for a role.",
+    "term": "Person specification"
+   },
+   {
+    "definition": "Removing names, photos, ages and addresses from applications so that candidates are shortlisted on skills and experience.",
+    "term": "Blind shortlisting"
+   },
+   {
+    "definition": "Software that stores applications, filters them against criteria and manages communication with candidates.",
+    "term": "Applicant tracking system"
+   },
+   {
+    "definition": "Adjustments to the recruitment process or the workplace so that a person with a disability can compete on equal terms.",
+    "term": "Reasonable accommodation"
+   },
+   {
+    "definition": "Gender, civil status, family status, sexual orientation, religion, age, disability, race and membership of the Traveller community.",
+    "term": "Nine grounds under Irish employment equality law"
+   },
+   {
+    "definition": "Identify the vacancy, write the job description and person specification, advertise, receive applications, shortlist, interview and test, check references, make the offer, issue the contract.",
+    "term": "Stages of recruitment, in order"
+   },
+   {
+    "definition": "Quicker and cheaper, rewards loyalty, and the candidate already knows the organisation.",
+    "term": "Advantages of internal recruitment"
+   },
+   {
+    "definition": "Brings new skills, ideas and perspectives, and widens the pool of candidates.",
+    "term": "Advantages of external recruitment"
+   },
+   {
+    "definition": "Wider reach, faster processing of applications, lower advertising and travel costs, and automated screening.",
+    "term": "Benefits of digital recruitment"
+   },
+   {
+    "definition": "Algorithmic bias, privacy breaches, exclusion of candidates without digital access, and an impersonal candidate experience.",
+    "term": "Risks of digital recruitment"
+   },
+   {
+    "definition": "The job description covers the role itself, while the person specification covers the ideal candidate.",
+    "term": "Documents used to define a vacancy"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Workforce planning means making sure a business has the right number of people, with the right skills, in the right roles at the right time.",
+    "h": "Workforce planning",
+    "points": [
+     "Its purpose is to match the supply of labour to what the business needs, so that shortages or surpluses are spotted early rather than in a crisis.",
+     "Internal factors include planned growth or contraction, staff turnover, retirements and the skills and qualifications the current workforce already has.",
+     "External factors include the state of the labour market, employment legislation, technological change and the wider economy.",
+     "A firm expecting rapid growth in an area with few skilled workers may need to train existing staff or plan earlier recruitment to fill the gap."
+    ]
+   },
+   {
+    "b": "A vacancy can be filled from inside the organisation or from outside it, and each route has different advantages.",
+    "h": "Internal and external recruitment",
+    "points": [
+     "Internal recruitment fills a vacancy with an existing employee through promotion or transfer, which is quicker and cheaper and rewards loyal staff.",
+     "Internal recruitment can limit fresh ideas, and it can create a chain of gaps when the employee who moves leaves a role to be filled.",
+     "External recruitment brings in new skills, experience and perspectives from outside the business and widens the pool of candidates.",
+     "External recruitment is more expensive and slower, and new staff need a longer induction before they become fully productive."
+    ]
+   },
+   {
+    "b": "The recruitment process moves through a sequence of stages, and each stage prepares the next one.",
+    "h": "Recruitment stages: vacancy to shortlist",
+    "points": [
+     "Identifying the vacancy: the manager confirms that the role is needed, either as a replacement or as a new post in the workforce plan.",
+     "The job description sets out the purpose, duties, responsibilities and reporting lines of the role.",
+     "The person specification lists the qualifications, skills, experience and personal attributes a suitable candidate needs.",
+     "Advertising attracts candidates, who apply through application forms, CVs or cover letters.",
+     "Shortlisting narrows the applications to the candidates who best match the person specification."
+    ]
+   },
+   {
+    "b": "The final stages test the shortlisted candidates and turn the chosen candidate into an employee.",
+    "h": "Recruitment stages: interview to contract",
+    "points": [
+     "Interviews and tests assess shortlisted candidates on the skills and qualities in the person specification.",
+     "References from previous employers or other referees are checked before an offer is made.",
+     "The job offer is made, and the candidate accepts or declines it.",
+     "A written statement of the main terms of employment and the contract of employment are issued once the offer is accepted."
+    ]
+   },
+   {
+    "b": "Ethical recruitment treats every applicant fairly and on merit, and Irish employment equality law sets the boundaries.",
+    "h": "Equality, diversity and inclusion in recruitment",
+    "points": [
+     "The Employment Equality Acts prohibit discrimination in recruitment on nine grounds: gender, civil status, family status, sexual orientation, religion, age, disability, race and membership of the Traveller community.",
+     "Adverts and job descriptions should not state or imply a preference for a particular age, gender or background unless the law allows it.",
+     "Interview questions should relate to the job, so a candidate is not asked about family plans, religious beliefs or health unless it bears on the role.",
+     "Reasonable accommodation means adjusting the process, such as an accessible interview room or extra time for a test, so a candidate with a disability can compete on equal terms.",
+     "Blind shortlisting removes names, photos, ages and addresses from applications so that decisions rest on skills and experience.",
+     "A varied workforce brings a wider range of ideas and draws on a larger talent pool, so inclusion also supports the business."
+    ]
+   },
+   {
+    "b": "Digital tools have changed how vacancies are advertised, how applications are handled and how candidates are assessed.",
+    "h": "Digital recruitment: benefits",
+    "points": [
+     "Online job boards and LinkedIn allow a vacancy to reach a large, geographically wide audience quickly and at relatively low cost.",
+     "Applicant tracking systems store applications in one place, filter them by keywords and send automated updates to candidates.",
+     "AI screening software can rank applications against the person specification, which saves time when hundreds of applications arrive.",
+     "Video interviews let employers see candidates across long distances without travel costs, and recorded answers can be reviewed later.",
+     "Gamified tests and online assessments measure problem-solving and aptitude in an engaging format and can be scored automatically."
+    ]
+   },
+   {
+    "b": "Digital methods improve reach, speed and cost, but they also raise problems of bias, privacy and exclusion.",
+    "h": "Digital recruitment: drawbacks and evaluation",
+    "points": [
+     "Algorithmic bias: AI screening trained on past hiring data can repeat historic preferences and disadvantage women, older applicants or people with unusual career paths.",
+     "Keyword filtering can reject strong candidates whose CVs use different wording, so the system may exclude good applicants by accident.",
+     "Privacy: collecting and processing candidates' personal data must follow the General Data Protection Regulation, which requires transparency and limits on how data is used.",
+     "Exclusion: candidates without reliable internet access, digital skills or assistive technology can be disadvantaged by online-only processes.",
+     "Candidate experience: automated rejections and one-way video interviews can feel impersonal and may put off talented applicants.",
+     "Overall, digital recruitment is strongest where reach, speed and cost matter most, and it works best when human judgement is kept at key decision points."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Reach: online job boards and LinkedIn let the firm advertise to candidates across Ireland and abroad at relatively low cost, which helps when local applicant numbers are small. Speed: an applicant tracking system can filter hundreds of applications against the person specification within hours, so shortlisting is faster and the roles are filled sooner. Cost: video interviews remove travel costs for candidates and interviewers, although software subscriptions and staff training carry their own cost. Bias: if AI screening is trained on past hiring decisions, it may favour the profile of previous hires and disadvantage older applicants or people with career breaks, so the firm should test the tool for bias and keep a human check on rejections. Privacy: candidate data and assessment results fall under the General Data Protection Regulation, so the firm must explain what it collects, use it only for recruitment and delete it when no longer needed. Exclusion: candidates without reliable internet access or digital confidence may not complete an online test, so the firm should offer an alternative route. Overall, digital tools improve efficiency and reach, but they work best when they support human judgement at key decision points rather than replacing it.",
+    "prompt": "A mid-sized Irish firm wants to fill twenty customer service roles and is considering digital tools for recruitment. Evaluate the use of digital technology in its recruitment and selection, considering reach, speed, cost, bias, privacy and exclusion.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Blind shortlisting removes names, photos, ages and addresses from applications, so shortlisters judge candidates on skills and experience rather than on characteristics that have no bearing on the job. This reduces the risk of unconscious bias based on gender, age, religion or background, and it supports equality, diversity and inclusion by widening the range of candidates who reach interview. A limitation is that it does not stop bias at the interview stage, where appearance, accent or manner may still influence the decision, so structured, job-related interview questions are also needed.",
+    "prompt": "Explain how blind shortlisting supports ethical recruitment, and state one limitation of the practice.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s2": {
+  "keyTerms": [
+   {
+    "definition": "The internal and external forces that make an employee willing to put effort into their work.",
+    "term": "Motivation"
+   },
+   {
+    "definition": "Motivation that comes from within the person, such as enjoyment of the work or a sense of achievement.",
+    "term": "Intrinsic motivation"
+   },
+   {
+    "definition": "Motivation that comes from outside the person, such as pay, bonuses, promotion or praise.",
+    "term": "Extrinsic motivation"
+   },
+   {
+    "definition": "A formal review of an employee's performance used to recognise achievement, identify development needs and plan future work.",
+    "term": "Appraisal"
+   },
+   {
+    "definition": "An approach in which the employee assesses their own performance against agreed criteria.",
+    "term": "Self-appraisal"
+   },
+   {
+    "definition": "An ongoing, developmental review that gives regular feedback so the employee can improve.",
+    "term": "Formative appraisal"
+   },
+   {
+    "definition": "A formal end-of-period judgement of performance, often used for decisions on pay or promotion.",
+    "term": "Summative appraisal"
+   },
+   {
+    "definition": "An approach that gathers feedback on an employee from several sources, such as managers, peers, subordinates and customers.",
+    "term": "360-degree appraisal"
+   },
+   {
+    "definition": "Clear criteria, regular reviews, two-way discussion, fairness and consistency, and a link to development.",
+    "term": "Features of effective appraisal"
+   },
+   {
+    "definition": "Pay, bonuses, profit-sharing, share schemes and benefits.",
+    "term": "Financial motivators"
+   },
+   {
+    "definition": "Recognition, responsibility, job enrichment, job rotation, flexible working, teamwork, culture and career progression.",
+    "term": "Non-financial motivators"
+   },
+   {
+    "definition": "Strengths are involvement, reflection and ownership. Weaknesses are over-rating or under-rating oneself and self-bias.",
+    "term": "Self-appraisal: strengths and weaknesses"
+   },
+   {
+    "definition": "Line manager, peers, subordinates, customers and the employee's own self-assessment.",
+    "term": "Sources of 360-degree feedback"
+   },
+   {
+    "definition": "Unclear expectations, lower confidence, perceived unfairness, reduced trust and a process seen as box-ticking.",
+    "term": "Main risks of poor appraisal"
+   },
+   {
+    "definition": "Reviewing performance, identifying training needs, setting goals, and informing pay and promotion decisions.",
+    "term": "Purposes of appraisal"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Motivation is the drive that makes employees willing to put effort into their work, and it affects performance, commitment and retention.",
+    "h": "Motivation and why it matters",
+    "points": [
+     "Motivated employees tend to be more productive and more committed to the organisation, and they are less likely to leave, which lowers recruitment and training costs.",
+     "Intrinsic motivation comes from within the person, such as enjoyment of the work, a sense of achievement or personal growth.",
+     "Extrinsic motivation comes from outside the person, such as pay, bonuses, promotion or praise from a manager.",
+     "Intrinsic motivation tends to last longer, while extrinsic rewards can lose their effect if they become expected or do not match the effort required."
+    ]
+   },
+   {
+    "b": "Financial rewards are the most visible motivators, but their effect depends on fairness and on how clearly they link to performance.",
+    "h": "Financial motivators",
+    "points": [
+     "Pay is the basic reward for the work, and a rate that employees see as unfair can cause dissatisfaction even when other motivators are strong.",
+     "Bonuses reward individual or team results over a set period, so they link pay directly to performance.",
+     "Profit-sharing gives employees a share of the business's profits, which can encourage a sense of shared ownership of results.",
+     "Share schemes give employees part-ownership of the company, which can align their interests with its long-term growth.",
+     "Benefits such as pension contributions, health insurance or a company car add value beyond basic pay and help attract and keep staff."
+    ]
+   },
+   {
+    "b": "Non-financial motivators address needs such as recognition, growth and a sense of meaning in work.",
+    "h": "Non-financial motivators",
+    "points": [
+     "Recognition, such as public praise or a thank-you for good work, makes employees feel valued at little or no direct cost.",
+     "Responsibility, such as leading a project, shows employees that they are trusted and gives them ownership of outcomes.",
+     "Job enrichment adds more varied and skilled tasks to a role, which increases its challenge and interest.",
+     "Job rotation moves employees between tasks or departments, which reduces monotony and builds new skills.",
+     "Flexible work arrangements, such as flexible hours or remote working, help employees balance work with other responsibilities.",
+     "Teamwork, a positive culture and clear career progression give people a sense of belonging and a route to advancement."
+    ]
+   },
+   {
+    "b": "The effect of any motivator depends on the individual and the context in which they work.",
+    "h": "Factors that affect motivation",
+    "points": [
+     "Individual needs and values differ, so a reward that motivates a young employee seeking progress may not motivate an experienced employee who values stability.",
+     "Perceived fairness matters: employees compare their rewards with those of colleagues, and a sense of unfairness reduces effort.",
+     "The quality of the relationship with the line manager shapes motivation, since employees who feel supported tend to work harder.",
+     "The nature of the job, including its variety, autonomy and meaning, determines how motivating the work itself is.",
+     "Clear goals and regular feedback show employees how their effort contributes, which strengthens motivation.",
+     "Workplace conditions such as safety, job security and the physical environment set a baseline, and poor conditions can demotivate even well-paid staff."
+    ]
+   },
+   {
+    "b": "Appraisal is a formal review of an employee's performance, used to recognise achievement, identify development needs and plan future work.",
+    "h": "The purpose and features of appraisal",
+    "points": [
+     "Its purposes include reviewing performance against agreed objectives, identifying training needs, setting goals and informing decisions on pay and promotion.",
+     "Effective appraisal uses clear, agreed criteria so that the employee knows what good performance looks like.",
+     "Effective appraisal is regular rather than a single annual event, so problems are addressed early.",
+     "Effective appraisal is two-way: the employee contributes their own view rather than only receiving the manager's judgement.",
+     "Effective appraisal is fair and consistent, applying the same standards to all employees.",
+     "Effective appraisal links to development, producing a clear plan for training or career progression."
+    ]
+   },
+   {
+    "b": "Each approach serves a different purpose and has a different effect on motivation.",
+    "h": "Self-appraisal, formative and summative appraisal",
+    "points": [
+     "Self-appraisal: the employee assesses their own performance against agreed criteria before or during the review, which builds ownership and shows the manager how the employee sees their work.",
+     "Self-appraisal encourages reflection and involvement, and it can make the review discussion more open.",
+     "Self-appraisal can be distorted, because employees may over-rate or under-rate themselves, so the manager must check the self-assessment against evidence.",
+     "Formative appraisal is an ongoing, developmental process that gives regular feedback and guidance so the employee can improve during the year.",
+     "Formative appraisal supports learning and motivates by showing progress, but it takes time, and without follow-up it can become informal and unrecorded.",
+     "Summative appraisal is a formal judgement at the end of a period on overall performance, often used for decisions on pay, promotion or continued employment.",
+     "Summative appraisal provides a clear, documented record that supports fair decisions, but it looks backward, can create anxiety and may demotivate employees who receive a low rating."
+    ]
+   },
+   {
+    "b": "The 360-degree approach collects feedback from the people around the employee, giving a broad view of performance and behaviour.",
+    "h": "360-degree appraisal",
+    "points": [
+     "Sources of feedback typically include the line manager, peers, subordinates, customers and the employee's own self-assessment.",
+     "Feedback is usually collected through anonymous questionnaires, which are then summarised for the employee and the manager.",
+     "It shows how the employee is seen from several angles, which helps reveal blind spots in leadership and teamwork.",
+     "It can motivate by recognising contributions from colleagues that a single manager might not see.",
+     "It is time-consuming and costly to administer, and the results can be hard to interpret without training.",
+     "Anonymous comments can be unfair or politically motivated, and critical feedback can demotivate if it is not handled sensitively.",
+     "Its effect on motivation depends on follow-up, and it works best when it leads to a development plan rather than to blame."
+    ]
+   },
+   {
+    "b": "The way appraisal is run determines whether it motivates or demotivates.",
+    "h": "Risks of poor appraisal",
+    "points": [
+     "Vague criteria or no follow-up leave employees unclear about expectations and uncertain about their future.",
+     "Appraisals that focus only on faults reduce confidence and lower engagement.",
+     "Inconsistent appraisal between managers makes staff feel decisions are unfair, which weakens trust in the process.",
+     "An appraisal never linked to development or reward can become a box-ticking exercise that employees see as pointless.",
+     "Combining approaches, such as formative reviews through the year with a summative review at the end, balances development with accountability."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Formative appraisal gives regular feedback and development support through the year. Its effect on motivation is positive when staff see progress and receive coaching, because they feel supported and know how to improve. In a hotel where staff work shifts and roles change often, short regular reviews keep expectations clear and avoid the surprise of a single annual judgement. Its weakness is that it takes manager time and can become informal if it is not recorded. Summative appraisal makes a formal end-of-year judgement that links to pay or promotion. It gives a clear record and supports fair decisions, which can motivate staff who earn recognition, but a low rating with no earlier feedback can demoralise employees and create anxiety. Because it looks backward, it does little to help people improve during the year. The group should lead with formative appraisal, since regular feedback builds both motivation and skill, and use summative appraisal only as a fair, documented outcome of that year-long process.",
+    "prompt": "A Kilkenny hotel group with ninety staff wants to improve motivation and performance. Analyse how formative and summative appraisal would each affect employee motivation, and recommend which approach the group should lead with.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "An effective appraisal uses clear criteria, so the employee knows what good performance looks like and can be judged fairly. It takes place regularly, so problems are caught early and feedback is not confined to one annual meeting. It is two-way, letting the employee contribute their own view, and it is linked to development, producing a plan for training or progression rather than ending in a score alone.",
+    "prompt": "Describe the features of an effective appraisal process.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s3": {
+  "keyTerms": [
+   {
+    "definition": "The knowledge, skills, experience and abilities that employees bring to a business, which create value for it.",
+    "term": "Human capital"
+   },
+   {
+    "definition": "The strategic approach to attracting, developing, retaining and deploying people so that their value to the business grows.",
+    "term": "Human capital management"
+   },
+   {
+    "definition": "The process of introducing a new employee to the organisation, its policies and their role.",
+    "term": "Induction"
+   },
+   {
+    "definition": "Another name for induction, the process of introducing new employees to the organisation and their role.",
+    "term": "Onboarding"
+   },
+   {
+    "definition": "Learning that takes place in the normal work setting, so that new skills are applied immediately.",
+    "term": "On-the-job training"
+   },
+   {
+    "definition": "One-to-one guidance from a more experienced person to improve a specific skill or performance.",
+    "term": "Coaching"
+   },
+   {
+    "definition": "A longer-term relationship with a more experienced person who advises on career and development.",
+    "term": "Mentoring"
+   },
+   {
+    "definition": "Moving employees between roles or tasks to build a wider range of skills.",
+    "term": "Job rotation"
+   },
+   {
+    "definition": "Ongoing learning that keeps professionals up to date, often required by professional bodies.",
+    "term": "Continuing professional development"
+   },
+   {
+    "definition": "Less anxiety, faster understanding of the role and quicker building of working relationships.",
+    "term": "Benefits of induction for the employee"
+   },
+   {
+    "definition": "Faster productivity, lower early resignation and protection of the recruitment investment.",
+    "term": "Benefits of induction for the employer"
+   },
+   {
+    "definition": "Culture, leadership, resources and learning climate.",
+    "term": "Factors in the organisational environment"
+   },
+   {
+    "definition": "Concrete experience, reflective observation, abstract conceptualisation and active experimentation.",
+    "term": "Stages of Kolb's cycle"
+   },
+   {
+    "definition": "On-the-job: skills applied at once and little time away from work. Off-the-job: new knowledge from outside, but time away from work.",
+    "term": "On-the-job vs off-the-job training"
+   },
+   {
+    "definition": "Higher productivity and quality, closed skills gaps, lower turnover and readiness to innovate.",
+    "term": "Employer benefits of training"
+   },
+   {
+    "definition": "Employability, career options, confidence and job satisfaction.",
+    "term": "Employee benefits of development"
+   },
+   {
+    "definition": "Tests of learning, observation of behaviour at work, learner feedback and a comparison of cost with benefit.",
+    "term": "Ways to evaluate training"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Human capital is the knowledge, skills, experience and abilities that employees bring to a business, and it can be a source of competitive advantage.",
+    "h": "Human capital and human capital management",
+    "points": [
+     "Human capital is hard for competitors to copy, because a team's combined know-how and working relationships take years to build.",
+     "Human capital management is the strategic approach to attracting, developing, retaining and deploying people so that their value to the business grows.",
+     "HCM links people decisions to business goals, so recruitment, training and reward support the strategy rather than being handled in isolation.",
+     "HCM treats employee development as an investment, and its returns show up in productivity, quality, retention and innovation.",
+     "Learning from experience adds to human capital, because each new skill or insight stays with the person even when their role changes."
+    ]
+   },
+   {
+    "b": "The organisational environment shapes how well human capital is developed and used.",
+    "h": "The organisational environment",
+    "points": [
+     "Organisational culture determines whether people feel free to share ideas, admit mistakes and ask for help, which directly affects learning.",
+     "Leadership sets priorities for development and models learning behaviour, so leaders who support training make it more likely to happen.",
+     "Resources, including budget, time and access to tools, determine how much training is possible.",
+     "A learning climate encourages curiosity and feedback, so staff see learning as part of their job rather than an extra task.",
+     "An organisation that offers no development opportunities risks losing skilled staff to competitors that do."
+    ]
+   },
+   {
+    "b": "Induction, also called onboarding, is the process that introduces a new employee to the organisation and to their role.",
+    "h": "Induction (onboarding)",
+    "points": [
+     "Induction covers the organisation's purpose, structure, policies and culture, so the new employee understands how the business works.",
+     "It introduces the role itself, including duties, performance expectations and who to go to for help.",
+     "It covers health and safety information, equipment, systems and the practical details of the first weeks.",
+     "Effective induction reduces the time a new employee takes to become productive and lowers the chance of early resignation.",
+     "For the employee, induction reduces anxiety and helps them build working relationships; for the employer, it protects the investment made in recruitment."
+    ]
+   },
+   {
+    "b": "Training and development can take place on the job or away from it, and each type suits different needs.",
+    "h": "Types of training and development",
+    "points": [
+     "On-the-job training happens in the normal work setting, so the learner applies new skills immediately and the cost of time away from work is low.",
+     "Coaching is one-to-one guidance from a more experienced person, focused on improving a specific skill or performance.",
+     "Mentoring is a longer-term relationship with a more experienced person who offers advice and support on career and development.",
+     "Job rotation moves employees between roles, which builds breadth of skills and understanding of the organisation.",
+     "Off-the-job training includes external courses, workshops and seminars, which can bring in knowledge from outside the business.",
+     "E-learning delivers training online at the learner's own pace, which is flexible and easy to scale across many locations.",
+     "Further education, such as part-time degrees or diplomas, develops formal qualifications that benefit both the employee and the employer.",
+     "Continuing professional development is ongoing learning that keeps professionals up to date, and many professional bodies require it."
+    ]
+   },
+   {
+    "b": "Ongoing development benefits both the employer and the employee, which is why it is more than a one-off event.",
+    "h": "Benefits of training and development",
+    "points": [
+     "For the employer, training improves productivity and quality, so staff make fewer errors and work more efficiently.",
+     "For the employer, development helps close skills gaps, reducing the need to recruit externally for specialist roles.",
+     "For the employer, staff who see a future with the business are more likely to stay, which reduces turnover costs.",
+     "For the employer, developed staff are better placed to adopt new technology and to contribute ideas for innovation.",
+     "For the employee, development builds skills and qualifications that increase employability and career options.",
+     "For the employee, learning new things raises confidence, job satisfaction and a sense of progress.",
+     "Ongoing development helps organisations adapt to change, since skills that are current today may need updating as technology and markets shift."
+    ]
+   },
+   {
+    "b": "Employees learn from experience through reflection and feedback, and this learning can be built into everyday work.",
+    "h": "Learning from experience",
+    "points": [
+     "Kolb's experiential learning cycle describes learning as a loop of four stages: concrete experience, reflective observation, abstract conceptualisation and active experimentation.",
+     "Reflection, such as reviewing what went well and what did not after a task, turns experience into usable lessons.",
+     "Feedback from colleagues, managers or customers shows the learner what to keep doing and what to change.",
+     "Learning from experience works best in a supportive culture where mistakes are treated as learning opportunities.",
+     "Informal learning, such as watching an experienced colleague handle a difficult customer, adds to formal training and is often the most relevant form of learning for a role."
+    ]
+   },
+   {
+    "b": "Training is worth its cost only if it changes behaviour and performance, so organisations need ways to check its results.",
+    "h": "Evaluating training",
+    "points": [
+     "Evaluation checks whether the learner gained the intended knowledge or skill, for example through a test or a practical demonstration.",
+     "A useful evaluation also checks whether the learning is applied at work, by looking for changes in behaviour and output.",
+     "Feedback from the learner shows whether the training was relevant, well delivered and worth repeating.",
+     "Organisations should compare training costs with benefits such as fewer errors or lower turnover, although some benefits are hard to measure."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Organisational culture determines whether employees feel able to share ideas and ask for help, and a culture that rewards openness makes staff more willing to learn from each other and to grow their skills. Leadership influences human capital management by setting priorities for development: when managers budget for training, model learning and protect time for it, the company builds skills that support its growth. Resources also shape what is possible, since a company with limited budget or time may struggle to run induction, mentoring and external courses for a growing workforce. Finally, a learning climate that treats feedback and experimentation as normal helps staff turn daily experience into new capability, which adds to the company's human capital and makes it harder for competitors to replicate its expertise.",
+    "prompt": "Explain how the organisational environment influences human capital management in a growing Irish software company.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Coaching is focused, one-to-one guidance from a more experienced person to improve a specific skill or performance, such as a senior developer reviewing a junior colleague's code to improve their debugging. Mentoring is a longer-term relationship in which a more experienced person offers advice on career and development, such as a senior manager guiding a graduate through choices about future roles and qualifications.",
+    "prompt": "Explain the difference between coaching and mentoring, giving an example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s4": {
+  "keyTerms": [
+   {
+    "definition": "Members working together towards shared goals, with coordinated roles and open collaboration.",
+    "term": "Teamwork"
+   },
+   {
+    "definition": "A tendency in a team to seek agreement so strongly that alternatives and dissenting views are ignored, leading to poor decisions.",
+    "term": "Groupthink"
+   },
+   {
+    "definition": "Contributing less effort to a team while benefiting from the work of other members.",
+    "term": "Free-riding"
+   },
+   {
+    "definition": "A workplace that reduces its environmental impact and supports the social wellbeing of the people in it.",
+    "term": "Sustainable workplace"
+   },
+   {
+    "definition": "Choosing suppliers and products on the basis of their lower environmental impact.",
+    "term": "Green procurement"
+   },
+   {
+    "definition": "A group of staff who propose and monitor environmental improvements in their organisation.",
+    "term": "Green team"
+   },
+   {
+    "definition": "A climate in which team members feel able to speak up, disagree and admit mistakes without fear of punishment.",
+    "term": "Psychological safety"
+   },
+   {
+    "definition": "Using resources efficiently, producing less waste and lowering emissions so that the natural environment is protected.",
+    "term": "Environmental sustainability"
+   },
+   {
+    "definition": "Skills sharing, creativity, motivation, productivity and better decisions.",
+    "term": "Opportunities of teamwork"
+   },
+   {
+    "definition": "Conflict, free-riding, groupthink, slower decisions and hidden individual performance.",
+    "term": "Challenges of teamwork"
+   },
+   {
+    "definition": "Environmental, covering resources, waste and emissions; and social, covering fair work, inclusion and safety.",
+    "term": "Two dimensions of a sustainable workplace"
+   },
+   {
+    "definition": "Switching off equipment, efficient lighting, heating controls and energy-efficient equipment.",
+    "term": "Energy reduction at work"
+   },
+   {
+    "definition": "Forming, storming, norming and performing.",
+    "term": "Stages of team development"
+   },
+   {
+    "definition": "Policies, resources, measurement and reporting, and staff training.",
+    "term": "Employer contributions to sustainability"
+   },
+   {
+    "definition": "Daily habits, green team participation, sustainable commuting and suggesting ideas.",
+    "term": "Employee contributions to sustainability"
+   },
+   {
+    "definition": "Walking, cycling, public transport, car-sharing and electric vehicles.",
+    "term": "Sustainable travel options"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A team is a group of people working together towards shared goals, and it works best when its members have clear roles and trust one another.",
+    "h": "What makes an effective team",
+    "points": [
+     "Shared goals give the team a common purpose, so members pull in the same direction rather than working on separate priorities.",
+     "Clear roles and responsibilities reduce duplication and confusion about who is doing what.",
+     "Open communication lets members share information, raise concerns and give feedback early.",
+     "Trust and psychological safety allow members to disagree and admit mistakes without fear of punishment.",
+     "A balanced mix of skills and personalities covers the range of tasks the team must complete.",
+     "Teams usually pass through forming, storming, norming and performing, and conflict often appears before a team settles into working well together."
+    ]
+   },
+   {
+    "b": "Teams can add value for both employees and employers.",
+    "h": "Opportunities of teamwork",
+    "points": [
+     "Skills sharing: members learn from each other's expertise, which builds human capital across the team.",
+     "Creativity: a range of perspectives generates more ideas and can improve innovation.",
+     "Motivation: working with colleagues can increase engagement and a sense of shared achievement.",
+     "Productivity: dividing tasks according to strengths can speed up work and improve quality.",
+     "Better decisions: considering several viewpoints before a choice is made can reduce errors.",
+     "Support: employees facing a difficult task have colleagues to turn to, which can reduce stress."
+    ]
+   },
+   {
+    "b": "Teamwork also creates problems that managers must anticipate and manage.",
+    "h": "Challenges of teamwork",
+    "points": [
+     "Conflict: differences in personality, working style or priorities can create tension that slows the work.",
+     "Free-riding: some members contribute less while others do most of the work, which causes resentment and an unfair workload.",
+     "Groupthink: a team may seek agreement so strongly that it ignores alternatives or dissenting views, leading to poor decisions.",
+     "Slower decisions: consulting many people takes time, which is a disadvantage when a fast response is needed.",
+     "Individual performance can be hidden inside a group, which makes fair appraisal harder for the employee and the manager.",
+     "Employers can limit these challenges by setting clear team goals and roles and by monitoring each member's contribution."
+    ]
+   },
+   {
+    "b": "A sustainable workplace reduces its environmental impact and supports the social wellbeing of the people who work there.",
+    "h": "What a sustainable workplace means",
+    "points": [
+     "Environmental sustainability focuses on using fewer resources, producing less waste and lowering emissions.",
+     "Social sustainability focuses on fair work: decent pay, safe conditions, inclusion and respect for employees.",
+     "Economic sustainability means the environmental and social measures are affordable enough to be maintained over time."
+    ]
+   },
+   {
+    "b": "Many sustainability measures are practical and can be started in any workplace.",
+    "h": "Practical sustainability measures",
+    "points": [
+     "Energy reduction: switching off equipment, using efficient lighting, setting heating controls and buying energy-efficient equipment.",
+     "Waste reduction: recycling, reducing paper use and avoiding single-use items in the canteen.",
+     "Sustainable travel: encouraging walking, cycling, public transport and car-sharing, and using electric vehicles for business travel where practical.",
+     "Green procurement: choosing suppliers and products with a lower environmental impact and a sound environmental record.",
+     "Hybrid working: fewer commutes and smaller offices can reduce the footprint, though energy use at home must also be counted.",
+     "Green teams: staff-led groups that propose and monitor environmental improvements, which spreads ownership of sustainability across the organisation.",
+     "Fair work: fair pay, safe conditions and inclusion meet the social side of sustainability."
+    ]
+   },
+   {
+    "b": "Sustainability works best when employers set the direction and employees act on it.",
+    "h": "Contributions by employers and employees",
+    "points": [
+     "Employers can set sustainability policies, provide resources such as recycling facilities and fund energy upgrades.",
+     "Employers can measure and report environmental performance, so progress can be tracked and communicated.",
+     "Employers can train staff in sustainable practices so that they understand what they can change.",
+     "Employees can apply sustainable habits in daily work, such as printing less and turning off equipment.",
+     "Employees can join green teams or propose ideas that reduce waste or energy use.",
+     "Employees can use sustainable travel for their commute and choose eco-friendly suppliers when buying supplies for the team."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "For employees, cross-departmental teams allow skills sharing: a developer working alongside a marketing specialist learns how customers respond to features, which broadens their human capital. Working with colleagues from other areas can also raise motivation and creativity, since different perspectives generate better ideas. For the firm, combining expertise from several departments can speed up complex projects and lead to better decisions. The challenges are significant, however. Members from different departments may have conflicting priorities, leading to tension that slows the work. Some people may free-ride when responsibility is unclear, leaving others with an unfair workload. Teams that prize harmony may fall into groupthink and ignore alternatives. The firm should set clear project goals and roles, agree how decisions will be made, and track each member's contribution so that the benefits of teamwork outweigh its costs.",
+    "prompt": "A Galway software firm is moving to project teams made up of staff from different departments. Discuss the opportunities and challenges this teamwork presents for employees and for the firm.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Green procurement means choosing suppliers and products that have a lower environmental impact, such as paper from sustainably managed sources, energy-efficient equipment or cleaning products with fewer harmful chemicals. Because a workplace's purchases are part of its overall footprint, selecting these items reduces the emissions and waste created in the supply chain, not just on site. It also signals to suppliers that the business values sustainability, which encourages them to improve their own practices.",
+    "prompt": "Explain how green procurement can make a workplace more sustainable.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s5": {
+  "keyTerms": [
+   {
+    "definition": "Paid work done from a location other than the employer's premises, usually at home, using digital tools.",
+    "term": "Remote working"
+   },
+   {
+    "definition": "A mix of working on the employer's premises and working remotely, also called hybrid working.",
+    "term": "Blended working"
+   },
+   {
+    "definition": "Software that lets people communicate, share files and work together online across different locations.",
+    "term": "Collaboration platform"
+   },
+   {
+    "definition": "Storing data and running software on remote servers that users reach over the internet.",
+    "term": "Cloud computing"
+   },
+   {
+    "definition": "Software that records employee activity, such as log-in times, keystrokes or screen use.",
+    "term": "Monitoring software"
+   },
+   {
+    "definition": "The tendency of managers to favour staff they see in person, which can disadvantage remote workers.",
+    "term": "Proximity bias"
+   },
+   {
+    "definition": "The entitlement of employees to switch off from work and not be penalised for not responding to work contact outside working hours.",
+    "term": "Right to disconnect"
+   },
+   {
+    "definition": "The statutory entitlement of an employee to ask an employer for remote working, which the employer must consider.",
+    "term": "Right to request remote working"
+   },
+   {
+    "definition": "Technology that changes established products, services or ways of working so quickly that existing practices become obsolete.",
+    "term": "Disruptive technology"
+   },
+   {
+    "definition": "Wider talent pool, office cost savings, productivity gains, retention and business continuity.",
+    "term": "Employer opportunities"
+   },
+   {
+    "definition": "Supervision, culture, security, health and safety, equipment and support, and a two-tier workforce.",
+    "term": "Employer challenges"
+   },
+   {
+    "definition": "Flexibility, time and cost savings, work-life balance, autonomy and access to work.",
+    "term": "Employee opportunities"
+   },
+   {
+    "definition": "Isolation, blurred boundaries, career visibility, lost informal learning, home workspace problems and household costs.",
+    "term": "Employee challenges"
+   },
+   {
+    "definition": "Surveillance, data protection, fairness, equal access, the right to disconnect and mental health.",
+    "term": "Ethical issues of remote work"
+   },
+   {
+    "definition": "Lower commuting emissions and smaller offices, set against higher home energy use and more equipment waste.",
+    "term": "Sustainability trade-off"
+   },
+   {
+    "definition": "Collaboration platforms, cloud computing, automation and artificial intelligence, and monitoring software.",
+    "term": "Digital technologies changing work"
+   },
+   {
+    "definition": "Consider the request properly, weigh business needs, decide on reasonable grounds, explain any refusal and keep decisions consistent.",
+    "term": "Handling a request for remote working"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Digital technology has changed how work is organised, where it is done and how it is monitored. Because it alters established jobs and business models, it is described as disruptive.",
+    "h": "How digital technology is changing work",
+    "points": [
+     "Collaboration platforms such as Microsoft Teams, Slack and Zoom let teams communicate, share files and meet across different locations.",
+     "Cloud computing stores data and runs software on remote servers, so staff can access their work from any device with an internet connection.",
+     "Automation and artificial intelligence handle repetitive tasks, such as data entry or routine customer queries, which changes the mix of jobs and skills a firm needs.",
+     "Monitoring software records activity such as log-in times, keystrokes or screen use, giving managers productivity data but raising privacy concerns.",
+     "Disruptive technology can make established ways of working obsolete quickly, forcing firms and workers to adapt their processes and skills."
+    ]
+   },
+   {
+    "b": "Remote and blended working are two of the diverse ways of working that digital technology has made practical.",
+    "h": "Defining remote and blended working",
+    "points": [
+     "Remote working means doing paid work from a location other than the employer's premises, most often the employee's home, using digital tools to stay connected.",
+     "Blended working, also called hybrid working, combines time on the employer's premises with time working remotely, such as two office days and three home days a week.",
+     "A fully remote firm has no central office for most staff, while a blended firm keeps an office that staff use for some days.",
+     "Other diverse ways of working include flexible hours, compressed hours and the four-day week, and these can be combined with remote or blended working."
+    ]
+   },
+   {
+    "b": "Employers can gain access to wider talent, possible cost savings and productivity gains, but they also face management challenges.",
+    "h": "Opportunities of remote and blended working for employers",
+    "points": [
+     "A wider talent pool: employers can recruit people who live far from the office, including people in rural areas or abroad, which helps fill skills gaps.",
+     "Office costs: smaller offices or hot-desking can reduce rent, utilities and maintenance costs, particularly in expensive city-centre locations.",
+     "Productivity: some employers report gains where staff have fewer interruptions and no commuting delays, although results depend on the type of work and on good management.",
+     "Retention and reduced absence: flexible arrangements can make an employer attractive to staff and may reduce absence linked to commuting or caring duties.",
+     "Business continuity: remote capability allows work to continue during disruption, such as severe weather or the closure of a premises."
+    ]
+   },
+   {
+    "b": "Remote and blended working makes some management tasks harder and creates new risks for employers.",
+    "h": "Challenges of remote and blended working for employers",
+    "points": [
+     "Supervision: managers cannot observe work directly, so they must manage by results, which requires clear objectives and regular communication.",
+     "Culture: the informal contact that builds shared identity and values can weaken when staff seldom meet in person.",
+     "Security: staff working on home networks and personal devices increase the risk of data breaches, phishing and loss of confidential information.",
+     "Health and safety: the employer keeps its duty of care towards remote workers and must assess the home workspace much as it would an office.",
+     "Equipment and support: employers may need to provide suitable equipment, reliable connectivity and IT support.",
+     "Two-tier workforce: employees who work on site may gain more visibility and opportunities, which can create unequal treatment between staff."
+    ]
+   },
+   {
+    "b": "Employees can gain flexibility, time and a better balance between work and their other responsibilities.",
+    "h": "Opportunities of remote and blended working for employees",
+    "points": [
+     "Flexibility: employees can organise their day around personal commitments such as childcare, caring duties or study.",
+     "Time and cost savings: avoiding a daily commute saves time and money on fuel, public transport or parking.",
+     "Work-life balance: reduced commuting and flexible hours can make it easier to manage family life, health appointments and rest.",
+     "Autonomy: employees who work remotely often feel more in control of how and when they complete tasks, which can raise job satisfaction.",
+     "Access to work: people for whom travel is difficult, including some people with disabilities, can reach jobs they could not otherwise take.",
+     "Quieter conditions at home can help some people concentrate, though this depends on their home circumstances."
+    ]
+   },
+   {
+    "b": "Remote and blended working also brings problems for employees that affect their wellbeing and career progress.",
+    "h": "Challenges of remote and blended working for employees",
+    "points": [
+     "Isolation: long periods without colleagues can lead to loneliness and a weaker sense of belonging.",
+     "Blurred boundaries: working from home can make it hard to switch off, so employees may feel always on call.",
+     "Career visibility: employees who are rarely in the office may miss informal networking and be overlooked for promotion, a problem known as proximity bias.",
+     "Informal learning: less contact with colleagues reduces learning through observation and casual conversation.",
+     "Home workspace: a poor setup can affect posture, comfort and concentration, and many homes lack a quiet, dedicated place to work.",
+     "Costs: employees may bear extra household costs, such as heating, electricity and internet, when working from home."
+    ]
+   },
+   {
+    "b": "Irish law gives employees a right to request remote working, but it does not give them an automatic right to it.",
+    "h": "Legal rights: the right to request remote working",
+    "points": [
+     "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to request remote working.",
+     "An employer must consider the request properly and may refuse it only on reasonable grounds, which should be explained to the employee.",
+     "The Workplace Relations Commission has issued a code of practice that explains how requests for remote working should be handled in practice.",
+     "Employers should handle requests consistently, since inconsistent decisions can lead to claims of unfair treatment."
+    ]
+   },
+   {
+    "b": "Remote and blended working raises ethical questions about surveillance, fairness, privacy and wellbeing.",
+    "h": "Ethical issues",
+    "points": [
+     "Surveillance: monitoring software that tracks keystrokes, screen time or location is intrusive, and it damages trust when used without a clear purpose.",
+     "Data protection: under the General Data Protection Regulation, monitoring must be lawful, transparent and proportionate, so staff should be told what is collected and why.",
+     "Fairness: measuring performance by visible activity rather than by results can unfairly penalise people who work efficiently or who have caring duties.",
+     "Equal access: employees without a suitable home workspace, reliable broadband or privacy are disadvantaged, which creates a fairness problem for employers who expect remote work.",
+     "The right to disconnect: staff should be able to switch off outside working hours without penalty, and Ireland has a code of practice on this right.",
+     "Mental health: always-on expectations can cause stress and burnout, so the employer's duty of care extends to remote workers.",
+     "Equal treatment: decisions on promotion and development should not depend on physical presence in the office."
+    ]
+   },
+   {
+    "b": "The environmental effects of remote and blended working are mixed, and the net result depends on how work is organised.",
+    "h": "Sustainability issues",
+    "points": [
+     "Fewer commutes: reduced car journeys cut transport emissions and traffic congestion, which is one of the most significant environmental benefits.",
+     "Home energy use: staff working at home use more heating, lighting and electricity, which can offset part of the saving, especially where the home is heated by fossil fuels.",
+     "Office footprint: smaller offices use less energy and fewer materials, although a partly used building can still consume a lot of energy.",
+     "Equipment: remote working increases demand for laptops, monitors and other devices, which adds to electronic waste and the emissions created in making them, so repair and reuse policies matter.",
+     "Regional development: remote work can help people live in or move to rural areas, supporting local services and easing pressure on cities, though it can reduce footfall for city-centre businesses.",
+     "Sustainable outcomes depend on policies such as using renewable energy, reusing equipment and avoiding unnecessary travel for meetings."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 25,
+    "model": "For employers, blended working widens the talent pool, so a firm in a regional town can recruit specialists who would never commute to its office. Smaller offices can cut rent and running costs, and some firms report productivity gains where staff have fewer interruptions. The challenges are real, however. Managers cannot watch staff work, so they must manage by results, which needs clear objectives and regular communication. Culture can weaken when people seldom meet, and staff working on home networks raise the risk of data breaches and phishing. Employers also keep a duty of care for remote workers, and a two-tier workforce can emerge if office-based staff gain more visibility and promotion. For employees, flexibility is the main benefit: people can organise their day around childcare or study, save time and money on commuting and often gain more control over their work. Yet isolation, blurred boundaries that make it hard to switch off, and the risk of proximity bias in promotion are serious downsides, and some employees carry extra household costs. Ethically, monitoring software that tracks keystrokes or screen time intrudes on privacy and can damage trust unless it is transparent, proportionate and lawful under the General Data Protection Regulation. Fairness is also at stake: measuring visible activity rather than results penalises efficient workers and people with caring duties, and employees without a suitable home workspace are disadvantaged. The right to disconnect protects wellbeing, and an employer must watch for always-on expectations that cause stress. On sustainability, fewer commutes reduce transport emissions and congestion, and remote work can support rural development. But home heating and lighting can offset part of the saving, and the extra devices add to electronic waste. The overall environmental effect therefore depends on energy sources, equipment reuse and how much travel is still needed for meetings.",
+    "prompt": "Evaluate the opportunities and challenges of blended working for an employer and for its employees, and analyse the ethical and sustainability issues it raises.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "The first issue is privacy and surveillance. Monitoring software that records keystrokes, screen time or location can feel intrusive, and staff may lose trust in the employer if they are watched without being told why. Under the General Data Protection Regulation, monitoring must be lawful, transparent and proportionate, so an employer should tell staff what is collected, why it is needed and how long it is kept. The second issue is fairness. Measuring activity rather than results can penalise employees who work efficiently or who are most productive in short bursts, and it can disadvantage people with caring responsibilities who must work at certain hours. A fair approach judges performance on outcomes and uses monitoring only where it serves a clear, justified purpose.",
+    "prompt": "Discuss two ethical issues that arise when an employer monitors staff who work from home.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to ask their employer for remote working. This is a right to make a request, not a right to be granted remote working. The employer must consider the request properly, weigh it against business needs, and refuse only on reasonable grounds, explaining the reasons to the employee. Consistent handling across staff, guided by the Workplace Relations Commission code of practice, helps the employer avoid claims of unfair treatment.",
+    "prompt": "Outline the right of an Irish employee to request remote working, and explain how an employer should respond.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch14-s6": {
+  "keyTerms": [
+   {
+    "definition": "An organisation's planned set of measures that support employees' physical, mental and social wellbeing.",
+    "term": "Corporate wellness"
+   },
+   {
+    "definition": "A confidential, employer-funded service offering counselling and advice to staff on personal or work problems.",
+    "term": "Employee assistance programme"
+   },
+   {
+    "definition": "A climate in which employees feel able to speak up, raise concerns and admit errors without fear of blame.",
+    "term": "Psychological safety"
+   },
+   {
+    "definition": "The regular or repeated absence of employees from work, including sickness absence, which disrupts operations.",
+    "term": "Absenteeism"
+   },
+   {
+    "definition": "The success of an organisation in keeping its staff over time so that it does not have to replace them.",
+    "term": "Employee retention"
+   },
+   {
+    "definition": "Making a superficial gesture towards a goal, such as wellbeing or diversity, without making real change.",
+    "term": "Tokenism"
+   },
+   {
+    "definition": "Activities that help employees make healthier choices, such as health checks, information and physical activity schemes.",
+    "term": "Health promotion"
+   },
+   {
+    "definition": "The balance between time spent on work and time spent on family, health, study and personal life.",
+    "term": "Work-life balance"
+   },
+   {
+    "definition": "Employee assistance programmes, mental-health supports, flexible working, health promotion, equality policies and physical-activity schemes.",
+    "term": "Typical wellness initiatives"
+   },
+   {
+    "definition": "Employees feel valued, stress falls, trust grows and engagement rises.",
+    "term": "How wellness affects motivation"
+   },
+   {
+    "definition": "Better retention, lower absenteeism, a stronger culture, higher productivity and a better employer reputation.",
+    "term": "Effects of wellness on the organisation"
+   },
+   {
+    "definition": "Modelling, resourcing, policy, psychological safety, workload management and early intervention.",
+    "term": "Leader's role in wellbeing"
+   },
+   {
+    "definition": "Tokenism, cost, difficulty of measuring results, individual blame and low uptake.",
+    "term": "Limits of corporate wellness"
+   },
+   {
+    "definition": "Listening, responding without blame, welcoming early concerns and admitting their own mistakes.",
+    "term": "Ways a leader shows psychological safety"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Corporate wellness is an organisation's planned set of measures that support employees' physical, mental and social wellbeing.",
+    "h": "Corporate wellness defined",
+    "points": [
+     "Corporate wellness covers physical health, mental health and wider social wellbeing, not only the absence of illness.",
+     "It is closely linked to equality, diversity and inclusivity, since a workplace that supports everyone's wellbeing must consider different needs.",
+     "It is a strategic choice: wellbeing is planned and resourced as part of how the business treats its people, rather than delivered as a one-off event.",
+     "Wellbeing matters to employers because stressed or unwell staff are less productive and more likely to be absent."
+    ]
+   },
+   {
+    "b": "Organisations use a range of initiatives, and the most effective ones are matched to the needs of their workforce.",
+    "h": "Typical wellness initiatives",
+    "points": [
+     "Employee assistance programmes give confidential access to counselling and advice on personal or work-related problems.",
+     "Mental-health supports include training for managers, awareness campaigns and access to professional help.",
+     "Flexible working, such as flexible hours or remote working, helps staff manage pressures outside work.",
+     "Health promotion includes health checks, screenings and information on nutrition, sleep and quitting smoking.",
+     "Physical-activity schemes, such as a cycle-to-work scheme or subsidised gym membership, encourage staff to be active.",
+     "Equality, diversity and inclusion policies ensure people are treated fairly and reduce barriers to taking part in wellbeing programmes."
+    ]
+   },
+   {
+    "b": "Wellbeing initiatives can influence motivation by showing employees that the organisation cares about them.",
+    "h": "Impact on motivation",
+    "points": [
+     "Motivation rises when employees feel supported, because they feel valued and are more willing to invest effort.",
+     "Initiatives that reduce stress free up energy for work and make concentration easier.",
+     "When wellbeing support matches what the organisation says it values, employees see its stated values as genuine, which builds trust.",
+     "Wellbeing support can improve engagement, and engaged employees are more willing to contribute ideas and go beyond their job description."
+    ]
+   },
+   {
+    "b": "The effects of corporate wellness extend beyond individuals to the organisation's results and climate.",
+    "h": "Impact on retention, absenteeism and culture",
+    "points": [
+     "Retention: employees who feel cared for are less likely to leave, which reduces recruitment and training costs.",
+     "Absenteeism: effective health and wellbeing measures can reduce sickness absence, although the size of the effect depends on the initiatives chosen.",
+     "Culture: wellbeing programmes can reinforce values such as respect and inclusion, shaping how people treat one another.",
+     "Productivity: healthy staff tend to make fewer errors and sustain their performance over time.",
+     "Reputation: a strong wellbeing record can attract applicants and strengthen the employer's image."
+    ]
+   },
+   {
+    "b": "Leaders shape wellbeing through what they do, what they fund and the policies they enforce.",
+    "h": "The leader's role in promoting wellbeing",
+    "points": [
+     "Modelling: leaders who take breaks, respect working hours and talk openly about wellbeing set the norm for their teams.",
+     "Resourcing: leaders decide budgets and time for wellbeing initiatives, so they determine whether programmes continue beyond their launch.",
+     "Policy: leaders ensure wellbeing and flexible working policies are applied consistently in practice, not only written down.",
+     "Psychological safety: leaders who listen and respond to concerns without blame encourage staff to raise problems early.",
+     "Workload management: leaders who allocate work realistically reduce one of the most common sources of stress.",
+     "Early intervention: leaders who notice signs of stress and refer staff to support can prevent problems from escalating."
+    ]
+   },
+   {
+    "b": "Wellness initiatives can fail when they are cosmetic or poorly designed.",
+    "h": "Limits and risks of corporate wellness",
+    "points": [
+     "Tokenism: programmes presented as caring, but not backed by changes to workloads or culture, can breed cynicism.",
+     "Cost: wellbeing programmes need a budget, which may be hard to sustain during an economic downturn.",
+     "Measurement: the effect of wellness on motivation and retention is hard to isolate, so results are difficult to prove.",
+     "Individual blame: placing all responsibility on staff to manage stress ignores organisational causes such as excessive workloads.",
+     "Low uptake: some initiatives are used by only a minority of staff, so they may not reach the people who need them most."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "First, the initiatives can make staff feel valued. When an employer funds counselling through an employee assistance programme and offers flexible hours, employees feel that the business cares about them, which raises their willingness to invest effort in calls and customer work. Second, reduced stress frees up energy and concentration, so agents handle difficult calls more calmly and are less likely to feel overwhelmed. Third, wellbeing support can build trust when it matches what the company says it values, and trust makes employees more likely to stay. Fourth, improved retention follows from these effects: employees who feel supported are less likely to leave, which lowers the cost of constant recruitment and training in a call centre where turnover is already high. The initiatives will only work if the centre also manages workloads and shift patterns realistically, because a wellbeing programme cannot offset an unmanageable schedule.",
+    "prompt": "A Cork call centre with high staff turnover plans to launch wellbeing initiatives. Assess how these initiatives could improve staff motivation and reduce turnover, using four distinct effects.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A leader can model healthy behaviour by taking proper breaks and respecting working hours, which sets a norm the team can follow without any extra tasks. The leader can also create psychological safety by listening to concerns and responding without blame, so problems surface early and are solved before they become stress. Finally, the leader can review how work is allocated, since reducing unrealistic demands is one of the most effective ways to protect wellbeing.",
+    "prompt": "Describe how a leader can promote wellbeing without adding to staff workload.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch15-s1": {
+  "keyTerms": [
+   {
+    "definition": "Concentrating fully on a speaker, checking understanding and responding, rather than waiting to speak.",
+    "term": "Active listening"
+   },
+   {
+    "definition": "Restating another person's point in your own words to confirm that you have understood it.",
+    "term": "Paraphrasing"
+   },
+   {
+    "definition": "Communication in which the receiver can respond, so that understanding can be checked.",
+    "term": "Two-way communication"
+   },
+   {
+    "definition": "Information sent back to the sender about how a message was received or acted on.",
+    "term": "Feedback"
+   },
+   {
+    "definition": "Technical or specialist terms that listeners outside the field may not understand.",
+    "term": "Jargon"
+   },
+   {
+    "definition": "The state of receiving more messages or data than a person can process, so that important points are missed.",
+    "term": "Information overload"
+   },
+   {
+    "definition": "The degree to which employees are committed to their organisation's goals and willing to contribute to them.",
+    "term": "Employee engagement"
+   },
+   {
+    "definition": "Any factor, such as poor timing, hierarchy or the wrong medium, that prevents a message from being understood.",
+    "term": "Barrier to communication"
+   },
+   {
+    "definition": "Supporting collaboration, avoiding conflict, increasing engagement, promoting positive culture, managing change and promoting innovation.",
+    "term": "Six purposes of communication"
+   },
+   {
+    "definition": "Jargon, information overload, poor listening, wrong medium, culture and language, hierarchy and timing.",
+    "term": "Seven barriers to effective communication"
+   },
+   {
+    "definition": "Set clear goals, listen actively, ensure ongoing engagement and choose the correct mode.",
+    "term": "Four ways to improve communication"
+   },
+   {
+    "definition": "Team meetings, suggestion boxes, staff surveys and open-door sessions.",
+    "term": "Two-way channels in a workplace"
+   },
+   {
+    "definition": "Gives full attention, does not interrupt, paraphrases the point and asks open questions.",
+    "term": "What an active listener does"
+   },
+   {
+    "definition": "Noticeboards, circulars, recorded announcements and emails that do not invite a reply.",
+    "term": "Examples of one-way communication"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Communication serves six purposes in an organisation, and each can be illustrated with a workplace example.",
+    "h": "Six purposes of effective communication",
+    "points": [
+     "Supporting collaboration: a construction crew that shares daily updates on site progress can coordinate deliveries so that work does not clash.",
+     "Avoiding conflict: a store manager who explains a new rota clearly before it starts reduces disputes about shift changes.",
+     "Increasing engagement: a company that shares quarterly results with staff helps them see how their work affects the outcome, which makes them more committed.",
+     "Promoting positive culture: a team leader who thanks staff in open meetings reinforces values such as respect and recognition.",
+     "Managing change: a bank that explains a new online system in advance, with training dates, helps staff accept the change rather than resist it.",
+     "Promoting innovation: an open suggestion scheme lets a junior employee's idea to reduce packaging waste reach the management team."
+    ]
+   },
+   {
+    "b": "A barrier is anything that stops a message from being understood, and knowing the common barriers helps a business prevent them.",
+    "h": "Barriers to effective communication",
+    "points": [
+     "Jargon: technical or specialist terms confuse listeners who do not share the same knowledge, so the message is lost.",
+     "Information overload: receiving too many messages makes it hard to identify the ones that matter.",
+     "Poor listening: a listener who is distracted or who interrupts may miss key points or misunderstand them.",
+     "Wrong medium: a complex change explained in a short text message may be misunderstood, while a simple reminder may not need a meeting.",
+     "Culture and language: differences in customs or first language can change how a message is read and whether it is understood.",
+     "Hierarchy: employees may hesitate to question senior managers, so problems stay hidden.",
+     "Timing: a message delivered at a busy moment, or after a decision has been made, may be ignored or resented."
+    ]
+   },
+   {
+    "b": "Communication is more effective when its purpose is defined before the message is sent.",
+    "h": "Setting clear goals",
+    "points": [
+     "A clear goal states what the communication must achieve, such as agreement on a deadline or understanding of a new procedure.",
+     "Clear goals help the sender choose content, so the message includes what the receiver needs and nothing that distracts from it.",
+     "Goals should be specific enough for the sender to check whether they were met, such as staff confirming they have read a safety update.",
+     "Agreed goals across a team reduce confusion about what each person is responsible for communicating and to whom."
+    ]
+   },
+   {
+    "b": "Active listening means concentrating fully on the speaker and checking understanding, rather than waiting for a turn to speak.",
+    "h": "Listening actively",
+    "points": [
+     "Active listeners give full attention, avoid interrupting and show engagement through eye contact and nods.",
+     "Paraphrasing, which means restating the speaker's point in your own words, confirms that the message has been understood.",
+     "Open questions encourage the speaker to explain more fully, revealing concerns that a closed question might miss.",
+     "Active listening builds trust, because people who feel heard are more willing to share information and raise problems."
+    ]
+   },
+   {
+    "b": "Engagement has to be sustained over time, not limited to a single announcement.",
+    "h": "Ensuring ongoing engagement",
+    "points": [
+     "Regular updates, such as weekly team briefings, keep employees informed and reduce rumour.",
+     "Two-way discussion, such as team meetings where staff can ask questions, keeps people involved rather than merely informed.",
+     "Follow-up, such as checking that a message was understood and acted on, shows that the communication is taken seriously."
+    ]
+   },
+   {
+    "b": "The mode of communication, meaning the method used to deliver a message, should suit both the message and the audience.",
+    "h": "Choosing the correct mode",
+    "points": [
+     "Urgent or sensitive messages usually need a fast, direct mode such as a phone call or face-to-face meeting rather than a written notice.",
+     "A message that must be kept on record, such as a change in company policy, suits a written mode that can be stored and referred back to.",
+     "A message that needs questions answered works better in a two-way mode than in a one-way notice."
+    ]
+   },
+   {
+    "b": "Two-way communication lets the receiver respond, which is essential for checking understanding and finding problems early.",
+    "h": "Feedback and two-way channels",
+    "points": [
+     "Feedback is information returned to the sender about how a message was received, such as questions, objections or a completed task.",
+     "Two-way channels include team meetings, suggestion boxes, staff surveys and open-door sessions with managers.",
+     "A one-way channel such as a notice on a board gives no direct response, so it cannot show whether the message was understood.",
+     "Organisations that gather and act on feedback show employees that their views matter, which supports engagement and trust."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Managing change is the first purpose. Shift patterns affect staff routines, pay and family life, so the firm must explain why the change is happening and how it will work. A clear briefing before the change, with a shift timetable and a named contact for questions, reduces uncertainty and resistance. Avoiding conflict is the second purpose. Disputes over who gets which shift are likely, so an open explanation of the rules and how swaps will be handled helps prevent arguments from escalating. Supporting collaboration is the third purpose. Supervisors on different shifts must hand over work and share problems, so a shared log or daily handover meeting keeps production moving across shift boundaries. Each purpose depends on two-way channels: if staff can raise concerns and supervisors give feedback, the firm can adjust the rota before problems grow.",
+    "prompt": "A Waterford manufacturing firm is introducing rotating shift patterns. Assess why effective communication matters during this change, using three distinct purposes of communication, each with a workplace example.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "The manager can set up regular two-way channels, such as a short weekly team meeting where people are invited to raise questions, or an anonymous suggestion box for those who prefer not to speak up. Alongside this, the manager can listen actively, using paraphrasing and open questions to show that concerns are heard, so that staff come to trust that speaking up leads to action.",
+    "prompt": "Describe two ways a manager could improve communication with a team that rarely gives feedback.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch15-s2": {
+  "keyTerms": [
+   {
+    "definition": "Communication that uses spoken words, in person, by telephone or by video call.",
+    "term": "Verbal communication"
+   },
+   {
+    "definition": "Communication conveyed through body language, facial expression, tone of voice and eye contact rather than through words.",
+    "term": "Non-verbal communication"
+   },
+   {
+    "definition": "The posture, gestures and movements that signal a person's attitude or feelings.",
+    "term": "Body language"
+   },
+   {
+    "definition": "Communication that uses written words, such as email, messages, reports and notices, and that can be kept as a record.",
+    "term": "Written communication"
+   },
+   {
+    "definition": "How well a mode of communication achieves its intended goal.",
+    "term": "Efficacy"
+   },
+   {
+    "definition": "A fraudulent message that tries to trick the recipient into revealing data or clicking a harmful link.",
+    "term": "Phishing"
+   },
+   {
+    "definition": "Redesigning how an organisation works and communicates around digital technology.",
+    "term": "Digital transformation"
+   },
+   {
+    "definition": "A written set of rules on which tools to use for different purposes and how information is handled.",
+    "term": "Communication policy"
+   },
+   {
+    "definition": "Urgency, cost, confidentiality, audience, need for a record, complexity and feedback.",
+    "term": "Criteria for choosing a mode"
+   },
+   {
+    "definition": "Face-to-face conversation, meetings, telephone calls and video calls.",
+    "term": "Verbal modes"
+   },
+   {
+    "definition": "Email, instant messages, reports, noticeboards and intranet posts; charts, diagrams, presentations and videos.",
+    "term": "Written and visual modes"
+   },
+   {
+    "definition": "Modes, speed, cost, access, collaboration, sustainable practices, productivity and security.",
+    "term": "Eight parameters of technology's impact"
+   },
+   {
+    "definition": "Phishing, malware, data breaches and unauthorised access to accounts.",
+    "term": "Security risks of digital communication"
+   },
+   {
+    "definition": "Positive: faster decisions. Negative: pressure to reply instantly.",
+    "term": "Speed: positive and negative effects"
+   },
+   {
+    "definition": "Body language, facial expression, tone of voice and eye contact.",
+    "term": "Non-verbal cues"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Verbal communication uses spoken words and is the most immediate form of workplace communication.",
+    "h": "Verbal communication",
+    "points": [
+     "Face-to-face communication allows immediate feedback and the full range of cues, so it suits sensitive or complex discussions.",
+     "Meetings bring several people together to share information or make decisions, but they take time and can be dominated by a few voices.",
+     "Telephone calls allow quick two-way discussion when people are apart, but they give no visual cues and leave no record unless notes are kept.",
+     "Video calls combine speech with visible facial expressions and gestures, which helps when teams are spread across locations.",
+     "Verbal communication leaves no permanent record, so decisions reached in conversation often need written confirmation."
+    ]
+   },
+   {
+    "b": "Non-verbal communication conveys meaning through the body, face and tone of voice, and it can be as strong as the words used.",
+    "h": "Non-verbal communication",
+    "points": [
+     "Body language, such as posture and gestures, signals confidence, interest or unease.",
+     "Facial expressions show emotional response, and a listener may read a frown as disagreement even when the words are neutral.",
+     "Tone of voice, pace and volume communicate attitude and urgency, so the same words can sound supportive or hostile.",
+     "Eye contact shows attention and sincerity to many listeners, although its meaning varies across cultures.",
+     "Non-verbal cues are hard to control and can contradict spoken messages, which undermines trust when they do not match."
+    ]
+   },
+   {
+    "b": "Written communication creates a lasting record and can reach many people, but it gives limited opportunity for an immediate response.",
+    "h": "Written communication",
+    "points": [
+     "Email is fast, cheap and easy to send to many recipients, and it creates a searchable record.",
+     "Email is often overused, which leads to information overload and slow responses to matters that need urgent attention.",
+     "Instant messaging suits quick, informal exchanges between team members, but messages can be ignored or misread without tone of voice.",
+     "Reports present detailed information in a structured form that can be referred back to, but they take time to prepare and to read.",
+     "Noticeboards, intranet posts and newsletters reach a wide audience at low cost, but they offer no direct response."
+    ]
+   },
+   {
+    "b": "Visual communication uses images, charts and diagrams to show information quickly and clearly.",
+    "h": "Visual communication",
+    "points": [
+     "Charts and graphs make trends and comparisons easy to grasp, so they suit reporting numerical performance.",
+     "Diagrams and flowcharts show processes or structures, which helps staff follow a new procedure.",
+     "Presentations combine slides, images and speech and can hold an audience's attention, but slides overloaded with text reduce clarity.",
+     "Videos and infographics engage people who learn best visually and can be shared widely, though producing good-quality content takes time and money."
+    ]
+   },
+   {
+    "b": "The right mode depends on the message, the audience and the situation, so a manager should weigh several factors together.",
+    "h": "Criteria for choosing a mode",
+    "points": [
+     "Urgency: urgent messages need a fast mode, such as a phone call or face-to-face meeting.",
+     "Cost: a mode should be chosen with its cost in mind, since a meeting for a large group costs more than an email.",
+     "Confidentiality: sensitive information should go through a private, secure mode, such as a one-to-one meeting or encrypted email.",
+     "Audience: the number, location and preferences of recipients determine whether a mode will reach them effectively.",
+     "Need for a record: messages that must be referred to later, such as agreed targets, suit a written mode.",
+     "Complexity: complicated information is easier to understand in a mode that allows questions, such as a meeting, than in a short message.",
+     "Feedback: where a response is needed, a two-way mode such as a discussion is better than a one-way notice."
+    ]
+   },
+   {
+    "b": "Efficacy means how well a mode achieves its communication goal, and each mode has strengths and weaknesses.",
+    "h": "Efficacy of each mode",
+    "points": [
+     "Face-to-face communication is highly effective for building trust and handling complex issues, but it is slow and costly when people are far apart.",
+     "Email is effective for detailed, recorded messages to many people, but it can be ignored or buried in an overloaded inbox.",
+     "Video calls are effective for remote teams and two-way discussion, but poor connections and screen fatigue reduce their effect.",
+     "Noticeboards are cheap and reach everyone in a location, but they are weak for complex or sensitive messages and cannot confirm receipt.",
+     "Visual presentations are effective for explaining data, but they fail if the audience cannot see or interpret the visuals."
+    ]
+   },
+   {
+    "b": "Technology has changed communication across eight parameters: modes, speed, cost, access, collaboration, sustainable practices, productivity and security.",
+    "h": "How technology affects communication",
+    "points": [
+     "Modes: technology has added video calls, instant messaging and collaboration platforms, giving more options but more choices to manage.",
+     "Speed: messages and files can be sent instantly, which speeds up decisions, but expectations of immediate replies can add pressure.",
+     "Cost: digital communication is usually cheaper than printing and travel, though subscriptions and devices carry their own costs.",
+     "Access: cloud tools let staff reach information from anywhere, but people without reliable internet or digital skills can be excluded.",
+     "Collaboration: shared documents and platforms let many people edit and comment on the same work in real time.",
+     "Sustainable practices: digital communication reduces paper and travel, but data centres and devices consume energy and create electronic waste.",
+     "Productivity: tools that automate routine messages or scheduling save time, but constant notifications interrupt focused work.",
+     "Security: digital systems face phishing, malware and data breaches, so organisations need strong passwords, staff training and access controls."
+    ]
+   },
+   {
+    "b": "Digital tools also change how organisations design their communication, and they raise ethical and business considerations.",
+    "h": "Technology and the wider organisation",
+    "points": [
+     "Digital transformation means redesigning communication processes around digital tools, so knowledge can be shared across departments and locations.",
+     "Data protection rules, including the General Data Protection Regulation, apply to workplace messages that contain personal data, so organisations must control who can see what.",
+     "A communication policy sets out which tools to use for which purposes, which reduces confusion and protects data.",
+     "Digital communication can also help small firms reach customers and partners cheaply, for example through social media."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "Confidentiality matters because pension details are personal, so the company should use a private channel, such as individual emails or a one-to-one meeting, rather than a public noticeboard. The number and location of staff also matter: a company-wide video briefing reaches everyone at once, including remote workers, and allows questions. Finally, the need for a record matters because the details of the scheme must be referred to later, so a written summary should follow the briefing. Together these factors point to a combined approach: a live two-way session for explanation and questions, backed up by a written document that staff can keep.",
+    "prompt": "A Dublin software company must tell all staff about a change to their pension scheme. Identify the factors that should guide the choice of communication mode, and explain why they matter in this case.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Speed has improved, because managers can send stock updates or pricing changes to every store in seconds, and staff can get answers without waiting for post or a meeting. This allows faster decisions, although constant messages can create pressure to reply instantly and can overwhelm staff who work on shop floors. Cost has fallen, since email and instant messaging replace printing, couriers and many travel costs, which matters for a chain with stores spread across the country. However, the business pays for subscriptions, devices and support, so the saving is real but not total. Security is the area of greatest risk. Digital communication exposes customer card details, staff records and supplier data to phishing and malware, and a single careless click can cause a serious breach. The business must therefore invest in passwords, staff training and access controls. On balance, the effect has been positive, because faster and cheaper communication improves operations and responsiveness. But the gains depend on managing message overload and on treating security as part of communication, not as a separate IT issue.",
+    "prompt": "Assess how digital technology has changed communication in an Irish retail business across speed, cost and security, and evaluate whether the overall effect has been positive.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch16-s1": {
+  "keyTerms": [
+   {
+    "definition": "A change that originates inside the organisation, such as new leadership, restructuring, new technology, growth or new products.",
+    "term": "Internal change"
+   },
+   {
+    "definition": "A change that originates in the business environment outside the organisation, such as economic conditions, competitor action, regulation or climate.",
+    "term": "External change"
+   },
+   {
+    "definition": "Opposition, open or hidden, from people in an organisation to a planned change in how work is done.",
+    "term": "Resistance to change"
+   },
+   {
+    "definition": "The creation and successful application of new ideas, products, processes or methods that add value for the organisation.",
+    "term": "Innovation"
+   },
+   {
+    "definition": "Entrepreneurial behaviour by employees inside an existing organisation, who develop new ideas for their employer.",
+    "term": "Intrapreneurship"
+   },
+   {
+    "definition": "Giving employees the authority, information and resources to make decisions about their own work.",
+    "term": "Empowerment"
+   },
+   {
+    "definition": "Introducing a change in stages over time rather than all at once.",
+    "term": "Phased change"
+   },
+   {
+    "definition": "A group drawn from different departments that works together on a shared task or project.",
+    "term": "Cross-functional team"
+   },
+   {
+    "definition": "New leadership, restructuring, new technology, growth and new products.",
+    "term": "Five internal sources of change"
+   },
+   {
+    "definition": "Fear of job loss, loss of status or control, uncertainty, habit, lack of trust or information, and extra workload.",
+    "term": "Six reasons employees resist change"
+   },
+   {
+    "definition": "Empowerment, idea schemes, time for projects, rewarding risk, cross-functional teams and tolerance of failure.",
+    "term": "Six practices that promote innovation"
+   },
+   {
+    "definition": "Employees get time to adapt, and managers can spot and fix problems before the whole organisation is affected.",
+    "term": "Advantages of phased change"
+   },
+   {
+    "definition": "It takes longer, prolongs uncertainty, and gives opposition time to build up between stages.",
+    "term": "Disadvantages of phased change"
+   },
+   {
+    "definition": "An intrapreneur develops new ideas inside an existing firm without founding it, while an entrepreneur starts or runs a new venture and bears its financial risk.",
+    "term": "Intrapreneur compared with entrepreneur"
+   },
+   {
+    "definition": "A firm offers a bonus or a job guarantee to staff who accept new working arrangements.",
+    "term": "Example of negotiation and incentives"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Organisations face change throughout their lives, and it comes either from inside the business or from its environment.",
+    "h": "Internal and external change",
+    "points": [
+     "Internal changes include new leadership, restructuring, the introduction of new technology, growth and the launch of new products.",
+     "A new chief executive can alter strategy, culture and priorities across the whole organisation, so the change reaches every department.",
+     "Restructuring reshapes reporting lines, roles and team structures, which changes who makes decisions and how work is shared.",
+     "External changes arise outside the firm, and the STEEPLE factors (social, technological, economic, environmental, political, legal and ethical) provide a checklist for identifying them.",
+     "External pressures include economic conditions, competitor actions, new regulation, technological developments, climate change and pandemics."
+    ]
+   },
+   {
+    "b": "Resistance is a natural human response, and managers need to understand its causes before they can address it.",
+    "h": "Why people resist change",
+    "points": [
+     "Fear of job loss makes employees resist changes that may reduce headcount, change roles or cut hours.",
+     "Loss of status or control occurs when people believe they will lose influence, expertise or authority over their own work.",
+     "Uncertainty about what a change means for them leads people to resist it, even where the change is ultimately beneficial.",
+     "Habit makes people attached to familiar routines and reluctant to learn new methods or systems.",
+     "Lack of trust in management, or lack of information about why the change is happening, fuels suspicion and opposition.",
+     "Extra workload during a transition, such as learning new software while keeping up with existing tasks, creates resistance."
+    ]
+   },
+   {
+    "b": "Innovation thrives where employees are encouraged to generate ideas and where failure is treated as a source of learning.",
+    "h": "Practices that promote innovation",
+    "points": [
+     "Empowerment gives employees authority to make decisions and act on their ideas without waiting for approval at every step.",
+     "Idea schemes give staff a formal route for submitting suggestions, which can then be assessed and rewarded.",
+     "Time for projects allows staff to work on new ideas during working hours rather than only in their spare time.",
+     "Rewarding risk-taking signals that well-judged attempts are valued even when they do not succeed.",
+     "Cross-functional teams bring together people from different departments, combining their skills and perspectives on a problem.",
+     "Tolerance of failure allows experiments to be run and lessons learned without punishing the people involved."
+    ]
+   },
+   {
+    "b": "Both forms of thinking involve spotting opportunities and acting on them, but they differ in where the activity takes place.",
+    "h": "Entrepreneurial and intrapreneurial thinking",
+    "points": [
+     "Entrepreneurial thinking means identifying an opportunity and accepting the financial risk of starting or growing a business to exploit it.",
+     "Intrapreneurial thinking is the same approach applied by an employee inside an existing organisation, such as developing a new product line for the employer.",
+     "An intrapreneur can deliver innovation for the employer without carrying the personal financial risk of founding a new business.",
+     "Entrepreneurial thinking helps established firms adapt faster than competitors that rely only on existing routines.",
+     "Business and financial literacy supports both forms of thinking, because an idea needs costing and a sound financial case before it can be pursued."
+    ]
+   },
+   {
+    "b": "Managers can reduce resistance by addressing its cause, so the approach chosen should match the reason for opposition.",
+    "h": "Ways to overcome resistance",
+    "points": [
+     "Communication explains the reasons for the change, what it involves and how it affects each group, which reduces uncertainty.",
+     "Consultation and participation involve employees in planning the change, which increases their sense of ownership of it.",
+     "Training builds the skills people need to work in the new way, addressing fear of failing or being left behind.",
+     "Support, such as coaching or extra help during the transition, eases the workload pressure that change creates.",
+     "Negotiation and incentives offer something in return for accepting change, such as a bonus or an agreed guarantee about job security.",
+     "Leading by example shows that managers are personally committed to the change, which makes it more credible to staff.",
+     "Phased change introduces the change gradually, giving people time to adapt and allowing managers to correct problems early."
+    ]
+   },
+   {
+    "b": "Resistance that is not handled can delay or derail change, so it has measurable costs for the organisation.",
+    "h": "Why unmanaged resistance matters",
+    "points": [
+     "Resistance can slow implementation, so the benefits a change was meant to deliver arrive later than planned.",
+     "Staff who resist may reduce their productivity, lower the quality of their work or leave, increasing recruitment and training costs.",
+     "Widespread opposition can cause a change to fail completely, wasting the money and time already invested in it.",
+     "Handling change fairly and transparently respects employees and sustains the trust that makes future change easier to achieve."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Fear of job loss: staff may believe the system will reduce the number of reception and booking roles, so they resist it. Management could confirm early whether any roles will change, give written reassurance, and offer redeployment to guest services where possible. Loss of control and status: the receptionist who has run the paper diary for years may feel that her expertise is no longer valued. Management could involve these staff in choosing and configuring the system, so their knowledge shapes the change. Habit and uncertainty: experienced staff are comfortable with the diary and unsure how the new system will cope in the busy season, so they may keep using paper. Management could run a short trial period, provide hands-on training and set out clear guidance for the transition. Extra workload: learning the new system while the hotel is busy adds pressure, so a phased introduction, extra support in the first weeks and protected training time would ease the strain.",
+    "prompt": "A family-run Irish hotel plans to replace its paper booking diary with a cloud-based reservation system. Explain four reasons its staff might resist this change, and suggest how management could respond to each.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "An internal change starts inside the business and is usually controlled by its managers. For example, a shop owner who restructures the shifts or appoints a new store manager is making an internal change. An external change starts outside the business and is usually harder to control. For example, a new regulation on food labelling, or a rise in customer demand for locally sourced products, forces the shop to change its stock and displays.",
+    "prompt": "Distinguish between internal and external sources of change, giving one example of each for a small retail business.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "A business can create an idea scheme that gives staff a formal route to submit suggestions, and it can reward good ideas with recognition or payment so that the scheme is taken seriously. It can also give employees time for projects during the working week, because innovation is unlikely to flourish if staff can only work on new ideas in their spare time. Cross-functional teams that combine people from sales, production and finance bring different perspectives to a problem and make creative solutions more likely. Finally, the business must tolerate failure, because employees will not experiment if they expect punishment for an unsuccessful attempt.",
+    "prompt": "Explain how a business can foster innovation among its employees.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch16-s2": {
+  "keyTerms": [
+   {
+    "definition": "A decision tool that compares the forces driving a proposed change with the forces restraining it, using scores to judge the balance.",
+    "term": "Force-field analysis"
+   },
+   {
+    "definition": "A factor that pushes an organisation towards a proposed change.",
+    "term": "Driving force"
+   },
+   {
+    "definition": "A factor that opposes or holds back a proposed change.",
+    "term": "Restraining force"
+   },
+   {
+    "definition": "The ongoing process of setting an organisation's long-term direction and deciding how to reach it.",
+    "term": "Strategic planning"
+   },
+   {
+    "definition": "The continuous sequence of analysing, setting objectives, choosing a strategy, implementing, and monitoring and reviewing.",
+    "term": "Strategic planning cycle"
+   },
+   {
+    "definition": "A statement of why an organisation exists and what it does for its customers.",
+    "term": "Mission statement"
+   },
+   {
+    "definition": "A description of the future state that an organisation hopes to achieve.",
+    "term": "Vision statement"
+   },
+   {
+    "definition": "Medium-term planning that turns the strategy into plans for departments or functions.",
+    "term": "Tactical planning"
+   },
+   {
+    "definition": "Identify the proposed change, list driving and restraining forces, score each force, total each side, then decide and plan actions to shift the balance.",
+    "term": "Steps of force-field analysis in order"
+   },
+   {
+    "definition": "Scores are subjective, forces are not weighted, the picture changes over time, and interactions between forces are not shown.",
+    "term": "Limitations of the force-field method"
+   },
+   {
+    "definition": "Direction, coordination, resource allocation, anticipating change, motivation and control.",
+    "term": "Benefits of strategic planning"
+   },
+   {
+    "definition": "Strategic planning is long-term, tactical planning is medium-term and operational planning is short-term.",
+    "term": "Time horizons of the three planning levels"
+   },
+   {
+    "definition": "Set objectives, choose strategy, implement, then monitor and review, which feeds back into analysis.",
+    "term": "Order of the planning cycle after analysis"
+   },
+   {
+    "definition": "Each force is scored from 1 for weak to 5 for strong, and the scores for each side are totalled.",
+    "term": "Scoring scale in force-field analysis"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Planning happens at three levels, each with a different time horizon and a different group of managers responsible.",
+    "h": "Strategic, tactical and operational planning",
+    "points": [
+     "Strategic planning sets the long-term direction of the whole organisation and is led by senior management.",
+     "Tactical planning turns the strategy into medium-term plans for departments or functions, such as a marketing campaign for the coming year.",
+     "Operational planning organises the day-to-day work needed to meet tactical goals, such as weekly staff rotas and stock orders.",
+     "The three levels link together: operational plans deliver tactical plans, and tactical plans deliver the strategic direction."
+    ]
+   },
+   {
+    "b": "These statements give strategic planning its purpose and direction.",
+    "h": "Mission, vision and goals",
+    "points": [
+     "A mission statement explains why the organisation exists and what it does for its customers.",
+     "A vision statement describes the future state the organisation hopes to achieve.",
+     "Goals are broad aims, whereas objectives are specific targets set to achieve those goals.",
+     "Objectives written in the SMART format are specific, measurable, achievable, relevant and time-bound."
+    ]
+   },
+   {
+    "b": "Strategic planning is a continuous process, not a one-off exercise, because the business environment keeps changing.",
+    "h": "The strategic planning cycle",
+    "points": [
+     "Analysis: the business examines its internal capabilities and its external environment, using tools such as SWOT and STEEPLE.",
+     "Objective-setting: the firm decides what it wants to achieve, expressed as measurable objectives.",
+     "Strategy choice: management selects the course of action, such as entering a new market or cutting costs, that best meets the objectives.",
+     "Implementation: the plans are put into action, with resources, responsibilities and timetables assigned to named people.",
+     "Monitoring and review: performance is measured against the objectives and the plan is adjusted, which sends the cycle back to analysis."
+    ]
+   },
+   {
+    "b": "Strategic planning gives an organisation several benefits that help it manage its future.",
+    "h": "Benefits of strategic planning",
+    "points": [
+     "Direction: everyone understands where the organisation is heading and what it is trying to achieve.",
+     "Coordination: departments align their work towards shared goals, which reduces duplication and conflict.",
+     "Resource allocation: money, staff and equipment are directed to the priorities that matter most.",
+     "Anticipating change: planning highlights likely threats and opportunities early, leaving time to respond.",
+     "Motivation: staff who understand the purpose of their work tend to be more committed to it.",
+     "Control: managers have benchmarks against which progress can be measured and corrective action taken."
+    ]
+   },
+   {
+    "b": "Strategic planning matters most when an organisation must change, because change is risky and needs clear direction.",
+    "h": "Planning for change",
+    "points": [
+     "A change plan identifies what must change, when it will happen and who is responsible for each part of it.",
+     "Planning allows managers to allocate budgets and staff time to the change, rather than leaving it to happen by chance.",
+     "A plan that involves the people affected shows them the reasons for the change and the timeline, which helps to reduce resistance."
+    ]
+   },
+   {
+    "b": "Force-field analysis is a decision tool developed by the psychologist Kurt Lewin. It compares the forces pushing for a change with the forces resisting it.",
+    "h": "What force-field analysis is",
+    "points": [
+     "Driving forces are factors that push the organisation towards the proposed change, such as competitor action or rising customer demand.",
+     "Restraining forces are factors that oppose the change, such as cost, fear of disruption or a shortage of skills.",
+     "Forces can be internal, such as staff skills and organisational culture, or external, such as regulation and market conditions.",
+     "Each force is scored for its strength, normally on a scale from 1 (weak) to 5 (strong), which turns a list of factors into a quantified comparison.",
+     "The total of the driving scores is compared with the total of the restraining scores to show whether the change is likely to be supported."
+    ]
+   },
+   {
+    "b": "The scores guide the decision, but the method has weaknesses that managers must keep in mind.",
+    "h": "Using the result and its limitations",
+    "points": [
+     "A higher total for driving forces than restraining forces suggests the change is more likely to be worth pursuing.",
+     "A close result suggests the decision is marginal, so the business should look for ways to change the balance before committing.",
+     "Scores are subjective, so two managers may score the same force differently and the result depends on the judgement behind it.",
+     "The analysis does not weight forces by importance, so one very strong restraint can outweigh several weaker drivers.",
+     "Forces change over time, so a result can be out of date soon after it is produced.",
+     "The method lists forces but does not show how they interact, such as a driving force creating a new restraint.",
+     "It does not estimate costs, benefits or financial returns, so it should be used alongside financial analysis."
+    ]
+   },
+   {
+    "b": "The following example is invented. Millbrook Bakehouse, a fictional Irish bakery chain with six shops, is deciding whether to install self-service ordering kiosks in all of them.",
+    "h": "Worked example: the decision and the driving forces",
+    "points": [
+     "The decision: install self-service ordering kiosks in all six shops within the next twelve months.",
+     "Driving force, scored 4: rising wage costs make it expensive to staff the counters at peak times.",
+     "Driving force, scored 4: customers increasingly expect quick ordering at busy times, especially at lunch.",
+     "Driving force, scored 3: rival bakery chains have introduced kiosks, so Millbrook risks falling behind.",
+     "Driving force, scored 3: kiosks would free staff to spend more time baking and serving customers.",
+     "Driving total: 14, from the scores 4, 4, 3 and 3."
+    ]
+   },
+   {
+    "b": "The restraining forces are scored in the same way, and the two totals are then compared.",
+    "h": "Worked example: the restraining forces and the result",
+    "points": [
+     "Restraining force, scored 4: staff fear that kiosks will lead to job losses.",
+     "Restraining force, scored 3: the upfront cost of the kiosks and their installation is a significant investment.",
+     "Restraining force, scored 3: some older customers and those who want advice prefer counter service.",
+     "Restraining force, scored 2: a breakdown in kiosk technology could disrupt service in a shop.",
+     "Restraining total: 12, from the scores 4, 3, 3 and 2.",
+     "Result: the driving total of 14 exceeds the restraining total of 12, so the balance favours the change, but only narrowly."
+    ]
+   },
+   {
+    "b": "Because the result is close, Millbrook should act on the forces rather than simply accept or reject the proposal.",
+    "h": "Worked example: shifting the balance",
+    "points": [
+     "Strengthening the drivers: a six-week trial in one shop would produce hard evidence of time saved, which supports the case for the change.",
+     "Weakening the restraints: staff are offered retraining for new roles and a written commitment that no one will lose their job because of the kiosks.",
+     "Weakening the restraints: counter service stays available during quieter periods, reassuring customers who prefer to order in person.",
+     "Weakening the restraints: a maintenance contract with a fast-response service provider reduces the risk of breakdowns, the restraint with a score of 2."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Driving forces, scored from 1 (weak) to 5 (strong). Real-time stock data would let the retailer see sales across its shops and website as they happen, scored 4. Fewer stock-counting errors and less time spent on manual counts, scored 4. Competitors already use similar systems, scored 3. Reduced overstocking would cut the cost of unsold clothing, scored 3. Driving total: 14. Restraining forces. Staff unfamiliar with the software need training, scored 3. Licence and set-up costs must be paid up front, scored 3. Errors during the transfer of stock records could cause serious problems, scored 4. Disruption during the switchover in the busy season could hurt sales, scored 3. Restraining total: 13. Conclusion: the balance is slightly favourable at 14 to 13, so the decision is marginal. The retailer should strengthen the drivers by piloting the system in one shop to produce evidence of time saved and stock accuracy. It should weaken the restraints by backing up all data before the transfer, training staff in advance and scheduling the switch after the busy season. Re-scoring after these steps would show whether the balance has moved clearly in favour of the change, and the scores should be checked with managers because they are subjective.",
+    "prompt": "A clothing retailer is considering moving its stock management to a new online system. Use a force-field analysis to examine the decision, identifying at least four driving forces and four restraining forces with scores, and reach a conclusion.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Tactical planning is medium-term and turns the strategy into plans for a department or function. For example, a restaurant might plan its summer menu, promotions and seasonal staffing for the next six months. Operational planning is short-term and organises the day-to-day work needed to meet the tactical plans, such as the weekly staff rota and the orders placed with suppliers for the coming week.",
+    "prompt": "Distinguish between tactical planning and operational planning, giving one example of each for a restaurant.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Direction: when each branch understands the organisation's mission and long-term goals, managers in every county can aim their decisions at the same destination. Coordination: planning allows branches to share approaches, avoid duplicating marketing spend and align their timetables, so the business works as one organisation. Anticipating change: a planning process that scans the environment can detect new competitors, new regulation or shifts in local demand early, giving the firm time to respond before it is forced to react.",
+    "prompt": "Explain three benefits of strategic planning for a business that operates in several counties.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch16-s3": {
+  "keyTerms": [
+   {
+    "definition": "A sudden, unexpected event that threatens an organisation's people, operations, reputation or survival.",
+    "term": "Crisis"
+   },
+   {
+    "definition": "The process of preventing, preparing for, responding to, recovering from and reviewing such events.",
+    "term": "Crisis management"
+   },
+   {
+    "definition": "A prepared course of action to follow if a specified event occurs, such as a system failure.",
+    "term": "Contingency plan"
+   },
+   {
+    "definition": "A specified event or warning sign that activates a contingency plan.",
+    "term": "Trigger"
+   },
+   {
+    "definition": "A copy of data or a spare resource kept ready to use if the original is lost or fails.",
+    "term": "Backup"
+   },
+   {
+    "definition": "A second source of essential goods or services, ready to use if the main supplier fails.",
+    "term": "Alternative supplier"
+   },
+   {
+    "definition": "The stage of the management process in which normal operations are restored after an event.",
+    "term": "Recovery"
+   },
+   {
+    "definition": "The two measures used together to decide how much attention a risk deserves.",
+    "term": "Risk likelihood and impact"
+   },
+   {
+    "definition": "Prevention, preparation, response, recovery and review.",
+    "term": "Five stages in order"
+   },
+   {
+    "definition": "Triggers, responsibilities, a communication plan, backups and alternative suppliers.",
+    "term": "Contents of a contingency plan"
+   },
+   {
+    "definition": "Cost, time, risk likelihood and impact, resources, legal duties and stakeholders.",
+    "term": "Factors to weigh when developing a plan"
+   },
+   {
+    "definition": "Faster decisions, a protected reputation and lower costs from smaller losses.",
+    "term": "Benefits of contingency planning"
+   },
+   {
+    "definition": "It cannot anticipate every event, plans cost money to maintain, and untested plans may fail.",
+    "term": "Limits of contingency planning"
+   },
+   {
+    "definition": "A fire at a single production site that halts output at one business.",
+    "term": "Example of a local crisis"
+   },
+   {
+    "definition": "A pandemic that closes workplaces across the country at the same time.",
+    "term": "Example of a national crisis"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Contingency planning is one part of a wider approach to crisis management, so the terms need to be kept distinct.",
+    "h": "Key definitions",
+    "points": [
+     "A crisis is a sudden, unexpected event that threatens an organisation's people, operations, reputation or survival and needs an urgent response.",
+     "Crisis management is the process of preventing, preparing for, responding to, recovering from and reviewing such events.",
+     "A contingency plan is a prepared course of action to follow if a specified event occurs, such as a failure of the main computer system.",
+     "A contingency plan is written in advance, so that decisions are made calmly before the pressure of an actual event builds up."
+    ]
+   },
+   {
+    "b": "Crises can start in one location or affect a whole country, and planning should cover both.",
+    "h": "Local and national crises",
+    "points": [
+     "A local crisis affects one site or business, such as a fire at a production plant or the sudden loss of a key member of staff.",
+     "A cyber-attack on a firm's systems can be local to that business but still expose customer data and disrupt sales.",
+     "The 2021 ransomware attack on the Health Service Executive showed how a cyber-attack can halt core services across a whole public organisation.",
+     "A national crisis affects many businesses at once, such as a severe storm that damages power networks or a pandemic that closes workplaces.",
+     "A product recall, such as the withdrawal of a contaminated food product, may start with one supplier but affects every retailer that stocked it.",
+     "A supply failure, such as a disruption to imported components, can spread from one firm's supply chain to whole sectors of the economy."
+    ]
+   },
+   {
+    "b": "The five stages form a cycle, because the review of one crisis improves prevention and preparation for the next.",
+    "h": "Stages of crisis management",
+    "points": [
+     "Prevention reduces the chance of a crisis happening, for example through safety procedures and regular checks of systems and equipment.",
+     "Preparation means writing contingency plans, training staff and arranging backups before any crisis occurs.",
+     "Response is the immediate action taken once a crisis begins, guided by the contingency plan and by clear lines of command.",
+     "Recovery restores normal operations, which may include repairing systems, serving customers again and supporting affected staff.",
+     "Review examines what happened, what worked and what failed, and feeds those lessons back into prevention and preparation."
+    ]
+   },
+   {
+    "b": "A useful plan is specific enough to act on quickly, and it must be kept up to date.",
+    "h": "What a contingency plan contains",
+    "points": [
+     "Triggers define the events or warning signs that activate the plan, so that action starts at the right moment.",
+     "Responsibilities name who makes decisions and who carries out each task during the crisis.",
+     "A communication plan sets out who is told what, through which channels and how quickly, covering staff, customers and suppliers.",
+     "Backups provide copies of data and spare equipment, so operations can continue if the originals are lost or damaged.",
+     "Alternative suppliers provide a second source of essential goods or services if the main supplier fails."
+    ]
+   },
+   {
+    "b": "Each factor affects which contingency measures are worth paying for and how they should be prioritised.",
+    "h": "Factors to weigh when developing a plan",
+    "points": [
+     "Cost: the expense of each measure must be weighed against the losses it would prevent.",
+     "Time: some measures, such as qualifying a standby supplier, take time to set up, so they must be arranged before they are needed.",
+     "Risk likelihood and impact: a risk that is likely and severe deserves more attention than one that is rare and minor.",
+     "Resources: the availability of staff, money and equipment limits what can realistically be prepared.",
+     "Legal duties: obligations under health and safety law, such as the Safety, Health and Welfare at Work Act 2005, and under data protection law may require specific measures.",
+     "Stakeholders: the interests of customers, employees, suppliers and the public must be considered when priorities are set."
+    ]
+   },
+   {
+    "b": "Contingency planning reduces the damage from a crisis but cannot remove every risk.",
+    "h": "Benefits and limits of contingency planning",
+    "points": [
+     "It allows faster decisions in a crisis, because people already know their roles before the event occurs.",
+     "It can protect the reputation of the business, since a planned and prompt response appears competent to customers.",
+     "It can reduce costs by limiting the scale of losses and the length of any downtime.",
+     "Plans cost money and time to prepare and maintain, and a business may judge that the cost is too high for rare events.",
+     "A plan becomes out of date if it is not tested and updated, and an untested plan may fail when it is needed.",
+     "No plan can anticipate every event, so flexibility and judgement are still needed during a crisis."
+    ]
+   },
+   {
+    "b": "As businesses rely more on digital systems, their contingency plans must cover technology failures as well as physical events.",
+    "h": "Contingency planning and digital transformation",
+    "points": [
+     "Greater reliance on online systems means a system outage can quickly stop sales and operations.",
+     "Backups kept in a separate location allow recovery even when a local system has been compromised by an attack.",
+     "Staff training on phishing and security procedures reduces the chance that a cyber-attack succeeds."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Contingency planning prepares the firm before the failure occurs. It can identify and vet an alternative supplier in advance and agree terms with them, so that production can switch quickly. The plan sets a trigger, such as a delivery that is late by a set period, and names who decides to switch and who contacts customers. The factors to weigh are cost, because holding extra stock or paying a second supplier costs money that must be compared with the losses from stopped production. Time matters because a new supplier must be checked and tested before it is needed. Risk likelihood and impact show how often a supply failure might occur and how severe the loss would be. Resources such as storage space and staff limit what can be prepared. Legal duties, including food safety rules that a new ingredient must meet, must be respected. Finally, stakeholders such as retailers and customers who rely on consistent supply shape the priorities of the plan.",
+    "prompt": "A small Irish food manufacturer depends on one supplier for a key ingredient. Explain how contingency planning could help it manage a supply failure, and discuss the factors it should weigh when developing the plan.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A crisis is a sudden, unexpected event that threatens the hotel's operations, reputation or safety, such as a burst pipe that floods several rooms during a busy weekend. A contingency plan is the prepared response the hotel sets out in advance for such events, such as a plan to move affected guests to a partner hotel and to call an emergency repair contractor.",
+    "prompt": "Distinguish between a crisis and a contingency plan, giving one example of how each would apply to a hotel.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Faster decisions: when staff know their roles before a website outage occurs, the business can act within minutes rather than debating who is responsible. Protected reputation: a prompt and planned communication to customers during an outage shows competence and reduces complaints. Lower costs: a backup of the sales system and an alternative payment provider allow orders to continue, so the losses from downtime are limited.",
+    "prompt": "Explain three benefits of contingency planning for a business that depends heavily on online sales.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch17-s1": {
+  "keyTerms": [
+   {
+    "definition": "The Irish statute that sets out consumer rights and remedies for goods, services, digital content and digital services.",
+    "term": "Consumer Rights Act 2022"
+   },
+   {
+    "definition": "The Irish statute that prohibits unfair, misleading and aggressive commercial practices towards consumers.",
+    "term": "Consumer Protection Act 2007"
+   },
+   {
+    "definition": "The Irish body that enforces consumer protection law and competition law, established under the Competition and Consumer Protection Act 2014.",
+    "term": "CCPC"
+   },
+   {
+    "definition": "The right to return faulty goods for a full refund within a short period after purchase.",
+    "term": "Short-term right to reject"
+   },
+   {
+    "definition": "A commercial practice that gives false or deceptive information about a product or a trader.",
+    "term": "Misleading action"
+   },
+   {
+    "definition": "A commercial practice that uses harassment, coercion or undue influence to restrict a consumer's freedom of choice.",
+    "term": "Aggressive practice"
+   },
+   {
+    "definition": "A term in a standard consumer contract that creates a significant imbalance against the consumer.",
+    "term": "Unfair contract term"
+   },
+   {
+    "definition": "A method of settling a complaint outside the courts, using a neutral third party.",
+    "term": "Alternative dispute resolution"
+   },
+   {
+    "definition": "Short-term right to reject, then repair or replacement, then a price reduction or a final right to reject.",
+    "term": "Remedies for faulty goods, in order"
+   },
+   {
+    "definition": "Consumers have up to two years from delivery to claim, with a fault in the first 12 months presumed to have existed at delivery.",
+    "term": "Length of the legal guarantee for goods"
+   },
+   {
+    "definition": "Consumers can normally cancel distance purchases, such as online orders, within 14 days of receiving the goods.",
+    "term": "Cancellation period for online purchases"
+   },
+   {
+    "definition": "Promoting a product at an attractive price with no real intention of supplying it on those terms, so that customers are steered to a different item.",
+    "term": "Example of bait advertising"
+   },
+   {
+    "definition": "Complain to the seller, use alternative dispute resolution, use the Small Claims procedure, then go to court.",
+    "term": "Redress steps in order"
+   },
+   {
+    "definition": "Keep receipts, read the terms, act promptly and use goods properly.",
+    "term": "Consumer responsibilities"
+   },
+   {
+    "definition": "The Advertising Standards Authority for Ireland, which enforces the industry code for advertising and marketing communications.",
+    "term": "Who enforces advertising standards"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Consumer Rights Act 2022 is the main Irish statute setting out the rights of consumers who buy goods, services and digital products.",
+    "h": "The Consumer Rights Act 2022",
+    "points": [
+     "The Act consolidated and modernised much of the older Irish law on the sale of goods and the supply of services.",
+     "It covers goods, services, digital content and digital services, so the consumer has rights whatever is bought.",
+     "Goods must be of satisfactory quality, fit for their purpose and as described by the trader.",
+     "Services must be carried out with reasonable care and skill, and within a reasonable time where no time was agreed.",
+     "Digital content and digital services must be of satisfactory quality and fit for purpose, and must match what was described when they were sold."
+    ]
+   },
+   {
+    "b": "The Act sets out a sequence of remedies that the consumer can use when goods do not meet the required standard.",
+    "h": "Remedies for faulty goods",
+    "points": [
+     "The short-term right to reject allows a consumer to return faulty goods for a full refund within 30 days of purchase.",
+     "After the short-term period, the consumer normally has the right to a repair or a replacement, which the trader must provide within a reasonable time and without significant inconvenience.",
+     "If a repair or replacement is not possible or fails, the consumer may be entitled to a price reduction or to end the contract and receive a refund.",
+     "Consumers have up to two years from delivery to claim that goods did not conform to the contract.",
+     "For the first 12 months, a fault that appears is presumed to have existed at the time of delivery, unless the trader can show otherwise."
+    ]
+   },
+   {
+    "b": "Services and digital content have their own remedies, which focus on repeating the service or fixing the fault.",
+    "h": "Remedies for services and digital content",
+    "points": [
+     "If a service is not performed with reasonable care and skill, the consumer can require the trader to repeat it or to fix the problem.",
+     "If the trader does not put the problem right, the consumer can seek a price reduction that reflects the value they did not receive.",
+     "Faulty digital content can be repaired or replaced, and the consumer may be entitled to a price reduction if this fails.",
+     "Ending the contract is available where the trader's failure is serious, and the consumer then receives an appropriate refund."
+    ]
+   },
+   {
+    "b": "The Act protects consumers from terms in standard contracts that create a significant imbalance against them.",
+    "h": "Unfair contract terms",
+    "points": [
+     "A term is unfair if it causes a significant imbalance in the parties' rights and obligations to the detriment of the consumer, contrary to good faith.",
+     "Terms must be transparent, which means written in plain and intelligible language that an ordinary consumer can understand.",
+     "An unfair term does not bind the consumer, while the rest of the contract can still stand."
+    ]
+   },
+   {
+    "b": "The Consumer Protection Act 2007 controls how businesses market and sell to consumers, and it gives effect to an EU directive on unfair commercial practices.",
+    "h": "The Consumer Protection Act 2007",
+    "points": [
+     "A commercial practice is unfair if it is misleading or aggressive, or if it falls short of the standard of care a trader is expected to show towards consumers.",
+     "A misleading action gives the consumer false or deceptive information, such as claiming a product has a feature it does not have.",
+     "A misleading omission hides or leaves out information the consumer needs to make an informed decision.",
+     "An aggressive practice uses harassment, coercion or undue influence that significantly restricts a consumer's freedom of choice.",
+     "The Act lists prohibited practices that are always unlawful, such as bait advertising, where a product is promoted without any real intention of supplying it on the advertised terms."
+    ]
+   },
+   {
+    "b": "The Competition and Consumer Protection Commission enforces consumer protection law and competition law in Ireland.",
+    "h": "The CCPC",
+    "points": [
+     "The CCPC was established under the Competition and Consumer Protection Act 2014, bringing together the work of earlier bodies.",
+     "Its powers include investigating suspected breaches, seeking court orders to stop unlawful practices and prosecuting offences.",
+     "It publishes guidance so that consumers and businesses understand their rights and obligations, which helps to prevent breaches.",
+     "The CCPC focuses on wider breaches that affect many consumers and generally does not resolve individual complaints about a single purchase."
+    ]
+   },
+   {
+    "b": "Advertising is regulated by law and by a self-regulatory code, so promotions must be honest and fair.",
+    "h": "Advertising and promotion rules",
+    "points": [
+     "The Advertising Standards Authority for Ireland (ASAI) enforces an industry code of standards for advertising and marketing communications.",
+     "Advertising that is misleading, offensive or unfair can be ruled against, and the ASAI can require it to be withdrawn or changed.",
+     "Comparative advertising must compare products fairly and must not denigrate competitors.",
+     "Consumers can complain to the ASAI about an advertisement, which gives them a route for concerns about promotion."
+    ]
+   },
+   {
+    "b": "Rights come with responsibilities, and consumers protect their position by acting sensibly.",
+    "h": "Consumer responsibilities",
+    "points": [
+     "Keep receipts, order confirmations and warranty documents, because they are evidence of the purchase and of what was agreed.",
+     "Read the terms before buying, particularly the conditions on cancellation, delivery and returns.",
+     "Act promptly when a fault appears, since delay can weaken a claim and make it harder to show that the fault was present at sale.",
+     "Use goods properly and as instructed, since damage caused by misuse is not the trader's responsibility.",
+     "Check the trader's identity and contact details before paying, so there is someone to pursue if things go wrong."
+    ]
+   },
+   {
+    "b": "A consumer should escalate a complaint in order, starting with the simplest and least costly route.",
+    "h": "Redress: escalating a complaint",
+    "points": [
+     "First, complain to the seller in writing, stating the problem, the remedy wanted and a reasonable deadline for a response.",
+     "Second, use an alternative dispute resolution service, which offers a faster and less formal route than the courts.",
+     "Third, use the Small Claims procedure in the District Court for smaller claims, which is designed so that individuals can take a case without a solicitor.",
+     "Finally, the courts can hear a claim, but cost and time make this the last resort for most consumers."
+    ]
+   },
+   {
+    "b": "Protection depends on where the trader is based, so buying from outside the EU carries greater risk.",
+    "h": "Buying inside and outside the EU",
+    "points": [
+     "Inside the EU, consumers benefit from EU-wide rules on consumer contracts, which apply to purchases from traders in other member states.",
+     "The European Consumer Centre Ireland helps Irish consumers with cross-border complaints involving traders in other EU countries.",
+     "Since Brexit, the UK is outside the EU, so EU consumer rules do not automatically apply to purchases from UK traders.",
+     "Purchases from outside the EU may attract customs duty and import VAT, which increase the final cost and can be unexpected.",
+     "Remedies for non-EU purchases can be weaker and harder to enforce, so the consumer may rely on the trader's goodwill or on the protection offered by the payment provider.",
+     "Before buying from outside the EU, a consumer should check the trader's location and its returns policy."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "If the fault appears within 30 days of purchase, the consumer can use the short-term right to reject and return the laptop for a full refund. After that period, the consumer is normally entitled to ask for a repair or a replacement, which the retailer must carry out within a reasonable time and without significant inconvenience. If the repair or replacement fails or is not possible, the consumer may be entitled to a price reduction or to end the contract and receive a refund. Because a fault that appears within the first 12 months is presumed to have existed when the laptop was delivered, the retailer must show otherwise, so the consumer does not have to prove that the fault was present from the start. The consumer should keep the receipt and order confirmation, report the fault promptly and in writing, and state the remedy wanted. If the retailer refuses to act, the consumer can escalate the complaint through alternative dispute resolution or the Small Claims procedure.",
+    "prompt": "A consumer buys a laptop from a shop and it develops a fault. Explain the remedies available under the Consumer Rights Act 2022 depending on when the fault appears, and outline the steps the consumer should take.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A misleading action gives the consumer false or deceptive information. For example, a gym that advertises a free trial when the trial is only available after a paid joining fee has made a false statement about its offer. A misleading omission leaves out information the consumer needs to make an informed decision. For example, a gym that advertises a low monthly fee without mentioning a compulsory annual charge has omitted material information.",
+    "prompt": "Distinguish between a misleading action and a misleading omission under the Consumer Protection Act 2007, giving one example of each for a gym's advertising.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "The CCPC enforces consumer protection law, including the Consumer Protection Act 2007, by investigating suspected breaches and taking enforcement action against businesses. It can seek court orders to stop unlawful practices and can prosecute offences. It also publishes guidance so that consumers and businesses understand their rights and obligations, which can prevent problems from arising. A limitation is that the CCPC focuses on wider breaches that affect many consumers and generally does not resolve individual complaints. A consumer with a problem about one purchase must still use the seller's complaints process, alternative dispute resolution or the courts to obtain a remedy.",
+    "prompt": "Explain the role of the Competition and Consumer Protection Commission in protecting consumers, and discuss one limitation of its role.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch17-s2": {
+  "keyTerms": [
+   {
+    "definition": "Buying choices based on how products are made and how workers, animals and communities are treated.",
+    "term": "Ethical consumption"
+   },
+   {
+    "definition": "A trading arrangement that gives producers in developing countries a fairer price and better trading conditions.",
+    "term": "Fair trade"
+   },
+   {
+    "definition": "An economic system that keeps resources in use for as long as possible through reuse, repair and recycling.",
+    "term": "Circular economy"
+   },
+   {
+    "definition": "Illegal goods or transactions that take place outside the law or outside reporting rules.",
+    "term": "Shadow economy"
+   },
+   {
+    "definition": "An interface design that tricks users into choices they did not intend, such as hidden subscriptions.",
+    "term": "Dark pattern"
+   },
+   {
+    "definition": "Adverts shown to a person based on data about their browsing, purchases or other personal information.",
+    "term": "Targeted advertising"
+   },
+   {
+    "definition": "A scheme that refunds a deposit paid on a drinks container when the empty container is returned for recycling.",
+    "term": "Deposit return scheme"
+   },
+   {
+    "definition": "Unplanned purchasing triggered by emotion or convenience rather than a prior decision to buy.",
+    "term": "Impulse buying"
+   },
+   {
+    "definition": "Reduce, reuse, repair, then recycle.",
+    "term": "Order of sustainable actions"
+   },
+   {
+    "definition": "Buying durable products, repairing rather than replacing, buying second-hand, and returning items for recycling.",
+    "term": "Ways a consumer supports the circular economy"
+   },
+   {
+    "definition": "No consumer rights or guarantees, and safety risks from unregulated products.",
+    "term": "Consequences of the shadow economy for consumers"
+   },
+   {
+    "definition": "Lost tax revenue, reduced funding for public services and weaker public services.",
+    "term": "Consequences of the shadow economy for the economy"
+   },
+   {
+    "definition": "Choice, price comparison, convenience and reviews.",
+    "term": "Positive effects of digital technology on consumers"
+   },
+   {
+    "definition": "Impulse buying, targeted advertising, dark patterns, fraud, data use and influencer pressure.",
+    "term": "Negative effects of digital technology on consumers"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Ethical consumption means choosing products according to how they were produced, not only according to price and quality.",
+    "h": "Ethical consumer choices",
+    "points": [
+     "Fair trade products aim to give producers in developing countries a fairer price and better trading conditions.",
+     "Labour standards concern whether workers are paid fairly, work reasonable hours and can organise, and consumers can favour firms that meet them.",
+     "Animal welfare choices involve buying from suppliers that meet high standards of animal treatment.",
+     "Buying local supports nearby producers and shortens transport distances, which can benefit local employment and the environment.",
+     "Ethical choices can carry a higher price, so consumers must weigh their values against their budgets."
+    ]
+   },
+   {
+    "b": "Sustainable consumers reduce the environmental impact of what they buy and use, following an order of preferred actions.",
+    "h": "Sustainable consumption",
+    "points": [
+     "Reduce means buying less and avoiding unnecessary purchases, which has the largest environmental benefit.",
+     "Reuse means keeping products in use for longer, such as using refillable containers or passing items on to others.",
+     "Repair means fixing products rather than replacing them, which keeps the materials and labour already used in them in service.",
+     "Recycle means returning materials to be processed into new products, and it is the last of the preferred actions because it still uses energy and resources.",
+     "Buying second-hand extends the life of an item and avoids the resources needed to make a new one.",
+     "Energy labels show how efficiently an appliance uses electricity, allowing consumers to compare running costs and environmental impact."
+    ]
+   },
+   {
+    "b": "The circular economy keeps products and materials in use for as long as possible, rather than following a take, make and dispose pattern.",
+    "h": "The circular economy",
+    "points": [
+     "In a linear economy, products are made, used and thrown away, which wastes materials and creates waste.",
+     "In a circular economy, products are designed to be reused, repaired and recycled, so their value is retained for longer.",
+     "Consumers contribute by choosing durable products, returning items for recycling and buying repaired or refurbished goods.",
+     "Deposit return schemes refund a deposit paid on a drinks container when the empty container is returned for recycling.",
+     "Consumers can also support the circular economy by borrowing, sharing or renting items instead of owning them outright."
+    ]
+   },
+   {
+    "b": "The shadow economy covers illegal goods or transactions outside the law or reporting rules, and it harms consumers, businesses and the economy.",
+    "h": "The shadow economy",
+    "points": [
+     "Examples include counterfeit goods, cash work that is not reported for tax, and goods sold without the safety testing the law requires.",
+     "For consumers, buying through the shadow economy means losing consumer rights and guarantees, and facing safety risks from unregulated products.",
+     "For businesses, shadow economy competitors can undercut legal firms on price, which creates unfair competition.",
+     "For the economy, unreported income and transactions reduce tax revenue, which weakens the funding available for public services.",
+     "Shadow economy transactions are often hard to trace, which makes it difficult for authorities to protect consumers and enforce standards."
+    ]
+   },
+   {
+    "b": "Digital technology gives consumers more information and choice, which can support better decisions.",
+    "h": "Digital technology: positive effects on consumers",
+    "points": [
+     "Online shopping gives access to a wider range of products and suppliers than a local shop can offer.",
+     "Price comparison websites and apps let consumers compare prices quickly across several retailers.",
+     "Convenience allows purchases at any time and from home, saving travel time and effort.",
+     "Online reviews give consumers information from other buyers, which can reveal product quality and service problems.",
+     "Digital budgeting tools can help consumers track their spending and manage subscriptions."
+    ]
+   },
+   {
+    "b": "Technology can also pressure consumers into buying and expose them to fraud and privacy risks.",
+    "h": "Digital technology: negative effects on consumers",
+    "points": [
+     "One-click purchasing, saved payment details and instant deals encourage impulse buying.",
+     "Targeted advertising uses data about a person's browsing and purchases to show tailored adverts that can increase spending.",
+     "Dark patterns are interface designs that trick users into choices they did not intend, such as hidden subscription sign-ups.",
+     "Fraud, such as fake websites and phishing messages, can lead to lost money or stolen identity.",
+     "Personal information collected by apps and websites can be shared with third parties, raising privacy concerns.",
+     "Fake reviews can mislead consumers, and influencers may promote products without clearly disclosing a commercial relationship."
+    ]
+   },
+   {
+    "b": "Informed consumers can use their purchasing power to reward businesses that act ethically and to pressure those that do not.",
+    "h": "Ethics and sustainability as drivers of behaviour",
+    "points": [
+     "A consumer may avoid a brand because of its environmental record, which can reduce its sales and damage its reputation.",
+     "Labels and certification schemes help consumers identify ethical and sustainable products when they compare options.",
+     "Balancing price, quality and personal values is a decision each consumer makes, and budget constraints are a real limit on ethical choice."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "Dark patterns: the app may use a countdown timer or a limited-offer banner that pressures the user to buy immediately rather than reflect. Targeted advertising: the app uses browsing and purchase history to show clothing the consumer is likely to want, which makes unplanned purchases feel relevant. Saved payment details and one-tap checkout: stored card details remove the friction of stopping to think, which encourages impulse buying. Step: the consumer can remove saved payment details, switch off promotional notifications and wait a day before buying anything that was not planned.",
+    "prompt": "A teenager using a shopping app late at night spends more than planned on clothes. Explain how three features of digital technology might have influenced this purchasing behaviour, and suggest one step the consumer could take.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The shadow economy harms consumers by removing their rights. Goods bought from unlicensed traders may be unsafe or counterfeit, and buyers have no effective remedy if they are harmed. Businesses that operate legally face unfair competition, because shadow traders avoid taxes, insurance and regulatory costs and can undercut prices. This can lead to job losses and closures among compliant firms. For the economy, untaxed activity reduces the revenue available for public services and makes official statistics less reliable for policy. However, the scale of the harm varies by sector, and some people argue that informal work provides income to those excluded from formal employment. An evaluation should weigh these benefits against the harm to consumers and legal firms, and it should conclude that the overall impact is negative, because consumers lose protection and the state loses revenue.",
+    "prompt": "Evaluate the impact of the shadow economy on consumers, businesses and the economy in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A household can buy second-hand clothes and furniture instead of new, which extends the life of items already in circulation and keeps materials in use. It can also repair appliances and shoes rather than replace them, so the resources and labour already invested are not wasted. Both actions keep products in use for longer, which is the central aim of the circular economy.",
+    "prompt": "Outline two ways a household can reduce waste by changing its buying habits, and link each to the circular economy.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch17-s3": {
+  "keyTerms": [
+   {
+    "definition": "The EU General Data Protection Regulation, which sets rules for processing personal data across the European Union.",
+    "term": "GDPR"
+   },
+   {
+    "definition": "Any information relating to an identified or identifiable living person.",
+    "term": "Personal data"
+   },
+   {
+    "definition": "The organisation that decides why and how personal data is processed.",
+    "term": "Data controller"
+   },
+   {
+    "definition": "An organisation that handles personal data on behalf of a controller and follows its instructions.",
+    "term": "Data processor"
+   },
+   {
+    "definition": "A legal ground that must apply before an organisation may process personal data.",
+    "term": "Lawful basis"
+   },
+   {
+    "definition": "A person's right to have their personal data deleted in certain circumstances.",
+    "term": "Right to erasure"
+   },
+   {
+    "definition": "A security incident that leads to the accidental or unlawful destruction, loss, alteration, disclosure of or access to personal data.",
+    "term": "Personal data breach"
+   },
+   {
+    "definition": "Ireland's independent supervisory authority, which enforces data protection law against organisations established in Ireland.",
+    "term": "Data Protection Commission"
+   },
+   {
+    "definition": "Lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality; accountability.",
+    "term": "Principles for processing personal data"
+   },
+   {
+    "definition": "Access, rectification, erasure, portability and objection.",
+    "term": "Rights of people whose data is held"
+   },
+   {
+    "definition": "Within 72 hours where feasible, to the supervisory authority.",
+    "term": "Reporting deadline for a personal data breach"
+   },
+   {
+    "definition": "Consent, contract, legal obligation, vital interests, public task and legitimate interests.",
+    "term": "The six lawful bases for processing"
+   },
+   {
+    "definition": "Strong unique passwords, two-factor authentication, reviewing privacy settings, declining non-essential cookies and treating unsolicited requests with caution.",
+    "term": "Simple steps to protect personal data"
+   },
+   {
+    "definition": "Better value for money, fewer scams, and choices that reflect ethical and sustainability values.",
+    "term": "Benefits of an informed consumer decision"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The General Data Protection Regulation is an EU regulation that applies directly in every member state, including Ireland.",
+    "h": "The GDPR: scope and definitions",
+    "points": [
+     "The GDPR applied from 25 May 2018 and replaced earlier EU data protection rules.",
+     "It covers organisations that process the personal data of people in the EU, wherever the organisation is based.",
+     "Personal data is any information relating to an identified or identifiable living person, such as a name, email address or location.",
+     "Special category data, such as health information, has stronger protection and needs an additional condition before it can be processed."
+    ]
+   },
+   {
+    "b": "The GDPR distinguishes between the organisation that decides how data is used and the organisation that processes it on that organisation's behalf.",
+    "h": "Controllers and processors",
+    "points": [
+     "A data controller decides the purposes and means of processing personal data, so it carries the main responsibility for compliance.",
+     "A data processor handles personal data on the controller's behalf and follows the controller's instructions.",
+     "An online shop is usually the controller for its customers' data, because it decides why the data is collected.",
+     "A business that stores data or sends emails for the shop, using the shop's customer list, is typically a processor.",
+     "Controllers must have a written contract with each processor that sets out how the data must be protected."
+    ]
+   },
+   {
+    "b": "Processing personal data requires one of six lawful bases, and consent is only one of them.",
+    "h": "Lawful bases for processing",
+    "points": [
+     "Consent: the person has given clear permission for their data to be used for a specific purpose.",
+     "Contract: processing is necessary to perform a contract with the person, such as delivering an order they have placed.",
+     "Legal obligation: the law requires the processing, such as keeping records that tax law demands.",
+     "Vital interests, public task and legitimate interests are the other three bases, covering emergencies, public functions and business interests weighed against individual rights.",
+     "Consent must be freely given, specific, informed and unambiguous, shown by a clear positive action, so a pre-ticked box is not valid.",
+     "Consent can be withdrawn at any time, and withdrawing it must be as easy as giving it."
+    ]
+   },
+   {
+    "b": "Article 5 of the GDPR sets out principles that every organisation must follow when processing personal data.",
+    "h": "Core principles",
+    "points": [
+     "Lawfulness, fairness and transparency: data is used legally, fairly and in a way that people can understand.",
+     "Purpose limitation: data is collected for specified purposes and is not used in ways incompatible with them.",
+     "Data minimisation: only the data needed for the stated purpose is collected.",
+     "Accuracy: data is kept accurate and up to date, and errors are corrected without delay.",
+     "Storage limitation: data is not kept for longer than it is needed.",
+     "Integrity and confidentiality: data is protected against unauthorised access, loss or damage.",
+     "Accountability: the organisation must be able to demonstrate that it complies with these principles."
+    ]
+   },
+   {
+    "b": "People whose personal data is held have several rights, which they can exercise against the organisation holding their data.",
+    "h": "Rights of data subjects",
+    "points": [
+     "Right of access: a person can ask for a copy of the personal data an organisation holds about them.",
+     "Right to rectification: inaccurate or incomplete data must be corrected.",
+     "Right to erasure: a person can ask for their data to be deleted in certain circumstances, sometimes called the right to be forgotten.",
+     "Right to data portability: a person can receive their data in a structured, commonly used format and transfer it to another provider.",
+     "Right to object: a person can object to processing, including use for direct marketing, and that marketing must then stop."
+    ]
+   },
+   {
+    "b": "The GDPR requires organisations to act quickly when a breach occurs, and it sets significant penalties for failures.",
+    "h": "Breaches, enforcement and fines",
+    "points": [
+     "A personal data breach, such as a lost laptop containing customer records, must be reported to the supervisory authority within 72 hours where feasible.",
+     "Affected individuals must be told without undue delay where the breach is likely to result in a high risk to their rights and freedoms.",
+     "The Data Protection Commission is Ireland's supervisory authority and enforces the GDPR against organisations established in Ireland.",
+     "The Data Protection Act 2018 gives further effect to the GDPR in Irish law and sets out the powers of the Data Protection Commission.",
+     "The higher tier of fines can reach a fixed sum or a percentage of worldwide annual turnover, whichever is higher.",
+     "Fines are not the only sanction, because the Commission can also order an organisation to comply or to stop processing."
+    ]
+   },
+   {
+    "b": "The rules give consumers control over their data and require businesses to build privacy into their operations.",
+    "h": "What the GDPR means for consumers and businesses",
+    "points": [
+     "Consumers gain rights to see, correct and delete their data, and they can complain to the Data Protection Commission if those rights are not respected.",
+     "Businesses must be transparent in privacy notices, explaining what data they collect, why they collect it and how long they keep it.",
+     "Businesses must consider data protection when designing products and services, which is known as data protection by design.",
+     "Compliance has costs, such as staff training and data audits, but responsible handling of data builds customer trust."
+    ]
+   },
+   {
+    "b": "Consumers can reduce their exposure to misuse of personal data through simple habits.",
+    "h": "Protecting your own data",
+    "points": [
+     "Use strong, unique passwords for each account and enable two-factor authentication where it is available.",
+     "Review privacy settings on social media and apps, and limit the data you share with them.",
+     "Decline non-essential cookies where the option is offered, since cookies are how many sites track browsing across visits.",
+     "Treat unsolicited messages that ask for personal or payment details with caution, as they may be phishing attempts.",
+     "Read privacy notices before signing up, and ask for an account and its data to be deleted when it is no longer used."
+    ]
+   },
+   {
+    "b": "A well-informed consumer gets better value, avoids fraud and makes choices that match their values.",
+    "h": "Why informed consumer decisions matter",
+    "points": [
+     "Comparing prices, quality and terms helps the consumer get value for money rather than paying for avoidable extras.",
+     "Checking a seller's identity, reviews and payment security helps avoid scams and fraud.",
+     "Considering ethics and sustainability as part of a purchase aligns spending with personal values.",
+     "News stories about consumers misled by a trader or defrauded online show how the rules in this chapter work in practice, and students should check the facts of any story they use."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Name, email address and delivery details are personal data, so the GDPR applies to the retailer's handling of them. The retailer needs a lawful basis for each use. Contract covers processing the order and delivery, while marketing emails need consent, which must be freely given, specific and capable of being withdrawn. The retailer must follow the principles, collecting only the data it needs, keeping it no longer than necessary and protecting it against unauthorised access. The consumer has rights, including access to a copy of their data, correction of errors, erasure in certain circumstances and objection to direct marketing, and the retailer must respond to such requests. If a breach occurs, such as a hacked customer database, the retailer must report it to the Data Protection Commission within 72 hours where feasible, and it must inform affected customers if there is a high risk to them. The Commission can investigate and impose sanctions, including fines and orders to change practices.",
+    "prompt": "Explain how the GDPR protects the personal data of an Irish consumer who has shared details with an online retailer, and discuss the obligations this places on the retailer.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A data controller is the organisation that decides why and how personal data is used. For example, an online clothes shop decides to collect customer addresses in order to deliver orders, so it is the controller. A data processor handles the data on the controller's behalf and follows its instructions. For example, an email marketing company that sends the shop's newsletters from the shop's customer list acts as a processor, under a written contract with the shop.",
+    "prompt": "Distinguish between a data controller and a data processor, giving one example of each in an everyday business setting.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Using strong, unique passwords and turning on two-factor authentication prevents an attacker who obtains one password from accessing several accounts. Reviewing the privacy notice and declining non-essential cookies limits how much data is collected and how far browsing is tracked. Treating unsolicited emails or messages that ask for payment or personal details with caution helps avoid phishing, because the consumer checks the sender before giving anything away.",
+    "prompt": "Explain three steps a consumer can take to protect personal data when shopping online.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch18-s1": {
+  "keyTerms": [
+   {
+    "definition": "Setting money aside in a low-risk, accessible account to keep it safe and earn interest.",
+    "term": "Saving"
+   },
+   {
+    "definition": "Putting money into assets such as shares or investment funds in the hope of growth, accepting that the value can fall.",
+    "term": "Investing"
+   },
+   {
+    "definition": "Receiving money from a lender now and agreeing to repay it later, usually with interest and charges.",
+    "term": "Borrowing"
+   },
+   {
+    "definition": "A general and sustained rise in prices that reduces what each unit of money can buy.",
+    "term": "Inflation"
+   },
+   {
+    "definition": "The growth rate of a savings or investment product before inflation is taken into account.",
+    "term": "Nominal return"
+   },
+   {
+    "definition": "The growth rate left after inflation is deducted, showing the change in purchasing power.",
+    "term": "Real return"
+   },
+   {
+    "definition": "The yearly interest rate on a savings product that includes the effect of compounding.",
+    "term": "Annual equivalent rate (AER)"
+   },
+   {
+    "definition": "The yearly cost of borrowing, expressed as a percentage, including interest and compulsory charges.",
+    "term": "Annual percentage rate (APR)"
+   },
+   {
+    "definition": "A measure of the gain from an investment relative to its cost, shown as a percentage.",
+    "term": "Return on investment (ROI)"
+   },
+   {
+    "definition": "The total cost measured by the APR and fees, the ability to repay if income falls or rates rise, and the purpose and term of the loan.",
+    "term": "Three factors before taking a loan"
+   },
+   {
+    "definition": "Inflation, risk, interest rates, taxes and charges, and the time frame.",
+    "term": "Influences on net returns"
+   },
+   {
+    "definition": "Short-term cover when a current account goes below zero; it becomes costly if used for long periods.",
+    "term": "Purpose of an overdraft"
+   },
+   {
+    "definition": "A long-term loan secured on the property, so the lender can repossess if repayments stop.",
+    "term": "Mortgage feature"
+   },
+   {
+    "definition": "Secured credit is backed by an asset the lender can take; unsecured credit, such as most credit cards and personal loans, is not.",
+    "term": "Secured versus unsecured credit"
+   },
+   {
+    "definition": "Contributions usually attract tax relief, and the money is generally locked in until retirement age.",
+    "term": "Pension tax advantage"
+   },
+   {
+    "definition": "Missed instalments can bring late fees and damage the consumer's credit record.",
+    "term": "Buy-now-pay-later risk"
+   }
+  ],
+  "notes": [
+   {
+    "b": "All three move money over time, but they differ in risk, purpose and the direction the money flows.",
+    "h": "Saving, investing and borrowing compared",
+    "points": [
+     "Saving sets money aside in a low-risk account, usually to keep it safe and available, and earns a modest return in the form of interest.",
+     "Investing puts money into assets such as shares or investment funds, accepting a risk of loss in return for the chance of higher growth over time.",
+     "Borrowing gives a consumer money now in exchange for repaying more later, because the lender charges interest and often fees.",
+     "A saver lends money to a bank, an investor buys a stake in an asset, and a borrower receives money from a lender and owes it back."
+    ]
+   },
+   {
+    "b": "Several factors interact, because a higher return usually comes with higher risk, higher cost or money locked away for longer.",
+    "h": "Factors to weigh before saving or investing",
+    "points": [
+     "Inflation erodes what money can buy, so a return that does not beat inflation leaves the saver with less real value.",
+     "Risk is the chance that money put aside falls in value or is lost; deposit accounts carry very little risk, while shares carry much more.",
+     "Interest rate changes alter savings returns and borrowing costs, and a variable-rate product can cost more after rates rise.",
+     "Taxes and charges reduce the net return, including deposit interest tax, exit tax on many investment funds, capital gains tax on share profits, and account or management fees.",
+     "The time frame decides suitability: money needed soon should stay accessible, while money not needed for years can ride out market falls and benefit from compounding.",
+     "Return on investment is the gain from an investment compared with its cost, usually expressed as a percentage."
+    ]
+   },
+   {
+    "h": "Nominal and real return",
+    "points": [
+     "Nominal return is the headline growth rate before inflation is taken into account.",
+     "Real return is the nominal return adjusted for inflation, and shows whether savings have grown in purchasing power.",
+     "When inflation is higher than the nominal return, the real return is negative and the saver's money buys less than before.",
+     "Comparing nominal returns alone can mislead a consumer, because a product with a higher headline rate may still give the lower real return."
+    ]
+   },
+   {
+    "b": "These two annual rates are the fair basis for comparing savings and loans, because they include the effect of how often interest is charged.",
+    "h": "AER and APR: the rates to compare",
+    "points": [
+     "The annual equivalent rate (AER) shows what a savings product pays over one year once compounding is included, so products that pay interest at different intervals can be compared.",
+     "The annual percentage rate (APR) shows the yearly cost of borrowing, including interest and compulsory fees and charges, expressed as a percentage of the amount borrowed.",
+     "A loan with a low headline interest rate can have a higher APR than a rival loan if it carries large fees.",
+     "Lenders must disclose the APR to a borrower before a credit agreement is signed, which is what allows offers to be compared on the same basis."
+    ]
+   },
+   {
+    "h": "Common saving and investment products",
+    "points": [
+     "Deposit accounts hold money safely with instant or notice-based access, but the interest paid is usually low.",
+     "State Savings products, issued by the National Treasury Management Agency, are backed by the State and suit people who want a secure place for their money.",
+     "Shares give part-ownership of a company, with returns from dividends and rising share prices, and carry a real chance of losing money.",
+     "Investment funds pool money from many investors and spread it across many holdings, so one falling asset has less impact on the whole.",
+     "Pensions save for retirement, usually with tax relief on contributions, and access before retirement age is generally restricted."
+    ]
+   },
+   {
+    "h": "Common borrowing products",
+    "points": [
+     "An overdraft lets a current account go below zero up to an agreed limit, and is an expensive way to borrow over a long period.",
+     "A credit card gives a revolving credit limit; balances not cleared in full each month attract interest, usually at a high rate.",
+     "A personal loan provides a fixed sum repaid in regular instalments over an agreed term, and is often used for cars, home improvements or debt consolidation.",
+     "A mortgage is a long-term loan secured on a property, so the lender can repossess the home if repayments are not made.",
+     "Buy-now-pay-later schemes split a purchase into instalments at the checkout; they may be interest-free if paid on time, but missed payments and fees can build up quickly.",
+     "Credit union loans are offered to members of member-owned credit unions, and are often competitively priced for the borrower."
+    ]
+   },
+   {
+    "h": "Worked comparison: choosing between two options",
+    "points": [
+     "Start with the purpose and time frame, such as an emergency fund needed at short notice or a house deposit needed in several years.",
+     "Compare the AER for savings or the APR for loans, rather than the headline rate alone.",
+     "Check exit terms: early repayment charges on loans, and penalties or restricted access on savings.",
+     "Example: a fixed-rate loan protects the borrower from rate rises, while a variable-rate loan may be cheaper at the start and then cost more if rates increase.",
+     "Example: a loan with a lower APR but a large arrangement fee may cost more overall than a loan with a higher APR and no fee, so the total cost over the term decides the better deal.",
+     "Finally, test affordability: can the consumer keep up repayments if income falls or interest rises?"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Risk: a deposit account protects the capital, and eligible deposits are covered by the deposit guarantee scheme up to a set limit, whereas the value of an investment fund can fall below the amount invested. Return: the fund offers the chance of higher growth over a long period, but deposit interest is usually lower and may not beat inflation. Time frame: money needed within a few years is better kept in the deposit account, because a fund may be worth less on the day the money is needed. Charges and tax: a fund may carry management charges and exit tax, while deposit interest is subject to deposit interest retention tax, so the net return of each option must be compared before deciding.",
+    "prompt": "Discuss the factors an Irish consumer should weigh when choosing between a deposit account and an investment fund.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Nominal return is the headline growth rate before inflation is considered, so a product paying 3 per cent a year has a nominal return of 3 per cent. Real return is the nominal return adjusted for inflation, showing whether the money has grown in purchasing power. A consumer should look at both because a product with an attractive nominal return may still lose real value if inflation is higher, and two products can rank differently once inflation is removed.",
+    "prompt": "Explain the difference between nominal return and real return, and why a consumer should look at both when comparing savings products.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "The AER is the yearly rate on a savings product that includes the effect of compounding, so it is used to compare savings accounts. The APR is the yearly cost of borrowing that includes interest and compulsory fees, so it is used to compare loans. A loan with a lower headline rate can still have a higher APR if it carries large fees.",
+    "prompt": "Distinguish between the AER and the APR, and state when each is used.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch18-s2": {
+  "keyTerms": [
+   {
+    "definition": "The degree of uncertainty about the value of money that a person is willing to accept in pursuit of a higher return.",
+    "term": "Risk tolerance"
+   },
+   {
+    "definition": "A fall in the value of money put into a product, so less is returned than was invested.",
+    "term": "Loss of capital"
+   },
+   {
+    "definition": "Selling a financial product to a consumer when it does not suit their needs, circumstances or attitude to risk.",
+    "term": "Mis-selling"
+   },
+   {
+    "definition": "A social media personality who promotes financial products or investments to followers, often without regulation or disclosure of payments.",
+    "term": "Finfluencer"
+   },
+   {
+    "definition": "Moving a financial product, such as a savings account or mortgage, to a different provider.",
+    "term": "Switching providers"
+   },
+   {
+    "definition": "A free, confidential, State-funded service that helps people in debt to budget and deal with creditors.",
+    "term": "Money Advice and Budgeting Service (MABS)"
+   },
+   {
+    "definition": "A database run by the Central Bank of Ireland that records consumers' loans and credit agreements for lenders to check.",
+    "term": "Central Credit Register"
+   },
+   {
+    "definition": "A record of a person's borrowing and repayment history that lenders use to judge how likely they are to repay.",
+    "term": "Credit rating"
+   },
+   {
+    "definition": "Payments that are overdue because they were not made by the due date.",
+    "term": "Arrears"
+   },
+   {
+    "definition": "A court order requiring a person to repay a debt, which is then recorded against them.",
+    "term": "Court judgment"
+   },
+   {
+    "definition": "Willingness is attitude to uncertainty; ability is the capacity to absorb a loss without serious hardship.",
+    "term": "Willingness versus ability to take risk"
+   },
+   {
+    "definition": "Loss of capital, inflation, interest rate changes, mis-selling, hidden charges and over-indebtedness.",
+    "term": "Risks facing financial product consumers"
+   },
+   {
+    "definition": "Early repayment charges, exit fees, lock-in periods, paperwork, and reluctance to act.",
+    "term": "Barriers to switching"
+   },
+   {
+    "definition": "A consistent history of repaying on time.",
+    "term": "Strongest positive factor on a record"
+   },
+   {
+    "definition": "Refused applications, higher interest rates, and a history that affects future borrowing for years.",
+    "term": "Consequences of a poor record"
+   },
+   {
+    "definition": "Pay on time, reduce debt, limit new applications, and seek early help from MABS or the lender.",
+    "term": "Steps to repair a poor history"
+   },
+   {
+    "definition": "Is it regulated, does it gain from a sale, and does it explain the risks as well as the rewards?",
+    "term": "Test for an unregulated source"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Risk tolerance decides which financial products suit a person, and it has to be judged honestly against the person's circumstances.",
+    "h": "Risk tolerance",
+    "points": [
+     "Risk tolerance is the degree of uncertainty about the value of money that a person is willing to accept in pursuit of a higher return.",
+     "Risk capacity is the ability to absorb a loss without serious hardship, and it can be lower than willingness, for example for someone with a young family and a tight budget.",
+     "A low risk tolerance suits deposit accounts and State-backed savings, while a higher tolerance may suit shares or investment funds held for many years.",
+     "Risk tolerance changes with age, income, dependants and experience, so it should be reviewed when personal circumstances change."
+    ]
+   },
+   {
+    "h": "Risks facing consumers of financial products",
+    "points": [
+     "Loss of capital: an investment can fall in value, so the amount returned can be less than the amount put in.",
+     "Inflation risk: money held in low-return products can shrink in real value over time.",
+     "Interest rate risk: the repayments on a variable-rate loan rise when the lender's rate rises.",
+     "Mis-selling: a product is sold to a consumer whose needs or attitude to risk it does not suit, such as a high-risk investment sold to someone who needs security.",
+     "Hidden charges: fees, exit penalties and small-print costs reduce returns or raise the total cost of borrowing.",
+     "Over-indebtedness: borrowing more than can be repaid leads to arrears, repossession and damage to the credit record."
+    ]
+   },
+   {
+    "h": "Finding reliable financial information",
+    "points": [
+     "Regulated sources are the most dependable, including the Central Bank of Ireland's consumer information service, MoneySense.",
+     "The Money Advice and Budgeting Service (MABS) gives free, confidential help to people in debt, and is funded by the State.",
+     "A regulated financial adviser must be authorised by the Central Bank and must assess a client's needs before recommending a product.",
+     "Unregulated social media commentators, sometimes called finfluencers, may promote products without disclosing payments, and without knowing a follower's circumstances.",
+     "Comparison websites help consumers compare prices, but the consumer should check whether the site earns commission from the products it lists.",
+     "A simple test for any source: is it regulated, does it gain from a sale, and does it explain the risks as well as the rewards?"
+    ]
+   },
+   {
+    "b": "Switching means moving a product to a different provider to get a better rate, lower charges or better service.",
+    "h": "Switching providers",
+    "points": [
+     "Switching can apply to a current account, savings account, mortgage or insurance policy, and is the main way a consumer can end a poor deal.",
+     "Loyalty can be penalised in some markets, because new customers are sometimes offered better rates than existing customers.",
+     "The process involves comparing products, checking exit charges, applying to the new provider and then closing or transferring the old product.",
+     "Barriers include early repayment charges, exit fees, lock-in periods on fixed-rate products, the time and paperwork involved, and inertia.",
+     "Switching a mortgage can involve valuation and legal costs, so the saving must be large enough to outweigh the cost of making the move."
+    ]
+   },
+   {
+    "h": "Credit ratings and the Central Credit Register",
+    "points": [
+     "A credit rating is a record of how reliably a person has handled borrowing, built up from their financial history.",
+     "The Central Credit Register (CCR), run by the Central Bank of Ireland, holds records of consumers' loans and credit agreements, and lenders can check it before lending.",
+     "The record includes details of loans and credit cards, repayment history and whether payments were late or missed.",
+     "Negative entries stay on the record for a period set by the rules, so a poor history can affect borrowing for years after a problem is resolved.",
+     "Lenders use the credit history to decide whether to lend and on what terms, including the interest rate charged."
+    ]
+   },
+   {
+    "h": "Factors that affect a credit rating",
+    "points": [
+     "Repayment history: a consistent record of paying on time is the strongest positive factor.",
+     "Arrears: missed or late payments are recorded and weigh heavily against the borrower.",
+     "Level of debt: high borrowing relative to income suggests the borrower may struggle with further repayments.",
+     "Number of applications: many credit applications in a short period can suggest financial stress.",
+     "Court judgments: a judgment for an unpaid debt is a serious negative entry on the record."
+    ]
+   },
+   {
+    "h": "Consequences of a poor rating",
+    "points": [
+     "A lender may refuse a loan, credit card or mortgage application, and some landlords and service providers may also check credit history.",
+     "A borrower judged to be higher risk is offered credit at higher interest rates, which increases the cost of everything borrowed.",
+     "The record travels with the person, so the effects can last for years, and they ease only as the negative entries age off the record.",
+     "Steps to improve a record include paying on time, reducing debt, avoiding unnecessary applications, and seeking early help from MABS or the lender."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "First, arrears: missed or late repayments are recorded and count heavily against the borrower. Second, a high level of debt relative to income signals that further repayments may be difficult. Third, many credit applications in a short time can suggest financial stress to a lender. Consequences include refusal of loans, cards or mortgages, and higher interest rates on any credit that is approved, which raises the total cost of borrowing.",
+    "prompt": "Explain three factors that can lower a person's credit history, and outline two consequences of a poor history for that person.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The variable-rate mortgage carries interest rate risk, because repayments rise when the lender raises its rate, which could strain the household budget. The investment fund carries loss of capital risk, because its value can fall and leave less than was invested, and it may also carry hidden charges that reduce returns. To reduce these risks, the consumer should match the mortgage to what the household could still afford at a higher rate, check whether a fixed-rate option is available, and invest only money not needed in the short term. The consumer should also check the product's terms and charges and seek regulated advice, such as MABS or a Central Bank authorised adviser, before committing.",
+    "prompt": "Analyse the risks facing a consumer who is considering a variable-rate mortgage and a higher-risk investment fund, and explain how the consumer could reduce these risks.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Switching involves comparing products, checking any exit charges, applying to the new provider and then closing or transferring the old product. Two barriers are early repayment charges, which make leaving a fixed-rate loan expensive, and the time and paperwork involved, which can discourage consumers from acting even when a better deal exists.",
+    "prompt": "Outline the process of switching providers and identify two barriers a consumer might face.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch18-s3": {
+  "keyTerms": [
+   {
+    "definition": "Financial services delivered through technology, such as apps, online platforms and automated advice.",
+    "term": "Fintech"
+   },
+   {
+    "definition": "A bank that operates only digitally, without branches, using an app as its main customer channel.",
+    "term": "Neobank"
+   },
+   {
+    "definition": "An automated service that builds and manages an investment portfolio using algorithms with little human input.",
+    "term": "Robo-adviser"
+   },
+   {
+    "definition": "A system in which customers can allow approved third parties to access their bank data securely.",
+    "term": "Open banking"
+   },
+   {
+    "definition": "Central-bank money issued in digital form that complements cash for everyday payments.",
+    "term": "Central Bank Digital Currency (CBDC)"
+   },
+   {
+    "definition": "A crypto-asset whose value depends on its issuer's pledge to redeem it at a stated value.",
+    "term": "Stablecoin"
+   },
+   {
+    "definition": "A digital asset that is traded and held electronically, with no single issuer legally liable for it.",
+    "term": "Crypto-asset"
+   },
+   {
+    "definition": "A shared database copied across many computers, where transactions are recorded and verified by the network.",
+    "term": "Distributed ledger"
+   },
+   {
+    "definition": "The removal of a middleman, such as a bank, from a transaction, so customers deal directly with another party.",
+    "term": "Disintermediation"
+   },
+   {
+    "definition": "The EU Markets in Crypto-Assets Regulation, which sets rules for crypto-asset service providers and stablecoin issuers.",
+    "term": "MiCA"
+   },
+   {
+    "definition": "It is central-bank money, it is issued in digital form, and it complements cash.",
+    "term": "Three features of a CBDC"
+   },
+   {
+    "definition": "A CBDC is a central-bank liability; a crypto holding has no single liable issuer, so no one guarantees redemption.",
+    "term": "Who is liable for CBDC versus crypto holdings"
+   },
+   {
+    "definition": "Advantages: a safe digital payment option and less reliance on private networks. Disadvantages: privacy concerns, cyber risk and possible loss of bank deposits.",
+    "term": "CBDC advantages and disadvantages"
+   },
+   {
+    "definition": "Access to accounts and payments for people without a nearby branch or a credit history.",
+    "term": "Financial inclusion through digital providers"
+   },
+   {
+    "definition": "Crypto holdings generally sit outside the deposit guarantee scheme, so there is no guaranteed refund if a provider fails.",
+    "term": "Crypto holdings and deposit protection"
+   },
+   {
+    "definition": "Quick transfers and payments at lower cost than some traditional channels, usually linked to a bank account or card.",
+    "term": "Consumer benefit from payment apps"
+   },
+   {
+    "definition": "The EU rules on authorisation and conduct for crypto-asset providers and stablecoin issuers.",
+    "term": "EU framework for crypto markets"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fintech means financial services delivered through technology, often faster, cheaper or more convenient than traditional providers.",
+    "h": "Fintech: technology in financial services",
+    "points": [
+     "Mobile banking lets customers check balances, move money and pay bills through an app on a phone.",
+     "Payment apps allow transfers between people and payments in shops and online, usually linked to a bank account or card.",
+     "Neobanks are digital-only banks with no branches, relying on an app and online support as their main channel.",
+     "Robo-advisers use algorithms to build and manage a simple investment portfolio, usually at a lower cost than a human adviser charges.",
+     "Open banking lets a customer give a regulated third party secure access to their bank account data, so that rival services can compete for business.",
+     "Buy-now-pay-later schemes offer instalment credit at the point of online checkout, which makes borrowing quick but easy to overuse."
+    ]
+   },
+   {
+    "h": "Opportunities and challenges of fintech for consumers",
+    "points": [
+     "Opportunities include lower fees, faster transactions, round-the-clock access and a wider choice of products.",
+     "Financial inclusion: people without a nearby branch or with a thin credit history may gain access to basic accounts and payments.",
+     "Digital exclusion: older people and those without internet access or confidence with technology can be left behind.",
+     "Fraud and security: customers manage money through devices, which raises the risk of account takeover, phishing and data breaches.",
+     "Weaker protection: a consumer dealing with an unregulated or overseas firm may have little recourse if something goes wrong.",
+     "Easy credit and gamified investing can encourage impulsive spending and risk-taking, so consumers need self-control and financial literacy."
+    ]
+   },
+   {
+    "h": "How technology changes financial products",
+    "points": [
+     "Automation cuts the cost of processing applications and can give a lending decision in minutes rather than days.",
+     "Data analytics lets firms price products and assess creditworthiness using more information, which can widen access or exclude some groups.",
+     "Digital channels move service away from branches, cutting costs for providers but reducing personal contact for customers.",
+     "Distributed ledger technology underpins crypto-assets and some payment systems, recording transactions in a shared database that many computers maintain."
+    ]
+   },
+   {
+    "b": "A Central Bank Digital Currency (CBDC) is central-bank money in digital form, and it complements cash rather than replacing it.",
+    "h": "Central Bank Digital Currency",
+    "points": [
+     "Because a CBDC is a liability of the central bank, holding it carries no credit risk, in the same way that holding cash does.",
+     "The ECB's digital euro project is a proposed CBDC for the euro area, designed to sit alongside cash.",
+     "Advantages include a safe digital payment option for the public and less reliance on private payment networks.",
+     "Disadvantages include privacy concerns if the central bank could see payment data, and cyber-security risk for the system.",
+     "Disintermediation is a risk for banks: if people move large sums into a CBDC, banks may lose deposits that fund their lending."
+    ]
+   },
+   {
+    "h": "Stablecoins and crypto-assets compared",
+    "points": [
+     "A stablecoin's value depends on its issuer's pledge to redeem it at a stated value, usually backed by reserves the issuer holds.",
+     "A crypto-asset has no single liable issuer, so no one is legally responsible for redeeming it or making the holder whole.",
+     "Crypto-asset prices are set by supply and demand on trading platforms, which makes their value volatile.",
+     "A CBDC is issued by the central bank and is its liability, a stablecoin rests on a private issuer's pledge, and a crypto-asset has no liable issuer at all."
+    ]
+   },
+   {
+    "h": "Impact of digital currency on consumers and businesses",
+    "points": [
+     "Consumers may gain lower transaction costs, faster settlement and easier access to payments, which can help people without bank accounts.",
+     "Consumers may lose privacy if payment data is collected, and may lose money to scams in unregulated crypto markets.",
+     "Businesses may gain faster settlement and possibly lower payment costs, and can reach customers through new digital channels.",
+     "Businesses face cyber-security costs and may need to change systems to accept digital payments.",
+     "Banks face competition from fintech firms and may need to change their business models to keep customers."
+    ]
+   },
+   {
+    "h": "Crypto risks and EU regulation",
+    "points": [
+     "Price volatility: crypto-asset values can swing sharply, so holders can lose most of their money quickly.",
+     "Fraud: fake exchanges, pump-and-dump schemes and phishing aimed at wallet holders target crypto users.",
+     "Loss of access: losing a private key or password can mean permanent loss of the asset, as no institution can restore it.",
+     "Limited protection: crypto holdings are generally outside the deposit guarantee scheme, so there is no guaranteed refund if a provider fails.",
+     "Money laundering and tax evasion risks are why providers are subject to anti-money laundering rules.",
+     "MiCA, the EU Markets in Crypto-Assets Regulation, sets authorisation and conduct rules for crypto-asset service providers and stablecoin issuers, bringing the sector closer to regulated finance."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "A CBDC is central-bank money in digital form that complements cash, so it carries the central bank as its issuer and no credit risk for the holder. For consumers, it could offer a safe, low-cost and fast digital payment option and help people who have no bank account, but privacy is a concern if payment data could be traced. For businesses, a CBDC could mean faster settlement and new digital payment channels, but firms would face cyber-security costs and need to adapt their systems. Banks could also lose deposits to a CBDC, which may reduce the funds they have available for lending.",
+    "prompt": "Describe the nature of a Central Bank Digital Currency and examine its potential impact on consumers and on businesses.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "A CBDC is central-bank money issued in digital form, so the central bank is the liable issuer. A stablecoin's value depends on its issuer's pledge to redeem it at a stated value, usually backed by reserves. A crypto-asset has no single liable issuer, so no one is legally responsible for redeeming it. One risk of holding crypto-assets is price volatility: values can swing sharply, so the holder can lose much of the money put in, and crypto holdings generally lack the deposit guarantee protection that bank deposits have.",
+    "prompt": "Distinguish between a CBDC, a stablecoin and a crypto-asset, and explain one risk of holding crypto-assets.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "First, automation has cut the time and cost of processing applications, so consumers can receive decisions in minutes through an app. Second, open banking allows customers to share bank data securely with approved third parties, so rival services can offer tailored products and compete on price.",
+    "prompt": "Explain two ways fintech has changed the provision of financial products for consumers.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch18-s4": {
+  "keyTerms": [
+   {
+    "definition": "An independent body that investigates unresolved complaints about financial service and pension providers.",
+    "term": "Financial Services and Pensions Ombudsman"
+   },
+   {
+    "definition": "A State-backed scheme that repays eligible depositors up to a set limit if their bank fails.",
+    "term": "Deposit guarantee scheme"
+   },
+   {
+    "definition": "Central Bank rules setting standards for how regulated firms treat customers, including fairness, clear information and complaints handling.",
+    "term": "Consumer Protection Code"
+   },
+   {
+    "definition": "Oversight by the Central Bank of whether firms hold enough capital and manage risk soundly.",
+    "term": "Prudential supervision"
+   },
+   {
+    "definition": "An EU body that sets common rules and standards for banks across the EU.",
+    "term": "European Banking Authority"
+   },
+   {
+    "definition": "A situation where financial markets or firms lack adequate rules or oversight, which exposes consumers to harm.",
+    "term": "Under-regulation"
+   },
+   {
+    "definition": "A fraud using fake emails or websites that imitate a trusted organisation to steal personal or financial details.",
+    "term": "Phishing"
+   },
+   {
+    "definition": "Fraud carried out by phone call, where a caller poses as a trusted organisation to obtain security codes or money.",
+    "term": "Vishing"
+   },
+   {
+    "definition": "The use of a person's bank account to move criminal money, often after recruitment by fraudsters.",
+    "term": "Money muling"
+   },
+   {
+    "definition": "Using someone else's personal details without permission to obtain credit, goods or accounts in their name.",
+    "term": "Identity theft"
+   },
+   {
+    "definition": "Complain to the firm first, then to the FSPO if the matter remains unresolved.",
+    "term": "Complaint route for a financial consumer"
+   },
+   {
+    "definition": "The ECB's banking supervision, the EBA and ESMA.",
+    "term": "EU bodies overseeing finance"
+   },
+   {
+    "definition": "Investment returns, inflation, charges and changes to pension rules.",
+    "term": "Pension risks"
+   },
+   {
+    "definition": "Lax lending and a property bubble, combined with weak oversight.",
+    "term": "Causes of Ireland's 2008 banking crisis"
+   },
+   {
+    "definition": "Smishing uses SMS text messages; vishing uses phone calls.",
+    "term": "Channel used by SMS and phone scams"
+   },
+   {
+    "definition": "Never share security codes, verify calls through official numbers, enable two-factor authentication, and report at once.",
+    "term": "Protective actions against fraud"
+   },
+   {
+    "definition": "Setting the Consumer Protection Code, supervising firms prudentially, and setting mortgage measures.",
+    "term": "Central Bank roles for consumers"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Central Bank of Ireland regulates banks, insurers, credit unions and other financial firms operating in Ireland, and it has several distinct roles.",
+    "h": "The Central Bank of Ireland",
+    "points": [
+     "Consumer protection: the Consumer Protection Code sets standards on how firms treat customers, including fair terms, clear information and proper handling of complaints.",
+     "Prudential supervision: the Central Bank checks that firms hold enough capital and manage their risks soundly, so they can meet their obligations to customers.",
+     "Mortgage measures: the Central Bank sets limits on how much a borrower can borrow relative to the value of the property and to income, to reduce the risk of over-borrowing.",
+     "Authorisation: firms and individual advisers must be authorised by the Central Bank, so an unauthorised firm operating in Ireland is breaking the law."
+    ]
+   },
+   {
+    "h": "Redress and protection for consumers",
+    "points": [
+     "The Financial Services and Pensions Ombudsman (FSPO) is an independent body that investigates unresolved complaints about financial service providers and pension providers.",
+     "A consumer should first complain to the firm itself, and take the matter to the FSPO only if the firm's response does not resolve it.",
+     "The deposit guarantee scheme protects eligible deposits in covered Irish institutions up to a set limit per depositor if a bank fails.",
+     "Investor compensation schemes protect some investors when an authorised investment firm fails and cannot return client assets."
+    ]
+   },
+   {
+    "h": "EU supervision and EU rules",
+    "points": [
+     "The European Central Bank supervises the significant banks in the euro area directly, working alongside national authorities such as the Central Bank of Ireland.",
+     "The European Banking Authority (EBA) sets common rules and standards for banks across the EU, so that firms compete on a level playing field.",
+     "The European Securities and Markets Authority (ESMA) oversees securities markets and investment firms, and promotes consistent rules across the EU.",
+     "EU directives on payment services and consumer credit set minimum standards that Irish law must implement.",
+     "Financial markets are integrated, so a weakness in one country can spread to others, which is why supervision at EU level matters."
+    ]
+   },
+   {
+    "h": "Risk in pensions, mortgages, credit and crypto",
+    "points": [
+     "Pensions carry risk from investment returns, inflation, charges and changes to pension rules or retirement age.",
+     "Mortgages carry the risk of rising repayments on variable-rate loans, and of negative equity if property values fall below the debt.",
+     "Credit products such as credit cards and buy-now-pay-later can trap people in debt because they are easy to use and carry high costs.",
+     "Crypto-finance carries high volatility and limited protection, and EU rules for the sector have only recently come into application.",
+     "Managing these risks means spreading investments, keeping borrowing affordable and checking the terms of a product before committing."
+    ]
+   },
+   {
+    "h": "Consequences of under-regulation",
+    "points": [
+     "The 2008 banking crisis: lax lending, a property bubble and weak oversight left Irish banks with heavy losses, and the State had to inject large sums into them to keep them open.",
+     "The State guaranteed bank liabilities in 2008, which shifted the cost of bank failures onto taxpayers.",
+     "The tracker-mortgage scandal: some lenders moved borrowers off tracker rates in ways the Central Bank found unacceptable, and redress was later paid to affected customers.",
+     "Under-regulation allows mis-selling to spread, weakens public trust in finance, and leaves consumers unprotected when firms fail."
+    ]
+   },
+   {
+    "h": "Types of financial fraud",
+    "points": [
+     "Phishing: fake emails that imitate a bank or official body to steal login details or payment information.",
+     "Smishing: the same tactic delivered by SMS text, often with a link to a fake website.",
+     "Vishing: a caller pretends to be from a bank in order to obtain security codes or persuade the consumer to move money.",
+     "Investment scams promise high returns with little risk, often through social media adverts or fake trading platforms.",
+     "Identity theft: a criminal uses a person's personal details without permission to open accounts or take out credit in their name.",
+     "Money muling: a person allows their account to receive and pass on criminal proceeds, often after being recruited through a fake job offer, and can face prosecution.",
+     "Card fraud: stolen card details are used online or copied to make payments in person."
+    ]
+   },
+   {
+    "h": "Protecting yourself from fraud",
+    "points": [
+     "Never share a PIN, password or one-time security code, even with a caller who seems to be from the bank, because a genuine bank will not ask for them.",
+     "Verify any contact by ringing the number on the bank's official website or on the back of the card, not a number given in the message.",
+     "Turn on two-factor authentication for online banking and keep devices updated with security fixes.",
+     "Check bank statements regularly for transactions you do not recognise, and report them at once, since quick reporting improves the chance of recovery.",
+     "Report scams to the Gardaí as well as to the bank, so that the fraud is recorded."
+    ]
+   },
+   {
+    "h": "Discussing finance stories in the news",
+    "points": [
+     "Identify the product or practice at the centre of the story, and whether it is a regulated product.",
+     "Identify who is affected: individual savers, borrowers, investors or taxpayers.",
+     "Decide whether the story shows a regulatory failure, a firm's failure, or a consumer's poor decision, since each points to a different lesson.",
+     "Consider the response: did the regulator act, is redress available, and did the rules change afterwards?"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Under-regulation allows firms to take excessive risk, because weak supervision fails to detect problems early. The 2008 banking crisis in Ireland is an example: lax lending and a property bubble, combined with weak oversight, left the banks with heavy losses and required the State to inject large sums to keep them open. Consumers also suffer directly, as shown by the tracker-mortgage scandal, in which borrowers were moved off tracker rates in ways the Central Bank found unacceptable, and redress was required. Under-regulation also spreads mis-selling and weakens public trust in finance, so tighter rules and active supervision are needed to protect consumers and the financial system.",
+    "prompt": "Discuss the consequences of under-regulation of financial services, using at least one Irish example.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Phishing uses fake emails or websites that imitate a bank to steal login details, so the consumer should never click a link to log in and should go to the bank's official site instead. Vishing uses phone calls from a caller posing as the bank to obtain security codes, so the consumer should never share a code and should ring the bank back on its published number. Investment scams promise high returns with little risk, so the consumer should check that the firm is authorised by the Central Bank before investing and should treat unexpected offers with caution.",
+    "prompt": "Outline three types of financial fraud and explain how a consumer can protect themselves from each.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "The Central Bank sets the Consumer Protection Code, which requires regulated firms to treat customers fairly, give clear information and handle complaints properly. It also authorises firms and advisers, so unregulated providers can be identified. Through prudential supervision, it checks that firms hold enough capital to meet their obligations to customers.",
+    "prompt": "Explain the role of the Central Bank of Ireland in protecting consumers of financial products.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch19-s1": {
+  "keyTerms": [
+   {
+    "definition": "A legal minimum hourly rate that employers must pay workers, set under the National Minimum Wage Act 2000.",
+    "term": "National minimum wage"
+   },
+   {
+    "definition": "A resignation forced by the employer's conduct, which the law treats as a dismissal.",
+    "term": "Constructive dismissal"
+   },
+   {
+    "definition": "Less favourable treatment of a person because of a protected ground, such as age or race.",
+    "term": "Direct discrimination"
+   },
+   {
+    "definition": "A rule or practice that applies to everyone but disadvantages people on a protected ground, without objective justification.",
+    "term": "Indirect discrimination"
+   },
+   {
+    "definition": "Changes an employer makes so that a disabled employee can do the job, unless this would be a disproportionate burden.",
+    "term": "Reasonable accommodation"
+   },
+   {
+    "definition": "A written document setting out an employer's safety and health arrangements, based on the risks identified at work.",
+    "term": "Safety statement"
+   },
+   {
+    "definition": "A State body that investigates and decides many employment complaints and disputes.",
+    "term": "Workplace Relations Commission"
+   },
+   {
+    "definition": "An agreement on pay and conditions negotiated between a union and an employer, covering a group of workers.",
+    "term": "Collective agreement"
+   },
+   {
+    "definition": "A set sequence of steps by which an employee raises a complaint about their employment.",
+    "term": "Grievance procedure"
+   },
+   {
+    "definition": "Gender, civil status, family status, sexual orientation, religion, age, disability, race, and membership of the Traveller community.",
+    "term": "Nine grounds of discrimination under the Employment Equality Acts"
+   },
+   {
+    "definition": "Identify hazards, assess risks, prepare a safety statement, and provide training, information and safe equipment.",
+    "term": "Employer duties under the Safety, Health and Welfare at Work Act"
+   },
+   {
+    "definition": "Take reasonable care of their own and others' safety, use protective equipment, and report hazards and accidents.",
+    "term": "Employee duties under the same Act"
+   },
+   {
+    "definition": "Capability, conduct, redundancy, a legal prohibition, or another substantial reason, applied with fair procedures.",
+    "term": "Fair reasons for dismissal"
+   },
+   {
+    "definition": "The WRC investigates and adjudicates; the Labour Court hears appeals.",
+    "term": "Who decides most employment complaints"
+   },
+   {
+    "definition": "Legislation sets rights for all workers; contracts, collective agreements, handbooks and codes of practice add further protection.",
+    "term": "Legislative and non-legislative protection"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Pay protection in Irish law combines a legal floor on hourly rates with rules on how and when wages are paid.",
+    "h": "Pay and the national minimum wage",
+    "points": [
+     "The National Minimum Wage Act 2000 sets a legal minimum hourly rate, and an employer cannot pay a worker less than the rate that applies.",
+     "The minimum rate is reviewed by the government, usually after recommendations from the Low Pay Commission, and each change affects employers' costs and workers' take-home pay.",
+     "The Payment of Wages Act 1991 requires employers to pay wages on time and to give employees a written statement of pay and deductions.",
+     "Deductions from wages are allowed only where the law permits them or where the employee has agreed to them in writing.",
+     "A worker who is not paid properly can make a complaint to the Workplace Relations Commission (WRC)."
+    ]
+   },
+   {
+    "h": "Conditions of employment",
+    "points": [
+     "The Organisation of Working Time Act 1997 limits average weekly working hours and guarantees rest breaks, daily and weekly rest periods, and annual leave.",
+     "The Terms of Employment (Information) Acts require employers to give employees a written statement of core terms, such as pay, hours and place of work.",
+     "The Employment (Miscellaneous Provisions) Act 2018 bans zero-hours contracts in most cases, guarantees a minimum payment when an employee is called in but not given the expected work, and provides for banded hours after a period of regular working.",
+     "The Sick Leave Act 2022 gives eligible employees a statutory right to paid sick leave, with the number of paid days set in law.",
+     "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a right to request flexible or remote working and extends leave for family and carers."
+    ]
+   },
+   {
+    "h": "Health and safety",
+    "points": [
+     "The Safety, Health and Welfare at Work Act 2005 is the main law on workplace safety in Ireland, and it is enforced by the Health and Safety Authority (HSA).",
+     "Employers must identify hazards, assess risks, prepare a safety statement, and provide training, information and safe equipment.",
+     "Employees must take reasonable care of their own safety and that of others, use the protective equipment provided, and report hazards and accidents.",
+     "An employee who reasonably believes that work poses a serious and imminent risk can refuse to do it, and cannot be penalised for doing so.",
+     "Breaches of the Act can lead to prosecution, so safety duties are enforceable obligations and not just good practice."
+    ]
+   },
+   {
+    "b": "The Employment Equality Acts 1998 to 2015 protect employees and job applicants from discrimination in the workplace.",
+    "h": "Discrimination",
+    "points": [
+     "The Acts cover recruitment, pay, training, promotion, conditions of employment and dismissal.",
+     "The nine protected grounds are gender, civil status, family status, sexual orientation, religion, age, disability, race, and membership of the Traveller community.",
+     "Race includes colour, nationality and ethnic or national origins.",
+     "Direct discrimination means a person is treated less favourably because of a protected ground, while indirect discrimination means a rule that applies to everyone disadvantages people on a ground, unless it is objectively justified.",
+     "An employer must provide reasonable accommodation for a disabled employee, unless doing so would be a disproportionate burden.",
+     "Discrimination claims are made to the Workplace Relations Commission."
+    ]
+   },
+   {
+    "h": "Security of employment and dismissal",
+    "points": [
+     "The Unfair Dismissals Acts 1977 to 2015 protect employees with the required length of service from being dismissed unfairly.",
+     "A dismissal is fair only if it is for a reason such as capability, conduct, redundancy or a legal prohibition, and the employer follows fair procedures.",
+     "Some reasons, such as trade union membership or raising a safety complaint, make a dismissal automatically unfair.",
+     "Constructive dismissal occurs when an employee resigns because the employer's conduct makes continued employment unreasonable, and the law treats the resignation as a dismissal.",
+     "Redress for unfair dismissal may be reinstatement, re-engagement or compensation, decided by the WRC or the Labour Court."
+    ]
+   },
+   {
+    "h": "Redress and time limits",
+    "points": [
+     "The WRC investigates and adjudicates on many employment complaints, including pay, discrimination, dismissal and working time claims.",
+     "The Labour Court hears appeals from WRC decisions and handles certain industrial relations disputes.",
+     "Employees usually must make a complaint within a set time limit, so acting promptly protects the claim."
+    ]
+   },
+   {
+    "h": "Employees' responsibilities",
+    "points": [
+     "Employees must follow reasonable and lawful instructions from their employer and attend work as rostered.",
+     "Employees owe a duty of good faith, which includes not disclosing confidential business information and not competing unfairly with the employer.",
+     "When resigning, employees must give the notice required by their contract or by law."
+    ]
+   },
+   {
+    "b": "Protection also comes from agreements and procedures that sit alongside the law.",
+    "h": "Non-legislative protection",
+    "points": [
+     "An employment contract sets out the express terms agreed by employer and employee, and sits alongside statutory rights, which cannot be signed away.",
+     "A collective agreement is negotiated between a trade union and an employer, and sets pay and conditions for a group of workers.",
+     "HR policies in a staff handbook set expected conduct and procedures, and they cannot reduce statutory rights.",
+     "Codes of practice, such as the Labour Relations Commission code on grievance and disciplinary procedures, give practical guidance that bodies such as the WRC take into account.",
+     "A grievance procedure lets an employee raise a complaint informally and then formally, through a set sequence of steps."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "On pay, the National Minimum Wage Act 2000 sets a legal floor for hourly rates, and the Payment of Wages Act 1991 requires wages to be paid on time with a written statement of pay and deductions. On conditions, the Organisation of Working Time Act 1997 limits average working hours and guarantees rest breaks and annual leave, while the Sick Leave Act 2022 gives a right to paid sick leave. On health and safety, the Safety, Health and Welfare at Work Act 2005 requires employers to assess risks and provide training and safe equipment, and it requires employees to take reasonable care. The WRC enforces many of these rights by investigating complaints and deciding claims on pay, working time, discrimination and dismissal, with appeals going to the Labour Court.",
+    "prompt": "Discuss how legislation protects employees in relation to pay, working conditions and health and safety, and explain the role of the WRC in enforcing these rights.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Direct discrimination occurs when a person is treated less favourably because of a protected ground, such as refusing to promote an employee because of their age. Indirect discrimination occurs when a rule that applies to everyone disadvantages people on a protected ground, such as requiring full-time evening shifts that make it very hard for a carer to take a job, unless the employer can show the rule is objectively justified.",
+    "prompt": "Explain the difference between direct and indirect discrimination, and give an example of each in an Irish workplace.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A dismissal may be fair for capability, where an employee cannot do the job to the required standard, or for conduct, where an employee has breached discipline. Constructive dismissal occurs when an employee resigns because the employer's conduct makes continued employment unreasonable, and the law treats that resignation as a dismissal.",
+    "prompt": "Outline two reasons why a dismissal may be fair, and explain what constructive dismissal means.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch19-s2": {
+  "keyTerms": [
+   {
+    "definition": "An organisation of workers that negotiates for and represents its members on pay and working conditions.",
+    "term": "Trade union"
+   },
+   {
+    "definition": "Negotiation between a union and an employer over pay and conditions for a group of workers, rather than for one person.",
+    "term": "Collective bargaining"
+   },
+   {
+    "definition": "A union member elected in a workplace to represent colleagues and link them with management.",
+    "term": "Shop steward"
+   },
+   {
+    "definition": "The federation representing most Irish trade unions, which speaks for workers at national level.",
+    "term": "Irish Congress of Trade Unions (ICTU)"
+   },
+   {
+    "definition": "A labour market of short-term, flexible jobs, often organised through digital platforms and paid per task.",
+    "term": "Gig economy"
+   },
+   {
+    "definition": "A person who performs work through a digital platform that allocates or manages the tasks.",
+    "term": "Platform worker"
+   },
+   {
+    "definition": "Pay calculated by the amount of work completed, such as per delivery, rather than by time worked.",
+    "term": "Piece rate"
+   },
+   {
+    "definition": "The use of software to allocate, monitor, rate and sometimes deactivate workers automatically.",
+    "term": "Algorithmic management"
+   },
+   {
+    "definition": "Whether a worker is legally an employee or self-employed, which determines their rights.",
+    "term": "Employment status"
+   },
+   {
+    "definition": "Representation at grievance, disciplinary and dismissal hearings, and referral of cases to the WRC or the Labour Court.",
+    "term": "Ways a union protects members in disputes"
+   },
+   {
+    "definition": "Insecure income, no sick pay, holiday pay or pension, and disputes over whether they are employees.",
+    "term": "Three challenges for gig workers"
+   },
+   {
+    "definition": "Craft, general, industrial and white-collar.",
+    "term": "Four types of union"
+   },
+   {
+    "definition": "Control over how the work is done, integration into the business, and mutual obligations, among other factors.",
+    "term": "Factors used to test employee status"
+   },
+   {
+    "definition": "To improve working conditions for people working through digital platforms, including rules on employment status and algorithmic management.",
+    "term": "Purpose of the EU platform rules"
+   },
+   {
+    "definition": "Flexibility, extra income, easy entry, and building a portfolio of skills.",
+    "term": "Benefits of gig work"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A trade union is an organisation of workers that represents its members in dealings with employers and government.",
+    "h": "What a trade union is",
+    "points": [
+     "Membership gives workers collective strength, so an individual can negotiate with an employer on more equal terms.",
+     "Members pay subscriptions, which fund the union's staff, advice and representation.",
+     "Unions are independent of employers and of government, although they can work with both."
+    ]
+   },
+   {
+    "h": "Functions of trade unions",
+    "points": [
+     "Collective bargaining: the union negotiates pay, hours and conditions on behalf of members with an employer or employer body.",
+     "Representation: the union represents members at grievance, disciplinary and dismissal hearings, and can take cases to the WRC or the Labour Court.",
+     "Advice and information: members receive advice on their rights, contracts and workplace problems, often with access to legal support.",
+     "Protecting jobs: unions negotiate redundancy terms and work to protect employment during restructuring.",
+     "Lobbying: unions argue for stronger employment laws and social policies, such as minimum wage increases and tougher safety rules."
+    ]
+   },
+   {
+    "h": "Shop stewards, ICTU and types of union",
+    "points": [
+     "A shop steward is a union member elected in a workplace to act as the link between members and management, and to deal with early problems.",
+     "The Irish Congress of Trade Unions (ICTU) is the federation of most Irish trade unions, and speaks for workers at national level.",
+     "Craft unions represent skilled tradespeople, general unions recruit across many sectors, industrial unions organise one industry, and white-collar unions represent professional and clerical staff."
+    ]
+   },
+   {
+    "b": "The gig economy is a labour market of short-term, flexible work, often arranged and paid through digital platforms.",
+    "h": "The gig economy",
+    "points": [
+     "Gig workers are typically paid per task, per job or per piece rather than by a fixed salary.",
+     "Examples include food and parcel delivery riders, ride-hailing drivers, and freelancers who take on tasks through online marketplaces.",
+     "Platforms often describe gig workers as self-employed contractors, which can mean they are denied employee rights."
+    ]
+   },
+   {
+    "h": "Opportunities for gig workers",
+    "points": [
+     "Flexibility: workers choose when and how much to work, which suits students, carers and people with other commitments.",
+     "Extra income: gig work can supplement a main job or a pension.",
+     "Low barriers to entry: people with a limited work history can start quickly, without a formal recruitment process.",
+     "Skills and portfolio: freelancers can build a portfolio of completed work and develop digital skills."
+    ]
+   },
+   {
+    "h": "Challenges for gig workers",
+    "points": [
+     "Insecure income: pay depends on platform demand and automated allocation, so earnings are unpredictable.",
+     "Missing entitlements: in many cases gig workers have no sick pay, holiday pay, pension contributions or redundancy protection.",
+     "Employment-status disputes: workers may argue they are employees under employment law, while platforms insist they are contractors.",
+     "Piece-rate pay can mean low effective hourly earnings when unpaid waiting time between jobs is not counted.",
+     "Algorithmic management: ratings, automated allocation and deactivation can control work, often with little explanation or right of appeal.",
+     "Weak collective bargaining: workers are spread out and rarely meet in one workplace, which makes organising difficult.",
+     "Health and safety: delivery riders and drivers face road risks with less employer oversight of safety."
+    ]
+   },
+   {
+    "h": "Law and developments",
+    "points": [
+     "Under Irish law, the key question is whether a worker is an employee or self-employed, which is decided by looking at factors such as control over the work and integration into the business.",
+     "The EU Platform Work Directive aims to improve working conditions for people who work through digital platforms.",
+     "The directive includes a presumption that a platform worker is an employee where facts indicate control, and rules on transparency of algorithmic management.",
+     "EU directives must be transposed into national law, so Irish legislation will decide how these rules apply here.",
+     "Unions in Ireland have campaigned for gig workers to receive employee protections and access to collective bargaining."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 15,
+    "model": "The gig economy is a labour market of short-term, flexible work, often arranged through digital platforms and paid per task rather than by salary. Three difficulties are insecure income, because pay depends on platform demand and automated allocation; missing entitlements, such as sick pay, holiday pay and pension contributions, which many gig workers do not receive; and disputes over employment status, because platforms usually describe workers as self-employed contractors, which can deny them employee rights.",
+    "prompt": "Describe what is meant by the gig economy and outline three difficulties that gig workers face.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "A trade union supports employees through collective bargaining, negotiating pay and conditions for members, which gives individuals more strength than they would have alone. It also represents members at grievance, disciplinary and dismissal hearings, provides advice on rights, and lobbies government for stronger employment laws. In the gig economy, the union's effectiveness is limited, because workers are spread across many platforms, rarely meet in one workplace, and are often classed as self-employed, which places them outside traditional collective bargaining. Unions can still help by campaigning on employment status, representing individual workers in disputes, and pushing for the protections in EU platform work rules.",
+    "prompt": "Explain the role of a trade union in supporting employees, and assess how effective a union can be for workers in the gig economy.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "One function is collective bargaining, in which the union negotiates pay, hours and conditions on behalf of its members. A second function is representation, in which the union supports members at grievance, disciplinary and dismissal hearings and can take cases to the WRC or the Labour Court.",
+    "prompt": "Outline two functions of a trade union.",
+    "type": "short"
+   }
+  ]
+ },
+ "ch19-s3": {
+  "keyTerms": [
+   {
+    "definition": "The government's yearly plan for raising tax and spending for the coming year.",
+    "term": "Annual Budget"
+   },
+   {
+    "definition": "Ranges of income taxed at different rates, such as the standard rate band and the higher rate band.",
+    "term": "Tax bands"
+   },
+   {
+    "definition": "An amount deducted from the tax a person owes, reducing their tax bill.",
+    "term": "Tax credit"
+   },
+   {
+    "definition": "A separate charge on gross income, with its own bands, paid in addition to income tax.",
+    "term": "Universal Social Charge (USC)"
+   },
+   {
+    "definition": "Pay Related Social Insurance, a contribution from pay that funds certain social welfare benefits and the State pension.",
+    "term": "PRSI"
+   },
+   {
+    "definition": "Pay before any tax or other deductions are taken out.",
+    "term": "Gross pay"
+   },
+   {
+    "definition": "Pay left after all deductions, also called take-home pay.",
+    "term": "Net pay"
+   },
+   {
+    "definition": "A system where eligible workers are automatically signed up to a pension scheme, with the option to opt out.",
+    "term": "Auto-enrolment"
+   },
+   {
+    "definition": "A temporary or targeted payment or credit from the State to offset rising living costs.",
+    "term": "Cost-of-living measure"
+   },
+   {
+    "definition": "Tax bands and credits, USC, PRSI, minimum wage decisions, social welfare, childcare supports, housing supports, pension enrolment and cost-of-living measures.",
+    "term": "Budget measures that affect workers"
+   },
+   {
+    "definition": "The worker, the employer and the State.",
+    "term": "Contributors to a default pension system"
+   },
+   {
+    "definition": "Tax cuts can reduce funds for services; higher spending may need higher taxes or borrowing.",
+    "term": "Trade-off in a Budget"
+   },
+   {
+    "definition": "Income tax, USC, employee PRSI, and any agreed pension or union contributions.",
+    "term": "Deductions shown on a payslip"
+   },
+   {
+    "definition": "Contract terms, pension options, and total benefits such as sick pay and flexible working, not just headline pay.",
+    "term": "Checks an informed employee makes before a pay decision"
+   },
+   {
+    "definition": "It reduces the tax owed, so take-home pay rises without any change in gross pay.",
+    "term": "Effect of a credit on take-home pay"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The annual Budget is the government's plan for raising tax and spending, and it reaches workers through their pay, their services and the economy.",
+    "h": "What the annual Budget is",
+    "points": [
+     "The Budget sets how much the State will raise in tax and how it will spend that money in the coming year.",
+     "It is usually announced in the autumn for the following year, and its tax changes are given legal effect through the Finance Act after debate in the Oireachtas.",
+     "The Budget sets tax bands, tax credits, social welfare rates and spending on services such as health, education and housing.",
+     "Budget measures affect workers directly through take-home pay, and indirectly through the public services they use."
+    ]
+   },
+   {
+    "h": "Income tax, USC and PRSI",
+    "points": [
+     "Income tax is charged on taxable income at different rates across bands, so changing the width of a band changes how much tax a worker pays.",
+     "Tax credits reduce the tax a person owes, so an increase in a credit raises take-home pay for everyone who claims it.",
+     "The Universal Social Charge (USC) is a separate charge on gross income, with its own bands, paid in addition to income tax.",
+     "PRSI (Pay Related Social Insurance) is a contribution from pay that funds certain social welfare benefits, such as illness benefit and the State pension, and it affects entitlement to them.",
+     "A Budget change to any of these can alter net pay even when gross pay stays the same."
+    ]
+   },
+   {
+    "h": "Minimum wage, social welfare and other supports",
+    "points": [
+     "Minimum wage decisions raise the income of low-paid workers, but they also add to costs for employers, which can affect hiring.",
+     "Social welfare changes affect households with children, jobseekers, carers and pensioners, and some payments depend on means testing.",
+     "Childcare supports reduce the cost of early education and care, which can make it easier for parents to take up or keep work.",
+     "Housing supports, including social housing and help with rent, change how much of a worker's income is left after housing costs.",
+     "Cost-of-living measures, such as one-off payments or credits, boost income for a set period without changing the tax system."
+    ]
+   },
+   {
+    "h": "Auto-enrolment pensions",
+    "points": [
+     "Auto-enrolment is a system in which eligible workers are signed up to a workplace pension by default, with the option to opt out.",
+     "Contributions come from the worker, the employer and the State, which is intended to increase retirement savings.",
+     "Many workers currently have no pension, and saving early benefits from long-term growth on the money invested.",
+     "Before deciding whether to opt out, a worker should check the contribution rate, the employer's contribution and any State top-up."
+    ]
+   },
+   {
+    "h": "Trade-offs and who gains from a Budget",
+    "points": [
+     "A Budget is a trade-off: tax cuts can reduce the money available for public services, while higher spending may require higher taxes or borrowing.",
+     "Low-paid workers may gain most from minimum wage increases and targeted credits, while higher earners may be more affected by changes to tax bands.",
+     "Changes in indirect taxes on goods, such as VAT and excise duties, affect consumers' spending power, even when income taxes are unchanged."
+    ]
+   },
+   {
+    "h": "Reading a payslip",
+    "points": [
+     "Gross pay is pay before any tax or other deductions are taken out.",
+     "Deductions include income tax, USC, employee PRSI, and any pension or union contributions the worker has agreed to pay.",
+     "Net pay, also called take-home pay, is gross pay less all deductions.",
+     "Checking the payslip against the hours worked and the agreed rate helps a worker spot errors early."
+    ]
+   },
+   {
+    "h": "Informed decisions as an employee",
+    "points": [
+     "An informed employee checks the contract, understands pension options and knows their statutory rights before making decisions.",
+     "Comparing jobs should include benefits such as pension matching, sick pay and flexible working, not only the headline pay.",
+     "Understanding how Budget changes affect take-home pay helps workers plan their saving and spending.",
+     "Reading workplace news critically means identifying the decision, who is affected and the evidence behind the claims made."
+    ]
+   },
+   {
+    "h": "Discussing workplace and budget news",
+    "points": [
+     "Workplace news often covers pay disputes, redundancies, Budget measures and new employment rights, and each needs a clear view of who gains and who loses.",
+     "Analyse a story by identifying the decision, its effect on workers, the government's reasons and the trade-offs involved."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "The Budget changes tax bands and tax credits, which alter the amount of income tax a worker pays and so their take-home pay. Changes to USC and PRSI rates or bands have a similar effect, and PRSI also affects entitlement to benefits such as the State pension. Minimum wage decisions raise the hourly pay of the lowest-paid workers, but they add to employers' costs. Childcare and housing supports change how much of a worker's income is left after essential costs. Each measure is a trade-off, because a tax cut can reduce the funds available for public services.",
+    "prompt": "Explain how the annual Budget can affect workers, using at least three measures in your answer.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Gross pay is the amount earned before any tax or other deductions are taken out, while net pay, or take-home pay, is what remains after all deductions. Two deductions are income tax, which is charged on taxable income across bands, and employee PRSI, which funds social welfare benefits and affects entitlement to them. USC and any agreed pension contribution are further deductions.",
+    "prompt": "Explain the difference between gross pay and net pay, and outline two deductions that reduce gross pay.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Auto-enrolment aims to increase retirement saving by signing eligible workers up to a workplace pension by default, with contributions from the worker, the employer and the State. A worker might opt out if they need the extra take-home pay immediately, for example because they face urgent debts, although opting out means losing the contributions from the employer and the State.",
+    "prompt": "Outline the purpose of auto-enrolment pensions and explain one reason a worker might still choose to opt out.",
+    "type": "short"
+   }
+  ]
+ },
  "ch2-s1": {
   "keyTerms": [
    {
