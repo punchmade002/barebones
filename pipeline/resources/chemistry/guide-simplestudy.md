@@ -7,8 +7,14 @@
 - Coverage observed: 15 units and 54 topics.
 - Representative lesson: “The Nuclear Model” (4 main sections, 2 subsections, 1 worked-example
   cue and 2 note callouts).
+- Syllabus: the NCCA Leaving Certificate Chemistry specification introduced in September 2025 and
+  first examined in June 2027. SimpleStudy's units follow this specification, not the 1999
+  syllabus examined to June 2026.
 - Use this taxonomy as a consistent research map. NCCA controls scope and assessment; SEC papers
-  and marking schemes control exam content.
+  and marking schemes control exam content. All existing SEC papers are from the previous
+  syllabus, so use them only for topics that are also in the specification.
+- The full chapter-by-chapter outline used for content generation, keyed to the app's 26
+  chemistry chapter IDs, is `course-outlines/chemistry.md`.
 
 ## Unit and topic structure
 

@@ -1,0 +1,140 @@
+{
+  "loId": "bio-acronyms-s1",
+  "chapterId": "bio-acronyms",
+  "subsection": "Acronyms and key terms",
+  "syllabusRef": "Appendix 1",
+  "notes": [
+    {
+      "h": "Energy and electron carriers",
+      "points": [
+        "ATP (adenosine triphosphate): the cell's main energy-transfer molecule, made of adenine, ribose and three phosphate groups. Breaking off the end phosphate releases energy for cell processes. Taught in “ATP”.",
+        "ADP (adenosine diphosphate): the molecule left when ATP loses its end phosphate. Respiration and photosynthesis join ADP and inorganic phosphate (Pi) back into ATP. Taught in “ATP”.",
+        "ATP synthase: the enzyme that makes ATP from ADP and phosphate, driven by a flow of protons through it. Introduced in “ATP”; its role in membranes is in “The mitochondrion's internal structure and ATP synthase” and “The chloroplast's internal structure”.",
+        "NAD⁺ (nicotinamide adenine dinucleotide): the electron carrier of respiration. It accepts electrons and a proton to become NADH, which carries them to the electron transport chain. Taught in “NAD⁺ and NADP⁺” (Higher Level only).",
+        "NADP⁺ (nicotinamide adenine dinucleotide phosphate): the electron carrier of photosynthesis. It accepts electrons and a proton in the light-dependent reactions to become NADPH, which carries them to the light-independent reactions. Taught in “NAD⁺ and NADP⁺” and “The light-dependent reactions” (Higher Level only).",
+        "Acetyl CoA (acetyl coenzyme A): the two-carbon compound formed from pyruvate, releasing one CO₂, in the mitochondrion. It enters the citric acid cycle. Taught in “Second-stage process” (Higher Level only)."
+      ]
+    },
+    {
+      "h": "Nucleic acids",
+      "points": [
+        "DNA (deoxyribonucleic acid): the double-stranded nucleic acid, with the sugar deoxyribose and the bases A, T, C and G, that stores genetic information. Taught in “Nucleotides, DNA and RNA”.",
+        "RNA (ribonucleic acid): the usually single-stranded nucleic acid, with the sugar ribose and the bases A, U, C and G, that uses the information in DNA to make proteins. Taught in “Nucleotides, DNA and RNA”.",
+        "mRNA (messenger RNA): carries a copy of a gene from the nucleus to a ribosome. Named in “Nucleotides, DNA and RNA”; its role is in “Transcription and translation”.",
+        "tRNA (transfer RNA): brings a specific amino acid to the ribosome, matching its anticodon to a codon on mRNA. Named in “Nucleotides, DNA and RNA”; its structure and role are in “Transcription and translation” (Higher Level only for structure and role).",
+        "rRNA (ribosomal RNA): the RNA that, with proteins, forms ribosomes. Named in “Nucleotides, DNA and RNA”; its role is in “Transcription and translation”.",
+        "The bases: A is adenine; T is thymine (DNA only); C is cytosine; G is guanine; U is uracil (RNA only). Base pairing is A–T and C–G in DNA, and A–U in RNA. Taught in “Nucleotides, DNA and RNA”."
+      ]
+    },
+    {
+      "h": "Hormones",
+      "points": [
+        "TSH (thyroid-stimulating hormone): a pituitary hormone that stimulates the thyroid gland to release thyroxine. Taught in “Glands, locations and hormones”.",
+        "FSH (follicle-stimulating hormone): a pituitary hormone that stimulates a follicle in the ovary to develop an egg and make oestrogen, and stimulates sperm production in the testes. Taught in “Glands, locations and hormones”, with its levels in “The menstrual cycle” and “Hormones in reproduction” (Higher Level only).",
+        "LH (luteinising hormone): a pituitary hormone whose surge causes ovulation and the formation of the corpus luteum. In males it stimulates testosterone production. Taught in “Glands, locations and hormones”, “The menstrual cycle” and “Hormones in reproduction” (Higher Level only).",
+        "ADH (antidiuretic hormone): made in the hypothalamus and released by the pituitary, it makes the kidney's collecting ducts reabsorb more water, giving less, more concentrated urine. Taught in “Glands, locations and hormones” and “ADH and osmoregulation” (Higher Level only)."
+      ]
+    },
+    {
+      "h": "Body systems and immunity",
+      "points": [
+        "CNS (central nervous system): the brain and spinal cord. Taught in “CNS and PNS”.",
+        "PNS (peripheral nervous system): all the nerves outside the brain and spinal cord, carrying messages to and from the CNS. Taught in “CNS and PNS”.",
+        "NK cells (natural killer cells): white blood cells of the innate immune system that kill virus-infected cells and cancer cells. Taught in “White blood cells” (Higher Level only)."
+      ]
+    },
+    {
+      "h": "Reproduction and health",
+      "points": [
+        "IVF (in vitro fertilisation): eggs are fertilised by sperm outside the body, in a dish, and an early embryo is placed in the uterus. Taught in “Fertility control and infertility”.",
+        "ICSI (intracytoplasmic sperm injection): a single sperm is injected directly into an egg's cytoplasm in the laboratory. It is used when sperm cannot fertilise an egg on their own. Taught in “Fertility control and infertility”.",
+        "STI (sexually transmitted infection): an infection passed from person to person by sexual contact. Condoms reduce the risk. Taught in “Fertility control and infertility”.",
+        "PKU (phenylketonuria): an inherited disorder in which the body cannot break down the amino acid phenylalanine, which builds up and damages the brain. Newborn babies are screened for it, and it is controlled by a low-phenylalanine diet. Taught in “Prenatal and postnatal care”."
+      ]
+    },
+    {
+      "h": "Techniques, microscopes and databases",
+      "points": [
+        "SEM (scanning electron microscope): an electron microscope that scans a beam of electrons across a metal-coated specimen, giving a detailed three-dimensional image of its surface. Taught in “Microscopy”. SEM images are used as secondary data in “Investigation: plant and animal cells”.",
+        "PCR (polymerase chain reaction): a laboratory method that makes millions of copies of a chosen section of DNA by repeated cycles of heating and cooling, with DNA polymerase. Taught in “Generating a DNA profile” (Higher Level only).",
+        "NCBI (National Center for Biotechnology Information): a United States public body whose free online databases hold DNA sequences, genomes and scientific papers. Taught in “Bioinformatics: genome databases”.",
+        "OMIM (Online Mendelian Inheritance in Man): a free online catalogue of human genes and genetic disorders, and of the alleles that cause them. Taught in “Bioinformatics: genome databases”."
+      ]
+    },
+    {
+      "h": "Ecology, disease and symbols",
+      "points": [
+        "R₀ (basic reproduction number): the average number of people that one infected person infects in a population with no immunity and no control measures. Above 1 the disease spreads; below 1 it dies out. Taught in “Emergence and spread of infectious disease”.",
+        "Ds (Simpson's diversity index): a measure of species diversity, Ds = 1 − Σn(n − 1) / N(N − 1), where n is the number of organisms of one species and N the total of all species. It runs from 0 to 1, and the closer to 1, the more diverse. Taught in “Simpson's Diversity Index” (Higher Level only).",
+        "pH: a measure of how acidic or alkaline a solution is, on a scale of 0 to 14. 7 is neutral, below 7 is acidic and above 7 is alkaline. Each enzyme has an optimum pH. Taught in “Investigation: rate of enzyme activity”."
+      ]
+    },
+    {
+      "h": "Chemical formulas used in the notes",
+      "points": [
+        "CO₂ carbon dioxide; O₂ oxygen; H₂O water; C₆H₁₂O₆ glucose. Taught in “Photosynthesis as an anabolic process” and “Respiration as a catabolic process”.",
+        "CH₄ methane, a greenhouse gas made by microorganisms in anaerobic conditions. Taught in “The carbon cycle” and “Climate change and biological strategies”.",
+        "N₂ nitrogen gas; NH₄⁺ ammonium; NO₃⁻ nitrate; N₂O nitrous oxide. Taught in “The nitrogen cycle”, with nitrous oxide as a greenhouse gas in “Climate change and biological strategies”."
+      ]
+    },
+    {
+      "h": "Assessment",
+      "points": [
+        "SEC (State Examinations Commission): the body that sets and marks the written examination and the Biology in Practice Investigation. Taught in “The Biology in Practice Investigation”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "ATP", "definition": "Adenosine triphosphate: the cell's main energy-transfer molecule, which releases energy when its end phosphate breaks off." },
+    { "term": "ADP", "definition": "Adenosine diphosphate: the molecule left when ATP loses its end phosphate, which is rejoined to phosphate to make ATP." },
+    { "term": "ATP synthase", "definition": "The enzyme that makes ATP from ADP and phosphate, driven by a flow of protons." },
+    { "term": "NAD⁺", "definition": "Nicotinamide adenine dinucleotide: the electron carrier of respiration, which becomes NADH when it accepts electrons (Higher Level only)." },
+    { "term": "NADP⁺", "definition": "Nicotinamide adenine dinucleotide phosphate: the electron carrier of photosynthesis, which becomes NADPH when it accepts electrons (Higher Level only)." },
+    { "term": "Acetyl CoA", "definition": "Acetyl coenzyme A: the two-carbon compound formed from pyruvate in the mitochondrion, which enters the citric acid cycle (Higher Level only)." },
+    { "term": "DNA", "definition": "Deoxyribonucleic acid: the double-stranded nucleic acid that stores genetic information." },
+    { "term": "RNA", "definition": "Ribonucleic acid: the usually single-stranded nucleic acid that uses the information in DNA to make proteins." },
+    { "term": "mRNA", "definition": "Messenger RNA: carries a copy of a gene from the nucleus to a ribosome." },
+    { "term": "tRNA", "definition": "Transfer RNA: brings a specific amino acid to the ribosome, matching its anticodon to a codon on mRNA (structure and role are Higher Level only)." },
+    { "term": "rRNA", "definition": "Ribosomal RNA: the RNA that, with proteins, forms ribosomes." },
+    { "term": "Bases A, T, C, G and U", "definition": "Adenine, thymine (DNA only), cytosine, guanine and uracil (RNA only); A pairs with T in DNA and with U in RNA, and C pairs with G." },
+    { "term": "TSH", "definition": "Thyroid-stimulating hormone: a pituitary hormone that stimulates the thyroid gland to release thyroxine." },
+    { "term": "FSH", "definition": "Follicle-stimulating hormone: a pituitary hormone that stimulates egg development in the ovary and sperm production in the testes (Higher Level only)." },
+    { "term": "LH", "definition": "Luteinising hormone: a pituitary hormone whose surge causes ovulation; in males it stimulates testosterone production (Higher Level only)." },
+    { "term": "ADH", "definition": "Antidiuretic hormone: made in the hypothalamus and released by the pituitary, it makes the kidneys reabsorb more water (Higher Level only)." },
+    { "term": "CNS", "definition": "Central nervous system: the brain and spinal cord." },
+    { "term": "PNS", "definition": "Peripheral nervous system: all the nerves outside the brain and spinal cord." },
+    { "term": "NK cells", "definition": "Natural killer cells: white blood cells of the innate immune system that kill virus-infected and cancer cells (Higher Level only)." },
+    { "term": "IVF", "definition": "In vitro fertilisation: fertilisation of eggs by sperm outside the body, in a dish, with the early embryo then placed in the uterus." },
+    { "term": "ICSI", "definition": "Intracytoplasmic sperm injection: injecting a single sperm directly into an egg's cytoplasm in the laboratory." },
+    { "term": "STI", "definition": "Sexually transmitted infection: an infection passed on by sexual contact." },
+    { "term": "PKU", "definition": "Phenylketonuria: an inherited disorder in which phenylalanine builds up and damages the brain, controlled by a low-phenylalanine diet." },
+    { "term": "SEM", "definition": "Scanning electron microscope: an electron microscope that gives a detailed three-dimensional image of a metal-coated specimen's surface." },
+    { "term": "PCR", "definition": "Polymerase chain reaction: a method that makes millions of copies of a section of DNA by repeated heating and cooling (Higher Level only)." },
+    { "term": "NCBI", "definition": "National Center for Biotechnology Information: a United States public body whose free online databases hold DNA sequences and genomes." },
+    { "term": "OMIM", "definition": "Online Mendelian Inheritance in Man: a free online catalogue of human genes, genetic disorders and the alleles that cause them." },
+    { "term": "R₀", "definition": "Basic reproduction number: the average number of people one infected person infects in a population with no immunity and no control measures." },
+    { "term": "Ds", "definition": "Simpson's diversity index: a measure of species diversity from 0 to 1, where the closer to 1, the more diverse (Higher Level only)." },
+    { "term": "pH", "definition": "A measure of how acidic or alkaline a solution is, on a scale of 0 to 14, where 7 is neutral." },
+    { "term": "CO₂, O₂, H₂O and C₆H₁₂O₆", "definition": "Carbon dioxide, oxygen, water and glucose." },
+    { "term": "CH₄", "definition": "Methane, a greenhouse gas made by microorganisms in anaerobic conditions." },
+    { "term": "N₂, NH₄⁺, NO₃⁻ and N₂O", "definition": "Nitrogen gas, ammonium, nitrate and nitrous oxide." },
+    { "term": "SEC", "definition": "State Examinations Commission: the body that sets and marks the written examination and the Biology in Practice Investigation." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give the full name of each of the following and state one function of each: ATP, TSH, mRNA.",
+      "model": "ATP is adenosine triphosphate, the cell's main energy-transfer molecule; it releases energy for cell processes when its end phosphate breaks off. TSH is thyroid-stimulating hormone, a pituitary hormone that stimulates the thyroid gland to release thyroxine. mRNA is messenger RNA, which carries a copy of a gene from the nucleus to a ribosome."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give the full name of ADH, FSH and LH and state where each is released from.",
+      "model": "ADH is antidiuretic hormone, FSH is follicle-stimulating hormone and LH is luteinising hormone. All three are released from the pituitary gland. ADH is made in the hypothalamus and released by the pituitary, while FSH and LH are pituitary hormones."
+    },
+    {
+      "marks": 6,
+      "prompt": "What do the symbols R₀ and pH stand for, and what does a value of R₀ above 1, or a pH below 7, tell you?",
+      "model": "R₀ is the basic reproduction number, the average number of people one infected person infects in a population with no immunity and no control measures. A value of R₀ above 1 means the disease spreads. pH is a measure of how acidic or alkaline a solution is, on a scale of 0 to 14. A pH below 7 means the solution is acidic."
+    }
+  ]
+}

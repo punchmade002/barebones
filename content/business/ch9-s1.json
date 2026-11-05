@@ -1,0 +1,75 @@
+{
+  "loId": "ch9-s1",
+  "chapterId": "ch9",
+  "subsection": "1. Market research and identifying the target market",
+  "syllabusRef": "2.4.1",
+  "notes": [
+    { "h": "Purpose of market research", "b": "Market research gathers information about customers, competitors and markets so that a business can make decisions based on evidence.", "points": [
+      "It identifies the target market, meaning the group of customers the business most wants to reach.",
+      "It tests demand for a product or service before large sums are spent developing it.",
+      "It reveals what customers value, what they are willing to pay and where gaps exist in the market.",
+      "It reduces the risk that a business launches a product that customers do not want."
+    ] },
+    { "h": "The target market", "b": "The target market is the specific group of customers a business chooses to focus on, identified through research and segmentation.", "points": [
+      "A target market is narrower than the whole market, so the business can tailor its products and marketing to a group it understands.",
+      "Choosing a target market depends on segmentation, which divides a market into groups that share similar characteristics.",
+      "A niche market is a small, specialised group with distinctive needs, while a mass market is a large group with broadly common needs.",
+      "A consumer profile sketches a typical customer in the target market, using age, lifestyle, needs and buying habits."
+    ] },
+    { "h": "Bases for segmentation", "b": "Segmentation uses four main bases to divide a market into groups that a business can target.", "points": [
+      "Demographic: age, gender, income, occupation and family size, for example students as a group with limited budgets.",
+      "Geographic: region, town or country, for example customers in rural areas who need home delivery.",
+      "Psychographic: personality, values, attitudes and lifestyle, for example customers who prioritise environmental values.",
+      "Behavioural: purchase habits, loyalty, usage rate and the benefits sought, for example people who shop online every week."
+    ] },
+    { "h": "Desk research (secondary)", "b": "Desk research uses information that already exists, collected by others for another purpose, and it is usually quicker and cheaper to obtain.", "points": [
+      "Sources include Central Statistics Office (CSO) publications, industry reports, trade associations and competitors' published accounts.",
+      "Online analytics from a company's own website or social media pages provide secondary data about its existing customers.",
+      "Strength: it is fast and inexpensive, and it can cover a wide area or a long period of time.",
+      "Weakness: the data may be out of date, may not match the exact question being asked, and may be available to rivals too."
+    ] },
+    { "h": "Field research (primary)", "b": "Field research collects new data directly from customers or the market for the specific purpose of the business.", "points": [
+      "Surveys are questionnaires given to a sample, by post, online, by phone or in person, and they usually produce quantitative data.",
+      "Interviews are one-to-one conversations that produce detailed insight into customers' motives and attitudes.",
+      "Focus groups bring a small group together for a guided discussion, which reveals shared views and reactions to a product.",
+      "Observation records what customers actually do in a shop or online, rather than what they say they do.",
+      "Test marketing launches a product in a limited area to see how customers respond before a full launch.",
+      "Strength: the data is specific to the business's question and is up to date; weakness: it is expensive and slower to collect."
+    ] },
+    { "h": "Quantitative and qualitative data", "b": "Research produces two types of data, and businesses often use both to build a full picture of the market.", "points": [
+      "Quantitative data is numerical and can be counted or measured, such as the number of respondents who prefer a particular flavour.",
+      "Quantitative data can be statistically analysed, which makes it useful for comparing groups and spotting trends.",
+      "Qualitative data is descriptive and explores opinions, motives and feelings, usually gathered through interviews and focus groups.",
+      "Quantitative results show how many customers hold a view, while qualitative results explain why they hold it."
+    ] },
+    { "h": "Sampling (assumed knowledge)", "b": "A sample is a subset of a population that is surveyed, and its results are used to draw conclusions about the whole population.", "points": [
+      "A representative sample reflects the key characteristics of the population, such as age and location, so its results are more reliable.",
+      "A sample that is too small or biased, such as surveying only friends, produces misleading results.",
+      "Random sampling gives every member of the population an equal chance of selection, which reduces bias."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "market research", "definition": "The systematic gathering and analysis of information about customers, competitors and markets to support business decisions." },
+    { "term": "target market", "definition": "The specific group of customers a business chooses to focus its products and marketing on." },
+    { "term": "market segmentation", "definition": "Dividing a market into groups of customers who share similar characteristics or needs." },
+    { "term": "niche market", "definition": "A small, specialised group of customers with distinctive needs that a business serves." },
+    { "term": "mass market", "definition": "A large group of customers with broadly common needs, which a business can serve with standard products." },
+    { "term": "desk research", "definition": "Research that uses data already collected by others, such as government statistics and industry reports." },
+    { "term": "field research", "definition": "Research that collects new, first-hand data directly from customers or the market for a specific purpose." },
+    { "term": "sample", "definition": "A subset of a population selected for research so that its results can represent the wider population." },
+    { "term": "quantitative data", "definition": "Numerical data that can be counted or measured and statistically analysed." },
+    { "term": "qualitative data", "definition": "Descriptive data that explains opinions, motives and feelings, usually gathered through interviews or discussions." }
+  ],
+  "factCards": [
+    { "term": "Four segmentation bases", "definition": "Demographic, geographic, psychographic and behavioural." },
+    { "term": "Strength of desk research", "definition": "It is fast and cheap, and it can cover wide areas or long periods." },
+    { "term": "Weakness of desk research", "definition": "The data may be out of date, may not match the exact question, and may be available to rivals." },
+    { "term": "Five field research methods", "definition": "Surveys, interviews, focus groups, observation and test marketing." },
+    { "term": "Purpose of test marketing", "definition": "Launching in a limited area to observe real customer response before a full launch." },
+    { "term": "Risk of an unrepresentative sample", "definition": "Results can mislead the business because they do not reflect the views of the whole target market." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Explain why identifying a target market is important before a business launches a new product, and describe how market research helps it to identify one.", "model": "Identifying a target market focuses limited resources on the customers most likely to buy, so the marketing budget is not spent on people with no interest in the product. It also shapes the product itself, because features, price and packaging can be designed around the needs of one group. Market research helps through segmentation: the business can divide the market using demographic, geographic, psychographic and behavioural data, then compare the groups to see which has the strongest need. Field research, such as a survey of a representative sample, can test whether the chosen group would buy the product and at what price. Desk research, such as industry reports, adds background on the size and growth of each segment. Finally, the business can build a consumer profile of the chosen group, which guides the rest of the marketing decisions." },
+    { "marks": 15, "prompt": "Compare desk research and field research for a small business planning to open a bakery in a provincial town, identifying the strengths and weaknesses of each.", "model": "Desk research is quick and cheap for this bakery: it could use Central Statistics Office data on the town's population and household incomes, along with industry reports on bakery spending. Its weakness is that the data may be general and out of date, and it may not show local tastes. Field research answers the owner's specific questions. A short survey or interviews with local residents would reveal what they buy and what they would pay, and test marketing a few products at a market stall would show real response. Its strength is that the data is specific and current, but it takes time and costs more. A sensible approach uses desk research first to narrow the options, then field research to confirm the local demand." }
+  ]
+}

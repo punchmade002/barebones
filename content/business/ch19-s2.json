@@ -1,0 +1,76 @@
+{
+  "loId": "ch19-s2",
+  "chapterId": "ch19",
+  "subsection": "2. Trade unions and the gig economy",
+  "syllabusRef": "4.3.3, 4.3.4",
+  "notes": [
+    { "h": "What a trade union is", "b": "A trade union is an organisation of workers that represents its members in dealings with employers and government.", "points": [
+      "Membership gives workers collective strength, so an individual can negotiate with an employer on more equal terms.",
+      "Members pay subscriptions, which fund the union's staff, advice and representation.",
+      "Unions are independent of employers and of government, although they can work with both."
+    ] },
+    { "h": "Functions of trade unions", "points": [
+      "Collective bargaining: the union negotiates pay, hours and conditions on behalf of members with an employer or employer body.",
+      "Representation: the union represents members at grievance, disciplinary and dismissal hearings, and can take cases to the WRC or the Labour Court.",
+      "Advice and information: members receive advice on their rights, contracts and workplace problems, often with access to legal support.",
+      "Protecting jobs: unions negotiate redundancy terms and work to protect employment during restructuring.",
+      "Lobbying: unions argue for stronger employment laws and social policies, such as minimum wage increases and tougher safety rules."
+    ] },
+    { "h": "Shop stewards, ICTU and types of union", "points": [
+      "A shop steward is a union member elected in a workplace to act as the link between members and management, and to deal with early problems.",
+      "The Irish Congress of Trade Unions (ICTU) is the federation of most Irish trade unions, and speaks for workers at national level.",
+      "Craft unions represent skilled tradespeople, general unions recruit across many sectors, industrial unions organise one industry, and white-collar unions represent professional and clerical staff."
+    ] },
+    { "h": "The gig economy", "b": "The gig economy is a labour market of short-term, flexible work, often arranged and paid through digital platforms.", "points": [
+      "Gig workers are typically paid per task, per job or per piece rather than by a fixed salary.",
+      "Examples include food and parcel delivery riders, ride-hailing drivers, and freelancers who take on tasks through online marketplaces.",
+      "Platforms often describe gig workers as self-employed contractors, which can mean they are denied employee rights."
+    ] },
+    { "h": "Opportunities for gig workers", "points": [
+      "Flexibility: workers choose when and how much to work, which suits students, carers and people with other commitments.",
+      "Extra income: gig work can supplement a main job or a pension.",
+      "Low barriers to entry: people with a limited work history can start quickly, without a formal recruitment process.",
+      "Skills and portfolio: freelancers can build a portfolio of completed work and develop digital skills."
+    ] },
+    { "h": "Challenges for gig workers", "points": [
+      "Insecure income: pay depends on platform demand and automated allocation, so earnings are unpredictable.",
+      "Missing entitlements: in many cases gig workers have no sick pay, holiday pay, pension contributions or redundancy protection.",
+      "Employment-status disputes: workers may argue they are employees under employment law, while platforms insist they are contractors.",
+      "Piece-rate pay can mean low effective hourly earnings when unpaid waiting time between jobs is not counted.",
+      "Algorithmic management: ratings, automated allocation and deactivation can control work, often with little explanation or right of appeal.",
+      "Weak collective bargaining: workers are spread out and rarely meet in one workplace, which makes organising difficult.",
+      "Health and safety: delivery riders and drivers face road risks with less employer oversight of safety."
+    ] },
+    { "h": "Law and developments", "points": [
+      "Under Irish law, the key question is whether a worker is an employee or self-employed, which is decided by looking at factors such as control over the work and integration into the business.",
+      "The EU Platform Work Directive aims to improve working conditions for people who work through digital platforms.",
+      "The directive includes a presumption that a platform worker is an employee where facts indicate control, and rules on transparency of algorithmic management.",
+      "EU directives must be transposed into national law, so Irish legislation will decide how these rules apply here.",
+      "Unions in Ireland have campaigned for gig workers to receive employee protections and access to collective bargaining."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Trade union", "definition": "An organisation of workers that negotiates for and represents its members on pay and working conditions." },
+    { "term": "Collective bargaining", "definition": "Negotiation between a union and an employer over pay and conditions for a group of workers, rather than for one person." },
+    { "term": "Shop steward", "definition": "A union member elected in a workplace to represent colleagues and link them with management." },
+    { "term": "Irish Congress of Trade Unions (ICTU)", "definition": "The federation representing most Irish trade unions, which speaks for workers at national level." },
+    { "term": "Gig economy", "definition": "A labour market of short-term, flexible jobs, often organised through digital platforms and paid per task." },
+    { "term": "Platform worker", "definition": "A person who performs work through a digital platform that allocates or manages the tasks." },
+    { "term": "Piece rate", "definition": "Pay calculated by the amount of work completed, such as per delivery, rather than by time worked." },
+    { "term": "Algorithmic management", "definition": "The use of software to allocate, monitor, rate and sometimes deactivate workers automatically." },
+    { "term": "Employment status", "definition": "Whether a worker is legally an employee or self-employed, which determines their rights." }
+  ],
+  "factCards": [
+    { "term": "Ways a union protects members in disputes", "definition": "Representation at grievance, disciplinary and dismissal hearings, and referral of cases to the WRC or the Labour Court." },
+    { "term": "Three challenges for gig workers", "definition": "Insecure income, no sick pay, holiday pay or pension, and disputes over whether they are employees." },
+    { "term": "Four types of union", "definition": "Craft, general, industrial and white-collar." },
+    { "term": "Factors used to test employee status", "definition": "Control over how the work is done, integration into the business, and mutual obligations, among other factors." },
+    { "term": "Purpose of the EU platform rules", "definition": "To improve working conditions for people working through digital platforms, including rules on employment status and algorithmic management." },
+    { "term": "Benefits of gig work", "definition": "Flexibility, extra income, easy entry, and building a portfolio of skills." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Describe what is meant by the gig economy and outline three difficulties that gig workers face.", "model": "The gig economy is a labour market of short-term, flexible work, often arranged through digital platforms and paid per task rather than by salary. Three difficulties are insecure income, because pay depends on platform demand and automated allocation; missing entitlements, such as sick pay, holiday pay and pension contributions, which many gig workers do not receive; and disputes over employment status, because platforms usually describe workers as self-employed contractors, which can deny them employee rights." },
+    { "marks": 20, "prompt": "Explain the role of a trade union in supporting employees, and assess how effective a union can be for workers in the gig economy.", "model": "A trade union supports employees through collective bargaining, negotiating pay and conditions for members, which gives individuals more strength than they would have alone. It also represents members at grievance, disciplinary and dismissal hearings, provides advice on rights, and lobbies government for stronger employment laws. In the gig economy, the union's effectiveness is limited, because workers are spread across many platforms, rarely meet in one workplace, and are often classed as self-employed, which places them outside traditional collective bargaining. Unions can still help by campaigning on employment status, representing individual workers in disputes, and pushing for the protections in EU platform work rules." },
+    { "marks": 10, "prompt": "Outline two functions of a trade union.", "model": "One function is collective bargaining, in which the union negotiates pay, hours and conditions on behalf of its members. A second function is representation, in which the union supports members at grievance, disciplinary and dismissal hearings and can take cases to the WRC or the Labour Court." }
+  ]
+}

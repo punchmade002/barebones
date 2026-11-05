@@ -7,28 +7,9 @@
 window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
 [
   {
-    "id": "pe-pp-2024-OR-sectiona-learningskilltechnique-Q1",
-    "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Ordinary 2024 — Q1",
-    "year": 2024,
-    "parts": [
-      {
-        "label": "",
-        "question": "In a named physical activity of your choice, outline two ways technology has impacted on coaches.",
-        "marks": 8,
-        "model": "Named physical activity: Gaelic football.\n1. Video and performance analysis. Coaches now record every match and training session and use software to review clips and statistics — possession, tackle counts, shot locations. This means feedback is based on evidence rather than memory, faults can be shown to the player rather than described, and the opposition can be analysed in detail before a game.\n2. GPS and heart rate monitoring. Players wear units that record distance covered, sprint counts and workload. The coach can see exactly what each player did in training and match play, so training load can be matched to the individual, fatigue can be spotted before it causes injury, and returning players can be reintroduced safely.",
-        "diagram": "exam-images/pe/2024-OL-fig1.png",
-        "source_page": 3,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "pe-pp-2024-OR-sectiona-businessenterprisesport-Q2",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2024 — Q2",
     "year": 2024,
@@ -75,7 +56,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectiona-learningskilltechnique-Q5",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2024 — Q5",
     "year": 2024,
@@ -115,25 +96,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Weakness exploited: the slow centre-back. Strategy: play a direct, early ball into the space behind the defence for a fast forward to run onto, rather than playing to feet in front of the defenders. The forward starts from a position level with or just behind the defender's shoulder and times the run as the pass is played, so the defender must turn and sprint from a standing start — the situation the slow defender is least able to deal with. Wide players push high and stay wide to stretch the back line and create the gaps to run into, and the midfielder in possession is instructed to look for that pass first. If the defence drops deeper to protect against the run, the space in front of them opens up instead, which gives a second option.",
         "diagram": "",
         "source_page": 7,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "pe-pp-2024-OR-sectiona-technologymediasport-Q8",
-    "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Ordinary 2024 — Q8",
-    "year": 2024,
-    "parts": [
-      {
-        "label": "",
-        "question": "Outline two characteristics of a named physical activity that could give it media or spectator appeal.",
-        "marks": 8,
-        "model": "Named physical activity: hurling.\n1. Speed and skill level of play. The ball travels at high velocity and the striking, catching and first-touch skills performed at that speed are spectacular and difficult to replicate, which makes the game compelling to watch live and on television.\n2. Tradition, identity and rivalry. County and club allegiances are inherited and rooted in place, so fixtures carry meaning beyond the result. This produces committed, reliable audiences, a strong atmosphere at big championship games, and rivalries that the media can build coverage around year after year.",
-        "diagram": "",
-        "source_page": 8,
         "model_source": "scheme"
       }
     ]
@@ -361,29 +323,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectionc-learningskilltechnique-Q15",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q15",
     "year": 2024,
     "parts": [
-      {
-        "label": "(a) (i)",
-        "question": "List two positive and two negative impacts the media has on spectators.",
-        "marks": 8,
-        "model": "Positive 1: it makes sport accessible to far more spectators, who can follow teams and events they could never attend in person.\nPositive 2: it increases understanding and enjoyment through replays, analysis, statistics and expert commentary, and it creates role models and a shared national occasion.\nNegative 1: it can encourage passive spectating rather than participation, and it promotes gambling, alcohol and unhealthy food to the audience through advertising and sponsorship.\nNegative 2: it distorts the sport for spectators — fixtures moved to suit broadcasters rather than crowds, matches placed behind paywalls, and coverage focused on a few sports and a few teams while others are ignored.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
-      },
-      {
-        "label": "(a) (ii)",
-        "question": "Describe one positive and one negative impact the media has on spectators listed by you in Question 15 (a) (i).",
-        "marks": 8,
-        "model": "Positive: increased understanding and enjoyment. Broadcast coverage gives spectators multiple camera angles, slow-motion replay, referee microphones, tactical analysis and live statistics, so a viewer can see and understand what happened in a way that is impossible from a seat in the stand. This makes technically complex sports accessible to newcomers, deepens the knowledge of committed followers, and lets people follow analysis and highlights on a second screen while watching. It also builds the profile of athletes into role models whom young spectators want to emulate.\nNegative: the sport is reshaped to suit broadcasters rather than spectators. Because television revenue is now central to the finances of most major sports, fixtures are scheduled at times that suit broadcast markets rather than the people attending — late kick-offs, matches moved at short notice, and games spread across a weekend — which increases the cost and difficulty of attending in person. Much coverage sits behind paywalls, so spectators who cannot afford a subscription lose access to their own sport. Coverage also concentrates on a small number of sports and a small number of successful teams, so other sports and women's competition receive very little, which limits the audience they can build.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
-      },
       {
         "label": "(b)",
         "question": "During the camogie match the coach yells “Lily get into space”. Lily looks up into the space in the sky. The coach shakes their head in disbelief.\nDescribe two desirable interpersonal skills of a coach or choreographer.",
@@ -392,31 +336,35 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "diagram": "",
         "source_page": 21,
         "model_source": "scheme"
+      }
+    ],
+    "omittedParts": [
+      {
+        "label": "(a) (i)",
+        "marks": 8,
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
+      },
+      {
+        "label": "(a) (ii)",
+        "marks": 8,
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(c) (i)",
-        "question": "Describe one advantage and one disadvantage of a newly developed technology for officials in a named physical activity of your choice.\nA running blade is a prosthetic leg that transfers energy created by the runner on to the track. It consists of a customised socket that fits the athlete's stump, a knee joint and a carbon fibre running blade.",
         "marks": 8,
-        "model": "Named physical activity: soccer. Technology: goal-line technology and video assistant referee (VAR).\nAdvantage: it substantially increases the accuracy of decisions that determine the result. Goal-line technology gives the referee an instant, objective signal on whether the ball crossed the line, removing a category of error entirely, and video review allows clear and obvious mistakes on goals, penalties and red cards to be corrected. This protects the official from being blamed for decisions no human could reliably make in real time, and it reduces the incentive for gamesmanship, since simulation is more likely to be detected.\nDisadvantage: it interrupts the flow of the game and shifts pressure onto the official in a new way. Reviews take time, celebrations are suspended while decisions are checked, and the spectator experience in the stadium suffers because those present often cannot see what is being reviewed. Subjective decisions remain subjective even with replay, so controversy is displaced rather than removed, and referees now face criticism both for the original decision and for the review. The cost also means the technology is available only at the highest levels, creating an inconsistency between elite and grassroots officiating.",
-        "diagram": "exam-images/pe/2024-OL-fig14.png",
-        "source_page": 21,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(c) (ii)",
-        "question": "Explain how technology can benefit performers.",
         "marks": 8,
-        "model": "Technology benefits performers in several ways. Video and performance analysis allows a performer to see their own technique frame by frame and compare it with a model performer or with their own earlier performance, so a fault can be shown rather than described — feedback becomes precise and immediate rather than a coach's recollection days later. Notational analysis turns performance into countable data, so a player can see where their shots come from or how their work rate changes across a match, and target training accordingly. GPS and heart rate monitoring show exactly what workload a performer has completed, which allows training to be individualised, fatigue to be identified before it causes injury, and an injured athlete to be returned to full training safely and at the right time. Equipment technology improves performance and safety directly: better footwear and prosthetics such as running blades, lighter and stronger equipment, and improved protective gear. Medical and recovery technology — imaging, physiotherapy equipment, monitoring of sleep and recovery — speeds return from injury and reduces recurrence. Finally, communication technology gives performers access to coaching, training plans and analysis remotely, so an athlete no longer has to live near their coach. The main limitations are cost, which widens the gap between well-resourced and poorly resourced athletes, and the risk of relying on data instead of judgement.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       }
     ]
   },
   {
     "id": "pe-pp-2024-OR-sectionc-performancedemands-Q16",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q16",
     "year": 2024,
@@ -562,7 +510,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectionc-performancedemands-Q18",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q18",
     "year": 2024,
@@ -635,7 +583,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionb-structuresstrategiesrolesconventions-Q13",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2023 — Q13",
     "year": 2023,
@@ -690,7 +638,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q1",
     "year": 2023,
@@ -737,7 +685,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-physicalactivityinclusion-Q3",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q3",
     "year": 2023,
@@ -765,7 +713,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q4",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q4",
     "year": 2023,
@@ -793,7 +741,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q5",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q5",
     "year": 2023,
@@ -812,7 +760,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q6",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q6",
     "year": 2023,
@@ -831,7 +779,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q7",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q7",
     "year": 2023,
@@ -887,7 +835,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q9",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q9",
     "year": 2023,
@@ -925,7 +873,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-promotingphysicalactivity-Q11",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q11",
     "year": 2023,
@@ -944,7 +892,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-promotingphysicalactivity-Q12",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q12",
     "year": 2023,
@@ -972,7 +920,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-learningskilltechnique-Q14",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q14",
     "year": 2023,
@@ -1036,7 +984,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q15",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q15",
     "year": 2023,
@@ -1118,7 +1066,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q16",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q16",
     "year": 2023,
@@ -1164,7 +1112,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q17",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q17",
     "year": 2023,
@@ -1228,7 +1176,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-ethicsfairplay-Q18",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q18",
     "year": 2023,
@@ -1301,7 +1249,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionb-structuresstrategiesrolesconventions-Q13",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Ordinary 2023 — Q13",
     "year": 2023,
@@ -1477,7 +1425,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2023 — Q8",
     "year": 2023,
@@ -1515,7 +1463,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectiona-businessenterprisesport-Q11",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2023 — Q11",
     "year": 2023,
@@ -1598,7 +1546,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionc-promotingphysicalactivity-Q15",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2023 — Q15",
     "year": 2023,
@@ -1781,7 +1729,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2023 — Q18",
     "year": 2023,
@@ -1854,7 +1802,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q1",
     "year": 2025,
@@ -1873,7 +1821,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-learningskilltechnique-Q2",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q2",
     "year": 2025,
@@ -1892,7 +1840,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-technologymediasport-Q3",
     "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q3",
     "year": 2025,
@@ -1920,7 +1868,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-ethicsfairplay-Q4",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q4",
     "year": 2025,
@@ -1974,37 +1922,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "pe-pp-2025-HI-sectiona-physicalactivityinclusion-Q7",
-    "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Higher 2025 — Q7",
-    "year": 2025,
-    "parts": [
-      {
-        "label": "(a)",
-        "question": "Physical Activity) study. Figure 3 is a targeted Sport Ireland initiative developed with Local Sports Partnerships.\nExplain ‘adapted physical activity’.",
-        "marks": 4,
-        "model": "Adapted physical activity is the practice of modifying activities, equipment, rules, environments and teaching methods so that people with a disability or other individual need can take part meaningfully, alongside or in parallel with their peers. It is based on inclusion rather than separation: the activity is changed to suit the participant rather than the participant being excluded for not suiting the activity — for example using a bell ball for a visually impaired player, allowing an extra bounce, or playing a seated version of a game.",
-        "diagram": "",
-        "source_page": 8,
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)",
-        "question": "Outline two ways that a school or community can provide for adapted physical activity.\nTick the box to indicate which context you are answering in - school or community.\nSchool ☐ Community ☐",
-        "marks": 4,
-        "model": "Context: School.\n1. Invest in adapted equipment and staff training. The school buys the equipment adapted activity requires — bell balls, sitting-volleyball nets, boccia sets, sports wheelchairs — and releases PE staff for continuing professional development delivered by CARA or a national governing body. Teacher confidence rather than willingness is usually the limiting factor, and equipment plus training means adapted versions of existing units can be taught to whole classes.\n2. Build inclusion into the timetable and the extracurricular programme. Rather than treating adapted activity as separate provision for a few pupils, the school teaches a unit of inclusive games to every class so all pupils learn the adapted versions together, and runs an inclusive lunchtime or after-school club with equipment and any needed support provided. This normalises participation, gives the pupil with a disability teammates rather than an assistant, and removes the transport and cost barriers that a specialist external club would present.",
-        "diagram": "",
-        "source_page": 8,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "pe-pp-2025-HI-sectiona-learningskilltechnique-Q8",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q8",
     "year": 2025,
@@ -2069,7 +1989,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-structuresstrategiesrolesconventions-Q10",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q10",
     "year": 2025,
@@ -2144,7 +2064,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionb-ethicsfairplay-Q13",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2025 — Q13",
     "year": 2025,
@@ -2244,7 +2164,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionc-ethicsfairplay-Q14",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q14",
     "year": 2025,
@@ -2268,15 +2188,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model_source": "scheme"
       },
       {
-        "label": "(b) (i)",
-        "question": "Define one of the following terms:\nDiscrimination Stereotyping Inclusiveness Prejudice Tick the box to indicate which term you are defining.\nDiscrimination ☐ Stereotyping ☐ Inclusiveness ☐ Prejudice ☐",
-        "marks": 6,
-        "model": "Term: Discrimination. Discrimination is treating a person or group less favourably than others because of a characteristic such as their sex, disability, ethnicity, religion, age or socio-economic background, rather than on the basis of their ability or conduct. In sport it may be direct — refusing a person entry to a club, or excluding them from selection because of who they are — or indirect, where a rule or practice that appears neutral has the effect of excluding a particular group, such as a compulsory kit that conflicts with religious dress, or training times that no one without a car can reach.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
-      },
-      {
         "label": "(b) (ii)",
         "question": "Explain the concept of sportsmanship related to its influence on engagement in physical activity and sport.",
         "marks": 6,
@@ -2284,31 +2195,30 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "diagram": "",
         "source_page": 21,
         "model_source": "scheme"
+      }
+    ],
+    "omittedParts": [
+      {
+        "label": "(b) (i)",
+        "marks": 6,
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(c)",
-        "question": "Discuss two developments in physical activity and sport, since 2005, for one of the following groups:\n• Women\n• People with intellectual disability\n• Older Adults\n• Different ethnic groups\n• People with physical disability\n• Different socio-economic groups",
         "marks": 6,
-        "model": "Group: Women.\n1. The growth and professionalisation of elite women's competition, and its broadcast. Since 2005 there has been a substantial change in the visibility of women's sport: leagues and championships that were barely reported are now broadcast live, All-Ireland finals in camogie and ladies' football attract record attendances at Croke Park, and international soccer and rugby fixtures are shown on main channels. This has been accompanied by a move towards professional and semi-professional terms, and by decisions such as the FAI's equal pay agreement for the senior international squads. The effect is not only on the elite athletes but on participation: girls who see women's competition treated as significant are far more likely to join a club, and sponsors and funders follow the audience, so money reaches the sport that previously did not.\n2. Targeted participation programmes and the removal of practical barriers. Local Sports Partnerships, national governing bodies and campaigns such as 20x20 and This Girl Can have run programmes aimed specifically at the groups least likely to be active, using women-only sessions, beginner-level entry points, crèche provision, sessions timed around school and work, and low-cost activities such as walking groups and parkrun. Governing bodies have also relaxed kit requirements — permitting leggings and long-sleeved tops, approving the sports hijab, and allowing teams to choose shorts instead of skirts — which addressed a barrier that had excluded some women entirely. The rise in female participation following these changes indicates that the earlier gap reflected provision rather than interest.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(d)",
-        "question": "Examine how advances in technology have impacted performers.\nSupport your answer with physical activity examples.",
         "marks": 10,
-        "model": "Advances in technology have changed almost every aspect of a performer's preparation, competition and recovery.\nIn analysis, video and notational systems allow a performer to see their own technique frame by frame and compare it against a model performer or their own earlier performance, so feedback is precise and evidence-based rather than a coach's recollection. A swimmer reviewing underwater footage can see the hips dropping on the breath, which no verbal description would convey. Notational analysis turns performance into countable data — a basketball player's shooting percentage by court zone, a hurler's possession and turnover counts — so training can be targeted at a real weakness.\nIn training and monitoring, GPS and accelerometer units, heart rate monitors and force plates record what the performer actually did rather than what was planned. This allows load to be individualised, fatigue and asymmetry to be identified before they cause injury, and an injured athlete to be returned to full training at the right time rather than by guesswork.\nIn equipment, technology has changed performance directly: lighter and stiffer footwear and running blades, carbon-plated shoes, aerodynamic clothing and cycling equipment, better hurleys, rackets and javelins, and improved protective gear such as modern gum shields and helmets. Some of these gains have been large enough to require governing bodies to regulate the equipment, as happened with polyurethane swimsuits.\nIn medicine and recovery, imaging, surgical technique, physiotherapy equipment and sleep and recovery monitoring have shortened return-to-play times and reduced recurrence, extending careers.\nIn officiating and competition, goal-line technology, VAR, Hawk-Eye and electronic timing have made outcomes more accurate, which affects performers directly because decisions determine results.\nThe drawbacks are real. Cost creates inequality between well-resourced and poorly resourced athletes and clubs, so technology can widen rather than narrow performance gaps. There is a risk of over-reliance, with performers deferring to a number rather than to how they feel, and of anxiety generated by constant measurement. Data is also not analysis: without someone able to identify which measurements relate to performance, it produces volume rather than insight. Used well, technology supports expert judgement; used badly, it substitutes for it.",
-        "diagram": "",
-        "source_page": 21,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       }
     ]
   },
   {
     "id": "pe-pp-2025-HI-sectionc-learningskilltechnique-Q15",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q15",
     "year": 2025,
@@ -2427,7 +2337,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionc-physicalactivityinclusion-Q17",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q17",
     "year": 2025,
@@ -2621,7 +2531,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-learningskilltechnique-Q4",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q4",
     "year": 2022,
@@ -2638,28 +2548,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "pe-pp-2022-HI-sectiona-physicalactivityinclusion-Q5",
-    "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Higher 2022 — Q5",
-    "year": 2022,
-    "parts": [
-      {
-        "label": "",
-        "question": "The last year has shown us what can be achieved or made possible if people give those asking for a chance their opportunity.\nDescribe how two developments over the past 20 years have enhanced opportunities for physical activity participation for one of the following groups:\n• Women\n• People with intellectual disability\n• Older Adults\n• Different ethnic groups\n• People with physical disability\n• Different socio‐economic groups.\nGroup",
-        "marks": 8,
-        "model": "Group: People with physical disability. (1) The growth of dedicated national programmes and clubs — for example Irish Wheelchair Association Sport and Paralympics Ireland pathways — has created structured competition from club to international level, so participants now have somewhere to progress to rather than one-off taster sessions. (2) Universal-design facilities and adapted equipment: new public leisure centres are built with level access, hoists and accessible changing places, and sport-specific chairs, hand-cycles and audio balls are far more widely available, removing the physical and equipment barriers that previously stopped participation.",
-        "diagram": "exam-images/pe/2022-HL-fig3.png",
-        "source_page": 7,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "pe-pp-2022-HI-sectiona-structuresstrategiesrolesconventions-Q6",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q6",
     "year": 2022,
@@ -2678,7 +2569,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-artisticaestheticmovement-Q7",
     "subject": "pe",
-    "chapterId": "pe-artistic-aesthetic-movement",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q7",
     "year": 2022,
@@ -2706,7 +2597,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-athletics-Q8",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q8",
     "year": 2022,
@@ -2818,7 +2709,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-businessenterprisesport-Q12",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q12",
     "year": 2022,
@@ -2855,7 +2746,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2022 — Q13",
     "year": 2022,
@@ -2928,7 +2819,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-physicalactivityinclusion-Q14",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q14",
     "year": 2022,
@@ -3129,7 +3020,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-promotingphysicalactivity-Q17",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q17",
     "year": 2022,
@@ -3202,7 +3093,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q18",
     "year": 2022,
@@ -3284,7 +3175,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q1",
     "year": 2025,
@@ -3303,7 +3194,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-technologymediasport-Q3",
     "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q3",
     "year": 2025,
@@ -3339,37 +3230,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "pe-pp-2025-OR-sectiona-ethicsfairplay-Q7",
-    "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Ordinary 2025 — Q7",
-    "year": 2025,
-    "parts": [
-      {
-        "label": "(a)",
-        "question": "South American soccer players are seen as passionate, skilful and flair-oriented but sometimes lack discipline. European players are tactical, team-oriented and more disciplined.\nIs the statement above an example of discrimination, prejudice, stereotyping or inclusion?",
-        "marks": 2,
-        "model": "Stereotyping (which may also be described as prejudice).",
-        "diagram": "",
-        "source_page": 6,
-        "model_source": "scheme"
-      },
-      {
-        "label": "(b)",
-        "question": "Explain your answer.",
-        "marks": 6,
-        "model": "It is stereotyping because it assigns a fixed set of characteristics to every player from a whole continent purely on the basis of where they come from, rather than judging each player on their own ability and behaviour. A stereotype is an over-generalised belief about a group, and this statement is exactly that: it assumes all South American players are flair-oriented and undisciplined and all European players are tactical and disciplined, when in reality both groups contain players of every style. It is prejudice as well, because the judgements are made in advance of any evidence about the individual, and one of them — 'lack discipline' — is negative.\nThe consequences matter in sport. Stereotypes of this kind influence scouting and selection, so a player may be signed or overlooked because of assumptions about their nationality rather than their performance. They shape how commentators describe players, which reinforces the belief for the audience — the same action being called 'flair' in one player and 'indiscipline' in another. They also affect how officials and opponents anticipate a player's behaviour. Because the stereotype is about ethnicity and national origin, acting on it in selection or treatment would amount to discrimination.",
-        "diagram": "",
-        "source_page": 6,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "pe-pp-2025-OR-sectiona-learningskilltechnique-Q9",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q9",
     "year": 2025,
@@ -3397,7 +3260,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-learningskilltechnique-Q11",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q11",
     "year": 2025,
@@ -3409,25 +3272,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "1. Clear verbal communication. Speaking in a firm, audible voice, using short and specific instructions in language the players understand, and giving the same message consistently to both teams. This prevents confusion and stops disputes developing from decisions that were not explained.\n2. Body language and positioning. Standing upright and moving decisively, making eye contact when speaking to a player or captain, and being close enough to the incident that the players can see the official had a clear view. Confident body language conveys authority, whereas hesitancy invites dissent.\n3. Active listening. Allowing a captain to state a point briefly, showing that it has been heard, and then giving a clear response before moving on. This defuses confrontation, because most dissent comes from players feeling they have been ignored rather than from the decision itself.",
         "diagram": "exam-images/pe/2025-OL-fig2.png",
         "source_page": 8,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "pe-pp-2025-OR-sectiona-physicalactivityinclusion-Q12",
-    "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Ordinary 2025 — Q12",
-    "year": 2025,
-    "parts": [
-      {
-        "label": "",
-        "question": "the session.\nName and explain two different types of technology and how a coach might use them in training.",
-        "marks": 8,
-        "model": "1. Video analysis. Recording sessions and matches, then reviewing them with software that allows slow motion and frame-by-frame comparison. A coach uses this to show a player their own technique rather than describing it — freezing the moment of ball contact to show that the head has lifted — and to compare the player's action with a model performer. It is also used tactically, clipping every instance of a defensive fault and showing it in sequence, and to analyse the opposition before a fixture. Because the player can see the fault themselves, the feedback is far more likely to be accepted and acted on.\n2. GPS and heart rate monitoring. Players wear small units that record distance covered, speed zones, accelerations and heart rate. The coach uses this to see exactly what workload each player completed, so training can be individualised rather than identical for the whole squad, so accumulating fatigue can be spotted before it causes injury, and so a player returning from injury can be brought back to full training gradually and on evidence rather than guesswork.",
-        "diagram": "exam-images/pe/2025-OL-fig3.png",
-        "source_page": 9,
         "model_source": "scheme"
       }
     ]
@@ -3526,7 +3370,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-structuresstrategiesrolesconventions-Q14",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q14",
     "year": 2025,
@@ -3608,7 +3452,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-physicalactivityinclusion-Q15",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q15",
     "year": 2025,
@@ -3630,31 +3474,25 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "diagram": "",
         "source_page": 19,
         "model_source": "scheme"
-      },
+      }
+    ],
+    "omittedParts": [
       {
         "label": "(c) (i)",
-        "question": "Olympic Games.\nOn the timeline below, identify three major developments that have occurred in the last 20 years for one of the following groups:\n• Women\n• Older Adults\n• People with physical disability\n• People with intellectual disability\n• Different ethnic groups\n• Different socio-economic groups 2005 2025",
         "marks": 10,
-        "model": "Group: Women.\n1. 2007 — steady growth in national funding and programmes targeted at increasing female participation through Local Sports Partnerships and national governing bodies, with women-only beginner sessions and community programmes becoming widespread.\n2. 2018–2019 — the 20x20 campaign, aiming for a 20% increase in media coverage, female participation and attendance at women's events by 2020, together with a large rise in broadcast coverage of women's Gaelic games, soccer and rugby.\n3. 2021 — the FAI agreement to pay the senior women's and men's international soccer squads equally, followed by the Republic of Ireland women's team qualifying for a World Cup finals for the first time in 2022.",
-        "diagram": "exam-images/pe/2025-OL-fig8.png",
-        "source_page": 19,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(c) (ii)",
-        "question": "Describe one of the developments you identified in Question 15 (c) (i) and outline the impact it has had for the group you have chosen.",
         "marks": 10,
-        "model": "Development: the 20x20 campaign and the associated increase in broadcast coverage of women's sport.\nDescription: 20x20 was a national campaign launched in 2018 with the stated targets of a 20% increase in media coverage of women in sport, a 20% increase in female participation, and a 20% increase in attendance at women's events by the end of 2020. It worked by changing what people saw: it secured coverage of women's fixtures on main television channels and in the main sports pages rather than in a separate section, it promoted female athletes as recognisable public figures, and it used the slogan 'If she can't see it, she can't be it' to make the connection between visibility and participation explicit.\nImpact: attendance and viewing figures for women's competition rose sharply — All-Ireland finals in camogie and ladies' football attracted record crowds, and women's international soccer and rugby fixtures moved to main broadcast slots. Sponsorship followed the audience, bringing money into competitions that had previously been funded almost entirely by volunteers, which in turn improved facilities, coaching and playing conditions. Club membership among girls and women increased, because girls could now see a pathway and role models they identified with. The campaign also changed expectations: coverage of women's sport that would once have been treated as optional is now expected, and decisions such as equal pay for the international soccer squads followed in a context where the women's game had a visible public profile. The gap has not closed — women's sport still receives a minority of total coverage — but the direction and the mechanism are now established.",
-        "diagram": "",
-        "source_page": 19,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       }
     ]
   },
   {
     "id": "pe-pp-2025-OR-sectionc-physicalactivityinclusion-Q16",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q16",
     "year": 2025,
@@ -3727,7 +3565,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-physicalactivityinclusion-Q17",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q17",
     "year": 2025,
@@ -3809,7 +3647,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-ethicsfairplay-Q18",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q18",
     "year": 2025,
@@ -3864,7 +3702,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-learningskilltechnique-Q1",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q1",
     "year": 2026,
@@ -3913,25 +3751,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "1. Extracurricular programmes — school teams, leagues, activity clubs, intramural competitions and events such as sports day, which extend participation beyond the timetable and, because they run on the school site straight after school, remove the transport and cost barriers that stop many students joining outside clubs.\n2. Facilities and equipment available to students — a sports hall, pitches, courts and equipment that may be used at break and lunch, with kit and equipment provided by the school so families are not asked to pay.\n3. Staff, sports leaders and club links — teachers who coach voluntarily, senior students trained as sports leaders to run activity for junior classes, and formal links with local clubs and the Local Sports Partnership so students have somewhere to progress to when they leave.",
         "diagram": "",
         "source_page": 4,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "pe-pp-2026-HI-sectiona-technologymediasport-Q3",
-    "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Higher 2026 — Q3",
-    "year": 2026,
-    "parts": [
-      {
-        "label": "",
-        "question": "Describe how media coverage can positively impact spectator behaviour.",
-        "marks": 8,
-        "model": "Media coverage can improve spectator behaviour as well as reflect it. Sustained coverage of sportsmanship makes it visible and admired: when an act of fair play is broadcast and reported widely, it establishes a standard that spectators recognise and applaud, and campaigns run through broadcast partners — respect campaigns, anti-racism initiatives, referee-appreciation weeks — reach the whole audience at once in a way no stadium announcement could.\nCoverage also increases spectators' understanding, and better-informed spectators behave better. Replays, referee microphones, explanation of decisions by an official or an analyst, and access to the same evidence the officials see reduce the sense that a decision was arbitrary, which is what most abuse of officials arises from. Where VAR or Hawk-Eye decisions are shown on a big screen, dissent from the crowd typically falls once the evidence is visible.\nMedia coverage gives spectators positive models to copy. Broadcasting players shaking hands with opponents, applauding an injured player leaving the field, or a manager accepting a decision presents that conduct as normal. It also gives clubs and governing bodies a channel to communicate expectations directly to supporters before and during events.\nFinally, coverage makes poor behaviour highly visible and therefore accountable: incidents of racist abuse or crowd trouble are recorded, broadcast and prosecuted, and the knowledge that behaviour is filmed and identifiable deters it. Coverage of women's sport and of adapted sport also broadens the audience and changes its composition, and more mixed, family-oriented crowds are associated with better behaviour.",
-        "diagram": "exam-images/pe/2026-HL-fig2.png",
-        "source_page": 5,
         "model_source": "scheme"
       }
     ]
@@ -4014,7 +3833,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-promotingphysicalactivity-Q7",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q7",
     "year": 2026,
@@ -4033,7 +3852,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q8",
     "year": 2026,
@@ -4127,7 +3946,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-ethicsfairplay-Q12",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q12",
     "year": 2026,
@@ -4256,7 +4075,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectionc-promotingphysicalactivity-Q15",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2026 — Q15",
     "year": 2026,
@@ -4412,7 +4231,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectionc-physicalactivityinclusion-Q18",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2026 — Q18",
     "year": 2026,
@@ -4458,7 +4277,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q1",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q1",
     "year": 2026,
@@ -4524,7 +4343,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q6",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q6",
     "year": 2026,
@@ -4562,7 +4381,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q10",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q10",
     "year": 2026,
@@ -4590,7 +4409,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-ethicsfairplay-Q12",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q12",
     "year": 2026,
@@ -4874,7 +4693,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectionc-athletics-Q17",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2026 — Q17",
     "year": 2026,
@@ -4929,7 +4748,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectionc-promotingphysicalactivity-Q18",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2026 — Q18",
     "year": 2026,
@@ -4984,7 +4803,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-promotingphysicalactivity-Q1",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q1",
     "year": 2022,
@@ -5069,7 +4888,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-structuresstrategiesrolesconventions-Q5",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q5",
     "year": 2022,
@@ -5199,7 +5018,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-learningskilltechnique-Q9",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q9",
     "year": 2022,
@@ -5255,7 +5074,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-structuresstrategiesrolesconventions-Q11",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q11",
     "year": 2022,
@@ -5299,28 +5118,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ]
   },
   {
-    "id": "pe-pp-2022-OR-sectiona-physicalactivityinclusion-Q12",
-    "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Ordinary 2022 — Q12",
-    "year": 2022,
-    "parts": [
-      {
-        "label": "",
-        "question": "People with disabilities deserve to have the same opportunities to be active as everyone else. Niamh Daffy, CEO, Cara.\nExplain two ways that coaches can adapt physical activities to make them more inclusive for people with disabilities.",
-        "marks": 8,
-        "model": "1. Adapt the equipment. Using a lighter, larger or slower ball, a ball with a bell in it for a visually impaired participant, shorter or lighter implements, and lower nets or larger targets means the participant can execute the skill successfully. Success is what keeps people taking part, so equipment that matches the participant's strength, reach and vision removes the barrier without changing the nature of the game.\n2. Adapt the rules and the environment. Allowing a second bounce, reducing the size of the playing area, permitting a seated or wheelchair version, giving extra time on the ball or reducing the number of players lowers the speed and physical demand of the activity so that everyone can be involved in play rather than watching it. Adapting the space and rules also lets participants with and without disabilities take part in the same game together, which is the point of inclusion.",
-        "diagram": "exam-images/pe/2022-OL-fig5.png",
-        "source_page": 14,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
     "id": "pe-pp-2022-OR-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Ordinary 2022 — Q13",
     "year": 2022,
@@ -5593,7 +5393,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectionc-businessenterprisesport-Q16",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2022 — Q16",
     "year": 2022,
@@ -5657,7 +5457,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectionc-physicalactivityinclusion-Q17",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2022 — Q17",
     "year": 2022,
@@ -5688,49 +5488,35 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "diagram": "",
         "source_page": 33,
         "model_source": "scheme"
-      },
+      }
+    ],
+    "omittedParts": [
       {
         "label": "(b)",
-        "question": "Select any one of the groups from the list below. Describe a barrier and a support to participation for your chosen group.\nWomen People with intellectual disability Older adults Different ethnic groups People with physical disability Different socio‐economic groups.\nGroup Barrier Support",
         "marks": 5,
-        "model": "Group: Different socio-economic groups.\nBarrier: Cost. Club membership, kit, equipment, coaching and transport to fixtures all carry a price, and in lower-income households sport competes with essential spending. The result is that children from less well-off families drop out earlier and are under-represented in sports with high equipment or facility costs.\nSupport: Targeted subsidy and provision. Local Sports Partnership and club schemes that waive or reduce membership fees, provide a shared pool of equipment and kit, and run free activity in local parks and schools remove the entry cost. Providing the activity in the school and immediately after school also removes the transport barrier, which is often as significant as the fee itself.",
-        "diagram": "",
-        "source_page": 33,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(c)",
-        "question": "Explain the role that the media could play in promoting the provision of physical activities for one of the following groups.\nYou may not use the same group as used in (b).\nWomen People with intellectual disability Older adults Different ethnic groups People with physical disability Different socio‐economic groups.",
         "marks": 5,
-        "model": "Group: Women. The media shapes provision by shaping demand and visibility. Sustained broadcast and press coverage of women's competition — league matches shown live, results reported in the main sports pages rather than a separate column, and profiles of female athletes — establishes that the sport exists and is worth watching. That visibility has three effects on provision. It gives girls role models they recognise, which increases the number joining clubs and therefore the number of teams that must be provided for. It attracts sponsors and broadcasters, because a measurable audience can be sold, and that money funds facilities, coaching and competitions. And it puts pressure on governing bodies and funders to allocate resources equitably, because under-provision becomes publicly visible once the sport is being reported on. Campaigns such as 20x20 worked in exactly this way. Social media adds a second channel, allowing clubs and athletes to reach an audience directly without depending on editorial decisions made elsewhere.",
-        "diagram": "",
-        "source_page": 33,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(d) (i)",
-        "question": "Identify one example of how a physical activity of your choice could be adapted to include people with disabilities.",
         "marks": 5,
-        "model": "Physical activity: basketball. It can be adapted to wheelchair basketball: the court, basket height and scoring stay the same, but players use sports wheelchairs and the dribbling rule is adapted so a player may push twice between dribbles.",
-        "diagram": "",
-        "source_page": 33,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       },
       {
         "label": "(d) (ii)",
-        "question": "Discuss two ways in which a school could make provisions to increase participation for people with disabilities in Physical Education.",
         "marks": 10,
-        "model": "1. Invest in equipment and staff training. A school can buy the equipment adapted activity needs — bell balls, sitting-volleyball nets, sports wheelchairs, boccia sets — and release PE staff for CPD delivered by CARA or a national governing body. Teacher confidence is usually the limiting factor rather than willingness, and equipment plus training means adapted versions of existing units can be taught to whole classes rather than the pupil being sent to the library.\n2. Build inclusion into the timetable and the extracurricular programme. Rather than treating adapted activity as a separate provision for a few pupils, the school can teach a unit of inclusive games to every class so that all pupils learn the adapted versions together, and run an inclusive lunchtime or after-school club with equipment and any needed support provided. This normalises participation, gives the pupil with a disability teammates rather than an assistant, and means participation does not depend on a family's ability to fund transport or a specialist club.",
-        "diagram": "",
-        "source_page": 33,
-        "model_source": "scheme"
+        "reason": "Topic 7 or 8, not prescribed for June 2027"
       }
     ]
   },
   {
     "id": "pe-pp-2022-OR-sectionc-promotingphysicalactivity-Q18",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2022 — Q18",
     "year": 2022,
@@ -5821,7 +5607,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-artisticaestheticmovement-Q1",
     "subject": "pe",
-    "chapterId": "pe-artistic-aesthetic-movement",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q1",
     "year": 2024,
@@ -5877,7 +5663,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-athletics-Q3",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q3",
     "year": 2024,
@@ -5898,25 +5684,6 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
         "model": "Strategy: goal setting (using specific, measurable, process-focused targets).\nExplanation: setting goals enhances motivation because it converts a vague desire to improve into a defined, achievable target that practice can be directed at. Short-term process goals — 'hold my head position for the full length in every repetition this week' — give each session an obvious purpose, so the athlete knows what a good session looks like rather than simply completing it. Because the goals are measurable, progress is visible, and seeing measurable improvement builds a sense of competence, which is the foundation of intrinsic motivation. Achieving a short-term goal also produces a small success that raises confidence and makes the athlete want to set the next one, creating a cycle. Longer-term outcome goals provide direction and meaning for the short-term ones. Goals must be challenging but realistic and reviewed regularly: targets that are impossible undermine motivation, and goals that are never reviewed stop influencing behaviour.",
         "diagram": "",
         "source_page": 5,
-        "model_source": "scheme"
-      }
-    ]
-  },
-  {
-    "id": "pe-pp-2024-HI-sectiona-technologymediasport-Q4",
-    "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
-    "sectionId": "pe-section-a",
-    "source": "LC Physical Education Higher 2024 — Q4",
-    "year": 2024,
-    "parts": [
-      {
-        "label": "",
-        "question": "According to a recent survey of 10,000 people in nine countries by Capgemini, the French technology consulting company, nearly 70 percent of fans say that new technologies have enhanced their viewing experience.\nDiscuss two advancements in technology that have impacted spectator experience in a named physical activity of your choice.",
-        "marks": 8,
-        "model": "Named physical activity: rugby union.\n1. Officiating technology — the Television Match Official and the use of multi-angle replay. For the spectator this has changed how the game is watched: contentious decisions are shown on the big screen and on broadcast, so the crowd sees the same evidence as the official and hears the referee's reasoning through the microphone. It increases confidence that decisions are correct and adds a distinct moment of drama while the review is carried out. The cost is interruption — the flow of the game is broken and periods of waiting replace play, which some spectators find diminishes the live experience.\n2. Broadcast and data technology — high-definition and ultra-motion cameras, spider-cams, player microphones, GPS-derived data and augmented graphics overlaid on the picture. Spectators now see the collision from three angles in slow motion, hear the referee and the players, and are shown distance covered, tackle counts and territory statistics in real time. This deepens understanding of a technically complex game for the casual viewer, and second-screen and social media coverage lets spectators follow analysis and highlights while watching. It has also raised expectations of the in-stadium experience, which is why grounds have invested in large screens and stadium wifi so that the spectator at the match is not worse informed than the one at home.",
-        "diagram": "",
-        "source_page": 6,
         "model_source": "scheme"
       }
     ]
@@ -5980,7 +5747,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q8",
     "year": 2024,
@@ -6045,7 +5812,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-athletics-Q10",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q10",
     "year": 2024,
@@ -6064,7 +5831,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-performancedemands-Q11",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q11",
     "year": 2024,
@@ -6101,7 +5868,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-learningskilltechnique-Q12",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q12",
     "year": 2024,
@@ -6129,7 +5896,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2024 — Q13",
     "year": 2024,
@@ -6257,7 +6024,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-performancedemands-Q15",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q15",
     "year": 2024,
@@ -6376,7 +6143,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-businessenterprisesport-Q17",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q17",
     "year": 2024,
@@ -6431,7 +6198,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q18",
     "year": 2024,

@@ -24,15 +24,13 @@ test("generated subjects receive connected exam-ready notes without losing deck 
     "pe-content.js",
     "home-economics-exam-questions.js",
     "home-economics-flashcards.js",
-    "geography-exam-questions.js",
-    "geography-flashcards.js",
     "pe-exam-questions.js",
     "pe-flashcards.js",
     "pe-pipeline-content.js",
     "generated-notes-content.js",
   ]);
 
-  for (const subject of ["geography", "home-economics", "pe"]) {
+  for (const subject of ["home-economics", "pe"]) {
     const chapters = context.__courseData.chapters.filter((chapter) => chapter.subject === subject);
     assert.ok(chapters.length > 0, `${subject} should have chapters`);
 
@@ -88,7 +86,6 @@ test("the generated adapter does not replace hand-written Chemistry notes", () =
     "data.js",
     "chemistry-content.js",
     "home-economics-flashcards.js",
-    "geography-flashcards.js",
   ]);
   const before = context.__courseData.chapters
     .filter((chapter) => chapter.subject === "chemistry")
@@ -102,4 +99,31 @@ test("the generated adapter does not replace hand-written Chemistry notes", () =
     .filter((chapter) => chapter.subject === "chemistry")
     .map((chapter) => chapter.learningOutcomes.flatMap((outcome) => outcome.notes || []).length);
   assert.deepEqual(after, before);
+});
+
+test("past-paper notes match eager loading when the exam pack arrives after the adapter", () => {
+  // JSON round-trip: each vm context has its own Array prototype, which deepEqual compares.
+  const notesFor = (context) => JSON.parse(JSON.stringify(context.__courseData.chapters
+    .filter((chapter) => chapter.subject === "home-economics")
+    .map((chapter) => chapter.learningOutcomes.flatMap((outcome) => outcome.notes || []).map((note) => note.h))));
+
+  const eager = load([
+    "data.js",
+    "home-economics-exam-questions.js",
+    "home-economics-flashcards.js",
+    "generated-notes-content.js",
+  ]);
+  const lazy = load([
+    "data.js",
+    "home-economics-flashcards.js",
+    "generated-notes-content.js",
+  ]);
+  const withoutPack = notesFor(lazy);
+  vm.runInContext(fs.readFileSync(path.join(root, "home-economics-exam-questions.js"), "utf8"), lazy);
+  lazy.refreshGeneratedExamBlueprints("home-economics");
+
+  assert.notDeepEqual(withoutPack, notesFor(eager), "the pack should add past-paper blocks");
+  assert.deepEqual(notesFor(lazy), notesFor(eager));
+  lazy.refreshGeneratedExamBlueprints("home-economics");
+  assert.deepEqual(notesFor(lazy), notesFor(eager), "refreshing twice should not duplicate blocks");
 });

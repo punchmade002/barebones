@@ -41,9 +41,9 @@ python3 pipeline/tests/run_tests.py resources
 |---|---:|---:|---:|---|
 | Accounting | 17 | 17 | 2002 | aligned; current syllabus through June 2028 |
 | Art | 36 | 53 | 2023 | aligned; catalogue taxonomy mapped to NCCA strands |
-| Biology | 32 | 53 | 2027 | aligned |
-| Business | 22 | 35 | 2027 | aligned |
-| Chemistry | 15 | 54 | 2027 | aligned |
+| Biology | 32 | 53 | 2027 | aligned; 2025 specification, first examined June 2027 |
+| Business | 22 | 35 | 2027 | aligned; 2025 specification, first examined June 2027 |
+| Chemistry | 15 | 54 | 2027 | aligned; 2025 specification, first examined June 2027 |
 | Computer Science | 21 | 27 | 2025 | aligned to updated specification |
 | DCG | 22 | 153 | 2009 | aligned; repeated catalogue cards de-duplicated |
 | Economics | 16 | 20 | 2021 | aligned |
@@ -53,5 +53,5 @@ python3 pipeline/tests/run_tests.py resources
 | Home Economics | 12 | 32 | 2004 | aligned; Scientific and Social syllabus examined June 2027 |
 | Mathematics | 27 | 156 | 2015 | aligned |
 | Music | 9 | 10 | 1999 | aligned; prescribed works remain cycle-bound |
-| Physical Education | 12 | 25 | 2022 | aligned |
+| Physical Education | 12 | 25 | 2020 | aligned; 2018 specification examined to June 2027; 2027 prescribed Topics 9 and 10 (SEC S51/25) |
 | Politics and Society | 10 | 57 | 2021 | aligned to updated specification |

@@ -1,0 +1,109 @@
+{
+  "loId": "bio19-s6",
+  "chapterId": "bio19",
+  "subsection": "Dopamine and endorphins",
+  "syllabusRef": "2.4.9",
+  "notes": [
+    {
+      "h": "Neurotransmitters, mood and behaviour",
+      "points": [
+        "Neurotransmitters released in the brain affect mood, which is how we feel, and behaviour, which is what we do.",
+        "They do this by changing how groups of neurons signal."
+      ]
+    },
+    {
+      "h": "Dopamine: production",
+      "points": [
+        "Dopamine is a neurotransmitter made by neurons in the brain, from the amino acid tyrosine."
+      ]
+    },
+    {
+      "h": "Dopamine: reward and motivation",
+      "points": [
+        "Dopamine is released when we experience or expect something rewarding, such as food, social contact or achievement.",
+        "It produces feelings of pleasure and satisfaction and reinforces the behaviour, so we are motivated to repeat it."
+      ]
+    },
+    {
+      "h": "Dopamine: movement and learning",
+      "points": [
+        "Dopamine helps control smooth movement and is involved in learning and attention.",
+        "Loss of dopamine-producing neurons causes Parkinson's disease, described in Conduction across the synaptic cleft and its disruption."
+      ]
+    },
+    {
+      "h": "Endorphins",
+      "points": [
+        "Endorphins are peptides produced in the brain, including by the pituitary gland and hypothalamus, in response to pain, stress and physical exertion.",
+        "They bind to opioid receptors and reduce the sensation of pain, so they act as the body's natural painkillers.",
+        "They also produce a feeling of wellbeing and reduce stress."
+      ]
+    },
+    {
+      "h": "Stimulants and the reward pathway (non-medical drug use)",
+      "points": [
+        "Cocaine, which blocks dopamine reuptake as described in Conduction across the synaptic cleft and its disruption, and amphetamines, which increase dopamine release, both flood the reward pathway with dopamine.",
+        "The result is an intense high."
+      ]
+    },
+    {
+      "h": "Other drugs: nicotine, alcohol and opioids",
+      "points": [
+        "Nicotine and alcohol also increase dopamine release in the reward pathway.",
+        "Heroin and other opioids bind to endorphin (opioid) receptors, producing pain relief and euphoria."
+      ]
+    },
+    {
+      "h": "Tolerance and dependence",
+      "points": [
+        "With repeated drug use the brain adapts, for example by reducing the number of dopamine receptors.",
+        "More drug is then needed for the same effect; this is tolerance.",
+        "Normal rewards feel less pleasurable, and stopping causes low mood and cravings; this is dependence and withdrawal.",
+        "This is how addiction develops."
+      ]
+    },
+    {
+      "h": "Exercise",
+      "points": [
+        "Sustained exercise raises endorphin levels and increases dopamine signalling.",
+        "This improves mood, reduces stress and anxiety, and reduces the perception of pain during exertion."
+      ]
+    },
+    {
+      "h": "Diet",
+      "points": [
+        "Foods high in sugar and fat trigger dopamine release in the reward pathway, which can drive overeating.",
+        "A diet with enough protein supplies tyrosine, the amino acid that dopamine is made from."
+      ]
+    },
+    {
+      "h": "Weighing benefits and risks",
+      "points": [
+        "Exercise and social contact raise these neurotransmitters in ways that support long-term wellbeing.",
+        "Drugs raise them far above normal levels, and the brain adapts in ways that cause dependence.",
+        "Mood and behaviour depend on many factors, not on one neurotransmitter."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Dopamine", "definition": "A neurotransmitter, made from tyrosine, that is involved in reward, motivation, smooth movement, learning and attention." },
+    { "term": "Endorphin", "definition": "A peptide neurotransmitter, produced in the brain in response to pain, stress and exertion, that reduces pain and produces wellbeing." },
+    { "term": "Opioid receptor", "definition": "A receptor that endorphins bind to in order to reduce the sensation of pain." },
+    { "term": "Reward pathway", "definition": "The brain pathway in which dopamine is released by rewarding experiences, reinforcing behaviour." },
+    { "term": "Tyrosine", "definition": "The amino acid from which dopamine is made." },
+    { "term": "Tolerance", "definition": "The need for more of a drug to produce the same effect, as the brain adapts to repeated use." },
+    { "term": "Dependence", "definition": "A state in which the brain adapts to a drug, so stopping it causes low mood and cravings." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State one function of dopamine and one function of endorphins in the human body.",
+      "model": "Dopamine: it is released when we experience or expect something rewarding, producing feelings of pleasure and satisfaction that reinforce the behaviour and motivate us to repeat it. Endorphins: they bind to opioid receptors to reduce the sensation of pain, acting as the body's natural painkillers."
+    },
+    {
+      "marks": 15,
+      "prompt": "Discuss the influence of lifestyle choices on dopamine and endorphin levels in the human body.",
+      "model": "Exercise: sustained exercise raises endorphin levels and increases dopamine signalling. This improves mood, reduces stress and anxiety, and reduces the perception of pain during exertion. Drug use: cocaine and amphetamines flood the reward pathway with dopamine, producing an intense high, and nicotine and alcohol also increase dopamine release. Heroin and other opioids bind to endorphin receptors, producing pain relief and euphoria. Repeated drug use makes the brain adapt, for example by reducing the number of dopamine receptors, so more drug is needed for the same effect (tolerance). Normal rewards then feel less pleasurable, and stopping causes low mood and cravings (dependence and withdrawal), which is how addiction develops. Diet: foods high in sugar and fat trigger dopamine release, which can drive overeating, while a diet with enough protein supplies tyrosine, the amino acid dopamine is made from. Conclusion of the discussion: exercise and social contact raise these neurotransmitters in ways that support long-term wellbeing, whereas drugs raise them far above normal levels and cause dependence. Mood and behaviour depend on many factors, not on one neurotransmitter."
+    }
+  ]
+}

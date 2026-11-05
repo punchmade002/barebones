@@ -1,0 +1,821 @@
+/* ── Exam papers: archive and page viewer (paper-archive.js) ── */
+
+:root {
+  --old-course:      #B91C1C;
+  --old-course-bg:   #FEE2E2;
+  --old-course-edge: #FCA5A5;
+  --desk:            #22201C;
+  --desk-2:          #161512;
+  --desk-3:          #2E2B26;
+  --desk-ink:        #EDEBE6;
+  --desk-muted:      #9C988E;
+}
+
+.paper-tag-old {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0.2rem 0.6rem;
+  border: 1.5px solid var(--old-course-edge);
+  border-radius: var(--r-full);
+  background: var(--old-course-bg);
+  color: var(--old-course);
+  font-size: 0.66rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Entry points: the top of the Exam tab, and the subject overview, where it sits
+   above the first chapter at one and a half times a chapter row's height */
+.exam-papers-link.overview-papers-link {
+  min-height: 108px;
+  margin-bottom: 0.4rem;
+  padding: 0.7rem 1rem;
+}
+
+.exam-papers-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 0 0.9rem;
+  padding: 0.85rem 1.15rem;
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--desk);
+  color: var(--desk-ink);
+  text-align: left;
+  transition: background var(--t) var(--ease);
+}
+
+.exam-papers-link strong { display: block; font-size: 0.95rem; font-weight: 700; }
+.exam-papers-link small { display: block; margin-top: 0.1rem; color: var(--desk-muted); font-size: 0.78rem; font-weight: 500; }
+
+.exam-papers-link-arrow {
+  color: var(--accent);
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: transform var(--t) var(--ease);
+}
+
+.exam-papers-link:hover { background: var(--desk-2); }
+.exam-papers-link:hover .exam-papers-link-arrow { transform: translateX(4px); }
+
+/* On the subject view it's the app's orange, like the Progress button */
+.exam-papers-link.overview-papers-link {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--so);
+}
+
+.overview-papers-link small { color: rgba(255, 255, 255, 0.86); }
+.overview-papers-link .exam-papers-link-arrow { color: #fff; }
+.exam-papers-link.overview-papers-link:hover { background: var(--accent-strong); }
+
+/* ── Archive ── */
+
+.papers-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: var(--bg);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.papers-page {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 2.25rem 2.5rem 5rem;
+}
+
+.papers-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1.1rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1.5px solid var(--line);
+}
+
+.papers-head .button-secondary { width: auto; flex-shrink: 0; }
+
+.papers-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--accent-strong);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.papers-title {
+  margin: 0;
+  color: var(--accent);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.papers-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.papers-filters {
+  display: inline-flex;
+  gap: 0.2rem;
+  padding: 0.25rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--panel-2);
+}
+
+.papers-filter {
+  width: auto;
+  padding: 0.4rem 0.95rem;
+  border: 0;
+  border-radius: var(--r-full);
+  background: none;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.papers-filter:hover { color: var(--ink); }
+.papers-filter.is-active { background: var(--panel); color: var(--ink); box-shadow: var(--s1); }
+
+.papers-count {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.papers-note {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--panel);
+  color: var(--ink-2);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.papers-status {
+  margin: 2rem 0;
+  color: var(--ink-2);
+  font-size: 0.92rem;
+}
+
+.papers-year {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  padding: 1.6rem 0;
+  border-top: 1.5px solid var(--line);
+  animation: papers-rise 0.42s var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+.papers-year:first-child { border-top: 0; }
+
+@keyframes papers-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+.papers-year-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.papers-year-head h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 2.6rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.papers-levels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.25rem 2rem;
+}
+
+.papers-level h3 {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.papers-sheets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Each file is a little sheet of paper: ruled lines, a folded corner, the label at the foot */
+.paper-sheet {
+  --sheet: var(--panel);
+  --rule: var(--line);
+  --fold: var(--panel-3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.15rem;
+  width: 124px;
+  aspect-ratio: 1 / 1.3;
+  padding: 0.7rem 0.75rem;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  background: var(--sheet);
+  color: var(--ink);
+  text-align: left;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+  transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+
+.paper-sheet::before {
+  content: "";
+  position: absolute;
+  top: -1.5px;
+  right: -1.5px;
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(225deg, transparent 50%, var(--fold) 50%);
+  border-bottom-left-radius: 3px;
+  transition: background var(--t) var(--ease);
+}
+
+.paper-sheet::after {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 34%;
+  background: repeating-linear-gradient(to bottom, var(--rule) 0 1.5px, transparent 1.5px 8px);
+  -webkit-mask-image: linear-gradient(to right, #000 70%, transparent);
+  mask-image: linear-gradient(to right, #000 70%, transparent);
+}
+
+.paper-sheet:hover {
+  transform: translateY(-3px) rotate(-1.2deg);
+  border-color: var(--accent-light);
+  box-shadow: var(--s2);
+  --fold: var(--accent-light);
+}
+
+.paper-sheet:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 3px; }
+
+.paper-sheet-kind {
+  color: var(--muted);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.paper-sheet-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.paper-sheet--scheme {
+  --sheet: var(--accent-xxlight);
+  --rule: var(--accent-light);
+  --fold: var(--accent-xlight);
+  border-color: var(--accent-xlight);
+}
+
+.paper-sheet--scheme .paper-sheet-kind { color: var(--accent-strong); }
+
+.paper-sheet-marked {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  z-index: 1;
+  padding: 0.12rem 0.4rem;
+  border-radius: var(--r-full);
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* ── Viewer ── */
+
+.paper-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
+  background: var(--desk);
+  color: var(--desk-ink);
+  animation: modal-in 0.22s var(--ease) both;
+}
+
+.paper-viewer svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pv-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--desk-2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.paper-viewer button {
+  width: auto;
+  border: 0;
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+.pv-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.45rem 0.75rem 0.45rem 0.45rem;
+  border-radius: var(--r-full);
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+.pv-back svg { color: var(--accent); }
+
+.pv-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.pv-title strong {
+  overflow: hidden;
+  font-size: 0.95rem;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pv-title .paper-tag-old {
+  border-color: transparent;
+  background: var(--danger);
+  color: #fff;
+}
+
+.pv-zoom {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* The markup tools sit top right, under the zoom and Open PDF controls: the tools on
+   one row, their colours with undo and clear on the next. They're drawn half as big
+   again as the bar's own buttons, to be easy to hit with a pen or a finger. */
+.pv-tools {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.45rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 36px;
+  background: rgba(22, 21, 18, 0.86);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.pv-tools-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.pv-tools .pv-tool,
+.pv-tools .pv-act {
+  min-width: 54px;
+  height: 54px;
+  font-size: 1.65rem;
+}
+
+.pv-tools svg { width: 30px; height: 30px; }
+.pv-tools .pv-act--text { margin-left: auto; padding: 0 1.2rem; font-size: 1.2rem; }
+
+.pv-toolset {
+  display: flex;
+  flex: none;
+  gap: 0.22rem;
+  padding: 0.3rem;
+  border-radius: var(--r-full);
+  background: var(--desk-3);
+}
+
+.pv-tool,
+.pv-act {
+  display: grid;
+  place-items: center;
+  flex: none;
+  padding: 0;
+  min-width: 36px;
+  height: 36px;
+  border-radius: var(--r-full);
+  color: var(--desk-ink);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background var(--t) var(--ease), color var(--t) var(--ease);
+}
+
+.pv-act--text { display: flex; align-items: center; padding: 0 0.8rem; font-size: 0.8rem; white-space: pre; }
+
+.pv-back:hover,
+.pv-tool:hover,
+.pv-act:hover { background: rgba(255, 255, 255, 0.08); }
+
+.pv-tool.is-active,
+.pv-tool.is-active:hover {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--so);
+}
+
+.pv-zoom #pvZoomFit { min-width: 54px; font-variant-numeric: tabular-nums; }
+
+.pv-colors {
+  display: flex;
+  flex: none;
+  gap: 0.45rem;
+  padding: 0 0.4rem;
+}
+
+.pv-swatch {
+  flex: none;
+  padding: 0;
+  width: 33px !important;
+  height: 33px;
+  border-radius: 50%;
+  background: var(--swatch) !important;
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.18);
+  transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease);
+}
+
+.pv-swatch:hover { transform: scale(1.12); }
+.pv-swatch.is-active { box-shadow: 0 0 0 3px var(--desk-2), 0 0 0 6px var(--desk-ink); }
+
+.pv-open {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--r-full);
+  color: var(--desk-ink);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pv-open:hover { border-color: var(--accent); color: #fff; }
+
+.pv-stage-wrap {
+  position: relative;
+  min-height: 0;
+}
+
+.pv-stage {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  padding: 32px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, 0.05), transparent 65%),
+    var(--desk);
+}
+
+.pv-sheet {
+  position: relative;
+  flex: none;
+  margin: auto;
+  line-height: 0;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), 0 22px 60px rgba(0, 0, 0, 0.45);
+  transition: opacity 0.2s var(--ease);
+}
+
+.pv-sheet.is-loading { opacity: 0; }
+
+.pv-page,
+.pv-ink { display: block; }
+
+.pv-ink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.paper-viewer[data-tool="view"] .pv-ink { pointer-events: none; }
+.paper-viewer[data-tool="eraser"] .pv-ink { cursor: cell; }
+.paper-viewer[data-tool="text"] .pv-ink { cursor: text; }
+
+.pv-text-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Sized from the page's width (--pv-w), so a box keeps its place and size at every zoom */
+.pv-textbox {
+  position: absolute;
+  min-width: 1.5em;
+  padding: 0.1em 0.25em;
+  border: 1.5px dashed transparent;
+  border-radius: 3px;
+  font-family: var(--font);
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  pointer-events: auto;
+  cursor: text;
+  outline: none;
+  translate: -0.25em -0.7em;
+}
+
+.pv-textbox:hover { border-color: rgba(250, 76, 6, 0.35); }
+.pv-textbox:focus { border-color: var(--accent); background: rgba(255, 255, 255, 0.85); }
+
+/* Move drags a zoomed page around, and drags text boxes; clicking a box still edits it */
+.paper-viewer[data-tool="view"] .pv-stage.can-pan { cursor: grab; }
+.pv-stage.is-panning,
+.pv-stage.is-panning * { cursor: grabbing !important; user-select: none; }
+
+.paper-viewer[data-tool="view"] .pv-textbox:not(:focus) { cursor: move; touch-action: none; }
+.pv-textbox.is-dragging { border-color: var(--accent); cursor: grabbing; user-select: none; }
+
+/* Drawing passes over text boxes; the eraser removes one with a click */
+.paper-viewer[data-tool="pen"] .pv-textbox,
+.paper-viewer[data-tool="highlighter"] .pv-textbox { pointer-events: none; }
+.paper-viewer[data-tool="eraser"] .pv-textbox { cursor: cell; }
+
+.pv-turn {
+  position: absolute;
+  padding: 0;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 48px !important;
+  height: 48px;
+  margin-top: -24px;
+  border-radius: 50%;
+  background: rgba(22, 21, 18, 0.78) !important;
+  color: var(--desk-ink);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  transition: background var(--t) var(--ease), opacity var(--t) var(--ease), transform var(--t) var(--ease);
+}
+
+.pv-turn--prev { left: 1rem; }
+.pv-turn--next { right: 1rem; }
+.pv-turn:hover { background: var(--accent) !important; color: #fff; }
+.pv-turn--prev:hover { transform: translateX(-2px); }
+.pv-turn--next:hover { transform: translateX(2px); }
+.pv-turn:disabled { opacity: 0; pointer-events: none; }
+
+.pv-status a { color: var(--accent); font-weight: 650; }
+
+.pv-status {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 340px;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: var(--desk-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.pv-foot {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.55rem 6rem 0.55rem 1rem; /* clear of the study timer, bottom right */
+  background: var(--desk-2);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pv-page-label {
+  flex: none;
+  min-width: 6.5rem;
+  color: var(--desk-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.pv-strip {
+  display: flex;
+  gap: 0.55rem;
+  min-width: 0;
+  padding: 4px 4px 2px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--desk-3) transparent;
+}
+
+.pv-thumb {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  flex: none;
+  width: 52px !important;
+  padding: 0 !important;
+  transition: transform var(--t) var(--ease);
+}
+
+.pv-thumb canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--thumb-ratio, 1 / 1.414);
+  border-radius: 3px;
+  background: var(--desk-3);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: outline-color var(--t) var(--ease), opacity var(--t) var(--ease);
+  opacity: 0.62;
+}
+
+.pv-thumb.is-drawn canvas { background: #fff; }
+
+.pv-thumb span {
+  color: var(--desk-muted);
+  font-size: 0.66rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.pv-thumb:hover { transform: translateY(-2px); }
+.pv-thumb:hover canvas { opacity: 0.9; }
+.pv-thumb.is-active canvas { opacity: 1; outline-color: var(--accent); }
+.pv-thumb.is-active span { color: var(--accent); }
+
+.pv-thumb.has-ink::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--desk-2);
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ── Phones ── */
+
+@media (max-width: 640px) {
+  /* A phone's chapter rows are 61px high */
+  .exam-papers-link.overview-papers-link {
+    min-height: 92px;
+    margin-bottom: 0.3rem;
+    padding: 0.75rem 0.85rem;
+    border-radius: var(--r-sm);
+  }
+
+  /* Phones keep the timer in the top bar, where these screens put their own controls */
+  body:has(#papersScreen:not(.hidden)) .timer-widget,
+  body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
+
+  .papers-page { padding: 1.25rem 1rem 5rem; }
+  .papers-head { align-items: center; }
+
+  .papers-year {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding: 1.25rem 0;
+  }
+
+  .papers-year-head {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .papers-year-head h2 { font-size: 2rem; }
+  .papers-levels { grid-template-columns: 1fr; gap: 1rem; }
+  .paper-sheet { width: 104px; }
+  .papers-note { align-items: flex-start; flex-direction: column; gap: 0.5rem; }
+
+  .pv-bar {
+    gap: 0.35rem;
+    padding: 0.45rem 0.5rem;
+  }
+
+  /* One row: the title wraps under its tag, and Open PDF waits for a paper that won't load */
+  .pv-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .pv-title strong {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    white-space: normal;
+  }
+
+  .pv-title .paper-tag-old { padding: 0.1rem 0.45rem; font-size: 0.58rem; }
+  .pv-back { padding: 0.4rem; }
+  .pv-back span { display: none; }
+  .pv-open { display: none; }
+
+  /* No room for a second row or the bigger buttons: one centred strip across the top */
+  .pv-tools {
+    top: 8px;
+    right: auto;
+    left: 50%;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    max-width: calc(100% - 16px);
+    padding: 0.3rem;
+    border-radius: var(--r-full);
+    overflow-x: auto;
+    scrollbar-width: none;
+    transform: translateX(-50%);
+  }
+
+  .pv-tools-row { flex: none; gap: 0.3rem; }
+  .pv-toolset { gap: 0.1rem; padding: 0.2rem; }
+  .pv-tools svg { width: 20px; height: 20px; }
+
+  .pv-zoom { gap: 0.1rem; }
+  .pv-zoom .pv-act { min-width: 30px; }
+  .pv-zoom #pvZoomFit { min-width: 40px; padding: 0 0.3rem; }
+  .pv-tools .pv-tool, .pv-tools .pv-act { min-width: 32px; height: 32px; font-size: 1.1rem; }
+  .pv-tools .pv-act--text { padding: 0 0.55rem; font-size: 0.8rem; }
+  .pv-wide { display: none; }
+  .pv-colors { gap: 0.2rem; padding: 0 0.1rem; }
+  .pv-swatch { width: 20px !important; height: 20px; }
+  .pv-swatch.is-active { box-shadow: 0 0 0 2px var(--desk-2), 0 0 0 4px var(--desk-ink); }
+
+  .pv-stage { padding: 60px 12px 12px; }
+  .pv-turn { width: 40px !important; height: 40px; margin-top: -20px; opacity: 0.85; }
+  .pv-turn--prev { left: 0.4rem; }
+  .pv-turn--next { right: 0.4rem; }
+
+  .pv-foot { gap: 0.6rem; padding: 0.45rem 0.6rem; }
+  .pv-page-label { min-width: 0; }
+  .pv-thumb { width: 40px !important; }
+}

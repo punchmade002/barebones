@@ -1,0 +1,77 @@
+{
+  "loId": "ch16-s1",
+  "chapterId": "ch16",
+  "subsection": "1. Change, resistance to change and fostering innovation",
+  "syllabusRef": "3.4.1, 3.4.2, 3.4.3, 3.4.4",
+  "notes": [
+    { "h": "Internal and external change", "b": "Organisations face change throughout their lives, and it comes either from inside the business or from its environment.", "points": [
+      "Internal changes include new leadership, restructuring, the introduction of new technology, growth and the launch of new products.",
+      "A new chief executive can alter strategy, culture and priorities across the whole organisation, so the change reaches every department.",
+      "Restructuring reshapes reporting lines, roles and team structures, which changes who makes decisions and how work is shared.",
+      "External changes arise outside the firm, and the STEEPLE factors (social, technological, economic, environmental, political, legal and ethical) provide a checklist for identifying them.",
+      "External pressures include economic conditions, competitor actions, new regulation, technological developments, climate change and pandemics."
+    ] },
+    { "h": "Why people resist change", "b": "Resistance is a natural human response, and managers need to understand its causes before they can address it.", "points": [
+      "Fear of job loss makes employees resist changes that may reduce headcount, change roles or cut hours.",
+      "Loss of status or control occurs when people believe they will lose influence, expertise or authority over their own work.",
+      "Uncertainty about what a change means for them leads people to resist it, even where the change is ultimately beneficial.",
+      "Habit makes people attached to familiar routines and reluctant to learn new methods or systems.",
+      "Lack of trust in management, or lack of information about why the change is happening, fuels suspicion and opposition.",
+      "Extra workload during a transition, such as learning new software while keeping up with existing tasks, creates resistance."
+    ] },
+    { "h": "Practices that promote innovation", "b": "Innovation thrives where employees are encouraged to generate ideas and where failure is treated as a source of learning.", "points": [
+      "Empowerment gives employees authority to make decisions and act on their ideas without waiting for approval at every step.",
+      "Idea schemes give staff a formal route for submitting suggestions, which can then be assessed and rewarded.",
+      "Time for projects allows staff to work on new ideas during working hours rather than only in their spare time.",
+      "Rewarding risk-taking signals that well-judged attempts are valued even when they do not succeed.",
+      "Cross-functional teams bring together people from different departments, combining their skills and perspectives on a problem.",
+      "Tolerance of failure allows experiments to be run and lessons learned without punishing the people involved."
+    ] },
+    { "h": "Entrepreneurial and intrapreneurial thinking", "b": "Both forms of thinking involve spotting opportunities and acting on them, but they differ in where the activity takes place.", "points": [
+      "Entrepreneurial thinking means identifying an opportunity and accepting the financial risk of starting or growing a business to exploit it.",
+      "Intrapreneurial thinking is the same approach applied by an employee inside an existing organisation, such as developing a new product line for the employer.",
+      "An intrapreneur can deliver innovation for the employer without carrying the personal financial risk of founding a new business.",
+      "Entrepreneurial thinking helps established firms adapt faster than competitors that rely only on existing routines.",
+      "Business and financial literacy supports both forms of thinking, because an idea needs costing and a sound financial case before it can be pursued."
+    ] },
+    { "h": "Ways to overcome resistance", "b": "Managers can reduce resistance by addressing its cause, so the approach chosen should match the reason for opposition.", "points": [
+      "Communication explains the reasons for the change, what it involves and how it affects each group, which reduces uncertainty.",
+      "Consultation and participation involve employees in planning the change, which increases their sense of ownership of it.",
+      "Training builds the skills people need to work in the new way, addressing fear of failing or being left behind.",
+      "Support, such as coaching or extra help during the transition, eases the workload pressure that change creates.",
+      "Negotiation and incentives offer something in return for accepting change, such as a bonus or an agreed guarantee about job security.",
+      "Leading by example shows that managers are personally committed to the change, which makes it more credible to staff.",
+      "Phased change introduces the change gradually, giving people time to adapt and allowing managers to correct problems early."
+    ] },
+    { "h": "Why unmanaged resistance matters", "b": "Resistance that is not handled can delay or derail change, so it has measurable costs for the organisation.", "points": [
+      "Resistance can slow implementation, so the benefits a change was meant to deliver arrive later than planned.",
+      "Staff who resist may reduce their productivity, lower the quality of their work or leave, increasing recruitment and training costs.",
+      "Widespread opposition can cause a change to fail completely, wasting the money and time already invested in it.",
+      "Handling change fairly and transparently respects employees and sustains the trust that makes future change easier to achieve."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Internal change", "definition": "A change that originates inside the organisation, such as new leadership, restructuring, new technology, growth or new products." },
+    { "term": "External change", "definition": "A change that originates in the business environment outside the organisation, such as economic conditions, competitor action, regulation or climate." },
+    { "term": "Resistance to change", "definition": "Opposition, open or hidden, from people in an organisation to a planned change in how work is done." },
+    { "term": "Innovation", "definition": "The creation and successful application of new ideas, products, processes or methods that add value for the organisation." },
+    { "term": "Intrapreneurship", "definition": "Entrepreneurial behaviour by employees inside an existing organisation, who develop new ideas for their employer." },
+    { "term": "Empowerment", "definition": "Giving employees the authority, information and resources to make decisions about their own work." },
+    { "term": "Phased change", "definition": "Introducing a change in stages over time rather than all at once." },
+    { "term": "Cross-functional team", "definition": "A group drawn from different departments that works together on a shared task or project." }
+  ],
+  "factCards": [
+    { "term": "Five internal sources of change", "definition": "New leadership, restructuring, new technology, growth and new products." },
+    { "term": "Six reasons employees resist change", "definition": "Fear of job loss, loss of status or control, uncertainty, habit, lack of trust or information, and extra workload." },
+    { "term": "Six practices that promote innovation", "definition": "Empowerment, idea schemes, time for projects, rewarding risk, cross-functional teams and tolerance of failure." },
+    { "term": "Advantages of phased change", "definition": "Employees get time to adapt, and managers can spot and fix problems before the whole organisation is affected." },
+    { "term": "Disadvantages of phased change", "definition": "It takes longer, prolongs uncertainty, and gives opposition time to build up between stages." },
+    { "term": "Intrapreneur compared with entrepreneur", "definition": "An intrapreneur develops new ideas inside an existing firm without founding it, while an entrepreneur starts or runs a new venture and bears its financial risk." },
+    { "term": "Example of negotiation and incentives", "definition": "A firm offers a bonus or a job guarantee to staff who accept new working arrangements." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A family-run Irish hotel plans to replace its paper booking diary with a cloud-based reservation system. Explain four reasons its staff might resist this change, and suggest how management could respond to each.", "model": "Fear of job loss: staff may believe the system will reduce the number of reception and booking roles, so they resist it. Management could confirm early whether any roles will change, give written reassurance, and offer redeployment to guest services where possible. Loss of control and status: the receptionist who has run the paper diary for years may feel that her expertise is no longer valued. Management could involve these staff in choosing and configuring the system, so their knowledge shapes the change. Habit and uncertainty: experienced staff are comfortable with the diary and unsure how the new system will cope in the busy season, so they may keep using paper. Management could run a short trial period, provide hands-on training and set out clear guidance for the transition. Extra workload: learning the new system while the hotel is busy adds pressure, so a phased introduction, extra support in the first weeks and protected training time would ease the strain." },
+    { "marks": 10, "prompt": "Distinguish between internal and external sources of change, giving one example of each for a small retail business.", "model": "An internal change starts inside the business and is usually controlled by its managers. For example, a shop owner who restructures the shifts or appoints a new store manager is making an internal change. An external change starts outside the business and is usually harder to control. For example, a new regulation on food labelling, or a rise in customer demand for locally sourced products, forces the shop to change its stock and displays." },
+    { "marks": 15, "prompt": "Explain how a business can foster innovation among its employees.", "model": "A business can create an idea scheme that gives staff a formal route to submit suggestions, and it can reward good ideas with recognition or payment so that the scheme is taken seriously. It can also give employees time for projects during the working week, because innovation is unlikely to flourish if staff can only work on new ideas in their spare time. Cross-functional teams that combine people from sales, production and finance bring different perspectives to a problem and make creative solutions more likely. Finally, the business must tolerate failure, because employees will not experiment if they expect punishment for an unsuccessful attempt." }
+  ]
+}

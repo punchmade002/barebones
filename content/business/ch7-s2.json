@@ -1,0 +1,71 @@
+{
+  "loId": "ch7-s2",
+  "chapterId": "ch7",
+  "subsection": "2. Design thinking",
+  "syllabusRef": "2.2.2",
+  "notes": [
+    { "h": "Design thinking as an approach", "b": "Design thinking is an innovative approach to problem solving that starts from the needs of the end user.", "points": [
+      "It is innovative because it treats problem solving as a creative process that generates new ideas, not only as analysis of existing data.",
+      "It is non-linear: teams move back and forth between phases rather than completing each step once in order.",
+      "It is solution-centred because it aims to produce a practical answer to the user's problem.",
+      "It is person-centred because the user's needs, feelings and behaviour drive each decision.",
+      "Design thinking supports idea development by reducing the risk of building something people do not want."
+    ] },
+    { "h": "Phase one: clarify", "b": "Clarify means understanding the user and defining the real problem before any solution is chosen.", "points": [
+      "Empathy and user research: observe users, interview them and learn their needs, frustrations and habits.",
+      "A problem statement sums up what the user needs and why, and guides every later phase.",
+      "Clarifying prevents a firm from solving the wrong problem, which is a common cause of product failure."
+    ] },
+    { "h": "Phase two: ideate", "b": "Ideate means generating a wide range of possible solutions before choosing one.", "points": [
+      "Brainstorming produces many ideas quickly, with judgement held back until the list is complete.",
+      "Ideas are sorted using criteria such as user need and feasibility, so that the team chooses which ones to prototype.",
+      "Ideation works best when the group includes different perspectives, such as sales, design and users."
+    ] },
+    { "h": "Phase three: develop", "b": "Develop turns the chosen idea into a prototype and tests it with real users.", "points": [
+      "Prototyping builds a simple, low-cost version of the product, such as a paper mock-up or clickable app screens.",
+      "Testing shows how real users respond to the prototype and reveals problems the team did not expect.",
+      "Feedback from users is used to improve the design, and the cycle repeats until the design works well.",
+      "Developing is iterative because each test can send the team back to clarify the problem or to ideate again."
+    ] },
+    { "h": "Phase four: implement", "b": "Implement means launching the solution to customers and checking its results.", "points": [
+      "Launch brings the product to customers through a planned marketing mix, including promotion, pricing and place.",
+      "After launch the firm monitors sales and customer feedback, which feeds into future improvements.",
+      "Implementation can reveal new problems, which send the team back to earlier phases."
+    ] },
+    { "h": "Design thinking as a loop", "b": "The four phases form a loop, so each cycle improves the solution.", "points": [
+      "The process is iterative: it repeats, and each cycle refines the solution from the last.",
+      "For example, a café chain notices long lunchtime queues. It clarifies the problem by observing customers, ideates ordering apps and counter layouts, develops a prototype app and tests it with regular customers.",
+      "If the app test shows that customers want to pay at a table, the team returns to ideate, and only then does it implement a rollout across the outlets."
+    ] },
+    { "h": "Benefits and drawbacks", "b": "Design thinking has clear advantages and some costs.", "points": [
+      "Benefit: products that meet real user needs are more likely to succeed in the market.",
+      "Benefit: testing early reduces the cost of fixing faults after launch.",
+      "Drawback: the process takes time, and repeated testing can delay the launch.",
+      "Drawback: research with a small group of users may not represent the whole market.",
+      "Drawback: the firm needs staff with the right skills, and running the process may require training."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Design thinking", "definition": "An innovative, non-linear approach to solving problems that focuses on solutions for the end user through four phases." },
+    { "term": "Iterative", "definition": "Repeating a process in cycles, with each cycle refining the result of the one before." },
+    { "term": "Person-centred", "definition": "An approach in which the needs, feelings and behaviour of the user guide each decision." },
+    { "term": "Solution-centred", "definition": "An approach that aims to deliver a practical answer to the user's problem, rather than an abstract analysis." },
+    { "term": "Empathy", "definition": "The ability to understand another person's needs, feelings and experiences, built in design thinking through observation and interviews." },
+    { "term": "Problem statement", "definition": "A short, clear description of the user's need and the problem to be solved, which guides the rest of the process." },
+    { "term": "Prototype", "definition": "A simple, low-cost early version of a product used to test ideas before full production." },
+    { "term": "Non-linear process", "definition": "A process in which the steps can be revisited in any order, rather than completed once in sequence." }
+  ],
+  "factCards": [
+    { "term": "Names of the four phases, in order", "definition": "Clarify, ideate, develop and implement." },
+    { "term": "First phase: aim and main tools", "definition": "Clarify, which aims to understand the user and define the real problem, using user research and a problem statement." },
+    { "term": "Second phase: aim and main tool", "definition": "Ideate, which aims to generate many possible solutions, mainly through brainstorming." },
+    { "term": "Third phase: aim and main tools", "definition": "Develop, which turns the chosen idea into a prototype and improves it through testing and feedback." },
+    { "term": "Fourth phase: aim and main tools", "definition": "Implement, which launches the solution to customers, then monitors results and feedback." },
+    { "term": "Benefits of design thinking", "definition": "Products that meet real needs, and early testing that reduces the cost of later fixes." }
+  ],
+  "questions": [
+    { "marks": 25, "prompt": "A regional bakery wants to launch a gluten-free range. Using the four design thinking phases in order, describe what the firm would do in each phase.", "model": "In the clarify phase the bakery would observe and interview people who avoid gluten, to learn what they need from bread and cakes, such as taste, texture and labelling they trust, and it would write a problem statement, for example that coeliac customers lack tasty gluten-free bakery products they can buy locally. In the ideate phase the team would brainstorm recipes, flours and product formats, such as loaves, scones and sponge cakes, and would screen them against cost, shelf life and the bakery's skills. In the develop phase the bakery would make prototype recipes in small batches and test them with a panel of customers, collecting feedback on taste, price and texture, then adjust the recipes. In the implement phase it would launch the range in its shops, promote it through its social media and local customers, and track sales and reviews. The process is iterative, so if reviews show that customers want a larger loaf, the firm would return to develop or ideate rather than treating the launch as final." },
+    { "marks": 10, "prompt": "Explain why design thinking is described as iterative.", "model": "Design thinking is iterative because the process repeats in cycles rather than running once in a straight line. Each test or launch produces feedback that sends the team back to an earlier phase, so the solution improves with each cycle." },
+    { "marks": 15, "prompt": "Discuss two benefits and one drawback of design thinking for a small Irish firm.", "model": "The first benefit is that the firm builds products that meet real customer needs, which improves the chance of success in a competitive market and reduces wasted spending on products nobody buys. The second benefit is that early prototype testing finds faults while they are cheap to fix, rather than after an expensive launch. The drawback is time: a small firm with limited staff may find that repeated testing delays its launch, which can matter if a competitor reaches the market first." }
+  ]
+}

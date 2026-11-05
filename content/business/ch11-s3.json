@@ -1,0 +1,75 @@
+{
+  "loId": "ch11-s3",
+  "chapterId": "ch11",
+  "subsection": "3. Cost-benefit analysis of expansion",
+  "syllabusRef": "2.6.5",
+  "notes": [
+    { "h": "What cost-benefit analysis is", "b": "Cost-benefit analysis compares the expected costs of a decision with its expected benefits, so the business can judge whether the decision is worth making.", "points": [
+      "It makes the business weigh the downside of a decision as well as the upside, which guards against decisions based only on optimism.",
+      "It can be applied to any major decision, such as opening a new site, buying a rival or launching a product.",
+      "Its result depends on forecasts, so it is only as good as the figures entered."
+    ] },
+    { "h": "Steps in the analysis", "b": "The method follows five stages, which should be completed in order.", "points": [
+      "Identify the decision and the alternatives being compared.",
+      "List all costs and benefits, both financial and non-financial, for the firm and for stakeholders such as staff, customers and the local community.",
+      "Quantify each item where possible by giving it a money value.",
+      "Compare total benefits with total costs over the period chosen.",
+      "Decide, and justify the decision by reference to the comparison and to any non-financial factors."
+    ] },
+    { "h": "Tangible and intangible items", "b": "Items in the analysis fall into two groups, and each needs a different kind of treatment.", "points": [
+      "Tangible items can be measured in money, such as sales revenue, equipment cost and rent.",
+      "Intangible items are real but hard to measure in money, such as brand reputation, staff morale and customer goodwill.",
+      "Intangible items should still be listed, because leaving them out can distort the decision.",
+      "A common approach is to estimate a money value for an intangible item, or to record it as a qualitative factor in the final recommendation."
+    ] },
+    { "h": "Opportunity cost and timing", "b": "Two further factors change the comparison: what is given up by choosing an option, and when costs and benefits arise.", "points": [
+      "Opportunity cost is the value of the next best alternative given up when a choice is made, such as using the cash to fund marketing instead.",
+      "Start-up costs such as a fit-out usually arise before benefits, so the timing of costs and benefits affects the comparison.",
+      "A short-term view looks at the first year's cash position, while a longer view counts benefits over several years."
+    ] },
+    { "h": "Worked example: investment figures and yearly results", "b": "The example uses invented sample figures for a bakery deciding whether to open a second shop in Galway. Sales are held at the same level in each year after the opening.", "points": [
+      "Sample figures, one-off costs in year 1: fit-out and equipment €180,000, initial marketing €15,000.",
+      "Sample figures, annual running costs: rent €36,000, wages €60,000, and ingredients and packaging €90,000, which is 30 per cent of sales.",
+      "Sample figures, annual sales from the Galway shop: €300,000 in each year.",
+      "Sample figures, year 1: benefits €300,000, costs €381,000 (€180,000 + €15,000 + €36,000 + €60,000 + €90,000), net result minus €81,000.",
+      "Sample figures, year 2: benefits €300,000, costs €186,000 (€36,000 + €60,000 + €90,000), net result €114,000.",
+      "Sample figures, year 3: benefits €300,000, costs €186,000, net result €114,000.",
+      "Sample figures, three-year total: minus €81,000 + €114,000 + €114,000, which is €147,000."
+    ] },
+    { "h": "Worked example: payback, sensitivity and decision", "b": "The remaining steps test how quickly the outlay is recovered and whether the result survives a fall in sales.", "points": [
+      "Sample figures, payback: the cumulative position moves from minus €81,000 at the end of year 1 to €33,000 at the end of year 2, so the outlay is recovered in year 2.",
+      "Sample figures, sensitivity: if sales fall 10 per cent to €270,000 a year and ingredients fall to €81,000, the three-year total is €84,000, which is still positive.",
+      "Non-financial benefits include new jobs in Galway, a stronger brand presence in the west and management experience for staff.",
+      "Non-financial costs include the management time the owners must give to the Galway project, which may slow the development of the existing Limerick shop.",
+      "Recommendation: proceed, because the three-year result stays positive even if sales fall 10 per cent, and the outlay is recovered in year 2, provided a staffing plan limits disruption to the Limerick shop."
+    ] },
+    { "h": "Limitations of cost-benefit analysis", "b": "The method is a useful guide, but its result has limits that the decision-maker should state.", "points": [
+      "Results depend on forecasts, which can be wrong, particularly sales forecasts for a new location.",
+      "Intangible effects are hard to value, so the final figure may leave out factors that matter most to stakeholders.",
+      "The choice of time period can change the answer: a short period may hide benefits that arrive later, while a long one relies on distant forecasts.",
+      "The result shows a net gain but not the risk of failure or the cash the firm must find before benefits start to arrive.",
+      "The analysis takes time and money to prepare, which may not be worthwhile for small, low-risk decisions."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Cost-benefit analysis", "definition": "A method of comparing the expected costs of a decision with its expected benefits to decide whether it is worthwhile." },
+    { "term": "Tangible item", "definition": "A cost or benefit that can be measured and expressed in money." },
+    { "term": "Intangible item", "definition": "A cost or benefit that is real but difficult to measure in money, such as reputation or staff morale." },
+    { "term": "Opportunity cost", "definition": "The value of the next best alternative given up when a choice is made." },
+    { "term": "Payback period", "definition": "The time taken for cumulative net benefits to recover the initial outlay." },
+    { "term": "Non-financial cost", "definition": "A cost that does not involve a direct outflow of money, such as lost staff time or disruption to existing customers." },
+    { "term": "Stakeholder", "definition": "Any individual or group affected by a business decision, such as staff, customers, suppliers or the local community." },
+    { "term": "Net benefit", "definition": "Total benefits minus total costs for a decision over a stated period." }
+  ],
+  "factCards": [
+    { "term": "Five stages of the comparison", "definition": "Identify the decision, list costs and benefits, quantify, compare, decide." },
+    { "term": "Two intangible factors in an expansion decision", "definition": "Brand reputation and staff morale." },
+    { "term": "Main weakness of the comparison method", "definition": "It depends on forecasts, which may be wrong, and intangible effects are hard to value." },
+    { "term": "Test for accepting an expansion project", "definition": "Total benefits exceed total costs over the period chosen." },
+    { "term": "Illustration of giving up an alternative", "definition": "Using cash for a new site means the same cash cannot fund marketing or stock." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A hotel group is deciding whether to buy a rival hotel in Kerry. Identify the main financial and non-financial costs and benefits, explain how the analysis would be quantified, and recommend a decision.", "model": "Financial costs: the purchase price, including any premium over market value, refurbishment and integration costs, and interest on borrowed funds. Financial benefits: extra room revenue, savings from shared purchasing and any rise in occupancy. Non-financial costs: uncertainty for the staff of both hotels, a possible competition review and a clash of brands. Non-financial benefits: a larger presence in Kerry and a stronger position with tour operators. Quantification: estimate each money item over several years, value intangible factors where possible, then compare total benefits with total costs and calculate the net benefit. Recommendation: proceed only if the net benefit stays positive when occupancy is lower than forecast and the regulatory review is cleared." },
+    { "marks": 10, "prompt": "Explain the term opportunity cost and give one example relevant to a business choosing between two expansion projects.", "model": "Opportunity cost is the value of the next best alternative given up when a choice is made. If the business commits its funds to a new shop, the opportunity cost is the output and profit the production line it did not build would have generated." }
+  ]
+}

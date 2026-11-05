@@ -1,0 +1,79 @@
+{
+  "loId": "ch1-s2",
+  "chapterId": "ch1",
+  "subsection": "2. Stakeholder interaction, conflict and its resolution",
+  "syllabusRef": "1.1.2, 1.1.3",
+  "notes": [
+    { "h": "Co-operative and competitive relationships", "b": "Stakeholders interact in co-operative ways, where their interests align, and in competitive ways, where one group's gain is another's loss.", "points": [
+      "In a co-operative relationship, owners and employees share a goal of growth, so both benefit when profit rises and the business expands.",
+      "In a competitive relationship, owners want low wages to maximise profit while employees want high pay, so each gain for one reduces the other.",
+      "Most stakeholder relationships mix both types, so the same pair can co-operate on product quality while competing over pay.",
+      "Recognising the balance tells a business which relationships need protecting and which need careful management."
+    ] },
+    { "h": "Owners and employees: pay and working conditions", "b": "Pay, hours and working conditions are a frequent source of tension between a business and its workforce.", "points": [
+      "Cause: a business under cost pressure may propose pay cuts or longer hours, while staff expect improvements as profits rise.",
+      "Effect: low morale, absenteeism, industrial action and the loss of skilled staff, all of which reduce output and service quality.",
+      "Avoiding it: fair pay structures, clear communication about performance and profit, and regular consultation with staff."
+    ] },
+    { "h": "Business and the community: planning and pollution", "b": "A business affects the surrounding community through noise, traffic, emissions and changes to land use.", "points": [
+      "Cause: a factory expansion may increase traffic and noise, or raise concern about waste discharged into a local river.",
+      "Effect: objections to planning applications, protests, damage to the firm's reputation and possible legal action by residents or authorities.",
+      "Avoiding it: consulting residents before a planning application, publishing environmental plans and investing in local facilities.",
+      "Corporate social responsibility, meaning voluntary action beyond legal requirements such as local sponsorship, can reduce friction with the community, but it works only when the business's conduct matches its stated commitments."
+    ] },
+    { "h": "Business and consumers: price and quality", "b": "Consumers judge a business by price, quality and fairness. Disputes arise when a product fails to meet expectations or the price seems unfair.", "points": [
+      "Cause: a faulty, misdescribed or overpriced product generates complaints and demands for refunds.",
+      "Effect: lost customers, negative online reviews and possible action by consumer protection authorities.",
+      "Avoiding it: quality control, clear labelling, honest pricing and a complaints process that resolves problems quickly.",
+      "Transparency about sourcing and pricing protects trust in the brand, which is an ethical as well as a commercial asset."
+    ] },
+    { "h": "Business and suppliers: price and payment terms", "b": "Suppliers want fair prices and prompt payment, while the business wants low costs and extended payment terms.", "points": [
+      "Cause: a business that pays late, or demands sharp price cuts, can strain a supplier's cash flow.",
+      "Effect: a supplier may refuse future orders, raise its prices or withhold stock, which disrupts production.",
+      "Avoiding it: agreed payment terms in writing, regular reviews of prices, and long-term supply partnerships.",
+      "Where a dispute arises, a partnership agreement can set volumes, quality standards and pricing rules that both parties accept in advance."
+    ] },
+    { "h": "Investors and management: risk and dividends", "b": "Investors want a return on their money and may accept risk differently from managers, who may prefer to reinvest profit in the business.", "points": [
+      "Cause: managers may want to keep profit for expansion, while investors want dividends now and may distrust risky projects.",
+      "Effect: pressure from shareholders, calls for changes in management, and a loss of investor confidence that can lower the share price.",
+      "Avoiding it: clear reporting of performance, an agreed dividend policy, and open communication about strategy and the risks it carries."
+    ] },
+    { "h": "Business and government: tax and regulation", "b": "Government sets taxes and regulations that businesses must follow, and businesses may seek lower taxes or lighter rules.", "points": [
+      "Cause: a new environmental or employment regulation adds costs, which the business may see as excessive or unfair.",
+      "Effect: lobbying, delayed investment, and penalties or enforcement action where rules are broken.",
+      "Avoiding it: keeping up to date with changes in law, taking part in public consultations, and building compliance into everyday operations.",
+      "The formal legal routes for resolving these disputes are covered in the later chapters on law, so they are not repeated here."
+    ] },
+    { "h": "Ways of resolving conflict", "b": "Resolution methods range from direct talks to the involvement of an outside party. The choice depends on how serious the conflict is and whether the parties still need each other.", "points": [
+      "Negotiation: both sides discuss their positions and aim for an outcome each can accept.",
+      "Compromise: each side gives up part of its demand, so neither gets everything it wanted.",
+      "Mediation: a neutral third party helps the parties reach their own agreement without deciding the outcome for them.",
+      "Partnership agreement: a written arrangement that sets shared goals, responsibilities and procedures for settling future disputes."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Co-operative relationship", "definition": "A relationship between stakeholders in which their interests align and each benefits from the other's success." },
+    { "term": "Competitive relationship", "definition": "A relationship in which one stakeholder's gain is another's loss, such as when higher wages reduce profit." },
+    { "term": "Stakeholder conflict", "definition": "A clash of interests between stakeholders that arises when one group's goals or gains limit another's." },
+    { "term": "Negotiation", "definition": "Discussion between parties aimed at an outcome both can accept, reached without outside decision-making." },
+    { "term": "Compromise", "definition": "A settlement in which each party gives up some of its demands in order to reach agreement." },
+    { "term": "Mediation", "definition": "A process in which a neutral third party helps disputing parties reach their own agreement." },
+    { "term": "Partnership agreement", "definition": "A written arrangement setting shared goals, responsibilities and procedures for resolving disputes between parties." },
+    { "term": "Corporate social responsibility", "definition": "A business's voluntary commitment to act ethically and contribute to society beyond what the law requires." },
+    { "term": "Payment terms", "definition": "The agreed period and conditions within which a buyer must pay a supplier's invoice." }
+  ],
+  "factCards": [
+    { "term": "Typical cause of owner and employee conflict", "definition": "Pay, hours and working conditions pulling in opposite directions." },
+    { "term": "Results of conflict with the local community", "definition": "Planning objections, protests, reputational damage and legal action." },
+    { "term": "Three ways to avoid consumer disputes", "definition": "Quality control, honest labelling and fair pricing, backed by a fast complaints process." },
+    { "term": "Two causes of supplier disputes", "definition": "Late payment and sharp price cuts that strain the supplier's cash flow." },
+    { "term": "What investors and managers disagree over", "definition": "Paying dividends now or reinvesting profit for growth." },
+    { "term": "Common cause of business and government conflict", "definition": "A new regulation or tax that adds costs the business sees as excessive." },
+    { "term": "Main advantage of mediation", "definition": "The parties keep control of the outcome, so they are more likely to accept it." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Identify two potential conflicts between a supermarket and its suppliers, and suggest appropriate ways of avoiding and resolving each.", "model": "The first conflict concerns price and payment terms. If the supermarket demands sharp price cuts or pays late, the supplier's cash flow is strained and it may refuse future orders. To avoid this, the supermarket can agree payment terms in writing and review prices regularly. If a dispute arises, the parties can negotiate, or they can sign a partnership agreement that sets prices and volumes in advance. The second conflict concerns quality and delivery. If the supplier delivers goods that do not meet the agreed standard, the supermarket may reject them and the supplier may lose the contract. The conflict is avoided through clear quality specifications and shared goals, such as consistent supply. If the matter cannot be settled between the parties, a mediator can help them reach their own agreement." },
+    { "marks": 15, "prompt": "Explain how a co-operative relationship between owners and employees can benefit a business.", "model": "When owners and employees share the goal of growth, employees are more willing to commit effort and to accept changes that improve productivity. This raises output and the quality of the product, which increases sales and profit for the owners. The shared interest also reduces the likelihood of industrial action, which would otherwise disrupt production and lose orders. A business benefits from this stability because it can plan investment and meet deadlines with confidence." },
+    { "marks": 10, "prompt": "Explain the difference between mediation and negotiation as ways of resolving a dispute between stakeholders.", "model": "Negotiation is direct discussion between the parties, who work towards an agreement without an outside person involved. Mediation adds a neutral third party who helps the parties communicate and reach their own agreement, but who does not impose a decision. The third party's role is what distinguishes mediation, and it is often used when the parties cannot make progress on their own." }
+  ]
+}

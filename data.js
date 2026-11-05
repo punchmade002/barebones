@@ -9,114 +9,189 @@ const COURSE_DATA = {
   },
   chapters: [
     {
+      id: "ch0", number: 0, subject: "business", title: "Investigating Business and the Investigative Study", strand: 0,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch0-s1", code: "0.1", syllabusRef: "U1.1, U2.1–U2.6, U6.1", title: "Developing research questions, managing information and acknowledging sources", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s2", code: "0.2", syllabusRef: "U3.1–U3.3", title: "Project planning", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s3", code: "0.3", syllabusRef: "U4.1–U4.5, U5.1–U5.4", title: "Analysing, evaluating and presenting findings", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s4", code: "0.4", syllabusRef: "AAC", title: "The Business Alive Investigative Study", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
       id: "ch1", number: 1, subject: "business", title: "Key Stakeholders in Business", strand: 1,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo1-1", code: "1.1", title: "Internal & external stakeholders and their importance", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-2", code: "1.2", title: "How stakeholders interact and potential conflicts", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-3", code: "1.3", title: "Avoiding and resolving conflict between stakeholders", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-4", code: "1.4", title: "Stakeholder mapping and prioritising stakeholder interests", notes: [], keyTerms: [], questions: [] }
+      { id: "ch1-s1", code: "1.1", syllabusRef: "1.1.1", title: "Stakeholders, their importance and interdependence", notes: [], keyTerms: [], questions: [] },
+      { id: "ch1-s2", code: "1.2", syllabusRef: "1.1.2, 1.1.3", title: "Stakeholder interaction, conflict and its resolution", notes: [], keyTerms: [], questions: [] },
+      { id: "ch1-s3", code: "1.3", syllabusRef: "1.1.4", title: "Stakeholder mapping and prioritising stakeholder interests", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch2", number: 2, subject: "business", title: "Forms of Business, Business Regulation and Governance", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch2-s1", code: "2.1", syllabusRef: "1.2.1", title: "Public, private, semi-state and not-for-profit enterprises", notes: [], keyTerms: [], questions: [] },
+      { id: "ch2-s2", code: "2.2", syllabusRef: "1.2.2", title: "Forms of ownership and how ownership changes", notes: [], keyTerms: [], questions: [] },
+      { id: "ch2-s3", code: "2.3", syllabusRef: "1.2.3–1.2.5", title: "Regulation, governance and ESG", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch3", number: 3, subject: "business", title: "Business and the Economy", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch3-s1", code: "3.1", syllabusRef: "1.3.1", title: "Economic indicators and their impact on business", notes: [], keyTerms: [], questions: [] },
+      { id: "ch3-s2", code: "3.2", syllabusRef: "1.3.2", title: "The value of the business economy in Ireland", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch4", number: 4, subject: "business", title: "The Influence of National and EU Policy", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch4-s1", code: "4.1", syllabusRef: "1.4.1–1.4.3", title: "Irish government policy, legislation and how business influences policy", notes: [], keyTerms: [], questions: [] },
+      { id: "ch4-s2", code: "4.2", syllabusRef: "1.4.4, 1.4.5", title: "EU decision-makers and types of EU law", notes: [], keyTerms: [], questions: [] },
+      { id: "ch4-s3", code: "4.3", syllabusRef: "1.4.6", title: "Evaluating one EU regulation and one EU directive", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch5", number: 5, subject: "business", title: "Irish Business Globally and Internationally", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch5-s1", code: "5.1", syllabusRef: "1.5.1–1.5.3", title: "Trading blocs and Ireland's membership of the EU", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s2", code: "5.2", syllabusRef: "1.5.4–1.5.6", title: "Trading internationally, and the balance of payments", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s3", code: "5.3", syllabusRef: "1.5.7–1.5.9", title: "Globalisation, interdependence and technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s4", code: "5.4", syllabusRef: "1.5.10, 1.5.11, 1.6.1", title: "Foreign direct investment", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch6", number: 6, subject: "business", title: "Enterprise in Action", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo6-1", code: "6.1", title: "Innovation, intrapreneurship & entrepreneurship — and importance of innovation", notes: [], keyTerms: [], questions: [] },
-      { id: "lo6-2", code: "6.2", title: "Competencies of innovators", notes: [], keyTerms: [], questions: [] },
-      { id: "lo6-3", code: "6.3", title: "Role of government in supporting enterprise", notes: [], keyTerms: [], questions: [] }
+      { id: "ch6-s1", code: "6.1", syllabusRef: "2.1.1, 2.1.2, 2.8.1", title: "Enterprise, innovation, intrapreneurship, entrepreneurship and the competencies of innovators", notes: [], keyTerms: [], questions: [] },
+      { id: "ch6-s2", code: "6.2", syllabusRef: "2.1.3", title: "The role of government in supporting enterprise", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch7", number: 7, subject: "business", title: "Idea Development", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo7-1", code: "7.1", title: "Factors impacting idea development", notes: [], keyTerms: [], questions: [] },
-      { id: "lo7-2", code: "7.2", title: "Design thinking — iterative, person- and solution-centred", notes: [], keyTerms: [], questions: [] },
-      { id: "lo7-3", code: "7.3", title: "Conducting a feasibility study", notes: [], keyTerms: [], questions: [] }
+      { id: "ch7-s1", code: "7.1", syllabusRef: "2.2.1", title: "How business ideas are developed", notes: [], keyTerms: [], questions: [] },
+      { id: "ch7-s2", code: "7.2", syllabusRef: "2.2.2", title: "Design thinking", notes: [], keyTerms: [], questions: [] },
+      { id: "ch7-s3", code: "7.3", syllabusRef: "2.2.2, 2.2.3", title: "The feasibility study", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch8", number: 8, subject: "business", title: "Business Planning", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo8-1", code: "8.1", title: "Importance and key functions of a business plan", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-2", code: "8.2", title: "Ethics and sustainability in business planning", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-3", code: "8.3", title: "What a business model is and its role in the business plan", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-4", code: "8.4", title: "Business Model Canvas (BMC)", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-5", code: "8.5", title: "Common business models", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-6", code: "8.6", title: "Digital technology as a driver of change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-7", code: "8.7", title: "Technology-driven business models", notes: [], keyTerms: [], questions: [] }
+      { id: "ch8-s1", code: "8.1", syllabusRef: "2.3.1, 2.3.2", title: "The business plan, and ethics and sustainability in planning", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s2", code: "8.2", syllabusRef: "2.3.3, 2.3.4", title: "Business models and the business model canvas", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s3", code: "8.3", syllabusRef: "2.3.5", title: "Common business models", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s4", code: "8.4", syllabusRef: "2.3.6, 2.3.7", title: "The digital economy and technology-driven business models", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch9", number: 9, subject: "business", title: "The Target Market", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo9-1", code: "9.1", title: "Importance of market research and identifying the target market", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-2", code: "9.2", title: "The 7 P's of the marketing mix", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-3", code: "9.3", title: "USP analysis for a product/service", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-4", code: "9.4", title: "Evaluating and improving an existing marketing mix", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-5", code: "9.5", title: "Disruptive impact of digital technology on market research and marketing", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-6", code: "9.6", title: "Influence of ethics and sustainability on marketing", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-7", code: "9.7", title: "Power-interest grid for customers", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-8", code: "9.8", title: "STEEPLE analysis", notes: [], keyTerms: [], questions: [] }
+      { id: "ch9-s1", code: "9.1", syllabusRef: "2.4.1", title: "Market research and identifying the target market", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s2", code: "9.2", syllabusRef: "2.4.2", title: "The marketing mix and the target market", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s3", code: "9.3", syllabusRef: "2.4.3, 2.4.4", title: "Developing, evaluating and improving a marketing mix; the USP", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s4", code: "9.4", syllabusRef: "2.4.5, 2.4.6", title: "Digital technology, ethics and sustainability in marketing", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s5", code: "9.5", syllabusRef: "2.4.7, 2.4.8", title: "Analytical tools: the power-interest grid for customers and STEEPLE", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch10", number: 10, subject: "business", title: "Operations and Finance", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo10-1", code: "10.1", title: "Operational model — Key Partners, Activities & Resources", notes: [], keyTerms: [], questions: [] },
-      { id: "lo10-2", code: "10.2", title: "Costs, sources of finance, revenue streams across the lifecycle", notes: [], keyTerms: [], questions: [] },
-      { id: "lo10-3", code: "10.3", title: "Cashflow analysis", notes: [], keyTerms: [], questions: [] }
+      { id: "ch10-s1", code: "10.1", syllabusRef: "2.5.1", title: "The operational model: key partners, activities and resources", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s2", code: "10.2", syllabusRef: "2.5.2", title: "Costs and revenue streams", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s3", code: "10.3", syllabusRef: "2.5.2", title: "Sources of finance across the lifecycle", notes: [], keyTerms: [], questions: [] },
+      { id: "ch10-s4", code: "10.4", syllabusRef: "2.5.3", title: "Cash-flow analysis", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch11", number: 11, subject: "business", title: "Growth, Development and Expansion", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo11-1", code: "11.1", title: "Importance of identifying competition", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-2", code: "11.2", title: "Porter's Five Forces", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-3", code: "11.3", title: "Strategies to adapt or expand", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-4", code: "11.4", title: "Technology supporting adaptation and expansion", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-5", code: "11.5", title: "Cost-Benefit Analysis (CBA) of expansion", notes: [], keyTerms: [], questions: [] },
-      { id: "lo11-6", code: "11.6", title: "Adapting marketing mix or business model", notes: [], keyTerms: [], questions: [] }
+      { id: "ch11-s1", code: "11.1", syllabusRef: "2.6.1, 2.6.2", title: "Competition, competitive advantage and Porter's five forces", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s2", code: "11.2", syllabusRef: "2.6.3, 2.6.4", title: "Strategies to adapt or expand, and the role of technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s3", code: "11.3", syllabusRef: "2.6.5", title: "Cost-benefit analysis of expansion", notes: [], keyTerms: [], questions: [] },
+      { id: "ch11-s4", code: "11.4", syllabusRef: "2.6.6", title: "Adapting to external drivers through the marketing mix and business model", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch12", number: 12, subject: "business", title: "Managing Risk", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo12-1", code: "12.1", title: "Challenges and risks of enterprise", notes: [], keyTerms: [], questions: [] },
-      { id: "lo12-2", code: "12.2", title: "Importance of assessing and managing risks", notes: [], keyTerms: [], questions: [] },
-      { id: "lo12-3", code: "12.3", title: "Risk management strategies and types of insurance", notes: [], keyTerms: [], questions: [] }
+      { id: "ch12-s1", code: "12.1", syllabusRef: "2.7.1, 2.7.2", title: "The risks of enterprise and why risk management matters", notes: [], keyTerms: [], questions: [] },
+      { id: "ch12-s2", code: "12.2", syllabusRef: "2.7.3", title: "Risk management strategies and insurance", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch13", number: 13, subject: "business", title: "Leading and Managing an Organisation", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch13-s1", code: "13.1", syllabusRef: "3.1.1–3.1.3, 3.5.1", title: "Leadership, management, organisational culture and leadership styles", notes: [], keyTerms: [], questions: [] },
+      { id: "ch13-s2", code: "13.2", syllabusRef: "3.1.4–3.1.6", title: "Conflict in the workplace and its resolution", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch14", number: 14, subject: "business", title: "Leading and Managing People", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch14-s1", code: "14.1", syllabusRef: "3.2.1–3.2.3", title: "Workforce planning, recruitment and selection", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s2", code: "14.2", syllabusRef: "3.2.4–3.2.6", title: "Motivation and appraisal", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s3", code: "14.3", syllabusRef: "3.2.7, 3.2.8", title: "Human capital management, induction, training and development", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s4", code: "14.4", syllabusRef: "3.2.9, 3.2.10", title: "Teamwork and sustainable workplaces", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s5", code: "14.5", syllabusRef: "3.2.11–3.2.13", title: "Digital technology in the workplace: remote and blended working", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s6", code: "14.6", syllabusRef: "3.2.14, 3.2.15", title: "Corporate wellness and the leader's role", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch15", number: 15, subject: "business", title: "The Importance of Communication", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch15-s1", code: "15.1", syllabusRef: "3.3.1, 3.3.4", title: "Why communication matters and how to improve it", notes: [], keyTerms: [], questions: [] },
+      { id: "ch15-s2", code: "15.2", syllabusRef: "3.3.2, 3.3.3", title: "Modes of communication and the impact of technology", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch16", number: 16, subject: "business", title: "The Rationale for Planning", strand: 3,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo16-1", code: "16.1", title: "Internal and external changes facing organisations", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-2", code: "16.2", title: "Reasons for resistance to change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-3", code: "16.3", title: "Practices that promote innovation and intrapreneurial thinking", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-4", code: "16.4", title: "Overcoming resistance to change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-5", code: "16.5", title: "Strategic planning as an ongoing process", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-6", code: "16.6", title: "Benefits of strategic planning", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-7", code: "16.7", title: "Force-Field Analysis", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-8", code: "16.8", title: "Contingency planning for crisis management", notes: [], keyTerms: [], questions: [] },
-      { id: "lo16-9", code: "16.9", title: "Factors to consider when developing a contingency plan", notes: [], keyTerms: [], questions: [] }
+      { id: "ch16-s1", code: "16.1", syllabusRef: "3.4.1–3.4.4", title: "Change, resistance to change and fostering innovation", notes: [], keyTerms: [], questions: [] },
+      { id: "ch16-s2", code: "16.2", syllabusRef: "3.4.5–3.4.7", title: "Strategic planning and force-field analysis", notes: [], keyTerms: [], questions: [] },
+      { id: "ch16-s3", code: "16.3", syllabusRef: "3.4.8, 3.4.9", title: "Contingency planning and crisis management", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch17", number: 17, subject: "business", title: "Making Informed Decisions as a Consumer", strand: 4,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo17-1", code: "17.1", title: "Consumer rights and responsibilities under current legislation", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-2", code: "17.2", title: "Ethics, sustainability and the circular economy", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-3", code: "17.3", title: "Impact of digital technology on consumer behaviour", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-4", code: "17.4", title: "Personal data protection — GDPR", notes: [], keyTerms: [], questions: [] },
-      { id: "lo17-5", code: "17.5", title: "Importance of making informed consumer decisions", notes: [], keyTerms: [], questions: [] }
+      { id: "ch17-s1", code: "17.1", syllabusRef: "4.1.1", title: "Consumer rights, responsibilities and legislation", notes: [], keyTerms: [], questions: [] },
+      { id: "ch17-s2", code: "17.2", syllabusRef: "4.1.2, 4.1.3", title: "Ethical and sustainable consumption, the shadow economy and digital technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch17-s3", code: "17.3", syllabusRef: "4.1.4, 4.1.5", title: "Protecting personal data; making informed consumer decisions", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch18", number: 18, subject: "business", title: "Making Informed Financial Decisions", strand: 4,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch18-s1", code: "18.1", syllabusRef: "4.2.1", title: "Saving, investing and borrowing", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s2", code: "18.2", syllabusRef: "4.2.2, 4.2.3, 4.2.5", title: "Risk tolerance, reliable information, switching providers and credit ratings", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s3", code: "18.3", syllabusRef: "4.2.4, 4.2.8", title: "Fintech, Central Bank Digital Currency and crypto-assets", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s4", code: "18.4", syllabusRef: "4.2.6, 4.2.7, 4.2.9", title: "Regulation of financial services and financial fraud", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch19", number: 19, subject: "business", title: "Being an Informed Employee", strand: 4,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch19-s1", code: "19.1", syllabusRef: "4.3.1, 4.3.2", title: "Employee rights and responsibilities: legislative and non-legislative protection", notes: [], keyTerms: [], questions: [] },
+      { id: "ch19-s2", code: "19.2", syllabusRef: "4.3.3, 4.3.4", title: "Trade unions and the gig economy", notes: [], keyTerms: [], questions: [] },
+      { id: "ch19-s3", code: "19.3", syllabusRef: "4.3.5, 4.3.6", title: "The annual Budget and workers; informed decisions as an employee", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -196,256 +271,508 @@ const COURSE_DATA = {
       { id: "pe-acronyms-1", code: "A.1", title: "Acronyms and mnemonics to learn", notes: [], keyTerms: [], questions: [] }
       ],
     },
+    // PE syllabus chapters with their outline subsections (course-outlines/pe.md). These are shells:
+    // pe-pipeline-content.js rebuilds each chapter and keeps these subsections after its review outcome.
+    { id: "pe-learning-skill-technique", number: 1, subject: "pe", title: "Learning and Improving Skill and Technique", examQuestions: [], learningOutcomes: [
+        { id: "pe-learning-skill-technique-s1", code: "PE1.1", syllabusRef: "1.1", title: "Defining a skilled performance", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s2", code: "PE1.2", syllabusRef: "1.2", title: "Analysing skill: the biomechanical perspective", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s3", code: "PE1.3", syllabusRef: "1.2", title: "Analysing skill: movement and quality perspectives", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s4", code: "PE1.4", syllabusRef: "1.3", title: "Skill acquisition", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-performance-demands", number: 2, subject: "pe", title: "Physical and Psychological Demands of Performance", examQuestions: [], learningOutcomes: [
+        { id: "pe-performance-demands-s1", code: "PE2.1", syllabusRef: "2.1", title: "Physical fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s2", code: "PE2.2", syllabusRef: "2.2", title: "Health-related fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s3", code: "PE2.3", syllabusRef: "2.3", title: "Performance-related fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s4", code: "PE2.4", syllabusRef: "2.4", title: "Applying the fitness components", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s5", code: "PE2.5", syllabusRef: "2.5", title: "Assessing fitness and the principles of training", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s6", code: "PE2.6", syllabusRef: "2.6", title: "Designing a fitness plan", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s7", code: "PE2.7", syllabusRef: "2.7", title: "Psychological preparation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s8", code: "PE2.8", syllabusRef: "2.8", title: "Diet, nutrition and hydration", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s9", code: "PE2.9", syllabusRef: "2.8", title: "Energy systems", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-structures-strategies-roles-conventions", number: 3, subject: "pe", title: "Structures, Strategies, Roles and Conventions", examQuestions: [], learningOutcomes: [
+        { id: "pe-structures-strategies-roles-conventions-s1", code: "PE3.1", syllabusRef: "3.1", title: "Structures, strategies and compositional elements", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s2", code: "PE3.2", syllabusRef: "3.2", title: "Roles and relationships", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s3", code: "PE3.3", syllabusRef: "3.3", title: "Safe practice", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s4", code: "PE3.4", syllabusRef: "3.4", title: "Rules, rituals and conventions", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s5", code: "PE3.5", syllabusRef: "3.5", title: "The role of coach/choreographer", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s6", code: "PE3.6", syllabusRef: "3.6", title: "The role of official", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-planning-optimum-performance", number: 4, subject: "pe", title: "Planning for Optimum Performance", examQuestions: [], learningOutcomes: [
+        { id: "pe-planning-optimum-performance-s1", code: "PE4.1", syllabusRef: "4.1", title: "Personal performance analysis", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s2", code: "PE4.2", syllabusRef: "4.2", title: "Methods of analysis", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s3", code: "PE4.3", syllabusRef: "4.3", title: "Aesthetic and artistic considerations", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s4", code: "PE4.4", syllabusRef: "4.4", title: "Planning for optimum performance", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-promoting-physical-activity", number: 5, subject: "pe", title: "Promoting Physical Activity", examQuestions: [], learningOutcomes: [
+        { id: "pe-promoting-physical-activity-s1", code: "PE5.1", syllabusRef: "5.1", title: "Benefits of physical activity participation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s2", code: "PE5.2", syllabusRef: "5.2", title: "Physical activity participation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s3", code: "PE5.3", syllabusRef: "5.3", title: "Physical activity promotion", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s4", code: "PE5.4", syllabusRef: "5.4", title: "Pathways to excellence in physical activity", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-ethics-fair-play", number: 6, subject: "pe", title: "Ethics and Fair Play", examQuestions: [], learningOutcomes: [
+        { id: "pe-ethics-fair-play-s1", code: "PE6.1", syllabusRef: "6.1", title: "Principles of ethical practice", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s2", code: "PE6.2", syllabusRef: "6.2", title: "Codes of ethics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s3", code: "PE6.3", syllabusRef: "6.3", title: "Drugs and sport", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s4", code: "PE6.4", syllabusRef: "6.4", title: "Anti-doping rules", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s5", code: "PE6.5", syllabusRef: "6.5", title: "Best practice for the use of supplements", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-gender-physical-activity", number: 9, subject: "pe", title: "Gender and Physical Activity", examQuestions: [], learningOutcomes: [
+        { id: "pe-gender-physical-activity-s1", code: "PE9.1", syllabusRef: "9.1", title: "Gender, sport and physical activity", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-gender-physical-activity-s2", code: "PE9.2", syllabusRef: "9.2", title: "Gender, media and body image", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-gender-physical-activity-s3", code: "PE9.3", syllabusRef: "9.3", title: "Gender socialisation and its impact on participation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-business-enterprise-sport", number: 10, subject: "pe", title: "Business and Enterprise in Physical Activity and Sport", examQuestions: [], learningOutcomes: [
+        { id: "pe-business-enterprise-sport-s1", code: "PE10.1", syllabusRef: "10.1", title: "Sponsorship and advertising", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s2", code: "PE10.2", syllabusRef: "10.2", title: "The business dimension", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s3", code: "PE10.3", syllabusRef: "10.3", title: "Mass participation in sport", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-business-enterprise-sport-s4", code: "PE10.4", syllabusRef: "10.4", title: "Tourism and sport", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-aquatics", number: 12, subject: "pe", title: "Aquatics", examQuestions: [], learningOutcomes: [
+        { id: "pe-aquatics-s1", code: "PE12.1", syllabusRef: "S6", title: "The aquatics area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s2", code: "PE12.2", syllabusRef: "S6", title: "Lifesaving", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s3", code: "PE12.3", syllabusRef: "S6", title: "Survival swimming", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s4", code: "PE12.4", syllabusRef: "S6", title: "Two swimming strokes", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s5", code: "PE12.5", syllabusRef: "S6", title: "Water polo", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-aquatics-s6", code: "PE12.6", syllabusRef: "S6", title: "Synchronised swimming", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-artistic-aesthetic-movement", number: 13, subject: "pe", title: "Artistic and Aesthetic Movement", examQuestions: [], learningOutcomes: [
+        { id: "pe-artistic-aesthetic-movement-s1", code: "PE13.1", syllabusRef: "S6", title: "The artistic and aesthetic area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s2", code: "PE13.2", syllabusRef: "S6", title: "Artistic gymnastics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s3", code: "PE13.3", syllabusRef: "S6", title: "Rhythmic gymnastics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-artistic-aesthetic-movement-s4", code: "PE13.4", syllabusRef: "S6", title: "Dance", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-athletics", number: 14, subject: "pe", title: "Athletics", examQuestions: [], learningOutcomes: [
+        { id: "pe-athletics-s1", code: "PE14.1", syllabusRef: "S6", title: "The athletics area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s2", code: "PE14.2", syllabusRef: "S6", title: "Running events", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s3", code: "PE14.3", syllabusRef: "S6", title: "Throwing events", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-athletics-s4", code: "PE14.4", syllabusRef: "S6", title: "Jumping events", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-games", number: 15, subject: "pe", title: "Games", examQuestions: [], learningOutcomes: [
+        { id: "pe-games-s1", code: "PE15.1", syllabusRef: "S6", title: "The games area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s2", code: "PE15.2", syllabusRef: "S6", title: "Invasion games", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s3", code: "PE15.3", syllabusRef: "S6", title: "Net/wall games", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-games-s4", code: "PE15.4", syllabusRef: "S6", title: "Striking/fielding games", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-personal-exercise-fitness", number: 16, subject: "pe", title: "Personal Exercise and Fitness Activities", examQuestions: [], learningOutcomes: [
+        { id: "pe-personal-exercise-fitness-s1", code: "PE16.1", syllabusRef: "S6", title: "The personal exercise and fitness area", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s2", code: "PE16.2", syllabusRef: "S6", title: "Aerobic training methods", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s3", code: "PE16.3", syllabusRef: "S6", title: "Conditioning and resistance", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-personal-exercise-fitness-s4", code: "PE16.4", syllabusRef: "S6", title: "Applying training principles to each method", notes: [], keyTerms: [], questions: [] }
+    ] },
     {
       id: "bio1", number: 1, subject: "biology", title: "Scientific Knowledge",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio1-1", code: "1.1", title: "Scientific knowledge, method and publishing", notes: [], keyTerms: [], questions: [] }
+      { id: "bio1-1", code: "BIO1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s1", code: "BIO1.1", syllabusRef: "U1.1", title: "The nature of scientific knowledge", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s2", code: "BIO1.2", syllabusRef: "U1.1", title: "Science as a global enterprise", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s3", code: "BIO1.3", syllabusRef: "U1.2", title: "Recognising bias and evaluating sources", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio2", number: 2, subject: "biology", title: "INVESTIGATING IN SCIENCE",
+      id: "bio2", number: 2, subject: "biology", title: "Investigating in Science",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio2-1", code: "2.1", title: "Understand how scientific investigations are designed, conducted, and evaluated with rigour and integrity", notes: [], keyTerms: [], questions: [] }
+      { id: "bio2-1", code: "BIO2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s1", code: "BIO2.1", syllabusRef: "U2.1", title: "Questioning and predicting", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s2", code: "BIO2.2", syllabusRef: "U2.3", title: "Designing and conducting investigations", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s3", code: "BIO2.3", syllabusRef: "U2.3", title: "Objectivity and data quality", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s4", code: "BIO2.4", syllabusRef: "U2.4", title: "Producing and analysing data", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s5", code: "BIO2.5", syllabusRef: "U2.5", title: "Reflecting on investigations", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s6", code: "BIO2.6", syllabusRef: "U2.6", title: "Communicating results", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s7", code: "BIO2.7", syllabusRef: "Assessment", title: "The Biology in Practice Investigation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio3", number: 3, subject: "biology", title: "SCIENCE IN SOCIETY",
+      id: "bio3", number: 3, subject: "biology", title: "Science in Society",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio3-1", code: "3.1", title: "Evaluate scientific evidence critically and understand the relationship between science and society across economic, social, sustainability, and ethical dimensions", notes: [], keyTerms: [], questions: [] }
+      { id: "bio3-1", code: "BIO3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s1", code: "BIO3.1", syllabusRef: "U3.1", title: "Evaluating evidence", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s2", code: "BIO3.2", syllabusRef: "U3.2", title: "Science, scientists and society", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s3", code: "BIO3.3", syllabusRef: "Strands overview", title: "The cross-cutting themes", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio4", number: 4, subject: "biology", title: "BIOLOGICAL REASONING",
+      id: "bio4", number: 4, subject: "biology", title: "Biological Reasoning",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio4-1", code: "4.1", title: "Apply key biological concepts — including systems, interdependence, evolution, and the transfer of information, matter, and energy — to explain living phenomena", notes: [], keyTerms: [], questions: [] }
+      { id: "bio4-1", code: "BIO4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio4-s1", code: "BIO4.1", syllabusRef: "U4.1", title: "Models", notes: [], keyTerms: [], questions: [] },
+      { id: "bio4-s2", code: "BIO4.2", syllabusRef: "U4.2", title: "Explaining biological phenomena", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio5", number: 5, subject: "biology", title: "Characteristics of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio5-1", code: "5.1", title: "Characteristics of life and levels of organisation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio5-1", code: "BIO5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio5-s1", code: "BIO5.1", syllabusRef: "1.1.1", title: "Characteristics of living things", notes: [], keyTerms: [], questions: [] },
+      { id: "bio5-s2", code: "BIO5.2", syllabusRef: "1.3.1", title: "Levels of organisation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio6", number: 6, subject: "biology", title: "Viruses, Classification and Domains of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio6-1", code: "6.1", title: "Viruses, classification and the three domains", notes: [], keyTerms: [], questions: [] }
+      { id: "bio6-1", code: "BIO6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s1", code: "BIO6.1", syllabusRef: "1.1.2", title: "Viruses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s2", code: "BIO6.2", syllabusRef: "1.1.3", title: "Domains of life", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s3", code: "BIO6.3", syllabusRef: "1.1.4", title: "Classification", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio7", number: 7, subject: "biology", title: "The Unit of Life — The Cell",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio7-1", code: "7.1", title: "Cell theory, microscopy and organelles", notes: [], keyTerms: [], questions: [] }
+      { id: "bio7-1", code: "BIO7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s1", code: "BIO7.1", syllabusRef: "1.3.2", title: "Prokaryotic and eukaryotic cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s2", code: "BIO7.2", syllabusRef: "1.3.3", title: "Microscopy", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s3", code: "BIO7.3", syllabusRef: "1.3.3", title: "Structures and organelles of animal and plant cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s4", code: "BIO7.4", syllabusRef: "1.3.3", title: "Investigation: plant and animal cells", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio8", number: 8, subject: "biology", title: "Biomolecules — The Chemicals of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio8-1", code: "8.1", title: "Biomolecules, food tests and nutritional roles", notes: [], keyTerms: [], questions: [] }
+      { id: "bio8-1", code: "BIO8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s1", code: "BIO8.1", syllabusRef: "1.2.1", title: "Biomolecules and metabolism", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s2", code: "BIO8.2", syllabusRef: "1.2.1", title: "Structures of biomolecules", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s3", code: "BIO8.3", syllabusRef: "1.2.1", title: "Metabolic roles and nutritional sources", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s4", code: "BIO8.4", syllabusRef: "1.2.2", title: "Minerals", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s5", code: "BIO8.5", syllabusRef: "1.2.3", title: "Vitamins", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s6", code: "BIO8.6", syllabusRef: "1.2.4", title: "Water", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s7", code: "BIO8.7", syllabusRef: "1.2.5", title: "Investigation: food tests", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s8", code: "BIO8.8", syllabusRef: "1.2.6", title: "Investigation: reducing sugars, quantitatively", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio9", number: 9, subject: "biology", title: "Transfer Molecules",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio9-1", code: "9.1", title: "The structure and roles of ATP, NAD+ and NADP+ as energy-carrying transfer molecules in cells", notes: [], keyTerms: [], questions: [] }
+      { id: "bio9-1", code: "BIO9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio9-s1", code: "BIO9.1", syllabusRef: "1.2.8", title: "ATP", notes: [], keyTerms: [], questions: [] },
+      { id: "bio9-s2", code: "BIO9.2", syllabusRef: "1.2.8", title: "NAD+ and NADP+", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio10", number: 10, subject: "biology", title: "DNA, RNA and the Genetic Code",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio10-1", code: "10.1", title: "The structure of DNA and RNA, the functions of DNA, and how the genetic code directs protein synthesis", notes: [], keyTerms: [], questions: [] }
+      { id: "bio10-1", code: "BIO10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s1", code: "BIO10.1", syllabusRef: "1.2.7", title: "Nucleotides, DNA and RNA", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s2", code: "BIO10.2", syllabusRef: "1.2.9", title: "Genes, proteins and traits", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s3", code: "BIO10.3", syllabusRef: "1.2.9", title: "The genetic code", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio11", number: 11, subject: "biology", title: "Genetic Inheritance",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio11-1", code: "11.1", title: "The principles of genetic inheritance including chromosome structure, Mendel's laws, sex linkage and gene linkage", notes: [], keyTerms: [], questions: [] }
+      { id: "bio11-1", code: "BIO11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s1", code: "BIO11.1", syllabusRef: "1.4.1", title: "Chromosome structure and genes", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s2", code: "BIO11.2", syllabusRef: "1.4.1", title: "Key concepts of information transfer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s3", code: "BIO11.3", syllabusRef: "1.4.2", title: "Nuclear and non-nuclear inheritance", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s4", code: "BIO11.4", syllabusRef: "1.4.3", title: "Genetic and epigenetic mechanisms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s5", code: "BIO11.5", syllabusRef: "1.4.4", title: "Monohybrid crosses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s6", code: "BIO11.6", syllabusRef: "1.4.5", title: "Incomplete dominance", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s7", code: "BIO11.7", syllabusRef: "1.4.6", title: "Mendel's Laws", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s8", code: "BIO11.8", syllabusRef: "1.4.7", title: "Dihybrid crosses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s9", code: "BIO11.9", syllabusRef: "1.4.8", title: "Linkage", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s10", code: "BIO11.10", syllabusRef: "1.4.9", title: "Sex determination", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s11", code: "BIO11.11", syllabusRef: "1.4.10", title: "Sex-linked traits", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s12", code: "BIO11.12", syllabusRef: "1.4.11", title: "Benefits and limitations of Mendelian genetics", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio12", number: 12, subject: "biology", title: "Evolution: The Origins of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio12-1", code: "12.1", title: "The mechanisms and evidence for evolution, including variation, mutation, natural selection and the importance of evolutionary theory", notes: [], keyTerms: [], questions: [] }
+      { id: "bio12-1", code: "BIO12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s1", code: "BIO12.1", syllabusRef: "1.5.1", title: "Variation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s2", code: "BIO12.2", syllabusRef: "1.5.2", title: "The theory of evolution by natural selection", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s3", code: "BIO12.3", syllabusRef: "1.5.3", title: "Evidence for evolution", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s4", code: "BIO12.4", syllabusRef: "1.5.3", title: "The importance of the theory", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio13", number: 13, subject: "biology", title: "Enzymes",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio13-1", code: "13.1", title: "Enzyme structure, action, factors and industrial uses", notes: [], keyTerms: [], questions: [] }
+      { id: "bio13-1", code: "BIO13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s1", code: "BIO13.1", syllabusRef: "2.1.1", title: "Enzymes as catalysts", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s2", code: "BIO13.2", syllabusRef: "2.1.2", title: "Enzyme structure and specificity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s3", code: "BIO13.3", syllabusRef: "2.1.3", title: "Investigation: rate of enzyme activity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s4", code: "BIO13.4", syllabusRef: "2.1.4", title: "Industrial enzymes", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio14", number: 14, subject: "biology", title: "Photosynthesis",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio14-1", code: "14.1", title: "Photosynthesis: stages, factors and leaf adaptations", notes: [], keyTerms: [], questions: [] }
+      { id: "bio14-1", code: "BIO14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s1", code: "BIO14.1", syllabusRef: "2.2.1", title: "Photosynthesis as an anabolic process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s2", code: "BIO14.2", syllabusRef: "2.2.2", title: "Investigation: rate of photosynthesis", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s3", code: "BIO14.3", syllabusRef: "2.2.4", title: "The light-dependent reactions", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s4", code: "BIO14.4", syllabusRef: "2.2.4", title: "The light-independent reactions", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s5", code: "BIO14.5", syllabusRef: "2.2.5", title: "The chloroplast's internal structure", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio15", number: 15, subject: "biology", title: "Respiration",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio15-1", code: "15.1", title: "Aerobic and anaerobic respiration, fermentation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio15-1", code: "BIO15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s1", code: "BIO15.1", syllabusRef: "2.2.1", title: "Respiration as a catabolic process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s2", code: "BIO15.2", syllabusRef: "2.2.3", title: "Investigation: conditions for fermentation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s3", code: "BIO15.3", syllabusRef: "2.2.4", title: "First-stage process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s4", code: "BIO15.4", syllabusRef: "2.2.4", title: "Second-stage process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s5", code: "BIO15.5", syllabusRef: "2.2.5", title: "The mitochondrion's internal structure and ATP synthase", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio16", number: 16, subject: "biology", title: "Cell Division and Cancer",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio16-1", code: "16.1", title: "Cell cycle, mitosis, meiosis and cancer", notes: [], keyTerms: [], questions: [] }
+      { id: "bio16-1", code: "BIO16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s1", code: "BIO16.1", syllabusRef: "2.3.1", title: "The cell cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s2", code: "BIO16.2", syllabusRef: "2.3.2", title: "Mitosis and meiosis", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s3", code: "BIO16.3", syllabusRef: "2.3.3", title: "DNA replication and mitosis in the cell cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s4", code: "BIO16.4", syllabusRef: "2.3.7", title: "Cancer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s5", code: "BIO16.5", syllabusRef: "2.3.8", title: "Causes, prevention and treatment of cancer", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio17", number: 17, subject: "biology", title: "DNA Replication, Protein Synthesis and Mutations",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio17-1", code: "17.1", title: "How DNA is copied and used to build proteins, and how mutations arise", notes: [], keyTerms: [], questions: [] }
+      { id: "bio17-1", code: "BIO17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s1", code: "BIO17.1", syllabusRef: "2.3.4", title: "Modelling DNA replication and information flow", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s2", code: "BIO17.2", syllabusRef: "2.3.5", title: "Transcription and translation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s3", code: "BIO17.3", syllabusRef: "2.3.6", title: "Mutations", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio18", number: 18, subject: "biology", title: "The Musculoskeletal System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio18-1", code: "18.1", title: "The structure and functions of the skeleton, muscles and joints", notes: [], keyTerms: [], questions: [] }
+      { id: "bio18-1", code: "BIO18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s1", code: "BIO18.1", syllabusRef: "2.4.1", title: "The musculoskeletal system as a system for response", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s2", code: "BIO18.2", syllabusRef: "2.4.2", title: "The axial skeleton", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s3", code: "BIO18.3", syllabusRef: "2.4.2", title: "The appendicular skeleton", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s4", code: "BIO18.4", syllabusRef: "2.4.3", title: "Muscles and joints", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio19", number: 19, subject: "biology", title: "The Nervous System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio19-1", code: "19.1", title: "The structure and function of the nervous system, from neurons to brain regions", notes: [], keyTerms: [], questions: [] }
+      { id: "bio19-1", code: "BIO19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s1", code: "BIO19.1", syllabusRef: "2.4.4", title: "CNS and PNS", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s2", code: "BIO19.2", syllabusRef: "2.4.4", title: "The reflex action", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s3", code: "BIO19.3", syllabusRef: "2.4.6", title: "Neurons", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s4", code: "BIO19.4", syllabusRef: "2.4.7", title: "Neurotransmission", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s5", code: "BIO19.5", syllabusRef: "2.4.8", title: "Conduction across the synaptic cleft and its disruption", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s6", code: "BIO19.6", syllabusRef: "2.4.9", title: "Dopamine and endorphins", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio20", number: 20, subject: "biology", title: "The Endocrine System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio20-1", code: "20.1", title: "How hormones are produced and used by the body, and their applications in health, sport and agriculture", notes: [], keyTerms: [], questions: [] }
+      { id: "bio20-1", code: "BIO20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio20-s1", code: "BIO20.1", syllabusRef: "2.4.10", title: "Glands, locations and hormones", notes: [], keyTerms: [], questions: [] },
+      { id: "bio20-s2", code: "BIO20.2", syllabusRef: "2.4.11", title: "Hormonal manipulation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio21", number: 21, subject: "biology", title: "HOMEOSTASIS",
+      id: "bio21", number: 21, subject: "biology", title: "Homeostasis",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio21-1", code: "21.1", title: "How organisms maintain a stable internal environment through feedback mechanisms and coordinated organ systems", notes: [], keyTerms: [], questions: [] }
+      { id: "bio21-1", code: "BIO21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s1", code: "BIO21.1", syllabusRef: "2.4.1", title: "Structures and systems for response", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s2", code: "BIO21.2", syllabusRef: "2.4.5", title: "Homeostasis as a stimulus-response model", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s3", code: "BIO21.3", syllabusRef: "2.4.5", title: "Nervous vs hormonal coordination", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio22", number: 22, subject: "biology", title: "IMMUNITY",
+      id: "bio22", number: 22, subject: "biology", title: "Immunity",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio22-1", code: "22.1", title: "How the immune system defends the body against pathogens through innate and acquired immunity, B cells, T cells, and vaccination", notes: [], keyTerms: [], questions: [] }
+      { id: "bio22-1", code: "BIO22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s1", code: "BIO22.1", syllabusRef: "2.4.12", title: "Pathogens", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s2", code: "BIO22.2", syllabusRef: "2.4.12", title: "Innate and adaptive immunity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s3", code: "BIO22.3", syllabusRef: "2.4.12", title: "Acquired immunity, prevention and treatment", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s4", code: "BIO22.4", syllabusRef: "2.4.13", title: "Viruses: replication", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s5", code: "BIO22.5", syllabusRef: "2.4.14", title: "White blood cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s6", code: "BIO22.6", syllabusRef: "2.4.15", title: "Emergence and spread of infectious disease", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s7", code: "BIO22.7", syllabusRef: "2.4.16", title: "Emerging diseases and society", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio23", number: 23, subject: "biology", title: "HUMAN REPRODUCTION",
+      id: "bio23", number: 23, subject: "biology", title: "Human Reproduction",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio23-1", code: "23.1", title: "The structure and function of the human male and female reproductive systems, the menstrual cycle, fertilisation, embryonic development, and fertility control", notes: [], keyTerms: [], questions: [] }
+      { id: "bio23-1", code: "BIO23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s1", code: "BIO23.1", syllabusRef: "2.5.1", title: "The male reproductive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s2", code: "BIO23.2", syllabusRef: "2.5.1", title: "The female reproductive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s3", code: "BIO23.3", syllabusRef: "2.5.1", title: "Gametes and fertilisation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s4", code: "BIO23.4", syllabusRef: "2.5.2", title: "The menstrual cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s5", code: "BIO23.5", syllabusRef: "2.5.3", title: "Pregnancy", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s6", code: "BIO23.6", syllabusRef: "2.5.4", title: "Hormones in reproduction", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s7", code: "BIO23.7", syllabusRef: "2.5.5", title: "Prenatal and postnatal care", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s8", code: "BIO23.8", syllabusRef: "2.5.6", title: "Fertility control and infertility", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio24", number: 24, subject: "biology", title: "PLANT REPRODUCTION",
+      id: "bio24", number: 24, subject: "biology", title: "Plant Reproduction",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio24-1", code: "24.1", title: "The structure of flowers, pollination, fertilisation, seed and fruit formation, dispersal, and germination in plants", notes: [], keyTerms: [], questions: [] }
+      { id: "bio24-1", code: "BIO24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s1", code: "BIO24.1", syllabusRef: "2.5.7", title: "Flower structure and pollination", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s2", code: "BIO24.2", syllabusRef: "2.5.7", title: "Investigation: insect- and wind-pollinated plants", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s3", code: "BIO24.3", syllabusRef: "2.5.8", title: "Seeds", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s4", code: "BIO24.4", syllabusRef: "2.5.8", title: "Fruit and seed dispersal", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio25", number: 25, subject: "biology", title: "Transport Across Membranes",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio25-1", code: "25.1", title: "Diffusion, osmosis, active transport", notes: [], keyTerms: [], questions: [] }
+      { id: "bio25-1", code: "BIO25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s1", code: "BIO25.1", syllabusRef: "2.6.1", title: "Diffusion, osmosis and active transport", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s2", code: "BIO25.2", syllabusRef: "2.6.1", title: "Osmosis in food preservation and plant health", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s3", code: "BIO25.3", syllabusRef: "2.6.2", title: "Investigation: rate of osmosis", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio26", number: 26, subject: "biology", title: "The Urinary System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio26-1", code: "26.1", title: "Kidney structure, nephron, ADH and osmoregulation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio26-1", code: "BIO26", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s1", code: "BIO26.1", syllabusRef: "2.6.3", title: "The urinary system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s2", code: "BIO26.2", syllabusRef: "2.6.3", title: "The nephron", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s3", code: "BIO26.3", syllabusRef: "2.6.3", title: "ADH and osmoregulation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio27", number: 27, subject: "biology", title: "The Digestive System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio27-1", code: "27.1", title: "Digestion, absorption and the liver", notes: [], keyTerms: [], questions: [] }
+      { id: "bio27-1", code: "BIO27", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s1", code: "BIO27.1", syllabusRef: "2.6.4", title: "The digestive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s2", code: "BIO27.2", syllabusRef: "2.6.4", title: "Mechanical breakdown", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s3", code: "BIO27.3", syllabusRef: "2.6.4", title: "Chemical breakdown", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s4", code: "BIO27.4", syllabusRef: "2.6.5", title: "Absorption, transport and storage", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s5", code: "BIO27.5", syllabusRef: "2.6.6", title: "Diet", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio28", number: 28, subject: "biology", title: "The Breathing System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio28-1", code: "28.1", title: "Breathing mechanics, gas exchange and lung structure", notes: [], keyTerms: [], questions: [] }
+      { id: "bio28-1", code: "BIO28", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio28-s1", code: "BIO28.1", syllabusRef: "2.6.7", title: "Gas exchange and the breathing mechanism", notes: [], keyTerms: [], questions: [] },
+      { id: "bio28-s2", code: "BIO28.2", syllabusRef: "2.6.8", title: "CO₂ as a controlling factor in breathing", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio29", number: 29, subject: "biology", title: "The Circulatory System and Blood",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio29-1", code: "29.1", title: "Heart, blood vessels, blood and circulation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio29-1", code: "BIO29", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s1", code: "BIO29.1", syllabusRef: "2.6.9", title: "Investigation: the heart", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s2", code: "BIO29.2", syllabusRef: "2.6.10", title: "Circulation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s3", code: "BIO29.3", syllabusRef: "2.6.11", title: "Heartbeat", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s4", code: "BIO29.4", syllabusRef: "2.6.12", title: "Blood", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s5", code: "BIO29.5", syllabusRef: "2.6.13", title: "Blood vessels", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio30", number: 30, subject: "biology", title: "Transport in Plants",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio30-1", code: "30.1", title: "Xylem, phloem, transpiration and mineral uptake", notes: [], keyTerms: [], questions: [] }
+      { id: "bio30-1", code: "BIO30", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s1", code: "BIO30.1", syllabusRef: "2.6.14", title: "Plant structures for transport", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s2", code: "BIO30.2", syllabusRef: "2.6.15", title: "Transport of water and minerals", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s3", code: "BIO30.3", syllabusRef: "2.6.15", title: "Transport of CO₂ and photosynthetic products", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s4", code: "BIO30.4", syllabusRef: "2.6.8", title: "CO₂ as a controlling factor in plant stomata", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s5", code: "BIO30.5", syllabusRef: "2.6.16", title: "Investigation: rate of transpiration", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio31", number: 31, subject: "biology", title: "Ecology, Ecosystems and Biodiversity",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio31-1", code: "31.1", title: "The structure of ecosystems, the meaning of biodiversity, and how energy and populations are managed within ecological systems", notes: [], keyTerms: [], questions: [] }
+      { id: "bio31-1", code: "BIO31", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s1", code: "BIO31.1", syllabusRef: "3.1.1", title: "Biosphere, ecosystems, habitats and biodiversity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s2", code: "BIO31.2", syllabusRef: "3.1.2", title: "Biodiversity loss and conservation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s3", code: "BIO31.3", syllabusRef: "3.1.3", title: "Investigation: human activity and species diversity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s4", code: "BIO31.4", syllabusRef: "3.1.4", title: "Simpson's Diversity Index", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s5", code: "BIO31.5", syllabusRef: "3.1.5", title: "Carrying capacity and limiting factors", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s6", code: "BIO31.6", syllabusRef: "3.1.6", title: "Population curves", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s7", code: "BIO31.7", syllabusRef: "3.1.7", title: "Energy and nutrient transfer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s8", code: "BIO31.8", syllabusRef: "3.1.8", title: "Pyramids of numbers", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s9", code: "BIO31.9", syllabusRef: "3.1.9", title: "Pyramids of biomass", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s10", code: "BIO31.10", syllabusRef: "3.1.10", title: "The niche", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio32", number: 32, subject: "biology", title: "Investigating an Ecosystem",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio32-1", code: "32.1", title: "The practical methods used to collect, identify and quantify organisms in a grassland ecosystem, and the abiotic and biotic factors that shape it", notes: [], keyTerms: [], questions: [] }
+      { id: "bio32-1", code: "BIO32", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s1", code: "BIO32.1", syllabusRef: "3.1.11", title: "Collection and identification", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s2", code: "BIO32.2", syllabusRef: "3.1.11", title: "Surveys", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s3", code: "BIO32.3", syllabusRef: "3.1.11", title: "Abiotic factors", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s4", code: "BIO32.4", syllabusRef: "3.1.11", title: "Biotic factors and relationships", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio33", number: 33, subject: "biology", title: "Microorganisms",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio33-1", code: "33.1", title: "The characteristics, nutrition, growth and industrial importance of bacteria and fungi, and the role of the human microbiome", notes: [], keyTerms: [], questions: [] }
+      { id: "bio33-1", code: "BIO33", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s1", code: "BIO33.1", syllabusRef: "3.2.1", title: "Bacteria and fungi", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s2", code: "BIO33.2", syllabusRef: "3.2.2", title: "Investigation: growth of microorganisms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s3", code: "BIO33.3", syllabusRef: "3.2.3", title: "Microorganisms in industry", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s4", code: "BIO33.4", syllabusRef: "3.2.4", title: "The microbiome", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio34", number: 34, subject: "biology", title: "Nutrient Cycling",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio34-1", code: "34.1", title: "How carbon and nitrogen cycle through ecosystems via biological and chemical processes, and the ethical issues arising from nutrient management", notes: [], keyTerms: [], questions: [] }
+      { id: "bio34-1", code: "BIO34", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s1", code: "BIO34.1", syllabusRef: "3.2.5", title: "The carbon cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s2", code: "BIO34.2", syllabusRef: "3.2.6", title: "The nitrogen cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s3", code: "BIO34.3", syllabusRef: "3.2.7", title: "Ethics and sustainability of nutrient cycling", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s4", code: "BIO34.4", syllabusRef: "3.2.8", title: "Climate change and biological strategies", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio35", number: 35, subject: "biology", title: "Genetic Engineering",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio35-1", code: "35.1", title: "The principles and steps of genetic engineering, DNA profiling and sequencing, and the ethical issues surrounding genetic technologies", notes: [], keyTerms: [], questions: [] }
+      { id: "bio35-1", code: "BIO35", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s1", code: "BIO35.1", syllabusRef: "3.3.1", title: "Genetic engineering", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s2", code: "BIO35.2", syllabusRef: "3.3.2", title: "DNA profiling", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s3", code: "BIO35.3", syllabusRef: "3.3.3", title: "Generating a DNA profile", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s4", code: "BIO35.4", syllabusRef: "3.3.4", title: "DNA sequencing", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s5", code: "BIO35.5", syllabusRef: "3.3.5", title: "Bioinformatics: genome databases", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s6", code: "BIO35.6", syllabusRef: "3.3.6", title: "Investigation: DNA-profile patterns", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s7", code: "BIO35.7", syllabusRef: "3.3.7", title: "Ethics of genetic technologies", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio-acronyms", number: 36, subject: "biology", title: "Biology Acronyms and Key Terms",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio-acronyms-1", code: "A.1", title: "Acronyms and key terms to learn", notes: [], keyTerms: [], questions: [] }
+      { id: "bio-acronyms-1", code: "BIO36", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio-acronyms-s1", code: "BIO36.1", syllabusRef: "Appendix 1", title: "Acronyms and key terms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio-acronyms-s2", code: "BIO36.2", syllabusRef: "Appendix 1", title: "Action verbs", notes: [], keyTerms: [], questions: [] }
       ],
     },
     { id: "geo-plate-tectonics", number: 1, subject: "geography", title: "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries", examQuestions: [], learningOutcomes: [
@@ -804,290 +1131,258 @@ const COURSE_DATA = {
     },
 
     /* =================== LC CHEMISTRY HL =================== */
-    /* learningOutcomes are the NCCA Senior Cycle Chemistry specification's own outcomes
-       (spec introduced Sept 2025). `code` is the spec's strand.topic.outcome reference.
-       Content currently sits on each chapter's first outcome as consolidated chapter
-       notes. The Full Notes view intentionally suppresses the remaining empty outcome
-       shells until content is authored for them individually. */
+    /* All chemistry chapters are split into the subsections of course-outlines/chemistry.md:
+       <chapter>-1 is the chapter review (it keeps the chapter's test questions) and
+       <chapter>-s<n> are the outline's subsections, whose notes come from content/chemistry/
+       via chemistry-notes.js. `syllabusRef` is the specification reference (NCCA
+       specification introduced Sept 2025, first examined June 2027). */
     {
       id: "chem1", number: 1, subject: "chemistry", title: "The Nature of Science",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem1-1", code: "U1.1", title: "Appreciate how scientists work and how scientific ideas are modified over time", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-2", code: "U1.2", title: "Conduct research relevant to a scientific issue and evaluate different sources of information, including secondary data, understanding that a source may lack detail or show bias", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-3", code: "U2.1", title: "Recognise questions that are appropriate for scientific investigation in chemistry", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-4", code: "U2.2", title: "Pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-5", code: "U2.3", title: "Design, plan and conduct investigations; explain how reliability, validity, accuracy, precision, error, fairness, safety, integrity, and the selection of suitable equipment have been considered", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-6", code: "U2.4", title: "Produce and select data (qualitatively and quantitatively), critically analyse data to identify patterns and relationships, identify anomalous observations, draw and justify conclusions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-7", code: "U2.5", title: "Review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-8", code: "U2.6", title: "Organise and communicate their research and investigative findings, using relevant scientific terminology and representations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-9", code: "U3.1", title: "Research and present information on the contribution that scientists make to scientific discovery and invention, and its impact on society", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-10", code: "U3.2", title: "Appreciate the role of chemistry in society, and its personal, social and global importance, and how society influences scientific research", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-11", code: "U3.3", title: "Evaluate media-based arguments concerning science and technology", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-12", code: "U4.1", title: "Relate observable phenomena to the chemical processes at the atomic, sub-atomic or molecular level", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-13", code: "U4.2", title: "Appreciate that models are simplified representations with underlying assumptions, can be modified as more data becomes available, and can predict the behaviour of a system", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-1", code: "CHEM1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s1", code: "CHEM1.1", syllabusRef: "U1.1, U1 LA", title: "How science works: ideas and models", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s2", code: "CHEM1.2", syllabusRef: "U1 LA, U1.2", title: "Science as a global enterprise and researching an issue", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s3", code: "CHEM1.3", syllabusRef: "U2.1–U2.2, U2.3", title: "Questions, hypotheses and designing investigations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s4", code: "CHEM1.4", syllabusRef: "U2 LA, U2.4", title: "Measurement, error and data", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s5", code: "CHEM1.5", syllabusRef: "U2.5, U2.6", title: "Reflecting, recording and communicating findings", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s6", code: "CHEM1.6", syllabusRef: "U3.1–U3.2, U3.3", title: "Chemistry in society and the media", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s7", code: "CHEM1.7", syllabusRef: "U4.1–U4.2, Assessment", title: "Representation and the Chemistry in Practice Investigation", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem2", number: 2, subject: "chemistry", title: "Atomic Structure: The Nuclear Model",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem2-1", code: "1.2.1", title: "Evaluate previous models of the atom against the current model, stating assumptions and limitations in each case", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-1", code: "CHEM2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-s1", code: "CHEM2.1", syllabusRef: "1.2.1, 1.2 LA", title: "Atomic structure: the nuclear model", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem3", number: 3, subject: "chemistry", title: "Atomic Structure: The Bohr and Orbital Models",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem3-1", code: "1.2.2", title: "Describe the atom using the current orbital model of atomic theory, including subatomic particles", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-2", code: "1.2.3", title: "Describe and explain the origin of lines on the atomic emission spectrum of hydrogen", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-3", code: "1.2.4", title: "Identify an element using appropriate primary or secondary data", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-4", code: "1.2.5", title: "Describe the electronic structure of elements and associated ions, identifying stable electronic configurations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-1", code: "CHEM3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-s1", code: "CHEM3.1", syllabusRef: "1.2.2, 1.2.3, 1.2.4, 1.2.5", title: "The orbital model and electronic structure", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem4", number: 4, subject: "chemistry", title: "The Periodic Table: Arrangement of Electrons",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem4-1", code: "1.3.1", title: "Describe the development of the modern periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem4-2", code: "1.3.3", title: "Examine and explain the arrangement of elements in groups, periods and blocks in the periodic table of elements", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-1", code: "CHEM4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-s1", code: "CHEM4.1", syllabusRef: "1.3.1, 1.3.3, 1.3 LA", title: "The periodic table: arrangement and use", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem5", number: 5, subject: "chemistry", title: "Chemical Bonding and Structure",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem5-1", code: "2.1.1", title: "Describe and compare different types of chemical bonding", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-2", code: "2.1.3", title: "Model different types of bonding to predict chemical formulae and outline the limitations in predicting bonding between atoms", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-3", code: "2.1.5", title: "Investigate, using primary data, the presence of ions in salts and in solutions, and identify an anion and cation in an unknown salt", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-4", code: "2.2.5", title: "Use VSEPR theory to predict and model the shapes of molecules", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-1", code: "CHEM5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s1", code: "CHEM5.1", syllabusRef: "2.1.1, 2.1.3, 2.2.5", title: "Bonding, formulae and shapes", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s2", code: "CHEM5.2", syllabusRef: "2.1.5", title: "Investigation: identifying ions in salts and solutions", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem6", number: 6, subject: "chemistry", title: "Electronegativity and the Continuum of Chemical Bonding",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem6-1", code: "2.1.2", title: "Predict the nature of chemical bonds between atoms, using trends in electronegativity values", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-2", code: "2.1.4", title: "Relate the properties of simple compounds to the nature of bonding present", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-3", code: "2.2.1", title: "Distinguish between intramolecular bonding and a range of intermolecular forces", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-4", code: "2.2.2", title: "Relate observed physical properties for a range of compounds to the type of intermolecular forces, accounting for trends", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-5", code: "2.2.3", title: "Explain qualitatively the influence of polarity, and symmetry, on intermolecular forces", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-6", code: "2.2.4", title: "Use the shapes and polarity of molecules of simple compounds to predict physical properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-1", code: "CHEM6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s1", code: "CHEM6.1", syllabusRef: "2.1.2, 2.1.4, 2.2.1", title: "Bond type and intermolecular forces", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s2", code: "CHEM6.2", syllabusRef: "2.2.2, 2.2.3, 2.2.4", title: "Polarity, shape and physical properties", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem7", number: 7, subject: "chemistry", title: "Families and Trends in the Periodic Table",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem7-1", code: "1.3.2", title: "Identify specific groups of elements and relate the group properties to its position in the periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-2", code: "1.3.4", title: "Examine trends and relationships in the periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-3", code: "1.3.5", title: "Explain trends in first ionisation energies, including exceptions, and in successive ionisation energies and atomic radii", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-1", code: "CHEM7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-s1", code: "CHEM7.1", syllabusRef: "1.3.2, 1.3.4, 1.3.5", title: "Families and trends in the periodic table", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem8", number: 8, subject: "chemistry", title: "The Mole: The Chemist's Counting Unit",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem8-1", code: "1.4.1", title: "Define and explain the mole in terms of the Avogadro constant, and relate the mole to how the amount of a substance can be quantified", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-2", code: "1.4.2", title: "Solve problems involving relative atomic mass and percentage abundance of isotopes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-3", code: "1.4.3", title: "State Avogadro's law and deduce the molar volume of a gas", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-4", code: "1.4.4", title: "Conduct an experiment to determine the relative molecular mass of a gas derived from a liquid", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-5", code: "1.4.5", title: "Explain and model the concept of concentration of a solution and outline how to prepare a range of solutions of different concentrations, including primary standard solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-6", code: "1.4.6", title: "Convert between units of concentration", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-1", code: "CHEM8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s1", code: "CHEM8.1", syllabusRef: "1.4.1, 1.4.2, 1.4.3, 1.4.4", title: "The mole and molar volume", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s2", code: "CHEM8.2", syllabusRef: "1.4.5, 1.4.6", title: "Solutions and concentration", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem9", number: 9, subject: "chemistry", title: "Kinetic Theory of Matter and Behaviour of Gases",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem9-1", code: "1.1.1", title: "Understand experimental evidence for the kinetic theory of matter", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-2", code: "1.1.2", title: "Analyse the kinetic theory of matter to explain the nature and behaviour of matter at the particulate level and model how matter changes state", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-3", code: "1.1.3", title: "Justify the use of different separation techniques for isolating one or more components from a mixture", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-4", code: "2.3.1", title: "Explain what is meant by the ideal gas, accounting for deviations of real gases from ideal gas behaviour", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-5", code: "2.3.2", title: "Solve and interpret quantitative problems using the ideal gas equation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-1", code: "CHEM9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s1", code: "CHEM9.1", syllabusRef: "1.1 LA, 1.1.1", title: "The kinetic theory and its evidence", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s2", code: "CHEM9.2", syllabusRef: "1.1.2, 1.1.3", title: "Using the kinetic theory: separation techniques", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s3", code: "CHEM9.3", syllabusRef: "2.3.1, 2.3.2", title: "Gas laws and the ideal gas equation", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem10", number: 10, subject: "chemistry", title: "Law of Conservation of Mass: Introducing Stoichiometry",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem10-1", code: "1.1.4", title: "Distinguish between physical change and chemical change of matter", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-2", code: "1.1.5", title: "Verify, using primary data, the law of conservation of mass and explain through the use of models", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-3", code: "1.4.7a", title: "Use the concept of a mole to determine empirical and molecular formulae, and to balance equations for reactions where reactants and products are specified", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-1", code: "CHEM10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s1", code: "CHEM10.1", syllabusRef: "1.1.4, 1.1.5", title: "Physical and chemical change", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s2", code: "CHEM10.2", syllabusRef: "1.4.7", title: "Formulae and balancing equations", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem11", number: 11, subject: "chemistry", title: "Acids and Bases",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem11-1", code: "3.4.1", title: "Predict the products of, and write balanced equations for, acid-base reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-2", code: "3.4.2", title: "Compare two theories of acid-base systems and justify why Brønsted-Lowry theory is a more extensive model for explaining behaviour", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-3", code: "3.4.3", title: "Apply Brønsted-Lowry theory to identify conjugate acid-base pairs and species acting as acids and bases in chemical equations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-4", code: "3.4.6", title: "Distinguish between weak and strong acids (and bases), and between concentrated and dilute acids (and bases)", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-1", code: "CHEM11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s1", code: "CHEM11.1", syllabusRef: "3.4.1, 3.4.2", title: "Acids, bases and their reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s2", code: "CHEM11.2", syllabusRef: "3.4.3, 3.4.4, 3.4.7", title: "Acid–base theories and strength", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem12", number: 12, subject: "chemistry", title: "Volumetric Analysis: Acid–Base",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem12-1", code: "4.1.1", title: "Recognise the importance of primary standards and standard solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-2", code: "4.1.3", title: "Investigate pH titration curves, using primary data from acid-base reactions, justifying appropriate indicators for each titration", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-3", code: "4.1.4", title: "Explain how weak acid and weak base acid-base indicators function, using Le Châtelier's principle", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-4", code: "4.1.5", title: "Investigate, using primary data, how to find the concentration of ethanoic acid in vinegar", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-1", code: "CHEM12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s1", code: "CHEM12.1", syllabusRef: "4.1.1, 4.1.2", title: "Standard solutions and acid–base titrations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s2", code: "CHEM12.2", syllabusRef: "4.1.3, 4.1.4, 4.1.5", title: "Titration curves, indicators and vinegar", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem13", number: 13, subject: "chemistry", title: "Acid–Base Volumetric Exam-Style Questions",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem13-1", code: "4.1.7", title: "Solve volumetric problems", notes: [], keyTerms: [], questions: [] },
+        { id: "chem13-1", code: "CHEM13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem13-s1", code: "CHEM13.1", syllabusRef: "4.1.7", title: "Acid–base volumetric problems", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem14", number: 14, subject: "chemistry", title: "Oxidation and Reduction",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem14-1", code: "3.5.1", title: "Describe oxidation and reduction, using suitable examples and applications, identifying oxidising and reducing agents in given chemical reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem14-2", code: "3.5.2", title: "Apply oxidation numbers to balance redox reaction equations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem14-3", code: "3.5.3", title: "Investigate displacement reactions of metals, using primary or secondary data, relating them to the electrochemical series", notes: [], keyTerms: [], questions: [] },
+        { id: "chem14-1", code: "CHEM14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem14-s1", code: "CHEM14.1", syllabusRef: "3.5.1", title: "Oxidation and reduction", notes: [], keyTerms: [], questions: [] },
+        { id: "chem14-s2", code: "CHEM14.2", syllabusRef: "3.5.2, 3.5.3", title: "Balancing redox equations and the electrochemical series", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem15", number: 15, subject: "chemistry", title: "Volumetric Analysis: Oxidation-Reduction",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem15-1", code: "4.1.2", title: "Determine the concentration of analytes by titration using primary standard solutions and/or solutions standardised using primary standards", notes: [], keyTerms: [], questions: [] },
-        { id: "chem15-2", code: "4.1.6", title: "Investigate, using primary data, the percentage of elemental iron in iron tablets", notes: [], keyTerms: [], questions: [] },
+        { id: "chem15-1", code: "CHEM15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem15-s1", code: "CHEM15.1", syllabusRef: "4.1.2, 4.1.6", title: "Redox titrations and iron tablets", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem16", number: 16, subject: "chemistry", title: "Oxidation–Reduction Volumetric Exam-Style Questions",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem16-1", code: "4.1.7", title: "Solve volumetric problems", notes: [], keyTerms: [], questions: [] },
+        { id: "chem16-1", code: "CHEM16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem16-s1", code: "CHEM16.1", syllabusRef: "4.1.7", title: "Redox volumetric problems", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem17", number: 17, subject: "chemistry", title: "Rates of Reaction",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem17-1", code: "3.2.1", title: "Define and explain rate of reaction", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-2", code: "3.2.2", title: "Describe collision theory, and give examples of slow and fast reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-3", code: "3.2.3", title: "Investigate, using primary data, the factors that affect rates of a reaction and interpret rate of reaction graphs, using primary and secondary data", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-4", code: "3.2.4", title: "Compare the energy profile diagrams of catalysed and uncatalysed reactions, for both exothermic and endothermic reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-5", code: "3.2.5", title: "Model two general catalytic mechanisms", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-1", code: "CHEM17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-s1", code: "CHEM17.1", syllabusRef: "3.2.1, 3.2.2", title: "Rate of reaction and collision theory", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-s2", code: "CHEM17.2", syllabusRef: "3.2.3", title: "Investigation: factors affecting rate", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-s3", code: "CHEM17.3", syllabusRef: "3.2.4, 3.2.5", title: "Catalysis", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem18", number: 18, subject: "chemistry", title: "Chemical Equilibrium",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem18-1", code: "3.3.1", title: "Appreciate that some reactions tend to be reversible and explain the concept of dynamic chemical equilibrium", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-2", code: "3.3.2", title: "Explain the factors that affect the value of the equilibrium constant (Kc), and use the mathematical model of Kc to describe and predict how given reactions would proceed", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-3", code: "3.3.3", title: "Solve problems involving the mathematical model for the equilibrium constant Kc", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-4", code: "3.3.4", title: "Apply Le Châtelier's principle to a variety of processes to predict responses to disturbances to the equilibrium and to predict conditions for optimising yields of product", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-5", code: "3.3.5", title: "Investigate, using primary and/or secondary data, how changes in temperature and concentration can affect the state of equilibrium", notes: [], keyTerms: [], questions: [] },
+        { id: "chem18-1", code: "CHEM18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem18-s1", code: "CHEM18.1", syllabusRef: "3.3.1, 3.3.2, 3.3.3", title: "Dynamic equilibrium and Kc", notes: [], keyTerms: [], questions: [] },
+        { id: "chem18-s2", code: "CHEM18.2", syllabusRef: "3.3.4, 3.3.5", title: "Le Châtelier's principle", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem19", number: 19, subject: "chemistry", title: "pH and Indicators",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem19-1", code: "3.4.4", title: "Explain the self-ionisation of water and deduce a mathematical representation for the ionic product of water (Kw), accounting for its temperature dependence", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-2", code: "3.4.5", title: "Measure pH, and explain the pH scale and the factors that affect the pH of a solution", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-3", code: "3.4.7", title: "Solve mathematical problems involving pH for dilute aqueous solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-4", code: "3.4.8", title: "Deduce mathematical representations for weak acid dissociation constant (Ka) and weak base dissociation constant (Kb)", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-5", code: "3.4.9", title: "Compare degrees of dissociation of strong and weak acids, and strong and weak bases, using Ka and Kb values", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-1", code: "CHEM19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-s1", code: "CHEM19.1", syllabusRef: "3.4.5, 3.4.6", title: "Self-ionisation of water and pH", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-s2", code: "CHEM19.2", syllabusRef: "3.4.8, 3.4.9, 3.4.10", title: "pH calculations and dissociation constants", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem20", number: 20, subject: "chemistry", title: "Environmental Chemistry",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem20-1", code: "4.3.1", title: "Describe the natural greenhouse effect and explain its significance", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-2", code: "4.3.2", title: "Discuss the evidence for the enhanced greenhouse effect and possible solutions to anthropogenic influences on the atmosphere", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-3", code: "4.3.3", title: "Discuss causes of water contamination and biochemical consequences", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-4", code: "4.3.4", title: "Describe the steps necessary in the treatment of drinking water and appreciate the impact of providing clean water for human use", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-5", code: "4.3.5", title: "Describe how a simple lithium ion cell works and discuss its life-cycle", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-6", code: "4.3.8", title: "Research an area of the course, through one of the cross-cutting themes (health, sustainability, and technology)", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-1", code: "CHEM20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s1", code: "CHEM20.1", syllabusRef: "4.3.1, 4.3.2", title: "The greenhouse effect", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s2", code: "CHEM20.2", syllabusRef: "4.3.3", title: "Water contamination", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s3", code: "CHEM20.3", syllabusRef: "4.3.4", title: "Treating drinking water", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s4", code: "CHEM20.4", syllabusRef: "4.3.5", title: "The lithium-ion cell", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s5", code: "CHEM20.5", syllabusRef: "4.3.8", title: "Researching chemistry", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem21", number: 21, subject: "chemistry", title: "Thermochemistry",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem21-1", code: "3.1.1", title: "Define bond enthalpy and explain enthalpy changes in a reaction in terms of making and breaking bonds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-2", code: "3.1.2", title: "Explain, and model diagrammatically, processes of energy transfer using exothermic and endothermic reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-3", code: "3.1.3", title: "Investigate, using primary data, how to determine ΔH for a suitable neutralisation reaction", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-4", code: "3.1.4", title: "Calculate ΔH for a chemical reaction and describe the energy transfer through a simple energy profile diagram", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-5", code: "3.1.5", title: "Analyse a given reaction, involving covalent molecules, to explain and predict the value of ΔH using average bond enthalpy values", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-6", code: "3.1.6", title: "Calculate and predict enthalpy changes using Hess's law", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-7", code: "3.1.7", title: "Construct balanced equations for the complete combustion of hydrocarbons and primary alcohols, and explain trends in the associated standard ΔH values", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-8", code: "3.1.8", title: "Investigate, using primary data, the energy change of combustion and compare experimental values to standard values, accounting for differences", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-1", code: "CHEM21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s1", code: "CHEM21.1", syllabusRef: "3.1.1, 3.1.2", title: "Energy changes in reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s2", code: "CHEM21.2", syllabusRef: "3.1.3, 3.1.4", title: "Calculating ΔH and the heat of neutralisation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s3", code: "CHEM21.3", syllabusRef: "3.1.5", title: "ΔH from bond enthalpies", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s4", code: "CHEM21.4", syllabusRef: "3.1.6", title: "Hess's law", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s5", code: "CHEM21.5", syllabusRef: "3.1.7, 3.1.8", title: "Combustion and heats of combustion", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem22", number: 22, subject: "chemistry", title: "Electrochemistry",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem22-1", code: "3.5.4", title: "Compare a primary and secondary cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-2", code: "3.5.5", title: "Create a simple galvanic cell and explain its operation", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-3", code: "3.5.6", title: "Create a simple electrolytic cell, explain its operation and split water using electrolysis", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-4", code: "3.5.7", title: "Compare a chemical cell with a fuel cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-5", code: "3.5.8", title: "Explain the operation of a simple hydrogen fuel cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-6", code: "3.5.9", title: "Research a role of electrochemistry in an area related to sustainability and technology in everyday life", notes: [], keyTerms: [], questions: [] },
+        { id: "chem22-1", code: "CHEM22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem22-s1", code: "CHEM22.1", syllabusRef: "3.5.4, 3.5.5, 3.5.6", title: "Galvanic and electrolytic cells", notes: [], keyTerms: [], questions: [] },
+        { id: "chem22-s2", code: "CHEM22.2", syllabusRef: "3.5.7, 3.5.8, 3.5.9", title: "Fuel cells and sustainability", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem23", number: 23, subject: "chemistry", title: "Allotropes of Carbon. Hydrocarbons",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem23-1", code: "2.4.1", title: "Outline the main sources of hydrocarbons and their uses in industry and society", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-2", code: "2.4.2", title: "Identify and research one major impact on society of the extensive use of hydrocarbons", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-3", code: "2.4.3", title: "Conduct an experiment to prepare ethene, observe its physical properties, and investigate some of its chemical properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-4", code: "2.4.4", title: "Describe and compare different groups of hydrocarbons, including composition, bonding and structure, and relate these to their characteristic properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-5", code: "2.4.5", title: "Explain and predict differences, if any, in properties within straight chain alkanes of different carbon number, alkanes of the same carbon number, and monounsaturated straight chain alkenes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-6", code: "2.4.6", title: "Explain the relative chemical stability of alkanes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-7", code: "2.4.7", title: "Construct and examine 3D models of hydrocarbon molecules and explain how bonding and isomers influence the spatial arrangement of atoms", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-8", code: "2.4.8", title: "Explain and compare the shapes of ethane, ethene, ethyne and benzene molecules in terms of sigma and pi bonds, including delocalised pi bonding", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-9", code: "2.4.9", title: "Distinguish between structural and geometrical isomerism, including how isomerism gives rise to different properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-10", code: "4.3.6", title: "Compare the properties and structures of allotropes of carbon", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-11", code: "4.3.7", title: "Discuss the use of carbon allotropes in society", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-1", code: "CHEM23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s1", code: "CHEM23.1", syllabusRef: "2.4.1, 2.4.2", title: "Hydrocarbons: sources, uses and impact", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s2", code: "CHEM23.2", syllabusRef: "2.4.3", title: "Investigation: preparing ethene", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s3", code: "CHEM23.3", syllabusRef: "2.4.4, 2.4.5, 2.4.6", title: "Groups of hydrocarbons and their properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s4", code: "CHEM23.4", syllabusRef: "2.4.7, 2.4.8, 2.4.9", title: "Shapes, bonding and isomerism", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s5", code: "CHEM23.5", syllabusRef: "4.3.6, 4.3.7", title: "Allotropes of carbon and their uses", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem24", number: 24, subject: "chemistry", title: "More Families of Organic Compounds",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem24-1", code: "4.2.1", title: "Outline sources of organic compounds and the use and impact of products based on organic compounds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-2", code: "4.2.2", title: "Apply rules for nomenclature and classify each functional group in terms of general formula and structure", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-3", code: "4.2.3", title: "Construct and compare representations of organic molecules", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-4", code: "4.2.5", title: "Relate the physical properties of organic molecules to molecular size and type of bonding present", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-5", code: "4.2.12", title: "Explain the acidity of carboxylic acid and alcohol functional groups", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-6", code: "4.2.15", title: "Explore the use of organic compounds in pharmaceutical products", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-1", code: "CHEM24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-s1", code: "CHEM24.1", syllabusRef: "4.2.2, 4.2.3", title: "Functional groups, naming and representation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-s2", code: "CHEM24.2", syllabusRef: "4.2.5, 4.2.12", title: "Physical properties and acidity", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-s3", code: "CHEM24.3", syllabusRef: "4.2.1, 4.2.15", title: "Organic products and pharmaceuticals", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem25", number: 25, subject: "chemistry", title: "Reactions of Organic Compounds",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem25-1", code: "4.2.4", title: "Conduct tests to distinguish between aldehydes and ketones, and to show the acidic nature of carboxylic acids", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-2", code: "4.2.6", title: "Describe five types of reactions and analyse a given reaction in terms of the type(s) of reaction taking place", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-3", code: "4.2.7", title: "Analyse an organic reaction scheme and predict possible reactions and reaction products", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-4", code: "4.2.8", title: "Conduct an experiment to prepare an ester", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-5", code: "4.2.9", title: "Conduct an experiment to synthesise benzoic acid, determining purity, melting point and yield", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-6", code: "4.2.10", title: "Describe reaction mechanisms involving movement of electrons, including supporting evidence", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-7", code: "4.2.11", title: "Describe redox reactions and acid-base reactions of organic compounds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-8", code: "4.2.13", title: "Outline how a soap works, as an example of a surfactant, and the applications of surfactants in everyday life", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-9", code: "4.2.14", title: "Conduct an activity to prepare soap, with NaOH either limiting or in excess", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-10", code: "4.2.16", title: "Describe the structure and applications of addition polymers and how non-biodegradability is related to their chemical stability", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-1", code: "CHEM25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s1", code: "CHEM25.1", syllabusRef: "4.2.6, 4.2.16", title: "Types of organic reaction and addition polymers", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s2", code: "CHEM25.2", syllabusRef: "4.2.4, 4.2.7, 4.2.8", title: "Tests, reaction schemes and preparing an ester", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s3", code: "CHEM25.3", syllabusRef: "4.2.9", title: "Investigation: synthesising benzoic acid", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s4", code: "CHEM25.4", syllabusRef: "4.2.10", title: "Reaction mechanisms", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s5", code: "CHEM25.5", syllabusRef: "4.2.11", title: "Redox and acid–base reactions of organic compounds", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s6", code: "CHEM25.6", syllabusRef: "4.2.13, 4.2.14", title: "Surfactants and soap", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
       id: "chem26", number: 26, subject: "chemistry", title: "Stoichiometry: Limiting Reactants and Percentage Yield",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem26-1", code: "1.4.7b", title: "Use the concept of a mole to analyse and solve quantitative problems based on balanced equations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem26-1", code: "CHEM26", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem26-s1", code: "CHEM26.1", syllabusRef: "1.4.7", title: "Quantitative problems from balanced equations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem26-s2", code: "CHEM26.2", syllabusRef: "1.4.7", title: "Theoretical, actual and percentage yield", notes: [], keyTerms: [], questions: [] },
+        { id: "chem26-s3", code: "CHEM26.3", syllabusRef: "1.4.7", title: "Limiting reagents", notes: [], keyTerms: [], questions: [] }
       ],
     },
 

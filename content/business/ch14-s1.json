@@ -1,0 +1,79 @@
+{
+  "loId": "ch14-s1",
+  "chapterId": "ch14",
+  "subsection": "1. Workforce planning, recruitment and selection",
+  "syllabusRef": "3.2.1, 3.2.2, 3.2.3",
+  "notes": [
+    { "h": "Workforce planning", "b": "Workforce planning means making sure a business has the right number of people, with the right skills, in the right roles at the right time.", "points": [
+      "Its purpose is to match the supply of labour to what the business needs, so that shortages or surpluses are spotted early rather than in a crisis.",
+      "Internal factors include planned growth or contraction, staff turnover, retirements and the skills and qualifications the current workforce already has.",
+      "External factors include the state of the labour market, employment legislation, technological change and the wider economy.",
+      "A firm expecting rapid growth in an area with few skilled workers may need to train existing staff or plan earlier recruitment to fill the gap."
+    ] },
+    { "h": "Internal and external recruitment", "b": "A vacancy can be filled from inside the organisation or from outside it, and each route has different advantages.", "points": [
+      "Internal recruitment fills a vacancy with an existing employee through promotion or transfer, which is quicker and cheaper and rewards loyal staff.",
+      "Internal recruitment can limit fresh ideas, and it can create a chain of gaps when the employee who moves leaves a role to be filled.",
+      "External recruitment brings in new skills, experience and perspectives from outside the business and widens the pool of candidates.",
+      "External recruitment is more expensive and slower, and new staff need a longer induction before they become fully productive."
+    ] },
+    { "h": "Recruitment stages: vacancy to shortlist", "b": "The recruitment process moves through a sequence of stages, and each stage prepares the next one.", "points": [
+      "Identifying the vacancy: the manager confirms that the role is needed, either as a replacement or as a new post in the workforce plan.",
+      "The job description sets out the purpose, duties, responsibilities and reporting lines of the role.",
+      "The person specification lists the qualifications, skills, experience and personal attributes a suitable candidate needs.",
+      "Advertising attracts candidates, who apply through application forms, CVs or cover letters.",
+      "Shortlisting narrows the applications to the candidates who best match the person specification."
+    ] },
+    { "h": "Recruitment stages: interview to contract", "b": "The final stages test the shortlisted candidates and turn the chosen candidate into an employee.", "points": [
+      "Interviews and tests assess shortlisted candidates on the skills and qualities in the person specification.",
+      "References from previous employers or other referees are checked before an offer is made.",
+      "The job offer is made, and the candidate accepts or declines it.",
+      "A written statement of the main terms of employment and the contract of employment are issued once the offer is accepted."
+    ] },
+    { "h": "Equality, diversity and inclusion in recruitment", "b": "Ethical recruitment treats every applicant fairly and on merit, and Irish employment equality law sets the boundaries.", "points": [
+      "The Employment Equality Acts prohibit discrimination in recruitment on nine grounds: gender, civil status, family status, sexual orientation, religion, age, disability, race and membership of the Traveller community.",
+      "Adverts and job descriptions should not state or imply a preference for a particular age, gender or background unless the law allows it.",
+      "Interview questions should relate to the job, so a candidate is not asked about family plans, religious beliefs or health unless it bears on the role.",
+      "Reasonable accommodation means adjusting the process, such as an accessible interview room or extra time for a test, so a candidate with a disability can compete on equal terms.",
+      "Blind shortlisting removes names, photos, ages and addresses from applications so that decisions rest on skills and experience.",
+      "A varied workforce brings a wider range of ideas and draws on a larger talent pool, so inclusion also supports the business."
+    ] },
+    { "h": "Digital recruitment: benefits", "b": "Digital tools have changed how vacancies are advertised, how applications are handled and how candidates are assessed.", "points": [
+      "Online job boards and LinkedIn allow a vacancy to reach a large, geographically wide audience quickly and at relatively low cost.",
+      "Applicant tracking systems store applications in one place, filter them by keywords and send automated updates to candidates.",
+      "AI screening software can rank applications against the person specification, which saves time when hundreds of applications arrive.",
+      "Video interviews let employers see candidates across long distances without travel costs, and recorded answers can be reviewed later.",
+      "Gamified tests and online assessments measure problem-solving and aptitude in an engaging format and can be scored automatically."
+    ] },
+    { "h": "Digital recruitment: drawbacks and evaluation", "b": "Digital methods improve reach, speed and cost, but they also raise problems of bias, privacy and exclusion.", "points": [
+      "Algorithmic bias: AI screening trained on past hiring data can repeat historic preferences and disadvantage women, older applicants or people with unusual career paths.",
+      "Keyword filtering can reject strong candidates whose CVs use different wording, so the system may exclude good applicants by accident.",
+      "Privacy: collecting and processing candidates' personal data must follow the General Data Protection Regulation, which requires transparency and limits on how data is used.",
+      "Exclusion: candidates without reliable internet access, digital skills or assistive technology can be disadvantaged by online-only processes.",
+      "Candidate experience: automated rejections and one-way video interviews can feel impersonal and may put off talented applicants.",
+      "Overall, digital recruitment is strongest where reach, speed and cost matter most, and it works best when human judgement is kept at key decision points."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Workforce planning", "definition": "Ensuring a business has the right number of people, with the right skills, in the right roles at the right time." },
+    { "term": "Internal recruitment", "definition": "Filling a vacancy with an existing employee, through promotion or transfer." },
+    { "term": "External recruitment", "definition": "Filling a vacancy with a candidate from outside the organisation." },
+    { "term": "Job description", "definition": "A document setting out the purpose, duties, responsibilities and reporting lines of a role." },
+    { "term": "Person specification", "definition": "A document listing the qualifications, skills, experience and personal attributes a candidate needs for a role." },
+    { "term": "Blind shortlisting", "definition": "Removing names, photos, ages and addresses from applications so that candidates are shortlisted on skills and experience." },
+    { "term": "Applicant tracking system", "definition": "Software that stores applications, filters them against criteria and manages communication with candidates." },
+    { "term": "Reasonable accommodation", "definition": "Adjustments to the recruitment process or the workplace so that a person with a disability can compete on equal terms." }
+  ],
+  "factCards": [
+    { "term": "Nine grounds under Irish employment equality law", "definition": "Gender, civil status, family status, sexual orientation, religion, age, disability, race and membership of the Traveller community." },
+    { "term": "Stages of recruitment, in order", "definition": "Identify the vacancy, write the job description and person specification, advertise, receive applications, shortlist, interview and test, check references, make the offer, issue the contract." },
+    { "term": "Advantages of internal recruitment", "definition": "Quicker and cheaper, rewards loyalty, and the candidate already knows the organisation." },
+    { "term": "Advantages of external recruitment", "definition": "Brings new skills, ideas and perspectives, and widens the pool of candidates." },
+    { "term": "Benefits of digital recruitment", "definition": "Wider reach, faster processing of applications, lower advertising and travel costs, and automated screening." },
+    { "term": "Risks of digital recruitment", "definition": "Algorithmic bias, privacy breaches, exclusion of candidates without digital access, and an impersonal candidate experience." },
+    { "term": "Documents used to define a vacancy", "definition": "The job description covers the role itself, while the person specification covers the ideal candidate." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A mid-sized Irish firm wants to fill twenty customer service roles and is considering digital tools for recruitment. Evaluate the use of digital technology in its recruitment and selection, considering reach, speed, cost, bias, privacy and exclusion.", "model": "Reach: online job boards and LinkedIn let the firm advertise to candidates across Ireland and abroad at relatively low cost, which helps when local applicant numbers are small. Speed: an applicant tracking system can filter hundreds of applications against the person specification within hours, so shortlisting is faster and the roles are filled sooner. Cost: video interviews remove travel costs for candidates and interviewers, although software subscriptions and staff training carry their own cost. Bias: if AI screening is trained on past hiring decisions, it may favour the profile of previous hires and disadvantage older applicants or people with career breaks, so the firm should test the tool for bias and keep a human check on rejections. Privacy: candidate data and assessment results fall under the General Data Protection Regulation, so the firm must explain what it collects, use it only for recruitment and delete it when no longer needed. Exclusion: candidates without reliable internet access or digital confidence may not complete an online test, so the firm should offer an alternative route. Overall, digital tools improve efficiency and reach, but they work best when they support human judgement at key decision points rather than replacing it." },
+    { "marks": 10, "prompt": "Explain how blind shortlisting supports ethical recruitment, and state one limitation of the practice.", "model": "Blind shortlisting removes names, photos, ages and addresses from applications, so shortlisters judge candidates on skills and experience rather than on characteristics that have no bearing on the job. This reduces the risk of unconscious bias based on gender, age, religion or background, and it supports equality, diversity and inclusion by widening the range of candidates who reach interview. A limitation is that it does not stop bias at the interview stage, where appearance, accent or manner may still influence the decision, so structured, job-related interview questions are also needed." }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "loId": "ch1-s1",
+  "chapterId": "ch1",
+  "subsection": "1. Stakeholders, their importance and interdependence",
+  "syllabusRef": "1.1.1",
+  "notes": [
+    { "h": "What a stakeholder is", "b": "A stakeholder is any person or group affected by a business or able to affect it. Stakeholders are classed as internal or external according to their relationship with the business.", "points": [
+      "Internal stakeholders work within the business or own it, such as owners, managers and employees.",
+      "External stakeholders sit outside the business but are affected by it or can affect it, such as consumers, suppliers, the local community and government.",
+      "Investors can be internal, when they are also owners, or external, when they provide money through shares or loans.",
+      "Managers run the business day to day, and interest groups, such as trade unions or lobby organisations, press particular concerns on the business."
+    ] },
+    { "h": "Owners and investors", "b": "Owners and investors provide finance and carry the risk of losing it, so they expect a return on their money.", "points": [
+      "Business owners take the main decisions and bear the loss if the business fails, so they want profit, growth and control.",
+      "Investors provide money through share purchases or loans, and want the security of their capital together with a return such as dividends or interest.",
+      "Irish example: a founder of a small food manufacturer who funds the business from savings is both owner and investor, so she carries the full financial risk."
+    ] },
+    { "h": "Employees and managers", "b": "Employees supply the labour that produces the business's goods and services, so their wellbeing and performance affect every other stakeholder.", "points": [
+      "Employees need fair wages, safe working conditions, job security and opportunities for training and progression.",
+      "Employees' skills and motivation shape productivity, customer service and quality, which in turn affect sales and reputation.",
+      "Managers coordinate employees and carry out the owners' strategy, so they must balance the needs of both groups.",
+      "Irish example: a hotel in Galway relies on its reception and housekeeping staff, and keeping them affects service quality and repeat bookings."
+    ] },
+    { "h": "Consumers and suppliers", "b": "Consumers buy the business's goods and services, and suppliers provide the inputs the business needs to operate.", "points": [
+      "Consumers expect good quality, a fair price, safety, reliability and, increasingly, products that are produced ethically and sustainably.",
+      "Suppliers want timely payment, reliable orders and a fair price, and many want a long-term relationship with the business.",
+      "Consumers provide the revenue a business needs, so a fall in customer trust can reduce sales quickly.",
+      "Irish example: a bakery that buys flour from an Irish mill depends on that supplier for consistent quality and delivery, while the mill depends on the bakery's regular orders."
+    ] },
+    { "h": "Local community and government", "b": "The local community and government are external stakeholders whose interests cover jobs, the environment, taxes and regulation.", "points": [
+      "The local community wants employment, a clean environment, safe roads and local spending, and may object to noise, pollution or heavy traffic.",
+      "Government collects taxes from businesses, such as corporation tax and VAT, sets laws on employment and safety, and funds public services.",
+      "Agencies such as Enterprise Ireland and the Local Enterprise Offices support businesses with funding and advice, so a firm's relationship with them can open practical help.",
+      "Irish example: a new data centre in a rural area creates local jobs, and brings scrutiny from the local authority on planning and the environment."
+    ] },
+    { "h": "How needs change from start-up to maturity", "b": "Stakeholder needs shift as a business develops, and the same stakeholder may move from supporting the business to demanding more from it.", "points": [
+      "At start-up, owners and investors prioritise survival and security, while employees accept uncertainty in exchange for growth potential.",
+      "At growth, owners and investors want funding for expansion and rising returns, and employees seek progression and new roles.",
+      "At maturity, investors look for steady dividends and stability, while consumers and suppliers value consistency and reliability over novelty.",
+      "As a business grows, government and community interests tend to intensify, because a larger firm has more effect on tax revenue, employment and the environment."
+    ] },
+    { "h": "Interdependence: one change ripples through", "b": "Stakeholders depend on one another, so a change affecting one group usually affects others.", "points": [
+      "A rise in supplier prices can squeeze owners' profits, which may lead to lower staff pay or higher prices for consumers.",
+      "A new environmental regulation raises the business's costs, which may reduce investor returns and change how the local community views the firm.",
+      "A staff strike can cut output, delay consumer orders and cause missed deliveries that strain supplier relationships.",
+      "Because of interdependence, a business that focuses on one stakeholder's needs while ignoring another's risks losing the support of both."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Stakeholder", "definition": "A person or group affected by a business's activities or able to influence its decisions." },
+    { "term": "Internal stakeholder", "definition": "A stakeholder who works within or owns the business, such as an owner, a manager or an employee." },
+    { "term": "External stakeholder", "definition": "A stakeholder outside the business who is affected by it or can affect it, such as a supplier or the government." },
+    { "term": "Interdependence", "definition": "The reliance of stakeholders on one another, so that a change affecting one group flows on to the others." },
+    { "term": "Investor", "definition": "A person or institution that provides money to a business, through shares or loans, in the expectation of a return." },
+    { "term": "Dividend", "definition": "A payment of part of a company's profit to its shareholders." },
+    { "term": "Supplier", "definition": "A business or person that provides goods, services or materials to another business." },
+    { "term": "Interest group", "definition": "A group that represents a particular concern, such as a trade union or a lobby organisation, and seeks to influence business or government decisions." },
+    { "term": "Start-up stage", "definition": "The early stage of a business when it is new, often unprofitable and dependent on the money of its founders and investors." }
+  ],
+  "factCards": [
+    { "term": "What employees need from a business", "definition": "Fair wages, job security, safe working conditions, and opportunities for progression and training." },
+    { "term": "What consumers expect", "definition": "Good quality, a fair price, safety and reliability, and in many cases ethical and sustainable production." },
+    { "term": "What owners risk", "definition": "The loss of their investment if the business fails, together with responsibility for the decisions taken." },
+    { "term": "Government's interests in a firm", "definition": "Tax revenue, employment, compliance with law, and the public services that tax funds." },
+    { "term": "What investors want at growth", "definition": "Funding for expansion and rising returns on their investment." },
+    { "term": "What consumers value at maturity", "definition": "Consistency and reliability in products, more than novelty." },
+    { "term": "A chain effect from supplier prices", "definition": "Lower owners' profits, which may lead to lower staff pay or higher consumer prices." },
+    { "term": "Typical concerns of the local community", "definition": "Jobs, noise, pollution, traffic and the spending the business brings to the area." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Explain the importance of two internal stakeholders and two external stakeholders to a named small Irish business.", "model": "Owners are internal stakeholders who fund the business and take its main decisions, so their goals for profit and growth shape the strategy. A business that fails to meet their expectations may lose its investment or its leadership. Employees are also internal stakeholders, and their skills and motivation determine the quality of the product and the service, which affect sales. Suppliers are external stakeholders who provide the inputs the business needs, so reliable supply and fair terms allow production to continue on schedule. Consumers are external stakeholders who generate the revenue, and a loss of their trust reduces sales quickly. Each group depends on the others, so a problem with one affects the rest." },
+    { "marks": 15, "prompt": "Explain how the needs of investors change as a business moves from start-up to growth.", "model": "At start-up, investors want security for their capital, because the business is new and may not yet be profitable, so they are more concerned with survival than with a return. As the business moves into growth, investors want funding for expansion to be used well, and they expect rising returns on their money. A growing business that reinvests profit may delay dividends, which investors must accept if they expect the business to increase in value." },
+    { "marks": 10, "prompt": "Explain how a rise in the price charged by a supplier could affect other stakeholders of a supermarket.", "model": "A higher supplier price raises the supermarket's costs, which squeezes the profit that owners and investors receive. To protect margins, the supermarket may pass the increase on to consumers through higher shelf prices, or it may reduce wages or staffing, which affects employees and the quality of service." }
+  ]
+}

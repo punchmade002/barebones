@@ -1,0 +1,170 @@
+{
+  "loId": "ch8-s2",
+  "chapterId": "ch8",
+  "subsection": "2. Business models and the business model canvas",
+  "syllabusRef": "2.3.3, 2.3.4",
+  "notes": [
+    {
+      "h": "Business models and value",
+      "b": "A business model describes how a business creates value, delivers it to customers and captures part of that value as income.",
+      "points": [
+        "Value creation: the business transforms inputs such as materials, skills and knowledge into products or services that customers want.",
+        "Value delivery: the business gets the product or service to customers through chosen channels and relationships.",
+        "Value capture: the business earns income from customers that is enough to cover its costs and leave a profit.",
+        "The model generates the income that sustains the enterprise, so a weak model cannot succeed even when the product itself is good."
+      ]
+    },
+    {
+      "h": "Role of the model in the business plan",
+      "b": "The business model is the core logic that the business plan turns into operational detail and financial forecasts.",
+      "points": [
+        "The business plan explains the model in full, and the financial plan tests whether its revenue streams cover its cost structure.",
+        "The canvas sketches the model on one page, which makes it easier to discuss with investors, staff and advisers.",
+        "Changing one element of the model, such as the sales channel, affects costs, customer relationships and revenue, so the plan must be updated to match."
+      ]
+    },
+    {
+      "h": "The canvas as a tool",
+      "b": "The business model canvas is a one-page tool with nine linked blocks that describe how an enterprise creates, delivers and captures value.",
+      "points": [
+        "The canvas is built around the customer and the offer, with the blocks grouped into the customer side, the infrastructure that supports the offer, and the financial side.",
+        "Because the blocks are linked, a change in one block, such as a new supplier, is traced through the others to see its full effect.",
+        "The canvas is a starting point for analysis rather than a finished plan, so it is revised as the business learns from customers."
+      ]
+    },
+    {
+      "h": "Customer side: four blocks",
+      "b": "The customer-side blocks describe who the business serves, what it offers them and how it reaches and keeps them.",
+      "points": [
+        "Customer segments: the distinct groups of people or organisations the business aims to serve, such as students, families or small firms.",
+        "Value proposition: the bundle of products and services that solves a customer problem or meets a need, and the reason customers choose it, such as a fast, cheap commute.",
+        "Channels: the ways the business communicates with customers and delivers the offer, such as shops, a website, an app or a sales team.",
+        "Customer relationships: the type of relationship kept with each segment, such as personal advice, self-service or a loyalty scheme."
+      ]
+    },
+    {
+      "h": "Infrastructure: three blocks",
+      "b": "The infrastructure blocks describe what the business needs in order to deliver its offer.",
+      "points": [
+        "Key resources: the assets needed to deliver the value proposition, such as premises, staff, technology, patents or capital; a bakery needs its ovens and skilled bakers.",
+        "Key activities: the most important things the business must do to make the model work, such as production, software development or distribution; a courier firm's key activity is route planning.",
+        "Key partners: the suppliers and outside organisations whose help the business relies on, such as outsourced providers and alliances; a food brand may rely on a co-packer."
+      ]
+    },
+    {
+      "h": "Financial side: two blocks and the test of viability",
+      "b": "The financial blocks show how income is earned and what it costs, and their balance decides whether the model is sound.",
+      "points": [
+        "Revenue streams: the sources of income from each customer segment, such as sales, subscriptions, fees or advertising; a gym earns from memberships and personal training.",
+        "Cost structure: the main costs of running the model, such as wages, rent, materials, marketing and finance costs; a shop's cost structure is dominated by rent and stock.",
+        "A model is financially sound when its revenue streams exceed its cost structure by enough to sustain the business over time."
+      ]
+    },
+    {
+      "h": "Worked example: a completed canvas",
+      "b": "This canvas describes Ryanair in general terms to show how the nine blocks link together.",
+      "points": [
+        "Customer segments: price-sensitive leisure travellers and some business travellers on short-haul routes.",
+        "Value proposition: low fares on short-haul flights, with optional extras such as bags and seat selection charged separately.",
+        "Channels: mainly the company's own website and app, which keeps distribution costs low.",
+        "Customer relationships: largely self-service online booking, with limited personal contact.",
+        "Revenue streams: fares, plus fees for extras and onboard sales.",
+        "Key resources: a fleet of aircraft, pilots and cabin crew, and the brand.",
+        "Key activities: flight operations, aircraft maintenance and route planning.",
+        "Key partners: airports, fuel suppliers and aircraft manufacturers.",
+        "Cost structure: fuel, airport charges, staff and the cost of aircraft ownership or leasing."
+      ]
+    },
+    {
+      "h": "How ethics and sustainability enter the model",
+      "b": "Ethical and sustainable choices can be built into the value proposition, the cost structure and the choice of partners.",
+      "points": [
+        "A value proposition can include sustainable materials or fair trade sourcing, which some customers will pay a premium for.",
+        "Responsible sourcing adds cost to the cost structure, and the model must show that customers' willingness to pay covers it.",
+        "The conduct of key partners affects the reputation of the whole model, so partners are chosen with care."
+      ]
+    },
+    {
+      "h": "Why a sound model underpins success",
+      "b": "A business with a good product can still fail if its model does not earn enough from customers to cover costs.",
+      "points": [
+        "A clear model shows where income comes from, so managers can concentrate on the revenue streams that matter most.",
+        "A model that depends on one partner or one revenue source is fragile if that source falls away.",
+        "A model can be tested on a small scale before large sums are spent, which reduces the risk of a failed launch.",
+        "Successful businesses review their models as customers, technology and costs change, rather than treating the model as fixed."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "business model",
+      "definition": "The way a business creates, delivers and captures value, including how it earns income from its customers."
+    },
+    {
+      "term": "business model canvas",
+      "definition": "A one-page tool with nine linked blocks that shows how an enterprise creates, delivers and captures value."
+    },
+    {
+      "term": "value creation",
+      "definition": "Transforming inputs such as materials, skills and knowledge into products or services that customers want."
+    },
+    {
+      "term": "value capture",
+      "definition": "The process by which a business earns income from customers that is enough to cover its costs and make a profit."
+    },
+    {
+      "term": "customer segments",
+      "definition": "The distinct groups of people or organisations that a business aims to serve."
+    },
+    {
+      "term": "value proposition",
+      "definition": "The bundle of products and services that solves a customer problem or meets a need, and the reason customers choose it."
+    },
+    {
+      "term": "revenue streams",
+      "definition": "The sources of income a business earns from each customer segment, such as sales, subscriptions or fees."
+    },
+    {
+      "term": "cost structure",
+      "definition": "The main costs of running a business model, such as wages, rent, materials, marketing and finance costs."
+    },
+    {
+      "term": "key partners",
+      "definition": "The suppliers and outside organisations whose help a business needs to run its model."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four areas of the canvas",
+      "definition": "The customer side, the offer, the infrastructure and the financial side, each made up of linked blocks."
+    },
+    {
+      "term": "Three stages of value",
+      "definition": "Creation of value, delivery of value to customers, and capture of part of that value as income."
+    },
+    {
+      "term": "Order for building a canvas",
+      "definition": "Identify customers and their needs, define the offer, choose channels and relationships, then work out resources, activities, partners, revenues and costs."
+    },
+    {
+      "term": "Risk of a single source",
+      "definition": "A model that relies on one partner or one revenue stream is fragile if that source fails."
+    },
+    {
+      "term": "Reason to test a model early",
+      "definition": "Testing reduces the risk of spending large sums on a model that does not earn enough income."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 15,
+      "prompt": "Explain the role of business models in generating income for an enterprise, and outline how the business model canvas can be used to describe one.",
+      "model": "A business model explains how an enterprise creates value for customers, delivers it and captures part of that value as income. Without a clear model, a business cannot know which customers will pay, how much they will pay or what costs must be covered, so even a good product may fail. The business model canvas describes the model on one page using nine linked blocks. For example, a phone repair shop would identify its customer segments as local households and small businesses, its value proposition as quick repairs at fair prices, its channels as a walk-in shop and a booking app, and its revenue streams as repair fees and accessory sales. Linking the blocks then shows whether repair income covers the costs of staff, parts and rent."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe the business model of an Irish business of your choice using the business model canvas, identifying how it creates, delivers and captures value.",
+      "model": "Take a regional bakery that supplies cafes. Value creation: it turns flour, butter and skilled baking into fresh bread and pastries that cafes can sell each day. Value delivery: it uses a van round and standing orders placed by phone or email, so bread arrives before the cafes open. Value capture: it charges cafes wholesale prices per order and earns a margin above ingredient and labour costs. The customer segments are independent cafes and hotels, and the value proposition is consistent quality with reliable daily delivery. Key resources are the premises, ovens and skilled bakers; key activities are baking, quality control and planning delivery routes; key partners are flour mills and packaging suppliers. The cost structure covers wages, ingredients, fuel and van costs, and the revenue stream comes from wholesale orders. Because the blocks are linked, a rise in fuel costs affects the cost structure and may prompt a change in delivery routes or prices."
+    }
+  ]
+}

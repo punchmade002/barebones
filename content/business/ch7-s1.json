@@ -1,0 +1,72 @@
+{
+  "loId": "ch7-s1",
+  "chapterId": "ch7",
+  "subsection": "1. How business ideas are developed",
+  "syllabusRef": "2.2.1",
+  "notes": [
+    { "h": "Internal sources of ideas", "b": "Ideas from inside a firm come from people and records the firm already has.", "points": [
+      "Staff are a strong internal source because they see customer problems and work practices first-hand.",
+      "Intrapreneurs inside a firm can propose new products, which gives the firm innovation without setting up a new start-up.",
+      "Research and development produces new products or processes through structured testing and experiment.",
+      "Brainstorming sessions bring staff together to generate many ideas quickly, to be screened later.",
+      "Existing products suggest extensions, such as a new size or flavour of a popular line.",
+      "Sales data shows which products sell, to whom and when, and can reveal gaps or changing demand."
+    ] },
+    { "h": "External sources of ideas", "b": "Ideas from outside the firm show what customers want, what competitors offer and where the wider world is moving.", "points": [
+      "Customers reveal ideas through complaints, reviews and direct requests, which show needs the firm is not meeting.",
+      "Competitors show what the market already offers and where it is weak or overcrowded.",
+      "Market research, such as surveys and focus groups, tests whether an idea has demand before the firm invests in it.",
+      "Trends in lifestyle, population and spending, such as growing interest in plant-based food, point to new markets.",
+      "New technology can make a product possible or cheaper to produce, such as mobile payment apps.",
+      "Travel exposes entrepreneurs to products and services that are not yet available at home.",
+      "Hobbies and personal interests give ideas that the founder understands well enough to judge their quality.",
+      "Government and university research produce findings that firms can commercialise, often through partnership or licensing."
+    ] },
+    { "h": "Idea generation and screening", "b": "Generation produces many ideas, and screening narrows the list to those worth developing.", "points": [
+      "Idea generation aims for quantity first, because early judgement can stop creative ideas before they are properly considered.",
+      "Screening tests each idea against criteria such as fit with the firm's goals, likely cost and likely demand.",
+      "A simple screening matrix scores each idea on each criterion and gives the most important criteria the highest weighting.",
+      "Ideas that pass screening move to development, where the firm checks their feasibility in more detail."
+    ] },
+    { "h": "Factors that help an idea develop", "b": "Several factors decide whether an idea grows into a viable business.", "points": [
+      "Market demand: a strong and growing need for the product improves its chance of success.",
+      "Competition: the number and strength of rivals affects how easily a new idea can win customers.",
+      "Finance: an idea needs money for development, production and marketing before it earns revenue.",
+      "Skills and experience: a founder or team with the right skills reduces the risk of poor execution.",
+      "Technology: available technology determines whether a product can be made at a reasonable cost."
+    ] },
+    { "h": "Factors that hinder an idea", "b": "The same kinds of factor can also block an idea or delay it.", "points": [
+      "Legal and regulatory constraints, such as food safety rules or planning permission, can delay or stop a product.",
+      "Economic conditions, such as high interest rates or weak consumer spending, reduce demand and make borrowing costly.",
+      "Ethics and sustainability: an idea that harms the environment or breaks ethical standards may be rejected or lose customers.",
+      "Timing: an idea can arrive before its market is ready, or the market can move on before the firm launches."
+    ] },
+    { "h": "Illustrative examples", "b": "These examples are illustrative, showing how an idea can start from a particular source. They are not historical claims.", "points": [
+      "A Cork food producer might develop a new snack from sales data showing growing demand for healthy snacks in supermarkets.",
+      "A Dublin software firm might develop a booking app from a hobby or personal frustration of its founder that other customers also share.",
+      "Stripe, founded by two Irish brothers, grew from the problem of how online businesses take payments, an example of an idea shaped by digital trade."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Internal sources of ideas", "definition": "Ideas that come from within the firm, such as staff, existing products, research and development, and sales records." },
+    { "term": "External sources of ideas", "definition": "Ideas that come from outside the firm, such as customers, competitors, trends, technology and research bodies." },
+    { "term": "Idea generation", "definition": "The stage of producing many possible business ideas before any of them are judged." },
+    { "term": "Screening", "definition": "Testing a list of ideas against set criteria to decide which should go forward for development." },
+    { "term": "Brainstorming", "definition": "A group technique in which people suggest ideas freely, with judgement postponed until later." },
+    { "term": "Market research", "definition": "The systematic gathering of information about customers, competitors and demand, using surveys, interviews or focus groups." },
+    { "term": "Research and development", "definition": "Systematic work that tests new ideas to create new or improved products and processes." },
+    { "term": "Sales data", "definition": "Records of what products sold, when, to whom and at what price, used to spot patterns in demand." }
+  ],
+  "factCards": [
+    { "term": "Five internal sources of business ideas", "definition": "Staff and intrapreneurs, research and development, brainstorming, existing products and sales data." },
+    { "term": "Eight external sources of business ideas", "definition": "Customers, competitors, market research, trends, technology, travel, hobbies, and government and university research." },
+    { "term": "Factors that help an idea develop", "definition": "Market demand, competition, finance, skills and experience, and technology." },
+    { "term": "Factors that hinder an idea", "definition": "Legal and regulatory constraints, economic conditions, ethics and sustainability, and timing." },
+    { "term": "Questions to ask when screening an idea", "definition": "Does it fit the firm's goals, can it be funded, is there enough demand, and can it be made and sold legally?" }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Analyse how a small Irish food business could use both internal and external sources to generate ideas for a new product.", "model": "Internal sources give the business ideas from what it already knows. Staff who handle customer orders may notice that buyers ask for smaller portions, and sales data may show which existing products sell best, so the firm can extend its best-selling line into a new size. External sources add what the business cannot see from the inside. Customer reviews and requests show unmet needs, such as a demand for lower-sugar products. Trends in healthy eating point to a growing market, and competitor products show what is already on the shelf and where a gap exists. Using both sources is valuable because internal sources are cheap and fast, while external sources protect the firm from developing a product that its own customers do not want." },
+    { "marks": 10, "prompt": "Explain what idea screening is and give two criteria a firm might use.", "model": "Screening tests a list of generated ideas against set criteria to decide which should go forward for development. Two criteria are fit with the firm's goals, so that an idea matches its strategy, and likely demand, so that the firm only develops ideas customers are likely to buy." },
+    { "marks": 15, "prompt": "Discuss two factors that could hinder an idea for a mobile banking app in Ireland from developing into a business.", "model": "Legal and regulatory constraints are a major factor, because a financial app must meet strict rules on customer data and security, and compliance can add cost and delay before launch. Competition is a second factor, since established banks and existing payment apps already serve many customers, which makes it hard for a new app to win enough users to be viable. The firm must consider these as a whole, because a strong idea can still fail if the regulatory cost or the competitive pressure is greater than the firm can afford." }
+  ]
+}

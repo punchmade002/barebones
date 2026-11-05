@@ -1,0 +1,92 @@
+{
+  "loId": "bio14-s3",
+  "chapterId": "bio14",
+  "subsection": "The light-dependent reactions",
+  "syllabusRef": "2.2.4",
+  "notes": [
+    {
+      "h": "Capturing light: photons, pigments and the reaction centre (Higher Level only)",
+      "points": [
+        "Light travels as tiny packets of energy called photons. A pigment is a molecule that absorbs light of particular colours, or wavelengths.",
+        "The thylakoid membranes hold several pigments: chlorophyll a, chlorophyll b, and the yellow and orange carotenoids. Having several pigments widens the range of colours of light the plant can use.",
+        "Pigment molecules are grouped in clusters, called light-harvesting or antenna complexes, of hundreds of molecules around a reaction centre.",
+        "When a pigment molecule absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll molecule (chlorophyll a).",
+        "At the reaction centre, the energy raises (excites) an electron of the chlorophyll to a high energy level. This energised electron leaves the chlorophyll and is taken up by the first electron acceptor of an electron transport chain.",
+        "Having lost a negatively charged electron, the reaction-centre chlorophyll molecule is left positively charged. It must regain an electron before it can absorb energy and release an electron again."
+      ]
+    },
+    {
+      "h": "Non-cyclic pathway (Higher Level only)",
+      "points": [
+        "1. Light energy reaches the reaction centre, and energised electrons leave the chlorophyll.",
+        "2. Electron transfer: the high-energy electrons are passed along an electron transport chain, a series of electron carriers in the thylakoid membrane. At each transfer they lose some energy, and this energy is used to make ATP from ADP and Pi.",
+        "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺. Each NADP⁺ takes two electrons and one proton (H⁺), forming NADPH, which carries the electrons and hydrogen to the light-independent reactions.",
+        "The reaction is NADP⁺ + 2e⁻ + H⁺ → NADPH.",
+        "The electrons are not used up: in the non-cyclic pathway they end up on NADPH.",
+        "4. Photolysis: the positively charged chlorophyll molecule strongly attracts electrons and pulls them from water molecules, splitting the water. Photolysis means splitting by light, because the energy for it ultimately comes from light.",
+        "The equation for photolysis is 2H₂O → 4H⁺ + 4e⁻ + O₂.",
+        "5. The electrons from water replace those lost by the chlorophyll, so the chlorophyll is neutral again and ready to absorb more energy.",
+        "The protons (H⁺) are used in forming NADPH, and they contribute to the proton gradient explained in The chloroplast's internal structure.",
+        "The oxygen is a by-product of photolysis. It is used in respiration or released through the stomata.",
+        "Non-cyclic: the electrons travel in one direction only, from water through the chlorophyll and the chain to NADP⁺. They never return to the chlorophyll they came from. This pathway produces ATP, NADPH and oxygen."
+      ]
+    },
+    {
+      "h": "Cyclic pathway (Higher Level only)",
+      "points": [
+        "In the cyclic pathway, some energised electrons leaving the reaction-centre chlorophyll pass along carriers of the electron transport chain and return to the same chlorophyll molecule, instead of going to NADP⁺.",
+        "As they pass along the carriers, they transfer their surplus energy to making ATP from ADP and Pi. When they arrive back, the chlorophyll is neutral again, so no electrons are taken from water.",
+        "Products of the cyclic pathway: ATP only. No NADPH is made, water is not split and no oxygen is released.",
+        "The light-independent reactions use more ATP than NADPH, in a ratio of 3 ATP to 2 NADPH for each CO₂ molecule fixed, so the cyclic pathway tops up the supply of ATP.",
+        "The cyclic pathway also runs when NADP⁺ is in short supply, because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
+      ]
+    },
+    {
+      "h": "Comparing the two pathways (Higher Level only)",
+      "points": [
+        "Route of electrons: non-cyclic, one way from water to NADP⁺; cyclic, from the chlorophyll round the carriers and back to the chlorophyll.",
+        "Products: non-cyclic, ATP, NADPH and O₂; cyclic, ATP only.",
+        "Water: split by photolysis in the non-cyclic pathway; not used in the cyclic pathway.",
+        "Final electron acceptor: NADP⁺ in the non-cyclic pathway; the chlorophyll molecule itself in the cyclic pathway.",
+        "Both pathways begin with light energy reaching the reaction centre and an energised electron leaving the chlorophyll. Both pass electrons along carriers in the thylakoid membrane and make ATP, and both take place on the thylakoid membranes.",
+        "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2. They describe NADP⁺ first gaining two electrons to become NADP⁻ before it attracts a proton; the reaction to learn is the single step to NADPH described above.",
+        "Diagram: the two pathways on one energy diagram. Show a chlorophyll molecule at the bottom receiving light, as a wavy arrow, from a cluster of pigment molecules, and an arrow for the energised electron rising to an electron acceptor. For the non-cyclic pathway, draw a downhill chain of carriers labelled ATP made, ending at NADP⁺ + H⁺ → NADPH, with water entering below the chlorophyll as H₂O → 2H⁺ + ½O₂ + 2e⁻ and the electrons going to the chlorophyll. For the cyclic pathway, draw a branch from the chain looping back to the chlorophyll, labelled ATP made. Label photon, pigment molecules, reaction centre (chlorophyll), electron acceptor, electron transport chain, ATP, NADP⁺, NADPH, photolysis, O₂ and H⁺."
+      ]
+    },
+    {
+      "h": "Summary of the light-dependent reactions (Higher Level only)",
+      "points": [
+        "Location: the thylakoid membranes (grana) of the chloroplast, where the pigments and carriers are held (see The chloroplast's internal structure).",
+        "Inputs: light energy, water, ADP + Pi and NADP⁺. Outputs: ATP and NADPH, passed to the stroma for the light-independent reactions, and oxygen as a by-product.",
+        "Energy conversion: light energy becomes chemical energy, held in ATP and in the high-energy electrons of NADPH.",
+        "Transfer molecules: ATP carries energy, and NADPH carries electrons and hydrogen to the light-independent reactions. ADP + Pi and NADP⁺ come back to be reloaded. The full two-stage model is drawn in The light-independent reactions."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Photon", "definition": "A tiny packet of light energy, absorbed by pigment molecules in the light-dependent reactions." },
+    { "term": "Reaction centre", "definition": "The special chlorophyll a molecule, surrounded by pigment clusters, where light energy excites an electron that leaves the chlorophyll." },
+    { "term": "Photolysis", "definition": "The splitting of water molecules, driven by the positively charged chlorophyll, into protons, electrons and oxygen." },
+    { "term": "Non-cyclic pathway", "definition": "The route in which electrons pass from water through the chlorophyll and the electron transport chain to NADP⁺, producing ATP, NADPH and oxygen." },
+    { "term": "Cyclic pathway", "definition": "The route in which energised electrons return to the same chlorophyll after passing along the carriers, producing ATP only." },
+    { "term": "Electron transport chain", "definition": "A series of electron carriers that pass electrons from one to the next, releasing energy in small steps that is used to make ATP." },
+    { "term": "NADPH", "definition": "The electron and hydrogen carrier formed when NADP⁺ takes two electrons and one proton; it carries these to the light-independent reactions." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between the cyclic and non-cyclic pathways of the light-dependent reactions.",
+      "model": "In the cyclic pathway, energised electrons leave the reaction-centre chlorophyll, pass along the carriers of the electron transport chain and return to the same chlorophyll, instead of going to NADP⁺. Surplus energy from them is used to make ATP, and ATP is the only product. In the non-cyclic pathway, electrons travel one way, from water through the chlorophyll and the chain to NADP⁺, so this pathway makes ATP, NADPH and oxygen. Water is split by photolysis only in the non-cyclic pathway; in the cyclic pathway water is not split, so no oxygen is released and no NADPH is made."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the events of the non-cyclic pathway, from the absorption of a photon to the production of NADPH and oxygen.",
+      "model": "A photon of light is absorbed by a pigment molecule in a light-harvesting cluster of pigments such as chlorophyll a, chlorophyll b and carotenoids. The energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule. There it excites an electron to a high energy level, and the energised electron leaves the chlorophyll and is taken up by the first electron acceptor of an electron transport chain. The chlorophyll, having lost an electron, is left positively charged. The electrons pass along the chain of carriers in the thylakoid membrane, losing some energy at each transfer, and this energy is used to make ATP from ADP and Pi. At the end of the chain the electrons are passed to NADP⁺, which takes two electrons and one proton (H⁺) to form NADPH. Meanwhile the positively charged chlorophyll attracts electrons strongly and pulls them from water molecules, splitting the water by photolysis: 2H₂O → 4H⁺ + 4e⁻ + O₂. The electrons from water replace those lost by the chlorophyll, which becomes neutral again and can absorb more energy. The oxygen is released as a by-product."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why a chloroplast needs the cyclic pathway as well as the non-cyclic pathway.",
+      "model": "The non-cyclic pathway produces ATP, NADPH and oxygen, but the light-independent reactions use more ATP than NADPH, in a ratio of 3 ATP to 2 NADPH for each CO₂ molecule fixed. The cyclic pathway makes extra ATP from the surplus energy of electrons that return to the chlorophyll, which tops up the supply of ATP for the light-independent reactions. The cyclic pathway is also needed when NADP⁺ is in short supply, because most of it is already loaded as NADPH; the energised electrons then still have an acceptor, the chlorophyll itself, so they are not lost. The cyclic pathway produces ATP only, so it supplements the non-cyclic supply rather than replacing it."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "loId": "ch7-s3",
+  "chapterId": "ch7",
+  "subsection": "3. The feasibility study",
+  "syllabusRef": "2.2.2, 2.2.3",
+  "notes": [
+    { "h": "What a feasibility study is", "b": "A feasibility study tests whether a business idea is likely to succeed before the firm commits significant money.", "points": [
+      "A feasibility study assesses the potential future viability of an idea, meaning whether it can survive and earn a profit over time.",
+      "It is more detailed than screening, which only compares ideas against criteria, because it gathers evidence on each part of the business.",
+      "It is carried out after ideas have passed screening and before the firm invests in launch.",
+      "It usually ends in a written report that sets out the evidence and gives a recommendation."
+    ] },
+    { "h": "Market feasibility", "b": "The market part of the study checks whether customers want the product and can pay for it.", "points": [
+      "It examines the size of the target market, customer needs and the amount of competition.",
+      "It estimates likely sales volume and price, using market research data and comparison with similar products.",
+      "A market study that finds no clear customer group signals that the idea needs redesign or should be abandoned."
+    ] },
+    { "h": "Financial feasibility", "b": "The financial part estimates costs and revenue to check that the business can pay its way.", "points": [
+      "Start-up costs are one-off costs incurred before trading begins, such as equipment, premises fit-out, licences and initial stock.",
+      "Running costs recur, such as wages, rent, utilities, marketing and raw materials.",
+      "Projected revenue is estimated by multiplying expected sales volume by the selling price.",
+      "Contribution per unit is the selling price minus the variable cost of one unit, and it pays towards fixed costs and profit.",
+      "The break-even point is the sales level at which total revenue equals total costs, found by dividing fixed costs by the contribution per unit.",
+      "Cash flow forecasting shows whether the firm can pay its bills in the early months, when sales are usually low."
+    ] },
+    { "h": "Technical, organisational, legal, environmental and ethical parts", "b": "These parts check whether the idea can be made, staffed, legally run and accepted by society.", "points": [
+      "Technical or production feasibility asks whether the firm has the equipment, technology and processes to make the product to the required standard.",
+      "Organisational and staffing feasibility asks whether the firm has, or can hire, the people and management skills it needs.",
+      "Legal and regulatory feasibility checks licences, permits, safety standards and planning requirements before launch.",
+      "Environmental and ethical feasibility assesses the impact on the environment and whether the idea is acceptable to customers and society."
+    ] },
+    { "h": "Outcomes of the study", "b": "The study ends with one of three decisions.", "points": [
+      "Proceed: the evidence shows the idea is viable, so the firm moves on to launch.",
+      "Modify: the idea has potential, but one part, such as price or product design, must change before the firm proceeds.",
+      "Abandon: the study shows the idea is not viable, which saves resources for better ideas."
+    ] },
+    { "h": "Benefits and limitations", "b": "The study has real value, but its results are only as good as its assumptions.", "points": [
+      "Benefit: it reduces risk by finding problems before money is spent.",
+      "Benefit: a clear study supports applications for funding from banks, investors and state agencies.",
+      "Benefit: it identifies problems early, such as an unexpected legal requirement, when they are cheaper to fix.",
+      "Limitation: carrying out the study costs time and money, which can be a burden for a very small firm.",
+      "Limitation: forecasts of sales and costs are uncertain, so a positive study may still prove wrong.",
+      "Evaluation: the value of a study depends on the quality of its research, and key assumptions should be tested with real customers."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Feasibility study", "definition": "A detailed assessment of whether a business idea is likely to be viable, covering market, financial and practical factors." },
+    { "term": "Viability", "definition": "The ability of a business idea to survive and earn a sustainable profit over time." },
+    { "term": "Start-up costs", "definition": "One-off costs incurred before a business begins trading, such as equipment, premises fit-out and licences." },
+    { "term": "Running costs", "definition": "Recurring costs of operating a business, such as wages, rent, utilities and raw materials." },
+    { "term": "Break-even point", "definition": "The level of sales at which total revenue equals total costs, so the business makes neither profit nor loss." },
+    { "term": "Contribution per unit", "definition": "The selling price of one unit minus its variable cost, which pays towards fixed costs and profit." },
+    { "term": "Cash flow forecast", "definition": "An estimate of money coming into and going out of a business over time, showing when cash shortages may occur." },
+    { "term": "Projected revenue", "definition": "The expected income from sales over a period, calculated from forecast volume and selling price." }
+  ],
+  "factCards": [
+    { "term": "Six parts of a feasibility study", "definition": "Market, financial, technical or production, organisational and staffing, legal and regulatory, and environmental and ethical." },
+    { "term": "Three outcomes of a feasibility study", "definition": "Proceed, modify or abandon the idea." },
+    { "term": "Benefits of a feasibility study", "definition": "Reduces risk, supports funding applications and identifies problems early." },
+    { "term": "Limitations of a feasibility study", "definition": "It costs time and money, and its forecasts of sales and costs are uncertain." },
+    { "term": "Break-even formula in units", "definition": "Fixed costs divided by the contribution per unit." }
+  ],
+  "questions": [
+    { "marks": 25, "prompt": "A student wants to open a bakery in a Limerick town. Outline five parts of a feasibility study she should complete, and explain how each contributes to the decision.", "model": "The market part checks whether enough local customers want fresh bread and pastries at the prices she plans to charge, using local surveys and a count of competing bakeries, so she knows whether demand is strong enough. The financial part estimates start-up costs such as ovens and premises fit-out, and running costs such as wages and ingredients, so she can work out the break-even point and see whether sales will cover costs. The technical or production part checks whether her equipment can produce enough bread each morning to the quality customers expect, which determines her capacity and whether she needs to rent a larger unit. The legal and regulatory part confirms the food business registration, the premises requirements and the food safety standards she must meet before opening. The environmental and ethical part considers waste from unsold bread and the sourcing of ingredients, which affects both her costs and how customers judge her. Together these parts show whether to proceed, modify the plan or abandon the idea before she invests." },
+    { "marks": 15, "prompt": "Discuss the benefits and limitations of carrying out a feasibility study before launching a business.", "model": "A feasibility study reduces risk, because it finds problems such as weak demand or an unexpected legal requirement before money is spent on equipment and premises. It also supports applications for funding, since banks and state agencies are more willing to lend when the owner has evidence that the idea works. The main limitation is cost: the study takes time and money, which may be a heavy burden for a very small firm with few resources. A further limitation is uncertainty, because forecasts of sales and costs are estimates, so a positive study may still prove wrong if customer behaviour changes after launch." },
+    { "marks": 10, "prompt": "Explain the difference between start-up costs and running costs, giving one example of each.", "model": "Start-up costs are one-off costs paid before the business begins trading, such as the purchase of equipment for a café. Running costs recur throughout trading, such as the rent and wages the café pays every month." }
+  ]
+}

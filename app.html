@@ -15,9 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=59" />
+    <link rel="stylesheet" href="./styles.css?v=70" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./responsive.css?v=7" />
+    <link rel="stylesheet" href="./paper-archive.css?v=7" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -27,13 +29,18 @@
           location.hash.indexOf('access_token=') !== -1 ||
           location.hash === '#reset-password';
         var isLocalMathsPreview = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') &&
-          ['maths', 'onboarding'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
+          ['maths', 'onboarding', 'test'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         if (!isLoggedIn && !hasAuthSession && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
       })();
     </script>
+    <!-- Vercel Web Analytics -->
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body>
     <a class="brand-mark" href="index.html" aria-label="barebones home">
@@ -182,7 +189,9 @@
         <section class="subject-area" id="subjectArea">
           <div class="subject-list-wrap graph-wrap">
             <div class="subject-list-scroll">
+              <h1 class="phone-home-title">What are you <span>studying</span>?</h1>
               <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
+              <p class="phone-home-label">Subjects</p>
               <div id="subjectGraph" class="subject-graph"></div>
             </div>
           </div>
@@ -216,12 +225,7 @@
             </div>
 
             <div id="testTab" class="tab-content">
-              <div class="toolbar test-toolbar">
-                <button id="startTest" class="button-primary">Begin test</button>
-              </div>
-              <div id="testContainer" class="test-container">
-                <p class="muted">Ready</p>
-              </div>
+              <div id="testContainer" class="test-container"></div>
             </div>
 
             <div id="examTab" class="tab-content">
@@ -247,6 +251,8 @@
       </li>
     </template>
 
+    <section id="testScreen" class="test-screen hidden" aria-label="Test"></section>
+
     <section id="progressScreen" class="progress-screen hidden">
       <div class="progress-page">
         <header class="progress-page-head">
@@ -260,7 +266,13 @@
     <section id="fullNotesScreen" class="full-notes-screen hidden">
       <div class="full-notes-card">
         <div class="toolbar">
+          <button id="fullNotesPrev" class="notes-pager notes-pager--prev" type="button" aria-label="Previous subsection">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+          </button>
           <h3 id="fullNotesTitle">Full Notes</h3>
+          <button id="fullNotesNext" class="notes-pager notes-pager--next" type="button" aria-label="Next subsection">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+          </button>
           <div class="full-notes-actions">
             <button id="openLiveReading" class="button-primary live-reading-btn hidden" type="button">Live reading</button>
             <button id="closeFullNotes" class="button-secondary">Close</button>
@@ -283,6 +295,84 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="papersScreen" class="papers-screen hidden" aria-label="Exam papers">
+      <div class="papers-page">
+        <header class="papers-head">
+          <div>
+            <p id="papersKicker" class="papers-kicker"></p>
+            <h1 class="papers-title">Exam papers</h1>
+          </div>
+          <button id="closePapers" class="button-secondary" type="button">Close</button>
+        </header>
+        <div id="papersBody" class="papers-body"></div>
+      </div>
+    </section>
+
+    <section id="paperViewer" class="paper-viewer hidden" aria-label="Exam paper">
+      <header class="pv-bar">
+        <button id="pvBack" class="pv-back" type="button" aria-label="Back to exam papers">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+          <span>Papers</span>
+        </button>
+        <div class="pv-title">
+          <strong id="pvTitle"></strong>
+          <span id="pvTag"></span>
+        </div>
+        <div class="pv-zoom" aria-label="Zoom">
+          <button id="pvZoomOut" class="pv-act" type="button" aria-label="Zoom out">−</button>
+          <button id="pvZoomFit" class="pv-act pv-act--text" type="button" title="Fit the page to the screen">Fit</button>
+          <button id="pvZoomIn" class="pv-act" type="button" aria-label="Zoom in">+</button>
+        </div>
+        <a id="pvOpen" class="pv-open" target="_blank" rel="noopener">Open PDF</a>
+      </header>
+      <div class="pv-stage-wrap">
+        <div id="pvStage" class="pv-stage">
+          <div id="pvSheet" class="pv-sheet">
+            <canvas id="pvPage" class="pv-page"></canvas>
+            <canvas id="pvInk" class="pv-ink"></canvas>
+            <div id="pvText" class="pv-text-layer"></div>
+          </div>
+        </div>
+        <div class="pv-tools" role="toolbar" aria-label="Markup">
+          <div class="pv-toolset">
+            <button class="pv-tool is-active" type="button" data-tool="view" title="Move (V)" aria-label="Move" aria-pressed="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5v-5a1.5 1.5 0 0 1 3 0V11m0-4.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-.6a7 7 0 0 1-5.3-2.4L4.3 15.4a1.6 1.6 0 0 1 2.4-2.1L9 15.5V8.5a1.5 1.5 0 0 1 3 0" /></svg>
+            </button>
+            <button class="pv-tool" type="button" data-tool="pen" title="Pen (P)" aria-label="Pen" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.2-4.6L15.6 5a2.1 2.1 0 0 1 3 3L8.2 18.4 4 20z" /><path d="M13.8 6.8l3 3" /></svg>
+            </button>
+            <button class="pv-tool" type="button" data-tool="highlighter" title="Highlighter (H)" aria-label="Highlighter" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 15l-2.5 2.5V20h-3l3-3L9 15z" /><path d="M9 15l3 3 8.3-8.3a2.1 2.1 0 0 0 0-3L17.3 3.7a2.1 2.1 0 0 0-3 0L6 12l3 3z" /></svg>
+            </button>
+            <button class="pv-tool" type="button" data-tool="text" title="Text box (T): click the page where it goes" aria-label="Text box" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7V5h14v2" /><path d="M12 5v14" /><path d="M9 19h6" /></svg>
+            </button>
+            <button class="pv-tool" type="button" data-tool="eraser" title="Eraser (E)" aria-label="Eraser" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 20H20" /><path d="M5.3 16.3l9.9-11.1a2 2 0 0 1 2.9-.1l2 2a2 2 0 0 1 0 2.8L11 20H8.5l-3.2-3.2a.4.4 0 0 1 0-.5z" /><path d="M10 10.5l5.5 5.5" /></svg>
+            </button>
+          </div>
+          <div class="pv-tools-row">
+            <div id="pvColors" class="pv-colors" aria-label="Colour"></div>
+            <button id="pvUndo" class="pv-act" type="button" title="Undo (Ctrl+Z)" aria-label="Undo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5" /><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11" /></svg>
+            </button>
+            <button id="pvClear" class="pv-act pv-act--text" type="button">Clear<span class="pv-wide"> page</span></button>
+          </div>
+        </div>
+        <button id="pvPrev" class="pv-turn pv-turn--prev" type="button" aria-label="Previous page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+        </button>
+        <button id="pvNext" class="pv-turn pv-turn--next" type="button" aria-label="Next page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+        </button>
+        <p id="pvStatus" class="pv-status hidden" role="status"></p>
+      </div>
+      <footer class="pv-foot">
+        <span id="pvPageLabel" class="pv-page-label"></span>
+        <div id="pvStrip" class="pv-strip" aria-label="Pages"></div>
+      </footer>
     </section>
 
     <section id="examBreakdownModal" class="full-notes-screen hidden" role="dialog" aria-modal="true">
@@ -328,45 +418,48 @@
 
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-    <script src="./data.js?v=45"></script>
-    <script src="./business-content.js?v=1"></script>
+    <script src="./data.js?v=57"></script>
+    <script src="./business-notes.js?v=2"></script>
     <script src="./pe-content.js?v=1"></script>
-    <script src="./bio-content.js?v=2"></script>
-    <script src="./biology-test-questions.js?v=1"></script>
+    <script src="./bio-content.js?v=3"></script>
+    <script src="./biology-test-questions.js?v=2"></script>
+    <script src="./biology-notes.js?v=4"></script>
     <!-- geo-content.js retired 2026-08-14 (archived in archive/geography-2026-10-19/): geography is being rebuilt by pipeline/run.py.
          Snapshot of what it shipped: pipeline/_data/reports/geography-preexisting-index.json -->
     <script src="./maths-content.js?v=1"></script>
-    <script src="./chemistry-content.js?v=2"></script>
-    <script src="./chemistry-test-questions.js?v=1"></script>
+    <script src="./chemistry-content.js?v=5"></script>
+    <script src="./chemistry-test-questions.js?v=4"></script>
+    <script src="./chemistry-notes.js?v=3"></script>
     <script src="./history-flashcards.js?v=2"></script>
     <script src="./history-content.js?v=2"></script>
     <script src="./history-test-questions.js?v=1"></script>
-    <script src="./exam-questions-db.js?v=3"></script>
-    <script src="./history-exam-questions.js?v=1"></script>
-    <script src="./chemistry-exam-questions.js?v=1"></script>
-    <script src="./exam-breakdown.js?v=3"></script>
+    <script src="./exam-questions-db.js?v=4"></script>
+    <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
     <script src="./auth.js?v=2"></script>
-    <script src="./home-economics-exam-questions.js?v=2"></script>
     <script src="./home-economics-flashcards.js?v=4"></script>
     <script src="./home-economics-test-questions.js?v=2"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
     <script src="./home-economics-notes.js?v=1"></script>
-    <script src="./geography-exam-questions.js?v=2"></script>
-    <script src="./geography-flashcards.js?v=2"></script>
     <script src="./geography-test-questions.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
-    <script src="./geography-notes.js?v=21"></script>
-    <script src="./pe-exam-questions.js?v=2"></script>
-    <script src="./pe-flashcards.js?v=2"></script>
-    <script src="./pe-pipeline-content.js?v=2"></script>
-    <script src="./pe-test-questions.js?v=2"></script>
+    <script src="./geography-notes.js?v=22"></script>
+    <script src="./pe-flashcards.js?v=3"></script>
+    <script src="./pe-pipeline-content.js?v=4"></script>
+    <script src="./pe-test-questions.js?v=3"></script>
     <script src="./pe-exam-info.js?v=2"></script>
-    <script src="./generated-notes-content.js?v=6"></script>
+    <script src="./pe-notes.js?v=3"></script>
+    <script src="./generated-notes-content.js?v=7"></script>
     <script src="./onboarding.js?v=3"></script>
-    <script src="./app.js?v=68"></script>
-    <script src="./timer.js?v=1"></script>
+    <script src="./flashcard-test-prompts.js?v=2"></script>
+    <script src="./answer-marker.js?v=2"></script>
+    <script src="./test-builder.js?v=3"></script>
+    <script src="./exam-packs.js?v=1"></script>
+    <script src="./app.js?v=84"></script>
+    <script src="./exam-papers.js?v=2"></script>
+    <script src="./paper-archive.js?v=5"></script>
+    <script src="./timer.js?v=2"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
         sessionStorage.setItem('bb_seen_landing', '1');
@@ -376,5 +469,13 @@
         if (input) input.focus();
       }
     </script>
+
+    <!-- Vercel Speed Insights -->
+    <script>
+      window.si = window.si || function () { 
+        (window.siq = window.siq || []).push(arguments); 
+      };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
   </body>
 </html>

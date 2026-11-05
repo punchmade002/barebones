@@ -22,7 +22,7 @@ for (const config of [
   {
     subject: "geography",
     chapters: 25,
-    files: ["data.js", "geography-flashcards.js", "geography-test-questions.js"],
+    files: ["data.js", "geography-test-questions.js"],
     // Geography chapters are split into syllabus subsections; the authored test set sits on
     // each chapter's review outcome rather than on every subsection.
     questionsPer: "chapter",

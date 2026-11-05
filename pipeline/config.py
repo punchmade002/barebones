@@ -141,12 +141,24 @@ DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is un
 # page. Anything not listed falls back to DEFAULT_CUTOFF (also flagged unverified).
 SYLLABUS_CUTOFF = {
     "history":   (2006, True),    # confirmed: documents-based study first examined 2006
-    "pe":        (2022, True),    # LCPE is a new exam subject, first examined 2022
+    # pe: the 2018 specification was first examined 2020 (SEC S51/25; no written exam that year,
+    # calculated grades) and is examined to June 2027. The 2026 specification is first examined 2028.
+    "pe":        (2020, True),    # confirmed: SEC circular S51/25
     "maths":     (2012, True),    # Project Maths national rollout (phased 2012-2015)
     "geography": (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2027
-    "biology":   (2004, False),   # estimate — current syllabus ~2004; verify
-    "chemistry": (2002, False),   # estimate; verify
-    "business":  (1999, False),   # estimate; verify
+    # biology: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus, introduced 2002
+    # and first examined 2004 (NCCA); they are pulled as LEGACY practice, not on-course papers.
+    "biology":   (2004, True),    # confirmed: previous syllabus first examined 2004, last examined June 2026
+    # chemistry: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus (NCCA, (c) 1999),
+    # examined from 2002 to June 2026; they are pulled as LEGACY practice, not on-course papers.
+    "chemistry": (2002, True),    # confirmed: previous syllabus first examined 2002, last examined June 2026
+    # business: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus (Government of
+    # Ireland (c) 1996, introduced 1997), examined from 1999 to June 2026 (curriculumonline.ie:
+    # "for examination to June 2026"); they are pulled as LEGACY practice, not on-course papers.
+    "business":  (1999, True),    # confirmed: previous syllabus first examined 1999, last examined June 2026
     "english":   (2001, False),   # estimate; verify
     "home-economics": (2004, True),   # confirmed: S&S syllabus introduced Sept 2002, first examined 2004, examined June 2027
 }
