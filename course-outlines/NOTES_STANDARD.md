@@ -131,6 +131,39 @@ at a time**; the build warns about part-written chapters.
 - **Past papers** in the app are from the previous (1999) syllabus. Packages list only the
   question topics that are still on the 2025 specification.
 
+## Subject notes: history
+
+- **Scope** comes from `course-outlines/history.md`: each subsection's Syllabus, Case study, Key
+  personalities, Key concepts and Cover lists. Cover every item. Stay inside the topic's dates
+  except for brief background the outline names.
+- **Order** each block chronologically or as cause → events → results. Give exact dates (day,
+  month, year) only when certain; otherwise give the year, or leave the date out.
+- **Key personality block:** one per personality the outline assigns to the subsection, headed
+  "Key personality: <name>". Its points cover: who they were; what they did, with dates; how they
+  shaped events or were shaped by them; participant or witness; how contemporaries saw them; how
+  historians judge them now. Where the outline splits a personality across subsections, each
+  part covers only its own period.
+- **Case study:** at least four blocks: background and causes; the events in order, with dates,
+  places, people and numbers; outcomes; significance and differing views. A documents-based
+  case study (the outline marks it "DBQ source") needs enough detail to place any document in
+  context.
+- **Assessment block:** end each subsection with a block headed "Assessment: …" giving the
+  judgement material examiners reward: achievements vs limits, success vs failure, or
+  contemporary vs later views, as paired points.
+- **Quotations:** only short, famous, well-attested phrases (e.g. Bismarck's "blood and iron"),
+  attributed to the speaker. Never invent or paraphrase a quotation inside quotation marks.
+- **Figures** (casualties, votes, seats, money, emigration numbers): include one only if you are
+  sure of it, and say "about" for estimates. If sources disagree, give the range or leave it
+  out.
+- **keyTerms:** every key concept the outline lists for the subsection, defined as used in the
+  topic, plus the subsection's other essential terms (organisations, acts, treaties).
+- **factCards:** at least 10 per subsection: one per key personality ("Charles Stewart Parnell:
+  three achievements"), the case study's key facts and dates, the causes or results examiners
+  list, and named acts and events. The front is a specific cue; the back is one or two
+  sentences.
+- **Cross-references:** refer to another subsection by its subject ("see the notes on the
+  Treaty negotiations"), never by its id.
+
 ## Worked example (geography)
 
 This is the target standard: dense, specific, non-repetitive and readable. It covers only the
