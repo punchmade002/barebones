@@ -22,10 +22,9 @@ const COURSE_DATA = {
       id: "ch1", number: 1, subject: "business", title: "Key Stakeholders in Business", strand: 1,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo1-1", code: "1.1", title: "Internal & external stakeholders and their importance", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-2", code: "1.2", title: "How stakeholders interact and potential conflicts", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-3", code: "1.3", title: "Avoiding and resolving conflict between stakeholders", notes: [], keyTerms: [], questions: [] },
-      { id: "lo1-4", code: "1.4", title: "Stakeholder mapping and prioritising stakeholder interests", notes: [], keyTerms: [], questions: [] }
+      { id: "ch1-s1", code: "1.1", syllabusRef: "1.1.1", title: "Stakeholders, their importance and interdependence", notes: [], keyTerms: [], questions: [] },
+      { id: "ch1-s2", code: "1.2", syllabusRef: "1.1.2, 1.1.3", title: "Stakeholder interaction, conflict and its resolution", notes: [], keyTerms: [], questions: [] },
+      { id: "ch1-s3", code: "1.3", syllabusRef: "1.1.4", title: "Stakeholder mapping and prioritising stakeholder interests", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -68,45 +67,38 @@ const COURSE_DATA = {
       id: "ch6", number: 6, subject: "business", title: "Enterprise in Action", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo6-1", code: "6.1", title: "Innovation, intrapreneurship & entrepreneurship — and importance of innovation", notes: [], keyTerms: [], questions: [] },
-      { id: "lo6-2", code: "6.2", title: "Competencies of innovators", notes: [], keyTerms: [], questions: [] },
-      { id: "lo6-3", code: "6.3", title: "Role of government in supporting enterprise", notes: [], keyTerms: [], questions: [] }
+      { id: "ch6-s1", code: "6.1", syllabusRef: "2.1.1, 2.1.2, 2.8.1", title: "Enterprise, innovation, intrapreneurship, entrepreneurship and the competencies of innovators", notes: [], keyTerms: [], questions: [] },
+      { id: "ch6-s2", code: "6.2", syllabusRef: "2.1.3", title: "The role of government in supporting enterprise", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch7", number: 7, subject: "business", title: "Idea Development", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo7-1", code: "7.1", title: "Factors impacting idea development", notes: [], keyTerms: [], questions: [] },
-      { id: "lo7-2", code: "7.2", title: "Design thinking — iterative, person- and solution-centred", notes: [], keyTerms: [], questions: [] },
-      { id: "lo7-3", code: "7.3", title: "Conducting a feasibility study", notes: [], keyTerms: [], questions: [] }
+      { id: "ch7-s1", code: "7.1", syllabusRef: "2.2.1", title: "How business ideas are developed", notes: [], keyTerms: [], questions: [] },
+      { id: "ch7-s2", code: "7.2", syllabusRef: "2.2.2", title: "Design thinking", notes: [], keyTerms: [], questions: [] },
+      { id: "ch7-s3", code: "7.3", syllabusRef: "2.2.2, 2.2.3", title: "The feasibility study", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch8", number: 8, subject: "business", title: "Business Planning", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo8-1", code: "8.1", title: "Importance and key functions of a business plan", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-2", code: "8.2", title: "Ethics and sustainability in business planning", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-3", code: "8.3", title: "What a business model is and its role in the business plan", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-4", code: "8.4", title: "Business Model Canvas (BMC)", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-5", code: "8.5", title: "Common business models", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-6", code: "8.6", title: "Digital technology as a driver of change", notes: [], keyTerms: [], questions: [] },
-      { id: "lo8-7", code: "8.7", title: "Technology-driven business models", notes: [], keyTerms: [], questions: [] }
+      { id: "ch8-s1", code: "8.1", syllabusRef: "2.3.1, 2.3.2", title: "The business plan, and ethics and sustainability in planning", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s2", code: "8.2", syllabusRef: "2.3.3, 2.3.4", title: "Business models and the business model canvas", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s3", code: "8.3", syllabusRef: "2.3.5", title: "Common business models", notes: [], keyTerms: [], questions: [] },
+      { id: "ch8-s4", code: "8.4", syllabusRef: "2.3.6, 2.3.7", title: "The digital economy and technology-driven business models", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "ch9", number: 9, subject: "business", title: "The Target Market", strand: 2,
       examQuestions: [],
       learningOutcomes: [
-      { id: "lo9-1", code: "9.1", title: "Importance of market research and identifying the target market", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-2", code: "9.2", title: "The 7 P's of the marketing mix", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-3", code: "9.3", title: "USP analysis for a product/service", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-4", code: "9.4", title: "Evaluating and improving an existing marketing mix", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-5", code: "9.5", title: "Disruptive impact of digital technology on market research and marketing", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-6", code: "9.6", title: "Influence of ethics and sustainability on marketing", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-7", code: "9.7", title: "Power-interest grid for customers", notes: [], keyTerms: [], questions: [] },
-      { id: "lo9-8", code: "9.8", title: "STEEPLE analysis", notes: [], keyTerms: [], questions: [] }
+      { id: "ch9-s1", code: "9.1", syllabusRef: "2.4.1", title: "Market research and identifying the target market", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s2", code: "9.2", syllabusRef: "2.4.2", title: "The marketing mix and the target market", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s3", code: "9.3", syllabusRef: "2.4.3, 2.4.4", title: "Developing, evaluating and improving a marketing mix; the USP", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s4", code: "9.4", syllabusRef: "2.4.5, 2.4.6", title: "Digital technology, ethics and sustainability in marketing", notes: [], keyTerms: [], questions: [] },
+      { id: "ch9-s5", code: "9.5", syllabusRef: "2.4.7, 2.4.8", title: "Analytical tools: the power-interest grid for customers and STEEPLE", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
