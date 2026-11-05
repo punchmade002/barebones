@@ -1,0 +1,88 @@
+{
+  "loId": "ch18-s4",
+  "chapterId": "ch18",
+  "subsection": "4. Regulation of financial services and financial fraud",
+  "syllabusRef": "4.2.6, 4.2.7, 4.2.9",
+  "notes": [
+    { "h": "The Central Bank of Ireland", "b": "The Central Bank of Ireland regulates banks, insurers, credit unions and other financial firms operating in Ireland, and it has several distinct roles.", "points": [
+      "Consumer protection: the Consumer Protection Code sets standards on how firms treat customers, including fair terms, clear information and proper handling of complaints.",
+      "Prudential supervision: the Central Bank checks that firms hold enough capital and manage their risks soundly, so they can meet their obligations to customers.",
+      "Mortgage measures: the Central Bank sets limits on how much a borrower can borrow relative to the value of the property and to income, to reduce the risk of over-borrowing.",
+      "Authorisation: firms and individual advisers must be authorised by the Central Bank, so an unauthorised firm operating in Ireland is breaking the law."
+    ] },
+    { "h": "Redress and protection for consumers", "points": [
+      "The Financial Services and Pensions Ombudsman (FSPO) is an independent body that investigates unresolved complaints about financial service providers and pension providers.",
+      "A consumer should first complain to the firm itself, and take the matter to the FSPO only if the firm's response does not resolve it.",
+      "The deposit guarantee scheme protects eligible deposits in covered Irish institutions up to a set limit per depositor if a bank fails.",
+      "Investor compensation schemes protect some investors when an authorised investment firm fails and cannot return client assets."
+    ] },
+    { "h": "EU supervision and EU rules", "points": [
+      "The European Central Bank supervises the significant banks in the euro area directly, working alongside national authorities such as the Central Bank of Ireland.",
+      "The European Banking Authority (EBA) sets common rules and standards for banks across the EU, so that firms compete on a level playing field.",
+      "The European Securities and Markets Authority (ESMA) oversees securities markets and investment firms, and promotes consistent rules across the EU.",
+      "EU directives on payment services and consumer credit set minimum standards that Irish law must implement.",
+      "Financial markets are integrated, so a weakness in one country can spread to others, which is why supervision at EU level matters."
+    ] },
+    { "h": "Risk in pensions, mortgages, credit and crypto", "points": [
+      "Pensions carry risk from investment returns, inflation, charges and changes to pension rules or retirement age.",
+      "Mortgages carry the risk of rising repayments on variable-rate loans, and of negative equity if property values fall below the debt.",
+      "Credit products such as credit cards and buy-now-pay-later can trap people in debt because they are easy to use and carry high costs.",
+      "Crypto-finance carries high volatility and limited protection, and EU rules for the sector have only recently come into application.",
+      "Managing these risks means spreading investments, keeping borrowing affordable and checking the terms of a product before committing."
+    ] },
+    { "h": "Consequences of under-regulation", "points": [
+      "The 2008 banking crisis: lax lending, a property bubble and weak oversight left Irish banks with heavy losses, and the State had to inject large sums into them to keep them open.",
+      "The State guaranteed bank liabilities in 2008, which shifted the cost of bank failures onto taxpayers.",
+      "The tracker-mortgage scandal: some lenders moved borrowers off tracker rates in ways the Central Bank found unacceptable, and redress was later paid to affected customers.",
+      "Under-regulation allows mis-selling to spread, weakens public trust in finance, and leaves consumers unprotected when firms fail."
+    ] },
+    { "h": "Types of financial fraud", "points": [
+      "Phishing: fake emails that imitate a bank or official body to steal login details or payment information.",
+      "Smishing: the same tactic delivered by SMS text, often with a link to a fake website.",
+      "Vishing: a caller pretends to be from a bank in order to obtain security codes or persuade the consumer to move money.",
+      "Investment scams promise high returns with little risk, often through social media adverts or fake trading platforms.",
+      "Identity theft: a criminal uses a person's personal details without permission to open accounts or take out credit in their name.",
+      "Money muling: a person allows their account to receive and pass on criminal proceeds, often after being recruited through a fake job offer, and can face prosecution.",
+      "Card fraud: stolen card details are used online or copied to make payments in person."
+    ] },
+    { "h": "Protecting yourself from fraud", "points": [
+      "Never share a PIN, password or one-time security code, even with a caller who seems to be from the bank, because a genuine bank will not ask for them.",
+      "Verify any contact by ringing the number on the bank's official website or on the back of the card, not a number given in the message.",
+      "Turn on two-factor authentication for online banking and keep devices updated with security fixes.",
+      "Check bank statements regularly for transactions you do not recognise, and report them at once, since quick reporting improves the chance of recovery.",
+      "Report scams to the Gardaí as well as to the bank, so that the fraud is recorded."
+    ] },
+    { "h": "Discussing finance stories in the news", "points": [
+      "Identify the product or practice at the centre of the story, and whether it is a regulated product.",
+      "Identify who is affected: individual savers, borrowers, investors or taxpayers.",
+      "Decide whether the story shows a regulatory failure, a firm's failure, or a consumer's poor decision, since each points to a different lesson.",
+      "Consider the response: did the regulator act, is redress available, and did the rules change afterwards?"
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Financial Services and Pensions Ombudsman", "definition": "An independent body that investigates unresolved complaints about financial service and pension providers." },
+    { "term": "Deposit guarantee scheme", "definition": "A State-backed scheme that repays eligible depositors up to a set limit if their bank fails." },
+    { "term": "Consumer Protection Code", "definition": "Central Bank rules setting standards for how regulated firms treat customers, including fairness, clear information and complaints handling." },
+    { "term": "Prudential supervision", "definition": "Oversight by the Central Bank of whether firms hold enough capital and manage risk soundly." },
+    { "term": "European Banking Authority", "definition": "An EU body that sets common rules and standards for banks across the EU." },
+    { "term": "Under-regulation", "definition": "A situation where financial markets or firms lack adequate rules or oversight, which exposes consumers to harm." },
+    { "term": "Phishing", "definition": "A fraud using fake emails or websites that imitate a trusted organisation to steal personal or financial details." },
+    { "term": "Vishing", "definition": "Fraud carried out by phone call, where a caller poses as a trusted organisation to obtain security codes or money." },
+    { "term": "Money muling", "definition": "The use of a person's bank account to move criminal money, often after recruitment by fraudsters." },
+    { "term": "Identity theft", "definition": "Using someone else's personal details without permission to obtain credit, goods or accounts in their name." }
+  ],
+  "factCards": [
+    { "term": "Complaint route for a financial consumer", "definition": "Complain to the firm first, then to the FSPO if the matter remains unresolved." },
+    { "term": "EU bodies overseeing finance", "definition": "The ECB's banking supervision, the EBA and ESMA." },
+    { "term": "Pension risks", "definition": "Investment returns, inflation, charges and changes to pension rules." },
+    { "term": "Causes of Ireland's 2008 banking crisis", "definition": "Lax lending and a property bubble, combined with weak oversight." },
+    { "term": "Channel used by SMS and phone scams", "definition": "Smishing uses SMS text messages; vishing uses phone calls." },
+    { "term": "Protective actions against fraud", "definition": "Never share security codes, verify calls through official numbers, enable two-factor authentication, and report at once." },
+    { "term": "Central Bank roles for consumers", "definition": "Setting the Consumer Protection Code, supervising firms prudentially, and setting mortgage measures." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Discuss the consequences of under-regulation of financial services, using at least one Irish example.", "model": "Under-regulation allows firms to take excessive risk, because weak supervision fails to detect problems early. The 2008 banking crisis in Ireland is an example: lax lending and a property bubble, combined with weak oversight, left the banks with heavy losses and required the State to inject large sums to keep them open. Consumers also suffer directly, as shown by the tracker-mortgage scandal, in which borrowers were moved off tracker rates in ways the Central Bank found unacceptable, and redress was required. Under-regulation also spreads mis-selling and weakens public trust in finance, so tighter rules and active supervision are needed to protect consumers and the financial system." },
+    { "marks": 15, "prompt": "Outline three types of financial fraud and explain how a consumer can protect themselves from each.", "model": "Phishing uses fake emails or websites that imitate a bank to steal login details, so the consumer should never click a link to log in and should go to the bank's official site instead. Vishing uses phone calls from a caller posing as the bank to obtain security codes, so the consumer should never share a code and should ring the bank back on its published number. Investment scams promise high returns with little risk, so the consumer should check that the firm is authorised by the Central Bank before investing and should treat unexpected offers with caution." },
+    { "marks": 10, "prompt": "Explain the role of the Central Bank of Ireland in protecting consumers of financial products.", "model": "The Central Bank sets the Consumer Protection Code, which requires regulated firms to treat customers fairly, give clear information and handle complaints properly. It also authorises firms and advisers, so unregulated providers can be identified. Through prudential supervision, it checks that firms hold enough capital to meet their obligations to customers." }
+  ]
+}

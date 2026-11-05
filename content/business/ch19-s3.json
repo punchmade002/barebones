@@ -1,0 +1,79 @@
+{
+  "loId": "ch19-s3",
+  "chapterId": "ch19",
+  "subsection": "3. The annual Budget and workers; informed decisions as an employee",
+  "syllabusRef": "4.3.5, 4.3.6",
+  "notes": [
+    { "h": "What the annual Budget is", "b": "The annual Budget is the government's plan for raising tax and spending, and it reaches workers through their pay, their services and the economy.", "points": [
+      "The Budget sets how much the State will raise in tax and how it will spend that money in the coming year.",
+      "It is usually announced in the autumn for the following year, and its tax changes are given legal effect through the Finance Act after debate in the Oireachtas.",
+      "The Budget sets tax bands, tax credits, social welfare rates and spending on services such as health, education and housing.",
+      "Budget measures affect workers directly through take-home pay, and indirectly through the public services they use."
+    ] },
+    { "h": "Income tax, USC and PRSI", "points": [
+      "Income tax is charged on taxable income at different rates across bands, so changing the width of a band changes how much tax a worker pays.",
+      "Tax credits reduce the tax a person owes, so an increase in a credit raises take-home pay for everyone who claims it.",
+      "The Universal Social Charge (USC) is a separate charge on gross income, with its own bands, paid in addition to income tax.",
+      "PRSI (Pay Related Social Insurance) is a contribution from pay that funds certain social welfare benefits, such as illness benefit and the State pension, and it affects entitlement to them.",
+      "A Budget change to any of these can alter net pay even when gross pay stays the same."
+    ] },
+    { "h": "Minimum wage, social welfare and other supports", "points": [
+      "Minimum wage decisions raise the income of low-paid workers, but they also add to costs for employers, which can affect hiring.",
+      "Social welfare changes affect households with children, jobseekers, carers and pensioners, and some payments depend on means testing.",
+      "Childcare supports reduce the cost of early education and care, which can make it easier for parents to take up or keep work.",
+      "Housing supports, including social housing and help with rent, change how much of a worker's income is left after housing costs.",
+      "Cost-of-living measures, such as one-off payments or credits, boost income for a set period without changing the tax system."
+    ] },
+    { "h": "Auto-enrolment pensions", "points": [
+      "Auto-enrolment is a system in which eligible workers are signed up to a workplace pension by default, with the option to opt out.",
+      "Contributions come from the worker, the employer and the State, which is intended to increase retirement savings.",
+      "Many workers currently have no pension, and saving early benefits from long-term growth on the money invested.",
+      "Before deciding whether to opt out, a worker should check the contribution rate, the employer's contribution and any State top-up."
+    ] },
+    { "h": "Trade-offs and who gains from a Budget", "points": [
+      "A Budget is a trade-off: tax cuts can reduce the money available for public services, while higher spending may require higher taxes or borrowing.",
+      "Low-paid workers may gain most from minimum wage increases and targeted credits, while higher earners may be more affected by changes to tax bands.",
+      "Changes in indirect taxes on goods, such as VAT and excise duties, affect consumers' spending power, even when income taxes are unchanged."
+    ] },
+    { "h": "Reading a payslip", "points": [
+      "Gross pay is pay before any tax or other deductions are taken out.",
+      "Deductions include income tax, USC, employee PRSI, and any pension or union contributions the worker has agreed to pay.",
+      "Net pay, also called take-home pay, is gross pay less all deductions.",
+      "Checking the payslip against the hours worked and the agreed rate helps a worker spot errors early."
+    ] },
+    { "h": "Informed decisions as an employee", "points": [
+      "An informed employee checks the contract, understands pension options and knows their statutory rights before making decisions.",
+      "Comparing jobs should include benefits such as pension matching, sick pay and flexible working, not only the headline pay.",
+      "Understanding how Budget changes affect take-home pay helps workers plan their saving and spending.",
+      "Reading workplace news critically means identifying the decision, who is affected and the evidence behind the claims made."
+    ] },
+    { "h": "Discussing workplace and budget news", "points": [
+      "Workplace news often covers pay disputes, redundancies, Budget measures and new employment rights, and each needs a clear view of who gains and who loses.",
+      "Analyse a story by identifying the decision, its effect on workers, the government's reasons and the trade-offs involved."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Annual Budget", "definition": "The government's yearly plan for raising tax and spending for the coming year." },
+    { "term": "Tax bands", "definition": "Ranges of income taxed at different rates, such as the standard rate band and the higher rate band." },
+    { "term": "Tax credit", "definition": "An amount deducted from the tax a person owes, reducing their tax bill." },
+    { "term": "Universal Social Charge (USC)", "definition": "A separate charge on gross income, with its own bands, paid in addition to income tax." },
+    { "term": "PRSI", "definition": "Pay Related Social Insurance, a contribution from pay that funds certain social welfare benefits and the State pension." },
+    { "term": "Gross pay", "definition": "Pay before any tax or other deductions are taken out." },
+    { "term": "Net pay", "definition": "Pay left after all deductions, also called take-home pay." },
+    { "term": "Auto-enrolment", "definition": "A system where eligible workers are automatically signed up to a pension scheme, with the option to opt out." },
+    { "term": "Cost-of-living measure", "definition": "A temporary or targeted payment or credit from the State to offset rising living costs." }
+  ],
+  "factCards": [
+    { "term": "Budget measures that affect workers", "definition": "Tax bands and credits, USC, PRSI, minimum wage decisions, social welfare, childcare supports, housing supports, pension enrolment and cost-of-living measures." },
+    { "term": "Contributors to a default pension system", "definition": "The worker, the employer and the State." },
+    { "term": "Trade-off in a Budget", "definition": "Tax cuts can reduce funds for services; higher spending may need higher taxes or borrowing." },
+    { "term": "Deductions shown on a payslip", "definition": "Income tax, USC, employee PRSI, and any agreed pension or union contributions." },
+    { "term": "Checks an informed employee makes before a pay decision", "definition": "Contract terms, pension options, and total benefits such as sick pay and flexible working, not just headline pay." },
+    { "term": "Effect of a credit on take-home pay", "definition": "It reduces the tax owed, so take-home pay rises without any change in gross pay." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Explain how the annual Budget can affect workers, using at least three measures in your answer.", "model": "The Budget changes tax bands and tax credits, which alter the amount of income tax a worker pays and so their take-home pay. Changes to USC and PRSI rates or bands have a similar effect, and PRSI also affects entitlement to benefits such as the State pension. Minimum wage decisions raise the hourly pay of the lowest-paid workers, but they add to employers' costs. Childcare and housing supports change how much of a worker's income is left after essential costs. Each measure is a trade-off, because a tax cut can reduce the funds available for public services." },
+    { "marks": 15, "prompt": "Explain the difference between gross pay and net pay, and outline two deductions that reduce gross pay.", "model": "Gross pay is the amount earned before any tax or other deductions are taken out, while net pay, or take-home pay, is what remains after all deductions. Two deductions are income tax, which is charged on taxable income across bands, and employee PRSI, which funds social welfare benefits and affects entitlement to them. USC and any agreed pension contribution are further deductions." },
+    { "marks": 10, "prompt": "Outline the purpose of auto-enrolment pensions and explain one reason a worker might still choose to opt out.", "model": "Auto-enrolment aims to increase retirement saving by signing eligible workers up to a workplace pension by default, with contributions from the worker, the employer and the State. A worker might opt out if they need the extra take-home pay immediately, for example because they face urgent debts, although opting out means losing the contributions from the employer and the State." }
+  ]
+}
