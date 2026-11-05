@@ -21,10 +21,17 @@
   that are **not** revised (only tranche-1 subjects are asterisked), and sets 2027 adjustments
   to the existing syllabus. Ignore any content written for the draft specification or for
   Junior Cycle Home Economics.
-- **Chapters** are the app's 31 home economics chapter IDs (`data.js`,
-  `pipeline/scaffold/home-economics.json`). Past exam questions, flashcards and test questions
-  are tagged to these IDs, so keep every ID exactly as written. Subsections are numbered in the
-  order they should become `<chapter-id>-s<n>` learning outcomes.
+- **Chapters** are the app's 36 home economics chapter IDs (`data.js`,
+  `pipeline/scaffold/home-economics.json`). The 31 original IDs are unchanged; five were added on
+  2026-11-05 when the syllabus content with no natural home was given its own chapter:
+  `hom-food-industry`, `hom-fruit-vegetables`, `hom-resource-management`, `hom-home-interior` and
+  `hom-home-services`. Each chapter has a review outcome `<chapter-id>-1` (the chapter's test
+  questions and generated notes) and one learning outcome per numbered subsection below,
+  `<chapter-id>-s<n>`, in the same order. Notes are written per subsection.
+- **Legislation and public bodies:** use the Acts, regulations, schemes and bodies in force for
+  the June 2027 examination, as named in this outline. Where the 2001 syllabus names an Act or
+  body that has since been replaced, revoked or renamed, this outline gives the current one in
+  its place; do not write notes on the superseded ones. Appendix A lists each change.
 - **What each subsection contains:**
   - **"Syllabus"** is the syllabus's "content: expected knowledge and understanding" column, close
     to its wording. This is the required scope; every item must be covered. Items marked
@@ -35,8 +42,7 @@
   - **"Also examined"** lists things SEC papers (2004–2026, in
     `home-economics-exam-questions.js`) have asked that go beyond the syllabus wording, with the
     years. Notes must cover them too: the syllabus says that where legislation or regulations
-    are referred to, candidates are expected to know the **most recent developments**, and SEC
-    papers name current Acts, bodies and schemes.
+    are referred to, candidates are expected to know the **most recent developments**.
   - **"SimpleStudy"** names the matching topic(s) in SimpleStudy's Higher Level course (recorded
     2026-08-07, see `pipeline/resources/home-economics/guide-simplestudy.md`). Use them for
     structure and pacing only; write all prose in your own words. "None" means SimpleStudy has
@@ -58,26 +64,37 @@
   methods, two design application methods and two performance tests [5.2]; two child care options
   [6.3.2]; two leisure facilities [6.4]. Give enough options that a student can choose (e.g. at
   least three bacteria, several fabrics, several heating systems).
-- **Assessment (June 2027):**
-  - **Written paper** (Higher and Ordinary). Pre-adjusted format: Section A short questions,
-    60 marks (12 questions, answer 10); Section B core (Q1 compulsory, data-based, plus a choice
-    of further core questions; 180 marks in recent papers); Section C one elective question:
-    Electives 1 and 3 = 80 marks [(a) 50, (b) or (c) 30]; Elective 2 = 40 marks [(a) 25,
-    (b) or (c) 15].
-  - **2027 adjustments (SEC):** Section A has 14 questions, answer 10. Section C gains an extra
-    80-mark Question 4 examining the **core** (Food Studies, Resource Management and Consumer
-    Studies, Social Studies) in the same layout as the elective questions; candidates answer one
-    elective question **or** Question 4. Core chapters therefore need notes deep enough for an
-    80-mark Section C question.
-  - **Food Studies coursework** (all candidates, 20%): normally four of five SEC-issued
-    assignments; **for 2027, two of five**, and where more are presented the two highest-scoring
-    count.
+- **Assessment (June 2027),** from SEC documents:
+  - **Written paper** (2 hours 30 minutes; Higher and Ordinary Level), as set out on the SEC's
+    2025 Higher Level paper and marking scheme:
+    - Section A, **60 marks**: answer ten questions, 6 marks each (14 questions set).
+    - Section B, **180 marks**: Question 1 (compulsory, data-based, 80 marks) and any two of
+      Questions 2–5 (50 marks each).
+    - Section C, **40 or 80 marks**: one elective question or Question 4 (core), answering part
+      (a) and either (b) or (c). Electives 1 and 3 and Question 4 are worth 80 marks [(a) 50,
+      (b) or (c) 30]; Elective 2 is worth 40 marks [(a) 25, (b) or (c) 15]. Candidates who
+      submitted Textiles, Fashion and Design coursework may attempt only Question 2.
+    - Paper total **320 marks**, or **280 marks** for Elective 2 candidates. The SEC grades the
+      paper on these totals (2025 Higher Level H1: 288–320, or 252–280).
+  - **2027 adjustments** (SEC *Assessment Arrangements 2027*): Section A has 14 questions, answer
+    10; Section C includes the 80-mark core Question 4, examining Food Studies, Resource
+    Management and Consumer Studies and Social Studies in the same layout and choice as the
+    elective questions. Core chapters therefore need notes deep enough for an 80-mark Section C
+    question as well as Section B.
+  - **Food Studies practical coursework** (all candidates): **20% of total marks** (SEC). Each
+    assignment is marked out of 80: investigation (analysis and research) 32, planning and
+    preparation 8, implementation 28, evaluation 12. Normally four of the five SEC assignments
+    are presented; **for 2027, two of five**, and where more are presented the two
+    highest-scoring count. Details are in `hom-cooking-methods` s7.
   - **Textiles, Fashion and Design coursework** (Elective 2 only): a garment, 100 marks weighted
-    to 10%; for 2027 the garment must include one mandatory process from a choice of three set
-    by the SEC.
-  - Sources: SEC *Assessment Arrangements 2027* (Home Economics Scientific and Social page);
-    section marks for Section B and the 80/20 split from SEC paper layouts and RTÉ exam advice
-    (4 marks = 1%). Check the SEC page again before publishing any assessment note.
+    to **10%**; for 2027 the garment must include one mandatory process from a choice of three
+    set by the SEC.
+  - The written paper is therefore the remaining 80% (70% for Elective 2 candidates, whose
+    garment carries 10%).
+  - Sources: SEC *Assessment Arrangements 2027* (Home Economics Scientific and Social page); SEC
+    Leaving Certificate 2025 Home Economics Higher Level Section A answerbook, Section B and C
+    paper and marking scheme; SEC *Food Studies Assignments (20% of Total Marks)*; SEC Food
+    Studies Practical – Coursework Journal (2025).
 
 ---
 
@@ -189,7 +206,7 @@ Digestion, absorption and utilisation of glucose is in `hom-digestion-metabolism
 
 Digestion, absorption and utilisation of triglycerides is in `hom-digestion-metabolism`.
 
-### hom-vitamins-minerals — Vitamins and Minerals [1.1.5, 1.1.6, 1.3.2]
+### hom-vitamins-minerals — Vitamins and Minerals [1.1.5, 1.1.6]
 1. **Fat-soluble vitamins** [1.1.5]: sources, functions, effects of deficiency, RDAs and
    **[HL]** properties of vitamins A (retinol and beta-carotene), D (cholecalciferol),
    E (tocopherols) and K (naphthoquinones).
@@ -214,14 +231,8 @@ Digestion, absorption and utilisation of triglycerides is in `hom-digestion-meta
    absorption of calcium and iron; haem and non-haem iron; **[HL]** the effects of phytates and
    oxalates on the absorption of calcium.
    Also examined: 2026H, 2024H, 2023H, 2021H, 2014H; calcium inhibitors (2025H, 2007H).
-6. **Vegetables and fruit as a food commodity** [1.3.2]: nutritional significance, contribution
-   to the diet, selection, effects of storage, preparation, cooking and processing of vegetables
-   and fruit. Placed here provisionally (see Appendix B).
-   - Also examined: classes of vegetables and fruit (2019O, 2016O, 2012O, 2004O); retaining
-     nutrients when preparing and cooking (2026H, 2019H, 2016O, 2011O); causes of spoilage in
-     vegetables (2026H); storage (2024O, 2021O); EU grading classes for fruit and vegetables
-     (2006H); pre-prepared fruit and vegetables (2017O).
-   - SimpleStudy: Food Commodities and Extras.
+
+Vegetables and fruit as a food commodity are in `hom-fruit-vegetables`.
 
 ### hom-digestion-metabolism — Digestion and Metabolism [1.1.2, 1.1.3, 1.1.4]
 1. **Digestion and absorption of protein** [1.1.2]: hydrolysis of protein and the digestion
@@ -273,6 +284,60 @@ intestine, villi and lacteals, hepatic portal vein, liver) for that nutrient. Si
    (see Appendix B).
    Also examined: biological functions of water (2019H, 2015H, 2012O, 2005H); water in pregnancy
    and sport (2026O, 2023O).
+
+### hom-meal-planning — Meal Planning and Special Diets [1.1.1, 1.2.3, 1.3.3]
+1. **Food choices** [1.1.1]: factors affecting food choices: culture, eating patterns, sensory
+   aspects, nutritional awareness, health status, availability, finance, marketing and
+   advertising.
+   - Settings: discussing differences in meal patterns between societies; a theme day or week
+     on the foods of a culture or period.
+   - Also examined: Q1 data questions on food choices (2025H, 2024H, 2023H, 2019H); food choices
+     of teenagers, students and pre-school children (2022O, 2017O, 2005O).
+   - SimpleStudy: Food Choices and Irish Food.
+2. **Dietary requirements through the life cycle** [1.2.3, 1.3.3]: factors affecting dietary and
+   food requirements — age, sex, health status, pregnancy and activity; the requirements of
+   babies, children, adolescents, adults, older people, pregnant and breastfeeding women,
+   convalescents and active people.
+   - Settings: case studies showing the limits on low-income families when planning menus.
+   - Also examined: pregnancy (2026O, 2024H, 2017O); pre-school children (2025O, 2022O);
+     teenagers (2022H, 2012O); older people (2025H); recovery from illness (2022O); irregular
+     work schedules (2021H, 2016H).
+   - SimpleStudy: Diet and Health.
+3. **Diet-related problems** [1.2.3]: the inter-relationship of dietary deficiencies and
+   excesses with bowel disease, osteoporosis, obesity, coronary heart disease, diabetes and
+   dental caries.
+   - Also examined: types of diabetes (2021H, 2019H, 2011H); bowel disease (2016H, 2019O);
+     osteoporosis (2025H, 2024H, 2023O — tagged to `hom-vitamins-minerals`).
+   - SimpleStudy: Diet and Health.
+4. **Modified diets** [1.2.3]: the specific dietary requirements of the coronary heart disease
+   and lacto-vegetarian diets, and **[HL]** the vegan, coeliac and diabetic diets.
+   Also examined: CHD guidelines (2019H, 2008O, 2007H); coeliac guidelines (2025H, 2022H, 2006H);
+   vegan menus and nutrients (2022H, 2009H, 2004H); how manufacturers and retailers meet special
+   dietary needs (2009H); food labelling for special diets (2024H, 2023O).
+5. **Meal management and planning** [1.3.3]: planning meals with reference to current dietary
+   guidelines; dietary requirements through the life cycle; the requirements in [1.2.3] and
+   [1.2.4]; resources available — knowledge and skills, time, money, equipment, choice of foods.
+   - Also examined: setting out a three-meal menu for a stated person (most Ordinary Level
+     papers); money, time and equipment in family meal planning (2025O, 2008O); reducing food
+     waste and the food bill (2024O, 2009O).
+   - SimpleStudy: Food Preparation.
+
+### hom-food-industry — The Irish Food Industry [1.3.1]
+1. **Structure of the Irish food industry** [1.3.1]: brief outline of its structure, to include
+   identification of the various sectors and the major food imports and exports.
+   - Settings: collect information on a local factory, business or home enterprise and assess
+     how it fits into the industry structure, what it contributes to the area and the careers it
+     offers.
+   - Also examined: sectors of the food industry (2024O, 2019H, 2012H); food exports and imports
+     (2012O, 2010H, 2008O); state agencies in the food industry, including Bord Bia (2014H,
+     2010O, 2007H, 2006O).
+2. **Small businesses and home enterprises** [1.3.1]: their role within the food industry.
+   Also examined: artisan producers and small businesses (2024H, 2017H, 2011H, 2009H); speciality
+   foods (2022H, 2012H); the growth of small Irish producers (2021O, 2012O).
+3. **Careers in food and related industries** [1.3.1]: outline knowledge.
+   Also examined: 2010H, 2010O, 2005H.
+
+SimpleStudy: none.
 
 ### hom-meat-preparation — Meat: Selection, Properties, and Cooking [1.3.2]
 1. **Nutritional significance and structure of meat** [1.3.2]: nutritional significance and
@@ -362,6 +427,33 @@ SimpleStudy for all four: Food Commodities and Extras.
 
 SimpleStudy: Food Commodities and Extras; Food Preparation.
 
+### hom-fruit-vegetables — Fruit and Vegetables [1.3.2]
+The syllabus lists "vegetables and fruit" among the main food commodities: their nutritional
+significance, contribution to the diet, selection, effects of storage, preparation, cooking and
+processing.
+1. **Classification, nutritional significance and contribution to the diet** [1.3.2]: classes of
+   vegetables and of fruit; nutritive and dietetic value; contribution to the diet and current
+   healthy-eating guidance on servings.
+   - Also examined: classes (2019O, 2016O, 2012O, 2004O); nutritional significance of vegetables
+     (2026H, 2022H, 2019H, 2012H, 2008H); ways to eat more fruit and vegetables (2025O, 2019H,
+     2017O, 2004O); consumption data (2017O, 2011O).
+   - SimpleStudy: Food Commodities and Extras.
+2. **Selection, storage and spoilage** [1.3.2]: buying fresh, frozen, canned, dried and
+   pre-prepared fruit and vegetables; quality and grading; effects of storage and storage
+   guidelines; causes of spoilage.
+   Also examined: EU grading classes (2006H); options when buying (2012H); pre-prepared fruit and
+   vegetables (2017O); storage (2024O, 2021O); spoilage by enzymes, moisture loss and microbial
+   contamination (2026H).
+3. **Preparation and cooking** [1.3.2]: the effects of preparation and cooking on nutrients,
+   colour, texture and flavour; guidelines that retain nutrients.
+   Also examined: 2026H, 2021O, 2019H, 2016O, 2012O, 2011O, 2008O, 2005O.
+4. **Processing** [1.3.2]: commercial processing of fruit and vegetables (freezing, canning,
+   drying) and its effects; processed and convenience products.
+   Also examined: canning and dehydration (2021H); effects of freezing and canning on vitamin C
+   and sodium (2005H); additives in processed fruit and vegetables (2004O).
+
+Home preservation of fruit and vegetables is in `hom-food-preservation`.
+
 ### hom-cooking-methods — Cooking Methods and Heat Transfer [1.3.4]
 1. **Physical and chemical changes during preparation and cooking** [1.3.4]: enzymic browning,
    non-enzymic browning, loss of nutrients.
@@ -385,14 +477,71 @@ SimpleStudy: Food Commodities and Extras; Food Preparation.
    presentation of dishes and meals for individuals, family groups and the modified diets in
    [1.2.3] and [1.2.4].
    Also examined: reasons for modifying recipes (2013H); aesthetic awareness (2013H).
-7. **Food Studies practical coursework (20%)** [assessment]: what the coursework is (the SEC
-   issues five assignments; for 2027 candidates present two, and the two highest-scoring
-   count); how an assignment is researched, planned, carried out and evaluated, and how the
-   SEC coursework journal is completed. Take the 2027 assignment titles and journal headings
-   from the SEC brief linked from *Assessment Arrangements 2027*; do not reconstruct them.
+7. **Food Studies practical coursework (20% of total marks)** [assessment]: how the SEC
+   coursework works, from the SEC's own documents.
+   - Areas of Practice: A Application of Nutritional Principles; B Food Preparation and Cooking
+     Processes (new skills or equipment); C Food Technology; D Properties of a Food; E
+     Comparative Analysis including Sensory Analysis.
+   - What the investigation covers in each area (SEC recording criteria): A — the nutritional
+     needs investigated, appropriate meal-planning guidelines, suitable or modified dishes; B —
+     the preparation process, skill or equipment, the key points for success, dishes that
+     illustrate it; C — the processing method and its principles, containers, packaging and
+     labelling, suitable foods or dishes; D — definition of the property, the associated
+     principles, dishes that illustrate it; E — the testing technique and possible outcomes, the
+     foods or products tested, the conditions to control. Every area cites sources of
+     information.
+   - Marks for each assignment: Investigation (analysis and research) 32; Planning and
+     Preparation (ingredients with quantities and costing, key equipment) 8; Implementation (the
+     procedure followed, key factors considered, safety and hygiene) 28; Evaluation (of the
+     implementation and of the assignment's specific requirements) 12.
+   - Rules: each assignment is recorded in the SEC's digital Food Studies Practical Coursework
+     Journal under these headings; dishes must meet the assignment, may not be repeated or
+     partially repeated across assignments, and should use fresh foods rather than convenience
+     foods. For 2027 candidates present two of the five assignments the SEC set, and the two
+     highest-scoring count.
+   - The 2027 assignment titles are in the SEC brief linked from *Assessment Arrangements 2027*;
+     add them to the package when available.
 
 Pastry is in `hom-cereals-grains`; critical evaluation, comparison of home-made and commercial
 products, and sensory analysis are in `hom-food-additives`. SimpleStudy: Food Preparation.
+
+### hom-food-additives — Food Additives and Processing [1.3.4, 1.3.5, 1.3.6]
+1. **Processed foods and three processed-food profiles** [1.3.5]: the range of processed foods
+   available; profiles of three types of processed food: food that undergoes extensive
+   processing, food processed to extend shelf life, and added-value food.
+   - Settings: flour (extensive processing — see `hom-cereals-grains`), milk (extending shelf
+     life — see `hom-dairy-eggs`), prepared foods or meals (added value); a visit to a local
+     factory or processing plant, e.g. a creamery, mill or cheese plant.
+   - Also examined: added-value food profile (2023H, 2009H); functional foods (2025H, 2014H);
+     genetically modified and organic food (2016H); merits of processed and convenience foods
+     (2026H, 2018H, 2006H); ultra-processed foods (2025O); fortification (2016H).
+2. **Packaging and labelling** [1.3.5]: packaging materials and their suitability for purpose
+   and environmental impact; food labelling as a source of consumer information.
+   Also examined: packaging materials (2026O, 2022H, 2010H); modified atmosphere and
+   biodegradable packaging (2017H, 2004H); labelling (2026H, 2024O, 2016H, 2005H).
+3. **Contaminants in the food chain** [1.3.5]: contaminants that may enter at various stages of
+   processing, e.g. antibiotics and chemicals.
+   Also examined: pesticides and metal residues (2013H); 2024H, 2004H.
+4. **Classes of food additives** [1.3.6]: classification, examples, origin and functions of food
+   additives, to include colourings, flavourings, sweeteners, preservatives, nutritional
+   supplements and **[HL]** physical conditioning agents.
+   - Settings: examining food labels to find the additives used and suggest reasons.
+   - Also examined: physical conditioning agents (2025H, 2023H, 2010H, 2006H); artificial
+     sweeteners (2026H, 2021H, 2011H); antioxidants, flavourings and emulsifiers (2018H, 2012H,
+     2011H).
+5. **Legal control of additives in the EU** [1.3.6]: outline of the legal control of the use of
+   preservatives, colours, emulsifiers and antioxidants in the European Union under Regulation
+   (EC) No 1333/2008 on food additives, to include E numbers.
+   Also examined: 2022H, 2018H, 2006H.
+6. **Evaluation and sensory analysis** [1.3.4]: critical evaluation of dishes and meals;
+   comparative assessment of home-made and commercial products or meals; **[HL]** sensory
+   analysis.
+   Also examined: categories of sensory test and one test from each (2013H, 2007H, 2005H); one
+   difference test in full (2026H, 2017H); preference tests (2023H); conditions for accurate
+   testing (2026H, 2024H, 2017H, 2015H, 2007H); uses in the food industry (2013H, 2009H); the
+   senses and food choice (2017H, 2007H).
+
+SimpleStudy: Food Processing, Safety, and Hygiene; Food Commodities and Extras.
 
 ### hom-food-preservation — Food Preservation and Storage [1.3.9]
 1. **Principles of food preservation** [1.3.9]: why food is preserved; the principles that
@@ -455,118 +604,43 @@ Hygiene.
    Also examined: stages of a HACCP system for a named dish (2021H, 2014H, 2008H); benefits
    (2010H, 2004H).
 8. **National agencies in food safety** [1.3.10]: a brief outline of the role of national
-   agencies in food safety. The syllabus's named list is **[HL]**: Department of Agriculture,
-   Food and Rural Development; Department of Health and Children; Public Analyst Laboratories;
-   Regional Health Boards; Food Safety Authority; Director of Consumer Affairs (Food Safety
-   Legislation). Several have been renamed or replaced; SEC papers use the current bodies.
+   agencies in food safety, to include **[HL]** the Food Safety Authority of Ireland; the
+   Department of Health, under which the FSAI operates; and the official agencies that carry out
+   food controls under contract to the FSAI — the Health Service Executive (its Environmental
+   Health Service and the Public Analyst Laboratories), the Department of Agriculture, Food and
+   the Marine, the Sea-Fisheries Protection Authority and the local authorities.
    - Settings: students gather information on national agencies involved in food safety and
      build a file.
    - Also examined: FSAI (2026H, 2023H, 2009H, 2005H); Public Analyst Laboratories (2023H); HSE
      (2019H); Department of Agriculture, Food and the Marine (2012H); environmental health
-     officer (2008H); An Bord Bia (2007H).
-9. **Food legislation** [1.3.7]: a brief outline of the protection given by national and
-   European food legislation, to include the Food Hygiene Regulations (1950–1989), and **[HL]**
-   the Labelling Regulations (1982 and 1991), the Sale of Food and Drugs Acts (1875, 1879,
-   1899, 1936) and the Health (Official Control of Foodstuffs) Regulations (1991).
+     officers (2008H).
+9. **Food legislation** [1.3.7]: a brief outline of the protection given to the consumer by
+   current national and European food legislation, to include:
+   - food hygiene: Regulation (EC) No 852/2004 on the hygiene of foodstuffs, given effect in
+     Ireland by the European Communities (Hygiene of Foodstuffs) Regulations 2006 (amended 2009
+     and 2010);
+   - **[HL]** food labelling: Regulation (EU) No 1169/2011 on the provision of food information
+     to consumers, given effect by the European Union (Provision of Food Information to
+     Consumers) Regulations 2014;
+   - **[HL]** the general framework of food law: the Food Safety Authority of Ireland Act 1998
+     and Regulation (EC) No 178/2002 (general food law);
+   - **[HL]** official controls: Regulation (EU) 2017/625, given effect by the European Union
+     (Official Controls in Relation to Food Legislation) Regulations 2020.
    - Settings: students research one piece of legislation and build a shared file.
-   - Also examined: European Communities (Hygiene of Foodstuffs) Regulations 2006, amended 2009
-     and 2010 (2025H); Food Hygiene Regulations 1950–89 (2024H, 2008O); Labelling Regulations
-     1982, 1991 and 2002 (2010H); Sale of Food and Drugs Acts (2011H).
+   - Also examined: the European Communities (Hygiene of Foodstuffs) Regulations 2006, amended
+     2009 and 2010 (2025H); food labelling regulations (2010H).
 
 SimpleStudy: Food Processing, Safety, and Hygiene; Microbiology.
-
-### hom-meal-planning — Meal Planning and Special Diets [1.1.1, 1.2.3, 1.3.3]
-1. **Food choices** [1.1.1]: factors affecting food choices: culture, eating patterns, sensory
-   aspects, nutritional awareness, health status, availability, finance, marketing and
-   advertising.
-   - Settings: discussing differences in meal patterns between societies; a theme day or week
-     on the foods of a culture or period.
-   - Also examined: Q1 data questions on food choices (2025H, 2024H, 2023H, 2019H); food choices
-     of teenagers, students and pre-school children (2022O, 2017O, 2005O).
-   - SimpleStudy: Food Choices and Irish Food.
-2. **Dietary requirements through the life cycle** [1.2.3, 1.3.3]: factors affecting dietary and
-   food requirements — age, sex, health status, pregnancy and activity; the requirements of
-   babies, children, adolescents, adults, older people, pregnant and breastfeeding women,
-   convalescents and active people.
-   - Settings: case studies showing the limits on low-income families when planning menus.
-   - Also examined: pregnancy (2026O, 2024H, 2017O); pre-school children (2025O, 2022O);
-     teenagers (2022H, 2012O); older people (2025H); recovery from illness (2022O); irregular
-     work schedules (2021H, 2016H).
-   - SimpleStudy: Diet and Health.
-3. **Diet-related problems** [1.2.3]: the inter-relationship of dietary deficiencies and
-   excesses with bowel disease, osteoporosis, obesity, coronary heart disease, diabetes and
-   dental caries.
-   - Also examined: types of diabetes (2021H, 2019H, 2011H); bowel disease (2016H, 2019O);
-     osteoporosis (2025H, 2024H, 2023O — tagged to `hom-vitamins-minerals`).
-   - SimpleStudy: Diet and Health.
-4. **Modified diets** [1.2.3]: the specific dietary requirements of the coronary heart disease
-   and lacto-vegetarian diets, and **[HL]** the vegan, coeliac and diabetic diets.
-   Also examined: CHD guidelines (2019H, 2008O, 2007H); coeliac guidelines (2025H, 2022H, 2006H);
-   vegan menus and nutrients (2022H, 2009H, 2004H); how manufacturers and retailers meet special
-   dietary needs (2009H); food labelling for special diets (2024H, 2023O).
-5. **Meal management and planning** [1.3.3]: planning meals with reference to current dietary
-   guidelines; dietary requirements through the life cycle; the requirements in [1.2.3] and
-   [1.2.4]; resources available — knowledge and skills, time, money, equipment, choice of foods.
-   - Also examined: setting out a three-meal menu for a stated person (most Ordinary Level
-     papers); money, time and equipment in family meal planning (2025O, 2008O); reducing food
-     waste and the food bill (2024O, 2009O).
-   - SimpleStudy: Food Preparation.
-
-### hom-food-additives — Food Additives and Processing [1.3.1, 1.3.4, 1.3.5, 1.3.6]
-1. **The Irish food industry** [1.3.1]: brief outline of its structure, to include the sectors
-   and the major food imports and exports; the role of small businesses and home enterprises;
-   outline knowledge of careers in food and related industries. Placed here provisionally (see
-   Appendix B).
-   - Settings: information on a local factory, business or home enterprise: how it fits the
-     industry, what it contributes to the area, and its career opportunities.
-   - Also examined: sectors of the food industry (2024O, 2019H, 2012H); artisan producers and
-     small businesses (2024H, 2022H, 2017H, 2009H); speciality foods (2022H, 2012H); food exports
-     (2012O, 2010H, 2008O); national agencies in the food industry (2014H, 2010O).
-2. **Processed foods and three processed-food profiles** [1.3.5]: the range of processed foods
-   available; profiles of three types of processed food: food that undergoes extensive
-   processing, food processed to extend shelf life, and added-value food.
-   - Settings: flour (extensive processing — see `hom-cereals-grains`), milk (extending shelf
-     life — see `hom-dairy-eggs`), prepared foods or meals (added value); a visit to a local
-     factory or processing plant, e.g. a creamery, mill or cheese plant.
-   - Also examined: added-value food profile (2023H, 2009H); functional foods (2025H, 2014H);
-     genetically modified and organic food (2016H); merits of processed and convenience foods
-     (2026H, 2018H, 2006H); ultra-processed foods (2025O); fortification (2016H).
-3. **Packaging and labelling** [1.3.5]: packaging materials and their suitability for purpose
-   and environmental impact; food labelling as a source of consumer information.
-   Also examined: packaging materials (2026O, 2022H, 2010H); modified atmosphere and
-   biodegradable packaging (2017H, 2004H); labelling (2026H, 2024O, 2016H, 2005H).
-4. **Contaminants in the food chain** [1.3.5]: contaminants that may enter at various stages of
-   processing, e.g. antibiotics and chemicals.
-   Also examined: pesticides and metal residues (2013H); 2024H, 2004H.
-5. **Classes of food additives** [1.3.6]: classification, examples, origin and functions of food
-   additives, to include colourings, flavourings, sweeteners, preservatives, nutritional
-   supplements and **[HL]** physical conditioning agents.
-   - Settings: examining food labels to find the additives used and suggest reasons.
-   - Also examined: physical conditioning agents (2025H, 2023H, 2010H, 2006H); artificial
-     sweeteners (2026H, 2021H, 2011H); antioxidants, flavourings and emulsifiers (2018H, 2012H,
-     2011H).
-6. **Legal control of additives in the EU** [1.3.6]: outline of the legal control of the use of
-   preservatives, colours, emulsifiers and antioxidants in the European Union, to include
-   E numbers.
-   Also examined: 2022H, 2018H, 2006H.
-7. **Evaluation and sensory analysis** [1.3.4]: critical evaluation of dishes and meals;
-   comparative assessment of home-made and commercial products or meals; **[HL]** sensory
-   analysis.
-   Also examined: categories of sensory test and one test from each (2013H, 2007H, 2005H); one
-   difference test in full (2026H, 2017H); preference tests (2023H); conditions for accurate
-   testing (2026H, 2024H, 2017H, 2015H, 2007H); uses in the food industry (2013H, 2009H); the
-   senses and food choice (2017H, 2007H).
-
-SimpleStudy: Food Processing, Safety, and Hygiene; Food Commodities and Extras.
 
 ---
 
 ## Core Area 2 — Resource Management and Consumer Studies (25%)
 
-### hom-personal-finance — Personal Finance and Budgeting [2.1, 2.1.1, 2.1.2, 2.1.3]
+### hom-resource-management — Family Resource Management [2.1, 2.1.1, 2.1.2]
 1. **Family resource management** [2.1]: the purpose of resource management; management systems;
-   the family as a managerial unit. Placed here provisionally (see Appendix B).
-   - Also examined: how good management systems contribute to a well-run home (2021H, 2006H).
+   the family as a managerial unit.
+   - Also examined: purpose of family resource management (2015H, 2009H, 2005O); how good
+     management systems contribute to a well-run home (2021H, 2006H).
    - SimpleStudy: Resource Management.
 2. **Components of management and decision-making** [2.1.1]: **[HL]** inputs (human and material
    resources, needs, wants, goals), throughputs (planning, organising, implementing) and outputs
@@ -575,42 +649,45 @@ SimpleStudy: Food Processing, Safety, and Hygiene; Food Commodities and Extras.
    - Settings: case studies planning routines for modern patterns of living, including work
      sharing, responsibility for family tasks, delegation and gender equity; checklists for
      routines and work schedules.
-   - Also examined: applying the management framework to a named event (2021H, 2013H, 2006H).
+   - Also examined: naming the components (2017H, 2015H, 2011H); applying the management
+     framework to a named event (2021H, 2013H, 2006H); decision-making (2013H); resources other
+     than money (2011O).
    - SimpleStudy: Resource Management.
 3. **Factors that affect management** [2.1.2]: stages in the life cycle, employment pattern,
    culture, values, standards, sex roles, managing a dual role, lifestyle as determined by
    socio-economic status and family composition.
    Also examined: 2023H, 2022O, 2013H, 2011O.
-4. **Household income** [2.1.3]: the household as a financial unit within the economy;
+
+### hom-personal-finance — Personal Finance and Budgeting [2.1.3]
+1. **Household income** [2.1.3]: the household as a financial unit within the economy;
    household income and social factors (age, sex, social class, culture); wages, salaries,
    pensions, social welfare allowances and benefits as sources of income.
    - Also examined: gross and net income, PAYE, PRSI, USC and tax credits (2022H, 2018H, 2014O,
      2005H); social insurance and social assistance payments (2024H, 2009H); named welfare
      payments such as the Working Family Payment, Supplementary Welfare Allowance and Child
-     Benefit (2023H, 2023O, 2006H); contributory and non-contributory State pensions (2026H).
+     Benefit (2023H, 2023O); contributory and non-contributory State pensions (2026H).
    - SimpleStudy: Household Income and Spending Patterns; Management of Household Financial
      Resources.
-5. **Household expenditure and budgeting** [2.1.3]: patterns of household expenditure at varying
+2. **Household expenditure and budgeting** [2.1.3]: patterns of household expenditure at varying
    levels of income; essential and discretionary expenditure; planning personal and family
    budgets, including credit.
    - Settings: case studies of sample budgets for families on varying incomes.
    - Also examined: a budget plan for a stated household and net income (2025O, 2021O, 2015H,
      2004H); MABS (2026H, 2025O, 2019H, 2010H).
    - SimpleStudy: Budgeting.
-6. **Methods of payment and credit** [2.1.3]: methods of payment (cash or credit) for household
-   goods and services, with criteria for selection and availability; a brief outline of
-   consumer protection by the Hire Purchase Acts (1946, 1960) and the Consumer Credit Act
-   (1995).
+3. **Methods of payment and credit** [2.1.3]: methods of payment (cash or credit) for household
+   goods and services, with criteria for selection and availability; a brief outline of the
+   protection given to the consumer by the Consumer Credit Act 1995 (as amended), including
+   hire-purchase and other credit agreements.
    - Settings: investigating forms of credit from advertisements, brochures and credit card
      material; comparing cash prices with the cost of credit.
-   - Also examined: Consumer Credit Act 1995 (2026O, 2025H, 2023H, 2010H, 2004H); Hire Purchase
-     Act (2008H, 2005H).
+   - Also examined: Consumer Credit Act 1995 (2026O, 2025H, 2023H, 2010H, 2004H).
    - SimpleStudy: Payment Options and Credit.
-7. **Saving** [2.1.3]: methods of saving.
+4. **Saving** [2.1.3]: methods of saving.
    Also examined: choosing a savings scheme — security, interest, access, tax (2023H, 2015H,
    2010H).
    SimpleStudy: Savings.
-8. **Insurance** [2.1.3]: pay-related social insurance, health insurance, household insurance,
+5. **Insurance** [2.1.3]: pay-related social insurance, health insurance, household insurance,
    life assurance.
    Also examined: types of life assurance (2025H, 2022H); premium, policy and broker (2017H,
    2006H); household insurance (2023O, 2019O).
@@ -638,15 +715,15 @@ Housing finance [2.1.3] is in `hom-housing`.
    Also examined: consumer responsibilities (2023H, 2021H, 2006H).
    SimpleStudy: Consumer Rights and Responsibilities.
 4. **Consumer protection legislation** [2.2.3]: the rights of the consumer as defined by current
-   legislation, to include the Sale of Goods and Supply of Services Act (1980) and the Consumer
-   Information Act (1978).
-   - Also examined: Consumer Protection Act 2007 (2024H, 2017H); SGSSA 1980 for appliances and
-     services (2026O, 2025H, 2022H). The app's current notes also cite the Consumer Rights Act
-     2022; the package must verify current law.
+   legislation, to include the Consumer Rights Act 2022 (statutory rights and remedies for
+   goods, services and digital content bought by consumers) and the Consumer Protection Act
+   2007 (misleading, aggressive and prohibited commercial practices, enforced by the CCPC).
+   - Also examined: Consumer Protection Act 2007 (2024H, 2017H).
    - SimpleStudy: Consumer Protection.
-5. **Voluntary and statutory consumer protection bodies** [2.2.3].
-   Also examined: 2024H, 2022H, 2019H, 2016H, 2015H (Citizens Information Board), 2013H
-   (Consumer Association of Ireland, ASAI), 2006H (Office of Consumer Affairs).
+5. **Voluntary and statutory consumer protection bodies** [2.2.3]: e.g. the Competition and
+   Consumer Protection Commission, Citizens Information, the Financial Services and Pensions
+   Ombudsman, the Advertising Standards Authority.
+   Also examined: 2024H, 2022H, 2019H, 2016H, 2015H, 2013H.
    SimpleStudy: Consumer Protection.
 6. **Complaints and the small claims procedure** [2.2.3]: procedures to follow when a problem
    occurs with a product or service; the function and operation of the small claims procedure.
@@ -675,7 +752,7 @@ The environmental part of [2.2.2] is in `hom-environmental-issues`.
      responsible choice, use and disposal of appliances (2025H, 2024H, 2014H).
 
 SimpleStudy: Consumer Responsibility to the Environment. Energy efficiency, fuels and emissions
-in the home are Elective 1 content in `hom-housing`.
+in the home are Elective 1 content in `hom-home-services`.
 
 ### hom-appliances-equipment — Household Appliances and Equipment [2.1.5]
 1. **Household technology and home management** [2.1.5]: technological developments available to
@@ -786,37 +863,43 @@ SimpleStudy: The Family as a Caring Unit.
    Also examined: pre-marriage courses (2025O, 2017H, 2014O, 2009H).
 4. **When a marriage breaks down** [3.1.5]: marriage counselling, family mediation, legal
    separation, legal nullity, divorce.
-   Also examined: conditions for divorce under the Family Law (Divorce) Act 1996 (2015H, 2006H).
+   Also examined: conditions for divorce under the Family Law (Divorce) Act 1996, as amended by
+   the Family Law Act 2019 (2015H, 2006H).
 
 SimpleStudy: Marriage.
 
 ### hom-family-law — Family Law [3.1.7]
-The Acts should be referred to wherever appropriate in the social studies sections.
-1. **The Family Law (Maintenance of Spouses and Children) Act (1976)** [3.1.7].
-2. **The Family Home Protection Act (1976)** [3.1.7].
-3. **The Family Law Act (1976), section 22: barring orders** [3.1.7] **[HL]**.
-4. **The Judicial Separation Act (1989)** [3.1.7] **[HL]**.
-5. **The Child Care Act (1991)** [3.1.7] **[HL]**.
+Protection available for families under current Irish family law. Refer to these Acts wherever
+appropriate in the social studies sections.
+1. **The Family Law (Maintenance of Spouses and Children) Act 1976** [3.1.7].
+   Also examined: 2018H, 2012O.
+2. **The Family Home Protection Act 1976** [3.1.7].
+   Also examined: 2004H.
+3. **Barring orders under the Domestic Violence Act 2018** [3.1.7] **[HL]**.
+4. **The Judicial Separation and Family Law Reform Act 1989** [3.1.7] **[HL]**.
+5. **The Child Care Act 1991** [3.1.7] **[HL]**.
    Also examined: protection for children under current family law (2013H, 2012H).
-6. **Making a will** [3.1.7]: the importance of, and outline procedure for, making a will.
+6. **Making a will** [3.1.7]: the importance of, and outline procedure for, making a will under
+   the Succession Act 1965.
    Also examined: 2026H, 2022H, 2017O, 2011O, 2010H.
 
-Where later legislation has replaced or amended an Act, the package must state the current
-position: the syllabus expects the most recent developments. SimpleStudy: Family Law.
+SimpleStudy: Family Law.
 
 ---
 
 ## Elective 1 — Home Design and Management (20%)
 
-Assessed by the written examination only. All of Elective 1 is in `hom-housing`, because SEC
-questions on it are tagged there (see Appendix B).
+Assessed by the written examination only. Elective 1 is split across three chapters: `hom-housing`
+(housing styles, provision, location, planning and design), `hom-home-interior` and
+`hom-home-services`. `hom-housing` also holds the core housing content [2.1.3, 2.1.4].
 
-### hom-housing — Housing and Accommodation [2.1.3, 2.1.4, 4.1–4.5]
+### hom-housing — Housing and Accommodation [2.1.3, 2.1.4, 4.1, 4.2]
 1. **Housing choices** [2.1.4, core]: factors that determine individual and family housing
-   choices — socio-economic factors, national housing policy, trends in housing development,
+   choices — socio-economic factors, national housing policy (the current national plan is
+   *Delivering Homes, Building Communities 2025–2030*), trends in housing development,
    availability.
-   - Also examined: features of national housing policy, including Housing for All (2024H,
-     2014H, 2008H); buying vs renting (2021O, 2018O, 2014H); private rented sector (2014H).
+   - Also examined: features of national housing policy (2024H, 2014H, 2008H); buying vs renting
+     (2021O, 2018O, 2014H); private rented sector (2014H).
    - SimpleStudy: Housing.
 2. **Housing finance** [2.1.3, core] **[HL]**: factors determining requirements, sources and
    conditions attaching; mortgage protection.
@@ -824,80 +907,107 @@ questions on it are tagged there (see Appendix B).
    - Also examined: conditions for mortgage approval (2025H, 2022H, 2017H, 2011H); types of
      mortgage and interest rates (2023H, 2017H, 2007H, 2004H).
    - SimpleStudy: Housing.
-3. **Housing styles** [4.1.1]: **[HL]** outline of the historical development of housing styles
-   in Ireland from the nineteenth century; popular housing styles in Ireland today; social,
-   cultural, economic and environmental factors influencing the choice of housing style.
+3. **Housing styles** [4.1.1, Elective 1]: **[HL]** outline of the historical development of
+   housing styles in Ireland from the nineteenth century; popular housing styles in Ireland
+   today; social, cultural, economic and environmental factors influencing the choice of housing
+   style.
    Settings: a school visit to houses from different periods; photographs of house styles as
    stimulus for discussing suitability to their surroundings.
-4. **Housing provision** [4.1.2]: the housing requirements of families, single people, older
-   people, people with disabilities and homeless people; evaluation of housing provision in
-   Ireland today — **[HL]** distribution of housing (rented or owner-occupied, private or
-   social, urban or rural), quality of accommodation, comparative costs of buying and renting,
-   **[HL]** adequacy of provision to meet varying requirements; social housing provision (local
-   authority, voluntary and co-operative housing); provision of local amenities and services
-   (schools, shops, community centres, transport, play areas, street lighting, refuse
-   collection).
+4. **Housing provision** [4.1.2, Elective 1]: the housing requirements of families, single
+   people, older people, people with disabilities and homeless people; evaluation of housing
+   provision in Ireland today — **[HL]** distribution of housing (rented or owner-occupied,
+   private or social, urban or rural), quality of accommodation, comparative costs of buying and
+   renting, **[HL]** adequacy of provision to meet varying requirements; social housing
+   provision (local authority, voluntary and co-operative housing); provision of local amenities
+   and services (schools, shops, community centres, transport, play areas, street lighting,
+   refuse collection).
    Settings: a group housing study of a local area (townland, village, housing estate).
-5. **Location, planning and professional services** [4.2]: factors that influence the choice of
-   location and house style; the procedure for obtaining planning permission or bye-law
-   approval; professional services — architects, engineers, surveyors, solicitors, builders,
-   books of house plans.
+5. **Location, planning and professional services** [4.2, Elective 1]: factors that influence
+   the choice of location and house style; the procedure for obtaining planning permission from
+   the local authority under the Planning and Development Act 2024, with appeals to An
+   Coimisiún Pleanála; professional services — architects, engineers, surveyors, solicitors,
+   builders, books of house plans.
    - Settings: a case study of a person or family with particular needs, used for the location,
-     house design, interior and services tasks that follow.
+     house design, interior and services tasks that follow (see `hom-home-interior` and
+     `hom-home-services`).
    - Also examined: outline and full planning permission (2024O, 2021H, 2016H, 2012O).
-6. **House design and building standards** [4.2]: factors that influence house design —
-   aesthetic and environmental factors, present and future family requirements, energy
+6. **House design and building standards** [4.2, Elective 1]: factors that influence house
+   design — aesthetic and environmental factors, present and future family requirements, energy
    efficiency, ergonomics, initial and maintenance costs, technological developments; **[HL]**
-   regulation of house-building standards — the national house building guarantee scheme,
-   certificates and guarantees, grant provision.
-   Also examined: BER certificate (2017H); legislation regulating building standards (2011H);
+   regulation of house-building standards — the Building Regulations and building control
+   (certificates of compliance required under the Building Control (Amendment) Regulations
+   2014), structural defects warranties such as HomeBond's, and grant provision such as SEAI
+   home energy grants.
+   Also examined: the BER certificate (2017H); legislation regulating building standards (2011H);
    evaluating a house plan for a stated family (2026O, 2017H, 2015O).
-7. **Interior design: principles and factors** [4.3]: the elements and principles of design
-   applied to the home; factors that influence interior design — aesthetic and comfort factors,
-   ergonomics, family size and circumstances, special needs, cost, environmental awareness.
-   Settings: evaluating rooms from photographs against the elements and principles of design;
-   designing one room for the case study.
-8. **Furnishing the home** [4.3]: selection, properties and uses of flooring and floor
-   coverings, wall finishes, furniture and soft furnishings; **[HL]** criteria for selection,
-   properties and uses of wood, metal, glass, plastics and fabric.
+
+### hom-home-interior — Designing the House Interior [4.3]
+Elective 1. Builds on the case-study house in `hom-housing`.
+1. **Elements and principles of design and factors in interior design** [4.3]: the elements and
+   principles of design and their application to the home; factors that influence the interior
+   design of the home — aesthetic and comfort factors, ergonomics, family size and
+   circumstances, special needs, cost, environmental awareness.
+   - Settings: evaluating rooms from photographs or magazines against the elements and
+     principles of design and other criteria; designing one room for the case study.
+   - Also examined: design principles applied to a room (2024H, 2010H, 2005H); colour, pattern
+     and texture (2025O, 2022H, 2017O, 2010O, 2007O); factors in kitchen or room design (2025H,
+     2024H, 2023H, 2015H); evaluating a room or layout (2023O, 2022O, 2016O).
+2. **Floors, walls, furniture and soft furnishings** [4.3]: selection, properties and uses of
+   flooring and floor coverings, wall finishes, furniture and soft furnishings.
    - Settings: recommendations for the floor coverings, wall finishes, furniture and soft
      furnishings of one room.
-   - Also examined: thermoplastic and thermosetting plastics (2015H, 2005H); one solid wood
-     (2009H).
-9. **Energy supplies to the home** [4.4]: electricity, gas, oil, solid fuels and solar energy;
-   their sources and sustainability.
-   Also examined: one renewable or non-renewable source in detail (2026H, 2022H, 2014H, 2011H).
-10. **Emissions, energy inefficiency and energy efficiency** [4.4]: **[HL]** emissions produced by
-    burning fuels in the home and their effects on the environment; identifying potential energy
-    inefficiencies; strategies to improve energy efficiency and reduce emissions.
-    Settings: a small investigative study of energy inefficiency in the home (heat loss, hot
-    water heating, inefficient use of fuels, cooking practices); recommendations for an
-    energy-efficient house design.
-11. **Electricity** [4.5.1]: household electricity supply and **[HL]** the structure of the ring
-    circuit; voltage, wattage, amperage, kilowatt-hour, tariffs and costings; safety in the use
-    of electricity — fuses, circuit breakers, earth.
-    - Settings: recommendations for heating, lighting and ventilation for one room of the
-      designed house.
-    - Also examined: charges on an electricity bill (2015H, 2008O); safe use of gas (2008O).
-12. **Water** [4.5.2]: cold water supply and storage in the house.
-    Also examined: parts of the cold water system (2025H, 2023O, 2015O); public water treatment
-    (2024O, 2018O, 2010H); preventing freezing (2024O, 2004O); water conservation (2025H, 2021H,
-    2015O).
-13. **Heating** [4.5.3]: levels of thermal comfort and their control, including the principle and
-    uses of thermostats; heating options and factors in choosing a heating system; the
-    scientific principles of one system of domestic central heating and their application.
-14. **Insulation** [4.5.4]: underlying principles and methods of insulation.
-    Settings: evaluating insulation in the student's own home and recommending improvements.
-15. **Ventilation** [4.5.5]: underlying principles and their application; natural and artificial
-    methods.
-    - Settings: evaluating ventilation in the home economics room or a room at home.
-    - Also examined: condensation (2015H).
-16. **Lighting** [4.5.6]: **[HL]** properties of light and their application; principles for
-    planning lighting systems; outline of contemporary lighting developments; underlying
-    principles and uses of energy-efficient lighting.
-    Settings: investigating contemporary lighting through magazines, brochures and shop visits.
+   - Also examined: floor coverings (2022H, 2018H, 2016O, 2013H, 2007H); wall finishes (2026O,
+     2019H, 2014H, 2013O, 2008H, 2006O); furniture (2018O, 2016H, 2015O, 2009H); soft furnishings
+     (2021O, 2017O, 2010H, 2008O).
+3. **Materials used in the home** [4.3] **[HL]**: criteria for selection, properties and uses of
+   wood, metal, glass, plastics and fabric.
+   Also examined: thermoplastic and thermosetting plastics (2015H, 2005H); one solid wood (2009H).
 
-SimpleStudy: Housing (subsections 1–2 only); no topics for subsections 3–16.
+SimpleStudy: none.
+
+### hom-home-services — The Energy-Efficient Home, Systems and Services [4.4, 4.5]
+Elective 1. Builds on the case-study house in `hom-housing`.
+1. **Energy supplies to the home** [4.4]: electricity, gas, oil, solid fuels and solar energy;
+   their sources and the sustainability of these sources.
+   Also examined: one renewable or non-renewable source in detail (2026H, 2022H, 2014H, 2011H,
+   2007H).
+2. **Emissions, energy inefficiency and energy efficiency** [4.4]: **[HL]** emissions produced by
+   burning fuels in the home and their effects on the environment; identifying potential energy
+   inefficiencies in the home; strategies to improve energy efficiency and reduce emissions.
+   - Settings: a small investigative study of energy inefficiency in the home (heat loss, how hot
+     water is heated, inefficient use of fuels, cooking practices); recommendations for an
+     energy-efficient house design.
+   - Also examined: 2024H, 2023H, 2018H, 2017H, 2008H, 2004H.
+3. **Electricity** [4.5.1]: household electricity supply and **[HL]** the structure of the ring
+   circuit; voltage, wattage, amperage, kilowatt-hour, tariffs and costings; safety in the use
+   of electricity — fuses, circuit breakers, earth.
+   - Settings: recommendations for heating, lighting and ventilation for one room of the
+     case-study house.
+   - Also examined: miniature circuit breakers and the earth wire (2024H, 2022O, 2019H, 2015H);
+     charges on an electricity bill (2015H, 2008O); safe use of electricity and gas (2023O,
+     2019H, 2008O).
+4. **Water** [4.5.2]: cold water supply and storage in the house.
+   Also examined: parts of the cold water system (2025H, 2023O, 2015O); public water treatment
+   (2024O, 2018O, 2010H); preventing freezing (2024O, 2004O); water conservation (2025H, 2021H,
+   2015O).
+5. **Heating** [4.5.3]: levels of thermal comfort and their control, including the principle and
+   uses of thermostats; heating options and factors in choosing a heating system; the
+   scientific principles of one system of domestic central heating and their application.
+   Also examined: 2026H, 2026O, 2023H, 2019O, 2016H, 2012H, 2008H, 2006H.
+6. **Insulation** [4.5.4]: underlying principles and methods of insulation.
+   - Settings: evaluating the insulation in the student's own home and recommending improvements.
+   - Also examined: 2025O, 2024H, 2022H, 2021O, 2009H, 2005H.
+7. **Ventilation** [4.5.5]: underlying principles and their application; natural and artificial
+   methods.
+   - Settings: evaluating ventilation in the home economics room or a room at home.
+   - Also examined: 2025H, 2024O, 2022H, 2017H, 2012H, 2004H; condensation (2015H).
+8. **Lighting** [4.5.6]: **[HL]** properties of light and their application; principles for
+   planning lighting systems; outline of contemporary lighting developments; underlying
+   principles and uses of energy-efficient lighting.
+   - Settings: investigating contemporary lighting through magazines, brochures and shop visits.
+   - Also examined: 2025H, 2023H, 2022O, 2021H, 2013H, 2011H, 2006H.
+
+SimpleStudy: none.
 
 ---
 
@@ -914,25 +1024,26 @@ Assessed by practical coursework (the garment) and the written examination. Hous
      properties such as absorbent, flammable, crease-resistant, colourfast (2026O, 2007O).
    - SimpleStudy: Textiles Overview.
 2. **Safety in household textiles** [2.1.6, core]: safety considerations in selecting household
-   textiles; the identification and effects of one fire-retardant finish; **[HL]** the Fire
-   Safety (Domestic Furniture) Order (1988): identification and purpose of the order and the
-   labels it specifies.
-   Also examined: the Order's permanent label (2026H, 2022H, 2016H, 2004H); fabric for
-   upholstered furniture (2016H, 2004H).
-3. **Fibre classification** [5.2]: classification, sources and uses of natural, regenerated and
-   synthetic fibres.
+   textiles; the identification and effects of one fire-retardant finish; **[HL]** the fire
+   safety requirements for domestic upholstered furniture, which from July 2026 are those of the
+   EU General Product Safety Regulation (Regulation (EU) 2023/988).
+   Also examined: properties of fabric for upholstered furniture (2016H, 2004H); fire-retardant
+   finishes (2018H, 2014H, 2011O, 2009O, 2006H).
+3. **Fibre classification** [5.2, Elective 2]: classification, sources and uses of natural,
+   regenerated and synthetic fibres.
    Also examined: regenerated vs synthetic (2022H, 2016H, 2008H).
-4. **Fabric profiles** [5.2]: profiles of one fabric made from natural fibres, one made from
-   manufactured fibres and **[HL]** one blend, to include fibre production and properties,
-   identification by burning tests and microscopic evaluation, yarn production, and **[HL]**
-   yarn or filament modification.
+4. **Fabric profiles** [5.2, Elective 2]: profiles of one fabric made from natural fibres, one
+   made from manufactured fibres and **[HL]** one blend, to include fibre production and
+   properties, identification by burning tests and microscopic evaluation, yarn production, and
+   **[HL]** yarn or filament modification.
    - Settings: observing and feeling fabrics; investigating fabrics for fibre origin, yarn
      production, construction and design application.
    - Also examined: a fabric profile in almost every Elective 2 question (2026H, 2024H, 2023H,
      2021H, 2017H); filament modification (2022H, 2008H).
-5. **Fabric construction, finishes, colour, design and testing** [5.2]: fabric construction
-   techniques (two; **[HL]** three); finishes (two; **[HL]** three); colour application (two
-   methods); design application (two methods); **[HL]** fabric performance testing (two tests).
+5. **Fabric construction, finishes, colour, design and testing** [5.2, Elective 2]: fabric
+   construction techniques (two; **[HL]** three); finishes (two; **[HL]** three); colour
+   application (two methods); design application (two methods); **[HL]** fabric performance
+   testing (two tests).
    - Settings: simple scientific tests on fabrics for performance characteristics.
    - Also examined: knitted fabric (2019H, 2009H, 2005H); functional finishes (2014H, 2011O);
      colour and design application (2026O, 2016H); performance tests (2025H, 2008H).
@@ -1113,17 +1224,42 @@ SimpleStudy: none.
   chemical changes in cooking, soups, sauces and pastry [1.3.4]; profiles of processed food,
   packaging and contaminants [1.3.5]; food legislation [1.3.7]; preservation methods in detail
   [1.3.9]; national food safety agencies [1.3.10]; the working principles of appliances
-  [2.1.5]; textile care, fire-retardant finishes and the Fire Safety Order [2.1.6]; all of
+  [2.1.5]; textile care, fire-retardant finishes and furniture fire safety [2.1.6]; all of
   Elective 1 except housing choices and finance [4.1–4.5]; all of Elective 2 except a textiles
   overview [5.1–5.4]; and all of Elective 3 [6.1–6.7].
 - **In SimpleStudy but not named in the syllabus:** none of substance; "Food Commodities and
   Extras" and "Diet and Health" are broader groupings of syllabus content.
 - **Beyond the syllabus wording but examined by the SEC:** listed under "Also examined" in each
-  subsection. Main themes: current legislation and renamed bodies (Consumer Protection Act
-  2007, Hygiene of Foodstuffs Regulations 2006, Family Law (Divorce) Act 1996, FSAI, HSE, CCPC);
-  income deductions (PAYE, PRSI, USC, tax credits); welfare payments and pensions; MABS; novel
-  protein foods; functional, GM, organic and ultra-processed foods; Bord Bia quality assurance;
-  Housing for All and the BER certificate; online shopping; current fashion trends.
+  subsection. Main themes: current legislation and renamed bodies; income deductions (PAYE,
+  PRSI, USC, tax credits); welfare payments and pensions; MABS; novel protein foods; functional,
+  GM, organic and ultra-processed foods; Bord Bia quality assurance; national housing policy and
+  the BER certificate; online shopping; current fashion trends.
+- **Legislation and bodies updated to June 2027.** The syllabus (2001) names Acts and bodies that
+  have since been replaced, revoked or renamed. The outline uses only the current ones:
+
+  | Syllabus names | Used for June 2027 |
+  |---|---|
+  | Food Hygiene Regulations (1950–1989) [1.3.7] | Regulation (EC) No 852/2004, given effect by the European Communities (Hygiene of Foodstuffs) Regulations 2006 (amended 2009, 2010) |
+  | Labelling Regulations (1982, 1991) [1.3.7, HL] | Regulation (EU) No 1169/2011, given effect by the European Union (Provision of Food Information to Consumers) Regulations 2014 |
+  | Sale of Food and Drugs Acts (1875–1936) [1.3.7, HL] | Food Safety Authority of Ireland Act 1998 and Regulation (EC) No 178/2002 (general food law) |
+  | Health (Official Control of Foodstuffs) Regulations (1991) [1.3.7, HL] | Regulation (EU) 2017/625, given effect by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020 |
+  | EU control of additives [1.3.6] | Regulation (EC) No 1333/2008 on food additives |
+  | Department of Agriculture, Food and Rural Development; Department of Health and Children; Regional Health Boards; Food Safety Authority; Director of Consumer Affairs [1.3.10, HL] | FSAI; Department of Health; the official agencies under FSAI service contracts — HSE (Environmental Health Service, Public Analyst Laboratories), Department of Agriculture, Food and the Marine, Sea-Fisheries Protection Authority, local authorities |
+  | Hire Purchase Acts (1946, 1960) [2.1.3] | Consumer Credit Act 1995 (as amended), which governs hire-purchase agreements |
+  | Sale of Goods and Supply of Services Act (1980); Consumer Information Act (1978) [2.2.3] | Consumer Rights Act 2022; Consumer Protection Act 2007 (CCPC) |
+  | Fire Safety (Domestic Furniture) Order (1988) [2.1.6, HL] | revoked July 2026 (S.I. 357/2026); EU General Product Safety Regulation (EU) 2023/988 |
+  | Family Law Act (1976) s.22 barring orders [3.1.7, HL] | Domestic Violence Act 2018 |
+  | Judicial Separation Act (1989) [3.1.7, HL] | Judicial Separation and Family Law Reform Act 1989 (as amended) |
+  | Divorce (examined) | Family Law (Divorce) Act 1996, as amended by the Family Law Act 2019 |
+  | Planning permission or bye-law approval [4.2] | planning permission under the Planning and Development Act 2024; appeals to An Coimisiún Pleanála (replaced An Bord Pleanála, June 2025) |
+  | National house building guarantee scheme, certificates, grants [4.2, HL] | Building Regulations and building control certificates (Building Control (Amendment) Regulations 2014); structural defects warranties such as HomeBond's; SEAI grants |
+  | National housing policy [2.1.4] | *Delivering Homes, Building Communities 2025–2030* |
+
+  The Family Law (Maintenance of Spouses and Children) Act 1976, the Family Home Protection Act
+  1976, the Child Care Act 1991, the Consumer Credit Act 1995 and the Protection of Young Persons
+  (Employment) Act 1996 remain in force (as amended) and keep their syllabus names. SEC papers up
+  to 2026 sometimes still named a superseded Act (e.g. the Sale of Goods and Supply of Services
+  Act 1980 in 2026); the outline follows the current law.
 - **Wrong-course content removed from the app** (Junior Cycle household-skills topics with no
   basis in this syllabus and never examined at Leaving Cert in 2004–2026): ten flashcards — in
   `hom-clothing-selection`: Wash-load preparation, Stain-removal principles, Protein stains,
@@ -1138,31 +1274,30 @@ SimpleStudy: none.
   4.1.2, 4.2]; fast fashion and sustainable clothing [2.2.2 washing clothes, 5.1].
 - **Exam-bank tagging caution:** `home-economics-exam-questions.js` tags each multi-part question
   by its first part, so some chapters carry off-topic parts (for example `hom-dairy-eggs` holds
-  parts on saving schemes and marriage; `hom-meat-preparation` holds mortgage parts). Package
-  writers should send those parts to the chapter that owns the topic in this outline and not
-  pad a chapter's notes with them.
+  parts on saving schemes and marriage; `hom-meat-preparation` holds mortgage parts), and no
+  question is yet tagged to the five new chapters. The bank is due to be regenerated and
+  re-tagged against these 36 chapters. Until then, package writers should take a chapter's past
+  questions by topic, using the "Also examined" years in this outline, not by `chapterId` alone.
 
-## Appendix B — Syllabus content without a natural home in an existing chapter
+## Appendix B — Where syllabus content without an obvious chapter was placed
 
-No new chapters have been created. Each item below has been placed in the existing chapter
-listed, and is written into that chapter above. A new chapter would need your approval and a
-re-tag of past questions.
+Five chapters were added on 2026-11-05 for content that had no natural home: `hom-food-industry`
+[1.3.1], `hom-fruit-vegetables` [1.3.2], `hom-resource-management` [2.1–2.1.2],
+`hom-home-interior` [4.3] and `hom-home-services` [4.4–4.5]. The remaining placements are:
 
-| Syllabus content | Placed in | Alternative (needs approval) |
-|---|---|---|
-| Food choices [1.1.1] | `hom-meal-planning` s1 | — |
-| Water [1.1.7] | `hom-energy-nutrition` s6 (SEC tags its questions there) | — |
-| Vegetables and fruit as a commodity [1.3.2] | `hom-vitamins-minerals` s6 (SEC tags vegetable questions there) | new chapter `hom-fruit-vegetables` |
-| Alternatives to meat [1.3.2] | `hom-proteins` s9 (SEC tags novel protein questions there) | — |
-| Fats and oils as a commodity [1.3.2] | `hom-lipids` s6 | — |
-| The Irish food industry [1.3.1] | `hom-food-additives` s1 (SEC tags food-industry questions there) | new chapter `hom-food-industry` |
-| Pastry [1.3.4] | `hom-cereals-grains` s5 (SEC tags pastry questions there) | — |
-| Sensory analysis and evaluation [1.3.4] | `hom-food-additives` s7 (SEC tags sensory questions there) | — |
-| Food legislation [1.3.7] | `hom-food-safety` s9 | — |
-| Food Studies coursework | `hom-cooking-methods` s7 | — |
-| Family resource management [2.1, 2.1.1, 2.1.2] | `hom-personal-finance` s1–s3 (SEC tags them there) | new chapter `hom-resource-management` |
-| Elective 1, all of 4.1–4.5 (16 subsections) | `hom-housing` (SEC tags nearly all Elective 1 questions there) | split into `hom-housing` (2.1.4, 2.1.3, 4.1, 4.2) plus new `hom-home-interior` (4.3) and `hom-home-services` (4.4–4.5) |
-| Household textile care [2.1.6] | `hom-clothing-selection` s1 (SEC tags care-symbol questions there) | — |
+| Syllabus content | Placed in |
+|---|---|
+| Food choices [1.1.1] | `hom-meal-planning` s1 |
+| Water [1.1.7] | `hom-energy-nutrition` s6 |
+| Alternatives to meat [1.3.2] | `hom-proteins` s9 |
+| Fats and oils as a commodity [1.3.2] | `hom-lipids` s6 |
+| Pastry [1.3.4] | `hom-cereals-grains` s5 |
+| Sensory analysis and evaluation [1.3.4] | `hom-food-additives` s6 |
+| Food legislation [1.3.7] | `hom-food-safety` s9 |
+| Food Studies coursework | `hom-cooking-methods` s7 |
+| Housing choices and housing finance [2.1.3, 2.1.4] (core) | `hom-housing` s1–s2 |
+| Household textile care [2.1.6] (core) | `hom-clothing-selection` s1 |
+| Household textiles and safety [2.1.6] (core) | `hom-textiles-fibres` s1–s2 |
 
 ## Appendix C — Higher Level-only content (black print in the syllabus), complete list
 
@@ -1188,27 +1323,29 @@ levels.
 - **[1.2.3]** The vegan, coeliac and diabetic modified diets.
 - **[1.3.4]** Sensory analysis.
 - **[1.3.6]** Physical conditioning agents.
-- **[1.3.7]** Labelling Regulations (1982, 1991); Sale of Food and Drugs Acts (1875, 1879, 1899,
-  1936); Health (Official Control of Foodstuffs) Regulations (1991).
+- **[1.3.7]** Food labelling law, the general framework of food law and official controls (the
+  current instruments are in `hom-food-safety` s9 and Appendix A).
 - **[1.3.8]** Micro-organisms that cause spoilage and foodborne disease (moulds, yeasts and three
   food poisoning bacteria, with all listed details); the principles underlying the control of
   enzymic spoilage.
 - **[1.3.9]** Fermentation and irradiation; comparative evaluation of foods preserved by
   different methods.
-- **[1.3.10]** HACCP and ISO 9000; the named list of national agencies.
+- **[1.3.10]** HACCP and ISO 9000; the named national agencies.
 - **[2.1.1]** Inputs, throughputs and outputs.
 - **[2.1.3]** Housing finance.
 - **[2.1.5]** Underlying working principles of the four appliances.
-- **[2.1.6]** The Fire Safety (Domestic Furniture) Order (1988).
+- **[2.1.6]** Fire safety requirements for domestic upholstered furniture (now the EU General
+  Product Safety Regulation).
 - **[2.2.1]** The purchasing process.
 - **[3.1.3]** The historical development of the Irish family; social, economic and technological
   changes affecting family structures.
 - **[3.1.6]** Social and economic factors affecting changing roles; role conflict; the family's
   response to special needs.
-- **[3.1.7]** Family Law Act (1976) s.22; Judicial Separation Act (1989); Child Care Act (1991).
+- **[3.1.7]** Barring orders (Domestic Violence Act 2018); the Judicial Separation and Family Law
+  Reform Act 1989; the Child Care Act 1991.
 - **[4.1.1]** Historical development of housing styles. **[4.1.2]** Distribution of housing;
-  adequacy of housing provision. **[4.2]** Regulation of house-building standards (guarantee
-  scheme, certificates, grants). **[4.3]** Materials: wood, metal, glass, plastics, fabric.
+  adequacy of housing provision. **[4.2]** Regulation of house-building standards (building
+  control certificates, structural warranties, grants). **[4.3]** Materials: wood, metal, glass, plastics, fabric.
   **[4.4]** Emissions from burning fuels. **[4.5.1]** Structure of the ring circuit. **[4.5.6]**
   Properties of light.
 - **[5.1]** Social, economic and industrial influences on clothing. **[5.2]** One blend; yarn or

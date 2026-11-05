@@ -13,7 +13,7 @@
   introduction from September 2027 at the earliest) or Junior Cycle Home Economics content.
 - Use the taxonomy below as the single secondary research map. NCCA controls scope; SEC papers and
   marking schemes control examination content.
-- The full chapter-by-chapter outline used for content generation, keyed to the app's 31 home
+- The full chapter-by-chapter outline used for content generation, keyed to the app's 36 home
   economics chapter IDs, with Higher Level-only markings read from the syllabus PDF, is
   `course-outlines/homeeconomics.md`.
 
