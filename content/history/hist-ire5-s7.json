@@ -25,7 +25,8 @@
         "The Loughgall ambush of 8 May 1987 saw the SAS kill eight IRA members who were attacking a police station, and it became central to allegations of a 'shoot to kill' policy.",
         "The Gibraltar shootings of March 1988 killed three IRA members, and the incident raised questions about the use of lethal force by the security forces.",
         "The British army and RUC carried out searches, arrests and surveillance operations that disrupted IRA units, but the IRA continued to recruit and attack.",
-        "Republican prisoners in the 1970s and 1980s were held in special category and later in the H-Blocks, where their protests kept the issue of political status in the public eye."
+        "Republican prisoners in the 1970s and 1980s were held in special category and later in the H-Blocks, where their protests kept the issue of political status in the public eye.",
+        "Republicans argued that the army's arrests and searches in Catholic areas increased recruitment to the IRA."
       ]
     },
     {
@@ -37,7 +38,8 @@
         "The bombing of McGurk's Bar in Belfast on 4 December 1971 killed 15 people, and it was carried out by loyalists.",
         "The UVF carried out the bombings in Dublin and Monaghan on 17 May 1974, which killed about 33 people and are the largest loss of life from a single day of the Troubles.",
         "The Greysteel massacre of 30 October 1993 saw the Ulster Freedom Fighters kill eight people at a Halloween dance in County Londonderry.",
-        "Loyalist paramilitaries claimed to be defending the Union, but their campaigns of sectarian killing made them a serious cause of Catholic deaths."
+        "Loyalist paramilitaries claimed to be defending the Union, but their campaigns of sectarian killing made them a serious cause of Catholic deaths.",
+        "UVF gunmen carried out attacks on Catholic bars and public houses in Belfast during the 1970s."
       ]
     },
     {
@@ -58,7 +60,8 @@
         "Loyalist murals in Protestant areas celebrated the UVF and UDA and presented their violence as a defence of loyal communities.",
         "Republicans used publications such as An Phoblacht to present their case, and their statements were sought by international media.",
         "The British government in October 1988 banned broadcasts of the voices of spokesmen for proscribed organisations, including Sinn Féin.",
-        "The ban on broadcasting voices was intended to deny publicity to terrorist groups, and critics said it restricted freedom of expression."
+        "The ban on broadcasting voices was intended to deny publicity to terrorist groups, and critics said it restricted freedom of expression.",
+        "Irish-American support for republicans provided funds and publicity for the republican campaign."
       ]
     },
     {
@@ -88,7 +91,8 @@
         "Garret FitzGerald, Taoiseach from 1981 to 1982 and from 1982 to 1987, pursued the New Ireland Forum and signed the Anglo-Irish Agreement with Margaret Thatcher in 1985.",
         "Charles Haughey, Taoiseach from 1987 to 1992, returned Fianna Fáil to power and kept the Anglo-Irish Agreement's framework in place.",
         "The Republic's government received complaints from unionists that it had too much influence through the Agreement's Intergovernmental Conference.",
-        "Extradition and cross-border security cooperation were recurring issues in relations between Dublin and London during the 1980s."
+        "Extradition and cross-border security cooperation were recurring issues in relations between Dublin and London during the 1980s.",
+        "Extradition and security cooperation between the Republic and Britain were debated through the 1980s, and the Anglo-Irish Agreement put cooperation on a formal footing."
       ]
     },
     {
@@ -104,28 +108,91 @@
     }
   ],
   "keyTerms": [
-    { "term": "Terrorism", "definition": "The use of violence against civilians and the state to achieve political aims, which both republican and loyalist paramilitaries used between 1969 and 1993." },
-    { "term": "Sectarianism", "definition": "Hostility and violence between Protestants and Catholics based on religious identity and political allegiance, shown most clearly in loyalist sectarian murders." },
-    { "term": "Propaganda", "definition": "The use of murals, publications, broadcasts and statements to shape public opinion, and in the 1988 case the restriction of broadcast voices." },
-    { "term": "Provisional IRA", "definition": "The republican paramilitary organisation, formed in December 1969, that carried out the main armed campaign against British rule in Northern Ireland." },
-    { "term": "Ulster Volunteer Force", "definition": "The loyalist paramilitary organisation revived in 1966, responsible for many attacks on Catholic civilians including the 1974 Dublin and Monaghan bombings." },
-    { "term": "Arms Crisis", "definition": "The May 1970 affair in which ministers in the Irish government were accused of approving arms imports for Northern nationalists, leading to the dismissal of Charles Haughey and Neil Blaney." },
-    { "term": "Special Criminal Court", "definition": "A court in the Republic, re-established in 1972, that tried offences linked to paramilitary violence without a jury." },
-    { "term": "Shoot to kill", "definition": "The contested allegation that British security forces deliberately killed suspects rather than arresting them, which became an issue after incidents such as Loughgall in 1987." }
+    {
+      "term": "Terrorism",
+      "definition": "The use of violence against civilians and the state to achieve political aims, which both republican and loyalist paramilitaries used between 1969 and 1993."
+    },
+    {
+      "term": "Sectarianism",
+      "definition": "Hostility and violence between Protestants and Catholics based on religious identity and political allegiance, shown most clearly in loyalist sectarian murders."
+    },
+    {
+      "term": "Propaganda",
+      "definition": "The use of murals, publications, broadcasts and statements to shape public opinion, and in the 1988 case the restriction of broadcast voices."
+    },
+    {
+      "term": "Provisional IRA",
+      "definition": "The republican paramilitary organisation, formed in December 1969, that carried out the main armed campaign against British rule in Northern Ireland."
+    },
+    {
+      "term": "Ulster Volunteer Force",
+      "definition": "The loyalist paramilitary organisation revived in 1966, responsible for many attacks on Catholic civilians including the 1974 Dublin and Monaghan bombings."
+    },
+    {
+      "term": "Arms Crisis",
+      "definition": "The May 1970 affair in which ministers in the Irish government were accused of approving arms imports for Northern nationalists, leading to the dismissal of Charles Haughey and Neil Blaney."
+    },
+    {
+      "term": "Special Criminal Court",
+      "definition": "A court in the Republic, re-established in 1972, that tried offences linked to paramilitary violence without a jury."
+    },
+    {
+      "term": "Shoot to kill",
+      "definition": "The contested allegation that British security forces deliberately killed suspects rather than arresting them, which became an issue after incidents such as Loughgall in 1987."
+    }
   ],
   "factCards": [
-    { "term": "Bloody Friday: deaths", "definition": "On 21 July 1972 the Provisional IRA bombings in Belfast killed nine people." },
-    { "term": "Birmingham pub bombings: date and deaths", "definition": "The bombings of 21 November 1974 killed 21 people and were attributed to the Provisional IRA." },
-    { "term": "Mountbatten: date and place of death", "definition": "Lord Mountbatten was killed by an IRA bomb off Mullaghmore, County Sligo, on 27 August 1979." },
-    { "term": "Enniskillen bombing: deaths", "definition": "The IRA bomb at a Remembrance Day ceremony in Enniskillen on 8 November 1987 killed eleven people." },
-    { "term": "Warrington bombing: victims", "definition": "Johnathan Ball and Tim Parry, two boys, were killed in the Warrington bombing of 20 March 1993." },
-    { "term": "McGurk's Bar: date and deaths", "definition": "Loyalists bombed McGurk's Bar in Belfast on 4 December 1971, killing 15 people." },
-    { "term": "Dublin and Monaghan bombings: date", "definition": "Car bombs in Dublin and Monaghan on 17 May 1974 killed about 33 people, carried out by the Ulster Volunteer Force." },
-    { "term": "Greysteel massacre: date and deaths", "definition": "The Ulster Freedom Fighters killed eight people at a Halloween dance in Greysteel on 30 October 1993." },
-    { "term": "Loughgall: date and deaths", "definition": "On 8 May 1987 the SAS killed eight IRA members who were attacking a police station at Loughgall, County Armagh." },
-    { "term": "Lynch's broadcast: date and phrase", "definition": "On 13 August 1969 Jack Lynch said that the Irish government 'can no longer stand by' while Catholics were attacked." },
-    { "term": "Arms Crisis: date of dismissals", "definition": "Charles Haughey and Neil Blaney were dismissed from the Irish government in May 1970 after the arms affair." },
-    { "term": "British embassy in Dublin: burning", "definition": "The British embassy in Dublin was burned on 2 February 1972 in protest at Bloody Sunday." },
-    { "term": "Offences against the State (Amendment) Act 1972: purpose", "definition": "The Act strengthened Garda and court powers against subversive crime in the Republic." }
+    {
+      "term": "Bloody Friday: deaths",
+      "definition": "On 21 July 1972 the Provisional IRA bombings in Belfast killed nine people."
+    },
+    {
+      "term": "Birmingham pub bombings: date and deaths",
+      "definition": "The bombings of 21 November 1974 killed 21 people and were attributed to the Provisional IRA."
+    },
+    {
+      "term": "Mountbatten: date and place of death",
+      "definition": "Lord Mountbatten was killed by an IRA bomb off Mullaghmore, County Sligo, on 27 August 1979."
+    },
+    {
+      "term": "Enniskillen bombing: deaths",
+      "definition": "The IRA bomb at a Remembrance Day ceremony in Enniskillen on 8 November 1987 killed eleven people."
+    },
+    {
+      "term": "Warrington bombing: victims",
+      "definition": "Johnathan Ball and Tim Parry, two boys, were killed in the Warrington bombing of 20 March 1993."
+    },
+    {
+      "term": "McGurk's Bar: date and deaths",
+      "definition": "Loyalists bombed McGurk's Bar in Belfast on 4 December 1971, killing 15 people."
+    },
+    {
+      "term": "Dublin and Monaghan bombings: date",
+      "definition": "Car bombs in Dublin and Monaghan on 17 May 1974 killed about 33 people, carried out by the Ulster Volunteer Force."
+    },
+    {
+      "term": "Greysteel massacre: date and deaths",
+      "definition": "The Ulster Freedom Fighters killed eight people at a Halloween dance in Greysteel on 30 October 1993."
+    },
+    {
+      "term": "Loughgall: date and deaths",
+      "definition": "On 8 May 1987 the SAS killed eight IRA members who were attacking a police station at Loughgall, County Armagh."
+    },
+    {
+      "term": "Lynch's broadcast: date and phrase",
+      "definition": "On 13 August 1969 Jack Lynch said that the Irish government 'can no longer stand by' while Catholics were attacked."
+    },
+    {
+      "term": "Arms Crisis: date of dismissals",
+      "definition": "Charles Haughey and Neil Blaney were dismissed from the Irish government in May 1970 after the arms affair."
+    },
+    {
+      "term": "British embassy in Dublin: burning",
+      "definition": "The British embassy in Dublin was burned on 2 February 1972 in protest at Bloody Sunday."
+    },
+    {
+      "term": "Offences against the State (Amendment) Act 1972: purpose",
+      "definition": "The Act strengthened Garda and court powers against subversive crime in the Republic."
+    }
   ]
 }
