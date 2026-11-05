@@ -12,7 +12,8 @@
         "1972 was the deadliest year of the Troubles, with several hundred deaths in that year alone.",
         "Civilians made up the largest share of the dead, and members of the security forces, republican paramilitaries and loyalist paramilitaries also died in large numbers.",
         "Injuries ran to many thousands, and hospitals in Belfast developed specialist expertise in treating gunshot and blast injuries.",
-        "The violence was concentrated in Belfast, Derry and the border counties, and in working-class areas where both communities lived side by side."
+        "The violence was concentrated in Belfast, Derry and the border counties, and in working-class areas where both communities lived side by side.",
+        "Most deaths took place in Northern Ireland, though bombings in Britain and the Republic also caused deaths, including the Dublin and Monaghan bombings of 1974."
       ]
     },
     {
@@ -22,7 +23,9 @@
         "Foreign investors were reluctant to build factories in Northern Ireland because of the risk of bombing and disruption.",
         "Tourism fell sharply, as visitors avoided the province and the bombing of central Belfast made the city a hostile environment for trade.",
         "Businesses faced high insurance premiums to cover damage from bombs, and some companies moved their operations to Britain or the Republic.",
-        "The security measures, including checkpoints and searches, increased the time and cost of moving goods and people."
+        "The security measures, including checkpoints and searches, increased the time and cost of moving goods and people.",
+        "Some companies chose to invest in Britain or the Republic rather than in Northern Ireland, which put further pressure on local jobs.",
+        "Compensation for criminal damage was paid under government schemes, which added to public spending."
       ]
     },
     {
@@ -55,7 +58,8 @@
         "Catholic unemployment was consistently higher than Protestant unemployment, and in some surveys it was roughly twice as high.",
         "The Fair Employment (Northern Ireland) Act 1976 set up a Fair Employment Agency to investigate discrimination in employment.",
         "The Fair Employment Act of 1989 strengthened the law and created a Fair Employment Commission with the power to enforce equal treatment.",
-        "Areas of west Belfast and Derry suffered the highest levels of deprivation, with families who had lost jobs and had few alternative sources of income."
+        "Areas of west Belfast and Derry suffered the highest levels of deprivation, with families who had lost jobs and had few alternative sources of income.",
+        "Unemployment among young Catholic men was especially high in the 1980s."
       ]
     },
     {
@@ -66,7 +70,8 @@
         "The Executive introduced allocation procedures based on a points system, intended to end the discrimination that the civil rights movement had criticised.",
         "Intimidation drove families to move to areas where their own community was the majority, and this accelerated the segregation of housing.",
         "Peace walls, barriers built between Protestant and Catholic streets from 1969 onwards, separated some neighbourhoods in Belfast.",
-        "Segregation of housing made communities more distinct and it made it harder for people from different backgrounds to meet."
+        "Segregation of housing made communities more distinct and it made it harder for people from different backgrounds to meet.",
+        "Some families moved from mixed areas into segregated estates, despite the Housing Executive's allocation policy."
       ]
     },
     {
@@ -76,7 +81,8 @@
         "Most children continued to be educated in schools that were either Catholic or Protestant, and the system reflected the religious divisions of the province.",
         "The integrated education movement began in the 1970s, with parents in both communities campaigning for mixed schools.",
         "Lagan College, opened in Belfast in 1981, was the first integrated secondary school in Northern Ireland.",
-        "The Education Reform (Northern Ireland) Order of 1989 gave statutory support to integrated schools and placed a duty on the government to encourage them."
+        "The Education Reform (Northern Ireland) Order of 1989 gave statutory support to integrated schools and placed a duty on the government to encourage them.",
+        "Integrated schools were few at first and depended on parental campaigns and charitable funding."
       ]
     },
     {
@@ -86,7 +92,8 @@
         "The Royal Victoria Hospital in Belfast developed expertise in treating gunshot wounds and blast injuries, skills that many hospitals in Britain had little need for.",
         "The health service had to treat large numbers of injured civilians and members of the security forces, and this placed heavy demands on staff.",
         "Mental health problems, including stress and trauma, were widespread among people who had lived through bombings, shootings and displacement.",
-        "The security measures and fear of attack affected daily life, including health care, through delays and restrictions on movement."
+        "The security measures and fear of attack affected daily life, including health care, through delays and restrictions on movement.",
+        "Ambulance crews and hospital staff faced danger when responding to bomb incidents."
       ]
     },
     {
@@ -95,7 +102,8 @@
         "Security checkpoints, searches and vehicle checks were a feature of daily life in Belfast and Derry, and they changed the routines of shopping and travel.",
         "Some town centres were closed to traffic or sealed off after bombings, and shoppers had to pass through checks to enter them.",
         "Divided towns and estates meant that some people avoided areas where the other community lived, which limited social contact.",
-        "Children grew up with the sound and presence of security forces and with memories of violence in their local areas."
+        "Children grew up with the sound and presence of security forces and with memories of violence in their local areas.",
+        "Car bombs prompted security checks and car-park controls in city-centre shopping areas."
       ]
     },
     {
@@ -112,27 +120,87 @@
     }
   ],
   "keyTerms": [
-    { "term": "Subvention", "definition": "The public money transferred from the British Treasury to Northern Ireland to fund services and support living standards beyond what local output could pay for." },
-    { "term": "Northern Ireland Housing Executive", "definition": "The public body established in 1971 to take over public housing from the local councils and allocate housing." },
-    { "term": "Peace walls", "definition": "Barriers built from 1969 onwards between Protestant and Catholic streets in Belfast to reduce violence between neighbourhoods." },
-    { "term": "Fair employment", "definition": "Legislation and agencies introduced from 1976 to investigate and prevent discrimination in employment on religious grounds." },
-    { "term": "Integrated education", "definition": "Schooling in which Protestant and Catholic children are taught together, promoted from the 1970s as an alternative to segregated schools." },
-    { "term": "Intimidation", "definition": "Threats and violence used to force people to leave their homes or areas, which drove population movement and housing segregation." },
-    { "term": "Public-sector employment", "definition": "Jobs in government services such as health, education, administration and security, which grew as a share of the workforce." },
-    { "term": "Deprivation", "definition": "Lack of income, jobs, housing and services, which was most severe in the working-class areas most affected by the Troubles." }
+    {
+      "term": "Subvention",
+      "definition": "The public money transferred from the British Treasury to Northern Ireland to fund services and support living standards beyond what local output could pay for."
+    },
+    {
+      "term": "Northern Ireland Housing Executive",
+      "definition": "The public body established in 1971 to take over public housing from the local councils and allocate housing."
+    },
+    {
+      "term": "Peace walls",
+      "definition": "Barriers built from 1969 onwards between Protestant and Catholic streets in Belfast to reduce violence between neighbourhoods."
+    },
+    {
+      "term": "Fair employment",
+      "definition": "Legislation and agencies introduced from 1976 to investigate and prevent discrimination in employment on religious grounds."
+    },
+    {
+      "term": "Integrated education",
+      "definition": "Schooling in which Protestant and Catholic children are taught together, promoted from the 1970s as an alternative to segregated schools."
+    },
+    {
+      "term": "Intimidation",
+      "definition": "Threats and violence used to force people to leave their homes or areas, which drove population movement and housing segregation."
+    },
+    {
+      "term": "Public-sector employment",
+      "definition": "Jobs in government services such as health, education, administration and security, which grew as a share of the workforce."
+    },
+    {
+      "term": "Deprivation",
+      "definition": "Lack of income, jobs, housing and services, which was most severe in the working-class areas most affected by the Troubles."
+    }
   ],
   "factCards": [
-    { "term": "Deadliest year of the Troubles", "definition": "1972 was the deadliest year of the Troubles, with several hundred deaths." },
-    { "term": "Estimated deaths in the Troubles", "definition": "Roughly 3,000 deaths occurred between 1969 and 1993, and about 3,500 are often given for the whole conflict to 1998." },
-    { "term": "Northern Ireland Housing Executive: founded", "definition": "The Housing Executive was established in 1971 to take over public housing from the councils." },
-    { "term": "Lagan College: opened", "definition": "Lagan College, the first integrated secondary school in Northern Ireland, opened in Belfast in 1981." },
-    { "term": "De Lorean factory: location and opening", "definition": "The De Lorean car factory opened at Dunmurry, near Belfast, in 1981 with British government support." },
-    { "term": "De Lorean company: collapse", "definition": "The De Lorean Motor Company went into receivership in 1982, leaving heavy losses for the government." },
-    { "term": "Fair Employment (Northern Ireland) Act 1976: purpose", "definition": "The Act set up a Fair Employment Agency to investigate discrimination in employment on religious grounds." },
-    { "term": "Education Reform (Northern Ireland) Order 1989: purpose", "definition": "The Order gave statutory support to integrated schools and placed a duty on government to encourage them." },
-    { "term": "Royal Victoria Hospital: specialist expertise", "definition": "The Royal Victoria Hospital in Belfast developed expertise in treating gunshot and blast injuries during the Troubles." },
-    { "term": "Peace walls: first built", "definition": "Barriers between Protestant and Catholic streets were built in Belfast from 1969 onwards." },
-    { "term": "Catholic unemployment: relative level", "definition": "Catholic unemployment was consistently higher than Protestant unemployment, and in some surveys roughly twice as high." },
-    { "term": "De Lorean: John De Lorean's trial", "definition": "John De Lorean was charged in the United States in 1982 and was acquitted in 1984." }
+    {
+      "term": "Deadliest year of the Troubles",
+      "definition": "1972 was the deadliest year of the Troubles, with several hundred deaths."
+    },
+    {
+      "term": "Estimated deaths in the Troubles",
+      "definition": "Roughly 3,000 deaths occurred between 1969 and 1993, and about 3,500 are often given for the whole conflict to 1998."
+    },
+    {
+      "term": "Northern Ireland Housing Executive: founded",
+      "definition": "The Housing Executive was established in 1971 to take over public housing from the councils."
+    },
+    {
+      "term": "Lagan College: opened",
+      "definition": "Lagan College, the first integrated secondary school in Northern Ireland, opened in Belfast in 1981."
+    },
+    {
+      "term": "De Lorean factory: location and opening",
+      "definition": "The De Lorean car factory opened at Dunmurry, near Belfast, in 1981 with British government support."
+    },
+    {
+      "term": "De Lorean company: collapse",
+      "definition": "The De Lorean Motor Company went into receivership in 1982, leaving heavy losses for the government."
+    },
+    {
+      "term": "Fair Employment (Northern Ireland) Act 1976: purpose",
+      "definition": "The Act set up a Fair Employment Agency to investigate discrimination in employment on religious grounds."
+    },
+    {
+      "term": "Education Reform (Northern Ireland) Order 1989: purpose",
+      "definition": "The Order gave statutory support to integrated schools and placed a duty on government to encourage them."
+    },
+    {
+      "term": "Royal Victoria Hospital: specialist expertise",
+      "definition": "The Royal Victoria Hospital in Belfast developed expertise in treating gunshot and blast injuries during the Troubles."
+    },
+    {
+      "term": "Peace walls: first built",
+      "definition": "Barriers between Protestant and Catholic streets were built in Belfast from 1969 onwards."
+    },
+    {
+      "term": "Catholic unemployment: relative level",
+      "definition": "Catholic unemployment was consistently higher than Protestant unemployment, and in some surveys roughly twice as high."
+    },
+    {
+      "term": "De Lorean: John De Lorean's trial",
+      "definition": "John De Lorean was charged in the United States in 1982 and was acquitted in 1984."
+    }
   ]
 }
