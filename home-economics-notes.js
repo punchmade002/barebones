@@ -678,6 +678,389 @@
     "type": "short"
    }
   ]
+ },
+ "hom-food-industry-s1": {
+  "keyTerms": [
+   {
+    "definition": "The part of the food industry that produces raw materials from land and sea, such as farming, horticulture and fishing.",
+    "term": "Primary sector"
+   },
+   {
+    "definition": "The part of the food industry that manufactures and processes raw materials into finished food products.",
+    "term": "Secondary sector"
+   },
+   {
+    "definition": "The services that distribute, sell, support and regulate food, including retail, catering, transport and advice.",
+    "term": "Tertiary sector"
+   },
+   {
+    "definition": "A product or service sold to a buyer in another country.",
+    "term": "Export"
+   },
+   {
+    "definition": "A product or service bought from another country for use or sale in Ireland.",
+    "term": "Import"
+   },
+   {
+    "definition": "A country whose exports of a product or group of products are worth more than its imports of the same goods.",
+    "term": "Net exporter"
+   },
+   {
+    "definition": "A certified programme that sets production standards for a food product and checks that producers meet them.",
+    "term": "Quality assurance scheme"
+   },
+   {
+    "definition": "Dairy and ingredients: milk, cheese or yoghurt. Meat and livestock: beef, lamb or poultry. Beverages: beer, whiskey or juice.",
+    "term": "Three sectors of the Irish food industry, each with one product"
+   },
+   {
+    "definition": "Promote Irish food, drink and horticulture at home and abroad; support Irish food companies in marketing and exporting; develop national and international markets; run quality assurance schemes.",
+    "term": "Four functions of Bord Bia"
+   },
+   {
+    "definition": "Dairy products such as cheese, butter and milk powder; beef and lamb.",
+    "term": "Two major Irish food exports"
+   },
+   {
+    "definition": "Tropical and out-of-season fruit; coffee, tea and cocoa; spices.",
+    "term": "Three types of food Ireland imports"
+   },
+   {
+    "definition": "Distribution and transport; retail and food service; research, advice and regulation.",
+    "term": "Three activities of the tertiary sector in food"
+   },
+   {
+    "definition": "It creates employment, often in rural areas; it earns income from sales abroad.",
+    "term": "Two ways the food industry benefits the economy"
+   },
+   {
+    "definition": "Bord Bia, Teagasc, Bord Iascaigh Mhara (BIM) and Enterprise Ireland.",
+    "term": "Four state bodies that support the food industry"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The food industry takes raw produce from farms and fisheries, processes it into finished goods, and distributes and sells them through a service sector.",
+    "h": "How the food industry is organised",
+    "points": [
+     "Primary sector: farming, horticulture and fishing, which produce raw materials such as milk, cattle, grain, fruit, vegetables and fish.",
+     "Secondary sector: manufacturing and processing, which converts raw materials into finished food, such as cheese from milk or bread from flour.",
+     "Tertiary sector: services that move, sell and support food, including transport, wholesale and retail, catering, research, advice and regulation.",
+     "Agri-food is one of Ireland's largest indigenous industries, and most of its raw material is grown or reared on Irish farms.",
+     "Most Irish food output is exported, and the UK and other EU member states are the main markets."
+    ]
+   },
+   {
+    "h": "Main sectors and example products",
+    "points": [
+     "Dairy and ingredients: milk, cheese, butter, yoghurt, cream and milk powder, plus dairy ingredients sold to other food manufacturers.",
+     "Meat and livestock: beef, lamb, pork and poultry, slaughtered and processed in licensed meat plants.",
+     "Beverages: beer and stout, whiskey and other spirits, fruit juice and bottled water.",
+     "Horticulture: fruit, vegetables and mushrooms, sold fresh or processed.",
+     "Seafood: fish and shellfish landed at Irish ports and processed for home and export sale.",
+     "Cereals and bakery: flour milling, bread, biscuits and breakfast cereals.",
+     "Prepared consumer foods: ready meals, snacks, confectionery and sauces sold in retail packaging."
+    ]
+   },
+   {
+    "h": "Major food exports",
+    "points": [
+     "Dairy products, especially cheese, butter, milk powder and infant formula ingredients, are among Ireland's largest food exports.",
+     "Beef and lamb are exported to EU and non-EU markets.",
+     "Pork, poultry and processed meat products are sold mainly to the UK and other EU states.",
+     "Irish whiskey, beer and stout are sold in large volumes abroad.",
+     "Seafood, including shellfish and farmed salmon, is exported from Irish ports.",
+     "Prepared foods and bakery products are sold to retailers and food service companies abroad."
+    ]
+   },
+   {
+    "h": "Major food imports",
+    "points": [
+     "Tropical and out-of-season fruit, such as bananas, pineapples, oranges and avocados, which Ireland cannot grow commercially.",
+     "Coffee, tea and cocoa, which are grown in warmer countries.",
+     "Spices and sugar, which Ireland does not produce in quantity.",
+     "Soya and other animal feed ingredients used by Irish livestock producers.",
+     "Wine, and some processed foods such as chocolate and confectionery.",
+     "Ireland is a net exporter of food overall, so the value of exports is greater than the value of imports."
+    ]
+   },
+   {
+    "h": "State agencies in the food industry",
+    "points": [
+     "Bord Bia promotes Irish food, drink and horticulture at home and abroad, and develops national and international markets for Irish products.",
+     "Bord Bia runs quality assurance schemes for food producers, such as the Sustainable Beef and Lamb Assurance Scheme and the Sustainable Dairy Assurance Scheme.",
+     "Bord Bia's Origin Green programme records and verifies the sustainability commitments of food and drink companies.",
+     "Bord Bia helps Irish food companies with market research, buyer introductions and trade fairs.",
+     "Teagasc provides research, advice and training for farmers and food producers.",
+     "Bord Iascaigh Mhara (BIM) develops the seafood sector and promotes seafood at home and abroad.",
+     "Enterprise Ireland supports export growth and innovation in Irish companies.",
+     "The Food Safety Authority of Ireland (FSAI) sets and enforces food safety standards across the sector."
+    ]
+   },
+   {
+    "b": "A local factory, business or home enterprise can be used to show how a food business fits into the industry structure.",
+    "h": "Researching a local food business (setting)",
+    "points": [
+     "Identify the business's sector, such as dairy, meat, beverages or bakery, and whether its main activity is primary, secondary or tertiary.",
+     "Record its raw materials, where they come from, and the finished products it makes.",
+     "Note its markets: local shops and customers, other Irish retailers, or export markets.",
+     "Assess its contribution to the area through jobs, local suppliers and the income it brings to rural communities.",
+     "List the careers it offers, such as production operative, technologist, quality staff, chef or sales and marketing roles."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Dairy and ingredients: milk, cheese, butter or yoghurt. Meat and livestock: beef, lamb, pork or poultry. Beverages: beer, whiskey or juice. Accept seafood, horticulture or bakery, each with a relevant product. One mark for each sector named and one for each product linked to it.",
+    "prompt": "Outline three sectors of the Irish food industry, giving one food product produced in each sector.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Primary sector: farming, horticulture and fishing produce raw materials such as milk, cattle, grain, fruit and fish. Secondary sector: manufacturing converts raw materials into finished goods such as cheese, meat products and bakery items. Tertiary sector: transport, wholesale and retail, catering, research and regulation. Structure by sector: dairy and ingredients, meat and livestock, beverages, horticulture, seafood, cereals and bakery, prepared consumer foods. Exports: dairy products, beef and lamb, pork and poultry, whiskey, beer and stout, seafood. Ireland is a net exporter, mainly to the UK and EU. Imports: tropical fruit, coffee, tea and cocoa, spices, sugar, animal feed ingredients, wine and processed foods that Ireland cannot produce economically. Agency role: Bord Bia promotes Irish food at home and abroad, develops markets, supports companies with marketing and runs quality assurance schemes; Teagasc, BIM and Enterprise Ireland support research, the seafood sector and exporting firms.",
+    "prompt": "Describe the structure of the Irish food industry, identifying its primary, secondary and tertiary sectors. Discuss the major food exports and imports and the role of a state agency in supporting the industry.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-industry-s2": {
+  "keyTerms": [
+   {
+    "definition": "A small producer who makes food by traditional or hand methods rather than in mass production.",
+    "term": "Artisan producer"
+   },
+   {
+    "definition": "A food made in small quantities for a particular market, such as organic, gluten-free or vegan consumers.",
+    "term": "Speciality food"
+   },
+   {
+    "definition": "A small food business started and run from a domestic kitchen or a small unit near the home.",
+    "term": "Home enterprise"
+   },
+   {
+    "definition": "A small, specific group of consumers with particular needs or preferences that a producer targets.",
+    "term": "Niche market"
+   },
+   {
+    "definition": "A local market where producers sell their own products directly to customers.",
+    "term": "Farmers' market"
+   },
+   {
+    "definition": "The place of origin of a food and the producer or farm it came from.",
+    "term": "Provenance"
+   },
+   {
+    "definition": "A documented set of procedures a food business uses to identify and control food safety hazards.",
+    "term": "Food safety management system"
+   },
+   {
+    "definition": "Creating employment, often in rural areas; diversifying the industry with new products; entering niche markets; using locally produced ingredients.",
+    "term": "Four roles of small food producers"
+   },
+   {
+    "definition": "Little or no additives; hand-made production; a traceable local or named origin.",
+    "term": "Three features that make speciality foods attractive to consumers"
+   },
+   {
+    "definition": "Coeliac (gluten-free), vegan and diabetic diets.",
+    "term": "Three special diets catered for by speciality foods"
+   },
+   {
+    "definition": "Training and business courses; start-up and development advice.",
+    "term": "Two forms of support from Local Enterprise Offices"
+   },
+   {
+    "definition": "Register with the HSE Environmental Health Service; operate a food safety management system based on HACCP; meet food labelling and hygiene standards.",
+    "term": "Three obligations for a new small food business"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Small food businesses produce in small quantities for local or niche markets. A home enterprise is a small food business started and run from a domestic kitchen or a small unit near the home.",
+    "h": "Defining small food businesses",
+    "points": [
+     "An artisan producer makes food by traditional or hand methods, such as hand-baked bread, farmhouse cheese or chutneys.",
+     "Speciality foods are produced in small quantities for a particular market, such as organic, gluten-free, vegan or diabetic foods.",
+     "Small producers often sell through farmers' markets, food fairs, local shops and direct to customers.",
+     "Many small producers start from a home kitchen and move to a dedicated unit as demand and production grow."
+    ]
+   },
+   {
+    "h": "Role of small producers in the food industry",
+    "points": [
+     "They create employment, often in rural areas where other jobs are limited.",
+     "They diversify the industry by making products that large manufacturers do not produce.",
+     "They enter old and new niche markets, meeting demand for local, traditional or special-diet foods.",
+     "They use locally produced ingredients, which supports local farmers and suppliers.",
+     "They promote quality and innovation, and strengthen Ireland's reputation for high-quality food and drink.",
+     "They build a skilled workforce, because staff in small firms often handle every stage of production."
+    ]
+   },
+   {
+    "h": "Features that attract consumers to speciality foods",
+    "points": [
+     "Greater product variety, with flavours and recipes that large manufacturers do not offer.",
+     "Little or no use of additives, which appeals to consumers who prefer natural foods.",
+     "Hand-made production with close attention to each batch, giving a natural and traditional image.",
+     "Traceable origin: ingredients can often be traced to a named local farm or producer.",
+     "Labels that give the product name, ingredients, allergens and the producer's details, as food labelling law requires."
+    ]
+   },
+   {
+    "h": "Growth of small Irish producers",
+    "points": [
+     "Rising consumer demand for local, speciality and traditional foods has encouraged new small producers to start.",
+     "Farmers' markets and food festivals give small producers a direct route to customers without a large distributor.",
+     "Local Enterprise Offices provide training, business courses and start-up advice to small food businesses.",
+     "Bord Bia and Enterprise Ireland give food companies, including smaller firms, market development and export advice.",
+     "Many small producers begin with local markets and move into shops or supermarkets as production grows."
+    ]
+   },
+   {
+    "h": "Food safety and regulation for small businesses",
+    "points": [
+     "A food business must register with the official agency that supervises it, for most businesses the HSE Environmental Health Service, which inspects the premises for food safety and hygiene.",
+     "Under EU food hygiene law, a food business must operate a food safety management system based on HACCP principles.",
+     "HACCP identifies the points in production where food safety hazards could occur and sets controls for each one.",
+     "Small producers must meet the same food safety and labelling standards as large companies, with no exemption for size.",
+     "The Food Safety Authority of Ireland (FSAI) provides guidance and food safety training to small food businesses."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two, each explained: employment, often in rural areas, and skilled staff; diversifying the market with artisan or speciality products; using locally produced ingredients that support local farmers and suppliers; meeting niche consumer demand for quality, additive-free or special-diet foods. One mark for each point named and one for each explanation.",
+    "prompt": "Explain two ways in which small food producers contribute to the Irish food industry.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Role: create employment, often in rural areas, and build a skilled workforce; diversify the industry and enter old and new niche markets; use local ingredients; promote quality and innovation and strengthen Ireland's reputation for high-quality food and drink. Speciality foods: artisan or hand-made products made in small quantities; little or no additives; variety not offered by large manufacturers; traceable origin; catering for coeliac, vegan and diabetic diets. Demand: consumers seeking local, natural and traditional foods; farmers' markets and food festivals as routes to market; support from Local Enterprise Offices, Bord Bia and Enterprise Ireland. Regulation: registration with the HSE Environmental Health Service, inspection, a HACCP-based food safety management system, the same labelling and hygiene standards as large firms, and FSAI guidance.",
+    "prompt": "Discuss the role of small businesses and home enterprises within the Irish food industry, referring to speciality foods, the consumer demand behind them and the food safety rules they must follow.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-industry-s3": {
+  "keyTerms": [
+   {
+    "definition": "A professional who develops new food products and processes and improves existing ones for quality and shelf life.",
+    "term": "Food technologist"
+   },
+   {
+    "definition": "The testing of raw materials and finished products against set standards to keep their quality and safety consistent.",
+    "term": "Quality control"
+   },
+   {
+    "definition": "A scientist who tests food for microbes that cause spoilage or illness.",
+    "term": "Food microbiologist"
+   },
+   {
+    "definition": "A qualified health professional who assesses nutritional needs and plans diets for individuals and groups.",
+    "term": "Dietitian"
+   },
+   {
+    "definition": "A professional who advises on healthy eating and nutrition, often in public health, sport or the food industry.",
+    "term": "Nutritionist"
+   },
+   {
+    "definition": "An HSE officer who inspects food premises and enforces food hygiene law.",
+    "term": "Environmental Health Officer"
+   },
+   {
+    "definition": "A person or business that plans and provides food for events, canteens and institutions.",
+    "term": "Caterer"
+   },
+   {
+    "definition": "Food technologist, who develops products; quality control technician, who tests quality; food microbiologist, who tests for microbes.",
+    "term": "Three science-based careers in the food industry"
+   },
+   {
+    "definition": "Inspecting food premises; enforcing food hygiene law; taking samples for testing.",
+    "term": "Three duties of an Environmental Health Officer in food premises"
+   },
+   {
+    "definition": "Assessing nutritional needs; planning diets for illness or special needs.",
+    "term": "Two roles of a dietitian"
+   },
+   {
+    "definition": "Chef; caterer; waiter or waitress; hotel or restaurant manager.",
+    "term": "Four careers in food service"
+   },
+   {
+    "definition": "Apprenticeship; further education and training course; third-level degree in food science, dietetics or culinary arts.",
+    "term": "Three routes into a food career"
+   },
+   {
+    "definition": "Teagasc, Bord Iascaigh Mhara (BIM) and the Food Safety Authority of Ireland (FSAI).",
+    "term": "Three state bodies that employ food scientists or inspectors"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Careers in food production and manufacturing",
+    "points": [
+     "Production operative: runs and monitors processing and packaging machinery on a food production line.",
+     "Food technologist: develops new products and processes, and improves recipes and methods for shelf life and quality.",
+     "Quality control technician: tests raw materials and finished products against specifications and food safety standards.",
+     "Food microbiologist: tests food and production surfaces for microbes that cause spoilage or food poisoning.",
+     "Butcher, baker and confectioner: traditional craft trades in retail shops or food manufacturing.",
+     "Food engineer: designs, runs and maintains processing and packaging plant so that it operates safely and efficiently."
+    ]
+   },
+   {
+    "h": "Careers in food service and hospitality",
+    "points": [
+     "Chef: plans menus, prepares, cooks and presents food in restaurants, hotels and institutions.",
+     "Caterer: plans and delivers food for events, canteens and institutions such as hospitals and schools.",
+     "Waiter or waitress: serves food and drink and takes orders in restaurants, hotels and bars.",
+     "Hotel or restaurant manager: controls costs, stock and staffing for a food and accommodation business."
+    ]
+   },
+   {
+    "h": "Careers in health, nutrition and education",
+    "points": [
+     "Dietitian: assesses nutritional needs and plans diets for individuals and groups, including people with illness or special needs.",
+     "Nutritionist: advises on healthy eating, often in public health, sport or the food industry.",
+     "Home Economics teacher: teaches food, nutrition and family and consumer studies in second-level schools.",
+     "Environmental Health Officer: inspects food premises and enforces food hygiene law; in Ireland EHOs work for the HSE Environmental Health Service."
+    ]
+   },
+   {
+    "h": "Careers in agri-food, science and marketing",
+    "points": [
+     "Agricultural scientist: researches crop and livestock production, food quality and farm efficiency.",
+     "Marketing and sales staff: promote products to retailers and consumers and develop export sales.",
+     "Buyer: sources ingredients and packaging from suppliers at the required quality and price.",
+     "Food safety scientist: tests and assesses food safety risks for regulators, producers and retailers."
+    ]
+   },
+   {
+    "h": "Employers and routes into food careers",
+    "points": [
+     "State bodies such as Bord Bia, Teagasc, Bord Iascaigh Mhara (BIM), the Food Safety Authority of Ireland (FSAI) and the HSE employ scientists, advisers, inspectors and marketing staff.",
+     "Local authorities employ Environmental Health Officers to inspect food premises.",
+     "Food manufacturers and retailers employ production, quality, technical and sales staff.",
+     "Entry routes include apprenticeships, further education and training courses, and third-level degrees in food science, dietetics or culinary arts."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Food production, any one with duties: food technologist develops new products and processes and tests shelf life and recipes; quality control technician samples raw materials and finished goods against specifications; food microbiologist tests food for microbes. Food service, any one with duties: chef plans menus, prepares and cooks food and controls portions and costs; caterer plans and delivers food for events and institutions. One mark for each career and one for each duty stated, up to the marks available.",
+    "prompt": "Outline the main duties of two careers in the food industry, one in food production and one in food service.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Production: production operatives, food technologists, quality control technicians, food microbiologists, food engineers and craft trades such as butcher, baker and confectioner. Food service: chefs, caterers, waiters and waitresses, hotel and restaurant managers. Health and science: dietitians and nutritionists advising on diet, Environmental Health Officers inspecting food premises for the HSE, agricultural scientists and food safety scientists. Employers: state bodies such as Bord Bia, Teagasc, BIM, FSAI and the HSE; food manufacturers and retailers. Routes: apprenticeships, further education and training courses, and third-level degrees in food science, dietetics or culinary arts.",
+    "prompt": "Discuss the range of careers available in the food industry, referring to production, food service, health and science. Outline the routes and qualifications needed to enter them.",
+    "type": "short"
+   }
+  ]
  }
 };
   COURSE_DATA.chapters.forEach(function (chapter) {
