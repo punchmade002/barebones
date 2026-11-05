@@ -1,0 +1,81 @@
+{
+  "loId": "ch8-s3",
+  "chapterId": "ch8",
+  "subsection": "3. Common business models",
+  "syllabusRef": "2.3.5",
+  "notes": [
+    { "h": "Retail", "b": "A retail business sells finished goods directly to end consumers, usually buying them in from manufacturers or wholesalers.", "points": [
+      "It earns income by selling goods above their purchase cost, so profit depends on the mark-up applied and the volume sold.",
+      "Key features include a shop or online store, a range of goods chosen for the target market and direct contact with customers.",
+      "Advantages: direct feedback from customers, wide reach through a high-street or online presence and flexibility in choosing what to stock.",
+      "Disadvantages: the costs of premises and stock are high, competition is intense and sales fall quickly when consumer spending weakens.",
+      "Example (verify): a supermarket chain such as Tesco Ireland sells a wide range of goods bought from manufacturers and wholesalers."
+    ] },
+    { "h": "Manufacturing", "b": "A manufacturing business converts raw materials or components into finished products, which it sells to retailers or other businesses.", "points": [
+      "It earns income by selling what it makes at a price that covers production costs and leaves a profit margin.",
+      "Key features include factories or plants, machinery, skilled labour and direct control over quality and production processes.",
+      "Advantages: control over the product and its quality, the possibility of lower unit costs at high volume and the ability to build a brand.",
+      "Disadvantages: heavy investment in equipment and buildings, machinery that can become obsolete and exposure to changing raw material prices.",
+      "Example (verify): Kerry Group makes food ingredients and products that it sells largely to other businesses."
+    ] },
+    { "h": "Subscription", "b": "A subscription business charges customers a recurring fee for continued access to a product or service, rather than making a one-off sale.", "points": [
+      "It earns income through regular payments, which make revenue more predictable and easier to forecast than one-off sales.",
+      "Key features include an ongoing relationship with customers, access that is renewed monthly or annually and a strong focus on keeping existing customers.",
+      "Advantages: predictable income, data about customer usage that helps target offers and a lower cost of earning repeat business.",
+      "Disadvantages: customers can cancel easily, so the business must keep delivering value, and early costs can be high before enough subscribers join.",
+      "Example (verify): Spotify charges a monthly fee for its premium music service, which removes adverts and allows offline listening."
+    ] },
+    { "h": "Franchise", "b": "In a franchise arrangement, a franchisor licenses its brand, system and know-how to independent franchisees, who run outlets in return for fees.", "points": [
+      "The franchisor earns income from fees paid by franchisees, and the franchisee earns its profit from its own outlet after paying those fees.",
+      "Key features include a proven business system, a shared brand, training and support from the franchisor and standardised products.",
+      "Advantages for the franchisee: an established brand and system lower the risk of starting a business, although the franchisee gives up some freedom.",
+      "Advantages for the franchisor: rapid expansion with less capital, since franchisees fund their own outlets.",
+      "Disadvantages: the franchisor loses some control over local outlets, and a poorly run outlet can damage the brand for every franchisee.",
+      "Example (verify): fast-food chains such as Subway operate in Ireland through franchised outlets run by independent owners."
+    ] },
+    { "h": "Franchisor and franchisee compared", "b": "The two parties in a franchise have different roles, obligations and levels of risk, and their fees and royalties reflect this.", "points": [
+      "The franchisor provides the brand, operating system, training and supply arrangements, and it keeps ownership of the brand.",
+      "The franchisee provides the premises, most of the capital and local management, and must follow the franchisor's standards.",
+      "Fees: an initial fee is paid once to join, and royalties are paid regularly, usually as a share of the outlet's sales.",
+      "Control: the franchisor sets rules on products, pricing and appearance, which limits how far the franchisee can make its own decisions.",
+      "Risk: the franchisee carries most of the financial risk of the outlet, while the franchisor's main risk is damage to its brand reputation."
+    ] },
+    { "h": "Affiliate", "b": "An affiliate business earns commission by promoting another firm's products and sending customers to it, usually through a tracked link.", "points": [
+      "Income is earned as commission on each sale or lead the affiliate generates, so the affiliate is paid only when a result occurs.",
+      "Key features include a tracked referral link, reliance on a website, social media channel or blog, and no need to hold stock.",
+      "Advantages: low start-up costs, little or no need for premises or stock, and the ability to work from home.",
+      "Disadvantages: income depends on the merchant's programme terms, which can change, and commission rates are often modest.",
+      "Example (verify): a blogger who reviews kitchen appliances and earns commission on sales made through links on the review page."
+    ] },
+    { "h": "Comparison of the five models", "b": "The five models differ on revenue, cost, control, risk and scalability, so a business should choose the model that fits its goals and resources.", "points": [
+      "Revenue: subscription gives predictable recurring income, while retail and manufacturing depend on each individual sale.",
+      "Cost: retail and manufacturing carry high fixed costs, whereas an affiliate has very low costs and a franchisor's own costs are modest.",
+      "Control: retail and manufacturing give the owner full control over the offer, while franchise and affiliate models depend on others.",
+      "Risk: retail and manufacturing carry more financial risk because of stock and capital tied up, while an affiliate risks very little money.",
+      "Scalability: franchising and affiliate models can grow quickly with less capital, while manufacturing growth requires new plant and equipment."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "retail", "definition": "Selling finished goods directly to end consumers through a shop or online store." },
+    { "term": "manufacturing", "definition": "Converting raw materials or components into finished products that are sold to retailers or other businesses." },
+    { "term": "subscription model", "definition": "A business model that charges a recurring fee for ongoing access to a product or service." },
+    { "term": "franchise", "definition": "A licensing arrangement in which a brand owner lets independent operators trade under its name and system in return for fees." },
+    { "term": "franchisor", "definition": "The business that owns a brand and system and licenses them to independent operators." },
+    { "term": "franchisee", "definition": "The independent operator who runs an outlet under a brand owner's name, paying fees and following its standards." },
+    { "term": "royalty", "definition": "A regular payment, often a share of sales, that an operator makes to a brand owner for continued use of its brand and system." },
+    { "term": "affiliate model", "definition": "A business model that earns commission by referring customers to another firm's products through a tracked link." },
+    { "term": "commission", "definition": "The payment, usually a percentage of a sale, that an affiliate earns for sending a customer to a merchant." }
+  ],
+  "factCards": [
+    { "term": "Five common models", "definition": "Retail, manufacturing, subscription, franchise and affiliate." },
+    { "term": "How a franchisor earns", "definition": "An initial fee paid once on joining, then ongoing royalties, usually as a share of the outlet's sales." },
+    { "term": "Main advantage of the affiliate model", "definition": "Low start-up cost, little or no stock and the ability to grow without fixed premises." },
+    { "term": "Main disadvantage of manufacturing", "definition": "High capital investment in plant and equipment, plus exposure to changes in raw material prices." },
+    { "term": "Franchisee's main trade-off", "definition": "A proven brand and system lower the risk of failure, but the franchisee gives up freedom over products and prices." },
+    { "term": "Advantage of subscription revenue", "definition": "Predictable recurring income that is easier to forecast than income from one-off sales." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Compare the franchise model with the retail model on revenue, cost, control, risk and scalability, for an owner deciding which model to adopt.", "model": "Revenue: a retailer earns from each sale, so its profit depends on margins and footfall. A franchisee earns similar sales in its outlet, but the franchisor earns fees that do not depend on the outlet's profit, so the franchisor's revenue is steadier. Cost: a retailer pays for premises, stock and staff from its own capital. A franchisee pays the same operating costs but also pays initial fees and royalties on top. Control: a retailer decides its products, prices and design, while a franchisee must follow the franchisor's system and standards. Risk: a retailer carries the full risk of an unsuccessful shop, whereas a franchisee benefits from a proven system, which lowers the risk of failure though does not remove it. Scalability: a retailer grows mainly by opening more shops funded from its own capital, while a franchisor can expand quickly because franchisees fund new outlets. An owner who wants independence may prefer retail, while one who wants a proven system with less risk may prefer a franchise." },
+    { "marks": 15, "prompt": "Explain how a franchisor earns income, and describe two advantages and two disadvantages of the franchise model for the franchisee.", "model": "A franchisor earns an initial fee from each franchisee when the outlet opens, and ongoing royalties, usually calculated as a share of the outlet's sales. One advantage for the franchisee is access to an established brand and proven system, which lowers the risk of a new business failing. A second advantage is training and support from the franchisor, which helps an inexperienced owner run the outlet. One disadvantage is that the franchisee must pay fees and royalties, which reduce its profit even when the outlet trades well. A second disadvantage is loss of freedom, because the franchisee must follow the franchisor's rules on products, prices and appearance." }
+  ]
+}
