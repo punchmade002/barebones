@@ -243,6 +243,137 @@
     return editDistance(g, e) <= allowed;
   }
 
+  // ── Word bank (cloze options) ──────────────────────────────
+
+  // Every blank-worthy word in the subject's flashcards, so a gap's decoys are
+  // the same kind of word as its answer: technical terms, names and years.
+  function buildClozeVocab(cards, context) {
+    const vocab = [];
+    const seen = new Set();
+    cards.forEach((card) => {
+      const tokens = compact(card.definition).split(" ");
+      const scoringContext = { ...context, subjectStems: subjectStems(card.subject) };
+      tokens.forEach((token, index) => {
+        if (blankScore(tokens, index, scoringContext) < MIN_BLANK_SCORE) return;
+        const core = splitToken(token).core;
+        const previous = tokens[index - 1] || "";
+        const sentenceStart = index === 0 || /[.:;!?]$/.test(previous);
+        const year = /^\d{4}$/.test(core);
+        // A capital at the start of a sentence could be a name or not; skip it.
+        if (!year && sentenceStart && /^[A-Z]/.test(core)) return;
+        const proper = !year && /^[A-Z]/.test(core);
+        const word = proper || year ? core : core.toLowerCase();
+        const key = `${card.chapterId}|${stem(word)}|${word.length}`;
+        if (seen.has(key)) return;
+        seen.add(key);
+        vocab.push({ word, stem: stem(word), kind: year ? "year" : proper ? "proper" : "word", chapterId: card.chapterId, outcomeId: card.outcomeId });
+      });
+    });
+    // Indexed by kind and chapter: a gap ranks its own chapter's words, plus a
+    // sample of the rest, rather than the whole subject.
+    const index = { all: vocab, byKind: new Map(), byChapterKind: new Map() };
+    vocab.forEach((entry) => {
+      const kindKey = entry.kind;
+      const chapterKey = `${entry.chapterId}|${entry.kind}`;
+      if (!index.byKind.has(kindKey)) index.byKind.set(kindKey, []);
+      if (!index.byChapterKind.has(chapterKey)) index.byChapterKind.set(chapterKey, []);
+      index.byKind.get(kindKey).push(entry);
+      index.byChapterKind.get(chapterKey).push(entry);
+    });
+    return index;
+  }
+
+  const DECOY_SAMPLE = 160;
+
+  function decoyCandidates(vocab, card, kind, random) {
+    const own = vocab.byChapterKind?.get(`${card.chapterId}|${kind}`) || [];
+    const all = vocab.byKind?.get(kind) || [];
+    if (all.length <= own.length + DECOY_SAMPLE) return all;
+    const sample = [];
+    for (let i = 0; i < DECOY_SAMPLE; i++) sample.push(all[Math.floor(random() * all.length)]);
+    return own.concat(sample);
+  }
+
+  function wordKind(word) {
+    if (/^\d{4}$/.test(word)) return "year";
+    return /^[A-Z]/.test(word) ? "proper" : "word";
+  }
+
+  function sharedEnding(a, b) {
+    let n = 0;
+    while (n < 4 && n < a.length && n < b.length && a[a.length - 1 - n] === b[b.length - 1 - n]) n++;
+    return n;
+  }
+
+  // Decoys for one gap: same kind of word, ideally from the same outcome or
+  // chapter, with a similar ending so grammar alone does not give it away.
+  function pickBankDecoys(answer, card, vocab, exclude, count, random, opensSentence = false) {
+    if (opensSentence && wordKind(answer) === "proper") {
+      // "Fresh mussels..." is capitalised only because it opens the sentence.
+      return pickBankDecoys(answer.toLowerCase(), card, vocab, exclude, count, random).map(capitalise);
+    }
+    const kind = wordKind(answer);
+    const lowerAnswer = answer.toLowerCase();
+    const picked = [];
+    if (kind === "year") {
+      const pool = shuffle(decoyCandidates(vocab, card, "year", random).filter((v) => !exclude.has(v.stem)), random)
+        .sort((a, b) => Math.abs(Number(a.word) - Number(answer)) - Math.abs(Number(b.word) - Number(answer)));
+      for (const v of pool.slice(0, 12)) {
+        if (picked.length >= count) break;
+        if (exclude.has(v.word)) continue;
+        exclude.add(v.word);
+        picked.push(v.word);
+      }
+      for (let offset = 1; picked.length < count && offset < 40; offset++) {
+        const guess = String(Number(answer) + (random() < 0.5 ? -offset : offset) * (1 + Math.floor(random() * 3)));
+        if (exclude.has(guess)) continue;
+        exclude.add(guess);
+        picked.push(guess);
+      }
+      return picked;
+    }
+    const plural = /[^s]s$/.test(lowerAnswer);
+    const ranked = decoyCandidates(vocab, card, kind, random)
+      .filter((v) => !exclude.has(v.stem) && !answerMatches(v.word, answer))
+      .map((v) => {
+        const lower = v.word.toLowerCase();
+        let score = v.outcomeId === card.outcomeId ? 3 : v.chapterId === card.chapterId ? 2 : 0;
+        score += Math.min(sharedEnding(lower, lowerAnswer), 3) * 0.6;
+        if (/[^s]s$/.test(lower) === plural) score += 0.8;
+        score -= Math.abs(lower.length - lowerAnswer.length) / 5;
+        return { v, score: score + random() * 1.6 };
+      })
+      .sort((a, b) => b.score - a.score);
+    for (const { v } of ranked) {
+      if (picked.length >= count) break;
+      if (exclude.has(v.stem)) continue;
+      exclude.add(v.stem);
+      picked.push(v.word);
+    }
+    return picked;
+  }
+
+  // The words offered under a fill-the-gap question: the answers plus decoys,
+  // shuffled. Returns null when the subject cannot supply enough decoys.
+  function buildWordBank(card, vocab, random) {
+    const answers = card.cloze.answers;
+    const exclude = new Set();
+    compact(card.definition).split(/[^A-Za-z0-9'’-]+/).filter(Boolean).forEach((w) => {
+      exclude.add(stem(w));
+      exclude.add(w);
+    });
+    const perGap = answers.length === 1 ? 3 : 2;
+    const segments = card.cloze.segments;
+    const opensSentence = (gap) => {
+      const at = segments.findIndex((segment) => segment.blank === gap);
+      const before = at > 0 ? segments[at - 1].text : "";
+      return before === undefined || /(?:^|[.:;!?]\s*)$/.test(String(before).trim());
+    };
+    const decoys = answers.flatMap((answer, gap) => pickBankDecoys(answer, card, vocab, exclude, perGap, random, opensSentence(gap)));
+    if (decoys.length < 2) return null;
+    return shuffle(answers.concat(decoys), random);
+  }
+
   // ── Pool ───────────────────────────────────────────────────
 
   function examPartSeconds(breakdown, marks) {
@@ -364,6 +495,7 @@
     cards.forEach((card) => {
       card.cloze = buildCloze(card.definition, card.subject, clozeContext);
     });
+    const clozeVocab = cards.some((card) => card.cloze) ? buildClozeVocab(corpusCards, clozeContext) : null;
 
     const examSeconds = examGroups.reduce(
       (sum, g) => sum + g.parts.filter((p) => p.answerable).reduce((s, p) => s + p.seconds, 0), 0
@@ -374,6 +506,7 @@
       subjectId: input.subjectId,
       cards,
       corpusCards,
+      clozeVocab,
       examGroups,
       authored,
       chapterTitles,
@@ -468,7 +601,8 @@
     }
     if (format === "cloze") {
       if (!card.cloze) return null;
-      return { ...base, marks: card.cloze.answers.length, prompt: card.subject || card.term, segments: card.cloze.segments, answers: card.cloze.answers };
+      const bank = pool.clozeVocab ? buildWordBank(card, pool.clozeVocab, random) : null;
+      return { ...base, marks: card.cloze.answers.length, prompt: card.subject || card.term, segments: card.cloze.segments, answers: card.cloze.answers, bank };
     }
     if (format === "recall") {
       if (!card.recallPrompt) return null;
@@ -640,8 +774,32 @@
 
   // ── Marking ────────────────────────────────────────────────
 
+  // Written answers are marked against the model answer by AnswerMarker
+  // (answer-marker.js). Results are cached: the review re-marks on every redraw.
+  const autoMarkCache = new Map();
+
+  function autoMark(item, text) {
+    const marker = root.AnswerMarker;
+    const model = item.kind === "recall" ? item.definition : item.model;
+    // Worked maths solutions are steps, not marking points; those stay self-marked.
+    if (!marker || !compact(model) || item.workedSolution || !(item.marks > 0)) return null;
+    const key = `${item.id}\u0001${item.marks}\u0001${text}`;
+    if (autoMarkCache.has(key)) return autoMarkCache.get(key);
+    const result = marker.markAnswer({
+      answer: text,
+      model,
+      marks: item.marks,
+      schemePoints: item.schemePoints,
+      question: item.kind === "recall" ? `${item.prompt} ${item.term}` : item.prompt,
+    });
+    const usable = result.points.length ? result : null;
+    if (autoMarkCache.size > 500) autoMarkCache.clear();
+    autoMarkCache.set(key, usable);
+    return usable;
+  }
+
   // response shapes: choice -> { choice }, cloze -> { blanks: [] , overrides: [] },
-  // recall/written -> { text, selfMarks }
+  // recall/written -> { text, selfMarks } (selfMarks overrides the automatic mark)
   function markItem(item, response = {}) {
     if (item.kind === "pick-term" || item.kind === "pick-definition" || item.kind === "mcq" || item.kind === "tf") {
       const correct = response.choice === item.correctIndex;
@@ -654,13 +812,17 @@
       const earned = results.filter(Boolean).length;
       return { earned, needsSelfMark: false, correct: earned === item.answers.length, blanks: results };
     }
+    const text = String(response.text || "").trim();
+    const auto = text ? autoMark(item, text) : null;
     const selfMarks = response.selfMarks;
-    const marked = Number.isFinite(selfMarks);
-    return {
-      earned: marked ? Math.max(0, Math.min(item.marks, selfMarks)) : 0,
-      needsSelfMark: !marked,
-      correct: marked && selfMarks >= item.marks,
-    };
+    if (Number.isFinite(selfMarks)) {
+      const earned = Math.max(0, Math.min(item.marks, selfMarks));
+      return { earned, needsSelfMark: false, correct: earned >= item.marks, auto, overridden: true };
+    }
+    // A blank answer scores zero; there is nothing to mark.
+    if (!text) return { earned: 0, needsSelfMark: false, correct: false, auto: null };
+    if (!auto) return { earned: 0, needsSelfMark: true, correct: false, auto: null };
+    return { earned: auto.earned, needsSelfMark: false, correct: auto.earned >= item.marks, auto };
   }
 
   // Each item counts in proportion to the time it takes, so one 30-mark essay
