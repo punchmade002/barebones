@@ -1,0 +1,90 @@
+{
+  "loId": "ch15-s2",
+  "chapterId": "ch15",
+  "subsection": "2. Modes of communication and the impact of technology",
+  "syllabusRef": "3.3.2, 3.3.3",
+  "notes": [
+    { "h": "Verbal communication", "b": "Verbal communication uses spoken words and is the most immediate form of workplace communication.", "points": [
+      "Face-to-face communication allows immediate feedback and the full range of cues, so it suits sensitive or complex discussions.",
+      "Meetings bring several people together to share information or make decisions, but they take time and can be dominated by a few voices.",
+      "Telephone calls allow quick two-way discussion when people are apart, but they give no visual cues and leave no record unless notes are kept.",
+      "Video calls combine speech with visible facial expressions and gestures, which helps when teams are spread across locations.",
+      "Verbal communication leaves no permanent record, so decisions reached in conversation often need written confirmation."
+    ] },
+    { "h": "Non-verbal communication", "b": "Non-verbal communication conveys meaning through the body, face and tone of voice, and it can be as strong as the words used.", "points": [
+      "Body language, such as posture and gestures, signals confidence, interest or unease.",
+      "Facial expressions show emotional response, and a listener may read a frown as disagreement even when the words are neutral.",
+      "Tone of voice, pace and volume communicate attitude and urgency, so the same words can sound supportive or hostile.",
+      "Eye contact shows attention and sincerity to many listeners, although its meaning varies across cultures.",
+      "Non-verbal cues are hard to control and can contradict spoken messages, which undermines trust when they do not match."
+    ] },
+    { "h": "Written communication", "b": "Written communication creates a lasting record and can reach many people, but it gives limited opportunity for an immediate response.", "points": [
+      "Email is fast, cheap and easy to send to many recipients, and it creates a searchable record.",
+      "Email is often overused, which leads to information overload and slow responses to matters that need urgent attention.",
+      "Instant messaging suits quick, informal exchanges between team members, but messages can be ignored or misread without tone of voice.",
+      "Reports present detailed information in a structured form that can be referred back to, but they take time to prepare and to read.",
+      "Noticeboards, intranet posts and newsletters reach a wide audience at low cost, but they offer no direct response."
+    ] },
+    { "h": "Visual communication", "b": "Visual communication uses images, charts and diagrams to show information quickly and clearly.", "points": [
+      "Charts and graphs make trends and comparisons easy to grasp, so they suit reporting numerical performance.",
+      "Diagrams and flowcharts show processes or structures, which helps staff follow a new procedure.",
+      "Presentations combine slides, images and speech and can hold an audience's attention, but slides overloaded with text reduce clarity.",
+      "Videos and infographics engage people who learn best visually and can be shared widely, though producing good-quality content takes time and money."
+    ] },
+    { "h": "Criteria for choosing a mode", "b": "The right mode depends on the message, the audience and the situation, so a manager should weigh several factors together.", "points": [
+      "Urgency: urgent messages need a fast mode, such as a phone call or face-to-face meeting.",
+      "Cost: a mode should be chosen with its cost in mind, since a meeting for a large group costs more than an email.",
+      "Confidentiality: sensitive information should go through a private, secure mode, such as a one-to-one meeting or encrypted email.",
+      "Audience: the number, location and preferences of recipients determine whether a mode will reach them effectively.",
+      "Need for a record: messages that must be referred to later, such as agreed targets, suit a written mode.",
+      "Complexity: complicated information is easier to understand in a mode that allows questions, such as a meeting, than in a short message.",
+      "Feedback: where a response is needed, a two-way mode such as a discussion is better than a one-way notice."
+    ] },
+    { "h": "Efficacy of each mode", "b": "Efficacy means how well a mode achieves its communication goal, and each mode has strengths and weaknesses.", "points": [
+      "Face-to-face communication is highly effective for building trust and handling complex issues, but it is slow and costly when people are far apart.",
+      "Email is effective for detailed, recorded messages to many people, but it can be ignored or buried in an overloaded inbox.",
+      "Video calls are effective for remote teams and two-way discussion, but poor connections and screen fatigue reduce their effect.",
+      "Noticeboards are cheap and reach everyone in a location, but they are weak for complex or sensitive messages and cannot confirm receipt.",
+      "Visual presentations are effective for explaining data, but they fail if the audience cannot see or interpret the visuals."
+    ] },
+    { "h": "How technology affects communication", "b": "Technology has changed communication across eight parameters: modes, speed, cost, access, collaboration, sustainable practices, productivity and security.", "points": [
+      "Modes: technology has added video calls, instant messaging and collaboration platforms, giving more options but more choices to manage.",
+      "Speed: messages and files can be sent instantly, which speeds up decisions, but expectations of immediate replies can add pressure.",
+      "Cost: digital communication is usually cheaper than printing and travel, though subscriptions and devices carry their own costs.",
+      "Access: cloud tools let staff reach information from anywhere, but people without reliable internet or digital skills can be excluded.",
+      "Collaboration: shared documents and platforms let many people edit and comment on the same work in real time.",
+      "Sustainable practices: digital communication reduces paper and travel, but data centres and devices consume energy and create electronic waste.",
+      "Productivity: tools that automate routine messages or scheduling save time, but constant notifications interrupt focused work.",
+      "Security: digital systems face phishing, malware and data breaches, so organisations need strong passwords, staff training and access controls."
+    ] },
+    { "h": "Technology and the wider organisation", "b": "Digital tools also change how organisations design their communication, and they raise ethical and business considerations.", "points": [
+      "Digital transformation means redesigning communication processes around digital tools, so knowledge can be shared across departments and locations.",
+      "Data protection rules, including the General Data Protection Regulation, apply to workplace messages that contain personal data, so organisations must control who can see what.",
+      "A communication policy sets out which tools to use for which purposes, which reduces confusion and protects data.",
+      "Digital communication can also help small firms reach customers and partners cheaply, for example through social media."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Verbal communication", "definition": "Communication that uses spoken words, in person, by telephone or by video call." },
+    { "term": "Non-verbal communication", "definition": "Communication conveyed through body language, facial expression, tone of voice and eye contact rather than through words." },
+    { "term": "Body language", "definition": "The posture, gestures and movements that signal a person's attitude or feelings." },
+    { "term": "Written communication", "definition": "Communication that uses written words, such as email, messages, reports and notices, and that can be kept as a record." },
+    { "term": "Efficacy", "definition": "How well a mode of communication achieves its intended goal." },
+    { "term": "Phishing", "definition": "A fraudulent message that tries to trick the recipient into revealing data or clicking a harmful link." },
+    { "term": "Digital transformation", "definition": "Redesigning how an organisation works and communicates around digital technology." },
+    { "term": "Communication policy", "definition": "A written set of rules on which tools to use for different purposes and how information is handled." }
+  ],
+  "factCards": [
+    { "term": "Criteria for choosing a mode", "definition": "Urgency, cost, confidentiality, audience, need for a record, complexity and feedback." },
+    { "term": "Verbal modes", "definition": "Face-to-face conversation, meetings, telephone calls and video calls." },
+    { "term": "Written and visual modes", "definition": "Email, instant messages, reports, noticeboards and intranet posts; charts, diagrams, presentations and videos." },
+    { "term": "Eight parameters of technology's impact", "definition": "Modes, speed, cost, access, collaboration, sustainable practices, productivity and security." },
+    { "term": "Security risks of digital communication", "definition": "Phishing, malware, data breaches and unauthorised access to accounts." },
+    { "term": "Speed: positive and negative effects", "definition": "Positive: faster decisions. Negative: pressure to reply instantly." },
+    { "term": "Non-verbal cues", "definition": "Body language, facial expression, tone of voice and eye contact." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "A Dublin software company must tell all staff about a change to their pension scheme. Identify the factors that should guide the choice of communication mode, and explain why they matter in this case.", "model": "Confidentiality matters because pension details are personal, so the company should use a private channel, such as individual emails or a one-to-one meeting, rather than a public noticeboard. The number and location of staff also matter: a company-wide video briefing reaches everyone at once, including remote workers, and allows questions. Finally, the need for a record matters because the details of the scheme must be referred to later, so a written summary should follow the briefing. Together these factors point to a combined approach: a live two-way session for explanation and questions, backed up by a written document that staff can keep." },
+    { "marks": 20, "prompt": "Assess how digital technology has changed communication in an Irish retail business across speed, cost and security, and evaluate whether the overall effect has been positive.", "model": "Speed has improved, because managers can send stock updates or pricing changes to every store in seconds, and staff can get answers without waiting for post or a meeting. This allows faster decisions, although constant messages can create pressure to reply instantly and can overwhelm staff who work on shop floors. Cost has fallen, since email and instant messaging replace printing, couriers and many travel costs, which matters for a chain with stores spread across the country. However, the business pays for subscriptions, devices and support, so the saving is real but not total. Security is the area of greatest risk. Digital communication exposes customer card details, staff records and supplier data to phishing and malware, and a single careless click can cause a serious breach. The business must therefore invest in passwords, staff training and access controls. On balance, the effect has been positive, because faster and cheaper communication improves operations and responsiveness. But the gains depend on managing message overload and on treating security as part of communication, not as a separate IT issue." }
+  ]
+}
