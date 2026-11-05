@@ -1,0 +1,74 @@
+{
+  "loId": "ch4-s2",
+  "chapterId": "ch4",
+  "subsection": "2. EU decision-makers and types of EU law",
+  "syllabusRef": "1.4.4, 1.4.5",
+  "notes": [
+    { "h": "The main EU decision-makers", "b": "Four institutions shape EU policy, each with a distinct role. The Council of the European Union and the European Council are different bodies, a common exam confusion.", "points": [
+      "The Council of the European Union represents the governments of the member states, and ministers from each country meet by policy area to adopt laws.",
+      "The ministers who attend a Council meeting depend on the topic: agriculture ministers meet on farm policy and finance ministers on budgets and tax.",
+      "Most Council decisions are taken by qualified majority, while some areas such as taxation require unanimity.",
+      "The European Council, made up of heads of state or government, sets the EU's overall political direction and does not pass laws itself.",
+      "The European Commission has one Commissioner per member state, proposes new EU laws, enforces EU law and manages much of the EU budget.",
+      "The Commission also enforces EU competition law, so it can investigate cartels and abuse of market power by firms.",
+      "The European Parliament is directly elected every five years, and its members, MEPs, represent EU citizens.",
+      "The European Central Bank, based in Frankfurt, sets monetary policy for the euro area with price stability as its primary objective.",
+      "ECB interest rate decisions affect the cost of borrowing for Irish firms, but the ECB does not make EU laws on business regulation."
+    ] },
+    { "h": "The ordinary legislative procedure", "b": "Most EU laws are made through this procedure, in which the Commission proposes and the Parliament and Council both adopt the text.", "points": [
+      "Step one: the European Commission proposes a law, usually after consulting stakeholders and member states.",
+      "Step two: the European Parliament votes on the proposal and may amend it.",
+      "Step three: the Council of the European Union adopts the text, so both institutions must agree before the law is made.",
+      "Because Parliament and Council have equal standing in this procedure, it is often described as co-decision.",
+      "Irish ministers sit in the Council and take part in negotiations, while Irish MEPs represent Ireland's interests in Parliament."
+    ] },
+    { "h": "Regulations", "b": "A regulation is binding and applies directly, so it needs no Irish law to take effect.", "points": [
+      "A regulation is binding in its entirety on all member states and applies directly once it takes effect.",
+      "Because it is directly applicable, the Irish government does not need to pass an Act to bring it into force.",
+      "Irish businesses, citizens and courts must apply it directly, so it produces the same rules across the EU.",
+      "Regulations create uniform rules, which helps firms trade across the single market without meeting different national standards.",
+      "A national authority must still be designated to supervise and enforce a regulation in Ireland."
+    ] },
+    { "h": "Directives", "b": "A directive sets a result that member states must achieve by a deadline, but it leaves the choice of method to each country.", "points": [
+      "A directive is binding as to the result to be achieved, but member states choose the form and methods of implementation.",
+      "Transposition, usually through an Act of the Oireachtas or a statutory instrument, must happen by the deadline set in the directive.",
+      "If Ireland fails to transpose on time, the European Commission can begin infringement proceedings against it.",
+      "After the deadline passes without proper transposition, an individual may in limited circumstances rely on the directive against the State.",
+      "Because each country implements a directive in its own way, firms can face different detailed rules across member states."
+    ] },
+    { "h": "Opinions, recommendations and decisions", "b": "Opinions and recommendations are not binding, while a decision binds only the people or bodies it is addressed to.", "points": [
+      "An opinion is a non-binding view from an EU institution, such as the Commission giving its assessment of a national measure.",
+      "A recommendation is a non-binding suggestion, for example the Commission recommending that member states take a particular action.",
+      "A decision is binding in its entirety on its addressee, which may be a member state, a company or an individual.",
+      "Opinions and recommendations can still shape national policy even though they carry no legal force."
+    ] },
+    { "h": "Answering the exam question", "b": "The exam tests whether you can name the instrument, state how far it binds, and explain the Irish response.", "points": [
+      "State the type of instrument first, then say whether it is binding and how it reaches Irish law.",
+      "Name the institution responsible for each step, so the examiner can see who proposes, who adopts and who enforces.",
+      "Apply the point to business in Ireland by naming a sector or type of firm that must act or change practice."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Council of the European Union", "definition": "The EU body in which ministers from the member states meet by policy area to adopt EU laws." },
+    { "term": "European Commission", "definition": "The EU institution that proposes new laws, enforces EU law and manages much of the EU budget." },
+    { "term": "European Parliament", "definition": "The directly elected EU institution whose members represent citizens and share law-making power with the Council." },
+    { "term": "European Central Bank", "definition": "The EU institution that sets monetary policy for the euro area, with price stability as its primary aim." },
+    { "term": "Ordinary legislative procedure", "definition": "The main EU law-making process in which the Commission proposes and the Parliament and Council both adopt the law." },
+    { "term": "EU regulation", "definition": "A binding EU law that applies directly in all member states without the need for national legislation." },
+    { "term": "Directive", "definition": "An EU law that is binding as to the result to be achieved, leaving member states to choose how to implement it." },
+    { "term": "Transposition", "definition": "The process by which a member state turns an EU directive into national law by a set deadline." },
+    { "term": "Opinion", "definition": "A non-binding statement by an EU institution that gives its view and creates no legal obligation." }
+  ],
+  "factCards": [
+    { "term": "Council versus European Council", "definition": "The Council of the EU is made up of ministers who adopt laws; the European Council is made up of heads of state or government and sets political direction." },
+    { "term": "Who proposes most EU laws", "definition": "The European Commission, which has one Commissioner from each member state." },
+    { "term": "Who votes on an EU law", "definition": "Parliament votes on the Commission's proposal and the Council adopts it, so both must agree." },
+    { "term": "Decisions as EU law", "definition": "A decision is binding on the people or bodies it is addressed to, such as one named company." },
+    { "term": "Irish response to a regulation", "definition": "It applies directly, so no Act is needed, although a national authority must enforce it." },
+    { "term": "Irish response to a directive", "definition": "It must be transposed by an Act or statutory instrument before the deadline." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Distinguish between an EU regulation and an EU directive, and explain how the Irish government must respond to each.", "model": "An EU regulation is binding and applies directly in every member state once it takes effect, so Ireland does not need national legislation for it to apply. An Irish business must comply with its rules directly, and Irish courts apply them. An EU directive is binding as to the result it sets, but Ireland chooses how to achieve that result. The Irish government must transpose the directive into Irish law by the deadline, usually through an Act or a statutory instrument. If it fails to do so, the Commission can start infringement proceedings. The key distinction is that a regulation applies automatically, while a directive needs national action before its requirements take effect." },
+    { "marks": 20, "prompt": "Identify the four key EU decision-makers in policy development and explain how each affects business policy in Ireland.", "model": "The European Commission proposes most EU laws, so it writes the first draft of rules that Irish firms must follow, such as sustainability reporting. The European Parliament, directly elected by EU citizens, examines and votes on proposals and can amend them, so it shapes the detail of rules affecting Irish firms. The Council of the European Union, where Irish ministers represent the government, adopts laws together with Parliament, giving Ireland a direct voice on rules such as trade and agriculture. The European Central Bank sets monetary policy for the euro area, so its interest rate decisions affect borrowing costs for Irish firms, although it does not make business regulation. Together these bodies set the rules Irish firms follow and the economic conditions they face." }
+  ]
+}

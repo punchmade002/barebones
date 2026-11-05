@@ -1,0 +1,74 @@
+{
+  "loId": "ch5-s1",
+  "chapterId": "ch5",
+  "subsection": "1. Trading blocs and Ireland's membership of the EU",
+  "syllabusRef": "1.5.1, 1.5.2, 1.5.3",
+  "notes": [
+    { "h": "What a trading bloc is", "b": "A trading bloc is a group of countries that agree to reduce or remove trade barriers between its members. The depth of the agreement determines the type of bloc.", "points": [
+      "A free-trade area removes tariffs and quotas between its members, but each member sets its own tariffs on goods from outside the bloc.",
+      "A customs union is a free-trade area with a common external tariff, so all members charge the same duty on imports from non-members.",
+      "A single market goes further by allowing free movement of goods, services, capital and people across the member states.",
+      "Each step up in integration deepens economic ties and reduces national control over trade policy.",
+      "Trading blocs help businesses by cutting paperwork, lowering the cost of exporting and giving access to large markets."
+    ] },
+    { "h": "The EU single market and customs union", "b": "Ireland has been a member of the EU since 1973, and it trades inside the single market and the EU customs union.", "points": [
+      "Irish firms export goods and services to other EU countries without tariffs, which lowers costs and simplifies access to customers.",
+      "The common external tariff means Irish firms importing from outside the EU pay the same duty as any other EU firm.",
+      "EU trade policy is negotiated for the whole bloc, so the European Commission negotiates trade agreements on behalf of the member states.",
+      "Ireland uses the euro, which removes currency risk on trade with other euro-area members."
+    ] },
+    { "h": "Other trading blocs relevant to Irish business", "b": "Irish firms trade with several blocs outside the EU, each with different rules and strengths.", "points": [
+      "USMCA, the United States-Mexico-Canada Agreement, replaced NAFTA in 2020 and is a free-trade agreement; the United States is a major export market for Irish goods and services.",
+      "Mercosur is a South American customs union founded by Argentina, Brazil, Paraguay and Uruguay; an EU-Mercosur agreement has been negotiated, and its ratification has been contested, including by Irish farming groups (verify current status).",
+      "ASEAN, the Association of Southeast Asian Nations, is a regional grouping of ten countries that promotes trade through the ASEAN Free Trade Area.",
+      "EFTA is a free-trade area of Iceland, Liechtenstein, Norway and Switzerland, and the European Economic Area extends the EU single market to Iceland, Liechtenstein and Norway.",
+      "Irish pharmaceutical, technology and food firms may find these markets important for growth, although rules of origin and differing standards can complicate exporting."
+    ] },
+    { "h": "The UK after Brexit and trade on the island of Ireland", "b": "The UK left the EU on 31 January 2020, so trade between Ireland and Great Britain is governed by separate arrangements.", "points": [
+      "The EU-UK Trade and Cooperation Agreement sets the main trade terms between the two sides from 2021.",
+      "Trade between Ireland and Great Britain now involves customs formalities, documentation and checks that did not apply inside the single market.",
+      "The Windsor Framework, agreed in 2023, replaced the Northern Ireland Protocol and sets the customs and goods rules for trade into Northern Ireland.",
+      "Under the Windsor Framework, a green lane lets goods staying in Northern Ireland move with fewer checks, while a red lane covers goods at risk of entering the EU single market.",
+      "Businesses on the island of Ireland must follow rules from both the UK and the EU, which makes compliance more complex."
+    ] },
+    { "h": "Evaluating EU membership: the economy", "b": "EU membership affects the Irish economy through trade, currency, investment and public finances.", "points": [
+      "Benefit: single market membership gives access to several hundred million consumers, which supports exports and economies of scale.",
+      "Benefit: EU membership has made Ireland an attractive base for foreign firms that want access to the whole single market.",
+      "Benefit: Irish universities and firms can compete for EU research funding, such as Horizon Europe.",
+      "Cost: Ireland gives up independent monetary policy, because interest rates for the euro area are set by the European Central Bank.",
+      "Cost: Ireland is a net contributor to the EU budget, so it pays more in than it receives back (verify current position).",
+      "Cost: EU fiscal rules, such as the Stability and Growth Pact, limit how much government borrowing and deficit spending a member can run."
+    ] },
+    { "h": "Evaluating EU membership: businesses and consumers", "b": "The benefits and costs fall differently on businesses and consumers, so an evaluation should name the group affected.", "points": [
+      "Business benefit: firms avoid tariffs and quotas when selling to other EU states and can rely on common rules rather than separate national standards.",
+      "Business benefit: passporting lets Irish financial firms authorised in Ireland serve customers in other EU states without a separate licence in each.",
+      "Business cost: firms must comply with EU regulation, such as data protection and product safety rules, and the compliance cost weighs heavily on small firms.",
+      "Business cost: EU competition policy restricts state aid, which limits the subsidies Irish firms can receive in some cases.",
+      "Consumer benefit: EU consumer rights include refund and guarantee rights and rules on price transparency.",
+      "Consumer benefit: EU rules ended mobile roaming surcharges within the Union, lowering the cost of using a phone abroad in other member states.",
+      "Consumer cost: EU agricultural support can keep some food prices above world prices, so consumers may pay more for certain foods.",
+      "Consumer benefit: free movement of workers and students, for example through the Erasmus programme, widens choice of work and study."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Trading bloc", "definition": "A group of countries that agree to reduce or remove trade barriers between its members." },
+    { "term": "Free-trade area", "definition": "A trading bloc in which members remove tariffs between themselves but keep their own tariffs against outside countries." },
+    { "term": "Customs union", "definition": "A free-trade area with a common external tariff that all members apply to imports from outside the bloc." },
+    { "term": "Single market", "definition": "A bloc that allows free movement of goods, services, capital and people between its member states." },
+    { "term": "Common external tariff", "definition": "A single rate of duty that members of a customs union charge on imports from non-members." },
+    { "term": "Windsor Framework", "definition": "A 2023 agreement that sets customs and goods rules for trade into Northern Ireland." },
+    { "term": "Passporting", "definition": "A rule that lets a firm authorised in one EU state provide certain financial services in other EU states." },
+    { "term": "USMCA", "definition": "A free-trade agreement between the United States, Mexico and Canada, which replaced NAFTA in 2020." }
+  ],
+  "factCards": [
+    { "term": "Three perspectives for evaluating EU membership", "definition": "The economy, businesses and consumers." },
+    { "term": "Costs of EU membership for the economy", "definition": "Loss of independent monetary policy, contributions to the EU budget and fiscal rules that limit borrowing." },
+    { "term": "Trade integration from least to most", "definition": "Free-trade area, customs union, single market." },
+    { "term": "Four freedoms of the single market", "definition": "Free movement of goods, services, capital and people." },
+    { "term": "Lanes under the Windsor Framework", "definition": "A green lane for goods staying in Northern Ireland and a red lane for goods at risk of entering the EU single market." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Explain the term trading bloc, and identify one trading bloc, other than the EU, that is relevant to Irish business.", "model": "A trading bloc is a group of countries that agree to reduce or remove trade barriers between its members, so that goods, and sometimes services and people, move more easily within the group. Members usually gain larger markets, lower costs and more predictable rules. One trading bloc relevant to Irish business, other than the EU, is USMCA, the United States-Mexico-Canada Agreement. The United States is a major export market for Irish goods and services, and USMCA sets the rules that affect trade with North America, although Ireland is not a party to it. Irish firms exporting to the US are affected by the terms of the agreement and by the tariffs that apply to goods entering the US." },
+    { "marks": 20, "prompt": "Evaluate Ireland's membership of the EU from the perspective of the economy, businesses and consumers.", "model": "For the economy, membership gives access to the single market and attracts foreign direct investment, which supports growth and employment. The cost is that Ireland cannot set its own interest rates, because the European Central Bank sets them for the euro area, and EU fiscal rules limit government borrowing. For businesses, membership removes tariffs on exports to other member states and lets firms rely on common rules. The cost is compliance with EU regulation, which weighs heavily on small firms, and restrictions on state aid. For consumers, EU rights, price transparency and the end of roaming surcharges are benefits, while EU farm support can keep some food prices higher than world prices. On balance, membership brings substantial benefits to all three groups, but the costs are real and fall unevenly, especially on small firms and on food prices." }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "loId": "ch4-s1",
+  "chapterId": "ch4",
+  "subsection": "1. Irish government policy, legislation and how business influences policy",
+  "syllabusRef": "1.4.1, 1.4.2, 1.4.3",
+  "notes": [
+    { "h": "Policy and legislation", "b": "Government policy sets out what the state intends to achieve. Legislation is binding law passed by the Oireachtas.", "points": [
+      "A policy is a statement of intent that sets goals and the means of reaching them, and on its own it creates no legal obligation.",
+      "Legislation is law: a Bill becomes an Act only after it passes through both Houses of the Oireachtas and is signed by the President.",
+      "Statutory instruments are secondary legislation that ministers make under an Act to fill in detail, such as rules on food hygiene.",
+      "A policy often becomes law later: a government goal to cut emissions can be written into an Act that sets legally binding targets.",
+      "A new government can change policy quickly, while legislation stays in force until the Oireachtas amends or repeals it."
+    ] },
+    { "h": "Government policy across sectors", "b": "The CSO groups businesses into sectors by main activity, such as agriculture, industry, construction, retail and wholesale, transport, and tourism and hospitality. Each policy below reaches some sectors more than others.", "points": [
+      "Climate Action Plan: a plan updated each year under the Climate Action and Low Carbon Development Act 2015, with sector targets for energy, transport, agriculture and buildings.",
+      "Carbon tax: a charge on fossil fuels that has risen over time, raising fuel costs for transport firms and giving businesses a reason to invest in efficiency.",
+      "Housing for All: a plan running to 2030 to increase the supply and affordability of homes, which creates demand for builders, developers and building material suppliers.",
+      "National Development Plan: a multi-year programme of public capital investment in roads, public transport, water and housing, which supports engineering and construction firms.",
+      "Food Vision 2030: a strategy for the agri-food sector to grow sustainable production and export value, affecting farmers and food processors such as Kerry Group and Glanbia.",
+      "National Minimum Wage Act 2000: sets the legal minimum hourly pay, so any change alters labour costs in low-paid sectors such as hospitality and retail.",
+      "Policy effects are seldom one-sided: a carbon tax increase may raise a haulier's costs while encouraging investment in electric vans."
+    ] },
+    { "h": "How business influences policy", "b": "Business shapes policy through organised groups and direct engagement, not only through voting.", "points": [
+      "Representative bodies such as IBEC, ISME and Chambers Ireland put the views of employers, small firms and local business communities to government.",
+      "Sector bodies, such as the Irish Farmers' Association and Food and Drink Industry Ireland, lobby on issues specific to their industry.",
+      "The Irish Congress of Trade Unions represents workers and takes part in consultation on pay, employment law and social policy.",
+      "Public consultations and written submissions let firms comment on draft policies before they are finalised.",
+      "Pre-Budget submissions to the Department of Finance and to Oireachtas committees can influence which tax and spending measures are included.",
+      "Lobbying means contacting politicians and officials to influence a decision, and it is a normal part of the policy process.",
+      "Social dialogue is the continuing exchange between government, employers and unions on economic and social issues, and it is less formal than the national partnership agreements of the past."
+    ] },
+    { "h": "Regulation of lobbying", "b": "The Regulation of Lobbying Act 2015 makes lobbying more transparent by requiring registration and returns of activity.", "points": [
+      "Certain lobbyists must register on the Register of Lobbying and file returns describing the matters they lobbied on.",
+      "The Register is maintained by the Standards in Public Office Commission and can be searched by the public.",
+      "The Act covers contact with designated public officials, including ministers and senior officials, so lobbying of them is recorded.",
+      "Transparency lets citizens, journalists and rival interests see which groups are trying to influence a decision.",
+      "The Act creates offences for breaches, so a business that lobbies must know whether it is required to register."
+    ] },
+    { "h": "Evaluating business influence on policy", "b": "Business influence can improve policy but can also distort it, so an evaluation should weigh both sides.", "points": [
+      "Advantage: business brings practical knowledge of markets, costs and jobs, which can produce policy that firms can actually implement.",
+      "Advantage: consultation gives government evidence it might not otherwise have, which can improve the quality of legislation.",
+      "Disadvantage: large firms with dedicated lobbying staff can gain more access than small firms, so policy may favour big business.",
+      "Disadvantage: consumers, workers and the environment can be under-represented when business groups dominate a debate.",
+      "Interest groups compete with one another, so a proposal may face pressure from employers, unions and environmental groups at the same time."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Government policy", "definition": "A plan of action by the government that sets out goals and the means of achieving them." },
+    { "term": "Legislation", "definition": "Laws passed by the Oireachtas that bind individuals, businesses and public bodies." },
+    { "term": "Statutory instrument", "definition": "Secondary legislation made by a minister under the authority of an Act to set out detailed rules." },
+    { "term": "Sector of the economy", "definition": "A group of businesses that share a main activity, classified by the CSO, such as agriculture or retail." },
+    { "term": "Interest group", "definition": "An organised body that represents the shared views of a particular group of people or businesses to government." },
+    { "term": "Lobbying", "definition": "Communicating with politicians and public officials in order to influence a decision." },
+    { "term": "Social dialogue", "definition": "Continuing discussion between government, employers and trade unions on economic and social matters." },
+    { "term": "Register of Lobbying", "definition": "A public record of registered lobbyists and their lobbying activity, maintained by the Standards in Public Office Commission." }
+  ],
+  "factCards": [
+    { "term": "Passage of a Bill into law", "definition": "A Bill passes through both Houses of the Oireachtas, then the President signs it and it becomes an Act." },
+    { "term": "Business bodies that represent employers", "definition": "IBEC represents employers generally, ISME represents small and medium enterprises, and Chambers Ireland represents local chambers of commerce." },
+    { "term": "Three routes for business to influence policy", "definition": "Consultation submissions, pre-Budget submissions and direct lobbying of officials and politicians." },
+    { "term": "Body that oversees the lobbying register", "definition": "The Standards in Public Office Commission." },
+    { "term": "Sectors named in the Climate Action Plan", "definition": "Energy, transport, agriculture and buildings." },
+    { "term": "Policy versus legislation", "definition": "A policy states what the government intends to do; legislation is binding law that can be enforced." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Explain the difference between government policy and legislation, giving one Irish example of each.", "model": "Government policy is a statement of intent that sets out what the government plans to achieve and how, but on its own it does not bind citizens or businesses. An example is Housing for All, which sets goals to increase the supply and affordability of homes up to 2030. Legislation is law passed by the Oireachtas, which is enforceable and must be obeyed. An example is the National Minimum Wage Act 2000, which sets a legal minimum hourly pay that employers must follow. The key difference is that a policy states an aim while legislation compels behaviour, although a policy goal may later be turned into an Act." },
+    { "marks": 20, "prompt": "Outline three Irish government policies that affect three different sectors, and explain how each affects business.", "model": "First, the Climate Action Plan affects the energy and transport sectors. It sets emissions targets, so power generators must shift toward renewable sources, and hauliers face carbon tax costs that encourage investment in efficient or electric vehicles. Second, Food Vision 2030 affects the agri-food sector. Its aim is to grow sustainable production and export value, so farmers and processors such as Glanbia can find new export markets, although they must also meet sustainability requirements that add cost. Third, Housing for All affects the construction sector. It aims to increase the supply of homes, which creates demand for builders and developers, although planning delays and material costs can limit how quickly firms can respond. Each policy creates both opportunities and costs, and the size of the effect differs by sector." }
+  ]
+}
