@@ -251,3 +251,35 @@ test("PE authored chapters keep the review outcome's questions but drop its old 
   const untouched = after.__courseData.chapters.filter((c) => c.subject === "pe" && !authored.includes(c));
   untouched.forEach((c) => assert.ok(c.learningOutcomes[0].keyTerms.length > 0, `${c.id} keeps its deck`));
 });
+
+function buildBusiness(args) {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "business", ...args], {
+    encoding: "utf8",
+  });
+}
+
+test("the shipped business notes file is up to date with content/business", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "business-notes.js");
+  const result = buildBusiness(["--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "business-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py business"
+  );
+});
+
+test("business chapters with subsections are fully authored and load without the old notes", () => {
+  const after = load(["data.js", "business-content.js", "business-notes.js"]);
+  const chapters = after.__courseData.chapters.filter(
+    (c) => c.subject === "business" && c.learningOutcomes.some((o) => /-s\d+$/.test(o.id) && o.authored)
+  );
+  assert.ok(chapters.length > 0, "expected authored business chapters");
+  chapters.forEach((c) => {
+    c.learningOutcomes.forEach((o) => {
+      assert.ok(o.authored, `${o.id} should have authored notes (write whole chapters)`);
+      assert.ok(o.notes.length >= 4, `${o.id} has too few note blocks`);
+      assert.ok(o.keyTerms.length >= 6, `${o.id} has too few flashcards`);
+    });
+  });
+});
