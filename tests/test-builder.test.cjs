@@ -5,7 +5,7 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js"]);
+const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js", "paper-archive.js"]);
 
 // Loads every local data script app.html loads, in the same order, plus the builder.
 function createContext() {
@@ -245,4 +245,11 @@ test("a cloze blank can be overridden when the student's word was right", () => 
   const item = { kind: "cloze", answers: ["xylem", "phloem"], marks: 2 };
   assert.equal(TB.markItem(item, { blanks: ["xylem", "sieve tubes"] }).earned, 1);
   assert.equal(TB.markItem(item, { blanks: ["xylem", "sieve tubes"], overrides: [false, true] }).earned, 2);
+});
+
+test("paper-crop exam parts are answerable without question text, except off-spec ones", () => {
+  const group = { id: "biology-pp-2025-higher-q1", subject: "biology", images: ["exam-images/biology/2025/higher-q1-1.webp"] };
+  assert.ok(TB.isAnswerablePart({ label: "(a)", marks: 4, model: "Cx(H2O)y" }, group));
+  assert.ok(!TB.isAnswerablePart({ label: "(b)", marks: 4, model: "", answerStatus: "flagged" }, group));
+  assert.ok(!TB.isAnswerablePart({ label: "(c)", marks: 3, model: "", offSpec: true }, group));
 });

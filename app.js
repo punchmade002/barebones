@@ -450,6 +450,8 @@ const els = {
   fullNotesTitle: document.getElementById("fullNotesTitle"),
   fullNotesBody: document.getElementById("fullNotesBody"),
   closeFullNotes: document.getElementById("closeFullNotes"),
+  fullNotesPrev: document.getElementById("fullNotesPrev"),
+  fullNotesNext: document.getElementById("fullNotesNext"),
   hierarchyPanel: document.getElementById("hierarchyPanel"),
   testContainer: document.getElementById("testContainer"),
   testScreen: document.getElementById("testScreen"),
@@ -470,6 +472,16 @@ let authSaveInFlight = null;
 let authActivationPromise = null;
 let activatingAuthUserId = "";
 let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
+// The subsection whose notes are open; paging through notes leaves selectedOutcomeId alone.
+let notesOutcomeId = "";
+// Questions whose every part tests a topic dropped from the current course stay hidden
+// unless the student asks to see them. Declared up here because renderAll() runs first.
+let showOffSpecExamQuestions = false;
+// Crops are full paper width, which reads too large on a wide screen. Each page gets its own
+// size slider; the last size picked becomes the starting size for every page shown after it.
+// Declared up here because renderAll() can draw the Exam tab first.
+const EXAM_PAPER_SCALE_KEY = "bare-bones-exam-paper-scale";
+const EXAM_PAPER_SCALE_MIN = 40;
 let expandedSubjectId = "";
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
@@ -594,8 +606,9 @@ function bindEvents() {
   els.testScreen.addEventListener("click", handleTestScreenClick);
   els.testScreen.addEventListener("input", handleTestScreenInput);
   document.addEventListener("keydown", handleTestKeyboard);
-  els.openFullNotes.addEventListener("click", openFullNotes);
+  els.openFullNotes.addEventListener("click", () => openFullNotes());
   els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
+  bindFullNotesPager();
   bindLiveReader();
   els.openProgress.addEventListener("click", openProgress);
   document.addEventListener("click", (event) => {
@@ -1383,6 +1396,7 @@ function renderTabVisibility() {
 
 function renderAll() {
   reconcileSelection();
+  requestExamPack(selectedSubjectId);
   renderAccount();
   renderProfileAvatar();
   renderAccountIdentity();
@@ -1592,6 +1606,8 @@ function handlePhonePopState(event) {
   const screen = event.state?.bbScreen || "home";
   if (screen !== "notes" && !els.fullNotesScreen.classList.contains("hidden")) closeFullNotes();
   if (screen !== "progress" && !els.progressScreen.classList.contains("hidden")) closeProgress();
+  if (screen !== "paper") closePaperViewer();
+  if (screen !== "papers" && screen !== "paper" && !document.getElementById("papersScreen").classList.contains("hidden")) closeExamPapers();
   if (screen === "home") phoneHome = true;
   if (screen === "subject" || screen === "chapter" || screen === "study") {
     phoneHome = false;
@@ -1746,9 +1762,15 @@ function renderOutcomePicker() {
   picker.innerHTML = `
     <header class="outcome-picker-head">
       <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
+      <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
     </header>
     <div class="outcome-picker-grid">${cardsHtml}</div>
   `;
+
+  // From the grid the notes open on the first subsection and page on from there
+  picker.querySelector(".outcome-picker-notes").addEventListener("click", () => {
+    openFullNotes(chapter.learningOutcomes[0].id);
+  });
 
   picker.querySelectorAll(".outcome-card").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1806,6 +1828,7 @@ function renderSubjectOverview() {
         <div class="overview-total-fill" style="width:${ss.pct}%"></div>
       </div>
     </div>
+    ${examPapersLink(ss.subject.id, "overview-papers-link")}
     <div class="overview-chapter-list">${rows}</div>
   `;
 }
@@ -2224,6 +2247,11 @@ function handleTestSetupChange(event) {
 
 function startTest(retestItems) {
   if (!getCurrentUser()) return;
+  // Tests draw on past-paper questions, so wait for the subject's bank first.
+  if (!examPackReady(selectedSubjectId)) {
+    requestExamPack(selectedSubjectId).then(() => startTest(retestItems));
+    return;
+  }
   const settings = getTestSettings();
   const scope = getTestScope(settings);
   if (!scope.subject || !scope.chapters.length) return;
@@ -2428,6 +2456,7 @@ function renderTestQuestion(item) {
       <span>${plural(item.marks, "mark")} · about ${minutes} min</span>
     </p>
     ${item.context ? `<div class="test-context">${testMultiline(item.context)}</div>` : ""}
+    ${item.images?.length ? renderExamPaperImages({ images: item.images, year: item.year, questionNumber: item.questionNumber, level: item.level }) : ""}
     <h2 class="test-prompt test-prompt--exam">${testMultiline(item.prompt)}</h2>
     ${item.diagram ? `<button type="button" class="button-secondary test-diagram" data-test-diagram="${escapeHtml(item.diagram)}">Show diagram</button>` : ""}
     <textarea class="test-answer" data-test-text rows="${item.marks >= 20 ? 10 : 6}" placeholder="Your answer">${escapeHtml(response.text || "")}</textarea>`;
@@ -2887,12 +2916,81 @@ function cardsForOutcome(outcome, subjectId) {
   }));
 }
 
+// Past-paper banks load per subject (exam-packs.js) rather than with the page.
+// Opening a subject asks for its bank, and the views redraw when it arrives.
+function examPackReady(subjectId) {
+  return !window.ExamPacks || window.ExamPacks.isLoaded(subjectId);
+}
+
+function requestExamPack(subjectId) {
+  if (examPackReady(subjectId)) return Promise.resolve();
+  return window.ExamPacks.load(subjectId).then(() => {
+    testPoolCache.clear();
+    if (selectedSubjectId === subjectId) renderAll();
+    const breakdown = document.getElementById("examBreakdownModal");
+    if (breakdownSelection?.subjectId === subjectId && breakdown && !breakdown.classList.contains("hidden")) {
+      selectBreakdownSection(subjectId, breakdownSelection.idx);
+    }
+  }, (error) => {
+    console.error(error);
+    if (selectedSubjectId === subjectId && els.examTab?.classList.contains("active")) renderExamSection();
+  });
+}
+
 function getExamQuestionsForChapter(chapter) {
   const source = getOriginalChapter(chapter.id);
   const cached = source?.examQuestions || [];
+  // Rebuilt (paper-crop) questions load after the push loop, so list them ahead of the cache.
+  const rebuilt = (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id && q.images?.length);
+  if (rebuilt.length) return [...rebuilt, ...cached.filter(q => !rebuilt.includes(q))];
   if (cached.length) return cached;
   // Fall back to live DB for chapters loaded via additive scripts after the initial push loop.
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
+}
+
+function isOffSpecExamGroup(group) {
+  const parts = group?.parts || [];
+  return parts.length > 0 && parts.every((part) => part.offSpec);
+}
+
+// Rebuilt banks show the question exactly as printed on the paper (cropped from the PDF),
+// so students read the stem, data and figures the way they will in the exam.
+function renderExamPaperImages(group) {
+  if (!group.images?.length) return "";
+  const where = [group.year, group.level === "ordinary" ? "Ordinary Level" : group.level === "higher" ? "Higher Level" : "", group.questionNumber ? `Question ${group.questionNumber}` : ""].filter(Boolean).join(" ");
+  const scale = getExamPaperScale();
+  return `<div class="exam-paper">${group.images.map((src, i) => `
+    <div class="exam-paper-sheet" style="--paper-scale: ${scale}%">
+      <button type="button" class="exam-paper-page" onclick="openDiagramModal('${escapeHtml(src)}')" aria-label="Enlarge page ${i + 1} of ${group.images.length}">
+        <img src="${escapeHtml(src)}" alt="${escapeHtml(`${where} as printed on the paper${group.images.length > 1 ? `, page ${i + 1} of ${group.images.length}` : ""}`)}" loading="lazy" />
+      </button>
+      <input type="range" class="exam-paper-size" min="${EXAM_PAPER_SCALE_MIN}" max="100" step="5" value="${scale}" oninput="setExamPaperScale(this)" aria-label="Page size" aria-valuetext="${scale}%" title="Page size" />
+    </div>`).join("")}
+  </div>`;
+}
+
+function getExamPaperScale() {
+  try {
+    const saved = Number(localStorage.getItem(EXAM_PAPER_SCALE_KEY));
+    if (saved >= EXAM_PAPER_SCALE_MIN && saved <= 100) return saved;
+  } catch {}
+  return 100;
+}
+
+function setExamPaperScale(input) {
+  input.closest(".exam-paper-sheet")?.style.setProperty("--paper-scale", `${input.value}%`);
+  input.setAttribute("aria-valuetext", `${input.value}%`);
+  try {
+    localStorage.setItem(EXAM_PAPER_SCALE_KEY, input.value);
+  } catch {}
+}
+
+// Part rows for image-based questions carry no question text, only what the paper can't show.
+function renderExamPartStatus(group, part) {
+  if (!group.images?.length) return "";
+  if (part.offSpec) return `<p class="exam-part-note muted small">Not on the current course, so there is no model answer.</p>`;
+  if (!part.model) return `<p class="exam-part-note muted small">Model answer under review.</p>`;
+  return "";
 }
 
 function compactExamSource(group) {
@@ -2905,7 +3003,8 @@ function compactExamSource(group) {
   const section = namedSection
     ? (/^\d+$/.test(namedSection) ? `S${namedSection}` : namedSection.toUpperCase())
     : letterSection.toUpperCase();
-  const pieces = [year, paper ? `P${paper}` : section, question ? `Q${question}` : ""].filter(Boolean);
+  const level = group?.level === "higher" ? "HL" : group?.level === "ordinary" ? "OL" : "";
+  const pieces = [year, level, paper ? `P${paper}` : section, question ? `Q${question}` : ""].filter(Boolean);
   return pieces.length >= 2 ? pieces.join(" ") : compactText(source).slice(0, 32);
 }
 
@@ -2918,8 +3017,8 @@ function getExamDisclaimer(subject) {
     },
     biology: {
       tone: "info",
-      status: "Mostly reliable",
-      body: "The Biology course has minor differences from previous years. The core content is largely unchanged, so past papers remain useful.",
+      status: "Previous course",
+      body: "These papers (2015 to 2025) were set on the previous Biology course; the new course is first examined in 2027. Most of the content carries over. Parts on dropped topics have no model answer, and questions made up entirely of dropped topics are hidden.",
     },
     chemistry: {
       tone: "warning",
@@ -2953,19 +3052,28 @@ function getExamDisclaimer(subject) {
 function renderExamSection() {
   const chapter = getSelectedChapter();
   if (!chapter) return;
-  const examGroups = getExamQuestionsForChapter(chapter);
+  const allGroups = getExamQuestionsForChapter(chapter);
+  const hiddenCount = allGroups.filter(isOffSpecExamGroup).length;
+  const examGroups = showOffSpecExamQuestions ? allGroups : allGroups.filter((group) => !isOffSpecExamGroup(group));
+  const offSpecToggle = hiddenCount
+    ? `<button type="button" class="button-secondary exam-offspec-toggle" onclick="showOffSpecExamQuestions = !showOffSpecExamQuestions; renderExamSection();">${showOffSpecExamQuestions ? "Hide" : "Show"} ${plural(hiddenCount, "question")} not on the current course</button>`
+    : "";
 
+  const papersLink = examPapersLink(selectedSubjectId);
   if (!examGroups.length) {
-    els.examContainer.innerHTML = `
+    const emptyMessage = examPackReady(selectedSubjectId)
+      ? "No past paper questions available for this chapter yet."
+      : "Loading past paper questions…";
+    els.examContainer.innerHTML = papersLink + `
       <div class="exam-empty">
-        <p class="muted">No past paper questions available for this chapter yet.</p>
-      </div>`;
+        <p class="muted">${emptyMessage}</p>
+      </div>${offSpecToggle}`;
     return;
   }
 
   const disclaimer = getExamDisclaimer(selectedSubjectId);
 
-  els.examContainer.innerHTML = disclaimer + examGroups.map((group) => {
+  els.examContainer.innerHTML = papersLink + disclaimer + examGroups.map((group) => {
     const parts = (group.parts || []).map((part, pIdx) => {
       const partId = `${group.id}-p${pIdx}`;
       const diagramBtn = part.diagram
@@ -2980,7 +3088,8 @@ function renderExamSection() {
             <span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? "" : "s"}${timingStr}</span>
             ${diagramBtn}
           </div>
-          <p class="exam-question-text">${escapeHtml(part.question)}</p>
+          ${part.question ? `<p class="exam-question-text">${escapeHtml(part.question)}</p>` : ""}
+          ${renderExamPartStatus(group, part)}
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join("");
@@ -3000,7 +3109,7 @@ function renderExamSection() {
       : "";
 
     const _sq = getSectionForQuestion(group.id);
-    const totalQMarks = (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
+    const totalQMarks = group.totalMarks || (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
     const totalQMins = getRecommendedMinutes(group.subject, totalQMarks);
     const meta = [
       totalQMarks ? `${totalQMarks} marks` : "",
@@ -3018,11 +3127,12 @@ function renderExamSection() {
         </button>
         <div class="exam-group-body hidden" id="${escapeHtml(bodyId)}">
           ${contextBox}
+          ${renderExamPaperImages(group)}
           ${parts}
           ${appliesToBlock}
         </div>
       </div>`;
-  }).join("");
+  }).join("") + offSpecToggle;
 
   bindExamAccordions(els.examContainer);
 
@@ -3035,6 +3145,16 @@ function renderExamSection() {
       throwOnError: false,
     });
   }
+}
+
+// The whole papers sit behind the question-by-question list, one tap away
+function examPapersLink(subjectId, extraClass = "") {
+  if (!hasExamPapers(subjectId)) return "";
+  const years = window.EXAM_PAPERS[subjectId].papers.map((p) => p.year);
+  return `<button class="exam-papers-link ${extraClass}" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
+    <span><strong>Whole exam papers</strong><small>${Math.min(...years)}–${Math.max(...years)} · write on them as you go</small></span>
+    <span class="exam-papers-link-arrow" aria-hidden="true">›</span>
+  </button>`;
 }
 
 function bindExamAccordions(container) {
@@ -3616,22 +3736,86 @@ function getSelectedOutcome() {
   return ch?.learningOutcomes.find((lo) => lo.id === selectedOutcomeId) || null;
 }
 
-function openFullNotes() {
+function openFullNotes(outcomeId = selectedOutcomeId) {
   const chapter = getSelectedChapter();
   if (!chapter) return;
-  const outcome = chapterHasSubsections(chapter) ? getSelectedOutcome() : null;
-  const heading = outcome ? compactText(outcome.title || "") : chapter.title;
-  els.fullNotesTitle.innerHTML = `
-    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)}` : ""}</span>
-    <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
-  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome);
+  notesOutcomeId = chapterHasSubsections(chapter) ? outcomeId : "";
   els.openLiveReading.classList.remove("hidden");
   closeLiveReader();
+  renderFullNotesPage();
   els.fullNotesScreen.classList.remove("hidden");
-  els.fullNotesBody.scrollTop = 0;
   document.body.style.overflow = "hidden";
   pushPhoneScreen("notes");
   markNotesViewed(chapter.id);
+}
+
+// In a chapter with subsections the notes are pages: the arrows either side,
+// the arrow keys and a sideways swipe step between them.
+function renderFullNotesPage(step = 0) {
+  const chapter = getSelectedChapter();
+  const outcomes = chapterHasSubsections(chapter) ? chapter.learningOutcomes : [];
+  const index = outcomes.findIndex((lo) => lo.id === notesOutcomeId);
+  const outcome = outcomes[index] || null;
+  const prev = outcomes[index - 1];
+  const next = outcomes[index + 1];
+  const heading = outcome ? compactText(outcome.title || "") : chapter.title;
+  els.fullNotesTitle.innerHTML = `
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}</span>
+    <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
+  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome) + (next ? `
+    <button class="notes-next-section" type="button" data-notes-step="1">
+      <span>Next subsection</span>
+      <strong>${escapeHtml(compactText(next.title || ""))}</strong>
+    </button>` : "");
+  els.fullNotesBody.scrollTop = 0;
+
+  els.fullNotesScreen.classList.toggle("is-paged", Boolean(outcome));
+  [[els.fullNotesPrev, prev, "Previous"], [els.fullNotesNext, next, "Next"]].forEach(([btn, lo, label]) => {
+    btn.disabled = !lo;
+    btn.title = lo ? `${label}: ${compactText(lo.title || "")}` : "";
+  });
+
+  els.fullNotesBody.classList.remove("notes-enter-next", "notes-enter-prev");
+  if (step) {
+    void els.fullNotesBody.offsetWidth; // restart the entrance animation
+    els.fullNotesBody.classList.add(step > 0 ? "notes-enter-next" : "notes-enter-prev");
+  }
+}
+
+function stepFullNotes(step) {
+  if (!els.fullNotesScreen.classList.contains("is-paged")) return;
+  const outcomes = getSelectedChapter()?.learningOutcomes || [];
+  const target = outcomes[outcomes.findIndex((lo) => lo.id === notesOutcomeId) + step];
+  if (!target) return;
+  closeLiveReader();
+  notesOutcomeId = target.id;
+  renderFullNotesPage(step);
+}
+
+function bindFullNotesPager() {
+  els.fullNotesPrev.addEventListener("click", () => stepFullNotes(-1));
+  els.fullNotesNext.addEventListener("click", () => stepFullNotes(1));
+  els.fullNotesBody.addEventListener("click", (event) => {
+    if (event.target.closest("[data-notes-step]")) stepFullNotes(1);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (els.fullNotesScreen.classList.contains("hidden") || !els.liveReader.classList.contains("hidden")) return;
+    if (event.altKey || event.metaKey || event.ctrlKey || event.target.closest?.("input, textarea, select")) return;
+    if (event.key === "ArrowLeft") stepFullNotes(-1);
+    else if (event.key === "ArrowRight") stepFullNotes(1);
+  });
+  // A clearly sideways swipe pages; anything steeper is left to scrolling
+  let touch = null;
+  els.fullNotesBody.addEventListener("touchstart", (event) => {
+    touch = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+  }, { passive: true });
+  els.fullNotesBody.addEventListener("touchend", (event) => {
+    if (!touch) return;
+    const dx = event.changedTouches[0].clientX - touch.x;
+    const dy = event.changedTouches[0].clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) stepFullNotes(dx < 0 ? 1 : -1);
+  }, { passive: true });
 }
 
 function buildFullNotesHtml(chapter, outcome = null) {
@@ -4246,118 +4430,177 @@ function examSectionBadge(section, data) {
   }
   const timeStr = mins != null ? ` · ~${mins} min` : '';
   const bg = section.color + '22';
-  return `<span class="exam-section-badge" style="background:${bg};color:${section.color};border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
+  return `<span class="exam-section-badge" style="background:${bg};color:color-mix(in srgb, ${section.color} 62%, #1A1916);border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
 }
+
+let breakdownSelection = null; // { subjectId, idx } of the section open in the paper guide
 
 function openExamBreakdown(subjectId) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
   if (!data) return;
+  // Coming back from a section's questions keeps that section open; a fresh open starts on the first one
+  const startIdx = breakdownSelection?.subjectId === subjectId ? breakdownSelection.idx : 0;
+  breakdownSelection = null;
+  requestExamPack(subjectId);
   document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   document.body.style.overflow = 'hidden';
+  if (data.sections?.length) selectBreakdownSection(subjectId, Math.min(startIdx, data.sections.length - 1));
 }
 
 function closeExamBreakdown() {
   document.getElementById('examBreakdownModal').classList.add('hidden');
   document.body.style.overflow = '';
+  breakdownSelection = null;
+}
+
+// "Section A – Short Questions" → { kicker: "Section A", title: "Short Questions" }
+function splitSectionName(name) {
+  const [kicker, ...rest] = String(name).split(/\s+[–-]\s+/);
+  return rest.length ? { kicker, title: rest.join(' – ') } : { kicker: '', title: kicker };
+}
+
+function sectionMinutes(section, data) {
+  if (!section.marks || section.marksRange || !data.totalMarks || !data.totalMinutes) return null;
+  return Math.round((section.marks / data.totalMarks) * data.totalMinutes);
+}
+
+// A section whose share changes from year to year (History's essays) carries a marksRange
+function sectionMarksText(section) {
+  return section.marksRange ? section.marksRange.join('–') : String(section.marks);
+}
+
+function sectionShareText(section, data) {
+  if (!section.marks || !data.totalMarks) return '';
+  const pct = (marks) => Math.round((marks / data.totalMarks) * 100);
+  return section.marksRange
+    ? `${section.marksRange.map(pct).join('–')}% of paper`
+    : `${pct(section.marks)}% of paper`;
 }
 
 function renderBreakdownModal(data) {
   const subjectTitle = data.subject.charAt(0).toUpperCase() + data.subject.slice(1);
-  if (data.notice) {
-    return `
-      <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0.75rem 0">${subjectTitle} — Exam Breakdown</h2>
-      <div class="breakdown-tip-group" style="max-width:480px">
-        <div class="breakdown-tip-label">Notice</div>
-        <div class="breakdown-tip-text">${escapeHtml(data.notice)}</div>
-      </div>`;
-  }
-  const timeStr = data.timingNote ? ` · ${data.timingNote}` : data.totalMinutes ? ` · ${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '';
-  return `
-    <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0 0">${subjectTitle} — Exam Breakdown</h2>
-    <p style="font-size:0.82rem;color:var(--muted);margin:0.2rem 0 0">Total: ${data.totalMarks} marks${timeStr} — click a section to see tips and practice questions</p>
-    <div class="breakdown-layout">
-      <div>
-        ${renderBreakdownPie(data.sections, data.subject)}
-        <ul class="breakdown-section-list">
-          ${data.sections.map((s, i) => `
-            <li class="breakdown-section-item" onclick="selectBreakdownSection('${data.subject}', ${i})" data-idx="${i}">
-              <span class="breakdown-dot" style="background:${s.color}"></span>
-              <span>${s.name}</span>
-              <span class="breakdown-marks">${s.marks} marks</span>
-            </li>`).join('')}
-        </ul>
+  const head = (meta) => `
+    <header class="bd-head">
+      <div class="bd-head-text">
+        <span class="bd-eyebrow">Paper guide</span>
+        <h2 class="bd-title">${subjectTitle}</h2>
       </div>
-      <div id="breakdownDetail" class="breakdown-detail">
-        <p class="breakdown-detail-empty">Select a section to see tips and practice questions.</p>
+      ${meta}
+    </header>`;
+
+  if (data.notice) {
+    return `<div class="bd-screen">
+      ${head('')}
+      <div class="bd-notice">
+        <span class="bd-label">Notice</span>
+        <p>${escapeHtml(data.notice)}</p>
       </div>
     </div>`;
+  }
+
+  const timeStr = data.timingNote || (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '');
+  const meta = `
+    <dl class="bd-stats">
+      ${data.totalMarks ? `<div><dt>Marks</dt><dd>${data.totalMarks}</dd></div>` : ''}
+      ${timeStr ? `<div><dt>Time</dt><dd>${escapeHtml(timeStr)}</dd></div>` : ''}
+      <div><dt>${data.sections.length === 1 ? 'Section' : 'Sections'}</dt><dd>${data.sections.length}</dd></div>
+    </dl>`;
+
+  return `<div class="bd-screen">
+    ${head(meta)}
+    ${renderBreakdownBar(data)}
+    <div class="bd-panels">
+      ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
+    </div>
+  </div>`;
 }
 
-function renderBreakdownPie(sections, subjectId) {
-  const total = sections.reduce((s, x) => s + x.marks, 0);
-  const cx = 90, cy = 90, r = 78;
-  let angle = -Math.PI / 2;
-  const paths = sections.map((sec, i) => {
-    const sweep = (sec.marks / total) * 2 * Math.PI;
-    const x1 = cx + r * Math.cos(angle);
-    const y1 = cy + r * Math.sin(angle);
-    angle += sweep;
-    const x2 = cx + r * Math.cos(angle);
-    const y2 = cy + r * Math.sin(angle);
-    const large = sweep > Math.PI ? 1 : 0;
-    const pct = Math.round((sec.marks / total) * 100);
-    const midAngle = angle - sweep / 2;
-    const lx = cx + (r * 0.6) * Math.cos(midAngle);
-    const ly = cy + (r * 0.6) * Math.sin(midAngle);
-    return `<path class="breakdown-wedge" d="M${cx},${cy} L${x1.toFixed(2)},${y1.toFixed(2)} A${r},${r} 0 ${large},1 ${x2.toFixed(2)},${y2.toFixed(2)} Z"
-              fill="${sec.color}" data-idx="${i}"
-              onclick="selectBreakdownSection('${subjectId}', ${i})"
-              title="${sec.name} — ${sec.marks} marks"/>
-            <text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" text-anchor="middle" dominant-baseline="middle"
-              style="font-size:11px;font-weight:700;fill:#fff;pointer-events:none">${pct}%</text>`;
-  }).join('');
-  return `<div class="breakdown-pie-wrap"><svg viewBox="0 0 180 180">${paths}</svg></div>`;
+// Proportional strip of the paper's marks, one segment per section
+function renderBreakdownBar(data) {
+  if (!data.sections.every((s) => s.marks)) return '';
+  return `<div class="bd-bar" aria-hidden="true">
+    ${data.sections.map((s, i) => `
+      <button type="button" class="bd-bar-seg" style="--sec:${s.color};flex-grow:${s.marks}"
+        data-idx="${i}" tabindex="-1" onclick="selectBreakdownSection('${data.subject}', ${i})">
+        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)} · ${sectionMarksText(s)}</span>
+        <span class="bd-bar-strip"></span>
+      </button>`).join('')}
+  </div>`;
+}
+
+function renderBreakdownPanel(data, section, idx) {
+  const { kicker, title } = splitSectionName(section.name);
+  const share = sectionShareText(section, data);
+  // A section that is one question long would show the same time twice, so only its per-question time is kept
+  const sectionMins = sectionMinutes(section, data);
+  const mins = sectionMins && !(section.minutesPerQuestion && sectionMins < section.minutesPerQuestion * 1.5) ? sectionMins : null;
+  const tips = section.tips;
+  const body = tips
+    ? `
+      <div class="bd-tips">
+        <div class="bd-tip">
+          <span class="bd-label">Timing</span>
+          <p>${tips.timing}</p>
+        </div>
+        <div class="bd-tip">
+          <span class="bd-label">Answer structure</span>
+          <p>${tips.structure}</p>
+        </div>
+        <div class="bd-tip bd-tip--wide">
+          <span class="bd-label">Reminders</span>
+          <ul class="bd-reminders">
+            ${tips.reminders.map((r) => `<li>${escapeHtml(r)}</li>`).join('')}
+          </ul>
+        </div>
+      </div>`
+    : `<p class="bd-empty">Tips for this section are on the way.</p>`;
+
+  return `
+    <section class="bd-panel" style="--sec:${section.color};--i:${idx}" data-idx="${idx}"
+      onclick="if (!this.classList.contains('is-open')) selectBreakdownSection('${data.subject}', ${idx})">
+      <button type="button" class="bd-panel-head" aria-expanded="false">
+        <span class="bd-kicker">${escapeHtml(kicker || `Part ${idx + 1}`)}</span>
+        <span class="bd-panel-title">${escapeHtml(title)}</span>
+        ${section.marks ? `
+          <span class="bd-marks${section.marksRange ? ' bd-marks--range' : ''}"><strong>${sectionMarksText(section)}</strong> marks</span>
+          <span class="bd-facts">${[share, mins && `~${mins} min`, section.minutesPerQuestion && `${section.minutesPerQuestion} min per question`].filter(Boolean).join(' · ')}</span>` : ''}
+      </button>
+      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Click to open</span>
+      <div class="bd-panel-body">
+        ${body}
+        <div class="bd-questions" data-questions-slot></div>
+      </div>
+    </section>`;
 }
 
 function selectBreakdownSection(subjectId, idx) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
-  if (!data) return;
-  const section = data.sections[idx];
+  if (!data?.sections?.[idx]) return;
+  breakdownSelection = { subjectId, idx };
 
-  document.querySelectorAll('.breakdown-section-item').forEach((el, i) => {
-    el.classList.toggle('active', i === idx);
-    el.style.borderColor = i === idx ? section.color : '';
+  const modal = document.getElementById('examBreakdownModal');
+  modal.querySelectorAll('.bd-panel').forEach((el) => {
+    const open = Number(el.dataset.idx) === idx;
+    el.classList.toggle('is-open', open);
+    el.querySelector('.bd-panel-head').setAttribute('aria-expanded', String(open));
   });
-  document.querySelectorAll('.breakdown-wedge').forEach((el) => {
-    el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
+  modal.querySelectorAll('.bd-bar-seg').forEach((el) => {
+    el.classList.toggle('is-open', Number(el.dataset.idx) === idx);
   });
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
-
-  const tips = section.tips;
-  document.getElementById('breakdownDetail').innerHTML = `
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Timing</div>
-      <div class="breakdown-tip-text">${tips.timing}</div>
-    </div>
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Answer Structure</div>
-      <div class="breakdown-tip-text">${tips.structure}</div>
-    </div>
-    <div class="breakdown-tip-group">
-      <div class="breakdown-tip-label">Reminders</div>
-      <ul class="breakdown-reminders">
-        ${tips.reminders.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
-      </ul>
-    </div>
-    ${questions.length
-      ? `<button class="button-primary" style="margin-top:0.25rem;align-self:flex-start"
-           onclick="openSectionQuestions('${subjectId}',${idx})">
-           Exam Questions (${questions.length})
+  // Question counts arrive with the exam pack, so every panel's button is refreshed together
+  const packReady = examPackReady(subjectId);
+  modal.querySelectorAll('[data-questions-slot]').forEach((slot) => {
+    const i = Number(slot.closest('.bd-panel').dataset.idx);
+    const section = data.sections[i];
+    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q)).length;
+    slot.innerHTML = count
+      ? `<button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
+           Practise past-paper questions <span>${count}</span>
          </button>`
-      : '<p class="breakdown-detail-empty">No past-paper questions indexed for this section yet.</p>'
-    }`;
+      : `<p class="bd-empty">${packReady ? 'No past-paper questions indexed for this section yet.' : 'Loading past-paper questions…'}</p>`;
+  });
 }
 
 function openSectionQuestions(subjectId, sectionIdx) {
@@ -4365,7 +4608,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
   if (!data) return;
   const section = data.sections[sectionIdx];
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
 
   const questionsHtml = questions.map((group, qi) => {
     const parts = (group.parts || []).map((part, pIdx) => {
@@ -4382,13 +4625,14 @@ function openSectionQuestions(subjectId, sectionIdx) {
             <span class="exam-part-label">${escapeHtml(part.label || '')}</span>
             ${part.marks ? `<span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? '' : 's'}</span>` : ''}
           </div>
-          <p class="exam-question-text">${escapeHtml(part.question || '')}</p>
+          ${part.question ? `<p class="exam-question-text">${escapeHtml(part.question)}</p>` : ''}
           ${diagramHtml}
+          ${renderExamPartStatus(group, part)}
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join('');
 
-    const totalMarks = (group.parts || []).reduce((sum, part) => sum + (part.marks || 0), 0);
+    const totalMarks = group.totalMarks || (group.parts || []).reduce((sum, part) => sum + (part.marks || 0), 0);
     const bodyId = `breakdown-exam-body-${qi}`;
 
     return `
@@ -4398,7 +4642,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
           <span class="exam-group-meta">${totalMarks ? `${totalMarks} marks` : ""}${group.parts?.length > 1 ? ` · ${group.parts.length} parts` : ""}</span>
           <span class="exam-group-chevron" aria-hidden="true">⌄</span>
         </button>
-        <div class="exam-group-body hidden" id="${bodyId}">${parts}</div>
+        <div class="exam-group-body hidden" id="${bodyId}">${renderExamPaperImages(group)}${parts}</div>
       </div>`;
   }).join('');
 
@@ -4408,6 +4652,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
 
   // Populate and open the full-notes screen (true full-screen overlay)
   document.getElementById('fullNotesTitle').textContent = `${section.name}: Practice questions`;
+  els.fullNotesScreen.classList.remove('is-paged');
   closeLiveReader();
   els.openLiveReading.classList.add('hidden');
   document.getElementById('fullNotesBody').innerHTML = `<div class="exam-container exam-container--fullscreen">${questionsHtml}</div>`;

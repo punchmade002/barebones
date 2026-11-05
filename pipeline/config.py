@@ -141,7 +141,9 @@ DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is un
 # page. Anything not listed falls back to DEFAULT_CUTOFF (also flagged unverified).
 SYLLABUS_CUTOFF = {
     "history":   (2006, True),    # confirmed: documents-based study first examined 2006
-    "pe":        (2022, True),    # LCPE is a new exam subject, first examined 2022
+    # pe: the 2018 specification was first examined 2020 (SEC S51/25; no written exam that year,
+    # calculated grades) and is examined to June 2027. The 2026 specification is first examined 2028.
+    "pe":        (2020, True),    # confirmed: SEC circular S51/25
     "maths":     (2012, True),    # Project Maths national rollout (phased 2012-2015)
     "geography": (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2027
     # biology: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes

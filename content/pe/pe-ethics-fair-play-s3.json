@@ -1,0 +1,153 @@
+{
+  "loId": "pe-ethics-fair-play-s3",
+  "chapterId": "pe-ethics-fair-play",
+  "subsection": "3. Drugs and sport",
+  "syllabusRef": "6.3",
+  "notes": [
+    {
+      "h": "What a performance-enhancing drug is",
+      "points": [
+        "A performance-enhancing drug (PED) is a substance taken to improve performance artificially, giving an unfair advantage.",
+        "The World Anti-Doping Agency (WADA) publishes the Prohibited List, which is updated annually.",
+        "The Prohibited List names substances and methods that are banned at all times, banned in competition only, or banned in particular sports."
+      ]
+    },
+    {
+      "h": "Anabolic agents",
+      "points": [
+        "Examples: anabolic steroids such as nandrolone, testosterone and stanozolol.",
+        "Effect: they increase protein synthesis, muscle mass, strength and power, allowing harder training and faster recovery.",
+        "Misused in: strength and power events, where muscle mass and recovery from hard training matter.",
+        "Health risks: liver damage, heart disease, acne and aggression.",
+        "Hormonal effects: infertility, and masculinisation in women."
+      ]
+    },
+    {
+      "h": "Peptide hormones and growth factors",
+      "points": [
+        "Erythropoietin (EPO): raises red blood cell production and oxygen-carrying capacity, improving endurance.",
+        "EPO is misused in endurance events such as distance running and cycling.",
+        "EPO health risks: thickened blood, clots, stroke and heart attack.",
+        "Human growth hormone (HGH): increases muscle and aids recovery.",
+        "HGH health risks: abnormal growth and heart problems."
+      ]
+    },
+    {
+      "h": "Stimulants",
+      "points": [
+        "Examples: amphetamines, cocaine and ephedrine.",
+        "Effect: they increase alertness and aggression, and mask fatigue and pain.",
+        "Misused in: sports that demand sustained alertness and aggression, such as contact sports and endurance events.",
+        "Health risks: high blood pressure, heart problems, overheating, addiction and poor judgement."
+      ]
+    },
+    {
+      "h": "Diuretics and masking agents",
+      "points": [
+        "Effect: they increase urine output, allowing rapid weight loss to make a weight category, or diluting and hiding other drugs.",
+        "Misused in: weight-category sports such as boxing.",
+        "Health risks: dehydration, cramps and kidney problems."
+      ]
+    },
+    {
+      "h": "Narcotic analgesics",
+      "points": [
+        "Example: morphine.",
+        "Effect: masks pain, so an athlete can compete while injured.",
+        "Misused in: sports where athletes compete through injury, such as contact sports.",
+        "Health risks: worsening injury and addiction."
+      ]
+    },
+    {
+      "h": "Beta-blockers",
+      "points": [
+        "Effect: lower heart rate and steady tremor, which helps precision performance.",
+        "Prohibited in particular precision sports such as archery and shooting.",
+        "Health risks: fatigue and low blood pressure."
+      ]
+    },
+    {
+      "h": "Other drug classes on the list",
+      "points": [
+        "Beta-2 agonists, hormone and metabolic modulators, cannabinoids and glucocorticoids are also on the Prohibited List."
+      ]
+    },
+    {
+      "h": "Prohibited methods",
+      "points": [
+        "Blood doping: transfusion of blood to raise the red blood cell count.",
+        "Tampering with samples.",
+        "Gene doping: altering genes to enhance performance."
+      ]
+    },
+    {
+      "h": "Why athletes use PEDs",
+      "points": [
+        "Pressure to win.",
+        "Financial rewards and sponsorship.",
+        "National pressure to succeed.",
+        "Belief that rivals are doping.",
+        "Recovering from injury faster.",
+        "Making a weight category.",
+        "Ageing athletes trying to stay competitive."
+      ]
+    },
+    {
+      "h": "Implications for the performer",
+      "points": [
+        "Health: short- and long-term risks, including death in extreme cases.",
+        "Sanctions: a ban, normally four years for intentional doping, and disqualification of results.",
+        "Losses: medals and records are taken away.",
+        "Financial and career: loss of funding, prize money and sponsorship, and the career can end.",
+        "Reputation and personal: public disgrace, damage to family, mental-health effects and loss of self-respect."
+      ]
+    },
+    {
+      "h": "Implications for the sport",
+      "points": [
+        "Credibility: public trust falls, and every outstanding performance is doubted.",
+        "Commercial: sponsors, broadcasters and spectators withdraw, reducing funding.",
+        "Clean athletes: they lose medals, places and earnings, and records may be reallocated years later.",
+        "Participation: young people and parents turn away, and others may feel pressure to dope.",
+        "Cost and exclusion: testing and education are expensive, and a country or team may be excluded from competition."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Performance-enhancing drug (PED)", "definition": "A substance taken to improve performance artificially, giving an unfair advantage." },
+    { "term": "Prohibited List", "definition": "The list, published by WADA each year, of substances and methods banned in sport." },
+    { "term": "Anabolic agent", "definition": "A drug, such as an anabolic steroid, that increases protein synthesis, muscle mass and strength." },
+    { "term": "Erythropoietin (EPO)", "definition": "A peptide hormone that raises red blood cell production and oxygen-carrying capacity." },
+    { "term": "Human growth hormone (HGH)", "definition": "A peptide hormone that increases muscle and aids recovery." },
+    { "term": "Stimulant", "definition": "A drug that increases alertness and aggression and masks fatigue and pain." },
+    { "term": "Diuretic", "definition": "A drug that increases urine output." },
+    { "term": "Masking agent", "definition": "A substance used to dilute or hide other drugs in a sample." },
+    { "term": "Narcotic analgesic", "definition": "A drug, such as morphine, that masks pain." },
+    { "term": "Beta-blocker", "definition": "A drug that lowers heart rate and steadies tremor, and is prohibited in particular sports such as archery and shooting." },
+    { "term": "Blood doping", "definition": "The transfusion of blood to raise the red blood cell count." },
+    { "term": "Gene doping", "definition": "The altering of genes to enhance performance." }
+  ],
+  "factCards": [
+    { "term": "Two effects of anabolic steroids on performance", "definition": "They increase protein synthesis, muscle mass, strength and power, and allow harder training and faster recovery." },
+    { "term": "Risks of EPO", "definition": "Thickened blood, clots, stroke and heart attack." },
+    { "term": "Where beta-blockers are prohibited", "definition": "Particular precision sports, such as archery and shooting." },
+    { "term": "Two implications of doping for the sport", "definition": "Loss of public trust, with every outstanding performance doubted; loss of sponsors, broadcasters and spectators." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe three categories of performance-enhancing drugs, naming an example of each and its effect on performance.",
+      "model": "1. Anabolic agents: for example nandrolone or testosterone. They increase protein synthesis, muscle mass and strength, so an athlete can train harder and recover faster, which matters in strength and power events. 2. Peptide hormones: for example erythropoietin (EPO). EPO raises red blood cell production and oxygen-carrying capacity, improving endurance in events such as distance running and cycling. 3. Stimulants: for example amphetamines. They increase alertness and aggression and mask fatigue and pain, so an athlete can push on for longer, but they raise blood pressure and add the risk of heart problems and overheating."
+    },
+    {
+      "marks": 10,
+      "prompt": "Analyse the implications for the performer and for the sport of using performance-enhancing drugs.",
+      "model": "For the performer, health is at risk, from short-term effects to long-term damage such as heart and liver problems, and in extreme cases death. A violation can bring a ban, normally four years for intentional doping, and disqualification of results, with medals and records taken away. The athlete can lose funding, prize money and sponsorship, and face public disgrace, damage to family and mental-health effects, so a career can end. For the sport, public trust falls and every outstanding performance is doubted. Sponsors, broadcasters and spectators withdraw, reducing funding. Clean athletes lose medals, places and earnings, and records may be reallocated years later. Young people and parents may turn away from the sport, and others may feel pressure to dope."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name two PEDs and describe a negative effect of each on the athlete.",
+      "model": "1. Anabolic steroids: they can cause liver damage and heart disease, and in women they cause masculinisation. 2. Erythropoietin (EPO): it thickens the blood, raising the risk of clots, stroke and heart attack."
+    }
+  ]
+}

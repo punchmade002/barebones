@@ -1,0 +1,80 @@
+{
+  "loId": "pe-performance-demands-s2",
+  "chapterId": "pe-performance-demands",
+  "subsection": "2. Health-related fitness",
+  "syllabusRef": "2.2",
+  "notes": [
+    {
+      "h": "Cardio-respiratory endurance",
+      "points": [
+        "Definition: the ability of the heart, lungs and blood vessels to take in, transport and use oxygen to sustain whole-body activity over a long period. Also called aerobic fitness or stamina.",
+        "It depends on the aerobic energy system.",
+        "Important in distance running, distance swimming, soccer and Gaelic football, where players are active for over an hour.",
+        "Health benefit: lowers the risk of heart disease, stroke and high blood pressure."
+      ]
+    },
+    {
+      "h": "Muscular endurance",
+      "points": [
+        "Definition: the ability of a muscle or muscle group to perform repeated contractions over a period of time without tiring.",
+        "It is local to a muscle group, whereas cardio-respiratory endurance involves the whole body.",
+        "Important for the legs of a rower or cyclist, the arms in repeated tackles, and the core and legs of a dancer holding positions through a routine.",
+        "Health benefit: makes everyday tasks such as climbing stairs and carrying shopping easier and supports good posture."
+      ]
+    },
+    {
+      "h": "Strength",
+      "points": [
+        "Definition: the maximum force a muscle or muscle group can exert against a resistance in a single contraction.",
+        "Maximal strength: the greatest force in one all-out effort, such as pushing in a rugby scrum.",
+        "Explosive (elastic) strength: force applied quickly, the basis of power, such as a jump take-off.",
+        "Strength endurance: repeated sub-maximal force over time, such as a rower's stroke.",
+        "Static strength is used without movement, such as holding a position on the rings; dynamic strength is used with movement, such as lifting a weight.",
+        "Training intensity: strength is built with heavy loads and few repetitions, while muscular endurance is built with lighter loads and many repetitions.",
+        "Health benefit: protects joints, supports bone density and makes daily lifting safer."
+      ]
+    },
+    {
+      "h": "Flexibility",
+      "points": [
+        "Definition: the range of movement possible at a joint or series of joints.",
+        "Static flexibility: the range a joint can reach and hold at rest, such as a held split.",
+        "Dynamic flexibility: the range used during movement, such as a hurdler's lead leg or a high kick in dance.",
+        "Important in gymnastics, dance, hurdles, goalkeeping and tennis, where the body must stretch to reach the ball.",
+        "Benefits: better technique through a full range of movement, less risk of muscle strains, and easier everyday movement."
+      ]
+    },
+    {
+      "h": "Body composition",
+      "points": [
+        "Definition: the relative proportions of fat mass and lean (fat-free) mass (muscle, bone and organs) in the body, usually given as a body-fat percentage.",
+        "It is not the same as body weight: two people of the same weight can have very different body composition.",
+        "Different activities favour different compositions: a low body-fat percentage suits distance running, while more lean mass suits a rugby forward.",
+        "Somatotypes describe body shape: ectomorph (lean and linear), mesomorph (muscular) and endomorph (rounder, with more fat); most people are a mix.",
+        "Health benefit: a healthy body-fat percentage lowers the risk of type 2 diabetes, heart disease and joint problems."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Cardio-respiratory endurance", "definition": "The ability of the heart, lungs and blood vessels to take in, transport and use oxygen to sustain whole-body activity over a long period." },
+    { "term": "Muscular endurance", "definition": "The ability of a muscle or muscle group to perform repeated contractions over time without tiring." },
+    { "term": "Strength", "definition": "The maximum force a muscle or muscle group can exert against a resistance in a single contraction." },
+    { "term": "Maximal strength", "definition": "The greatest force produced in one all-out effort." },
+    { "term": "Explosive strength", "definition": "Force applied quickly; the basis of power." },
+    { "term": "Strength endurance", "definition": "The ability to apply repeated sub-maximal force over time." },
+    { "term": "Flexibility", "definition": "The range of movement possible at a joint or series of joints." },
+    { "term": "Static flexibility", "definition": "The range a joint can reach and hold at rest." },
+    { "term": "Dynamic flexibility", "definition": "The range of movement used during motion." },
+    { "term": "Body composition", "definition": "The relative proportions of fat mass and lean mass in the body, usually as a body-fat percentage." },
+    { "term": "Somatotype", "definition": "A body-shape type: ectomorph (lean), mesomorph (muscular) or endomorph (rounder)." }
+  ],
+  "factCards": [
+    { "term": "Cardio-respiratory versus muscular endurance", "definition": "Cardio-respiratory endurance is whole-body and relies on the heart and lungs; muscular endurance is local to one muscle group." },
+    { "term": "Training intensity: strength versus muscular endurance", "definition": "Strength: heavy loads, few repetitions. Muscular endurance: lighter loads, many repetitions." },
+    { "term": "Why flexibility matters for a tennis player", "definition": "A full range at the shoulder gives a powerful serve and the reach to stretch for wide balls, and reduces the risk of strains." }
+  ],
+  "questions": [
+    { "marks": 10, "prompt": "Define the five components of health-related fitness.", "model": "1. Cardio-respiratory endurance: the ability of the heart, lungs and blood vessels to take in, transport and use oxygen to sustain whole-body activity over a long period, such as running a 10 km race. 2. Muscular endurance: the ability of a muscle or muscle group to perform repeated contractions over time without tiring, such as a rower's legs. 3. Strength: the maximum force a muscle or muscle group can exert against a resistance in one contraction, such as pushing in a scrum. 4. Flexibility: the range of movement possible at a joint, such as a gymnast's split. 5. Body composition: the relative proportions of fat mass and lean mass in the body, usually given as a body-fat percentage." },
+    { "marks": 6, "prompt": "Define flexibility and explain why it is important in a physical activity of your choice.", "model": "Flexibility is the range of movement possible at a joint or series of joints. In hurdling, the lead leg must lift high and straight and the trail leg must rotate out to the side to clear each hurdle without raising the body's centre of mass, which needs a wide range at the hip. Good flexibility also reduces the risk of hamstring strains from the long stride." }
+  ]
+}
