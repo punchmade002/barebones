@@ -319,7 +319,7 @@
     const requiredHits = option.required.map(hitsBySentence);
     const extraHits = option.extra.map(hitsBySentence);
     const windows = Math.max(1, prepared.sentences.length);
-    let best = { coverage: 0, window: -1, matched: new Set() };
+    let best = { coverage: 0, weight: 0, window: -1, matched: new Set() };
     for (let start = 0; start < windows; start++) {
       const inWindow = (set) => set.has(start) || set.has(start + 1);
       let weight = 0;
@@ -343,18 +343,18 @@
       if (coverage > 0 && !option.negates && isNegated(prepared, start, option, matched)) coverage *= 0.5;
       // ...and "has no effect" is not answered by a sentence with no negative in it.
       if (coverage > 0 && option.negates && !prepared.tokens.some((t) => t.negation && (t.sentence === start || t.sentence === start + 1))) coverage *= 0.6;
-      if (coverage > best.coverage) best = { coverage, window: start, matched };
+      if (coverage > best.coverage) best = { coverage, weight: weight + bonus, window: start, matched };
     }
     return best;
   }
 
   // The point's own text split into words and gaps, flagged for highlighting.
-  function pointParts(text, option, matched) {
+  function pointParts(text, options, matched) {
     const parts = [];
     let last = 0;
     const re = /\d+(?:[.,]\d+)*|[A-Za-zÀ-ɏ][A-Za-zÀ-ɏ0-9'’]*(?:-[A-Za-z0-9]+)*/g;
     let m;
-    const terms = option.required.concat(option.extra);
+    const terms = options.flatMap((option) => option.required.concat(option.extra));
     while ((m = re.exec(text))) {
       if (m.index > last) parts.push({ text: text.slice(last, m.index) });
       const token = makeToken(normaliseText(m[0]));
@@ -366,10 +366,20 @@
     return parts;
   }
 
-  function creditFor(coverage) {
-    if (coverage >= 0.6) return 1;
-    if (coverage >= 0.34) return 0.5;
+  // A long point has more key terms than anyone repeats word for word, so
+  // several matched terms together also earn it.
+  function creditFor(coverage, weight) {
+    if (coverage >= 0.6 || (coverage >= 0.4 && weight >= 3.5)) return 1;
+    if (coverage >= 0.34 || (coverage >= 0.2 && weight >= 2.5)) return 0.5;
     return 0;
+  }
+
+  // "Controls what enters and leaves the cell: A / Storage: B": the answer is a
+  // letter from a diagram, which words cannot be matched against.
+  function isLabelKey(model) {
+    const lines = String(model || "").split(/\n+/).map((line) => line.trim()).filter(Boolean);
+    const labels = lines.filter((line) => /[:=]\s*\(?[A-Z]\)?\.?$/.test(line) || /^[A-Z]\.?$/.test(line));
+    return lines.length > 0 && labels.length >= Math.ceil(lines.length / 2);
   }
 
   /**
@@ -379,25 +389,27 @@
   function markAnswer(input) {
     const marks = Math.max(0, Number(input.marks) || 0);
     const scheme = Number(input.schemePoints) || schemeCount(input.model);
-    const pointTexts = splitPoints(input.model, { lists: scheme > 1 });
+    const pointTexts = isLabelKey(input.model) ? [] : splitPoints(input.model, { lists: scheme > 1 });
     const questionTokens = contentTokens(input.question || "");
     const prepared = prepareAnswer(input.answer);
     const answered = prepared.tokens.some((t) => t.content);
 
     const points = pointTexts.map((text) => {
       const options = analysePoint(text, questionTokens);
-      let best = { coverage: 0, matched: new Set(), option: options[0] };
+      let best = { coverage: 0, weight: 0, matched: new Set(), option: options[0] };
+      const matchedAny = new Set();
       if (answered) {
         options.forEach((option) => {
           const result = scoreOption(option, prepared);
+          result.matched.forEach((canon) => matchedAny.add(canon));
           if (result.coverage > best.coverage) best = { ...result, option };
         });
       }
       return {
         text,
         coverage: Math.round(best.coverage * 100) / 100,
-        credit: creditFor(best.coverage),
-        parts: pointParts(text, best.option, best.matched),
+        credit: creditFor(best.coverage, best.weight),
+        parts: pointParts(text, options, matchedAny),
       };
     });
 

@@ -236,9 +236,64 @@ test("scores weight each question by the time it takes", () => {
   assert.equal(quickOnly.percent, 10, "30s of 300s answered right");
   // Arrays from the vm context have their own prototype, so compare a copy.
   assert.deepEqual([...quickOnly.byOutcome.o1.correctCards], ["o1-k-1"]);
-  const unmarked = TB.scoreTest({ items }, { a: { choice: 1 } });
+  const blank = TB.scoreTest({ items }, { a: { choice: 1 } });
+  assert.equal(blank.pendingSelfMarks, 0, "a blank answer scores zero without asking to be marked");
+  assert.equal(blank.percent, 0);
+  // No model answer to mark against: the student marks it.
+  const unmarked = TB.scoreTest({ items }, { a: { choice: 1 }, b: { text: "Some answer" } });
   assert.equal(unmarked.pendingSelfMarks, 1);
-  assert.equal(unmarked.percent, 0);
+});
+
+test("written answers are marked against the model answer's points", () => {
+  const item = {
+    id: "w", bucket: "exam", kind: "written", marks: 8, seconds: 240, chapterId: "c1",
+    prompt: "Explain the effect of a change in pH on enzyme action.",
+    model: "The enzyme's activity is reduced (it stops working). The change in pH alters the charges on the enzyme, which changes the shape of the active site, so the substrate no longer fits and the enzyme is denatured.",
+  };
+  const good = TB.markItem(item, { text: "The enzyme stops working because it is denatured. The pH changes the shape of the active site so the substrate can't fit." });
+  assert.equal(good.earned, 8);
+  assert.equal(good.needsSelfMark, false);
+  const partial = TB.markItem(item, { text: "The enzyme gets denatured and stops working." });
+  assert.ok(partial.earned > 0 && partial.earned < 8, `partial answer earned ${partial.earned}`);
+  const wrong = TB.markItem(item, { text: "It makes the reaction go faster at higher temperatures." });
+  assert.ok(wrong.earned <= 1, `wrong answer earned ${wrong.earned}`);
+  // The student can still overrule the marker.
+  const overruled = TB.markItem(item, { text: "It makes the reaction go faster.", selfMarks: 3 });
+  assert.equal(overruled.earned, 3);
+  assert.equal(overruled.overridden, true);
+});
+
+test("the marker forgives spelling and word forms but not a different answer", () => {
+  const item = {
+    id: "r", bucket: "flashcard", kind: "recall", marks: 2, seconds: 90, chapterId: "c1",
+    prompt: "What is osmosis?", term: "Osmosis",
+    definition: "The movement of water molecules from a region of high water concentration to a region of low water concentration across a selectively permeable membrane.",
+  };
+  assert.equal(TB.markItem(item, { text: "movment of watter from a high concentraton to a low concentraton across a selectivly permiable membrane" }).earned, 2);
+  assert.equal(TB.markItem(item, { text: "movement of glucose into the blood" }).earned, 0);
+  const short = { id: "s", kind: "written", marks: 3, prompt: "Where does fertilisation occur?", model: "Fallopian tube (oviduct)." };
+  assert.equal(TB.markItem(short, { text: "in the oviduct" }).earned, 3, "a bracketed alternative counts");
+  assert.equal(TB.markItem(short, { text: "the uterus" }).earned, 0);
+  const scheme = { id: "h", kind: "written", marks: 4, prompt: "List two advantages of convenience foods.", model: "2 points @ 2 marks each Save preparation and cooking time, Require little cooking skills, Little or no waste, Wide variety available, Easier to store" };
+  assert.equal(TB.markItem(scheme, { text: "They save cooking time. They are easy to store." }).earned, 4);
+});
+
+test("fill-the-gap questions offer a word bank of answers and same-kind decoys", () => {
+  SUBJECTS.forEach((subject) => {
+    const pool = poolFor(subject);
+    const test = TB.assembleTest(pool, { minutes: 30, mix: "flashcards", random: seeded(5) });
+    const cloze = test.items.filter((item) => item.kind === "cloze");
+    assert.ok(cloze.length > 0, `${subject} should have gap-fills`);
+    cloze.forEach((item) => {
+      assert.ok(item.bank, `${subject}: ${item.id} should have a word bank`);
+      item.answers.forEach((answer) => assert.ok(item.bank.includes(answer), `${answer} should be in the bank`));
+      assert.ok(item.bank.length >= item.answers.length + 2, "at least two decoys");
+      assert.equal(new Set(item.bank.map((w) => w.toLowerCase())).size, item.bank.length, "no repeated words");
+      item.bank.filter((w) => !item.answers.includes(w)).forEach((decoy) => {
+        item.answers.forEach((answer) => assert.ok(!TB.answerMatches(decoy, answer), `${decoy} is too close to ${answer}`));
+      });
+    });
+  });
 });
 
 test("a cloze blank can be overridden when the student's word was right", () => {

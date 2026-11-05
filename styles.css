@@ -5928,6 +5928,7 @@ body.test-open .timer-widget { display: none; }
   flex-wrap: wrap;
   gap: 0.5rem;
   max-width: 62ch;
+  margin-top: 0.6rem;
   padding: 0.85rem;
   background: var(--panel-2);
   border-radius: var(--r-md);

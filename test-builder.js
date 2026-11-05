@@ -259,7 +259,9 @@
         const previous = tokens[index - 1] || "";
         const sentenceStart = index === 0 || /[.:;!?]$/.test(previous);
         const year = /^\d{4}$/.test(core);
-        const proper = !year && /^[A-Z]/.test(core) && !sentenceStart;
+        // A capital at the start of a sentence could be a name or not; skip it.
+        if (!year && sentenceStart && /^[A-Z]/.test(core)) return;
+        const proper = !year && /^[A-Z]/.test(core);
         const word = proper || year ? core : core.toLowerCase();
         const key = `${card.chapterId}|${stem(word)}|${word.length}`;
         if (seen.has(key)) return;
@@ -267,7 +269,29 @@
         vocab.push({ word, stem: stem(word), kind: year ? "year" : proper ? "proper" : "word", chapterId: card.chapterId, outcomeId: card.outcomeId });
       });
     });
-    return vocab;
+    // Indexed by kind and chapter: a gap ranks its own chapter's words, plus a
+    // sample of the rest, rather than the whole subject.
+    const index = { all: vocab, byKind: new Map(), byChapterKind: new Map() };
+    vocab.forEach((entry) => {
+      const kindKey = entry.kind;
+      const chapterKey = `${entry.chapterId}|${entry.kind}`;
+      if (!index.byKind.has(kindKey)) index.byKind.set(kindKey, []);
+      if (!index.byChapterKind.has(chapterKey)) index.byChapterKind.set(chapterKey, []);
+      index.byKind.get(kindKey).push(entry);
+      index.byChapterKind.get(chapterKey).push(entry);
+    });
+    return index;
+  }
+
+  const DECOY_SAMPLE = 160;
+
+  function decoyCandidates(vocab, card, kind, random) {
+    const own = vocab.byChapterKind?.get(`${card.chapterId}|${kind}`) || [];
+    const all = vocab.byKind?.get(kind) || [];
+    if (all.length <= own.length + DECOY_SAMPLE) return all;
+    const sample = [];
+    for (let i = 0; i < DECOY_SAMPLE; i++) sample.push(all[Math.floor(random() * all.length)]);
+    return own.concat(sample);
   }
 
   function wordKind(word) {
@@ -292,7 +316,7 @@
     const lowerAnswer = answer.toLowerCase();
     const picked = [];
     if (kind === "year") {
-      const pool = shuffle(vocab.filter((v) => v.kind === "year" && !exclude.has(v.stem)), random)
+      const pool = shuffle(decoyCandidates(vocab, card, "year", random).filter((v) => !exclude.has(v.stem)), random)
         .sort((a, b) => Math.abs(Number(a.word) - Number(answer)) - Math.abs(Number(b.word) - Number(answer)));
       for (const v of pool.slice(0, 12)) {
         if (picked.length >= count) break;
@@ -309,8 +333,8 @@
       return picked;
     }
     const plural = /[^s]s$/.test(lowerAnswer);
-    const ranked = vocab
-      .filter((v) => v.kind === kind && !exclude.has(v.stem) && !answerMatches(v.word, answer))
+    const ranked = decoyCandidates(vocab, card, kind, random)
+      .filter((v) => !exclude.has(v.stem) && !answerMatches(v.word, answer))
       .map((v) => {
         const lower = v.word.toLowerCase();
         let score = v.outcomeId === card.outcomeId ? 3 : v.chapterId === card.chapterId ? 2 : 0;
@@ -471,7 +495,7 @@
     cards.forEach((card) => {
       card.cloze = buildCloze(card.definition, card.subject, clozeContext);
     });
-    const clozeVocab = cards.some((card) => card.cloze) ? buildClozeVocab(corpusCards, clozeContext) : [];
+    const clozeVocab = cards.some((card) => card.cloze) ? buildClozeVocab(corpusCards, clozeContext) : null;
 
     const examSeconds = examGroups.reduce(
       (sum, g) => sum + g.parts.filter((p) => p.answerable).reduce((s, p) => s + p.seconds, 0), 0
@@ -577,7 +601,7 @@
     }
     if (format === "cloze") {
       if (!card.cloze) return null;
-      const bank = buildWordBank(card, pool.clozeVocab || [], random);
+      const bank = pool.clozeVocab ? buildWordBank(card, pool.clozeVocab, random) : null;
       return { ...base, marks: card.cloze.answers.length, prompt: card.subject || card.term, segments: card.cloze.segments, answers: card.cloze.answers, bank };
     }
     if (format === "recall") {
