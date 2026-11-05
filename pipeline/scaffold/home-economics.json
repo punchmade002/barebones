@@ -18,12 +18,12 @@
   ],
   "chapters": [
     {
-      "id": "hom-carbohydrates",
-      "title": "Carbohydrates and Dietary Fibre"
-    },
-    {
       "id": "hom-proteins",
       "title": "Proteins and Amino Acids"
+    },
+    {
+      "id": "hom-carbohydrates",
+      "title": "Carbohydrates and Dietary Fibre"
     },
     {
       "id": "hom-lipids",
@@ -42,6 +42,14 @@
       "title": "Energy Balance and Nutritional Needs"
     },
     {
+      "id": "hom-meal-planning",
+      "title": "Meal Planning and Special Diets"
+    },
+    {
+      "id": "hom-food-industry",
+      "title": "The Irish Food Industry"
+    },
+    {
       "id": "hom-meat-preparation",
       "title": "Meat: Selection, Properties, and Cooking"
     },
@@ -58,8 +66,16 @@
       "title": "Cereals and Grains"
     },
     {
+      "id": "hom-fruit-vegetables",
+      "title": "Fruit and Vegetables"
+    },
+    {
       "id": "hom-cooking-methods",
       "title": "Cooking Methods and Heat Transfer"
+    },
+    {
+      "id": "hom-food-additives",
+      "title": "Food Additives and Processing"
     },
     {
       "id": "hom-food-preservation",
@@ -70,32 +86,16 @@
       "title": "Food Safety and Microorganisms"
     },
     {
-      "id": "hom-meal-planning",
-      "title": "Meal Planning and Special Diets"
-    },
-    {
-      "id": "hom-food-additives",
-      "title": "Food Additives and Processing"
-    },
-    {
-      "id": "hom-consumer-rights",
-      "title": "Consumer Rights and Protection"
+      "id": "hom-resource-management",
+      "title": "Family Resource Management"
     },
     {
       "id": "hom-personal-finance",
       "title": "Personal Finance and Budgeting"
     },
     {
-      "id": "hom-housing",
-      "title": "Housing and Accommodation"
-    },
-    {
-      "id": "hom-textiles-fibres",
-      "title": "Textiles and Fabric Properties"
-    },
-    {
-      "id": "hom-clothing-selection",
-      "title": "Clothing Selection and Care"
+      "id": "hom-consumer-rights",
+      "title": "Consumer Rights and Protection"
     },
     {
       "id": "hom-environmental-issues",
@@ -124,6 +124,26 @@
     {
       "id": "hom-family-law",
       "title": "Family Law"
+    },
+    {
+      "id": "hom-housing",
+      "title": "Housing and Accommodation"
+    },
+    {
+      "id": "hom-home-interior",
+      "title": "Designing the House Interior"
+    },
+    {
+      "id": "hom-home-services",
+      "title": "The Energy-Efficient Home, Systems and Services"
+    },
+    {
+      "id": "hom-textiles-fibres",
+      "title": "Textiles and Fabric Properties"
+    },
+    {
+      "id": "hom-clothing-selection",
+      "title": "Clothing Selection and Care"
     },
     {
       "id": "hom-social-change",
