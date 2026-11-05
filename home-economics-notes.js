@@ -2,7 +2,684 @@
 // Attaches authored subsection notes, key terms and practice questions to COURSE_DATA.
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
-  var NOTES = {};
+  var NOTES = {
+ "hom-education-s1": {
+  "keyTerms": [
+   {
+    "definition": "The lifelong process by which a person learns the norms, values and behaviour of their society.",
+    "term": "Socialisation"
+   },
+   {
+    "definition": "Learning that is planned and delivered through the timetable, curriculum and classroom rules.",
+    "term": "Formal socialisation"
+   },
+   {
+    "definition": "The unplanned learning that pupils gain from school routines, peer groups and the school's ethos.",
+    "term": "Hidden curriculum"
+   },
+   {
+    "definition": "The values, beliefs and expectations that shape the character and behaviour of a school community.",
+    "term": "School ethos"
+   },
+   {
+    "definition": "Skills that use large muscle groups, such as running, jumping and balance.",
+    "term": "Gross motor skills"
+   },
+   {
+    "definition": "Skills that use small, precise movements of the hands and fingers, such as writing or cutting.",
+    "term": "Fine motor skills"
+   },
+   {
+    "definition": "The ability to understand and respond to the feelings and experiences of another person.",
+    "term": "Empathy"
+   },
+   {
+    "definition": "The ability to recover from setbacks and continue working towards a goal.",
+    "term": "Resilience"
+   },
+   {
+    "definition": "Education that prepares a person for a particular trade, occupation or area of employment.",
+    "term": "Vocational education"
+   },
+   {
+    "definition": "Peer groups and playground behaviour, and the school's routines and ethos.",
+    "term": "Two sources of unplanned learning in school"
+   },
+   {
+    "definition": "Physical, emotional, moral and intellectual development.",
+    "term": "Four aspects of a child's development that education supports"
+   },
+   {
+    "definition": "Punctuality, reliability and responsibility, with self-discipline and teamwork also developed in group tasks.",
+    "term": "Three work-related attributes taught through school routines"
+   },
+   {
+    "definition": "Literacy and numeracy.",
+    "term": "Two basic skills employers expect in almost every job"
+   },
+   {
+    "definition": "Practical subjects such as Home Economics, Art, Construction Studies and Science, which build manual dexterity.",
+    "term": "Subject area that develops fine motor skills"
+   },
+   {
+    "definition": "Social, Personal and Health Education (SPHE).",
+    "term": "Programme that teaches emotional literacy and personal safety"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Socialisation is the process by which a person learns the norms, values, language and behaviour of their society.",
+    "h": "Education as socialisation",
+    "points": [
+     "Formal socialisation happens through the timetable, the curriculum and classroom rules, which teach punctuality, respect for authority and following instructions.",
+     "Informal socialisation happens through the hidden curriculum: peer groups, playground rules, school routines and the school's ethos.",
+     "School is usually a child's first regular experience of a group outside the family, where they learn to share, take turns and cooperate.",
+     "Education transmits the culture of a society, including its language, customs, history and civic values.",
+     "Through school, pupils learn to accept responsibility, follow rules and respect the rights of others."
+    ]
+   },
+   {
+    "h": "Education for physical development",
+    "points": [
+     "Physical education, games and dance develop gross motor skills such as running, jumping, balance and co-ordination.",
+     "Practical subjects such as Home Economics, Art, Construction Studies and Science develop fine motor skills and manual dexterity.",
+     "Regular physical activity strengthens muscles and bones and builds cardiovascular fitness.",
+     "Lessons on nutrition, hygiene and safety give pupils the knowledge to look after their physical health.",
+     "Physical education can establish exercise habits that a person keeps into adult life."
+    ]
+   },
+   {
+    "h": "Education for emotional development",
+    "points": [
+     "Schooling helps children gain emotional independence from their parents as they meet adults and peers outside the home.",
+     "Group work and class discussion develop empathy, the ability to understand and respond to the feelings of others.",
+     "Coping with success and failure in tests and tasks builds resilience and self-esteem.",
+     "Education helps a young person learn to express emotions appropriately and to form healthy friendships.",
+     "The Social, Personal and Health Education (SPHE) programme teaches emotional literacy, relationships and personal safety."
+    ]
+   },
+   {
+    "h": "Education for moral development",
+    "points": [
+     "The ethos of a school sets out its values and the behaviour it expects from pupils.",
+     "Religious education and SPHE address moral questions such as honesty, fairness and respect for others.",
+     "School rules, sanctions and rewards teach pupils to distinguish right from wrong and to accept accountability for their actions.",
+     "Moral development is also shaped by teachers as role models and by the example of the peer group."
+    ]
+   },
+   {
+    "h": "Education for intellectual development",
+    "points": [
+     "A broad curriculum develops literacy, numeracy, scientific reasoning, language and artistic skills.",
+     "Subjects that require analysis, argument and problem solving develop critical thinking.",
+     "Concentration and memory are trained through homework, revision and classroom tasks.",
+     "Examinations and continuous assessment measure learning and motivate students to set and reach goals.",
+     "Competition in class, sport and extra-curricular activities challenges students to extend their abilities."
+    ]
+   },
+   {
+    "h": "Education as preparation for work",
+    "points": [
+     "Literacy and numeracy are basic skills that employers expect in almost every job.",
+     "Certificates such as the Junior Certificate and Leaving Certificate, and Post Leaving Certificate and third-level qualifications, show employers what a person has learned.",
+     "Punctuality, reliability, teamwork, responsibility and self-discipline are taught through daily school routines and group tasks.",
+     "Career guidance and work experience help students connect their subjects with the world of work.",
+     "Vocational subjects such as Business Studies teach practical skills used directly in employment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, one mark for each developed point, to a maximum of six: basic literacy and numeracy skills that employers require; recognised qualifications that show employers what a student has achieved; work-related attributes such as punctuality, reliability, teamwork and self-discipline developed through school routines; career guidance and work experience that link subjects to employment; vocational subjects that teach practical skills used in specific jobs.",
+    "prompt": "Outline three ways in which a school prepares a student for working life.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Social development: formal socialisation through the timetable, curriculum and classroom rules, which teach respect for authority, punctuality and following instructions; informal socialisation through the hidden curriculum, peer groups and school ethos; first experience of a group outside the family, where children learn to share, take turns and cooperate; transmission of the culture, language and civic values of society; learning responsibility and respect for the rights of others. Preparation for work: literacy and numeracy as basic employment skills; qualifications such as the Junior Certificate, Leaving Certificate and Post Leaving Certificate courses that certify learning to employers; work-related attributes such as teamwork, reliability, responsibility and self-discipline developed through daily routines and group tasks; career guidance and work experience that connect school subjects with working life; vocational subjects that teach practical skills for particular jobs.",
+    "prompt": "Discuss how education contributes to a child's social development and to their preparation for work.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-education-s2": {
+  "keyTerms": [
+   {
+    "definition": "A student's capacity to learn, reason and understand, which influences the pace and level of their learning.",
+    "term": "Intellectual ability"
+   },
+   {
+    "definition": "A student's commitment to completing homework, revision and class tasks conscientiously.",
+    "term": "Work ethic"
+   },
+   {
+    "definition": "The value parents place on education and the interest and support they show in their child's schoolwork.",
+    "term": "Parental attitude"
+   },
+   {
+    "definition": "The physical and emotional conditions at home, including study space, resources and family stability, that support or hinder learning.",
+    "term": "Home environment"
+   },
+   {
+    "definition": "The influence of a student's friends and classmates on their behaviour, effort and choices.",
+    "term": "Peer pressure"
+   },
+   {
+    "definition": "Absence from school without a valid reason.",
+    "term": "Truancy"
+   },
+   {
+    "definition": "Repeated, deliberate behaviour that hurts or intimidates another person, carried out by one student or group against another.",
+    "term": "Bullying"
+   },
+   {
+    "definition": "The number of pupils for each teacher in a school or class, which affects how much individual attention each pupil receives.",
+    "term": "Pupil-teacher ratio"
+   },
+   {
+    "definition": "The social and economic character of the area a school serves, which can affect resources and student outcomes.",
+    "term": "School locality"
+   },
+   {
+    "definition": "Parental attitude, parents' own education, family size and family finances.",
+    "term": "Four family influences on a child's achievement"
+   },
+   {
+    "definition": "A quiet place to study, books, and internet access.",
+    "term": "Three home conditions that support homework and revision"
+   },
+   {
+    "definition": "Reduced concentration and lower attendance.",
+    "term": "Two effects of poor health on a student"
+   },
+   {
+    "definition": "Positive peers encourage study; negative peer pressure can lead to truancy and disengagement.",
+    "term": "Two ways a peer group can affect effort"
+   },
+   {
+    "definition": "It damages self-confidence and can cause the student to miss school or disengage from learning.",
+    "term": "Effect on a student's school life of being bullied"
+   },
+   {
+    "definition": "Class size and access to technology.",
+    "term": "Two school-level factors that affect learning"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Achievement is the result of a student's ability combined with the effort, attitude and health they bring to learning.",
+    "h": "Individual ability and attitude",
+    "points": [
+     "Intellectual ability affects how quickly a student learns and the level at which they can perform.",
+     "Work ethic, meaning commitment to homework, revision and class participation, has a direct effect on results.",
+     "A student who values learning and sets personal goals tends to achieve more than one who sees school as pointless.",
+     "Poor health, including illness, lack of sleep and poor nutrition, reduces concentration and attendance.",
+     "Choosing subjects that match a student's interests and abilities improves engagement and results.",
+     "Part-time work during term time reduces study time and can leave a student tired in class."
+    ]
+   },
+   {
+    "h": "Family influence and home environment",
+    "points": [
+     "Parental attitude: parents who value education and take an interest in schoolwork tend to raise their child's achievement.",
+     "Parents' own level of education shapes the expectations they hold for their children and how much help they can give with schoolwork.",
+     "Family size: in larger families, parental time and money for each child are often more limited.",
+     "Family finances affect access to books, a computer, extra tuition and school trips and activities.",
+     "A quiet place to study, books and internet access at home support homework and revision.",
+     "Family disruption, such as separation, bereavement or addiction in the home, causes stress that can lower concentration and attendance."
+    ]
+   },
+   {
+    "h": "Peers and the school environment",
+    "points": [
+     "Peer groups can encourage or discourage effort: positive peers support study, while negative peer pressure can lead to truancy and disengagement.",
+     "Bullying damages self-confidence and can cause a student to miss school or stop engaging with learning.",
+     "Poor school attendance is linked with lower attainment and with early school leaving.",
+     "The locality of a school matters: schools in socially disadvantaged areas often face higher rates of early school leaving.",
+     "School resources, including teacher quality, class size and access to technology, affect what students can learn.",
+     "Teacher expectations shape pupils' attainment; low expectations of a student can limit the goals they set themselves."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two, three marks each: a quiet place to study, books and internet access support homework and revision; family finances determine access to resources and extra tuition; parental attitude and interest in schoolwork encourage effort; family disruption such as separation or bereavement causes stress that lowers concentration and attendance.",
+    "prompt": "Outline two ways in which a student's home environment can affect their results at school.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Individual: intellectual ability affecting pace and level of learning; work ethic and commitment to homework and revision; attitude and goal setting; health affecting concentration and attendance; subject choice matched to interests and abilities; part-time work reducing study time. Family: parental attitude and interest; parents' own education and expectations; family size limiting time and money per child; finances affecting books, computers and tuition; home study facilities; family disruption causing stress. School: peer groups encouraging or discouraging effort; negative peer pressure and truancy; bullying damaging confidence and attendance; school locality in a socially disadvantaged area and higher early school leaving; class size and pupil-teacher ratio affecting individual attention; quality of resources, technology and teacher expectations.",
+    "prompt": "Explain how individual, family and school factors each affect how well a student performs at school.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-education-s3": {
+  "keyTerms": [
+   {
+    "definition": "Early childhood education provided before a child starts primary school, including Montessori, playschool and Naíonra provision.",
+    "term": "Pre-school education"
+   },
+   {
+    "definition": "A State scheme providing a free pre-school year to children before they enter primary school.",
+    "term": "Early Childhood Care and Education (ECCE) scheme"
+   },
+   {
+    "definition": "A pre-school where young children learn through the medium of Irish.",
+    "term": "Naíonra"
+   },
+   {
+    "definition": "The first three years of second-level education, which use classroom-based assessment and end with a state examination.",
+    "term": "Junior Cycle"
+   },
+   {
+    "definition": "A two-year modular second-level programme with practical assessment that can lead to Post Leaving Certificate courses.",
+    "term": "Leaving Certificate Applied (LCA)"
+   },
+   {
+    "definition": "A full-time further education course, taken after the Leaving Certificate, that provides training with work experience and can give access to third-level courses.",
+    "term": "Post Leaving Certificate (PLC) course"
+   },
+   {
+    "definition": "The body through which most applications for full-time undergraduate courses are made in Ireland.",
+    "term": "Central Applications Office (CAO)"
+   },
+   {
+    "definition": "A public body that runs second-level, further education and adult education services in its area.",
+    "term": "Education and Training Board (ETB)"
+   },
+   {
+    "definition": "A written plan that sets out the goals and supports for a student with special educational needs.",
+    "term": "Individual Education Plan (IEP)"
+   },
+   {
+    "definition": "A staff member who supports students with care needs or who need help to take part in class.",
+    "term": "Special Needs Assistant (SNA)"
+   },
+   {
+    "definition": "Children may enrol from age four and must begin by age six.",
+    "term": "Age range for enrolment in primary school"
+   },
+   {
+    "definition": "Three years, with classroom-based assessments and a state examination at the end of third year.",
+    "term": "Length of the first three-year cycle of second-level education"
+   },
+   {
+    "definition": "Two years, ending with state examinations at the end of sixth year.",
+    "term": "Length of the Leaving Certificate Programme"
+   },
+   {
+    "definition": "Enterprise education, preparation for work and work experience.",
+    "term": "Three link modules of the LCVP"
+   },
+   {
+    "definition": "The Education and Training Boards (ETBs).",
+    "term": "Body that replaced the Vocational Education Committees in 2013"
+   },
+   {
+    "definition": "The National Council for Special Education (NCSE).",
+    "term": "Body that co-ordinates special educational provision"
+   },
+   {
+    "definition": "A reader, a scribe, or extra time to complete the paper.",
+    "term": "Three reasonable accommodations in state examinations"
+   },
+   {
+    "definition": "The State Examinations Commission.",
+    "term": "Body that marks the state examination at the end of third year"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Pre-school (early childhood) education is provided by private, community and voluntary services before a child starts primary school.",
+    "h": "Pre-school education",
+    "points": [
+     "The Early Childhood Care and Education (ECCE) scheme provides a free pre-school year to children before they enter primary school, delivered through approved providers.",
+     "Early Start is a one-year preventative pre-school programme for three- and four-year-olds, run in selected primary schools in disadvantaged areas and staffed by trained teachers, special needs assistants and parents.",
+     "Naíonraí are pre-schools where children learn through the Irish language.",
+     "Montessori schools, which are generally privately run, use trained teachers and encourage children to learn through play at their own pace.",
+     "Playschools give children of a similar age the opportunity to play together and learn to share, take turns and follow group rules.",
+     "Pre-school builds language, social skills and the routines a child needs for the transition to primary school."
+    ]
+   },
+   {
+    "h": "Primary education",
+    "points": [
+     "Children may enrol in primary school from age four and must begin by age six.",
+     "Primary education is an eight-year cycle, from junior infants to sixth class, and most pupils finish between the ages of 12 and 14.",
+     "Primary schools may be state or private, and may be religious, multidenominational or non-denominational.",
+     "Specialist types include Educate Together schools, Gaelscoileanna (Irish-medium schools), Montessori and Steiner schools, and single-sex schools.",
+     "Parents may educate a child at home instead of enrolling them in a school."
+    ]
+   },
+   {
+    "h": "Second-level education",
+    "points": [
+     "Junior Cycle is a three-year programme that uses classroom-based assessments and ends with a state examination at the end of third year, marked by the State Examinations Commission.",
+     "Transition Year is an optional year between Junior Cycle and Leaving Certificate with no state examination, focused on personal development, work experience and self-directed learning.",
+     "The Leaving Certificate Programme is a two-year programme that ends with state examinations at the end of sixth year.",
+     "Leaving Certificate subjects are offered at higher, ordinary and foundation levels, and grades are converted to points for third-level entry.",
+     "Leaving Certificate Applied (LCA) is a two-year modular programme with practical, written and oral assessment that can lead to Post Leaving Certificate courses.",
+     "The Leaving Certificate Vocational Programme (LCVP) includes three link modules: enterprise education, preparation for work and work experience."
+    ]
+   },
+   {
+    "h": "Work experience at second level",
+    "points": [
+     "Work experience is a compulsory link module in the LCVP and is a standard element of Transition Year.",
+     "A placement lets students test their career preferences and see what a job actually involves.",
+     "Students learn workplace co-operation and how working life differs from school.",
+     "Work experience develops communication, teamwork, planning, organisation, punctuality and problem solving.",
+     "Students learn the expectations of a workplace, including timekeeping, appearance and health and safety.",
+     "Completing a placement builds confidence and responsibility, and gives the student a work record for a curriculum vitae."
+    ]
+   },
+   {
+    "h": "Third-level education",
+    "points": [
+     "Third-level institutions include universities, technological universities and institutes of technology, which offer full-time degree and diploma courses.",
+     "Most full-time undergraduate places are allocated through the Central Applications Office (CAO) using Leaving Certificate points.",
+     "Post Leaving Certificate (PLC) courses are full-time further education courses, usually delivered by Education and Training Boards in second-level schools and colleges, that provide training with work experience and can give access to third-level courses.",
+     "The Student Universal Support Ireland (SUSI) scheme provides means-tested grants towards the costs of approved third-level courses.",
+     "The Higher Education Access Route (HEAR) and the Disability Access Route to Education (DARE) are reduced-points entry routes for students from disadvantaged backgrounds or with disabilities."
+    ]
+   },
+   {
+    "b": "Adult and second-chance education lets people return to learning at any age, whatever their earlier educational level.",
+    "h": "Adult and second-chance education",
+    "points": [
+     "Adult education courses are available full-time, part-time, modular, day, evening and weekend, and by distance learning.",
+     "Second-chance education gives people who left school early a route to qualifications, such as Youthreach.",
+     "Education and Training Boards (ETBs) run adult, community and further education courses; they replaced the Vocational Education Committees in 2013.",
+     "SOLAS, the Further Education and Training Authority, funds and co-ordinates further education and training programmes across the country.",
+     "Adult literacy schemes provide basic reading, writing and numeracy courses for adults.",
+     "Adult education builds skills for work, supports career change, and helps adults keep pace with new workplace technology."
+    ]
+   },
+   {
+    "b": "Students with special educational needs are supported through a combination of planning, specialist staff and school settings.",
+    "h": "Special educational needs (Higher Level only)",
+    "points": [
+     "An Individual Education Plan (IEP) sets out the goals, teaching approach and supports for a student with special needs, drawn up with the school and the parents.",
+     "The National Council for Special Education (NCSE) plans and co-ordinates special educational provision, and Special Educational Needs Organisers allocate supports to schools.",
+     "Special Needs Assistants (SNAs) provide care and support in class for students who have care needs or who need help to take part in lessons.",
+     "Learning support and resource teachers give withdrawal teaching, individually or in small groups, to students with learning difficulties.",
+     "Special classes in mainstream schools, such as autism classes, have a reduced number of pupils per teacher.",
+     "Special schools provide for students with significant general or specific learning difficulties, physical disabilities, or sensory impairments.",
+     "Visiting teachers advise and support students who are blind or vision impaired, or deaf or hard of hearing, and the teachers who teach them.",
+     "Assistive technology, such as text-to-speech software, helps students with reading or writing difficulties.",
+     "Educational psychologists assess students' needs and recommend supports.",
+     "The Health Service Executive (HSE) provides speech and language therapy and occupational therapy to children with special needs.",
+     "The State Examinations Commission provides reasonable accommodations in state examinations, such as a reader, a scribe or extra time."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, two marks each: the Early Childhood Care and Education scheme, a free pre-school year before primary school; Early Start, a one-year preventative programme for three- and four-year-olds in selected disadvantaged areas; Naíonraí, Irish-medium pre-schools; Montessori schools, which use trained teachers and learning through play at the child's own pace; playschools, where children of a similar age learn to play, share and take turns.",
+    "prompt": "Outline three types of pre-school provision available to young children in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Junior Cycle: three-year programme with classroom-based assessments and a state examination at the end of third year, marked by the State Examinations Commission. Transition Year: optional year between Junior Cycle and Leaving Certificate, no state examination, personal development, work experience and self-directed learning. Leaving Certificate Programme: two years, state examinations at the end of sixth year, subjects at higher, ordinary and foundation levels, grades converted to points for third-level entry. Alternative senior cycle routes: Leaving Certificate Applied, a modular programme with practical assessment leading to Post Leaving Certificate courses; LCVP, which adds three link modules (enterprise education, preparation for work and work experience) and assesses a portfolio and a written exam. Each programme should be described for its curriculum and its assessment.",
+    "prompt": "Discuss the provision of second-level education in Ireland, referring to Junior Cycle, Transition Year and the Leaving Certificate programmes.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-education-s4": {
+  "keyTerms": [
+   {
+    "definition": "The principle that every student has a fair chance to access, take part in and benefit from education, regardless of background.",
+    "term": "Equality of opportunity"
+   },
+   {
+    "definition": "Providing extra support in proportion to need so that students who start at a disadvantage can reach a comparable level of achievement.",
+    "term": "Equity"
+   },
+   {
+    "definition": "A family's social and economic position, usually based on income, occupation and education level.",
+    "term": "Socio-economic status"
+   },
+   {
+    "definition": "A young person who leaves school before completing a senior cycle programme such as the Leaving Certificate.",
+    "term": "Early school leaver"
+   },
+   {
+    "definition": "The situation where a student's background, location or circumstances limit their access to education and their achievement in it.",
+    "term": "Educational disadvantage"
+   },
+   {
+    "definition": "Grouping students by ability for particular subjects or for the whole school year, which can affect the grades and courses open to them.",
+    "term": "Streaming"
+   },
+   {
+    "definition": "Delivering Equality of Opportunity in Schools, the Department of Education programme that gives extra supports to schools serving disadvantaged communities.",
+    "term": "DEIS"
+   },
+   {
+    "definition": "Patterns in which students choose subjects differently by gender, often reflecting stereotypes rather than ability.",
+    "term": "Gendered subject choice"
+   },
+   {
+    "definition": "Early school leaving and literacy at second level.",
+    "term": "Two areas in which boys are more likely than girls to struggle at school"
+   },
+   {
+    "definition": "Books, equipment, uniforms and school activities.",
+    "term": "Three costs that can limit a low-income family's child"
+   },
+   {
+    "definition": "Low-income families, Travellers, Roma, students from migrant families, students with disabilities, homeless young people and young people in care.",
+    "term": "Groups counted as disadvantaged in education"
+   },
+   {
+    "definition": "Unemployment and low pay, with poor health and social exclusion also linked.",
+    "term": "Two effects of early school leaving on later life"
+   },
+   {
+    "definition": "Poor attendance and low literacy or numeracy, with bullying and family problems also raising the risk.",
+    "term": "Two factors that increase the risk of leaving school early"
+   },
+   {
+    "definition": "DEIS, which provides extra staffing and supports.",
+    "term": "Programme that targets schools serving disadvantaged communities"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Equality of opportunity means every student has a fair chance to access, take part in and benefit from education, whatever their background.",
+    "h": "Meaning of equality of opportunity (Higher Level only)",
+    "points": [
+     "Equal access means every student can enrol and attend; equal outcomes means students finish with similar results, which does not follow automatically from equal access.",
+     "Students begin school from different starting points, so equal treatment alone may not give equal opportunity.",
+     "Equity means giving extra support in proportion to need, so that students at a disadvantage can reach the same level of achievement.",
+     "Barriers to equality of opportunity include gender, socio-economic status, disability, family background and location."
+    ]
+   },
+   {
+    "h": "Gender and equality of opportunity (Higher Level only)",
+    "points": [
+     "Boys are more likely than girls to leave school early and to have lower literacy levels at second level.",
+     "Subject choice can be gendered: fewer girls than boys take subjects such as Physics, and fewer boys take subjects such as Home Economics.",
+     "Teacher and parent expectations can differ by gender, which can influence the subjects and courses students consider.",
+     "Schools can widen opportunity by encouraging students to choose subjects on the basis of ability and interest rather than gender stereotypes."
+    ]
+   },
+   {
+    "h": "Socio-economic status and equality of opportunity (Higher Level only)",
+    "points": [
+     "Families with low incomes may struggle to pay for books, equipment, uniforms and school activities.",
+     "Allowances, book rental schemes and grants reduce these costs, but they do not remove the wider gap in resources between families.",
+     "Parents with higher levels of education are more likely to have high expectations for their children and to be able to help with schoolwork.",
+     "Students from lower socio-economic groups are more likely to leave school early and less likely to progress to third level.",
+     "Students in lower-status groups may be placed in lower streams or sets, which can limit the grades and courses open to them.",
+     "Teacher expectations and the locality of a school can reinforce the effects of socio-economic status."
+    ]
+   },
+   {
+    "h": "Disadvantaged students (Higher Level only)",
+    "points": [
+     "Disadvantaged students include those from low-income families, Travellers, Roma, students from migrant families, students with disabilities, homeless young people and young people in care.",
+     "Students from migrant families may need language support in English or Irish, and their qualifications from other countries may not be recognised.",
+     "The DEIS (Delivering Equality of Opportunity in Schools) programme identifies schools serving disadvantaged communities and gives them extra staffing and supports.",
+     "Students living in disadvantaged areas may face poor housing, poor health, lack of study space and limited access to after-school activities."
+    ]
+   },
+   {
+    "h": "Early school leavers (Higher Level only)",
+    "points": [
+     "An early school leaver is a young person who leaves school before completing a senior cycle programme such as the Leaving Certificate.",
+     "Early school leaving is more likely among students with poor attendance, low literacy and numeracy, or learning difficulties.",
+     "Bullying, family problems, poverty, and negative peer pressure all increase the risk of leaving school early.",
+     "Leaving school early limits access to further and third-level education and to skilled employment.",
+     "Early school leaving is linked with unemployment, low pay, poor health and social exclusion later in life."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two, three marks each: families with low incomes struggle to pay for books, equipment and uniforms and so may be excluded from full participation; parents with lower levels of education may have lower expectations and less ability to help with schoolwork; students from lower socio-economic groups are more likely to leave school early and less likely to progress to third level; placement in lower streams can limit grades and courses.",
+    "prompt": "Outline two ways in which socio-economic status can limit equality of opportunity in education.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Gender: boys more likely to leave school early and to have lower literacy; subject choice shaped by gender stereotypes, with fewer girls in Physics and fewer boys in Home Economics. Socio-economic status: cost of books, equipment and uniforms; allowances, book rental and grants reduce but do not remove barriers; parental education and expectations; lower socio-economic groups less likely to progress to third level; streaming and teacher expectations. Early school leaving: definition as leaving before completing senior cycle; risk factors such as poor attendance, low literacy, bullying, family problems and poverty; consequences such as limited access to further and third-level education and skilled work, and later unemployment and social exclusion. Initiative: DEIS, which gives extra staffing and supports to schools in disadvantaged communities, with an explanation of how it addresses one of the barriers named.",
+    "prompt": "Analyse how gender, socio-economic status and early school leaving affect equality of opportunity in education, referring to one initiative that responds to disadvantage.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-education-s5": {
+  "keyTerms": [
+   {
+    "definition": "The Higher Education Access Route, which admits students from socially disadvantaged backgrounds to third-level courses on reduced points.",
+    "term": "HEAR"
+   },
+   {
+    "definition": "The Disability Access Route to Education, which admits students with a disability to third-level courses on reduced points and provides ongoing support.",
+    "term": "DARE"
+   },
+   {
+    "definition": "Delivering Equality of Opportunity in Schools, an action plan that gives extra supports to schools in disadvantaged areas.",
+    "term": "DEIS"
+   },
+   {
+    "definition": "A programme that aims to keep young people in school and reduce early school leaving.",
+    "term": "School Completion Programme"
+   },
+   {
+    "definition": "A scheme that links schools with parents and the wider community to support pupils, particularly those who need extra help.",
+    "term": "Home School Community Liaison"
+   },
+   {
+    "definition": "A two-year integrated training and education programme for young people who left school without qualifications.",
+    "term": "Youthreach"
+   },
+   {
+    "definition": "The Vocational Training Opportunities Scheme, which provides courses for unemployed people over 21.",
+    "term": "VTOS"
+   },
+   {
+    "definition": "A social welfare-linked support that helps people on payments to attend approved education courses.",
+    "term": "Back to Education Allowance"
+   },
+   {
+    "definition": "A process that lets applicants enter a course on reduced points or through an alternative assessment, usually because of disadvantage or disability.",
+    "term": "Access route"
+   },
+   {
+    "definition": "The Irish National Association of Adult Education, which promotes and supports adult learning.",
+    "term": "Aontas"
+   },
+   {
+    "definition": "Students from socially disadvantaged backgrounds who meet a set of pre-defined indicators.",
+    "term": "Students eligible for reduced-points entry on socio-economic grounds"
+   },
+   {
+    "definition": "Students with a disability, such as dyslexia, autism, a sensory impairment or a learning difficulty.",
+    "term": "Students eligible for reduced-points entry because of a disability"
+   },
+   {
+    "definition": "Young people aged 15 to 20 who have left school without qualifications.",
+    "term": "Entry requirement for the two-year integrated programme for early leavers"
+   },
+   {
+    "definition": "Unemployed people over 21.",
+    "term": "Age group and status targeted by the adult vocational training scheme"
+   },
+   {
+    "definition": "Students most at risk of leaving school early.",
+    "term": "Group most targeted by the Junior Cycle Support Programme"
+   },
+   {
+    "definition": "The National Behaviour Support Service (NBSS), which provides counselling and anger management programmes.",
+    "term": "Service that deals with students at risk of exclusion for behaviour"
+   },
+   {
+    "definition": "Free part-time higher education courses for job seekers, aimed at improving employability.",
+    "term": "Focus of Springboard"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Access routes let students who would be disadvantaged by the normal points system enter third-level courses.",
+    "h": "Routes into third-level education (Higher Level only)",
+    "points": [
+     "HEAR (Higher Education Access Route) lets students from socially disadvantaged backgrounds who meet set criteria enter third-level courses on reduced points.",
+     "Students admitted through HEAR receive support services in college once they have started their course.",
+     "DARE (Disability Access Route to Education) lets students with a disability, such as dyslexia, autism or a sensory impairment, enter third-level courses on reduced points.",
+     "Students admitted through DARE receive ongoing support in college, such as assistive technology and exam accommodations.",
+     "Post Leaving Certificate courses and Level 7 courses provide an alternative route into higher education for students who did not progress directly from second level.",
+     "Springboard offers free part-time higher education courses to job seekers, aimed at improving their employability."
+    ]
+   },
+   {
+    "h": "Retention and inclusion in second-level schools (Higher Level only)",
+    "points": [
+     "DEIS (Delivering Equality of Opportunity in Schools) is an action plan for schools in disadvantaged areas, with extra staffing, homework clubs, after-school supports and mentoring programmes.",
+     "Under DEIS, schools may provide a school meals programme and access to home school community liaison services.",
+     "The School Completion Programme aims to reduce the number of students leaving school early and to ease the transfer from primary to second level.",
+     "The Home School Community Liaison (HSCL) scheme links schools with parents and the community, and identifies students who need financial or learning support.",
+     "The Junior Cycle Support Programme (JCSP) targets students most at risk of leaving school early, and it certifies the skills they attain and the subject statements they complete.",
+     "The National Behaviour Support Service (NBSS) helps students at risk of exclusion because of behavioural problems, through counselling and anger management programmes."
+    ]
+   },
+   {
+    "h": "Second-chance and adult access initiatives (Higher Level only)",
+    "points": [
+     "Youthreach is a two-year integrated training and education programme for young people aged 15 to 20 who left school without qualifications, and participants receive a training allowance.",
+     "Youthreach centres are located throughout the country, including traveller training centres and community training workshops.",
+     "VTOS (Vocational Training Opportunities Scheme) offers courses designed to meet the educational needs of unemployed people over 21, with training allowances similar to social welfare entitlements.",
+     "The Back to Education Allowance (BTEA) helps people on social welfare payments to attend approved full-time or part-time education courses.",
+     "Community Education schemes provide adult literacy and other community-based courses in local settings.",
+     "Aontas, the Irish National Association of Adult Education, promotes the development of adult learning and gives advice and support across adult education."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, two marks each: it admits students from socially disadvantaged backgrounds who meet set criteria; entry is on reduced points; it widens participation in third-level education; students receive support services in college after they start.",
+    "prompt": "Outline the purpose of the HEAR scheme.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Each initiative needs its name, its aim, how it works and an evaluation of its effect. Option one, HEAR: reduced-points entry for students from socially disadvantaged backgrounds, with college support; limited to students who meet the criteria, so it helps only some students who are disadvantaged. Option two, DEIS: an action plan for schools in disadvantaged areas with extra staffing, homework clubs, after-school supports, mentoring and school meals; evaluated by its focus on whole-school resources and by the risk that it does not reach students in non-DEIS schools. Other accepted options include the School Completion Programme, the Junior Cycle Support Programme, Youthreach, VTOS and the Home School Community Liaison scheme, each with its target group and a comment on its strengths and limitations.",
+    "prompt": "Discuss two contemporary initiatives that improve access to education for students at risk of educational disadvantage.",
+    "type": "short"
+   }
+  ]
+ }
+};
   COURSE_DATA.chapters.forEach(function (chapter) {
     (chapter.learningOutcomes || []).forEach(function (outcome) {
       var entry = NOTES[outcome.id];
