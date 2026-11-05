@@ -150,7 +150,10 @@ SYLLABUS_CUTOFF = {
     # over from 2027). Until then the only papers are from the previous syllabus, introduced 2002
     # and first examined 2004 (NCCA); they are pulled as LEGACY practice, not on-course papers.
     "biology":   (2004, True),    # confirmed: previous syllabus first examined 2004, last examined June 2026
-    "chemistry": (2002, False),   # estimate; verify
+    # chemistry: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus (NCCA, (c) 1999),
+    # examined from 2002 to June 2026; they are pulled as LEGACY practice, not on-course papers.
+    "chemistry": (2002, True),    # confirmed: previous syllabus first examined 2002, last examined June 2026
     "business":  (1999, False),   # estimate; verify
     "english":   (2001, False),   # estimate; verify
     "home-economics": (2004, False),  # estimate — current S&S syllabus ~2004; verify

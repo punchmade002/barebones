@@ -1,0 +1,251 @@
+{
+  "loId": "chem17-s3",
+  "chapterId": "chem17",
+  "subsection": "3. Catalysis",
+  "syllabusRef": "3.2.4, 3.2.5",
+  "notes": [
+    {
+      "h": "Catalysts",
+      "points": [
+        "A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.",
+        "A catalyst works by providing an alternative reaction pathway with a lower activation energy.",
+        "Only a small amount of catalyst is needed, because it is not used up.",
+        "Catalysts tend to be specific: a catalyst speeds up one reaction or one type of reaction.",
+        "A catalyst's physical form can change, e.g. a powder may become finer, but it is chemically unchanged and can be recovered.",
+        "Manganese(IV) oxide filtered off after decomposing hydrogen peroxide has the same mass as it had at the start.",
+        "A catalyst does not change ΔH or the amount of product formed; it speeds up the forward and reverse reactions equally (see “Le Châtelier's principle”).",
+        "Without a catalyst, hydrogen peroxide decomposes very slowly on its own at room temperature.",
+        "With manganese(IV) oxide added, hydrogen peroxide decomposes rapidly, with vigorous fizzing of oxygen."
+      ]
+    },
+    {
+      "h": "Types of catalysis",
+      "points": [
+        "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them.",
+        "Homogeneous example: iodide ions, from potassium iodide solution, catalyse the decomposition of hydrogen peroxide solution.",
+        "Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them.",
+        "Heterogeneous example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide.",
+        "Heterogeneous example: solid iron catalyses the Haber process for ammonia, in which the reactants are gases.",
+        "Heterogeneous example: a hot platinum wire held above methanol catalyses its oxidation by air: 2CH₃OH(g) + O₂(g) → 2HCHO(g) + 2H₂O(g).",
+        "The platinum wire keeps glowing red because the reaction on its surface is exothermic.",
+        "The products are methanal and water; methanol and methanal are toxic, and methanol is flammable.",
+        "“Phase” means solid, liquid, gas or solution; solid MnO₂ in aqueous H₂O₂ is heterogeneous even though both are in one flask.",
+        "Autocatalysis: a product of the reaction is a catalyst for it, so the reaction starts slowly and speeds up as the product builds up.",
+        "Autocatalysis example: Mn²⁺ ions are formed when potassium permanganate reacts with iron(II) or ethanedioate ions (see “Redox titrations”)."
+      ]
+    },
+    {
+      "h": "Catalytic converters",
+      "points": [
+        "A catalytic converter in a car exhaust uses the metals platinum, palladium and rhodium.",
+        "The metals are spread thinly on a ceramic honeycomb, giving a very large surface area, inside a steel case.",
+        "It converts harmful exhaust gases (carbon monoxide, nitrogen oxides and unburnt hydrocarbons) into carbon dioxide, nitrogen and water.",
+        "Example: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).",
+        "It is heterogeneous catalysis: a solid catalyst acting on gaseous reactants.",
+        "Environmental benefit: it reduces carbon monoxide, which is toxic, nitrogen oxides, which cause acid rain and smog, and unburnt hydrocarbons in the air.",
+        "Poisoning of its catalysts is explained in “Collision theory”."
+      ]
+    },
+    {
+      "h": "Enzymes: biological catalysts",
+      "points": [
+        "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things.",
+        "Catalase, found in liver and potato, catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).",
+        "Catalase is one of the fastest-acting enzymes known: a piece of liver added to hydrogen peroxide fizzes vigorously.",
+        "Amylase, in saliva, catalyses the breakdown of starch into the sugar maltose.",
+        "Enzymes in yeast, called zymase, catalyse the fermentation of glucose: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).",
+        "Enzymes are very specific: each acts on one substance, its substrate, or one type of reaction, because the substrate must fit the enzyme's active site.",
+        "Enzymes work best at an optimum temperature, about 37 °C (body temperature) for human enzymes, and at an optimum pH.",
+        "High temperatures and extreme pH denature enzymes by changing the shape of the active site, so they stop working.",
+        "Biological washing powders contain enzymes, such as proteases for protein stains and lipases for fats, that clean at lower wash temperatures, saving energy."
+      ]
+    },
+    {
+      "h": "Energy profile diagrams",
+      "points": [
+        "An energy profile diagram plots energy on the y-axis against progress of reaction on the x-axis.",
+        "For an exothermic reaction the products are lower than the reactants and ΔH is negative; for an endothermic reaction the products are higher and ΔH is positive.",
+        "The curve rises from the reactants to a peak and falls to the products.",
+        "The peak is the activated complex (transition state): the high-energy arrangement of atoms in which old bonds are partly broken and new bonds partly formed; it cannot be isolated.",
+        "The activated complex is not an intermediate: an intermediate sits in a dip between two peaks and can sometimes be detected.",
+        "Activation energy (Ea) is the height from the reactant level up to the peak.",
+        "ΔH is the difference between the reactant and product levels.",
+        "For an endothermic reaction Ea is always greater than ΔH, since the peak is above the products.",
+        "The activation energy of the reverse reaction is the height from the product level up to the peak, so Ea(reverse) = Ea(forward) − ΔH.",
+        "Sample data: a forward Ea of 100 kJ mol⁻¹ and ΔH of −60 kJ mol⁻¹ give a reverse Ea of 100 − (−60) = 160 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Catalysed and uncatalysed profiles compared",
+      "points": [
+        "On the same axes, the catalysed pathway is drawn as a lower peak between the same reactant and product levels.",
+        "The catalyst lowers the activation energy; the reactant and product energy levels, and so ΔH, are unchanged.",
+        "Exothermic reaction: both curves start at the reactant level and end at the lower product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is negative and the same for both.",
+        "Endothermic reaction: both curves start at the reactant level and end at the higher product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is positive and the same for both.",
+        "The catalyst lowers the activation energy of the reverse reaction by the same amount as the forward one.",
+        "The catalysed pathway may show two or more smaller humps with a dip between them when it goes through an intermediate (see “Catalytic mechanisms”).",
+        "With a lower Ea, a much greater fraction of collisions have enough energy to react; on the energy-distribution curve (see “Collision theory”), the Ea line moves to the left and the area beyond it increases, at the same temperature.",
+        "Arrows for Ea start at the reactant level, not the axis; the ΔH arrow runs from the reactants to the products.",
+        "Diagram: two energy profile diagrams, exothermic and endothermic, each with axes “energy” and “progress of reaction”, reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower dashed peak, and Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows."
+      ]
+    },
+    {
+      "h": "Intermediate formation (Higher Level only)",
+      "points": [
+        "In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound.",
+        "The intermediate then reacts with the other reactant, or breaks down, to form the products, and the catalyst is regenerated.",
+        "General model: step 1, A + Cat → A–Cat (intermediate); step 2, A–Cat + B → AB + Cat.",
+        "Adding the two steps, the catalyst cancels, giving A + B → AB.",
+        "Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster.",
+        "The energy profile shows two smaller humps, with the intermediate in the dip between them.",
+        "The intermediate is formed and then used up; it is not a product and does not appear in the overall equation.",
+        "This mechanism usually explains homogeneous catalysis.",
+        "Example: iodide ions catalysing the decomposition of hydrogen peroxide.",
+        "Step 1: H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq); the hypoiodite ion, IO⁻, is the intermediate.",
+        "Step 2: H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq); the iodide ion is regenerated.",
+        "Adding steps 1 and 2 gives 2H₂O₂(aq) → 2H₂O(l) + O₂(g), since I⁻ and IO⁻ cancel."
+      ]
+    },
+    {
+      "h": "Evidence for an intermediate: the cobalt(II)–tartrate reaction (Higher Level only)",
+      "points": [
+        "Hydrogen peroxide oxidises potassium sodium tartrate (Rochelle salt) only slowly, even when the solution is warmed to about 70 °C.",
+        "A little pink cobalt(II) chloride solution is added as the catalyst.",
+        "The solution turns green and fizzes vigorously as gas, oxygen and carbon dioxide, is given off.",
+        "When the reaction is over, the solution turns pink again.",
+        "The green colour is an intermediate formed from the cobalt catalyst, not a product.",
+        "The return of the pink colour shows that the cobalt(II) catalyst is regenerated, unchanged, at the end.",
+        "Safety: wear goggles; cobalt compounds are toxic and harmful to the environment; hydrogen peroxide is an oxidiser.",
+        "The foam can overflow, so use a large beaker.",
+        "Diagram: a beaker of warm tartrate solution with H₂O₂ on a hot plate, with a thermometer; show three colour stages: pink on adding cobalt(II) chloride, green and frothing, and pink again at the end."
+      ]
+    },
+    {
+      "h": "Surface adsorption (Higher Level only)",
+      "points": [
+        "In surface adsorption, reactant molecules are held on the surface of a solid catalyst while they react; this explains most heterogeneous catalysis.",
+        "Stage 1, adsorption: reactant molecules diffuse to the catalyst surface and form weak temporary bonds with it at active sites.",
+        "Stage 2, reaction: bonds within the adsorbed molecules are weakened or broken, and the molecules are held close together in a suitable orientation, so they react more easily with a lower activation energy.",
+        "Stage 3, desorption: the product molecules break away from the surface and diffuse away, freeing the active sites for more reactant molecules.",
+        "Adsorption means accumulation on a surface; absorption means taking a substance into the bulk of a material; catalysts adsorb.",
+        "The greater the surface area, the more active sites, so catalysts are used as a fine powder, a thin wire or gauze, or a coating spread over a honeycomb support.",
+        "A powdered catalyst is more effective than the same mass of pellets.",
+        "Example: in a catalytic converter, CO and NO are adsorbed on the platinum or rhodium surface, react, and CO₂ and N₂ desorb: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).",
+        "Example: hydrogen and oxygen do not react at room temperature, but with powdered platinum the reaction is violently rapid, because H₂ and O₂ are adsorbed and their bonds weakened on the platinum surface.",
+        "Diagram: a row of catalyst surface atoms, with reactant molecules arriving and attaching (adsorption), reacting on the surface, and product molecules leaving (desorption)."
+      ]
+    },
+    {
+      "h": "The models applied (Higher Level only)",
+      "points": [
+        "Poisoning explained: a poison is adsorbed so strongly on the active sites that it does not desorb, so those sites are permanently blocked, e.g. lead or sulfur compounds on a catalytic converter.",
+        "Saturation explained: when every active site is occupied, a higher reactant concentration cannot speed up the reaction, since molecules must wait for a free site.",
+        "Enzymes combine both ideas: the substrate binds to the enzyme's active site, like adsorption on a surface, forming an enzyme–substrate complex, which is an intermediate.",
+        "The enzyme–substrate complex breaks down to products and releases the unchanged enzyme: E + S → ES → E + P.",
+        "Both mechanisms provide a different pathway with a lower activation energy; neither changes ΔH."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Catalyst",
+      "definition": "A substance that alters the rate of a chemical reaction but is chemically unchanged at the end of it."
+    },
+    {
+      "term": "Homogeneous catalysis",
+      "definition": "Catalysis in which the catalyst and the reactants are in the same phase, with no boundary between them."
+    },
+    {
+      "term": "Heterogeneous catalysis",
+      "definition": "Catalysis in which the catalyst and the reactants are in different phases, with a boundary between them."
+    },
+    {
+      "term": "Autocatalysis",
+      "definition": "Catalysis in which a product of the reaction is a catalyst for it, so the reaction speeds up as the product builds up."
+    },
+    {
+      "term": "Enzyme",
+      "definition": "A protein produced by living cells that acts as a biological catalyst."
+    },
+    {
+      "term": "Active site",
+      "definition": "The part of an enzyme where the substrate binds and the reaction takes place."
+    },
+    {
+      "term": "Denature",
+      "definition": "To change the shape of an enzyme's active site, usually by high temperature or extreme pH, so that it stops working."
+    },
+    {
+      "term": "Activated complex",
+      "definition": "The high-energy arrangement of atoms at the peak of an energy profile, in which old bonds are partly broken and new bonds partly formed."
+    },
+    {
+      "term": "Energy profile diagram",
+      "definition": "A graph of energy against progress of reaction showing the reactant and product levels, ΔH and the activation energy."
+    },
+    {
+      "term": "Optimum temperature",
+      "definition": "The temperature at which an enzyme works fastest, about 37 °C for human enzymes."
+    },
+    {
+      "term": "Intermediate",
+      "definition": "An unstable compound formed in one step of a mechanism and used up in a later step, so it is not in the overall equation."
+    },
+    {
+      "term": "Intermediate formation",
+      "definition": "A catalytic mechanism in which the catalyst reacts with one reactant to form an intermediate, then is regenerated in a second step."
+    },
+    {
+      "term": "Adsorption",
+      "definition": "The accumulation of reactant molecules on the surface of a solid, held there by weak temporary bonds."
+    },
+    {
+      "term": "Absorption",
+      "definition": "The taking of a substance into the bulk of a material, as distinct from adsorption on its surface."
+    },
+    {
+      "term": "Desorption",
+      "definition": "The release of product molecules from a catalyst surface, freeing the active sites for more reactant."
+    },
+    {
+      "term": "Catalyst poison",
+      "definition": "A substance adsorbed so strongly on the active sites that it does not desorb, permanently blocking them."
+    },
+    {
+      "term": "Enzyme–substrate complex",
+      "definition": "The temporary combination of an enzyme with its substrate at the active site, before the products are released."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Draw labelled energy profile diagrams for an endothermic reaction (i) without a catalyst and (ii) with a catalyst, on the same axes. Mark the activation energies and ΔH, and explain how the catalyst increases the rate.",
+      "model": "Diagram: axes labelled energy (y-axis) and progress of reaction (x-axis). The reactants are at a lower level and the products at a higher level, since the reaction is endothermic with ΔH positive. The uncatalysed curve rises to a high peak; Ea (uncatalysed) is the height from the reactant level to that peak. The catalysed curve, drawn dashed, rises to a lower peak between the same reactant and product levels; Ea (catalysed) is the height from the reactant level to this lower peak. ΔH is marked with an arrow from the reactant level to the product level. Explanation: the catalyst provides an alternative pathway with a lower activation energy, so a greater fraction of collisions have enough energy to react and the rate increases. The reactant and product levels are unchanged, so ΔH is the same for both curves. For an endothermic reaction Ea is greater than ΔH."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between homogeneous and heterogeneous catalysis, giving one example of each and naming the catalyst.",
+      "model": "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them. Example: iodide ions catalyse the decomposition of hydrogen peroxide solution, 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them. Example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide; solid iron catalyses the Haber process for ammonia, in which the reactants are gases."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is an enzyme? Name one enzyme and the reaction it catalyses, and explain why enzymes stop working at high temperature.",
+      "model": "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things. Example: catalase catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Enzymes stop working at high temperature because the heat denatures them: it changes the shape of the active site, so the substrate no longer fits and cannot be catalysed."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe the intermediate formation theory of catalysis, using the decomposition of hydrogen peroxide catalysed by iodide ions to illustrate your answer.",
+      "model": "In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound. The intermediate then reacts with the other reactant, or breaks down, to form the products, and the catalyst is regenerated. The general model is A + Cat → A–Cat, then A–Cat + B → AB + Cat; adding the steps cancels the catalyst to give A + B → AB. Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster, and the energy profile shows two smaller humps with the intermediate in the dip between them. For iodide ions: step 1, H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq), where IO⁻ is the intermediate; step 2, H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq), where the iodide ion is regenerated. Adding the steps, I⁻ and IO⁻ cancel, giving 2H₂O₂(aq) → 2H₂O(l) + O₂(g)."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe the surface adsorption theory of catalysis and explain why a catalyst in pellets is less effective than the same mass of powder.",
+      "model": "In surface adsorption, reactant molecules are held on the surface of a solid catalyst while they react. Stage 1, adsorption: reactant molecules diffuse to the surface and form weak temporary bonds at active sites. Stage 2, reaction: bonds within the adsorbed molecules are weakened or broken, and the molecules are held close together in a suitable orientation, so they react more easily with a lower activation energy. Stage 3, desorption: the product molecules break away from the surface, freeing the active sites. A powdered catalyst has a much greater surface area for the same mass, so it has more active sites available; pellets have fewer active sites exposed, so fewer reactant molecules can be adsorbed at once and the rate is lower."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe what is seen when cobalt(II) chloride is added to a warm mixture of potassium sodium tartrate and hydrogen peroxide, and explain how this supports the intermediate formation theory.",
+      "model": "A little pink cobalt(II) chloride solution is added to the warm mixture, which turns green and fizzes vigorously as oxygen and carbon dioxide are given off. When the reaction is over the solution turns pink again. The green colour is an intermediate formed from the cobalt catalyst, not a product. The return of the pink colour shows that the cobalt(II) catalyst has been regenerated, unchanged, at the end, which supports the intermediate formation theory."
+    }
+  ]
+}
