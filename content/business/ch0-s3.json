@@ -1,0 +1,78 @@
+{
+  "loId": "ch0-s3",
+  "chapterId": "ch0",
+  "subsection": "3. Analysing, evaluating and presenting findings",
+  "syllabusRef": "U4.1, U4.2, U4.3, U4.4, U4.5, U5.1, U5.2, U5.3, U5.4",
+  "notes": [
+    { "h": "Reading tables and charts", "b": "Interpreting data means describing what it shows before explaining why. Descriptions must use specific figures from the data.", "points": [
+      "A trend is the direction of change over time, described by the starting value, the end value and the general movement between them.",
+      "A comparison sets two or more values side by side and states which is larger or smaller, and by how much.",
+      "A percentage shows a part of a whole, so the base it is calculated from must be stated, since the same change can look different on different bases.",
+      "An average summarises a data set. The mean, median and mode describe the centre differently, and the mean can be pulled by a few extreme values.",
+      "A description should quote the figures themselves, such as a rise from 40 units in one year to 65 units four years later, rather than saying sales went up."
+    ] },
+    { "h": "Choosing the right chart", "b": "The chart should display the pattern the research question needs. The wrong choice can hide the pattern or distort it.", "points": [
+      "A line graph shows change over time, so it suits trends in sales or prices across several years.",
+      "A bar chart compares separate categories, such as the sales of different products in one year.",
+      "A pie chart shows the parts of one whole, and works only with a few categories that together make up the total.",
+      "A scatter graph plots pairs of numerical values to show whether two variables are related, such as advertising spend and sales, but it does not prove that one causes the other.",
+      "Axes must be labelled with units, and a vertical axis that does not start at zero can exaggerate small changes."
+    ] },
+    { "h": "Analysis, evaluation and synthesis", "b": "These are three different tasks. Analysis breaks information into parts, evaluation judges its worth, and synthesis brings findings together into a new answer.", "points": [
+      "Analysis examines the parts of information and explains how and why they relate, such as why a sales trend occurred.",
+      "Evaluation weighs the strengths and limitations of a source, argument or decision against stated criteria, and reaches a judgement.",
+      "Synthesis combines findings from several sources into one coherent answer to the research question, going beyond what any single source says.",
+      "Describing the data when the question asks for analysis does not show the reasoning the question requires, even when the description is accurate."
+    ] },
+    { "h": "Drawing justified conclusions", "b": "A conclusion answers the research question using the evidence gathered. A justified conclusion shows the reasoning from evidence to answer.", "points": [
+      "Begin by restating the research question, then give a direct answer that the evidence supports.",
+      "Support each conclusion with specific findings from at least two sources, so the reader can trace the reasoning.",
+      "Do not claim more than the evidence shows: a small sample supports a tentative conclusion, not a general rule.",
+      "A recommendation proposes a specific action for a named audience. It should follow from the conclusions and must not introduce new evidence."
+    ] },
+    { "h": "Stating limitations", "b": "Limitations are weaknesses in the study that affect how far the findings can be trusted. Stating them is part of honest evaluation.", "points": [
+      "A limitation names the weakness, such as a sample drawn from one location, and explains its effect on the conclusion.",
+      "Limitations should be ranked by how much they weaken the conclusion, so the most serious appear first.",
+      "A limitation about the method, such as a questionnaire with leading questions, should be linked to the specific finding it affects.",
+      "Suggesting a fix for a limitation, such as a larger sample in a future study, shows evaluative thinking."
+    ] },
+    { "h": "Reflecting on a changed perspective", "b": "The specification asks students to identify how and why their perspective changed. Reflection shows learning rather than simple reporting.", "points": [
+      "Record the starting view early in the study, so the change can be compared against it later.",
+      "Name the evidence that changed the view, such as a customer survey result that contradicted an assumption.",
+      "Explain the change in terms of the evidence and reasoning, not simply that more was learned.",
+      "State whether the change affected the conclusion or the recommendation, and how."
+    ] },
+    { "h": "Presenting for an audience and using terminology", "b": "The audience determines the format and level of detail. The specification allows oral, visual, written and multimodal presentation.", "points": [
+      "A written report suits a detailed audience, such as a teacher or a board, and uses full sentences, headings and referenced evidence.",
+      "A visual format such as an infographic suits a general audience and must have clear labels and one main message per visual.",
+      "An oral presentation needs a clear structure with the conclusion stated early and supported by visuals, rather than read from a script.",
+      "Business terms such as gross margin, market share and stakeholder must be used accurately and defined where the audience may not know them.",
+      "A multimodal presentation combines two or more formats, such as a written report with an embedded chart and a short spoken summary."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Trend", "definition": "The overall direction in which data changes over time, described by its start, its end and its general movement." },
+    { "term": "Mean", "definition": "The average found by adding all the values in a data set and dividing by the number of values." },
+    { "term": "Scatter graph", "definition": "A chart plotting pairs of numerical values as points to show whether two variables are related." },
+    { "term": "Analysis", "definition": "Breaking information into parts and explaining how and why those parts relate to one another." },
+    { "term": "Evaluation", "definition": "Weighing the strengths, weaknesses and value of information or a decision against set criteria to reach a judgement." },
+    { "term": "Synthesis", "definition": "Combining findings from several sources into a new, coherent answer to the research question." },
+    { "term": "Limitation", "definition": "A weakness in a study's methods, sources or data that restricts how far its findings can be trusted." },
+    { "term": "Justified conclusion", "definition": "A conclusion that directly answers the research question and is supported by evidence the reader can trace." },
+    { "term": "Target audience", "definition": "The specific group a report or presentation is written or delivered for, which determines its format and detail." }
+  ],
+  "factCards": [
+    { "term": "Describing a trend", "definition": "State the start value, the end value and the general direction, using figures taken from the data." },
+    { "term": "Best chart for change over time", "definition": "A line graph, because it shows values in sequence along a time axis." },
+    { "term": "Best chart for comparing categories", "definition": "A bar chart, with one bar per category so that the values can be compared directly." },
+    { "term": "Best chart for parts of a whole", "definition": "A pie chart, used only with a few categories that together make up the total." },
+    { "term": "What a scatter graph cannot prove", "definition": "That one variable causes the other, since it shows only that the two are related." },
+    { "term": "Three parts of a justified conclusion", "definition": "An answer to the research question, supporting evidence from sources, and a statement of what the evidence cannot show." },
+    { "term": "Effect of a truncated axis", "definition": "It exaggerates small changes, so the visual suggests a bigger difference than the data shows." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A table shows a café's annual revenue rising for three years and then falling in the fourth and fifth years. Describe the trend and analyse one likely reason for the fall in revenue.", "model": "The trend shows revenue increasing steadily for three years, followed by a decline in the fourth and fifth years, so the business reached a peak and then lost ground. The description should quote the figures from the table, giving the start and end values of each phase. One likely reason is a rise in local competition, since new cafés opening nearby would draw customers away and reduce the café's sales. The analysis explains the link: fewer customers means fewer sales at the same prices, which lowers revenue. A second possible reason, such as rising prices that customers reduced their spending in response to, should be treated as a plausible alternative that the data alone cannot confirm." },
+    { "marks": 15, "prompt": "Distinguish between the analysis and the evaluation of the findings of a student's survey of customer satisfaction.", "model": "Analysis breaks the findings into parts and explains how they relate. For example, the student would show that satisfaction scores were lower among customers who waited longest, and explain that waiting times are the likely cause. Evaluation weighs the findings against criteria and reaches a judgement. For example, the student would judge whether the survey is reliable, given a sample drawn only from one day of trading, and decide how far the finding that waiting times matter can be trusted. Analysis explains what the findings mean, and evaluation judges how much weight they deserve." },
+    { "marks": 10, "prompt": "State two limitations of a study based on interviews with five business owners, and explain how each affects the conclusion.", "model": "The first limitation is the small sample of five owners, which cannot represent all businesses in the sector, so any conclusion must be presented as tentative. The second limitation is that all five interviewees were chosen from one town, so local conditions may shape the findings and may not apply elsewhere. Each limitation narrows how far the conclusion can be generalised." }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "loId": "ch0-s1",
+  "chapterId": "ch0",
+  "subsection": "1. Developing research questions, managing information and acknowledging sources",
+  "syllabusRef": "U1.1, U2.1, U2.2, U2.3, U2.4, U2.5, U2.6, U6.1",
+  "notes": [
+    { "h": "SMART objectives for a research question", "b": "SMART is a test for whether a research question is usable. Each letter checks one property the question needs before data collection starts.", "points": [
+      "Specific: the question names the business, market, group or decision it concerns, so the student knows exactly what is being studied.",
+      "Measurable: the question points to evidence that can be counted, compared or rated, such as sales figures, customer numbers or survey scores.",
+      "Achievable: the data needed can be obtained within the time, budget and skills the student has.",
+      "Relevant: the question links the business concept being studied to a real decision or problem facing a business.",
+      "Timebound: the question names a period, such as the three years since a product launch, so that figures are current and comparable."
+    ] },
+    { "h": "Refining a weak question", "b": "Refining means adding detail until the question passes the SMART tests. A refined question shows exactly what evidence the study needs.", "points": [
+      "A weak question names a topic only: how do businesses use social media? It has no business, no period and no measurable outcome.",
+      "A refined question names a business type, a place, a customer group and a period, such as how a named Cork café has used Instagram to promote new menu items to 18 to 30 year olds over the past two years.",
+      "A weak question asking whether something is good or bad leads to opinion, because no test has been set for judging it.",
+      "Refining moves from a topic to a question that can be answered with evidence, by adding a business, a group, a place, a time period and a measurable outcome."
+    ] },
+    { "h": "Primary and secondary sources", "b": "Primary data is collected first-hand for the study. Secondary data already exists, having been collected by someone else for another purpose.", "points": [
+      "Primary methods include questionnaires, interviews, observation and a practical test or trial, and each produces data matched to the research question.",
+      "Primary data takes time and resources to collect, and a small or unrepresentative sample may limit what it can show.",
+      "Secondary sources include annual reports, government statistics, industry reports, news articles and company websites.",
+      "Secondary data is usually quicker and cheaper to obtain, but it was collected for a different purpose, so it may not match the question exactly.",
+      "Combining both types lets primary findings check, or explain, secondary figures, which strengthens the conclusions."
+    ] },
+    { "h": "Judging the credibility of a source", "b": "Every source must be assessed before its information is used. Five checks show whether a source can be trusted and how far.", "points": [
+      "Author and expertise: who wrote the source and whether they have relevant qualifications or experience on the topic.",
+      "Date: whether the information is recent enough for the question, since business conditions change quickly.",
+      "Purpose and bias: whether the source is trying to sell, persuade or defend a position, which may slant what it reports.",
+      "Evidence: whether the claims are backed by named data, methods or references rather than assertion alone.",
+      "Corroboration: whether independent sources report the same facts, which makes a claim more reliable."
+    ] },
+    { "h": "Perspectives, representative samples and gaps", "b": "A study is only as strong as the range of views and data behind it. Sampling and gap checks show whether conclusions can be trusted.", "points": [
+      "Considering a variety of perspectives means seeking views from groups with different interests, such as owners, staff, customers and regulators.",
+      "A representative sample reflects the make-up of the group being studied, such as customers of different ages and locations.",
+      "A sample drawn only from friends, or from one type of customer, gives biased results that cannot support a general conclusion.",
+      "An information gap is missing data needed to answer the question, and the study must state what is missing and how it would change the conclusion."
+    ] },
+    { "h": "Recording data and identifying key points", "b": "Organised records make analysis possible and show where each fact came from.", "points": [
+      "Record each data item with its source, date and collection method at the moment it is gathered, rather than trying to recall it later.",
+      "Key points are the findings most relevant to the research question, and grouping notes under each sub-question makes them easier to find.",
+      "The same finding can matter differently to different groups: a price rise may matter more to customers than to owners, so state which group it affects."
+    ] },
+    { "h": "Referencing and acknowledging sources", "b": "All sources, primary or secondary and in any format, must be recorded and acknowledged. Acknowledgement protects the student from plagiarism.", "points": [
+      "A consistent referencing style such as Harvard uses an in-text citation in the text and a full reference list at the end.",
+      "An in-text citation gives the author and year in brackets beside the claim, so the reader can find the matching entry in the reference list.",
+      "Primary sources must also be acknowledged, for example by stating when and how the questionnaire or interview data was collected.",
+      "Plagiarism is presenting another person's work or ideas as your own, whether copied directly or reworded without acknowledgement.",
+      "The SEC rules require any use of artificial intelligence in the study to be acknowledged, in the same way as any other source."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "SMART objectives", "definition": "A test requiring a research question or objective to be specific, measurable, achievable, relevant and timebound." },
+    { "term": "Primary source", "definition": "Data collected first-hand by the student for the specific study, such as through a survey or an interview." },
+    { "term": "Secondary source", "definition": "Existing data collected by someone else for another purpose, such as a government statistic or an annual report." },
+    { "term": "Representative sample", "definition": "A subset of a group that reflects the characteristics of the whole group being studied." },
+    { "term": "Bias", "definition": "A one-sided slant in a source or sample, caused by its purpose, selection or method, that distorts the picture it gives." },
+    { "term": "Corroboration", "definition": "Confirming a claim by finding the same fact reported independently in other reliable sources." },
+    { "term": "Information gap", "definition": "Information missing from a study that is needed to answer the research question fully." },
+    { "term": "Referencing", "definition": "Citing sources in the text and listing them in full at the end, using one consistent style." },
+    { "term": "Plagiarism", "definition": "Presenting another person's work or ideas as your own without acknowledging the original source." }
+  ],
+  "factCards": [
+    { "term": "Five tests for judging a source", "definition": "Author and expertise, date, purpose and bias, evidence, and corroboration." },
+    { "term": "Four steps to refine a weak question", "definition": "Name the business, the group, the place and the period, then state the measurable outcome." },
+    { "term": "Advantages of primary data", "definition": "It is matched exactly to the research question and is current, and the student controls the method and the sample." },
+    { "term": "Disadvantages of primary data", "definition": "It takes time and cost to collect, and a small or unrepresentative sample limits its reliability." },
+    { "term": "Advantages of secondary data", "definition": "It is quick and often free to access, and can cover larger or longer periods than a student could collect alone." },
+    { "term": "Disadvantages of secondary data", "definition": "It was collected for another purpose, may be out of date, and may not match the research question exactly." },
+    { "term": "Harvard in-text citation", "definition": "The author surname and year in brackets beside the claim, such as (Murphy, 2025), matched to a full reference list." },
+    { "term": "Checking a gap", "definition": "Name the missing data, then state which conclusion it weakens or prevents the study from reaching." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Explain why a research question should be SMART before a student begins collecting data for an Investigative Study.", "model": "A SMART question sets the boundaries of the study. Specific wording names the business and market, so data collection stays focused on one clear subject rather than a general topic. Measurable wording identifies the evidence needed, such as sales figures or survey ratings, so the findings can be counted and compared. Timebound wording fixes a period, such as the three years since a new product launch, so the data is current and comparable across sources. Without these tests, the student may gather unfocused data that cannot answer the question." },
+    { "marks": 20, "prompt": "Evaluate the reliability of a report published by a food company that promotes its own products, if a student wishes to use it as a secondary source.", "model": "The report has to be judged on five checks. Author and expertise: the company may have detailed knowledge of its market, but its experts are not independent. Purpose and bias: the report exists to promote the company's products, so it is likely to present favourable figures and omit weak ones. Evidence: the student should check whether the claims cite named data or methods, since unsupported assertions cannot be relied on. Corroboration: figures in the report should be compared with independent sources such as government statistics. The report can still be used for background facts that independent sources confirm, but its conclusions should be treated with caution and acknowledged as coming from a biased source." },
+    { "marks": 10, "prompt": "Describe how a student should acknowledge the sources used in an Investigative Study.", "model": "Each claim taken from a source should carry an in-text citation giving the author and year, and every source should appear in a full reference list at the end, in one consistent style such as Harvard. Primary data, such as a questionnaire, should be acknowledged by stating when and how it was collected. Any use of artificial intelligence must also be acknowledged." }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "loId": "ch3-s1",
+  "chapterId": "ch3",
+  "subsection": "1. Economic indicators and their impact on business",
+  "syllabusRef": "1.3.1",
+  "notes": [
+    { "h": "Why economic indicators matter", "b": "Economic indicators are measures of the health of the economy, and businesses use them to judge when to hire, borrow, invest or hold back.", "points": [
+      "Indicators are published regularly by bodies such as the Central Statistics Office and the European Central Bank, so trends can be tracked over time.",
+      "Businesses cannot control the indicators, but they can plan for them by adjusting prices, staffing, borrowing and expansion.",
+      "A business should read indicators together, because a rise in one can offset or amplify the effect of another, for example rising growth alongside rising inflation."
+    ] },
+    { "h": "Inflation", "b": "Inflation is a sustained rise in the general price level, which means money buys less over time.", "points": [
+      "In Ireland the CSO measures inflation through the Consumer Price Index, which tracks the average cost of a basket of goods and services bought by households.",
+      "Rising inflation raises a business's input costs, such as energy, materials and wages, and squeezes profit margins if the business cannot pass those costs on to customers.",
+      "Inflation erodes consumers' purchasing power, so households cut back on non-essential spending, which reduces demand for many businesses.",
+      "Businesses respond by raising prices, renegotiating supplier contracts or finding cheaper inputs, and how much they can raise prices depends on the level of competition they face."
+    ] },
+    { "h": "Employment and unemployment", "b": "Employment indicators show how many people are working and how easily a business can find staff.", "points": [
+      "The employment rate is the share of the working-age population in paid work, while the unemployment rate is the share of the labour force without work who are available for work and actively seeking it.",
+      "In Ireland the CSO publishes these figures from the Labour Force Survey, which is a household survey.",
+      "Low unemployment means more consumers have income to spend, so demand for goods and services tends to grow.",
+      "Low unemployment also makes it harder and more expensive to recruit, which pushes up wages and can limit the expansion of labour-intensive firms.",
+      "High unemployment reduces consumer spending and weakens demand, although it may let firms hire staff more easily and at lower cost."
+    ] },
+    { "h": "Interest rates", "b": "Interest rates set the cost of borrowing and the reward for saving, and they affect investment decisions in every business.", "points": [
+      "Ireland uses the euro, so the European Central Bank sets the main euro-area policy interest rates, and Irish banks set their own lending rates in response.",
+      "Higher interest rates raise repayments on variable-rate loans and overdrafts, which reduces business investment and household spending on credit.",
+      "Higher rates make saving more attractive, which can reduce spending and the demand for borrowing.",
+      "Lower interest rates make borrowing cheaper, which encourages investment in equipment, premises and expansion, and supports consumer spending on credit.",
+      "A business with heavy debt is especially exposed to rate rises, so understanding the terms of its loans is part of sound financial management."
+    ] },
+    { "h": "Economic growth and development", "b": "Economic growth and development are related but different, and both matter to business.", "points": [
+      "Economic growth is an increase in the real value of goods and services produced over time, meaning the increase after allowing for inflation.",
+      "Gross domestic product, GDP, measures the value of output produced within a country's borders in a given period.",
+      "Gross national product, GNP, adjusts GDP by adding income earned abroad by residents and subtracting income paid to foreign owners.",
+      "Modified GNI, known as GNI*, removes some distortions caused by the activity of multinational companies, so it gives a clearer view of the domestic economy in Ireland.",
+      "Growth affects business by increasing demand, which encourages expansion, new investment and hiring.",
+      "Economic development is broader than growth and includes improvements in living standards, health, education, environmental protection and social equality.",
+      "Development matters to business because it improves the skills base, infrastructure and social stability, which make a country more attractive for sustainable investment."
+    ] },
+    { "h": "Exchange rates", "b": "An exchange rate is the price of one currency in terms of another, and it affects any business that buys or sells across borders.", "points": [
+      "A stronger euro makes Irish exports more expensive for overseas buyers and imports cheaper, which can reduce the competitiveness of exporters.",
+      "A weaker euro makes Irish exports cheaper abroad, which helps exporters, but it raises the euro cost of imported raw materials and fuel.",
+      "Businesses earning revenue in dollars or sterling face currency risk, because a change in the exchange rate changes the euro value of that revenue, and they may hedge against it.",
+      "Tourism businesses are affected too: a weaker euro can make Ireland cheaper for visitors from the United States or the United Kingdom."
+    ] },
+    { "h": "Consumer confidence", "b": "Consumer confidence is how optimistic households feel about their own finances and the wider economy, and it is often measured through regular surveys.", "points": [
+      "High confidence encourages spending on discretionary items such as holidays, cars and dining out, which boosts retail, hospitality and tourism.",
+      "Low confidence leads households to save more and defer purchases, which hits businesses selling non-essential goods hardest.",
+      "Businesses respond to changes in confidence by adjusting stock levels, hiring plans and marketing budgets, often before the change shows in sales figures."
+    ] },
+    { "h": "Reading an indicator from a graph", "b": "Exam questions often show an indicator as a graph or infographic, and the skill is to describe what it shows and then link it to business.", "points": [
+      "Start by reading the title, the units, the scale and the time period, so that the indicator and its measurement are clear.",
+      "Identify the direction and rate of change, and any turning points, because a sudden change can matter more than a gradual one.",
+      "Quote figures from the graph accurately, and avoid treating a single data point as proof of a long-term trend.",
+      "Link the trend to business effects, such as rising costs or falling demand, and state what the business should do in response."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Inflation", "definition": "A sustained rise in the general level of prices across the economy over time." },
+    { "term": "Consumer Price Index", "definition": "A measure of the average change in prices of a representative basket of goods and services bought by households." },
+    { "term": "Employment rate", "definition": "The percentage of the working-age population who are in paid work." },
+    { "term": "Unemployment rate", "definition": "The percentage of the labour force who are without work, available for work and actively seeking it." },
+    { "term": "Interest rate", "definition": "The cost of borrowing money, expressed as a percentage of the amount borrowed, or the return earned on savings." },
+    { "term": "Economic growth", "definition": "An increase in the real value of the goods and services produced in an economy over time." },
+    { "term": "Gross domestic product", "definition": "The total value of goods and services produced within a country's borders in a given period." },
+    { "term": "Exchange rate", "definition": "The price of one currency in terms of another currency." },
+    { "term": "Consumer confidence", "definition": "A measure of how optimistic households are about their own finances and the wider economy." }
+  ],
+  "factCards": [
+    { "term": "Who sets the main euro-area interest rates", "definition": "The European Central Bank." },
+    { "term": "Body that produces Irish inflation and labour market statistics", "definition": "The Central Statistics Office, CSO." },
+    { "term": "Effect of a stronger euro on Irish exporters", "definition": "Their goods become dearer for overseas buyers, which can reduce sales volumes." },
+    { "term": "Effect of a weaker euro on imported raw materials", "definition": "They become more expensive in euro terms, which raises production costs." },
+    { "term": "Two effects of rising interest rates on a business with variable-rate debt", "definition": "Higher loan repayments and less appetite for investment." },
+    { "term": "Growth versus development", "definition": "Growth measures an increase in output, while development also covers living standards, health, education and equality." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Explain the impact of three economic indicators on the growth of a business of your choice.", "model": "Choose a retailer or manufacturer. Inflation raises the cost of energy, materials and wages, so the business either raises prices, which may reduce sales, or absorbs the costs and earns less profit. Interest rates affect expansion, because a rise increases the cost of a bank loan for a new shop or factory and may delay growth plans, while a fall makes investment cheaper. Consumer confidence affects demand: when households feel secure they spend more on the business's products, so sales rise and the business can justify hiring staff and opening new locations." },
+    { "marks": 15, "prompt": "Explain the difference between economic growth and economic development, and how each affects business.", "model": "Economic growth is an increase in the real value of output over time, and it affects business mainly through higher demand, which encourages expansion and investment. Economic development is broader, covering living standards, health, education and social equality, and it affects business through a better-skilled workforce, improved infrastructure and social stability, which support sustainable growth. A business can benefit from growth in its sales, but it needs development to secure skilled staff and reliable markets over the long term." }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "loId": "ch0-s2",
+  "chapterId": "ch0",
+  "subsection": "2. Project planning",
+  "syllabusRef": "U3.1, U3.2, U3.3",
+  "notes": [
+    { "h": "What a project plan is for", "b": "A project plan turns a research question into a set of actions with owners, dates and checkpoints. It makes the study manageable and provides evidence of the student's process.", "points": [
+      "A clear purpose states what the study is trying to find out and why the answer matters to a business or community.",
+      "Goals are the outcomes the study must achieve, such as a completed analysis of three data sources.",
+      "Criteria for success state in advance how the student will judge whether the goals have been met, such as a conclusion supported by at least two independent sources.",
+      "Without a plan, evidence collection is often left too late and the analysis is rushed at the end."
+    ] },
+    { "h": "Roles and responsibilities", "b": "The plan should show who is responsible for each task, including people outside the study who must provide information or access.", "points": [
+      "Roles name the person responsible for each task, such as the student for analysis, or a business owner agreeing to an interview.",
+      "Responsibilities state what each person must provide and by when, such as a completed questionnaire returned within one week.",
+      "Recording roles shows who must be contacted if a person becomes unavailable, so the plan can be adjusted quickly."
+    ] },
+    { "h": "Resources, objectives and the time schedule", "b": "Resources are what the study needs in order to be completed. Objectives are the specific steps that lead to the goals.", "points": [
+      "Resources include time, money, equipment, software, access to people and access to data, such as a library database or a company's published accounts.",
+      "Objectives are measurable steps, such as interviewing five local business owners or comparing three years of sales data.",
+      "A detailed time schedule breaks the study into tasks with start and end dates, which shows whether the timetable is realistic.",
+      "A Gantt-style chart shows each task as a bar along a timeline, so overlaps and dependencies are visible at a glance.",
+      "A dependency is a task that cannot start until another task is finished, such as analysis that must wait for data collection."
+    ] },
+    { "h": "Risk assessment", "b": "A risk assessment identifies events that could stop or weaken the study, judges how likely and serious each one is, and sets out a response.", "points": [
+      "A risk is any event that could delay the study or damage the quality of its evidence, such as a business refusing an interview.",
+      "Likelihood and impact are each rated, for example as low, medium or high, so the most serious risks receive attention first.",
+      "Each risk needs a planned response, such as contacting a second business in case the first one declines.",
+      "Risks should be reviewed during the study, because new ones appear as the work progresses."
+    ] },
+    { "h": "Monitoring progress and keeping records", "b": "Monitoring checks actual progress against the plan. Milestones, logs and the investigative folder are the main tools.", "points": [
+      "A milestone is a fixed point in the plan marking completed work, such as finishing data collection by a set date.",
+      "A progress log records what was done, when, what problems arose and what changed as a result, giving a dated trail of decisions.",
+      "The investigative folder holds the notes, data, sources and drafts kept throughout the study, as recommended by the specification.",
+      "A task that falls behind shows up in the monitoring record early enough to adjust the schedule, rather than forcing a rush at the end."
+    ] },
+    { "h": "Evaluating the plan and the process", "b": "Evaluation looks back at whether the plan worked. It feeds into the report's reflection and the student's own learning.", "points": [
+      "Evaluation compares planned dates and outcomes with what actually happened, and explains the reasons for any differences.",
+      "A plan can prove too ambitious when tasks are given too little time, and evaluation should name that cause and the adjustment made.",
+      "Evaluating the process also covers the quality of the information gathered and how any gaps in it were handled."
+    ] },
+    { "h": "A complete sample plan for a 20-hour study", "b": "This is a planning model showing how the elements fit together over a fixed number of hours. It is not a template for a student's report.", "points": [
+      "Hours 1 to 2: choose a business topic and write three possible research questions, testing each against the SMART criteria.",
+      "Hours 3 to 4: write the project plan, covering purpose, goals, criteria for success, roles, resources, objectives, a Gantt-style schedule and a risk assessment.",
+      "Hours 5 to 9: collect primary data through questionnaires or interviews, gather at least two secondary sources, and record and reference every item as it is gathered.",
+      "Hours 10 to 13: organise the data, interpret the tables and charts, and compare findings across the sources.",
+      "Hours 14 to 16: evaluate the sources and findings, draw conclusions, and form recommendations for a named audience.",
+      "Hours 17 to 20: write up the study, check the references and length, reflect on any change in perspective, and update the monitoring log."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Project plan", "definition": "A document setting out a study's purpose, goals, roles, resources, objectives, schedule, risks and monitoring arrangements." },
+    { "term": "Milestone", "definition": "A fixed point in a project plan marking that a stage of the work should be complete by a set date." },
+    { "term": "Gantt chart", "definition": "A bar chart that shows project tasks against a timeline, with their start dates, durations and overlaps." },
+    { "term": "Risk assessment", "definition": "A structured review of events that could disrupt a project, rating their likelihood and impact and planning responses to them." },
+    { "term": "Criteria for success", "definition": "Measures set in advance for judging whether a project has achieved its goals." },
+    { "term": "Dependency", "definition": "A task that cannot begin until another task has been completed." },
+    { "term": "Progress log", "definition": "A dated written record of the work completed, the problems met and the changes made during a project." },
+    { "term": "Investigative folder", "definition": "The collection of notes, data, sources and drafts kept throughout a study as evidence of the process." }
+  ],
+  "factCards": [
+    { "term": "Elements of a project plan", "definition": "Purpose, goals, criteria for success, roles and responsibilities, resources, objectives, a detailed time schedule, a risk assessment, and monitoring and evaluation." },
+    { "term": "Two reasons to monitor a project", "definition": "It exposes delays early enough to adjust the schedule, and it provides evidence of the process for the report." },
+    { "term": "Steps in a risk assessment", "definition": "Identify the risk, rate its likelihood and impact, plan a response, and review it during the study." },
+    { "term": "Benefit of a Gantt-style schedule", "definition": "It shows task order, overlaps and dependencies at a glance, which makes an unrealistic timetable easy to spot." },
+    { "term": "Weakness of an overambitious plan", "definition": "Tasks given too little time lead to late submission and a rushed analysis." },
+    { "term": "What the investigative folder holds", "definition": "Notes, data, sources, drafts, questionnaires and logs, kept in dated order." },
+    { "term": "Uses of evaluating the plan", "definition": "It compares planned and actual dates, names the causes of any difference, and informs the reflection in the report." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Explain the purpose of a detailed project plan for an Investigative Study, and the role that monitoring plays in it.", "model": "A detailed project plan sets out the study's purpose, goals, criteria for success, roles, resources, objectives, schedule and risks before work begins. This gives the student a clear route from the research question to the conclusion, and it shows the teacher and the student what must be achieved and when. The schedule reveals whether the timetable is realistic, and the risk assessment identifies what could go wrong so responses can be planned in advance. Monitoring checks actual progress against the plan at set milestones. A progress log records what was done, what problems arose and what changed. If a task falls behind, the monitoring record shows the delay early, so the student can adjust the schedule instead of rushing the analysis at the end." },
+    { "marks": 15, "prompt": "Identify two risks a student might face when collecting primary data for an Investigative Study, and state a planned response to each.", "model": "The first risk is that businesses refuse the interview request, which would leave the study without its main primary evidence. The planned response is to approach a second group of businesses at the same time, so the study does not depend on a single reply. The second risk is that too few questionnaires are returned, which would make the sample too small to support any conclusion. The planned response is to distribute the questionnaire more widely at the start and to set a reminder date, so that a shortfall is noticed while there is still time to act." },
+    { "marks": 10, "prompt": "Explain why an evaluation of the project plan should be included in an Investigative Study.", "model": "Evaluation compares the planned dates and outcomes with what actually happened, so the student can explain any difference and its cause. This shows that the student understands how the study was managed, not just what the study found. It also gives the student a basis for reflecting on the process and on the quality of the information gathered." }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "loId": "ch2-s2",
+  "chapterId": "ch2",
+  "subsection": "2. Forms of ownership and how ownership changes",
+  "syllabusRef": "1.2.2",
+  "notes": [
+    { "h": "Sole trader", "b": "A sole trader is one person who owns and runs a business and is personally responsible for all of it.", "points": [
+      "Ownership and control rest with one person, who keeps all profit after tax and makes every decision alone, so decisions can be quick.",
+      "Liability is unlimited, so personal assets such as a home or savings can be used to pay the business's debts.",
+      "Finance comes from personal savings, bank loans and retained profit, which limits how far the business can grow.",
+      "No formal company registration is needed to start trading, but trading under a name other than the owner's own requires registration with the CRO.",
+      "Advantages are simplicity, full control and few public filing requirements. Disadvantages are unlimited liability, limited capital and the fact that the business ends when the owner stops.",
+      "Example: a local plumber or hairdresser working under their own name."
+    ] },
+    { "h": "Partnership", "b": "A partnership is two or more people who own a business together and share its profits, losses and responsibilities under a partnership agreement.", "points": [
+      "Ownership and control are shared among the partners, who usually divide decision-making according to the agreement.",
+      "Each partner has unlimited liability, and partners are generally liable for debts that another partner runs up on the firm's behalf.",
+      "Finance comes from partners' capital contributions and bank loans, which can be larger than a sole trader can raise alone.",
+      "Advantages are shared skills, capital and workload. Disadvantages are disagreements between partners and the risk of one partner's mistake damaging all of them.",
+      "Example: many firms of solicitors and accountants in Ireland operate as partnerships."
+    ] },
+    { "h": "Private limited company", "b": "A private limited company, with 'Ltd' in its name, is a separate legal person owned by shareholders whose shares cannot be offered to the public.", "points": [
+      "Shareholders own the company and vote at the annual general meeting, while directors manage it day to day on the shareholders' behalf.",
+      "Liability is limited, so shareholders normally lose only the amount they have invested or agreed to invest, and their personal assets are protected.",
+      "Finance comes from share capital, retained profit and bank loans, and the company cannot raise money by offering shares to the general public.",
+      "The company is formed by registration with the CRO under the Companies Act 2014, and it must keep records, file annual returns and follow company law.",
+      "Profit is distributed as dividends to shareholders, in proportion to their shares, after the company has met its costs and tax.",
+      "Advantages are limited liability, a separate legal identity and continuity beyond any one owner. Disadvantages are compliance costs and public filing of accounts.",
+      "Example: many Irish family builders and retailers trade as private limited companies."
+    ] },
+    { "h": "Public limited company", "b": "A public limited company, designated plc, is a company whose shares are offered to the public and can be traded on a stock exchange.", "points": [
+      "Ownership is spread across many shareholders, and the board of directors is appointed by shareholders, so ownership and day-to-day control are separated.",
+      "Liability is limited, as in a private company, but the shares can be bought and sold on the stock exchange, which makes them easier to trade.",
+      "A plc can raise large amounts of finance by issuing shares to investors, which is essential for big projects and acquisitions.",
+      "Profit is paid as dividends and is also reflected in the share price, which investors watch closely.",
+      "Advantages are access to large-scale capital and high public profile. Disadvantages are strict reporting and governance rules, the cost of listing and pressure from shareholders for short-term results.",
+      "Examples: Kerry Group plc and Glanbia plc, both listed on Euronext Dublin."
+    ] },
+    { "h": "Franchise", "b": "A franchise is an agreement in which a franchisee pays a franchisor for the right to trade under its brand and follow its business system.", "points": [
+      "The franchisor owns the brand, product and operating system, while the franchisee owns and runs the local outlet.",
+      "The franchisee pays an upfront fee and ongoing royalties, usually a share of sales, and must follow the franchisor's standards on products, pricing and presentation.",
+      "The franchisee funds the premises and equipment, and the franchisor provides training, marketing and support.",
+      "Advantages for the franchisee are a proven brand and lower risk than starting from scratch. Disadvantages are royalties that reduce profit and limited independence.",
+      "Example: local owners of Subway outlets in Ireland, who pay a franchise fee and royalties to the parent brand."
+    ] },
+    { "h": "Co-operative", "b": "A co-operative is a business owned and democratically controlled by its members, who use its services, supply it or work in it.", "points": [
+      "Members control the co-operative, and each member usually has one vote regardless of how much capital they have put in.",
+      "Surplus is shared among members in proportion to their trade with the co-operative, or it is reinvested in the business.",
+      "Finance comes from member shares, member loans and retained surplus, and it can be harder to attract outside investors than for a company.",
+      "Advantages are member loyalty, democratic control and a focus on members' needs. Disadvantages are slower decision-making and possible conflict between members with different interests.",
+      "Examples: Dairygold Co-operative Society and Irish credit unions, which are owned by their members."
+    ] },
+    { "h": "Public sector organisation", "b": "A public sector organisation is owned by the State and funded mainly through taxation, with a service aim rather than a profit aim.", "points": [
+      "The State owns it, and ministers, boards or statute set its objectives and powers.",
+      "It is funded by taxpayers through the Exchequer, so there are no shareholders and no profit is distributed.",
+      "Advantages are universal service and stability of provision. Disadvantages are slower decision-making, bureaucracy and political influence over priorities.",
+      "Example: the HSE, which runs most publicly funded health services."
+    ] },
+    { "h": "How ownership changes over a business's life", "b": "Many businesses move through a sequence of ownership forms as they grow, need more finance or plan for the future.", "points": [
+      "A typical path begins as a sole trader, then adds partners or incorporates as a private limited company to gain limited liability and access to more capital.",
+      "Flotation happens when a private company offers its shares to the public for the first time and lists them on a stock exchange, turning it into a plc.",
+      "Other ways ownership changes include family succession, a management buyout in which managers buy the business, sale to another company and merger.",
+      "Ownership can also move in the reverse direction: a plc can be bought out by private investors and taken off the stock exchange.",
+      "Reasons for change include the need for finance, reducing the founder's personal risk, succession planning and an exit for founders who want to sell their stake."
+    ] },
+    { "h": "Nationalisation and privatisation", "b": "These are the two main ways the State changes the ownership of enterprises, and they reverse each other.", "points": [
+      "Nationalisation is the transfer of ownership of a privately owned enterprise to the State, usually by buying its shares or compulsory acquisition with compensation.",
+      "Reasons for nationalisation include protecting an essential service, controlling a natural monopoly, and rescuing a failing firm whose collapse would damage the economy.",
+      "Effects of nationalisation include government control over prices and investment and a fiscal cost, but also greater public influence over services.",
+      "Privatisation is the sale of a State-owned enterprise to private investors, for example through a public share offer or a trade sale to a buyer.",
+      "Reasons for privatisation include raising funds, improving efficiency through competition and reducing the State's role in business.",
+      "Effects of privatisation include more competition and choice for consumers, but a risk of higher prices or weaker provision of services that the public needs.",
+      "Irish examples: during the banking crisis the State took majority ownership of several banks, including Allied Irish Banks and Anglo Irish Bank, and Telecom Éireann, later eircom, was sold to private investors."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Sole trader", "definition": "A business owned and run by one person, who is personally responsible for all of its debts." },
+    { "term": "Unlimited liability", "definition": "A position in which an owner can be required to pay all of the business's debts from personal assets." },
+    { "term": "Limited liability", "definition": "A position in which owners are responsible for business debts only up to the amount they have invested or agreed to invest." },
+    { "term": "Private limited company", "definition": "A company whose shares cannot be offered to the public, whose shares transfer only under restrictions, and whose owners have limited liability." },
+    { "term": "Public limited company", "definition": "A company whose shares are offered to the public and may be traded on a stock exchange, designated plc." },
+    { "term": "Flotation", "definition": "The first sale of a company's shares to the public, which lists the company on a stock exchange." },
+    { "term": "Franchise", "definition": "An arrangement in which a franchisee pays fees and royalties to a franchisor for the right to trade under its brand and system." },
+    { "term": "Co-operative", "definition": "A business owned and democratically controlled by its members, who share its surplus or benefits." },
+    { "term": "Nationalisation", "definition": "The transfer of ownership of a private enterprise to the State." },
+    { "term": "Privatisation", "definition": "The sale of a State-owned enterprise to private investors." }
+  ],
+  "factCards": [
+    { "term": "Ways a sole trader can raise finance", "definition": "Personal savings, bank loans and retained profit." },
+    { "term": "Ways ownership of a company can change over its life", "definition": "Adding shareholders, flotation, family succession, management buyout, sale or merger." },
+    { "term": "Advantage and disadvantage of a plc", "definition": "Advantage: large-scale finance from the public. Disadvantage: heavy reporting duties and pressure for short-term results." },
+    { "term": "Main cost to a franchisee after the initial outlay", "definition": "Ongoing royalties, usually a share of sales, which reduce profit." },
+    { "term": "How a co-operative's surplus is shared", "definition": "Among members, usually in proportion to their trade with the co-operative, or reinvested in the business." },
+    { "term": "Reason a government nationalises a firm", "definition": "To protect an essential service or to rescue a failing firm that matters to the wider economy." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Distinguish between a sole trader and a private limited company, referring to liability, control and finance.", "model": "Liability: a sole trader has unlimited liability, so the owner's personal assets such as a home can be used to pay business debts, whereas shareholders of a private limited company have limited liability and normally lose only the amount invested. Control: the sole trader makes all decisions alone, while a private limited company is managed by directors who are answerable to shareholders at the annual general meeting. Finance: a sole trader relies on personal savings and bank loans, which limits growth, while a private limited company can raise capital through share issues to a small group of investors. Evaluation: the sole trader is cheaper and simpler to run, but the company offers greater protection for owners and better access to finance for growth." },
+    { "marks": 15, "prompt": "Explain how a business may change from a sole trader to a public limited company.", "model": "A sole trader may take in a partner or incorporate as a private limited company to gain limited liability and access more capital. When growth needs large amounts of finance, the company may float by offering its shares to the public and listing them on a stock exchange, which makes it a public limited company. The change brings more shareholders, a separation of ownership from control, and stricter reporting, and the founders may sell part of their stake." }
+  ]
+}
