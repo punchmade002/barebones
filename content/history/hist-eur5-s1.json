@@ -48,12 +48,13 @@
       "b": "Britain's exhausted post-war economy and Labour's commitment to independence set the timing of withdrawal.",
       "points": [
         "Clement Attlee's Labour Party won a landslide in the general election of July 1945, and Attlee became prime minister on 26 July 1945.",
-        "Britain had spent heavily on the war; it borrowed about $3.75 billion from the United States in 1945 on terms that tied its economic policy to American conditions.",
+        "Britain had spent heavily on the war; it borrowed about 3.75 billion dollars from the United States in 1945 on terms that tied its economic policy to American conditions.",
         "In February 1946 ratings of the Royal Indian Navy mutinied at Bombay over pay and conditions; the mutiny was suppressed, but it showed that the armed forces could no longer be relied on to support British rule.",
         "The Cabinet Mission of March–June 1946 proposed a loose federal India with groups of provinces; it failed to win agreement between Congress and the League.",
         "The League called Direct Action Day for 16 August 1946; communal killings in Calcutta left thousands dead and many more injured.",
         "On 20 February 1947 Attlee announced that British rule would end by June 1948 at the latest, and Lord Wavell was replaced as Viceroy by Lord Mountbatten.",
-        "Mountbatten's plan of 3 June 1947 accepted partition, and the date was brought forward to 15 August 1947 once the principal Indian leaders agreed."
+        "Mountbatten's plan of 3 June 1947 accepted partition, and the date was brought forward to 15 August 1947 once the principal Indian leaders agreed.",
+        "The Cripps Mission of March 1942 offered India dominion status after the war, but Congress rejected the offer and it was withdrawn."
       ]
     },
     {
@@ -77,7 +78,8 @@
         "The first Indo-Pakistani war over Kashmir ended with a ceasefire from 1 January 1949, leaving a line that became a long-term division of the state.",
         "Jinnah became Governor-General of Pakistan and died in September 1948.",
         "The London Declaration of April 1949 allowed India to become a republic while remaining a member of the Commonwealth, with the King recognised as head of the association.",
-        "India became a republic on 26 January 1950, with Jawaharlal Nehru as prime minister."
+        "India became a republic on 26 January 1950, with Jawaharlal Nehru as prime minister.",
+        "Claude Auchinleck remained commander-in-chief of the armies of both new dominions until 1948, when the armies were formally divided."
       ]
     },
     {
@@ -116,28 +118,91 @@
     }
   ],
   "keyTerms": [
-    { "term": "Colonial rule", "definition": "The control of a territory by an external power that governed it for the benefit of the imperial state, often without the consent of its people." },
-    { "term": "De-colonisation", "definition": "The process by which colonies gained independence from their European rulers, usually between 1945 and the 1960s in Asia and Africa." },
-    { "term": "British Commonwealth", "definition": "The association of Britain and its former colonies and dominions, which by 1949 allowed republics such as India to remain members." },
-    { "term": "Satyagraha", "definition": "Gandhi's method of non-violent civil disobedience, based on the idea of truth-force, used to challenge unjust laws." },
-    { "term": "Partition", "definition": "The division of British India into the separate states of India and Pakistan at independence in August 1947." },
-    { "term": "Muslim League", "definition": "The political party founded in 1906 that campaigned for Muslim political rights and, from 1940, for a separate Muslim state." },
-    { "term": "Cabinet Mission", "definition": "The British delegation of 1946 that proposed a federal settlement for India, which failed to gain the agreement of the Congress and the League." },
-    { "term": "Dominion status", "definition": "The status of a self-governing member of the British Commonwealth, with its own parliament, while the British monarch remained head of state." }
+    {
+      "term": "Colonial rule",
+      "definition": "The control of a territory by an external power that governed it for the benefit of the imperial state, often without the consent of its people."
+    },
+    {
+      "term": "De-colonisation",
+      "definition": "The process by which colonies gained independence from their European rulers, usually between 1945 and the 1960s in Asia and Africa."
+    },
+    {
+      "term": "British Commonwealth",
+      "definition": "The association of Britain and its former colonies and dominions, which by 1949 allowed republics such as India to remain members."
+    },
+    {
+      "term": "Satyagraha",
+      "definition": "Gandhi's method of non-violent civil disobedience, based on the idea of truth-force, used to challenge unjust laws."
+    },
+    {
+      "term": "Partition",
+      "definition": "The division of British India into the separate states of India and Pakistan at independence in August 1947."
+    },
+    {
+      "term": "Muslim League",
+      "definition": "The political party founded in 1906 that campaigned for Muslim political rights and, from 1940, for a separate Muslim state."
+    },
+    {
+      "term": "Cabinet Mission",
+      "definition": "The British delegation of 1946 that proposed a federal settlement for India, which failed to gain the agreement of the Congress and the League."
+    },
+    {
+      "term": "Dominion status",
+      "definition": "The status of a self-governing member of the British Commonwealth, with its own parliament, while the British monarch remained head of state."
+    }
   ],
   "factCards": [
-    { "term": "Singapore, February 1942", "definition": "Singapore fell to Japan on 15 February 1942, and about 80,000 Commonwealth troops were captured." },
-    { "term": "Amritsar, April 1919", "definition": "On 13 April 1919 British-Indian troops fired on a crowd at Jallianwala Bagh, killing hundreds of people." },
-    { "term": "Salt March, 1930", "definition": "From 12 March to 6 April 1930 Gandhi walked to Dandi on the coast to make salt in defiance of the British salt monopoly." },
-    { "term": "Quit India, August 1942", "definition": "On 8 August 1942 Congress demanded British withdrawal; Gandhi and most leaders were arrested and held until 1944." },
-    { "term": "Lahore Resolution, 1940", "definition": "Passed on 23 March 1940, it called for independent states in the Muslim-majority areas, the basis of the Pakistan demand." },
-    { "term": "1946 British delegation to India", "definition": "The 1946 mission proposed a loose federal India with provincial groups, but failed to satisfy Congress and the League." },
-    { "term": "Direct Action Day", "definition": "The League's call of 16 August 1946, followed by communal killings in Calcutta that left thousands dead." },
-    { "term": "Attlee's deadline, February 1947", "definition": "On 20 February 1947 Attlee announced that British rule in India would end by June 1948 at the latest." },
-    { "term": "Radcliffe Line, 1947", "definition": "The boundary between India and Pakistan in the Punjab and Bengal, drawn by Cyril Radcliffe and announced on 17 August 1947." },
-    { "term": "Gandhi's assassination", "definition": "Gandhi was shot in Delhi on 30 January 1948 by Nathuram Godse, a Hindu nationalist." },
-    { "term": "Kashmir ceasefire, 1949", "definition": "A UN-arranged ceasefire from 1 January 1949 ended the first Indo-Pakistani war over Kashmir." },
-    { "term": "Mohandas Gandhi: three achievements", "definition": "He made satyagraha a mass method of protest, led the Salt March and Quit India campaigns, and kept British withdrawal on the political agenda from the 1920s." },
-    { "term": "Muhammad Ali Jinnah: role", "definition": "He led the Muslim League from 1934, pressed the Pakistan demand, and became Governor-General of Pakistan in 1947." }
+    {
+      "term": "Singapore, February 1942",
+      "definition": "Singapore fell to Japan on 15 February 1942, and about 80,000 Commonwealth troops were captured."
+    },
+    {
+      "term": "Amritsar, April 1919",
+      "definition": "On 13 April 1919 British-Indian troops fired on a crowd at Jallianwala Bagh, killing hundreds of people."
+    },
+    {
+      "term": "Salt March, 1930",
+      "definition": "From 12 March to 6 April 1930 Gandhi walked to Dandi on the coast to make salt in defiance of the British salt monopoly."
+    },
+    {
+      "term": "Quit India, August 1942",
+      "definition": "On 8 August 1942 Congress demanded British withdrawal; Gandhi and most leaders were arrested and held until 1944."
+    },
+    {
+      "term": "Lahore Resolution, 1940",
+      "definition": "Passed on 23 March 1940, it called for independent states in the Muslim-majority areas, the basis of the Pakistan demand."
+    },
+    {
+      "term": "1946 British delegation to India",
+      "definition": "The 1946 mission proposed a loose federal India with provincial groups, but failed to satisfy Congress and the League."
+    },
+    {
+      "term": "Direct Action Day",
+      "definition": "The League's call of 16 August 1946, followed by communal killings in Calcutta that left thousands dead."
+    },
+    {
+      "term": "Attlee's deadline, February 1947",
+      "definition": "On 20 February 1947 Attlee announced that British rule in India would end by June 1948 at the latest."
+    },
+    {
+      "term": "Radcliffe Line, 1947",
+      "definition": "The boundary between India and Pakistan in the Punjab and Bengal, drawn by Cyril Radcliffe and announced on 17 August 1947."
+    },
+    {
+      "term": "Gandhi's assassination",
+      "definition": "Gandhi was shot in Delhi on 30 January 1948 by Nathuram Godse, a Hindu nationalist."
+    },
+    {
+      "term": "Kashmir ceasefire, 1949",
+      "definition": "A UN-arranged ceasefire from 1 January 1949 ended the first Indo-Pakistani war over Kashmir."
+    },
+    {
+      "term": "Mohandas Gandhi: three achievements",
+      "definition": "He made satyagraha a mass method of protest, led the Salt March and Quit India campaigns, and kept British withdrawal on the political agenda from the 1920s."
+    },
+    {
+      "term": "Muhammad Ali Jinnah: role",
+      "definition": "He led the Muslim League from 1934, pressed the Pakistan demand, and became Governor-General of Pakistan in 1947."
+    }
   ]
 }
