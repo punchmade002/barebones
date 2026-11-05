@@ -148,7 +148,7 @@ SYLLABUS_CUTOFF = {
     "chemistry": (2002, False),   # estimate; verify
     "business":  (1999, False),   # estimate; verify
     "english":   (2001, False),   # estimate; verify
-    "home-economics": (2004, False),  # estimate — current S&S syllabus ~2004; verify
+    "home-economics": (2004, True),   # confirmed: S&S syllabus introduced Sept 2002, first examined 2004, examined June 2027
 }
 
 # subject_key must match bare bones `subject` ids. `code` is optional now (form-discovery
