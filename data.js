@@ -9,6 +9,16 @@ const COURSE_DATA = {
   },
   chapters: [
     {
+      id: "ch0", number: 0, subject: "business", title: "Investigating Business and the Investigative Study", strand: 0,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch0-s1", code: "0.1", syllabusRef: "U1.1, U2.1–U2.6, U6.1", title: "Developing research questions, managing information and acknowledging sources", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s2", code: "0.2", syllabusRef: "U3.1–U3.3", title: "Project planning", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s3", code: "0.3", syllabusRef: "U4.1–U4.5, U5.1–U5.4", title: "Analysing, evaluating and presenting findings", notes: [], keyTerms: [], questions: [] },
+      { id: "ch0-s4", code: "0.4", syllabusRef: "AAC", title: "The Business Alive Investigative Study", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
       id: "ch1", number: 1, subject: "business", title: "Key Stakeholders in Business", strand: 1,
       examQuestions: [],
       learningOutcomes: [
@@ -16,6 +26,42 @@ const COURSE_DATA = {
       { id: "lo1-2", code: "1.2", title: "How stakeholders interact and potential conflicts", notes: [], keyTerms: [], questions: [] },
       { id: "lo1-3", code: "1.3", title: "Avoiding and resolving conflict between stakeholders", notes: [], keyTerms: [], questions: [] },
       { id: "lo1-4", code: "1.4", title: "Stakeholder mapping and prioritising stakeholder interests", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch2", number: 2, subject: "business", title: "Forms of Business, Business Regulation and Governance", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch2-s1", code: "2.1", syllabusRef: "1.2.1", title: "Public, private, semi-state and not-for-profit enterprises", notes: [], keyTerms: [], questions: [] },
+      { id: "ch2-s2", code: "2.2", syllabusRef: "1.2.2", title: "Forms of ownership and how ownership changes", notes: [], keyTerms: [], questions: [] },
+      { id: "ch2-s3", code: "2.3", syllabusRef: "1.2.3–1.2.5", title: "Regulation, governance and ESG", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch3", number: 3, subject: "business", title: "Business and the Economy", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch3-s1", code: "3.1", syllabusRef: "1.3.1", title: "Economic indicators and their impact on business", notes: [], keyTerms: [], questions: [] },
+      { id: "ch3-s2", code: "3.2", syllabusRef: "1.3.2", title: "The value of the business economy in Ireland", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch4", number: 4, subject: "business", title: "The Influence of National and EU Policy", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch4-s1", code: "4.1", syllabusRef: "1.4.1–1.4.3", title: "Irish government policy, legislation and how business influences policy", notes: [], keyTerms: [], questions: [] },
+      { id: "ch4-s2", code: "4.2", syllabusRef: "1.4.4, 1.4.5", title: "EU decision-makers and types of EU law", notes: [], keyTerms: [], questions: [] },
+      { id: "ch4-s3", code: "4.3", syllabusRef: "1.4.6", title: "Evaluating one EU regulation and one EU directive", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch5", number: 5, subject: "business", title: "Irish Business Globally and Internationally", strand: 1,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch5-s1", code: "5.1", syllabusRef: "1.5.1–1.5.3", title: "Trading blocs and Ireland's membership of the EU", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s2", code: "5.2", syllabusRef: "1.5.4–1.5.6", title: "Trading internationally, and the balance of payments", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s3", code: "5.3", syllabusRef: "1.5.7–1.5.9", title: "Globalisation, interdependence and technology", notes: [], keyTerms: [], questions: [] },
+      { id: "ch5-s4", code: "5.4", syllabusRef: "1.5.10, 1.5.11, 1.6.1", title: "Foreign direct investment", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -94,6 +140,34 @@ const COURSE_DATA = {
       ],
     },
     {
+      id: "ch13", number: 13, subject: "business", title: "Leading and Managing an Organisation", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch13-s1", code: "13.1", syllabusRef: "3.1.1–3.1.3, 3.5.1", title: "Leadership, management, organisational culture and leadership styles", notes: [], keyTerms: [], questions: [] },
+      { id: "ch13-s2", code: "13.2", syllabusRef: "3.1.4–3.1.6", title: "Conflict in the workplace and its resolution", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch14", number: 14, subject: "business", title: "Leading and Managing People", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch14-s1", code: "14.1", syllabusRef: "3.2.1–3.2.3", title: "Workforce planning, recruitment and selection", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s2", code: "14.2", syllabusRef: "3.2.4–3.2.6", title: "Motivation and appraisal", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s3", code: "14.3", syllabusRef: "3.2.7, 3.2.8", title: "Human capital management, induction, training and development", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s4", code: "14.4", syllabusRef: "3.2.9, 3.2.10", title: "Teamwork and sustainable workplaces", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s5", code: "14.5", syllabusRef: "3.2.11–3.2.13", title: "Digital technology in the workplace: remote and blended working", notes: [], keyTerms: [], questions: [] },
+      { id: "ch14-s6", code: "14.6", syllabusRef: "3.2.14, 3.2.15", title: "Corporate wellness and the leader's role", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch15", number: 15, subject: "business", title: "The Importance of Communication", strand: 3,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch15-s1", code: "15.1", syllabusRef: "3.3.1, 3.3.4", title: "Why communication matters and how to improve it", notes: [], keyTerms: [], questions: [] },
+      { id: "ch15-s2", code: "15.2", syllabusRef: "3.3.2, 3.3.3", title: "Modes of communication and the impact of technology", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
       id: "ch16", number: 16, subject: "business", title: "The Rationale for Planning", strand: 3,
       examQuestions: [],
       learningOutcomes: [
@@ -117,6 +191,25 @@ const COURSE_DATA = {
       { id: "lo17-3", code: "17.3", title: "Impact of digital technology on consumer behaviour", notes: [], keyTerms: [], questions: [] },
       { id: "lo17-4", code: "17.4", title: "Personal data protection — GDPR", notes: [], keyTerms: [], questions: [] },
       { id: "lo17-5", code: "17.5", title: "Importance of making informed consumer decisions", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch18", number: 18, subject: "business", title: "Making Informed Financial Decisions", strand: 4,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch18-s1", code: "18.1", syllabusRef: "4.2.1", title: "Saving, investing and borrowing", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s2", code: "18.2", syllabusRef: "4.2.2, 4.2.3, 4.2.5", title: "Risk tolerance, reliable information, switching providers and credit ratings", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s3", code: "18.3", syllabusRef: "4.2.4, 4.2.8", title: "Fintech, Central Bank Digital Currency and crypto-assets", notes: [], keyTerms: [], questions: [] },
+      { id: "ch18-s4", code: "18.4", syllabusRef: "4.2.6, 4.2.7, 4.2.9", title: "Regulation of financial services and financial fraud", notes: [], keyTerms: [], questions: [] }
+      ],
+    },
+    {
+      id: "ch19", number: 19, subject: "business", title: "Being an Informed Employee", strand: 4,
+      examQuestions: [],
+      learningOutcomes: [
+      { id: "ch19-s1", code: "19.1", syllabusRef: "4.3.1, 4.3.2", title: "Employee rights and responsibilities: legislative and non-legislative protection", notes: [], keyTerms: [], questions: [] },
+      { id: "ch19-s2", code: "19.2", syllabusRef: "4.3.3, 4.3.4", title: "Trade unions and the gig economy", notes: [], keyTerms: [], questions: [] },
+      { id: "ch19-s3", code: "19.3", syllabusRef: "4.3.5, 4.3.6", title: "The annual Budget and workers; informed decisions as an employee", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {

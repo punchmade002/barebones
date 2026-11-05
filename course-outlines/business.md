@@ -20,16 +20,17 @@
 - **References** in square brackets are the specification's own numbering:
   **[2.4.3]** = Strand 2, section 4 ("The target market"), learning outcome 3. **[U3.2]** = the
   Unifying Strand, section U3, learning outcome 2. **[2.4]** alone = the whole section.
-- **Chapters** are the app's 10 business chapter IDs (`data.js`; business has no
+- **Chapters** are the app's 20 business chapter IDs (`data.js`; business has no
   `pipeline/scaffold` file yet). Keep every ID exactly as written. The IDs follow the
-  specification's section order (ch1 = 1.1; ch6–ch12 = 2.1–2.7; ch16 = 3.4; ch17 = 4.1), so nine
-  sections and the Unifying Strand have no chapter. **Appendix B outlines them in full as
-  proposed chapters (ch0, ch2–ch5, ch13–ch15, ch18–ch19); they need the user's approval before
-  they are added to `data.js`.** Until then they are the biggest gap in the app: 86 of the 138
-  learning outcomes (62%).
-- **Subsection ids** for notes will be `<chapter-id>-s<n>` (e.g. `ch9-s3`), in the order below.
-  `data.js` still lists the old per-outcome entries (`lo9-3` etc.); the split into subsections is
-  done when notes are written, as it was for geography and biology.
+  specification's section order: ch0 = the Unifying Strand; ch1–ch5 = 1.1–1.5; ch6–ch12 =
+  2.1–2.7; ch13–ch16 = 3.1–3.4; ch17–ch19 = 4.1–4.3. The original 10 chapters (ch1, ch6–ch12,
+  ch16, ch17) are outlined in the strand sections below. The 10 added on 2026-11-05 with the
+  user's approval (ch0, ch2–ch5, ch13–ch15, ch18–ch19) are outlined in Appendix B. They have no
+  notes yet: 86 of the 138 learning outcomes (62%) still have no content in the app.
+- **Subsection ids** for notes are `<chapter-id>-s<n>` (e.g. `ch9-s3`), in the order below.
+  The added chapters already use them in `data.js` (`ch2-s1` etc.). The original chapters still
+  list the old per-outcome entries (`lo9-3` etc.); they are split into subsections when their
+  notes are written, as was done for geography and biology.
 - **What each subsection contains:**
   - **Syllabus**: what the specification says students learn about and should be able to do,
     close to its wording. This is the required scope; every item must be covered.
@@ -85,7 +86,7 @@
     20; Investigation, Findings, Analysis and Evaluation 100; Conclusion 30; Overall coherence 50.
     **The live 2027 brief:** investigate how a work practice that uses digital technology is
     impacting either employers or employees, supported by primary and/or secondary data; submit to
-    the class teacher by **12 March 2027** (SEC brief 2027L033C2EL). See proposed chapter ch0 and
+    the class teacher by **12 March 2027** (SEC brief 2027L033C2EL). See chapter ch0 and
     ch14-s5.
   - Sources: SEC sample papers 2027L033A1ES1 (Sample 1) and Sample 2, sample brief 2027L033C2ES,
     live brief — all at examinations.ie/scr and examinations.ie (coursework, 2027).
@@ -94,7 +95,7 @@
 
 ## Strand 1 — Exploring the Business Environment
 
-Sections 1.2–1.6 have no chapter yet; see Appendix B (ch2–ch5).
+Chapters ch2–ch5 (sections 1.2–1.6) are outlined in Appendix B.
 
 ### ch1 — Key Stakeholders in Business [1.1]
 
@@ -480,7 +481,7 @@ Glossary: Porter's five forces model.
 
 ## Strand 3 — Leading in Business
 
-Sections 3.1–3.3 and 3.5 have no chapter yet; see Appendix B (ch13–ch15).
+Chapters ch13–ch15 (sections 3.1–3.3 and 3.5) are outlined in Appendix B.
 
 ### ch16 — The Rationale for Planning [3.4]
 
@@ -537,7 +538,7 @@ Glossary: force-field analysis.
 
 ## Strand 4 — Being Informed and Making Informed Decisions
 
-Sections 4.2 and 4.3 have no chapter yet; see Appendix B (ch18–ch19).
+Chapters ch18–ch19 (sections 4.2 and 4.3) are outlined in Appendix B.
 
 ### ch17 — Making Informed Decisions as a Consumer [4.1]
 
@@ -644,8 +645,8 @@ of named items within a topic. Its topic list does not show:
 - **Bundle and links:** the manifest, `relevant-resources.js` and the resources README now say
   the 2025 specification is first examined June 2027, and the manifest records the check of the
   PDF against the official file.
-- **The app's business chapters cover only 10 of the 19 contextual sections** and none of the
-  Unifying Strand (see Appendix B). The earlier `data.js` gave the impression of a whole course.
+- **The app's business chapters covered only 10 of the 19 contextual sections** and none of the
+  Unifying Strand. The 10 missing chapters were added to `data.js` on 2026-11-05 (Appendix B).
 - **Assessment weighting** is 60% written exam / 40% AAC. The old syllabus was 100% written
   exam with an Applied Business Question; nothing in the app should describe that format.
 - **The 7 Ps** are the specification's list, including packaging and not physical evidence.
@@ -681,18 +682,18 @@ Cover line.
 
 ---
 
-## Appendix B — Proposed chapters for specification content with no home in an existing chapter
+## Appendix B — Chapters added 2026-11-05 for specification content the app had no chapter for
 
-These sections are in the specification and examined, but the app has no chapter for them. The
-proposed IDs fill the gaps in the existing numbering, which follows the specification's section
-order. **They need the user's approval before being added to `data.js`.** The outlines are
-complete so notes can start as soon as they are approved.
+These sections are in the specification and examined, but the app had no chapter for them. The
+user approved adding them on 2026-11-05; they are now in `data.js` with the subsection ids below
+(`ch0-s1` etc.) and no notes yet. Their IDs fill the gaps in the existing numbering, which
+follows the specification's section order.
 
-### ch0 (proposed) — Investigating Business (Unifying Strand) and the Business Alive Investigative Study [U1–U6]
+### ch0 — Investigating Business (Unifying Strand) and the Business Alive Investigative Study [U1–U6]
 
 The specification weaves this strand through the four contextual strands and assesses it mainly
 through the AAC (40%), though the written exam also assesses "the learning described in ... the
-unifying strand". Alternative ID if the user prefers: `ch20`.
+unifying strand".
 
 Glossary: SMART objectives (for research); sources of information.
 
@@ -744,7 +745,7 @@ Glossary: SMART objectives (for research); sources of information.
      links to ch14-s5 and ch15-s2. Guidance only: never write a student's report.
    - SimpleStudy: Assessment: Investigative Study.
 
-### ch2 (proposed) — Forms of Business, Business Regulation and Governance [1.2]
+### ch2 — Forms of Business, Business Regulation and Governance [1.2]
 
 Glossary: not-for-profit enterprises; Environmental, Social and Governance (ESG) factors.
 
@@ -783,7 +784,7 @@ Glossary: not-for-profit enterprises; Environmental, Social and Governance (ESG)
    - Exam: S1 Q3(a) identify the three elements of an ESG report.
    - SimpleStudy: Business Regulation and Governance.
 
-### ch3 (proposed) — Business and the Economy [1.3]
+### ch3 — Business and the Economy [1.3]
 
 1. **Economic indicators and their impact on business** [1.3.1]
    - Syllabus: the relevance of inflation, employment rates, interest rates, economic growth and
@@ -807,7 +808,7 @@ Glossary: not-for-profit enterprises; Environmental, Social and Governance (ESG)
      (dependence on a few large foreign firms, SME employment).
    - SimpleStudy: Key Economic Indicators.
 
-### ch4 (proposed) — The Influence of National and EU Policy [1.4]
+### ch4 — The Influence of National and EU Policy [1.4]
 
 Glossary: Irish government policy; sector of the economy (in Ireland).
 
@@ -856,7 +857,7 @@ Glossary: Irish government policy; sector of the economy (in Ireland).
      its purpose and evaluate its impact on business in Ireland.
    - SimpleStudy: The European Union.
 
-### ch5 (proposed) — Irish Business Globally and Internationally [1.5; 1.6]
+### ch5 — Irish Business Globally and Internationally [1.5; 1.6]
 
 Glossary: international trade (including trade on the island of Ireland between Ireland and
 Northern Ireland); globalisation; interdependence; human capital.
@@ -924,7 +925,7 @@ Northern Ireland); globalisation; interdependence; human capital.
      and two challenges of FDI.
    - SimpleStudy: International Business.
 
-### ch13 (proposed) — Leading and Managing an Organisation [3.1; 3.5]
+### ch13 — Leading and Managing an Organisation [3.1; 3.5]
 
 1. **Leadership, management, organisational culture and leadership styles** [3.1.1–3.1.3;
    3.5.1]
@@ -957,7 +958,7 @@ Northern Ireland); globalisation; interdependence; human capital.
      recommendation (false); S2 Q2(a)(v) fill-in: shop steward.
    - SimpleStudy: Leading and Managing an Organisation; Employee Governance.
 
-### ch14 (proposed) — Leading and Managing People [3.2]
+### ch14 — Leading and Managing People [3.2]
 
 Glossary: human capital; corporate wellness.
 
@@ -1043,7 +1044,7 @@ Glossary: human capital; corporate wellness.
      initiatives.
    - SimpleStudy: Human Capital Management.
 
-### ch15 (proposed) — The Importance of Communication [3.3]
+### ch15 — The Importance of Communication [3.3]
 
 1. **Why communication matters and how to improve it** [3.3.1, 3.3.4]
    - Syllabus: the significance of effective communication in an organisation, including
@@ -1071,7 +1072,7 @@ Glossary: human capital; corporate wellness.
    - Exam: S2 Q5(a)(i) outline two considerations when choosing a mode of communication.
    - SimpleStudy: The Importance of Communication.
 
-### ch18 (proposed) — Making Informed Financial Decisions [4.2]
+### ch18 — Making Informed Financial Decisions [4.2]
 
 Glossary: fintech; Central Bank Digital Currency (CBDC).
 
@@ -1133,7 +1134,7 @@ Glossary: fintech; Central Bank Digital Currency (CBDC).
      card fraud) and protections; one or two current finance news stories *(verify)*.
    - SimpleStudy: Financial Regulation.
 
-### ch19 (proposed) — Being an Informed Employee [4.3]
+### ch19 — Being an Informed Employee [4.3]
 
 Glossary: gig economy. Footnote 3 of the specification: use current employment legislation.
 
@@ -1187,17 +1188,17 @@ Every section and learning outcome of the specification has a home:
 
 | Spec section | Outcomes | Subsection(s) |
 |---|---|---|
-| U1 Developing questions to research | 1 | ch0-s1 (proposed) |
+| U1 Developing questions to research | 1 | ch0-s1 |
 | U2 Managing information | 6 | ch0-s1 |
 | U3 Project planning | 3 | ch0-s2 |
 | U4 Analysing and evaluating information | 5 | ch0-s3 |
 | U5 Presenting findings and perspectives | 4 | ch0-s3 |
 | U6 Acknowledging sources | 1 | ch0-s1 |
 | 1.1 Key stakeholders | 4 | ch1-s1, s2, s3 |
-| 1.2 Forms of business, regulation, governance | 5 | ch2-s1, s2, s3 (proposed) |
-| 1.3 Business and the economy | 2 | ch3-s1, s2 (proposed) |
-| 1.4 National and EU policy | 6 | ch4-s1, s2, s3 (proposed) |
-| 1.5 Irish business globally | 11 | ch5-s1 to s4 (proposed) |
+| 1.2 Forms of business, regulation, governance | 5 | ch2-s1, s2, s3 |
+| 1.3 Business and the economy | 2 | ch3-s1, s2 |
+| 1.4 National and EU policy | 6 | ch4-s1, s2, s3 |
+| 1.5 Irish business globally | 11 | ch5-s1 to s4 |
 | 1.6 Applying my learning | 1 | ch5-s4, and news examples throughout |
 | 2.1 Enterprise in its broadest sense | 3 | ch6-s1, s2 |
 | 2.2 Idea development | 3 | ch7-s1, s2, s3 |
@@ -1207,18 +1208,18 @@ Every section and learning outcome of the specification has a home:
 | 2.6 Growth, development and expansion | 6 | ch11-s1 to s4 |
 | 2.7 Managing risk | 3 | ch12-s1, s2 |
 | 2.8 Applying my learning | 1 | ch6-s1 |
-| 3.1 Leading and managing an organisation | 6 | ch13-s1, s2 (proposed) |
-| 3.2 Leading and managing people | 15 | ch14-s1 to s6 (proposed) |
-| 3.3 The importance of communication | 4 | ch15-s1, s2 (proposed) |
+| 3.1 Leading and managing an organisation | 6 | ch13-s1, s2 |
+| 3.2 Leading and managing people | 15 | ch14-s1 to s6 |
+| 3.3 The importance of communication | 4 | ch15-s1, s2 |
 | 3.4 The rationale for planning | 9 | ch16-s1, s2, s3 |
-| 3.5 Applying my learning | 1 | ch13-s1 (proposed) |
+| 3.5 Applying my learning | 1 | ch13-s1 |
 | 4.1 Making informed decisions as a consumer | 5 | ch17-s1, s2, s3 |
-| 4.2 Making informed financial decisions | 9 | ch18-s1 to s4 (proposed) |
-| 4.3 Being an informed employee | 6 | ch19-s1, s2, s3 (proposed) |
-| **Total** | **138** | **33 subsections in existing chapters + 33 in proposed chapters** |
+| 4.2 Making informed financial decisions | 9 | ch18-s1 to s4 |
+| 4.3 Being an informed employee | 6 | ch19-s1, s2, s3 |
+| **Total** | **138** | **66 subsections: 33 in the original chapters + 33 in the added ones** |
 
-Outcomes with a home in an existing chapter: 52 of 138 (sections 1.1, 2.1–2.8, 3.4, 4.1).
-Outcomes waiting on proposed chapters: 86 of 138 (the Unifying Strand, 1.2–1.6, 3.1–3.3, 3.5,
+Outcomes in the original 10 chapters: 52 of 138 (sections 1.1, 2.1–2.8, 3.4, 4.1).
+Outcomes in the 10 added chapters: 86 of 138 (the Unifying Strand, 1.2–1.6, 3.1–3.3, 3.5,
 4.2, 4.3).
 
 ## Appendix D — SimpleStudy structure as recorded (2026-08-07)
