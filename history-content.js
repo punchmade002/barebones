@@ -590,20 +590,8 @@
         b: "Belgium withdrew in June 1960 having done almost nothing to prepare a Congolese administration. Within weeks the army mutinied, Katanga seceded under Tshombe with Belgian mining backing, and the state collapsed. The UN deployed a large force in which Irish troops served, suffering losses at Niemba and fighting at Jadotville. Secretary-General Hammarskjöld died in an air crash in 1961, Lumumba was murdered, and Mobutu eventually seized power."
       },
       {
-        h: "Kenya and the Mau Mau",
-        b: "Settler control of the White Highlands and land hunger among the Kikuyu produced the Mau Mau insurgency from 1952. Britain declared an emergency and interned over 100,000 people in camps where abuse was systematic; the Hola camp deaths in 1959 caused a scandal at Westminster. Kenya became independent in 1963 under Jomo Kenyatta, who had been imprisoned as an alleged Mau Mau leader."
-      },
-      {
-        h: "The Portuguese empire and Rhodesia",
-        b: "Portugal fought long wars in Angola, Mozambique and Guinea-Bissau until the Carnation Revolution of April 1974 overthrew the Lisbon dictatorship, after which independence came rapidly and was followed by civil war. In Rhodesia, Ian Smith's white minority declared independence unilaterally in 1965; sanctions and a guerrilla war led to the Lancaster House settlement and majority-rule Zimbabwe in 1980."
-      },
-      {
-        h: "Apartheid in South Africa",
-        b: "The National Party took power in 1948 and legislated comprehensive racial separation: population registration, the Group Areas Act, pass laws and Bantu education. Opposition by the ANC met increasing repression, and the shooting of 69 protesters at Sharpeville in March 1960 led to the banning of the ANC and the turn to armed struggle. Mandela was imprisoned from 1962 and sentenced to life at the Rivonia Trial in 1964."
-      },
-      {
-        h: "Soweto, sanctions and the end of apartheid",
-        b: "The Soweto uprising of June 1976, triggered by compulsory instruction in Afrikaans, was met with gunfire and produced hundreds of deaths and a new generation of activists. International sports boycotts, disinvestment and sanctions tightened through the 1980s while the townships became ungovernable. De Klerk unbanned the ANC and released Mandela in February 1990, opening negotiations that ended apartheid."
+        h: "The Portuguese empire and Angola",
+        b: "Portugal fought long wars in Angola, Mozambique and Guinea-Bissau until the Carnation Revolution of April 1974 overthrew the Lisbon dictatorship, after which independence came rapidly and was followed by civil war."
       },
       {
         h: "The aftermath of empire",

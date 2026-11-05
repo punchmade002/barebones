@@ -9,8 +9,19 @@
     "syllabus": {
       "authority": "NCCA",
       "url": "https://www.curriculumonline.ie/getmedia/da556505-f5fb-4921-869f-e0983fd80e50/SCSEC20_History_syllabus_eng.pdf",
-      "effectiveFrom": "Current syllabus",
-      "firstExamYear": 2006
+      "effectiveFrom": "Current syllabus for examination to June 2028 (curriculumonline.ie); Later Modern field only in the app",
+      "firstExamYear": 2006,
+      "downloadedAt": "2026-11-05",
+      "prescribedTopics": {
+        "circular": "SEC S09/24 (February 2024)",
+        "examYears": [
+          2026,
+          2027
+        ],
+        "laterModern": "Ireland Topic 2: Movements for political and social reform, 1870-1914 (hist-ire2)",
+        "earlyModern": "Ireland Topic 1: Reform and Reformation in Tudor Ireland, 1494-1558"
+      },
+      "notThisDocument": "Curriculum specification for introduction to schools in September 2027 (relevant-resources/syllabi/history-2027-spec.pdf) is a different, later course"
     },
     "research": {
       "provider": "SimpleStudy",

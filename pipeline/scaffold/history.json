@@ -1,7 +1,7 @@
 {
   "subject": "history",
   "field": "Later Modern, 1815-1993",
-  "note": "LC History (current syllabus, first examined 2006). The tagger assigns each exam question to one of these sectionId + chapterId values. Section 1 is the documents-based question on a rotating Ireland case-study topic; tag it to the matching Ireland chapter for that year.",
+  "note": "LC History (current syllabus, first examined 2006, examined to June 2028), Later Modern field only. The tagger assigns each exam question to one of these sectionId + chapterId values. Section 1 is the documents-based question on the topic the SEC prescribes for that year, which may be an Ireland or a Europe topic (2024-2025 Europe Topic 3; 2026-2027 Ireland Topic 2, SEC S09/24; 2028 Europe Topic 6, SEC S25/26); tag it to that topic's chapter. Papers from before 2006 are on the previous syllabus and are not tagged.",
   "sections": [
     { "id": "hist-section1", "title": "Section 1 — Documents-Based Question (100)" },
     { "id": "hist-section2", "title": "Section 2 — Ireland (100)" },

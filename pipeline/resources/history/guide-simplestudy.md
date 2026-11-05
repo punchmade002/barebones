@@ -51,3 +51,9 @@
 
 - Preserve date ranges and geographical qualifiers. Flag uncertain dates, casualty figures and
   attributed motives for primary-source verification.
+- SimpleStudy has units for only 5 of the 12 Later Modern topics (Ireland Topics 2, 3 and 5;
+  Europe Topics 3 and 6). Ireland Topics 1, 4 and 6 and Europe Topics 1, 2, 4 and 5 must be
+  built from the NCCA syllabus alone. See `course-outlines/history.md` Appendix A.
+- The documents-based topic for the 2026 and 2027 examinations is Ireland Topic 2, Movements
+  for political and social reform, 1870–1914 (SEC circular S09/24). Its three case studies need
+  document-level depth.
