@@ -59,7 +59,8 @@
         "The UN Security Council called for a ceasefire and set up a Good Offices Committee; the Renville Agreement of January 1948 was negotiated on a US warship.",
         "United States pressure on the Netherlands, which included threats over Marshall Plan aid, helped bring the Dutch to the negotiating table.",
         "The Round Table Conference at The Hague in 1949 led to the transfer of sovereignty on 27 December 1949 to the United States of Indonesia.",
-        "The Dutch kept West New Guinea until 1962; it was transferred to Indonesia in 1963 after a UN administration period."
+        "The Dutch kept West New Guinea until 1962; it was transferred to Indonesia in 1963 after a UN administration period.",
+        "Sukarno's Indonesia had a large Indonesian Communist Party (PKI) that had millions of members by the mid-1960s, and the army regarded its growth with suspicion."
       ]
     },
     {
@@ -115,27 +116,87 @@
     }
   ],
   "keyTerms": [
-    { "term": "Colonial rule", "definition": "The control of a territory by an external power that governed it for the benefit of the imperial state." },
-    { "term": "De-colonisation", "definition": "The process by which colonies gained independence from their European rulers, most of it after 1945." },
-    { "term": "French Union", "definition": "The federation set up by the French constitution of 1946, linking metropolitan France with its overseas territories and associated states." },
-    { "term": "Viet Minh", "definition": "The League for the Independence of Vietnam, founded in 1941 under Ho Chi Minh, which fought the French and the Japanese." },
-    { "term": "Guided Democracy", "definition": "Sukarno's system from 1959, in which parliamentary democracy was replaced by presidential rule with the army and a National Front." },
-    { "term": "Police actions", "definition": "The Dutch term for their military operations in Indonesia in 1947 and 1948, which were not treated as a war." },
-    { "term": "Konfrontasi", "definition": "Indonesia's campaign of opposition to the formation of Malaysia, from 1963 to 1966, including armed incursions into Borneo." },
-    { "term": "Pancasila", "definition": "The five principles set out by Sukarno on 1 June 1945 as the basis of an independent Indonesian state." }
+    {
+      "term": "Colonial rule",
+      "definition": "The control of a territory by an external power that governed it for the benefit of the imperial state."
+    },
+    {
+      "term": "De-colonisation",
+      "definition": "The process by which colonies gained independence from their European rulers, most of it after 1945."
+    },
+    {
+      "term": "French Union",
+      "definition": "The federation set up by the French constitution of 1946, linking metropolitan France with its overseas territories and associated states."
+    },
+    {
+      "term": "Viet Minh",
+      "definition": "The League for the Independence of Vietnam, founded in 1941 under Ho Chi Minh, which fought the French and the Japanese."
+    },
+    {
+      "term": "Guided Democracy",
+      "definition": "Sukarno's system from 1959, in which parliamentary democracy was replaced by presidential rule with the army and a National Front."
+    },
+    {
+      "term": "Police actions",
+      "definition": "The Dutch term for their military operations in Indonesia in 1947 and 1948, which were not treated as a war."
+    },
+    {
+      "term": "Konfrontasi",
+      "definition": "Indonesia's campaign of opposition to the formation of Malaysia, from 1963 to 1966, including armed incursions into Borneo."
+    },
+    {
+      "term": "Pancasila",
+      "definition": "The five principles set out by Sukarno on 1 June 1945 as the basis of an independent Indonesian state."
+    }
   ],
   "factCards": [
-    { "term": "Declaration of independence, Hanoi, 1945", "definition": "Ho Chi Minh proclaimed the Democratic Republic of Vietnam on 2 September 1945, after the Viet Minh took power in August." },
-    { "term": "Franco-Vietnamese agreement, March 1946", "definition": "On 6 March 1946 France recognised the Democratic Republic of Vietnam as a free state within the French Union." },
-    { "term": "Dien Bien Phu, 1954", "definition": "The siege ran from 13 March to 7 May 1954, and the French garrison surrendered to the Viet Minh under Vo Nguyen Giap." },
-    { "term": "Geneva Accords, July 1954", "definition": "Signed on 21 July 1954, they divided Vietnam at the 17th parallel and called for elections in 1956 that were never held." },
-    { "term": "Bảo Đại's State of Vietnam, 1949", "definition": "A French-backed Vietnamese state under the former emperor Bảo Đại, set up as an alternative to the Democratic Republic." },
-    { "term": "Indonesian proclamation, 17 August 1945", "definition": "Sukarno and Hatta declared Indonesian independence in Jakarta, and the Dutch refused to accept it for four years." },
-    { "term": "Round Table Conference, 1949", "definition": "The conference at The Hague, which led to the transfer of Dutch sovereignty to the United States of Indonesia on 27 December 1949." },
-    { "term": "Bandung Conference, April 1955", "definition": "The Asian–African Conference of 29 countries, which promoted non-alignment and opposition to colonialism." },
-    { "term": "West New Guinea, 1963", "definition": "The territory passed from Dutch control to Indonesia on 1 May 1963, after a UN administration period." },
-    { "term": "The 1965 coup attempt", "definition": "On 30 September 1965 six generals were killed, and Suharto took control of the army, leading to mass anti-communist killings." },
-    { "term": "Ho Chi Minh: key facts", "definition": "Born 1890, he founded the Viet Minh in 1941, proclaimed the Democratic Republic in 1945 and died in September 1969." },
-    { "term": "Achmad Sukarno: key facts", "definition": "Born 1901, he founded the PNI in 1927, proclaimed independence in 1945 and was removed from power by the 1966 Supersemar decree." }
+    {
+      "term": "Declaration of independence, Hanoi, 1945",
+      "definition": "Ho Chi Minh proclaimed the Democratic Republic of Vietnam on 2 September 1945, after the Viet Minh took power in August."
+    },
+    {
+      "term": "Franco-Vietnamese agreement, March 1946",
+      "definition": "On 6 March 1946 France recognised the Democratic Republic of Vietnam as a free state within the French Union."
+    },
+    {
+      "term": "Dien Bien Phu, 1954",
+      "definition": "The siege ran from 13 March to 7 May 1954, and the French garrison surrendered to the Viet Minh under Vo Nguyen Giap."
+    },
+    {
+      "term": "Geneva Accords, July 1954",
+      "definition": "Signed on 21 July 1954, they divided Vietnam at the 17th parallel and called for elections in 1956 that were never held."
+    },
+    {
+      "term": "Bảo Đại's State of Vietnam, 1949",
+      "definition": "A French-backed Vietnamese state under the former emperor Bảo Đại, set up as an alternative to the Democratic Republic."
+    },
+    {
+      "term": "Indonesian proclamation, 17 August 1945",
+      "definition": "Sukarno and Hatta declared Indonesian independence in Jakarta, and the Dutch refused to accept it for four years."
+    },
+    {
+      "term": "Round Table Conference, 1949",
+      "definition": "The conference at The Hague, which led to the transfer of Dutch sovereignty to the United States of Indonesia on 27 December 1949."
+    },
+    {
+      "term": "Bandung Conference, April 1955",
+      "definition": "The Asian–African Conference of 29 countries, which promoted non-alignment and opposition to colonialism."
+    },
+    {
+      "term": "West New Guinea, 1963",
+      "definition": "The territory passed from Dutch control to Indonesia on 1 May 1963, after a UN administration period."
+    },
+    {
+      "term": "The 1965 coup attempt",
+      "definition": "On 30 September 1965 six generals were killed, and Suharto took control of the army, leading to mass anti-communist killings."
+    },
+    {
+      "term": "Ho Chi Minh: key facts",
+      "definition": "Born 1890, he founded the Viet Minh in 1941, proclaimed the Democratic Republic in 1945 and died in September 1969."
+    },
+    {
+      "term": "Achmad Sukarno: key facts",
+      "definition": "Born 1901, he founded the PNI in 1927, proclaimed independence in 1945 and was removed from power by the 1966 Supersemar decree."
+    }
   ]
 }
