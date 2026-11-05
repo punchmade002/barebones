@@ -7906,6 +7906,1298 @@
    }
   ]
  },
+ "hom-food-safety-s1": {
+  "keyTerms": [
+   {
+    "definition": "Thread-like filaments that make up the body of a mould and absorb nutrients from food.",
+    "term": "Hyphae"
+   },
+   {
+    "definition": "The interwoven mass of hyphae that forms the visible growth of a mould.",
+    "term": "Mycelium"
+   },
+   {
+    "definition": "A round, spore-filled case at the tip of a sporangiophore that bursts open to release spores.",
+    "term": "Sporangium"
+   },
+   {
+    "definition": "A thick-walled structure formed in sexual reproduction of a mould, which protects spores until conditions are suitable.",
+    "term": "Zygospore"
+   },
+   {
+    "definition": "An organism that feeds on dead organic matter.",
+    "term": "Saprophyte"
+   },
+   {
+    "definition": "Asexual reproduction in yeast in which a small bud grows from the parent cell and separates as a new cell.",
+    "term": "Budding"
+   },
+   {
+    "definition": "Spores formed in chains at the tips of branched conidiophores, as in Penicillium.",
+    "term": "Conidia"
+   },
+   {
+    "definition": "A single-celled organism, such as a bacterium, with no membrane-bound nucleus.",
+    "term": "Prokaryote"
+   },
+   {
+    "definition": "Whip-like structures that rotate to propel a bacterium.",
+    "term": "Flagella"
+   },
+   {
+    "definition": "The region of a bacterial cell that holds its single circular loop of DNA.",
+    "term": "Nucleoid"
+   },
+   {
+    "definition": "Food, warmth, moisture, oxygen, a slightly acidic pH and time.",
+    "term": "Six conditions needed for mould growth"
+   },
+   {
+    "definition": "A sporangiophore forms a sporangium, which bursts when ripe and releases spores; a spore landing on suitable food grows a new mycelium.",
+    "term": "Asexual reproduction in a mould"
+   },
+   {
+    "definition": "Two compatible hyphae fuse, the dividing wall breaks down, a zygospore forms, and it later germinates to release spores.",
+    "term": "Sexual reproduction in a mould"
+   },
+   {
+    "definition": "It favours 20 to 25 °C and is destroyed by heat above 75 °C.",
+    "term": "Penicillium: favoured temperature and what destroys it"
+   },
+   {
+    "definition": "Cell wall, cell membrane, nucleus, vacuole and granular cytoplasm.",
+    "term": "Parts of a yeast cell"
+   },
+   {
+    "definition": "Cell wall, cell membrane, cytoplasm, ribosomes, flagella and nucleoid.",
+    "term": "Parts of a bacterial cell"
+   },
+   {
+    "definition": "Asexually, by budding, in which a bud grows from the parent cell and separates.",
+    "term": "How yeast reproduces"
+   },
+   {
+    "definition": "Carbon dioxide and alcohol, formed when yeast converts sugar in the absence of oxygen.",
+    "term": "Products of yeast fermentation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Moulds are multicellular filamentous fungi. Their visible body is built from thread-like filaments.",
+    "h": "Structure of a mould (Higher Level only)",
+    "points": [
+     "Hyphae: thread-like filaments that grow over and into food and absorb its nutrients.",
+     "Mycelium: the interwoven mass of hyphae that forms the visible growth, such as the fluffy or powdery layer on bread.",
+     "Sporangiophore: an upright hypha that rises from the mycelium and carries a sporangium at its tip.",
+     "Sporangium: a round, spore-filled case at the tip of a sporangiophore; it bursts open when ripe and releases spores into the air.",
+     "Conidia: in Penicillium, spores borne in chains at the tips of branched conidiophores instead of inside a sporangium.",
+     "Diagram: a mould growing on a food surface, showing the mycelium spreading across the food, a sporangiophore rising from it and a sporangium at its tip; label hypha, mycelium, sporangiophore and sporangium."
+    ]
+   },
+   {
+    "h": "Habitat and sources of moulds (Higher Level only)",
+    "points": [
+     "Moulds are saprophytes: they feed on dead organic matter, so they grow on decaying food and plant material.",
+     "Spores are carried in the air, on dust, on food packaging and on unclean utensils, and settle on food.",
+     "Soil and damp indoor surfaces act as reservoirs from which spores spread to food.",
+     "Rhizopus is the common bread mould; it grows on bread, fruit and other moist starchy or sugary foods."
+    ]
+   },
+   {
+    "h": "Conditions for mould growth (Higher Level only)",
+    "points": [
+     "Food: moulds feed on the organic matter in food, such as bread, cheese, jam and fruit.",
+     "Warmth: most moulds are mesophiles; Penicillium grows best at 20 to 25 °C.",
+     "Moisture: moulds need moisture to grow, so frozen and very dry foods are less at risk.",
+     "Oxygen: moulds are aerobic, so they grow on the surface of food, such as jam, or through open-textured foods such as bread.",
+     "pH: moulds prefer slightly acidic conditions, around pH 4 to 6; strong acids inhibit their growth.",
+     "Time: moulds need about 24 to 48 hours to establish visible growth.",
+     "Freezing at −18 °C inactivates mould growth, but it does not kill the mould."
+    ]
+   },
+   {
+    "h": "Penicillium and Rhizopus (Higher Level only)",
+    "points": [
+     "Penicillium is a saprophytic mould with a green-blue, powdery appearance that grows on bread, jam, cheese and fruit.",
+     "Penicillium reproduces asexually only.",
+     "Heat above 75 °C destroys Penicillium.",
+     "Rhizopus is a saprophytic mould with fluffy white mycelium.",
+     "Rhizopus produces black pin-head sporangia that hold its spores.",
+     "Rhizopus reproduces both sexually and asexually."
+    ]
+   },
+   {
+    "h": "Reproduction of moulds (Higher Level only)",
+    "points": [
+     "Asexual reproduction: once the mycelium is established, a sporangiophore grows upwards and forms a sporangium.",
+     "When the sporangium ripens it bursts, releasing spores into the air.",
+     "A spore that lands on suitable food germinates and grows a new mycelium.",
+     "Sexual reproduction: two compatible hyphae grow beside each other and fuse.",
+     "The dividing wall between the fused hyphae breaks down and a thick-walled zygospore forms.",
+     "The zygospore protects the spores until conditions are suitable; then it germinates, hyphae grow out and spores are released."
+    ]
+   },
+   {
+    "b": "Yeasts are single-celled fungi. Each cell is a single oval or round unit, larger and more regular in shape than a bacterium.",
+    "h": "Structure of a yeast cell (Higher Level only)",
+    "points": [
+     "Cell wall: a rigid outer layer that gives the cell its shape and protects it.",
+     "Cell membrane: a thin layer inside the cell wall that controls which substances pass in and out.",
+     "Nucleus: a membrane-bound structure containing the genetic material, so yeast is a eukaryote.",
+     "Vacuole: a fluid-filled storage space within the cytoplasm.",
+     "Granular cytoplasm: the jelly-like contents of the cell, containing food reserves stored as granules.",
+     "Diagram: a yeast cell labelled cell wall, cell membrane, nucleus, vacuole and granular cytoplasm."
+    ]
+   },
+   {
+    "h": "Habitat and reproduction of yeasts (Higher Level only)",
+    "points": [
+     "Yeasts occur naturally on fruit skins, on grapes, in soil and in the air.",
+     "Yeasts need sugar, moisture and time to grow; they respire aerobically, or ferment sugar when oxygen is absent.",
+     "Reproduction is asexual, by budding: a small bud grows from the parent cell, enlarges and separates as a new cell.",
+     "In fermentation, yeast converts sugar into carbon dioxide and alcohol."
+    ]
+   },
+   {
+    "b": "Bacteria are prokaryotes: single cells with no nucleus, so their genetic material lies free in the cytoplasm.",
+    "h": "Structure of a bacterial cell (Higher Level only)",
+    "points": [
+     "Cell wall: a rigid layer, made of peptidoglycan, that gives the bacterial cell its shape and protects it.",
+     "Cell membrane: controls the movement of substances in and out of the cell.",
+     "Cytoplasm: the jelly-like interior where the cell's chemical reactions take place.",
+     "Ribosomes: small structures in the cytoplasm where proteins are made.",
+     "Flagella: whip-like tails that rotate to move the bacterium; not all bacteria have them.",
+     "Nucleoid: the region containing the single circular loop of DNA; plasmids are small extra loops of DNA.",
+     "Diagram: a bacterial cell labelled cell wall, cell membrane, cytoplasm, ribosomes, flagella and nucleoid."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Hyphae: thread-like filaments that grow into the food and absorb its nutrients. Mycelium: the network of hyphae that forms the visible growth on the food. Accept also sporangium, a spore-filled case that bursts to release spores, and sporangiophore, the upright hypha that carries the sporangium. Award one mark for each correctly named structure and one for each correct function, up to six.",
+    "prompt": "Identify two structures of a mould and state the function of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Named mould: Penicillium, a saprophytic blue-green mould found on bread, jam, cheese and fruit. Temperature: most moulds are mesophiles; Penicillium grows best at 20 to 25 °C. Warm conditions speed up growth and reproduction, so food left at room temperature becomes mouldy quickly. Freezing at −18 °C inactivates growth, and temperatures above 75 °C destroy the mould. Moisture: moulds need moisture to grow and absorb nutrients; food with high moisture content is at greater risk, while dry foods support little growth. Freezing makes water unavailable, so frozen foods are unsuitable for mould growth. Reproduction: the mould forms spores that are released into the air and settle on food; a spore landing on moist, warm food germinates and grows a mycelium within 24 to 48 hours. Award marks for a clear named mould, the effect of each factor with a reason, and an example of stored food.",
+    "prompt": "Explain how temperature and moisture affect the growth of moulds on stored food. Refer to a named mould in your answer.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s2": {
+  "keyTerms": [
+   {
+    "definition": "Bacteria that cause disease when they are eaten in large numbers.",
+    "term": "Pathogenic bacteria"
+   },
+   {
+    "definition": "A toxin made inside a bacterial cell that is released when the cell dies.",
+    "term": "Endotoxin"
+   },
+   {
+    "definition": "A toxin released by a bacterium into the food as it grows, which can cause illness without any bacteria being eaten.",
+    "term": "Exotoxin"
+   },
+   {
+    "definition": "The time between eating contaminated food and the appearance of symptoms.",
+    "term": "Incubation period"
+   },
+   {
+    "definition": "A micro-organism that grows best at moderate temperatures, about 20 to 45 °C.",
+    "term": "Mesophile"
+   },
+   {
+    "definition": "A micro-organism that grows best at low temperatures, about −5 to 20 °C.",
+    "term": "Psychrophile"
+   },
+   {
+    "definition": "A micro-organism that grows best at high temperatures, about 45 to 75 °C.",
+    "term": "Thermophile"
+   },
+   {
+    "definition": "A micro-organism that can grow either with or without oxygen.",
+    "term": "Facultative micro-organism"
+   },
+   {
+    "definition": "A micro-organism that thrives in the absence of oxygen.",
+    "term": "Anaerobic micro-organism"
+   },
+   {
+    "definition": "The temperature range of about 5 to 63 °C in which food poisoning bacteria multiply rapidly.",
+    "term": "Danger zone"
+   },
+   {
+    "definition": "A dormant, resistant bacterial cell that can survive cooking and unfavourable conditions.",
+    "term": "Spore"
+   },
+   {
+    "definition": "Psychrophiles grow best at about −5 to 20 °C; mesophiles at about 20 to 45 °C; thermophiles at about 45 to 75 °C.",
+    "term": "Three temperature groups of micro-organisms: optimum growth ranges"
+   },
+   {
+    "definition": "Aerobic micro-organisms need oxygen; anaerobic micro-organisms thrive without it; facultative micro-organisms adapt to either condition.",
+    "term": "Three types of oxygen requirement in micro-organisms"
+   },
+   {
+    "definition": "Diarrhoea, nausea, vomiting, abdominal pain and fever.",
+    "term": "Salmonella: symptoms"
+   },
+   {
+    "definition": "About 1 to 6 hours, often around 2 hours after eating contaminated food.",
+    "term": "Staphylococcus aureus: incubation period"
+   },
+   {
+    "definition": "Paralysis caused by a neurotoxin, with symptoms such as double vision, difficulty swallowing and breathing difficulties.",
+    "term": "Clostridium botulinum: effects of its toxin"
+   },
+   {
+    "definition": "An endotoxin, which is released when the bacterial cell dies in the body.",
+    "term": "Toxin made inside the bacterial cell in infectious food poisoning"
+   },
+   {
+    "definition": "An enterotoxin that is not destroyed by normal cooking, so the food can still cause illness after it has been cooked.",
+    "term": "Heat-stable toxin of Staphylococcus aureus"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Temperature groups of micro-organisms (Higher Level only)",
+    "points": [
+     "Psychrophiles grow best at about −5 to 20 °C, in cold conditions such as refrigerated food.",
+     "Mesophiles grow best at about 20 to 45 °C; most food poisoning bacteria are mesophiles.",
+     "Salmonella has an optimum growth temperature of about 37 °C.",
+     "Thermophiles grow best at about 45 to 75 °C, in hot environments.",
+     "The danger zone, about 5 to 63 °C, is the range in which mesophilic food poisoning bacteria multiply rapidly."
+    ]
+   },
+   {
+    "h": "Oxygen requirements (Higher Level only)",
+    "points": [
+     "Aerobic micro-organisms require oxygen to survive and grow; moulds are aerobic.",
+     "Anaerobic micro-organisms thrive without oxygen; Clostridium botulinum is an example.",
+     "Facultative micro-organisms adapt to either aerobic or anaerobic conditions; Salmonella, Staphylococcus aureus and yeast are facultative."
+    ]
+   },
+   {
+    "b": "Salmonella is a common infectious food poisoning bacterium.",
+    "h": "Salmonella (Higher Level only)",
+    "points": [
+     "Structure: a rod-shaped, Gram-negative bacterium that does not form spores; it reproduces by binary fission.",
+     "Habitat and sources: the intestines of humans, animals and birds; faeces; polluted water; unwashed hands.",
+     "High-risk foods: raw or undercooked poultry, meat, fish and eggs; unpasteurised milk and dairy products.",
+     "Growth: needs food, moisture and time, and favours a near-neutral pH.",
+     "Incubation period: usually 12 to 72 hours after eating contaminated food.",
+     "Symptoms: diarrhoea, nausea, vomiting, abdominal pain and fever."
+    ]
+   },
+   {
+    "b": "Staphylococcus aureus is a common toxic food poisoning bacterium.",
+    "h": "Staphylococcus aureus (Higher Level only)",
+    "points": [
+     "Structure: a Gram-positive, spherical cell that forms grape-like clusters; it does not form spores.",
+     "Habitat and sources: the skin, nose and throat of humans and their hair; infected cuts and boils; it spreads to food by handling.",
+     "High-risk foods: cooked meats, poultry, ham, egg products, cream-filled cakes, custard and egg or potato salads made with mayonnaise.",
+     "Growth: a mesophile that grows at about 37 °C and tolerates salt and sugar better than most bacteria.",
+     "Toxin: produces an enterotoxin in food; the toxin is heat-stable and is not destroyed by normal cooking.",
+     "Incubation period: about 1 to 6 hours, often around 2 hours.",
+     "Symptoms: sudden nausea, vomiting, abdominal cramps and diarrhoea."
+    ]
+   },
+   {
+    "b": "Clostridium botulinum is a toxic food poisoning bacterium that produces a very potent neurotoxin.",
+    "h": "Clostridium botulinum (Higher Level only)",
+    "points": [
+     "Structure: a rod-shaped, Gram-positive, spore-forming bacterium that is an obligate anaerobe.",
+     "Habitat and sources: soil and water, from which its spores reach vegetables and other foods.",
+     "High-risk foods: home-canned low-acid vegetables, vacuum-packed or canned foods, cured meats, and honey given to infants.",
+     "Growth: multiplies in sealed, low-acid foods where no oxygen is present.",
+     "Toxin: a neurotoxin that blocks nerve impulses to muscles, causing paralysis; the toxin is destroyed by boiling, but the spores survive ordinary cooking.",
+     "Incubation period: typically 12 to 36 hours after eating contaminated food.",
+     "Symptoms: double vision, drooping eyelids, difficulty swallowing and speaking, and breathing difficulties."
+    ]
+   },
+   {
+    "b": "Incubation period is the time between eating contaminated food and the appearance of symptoms.",
+    "h": "Infectious and toxic food poisoning compared (Higher Level only)",
+    "points": [
+     "Infectious food poisoning: caused by eating food containing large numbers of living pathogenic bacteria, which multiply in the body.",
+     "Infectious food poisoning: the bacteria release endotoxins, which are made inside their cells and released when the cells die.",
+     "Infectious food poisoning: endotoxins and bacteria are easily destroyed by proper cooking and reheating; incubation is usually more than 12 hours; examples are Salmonella, E. coli, Campylobacter and Listeria.",
+     "Toxic food poisoning: caused by eating food that already contains exotoxin, produced by bacteria as they grow in the food.",
+     "Toxic food poisoning: exotoxins are hard to destroy and may need boiling for 30 minutes; symptoms appear quickly, often within 2 hours; examples are Staphylococcus aureus and Clostridium botulinum."
+    ]
+   },
+   {
+    "h": "Contributing factors in food poisoning (Higher Level only)",
+    "points": [
+     "Undercooked poultry or minced meat allows surviving bacteria to cause illness.",
+     "Cooked food left at room temperature allows bacteria to multiply in the danger zone.",
+     "Cross-contamination from raw meat or poultry transfers bacteria to food that is eaten without cooking.",
+     "Food handlers with poor personal hygiene, such as not washing hands after using the toilet, transfer bacteria to food.",
+     "Contaminated water or unpasteurised dairy products introduce bacteria before any cooking takes place."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Infectious food poisoning: large numbers of living bacteria are eaten; they multiply in the body and release endotoxins, with symptoms appearing after more than 12 hours. Example: Salmonella. Toxic food poisoning: the food already contains an exotoxin produced by bacteria as they grew in the food; symptoms appear quickly, often within 2 hours. Example: Staphylococcus aureus. Award marks for the difference, a correct example of each type, and the point on timing or toxin origin.",
+    "prompt": "State one difference between the way the toxin acts in infectious food poisoning and in toxic food poisoning, and give one example of each type.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Conditions: both are mesophiles that grow best at about 37 °C, within the danger zone of about 5 to 63 °C. Both need moisture, nutrients from food, time, and a near-neutral pH. Salmonella is a facultative micro-organism, so it grows with or without oxygen. Staphylococcus aureus is also facultative and tolerates salt and sugar better than most bacteria. High-risk foods for Salmonella are raw or undercooked poultry, meat, fish, eggs and unpasteurised dairy. High-risk foods for Staphylococcus aureus are cooked meats, ham, poultry, egg products, cream-filled cakes and mayonnaise salads, because it is spread onto them by handling. Illness: Salmonella is infectious; large numbers of living bacteria multiply in the intestine and release endotoxins, with incubation of about 12 to 72 hours and symptoms of diarrhoea, nausea, vomiting, abdominal pain and fever. Staphylococcus aureus is toxic; the bacteria produce an enterotoxin in the food that is heat-stable, so symptoms of nausea, vomiting, cramps and diarrhoea appear within about 1 to 6 hours. Award marks for conditions with reasons, the high-risk foods for each bacterium, and a correct explanation of how each causes illness.",
+    "prompt": "Describe the conditions that allow Salmonella or Staphylococcus aureus to multiply in food, and explain how each bacterium causes illness.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s3": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of protein by bacteria, producing foul odours and slime.",
+    "term": "Putrefaction"
+   },
+   {
+    "definition": "A poisonous substance produced by some moulds that can be harmful if the food is eaten.",
+    "term": "Mycotoxin"
+   },
+   {
+    "definition": "The deterioration of food caused by the growth of bacteria, moulds or yeasts.",
+    "term": "Microbial spoilage"
+   },
+   {
+    "definition": "A heat treatment at a set temperature for a set time that destroys most harmful micro-organisms.",
+    "term": "Pasteurisation"
+   },
+   {
+    "definition": "A heat treatment that destroys all micro-organisms and their spores.",
+    "term": "Sterilisation"
+   },
+   {
+    "definition": "Exposure of food to controlled radiation to destroy micro-organisms and parasites.",
+    "term": "Irradiation"
+   },
+   {
+    "definition": "A chemical added to food to inhibit the growth of micro-organisms.",
+    "term": "Preservative"
+   },
+   {
+    "definition": "Packaging food after the air has been removed, preventing the growth of aerobic micro-organisms.",
+    "term": "Vacuum packing"
+   },
+   {
+    "definition": "Food, warmth, moisture, oxygen, a suitable pH and time.",
+    "term": "Six conditions micro-organisms need to grow"
+   },
+   {
+    "definition": "Fizziness from carbon dioxide, a sour or alcoholic smell and cloudiness.",
+    "term": "Signs that yeast has spoiled a fruit juice"
+   },
+   {
+    "definition": "Foul odours, a slimy surface, and softening of protein foods such as meat and fish.",
+    "term": "Signs of bacterial putrefaction"
+   },
+   {
+    "definition": "Drying, salting and sugaring.",
+    "term": "Three ways to remove moisture from food"
+   },
+   {
+    "definition": "Heat treatment, such as pasteurisation or sterilisation, and irradiation.",
+    "term": "Two ways to destroy micro-organisms in food"
+   },
+   {
+    "definition": "Sulphur dioxide, which is used as a preservative.",
+    "term": "Chemical that inhibits micro-organisms in dried fruit and juices"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Bacteria are the micro-organisms that spoil most protein and moist foods, and they change food in several ways.",
+    "h": "Bacterial spoilage",
+    "points": [
+     "Putrefaction: bacteria break down protein in meat, fish and eggs, producing foul odours and a slimy surface.",
+     "Souring: lactic acid bacteria ferment the lactose in milk, producing lactic acid that curdles the milk.",
+     "Bacteria that survive in food can produce toxins, which can make food unsafe even when the food looks and smells normal."
+    ]
+   },
+   {
+    "h": "Mould and yeast spoilage",
+    "points": [
+     "Moulds grow visibly on food as fluffy, powdery or coloured patches, and some produce mycotoxins that are harmful if eaten.",
+     "Yeasts ferment the sugars in fruit juices, jams and syrups, producing carbon dioxide, alcohol and off-flavours.",
+     "Mould and yeast growth is most visible on the surface of food, where oxygen is available."
+    ]
+   },
+   {
+    "b": "Micro-organisms spoil food only when the conditions they need are present.",
+    "h": "Conditions that allow micro-organisms to grow",
+    "points": [
+     "Food: micro-organisms need nutrients, particularly protein and carbohydrate.",
+     "Moisture: their chemical reactions and nutrient absorption take place in solution, so dry foods support little growth.",
+     "Warmth: most spoilage micro-organisms multiply fastest in the danger zone.",
+     "Oxygen: aerobic moulds need oxygen, while anaerobic bacteria grow in sealed packs from which oxygen is absent.",
+     "pH: most bacteria prefer a neutral pH, whereas moulds and yeasts tolerate acidic conditions.",
+     "Time: micro-organisms need time to multiply; some bacteria can double in number in about 20 minutes under ideal conditions."
+    ]
+   },
+   {
+    "b": "Control of spoilage works either by destroying micro-organisms or by restricting one of the conditions they need.",
+    "h": "Principles of control: destroying micro-organisms",
+    "points": [
+     "Heat treatments kill micro-organisms: cooking, pasteurisation, which uses a lower temperature for a set time, and sterilisation, which destroys all micro-organisms and their spores.",
+     "Irradiation destroys micro-organisms and parasites in food by exposing it to controlled radiation, without making the food radioactive.",
+     "Irradiation can extend shelf life and slow ripening and sprouting in fruit and vegetables, with little effect on colour, flavour or texture."
+    ]
+   },
+   {
+    "h": "Principles of control: restricting growth",
+    "points": [
+     "Low temperature: refrigeration slows the growth of micro-organisms, and freezing inactivates them without destroying them.",
+     "Removing moisture: drying, salting and sugaring reduce the water available to micro-organisms.",
+     "Acidity: pickling in vinegar, or adding lemon juice, lowers the pH to a level that most bacteria cannot tolerate.",
+     "Removing oxygen: vacuum packing and canning exclude air, preventing growth of aerobic micro-organisms.",
+     "Preservatives: chemicals such as sulphur dioxide and benzoates inhibit the growth of micro-organisms."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Putrefaction: bacteria break down the protein in meat, fish or eggs, producing foul odours and a slimy surface. Souring: lactic acid bacteria ferment the lactose in milk, producing lactic acid that curdles the milk. Accept also toxin production by bacteria that make food unsafe. Award three marks for each correct way with a correct description of the change it causes.",
+    "prompt": "Outline two ways in which bacteria cause food to spoil.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "Destroying micro-organisms: heat treatments such as pasteurisation and sterilisation kill micro-organisms, with sterilisation also destroying spores; example: pasteurised milk, or canned food that has been sterilised. Irradiation destroys micro-organisms and parasites in food with little effect on colour, flavour or texture; example: irradiated fruit and vegetables with a longer shelf life. Restricting growth: low temperature slows growth in refrigerated food, and freezing inactivates micro-organisms; example: frozen vegetables. Removing moisture by drying, salting or sugaring reduces the water micro-organisms need; example: dried fruit or cured meat. Acidity from pickling in vinegar lowers the pH so most bacteria cannot grow; example: pickled onions. Removing oxygen by vacuum packing prevents aerobic micro-organisms growing; example: vacuum-packed meat. Award marks for the explanation of each method, and a correct named example for each.",
+    "prompt": "Explain how the spoilage of food by micro-organisms can be controlled by destroying them or by restricting one of the conditions they need. Give one named example of each method.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s4": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of organic substances, such as sugars, by bacteria or yeast.",
+    "term": "Fermentation"
+   },
+   {
+    "definition": "A culture of micro-organisms added to food to begin fermentation and give the product its characteristics.",
+    "term": "Starter culture"
+   },
+   {
+    "definition": "Bacteria that ferment lactose and sugars to produce lactic acid, used in cheese and yoghurt.",
+    "term": "Lactic acid bacteria"
+   },
+   {
+    "definition": "A food containing live micro-organisms that may benefit the intestinal flora when eaten.",
+    "term": "Probiotic"
+   },
+   {
+    "definition": "A protein food produced by growing a fungus by fermentation, used to make meat substitutes such as Quorn.",
+    "term": "Mycoprotein"
+   },
+   {
+    "definition": "Bacteria that oxidise alcohol to acetic acid, which is the basis of vinegar.",
+    "term": "Acetic acid bacteria"
+   },
+   {
+    "definition": "A cheese in which the mould Penicillium roqueforti grows through the paste, producing blue veins and flavour.",
+    "term": "Blue-veined cheese"
+   },
+   {
+    "definition": "The gas produced by yeast fermentation that forms bubbles in dough and makes it rise.",
+    "term": "Carbon dioxide in bread"
+   },
+   {
+    "definition": "Raising bread, brewing beer and making wine.",
+    "term": "Three uses of yeast in food production"
+   },
+   {
+    "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus.",
+    "term": "Two bacteria used to make yoghurt"
+   },
+   {
+    "definition": "Penicillium roqueforti, which gives blue-green veins and flavour, as in Cashel Blue.",
+    "term": "Mould used to make blue-veined cheese"
+   },
+   {
+    "definition": "Fusarium venenatum, grown by fermentation to form mycoprotein.",
+    "term": "Fungus used to make Quorn"
+   },
+   {
+    "definition": "Aspergillus oryzae, which breaks down soya protein and starch.",
+    "term": "Mould used to make soy sauce"
+   },
+   {
+    "definition": "Vinegar, made by oxidising alcohol to acetic acid.",
+    "term": "Product of acetic acid bacteria acting on alcohol"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fermentation is the breakdown of organic substances, such as sugars, by bacteria or yeast. It is used to make many foods.",
+    "h": "Fermentation and dairy products",
+    "points": [
+     "Starter cultures: bacteria added to milk to begin fermentation; the lactic acid they produce sets the curd in cheese-making.",
+     "Lactic acid bacteria ferment the lactose in milk, giving cheese and yoghurt their sour flavour and texture.",
+     "Yoghurt is made by fermenting milk with Lactobacillus bulgaricus and Streptococcus thermophilus.",
+     "Probiotic yoghurts contain live bacteria that may benefit the intestinal flora when eaten.",
+     "Blue-veined cheese: the mould Penicillium roqueforti grows through the cheese, producing blue-green veins and flavour; Cashel Blue, made in Co. Tipperary, is an Irish example."
+    ]
+   },
+   {
+    "h": "Yeasts in bread, beer and wine",
+    "points": [
+     "In bread-making, yeast ferments sugars in the dough, producing carbon dioxide that makes the dough rise.",
+     "Alcohol produced in the dough evaporates during baking.",
+     "In brewing, yeast ferments the sugars in malted barley to produce alcohol and carbon dioxide.",
+     "In wine-making, yeast ferments the sugars in grape juice into alcohol.",
+     "Vinegar is made by acetic acid bacteria, such as Acetobacter, which oxidise alcohol into acetic acid."
+    ]
+   },
+   {
+    "h": "Bacteria and moulds in meat, sauces and novel foods",
+    "points": [
+     "Salami and chorizo are made by adding bacterial cultures to cured meat, which ferment its sugars and flavour the product.",
+     "Soy sauce is produced by the mould Aspergillus oryzae, which breaks down soya protein and starch by fermentation.",
+     "Quorn is a meat substitute made from mycoprotein, which is grown by fermentation of the fungus Fusarium venenatum.",
+     "Mycoprotein is a novel protein food produced by fermentation rather than from animals."
+    ]
+   },
+   {
+    "h": "Edible fungi and micro-organisms as supplements",
+    "points": [
+     "Mushrooms and truffles are large fungi that are eaten directly as food.",
+     "Yeast extracts and yeast-based food supplements are used as sources of B vitamins."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Lactic acid bacteria, used as starter cultures: they ferment lactose to lactic acid, which sets the curd and develops flavour. Penicillium roqueforti, a mould used in blue-veined cheese: it grows through the cheese, producing blue-green veins and a characteristic flavour. Accept also Penicillium camemberti on the surface of soft cheeses. Award three marks for each correctly named micro-organism with its role.",
+    "prompt": "Name two micro-organisms used in cheese production and state the role of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Dairy: lactic acid bacteria make yoghurt and cheese, giving sour flavour and texture; Penicillium roqueforti gives blue-veined cheese its colour and flavour. Bread and drink: yeast ferments sugars in dough to produce carbon dioxide, which makes bread rise, and produces alcohol in beer and wine. Meat and sauces: bacterial cultures ferment cured meats such as salami, and Aspergillus oryzae is used to make soy sauce. Alternative proteins: fungi grown by fermentation produce mycoprotein for meat substitutes such as Quorn. Assessment: the process improves flavour, texture and shelf life, and gives novel protein foods, but it requires careful control of the cultures and conditions to ensure the product is safe. Award marks for three named food types with correct micro-organisms and their roles, and a reasoned judgement.",
+    "prompt": "Assess the use of micro-organisms in food production, referring to at least three different types of food.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s5": {
+  "keyTerms": [
+   {
+    "definition": "A protein that speeds up a chemical reaction in living tissue without being used up.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "The change in an enzyme's shape, usually caused by heat, that stops it from working.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "The discolouration of cut or bruised food caused by enzymes reacting with oxygen to form brown pigments.",
+    "term": "Enzymic browning"
+   },
+   {
+    "definition": "The enzyme that causes enzymic browning in cut apples, bananas and potatoes.",
+    "term": "Polyphenol oxidase"
+   },
+   {
+    "definition": "A brief immersion of vegetables in boiling water or steam to inactivate enzymes before freezing.",
+    "term": "Blanching"
+   },
+   {
+    "definition": "An enzyme that breaks down fats into fatty acids and glycerol.",
+    "term": "Lipase"
+   },
+   {
+    "definition": "The unpleasant smell and taste that develops when fats are broken down by lipase or oxidation.",
+    "term": "Rancidity"
+   },
+   {
+    "definition": "A chemical reaction in which a molecule is broken down by the addition of water.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "Continued enzyme action after fruit is ripe, leading to softening and decay.",
+    "term": "Over-ripening"
+   },
+   {
+    "definition": "Over-ripening, enzymic browning, and enzymic deterioration (rotting).",
+    "term": "Three ways enzymes cause food spoilage"
+   },
+   {
+    "definition": "Polyphenol oxidase, also called oxidase, which reacts with oxygen and phenolic compounds.",
+    "term": "Enzyme responsible for browning in cut apples"
+   },
+   {
+    "definition": "Lipases, which hydrolyse fats into fatty acids and glycerol.",
+    "term": "Enzyme group that breaks down fats in fish and oily foods"
+   },
+   {
+    "definition": "To inactivate enzymes that would otherwise spoil colour, flavour, texture and vitamins during frozen storage.",
+    "term": "Why vegetables are blanched before freezing"
+   },
+   {
+    "definition": "Thiamine, vitamin C and carotene.",
+    "term": "Vitamins destroyed by oxidase in plant cells"
+   },
+   {
+    "definition": "Coating them in acid such as lemon juice, or treating them with ascorbic acid to remove the effect of oxygen.",
+    "term": "Two ways to stop cut apples browning"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Enzymes are proteins that speed up chemical reactions. They occur naturally in fruit, vegetables, fish and meat, and keep working after harvest or slaughter.",
+    "h": "What enzymes are and how they act",
+    "points": [
+     "Each enzyme has an active site, a shaped region into which its specific substrate fits to be broken down.",
+     "Enzyme activity needs warmth and moisture, so drying slows enzyme action.",
+     "Heat denatures enzymes, changing the shape of the active site so that they stop working; cooking therefore inactivates them.",
+     "Low temperatures slow enzyme activity without destroying it, so enzymes resume working when food warms."
+    ]
+   },
+   {
+    "h": "Ripening and over-ripening",
+    "points": [
+     "Ripening enzymes continue to act after fruit is picked, converting starch to sugar and softening the cell walls.",
+     "As enzymes change colour, texture and flavour, fruit moves from ripe to over-ripe and then decays.",
+     "Over-ripening: a hard, under-ripe banana becomes soft and sweet, and then black, as enzymes continue to break it down."
+    ]
+   },
+   {
+    "h": "Enzymic browning",
+    "points": [
+     "When the surface of apples, bananas or potatoes is cut or bruised, enzymes are released from the damaged cells.",
+     "Polyphenol oxidase, also called oxidase, acts on phenolic compounds in the presence of oxygen.",
+     "The reaction forms brown pigments on the cut surface, which is why cut apples and potatoes discolour."
+    ]
+   },
+   {
+    "h": "Enzymic deterioration (rotting)",
+    "points": [
+     "Lipase in fish and oily foods breaks down fats into fatty acids and glycerol, causing rancidity and off-flavours.",
+     "Enzymes in fish continue to break down the flesh even at low temperatures, producing odour.",
+     "Vegetables that are not blanched before freezing keep their enzymes active during storage, which spoils colour, texture and flavour.",
+     "Oxidase in the cell walls of plants is activated by oxygen and destroys thiamine, vitamin C and carotene."
+    ]
+   },
+   {
+    "b": "Control works by inactivating enzymes, slowing their action or excluding oxygen.",
+    "h": "Controlling enzymic spoilage (Higher Level only)",
+    "points": [
+     "Heat: blanching, a brief immersion of vegetables in boiling water or steam, inactivates enzymes before freezing; cooking denatures them.",
+     "Acid: adding lemon juice to cut apples lowers the pH and inactivates the enzymes that cause browning.",
+     "Low temperature: refrigeration and freezing slow enzyme activity but do not stop it completely.",
+     "Sulphur dioxide: used as a preservative in dried fruit and fruit juices, it prevents browning and inhibits enzyme action.",
+     "Removing oxygen: vacuum packing, or treating cut fruit with ascorbic acid (vitamin C), prevents oxidase from browning the food.",
+     "Drying: removing moisture makes enzymes inactive, which preserves herbs and dried fruit."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Over-ripening: enzymes continue to act after fruit is picked, softening it and changing its colour and flavour until it decays. Enzymic browning: enzymes released when fruit such as apples or potatoes is cut react with oxygen to form brown pigments. Enzymic deterioration: enzymes in fish break down the flesh and produce odour even at low temperatures, and unblanched vegetables lose colour and flavour in the freezer. Award three marks for each correct way with a correct description of how enzymes cause it.",
+    "prompt": "Outline two ways in which enzymes cause food to spoil.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Role of enzymes: enzymes in fruit continue to ripen it after harvest, converting starch to sugar and softening it until it over-ripens and decays. Cut or bruised apples, bananas and potatoes release polyphenol oxidase, which reacts with oxygen to form brown pigments. Unblanched frozen vegetables keep active enzymes that deteriorate colour, texture, flavour and vitamins, and the oxidase in plant cells, activated by oxygen, destroys thiamine, vitamin C and carotene. Control: heat inactivates enzymes, as blanching does before freezing and cooking denatures them. Acid, such as lemon juice on cut apples, lowers the pH and inactivates enzymes. Low temperatures slow enzyme action but do not stop it, so refrigeration and freezing slow spoilage without preventing it. Sulphur dioxide prevents browning in dried fruit and juices, and removing oxygen by vacuum packing or ascorbic acid prevents oxidase browning. Drying removes the moisture enzymes need to act. Award marks for a clear account of how enzymes spoil fruit and vegetables and for three or more correctly explained control methods.",
+    "prompt": "Discuss the role of enzymes in spoiling fruit and vegetables, and explain how their action can be controlled.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s6": {
+  "keyTerms": [
+   {
+    "definition": "The transfer of bacteria from raw food, or from unclean hands and surfaces, to cooked or ready-to-eat food.",
+    "term": "Cross-contamination"
+   },
+   {
+    "definition": "The temperature range of 5°C to 63°C in which bacteria multiply rapidly in food.",
+    "term": "Danger zone"
+   },
+   {
+    "definition": "Keeping cooked food above 63°C until it is served, so that bacteria do not multiply.",
+    "term": "Hot holding"
+   },
+   {
+    "definition": "Freezing food quickly at a very low temperature, such as −25°C, so that only small ice crystals form.",
+    "term": "Fast-freezing"
+   },
+   {
+    "definition": "Thawing frozen food completely before cooking it, preferably in the fridge.",
+    "term": "Defrosting"
+   },
+   {
+    "definition": "Heating previously cooked food until it is above 100°C throughout, and only once.",
+    "term": "Reheating"
+   },
+   {
+    "definition": "The habits of a food handler, such as handwashing, clean clothing and covering cuts, that stop micro-organisms reaching food.",
+    "term": "Personal hygiene"
+   },
+   {
+    "definition": "Keeping the kitchen, its surfaces, equipment and water supply clean so that food is not contaminated.",
+    "term": "Kitchen hygiene"
+   },
+   {
+    "definition": "Below 5°C in the fridge, −18°C for frozen storage, and −25°C for fast-freezing.",
+    "term": "Three storage temperatures for home food"
+   },
+   {
+    "definition": "Reheat to above 100°C throughout, and hold cooked food above 63°C.",
+    "term": "Two temperatures for safe reheating and hot holding"
+   },
+   {
+    "definition": "After sneezing or coughing, after using the toilet, after changing nappies, after handling pets, and after handling rubbish.",
+    "term": "Five occasions when hands must be washed"
+   },
+   {
+    "definition": "Colour-coded chopping boards, separate utensils for raw and cooked meat, and no shared surfaces for raw and cooked food.",
+    "term": "Three measures against cross-contamination in the kitchen"
+   },
+   {
+    "definition": "5°C to 63°C.",
+    "term": "Range in which bacteria multiply rapidly in food"
+   },
+   {
+    "definition": "So that juices dripping from the raw meat cannot contaminate cooked or ready-to-eat food.",
+    "term": "Reason for storing raw meat below cooked food"
+   },
+   {
+    "definition": "About 90 minutes, after which the food should not be eaten.",
+    "term": "Maximum time for hot food held above 63°C"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Most food poisoning bacteria multiply fastest in warm food, so storage aims to keep food cold or frozen and to stop bacteria passing from one food to another.",
+    "h": "Food storage in the home",
+    "points": [
+     "Cover all food and store it in sealed containers, which prevents drying out, odour transfer and cross-contamination.",
+     "Keep perishable food in the fridge below 5°C, which slows the growth of bacteria.",
+     "Store raw meat and poultry on the lowest shelf, on a plate and loosely covered, so that juices cannot drip onto cooked or ready-to-eat food.",
+     "Cool cooked food before refrigerating or freezing it, and do not overpack the fridge, so that cold air can circulate around the food.",
+     "Freeze food quickly at −25°C, then store it at −18°C.",
+     "Defrost frozen food completely before cooking, preferably in the fridge on the bottom shelf.",
+     "Never refreeze food that has thawed.",
+     "Store dry foods in a cool, dry, well-ventilated cupboard, in vermin-proof containers.",
+     "Remove fruit and vegetables from plastic wrapping, which encourages mould, and check them regularly for mould.",
+     "Check the use-by or best-before date of each food and follow the storage instructions on its label."
+    ]
+   },
+   {
+    "h": "Reheating and hot holding",
+    "points": [
+     "Reheat food quickly until it is above 100°C throughout, and reheat it only once.",
+     "High-risk foods such as stews and gravies must reach 100°C when reheated.",
+     "When reheating in a microwave, stir or turn the food so that heat reaches all parts evenly, and follow the appliance's instructions.",
+     "Hold cooked food above 63°C, because bacteria multiply rapidly between 5°C and 63°C.",
+     "Serve hot food promptly, and eat food that has been held hot within about 90 minutes."
+    ]
+   },
+   {
+    "h": "Personal hygiene",
+    "points": [
+     "Wash hands in hot water with liquid soap and a nailbrush before handling food, because hands carry food poisoning bacteria.",
+     "Wash hands after sneezing or coughing, using the toilet, changing nappies, handling pets and handling rubbish.",
+     "Keep nails short and clean, and remove jewellery before preparing food.",
+     "Wear a clean apron, and change it if it becomes soiled.",
+     "Cover cuts with a brightly coloured plaster so that the injury cannot pass infection to food.",
+     "Do not prepare or serve food while suffering from diarrhoea or vomiting.",
+     "Cough and sneeze away from food."
+    ]
+   },
+   {
+    "h": "Kitchen hygiene",
+    "points": [
+     "Clean and disinfect work surfaces often, and wash equipment in hot water and detergent.",
+     "Use colour-coded chopping boards and separate utensils for raw and cooked meat, to prevent cross-contamination.",
+     "Do not prepare cooked and raw foods on the same surface.",
+     "Handle food as little as possible during preparation.",
+     "Keep perishable food out of the fridge for the shortest possible time while it is being prepared.",
+     "Floors, walls and work surfaces should be easy to clean, and the kitchen should have good lighting.",
+     "Effective ventilation reduces condensation, which encourages the growth of micro-organisms.",
+     "The kitchen should have a clean water supply and no access for pets."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Keep the fridge below 5°C, which slows the growth of bacteria in perishable food. Cover all food, so that it does not dry out or pick up odours and cannot contaminate other food. Store raw meat on the lowest shelf, covered, below cooked food, so that juices cannot drip onto cooked food. Do not overpack the fridge, so that cold air circulates around the food. Cool cooked food before refrigerating it.",
+    "prompt": "Outline two guidelines for storing perishable food safely in a home fridge, giving a reason for each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Personal hygiene: wash hands in hot water with liquid soap and a nailbrush before handling food and after sneezing, coughing, using the toilet, changing nappies, handling pets or rubbish; keep nails short and clean and remove jewellery; wear a clean apron; cover cuts with a brightly coloured plaster; do not prepare food while suffering from diarrhoea or vomiting; cough and sneeze away from food. Kitchen hygiene: clean and disinfect surfaces often and wash equipment in hot water and detergent; use colour-coded chopping boards and separate utensils for raw and cooked meat; do not prepare cooked and raw food on the same surface; handle food as little as possible; keep perishable food out of the fridge for the shortest time; keep the kitchen easy to clean, well lit and well ventilated to reduce condensation; provide a clean water supply and keep pets out of the kitchen.",
+    "prompt": "Discuss the personal hygiene and kitchen hygiene practices that prevent food from being contaminated during preparation and cooking.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s7": {
+  "keyTerms": [
+   {
+    "definition": "A preventive food safety system that identifies hazards in food processing and controls them at critical points.",
+    "term": "HACCP"
+   },
+   {
+    "definition": "Anything that could contaminate food or harm the consumer, including micro-organisms, chemicals and foreign bodies.",
+    "term": "Hazard"
+   },
+   {
+    "definition": "The identification of hazards at each stage of food processing, and an assessment of how likely and how serious each one is.",
+    "term": "Hazard analysis"
+   },
+   {
+    "definition": "An action that prevents, removes or reduces a hazard, such as thorough cooking or chilling.",
+    "term": "Control measure"
+   },
+   {
+    "definition": "A step in food processing at which a control measure is essential and can be monitored.",
+    "term": "Critical control point"
+   },
+   {
+    "definition": "The maximum or minimum value, such as a cooking temperature, that a critical control point must meet to keep food safe.",
+    "term": "Critical limit"
+   },
+   {
+    "definition": "The action taken when monitoring shows that a critical limit has not been met.",
+    "term": "Corrective action"
+   },
+   {
+    "definition": "Checks, such as reviews and tests, that confirm a HACCP system is working as planned.",
+    "term": "Verification"
+   },
+   {
+    "definition": "A family of international standards for quality management systems, published by the International Organization for Standardization.",
+    "term": "ISO 9000"
+   },
+   {
+    "definition": "A system of documented procedures, records and reviews used by an organisation to make sure its products meet requirements.",
+    "term": "Quality management system"
+   },
+   {
+    "definition": "Biological (bacteria and moulds), chemical (pesticide residues, cleaning chemicals and metal residues) and physical (glass, metal and bone).",
+    "term": "Three types of hazard"
+   },
+   {
+    "definition": "Hazard analysis; identifying critical control points; setting critical limits; monitoring; corrective actions; verification; and records and documentation.",
+    "term": "Seven principles of HACCP"
+   },
+   {
+    "definition": "It eliminates or reduces hazards and produces safer food; it focuses workers on safety; and it fulfils legal requirements and provides records as evidence.",
+    "term": "Three benefits of implementing HACCP"
+   },
+   {
+    "definition": "Purchase; transport and storage; preparation; cooking; and serving and reheating.",
+    "term": "Five stages of HACCP for a hot main course"
+   },
+   {
+    "definition": "72°C, held in the centre of the food to destroy bacteria.",
+    "term": "Minimum core temperature for cooking poultry"
+   },
+   {
+    "definition": "The International Organization for Standardization.",
+    "term": "Full name of the body that publishes ISO standards"
+   }
+  ],
+  "notes": [
+   {
+    "h": "HACCP terms (Higher Level only)",
+    "points": [
+     "HACCP stands for Hazard Analysis and Critical Control Point, a preventive system that identifies and controls hazards before they can reach the consumer.",
+     "A hazard is anything that could contaminate food or harm the consumer.",
+     "Biological hazards are micro-organisms, such as food poisoning bacteria and moulds.",
+     "Chemical hazards include pesticide residues, cleaning chemicals and metal residues.",
+     "Physical hazards are foreign bodies such as glass, metal or bone.",
+     "Hazard analysis identifies the hazards at each stage of food processing and assesses how likely and how serious each one is.",
+     "A control measure is an action that prevents, removes or reduces a hazard, such as thorough cooking.",
+     "A critical control point is a step at which a control measure is essential and can be monitored."
+    ]
+   },
+   {
+    "h": "The seven principles of HACCP (Higher Level only)",
+    "points": [
+     "Principle 1: carry out a hazard analysis at each stage of the process.",
+     "Principle 2: identify the critical control points.",
+     "Principle 3: set a critical limit for each critical control point, such as a minimum cooking temperature.",
+     "Principle 4: set up monitoring procedures to check each critical control point.",
+     "Principle 5: set corrective actions to take when monitoring shows that a critical limit has not been met.",
+     "Principle 6: set up verification procedures to confirm that the system is working.",
+     "Principle 7: keep records and documentation of the system and its results."
+    ]
+   },
+   {
+    "h": "Purchase, transport and storage of a hot main course (Higher Level only)",
+    "points": [
+     "Purchase hazards: damaged goods, bacterial or chemical contamination, and pests.",
+     "Purchase controls: buy from a reputable shop, and check packaging, use-by dates, temperatures and any signs of pest damage.",
+     "Transport hazard: bacteria multiply when food warms up during transport and delays.",
+     "Transport control: carry perishable food in cool bags or refrigerated containers, cover it, and minimise the time before it is stored.",
+     "Storage hazards: bacterial multiplication and cross-contamination of food.",
+     "Storage controls: chill perishable food below 5°C, freeze food at −18°C, and keep raw food separate from cooked food."
+    ]
+   },
+   {
+    "h": "Preparation and cooking of a hot main course (Higher Level only)",
+    "points": [
+     "Preparation hazards: contamination of food, multiplication of bacteria and cross-contamination.",
+     "Preparation controls: wash hands with antibacterial soap before and after handling food, and handle food as little as possible.",
+     "Use colour-coded boards and separate utensils for raw and cooked meat, and keep raw meat away from cooked meat and ready-to-eat foods.",
+     "Thaw frozen meat or poultry fully, preferably in the fridge on the bottom shelf, before cooking it.",
+     "Cooking hazard: bacteria that survive cooking, which can cause food poisoning.",
+     "Cooking control: cook thoroughly, turning or stirring the food regularly so that it cooks evenly.",
+     "Poultry must reach a core temperature of at least 72°C to destroy bacteria."
+    ]
+   },
+   {
+    "h": "Serving and reheating a hot main course (Higher Level only)",
+    "points": [
+     "Serving hazards: surviving bacteria multiplying in food that is held too long, and cross-contamination from utensils.",
+     "Serving controls: serve cooked food straight after cooking, on a clean plate, with clean utensils.",
+     "Hold cooked food above 63°C, and do not hold it for more than about 90 minutes.",
+     "Reheating hazard: food that has been cooled and stored can have bacteria that multiply during storage.",
+     "Reheating control: reheat food quickly to above 100°C, and reheat it only once.",
+     "A marinade used on raw meat must be brought to the boil before it is used as a sauce, otherwise it carries raw-meat bacteria."
+    ]
+   },
+   {
+    "h": "Benefits of HACCP (Higher Level only)",
+    "points": [
+     "HACCP eliminates or reduces hazards, so that food is safer.",
+     "It focuses workers on safety at every step of food preparation.",
+     "It meets legal requirements and provides written records as evidence of safe practice.",
+     "Records help a business plan for future safety, time and cost.",
+     "In a catering business, HACCP helps prevent food poisoning outbreaks by controlling hazards from purchase to service.",
+     "The system should be reviewed and evaluated regularly."
+    ]
+   },
+   {
+    "h": "ISO 9000 (Higher Level only)",
+    "points": [
+     "ISO is the International Organization for Standardization, which publishes internationally agreed standards.",
+     "ISO 9000 is a family of standards for quality management systems.",
+     "A quality management system uses documented procedures, records and regular internal review to ensure that products meet customer requirements.",
+     "Continual improvement of the system is a central principle of ISO 9000.",
+     "ISO 9001 is the standard in the family against which organisations are formally certified.",
+     "HACCP is a food safety system, whereas ISO 9000 covers quality management in general, and a food business can use both."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Biological hazard: food poisoning bacteria such as Salmonella, or moulds. Chemical hazard: pesticide residues, cleaning chemicals or metal residues. Physical hazard: foreign bodies such as glass, metal or bone.",
+    "prompt": "Name the three types of hazard that can contaminate food, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Purchase: hazards are damaged goods, contamination and pests; controls are buying from a reputable shop, checking packaging, dates, temperatures and pest damage. Transport and storage: hazards are bacterial growth and cross-contamination; controls are cool bags, minimal delay, covered food, chilling below 5°C and freezing at −18°C. Preparation: hazards are contamination, bacterial multiplication and cross-contamination; controls are handwashing, colour-coded boards, separate utensils for raw and cooked food, and fully thawing food in the fridge. Cooking: hazard is bacteria surviving cooking; control is thorough cooking with poultry reaching at least 72°C in the centre, turning food regularly. Serving and reheating: hazards are multiplication of surviving bacteria and cross-contamination from utensils; controls are serving on clean plates, holding food above 63°C for no more than about 90 minutes, and reheating quickly to above 100°C only once.",
+    "prompt": "Outline the stages of a HACCP system for making and serving a hot main course, identifying a hazard and a corresponding control measure at each stage.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s8": {
+  "keyTerms": [
+   {
+    "definition": "The state body responsible for food safety in Ireland, which co-ordinates food safety enforcement and advises consumers and food businesses.",
+    "term": "Food Safety Authority of Ireland"
+   },
+   {
+    "definition": "A body, such as the HSE or a local authority, that carries out food controls under contract to the FSAI.",
+    "term": "Official agency"
+   },
+   {
+    "definition": "An officer of the HSE's Environmental Health Service who inspects food premises and investigates hygiene complaints.",
+    "term": "Environmental health officer"
+   },
+   {
+    "definition": "A laboratory run by the HSE that analyses food and water to check that they are safe and comply with the law.",
+    "term": "Public Analyst Laboratory"
+   },
+   {
+    "definition": "An order that closes a food premises, issued by the Environmental Health Service when the premises is unsafe.",
+    "term": "Closure order"
+   },
+   {
+    "definition": "A warning about an unsafe food that is passed quickly to the agencies that must act on it.",
+    "term": "Rapid alert"
+   },
+   {
+    "definition": "The removal of an unsafe product from the supply chain, before it reaches consumers.",
+    "term": "Product withdrawal"
+   },
+   {
+    "definition": "The collection of an unsafe product from consumers who have already bought it.",
+    "term": "Product recall"
+   },
+   {
+    "definition": "The ability to trace a food back to its supplier and forward to the businesses that received it.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "The Department of Health.",
+    "term": "Department that the FSAI operates under"
+   },
+   {
+    "definition": "The HSE, the Department of Agriculture, Food and the Marine, the Sea-Fisheries Protection Authority and the local authorities.",
+    "term": "Four official agencies that carry out food controls under contract to the FSAI"
+   },
+   {
+    "definition": "Analysing food and water; testing compliance with food and labelling law; testing public samples for a fee; and ensuring that food is safe and wholesome.",
+    "term": "Four functions of the Public Analyst Laboratories"
+   },
+   {
+    "definition": "Registering new food premises; inspecting food premises and farms; and handling hygiene complaints and issuing closure orders.",
+    "term": "Three functions of the Environmental Health Service in food safety"
+   },
+   {
+    "definition": "Monitoring meat, milk and egg products and pesticide use; enforcing EU controls on imports of animal-based foods from outside the EU; and registering and tracing cattle, pigs and sheep.",
+    "term": "Three functions of the Department of Agriculture, Food and the Marine in food safety"
+   },
+   {
+    "definition": "Bord Bia (the Irish Food Board), not the FSAI.",
+    "term": "Which body promotes Irish food, drink and horticulture"
+   },
+   {
+    "definition": "Authoritative advice, and published food safety information.",
+    "term": "Two things the FSAI gives consumers and food businesses"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Food Safety Authority of Ireland (Higher Level only)",
+    "points": [
+     "The Food Safety Authority of Ireland (FSAI) is the state body responsible for food safety in Ireland, established under the Food Safety Authority of Ireland Act 1998.",
+     "The FSAI operates under the Department of Health.",
+     "It co-ordinates the enforcement of food safety legislation in Ireland and advises the Minister on food safety.",
+     "It protects consumers by ensuring that food is safe to eat and that food information is accurate.",
+     "It works with food businesses to make sure food is produced safely, including through HACCP systems.",
+     "It takes action when a food premises is in breach of food regulations.",
+     "It gives consumers and food businesses authoritative advice and publishes food safety information.",
+     "It processes applications for novel foods and for new methods of food processing.",
+     "It does not promote Irish food at home or abroad; that is the role of Bord Bia (the Irish Food Board)."
+    ]
+   },
+   {
+    "b": "The FSAI does not carry out most food controls itself. Official agencies do this work under service contracts with the FSAI.",
+    "h": "Official agencies under contract to the FSAI (Higher Level only)",
+    "points": [
+     "The official agencies are the Health Service Executive (HSE), the Department of Agriculture, Food and the Marine, the Sea-Fisheries Protection Authority and the local authorities.",
+     "Official agencies carry out inspections, sampling and analysis of food in the places they cover.",
+     "The Sea-Fisheries Protection Authority carries out food safety controls on fish and shellfish.",
+     "Local authorities carry out food controls under contract to the FSAI in their own areas."
+    ]
+   },
+   {
+    "h": "Health Service Executive: Environmental Health Service (Higher Level only)",
+    "points": [
+     "Environmental health officers, working in the HSE's Environmental Health Service, carry out the inspections of food premises.",
+     "The service registers new food premises.",
+     "It inspects food premises and farms.",
+     "It handles hygiene complaints and issues closure orders where food premises are unsafe.",
+     "It ensures food safety at public gatherings.",
+     "It monitors compliance with food, labelling, additives and contaminants legislation.",
+     "It responds to rapid alerts and recalls.",
+     "It educates and advises food businesses on compliance with the law."
+    ]
+   },
+   {
+    "h": "Public Analyst Laboratories (Higher Level only)",
+    "points": [
+     "The Public Analyst Laboratories are run by the HSE.",
+     "They analyse food and water.",
+     "They test food for compliance with food law and labelling law.",
+     "They test samples submitted by members of the public, for a fee.",
+     "Their results help ensure that food sold to consumers is safe and wholesome."
+    ]
+   },
+   {
+    "h": "Department of Agriculture, Food and the Marine (Higher Level only)",
+    "points": [
+     "It monitors food safety in meat and meat products, milk and milk products, and eggs and egg products.",
+     "It monitors the use of pesticides in food production.",
+     "It enforces EU controls on the import of animal-based foods from countries outside the EU.",
+     "It is responsible for the registration and traceability of cattle, pigs and sheep.",
+     "It ensures correct hygiene procedures are followed from the dairy farm through to the retailer and the consumer."
+    ]
+   },
+   {
+    "h": "How the agencies work together (Higher Level only)",
+    "points": [
+     "The FSAI and the official agencies work together on inspections, sampling, alerts, product withdrawals and recalls.",
+     "Traceability allows an unsafe product to be traced back to its supplier and forward to the businesses that received it.",
+     "A product withdrawal removes a product from the supply chain, whereas a product recall also collects it from consumers.",
+     "Rapid alerts pass warnings about unsafe food quickly to the agencies that must act on them."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Health Service Executive: its Environmental Health Service registers new food premises and inspects them, or handles hygiene complaints and issues closure orders. Department of Agriculture, Food and the Marine: monitors food safety in meat, milk and egg products, or enforces EU controls on imports of animal-based foods from outside the EU. Other accepted agencies include the Sea-Fisheries Protection Authority, which controls fish and shellfish safety, and local authorities, which carry out food controls in their areas.",
+    "prompt": "Identify two official agencies that carry out food controls under contract to the FSAI, and state one food safety function of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "The FSAI operates under the Department of Health and co-ordinates the enforcement of food safety legislation, advising the Minister and ensuring that food is safe and honestly labelled. Official agencies carry out the controls under contract: the HSE's Environmental Health Service inspects food premises, registers new premises, handles hygiene complaints and issues closure orders; Public Analyst Laboratories analyse food and water and test compliance with food and labelling law; the Department of Agriculture, Food and the Marine monitors meat, milk, egg products and pesticide use and controls imports from outside the EU; the Sea-Fisheries Protection Authority controls fish and shellfish; local authorities carry out controls in their areas. Together they use inspections and sampling, and work on rapid alerts, traceability, product withdrawals and recalls, so that unsafe food is removed from sale quickly and consumers are advised.",
+    "prompt": "Discuss how the FSAI and the official agencies work together to protect consumers from unsafe food.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-food-safety-s9": {
+  "keyTerms": [
+   {
+    "definition": "A binding European law that applies directly in every member state without needing national legislation.",
+    "term": "EU regulation"
+   },
+   {
+    "definition": "The process by which a national law, such as an Irish statutory instrument, puts an EU regulation into force in Ireland.",
+    "term": "Given effect"
+   },
+   {
+    "definition": "Any person or company responsible for a food business, such as a shop, caterer or manufacturer, who must ensure that food is safe.",
+    "term": "Food business operator"
+   },
+   {
+    "definition": "A body designated by law to carry out official controls and enforce food law.",
+    "term": "Competent authority"
+   },
+   {
+    "definition": "An inspection, sampling, analysis or audit carried out by a competent authority to check compliance with food law.",
+    "term": "Official control"
+   },
+   {
+    "definition": "The ability to track food one step back to its supplier and one step forward to its customers.",
+    "term": "Traceability"
+   },
+   {
+    "definition": "The date on highly perishable food after which it must not be eaten.",
+    "term": "Use-by date"
+   },
+   {
+    "definition": "The date until which food keeps its quality, after which it may be less palatable but may still be safe to eat.",
+    "term": "Best-before date"
+   },
+   {
+    "definition": "The mandatory list of the energy and main nutrients in a packaged food, given on its label.",
+    "term": "Nutrition declaration"
+   },
+   {
+    "definition": "Regulation (EC) No 178/2002, which sets the general principles and requirements of food law in the EU.",
+    "term": "General food law"
+   },
+   {
+    "definition": "1998.",
+    "term": "Year the Food Safety Authority of Ireland Act was passed"
+   },
+   {
+    "definition": "Fourteen.",
+    "term": "Number of named allergens that must be emphasised in an ingredients list"
+   },
+   {
+    "definition": "Energy, fat, saturates, carbohydrate, sugars, protein and salt.",
+    "term": "Seven items in a mandatory nutrition declaration"
+   },
+   {
+    "definition": "A use-by date marks the point after which highly perishable food must not be eaten; a best-before date marks the point until which food keeps its quality.",
+    "term": "Two date markings on food labels and their meaning"
+   },
+   {
+    "definition": "Risk assessment, risk management and risk communication.",
+    "term": "Three parts of risk analysis in food law"
+   },
+   {
+    "definition": "Inspection, sampling, analysis and audit.",
+    "term": "Four types of official control"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Regulation (EC) No 852/2004 on the hygiene of foodstuffs is an EU regulation, which applies directly in every member state. Ireland gives effect to it through national regulations.",
+    "h": "Food hygiene legislation",
+    "points": [
+     "The European Communities (Hygiene of Foodstuffs) Regulations 2006, amended in 2009 and 2010, give effect to Regulation (EC) No 852/2004 in Ireland.",
+     "The Regulations set hygiene standards for food premises.",
+     "They require food businesses to operate a food safety system based on HACCP.",
+     "They require staff to be trained in hygiene and to follow hygiene procedures.",
+     "They require food premises to be registered.",
+     "They permit the closure of premises, and the destruction of food, where public health is immediately threatened."
+    ]
+   },
+   {
+    "b": "Regulation (EU) No 1169/2011 on the provision of food information to consumers is given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+    "h": "Food labelling (Higher Level only)",
+    "points": [
+     "A label must give the name of the food and a list of ingredients in descending order of weight at the time of manufacture.",
+     "Fourteen named allergens must be emphasised wherever they appear in the list of ingredients.",
+     "A label must give the net quantity of the food and the storage conditions needed to keep it safe.",
+     "A use-by date must appear on highly perishable food, after which the food must not be eaten.",
+     "A best-before date shows the date until which the food keeps its quality.",
+     "A label must give the name and address of the food business operator.",
+     "A nutrition declaration gives the energy value, fat, saturates, carbohydrate, sugars, protein and salt of the food.",
+     "Labelling must not mislead the consumer about the nature, origin or characteristics of the food."
+    ]
+   },
+   {
+    "h": "General framework of food law (Higher Level only)",
+    "points": [
+     "The Food Safety Authority of Ireland Act 1998 provides the Irish legal framework for food safety and for the functions of the FSAI.",
+     "Regulation (EC) No 178/2002, known as general food law, sets the general principles and requirements of food law across the EU.",
+     "Under general food law, food that is unsafe must not be placed on the market.",
+     "Food businesses must be able to trace food one step back to their supplier and one step forward to their customers.",
+     "General food law set up the European Food Safety Authority and the Rapid Alert System for Food and Feed.",
+     "Risk analysis under general food law has three parts: risk assessment, risk management and risk communication."
+    ]
+   },
+   {
+    "h": "Official controls (Higher Level only)",
+    "points": [
+     "Regulation (EU) 2017/625 sets out the rules for official controls, which check that food businesses comply with food law at every stage of the food chain.",
+     "It is given effect in Ireland by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020.",
+     "Official controls include inspection, sampling, analysis and audit.",
+     "Official controls are carried out by competent authorities, which in Ireland are the FSAI and the official agencies it contracts.",
+     "Official controls are carried out on a risk basis, so that higher-risk businesses are checked more often.",
+     "Inspectors can take samples of food for testing as part of an official control."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Ingredients list in descending order of weight, with named allergens emphasised: a consumer with an allergy can avoid foods that would cause a reaction. Use-by or best-before date: the consumer knows whether highly perishable food is still safe to eat, or whether quality has declined. Nutrition declaration of energy and nutrients: the consumer can make informed choices. Name and address of the food business operator: the consumer knows who is responsible for the food. Labelling must not mislead, so the consumer receives accurate information about the food.",
+    "prompt": "Identify two items of information that must appear on the label of a packaged food, and explain how each one protects the consumer.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Hygiene of Foodstuffs Regulations 2006, which give effect to Regulation (EC) No 852/2004 in Ireland: they set hygiene standards for food premises; require a HACCP-based food safety system and hygiene training for staff; require food premises to be registered; and permit the closure of premises and the destruction of food where public health is immediately threatened. General food law, Regulation (EC) No 178/2002: unsafe food must not be placed on the market; food businesses must trace food one step back and one step forward, so that unsafe food can be withdrawn or recalled quickly; the Rapid Alert System for Food and Feed passes warnings between countries; and risk assessment, risk management and risk communication guide decisions that protect public health.",
+    "prompt": "Describe the protection that food legislation gives the consumer, referring to the European Communities (Hygiene of Foodstuffs) Regulations 2006 and to Regulation (EC) No 178/2002.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-fruit-vegetables-s1": {
   "keyTerms": [
    {

@@ -1,0 +1,131 @@
+{
+  "loId": "hom-food-safety-s5",
+  "chapterId": "hom-food-safety",
+  "subsection": "5. Enzymes and food spoilage",
+  "syllabusRef": "1.3.8",
+  "notes": [
+    {
+      "h": "What enzymes are and how they act",
+      "b": "Enzymes are proteins that speed up chemical reactions. They occur naturally in fruit, vegetables, fish and meat, and keep working after harvest or slaughter.",
+      "points": [
+        "Each enzyme has an active site, a shaped region into which its specific substrate fits to be broken down.",
+        "Enzyme activity needs warmth and moisture, so drying slows enzyme action.",
+        "Heat denatures enzymes, changing the shape of the active site so that they stop working; cooking therefore inactivates them.",
+        "Low temperatures slow enzyme activity without destroying it, so enzymes resume working when food warms."
+      ]
+    },
+    {
+      "h": "Ripening and over-ripening",
+      "points": [
+        "Ripening enzymes continue to act after fruit is picked, converting starch to sugar and softening the cell walls.",
+        "As enzymes change colour, texture and flavour, fruit moves from ripe to over-ripe and then decays.",
+        "Over-ripening: a hard, under-ripe banana becomes soft and sweet, and then black, as enzymes continue to break it down."
+      ]
+    },
+    {
+      "h": "Enzymic browning",
+      "points": [
+        "When the surface of apples, bananas or potatoes is cut or bruised, enzymes are released from the damaged cells.",
+        "Polyphenol oxidase, also called oxidase, acts on phenolic compounds in the presence of oxygen.",
+        "The reaction forms brown pigments on the cut surface, which is why cut apples and potatoes discolour."
+      ]
+    },
+    {
+      "h": "Enzymic deterioration (rotting)",
+      "points": [
+        "Lipase in fish and oily foods breaks down fats into fatty acids and glycerol, causing rancidity and off-flavours.",
+        "Enzymes in fish continue to break down the flesh even at low temperatures, producing odour.",
+        "Vegetables that are not blanched before freezing keep their enzymes active during storage, which spoils colour, texture and flavour.",
+        "Oxidase in the cell walls of plants is activated by oxygen and destroys thiamine, vitamin C and carotene."
+      ]
+    },
+    {
+      "h": "Controlling enzymic spoilage (Higher Level only)",
+      "b": "Control works by inactivating enzymes, slowing their action or excluding oxygen.",
+      "points": [
+        "Heat: blanching, a brief immersion of vegetables in boiling water or steam, inactivates enzymes before freezing; cooking denatures them.",
+        "Acid: adding lemon juice to cut apples lowers the pH and inactivates the enzymes that cause browning.",
+        "Low temperature: refrigeration and freezing slow enzyme activity but do not stop it completely.",
+        "Sulphur dioxide: used as a preservative in dried fruit and fruit juices, it prevents browning and inhibits enzyme action.",
+        "Removing oxygen: vacuum packing, or treating cut fruit with ascorbic acid (vitamin C), prevents oxidase from browning the food.",
+        "Drying: removing moisture makes enzymes inactive, which preserves herbs and dried fruit."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Enzyme",
+      "definition": "A protein that speeds up a chemical reaction in living tissue without being used up."
+    },
+    {
+      "term": "Denaturation",
+      "definition": "The change in an enzyme's shape, usually caused by heat, that stops it from working."
+    },
+    {
+      "term": "Enzymic browning",
+      "definition": "The discolouration of cut or bruised food caused by enzymes reacting with oxygen to form brown pigments."
+    },
+    {
+      "term": "Polyphenol oxidase",
+      "definition": "The enzyme that causes enzymic browning in cut apples, bananas and potatoes."
+    },
+    {
+      "term": "Blanching",
+      "definition": "A brief immersion of vegetables in boiling water or steam to inactivate enzymes before freezing."
+    },
+    {
+      "term": "Lipase",
+      "definition": "An enzyme that breaks down fats into fatty acids and glycerol."
+    },
+    {
+      "term": "Rancidity",
+      "definition": "The unpleasant smell and taste that develops when fats are broken down by lipase or oxidation."
+    },
+    {
+      "term": "Hydrolysis",
+      "definition": "A chemical reaction in which a molecule is broken down by the addition of water."
+    },
+    {
+      "term": "Over-ripening",
+      "definition": "Continued enzyme action after fruit is ripe, leading to softening and decay."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three ways enzymes cause food spoilage",
+      "definition": "Over-ripening, enzymic browning, and enzymic deterioration (rotting)."
+    },
+    {
+      "term": "Enzyme responsible for browning in cut apples",
+      "definition": "Polyphenol oxidase, also called oxidase, which reacts with oxygen and phenolic compounds."
+    },
+    {
+      "term": "Enzyme group that breaks down fats in fish and oily foods",
+      "definition": "Lipases, which hydrolyse fats into fatty acids and glycerol."
+    },
+    {
+      "term": "Why vegetables are blanched before freezing",
+      "definition": "To inactivate enzymes that would otherwise spoil colour, flavour, texture and vitamins during frozen storage."
+    },
+    {
+      "term": "Vitamins destroyed by oxidase in plant cells",
+      "definition": "Thiamine, vitamin C and carotene."
+    },
+    {
+      "term": "Two ways to stop cut apples browning",
+      "definition": "Coating them in acid such as lemon juice, or treating them with ascorbic acid to remove the effect of oxygen."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which enzymes cause food to spoil.",
+      "model": "Over-ripening: enzymes continue to act after fruit is picked, softening it and changing its colour and flavour until it decays. Enzymic browning: enzymes released when fruit such as apples or potatoes is cut react with oxygen to form brown pigments. Enzymic deterioration: enzymes in fish break down the flesh and produce odour even at low temperatures, and unblanched vegetables lose colour and flavour in the freezer. Award three marks for each correct way with a correct description of how enzymes cause it."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the role of enzymes in spoiling fruit and vegetables, and explain how their action can be controlled.",
+      "model": "Role of enzymes: enzymes in fruit continue to ripen it after harvest, converting starch to sugar and softening it until it over-ripens and decays. Cut or bruised apples, bananas and potatoes release polyphenol oxidase, which reacts with oxygen to form brown pigments. Unblanched frozen vegetables keep active enzymes that deteriorate colour, texture, flavour and vitamins, and the oxidase in plant cells, activated by oxygen, destroys thiamine, vitamin C and carotene. Control: heat inactivates enzymes, as blanching does before freezing and cooking denatures them. Acid, such as lemon juice on cut apples, lowers the pH and inactivates enzymes. Low temperatures slow enzyme action but do not stop it, so refrigeration and freezing slow spoilage without preventing it. Sulphur dioxide prevents browning in dried fruit and juices, and removing oxygen by vacuum packing or ascorbic acid prevents oxidase browning. Drying removes the moisture enzymes need to act. Award marks for a clear account of how enzymes spoil fruit and vegetables and for three or more correctly explained control methods."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "loId": "hom-food-safety-s4",
+  "chapterId": "hom-food-safety",
+  "subsection": "4. Uses of micro-organisms in food production",
+  "syllabusRef": "1.3.8",
+  "notes": [
+    {
+      "h": "Fermentation and dairy products",
+      "b": "Fermentation is the breakdown of organic substances, such as sugars, by bacteria or yeast. It is used to make many foods.",
+      "points": [
+        "Starter cultures: bacteria added to milk to begin fermentation; the lactic acid they produce sets the curd in cheese-making.",
+        "Lactic acid bacteria ferment the lactose in milk, giving cheese and yoghurt their sour flavour and texture.",
+        "Yoghurt is made by fermenting milk with Lactobacillus bulgaricus and Streptococcus thermophilus.",
+        "Probiotic yoghurts contain live bacteria that may benefit the intestinal flora when eaten.",
+        "Blue-veined cheese: the mould Penicillium roqueforti grows through the cheese, producing blue-green veins and flavour; Cashel Blue, made in Co. Tipperary, is an Irish example."
+      ]
+    },
+    {
+      "h": "Yeasts in bread, beer and wine",
+      "points": [
+        "In bread-making, yeast ferments sugars in the dough, producing carbon dioxide that makes the dough rise.",
+        "Alcohol produced in the dough evaporates during baking.",
+        "In brewing, yeast ferments the sugars in malted barley to produce alcohol and carbon dioxide.",
+        "In wine-making, yeast ferments the sugars in grape juice into alcohol.",
+        "Vinegar is made by acetic acid bacteria, such as Acetobacter, which oxidise alcohol into acetic acid."
+      ]
+    },
+    {
+      "h": "Bacteria and moulds in meat, sauces and novel foods",
+      "points": [
+        "Salami and chorizo are made by adding bacterial cultures to cured meat, which ferment its sugars and flavour the product.",
+        "Soy sauce is produced by the mould Aspergillus oryzae, which breaks down soya protein and starch by fermentation.",
+        "Quorn is a meat substitute made from mycoprotein, which is grown by fermentation of the fungus Fusarium venenatum.",
+        "Mycoprotein is a novel protein food produced by fermentation rather than from animals."
+      ]
+    },
+    {
+      "h": "Edible fungi and micro-organisms as supplements",
+      "points": [
+        "Mushrooms and truffles are large fungi that are eaten directly as food.",
+        "Yeast extracts and yeast-based food supplements are used as sources of B vitamins."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fermentation",
+      "definition": "The breakdown of organic substances, such as sugars, by bacteria or yeast."
+    },
+    {
+      "term": "Starter culture",
+      "definition": "A culture of micro-organisms added to food to begin fermentation and give the product its characteristics."
+    },
+    {
+      "term": "Lactic acid bacteria",
+      "definition": "Bacteria that ferment lactose and sugars to produce lactic acid, used in cheese and yoghurt."
+    },
+    {
+      "term": "Probiotic",
+      "definition": "A food containing live micro-organisms that may benefit the intestinal flora when eaten."
+    },
+    {
+      "term": "Mycoprotein",
+      "definition": "A protein food produced by growing a fungus by fermentation, used to make meat substitutes such as Quorn."
+    },
+    {
+      "term": "Acetic acid bacteria",
+      "definition": "Bacteria that oxidise alcohol to acetic acid, which is the basis of vinegar."
+    },
+    {
+      "term": "Blue-veined cheese",
+      "definition": "A cheese in which the mould Penicillium roqueforti grows through the paste, producing blue veins and flavour."
+    },
+    {
+      "term": "Carbon dioxide in bread",
+      "definition": "The gas produced by yeast fermentation that forms bubbles in dough and makes it rise."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three uses of yeast in food production",
+      "definition": "Raising bread, brewing beer and making wine."
+    },
+    {
+      "term": "Two bacteria used to make yoghurt",
+      "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus."
+    },
+    {
+      "term": "Mould used to make blue-veined cheese",
+      "definition": "Penicillium roqueforti, which gives blue-green veins and flavour, as in Cashel Blue."
+    },
+    {
+      "term": "Fungus used to make Quorn",
+      "definition": "Fusarium venenatum, grown by fermentation to form mycoprotein."
+    },
+    {
+      "term": "Mould used to make soy sauce",
+      "definition": "Aspergillus oryzae, which breaks down soya protein and starch."
+    },
+    {
+      "term": "Product of acetic acid bacteria acting on alcohol",
+      "definition": "Vinegar, made by oxidising alcohol to acetic acid."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two micro-organisms used in cheese production and state the role of each.",
+      "model": "Lactic acid bacteria, used as starter cultures: they ferment lactose to lactic acid, which sets the curd and develops flavour. Penicillium roqueforti, a mould used in blue-veined cheese: it grows through the cheese, producing blue-green veins and a characteristic flavour. Accept also Penicillium camemberti on the surface of soft cheeses. Award three marks for each correctly named micro-organism with its role."
+    },
+    {
+      "marks": 18,
+      "prompt": "Assess the use of micro-organisms in food production, referring to at least three different types of food.",
+      "model": "Dairy: lactic acid bacteria make yoghurt and cheese, giving sour flavour and texture; Penicillium roqueforti gives blue-veined cheese its colour and flavour. Bread and drink: yeast ferments sugars in dough to produce carbon dioxide, which makes bread rise, and produces alcohol in beer and wine. Meat and sauces: bacterial cultures ferment cured meats such as salami, and Aspergillus oryzae is used to make soy sauce. Alternative proteins: fungi grown by fermentation produce mycoprotein for meat substitutes such as Quorn. Assessment: the process improves flavour, texture and shelf life, and gives novel protein foods, but it requires careful control of the cultures and conditions to ensure the product is safe. Award marks for three named food types with correct micro-organisms and their roles, and a reasoned judgement."
+    }
+  ]
+}
