@@ -49,7 +49,7 @@ python3 pipeline/tests/run_tests.py resources
 | Economics | 16 | 20 | 2021 | aligned |
 | English | 31 | 85 | 2001 | aligned; prescribed texts remain year-bound |
 | Geography | 27 | 57 | 2006 | aligned; syllabus examined to June 2027 |
-| History | 6 | 66 | 2006 | aligned |
+| History | 6 | 66 | 2006 | aligned; syllabus examined to June 2028; app covers the Later Modern field; 2026–2027 DBQ topic Ireland Topic 2 (SEC S09/24) |
 | Home Economics | 12 | 32 | 2004 | aligned |
 | Mathematics | 27 | 156 | 2015 | aligned |
 | Music | 9 | 10 | 1999 | aligned; prescribed works remain cycle-bound |

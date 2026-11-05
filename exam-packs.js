@@ -5,7 +5,7 @@
 (function () {
   var PACKS = {
     biology: "./biology-exam-questions.js?v=1",
-    history: "./history-exam-questions.js?v=1",
+    history: "./history-exam-questions.js?v=2",
     chemistry: "./chemistry-exam-questions.js?v=1",
     "home-economics": "./home-economics-exam-questions.js?v=2",
     geography: "./geography-exam-questions.js?v=2",

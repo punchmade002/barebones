@@ -59,12 +59,12 @@
       status: "Current",
     },
     history: {
-      title: "Leaving Certificate History Syllabus",
+      title: "Leaving Certificate History Syllabus (Ordinary and Higher Levels)",
       path: "./relevant-resources/syllabi/history.pdf",
       sourceUrl: "https://www.curriculumonline.ie/getmedia/da556505-f5fb-4921-869f-e0983fd80e50/SCSEC20_History_syllabus_eng.pdf",
       documentType: "Syllabus",
-      effectiveFrom: "Published syllabus",
-      status: "Current; a replacement draft was under consultation in 2026",
+      effectiveFrom: "Examinations from 2006",
+      status: "Current; examined to June 2028. Later Modern Ireland Topic 2 prescribed for the 2026 and 2027 documents-based question (SEC S09/24). The specification for introduction in September 2027 (history-2027-spec.pdf) is a later course",
     },
   };
 

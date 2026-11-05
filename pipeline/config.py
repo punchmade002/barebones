@@ -140,7 +140,11 @@ DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is un
 # the runner prints as UNVERIFIED so you know to check it on the SEC "Syllabus Changes"
 # page. Anything not listed falls back to DEFAULT_CUTOFF (also flagged unverified).
 SYLLABUS_CUTOFF = {
-    "history":   (2006, True),    # confirmed: documents-based study first examined 2006
+    # history: the current syllabus (NCCA (c) 2003) was first examined 2006 and is examined to
+    # June 2028 (curriculumonline.ie). The 2005 papers were set on the syllabus before it (no
+    # documents-based study, different periods) and are not pulled. The specification for
+    # introduction in September 2027 is a different, later course.
+    "history":   (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2028
     # pe: the 2018 specification was first examined 2020 (SEC S51/25; no written exam that year,
     # calculated grades) and is examined to June 2027. The 2026 specification is first examined 2028.
     "pe":        (2020, True),    # confirmed: SEC circular S51/25
