@@ -48,7 +48,7 @@
       sourceUrl: "https://www.curriculumonline.ie/getmedia/aa7e3dd7-c156-49d2-9b2e-51cbc49c9d7e/SC-Chemistry-Specification-EN.pdf",
       documentType: "Curriculum specification",
       effectiveFrom: "September 2025",
-      status: "Current",
+      status: "Current; first examined June 2027",
     },
     "home-economics": {
       title: "Leaving Certificate Home Economics Scientific and Social Syllabus",

@@ -1,0 +1,292 @@
+{
+  "loId": "chem2-s1",
+  "chapterId": "chem2",
+  "subsection": "1. Atomic structure: the nuclear model",
+  "syllabusRef": "1.2.1, 1.2 LA",
+  "notes": [
+    {
+      "h": "Early models: Dalton and Thomson",
+      "b": "These two models are background to the nuclear model. Each was accepted in its time and then replaced.",
+      "points": [
+        "Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms.",
+        "Dalton's atoms of the same element are identical, atoms of different elements differ in mass, and atoms combine in simple whole-number ratios to form compounds.",
+        "Dalton's atoms are not created or destroyed in chemical reactions.",
+        "Thomson discovered the electron in 1897 using cathode rays: a negatively charged particle much lighter than an atom, present in all atoms, which showed that atoms are divisible.",
+        "Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, so the atom is neutral overall."
+      ]
+    },
+    {
+      "h": "The nuclear model and the gold-foil experiment",
+      "b": "The nuclear model came from scattering experiments, in which a beam of particles is fired at a target and the paths of the deflected particles are studied.",
+      "points": [
+        "Gold-foil experiment (1909): Hans Geiger and Ernest Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil.",
+        "A fluorescent screen around the foil showed where the particles went after they hit the foil.",
+        "Observation: most particles passed straight through the foil, so most of the atom is empty space.",
+        "Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them.",
+        "Observation: a very few particles bounced straight back, so this positive region is very small and very dense, containing almost all of the atom's mass.",
+        "This positive region is the nucleus. Rutherford published the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.",
+        "Later work found that the nucleus contains protons and neutrons: Rutherford identified the proton, and Chadwick discovered the neutron in 1932 (see “Subatomic particles”).",
+        "Diagram: the gold-foil set-up, labelled with the alpha particle source, the beam, the gold foil and the fluorescent screen, and the paths of particles past the nuclei: straight through, deflected, and bounced back."
+      ]
+    },
+    {
+      "h": "The Bohr model",
+      "b": "Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies.",
+      "points": [
+        "Electrons move around the nucleus in fixed circular orbits called energy levels (shells), each with a fixed energy.",
+        "An electron in a given energy level does not lose energy.",
+        "An electron can move to a higher energy level by absorbing a definite amount of energy.",
+        "When the electron falls back to a lower level, it emits light of a definite energy; this explains the lines in emission spectra (see “Energy levels and the hydrogen emission spectrum”).",
+        "Energy levels are numbered n = 1, 2, 3…, with n = 1 closest to the nucleus and lowest in energy.",
+        "The energy levels hold up to 2, 8, 18… electrons."
+      ]
+    },
+    {
+      "h": "The orbital model (current model)",
+      "b": "The orbital model is the current model. It describes where electrons are likely to be found, not the path they follow.",
+      "points": [
+        "Electrons do not follow fixed paths; they occupy orbitals, which are regions of space around the nucleus where there is a high probability of finding an electron.",
+        "Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons (detail in “The current orbital model”).",
+        "The model developed from evidence that electrons behave as waves as well as particles.",
+        "It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time."
+      ]
+    },
+    {
+      "h": "Assumptions and limitations of each model (Higher Level only)",
+      "points": [
+        "Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.",
+        "Dalton: limited because subatomic particles exist, and because isotopes show that atoms of the same element can differ in mass.",
+        "Plum pudding model: assumed that positive charge is spread through the atom.",
+        "Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment.",
+        "Nuclear model: assumed that electrons orbit the nucleus like planets.",
+        "Nuclear model: limited because it does not say how electrons are arranged in the space around the nucleus.",
+        "Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus.",
+        "Nuclear model: limited because it cannot explain line spectra.",
+        "Bohr model: assumed that electrons move in fixed circular orbits with fixed energies.",
+        "Bohr model: explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron.",
+        "Bohr model: does not account for sublevels or for the wave nature of electrons.",
+        "Bohr model: treats the electron's exact path as known, but the exact position and path of an electron cannot be known at the same time.",
+        "Orbital model: the best fit for the evidence available, but its limitation is that it is mathematical and abstract.",
+        "Orbital model: gives probabilities of where an electron is found, not exact positions, and is hard to picture."
+      ]
+    },
+    {
+      "h": "Evaluating the models",
+      "points": [
+        "Each model was accepted because it explained the evidence of its time, and was replaced or refined when new evidence did not fit.",
+        "The Bohr model is still enough to explain flame colours and simple line spectra.",
+        "The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.",
+        "The nuclear model still explains why atoms are mostly empty space."
+      ]
+    },
+    {
+      "h": "The three particles: mass, charge and location",
+      "b": "An atom is made of protons, neutrons and electrons. Relative mass and relative charge are compared with the proton.",
+      "points": [
+        "Proton: relative mass 1, relative charge +1, found in the nucleus.",
+        "Neutron: relative mass 1, relative charge 0 (no charge), found in the nucleus.",
+        "Electron: relative mass about 1/1840 of a proton, so negligible though not zero; relative charge −1; found outside the nucleus, in energy levels (orbitals)."
+      ]
+    },
+    {
+      "h": "Actual masses and charge",
+      "points": [
+        "Actual masses: proton 1.6726 × 10⁻²⁷ kg; neutron 1.6749 × 10⁻²⁷ kg; electron 9.109 × 10⁻³¹ kg.",
+        "The proton and neutron have almost the same mass.",
+        "The charge on a proton is equal in size and opposite in sign to the charge on an electron."
+      ]
+    },
+    {
+      "h": "Structure and scale of the atom",
+      "points": [
+        "Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass.",
+        "The nucleus is tiny compared with the atom: an atom is about 10⁵ (100 000) times the diameter of its nucleus, so most of the atom is empty space.",
+        "A neutral atom has equal numbers of protons and electrons.",
+        "The number of protons identifies the element (see “Atomic number, mass number, relative atomic mass and isotopes”)."
+      ]
+    },
+    {
+      "h": "Counting particles in atoms and ions (assumed)",
+      "points": [
+        "Number of protons = atomic number.",
+        "Number of neutrons = mass number − atomic number.",
+        "In a neutral atom, number of electrons = number of protons.",
+        "A positive ion has lost electrons, so number of electrons = number of protons − charge, e.g. Na⁺ has 11 protons and 10 electrons.",
+        "A negative ion has gained electrons, so number of electrons = number of protons + charge, e.g. Cl⁻ (chlorine-35) has 17 protons, 18 neutrons and 18 electrons; O²⁻ has 8 protons and 10 electrons."
+      ]
+    },
+    {
+      "h": "Discovery of the particles",
+      "points": [
+        "The electron was discovered by J. J. Thomson in 1897.",
+        "The proton was identified by Rutherford about 1917–1919.",
+        "The neutron was discovered by Chadwick in 1932.",
+        "The neutron was found last because it has no charge, which makes it hard to detect."
+      ]
+    },
+    {
+      "h": "Atomic number and mass number",
+      "points": [
+        "Atomic number (Z): the number of protons in the nucleus of an atom of an element.",
+        "Each element has its own atomic number, and the periodic table is arranged in order of atomic number.",
+        "Mass number (A): the total number of protons and neutrons in the nucleus of an atom.",
+        "Number of neutrons = mass number − atomic number (A − Z).",
+        "Nuclear notation writes the mass number at the top left and the atomic number at the bottom left of the element symbol, e.g. ²³₁₁Na has 11 protons, 12 neutrons and (as an atom) 11 electrons."
+      ]
+    },
+    {
+      "h": "Isotopes",
+      "points": [
+        "Isotopes have the same atomic number, so the same number of protons, but different mass numbers because they have different numbers of neutrons.",
+        "Hydrogen-1 (¹H) has no neutrons; hydrogen-2 (²H), called deuterium, has one neutron; hydrogen-3 (³H), called tritium, has two.",
+        "Chlorine-35 (³⁵Cl) has 18 neutrons and chlorine-37 (³⁷Cl) has 20 neutrons.",
+        "Carbon-12, carbon-13 and carbon-14 are isotopes of carbon.",
+        "Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement.",
+        "Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion.",
+        "Isotopes are written by name and mass number, e.g. chlorine-35, or in nuclear notation, e.g. ³⁵₁₇Cl."
+      ]
+    },
+    {
+      "h": "Relative atomic mass",
+      "points": [
+        "Relative atomic mass (Ar): the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12.",
+        "Carbon-12 is the standard: an atom of carbon-12 is defined as having a mass of exactly 12 units.",
+        "Ar has no units.",
+        "The mass number of a single isotope is always a whole number; Ar is a weighted average of the isotopes present, so it is usually not whole.",
+        "Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables).",
+        "The calculation of Ar from isotopic abundance is in “Relative atomic mass from isotopic abundance”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Plum pudding model",
+      "definition": "Thomson's model of the atom as a sphere of positive charge with negative electrons embedded in it."
+    },
+    {
+      "term": "Alpha particle",
+      "definition": "A small, fast, positively charged particle that was fired at gold foil in the gold-foil experiment."
+    },
+    {
+      "term": "Gold-foil experiment",
+      "definition": "Geiger and Marsden's experiment, directed by Rutherford, in which alpha particles were fired at thin gold foil and their paths detected."
+    },
+    {
+      "term": "Nucleus",
+      "definition": "The tiny, dense, positively charged centre of an atom, which contains almost all of its mass."
+    },
+    {
+      "term": "Nuclear model",
+      "definition": "Rutherford's model of a small, dense, positive nucleus at the centre of the atom, with electrons moving in the empty space around it."
+    },
+    {
+      "term": "Energy level",
+      "definition": "A fixed energy state in which an electron can be found, numbered n = 1, 2, 3…, with n = 1 closest to the nucleus."
+    },
+    {
+      "term": "Orbital",
+      "definition": "A region of space around the nucleus where there is a high probability of finding an electron."
+    },
+    {
+      "term": "Sublevel",
+      "definition": "A division of a main energy level, labelled s, p, d or f, made up of orbitals."
+    },
+    {
+      "term": "Proton",
+      "definition": "A particle in the nucleus with a relative mass of 1 and a relative charge of +1."
+    },
+    {
+      "term": "Neutron",
+      "definition": "A particle in the nucleus with a relative mass of 1 and no charge."
+    },
+    {
+      "term": "Electron",
+      "definition": "A particle with a very small mass and a relative charge of −1, found outside the nucleus in energy levels."
+    },
+    {
+      "term": "Nucleon",
+      "definition": "A particle found in the nucleus, meaning either a proton or a neutron."
+    },
+    {
+      "term": "Relative charge",
+      "definition": "The charge of a particle compared with the charge on a proton, which is +1."
+    },
+    {
+      "term": "Positive ion",
+      "definition": "An atom or group of atoms that has lost one or more electrons, so it has more protons than electrons."
+    },
+    {
+      "term": "Negative ion",
+      "definition": "An atom or group of atoms that has gained one or more electrons, so it has more electrons than protons."
+    },
+    {
+      "term": "Atomic number",
+      "definition": "The number of protons in the nucleus of an atom of an element, written as Z."
+    },
+    {
+      "term": "Mass number",
+      "definition": "The total number of protons and neutrons in the nucleus of an atom, written as A."
+    },
+    {
+      "term": "Isotopes",
+      "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons, so different mass numbers."
+    },
+    {
+      "term": "Nuclear notation",
+      "definition": "A way of writing an element symbol with the mass number at the top left and the atomic number at the bottom left."
+    },
+    {
+      "term": "Relative atomic mass",
+      "definition": "The average mass of the atoms of an element, taking account of its isotopes, relative to one-twelfth of the mass of a carbon-12 atom."
+    },
+    {
+      "term": "Carbon-12 standard",
+      "definition": "The reference used for relative atomic mass: an atom of carbon-12 is defined as having a mass of exactly 12 units."
+    },
+    {
+      "term": "Deuterium",
+      "definition": "The isotope hydrogen-2, which has one neutron in its nucleus."
+    },
+    {
+      "term": "Tritium",
+      "definition": "The isotope hydrogen-3, which has two neutrons in its nucleus."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe Rutherford's gold-foil experiment and explain how each of its three observations led to the nuclear model of the atom.",
+      "model": "Geiger and Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil. A fluorescent screen around the foil showed where the particles went. Observation 1: most particles passed straight through, so most of the atom is empty space. Observation 2: some particles were deflected through large angles, so there must be a concentrated region of positive charge that repels them. Observation 3: a very few particles bounced straight back, so this positive region must be very small and very dense, containing almost all of the mass. Together these led Rutherford to the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside."
+    },
+    {
+      "marks": 9,
+      "prompt": "State one assumption and one limitation of the Bohr model of the atom, and explain how the orbital model overcomes the limitation.",
+      "model": "Assumption: electrons move in fixed circular orbits, called energy levels, each with a fixed energy. Limitation: the Bohr model explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron, and it does not account for sublevels or for the wave nature of electrons. The orbital model overcomes this because it describes electrons as occupying orbitals, which are regions of space where an electron is likely to be found, rather than following fixed paths. It is based on evidence that electrons behave as waves as well as particles, and it divides energy levels into sublevels (s, p, d and f) made of orbitals."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the Bohr model is still useful even though it has been replaced by the orbital model.",
+      "model": "The Bohr model is still enough to explain flame colours and simple line spectra, where an electron falls from a higher energy level to a lower one and emits light of a definite energy. Its arrangement of electrons in shells is still used to predict bonding. Each model was accepted because it explained the evidence of its time, and it is only replaced or refined when new evidence does not fit."
+    },
+    {
+      "marks": 6,
+      "prompt": "Copy and complete a table giving the relative mass, relative charge and location of the proton, neutron and electron.",
+      "model": "Proton: relative mass 1, relative charge +1, located in the nucleus. Neutron: relative mass 1, relative charge 0, located in the nucleus. Electron: relative mass about 1/1840 of a proton (negligible), relative charge −1, located outside the nucleus in energy levels (orbitals)."
+    },
+    {
+      "marks": 6,
+      "prompt": "State the number of protons, neutrons and electrons in (i) ²⁷₁₃Al, (ii) ²⁷₁₃Al³⁺, (iii) ³²₁₆S²⁻.",
+      "model": "(i) Protons = 13 (atomic number); neutrons = 27 − 13 = 14; electrons = 13 in a neutral atom. (ii) Protons = 13; neutrons = 14; electrons = 13 − 3 = 10. (iii) Protons = 16 (atomic number); neutrons = 32 − 16 = 16; electrons = 16 + 2 = 18."
+    },
+    {
+      "marks": 6,
+      "prompt": "Define (i) mass number, (ii) isotopes. Explain why isotopes of the same element have the same chemical properties.",
+      "model": "(i) Mass number is the total number of protons and neutrons in the nucleus of an atom. (ii) Isotopes are atoms of the same element with the same number of protons but different mass numbers, because they have different numbers of neutrons. Isotopes have the same chemical properties because they have the same number of electrons and the same electron arrangement, and chemical properties depend on the arrangement of electrons."
+    },
+    {
+      "marks": 6,
+      "prompt": "Define relative atomic mass and explain why the relative atomic mass of chlorine is 35.5 rather than a whole number.",
+      "model": "Relative atomic mass (Ar) is the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12. Chlorine has two isotopes, chlorine-35 and chlorine-37, present at about 75.8% and 24.2% respectively. Ar is a weighted average of the masses of these two isotopes, which gives 35.45 (quoted as 35.5 in school tables). Each individual isotope has a whole-number mass number, but the average is not a whole number because the two isotopes are present in different proportions."
+    }
+  ]
+}
