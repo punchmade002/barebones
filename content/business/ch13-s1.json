@@ -1,0 +1,93 @@
+{
+  "loId": "ch13-s1",
+  "chapterId": "ch13",
+  "subsection": "1. Leadership, management, organisational culture and leadership styles",
+  "syllabusRef": "3.1.1, 3.1.2, 3.1.3, 3.5.1",
+  "notes": [
+    { "h": "Leadership and management", "b": "Leadership and management are related but distinct functions, and an organisation needs both.", "points": [
+      "Management is the process of planning, organising, directing and controlling resources to achieve set objectives efficiently.",
+      "Leadership is the process of setting a direction and influencing people to follow it, often to bring about change.",
+      "Managers plan, organise, staff and control operations so that targets for output, quality and budget are met.",
+      "Leaders set direction, inspire staff, champion change and shape the culture by modelling the values they want the firm to hold.",
+      "A person can lead while managing, or manage without leading; the distinction lies in the activity carried out, not the job title."
+    ] },
+    { "h": "Differences between leadership and management", "b": "Leadership and management differ in their focus, their source of power and their attitude to change.", "points": [
+      "Vision and execution: leaders set a vision of the future, while managers turn plans into day-to-day action and schedules.",
+      "Influence and authority: leaders win followers through trust and inspiration, while managers rely mainly on the formal authority of their position.",
+      "Change and stability: leaders drive change and innovation, while managers keep operations consistent and predictable.",
+      "Questions asked: leaders ask what the organisation should do and why, while managers ask how and when it will be done.",
+      "Time horizon: leaders take a long-term view of where the organisation is heading, while managers focus on short- and medium-term targets and budgets.",
+      "Relationships with staff: leaders motivate people to commit to goals, while managers organise tasks, allocate resources and monitor performance."
+    ] },
+    { "h": "Organisational culture and innovation", "b": "Organisational culture is the shared set of values, norms and behaviours that shapes how people work in a firm.", "points": [
+      "Values are the beliefs about what matters, such as customer service, safety or innovation.",
+      "Norms are the unwritten rules about acceptable behaviour, such as whether staff challenge decisions in meetings.",
+      "Behaviours are the visible actions staff take, such as how they treat customers or respond to a mistake.",
+      "Culture is shaped by founders, the actions of leaders, the firm's history, its industry and the wider national environment.",
+      "A culture that rewards experimentation and tolerates failure encourages staff to propose and test new products and processes.",
+      "A culture that punishes mistakes can make staff hide problems and avoid new ideas, so it blocks innovation.",
+      "Irish example: Ryanair's culture of tight cost control has shaped its pricing and operating model, and that consistency has been central to its success."
+    ] },
+    { "h": "Autocratic leadership", "b": "In an autocratic style, the leader makes decisions alone and expects staff to carry them out without discussion.", "points": [
+      "The leader decides, gives orders and closes down debate, so decisions are fast and direction is clear.",
+      "It suits emergencies, crises, or a workforce that needs close supervision and has little experience.",
+      "Effect on culture: staff have little say, which can produce low trust, dependence and reluctance to speak up.",
+      "Effect on innovation: staff ideas are rarely sought, so innovation depends on the leader's own thinking and tends to be limited."
+    ] },
+    { "h": "Democratic leadership", "b": "In a democratic style, the leader involves staff in decisions and weighs their views before deciding.", "points": [
+      "Staff views are gathered through meetings, surveys or teams before the leader decides, and in some firms the group votes.",
+      "It suits complex problems where the expertise of staff matters and where commitment to a decision is needed.",
+      "Effect on culture: it builds trust, belonging and shared ownership of decisions.",
+      "Effect on innovation: it draws on more ideas and supports change, although decisions can be slow and may compromise on the best option."
+    ] },
+    { "h": "Laissez-faire leadership", "b": "In a laissez-faire style, the leader gives staff freedom to decide how work is done, with minimal direction or supervision.", "points": [
+      "The leader sets broad goals and steps back, leaving staff to decide how the work is organised and completed.",
+      "It suits highly skilled, experienced and self-motivated professionals, such as research teams.",
+      "Effect on culture: it fosters independence, but without clear direction it can produce confusion, uneven standards and weak accountability.",
+      "Effect on innovation: staff are free to experiment, which can produce creative ideas, but without support many of them may not be developed."
+    ] },
+    { "h": "Transformational leadership", "b": "In a transformational style, the leader inspires people with a shared vision and motivates them to go beyond routine expectations.", "points": [
+      "The leader communicates a clear, compelling vision, challenges existing assumptions and encourages people to develop their own skills.",
+      "It suits organisations facing major change, intense competition or a need to reinvent products and processes.",
+      "Effect on culture: it builds commitment, shared purpose and a learning culture in which people feel valued.",
+      "Effect on innovation: staff are challenged to question established methods, which makes this style one of the most closely linked to innovation.",
+      "Limitation: it relies on the leader's personal credibility, and it stalls if the vision is not backed by practical plans."
+    ] },
+    { "h": "Servant leadership", "b": "In a servant style, the leader puts the needs of staff, customers and the community first and sees the role as one of support.", "points": [
+      "The leader listens, supports staff development and removes obstacles so that people can do their best work.",
+      "It suits organisations where trust, care and long-term relationships are central, such as healthcare, education and social enterprises.",
+      "Effect on culture: it builds trust, loyalty and an ethical culture in which people feel safe to speak up.",
+      "Effect on innovation: staff who feel trusted are more willing to share ideas, although the style may be slower to drive radical change."
+    ] },
+    { "h": "Transactional leadership", "b": "In a transactional style, the leader uses rewards and penalties linked to performance, with clear rules and targets.", "points": [
+      "The leader sets targets, monitors results and rewards or disciplines staff according to whether the targets are met.",
+      "It suits routine operations, production lines and compliance-heavy work, where consistency and reliability matter most.",
+      "Effect on culture: it creates clear expectations and order, but staff may focus only on hitting targets and feel closely controlled.",
+      "Effect on innovation: it is limited, because staff are rewarded for meeting existing standards rather than for taking risks with new ideas."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Leadership", "definition": "The process of setting a direction for an organisation and influencing people to follow it, often to bring about change." },
+    { "term": "Management", "definition": "The process of planning, organising, directing and controlling resources to achieve objectives efficiently." },
+    { "term": "Organisational culture", "definition": "The shared values, norms and behaviours that shape how people think and act in an organisation." },
+    { "term": "Autocratic leadership", "definition": "A style in which the leader makes decisions alone and expects staff to carry them out without discussion." },
+    { "term": "Democratic leadership", "definition": "A style in which the leader involves staff in decisions and takes their views into account before deciding." },
+    { "term": "Laissez-faire leadership", "definition": "A style in which the leader gives staff freedom to decide how work is done, with little direction or supervision." },
+    { "term": "Transformational leadership", "definition": "A style in which the leader inspires people with a shared vision and motivates them to develop and go beyond routine expectations." },
+    { "term": "Servant leadership", "definition": "A style in which the leader puts the needs of staff and others first and focuses on supporting them." },
+    { "term": "Transactional leadership", "definition": "A style in which the leader uses rewards and penalties linked to performance, with clear targets and rules." }
+  ],
+  "factCards": [
+    { "term": "Three parts of organisational culture", "definition": "Values, norms and behaviours." },
+    { "term": "Factors that shape a firm's culture", "definition": "Founders, the actions of leaders, the firm's history, its industry and the wider national environment." },
+    { "term": "Roles of a manager", "definition": "Planning, organising, staffing, directing and controlling." },
+    { "term": "Roles of a leader", "definition": "Setting direction, inspiring staff, championing change, shaping culture and developing people." },
+    { "term": "Style that suits a crisis", "definition": "Autocratic leadership, because fast decisions and clear direction are needed." },
+    { "term": "Style most closely linked to innovation", "definition": "Transformational leadership, which challenges staff to question established methods and develop new ideas." }
+  ],
+  "questions": [
+    { "marks": 15, "prompt": "Distinguish between leadership and management in an organisation, giving three points of difference with an example for each.", "model": "Leadership focuses on vision and direction. A leader in a food company might set a goal of entering export markets within five years, whereas management turns that goal into action by planning budgets, schedules and sales targets. Leaders gain influence through trust and inspiration, while managers rely more on the authority of their position. A manager can order a stock check, but a leader persuades staff to adopt a new way of serving customers. Leaders tend to drive change and innovation, while managers keep existing processes stable and consistent, so a leader may introduce online ordering while a manager makes sure the new system runs reliably every day." },
+    { "marks": 20, "prompt": "Outline how democratic leadership could foster innovation in an Irish manufacturing firm, and evaluate one limitation of this style.", "model": "Democratic leadership gathers ideas from the people who know the production process best, so factory staff can suggest product improvements that managers might not see. Consulting staff before decisions builds ownership, so employees are more willing to test new methods and accept change once a decision is made. Groups that share ideas openly can combine different skills, such as design, engineering and sales, which tends to produce more practical innovations. A limitation is that consultation can be slow. If a competitor launches a rival product, the firm may lose time, and the leader may have to compromise on the best option to keep the group committed." },
+    { "marks": 10, "prompt": "Analyse how a strong organisational culture can help a firm succeed, giving one example.", "model": "A strong culture aligns staff behaviour with the firm's goals, so employees make consistent decisions that serve customers without waiting for instructions. A culture that values experimentation encourages staff to propose and test new ideas, which can lead to new products and services. Ryanair's focus on keeping costs low has shaped every part of its operating model, from pricing to the use of its aircraft, and that consistency has supported its business model." }
+  ]
+}

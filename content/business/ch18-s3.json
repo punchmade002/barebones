@@ -1,0 +1,84 @@
+{
+  "loId": "ch18-s3",
+  "chapterId": "ch18",
+  "subsection": "3. Fintech, Central Bank Digital Currency and crypto-assets",
+  "syllabusRef": "4.2.4, 4.2.8",
+  "notes": [
+    { "h": "Fintech: technology in financial services", "b": "Fintech means financial services delivered through technology, often faster, cheaper or more convenient than traditional providers.", "points": [
+      "Mobile banking lets customers check balances, move money and pay bills through an app on a phone.",
+      "Payment apps allow transfers between people and payments in shops and online, usually linked to a bank account or card.",
+      "Neobanks are digital-only banks with no branches, relying on an app and online support as their main channel.",
+      "Robo-advisers use algorithms to build and manage a simple investment portfolio, usually at a lower cost than a human adviser charges.",
+      "Open banking lets a customer give a regulated third party secure access to their bank account data, so that rival services can compete for business.",
+      "Buy-now-pay-later schemes offer instalment credit at the point of online checkout, which makes borrowing quick but easy to overuse."
+    ] },
+    { "h": "Opportunities and challenges of fintech for consumers", "points": [
+      "Opportunities include lower fees, faster transactions, round-the-clock access and a wider choice of products.",
+      "Financial inclusion: people without a nearby branch or with a thin credit history may gain access to basic accounts and payments.",
+      "Digital exclusion: older people and those without internet access or confidence with technology can be left behind.",
+      "Fraud and security: customers manage money through devices, which raises the risk of account takeover, phishing and data breaches.",
+      "Weaker protection: a consumer dealing with an unregulated or overseas firm may have little recourse if something goes wrong.",
+      "Easy credit and gamified investing can encourage impulsive spending and risk-taking, so consumers need self-control and financial literacy."
+    ] },
+    { "h": "How technology changes financial products", "points": [
+      "Automation cuts the cost of processing applications and can give a lending decision in minutes rather than days.",
+      "Data analytics lets firms price products and assess creditworthiness using more information, which can widen access or exclude some groups.",
+      "Digital channels move service away from branches, cutting costs for providers but reducing personal contact for customers.",
+      "Distributed ledger technology underpins crypto-assets and some payment systems, recording transactions in a shared database that many computers maintain."
+    ] },
+    { "h": "Central Bank Digital Currency", "b": "A Central Bank Digital Currency (CBDC) is central-bank money in digital form, and it complements cash rather than replacing it.", "points": [
+      "Because a CBDC is a liability of the central bank, holding it carries no credit risk, in the same way that holding cash does.",
+      "The ECB's digital euro project is a proposed CBDC for the euro area, designed to sit alongside cash.",
+      "Advantages include a safe digital payment option for the public and less reliance on private payment networks.",
+      "Disadvantages include privacy concerns if the central bank could see payment data, and cyber-security risk for the system.",
+      "Disintermediation is a risk for banks: if people move large sums into a CBDC, banks may lose deposits that fund their lending."
+    ] },
+    { "h": "Stablecoins and crypto-assets compared", "points": [
+      "A stablecoin's value depends on its issuer's pledge to redeem it at a stated value, usually backed by reserves the issuer holds.",
+      "A crypto-asset has no single liable issuer, so no one is legally responsible for redeeming it or making the holder whole.",
+      "Crypto-asset prices are set by supply and demand on trading platforms, which makes their value volatile.",
+      "A CBDC is issued by the central bank and is its liability, a stablecoin rests on a private issuer's pledge, and a crypto-asset has no liable issuer at all."
+    ] },
+    { "h": "Impact of digital currency on consumers and businesses", "points": [
+      "Consumers may gain lower transaction costs, faster settlement and easier access to payments, which can help people without bank accounts.",
+      "Consumers may lose privacy if payment data is collected, and may lose money to scams in unregulated crypto markets.",
+      "Businesses may gain faster settlement and possibly lower payment costs, and can reach customers through new digital channels.",
+      "Businesses face cyber-security costs and may need to change systems to accept digital payments.",
+      "Banks face competition from fintech firms and may need to change their business models to keep customers."
+    ] },
+    { "h": "Crypto risks and EU regulation", "points": [
+      "Price volatility: crypto-asset values can swing sharply, so holders can lose most of their money quickly.",
+      "Fraud: fake exchanges, pump-and-dump schemes and phishing aimed at wallet holders target crypto users.",
+      "Loss of access: losing a private key or password can mean permanent loss of the asset, as no institution can restore it.",
+      "Limited protection: crypto holdings are generally outside the deposit guarantee scheme, so there is no guaranteed refund if a provider fails.",
+      "Money laundering and tax evasion risks are why providers are subject to anti-money laundering rules.",
+      "MiCA, the EU Markets in Crypto-Assets Regulation, sets authorisation and conduct rules for crypto-asset service providers and stablecoin issuers, bringing the sector closer to regulated finance."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Fintech", "definition": "Financial services delivered through technology, such as apps, online platforms and automated advice." },
+    { "term": "Neobank", "definition": "A bank that operates only digitally, without branches, using an app as its main customer channel." },
+    { "term": "Robo-adviser", "definition": "An automated service that builds and manages an investment portfolio using algorithms with little human input." },
+    { "term": "Open banking", "definition": "A system in which customers can allow approved third parties to access their bank data securely." },
+    { "term": "Central Bank Digital Currency (CBDC)", "definition": "Central-bank money issued in digital form that complements cash for everyday payments." },
+    { "term": "Stablecoin", "definition": "A crypto-asset whose value depends on its issuer's pledge to redeem it at a stated value." },
+    { "term": "Crypto-asset", "definition": "A digital asset that is traded and held electronically, with no single issuer legally liable for it." },
+    { "term": "Distributed ledger", "definition": "A shared database copied across many computers, where transactions are recorded and verified by the network." },
+    { "term": "Disintermediation", "definition": "The removal of a middleman, such as a bank, from a transaction, so customers deal directly with another party." },
+    { "term": "MiCA", "definition": "The EU Markets in Crypto-Assets Regulation, which sets rules for crypto-asset service providers and stablecoin issuers." }
+  ],
+  "factCards": [
+    { "term": "Three features of a CBDC", "definition": "It is central-bank money, it is issued in digital form, and it complements cash." },
+    { "term": "Who is liable for CBDC versus crypto holdings", "definition": "A CBDC is a central-bank liability; a crypto holding has no single liable issuer, so no one guarantees redemption." },
+    { "term": "CBDC advantages and disadvantages", "definition": "Advantages: a safe digital payment option and less reliance on private networks. Disadvantages: privacy concerns, cyber risk and possible loss of bank deposits." },
+    { "term": "Financial inclusion through digital providers", "definition": "Access to accounts and payments for people without a nearby branch or a credit history." },
+    { "term": "Crypto holdings and deposit protection", "definition": "Crypto holdings generally sit outside the deposit guarantee scheme, so there is no guaranteed refund if a provider fails." },
+    { "term": "Consumer benefit from payment apps", "definition": "Quick transfers and payments at lower cost than some traditional channels, usually linked to a bank account or card." },
+    { "term": "EU framework for crypto markets", "definition": "The EU rules on authorisation and conduct for crypto-asset providers and stablecoin issuers." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Describe the nature of a Central Bank Digital Currency and examine its potential impact on consumers and on businesses.", "model": "A CBDC is central-bank money in digital form that complements cash, so it carries the central bank as its issuer and no credit risk for the holder. For consumers, it could offer a safe, low-cost and fast digital payment option and help people who have no bank account, but privacy is a concern if payment data could be traced. For businesses, a CBDC could mean faster settlement and new digital payment channels, but firms would face cyber-security costs and need to adapt their systems. Banks could also lose deposits to a CBDC, which may reduce the funds they have available for lending." },
+    { "marks": 15, "prompt": "Distinguish between a CBDC, a stablecoin and a crypto-asset, and explain one risk of holding crypto-assets.", "model": "A CBDC is central-bank money issued in digital form, so the central bank is the liable issuer. A stablecoin's value depends on its issuer's pledge to redeem it at a stated value, usually backed by reserves. A crypto-asset has no single liable issuer, so no one is legally responsible for redeeming it. One risk of holding crypto-assets is price volatility: values can swing sharply, so the holder can lose much of the money put in, and crypto holdings generally lack the deposit guarantee protection that bank deposits have." },
+    { "marks": 10, "prompt": "Explain two ways fintech has changed the provision of financial products for consumers.", "model": "First, automation has cut the time and cost of processing applications, so consumers can receive decisions in minutes through an app. Second, open banking allows customers to share bank data securely with approved third parties, so rival services can offer tailored products and compete on price." }
+  ]
+}

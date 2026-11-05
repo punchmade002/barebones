@@ -1,0 +1,88 @@
+{
+  "loId": "ch11-s1",
+  "chapterId": "ch11",
+  "subsection": "1. Competition, competitive advantage and Porter's five forces",
+  "syllabusRef": "2.6.1, 2.6.2",
+  "notes": [
+    { "h": "Identifying competitors", "b": "A competitor is any business that competes for the same customers or spending. Identifying competitors early shapes pricing, marketing and strategy.", "points": [
+      "Direct competitors sell the same or very similar products to the same customers, such as two coffee shops on the same street.",
+      "Indirect competitors meet the same customer need in a different way, such as a juice bar competing with a coffee shop for a morning purchase.",
+      "Potential competitors, including firms that could enter the market, matter as much as current ones.",
+      "Knowing competitors helps a business set realistic prices, spot gaps in the market and anticipate price cuts or new products."
+    ] },
+    { "h": "Competitive advantage", "b": "Competitive advantage is a feature that lets a business outperform its rivals, and it is the basis of a sustainable strategy.", "points": [
+      "Cost leadership means producing at a lower cost than rivals, so the business can price lower or earn a higher margin.",
+      "Differentiation means offering something customers value and rivals do not match, such as brand, quality, design or service.",
+      "Focus means concentrating on a narrow market segment, either by cost or by differentiation, and serving it better than wider competitors.",
+      "A business capitalises on its advantage by protecting it, promoting it to customers and reinvesting the extra profit in further strengths."
+    ] },
+    { "h": "Threat of new entrants", "b": "New entrants add capacity and compete for customers, so the threat is high when barriers to entry are low.", "points": [
+      "High capital requirements, such as expensive plant or premises, deter new entrants.",
+      "Economies of scale give established firms lower unit costs, which makes entry at small scale difficult.",
+      "Strong brand loyalty and high switching costs make it harder for newcomers to win customers.",
+      "Licences, patents and regulation keep out some firms, and an incumbent's likely retaliation can deter entry as well.",
+      "Low start-up costs and easy access to customers, such as selling online, make the threat of new entrants high."
+    ] },
+    { "h": "Bargaining power of suppliers", "b": "Suppliers have power over a business when they can raise prices, cut quality or refuse to supply.", "points": [
+      "Few suppliers in the market, or a supplier offering a unique input, give suppliers high power because the business has few alternatives.",
+      "High switching costs, such as retraining staff or redesigning products to use another input, increase the business's dependence.",
+      "A supplier that could sell directly to the business's customers, which is forward integration, gains extra leverage.",
+      "Supplier power is low when there are many suppliers of standard inputs and the business buys in volume, because it can move between them."
+    ] },
+    { "h": "Bargaining power of customers", "b": "Customers have power when they can push prices down or demand higher quality.", "points": [
+      "A few large buyers that purchase in volume, such as a major supermarket group, can demand discounts from suppliers.",
+      "Standard products with many substitutes make customers price-sensitive and willing to switch.",
+      "Low switching costs, such as easy price comparison online, increase customer power.",
+      "Customer power is low when buyers are many and fragmented, and when the product is differentiated and hard to replace."
+    ] },
+    { "h": "Threat of substitutes", "b": "A substitute meets the same need in a different way. The threat is high when substitutes offer similar value at a lower price.", "points": [
+      "A substitute can be a different product, such as bottled water replacing a soft drink to quench thirst.",
+      "A substitute becomes more threatening as its price-performance ratio improves, such as online services replacing high-street services.",
+      "The threat is low when no close alternative exists or when switching to one costs the customer a lot.",
+      "Industries with many close substitutes face pressure to keep prices low and to keep innovating."
+    ] },
+    { "h": "Competitive rivalry", "b": "Rivalry is the intensity of competition among firms that already operate in the market.", "points": [
+      "Many competitors of similar size make rivalry intense, because no single firm dominates.",
+      "Slow market growth means firms must take share from each other, which increases rivalry.",
+      "High fixed costs push firms to fill their capacity, so they cut prices to win volume.",
+      "Low differentiation makes price the main basis of competition.",
+      "High exit barriers, such as specialised assets that cannot be sold, keep loss-making firms in the market."
+    ] },
+    { "h": "Applying the five forces", "b": "The five forces are a framework for judging how attractive an industry is and where a firm's advantage should lie.", "points": [
+      "Scoring each force as high, medium or low gives a quick picture of industry attractiveness.",
+      "Attractiveness is greatest where entry barriers are high, supplier and customer power are low, substitutes are few and rivalry is moderate.",
+      "The firm should then choose the advantage that best fits the forces it faces, such as cost leadership where buyers are price-sensitive."
+    ] },
+    { "h": "Worked analysis: the Irish grocery market", "b": "This worked example applies the five forces to the Irish grocery market using general, qualitative judgements.", "points": [
+      "New entrants: the threat is low to medium, because large store sites, buying scale and established brand loyalty are costly to match, although online grocers face lower site costs.",
+      "Suppliers: power is medium, because large food brands bargain strongly, while the main chains buy in volume and can switch between many suppliers for standard goods.",
+      "Customers: power is high, because shoppers can compare prices easily, switching costs are low and the main chains compete hard on price.",
+      "Substitutes: the threat is medium, because restaurants, convenience stores, markets and online delivery meet food needs in part.",
+      "Rivalry: intensity is high, because several large chains and discount operators compete in a mature market where growth comes mainly from taking share.",
+      "Conclusion: the market is only moderately attractive because margins are squeezed, so a firm needs a clear advantage, such as the low-cost model of the discounters or a focused niche like premium fresh food or convenience formats."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Direct competitor", "definition": "A business that sells the same or very similar products to the same customers." },
+    { "term": "Indirect competitor", "definition": "A business that meets the same customer need in a different way." },
+    { "term": "Competitive advantage", "definition": "A feature that lets a business outperform rivals and earn more or keep its customers." },
+    { "term": "Cost leadership", "definition": "Being the lowest-cost producer in a market, so a firm can price lower or earn a higher margin." },
+    { "term": "Differentiation", "definition": "Offering something customers value that rivals do not match, such as quality, brand, design or service." },
+    { "term": "Porter's five forces", "definition": "A framework for analysing industry competition through new entrants, suppliers, customers, substitutes and rivalry." },
+    { "term": "Barriers to entry", "definition": "Obstacles that make it difficult or costly for new firms to enter a market." },
+    { "term": "Switching costs", "definition": "The time, money or effort a customer or business incurs when changing to a different supplier." },
+    { "term": "Economies of scale", "definition": "The fall in average cost per unit as output increases, which favours larger firms." }
+  ],
+  "factCards": [
+    { "term": "The competitive forces, in order", "definition": "New entrants, supplier power, customer power, substitutes and competitive rivalry." },
+    { "term": "Three sources of an edge over rivals", "definition": "Cost, differentiation and focus." },
+    { "term": "Factor that raises the threat of new entrants", "definition": "Low capital needs and easy access to distribution." },
+    { "term": "Factor that raises supplier power", "definition": "Few suppliers, or a unique input the business cannot easily replace." },
+    { "term": "Factor that raises rivalry", "definition": "Many similar-sized competitors, slow market growth and high fixed costs." },
+    { "term": "Two types of competitor", "definition": "Direct and indirect." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A chain of gyms is planning to enter a new Irish city. Analyse the competitive forces it would face using Porter's five forces, and identify the competitive advantage the chain should build.", "model": "New entrants: small studios are cheap to open, so the threat is high, although the chain's brand and buying scale give some protection. Suppliers: equipment makers are few and specialised, so supplier power is moderate, but the chain can negotiate because it buys in volume. Customers: members can switch gyms easily and many options exist, so customer power is high and retention matters. Substitutes: running clubs, home workouts and team sports meet fitness needs, so the threat is significant. Rivalry: several established gyms compete on price and facilities, so rivalry is high. Advantage: the chain should build differentiation through strong community classes and personal coaching, supported by lower unit costs from scale buying." },
+    { "marks": 15, "prompt": "Distinguish between cost leadership and differentiation, and explain which a small Irish craft brewery would be more likely to pursue, giving reasons.", "model": "Cost leadership means having the lowest costs in the market, so the firm competes mainly on price. Differentiation means offering something rivals do not match, so the firm competes on quality, branding or experience and can charge a premium. A small craft brewery has limited scale and cannot match the unit costs of large brewers, so it is more likely to pursue differentiation through distinctive recipes, local branding and taproom experiences that build loyal customers." }
+  ]
+}

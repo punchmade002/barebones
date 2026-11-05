@@ -1,0 +1,78 @@
+{
+  "loId": "ch14-s4",
+  "chapterId": "ch14",
+  "subsection": "4. Teamwork and sustainable workplaces",
+  "syllabusRef": "3.2.9, 3.2.10",
+  "notes": [
+    { "h": "What makes an effective team", "b": "A team is a group of people working together towards shared goals, and it works best when its members have clear roles and trust one another.", "points": [
+      "Shared goals give the team a common purpose, so members pull in the same direction rather than working on separate priorities.",
+      "Clear roles and responsibilities reduce duplication and confusion about who is doing what.",
+      "Open communication lets members share information, raise concerns and give feedback early.",
+      "Trust and psychological safety allow members to disagree and admit mistakes without fear of punishment.",
+      "A balanced mix of skills and personalities covers the range of tasks the team must complete.",
+      "Teams usually pass through forming, storming, norming and performing, and conflict often appears before a team settles into working well together."
+    ] },
+    { "h": "Opportunities of teamwork", "b": "Teams can add value for both employees and employers.", "points": [
+      "Skills sharing: members learn from each other's expertise, which builds human capital across the team.",
+      "Creativity: a range of perspectives generates more ideas and can improve innovation.",
+      "Motivation: working with colleagues can increase engagement and a sense of shared achievement.",
+      "Productivity: dividing tasks according to strengths can speed up work and improve quality.",
+      "Better decisions: considering several viewpoints before a choice is made can reduce errors.",
+      "Support: employees facing a difficult task have colleagues to turn to, which can reduce stress."
+    ] },
+    { "h": "Challenges of teamwork", "b": "Teamwork also creates problems that managers must anticipate and manage.", "points": [
+      "Conflict: differences in personality, working style or priorities can create tension that slows the work.",
+      "Free-riding: some members contribute less while others do most of the work, which causes resentment and an unfair workload.",
+      "Groupthink: a team may seek agreement so strongly that it ignores alternatives or dissenting views, leading to poor decisions.",
+      "Slower decisions: consulting many people takes time, which is a disadvantage when a fast response is needed.",
+      "Individual performance can be hidden inside a group, which makes fair appraisal harder for the employee and the manager.",
+      "Employers can limit these challenges by setting clear team goals and roles and by monitoring each member's contribution."
+    ] },
+    { "h": "What a sustainable workplace means", "b": "A sustainable workplace reduces its environmental impact and supports the social wellbeing of the people who work there.", "points": [
+      "Environmental sustainability focuses on using fewer resources, producing less waste and lowering emissions.",
+      "Social sustainability focuses on fair work: decent pay, safe conditions, inclusion and respect for employees.",
+      "Economic sustainability means the environmental and social measures are affordable enough to be maintained over time."
+    ] },
+    { "h": "Practical sustainability measures", "b": "Many sustainability measures are practical and can be started in any workplace.", "points": [
+      "Energy reduction: switching off equipment, using efficient lighting, setting heating controls and buying energy-efficient equipment.",
+      "Waste reduction: recycling, reducing paper use and avoiding single-use items in the canteen.",
+      "Sustainable travel: encouraging walking, cycling, public transport and car-sharing, and using electric vehicles for business travel where practical.",
+      "Green procurement: choosing suppliers and products with a lower environmental impact and a sound environmental record.",
+      "Hybrid working: fewer commutes and smaller offices can reduce the footprint, though energy use at home must also be counted.",
+      "Green teams: staff-led groups that propose and monitor environmental improvements, which spreads ownership of sustainability across the organisation.",
+      "Fair work: fair pay, safe conditions and inclusion meet the social side of sustainability."
+    ] },
+    { "h": "Contributions by employers and employees", "b": "Sustainability works best when employers set the direction and employees act on it.", "points": [
+      "Employers can set sustainability policies, provide resources such as recycling facilities and fund energy upgrades.",
+      "Employers can measure and report environmental performance, so progress can be tracked and communicated.",
+      "Employers can train staff in sustainable practices so that they understand what they can change.",
+      "Employees can apply sustainable habits in daily work, such as printing less and turning off equipment.",
+      "Employees can join green teams or propose ideas that reduce waste or energy use.",
+      "Employees can use sustainable travel for their commute and choose eco-friendly suppliers when buying supplies for the team."
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Teamwork", "definition": "Members working together towards shared goals, with coordinated roles and open collaboration." },
+    { "term": "Groupthink", "definition": "A tendency in a team to seek agreement so strongly that alternatives and dissenting views are ignored, leading to poor decisions." },
+    { "term": "Free-riding", "definition": "Contributing less effort to a team while benefiting from the work of other members." },
+    { "term": "Sustainable workplace", "definition": "A workplace that reduces its environmental impact and supports the social wellbeing of the people in it." },
+    { "term": "Green procurement", "definition": "Choosing suppliers and products on the basis of their lower environmental impact." },
+    { "term": "Green team", "definition": "A group of staff who propose and monitor environmental improvements in their organisation." },
+    { "term": "Psychological safety", "definition": "A climate in which team members feel able to speak up, disagree and admit mistakes without fear of punishment." },
+    { "term": "Environmental sustainability", "definition": "Using resources efficiently, producing less waste and lowering emissions so that the natural environment is protected." }
+  ],
+  "factCards": [
+    { "term": "Opportunities of teamwork", "definition": "Skills sharing, creativity, motivation, productivity and better decisions." },
+    { "term": "Challenges of teamwork", "definition": "Conflict, free-riding, groupthink, slower decisions and hidden individual performance." },
+    { "term": "Two dimensions of a sustainable workplace", "definition": "Environmental, covering resources, waste and emissions; and social, covering fair work, inclusion and safety." },
+    { "term": "Energy reduction at work", "definition": "Switching off equipment, efficient lighting, heating controls and energy-efficient equipment." },
+    { "term": "Stages of team development", "definition": "Forming, storming, norming and performing." },
+    { "term": "Employer contributions to sustainability", "definition": "Policies, resources, measurement and reporting, and staff training." },
+    { "term": "Employee contributions to sustainability", "definition": "Daily habits, green team participation, sustainable commuting and suggesting ideas." },
+    { "term": "Sustainable travel options", "definition": "Walking, cycling, public transport, car-sharing and electric vehicles." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "A Galway software firm is moving to project teams made up of staff from different departments. Discuss the opportunities and challenges this teamwork presents for employees and for the firm.", "model": "For employees, cross-departmental teams allow skills sharing: a developer working alongside a marketing specialist learns how customers respond to features, which broadens their human capital. Working with colleagues from other areas can also raise motivation and creativity, since different perspectives generate better ideas. For the firm, combining expertise from several departments can speed up complex projects and lead to better decisions. The challenges are significant, however. Members from different departments may have conflicting priorities, leading to tension that slows the work. Some people may free-ride when responsibility is unclear, leaving others with an unfair workload. Teams that prize harmony may fall into groupthink and ignore alternatives. The firm should set clear project goals and roles, agree how decisions will be made, and track each member's contribution so that the benefits of teamwork outweigh its costs." },
+    { "marks": 10, "prompt": "Explain how green procurement can make a workplace more sustainable.", "model": "Green procurement means choosing suppliers and products that have a lower environmental impact, such as paper from sustainably managed sources, energy-efficient equipment or cleaning products with fewer harmful chemicals. Because a workplace's purchases are part of its overall footprint, selecting these items reduces the emissions and waste created in the supply chain, not just on site. It also signals to suppliers that the business values sustainability, which encourages them to improve their own practices."}
+  ]
+}

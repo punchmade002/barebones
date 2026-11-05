@@ -1,0 +1,82 @@
+{
+  "loId": "ch18-s1",
+  "chapterId": "ch18",
+  "subsection": "1. Saving, investing and borrowing",
+  "syllabusRef": "4.2.1",
+  "notes": [
+    { "h": "Saving, investing and borrowing compared", "b": "All three move money over time, but they differ in risk, purpose and the direction the money flows.", "points": [
+      "Saving sets money aside in a low-risk account, usually to keep it safe and available, and earns a modest return in the form of interest.",
+      "Investing puts money into assets such as shares or investment funds, accepting a risk of loss in return for the chance of higher growth over time.",
+      "Borrowing gives a consumer money now in exchange for repaying more later, because the lender charges interest and often fees.",
+      "A saver lends money to a bank, an investor buys a stake in an asset, and a borrower receives money from a lender and owes it back."
+    ] },
+    { "h": "Factors to weigh before saving or investing", "b": "Several factors interact, because a higher return usually comes with higher risk, higher cost or money locked away for longer.", "points": [
+      "Inflation erodes what money can buy, so a return that does not beat inflation leaves the saver with less real value.",
+      "Risk is the chance that money put aside falls in value or is lost; deposit accounts carry very little risk, while shares carry much more.",
+      "Interest rate changes alter savings returns and borrowing costs, and a variable-rate product can cost more after rates rise.",
+      "Taxes and charges reduce the net return, including deposit interest tax, exit tax on many investment funds, capital gains tax on share profits, and account or management fees.",
+      "The time frame decides suitability: money needed soon should stay accessible, while money not needed for years can ride out market falls and benefit from compounding.",
+      "Return on investment is the gain from an investment compared with its cost, usually expressed as a percentage."
+    ] },
+    { "h": "Nominal and real return", "points": [
+      "Nominal return is the headline growth rate before inflation is taken into account.",
+      "Real return is the nominal return adjusted for inflation, and shows whether savings have grown in purchasing power.",
+      "When inflation is higher than the nominal return, the real return is negative and the saver's money buys less than before.",
+      "Comparing nominal returns alone can mislead a consumer, because a product with a higher headline rate may still give the lower real return."
+    ] },
+    { "h": "AER and APR: the rates to compare", "b": "These two annual rates are the fair basis for comparing savings and loans, because they include the effect of how often interest is charged.", "points": [
+      "The annual equivalent rate (AER) shows what a savings product pays over one year once compounding is included, so products that pay interest at different intervals can be compared.",
+      "The annual percentage rate (APR) shows the yearly cost of borrowing, including interest and compulsory fees and charges, expressed as a percentage of the amount borrowed.",
+      "A loan with a low headline interest rate can have a higher APR than a rival loan if it carries large fees.",
+      "Lenders must disclose the APR to a borrower before a credit agreement is signed, which is what allows offers to be compared on the same basis."
+    ] },
+    { "h": "Common saving and investment products", "points": [
+      "Deposit accounts hold money safely with instant or notice-based access, but the interest paid is usually low.",
+      "State Savings products, issued by the National Treasury Management Agency, are backed by the State and suit people who want a secure place for their money.",
+      "Shares give part-ownership of a company, with returns from dividends and rising share prices, and carry a real chance of losing money.",
+      "Investment funds pool money from many investors and spread it across many holdings, so one falling asset has less impact on the whole.",
+      "Pensions save for retirement, usually with tax relief on contributions, and access before retirement age is generally restricted."
+    ] },
+    { "h": "Common borrowing products", "points": [
+      "An overdraft lets a current account go below zero up to an agreed limit, and is an expensive way to borrow over a long period.",
+      "A credit card gives a revolving credit limit; balances not cleared in full each month attract interest, usually at a high rate.",
+      "A personal loan provides a fixed sum repaid in regular instalments over an agreed term, and is often used for cars, home improvements or debt consolidation.",
+      "A mortgage is a long-term loan secured on a property, so the lender can repossess the home if repayments are not made.",
+      "Buy-now-pay-later schemes split a purchase into instalments at the checkout; they may be interest-free if paid on time, but missed payments and fees can build up quickly.",
+      "Credit union loans are offered to members of member-owned credit unions, and are often competitively priced for the borrower."
+    ] },
+    { "h": "Worked comparison: choosing between two options", "points": [
+      "Start with the purpose and time frame, such as an emergency fund needed at short notice or a house deposit needed in several years.",
+      "Compare the AER for savings or the APR for loans, rather than the headline rate alone.",
+      "Check exit terms: early repayment charges on loans, and penalties or restricted access on savings.",
+      "Example: a fixed-rate loan protects the borrower from rate rises, while a variable-rate loan may be cheaper at the start and then cost more if rates increase.",
+      "Example: a loan with a lower APR but a large arrangement fee may cost more overall than a loan with a higher APR and no fee, so the total cost over the term decides the better deal.",
+      "Finally, test affordability: can the consumer keep up repayments if income falls or interest rises?"
+    ] }
+  ],
+  "keyTerms": [
+    { "term": "Saving", "definition": "Setting money aside in a low-risk, accessible account to keep it safe and earn interest." },
+    { "term": "Investing", "definition": "Putting money into assets such as shares or investment funds in the hope of growth, accepting that the value can fall." },
+    { "term": "Borrowing", "definition": "Receiving money from a lender now and agreeing to repay it later, usually with interest and charges." },
+    { "term": "Inflation", "definition": "A general and sustained rise in prices that reduces what each unit of money can buy." },
+    { "term": "Nominal return", "definition": "The growth rate of a savings or investment product before inflation is taken into account." },
+    { "term": "Real return", "definition": "The growth rate left after inflation is deducted, showing the change in purchasing power." },
+    { "term": "Annual equivalent rate (AER)", "definition": "The yearly interest rate on a savings product that includes the effect of compounding." },
+    { "term": "Annual percentage rate (APR)", "definition": "The yearly cost of borrowing, expressed as a percentage, including interest and compulsory charges." },
+    { "term": "Return on investment (ROI)", "definition": "A measure of the gain from an investment relative to its cost, shown as a percentage." }
+  ],
+  "factCards": [
+    { "term": "Three factors before taking a loan", "definition": "The total cost measured by the APR and fees, the ability to repay if income falls or rates rise, and the purpose and term of the loan." },
+    { "term": "Influences on net returns", "definition": "Inflation, risk, interest rates, taxes and charges, and the time frame." },
+    { "term": "Purpose of an overdraft", "definition": "Short-term cover when a current account goes below zero; it becomes costly if used for long periods." },
+    { "term": "Mortgage feature", "definition": "A long-term loan secured on the property, so the lender can repossess if repayments stop." },
+    { "term": "Secured versus unsecured credit", "definition": "Secured credit is backed by an asset the lender can take; unsecured credit, such as most credit cards and personal loans, is not." },
+    { "term": "Pension tax advantage", "definition": "Contributions usually attract tax relief, and the money is generally locked in until retirement age." },
+    { "term": "Buy-now-pay-later risk", "definition": "Missed instalments can bring late fees and damage the consumer's credit record." }
+  ],
+  "questions": [
+    { "marks": 20, "prompt": "Discuss the factors an Irish consumer should weigh when choosing between a deposit account and an investment fund.", "model": "Risk: a deposit account protects the capital, and eligible deposits are covered by the deposit guarantee scheme up to a set limit, whereas the value of an investment fund can fall below the amount invested. Return: the fund offers the chance of higher growth over a long period, but deposit interest is usually lower and may not beat inflation. Time frame: money needed within a few years is better kept in the deposit account, because a fund may be worth less on the day the money is needed. Charges and tax: a fund may carry management charges and exit tax, while deposit interest is subject to deposit interest retention tax, so the net return of each option must be compared before deciding." },
+    { "marks": 15, "prompt": "Explain the difference between nominal return and real return, and why a consumer should look at both when comparing savings products.", "model": "Nominal return is the headline growth rate before inflation is considered, so a product paying 3 per cent a year has a nominal return of 3 per cent. Real return is the nominal return adjusted for inflation, showing whether the money has grown in purchasing power. A consumer should look at both because a product with an attractive nominal return may still lose real value if inflation is higher, and two products can rank differently once inflation is removed." },
+    { "marks": 10, "prompt": "Distinguish between the AER and the APR, and state when each is used.", "model": "The AER is the yearly rate on a savings product that includes the effect of compounding, so it is used to compare savings accounts. The APR is the yearly cost of borrowing that includes interest and compulsory fees, so it is used to compare loans. A loan with a lower headline rate can still have a higher APR if it carries large fees." }
+  ]
+}
