@@ -160,12 +160,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Wash-load preparation",
-      "definition": "Empty pockets, close zips, protect delicate items, pretreat stains and leave room for detergent and water to circulate.",
-      "section": "hom-clothing-selection",
-      "type": "process"
-    },
-    {
       "term": "Surfactants",
       "definition": "Detergent molecules with water-loving heads and oil-loving tails that lower surface tension, lift grease and suspend it for rinsing.",
       "section": "hom-clothing-selection",
@@ -220,44 +214,8 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Stain-removal principles",
-      "definition": "Treat stains promptly from the back outwards and test the treatment first on a hidden area.",
-      "section": "hom-clothing-selection",
-      "type": "concept"
-    },
-    {
-      "term": "Protein stains",
-      "definition": "Blood, egg and milk stains are first sponged with cold water because heat sets protein.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
-      "term": "Grease stains",
-      "definition": "Oily stains treated with detergent or a suitable solvent.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
-      "term": "Tannin stains",
-      "definition": "Tea and wine stains treated promptly by flushing with cold water.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
       "term": "Fibre-safe ironing",
       "definition": "Match iron temperature to the fibre, using a damp cloth for wool and low heat for melt-prone synthetics.",
-      "section": "hom-clothing-selection",
-      "type": "practice"
-    },
-    {
-      "term": "Clothing storage",
-      "definition": "Store garments clean and dry on suitable hangers or folded in a cool, dry, ventilated place, protecting wool from moths.",
-      "section": "hom-clothing-selection",
-      "type": "practice"
-    },
-    {
-      "term": "Garment repair",
-      "definition": "Promptly mending loose buttons, small tears and hems extends clothing life.",
       "section": "hom-clothing-selection",
       "type": "practice"
     },
@@ -3632,12 +3590,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
   ],
   "hom-housing": [
     {
-      "term": "Functions of the home",
-      "definition": "A home provides shelter, security, family space, privacy, rest, recreation, work and storage space, and a means of expressing identity.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
       "term": "Life-cycle housing needs",
       "definition": "Housing requirements change from single or shared accommodation to family housing and later to smaller, accessible, low-maintenance homes.",
       "section": "hom-housing",
@@ -3772,18 +3724,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
     {
       "term": "Domestic services",
       "definition": "Safe electricity, water supply, wastewater treatment and ventilation required for a functioning healthy home.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Home safety measures",
-      "definition": "Alarms, fire equipment, an escape plan, stair gates, secure chemical storage, RCD protection and good lighting reduce household hazards.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Home security measures",
-      "definition": "Quality locks, alarms, exterior lighting and neighbourhood watch help deter intrusion.",
       "section": "hom-housing",
       "type": "concept"
     }
