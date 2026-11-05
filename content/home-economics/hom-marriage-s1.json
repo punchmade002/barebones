@@ -1,0 +1,120 @@
+{
+  "loId": "hom-marriage-s1",
+  "chapterId": "hom-marriage",
+  "subsection": "1. Definition of marriage",
+  "syllabusRef": "3.1.5",
+  "notes": [
+    {
+      "h": "What marriage is",
+      "b": "Marriage is a voluntary union that the State recognises and protects, and it carries legal rights and duties for both spouses.",
+      "points": [
+        "A marriage is a voluntary union of two people, entered into through a civil or religious ceremony that is legally recognised.",
+        "Marriage is a union that excludes all others: a spouse may have only one husband or wife at a time.",
+        "Marriage creates legal rights and duties between spouses, including inheritance rights and a duty of financial support for the spouse and children."
+      ]
+    },
+    {
+      "h": "Marriage in Irish law",
+      "points": [
+        "Article 41.3 of the Constitution commits the State to guard the institution of marriage with special care.",
+        "The Marriage Act 2015, passed after the 2015 referendum on marriage equality, allows two people of the same sex to marry.",
+        "Civil partnership, created by the Civil Partnership and Certain Rights and Obligations of Cohabitants Act 2010, gives same-sex couples legal rights similar to marriage but is a separate legal status, not marriage."
+      ]
+    },
+    {
+      "h": "Legal requirements for a valid marriage in Ireland",
+      "b": "A ceremony that fails these conditions may be declared invalid by a court.",
+      "points": [
+        "Both partners must be at least 18 years of age.",
+        "Both partners must be free to marry: neither may already be married or in a civil partnership.",
+        "Both partners must consent voluntarily; consent given under pressure does not make a valid marriage.",
+        "The partners must not fall within the prohibited degrees of relationship, meaning they may not be too closely related by blood or by marriage.",
+        "Written notice of intention to marry must be given to the registrar of the area at least three months before the wedding.",
+        "The wedding must take place in a registered building, such as a register office or registered church, or in an approved venue inspected in advance by a registrar.",
+        "A temporary registration licence can be obtained to register a location such as a hotel, beach or garden for a wedding.",
+        "Two witnesses must be present at the ceremony.",
+        "The couple and the two witnesses sign the civil register immediately after the ceremony, and the marriage is then registered."
+      ]
+    },
+    {
+      "h": "Void and voidable marriages",
+      "points": [
+        "A void marriage was never valid in law, for example because one partner was already married or the partners were within the prohibited degrees of relationship.",
+        "A voidable marriage stays valid until a court annuls it; failure to consummate the marriage is a ground for annulment.",
+        "A marriage that breaks these rules can be declared invalid by a court through legal nullity, which is covered under When a marriage breaks down."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Marriage",
+      "definition": "A voluntary, legally recognised union of two people that excludes all others and carries legal rights and duties for both spouses."
+    },
+    {
+      "term": "Monogamy",
+      "definition": "The practice of having only one spouse at a time."
+    },
+    {
+      "term": "Registrar",
+      "definition": "The official who receives the notice of intention to marry, approves venues and registers marriages."
+    },
+    {
+      "term": "Prohibited degrees of relationship",
+      "definition": "Close family relationships, by blood or by marriage, within which two people may not marry each other."
+    },
+    {
+      "term": "Consummation",
+      "definition": "Sexual intercourse between the spouses after the marriage ceremony."
+    },
+    {
+      "term": "Void marriage",
+      "definition": "A marriage that was never valid in law, for example because one partner was already married."
+    },
+    {
+      "term": "Voidable marriage",
+      "definition": "A marriage that remains valid until a court annuls it, for example because it was never consummated."
+    },
+    {
+      "term": "Civil partnership",
+      "definition": "A legal status for two people of the same sex that gives them rights similar to marriage but is not marriage."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four legal conditions for a valid marriage in Ireland",
+      "definition": "Both partners are at least 18; both are free to marry; both consent voluntarily; three months' written notice has been given to the registrar of the area."
+    },
+    {
+      "term": "Witnesses at an Irish civil marriage",
+      "definition": "Two witnesses must be present and sign the register after the ceremony."
+    },
+    {
+      "term": "Notice period before a wedding in Ireland",
+      "definition": "Three months' written notice of intention to marry must be given to the registrar of the area."
+    },
+    {
+      "term": "Constitutional protection of marriage",
+      "definition": "Article 41.3 commits the State to guard the institution of marriage with special care."
+    },
+    {
+      "term": "Legislation allowing same-sex marriage in Ireland",
+      "definition": "The Marriage Act 2015, which followed the 2015 referendum on marriage equality."
+    },
+    {
+      "term": "Legislation creating civil partnership in Ireland",
+      "definition": "The Civil Partnership and Certain Rights and Obligations of Cohabitants Act 2010."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two conditions that must be met for a marriage to be legally valid in Ireland, and explain each briefly.",
+      "model": "Any two of the following, each explained: both partners must be at least 18 years of age; both must be free to marry, meaning neither is already married or in a civil partnership; both must consent voluntarily; written notice of intention to marry must be given to the registrar of the area at least three months before the wedding; the ceremony must take place in a registered building or an approved venue; two witnesses must be present and sign the register after the ceremony."
+    },
+    {
+      "marks": 16,
+      "prompt": "Outline the steps a couple must follow to have a legally valid civil marriage in Ireland, from giving notice to registration of the marriage, and explain why each step matters.",
+      "model": "Notice: written notice of intention to marry is given to the registrar of the area at least three months before the wedding, so the registrar can check that the couple are free to marry. Venue: the ceremony takes place in a registered building or an approved venue, or at a location temporarily registered by licence, so that the marriage is recognised by the State. Eligibility: both partners must be at least 18, free to marry and not within the prohibited degrees of relationship. Consent: both partners must consent voluntarily, which protects each from being forced into marriage. Ceremony: two witnesses must be present. Registration: the couple and the two witnesses sign the civil register immediately after the ceremony, creating the official record that makes the marriage legally recognised."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "loId": "hom-appliances-equipment-s4",
+  "chapterId": "hom-appliances-equipment",
+  "subsection": "4. An appliance with a heating element",
+  "syllabusRef": "2.1.5",
+  "notes": [
+    {
+      "h": "Parts of heating appliances (kettle, toaster and iron)",
+      "points": [
+        "Kettle: a body of plastic or stainless steel, a heating element in the base of the water vessel, a water level indicator and an on/off switch.",
+        "Kettle thermostat: a sensor that switches the element off when the water boils, so the kettle does not keep heating.",
+        "Toaster: nichrome heating elements on each side of the bread slots, a spring-loaded lever, a timer or bimetallic release that lifts the bread when toasting is complete, and a removable crumb tray.",
+        "Iron: a sole plate heated by an element, a thermostat dial for choosing the fabric temperature, a water tank and steam vents, with a heel rest for standing the iron safely."
+      ]
+    },
+    {
+      "h": "Guidelines for use: kettle",
+      "points": [
+        "Fill the kettle only between the minimum and maximum marks, and never above the maximum, since the element must be covered whenever it is switched on.",
+        "Switch off and unplug the kettle before filling it or cleaning it, and keep the flex away from hot surfaces and out of the reach of children.",
+        "Never immerse the base or the electrical parts in water; wipe the base with a damp cloth.",
+        "Use dry hands when handling the plug, and never plug in or switch on with wet hands.",
+        "Descale the kettle regularly, because limescale on the element slows boiling and increases energy use.",
+        "Do not use a kettle with a damaged flex, plug or body, and do not overload a socket with several appliances."
+      ]
+    },
+    {
+      "h": "Guidelines for use: toaster and iron",
+      "points": [
+        "Toaster: never insert metal objects into the slots, and unplug the toaster before removing jammed bread.",
+        "Toaster: empty the crumb tray regularly, since crumbs can catch fire or prevent the toaster working correctly.",
+        "Iron: select the temperature for the fabric before switching on, and begin with the lowest setting for delicate fabrics.",
+        "Iron: stand it on its heel rest when not in use, and never leave it switched on unattended.",
+        "Iron: unplug before filling the water tank, and keep the flex away from the sole plate."
+      ]
+    },
+    {
+      "h": "Heat transfer in heating appliances",
+      "points": [
+        "Conduction: heat passes from the element through the metal of the kettle base or iron sole plate into the water or fabric.",
+        "Convection: water near the element becomes less dense and rises, while cooler water sinks, so currents circulate heat through the kettle.",
+        "Radiation: infrared radiation from the toaster elements heats the surface of the bread directly.",
+        "Boiling only the amount of water needed saves energy, because less water must be heated and less heat is wasted."
+      ]
+    },
+    {
+      "h": "Electrical safety of heating appliances",
+      "points": [
+        "The live wire is fused in the plug; the earth wire connects the metal body to earth, so a fault current blows the fuse rather than leaving the body live.",
+        "A residual current device (RCD) cuts off the supply quickly when current leaks to earth, protecting the user from electric shock.",
+        "A thermal cut-out opens the circuit if an appliance overheats, protecting against fire.",
+        "Cordless kettles have a base unit with contacts, so the flex is not attached to the kettle, reducing the risk of pulling it over or of a trailing flex hazard."
+      ]
+    },
+    {
+      "h": "Heating element and thermostat: working principle (Higher Level only)",
+      "b": "A heating element converts electrical energy into heat through its resistance to the current.",
+      "points": [
+        "The heating effect: when current flows through a resistor, electrical energy is converted to heat at a rate equal to I²R, where I is the current and R is the resistance.",
+        "The element is made of nichrome, a nickel-chromium alloy with high resistance that does not oxidise quickly when hot.",
+        "Resistance depends on the length and thickness of the wire: resistance increases with length and decreases as the cross-sectional area increases.",
+        "The thermostat is a bimetallic strip made from two metals that expand at different rates; when heated the strip bends and opens the circuit at a set temperature.",
+        "As the appliance cools, the strip straightens and closes the circuit, so the temperature is held between two switching points.",
+        "The thermostat and the element are connected in series, so the element receives no current while the thermostat is open.",
+        "Diagram: a circuit showing the 230 V supply, the bimetallic thermostat in series with the nichrome heating element, and the direction of heat transfer into the water or food."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Heating element",
+      "definition": "A coil or wire of high-resistance material that converts electrical energy into heat when current flows through it."
+    },
+    {
+      "term": "Nichrome",
+      "definition": "A nickel-chromium alloy with high resistance, used in heating elements because it does not oxidise quickly when hot."
+    },
+    {
+      "term": "Thermostat",
+      "definition": "A device that senses temperature and switches an appliance's heating element on or off to keep a set temperature."
+    },
+    {
+      "term": "Bimetallic strip",
+      "definition": "A strip of two metals with different expansion rates, which bends when heated and is used to switch circuits in a thermostat."
+    },
+    {
+      "term": "Conduction",
+      "definition": "The transfer of heat through a solid material by particles passing energy to their neighbours."
+    },
+    {
+      "term": "Convection",
+      "definition": "The transfer of heat through a liquid or gas by currents formed as warmer, less dense fluid rises."
+    },
+    {
+      "term": "Radiation",
+      "definition": "The transfer of heat by infrared waves, which needs no material medium."
+    },
+    {
+      "term": "Limescale",
+      "definition": "A hard deposit of calcium carbonate that forms on the element of a kettle, slowing heating and wasting energy."
+    },
+    {
+      "term": "Earth wire",
+      "definition": "A wire that connects the metal body of an appliance to earth so that a fault current flows and blows the fuse."
+    },
+    {
+      "term": "Residual current device (RCD)",
+      "definition": "A safety device that disconnects the supply quickly when it detects current leaking to earth."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two methods of heat transfer in a kettle",
+      "definition": "Conduction through the base and metal into the water, and convection currents that circulate the hot water."
+    },
+    {
+      "term": "Three parts of a toaster",
+      "definition": "Nichrome elements on each side of the slots, a timer or bimetallic release mechanism, and a crumb tray."
+    },
+    {
+      "term": "Two effects of scale build-up on a kettle element",
+      "definition": "It insulates the element, so water takes longer to boil, and the extra energy used increases the running cost."
+    },
+    {
+      "term": "Four safety checks before using an iron",
+      "definition": "Check the flex and plug for damage, set the temperature for the fabric, make sure the water tank is filled correctly, and stand the iron on its heel rest when not in use."
+    },
+    {
+      "term": "Three functions of a temperature control switch in a kettle or iron",
+      "definition": "It holds a set temperature, switches the element off when that temperature is reached, and switches it on again as the appliance cools."
+    },
+    {
+      "term": "Two protective devices that cut off power to a heating appliance",
+      "definition": "A thermal cut-out opens the circuit if the appliance overheats, and a residual current device cuts the supply quickly when current leaks to earth."
+    },
+    {
+      "term": "Two factors that affect the resistance of an element wire (Higher Level only)",
+      "definition": "Its length, which increases resistance, and its cross-sectional area, which decreases resistance."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how the thermostat in a kettle switches the heating element on and off.",
+      "model": "The kettle thermostat senses the temperature of the water or the heat of the element. When the water reaches boiling point the thermostat or steam-operated switch opens the circuit, so the element stops receiving current and the kettle switches off. The element and the water cool, and the thermostat closes the circuit again when the temperature falls, so the element heats the water again when it is switched on. A bimetallic strip is one way of doing this: it bends when hot to open the circuit and straightens as it cools to close it."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe how an electric heating appliance you have studied converts electrical energy into heat, and state the precautions that make it safe to use.",
+      "model": "Appliance: a kettle, toaster or iron. Working principle: current flows through a nichrome heating element, whose high resistance converts electrical energy into heat at a rate given by I squared R. The heat is transferred to the water, bread or fabric by conduction, convection or radiation, depending on the appliance. A bimetallic thermostat in series with the element bends when hot to open the circuit and so controls the temperature between two switching points. Safety: the live wire is fused in the plug, the earth wire connects the metal body to earth, an RCD cuts off the supply on a current leak, and a thermal cut-out protects against overheating. Precautions: fill only to the marked level and keep the element covered, use dry hands, keep the flex and plug in good condition, never immerse electrical parts, empty crumb trays, stand irons on the heel rest, and descale kettles regularly."
+    }
+  ]
+}

@@ -3,6 +3,940 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "hom-appliances-equipment-s1": {
+  "keyTerms": [
+   {
+    "definition": "A heating system with separate controls that heat different parts of a building to different temperatures.",
+    "term": "Zoned heating"
+   },
+   {
+    "definition": "A control that switches an appliance or heating system on and off at set times.",
+    "term": "Programmable timer"
+   },
+   {
+    "definition": "A cleaning appliance that uses hot steam to loosen dirt and sanitise surfaces with little or no chemical cleaner.",
+    "term": "Steam cleaner"
+   },
+   {
+    "definition": "A system that detects forced entry into a building and gives a warning signal.",
+    "term": "Burglar alarm"
+   },
+   {
+    "definition": "Closed-circuit television, in which cameras transmit images to a recorder or monitor that only authorised users can see.",
+    "term": "CCTV"
+   },
+   {
+    "definition": "A panel of photovoltaic cells that converts sunlight into electricity, or a collector that heats water from sunlight.",
+    "term": "Solar panel"
+   },
+   {
+    "definition": "Managing bank accounts, paying bills and transferring money through a secure internet connection.",
+    "term": "Online banking"
+   },
+   {
+    "definition": "A computer package that records income and expenditure so the household can plan and monitor its spending.",
+    "term": "Budgeting software"
+   },
+   {
+    "definition": "An appliance connected to the internet or a home network, so that it can be monitored or controlled remotely.",
+    "term": "Smart appliance"
+   },
+   {
+    "definition": "A product designed to need little washing, ironing or maintenance during use.",
+    "term": "Easy-care product"
+   },
+   {
+    "definition": "Appliances replace manual tasks, automatic programmes run unattended, steam cleaners speed up cleaning, and easy-care products need less upkeep.",
+    "term": "Four ways technology reduces household workload"
+   },
+   {
+    "definition": "It heats only occupied rooms, lets each area be kept at a comfortable temperature, and reduces wasted fuel.",
+    "term": "Three benefits of zoned heating"
+   },
+   {
+    "definition": "Burglar alarms, CCTV, automated security lighting and remotely controlled electronic gates.",
+    "term": "Four home security technologies"
+   },
+   {
+    "definition": "Budgeting and accounting software, online banking and online shopping.",
+    "term": "Three uses of computers in managing a home"
+   },
+   {
+    "definition": "Email, video calling and social media let members keep in touch quickly across distances.",
+    "term": "Three ways technology improves household communication"
+   },
+   {
+    "definition": "Smartphone apps connected to the home network, and timers or sensors that switch devices on automatically.",
+    "term": "Two ways automated lighting and heating are controlled from a distance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Appliances and home systems take over repetitive tasks, saving time and physical effort.",
+    "h": "Technology and the household workload",
+    "points": [
+     "Washing machines, dishwashers and vacuum cleaners replace hand washing, drying and sweeping, reducing the time spent on each task.",
+     "Automatic programmes and timers let a task run unsupervised, so the household can do other work or rest while it runs.",
+     "Steam cleaners clean and sanitise floors, carpets and upholstery with little or no chemical cleaner, improving hygiene.",
+     "Easy-care products, such as stain-resistant fabrics and low-maintenance surfaces, need less washing, ironing and upkeep.",
+     "Technology can increase the effectiveness of some tasks: steam cleaning lifts dirt that a dry cloth leaves behind, for example."
+    ]
+   },
+   {
+    "h": "Energy and running-cost control",
+    "points": [
+     "Programmable timers switch heating and hot water on only when needed, reducing fuel use and bills.",
+     "Zoned heating controls heat separate parts of the house to different temperatures, so unused rooms are not heated.",
+     "Microcomputer chips in appliances control heating, cooking and washing cycles, adjusting the energy used to the task.",
+     "Microwave ovens heat small and medium portions faster than a conventional oven, using less energy for reheating and defrosting.",
+     "Solar panels convert sunlight into electricity or hot water, reducing the household's reliance on mains energy."
+    ]
+   },
+   {
+    "h": "Home security and automated systems",
+    "points": [
+     "Burglar alarms sound on forced entry and can alert occupants or a monitoring service.",
+     "CCTV cameras record the outside of the home, deterring intruders and providing evidence after an incident.",
+     "Automated security lighting switches on when movement or darkness is detected, making the outside of the home less attractive to intruders.",
+     "Electronic gates can be opened and closed remotely, so residents do not have to leave a vehicle to enter the property.",
+     "Built-in safety devices such as automatic cut-outs and door interlocks protect users from hazards without relying on constant attention."
+    ]
+   },
+   {
+    "h": "Managing money, shopping and communication",
+    "points": [
+     "Budgeting and accounting software records income and spending by category and helps the household plan future expenditure.",
+     "Online banking lets bills be paid and balances checked at any time without visiting a branch.",
+     "Internet shopping allows goods to be compared and bought without travelling to shops.",
+     "Email, video calling and social media keep household members in contact across distances and share information quickly.",
+     "Computers let some members work from home, which can reduce commuting time and cost.",
+     "Smartphone apps can turn lights and heating on or off, and check the status of appliances, from outside the home."
+    ]
+   },
+   {
+    "h": "Considerations when adopting technology",
+    "points": [
+     "Initial cost of technology must be weighed against savings in time, energy and running costs over the appliance's life.",
+     "Electronic appliances need electricity to operate, and their components may need professional repair when they fail.",
+     "Internet-connected devices hold personal data and need secure passwords and regular software updates to resist misuse."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a short example. Appliances and timers reduce the time and effort needed for household tasks, for example a dishwasher or a timer on a washing machine. Energy-efficient technology such as zoned heating or programmable controls lowers fuel and electricity bills. Security technology such as burglar alarms, CCTV and automated lighting protects the home. Computer packages and online banking and shopping save time and help with budgeting. Smart apps let the household control heating and lights remotely.",
+    "prompt": "Outline three ways in which technological developments have made the management of a home more efficient.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Workload: appliances such as washing machines, dishwashers and vacuum cleaners reduce the time and labour of routine tasks, and steam cleaners improve hygiene. Automatic programmes let tasks run unattended. Energy and cost: timers, zoned heating and chip-controlled appliances reduce fuel and electricity use, and solar panels reduce reliance on mains energy. Security: burglar alarms, CCTV, automated lighting and electronic gates protect the home and can be operated remotely. Money and communication: budgeting software, online banking and internet shopping help plan spending and save travel, while email, video calls and social media keep the household connected. Evaluation: the benefits depend on the initial cost of the technology, the need for electricity and servicing, and the security of personal data on connected devices, so the household should weigh these against the savings the technology gives.",
+    "prompt": "Evaluate how household technology contributes to the efficient management of the home, giving examples of appliances and home systems that save time, energy and money.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-appliances-equipment-s2": {
+  "keyTerms": [
+   {
+    "definition": "The ongoing cost of using an appliance, mainly the electricity or water it consumes over its life.",
+    "term": "Running cost"
+   },
+   {
+    "definition": "A label that rates an appliance's energy efficiency from A (most efficient) to G (least efficient) and gives its annual energy use.",
+    "term": "Energy label"
+   },
+   {
+    "definition": "The unit of energy used on energy labels, equal to the energy used by a 1 kW appliance running for one hour.",
+    "term": "Kilowatt-hour (kWh)"
+   },
+   {
+    "definition": "A written promise by the manufacturer or seller to repair or replace a product that is faulty within a stated period.",
+    "term": "Guarantee"
+   },
+   {
+    "definition": "Support given after a purchase, including repair, servicing and the supply of spare parts.",
+    "term": "After-sales service"
+   },
+   {
+    "definition": "The amount an appliance can hold or process in one use, such as litres of food or kilograms of laundry.",
+    "term": "Capacity"
+   },
+   {
+    "definition": "A mark showing that a product meets the health, safety and environmental requirements of the European Union.",
+    "term": "CE mark"
+   },
+   {
+    "definition": "A safety design in which the live parts are insulated from the user by two separate layers, so the appliance needs no earth connection.",
+    "term": "Double insulation"
+   },
+   {
+    "definition": "A rating from one to four stars that shows the storage temperature and storage time of a frozen-food compartment.",
+    "term": "Star rating"
+   },
+   {
+    "definition": "A safety feature that switches off a kettle's element when the water level is too low.",
+    "term": "Boil-dry protection"
+   },
+   {
+    "definition": "Refrigerators and freezers, washing machines, tumble dryers and dishwashers.",
+    "term": "Four appliance types that display an A to G efficiency rating"
+   },
+   {
+    "definition": "The compartment holds food at −18°C to −25°C for up to one year, and fresh food can be frozen in it.",
+    "term": "Four-star frozen-food storage"
+   },
+   {
+    "definition": "The A to G efficiency class, annual energy use in kWh, noise in decibels, and fresh-food and frozen-food capacity in litres.",
+    "term": "Information given on the A to G efficiency scale for a fridge-freezer"
+   },
+   {
+    "definition": "Consumer magazines such as Consumer Choice, Citizens Information and the CCPC.",
+    "term": "Three independent sources of consumer information"
+   },
+   {
+    "definition": "The CE mark shows compliance with EU requirements; the double insulation symbol shows two layers of insulation and no need for an earth connection.",
+    "term": "Two safety marks on an appliance"
+   },
+   {
+    "definition": "Initial cost, running cost, size and space available, and guarantee with after-sales service.",
+    "term": "Four criteria for selecting a large appliance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Compare the cost, size, capacity and reliability of each model against the household's needs before buying.",
+    "h": "Selection criteria",
+    "points": [
+     "Initial cost: compare the purchase price, including delivery and installation, across several shops and brands.",
+     "Running cost: energy and water use over the appliance's life; compare this with the purchase price, since a cheap appliance can cost more to run.",
+     "Size and space: the appliance must fit the available space and allow room for doors to open, air to circulate and access to plumbing and power points.",
+     "Capacity: match it to household size, such as litres of fresh and frozen food for a fridge or kilograms of laundry for a washing machine.",
+     "Brand reputation and reliability: established brands with a record of durable products and available spare parts are less likely to need early repair.",
+     "Guarantee and after-sales service: check the length of the guarantee, what it covers, and how quickly servicing and spare parts are available.",
+     "Ease of operation and cleaning: clear controls, removable filters and dishwasher-safe parts reduce the time and effort of use.",
+     "Safety features: automatic cut-outs, interlocks and recognised safety marks reduce the risk of injury or fire.",
+     "Payment method: compare cash, debit or credit card and credit agreements, and the total amount payable under any credit."
+    ]
+   },
+   {
+    "h": "Design and construction",
+    "points": [
+     "Design affects safety, durability, ease of use and cleaning, and how well the appliance fits the style of the kitchen.",
+     "Robust construction and good-quality materials, such as stainless steel for surfaces and blades, increase durability.",
+     "Smooth, sealed surfaces and removable parts are easier to clean and give fewer places for food and bacteria to collect.",
+     "Controls should be clearly labelled, easy to reach and simple to read; large, simple controls suit older users and children.",
+     "Weight, handles and grip should suit the person using the appliance, so that lifting and pouring are safe."
+    ]
+   },
+   {
+    "b": "The energy label allows buyers to compare the energy use of appliances on a common scale.",
+    "h": "Energy efficiency and the EU energy label",
+    "points": [
+     "The EU energy label rates an appliance from A to G, where A is the most efficient and G the least efficient.",
+     "The label is displayed on refrigerators and freezers, washing machines, tumble dryers, dishwashers and ovens.",
+     "A-rated appliances use the least electricity, so they cost least to run and cause the least harm to the environment; G-rated appliances use the most.",
+     "The label gives annual energy consumption in kilowatt-hours (kWh), which indicates likely running cost and environmental impact.",
+     "It also gives the noise level in decibels, and for refrigerators the capacity of fresh and frozen food in litres.",
+     "The current label carries a QR code that links to the product's entry in the EU product database for more detail."
+    ]
+   },
+   {
+    "b": "A star rating on a refrigerator or fridge-freezer shows the storage temperature and time of its frozen-food compartment.",
+    "h": "Star rating for frozen-food storage",
+    "points": [
+     "The star rating applies to the frozen-food compartment only, not to the fresh-food section.",
+     "One star: the compartment holds frozen food at −6°C for up to one week.",
+     "Two stars: the compartment holds frozen food at −12°C for up to one month.",
+     "Three stars: the compartment holds frozen food at −18°C for up to three months.",
+     "Four stars: the compartment holds frozen food at −18°C to −25°C for up to one year, and fresh food can be frozen in it.",
+     "The star rating measures storage performance, not energy efficiency; the energy label is used to compare running costs."
+    ]
+   },
+   {
+    "h": "Quality and safety marks",
+    "points": [
+     "The CE mark is the manufacturer's declaration that the product meets the health, safety and environmental requirements of the European Union.",
+     "The double insulation symbol, two overlapping squares, shows that the appliance has two layers of insulation, so it needs no earth connection.",
+     "Marks should appear on the appliance or its packaging, and a mark that cannot be found on the product does not show certification.",
+     "Safety marks show that a product has been tested to a standard, but they do not guarantee its performance or reliability."
+    ]
+   },
+   {
+    "h": "Sources of consumer information",
+    "points": [
+     "Consumer magazines such as Consumer Choice publish independent test results and comparisons of appliance models.",
+     "Manufacturers' leaflets and brochures give specifications, guidelines for use and guarantee terms, but they are promotional documents.",
+     "Product labels and packaging show the energy rating, safety marks, capacity and guarantee details.",
+     "Sales staff can explain features, but their advice may be influenced by the stock and margins of the shop.",
+     "Advertisements highlight strengths of a product, so their claims should be checked against independent sources.",
+     "Word of mouth and online user reviews reflect other people's experience; they should be read critically because they can be unreliable.",
+     "Citizens Information offers free, independent information on consumer rights and on buying goods and services.",
+     "The Competition and Consumer Protection Commission (CCPC) publishes guidance for consumers on their rights when buying appliances."
+    ]
+   },
+   {
+    "h": "Large appliance example: washing machine",
+    "points": [
+     "Capacity: the drum size, stated in kilograms of dry laundry, should match the number of people in the household.",
+     "Spin speed, measured in revolutions per minute (rpm), affects how dry clothes are after washing and so how much drying is needed.",
+     "Eco and low-temperature programmes reduce water and energy use, and the energy label shows the rating for the model.",
+     "Installation needs: a water supply and drain, a suitable power point, and a level floor must all be available where the machine is placed."
+    ]
+   },
+   {
+    "h": "Small appliance example: kettle",
+    "points": [
+     "Capacity is stated in litres; buy a kettle that holds the amount the household needs, not more.",
+     "A concealed element in the base is easier to clean than an exposed element, where limescale collects.",
+     "Automatic cut-off switches the kettle off when the water boils, and boil-dry protection switches it off if the water level is too low."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two, each explained. The A to G scale allows buyers to compare the energy efficiency of different models at a glance, and an A-rated appliance is the cheapest to run and does least harm to the environment. The annual kWh figure lets buyers estimate running cost before purchase. The noise rating and the capacity figures allow buyers to choose a quieter model or one that suits household size.",
+    "prompt": "Explain two ways in which the EU energy label helps a buyer choose between appliances.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Selection criteria: initial cost, running cost from the energy label, size and space, capacity to suit family size, brand reliability, guarantee and after-sales service, and payment method with the total cost of any credit. Design: sturdy construction and durable materials, easy-to-read controls, smooth and removable parts for cleaning, safe features such as cut-outs and interlocks, and weight and handles suited to the user. Quality and safety: CE mark and double insulation symbol where relevant. Consumer information: independent magazines such as Consumer Choice, Citizens Information and the CCPC, energy labels and product packaging, manufacturers' leaflets used with caution, and reviews read critically. Comparing at least two models against these criteria allows the household to choose the best value.",
+    "prompt": "Describe how a household should select a large appliance for a family home, covering the selection criteria, the design features to look for and the sources of consumer information it should use.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-appliances-equipment-s3": {
+  "keyTerms": [
+   {
+    "definition": "A device that converts electrical energy into kinetic (rotational) energy.",
+    "term": "Electric motor"
+   },
+   {
+    "definition": "The force produced on a current-carrying wire placed in a magnetic field.",
+    "term": "Motor effect"
+   },
+   {
+    "definition": "A split metal ring on a motor shaft that reverses the current in the coil each half turn, keeping the motor turning in one direction.",
+    "term": "Commutator"
+   },
+   {
+    "definition": "A series-wound motor that can run on AC or DC and runs at high speed, used in portable appliances.",
+    "term": "Universal motor"
+   },
+   {
+    "definition": "An AC motor with no brushes or commutator, in which currents induced in the rotor are turned by a rotating magnetic field.",
+    "term": "Induction motor"
+   },
+   {
+    "definition": "A safety switch that stops an appliance operating unless its lid, bowl or door is correctly closed.",
+    "term": "Interlock"
+   },
+   {
+    "definition": "The rotating shaft that transfers motion from a motor to the attachment in a food processor.",
+    "term": "Spindle"
+   },
+   {
+    "definition": "A button that gives short bursts of power, allowing the user to control how finely food is processed.",
+    "term": "Pulse control"
+   },
+   {
+    "definition": "Fit the correct attachment, lock the bowl and lid, place the processor on a dry level surface, and never defeat the interlock.",
+    "term": "Four safety actions before using a food processor"
+   },
+   {
+    "definition": "The spindle transfers rotary motion to the attachment, the interlock prevents operation if the bowl or lid is loose, and the speed or pulse control sets the power applied.",
+    "term": "Three functions of the parts that transfer or control motor power in a food processor"
+   },
+   {
+    "definition": "It prevents over-processing of food and gives the user short, controlled bursts of power.",
+    "term": "Two reasons for using pulse control"
+   },
+   {
+    "definition": "Lift by the centre hub, wash and dry carefully, and store them safely out of reach of children.",
+    "term": "Three rules for handling sharp blades"
+   },
+   {
+    "definition": "Overfilling past the maximum line, processing large uneven pieces of food, and running the appliance for too long on a heavy load.",
+    "term": "Three things that overload a motor"
+   },
+   {
+    "definition": "Fleming's left-hand rule: the thumb gives the force, the first finger the field and the second finger the current (Higher Level only).",
+    "term": "Direction of the force on a current-carrying wire in a magnetic field"
+   },
+   {
+    "definition": "It runs on AC or DC, it runs at high speed, and it is used in portable appliances such as food processors and mixers (Higher Level only).",
+    "term": "Three features of the series-wound motor used in portable appliances"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A food processor is a typical motor-driven appliance: the motor sits in the base and drives interchangeable attachments.",
+    "h": "Design of a food processor (example)",
+    "points": [
+     "The heavy motor is enclosed in a stable base with rubber feet, which keeps the centre of gravity low and prevents the appliance moving during use.",
+     "A spindle transfers rotary motion from the motor to the blade or disc fitted in the bowl.",
+     "The transparent, graduated bowl lets the user see the quantity and texture of food being processed.",
+     "The lid locks onto the bowl, and a safety interlock stops the motor from starting unless both are correctly fitted.",
+     "Interchangeable attachments include chopping blades, shredding and slicing discs, a dough blade and a pusher for feeding food through the feed tube.",
+     "Controls usually include on/off, variable speeds and a pulse button that gives short, controlled bursts of power.",
+     "Removable components and smooth surfaces make cleaning easier, and internal cord storage keeps the base tidy.",
+     "Diagram: food processor showing the base with motor and spindle, the bowl, the lid with feed tube and pusher, and the interlock position."
+    ]
+   },
+   {
+    "h": "Guidelines for use: food processor (example)",
+    "points": [
+     "Read the manufacturer's instructions and fit the correct attachment before connecting the appliance to the electricity supply.",
+     "Place the processor on a dry, level surface, and keep it away from water and the edge of the worktop.",
+     "Lock the bowl and lid before switching on, and never try to defeat the safety interlock.",
+     "Cut food into even pieces, do not exceed the maximum fill line, and use the speed recommended for the ingredient.",
+     "Feed food only with the supplied pusher, never with fingers, knives or spoons, and keep hands and loose clothing away from moving parts.",
+     "Use pulse control to avoid over-processing and to keep control of the texture of the food.",
+     "Switch off and unplug before changing attachments, removing the lid, scraping the bowl or cleaning, and wait until the blade has stopped completely.",
+     "Lift sharp blades by the centre hub, wash and dry them carefully, and store them safely away from children.",
+     "Wipe the motor base with a damp cloth; never immerse it or hold it under running water.",
+     "Do not use the appliance if the plug, flex, bowl or interlock is damaged; have it repaired by a qualified person before use."
+    ]
+   },
+   {
+    "h": "Guidelines for use: other motor appliances",
+    "points": [
+     "Hand mixers: start on the lowest speed to avoid splashing, then increase speed, and switch off before removing the beaters.",
+     "Blenders: add liquids first, never run the blender empty, and do not blend hot liquid in a sealed container, because steam pressure can force the lid off.",
+     "Vacuum cleaners: empty the dust container or change the bag when it is full, since a blocked airflow strains the motor.",
+     "Washing machines: do not overload the drum, use the detergent amount recommended by the manufacturer, and choose a programme suited to the fabric."
+    ]
+   },
+   {
+    "h": "Efficient use of a motor appliance",
+    "points": [
+     "Prepare several ingredients in sequence, starting with dry or clean foods, so the appliance is used once for many tasks rather than washed between each one.",
+     "Use the appliance only for the job it is designed for, and switch it off as soon as the task is complete rather than letting it run on."
+    ]
+   },
+   {
+    "b": "A motor converts electrical energy into kinetic energy by using the magnetic force on a current-carrying conductor.",
+    "h": "Electric motors: working principle (Higher Level only)",
+    "points": [
+     "A wire carrying a current in a magnetic field experiences a force, the motor effect, which is greatest when the wire is at right angles to the field.",
+     "The direction of the force is given by Fleming's left-hand rule: the thumb shows the force, the first finger the magnetic field and the second finger the current.",
+     "In a simple DC motor, a coil sits between the poles of a magnet; the forces on opposite sides of the coil act in opposite directions, creating a turning effect.",
+     "The commutator is a split ring on the shaft; brushes press on it and reverse the current in the coil every half turn, so the turning effect continues in one direction.",
+     "Electrical energy is the input and kinetic energy the output; heat from the coil and friction in the bearings is wasted energy.",
+     "Diagram: a simple DC motor showing the magnet poles, the coil, the commutator and brushes, with arrows for current direction and the forces on each side of the coil."
+    ]
+   },
+   {
+    "h": "Motor types used in household appliances (Higher Level only)",
+    "points": [
+     "A universal motor is a series-wound motor that runs on either AC or DC; it runs at high speed and is used in portable appliances such as food processors, hand mixers and vacuum cleaners.",
+     "An induction motor runs on AC and has no brushes or commutator; the rotating magnetic field of the stator induces currents in the rotor, which turns it.",
+     "Induction motors are robust and need little maintenance, which suits drums in washing machines and dishwasher pumps.",
+     "Speed control adjusts the voltage or current supplied to the motor, so a variable-speed control changes the speed of a universal motor."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three, each with a reason. Lock the bowl and lid and never defeat the interlock, because the motor must not run unless the appliance is safely assembled. Feed food only with the pusher, because the blade can cause serious cuts to fingers. Switch off and unplug before changing attachments or cleaning, because the blade can still move until it stops. Keep the motor base dry and do not immerse it, because water can cause electric shock. Do not overfill the bowl, because this overloads the motor and gives uneven processing.",
+    "prompt": "Name three precautions a user should take when operating a food processor, and give a reason for each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Appliance: a food processor, with a motor in a stable insulated base driving a spindle that turns interchangeable blades or discs in a graduated bowl. Design: the lid and bowl lock together, the interlock stops the motor unless they are fitted, the feed tube and pusher allow safe feeding, and the low centre of gravity keeps the base stable. Controls: on/off, variable speeds and a pulse button for controlled processing. Guidelines: fit the correct attachment and lock the bowl and lid before connecting to the supply; place on a dry level surface; cut food into even pieces and do not overfill; feed with the pusher only; use pulse control; switch off and unplug before changing attachments or cleaning and wait for the blade to stop; lift blades by the hub and store them away from children; wipe the base and never immerse it; do not use a damaged plug, flex or interlock.",
+    "prompt": "Describe a motor-driven kitchen appliance you have studied, covering its design features, its controls and the guidelines a user should follow to use it safely.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-appliances-equipment-s4": {
+  "keyTerms": [
+   {
+    "definition": "A coil or wire of high-resistance material that converts electrical energy into heat when current flows through it.",
+    "term": "Heating element"
+   },
+   {
+    "definition": "A nickel-chromium alloy with high resistance, used in heating elements because it does not oxidise quickly when hot.",
+    "term": "Nichrome"
+   },
+   {
+    "definition": "A device that senses temperature and switches an appliance's heating element on or off to keep a set temperature.",
+    "term": "Thermostat"
+   },
+   {
+    "definition": "A strip of two metals with different expansion rates, which bends when heated and is used to switch circuits in a thermostat.",
+    "term": "Bimetallic strip"
+   },
+   {
+    "definition": "The transfer of heat through a solid material by particles passing energy to their neighbours.",
+    "term": "Conduction"
+   },
+   {
+    "definition": "The transfer of heat through a liquid or gas by currents formed as warmer, less dense fluid rises.",
+    "term": "Convection"
+   },
+   {
+    "definition": "The transfer of heat by infrared waves, which needs no material medium.",
+    "term": "Radiation"
+   },
+   {
+    "definition": "A hard deposit of calcium carbonate that forms on the element of a kettle, slowing heating and wasting energy.",
+    "term": "Limescale"
+   },
+   {
+    "definition": "A wire that connects the metal body of an appliance to earth so that a fault current flows and blows the fuse.",
+    "term": "Earth wire"
+   },
+   {
+    "definition": "A safety device that disconnects the supply quickly when it detects current leaking to earth.",
+    "term": "Residual current device (RCD)"
+   },
+   {
+    "definition": "Conduction through the base and metal into the water, and convection currents that circulate the hot water.",
+    "term": "Two methods of heat transfer in a kettle"
+   },
+   {
+    "definition": "Nichrome elements on each side of the slots, a timer or bimetallic release mechanism, and a crumb tray.",
+    "term": "Three parts of a toaster"
+   },
+   {
+    "definition": "It insulates the element, so water takes longer to boil, and the extra energy used increases the running cost.",
+    "term": "Two effects of scale build-up on a kettle element"
+   },
+   {
+    "definition": "Check the flex and plug for damage, set the temperature for the fabric, make sure the water tank is filled correctly, and stand the iron on its heel rest when not in use.",
+    "term": "Four safety checks before using an iron"
+   },
+   {
+    "definition": "It holds a set temperature, switches the element off when that temperature is reached, and switches it on again as the appliance cools.",
+    "term": "Three functions of a temperature control switch in a kettle or iron"
+   },
+   {
+    "definition": "A thermal cut-out opens the circuit if the appliance overheats, and a residual current device cuts the supply quickly when current leaks to earth.",
+    "term": "Two protective devices that cut off power to a heating appliance"
+   },
+   {
+    "definition": "Its length, which increases resistance, and its cross-sectional area, which decreases resistance.",
+    "term": "Two factors that affect the resistance of an element wire (Higher Level only)"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Parts of heating appliances (kettle, toaster and iron)",
+    "points": [
+     "Kettle: a body of plastic or stainless steel, a heating element in the base of the water vessel, a water level indicator and an on/off switch.",
+     "Kettle thermostat: a sensor that switches the element off when the water boils, so the kettle does not keep heating.",
+     "Toaster: nichrome heating elements on each side of the bread slots, a spring-loaded lever, a timer or bimetallic release that lifts the bread when toasting is complete, and a removable crumb tray.",
+     "Iron: a sole plate heated by an element, a thermostat dial for choosing the fabric temperature, a water tank and steam vents, with a heel rest for standing the iron safely."
+    ]
+   },
+   {
+    "h": "Guidelines for use: kettle",
+    "points": [
+     "Fill the kettle only between the minimum and maximum marks, and never above the maximum, since the element must be covered whenever it is switched on.",
+     "Switch off and unplug the kettle before filling it or cleaning it, and keep the flex away from hot surfaces and out of the reach of children.",
+     "Never immerse the base or the electrical parts in water; wipe the base with a damp cloth.",
+     "Use dry hands when handling the plug, and never plug in or switch on with wet hands.",
+     "Descale the kettle regularly, because limescale on the element slows boiling and increases energy use.",
+     "Do not use a kettle with a damaged flex, plug or body, and do not overload a socket with several appliances."
+    ]
+   },
+   {
+    "h": "Guidelines for use: toaster and iron",
+    "points": [
+     "Toaster: never insert metal objects into the slots, and unplug the toaster before removing jammed bread.",
+     "Toaster: empty the crumb tray regularly, since crumbs can catch fire or prevent the toaster working correctly.",
+     "Iron: select the temperature for the fabric before switching on, and begin with the lowest setting for delicate fabrics.",
+     "Iron: stand it on its heel rest when not in use, and never leave it switched on unattended.",
+     "Iron: unplug before filling the water tank, and keep the flex away from the sole plate."
+    ]
+   },
+   {
+    "h": "Heat transfer in heating appliances",
+    "points": [
+     "Conduction: heat passes from the element through the metal of the kettle base or iron sole plate into the water or fabric.",
+     "Convection: water near the element becomes less dense and rises, while cooler water sinks, so currents circulate heat through the kettle.",
+     "Radiation: infrared radiation from the toaster elements heats the surface of the bread directly.",
+     "Boiling only the amount of water needed saves energy, because less water must be heated and less heat is wasted."
+    ]
+   },
+   {
+    "h": "Electrical safety of heating appliances",
+    "points": [
+     "The live wire is fused in the plug; the earth wire connects the metal body to earth, so a fault current blows the fuse rather than leaving the body live.",
+     "A residual current device (RCD) cuts off the supply quickly when current leaks to earth, protecting the user from electric shock.",
+     "A thermal cut-out opens the circuit if an appliance overheats, protecting against fire.",
+     "Cordless kettles have a base unit with contacts, so the flex is not attached to the kettle, reducing the risk of pulling it over or of a trailing flex hazard."
+    ]
+   },
+   {
+    "b": "A heating element converts electrical energy into heat through its resistance to the current.",
+    "h": "Heating element and thermostat: working principle (Higher Level only)",
+    "points": [
+     "The heating effect: when current flows through a resistor, electrical energy is converted to heat at a rate equal to I²R, where I is the current and R is the resistance.",
+     "The element is made of nichrome, a nickel-chromium alloy with high resistance that does not oxidise quickly when hot.",
+     "Resistance depends on the length and thickness of the wire: resistance increases with length and decreases as the cross-sectional area increases.",
+     "The thermostat is a bimetallic strip made from two metals that expand at different rates; when heated the strip bends and opens the circuit at a set temperature.",
+     "As the appliance cools, the strip straightens and closes the circuit, so the temperature is held between two switching points.",
+     "The thermostat and the element are connected in series, so the element receives no current while the thermostat is open.",
+     "Diagram: a circuit showing the 230 V supply, the bimetallic thermostat in series with the nichrome heating element, and the direction of heat transfer into the water or food."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The kettle thermostat senses the temperature of the water or the heat of the element. When the water reaches boiling point the thermostat or steam-operated switch opens the circuit, so the element stops receiving current and the kettle switches off. The element and the water cool, and the thermostat closes the circuit again when the temperature falls, so the element heats the water again when it is switched on. A bimetallic strip is one way of doing this: it bends when hot to open the circuit and straightens as it cools to close it.",
+    "prompt": "Explain how the thermostat in a kettle switches the heating element on and off.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Appliance: a kettle, toaster or iron. Working principle: current flows through a nichrome heating element, whose high resistance converts electrical energy into heat at a rate given by I squared R. The heat is transferred to the water, bread or fabric by conduction, convection or radiation, depending on the appliance. A bimetallic thermostat in series with the element bends when hot to open the circuit and so controls the temperature between two switching points. Safety: the live wire is fused in the plug, the earth wire connects the metal body to earth, an RCD cuts off the supply on a current leak, and a thermal cut-out protects against overheating. Precautions: fill only to the marked level and keep the element covered, use dry hands, keep the flex and plug in good condition, never immerse electrical parts, empty crumb trays, stand irons on the heel rest, and descale kettles regularly.",
+    "prompt": "Describe how an electric heating appliance you have studied converts electrical energy into heat, and state the precautions that make it safe to use.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-appliances-equipment-s5": {
+  "keyTerms": [
+   {
+    "definition": "The motor-driven pump in a refrigerator that compresses the gaseous refrigerant, raising its pressure and temperature.",
+    "term": "Compressor"
+   },
+   {
+    "definition": "A heat exchanger where hot gaseous refrigerant releases heat and condenses into a liquid.",
+    "term": "Condenser"
+   },
+   {
+    "definition": "A coil inside the cabinet where liquid refrigerant evaporates and absorbs heat from the food compartment.",
+    "term": "Evaporator"
+   },
+   {
+    "definition": "A fluid that evaporates at a low temperature, absorbing heat as it changes from liquid to gas.",
+    "term": "Refrigerant"
+   },
+   {
+    "definition": "A device that senses temperature and switches the motor on and off to hold the cabinet at a set temperature.",
+    "term": "Thermostat"
+   },
+   {
+    "definition": "A narrow restriction that reduces the pressure of the liquid refrigerant before it enters the evaporator.",
+    "term": "Expansion valve"
+   },
+   {
+    "definition": "The heat absorbed by a liquid as it changes to a gas at constant temperature.",
+    "term": "Latent heat of vaporisation"
+   },
+   {
+    "definition": "An automatic system that removes frost from the evaporator by a timed heater or fan, so no manual defrosting is needed.",
+    "term": "Frost-free defrosting"
+   },
+   {
+    "definition": "A refrigerator design with separate compartments kept at different temperatures for different foods.",
+    "term": "Zoned refrigeration"
+   },
+   {
+    "definition": "A drawer that controls the moisture around fruit and vegetables to keep them fresh for longer.",
+    "term": "Humidity-controlled drawer"
+   },
+   {
+    "definition": "Compressor, condenser, expansion valve and evaporator.",
+    "term": "Four main parts of the refrigeration cycle"
+   },
+   {
+    "definition": "It switches the motor off when the set temperature is reached, and switches it on again when the cabinet warms.",
+    "term": "Two actions of the temperature switch in a fridge"
+   },
+   {
+    "definition": "Store it on the lowest shelf, below cooked food and dairy, and in covered containers.",
+    "term": "Three rules for storing raw meat in a fridge"
+   },
+   {
+    "definition": "Opening the door often, overpacking the cabinet, and placing hot food inside.",
+    "term": "Three things that make a fridge motor work harder"
+   },
+   {
+    "definition": "Humidity-controlled drawers, and zoned refrigeration with a chill compartment for meat and fish.",
+    "term": "Two modern features that help keep food fresh"
+   },
+   {
+    "definition": "Keep the fridge cabinet at 5°C or below; bacteria multiply quickly between 5°C and 63°C.",
+    "term": "Cabinet temperature and the danger zone"
+   },
+   {
+    "definition": "Ice insulates the evaporator and reduces cooling efficiency, and thick ice takes up storage space and increases energy use.",
+    "term": "Two reasons to defrost a freezer regularly"
+   },
+   {
+    "definition": "Under-counter fridge, larder fridge, fridge-freezer and American fridge.",
+    "term": "Four types of refrigeration appliance"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Types of refrigeration appliance",
+    "points": [
+     "Under-counter fridge: a low unit that fits beneath a worktop and usually has no separate freezer compartment.",
+     "Larder fridge: a single-door unit for chilled food, without a freezer compartment.",
+     "Fridge-freezer: a combined unit with separate fridge and freezer compartments, each with its own door.",
+     "American fridge: a tall, wide unit with side-by-side doors, often with an ice and water dispenser in the door.",
+     "Integrated model: built into kitchen units, with a door panel that matches the cabinet doors."
+    ]
+   },
+   {
+    "h": "Parts of a refrigerator and their functions",
+    "points": [
+     "Compressor: a motor-driven pump at the base that compresses the gaseous refrigerant, raising its pressure and temperature.",
+     "Condenser: a coil, usually at the back or underneath, where the hot gaseous refrigerant gives off heat and condenses into a liquid.",
+     "Expansion valve or capillary tube: a narrow restriction that lowers the pressure of the liquid refrigerant before it enters the evaporator.",
+     "Evaporator: a coil inside the cabinet where the liquid refrigerant evaporates, absorbing heat from the food compartment.",
+     "Refrigerant: a fluid that evaporates at a low temperature, so it takes in heat as it changes from liquid to gas.",
+     "Thermostat: senses the cabinet temperature and switches the motor on and off to hold the cabinet at about 5°C or below.",
+     "Diagram: a closed loop of compressor, condenser, expansion valve and evaporator, labelled with the state and pressure of the refrigerant at each point."
+    ]
+   },
+   {
+    "h": "Refrigeration cycle",
+    "points": [
+     "1. The compressor draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas.",
+     "2. The hot gas flows to the condenser, where it releases heat to the kitchen air and condenses into a liquid.",
+     "3. The liquid passes through the expansion valve, where its pressure falls and some of it begins to vaporise.",
+     "4. In the evaporator the refrigerant boils at a low temperature, drawing heat from the cabinet, and becomes a low-pressure gas that returns to the compressor."
+    ]
+   },
+   {
+    "b": "A refrigerator moves heat from a cold space to a warmer room, which needs work from the compressor and so a continuous supply of electrical energy.",
+    "h": "Refrigeration physics (Higher Level only)",
+    "points": [
+     "The boiling point of a liquid falls as the pressure on it falls; the expansion valve lowers the pressure so the refrigerant boils at a low temperature in the evaporator.",
+     "Latent heat of vaporisation: the refrigerant absorbs a large amount of heat from the cabinet as it evaporates, without a rise in its own temperature.",
+     "Compression raises the pressure and temperature of the gas, and the condenser releases the latent heat as the gas changes back to a liquid.",
+     "Heat flows from the warm cabinet air to the cold refrigerant through the walls of the evaporator by conduction.",
+     "Heat is pumped against its natural direction of flow, from cold to hot, so the compressor must do work on the refrigerant."
+    ]
+   },
+   {
+    "h": "Guidelines for use",
+    "points": [
+     "Install the refrigerator on a level surface, away from cookers, radiators and direct sunlight, and leave space behind it so air can circulate around the condenser.",
+     "Cool hot food before placing it in the refrigerator, since hot food raises the cabinet temperature and makes the motor work harder.",
+     "Cover food to prevent it drying out and to stop strong flavours passing between foods.",
+     "Store raw meat and fish on the lowest shelf, below cooked food and dairy, so that drips cannot contaminate food stored beneath.",
+     "Keep the cabinet at 5°C or below; this keeps food outside the danger zone of 5°C to 63°C, in which bacteria multiply quickly.",
+     "Avoid opening the door unnecessarily, since each opening lets in warm air and makes the motor run for longer.",
+     "Do not overpack the cabinet, because air must circulate around food for even cooling.",
+     "Use food in rotation, first in and first out, so that items are eaten before their use-by or best-before date.",
+     "Thaw frozen food in the refrigerator rather than at room temperature, so the food stays cold while it thaws.",
+     "Clean the inside with warm water and bicarbonate of soda, avoid strong-smelling cleaners, and check the door seal regularly, since a damaged seal lets warm air in."
+    ]
+   },
+   {
+    "h": "Modern features",
+    "points": [
+     "Automatic (frost-free) defrosting uses a timed heater or fan to melt or remove frost from the evaporator, and the water drains away.",
+     "Zoned refrigeration gives separate areas at different temperatures, such as a chill zone for meat and fish.",
+     "Humidity-controlled drawers keep fruit and vegetables fresh by controlling the moisture in the drawer.",
+     "Gated shelves hold tall bottles securely, and flexible shelving adjusts to items of different heights.",
+     "A digital display shows the cabinet temperature and allows it to be adjusted.",
+     "A quick-chill or power-chill setting cools newly added food rapidly, reducing the rise in temperature of the other food in the cabinet.",
+     "An open-door alarm sounds if the door is left ajar.",
+     "A drinks dispenser in the door, or an internal or external ice maker, gives chilled water and ice without opening the main door.",
+     "LED lighting uses less electricity than traditional bulbs and gives off little heat into the cabinet.",
+     "Antibacterial coatings on interior surfaces reduce the build-up of bacteria, and smart refrigerators can be monitored and controlled from a phone."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Condenser: the hot gaseous refrigerant arriving from the compressor gives off heat to the surrounding air and changes into a liquid. Evaporator: the liquid refrigerant passes through a low-pressure region, boils at a low temperature and changes back into a gas, absorbing heat from the food compartment and so cooling the cabinet.",
+    "prompt": "Describe what happens to the refrigerant in the condenser and in the evaporator of a refrigerator.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Working principle: the compressor draws in low-pressure gas and compresses it to a hot, high-pressure gas. The condenser releases heat and the gas condenses to a liquid. The expansion valve lowers the pressure of the liquid, and in the evaporator the refrigerant boils at a low temperature, absorbing latent heat from the cabinet and cooling it. The gas returns to the compressor and the cycle repeats. Parts: the thermostat switches the motor on and off to hold the cabinet at 5 degrees C or below. Guidelines: install on a level surface with air space around the condenser; cool food before storing it; cover food; store raw meat and fish on the lowest shelf; keep the cabinet at 5 degrees C or below; avoid unnecessary door opening and overpacking; use food in rotation; thaw food in the fridge; clean with warm water and bicarbonate of soda and check the door seal; defrost regularly so that frost does not insulate the evaporator.",
+    "prompt": "Describe the working principle of a refrigerator you have studied, explaining the role of its main parts, and give guidelines for using it safely and efficiently.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-appliances-equipment-s6": {
+  "keyTerms": [
+   {
+    "definition": "A device that converts high-voltage electrical energy into microwave energy in a microwave oven.",
+    "term": "Magnetron"
+   },
+   {
+    "definition": "A device that changes the voltage of an alternating supply by electromagnetic induction, here raising it for the magnetron.",
+    "term": "Transformer"
+   },
+   {
+    "definition": "A hollow metal channel that carries microwaves from the magnetron into the oven cavity.",
+    "term": "Waveguide"
+   },
+   {
+    "definition": "A rotating glass plate that moves food through the microwaves so that it is heated more evenly.",
+    "term": "Turntable"
+   },
+   {
+    "definition": "A rotating metal blade or fan that scatters microwaves around the cavity.",
+    "term": "Mode stirrer"
+   },
+   {
+    "definition": "A molecule with a positive and a negative end, such as water, that rotates in an alternating electric field.",
+    "term": "Polar molecule"
+   },
+   {
+    "definition": "The period after cooking when food is left to rest so that heat spreads from the outside to the centre.",
+    "term": "Standing time"
+   },
+   {
+    "definition": "Describes a container that does not reflect or absorb microwaves harmfully, so it can be used in a microwave oven.",
+    "term": "Microwave-safe"
+   },
+   {
+    "definition": "Sparking caused by microwaves interacting with metal objects inside the cavity.",
+    "term": "Arcing"
+   },
+   {
+    "definition": "A safety switch that stops microwave production when the door is opened.",
+    "term": "Door interlock"
+   },
+   {
+    "definition": "Use the defrost setting or lower power, turn or stir the food during thawing, and separate pieces as they soften.",
+    "term": "Three ways to thaw food in a microwave"
+   },
+   {
+    "definition": "It lets steam escape, and it prevents the skin from bursting under pressure.",
+    "term": "Two reasons to pierce the skin of a food before microwaving"
+   },
+   {
+    "definition": "Door interlock, child lock, automatic cut-out and a metal cavity with a mesh screen in the door that contains the microwaves.",
+    "term": "Four safety features of a microwave oven"
+   },
+   {
+    "definition": "A conventional microwave for cooking, reheating and defrosting, and a combination microwave with a grill or convection oven that can brown food.",
+    "term": "Two types of microwave cooker"
+   },
+   {
+    "definition": "About 2 to 4 cm, after which the centre of thicker food heats by conduction.",
+    "term": "Penetration depth of microwaves in food"
+   },
+   {
+    "definition": "Metal containers, aluminium foil and metallic trim on dishes.",
+    "term": "Three things that cause sparking in a microwave"
+   },
+   {
+    "definition": "Arrange food in a circle with thicker parts outwards, and stir or turn it during cooking.",
+    "term": "Two ways to cook food evenly in a microwave"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Parts of a microwave oven and their functions",
+    "points": [
+     "Transformer: increases the domestic mains voltage of 230 V to the much higher voltage needed to drive the magnetron.",
+     "Magnetron: converts high-voltage electrical energy into microwave energy, at a frequency of about 2.45 GHz.",
+     "Waveguide: a metal channel that carries the microwaves from the magnetron into the metal cooking cavity.",
+     "Turntable: a rotating glass plate that moves the food through the microwaves, so that it is heated more evenly.",
+     "Mode stirrer: a rotating metal blade or fan that scatters the microwaves around the cavity, so that they are not concentrated in one spot.",
+     "Metal cavity: reflects the microwaves so that they are contained in the oven and distributed around the food.",
+     "Door interlock: a switch that stops microwave production as soon as the door is opened.",
+     "Timer: stops the magnetron when the selected cooking time has elapsed.",
+     "Diagram: a labelled cross-section of a microwave oven showing the transformer, magnetron, waveguide, mode stirrer, turntable, cavity and door interlock."
+    ]
+   },
+   {
+    "h": "How a microwave heats food",
+    "points": [
+     "1. The transformer raises the mains voltage, and the magnetron converts the electrical energy into microwaves when the oven is switched on.",
+     "2. The waveguide directs the microwaves into the cavity, where metal walls reflect them and the mode stirrer or turntable spreads them through the food.",
+     "3. Glass, ceramic, paper and most plastics let microwaves pass through; food absorbs them, and metal reflects them.",
+     "4. The microwaves penetrate the food to a depth of about 2 to 4 cm.",
+     "5. Water molecules are polar, so the rapidly alternating field makes them rotate and vibrate; the resulting friction produces heat.",
+     "6. Heat then moves towards the centre of the food by conduction, so thick food may not heat through evenly.",
+     "7. Water in the food is driven towards the surface, which prevents the surface from browning."
+    ]
+   },
+   {
+    "h": "Guidelines for use",
+    "points": [
+     "Use only containers labelled microwave-safe, such as glass, ceramic, paper or suitable plastic.",
+     "Never use metal containers, foil or metallic trim, because they reflect microwaves and can cause arcing and sparks.",
+     "Pierce the skins of potatoes, sausages and other foods with skins, so that steam can escape and the skin does not burst.",
+     "Arrange food in a circle with the thicker parts towards the outside, since the outer parts heat first.",
+     "Cover food to retain moisture and prevent splashing, leaving a vent for steam to escape.",
+     "Stir, turn or rearrange food during cooking so that heat spreads evenly through it.",
+     "Allow standing time after cooking, so that heat continues to conduct to the centre of the food.",
+     "Use the defrost setting or a lower power level for thawing frozen food.",
+     "Check that reheated food, especially poultry, minced meat and other high-risk food, is piping hot throughout.",
+     "Never run the oven empty, and keep the cavity, door seal and vents clean and undamaged.",
+     "Use oven gloves, and open covers away from the face to avoid steam burns."
+    ]
+   },
+   {
+    "h": "Modern features",
+    "points": [
+     "Variable power settings allow delicate foods to be cooked at reduced power, and allow thawing at defrost power.",
+     "Auto weight defrost: the user enters the weight of the food and the oven sets the power and time.",
+     "Pre-set programmes for foods such as vegetables or popcorn remove the need to choose time and power manually.",
+     "A jet power or quick-reheat button heats food rapidly at full power.",
+     "A temperature probe inserted into the food switches the oven off when the set internal temperature is reached.",
+     "A combination oven adds a grill or convection oven, so food can brown and crisp.",
+     "A child lock stops the oven being started by children, and a keep-warm setting holds cooked food at a low temperature.",
+     "Sensor models detect steam from the food and adjust the cooking time automatically.",
+     "A digital control panel, recipe memory and self-cleaning walls make the oven easier to operate and maintain.",
+     "Anti-bacterial linings reduce the build-up of bacteria inside the cavity."
+    ]
+   },
+   {
+    "h": "Energy efficiency in use",
+    "points": [
+     "Microwaves heat the food itself rather than the oven cavity, so no preheating is normally needed.",
+     "Cooking time is short, so less heat escapes into the room than from a conventional oven.",
+     "A microwave is efficient for small and medium portions, and for reheating and defrosting.",
+     "A conventional oven may be more economical when several large dishes are cooked together.",
+     "Matching the power and time to the quantity of food, and using residual standing heat, reduces energy waste.",
+     "Switch the oven fully off rather than leaving its display on standby, and choose a correctly sized, energy-rated model."
+    ]
+   },
+   {
+    "b": "Microwaves are electromagnetic waves, and the microwave oven relies on electromagnetic induction in the transformer and on the electric field of the waves.",
+    "h": "Underlying working principles (Higher Level only)",
+    "points": [
+     "The transformer works by electromagnetic induction: an alternating current in the primary coil induces an alternating voltage in the secondary coil, and the voltage ratio equals the ratio of the turns in the two coils.",
+     "The transformer in a microwave oven is a step-up transformer, producing several kilovolts for the magnetron from the 230 V supply.",
+     "At 2.45 GHz the wavelength of the microwaves is about 12 cm, which is the basis of the cavity size and the spacing of the waves in food.",
+     "In the magnetron, electrons moving in a magnetic field set up oscillations in resonant cavities, and the oscillations are output as microwaves.",
+     "A polar molecule has a positive end and a negative end; the alternating electric field of the microwaves makes such molecules rotate back and forth, and friction between them converts this motion to heat.",
+     "The door interlock is a switch wired in series with the magnetron, so that microwave production stops when the door is opened.",
+     "Diagram: a sketch of water molecules aligning with the alternating electric field, with arrows showing the direction of the field at two instants."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Waveguide: a metal channel that carries the microwaves from the magnetron into the cooking cavity, directing them into the oven. Turntable: a rotating plate that moves the food through the microwave field, so that different parts of the food receive microwaves and it cooks more evenly.",
+    "prompt": "Describe the job done by the waveguide and by the turntable in a microwave oven.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Working principle: the transformer raises the 230 V mains voltage to the high voltage the magnetron needs. The magnetron converts this electrical energy into microwaves, which the waveguide directs into the metal cavity. The microwaves are reflected by the walls and spread by the mode stirrer or turntable. They penetrate the food to about 2 to 4 cm, where polar water molecules rotate and vibrate, and the friction produces heat. Heat then moves to the centre by conduction. The timer stops the magnetron at the set time, and the door interlock stops microwave production when the door is opened. Guidelines: use microwave-safe containers and never metal, foil or metallic trim; pierce skins; arrange food in a circle with thicker parts outwards; cover to retain moisture and vent; stir or turn during cooking; allow standing time so that heat reaches the centre; use defrost power for thawing; check that reheated high-risk food is piping hot throughout; keep the cavity and door seal clean; never run the oven empty; use oven gloves to avoid steam burns.",
+    "prompt": "Describe the working principle of a microwave oven, and explain how following the guidelines for use keeps food safe and cooked evenly.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-carbohydrates-s1": {
   "keyTerms": [
    {
@@ -6954,6 +7888,634 @@
    }
   ]
  },
+ "hom-family-law-s1": {
+  "keyTerms": [
+   {
+    "definition": "A spouse who does not have the financial resources to support themselves after a relationship breaks down.",
+    "term": "Dependent spouse"
+   },
+   {
+    "definition": "Regular financial support paid by a spouse or parent to a dependant for everyday needs such as food, clothing and housing.",
+    "term": "Maintenance"
+   },
+   {
+    "definition": "A private, written arrangement between the parties setting out the amount and frequency of maintenance payments.",
+    "term": "Maintenance agreement"
+   },
+   {
+    "definition": "A court order, made by the District Court, requiring a person to pay maintenance to a dependant.",
+    "term": "Maintenance order"
+   },
+   {
+    "definition": "A court order that deducts maintenance directly from the wages of the person who owes it.",
+    "term": "Attachment of Earnings Order"
+   },
+   {
+    "definition": "The parent with whom a dependent child lives and who has day-to-day care of the child.",
+    "term": "Custodial parent"
+   },
+   {
+    "definition": "A person, such as a spouse or child, who relies on another for financial support and may claim maintenance under the Act.",
+    "term": "Dependant"
+   },
+   {
+    "definition": "First try a maintenance agreement; if none is reached, apply to the District Court for a maintenance order.",
+    "term": "Steps to obtain a maintenance order"
+   },
+   {
+    "definition": "An Attachment of Earnings Order deducts maintenance from the paying person's wages and pays it directly to the dependant.",
+    "term": "Enforcement of unpaid maintenance"
+   },
+   {
+    "definition": "A dependent spouse or civil partner, and a parent with custody of a dependent child.",
+    "term": "Who can claim maintenance under the Act"
+   },
+   {
+    "definition": "The District Court, which makes maintenance orders when parties cannot agree.",
+    "term": "Court that hears maintenance applications"
+   },
+   {
+    "definition": "Maintenance remains payable to the custodial parent even where both parents still live in the same house.",
+    "term": "Effect of sharing a home on maintenance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Act gives a financially dependent spouse and dependent children a legal right to maintenance, meaning regular financial support, from the spouse or parent who can pay it when a relationship breaks down.",
+    "h": "Purpose and who is protected",
+    "points": [
+     "A dependent spouse or civil partner is one who does not have the financial resources to support themselves.",
+     "A dependent spouse can claim maintenance from the other spouse if the relationship breaks down and no other means of support is available.",
+     "The parent who has custody of a dependent child is entitled to maintenance for that child, whichever parent is paying.",
+     "Maintenance is still payable where the parents continue to share the same house after separating.",
+     "Maintenance covers the day-to-day costs of the dependant, such as food, clothing, housing and other necessities."
+    ]
+   },
+   {
+    "h": "How maintenance is obtained",
+    "points": [
+     "Step 1: the parties try to reach a maintenance agreement, a written arrangement setting out the amount and frequency of payments.",
+     "Step 2: if no agreement can be reached, the dependant applies to the District Court for a maintenance order.",
+     "Step 3: the court hears the application and, if it is granted, orders the supporting spouse or parent to pay a set amount to the dependant.",
+     "A maintenance agreement is a private arrangement between the parties, whereas a maintenance order is made by the court and can be enforced by it."
+    ]
+   },
+   {
+    "h": "Enforcing unpaid maintenance",
+    "points": [
+     "If the supporting spouse or parent fails to pay, the court can grant an Attachment of Earnings Order.",
+     "An Attachment of Earnings Order deducts money from the wages of the person who owes maintenance and pays it directly to the dependant.",
+     "Maintenance owed under a court order is enforceable, so the dependant can return to court if payments stop."
+    ]
+   },
+   {
+    "h": "Family breakdown terms used with the Act",
+    "points": [
+     "Separation: spouses live apart, either by private agreement or by court order; separation does not end the marriage.",
+     "Divorce: a legal process that ends a marriage, governed by the Family Law (Divorce) Act 1996 as amended by the Family Law Act 2019.",
+     "Maintenance orders can exist alongside a separation or divorce, so the dependant's support is protected whatever the legal status of the marriage.",
+     "Protection under this Act is available whether the dependant is a spouse, a civil partner or a child, which is why it is described as protection for the whole family."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Maintenance is financial support for a dependant. First the parties may agree a written maintenance agreement setting out the amount and frequency of payments. If no agreement can be reached, the dependent spouse applies to the District Court for a maintenance order, and the court orders the other spouse to pay a set amount. If that spouse then fails to pay, the court can grant an Attachment of Earnings Order, which deducts the money from wages and pays it directly to the dependant.",
+    "prompt": "Explain how a dependent spouse can obtain maintenance under the Family Law (Maintenance of Spouses and Children) Act 1976.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "The Act protects dependent spouses and civil partners who lack the financial resources to support themselves, so a spouse can claim maintenance from the other spouse after a breakdown. It protects dependent children: the parent with custody is entitled to maintenance for the child even where the parents still share a home. Protection is put into practice through a maintenance agreement, or if none is reached, a maintenance order from the District Court. Enforcement is supported by Attachment of Earnings Orders, which take money directly from wages. Together these ensure that the dependant's everyday needs such as food, clothing and housing are met, whatever the legal status of the marriage.",
+    "prompt": "Outline the protection the Family Law (Maintenance of Spouses and Children) Act 1976 gives to families when a relationship breaks down.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-law-s2": {
+  "keyTerms": [
+   {
+    "definition": "The dwelling in which the spouses ordinarily live together, protected by the Act whoever owns it.",
+    "term": "Family home"
+   },
+   {
+    "definition": "The right of a spouse to live in the family home, which the Act protects even where that spouse does not own it.",
+    "term": "Right of occupation"
+   },
+   {
+    "definition": "Agreement given in writing by one spouse before the other spouse sells, leases or mortgages the family home.",
+    "term": "Written consent"
+   },
+   {
+    "definition": "Any transaction that transfers or charges an interest in the family home, such as a sale, lease or mortgage.",
+    "term": "Disposition"
+   },
+   {
+    "definition": "A court order allowing a transaction to go ahead without a spouse's consent, in limited circumstances.",
+    "term": "Dispensing with consent"
+   },
+   {
+    "definition": "An entry registered against a property's title to record a right, such as a spouse's right of occupation, that binds future owners.",
+    "term": "Burden on title"
+   },
+   {
+    "definition": "The other spouse must give written consent, or the court must dispense with it.",
+    "term": "Requirement before selling the family home"
+   },
+   {
+    "definition": "A spouse who does not own the home still has a right of occupation that the Act protects.",
+    "term": "Who can occupy the family home"
+   },
+   {
+    "definition": "It is open to being set aside by the court.",
+    "term": "Status of a transaction made without consent"
+   },
+   {
+    "definition": "It can be registered as a burden on the title of the property.",
+    "term": "Where the spouse's right of occupation is recorded"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Act protects the home in which a married couple lives, so that one spouse cannot deal with it without the other's agreement.",
+    "h": "Purpose of the Act",
+    "points": [
+     "The family home is the dwelling in which the spouses ordinarily live together as their home.",
+     "The Act protects the family home whether it is owned, rented or held in only one spouse's name.",
+     "A spouse who has no legal ownership of the home still has a right to occupy it, and that right is protected by the Act.",
+     "The protection applies while the spouses are married and living together in the home."
+    ]
+   },
+   {
+    "h": "Consent needed to deal with the family home",
+    "points": [
+     "A spouse cannot sell, lease or mortgage the family home without the written consent of the other spouse.",
+     "Consent must be given in writing, so an oral agreement to a sale is not enough.",
+     "A purchaser or lender should check that the required spousal consent has been given before completing a transaction involving the home."
+    ]
+   },
+   {
+    "h": "Enforcing the protection (process)",
+    "points": [
+     "Step 1: establish that the property is the family home, meaning the dwelling where the spouses ordinarily live together.",
+     "Step 2: before any sale, lease or mortgage, the owner-spouse must obtain the other spouse's written consent.",
+     "Step 3: if consent is withheld unreasonably, the owner-spouse can apply to the court to dispense with consent in certain circumstances.",
+     "Step 4: if a transaction goes ahead without the required consent, the non-consenting spouse can ask the court to set it aside."
+    ]
+   },
+   {
+    "h": "Registration and link to housing finance",
+    "points": [
+     "A spouse's right of occupation can be registered as a burden on the title of the property, which warns any future buyer or lender of that right.",
+     "A mortgage over the family home usually needs the consent of both spouses, which links the Act to the mortgage conditions studied under housing finance.",
+     "The protection is in addition to any ownership rights, so it does not depend on whose name appears on the title deeds."
+    ]
+   },
+   {
+    "h": "Family home in divorce and judicial separation",
+    "points": [
+     "The Family Home Protection Act protects the home during the marriage; on judicial separation or divorce, the court can make orders dealing with the family home as part of its wider powers.",
+     "Under the Judicial Separation and Family Law Reform Act 1989 and the Family Law (Divorce) Act 1996, a court can make property orders that transfer or adjust ownership of the family home between the spouses."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The Act gives a spouse a right of occupation in the family home, the dwelling in which the spouses ordinarily live together, even where that spouse does not hold legal title. A spouse cannot sell, lease or mortgage the home without the written consent of the other spouse. The non-owning spouse can therefore remain in the home and prevent it being dealt with without agreement.",
+    "prompt": "Explain why a spouse who does not own the family home is protected by the Family Home Protection Act 1976.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "The family home is the dwelling where the spouses ordinarily live together, and the Act protects it whatever the ownership arrangements. A spouse who has no legal title keeps a right of occupation. Neither spouse may sell, lease or mortgage the home without the other's written consent. Where consent is withheld unreasonably, the court can dispense with it in certain circumstances. A transaction made without the required consent can be set aside by the court. A spouse's right of occupation can be registered as a burden on the title, so future buyers and lenders are on notice. Consent also matters for mortgage finance, since a lender will usually require both spouses to consent to a mortgage over the family home.",
+    "prompt": "Outline how the Family Home Protection Act 1976 protects the family home and explain the role of consent in this protection.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-law-s3": {
+  "keyTerms": [
+   {
+    "definition": "A court order requiring the respondent to leave the shared home and not return for a set period.",
+    "term": "Barring order"
+   },
+   {
+    "definition": "A court order prohibiting the respondent from molesting or threatening the applicant, without requiring them to leave the home.",
+    "term": "Protection order"
+   },
+   {
+    "definition": "A short-term barring order made quickly while the full application is still being considered.",
+    "term": "Interim barring order"
+   },
+   {
+    "definition": "A barring order made where there is an immediate risk of significant harm, lasting a short fixed period.",
+    "term": "Emergency barring order"
+   },
+   {
+    "definition": "The person against whom an application for a barring or protection order is made.",
+    "term": "Respondent"
+   },
+   {
+    "definition": "A pattern of controlling or coercive behaviour within an intimate relationship, which is a specific offence under the Domestic Violence Act 2018.",
+    "term": "Coercive control"
+   },
+   {
+    "definition": "A person who lives with another person as a couple without being married or in a civil partnership, and who may apply for orders under the Act.",
+    "term": "Cohabitant"
+   },
+   {
+    "definition": "Protection order, interim barring order, emergency barring order and barring order.",
+    "term": "Orders available under the Domestic Violence Act 2018"
+   },
+   {
+    "definition": "A protection order stops the respondent molesting or threatening the applicant; a barring order also requires the respondent to leave the home.",
+    "term": "Difference between a protection order and a barring order"
+   },
+   {
+    "definition": "The District Court, which can make interim and emergency orders on an urgent basis.",
+    "term": "Court for barring order applications"
+   },
+   {
+    "definition": "The breach is a criminal offence and can be prosecuted.",
+    "term": "Consequence of breaching a barring order"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Domestic Violence Act 2018 provides court orders that protect a person from domestic abuse, and a barring order can remove an abuser from the home.",
+    "h": "Purpose of barring orders (Higher Level only)",
+    "points": [
+     "A barring order is a court order requiring the respondent to leave the home shared with the applicant and not to return for a set period.",
+     "A barring order protects the applicant, and any dependent children, from further abuse in their own home.",
+     "The Act replaced the barring provisions of the earlier family law legislation with a single, modern domestic violence code.",
+     "Applications are made to the District Court, which can also grant orders on an urgent basis."
+    ]
+   },
+   {
+    "h": "Types of order (Higher Level only)",
+    "points": [
+     "Protection order: prohibits the respondent from molesting or threatening the applicant, but does not require the respondent to leave the home.",
+     "Interim barring order: a short-term barring order granted quickly, before the full application is heard, while the court considers the case.",
+     "Emergency barring order: available where there is an immediate risk of significant harm to the applicant or a dependent child, and it lasts for a short fixed period.",
+     "Barring order: made after the full hearing, and it can last for a longer, specified period set by the court.",
+     "Each order is made by the court in response to a specific application, and the court can attach conditions to the order."
+    ]
+   },
+   {
+    "h": "Who can apply and what the Act covers (Higher Level only)",
+    "points": [
+     "Applicants include a spouse, civil partner, cohabitant, parent of a child, and a person in an intimate relationship with the respondent.",
+     "A person in an intimate relationship can apply even where the couple no longer live together.",
+     "Dependent children can be protected by the orders, so the court can protect a child who lives with the applicant.",
+     "Coercive control, meaning a pattern of controlling or coercive behaviour such as isolating a person from family and friends, is a specific offence under the Act.",
+     "Breaching a barring or protection order is a criminal offence, so the orders are enforced through the criminal law as well as the civil courts."
+    ]
+   },
+   {
+    "h": "Making and enforcing an application (Higher Level only)",
+    "points": [
+     "Step 1: the applicant completes an application to the District Court for the relevant order.",
+     "Step 2: if there is an immediate risk, the court can make an interim or emergency order before the respondent is heard.",
+     "Step 3: at the full hearing, the court decides whether to make a protection order or a barring order.",
+     "Step 4: if the respondent breaches the order, the applicant reports it and the breach can be prosecuted."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A barring order requires the respondent to leave the home shared with the applicant and not to return for a set period. It protects the applicant and any dependent children from further abuse in their own home. Breaching the order is a criminal offence.",
+    "prompt": "Explain what a barring order under the Domestic Violence Act 2018 requires of the respondent.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "A protection order prohibits the respondent from molesting or threatening the applicant but does not require them to leave the home. An interim barring order is a short-term order made quickly while the full application is considered, so that the applicant is protected at once. An emergency barring order is made where there is an immediate risk of significant harm to the applicant or a dependent child, and it lasts for a short fixed period. A barring order is made after the full hearing and requires the respondent to leave the shared home and not return for a set period. Applicants can include a spouse, civil partner, cohabitant, parent of a child or a person in an intimate relationship, and dependent children can be protected. Breach of a barring or protection order is a criminal offence, and coercive control is a specific offence under the Act.",
+    "prompt": "Outline the court orders available under the Domestic Violence Act 2018 to protect a person from abuse, and explain when each would be used.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-law-s4": {
+  "keyTerms": [
+   {
+    "definition": "A court decree under which spouses live apart without the marriage being dissolved, with the court setting out maintenance and property arrangements.",
+    "term": "Judicial separation"
+   },
+   {
+    "definition": "A formal order of the court that grants a judicial separation or divorce.",
+    "term": "Decree"
+   },
+   {
+    "definition": "The spouse against whom an application for judicial separation is made.",
+    "term": "Respondent"
+   },
+   {
+    "definition": "One spouse leaving the other without reasonable cause and without the other's consent, for a continuous period.",
+    "term": "Desertion"
+   },
+   {
+    "definition": "A court order setting out when a parent who does not have custody may see a child.",
+    "term": "Access order"
+   },
+   {
+    "definition": "A court order deciding with whom a child lives and who is responsible for the child's upbringing.",
+    "term": "Custody order"
+   },
+   {
+    "definition": "A court order that divides or transfers property between spouses when the marriage is ending.",
+    "term": "Property adjustment"
+   },
+   {
+    "definition": "Adultery, unreasonable behaviour, and desertion for at least one year.",
+    "term": "Grounds for judicial separation under the 1989 Act"
+   },
+   {
+    "definition": "The Circuit Court or the High Court.",
+    "term": "Courts that can grant judicial separation"
+   },
+   {
+    "definition": "The marriage continues, so neither spouse can remarry.",
+    "term": "Status of spouses after judicial separation"
+   },
+   {
+    "definition": "Maintenance, property, custody and access orders.",
+    "term": "Orders that can accompany a judicial separation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Judicial separation is a court decree under which spouses live apart with the court's orders in place. It does not end the marriage.",
+    "h": "What judicial separation is (Higher Level only)",
+    "points": [
+     "A judicial separation decree means the spouses are no longer required to live together, and the court sets out the arrangements for their maintenance and property.",
+     "Because the marriage continues, neither spouse is free to remarry after a judicial separation.",
+     "The application is made to the Circuit Court or the High Court, which can both grant a judicial separation.",
+     "A judicial separation is a legal status that the court grants, unlike informal separation, which spouses agree between themselves without a court order."
+    ]
+   },
+   {
+    "h": "Grounds for judicial separation (Higher Level only)",
+    "points": [
+     "Adultery by the respondent spouse since the marriage.",
+     "Unreasonable behaviour by the respondent that makes it unreasonable for the applicant to continue living with them.",
+     "Desertion by the respondent for a continuous period of at least one year immediately before the application.",
+     "The applicant must establish one of the statutory grounds before the court can grant the decree."
+    ]
+   },
+   {
+    "h": "Orders the court can make (Higher Level only)",
+    "points": [
+     "Maintenance orders requiring one spouse to provide financial support for the other spouse and for the children.",
+     "Property orders that divide or transfer property between the spouses, including the family home.",
+     "Orders on the custody of children, which decide where a child lives and who has responsibility for their upbringing.",
+     "Access orders, which set out the arrangements for a parent who does not have custody to see the child.",
+     "Orders that can be made together with the decree, so that the financial and childcare arrangements are settled at the same time.",
+     "Maintenance orders made on judicial separation can later be varied by the court if the circumstances of either spouse change."
+    ]
+   },
+   {
+    "h": "Effects and comparison (Higher Level only)",
+    "points": [
+     "Judicial separation differs from divorce because divorce ends the marriage and allows both spouses to remarry, while judicial separation does not.",
+     "Legal separation is a binding agreement made between the spouses, whereas judicial separation is a decree made by the court.",
+     "Divorce, by contrast, requires the spouses to have lived apart for at least two of the previous three years (Family Law Act 2019), and it ends the marriage."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A judicial separation is a court decree that allows spouses to live apart, but it does not end the marriage. Because the marriage continues to exist in law, neither spouse is free to remarry. Only divorce ends the marriage and permits remarriage.",
+    "prompt": "Explain why a spouse cannot remarry after a judicial separation.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "The grounds include adultery by the respondent spouse since the marriage, unreasonable behaviour by the respondent that makes it unreasonable for the applicant to continue living with them, and desertion for a continuous period of at least one year immediately before the application. The application is made to the Circuit Court or the High Court. If the decree is granted, the marriage continues, so neither spouse may remarry. The court can make maintenance orders for the spouse and the children, property orders that divide or transfer property including the family home, custody orders deciding where a child lives, and access orders setting out contact arrangements for a parent without custody. These orders can be made together with the decree so that the arrangements are settled at the same time.",
+    "prompt": "Outline the grounds on which a spouse may seek judicial separation under the Judicial Separation and Family Law Reform Act 1989, and the orders a court may make.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-law-s5": {
+  "keyTerms": [
+   {
+    "definition": "A child who is assaulted, neglected or sexually abused, or whose basic needs are not being met by the family.",
+    "term": "Child at risk"
+   },
+   {
+    "definition": "A court order that places a child in care, away from the family home, for a long or short term.",
+    "term": "Care order"
+   },
+   {
+    "definition": "A court order allowing a child to stay at home while agency personnel visit to monitor their health and welfare.",
+    "term": "Supervision order"
+   },
+   {
+    "definition": "A short-term court order that allows a child to be removed to safety where there is an immediate risk.",
+    "term": "Emergency care order"
+   },
+   {
+    "definition": "A temporary court order made while the court considers a full care application.",
+    "term": "Interim care order"
+   },
+   {
+    "definition": "The failure to provide a child with the physical, emotional or educational care they need for healthy development.",
+    "term": "Neglect"
+   },
+   {
+    "definition": "The public body that carries out the Act's child protection functions and applies to the court for orders.",
+    "term": "Child welfare agency"
+   },
+   {
+    "definition": "Assault, neglect and sexual abuse.",
+    "term": "Forms of abuse named as a risk to a child"
+   },
+   {
+    "definition": "A care order removes the child from the family home; a supervision order keeps the child at home under monitoring.",
+    "term": "Difference between a care order and a supervision order"
+   },
+   {
+    "definition": "Child welfare agency personnel, who visit periodically to monitor the child's health and welfare.",
+    "term": "Who visits the child under a supervision order"
+   },
+   {
+    "definition": "Tusla, the Child and Family Agency, which applies to the court.",
+    "term": "Who applies for a care or supervision order"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Child Care Act 1991 makes provision for the care and protection of children, and it gives Tusla, the Child and Family Agency powers to act where a child is at risk.",
+    "h": "Purpose and the child at risk (Higher Level only)",
+    "points": [
+     "The Act places a duty on Tusla, the Child and Family Agency to promote the welfare of children who are not receiving adequate care and protection.",
+     "A child is at risk where they are assaulted, neglected or sexually abused, or where their physical, emotional or educational needs are not met.",
+     "The agency has power to intervene in a family situation where a child is deemed to be at risk.",
+     "The Act's protections support children in the family alongside the protection orders available under the Domestic Violence Act 2018."
+    ]
+   },
+   {
+    "h": "Emergency and interim measures (Higher Level only)",
+    "points": [
+     "An emergency care order is a short-term court order that allows a child to be removed to a safe place where there is an immediate risk.",
+     "An interim care order is a court order made while the court considers a full application, so that the child is protected in the meantime.",
+     "Emergency and interim orders are temporary, and the court must decide whether a longer order is needed."
+    ]
+   },
+   {
+    "h": "Care order (Higher Level only)",
+    "points": [
+     "A care order is made by the court on application by the agency where a child's welfare requires that they be placed in care.",
+     "A care order can place a child in care for a long or short term, away from the family home.",
+     "Once a care order is made, the agency takes responsibility for the child's care and decides where the child is placed, such as with foster carers or in a residential unit.",
+     "Removal from the family home under a care order is the most serious step the Act allows, so the court must be satisfied that the child's welfare requires it."
+    ]
+   },
+   {
+    "h": "Supervision order (Higher Level only)",
+    "points": [
+     "A supervision order is made by the court on application by the agency, so that the child can stay at home.",
+     "Under a supervision order, agency personnel can visit the child in the home periodically to monitor the child's health and welfare.",
+     "A supervision order allows the agency to support the family and keep the child at home while monitoring the risk.",
+     "A supervision order is the less intrusive option, because the child is not removed from the family home.",
+     "The court makes the decision on the evidence put before it by the agency, including whether the child's welfare requires removal or monitoring."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A care order is made by the court on application by the agency and places a child in care, away from the family home, for a long or short term. A supervision order allows the child to remain at home, and agency personnel visit periodically to monitor the child's health and welfare. The care order is the more intrusive of the two because it removes the child from the home.",
+    "prompt": "Explain the difference between a care order and a supervision order under the Child Care Act 1991.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "The Act gives Tusla, the Child and Family Agency a duty to promote the welfare of children who are not receiving adequate care and protection. A child is at risk where they are assaulted, neglected or sexually abused, and the agency can intervene in the family where a child is deemed to be at risk. Where the child needs immediate protection, an emergency care order allows removal to a safe place, and an interim care order protects the child while the full application is considered. A care order places the child in care for a long or short term and the agency then decides the placement. A supervision order allows the child to stay at home, with agency personnel visiting periodically to monitor health and welfare. The court must be satisfied that the child's welfare requires each order, and removal is the most serious step.",
+    "prompt": "Write an informative note on the protection the Child Care Act 1991 gives to children who are at risk within their families.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-family-law-s6": {
+  "keyTerms": [
+   {
+    "definition": "A person who makes a will, setting out how their estate is to be distributed after death.",
+    "term": "Testator"
+   },
+   {
+    "definition": "All the property, money and possessions a person owns at death, which is distributed under their will or under the rules of intestacy.",
+    "term": "Estate"
+   },
+   {
+    "definition": "The person named in a will to collect the estate, pay debts and distribute property as the will directs.",
+    "term": "Executor"
+   },
+   {
+    "definition": "A person or organisation who receives property or money under a will.",
+    "term": "Beneficiary"
+   },
+   {
+    "definition": "A document that amends an existing will, signed and witnessed in the same way as the will itself.",
+    "term": "Codicil"
+   },
+   {
+    "definition": "The mental capacity to understand what a will is and the effect it will have on the property it covers.",
+    "term": "Sound mind"
+   },
+   {
+    "definition": "A share of the estate that a surviving spouse is entitled to receive regardless of what the will says.",
+    "term": "Legal right"
+   },
+   {
+    "definition": "The testator must be over 18 years of age.",
+    "term": "Minimum age for making a valid will"
+   },
+   {
+    "definition": "Two witnesses, present at the same time, who sign in the presence of the testator.",
+    "term": "Number of witnesses needed for a will"
+   },
+   {
+    "definition": "The testator's marriage, unless the will was made in contemplation of that marriage.",
+    "term": "Event that revokes a will"
+   },
+   {
+    "definition": "List assets and debts, record beneficiaries, appoint an executor, allocate the estate, have it drawn up, sign and witness it, then store it safely.",
+    "term": "Steps in making a will"
+   },
+   {
+    "definition": "One-third of the estate.",
+    "term": "Spouse's legal right where there are children"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A will is a legal document, governed by the Succession Act 1965, in which a person (the testator) sets out how their property, known as the estate, is to be distributed after death.",
+    "h": "Why a will is important",
+    "points": [
+     "Without a will, the estate passes under fixed statutory rules that set the shares, and these may not match the person's wishes.",
+     "A will allows the testator to choose who receives each item of property and in what proportions.",
+     "A will names an executor, who collects the estate, pays the debts and distributes the property as the will directs.",
+     "Divorced parents who make a will can ensure that property passes to their children as they intend, and can change the will later if circumstances alter.",
+     "A clearly drawn will reduces the likelihood of disputes among family members over the estate."
+    ]
+   },
+   {
+    "h": "Legal requirements for a valid will",
+    "points": [
+     "The testator must be over 18 years of age.",
+     "The testator must be of sound mind, meaning able to understand what the will does and the property it covers.",
+     "The will must be in writing, and it must be signed by the testator or by someone signing at the testator's direction in their presence.",
+     "The will must be signed in the presence of two witnesses who are present at the same time.",
+     "The witnesses sign the will in the presence of the testator, and a witness who is also a beneficiary loses any gift made to them under the will."
+    ]
+   },
+   {
+    "h": "Procedure for making a will",
+    "points": [
+     "Step 1: list all assets, such as property, savings, investments and personal possessions, and any debts.",
+     "Step 2: record the full names and addresses of the beneficiaries and the item or share each is to receive.",
+     "Step 3: appoint an executor, who should be willing to act and trusted to carry out the terms.",
+     "Step 4: allocate the estate and any specific gifts, including provision for any funeral arrangements the testator wishes to make.",
+     "Step 5: have the will formally drawn up, often by a solicitor, then signed and witnessed in the required way.",
+     "Step 6: store the signed will safely and tell the executor where it is kept."
+    ]
+   },
+   {
+    "h": "Changing or revoking a will",
+    "points": [
+     "A will is revoked by the testator's marriage, unless the will was made in contemplation of that marriage.",
+     "A change to an existing will can be made by a codicil, which must be signed and witnessed in the same way as the original will.",
+     "A new will that expressly revokes an earlier will replaces it entirely."
+    ]
+   },
+   {
+    "h": "Limits on what a will can do",
+    "points": [
+     "A surviving spouse has a legal right to a share of the estate that the will cannot remove: one-half where there are no children, and one-third where there are children.",
+     "Executors apply for a grant of probate, which confirms the will and gives the executor authority to deal with the estate."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A will ensures that property and personal items pass to the children and other beneficiaries as the parent intends, rather than under fixed statutory rules. It allows the parent to appoint an executor to collect the estate and carry out the wishes. The will can be changed later if circumstances alter, and a clear will reduces the risk of disputes among family members.",
+    "prompt": "Explain why it is particularly important for divorced parents to make a will.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "A will allows a person to decide who receives their estate and in what shares, and to appoint an executor to carry out their wishes. Without a will, fixed statutory rules set the shares and may not match the person's intentions. The testator must be over 18 and of sound mind. The procedure begins by listing the assets and debts and recording the beneficiaries. An executor is appointed and the estate is allocated, including any specific gifts. The will is then drawn up, often by a solicitor, signed in writing and witnessed by two witnesses present together, who sign in the testator's presence. The signed will should be stored safely and the executor told where it is kept. A later marriage revokes the will unless it was made in contemplation of that marriage, so the will should be reviewed.",
+    "prompt": "Outline the importance of making a will and the procedure involved in making a valid will.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-family-society-s1": {
   "keyTerms": [
    {
@@ -12774,6 +14336,568 @@
    }
   ]
  },
+ "hom-home-interior-s1": {
+  "keyTerms": [
+   {
+    "definition": "The visual building blocks of a room: line, shape and form, colour, pattern, texture and light.",
+    "term": "Elements of design"
+   },
+   {
+    "definition": "Guidelines for arranging the elements of design so that a room looks balanced, harmonious and attractive.",
+    "term": "Principles of design"
+   },
+   {
+    "definition": "The size relationship between the parts of a room, including furniture, windows and wall areas, and the room itself.",
+    "term": "Proportion"
+   },
+   {
+    "definition": "The feature that the eye goes to first, created by emphasis through colour, lighting, pattern or furniture placement.",
+    "term": "Focal point"
+   },
+   {
+    "definition": "A tint has white added to a colour, a tone has grey added, and a shade has black added.",
+    "term": "Tint, tone and shade"
+   },
+   {
+    "definition": "A scheme that pairs two colours opposite each other on the colour wheel, giving strong contrast.",
+    "term": "Complementary colour scheme"
+   },
+   {
+    "definition": "The design of a room and its fittings so that they suit how people move, reach and work.",
+    "term": "Ergonomics"
+   },
+   {
+    "definition": "The arrangement of the sink, cooker and fridge at three points of an imaginary triangle to shorten movements in the kitchen.",
+    "term": "Work triangle"
+   },
+   {
+    "definition": "The routes people take through a room, which should be kept clear of furniture and obstacles.",
+    "term": "Traffic flow"
+   },
+   {
+    "definition": "Red, orange and yellow. They advance visually and make a room feel cosy.",
+    "term": "Three warm colours"
+   },
+   {
+    "definition": "Blue, green and violet. They recede visually and make a room feel spacious and calm.",
+    "term": "Three cool colours"
+   },
+   {
+    "definition": "Linking rooms, altering the apparent proportions of a room, highlighting good features and creating atmosphere.",
+    "term": "Four uses of colour in a room"
+   },
+   {
+    "definition": "The sink, the cooker and the fridge.",
+    "term": "Three things linked by the work triangle"
+   },
+   {
+    "definition": "Wider doorways, clear turning space, lowered worktops, and lowered switches and sockets.",
+    "term": "Four modifications for a wheelchair user in a room"
+   },
+   {
+    "definition": "Use pale colours that reflect light, add a large mirror, and choose furniture that is in proportion to the room.",
+    "term": "Three ways to make a small room appear larger"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The elements of design are the visual building blocks of a room: line, shape and form, colour, pattern, texture and light.",
+    "h": "Elements of design: line and shape",
+    "points": [
+     "Line is the path the eye follows; horizontal lines make a room feel wider and calmer, while vertical lines make it feel taller.",
+     "Lines come from skirting boards, picture rails, curtain edges, cabinet edges and the joints between tiles or floorboards.",
+     "Shape is the two-dimensional outline of an object or area; form is its three-dimensional volume, such as the bulk of a sofa.",
+     "Rounded shapes look soft and informal, while angular shapes look crisp and formal."
+    ]
+   },
+   {
+    "h": "Elements of design: colour",
+    "points": [
+     "Primary colours are red, yellow and blue; they cannot be made by mixing other colours.",
+     "Secondary colours are orange, green and violet, each made by mixing two primaries.",
+     "Tertiary colours are made by mixing a primary with a neighbouring secondary colour.",
+     "Warm colours (red, orange and yellow) advance visually and make a room feel cosy; cool colours (blue, green and violet) recede and make a room feel spacious and calm.",
+     "A tint is a colour with white added, a tone has grey added, and a shade has black added.",
+     "A monochromatic scheme uses tints, tones and shades of a single colour.",
+     "A complementary scheme pairs colours opposite each other on the colour wheel, such as blue and orange, for contrast.",
+     "A harmonious (analogous) scheme uses colours that sit next to each other on the wheel, such as green, blue and violet, for a restful effect.",
+     "Pale colours reflect more light and make a room appear larger; dark colours absorb light and make a room appear smaller and more intimate.",
+     "An accent colour is a strong colour used in small amounts, such as cushions or a single wall, to draw the eye."
+    ]
+   },
+   {
+    "h": "Elements of design: pattern and texture",
+    "points": [
+     "Pattern is a repeated or decorative design, such as stripes, checks, florals or geometric motifs.",
+     "Large-scale patterns dominate a room and make it feel busy; small-scale patterns recede and create a calmer effect.",
+     "Patterns linked by a shared colour, texture or motif tie a room together; too many patterns make a room fussy.",
+     "Texture is the surface quality of a material, perceived by touch and by the way light falls on it.",
+     "Smooth textures such as glass, mirror, glazed tile, paint and polished steel look cool and are easy to keep hygienic, so they suit kitchens and bathrooms.",
+     "Rough or soft textures such as carpet, upholstery, brick and textured wallpaper add warmth and comfort to a sitting room.",
+     "Matt surfaces absorb light and hide surface flaws, while gloss surfaces reflect light and show marks.",
+     "Contrasting textures, such as smooth glass beside rough wool, add interest without adding colour."
+    ]
+   },
+   {
+    "h": "Principles of design: proportion, scale, balance, emphasis and rhythm",
+    "points": [
+     "Proportion is the size relationship between a room's parts, such as furniture, windows, doors and wall areas, and the room itself.",
+     "Scale is the size of one object relative to the room around it; oversized furniture in a small room makes the room look crowded.",
+     "Formal balance is symmetrical, with matching items placed either side of a central point, such as a pair of lamps beside a fireplace.",
+     "Informal balance places items of different shapes but similar visual weight on either side of a room.",
+     "Balance creates harmony, so that no single feature dominates and colour, pattern and texture are shared out evenly.",
+     "Emphasis creates a focal point: the feature the eye goes to first, such as a fireplace, a window view or a large painting.",
+     "A focal point can be created with colour, lighting, a strong pattern or the position of furniture.",
+     "A room works best with one focal point; two or more features competing for attention make the room feel disjointed.",
+     "Rhythm is created by repeating a colour, shape, line, pattern or texture so that the eye moves easily around the room.",
+     "Repeating a cushion colour on the sofa and in a rug, for example, links the two areas and carries the eye across the room."
+    ]
+   },
+   {
+    "b": "Evaluate a room by naming each element used, then checking whether each principle is achieved and where it fails.",
+    "h": "Applying the elements and principles to a room",
+    "points": [
+     "Start from the room's function, such as a living room for relaxing and watching television, and choose a colour scheme that suits that function.",
+     "Place the focal point first, then arrange seating and storage so that the focal point is visible from the main entrance.",
+     "Use proportion to choose furniture: a large sofa suits a large room, while a small room suits low, slim pieces.",
+     "Diagram: a labelled plan of one room showing furniture placement, windows, doors, radiator, the focal point and the main traffic route."
+    ]
+   },
+   {
+    "h": "Aesthetic and comfort factors",
+    "points": [
+     "Aesthetic factors are the occupants' personal taste, current trends and the style of the house, which together set the look of a room.",
+     "Trends change quickly, so a room decorated to the latest fashion can date within a few years; neutral base colours with accessories that are easy to change avoid this.",
+     "Comfort depends on heating, lighting and ventilation, so a room needs to be warm, well lit and able to be aired.",
+     "Comfort also depends on the room's function, its aspect, the space available and the layout of the room.",
+     "A north-facing room receives little direct sunlight, so warm colours help to make it feel bright and cosy.",
+     "Work and relaxation zones should be separated, so that a family member working or studying is not disturbed by people watching television."
+    ]
+   },
+   {
+    "h": "Ergonomics",
+    "points": [
+     "Ergonomics is the design of a room so that its layout suits how people move, reach and work.",
+     "The work triangle places the sink, cooker and fridge at the three points of an imaginary triangle, so that movements between them are short and efficient.",
+     "Work zones group related tasks: preparation, cooking, washing up and storage, arranged in the order they are carried out.",
+     "Traffic flow should keep the main routes through a room clear of furniture, so that no one has to walk around a sofa or across a doorway.",
+     "Storage and work surfaces should sit at heights that avoid bending and stretching, with frequently used items between shoulder and knee height.",
+     "Work surfaces with few joints and crevices are quicker to clean and resist the build-up of food and dirt."
+    ]
+   },
+   {
+    "h": "Family circumstances and special needs",
+    "points": [
+     "Family size and stage determine the number of bedrooms, the storage needed and the amount of living space required.",
+     "Young children need safe, easy-to-clean surfaces, rounded furniture edges and a play area that can be supervised from the kitchen.",
+     "Teenagers may need a study area with good lighting and a door that gives privacy.",
+     "A home office or hobby space affects the layout when a family member works from home or pursues a craft.",
+     "Future needs should be allowed for, such as a room that can later become a bedroom or an attic that can be converted.",
+     "A wheelchair user needs wider doorways, clear turning space, lowered worktops and lowered switches and sockets.",
+     "Level thresholds and ramps remove steps at entrances; grab rails and a raised toilet help people with limited mobility.",
+     "Easy-to-operate fittings such as lever handles and easy-close curtains suit people with weak grip or limited strength.",
+     "Good contrast between floor, walls and furniture helps a person with poor sight to find doorways, steps and edges.",
+     "Non-slip floor finishes and good lighting on stairs and in bathrooms reduce the risk of falls."
+    ]
+   },
+   {
+    "h": "Cost",
+    "points": [
+     "Budget covers the initial purchase, fitting and maintenance of each item, and running costs where an item uses energy or water.",
+     "A limited budget can still produce a good design by choosing one focal point and spending most of the money on it.",
+     "Painting walls and updating soft furnishings changes a room's style at much lower cost than replacing furniture or flooring.",
+     "Cheaper materials may wear out sooner, so their true cost includes how often they will need replacing.",
+     "Buying in stages allows a room to be completed as money becomes available, provided the first purchases fit the final plan."
+    ]
+   },
+   {
+    "h": "Environmental awareness",
+    "points": [
+     "Choose timber from sustainably managed forests, and natural or recycled materials where they perform the job well.",
+     "Low-emission paints reduce the release of volatile organic compounds into the air of the room.",
+     "Reuse and repurposing, such as restoring an old wooden dresser, avoid the energy and waste involved in making replacements.",
+     "Energy-efficient LED or CFL lighting uses less electricity than traditional bulbs and lasts longer.",
+     "Light colours and well placed windows reduce the need for artificial lighting during the day.",
+     "Durable furniture and finishes that last many years have a smaller environmental impact than cheap items replaced often."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Three elements named, one mark each: for example colour, pattern and texture, or line, shape and form. Description (3 marks): pale or cool colours on the walls reflect light and make the room appear larger; horizontal lines and a plain pattern also keep the room from feeling crowded. Alternative: vertical stripes make a low room appear taller.",
+    "prompt": "Name three elements of design and describe how one of them can change the apparent size of a small room.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Comfort (up to 6 marks): warm and well lit room with good ventilation; comfortable seating at a suitable height and depth; soft textures such as rugs and upholstery for warmth; cosy colours and a focal point such as a fireplace or window view. Layout (up to 6 marks): clear traffic routes between the door, seating and grandparent's chair; furniture kept away from doorways; work or play zones separated; low, rounded furniture edges and secure, non-slip rugs for young children; room large enough for a walking frame to turn. Family needs (up to 6 marks): storage for toys and books kept at child height and out of reach of the grandparent's frequently used items; easy-clean upholstery and surfaces; lighting that is bright enough for reading and safe on the stairs; room that can accommodate future changes in needs. Application of principles such as balance and emphasis is credited where the answer shows how each decision was made.",
+    "prompt": "A family with two young children and a grandparent who uses a walking frame is redesigning its living room. Discuss the interior design decisions they should make, referring to the comfort of the room, its layout and the needs of each family member.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-interior-s2": {
+  "keyTerms": [
+   {
+    "definition": "A concrete slab laid on hardcore with a damp-proof membrane and a screed finish, usually found at ground level in modern homes.",
+    "term": "Solid floor"
+   },
+   {
+    "definition": "A floor of joists carrying boards, with an air space beneath that prevents dampness, usually found on upper floors.",
+    "term": "Suspended floor"
+   },
+   {
+    "definition": "A hard-wearing, easy-to-clean floor covering made from polyvinyl chloride, a plastic developed from petroleum.",
+    "term": "Vinyl"
+   },
+   {
+    "definition": "A layer laid beneath carpet that adds cushioning and insulation and extends the life of the carpet.",
+    "term": "Carpet underlay"
+   },
+   {
+    "definition": "A sealed-edge square of carpet backed with PVC or rubber, which can be replaced individually if damaged.",
+    "term": "Carpet tile"
+   },
+   {
+    "definition": "A plain paper applied to a wall before decoration to provide a smooth, even surface.",
+    "term": "Lining paper"
+   },
+   {
+    "definition": "A washable water-based paint with a slight sheen, suitable for rooms that need frequent cleaning.",
+    "term": "Silk vinyl emulsion"
+   },
+   {
+    "definition": "A blind with adjustable horizontal slats that control the amount of light and privacy in a room.",
+    "term": "Venetian blind"
+   },
+   {
+    "definition": "Ceramic tiles are hard-wearing and easy to clean; slate is hard-wearing and warm underfoot; marble chips easily and is cold underfoot.",
+    "term": "Three hard floor coverings with a property each"
+   },
+   {
+    "definition": "Carpet and carpet tiles. Both are soft and warm underfoot and absorb sound.",
+    "term": "Two soft floor coverings"
+   },
+   {
+    "definition": "Durable, low maintenance and attractive, but noisy, cold underfoot and easily scratched.",
+    "term": "Three properties of wood flooring"
+   },
+   {
+    "definition": "Function of the room, durability, washability and cost.",
+    "term": "Four factors when choosing wall finishes"
+   },
+   {
+    "definition": "They insulate the window and stop draughts.",
+    "term": "Two things lined curtains do for a window"
+   },
+   {
+    "definition": "They add colour, pattern and texture; create warmth and cosiness; and update the room's style at low cost.",
+    "term": "Three ways soft furnishings enhance a room"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The floor covering must suit the structure beneath it, so the type of floor is checked before a covering is chosen.",
+    "h": "Floor structures and what they mean for the covering",
+    "points": [
+     "A solid floor is a concrete slab laid on hardcore with a damp-proof membrane, finished with a thin screed; it is usually found on the ground floor of modern homes.",
+     "A suspended floor is made of timber or concrete joists carrying tongue-and-groove boards, with an air space beneath that lets moisture escape; it is usually found on upper floors.",
+     "A damp-proof course in a suspended floor can be added to prevent dampness reaching the boards.",
+     "Gaps and loose boards in a suspended timber floor must be fixed before a new covering is laid."
+    ]
+   },
+   {
+    "h": "Hard floor coverings",
+    "points": [
+     "Ceramic tiles are made from clay and minerals, can be glazed or unglazed, and come in many sizes and shapes.",
+     "Ceramic tiles are hard-wearing, easy to clean, stain resistant and resistant to water, but they are cold and hard underfoot and can crack or chip if something heavy falls on them.",
+     "Quarry tiles are unglazed clay tiles that are hard-wearing and suit hallways and kitchens.",
+     "Flagstones are cut natural stone with uneven textures and natural colours; they are hard-wearing but cold underfoot and chip easily.",
+     "Slate is a fine-grained, foliated metamorphic rock; it is hard-wearing, warm underfoot, slightly absorbent and easy to clean.",
+     "Marble and travertine are refined from limestone into tiles and slabs, with flecks of colour; they are attractive but chip easily and are cold underfoot.",
+     "Mosaics are made of glass, metal, resin and stone in varied textures and colours; they are decorative and hard-wearing.",
+     "Safety flooring is a slip-resistant vinyl covering, used where slipping is a risk such as in bathrooms and hospitals."
+    ]
+   },
+   {
+    "h": "Semi-hard floor coverings",
+    "points": [
+     "Strip wood flooring is made of tongue-and-groove boards of hardwood such as oak or beech, or softwood such as pine or spruce.",
+     "Block parquet is made of blocks of hardwood laid in a herringbone pattern, and mosaic floors use blocks laid in a basket-weave pattern.",
+     "Wood flooring is attractive, durable and low maintenance, and most boards are sold ready sealed.",
+     "Wood flooring is noisy, cold underfoot, and marked or scratched easily; softwood boards dent more readily than hardwood.",
+     "Laminated wood flooring has a plastic veneer over the wood, is hard-wearing and low maintenance, but is hard underfoot and may scratch.",
+     "Vinyl is made from polyvinyl chloride (PVC), a plastic developed from petroleum, mixed with resin, plasticiser and pigment.",
+     "Vinyl is durable, quiet, easy to clean and resistant to water, acids and alkalis, and it comes in sheets or tiles in many colours and designs.",
+     "Foam-backed vinyl is softer and warmer underfoot, and it may scorch or melt if exposed to high heat.",
+     "Linoleum is a natural floor covering made from linseed oil, cork dust and resin on a jute backing, and it is resilient and quiet underfoot.",
+     "Cork is made from granules of the bark of the cork oak bonded with polyurethane resin; it is warm and quiet underfoot but not very hard-wearing.",
+     "Coir is made from coconut fibre and sisal from the fibre of an agave plant; both are tough, hard-wearing and easy to clean."
+    ]
+   },
+   {
+    "h": "Soft floor coverings",
+    "points": [
+     "Carpet is soft, warm and resilient underfoot, insulates against heat and absorbs sound.",
+     "Carpet needs regular vacuuming and is expensive compared with hard floors.",
+     "Woven Axminster carpets have a cut pile and allow an almost unlimited range of colours and designs.",
+     "Woven Wilton carpets are thicker than Axminster but limit the number of colours.",
+     "Tufted carpets have tufts inserted into a woven backing, held in place with adhesive and usually backed with foam.",
+     "Carpets made of 80 per cent wool and 20 per cent nylon combine the warmth and resilience of wool with the durability of nylon.",
+     "Carpet tiles are sealed-edge squares backed with PVC or rubber; a damaged tile can be replaced individually, but the range of colours and patterns is limited.",
+     "Underlay sits beneath carpet, adding cushioning and insulation and extending the life of the carpet.",
+     "Rugs are loose and can be moved, but they need a non-slip backing to prevent slipping on hard floors."
+    ]
+   },
+   {
+    "h": "Choosing a floor covering",
+    "points": [
+     "Function and traffic decide durability: hallways and kitchens need hard-wearing surfaces, while bedrooms can take soft coverings.",
+     "Subfloor condition must be checked, as a poor subfloor will show through thin coverings and make laying difficult.",
+     "Warmth underfoot matters in bedrooms and bathrooms; cold surfaces such as tile or stone can be made warmer with underfloor heating or rugs.",
+     "Maintenance and cleaning: a sealed or non-porous covering is easier to keep clean than an unsealed one.",
+     "Noise is reduced by soft coverings and by underlay, which is important in flats and upper-floor rooms.",
+     "Cost includes the purchase price, laying and upkeep, so a cheaper covering that needs frequent replacement may cost more over time."
+    ]
+   },
+   {
+    "h": "Wall finishes",
+    "points": [
+     "Emulsion paint is water-based, quick drying, easy to apply and inexpensive, and is available in a wide variety of colours and shades.",
+     "Silk vinyl emulsion is a washable emulsion with a slight sheen, suitable for children's rooms, kitchens and hallways.",
+     "Gloss paint reflects light and is washable; it is often used on woodwork and in kitchens and bathrooms.",
+     "Matt paint absorbs light and hides surface flaws, but it marks more easily and is harder to wipe clean.",
+     "Wallpaper can be paper or vinyl; vinyl wallpaper is washable and hard-wearing, and it can be patterned or textured.",
+     "Lining paper is a plain paper applied before paint or wallpaper to give a smooth, even surface.",
+     "Ceramic wall tiles are waterproof and easy to clean, which makes them suitable for behind sinks, cookers and in showers.",
+     "Panelling in wood or medium-density fibreboard adds texture and warmth to a wall.",
+     "Stencils and motifs can be added to a painted wall to add decoration, and textured paints create a rough finish."
+    ]
+   },
+   {
+    "h": "Choosing wall finishes",
+    "points": [
+     "The function of the room decides the finish: a hallway needs a washable surface, while a bedroom can have a matt, softer finish.",
+     "Durability depends on traffic flow and the age of the occupants, since young children are more likely to mark walls.",
+     "The size and shape of a room and the condition of its walls affect the choice; damaged walls may need filling or lining before decoration.",
+     "Light reflectance: gloss and pale finishes reflect light and brighten a room, while matt and dark finishes absorb it.",
+     "Maintenance and cleaning: a washable finish saves time and cost over the life of the wall.",
+     "Budget must cover materials and professional labour, which adds to the cost of tiling and wallpapering.",
+     "Environmental impact: water-based paints release fewer volatile organic compounds than solvent-based paints."
+    ]
+   },
+   {
+    "h": "Choosing furniture",
+    "points": [
+     "Furniture style may be antique, traditional or contemporary, and the choice should suit the room's décor and the occupants' preferences.",
+     "Space available determines the size of each piece; the room, doors and stairs should be measured before purchase.",
+     "Freestanding furniture can be moved and replaced easily, while built-in units make best use of alcoves and awkward spaces.",
+     "Comfort and ergonomics: seat height and depth should suit the people who will use the furniture, and adjustable furniture suits people with special needs.",
+     "Construction and quality: the frame, joints and fixings show how long a piece will last, and solid timber is more durable than chipboard.",
+     "Safety labels, quality marks and guarantees indicate that a product has been tested and is backed by the manufacturer.",
+     "Budget: a well-made piece costs more initially but lasts longer, so cost must be weighed against quality."
+    ]
+   },
+   {
+    "h": "Storage furniture",
+    "points": [
+     "Storage furniture includes wall units, filing cabinets, TV cabinets, furniture chests, toy boxes and storage boxes and baskets.",
+     "Modular units can be combined in different arrangements, while flat-pack furniture is supplied for home assembly and is usually cheaper.",
+     "Storage keeps a room tidy, conceals clutter and makes items easy to find.",
+     "Display shelves show photographs, trophies and ornaments, which enhances the appearance of a room."
+    ]
+   },
+   {
+    "h": "Soft furnishings",
+    "points": [
+     "Soft furnishings include curtains, blinds, cushions, throws, rugs, bed linen and upholstery fabrics.",
+     "Curtain fabric should drape well and be pre-shrunk, fade resistant and flame resistant, and it should be durable enough for repeated opening and closing.",
+     "Lined curtains insulate a window and stop draughts, which reduces heat loss from a room.",
+     "Roller blinds roll up neatly and suit small windows; Venetian blinds have adjustable slats that control the amount of light entering a room.",
+     "Cushion fabric should be strong, cleanable and stain resistant.",
+     "Bed linen should be smooth, closely woven, absorbent, easy to launder and shrink resistant.",
+     "Natural fibres such as wool absorb moisture from the air, which helps to reduce condensation in a damp room.",
+     "Soft furnishings add colour, pattern and texture, create warmth and cosiness, form focal points and update a room's style economically."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Hard floor covering named with one property (3 marks): laminated wood flooring, hard-wearing and low maintenance; or vinyl, durable and easy to clean. Soft floor covering named with one property (3 marks): carpet, soft and warm underfoot and absorbs sound; or carpet tiles, warm and replaceable individually.",
+    "prompt": "Name one hard and one soft floor covering suitable for a bedroom, and give one property of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Floor covering (up to 8 marks): a covering suited to a suspended timber floor, such as carpet on underlay or a laminated or engineered wood covering, with the subfloor checked first for gaps and loose boards; justification refers to warmth and softness for a toddler, a soft surface reducing injury from falls, sound absorption, cost of purchase and laying, and ease of cleaning spills and stains. Wall finish (up to 8 marks): a washable silk vinyl emulsion or vinyl wallpaper, which resists marking and can be wiped clean; justification refers to durability against a toddler's handling, low cost compared with tile, easy application, and a matt or pale finish that suits the room's light. Overall decision (up to 2 marks): the recommendations are consistent with the function of the room and the budget.",
+    "prompt": "A young couple are furnishing the living room of a house with a suspended timber floor. The room will also be used as a play area for a toddler. Recommend a floor covering and a wall finish for the room, and justify each recommendation with reference to durability, safety, cost and maintenance.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-home-interior-s3": {
+  "keyTerms": [
+   {
+    "definition": "A plastic that softens when heated, can be moulded and remoulded, and hardens again when it cools.",
+    "term": "Thermoplastic"
+   },
+   {
+    "definition": "A plastic that sets hard on first moulding and cannot be softened and remoulded by heating.",
+    "term": "Thermosetting plastic"
+   },
+   {
+    "definition": "A material made of long chains of repeated molecular units, from which plastics and many fibres are made.",
+    "term": "Polymer"
+   },
+   {
+    "definition": "Glass that has been heat treated to shatter into small blunt pieces when broken, making it safer than ordinary glass.",
+    "term": "Toughened glass"
+   },
+   {
+    "definition": "Two sheets of glass bonded with a plastic interlayer so that the glass holds together when broken.",
+    "term": "Laminated glass"
+   },
+   {
+    "definition": "Glass with a thin coating that reduces the heat escaping through a window while still letting light through.",
+    "term": "Low-emissivity glass"
+   },
+   {
+    "definition": "A thin layer of attractive hardwood glued over a cheaper core material.",
+    "term": "Veneer"
+   },
+   {
+    "definition": "A manufactured board made from wood chips bonded with resin, which is cheap but weak when wet.",
+    "term": "Chipboard"
+   },
+   {
+    "definition": "A steel containing chromium that resists corrosion and is easy to keep hygienic.",
+    "term": "Stainless steel"
+   },
+   {
+    "definition": "Melamine formaldehyde for cups, plates and laminated worktops; phenol formaldehyde for washing machine paddles; Bakelite for light switches and telephones.",
+    "term": "Three thermosetting plastics and their uses"
+   },
+   {
+    "definition": "It shatters into small blunt pieces when broken, and it withstands heat and stress better than ordinary glass.",
+    "term": "Two properties of toughened glass"
+   },
+   {
+    "definition": "Cotton, linen, wool and silk.",
+    "term": "Four natural fibres used in fabrics"
+   },
+   {
+    "definition": "Floors, stairs and furniture.",
+    "term": "Three uses of solid hardwood in the home"
+   },
+   {
+    "definition": "It resists corrosion and is easy to clean and keep hygienic.",
+    "term": "Why stainless steel suits kitchens"
+   },
+   {
+    "definition": "It is warm and insulating, but it can shrink or felt if washed incorrectly.",
+    "term": "Two properties of wool in soft furnishings"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Each material is judged against the room's use and the household's needs before it is chosen.",
+    "h": "Criteria for selecting materials (Higher Level only)",
+    "points": [
+     "Durability: resistance to wear, impact, moisture and heat determines how long a material will last in a given room.",
+     "Cost: the purchase price, fitting costs and upkeep over the life of the material all count.",
+     "Appearance and texture: the material must suit the style, colour scheme and décor of the room.",
+     "Ease of cleaning and maintenance: non-porous, sealed or washable materials need less upkeep.",
+     "Safety in use: slip resistance on floors, safe edges on furniture and toughened or laminated glass where people could be injured.",
+     "Insulation: poor conductors such as wood, plastics and fabric feel warmer to touch and reduce heat loss; good conductors such as metal feel cold.",
+     "Environmental impact: the source of the material, how far it travels, whether it can be recycled and how long it lasts."
+    ]
+   },
+   {
+    "h": "Wood (Higher Level only)",
+    "points": [
+     "Solid hardwoods such as ash, beech, elm, oak, mahogany, rosewood and walnut are expensive, durable and resistant to decay and warping.",
+     "Solid hardwoods are used for floors, stairs, furniture, doors, architraves, windows, skirting boards and decking.",
+     "Softwoods such as pine and spruce are cheaper and easier to work, but they dent and scratch more readily than hardwoods.",
+     "Wood is a natural material that shrinks, swells and warps with changes in humidity, so it must be well seasoned before use.",
+     "Varnish, lacquer or sealant protects wood from moisture and wear and keeps its surface easy to clean.",
+     "Veneer is a thin layer of attractive hardwood glued over a cheaper core, giving the look of solid wood at lower cost.",
+     "Plywood is made of thin wood layers glued together with the grain of each layer at right angles to the next, which makes it strong and stable.",
+     "Medium-density fibreboard (MDF) is made from wood fibres bonded with resin; it has a smooth surface that takes paint well but swells if it gets wet.",
+     "Chipboard is made from wood chips bonded with resin; it is cheap and widely used for kitchen units, but it is weak when wet."
+    ]
+   },
+   {
+    "h": "Metal (Higher Level only)",
+    "points": [
+     "Metals used in the home include steel, stainless steel, aluminium, copper, brass and cast iron.",
+     "Metals are strong and hard-wearing, and they are good conductors of heat and electricity.",
+     "Ordinary steel rusts unless it is coated or painted; stainless steel contains chromium, which resists corrosion, so it is easy to keep hygienic.",
+     "Stainless steel is used for sinks, worktops, cooker hoods and appliance fronts in kitchens.",
+     "Aluminium is lightweight and resists corrosion because it forms a protective oxide layer; it is used for window frames and fittings.",
+     "Copper is malleable and a good conductor, so it is used for hot water pipes and cylinders.",
+     "Brass is an alloy of copper and zinc that resists corrosion and is used for taps, door handles and other decorative fittings.",
+     "Cast iron is heavy and brittle; it is used for fireplaces, radiators and cooking pots."
+    ]
+   },
+   {
+    "h": "Glass (Higher Level only)",
+    "points": [
+     "Float glass is smooth and transparent and is the basic glass used in windows and in mirrors, which are made by coating it with a reflective layer.",
+     "Toughened glass is heat treated so that it shatters into small blunt pieces when broken; it is used for shower screens, glass doors and low-level glazing.",
+     "Laminated glass is two sheets bonded with a plastic interlayer, so that it holds together when broken and resists break-ins.",
+     "Double glazing has two panes with a sealed gap of air or argon, which reduces heat loss and noise.",
+     "Low-emissivity (low-E) glass has a thin coating that reduces heat escaping through the window while still letting in light.",
+     "Frosted or patterned glass lets light through while obscuring the view, which suits bathrooms and hall doors.",
+     "Glass bricks refract light, bending it as it passes through, and frosted glass diffuses light so that it spreads evenly across the room.",
+     "Glass is non-porous, hygienic and easy to clean, but it is brittle and single glazing conducts heat poorly."
+    ]
+   },
+   {
+    "h": "Plastics (Higher Level only)",
+    "points": [
+     "Plastics are made from polymers, which are long chains of molecules; they are lightweight, easy to clean and easily coloured.",
+     "Thermoplastics soften when heated, can be moulded and remoulded, and harden again when cooled; they are damaged by solvents but not by most acids and alkalis.",
+     "Polyethylene is a thermoplastic used for food containers, bottles and toys.",
+     "PTFE, also called Teflon, is a thermoplastic with a non-stick finish used on saucepans and frying pans.",
+     "Polyvinyl chloride (PVC) is a thermoplastic used for vinyl floor coverings, wall coverings and pipes.",
+     "Thermosetting plastics are hard and rigid and cannot be remoulded once set; they withstand high temperatures but blister and crack if overheated.",
+     "Thermosetting plastics are damaged by strong acids and alkalis but not by solvents.",
+     "Melamine formaldehyde is a thermosetting plastic used for cups, plates, saucers and laminated worktops.",
+     "Phenol formaldehyde is a thermosetting plastic used for the interior paddles of top-loading washing machines.",
+     "Bakelite is a thermosetting plastic used for light switches, telephones, utensil handles and cooker control knobs."
+    ]
+   },
+   {
+    "h": "Fabric (Higher Level only)",
+    "points": [
+     "Cotton is absorbent and washable, but it creases easily and shrinks unless it is pre-shrunk.",
+     "Linen is strong and absorbent and feels cool to touch, but it creases easily.",
+     "Wool is warm, resilient and insulating, but it can shrink or felt if washed incorrectly.",
+     "Silk is soft and lustrous and drapes well, but it is delicate and expensive.",
+     "Polyester is strong, resists creasing and dries quickly, and it is often blended with cotton to combine comfort and durability.",
+     "Nylon is very strong and resists abrasion, which makes it suitable for carpets and upholstery that receive heavy wear.",
+     "Acrylic is a man-made fibre that feels like wool, takes bright colours and resists fading in sunlight.",
+     "Woven fabrics are stable and strong, while knitted fabrics stretch and recover their shape."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two thermoplastics identified, 1 mark each (for example polyethylene, PTFE or PVC). Property of each stated, 2 marks each: softens when heated and can be moulded and remoulded; hardens again on cooling. Non-stick finish for PTFE, flexible and resistant to acids and alkalis for PVC, or lightweight and used for food containers for polyethylene, as applicable.",
+    "prompt": "Identify two thermoplastics used in the home and state one property of each.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Kitchen storage unit (up to 12 marks): a manufactured board such as plywood or moisture-resistant board is suitable for a unit that carries a load and is exposed to moisture; plywood is strong and stable, while chipboard is cheap but weak when wet and swells if water enters the joints, so it should be sealed or edged. Solid hardwood is durable and attractive but expensive and can warp in the humidity of a kitchen unless well seasoned and finished. Bedroom wardrobe (up to 12 marks): solid hardwood or veneered board gives a good appearance in a bedroom and suits a finished piece; solid hardwood resists warping and decay and is durable, but cost is high; MDF takes paint well for a smooth painted finish at lower cost but swells if it gets wet, which is less of a concern in a bedroom. The choice in each case is justified by the function and environment of the item.",
+    "prompt": "A householder is choosing materials for two items: a kitchen storage unit and a fitted wardrobe in a bedroom. Compare the suitability of solid hardwood and a manufactured board for each item, justifying your choice with reference to durability, resistance to moisture, cost and appearance.",
+    "type": "short"
+   }
+  ]
+ },
  "hom-lipids-s1": {
   "keyTerms": [
    {
@@ -13594,6 +15718,478 @@
     "marks": 20,
     "model": "Vegetable oil is extracted and refined, then hydrogen is added at the double bonds using a nickel catalyst to produce a semi-solid fat. The oils are blended and the water phase is prepared with milk or water, salt, colour, flavour, and vitamins A and D. Lecithin is added as an emulsifier, and the emulsion is churned and chilled in a votator to form a plastic fat. The margarine is weighed and packed in foil or plastic tubs. The label gives the name of the product, the ingredients in descending order by weight, allergens, the net quantity, a nutrition declaration per 100 g, a use-by date, storage instructions and the business name and address. Labelling follows Regulation (EU) No 1169/2011 as given effect by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
     "prompt": "Outline the stages in the production of margarine, and describe the information a consumer can find on its label.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-marriage-s1": {
+  "keyTerms": [
+   {
+    "definition": "A voluntary, legally recognised union of two people that excludes all others and carries legal rights and duties for both spouses.",
+    "term": "Marriage"
+   },
+   {
+    "definition": "The practice of having only one spouse at a time.",
+    "term": "Monogamy"
+   },
+   {
+    "definition": "The official who receives the notice of intention to marry, approves venues and registers marriages.",
+    "term": "Registrar"
+   },
+   {
+    "definition": "Close family relationships, by blood or by marriage, within which two people may not marry each other.",
+    "term": "Prohibited degrees of relationship"
+   },
+   {
+    "definition": "Sexual intercourse between the spouses after the marriage ceremony.",
+    "term": "Consummation"
+   },
+   {
+    "definition": "A marriage that was never valid in law, for example because one partner was already married.",
+    "term": "Void marriage"
+   },
+   {
+    "definition": "A marriage that remains valid until a court annuls it, for example because it was never consummated.",
+    "term": "Voidable marriage"
+   },
+   {
+    "definition": "A legal status for two people of the same sex that gives them rights similar to marriage but is not marriage.",
+    "term": "Civil partnership"
+   },
+   {
+    "definition": "Both partners are at least 18; both are free to marry; both consent voluntarily; three months' written notice has been given to the registrar of the area.",
+    "term": "Four legal conditions for a valid marriage in Ireland"
+   },
+   {
+    "definition": "Two witnesses must be present and sign the register after the ceremony.",
+    "term": "Witnesses at an Irish civil marriage"
+   },
+   {
+    "definition": "Three months' written notice of intention to marry must be given to the registrar of the area.",
+    "term": "Notice period before a wedding in Ireland"
+   },
+   {
+    "definition": "Article 41.3 commits the State to guard the institution of marriage with special care.",
+    "term": "Constitutional protection of marriage"
+   },
+   {
+    "definition": "The Marriage Act 2015, which followed the 2015 referendum on marriage equality.",
+    "term": "Legislation allowing same-sex marriage in Ireland"
+   },
+   {
+    "definition": "The Civil Partnership and Certain Rights and Obligations of Cohabitants Act 2010.",
+    "term": "Legislation creating civil partnership in Ireland"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Marriage is a voluntary union that the State recognises and protects, and it carries legal rights and duties for both spouses.",
+    "h": "What marriage is",
+    "points": [
+     "A marriage is a voluntary union of two people, entered into through a civil or religious ceremony that is legally recognised.",
+     "Marriage is a union that excludes all others: a spouse may have only one husband or wife at a time.",
+     "Marriage creates legal rights and duties between spouses, including inheritance rights and a duty of financial support for the spouse and children."
+    ]
+   },
+   {
+    "h": "Marriage in Irish law",
+    "points": [
+     "Article 41.3 of the Constitution commits the State to guard the institution of marriage with special care.",
+     "The Marriage Act 2015, passed after the 2015 referendum on marriage equality, allows two people of the same sex to marry.",
+     "Civil partnership, created by the Civil Partnership and Certain Rights and Obligations of Cohabitants Act 2010, gives same-sex couples legal rights similar to marriage but is a separate legal status, not marriage."
+    ]
+   },
+   {
+    "b": "A ceremony that fails these conditions may be declared invalid by a court.",
+    "h": "Legal requirements for a valid marriage in Ireland",
+    "points": [
+     "Both partners must be at least 18 years of age.",
+     "Both partners must be free to marry: neither may already be married or in a civil partnership.",
+     "Both partners must consent voluntarily; consent given under pressure does not make a valid marriage.",
+     "The partners must not fall within the prohibited degrees of relationship, meaning they may not be too closely related by blood or by marriage.",
+     "Written notice of intention to marry must be given to the registrar of the area at least three months before the wedding.",
+     "The wedding must take place in a registered building, such as a register office or registered church, or in an approved venue inspected in advance by a registrar.",
+     "A temporary registration licence can be obtained to register a location such as a hotel, beach or garden for a wedding.",
+     "Two witnesses must be present at the ceremony.",
+     "The couple and the two witnesses sign the civil register immediately after the ceremony, and the marriage is then registered."
+    ]
+   },
+   {
+    "h": "Void and voidable marriages",
+    "points": [
+     "A void marriage was never valid in law, for example because one partner was already married or the partners were within the prohibited degrees of relationship.",
+     "A voidable marriage stays valid until a court annuls it; failure to consummate the marriage is a ground for annulment.",
+     "A marriage that breaks these rules can be declared invalid by a court through legal nullity, which is covered under When a marriage breaks down."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two of the following, each explained: both partners must be at least 18 years of age; both must be free to marry, meaning neither is already married or in a civil partnership; both must consent voluntarily; written notice of intention to marry must be given to the registrar of the area at least three months before the wedding; the ceremony must take place in a registered building or an approved venue; two witnesses must be present and sign the register after the ceremony.",
+    "prompt": "Name two conditions that must be met for a marriage to be legally valid in Ireland, and explain each briefly.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "Notice: written notice of intention to marry is given to the registrar of the area at least three months before the wedding, so the registrar can check that the couple are free to marry. Venue: the ceremony takes place in a registered building or an approved venue, or at a location temporarily registered by licence, so that the marriage is recognised by the State. Eligibility: both partners must be at least 18, free to marry and not within the prohibited degrees of relationship. Consent: both partners must consent voluntarily, which protects each from being forced into marriage. Ceremony: two witnesses must be present. Registration: the couple and the two witnesses sign the civil register immediately after the ceremony, creating the official record that makes the marriage legally recognised.",
+    "prompt": "Outline the steps a couple must follow to have a legally valid civil marriage in Ireland, from giving notice to registration of the marriage, and explain why each step matters.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-marriage-s2": {
+  "keyTerms": [
+   {
+    "definition": "A marriage in which parents or families choose the spouse, based on background and suitability.",
+    "term": "Arranged marriage"
+   },
+   {
+    "definition": "A marriage arrangement in which a person has one spouse at a time.",
+    "term": "Monogamy"
+   },
+   {
+    "definition": "A marriage arrangement in which a person has more than one spouse at the same time.",
+    "term": "Polygamy"
+   },
+   {
+    "definition": "A form of polygamy in which a man has more than one wife.",
+    "term": "Polygyny"
+   },
+   {
+    "definition": "A form of polygamy in which a woman has more than one husband.",
+    "term": "Polyandry"
+   },
+   {
+    "definition": "The offence of marrying a second time while still legally married to another person, without the first marriage having ended by death or divorce.",
+    "term": "Bigamy"
+   },
+   {
+    "definition": "Sexual intercourse between the spouses after the marriage ceremony.",
+    "term": "Consummation"
+   },
+   {
+    "definition": "The shared legal right and responsibility of both parents to care for and make decisions about their child.",
+    "term": "Joint guardianship"
+   },
+   {
+    "definition": "The person who conducts a marriage ceremony, such as a priest, minister, registrar or celebrant.",
+    "term": "Officiant"
+   },
+   {
+    "definition": "The right to live together, the right to sexual relations, the right to faithfulness and loyalty, and the right to inherit from each other.",
+    "term": "Four rights of marriage partners"
+   },
+   {
+    "definition": "Financial support for the spouse and children, joint guardianship of the children, providing for the children's needs, and commitment to the relationship through communication.",
+    "term": "Four responsibilities of marriage partners"
+   },
+   {
+    "definition": "The canopy, which symbolises the couple's future home, and the glass broken under the groom's foot, which recalls the destruction of the Temple in Jerusalem.",
+    "term": "Two symbolic features of a Jewish wedding"
+   },
+   {
+    "definition": "The surviving spouse takes two-thirds of the estate and the children share one-third, under the Succession Act 1965.",
+    "term": "Estate shares for a surviving spouse and children with no will"
+   },
+   {
+    "definition": "Couples marry at a public gathering with no official present, because they believe God alone makes a couple husband and wife.",
+    "term": "Quaker wedding"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Marriage arrangements differ between cultures in who chooses the spouse, how many spouses are allowed and who may marry.",
+    "h": "Cultural variations in marital arrangements",
+    "points": [
+     "The minimum age for marriage varies between countries and cultures; in Ireland both partners must be at least 18.",
+     "In an arranged marriage, parents or families choose the spouse on the basis of background and suitability; this practice is found in some cultures, including Sikh and Japanese communities.",
+     "Some cultures restrict the choice of spouse by religion, social class or kinship, meaning a person may not marry someone from a particular group.",
+     "Monogamy, meaning one husband and one wife at a time, is the norm in Western countries, including Ireland.",
+     "Marrying again without the death or divorce of the first spouse is bigamy, which is a criminal offence.",
+     "Polygamy, meaning more than one spouse at a time, is illegal in Ireland.",
+     "Polygyny allows a man to have more than one wife; polyandry allows a woman to have more than one husband.",
+     "Same-sex marriage is recognised in some countries and not in others.",
+     "Interfaith marriages join partners of different religions, and the couple must decide how the ceremony and family religious life will be arranged."
+    ]
+   },
+   {
+    "h": "Customs and ceremonies",
+    "points": [
+     "Veils, rings and throwing rice are wedding customs that have been popular for centuries in many cultures.",
+     "Jewish weddings are held under a canopy, which symbolises the couple's future home.",
+     "At the end of a Jewish wedding, a glass is broken under the groom's foot to recall the destruction of the ancient Temple in Jerusalem, a reminder that a marriage can also end.",
+     "Quaker couples marry at a public gathering with no official present, because they believe God alone makes a couple husband and wife.",
+     "The ceremony can take place in a church, mosque, synagogue, registry office or other registered location, depending on the couple's religion and the law of the country."
+    ]
+   },
+   {
+    "h": "Commitment within marriage",
+    "points": [
+     "Spouses make a public commitment to each other, usually through vows during the ceremony and registration of the marriage.",
+     "Commitment is maintained by working on the relationship, communicating positively and remaining faithful.",
+     "Commitment is also shown through shared finances, a shared home and joint responsibility for children."
+    ]
+   },
+   {
+    "h": "Rights of spouses",
+    "points": [
+     "Right to each other's company: spouses are entitled to live together as a couple.",
+     "Right to a sexual relationship: spouses may have sexual relations with each other, and this is the basis of consummation of the marriage.",
+     "Right to faithfulness: each spouse is expected to remain faithful and loyal to the other within a monogamous marriage.",
+     "Right to inherit: under the Succession Act 1965, a surviving spouse with no will inherits the whole estate if there are no children.",
+     "If there are children and no will, the surviving spouse takes two-thirds of the estate and the children share one-third.",
+     "Legal right share: a surviving spouse can claim a share of the estate even where a will leaves them less, one half if there are no children and one third if there are children."
+    ]
+   },
+   {
+    "h": "Responsibilities of spouses",
+    "points": [
+     "Financial support: each spouse must provide financial support for the other and for their children, as set out in the Family Law (Maintenance of Spouses and Children) Act 1976.",
+     "Joint guardianship: married parents share guardianship of their children and responsibility for their care and upbringing.",
+     "Children's needs: parents must provide for their children's physical, emotional, social, moral and educational needs.",
+     "Commitment: spouses must work on the relationship and show commitment to the marriage.",
+     "Positive communication: spouses must talk openly about decisions, finances and family matters to keep the marriage functioning."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two of the following, each described: arranged marriages, where parents choose the spouse on the basis of background and suitability; restrictions on who may be chosen as a spouse by religion, social class or kinship; differences in the number of spouses allowed, such as monogamy, polygamy, polygyny or polyandry; differences in the ceremony, such as veils, rings, rice throwing, canopies, or a Quaker meeting without an officiant; differences in the age at which people may marry; same-sex marriage being recognised in some countries and not in others.",
+    "prompt": "Describe two ways in which marriage customs or arrangements can differ between cultures.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Rights between spouses: the right to live together and have each other's company; the right to a sexual relationship and consummation of the marriage; the right to faithfulness and loyalty within a monogamous marriage; the right to inherit, under the Succession Act 1965, the whole estate with no will and no children, or two-thirds with children, and a legal right share even where a will provides less. Duties to children: financial support for the spouse and children under the Family Law (Maintenance of Spouses and Children) Act 1976; joint guardianship, with shared responsibility for care and upbringing; a legal duty to provide for the children's physical, emotional, social, moral and educational needs. Commitment: spouses show commitment by working on the relationship, communicating openly and sharing finances, a home and parenting, which allows both rights and responsibilities to be honoured over the life of the marriage.",
+    "prompt": "Explain the rights that spouses hold towards each other and the duties they owe to their children under Irish law, and show how commitment supports both.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-marriage-s3": {
+  "keyTerms": [
+   {
+    "definition": "A course that prepares couples for the expectations, realities and responsibilities of marriage before the wedding.",
+    "term": "Pre-marriage course"
+   },
+   {
+    "definition": "The process by which partners identify disagreements and reach a solution both can accept.",
+    "term": "Conflict resolution"
+   },
+   {
+    "definition": "Decisions a couple makes about whether and when to have children, and how many to have.",
+    "term": "Family planning"
+   },
+   {
+    "definition": "A relationship between two people, based on how they communicate, cooperate and treat each other.",
+    "term": "Interpersonal relationship"
+   },
+   {
+    "definition": "The beliefs each partner holds about the roles, responsibilities and outcomes of married life.",
+    "term": "Expectations of marriage"
+   },
+   {
+    "definition": "The registrar for the area where the wedding takes place, who receives the notice of intention to marry and registers the marriage.",
+    "term": "Registrar of the area"
+   },
+   {
+    "definition": "Communication, conflict resolution, family planning and finance, all of which affect how the marriage functions.",
+    "term": "Four topics covered in a pre-marriage course"
+   },
+   {
+    "definition": "It encourages openness, lets couples discuss expectations, gives advice on housing, money, parenting and family planning, and helps them recognise problems such as addiction.",
+    "term": "Benefits of a pre-marriage course"
+   },
+   {
+    "definition": "Home Economics and SPHE classes examine the roles and responsibilities of partners and the laws relating to marriage.",
+    "term": "Role of schools in marriage preparation"
+   },
+   {
+    "definition": "Accord, an Irish marriage and relationship support organisation.",
+    "term": "Irish provider of marriage preparation courses"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Pre-marriage courses give couples a structured chance to examine what married life involves before they commit.",
+    "h": "Pre-marriage courses",
+    "points": [
+     "Courses explain the expectations and realities of marriage, so couples test their assumptions about married life before the wedding.",
+     "Accord, an Irish marriage and relationship support organisation, provides pre-marriage courses for couples."
+    ]
+   },
+   {
+    "h": "Topics covered by pre-marriage courses",
+    "points": [
+     "Topics covered include communication, conflict resolution, relationships, family planning, child-rearing, finance and the legal requirements of marriage.",
+     "Practical topics include buying a home and managing the household budget as a married couple.",
+     "Couples examine their own personal qualities, such as honesty and openness, and discuss issues that could harm the marriage.",
+     "Courses prepare couples to recognise problems such as addiction, including alcohol abuse, and to seek help early."
+    ]
+   },
+   {
+    "h": "How pre-marriage courses help",
+    "points": [
+     "They encourage openness and honest communication between partners.",
+     "They give couples a forum to discuss shared expectations about roles, money, housing and having children.",
+     "They build the skills needed to resolve conflict before it damages the relationship."
+    ]
+   },
+   {
+    "h": "Other facilities and services for couples preparing for marriage",
+    "points": [
+     "The registrar of the area receives the written notice of intention to marry at least three months before the wedding, inspects proposed venues and registers the marriage.",
+     "Religious bodies may offer preparation for couples before a religious wedding, and the couple should check the requirements of their own religion.",
+     "Schools contribute to marriage preparation: Home Economics and SPHE classes examine the roles and responsibilities of partners in marriage and the laws relating to marriage.",
+     "Co-educational schools help students develop healthy interpersonal relationships between boys and girls, which supports later marriage."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any two of the following, each described: pre-marriage courses, such as those offered by Accord, which explain the expectations and realities of marriage and give advice on finance, family planning and communication; the registrar of the area, who receives the written notice of intention to marry at least three months before the wedding, approves venues and registers the marriage; religious preparation offered by churches or other religious bodies before a religious wedding; school subjects such as Home Economics and SPHE, which examine the roles and responsibilities of partners and the laws relating to marriage.",
+    "prompt": "Name two facilities or services available to couples preparing for marriage in Ireland, and describe what each provides.",
+    "type": "short"
+   },
+   {
+    "marks": 16,
+    "model": "Topics: the course covers communication, conflict resolution, relationships, family planning, child-rearing, finance, the legal requirements of marriage and buying a home. How it helps: it explains the expectations and realities of marriage, so the couple test their assumptions; it encourages openness and gives them a forum to discuss shared expectations about roles, money and children; it builds the skills to resolve conflict before it damages the relationship. Problems anticipated: couples examine their personal qualities, such as honesty, and discuss issues that could harm the marriage, including addiction and alcohol abuse, and learn to recognise them and seek help early.",
+    "prompt": "Explain how a pre-marriage course can help a couple prepare for married life, identifying the topics it covers and the problems it helps them to anticipate.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-marriage-s4": {
+  "keyTerms": [
+   {
+    "definition": "A confidential service that helps couples resolve difficulties in their marriage before separation or divorce becomes necessary.",
+    "term": "Marriage counselling"
+   },
+   {
+    "definition": "A confidential process in which an impartial mediator helps a separating couple negotiate their own agreement on children, finances and property.",
+    "term": "Family mediation"
+   },
+   {
+    "definition": "A binding agreement, usually set out in a deed of separation, under which spouses live apart while remaining married.",
+    "term": "Legal separation"
+   },
+   {
+    "definition": "A legally binding written contract between separating spouses that sets out the terms of their separation.",
+    "term": "Deed of separation"
+   },
+   {
+    "definition": "A court declaration that a marriage was never valid in law, which allows the parties to remarry.",
+    "term": "Legal nullity"
+   },
+   {
+    "definition": "A declaration by a Church marriage tribunal that a marriage is annulled, which has no legal effect in the State.",
+    "term": "Church annulment"
+   },
+   {
+    "definition": "The legal ending of a valid marriage by a court, which allows each spouse to remarry.",
+    "term": "Divorce"
+   },
+   {
+    "definition": "The restoration of a normal marital relationship between spouses who have experienced difficulties.",
+    "term": "Reconciliation"
+   },
+   {
+    "definition": "A child who relies on a parent or guardian for financial support and care.",
+    "term": "Dependent child"
+   },
+   {
+    "definition": "The spouses have lived apart for at least two of the previous three years; there is no reasonable prospect of reconciliation; and proper provision has been made for the spouse and dependent children.",
+    "term": "Three conditions for divorce under the Family Law (Divorce) Act 1996"
+   },
+   {
+    "definition": "The care of dependent children, maintenance, and arrangements for the family home.",
+    "term": "Three areas a deed of separation covers"
+   },
+   {
+    "definition": "Meets the couple together as an impartial third party, helps them negotiate terms on children, finances and property, and encourages communication so that they can reach their own agreement.",
+    "term": "Three things a family mediator does"
+   },
+   {
+    "definition": "It has no legal standing with the State, so the couple remain legally married.",
+    "term": "Legal status of a church annulment"
+   },
+   {
+    "definition": "Custody and access, allocation of property, payment of maintenance, and extinguishment of succession rights.",
+    "term": "Court orders available on divorce"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Counselling is the first option for a couple in difficulty, and it aims to resolve problems before separation or divorce becomes necessary.",
+    "h": "Marriage counselling",
+    "points": [
+     "Counsellors help couples resolve marriage problems before they become grounds for separation or divorce.",
+     "The service is confidential, and partners may attend together, separately or, where relevant, with their children.",
+     "Several visits may be needed before the couple reaches a resolution.",
+     "Counsellors may refer couples to specialist counsellors for specific problems such as addiction or difficulties in sexual relations.",
+     "Marriage counselling is provided by Accord and by other independent counselling services in Ireland."
+    ]
+   },
+   {
+    "b": "Mediation is an alternative to court for a couple who have agreed to separate or divorce.",
+    "h": "Family mediation",
+    "points": [
+     "The Family Mediation Service in Ireland offers a confidential service to couples who have agreed to separate or divorce.",
+     "An impartial mediator meets the couple together and helps them negotiate their own agreement, rather than deciding for them.",
+     "Issues negotiated include parenting arrangements, custody and access to children, division of finances, maintenance, and property including the family home.",
+     "Mediation keeps children out of conflict, encourages communication, and helps partners accept the separation.",
+     "Mediation can avoid court proceedings, which are more expensive and adversarial."
+    ]
+   },
+   {
+    "b": "Legal separation is a private, legally binding agreement under which spouses live apart but remain married.",
+    "h": "Legal separation",
+    "points": [
+     "Terms are set out in a deed of separation, which is a binding written contract between the spouses.",
+     "The deed covers living apart, the care of dependent children, maintenance, and arrangements for the family home.",
+     "A solicitor should draw up the deed, and a mediator can help the spouses negotiate its terms.",
+     "Legal separation can be arranged without court proceedings where both spouses agree to the terms.",
+     "Spouses who are legally separated are still married and cannot remarry.",
+     "Judicial separation is different: it is a court order made when spouses cannot agree the terms of separation, and it is covered under the Family Law topic."
+    ]
+   },
+   {
+    "b": "Nullity and annulment both declare a marriage invalid, but only a legal nullity decree ends the marriage in the eyes of the State.",
+    "h": "Legal nullity and church annulment",
+    "points": [
+     "Legal nullity is a declaration by a court that a marriage was never valid in law.",
+     "Couples married in a civil or State-recognised religious ceremony need a legal nullity decree before either spouse can remarry without committing bigamy.",
+     "Church annulment is granted by a Church marriage tribunal, which studies the marriage and declares it annulled.",
+     "A church annulment has no legal standing with the State, so the couple remain legally married."
+    ]
+   },
+   {
+    "b": "Divorce legally ends a marriage and was introduced in Ireland by the Family Law (Divorce) Act 1996, after the 1995 referendum.",
+    "h": "Divorce",
+    "points": [
+     "The Family Law (Divorce) Act 1996 was amended by the Family Law Act 2019, which reduced the living-apart period from four of the previous five years to two of the previous three.",
+     "The spouses must have lived apart for a period or periods amounting to at least two years during the previous three years.",
+     "There must be no reasonable prospect of reconciliation between the spouses.",
+     "Proper provision must be made for the spouse and any dependent children before a divorce is granted.",
+     "When granting a divorce, the court may make orders on custody and access, allocation of property, payment of maintenance, and extinguishment of succession rights.",
+     "A decree of divorce cannot be reversed, and each spouse may then remarry."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Legal separation is a binding agreement, set out in a deed of separation, under which spouses live apart; the spouses remain married and cannot remarry. Divorce is a court process that legally ends a valid marriage, so each spouse is free to remarry once a decree has been granted. A legal separation can be arranged through mediation without court proceedings where both spouses agree; a divorce requires a court to be satisfied that the spouses have lived apart for the qualifying period, that there is no reasonable prospect of reconciliation, and that proper provision has been made for the spouse and children.",
+    "prompt": "Distinguish between legal separation and divorce, explaining whether the spouses remain married under each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Marriage counselling: a confidential service that helps couples resolve problems before they become grounds for separation or divorce; partners may attend together or separately, several visits may be needed, and specialist counsellors can be used for issues such as addiction. Family mediation: a confidential process in which an impartial mediator helps a separating couple negotiate their own agreement on parenting, custody and access, finances, maintenance and the family home, as an alternative to court. Legal separation: a binding deed of separation, drawn up by a solicitor, covering living apart, children, maintenance and the family home; the spouses remain married. Legal nullity: a court declaration that the marriage was never valid, which allows remarriage; a church annulment has no legal standing. Divorce: the Family Law (Divorce) Act 1996, as amended by the Family Law Act 2019, requires that the spouses have lived apart for the qualifying period set by the Act, that there is no reasonable prospect of reconciliation, and that proper provision has been made for the spouse and dependent children; the court may then make orders on custody, property, maintenance and succession rights, and the decree cannot be reversed.",
+    "prompt": "Outline the options available to a couple whose marriage is in difficulty, stating the purpose of each option and the conditions a couple must meet for divorce.",
     "type": "short"
    }
   ]
@@ -18889,6 +21485,1295 @@
     "marks": 24,
     "model": "Iron: haem iron from meat, fish and poultry is absorbed readily; non-haem iron from plant foods and eggs must be converted from ferric to ferrous form. Aids: vitamin C, meat, fish or poultry eaten at the same meal (the meat factor), stomach acid. Inhibitors: tannins in tea and coffee, phytates in wholegrain cereals and pulses, oxalates in spinach and rhubarb, calcium taken at the same meal. Calcium: aided by vitamin D, lactose, an acidic environment, adequate protein and parathormone; oestrogen supports retention. Inhibitors: excess fibre, excess fat, caffeine, excess salt, alcohol, smoking; phytic and oxalic acids bind calcium into insoluble forms. Diet planning: pair non-haem iron foods with vitamin C sources and avoid tea or coffee at iron-rich meals; include vitamin D sources; use dairy or fortified foods for calcium while limiting excess salt, caffeine and alcohol; make sure spinach and rhubarb are not counted as reliable calcium sources.",
     "prompt": "Discuss the factors that aid and inhibit the absorption of calcium and iron from food, and explain how these factors could affect the planning of a diet.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s1": {
+  "keyTerms": [
+   {
+    "definition": "Work done for a wage or salary under a contract with an employer.",
+    "term": "Paid employment"
+   },
+   {
+    "definition": "Work done without financial reward, mainly in the home, such as child care and housework.",
+    "term": "Unpaid work"
+   },
+   {
+    "definition": "Unpaid work done by choice for people outside the household, usually through a charity or community group.",
+    "term": "Voluntary work"
+   },
+   {
+    "definition": "Paid work in which the worker earns income directly from their own trade, business or profession.",
+    "term": "Self-employment"
+   },
+   {
+    "definition": "A document setting out a post's title, duties, working hours, pay range and required qualifications.",
+    "term": "Job description"
+   },
+   {
+    "definition": "Satisfaction gained from rewards linked to work, such as pay, bonuses and job security, rather than from the task itself.",
+    "term": "Extrinsic satisfaction"
+   },
+   {
+    "definition": "Satisfaction gained from the work itself, through fulfilment, creativity, challenge and pride.",
+    "term": "Intrinsic satisfaction"
+   },
+   {
+    "definition": "The attitude a worker brings to work, shown through punctuality, commitment and respect for authority.",
+    "term": "Work ethic"
+   },
+   {
+    "definition": "The level of achievement, advancement and recognition a person reaches through work.",
+    "term": "Work attainment"
+   },
+   {
+    "definition": "Paid employment; unpaid work in the home and home-related activities; voluntary work.",
+    "term": "Three types of work"
+   },
+   {
+    "definition": "Pay and bonuses; job security; pension and paid holiday entitlements; company benefits such as a car or private health insurance.",
+    "term": "Four sources of extrinsic satisfaction"
+   },
+   {
+    "definition": "Challenge and variety in tasks; creativity and scope to use skills; pride and sense of achievement; status and respect from the work.",
+    "term": "Four sources of intrinsic satisfaction"
+   },
+   {
+    "definition": "Punctuality; low absenteeism; commitment to tasks; respect for authority and colleagues.",
+    "term": "Four elements of work ethic"
+   },
+   {
+    "definition": "Working conditions; personal identity linked to occupation; social contact and peer pressure; family background and education.",
+    "term": "Four factors that shape attitudes to work"
+   },
+   {
+    "definition": "No financial reward; done mainly in the home; includes child care, housework and care of elderly or disabled relatives.",
+    "term": "Three features of unpaid work"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Work is any activity that produces goods or services. It falls into three types, which differ in whether they are paid and who benefits.",
+    "h": "Defining work",
+    "points": [
+     "Paid employment: work done for a wage or salary, usually under a contract of employment between employer and employee.",
+     "Self-employment is also paid work: the worker earns income directly from their own trade, business or profession and carries its financial risk.",
+     "Unpaid work: done without financial reward, mainly in the home, such as housework, cooking, cleaning, child care and care of elderly or disabled relatives.",
+     "Home-related activities such as DIY, home maintenance, gardening and household budgeting are also unpaid work.",
+     "Voluntary work: unpaid work done by choice for people outside the household, usually through a charity, community group or organisation.",
+     "Paid employment carries entitlement to PRSI-based social insurance and, in many jobs, pension, sick pay and paid holidays."
+    ]
+   },
+   {
+    "b": "A job description sets out what a post involves. It is the basis for judging how satisfying the work is likely to be.",
+    "h": "Job descriptions as a starting point",
+    "points": [
+     "A job description usually states the job title, main duties and responsibilities, working hours, place of work, pay range and the qualifications or skills needed.",
+     "Duties involving planning, decision-making or creativity suggest scope for intrinsic satisfaction.",
+     "Routine, repetitive duties with a fixed pay scale suggest that satisfaction depends mainly on extrinsic rewards.",
+     "Flexible hours, job-sharing or home working in a description indicate conditions that can improve work-life balance.",
+     "Method: list the duties, match each one to the intrinsic or extrinsic satisfaction it offers, then identify one change that would raise satisfaction."
+    ]
+   },
+   {
+    "b": "Extrinsic satisfaction comes from rewards linked to work rather than from the task itself.",
+    "h": "Extrinsic satisfaction",
+    "points": [
+     "Sources: pay, bonuses, pension, paid holidays, job security, and company benefits such as a car or private health insurance.",
+     "Repetitive, uninteresting work, such as assembly-line production, may leave pay as the main source of satisfaction.",
+     "Satisfaction is also gained by spending income on goods, leisure and socialising outside work.",
+     "Extrinsic rewards can sustain a worker in a job, but on their own they bring less pride and self-esteem."
+    ]
+   },
+   {
+    "b": "Intrinsic satisfaction comes from the work itself: the fulfilment, pleasure and creativity it offers.",
+    "h": "Intrinsic satisfaction",
+    "points": [
+     "Sources: challenge and variety in tasks; autonomy and responsibility; the chance to use skills; pride in a finished task.",
+     "Work builds self-esteem, confidence and independence.",
+     "Work can confer status and respect in the community, meeting social and psychological needs.",
+     "Intrinsic satisfaction is strongest when a job matches a person's skills and interests."
+    ]
+   },
+   {
+    "b": "Work ethic is the attitude a person brings to work. Work attainment is the level of achievement and advancement reached through work.",
+    "h": "Work ethic and work attainment",
+    "points": [
+     "Work ethic is shown through punctuality, low absenteeism, commitment to tasks, and respect for authority and colleagues.",
+     "Employers value a strong work ethic, and it is linked to promotion and good references.",
+     "Work attainment reflects results such as promotion, added responsibility, qualifications gained and recognition from colleagues.",
+     "A positive attitude and strong work ethic make a worker more likely to be promoted and trusted with responsibility."
+    ]
+   },
+   {
+    "h": "Factors that shape attitudes to work",
+    "points": [
+     "Working conditions: part-time work, job-sharing, flexitime and working from home make work-life balance easier.",
+     "Atmosphere at work, including relationships with supervisors and colleagues, affects how workers feel about their jobs.",
+     "Personal identity: some occupations confer status in the community, which can encourage a positive attitude to work.",
+     "Social contact: a workplace meets social needs, and peer pressure influences how seriously a worker takes the job.",
+     "Background and experience: family attitudes to work, education and earlier work experience shape expectations."
+    ]
+   },
+   {
+    "h": "Variation in attitudes according to occupation",
+    "points": [
+     "Occupations differ in the mix of intrinsic and extrinsic satisfaction they offer.",
+     "Professional and creative occupations often give high intrinsic satisfaction through responsibility, autonomy and recognised expertise.",
+     "Repetitive manual and production jobs tend to depend more on pay, job security and working conditions.",
+     "Shift work and unsocial hours can reduce satisfaction in occupations such as nursing and emergency services unless flexibility is offered.",
+     "Self-employed workers often report high intrinsic satisfaction because they control their own hours and methods, but they bear greater financial risk."
+    ]
+   },
+   {
+    "b": "Satisfaction can be judged by checking both sources of satisfaction and the factors that undermine them.",
+    "h": "Judging and improving job satisfaction",
+    "points": [
+     "Questions to ask: is the worker paid fairly, is the employment secure, and is effort recognised?",
+     "Variety in tasks, training and clear routes to promotion increase intrinsic satisfaction.",
+     "Taking part in decisions, teamwork and a safe, pleasant workplace raise satisfaction.",
+     "Flexible hours and leave arrangements help workers balance work with family life.",
+     "Regular feedback and recognition reward performance and reinforce commitment."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Paid employment is done for a wage or salary under a contract with an employer, and carries entitlements such as PRSI-based social insurance, pension and paid holidays. Unpaid work is done without financial reward, mainly in the home, such as child care, housework or caring for an elderly relative. Full marks need a feature for each type, not just a definition.",
+    "prompt": "Distinguish between paid employment and unpaid work in the home, giving one feature of each.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Extrinsic satisfaction comes from rewards outside the task, such as pay, bonuses, job security and benefits. Intrinsic satisfaction comes from the work itself, such as challenge, creativity, responsibility and pride. Extrinsic rewards can keep a worker committed, especially in repetitive work such as assembly-line production, but they may bring less pride and self-esteem. Intrinsic satisfaction builds self-esteem, confidence and independence, and can give a worker status and a positive attitude to work, as in a professional or creative occupation. Strong intrinsic satisfaction often leads to a better work ethic and higher work attainment.",
+    "prompt": "Explain the difference between extrinsic and intrinsic satisfaction at work. Discuss how each one can shape a worker's attitude to their job, giving an example occupation for each.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s2": {
+  "keyTerms": [
+   {
+    "definition": "The use of machines or robots to carry out tasks previously done by people, reducing the number of workers needed.",
+    "term": "Automation"
+   },
+   {
+    "definition": "Industry that extracts natural resources, such as agriculture, fishing, forestry and mining.",
+    "term": "Primary industry"
+   },
+   {
+    "definition": "Industry that manufactures or processes primary raw materials into finished goods.",
+    "term": "Secondary industry"
+   },
+   {
+    "definition": "Industry that provides services, such as tourism, healthcare, transport, media and education.",
+    "term": "Tertiary industry"
+   },
+   {
+    "definition": "The distribution of employment across types of occupation, such as manual, service and professional work.",
+    "term": "Occupational structure"
+   },
+   {
+    "definition": "A working arrangement in which employees choose their start and finish times within agreed core hours.",
+    "term": "Flexitime"
+   },
+   {
+    "definition": "An arrangement in which two people share the hours and pay of one full-time post.",
+    "term": "Job-sharing"
+   },
+   {
+    "definition": "Working from home or another remote location, using electronic communication to stay connected with the employer.",
+    "term": "Teleworking"
+   },
+   {
+    "definition": "Training workers in new skills so they can move into different occupations.",
+    "term": "Reskilling"
+   },
+   {
+    "definition": "Unpaid leave that parents can take to care for a child, in one block or spread over an agreed period.",
+    "term": "Parental leave"
+   },
+   {
+    "definition": "Primary: extraction of resources such as farming, fishing, forestry and mining. Secondary: manufacturing and processing of raw materials into goods. Tertiary: services such as tourism, healthcare, transport, media and education.",
+    "term": "Three sectors of industry"
+   },
+   {
+    "definition": "Flexitime, where workers choose start and finish times within core hours; job-sharing, where two people share one post; part-time or term-time working; teleworking from home or a remote location.",
+    "term": "Four forms of flexible working"
+   },
+   {
+    "definition": "Automation reduces the number of workers needed for repetitive tasks; new skilled jobs are created to design and maintain technology; electronic communication blurs the boundary between work and home.",
+    "term": "Three effects of developing technology on work"
+   },
+   {
+    "definition": "Service and technology jobs need higher skills, and employers use qualifications to select between a growing number of qualified applicants.",
+    "term": "Two reasons for increased educational requirements"
+   },
+   {
+    "definition": "Better education; financial independence; flexible hours and part-time work; the need for a second income to meet living costs.",
+    "term": "Four reasons for increased participation by women"
+   },
+   {
+    "definition": "They allow parents to plan childcare around work schedules; they let parents spend more time with children, such as through a reduced working week.",
+    "term": "Two ways flexible hours help working parents"
+   }
+  ],
+  "notes": [
+   {
+    "b": "New technology changes how work is organised, how many workers are needed and which skills are in demand.",
+    "h": "Effect of developing technology on industry (Higher Level only)",
+    "points": [
+     "Automation: machines and robots take over repetitive production and processing tasks, so fewer workers are needed for the same output.",
+     "Increased output with fewer workers reduces working hours in some industries and removes jobs at the lower-skilled end.",
+     "Computers and electronic communication change office work, creating new skilled jobs to design, install, maintain and operate technology.",
+     "Electronic communication allows home working but makes it harder to switch off, and reduces face-to-face social contact at work.",
+     "Technology also makes work safer and cleaner in some settings, as dangerous and dirty tasks are carried out by machines."
+    ]
+   },
+   {
+    "b": "Employment has moved from extracting and manufacturing towards services.",
+    "h": "Decline of primary and secondary industry and growth of services (Higher Level only)",
+    "points": [
+     "Primary industry extracts resources: agriculture, fishing, forestry and mining.",
+     "Secondary industry manufactures and processes primary raw materials into finished goods.",
+     "Tertiary (service) industry provides services such as tourism, leisure, healthcare, transport, media, retail and education.",
+     "Automation reduced the number of manufacturing jobs, while service industries expanded and absorbed many workers.",
+     "Companies relocated production to lower-cost countries, causing job losses in manufacturing in Ireland.",
+     "Setting: compare Ireland's current occupational structure with that of fifty years ago, noting the shift from manual to service and professional work."
+    ]
+   },
+   {
+    "b": "As jobs have shifted towards services and technology, employers increasingly expect higher qualifications.",
+    "h": "Increased educational requirements (Higher Level only)",
+    "points": [
+     "Service and technology jobs need literacy, numeracy, computing and communication skills, which are developed through education.",
+     "Employers use qualifications to select between applicants, so a larger share of applicants now hold them.",
+     "Early school leavers find it difficult to acquire work, as many jobs require a minimum level of education.",
+     "Continuing education, such as evening courses, distance learning and upskilling programmes, allows adults to gain qualifications and keep pace with technology.",
+     "Reskilling allows workers whose jobs have disappeared to move into new occupations."
+    ]
+   },
+   {
+    "b": "Women's participation in paid employment has grown, with social and economic causes.",
+    "h": "Increased participation by women (Higher Level only)",
+    "points": [
+     "Women are better educated than in the past, and qualifications open access to professional and skilled work.",
+     "Income from paid work gives women financial independence and a stronger personal identity.",
+     "The growth of service industries created many jobs that suited women's skills and flexible hours.",
+     "Rising living costs and the need for a second income encourage women into paid employment.",
+     "Flexible hours and job-sharing make it possible to combine paid work with home and family responsibilities."
+    ]
+   },
+   {
+    "h": "Improved working conditions (Higher Level only)",
+    "points": [
+     "Better pay, pension entitlement and holiday arrangements make paid work more attractive.",
+     "Statutory protections for workers cover health and safety, pay and working time.",
+     "Safer and cleaner workplaces, made possible by technology, reduce risk of injury and illness.",
+     "Parental leave and career breaks allow workers to take time away for family reasons and return to their job.",
+     "Improved conditions have enabled many women to return to the workforce after raising children."
+    ]
+   },
+   {
+    "b": "Working time is now arranged in many ways other than the traditional full-time, fixed-hours week.",
+    "h": "Increasing flexibility in working hours (Higher Level only)",
+    "points": [
+     "Flexitime: employees choose their start and finish times within agreed core hours.",
+     "Job-sharing: two people share one full-time post, dividing the hours and pay between them.",
+     "Part-time and term-time working: reduced hours, or work arranged around school terms.",
+     "Compressed or reduced working weeks, such as working longer days across fewer days.",
+     "Teleworking: working from home or another remote location using electronic communication.",
+     "Parental leave: unpaid leave for parents, taken in one block or spread over an agreed period until the child reaches a set age.",
+     "Career breaks: an agreed period of unpaid leave, after which the worker returns to their job."
+    ]
+   },
+   {
+    "h": "Effects of changing patterns of work (Higher Level only)",
+    "points": [
+     "Workers displaced from manufacturing may need retraining before they can find work in services.",
+     "Flexible working helps parents plan childcare and family life more smoothly.",
+     "Blurred boundaries between work and home can increase stress and make it harder to switch off.",
+     "Families in which both parents work gain income but may face role overload and role conflict.",
+     "Employers gain access to a wider, more skilled labour pool and can keep staff by offering flexible arrangements."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Manufacturing jobs were lost as automation reduced the number of workers needed, and some companies relocated production to lower-cost countries. Employment grew instead in tertiary (service) industries such as tourism, healthcare, transport and education.",
+    "prompt": "Describe two ways in which the decline of primary and secondary industry has changed employment in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Service industries grew as manufacturing and primary industries declined, creating many jobs in tourism, healthcare, retail, transport and education. These jobs often suited the skills and flexible hours that many women wanted, so women's participation rose. Women's participation was supported by better education, increased need for a second income, and improved working conditions. Working arrangements supporting this change include flexitime, job-sharing, part-time and term-time working, teleworking and parental leave. Increased participation changed the workforce by raising the number of families in which both parents work and increasing demand for childcare.",
+    "prompt": "Analyse how the growth of service industries and the increased participation of women have together changed the structure of the workforce. Give examples of the working arrangements that have supported this change.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s3": {
+  "keyTerms": [
+   {
+    "definition": "Work done without financial reward, mainly in the home, such as child care, housework and caring for relatives.",
+    "term": "Unpaid work"
+   },
+   {
+    "definition": "Unpaid work done by choice for the benefit of people or causes outside the household.",
+    "term": "Voluntary work"
+   },
+   {
+    "definition": "A person who gives unpaid time to voluntary work through a charity, community group or organisation.",
+    "term": "Volunteer"
+   },
+   {
+    "definition": "The sense of belonging and mutual trust that draws people in a community together.",
+    "term": "Social cohesion"
+   },
+   {
+    "definition": "Taking part in community life and public decisions, such as through local groups and consultations.",
+    "term": "Civic participation"
+   },
+   {
+    "definition": "Physical and emotional exhaustion caused by sustained pressure, often when a few people carry most of a group's work.",
+    "term": "Burnout"
+   },
+   {
+    "definition": "The ability to understand and share the feelings of others, developed through helping people in need.",
+    "term": "Empathy"
+   },
+   {
+    "definition": "Bringing people at risk of isolation or disadvantage into full participation in community life.",
+    "term": "Social inclusion"
+   },
+   {
+    "definition": "No financial reward; done mainly in the home; includes child care, housework and care of elderly or disabled relatives.",
+    "term": "Three features of unpaid work"
+   },
+   {
+    "definition": "New skills and experience; confidence and self-esteem; social contact and friendships; a sense of purpose and fulfilment.",
+    "term": "Four benefits to the volunteer"
+   },
+   {
+    "definition": "Services that would otherwise be unavailable; social cohesion between different groups; support for vulnerable people such as older people and lone parents.",
+    "term": "Three benefits to the community"
+   },
+   {
+    "definition": "Litter clean-ups, tree planting, habitat conservation on riverbanks and coastline, and local recycling schemes.",
+    "term": "Examples of environmental volunteering"
+   },
+   {
+    "definition": "Voluntary work is chosen freely, is done for people outside the household, and is usually organised through a group or organisation.",
+    "term": "How voluntary work differs from home work"
+   },
+   {
+    "definition": "Burnout when a few people carry most of the work; difficulty sustaining commitment as volunteers take on paid work or family responsibilities.",
+    "term": "Two challenges facing volunteer groups"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Unpaid work done in the home sustains family life and reduces the need for paid services.",
+    "h": "Unpaid work and its value",
+    "points": [
+     "Unpaid work covers child care, housework, cooking, caring for an elderly parent or a person with a disability, and DIY and home maintenance.",
+     "It is mainly done within the household and is not paid, so it lacks the advantages of paid work such as pension entitlement and sick pay.",
+     "Unpaid work is not counted in measures of national paid output, so its contribution is often overlooked.",
+     "Unpaid work can be monotonous, and it often falls unequally on women within the household."
+    ]
+   },
+   {
+    "b": "Voluntary work is unpaid work done by choice, for the benefit of people outside the household.",
+    "h": "Voluntary work: what it involves",
+    "points": [
+     "Voluntary work is carried out through charities, community groups, sports clubs, schools, churches and local development groups.",
+     "Typical activities include running charity shops, fundraising, providing meals and transport for older people, mentoring young people and helping with local events.",
+     "Environmental volunteering includes litter clean-ups, tree planting, conservation work and local recycling projects.",
+     "Volunteers receive no wage, sick pay or pension, but may receive expenses for travel or training."
+    ]
+   },
+   {
+    "h": "Difference between unpaid home work and voluntary work",
+    "points": [
+     "Unpaid home work is largely a duty within the family; voluntary work is chosen freely.",
+     "Unpaid home work benefits the household; voluntary work benefits people and causes in the wider community.",
+     "Voluntary work is usually organised through an organisation, while home work is carried out individually.",
+     "Voluntary work generally carries more social recognition than unpaid work in the home."
+    ]
+   },
+   {
+    "h": "Benefits to the volunteer",
+    "points": [
+     "New skills and experience, such as teamwork, communication, organisation and leadership, which can be listed on a CV.",
+     "Confidence and self-esteem grow as the volunteer contributes to something valued.",
+     "Social contact and friendships reduce isolation, particularly for people who are retired, unemployed or new to an area.",
+     "Volunteering gives people a sense of purpose and fulfilment, and a chance to develop their potential.",
+     "Volunteering can lead to paid employment, as it builds experience and references in a particular field.",
+     "Empathy develops through helping others in need, such as older or vulnerable people."
+    ]
+   },
+   {
+    "h": "Benefits to the community",
+    "points": [
+     "Services that would otherwise be unavailable or unaffordable can be provided, such as meals for housebound people or local youth activities.",
+     "Volunteers build social cohesion by bringing people from different backgrounds together around a shared purpose.",
+     "Support for vulnerable groups, including older people, people with disabilities, lone parents and the homeless, reaches those who might otherwise be missed.",
+     "Local facilities such as halls, playing fields and parks are maintained and improved through volunteer effort and fundraising.",
+     "Volunteers raise awareness of local issues and encourage civic participation in decisions that affect the area."
+    ]
+   },
+   {
+    "h": "Voluntary work and social and environmental change",
+    "points": [
+     "Social change: volunteers campaign for better services, such as local supports for families, and help people to claim the supports they are entitled to.",
+     "Social change: volunteer-run projects build inclusion by integrating people with disabilities or from minority groups into community life.",
+     "Environmental change: clean-up and conservation projects reduce litter and protect habitats such as woodland, river banks and coastline.",
+     "Environmental change: volunteer-led recycling and community growing schemes change local habits and reduce waste.",
+     "Long-term change comes from volunteers passing on their knowledge and skills to others, so the work continues beyond any one project."
+    ]
+   },
+   {
+    "h": "Limits and challenges of voluntary work",
+    "points": [
+     "Volunteers can experience burnout when a few people carry a large share of the work.",
+     "Groups depend on continued volunteer commitment, which can be hard to sustain as people take on paid work or family responsibilities.",
+     "Volunteers can face out-of-pocket costs for travel, equipment or training that are not reimbursed."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Voluntary work provides services that would otherwise be unavailable or unaffordable, such as meals or transport for older people. It also builds social cohesion, bringing people from different backgrounds together around a shared purpose.",
+    "prompt": "Describe two ways in which voluntary work benefits a local community.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Personal benefits include new skills such as teamwork and leadership, growth in confidence and self-esteem, friendships that reduce isolation, and a sense of purpose. Volunteering can also develop empathy and build experience that supports paid employment. For the community, volunteers campaign for better local services and promote social inclusion of people with disabilities or from minority groups. Environmental contributions include clean-ups, habitat conservation and recycling schemes that change local habits. The contribution is limited by burnout when a few people carry most of the work and by difficulty sustaining volunteer commitment over time.",
+    "prompt": "Discuss how voluntary work can benefit the volunteer personally, and evaluate its contribution to social and environmental change in a local community.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s4": {
+  "keyTerms": [
+   {
+    "definition": "A person generally under 18 years of age who is employed, and protected by the Act.",
+    "term": "Young person"
+   },
+   {
+    "definition": "Work that is permitted for those aged 14 and over, such as light holiday work or approved work experience, and is not harmful to health or development.",
+    "term": "Light work"
+   },
+   {
+    "definition": "A day free of work that a young worker must receive each week.",
+    "term": "Rest day"
+   },
+   {
+    "definition": "A written record kept by an employer of the hours worked by each young person.",
+    "term": "Register of hours"
+   },
+   {
+    "definition": "Permission from a parent or guardian, which an employer must obtain before employing a young person.",
+    "term": "Parental consent"
+   },
+   {
+    "definition": "Work in film, theatre, sport or advertising by a child under 16, permitted only under a licence.",
+    "term": "Licensed work"
+   },
+   {
+    "definition": "A placement arranged as part of education, which allows young people to work under agreed conditions.",
+    "term": "Approved work experience"
+   },
+   {
+    "definition": "Obtain evidence of the young person's age; obtain permission from a parent or guardian; keep a register of the hours worked.",
+    "term": "Three employer obligations under the Act"
+   },
+   {
+    "definition": "Licensed work in film, theatre, sport or advertising, and approved work experience.",
+    "term": "Exceptions for children under 16"
+   },
+   {
+    "definition": "Young workers are generally not permitted to work late at night or early in the morning.",
+    "term": "Time-of-day restriction"
+   },
+   {
+    "definition": "A break after a set period of work, with the length depending on age; a set number of rest days and free days each week.",
+    "term": "Two protections on breaks and rest"
+   },
+   {
+    "definition": "To protect young people's health, safety and development by regulating their hours, breaks, rest and times of work.",
+    "term": "Purpose of the Act"
+   },
+   {
+    "definition": "Health and safety; minimum pay; equality and discrimination; working time limits; leave and benefits.",
+    "term": "Five areas of wider employment protection"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Act regulates the employment of young people so that work does not harm their health, safety or development.",
+    "h": "Purpose and scope of the Act",
+    "points": [
+     "The Act applies to young people who are employed, and sets the minimum age, working hours, breaks and rest entitlements for them.",
+     "A young person is generally under 18.",
+     "The Act sets out what employers must do before employing a young person, and what records they must keep."
+    ]
+   },
+   {
+    "h": "Minimum age and full-time work",
+    "points": [
+     "It is an offence to employ a child under 16 on a full-time basis.",
+     "Children under 14 may not work during school term.",
+     "Young people aged 14 and over may do light work, such as during school holidays or approved work experience.",
+     "Children under 16 may take part in licensed work in film, theatre, sport or advertising, subject to licence conditions."
+    ]
+   },
+   {
+    "h": "Hours of work",
+    "points": [
+     "14- and 15-year-olds may do light work for up to 8 hours a week during school term.",
+     "During school holidays, 14- and 15-year-olds may work up to 35 hours a week.",
+     "14- and 15-year-olds must have at least 21 days off work during the summer holidays.",
+     "16- and 17-year-olds may work up to 8 hours a day and 40 hours a week."
+    ]
+   },
+   {
+    "h": "Breaks and rest",
+    "points": [
+     "14- and 15-year-olds must get a 30-minute break after 4 hours' work.",
+     "16- and 17-year-olds must get a 30-minute break after 4.5 hours' work.",
+     "Young workers must have rest days each week, normally two days in a row."
+    ]
+   },
+   {
+    "h": "Times of work",
+    "points": [
+     "14- and 15-year-olds may not work between 8 p.m. and 8 a.m.",
+     "16- and 17-year-olds may not be required to work after 10 p.m. or before 6 a.m., with limited exceptions."
+    ]
+   },
+   {
+    "h": "Employer duties",
+    "points": [
+     "Before employing anyone under 18, the employer must see a copy of their birth certificate or other evidence of age.",
+     "For a young person under 16, the employer must have the written permission of a parent or guardian.",
+     "Employers must keep a register of each young person's age, hours worked and pay.",
+     "Employers who break the Act can be prosecuted and fined."
+    ]
+   },
+   {
+    "b": "The Act is one of several laws that protect workers. Their main areas are the following.",
+    "h": "Other legislation protecting people in employment",
+    "points": [
+     "Safety, Health and Welfare at Work Act 2005: employers must assess risks and provide a safe workplace.",
+     "National Minimum Wage Act 2000: sets the lowest hourly rate an employer may pay, with lower rates for workers under 20.",
+     "Employment Equality Acts 1998–2015: prohibit discrimination at work on nine grounds, including gender, age, disability and race.",
+     "Organisation of Working Time Act 1997: limits adult working hours, sets rest breaks and gives paid annual leave."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The Act limits hours during school term for those aged 14 and 15, and sets a weekly limit that is lower for 15-year-olds. It limits holiday work to a maximum number of hours per day and per week. It also requires breaks during the working day and rest days each week.",
+    "prompt": "Describe two ways in which the Act limits the working hours of young people.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The Act sets a minimum age for full-time work and prevents children under 14 from working during school term. It limits the hours of young workers during term and holidays, and requires breaks and rest days. It restricts working late at night or early in the morning. Employers must obtain evidence of the young person's age and permission from a parent or guardian before employing them. Employers must keep a register of hours worked and pay young workers at the rate that applies to their age. Together these rules protect the health, safety and development of young people while allowing them to gain work experience.",
+    "prompt": "Explain how the Protection of Young Persons (Employment) Act (1996) safeguards young people at work. Discuss the duties the Act places on employers.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s5": {
+  "keyTerms": [
+   {
+    "definition": "A family in which both partners are in paid employment.",
+    "term": "Dual-earner family"
+   },
+   {
+    "definition": "The behaviours and responsibilities that a society or family expects of men and women.",
+    "term": "Sex roles"
+   },
+   {
+    "definition": "The strain that results when one person tries to perform several roles at the same time and cannot meet all their demands.",
+    "term": "Role overload"
+   },
+   {
+    "definition": "The clash between the expectations of one role and the expectations of another role, such as work and parenthood.",
+    "term": "Role conflict"
+   },
+   {
+    "definition": "The duties of caring for, supervising, supporting and guiding children.",
+    "term": "Parental responsibilities"
+   },
+   {
+    "definition": "The tasks of maintaining the home and feeding and clothing the family, such as cooking, cleaning and laundry.",
+    "term": "Home-care responsibilities"
+   },
+   {
+    "definition": "A working arrangement in which employees choose their start and finish times within agreed limits.",
+    "term": "Flexitime"
+   },
+   {
+    "definition": "An arrangement in which two people share one full-time job, splitting its hours and responsibilities.",
+    "term": "Job-sharing"
+   },
+   {
+    "definition": "Unpaid leave taken by a parent to care for a child.",
+    "term": "Parental leave"
+   },
+   {
+    "definition": "A temporary period of unpaid leave from work that allows an employee to return to the same job later.",
+    "term": "Career break"
+   },
+   {
+    "definition": "Doing paid work from home, using a computer and communication links rather than travelling to a workplace.",
+    "term": "Teleworking"
+   },
+   {
+    "definition": "1. Reduced leisure and rest time. 2. Increased stress and tension between partners and family members. 3. Less time for each role, so work or family duties are neglected.",
+    "term": "Three effects of role overload on family members"
+   },
+   {
+    "definition": "1. Agreeing a fair division of tasks between partners. 2. Using labour-saving appliances. 3. Getting outside help, such as paid childcare or relatives. 4. Giving older children age-appropriate jobs.",
+    "term": "Four ways to share parental and home-care responsibilities"
+   },
+   {
+    "definition": "1. Flexitime. 2. Job-sharing. 3. Career break. 4. Teleworking.",
+    "term": "Four flexible working arrangements that help families"
+   },
+   {
+    "definition": "1. Disagreement over whose career takes priority. 2. One partner not supporting the other's paid work outside the home.",
+    "term": "Two sources of conflict between partners in a dual-earner household"
+   },
+   {
+    "definition": "1. Children may become more independent. 2. Children learn that care and housework are shared. 3. Children see both parents actively involved in their upbringing.",
+    "term": "Three positive effects of dual-earner families on children"
+   },
+   {
+    "definition": "Choose twenty named home tasks, design a questionnaire asking who usually does each one, survey a sample anonymously, and count the answers in each category.",
+    "term": "First steps in the household task survey"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Reconciling paid work with family life depends on how a household divides its roles and tasks between its members.",
+    "h": "Dual-earner families and changing sex roles",
+    "points": [
+     "A dual-earner family is one in which both partners are in paid employment.",
+     "A role is the set of behaviours and responsibilities expected of a person in a position such as parent, employee, partner or homemaker.",
+     "Traditional sex roles gave the man the main earning role and the woman the main responsibility for childcare and home care.",
+     "Sex roles have loosened as more women take up paid work and more men take an active part in childcare and housework.",
+     "Children learn sex roles from the way tasks are shared at home, as well as from school, peers and the media."
+    ]
+   },
+   {
+    "h": "Role overload",
+    "points": [
+     "Role overload occurs when one person tries to perform several roles at the same time, for example employee, parent and homemaker, and cannot meet the demands of all of them.",
+     "Effects on the individual: less leisure and rest time, tiredness, and stress.",
+     "Effects on work: difficulty finding time for training, extra hours or promotion, and pressure to take work home.",
+     "Effects on the family: tension between partners and other family members, and neglect of family tasks that no one has time to do.",
+     "Vulnerable members, such as young children, an elderly relative or a family member who is ill, may have no one available to care for them.",
+     "Women often carry a larger share of the strain because they usually remain the main carers at home."
+    ]
+   },
+   {
+    "h": "Role conflict",
+    "points": [
+     "Role conflict arises when the expectations of one role clash with the expectations of another.",
+     "Example: a child becomes sick and needs a parent at home while a work deadline requires the parent to stay at work.",
+     "Priority choice: a parent must decide which role to put first at a given moment, and that decision often causes guilt.",
+     "Conflict between partners: one partner may not support the other's employment, or the couple may compete over career priorities.",
+     "Conflict with the employer: an employer may expect availability that clashes with school hours and childcare arrangements.",
+     "Outcome: family members may feel lonely or neglected, and the family may need outside help to resolve the conflict."
+    ]
+   },
+   {
+    "h": "Distribution of parental and home-care responsibilities",
+    "points": [
+     "Parental responsibilities include feeding, supervising, transporting and supporting children, helping with homework, and giving emotional support.",
+     "Home-care responsibilities include cooking, cleaning, laundry, shopping, budgeting and maintaining the home.",
+     "Fair sharing: partners agree which tasks each one owns, so that tasks are not done only when one partner asks for help.",
+     "Labour-saving appliances, such as washing machines, dishwashers and microwave ovens, reduce the time needed for home-care tasks.",
+     "Outside help, such as paid childcare, cleaning services, or grandparents and other relatives, takes over some parental and home-care duties.",
+     "Older children can take on age-appropriate tasks, such as tidying their rooms or setting the table, which builds independence.",
+     "When both parents take an active part in care, children see shared parenting as normal, which models gender equality."
+    ]
+   },
+   {
+    "h": "Impact of dual-earner families on family life",
+    "points": [
+     "Positive: a second income raises household living standards and reduces financial worry.",
+     "Positive: children may become more independent when they take on responsibilities.",
+     "Positive: when parents share tasks, children learn that care and housework are shared responsibilities.",
+     "Negative: less time for shared family activities and conversation can weaken family relationships.",
+     "Negative: children may feel lonely or neglected, especially at times such as after school or when they are ill.",
+     "Negative: extra responsibility falls on older children, who may become carers for younger siblings.",
+     "Negative: childcare costs can absorb a large part of the second income."
+    ]
+   },
+   {
+    "b": "Employers and employees use working arrangements that give more control over when and where work is done.",
+    "h": "Ways to reconcile employment with family responsibilities",
+    "points": [
+     "Flexitime: the employee chooses start and finish times within agreed limits, so that the working day can fit around school hours.",
+     "Job-sharing: two employees share one full-time post, dividing the hours and responsibilities between them.",
+     "Parental leave: unpaid leave taken to care for a child, which may be taken in blocks or spread over an agreed period.",
+     "Career break: a temporary period of unpaid leave that allows the employee to return to the same job later.",
+     "Teleworking: working from home reduces commuting time and lets a parent be available around the home.",
+     "Part-time and term-time work: reduced hours allow the employee to be at home during school hours or school holidays.",
+     "Compressed working week: longer working days over fewer days free up time for family commitments."
+    ]
+   },
+   {
+    "h": "Investigation: survey of male and female roles in home tasks",
+    "points": [
+     "Aim: to find out how male and female family members share twenty named home tasks.",
+     "Method step 1: list twenty home tasks, such as cooking, ironing, grocery shopping, car maintenance, paying bills and childminding.",
+     "Method step 2: design a questionnaire that asks who usually does each task: mainly male, mainly female, shared or someone else.",
+     "Method step 3: survey a sample of students, or their parents, and ask respondents to answer about their own household.",
+     "Method step 4: keep responses anonymous, so that no family or individual can be identified.",
+     "Analysis: count the answers in each category for each task and express each category as a percentage of the total answers.",
+     "Conclusion: the results show whether the sample's home tasks are still divided on traditional sex-role lines or are shared, and link this to dual-earner households."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Role overload: one person tries to perform several roles at the same time and cannot meet the demands of all of them. Effect 1: reduced leisure and rest time, leading to tiredness and stress. Effect 2: tension between partners and family members, or neglect of family tasks that no one has time to complete.",
+    "prompt": "Define role overload and state two effects it can have on a dual-earner family.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Dual-earner family: both partners are in paid employment. Role conflict: the expectations of one role clash with another, for example a sick child needing a parent at home while a work deadline requires the parent to stay at work; a parent must choose a priority and may feel guilt; partners may compete over career priorities or one may not support the other's employment. Distribution of parental responsibilities: partners share supervision, transport, homework and emotional support; older children may take on extra duties; outside help such as paid childcare or relatives may take over some tasks. Distribution of home-care responsibilities: partners agree a fair division of cooking, cleaning and laundry; labour-saving appliances reduce the time needed. Positive impacts: higher household income and lower financial worry; children become more independent and learn that care is shared. Negative impacts: less time for shared family activities, weaker relationships, children feeling lonely or neglected, and childcare costs absorbing much of the second income. Reconciling strategies: flexitime, job-sharing, parental leave, career breaks and teleworking allow parents to fit work around family needs.",
+    "prompt": "Discuss the impact of dual-earner families on family life, with reference to role conflict and the distribution of parental and home-care responsibilities.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s6": {
+  "keyTerms": [
+   {
+    "definition": "The supervision, care and development of children while parents are at work or otherwise unable to care for them.",
+    "term": "Child care"
+   },
+   {
+    "definition": "A centre-based day service that cares for children in groups during the working day.",
+    "term": "Crèche"
+   },
+   {
+    "definition": "An adult who cares for one or a small number of children in the minder's own home.",
+    "term": "Childminder"
+   },
+   {
+    "definition": "A young person, often from abroad, who lives with a family, provides childcare and does light household duties.",
+    "term": "Au pair"
+   },
+   {
+    "definition": "A service that collects children from school and cares for them until a parent is free to collect them.",
+    "term": "After-school care"
+   },
+   {
+    "definition": "A sessional pre-school service for young children, usually running for a few hours a day.",
+    "term": "Playschool"
+   },
+   {
+    "definition": "A pre-school approach that encourages children to learn through self-directed activity with structured materials.",
+    "term": "Montessori method"
+   },
+   {
+    "definition": "An Irish-medium pre-school in which children learn through the Irish language.",
+    "term": "Naíonra"
+   },
+   {
+    "definition": "How close a child care service is to the home or the workplace, which affects travel time.",
+    "term": "Proximity"
+   },
+   {
+    "definition": "The ability of a child care service to stay open and provide care when staff are ill or on leave.",
+    "term": "Reliability of cover"
+   },
+   {
+    "definition": "1. Whether both parents or a lone parent are working. 2. Whether relatives are available to help. 3. Cost. 4. Hours needed, including after-school and holiday cover. 5. The child's age or special needs.",
+    "term": "Five factors that determine a family's child care requirements"
+   },
+   {
+    "definition": "1. Fixed daily opening hours. 2. Cover from several staff when one is absent. 3. Structured activities and peer play. 4. Staff with early-childhood qualifications.",
+    "term": "Four advantages of a crèche for a working family"
+   },
+   {
+    "definition": "1. The service depends on one adult, so illness or holidays leave no cover. 2. Planned educational activities may be narrower than in a larger centre. 3. The family must check the minder's training, safety and insurance.",
+    "term": "Three drawbacks of a childminder"
+   },
+   {
+    "definition": "1. Cost and hours. 2. Hygiene and safety. 3. Staffing cover and reliability. 4. Staff qualifications and activities for the child's age.",
+    "term": "Four criteria for evaluating any child care option"
+   },
+   {
+    "definition": "Children become more socially aware, form relationships outside the home, grow more independent and confident, and develop intellectually and physically through play.",
+    "term": "Benefits of pre-school education for children"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The child care a family needs depends on its working pattern, its support network and the child's needs.",
+    "h": "Family requirements for child care",
+    "points": [
+     "Working pattern: whether both parents, or a lone parent, are in paid work, and how many hours each works.",
+     "Support network: whether grandparents, other relatives or friends are available and willing to mind the child.",
+     "Cost: what the family can afford to pay, which may limit the options available.",
+     "After-school and holiday cover: school closing times and school holidays create gaps that the family must fill.",
+     "Availability and convenience: the option must be open at the times needed and reachable without a long journey.",
+     "Hours and flexibility: the option must cover the parents' hours, including early starts, late finishes and changing shifts.",
+     "Proximity: a service near home or near work reduces travel time for the child and the parent.",
+     "Child's age or special needs: the option must suit the child's stage of development and any additional care needs.",
+     "Reliability: the option must stay open during staff illness and closures, so that the parent is not left without cover."
+    ]
+   },
+   {
+    "h": "Types of child care option",
+    "points": [
+     "Crèche or day nursery: a centre that cares for children in groups during the working day.",
+     "Childminder: an adult who minds one or a small number of children in the minder's own home.",
+     "Nanny: a carer employed by the family, who usually looks after the children in the family home.",
+     "Au pair: a young person, often from abroad, who lives with the family, provides childcare and does light household duties.",
+     "Relative or friend: a grandparent, aunt, uncle or friend who minds the child informally.",
+     "After-school group: a service that collects children from school and cares for them until a parent finishes work.",
+     "Playschool or playgroup: a sessional service for pre-school children, usually running for a few hours in the morning or afternoon.",
+     "Montessori: a pre-school method that encourages self-directed learning through structured materials and activities.",
+     "Naíonra: an Irish-medium pre-school where the children learn through the Irish language."
+    ]
+   },
+   {
+    "h": "Benefits of pre-school education for children",
+    "points": [
+     "Children become more socially aware by playing and interacting with other children.",
+     "Children form relationships outside the home and learn to share and take turns.",
+     "Children become more independent and confident when they are cared for away from their parents.",
+     "Intellectual development is supported through activities that build language, number and problem-solving skills.",
+     "Physical development is supported through games and active play, which build coordination and fitness."
+    ]
+   },
+   {
+    "h": "Crèche and day nursery",
+    "points": [
+     "Advantages: fixed daily opening hours, which suit parents with regular working patterns.",
+     "Advantages: several staff care for a group of children, so cover is available when one staff member is absent.",
+     "Advantages: structured activities and peer play support the child's social and intellectual development.",
+     "Advantages: staff often hold early-childhood qualifications and work to a written programme.",
+     "Disadvantages: fixed hours give little flexibility when a parent's shift changes at short notice.",
+     "Disadvantages: group care exposes young children to infections, so they may be ill more often.",
+     "Disadvantages: fees are often charged by the session or by the week, and can be a significant cost for the family."
+    ]
+   },
+   {
+    "h": "Childminder",
+    "points": [
+     "Advantages: care is given in a home setting with a small group, which suits very young children.",
+     "Advantages: childminders are often able to offer flexible or extended hours.",
+     "Advantages: the child receives individual attention and the minder may collect children from school.",
+     "Disadvantages: the service depends on one adult, so illness, holidays or an emergency can leave the family without cover.",
+     "Disadvantages: the range of planned educational activities may be narrower than in a larger centre.",
+     "Disadvantages: the family must check the minder's experience, training, safety and insurance before making a decision."
+    ]
+   },
+   {
+    "h": "Criteria for evaluating a child care option",
+    "points": [
+     "Cost: the total weekly cost, including fees, extras such as meals or outings, and the cost of travel.",
+     "Hours and location: whether the opening hours and the journey time fit the parents' working day.",
+     "Hygiene and safety: cleanliness of premises, safe equipment, secure entry and a safety policy.",
+     "Staff qualifications and training: the level of early-childhood training held by the staff.",
+     "Staffing cover: what happens when a staff member is ill or on leave.",
+     "Activities and learning: the play, learning and outdoor activities provided for the child's age.",
+     "Suitability for the child: whether the option meets any additional needs and whether the child is happy there."
+    ]
+   },
+   {
+    "b": "An evaluation compares each option with the family's requirements, then weighs its advantages against its disadvantages.",
+    "h": "Evaluating two child care options (Higher Level only)",
+    "points": [
+     "Step 1: identify the two options and the family requirements they must meet, such as hours, cost, reliability and the child's age.",
+     "Step 2: test each option against each requirement, rating how well it meets it.",
+     "Step 3: compare the options point by point; a crèche offers fixed hours and cover for absent staff, while a childminder offers flexibility and a home setting.",
+     "Step 4: identify which requirement decides the choice; for a family whose hours change often, flexibility may outweigh a crèche's structure.",
+     "Step 5: state the conclusion, showing which option suits which family and what the family must check before choosing."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Option 1 named, for example a crèche, with one advantage such as fixed daily opening hours or cover from several staff when one is absent. Option 2 named, for example a childminder, with one advantage such as a home setting, a small group or flexible hours. Two options and two advantages are needed for full marks.",
+    "prompt": "Name two child care options available to working parents and state one advantage of each.",
+    "type": "short"
+   },
+   {
+    "marks": 18,
+    "model": "Two options identified, for example a crèche and a childminder. Cost: the cost of each option, including fees and extras, weighed against the family's budget. Hours: a crèche's fixed hours against a childminder's possible flexibility for changing shifts. Reliability: a crèche's several staff giving cover for absence against a childminder depending on one adult. Child's needs: the benefit of group play and structured activities for a child's social and intellectual development, against the home setting and individual attention of a childminder. Recommendation: the option that best meets the family's stated requirements, with the reason given and the checks the family should make, such as staff qualifications, safety and cover arrangements.",
+    "prompt": "Evaluate two child care options available to a family in which both parents work full-time. Refer to cost, hours, reliability and the child's needs, and state which option you would recommend.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s7": {
+  "keyTerms": [
+   {
+    "definition": "The time left over after essential activities have been completed, which a person spends as they choose for relaxation or enjoyment.",
+    "term": "Leisure"
+   },
+   {
+    "definition": "Tasks that must be done, such as paid work, sleep, personal care, household tasks and caring for dependants.",
+    "term": "Essential activities"
+   },
+   {
+    "definition": "The income left after essential spending, which can be used for leisure and other choices.",
+    "term": "Disposable income"
+   },
+   {
+    "definition": "Leisure pursued alone or with people outside the family.",
+    "term": "Individual leisure"
+   },
+   {
+    "definition": "Leisure shared by members of one household, such as outings, games or sport together.",
+    "term": "Family leisure"
+   },
+   {
+    "definition": "A classification of people by occupation and income, which influences their access to leisure activities.",
+    "term": "Socio-economic group"
+   },
+   {
+    "definition": "Involving little physical movement, such as sitting for long periods.",
+    "term": "Sedentary"
+   },
+   {
+    "definition": "Exercise in which the body's own weight is carried by the legs, such as walking or dancing, which helps keep bones strong.",
+    "term": "Weight-bearing activity"
+   },
+   {
+    "definition": "The stage a family has reached, such as young children at home, school-going children or retirement, which shapes its leisure time and money.",
+    "term": "Life-cycle stage"
+   },
+   {
+    "definition": "A log of how each hour of a day is spent, used to measure the share of time given to leisure.",
+    "term": "Time-use record"
+   },
+   {
+    "definition": "1. Relaxation and relief from stress. 2. Physical wellbeing. 3. Skill development. 4. Social interaction and family bonding.",
+    "term": "Four functions of leisure in today's society"
+   },
+   {
+    "definition": "1. Co-operation and communication in team sports. 2. Coping with winning and losing. 3. Making new friends and developing leadership skills.",
+    "term": "Three benefits of leisure for children's social development"
+   },
+   {
+    "definition": "1. Occupation and income. 2. Age and life-cycle stage. 3. Culture and family traditions.",
+    "term": "Three factors that influence family leisure patterns"
+   },
+   {
+    "definition": "1. Less money is available for costly activities such as foreign holidays and school trips. 2. Families take up free activities such as walking, and spend more time together at home.",
+    "term": "Two effects of a recession on family leisure"
+   },
+   {
+    "definition": "Walking and dancing, which carry the body's weight through the legs and help reduce the risk of osteoporosis.",
+    "term": "Two examples of weight-bearing leisure activities"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Leisure is time, not an activity. An activity counts as leisure when the person chooses it freely in time left over after necessary tasks.",
+    "h": "Defining leisure",
+    "points": [
+     "Leisure is the residual time left after essential activities have been completed.",
+     "Essential activities include paid work, travel to work, sleep, personal care, household tasks and caring for dependants.",
+     "The individual chooses how to spend leisure time, for ease, relaxation or enjoyment.",
+     "Leisure pursuits are activities such as sport, music, reading, gardening, hobbies, volunteering for pleasure and socialising, chosen within leisure time."
+    ]
+   },
+   {
+    "h": "Function and value of leisure in today's society",
+    "points": [
+     "Relaxation: leisure relieves the stress and fatigue that come from paid work and daily demands.",
+     "Physical wellbeing: active leisure improves fitness, weight control and general health.",
+     "Skill development: leisure allows people to learn and practise new skills, from swimming to a musical instrument.",
+     "Challenge: competitive and creative pursuits give a sense of achievement and personal growth.",
+     "Social interaction: leisure brings people together, forming friendships and wider social networks.",
+     "Family bonding: shared leisure builds relationships and communication between family members.",
+     "Modelling: parents who use free time constructively show children how to do the same.",
+     "Work-life balance: leisure offsets the demands of work and helps people sustain their working lives."
+    ]
+   },
+   {
+    "h": "Individual and family leisure",
+    "points": [
+     "Individual leisure: a person chooses and pursues an activity alone or with a group that is not their family, such as a solo hobby or a club.",
+     "Family leisure: members of one household take part together, such as family outings, meals out, sport or games at home.",
+     "Family leisure builds a shared identity and gives children common experiences and memories.",
+     "Individual leisure allows a person to develop personal interests and independence, which can benefit the whole family."
+    ]
+   },
+   {
+    "h": "Physical and social development through leisure",
+    "points": [
+     "Physical development: sports and active pursuits build muscle tone, improve fitness and increase energy levels.",
+     "Physical development: coordination is developed through activities such as ball games, dance and gymnastics.",
+     "Physical development: weight-bearing activities, such as walking, running and dancing, help reduce the risk of osteoporosis.",
+     "Social development: team sports require co-operation, communication and sharing of responsibility.",
+     "Social development: winning and losing teach people to cope with success and failure, which they meet in wider life.",
+     "Social development: joining a club or team helps a person make new friends and expand their social circle.",
+     "Social development: leisure can develop leadership skills, for example through captaining a team or running a club."
+    ]
+   },
+   {
+    "h": "Emotional and intellectual development through leisure",
+    "points": [
+     "Emotional development: competitive activities can improve self-esteem and confidence.",
+     "Emotional development: relaxing pursuits such as yoga, reading or gardening reduce stress and support mental wellbeing.",
+     "Emotional development: being part of a team or community gives a sense of belonging.",
+     "Emotional development: fun and enjoyment encourage positive emotions and a positive outlook.",
+     "Intellectual development: card games, bridge and chess develop concentration, analysis and planning.",
+     "Intellectual development: debating and drama develop listening skills, argument and self-expression."
+    ]
+   },
+   {
+    "h": "Social and cultural influences on leisure",
+    "points": [
+     "Social group: a person's socio-economic group affects which activities are available and affordable.",
+     "Local factors: the clubs, facilities and transport in a person's area shape which activities they can join.",
+     "Trends: popular activities, such as skateboarding or foreign travel, spread through peer groups and the media.",
+     "Culture: traditions tied to a region or country, such as hurling in Ireland, Irish music and Irish dancing, or flamenco in Spain.",
+     "Family traditions: activities handed down through families, such as music or sport, shape a person's leisure from childhood.",
+     "Children often take up the leisure activities their parents enjoy."
+    ]
+   },
+   {
+    "h": "Occupation and income as influences on leisure",
+    "points": [
+     "Disposable income: the money left after essential spending determines how much can be spent on leisure.",
+     "Cost of leisure: membership fees, joining fees, pay-as-you-go charges and special clothing or equipment all add to the cost.",
+     "Low-cost choices: people with little disposable income often choose free or inexpensive activities, such as walking.",
+     "Working hours: long or irregular hours reduce the time available for leisure.",
+     "Type of work: a sedentary worker may choose an energetic activity, and an active worker may prefer a quiet pursuit.",
+     "Leisure can be an extension of work, for example when a person's job involves sport or the arts.",
+     "Part-time work, job-sharing and career breaks create more time for leisure.",
+     "Recession: a fall in income reduces spending on costly activities such as foreign holidays, while people spend more time on free activities."
+    ]
+   },
+   {
+    "h": "Age and life-cycle stage",
+    "points": [
+     "Young people have fewer commitments and more time for leisure.",
+     "Couples with young children usually have the least time and disposable income for leisure.",
+     "Families with school-going children often have leisure built around school sport, clubs and outings.",
+     "Retired couples usually have more time and money for leisure.",
+     "Older people may have physical limits that restrict them to less strenuous or sedentary pursuits.",
+     "Some activities are regarded as too dangerous for young children, so families choose age-appropriate pursuits for them."
+    ]
+   },
+   {
+    "h": "Gender influences on leisure",
+    "points": [
+     "Some activities are dominated by one gender, which can affect whether a person feels welcome to take part.",
+     "Gender affects the time available for leisure, because household and caring duties still fall mainly on women in many families.",
+     "Changing gender roles have reduced the strength of traditional divisions in leisure choices."
+    ]
+   },
+   {
+    "h": "Investigation: time-use record and costing leisure pursuits",
+    "points": [
+     "Aim: to find out how a person spends their day and how much of that time is leisure.",
+     "Method step 1: keep a record of each hour of a typical day, noting each activity.",
+     "Method step 2: sort each entry into essential activities (sleep, personal care, paid work, household tasks) and leisure.",
+     "Method step 3: add the hours in each category and express the leisure time as a percentage of the day.",
+     "Method step 4: list each leisure pursuit and cost it, including membership fees, equipment, travel and pay-as-you-go charges.",
+     "Method step 5: list the physical, social, emotional and intellectual benefits of each pursuit beside its cost, so that value can be judged.",
+     "Case study method: compare the time-use records of families at different life-cycle stages, such as a couple with young children and a retired couple."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Leisure: the time left over after essential activities such as paid work, sleep, personal care and household tasks have been completed, which a person spends as they choose for relaxation or enjoyment. Benefit 1: relaxation and relief from stress, which improves wellbeing. Benefit 2: family bonding and communication through shared activities, or social interaction that strengthens relationships. Two benefits are required for full marks.",
+    "prompt": "Define leisure and give two benefits of leisure for family members.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Age: young families have fewer commitments but couples with young children have least time and money; retired couples have more of both; older people may have physical limits that restrict them to sedentary pursuits. Occupation: disposable income and working hours decide the time and money available; sedentary workers may choose energetic activities; part-time work or job-sharing creates more time. Culture: regional and national traditions such as hurling, Irish music and Irish dancing shape family choices, and family traditions are passed on to children. Gender: some activities are dominated by one gender, and household and caring duties affect the time available. Physical development: sport builds fitness, muscle tone and coordination, and weight-bearing activities help reduce the risk of osteoporosis. Social development: team sports teach co-operation, communication, coping with success and failure, and making friends. Emotional development: competitive and relaxing pursuits build self-esteem, confidence, a sense of belonging and stress relief.",
+    "prompt": "Discuss how family leisure activities are influenced by age, occupation, culture and gender, and explain the role of leisure in the physical, social and emotional development of children.",
+    "type": "short"
+   }
+  ]
+ },
+ "hom-work-leisure-s8": {
+  "keyTerms": [
+   {
+    "definition": "A leisure facility provided and run by a local authority or other public body, such as a swimming pool or library.",
+    "term": "Public leisure facility"
+   },
+   {
+    "definition": "A leisure facility run for profit, such as a private gym, cinema or golf club.",
+    "term": "Commercial leisure facility"
+   },
+   {
+    "definition": "A leisure facility run by a non-profit group or club, such as a GAA club or community centre.",
+    "term": "Voluntary leisure facility"
+   },
+   {
+    "definition": "A regular payment that gives a person continued use of a leisure facility.",
+    "term": "Membership fee"
+   },
+   {
+    "definition": "A system in which a user pays a fee each time they use a facility, rather than a membership fee.",
+    "term": "Pay-as-you-go"
+   },
+   {
+    "definition": "A reduced fee offered to a group such as students, children, older people or unemployed people.",
+    "term": "Concession"
+   },
+   {
+    "definition": "The ease with which a facility can be reached and used, including by people with disabilities.",
+    "term": "Accessibility"
+   },
+   {
+    "definition": "The benefit gained from a facility in relation to the cost of using it.",
+    "term": "Value for money"
+   },
+   {
+    "definition": "The total annual cost of a facility divided by the number of visits made in the year.",
+    "term": "Cost per visit"
+   },
+   {
+    "definition": "A one-off payment made when a person first joins a leisure facility as a member.",
+    "term": "Joining fee"
+   },
+   {
+    "definition": "1. Public facilities, such as swimming pools, leisure centres and libraries. 2. Commercial facilities, such as gyms, cinemas and golf clubs. 3. Voluntary or community facilities, such as GAA clubs and community centres.",
+    "term": "Three types of leisure facility in a community"
+   },
+   {
+    "definition": "1. Cost and value. 2. Accessibility. 3. Range of activities. 4. Safety, hygiene and staffing.",
+    "term": "Four criteria for evaluating a leisure facility"
+   },
+   {
+    "definition": "1. Fixed charges, such as a membership fee or joining fee. 2. Variable charges, such as pay-as-you-go fees, class fees and equipment hire.",
+    "term": "Two types of charge a leisure facility makes"
+   },
+   {
+    "definition": "1. Extend opening hours to early mornings, evenings and weekends. 2. Offer concessions for families and older people. 3. Provide access for people with disabilities, such as ramps, lifts and accessible changing rooms.",
+    "term": "Three ways to improve the accessibility of a leisure facility"
+   },
+   {
+    "definition": "The total annual cost of using the facility divided by the number of visits made in the year.",
+    "term": "Formula for cost per visit"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Leisure facilities are provided by public bodies, commercial businesses and voluntary groups, and each type is funded and run differently.",
+    "h": "Types of leisure facility in the community (Higher Level only)",
+    "points": [
+     "Public facilities are provided by local authorities and include swimming pools, leisure centres, libraries, parks, playgrounds and sports pitches.",
+     "Commercial facilities are run for profit and include gyms, private health clubs, cinemas, bowling alleys and golf clubs.",
+     "Voluntary and community facilities are run by non-profit groups and include GAA clubs, tennis clubs, community centres and youth clubs.",
+     "Public facilities are funded mainly by local authority budgets and user charges, and their fees are set by the provider.",
+     "Commercial facilities depend on fees from users for their income, so the fee charged must cover running costs and make a profit.",
+     "Voluntary facilities depend on volunteers and member subscriptions, so their range and condition vary from club to club."
+    ]
+   },
+   {
+    "b": "An evaluation judges a facility against fixed criteria, so that two facilities can be compared on the same basis.",
+    "h": "Criteria for evaluating a leisure facility (Higher Level only)",
+    "points": [
+     "Cost: the fees charged, judged against what the user can afford.",
+     "Value: the benefits the user gains from the facility, judged against its cost.",
+     "Accessibility: the ease of reaching the facility and using it, including location, transport and access for people with disabilities.",
+     "Range of facilities: the number and variety of activities, such as pools, classes, courts or equipment, that the facility offers.",
+     "Convenience: whether the opening hours and booking arrangements suit the user's working and family pattern.",
+     "Safety and hygiene: the cleanliness of changing areas and equipment, supervision, and emergency procedures.",
+     "Staffing: the qualifications of instructors and lifeguards, and the level of supervision during sessions.",
+     "Social benefits: the opportunity to meet people and join groups, classes or teams.",
+     "Physical, emotional and intellectual benefits: the gains in fitness, relaxation and skill that the facility makes possible."
+    ]
+   },
+   {
+    "h": "Accessibility and convenience (Higher Level only)",
+    "points": [
+     "Location: a facility close to home or work reduces travel time and cost, and is more likely to be used regularly.",
+     "Transport: the availability of buses or trains and the provision of parking affect how easily a user can get there.",
+     "Access for people with disabilities: ramps, lifts, accessible changing rooms and pool hoists allow people with mobility difficulties to use the facility.",
+     "Opening hours: early, late and weekend hours suit people who work or attend school during the day.",
+     "Booking systems: online booking and advance booking of classes make it easier to plan use, while queues and walk-in only systems can discourage use.",
+     "Family access: facilities that allow children and adults to use the same area together make family leisure easier to organise."
+    ]
+   },
+   {
+    "h": "Cost of using a facility (Higher Level only)",
+    "points": [
+     "Membership fee: a regular fee, usually paid monthly or yearly, that gives unlimited or extended use of the facility.",
+     "Joining fee: a one-off payment made when a person first becomes a member of a facility.",
+     "Pay-as-you-go charge: a fee paid each time the facility is used, which suits people who visit only occasionally.",
+     "Class and course fees: extra charges for instructor-led sessions, which are often separate from the basic entry or membership fee.",
+     "Concessions: reduced fees for students, children, older people and unemployed people, which lower the cost for these groups.",
+     "Hidden costs: travel, equipment, clothing and locker or towel hire add to the total cost of using a facility.",
+     "Total annual cost: the sum of membership or joining fees, pay-as-you-go charges, class fees and travel for one year."
+    ]
+   },
+   {
+    "h": "Value and value for money (Higher Level only)",
+    "points": [
+     "Value is the benefit a person gains from a facility, measured in fitness, enjoyment, social contact and skill.",
+     "Value for money is the benefit gained for each euro spent, so a cheap facility that is rarely used may offer poor value.",
+     "A facility offers more value when its range of activities matches the user's interests, and when the user actually uses those activities.",
+     "Cost per visit is found by dividing the total annual cost by the number of visits made in the year.",
+     "A low cost per visit shows that the facility is used often, which generally means better value for regular users.",
+     "Value depends on the user: a person who uses only the pool may find a high-fee gym poor value, even though it offers more activities."
+    ]
+   },
+   {
+    "h": "Cost and value comparison of two facilities (Higher Level only)",
+    "points": [
+     "Step 1: select two facilities that serve the same community and are used for the same purpose, such as fitness or swimming.",
+     "Step 2: find each facility's fees: membership, joining, pay-as-you-go and class fees.",
+     "Step 3: calculate the total annual cost of each facility, including the travel cost of getting there.",
+     "Step 4: estimate the number of visits per year for the user, and divide the total annual cost by that number to find the cost per visit.",
+     "Step 5: list the benefits each facility gives the user, including fitness, social contact, relaxation and skill, and compare them with the cost.",
+     "Step 6: state which facility gives better value for the user, and say what would change the conclusion, such as a change in visits or income."
+    ]
+   },
+   {
+    "h": "Evaluation judgement and improvements (Higher Level only)",
+    "points": [
+     "An evaluation weighs the strengths of each facility against its weaknesses, then reaches a judgement for a named type of user.",
+     "A facility with low fees but few activities may suit a student who wants cheap exercise, but not a family wanting varied activities.",
+     "Improvements a facility could make include extended opening hours, reduced fees for families and older people, and better access for people with disabilities.",
+     "Improvements to booking and information, such as online timetables, make a facility easier to use and so raise its value."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Calculation: add the membership or joining fees, pay-as-you-go charges, class fees and travel costs for one year to find the total annual cost, then divide that total by the number of visits made in the year. Usefulness: it allows two facilities with different fee structures to be compared on the same basis, and it shows whether a facility gives good value to a regular user. Both the method and the reason are needed for full marks.",
+    "prompt": "Explain how to calculate the cost per visit of a leisure facility and state why this figure is useful when comparing two facilities.",
+    "type": "short"
+   },
+   {
+    "marks": 24,
+    "model": "Two facilities identified, one public and one commercial or voluntary. Cost: fees for membership, joining, pay-as-you-go and classes, plus travel, totalled for one year and divided by the expected number of family visits to give cost per visit. Value: the benefits each facility gives, such as physical fitness, social contact and skill development for each family member, weighed against cost. Accessibility: location, transport, opening hours, booking arrangements and access for people with disabilities. Range of activities: whether the facility offers activities suited to all ages in the family, and whether they can be used together. Recommendation: the facility giving the lower cost per visit and the wider benefit for the family, with the reason stated and any improvements suggested, such as concessions for families or extended opening hours.",
+    "prompt": "Evaluate two leisure facilities in your community, including a cost and value comparison. Refer to accessibility and the range of activities, and recommend which facility gives better value to a family of four.",
     "type": "short"
    }
   ]

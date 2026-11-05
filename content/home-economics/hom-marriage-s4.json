@@ -1,0 +1,136 @@
+{
+  "loId": "hom-marriage-s4",
+  "chapterId": "hom-marriage",
+  "subsection": "4. When a marriage breaks down",
+  "syllabusRef": "3.1.5",
+  "notes": [
+    {
+      "h": "Marriage counselling",
+      "b": "Counselling is the first option for a couple in difficulty, and it aims to resolve problems before separation or divorce becomes necessary.",
+      "points": [
+        "Counsellors help couples resolve marriage problems before they become grounds for separation or divorce.",
+        "The service is confidential, and partners may attend together, separately or, where relevant, with their children.",
+        "Several visits may be needed before the couple reaches a resolution.",
+        "Counsellors may refer couples to specialist counsellors for specific problems such as addiction or difficulties in sexual relations.",
+        "Marriage counselling is provided by Accord and by other independent counselling services in Ireland."
+      ]
+    },
+    {
+      "h": "Family mediation",
+      "b": "Mediation is an alternative to court for a couple who have agreed to separate or divorce.",
+      "points": [
+        "The Family Mediation Service in Ireland offers a confidential service to couples who have agreed to separate or divorce.",
+        "An impartial mediator meets the couple together and helps them negotiate their own agreement, rather than deciding for them.",
+        "Issues negotiated include parenting arrangements, custody and access to children, division of finances, maintenance, and property including the family home.",
+        "Mediation keeps children out of conflict, encourages communication, and helps partners accept the separation.",
+        "Mediation can avoid court proceedings, which are more expensive and adversarial."
+      ]
+    },
+    {
+      "h": "Legal separation",
+      "b": "Legal separation is a private, legally binding agreement under which spouses live apart but remain married.",
+      "points": [
+        "Terms are set out in a deed of separation, which is a binding written contract between the spouses.",
+        "The deed covers living apart, the care of dependent children, maintenance, and arrangements for the family home.",
+        "A solicitor should draw up the deed, and a mediator can help the spouses negotiate its terms.",
+        "Legal separation can be arranged without court proceedings where both spouses agree to the terms.",
+        "Spouses who are legally separated are still married and cannot remarry.",
+        "Judicial separation is different: it is a court order made when spouses cannot agree the terms of separation, and it is covered under the Family Law topic."
+      ]
+    },
+    {
+      "h": "Legal nullity and church annulment",
+      "b": "Nullity and annulment both declare a marriage invalid, but only a legal nullity decree ends the marriage in the eyes of the State.",
+      "points": [
+        "Legal nullity is a declaration by a court that a marriage was never valid in law.",
+        "Couples married in a civil or State-recognised religious ceremony need a legal nullity decree before either spouse can remarry without committing bigamy.",
+        "Church annulment is granted by a Church marriage tribunal, which studies the marriage and declares it annulled.",
+        "A church annulment has no legal standing with the State, so the couple remain legally married."
+      ]
+    },
+    {
+      "h": "Divorce",
+      "b": "Divorce legally ends a marriage and was introduced in Ireland by the Family Law (Divorce) Act 1996, after the 1995 referendum.",
+      "points": [
+        "The Family Law (Divorce) Act 1996 was amended by the Family Law Act 2019, which reduced the living-apart period from four of the previous five years to two of the previous three.",
+        "The spouses must have lived apart for a period or periods amounting to at least two years during the previous three years.",
+        "There must be no reasonable prospect of reconciliation between the spouses.",
+        "Proper provision must be made for the spouse and any dependent children before a divorce is granted.",
+        "When granting a divorce, the court may make orders on custody and access, allocation of property, payment of maintenance, and extinguishment of succession rights.",
+        "A decree of divorce cannot be reversed, and each spouse may then remarry."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Marriage counselling",
+      "definition": "A confidential service that helps couples resolve difficulties in their marriage before separation or divorce becomes necessary."
+    },
+    {
+      "term": "Family mediation",
+      "definition": "A confidential process in which an impartial mediator helps a separating couple negotiate their own agreement on children, finances and property."
+    },
+    {
+      "term": "Legal separation",
+      "definition": "A binding agreement, usually set out in a deed of separation, under which spouses live apart while remaining married."
+    },
+    {
+      "term": "Deed of separation",
+      "definition": "A legally binding written contract between separating spouses that sets out the terms of their separation."
+    },
+    {
+      "term": "Legal nullity",
+      "definition": "A court declaration that a marriage was never valid in law, which allows the parties to remarry."
+    },
+    {
+      "term": "Church annulment",
+      "definition": "A declaration by a Church marriage tribunal that a marriage is annulled, which has no legal effect in the State."
+    },
+    {
+      "term": "Divorce",
+      "definition": "The legal ending of a valid marriage by a court, which allows each spouse to remarry."
+    },
+    {
+      "term": "Reconciliation",
+      "definition": "The restoration of a normal marital relationship between spouses who have experienced difficulties."
+    },
+    {
+      "term": "Dependent child",
+      "definition": "A child who relies on a parent or guardian for financial support and care."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three conditions for divorce under the Family Law (Divorce) Act 1996",
+      "definition": "The spouses have lived apart for at least two of the previous three years; there is no reasonable prospect of reconciliation; and proper provision has been made for the spouse and dependent children."
+    },
+    {
+      "term": "Three areas a deed of separation covers",
+      "definition": "The care of dependent children, maintenance, and arrangements for the family home."
+    },
+    {
+      "term": "Three things a family mediator does",
+      "definition": "Meets the couple together as an impartial third party, helps them negotiate terms on children, finances and property, and encourages communication so that they can reach their own agreement."
+    },
+    {
+      "term": "Legal status of a church annulment",
+      "definition": "It has no legal standing with the State, so the couple remain legally married."
+    },
+    {
+      "term": "Court orders available on divorce",
+      "definition": "Custody and access, allocation of property, payment of maintenance, and extinguishment of succession rights."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between legal separation and divorce, explaining whether the spouses remain married under each.",
+      "model": "Legal separation is a binding agreement, set out in a deed of separation, under which spouses live apart; the spouses remain married and cannot remarry. Divorce is a court process that legally ends a valid marriage, so each spouse is free to remarry once a decree has been granted. A legal separation can be arranged through mediation without court proceedings where both spouses agree; a divorce requires a court to be satisfied that the spouses have lived apart for the qualifying period, that there is no reasonable prospect of reconciliation, and that proper provision has been made for the spouse and children."
+    },
+    {
+      "marks": 20,
+      "prompt": "Outline the options available to a couple whose marriage is in difficulty, stating the purpose of each option and the conditions a couple must meet for divorce.",
+      "model": "Marriage counselling: a confidential service that helps couples resolve problems before they become grounds for separation or divorce; partners may attend together or separately, several visits may be needed, and specialist counsellors can be used for issues such as addiction. Family mediation: a confidential process in which an impartial mediator helps a separating couple negotiate their own agreement on parenting, custody and access, finances, maintenance and the family home, as an alternative to court. Legal separation: a binding deed of separation, drawn up by a solicitor, covering living apart, children, maintenance and the family home; the spouses remain married. Legal nullity: a court declaration that the marriage was never valid, which allows remarriage; a church annulment has no legal standing. Divorce: the Family Law (Divorce) Act 1996, as amended by the Family Law Act 2019, requires that the spouses have lived apart for the qualifying period set by the Act, that there is no reasonable prospect of reconciliation, and that proper provision has been made for the spouse and dependent children; the court may then make orders on custody, property, maintenance and succession rights, and the decree cannot be reversed."
+    }
+  ]
+}

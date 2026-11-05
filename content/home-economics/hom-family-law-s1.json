@@ -1,0 +1,109 @@
+{
+  "loId": "hom-family-law-s1",
+  "chapterId": "hom-family-law",
+  "subsection": "1. The Family Law (Maintenance of Spouses and Children) Act 1976",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Purpose and who is protected",
+      "b": "The Act gives a financially dependent spouse and dependent children a legal right to maintenance, meaning regular financial support, from the spouse or parent who can pay it when a relationship breaks down.",
+      "points": [
+        "A dependent spouse or civil partner is one who does not have the financial resources to support themselves.",
+        "A dependent spouse can claim maintenance from the other spouse if the relationship breaks down and no other means of support is available.",
+        "The parent who has custody of a dependent child is entitled to maintenance for that child, whichever parent is paying.",
+        "Maintenance is still payable where the parents continue to share the same house after separating.",
+        "Maintenance covers the day-to-day costs of the dependant, such as food, clothing, housing and other necessities."
+      ]
+    },
+    {
+      "h": "How maintenance is obtained",
+      "points": [
+        "Step 1: the parties try to reach a maintenance agreement, a written arrangement setting out the amount and frequency of payments.",
+        "Step 2: if no agreement can be reached, the dependant applies to the District Court for a maintenance order.",
+        "Step 3: the court hears the application and, if it is granted, orders the supporting spouse or parent to pay a set amount to the dependant.",
+        "A maintenance agreement is a private arrangement between the parties, whereas a maintenance order is made by the court and can be enforced by it."
+      ]
+    },
+    {
+      "h": "Enforcing unpaid maintenance",
+      "points": [
+        "If the supporting spouse or parent fails to pay, the court can grant an Attachment of Earnings Order.",
+        "An Attachment of Earnings Order deducts money from the wages of the person who owes maintenance and pays it directly to the dependant.",
+        "Maintenance owed under a court order is enforceable, so the dependant can return to court if payments stop."
+      ]
+    },
+    {
+      "h": "Family breakdown terms used with the Act",
+      "points": [
+        "Separation: spouses live apart, either by private agreement or by court order; separation does not end the marriage.",
+        "Divorce: a legal process that ends a marriage, governed by the Family Law (Divorce) Act 1996 as amended by the Family Law Act 2019.",
+        "Maintenance orders can exist alongside a separation or divorce, so the dependant's support is protected whatever the legal status of the marriage.",
+        "Protection under this Act is available whether the dependant is a spouse, a civil partner or a child, which is why it is described as protection for the whole family."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Dependent spouse",
+      "definition": "A spouse who does not have the financial resources to support themselves after a relationship breaks down."
+    },
+    {
+      "term": "Maintenance",
+      "definition": "Regular financial support paid by a spouse or parent to a dependant for everyday needs such as food, clothing and housing."
+    },
+    {
+      "term": "Maintenance agreement",
+      "definition": "A private, written arrangement between the parties setting out the amount and frequency of maintenance payments."
+    },
+    {
+      "term": "Maintenance order",
+      "definition": "A court order, made by the District Court, requiring a person to pay maintenance to a dependant."
+    },
+    {
+      "term": "Attachment of Earnings Order",
+      "definition": "A court order that deducts maintenance directly from the wages of the person who owes it."
+    },
+    {
+      "term": "Custodial parent",
+      "definition": "The parent with whom a dependent child lives and who has day-to-day care of the child."
+    },
+    {
+      "term": "Dependant",
+      "definition": "A person, such as a spouse or child, who relies on another for financial support and may claim maintenance under the Act."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Steps to obtain a maintenance order",
+      "definition": "First try a maintenance agreement; if none is reached, apply to the District Court for a maintenance order."
+    },
+    {
+      "term": "Enforcement of unpaid maintenance",
+      "definition": "An Attachment of Earnings Order deducts maintenance from the paying person's wages and pays it directly to the dependant."
+    },
+    {
+      "term": "Who can claim maintenance under the Act",
+      "definition": "A dependent spouse or civil partner, and a parent with custody of a dependent child."
+    },
+    {
+      "term": "Court that hears maintenance applications",
+      "definition": "The District Court, which makes maintenance orders when parties cannot agree."
+    },
+    {
+      "term": "Effect of sharing a home on maintenance",
+      "definition": "Maintenance remains payable to the custodial parent even where both parents still live in the same house."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how a dependent spouse can obtain maintenance under the Family Law (Maintenance of Spouses and Children) Act 1976.",
+      "model": "Maintenance is financial support for a dependant. First the parties may agree a written maintenance agreement setting out the amount and frequency of payments. If no agreement can be reached, the dependent spouse applies to the District Court for a maintenance order, and the court orders the other spouse to pay a set amount. If that spouse then fails to pay, the court can grant an Attachment of Earnings Order, which deducts the money from wages and pays it directly to the dependant."
+    },
+    {
+      "marks": 18,
+      "prompt": "Outline the protection the Family Law (Maintenance of Spouses and Children) Act 1976 gives to families when a relationship breaks down.",
+      "model": "The Act protects dependent spouses and civil partners who lack the financial resources to support themselves, so a spouse can claim maintenance from the other spouse after a breakdown. It protects dependent children: the parent with custody is entitled to maintenance for the child even where the parents still share a home. Protection is put into practice through a maintenance agreement, or if none is reached, a maintenance order from the District Court. Enforcement is supported by Attachment of Earnings Orders, which take money directly from wages. Together these ensure that the dependant's everyday needs such as food, clothing and housing are met, whatever the legal status of the marriage."
+    }
+  ]
+}
