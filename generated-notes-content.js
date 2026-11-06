@@ -7,7 +7,6 @@
   if (typeof COURSE_DATA === "undefined") return;
 
   var supportedSubjects = new Set(["geography", "home-economics", "pe"]);
-  var decks = globalThis.FLASHCARDS_DB || {};
   // Where each chapter's past-paper blocks sit in its notes, so they can be rebuilt
   // once a subject's exam pack (exam-packs.js) arrives after this script has run.
   var blueprintSlots = [];
@@ -195,40 +194,52 @@
     });
   }
 
-  COURSE_DATA.chapters.forEach(function (chapter) {
-    if (!supportedSubjects.has(chapter.subject)) return;
-    if (!Array.isArray(chapter.learningOutcomes) || !chapter.learningOutcomes.length) return;
-    // Chapters with authored subsection notes (<subject>-notes.js) no longer get the
-    // assembled overview: the authored notes replace it chapter by chapter.
-    if (chapter.learningOutcomes.some(function (item) { return item.authored; })) return;
+  var builtSubjects = new Set();
 
-    var outcome = chapter.learningOutcomes[0];
-    var cards = Array.isArray(decks[chapter.id])
-      ? decks[chapter.id].filter(function (card) { return card && card.term && card.definition; })
-      : [];
-    var existing = chapter.learningOutcomes.flatMap(function (item) { return item.notes || []; });
-    var overview = chapterOverview[chapter.id]
-      || ("This chapter connects the central ideas in " + chapter.title + ". Explain relationships and applications, not isolated definitions.");
+  // Runs once per subject. In the lazy app (BB_LAZY_SUBJECTS) a subject's flashcards
+  // and notes arrive later via subject-packs.js, so app.js calls this when they land.
+  function buildSubject(subjectId) {
+    if (!supportedSubjects.has(subjectId) || builtSubjects.has(subjectId)) return;
+    builtSubjects.add(subjectId);
+    var decks = globalThis.FLASHCARDS_DB || {};
+    COURSE_DATA.chapters.forEach(function (chapter) {
+      if (chapter.subject !== subjectId) return;
+      if (!Array.isArray(chapter.learningOutcomes) || !chapter.learningOutcomes.length) return;
+      // Chapters with authored subsection notes (<subject>-notes.js) no longer get the
+      // assembled overview: the authored notes replace it chapter by chapter.
+      if (chapter.learningOutcomes.some(function (item) { return item.authored; })) return;
 
-    var notes = [{ h: "Chapter overview and connections", b: overview }];
-    if (chapterApplication[chapter.id]) {
-      notes.push({ h: "Developed application", b: chapterApplication[chapter.id] });
-    }
-    if (existing.length) notes = notes.concat(existing);
-    notes = notes.concat(conceptBlocks(cards, chapter.subject));
-    var blueprints = examBlueprints(chapter);
-    blueprintSlots.push({ chapter: chapter, outcome: outcome, at: notes.length, count: blueprints.length });
-    notes = notes.concat(blueprints);
-    notes.push({ h: "How to build a full-mark answer", b: subjectMethod[chapter.subject] });
+      var outcome = chapter.learningOutcomes[0];
+      var cards = Array.isArray(decks[chapter.id])
+        ? decks[chapter.id].filter(function (card) { return card && card.term && card.definition; })
+        : [];
+      var existing = chapter.learningOutcomes.flatMap(function (item) { return item.notes || []; });
+      var overview = chapterOverview[chapter.id]
+        || ("This chapter connects the central ideas in " + chapter.title + ". Explain relationships and applications, not isolated definitions.");
 
-    outcome.notes = notes;
-    if (cards.length && (!Array.isArray(outcome.keyTerms) || !outcome.keyTerms.length)) {
-      outcome.keyTerms = cards.slice();
-    }
-    chapter.learningOutcomes.slice(1).forEach(function (item) {
-      item.notes = [];
+      var notes = [{ h: "Chapter overview and connections", b: overview }];
+      if (chapterApplication[chapter.id]) {
+        notes.push({ h: "Developed application", b: chapterApplication[chapter.id] });
+      }
+      if (existing.length) notes = notes.concat(existing);
+      notes = notes.concat(conceptBlocks(cards, chapter.subject));
+      var blueprints = examBlueprints(chapter);
+      blueprintSlots.push({ chapter: chapter, outcome: outcome, at: notes.length, count: blueprints.length });
+      notes = notes.concat(blueprints);
+      notes.push({ h: "How to build a full-mark answer", b: subjectMethod[chapter.subject] });
+
+      outcome.notes = notes;
+      if (cards.length && (!Array.isArray(outcome.keyTerms) || !outcome.keyTerms.length)) {
+        outcome.keyTerms = cards.slice();
+      }
+      chapter.learningOutcomes.slice(1).forEach(function (item) {
+        item.notes = [];
+      });
     });
-  });
+  }
+
+  globalThis.buildGeneratedNotes = buildSubject;
+  if (!globalThis.BB_LAZY_SUBJECTS) supportedSubjects.forEach(buildSubject);
 
   globalThis.refreshGeneratedExamBlueprints = function (subjectId) {
     blueprintSlots.forEach(function (slot) {
