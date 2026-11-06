@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=70" />
+    <link rel="stylesheet" href="./styles.css?v=71" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="./responsive.css?v=7" />
@@ -57,6 +57,15 @@
             <span id="subjectChoicesCount" class="profile-row-value"></span>
             <span class="profile-row-chevron" aria-hidden="true">›</span>
           </button>
+          <button id="openFeedback" class="profile-row" type="button">
+            <span class="profile-row-label">Submit feedback</span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
+          <button id="openFeedbackInbox" class="profile-row hidden" type="button">
+            <span class="profile-row-label">Feedback inbox</span>
+            <span id="feedbackInboxCount" class="profile-row-value"></span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
           <button id="openStudyPlan" class="profile-row" type="button">
             <span class="profile-row-label">Study plan</span>
             <span id="studyPlanValue" class="profile-row-value"></span>
@@ -73,6 +82,29 @@
           </div>
           <p class="profile-pane-hint">Turn off anything you are not studying. It disappears from the sidebar and stops counting toward your progress.</p>
           <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
+        </div>
+        <div id="profileMenuFeedback" class="profile-pane hidden">
+          <div class="profile-pane-head">
+            <button class="profile-pane-back" type="button" data-profile-back aria-label="Back to account">‹</button>
+            <span>Submit feedback</span>
+          </div>
+          <form id="feedbackForm" class="feedback-form" novalidate>
+            <label for="feedbackMessage" class="profile-pane-hint">Something wrong, confusing or missing? Tell us. If we reply, you’ll see it next time you open barebones.</label>
+            <textarea id="feedbackMessage" class="feedback-textarea" rows="5" maxlength="4000" placeholder="What happened?" required></textarea>
+            <p id="feedbackStatus" class="feedback-status" role="status" aria-live="polite"></p>
+            <button id="feedbackSubmit" class="button-primary feedback-submit" type="submit">Send feedback</button>
+          </form>
+        </div>
+        <div id="profileMenuInbox" class="profile-pane hidden">
+          <div class="profile-pane-head">
+            <button class="profile-pane-back" type="button" data-profile-back aria-label="Back to account">‹</button>
+            <span>Feedback inbox</span>
+          </div>
+          <div class="inbox-filter" role="tablist" aria-label="Feedback status">
+            <button class="inbox-filter-btn active" type="button" role="tab" aria-selected="true" data-inbox-filter="open">Open</button>
+            <button class="inbox-filter-btn" type="button" role="tab" aria-selected="false" data-inbox-filter="addressed">Addressed</button>
+          </div>
+          <div id="feedbackInboxList" class="inbox-list"></div>
         </div>
       </div>
     </div>
@@ -382,6 +414,15 @@
       </div>
     </section>
 
+    <section id="feedbackReplyModal" class="full-notes-screen feedback-reply-screen hidden" role="dialog" aria-modal="true" aria-labelledby="feedbackReplyTitle">
+      <div class="full-notes-card feedback-reply-card">
+        <p class="feedback-reply-kicker">Reply to your feedback</p>
+        <h2 id="feedbackReplyTitle" class="feedback-reply-title">We read what you sent.</h2>
+        <div id="feedbackReplyList" class="feedback-reply-list"></div>
+        <button id="feedbackReplyDismiss" class="button-primary feedback-reply-dismiss" type="button">Got it</button>
+      </div>
+    </section>
+
     <div id="loginOverlay" class="login-overlay" aria-hidden="true">
       <div class="login-ascii-wrap">
         <div class="login-scan"></div>
@@ -436,7 +477,7 @@
     <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=2"></script>
+    <script src="./auth.js?v=3"></script>
     <script src="./home-economics-flashcards.js?v=4"></script>
     <script src="./home-economics-test-questions.js?v=2"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
@@ -455,7 +496,7 @@
     <script src="./answer-marker.js?v=2"></script>
     <script src="./test-builder.js?v=4"></script>
     <script src="./exam-packs.js?v=1"></script>
-    <script src="./app.js?v=84"></script>
+    <script src="./app.js?v=85"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=5"></script>
     <script src="./timer.js?v=2"></script>
