@@ -3007,8 +3007,8 @@
     "term": "Two items on a commercial pattern envelope"
    },
    {
-    "definition": "One process chosen from a choice of three set by the State Examinations Commission.",
-    "term": "Mandatory process for the Elective 2 coursework garment in 2027"
+    "definition": "Buttons and buttonholes; darts or shaping; a pocket.",
+    "term": "The three processes in the 2027 Elective 2 brief (garment needs two)"
    },
    {
     "definition": "Grain line parallel to the selvedge, and a piece placed on a fold exactly on the fold line.",
@@ -3104,11 +3104,28 @@
     ]
    },
    {
-    "h": "The Elective 2 coursework garment",
+    "h": "The Elective 2 coursework (2027 brief)",
     "points": [
-     "The Elective 2 coursework garment is worth 100 marks, or 10 per cent of the total marks.",
-     "For 2027, the candidate completes one mandatory process from a choice of three set by the State Examinations Commission (SEC).",
-     "The coursework includes the design process, the sketch and description, fabric selection and the construction of the garment."
+     "The coursework is worth 100 marks, or 10 per cent of the total marks: a design folder (25 marks) and a garment (75 marks).",
+     "The 2027 brief: design and sketch an outfit suitable for a young person to wear on holiday, expressing values, interests and personality; the outfit may be knitted, crocheted or machine stitched.",
+     "The candidate sets out the design specifications for the outfit, then makes and evaluates one garment from it.",
+     "The garment must include two of three processes: buttons and buttonholes; darts or shaping; a pocket.",
+     "The garment must be textile based, show a clear interpretation of the theme, and show progression from Junior Cycle textile skills.",
+     "Design folder marks: analysis and research 15, implementation 4, evaluation 6.",
+     "Garment marks: design aspects 15, skills and processes 50, finish 10.",
+     "The work must be the candidate's own, done under the teacher's supervision, with every source referenced, including any AI-generated material; the completion date is 6 April 2027."
+    ]
+   },
+   {
+    "h": "The three 2027 coursework processes",
+    "points": [
+     "Buttonholes: mark the position and length (the button's diameter plus its thickness) on the right front, at right angles to the edge for a horizontal hole, then work by machine with a buttonhole foot or by hand with buttonhole stitch, and cut the opening last.",
+     "Buttons: sew on to match the buttonholes, with a thread shank so the fastened layers lie flat; reinforce on fine or loosely woven fabric.",
+     "Darts: transfer the dart markings from the pattern, fold right sides together matching the marks, stitch from the wide end to the point, tie off at the point, and press bust and waist darts towards the centre or down.",
+     "Other shaping: gathers, pleats, tucks and princess seams also shape a garment to the body.",
+     "Patch pocket: neaten and turn down the top edge as a facing, press under the seam allowances, and topstitch to the garment, reinforcing the top corners.",
+     "In-seam pocket: the pocket bag is stitched into a side seam so the opening is hidden.",
+     "Each process is interfaced or reinforced where it takes strain, and is pressed as it is made."
     ]
    }
   ],
