@@ -93,15 +93,18 @@
     direction; the *Assessment Arrangements 2027* adjustment column (two from five) overrides
     it. The completion date was 2 November 2026. Details and the five 2027 assignments are in
     `hom-cooking-methods` s7.
-  - **Textiles, Fashion and Design coursework** (Elective 2 only): a garment, 100 marks weighted
-    to **10%**; for 2027 the garment must include one mandatory process from a choice of three
-    set by the SEC.
+  - **Textiles, Fashion and Design coursework** (Elective 2 only): a design folder (25 marks)
+    and a garment (75 marks), 100 marks weighted to **10%**. The 2027 brief (SEC M47/48B): design
+    and sketch an outfit for a young person to wear on holiday, then make and evaluate one
+    garment from it that includes **two** of: buttons and buttonholes; darts or shaping; a
+    pocket. Completion date 6 April 2027. Details are in `hom-clothing-selection` s5.
   - The written paper is therefore the remaining 80% (70% for Elective 2 candidates, whose
     garment carries 10%).
   - Sources: SEC *Assessment Arrangements 2027* (Home Economics Scientific and Social page); SEC
     Leaving Certificate 2025 Home Economics Higher Level Section A answerbook, Section B and C
     paper and marking scheme; SEC *Food Studies Assignments 2027 (20% of Total Marks)*,
-    M47/48A; SEC Food Studies Practical – Coursework Journal (2025).
+    M47/48A; SEC *Textiles, Fashion and Design Elective Practical Coursework Assignment Brief
+    2027*, M47/48B; SEC Food Studies Practical – Coursework Journal (2025).
 
 ---
 
@@ -1106,8 +1109,24 @@ Assessed by practical coursework (the garment) and the written examination. Hous
 5. **The design process and garment construction** [5.3]: knowledge and application of the
    design process to construct a garment using a range of prescribed processes (commercial
    patterns may be used); selection and **[HL]** modification of a commercial pattern to meet a
-   specific need; the Elective 2 coursework garment (100 marks, 10%; for 2027 one mandatory
-   process from a choice of three set by the SEC).
+   specific need; the Elective 2 coursework (100 marks, 10%), from the SEC's 2027 brief
+   (M47/48B):
+   - Brief: our values, interests and personality can be expressed through a holiday wardrobe;
+     design and sketch an outfit suitable for a young person to wear on holiday (knitted,
+     crocheted or machine stitched); set out its design specifications; make and evaluate one
+     garment from the outfit, including two of: (i) buttons and buttonholes, (ii) darts or
+     shaping, (iii) a pocket. Individual work only, under teacher supervision; all sources,
+     including AI-generated material, must be referenced. Completion date 6 April 2027.
+   - Design folder, 25 marks: analysis and research 15 (key requirements and constraints,
+     exploring the theme, sketches of the proposed outfit, justification, proposed course of
+     action); implementation 4 (work sequence, execution of the mandatory processes);
+     evaluation 6 (the garment, difficulties and how they were addressed, modifications, the
+     outcome against the brief).
+   - Garment, 75 marks: design aspects 15 (fit to the brief, design principles, aesthetics,
+     creativity); skills and processes 50 (materials, equipment and skills; execution of the
+     prescribed processes); finish 10.
+   - Notes should teach how each of the three processes is made and the design process the folder
+     follows, not write the coursework.
    - Settings: a fashion sketch of a garment or outfit for a specific brief; testing fabrics for
      suitability (absorbency, shrinkage, water-repellence, crease recovery).
    - Also examined: steps of the design process (2021H); pattern modification (2022H, 2018H,
