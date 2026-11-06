@@ -100,12 +100,14 @@
     questions per topic. At least two of the three perspectives are
     examined in each topic each year.
 - **Subsection ids:** notes use `<chapter-id>-s<n>` (e.g. `hist-ire2-s9`), numbered in the order
-  below. `data.js` still has one outcome per chapter (`hist-ire1-1` etc.), which holds the test
-  questions in `history-test-questions.js`. Before the first notes are built, add the `-s<n>`
-  outcomes to `data.js` as for geography (keep `-1` as the chapter review outcome). Update the
-  check in `tests/history-test-questions.test.cjs` that every outcome has three test questions.
-  Add `"history": "-1"` to `RETIRE_REVIEW_NOTES` in `scripts/build_notes.py`, so the old
-  `history-content.js` notes are cleared chapter by chapter.
+  below; `data.js` has these outcomes, after each chapter's review outcome (`hist-ire1-1` etc.),
+  which holds the test questions in `history-test-questions.js`. Notes live in
+  `content/history/<loId>.json` and build to `history-notes.js`.
+- **Status (2026-11-06):** all 128 subsections have notes, key terms and fact cards. Haiku
+  drafted them from this outline, and Sonnet reviewers then fact-checked and expanded every file
+  (about 530 factual corrections). No information packages were written first, so facts rest on
+  the reviewers' checks, not on a package's checked-facts table. The old `history-content.js`
+  notes and `history-flashcards.js` deck are retired to `archive/history-2026-11-06/`.
 
 ---
 
@@ -2344,7 +2346,9 @@ matches Part I C (Appendix B).
   to exactly one subsection above. Key personalities split across subsections (e.g. O'Connell,
   Parnell, de Valera, Bismarck) say which part goes where. Part I (working with evidence) is in
   `hist-ire2-s11`; the research study is in Appendix B.
-- **What the app covers now** (`history-content.js`: one or two paragraphs per heading, written
+- **Coverage before the 2026-11-06 notes** (kept for the record; all 128 subsections now have
+  authored notes, see "Read this first"):
+  (`history-content.js`: one or two paragraphs per heading, written
   before this outline; flashcards in `history-flashcards.js`): **no subsection is covered
   fully.** About **91 are covered thinly** (one paragraph or a few flashcards touch the topic)
   and about **37 not at all**. The gaps are biggest in `hist-eur4` (8 of 13 not covered: the
