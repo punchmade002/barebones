@@ -77,6 +77,17 @@
       ]
     },
     {
+      "h": "Legacy of the Civil War",
+      "b": "The Civil War shaped party politics and the way the state was remembered for generations.",
+      "points": [
+        "The two sides became the two main parties: Fine Gael descended from the pro-Treaty side and Fianna Fáil from the anti-Treaty side.",
+        "The 1923 general election, held in August, gave Cumann na nGaedheal 63 seats and the Republicans 44, though the republicans abstained.",
+        "De Valera was arrested in August 1923 and released in July 1924.",
+        "Anti-Treaty prisoners numbered in the thousands in 1923, and a hunger strike in October 1923 ended without success.",
+        "Both sides committed atrocities, and families and communities were divided, which made the war a subject of silence in Irish public life."
+      ]
+    },
+    {
       "h": "Key personality: W.T. Cosgrave",
       "b": "Cosgrave led the pro-Treaty side from 1922 to 1932 and built the state's institutions. He is judged as a cautious administrator who secured democracy.",
       "points": [
@@ -105,34 +116,115 @@
     }
   ],
   "keyTerms": [
-    { "term": "Provisional Government", "definition": "The pro-Treaty government chaired by Collins from January 1922 until the Free State was established in December 1922." },
-    { "term": "Civil War", "definition": "The conflict between the pro-Treaty National Army and the anti-Treaty IRA from June 1922 to May 1923." },
-    { "term": "Free State", "definition": "The dominion created by the Treaty and the 1922 Constitution, in existence from 6 December 1922." },
-    { "term": "Republic", "definition": "The form of state demanded by the anti-Treaty side, which refused to accept the Crown and the oath." },
-    { "term": "Physical force", "definition": "The tradition of armed struggle, which the anti-Treaty IRA continued after 1922 against the Free State." },
-    { "term": "Dominion status", "definition": "The Treaty status of the Free State as a self-governing member of the Commonwealth." },
-    { "term": "Cumann na nGaedheal", "definition": "The pro-Treaty party founded in 1923 that governed until 1932." },
-    { "term": "Garda Síochána", "definition": "The unarmed police force created in 1922 as the Civic Guard and renamed in 1923." },
-    { "term": "Public Safety Acts", "definition": "Laws, notably in 1923 and 1927, giving the government emergency powers against armed opposition." },
-    { "term": "Electoral Amendment Act 1927", "definition": "The law requiring election candidates to pledge to take their seats, which in effect forced Fianna Fáil to take the oath." },
-    { "term": "Fianna Fáil", "definition": "The party founded by de Valera in May 1926 that entered the Dáil in 1927 and won power in 1932." },
-    { "term": "Shannon Scheme", "definition": "The hydroelectric project at Ardnacrusha on the Shannon, begun in 1925 and opened in 1929, run by the ESB from 1927." }
+    {
+      "term": "Provisional Government",
+      "definition": "The pro-Treaty government chaired by Collins from January 1922 until the Free State was established in December 1922."
+    },
+    {
+      "term": "Civil War",
+      "definition": "The conflict between the pro-Treaty National Army and the anti-Treaty IRA from June 1922 to May 1923."
+    },
+    {
+      "term": "Free State",
+      "definition": "The dominion created by the Treaty and the 1922 Constitution, in existence from 6 December 1922."
+    },
+    {
+      "term": "Republic",
+      "definition": "The form of state demanded by the anti-Treaty side, which refused to accept the Crown and the oath."
+    },
+    {
+      "term": "Physical force",
+      "definition": "The tradition of armed struggle, which the anti-Treaty IRA continued after 1922 against the Free State."
+    },
+    {
+      "term": "Dominion status",
+      "definition": "The Treaty status of the Free State as a self-governing member of the Commonwealth."
+    },
+    {
+      "term": "Cumann na nGaedheal",
+      "definition": "The pro-Treaty party founded in 1923 that governed until 1932."
+    },
+    {
+      "term": "Garda Síochána",
+      "definition": "The unarmed police force created in 1922 as the Civic Guard and renamed in 1923."
+    },
+    {
+      "term": "Public Safety Acts",
+      "definition": "Laws, notably in 1923 and 1927, giving the government emergency powers against armed opposition."
+    },
+    {
+      "term": "Electoral Amendment Act 1927",
+      "definition": "The law requiring election candidates to pledge to take their seats, which in effect forced Fianna Fáil to take the oath."
+    },
+    {
+      "term": "Fianna Fáil",
+      "definition": "The party founded by de Valera in May 1926 that entered the Dáil in 1927 and won power in 1932."
+    },
+    {
+      "term": "Shannon Scheme",
+      "definition": "The hydroelectric project at Ardnacrusha on the Shannon, begun in 1925 and opened in 1929, run by the ESB from 1927."
+    }
   ],
   "factCards": [
-    { "term": "Four Courts: occupation and attack", "definition": "Occupied by the anti-Treaty IRA on 14 April 1922; shelled by the National Army from 28 June and surrendered on 30 June." },
-    { "term": "Wilson assassination", "definition": "22 June 1922; two London IRA men shot Field Marshal Sir Henry Wilson." },
-    { "term": "1922 election results", "definition": "16 June 1922; pro-Treaty candidates won 58 seats and anti-Treaty 36." },
-    { "term": "Deaths of Griffith and Collins", "definition": "Griffith died on 12 August 1922 and Collins was killed at Béal na Bláth on 22 August 1922." },
-    { "term": "Childers's execution", "definition": "24 November 1922; shot for possession of a pistol, one of the first executions under the emergency powers." },
-    { "term": "Executions of 8 December 1922", "definition": "O'Connor, Mellows, McKelvey and Barrett, shot in reprisal for the killing of Seán Hales." },
-    { "term": "End of the Civil War", "definition": "Lynch was killed on 10 April 1923; Aiken ordered the dumping of arms on 24 May 1923." },
-    { "term": "Free State Constitution: date", "definition": "6 December 1922; it provided for the Oireachtas, PR, an Executive Council and a Governor-General." },
-    { "term": "Garda Síochána: origins", "definition": "Founded as the Civic Guard in 1922, renamed in 1923, unarmed under Commissioner Eoin O'Duffy." },
-    { "term": "Army Mutiny", "definition": "March 1924, led by Tobin and Dalton; led to the resignation of Mulcahy." },
-    { "term": "Boundary Commission crisis: end", "definition": "Morning Post leak in November 1925; Tripartite Agreement of 3 December 1925 left the border unchanged." },
-    { "term": "Shannon Scheme dates", "definition": "Approved in 1925; ESB set up in 1927; Ardnacrusha opened in 1929." },
-    { "term": "O'Higgins's assassination", "definition": "10 July 1927, Booterstown, by three anti-Treaty IRA men." },
-    { "term": "Fianna Fáil: founding and entry to the Dáil", "definition": "Founded on 16 May 1926; entered the Dáil on 12 August 1927 after signing the oath as a formality." },
-    { "term": "1932 election", "definition": "February 1932; Fianna Fáil 72 seats and Cumann na nGaedheal 57; de Valera became head of government on 9 March." }
+    {
+      "term": "Four Courts: occupation and attack",
+      "definition": "Occupied by the anti-Treaty IRA on 14 April 1922; shelled by the National Army from 28 June and surrendered on 30 June."
+    },
+    {
+      "term": "Wilson assassination",
+      "definition": "22 June 1922; two London IRA men shot Field Marshal Sir Henry Wilson."
+    },
+    {
+      "term": "1922 election results",
+      "definition": "16 June 1922; pro-Treaty candidates won 58 seats and anti-Treaty 36."
+    },
+    {
+      "term": "Deaths of Griffith and Collins",
+      "definition": "Griffith died on 12 August 1922 and Collins was killed at Béal na Bláth on 22 August 1922."
+    },
+    {
+      "term": "Childers's execution",
+      "definition": "24 November 1922; shot for possession of a pistol, one of the first executions under the emergency powers."
+    },
+    {
+      "term": "Executions of 8 December 1922",
+      "definition": "O'Connor, Mellows, McKelvey and Barrett, shot in reprisal for the killing of Seán Hales."
+    },
+    {
+      "term": "End of the Civil War",
+      "definition": "Lynch was killed on 10 April 1923; Aiken ordered the dumping of arms on 24 May 1923."
+    },
+    {
+      "term": "Free State Constitution: date",
+      "definition": "6 December 1922; it provided for the Oireachtas, PR, an Executive Council and a Governor-General."
+    },
+    {
+      "term": "Garda Síochána: origins",
+      "definition": "Founded as the Civic Guard in 1922, renamed in 1923, unarmed under Commissioner Eoin O'Duffy."
+    },
+    {
+      "term": "Army Mutiny",
+      "definition": "March 1924, led by Tobin and Dalton; led to the resignation of Mulcahy."
+    },
+    {
+      "term": "Boundary Commission crisis: end",
+      "definition": "Morning Post leak in November 1925; Tripartite Agreement of 3 December 1925 left the border unchanged."
+    },
+    {
+      "term": "Shannon Scheme dates",
+      "definition": "Approved in 1925; ESB set up in 1927; Ardnacrusha opened in 1929."
+    },
+    {
+      "term": "O'Higgins's assassination",
+      "definition": "10 July 1927, Booterstown, by three anti-Treaty IRA men."
+    },
+    {
+      "term": "Fianna Fáil: founding and entry to the Dáil",
+      "definition": "Founded on 16 May 1926; entered the Dáil on 12 August 1927 after signing the oath as a formality."
+    },
+    {
+      "term": "1932 election",
+      "definition": "February 1932; Fianna Fáil 72 seats and Cumann na nGaedheal 57; de Valera became head of government on 9 March."
+    }
   ]
 }

@@ -13,7 +13,8 @@
         "Irish ministers sat on the Council of Ministers, Irish members sat in the European Parliament, and Patrick Hillery served as the first Irish member of the Commission from 1973.",
         "Ireland held the presidency of the Council of Ministers for the first time in the first half of 1975.",
         "Membership reduced dependence on Britain: the share of Irish exports going to Britain fell as trade with the continent grew.",
-        "Net payments from the EEC budget to Ireland amounted to several per cent of national income by the 1980s, which helped to pay for farm support, training and infrastructure."
+        "Net payments from the EEC budget to Ireland amounted to several per cent of national income by the 1980s, which helped to pay for farm support, training and infrastructure.",
+        "Membership was the context for Ireland's decision in March 1979 to join the European Monetary System, which ended the link between the Irish pound and sterling."
       ]
     },
     {
@@ -33,7 +34,8 @@
         "The European Regional Development Fund was created in 1975, partly because Britain, Ireland and Italy pressed for help for poorer regions, and Ireland received a considerable share of it.",
         "The European Social Fund paid for training and employment schemes for young and unemployed people.",
         "Funds were spent on roads, water and sewerage schemes, telecommunications and industrial estates, mainly under the direction of the Irish government.",
-        "A reform of the structural funds in 1988, linked to the Single European Act, doubled the money available, with Ireland as a major beneficiary of the programmes for 1989 to 1993."
+        "A reform of the structural funds in 1988, linked to the Single European Act, doubled the money available, with Ireland as a major beneficiary of the programmes for 1989 to 1993.",
+        "The Social Fund helped to pay for the training schemes of AnCO, the state training authority."
       ]
     },
     {
@@ -65,7 +67,8 @@
         "Irish consumers ate little fish outside Fridays, and the home market was small, so the industry exported little.",
         "Foreign trawlers from France, Spain, Belgium, the Netherlands and Britain fished close to the Irish coast under historic rights, because the exclusive Irish limit was narrow.",
         "Bord Iascaigh Mhara (BIM), the state fisheries board, was created in 1952 to develop the industry through grants and loans for boats, training and marketing.",
-        "In the 1960s and early 1970s BIM helped to build a more modern fleet, including larger boats able to catch herring, whitefish and shellfish."
+        "In the 1960s and early 1970s BIM helped to build a more modern fleet, including larger boats able to catch herring, whitefish and shellfish.",
+        "Fish made up a tiny share of Irish exports and national output before 1973, which is why governments treated the fishing terms as less important than the farming terms."
       ]
     },
     {
@@ -100,7 +103,8 @@
         "Fishermen's organisations claimed that Ireland received a small share of the fish caught in its own waters, and argued that the government treated fisheries as secondary to farming.",
         "The government replied that the 12-mile zone and the preferences obtained at The Hague were the best terms available and that Ireland, as a small state, could not manage the waters alone.",
         "Supporters of EEC membership pointed to the new money for the industry; critics, including the Common Market Defence Campaign, pointed to the loss of control over a national resource.",
-        "The fishing industry remained a source of grievance, and its history became a standard example in debates on the costs of membership."
+        "The fishing industry remained a source of grievance, and its history became a standard example in debates on the costs of membership.",
+        "Fish processing and exports to continental markets expanded through the 1980s."
       ]
     },
     {
@@ -114,31 +118,103 @@
     }
   ],
   "keyTerms": [
-    { "term": "Common market", "definition": "A group of countries that trade without tariffs among themselves and apply a common tariff to outsiders, with free movement of goods, workers and capital." },
-    { "term": "Common Agricultural Policy", "definition": "The EEC system of guaranteed farm prices, intervention buying and support payments that shaped Irish farm incomes after 1973." },
-    { "term": "Common Fisheries Policy", "definition": "The EEC policy on access to fishing waters, total allowable catches and national quotas, agreed in full in January 1983." },
-    { "term": "Bord Iascaigh Mhara", "definition": "The state fisheries board, set up in 1952 to develop the Irish fishing industry through grants, loans and training." },
-    { "term": "Total allowable catch", "definition": "The maximum amount of a fish species that may be landed in a year in an area, fixed by the EEC and divided among states as quotas." },
-    { "term": "Relative stability", "definition": "The principle that each member state keeps a fixed share of the total allowable catch of each species, based on past catches." },
-    { "term": "Quota", "definition": "A limit on the amount of something, such as milk or fish, that a country or producer may produce or land." },
-    { "term": "European Regional Development Fund", "definition": "The EEC fund created in 1975 to help poorer regions with infrastructure and industry." },
-    { "term": "Equal pay directive", "definition": "The EEC directive of 1975 requiring equal pay for men and women for the same work or work of equal value." },
-    { "term": "Derogation", "definition": "A special exception from a general rule, such as Ireland's reserved fishing zone in the accession treaty." }
+    {
+      "term": "Common market",
+      "definition": "A group of countries that trade without tariffs among themselves and apply a common tariff to outsiders, with free movement of goods, workers and capital."
+    },
+    {
+      "term": "Common Agricultural Policy",
+      "definition": "The EEC system of guaranteed farm prices, intervention buying and support payments that shaped Irish farm incomes after 1973."
+    },
+    {
+      "term": "Common Fisheries Policy",
+      "definition": "The EEC policy on access to fishing waters, total allowable catches and national quotas, agreed in full in January 1983."
+    },
+    {
+      "term": "Bord Iascaigh Mhara",
+      "definition": "The state fisheries board, set up in 1952 to develop the Irish fishing industry through grants, loans and training."
+    },
+    {
+      "term": "Total allowable catch",
+      "definition": "The maximum amount of a fish species that may be landed in a year in an area, fixed by the EEC and divided among states as quotas."
+    },
+    {
+      "term": "Relative stability",
+      "definition": "The principle that each member state keeps a fixed share of the total allowable catch of each species, based on past catches."
+    },
+    {
+      "term": "Quota",
+      "definition": "A limit on the amount of something, such as milk or fish, that a country or producer may produce or land."
+    },
+    {
+      "term": "European Regional Development Fund",
+      "definition": "The EEC fund created in 1975 to help poorer regions with infrastructure and industry."
+    },
+    {
+      "term": "Equal pay directive",
+      "definition": "The EEC directive of 1975 requiring equal pay for men and women for the same work or work of equal value."
+    },
+    {
+      "term": "Derogation",
+      "definition": "A special exception from a general rule, such as Ireland's reserved fishing zone in the accession treaty."
+    }
   ],
   "factCards": [
-    { "term": "Date of Irish entry to the EEC", "definition": "1 January 1973, with Britain and Denmark." },
-    { "term": "CAP: effect on Irish farmers", "definition": "Guaranteed prices raised farm incomes sharply in the early years, but larger farms gained more than small western farms." },
-    { "term": "Milk quotas", "definition": "Introduced in 1984 to limit dairy surpluses, restricting Irish dairy output." },
-    { "term": "European Regional Development Fund", "definition": "Established in 1975; Ireland was among its main beneficiaries." },
-    { "term": "1988 reform of the structural funds", "definition": "Doubled the money for poorer regions, with Ireland a major beneficiary for 1989 to 1993." },
-    { "term": "Fall of protected industries", "definition": "Clothing, textiles and footwear firms lost tariff protection and many closed." },
-    { "term": "Foreign investment and tax", "definition": "From 1981 manufacturing profits were taxed at 10 per cent, attracting firms in electronics, pharmaceuticals and chemicals." },
-    { "term": "Equality directives", "definition": "EEC directives on equal pay (1975) and equal treatment (1976) reinforced Irish equality laws of 1974 and 1977." },
-    { "term": "Bord Iascaigh Mhara", "definition": "Set up in 1952 to develop fishing through grants and loans." },
-    { "term": "Fisheries derogation in the accession terms", "definition": "An exclusive six-mile zone and a 12-mile zone in parts of the coast for ten years, to the end of 1982." },
-    { "term": "The Hague Resolution of 1976", "definition": "Member states agreed to extend their fishing limits to 200 miles from 1977 and recognised Ireland's special needs." },
-    { "term": "Common Fisheries Policy: when and how", "definition": "Agreed in January 1983, with total allowable catches divided into national quotas by relative stability and a 12-mile coastal belt." },
-    { "term": "Killybegs and Castletownbere", "definition": "Killybegs, Co. Donegal, became Ireland's leading fishing port; Castletownbere, Co. Cork, became a major whitefish port." },
-    { "term": "Complaint of Irish fishermen about the CFP", "definition": "Ireland's quotas were small compared with the value of the fish in its waters, and foreign fleets still fished there." }
+    {
+      "term": "Date of Irish entry to the EEC",
+      "definition": "1 January 1973, with Britain and Denmark."
+    },
+    {
+      "term": "CAP: effect on Irish farmers",
+      "definition": "Guaranteed prices raised farm incomes sharply in the early years, but larger farms gained more than small western farms."
+    },
+    {
+      "term": "Milk quotas",
+      "definition": "Introduced in 1984 to limit dairy surpluses, restricting Irish dairy output."
+    },
+    {
+      "term": "ERDF: when set up",
+      "definition": "Established in 1975; Ireland was among its main beneficiaries."
+    },
+    {
+      "term": "1988 reform of the structural funds",
+      "definition": "Doubled the money for poorer regions, with Ireland a major beneficiary for 1989 to 1993."
+    },
+    {
+      "term": "Fall of protected industries",
+      "definition": "Clothing, textiles and footwear firms lost tariff protection and many closed."
+    },
+    {
+      "term": "Foreign investment and tax",
+      "definition": "From 1981 manufacturing profits were taxed at 10 per cent, attracting firms in electronics, pharmaceuticals and chemicals."
+    },
+    {
+      "term": "Equality directives",
+      "definition": "EEC directives on equal pay (1975) and equal treatment (1976) reinforced Irish equality laws of 1974 and 1977."
+    },
+    {
+      "term": "BIM: when and why set up",
+      "definition": "Set up in 1952 to develop fishing through grants and loans."
+    },
+    {
+      "term": "Fisheries derogation in the accession terms",
+      "definition": "An exclusive six-mile zone and a 12-mile zone in parts of the coast for ten years, to the end of 1982."
+    },
+    {
+      "term": "The Hague Resolution of 1976",
+      "definition": "Member states agreed to extend their fishing limits to 200 miles from 1977 and recognised Ireland's special needs."
+    },
+    {
+      "term": "Common Fisheries Policy: when and how",
+      "definition": "Agreed in January 1983, with total allowable catches divided into national quotas by relative stability and a 12-mile coastal belt."
+    },
+    {
+      "term": "Killybegs and Castletownbere",
+      "definition": "Killybegs, Co. Donegal, became Ireland's leading fishing port; Castletownbere, Co. Cork, became a major whitefish port."
+    },
+    {
+      "term": "Complaint of Irish fishermen about the CFP",
+      "definition": "Ireland's quotas were small compared with the value of the fish in its waters, and foreign fleets still fished there."
+    }
   ]
 }

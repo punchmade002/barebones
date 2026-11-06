@@ -39,14 +39,16 @@ test("every broad History learning outcome has several hand-authored test questi
 });
 
 test("History test prompts are not copied from the flashcard fronts", () => {
-  const context = load(["data.js", "history-flashcards.js", "history-test-questions.js"]);
+  const context = load(["data.js", "history-test-questions.js", "history-notes.js"]);
+  const chapters = context.__courseData.chapters.filter((chapter) => chapter.subject === "history");
   const flashcardPrompts = new Set(
-    Object.entries(context.FLASHCARDS_DB)
-      .filter(([id]) => id.startsWith("hist-"))
-      .flatMap(([, cards]) => cards.map((card) => card.term.trim().toLowerCase()))
+    chapters
+      .flatMap((chapter) => chapter.learningOutcomes)
+      .flatMap((outcome) => outcome.keyTerms || [])
+      .map((card) => card.term.trim().toLowerCase())
   );
-  const testPrompts = context.__courseData.chapters
-    .filter((chapter) => chapter.subject === "history")
+  assert.ok(flashcardPrompts.size > 1000, "authored history flashcards should load");
+  const testPrompts = chapters
     .flatMap((chapter) => chapter.learningOutcomes)
     .flatMap((outcome) => outcome.questions)
     .map((question) => question.prompt.trim().toLowerCase());
