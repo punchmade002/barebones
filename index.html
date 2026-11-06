@@ -3,7 +3,62 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>barebones — Leaving Cert, stripped back</title>
+<title>barebones: Leaving Cert Notes, Flashcards &amp; Past Exam Questions</title>
+<meta name="description" content="Free Leaving Cert study app: notes, flashcards and real past exam questions for Biology, Chemistry, Maths, Geography, History, Business, Home Economics and PE." />
+<link rel="canonical" href="https://barebones.ie/" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#d6d4cf" />
+
+<!-- Social sharing (TikTok, Reddit, WhatsApp, iMessage, etc.) -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="barebones" />
+<meta property="og:locale" content="en_IE" />
+<meta property="og:url" content="https://barebones.ie/" />
+<meta property="og:title" content="barebones: the Leaving Cert, stripped back" />
+<meta property="og:description" content="Notes, flashcards and real past exam questions for eight Leaving Cert subjects. Free, in your browser." />
+<meta property="og:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
+<meta property="og:image:alt" content="barebones logo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="barebones: the Leaving Cert, stripped back" />
+<meta name="twitter:description" content="Notes, flashcards and real past exam questions for eight Leaving Cert subjects. Free, in your browser." />
+<meta name="twitter:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
+
+<!-- Structured data: tells Google and AI assistants what barebones is -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://barebones.ie/#org",
+      "name": "barebones",
+      "url": "https://barebones.ie/",
+      "logo": "https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://barebones.ie/#website",
+      "name": "barebones",
+      "url": "https://barebones.ie/",
+      "inLanguage": "en-IE",
+      "publisher": { "@id": "https://barebones.ie/#org" }
+    },
+    {
+      "@type": "WebApplication",
+      "name": "barebones",
+      "url": "https://barebones.ie/app.html",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any (web browser)",
+      "description": "A Leaving Cert study app. Each subject is broken into two steps: learn the content from notes and flashcards, then drill real past exam questions.",
+      "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "Irish Leaving Certificate students" },
+      "about": ["Leaving Certificate Biology", "Leaving Certificate Chemistry", "Leaving Certificate Mathematics", "Leaving Certificate Geography", "Leaving Certificate History", "Leaving Certificate Business", "Leaving Certificate Home Economics", "Leaving Certificate Physical Education"],
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+      "publisher": { "@id": "https://barebones.ie/#org" }
+    }
+  ]
+}
+</script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
 <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3" />
@@ -31,6 +86,7 @@
       <a href="#method">Method</a>
       <a href="#features">Features</a>
       <a href="#product">The App</a>
+      <a href="leaving-cert-notes/">Notes</a>
     </nav>
     <div class="nav-cta">
       <a href="app.html#signin" class="btn btn-primary">Sign in</a>
@@ -49,7 +105,7 @@
         <h1 class="hl reveal">The Leaving Cert,<br />stripped <span class="accent">back.</span></h1>
         <p class="lede reveal">Every subject broken into two moves: learn the content, then drill real exam questions. Nothing you don't need.</p>
         <div class="cta-row reveal">
-          <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+          <a href="app.html#signup" class="btn btn-primary">Get started free</a>
           <a href="#method" class="btn btn-ghost">See how it works</a>
         </div>
         <div class="micro reveal">
@@ -72,7 +128,7 @@
     <h1 class="hl reveal">The Leaving Cert, stripped back.</h1>
     <p class="lede reveal">A study app that does two things brilliantly — teaches you the content, then drills you on real exam questions.</p>
     <div class="cta-row reveal">
-      <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+      <a href="app.html#signup" class="btn btn-primary">Get started free</a>
       <a href="#method" class="btn btn-ghost">See the method</a>
     </div>
     <div class="steps-row reveal">
@@ -98,7 +154,7 @@
         <h1 class="hl">The Leaving Cert,<br />stripped back.</h1>
         <p class="lede">Two steps. Learn the content, drill the exam questions. That's the whole app — and that's the point.</p>
         <div class="cta-row">
-          <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+          <a href="app.html#signup" class="btn btn-primary">Get started free</a>
           <a href="#method" class="btn btn-ghost">See how it works</a>
         </div>
       </div>
@@ -188,7 +244,7 @@
           <li><span class="b">2</span><div><h3>Learn with flashcards</h3><p>AI-built cards and quizzes drill the content until it's locked in.</p></div></li>
           <li><span class="b">3</span><div><h3>Sit exam questions</h3><p>Switch to practice mode and answer real exam-style questions, marked instantly.</p></div></li>
         </ul>
-        <a href="app.html#signin" class="btn btn-primary" style="margin-top:30px;">Get started free</a>
+        <a href="app.html#signup" class="btn btn-primary" style="margin-top:30px;">Get started free</a>
       </div>
     </div>
   </div>
@@ -205,7 +261,7 @@
         <p>Free to use — study right in your browser. No install needed.</p>
       </div>
       <div class="right">
-        <a href="app.html#signin" class="btn btn-primary signup-btn">Get started free</a>
+        <a href="app.html#signup" class="btn btn-primary signup-btn">Get started free</a>
         <p class="signin-note">Already have an account? <a href="app.html#signin">Sign in</a></p>
       </div>
     </div>
@@ -229,6 +285,17 @@
           <a href="#features">Features</a>
           <a href="#product">The app</a>
           <a href="app.html#signin">Sign in</a>
+        </div>
+        <div class="foot-col">
+          <h4>Free notes</h4>
+          <a href="leaving-cert-biology/">Biology notes</a>
+          <a href="leaving-cert-chemistry/">Chemistry notes</a>
+          <a href="leaving-cert-history/">History notes</a>
+          <a href="leaving-cert-geography/">Geography notes</a>
+          <a href="leaving-cert-business/">Business notes</a>
+          <a href="leaving-cert-home-economics/">Home Economics notes</a>
+          <a href="leaving-cert-pe/">PE notes</a>
+          <a href="leaving-cert-notes/">All Leaving Cert notes</a>
         </div>
         <div class="foot-col">
           <h4>Company</h4>

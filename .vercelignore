@@ -1,0 +1,46 @@
+# Files Vercel should NOT upload or serve.
+# Everything here is for building/maintaining the app, not for students using it.
+# Anything not listed is deployed as normal (index.html, app.html, the app's
+# JS/CSS, favicons, exam-papers/, exam-images/, images/, robots.txt, sitemap.xml).
+
+# Tooling, agent state and version control
+.git
+.gitignore
+.codex/
+.claude/
+.vercelignore
+
+# Build pipeline, scripts, tests and the knowledge graph
+pipeline/
+scripts/
+tests/
+graphify-out/
+tmp/
+supabase/
+
+# Source material the JS data files are built from (not loaded by the site)
+content/
+course-outlines/
+relevant-resources/
+drafts/
+archive/
+
+# Internal docs, notes and planning
+*.md
+*.rtf
+*.mov
+*.csv
+*.bak*
+approved_usernames.txt
+barebonesfuture.txt
+changes.txt
+openaiapi.env.txt
+mailing list/
+
+# Dev-only JS not loaded by index.html or app.html
+flagged-exam-questions.js
+subject-template.js
+
+# Design handoff extras (the landing page only needs styles.css, pixelfont.js and assets/)
+design_handoff_barebones_landing/Landing.html
+design_handoff_barebones_landing/tweaks-panel.jsx
