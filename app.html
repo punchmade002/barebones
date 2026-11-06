@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=71" />
+    <link rel="stylesheet" href="./styles.css?v=72" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="./responsive.css?v=7" />
@@ -152,6 +152,14 @@
                 <input id="signUpPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
                 <button class="password-toggle" type="button" data-password-toggle="signUpPasswordConfirm" aria-label="Show password confirmation">Show</button>
               </div>
+              <label class="auth-consent" for="signUpTerms">
+                <input id="signUpTerms" name="terms" type="checkbox" required />
+                <span>I’m 16 or older (or my parent or guardian has agreed), and I agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+              </label>
+              <label class="auth-consent" for="signUpMarketing">
+                <input id="signUpMarketing" name="marketing" type="checkbox" />
+                <span>Email me study tips and barebones news (optional, unsubscribe any time).</span>
+              </label>
               <button class="button-primary auth-submit" type="submit">Create account</button>
             </form>
 
@@ -174,6 +182,14 @@
                 <input id="legacyPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
                 <button class="password-toggle" type="button" data-password-toggle="legacyPasswordConfirm" aria-label="Show password confirmation">Show</button>
               </div>
+              <label class="auth-consent" for="legacyTerms">
+                <input id="legacyTerms" name="terms" type="checkbox" required />
+                <span>I’m 16 or older (or my parent or guardian has agreed), and I agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+              </label>
+              <label class="auth-consent" for="legacyMarketing">
+                <input id="legacyMarketing" name="marketing" type="checkbox" />
+                <span>Email me study tips and barebones news (optional, unsubscribe any time).</span>
+              </label>
               <button class="button-primary auth-submit" type="submit">Secure my account</button>
               <button id="legacySignIn" class="auth-text-button" type="button">I already secured this account — sign in</button>
             </form>
@@ -467,7 +483,7 @@
     <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=3"></script>
+    <script src="./auth.js?v=4"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
     <script src="./pe-exam-info.js?v=2"></script>
@@ -482,7 +498,7 @@
     <script src="./subject-packs.js?v=1"></script>
     <script src="./subject-builder.js?v=1"></script>
     <script src="./subject-index.js?v=1"></script>
-    <script src="./app.js?v=86"></script>
+    <script src="./app.js?v=87"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=5"></script>
     <script src="./timer.js?v=2"></script>

@@ -907,6 +907,7 @@ async function handleSignUp(event) {
       email: els.signUpEmail.value,
       password: els.signUpPassword.value,
       origin: "self_service",
+      marketingOptIn: Boolean(document.getElementById("signUpMarketing")?.checked),
     });
     if (data.session) {
       await activateAuthenticatedSession(data.session);
@@ -942,6 +943,7 @@ async function handleLegacySetup(event) {
         email: els.legacyEmail.value,
         password: els.legacyPassword.value,
         origin: "legacy_migration",
+        marketingOptIn: Boolean(document.getElementById("legacyMarketing")?.checked),
       });
     } catch (error) {
       if (isUsernameTakenError(error)) {
