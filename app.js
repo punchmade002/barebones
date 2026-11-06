@@ -12,299 +12,53 @@ const isLocalOnboardingPreview = ["localhost", "127.0.0.1"].includes(window.loca
 const isLocalTestPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
   && new URLSearchParams(window.location.search).get("preview") === "test";
 
-const FALLBACK_CHAPTERS = [
-  { id: "ch1", title: "1. Key Stakeholders", learningOutcomes: buildOutcomes("1") },
-  { id: "ch6", title: "6. Enterprise", learningOutcomes: buildOutcomes("6") },
-  { id: "ch7", title: "7. Idea Development", learningOutcomes: buildOutcomes("7") },
-  { id: "ch8", title: "8. Business Planning", learningOutcomes: buildOutcomes("8") },
-  { id: "ch9", title: "9. Target Market", learningOutcomes: buildOutcomes("9") },
-  { id: "ch10", title: "10. Operations and Finance", learningOutcomes: buildOutcomes("10") },
-  { id: "ch11", title: "11. Growth and Development", learningOutcomes: buildOutcomes("11") },
-  { id: "ch12", title: "12. Managing Risk", learningOutcomes: buildOutcomes("12") },
-  { id: "ch16", title: "16. The Rationale for Planning", learningOutcomes: buildOutcomes("16") },
-  { id: "ch17", title: "17. Consumer", learningOutcomes: buildOutcomes("17") },
-];
-
 const BUSINESS_SUBJECT = {
   id: "business",
   title: "Business",
-  chapters: buildSubjectChapters("business"),
+  chapters: initialSubjectChapters("business"),
 };
 
 const PE_SUBJECT = {
   id: "pe",
   title: "PE",
-  chapters: buildSubjectChapters("pe"),
+  chapters: initialSubjectChapters("pe"),
 };
 
 const BIOLOGY_SUBJECT = {
   id: "biology",
   title: "Biology",
-  chapters: buildSubjectChapters("biology"),
+  chapters: initialSubjectChapters("biology"),
 };
 
 const GEOGRAPHY_SUBJECT = {
   id: "geography",
   title: "Geography",
-  chapters: buildSubjectChapters("geography"),
+  chapters: initialSubjectChapters("geography"),
 };
 
 const MATHS_SUBJECT = {
   id: "maths",
   title: "Maths",
-  chapters: buildSubjectChapters("maths"),
+  chapters: initialSubjectChapters("maths"),
 };
 
 const CHEMISTRY_SUBJECT = {
   id: "chemistry",
   title: "Chemistry",
-  chapters: buildSubjectChapters("chemistry"),
+  chapters: initialSubjectChapters("chemistry"),
 };
 
 const HOME_ECONOMICS_SUBJECT = {
   id: "home-economics",
   title: "Home Economics",
-  chapters: buildSubjectChapters("home-economics"),
+  chapters: initialSubjectChapters("home-economics"),
 };
 
 const HISTORY_SUBJECT = {
   id: "history",
   title: "History",
-  chapters: buildSubjectChapters("history"),
+  chapters: initialSubjectChapters("history"),
 };
-
-function buildOutcomes(ch) {
-  const vocab = chapterVocabulary(ch);
-  return [
-    {
-      id: `lo-${ch}-1`,
-      code: `${ch}.1`,
-      title: "Foundation knowledge",
-      keyTerms: vocab.slice(0, 2),
-    },
-    {
-      id: `lo-${ch}-2`,
-      code: `${ch}.2`,
-      title: "Understanding and analysis",
-      keyTerms: vocab.slice(2, 4),
-    },
-    {
-      id: `lo-${ch}-3`,
-      code: `${ch}.3`,
-      title: "Application and judgement",
-      keyTerms: vocab.slice(4),
-    },
-  ];
-}
-
-function chapterVocabulary(ch) {
-  const map = {
-    "1": [
-      t("Stakeholder", "A person or group affected by business decisions."),
-      t("Internal stakeholder", "A stakeholder inside the business, such as staff or managers."),
-      t("External stakeholder", "A stakeholder outside the business, such as customers or suppliers."),
-      t("Stakeholder conflict", "A clash where two stakeholder groups want different outcomes."),
-      t("Stakeholder mapping", "Ranking stakeholders by their power and level of interest."),
-    ],
-    "6": [
-      t("Entrepreneurship", "Starting and growing a business while taking personal risk."),
-      t("Intrapreneurship", "Creating new ideas from inside an existing company."),
-      t("Innovation", "Improving a product, service, or process to create value."),
-      t("Competitive advantage", "A strength that helps a firm outperform rivals."),
-      t("Enterprise support", "Funding, mentoring, or training that helps firms grow."),
-    ],
-    "7": [
-      t("Idea source", "Where a business idea comes from, such as customers or hobbies."),
-      t("Market trend", "A direction of change in customer behaviour or demand."),
-      t("Design thinking", "A user-focused method of solving problems in stages."),
-      t("Prototype", "An early model used to test and improve an idea."),
-      t("Feasibility study", "A check of whether an idea is practical and profitable."),
-    ],
-    "8": [
-      t("Business plan", "A written plan of goals, strategy, and financial expectations."),
-      t("Executive summary", "A short section explaining the core business idea."),
-      t("Market analysis", "Research on customers, competitors, and demand size."),
-      t("Cash flow forecast", "A prediction of money entering and leaving the business."),
-      t("Operational plan", "How daily activities, staffing, and delivery will run."),
-    ],
-    "9": [
-      t("Target market", "The specific group of customers a business chooses to serve."),
-      t("Segmentation", "Dividing a market into groups with similar traits."),
-      t("Positioning", "How a business wants customers to view its product."),
-      t("Consumer profile", "A summary of customer needs, behaviour, and preferences."),
-      t("Value proposition", "A clear reason why customers should choose this product."),
-    ],
-    "10": [
-      t("Operations", "The processes used to produce and deliver goods or services."),
-      t("Fixed cost", "A cost that stays the same regardless of output level."),
-      t("Variable cost", "A cost that changes as output increases or decreases."),
-      t("Break-even point", "The sales level where total revenue equals total costs."),
-      t("Working capital", "Short-term money needed for day-to-day operations."),
-    ],
-    "11": [
-      t("Business growth", "An increase in sales, output, market share, or staff."),
-      t("Internal growth", "Growth funded from the business's own profits."),
-      t("External growth", "Growth by joining with or buying another business."),
-      t("Economies of scale", "Lower average costs when production volume increases."),
-      t("Growth risk", "Problems that can appear when expanding too quickly."),
-    ],
-    "12": [
-      t("Risk", "The chance that events will damage business performance."),
-      t("Risk assessment", "Identifying threats and evaluating their likely impact."),
-      t("Contingency plan", "A backup action plan for disruptions."),
-      t("Insurance", "Paying a premium to protect against financial losses."),
-      t("Compliance", "Following legal and regulatory rules for business activity."),
-    ],
-    "14": [
-      t("Leadership", "Influencing people to achieve shared goals."),
-      t("Management", "Planning, organizing, and controlling resources."),
-      t("Delegation", "Giving responsibility for tasks to appropriate team members."),
-      t("Motivation", "Encouraging people to perform effectively."),
-      t("Communication", "Sharing clear information across the business."),
-    ],
-    "16": [
-      t("Planning rationale", "The reason planning improves outcomes and reduces uncertainty."),
-      t("Strategic objective", "A long-term target that guides major decisions."),
-      t("Tactical plan", "A medium-term plan that supports strategic goals."),
-      t("Operational target", "A short-term measurable goal for daily execution."),
-      t("Performance review", "Checking results against plans and improving where needed."),
-    ],
-    "17": [
-      t("Consumer right", "A legal protection for buyers of goods and services."),
-      t("Redress", "A remedy such as repair, replacement, refund, or compensation."),
-      t("Distance selling", "Buying by internet, phone, or mail rather than in-store."),
-      t("GDPR", "EU law that protects personal data and privacy rights."),
-      t("Informed decision", "A choice made after comparing quality, value, and risk."),
-    ],
-  };
-  return map[ch] || map["1"];
-}
-
-function t(term, definition) {
-  return { term, definition };
-}
-
-function buildSubjectChapters(subjectId) {
-  const dataChapters = getExternalCourseData()?.chapters;
-  if (!Array.isArray(dataChapters) || !dataChapters.length) {
-    return subjectId === "business" ? FALLBACK_CHAPTERS : [];
-  }
-  const filtered = dataChapters.filter((c) => (c.subject || "business") === subjectId);
-  if (!filtered.length) {
-    return subjectId === "business" ? FALLBACK_CHAPTERS : [];
-  }
-
-  const results = [];
-  for (const chapter of filtered) {
-    const los = chapter.learningOutcomes || [];
-    // Pipeline-generated subject packs populate FLASHCARDS_DB directly. A generated deck must
-    // remain visible even when there is no hand-written *-content.js adapter for the subject.
-    const generatedTerms = Array.isArray(globalThis.FLASHCARDS_DB?.[chapter.id])
-      ? globalThis.FLASHCARDS_DB[chapter.id]
-      : [];
-    const hasInjected = generatedTerms.length > 0
-      || los.some((lo) => lo.keyTerms && lo.keyTerms.length > 0);
-
-    if (hasInjected && los.length > 1) {
-      // A chapter holds many learning outcomes. Keep each LO as an outcome
-      // inside its chapter — never promote one to a chapter of its own.
-      const outcomes = los
-        .map((lo, loIndex) => ({
-          id: `${lo.id}-core`,
-          code: lo.code,
-          title: lo.title,
-          keyTerms: (lo.keyTerms && lo.keyTerms.length)
-            ? lo.keyTerms
-            : ((lo.notes || []).length
-                ? (lo.notes || []).map((note, idx) => ({
-                    term: note.h || `${lo.title} ${idx + 1}`,
-                    definition: note.b || (note.points || []).join(" "),
-                    section: lo.title,
-                  }))
-                : (loIndex === 0 ? generatedTerms : [])),
-        }))
-        .filter((lo) => lo.keyTerms.length);
-
-      if (outcomes.length) {
-        results.push({
-          id: chapter.id,
-          title: `${chapter.number}. ${chapter.title}`,
-          learningOutcomes: outcomes,
-        });
-        continue;
-      }
-      // Nothing usable on any outcome — fall through to the merged shape below.
-    }
-
-    // Single-LO chapters, or chapters without injected keyTerms: one merged outcome.
-    results.push({
-      id: chapter.id,
-      title: `${chapter.number}. ${chapter.title}`,
-      learningOutcomes: [
-        {
-          id: `${chapter.id}-core`,
-          code: `${chapter.number}.0`,
-          title: "Core Concepts",
-          keyTerms: ensureMinimumConcepts(
-            los.flatMap((lo, loIndex) =>
-              (lo.keyTerms && lo.keyTerms.length)
-                ? lo.keyTerms
-                : ((lo.notes || []).length
-                    ? (lo.notes || []).map((note, idx) => ({
-                        term: note.h || `${lo.title} ${idx + 1}`,
-                        definition: note.b || (note.points || []).join(" "),
-                        section: lo.title || `Section ${loIndex + 1}`,
-                      }))
-                    : (loIndex === 0 ? generatedTerms : []))
-            ),
-            chapter
-          ),
-        },
-      ],
-    });
-  }
-  return results;
-}
-
-function getExternalCourseData() {
-  try {
-    // COURSE_DATA is declared in data.js as a top-level const.
-    // It exists as a global lexical binding, not as globalThis.COURSE_DATA.
-    if (typeof COURSE_DATA !== "undefined" && COURSE_DATA?.chapters) {
-      return COURSE_DATA;
-    }
-  } catch (error) {
-    // Ignore and fall back to local chapter data.
-  }
-  return null;
-}
-
-function ensureMinimumConcepts(points, chapter) {
-  const base = Array.isArray(points) ? points.filter((p) => p.term || p.definition) : [];
-  if (base.length >= 5) return base; // Keep all original notes when already sufficient.
-  if (base.length === 0) return []; // No real content — don't generate placeholder fillers.
-
-  const fillers = [];
-  (chapter.learningOutcomes || []).forEach((lo, idx) => {
-    fillers.push({
-      term: lo.title || `Concept ${idx + 1}`,
-      definition: `Explain ${lo.title || "this concept"} with one business example.`,
-      section: lo.code || `Section ${idx + 1}`,
-    });
-  });
-
-  let i = 0;
-  while (base.length + fillers.length < 5) {
-    fillers.push({
-      term: `Core Review Point ${i + 1}`,
-      definition: `Summarise one key idea from Chapter ${chapter.number} and apply it to a real business scenario.`,
-      section: "Chapter Review",
-    });
-    i += 1;
-  }
-
-  return [...base, ...fillers].slice(0, 5);
-}
 
 const SUBJECTS = [
   BUSINESS_SUBJECT,
@@ -538,6 +292,7 @@ const TEST_KIND_LABELS = {
 };
 const TEST_CHOICE_KINDS = new Set(["pick-term", "pick-definition", "mcq", "tf"]);
 const testPoolCache = new Map();
+const openedSubjects = new Set(); // subjects whose full data the student has asked for
 let activeTest = null;
 
 if (isLocalMathsPreview) {
@@ -578,6 +333,8 @@ if (isLocalOnboardingPreview) {
 }
 
 function bindEvents() {
+  els.subjectWorkbench?.addEventListener("pointerdown", openShownSubjectData, { capture: true });
+  document.addEventListener("keydown", openShownSubjectData, { capture: true });
   renderAvatarPicker();
   els.openSubjectChoices.addEventListener("click", () => showProfilePane("subjects"));
   els.openStudyPlan.addEventListener("click", () => {
@@ -1500,6 +1257,7 @@ function showOnboarding(user, { editing = false } = {}) {
         .filter((id) => !result.subjects.includes(id));
       const priority = SUBJECTS.find((s) => s.id === result.prioritySubject);
       if (priority && !editing) {
+        openSubjectData(priority.id);
         selectedSubjectId = priority.id;
         expandedSubjectId = priority.id;
         selectedChapterId = priority.chapters[0]?.id || "";
@@ -1682,7 +1440,10 @@ function renderTabVisibility() {
 
 function renderAll() {
   reconcileSelection();
-  requestExamPack(selectedSubjectId);
+  if (openedSubjects.has(selectedSubjectId)) {
+    requestSubjectPack(selectedSubjectId).catch((error) => console.error(error));
+    requestExamPack(selectedSubjectId);
+  }
   renderAccount();
   renderProfileAvatar();
   renderAccountIdentity();
@@ -1832,7 +1593,7 @@ function computeUserProgress(user) {
   SUBJECTS.filter((s) => enabledIds.includes(s.id)).forEach((subject) => {
     (subject.chapters || []).forEach((ch) => {
       (ch.learningOutcomes || []).forEach((lo) => {
-        const concepts = (lo.keyTerms || []).length;
+        const concepts = outcomeCardTotal(lo);
         total += concepts;
         if ((progress[lo.id] || 0) >= 1) {
           earned += concepts;
@@ -1929,6 +1690,7 @@ function renderGraph() {
       <div class="graph-chapters ${expanded ? "" : "hidden"}" aria-label="${escapeHtml(subject.title)} chapters"></div>
     `;
     const openSubject = () => {
+      openSubjectData(subject.id);
       // Phones show the chapter list as its own screen rather than the overlay sheet
       expandedSubjectId = isPhoneLayout() || expandedSubjectId === subject.id ? "" : subject.id;
       selectedSubjectId = subject.id;
@@ -1948,6 +1710,7 @@ function renderGraph() {
       chapterButton.className = `graph-chapter subject-open ${chapter.id === selectedChapterId ? "active" : ""}`;
       chapterButton.textContent = chapter.title;
       chapterButton.addEventListener("click", () => {
+        openSubjectData(subject.id);
         selectedSubjectId = subject.id;
         selectedChapterId = chapter.id;
         selectedOutcomeId = chapter.learningOutcomes[0].id;
@@ -2033,14 +1796,15 @@ function renderOutcomePicker() {
     const cards = cardsForOutcome(lo, selectedSubjectId);
     const learned = new Set(learnedByOutcome[lo.id] || []);
     const done = cards.filter((c) => learned.has(c.id)).length;
-    const pct = cards.length ? Math.round((done / cards.length) * 100) : 0;
+    const total = outcomeCardTotal(lo);
+    const pct = total ? Math.round((done / total) * 100) : 0;
     return `
       <button class="outcome-card ${pct === 100 ? "is-done" : ""}" type="button" data-outcome-id="${escapeHtml(lo.id)}">
         <span class="outcome-card-index">${String(idx + 1).padStart(2, "0")}</span>
         <span class="outcome-card-title">${escapeHtml(compactText(lo.title || `Subsection ${idx + 1}`))}</span>
         <span class="outcome-card-meta">
           <span class="outcome-card-bar"><span style="width:${pct}%"></span></span>
-          <span>${done}/${cards.length}</span>
+          <span>${done}/${total}</span>
         </span>
       </button>`;
   }).join("");
@@ -2124,6 +1888,7 @@ function selectChapterFromOverview(chapterId) {
   if (!subject) return;
   const chapter = subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
+  openSubjectData(subject.id);
   selectedChapterId = chapterId;
   selectedOutcomeId = chapter.learningOutcomes[0]?.id || '';
   studyIndex = 0;
@@ -2171,7 +1936,7 @@ function renderOutcomes() {
   let chapterLearnedCards = 0;
   chapter.learningOutcomes.forEach(lo => {
     const loCards = cardsForOutcome(lo, selectedSubjectId);
-    chapterTotalCards += loCards.length;
+    chapterTotalCards += outcomeCardTotal(lo);
     const loLearned = new Set(learnedByOutcome[lo.id] || []);
     chapterLearnedCards += loCards.filter(c => loLearned.has(c.id)).length;
   });
@@ -2183,7 +1948,7 @@ function renderOutcomes() {
         <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
         <span>${chapterPct}%</span>
       </div>
-      <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${cards.length}</span>
+      <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${outcomeCardTotal(outcome)}</span>
     </header>
     <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
     <div class="study-card-footer">
@@ -2533,6 +2298,12 @@ function handleTestSetupChange(event) {
 
 function startTest(retestItems) {
   if (!getCurrentUser()) return;
+  // Tests draw on the subject's notes, flashcards and questions: wait for them first.
+  if (!subjectPackReady(selectedSubjectId)) {
+    openSubjectData(selectedSubjectId);
+    requestSubjectPack(selectedSubjectId).then(() => startTest(retestItems), (error) => console.error(error));
+    return;
+  }
   // Tests draw on past-paper questions, so wait for the subject's bank first.
   if (!examPackReady(selectedSubjectId)) {
     requestExamPack(selectedSubjectId).then(() => startTest(retestItems));
@@ -3418,6 +3189,58 @@ function cardsForOutcome(outcome, subjectId) {
     definition: compactText(kt.definition),
     keywords: extractKeywords(kt),
   }));
+}
+
+// ── Lazy subject data ──
+// Opening the app downloads no notes and no past-paper banks: every topic is drawn
+// from subject-index.js (its first flashcard and card count). The first time the
+// student opens one of a subject's topics, that subject's notes and flashcards
+// (subject-packs.js) and its past-paper bank (exam-packs.js) load, and the views
+// redraw from the full data. (openedSubjects is declared with the other state above.)
+
+function openSubjectData(subjectId) {
+  if (subjectId) openedSubjects.add(subjectId);
+}
+
+function subjectPackReady(subjectId) {
+  return !window.SubjectPacks || window.SubjectPacks.isLoaded(subjectId);
+}
+
+function requestSubjectPack(subjectId) {
+  if (subjectPackReady(subjectId)) return Promise.resolve();
+  return window.SubjectPacks.load(subjectId).then(() => {
+    const subject = SUBJECTS.find((s) => s.id === subjectId);
+    if (!subject) return;
+    subject.chapters = buildSubjectChapters(subjectId);
+    testPoolCache.clear();
+    if (selectedSubjectId === subjectId) keepSelectionInSubject(subject);
+    renderAll();
+  });
+}
+
+// subject-index.js mirrors the full data, but if it's out of date a selected topic
+// may not exist once the real files arrive: fall back to the first one.
+function keepSelectionInSubject(subject) {
+  const chapter = subject.chapters.find((c) => c.id === selectedChapterId) || subject.chapters[0];
+  selectedChapterId = chapter?.id || "";
+  const outcomes = chapter?.learningOutcomes || [];
+  if (!outcomes.some((lo) => lo.id === selectedOutcomeId)) {
+    selectedOutcomeId = outcomes[0]?.id || "";
+    studyIndex = 0;
+    showAnswer = false;
+  }
+}
+
+// Using the study area on a topic that is on screen but not downloaded yet (the
+// default topic shown after signing in) counts as opening it. This only starts the
+// download; it never redraws mid-click.
+function openShownSubjectData(event) {
+  if (openedSubjects.has(selectedSubjectId)) return;
+  if (event.type === "keydown" && event.target.closest?.("input, textarea, select, [contenteditable]")) return;
+  if (event.type === "keydown" && els.subjectWorkbench?.classList.contains("hidden")) return;
+  openSubjectData(selectedSubjectId);
+  requestSubjectPack(selectedSubjectId).catch((error) => console.error(error));
+  requestExamPack(selectedSubjectId);
 }
 
 // Past-paper banks load per subject (exam-packs.js) rather than with the page.
@@ -4649,7 +4472,7 @@ function buildProgressSubjectStats(user) {
     const chStats = (subject.chapters || []).map((ch) => {
       let chEarned = 0, chTotal = 0;
       (ch.learningOutcomes || []).forEach((lo) => {
-        const concepts = (lo.keyTerms || []).length;
+        const concepts = outcomeCardTotal(lo);
         chTotal += concepts;
         if ((progress[lo.id] || 0) >= 1) {
           chEarned += concepts;

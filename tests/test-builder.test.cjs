@@ -3,16 +3,21 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
+const { readPacks } = require("../scripts/subject-index.cjs");
 
 const root = path.resolve(__dirname, "..");
 const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js", "paper-archive.js"]);
 
 // Loads every local data script app.html loads, in the same order, plus the builder.
+// Subjects' own files load lazily in the app (subject-packs.js), so they go in
+// straight after data.js here, as their <script> tags used to.
 function createContext() {
   const html = fs.readFileSync(path.join(root, "app.html"), "utf8");
   const files = [...html.matchAll(/<script src="\.\/([^"?]+)/g)]
     .map((m) => m[1])
     .filter((file) => !SKIP_SCRIPTS.has(file));
+  const subjectFiles = Object.values(readPacks()).flat();
+  files.splice(files.indexOf("data.js") + 1, 0, ...subjectFiles);
   const context = { console };
   context.window = context;
   context.globalThis = context;
