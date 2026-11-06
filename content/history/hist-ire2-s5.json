@@ -26,7 +26,9 @@
         "The agricultural south and west had a different economy from the industrial north-east, so unionists argued that an Irish parliament would favour agricultural interests.",
         "Identity and empire: Ulster Protestants saw themselves as British, were proud of the empire, and believed that Home Rule was the first step towards separation.",
         "Protestants also feared for their position as a minority in a self-governing Ireland, and many believed nationalists would dispossess them, as in the Land War.",
-        "Liberal unionists such as Chamberlain argued that Home Rule would threaten the union of the kingdoms, not only the Ulster minority."
+        "Liberal unionists such as Chamberlain argued that Home Rule would threaten the union of the kingdoms, not only the Ulster minority.",
+        "Protestants held a disproportionate share of Ireland’s land, wealth and professions, and feared losing status in a state run by the Catholic majority.",
+        "Many Ulster unionists believed that the Land Acts and the Irish Party’s links with Fenians showed that nationalists would not respect property."
       ]
     },
     {
@@ -39,7 +41,8 @@
         "The Irish Unionist Alliance was formed in 1891 to unite the Irish unionist bodies.",
         "The Ulster Convention, held in the Botanic Gardens in Belfast in June 1892 with about 12,000 delegates, protested against the Second Home Rule Bill; a Dublin convention followed.",
         "The Ulster Unionist Council was founded in March 1905 as a central body for Ulster, bringing together Orange lodges, constituency associations and unionist MPs.",
-        "Opposition to the Irish Reform Association’s devolution proposals in 1904–05 convinced Ulster unionists that they needed their own permanent body."
+        "Opposition to the Irish Reform Association’s devolution proposals in 1904–05 convinced Ulster unionists that they needed their own permanent body.",
+        "The Ulster Women’s Unionist Council, formed in January 1911 under Lady Londonderry, mobilised tens of thousands of women for the unionist cause."
       ]
     },
     {
@@ -66,7 +69,10 @@
         "Andrew Bonar Law, the Conservative leader since November 1911, spoke at Blenheim Palace on 27 July 1912, pledging the party to support Ulster in any resistance.",
         "The Third Home Rule Bill was introduced on 11 April 1912; an amendment to exclude four Ulster counties was defeated in June 1912.",
         "On Ulster Day, 28 September 1912, about 237,000 men signed the Solemn League and Covenant, pledging to use all means to defeat Home Rule, and about 234,000 women signed a separate declaration.",
-        "The total of about 471,000 signatures included many in Britain; some, especially younger Protestants, signed in their own blood or at the church door."
+        "The total of about 471,000 signatures included many in Britain; some, especially younger Protestants, signed in their own blood or at the church door.",
+        "The Commons passed the Third Home Rule Bill in January 1913, the Lords rejected it, and the same happened in July 1913; a third Commons passage in 1914 overrode the Lords under the Parliament Act.",
+        "A British Covenant organised by the Union Defence League in 1914 gathered a very large number of signatures in Britain (about two million is often quoted).",
+        "The Twelfth of July Orange demonstrations and Presbyterian and Church of Ireland ministers gave the campaign a religious character, with many ministers joining Covenant services."
       ]
     },
     {
@@ -90,7 +96,9 @@
         "The Larne landing prompted nationalists to organise their own gun-running at Howth and Kilcoole in July–August 1914.",
         "The Buckingham Palace Conference (21–24 July 1914), opened by George V and chaired by the Speaker, brought Asquith, Lloyd George, Redmond, Dillon, Carson, Craig, Lansdowne and Bonar Law together.",
         "The Conference failed over the area to be excluded, especially Tyrone and Fermanagh, with mixed populations.",
-        "The Home Rule Act received the royal assent on 18 September 1914 but was suspended for the duration of the war, leaving Ulster’s status unsettled."
+        "The Home Rule Act received the royal assent on 18 September 1914 but was suspended for the duration of the war, leaving Ulster’s status unsettled.",
+        "The rifles had been bought in Germany by Fred Crawford and brought to Larne by the ship Clyde Valley, then distributed by car across Ulster in a night.",
+        "Redmond rejected permanent exclusion of Ulster as partition, while Carson rejected temporary exclusion; the gap between them was never closed before the war."
       ]
     },
     {
@@ -107,30 +115,99 @@
     }
   ],
   "keyTerms": [
-    { "term": "Unionism", "definition": "The movement to keep Ireland in the United Kingdom under the Westminster parliament and to oppose Home Rule." },
-    { "term": "Militarism", "definition": "The use of armed volunteer forces as a political tool, as the Ulster Volunteer Force did from 1913." },
-    { "term": "Democracy", "definition": "Rule by the elected majority; nationalists said unionist threats of force defied it, and unionists said Ulster was entitled to its own consent." },
-    { "term": "Home Rule is Rome Rule", "definition": "The unionist slogan that a Dublin parliament would be dominated by the Catholic Church." },
-    { "term": "Orange Order", "definition": "The Protestant society founded in 1795 whose lodges gave Ulster unionism a mass base." },
-    { "term": "Irish Loyal and Patriotic Union", "definition": "The unionist organisation founded in 1885 by southern unionists to oppose Home Rule." },
-    { "term": "Ulster Unionist Council", "definition": "The central body of Ulster unionism, founded in March 1905." },
-    { "term": "Solemn League and Covenant", "definition": "The pledge to resist Home Rule signed by about 237,000 men on 28 September 1912." },
-    { "term": "Ulster Volunteer Force", "definition": "The armed unionist force formed in January 1913 to resist Home Rule." },
-    { "term": "Curragh incident", "definition": "The March 1914 crisis in which army officers at the Curragh offered to resign rather than act against Ulster." }
+    {
+      "term": "Unionism",
+      "definition": "The movement to keep Ireland in the United Kingdom under the Westminster parliament and to oppose Home Rule."
+    },
+    {
+      "term": "Militarism",
+      "definition": "The use of armed volunteer forces as a political tool, as the Ulster Volunteer Force did from 1913."
+    },
+    {
+      "term": "Democracy",
+      "definition": "Rule by the elected majority; nationalists said unionist threats of force defied it, and unionists said Ulster was entitled to its own consent."
+    },
+    {
+      "term": "Home Rule is Rome Rule",
+      "definition": "The unionist slogan that a Dublin parliament would be dominated by the Catholic Church."
+    },
+    {
+      "term": "Orange Order",
+      "definition": "The Protestant society founded in 1795 whose lodges gave Ulster unionism a mass base."
+    },
+    {
+      "term": "Irish Loyal and Patriotic Union",
+      "definition": "The unionist organisation founded in 1885 by southern unionists to oppose Home Rule."
+    },
+    {
+      "term": "Ulster Unionist Council",
+      "definition": "The central body of Ulster unionism, founded in March 1905."
+    },
+    {
+      "term": "Solemn League and Covenant",
+      "definition": "The pledge to resist Home Rule signed by about 237,000 men on 28 September 1912."
+    },
+    {
+      "term": "Ulster Volunteer Force",
+      "definition": "The armed unionist force formed in January 1913 to resist Home Rule."
+    },
+    {
+      "term": "Curragh incident",
+      "definition": "The March 1914 crisis in which army officers at the Curragh offered to resign rather than act against Ulster."
+    }
   ],
   "factCards": [
-    { "term": "Carson: three key roles", "definition": "Leader of the Irish Unionists from 1910, signer of the Covenant in 1912 and chairman of the planned Provisional Government in 1913." },
-    { "term": "Carson and Oscar Wilde", "definition": "In 1895 Carson cross-examined Wilde as counsel for the Marquess of Queensberry in the libel case." },
-    { "term": "James Craig: role", "definition": "A Belfast businessman and MP for East Down who organised the unionist campaign for Carson." },
-    { "term": "Ulster Convention, 1892", "definition": "Held in Belfast in June 1892 with about 12,000 delegates, in opposition to the Second Home Rule Bill." },
-    { "term": "Ulster Unionist Council: founded", "definition": "March 1905, as the central body for Ulster unionism." },
-    { "term": "Bonar Law at Blenheim", "definition": "On 27 July 1912 the Conservative leader pledged his party to support Ulster in any resistance to Home Rule." },
-    { "term": "Ulster Day: signatures", "definition": "On 28 September 1912 about 237,000 men signed the Covenant and about 234,000 women signed a declaration (about 471,000 in all)." },
-    { "term": "Ulster Volunteer Force: commander", "definition": "Lieutenant-General Sir George Richardson, with Carson as political leader." },
-    { "term": "Asquith’s March 1914 proposal", "definition": "Ulster counties could opt out of Home Rule for six years; Carson rejected it." },
-    { "term": "Curragh incident: leader and date", "definition": "Brigadier-General Hubert Gough and officers offered to resign on 20 March 1914." },
-    { "term": "Larne gun-running: date and size", "definition": "On 24–25 April 1914 about 25,000 rifles and several million rounds were landed." },
-    { "term": "Buckingham Palace Conference: dates and failure", "definition": "21–24 July 1914; it failed over Tyrone and Fermanagh." },
-    { "term": "Saunderson: role", "definition": "Colonel Edward Saunderson led the Irish Unionist MPs from 1886 until his death in 1906." }
+    {
+      "term": "Carson: three key roles",
+      "definition": "Leader of the Irish Unionists from 1910, signer of the Covenant in 1912 and chairman of the planned Provisional Government in 1913."
+    },
+    {
+      "term": "Carson and Oscar Wilde",
+      "definition": "In 1895 Carson cross-examined Wilde as counsel for the Marquess of Queensberry in the libel case."
+    },
+    {
+      "term": "James Craig: role",
+      "definition": "A Belfast businessman and MP for East Down who organised the unionist campaign for Carson."
+    },
+    {
+      "term": "Ulster Convention, 1892",
+      "definition": "Held in Belfast in June 1892 with about 12,000 delegates, in opposition to the Second Home Rule Bill."
+    },
+    {
+      "term": "Ulster Unionist Council: founded",
+      "definition": "March 1905, as the central body for Ulster unionism."
+    },
+    {
+      "term": "Bonar Law at Blenheim",
+      "definition": "On 27 July 1912 the Conservative leader pledged his party to support Ulster in any resistance to Home Rule."
+    },
+    {
+      "term": "Ulster Day: signatures",
+      "definition": "On 28 September 1912 about 237,000 men signed the Covenant and about 234,000 women signed a declaration (about 471,000 in all)."
+    },
+    {
+      "term": "Ulster Volunteer Force: commander",
+      "definition": "Lieutenant-General Sir George Richardson, with Carson as political leader."
+    },
+    {
+      "term": "Asquith’s March 1914 proposal",
+      "definition": "Ulster counties could opt out of Home Rule for six years; Carson rejected it."
+    },
+    {
+      "term": "Curragh incident: leader and date",
+      "definition": "Brigadier-General Hubert Gough and officers offered to resign on 20 March 1914."
+    },
+    {
+      "term": "Larne gun-running: date and size",
+      "definition": "On 24–25 April 1914 about 25,000 rifles and several million rounds were landed."
+    },
+    {
+      "term": "Buckingham Palace Conference: dates and failure",
+      "definition": "21–24 July 1914; it failed over Tyrone and Fermanagh."
+    },
+    {
+      "term": "Saunderson: role",
+      "definition": "Colonel Edward Saunderson led the Irish Unionist MPs from 1886 until his death in 1906."
+    }
   ]
 }
