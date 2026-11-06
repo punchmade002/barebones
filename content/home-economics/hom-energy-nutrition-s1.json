@@ -1,0 +1,138 @@
+{
+  "loId": "hom-energy-nutrition-s1",
+  "chapterId": "hom-energy-nutrition",
+  "subsection": "1. Energy requirements and the role of energy",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    {
+      "h": "Energy in the body",
+      "b": "Energy is what the body needs to carry out all its functions, including breathing, circulating blood and moving.",
+      "points": [
+        "Energy is measured in kilojoules (kJ) or kilocalories (kcal); 1 kcal is about 4.2 kJ.",
+        "The body releases energy from carbohydrate, protein, fat and alcohol through chemical reactions, and uses it for every body function.",
+        "Energy not used straight away is stored as glycogen in the liver and muscles, or as fat in adipose tissue."
+      ]
+    },
+    {
+      "h": "Basal metabolic rate (BMR)",
+      "points": [
+        "BMR is the minimum energy the body needs to stay alive while completely at rest.",
+        "It pays for the functions that continue at rest: breathing, the heartbeat and circulation of blood, and the work of the brain, liver, kidneys and other internal organs.",
+        "It also pays for maintaining body temperature.",
+        "BMR is measured lying completely still and awake, in a warm room, after a fast of about 12 hours.",
+        "For most people BMR is the largest single share of total daily energy use."
+      ]
+    },
+    {
+      "h": "Factors that affect BMR",
+      "points": [
+        "Age: BMR is highest during growth and falls with age, as lean muscle tissue declines.",
+        "Gender: men generally have a higher BMR than women of the same weight, because they have more lean muscle tissue and less fat.",
+        "Body size and composition: a larger body needs more energy, and lean muscle uses more energy at rest than fat tissue does.",
+        "Hormones: thyroid hormones raise BMR when they are produced in excess by an overactive thyroid gland, and lower it when the thyroid is underactive.",
+        "Activity does not change BMR itself; it changes the total energy the body uses in a day."
+      ]
+    },
+    {
+      "h": "Growth",
+      "points": [
+        "Energy is needed to build new body tissue, especially muscle, bone and blood.",
+        "Infants and young children need a high amount of energy for their size because they are growing quickly.",
+        "Teenagers have growth spurts with a high energy need; boys generally need more than girls at this stage."
+      ]
+    },
+    {
+      "h": "Physical activity",
+      "b": "Physical activity is the most variable part of daily energy use, so it is the factor an individual can change most easily.",
+      "points": [
+        "Energy used in activity depends on the intensity, duration and frequency of the activity.",
+        "Occupational activity: a manual worker, such as a builder or farm worker, uses far more energy than an office worker.",
+        "Leisure activity: walking, cycling, gardening and playing sport add to daily energy use.",
+        "Sedentary lifestyle: low activity means low energy output, so less food energy is needed to balance the body's needs."
+      ]
+    },
+    {
+      "h": "Total daily energy requirement",
+      "points": [
+        "Total daily energy use is made up of BMR, energy for physical activity, and energy used to digest and absorb food.",
+        "Occupation: manual and athletic work increases the requirement; sedentary work lowers it.",
+        "Climate: in cold conditions the body produces extra heat to keep its temperature stable, so energy needs rise.",
+        "Pregnancy: extra energy is needed for the growth of the baby, the placenta and the mother's extra tissue.",
+        "Lactation: extra energy is needed to make breast milk.",
+        "Health: fever, illness and recovery from injury or surgery raise energy needs; prolonged immobility lowers them."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Basal metabolic rate (BMR)",
+      "definition": "The minimum energy the body needs at complete rest to keep vital functions and body temperature going."
+    },
+    {
+      "term": "Kilojoule (kJ)",
+      "definition": "A metric unit of energy; 1 kcal is about 4.2 kJ."
+    },
+    {
+      "term": "Kilocalorie (kcal)",
+      "definition": "A unit of energy still used on food labels; 1 kcal is about 4.2 kJ."
+    },
+    {
+      "term": "Lean tissue",
+      "definition": "Muscle, bone and organ tissue, which uses more energy at rest than fat tissue does."
+    },
+    {
+      "term": "Thyroid hormones",
+      "definition": "Hormones from the thyroid gland that raise the rate at which the body uses energy."
+    },
+    {
+      "term": "Energy requirement",
+      "definition": "The amount of energy a person needs each day to balance their energy use and maintain health."
+    },
+    {
+      "term": "Thermic effect of food",
+      "definition": "The energy the body uses to digest, absorb and process the food it eats."
+    },
+    {
+      "term": "Sedentary lifestyle",
+      "definition": "A way of living with little physical activity, so that daily energy output is low."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four body functions that use energy at rest",
+      "definition": "Breathing; circulation of blood by the heart; activity of the brain and internal organs; maintaining body temperature."
+    },
+    {
+      "term": "Conditions for measuring BMR",
+      "definition": "The person lies completely still and awake in a warm room, after a fast of about 12 hours."
+    },
+    {
+      "term": "Four factors that affect BMR",
+      "definition": "Age; gender; body size and lean muscle mass; thyroid hormones."
+    },
+    {
+      "term": "Two effects of a cold climate on energy needs",
+      "definition": "The body produces more heat to keep its temperature stable, so energy use rises; shivering, a muscular response, also uses extra energy."
+    },
+    {
+      "term": "Two extra energy needs in pregnancy and lactation",
+      "definition": "Growth of the baby, placenta and mother's extra tissue during pregnancy; production of breast milk during lactation."
+    },
+    {
+      "term": "Three main components of daily energy use",
+      "definition": "BMR; energy for physical activity; energy used to digest and absorb food."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two factors that affect the basal metabolic rate of an adult.",
+      "model": "Age: BMR is highest during growth and falls with age because lean muscle tissue declines, so an older adult needs less energy at rest. Gender: men generally have a higher BMR than women of the same weight because they have more lean muscle tissue and less fat. Body size and composition, pregnancy and thyroid hormones are also accepted, with a brief explanation of how each one changes BMR."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the factors that determine the total daily energy requirement of a teenager who plays competitive sport.",
+      "model": "BMR: a teenager has a high BMR because of growth and lean muscle development, and boys generally have a higher BMR than girls of the same weight. Growth spurts raise energy needs further. Physical activity: competitive training has high intensity, long duration and high frequency, so energy for activity is a large share of the total. Thermic effect of food: a larger amount of food eaten to meet the demand also raises the energy the body uses to digest it. Climate: training in cold or hot conditions changes the energy used to maintain body temperature. Health: illness or injury lowers activity and so reduces requirements until recovery. Intake should match these needs so that energy balance is maintained."
+    }
+  ]
+}

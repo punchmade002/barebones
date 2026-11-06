@@ -1,0 +1,159 @@
+{
+  "loId": "hom-personal-finance-s3",
+  "chapterId": "hom-personal-finance",
+  "subsection": "3. Methods of payment and credit",
+  "syllabusRef": "2.1.3",
+  "notes": [
+    {
+      "h": "Methods of payment for goods and services",
+      "points": [
+        "Cash: immediate payment in notes and coins; it is fast and shows exactly what has been spent, but carrying large amounts is unsafe.",
+        "Cheque: a written order to the bank to pay a sum to a named person; it requires a bank account and takes time to clear.",
+        "Credit card: goods are bought now and paid for later; a minimum monthly payment is required, and interest applies to any balance not cleared.",
+        "Debit card (laser card): the amount is taken from the bank account immediately, and the card can be used for cashback and ATM withdrawals.",
+        "Direct debit: the account holder authorises a company or utility to take a set amount from the account on a regular date.",
+        "Standing order: the account holder instructs the bank to make a fixed payment at regular intervals to a named payee.",
+        "Online banking: payments and transfers made from a bank account through a computer or phone."
+      ]
+    },
+    {
+      "h": "Criteria for choosing a payment method",
+      "points": [
+        "Cost: whether the method charges fees or interest.",
+        "Security: the risk of loss or theft, and whether the method leaves a record of the payment.",
+        "Convenience: speed of payment, the ability to pay at a distance or online, and ease of budgeting.",
+        "Availability: whether the retailer or service provider accepts the method, and whether the buyer holds the card or account needed.",
+        "Control: whether the buyer can see and limit spending, which is easier with cash or a debit card than with credit.",
+        "Size of purchase: cash suits small everyday purchases, while credit or instalment methods suit large, expensive items the household cannot pay for at once."
+      ]
+    },
+    {
+      "h": "Types of credit for household purchases",
+      "points": [
+        "Credit card: a revolving credit facility with a credit limit; it can offer an interest-free period if the full balance is paid on time.",
+        "Charge card: the full balance is due each month, and no interest is charged on it.",
+        "Store card: credit offered by a retailer, usable for purchases in that shop.",
+        "Overdraft: the bank allows the account balance to go below zero up to an agreed limit, with interest charged on the amount overdrawn.",
+        "Personal or term loan: a fixed sum borrowed and repaid in instalments over a set period.",
+        "Credit union loan: members can borrow from the credit union, usually after building up a savings record."
+      ]
+    },
+    {
+      "h": "Hire purchase",
+      "points": [
+        "Hire purchase combines hiring and buying: the buyer pays a deposit and then instalments over an agreed period.",
+        "The goods belong to the finance company until the final payment is made, and ownership passes to the buyer only then.",
+        "Once more than one-third of the total price has been paid, the finance company needs a court order to repossess the goods.",
+        "Advantage: the goods can be used immediately and the cost is spread across instalments.",
+        "Disadvantages: interest can make the total cost much higher than the cash price, and missed payments can lead to repossession."
+      ]
+    },
+    {
+      "h": "Cost of credit",
+      "points": [
+        "Total cash price: the price of goods if they are paid for in full at the time of purchase.",
+        "Cost of credit: the total amount repayable under the credit agreement minus the cash price.",
+        "Annual percentage rate (APR): the yearly cost of borrowing, as a percentage, including charges; it allows different credit offers to be compared.",
+        "To compare cash and credit, a buyer works out the cost of credit and decides whether the immediate use of the goods is worth that extra cost."
+      ]
+    },
+    {
+      "h": "Advantages and disadvantages of using credit",
+      "points": [
+        "Advantages: goods are available immediately, and large purchases become affordable.",
+        "Advantages: credit can cover urgent costs, such as an emergency repair, and avoids the need to carry large amounts of cash.",
+        "Advantages: loan repayments are fixed over a set period, so the cost is predictable.",
+        "Disadvantages: high interest is charged if the credit balance is not repaid in full.",
+        "Disadvantages: credit makes overspending and impulse buying easier, and several credit agreements at once increase the risk of debt."
+      ]
+    },
+    {
+      "h": "Consumer Credit Act 1995 (as amended)",
+      "points": [
+        "The Consumer Credit Act 1995 (as amended) protects consumers who buy on credit, including through hire purchase and other credit agreements.",
+        "A credit agreement must be in writing and must set out the cost of the credit and the terms of repayment.",
+        "Advertisements for credit must state the APR, the total cash price, the cost of credit, the number and amount of instalments, and the date of each instalment."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Credit",
+      "definition": "Goods or services obtained now with payment deferred, usually with interest or charges applied."
+    },
+    {
+      "term": "Hire purchase",
+      "definition": "An agreement to hire goods and pay for them in instalments, with ownership passing to the buyer only after the final payment."
+    },
+    {
+      "term": "Annual percentage rate (APR)",
+      "definition": "The yearly cost of credit expressed as a percentage, including charges, used to compare credit offers."
+    },
+    {
+      "term": "Cash price",
+      "definition": "The price of goods paid for in full at the time of purchase."
+    },
+    {
+      "term": "Cost of credit",
+      "definition": "The total amount repayable under a credit agreement minus the cash price."
+    },
+    {
+      "term": "Debit card",
+      "definition": "A card that takes payment directly from the holder's bank account."
+    },
+    {
+      "term": "Credit card",
+      "definition": "A card that lets the holder buy now and pay later, subject to a credit limit and interest on any unpaid balance."
+    },
+    {
+      "term": "Direct debit",
+      "definition": "A payment authorised by the account holder that lets a company take a set amount from the account on a regular date."
+    },
+    {
+      "term": "Standing order",
+      "definition": "A regular fixed payment made by the bank on the account holder's instruction."
+    },
+    {
+      "term": "Overdraft",
+      "definition": "An agreed facility that allows the account balance to go below zero up to an agreed limit."
+    },
+    {
+      "term": "Consumer Credit Act 1995",
+      "definition": "Irish legislation, as amended, that protects consumers who buy on credit, including hire purchase."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Five items a credit advertisement must show",
+      "definition": "The APR; the total cash price; the cost of credit; the number and amount of instalments; the date of each instalment."
+    },
+    {
+      "term": "Three disadvantages of hire purchase",
+      "definition": "The buyer does not own the goods until the final payment; interest can make the total cost high; missed payments can lead to repossession."
+    },
+    {
+      "term": "Four criteria for choosing a payment method",
+      "definition": "Cost, security, convenience and availability."
+    },
+    {
+      "term": "Three types of credit for household goods",
+      "definition": "Credit card, store card and hire purchase."
+    },
+    {
+      "term": "Two advantages of paying by cash",
+      "definition": "It is fast and convenient, and the buyer can see exactly what has been spent."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe how a hire-purchase agreement works for a household buying a washing machine, and state one risk the buyer faces.",
+      "model": "The buyer pays a deposit, then equal instalments over an agreed period. The buyer can use the machine immediately, but the finance company owns it until the final payment. Risk: if repayments are missed, the goods may be repossessed; alternatively, interest makes the total cost higher than the cash price."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss the factors a household should weigh when choosing a method of payment for a major household purchase, and assess the advantages and disadvantages of using credit to buy it. Refer to the protection given by the Consumer Credit Act 1995.",
+      "model": "Factors: cost (fees and interest), security (risk of loss and a payment record), convenience, availability (whether the retailer accepts the method), control over spending, and the size of the purchase. Advantages of credit: immediate use of goods, spreading of costs, fixed repayments, interest-free period on a credit card if paid on time. Disadvantages: high interest if not cleared, overspending, too many agreements, repossession under hire purchase, and not owning hire-purchase goods until the final payment. Consumer Credit Act 1995 (as amended): credit agreements must be in writing and set out the cost and repayment terms; advertisements must show the APR, total cash price, cost of credit and instalment details, so buyers can compare offers."
+    }
+  ]
+}

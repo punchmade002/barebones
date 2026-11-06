@@ -1,0 +1,135 @@
+{
+  "loId": "hom-food-preservation-s7",
+  "chapterId": "hom-food-preservation",
+  "subsection": "7. Irradiation",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "What irradiation is (Higher Level only)",
+      "b": "Irradiation exposes food to ionising radiation, which destroys micro-organisms and pests without heating the food noticeably.",
+      "points": [
+        "Sources: gamma rays from cobalt-60 or caesium-137, X-rays, or high-energy electron beams.",
+        "The food is passed past the source for a set time so that it receives a defined dose of radiation.",
+        "It is a cold process, so it is sometimes called cold pasteurisation.",
+        "Irradiated food does not become radioactive at the doses used for food."
+      ]
+    },
+    {
+      "h": "How irradiation destroys micro-organisms and pests (Higher Level only)",
+      "points": [
+        "Ionising radiation damages the DNA of micro-organisms, so they cannot reproduce.",
+        "It destroys food-poisoning bacteria such as Salmonella, and parasites in food.",
+        "It controls moulds on soft fruit, extending their shelf life.",
+        "It kills insects and their eggs in grain, spices and other dried foods.",
+        "Bacterial spores and some viruses are highly resistant and need very high doses."
+      ]
+    },
+    {
+      "h": "Effects on shelf life and ripening (Higher Level only)",
+      "points": [
+        "It extends the shelf life of fresh and frozen meat, poultry, fish and fruit.",
+        "It prevents sprouting in potatoes and onions, so they can be stored for longer.",
+        "It delays the ripening of fruit, extending its storage life.",
+        "It can be applied after food is sealed in its packaging, which prevents re-contamination.",
+        "It reduces the need for chemical preservatives."
+      ]
+    },
+    {
+      "h": "Effects on nutrients and food quality (Higher Level only)",
+      "points": [
+        "Vitamin C and the B group vitamins, such as thiamine, can be partly destroyed.",
+        "Colour, flavour and texture change very little at normal doses.",
+        "Free radicals and other reactive molecules can form in the food during irradiation.",
+        "Fatty foods can develop rancidity, a stale or off-flavour, through the oxidation of their fats."
+      ]
+    },
+    {
+      "h": "Advantages and disadvantages (Higher Level only)",
+      "points": [
+        "Advantage: no heat is applied, so heat-sensitive foods keep more of their quality than they would after canning.",
+        "Advantage: it destroys enzymes that cause ripening and spoilage, as well as micro-organisms.",
+        "Advantage: it leaves no chemical residues in the food.",
+        "Disadvantage: many consumers reject irradiated food, which limits its commercial use.",
+        "Disadvantage: specialised plant and radiation sources are expensive and need strict safety controls.",
+        "Disadvantage: some micro-organisms need very high doses, so the treatment is not effective against all of them."
+      ]
+    },
+    {
+      "h": "Regulation and labelling (Higher Level only)",
+      "points": [
+        "In the EU, irradiation is permitted only for specified foods.",
+        "Irradiated food sold in the EU must be labelled as irradiated.",
+        "The Radura is the international symbol for irradiated food.",
+        "Irradiated food sold in Ireland follows the same EU rules."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Irradiation",
+      "definition": "Preservation by exposing food to ionising radiation, which destroys micro-organisms and pests without significant heating."
+    },
+    {
+      "term": "Ionising radiation",
+      "definition": "High-energy radiation that can remove electrons from atoms and so damage the DNA of micro-organisms."
+    },
+    {
+      "term": "Gamma rays",
+      "definition": "Short-wave radiation from radioactive sources such as cobalt-60 or caesium-137, used to irradiate food."
+    },
+    {
+      "term": "Dose",
+      "definition": "The amount of radiation energy absorbed by the food, measured in grays, which is energy per kilogram."
+    },
+    {
+      "term": "Cold pasteurisation",
+      "definition": "Another name for irradiation, because pathogens are destroyed with little heating of the food."
+    },
+    {
+      "term": "Free radical",
+      "definition": "A highly reactive molecule with an unpaired electron, which can form in irradiated food and react with other food components."
+    },
+    {
+      "term": "Rancidity",
+      "definition": "The development of stale, off-flavours in fats and oils through oxidation."
+    },
+    {
+      "term": "Radura",
+      "definition": "The international symbol for irradiated food."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three sources of radiation used to irradiate food",
+      "definition": "Gamma rays (from cobalt-60 or caesium-137), X-rays and electron beams."
+    },
+    {
+      "term": "Four benefits of irradiating food",
+      "definition": "It destroys food-poisoning bacteria and parasites, prolongs shelf life, prevents sprouting of potatoes and onions, and delays ripening of fruit."
+    },
+    {
+      "term": "Two drawbacks of irradiating food",
+      "definition": "Vitamin C and B group vitamins can be lost, and fatty foods can become rancid."
+    },
+    {
+      "term": "Two vegetables irradiated to prevent sprouting",
+      "definition": "Potatoes and onions."
+    },
+    {
+      "term": "Two effects of irradiation on fruit",
+      "definition": "It delays ripening and controls moulds on soft fruit."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe two effects that irradiation has on the nutritional value or quality of food, and explain how each one occurs.",
+      "model": "Vitamin losses: vitamin C and the B group vitamins such as thiamine are sensitive to radiation, which breaks down their chemical structure, so they are partly destroyed. Rancidity: radiation produces free radicals that start oxidation of fats, giving stale off-flavours in fatty foods."
+    },
+    {
+      "marks": 18,
+      "prompt": "Assess irradiation as a method of preserving dried herbs and spices for a food company, referring to its advantages, its limitations and consumer acceptance.",
+      "model": "Advantages: it kills bacteria, moulds and insects in dried herbs and spices without heating them, so their aroma and colour change very little; it leaves no chemical residues; it can be applied after sealing, which prevents re-contamination; it reduces the need for chemical preservatives. Limitations: the plant and radiation sources are expensive and need strict safety controls, which favours large producers; spore-forming bacteria are resistant and need very high doses; some quality losses, such as rancidity in oily spices, can still occur. Consumer acceptance: many consumers are wary of irradiated food and may reject it, so the company must label the product as irradiated, display the Radura symbol and use only foods permitted under EU rules."
+    }
+  ]
+}

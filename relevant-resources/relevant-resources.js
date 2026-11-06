@@ -55,8 +55,8 @@
       path: "./relevant-resources/syllabi/home-economics.pdf",
       sourceUrl: "https://www.curriculumonline.ie/getmedia/b9bc688f-3a5d-48a7-90f1-b60063f49c74/SCSEC21_Home_Economics_syllabus_eng.pdf",
       documentType: "Syllabus",
-      effectiveFrom: "Published syllabus",
-      status: "Current",
+      effectiveFrom: "First examined 2004; examined in June 2027",
+      status: "Current; a redeveloped specification is in draft for introduction from September 2027 at the earliest",
     },
     history: {
       title: "Leaving Certificate History Syllabus (Ordinary and Higher Levels)",

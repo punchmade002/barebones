@@ -164,6 +164,41 @@ at a time**; the build warns about part-written chapters.
 - **Cross-references:** refer to another subsection by its subject ("see the notes on the
   Treaty negotiations"), never by its id.
 
+## Subject notes: home economics
+
+- **Scope** is the subsection's entry in `course-outlines/homeeconomics.md`: every "Syllabus"
+  item and every "Also examined" item gets a block or bullet. "Settings" are good default
+  examples and practical contexts.
+- **Higher Level only.** Where the outline marks an item [HL], put it in its own block whose
+  heading ends with " (Higher Level only)". Don't mark anything the outline doesn't mark.
+- **Legislation and public bodies:** use only the Acts, regulations and bodies the outline names
+  (its Appendix A table gives the June 2027 name for each one the 2001 syllabus names). Never
+  write notes on a superseded Act, even where a past-paper marking scheme names it (e.g. the Sale
+  of Goods and Supply of Services Act 1980, the Consumer Information Act 1978, the Fire Safety
+  (Domestic Furniture) Order 1988, the Family Law Act 1976 barring orders). Give an Act's year
+  and what it provides; leave out section numbers you aren't sure of.
+- **Figures that change** (tax rates, credits and bands, PRSI and USC rates, welfare payment
+  amounts, thresholds, prices, grant amounts, interest rates): explain how they work and leave
+  the amounts out. Stable figures are fine: the energy value of protein (17 kJ or 4 kcal per
+  gram), carbohydrate (16 kJ or 3.75 kcal per gram), fat (37 kJ or 9 kcal per gram) and alcohol
+  (29 kJ or 7 kcal per gram); boiling and freezing points; standard temperatures such as the
+  danger zone (5–63 °C) and freezer storage at −18 °C. Give RDA or nutrient amounts only where a
+  past-paper marking scheme states them.
+- **Chemistry** is plain Unicode: C₆H₁₂O₆, H₂O, CO₂, –COOH, –NH₂, C=C. Never use `$` or LaTeX.
+- **Diagram cues:** every structure the syllabus or a past paper asks students to draw (amino
+  acid, peptide bond, glucose, triglyceride, the wheat grain, the egg, the digestive system, an
+  appliance's working parts, a central heating system, a wiring circuit or plumbing layout) gets
+  a "Diagram:" bullet saying what to draw and label.
+- **Experiments** (food tests, protein and starch properties, sensory tests) use the
+  "Investigation" block type.
+- **Irish context:** name the Irish bodies the outline names (FSAI, safefood, CCPC, MABS,
+  Citizens Information, SEAI, Bord Bia, Department of Health healthy eating guidelines and Food
+  Pyramid) rather than generic ones.
+- **Lists examiners ask for** ("four functions of…", "three effects of…") are good fact cards.
+- **Past papers** are from this syllabus (2004–2026). Use the marking schemes in
+  `home-economics-exam-questions.js` as a fact source for what to teach, but write in your own
+  words; never copy question or answer wording.
+
 ## Worked example (geography)
 
 This is the target standard: dense, specific, non-repetitive and readable. It covers only the

@@ -29,8 +29,11 @@ for (const config of [
   },
   {
     subject: "home-economics",
-    chapters: 31,
+    chapters: 36,
     files: ["data.js", "home-economics-flashcards.js", "home-economics-test-questions.js"],
+    // Home economics chapters are split into syllabus subsections (course-outlines/homeeconomics.md);
+    // the authored test set sits on each chapter's review outcome.
+    questionsPer: "chapter",
   },
 ]) {
   test(`every ${config.subject} learning outcome has a distinct authored test set`, () => {

@@ -1,0 +1,147 @@
+{
+  "loId": "hom-consumer-rights-s4",
+  "chapterId": "hom-consumer-rights",
+  "subsection": "4. Consumer protection legislation",
+  "syllabusRef": "2.2.3",
+  "notes": [
+    {
+      "h": "Consumer Rights Act 2022: scope",
+      "b": "The Consumer Rights Act 2022 sets out statutory rights and remedies for consumers who buy goods, services or digital content from traders.",
+      "points": [
+        "A trader is a person who supplies goods, services or digital content in the course of business.",
+        "A consumer is an individual acting for purposes that are not part of their business.",
+        "Statutory rights apply automatically to every contract between a trader and a consumer, whether or not the trader mentions them.",
+        "A trader cannot remove statutory rights through terms and conditions or notices; a 'no refunds' sign does not override the Act.",
+        "Digital content, such as downloaded software, music or films, is covered by the same standards of quality, fitness and description as goods."
+      ]
+    },
+    {
+      "h": "Statutory rights for goods",
+      "b": "Goods must meet four standards at the time they are supplied.",
+      "points": [
+        "Satisfactory quality: goods should be durable, safe, free from minor defects, and have an acceptable appearance and finish.",
+        "Fit for purpose: goods must be fit for the purposes for which goods of that type are normally used, and for any particular purpose made known to the trader.",
+        "As described: goods must match any description given by the trader, the label or the advertisement.",
+        "Correspond to sample or model: goods must match a sample or model shown to the consumer before purchase.",
+        "A fault that is present when the goods are supplied is the trader's responsibility, even if it appears only later."
+      ]
+    },
+    {
+      "h": "Statutory rights for services",
+      "b": "Services are measured against the standard of a competent provider.",
+      "points": [
+        "Reasonable care and skill: a service must be performed with the care and skill a competent provider would show.",
+        "Materials: any materials used in a service must be of satisfactory quality and fit for their purpose.",
+        "Time: a service must be performed within a reasonable time where no time was agreed.",
+        "Price: where no price was agreed, the consumer pays a reasonable price for the service."
+      ]
+    },
+    {
+      "h": "Remedies under the Consumer Rights Act 2022",
+      "b": "Remedies for goods and services that do not meet their statutory standard are applied in a set order.",
+      "points": [
+        "First remedy for goods: repair or replacement at the trader's cost, within a reasonable time and without significant inconvenience to the consumer.",
+        "Second remedy for goods: a price reduction or a refund, where repair or replacement is not possible, is not carried out within a reasonable time, or causes significant inconvenience.",
+        "Short-term right to reject: faulty goods can be rejected within 30 days of supply and the consumer receives a full refund.",
+        "Services that are not performed to the required standard can be re-performed or result in a price reduction."
+      ]
+    },
+    {
+      "h": "Sale goods and disclosed faults",
+      "b": "Sale goods have the same statutory rights as other goods, with one exception based on what the consumer was told before buying.",
+      "points": [
+        "Goods bought in a sale are covered by the same statutory rights as goods bought at full price.",
+        "Exception: a fault that the trader pointed out before the sale is not covered by the statutory rights for that fault.",
+        "A consumer who was not told of a fault before purchase keeps the full statutory remedies for it."
+      ]
+    },
+    {
+      "h": "Consumer Protection Act 2007: unfair commercial practices",
+      "b": "The Act prohibits commercial practices that are unfair to consumers, including advertising and selling practices.",
+      "points": [
+        "Misleading actions: giving false or deceptive information about a product, its price, its origin or the trader's identity.",
+        "Misleading omissions: leaving out material information that a consumer needs in order to make a decision.",
+        "Aggressive practices: harassment, coercion, undue influence or pressure that limits the consumer's freedom to choose.",
+        "Prohibited practices: a list of practices banned outright, such as falsely claiming that a product has an approval it does not have.",
+        "The Act is enforced by the Competition and Consumer Protection Commission, which can investigate and prosecute offences."
+      ]
+    },
+    {
+      "h": "Consumer Protection Act 2007: misleading price claims",
+      "b": "Price claims must be accurate, including claims about reductions and comparisons.",
+      "points": [
+        "False or misleading information about the price of goods or services is prohibited.",
+        "A claimed previous price or a claimed reduction must be accurate; a false or misleading reduction is an unfair practice.",
+        "A recommended retail price must not be used misleadingly to suggest a saving the consumer would not in fact make."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Trader",
+      "definition": "A person who supplies goods, services or digital content in the course of business."
+    },
+    {
+      "term": "Statutory right",
+      "definition": "A right given by law that applies automatically to a contract and cannot be removed by the trader's terms."
+    },
+    {
+      "term": "Satisfactory quality",
+      "definition": "The standard that goods should be durable, safe, free from minor defects and acceptable in appearance and finish."
+    },
+    {
+      "term": "Fit for purpose",
+      "definition": "The standard that goods must be suitable for their usual use, or for a particular purpose made known to the trader."
+    },
+    {
+      "term": "Digital content",
+      "definition": "Data produced and supplied in digital form, such as downloaded software, music or films."
+    },
+    {
+      "term": "Misleading omission",
+      "definition": "A commercial practice in which material information that a consumer needs is left out, so that the consumer decides wrongly."
+    },
+    {
+      "term": "Aggressive practice",
+      "definition": "A commercial practice that uses harassment, coercion, undue influence or pressure to limit a consumer's freedom to choose."
+    },
+    {
+      "term": "Price reduction",
+      "definition": "A remedy in which the consumer pays less for goods or services that do not meet the statutory standard."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Order of remedies for faulty goods",
+      "definition": "Repair or replacement first; a price reduction or refund if these are not possible or fail."
+    },
+    {
+      "term": "Four standards that goods must meet",
+      "definition": "Satisfactory quality, fitness for purpose, matching the description, and matching any sample or model."
+    },
+    {
+      "term": "Time limit for rejecting faulty goods outright",
+      "definition": "Within 30 days of supply, faulty goods can be rejected and the consumer receives a full refund."
+    },
+    {
+      "term": "Two types of misleading price information forbidden by the Consumer Protection Act 2007",
+      "definition": "False or misleading information about the price itself, and false or misleading information about previous prices or recommended retail prices."
+    },
+    {
+      "term": "Categories of practice the Consumer Protection Act 2007 treats as unfair",
+      "definition": "Misleading actions, misleading omissions, aggressive practices, and practices prohibited outright."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how the Consumer Rights Act 2022 protects a consumer who buys an appliance that develops a fault shortly after purchase.",
+      "model": "Goods must be of satisfactory quality and fit for purpose when supplied, and a fault present at supply is the trader's responsibility even if it appears later. The consumer can require repair or replacement at the trader's cost, within a reasonable time and without significant inconvenience. If repair or replacement is not possible or is not carried out, the consumer can take a price reduction or refund. Within 30 days of supply the consumer can reject the faulty appliance and receive a full refund. Statutory rights cannot be removed by a sign or the terms of sale."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss the statutory rights a consumer has when buying services under the Consumer Rights Act 2022, and explain how the Consumer Protection Act 2007 protects consumers against misleading price claims.",
+      "model": "Services: the consumer is entitled to a service performed with reasonable care and skill, using materials of satisfactory quality and fit for purpose, within a reasonable time where none was agreed, and at a reasonable price where none was agreed. If the service is not performed to standard, the consumer can require it to be performed again, or obtain a price reduction. These rights apply automatically and cannot be excluded by the trader's terms. Consumer Protection Act 2007: the Act forbids false or misleading information about goods, services and prices. A trader may not claim a previous price or a reduction that is untrue, and may not use a recommended retail price misleadingly to suggest a saving. The Competition and Consumer Protection Commission enforces the Act and can investigate and prosecute offences. A complete answer distinguishes the contract rights given to the consumer from the advertising and pricing controls that protect consumers before purchase."
+    }
+  ]
+}

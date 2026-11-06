@@ -1,0 +1,137 @@
+{
+  "loId": "hom-consumer-rights-s3",
+  "chapterId": "hom-consumer-rights",
+  "subsection": "3. Consumer responsibility: information and rights",
+  "syllabusRef": "2.2.2",
+  "notes": [
+    {
+      "h": "Parties to a consumer transaction",
+      "b": "A purchase involves several parties, each with a different relationship to the consumer.",
+      "points": [
+        "The consumer is an individual who buys goods or services for personal use, not for business.",
+        "The retailer or trader sells goods or services in the course of business and is the consumer's first point of contact for a complaint.",
+        "Under consumer law the retailer is responsible for faults in goods, even when the manufacturer made them, and must deal with the complaint.",
+        "The manufacturer makes the product and is the other party to any manufacturer's guarantee.",
+        "A guarantee is a contract between the manufacturer and the consumer, usually offered in addition to the consumer's statutory rights.",
+        "The supplier or distributor moves goods from the manufacturer to the retailer."
+      ]
+    },
+    {
+      "h": "Sources of consumer information",
+      "b": "Informed decisions rest on reliable information from the product, the seller and independent sources.",
+      "points": [
+        "Labels, instructions and care labels give ingredients, use and care information, and warnings about hazards.",
+        "Unit pricing shows the price per kilogram or per litre, which allows comparison between different pack sizes.",
+        "Advertising and sales material should be checked against the product label and independent information.",
+        "Independent consumer publications and testing reports compare products on quality and value for money.",
+        "Citizens Information gives free, confidential information on consumer rights.",
+        "The Competition and Consumer Protection Commission publishes guidance on consumer rights and on unfair trading.",
+        "Terms and conditions and returns policies should be read before purchase, as they set out what the seller offers."
+      ]
+    },
+    {
+      "h": "Responsibilities of the informed consumer",
+      "b": "The consumer's part in a transaction is to be informed, careful and honest.",
+      "points": [
+        "Know your rights: the basic rights and remedies under consumer law apply whether or not the seller mentions them.",
+        "Read and understand labels and terms before buying, including ingredients, dates, guarantee conditions and cancellation terms.",
+        "Compare value, not only price: weigh price against quality, durability, and the cost of running or maintaining the product.",
+        "Keep receipts and proof of purchase, since they show when, where and what was bought, and are needed for any claim.",
+        "Follow instructions and care labels; a fault caused by misuse is unlikely to be the trader's responsibility.",
+        "Report faults promptly: stop using a faulty product and raise the problem quickly, as delay can weaken a claim.",
+        "Give accurate, truthful information when complaining, including a clear description of the problem and the redress wanted.",
+        "Plan purchases and resist pressure selling: check whether a product is needed before buying, and do not be rushed by sales talk."
+      ]
+    },
+    {
+      "h": "Caveat emptor and critical buying",
+      "b": "Traditional buying principles still shape how a consumer should approach a purchase.",
+      "points": [
+        "Caveat emptor means let the buyer beware; it places the duty on the buyer to check goods before buying.",
+        "Modern consumer law limits caveat emptor by giving statutory rights that apply automatically, but inspecting goods before purchase remains the best protection.",
+        "A needs-based decision is guided by necessity and income; a wants-based decision is more open to advertising and impulse buying.",
+        "Vague claims such as 'the best' or 'new' without supporting evidence should be questioned before they influence a purchase.",
+        "Check the total cost, including interest and charges, before agreeing to credit or easy-pay arrangements."
+      ]
+    },
+    {
+      "h": "The five basic consumer rights",
+      "b": "These rights are commonly named in consumer education and in examination answers.",
+      "points": [
+        "Right to safety: products and services should not endanger health or put lives at risk.",
+        "Right to honest and truthful information: consumers should be given accurate information about goods and services.",
+        "Right to choice: consumers should be able to choose from a range of available goods and services.",
+        "Right to value for money: goods and services should be of a quality that matches the price paid.",
+        "Right to redress: a consumer whose goods or service are faulty can seek repair, replacement or a refund."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Consumer",
+      "definition": "An individual who buys goods or services for personal use rather than for business purposes."
+    },
+    {
+      "term": "Retailer",
+      "definition": "A business that sells goods or services to consumers and is their first point of contact for a complaint."
+    },
+    {
+      "term": "Manufacturer",
+      "definition": "The business that makes a product and, where it gives one, provides the manufacturer's guarantee."
+    },
+    {
+      "term": "Guarantee",
+      "definition": "A contract between the manufacturer and the consumer, usually offered in addition to statutory rights."
+    },
+    {
+      "term": "Caveat emptor",
+      "definition": "A Latin principle meaning let the buyer beware, placing the duty to check goods on the buyer."
+    },
+    {
+      "term": "Proof of purchase",
+      "definition": "Evidence, such as a receipt, that shows when, where and what was bought."
+    },
+    {
+      "term": "Unit price",
+      "definition": "The price per standard measure, such as per kilogram or per litre, used to compare pack sizes."
+    },
+    {
+      "term": "Redress",
+      "definition": "The remedy a consumer receives for a faulty product or service, such as repair, replacement or refund."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three steps an informed consumer takes before buying",
+      "definition": "Read the labels and terms, compare value and unit prices, and check whether the product is needed and what it will cost in total."
+    },
+    {
+      "term": "Parties to a manufacturer's guarantee",
+      "definition": "The manufacturer and the consumer."
+    },
+    {
+      "term": "Latin principle that places the duty of checking goods on the buyer",
+      "definition": "Caveat emptor, meaning let the buyer beware."
+    },
+    {
+      "term": "Five basic consumer rights",
+      "definition": "Right to safety, right to honest and truthful information, right to choice, right to value for money, and right to redress."
+    },
+    {
+      "term": "Two things a consumer should keep to support a complaint",
+      "definition": "The receipt or proof of purchase, and a record of when and where the goods were bought."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain two ways in which a consumer can make an informed choice using the information available to them.",
+      "model": "Two ways, each explained with its purpose. Reading labels: ingredients, dates, nutrition information, care instructions and warnings allow the consumer to judge suitability, safety and use before buying. Comparing unit prices and quality: the price per kilogram or litre and the product's quality and durability show whether the purchase is good value. Other acceptable answers include checking advertising claims against independent information, reading terms and conditions, and seeking advice from Citizens Information."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss the responsibilities a consumer has in relation to information and rights when buying goods and services.",
+      "model": "Knowing rights: the consumer should understand the basic rights and remedies, which apply whether or not the seller mentions them. Reading information: labels, instructions, terms, guarantee conditions and cancellation terms should be read and understood before buying. Comparing value: price should be weighed against quality, durability and running costs, using unit prices where available. Records: receipts and proof of purchase must be kept, since they are needed for any claim. Using products properly: instructions and care labels should be followed, because misuse may defeat a claim. Reporting promptly: faults should be raised quickly and accurately, with a clear description of the redress wanted. Critical buying: vague advertising claims should be questioned, purchases planned, and the total cost of credit checked. A complete answer links each responsibility to the protection it gives the consumer."
+    }
+  ]
+}

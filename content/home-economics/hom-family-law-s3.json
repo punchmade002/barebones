@@ -1,0 +1,107 @@
+{
+  "loId": "hom-family-law-s3",
+  "chapterId": "hom-family-law",
+  "subsection": "3. Barring orders under the Domestic Violence Act 2018",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Purpose of barring orders (Higher Level only)",
+      "b": "The Domestic Violence Act 2018 provides court orders that protect a person from domestic abuse, and a barring order can remove an abuser from the home.",
+      "points": [
+        "A barring order is a court order requiring the respondent to leave the home shared with the applicant and not to return for a set period.",
+        "A barring order protects the applicant, and any dependent children, from further abuse in their own home.",
+        "The Act replaced the barring provisions of the earlier family law legislation with a single, modern domestic violence code.",
+        "Applications are made to the District Court, which can also grant orders on an urgent basis."
+      ]
+    },
+    {
+      "h": "Types of order (Higher Level only)",
+      "points": [
+        "Protection order: prohibits the respondent from molesting or threatening the applicant, but does not require the respondent to leave the home.",
+        "Interim barring order: a short-term barring order granted quickly, before the full application is heard, while the court considers the case.",
+        "Emergency barring order: available where there is an immediate risk of significant harm to the applicant or a dependent child, and it lasts for a short fixed period.",
+        "Barring order: made after the full hearing, and it can last for a longer, specified period set by the court.",
+        "Each order is made by the court in response to a specific application, and the court can attach conditions to the order."
+      ]
+    },
+    {
+      "h": "Who can apply and what the Act covers (Higher Level only)",
+      "points": [
+        "Applicants include a spouse, civil partner, cohabitant, parent of a child, and a person in an intimate relationship with the respondent.",
+        "A person in an intimate relationship can apply even where the couple no longer live together.",
+        "Dependent children can be protected by the orders, so the court can protect a child who lives with the applicant.",
+        "Coercive control, meaning a pattern of controlling or coercive behaviour such as isolating a person from family and friends, is a specific offence under the Act.",
+        "Breaching a barring or protection order is a criminal offence, so the orders are enforced through the criminal law as well as the civil courts."
+      ]
+    },
+    {
+      "h": "Making and enforcing an application (Higher Level only)",
+      "points": [
+        "Step 1: the applicant completes an application to the District Court for the relevant order.",
+        "Step 2: if there is an immediate risk, the court can make an interim or emergency order before the respondent is heard.",
+        "Step 3: at the full hearing, the court decides whether to make a protection order or a barring order.",
+        "Step 4: if the respondent breaches the order, the applicant reports it and the breach can be prosecuted."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Barring order",
+      "definition": "A court order requiring the respondent to leave the shared home and not return for a set period."
+    },
+    {
+      "term": "Protection order",
+      "definition": "A court order prohibiting the respondent from molesting or threatening the applicant, without requiring them to leave the home."
+    },
+    {
+      "term": "Interim barring order",
+      "definition": "A short-term barring order made quickly while the full application is still being considered."
+    },
+    {
+      "term": "Emergency barring order",
+      "definition": "A barring order made where there is an immediate risk of significant harm, lasting a short fixed period."
+    },
+    {
+      "term": "Respondent",
+      "definition": "The person against whom an application for a barring or protection order is made."
+    },
+    {
+      "term": "Coercive control",
+      "definition": "A pattern of controlling or coercive behaviour within an intimate relationship, which is a specific offence under the Domestic Violence Act 2018."
+    },
+    {
+      "term": "Cohabitant",
+      "definition": "A person who lives with another person as a couple without being married or in a civil partnership, and who may apply for orders under the Act."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Orders available under the Domestic Violence Act 2018",
+      "definition": "Protection order, interim barring order, emergency barring order and barring order."
+    },
+    {
+      "term": "Difference between a protection order and a barring order",
+      "definition": "A protection order stops the respondent molesting or threatening the applicant; a barring order also requires the respondent to leave the home."
+    },
+    {
+      "term": "Court for barring order applications",
+      "definition": "The District Court, which can make interim and emergency orders on an urgent basis."
+    },
+    {
+      "term": "Consequence of breaching a barring order",
+      "definition": "The breach is a criminal offence and can be prosecuted."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what a barring order under the Domestic Violence Act 2018 requires of the respondent.",
+      "model": "A barring order requires the respondent to leave the home shared with the applicant and not to return for a set period. It protects the applicant and any dependent children from further abuse in their own home. Breaching the order is a criminal offence."
+    },
+    {
+      "marks": 20,
+      "prompt": "Outline the court orders available under the Domestic Violence Act 2018 to protect a person from abuse, and explain when each would be used.",
+      "model": "A protection order prohibits the respondent from molesting or threatening the applicant but does not require them to leave the home. An interim barring order is a short-term order made quickly while the full application is considered, so that the applicant is protected at once. An emergency barring order is made where there is an immediate risk of significant harm to the applicant or a dependent child, and it lasts for a short fixed period. A barring order is made after the full hearing and requires the respondent to leave the shared home and not return for a set period. Applicants can include a spouse, civil partner, cohabitant, parent of a child or a person in an intimate relationship, and dependent children can be protected. Breach of a barring or protection order is a criminal offence, and coercive control is a specific offence under the Act."
+    }
+  ]
+}

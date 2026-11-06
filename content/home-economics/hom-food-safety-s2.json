@@ -1,0 +1,173 @@
+{
+  "loId": "hom-food-safety-s2",
+  "chapterId": "hom-food-safety",
+  "subsection": "2. Food poisoning bacteria",
+  "syllabusRef": "1.3.8",
+  "notes": [
+    {
+      "h": "Temperature groups of micro-organisms (Higher Level only)",
+      "points": [
+        "Psychrophiles grow best at about −5 to 20 °C, in cold conditions such as refrigerated food.",
+        "Mesophiles grow best at about 20 to 45 °C; most food poisoning bacteria are mesophiles.",
+        "Salmonella has an optimum growth temperature of about 37 °C.",
+        "Thermophiles grow best at about 45 to 75 °C, in hot environments.",
+        "The danger zone, about 5 to 63 °C, is the range in which mesophilic food poisoning bacteria multiply rapidly."
+      ]
+    },
+    {
+      "h": "Oxygen requirements (Higher Level only)",
+      "points": [
+        "Aerobic micro-organisms require oxygen to survive and grow; moulds are aerobic.",
+        "Anaerobic micro-organisms thrive without oxygen; Clostridium botulinum is an example.",
+        "Facultative micro-organisms adapt to either aerobic or anaerobic conditions; Salmonella, Staphylococcus aureus and yeast are facultative."
+      ]
+    },
+    {
+      "h": "Salmonella (Higher Level only)",
+      "b": "Salmonella is a common infectious food poisoning bacterium.",
+      "points": [
+        "Structure: a rod-shaped, Gram-negative bacterium that does not form spores; it reproduces by binary fission.",
+        "Habitat and sources: the intestines of humans, animals and birds; faeces; polluted water; unwashed hands.",
+        "High-risk foods: raw or undercooked poultry, meat, fish and eggs; unpasteurised milk and dairy products.",
+        "Growth: needs food, moisture and time, and favours a near-neutral pH.",
+        "Incubation period: usually 12 to 72 hours after eating contaminated food.",
+        "Symptoms: diarrhoea, nausea, vomiting, abdominal pain and fever."
+      ]
+    },
+    {
+      "h": "Staphylococcus aureus (Higher Level only)",
+      "b": "Staphylococcus aureus is a common toxic food poisoning bacterium.",
+      "points": [
+        "Structure: a Gram-positive, spherical cell that forms grape-like clusters; it does not form spores.",
+        "Habitat and sources: the skin, nose and throat of humans and their hair; infected cuts and boils; it spreads to food by handling.",
+        "High-risk foods: cooked meats, poultry, ham, egg products, cream-filled cakes, custard and egg or potato salads made with mayonnaise.",
+        "Growth: a mesophile that grows at about 37 °C and tolerates salt and sugar better than most bacteria.",
+        "Toxin: produces an enterotoxin in food; the toxin is heat-stable and is not destroyed by normal cooking.",
+        "Incubation period: about 1 to 6 hours, often around 2 hours.",
+        "Symptoms: sudden nausea, vomiting, abdominal cramps and diarrhoea."
+      ]
+    },
+    {
+      "h": "Clostridium botulinum (Higher Level only)",
+      "b": "Clostridium botulinum is a toxic food poisoning bacterium that produces a very potent neurotoxin.",
+      "points": [
+        "Structure: a rod-shaped, Gram-positive, spore-forming bacterium that is an obligate anaerobe.",
+        "Habitat and sources: soil and water, from which its spores reach vegetables and other foods.",
+        "High-risk foods: home-canned low-acid vegetables, vacuum-packed or canned foods, cured meats, and honey given to infants.",
+        "Growth: multiplies in sealed, low-acid foods where no oxygen is present.",
+        "Toxin: a neurotoxin that blocks nerve impulses to muscles, causing paralysis; the toxin is destroyed by boiling, but the spores survive ordinary cooking.",
+        "Incubation period: typically 12 to 36 hours after eating contaminated food.",
+        "Symptoms: double vision, drooping eyelids, difficulty swallowing and speaking, and breathing difficulties."
+      ]
+    },
+    {
+      "h": "Infectious and toxic food poisoning compared (Higher Level only)",
+      "b": "Incubation period is the time between eating contaminated food and the appearance of symptoms.",
+      "points": [
+        "Infectious food poisoning: caused by eating food containing large numbers of living pathogenic bacteria, which multiply in the body.",
+        "Infectious food poisoning: the bacteria release endotoxins, which are made inside their cells and released when the cells die.",
+        "Infectious food poisoning: endotoxins and bacteria are easily destroyed by proper cooking and reheating; incubation is usually more than 12 hours; examples are Salmonella, E. coli, Campylobacter and Listeria.",
+        "Toxic food poisoning: caused by eating food that already contains exotoxin, produced by bacteria as they grow in the food.",
+        "Toxic food poisoning: exotoxins are hard to destroy and may need boiling for 30 minutes; symptoms appear quickly, often within 2 hours; examples are Staphylococcus aureus and Clostridium botulinum."
+      ]
+    },
+    {
+      "h": "Contributing factors in food poisoning (Higher Level only)",
+      "points": [
+        "Undercooked poultry or minced meat allows surviving bacteria to cause illness.",
+        "Cooked food left at room temperature allows bacteria to multiply in the danger zone.",
+        "Cross-contamination from raw meat or poultry transfers bacteria to food that is eaten without cooking.",
+        "Food handlers with poor personal hygiene, such as not washing hands after using the toilet, transfer bacteria to food.",
+        "Contaminated water or unpasteurised dairy products introduce bacteria before any cooking takes place."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Pathogenic bacteria",
+      "definition": "Bacteria that cause disease when they are eaten in large numbers."
+    },
+    {
+      "term": "Endotoxin",
+      "definition": "A toxin made inside a bacterial cell that is released when the cell dies."
+    },
+    {
+      "term": "Exotoxin",
+      "definition": "A toxin released by a bacterium into the food as it grows, which can cause illness without any bacteria being eaten."
+    },
+    {
+      "term": "Incubation period",
+      "definition": "The time between eating contaminated food and the appearance of symptoms."
+    },
+    {
+      "term": "Mesophile",
+      "definition": "A micro-organism that grows best at moderate temperatures, about 20 to 45 °C."
+    },
+    {
+      "term": "Psychrophile",
+      "definition": "A micro-organism that grows best at low temperatures, about −5 to 20 °C."
+    },
+    {
+      "term": "Thermophile",
+      "definition": "A micro-organism that grows best at high temperatures, about 45 to 75 °C."
+    },
+    {
+      "term": "Facultative micro-organism",
+      "definition": "A micro-organism that can grow either with or without oxygen."
+    },
+    {
+      "term": "Anaerobic micro-organism",
+      "definition": "A micro-organism that thrives in the absence of oxygen."
+    },
+    {
+      "term": "Danger zone",
+      "definition": "The temperature range of about 5 to 63 °C in which food poisoning bacteria multiply rapidly."
+    },
+    {
+      "term": "Spore",
+      "definition": "A dormant, resistant bacterial cell that can survive cooking and unfavourable conditions."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three temperature groups of micro-organisms: optimum growth ranges",
+      "definition": "Psychrophiles grow best at about −5 to 20 °C; mesophiles at about 20 to 45 °C; thermophiles at about 45 to 75 °C."
+    },
+    {
+      "term": "Three types of oxygen requirement in micro-organisms",
+      "definition": "Aerobic micro-organisms need oxygen; anaerobic micro-organisms thrive without it; facultative micro-organisms adapt to either condition."
+    },
+    {
+      "term": "Salmonella: symptoms",
+      "definition": "Diarrhoea, nausea, vomiting, abdominal pain and fever."
+    },
+    {
+      "term": "Staphylococcus aureus: incubation period",
+      "definition": "About 1 to 6 hours, often around 2 hours after eating contaminated food."
+    },
+    {
+      "term": "Clostridium botulinum: effects of its toxin",
+      "definition": "Paralysis caused by a neurotoxin, with symptoms such as double vision, difficulty swallowing and breathing difficulties."
+    },
+    {
+      "term": "Toxin made inside the bacterial cell in infectious food poisoning",
+      "definition": "An endotoxin, which is released when the bacterial cell dies in the body."
+    },
+    {
+      "term": "Heat-stable toxin of Staphylococcus aureus",
+      "definition": "An enterotoxin that is not destroyed by normal cooking, so the food can still cause illness after it has been cooked."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State one difference between the way the toxin acts in infectious food poisoning and in toxic food poisoning, and give one example of each type.",
+      "model": "Infectious food poisoning: large numbers of living bacteria are eaten; they multiply in the body and release endotoxins, with symptoms appearing after more than 12 hours. Example: Salmonella. Toxic food poisoning: the food already contains an exotoxin produced by bacteria as they grew in the food; symptoms appear quickly, often within 2 hours. Example: Staphylococcus aureus. Award marks for the difference, a correct example of each type, and the point on timing or toxin origin."
+    },
+    {
+      "marks": 18,
+      "prompt": "Describe the conditions that allow Salmonella or Staphylococcus aureus to multiply in food, and explain how each bacterium causes illness.",
+      "model": "Conditions: both are mesophiles that grow best at about 37 °C, within the danger zone of about 5 to 63 °C. Both need moisture, nutrients from food, time, and a near-neutral pH. Salmonella is a facultative micro-organism, so it grows with or without oxygen. Staphylococcus aureus is also facultative and tolerates salt and sugar better than most bacteria. High-risk foods for Salmonella are raw or undercooked poultry, meat, fish, eggs and unpasteurised dairy. High-risk foods for Staphylococcus aureus are cooked meats, ham, poultry, egg products, cream-filled cakes and mayonnaise salads, because it is spread onto them by handling. Illness: Salmonella is infectious; large numbers of living bacteria multiply in the intestine and release endotoxins, with incubation of about 12 to 72 hours and symptoms of diarrhoea, nausea, vomiting, abdominal pain and fever. Staphylococcus aureus is toxic; the bacteria produce an enterotoxin in the food that is heat-stable, so symptoms of nausea, vomiting, cramps and diarrhoea appear within about 1 to 6 hours. Award marks for conditions with reasons, the high-risk foods for each bacterium, and a correct explanation of how each causes illness."
+    }
+  ]
+}

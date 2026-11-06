@@ -1,0 +1,126 @@
+{
+  "loId": "hom-education-s5",
+  "chapterId": "hom-education",
+  "subsection": "5. Contemporary initiatives to improve access to education",
+  "syllabusRef": "6.2",
+  "notes": [
+    {
+      "h": "Routes into third-level education (Higher Level only)",
+      "b": "Access routes let students who would be disadvantaged by the normal points system enter third-level courses.",
+      "points": [
+        "HEAR (Higher Education Access Route) lets students from socially disadvantaged backgrounds who meet set criteria enter third-level courses on reduced points.",
+        "Students admitted through HEAR receive support services in college once they have started their course.",
+        "DARE (Disability Access Route to Education) lets students with a disability, such as dyslexia, autism or a sensory impairment, enter third-level courses on reduced points.",
+        "Students admitted through DARE receive ongoing support in college, such as assistive technology and exam accommodations.",
+        "Post Leaving Certificate courses and Level 7 courses provide an alternative route into higher education for students who did not progress directly from second level.",
+        "Springboard offers free part-time higher education courses to job seekers, aimed at improving their employability."
+      ]
+    },
+    {
+      "h": "Retention and inclusion in second-level schools (Higher Level only)",
+      "points": [
+        "DEIS (Delivering Equality of Opportunity in Schools) is an action plan for schools in disadvantaged areas, with extra staffing, homework clubs, after-school supports and mentoring programmes.",
+        "Under DEIS, schools may provide a school meals programme and access to home school community liaison services.",
+        "The School Completion Programme aims to reduce the number of students leaving school early and to ease the transfer from primary to second level.",
+        "The Home School Community Liaison (HSCL) scheme links schools with parents and the community, and identifies students who need financial or learning support.",
+        "The Junior Cycle Support Programme (JCSP) targets students most at risk of leaving school early, and it certifies the skills they attain and the subject statements they complete.",
+        "The National Behaviour Support Service (NBSS) helps students at risk of exclusion because of behavioural problems, through counselling and anger management programmes."
+      ]
+    },
+    {
+      "h": "Second-chance and adult access initiatives (Higher Level only)",
+      "points": [
+        "Youthreach is a two-year integrated training and education programme for young people aged 15 to 20 who left school without qualifications, and participants receive a training allowance.",
+        "Youthreach centres are located throughout the country, including traveller training centres and community training workshops.",
+        "VTOS (Vocational Training Opportunities Scheme) offers courses designed to meet the educational needs of unemployed people over 21, with training allowances similar to social welfare entitlements.",
+        "The Back to Education Allowance (BTEA) helps people on social welfare payments to attend approved full-time or part-time education courses.",
+        "Community Education schemes provide adult literacy and other community-based courses in local settings.",
+        "Aontas, the Irish National Association of Adult Education, promotes the development of adult learning and gives advice and support across adult education."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "HEAR",
+      "definition": "The Higher Education Access Route, which admits students from socially disadvantaged backgrounds to third-level courses on reduced points."
+    },
+    {
+      "term": "DARE",
+      "definition": "The Disability Access Route to Education, which admits students with a disability to third-level courses on reduced points and provides ongoing support."
+    },
+    {
+      "term": "DEIS",
+      "definition": "Delivering Equality of Opportunity in Schools, an action plan that gives extra supports to schools in disadvantaged areas."
+    },
+    {
+      "term": "School Completion Programme",
+      "definition": "A programme that aims to keep young people in school and reduce early school leaving."
+    },
+    {
+      "term": "Home School Community Liaison",
+      "definition": "A scheme that links schools with parents and the wider community to support pupils, particularly those who need extra help."
+    },
+    {
+      "term": "Youthreach",
+      "definition": "A two-year integrated training and education programme for young people who left school without qualifications."
+    },
+    {
+      "term": "VTOS",
+      "definition": "The Vocational Training Opportunities Scheme, which provides courses for unemployed people over 21."
+    },
+    {
+      "term": "Back to Education Allowance",
+      "definition": "A social welfare-linked support that helps people on payments to attend approved education courses."
+    },
+    {
+      "term": "Access route",
+      "definition": "A process that lets applicants enter a course on reduced points or through an alternative assessment, usually because of disadvantage or disability."
+    },
+    {
+      "term": "Aontas",
+      "definition": "The Irish National Association of Adult Education, which promotes and supports adult learning."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Students eligible for reduced-points entry on socio-economic grounds",
+      "definition": "Students from socially disadvantaged backgrounds who meet a set of pre-defined indicators."
+    },
+    {
+      "term": "Students eligible for reduced-points entry because of a disability",
+      "definition": "Students with a disability, such as dyslexia, autism, a sensory impairment or a learning difficulty."
+    },
+    {
+      "term": "Entry requirement for the two-year integrated programme for early leavers",
+      "definition": "Young people aged 15 to 20 who have left school without qualifications."
+    },
+    {
+      "term": "Age group and status targeted by the adult vocational training scheme",
+      "definition": "Unemployed people over 21."
+    },
+    {
+      "term": "Group most targeted by the Junior Cycle Support Programme",
+      "definition": "Students most at risk of leaving school early."
+    },
+    {
+      "term": "Service that deals with students at risk of exclusion for behaviour",
+      "definition": "The National Behaviour Support Service (NBSS), which provides counselling and anger management programmes."
+    },
+    {
+      "term": "Focus of Springboard",
+      "definition": "Free part-time higher education courses for job seekers, aimed at improving employability."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline the purpose of the HEAR scheme.",
+      "model": "Any three, two marks each: it admits students from socially disadvantaged backgrounds who meet set criteria; entry is on reduced points; it widens participation in third-level education; students receive support services in college after they start."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss two contemporary initiatives that improve access to education for students at risk of educational disadvantage.",
+      "model": "Each initiative needs its name, its aim, how it works and an evaluation of its effect. Option one, HEAR: reduced-points entry for students from socially disadvantaged backgrounds, with college support; limited to students who meet the criteria, so it helps only some students who are disadvantaged. Option two, DEIS: an action plan for schools in disadvantaged areas with extra staffing, homework clubs, after-school supports, mentoring and school meals; evaluated by its focus on whole-school resources and by the risk that it does not reach students in non-DEIS schools. Other accepted options include the School Completion Programme, the Junior Cycle Support Programme, Youthreach, VTOS and the Home School Community Liaison scheme, each with its target group and a comment on its strengths and limitations."
+    }
+  ]
+}

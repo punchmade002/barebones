@@ -1,0 +1,135 @@
+{
+  "loId": "hom-food-safety-s6",
+  "chapterId": "hom-food-safety",
+  "subsection": "6. Safe food preparation",
+  "syllabusRef": "1.3.10",
+  "notes": [
+    {
+      "h": "Food storage in the home",
+      "b": "Most food poisoning bacteria multiply fastest in warm food, so storage aims to keep food cold or frozen and to stop bacteria passing from one food to another.",
+      "points": [
+        "Cover all food and store it in sealed containers, which prevents drying out, odour transfer and cross-contamination.",
+        "Keep perishable food in the fridge below 5°C, which slows the growth of bacteria.",
+        "Store raw meat and poultry on the lowest shelf, on a plate and loosely covered, so that juices cannot drip onto cooked or ready-to-eat food.",
+        "Cool cooked food before refrigerating or freezing it, and do not overpack the fridge, so that cold air can circulate around the food.",
+        "Freeze food quickly at −25°C, then store it at −18°C.",
+        "Defrost frozen food completely before cooking, preferably in the fridge on the bottom shelf.",
+        "Never refreeze food that has thawed.",
+        "Store dry foods in a cool, dry, well-ventilated cupboard, in vermin-proof containers.",
+        "Remove fruit and vegetables from plastic wrapping, which encourages mould, and check them regularly for mould.",
+        "Check the use-by or best-before date of each food and follow the storage instructions on its label."
+      ]
+    },
+    {
+      "h": "Reheating and hot holding",
+      "points": [
+        "Reheat food quickly until it is above 100°C throughout, and reheat it only once.",
+        "High-risk foods such as stews and gravies must reach 100°C when reheated.",
+        "When reheating in a microwave, stir or turn the food so that heat reaches all parts evenly, and follow the appliance's instructions.",
+        "Hold cooked food above 63°C, because bacteria multiply rapidly between 5°C and 63°C.",
+        "Serve hot food promptly, and eat food that has been held hot within about 90 minutes."
+      ]
+    },
+    {
+      "h": "Personal hygiene",
+      "points": [
+        "Wash hands in hot water with liquid soap and a nailbrush before handling food, because hands carry food poisoning bacteria.",
+        "Wash hands after sneezing or coughing, using the toilet, changing nappies, handling pets and handling rubbish.",
+        "Keep nails short and clean, and remove jewellery before preparing food.",
+        "Wear a clean apron, and change it if it becomes soiled.",
+        "Cover cuts with a brightly coloured plaster so that the injury cannot pass infection to food.",
+        "Do not prepare or serve food while suffering from diarrhoea or vomiting.",
+        "Cough and sneeze away from food."
+      ]
+    },
+    {
+      "h": "Kitchen hygiene",
+      "points": [
+        "Clean and disinfect work surfaces often, and wash equipment in hot water and detergent.",
+        "Use colour-coded chopping boards and separate utensils for raw and cooked meat, to prevent cross-contamination.",
+        "Do not prepare cooked and raw foods on the same surface.",
+        "Handle food as little as possible during preparation.",
+        "Keep perishable food out of the fridge for the shortest possible time while it is being prepared.",
+        "Floors, walls and work surfaces should be easy to clean, and the kitchen should have good lighting.",
+        "Effective ventilation reduces condensation, which encourages the growth of micro-organisms.",
+        "The kitchen should have a clean water supply and no access for pets."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Cross-contamination",
+      "definition": "The transfer of bacteria from raw food, or from unclean hands and surfaces, to cooked or ready-to-eat food."
+    },
+    {
+      "term": "Danger zone",
+      "definition": "The temperature range of 5°C to 63°C in which bacteria multiply rapidly in food."
+    },
+    {
+      "term": "Hot holding",
+      "definition": "Keeping cooked food above 63°C until it is served, so that bacteria do not multiply."
+    },
+    {
+      "term": "Fast-freezing",
+      "definition": "Freezing food quickly at a very low temperature, such as −25°C, so that only small ice crystals form."
+    },
+    {
+      "term": "Defrosting",
+      "definition": "Thawing frozen food completely before cooking it, preferably in the fridge."
+    },
+    {
+      "term": "Reheating",
+      "definition": "Heating previously cooked food until it is above 100°C throughout, and only once."
+    },
+    {
+      "term": "Personal hygiene",
+      "definition": "The habits of a food handler, such as handwashing, clean clothing and covering cuts, that stop micro-organisms reaching food."
+    },
+    {
+      "term": "Kitchen hygiene",
+      "definition": "Keeping the kitchen, its surfaces, equipment and water supply clean so that food is not contaminated."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three storage temperatures for home food",
+      "definition": "Below 5°C in the fridge, −18°C for frozen storage, and −25°C for fast-freezing."
+    },
+    {
+      "term": "Two temperatures for safe reheating and hot holding",
+      "definition": "Reheat to above 100°C throughout, and hold cooked food above 63°C."
+    },
+    {
+      "term": "Five occasions when hands must be washed",
+      "definition": "After sneezing or coughing, after using the toilet, after changing nappies, after handling pets, and after handling rubbish."
+    },
+    {
+      "term": "Three measures against cross-contamination in the kitchen",
+      "definition": "Colour-coded chopping boards, separate utensils for raw and cooked meat, and no shared surfaces for raw and cooked food."
+    },
+    {
+      "term": "Range in which bacteria multiply rapidly in food",
+      "definition": "5°C to 63°C."
+    },
+    {
+      "term": "Reason for storing raw meat below cooked food",
+      "definition": "So that juices dripping from the raw meat cannot contaminate cooked or ready-to-eat food."
+    },
+    {
+      "term": "Maximum time for hot food held above 63°C",
+      "definition": "About 90 minutes, after which the food should not be eaten."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two guidelines for storing perishable food safely in a home fridge, giving a reason for each.",
+      "model": "Keep the fridge below 5°C, which slows the growth of bacteria in perishable food. Cover all food, so that it does not dry out or pick up odours and cannot contaminate other food. Store raw meat on the lowest shelf, covered, below cooked food, so that juices cannot drip onto cooked food. Do not overpack the fridge, so that cold air circulates around the food. Cool cooked food before refrigerating it."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the personal hygiene and kitchen hygiene practices that prevent food from being contaminated during preparation and cooking.",
+      "model": "Personal hygiene: wash hands in hot water with liquid soap and a nailbrush before handling food and after sneezing, coughing, using the toilet, changing nappies, handling pets or rubbish; keep nails short and clean and remove jewellery; wear a clean apron; cover cuts with a brightly coloured plaster; do not prepare food while suffering from diarrhoea or vomiting; cough and sneeze away from food. Kitchen hygiene: clean and disinfect surfaces often and wash equipment in hot water and detergent; use colour-coded chopping boards and separate utensils for raw and cooked meat; do not prepare cooked and raw food on the same surface; handle food as little as possible; keep perishable food out of the fridge for the shortest time; keep the kitchen easy to clean, well lit and well ventilated to reduce condensation; provide a clean water supply and keep pets out of the kitchen."
+    }
+  ]
+}

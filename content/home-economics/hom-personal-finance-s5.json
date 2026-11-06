@@ -1,0 +1,139 @@
+{
+  "loId": "hom-personal-finance-s5",
+  "chapterId": "hom-personal-finance",
+  "subsection": "5. Insurance",
+  "syllabusRef": "2.1.3",
+  "notes": [
+    {
+      "h": "Insurance and risk",
+      "points": [
+        "Insurance spreads the financial risk of an event, such as death, illness, fire or theft, across many people who each pay a premium.",
+        "The insured pays a premium to the insurer, and the insurer pays a stated sum when the insured event occurs.",
+        "Cover applies only to the events named in the policy.",
+        "Insurance protects a household against a large, unexpected cost that it could not otherwise meet."
+      ]
+    },
+    {
+      "h": "Key insurance terms",
+      "points": [
+        "Premium: the sum paid annually or in instalments to the insurance company to keep a policy in force.",
+        "Policy: the written document setting out the terms and conditions of the cover.",
+        "Broker: an agent who advises the consumer on insurance and arranges cover with insurance companies.",
+        "Insurer: the insurance company that accepts the risk and pays claims."
+      ]
+    },
+    {
+      "h": "Pay-related social insurance (PRSI) benefits",
+      "points": [
+        "PRSI is the State's social insurance scheme; entitlement to its benefits depends on a record of contributions, not on means.",
+        "PRSI is a compulsory scheme set by law, not a private policy chosen by the individual.",
+        "PRSI-linked payments include Jobseeker's Benefit, Illness Benefit, maternity benefit, Carer's Benefit and the contributory State pension."
+      ]
+    },
+    {
+      "h": "Health insurance",
+      "points": [
+        "Private health insurance pays for hospital and consultant costs within the terms of the policy.",
+        "Advantages: choice of private or semi-private hospital accommodation, help with consultant fees, and shorter waiting times for some treatment.",
+        "Cover can include access to outpatient clinics and convalescence after treatment.",
+        "Premiums may qualify for tax relief, which reduces the cost of cover.",
+        "Health insurance is voluntary private cover, held alongside the public health system."
+      ]
+    },
+    {
+      "h": "Household insurance",
+      "points": [
+        "Buildings insurance covers the structure of the home against damage such as fire, storm and flood; mortgage lenders usually require it.",
+        "Contents insurance covers furniture, appliances and personal belongings against loss or damage.",
+        "Buildings and contents cover can be combined in one household policy.",
+        "Car insurance: third-party cover is required by law before a car is driven on public roads.",
+        "Travel insurance covers medical costs, cancelled trips and lost luggage abroad.",
+        "Mobile phone insurance covers loss, theft or damage to a phone."
+      ]
+    },
+    {
+      "h": "Life assurance",
+      "points": [
+        "Life assurance pays a lump sum to the insured person's family or beneficiary on death, either during the policy term or after it, depending on the type.",
+        "Term assurance covers a set period and pays only if death occurs within that period; it is generally the cheapest type.",
+        "Whole-of-life assurance lasts for life, as long as premiums are paid, and pays an agreed sum on death.",
+        "Endowment assurance pays a sum at the end of a set term or on earlier death, combining cover with saving.",
+        "A mortgage protection policy is term assurance taken out with a mortgage; if the insured dies before the mortgage is repaid, the debt is cleared.",
+        "Convertible term assurance can be converted into a longer-term policy during the term.",
+        "Benefits of life assurance: financial security for dependants after a premature death, peace of mind, and some policies can be cashed in or act as savings."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Insurance premium",
+      "definition": "The sum paid annually or in instalments to the insurance company to keep a policy in force."
+    },
+    {
+      "term": "Insurance policy",
+      "definition": "The written details of the terms and conditions of the insurance cover."
+    },
+    {
+      "term": "Broker",
+      "definition": "An agent who advises the consumer on insurance and arranges cover with insurers."
+    },
+    {
+      "term": "Term assurance",
+      "definition": "Life assurance that covers a set period and pays only if death occurs within it."
+    },
+    {
+      "term": "Whole-of-life assurance",
+      "definition": "Life assurance that lasts for the insured person's lifetime, provided premiums are paid, and pays an agreed sum on death."
+    },
+    {
+      "term": "Endowment assurance",
+      "definition": "Life assurance that pays a sum at the end of a set term or on earlier death, combining cover with saving."
+    },
+    {
+      "term": "Mortgage protection policy",
+      "definition": "Term assurance taken out with a mortgage, which clears the outstanding debt if the insured dies during the mortgage term."
+    },
+    {
+      "term": "Private health insurance",
+      "definition": "Voluntary cover that pays for private hospital and consultant costs within the policy terms."
+    },
+    {
+      "term": "Buildings insurance",
+      "definition": "Cover for the structure of a home against damage such as fire, storm and flood."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three types of life assurance",
+      "definition": "Term assurance, whole-of-life assurance and endowment assurance."
+    },
+    {
+      "term": "Four advantages of private health insurance",
+      "definition": "Choice of private or semi-private accommodation; help with consultant fees; shorter waiting times; access to outpatient clinics."
+    },
+    {
+      "term": "Three types of household insurance",
+      "definition": "Buildings, contents and car insurance."
+    },
+    {
+      "term": "Cover the law requires for a car",
+      "definition": "Third-party insurance, required before the car is driven on public roads."
+    },
+    {
+      "term": "Two benefits of life assurance",
+      "definition": "Financial security for dependants after a premature death; peace of mind."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the term premium, and describe one difference between term assurance and whole-of-life assurance.",
+      "model": "Premium: the sum paid annually or in instalments to the insurance company to keep the policy in force. Difference: term assurance covers a set period and pays only if death occurs within that period; whole-of-life assurance lasts for life, as long as premiums are paid, and pays an agreed sum on death."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss why a family should consider buying household insurance and health insurance, and explain the role of a broker in choosing cover. Refer to the difference between a policy and a premium.",
+      "model": "Household insurance: buildings cover protects the structure of the home, usually required by mortgage lenders; contents cover protects furniture and belongings; car insurance is required by law. Health insurance: private cover for hospital and consultant costs, with choice of accommodation and shorter waiting times. Insurance protects against a large unexpected cost. Premium: the sum paid to keep cover in force. Policy: the written terms and conditions, which set out what is covered. Broker: an agent who advises on the cover needed and arranges it with insurers, comparing terms for the family."
+    }
+  ]
+}

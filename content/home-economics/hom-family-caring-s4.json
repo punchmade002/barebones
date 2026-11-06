@@ -1,0 +1,113 @@
+{
+  "loId": "hom-family-caring-s4",
+  "chapterId": "hom-family-caring",
+  "subsection": "4. Family members with special needs",
+  "syllabusRef": "3.1.6",
+  "notes": [
+    {
+      "h": "How the family responds to a member with special needs (Higher Level only)",
+      "b": "The family responds practically, emotionally and financially, and usually draws on outside services as well.",
+      "points": [
+        "Care at home: family members provide daily personal care, supervision and transport, often reorganising work and routines around the member's needs.",
+        "Adapting the home: ramps, wider doorways, grab rails and a downstairs bedroom improve access and safety.",
+        "Encouraging independence: the family builds the member's skills in self-care, communication, mobility and decision-making, within safe limits.",
+        "Working with professionals: doctors, therapists, teachers and social workers plan support together.",
+        "Claiming assistance: families apply for all the State assistance and grants the member qualifies for, including those for equipment and adaptations.",
+        "Emotional support: family members reassure the member, listen to concerns and protect the member's dignity and self-worth.",
+        "Advocacy: families speak up for the member's rights and lobby for better State support."
+      ]
+    },
+    {
+      "h": "Difficulties the family may experience (Higher Level only)",
+      "points": [
+        "Limited employment and educational opportunities for the member restrict independence and income.",
+        "Social isolation and prejudice exclude the member and the family from community life.",
+        "A shortage of help and respite leaves carers exhausted.",
+        "Limited mobility and inaccessible transport and buildings restrict daily life.",
+        "Inadequate State financial support can force a parent to give up paid work to provide full-time care.",
+        "Insufficient medical and educational services cause delays in assessment and support.",
+        "Loss of income and the extra costs of care, equipment and transport place strain on the household budget.",
+        "Siblings may be given added duties and receive less parental attention.",
+        "Challenging behaviour in some conditions strains relationships and daily routines.",
+        "Stress, fatigue and fear for the future, particularly about who will care for the member when parents can no longer do so."
+      ]
+    },
+    {
+      "h": "Statutory and voluntary services (Higher Level only)",
+      "points": [
+        "Statutory services are provided by the State, mainly through the HSE, which offers health, disability and family support services.",
+        "The Department of Health sets national policy for the health and disability services delivered by the HSE.",
+        "Education services for children with special educational needs are provided through schools within the State education system.",
+        "Families can request a formal assessment of health and educational needs in order to access services.",
+        "Voluntary organisations are independent, non-profit bodies that provide services, support and advocacy alongside the State.",
+        "The Rehab Group is an independent non-profit organisation that provides education, training, employment, social care and home services for people with disabilities.",
+        "Rehab Group training programmes include certified courses in areas such as catering and computing.",
+        "Voluntary services can offer respite care, support groups and advocacy that statutory services may not provide."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Special needs",
+      "definition": "Physical, mental or emotional needs that require support beyond what the usual family routine can provide."
+    },
+    {
+      "term": "Statutory service",
+      "definition": "A service the State is responsible for providing, funded through public money and delivered under official responsibility."
+    },
+    {
+      "term": "Voluntary organisation",
+      "definition": "An independent, non-profit body that provides services, support or advocacy, usually relying on donations, fundraising and volunteers."
+    },
+    {
+      "term": "Respite care",
+      "definition": "Temporary relief for a full-time carer, in which another person looks after the person in need of care for a short period."
+    },
+    {
+      "term": "Advocacy",
+      "definition": "Speaking up for and defending the rights and interests of a person who may find it hard to do so alone."
+    },
+    {
+      "term": "Assistive equipment",
+      "definition": "Equipment that helps a person with a disability carry out everyday tasks, such as a wheelchair or a hoist."
+    },
+    {
+      "term": "Carer",
+      "definition": "A person, often a family member, who provides regular unpaid care to a relative with ongoing needs."
+    },
+    {
+      "term": "Social isolation",
+      "definition": "A lack of contact with family, friends and the community, which can affect a person's health and wellbeing."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three difficulties a family may face when a member has special needs",
+      "definition": "Limited employment and educational opportunities; social isolation and prejudice; and loss of income with extra costs."
+    },
+    {
+      "term": "Four ways a family can respond to a member with a disability",
+      "definition": "Providing care at home; adapting the home; encouraging independence; and claiming all available assistance and grants."
+    },
+    {
+      "term": "Three sources of help from outside the family",
+      "definition": "Statutory services, voluntary organisations, and professionals such as therapists and teachers."
+    },
+    {
+      "term": "Five service areas of the Rehab Group",
+      "definition": "Education, training, employment, social care and home services for people with disabilities."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline three ways a family can adapt its home and routines to meet the needs of a member with special needs.",
+      "model": "Any three, each with a brief explanation. Ramps, wider doorways and grab rails make the home accessible. A downstairs bedroom removes the need for stairs. Routines are reorganised around the member's care, for example by arranging work hours, transport and daily supervision. Encouraging the member to learn self-care within safe limits builds independence."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss the difficulties a family may experience when a member has special needs, and explain how statutory services and voluntary organisations can help.",
+      "model": "Difficulties: limited employment and educational opportunities for the member; social isolation and prejudice; shortage of help and respite, leaving carers exhausted; limited mobility and inaccessible transport; inadequate State financial support, which can force a parent out of paid work; insufficient medical and educational services; loss of income and extra costs; added duties for siblings; stress and fear for the future. Statutory services: the HSE provides health, disability and family support services, the education system provides support for children with special educational needs, and a formal assessment of needs allows access to these services. Voluntary organisations: independent, non-profit bodies such as the Rehab Group offer education, training, employment, social care and home services, and can provide respite care, support groups and advocacy. Full marks need several difficulties explained, at least one statutory and one voluntary service with its role, and a link between the service and the difficulty it addresses."
+    }
+  ]
+}

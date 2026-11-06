@@ -307,10 +307,10 @@
 
   // Decoys for one gap: same kind of word, ideally from the same outcome or
   // chapter, with a similar ending so grammar alone does not give it away.
-  function pickBankDecoys(answer, card, vocab, exclude, count, random, opensSentence = false) {
+  function pickBankDecoys(answer, card, vocab, exclude, count, random, opensSentence = false, otherAnswers = []) {
     if (opensSentence && wordKind(answer) === "proper") {
       // "Fresh mussels..." is capitalised only because it opens the sentence.
-      return pickBankDecoys(answer.toLowerCase(), card, vocab, exclude, count, random).map(capitalise);
+      return pickBankDecoys(answer.toLowerCase(), card, vocab, exclude, count, random, false, otherAnswers).map(capitalise);
     }
     const kind = wordKind(answer);
     const lowerAnswer = answer.toLowerCase();
@@ -334,7 +334,7 @@
     }
     const plural = /[^s]s$/.test(lowerAnswer);
     const ranked = decoyCandidates(vocab, card, kind, random)
-      .filter((v) => !exclude.has(v.stem) && !answerMatches(v.word, answer))
+      .filter((v) => !exclude.has(v.stem) && !answerMatches(v.word, answer) && !otherAnswers.some((other) => answerMatches(v.word, other)))
       .map((v) => {
         const lower = v.word.toLowerCase();
         let score = v.outcomeId === card.outcomeId ? 3 : v.chapterId === card.chapterId ? 2 : 0;
@@ -369,7 +369,8 @@
       const before = at > 0 ? segments[at - 1].text : "";
       return before === undefined || /(?:^|[.:;!?]\s*)$/.test(String(before).trim());
     };
-    const decoys = answers.flatMap((answer, gap) => pickBankDecoys(answer, card, vocab, exclude, perGap, random, opensSentence(gap)));
+    // A decoy must not be close to any gap's answer, not just its own gap's.
+    const decoys = answers.flatMap((answer, gap) => pickBankDecoys(answer, card, vocab, exclude, perGap, random, opensSentence(gap), answers));
     if (decoys.length < 2) return null;
     return shuffle(answers.concat(decoys), random);
   }

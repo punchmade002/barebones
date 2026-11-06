@@ -1,0 +1,136 @@
+{
+  "loId": "hom-meal-planning-s1",
+  "chapterId": "hom-meal-planning",
+  "subsection": "1. Food choices",
+  "syllabusRef": "1.1.1",
+  "notes": [
+    {
+      "h": "Factors that shape food choices",
+      "b": "A food choice results from several pressures acting together. Each factor below can be named and explained on its own.",
+      "points": [
+        "Culture: the foods a group regards as normal, acceptable or celebratory, and the foods linked with a particular country or tradition.",
+        "Religion: some faiths restrict foods; Jews and Muslims do not eat pork, and some Hindus follow a vegetarian diet.",
+        "Eating patterns: the number and timing of meals, snacking, eating out and whether the family eats together all shape what is bought and eaten.",
+        "Sensory aspects: taste, smell, appearance, texture and temperature decide whether a food is accepted, and unfamiliar flavours are often refused at first.",
+        "Nutritional awareness: knowledge of healthy eating guidance and food labels steers people towards lower-fat, lower-sugar and higher-fibre products.",
+        "Health status: allergies, coeliac disease, diabetes and coronary heart disease limit the foods a person can safely eat.",
+        "Availability: seasonal produce, the range stocked by local shops and the distance to a supermarket determine what is on offer.",
+        "Finance: income sets the budget, so people on low incomes tend to buy cheaper and more processed foods and inexpensive protein such as pulses.",
+        "Marketing and advertising: packaging, brand image, special offers, shelf placement and endorsements by celebrities or influencers encourage purchases."
+      ]
+    },
+    {
+      "h": "Changes in Irish eating patterns since the early twentieth century",
+      "points": [
+        "Potatoes and bread have been partly replaced by pasta, rice and a wider range of breads.",
+        "Convenience, ready-meal and processed foods have become more common, bringing more salt, sugar and saturated fat into the diet.",
+        "Eating out, takeaways and fast food have increased, as has eating on the go.",
+        "Meals have become more irregular: family members often eat at different times, and the main meal has moved to the evening.",
+        "Foreign holidays, television, travel and immigration have introduced new cuisines and ingredients to Irish diets.",
+        "Microwaving, stir-frying and barbecuing are now common cooking methods in Irish homes.",
+        "Greater nutritional awareness has encouraged more fruit, vegetables and wholegrain foods."
+      ]
+    },
+    {
+      "h": "Food choices of pre-school children, teenagers and students",
+      "points": [
+        "Parents make most food choices for pre-school children, weighing nutrition, cost, allergies, the degree of processing and portion size suited to a small child.",
+        "Young children often refuse new foods at first and may need to be offered a food many times before accepting it; this is called food neophobia.",
+        "Involving children in preparation and presenting food attractively encourages them to try new foods.",
+        "Teenagers' choices are influenced by peer groups, advertising and social media, and by the money they control from pocket money or part-time work.",
+        "Many teenagers prefer fatty, salty and sugary foods, which they have often been exposed to since early childhood.",
+        "A teenager may choose a vegetarian diet for religious, moral, health, economic or family reasons.",
+        "Students' daily choices depend on limited time, a tight budget, the range sold in the canteen or vending machines, and whether there are facilities to reheat food."
+      ]
+    },
+    {
+      "h": "Answering questions on food choice data",
+      "points": [
+        "Data questions use a table or chart; describe the overall trend first, then support it with specific figures.",
+        "Compare two groups, such as parents and children, by stating which group is higher and by how much.",
+        "Suggest reasons for differences by drawing on the factors that shape food choices.",
+        "Relate the results to healthy eating guidelines, saying whether consumption meets them or falls short.",
+        "Comment on what the results mean for planning meals or for health education."
+      ]
+    },
+    {
+      "h": "Settings for discussing food choice",
+      "points": [
+        "Comparing meal patterns between countries, such as when the main meal is eaten and how many meals are normal.",
+        "A theme day or week on the foods of a culture or period, such as a traditional Irish breakfast."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Food choice",
+      "definition": "The decision to buy and eat a particular food, shaped by personal, social and economic factors."
+    },
+    {
+      "term": "Culture",
+      "definition": "The shared customs, beliefs and traditions of a group that determine which foods are regarded as normal, acceptable or special."
+    },
+    {
+      "term": "Sensory aspects",
+      "definition": "The taste, smell, appearance, texture and temperature of food, which affect whether it is enjoyed and accepted."
+    },
+    {
+      "term": "Nutritional awareness",
+      "definition": "Knowledge of healthy eating guidance and food composition that guides a person's choice of foods."
+    },
+    {
+      "term": "Convenience food",
+      "definition": "Food that is ready to eat or needs little preparation, such as ready meals and pre-cut vegetables."
+    },
+    {
+      "term": "Processed food",
+      "definition": "Food that has been changed from its natural state by methods such as canning, freezing, curing or adding ingredients."
+    },
+    {
+      "term": "Food neophobia",
+      "definition": "A reluctance to try new or unfamiliar foods, most common in young children."
+    },
+    {
+      "term": "Peer influence",
+      "definition": "The effect of friends and classmates on what a young person chooses to eat."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Eight factors that influence food choices",
+      "definition": "Culture, eating patterns, sensory aspects, nutritional awareness, health status, availability, finance, and marketing and advertising."
+    },
+    {
+      "term": "Three ways culture affects food choices",
+      "definition": "Certain foods are associated with particular cultures; religious rules exclude or require certain foods; immigration and travel bring new foods into the diet."
+    },
+    {
+      "term": "Three changes in Irish eating habits since the early twentieth century",
+      "definition": "More convenience and processed food; more eating out and fast food; less time for cooking and more irregular meals."
+    },
+    {
+      "term": "Two reasons teenagers find it hard to eat a healthy diet",
+      "definition": "Convenience and eating on the go; cheap, heavily advertised processed food."
+    },
+    {
+      "term": "Two ways money affects food choices",
+      "definition": "Higher income allows more frequent eating out and expensive foods; lower income leads to cheaper options, own-brand foods and fewer luxury items."
+    },
+    {
+      "term": "Three factors parents consider for pre-school children",
+      "definition": "Nutrition, health and allergies; cost and degree of processing; portion size suited to a small child."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which religious beliefs can influence a family's food choices.",
+      "model": "Religious rules exclude certain foods, for example Jews and Muslims do not eat pork, so these foods are avoided at home and when eating out. Some Hindus follow a vegetarian diet, so meals are built around pulses, dairy, vegetables and grains. Fasting periods and religious festivals also change meal times and the foods served. Any two ways, each with a name and an explanation, earn 3 marks."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss how advertising and marketing, together with the range of food available locally, can influence the food choices of teenagers.",
+      "model": "Advertising and marketing: television, social media and influencers promote sugary drinks, fast food and snacks, often through celebrities. Bright packaging and cartoon characters appeal to young people. Special offers, bundle deals and placement at checkouts encourage impulse buying. Local availability: a town with many takeaways and convenience stores offers fewer fresh options, and vending machines in schools can limit healthy choices. A shop stocking fresh fruit, vegetables and wholegrain bread makes healthy choices easier. Peer and social factors: teenagers copy friends' eating habits and eat together in groups where fast food is popular. Evaluation: teenagers with good nutritional awareness can resist marketing, but family influence and cost still limit what they can choose."
+    }
+  ]
+}

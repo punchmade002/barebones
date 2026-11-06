@@ -1,0 +1,157 @@
+{
+  "loId": "hom-home-services-s2",
+  "chapterId": "hom-home-services",
+  "subsection": "2. Emissions, energy inefficiency and energy efficiency",
+  "syllabusRef": "4.4",
+  "notes": [
+    {
+      "h": "How heat is lost from a house",
+      "b": "Heat moves from warm to cool by conduction, convection and radiation. In a house most heat is lost through the fabric and through air leakage.",
+      "points": [
+        "Conduction: heat passes through solid walls, roof, floor and glazing from the warm inside to the cold outside.",
+        "Convection: warm air rises and escapes through gaps, while cold air enters at lower levels, creating draughts.",
+        "Air leakage: gaps around doors, windows, floorboards, letterboxes and chimneys let warm air out and draw cold air in.",
+        "Heat rises, so an uninsulated roof or attic is one of the largest routes for heat loss in a typical house.",
+        "Single glazing loses heat much faster than an insulated wall; double glazing traps a layer of still air between two panes, which slows heat transfer.",
+        "Thermal bridges are parts of the structure, such as lintels and junctions between walls and floors, where heat escapes faster than through the surrounding fabric.",
+        "Uninsulated hot water cylinders and pipes lose heat continuously to the surrounding air, even when no water is drawn off.",
+        "Heating that runs with no timer, room thermostat or radiator valves heats rooms that are not in use."
+      ]
+    },
+    {
+      "h": "Emissions from burning fuels in the home (Higher Level only)",
+      "b": "Burning any carbon-based fuel releases gases and particles. The completeness of combustion decides which pollutants are produced.",
+      "points": [
+        "Complete combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O, giving carbon dioxide and water vapour.",
+        "Incomplete combustion, caused by too little air or a dirty or faulty burner, produces carbon monoxide (CO) and soot.",
+        "Carbon monoxide is a colourless, odourless and poisonous gas that binds to haemoglobin in the blood, so less oxygen is carried around the body.",
+        "Carbon dioxide is a greenhouse gas that traps heat in the atmosphere, contributing to global warming and climate change.",
+        "Sulphur dioxide (SO₂) from the sulphur in oil and solid fuels dissolves in rainwater to form acid rain, which damages buildings, lakes and forests.",
+        "Nitrogen oxides formed at high temperatures in boilers and engines contribute to smog and acid rain.",
+        "Smoke and particulates from solid fuels cause smog, soiling of buildings and respiratory problems such as asthma and bronchitis.",
+        "Per unit of heat, coal releases the most carbon dioxide among the fuels used in homes, followed by oil, then natural gas; wood is largely carbon-neutral over a managed cycle.",
+        "Diagram: a flow chart from fuel burned in the boiler or stove to the pollutants released (CO₂, CO, SO₂, nitrogen oxides, particulates) and their environmental effects."
+      ]
+    },
+    {
+      "h": "Investigating energy inefficiency in the home",
+      "b": "Aim: to identify where energy is wasted in a home and to recommend changes that improve efficiency.",
+      "points": [
+        "Step 1: walk through the house and note draughts, uninsulated attic space, single glazing, missing draught seals and any unlagged cylinder or pipes.",
+        "Step 2: check for draughts by holding the back of the hand or a smoke pencil near gaps, noting where air movement shows leakage.",
+        "Step 3: record the heating controls: whether there is a timer, a room thermostat and radiator valves, and the thermostat setting in each room.",
+        "Step 4: record the room temperatures at the same time on two occasions, and the hours the heating runs each day.",
+        "Step 5: identify how hot water is heated (boiler, immersion or electric shower), how long the immersion runs, and whether the cylinder is insulated.",
+        "Step 6: observe cooking practices, such as opening the oven door often, preheating for longer than needed, using large pans on small rings, leaving pans uncovered and boiling more water than needed in the kettle.",
+        "Step 7: compare meter readings or fuel deliveries over a set period, and note appliances left on standby.",
+        "Safety: keep naked flames away from gas and oil appliances and do not use a lit taper to check for leaks from fuel pipes.",
+        "Expected result: a list of inefficiencies with the evidence for each, ranked by the energy each one wastes."
+      ]
+    },
+    {
+      "h": "Strategies to improve energy efficiency and reduce emissions",
+      "points": [
+        "Insulation: quilt laid between the joists in the attic, cavity wall insulation, internal or external wall insulation, and floor insulation.",
+        "Glazing: double or triple glazing with lined curtains closed at night, and low-emissivity coatings on glass.",
+        "Draught-proofing of doors, windows, letterboxes and floorboards with seals and brushes.",
+        "Heating controls: a programmer or timer, a room thermostat, thermostatic radiator valves on each radiator, and a cylinder thermostat with a time switch for hot water.",
+        "Efficient boilers: a condensing boiler recovers heat from its flue gases, and an annual service keeps the burner adjusted so combustion stays complete.",
+        "Hot water: lagging the cylinder and pipes with jackets, using the immersion only when required, and choosing a shower over a bath.",
+        "Renewable heat: solar thermal collectors, a heat pump or a well-managed wood-burning stove with a flue and an air supply controlled for complete combustion.",
+        "Cooking: using lids, matching pan size to the ring, using the microwave or a slow cooker for small or long cooking, and filling the oven when it is on.",
+        "Lighting and appliances: LED lamps, switching off unused lights, A-rated appliances, full loads on washing machines and dishwashers, and switching off standby.",
+        "Energy-efficient house design: a compact shape with less external wall area, large south-facing windows for passive solar gain, zoned heating and sensor lighting.",
+        "Ventilation balanced with insulation: an airtight fabric needs a controlled ventilation system so that moisture and stale air are removed without wasting heat.",
+        "The Building Energy Rating (BER) assessment, carried out by an SEAI-registered assessor, shows the energy efficiency of a house and where improvements would have most effect."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Conduction",
+      "definition": "The transfer of heat through a solid material from a warmer part to a cooler part."
+    },
+    {
+      "term": "Convection",
+      "definition": "The movement of heat by moving air or water, in which warm fluid rises and cooler fluid takes its place."
+    },
+    {
+      "term": "Thermal bridge",
+      "definition": "A part of a building structure where heat escapes faster than through the surrounding insulated fabric."
+    },
+    {
+      "term": "Complete combustion",
+      "definition": "Burning a fuel with enough oxygen to produce only carbon dioxide and water vapour."
+    },
+    {
+      "term": "Incomplete combustion",
+      "definition": "Burning a fuel with too little oxygen, producing carbon monoxide and soot."
+    },
+    {
+      "term": "Carbon monoxide",
+      "definition": "A colourless, odourless and poisonous gas formed by incomplete combustion, which binds to haemoglobin in the blood."
+    },
+    {
+      "term": "Greenhouse gas",
+      "definition": "A gas, such as carbon dioxide, that traps heat in the atmosphere and contributes to global warming."
+    },
+    {
+      "term": "Acid rain",
+      "definition": "Rainfall made acidic by dissolved sulphur dioxide and nitrogen oxides, which damages buildings, lakes and forests."
+    },
+    {
+      "term": "Thermostatic radiator valve",
+      "definition": "A valve on a radiator that senses room temperature and reduces the flow of hot water once the set temperature is reached."
+    },
+    {
+      "term": "Condensing boiler",
+      "definition": "A boiler that recovers heat from its flue gases, making it more efficient than a standard boiler."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three routes of heat loss in a house",
+      "definition": "Conduction through the walls, roof, floor and glazing; warm air escaping through draughts and gaps; and uninsulated pipes and cylinders losing heat to the surroundings."
+    },
+    {
+      "term": "Two products of complete combustion of methane",
+      "definition": "Carbon dioxide and water vapour."
+    },
+    {
+      "term": "Why carbon monoxide is dangerous",
+      "definition": "It is colourless and odourless and binds to haemoglobin, so less oxygen is carried around the body."
+    },
+    {
+      "term": "Two effects of sulphur dioxide emissions",
+      "definition": "It forms acid rain, which damages buildings and harms lakes and forests."
+    },
+    {
+      "term": "Two effects of carbon dioxide emissions",
+      "definition": "It causes global warming and contributes to climate change."
+    },
+    {
+      "term": "Two measures for reducing heat loss through the roof",
+      "definition": "Quilt laid between the joists in the attic; a layer of insulation fitted above or below the roof structure."
+    },
+    {
+      "term": "Two functions of thermostatic radiator valves",
+      "definition": "They sense room temperature and reduce hot water flow when the set point is reached; they allow each room to be controlled separately."
+    },
+    {
+      "term": "Three strategies for reducing heat loss through air leakage",
+      "definition": "Draught-proofing doors and windows; sealing letterboxes and floorboards; fitting seals and brushes around gaps."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two pollutants released when fuels are burned in the home and state one environmental effect of each.",
+      "model": "Carbon dioxide: a greenhouse gas that traps heat in the atmosphere and contributes to global warming and climate change. Sulphur dioxide: released from oil and solid fuels, it dissolves in rainwater to form acid rain, which damages buildings, lakes and forests. Carbon monoxide or smoke and particulates are also accepted, with one correct effect each. Full marks need two correctly named pollutants, each with a correct environmental effect."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the ways in which energy is wasted in a typical family home, and recommend strategies to improve the efficiency of the heating and hot water systems. Refer to heat loss, emissions and the cost of fuel.",
+      "model": "Heat loss: conduction through walls, roof, floor and single glazing; air leakage through draughts and gaps; thermal bridges at junctions and lintels; an uninsulated attic, since heat rises; uninsulated cylinder and pipes. Heating waste: no timer or room thermostat, radiators heating unused rooms, and a boiler not serviced so combustion becomes incomplete. Emissions: complete combustion releases carbon dioxide and water; incomplete combustion releases carbon monoxide and soot; sulphur dioxide from oil and solid fuels causes acid rain; particulates cause smog. Strategies for heating: attic and wall insulation, double glazing with curtains, draught-proofing, a timer, a room thermostat, thermostatic radiator valves on each radiator, a condensing boiler with an annual service. Strategies for hot water: lagging the cylinder and pipes, a cylinder thermostat and time switch, using the immersion only when required and showers instead of baths. Renewable heat such as solar thermal collectors or a heat pump reduces emissions. Full marks need several named waste points in both heat loss and heating systems, a link to emissions with a correct chemical or environmental effect, and at least three justified strategies for heating and hot water."
+    }
+  ]
+}

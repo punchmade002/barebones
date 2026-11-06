@@ -1,0 +1,138 @@
+{
+  "loId": "hom-food-preservation-s3",
+  "chapterId": "hom-food-preservation",
+  "subsection": "3. Heat processing",
+  "syllabusRef": "1.3.9",
+  "notes": [
+    {
+      "h": "Principle of heat processing",
+      "b": "Heat processing destroys micro-organisms and inactivates enzymes. Sealing the food in a clean, airtight container then stops new micro-organisms from entering.",
+      "points": [
+        "Heat destroys vegetative bacteria, yeasts and moulds and denatures the enzymes that cause spoilage.",
+        "Spores of some bacteria are very heat-resistant and survive boiling at normal pressure, so they need higher temperatures held for longer.",
+        "Heat also changes the colour, texture and flavour of food, which is why heat-processed fruit and vegetables differ from fresh produce.",
+        "Pasteurisation uses a moderate heat treatment that destroys most food poisoning bacteria but not all spores, so pasteurised products still need refrigeration.",
+        "Sterilisation uses higher temperatures to destroy all micro-organisms, including spores, so a sealed sterilised product can be stored at room temperature."
+      ]
+    },
+    {
+      "h": "Canning",
+      "points": [
+        "Commercial canning: food is sealed in cans and heated under pressure at a high temperature for a long period to sterilise it.",
+        "Home canning of fruit: clean, sterilised jars are filled with fruit in syrup or juice, sealed and processed in a boiling-water bath.",
+        "Low-acid vegetables such as peas, beans and carrots must be processed in a pressure canner, because boiling water at normal pressure, which is 100 °C, does not destroy Clostridium botulinum spores.",
+        "Acidic foods such as fruit can be processed in boiling water, because the acid stops the spores from germinating.",
+        "Jars must be filled hot, leaving headspace, and sealed at once; the contents cool and form a vacuum that holds the lid down.",
+        "A bulging lid or can end indicates gas produced by micro-organisms, and the contents must be discarded unopened.",
+        "In Ireland, commercial canning is covered by food hygiene law, which the FSAI enforces through its official agencies, such as the HSE Environmental Health Service."
+      ]
+    },
+    {
+      "h": "Effects of canning on food",
+      "points": [
+        "Vitamin C is heat-sensitive and water-soluble, so it is lost during high-temperature canning, especially in the canning liquid.",
+        "Thiamine (vitamin B1) is unstable at high temperature and is reduced by canning.",
+        "Canned vegetables gain sodium from added salt, so no-added-salt versions are preferred on a low-salt diet.",
+        "Fruit canned in heavy syrup gains sugar, and food packed in oil gains fat, which raises the energy content.",
+        "Canned vegetables are softer, paler and less bright in colour than fresh or frozen produce.",
+        "Frozen produce retains more vitamin C than canned produce of the same food, because the processing temperatures are lower."
+      ]
+    },
+    {
+      "h": "Jam making: underlying principles",
+      "b": "Jam is preserved by heat, a high concentration of sugar and a sealed jar. It sets because pectin, acid and sugar combine.",
+      "points": [
+        "Fruit is simmered first to soften its tissues and release pectin, a natural gelling substance found in the cell walls of fruit.",
+        "Apples, redcurrants, gooseberries and lemons are high in pectin, and under-ripe fruit contains more pectin than over-ripe fruit.",
+        "Acid, from lemon juice or the fruit itself, releases pectin from the cell walls and helps the pectin form a gel.",
+        "Sugar is added in the correct proportion and dissolved fully before the mixture is boiled rapidly to setting point.",
+        "Setting point is confirmed by the wrinkle test, in which a spoonful of jam dropped onto a cold saucer wrinkles when pushed with a finger.",
+        "Boiling destroys micro-organisms and inactivates enzymes in the fruit.",
+        "Sugar preserves by osmosis: at high concentration it draws water out of microbial cells, so they cannot multiply.",
+        "Jam loses some heat-sensitive vitamin C during boiling.",
+        "Scum is skimmed from the surface, and the jam is potted into hot sterilised jars, sealed at once, labelled and stored in a cool, dry place.",
+        "Jam ferments or grows mould if too little sugar is used, setting point is not reached, jars are not sterilised, the seal fails or a used spoon introduces yeasts and moulds."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Pasteurisation",
+      "definition": "A moderate heat treatment that destroys most food poisoning bacteria in a food, but not all spores, so the food still needs chilling."
+    },
+    {
+      "term": "Sterilisation",
+      "definition": "Heat treatment at a high temperature that destroys all micro-organisms, including spores."
+    },
+    {
+      "term": "Canning",
+      "definition": "Sealing food in a can or jar and heat-processing it so that it can be stored for a long period."
+    },
+    {
+      "term": "Bottling",
+      "definition": "Preserving fruit or vegetables in sealed jars by heat processing them in a water bath or pressure canner."
+    },
+    {
+      "term": "Pectin",
+      "definition": "A natural gelling substance found in the cell walls of fruit that causes jam to set when combined with acid and sugar."
+    },
+    {
+      "term": "Setting point",
+      "definition": "The stage in jam making at which the mixture has boiled enough for pectin, acid and sugar to form a gel on cooling."
+    },
+    {
+      "term": "Headspace",
+      "definition": "The gap left between the food and the top of a jar or container to allow for expansion and the formation of a vacuum."
+    },
+    {
+      "term": "Vacuum seal",
+      "definition": "A low-pressure space that forms inside a jar as hot contents cool, pulling the lid down and keeping air out."
+    },
+    {
+      "term": "Clostridium botulinum",
+      "definition": "A food poisoning bacterium that forms heat-resistant spores, which must be destroyed by pressure canning in low-acid foods."
+    },
+    {
+      "term": "Denaturation",
+      "definition": "A change in the three-dimensional structure of an enzyme or protein caused by heat, which destroys its activity."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three effects of canning on vegetables",
+      "definition": "Loss of vitamin C and thiamine (B1), an increase in sodium from added salt, and changes to colour, texture and flavour."
+    },
+    {
+      "term": "Difference between pasteurisation and sterilisation",
+      "definition": "Pasteurisation destroys most food poisoning bacteria but not all spores, so the product must be chilled; sterilisation destroys all micro-organisms including spores, allowing room-temperature storage when sealed."
+    },
+    {
+      "term": "Four faults that lead to spoiled jam",
+      "definition": "Too little sugar, setting point not reached, a faulty seal, and unsterilised jars or a contaminated spoon."
+    },
+    {
+      "term": "Three ingredients that make jam set",
+      "definition": "Pectin, acid and sugar."
+    },
+    {
+      "term": "Why low-acid vegetables need a pressure canner",
+      "definition": "Boiling water at normal pressure does not reach a temperature high enough to destroy Clostridium botulinum spores in low-acid foods."
+    },
+    {
+      "term": "Temperature of boiling water at normal pressure",
+      "definition": "100 °C."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how canning changes the nutritional value of peas.",
+      "model": "Canning uses high temperatures for a long period, so heat-sensitive vitamin C is destroyed and thiamine (vitamin B1) is reduced. Vitamin C is water-soluble, so some is also lost into the canning liquid. Salt added to the can increases the sodium content."
+    },
+    {
+      "marks": 18,
+      "prompt": "Give an account of how jam is made at home, explaining the underlying principles that preserve the jam and make it set.",
+      "model": "Method: sterilise the jars; prepare the fruit; simmer it in a heavy pan to soften it and release pectin; add the correct proportion of sugar and dissolve it; boil rapidly to setting point, tested with a cold saucer; skim the scum; pot into hot sterilised jars; seal at once; label and store in a cool, dry place. Principles: boiling destroys micro-organisms and inactivates enzymes; sugar preserves by osmosis, drawing water out of microbial cells; pectin, acid and sugar form the gel; the sealed jar prevents re-entry of micro-organisms."
+    }
+  ]
+}

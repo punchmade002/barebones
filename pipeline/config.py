@@ -164,7 +164,7 @@ SYLLABUS_CUTOFF = {
     # "for examination to June 2026"); they are pulled as LEGACY practice, not on-course papers.
     "business":  (1999, True),    # confirmed: previous syllabus first examined 1999, last examined June 2026
     "english":   (2001, False),   # estimate; verify
-    "home-economics": (2004, False),  # estimate — current S&S syllabus ~2004; verify
+    "home-economics": (2004, True),   # confirmed: S&S syllabus introduced Sept 2002, first examined 2004, examined June 2027
 }
 
 # subject_key must match bare bones `subject` ids. `code` is optional now (form-discovery

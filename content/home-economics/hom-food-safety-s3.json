@@ -1,0 +1,128 @@
+{
+  "loId": "hom-food-safety-s3",
+  "chapterId": "hom-food-safety",
+  "subsection": "3. Micro-organisms and the control of microbial spoilage",
+  "syllabusRef": "1.3.8",
+  "notes": [
+    {
+      "h": "Bacterial spoilage",
+      "b": "Bacteria are the micro-organisms that spoil most protein and moist foods, and they change food in several ways.",
+      "points": [
+        "Putrefaction: bacteria break down protein in meat, fish and eggs, producing foul odours and a slimy surface.",
+        "Souring: lactic acid bacteria ferment the lactose in milk, producing lactic acid that curdles the milk.",
+        "Bacteria that survive in food can produce toxins, which can make food unsafe even when the food looks and smells normal."
+      ]
+    },
+    {
+      "h": "Mould and yeast spoilage",
+      "points": [
+        "Moulds grow visibly on food as fluffy, powdery or coloured patches, and some produce mycotoxins that are harmful if eaten.",
+        "Yeasts ferment the sugars in fruit juices, jams and syrups, producing carbon dioxide, alcohol and off-flavours.",
+        "Mould and yeast growth is most visible on the surface of food, where oxygen is available."
+      ]
+    },
+    {
+      "h": "Conditions that allow micro-organisms to grow",
+      "b": "Micro-organisms spoil food only when the conditions they need are present.",
+      "points": [
+        "Food: micro-organisms need nutrients, particularly protein and carbohydrate.",
+        "Moisture: their chemical reactions and nutrient absorption take place in solution, so dry foods support little growth.",
+        "Warmth: most spoilage micro-organisms multiply fastest in the danger zone.",
+        "Oxygen: aerobic moulds need oxygen, while anaerobic bacteria grow in sealed packs from which oxygen is absent.",
+        "pH: most bacteria prefer a neutral pH, whereas moulds and yeasts tolerate acidic conditions.",
+        "Time: micro-organisms need time to multiply; some bacteria can double in number in about 20 minutes under ideal conditions."
+      ]
+    },
+    {
+      "h": "Principles of control: destroying micro-organisms",
+      "b": "Control of spoilage works either by destroying micro-organisms or by restricting one of the conditions they need.",
+      "points": [
+        "Heat treatments kill micro-organisms: cooking, pasteurisation, which uses a lower temperature for a set time, and sterilisation, which destroys all micro-organisms and their spores.",
+        "Irradiation destroys micro-organisms and parasites in food by exposing it to controlled radiation, without making the food radioactive.",
+        "Irradiation can extend shelf life and slow ripening and sprouting in fruit and vegetables, with little effect on colour, flavour or texture."
+      ]
+    },
+    {
+      "h": "Principles of control: restricting growth",
+      "points": [
+        "Low temperature: refrigeration slows the growth of micro-organisms, and freezing inactivates them without destroying them.",
+        "Removing moisture: drying, salting and sugaring reduce the water available to micro-organisms.",
+        "Acidity: pickling in vinegar, or adding lemon juice, lowers the pH to a level that most bacteria cannot tolerate.",
+        "Removing oxygen: vacuum packing and canning exclude air, preventing growth of aerobic micro-organisms.",
+        "Preservatives: chemicals such as sulphur dioxide and benzoates inhibit the growth of micro-organisms."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Putrefaction",
+      "definition": "The breakdown of protein by bacteria, producing foul odours and slime."
+    },
+    {
+      "term": "Mycotoxin",
+      "definition": "A poisonous substance produced by some moulds that can be harmful if the food is eaten."
+    },
+    {
+      "term": "Microbial spoilage",
+      "definition": "The deterioration of food caused by the growth of bacteria, moulds or yeasts."
+    },
+    {
+      "term": "Pasteurisation",
+      "definition": "A heat treatment at a set temperature for a set time that destroys most harmful micro-organisms."
+    },
+    {
+      "term": "Sterilisation",
+      "definition": "A heat treatment that destroys all micro-organisms and their spores."
+    },
+    {
+      "term": "Irradiation",
+      "definition": "Exposure of food to controlled radiation to destroy micro-organisms and parasites."
+    },
+    {
+      "term": "Preservative",
+      "definition": "A chemical added to food to inhibit the growth of micro-organisms."
+    },
+    {
+      "term": "Vacuum packing",
+      "definition": "Packaging food after the air has been removed, preventing the growth of aerobic micro-organisms."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Six conditions micro-organisms need to grow",
+      "definition": "Food, warmth, moisture, oxygen, a suitable pH and time."
+    },
+    {
+      "term": "Signs that yeast has spoiled a fruit juice",
+      "definition": "Fizziness from carbon dioxide, a sour or alcoholic smell and cloudiness."
+    },
+    {
+      "term": "Signs of bacterial putrefaction",
+      "definition": "Foul odours, a slimy surface, and softening of protein foods such as meat and fish."
+    },
+    {
+      "term": "Three ways to remove moisture from food",
+      "definition": "Drying, salting and sugaring."
+    },
+    {
+      "term": "Two ways to destroy micro-organisms in food",
+      "definition": "Heat treatment, such as pasteurisation or sterilisation, and irradiation."
+    },
+    {
+      "term": "Chemical that inhibits micro-organisms in dried fruit and juices",
+      "definition": "Sulphur dioxide, which is used as a preservative."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which bacteria cause food to spoil.",
+      "model": "Putrefaction: bacteria break down the protein in meat, fish or eggs, producing foul odours and a slimy surface. Souring: lactic acid bacteria ferment the lactose in milk, producing lactic acid that curdles the milk. Accept also toxin production by bacteria that make food unsafe. Award three marks for each correct way with a correct description of the change it causes."
+    },
+    {
+      "marks": 16,
+      "prompt": "Explain how the spoilage of food by micro-organisms can be controlled by destroying them or by restricting one of the conditions they need. Give one named example of each method.",
+      "model": "Destroying micro-organisms: heat treatments such as pasteurisation and sterilisation kill micro-organisms, with sterilisation also destroying spores; example: pasteurised milk, or canned food that has been sterilised. Irradiation destroys micro-organisms and parasites in food with little effect on colour, flavour or texture; example: irradiated fruit and vegetables with a longer shelf life. Restricting growth: low temperature slows growth in refrigerated food, and freezing inactivates micro-organisms; example: frozen vegetables. Removing moisture by drying, salting or sugaring reduces the water micro-organisms need; example: dried fruit or cured meat. Acidity from pickling in vinegar lowers the pH so most bacteria cannot grow; example: pickled onions. Removing oxygen by vacuum packing prevents aerobic micro-organisms growing; example: vacuum-packed meat. Award marks for the explanation of each method, and a correct named example for each."
+    }
+  ]
+}

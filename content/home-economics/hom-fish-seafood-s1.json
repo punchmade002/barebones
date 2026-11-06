@@ -1,0 +1,144 @@
+{
+  "loId": "hom-fish-seafood-s1",
+  "chapterId": "hom-fish-seafood",
+  "subsection": "1. Classification, nutritional significance and contribution to the diet",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Classification of fish",
+      "b": "Fish is grouped by the fat content of its flesh and by whether it has a backbone.",
+      "points": [
+        "White fish: lean fish with almost no fat in the flesh, e.g. cod, haddock, whiting, plaice and sole.",
+        "Oily fish: fish with high fat in the flesh, e.g. salmon, trout, mackerel, herring and tuna.",
+        "Crustacean shellfish: lobster, crab and prawns, which have a hard outer shell.",
+        "Mollusc shellfish: oysters, mussels and cockles, which have shells that open and close.",
+        "Fish flesh is made of short muscle fibres called myomeres, separated by thin layers of connective tissue, so it has less connective tissue than meat.",
+        "The flesh of fish has a water content of about 65 to 80 per cent, and water content falls as fat content rises."
+      ]
+    },
+    {
+      "h": "Nutritive value of fish",
+      "points": [
+        "Protein: fish is a source of high biological value (HBV) protein, which supplies all the essential amino acids needed for growth and repair.",
+        "Fat: white fish has almost no fat, while oily fish supplies polyunsaturated fat, including the omega-3 fatty acids EPA and DHA.",
+        "Carbohydrate: fish contains no carbohydrate.",
+        "B group vitamins: all fish supplies them.",
+        "Vitamins A and D: supplied by oily fish, and by the liver oils of fish.",
+        "Vitamin C: supplied by oysters.",
+        "Iodine and fluorine: supplied by sea fish.",
+        "Phosphorus, potassium and zinc: supplied by most fish.",
+        "Calcium: supplied by canned fish eaten with its soft bones, such as sardines and canned salmon.",
+        "Iron: supplied by shellfish and sardines.",
+        "Cholesterol: present in shellfish."
+      ]
+    },
+    {
+      "h": "Omega-3 fatty acids and vitamin D in oily fish",
+      "b": "Oily fish is the main food source of these two nutrients.",
+      "points": [
+        "Essential fatty acids cannot be made by the body, so they must be obtained from food.",
+        "Omega-3 fatty acids are polyunsaturated fats; oily fish is their main dietary source.",
+        "Omega-3 fatty acids make platelets less sticky, which reduces the formation of blood clots.",
+        "Omega-3 fatty acids reduce the risk of heart attack, stroke and circulatory disease.",
+        "Omega-3 fatty acids reduce the build-up of cholesterol in the arteries and can help lower high blood pressure.",
+        "Omega-3 fatty acids support healthy brain activity and concentration.",
+        "Vitamin D is a fat-soluble vitamin that helps the body absorb calcium, supporting healthy bones and teeth."
+      ]
+    },
+    {
+      "h": "Dietetic value and contribution to the diet",
+      "points": [
+        "Fish is easy to digest, because its short muscle fibres and low connective tissue make the flesh soft; this suits children, the elderly and convalescents.",
+        "Its HBV protein supports growth in children and adolescents and repair of tissue in all age groups.",
+        "Fish is a meat alternative and can replace meat in the main meal.",
+        "White fish is low in fat and calories, so it suits low-calorie and low-fat diets.",
+        "Oily fish is recommended for people with coronary heart disease, because its omega-3 fats help reduce the risk of heart disease.",
+        "Fish contains no carbohydrate, so it should be served with starchy foods such as potatoes, rice or bread.",
+        "Shellfish contains cholesterol, which should be considered in a low-cholesterol diet.",
+        "Fish cooks quickly, which saves time and fuel, and it can be prepared by many cooking methods.",
+        "Processed fish products such as canned and frozen fish make fish available out of season.",
+        "Irish healthy eating guidelines from the Department of Health, as shown in the Food Pyramid, recommend eating fish regularly, including oily fish."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Myomere",
+      "definition": "A short muscle segment; the flesh of fish is made of these short fibres, separated by thin layers of connective tissue."
+    },
+    {
+      "term": "White fish",
+      "definition": "Lean fish with almost no fat in the flesh, such as cod, haddock and plaice."
+    },
+    {
+      "term": "Oily fish",
+      "definition": "Fish with high fat content in the flesh, rich in polyunsaturated fat, omega-3 fatty acids and vitamins A and D."
+    },
+    {
+      "term": "Shellfish",
+      "definition": "Crustaceans and molluscs, such as prawns, lobster, mussels and oysters, eaten as seafood."
+    },
+    {
+      "term": "High biological value (HBV) protein",
+      "definition": "Protein that contains all the essential amino acids in the proportions the body needs."
+    },
+    {
+      "term": "Omega-3 fatty acids",
+      "definition": "Polyunsaturated fatty acids, found mainly in oily fish, that the body cannot make and must obtain from food."
+    },
+    {
+      "term": "Essential fatty acids",
+      "definition": "Fatty acids that the body cannot make, so they must be supplied in the diet."
+    },
+    {
+      "term": "Fat-soluble vitamin",
+      "definition": "A vitamin that dissolves in fat rather than water, such as vitamin D in oily fish."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three groups of fresh fish",
+      "definition": "White fish, oily fish and shellfish."
+    },
+    {
+      "term": "Five named white fish",
+      "definition": "Cod, haddock, whiting, plaice and sole."
+    },
+    {
+      "term": "Five named oily fish",
+      "definition": "Salmon, trout, mackerel, herring and tuna."
+    },
+    {
+      "term": "Three named crustacean shellfish",
+      "definition": "Lobster, crab and prawns."
+    },
+    {
+      "term": "Three named mollusc shellfish",
+      "definition": "Oysters, mussels and cockles."
+    },
+    {
+      "term": "Three properties of fish protein",
+      "definition": "High biological value, containing all essential amino acids, and easy to digest."
+    },
+    {
+      "term": "Four benefits of omega-3 fatty acids",
+      "definition": "They reduce the risk of heart attack, reduce the risk of stroke, reduce blood clotting and reduce the build-up of cholesterol."
+    },
+    {
+      "term": "Two minerals supplied by sea fish",
+      "definition": "Iodine and fluorine."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Compare oily fish with white fish in terms of fat content, and name two nutrients that oily fish supplies in greater amounts than white fish.",
+      "model": "Oily fish has high fat in its flesh, mostly polyunsaturated, while white fish has almost no fat in the flesh. Oily fish supplies omega-3 fatty acids (EPA and DHA). Oily fish also supplies vitamins A and D. Any two of these nutrients earn the marks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the nutritive value of fish and its dietetic value in the diet, referring to white fish, oily fish and shellfish.",
+      "model": "Nutritive value: fish is a source of HBV protein containing all essential amino acids. White fish has almost no fat, while oily fish supplies polyunsaturated fat with omega-3 fatty acids and vitamins A and D. All fish supplies B group vitamins. Sea fish supplies iodine and fluorine; most fish supplies phosphorus, potassium and zinc. Canned fish with soft bones supplies calcium; shellfish and sardines supply iron; oysters supply vitamin C. Fish contains no carbohydrate. Shellfish contains cholesterol. Dietetic value: fish is easy to digest and suits children, the elderly and convalescents. Its protein supports growth and repair. It can replace meat. White fish suits low-fat and low-calorie diets. Omega-3 fats reduce the risk of heart attack, stroke and circulatory disease, so oily fish suits people with heart disease. Fish should be served with starchy foods because it contains no carbohydrate. It cooks quickly and can be prepared many ways. Irish healthy eating guidelines from the Department of Health recommend regular fish, including oily fish."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "loId": "hom-sociological-concepts-s1",
+  "chapterId": "hom-sociological-concepts",
+  "subsection": "1. Society, culture, norms and mores, values",
+  "syllabusRef": "3.1.1",
+  "notes": [
+    {
+      "h": "Society and culture",
+      "b": "Sociology studies how people organise their lives together. A society is the basic unit of that study.",
+      "points": [
+        "A society is a group of people who share a territory, a set of institutions and a common way of life.",
+        "Culture is the learned way of life of a society: its language, customs, beliefs, values, norms, art and objects.",
+        "Culture is not inherited biologically; it is learned through socialisation and passed from one generation to the next.",
+        "Material culture is the physical objects a society makes and uses, such as clothing, tools and housing.",
+        "Non-material culture is the intangible side of culture: language, beliefs, values, norms, customs and rituals.",
+        "Members of a society share common symbols and meanings, such as the Irish language and traditional Irish music.",
+        "A subculture is a smaller group within a larger society that holds some distinct norms and values, such as a musical or sporting subculture.",
+        "Ethnocentrism is judging another culture by the standards of one's own culture.",
+        "Cultural relativism is understanding a culture by its own standards rather than by the standards of another culture."
+      ]
+    },
+    {
+      "h": "Norms, mores and sanctions",
+      "b": "Norms are the rules that tell people how to behave in a given situation.",
+      "points": [
+        "A norm is a rule of behaviour that a society expects its members to follow.",
+        "Folkways are everyday conventions, such as queueing at a bus stop; breaking them brings mild disapproval.",
+        "Mores are norms with strong moral significance, such as the prohibition on theft or violence; breaking them brings serious disapproval.",
+        "Laws are norms that are formally written down and enforced by the state through officially appointed bodies such as the courts.",
+        "A sanction is a reward for conforming to a norm or a penalty for breaking one.",
+        "Positive sanctions reward conformity, for example praise, awards or promotion.",
+        "Negative sanctions punish deviance, for example ridicule or ostracism (informal) or fines and imprisonment (formal).",
+        "Deviance is behaviour that breaks a norm; what counts as deviance varies between societies and changes over time.",
+        "Norms about punctuality, personal space and greeting differ from one culture to another."
+      ]
+    },
+    {
+      "h": "Values",
+      "b": "Values sit behind norms. A norm is the specific rule; a value is the broad belief that the rule expresses.",
+      "points": [
+        "A value is a broad belief about what is desirable, important or worth striving for.",
+        "Values are general and abstract; norms are specific rules that put a value into practice.",
+        "Example of a value and its norm: a value placed on respect for life underpins the norm against violence.",
+        "Examples of Irish values include family, education, honesty and equality.",
+        "Core values are held strongly and change slowly; peripheral values are held less firmly and change more readily.",
+        "Values are transmitted through socialisation, first in the family and later through school, peers and the media.",
+        "Values can conflict, for example individual freedom and obligation to the community, and societies resolve such conflicts through norms and laws."
+      ]
+    },
+    {
+      "h": "Answering questions that ask you to explain a set of terms",
+      "points": [
+        "Give each term its own answer so that each one can be credited separately.",
+        "Open with a one-sentence definition that uses the correct sociological meaning.",
+        "Add the point that separates the term from the one most often confused with it, such as folkways from mores or norms from values.",
+        "Give a specific example from Irish or everyday life for each term.",
+        "Where a term links to another in the set, say how: for example, values underpin norms, and norms are enforced by sanctions."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Society",
+      "definition": "A group of people who share a territory, institutions and a common way of life."
+    },
+    {
+      "term": "Culture",
+      "definition": "The learned way of life of a society, including its language, customs, beliefs, values, norms and objects."
+    },
+    {
+      "term": "Material culture",
+      "definition": "The physical objects a society makes and uses."
+    },
+    {
+      "term": "Subculture",
+      "definition": "A smaller group within a larger society that holds some distinct norms and values."
+    },
+    {
+      "term": "Norm",
+      "definition": "A rule of behaviour that a society expects its members to follow."
+    },
+    {
+      "term": "Folkways",
+      "definition": "Everyday conventions of behaviour whose breach brings mild disapproval."
+    },
+    {
+      "term": "Mores",
+      "definition": "Norms with strong moral significance whose breach brings serious disapproval."
+    },
+    {
+      "term": "Sanction",
+      "definition": "A reward for conforming to a norm or a penalty for breaking one."
+    },
+    {
+      "term": "Value",
+      "definition": "A broad belief about what is desirable, important or worth striving for."
+    },
+    {
+      "term": "Ethnocentrism",
+      "definition": "Judging another culture by the standards of one's own culture."
+    },
+    {
+      "term": "Cultural relativism",
+      "definition": "Understanding a culture by its own standards rather than by another culture's standards."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three features that define a society",
+      "definition": "A shared territory, shared institutions and a shared culture."
+    },
+    {
+      "term": "Two forms of culture",
+      "definition": "Material culture is the physical objects a society makes and uses; non-material culture is language, beliefs, values, norms and customs."
+    },
+    {
+      "term": "Two types of sanction",
+      "definition": "Positive sanctions reward conformity, such as praise or promotion; negative sanctions punish deviance, such as fines or imprisonment."
+    },
+    {
+      "term": "Folkways compared with mores",
+      "definition": "Folkways are everyday conventions whose breach brings mild disapproval; mores carry strong moral weight and their breach brings serious disapproval."
+    },
+    {
+      "term": "Two defining features of laws as norms",
+      "definition": "Laws are formally written down, and their breach is punished by officially appointed bodies such as the courts."
+    },
+    {
+      "term": "Example of a value linked to a norm",
+      "definition": "Respect for life, which underpins the norm against violence."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between folkways and mores, giving one example of each.",
+      "model": "Folkways are everyday conventions of behaviour, and breaking them brings mild disapproval. Example: queueing at a bus stop or shop counter. Mores are norms with strong moral significance, and breaking them brings serious disapproval. Example: the prohibition on theft or violence."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss how values, norms and sanctions work together to keep order in a society, using examples from Irish life.",
+      "model": "Values are broad beliefs about what is important, for example respect for life, honesty or equality. Norms are the specific rules that put values into practice, for example the norm against violence or the norm of telling the truth in court. Mores and laws carry the strongest expression of values, while folkways cover everyday conventions. Sanctions enforce norms: positive sanctions such as praise, awards or promotion reward conformity, and negative sanctions such as ridicule, fines or imprisonment punish deviance. Informal sanctions come from individuals and groups, and formal sanctions come from officially appointed bodies such as the courts. Irish examples: the value placed on education is reflected in the norm of school attendance, enforced informally by parents and formally by the state; the value of equality is reflected in laws against discrimination."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "loId": "hom-food-industry-s3",
+  "chapterId": "hom-food-industry",
+  "subsection": "3. Careers in food and related industries",
+  "syllabusRef": "1.3.1",
+  "notes": [
+    {
+      "h": "Careers in food production and manufacturing",
+      "points": [
+        "Production operative: runs and monitors processing and packaging machinery on a food production line.",
+        "Food technologist: develops new products and processes, and improves recipes and methods for shelf life and quality.",
+        "Quality control technician: tests raw materials and finished products against specifications and food safety standards.",
+        "Food microbiologist: tests food and production surfaces for microbes that cause spoilage or food poisoning.",
+        "Butcher, baker and confectioner: traditional craft trades in retail shops or food manufacturing.",
+        "Food engineer: designs, runs and maintains processing and packaging plant so that it operates safely and efficiently."
+      ]
+    },
+    {
+      "h": "Careers in food service and hospitality",
+      "points": [
+        "Chef: plans menus, prepares, cooks and presents food in restaurants, hotels and institutions.",
+        "Caterer: plans and delivers food for events, canteens and institutions such as hospitals and schools.",
+        "Waiter or waitress: serves food and drink and takes orders in restaurants, hotels and bars.",
+        "Hotel or restaurant manager: controls costs, stock and staffing for a food and accommodation business."
+      ]
+    },
+    {
+      "h": "Careers in health, nutrition and education",
+      "points": [
+        "Dietitian: assesses nutritional needs and plans diets for individuals and groups, including people with illness or special needs.",
+        "Nutritionist: advises on healthy eating, often in public health, sport or the food industry.",
+        "Home Economics teacher: teaches food, nutrition and family and consumer studies in second-level schools.",
+        "Environmental Health Officer: inspects food premises and enforces food hygiene law; in Ireland EHOs work for the HSE Environmental Health Service."
+      ]
+    },
+    {
+      "h": "Careers in agri-food, science and marketing",
+      "points": [
+        "Agricultural scientist: researches crop and livestock production, food quality and farm efficiency.",
+        "Marketing and sales staff: promote products to retailers and consumers and develop export sales.",
+        "Buyer: sources ingredients and packaging from suppliers at the required quality and price.",
+        "Food safety scientist: tests and assesses food safety risks for regulators, producers and retailers."
+      ]
+    },
+    {
+      "h": "Employers and routes into food careers",
+      "points": [
+        "State bodies such as Bord Bia, Teagasc, Bord Iascaigh Mhara (BIM), the Food Safety Authority of Ireland (FSAI) and the HSE employ scientists, advisers, inspectors and marketing staff.",
+        "Local authorities employ Environmental Health Officers to inspect food premises.",
+        "Food manufacturers and retailers employ production, quality, technical and sales staff.",
+        "Entry routes include apprenticeships, further education and training courses, and third-level degrees in food science, dietetics or culinary arts."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Food technologist",
+      "definition": "A professional who develops new food products and processes and improves existing ones for quality and shelf life."
+    },
+    {
+      "term": "Quality control",
+      "definition": "The testing of raw materials and finished products against set standards to keep their quality and safety consistent."
+    },
+    {
+      "term": "Food microbiologist",
+      "definition": "A scientist who tests food for microbes that cause spoilage or illness."
+    },
+    {
+      "term": "Dietitian",
+      "definition": "A qualified health professional who assesses nutritional needs and plans diets for individuals and groups."
+    },
+    {
+      "term": "Nutritionist",
+      "definition": "A professional who advises on healthy eating and nutrition, often in public health, sport or the food industry."
+    },
+    {
+      "term": "Environmental Health Officer",
+      "definition": "An HSE officer who inspects food premises and enforces food hygiene law."
+    },
+    {
+      "term": "Caterer",
+      "definition": "A person or business that plans and provides food for events, canteens and institutions."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three science-based careers in the food industry",
+      "definition": "Food technologist, who develops products; quality control technician, who tests quality; food microbiologist, who tests for microbes."
+    },
+    {
+      "term": "Three duties of an Environmental Health Officer in food premises",
+      "definition": "Inspecting food premises; enforcing food hygiene law; taking samples for testing."
+    },
+    {
+      "term": "Two roles of a dietitian",
+      "definition": "Assessing nutritional needs; planning diets for illness or special needs."
+    },
+    {
+      "term": "Four careers in food service",
+      "definition": "Chef; caterer; waiter or waitress; hotel or restaurant manager."
+    },
+    {
+      "term": "Three routes into a food career",
+      "definition": "Apprenticeship; further education and training course; third-level degree in food science, dietetics or culinary arts."
+    },
+    {
+      "term": "Three state bodies that employ food scientists or inspectors",
+      "definition": "Teagasc, Bord Iascaigh Mhara (BIM) and the Food Safety Authority of Ireland (FSAI)."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline the main duties of two careers in the food industry, one in food production and one in food service.",
+      "model": "Food production, any one with duties: food technologist develops new products and processes and tests shelf life and recipes; quality control technician samples raw materials and finished goods against specifications; food microbiologist tests food for microbes. Food service, any one with duties: chef plans menus, prepares and cooks food and controls portions and costs; caterer plans and delivers food for events and institutions. One mark for each career and one for each duty stated, up to the marks available."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the range of careers available in the food industry, referring to production, food service, health and science. Outline the routes and qualifications needed to enter them.",
+      "model": "Production: production operatives, food technologists, quality control technicians, food microbiologists, food engineers and craft trades such as butcher, baker and confectioner. Food service: chefs, caterers, waiters and waitresses, hotel and restaurant managers. Health and science: dietitians and nutritionists advising on diet, Environmental Health Officers inspecting food premises for the HSE, agricultural scientists and food safety scientists. Employers: state bodies such as Bord Bia, Teagasc, BIM, FSAI and the HSE; food manufacturers and retailers. Routes: apprenticeships, further education and training courses, and third-level degrees in food science, dietetics or culinary arts."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "loId": "hom-textiles-fibres-s3",
+  "chapterId": "hom-textiles-fibres",
+  "subsection": "3. Fibre classification",
+  "syllabusRef": "5.2",
+  "notes": [
+    {
+      "h": "Classification of textile fibres",
+      "b": "Fibres are grouped by where their raw material comes from and how the fibre is formed.",
+      "points": [
+        "Natural fibres are obtained directly from plants or animals and need only cleaning and processing before they are spun into yarn.",
+        "Natural fibres of plant origin are made of cellulose; natural fibres of animal origin are made of protein.",
+        "Regenerated fibres are made by dissolving a natural polymer, usually cellulose, and forcing the solution through a spinneret so that it reforms as a fibre.",
+        "Synthetic fibres are made from polymers built from chemicals derived from coal or petroleum.",
+        "Diagram: a classification tree branching from textile fibres into natural (plant and animal), regenerated and synthetic, with one named example at the end of each branch."
+      ]
+    },
+    {
+      "h": "Natural fibres: sources and uses",
+      "points": [
+        "Cotton: a cellulose fibre from the seed hairs of the cotton plant; used for shirts, towels, bed linen and denim.",
+        "Linen: a cellulose fibre from the stem of the flax plant; used for tea towels, tablecloths and summer clothing.",
+        "Wool: a protein fibre from the fleece of sheep; used for knitwear, tweed, blankets and carpets.",
+        "Silk: a protein filament from the cocoon of the silkworm; used for scarves, ties, formal wear and luxury bedding.",
+        "Cotton and linen absorb moisture readily and are cool to wear; wool and silk are warm because they trap air in their structure."
+      ]
+    },
+    {
+      "h": "Regenerated fibres: sources and uses",
+      "points": [
+        "Viscose (rayon): cellulose from wood pulp is treated with chemicals, dissolved and forced through spinnerets into a chemical bath, where the fibre reforms.",
+        "Viscose is absorbent, drapes well and dyes well; it is used for dresses, linings and soft furnishings.",
+        "Acetate: cellulose is chemically modified with acetic acid, dissolved and extruded to form a fibre with a silky, lustrous appearance.",
+        "Acetate drapes well and is used for linings, blouses and ties.",
+        "Regenerated fibres start from a plant-based raw material, so they are not made from petroleum-based chemicals."
+      ]
+    },
+    {
+      "h": "Synthetic fibres: sources and uses",
+      "points": [
+        "Nylon (polyamide): made from chemicals derived from coal or petroleum; used for hosiery, swimwear, jackets and carpets.",
+        "Polyester: made from petroleum-based chemicals; used for shirts, fleece, curtains and bed linen.",
+        "Acrylic: made from a polymer of acrylonitrile; it resembles wool in warmth and is used for knitwear, socks and blankets.",
+        "Elastane (Lycra): a stretch fibre that is usually blended in small amounts with other fibres for swimwear, sportswear and hosiery.",
+        "Synthetic fibres can be produced in a range of thicknesses and lustres by changing the spinneret holes and the amount of drawing."
+      ]
+    },
+    {
+      "h": "Regenerated and synthetic fibres compared",
+      "points": [
+        "Source: regenerated fibres begin with a natural polymer, cellulose from wood pulp; synthetic fibres begin with small molecules, called monomers, made from coal or petroleum.",
+        "Process: regenerated fibres are dissolved and reformed from an existing natural polymer; synthetic fibres are formed by linking monomers into a polymer, then extruding it.",
+        "Moisture: regenerated fibres such as viscose absorb moisture like cotton; synthetic fibres such as polyester absorb little moisture and dry quickly.",
+        "Heat: nylon and polyester melt at high temperatures, whereas viscose chars and burns like cotton.",
+        "Example: a viscose blouse is more absorbent and comfortable next to the skin; a polyester blouse resists creasing and dries more quickly."
+      ]
+    },
+    {
+      "h": "Making man-made fibres",
+      "points": [
+        "A molten polymer or a polymer solution is forced through a spinneret, a metal plate with many fine holes.",
+        "The emerging streams solidify as they cool in air, or as the solution sets in a chemical bath.",
+        "The filaments are drawn, or stretched, to align their molecules and increase their strength.",
+        "Diagram: a spinneret cross-section showing polymer pumped through holes, forming filaments that are drawn onto a winding bobbin."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Natural fibre",
+      "definition": "A fibre obtained directly from a plant or animal, which needs only cleaning and processing before it is spun into yarn."
+    },
+    {
+      "term": "Regenerated fibre",
+      "definition": "A man-made fibre formed by dissolving a natural polymer, usually cellulose, and reforming it as a fibre."
+    },
+    {
+      "term": "Synthetic fibre",
+      "definition": "A man-made fibre formed from polymers made from chemicals derived from coal or petroleum."
+    },
+    {
+      "term": "Cellulose",
+      "definition": "A natural polymer found in plant cell walls, the main component of cotton, linen and wood pulp."
+    },
+    {
+      "term": "Protein fibre",
+      "definition": "A natural fibre made of protein, such as wool (keratin) or silk (fibroin)."
+    },
+    {
+      "term": "Polymer",
+      "definition": "A long chain of repeated small molecular units that forms the basis of all fibres."
+    },
+    {
+      "term": "Monomer",
+      "definition": "A small molecule that links with others to form a polymer."
+    },
+    {
+      "term": "Spinneret",
+      "definition": "A metal plate with many fine holes through which a polymer is forced to form filaments."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three classes of textile fibre",
+      "definition": "Natural, regenerated and synthetic."
+    },
+    {
+      "term": "Two natural fibres of plant origin",
+      "definition": "Cotton (from the seed hairs) and linen (from the flax stem)."
+    },
+    {
+      "term": "Two natural fibres of animal origin",
+      "definition": "Wool (from sheep fleece) and silk (from the silkworm cocoon)."
+    },
+    {
+      "term": "Four synthetic fibres",
+      "definition": "Nylon, polyester, acrylic and elastane."
+    },
+    {
+      "term": "Raw material for viscose fibre",
+      "definition": "Cellulose from wood pulp, dissolved in chemicals and reformed as a fibre."
+    },
+    {
+      "term": "Device that forms filaments from a polymer",
+      "definition": "A metal plate with many fine holes, through which the polymer is forced and solidified into filaments."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one natural fibre of plant origin, one protein fibre and one synthetic fibre. State one use of each.",
+      "model": "Cotton (plant origin): used for towels or shirts. Wool or silk (protein): wool is used for knitwear or blankets; silk is used for scarves or ties. Nylon, polyester or acrylic (synthetic): nylon for hosiery or carpets; polyester for shirts or curtains; acrylic for knitwear or socks."
+    },
+    {
+      "marks": 18,
+      "prompt": "Compare regenerated fibres with synthetic fibres. Refer to their raw materials, how each is made and one property of each, and give one example of each type.",
+      "model": "Raw materials: regenerated fibres such as viscose and acetate start from cellulose, usually from wood pulp; synthetic fibres such as nylon and polyester start from chemicals derived from coal or petroleum. Manufacture: cellulose is dissolved in chemicals and forced through a spinneret to reform as a fibre; synthetic polymers are formed by linking monomers, then extruded through a spinneret and drawn. Properties: viscose is absorbent and drapes well, and it chars and burns like cotton; polyester absorbs little moisture, dries quickly, resists creasing and melts at high temperatures. Examples: viscose for dresses or linings; polyester for shirts, fleece or curtains."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "loId": "hom-education-s2",
+  "chapterId": "hom-education",
+  "subsection": "2. Factors that influence educational achievement",
+  "syllabusRef": "6.2",
+  "notes": [
+    {
+      "h": "Individual ability and attitude",
+      "b": "Achievement is the result of a student's ability combined with the effort, attitude and health they bring to learning.",
+      "points": [
+        "Intellectual ability affects how quickly a student learns and the level at which they can perform.",
+        "Work ethic, meaning commitment to homework, revision and class participation, has a direct effect on results.",
+        "A student who values learning and sets personal goals tends to achieve more than one who sees school as pointless.",
+        "Poor health, including illness, lack of sleep and poor nutrition, reduces concentration and attendance.",
+        "Choosing subjects that match a student's interests and abilities improves engagement and results.",
+        "Part-time work during term time reduces study time and can leave a student tired in class."
+      ]
+    },
+    {
+      "h": "Family influence and home environment",
+      "points": [
+        "Parental attitude: parents who value education and take an interest in schoolwork tend to raise their child's achievement.",
+        "Parents' own level of education shapes the expectations they hold for their children and how much help they can give with schoolwork.",
+        "Family size: in larger families, parental time and money for each child are often more limited.",
+        "Family finances affect access to books, a computer, extra tuition and school trips and activities.",
+        "A quiet place to study, books and internet access at home support homework and revision.",
+        "Family disruption, such as separation, bereavement or addiction in the home, causes stress that can lower concentration and attendance."
+      ]
+    },
+    {
+      "h": "Peers and the school environment",
+      "points": [
+        "Peer groups can encourage or discourage effort: positive peers support study, while negative peer pressure can lead to truancy and disengagement.",
+        "Bullying damages self-confidence and can cause a student to miss school or stop engaging with learning.",
+        "Poor school attendance is linked with lower attainment and with early school leaving.",
+        "The locality of a school matters: schools in socially disadvantaged areas often face higher rates of early school leaving.",
+        "School resources, including teacher quality, class size and access to technology, affect what students can learn.",
+        "Teacher expectations shape pupils' attainment; low expectations of a student can limit the goals they set themselves."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Intellectual ability",
+      "definition": "A student's capacity to learn, reason and understand, which influences the pace and level of their learning."
+    },
+    {
+      "term": "Work ethic",
+      "definition": "A student's commitment to completing homework, revision and class tasks conscientiously."
+    },
+    {
+      "term": "Parental attitude",
+      "definition": "The value parents place on education and the interest and support they show in their child's schoolwork."
+    },
+    {
+      "term": "Home environment",
+      "definition": "The physical and emotional conditions at home, including study space, resources and family stability, that support or hinder learning."
+    },
+    {
+      "term": "Peer pressure",
+      "definition": "The influence of a student's friends and classmates on their behaviour, effort and choices."
+    },
+    {
+      "term": "Truancy",
+      "definition": "Absence from school without a valid reason."
+    },
+    {
+      "term": "Bullying",
+      "definition": "Repeated, deliberate behaviour that hurts or intimidates another person, carried out by one student or group against another."
+    },
+    {
+      "term": "Pupil-teacher ratio",
+      "definition": "The number of pupils for each teacher in a school or class, which affects how much individual attention each pupil receives."
+    },
+    {
+      "term": "School locality",
+      "definition": "The social and economic character of the area a school serves, which can affect resources and student outcomes."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four family influences on a child's achievement",
+      "definition": "Parental attitude, parents' own education, family size and family finances."
+    },
+    {
+      "term": "Three home conditions that support homework and revision",
+      "definition": "A quiet place to study, books, and internet access."
+    },
+    {
+      "term": "Two effects of poor health on a student",
+      "definition": "Reduced concentration and lower attendance."
+    },
+    {
+      "term": "Two ways a peer group can affect effort",
+      "definition": "Positive peers encourage study; negative peer pressure can lead to truancy and disengagement."
+    },
+    {
+      "term": "Effect on a student's school life of being bullied",
+      "definition": "It damages self-confidence and can cause the student to miss school or disengage from learning."
+    },
+    {
+      "term": "Two school-level factors that affect learning",
+      "definition": "Class size and access to technology."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which a student's home environment can affect their results at school.",
+      "model": "Any two, three marks each: a quiet place to study, books and internet access support homework and revision; family finances determine access to resources and extra tuition; parental attitude and interest in schoolwork encourage effort; family disruption such as separation or bereavement causes stress that lowers concentration and attendance."
+    },
+    {
+      "marks": 24,
+      "prompt": "Explain how individual, family and school factors each affect how well a student performs at school.",
+      "model": "Individual: intellectual ability affecting pace and level of learning; work ethic and commitment to homework and revision; attitude and goal setting; health affecting concentration and attendance; subject choice matched to interests and abilities; part-time work reducing study time. Family: parental attitude and interest; parents' own education and expectations; family size limiting time and money per child; finances affecting books, computers and tuition; home study facilities; family disruption causing stress. School: peer groups encouraging or discouraging effort; negative peer pressure and truancy; bullying damaging confidence and attendance; school locality in a socially disadvantaged area and higher early school leaving; class size and pupil-teacher ratio affecting individual attention; quality of resources, technology and teacher expectations."
+    }
+  ]
+}

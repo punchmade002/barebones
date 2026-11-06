@@ -1,0 +1,133 @@
+{
+  "loId": "hom-textiles-fibres-s2",
+  "chapterId": "hom-textiles-fibres",
+  "subsection": "2. Safety in household textiles",
+  "syllabusRef": "2.1.6",
+  "notes": [
+    {
+      "h": "Fire safety when selecting household textiles",
+      "b": "Fire risk depends on the structure of the fabric, the fibres in it and the materials filling it.",
+      "points": [
+        "Loosely spun yarns ignite very easily, so loosely spun fabrics are a poor choice where fire risk is high.",
+        "Fabrics with a raised pile or nap ignite more easily than smooth, tightly woven fabrics.",
+        "Blends of man-made and natural fibres can burn more quickly than either fibre on its own.",
+        "Synthetic foam filling releases gases that can ignite and engulf a room in flames, and it produces toxic fumes when it burns.",
+        "A combustion-modified high-resilience (CMHR) foam is a safer filling for cushions and upholstery; check the label for it.",
+        "Inherently flame-retardant fabrics keep their resistance because the fibre itself resists ignition; coated fabrics rely on a surface finish.",
+        "Labels can state fire resistance, for example that materials meet the requirements for resistance to cigarette and match ignition.",
+        "Higher-risk items in the home include children's nightwear, upholstered furniture and protective workwear."
+      ]
+    },
+    {
+      "h": "Proban: a named fire-retardant finish",
+      "b": "Proban is one of the fire-retardant finishes used on household textiles; Pyrovatex is another.",
+      "points": [
+        "Proban is applied in a chemical finishing process to cellulosic fibres such as cotton, linen and viscose.",
+        "It adds a layer of phosphorus and nitrogen to the fibre structure, so it is fixed within the fibre rather than sitting on the surface.",
+        "Effect 1: it reduces the fabric's flammability and lowers the risk of ignition.",
+        "Effect 2: when removed from a flame the fabric self-extinguishes, because an insulating char forms around the fibres and the fabric neither melts nor keeps burning.",
+        "Drawback 1: the finish may cause an allergic reaction in some people.",
+        "Drawback 2: the treated fabric may need special care during cleaning, as the finish can be affected by some washing methods.",
+        "Uses: children's nightwear, protective workwear, upholstered furniture and military clothing.",
+        "Identification: the presence of the finish is shown on the product label or in the manufacturer's information rather than by sight or feel."
+      ]
+    },
+    {
+      "h": "Properties of fabric for upholstered furniture",
+      "b": "Upholstery fabric is chosen to withstand constant use while staying comfortable and safe.",
+      "points": [
+        "Durable: the fabric resists abrasion and tearing from repeated sitting and rubbing.",
+        "Hard wearing: the fabric keeps its appearance under frequent use.",
+        "Resilient: the fabric springs back after being compressed, so cushions stay firm and keep their shape; wool is resilient, while cotton loses its shape more readily.",
+        "Comfortable: the fabric has a pleasant handle and does not feel harsh against the body.",
+        "Stain resistant: spills are less likely to soak in, and can be wiped away more easily.",
+        "Fire resistant: the fabric and its filling must meet fire-resistance requirements, as shown on the label."
+      ]
+    },
+    {
+      "h": "Upholstered furniture fire safety requirements (Higher Level only)",
+      "points": [
+        "From July 2026, the fire safety requirements for domestic upholstered furniture are those of the EU General Product Safety Regulation, Regulation (EU) 2023/988.",
+        "The regulation applies in Ireland as an EU regulation, so furniture sold here must meet its requirements.",
+        "The Competition and Consumer Protection Commission (CCPC) is the Irish body that enforces consumer product safety law.",
+        "Manufacturers and sellers must ensure that products placed on the market are safe for consumers before they are sold."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fire-retardant finish",
+      "definition": "A chemical treatment applied to a textile to reduce its flammability and lower the risk of ignition."
+    },
+    {
+      "term": "Self-extinguishing",
+      "definition": "The property of a fabric that stops burning once it is removed from a flame."
+    },
+    {
+      "term": "Char",
+      "definition": "The black, insulating carbon layer that forms on a treated fabric when exposed to heat, protecting the fibres beneath."
+    },
+    {
+      "term": "Raised pile",
+      "definition": "A surface of loose fibre loops or cut ends on a fabric, which ignites more easily than a smooth surface."
+    },
+    {
+      "term": "Inherent flame retardancy",
+      "definition": "Fire resistance that is built into the fibre itself rather than added by a finish."
+    },
+    {
+      "term": "Upholstery",
+      "definition": "The soft covering and padding on furniture, such as the fabric and filling of a sofa or armchair."
+    },
+    {
+      "term": "Resilience",
+      "definition": "The ability of a fabric or filling to spring back to its original shape after being compressed."
+    },
+    {
+      "term": "CMHR foam",
+      "definition": "Combustion-modified high-resilience foam, a filling designed to resist ignition and reduce toxic fumes."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three factors to consider for fire safety in household textiles",
+      "definition": "Fabric construction (loose yarns and raised pile ignite easily); the filling material (avoid untreated synthetic foam); and a flame-retardant finish or fire-resistance label."
+    },
+    {
+      "term": "Two effects of Proban on a fabric",
+      "definition": "It reduces the risk of ignition, and it makes the fabric self-extinguish when removed from a flame."
+    },
+    {
+      "term": "Two drawbacks of Proban",
+      "definition": "It may cause an allergic reaction, and the treated fabric may need special care during cleaning."
+    },
+    {
+      "term": "Four textile uses of a flame-retardant finish",
+      "definition": "Children's nightwear, protective workwear, upholstered furniture and military clothing."
+    },
+    {
+      "term": "Meaning of a label stating resistance to cigarette and match ignition",
+      "definition": "The materials meet the requirements for resisting ignition from a lit cigarette and from a match."
+    },
+    {
+      "term": "Legislation for domestic upholstered furniture fire safety from July 2026",
+      "definition": "The EU General Product Safety Regulation, Regulation (EU) 2023/988."
+    },
+    {
+      "term": "Four desirable properties of fabric for upholstered furniture",
+      "definition": "Durable, comfortable, resilient and stain resistant."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one fire-retardant finish used on household textiles and describe one effect it has on a fabric.",
+      "model": "Proban (or Pyrovatex). Effect: it reduces the flammability of the fabric, lowering the risk of ignition; or it makes the fabric self-extinguish when removed from a flame; or it can cause an allergic reaction in some people, and treated fabric may need special care when cleaned."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain how the choice of fabric, filling and fire-retardant treatment for an upholstered sofa can reduce fire risk in the home.",
+      "model": "Fabric construction: a smooth, tightly woven fabric is safer than a loosely spun yarn or a fabric with a raised pile, which ignite more easily. Fibre content: a fabric made from one fibre type burns less quickly than a blend of man-made and natural fibres. Filling: untreated synthetic foam releases gases that can ignite and give off toxic fumes, so a combustion-modified high-resilience foam is safer. Treatment: a flame-retardant finish such as Proban reduces ignition risk and makes the fabric self-extinguish when removed from a flame, although the finish may cause an allergic reaction or need careful cleaning. Labelling: a label showing resistance to cigarette and match ignition confirms the fabric and filling have been tested. From July 2026, the fire safety requirements for domestic upholstered furniture are those of the EU General Product Safety Regulation, Regulation (EU) 2023/988."
+    }
+  ]
+}

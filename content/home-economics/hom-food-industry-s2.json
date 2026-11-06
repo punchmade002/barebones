@@ -1,0 +1,123 @@
+{
+  "loId": "hom-food-industry-s2",
+  "chapterId": "hom-food-industry",
+  "subsection": "2. Small businesses and home enterprises",
+  "syllabusRef": "1.3.1",
+  "notes": [
+    {
+      "h": "Defining small food businesses",
+      "b": "Small food businesses produce in small quantities for local or niche markets. A home enterprise is a small food business started and run from a domestic kitchen or a small unit near the home.",
+      "points": [
+        "An artisan producer makes food by traditional or hand methods, such as hand-baked bread, farmhouse cheese or chutneys.",
+        "Speciality foods are produced in small quantities for a particular market, such as organic, gluten-free, vegan or diabetic foods.",
+        "Small producers often sell through farmers' markets, food fairs, local shops and direct to customers.",
+        "Many small producers start from a home kitchen and move to a dedicated unit as demand and production grow."
+      ]
+    },
+    {
+      "h": "Role of small producers in the food industry",
+      "points": [
+        "They create employment, often in rural areas where other jobs are limited.",
+        "They diversify the industry by making products that large manufacturers do not produce.",
+        "They enter old and new niche markets, meeting demand for local, traditional or special-diet foods.",
+        "They use locally produced ingredients, which supports local farmers and suppliers.",
+        "They promote quality and innovation, and strengthen Ireland's reputation for high-quality food and drink.",
+        "They build a skilled workforce, because staff in small firms often handle every stage of production."
+      ]
+    },
+    {
+      "h": "Features that attract consumers to speciality foods",
+      "points": [
+        "Greater product variety, with flavours and recipes that large manufacturers do not offer.",
+        "Little or no use of additives, which appeals to consumers who prefer natural foods.",
+        "Hand-made production with close attention to each batch, giving a natural and traditional image.",
+        "Traceable origin: ingredients can often be traced to a named local farm or producer.",
+        "Labels that give the product name, ingredients, allergens and the producer's details, as food labelling law requires."
+      ]
+    },
+    {
+      "h": "Growth of small Irish producers",
+      "points": [
+        "Rising consumer demand for local, speciality and traditional foods has encouraged new small producers to start.",
+        "Farmers' markets and food festivals give small producers a direct route to customers without a large distributor.",
+        "Local Enterprise Offices provide training, business courses and start-up advice to small food businesses.",
+        "Bord Bia and Enterprise Ireland give food companies, including smaller firms, market development and export advice.",
+        "Many small producers begin with local markets and move into shops or supermarkets as production grows."
+      ]
+    },
+    {
+      "h": "Food safety and regulation for small businesses",
+      "points": [
+        "A food business must register with the official agency that supervises it, for most businesses the HSE Environmental Health Service, which inspects the premises for food safety and hygiene.",
+        "Under EU food hygiene law, a food business must operate a food safety management system based on HACCP principles.",
+        "HACCP identifies the points in production where food safety hazards could occur and sets controls for each one.",
+        "Small producers must meet the same food safety and labelling standards as large companies, with no exemption for size.",
+        "The Food Safety Authority of Ireland (FSAI) provides guidance and food safety training to small food businesses."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Artisan producer",
+      "definition": "A small producer who makes food by traditional or hand methods rather than in mass production."
+    },
+    {
+      "term": "Speciality food",
+      "definition": "A food made in small quantities for a particular market, such as organic, gluten-free or vegan consumers."
+    },
+    {
+      "term": "Home enterprise",
+      "definition": "A small food business started and run from a domestic kitchen or a small unit near the home."
+    },
+    {
+      "term": "Niche market",
+      "definition": "A small, specific group of consumers with particular needs or preferences that a producer targets."
+    },
+    {
+      "term": "Farmers' market",
+      "definition": "A local market where producers sell their own products directly to customers."
+    },
+    {
+      "term": "Provenance",
+      "definition": "The place of origin of a food and the producer or farm it came from."
+    },
+    {
+      "term": "Food safety management system",
+      "definition": "A documented set of procedures a food business uses to identify and control food safety hazards."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four roles of small food producers",
+      "definition": "Creating employment, often in rural areas; diversifying the industry with new products; entering niche markets; using locally produced ingredients."
+    },
+    {
+      "term": "Three features that make speciality foods attractive to consumers",
+      "definition": "Little or no additives; hand-made production; a traceable local or named origin."
+    },
+    {
+      "term": "Three special diets catered for by speciality foods",
+      "definition": "Coeliac (gluten-free), vegan and diabetic diets."
+    },
+    {
+      "term": "Two forms of support from Local Enterprise Offices",
+      "definition": "Training and business courses; start-up and development advice."
+    },
+    {
+      "term": "Three obligations for a new small food business",
+      "definition": "Register with the HSE Environmental Health Service; operate a food safety management system based on HACCP; meet food labelling and hygiene standards."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain two ways in which small food producers contribute to the Irish food industry.",
+      "model": "Any two, each explained: employment, often in rural areas, and skilled staff; diversifying the market with artisan or speciality products; using locally produced ingredients that support local farmers and suppliers; meeting niche consumer demand for quality, additive-free or special-diet foods. One mark for each point named and one for each explanation."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the role of small businesses and home enterprises within the Irish food industry, referring to speciality foods, the consumer demand behind them and the food safety rules they must follow.",
+      "model": "Role: create employment, often in rural areas, and build a skilled workforce; diversify the industry and enter old and new niche markets; use local ingredients; promote quality and innovation and strengthen Ireland's reputation for high-quality food and drink. Speciality foods: artisan or hand-made products made in small quantities; little or no additives; variety not offered by large manufacturers; traceable origin; catering for coeliac, vegan and diabetic diets. Demand: consumers seeking local, natural and traditional foods; farmers' markets and food festivals as routes to market; support from Local Enterprise Offices, Bord Bia and Enterprise Ireland. Regulation: registration with the HSE Environmental Health Service, inspection, a HACCP-based food safety management system, the same labelling and hygiene standards as large firms, and FSAI guidance."
+    }
+  ]
+}

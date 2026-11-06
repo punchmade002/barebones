@@ -1,0 +1,168 @@
+{
+  "loId": "hom-appliances-equipment-s5",
+  "chapterId": "hom-appliances-equipment",
+  "subsection": "5. A refrigeration appliance",
+  "syllabusRef": "2.1.5",
+  "notes": [
+    {
+      "h": "Types of refrigeration appliance",
+      "points": [
+        "Under-counter fridge: a low unit that fits beneath a worktop and usually has no separate freezer compartment.",
+        "Larder fridge: a single-door unit for chilled food, without a freezer compartment.",
+        "Fridge-freezer: a combined unit with separate fridge and freezer compartments, each with its own door.",
+        "American fridge: a tall, wide unit with side-by-side doors, often with an ice and water dispenser in the door.",
+        "Integrated model: built into kitchen units, with a door panel that matches the cabinet doors."
+      ]
+    },
+    {
+      "h": "Parts of a refrigerator and their functions",
+      "points": [
+        "Compressor: a motor-driven pump at the base that compresses the gaseous refrigerant, raising its pressure and temperature.",
+        "Condenser: a coil, usually at the back or underneath, where the hot gaseous refrigerant gives off heat and condenses into a liquid.",
+        "Expansion valve or capillary tube: a narrow restriction that lowers the pressure of the liquid refrigerant before it enters the evaporator.",
+        "Evaporator: a coil inside the cabinet where the liquid refrigerant evaporates, absorbing heat from the food compartment.",
+        "Refrigerant: a fluid that evaporates at a low temperature, so it takes in heat as it changes from liquid to gas.",
+        "Thermostat: senses the cabinet temperature and switches the motor on and off to hold the cabinet at about 5°C or below.",
+        "Diagram: a closed loop of compressor, condenser, expansion valve and evaporator, labelled with the state and pressure of the refrigerant at each point."
+      ]
+    },
+    {
+      "h": "Refrigeration cycle",
+      "points": [
+        "1. The compressor draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas.",
+        "2. The hot gas flows to the condenser, where it releases heat to the kitchen air and condenses into a liquid.",
+        "3. The liquid passes through the expansion valve, where its pressure falls and some of it begins to vaporise.",
+        "4. In the evaporator the refrigerant boils at a low temperature, drawing heat from the cabinet, and becomes a low-pressure gas that returns to the compressor."
+      ]
+    },
+    {
+      "h": "Refrigeration physics (Higher Level only)",
+      "b": "A refrigerator moves heat from a cold space to a warmer room, which needs work from the compressor and so a continuous supply of electrical energy.",
+      "points": [
+        "The boiling point of a liquid falls as the pressure on it falls; the expansion valve lowers the pressure so the refrigerant boils at a low temperature in the evaporator.",
+        "Latent heat of vaporisation: the refrigerant absorbs a large amount of heat from the cabinet as it evaporates, without a rise in its own temperature.",
+        "Compression raises the pressure and temperature of the gas, and the condenser releases the latent heat as the gas changes back to a liquid.",
+        "Heat flows from the warm cabinet air to the cold refrigerant through the walls of the evaporator by conduction.",
+        "Heat is pumped against its natural direction of flow, from cold to hot, so the compressor must do work on the refrigerant."
+      ]
+    },
+    {
+      "h": "Guidelines for use",
+      "points": [
+        "Install the refrigerator on a level surface, away from cookers, radiators and direct sunlight, and leave space behind it so air can circulate around the condenser.",
+        "Cool hot food before placing it in the refrigerator, since hot food raises the cabinet temperature and makes the motor work harder.",
+        "Cover food to prevent it drying out and to stop strong flavours passing between foods.",
+        "Store raw meat and fish on the lowest shelf, below cooked food and dairy, so that drips cannot contaminate food stored beneath.",
+        "Keep the cabinet at 5°C or below; this keeps food outside the danger zone of 5°C to 63°C, in which bacteria multiply quickly.",
+        "Avoid opening the door unnecessarily, since each opening lets in warm air and makes the motor run for longer.",
+        "Do not overpack the cabinet, because air must circulate around food for even cooling.",
+        "Use food in rotation, first in and first out, so that items are eaten before their use-by or best-before date.",
+        "Thaw frozen food in the refrigerator rather than at room temperature, so the food stays cold while it thaws.",
+        "Clean the inside with warm water and bicarbonate of soda, avoid strong-smelling cleaners, and check the door seal regularly, since a damaged seal lets warm air in."
+      ]
+    },
+    {
+      "h": "Modern features",
+      "points": [
+        "Automatic (frost-free) defrosting uses a timed heater or fan to melt or remove frost from the evaporator, and the water drains away.",
+        "Zoned refrigeration gives separate areas at different temperatures, such as a chill zone for meat and fish.",
+        "Humidity-controlled drawers keep fruit and vegetables fresh by controlling the moisture in the drawer.",
+        "Gated shelves hold tall bottles securely, and flexible shelving adjusts to items of different heights.",
+        "A digital display shows the cabinet temperature and allows it to be adjusted.",
+        "A quick-chill or power-chill setting cools newly added food rapidly, reducing the rise in temperature of the other food in the cabinet.",
+        "An open-door alarm sounds if the door is left ajar.",
+        "A drinks dispenser in the door, or an internal or external ice maker, gives chilled water and ice without opening the main door.",
+        "LED lighting uses less electricity than traditional bulbs and gives off little heat into the cabinet.",
+        "Antibacterial coatings on interior surfaces reduce the build-up of bacteria, and smart refrigerators can be monitored and controlled from a phone."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Compressor",
+      "definition": "The motor-driven pump in a refrigerator that compresses the gaseous refrigerant, raising its pressure and temperature."
+    },
+    {
+      "term": "Condenser",
+      "definition": "A heat exchanger where hot gaseous refrigerant releases heat and condenses into a liquid."
+    },
+    {
+      "term": "Evaporator",
+      "definition": "A coil inside the cabinet where liquid refrigerant evaporates and absorbs heat from the food compartment."
+    },
+    {
+      "term": "Refrigerant",
+      "definition": "A fluid that evaporates at a low temperature, absorbing heat as it changes from liquid to gas."
+    },
+    {
+      "term": "Thermostat",
+      "definition": "A device that senses temperature and switches the motor on and off to hold the cabinet at a set temperature."
+    },
+    {
+      "term": "Expansion valve",
+      "definition": "A narrow restriction that reduces the pressure of the liquid refrigerant before it enters the evaporator."
+    },
+    {
+      "term": "Latent heat of vaporisation",
+      "definition": "The heat absorbed by a liquid as it changes to a gas at constant temperature."
+    },
+    {
+      "term": "Frost-free defrosting",
+      "definition": "An automatic system that removes frost from the evaporator by a timed heater or fan, so no manual defrosting is needed."
+    },
+    {
+      "term": "Zoned refrigeration",
+      "definition": "A refrigerator design with separate compartments kept at different temperatures for different foods."
+    },
+    {
+      "term": "Humidity-controlled drawer",
+      "definition": "A drawer that controls the moisture around fruit and vegetables to keep them fresh for longer."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four main parts of the refrigeration cycle",
+      "definition": "Compressor, condenser, expansion valve and evaporator."
+    },
+    {
+      "term": "Two actions of the temperature switch in a fridge",
+      "definition": "It switches the motor off when the set temperature is reached, and switches it on again when the cabinet warms."
+    },
+    {
+      "term": "Three rules for storing raw meat in a fridge",
+      "definition": "Store it on the lowest shelf, below cooked food and dairy, and in covered containers."
+    },
+    {
+      "term": "Three things that make a fridge motor work harder",
+      "definition": "Opening the door often, overpacking the cabinet, and placing hot food inside."
+    },
+    {
+      "term": "Two modern features that help keep food fresh",
+      "definition": "Humidity-controlled drawers, and zoned refrigeration with a chill compartment for meat and fish."
+    },
+    {
+      "term": "Cabinet temperature and the danger zone",
+      "definition": "Keep the fridge cabinet at 5°C or below; bacteria multiply quickly between 5°C and 63°C."
+    },
+    {
+      "term": "Two reasons to defrost a freezer regularly",
+      "definition": "Ice insulates the evaporator and reduces cooling efficiency, and thick ice takes up storage space and increases energy use."
+    },
+    {
+      "term": "Four types of refrigeration appliance",
+      "definition": "Under-counter fridge, larder fridge, fridge-freezer and American fridge."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe what happens to the refrigerant in the condenser and in the evaporator of a refrigerator.",
+      "model": "Condenser: the hot gaseous refrigerant arriving from the compressor gives off heat to the surrounding air and changes into a liquid. Evaporator: the liquid refrigerant passes through a low-pressure region, boils at a low temperature and changes back into a gas, absorbing heat from the food compartment and so cooling the cabinet."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe the working principle of a refrigerator you have studied, explaining the role of its main parts, and give guidelines for using it safely and efficiently.",
+      "model": "Working principle: the compressor draws in low-pressure gas and compresses it to a hot, high-pressure gas. The condenser releases heat and the gas condenses to a liquid. The expansion valve lowers the pressure of the liquid, and in the evaporator the refrigerant boils at a low temperature, absorbing latent heat from the cabinet and cooling it. The gas returns to the compressor and the cycle repeats. Parts: the thermostat switches the motor on and off to hold the cabinet at 5 degrees C or below. Guidelines: install on a level surface with air space around the condenser; cool food before storing it; cover food; store raw meat and fish on the lowest shelf; keep the cabinet at 5 degrees C or below; avoid unnecessary door opening and overpacking; use food in rotation; thaw food in the fridge; clean with warm water and bicarbonate of soda and check the door seal; defrost regularly so that frost does not insulate the evaporator."
+    }
+  ]
+}

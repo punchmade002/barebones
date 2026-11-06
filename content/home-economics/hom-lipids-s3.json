@@ -1,0 +1,122 @@
+{
+  "loId": "hom-lipids-s3",
+  "chapterId": "hom-lipids",
+  "subsection": "3. Sources",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Animal sources of lipids",
+      "points": [
+        "Meat fat, such as the fat on bacon, the fat trimmed from beef and the fat in sausages, is a major source of lipid in meat products.",
+        "Butter, cream, whole milk and cheese supply fat together with the fat-soluble vitamin A.",
+        "Egg yolk contains fat and lecithin; the egg white contains no fat.",
+        "Lard is rendered pig fat used in pastry and frying.",
+        "Suet is the hard fat from around the kidneys and loins of cattle and sheep, used in suet pastry and puddings.",
+        "Dripping is the fat that collects from roasted meat, used for frying and roasting."
+      ]
+    },
+    {
+      "h": "Vegetable sources of lipids",
+      "points": [
+        "Olive oil and olives are vegetable sources of lipid.",
+        "Avocados are a fruit that supplies lipid.",
+        "Sunflower, corn, soya and sesame oils are common vegetable oils.",
+        "Nuts such as almonds, hazelnuts and walnuts are a concentrated source of lipid.",
+        "Wheat germ and oats contain small amounts of lipid, with wheat germ being the embryo of the wheat grain.",
+        "Margarine and vegetable spreads are made from processed plant oils."
+      ]
+    },
+    {
+      "h": "Marine sources of lipids",
+      "points": [
+        "Oily fish such as mackerel, herring, sardines, salmon and trout are a marine source of omega-3 fatty acids.",
+        "Fish-liver oils, such as cod-liver oil, provide polyunsaturated fat along with the fat-soluble vitamins A and D.",
+        "Shellfish, such as prawns and mussels, contain only small amounts of lipid."
+      ]
+    },
+    {
+      "h": "Distribution of saturated, monounsaturated and polyunsaturated fat in food (Higher Level only)",
+      "points": [
+        "Animal fats such as butter, lard and dripping are mostly saturated.",
+        "Coconut oil and palm oil are high in saturated fat despite coming from plants.",
+        "Olive oil, avocado and rapeseed (canola) oil are mostly monounsaturated.",
+        "Sunflower, corn and soya oils are mostly polyunsaturated.",
+        "Oily fish is high in polyunsaturated fat, including omega-3.",
+        "Most foods contain all three fatty acid types, so butter, for example, contains a substantial share of monounsaturated fat as well as saturated fat."
+      ]
+    },
+    {
+      "h": "Activity: poster of lipid sources",
+      "points": [
+        "Group the sources into three columns headed animal, vegetable (plant) and marine.",
+        "Give one example food for each column and the type of fatty acid that predominates in it.",
+        "Add the main health message for each food, such as the role of omega-3 in oily fish or the saturated fat in butter.",
+        "Show the source of each food with a small picture or label so the groups are clear at a glance."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Lard",
+      "definition": "Rendered pig fat, used in pastry and frying."
+    },
+    {
+      "term": "Suet",
+      "definition": "The hard fat found around the kidneys and loins of cattle and sheep, used in suet pastry and puddings."
+    },
+    {
+      "term": "Dripping",
+      "definition": "Fat collected from roasted meat, used for frying and roasting."
+    },
+    {
+      "term": "Rendering",
+      "definition": "Heating animal fat tissue so that the fat melts and separates from the tissue."
+    },
+    {
+      "term": "Oily fish",
+      "definition": "Fish with a high oil content in its flesh and liver, such as mackerel, herring and sardines."
+    },
+    {
+      "term": "Fish-liver oil",
+      "definition": "Oil extracted from fish livers, such as cod-liver oil, rich in polyunsaturated fat and vitamins A and D."
+    },
+    {
+      "term": "Wheat germ",
+      "definition": "The embryo of the wheat grain, which contains a small amount of lipid."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Part of an egg that contains fat",
+      "definition": "The yolk. The white contains no fat."
+    },
+    {
+      "term": "Four vegetable sources of lipids",
+      "definition": "Olives or olive oil, avocados, nuts and nut oils, and soya beans."
+    },
+    {
+      "term": "Three animal sources of high saturated fat",
+      "definition": "Butter, lard and the fat in meat such as bacon."
+    },
+    {
+      "term": "Coconut oil fat type",
+      "definition": "Predominantly saturated."
+    },
+    {
+      "term": "Part of the wheat grain that contains lipid",
+      "definition": "The germ."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one lipid-rich food from each of the three source groups, animal, vegetable and marine, and state the main type of fatty acid in each.",
+      "model": "Animal: butter, with saturated fatty acids as the main type. Vegetable: olive oil, with monounsaturated fatty acids as the main type. Marine: oily fish such as mackerel, with polyunsaturated fatty acids as the main type, including omega-3. Award one mark for each correct food and one for each correct fatty acid type, up to 6."
+    },
+    {
+      "marks": 18,
+      "prompt": "Sort a range of lipid-rich foods into animal, vegetable and marine sources, state which fatty acid type predominates in each, and explain which choices a household could make to lower its intake of saturated fat.",
+      "model": "Animal sources such as butter, lard, dripping and the fat in meat are mainly saturated. Vegetable sources such as olive oil and avocado are mainly monounsaturated; sunflower, corn and soya oils are mainly polyunsaturated. Marine sources such as oily fish are high in polyunsaturated fat, including omega-3. Coconut and palm oils come from plants but are high in saturated fat. To lower saturated fat, a household can replace butter, lard and fatty meat with vegetable oils, low-saturate spreads and oily fish, use lean cuts of meat and trim visible fat, and read labels to compare the saturated fat content of similar products."
+    }
+  ]
+}

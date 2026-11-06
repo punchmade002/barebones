@@ -1,0 +1,196 @@
+{
+  "loId": "hom-home-services-s3",
+  "chapterId": "hom-home-services",
+  "subsection": "3. Electricity",
+  "syllabusRef": "4.5.1",
+  "notes": [
+    {
+      "h": "Electrical quantities: voltage, current and wattage",
+      "b": "Electricity in the home is described by three quantities. The relationship between them lets a student calculate the current an appliance draws.",
+      "points": [
+        "Voltage (V) is the electrical pressure that pushes current around a circuit; the standard Irish domestic supply is 230 V at 50 Hz.",
+        "Current (I), measured in amperes or amps (A), is the rate of flow of electric charge through a conductor.",
+        "Wattage (W) is the rate at which an appliance uses electrical energy; 1 kilowatt (kW) equals 1000 watts.",
+        "Power relationship: wattage = voltage × current, so current = wattage ÷ voltage.",
+        "Worked example: a 2300 W kettle on a 230 V supply draws 2300 ÷ 230 = 10 A.",
+        "A higher wattage appliance uses more electricity per hour, so a 3 kW heater uses three times the energy of a 1 kW appliance running for the same time.",
+        "Appliance rating plates give the voltage and wattage, and appliances rated for 230 V must be used on the Irish supply to avoid damage.",
+        "Plugs are fitted with a fuse matched to the appliance's wattage; a plug rated at 13 A is the largest used on a standard domestic socket circuit."
+      ]
+    },
+    {
+      "h": "Electricity supply to the home",
+      "b": "Electricity is generated at a distance from the home and reaches it in stages, each changing the voltage for efficient transmission.",
+      "points": [
+        "Stage 1: generation at a power station, where a generator is turned by steam, water or wind.",
+        "Stage 2: a step-up transformer raises the voltage for transmission on the national grid, which reduces the current and so the energy lost as heat in the cables.",
+        "Stage 3: step-down substations reduce the voltage for distribution on local networks.",
+        "Stage 4: a final transformer near the home reduces the voltage to 230 V.",
+        "Stage 5: a mains service cable carries the supply into the house, through the meter cabinet and the electricity meter.",
+        "Stage 6: the consumer unit (fuse board) with its main switch and circuit breakers distributes the supply to circuits serving sockets, lighting, cookers and immersion heaters.",
+        "Diagram: flow chart of the six stages from power station to consumer unit, with a labelled transformer at each change of voltage."
+      ]
+    },
+    {
+      "h": "Kilowatt-hour, tariffs and costings",
+      "points": [
+        "A kilowatt-hour (kWh), or unit, is the energy used by a 1000-watt (1 kW) appliance running for one hour.",
+        "Energy in kWh = power in kW × time in hours; for example, a 2 kW heater running for 3 hours uses 2 × 3 = 6 kWh.",
+        "Cost of running an appliance = energy in kWh × the unit rate charged by the supplier.",
+        "A standing charge is a fixed daily charge that covers maintenance of the network, meter reading and billing, and is payable whether or not electricity is used.",
+        "The unit charge is the price for each kWh used, and appears on the bill as the number of units consumed multiplied by the rate.",
+        "A night-rate or time-of-use tariff charges less for electricity used at off-peak times, so storage heaters and immersion heaters can be run at night.",
+        "A smart meter shows real-time consumption, which helps a household see the cost of each appliance and shift use to cheaper periods.",
+        "Reading the meter: the difference between two readings taken a set period apart gives the number of units used in that period."
+      ]
+    },
+    {
+      "h": "Safety devices: fuses, MCBs, RCDs and the earth wire",
+      "points": [
+        "A fuse is a deliberate weak link: a thin wire inside the fuse melts when the current exceeds its rating, breaking the circuit and preventing fire.",
+        "A miniature circuit breaker (MCB) is a switch that trips when the current exceeds its rating or a fault occurs, and can be reset once the fault is repaired.",
+        "A residual current device (RCD) detects an imbalance between live and neutral currents, which signals current leaking to earth through a person or fault, and trips within milliseconds.",
+        "Socket circuits are commonly protected by RCDs with a sensitivity of 30 mA, which can trip before a fatal shock is delivered.",
+        "The earth wire, usually green and yellow, is a safe path for fault current to flow to earth; the surge of current blows the fuse or trips the MCB.",
+        "Appliances with double insulation have a plastic casing and no earth connection, so the appliance cannot become live through a metal part.",
+        "Each circuit has its own protective device in the consumer unit, so a fault on one circuit disconnects only that circuit."
+      ]
+    },
+    {
+      "h": "Ring circuit (Higher Level only)",
+      "b": "A ring circuit is a single circuit that supplies many sockets in a room or floor from one protective device.",
+      "points": [
+        "The live, neutral and earth conductors run from the consumer unit, out through each socket in turn, and return to the consumer unit, forming a continuous loop.",
+        "Each socket is supplied from two directions, so the cable can be smaller than a single radial cable carrying the same load to every socket.",
+        "Upstairs and downstairs ring circuits are often wired separately, so a fault on one floor does not disconnect the other.",
+        "A spur is a short branch from a socket in the ring, which can supply one additional socket or one fixed appliance.",
+        "The ring is protected by one MCB or fuse in the consumer unit, which trips if the total current on the loop exceeds its rating.",
+        "Diagram: a wiring circuit showing the consumer unit, live, neutral and earth conductors forming a loop, sockets along the loop and one spur labelled."
+      ]
+    },
+    {
+      "h": "Safe use of electricity",
+      "points": [
+        "Do not overload sockets or use multiple adaptors; each plug and socket should be used within its rating.",
+        "Check flexes and plugs regularly for damage, and never pull a plug out by its flex.",
+        "Unplug appliances before cleaning or repairing them, and never repair an appliance while it is connected to the supply.",
+        "Never handle electrical equipment with wet hands, and keep water and electricity apart in the bathroom and kitchen.",
+        "Keep flexes away from hobs, sinks and heat sources, and never cover a heater or drape clothes over it.",
+        "Use only safety-approved appliances, and do not use portable heaters in bathrooms.",
+        "Electric blankets should be checked for damage, and not left switched on under a sleeping person or folded.",
+        "Outdoor sockets and appliances need an RCD and weatherproof fittings; repairs and new circuits must be carried out by a qualified electrician.",
+        "Unplug all appliances, except a fridge or freezer, before going to bed to reduce the risk of an electrical fire."
+      ]
+    },
+    {
+      "h": "Safe use of gas in the home",
+      "points": [
+        "Natural gas and LPG are odourless without the odorant, so a gas smell is an emergency: turn off the gas supply at the meter, open doors and windows, and do not use switches, matches or other flames.",
+        "Carbon monoxide is produced when gas, oil or solid fuel burns incompletely, for example from a blocked flue or a faulty boiler; it has no smell and causes headache, dizziness and nausea.",
+        "A carbon monoxide alarm gives early warning of the gas, and should be fitted in rooms containing fuel-burning appliances.",
+        "Gas appliances need adequate ventilation for the air needed to burn the gas, and must not be blocked by furniture or closed vents.",
+        "Gas appliances should be installed by a registered installer and serviced at regular intervals so the flue and burner stay safe and efficient."
+      ]
+    },
+    {
+      "h": "Planning electrical services for one room",
+      "b": "Electrical services must match the use of the room, and the layout must keep sockets and switches safe and convenient.",
+      "points": [
+        "Lighting: plan layers of light, with ambient lighting from ceiling fittings, task lighting over work areas and accent lighting for display.",
+        "Switches should be placed at the door, within easy reach, and sockets at a safe height away from water sources.",
+        "Heating options: electric storage heaters charged on night rate, panel heaters on a thermostat, or electric underfloor heating, each controlled by a thermostat or timer.",
+        "Ventilation: a fan with a timer or humidity switch, fitted in a kitchen or bathroom, removes moisture and cooking smells from the room.",
+        "Circuits and sockets: enough sockets on the ring or a separate circuit so no extension lead is needed for regular appliances.",
+        "Safety: the fittings for a bathroom must suit its zone rating, and any new work must be certified by a qualified electrician."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Voltage",
+      "definition": "The electrical pressure that pushes current around a circuit, measured in volts (V)."
+    },
+    {
+      "term": "Current",
+      "definition": "The rate of flow of electric charge through a conductor, measured in amperes (A)."
+    },
+    {
+      "term": "Wattage",
+      "definition": "The rate at which an appliance uses electrical energy, measured in watts (W)."
+    },
+    {
+      "term": "Kilowatt-hour",
+      "definition": "The energy used by a 1000-watt appliance running for one hour, which is the unit used on electricity bills."
+    },
+    {
+      "term": "Standing charge",
+      "definition": "A fixed daily charge on an electricity bill that covers network maintenance, meter reading and billing."
+    },
+    {
+      "term": "Ring circuit",
+      "definition": "A circuit that runs from the consumer unit through each socket and back to the consumer unit, forming a loop."
+    },
+    {
+      "term": "Consumer unit",
+      "definition": "The board that receives the mains supply and distributes it to the household circuits through protective devices."
+    },
+    {
+      "term": "Miniature circuit breaker",
+      "definition": "A switch in the consumer unit that trips to cut off current when a fault or overload occurs and can be reset."
+    },
+    {
+      "term": "Residual current device",
+      "definition": "A device that trips and cuts off the supply when it detects current leaking to earth, protecting people from electric shock."
+    },
+    {
+      "term": "Earth wire",
+      "definition": "A conductor that provides a safe path for fault current to flow to earth, so that a protective device trips."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Standard Irish domestic voltage",
+      "definition": "230 V at 50 Hz."
+    },
+    {
+      "term": "Three quantities measured in an electrical circuit",
+      "definition": "Voltage in volts (electrical pressure); current in amps (rate of flow of charge); power in watts (rate of energy use)."
+    },
+    {
+      "term": "Two components of an electricity bill",
+      "definition": "A standing charge, which is fixed, and a unit charge, which is paid for each kWh used."
+    },
+    {
+      "term": "Energy used by a 2 kW heater running for 3 hours",
+      "definition": "6 kWh, since 2 kW × 3 hours = 6 kWh."
+    },
+    {
+      "term": "Three devices that protect against electrical faults",
+      "definition": "A fuse, which melts when the current is too high; an MCB, which trips and can be reset; an RCD, which trips when current leaks to earth."
+    },
+    {
+      "term": "Function of the earth wire",
+      "definition": "It carries fault current safely to earth, causing the fuse or MCB to trip and preventing electric shock."
+    },
+    {
+      "term": "Symptoms of carbon monoxide poisoning",
+      "definition": "Headache, dizziness and nausea, which can be mistaken for flu; a carbon monoxide alarm gives early warning."
+    },
+    {
+      "term": "Three immediate actions if a gas smell is detected",
+      "definition": "Turn off the gas supply at the meter; open doors and windows; avoid switches, matches and other flames, and contact the emergency gas service."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the function of a fuse, a miniature circuit breaker and a residual current device in a household circuit.",
+      "model": "Fuse: a thin wire that melts when the current exceeds the rating, breaking the circuit to prevent fire. Miniature circuit breaker: a switch that trips to cut off the current on overload or fault and can be reset once the fault is repaired. Residual current device: detects current leaking to earth and trips within milliseconds, protecting people from electric shock. Full marks need the function of each device, stated correctly and distinguished from the others."
+    },
+    {
+      "marks": 18,
+      "prompt": "Describe how electricity is supplied to a home, and explain how a ring circuit and the consumer unit protect the household from electrical faults.",
+      "model": "Supply: electricity is generated at a power station, stepped up by a transformer for transmission on the national grid, stepped down at substations for distribution, stepped down again near the home to 230 V, then carried by the mains service cable through the meter cabinet and meter to the consumer unit. Consumer unit: receives the supply and distributes it to circuits through fuses or MCBs, with RCDs for additional protection. Ring circuit: live, neutral and earth conductors run from the consumer unit through each socket and back to it, forming a loop; each socket is fed from two directions, and the circuit is protected by one device in the consumer unit. Earth wire: carries fault current away to earth so that the protective device trips. Full marks need the stages of supply in order, the role of the consumer unit, a correct description of the ring circuit's loop and protection, and the role of the earth wire."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "loId": "hom-family-society-s1",
+  "chapterId": "hom-family-society",
+  "subsection": "1. Defining the family",
+  "syllabusRef": "3.1.2",
+  "notes": [
+    {
+      "h": "Defining the family",
+      "b": "A family is a group of people linked by kinship, meaning ties of blood, marriage or adoption.",
+      "points": [
+        "Traditional definition: a group related by blood, marriage or adoption, usually living together and sharing responsibility for its members.",
+        "George Peter Murdock (1949) defined the family as a social group with common residence, economic co-operation and reproduction.",
+        "Article 41 of the Constitution of Ireland describes the family as the natural, primary and fundamental unit group of society.",
+        "A family can span more than one household, for example when grandparents living elsewhere remain part of the family group.",
+        "Legal definitions focus on marriage, blood and adoption ties; sociological definitions focus on the relationships and functions of the group."
+      ]
+    },
+    {
+      "h": "Universality of the family",
+      "b": "Universality means the family exists in every known human society, although its form differs from one society to another.",
+      "points": [
+        "Every known society has a family group that raises children and organises kinship relationships.",
+        "The structure of the family varies: nuclear, extended, polygamous and matrilineal forms are all found in different cultures.",
+        "The structure of a family is shaped by economic, religious and political conditions, so one family type is not found everywhere.",
+        "The functions of the family, such as raising children and caring for dependants, appear in all societies even where the structure differs."
+      ]
+    },
+    {
+      "h": "Forms of marriage, descent and residence (assumed knowledge)",
+      "points": [
+        "Monogamy is marriage to one partner at a time; serial monogamy is a series of marriages, one after another.",
+        "Polygamy is marriage to more than one spouse at a time; polygyny is one husband with several wives, and polyandry is one wife with several husbands.",
+        "Patrilineal descent traces family and inheritance through the father's line; matrilineal descent traces them through the mother's line.",
+        "Patrilocal residence means a couple lives with or near the husband's family; matrilocal residence means they live with or near the wife's family.",
+        "Consanguineal relatives are related by blood; affinal relatives are related by marriage."
+      ]
+    },
+    {
+      "h": "Families in other societies (case studies)",
+      "points": [
+        "The Minangkabau of West Sumatra, Indonesia, are a matrilineal society in which property is passed through the female line.",
+        "Kibbutzim in Israel historically raised children in communal children's houses, showing that some family functions can be carried out outside the household.",
+        "Comparing cases shows which features are universal, such as kinship and child rearing, and which vary, such as residence, descent and household size."
+      ]
+    },
+    {
+      "h": "Comparing definitions (settings)",
+      "points": [
+        "A definition based only on marriage excludes cohabiting couples with children, so sociologists usually include the parent-child relationship.",
+        "A definition based only on shared residence excludes family members who live apart, such as a parent working abroad.",
+        "Criteria used in most definitions: blood or adoptive ties, marriage or a committed partnership, shared residence, shared economic life and raising children."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Family",
+      "definition": "A group of people related by blood, marriage or adoption who usually share responsibility for one another."
+    },
+    {
+      "term": "Kinship",
+      "definition": "The network of relationships through blood, marriage or common ancestry."
+    },
+    {
+      "term": "Universality of the family",
+      "definition": "The fact that the family exists in every known human society, although its form varies."
+    },
+    {
+      "term": "Monogamy",
+      "definition": "Marriage to one partner at a time."
+    },
+    {
+      "term": "Polygamy",
+      "definition": "Marriage to more than one spouse at the same time."
+    },
+    {
+      "term": "Polygyny",
+      "definition": "A form of polygamy in which one husband has several wives."
+    },
+    {
+      "term": "Polyandry",
+      "definition": "A form of polygamy in which one wife has several husbands."
+    },
+    {
+      "term": "Patrilineal descent",
+      "definition": "Tracing family line and inheritance through the father."
+    },
+    {
+      "term": "Matrilineal descent",
+      "definition": "Tracing family line and inheritance through the mother."
+    },
+    {
+      "term": "Matrilocal residence",
+      "definition": "A couple living with or near the wife's family after marriage."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Murdock's 1949 definition: three features of the family",
+      "definition": "Common residence, economic co-operation and reproduction."
+    },
+    {
+      "term": "How Article 41 of the Irish Constitution describes the family",
+      "definition": "The natural, primary and fundamental unit group of society."
+    },
+    {
+      "term": "Two classes of relatives by type of tie",
+      "definition": "Consanguineal relatives are related by blood; affinal relatives are related by marriage."
+    },
+    {
+      "term": "Three ways in which a definition of the family may be based",
+      "definition": "On blood, marriage and adoption; on shared residence; on shared economic life and child rearing."
+    },
+    {
+      "term": "Region where the Minangkabau are matrilineal",
+      "definition": "West Sumatra, Indonesia."
+    },
+    {
+      "term": "Serial monogamy",
+      "definition": "A series of marriages, one after another, with only one spouse at a time."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which the family may be defined.",
+      "model": "Two definitions, each with explanation. Traditional definition: a group related by blood, marriage or adoption who usually share responsibility for one another. Sociological definition: a social group with common residence, economic co-operation and reproduction (Murdock). Alternatively, the Article 41 description of the family as the natural, primary and fundamental unit group of society, with the reason it is described that way."
+    },
+    {
+      "marks": 24,
+      "prompt": "Examine how the family is found in all known societies while its structure varies from one culture to another, giving examples.",
+      "model": "Universality: every known society has a family group that raises children and organises kinship. Variation: nuclear, extended, polygamous and matrilineal forms are found in different cultures. Explanation of variation: economic, religious and political conditions shape structure, e.g. patrilineal descent where inheritance passes through the father's line, matrilocal residence where the couple lives with the wife's family. Example case: the Minangkabau of West Sumatra with matrilineal property. Conclusion of the argument: the form varies but the basic functions and kinship ties remain in every society."
+    }
+  ]
+}

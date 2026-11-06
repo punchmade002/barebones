@@ -1,0 +1,128 @@
+{
+  "loId": "hom-family-society-s3",
+  "chapterId": "hom-family-society",
+  "subsection": "3. Modern family structures",
+  "syllabusRef": "3.1.3",
+  "notes": [
+    {
+      "h": "Nuclear family",
+      "b": "A nuclear family is a parent or parents with their dependent children, living together in a self-contained household.",
+      "points": [
+        "Two parents, married or cohabiting, and their dependent children form one self-contained household.",
+        "The unit is small and mobile, so members can move for work, which often separates the family from relatives.",
+        "Tasks, child rearing and decision-making are usually shared between both parents.",
+        "Children depend mainly on the parents' income and on State supports such as Child Benefit."
+      ]
+    },
+    {
+      "h": "Lone-parent family",
+      "points": [
+        "A lone-parent family is one parent living with one or more dependent children.",
+        "Causes include separation, divorce, the death of a partner, and a parent's choice to raise a child alone.",
+        "The lone parent carries the full economic, emotional and workload responsibility, often on one income.",
+        "Lone parents who work need reliable childcare, and may depend on relatives or on the One-Parent Family Payment.",
+        "Lone parenthood can be temporary, ending when the children grow up or when a new partner joins the household."
+      ]
+    },
+    {
+      "h": "Extended family",
+      "b": "An extended family includes wider relatives beyond the parents and children, and its members stay closely linked.",
+      "points": [
+        "Members include grandparents, aunts, uncles and cousins, who live in the same household or close by.",
+        "Members are interdependent, sharing childcare, housework, money and care for older relatives.",
+        "Members often work together as one economic unit, such as a family farm or family business.",
+        "Historically, roles were segregated by gender, with men and women carrying out separate tasks.",
+        "Extended families are common in many cultures, where grandparents often provide much of the childcare."
+      ]
+    },
+    {
+      "h": "Blended family",
+      "b": "A blended family forms when one or both partners bring children from an earlier relationship into a new union.",
+      "points": [
+        "Blended families arise through remarriage or cohabitation, and sometimes after the death of a spouse.",
+        "Step-parents, step-siblings and half-siblings may all live in the household, creating new relationships.",
+        "The adults must agree on rules and discipline, which can be difficult when children have different expectations.",
+        "Parents may have financial obligations to children from an earlier relationship as well as to children of the new union.",
+        "A joint child of the new partners creates a sibling group that differs in age and background from the earlier children."
+      ]
+    },
+    {
+      "h": "Comparing Irish families with European families (settings)",
+      "points": [
+        "Structure: compare the proportions of nuclear, lone-parent, extended and blended households, using the most recent published statistics.",
+        "Size: compare the number of children per family and how family size has changed since the mid-twentieth century.",
+        "Roles: Nordic countries provide State-funded parental leave and childcare, which supports shared parenting.",
+        "Roles: in many southern European countries grandparents often provide much of the childcare, and adult children may remain at home longer.",
+        "State support: compare how far each country relies on the State and on the extended family to support parents."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Nuclear family",
+      "definition": "A family of two parents and their dependent children living together in a self-contained household."
+    },
+    {
+      "term": "Lone-parent family",
+      "definition": "A family in which one parent lives with one or more dependent children."
+    },
+    {
+      "term": "Extended family",
+      "definition": "A family that includes parents, children and wider relatives such as grandparents, aunts, uncles and cousins."
+    },
+    {
+      "term": "Blended family",
+      "definition": "A family formed when one or both partners bring children from an earlier relationship into a new union."
+    },
+    {
+      "term": "Dependent child",
+      "definition": "A child who relies on parents or guardians for financial support and care."
+    },
+    {
+      "term": "Step-parent",
+      "definition": "A partner of a parent who is not the child's biological or adoptive parent."
+    },
+    {
+      "term": "Household",
+      "definition": "People who live together under one roof and share living arrangements, which may differ from the family they belong to."
+    },
+    {
+      "term": "Cohabitation",
+      "definition": "Two unmarried adults living together as a couple."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three ways a single parent can end up raising children alone",
+      "definition": "Separation or divorce; the death of a partner; a parent's choice to raise a child alone."
+    },
+    {
+      "term": "Wider relatives counted in a multi-generation group",
+      "definition": "Grandparents, aunts, uncles and cousins."
+    },
+    {
+      "term": "Two features of a small two-parent household",
+      "definition": "A self-contained household; a small and mobile unit."
+    },
+    {
+      "term": "Two routes by which a new partnership brings children together",
+      "definition": "Through remarriage or cohabitation; sometimes after the death of a spouse."
+    },
+    {
+      "term": "Two ways European family roles differ from Irish family roles",
+      "definition": "Nordic States fund parental leave and childcare; southern European grandparents often provide childcare."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify and describe two modern family structures.",
+      "model": "Two structures, each identified and described. Lone-parent family: one parent living with one or more dependent children, arising through separation, bereavement or choice. Blended family: partners with children from earlier relationships, arising through remarriage or cohabitation, with step-relationships and rules to agree. Accept any two of nuclear, extended, lone-parent or blended, with accurate descriptions."
+    },
+    {
+      "marks": 24,
+      "prompt": "Compare the characteristics of lone-parent families and extended families, and explain the challenges each type of family may face.",
+      "model": "Lone-parent family: one parent and dependent children; one income; full economic, emotional and workload responsibility; reliance on childcare and on relatives or State supports such as the One-Parent Family Payment. Challenges include financial pressure, role overload and limited time. Extended family: parents, children and wider relatives living together or nearby; interdependence; shared childcare, housework and money; often one economic unit. Challenges include segregated roles, dependence on the older generation, and conflict over authority and living space. Comparison: the lone-parent family has one adult to share responsibilities, while the extended family has several adults but may have shared expectations to manage."
+    }
+  ]
+}

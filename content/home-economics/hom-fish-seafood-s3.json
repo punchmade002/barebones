@@ -1,0 +1,133 @@
+{
+  "loId": "hom-fish-seafood-s3",
+  "chapterId": "hom-fish-seafood",
+  "subsection": "3. Preparation and cooking",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Preparing fish for cooking",
+      "points": [
+        "Whole round fish is scaled, gutted and washed before cooking; the head and fins may be removed.",
+        "Fillets are cut away from the bones; leaving the skin on helps a delicate fillet hold its shape during cooking.",
+        "Mussels are scrubbed and the beards removed, and any mussel that stays open when tapped is discarded."
+      ]
+    },
+    {
+      "h": "Effects of cooking on fish",
+      "b": "Fish needs less cooking than meat, and the effects of heat are fast and easy to overdo.",
+      "points": [
+        "Coagulation: the protein in the flesh sets, so raw translucent flesh turns opaque and firm.",
+        "Flaking: heat breaks down the connective tissue between the muscle segments, so the flesh separates into flakes.",
+        "Overcooking toughens the protein and dries out the flesh, because the moisture is squeezed out.",
+        "Heat destroys bacteria and parasites, so cooked fish is safe to eat when cooked through.",
+        "Heat changes the protein so that it is easier to digest, and flavour develops during cooking.",
+        "Some B vitamins and minerals are lost into the cooking liquid; the liquid can be used in a sauce to keep them."
+      ]
+    },
+    {
+      "h": "Heat transfer in cooking",
+      "b": "Every cooking method transfers heat in one of the ways below, and each method suits fish differently.",
+      "points": [
+        "Conduction: heat passes from molecule to molecule through a solid or a liquid in contact with the food, e.g. the pan in shallow frying.",
+        "Convection: heat is carried through circulating liquid, steam or hot air, in which hot material rises and cooler material falls, e.g. poaching, steaming and oven baking.",
+        "Radiation: infrared heat travels in straight lines from the heat source to the surface of the food, e.g. grilling and barbecuing.",
+        "Microwave: electromagnetic waves make the water molecules in food vibrate, producing heat inside the food."
+      ]
+    },
+    {
+      "h": "Moist cooking methods",
+      "points": [
+        "Poaching: fish is cooked gently in liquid just below simmering point, around 85 °C, on the hob or in a covered casserole in the oven.",
+        "Poaching principle: convection and conduction heat the liquid gently, which cooks the fish without breaking up the delicate flesh.",
+        "Steaming: food is cooked by steam rising from boiling water, either between two plates over a saucepan, in a covered bowl standing in boiling water, or in a steamer.",
+        "Stewing or casserole cooking: food is cooked slowly in liquid in a covered container on the hob or in the oven, using convection and conduction.",
+        "Poached fish is easy to digest and keeps its moisture, but it may lack flavour, so it is usually served with a sauce."
+      ]
+    },
+    {
+      "h": "Dry cooking methods",
+      "points": [
+        "Grilling: food is cooked by radiant heat under the grill; the heat seals the surface, retaining flavour, moisture and nutrients.",
+        "Grilled fish is quick to cook, but it is easily overcooked and dries out if left unwatched.",
+        "Barbecuing: food is cooked by radiant heat on a grid over burning charcoal or gas flames.",
+        "Baking: food is cooked by dry heat from the oven, transferred by convection.",
+        "Roasting: food is cooked in a little fat in a roasting tin in the oven.",
+        "Shallow frying: food is cooked in hot fat in a pan on the hob, with heat transferred by conduction through the fat.",
+        "Deep frying: food is immersed in hot fat in a deep fat fryer, so that a coating such as batter or breadcrumbs crisps and seals the fish.",
+        "Stir-frying: small pieces are cooked quickly in a wok in a small amount of oil."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Coagulation",
+      "definition": "The setting of fish protein when heated, so that the flesh turns opaque and firms."
+    },
+    {
+      "term": "Conduction",
+      "definition": "The transfer of heat from molecule to molecule through a solid or a liquid in contact with the food."
+    },
+    {
+      "term": "Convection",
+      "definition": "The transfer of heat through circulating liquid, steam or hot air, in which hot material rises and cooler material falls."
+    },
+    {
+      "term": "Radiation",
+      "definition": "The transfer of heat by infrared rays travelling in straight lines from a heat source to the food."
+    },
+    {
+      "term": "Poaching",
+      "definition": "A moist method of cooking food gently in liquid kept just below simmering point."
+    },
+    {
+      "term": "Steaming",
+      "definition": "A moist method of cooking food in steam rising from boiling water."
+    },
+    {
+      "term": "Grilling",
+      "definition": "A dry method of cooking food by radiant heat from a grill, which seals the surface of the food."
+    },
+    {
+      "term": "Microwave cooking",
+      "definition": "Cooking food quickly by electromagnetic waves that make the water molecules in it vibrate and generate heat."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three effects of cooking on fish protein",
+      "definition": "The protein sets and turns opaque; the flesh firms and flakes; and the protein becomes easier to digest."
+    },
+    {
+      "term": "Three moist methods of cooking fish",
+      "definition": "Poaching, steaming and stewing or casserole cooking."
+    },
+    {
+      "term": "Four dry methods of cooking fish",
+      "definition": "Grilling, barbecuing, baking and shallow frying."
+    },
+    {
+      "term": "Heat transfer used in steaming",
+      "definition": "Convection, carried by steam."
+    },
+    {
+      "term": "Two nutrients lost when fish is cooked in liquid",
+      "definition": "Some B vitamins and minerals pass into the cooking liquid, which can be used in a sauce."
+    },
+    {
+      "term": "Temperature for poaching fish",
+      "definition": "Just below simmering point, around 85 °C."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how heat changes the protein in fish during cooking, and why overcooking spoils the texture of the fish.",
+      "model": "Heat causes the protein to coagulate, so the flesh turns from translucent to opaque and firms. The connective tissue between the muscle segments breaks down, so the flesh flakes. Protein becomes easier to digest. Overcooking toughens the protein and squeezes out moisture, so the flesh becomes dry and tough."
+    },
+    {
+      "marks": 24,
+      "prompt": "Describe two dry and two moist methods of cooking fish, naming the principle of heat transfer used in each, and comment on the palatability of the cooked fish.",
+      "model": "Dry methods: grilling uses radiant heat from the grill; the heat seals the surface and retains flavour, moisture and nutrients, but the fish is easily overcooked and dried. Shallow frying uses conduction through hot fat in a pan on the hob; the fish browns and develops flavour but absorbs fat. Barbecuing uses radiant heat over charcoal or gas flames; baking uses convection in the oven. Moist methods: poaching cooks fish in liquid just below simmering point, around 85 °C, using convection and conduction; the fish stays moist and digestible but may lack flavour, so it is served with a sauce. Steaming uses convection from steam rising from boiling water, retaining moisture and nutrients. Stewing or casserole cooking uses convection and conduction in liquid in a covered container. Palatability: fish cooked by dry methods has more flavour and colour but can be dry if overcooked; fish cooked by moist methods is tender and moist but can taste bland; both are digestible when cooked through."
+    }
+  ]
+}

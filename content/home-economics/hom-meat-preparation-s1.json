@@ -1,0 +1,144 @@
+{
+  "loId": "hom-meat-preparation-s1",
+  "chapterId": "hom-meat-preparation",
+  "subsection": "1. Nutritional significance and structure of meat",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Categories of meat",
+      "points": [
+        "Red meat: beef, lamb, pork and veal.",
+        "Poultry: chicken, turkey and duck; the breast is paler than the leg because it contains less myoglobin.",
+        "Offal: edible organs such as liver, kidney and heart; liver is the richest source of several vitamins and iron among the offal."
+      ]
+    },
+    {
+      "h": "Nutritional significance of meat",
+      "b": "Meat is valued mainly for its protein, haem iron and B group vitamins, and it contributes little carbohydrate to the diet.",
+      "points": [
+        "Protein: meat is a high biological value (HBV) protein source, supplying all the essential amino acids in the proportions the body needs.",
+        "Meat supplies about 20 to 30 per cent protein by weight.",
+        "Protein supplies amino acids for growth and repair of body cells and for making enzymes, hormones and antibodies.",
+        "Fat: meat fat is mainly saturated; it supplies energy and insulation, and its amount depends on the animal, the cut and whether visible fat is removed.",
+        "Carbohydrate: meat contains no carbohydrate, so it should be served with a starchy food such as potatoes, pasta or bread.",
+        "Haem iron: red meat, poultry and offal contain haem iron, which the body absorbs more readily than non-haem iron from plant foods.",
+        "Iron is needed to make haemoglobin, which carries oxygen in the blood.",
+        "Zinc supports enzyme activity, potassium supports muscle function, and phosphorus supports bones, teeth and energy release.",
+        "B group vitamins help the body release energy from food; cobalamin (B12) is found naturally only in animal foods.",
+        "Vitamin A and vitamin D are found mainly in liver; meat contains no vitamin C.",
+        "Water makes up about 50 to 60 per cent of meat, and extractives released during cooking give meat its flavour."
+      ]
+    },
+    {
+      "h": "Dietetic value of meat",
+      "points": [
+        "Protein from meat supports growth in children and teenagers and repair of tissue in adults.",
+        "People with coronary heart disease should limit saturated fat and cholesterol, so lean cuts are chosen and visible fat is trimmed.",
+        "Haem iron is especially important for pregnant women, menstruating women, children and teenagers, to prevent iron-deficiency anaemia.",
+        "Tough or overcooked meat is harder to digest, so tender cuts cooked gently suit older people and anyone with a poor appetite.",
+        "Department of Health healthy eating guidelines advise limiting processed meats because of their salt and saturated fat content.",
+        "The Irish Food Pyramid places meat, fish, eggs and beans in one food group, with lean and unprocessed choices recommended."
+      ]
+    },
+    {
+      "h": "Structure of meat",
+      "points": [
+        "Muscle is made of bundles of long, thin fibres, each fibre being a single muscle cell, running in the direction of the pull.",
+        "Fibres are grouped into bundles, which are held together by connective tissue.",
+        "Each fibre contains myofibrils made of the proteins actin and myosin; these slide past each other to shorten the muscle.",
+        "Connective tissue holds the muscle together and attaches it to bone; it contains collagen and elastin.",
+        "Fat is found as marbling within the muscle, as a layer under the skin, and around the organs; marbling adds juiciness and flavour."
+      ]
+    },
+    {
+      "h": "Proteins in meat",
+      "points": [
+        "Myosin and actin are the contractile proteins of the myofibrils and make up most of the muscle fibre.",
+        "Myoglobin is the oxygen-carrying pigment of muscle and gives raw meat its red colour; it turns brown or grey when heated.",
+        "Globulin is a soluble protein of the muscle fluid and is lost into cooking juices.",
+        "Collagen is an insoluble protein that forms tough connective tissue; it converts to gelatine when heated slowly in moisture.",
+        "Elastin is a springy connective tissue protein in tendons and ligaments; cooking does not soften it."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Offal",
+      "definition": "The edible organs of an animal, such as liver, kidney and heart."
+    },
+    {
+      "term": "High biological value (HBV) protein",
+      "definition": "A protein that contains all the essential amino acids in the proportions the body needs."
+    },
+    {
+      "term": "Haem iron",
+      "definition": "Iron found in animal foods, absorbed by the body more readily than the non-haem iron in plant foods."
+    },
+    {
+      "term": "Myofibril",
+      "definition": "A thread-like structure within a muscle fibre, made of actin and myosin, that contracts to shorten the muscle."
+    },
+    {
+      "term": "Myosin",
+      "definition": "A thick contractile protein in myofibrils that works with actin to shorten the muscle."
+    },
+    {
+      "term": "Actin",
+      "definition": "A thin contractile protein in myofibrils that slides along myosin during muscle contraction."
+    },
+    {
+      "term": "Collagen",
+      "definition": "A tough, insoluble connective tissue protein that converts to gelatine when cooked slowly in moisture."
+    },
+    {
+      "term": "Elastin",
+      "definition": "A springy connective tissue protein found in tendons and ligaments that is not softened by cooking."
+    },
+    {
+      "term": "Myoglobin",
+      "definition": "The red, oxygen-storing pigment in muscle that gives raw meat its colour."
+    },
+    {
+      "term": "Marbling",
+      "definition": "Fat deposits lying within the muscle, which give meat juiciness and flavour."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two proteins that make up myofibrils",
+      "definition": "Actin and myosin."
+    },
+    {
+      "term": "Three types of fat found in meat",
+      "definition": "Marbling within the muscle, a layer of fat under the skin, and fat around the organs."
+    },
+    {
+      "term": "Four functions of protein in the body",
+      "definition": "Growth, repair of body cells, making enzymes and hormones, and making antibodies for immunity."
+    },
+    {
+      "term": "Three nutrients meat supplies in valuable amounts",
+      "definition": "Haem iron, cobalamin (vitamin B12) and high biological value protein."
+    },
+    {
+      "term": "Two vitamins found mainly in liver",
+      "definition": "Vitamin A and vitamin D."
+    },
+    {
+      "term": "Two connective tissue proteins",
+      "definition": "Collagen, which becomes gelatine when cooked slowly in moisture, and elastin, which cooking does not soften."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two proteins found in meat and state two functions of protein in the body.",
+      "model": "Any two proteins named, one mark each: myosin, actin, globulin, collagen, elastin or myoglobin. Two functions, one mark each: growth; repair of body cells; making enzymes; making hormones; making antibodies. Credit a function linked to the named protein, such as myosin and actin enabling muscle contraction for movement."
+    },
+    {
+      "marks": 20,
+      "prompt": "Give an account of the nutritional significance of meat in the diet, referring to protein, fat, carbohydrate, minerals and vitamins.",
+      "model": "Protein: HBV protein supplying all essential amino acids; about 20 to 30 per cent of meat; needed for growth, repair, enzymes and hormones. Fat: mainly saturated; energy and insulation; amount varies with animal, cut and cooking method; limit for coronary heart disease. Carbohydrate: none, so serve with potatoes, pasta or bread. Minerals: haem iron in red meat, poultry and offal for haemoglobin and preventing anaemia; zinc for enzyme activity; potassium for muscle function; phosphorus for bones and energy release. Vitamins: B group vitamins for releasing energy from food; B12 found only in animal foods; vitamins A and D in liver; no vitamin C. Dietetic note: needs for growing children, pregnant women and teenagers; processed meats high in salt and saturated fat."
+    }
+  ]
+}
