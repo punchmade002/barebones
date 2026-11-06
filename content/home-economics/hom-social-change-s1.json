@@ -1,0 +1,126 @@
+{
+  "loId": "hom-social-change-s1",
+  "chapterId": "hom-social-change",
+  "subsection": "1. Changes in settlement patterns from rural to urban",
+  "syllabusRef": "6.1",
+  "notes": [
+    {
+      "h": "Rural to urban movement",
+      "b": "Settlement change means a rising share of the population lives in towns and cities, while the countryside loses population.",
+      "points": [
+        "Urbanisation is the growth in the proportion of a country's population living in towns and cities.",
+        "Rural depopulation is the fall in the number of people living in the countryside, through migration to towns or abroad.",
+        "Rural depopulation is most marked where farm employment has fallen, because larger and mechanised farms need fewer workers.",
+        "Young adults are the group most likely to leave rural areas for education and first jobs, leaving older people behind in many villages.",
+        "Rural areas that lose population also lose local services such as post offices, Garda stations and schools, which makes rural life less attractive."
+      ]
+    },
+    {
+      "h": "Causes of movement to urban areas",
+      "points": [
+        "Employment: towns and cities contain most of the jobs in manufacturing, services and office work.",
+        "Education: third-level colleges and specialist schools are concentrated in urban centres.",
+        "Services and infrastructure: hospitals, shops, public transport, leisure facilities and fast broadband are more available in towns and cities.",
+        "Housing: towns offer a wider choice of rented and owned accommodation, including apartments for people without land.",
+        "Family and social ties: moving closer to friends, relatives or a partner's workplace draws many people into towns."
+      ]
+    },
+    {
+      "h": "Effects of urbanisation on family life",
+      "points": [
+        "Families in cities are often farther from grandparents and extended family, so there is less daily childcare and practical help.",
+        "Urban families have easier access to childcare, health, education and entertainment, which can improve quality of life.",
+        "Long commutes from suburbs to city workplaces reduce the time parents spend at home and add pressure to family routines.",
+        "Urban neighbourhoods can face overcrowding, traffic congestion, noise and air pollution.",
+        "High housing costs in cities can delay marriage and the birth of children until young couples can afford a home."
+      ]
+    },
+    {
+      "h": "Effects of rural depopulation on family life",
+      "points": [
+        "Older people living alone in rural areas can become isolated when younger family members move away.",
+        "Children in depopulated areas may attend smaller schools with fewer classmates, and grandparents are less available for childcare.",
+        "Rural decline can cause whole family units to emigrate, weakening the local network of family and neighbourly support.",
+        "Withdrawal of services such as shops, banks and transport makes daily life harder for families who remain in the countryside."
+      ]
+    },
+    {
+      "h": "Initiatives to keep population in rural areas",
+      "b": "Governments and state agencies have used job creation and infrastructure to slow rural depopulation.",
+      "points": [
+        "Redeployment of government departments and state agencies to rural locations creates public-sector jobs outside the cities.",
+        "Decentralisation moves public service jobs from the capital to regional towns.",
+        "Rural resettlement schemes help people settle in the countryside and help keep rural communities viable.",
+        "IDA Ireland seeks overseas investment and encourages foreign firms to locate in regional towns.",
+        "Enterprise Ireland helps Irish firms grow their sales and employment, including firms outside Dublin.",
+        "Local enterprise supports, such as advice, mentoring and small grants, help small businesses and cottage industries create sustainable local jobs.",
+        "Investment in roads and telecommunications, including broadband, makes rural living and remote working practical.",
+        "Community employment and training programmes, such as those in childcare and horticulture, give rural people skills and work experience."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Urbanisation",
+      "definition": "The growth in the proportion of a country's population living in towns and cities."
+    },
+    {
+      "term": "Rural depopulation",
+      "definition": "The decline in the number of people living in the countryside, usually through migration to towns or abroad."
+    },
+    {
+      "term": "Settlement pattern",
+      "definition": "The way people are spread across the landscape, in dispersed rural homes, villages, towns and cities."
+    },
+    {
+      "term": "Decentralisation",
+      "definition": "The relocation of government departments or agencies from the capital to regional locations."
+    },
+    {
+      "term": "Commuting",
+      "definition": "Travelling regularly between home and work, often over a long distance."
+    },
+    {
+      "term": "Suburbanisation",
+      "definition": "The growth of residential areas on the edge of cities, from which residents travel daily to work in the city."
+    },
+    {
+      "term": "Rural resettlement",
+      "definition": "A scheme that helps people settle in rural areas in order to slow the loss of rural population."
+    },
+    {
+      "term": "Urban sprawl",
+      "definition": "Low-density development spreading outward from a city into surrounding countryside."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four reasons people move from rural to urban areas",
+      "definition": "Employment, education, services and infrastructure, and a wider choice of housing."
+    },
+    {
+      "term": "Three problems facing older people left in rural villages",
+      "definition": "Isolation, the closure of local services, and fewer relatives nearby to give daily support."
+    },
+    {
+      "term": "Four effects of urbanisation on family life",
+      "definition": "Greater distance from extended family, long commutes, high housing costs, and urban congestion or pollution."
+    },
+    {
+      "term": "Three kinds of state support for rural enterprise",
+      "definition": "Overseas investment attraction through IDA Ireland, growth support for Irish firms through Enterprise Ireland, and local enterprise advice and grants for small businesses."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State two reasons why many people in Ireland have moved from rural areas to urban areas in recent decades.",
+      "model": "Employment: most jobs are located in towns and cities. Services: better access to third-level education, hospitals, shops and public transport. Housing: a wider choice of housing and rental accommodation is available in towns."
+    },
+    {
+      "marks": 24,
+      "prompt": "Explain how the growth of towns and cities and the decline of rural populations have affected the daily lives and support networks of Irish families. Refer to at least one state initiative that aims to keep people in rural areas.",
+      "model": "Urban growth: families are often far from grandparents and relatives, so informal childcare and practical help are reduced. Commuting from suburbs lengthens the working day and reduces family time. Housing costs in cities can delay family formation. Urban areas offer better access to childcare, health and education services, but may suffer congestion, pollution and some crime and antisocial behaviour. Rural decline: older people living alone can become isolated when younger relatives emigrate or move to cities. Local services such as shops, post offices and schools close, making daily family life harder. Children may attend smaller schools with fewer peers. Initiative: redeployment of government departments and state agencies to rural towns creates public-sector jobs; IDA Ireland and Enterprise Ireland support investment and firms outside the cities; improved roads and broadband allow remote working."
+    }
+  ]
+}

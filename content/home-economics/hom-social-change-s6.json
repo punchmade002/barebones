@@ -1,0 +1,125 @@
+{
+  "loId": "hom-social-change-s6",
+  "chapterId": "hom-social-change",
+  "subsection": "6. Unemployment",
+  "syllabusRef": "6.1",
+  "notes": [
+    {
+      "h": "Unemployment and its types",
+      "b": "Unemployment exists when people who are available for and willing to work do not have paid employment.",
+      "points": [
+        "Frictional unemployment is short-term and occurs while people move between jobs.",
+        "Structural unemployment results from lasting changes in the economy, such as technology replacing workers or the decline of a whole industry.",
+        "Cyclical unemployment rises during recessions, when demand for goods and services falls.",
+        "Seasonal unemployment occurs in industries that depend on the time of year, such as tourism or construction.",
+        "Long-term unemployment means being out of work for a year or more.",
+        "Unemployment black spots are areas where many people are out of work for long periods, often after the closure of a major employer."
+      ]
+    },
+    {
+      "h": "Effects on the individual",
+      "points": [
+        "Loss of income reduces the ability to pay for food, clothing, heating and housing.",
+        "Loss of work status can reduce self-esteem and confidence.",
+        "Unemployment is linked with stress, depression and other mental health problems.",
+        "Some unemployed people turn to alcohol or drugs to cope, which can add to financial and health problems.",
+        "Long periods without work reduce skills and employability, making it harder to find work later.",
+        "Social isolation can follow as workplace contacts and routines are lost."
+      ]
+    },
+    {
+      "h": "Effects on family life",
+      "points": [
+        "Lower income can lead to debt, mortgage or rent arrears and reliance on credit.",
+        "Financial strain can cause arguments between partners and increase the risk of relationship breakdown.",
+        "Roles can reverse: a parent who becomes the main carer at home may have reduced authority or status in the family.",
+        "Children may miss school trips, activities and leisure, and tight budgets can lead to poorer diets.",
+        "Unemployment can cause family members to move away, including emigration, to find work.",
+        "Children of long-term unemployed parents may lack working adults as role models for employment."
+      ]
+    },
+    {
+      "h": "Effects on society",
+      "points": [
+        "Social welfare spending rises while tax revenue falls when people lose work.",
+        "Concentration of unemployment in particular areas creates social exclusion and unemployment black spots.",
+        "Crime, antisocial behaviour and vandalism can increase in areas of high unemployment.",
+        "Loss of skills and productive effort reduces the output and growth of the economy."
+      ]
+    },
+    {
+      "h": "Supports for unemployed families",
+      "points": [
+        "Social welfare payments provide income support to people who have lost work and meet the conditions for a payment.",
+        "Citizens Information provides free, impartial information on entitlements to payments and services.",
+        "MABS, the Money Advice and Budgeting Service, gives free help with debt and household budgeting.",
+        "The Back to Education Allowance supports people on eligible payments to take approved courses that improve their skills.",
+        "Training and activation programmes help people build skills and return to employment."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Unemployment",
+      "definition": "The condition of people who are available for and willing to work but do not have paid employment."
+    },
+    {
+      "term": "Frictional unemployment",
+      "definition": "Short-term unemployment that occurs while people move between jobs or enter the labour market."
+    },
+    {
+      "term": "Structural unemployment",
+      "definition": "Unemployment caused by lasting changes in the economy, such as new technology or the decline of an industry."
+    },
+    {
+      "term": "Cyclical unemployment",
+      "definition": "Unemployment that rises during economic recessions when demand for goods and services falls."
+    },
+    {
+      "term": "Seasonal unemployment",
+      "definition": "Unemployment in industries whose work depends on the time of year."
+    },
+    {
+      "term": "Long-term unemployment",
+      "definition": "Being out of work for a year or more while looking for work."
+    },
+    {
+      "term": "Role reversal",
+      "definition": "A change in family roles in which a parent takes on the caring tasks and the other partner loses a traditional role."
+    },
+    {
+      "term": "Arrears",
+      "definition": "Payments that are overdue, such as unpaid rent, mortgage repayments or utility bills."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four effects of unemployment on the individual",
+      "definition": "Loss of income, loss of status, stress or depression, and social isolation."
+    },
+    {
+      "term": "Four types of unemployment",
+      "definition": "Frictional, structural, cyclical and seasonal."
+    },
+    {
+      "term": "Three ways unemployment affects children",
+      "definition": "A lower standard of living and poorer diet, missed school and leisure activities, and fewer working role models."
+    },
+    {
+      "term": "Two state supports for unemployed families",
+      "definition": "Social welfare income support and free debt advice from MABS."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two effects of unemployment on family finances.",
+      "model": "Loss of income makes it hard to pay mortgage or rent and bills, leading to arrears and debt. Spending on food, clothing and leisure has to be cut. Savings are used up, or the family must borrow."
+    },
+    {
+      "marks": 24,
+      "prompt": "Analyse how long-term unemployment affects a family's finances, relationships and children, and describe one support that helps families cope.",
+      "model": "Finances: loss of income leads to arrears on rent or mortgage, debt, reduced spending on essentials and leisure, and reliance on savings or credit. Relationships: financial strain causes arguments and can lead to relationship breakdown; a parent who becomes the main carer at home may lose authority or status, and roles can reverse. Children: they may miss school trips and activities, face a poorer diet on a tight budget, and lack working adults as role models for employment. Family members may have to move or emigrate to find work. Support: social welfare income support gives a regular income to those who meet the conditions; MABS gives free help with debt and budgeting; Citizens Information explains entitlements; the Back to Education Allowance helps unemployed people take approved courses."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "loId": "hom-unemployment-poverty-s3",
+  "chapterId": "hom-unemployment-poverty",
+  "subsection": "3. Effects of unemployment",
+  "syllabusRef": "6.5",
+  "notes": [
+    {
+      "h": "Effects on the individual",
+      "b": "Unemployment affects a person's income, status and health at the same time.",
+      "points": [
+        "Financial insecurity: lost income forces people to cut spending, lower their living standards and rely on savings or credit.",
+        "Debt: unpaid bills and loans can lead to mortgage arrears and, in serious cases, repossession of the family home.",
+        "Loss of identity and status: unemployed people may feel undervalued and lose self-esteem and social standing.",
+        "Depression and stress: long-term unemployment can create feelings of hopelessness, failure and guilt.",
+        "Social isolation: losing work removes daily contact with colleagues and reduces participation in social activities.",
+        "Boredom and loss of routine can lead to poorer physical health.",
+        "Addiction: some people turn to alcohol, drugs or gambling to cope, which adds to their difficulties."
+      ]
+    },
+    {
+      "h": "Effects on the family unit",
+      "points": [
+        "Reduced income lowers the family's living standard, so it may struggle to afford food, clothing, heating and other basics.",
+        "Financial pressure and changed roles within the household cause arguments and strain relationships.",
+        "Relationship strain can lead to separation or family breakdown.",
+        "Children may have to give up activities such as sports, music lessons or school trips.",
+        "Families that fall behind on rent or mortgage repayments face a risk of homelessness.",
+        "Reliance on welfare payments can shape family finances for long periods."
+      ]
+    },
+    {
+      "h": "Effects passed on to children",
+      "points": [
+        "Children's educational opportunities suffer when a family cannot pay for books, technology or a quiet study space.",
+        "Children of unemployed parents have fewer working role models, which can lower their expectations of work.",
+        "Intergenerational unemployment: disadvantage can be repeated when children reach working age.",
+        "Financial pressure at home can lead to early school leaving, reducing the qualifications children take into the labour market."
+      ]
+    },
+    {
+      "h": "Effects on society",
+      "points": [
+        "Cost to the state: higher welfare payments and taxes are needed to support unemployed people and their families.",
+        "Loss of tax and social insurance (PRSI) income reduces the funds available for public services.",
+        "Antisocial behaviour, crime and vandalism are more common in areas with high long-term unemployment.",
+        "Emigration of workers, including skilled workers, reduces the population and the skills base.",
+        "The black economy grows, as unpaid or undeclared work avoids tax and PRSI.",
+        "Social exclusion: people cut off from work, income and social networks become harder to reintegrate."
+      ]
+    },
+    {
+      "h": "Local chain reaction in unemployment black spots",
+      "points": [
+        "Falling local spending closes shops and services, which causes further job losses in the area.",
+        "Population loss reduces the number of users of local schools and transport, making services harder to keep open.",
+        "Black spots acquire a poor reputation, which deters investment and new businesses."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Financial insecurity",
+      "definition": "A lack of secure income that leaves a household unable to meet regular costs."
+    },
+    {
+      "term": "Mortgage arrears",
+      "definition": "Missed or late repayments on a mortgage."
+    },
+    {
+      "term": "Loss of status",
+      "definition": "A fall in social standing and self-esteem that can follow the loss of work."
+    },
+    {
+      "term": "Social isolation",
+      "definition": "A lack of regular contact with other people, often caused by losing work."
+    },
+    {
+      "term": "Intergenerational unemployment",
+      "definition": "Unemployment passed from parents to children, who may lack working role models."
+    },
+    {
+      "term": "Black economy",
+      "definition": "Paid work carried out without being declared for tax or social insurance."
+    },
+    {
+      "term": "Antisocial behaviour",
+      "definition": "Conduct that harms or disturbs others, such as crime, vandalism or intimidation."
+    },
+    {
+      "term": "Emigration",
+      "definition": "Leaving one's own country to live and work abroad."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three effects of unemployment on the individual",
+      "definition": "Financial insecurity; loss of self-esteem and status; depression."
+    },
+    {
+      "term": "Four effects of unemployment on the family",
+      "definition": "Lower living standard and debt; strain on relationships; children losing activities and educational opportunities; risk of losing the home."
+    },
+    {
+      "term": "Three effects of unemployment on society",
+      "definition": "Higher welfare and tax costs; crime and antisocial behaviour; emigration of skilled workers."
+    },
+    {
+      "term": "Local chain reaction in an unemployment black spot",
+      "definition": "Falling spending closes shops and services, which causes further job losses and encourages people to leave the area."
+    },
+    {
+      "term": "How unemployment can pass to the next generation",
+      "definition": "Children have fewer working role models and may lower their expectations of work."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two effects of unemployment on the individual.",
+      "model": "Financial insecurity: loss of income forces cuts in spending, lower living standards, debt and possible mortgage arrears. Loss of identity and status: the person may feel undervalued and lose self-esteem and social standing. Depression, stress and social isolation: loss of work removes daily contact with others and can create hopelessness and failure. Each effect needs a clear explanation to earn full marks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the effects of unemployment on the family and on society.",
+      "model": "Family: reduced income and living standard, debt and risk of losing the home; strain on relationships and possible separation; children losing activities and educational opportunities, such as books or a quiet study space; reliance on welfare for long periods. Society: higher welfare and tax costs for the state; loss of tax and PRSI income for public services; crime, antisocial behaviour and vandalism in areas with high long-term unemployment; emigration of workers and skills; growth of the black economy; decline of shops and services in unemployment black spots, which deters investment. Intergenerational effects link the family and society, as disadvantage can be repeated by the next generation."
+    }
+  ]
+}

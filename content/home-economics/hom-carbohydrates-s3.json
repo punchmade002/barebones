@@ -1,0 +1,112 @@
+{
+  "loId": "hom-carbohydrates-s3",
+  "chapterId": "hom-carbohydrates",
+  "subsection": "3. Sources",
+  "syllabusRef": "1.1.3",
+  "notes": [
+    {
+      "h": "Sources of monosaccharides",
+      "points": [
+        "Glucose and fructose occur naturally in fruit; fructose is also the main sugar in honey.",
+        "Galactose is not usually eaten free; it is released when lactose, the sugar in milk, is digested.",
+        "Glucose syrup, a refined sugar used in sweets and processed foods, is a source of glucose in the diet."
+      ]
+    },
+    {
+      "h": "Sources of disaccharides",
+      "points": [
+        "Sucrose, the table sugar, is extracted from sugar beet and sugar cane; it also occurs naturally in many fruit and vegetables.",
+        "Lactose is the sugar found in milk and milk products such as yoghurt and cheese.",
+        "Maltose is produced when starch is broken down during the germination of barley, the basis of malt.",
+        "Added sugars are found in biscuits, cakes, sweets, jam, fizzy drinks and breakfast cereals."
+      ]
+    },
+    {
+      "h": "Sources of starch",
+      "points": [
+        "Potatoes, rice, pasta and bread are the main starch foods in the Irish diet.",
+        "Cereal grains such as wheat, oats, barley, maize and rice are rich sources of starch; flour is made from ground grain.",
+        "Pulses such as peas, beans and lentils, and root vegetables, contain starch as well as fibre.",
+        "Porridge oats and many breakfast cereals are starch-based."
+      ]
+    },
+    {
+      "h": "Sources of non-starch polysaccharides (dietary fibre)",
+      "points": [
+        "Cellulose is found in the skins of fruit and vegetables, in leafy vegetables, in wholegrain cereals and in bran.",
+        "Pectin is found in the cell walls of fruit, especially apples and citrus fruit.",
+        "Wholemeal bread, brown rice and wholemeal pasta contain more fibre than white versions because the bran is retained in the grain.",
+        "Seeds such as sunflower, pumpkin, sesame and linseed are high in fibre, as are nuts and dried beans and lentils.",
+        "Settings: a collage or poster grouping foods by the type of carbohydrate they contain."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Sucrose",
+      "definition": "The disaccharide made of glucose and fructose, extracted from sugar beet and sugar cane as table sugar."
+    },
+    {
+      "term": "Lactose",
+      "definition": "The disaccharide made of glucose and galactose, found in milk and milk products."
+    },
+    {
+      "term": "Maltose",
+      "definition": "The disaccharide made of two glucose units, produced when starch breaks down during the germination of barley."
+    },
+    {
+      "term": "Starch",
+      "definition": "A polysaccharide that is the main carbohydrate in cereals, potatoes, rice and pasta."
+    },
+    {
+      "term": "Pectin",
+      "definition": "A non-starch polysaccharide found in the cell walls of fruit, especially apples and citrus fruit."
+    },
+    {
+      "term": "Non-starch polysaccharide",
+      "definition": "A plant polysaccharide, such as cellulose or pectin, that the human digestive system cannot break down and that forms dietary fibre."
+    },
+    {
+      "term": "Bran",
+      "definition": "The outer layer of a cereal grain, rich in cellulose and removed when grain is refined into white flour."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four sources of starch in the diet",
+      "definition": "Potatoes, rice, pasta and bread."
+    },
+    {
+      "term": "Sources of fructose",
+      "definition": "Fruit and honey."
+    },
+    {
+      "term": "Where galactose comes from in the diet",
+      "definition": "It is released when lactose is digested; it is not usually eaten free."
+    },
+    {
+      "term": "Two sources of cellulose",
+      "definition": "The skins of fruit and vegetables, and wholegrain cereals and bran."
+    },
+    {
+      "term": "Four seeds high in fibre",
+      "definition": "Sunflower, pumpkin, sesame and linseed."
+    },
+    {
+      "term": "Main source of maltose",
+      "definition": "Barley, through germinated grain used to make malt."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one dietary source of a monosaccharide, one of a disaccharide and one of a polysaccharide.",
+      "model": "Monosaccharide: glucose from fruit, or fructose from honey. Disaccharide: sucrose from table sugar, or lactose from milk. Polysaccharide: starch from potatoes, or cellulose from the skins of vegetables."
+    },
+    {
+      "marks": 20,
+      "prompt": "Give an account of the dietary sources of sugars, starch and non-starch polysaccharides, and explain how choosing particular sources can improve the nutritional quality of the diet.",
+      "model": "Sugars: table sugar, honey, fruit, milk (lactose), and added sugars in biscuits, cakes, sweets, jam, fizzy drinks and cereals. Starch: potatoes, rice, pasta, bread, flour, breakfast cereals, porridge oats, peas, beans and lentils. Non-starch polysaccharides: skins of fruit and vegetables, wholegrain cereals, bran, seeds, nuts, pulses, apples and citrus fruit (pectin). Improvement: wholegrain bread, brown rice and pasta replace white versions to add fibre; fresh fruit replaces sugary snacks and juice; whole fruit and vegetables eaten with the skins on; naturally sugar-containing foods such as milk and fruit supply vitamins and minerals alongside their sugar."
+    }
+  ]
+}

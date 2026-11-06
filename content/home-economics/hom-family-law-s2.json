@@ -1,0 +1,106 @@
+{
+  "loId": "hom-family-law-s2",
+  "chapterId": "hom-family-law",
+  "subsection": "2. The Family Home Protection Act 1976",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Purpose of the Act",
+      "b": "The Act protects the home in which a married couple lives, so that one spouse cannot deal with it without the other's agreement.",
+      "points": [
+        "The family home is the dwelling in which the spouses ordinarily live together as their home.",
+        "The Act protects the family home whether it is owned, rented or held in only one spouse's name.",
+        "A spouse who has no legal ownership of the home still has a right to occupy it, and that right is protected by the Act.",
+        "The protection applies while the spouses are married and living together in the home."
+      ]
+    },
+    {
+      "h": "Consent needed to deal with the family home",
+      "points": [
+        "A spouse cannot sell, lease or mortgage the family home without the written consent of the other spouse.",
+        "Consent must be given in writing, so an oral agreement to a sale is not enough.",
+        "A purchaser or lender should check that the required spousal consent has been given before completing a transaction involving the home."
+      ]
+    },
+    {
+      "h": "Enforcing the protection (process)",
+      "points": [
+        "Step 1: establish that the property is the family home, meaning the dwelling where the spouses ordinarily live together.",
+        "Step 2: before any sale, lease or mortgage, the owner-spouse must obtain the other spouse's written consent.",
+        "Step 3: if consent is withheld unreasonably, the owner-spouse can apply to the court to dispense with consent in certain circumstances.",
+        "Step 4: if a transaction goes ahead without the required consent, the non-consenting spouse can ask the court to set it aside."
+      ]
+    },
+    {
+      "h": "Registration and link to housing finance",
+      "points": [
+        "A spouse's right of occupation can be registered as a burden on the title of the property, which warns any future buyer or lender of that right.",
+        "A mortgage over the family home usually needs the consent of both spouses, which links the Act to the mortgage conditions studied under housing finance.",
+        "The protection is in addition to any ownership rights, so it does not depend on whose name appears on the title deeds."
+      ]
+    },
+    {
+      "h": "Family home in divorce and judicial separation",
+      "points": [
+        "The Family Home Protection Act protects the home during the marriage; on judicial separation or divorce, the court can make orders dealing with the family home as part of its wider powers.",
+        "Under the Judicial Separation and Family Law Reform Act 1989 and the Family Law (Divorce) Act 1996, a court can make property orders that transfer or adjust ownership of the family home between the spouses."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Family home",
+      "definition": "The dwelling in which the spouses ordinarily live together, protected by the Act whoever owns it."
+    },
+    {
+      "term": "Right of occupation",
+      "definition": "The right of a spouse to live in the family home, which the Act protects even where that spouse does not own it."
+    },
+    {
+      "term": "Written consent",
+      "definition": "Agreement given in writing by one spouse before the other spouse sells, leases or mortgages the family home."
+    },
+    {
+      "term": "Disposition",
+      "definition": "Any transaction that transfers or charges an interest in the family home, such as a sale, lease or mortgage."
+    },
+    {
+      "term": "Dispensing with consent",
+      "definition": "A court order allowing a transaction to go ahead without a spouse's consent, in limited circumstances."
+    },
+    {
+      "term": "Burden on title",
+      "definition": "An entry registered against a property's title to record a right, such as a spouse's right of occupation, that binds future owners."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Requirement before selling the family home",
+      "definition": "The other spouse must give written consent, or the court must dispense with it."
+    },
+    {
+      "term": "Who can occupy the family home",
+      "definition": "A spouse who does not own the home still has a right of occupation that the Act protects."
+    },
+    {
+      "term": "Status of a transaction made without consent",
+      "definition": "It is open to being set aside by the court."
+    },
+    {
+      "term": "Where the spouse's right of occupation is recorded",
+      "definition": "It can be registered as a burden on the title of the property."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why a spouse who does not own the family home is protected by the Family Home Protection Act 1976.",
+      "model": "The Act gives a spouse a right of occupation in the family home, the dwelling in which the spouses ordinarily live together, even where that spouse does not hold legal title. A spouse cannot sell, lease or mortgage the home without the written consent of the other spouse. The non-owning spouse can therefore remain in the home and prevent it being dealt with without agreement."
+    },
+    {
+      "marks": 16,
+      "prompt": "Outline how the Family Home Protection Act 1976 protects the family home and explain the role of consent in this protection.",
+      "model": "The family home is the dwelling where the spouses ordinarily live together, and the Act protects it whatever the ownership arrangements. A spouse who has no legal title keeps a right of occupation. Neither spouse may sell, lease or mortgage the home without the other's written consent. Where consent is withheld unreasonably, the court can dispense with it in certain circumstances. A transaction made without the required consent can be set aside by the court. A spouse's right of occupation can be registered as a burden on the title, so future buyers and lenders are on notice. Consent also matters for mortgage finance, since a lender will usually require both spouses to consent to a mortgage over the family home."
+    }
+  ]
+}

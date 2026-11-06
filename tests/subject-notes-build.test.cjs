@@ -10,8 +10,8 @@ const { spawnSync } = require("node:child_process");
 const root = path.resolve(__dirname, "..");
 const fixtures = path.join(__dirname, "fixtures", "notes", "geography");
 
-function build(args) {
-  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), "geography", ...args], {
+function build(args, subject = "geography") {
+  return spawnSync("python3", [path.join(root, "scripts", "build_notes.py"), subject, ...args], {
     encoding: "utf8",
   });
 }
@@ -133,6 +133,38 @@ test("the shipped geography notes file is up to date with content/geography", ()
     fs.readFileSync(out, "utf8"),
     fs.readFileSync(path.join(root, "geography-notes.js"), "utf8"),
     "run: python3 scripts/build_notes.py geography"
+  );
+});
+
+test("every home economics chapter is split into the subsections of its course outline", () => {
+  const context = load(["data.js"]);
+  const chapters = context.__courseData.chapters.filter((chapter) => chapter.subject === "home-economics");
+  assert.equal(chapters.length, 36);
+  const outline = fs.readFileSync(path.join(root, "course-outlines", "homeeconomics.md"), "utf8");
+  const sections = outline.split(/^### /m).slice(1);
+  let subsections = 0;
+  chapters.forEach((chapter, index) => {
+    assert.equal(chapter.number, index + 1);
+    const section = sections.find((text) => text.startsWith(`${chapter.id} — `));
+    assert.ok(section, `${chapter.id} has a section in the course outline`);
+    const titles = [...section.matchAll(/^\d+\. \*\*(.+?)\*\*/gm)].map((match) => match[1].replace(/:$/, ""));
+    const [review, ...rest] = chapter.learningOutcomes;
+    assert.equal(review.id, `${chapter.id}-1`, `${chapter.id} keeps its review outcome for test questions`);
+    assert.deepEqual(rest.map((outcome) => outcome.title), titles, `${chapter.id} subsections match the outline`);
+    rest.forEach((outcome, i) => assert.equal(outcome.id, `${chapter.id}-s${i + 1}`));
+    subsections += rest.length;
+  });
+  assert.equal(subsections, 199);
+});
+
+test("the shipped home economics notes file is up to date with content/home-economics", () => {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "home-economics-notes.js");
+  const result = build(["--out", out], "home-economics");
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.equal(
+    fs.readFileSync(out, "utf8"),
+    fs.readFileSync(path.join(root, "home-economics-notes.js"), "utf8"),
+    "run: python3 scripts/build_notes.py home-economics"
   );
 });
 

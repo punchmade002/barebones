@@ -160,12 +160,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Wash-load preparation",
-      "definition": "Empty pockets, close zips, protect delicate items, pretreat stains and leave room for detergent and water to circulate.",
-      "section": "hom-clothing-selection",
-      "type": "process"
-    },
-    {
       "term": "Surfactants",
       "definition": "Detergent molecules with water-loving heads and oil-loving tails that lower surface tension, lift grease and suspend it for rinsing.",
       "section": "hom-clothing-selection",
@@ -220,44 +214,8 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Stain-removal principles",
-      "definition": "Treat stains promptly from the back outwards and test the treatment first on a hidden area.",
-      "section": "hom-clothing-selection",
-      "type": "concept"
-    },
-    {
-      "term": "Protein stains",
-      "definition": "Blood, egg and milk stains are first sponged with cold water because heat sets protein.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
-      "term": "Grease stains",
-      "definition": "Oily stains treated with detergent or a suitable solvent.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
-      "term": "Tannin stains",
-      "definition": "Tea and wine stains treated promptly by flushing with cold water.",
-      "section": "hom-clothing-selection",
-      "type": "stain"
-    },
-    {
       "term": "Fibre-safe ironing",
       "definition": "Match iron temperature to the fibre, using a damp cloth for wool and low heat for melt-prone synthetics.",
-      "section": "hom-clothing-selection",
-      "type": "practice"
-    },
-    {
-      "term": "Clothing storage",
-      "definition": "Store garments clean and dry on suitable hangers or folded in a cool, dry, ventilated place, protecting wool from moths.",
-      "section": "hom-clothing-selection",
-      "type": "practice"
-    },
-    {
-      "term": "Garment repair",
-      "definition": "Promptly mending loose buttons, small tears and hems extends clothing life.",
       "section": "hom-clothing-selection",
       "type": "practice"
     },
@@ -516,12 +474,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "A mineral important for growth, immunity and wound healing.",
       "section": "hom-vitamins-minerals",
       "type": "mineral"
-    },
-    {
-      "term": "Vitamin preservation",
-      "definition": "Short cooking with little water, minimal chopping and prompt serving reduce losses of heat-, light- and water-sensitive vitamins.",
-      "section": "hom-vitamins-minerals",
-      "type": "guideline"
     }
   ],
   "hom-lipids": [
@@ -3632,12 +3584,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
   ],
   "hom-housing": [
     {
-      "term": "Functions of the home",
-      "definition": "A home provides shelter, security, family space, privacy, rest, recreation, work and storage space, and a means of expressing identity.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
       "term": "Life-cycle housing needs",
       "definition": "Housing requirements change from single or shared accommodation to family housing and later to smaller, accessible, low-maintenance homes.",
       "section": "hom-housing",
@@ -3744,48 +3690,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "The body with which landlords register tenancies and to which rental disputes are referred.",
       "section": "hom-housing",
       "type": "organisation"
-    },
-    {
-      "term": "Building Energy Rating",
-      "definition": "A certificate grading a home's energy performance from A to G, required when the property is sold or let.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Home energy-efficiency measures",
-      "definition": "Insulation, draught-proofing, efficient glazing and heating, controls, LED lighting and solar systems reduce energy use.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Sustainable Energy Authority of Ireland",
-      "definition": "The body administering grants for many domestic energy-efficiency upgrades.",
-      "section": "hom-housing",
-      "type": "organisation"
-    },
-    {
-      "term": "Domestic heating systems",
-      "definition": "Gas, oil, solid fuel, electric storage and heat-pump systems distribute heat through radiators or underfloor pipes.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Domestic services",
-      "definition": "Safe electricity, water supply, wastewater treatment and ventilation required for a functioning healthy home.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Home safety measures",
-      "definition": "Alarms, fire equipment, an escape plan, stair gates, secure chemical storage, RCD protection and good lighting reduce household hazards.",
-      "section": "hom-housing",
-      "type": "concept"
-    },
-    {
-      "term": "Home security measures",
-      "definition": "Quality locks, alarms, exterior lighting and neighbourhood watch help deter intrusion.",
-      "section": "hom-housing",
-      "type": "concept"
     }
   ],
   "hom-personal-finance": [
@@ -4254,6 +4158,256 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "The Irish body that licenses and monitors major emissions to control pollution.",
       "section": "hom-environmental-issues",
       "type": "organisation"
+    }
+  ],
+  "hom-home-services": [
+    {
+      "term": "Building Energy Rating",
+      "definition": "A certificate grading a home's energy performance from A to G, required when the property is sold or let.",
+      "section": "hom-home-services",
+      "type": "concept"
+    },
+    {
+      "term": "Home energy-efficiency measures",
+      "definition": "Insulation, draught-proofing, efficient glazing and heating, controls, LED lighting and solar systems reduce energy use.",
+      "section": "hom-home-services",
+      "type": "concept"
+    },
+    {
+      "term": "Sustainable Energy Authority of Ireland",
+      "definition": "The body administering grants for many domestic energy-efficiency upgrades.",
+      "section": "hom-home-services",
+      "type": "organisation"
+    },
+    {
+      "term": "Domestic heating systems",
+      "definition": "Gas, oil, solid fuel, electric storage and heat-pump systems distribute heat through radiators or underfloor pipes.",
+      "section": "hom-home-services",
+      "type": "concept"
+    },
+    {
+      "term": "Domestic services",
+      "definition": "Safe electricity, water supply, wastewater treatment and ventilation required for a functioning healthy home.",
+      "section": "hom-home-services",
+      "type": "concept"
+    },
+    {
+      "term": "Ring circuit",
+      "definition": "A loop of cable that starts and ends at the consumer unit and supplies the socket outlets, so current can reach each socket from both directions.",
+      "section": "hom-home-services",
+      "type": "electrical system"
+    },
+    {
+      "term": "Miniature circuit breaker",
+      "definition": "A switch in the consumer unit that cuts off a circuit automatically when the current is higher than it is rated for, and can be reset once the fault is fixed.",
+      "section": "hom-home-services",
+      "type": "safety device"
+    },
+    {
+      "term": "Earth wire",
+      "definition": "The green-and-yellow conductor that carries current safely to earth if a live part touches an appliance's metal casing, so the fuse or breaker cuts the supply.",
+      "section": "hom-home-services",
+      "type": "safety device"
+    },
+    {
+      "term": "Thermostat",
+      "definition": "A temperature-sensitive switch that turns heating on or off to keep a room, hot water cylinder or appliance at the temperature set.",
+      "section": "hom-home-services",
+      "type": "control"
+    },
+    {
+      "term": "Principle of insulation",
+      "definition": "Materials that are poor conductors of heat, usually because they trap still air, slow the loss of heat from the home.",
+      "section": "hom-home-services",
+      "type": "principle"
+    },
+    {
+      "term": "Natural and artificial ventilation",
+      "definition": "Natural ventilation changes the air through windows, vents and chimneys; artificial ventilation uses extractor fans or mechanical systems to remove moist or stale air.",
+      "section": "hom-home-services",
+      "type": "principle"
+    },
+    {
+      "term": "Cold water storage cistern",
+      "definition": "A tank, usually in the attic, filled from the mains through a ball valve and fitted with an overflow pipe, that stores cold water for the house; the kitchen drinking tap is fed directly from the mains.",
+      "section": "hom-home-services",
+      "type": "water system"
+    },
+    {
+      "term": "LED lighting",
+      "definition": "Light-emitting diode lamps that give the same light as older bulbs for a fraction of the electricity and last much longer.",
+      "section": "hom-home-services",
+      "type": "energy efficiency"
+    }
+  ],
+  "hom-fruit-vegetables": [
+    {
+      "term": "Vitamin preservation",
+      "definition": "Short cooking with little water, minimal chopping and prompt serving reduce losses of heat-, light- and water-sensitive vitamins.",
+      "section": "hom-fruit-vegetables",
+      "type": "guideline"
+    },
+    {
+      "term": "Classes of vegetables",
+      "definition": "Vegetables are grouped as roots and tubers, bulbs, green vegetables (leaves, stems and flowers), fruit vegetables such as tomatoes and peppers, and pulses such as peas, beans and lentils.",
+      "section": "hom-fruit-vegetables",
+      "type": "classification"
+    },
+    {
+      "term": "Classes of fruit",
+      "definition": "Fruit is grouped as citrus fruit such as oranges, berries such as strawberries, stone fruit such as plums, hard fruit such as apples, and dried fruit such as raisins.",
+      "section": "hom-fruit-vegetables",
+      "type": "classification"
+    },
+    {
+      "term": "Nutritive value of fruit and vegetables",
+      "definition": "Rich in vitamin C, beta-carotene, folate, potassium and dietary fibre and low in fat and energy; pulses also supply protein and iron.",
+      "section": "hom-fruit-vegetables",
+      "type": "nutrition"
+    },
+    {
+      "term": "Fruit and vegetable servings",
+      "definition": "The Irish food pyramid recommends five to seven servings of vegetables, salad and fruit a day.",
+      "section": "hom-fruit-vegetables",
+      "type": "guideline"
+    },
+    {
+      "term": "Enzymic browning of cut fruit",
+      "definition": "Cut apples and bananas turn brown when their enzymes react with oxygen; acid, blanching or covering the cut surface slows it.",
+      "section": "hom-fruit-vegetables",
+      "type": "food science"
+    },
+    {
+      "term": "Storing fruit and vegetables",
+      "definition": "Store them in a cool, dark, ventilated place or the salad drawer, buy small amounts and use them quickly to limit the loss of vitamin C and moisture.",
+      "section": "hom-fruit-vegetables",
+      "type": "practice"
+    }
+  ],
+  "hom-home-interior": [
+    {
+      "term": "Elements of design",
+      "definition": "Line, shape, colour, texture and pattern: the components used to create the look of a room or garment.",
+      "section": "hom-home-interior",
+      "type": "design concept"
+    },
+    {
+      "term": "Principles of design",
+      "definition": "Balance, proportion, emphasis, rhythm and harmony: the guidelines for arranging the elements of design so that a room looks unified.",
+      "section": "hom-home-interior",
+      "type": "design concept"
+    },
+    {
+      "term": "Ergonomics",
+      "definition": "Designing rooms, furniture and equipment to fit the people who use them, so that tasks are safe, comfortable and efficient.",
+      "section": "hom-home-interior",
+      "type": "design concept"
+    },
+    {
+      "term": "Kitchen work triangle",
+      "definition": "The arrangement of cooker, sink and fridge so that the distances between them are short and uninterrupted.",
+      "section": "hom-home-interior",
+      "type": "design concept"
+    },
+    {
+      "term": "Hard, semi-hard and soft floor coverings",
+      "definition": "Hard floors such as ceramic tiles and wood are durable and easy to clean; semi-hard floors such as vinyl and cork are warmer and quieter; soft floors such as carpet give warmth and comfort but show wear and stains.",
+      "section": "hom-home-interior",
+      "type": "material"
+    },
+    {
+      "term": "Thermoplastic and thermosetting plastics",
+      "definition": "Thermoplastics soften when heated and can be reshaped; thermosetting plastics set permanently when first moulded and do not soften when reheated.",
+      "section": "hom-home-interior",
+      "type": "material"
+    },
+    {
+      "term": "Soft furnishings",
+      "definition": "Fabric items such as curtains, cushions, upholstery and bed linen that add comfort, colour and texture to a room.",
+      "section": "hom-home-interior",
+      "type": "furnishing"
+    }
+  ],
+  "hom-food-industry": [
+    {
+      "term": "Sectors of the food industry",
+      "definition": "The primary sector produces raw materials such as milk, meat and fish; the secondary sector processes them into food products; the tertiary sector distributes and sells food through retail and catering.",
+      "section": "hom-food-industry",
+      "type": "industry structure"
+    },
+    {
+      "term": "Bord Bia",
+      "definition": "The Irish Food Board, the State agency that promotes Irish food, drink and horticulture at home and abroad and runs quality assurance schemes.",
+      "section": "hom-food-industry",
+      "type": "organisation"
+    },
+    {
+      "term": "Major Irish food exports",
+      "definition": "Dairy products and meat, especially beef, are Ireland's largest food exports.",
+      "section": "hom-food-industry",
+      "type": "industry structure"
+    },
+    {
+      "term": "Artisan food producer",
+      "definition": "A small-scale producer who makes distinctive food by traditional or hand methods, often from local ingredients.",
+      "section": "hom-food-industry",
+      "type": "business"
+    },
+    {
+      "term": "Home enterprise",
+      "definition": "A small food business run from the home, such as baking or making preserves for local markets, which must still meet food hygiene law.",
+      "section": "hom-food-industry",
+      "type": "business"
+    },
+    {
+      "term": "Careers in the food industry",
+      "definition": "Examples include food scientist, food technologist, quality controller, chef, dietitian and environmental health officer.",
+      "section": "hom-food-industry",
+      "type": "career"
+    }
+  ],
+  "hom-resource-management": [
+    {
+      "term": "Resource management",
+      "definition": "Using the human and material resources available efficiently to achieve personal and family goals.",
+      "section": "hom-resource-management",
+      "type": "management concept"
+    },
+    {
+      "term": "Human resources",
+      "definition": "Resources within people, such as time, energy, knowledge, skills and abilities.",
+      "section": "hom-resource-management",
+      "type": "resource"
+    },
+    {
+      "term": "Material resources",
+      "definition": "Tangible resources such as money, property, equipment and food.",
+      "section": "hom-resource-management",
+      "type": "resource"
+    },
+    {
+      "term": "Needs and wants",
+      "definition": "Needs are essential for survival and well-being, such as food and shelter; wants are desirable but not essential.",
+      "section": "hom-resource-management",
+      "type": "management concept"
+    },
+    {
+      "term": "Goals",
+      "definition": "The aims that a person or family sets out to achieve through managing resources.",
+      "section": "hom-resource-management",
+      "type": "management concept"
+    },
+    {
+      "term": "Inputs, throughputs and outputs",
+      "definition": "The components of management: resources, needs and goals (inputs) are planned, organised and implemented (throughputs) to produce goals achieved, satisfaction and feedback (outputs).",
+      "section": "hom-resource-management",
+      "type": "management concept"
+    },
+    {
+      "term": "Dual role",
+      "definition": "Combining paid employment with responsibility for home and family, which affects how the household is managed.",
+      "section": "hom-resource-management",
+      "type": "management concept"
     }
   ]
 }

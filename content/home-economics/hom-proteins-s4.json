@@ -1,0 +1,118 @@
+{
+  "loId": "hom-proteins-s4",
+  "chapterId": "hom-proteins",
+  "subsection": "4. Sources",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Animal and plant protein sources",
+      "points": [
+        "Animal protein sources: meat, fish, poultry, milk, cheese, yoghurt and eggs.",
+        "Plant protein sources: soya beans, pulses (lentils, peas and beans), cereals, nuts and seeds.",
+        "Cereals such as wheat, rice and maize supply protein as well as carbohydrate; potatoes contain only small amounts of protein."
+      ]
+    },
+    {
+      "h": "Albumin",
+      "points": [
+        "Albumin is the main protein of egg white, and it is also found in lean meat.",
+        "Lactalbumin, a related albumin, is found in the whey of milk.",
+        "Albumin is a soluble globular protein."
+      ]
+    },
+    {
+      "h": "Casein",
+      "points": [
+        "Casein is the main protein of milk.",
+        "Casein is present in cheese and yoghurt, the products made from milk.",
+        "Rennin coagulates casein, which is the first step in making cheese."
+      ]
+    },
+    {
+      "h": "Gelatine and gluten",
+      "points": [
+        "Gelatine is not present in raw meat; it forms when collagen from animal bones, skin and connective tissue is heated in moisture.",
+        "Gelatine is used in jelly, aspic and gelatine-set mousses and desserts.",
+        "Gluten is the protein of wheat and wheat flour.",
+        "Gluten forms when the proteins gliadin and glutenin are mixed with water.",
+        "Gluten gives bread dough its elastic, stretchy texture, which traps the carbon dioxide made by yeast."
+      ]
+    },
+    {
+      "h": "Myosin, actin and collagen (Higher Level only)",
+      "points": [
+        "Myosin and actin are the contractile proteins of muscle, and they are found in the flesh of meat and fish.",
+        "Collagen is the main protein of connective tissue and is found in meat, fish and bones.",
+        "Collagen in meat and fish is the source of gelatine when it is heated in moisture."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Albumin",
+      "definition": "A soluble globular protein found in egg white, meat and milk whey."
+    },
+    {
+      "term": "Casein",
+      "definition": "The main protein of milk, which coagulates when rennin acts on it in cheese-making."
+    },
+    {
+      "term": "Gelatine",
+      "definition": "A derived protein that forms when collagen is heated in moisture and sets to a gel on cooling."
+    },
+    {
+      "term": "Derived protein",
+      "definition": "A protein formed by chemical or enzymatic action on another protein, such as gelatine from collagen."
+    },
+    {
+      "term": "Gluten",
+      "definition": "The elastic protein network formed when the wheat proteins gliadin and glutenin are mixed with water."
+    },
+    {
+      "term": "Collagen",
+      "definition": "The fibrous protein of connective tissue, which converts to gelatine when heated in moisture."
+    },
+    {
+      "term": "Myosin",
+      "definition": "A fibrous muscle protein that, with actin, forms the contractile filaments of meat and fish."
+    },
+    {
+      "term": "Actin",
+      "definition": "A muscle protein that, with myosin, forms the contractile filaments of meat and fish."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Five plant protein sources",
+      "definition": "Soya beans, pulses, cereals, nuts and seeds."
+    },
+    {
+      "term": "Main food source of albumin",
+      "definition": "Egg white."
+    },
+    {
+      "term": "Protein formed when wheat flour is mixed with water",
+      "definition": "Gluten, from the gliadin and glutenin of wheat."
+    },
+    {
+      "term": "Animal tissue that gelatine is made from",
+      "definition": "Collagen in animal bones, skin and connective tissue."
+    },
+    {
+      "term": "Three named proteins of meat and fish",
+      "definition": "Collagen, myosin and actin."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify a food that supplies each of these proteins: albumin, casein and gluten. Name one animal and one plant protein source in the diet.",
+      "model": "Albumin: egg white (also meat). Casein: milk, cheese or yoghurt. Gluten: wheat or wheat flour. Animal protein source: for example meat, fish, eggs or milk. Plant protein source: for example soya beans, pulses, cereals, nuts or seeds."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain how gelatine is formed from collagen and describe the foods that contain it. Outline how gluten is formed in bread dough and state why it matters to the texture of bread.",
+      "model": "Gelatine: a derived protein formed when collagen from animal bones, skin and connective tissue is heated in moisture; it is not present in raw meat; it is used in jelly, aspic and gelatine-set mousses and desserts. Gluten: formed when the wheat proteins gliadin and glutenin are mixed with water; kneading develops an elastic network; the network traps the carbon dioxide made by yeast, so the bread rises and has an open, elastic texture."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "loId": "hom-unemployment-poverty-s2",
+  "chapterId": "hom-unemployment-poverty",
+  "subsection": "2. Causes of unemployment",
+  "syllabusRef": "6.5",
+  "notes": [
+    {
+      "h": "Seasonal and geographical unemployment (Higher Level only)",
+      "b": "These causes come from when and where work is available rather than from the workers themselves.",
+      "points": [
+        "Seasonal unemployment: jobs depend on the time of year, for example in construction, farming, tourism and hotels, which slow down in winter.",
+        "Seasonal workers in these industries are often laid off each winter and re-employed in spring or summer.",
+        "Geographical unemployment: jobs are concentrated in certain regions, so people living far from employment centres are more likely to be out of work.",
+        "Unemployment black spots are areas that lost their main employer, such as a factory closure, and keep high unemployment for many years.",
+        "Outward migration from rural areas removes working-age people, which closes shops and services and reduces the number of local jobs.",
+        "When a local firm closes, job losses spread to suppliers and services that depended on its workers' spending."
+      ]
+    },
+    {
+      "h": "Technical change and changing industry requirements (Higher Level only)",
+      "b": "Changes in production methods and in the structure of industry reduce the number of jobs available.",
+      "points": [
+        "Technical unemployment: machines and automation replace workers, for example automated production lines in manufacturing and self-service banking that reduces the number of bank tellers.",
+        "Difficulty adapting: workers whose skills no longer match industry needs struggle to find new work.",
+        "Primary industries such as agriculture and fishing, and secondary industries such as manufacturing, employ fewer people than in the past, while service and technology industries need new skills.",
+        "Globalisation: manufacturers relocate production to countries with lower labour costs, removing jobs from Ireland.",
+        "Rising educational requirements: many jobs now require qualifications, so people with few or none are excluded from applying."
+      ]
+    },
+    {
+      "h": "Level of demand for products and services (Higher Level only)",
+      "b": "Unemployment rises when firms sell less, because they cut output and staff.",
+      "points": [
+        "A recession reduces consumer spending, so firms reduce production and make workers redundant.",
+        "Cheaper imported goods reduce demand for Irish-made products, and the firms producing them cut jobs.",
+        "Online shopping and cheaper foreign holidays move spending away from Irish shops and tourism businesses.",
+        "Unemployment reduces household income, which reduces spending further and causes more job losses in local shops and services.",
+        "High wage costs reduce the competitiveness of Irish firms against rivals abroad, leading to lost sales and job losses."
+      ]
+    },
+    {
+      "h": "Residual unemployment (Higher Level only)",
+      "b": "Residual unemployment is the hard core of people who stay out of work even when the economy is growing.",
+      "points": [
+        "Causes include poor skills, long periods out of work, ill health or disability, and living in an area with few jobs.",
+        "Residual unemployment persists during economic growth, so growth alone does not remove it.",
+        "Long-term unemployed people make up much of the residual group."
+      ]
+    },
+    {
+      "h": "Groups who find it hard to get work",
+      "b": "Some groups face barriers in addition to the general level of demand for labour.",
+      "points": [
+        "Travellers and ethnic minorities can face discrimination in recruitment.",
+        "Refugees and asylum seekers may not have permission to work or a valid work permit, and may lack the language skills employers require.",
+        "People with disabilities or ill health may be excluded because employers doubt their ability to do the work.",
+        "Homeless people, people with criminal records and early school leavers face employers who are unaware of their abilities, and often lack skills or qualifications.",
+        "Residents of unemployment black spots face few local vacancies and may need to travel or move to find work."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Seasonal unemployment",
+      "definition": "Unemployment caused by work that depends on the time of year, such as construction or tourism work in winter."
+    },
+    {
+      "term": "Geographical unemployment",
+      "definition": "Unemployment caused by jobs being concentrated in certain regions, leaving people in other areas without work."
+    },
+    {
+      "term": "Technical unemployment",
+      "definition": "Job loss caused when machines or automation replace workers."
+    },
+    {
+      "term": "Residual unemployment",
+      "definition": "The hard core of unemployment that persists even when the economy is growing."
+    },
+    {
+      "term": "Unemployment black spot",
+      "definition": "An area with persistently high unemployment, often after the closure of its main employer."
+    },
+    {
+      "term": "Automation",
+      "definition": "The use of machines and computerised systems to carry out tasks previously done by people."
+    },
+    {
+      "term": "Globalisation",
+      "definition": "The growing integration of national economies, which allows firms to move production to lower-cost countries."
+    },
+    {
+      "term": "Competitiveness",
+      "definition": "The ability of a firm or country to sell goods and services against rivals, influenced by costs and quality."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Six causes of unemployment",
+      "definition": "Seasonal, geographical, technical, difficulty adapting to changing industry requirements, low demand for products and services, and residual."
+    },
+    {
+      "term": "Two examples of technology replacing staff",
+      "definition": "Automated production lines in manufacturing; self-service and online banking replacing bank tellers."
+    },
+    {
+      "term": "Three effects of a recession on consumer spending",
+      "definition": "Consumers cut spending; firms reduce output and staff; lower incomes reduce spending further."
+    },
+    {
+      "term": "Three ways rural depopulation deepens local job loss",
+      "definition": "Local shops and services close; spending in the area falls; a shrinking population makes firms less willing to locate there."
+    },
+    {
+      "term": "Three reasons employers may pass over certain applicants",
+      "definition": "Discrimination; mistrust of their ability to do the work; employers' lack of awareness of their skills."
+    },
+    {
+      "term": "Two examples of seasonal work in Ireland",
+      "definition": "Construction work, and work in tourism and hospitality."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two causes of unemployment that are linked to where people live, and explain how each one leads to job loss.",
+      "model": "Geographical unemployment: jobs are concentrated in certain regions; when a major employer closes, a black spot forms with few alternative jobs, and job losses spread to local suppliers and services. Outward migration from rural areas: working-age people leave, which closes local shops and services and reduces the number of local jobs."
+    },
+    {
+      "marks": 24,
+      "prompt": "Analyse the causes of unemployment in Ireland, with reference to technical change and to the level of demand for products and services.",
+      "model": "Technical change: automation and machines replace workers, for example automated production lines and self-service banking; workers whose skills no longer match industry needs struggle to find new work; primary and secondary industries employ fewer people while service and technology industries need new skills; globalisation moves production to lower-cost countries. Demand for products and services: a recession reduces consumer spending, so firms cut output and staff; cheaper imported goods and online shopping reduce demand for Irish goods and services; cheaper foreign holidays reduce spending on Irish tourism; unemployment reduces household income, which reduces spending further; high wage costs reduce competitiveness, leading to lost sales. Each cause reduces the number of jobs available, and the effects reinforce one another."
+    }
+  ]
+}

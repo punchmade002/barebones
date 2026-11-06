@@ -1,0 +1,134 @@
+{
+  "loId": "hom-marriage-s2",
+  "chapterId": "hom-marriage",
+  "subsection": "2. Cultural variations and the marriage relationship",
+  "syllabusRef": "3.1.5",
+  "notes": [
+    {
+      "h": "Cultural variations in marital arrangements",
+      "b": "Marriage arrangements differ between cultures in who chooses the spouse, how many spouses are allowed and who may marry.",
+      "points": [
+        "The minimum age for marriage varies between countries and cultures; in Ireland both partners must be at least 18.",
+        "In an arranged marriage, parents or families choose the spouse on the basis of background and suitability; this practice is found in some cultures, including Sikh and Japanese communities.",
+        "Some cultures restrict the choice of spouse by religion, social class or kinship, meaning a person may not marry someone from a particular group.",
+        "Monogamy, meaning one husband and one wife at a time, is the norm in Western countries, including Ireland.",
+        "Marrying again without the death or divorce of the first spouse is bigamy, which is a criminal offence.",
+        "Polygamy, meaning more than one spouse at a time, is illegal in Ireland.",
+        "Polygyny allows a man to have more than one wife; polyandry allows a woman to have more than one husband.",
+        "Same-sex marriage is recognised in some countries and not in others.",
+        "Interfaith marriages join partners of different religions, and the couple must decide how the ceremony and family religious life will be arranged."
+      ]
+    },
+    {
+      "h": "Customs and ceremonies",
+      "points": [
+        "Veils, rings and throwing rice are wedding customs that have been popular for centuries in many cultures.",
+        "Jewish weddings are held under a canopy, which symbolises the couple's future home.",
+        "At the end of a Jewish wedding, a glass is broken under the groom's foot to recall the destruction of the ancient Temple in Jerusalem, a reminder that a marriage can also end.",
+        "Quaker couples marry at a public gathering with no official present, because they believe God alone makes a couple husband and wife.",
+        "The ceremony can take place in a church, mosque, synagogue, registry office or other registered location, depending on the couple's religion and the law of the country."
+      ]
+    },
+    {
+      "h": "Commitment within marriage",
+      "points": [
+        "Spouses make a public commitment to each other, usually through vows during the ceremony and registration of the marriage.",
+        "Commitment is maintained by working on the relationship, communicating positively and remaining faithful.",
+        "Commitment is also shown through shared finances, a shared home and joint responsibility for children."
+      ]
+    },
+    {
+      "h": "Rights of spouses",
+      "points": [
+        "Right to each other's company: spouses are entitled to live together as a couple.",
+        "Right to a sexual relationship: spouses may have sexual relations with each other, and this is the basis of consummation of the marriage.",
+        "Right to faithfulness: each spouse is expected to remain faithful and loyal to the other within a monogamous marriage.",
+        "Right to inherit: under the Succession Act 1965, a surviving spouse with no will inherits the whole estate if there are no children.",
+        "If there are children and no will, the surviving spouse takes two-thirds of the estate and the children share one-third.",
+        "Legal right share: a surviving spouse can claim a share of the estate even where a will leaves them less, one half if there are no children and one third if there are children."
+      ]
+    },
+    {
+      "h": "Responsibilities of spouses",
+      "points": [
+        "Financial support: each spouse must provide financial support for the other and for their children, as set out in the Family Law (Maintenance of Spouses and Children) Act 1976.",
+        "Joint guardianship: married parents share guardianship of their children and responsibility for their care and upbringing.",
+        "Children's needs: parents must provide for their children's physical, emotional, social, moral and educational needs.",
+        "Commitment: spouses must work on the relationship and show commitment to the marriage.",
+        "Positive communication: spouses must talk openly about decisions, finances and family matters to keep the marriage functioning."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Arranged marriage",
+      "definition": "A marriage in which parents or families choose the spouse, based on background and suitability."
+    },
+    {
+      "term": "Monogamy",
+      "definition": "A marriage arrangement in which a person has one spouse at a time."
+    },
+    {
+      "term": "Polygamy",
+      "definition": "A marriage arrangement in which a person has more than one spouse at the same time."
+    },
+    {
+      "term": "Polygyny",
+      "definition": "A form of polygamy in which a man has more than one wife."
+    },
+    {
+      "term": "Polyandry",
+      "definition": "A form of polygamy in which a woman has more than one husband."
+    },
+    {
+      "term": "Bigamy",
+      "definition": "The offence of marrying a second time while still legally married to another person, without the first marriage having ended by death or divorce."
+    },
+    {
+      "term": "Consummation",
+      "definition": "Sexual intercourse between the spouses after the marriage ceremony."
+    },
+    {
+      "term": "Joint guardianship",
+      "definition": "The shared legal right and responsibility of both parents to care for and make decisions about their child."
+    },
+    {
+      "term": "Officiant",
+      "definition": "The person who conducts a marriage ceremony, such as a priest, minister, registrar or celebrant."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four rights of marriage partners",
+      "definition": "The right to live together, the right to sexual relations, the right to faithfulness and loyalty, and the right to inherit from each other."
+    },
+    {
+      "term": "Four responsibilities of marriage partners",
+      "definition": "Financial support for the spouse and children, joint guardianship of the children, providing for the children's needs, and commitment to the relationship through communication."
+    },
+    {
+      "term": "Two symbolic features of a Jewish wedding",
+      "definition": "The canopy, which symbolises the couple's future home, and the glass broken under the groom's foot, which recalls the destruction of the Temple in Jerusalem."
+    },
+    {
+      "term": "Estate shares for a surviving spouse and children with no will",
+      "definition": "The surviving spouse takes two-thirds of the estate and the children share one-third, under the Succession Act 1965."
+    },
+    {
+      "term": "Quaker wedding",
+      "definition": "Couples marry at a public gathering with no official present, because they believe God alone makes a couple husband and wife."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe two ways in which marriage customs or arrangements can differ between cultures.",
+      "model": "Any two of the following, each described: arranged marriages, where parents choose the spouse on the basis of background and suitability; restrictions on who may be chosen as a spouse by religion, social class or kinship; differences in the number of spouses allowed, such as monogamy, polygamy, polygyny or polyandry; differences in the ceremony, such as veils, rings, rice throwing, canopies, or a Quaker meeting without an officiant; differences in the age at which people may marry; same-sex marriage being recognised in some countries and not in others."
+    },
+    {
+      "marks": 20,
+      "prompt": "Explain the rights that spouses hold towards each other and the duties they owe to their children under Irish law, and show how commitment supports both.",
+      "model": "Rights between spouses: the right to live together and have each other's company; the right to a sexual relationship and consummation of the marriage; the right to faithfulness and loyalty within a monogamous marriage; the right to inherit, under the Succession Act 1965, the whole estate with no will and no children, or two-thirds with children, and a legal right share even where a will provides less. Duties to children: financial support for the spouse and children under the Family Law (Maintenance of Spouses and Children) Act 1976; joint guardianship, with shared responsibility for care and upbringing; a legal duty to provide for the children's physical, emotional, social, moral and educational needs. Commitment: spouses show commitment by working on the relationship, communicating openly and sharing finances, a home and parenting, which allows both rights and responsibilities to be honoured over the life of the marriage."
+    }
+  ]
+}

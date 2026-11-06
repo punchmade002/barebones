@@ -1,0 +1,175 @@
+{
+  "loId": "hom-energy-nutrition-s2",
+  "chapterId": "hom-energy-nutrition",
+  "subsection": "2. Energy balance",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    {
+      "h": "Energy balance and body weight",
+      "b": "Energy balance compares the energy taken in through food and drink with the energy the body uses.",
+      "points": [
+        "Energy input is the energy in the food and drink consumed; energy output is the energy used by BMR, physical activity, growth and digestion.",
+        "Energy balance is achieved when energy input equals energy output; body weight then stays steady.",
+        "Positive energy balance: input exceeds output, and the surplus is stored as adipose (fat) tissue, so weight is gained.",
+        "Negative energy balance: output exceeds input, so the body uses stored glycogen and fat, and weight is lost.",
+        "Maintaining energy balance keeps a person at a healthy weight and supports energy for work, study and growth."
+      ]
+    },
+    {
+      "h": "Adjusting intake and output",
+      "points": [
+        "To reduce energy intake: cut back on sugary drinks, sweets, fried and fatty foods, and check portion sizes.",
+        "To increase energy output: add daily walking, cycling, stairs instead of lifts, or a regular sport.",
+        "To reduce time spent sedentary: limit television, computer and gaming time and break up long periods of sitting.",
+        "A gradual change, sustained over time, is more effective than crash dieting."
+      ]
+    },
+    {
+      "h": "Case study method: recommending changes",
+      "b": "Case studies give a person's lifestyle and daily menu; the answer should analyse the energy balance and then recommend changes.",
+      "points": [
+        "1. Identify the person's energy output: occupation, activity level, time spent sitting and any growth or pregnancy needs.",
+        "2. Estimate the energy input from the menu: note the high-energy items, such as fried foods, cakes, sugary drinks and large portions.",
+        "3. State whether the person is in positive or negative energy balance, and what this may do to body weight.",
+        "4. Recommend a change to intake: replace the high-energy items with fruit, vegetables, wholegrain foods or lean protein.",
+        "5. Recommend a change to output: name a specific activity, how often and for how long.",
+        "6. Write a one-day menu that meets the person's energy needs and matches the guidelines."
+      ]
+    },
+    {
+      "h": "Empty kilocalories",
+      "points": [
+        "Empty kilocalories are calories from food that supply little or no nutrition, such as sweets, sugary soft drinks, crisps and alcohol.",
+        "They add to energy intake without supplying protein, vitamins or minerals, so they can cause positive energy balance while the diet is poor in nutrients.",
+        "Replacing empty kilocalories with fruit, vegetables or wholegrain foods gives the same energy with more nutrients."
+      ]
+    },
+    {
+      "h": "Obesity: causes",
+      "b": "Obesity is a condition of excess body fat, usually caused by a long-term positive energy balance.",
+      "points": [
+        "Energy imbalance: intake consistently exceeds output, so the surplus is stored as fat.",
+        "Sedentary lifestyle: a job or leisure time spent sitting lowers energy output.",
+        "Lack of exercise: regular physical activity is not part of daily routine.",
+        "Psychological factors: depression, boredom and stress can lead to overeating and snacking.",
+        "Hormonal imbalance: an underactive thyroid gland lowers BMR, so the same food intake produces weight gain.",
+        "Unhealthy eating patterns: frequent snacking, skipped meals followed by overeating, and frequent takeaways.",
+        "Poor food choices: a high intake of processed foods, sugary drinks and fatty foods.",
+        "Large portion sizes of energy-dense foods increase intake without adding to fullness."
+      ]
+    },
+    {
+      "h": "Obesity: health risks",
+      "points": [
+        "Type 2 diabetes: excess fat reduces the body's response to insulin, so blood glucose rises.",
+        "Coronary heart disease and stroke: obesity raises blood pressure and blood cholesterol levels.",
+        "High blood pressure and high cholesterol, both linked to excess weight.",
+        "Gallstones: excess body fat increases the risk of gallstone formation.",
+        "Arthritis and back pain: extra weight puts stress on the weight-bearing joints and the spine.",
+        "Varicose veins: excess weight increases pressure on the veins in the legs.",
+        "Depression and poor self-esteem, which can both result from obesity and make it harder to change habits.",
+        "Difficulties in pregnancy and childbirth, and infertility.",
+        "Reduced life expectancy, as the combined risks shorten life."
+      ]
+    },
+    {
+      "h": "Body mass index (BMI)",
+      "b": "BMI is a simple measure that relates body weight to height and is used to classify body weight.",
+      "points": [
+        "BMI = weight in kilograms divided by height in metres squared.",
+        "Below 18.5: underweight.",
+        "18.5 to 24.9: healthy weight range.",
+        "25 to 29.9: overweight.",
+        "30 and above: obese.",
+        "BMI does not distinguish between muscle and fat, so a muscular athlete may score as overweight.",
+        "Waist measurement is used alongside BMI, because fat stored around the abdomen carries greater health risk."
+      ]
+    },
+    {
+      "h": "Calculating and reading BMI from data",
+      "points": [
+        "Step 1: convert height to metres (for example, 175 cm = 1.75 m).",
+        "Step 2: square the height (1.75 x 1.75 = 3.06).",
+        "Step 3: divide weight by the squared height (sample data: 70 kg / 3.06 = 22.9, in the healthy range).",
+        "Read a BMI table by finding the row for the height and the column for the weight, and matching the result to the categories above.",
+        "When comparing groups in data, note which group has the higher share in the overweight or obese categories and link this to diet and activity."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Energy balance",
+      "definition": "The state in which energy taken in through food equals energy used by the body, so body weight stays steady."
+    },
+    {
+      "term": "Positive energy balance",
+      "definition": "Energy intake greater than energy output, with the surplus stored mainly as fat."
+    },
+    {
+      "term": "Negative energy balance",
+      "definition": "Energy output greater than energy intake, so stored fat and glycogen are used and weight falls."
+    },
+    {
+      "term": "Obesity",
+      "definition": "A condition of excess body fat that carries health risks, usually caused by a long-term positive energy balance."
+    },
+    {
+      "term": "Body mass index (BMI)",
+      "definition": "Body weight in kilograms divided by height in metres squared, used to classify body weight."
+    },
+    {
+      "term": "Empty kilocalories",
+      "definition": "Calories from food that provide energy but little or no nutritional value."
+    },
+    {
+      "term": "Adipose tissue",
+      "definition": "Body fat tissue, which stores surplus energy from food."
+    },
+    {
+      "term": "Sedentary lifestyle",
+      "definition": "A way of living with little physical activity, so that daily energy output is low."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four health risks of obesity",
+      "definition": "Type 2 diabetes; coronary heart disease; high blood pressure; gallstones."
+    },
+    {
+      "term": "Five causes of obesity",
+      "definition": "Energy imbalance; sedentary lifestyle; lack of exercise; psychological factors such as boredom; hormonal imbalance such as an underactive thyroid."
+    },
+    {
+      "term": "Formula for BMI",
+      "definition": "Weight in kilograms divided by height in metres squared."
+    },
+    {
+      "term": "BMI range for a healthy weight",
+      "definition": "18.5 to 24.9."
+    },
+    {
+      "term": "BMI value that classifies obesity",
+      "definition": "30 and above."
+    },
+    {
+      "term": "Two outcomes of a positive energy balance",
+      "definition": "Surplus energy is stored as adipose tissue, so weight is gained; over time this increases the risk of overweight and obesity."
+    },
+    {
+      "term": "Three effects of a sedentary lifestyle on energy balance",
+      "definition": "Energy output falls; the body needs less food energy, so surplus intake leads to weight gain; cardiovascular fitness declines."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two causes of obesity and explain how each one leads to excess body weight.",
+      "model": "Energy imbalance: intake regularly exceeds output, and the surplus is stored as adipose fat, so weight rises. Sedentary lifestyle: low physical activity reduces energy output, so food energy that is not used is stored as fat. Also accepted: unhealthy eating patterns such as snacking, poor food choices with a high intake of processed foods, psychological factors such as boredom or stress eating, and an underactive thyroid lowering BMR."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the health risks associated with obesity, and outline two changes an adult could make to restore energy balance.",
+      "model": "Health risks: type 2 diabetes, as excess fat reduces the response to insulin; coronary heart disease and stroke, as raised blood pressure and cholesterol damage blood vessels; high blood pressure; gallstones; arthritis and back pain from strain on weight-bearing joints and the spine; varicose veins; depression and poor self-esteem; difficulties in pregnancy and childbirth; reduced life expectancy. Changes: reduce energy input by cutting back on sugary drinks, sweets and fried foods, and by controlling portion sizes; increase energy output by adding regular brisk walking, cycling or a sport. Any change should be gradual and sustained, and the person's BMI and waist measurement can be used to track progress."
+    }
+  ]
+}

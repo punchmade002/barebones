@@ -1,0 +1,149 @@
+{
+  "loId": "hom-housing-s4",
+  "chapterId": "hom-housing",
+  "subsection": "4. Housing provision",
+  "syllabusRef": "4.1.2",
+  "notes": [
+    {
+      "h": "Housing requirements of different groups",
+      "b": "Each household group needs a different combination of space, location, access and services.",
+      "points": [
+        "Families need enough bedrooms for every member, adequate storage, a well-equipped and ventilated kitchen, and a living room for relaxing and watching television.",
+        "Families with young children need a safe, enclosed back garden; families with a car or sports equipment may need a garage or shed.",
+        "Single people usually need smaller, affordable accommodation close to work, college or public transport, with space for study.",
+        "Older people need single-storey living or a stairlift, level entrances, a home that is warm and easy to heat, and nearness to shops, health services and community facilities.",
+        "People with disabilities need adjustments that depend on the disability: ramps for wheelchair or walking-aid users, lowered switches and sockets, flashing lights linked to doorbells and alarms for people with a hearing disability, and an accessible bathroom.",
+        "Homeless people need emergency shelter in hostels or emergency bed and breakfast accommodation, followed by rent-assisted private accommodation and then a permanent home."
+      ]
+    },
+    {
+      "h": "Social housing provision",
+      "points": [
+        "Local authority housing is rented housing allocated by need, with priority given to households unable to house themselves.",
+        "Allocation by local authorities considers household size, income, current accommodation, age and disability, and families, people with disabilities and older people are often given priority.",
+        "Voluntary housing is provided by approved housing bodies and voluntary organisations, often for specific groups such as older people, people with disabilities or homeless people.",
+        "Co-operative housing is built by a group of members who pool the costs of the site, builder and solicitor, and a local authority may provide a low-cost site for a co-operative whose members are on its waiting list.",
+        "Shared equity and affordable purchase: under the First Home scheme the State and participating lenders take an equity share in a new home, which the buyer can buy out later; local authorities also sell affordable homes below market price.",
+        "Demand for social housing exceeds supply, so applicants can wait for a number of years for a home."
+      ]
+    },
+    {
+      "h": "Distribution of housing (Higher Level only)",
+      "points": [
+        "Owner-occupation is the largest tenure in Ireland, followed by private renting and social housing.",
+        "Urban areas have higher density, more apartments and greater demand, while rural areas have one-off houses and, in some places, vacant homes.",
+        "Private housing is built by developers and sold or let on the open market; social housing is built and allocated by local authorities and approved housing bodies.",
+        "Strong demand in cities and commuter areas pushes up prices and rents, while some rural areas have vacant housing but fewer jobs and services."
+      ]
+    },
+    {
+      "h": "Quality of accommodation and comparative costs (Higher Level only)",
+      "points": [
+        "A BER certificate rates a home's energy efficiency from A, the most efficient, to G, the least efficient.",
+        "Older housing stock is often poorly insulated and costly to heat, which can cause fuel poverty.",
+        "Damp, poor ventilation and inadequate lighting reduce the quality of accommodation and can affect health.",
+        "Buying involves a deposit, mortgage repayments and maintenance, and builds equity; renting involves rent with no return but lower upfront costs.",
+        "In high-demand urban areas, rent can be as high as, or higher than, mortgage repayments, but buying requires a deposit that many people cannot save.",
+        "Rural homes are often cheaper to buy than urban ones, but residents may have to travel further to reach schools, shops and jobs."
+      ]
+    },
+    {
+      "h": "Adequacy of housing provision (Higher Level only)",
+      "points": [
+        "Adequacy means more than the number of dwellings: housing must be affordable, secure, suitable, accessible and near employment, transport, schools, healthcare and shops.",
+        "Low-income families, lone parents, homeless people, older people and people with disabilities may not get housing suited to their needs.",
+        "Emergency accommodation does not offer the stability of a permanent home.",
+        "Local authority building, voluntary and co-operative schemes increase supply, and adaptation grants help particular groups to stay in their homes.",
+        "Renovating vacant property and planning mixed, serviced developments are further ways to improve adequacy."
+      ]
+    },
+    {
+      "h": "Local amenities and services",
+      "points": [
+        "Schools, childcare and playgrounds serve children and reduce long journeys for families.",
+        "Shops, post offices, banks and community centres provide necessities and social contact.",
+        "Public transport gives access to employment and services; a development without transport isolates its residents.",
+        "Parks, sports grounds and play areas promote exercise, leisure and community interaction.",
+        "Street lighting improves safety, and regular refuse collection keeps the area hygienic.",
+        "Accessible healthcare, pharmacies and services for older people or people with disabilities support independence.",
+        "Setting: a group housing study of a local area such as a townland, village or housing estate, recording which amenities are present and which are missing."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Social housing",
+      "definition": "Housing provided at subsidised rents or costs for households in need, through local authorities, approved housing bodies or co-operatives."
+    },
+    {
+      "term": "Owner-occupier",
+      "definition": "A household that owns the home it lives in and is paying off a mortgage on it or has paid it off."
+    },
+    {
+      "term": "Co-operative housing",
+      "definition": "Housing built and managed by a group of members who pool their resources to share the costs of site, builder and professional services."
+    },
+    {
+      "term": "Shared equity",
+      "definition": "A scheme, such as First Home, in which the State and lenders own a share of a new home alongside the buyer, who can buy out that share later."
+    },
+    {
+      "term": "Fuel poverty",
+      "definition": "A situation in which a household cannot afford to heat its home adequately, often because of poor insulation or outdated heating."
+    },
+    {
+      "term": "Adequacy of provision",
+      "definition": "The extent to which housing supply meets the needs of different groups in terms of affordability, suitability, accessibility and location."
+    },
+    {
+      "term": "Emergency accommodation",
+      "definition": "Temporary shelter, such as a hostel or emergency bed and breakfast, provided to people who have no home."
+    },
+    {
+      "term": "Amenities",
+      "definition": "Facilities such as schools, shops, transport, parks and healthcare that make a housing development a place to live."
+    },
+    {
+      "term": "Approved housing body",
+      "definition": "A non-profit body approved to provide social housing, often for particular groups such as older people or people with disabilities."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three ways a family's housing needs differ from a single person's",
+      "definition": "More bedrooms and storage; a safe enclosed garden for young children; space for a car or sports equipment."
+    },
+    {
+      "term": "Four home adjustments for people with disabilities",
+      "definition": "Ramps for wheelchair or walking-aid users; lowered switches and sockets; flashing visual alarms; an accessible bathroom."
+    },
+    {
+      "term": "Three providers of subsidised homes",
+      "definition": "Local authority housing; voluntary housing provided by approved housing bodies; co-operative housing built by a group of members."
+    },
+    {
+      "term": "Four facilities a new housing development should provide",
+      "definition": "Schools and childcare; shops and services; public transport; play areas and parks."
+    },
+    {
+      "term": "Two reasons older housing can be costly to heat",
+      "definition": "Poor insulation and draughts; outdated or inefficient heating systems."
+    },
+    {
+      "term": "Stage of homelessness support that follows emergency shelter",
+      "definition": "Rent-assisted private accommodation, leading on to a permanent home."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name and describe two features a home should have to meet the needs of an older person living alone.",
+      "model": "Single-storey living or a stairlift, so that the person can reach all rooms safely without climbing stairs; level or ramped entrances and step-free access; a home that is warm and easy to heat, with good insulation; a location close to shops, health services and public transport. Any two features, each named and described, earn the marks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Evaluate the adequacy of housing provision in Ireland today for families, single people and homeless people.",
+      "model": "Adequacy means affordable, secure, suitable, accessible and well located housing. Families: adequate space, bedrooms and storage, and safe outdoor space; provision is limited in cities where large family homes are scarce and expensive. Single people: smaller, affordable accommodation such as apartments and private rented homes is available in urban areas, but rents are high and shared accommodation can be poor quality. Homeless people: emergency accommodation such as hostels and emergency bed and breakfast provides shelter but not the stability of a home; move-on supports such as rent-assisted private accommodation help some people, but long social housing waiting lists and the limited supply of permanent homes leave many in emergency accommodation. Overall distribution: strong demand in cities and commuter areas and vacancy in some rural areas; social provision by local authorities, approved housing bodies and co-operatives helps, but supply does not meet demand. Quality: older stock is costly to heat and may be damp, so some homes are not adequate. A balanced evaluation should reach a conclusion on which groups are best and worst served."
+    }
+  ]
+}

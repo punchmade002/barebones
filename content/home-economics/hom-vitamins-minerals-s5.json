@@ -1,0 +1,173 @@
+{
+  "loId": "hom-vitamins-minerals-s5",
+  "chapterId": "hom-vitamins-minerals",
+  "subsection": "5. Factors affecting the absorption of minerals",
+  "syllabusRef": "1.1.6",
+  "notes": [
+    {
+      "h": "How iron is absorbed and stored (assumed knowledge)",
+      "points": [
+        "Most iron is absorbed in the duodenum, the first part of the small intestine.",
+        "Absorbed iron binds to transferrin, a protein that carries it in the blood to where it is needed.",
+        "Surplus iron is stored in the liver as ferritin, and the body has little ability to excrete iron.",
+        "Iron is lost in small amounts through sweat, shed skin cells and, in women, menstrual blood."
+      ]
+    },
+    {
+      "h": "The role of vitamins in iron and calcium absorption",
+      "points": [
+        "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+        "Vitamin C also aids the absorption of calcium.",
+        "Vitamin D stimulates the production of a calcium-binding protein in the lining of the small intestine, increasing calcium absorption.",
+        "Vitamin D increases the absorption of phosphorus, which must be present in a balanced ratio with calcium.",
+        "Where vitamin D is lacking, calcium absorption falls even when dietary calcium is adequate, so bones weaken."
+      ]
+    },
+    {
+      "h": "Haem and non-haem iron",
+      "points": [
+        "Haem iron comes from animal foods such as red meat, liver, poultry and fish, and is already in the ferrous form.",
+        "Haem iron is absorbed more readily than non-haem iron, and its absorption is largely unaffected by other foods in the meal.",
+        "Non-haem iron comes from plant foods, pulses, wholegrain cereals, nuts, seeds, dark green vegetables and eggs.",
+        "Non-haem iron is in the ferric form and must be converted to the ferrous form before the intestine can absorb it.",
+        "Eating meat, fish or poultry in the same meal as non-haem iron foods increases the absorption of non-haem iron, an effect known as the meat factor."
+      ]
+    },
+    {
+      "h": "Factors that aid iron absorption",
+      "points": [
+        "Vitamin C is a major enhancer of non-haem iron absorption, acting on the ferric iron in plant foods.",
+        "Hydrochloric acid in the stomach helps convert ferric iron to ferrous iron, aiding absorption.",
+        "Eating vitamin C-rich fruit or vegetables with an iron-rich meal increases absorption, for example a glass of orange juice with lentils."
+      ]
+    },
+    {
+      "h": "Factors that inhibit iron absorption",
+      "points": [
+        "Tannins in tea and coffee bind iron into an insoluble compound, so these drinks should not be taken with an iron-rich meal.",
+        "Phytates in wholegrain cereals and pulses bind iron and reduce its absorption.",
+        "Oxalates in spinach and rhubarb bind iron, reducing its absorption.",
+        "Calcium from dairy products or supplements taken with a meal competes with iron for absorption."
+      ]
+    },
+    {
+      "h": "Factors that aid calcium absorption",
+      "points": [
+        "Vitamin D is the main vitamin that drives calcium absorption from the intestine.",
+        "Lactose, the sugar in milk, improves calcium absorption.",
+        "An acidic environment in the stomach and small intestine keeps calcium soluble and easier to absorb.",
+        "Adequate protein provides amino acids that combine with calcium to make it more soluble, aiding absorption.",
+        "Parathormone, the parathyroid hormone, raises blood calcium by increasing its absorption from food and its release from bone.",
+        "Oestrogen supports calcium absorption and bone retention, and the fall in oestrogen after menopause increases the risk of osteoporosis."
+      ]
+    },
+    {
+      "h": "Other factors that inhibit calcium absorption",
+      "points": [
+        "Excess dietary fibre reduces calcium absorption.",
+        "Excess fat in the diet reduces calcium absorption by binding to it in the intestine.",
+        "Caffeine in tea and coffee increases the loss of calcium in urine.",
+        "Excess salt increases the loss of calcium in urine.",
+        "Alcohol reduces calcium absorption and increases its loss from the body.",
+        "Smoking and nicotine reduce calcium absorption and bone density."
+      ]
+    },
+    {
+      "h": "Phytates and oxalates and calcium absorption (Higher Level only)",
+      "points": [
+        "Phytic acid, found in cereal grains, bran and pulses, binds calcium to form calcium phytate, an insoluble compound that the body cannot absorb.",
+        "Oxalic acid, found in spinach and rhubarb, binds calcium to form calcium oxalate, which is insoluble and not absorbed.",
+        "Because of its oxalate, the calcium in spinach is poorly absorbed, even though spinach contains calcium.",
+        "Phytates and oxalates are most damaging when eaten in large amounts at the same meal as calcium-rich foods such as milk or cheese."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Haem iron",
+      "definition": "Iron from animal foods that is already in the ferrous form and is absorbed readily, largely independent of other foods in the meal."
+    },
+    {
+      "term": "Non-haem iron",
+      "definition": "Iron from plant foods and eggs, in the ferric form, which must be converted to the ferrous form before it is absorbed."
+    },
+    {
+      "term": "Ferrous iron",
+      "definition": "The Fe²⁺ form of iron, which the intestine absorbs more readily than the ferric form."
+    },
+    {
+      "term": "Ferric iron",
+      "definition": "The Fe³⁺ form of iron, which is less readily absorbed and must be reduced by vitamin C or stomach acid."
+    },
+    {
+      "term": "Phytic acid",
+      "definition": "A compound in cereal grains, bran and pulses that binds iron and calcium into insoluble forms the body cannot absorb."
+    },
+    {
+      "term": "Oxalic acid",
+      "definition": "A compound in spinach and rhubarb that binds calcium and iron into insoluble forms the body cannot absorb."
+    },
+    {
+      "term": "Tannins",
+      "definition": "Compounds in tea and coffee that bind iron and reduce its absorption when the drinks are taken with food."
+    },
+    {
+      "term": "Meat factor",
+      "definition": "The effect by which meat, fish or poultry eaten with plant foods increases the absorption of non-haem iron."
+    },
+    {
+      "term": "Parathormone",
+      "definition": "The parathyroid hormone that raises blood calcium by increasing absorption from food and release from bone."
+    },
+    {
+      "term": "Ferritin",
+      "definition": "The protein in the liver that stores surplus iron until the body needs it."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three factors that help non-haem iron absorption",
+      "definition": "Vitamin C; meat, fish or poultry eaten in the same meal; hydrochloric acid in the stomach."
+    },
+    {
+      "term": "Three inhibitors of iron absorption",
+      "definition": "Tannins in tea and coffee; phytates in wholegrain cereals; oxalates in spinach and rhubarb."
+    },
+    {
+      "term": "Two factors that aid calcium absorption",
+      "definition": "Vitamin D and lactose."
+    },
+    {
+      "term": "Two substances that bind calcium",
+      "definition": "Phytic acid and oxalic acid."
+    },
+    {
+      "term": "Protein that stores iron in the liver",
+      "definition": "Ferritin, which holds surplus iron until the body needs it."
+    },
+    {
+      "term": "Protein that carries iron in the blood",
+      "definition": "Transferrin, which carries absorbed iron to the tissues that need it."
+    },
+    {
+      "term": "Hormone that raises blood calcium",
+      "definition": "Parathormone, which increases calcium absorption from food and release from bone."
+    },
+    {
+      "term": "Animal foods rich in haem iron",
+      "definition": "Red meat, liver, poultry and fish."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how vitamin C increases the absorption of iron from a vegetarian meal.",
+      "model": "Non-haem iron from plant foods is in the ferric (Fe³⁺) form, which is poorly absorbed. Vitamin C reduces it to the ferrous (Fe²⁺) form, which the small intestine absorbs more readily. Vitamin C also helps by creating an acidic environment that aids iron absorption. Example from a vegetarian meal: a salad of spinach, tomato and red pepper with lemon juice dressing. One mark each for the ferric to ferrous conversion, the greater absorption of ferrous iron, and a correct example of vitamin C in the meal."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the factors that aid and inhibit the absorption of calcium and iron from food, and explain how these factors could affect the planning of a diet.",
+      "model": "Iron: haem iron from meat, fish and poultry is absorbed readily; non-haem iron from plant foods and eggs must be converted from ferric to ferrous form. Aids: vitamin C, meat, fish or poultry eaten at the same meal (the meat factor), stomach acid. Inhibitors: tannins in tea and coffee, phytates in wholegrain cereals and pulses, oxalates in spinach and rhubarb, calcium taken at the same meal. Calcium: aided by vitamin D, lactose, an acidic environment, adequate protein and parathormone; oestrogen supports retention. Inhibitors: excess fibre, excess fat, caffeine, excess salt, alcohol, smoking; phytic and oxalic acids bind calcium into insoluble forms. Diet planning: pair non-haem iron foods with vitamin C sources and avoid tea or coffee at iron-rich meals; include vitamin D sources; use dairy or fortified foods for calcium while limiting excess salt, caffeine and alcohol; make sure spinach and rhubarb are not counted as reliable calcium sources."
+    }
+  ]
+}

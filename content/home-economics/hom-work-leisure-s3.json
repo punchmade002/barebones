@@ -1,0 +1,148 @@
+{
+  "loId": "hom-work-leisure-s3",
+  "chapterId": "hom-work-leisure",
+  "subsection": "3. Unpaid and voluntary work",
+  "syllabusRef": "6.3.1",
+  "notes": [
+    {
+      "h": "Unpaid work and its value",
+      "b": "Unpaid work done in the home sustains family life and reduces the need for paid services.",
+      "points": [
+        "Unpaid work covers child care, housework, cooking, caring for an elderly parent or a person with a disability, and DIY and home maintenance.",
+        "It is mainly done within the household and is not paid, so it lacks the advantages of paid work such as pension entitlement and sick pay.",
+        "Unpaid work is not counted in measures of national paid output, so its contribution is often overlooked.",
+        "Unpaid work can be monotonous, and it often falls unequally on women within the household."
+      ]
+    },
+    {
+      "h": "Voluntary work: what it involves",
+      "b": "Voluntary work is unpaid work done by choice, for the benefit of people outside the household.",
+      "points": [
+        "Voluntary work is carried out through charities, community groups, sports clubs, schools, churches and local development groups.",
+        "Typical activities include running charity shops, fundraising, providing meals and transport for older people, mentoring young people and helping with local events.",
+        "Environmental volunteering includes litter clean-ups, tree planting, conservation work and local recycling projects.",
+        "Volunteers receive no wage, sick pay or pension, but may receive expenses for travel or training."
+      ]
+    },
+    {
+      "h": "Difference between unpaid home work and voluntary work",
+      "points": [
+        "Unpaid home work is largely a duty within the family; voluntary work is chosen freely.",
+        "Unpaid home work benefits the household; voluntary work benefits people and causes in the wider community.",
+        "Voluntary work is usually organised through an organisation, while home work is carried out individually.",
+        "Voluntary work generally carries more social recognition than unpaid work in the home."
+      ]
+    },
+    {
+      "h": "Benefits to the volunteer",
+      "points": [
+        "New skills and experience, such as teamwork, communication, organisation and leadership, which can be listed on a CV.",
+        "Confidence and self-esteem grow as the volunteer contributes to something valued.",
+        "Social contact and friendships reduce isolation, particularly for people who are retired, unemployed or new to an area.",
+        "Volunteering gives people a sense of purpose and fulfilment, and a chance to develop their potential.",
+        "Volunteering can lead to paid employment, as it builds experience and references in a particular field.",
+        "Empathy develops through helping others in need, such as older or vulnerable people."
+      ]
+    },
+    {
+      "h": "Benefits to the community",
+      "points": [
+        "Services that would otherwise be unavailable or unaffordable can be provided, such as meals for housebound people or local youth activities.",
+        "Volunteers build social cohesion by bringing people from different backgrounds together around a shared purpose.",
+        "Support for vulnerable groups, including older people, people with disabilities, lone parents and the homeless, reaches those who might otherwise be missed.",
+        "Local facilities such as halls, playing fields and parks are maintained and improved through volunteer effort and fundraising.",
+        "Volunteers raise awareness of local issues and encourage civic participation in decisions that affect the area."
+      ]
+    },
+    {
+      "h": "Voluntary work and social and environmental change",
+      "points": [
+        "Social change: volunteers campaign for better services, such as local supports for families, and help people to claim the supports they are entitled to.",
+        "Social change: volunteer-run projects build inclusion by integrating people with disabilities or from minority groups into community life.",
+        "Environmental change: clean-up and conservation projects reduce litter and protect habitats such as woodland, river banks and coastline.",
+        "Environmental change: volunteer-led recycling and community growing schemes change local habits and reduce waste.",
+        "Long-term change comes from volunteers passing on their knowledge and skills to others, so the work continues beyond any one project."
+      ]
+    },
+    {
+      "h": "Limits and challenges of voluntary work",
+      "points": [
+        "Volunteers can experience burnout when a few people carry a large share of the work.",
+        "Groups depend on continued volunteer commitment, which can be hard to sustain as people take on paid work or family responsibilities.",
+        "Volunteers can face out-of-pocket costs for travel, equipment or training that are not reimbursed."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Unpaid work",
+      "definition": "Work done without financial reward, mainly in the home, such as child care, housework and caring for relatives."
+    },
+    {
+      "term": "Voluntary work",
+      "definition": "Unpaid work done by choice for the benefit of people or causes outside the household."
+    },
+    {
+      "term": "Volunteer",
+      "definition": "A person who gives unpaid time to voluntary work through a charity, community group or organisation."
+    },
+    {
+      "term": "Social cohesion",
+      "definition": "The sense of belonging and mutual trust that draws people in a community together."
+    },
+    {
+      "term": "Civic participation",
+      "definition": "Taking part in community life and public decisions, such as through local groups and consultations."
+    },
+    {
+      "term": "Burnout",
+      "definition": "Physical and emotional exhaustion caused by sustained pressure, often when a few people carry most of a group's work."
+    },
+    {
+      "term": "Empathy",
+      "definition": "The ability to understand and share the feelings of others, developed through helping people in need."
+    },
+    {
+      "term": "Social inclusion",
+      "definition": "Bringing people at risk of isolation or disadvantage into full participation in community life."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three features of unpaid work",
+      "definition": "No financial reward; done mainly in the home; includes child care, housework and care of elderly or disabled relatives."
+    },
+    {
+      "term": "Four benefits to the volunteer",
+      "definition": "New skills and experience; confidence and self-esteem; social contact and friendships; a sense of purpose and fulfilment."
+    },
+    {
+      "term": "Three benefits to the community",
+      "definition": "Services that would otherwise be unavailable; social cohesion between different groups; support for vulnerable people such as older people and lone parents."
+    },
+    {
+      "term": "Examples of environmental volunteering",
+      "definition": "Litter clean-ups, tree planting, habitat conservation on riverbanks and coastline, and local recycling schemes."
+    },
+    {
+      "term": "How voluntary work differs from home work",
+      "definition": "Voluntary work is chosen freely, is done for people outside the household, and is usually organised through a group or organisation."
+    },
+    {
+      "term": "Two challenges facing volunteer groups",
+      "definition": "Burnout when a few people carry most of the work; difficulty sustaining commitment as volunteers take on paid work or family responsibilities."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe two ways in which voluntary work benefits a local community.",
+      "model": "Voluntary work provides services that would otherwise be unavailable or unaffordable, such as meals or transport for older people. It also builds social cohesion, bringing people from different backgrounds together around a shared purpose."
+    },
+    {
+      "marks": 20,
+      "prompt": "Discuss how voluntary work can benefit the volunteer personally, and evaluate its contribution to social and environmental change in a local community.",
+      "model": "Personal benefits include new skills such as teamwork and leadership, growth in confidence and self-esteem, friendships that reduce isolation, and a sense of purpose. Volunteering can also develop empathy and build experience that supports paid employment. For the community, volunteers campaign for better local services and promote social inclusion of people with disabilities or from minority groups. Environmental contributions include clean-ups, habitat conservation and recycling schemes that change local habits. The contribution is limited by burnout when a few people carry most of the work and by difficulty sustaining volunteer commitment over time."
+    }
+  ]
+}

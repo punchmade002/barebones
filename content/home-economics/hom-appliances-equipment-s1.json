@@ -1,0 +1,138 @@
+{
+  "loId": "hom-appliances-equipment-s1",
+  "chapterId": "hom-appliances-equipment",
+  "subsection": "1. Household technology and home management",
+  "syllabusRef": "2.1.5",
+  "notes": [
+    {
+      "h": "Technology and the household workload",
+      "b": "Appliances and home systems take over repetitive tasks, saving time and physical effort.",
+      "points": [
+        "Washing machines, dishwashers and vacuum cleaners replace hand washing, drying and sweeping, reducing the time spent on each task.",
+        "Automatic programmes and timers let a task run unsupervised, so the household can do other work or rest while it runs.",
+        "Steam cleaners clean and sanitise floors, carpets and upholstery with little or no chemical cleaner, improving hygiene.",
+        "Easy-care products, such as stain-resistant fabrics and low-maintenance surfaces, need less washing, ironing and upkeep.",
+        "Technology can increase the effectiveness of some tasks: steam cleaning lifts dirt that a dry cloth leaves behind, for example."
+      ]
+    },
+    {
+      "h": "Energy and running-cost control",
+      "points": [
+        "Programmable timers switch heating and hot water on only when needed, reducing fuel use and bills.",
+        "Zoned heating controls heat separate parts of the house to different temperatures, so unused rooms are not heated.",
+        "Microcomputer chips in appliances control heating, cooking and washing cycles, adjusting the energy used to the task.",
+        "Microwave ovens heat small and medium portions faster than a conventional oven, using less energy for reheating and defrosting.",
+        "Solar panels convert sunlight into electricity or hot water, reducing the household's reliance on mains energy."
+      ]
+    },
+    {
+      "h": "Home security and automated systems",
+      "points": [
+        "Burglar alarms sound on forced entry and can alert occupants or a monitoring service.",
+        "CCTV cameras record the outside of the home, deterring intruders and providing evidence after an incident.",
+        "Automated security lighting switches on when movement or darkness is detected, making the outside of the home less attractive to intruders.",
+        "Electronic gates can be opened and closed remotely, so residents do not have to leave a vehicle to enter the property.",
+        "Built-in safety devices such as automatic cut-outs and door interlocks protect users from hazards without relying on constant attention."
+      ]
+    },
+    {
+      "h": "Managing money, shopping and communication",
+      "points": [
+        "Budgeting and accounting software records income and spending by category and helps the household plan future expenditure.",
+        "Online banking lets bills be paid and balances checked at any time without visiting a branch.",
+        "Internet shopping allows goods to be compared and bought without travelling to shops.",
+        "Email, video calling and social media keep household members in contact across distances and share information quickly.",
+        "Computers let some members work from home, which can reduce commuting time and cost.",
+        "Smartphone apps can turn lights and heating on or off, and check the status of appliances, from outside the home."
+      ]
+    },
+    {
+      "h": "Considerations when adopting technology",
+      "points": [
+        "Initial cost of technology must be weighed against savings in time, energy and running costs over the appliance's life.",
+        "Electronic appliances need electricity to operate, and their components may need professional repair when they fail.",
+        "Internet-connected devices hold personal data and need secure passwords and regular software updates to resist misuse."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Zoned heating",
+      "definition": "A heating system with separate controls that heat different parts of a building to different temperatures."
+    },
+    {
+      "term": "Programmable timer",
+      "definition": "A control that switches an appliance or heating system on and off at set times."
+    },
+    {
+      "term": "Steam cleaner",
+      "definition": "A cleaning appliance that uses hot steam to loosen dirt and sanitise surfaces with little or no chemical cleaner."
+    },
+    {
+      "term": "Burglar alarm",
+      "definition": "A system that detects forced entry into a building and gives a warning signal."
+    },
+    {
+      "term": "CCTV",
+      "definition": "Closed-circuit television, in which cameras transmit images to a recorder or monitor that only authorised users can see."
+    },
+    {
+      "term": "Solar panel",
+      "definition": "A panel of photovoltaic cells that converts sunlight into electricity, or a collector that heats water from sunlight."
+    },
+    {
+      "term": "Online banking",
+      "definition": "Managing bank accounts, paying bills and transferring money through a secure internet connection."
+    },
+    {
+      "term": "Budgeting software",
+      "definition": "A computer package that records income and expenditure so the household can plan and monitor its spending."
+    },
+    {
+      "term": "Smart appliance",
+      "definition": "An appliance connected to the internet or a home network, so that it can be monitored or controlled remotely."
+    },
+    {
+      "term": "Easy-care product",
+      "definition": "A product designed to need little washing, ironing or maintenance during use."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four ways technology reduces household workload",
+      "definition": "Appliances replace manual tasks, automatic programmes run unattended, steam cleaners speed up cleaning, and easy-care products need less upkeep."
+    },
+    {
+      "term": "Three benefits of zoned heating",
+      "definition": "It heats only occupied rooms, lets each area be kept at a comfortable temperature, and reduces wasted fuel."
+    },
+    {
+      "term": "Four home security technologies",
+      "definition": "Burglar alarms, CCTV, automated security lighting and remotely controlled electronic gates."
+    },
+    {
+      "term": "Three uses of computers in managing a home",
+      "definition": "Budgeting and accounting software, online banking and online shopping."
+    },
+    {
+      "term": "Three ways technology improves household communication",
+      "definition": "Email, video calling and social media let members keep in touch quickly across distances."
+    },
+    {
+      "term": "Two ways automated lighting and heating are controlled from a distance",
+      "definition": "Smartphone apps connected to the home network, and timers or sensors that switch devices on automatically."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline three ways in which technological developments have made the management of a home more efficient.",
+      "model": "Any three, each with a short example. Appliances and timers reduce the time and effort needed for household tasks, for example a dishwasher or a timer on a washing machine. Energy-efficient technology such as zoned heating or programmable controls lowers fuel and electricity bills. Security technology such as burglar alarms, CCTV and automated lighting protects the home. Computer packages and online banking and shopping save time and help with budgeting. Smart apps let the household control heating and lights remotely."
+    },
+    {
+      "marks": 20,
+      "prompt": "Evaluate how household technology contributes to the efficient management of the home, giving examples of appliances and home systems that save time, energy and money.",
+      "model": "Workload: appliances such as washing machines, dishwashers and vacuum cleaners reduce the time and labour of routine tasks, and steam cleaners improve hygiene. Automatic programmes let tasks run unattended. Energy and cost: timers, zoned heating and chip-controlled appliances reduce fuel and electricity use, and solar panels reduce reliance on mains energy. Security: burglar alarms, CCTV, automated lighting and electronic gates protect the home and can be operated remotely. Money and communication: budgeting software, online banking and internet shopping help plan spending and save travel, while email, video calls and social media keep the household connected. Evaluation: the benefits depend on the initial cost of the technology, the need for electricity and servicing, and the security of personal data on connected devices, so the household should weigh these against the savings the technology gives."
+    }
+  ]
+}

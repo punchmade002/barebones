@@ -1,0 +1,119 @@
+{
+  "loId": "hom-family-law-s6",
+  "chapterId": "hom-family-law",
+  "subsection": "6. Making a will",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Why a will is important",
+      "b": "A will is a legal document, governed by the Succession Act 1965, in which a person (the testator) sets out how their property, known as the estate, is to be distributed after death.",
+      "points": [
+        "Without a will, the estate passes under fixed statutory rules that set the shares, and these may not match the person's wishes.",
+        "A will allows the testator to choose who receives each item of property and in what proportions.",
+        "A will names an executor, who collects the estate, pays the debts and distributes the property as the will directs.",
+        "Divorced parents who make a will can ensure that property passes to their children as they intend, and can change the will later if circumstances alter.",
+        "A clearly drawn will reduces the likelihood of disputes among family members over the estate."
+      ]
+    },
+    {
+      "h": "Legal requirements for a valid will",
+      "points": [
+        "The testator must be over 18 years of age.",
+        "The testator must be of sound mind, meaning able to understand what the will does and the property it covers.",
+        "The will must be in writing, and it must be signed by the testator or by someone signing at the testator's direction in their presence.",
+        "The will must be signed in the presence of two witnesses who are present at the same time.",
+        "The witnesses sign the will in the presence of the testator, and a witness who is also a beneficiary loses any gift made to them under the will."
+      ]
+    },
+    {
+      "h": "Procedure for making a will",
+      "points": [
+        "Step 1: list all assets, such as property, savings, investments and personal possessions, and any debts.",
+        "Step 2: record the full names and addresses of the beneficiaries and the item or share each is to receive.",
+        "Step 3: appoint an executor, who should be willing to act and trusted to carry out the terms.",
+        "Step 4: allocate the estate and any specific gifts, including provision for any funeral arrangements the testator wishes to make.",
+        "Step 5: have the will formally drawn up, often by a solicitor, then signed and witnessed in the required way.",
+        "Step 6: store the signed will safely and tell the executor where it is kept."
+      ]
+    },
+    {
+      "h": "Changing or revoking a will",
+      "points": [
+        "A will is revoked by the testator's marriage, unless the will was made in contemplation of that marriage.",
+        "A change to an existing will can be made by a codicil, which must be signed and witnessed in the same way as the original will.",
+        "A new will that expressly revokes an earlier will replaces it entirely."
+      ]
+    },
+    {
+      "h": "Limits on what a will can do",
+      "points": [
+        "A surviving spouse has a legal right to a share of the estate that the will cannot remove: one-half where there are no children, and one-third where there are children.",
+        "Executors apply for a grant of probate, which confirms the will and gives the executor authority to deal with the estate."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Testator",
+      "definition": "A person who makes a will, setting out how their estate is to be distributed after death."
+    },
+    {
+      "term": "Estate",
+      "definition": "All the property, money and possessions a person owns at death, which is distributed under their will or under the rules of intestacy."
+    },
+    {
+      "term": "Executor",
+      "definition": "The person named in a will to collect the estate, pay debts and distribute property as the will directs."
+    },
+    {
+      "term": "Beneficiary",
+      "definition": "A person or organisation who receives property or money under a will."
+    },
+    {
+      "term": "Codicil",
+      "definition": "A document that amends an existing will, signed and witnessed in the same way as the will itself."
+    },
+    {
+      "term": "Sound mind",
+      "definition": "The mental capacity to understand what a will is and the effect it will have on the property it covers."
+    },
+    {
+      "term": "Legal right",
+      "definition": "A share of the estate that a surviving spouse is entitled to receive regardless of what the will says."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Minimum age for making a valid will",
+      "definition": "The testator must be over 18 years of age."
+    },
+    {
+      "term": "Number of witnesses needed for a will",
+      "definition": "Two witnesses, present at the same time, who sign in the presence of the testator."
+    },
+    {
+      "term": "Event that revokes a will",
+      "definition": "The testator's marriage, unless the will was made in contemplation of that marriage."
+    },
+    {
+      "term": "Steps in making a will",
+      "definition": "List assets and debts, record beneficiaries, appoint an executor, allocate the estate, have it drawn up, sign and witness it, then store it safely."
+    },
+    {
+      "term": "Spouse's legal right where there are children",
+      "definition": "One-third of the estate."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why it is particularly important for divorced parents to make a will.",
+      "model": "A will ensures that property and personal items pass to the children and other beneficiaries as the parent intends, rather than under fixed statutory rules. It allows the parent to appoint an executor to collect the estate and carry out the wishes. The will can be changed later if circumstances alter, and a clear will reduces the risk of disputes among family members."
+    },
+    {
+      "marks": 18,
+      "prompt": "Outline the importance of making a will and the procedure involved in making a valid will.",
+      "model": "A will allows a person to decide who receives their estate and in what shares, and to appoint an executor to carry out their wishes. Without a will, fixed statutory rules set the shares and may not match the person's intentions. The testator must be over 18 and of sound mind. The procedure begins by listing the assets and debts and recording the beneficiaries. An executor is appointed and the estate is allocated, including any specific gifts. The will is then drawn up, often by a solicitor, signed in writing and witnessed by two witnesses present together, who sign in the testator's presence. The signed will should be stored safely and the executor told where it is kept. A later marriage revokes the will unless it was made in contemplation of that marriage, so the will should be reviewed."
+    }
+  ]
+}

@@ -7,8 +7,15 @@
 - Coverage observed: 12 units and 32 topics.
 - Representative lesson: “Sociological Terms and Concepts” (9 main sections, 11 subsections and
   3 note callouts).
+- Syllabus: the Leaving Certificate Home Economics – Scientific and Social syllabus (© 2001),
+  introduced September 2002, first examined 2004 and examined in June 2027. Do not use the draft
+  redeveloped Leaving Certificate Home Economics specification (consultation February–April 2026;
+  introduction from September 2027 at the earliest) or Junior Cycle Home Economics content.
 - Use the taxonomy below as the single secondary research map. NCCA controls scope; SEC papers and
   marking schemes control examination content.
+- The full chapter-by-chapter outline used for content generation, keyed to the app's 36 home
+  economics chapter IDs, with Higher Level-only markings read from the syllabus PDF, is
+  `course-outlines/homeeconomics.md`.
 
 ## Unit and topic structure
 
@@ -44,3 +51,12 @@
 
 - Family law, consumer rights, social supports, prices and nutrition guidance are time-sensitive.
   Verify them against current Irish primary sources before publication.
+- SimpleStudy's 32 topics cover only part of the syllabus. It has no topics for carbohydrate and
+  lipid chemistry, digestion, water, the Irish food industry, food legislation, preservation in
+  detail, appliance working principles, or the three electives beyond a housing topic and a
+  textiles overview. Take scope for those from the syllabus via the course outline.
+- Higher Level-only syllabus content is shown only by print colour (black) in the PDF; plain-text
+  extraction loses it. Use the HL markings in the course outline.
+- Do not generate Junior Cycle household-skills content (stain removal, garment storage and
+  repair, home safety and security, functions of the home): it is not on this syllabus and has
+  not been examined at Leaving Certificate.

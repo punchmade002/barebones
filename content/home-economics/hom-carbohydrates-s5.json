@@ -1,0 +1,115 @@
+{
+  "loId": "hom-carbohydrates-s5",
+  "chapterId": "hom-carbohydrates",
+  "subsection": "5. Functions",
+  "syllabusRef": "1.1.3",
+  "notes": [
+    {
+      "h": "Biological functions of sugars and starch",
+      "b": "Carbohydrate is the body's main and fastest source of energy.",
+      "points": [
+        "Heat and energy: glucose is oxidised in respiration, releasing energy for movement, growth and maintaining body temperature.",
+        "The brain relies on glucose as its main fuel.",
+        "Protein sparing: because carbohydrate supplies energy, protein is kept for growth and repair rather than being used for energy.",
+        "Glycogen store: surplus glucose is converted to glycogen and stored in the liver and muscles as a short-term energy reserve.",
+        "Fat storage: when glycogen stores are full, excess glucose is converted to fat and stored as adipose tissue, which also insulates the body.",
+        "Starch is digested to glucose in the body, so it provides the same energy as sugars."
+      ]
+    },
+    {
+      "h": "Biological functions of dietary fibre",
+      "points": [
+        "Fibre absorbs water and adds bulk to the contents of the intestine.",
+        "The bulk stimulates peristalsis, the wave-like muscular contraction that moves food through the intestine.",
+        "Regular movement of the bowel prevents constipation and reduces the straining that causes haemorrhoids (piles).",
+        "Low fibre intake is a risk factor for constipation, haemorrhoids, diverticular disease and colon cancer.",
+        "Fibre gives a feeling of fullness, which helps control appetite and body weight.",
+        "Soluble fibre such as pectin slows the release of glucose into the blood and helps to lower LDL cholesterol."
+      ]
+    },
+    {
+      "h": "Culinary functions of sugars",
+      "points": [
+        "Sweetening and flavouring cakes, desserts, drinks, sauces and sweets.",
+        "Preserving jam, chutney, syrup and crystallised fruit.",
+        "Feeding yeast so that bread dough rises.",
+        "Browning and caramel flavour in baked goods, glazes and crème caramel.",
+        "Giving the texture of fudge, fondant and boiled sweets through controlled crystallisation.",
+        "Giving volume to sponge cakes and meringues."
+      ]
+    },
+    {
+      "h": "Culinary functions of starch and pectin",
+      "points": [
+        "Starch thickens sauces, soups and gravies, and binds the fat and flour of a roux.",
+        "Starch gives structure to batters, pastry and bread.",
+        "Pectin sets fruit preparations into jam and jelly.",
+        "Pectin is used as a gelling agent and stabiliser in some confectionery and desserts."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Peristalsis",
+      "definition": "The wave-like contraction of the intestinal muscles that moves food along the digestive tract."
+    },
+    {
+      "term": "Glycogen store",
+      "definition": "The reserve of glycogen kept in the liver and muscles, which can be converted back to glucose for energy."
+    },
+    {
+      "term": "Protein sparing",
+      "definition": "The use of carbohydrate for energy so that protein is available for growth and repair."
+    },
+    {
+      "term": "Adipose tissue",
+      "definition": "Body fat stored under the skin and around organs, which stores energy and insulates the body."
+    },
+    {
+      "term": "Soluble fibre",
+      "definition": "Fibre that dissolves or swells in water, such as pectin, which slows the absorption of glucose."
+    },
+    {
+      "term": "Gelling agent",
+      "definition": "An ingredient, such as pectin, that forms a gel and gives a food its set."
+    },
+    {
+      "term": "Palatability",
+      "definition": "How pleasant a food is to taste and eat, which sugar improves."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three functions of carbohydrate in the body",
+      "definition": "Providing heat and energy, sparing protein, and storing energy as glycogen or adipose tissue."
+    },
+    {
+      "term": "Four ways fibre helps the bowel",
+      "definition": "It absorbs water, adds bulk, stimulates peristalsis and prevents constipation."
+    },
+    {
+      "term": "Two ways fibre helps control appetite",
+      "definition": "It gives a feeling of fullness, and it slows the release of glucose into the blood."
+    },
+    {
+      "term": "Four conditions linked to low fibre intake",
+      "definition": "Constipation, haemorrhoids, diverticular disease and colon cancer."
+    },
+    {
+      "term": "Two culinary functions of pectin",
+      "definition": "Setting jam and jelly, and acting as a gelling agent in some confectionery and desserts."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which dietary fibre supports the health of the bowel.",
+      "model": "Fibre absorbs water and adds bulk to the intestinal contents. The bulk stimulates peristalsis, moving food through the intestine. Together these prevent constipation and reduce the straining that causes haemorrhoids, and they lower the risk of diverticular disease."
+    },
+    {
+      "marks": 24,
+      "prompt": "Explain the functions of carbohydrates in the body, referring to energy, protein sparing and storage, and the functions of starch and pectin in cooking.",
+      "model": "Energy: glucose is oxidised in respiration to release heat and energy for movement and growth; the brain depends on glucose. Protein sparing: carbohydrate supplies energy, so protein is kept for growth and repair. Storage: surplus glucose is stored as glycogen in the liver and muscles, and excess beyond that is converted to fat stored as adipose tissue, which insulates the body. Fibre: absorbs water, adds bulk, stimulates peristalsis, prevents constipation, gives fullness and slows glucose release. Cooking: starch thickens sauces and soups, binds a roux and gives structure to pastry and bread; pectin sets jam and acts as a gelling agent in desserts."
+    }
+  ]
+}

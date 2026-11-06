@@ -1,0 +1,173 @@
+{
+  "loId": "hom-home-services-s1",
+  "chapterId": "hom-home-services",
+  "subsection": "1. Energy supplies to the home",
+  "syllabusRef": "4.4",
+  "notes": [
+    {
+      "h": "Energy basics for home supplies",
+      "b": "Every home energy supply is a fuel or a flow of energy that is converted into heat, light, power or sound. Fuels are classed by whether they can be replaced.",
+      "points": [
+        "Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment.",
+        "Combustion needs fuel, oxygen and a source of heat; complete combustion of a hydrocarbon gives carbon dioxide and water vapour.",
+        "Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables.",
+        "A non-renewable source has finite reserves that cannot be replaced on a human timescale; a renewable source is replenished naturally within a human lifetime.",
+        "Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations."
+      ]
+    },
+    {
+      "h": "Electricity",
+      "points": [
+        "Electricity is a secondary energy: it is generated from other sources and carried to the home, so its environmental impact depends on how it was generated.",
+        "Power stations burn natural gas, coal, peat or oil, or use wind, hydro or solar energy to drive generators.",
+        "The national grid carries electricity at high voltage over long distances, which reduces energy lost as heat in the cables.",
+        "Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V used in Irish homes.",
+        "A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used.",
+        "Electricity is convenient for lighting, cooking, heating and appliances, and it can be produced in the home from solar panels or small wind turbines."
+      ]
+    },
+    {
+      "h": "Natural gas",
+      "points": [
+        "Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment.",
+        "Ireland's main indigenous supply comes from the Corrib gas field, offshore from Co. Mayo; further supply is imported through a pipeline from Britain.",
+        "Gas is distributed through a national pipeline network and burned in boilers, cookers and fires in the home.",
+        "Advantages: it burns cleanly and almost completely, needs no storage tank in the home, and its heat can be controlled quickly.",
+        "Disadvantages: it is non-renewable with finite reserves, and it is dangerous if it leaks or if appliances burn incompletely.",
+        "Natural gas is odourless, so a sulphur-based odorant is added so that leaks can be smelled.",
+        "Sustainability: reserves are limited and worldwide demand is rising; per unit of heat, gas releases less carbon dioxide than oil or coal, so it is often described as a transitional fuel.",
+        "Diagram: a simple pipeline route from the gas network through a meter and a regulator to a boiler and a cooker."
+      ]
+    },
+    {
+      "h": "Oil (kerosene) for heating",
+      "points": [
+        "Home heating oil is kerosene, a fossil fuel refined from crude oil that was formed from marine organisms over millions of years.",
+        "Ireland relies on imported oil, so supply and price depend on world markets.",
+        "Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank and arrange refills.",
+        "It is burned in a boiler with a burner, which needs a flue to carry the gases outside and regular servicing to stay efficient.",
+        "Burning oil releases carbon dioxide, sulphur dioxide from the sulphur in the fuel, and soot if the burner is poorly adjusted.",
+        "Sustainability: oil is non-renewable with finite reserves, and it releases more carbon dioxide per unit of heat than natural gas."
+      ]
+    },
+    {
+      "h": "Solid fuels",
+      "points": [
+        "Solid fuels used in the home are coal, turf (peat), wood and manufactured smokeless fuel.",
+        "Coal is a fossil fuel mined from underground seams; it is burned in open fires and stoves and produces a high level of carbon dioxide and smoke.",
+        "Smokeless fuel is a processed solid fuel that burns with little smoke, which reduces smoke and particulate pollution in towns.",
+        "Turf (peat) forms very slowly in bogs over thousands of years, so it is effectively non-renewable on a human timescale, and burning it releases carbon dioxide.",
+        "Wood (logs, pellets and chips) is a biomass fuel: it is renewable when trees are replanted and the forest is managed sustainably, because regrowth takes up the carbon released on burning.",
+        "Solid fuels need dry storage, a chimney or flue and regular cleaning, because soot builds up and can cause chimney fires and carbon monoxide poisoning.",
+        "An open fire loses much of its heat up the chimney, while an enclosed stove transfers more of the heat into the room."
+      ]
+    },
+    {
+      "h": "Solar energy",
+      "points": [
+        "Solar energy is radiant energy from the sun. It is renewable and free to collect, but it is intermittent.",
+        "Solar thermal collectors on the roof absorb sunlight to heat water that circulates to a hot water cylinder, supplying much of the household hot water in summer.",
+        "Photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use.",
+        "Surplus PV electricity can be exported to the grid, and a battery can store it for use when the sun is not shining.",
+        "Output depends on sunlight, so it falls on cloudy days, in winter and at night, and it is reduced by shade from trees or buildings.",
+        "A roof facing south with no shading gives the best output; the roof must also be strong enough to carry the panels.",
+        "Sustainability: solar energy has no fuel to extract or deliver and produces no emissions in use; manufacturing the panels does use energy and materials.",
+        "Diagram: plan view of a south-facing roof with PV panels and solar thermal collectors; schematic of a PV system showing panels, inverter, meter and the house circuit."
+      ]
+    },
+    {
+      "h": "Renewable and non-renewable sources compared",
+      "points": [
+        "Renewable sources for the home: solar energy, wind (turbines feeding the grid), biomass such as wood, and heat pumps that draw heat from the ground or air using electricity.",
+        "Non-renewable sources for the home: natural gas, heating oil, coal and peat.",
+        "Non-renewable fuels are finite and rising in demand, and their supply depends on extraction, imports and transport.",
+        "Renewable sources have high start-up costs and depend on local weather, but their running fuel is free and they produce few emissions in use.",
+        "SEAI (Sustainable Energy Authority of Ireland) provides information and grants that support the use of renewable heating and solar energy in homes."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fossil fuel",
+      "definition": "A fuel formed over millions of years from the remains of plants or marine organisms buried under sediment, such as coal, natural gas and oil."
+    },
+    {
+      "term": "Renewable energy source",
+      "definition": "An energy source that is replenished naturally within a human timescale, such as solar energy, wind or wood from managed forests."
+    },
+    {
+      "term": "Non-renewable energy source",
+      "definition": "An energy source with finite reserves that cannot be replaced on a human timescale."
+    },
+    {
+      "term": "Sustainability",
+      "definition": "The ability of an energy source to meet present needs without depleting resources or harming the environment for future generations."
+    },
+    {
+      "term": "Biomass",
+      "definition": "Recently living organic material, such as wood, used as a fuel and capable of being regrown."
+    },
+    {
+      "term": "Photovoltaic panel",
+      "definition": "A panel of solar cells that converts sunlight directly into direct current electricity."
+    },
+    {
+      "term": "Solar thermal collector",
+      "definition": "A roof panel that absorbs solar radiation to heat water, which then flows to a hot water cylinder."
+    },
+    {
+      "term": "Kerosene",
+      "definition": "A refined petroleum product used as home heating oil."
+    },
+    {
+      "term": "Smokeless fuel",
+      "definition": "A processed solid fuel that burns with very little smoke."
+    },
+    {
+      "term": "Methane",
+      "definition": "The main component of natural gas, a hydrocarbon with the formula CH₄."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four solid fuels burned in Irish homes",
+      "definition": "Coal, turf (peat), wood and smokeless fuel."
+    },
+    {
+      "term": "Three advantages of piped natural gas",
+      "definition": "It burns cleanly and almost completely; it needs no storage tank in the home; its heat can be controlled quickly."
+    },
+    {
+      "term": "Three disadvantages of heating oil",
+      "definition": "It is non-renewable with finite reserves; it needs an outdoor storage tank and regular deliveries; it releases more carbon dioxide per unit of heat than natural gas."
+    },
+    {
+      "term": "Two ways solar energy is used in the home",
+      "definition": "Solar thermal collectors heat water for a cylinder; photovoltaic panels generate electricity."
+    },
+    {
+      "term": "Two factors that reduce solar panel output",
+      "definition": "Cloud cover and short winter days; shading from trees or buildings, or a roof that does not face south."
+    },
+    {
+      "term": "Purpose of the odorant added to natural gas",
+      "definition": "Natural gas is odourless, so a sulphur-based odorant gives it a smell that makes leaks detectable."
+    },
+    {
+      "term": "Why wood fuel is classed as renewable",
+      "definition": "Trees regrow and can be replanted on managed land, so the carbon released on burning is taken up again by new growth."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two non-renewable energy sources used in the home and one renewable energy source. State one sustainability point about each.",
+      "model": "Non-renewable: natural gas, a finite fossil fuel with limited reserves whose demand is rising. Heating oil, a finite fossil fuel refined from imported crude oil, stored in tanks and releasing carbon dioxide when burned. Renewable: solar energy, which is replenished daily by sunlight, has no fuel to deliver and produces no emissions in use. Full marks need two named non-renewable sources and one renewable source, each with a correct sustainability point."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss the sustainability of natural gas and solar energy as supplies for the home. Refer to the source of each, its sustainability and how it is used in the home.",
+      "model": "Natural gas: a fossil fuel, mainly methane, formed from marine organisms over millions of years; Ireland's main indigenous supply is the Corrib gas field off Co. Mayo, supplemented by imports through a pipeline from Britain. It is distributed through a pipeline network to boilers, cookers and fires. It is non-renewable with finite reserves and rising demand, so it is not sustainable in the long term; it burns cleanly and releases less carbon dioxide per unit of heat than oil or coal, which makes it a transitional fuel. Solar energy: renewable radiant energy from the sun, with no fuel to deliver and no emissions in use. It is used through solar thermal collectors that heat water in a cylinder, and photovoltaic panels that generate electricity through an inverter. Its output varies with weather, season and shading, so it needs a battery or grid connection, and manufacturing the panels uses energy and materials. Conclusion: solar energy is the more sustainable supply, while natural gas is a finite fuel that reduces emissions compared with oil and coal."
+    }
+  ]
+}

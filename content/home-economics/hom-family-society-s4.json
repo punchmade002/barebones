@@ -1,0 +1,128 @@
+{
+  "loId": "hom-family-society-s4",
+  "chapterId": "hom-family-society",
+  "subsection": "4. Changes affecting family structures",
+  "syllabusRef": "3.1.3",
+  "notes": [
+    {
+      "h": "Social changes affecting family structure (Higher Level only)",
+      "b": "Social change has altered who forms a family, when families form and how they are organised.",
+      "points": [
+        "Divorce became legal under the Family Law (Divorce) Act 1996, which increased the number of lone-parent and blended families.",
+        "Later marriage and later first births have led to smaller families and fewer children per family.",
+        "A growing proportion of children are born outside marriage, and cohabitation is now a common alternative to marriage.",
+        "Gender equality in education and employment has produced dual-career couples and more shared household roles.",
+        "Declining religious influence has weakened the Church's influence on decisions about marriage and family life.",
+        "Urbanisation moved families from rural areas to towns and cities, loosening links with the extended family.",
+        "Same-sex couples can marry, and same-sex parent families are now a recognised family structure."
+      ]
+    },
+    {
+      "h": "Economic changes affecting family structure (Higher Level only)",
+      "b": "Economic pressures shape how many adults earn, where families live and whether relatives share a home.",
+      "points": [
+        "The recession after 2008 brought job losses, mortgage arrears and reduced family incomes.",
+        "During the recession some families moved in with relatives, and adult children stayed at home or returned to it.",
+        "Emigration during recessions separates families, as parents or adult children move abroad for work.",
+        "Rising housing and childcare costs make two incomes necessary for many families, which can delay or limit family size.",
+        "Women's paid employment has increased, so many mothers work outside the home.",
+        "Job mobility and flexible working patterns, such as shift and part-time work, change how caring time is shared.",
+        "Long-term unemployment reduces family income, increasing financial stress and the risk of conflict within the family."
+      ]
+    },
+    {
+      "h": "Technological changes affecting family structure (Higher Level only)",
+      "b": "Technology has changed how families are formed, how housework is done and how family members keep in touch.",
+      "points": [
+        "Contraception allows couples to decide whether and when to have children, which affects family size and timing.",
+        "Assisted human reproduction, such as fertility treatment, allows some couples to have children who might not otherwise have done so.",
+        "Household appliances such as washing machines and dishwashers reduced the time spent on housework, freeing parents for paid work and leisure.",
+        "Mobile phones, email and video calls keep family members in contact across distance and time zones.",
+        "Remote working lets parents work from home, changing when and where family life takes place.",
+        "Online banking and online services reduce the time spent on household administration.",
+        "Social media and screens create new pressures, including cyberbullying and less face-to-face communication within families."
+      ]
+    },
+    {
+      "h": "Combined effects of social, economic and technological change (Higher Level only)",
+      "points": [
+        "Recession plus housing costs: adult children remain in the family home or return to it, creating extended households.",
+        "Recession plus emigration: parents and children live in different countries, so the family is split across borders.",
+        "Remote working plus childcare costs: a parent can combine paid work with caring for children at home.",
+        "Divorce plus technology: separated parents in different households keep shared parenting arrangements going through video calls and messages."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Cohabitation",
+      "definition": "Two unmarried adults living together as a couple in a shared home."
+    },
+    {
+      "term": "Assisted human reproduction",
+      "definition": "Medical techniques, such as fertility treatment, that help couples to conceive a child."
+    },
+    {
+      "term": "Dual-career family",
+      "definition": "A couple in which both partners pursue paid careers."
+    },
+    {
+      "term": "Urbanisation",
+      "definition": "The movement of people from rural areas to towns and cities."
+    },
+    {
+      "term": "Transnational family",
+      "definition": "A family whose members live in different countries but remain connected."
+    },
+    {
+      "term": "Remote working",
+      "definition": "Paid work carried out from home or another location away from the employer's premises."
+    },
+    {
+      "term": "Mortgage arrears",
+      "definition": "Repayments on a home loan that have fallen due but have not been paid."
+    },
+    {
+      "term": "Role conflict",
+      "definition": "Tension that arises when the demands of two or more family or work roles clash."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three social changes that increased the number of lone-parent and blended families",
+      "definition": "Divorce and separation; remarriage; births outside marriage."
+    },
+    {
+      "term": "Three economic pressures on Irish families since 2008",
+      "definition": "Unemployment and mortgage arrears; emigration; rising housing and childcare costs."
+    },
+    {
+      "term": "Three technologies that changed family life",
+      "definition": "Household appliances; mobile phones and video calls; contraception and assisted reproduction."
+    },
+    {
+      "term": "Effect of the recession on living arrangements",
+      "definition": "Adult children stay at home or return, creating extended households."
+    },
+    {
+      "term": "Effect of a parent working abroad on family structure",
+      "definition": "The family is split between countries, with parents and children living apart."
+    },
+    {
+      "term": "Two ways social media can affect family communication",
+      "definition": "Cyberbullying can be carried out at home; face-to-face conversation can be reduced."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two social changes that have affected family structure and explain how each has done so.",
+      "model": "Two social changes, each with explanation. For example: divorce and separation, which have increased lone-parent and blended families as partners separate and form new unions; later marriage and smaller families, as couples have fewer children later in life. Other accepted examples: births outside marriage, cohabitation, or gender equality leading to dual-career couples."
+    },
+    {
+      "marks": 24,
+      "prompt": "Assess how economic and technological changes have affected family life and family structures in Ireland, giving examples.",
+      "model": "Economic change: recession after 2008 brought unemployment, mortgage arrears and emigration, so families split or adult children remained at home, creating extended households. Rising housing and childcare costs make two incomes necessary, delaying or limiting family size. Women's paid work means many mothers work outside the home. Technological change: contraception and assisted human reproduction let couples choose the timing and size of their families. Household appliances reduced housework and freed parents for paid work. Mobile phones and video calls keep relatives in contact across borders, supporting transnational families. Remote working lets parents combine paid work with childcare at home. Social media brings new pressures, including cyberbullying. Assessment: economic pressures change the structure of families most directly, while technology mainly changes how family members manage their roles and stay in touch."
+    }
+  ]
+}

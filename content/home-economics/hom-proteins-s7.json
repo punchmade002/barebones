@@ -1,0 +1,136 @@
+{
+  "loId": "hom-proteins-s7",
+  "chapterId": "hom-proteins",
+  "subsection": "7. Biological value",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "High and low biological value",
+      "b": "Biological value (BV) measures how fully a protein food supplies the essential amino acids the body needs, in the right proportions.",
+      "points": [
+        "High biological value (HBV) protein, also called complete protein, contains all the essential amino acids in adequate amounts.",
+        "HBV sources are mainly animal foods: meat, fish, poultry, eggs, milk, cheese and yoghurt.",
+        "Soya beans are the main plant exception: they contain all the essential amino acids and are classed as HBV.",
+        "Low biological value (LBV) protein, also called incomplete protein, lacks one or more essential amino acids or contains them in small amounts.",
+        "LBV sources are mainly plant foods: cereals such as wheat, rice and maize, and pulses such as peas, beans and lentils, along with nuts and seeds."
+      ]
+    },
+    {
+      "h": "Complementation (supplementary value)",
+      "b": "Two LBV foods eaten together can supply all the essential amino acids, because each supplies what the other lacks.",
+      "points": [
+        "This is called complementation, or supplementary value, and the combined meal provides protein of high biological value.",
+        "Beans on toast: bread supplies methionine, which beans lack, while beans supply lysine, which bread lacks.",
+        "Hummus with pitta bread and dhal with chapatti are further complementary pairs.",
+        "Complementation lets vegetarians and vegans meet their protein needs from plant foods alone."
+      ]
+    },
+    {
+      "h": "Planning meals that complement protein",
+      "points": [
+        "Pair a cereal (rice, pasta, bread or oats) with a pulse (lentils, chickpeas, beans or peas) in the same meal, for example lentil soup with wholemeal bread.",
+        "Add a small amount of egg, milk, cheese or yoghurt to a plant-based meal to raise its biological value.",
+        "Soya products such as tofu and textured vegetable protein are HBV, so they can provide protein alone in a vegetarian meal.",
+        "Use pulses as meat extenders, adding them to minced meat dishes such as bolognese or chilli to stretch the meat."
+      ]
+    },
+    {
+      "h": "Value for money when buying protein foods",
+      "b": "Protein is often a large part of a food bill, so value depends on cost per usable portion rather than the price of the pack.",
+      "points": [
+        "Compare unit prices, such as price per kilogram or per 100 g, to judge value across different pack sizes and brands.",
+        "Allow for waste: bone, gristle, fat and cooking losses reduce the usable portion of meat and fish.",
+        "Cheaper cuts of meat for stewing and braising are as nutritious as expensive cuts and suit slow, moist cooking.",
+        "Eggs, milk, cheese, dried or tinned pulses and tinned mackerel are low-cost sources of protein.",
+        "Fish is usually cheaper when in season.",
+        "Own-brand products and special offers save money only if the extra food can be used before it spoils.",
+        "Bulk buying saves money when the food is divided into portions and frozen, so that only the amount needed is thawed."
+      ]
+    },
+    {
+      "h": "Buying protein foods safely",
+      "points": [
+        "Chilled meat, fish and dairy should be kept at 5 degrees Celsius or below, so they are bought last and carried home in a cool bag.",
+        "Frozen protein foods should be solid when bought, and packs that have thawed and refrozen should be avoided.",
+        "Packaging should be sealed and undamaged, and cans should not be bulging.",
+        "Check the use-by date and the quality assurance and traceability information on the label before buying."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Biological value",
+      "definition": "A measure of how fully a protein food supplies the essential amino acids the body needs, in the proportions it needs them."
+    },
+    {
+      "term": "Complete protein",
+      "definition": "A protein that contains all the essential amino acids in adequate amounts, such as the protein in eggs."
+    },
+    {
+      "term": "Incomplete protein",
+      "definition": "A protein that lacks one or more essential amino acids, such as the protein in most cereals and pulses."
+    },
+    {
+      "term": "Complementation",
+      "definition": "Combining two protein foods of low biological value so that each supplies the essential amino acid the other lacks."
+    },
+    {
+      "term": "Supplementary value",
+      "definition": "The improvement in the biological value of a protein food when it is eaten with a food that supplies its missing essential amino acids."
+    },
+    {
+      "term": "Limiting amino acid",
+      "definition": "The essential amino acid present in the smallest amount relative to the body's needs in a particular protein food."
+    },
+    {
+      "term": "Unit price",
+      "definition": "The price per standard measure, such as per kilogram or per 100 g, used to compare the cost of products in different pack sizes."
+    },
+    {
+      "term": "Usable portion",
+      "definition": "The part of a food that can be eaten after bone, fat, gristle or other waste is removed."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two categories of protein by biological value",
+      "definition": "High biological value (complete) protein and low biological value (incomplete) protein."
+    },
+    {
+      "term": "Limiting amino acid in cereals",
+      "definition": "Lysine."
+    },
+    {
+      "term": "Limiting amino acid in pulses",
+      "definition": "Methionine."
+    },
+    {
+      "term": "Two examples of complementary pairs",
+      "definition": "Beans on toast, and hummus with pitta bread."
+    },
+    {
+      "term": "Three animal sources of high biological value protein",
+      "definition": "Eggs, milk and fish."
+    },
+    {
+      "term": "Three low-cost sources of protein",
+      "definition": "Eggs, dried or tinned pulses and tinned mackerel."
+    },
+    {
+      "term": "Maximum storage temperature for chilled protein foods",
+      "definition": "5 degrees Celsius or below."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by complementation of protein and give one example of two foods that complement each other.",
+      "model": "Complementation is combining two low biological value protein foods so that the essential amino acid lacking in one is supplied by the other, giving a meal of high biological value. Example: beans on toast, where the bread supplies methionine that the beans lack, and the beans supply lysine that the bread lacks."
+    },
+    {
+      "marks": 24,
+      "prompt": "Discuss the biological value of protein foods, and explain how a consumer can get good value for money when buying protein foods.",
+      "model": "High biological value proteins contain all the essential amino acids and come mainly from animal foods such as meat, fish, eggs, milk and cheese; soya beans are the main plant exception. Low biological value proteins lack one or more essential amino acids and come from cereals, pulses, nuts and seeds. Complementation combines two low biological value foods, such as beans and bread or hummus and pitta, so that together they supply all the essential amino acids. Value for money: compare unit prices and the usable portion rather than the pack price; choose cheaper cuts of meat, which are as nutritious as expensive cuts, and use slow moist cooking; buy fish in season; use eggs, milk, cheese, pulses and tinned mackerel as low-cost protein; use pulses to extend meat; buy own-brand products and special offers only if the food can be used in time; and divide bulk purchases into portions for freezing."
+    }
+  ]
+}

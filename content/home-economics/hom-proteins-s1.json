@@ -1,0 +1,128 @@
+{
+  "loId": "hom-proteins-s1",
+  "chapterId": "hom-proteins",
+  "subsection": "1. Composition and amino acids",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Elements in protein",
+      "points": [
+        "Protein contains carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins.",
+        "Protein is the only nutrient that contains nitrogen; carbohydrate and fat contain none.",
+        "Nitrogen is present in the amino group of every amino acid, so the nitrogen in a food comes from its protein."
+      ]
+    },
+    {
+      "h": "Basic structure of an amino acid",
+      "b": "Every amino acid has the same central carbon atom bonded to four groups. Only the side group differs between amino acids.",
+      "points": [
+        "An amino group, -NH2, which carries the nitrogen.",
+        "A carboxyl group, -COOH, which gives the amino acid its acidic part.",
+        "A hydrogen atom.",
+        "A variable side group, labelled R, which gives each amino acid its identity.",
+        "The body builds its proteins from 20 different amino acids.",
+        "Diagram: a central carbon bonded to H, R, -COOH and -NH2, with R labelled as the side group that varies."
+      ]
+    },
+    {
+      "h": "Essential amino acids (Higher Level only)",
+      "points": [
+        "Essential amino acids cannot be made by the body in sufficient amounts, so they must be supplied by the diet.",
+        "Eight amino acids are essential for adults: lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan.",
+        "Children also need histidine and arginine, which makes ten essential amino acids for children.",
+        "Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds, so food does not need to supply them.",
+        "Examples of non-essential amino acids: alanine, glycine, serine, aspartic acid, glutamic acid and proline."
+      ]
+    },
+    {
+      "h": "Peptides and the peptide bond (Higher Level only)",
+      "points": [
+        "A peptide bond forms when the carboxyl group of one amino acid reacts with the amino group of another.",
+        "Water is released in this reaction, so peptide bond formation is a condensation reaction.",
+        "Two amino acids joined by one peptide bond form a dipeptide.",
+        "A peptide is a short chain of amino acids; a long chain is called a polypeptide, and a protein is made of one or more polypeptide chains.",
+        "Diagram: two amino acids joined by a peptide bond, with the -CO-NH- link and the water molecule released labelled."
+      ]
+    },
+    {
+      "h": "Hydrolysis (Higher Level only)",
+      "points": [
+        "Hydrolysis breaks a peptide bond by adding a molecule of water, which reverses the condensation reaction.",
+        "Repeated hydrolysis splits a polypeptide into smaller peptides and finally into free amino acids.",
+        "Enzymes such as pepsin and trypsin catalyse this hydrolysis in digestion, as covered in Digestion and Metabolism."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Amino acid",
+      "definition": "A small organic molecule with an amino group and a carboxyl group, which are the building blocks of protein."
+    },
+    {
+      "term": "Amino group",
+      "definition": "The -NH2 group of an amino acid, which carries the nitrogen in protein."
+    },
+    {
+      "term": "Carboxyl group",
+      "definition": "The -COOH group of an amino acid, which gives it its acidic part."
+    },
+    {
+      "term": "Side group (R group)",
+      "definition": "The variable part of an amino acid that distinguishes one amino acid from another."
+    },
+    {
+      "term": "Essential amino acid",
+      "definition": "An amino acid the body cannot make in sufficient amounts, so it must be supplied by the diet."
+    },
+    {
+      "term": "Non-essential amino acid",
+      "definition": "An amino acid the body can make from other amino acids and nitrogen-containing compounds."
+    },
+    {
+      "term": "Peptide bond",
+      "definition": "The -CO-NH- link formed between the carboxyl group of one amino acid and the amino group of another, with water released."
+    },
+    {
+      "term": "Hydrolysis",
+      "definition": "The breaking of a chemical bond by adding water, as when peptide bonds are split during digestion."
+    },
+    {
+      "term": "Polypeptide",
+      "definition": "A long chain of amino acids joined by peptide bonds."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Elements found in protein",
+      "definition": "Carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins."
+    },
+    {
+      "term": "Four parts of an amino acid",
+      "definition": "An amino group, a carboxyl group, a hydrogen atom and a variable side group (R)."
+    },
+    {
+      "term": "Eight essential amino acids for adults",
+      "definition": "Lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan."
+    },
+    {
+      "term": "Extra essential amino acids for children",
+      "definition": "Histidine and arginine."
+    },
+    {
+      "term": "Examples of non-essential amino acids",
+      "definition": "Alanine, glycine, serine, aspartic acid, glutamic acid and proline."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the elements found in protein and identify the four parts of the basic structure of an amino acid.",
+      "model": "Elements: carbon, hydrogen, oxygen and nitrogen, with small amounts of sulphur, phosphorus and iron in some proteins. Protein is the only nutrient containing nitrogen. Amino acid parts: an amino group (-NH2), a carboxyl group (-COOH), a hydrogen atom and a variable side group (R)."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe how two amino acids join to form a peptide bond, and explain how hydrolysis reverses this. Distinguish between essential and non-essential amino acids, giving one example of each.",
+      "model": "Peptide bond: the carboxyl group of one amino acid reacts with the amino group of another, releasing water (condensation); the bond is the -CO-NH- link; two amino acids joined form a dipeptide. Hydrolysis: a molecule of water is added to break the peptide bond, releasing the amino acids; enzymes such as pepsin and trypsin catalyse this in digestion. Essential amino acids cannot be made by the body in sufficient amounts and must be supplied by food; example lysine (eight essential for adults, ten for children). Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds; example alanine. Non-essential does not mean unimportant."
+    }
+  ]
+}

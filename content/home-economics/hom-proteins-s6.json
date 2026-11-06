@@ -1,0 +1,126 @@
+{
+  "loId": "hom-proteins-s6",
+  "chapterId": "hom-proteins",
+  "subsection": "6. Biological functions",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Three biological functions of protein",
+      "b": "Protein has three broad roles in the body: building structures, regulating processes and supplying amino acids.",
+      "points": [
+        "Structural proteins build and maintain body tissues such as cells, muscle, skin and connective tissue.",
+        "Physiologically active proteins regulate body processes, acting as hormones, enzymes, antibodies and blood proteins.",
+        "Nutrient proteins are the proteins of food that supply amino acids, including the essential amino acids the body cannot make."
+      ]
+    },
+    {
+      "h": "Structural proteins",
+      "points": [
+        "Growth and repair: amino acids from protein are used to make new body cells and to repair damaged tissue.",
+        "Muscle: myosin and actin filaments make up muscle fibres and contract to produce movement.",
+        "Connective tissue: collagen forms the fibres of tendons, ligaments and skin, giving them strength.",
+        "Hair and nails: keratin, a structural protein, forms hair and nails.",
+        "Cell membranes: proteins are built into the membranes around cells, helping to control what passes in and out."
+      ]
+    },
+    {
+      "h": "Physiologically active proteins",
+      "points": [
+        "Hormones: protein hormones such as insulin, made in the pancreas, control processes like blood glucose levels.",
+        "Enzymes: protein catalysts speed up chemical reactions, for example pepsin, which breaks down protein in the stomach.",
+        "Antibodies: proteins made by white blood cells bind to invading micro-organisms and toxins as part of the immune response.",
+        "Blood plasma proteins: albumin keeps water within the blood vessels, helping to maintain blood volume and pressure.",
+        "Clotting proteins: fibrinogen is converted to fibrin, which forms the mesh that stops bleeding after an injury.",
+        "Haemoglobin, a protein in red blood cells, carries oxygen from the lungs to the body tissues."
+      ]
+    },
+    {
+      "h": "Nutrient proteins",
+      "points": [
+        "Nutrient proteins supply the essential amino acids that the body cannot manufacture and must obtain from food.",
+        "Amino acids supplied by food are used to make the body's own structural and active proteins.",
+        "Surplus amino acids are not stored as protein and can be used for energy (see Energy value)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Structural protein",
+      "definition": "A protein that builds and maintains body tissues, such as collagen in connective tissue or myosin in muscle."
+    },
+    {
+      "term": "Physiologically active protein",
+      "definition": "A protein that regulates body processes, such as a hormone, enzyme, antibody or blood plasma protein."
+    },
+    {
+      "term": "Nutrient protein",
+      "definition": "A protein in food that supplies amino acids, including the essential amino acids the body cannot make."
+    },
+    {
+      "term": "Enzyme",
+      "definition": "A protein that acts as a biological catalyst, speeding up a specific chemical reaction in the body."
+    },
+    {
+      "term": "Hormone",
+      "definition": "A chemical messenger made by a gland and carried in the blood to control a process in another part of the body."
+    },
+    {
+      "term": "Antibody",
+      "definition": "A protein made by white blood cells that binds to a specific invading micro-organism or toxin to help destroy it."
+    },
+    {
+      "term": "Collagen",
+      "definition": "A fibrous structural protein that forms connective tissue, tendons, ligaments and skin, giving them strength."
+    },
+    {
+      "term": "Haemoglobin",
+      "definition": "A protein in red blood cells that carries oxygen from the lungs to the body's tissues."
+    },
+    {
+      "term": "Plasma protein",
+      "definition": "A protein dissolved in the liquid part of the blood, such as albumin or fibrinogen, that has a role in blood volume or clotting."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three biological functions of protein",
+      "definition": "Structural proteins, physiologically active proteins and nutrient proteins."
+    },
+    {
+      "term": "Four types of physiologically active protein",
+      "definition": "Hormones, enzymes, antibodies and blood plasma proteins."
+    },
+    {
+      "term": "Named structural proteins and the tissues they build",
+      "definition": "Collagen in connective tissue, keratin in hair and nails, and myosin and actin in muscle."
+    },
+    {
+      "term": "Two jobs of albumin and fibrinogen in the blood",
+      "definition": "Albumin helps keep water within the blood vessels; fibrinogen is converted to fibrin, which forms clots."
+    },
+    {
+      "term": "Two roles of nutrient proteins in the body",
+      "definition": "Supplying essential amino acids for making body proteins, and supplying energy when amino acids are in surplus."
+    },
+    {
+      "term": "What haemoglobin carries",
+      "definition": "Oxygen, from the lungs to the body's tissues, in red blood cells."
+    },
+    {
+      "term": "Protein role in the immune response",
+      "definition": "Antibodies, made by white blood cells, bind to invading micro-organisms and toxins."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Outline two functions of protein that help to build or maintain body tissue, and name one protein that carries out each function.",
+      "model": "Growth and repair of body cells, using amino acids to make new cells and repair damaged tissue, for example collagen in connective tissue. Formation of muscle, with myosin and actin contracting to produce movement. Keratin forms hair and nails, and collagen gives skin and tendons strength."
+    },
+    {
+      "marks": 18,
+      "prompt": "Describe the three biological functions of protein in the body, giving at least one named protein or example for each function.",
+      "model": "Structural proteins build and maintain body tissues: growth and repair of cells, formation of muscle with myosin and actin, collagen in connective tissue and skin, keratin in hair and nails, and proteins in cell membranes. Physiologically active proteins regulate body processes: hormones such as insulin control blood glucose; enzymes such as pepsin speed up digestion in the stomach; antibodies produced by white blood cells fight invading micro-organisms and toxins; albumin maintains blood volume and fibrinogen helps the blood clot; haemoglobin carries oxygen in red blood cells. Nutrient proteins supply the essential amino acids that the body cannot make, and surplus amino acids are used for energy."
+    }
+  ]
+}

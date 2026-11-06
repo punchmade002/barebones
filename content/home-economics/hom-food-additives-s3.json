@@ -1,0 +1,144 @@
+{
+  "loId": "hom-food-additives-s3",
+  "chapterId": "hom-food-additives",
+  "subsection": "3. Contaminants in the food chain",
+  "syllabusRef": "1.3.5",
+  "notes": [
+    {
+      "h": "What contaminants are and how they enter food",
+      "b": "A contaminant is an unwanted substance that gets into food by accident, at any stage from farm to plate.",
+      "points": [
+        "Contaminants can enter during primary production on the farm, during processing, during packaging, during storage and during cooking.",
+        "A residue is a small amount of a substance left in food after it was used legitimately, such as a pesticide or a veterinary medicine.",
+        "General food law, set out in Regulation (EC) No 178/2002, requires that food placed on the market is not unsafe.",
+        "The Food Safety Authority of Ireland coordinates national enforcement of food safety, including control of contaminants."
+      ]
+    },
+    {
+      "h": "Pesticide residues",
+      "points": [
+        "Pesticides are chemicals used on crops: insecticides against insects, fungicides against fungi and herbicides against weeds.",
+        "A withdrawal period is the minimum time between the last spraying and harvest, allowing residues to fall to a safe level.",
+        "Residues can remain on fruit, vegetables and cereals and so enter the diet.",
+        "Washing and peeling reduce the amount of pesticide residue on fresh produce.",
+        "Residues are monitored by official testing carried out by agencies under FSAI service contracts, including the Department of Agriculture, Food and the Marine and the HSE Public Analyst Laboratories."
+      ]
+    },
+    {
+      "h": "Antibiotic and veterinary medicine residues",
+      "points": [
+        "Antibiotics are given to livestock to treat or prevent disease.",
+        "If milk or meat is sold before the withdrawal period has passed, antibiotic residues remain in the food.",
+        "Antibiotic residues in milk can prevent the lactic acid bacteria used for yoghurt and cheese from fermenting, so the product fails to set or ripen properly.",
+        "Antibiotic residues can cause allergic reactions in sensitive people and may contribute to the spread of antibiotic-resistant bacteria."
+      ]
+    },
+    {
+      "h": "Heavy metals and environmental contaminants",
+      "points": [
+        "Heavy metals such as lead, cadmium and mercury enter food from soil, water and air contaminated by industry or traffic.",
+        "Plants grown in contaminated soil can absorb metals, and shellfish filtering polluted water can accumulate them.",
+        "Mercury accumulates in large predatory fish such as shark and swordfish, a process known as bioaccumulation.",
+        "Because metals build up in the body over time, repeated exposure is a greater concern than a single exposure."
+      ]
+    },
+    {
+      "h": "Chemical contaminants from processing and packaging",
+      "points": [
+        "Cleaning agents, lubricants and sanitisers used in food premises can contaminate food if they are not rinsed off or are misused.",
+        "Chemicals can migrate from packaging or other food-contact materials into food, particularly fatty or acidic foods.",
+        "Food-grade materials and separate storage of chemicals from food reduce the risk of contamination.",
+        "Pest control chemicals stored near food can contaminate it if the storage is not properly separated."
+      ]
+    },
+    {
+      "h": "Controlling contaminants",
+      "points": [
+        "On the farm, good agricultural practice and observance of withdrawal periods control pesticide and veterinary residues.",
+        "Food businesses buy raw materials from approved suppliers and test them on reception.",
+        "Traceability records, including lot codes, allow a contaminated batch to be identified and recalled quickly.",
+        "Official control agencies sample and test food and raw materials to check that the limits on contaminants are met."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Contaminant",
+      "definition": "An unwanted substance that enters food accidentally at any stage from production to consumption."
+    },
+    {
+      "term": "Residue",
+      "definition": "A small amount of a substance, such as a pesticide or veterinary medicine, that remains in food after legitimate use."
+    },
+    {
+      "term": "Pesticide",
+      "definition": "A chemical used to kill or control pests on crops, including insecticides, fungicides and herbicides."
+    },
+    {
+      "term": "Withdrawal period",
+      "definition": "The minimum time that must pass after a chemical is applied or administered before the crop, milk or meat can be sold."
+    },
+    {
+      "term": "Heavy metal",
+      "definition": "A metal such as lead, cadmium or mercury that is toxic at low levels and can accumulate in the body."
+    },
+    {
+      "term": "Bioaccumulation",
+      "definition": "The build-up of a substance in an organism over time, so that concentrations are higher in animals further up the food chain."
+    },
+    {
+      "term": "Migration",
+      "definition": "The transfer of chemicals from packaging or food-contact materials into the food they contain."
+    },
+    {
+      "term": "Traceability",
+      "definition": "The ability to follow a food or ingredient through each stage of production and distribution using records such as lot codes."
+    },
+    {
+      "term": "Recall",
+      "definition": "The withdrawal of a food batch from sale and consumers when it is found to be unsafe."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Three types of pesticide and their targets",
+      "definition": "Insecticides target insects, fungicides target fungi and herbicides target weeds."
+    },
+    {
+      "term": "Three heavy metals of concern in food",
+      "definition": "Lead, cadmium and mercury."
+    },
+    {
+      "term": "Effect of antibiotic residues on yoghurt and cheese",
+      "definition": "They can inhibit the lactic acid bacteria, so fermentation and ripening fail."
+    },
+    {
+      "term": "Fish that accumulate high mercury levels",
+      "definition": "Large predatory fish such as shark and swordfish."
+    },
+    {
+      "term": "How chemicals reach food from packaging",
+      "definition": "They migrate from the packaging or food-contact material into the food, most readily when the food is fatty or acidic."
+    },
+    {
+      "term": "Two bodies that test food for residues in Ireland",
+      "definition": "The HSE Public Analyst Laboratories and the Department of Agriculture, Food and the Marine, working under FSAI service contracts."
+    },
+    {
+      "term": "Purpose of a withdrawal period",
+      "definition": "It allows residues to fall to a safe level between treatment and sale or harvest."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two sources of contamination in the food chain and explain how each one enters food.",
+      "model": "Pesticides: chemicals sprayed on crops to control insects, fungi or weeds leave residues on fruit, vegetables and cereals, which enter the diet if not removed by washing or peeling. Heavy metals: lead, cadmium or mercury present in soil, water or air contaminated by industry or traffic are absorbed by plants or accumulated by shellfish and predatory fish. Other valid sources: antibiotic residues in milk or meat sold before the withdrawal period has passed; chemicals migrating from packaging into the food."
+    },
+    {
+      "marks": 18,
+      "prompt": "Discuss how contaminants can enter food at different stages of the food chain, and explain how a food business can control them.",
+      "model": "Primary production: pesticides applied to crops and veterinary medicines given to livestock leave residues if withdrawal periods are not observed; heavy metals from polluted soil and water are absorbed by plants and animals. Processing: cleaning agents, lubricants and sanitisers can contaminate food if they are misused or not rinsed off. Packaging and storage: chemicals can migrate from packaging into fatty or acidic foods, and pest control chemicals stored near food can contaminate it. Cooking: contaminants already present remain in the food. Control: buy raw materials from approved suppliers and test them on reception; observe withdrawal periods on farms; store chemicals separately using food-grade materials; keep traceability records with lot codes so that a batch can be recalled; official agencies sample and test food and act against premises that breach the regulations."
+    }
+  ]
+}

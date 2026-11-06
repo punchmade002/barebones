@@ -1553,36 +1553,314 @@ const COURSE_DATA = {
     ] },
 
     // ── Home Economics ─────────────────────────────────────────────────────────
-    { id: "hom-carbohydrates",        number: 1,  subject: "home-economics", title: "Carbohydrates and Dietary Fibre",            examQuestions: [], learningOutcomes: [{ id: "hom-carbohydrates-1",        code: "HOM1",  title: "Carbohydrates and Dietary Fibre",            notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-proteins",             number: 2,  subject: "home-economics", title: "Proteins and Amino Acids",                   examQuestions: [], learningOutcomes: [{ id: "hom-proteins-1",             code: "HOM2",  title: "Proteins and Amino Acids",                   notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-lipids",               number: 3,  subject: "home-economics", title: "Lipids and Fats",                            examQuestions: [], learningOutcomes: [{ id: "hom-lipids-1",               code: "HOM3",  title: "Lipids and Fats",                            notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-vitamins-minerals",    number: 4,  subject: "home-economics", title: "Vitamins and Minerals",                      examQuestions: [], learningOutcomes: [{ id: "hom-vitamins-minerals-1",    code: "HOM4",  title: "Vitamins and Minerals",                      notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-digestion-metabolism", number: 5,  subject: "home-economics", title: "Digestion and Metabolism",                   examQuestions: [], learningOutcomes: [{ id: "hom-digestion-metabolism-1", code: "HOM5",  title: "Digestion and Metabolism",                   notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-energy-nutrition",     number: 6,  subject: "home-economics", title: "Energy Balance and Nutritional Needs",       examQuestions: [], learningOutcomes: [{ id: "hom-energy-nutrition-1",     code: "HOM6",  title: "Energy Balance and Nutritional Needs",       notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-meat-preparation",     number: 7,  subject: "home-economics", title: "Meat: Selection, Properties, and Cooking",   examQuestions: [], learningOutcomes: [{ id: "hom-meat-preparation-1",     code: "HOM7",  title: "Meat: Selection, Properties, and Cooking",   notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-fish-seafood",         number: 8,  subject: "home-economics", title: "Fish and Seafood",                           examQuestions: [], learningOutcomes: [{ id: "hom-fish-seafood-1",         code: "HOM8",  title: "Fish and Seafood",                           notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-dairy-eggs",           number: 9,  subject: "home-economics", title: "Dairy Products and Eggs",                    examQuestions: [], learningOutcomes: [{ id: "hom-dairy-eggs-1",           code: "HOM9",  title: "Dairy Products and Eggs",                    notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-cereals-grains",       number: 10, subject: "home-economics", title: "Cereals and Grains",                         examQuestions: [], learningOutcomes: [{ id: "hom-cereals-grains-1",       code: "HOM10", title: "Cereals and Grains",                         notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-cooking-methods",      number: 11, subject: "home-economics", title: "Cooking Methods and Heat Transfer",          examQuestions: [], learningOutcomes: [{ id: "hom-cooking-methods-1",      code: "HOM11", title: "Cooking Methods and Heat Transfer",          notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-food-preservation",    number: 12, subject: "home-economics", title: "Food Preservation and Storage",              examQuestions: [], learningOutcomes: [{ id: "hom-food-preservation-1",    code: "HOM12", title: "Food Preservation and Storage",              notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-food-safety",          number: 13, subject: "home-economics", title: "Food Safety and Microorganisms",             examQuestions: [], learningOutcomes: [{ id: "hom-food-safety-1",          code: "HOM13", title: "Food Safety and Microorganisms",             notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-meal-planning",        number: 14, subject: "home-economics", title: "Meal Planning and Special Diets",            examQuestions: [], learningOutcomes: [{ id: "hom-meal-planning-1",        code: "HOM14", title: "Meal Planning and Special Diets",            notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-food-additives",       number: 15, subject: "home-economics", title: "Food Additives and Processing",              examQuestions: [], learningOutcomes: [{ id: "hom-food-additives-1",       code: "HOM15", title: "Food Additives and Processing",              notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-consumer-rights",      number: 16, subject: "home-economics", title: "Consumer Rights and Protection",             examQuestions: [], learningOutcomes: [{ id: "hom-consumer-rights-1",      code: "HOM16", title: "Consumer Rights and Protection",             notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-personal-finance",     number: 17, subject: "home-economics", title: "Personal Finance and Budgeting",             examQuestions: [], learningOutcomes: [{ id: "hom-personal-finance-1",     code: "HOM17", title: "Personal Finance and Budgeting",             notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-housing",              number: 18, subject: "home-economics", title: "Housing and Accommodation",                  examQuestions: [], learningOutcomes: [{ id: "hom-housing-1",              code: "HOM18", title: "Housing and Accommodation",                  notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-textiles-fibres",      number: 19, subject: "home-economics", title: "Textiles and Fabric Properties",             examQuestions: [], learningOutcomes: [{ id: "hom-textiles-fibres-1",      code: "HOM19", title: "Textiles and Fabric Properties",             notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-clothing-selection",   number: 20, subject: "home-economics", title: "Clothing Selection and Care",                examQuestions: [], learningOutcomes: [{ id: "hom-clothing-selection-1",   code: "HOM20", title: "Clothing Selection and Care",                notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-environmental-issues", number: 21, subject: "home-economics", title: "Environmental Issues and Sustainability",    examQuestions: [], learningOutcomes: [{ id: "hom-environmental-issues-1", code: "HOM21", title: "Environmental Issues and Sustainability",    notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-appliances-equipment", number: 22, subject: "home-economics", title: "Household Appliances and Equipment",         examQuestions: [], learningOutcomes: [{ id: "hom-appliances-equipment-1", code: "HOM22", title: "Household Appliances and Equipment",         notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-sociological-concepts", number: 23, subject: "home-economics", title: "Sociological Terms and Concepts",             examQuestions: [], learningOutcomes: [{ id: "hom-sociological-concepts-1", code: "HOM23", title: "Sociological Terms and Concepts",             notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-family-society",        number: 24, subject: "home-economics", title: "The Family in Society",                       examQuestions: [], learningOutcomes: [{ id: "hom-family-society-1",        code: "HOM24", title: "The Family in Society",                       notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-family-caring",         number: 25, subject: "home-economics", title: "The Family as a Caring Unit",                 examQuestions: [], learningOutcomes: [{ id: "hom-family-caring-1",         code: "HOM25", title: "The Family as a Caring Unit",                 notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-marriage",              number: 26, subject: "home-economics", title: "Marriage",                                    examQuestions: [], learningOutcomes: [{ id: "hom-marriage-1",              code: "HOM26", title: "Marriage",                                    notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-family-law",            number: 27, subject: "home-economics", title: "Family Law",                                  examQuestions: [], learningOutcomes: [{ id: "hom-family-law-1",            code: "HOM27", title: "Family Law",                                  notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-social-change",         number: 28, subject: "home-economics", title: "Social Change and the Family",                 examQuestions: [], learningOutcomes: [{ id: "hom-social-change-1",         code: "HOM28", title: "Social Change and the Family",                 notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-education",             number: 29, subject: "home-economics", title: "Education",                                   examQuestions: [], learningOutcomes: [{ id: "hom-education-1",             code: "HOM29", title: "Education",                                   notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-work-leisure",          number: 30, subject: "home-economics", title: "Work and Leisure",                            examQuestions: [], learningOutcomes: [{ id: "hom-work-leisure-1",          code: "HOM30", title: "Work and Leisure",                            notes: [], keyTerms: [], questions: [] }] },
-    { id: "hom-unemployment-poverty",  number: 31, subject: "home-economics", title: "Unemployment, Poverty, and Social Responses", examQuestions: [], learningOutcomes: [{ id: "hom-unemployment-poverty-1",  code: "HOM31", title: "Unemployment, Poverty, and Social Responses", notes: [], keyTerms: [], questions: [] }] },
+    // Chapters follow course-outlines/homeeconomics.md: <id>-1 is the chapter review (test
+    // questions, generated notes); <id>-s<n> are the syllabus subsections notes are written for.
+    { id: "hom-proteins", number: 1, subject: "home-economics", title: "Proteins and Amino Acids", examQuestions: [], learningOutcomes: [
+        { id: "hom-proteins-1", code: "HOM1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s1", code: "HOM1.1", syllabusRef: "1.1.2", title: "Composition and amino acids", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s2", code: "HOM1.2", syllabusRef: "1.1.2", title: "Structure", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s3", code: "HOM1.3", syllabusRef: "1.1.2", title: "Classification", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s4", code: "HOM1.4", syllabusRef: "1.1.2", title: "Sources", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s5", code: "HOM1.5", syllabusRef: "1.1.2", title: "Properties", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s6", code: "HOM1.6", syllabusRef: "1.1.2", title: "Biological functions", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s7", code: "HOM1.7", syllabusRef: "1.1.2", title: "Biological value", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s8", code: "HOM1.8", syllabusRef: "1.1.2", title: "Energy value", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-proteins-s9", code: "HOM1.9", syllabusRef: "1.3.2", title: "Alternative (novel) protein foods", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-carbohydrates", number: 2, subject: "home-economics", title: "Carbohydrates and Dietary Fibre", examQuestions: [], learningOutcomes: [
+        { id: "hom-carbohydrates-1", code: "HOM2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s1", code: "HOM2.1", syllabusRef: "1.1.3", title: "Formation of carbohydrates in plants", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s2", code: "HOM2.2", syllabusRef: "1.1.3", title: "Composition, structure and classification", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s3", code: "HOM2.3", syllabusRef: "1.1.3", title: "Sources", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s4", code: "HOM2.4", syllabusRef: "1.1.3", title: "Properties", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s5", code: "HOM2.5", syllabusRef: "1.1.3", title: "Functions", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-carbohydrates-s6", code: "HOM2.6", syllabusRef: "1.1.3", title: "Energy value and dietary fibre targets", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-lipids", number: 3, subject: "home-economics", title: "Lipids and Fats", examQuestions: [], learningOutcomes: [
+        { id: "hom-lipids-1", code: "HOM3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s1", code: "HOM3.1", syllabusRef: "1.1.4", title: "Fatty acids", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s2", code: "HOM3.2", syllabusRef: "1.1.4", title: "Triglycerides and the classification of lipids", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s3", code: "HOM3.3", syllabusRef: "1.1.4", title: "Sources", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s4", code: "HOM3.4", syllabusRef: "1.1.4", title: "Properties", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s5", code: "HOM3.5", syllabusRef: "1.1.4", title: "Functions and energy value", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-lipids-s6", code: "HOM3.6", syllabusRef: "1.3.2", title: "Fats and oils as a food commodity", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-vitamins-minerals", number: 4, subject: "home-economics", title: "Vitamins and Minerals", examQuestions: [], learningOutcomes: [
+        { id: "hom-vitamins-minerals-1", code: "HOM4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-vitamins-minerals-s1", code: "HOM4.1", syllabusRef: "1.1.5", title: "Fat-soluble vitamins", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-vitamins-minerals-s2", code: "HOM4.2", syllabusRef: "1.1.5", title: "Water-soluble vitamins C, B12 and folate", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-vitamins-minerals-s3", code: "HOM4.3", syllabusRef: "1.1.5", title: "The other B-group vitamins", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-vitamins-minerals-s4", code: "HOM4.4", syllabusRef: "1.1.6", title: "Mineral elements", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-vitamins-minerals-s5", code: "HOM4.5", syllabusRef: "1.1.6", title: "Factors affecting the absorption of minerals", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-digestion-metabolism", number: 5, subject: "home-economics", title: "Digestion and Metabolism", examQuestions: [], learningOutcomes: [
+        { id: "hom-digestion-metabolism-1", code: "HOM5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-digestion-metabolism-s1", code: "HOM5.1", syllabusRef: "1.1.2", title: "Digestion and absorption of protein", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-digestion-metabolism-s2", code: "HOM5.2", syllabusRef: "1.1.3", title: "Digestion and absorption of carbohydrates", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-digestion-metabolism-s3", code: "HOM5.3", syllabusRef: "1.1.4", title: "Digestion and absorption of lipids", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-energy-nutrition", number: 6, subject: "home-economics", title: "Energy Balance and Nutritional Needs", examQuestions: [], learningOutcomes: [
+        { id: "hom-energy-nutrition-1", code: "HOM6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s1", code: "HOM6.1", syllabusRef: "1.2.1", title: "Energy requirements and the role of energy", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s2", code: "HOM6.2", syllabusRef: "1.2.1", title: "Energy balance", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s3", code: "HOM6.3", syllabusRef: "1.1.2", title: "Energy value of the nutrients", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s4", code: "HOM6.4", syllabusRef: "1.2.2", title: "Dietary guidelines", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s5", code: "HOM6.5", syllabusRef: "1.2.4", title: "The Irish diet", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-energy-nutrition-s6", code: "HOM6.6", syllabusRef: "1.1.7", title: "Water", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-meal-planning", number: 7, subject: "home-economics", title: "Meal Planning and Special Diets", examQuestions: [], learningOutcomes: [
+        { id: "hom-meal-planning-1", code: "HOM7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meal-planning-s1", code: "HOM7.1", syllabusRef: "1.1.1", title: "Food choices", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meal-planning-s2", code: "HOM7.2", syllabusRef: "1.2.3", title: "Dietary requirements through the life cycle", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meal-planning-s3", code: "HOM7.3", syllabusRef: "1.2.3", title: "Diet-related problems", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meal-planning-s4", code: "HOM7.4", syllabusRef: "1.2.3", title: "Modified diets", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meal-planning-s5", code: "HOM7.5", syllabusRef: "1.3.3", title: "Meal management and planning", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-food-industry", number: 8, subject: "home-economics", title: "The Irish Food Industry", examQuestions: [], learningOutcomes: [
+        { id: "hom-food-industry-1", code: "HOM8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-industry-s1", code: "HOM8.1", syllabusRef: "1.3.1", title: "Structure of the Irish food industry", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-industry-s2", code: "HOM8.2", syllabusRef: "1.3.1", title: "Small businesses and home enterprises", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-industry-s3", code: "HOM8.3", syllabusRef: "1.3.1", title: "Careers in food and related industries", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-meat-preparation", number: 9, subject: "home-economics", title: "Meat: Selection, Properties, and Cooking", examQuestions: [], learningOutcomes: [
+        { id: "hom-meat-preparation-1", code: "HOM9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meat-preparation-s1", code: "HOM9.1", syllabusRef: "1.3.2", title: "Nutritional significance and structure of meat", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meat-preparation-s2", code: "HOM9.2", syllabusRef: "1.3.2", title: "Selection and storage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meat-preparation-s3", code: "HOM9.3", syllabusRef: "1.3.2", title: "Preparation and cooking", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-meat-preparation-s4", code: "HOM9.4", syllabusRef: "1.3.2", title: "Meat processing and meat products", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-fish-seafood", number: 10, subject: "home-economics", title: "Fish and Seafood", examQuestions: [], learningOutcomes: [
+        { id: "hom-fish-seafood-1", code: "HOM10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fish-seafood-s1", code: "HOM10.1", syllabusRef: "1.3.2", title: "Classification, nutritional significance and contribution to the diet", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fish-seafood-s2", code: "HOM10.2", syllabusRef: "1.3.2", title: "Selection, spoilage and storage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fish-seafood-s3", code: "HOM10.3", syllabusRef: "1.3.2", title: "Preparation and cooking", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fish-seafood-s4", code: "HOM10.4", syllabusRef: "1.3.2", title: "Fish processing and fish products", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-dairy-eggs", number: 11, subject: "home-economics", title: "Dairy Products and Eggs", examQuestions: [], learningOutcomes: [
+        { id: "hom-dairy-eggs-1", code: "HOM11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s1", code: "HOM11.1", syllabusRef: "1.3.2", title: "Milk: nutritional significance and contribution to the diet", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s2", code: "HOM11.2", syllabusRef: "1.3.2", title: "Milk processing", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s3", code: "HOM11.3", syllabusRef: "1.3.2", title: "Cream, butter and yoghurt", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s4", code: "HOM11.4", syllabusRef: "1.3.2", title: "Cheese", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s5", code: "HOM11.5", syllabusRef: "1.3.2", title: "Eggs: structure, nutritional significance and contribution to the diet", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-dairy-eggs-s6", code: "HOM11.6", syllabusRef: "1.3.2", title: "Eggs: selection, storage, properties and culinary uses", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-cereals-grains", number: 12, subject: "home-economics", title: "Cereals and Grains", examQuestions: [], learningOutcomes: [
+        { id: "hom-cereals-grains-1", code: "HOM12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cereals-grains-s1", code: "HOM12.1", syllabusRef: "1.3.2", title: "Structure and nutritional significance", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cereals-grains-s2", code: "HOM12.2", syllabusRef: "1.3.2", title: "Cereals and cereal products", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cereals-grains-s3", code: "HOM12.3", syllabusRef: "1.3.2", title: "Milling and flour", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cereals-grains-s4", code: "HOM12.4", syllabusRef: "1.3.2", title: "Preparation and cooking of cereals", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cereals-grains-s5", code: "HOM12.5", syllabusRef: "1.3.4", title: "Two types of pastry", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-fruit-vegetables", number: 13, subject: "home-economics", title: "Fruit and Vegetables", examQuestions: [], learningOutcomes: [
+        { id: "hom-fruit-vegetables-1", code: "HOM13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fruit-vegetables-s1", code: "HOM13.1", syllabusRef: "1.3.2", title: "Classification, nutritional significance and contribution to the diet", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fruit-vegetables-s2", code: "HOM13.2", syllabusRef: "1.3.2", title: "Selection, storage and spoilage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fruit-vegetables-s3", code: "HOM13.3", syllabusRef: "1.3.2", title: "Preparation and cooking", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-fruit-vegetables-s4", code: "HOM13.4", syllabusRef: "1.3.2", title: "Processing", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-cooking-methods", number: 14, subject: "home-economics", title: "Cooking Methods and Heat Transfer", examQuestions: [], learningOutcomes: [
+        { id: "hom-cooking-methods-1", code: "HOM14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s1", code: "HOM14.1", syllabusRef: "1.3.4", title: "Physical and chemical changes during preparation and cooking", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s2", code: "HOM14.2", syllabusRef: "1.3.4", title: "Heat transfer and the principles of cooking", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s3", code: "HOM14.3", syllabusRef: "1.3.4", title: "Choice of cooking method", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s4", code: "HOM14.4", syllabusRef: "1.3.4", title: "Soups and sauces", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s5", code: "HOM14.5", syllabusRef: "1.3.4", title: "Food preparation and cooking equipment", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s6", code: "HOM14.6", syllabusRef: "1.3.4", title: "Recipe balance, presentation and dishes for different needs", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-cooking-methods-s7", code: "HOM14.7", syllabusRef: "assessment", title: "Food Studies practical coursework (20% of total marks)", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-food-additives", number: 15, subject: "home-economics", title: "Food Additives and Processing", examQuestions: [], learningOutcomes: [
+        { id: "hom-food-additives-1", code: "HOM15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s1", code: "HOM15.1", syllabusRef: "1.3.5", title: "Processed foods and three processed-food profiles", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s2", code: "HOM15.2", syllabusRef: "1.3.5", title: "Packaging and labelling", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s3", code: "HOM15.3", syllabusRef: "1.3.5", title: "Contaminants in the food chain", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s4", code: "HOM15.4", syllabusRef: "1.3.6", title: "Classes of food additives", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s5", code: "HOM15.5", syllabusRef: "1.3.6", title: "Legal control of additives in the EU", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-additives-s6", code: "HOM15.6", syllabusRef: "1.3.4", title: "Evaluation and sensory analysis", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-food-preservation", number: 16, subject: "home-economics", title: "Food Preservation and Storage", examQuestions: [], learningOutcomes: [
+        { id: "hom-food-preservation-1", code: "HOM16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s1", code: "HOM16.1", syllabusRef: "1.3.9", title: "Principles of food preservation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s2", code: "HOM16.2", syllabusRef: "1.3.9", title: "Freezing", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s3", code: "HOM16.3", syllabusRef: "1.3.9", title: "Heat processing", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s4", code: "HOM16.4", syllabusRef: "1.3.9", title: "Dehydration", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s5", code: "HOM16.5", syllabusRef: "1.3.9", title: "Chemical preservation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s6", code: "HOM16.6", syllabusRef: "1.3.9", title: "Fermentation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s7", code: "HOM16.7", syllabusRef: "1.3.9", title: "Irradiation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s8", code: "HOM16.8", syllabusRef: "1.3.9", title: "Comparative evaluation of preserved foods", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-preservation-s9", code: "HOM16.9", syllabusRef: "1.3.9", title: "Practical application of two methods of preservation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-food-safety", number: 17, subject: "home-economics", title: "Food Safety and Microorganisms", examQuestions: [], learningOutcomes: [
+        { id: "hom-food-safety-1", code: "HOM17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s1", code: "HOM17.1", syllabusRef: "1.3.8", title: "Moulds and yeasts", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s2", code: "HOM17.2", syllabusRef: "1.3.8", title: "Food poisoning bacteria", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s3", code: "HOM17.3", syllabusRef: "1.3.8", title: "Micro-organisms and the control of microbial spoilage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s4", code: "HOM17.4", syllabusRef: "1.3.8", title: "Uses of micro-organisms in food production", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s5", code: "HOM17.5", syllabusRef: "1.3.8", title: "Enzymes and food spoilage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s6", code: "HOM17.6", syllabusRef: "1.3.10", title: "Safe food preparation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s7", code: "HOM17.7", syllabusRef: "1.3.10", title: "HACCP and ISO 9000", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s8", code: "HOM17.8", syllabusRef: "1.3.10", title: "National agencies in food safety", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-food-safety-s9", code: "HOM17.9", syllabusRef: "1.3.7", title: "Food legislation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-resource-management", number: 18, subject: "home-economics", title: "Family Resource Management", examQuestions: [], learningOutcomes: [
+        { id: "hom-resource-management-1", code: "HOM18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-resource-management-s1", code: "HOM18.1", syllabusRef: "2.1", title: "Family resource management", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-resource-management-s2", code: "HOM18.2", syllabusRef: "2.1.1", title: "Components of management and decision-making", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-resource-management-s3", code: "HOM18.3", syllabusRef: "2.1.2", title: "Factors that affect management", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-personal-finance", number: 19, subject: "home-economics", title: "Personal Finance and Budgeting", examQuestions: [], learningOutcomes: [
+        { id: "hom-personal-finance-1", code: "HOM19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-personal-finance-s1", code: "HOM19.1", syllabusRef: "2.1.3", title: "Household income", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-personal-finance-s2", code: "HOM19.2", syllabusRef: "2.1.3", title: "Household expenditure and budgeting", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-personal-finance-s3", code: "HOM19.3", syllabusRef: "2.1.3", title: "Methods of payment and credit", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-personal-finance-s4", code: "HOM19.4", syllabusRef: "2.1.3", title: "Saving", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-personal-finance-s5", code: "HOM19.5", syllabusRef: "2.1.3", title: "Insurance", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-consumer-rights", number: 20, subject: "home-economics", title: "Consumer Rights and Protection", examQuestions: [], learningOutcomes: [
+        { id: "hom-consumer-rights-1", code: "HOM20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s1", code: "HOM20.1", syllabusRef: "2.2.1", title: "Consumer choices", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s2", code: "HOM20.2", syllabusRef: "2.2.1", title: "The purchasing process", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s3", code: "HOM20.3", syllabusRef: "2.2.2", title: "Consumer responsibility: information and rights", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s4", code: "HOM20.4", syllabusRef: "2.2.3", title: "Consumer protection legislation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s5", code: "HOM20.5", syllabusRef: "2.2.3", title: "Voluntary and statutory consumer protection bodies", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-consumer-rights-s6", code: "HOM20.6", syllabusRef: "2.2.3", title: "Complaints and the small claims procedure", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-environmental-issues", number: 21, subject: "home-economics", title: "Environmental Issues and Sustainability", examQuestions: [], learningOutcomes: [
+        { id: "hom-environmental-issues-1", code: "HOM21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-environmental-issues-s1", code: "HOM21.1", syllabusRef: "2.2.2", title: "Renewable and non-renewable resources", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-environmental-issues-s2", code: "HOM21.2", syllabusRef: "2.2.2", title: "Recycling and waste management", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-environmental-issues-s3", code: "HOM21.3", syllabusRef: "2.2.2", title: "Pollution", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-environmental-issues-s4", code: "HOM21.4", syllabusRef: "2.2.2", title: "Environmentally responsible practices in the home", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-appliances-equipment", number: 22, subject: "home-economics", title: "Household Appliances and Equipment", examQuestions: [], learningOutcomes: [
+        { id: "hom-appliances-equipment-1", code: "HOM22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s1", code: "HOM22.1", syllabusRef: "2.1.5", title: "Household technology and home management", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s2", code: "HOM22.2", syllabusRef: "2.1.5", title: "Selecting a large and a small household appliance", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s3", code: "HOM22.3", syllabusRef: "2.1.5", title: "An appliance with a motor", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s4", code: "HOM22.4", syllabusRef: "2.1.5", title: "An appliance with a heating element", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s5", code: "HOM22.5", syllabusRef: "2.1.5", title: "A refrigeration appliance", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-appliances-equipment-s6", code: "HOM22.6", syllabusRef: "2.1.5", title: "A microwave oven", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-sociological-concepts", number: 23, subject: "home-economics", title: "Sociological Terms and Concepts", examQuestions: [], learningOutcomes: [
+        { id: "hom-sociological-concepts-1", code: "HOM23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-sociological-concepts-s1", code: "HOM23.1", syllabusRef: "3.1.1", title: "Society, culture, norms and mores, values", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-sociological-concepts-s2", code: "HOM23.2", syllabusRef: "3.1.1", title: "Role, status, socio-economic groupings, social mobility", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-sociological-concepts-s3", code: "HOM23.3", syllabusRef: "3.1.1", title: "Primary and secondary social groups, kinship, socialisation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-sociological-concepts-s4", code: "HOM23.4", syllabusRef: "3.1.1", title: "Social institutions", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-sociological-concepts-s5", code: "HOM23.5", syllabusRef: "3.1.1", title: "Social change", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-family-society", number: 24, subject: "home-economics", title: "The Family in Society", examQuestions: [], learningOutcomes: [
+        { id: "hom-family-society-1", code: "HOM24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-society-s1", code: "HOM24.1", syllabusRef: "3.1.2", title: "Defining the family", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-society-s2", code: "HOM24.2", syllabusRef: "3.1.3", title: "The historical development of the Irish family", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-society-s3", code: "HOM24.3", syllabusRef: "3.1.3", title: "Modern family structures", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-society-s4", code: "HOM24.4", syllabusRef: "3.1.3", title: "Changes affecting family structures", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-society-s5", code: "HOM24.5", syllabusRef: "3.1.4", title: "Family functions", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-family-caring", number: 25, subject: "home-economics", title: "The Family as a Caring Unit", examQuestions: [], learningOutcomes: [
+        { id: "hom-family-caring-1", code: "HOM25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-caring-s1", code: "HOM25.1", syllabusRef: "3.1.6", title: "Roles and responsibilities in the family", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-caring-s2", code: "HOM25.2", syllabusRef: "3.1.6", title: "Child–parent relationships", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-caring-s3", code: "HOM25.3", syllabusRef: "3.1.6", title: "Older people in the family", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-caring-s4", code: "HOM25.4", syllabusRef: "3.1.6", title: "Family members with special needs", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-marriage", number: 26, subject: "home-economics", title: "Marriage", examQuestions: [], learningOutcomes: [
+        { id: "hom-marriage-1", code: "HOM26", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-marriage-s1", code: "HOM26.1", syllabusRef: "3.1.5", title: "Definition of marriage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-marriage-s2", code: "HOM26.2", syllabusRef: "3.1.5", title: "Cultural variations and the marriage relationship", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-marriage-s3", code: "HOM26.3", syllabusRef: "3.1.5", title: "Preparing for marriage", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-marriage-s4", code: "HOM26.4", syllabusRef: "3.1.5", title: "When a marriage breaks down", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-family-law", number: 27, subject: "home-economics", title: "Family Law", examQuestions: [], learningOutcomes: [
+        { id: "hom-family-law-1", code: "HOM27", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s1", code: "HOM27.1", syllabusRef: "3.1.7", title: "The Family Law (Maintenance of Spouses and Children) Act 1976", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s2", code: "HOM27.2", syllabusRef: "3.1.7", title: "The Family Home Protection Act 1976", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s3", code: "HOM27.3", syllabusRef: "3.1.7", title: "Barring orders under the Domestic Violence Act 2018", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s4", code: "HOM27.4", syllabusRef: "3.1.7", title: "The Judicial Separation and Family Law Reform Act 1989", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s5", code: "HOM27.5", syllabusRef: "3.1.7", title: "The Child Care Act 1991", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-family-law-s6", code: "HOM27.6", syllabusRef: "3.1.7", title: "Making a will", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-housing", number: 28, subject: "home-economics", title: "Housing and Accommodation", examQuestions: [], learningOutcomes: [
+        { id: "hom-housing-1", code: "HOM28", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s1", code: "HOM28.1", syllabusRef: "2.1.4", title: "Housing choices", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s2", code: "HOM28.2", syllabusRef: "2.1.3", title: "Housing finance", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s3", code: "HOM28.3", syllabusRef: "4.1.1", title: "Housing styles", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s4", code: "HOM28.4", syllabusRef: "4.1.2", title: "Housing provision", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s5", code: "HOM28.5", syllabusRef: "4.2", title: "Location, planning and professional services", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-housing-s6", code: "HOM28.6", syllabusRef: "4.2", title: "House design and building standards", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-home-interior", number: 29, subject: "home-economics", title: "Designing the House Interior", examQuestions: [], learningOutcomes: [
+        { id: "hom-home-interior-1", code: "HOM29", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-interior-s1", code: "HOM29.1", syllabusRef: "4.3", title: "Elements and principles of design and factors in interior design", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-interior-s2", code: "HOM29.2", syllabusRef: "4.3", title: "Floors, walls, furniture and soft furnishings", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-interior-s3", code: "HOM29.3", syllabusRef: "4.3", title: "Materials used in the home", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-home-services", number: 30, subject: "home-economics", title: "The Energy-Efficient Home, Systems and Services", examQuestions: [], learningOutcomes: [
+        { id: "hom-home-services-1", code: "HOM30", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s1", code: "HOM30.1", syllabusRef: "4.4", title: "Energy supplies to the home", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s2", code: "HOM30.2", syllabusRef: "4.4", title: "Emissions, energy inefficiency and energy efficiency", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s3", code: "HOM30.3", syllabusRef: "4.5.1", title: "Electricity", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s4", code: "HOM30.4", syllabusRef: "4.5.2", title: "Water", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s5", code: "HOM30.5", syllabusRef: "4.5.3", title: "Heating", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s6", code: "HOM30.6", syllabusRef: "4.5.4", title: "Insulation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s7", code: "HOM30.7", syllabusRef: "4.5.5", title: "Ventilation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-home-services-s8", code: "HOM30.8", syllabusRef: "4.5.6", title: "Lighting", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-textiles-fibres", number: 31, subject: "home-economics", title: "Textiles and Fabric Properties", examQuestions: [], learningOutcomes: [
+        { id: "hom-textiles-fibres-1", code: "HOM31", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-textiles-fibres-s1", code: "HOM31.1", syllabusRef: "2.1.6", title: "Textiles as a household resource", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-textiles-fibres-s2", code: "HOM31.2", syllabusRef: "2.1.6", title: "Safety in household textiles", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-textiles-fibres-s3", code: "HOM31.3", syllabusRef: "5.2", title: "Fibre classification", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-textiles-fibres-s4", code: "HOM31.4", syllabusRef: "5.2", title: "Fabric profiles", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-textiles-fibres-s5", code: "HOM31.5", syllabusRef: "5.2", title: "Fabric construction, finishes, colour, design and testing", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-clothing-selection", number: 32, subject: "home-economics", title: "Clothing Selection and Care", examQuestions: [], learningOutcomes: [
+        { id: "hom-clothing-selection-1", code: "HOM32", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s1", code: "HOM32.1", syllabusRef: "2.1.6", title: "Textile care", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s2", code: "HOM32.2", syllabusRef: "5.1", title: "Influences on clothing", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s3", code: "HOM32.3", syllabusRef: "5.1", title: "Current fashion trends", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s4", code: "HOM32.4", syllabusRef: "5.1", title: "Elements and principles of design in clothing", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s5", code: "HOM32.5", syllabusRef: "5.3", title: "The design process and garment construction", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-clothing-selection-s6", code: "HOM32.6", syllabusRef: "5.4", title: "The clothing and textile industries in Ireland", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-social-change", number: 33, subject: "home-economics", title: "Social Change and the Family", examQuestions: [], learningOutcomes: [
+        { id: "hom-social-change-1", code: "HOM33", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s1", code: "HOM33.1", syllabusRef: "6.1", title: "Changes in settlement patterns from rural to urban", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s2", code: "HOM33.2", syllabusRef: "6.1", title: "Working hours, leisure time and conditions of work", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s3", code: "HOM33.3", syllabusRef: "6.1", title: "Education and social welfare", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s4", code: "HOM33.4", syllabusRef: "6.1", title: "Changing attitudes", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s5", code: "HOM33.5", syllabusRef: "6.1", title: "Women in the workforce and equality legislation", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-social-change-s6", code: "HOM33.6", syllabusRef: "6.1", title: "Unemployment", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-education", number: 34, subject: "home-economics", title: "Education", examQuestions: [], learningOutcomes: [
+        { id: "hom-education-1", code: "HOM34", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-education-s1", code: "HOM34.1", syllabusRef: "6.2", title: "The purpose of education", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-education-s2", code: "HOM34.2", syllabusRef: "6.2", title: "Factors that influence educational achievement", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-education-s3", code: "HOM34.3", syllabusRef: "6.2", title: "The provision of education in Ireland", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-education-s4", code: "HOM34.4", syllabusRef: "6.2", title: "Equality of opportunity in education", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-education-s5", code: "HOM34.5", syllabusRef: "6.2", title: "Contemporary initiatives to improve access to education", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-work-leisure", number: 35, subject: "home-economics", title: "Work and Leisure", examQuestions: [], learningOutcomes: [
+        { id: "hom-work-leisure-1", code: "HOM35", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s1", code: "HOM35.1", syllabusRef: "6.3.1", title: "Concepts of work and attitudes to work", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s2", code: "HOM35.2", syllabusRef: "6.3.1", title: "Changes in patterns of work", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s3", code: "HOM35.3", syllabusRef: "6.3.1", title: "Unpaid and voluntary work", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s4", code: "HOM35.4", syllabusRef: "6.3.1", title: "The Protection of Young Persons (Employment) Act (1996)", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s5", code: "HOM35.5", syllabusRef: "6.3.2", title: "Reconciling employment with family responsibilities", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s6", code: "HOM35.6", syllabusRef: "6.3.2", title: "Child care", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s7", code: "HOM35.7", syllabusRef: "6.4", title: "Leisure", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-work-leisure-s8", code: "HOM35.8", syllabusRef: "6.4", title: "Evaluating leisure facilities", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "hom-unemployment-poverty", number: 36, subject: "home-economics", title: "Unemployment, Poverty, and Social Responses", examQuestions: [], learningOutcomes: [
+        { id: "hom-unemployment-poverty-1", code: "HOM36", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s1", code: "HOM36.1", syllabusRef: "6.5", title: "Defining unemployment", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s2", code: "HOM36.2", syllabusRef: "6.5", title: "Causes of unemployment", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s3", code: "HOM36.3", syllabusRef: "6.5", title: "Effects of unemployment", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s4", code: "HOM36.4", syllabusRef: "6.6.1", title: "Concepts of poverty", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s5", code: "HOM36.5", syllabusRef: "6.6.2", title: "Causes and effects of poverty", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s6", code: "HOM36.6", syllabusRef: "6.7", title: "Statutory responses", notes: [], keyTerms: [], questions: [] },
+        { id: "hom-unemployment-poverty-s7", code: "HOM36.7", syllabusRef: "6.7", title: "Community responses", notes: [], keyTerms: [], questions: [] }
+    ] },
   ],
 };

@@ -1,0 +1,127 @@
+{
+  "loId": "hom-cereals-grains-s3",
+  "chapterId": "hom-cereals-grains",
+  "subsection": "3. Milling and flour",
+  "syllabusRef": "1.3.2, 1.3.5",
+  "notes": [
+    {
+      "h": "Production of flour (milling)",
+      "b": "Milling separates the bran, germ and endosperm of the grain and reduces the endosperm to fine flour.",
+      "points": [
+        "Cleaning: the grain is passed through sieves, air currents and magnets to remove stones, dust, chaff and metal.",
+        "Conditioning (tempering): a controlled amount of water is added and the grain is left to rest, which toughens the bran so it separates cleanly and softens the endosperm for milling.",
+        "Break rolling: corrugated rollers crack open the grain and release the endosperm while the bran and germ stay in larger pieces.",
+        "Sifting (plansifting): sieves separate the bran, germ and endosperm particles by size.",
+        "Reduction rolling: smooth rollers grind the endosperm repeatedly, with a sieving step after each pass, until it becomes fine white flour.",
+        "Blending and testing: flour from different batches is blended for consistent quality, tested for moisture and gluten strength, and fortified where required.",
+        "Extraction rate: the proportion of the original grain kept in the flour; white flour has a low extraction rate, and wholemeal flour keeps the whole grain.",
+        "Diagram: flow diagram of the milling stages in order, with the bran, germ and endosperm streams branching off at the sifting step."
+      ]
+    },
+    {
+      "h": "Types of flour and their uses",
+      "points": [
+        "Strong flour: made from hard wheat with a high gluten content; used for yeast breads, because the gluten traps the carbon dioxide produced by yeast.",
+        "White plain (cream) flour: medium gluten content; used for pastry, sauces, scones and cakes.",
+        "Self-raising flour: plain flour with a raising agent, usually baking powder, added; used for cakes, sponges, scones and biscuits.",
+        "Wholemeal (wholewheat) flour: milled from the whole grain, so it contains bran, germ and endosperm; used for brown bread, scones, muffins and wholemeal pastry, and gives a denser texture because the bran cuts the gluten strands.",
+        "Wheatmeal flour: partly refined, with some bran removed; used for brown bread and soda bread.",
+        "Cornflour: a fine starch made from the endosperm of maize; used as a thickener for sauces, custards and gravy.",
+        "Rice flour and other gluten-free flours: used in baking for people with coeliac disease."
+      ]
+    },
+    {
+      "h": "Gluten in flour",
+      "b": "Gluten is the protein network that gives bread and pastry their structure, and its development is controlled by the way flour is handled.",
+      "points": [
+        "Gluten forms when the proteins gliadin and glutenin in wheat flour are mixed with water.",
+        "Gluten is elastic and stretchy: it traps gas and gives bread its structure.",
+        "Kneading develops gluten, producing a strong, elastic dough, whereas rubbing in fat and mixing lightly limit gluten, giving tender pastry.",
+        "Strong flour contains more gluten-forming protein than plain flour, so it gives a more elastic dough."
+      ]
+    },
+    {
+      "h": "Flour as a processed food",
+      "points": [
+        "Flour is a processed food: milling turns the whole grain into a refined ingredient with a different nutrient profile.",
+        "Packaging: flour is packed in strong, sealed, food-grade bags that protect it from moisture, insects, contamination and odours.",
+        "Labelling: the label gives the name of the food, the ingredients list, the net quantity, the nutrition declaration, the best-before date, storage instructions and the name and address of the food business.",
+        "Allergens: wheat and gluten must be emphasised in the ingredients list, for example in bold type.",
+        "Traceability: a batch code and date mark allow the manufacturer to trace the flour back through production.",
+        "Fortified flour: the added nutrients are shown on the nutrition declaration."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Milling",
+      "definition": "The process of separating the parts of a cereal grain and grinding the endosperm into flour."
+    },
+    {
+      "term": "Conditioning",
+      "definition": "Adding a controlled amount of water to grain and letting it rest so the bran toughens and the endosperm softens before milling."
+    },
+    {
+      "term": "Break rolling",
+      "definition": "The first roller stage in milling, which cracks open the grain and releases the endosperm while keeping the bran and germ in larger pieces."
+    },
+    {
+      "term": "Reduction rolling",
+      "definition": "The stage in milling where smooth rollers and sieves grind the endosperm into fine flour."
+    },
+    {
+      "term": "Extraction rate",
+      "definition": "The proportion of the original grain that is kept in the flour."
+    },
+    {
+      "term": "Strong flour",
+      "definition": "A flour made from hard wheat with a high gluten content, used for yeast breads."
+    },
+    {
+      "term": "Gluten",
+      "definition": "An elastic protein network formed from gliadin and glutenin when wheat flour is mixed with water."
+    },
+    {
+      "term": "Traceability",
+      "definition": "The ability to follow a food product back through its production, using batch codes and date marks."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four stages of producing flour",
+      "definition": "Cleaning, conditioning, roller milling and sifting."
+    },
+    {
+      "term": "Three parts separated during milling",
+      "definition": "Bran, germ and endosperm."
+    },
+    {
+      "term": "Four flours and one use each",
+      "definition": "Strong flour for bread; white plain flour for pastry and sauces; self-raising flour for cakes; wholemeal flour for brown bread."
+    },
+    {
+      "term": "Two proteins that form gluten",
+      "definition": "Gliadin and glutenin."
+    },
+    {
+      "term": "Three required details on a flour label",
+      "definition": "The name of the food, the ingredients list and the net quantity."
+    },
+    {
+      "term": "Two reasons flour is packed in sealed food-grade bags",
+      "definition": "It keeps out moisture and insects, and it prevents contamination and absorption of odours."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two stages in the production of flour and explain why each stage is needed.",
+      "model": "Cleaning: removes stones, dust, chaff and metal, so the flour is safe and of good quality. Conditioning: water is added and the grain rests, toughening the bran so it separates cleanly and softening the endosperm for milling. Other acceptable answers include break rolling (cracks the grain and releases the endosperm), sifting (separates bran, germ and endosperm by size) and reduction rolling (grinds the endosperm into fine flour)."
+    },
+    {
+      "marks": 24,
+      "prompt": "Describe how wheat is milled into flour, and explain how the packaging and label of a bag of flour help the consumer to choose and use it safely.",
+      "model": "Milling: cleaning removes foreign matter; conditioning adds water and rests the grain; break rolling opens the grain and releases the endosperm; sifting separates bran, germ and endosperm by size; reduction rolling grinds the endosperm into fine flour; the flour is blended, tested and fortified where required. Extraction rate determines whether the flour is white or wholemeal. Packaging: sealed, food-grade bags protect the flour from moisture, insects, contamination and odours. Label: the type of flour, the ingredients list, net quantity, nutrition declaration, wheat and gluten allergen emphasis, best-before date, storage instructions and the name and address of the food business. These let the consumer choose the right type for baking, identify allergens, compare products and store the flour correctly; the batch code supports traceability if a problem arises."
+    }
+  ]
+}

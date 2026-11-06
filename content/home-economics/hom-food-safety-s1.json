@@ -1,0 +1,185 @@
+{
+  "loId": "hom-food-safety-s1",
+  "chapterId": "hom-food-safety",
+  "subsection": "1. Moulds and yeasts",
+  "syllabusRef": "1.3.8",
+  "notes": [
+    {
+      "h": "Structure of a mould (Higher Level only)",
+      "b": "Moulds are multicellular filamentous fungi. Their visible body is built from thread-like filaments.",
+      "points": [
+        "Hyphae: thread-like filaments that grow over and into food and absorb its nutrients.",
+        "Mycelium: the interwoven mass of hyphae that forms the visible growth, such as the fluffy or powdery layer on bread.",
+        "Sporangiophore: an upright hypha that rises from the mycelium and carries a sporangium at its tip.",
+        "Sporangium: a round, spore-filled case at the tip of a sporangiophore; it bursts open when ripe and releases spores into the air.",
+        "Conidia: in Penicillium, spores borne in chains at the tips of branched conidiophores instead of inside a sporangium.",
+        "Diagram: a mould growing on a food surface, showing the mycelium spreading across the food, a sporangiophore rising from it and a sporangium at its tip; label hypha, mycelium, sporangiophore and sporangium."
+      ]
+    },
+    {
+      "h": "Habitat and sources of moulds (Higher Level only)",
+      "points": [
+        "Moulds are saprophytes: they feed on dead organic matter, so they grow on decaying food and plant material.",
+        "Spores are carried in the air, on dust, on food packaging and on unclean utensils, and settle on food.",
+        "Soil and damp indoor surfaces act as reservoirs from which spores spread to food.",
+        "Rhizopus is the common bread mould; it grows on bread, fruit and other moist starchy or sugary foods."
+      ]
+    },
+    {
+      "h": "Conditions for mould growth (Higher Level only)",
+      "points": [
+        "Food: moulds feed on the organic matter in food, such as bread, cheese, jam and fruit.",
+        "Warmth: most moulds are mesophiles; Penicillium grows best at 20 to 25 °C.",
+        "Moisture: moulds need moisture to grow, so frozen and very dry foods are less at risk.",
+        "Oxygen: moulds are aerobic, so they grow on the surface of food, such as jam, or through open-textured foods such as bread.",
+        "pH: moulds prefer slightly acidic conditions, around pH 4 to 6; strong acids inhibit their growth.",
+        "Time: moulds need about 24 to 48 hours to establish visible growth.",
+        "Freezing at −18 °C inactivates mould growth, but it does not kill the mould."
+      ]
+    },
+    {
+      "h": "Penicillium and Rhizopus (Higher Level only)",
+      "points": [
+        "Penicillium is a saprophytic mould with a green-blue, powdery appearance that grows on bread, jam, cheese and fruit.",
+        "Penicillium reproduces asexually only.",
+        "Heat above 75 °C destroys Penicillium.",
+        "Rhizopus is a saprophytic mould with fluffy white mycelium.",
+        "Rhizopus produces black pin-head sporangia that hold its spores.",
+        "Rhizopus reproduces both sexually and asexually."
+      ]
+    },
+    {
+      "h": "Reproduction of moulds (Higher Level only)",
+      "points": [
+        "Asexual reproduction: once the mycelium is established, a sporangiophore grows upwards and forms a sporangium.",
+        "When the sporangium ripens it bursts, releasing spores into the air.",
+        "A spore that lands on suitable food germinates and grows a new mycelium.",
+        "Sexual reproduction: two compatible hyphae grow beside each other and fuse.",
+        "The dividing wall between the fused hyphae breaks down and a thick-walled zygospore forms.",
+        "The zygospore protects the spores until conditions are suitable; then it germinates, hyphae grow out and spores are released."
+      ]
+    },
+    {
+      "h": "Structure of a yeast cell (Higher Level only)",
+      "b": "Yeasts are single-celled fungi. Each cell is a single oval or round unit, larger and more regular in shape than a bacterium.",
+      "points": [
+        "Cell wall: a rigid outer layer that gives the cell its shape and protects it.",
+        "Cell membrane: a thin layer inside the cell wall that controls which substances pass in and out.",
+        "Nucleus: a membrane-bound structure containing the genetic material, so yeast is a eukaryote.",
+        "Vacuole: a fluid-filled storage space within the cytoplasm.",
+        "Granular cytoplasm: the jelly-like contents of the cell, containing food reserves stored as granules.",
+        "Diagram: a yeast cell labelled cell wall, cell membrane, nucleus, vacuole and granular cytoplasm."
+      ]
+    },
+    {
+      "h": "Habitat and reproduction of yeasts (Higher Level only)",
+      "points": [
+        "Yeasts occur naturally on fruit skins, on grapes, in soil and in the air.",
+        "Yeasts need sugar, moisture and time to grow; they respire aerobically, or ferment sugar when oxygen is absent.",
+        "Reproduction is asexual, by budding: a small bud grows from the parent cell, enlarges and separates as a new cell.",
+        "In fermentation, yeast converts sugar into carbon dioxide and alcohol."
+      ]
+    },
+    {
+      "h": "Structure of a bacterial cell (Higher Level only)",
+      "b": "Bacteria are prokaryotes: single cells with no nucleus, so their genetic material lies free in the cytoplasm.",
+      "points": [
+        "Cell wall: a rigid layer, made of peptidoglycan, that gives the bacterial cell its shape and protects it.",
+        "Cell membrane: controls the movement of substances in and out of the cell.",
+        "Cytoplasm: the jelly-like interior where the cell's chemical reactions take place.",
+        "Ribosomes: small structures in the cytoplasm where proteins are made.",
+        "Flagella: whip-like tails that rotate to move the bacterium; not all bacteria have them.",
+        "Nucleoid: the region containing the single circular loop of DNA; plasmids are small extra loops of DNA.",
+        "Diagram: a bacterial cell labelled cell wall, cell membrane, cytoplasm, ribosomes, flagella and nucleoid."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Hyphae",
+      "definition": "Thread-like filaments that make up the body of a mould and absorb nutrients from food."
+    },
+    {
+      "term": "Mycelium",
+      "definition": "The interwoven mass of hyphae that forms the visible growth of a mould."
+    },
+    {
+      "term": "Sporangium",
+      "definition": "A round, spore-filled case at the tip of a sporangiophore that bursts open to release spores."
+    },
+    {
+      "term": "Zygospore",
+      "definition": "A thick-walled structure formed in sexual reproduction of a mould, which protects spores until conditions are suitable."
+    },
+    {
+      "term": "Saprophyte",
+      "definition": "An organism that feeds on dead organic matter."
+    },
+    {
+      "term": "Budding",
+      "definition": "Asexual reproduction in yeast in which a small bud grows from the parent cell and separates as a new cell."
+    },
+    {
+      "term": "Conidia",
+      "definition": "Spores formed in chains at the tips of branched conidiophores, as in Penicillium."
+    },
+    {
+      "term": "Prokaryote",
+      "definition": "A single-celled organism, such as a bacterium, with no membrane-bound nucleus."
+    },
+    {
+      "term": "Flagella",
+      "definition": "Whip-like structures that rotate to propel a bacterium."
+    },
+    {
+      "term": "Nucleoid",
+      "definition": "The region of a bacterial cell that holds its single circular loop of DNA."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Six conditions needed for mould growth",
+      "definition": "Food, warmth, moisture, oxygen, a slightly acidic pH and time."
+    },
+    {
+      "term": "Asexual reproduction in a mould",
+      "definition": "A sporangiophore forms a sporangium, which bursts when ripe and releases spores; a spore landing on suitable food grows a new mycelium."
+    },
+    {
+      "term": "Sexual reproduction in a mould",
+      "definition": "Two compatible hyphae fuse, the dividing wall breaks down, a zygospore forms, and it later germinates to release spores."
+    },
+    {
+      "term": "Penicillium: favoured temperature and what destroys it",
+      "definition": "It favours 20 to 25 °C and is destroyed by heat above 75 °C."
+    },
+    {
+      "term": "Parts of a yeast cell",
+      "definition": "Cell wall, cell membrane, nucleus, vacuole and granular cytoplasm."
+    },
+    {
+      "term": "Parts of a bacterial cell",
+      "definition": "Cell wall, cell membrane, cytoplasm, ribosomes, flagella and nucleoid."
+    },
+    {
+      "term": "How yeast reproduces",
+      "definition": "Asexually, by budding, in which a bud grows from the parent cell and separates."
+    },
+    {
+      "term": "Products of yeast fermentation",
+      "definition": "Carbon dioxide and alcohol, formed when yeast converts sugar in the absence of oxygen."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify two structures of a mould and state the function of each.",
+      "model": "Hyphae: thread-like filaments that grow into the food and absorb its nutrients. Mycelium: the network of hyphae that forms the visible growth on the food. Accept also sporangium, a spore-filled case that bursts to release spores, and sporangiophore, the upright hypha that carries the sporangium. Award one mark for each correctly named structure and one for each correct function, up to six."
+    },
+    {
+      "marks": 18,
+      "prompt": "Explain how temperature and moisture affect the growth of moulds on stored food. Refer to a named mould in your answer.",
+      "model": "Named mould: Penicillium, a saprophytic blue-green mould found on bread, jam, cheese and fruit. Temperature: most moulds are mesophiles; Penicillium grows best at 20 to 25 °C. Warm conditions speed up growth and reproduction, so food left at room temperature becomes mouldy quickly. Freezing at −18 °C inactivates growth, and temperatures above 75 °C destroy the mould. Moisture: moulds need moisture to grow and absorb nutrients; food with high moisture content is at greater risk, while dry foods support little growth. Freezing makes water unavailable, so frozen foods are unsuitable for mould growth. Reproduction: the mould forms spores that are released into the air and settle on food; a spore landing on moist, warm food germinates and grows a mycelium within 24 to 48 hours. Award marks for a clear named mould, the effect of each factor with a reason, and an example of stored food."
+    }
+  ]
+}

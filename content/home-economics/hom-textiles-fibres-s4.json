@@ -1,0 +1,167 @@
+{
+  "loId": "hom-textiles-fibres-s4",
+  "chapterId": "hom-textiles-fibres",
+  "subsection": "4. Fabric profiles",
+  "syllabusRef": "5.2",
+  "notes": [
+    {
+      "h": "Structure of a fabric profile",
+      "b": "A profile follows one named fabric from its fibre to its end use, with the evidence used to identify it.",
+      "points": [
+        "Fibre content: name the fabric and its fibres, e.g. woven cotton or knitted polyester.",
+        "Fibre production: how the fibre is obtained from its raw material, or made from a polymer.",
+        "Yarn production: how the fibres become a yarn, by spinning staple fibres or by twisting filaments.",
+        "Properties: two or three properties, each linked to the fibre structure or the yarn.",
+        "Identification: the burning test result and the microscopic appearance of the fibres.",
+        "Uses: suitable household or clothing uses, with a reason based on the properties."
+      ]
+    },
+    {
+      "h": "Natural fabric profile: woven cotton",
+      "points": [
+        "Fibre production: cotton bolls open when the plant matures, and the fibres are harvested by hand or machine.",
+        "Ginning: machines separate the fibres from the seeds and remove large impurities.",
+        "Cleaning and blending: fibres are cleaned and mixed so that the yarn is uniform.",
+        "Carding: fibres are combed into a loose web and drawn into a continuous sliver.",
+        "Spinning: the sliver is twisted into yarn; combing before spinning removes short fibres and gives a finer, smoother yarn.",
+        "Properties: absorbent, strong and stronger when wet, cool to wear, and creases easily unless treated.",
+        "Burning test: cotton burns readily with a steady flame, smells of burning paper, keeps burning when removed from the flame and leaves a soft grey ash.",
+        "Microscope: each fibre is a flat, twisted ribbon with natural twists (convolutions) and a central canal (lumen).",
+        "Uses: towels, bed linen and shirts, where absorbency and washability matter."
+      ]
+    },
+    {
+      "h": "Manufactured fabric profile: nylon",
+      "points": [
+        "Polymer: two monomers, a diamine and a dicarboxylic acid, in equal proportions are heated to form a long nylon polymer.",
+        "Extrusion: the molten polymer is forced through a spinneret, a plate with many fine holes.",
+        "Cooling and drawing: the filaments solidify as they cool, then are drawn to align their molecules and increase strength.",
+        "Yarn production: the continuous filaments are twisted together into a filament yarn, which can be textured to add bulk.",
+        "Properties: very strong, elastic, abrasion resistant, lightweight, low in absorbency and quick drying.",
+        "Burning test: nylon melts and shrinks away from the flame, forms a hard bead and gives off a chemical smell.",
+        "Microscope: smooth, uniform filaments with a round cross-section and no scales or convolutions.",
+        "Uses: hosiery, swimwear, lingerie, jackets and carpets."
+      ]
+    },
+    {
+      "h": "Blended fabric profile: polyester and cotton (Higher Level only)",
+      "points": [
+        "Blend: polyester and cotton fibres are mixed together, usually in the same yarn, to combine the properties of both.",
+        "Yarn production: the staple fibres are blended before carding, then drawn and spun into one yarn; a blend can also be made by using different fibre yarns for the warp and weft.",
+        "Properties: cotton gives absorbency and comfort, while polyester gives crease resistance, strength and quick drying.",
+        "Compared with pure cotton, the blend dries faster and is easier to iron.",
+        "Burning test: mixed results, as the blend burns like cotton and melts like polyester; the test is indicative only.",
+        "Microscope: both fibre types are visible in the same sample, with cotton's twisted ribbon structure beside polyester's smooth filaments.",
+        "Uses: shirts, school uniforms, bed linen and curtains."
+      ]
+    },
+    {
+      "h": "Yarn and filament modification (Higher Level only)",
+      "points": [
+        "Filament modification changes a continuous filament yarn so that it is bulkier, softer or stretchier, without changing the polymer.",
+        "Crimping and texturising: the filaments are crimped or looped, trapping air to give bulk and warmth; bulked polyester such as Crimplene is an example.",
+        "Air-jet texturing: compressed air loops the filaments, giving bulk without mechanical crimping.",
+        "Heat setting: a textured yarn is heated under tension so that it keeps its crimp or loops in the finished fabric.",
+        "Mercerising: cotton yarn or fabric is treated with caustic soda under tension, which gives extra lustre, strength and a better affinity for dye.",
+        "Textured or slub yarns: uneven thick and thin sections, or loops added to a yarn, create surface interest in a fabric."
+      ]
+    },
+    {
+      "h": "Investigation: identifying a fibre by burning and microscope",
+      "b": "Fibre identification is an investigation in which a known control sample is compared with an unknown sample.",
+      "points": [
+        "Aim: to identify an unknown fabric sample from its burning behaviour and its microscopic appearance.",
+        "Method: remove any finish where possible, hold a small fibre sample with forceps and bring it slowly towards a flame held over a non-flammable surface.",
+        "Observations: record how the fibre burns, whether it melts, the smell, and the appearance of the residue.",
+        "Control: test a known sample of cotton, wool or nylon under the same conditions, and compare the results.",
+        "Microscope: mount a few fibres in water on a slide, examine them under magnification and compare their shape with the reference descriptions.",
+        "Safety: ventilate the room, keep water and a fire blanket nearby, and do not breathe in fumes from the burning sample.",
+        "Conclusion: the fibre is identified when both the burning result and the microscopic appearance match a known fibre."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Staple fibre",
+      "definition": "A short fibre, such as cotton or wool, that must be spun together with other fibres to make a yarn."
+    },
+    {
+      "term": "Filament",
+      "definition": "A continuous, very long fibre, such as silk or a man-made fibre, that can be twisted into a yarn without spinning."
+    },
+    {
+      "term": "Ginning",
+      "definition": "The process of separating cotton fibres from their seeds and removing large impurities."
+    },
+    {
+      "term": "Carding",
+      "definition": "The process of combing fibres into a loose, aligned web and drawing them into a sliver."
+    },
+    {
+      "term": "Mercerising",
+      "definition": "A treatment of cotton with caustic soda under tension, which increases its lustre, strength and affinity for dye."
+    },
+    {
+      "term": "Texturising",
+      "definition": "A process that crimps or loops filaments to add bulk, softness and warmth to a yarn."
+    },
+    {
+      "term": "Burning test",
+      "definition": "A method of identifying a fibre by observing how it burns, whether it melts, its smell and the residue it leaves."
+    },
+    {
+      "term": "Microscopic evaluation",
+      "definition": "A method of identifying a fibre by its shape, surface and cross-section when viewed under magnification."
+    },
+    {
+      "term": "Blended yarn",
+      "definition": "A yarn made from two or more different fibres mixed together to combine their properties."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Two methods of identifying a fibre",
+      "definition": "The burning test and microscopic evaluation."
+    },
+    {
+      "term": "Four stages of cotton fibre production",
+      "definition": "Harvesting the bolls, ginning, cleaning and blending, and carding."
+    },
+    {
+      "term": "Three stages in making nylon filament",
+      "definition": "The polymer is formed from monomers, extruded through a spinneret, and cooled and drawn into filament."
+    },
+    {
+      "term": "Burning test result for cotton",
+      "definition": "It burns readily with a steady flame, smells of burning paper, keeps burning when removed and leaves soft grey ash."
+    },
+    {
+      "term": "Burning test result for wool",
+      "definition": "It burns slowly, self-extinguishes, smells of burning hair and leaves a crushable black bead."
+    },
+    {
+      "term": "Microscopic feature of cotton",
+      "definition": "A flat, twisted ribbon with natural convolutions and a central canal (lumen)."
+    },
+    {
+      "term": "Microscopic feature of wool",
+      "definition": "Overlapping scales on the surface of each fibre."
+    },
+    {
+      "term": "Two ways filament yarn is textured",
+      "definition": "Crimping (or false-twist texturising) and air-jet texturing."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe how a burning test could show whether an unknown sample is wool or nylon.",
+      "model": "Remove any finish, hold a small sample with forceps and bring it slowly to a flame over a non-flammable surface. Wool burns slowly, shrinks and curls away, tends to self-extinguish when removed, smells of burning hair and leaves a crushable black bead. Nylon melts and shrinks away from the flame, forms a hard bead and gives off a chemical smell. Compare the results with a known wool and a known nylon control, and ventilate the room with water and a fire blanket nearby."
+    },
+    {
+      "marks": 24,
+      "prompt": "Prepare a profile of one fabric made from a manufactured fibre. Cover how the fibre is produced, how the yarn is made, two properties of the fabric, the identification results and a suitable use.",
+      "model": "Fibre production: a polymer is formed by heating monomers together; the molten polymer is extruded through a spinneret, cooled and drawn into filaments. Yarn production: the continuous filaments are twisted into a filament yarn, which can be textured to add bulk and warmth. Properties: polyester is strong, crease resistant, quick drying and low in absorbency; nylon is strong, elastic and abrasion resistant. Identification: in a burning test the sample melts and shrinks away from the flame and forms a hard bead; under the microscope the filaments are smooth, uniform and round in cross-section with no scales or convolutions. Use: a polyester shirt or fleece, chosen because it resists creasing and dries quickly, or a nylon carpet, chosen because it is hard wearing."
+    }
+  ]
+}

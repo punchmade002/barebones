@@ -1,0 +1,136 @@
+{
+  "loId": "hom-food-safety-s9",
+  "chapterId": "hom-food-safety",
+  "subsection": "9. Food legislation",
+  "syllabusRef": "1.3.7",
+  "notes": [
+    {
+      "h": "Food hygiene legislation",
+      "b": "Regulation (EC) No 852/2004 on the hygiene of foodstuffs is an EU regulation, which applies directly in every member state. Ireland gives effect to it through national regulations.",
+      "points": [
+        "The European Communities (Hygiene of Foodstuffs) Regulations 2006, amended in 2009 and 2010, give effect to Regulation (EC) No 852/2004 in Ireland.",
+        "The Regulations set hygiene standards for food premises.",
+        "They require food businesses to operate a food safety system based on HACCP.",
+        "They require staff to be trained in hygiene and to follow hygiene procedures.",
+        "They require food premises to be registered.",
+        "They permit the closure of premises, and the destruction of food, where public health is immediately threatened."
+      ]
+    },
+    {
+      "h": "Food labelling (Higher Level only)",
+      "b": "Regulation (EU) No 1169/2011 on the provision of food information to consumers is given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+      "points": [
+        "A label must give the name of the food and a list of ingredients in descending order of weight at the time of manufacture.",
+        "Fourteen named allergens must be emphasised wherever they appear in the list of ingredients.",
+        "A label must give the net quantity of the food and the storage conditions needed to keep it safe.",
+        "A use-by date must appear on highly perishable food, after which the food must not be eaten.",
+        "A best-before date shows the date until which the food keeps its quality.",
+        "A label must give the name and address of the food business operator.",
+        "A nutrition declaration gives the energy value, fat, saturates, carbohydrate, sugars, protein and salt of the food.",
+        "Labelling must not mislead the consumer about the nature, origin or characteristics of the food."
+      ]
+    },
+    {
+      "h": "General framework of food law (Higher Level only)",
+      "points": [
+        "The Food Safety Authority of Ireland Act 1998 provides the Irish legal framework for food safety and for the functions of the FSAI.",
+        "Regulation (EC) No 178/2002, known as general food law, sets the general principles and requirements of food law across the EU.",
+        "Under general food law, food that is unsafe must not be placed on the market.",
+        "Food businesses must be able to trace food one step back to their supplier and one step forward to their customers.",
+        "General food law set up the European Food Safety Authority and the Rapid Alert System for Food and Feed.",
+        "Risk analysis under general food law has three parts: risk assessment, risk management and risk communication."
+      ]
+    },
+    {
+      "h": "Official controls (Higher Level only)",
+      "points": [
+        "Regulation (EU) 2017/625 sets out the rules for official controls, which check that food businesses comply with food law at every stage of the food chain.",
+        "It is given effect in Ireland by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020.",
+        "Official controls include inspection, sampling, analysis and audit.",
+        "Official controls are carried out by competent authorities, which in Ireland are the FSAI and the official agencies it contracts.",
+        "Official controls are carried out on a risk basis, so that higher-risk businesses are checked more often.",
+        "Inspectors can take samples of food for testing as part of an official control."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "EU regulation",
+      "definition": "A binding European law that applies directly in every member state without needing national legislation."
+    },
+    {
+      "term": "Given effect",
+      "definition": "The process by which a national law, such as an Irish statutory instrument, puts an EU regulation into force in Ireland."
+    },
+    {
+      "term": "Food business operator",
+      "definition": "Any person or company responsible for a food business, such as a shop, caterer or manufacturer, who must ensure that food is safe."
+    },
+    {
+      "term": "Competent authority",
+      "definition": "A body designated by law to carry out official controls and enforce food law."
+    },
+    {
+      "term": "Official control",
+      "definition": "An inspection, sampling, analysis or audit carried out by a competent authority to check compliance with food law."
+    },
+    {
+      "term": "Traceability",
+      "definition": "The ability to track food one step back to its supplier and one step forward to its customers."
+    },
+    {
+      "term": "Use-by date",
+      "definition": "The date on highly perishable food after which it must not be eaten."
+    },
+    {
+      "term": "Best-before date",
+      "definition": "The date until which food keeps its quality, after which it may be less palatable but may still be safe to eat."
+    },
+    {
+      "term": "Nutrition declaration",
+      "definition": "The mandatory list of the energy and main nutrients in a packaged food, given on its label."
+    },
+    {
+      "term": "General food law",
+      "definition": "Regulation (EC) No 178/2002, which sets the general principles and requirements of food law in the EU."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Year the Food Safety Authority of Ireland Act was passed",
+      "definition": "1998."
+    },
+    {
+      "term": "Number of named allergens that must be emphasised in an ingredients list",
+      "definition": "Fourteen."
+    },
+    {
+      "term": "Seven items in a mandatory nutrition declaration",
+      "definition": "Energy, fat, saturates, carbohydrate, sugars, protein and salt."
+    },
+    {
+      "term": "Two date markings on food labels and their meaning",
+      "definition": "A use-by date marks the point after which highly perishable food must not be eaten; a best-before date marks the point until which food keeps its quality."
+    },
+    {
+      "term": "Three parts of risk analysis in food law",
+      "definition": "Risk assessment, risk management and risk communication."
+    },
+    {
+      "term": "Four types of official control",
+      "definition": "Inspection, sampling, analysis and audit."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Identify two items of information that must appear on the label of a packaged food, and explain how each one protects the consumer.",
+      "model": "Ingredients list in descending order of weight, with named allergens emphasised: a consumer with an allergy can avoid foods that would cause a reaction. Use-by or best-before date: the consumer knows whether highly perishable food is still safe to eat, or whether quality has declined. Nutrition declaration of energy and nutrients: the consumer can make informed choices. Name and address of the food business operator: the consumer knows who is responsible for the food. Labelling must not mislead, so the consumer receives accurate information about the food."
+    },
+    {
+      "marks": 18,
+      "prompt": "Describe the protection that food legislation gives the consumer, referring to the European Communities (Hygiene of Foodstuffs) Regulations 2006 and to Regulation (EC) No 178/2002.",
+      "model": "Hygiene of Foodstuffs Regulations 2006, which give effect to Regulation (EC) No 852/2004 in Ireland: they set hygiene standards for food premises; require a HACCP-based food safety system and hygiene training for staff; require food premises to be registered; and permit the closure of premises and the destruction of food where public health is immediately threatened. General food law, Regulation (EC) No 178/2002: unsafe food must not be placed on the market; food businesses must trace food one step back and one step forward, so that unsafe food can be withdrawn or recalled quickly; the Rapid Alert System for Food and Feed passes warnings between countries; and risk assessment, risk management and risk communication guide decisions that protect public health."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "loId": "hom-lipids-s5",
+  "chapterId": "hom-lipids",
+  "subsection": "5. Functions and energy value",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Biological functions of lipids",
+      "points": [
+        "Lipids are a concentrated source of energy, supplying the body with more energy per gram than carbohydrate or protein.",
+        "Adipose tissue, the body's stored fat, lies under the skin and insulates the body against heat loss.",
+        "Adipose tissue around organs such as the kidneys cushions them against knocks and pressure.",
+        "Lipids carry the fat-soluble vitamins A, D, E and K and help the body absorb them.",
+        "Lipids slow the emptying of the stomach, which helps to delay hunger.",
+        "Phospholipids are lipids that form part of the structure of every cell membrane."
+      ]
+    },
+    {
+      "h": "Cholesterol",
+      "points": [
+        "Cholesterol is a fat-like substance called a sterol, found only in animal foods such as egg yolk, meat, butter and cheese.",
+        "The liver makes most of the cholesterol the body needs, so the amount eaten has less effect on blood cholesterol than the saturated fat in the diet.",
+        "The body uses cholesterol to make cell membranes, bile salts for digesting fat, and steroid hormones such as oestrogen and testosterone.",
+        "Saturated fat in the diet raises blood LDL cholesterol more than dietary cholesterol does."
+      ]
+    },
+    {
+      "h": "Health effects of a diet high in saturated fat",
+      "points": [
+        "Excess energy from saturated fat is stored as adipose tissue, which can lead to obesity.",
+        "Raised LDL cholesterol narrows arteries, increasing the risk of coronary heart disease and high blood pressure.",
+        "Excess body fat reduces the effectiveness of insulin, increasing the risk of Type 2 diabetes.",
+        "Cholesterol is a main component of gallstones, which can form in the gall bladder.",
+        "Irish healthy eating guidelines from the Department of Health advise replacing saturated fats with unsaturated fats rather than simply eating less fat."
+      ]
+    },
+    {
+      "h": "Energy value of lipids",
+      "points": [
+        "Fat provides 37 kJ or 9 kcal of energy per gram.",
+        "Carbohydrate provides 16 kJ or 3.75 kcal per gram; protein provides 17 kJ or 4 kcal per gram; alcohol provides 29 kJ or 7 kcal per gram.",
+        "Energy from fat is calculated by multiplying the grams of fat by 37 kJ, or by 9 kcal.",
+        "Worked example (sample data): 20 g of fat gives 20 × 37 = 740 kJ, or 20 × 9 = 180 kcal.",
+        "Much of the fat in the average diet is hidden in processed foods, cakes, pastries, fried foods and takeaways."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Adipose tissue",
+      "definition": "Body fat stored under the skin and around organs, which provides energy, insulation and cushioning."
+    },
+    {
+      "term": "Phospholipid",
+      "definition": "A lipid containing phosphorus that forms the structure of cell membranes."
+    },
+    {
+      "term": "Cholesterol",
+      "definition": "A sterol found in animal foods that the body needs for cell membranes, bile salts and hormones."
+    },
+    {
+      "term": "Fat-soluble vitamin",
+      "definition": "A vitamin, such as A, D, E or K, that dissolves in fat and is carried by lipids in the body."
+    },
+    {
+      "term": "Energy density",
+      "definition": "The amount of energy a food provides per gram, which is highest for fat."
+    },
+    {
+      "term": "Kilojoule",
+      "definition": "A unit of energy used in food labelling, equal to 1000 joules."
+    },
+    {
+      "term": "Kilocalorie",
+      "definition": "A unit of energy, also called a Calorie, commonly used on food labels, equal to 4.184 kJ."
+    },
+    {
+      "term": "Satiety",
+      "definition": "The feeling of fullness that reduces hunger and stops eating."
+    },
+    {
+      "term": "Gallstone",
+      "definition": "A hardened deposit that can form in the gall bladder from cholesterol and bile."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four functions of lipids in the body",
+      "definition": "Providing energy, insulating the body, protecting organs, and carrying fat-soluble vitamins."
+    },
+    {
+      "term": "Four uses of cholesterol in the body",
+      "definition": "Forming cell membranes, making bile salts for fat digestion, making steroid hormones, and making vitamin D."
+    },
+    {
+      "term": "Energy value of fat per gram",
+      "definition": "37 kJ or 9 kcal."
+    },
+    {
+      "term": "Energy value of carbohydrate per gram",
+      "definition": "16 kJ or 3.75 kcal."
+    },
+    {
+      "term": "Four health effects of a diet high in saturated fat",
+      "definition": "Obesity, coronary heart disease, Type 2 diabetes and gallstones."
+    },
+    {
+      "term": "Four fat-soluble vitamins",
+      "definition": "A, D, E and K."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State two ways in which lipids protect or insulate the body, and explain how each one works.",
+      "model": "Insulation: adipose tissue under the skin traps body heat and reduces heat loss to the environment. Protection: a layer of adipose tissue around organs such as the kidneys cushions them against knocks and pressure. Award one mark for each way named and one for each correct explanation, up to 6 in total."
+    },
+    {
+      "marks": 20,
+      "prompt": "Compare the energy value of lipids with that of carbohydrate and protein, then discuss how a diet high in saturated fat can affect health.",
+      "model": "Fat provides 37 kJ or 9 kcal per gram, carbohydrate 16 kJ or 3.75 kcal per gram and protein 17 kJ or 4 kcal per gram, so fat is the most energy-dense nutrient. Excess energy from fat is stored as adipose tissue, which can lead to obesity. Saturated fat raises LDL cholesterol, which deposits cholesterol on artery walls, increasing the risk of coronary heart disease and high blood pressure. Excess body fat reduces the effectiveness of insulin, increasing the risk of Type 2 diabetes. Cholesterol is a main component of gallstones. Irish healthy eating guidelines from the Department of Health advise replacing saturated fats with unsaturated fats."
+    }
+  ]
+}

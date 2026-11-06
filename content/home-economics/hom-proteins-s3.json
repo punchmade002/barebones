@@ -1,0 +1,117 @@
+{
+  "loId": "hom-proteins-s3",
+  "chapterId": "hom-proteins",
+  "subsection": "3. Classification",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Simple proteins",
+      "b": "Simple proteins yield only amino acids when they are hydrolysed. They are classed by source as animal or plant proteins.",
+      "points": [
+        "Animal simple proteins are found in meat, fish, eggs, milk, cheese and yoghurt.",
+        "Plant simple proteins are found in cereals, pulses, soya beans, nuts and seeds.",
+        "Settings: a poster with one named food example for each class of protein."
+      ]
+    },
+    {
+      "h": "Conjugated proteins",
+      "b": "A conjugated protein is a protein part combined with a non-protein part, called the prosthetic group.",
+      "points": [
+        "Lipoproteins: protein combined with a lipid, found in cell membranes and egg yolk.",
+        "Phosphoproteins: protein combined with a phosphate group, such as casein in milk.",
+        "Nucleoproteins: protein combined with a nucleic acid, found in chromosomes and cell nuclei.",
+        "Chromoproteins: protein combined with a coloured non-protein part, such as haemoglobin in blood, whose prosthetic group is haem.",
+        "On hydrolysis a conjugated protein yields amino acids together with its non-protein part, unlike a simple protein."
+      ]
+    },
+    {
+      "h": "Fibrous and globular animal proteins (Higher Level only)",
+      "points": [
+        "Fibrous animal proteins have long chains arranged in strands, which gives tough structural tissue.",
+        "Examples of fibrous proteins: collagen in connective tissue, elastin in elastic ligaments and myosin in muscle.",
+        "Globular animal proteins have compact, roughly spherical chains, and most of them dissolve in water.",
+        "Examples of globular proteins: albumin in egg white, lactalbumin in milk and myoglobin in meat."
+      ]
+    },
+    {
+      "h": "Glutelins and prolamines (Higher Level only)",
+      "points": [
+        "Glutelins and prolamines are the main protein types of cereal grains, and they are classed as plant simple proteins.",
+        "Glutelins dissolve in dilute acid or alkali but not in water or alcohol; they occur in wheat as glutenin and in rice as oryzenin.",
+        "Prolamines dissolve in 70 to 80 per cent alcohol but not in water; they occur in wheat as gliadin and in maize as zein."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Simple protein",
+      "definition": "A protein that yields only amino acids on hydrolysis."
+    },
+    {
+      "term": "Conjugated protein",
+      "definition": "A protein formed by a protein part combined with a non-protein part."
+    },
+    {
+      "term": "Prosthetic group",
+      "definition": "The non-protein part of a conjugated protein."
+    },
+    {
+      "term": "Lipoprotein",
+      "definition": "A conjugated protein in which a protein is combined with a lipid."
+    },
+    {
+      "term": "Phosphoprotein",
+      "definition": "A conjugated protein in which a protein is combined with a phosphate group."
+    },
+    {
+      "term": "Nucleoprotein",
+      "definition": "A conjugated protein in which a protein is combined with a nucleic acid."
+    },
+    {
+      "term": "Chromoprotein",
+      "definition": "A conjugated protein in which a protein is combined with a coloured non-protein part."
+    },
+    {
+      "term": "Glutelin",
+      "definition": "A plant simple protein that dissolves in dilute acid or alkali but not in water or alcohol."
+    },
+    {
+      "term": "Prolamine",
+      "definition": "A plant simple protein that dissolves in 70 to 80 per cent alcohol but not in water."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four classes of conjugated protein",
+      "definition": "Lipoproteins, phosphoproteins, nucleoproteins and chromoproteins."
+    },
+    {
+      "term": "Three fibrous animal proteins",
+      "definition": "Collagen, elastin and myosin."
+    },
+    {
+      "term": "Solvent that dissolves prolamines",
+      "definition": "70 to 80 per cent alcohol; prolamines do not dissolve in water."
+    },
+    {
+      "term": "Milk protein classed as a phosphoprotein",
+      "definition": "Casein."
+    },
+    {
+      "term": "Wheat proteins classed as glutelin and prolamine",
+      "definition": "Glutenin (glutelin) and gliadin (prolamine)."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Classify simple proteins by source and give one food example of each class. Name one conjugated protein and state its non-protein part.",
+      "model": "Simple proteins are classed as animal (e.g. meat, fish, eggs, milk) and plant (e.g. cereals, pulses, soya beans, nuts). A named conjugated protein, such as casein (a phosphoprotein, with a phosphate group as the non-protein part) or haemoglobin (a chromoprotein, with haem, a coloured iron-containing group, as the non-protein part)."
+    },
+    {
+      "marks": 18,
+      "prompt": "Distinguish between simple and conjugated proteins. Name the four types of conjugated protein and give one example of each.",
+      "model": "Simple proteins yield only amino acids on hydrolysis and are classed by source as animal or plant proteins. Conjugated proteins are a protein part combined with a non-protein part. Lipoproteins: protein with a lipid, e.g. in cell membranes or egg yolk. Phosphoproteins: protein with a phosphate group, e.g. casein in milk. Nucleoproteins: protein with a nucleic acid, e.g. chromosomes in cell nuclei. Chromoproteins: protein with a coloured non-protein part, e.g. haemoglobin in blood."
+    }
+  ]
+}

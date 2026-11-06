@@ -1,0 +1,150 @@
+{
+  "loId": "hom-appliances-equipment-s3",
+  "chapterId": "hom-appliances-equipment",
+  "subsection": "3. An appliance with a motor",
+  "syllabusRef": "2.1.5",
+  "notes": [
+    {
+      "h": "Design of a food processor (example)",
+      "b": "A food processor is a typical motor-driven appliance: the motor sits in the base and drives interchangeable attachments.",
+      "points": [
+        "The heavy motor is enclosed in a stable base with rubber feet, which keeps the centre of gravity low and prevents the appliance moving during use.",
+        "A spindle transfers rotary motion from the motor to the blade or disc fitted in the bowl.",
+        "The transparent, graduated bowl lets the user see the quantity and texture of food being processed.",
+        "The lid locks onto the bowl, and a safety interlock stops the motor from starting unless both are correctly fitted.",
+        "Interchangeable attachments include chopping blades, shredding and slicing discs, a dough blade and a pusher for feeding food through the feed tube.",
+        "Controls usually include on/off, variable speeds and a pulse button that gives short, controlled bursts of power.",
+        "Removable components and smooth surfaces make cleaning easier, and internal cord storage keeps the base tidy.",
+        "Diagram: food processor showing the base with motor and spindle, the bowl, the lid with feed tube and pusher, and the interlock position."
+      ]
+    },
+    {
+      "h": "Guidelines for use: food processor (example)",
+      "points": [
+        "Read the manufacturer's instructions and fit the correct attachment before connecting the appliance to the electricity supply.",
+        "Place the processor on a dry, level surface, and keep it away from water and the edge of the worktop.",
+        "Lock the bowl and lid before switching on, and never try to defeat the safety interlock.",
+        "Cut food into even pieces, do not exceed the maximum fill line, and use the speed recommended for the ingredient.",
+        "Feed food only with the supplied pusher, never with fingers, knives or spoons, and keep hands and loose clothing away from moving parts.",
+        "Use pulse control to avoid over-processing and to keep control of the texture of the food.",
+        "Switch off and unplug before changing attachments, removing the lid, scraping the bowl or cleaning, and wait until the blade has stopped completely.",
+        "Lift sharp blades by the centre hub, wash and dry them carefully, and store them safely away from children.",
+        "Wipe the motor base with a damp cloth; never immerse it or hold it under running water.",
+        "Do not use the appliance if the plug, flex, bowl or interlock is damaged; have it repaired by a qualified person before use."
+      ]
+    },
+    {
+      "h": "Guidelines for use: other motor appliances",
+      "points": [
+        "Hand mixers: start on the lowest speed to avoid splashing, then increase speed, and switch off before removing the beaters.",
+        "Blenders: add liquids first, never run the blender empty, and do not blend hot liquid in a sealed container, because steam pressure can force the lid off.",
+        "Vacuum cleaners: empty the dust container or change the bag when it is full, since a blocked airflow strains the motor.",
+        "Washing machines: do not overload the drum, use the detergent amount recommended by the manufacturer, and choose a programme suited to the fabric."
+      ]
+    },
+    {
+      "h": "Efficient use of a motor appliance",
+      "points": [
+        "Prepare several ingredients in sequence, starting with dry or clean foods, so the appliance is used once for many tasks rather than washed between each one.",
+        "Use the appliance only for the job it is designed for, and switch it off as soon as the task is complete rather than letting it run on."
+      ]
+    },
+    {
+      "h": "Electric motors: working principle (Higher Level only)",
+      "b": "A motor converts electrical energy into kinetic energy by using the magnetic force on a current-carrying conductor.",
+      "points": [
+        "A wire carrying a current in a magnetic field experiences a force, the motor effect, which is greatest when the wire is at right angles to the field.",
+        "The direction of the force is given by Fleming's left-hand rule: the thumb shows the force, the first finger the magnetic field and the second finger the current.",
+        "In a simple DC motor, a coil sits between the poles of a magnet; the forces on opposite sides of the coil act in opposite directions, creating a turning effect.",
+        "The commutator is a split ring on the shaft; brushes press on it and reverse the current in the coil every half turn, so the turning effect continues in one direction.",
+        "Electrical energy is the input and kinetic energy the output; heat from the coil and friction in the bearings is wasted energy.",
+        "Diagram: a simple DC motor showing the magnet poles, the coil, the commutator and brushes, with arrows for current direction and the forces on each side of the coil."
+      ]
+    },
+    {
+      "h": "Motor types used in household appliances (Higher Level only)",
+      "points": [
+        "A universal motor is a series-wound motor that runs on either AC or DC; it runs at high speed and is used in portable appliances such as food processors, hand mixers and vacuum cleaners.",
+        "An induction motor runs on AC and has no brushes or commutator; the rotating magnetic field of the stator induces currents in the rotor, which turns it.",
+        "Induction motors are robust and need little maintenance, which suits drums in washing machines and dishwasher pumps.",
+        "Speed control adjusts the voltage or current supplied to the motor, so a variable-speed control changes the speed of a universal motor."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Electric motor",
+      "definition": "A device that converts electrical energy into kinetic (rotational) energy."
+    },
+    {
+      "term": "Motor effect",
+      "definition": "The force produced on a current-carrying wire placed in a magnetic field."
+    },
+    {
+      "term": "Commutator",
+      "definition": "A split metal ring on a motor shaft that reverses the current in the coil each half turn, keeping the motor turning in one direction."
+    },
+    {
+      "term": "Universal motor",
+      "definition": "A series-wound motor that can run on AC or DC and runs at high speed, used in portable appliances."
+    },
+    {
+      "term": "Induction motor",
+      "definition": "An AC motor with no brushes or commutator, in which currents induced in the rotor are turned by a rotating magnetic field."
+    },
+    {
+      "term": "Interlock",
+      "definition": "A safety switch that stops an appliance operating unless its lid, bowl or door is correctly closed."
+    },
+    {
+      "term": "Spindle",
+      "definition": "The rotating shaft that transfers motion from a motor to the attachment in a food processor."
+    },
+    {
+      "term": "Pulse control",
+      "definition": "A button that gives short bursts of power, allowing the user to control how finely food is processed."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Four safety actions before using a food processor",
+      "definition": "Fit the correct attachment, lock the bowl and lid, place the processor on a dry level surface, and never defeat the interlock."
+    },
+    {
+      "term": "Three functions of the parts that transfer or control motor power in a food processor",
+      "definition": "The spindle transfers rotary motion to the attachment, the interlock prevents operation if the bowl or lid is loose, and the speed or pulse control sets the power applied."
+    },
+    {
+      "term": "Two reasons for using pulse control",
+      "definition": "It prevents over-processing of food and gives the user short, controlled bursts of power."
+    },
+    {
+      "term": "Three rules for handling sharp blades",
+      "definition": "Lift by the centre hub, wash and dry carefully, and store them safely out of reach of children."
+    },
+    {
+      "term": "Three things that overload a motor",
+      "definition": "Overfilling past the maximum line, processing large uneven pieces of food, and running the appliance for too long on a heavy load."
+    },
+    {
+      "term": "Direction of the force on a current-carrying wire in a magnetic field",
+      "definition": "Fleming's left-hand rule: the thumb gives the force, the first finger the field and the second finger the current (Higher Level only)."
+    },
+    {
+      "term": "Three features of the series-wound motor used in portable appliances",
+      "definition": "It runs on AC or DC, it runs at high speed, and it is used in portable appliances such as food processors and mixers (Higher Level only)."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name three precautions a user should take when operating a food processor, and give a reason for each.",
+      "model": "Any three, each with a reason. Lock the bowl and lid and never defeat the interlock, because the motor must not run unless the appliance is safely assembled. Feed food only with the pusher, because the blade can cause serious cuts to fingers. Switch off and unplug before changing attachments or cleaning, because the blade can still move until it stops. Keep the motor base dry and do not immerse it, because water can cause electric shock. Do not overfill the bowl, because this overloads the motor and gives uneven processing."
+    },
+    {
+      "marks": 20,
+      "prompt": "Describe a motor-driven kitchen appliance you have studied, covering its design features, its controls and the guidelines a user should follow to use it safely.",
+      "model": "Appliance: a food processor, with a motor in a stable insulated base driving a spindle that turns interchangeable blades or discs in a graduated bowl. Design: the lid and bowl lock together, the interlock stops the motor unless they are fitted, the feed tube and pusher allow safe feeding, and the low centre of gravity keeps the base stable. Controls: on/off, variable speeds and a pulse button for controlled processing. Guidelines: fit the correct attachment and lock the bowl and lid before connecting to the supply; place on a dry level surface; cut food into even pieces and do not overfill; feed with the pusher only; use pulse control; switch off and unplug before changing attachments or cleaning and wait for the blade to stop; lift blades by the hub and store them away from children; wipe the base and never immerse it; do not use a damaged plug, flex or interlock."
+    }
+  ]
+}

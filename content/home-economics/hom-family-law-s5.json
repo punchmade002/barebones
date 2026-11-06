@@ -1,0 +1,105 @@
+{
+  "loId": "hom-family-law-s5",
+  "chapterId": "hom-family-law",
+  "subsection": "5. The Child Care Act 1991",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Purpose and the child at risk (Higher Level only)",
+      "b": "The Child Care Act 1991 makes provision for the care and protection of children, and it gives Tusla, the Child and Family Agency powers to act where a child is at risk.",
+      "points": [
+        "The Act places a duty on Tusla, the Child and Family Agency to promote the welfare of children who are not receiving adequate care and protection.",
+        "A child is at risk where they are assaulted, neglected or sexually abused, or where their physical, emotional or educational needs are not met.",
+        "The agency has power to intervene in a family situation where a child is deemed to be at risk.",
+        "The Act's protections support children in the family alongside the protection orders available under the Domestic Violence Act 2018."
+      ]
+    },
+    {
+      "h": "Emergency and interim measures (Higher Level only)",
+      "points": [
+        "An emergency care order is a short-term court order that allows a child to be removed to a safe place where there is an immediate risk.",
+        "An interim care order is a court order made while the court considers a full application, so that the child is protected in the meantime.",
+        "Emergency and interim orders are temporary, and the court must decide whether a longer order is needed."
+      ]
+    },
+    {
+      "h": "Care order (Higher Level only)",
+      "points": [
+        "A care order is made by the court on application by the agency where a child's welfare requires that they be placed in care.",
+        "A care order can place a child in care for a long or short term, away from the family home.",
+        "Once a care order is made, the agency takes responsibility for the child's care and decides where the child is placed, such as with foster carers or in a residential unit.",
+        "Removal from the family home under a care order is the most serious step the Act allows, so the court must be satisfied that the child's welfare requires it."
+      ]
+    },
+    {
+      "h": "Supervision order (Higher Level only)",
+      "points": [
+        "A supervision order is made by the court on application by the agency, so that the child can stay at home.",
+        "Under a supervision order, agency personnel can visit the child in the home periodically to monitor the child's health and welfare.",
+        "A supervision order allows the agency to support the family and keep the child at home while monitoring the risk.",
+        "A supervision order is the less intrusive option, because the child is not removed from the family home.",
+        "The court makes the decision on the evidence put before it by the agency, including whether the child's welfare requires removal or monitoring."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Child at risk",
+      "definition": "A child who is assaulted, neglected or sexually abused, or whose basic needs are not being met by the family."
+    },
+    {
+      "term": "Care order",
+      "definition": "A court order that places a child in care, away from the family home, for a long or short term."
+    },
+    {
+      "term": "Supervision order",
+      "definition": "A court order allowing a child to stay at home while agency personnel visit to monitor their health and welfare."
+    },
+    {
+      "term": "Emergency care order",
+      "definition": "A short-term court order that allows a child to be removed to safety where there is an immediate risk."
+    },
+    {
+      "term": "Interim care order",
+      "definition": "A temporary court order made while the court considers a full care application."
+    },
+    {
+      "term": "Neglect",
+      "definition": "The failure to provide a child with the physical, emotional or educational care they need for healthy development."
+    },
+    {
+      "term": "Child welfare agency",
+      "definition": "The public body that carries out the Act's child protection functions and applies to the court for orders."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "Forms of abuse named as a risk to a child",
+      "definition": "Assault, neglect and sexual abuse."
+    },
+    {
+      "term": "Difference between a care order and a supervision order",
+      "definition": "A care order removes the child from the family home; a supervision order keeps the child at home under monitoring."
+    },
+    {
+      "term": "Who visits the child under a supervision order",
+      "definition": "Child welfare agency personnel, who visit periodically to monitor the child's health and welfare."
+    },
+    {
+      "term": "Who applies for a care or supervision order",
+      "definition": "Tusla, the Child and Family Agency, which applies to the court."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the difference between a care order and a supervision order under the Child Care Act 1991.",
+      "model": "A care order is made by the court on application by the agency and places a child in care, away from the family home, for a long or short term. A supervision order allows the child to remain at home, and agency personnel visit periodically to monitor the child's health and welfare. The care order is the more intrusive of the two because it removes the child from the home."
+    },
+    {
+      "marks": 16,
+      "prompt": "Write an informative note on the protection the Child Care Act 1991 gives to children who are at risk within their families.",
+      "model": "The Act gives Tusla, the Child and Family Agency a duty to promote the welfare of children who are not receiving adequate care and protection. A child is at risk where they are assaulted, neglected or sexually abused, and the agency can intervene in the family where a child is deemed to be at risk. Where the child needs immediate protection, an emergency care order allows removal to a safe place, and an interim care order protects the child while the full application is considered. A care order places the child in care for a long or short term and the agency then decides the placement. A supervision order allows the child to stay at home, with agency personnel visiting periodically to monitor health and welfare. The court must be satisfied that the child's welfare requires each order, and removal is the most serious step."
+    }
+  ]
+}
