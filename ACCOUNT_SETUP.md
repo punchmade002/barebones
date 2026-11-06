@@ -87,3 +87,21 @@ When payments are added:
 
 Never decide paid access from redirect query parameters, client-side metadata,
 or an unverified webhook.
+
+## Feedback inbox
+
+Students send feedback from **Profile menu → Submit feedback**. To switch it on,
+run `supabase/feedback.sql` in the Supabase SQL editor, then make yourself an
+admin:
+
+```sql
+insert into public.admins (user_id)
+select id from public.profiles where username = 'gabriel'
+on conflict do nothing;
+```
+
+Admins see a **Feedback inbox** row in the same menu. Each open item can be
+marked addressed with an optional reply. A reply pops up for that student the
+next time they open the app, once; the inbox shows whether it has been seen.
+"Reopen" clears the reply. All writes go through security-definer functions, so
+students can only submit and read their own feedback.
