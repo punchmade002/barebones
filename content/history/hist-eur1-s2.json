@@ -17,7 +17,7 @@
       "h": "Background and causes in Germany",
       "b": "The German revolution grew out of economic distress, liberal frustration with the system of 1815 and the wish for a united German nation.",
       "points": [
-        "Potato blight from 1845 and poor grain harvests in 1846 and 1847 doubled food prices in many areas and caused hunger riots.",
+        "Potato blight from 1845 and poor grain harvests in 1846 and 1847 sharply raised food prices and caused hunger riots in many areas.",
         "A commercial and industrial depression in 1847 brought bankruptcies and unemployment, hitting artisans already threatened by factory competition; the Silesian weavers' rising of 1844 had shown the desperation of hand workers.",
         "Liberals, mostly educated middle-class men, wanted constitutions, freedom of the press and assembly, trial by jury and a German national parliament.",
         "Nationalists wanted a German nation state, but disagreed whether it should include the German lands of the Habsburg Empire.",
@@ -46,7 +46,7 @@
         "It rejected the radicals' call for a republic and arranged elections to a national assembly by broad manhood suffrage, although each state set its own rules and some excluded servants and men on poor relief.",
         "Disappointed radicals in Baden, led by Friedrich Hecker and Gustav Struve, launched a republican rising in April 1848, which federal troops defeated at Kandern on 20 April.",
         "The Frankfurt National Assembly opened on 18 May 1848 in the Paulskirche (St Paul's Church).",
-        "About 585 deputies were elected, and 809 sat at some point including substitutes; most were lawyers, judges, civil servants, teachers and professors, so it was nicknamed the professors' parliament.",
+        "About 585 deputies were elected, and some 800 men sat at some point including substitutes; most were lawyers, judges, civil servants, teachers and professors, so it was nicknamed the professors' parliament.",
         "Craftsmen were few, and there were almost no peasants or workers among the deputies.",
         "The Assembly elected Heinrich von Gagern, a moderate liberal from Hesse-Darmstadt, as its president.",
         "On 29 June 1848 it chose Archduke John of Austria as Reichsverweser (imperial regent) at the head of a Provisional Central Power, but this government had no army, civil service or tax revenue of its own."
@@ -60,7 +60,7 @@
         "Grossdeutsch (Greater German): a Germany including the German-speaking Habsburg lands, favoured by Catholics, Austrians and many southerners.",
         "Kleindeutsch (Lesser German): a Germany united under Prussia without Austria, favoured by Gagern and most Protestant northern liberals.",
         "The Grossdeutsch plan failed when Austria's new chief minister, Prince Felix Schwarzenberg, insisted in March 1849 that the whole multinational Habsburg Empire must enter any German state or none of it would.",
-        "The Assembly also claimed German-speaking areas ruled by others, such as Prussian Poland (Posen) and Bohemia, showing that liberal nationalism could deny other nations' rights."
+        "The Assembly also claimed mixed areas ruled by others, such as parts of Prussian Poland (Posen), showing that liberal nationalism could deny other nations' rights."
       ]
     },
     {
@@ -85,7 +85,7 @@
         "Schwarzenberg became Austrian chief minister in November, and on 2 December 1848 the 18-year-old Franz Joseph replaced Emperor Ferdinand.",
         "In Berlin, Frederick William IV appointed a conservative ministry under Count Brandenburg, and General Wrangel's troops entered the city on 10 November 1848 without resistance.",
         "On 5 December 1848 the king dissolved the Prussian National Assembly and imposed a constitution of his own, which kept royal control of the army and ministers.",
-        "In May 1849 Prussia brought in the three-class franchise, which divided voters into three classes by the taxes they paid, so a wealthy minority elected two-thirds of the electors."
+        "In May 1849 Prussia brought in the three-class franchise, which divided voters into three classes by the taxes they paid; each class chose a third of the electors, so a small wealthy minority had a vastly greater say than the poor majority."
       ]
     },
     {
@@ -94,7 +94,7 @@
         "The Frankfurt constitution, completed on 27–28 March 1849, created a federal German Empire with a hereditary emperor, a lower house elected by manhood suffrage and an upper house representing the states.",
         "On 28 March 1849 the Assembly elected Frederick William IV Emperor of the Germans by 290 votes, with 248 deputies abstaining.",
         "Frederick William gave an evasive answer to the Assembly's delegation on 3 April and formally refused the crown on 28 April 1849, because he would not accept a crown from an elected assembly rather than from his fellow princes.",
-        "In private he called it a crown from the gutter.",
+        "In private he scorned it as a crown picked up from the gutter of revolution.",
         "Austria rejected the constitution and recalled its deputies in April 1849.",
         "Twenty-eight smaller states accepted the constitution by mid-April, but Prussia, Bavaria, Saxony and Hanover rejected it, so it never came into force."
       ]
@@ -136,32 +136,107 @@
     }
   ],
   "keyTerms": [
-    { "term": "Liberalism", "definition": "In 1848, the demand of the educated middle class for a constitution, an elected parliament, civil liberties and the rule of law." },
-    { "term": "Nationalism", "definition": "In 1848, the demand that all Germans be united in a single nation state with a national parliament instead of the 39 states of the Confederation." },
-    { "term": "Democracy", "definition": "Government by the people through elected representatives chosen by all adult men, demanded by the radicals of 1848, who also wanted a republic." },
-    { "term": "Vorparlament", "definition": "The self-appointed pre-parliament that met at Frankfurt from 31 March to 3 April 1848 and arranged elections to a national assembly." },
-    { "term": "Frankfurt National Assembly", "definition": "The elected German parliament that met in the Paulskirche from 18 May 1848 to draw up a constitution for a united Germany." },
-    { "term": "Basic Rights", "definition": "The civil liberties declared by the Frankfurt Assembly in December 1848, including equality before the law, a free press and the end of feudal privileges." },
-    { "term": "Grossdeutsch", "definition": "The Greater German solution: a united Germany that would include the German-speaking lands of the Habsburg Empire." },
-    { "term": "Kleindeutsch", "definition": "The Lesser German solution: a united Germany under Prussian leadership that excluded Austria." },
-    { "term": "Reichsverweser", "definition": "Imperial regent: the title given by the Frankfurt Assembly in June 1848 to Archduke John of Austria as head of a provisional German government." },
-    { "term": "Malmö armistice", "definition": "The August 1848 truce between Prussia and Denmark over Schleswig-Holstein, which the Assembly was forced to accept, exposing its weakness." },
-    { "term": "Three-class franchise", "definition": "The Prussian voting system of 1849 that divided voters into three classes by taxes paid, giving the wealthy most of the voting power." },
-    { "term": "Punctation of Olmütz", "definition": "The November 1850 agreement by which Prussia, under Austrian and Russian pressure, abandoned the Erfurt Union and accepted the restored Confederation." }
+    {
+      "term": "Liberalism",
+      "definition": "In 1848, the demand of the educated middle class for a constitution, an elected parliament, civil liberties and the rule of law."
+    },
+    {
+      "term": "Nationalism",
+      "definition": "In 1848, the demand that all Germans be united in a single nation state with a national parliament instead of the 39 states of the Confederation."
+    },
+    {
+      "term": "Democracy",
+      "definition": "Government by the people through elected representatives chosen by all adult men, demanded by the radicals of 1848, who also wanted a republic."
+    },
+    {
+      "term": "Vorparlament",
+      "definition": "The self-appointed pre-parliament that met at Frankfurt from 31 March to 3 April 1848 and arranged elections to a national assembly."
+    },
+    {
+      "term": "Frankfurt National Assembly",
+      "definition": "The elected German parliament that met in the Paulskirche from 18 May 1848 to draw up a constitution for a united Germany."
+    },
+    {
+      "term": "Basic Rights",
+      "definition": "The civil liberties declared by the Frankfurt Assembly in December 1848, including equality before the law, a free press and the end of feudal privileges."
+    },
+    {
+      "term": "Grossdeutsch",
+      "definition": "The Greater German solution: a united Germany that would include the German-speaking lands of the Habsburg Empire."
+    },
+    {
+      "term": "Kleindeutsch",
+      "definition": "The Lesser German solution: a united Germany under Prussian leadership that excluded Austria."
+    },
+    {
+      "term": "Reichsverweser",
+      "definition": "Imperial regent: the title given by the Frankfurt Assembly in June 1848 to Archduke John of Austria as head of a provisional German government."
+    },
+    {
+      "term": "Malmö armistice",
+      "definition": "The August 1848 truce between Prussia and Denmark over Schleswig-Holstein, which the Assembly was forced to accept, exposing its weakness."
+    },
+    {
+      "term": "Three-class franchise",
+      "definition": "The Prussian voting system of 1849 that divided voters into three classes by taxes paid, giving the wealthy most of the voting power."
+    },
+    {
+      "term": "Punctation of Olmütz",
+      "definition": "The November 1850 agreement by which Prussia, under Austrian and Russian pressure, abandoned the Erfurt Union and accepted the restored Confederation."
+    }
   ],
   "factCards": [
-    { "term": "1848 in Germany: four causes", "definition": "Crop failures and hunger (1845–47), the 1847 depression, liberal and nationalist demands, and the example of the February revolution in Paris." },
-    { "term": "Berlin, 18–21 March 1848", "definition": "Barricade fighting left about 300 dead; Frederick William IV withdrew the troops, honoured the dead and rode through Berlin in the German colours." },
-    { "term": "Frankfurt Assembly: opening and members", "definition": "It opened on 18 May 1848 in the Paulskirche; about 585 deputies were elected, mostly lawyers, officials and academics." },
-    { "term": "Hecker's rising, April 1848", "definition": "Friedrich Hecker and Gustav Struve led a republican rising in Baden that federal troops defeated at Kandern on 20 April 1848." },
-    { "term": "Schleswig-Holstein crisis, 1848", "definition": "Prussia fought Denmark for the duchies but signed the Malmö armistice in August; the Assembly's acceptance led to the Frankfurt riots of 18 September." },
-    { "term": "Counter-revolution in Austria, 1848", "definition": "Windischgrätz took Prague in June and Vienna on 31 October; Robert Blum was shot on 9 November and Franz Joseph became emperor on 2 December." },
-    { "term": "Counter-revolution in Prussia, 1848", "definition": "Wrangel's troops entered Berlin on 10 November, and on 5 December the king dissolved the Prussian Assembly and imposed his own constitution." },
-    { "term": "Election of an emperor, 28 March 1849", "definition": "The Assembly elected Frederick William IV Emperor of the Germans by 290 votes with 248 abstentions; he refused the crown on 28 April." },
-    { "term": "May risings of 1849", "definition": "Risings in Saxony, the Palatinate and Baden in support of the constitution were crushed by Prussian troops by July 1849." },
-    { "term": "End of the rump parliament, June 1849", "definition": "Radical deputies who moved to Stuttgart were dispersed by Württemberg troops on 18 June 1849." },
-    { "term": "Erfurt Union and Olmütz, 1850", "definition": "Prussia's plan for a union of princes without Austria was abandoned at Olmütz in November 1850 under Austrian and Russian pressure." },
-    { "term": "Why the 1848 revolution failed: four reasons", "definition": "The Assembly had no army; the rulers' armies stayed loyal; liberals, radicals and peasants divided; and Frederick William IV refused the crown." },
-    { "term": "1848: A. J. P. Taylor's verdict", "definition": "He wrote that German history reached its turning point in 1848 and failed to turn, implying Germany missed its chance of liberal unification." }
+    {
+      "term": "1848 in Germany: four causes",
+      "definition": "Crop failures and hunger (1845–47), the 1847 depression, liberal and nationalist demands, and the example of the February revolution in Paris."
+    },
+    {
+      "term": "Berlin, 18–21 March 1848",
+      "definition": "Barricade fighting left about 300 dead; Frederick William IV withdrew the troops, honoured the dead and rode through Berlin in the German colours."
+    },
+    {
+      "term": "Frankfurt Assembly: opening and members",
+      "definition": "It opened on 18 May 1848 in the Paulskirche; about 585 deputies were elected, mostly lawyers, officials and academics."
+    },
+    {
+      "term": "Hecker's rising, April 1848",
+      "definition": "Friedrich Hecker and Gustav Struve led a republican rising in Baden that federal troops defeated at Kandern on 20 April 1848."
+    },
+    {
+      "term": "Schleswig-Holstein crisis, 1848",
+      "definition": "Prussia fought Denmark for the duchies but signed the Malmö armistice in August; the Assembly's acceptance led to the Frankfurt riots of 18 September."
+    },
+    {
+      "term": "Counter-revolution in Austria, 1848",
+      "definition": "Windischgrätz took Prague in June and Vienna on 31 October; Robert Blum was shot on 9 November and Franz Joseph became emperor on 2 December."
+    },
+    {
+      "term": "Counter-revolution in Prussia, 1848",
+      "definition": "Wrangel's troops entered Berlin on 10 November, and on 5 December the king dissolved the Prussian Assembly and imposed his own constitution."
+    },
+    {
+      "term": "Election of an emperor, 28 March 1849",
+      "definition": "The Assembly elected Frederick William IV Emperor of the Germans by 290 votes with 248 abstentions; he refused the crown on 28 April."
+    },
+    {
+      "term": "May risings of 1849",
+      "definition": "Risings in Saxony, the Palatinate and Baden in support of the constitution were crushed by Prussian troops by July 1849."
+    },
+    {
+      "term": "End of the rump parliament, June 1849",
+      "definition": "Radical deputies who moved to Stuttgart were dispersed by Württemberg troops on 18 June 1849."
+    },
+    {
+      "term": "Erfurt Union and Olmütz, 1850",
+      "definition": "Prussia's plan for a union of princes without Austria was abandoned at Olmütz in November 1850 under Austrian and Russian pressure."
+    },
+    {
+      "term": "Why the 1848 revolution failed: four reasons",
+      "definition": "The Assembly had no army; the rulers' armies stayed loyal; liberals, radicals and peasants divided; and Frederick William IV refused the crown."
+    },
+    {
+      "term": "1848: A. J. P. Taylor's verdict",
+      "definition": "He wrote that German history reached its turning point in 1848 and failed to turn, implying Germany missed its chance of liberal unification."
+    }
   ]
 }
