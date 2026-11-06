@@ -13,7 +13,7 @@
         "The Soviet Union invaded eastern Poland on 17 September 1939 under the terms of the Nazi-Soviet Pact, and the two powers divided the country.",
         "Britain and France declared war on Germany on 3 September 1939, but their armies made no major attack on the Western Front during the Phoney War.",
         "The Phoney War lasted from September 1939 until the German offensive in the west in May 1940.",
-        "Germany's forces were also used in Norway, which was invaded in April 1940, and the campaign there was a mixed success for both sides."
+        "Germany invaded Denmark and Norway on 9 April 1940; Denmark fell within hours, and Norway was conquered by June despite a failed Anglo-French landing, giving Germany Atlantic naval bases and Swedish iron-ore supplies."
       ]
     },
     {
@@ -82,20 +82,56 @@
         "Radar: the British Chain Home system and later airborne and ship-borne radar gave early warning of attacks and helped locate U-boats and aircraft.",
         "Codebreaking: at Bletchley Park the British decrypted German Enigma messages, and the resulting intelligence, known as Ultra, was used in the Battle of the Atlantic and the North African campaign.",
         "Submarines and convoys: German U-boats sank large numbers of Allied merchant ships in the Atlantic, but the convoy system and escort groups reduced losses from 1943.",
-        "Rockets and jets: Germany's V-1 flying bombs and V-2 rockets were launched against London and Antwerp from June and September 1944, and the Messerschmitt Me 262 jet fighter entered service in 1944.",
-        "Atomic weapons: the United States dropped atomic bombs on Hiroshima on 6 August 1945 and Nagasaki on 9 August 1945, and Japan announced its surrender on 15 August 1945."
+        "Rockets and jets: Germany's V-1 flying bombs were launched against London from June 1944 and its V-2 rockets from September 1944, and later against Antwerp, and the Messerschmitt Me 262 jet fighter entered service in 1944, too late to change the outcome.",
+        "Atomic weapons: the United States dropped atomic bombs on Hiroshima on 6 August 1945 and Nagasaki on 9 August 1945, and Japan announced its surrender on 15 August 1945; the bombs had been developed in the Manhattan Project, and the first test took place in New Mexico on 16 July 1945."
       ]
     },
     {
       "h": "Key personality: Winston Churchill",
-      "b": "Churchill served as Prime Minister from May 1940 and led Britain through the war and into the Grand Alliance's negotiations.",
+      "b": "Churchill served as Prime Minister from May 1940 and led Britain through the war and the negotiations of the Grand Alliance.",
       "points": [
-        "Born in 1874 into an aristocratic family, he was a Conservative and later Liberal MP, served as First Lord of the Admiralty during the First World War, and was Chancellor of the Exchequer from 1924 to 1929.",
+        "Born in 1874 at Blenheim Palace into an aristocratic family, he entered Parliament in 1900 as a Conservative, joined the Liberals in 1904, was First Lord of the Admiralty from 1911 to 1915, and was Chancellor of the Exchequer from 1924 to 1929, then spent the 1930s out of office warning against Hitler.",
         "He became First Lord of the Admiralty again in September 1939 and succeeded Neville Chamberlain as Prime Minister on 10 May 1940.",
         "His speech of 4 June 1940 included the phrase 'we shall fight on the beaches', and his leadership in the Battle of Britain made him a symbol of national resistance.",
         "He was a participant in the Allied conferences at Tehran and Yalta and negotiated closely with Roosevelt and Stalin, and he lost office in July 1945 after the general election.",
-        "Contemporaries, including some of his own party, criticised his conduct of the Gallipoli campaign in 1915 and his return to the gold standard in 1925, but his wartime leadership won wide admiration.",
-        "Historians have praised his resolve in 1940 and his strategic leadership, while also criticising his handling of the Dardanelles campaign, his support for the Greek expedition and his relations with the Soviet Union in the later war."
+        "Contemporaries, including some of his own party, criticised his part in the Gallipoli campaign in 1915 and his return to the gold standard in 1925, but his wartime leadership won wide admiration.",
+        "Historians have praised his resolve in 1940 and his strategic leadership, while criticising the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to colonial peoples, as in the Bengal famine of 1943."
+      ]
+    },
+    {
+      "h": "The war in Asia and the Pacific",
+      "b": "Japan's attack widened the war, and American industrial power turned the Pacific campaign.",
+      "points": [
+        "Japan had been at war with China since 1937 and occupied French Indochina in 1940 and 1941; the United States responded with an oil embargo, which pushed Japan towards the attack of December 1941.",
+        "Within months Japan captured Hong Kong, Malaya, Singapore, the Dutch East Indies, the Philippines and Burma.",
+        "The American victory at Midway in June 1942, in which four Japanese carriers were sunk, ended Japan's advance, and the Guadalcanal campaign began the American counter-offensive.",
+        "The United States used an island-hopping strategy, backed by submarines and carrier air power, to approach Japan, and later bombed Japanese cities with B-29 bombers.",
+        "Japan surrendered after the atomic bombs and the Soviet declaration of war on 8 August 1945; the formal surrender was signed on 2 September 1945."
+      ]
+    },
+    {
+      "h": "Churchill's war leadership",
+      "b": "Churchill combined inspiring speeches with direct control over strategy.",
+      "points": [
+        "He became Prime Minister at the head of a coalition including Labour leaders Clement Attlee and Ernest Bevin, and he also acted as Minister of Defence.",
+        "His speeches on the radio and in Parliament, including 'blood, toil, tears and sweat' (13 May 1940) and 'their finest hour' (18 June 1940), sustained morale after Dunkirk and during the Blitz.",
+        "Between 26 May and 4 June 1940, Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk.",
+        "He built a close relationship with Roosevelt, meeting him at Placentia Bay, Washington, Casablanca (January 1943, where unconditional surrender was announced) and Quebec.",
+        "In October 1944 he met Stalin in Moscow and proposed the 'percentages agreement' on spheres of influence in the Balkans, which has been seen as a sign of wartime realism or of cynicism.",
+        "He attended the Potsdam Conference in July 1945 until the Labour election victory replaced him with Attlee."
+      ]
+    },
+    {
+      "h": "The technology of warfare between the wars",
+      "b": "The 1920s and 1930s produced the ideas and machines that were used in the Second World War.",
+      "points": [
+        "Armoured warfare theory by British writers such as J.F.C. Fuller and Basil Liddell Hart, and by the German general Heinz Guderian in Achtung - Panzer! (1937), influenced the formation of German Panzer divisions from 1935.",
+        "Air power theorists such as Giulio Douhet argued that bombers would decide wars; the bombing of Guernica in April 1937 by the German Condor Legion in the Spanish Civil War, which tested aircraft and tactics, shocked world opinion.",
+        "Britain developed radar from 1935, when Robert Watson-Watt showed that radio waves could detect aircraft, and Chain Home stations were built along the east and south coasts from 1936.",
+        "Fighter design improved with the Hawker Hurricane (first flown 1935) and the Supermarine Spitfire (1936), and the Messerschmitt Bf 109 entered service in Germany.",
+        "Polish mathematicians broke the early Enigma machine in the early 1930s and passed their methods to Britain and France in July 1939.",
+        "Frank Whittle patented the jet engine in 1930, and the first German jet aircraft, the Heinkel He 178, flew in August 1939.",
+        "Rocket research by Wernher von Braun for the German army began in the early 1930s and led to the V-2 at Peenemünde."
       ]
     },
     {
@@ -112,30 +148,147 @@
     }
   ],
   "keyTerms": [
-    { "term": "Blitzkrieg", "definition": "Lightning war: a German method of combined armoured thrusts, air support and rapid encirclement that defeated Poland and France in 1939 and 1940." },
-    { "term": "Axis powers", "definition": "The alliance of Germany, Italy and Japan, linked by the Pact of Steel of 1939 and the Tripartite Pact of 1940." },
-    { "term": "Grand Alliance", "definition": "The coalition of Britain, the Soviet Union and the United States against the Axis powers, formed after 1941." },
-    { "term": "Lend-Lease", "definition": "The American programme of 1941 that supplied Britain and later the Soviet Union with weapons and equipment without immediate payment." },
-    { "term": "Enigma", "definition": "The German electro-mechanical cipher machine whose messages were decrypted by British codebreakers at Bletchley Park." },
-    { "term": "Ultra", "definition": "The British name for intelligence obtained by decrypting German Enigma messages, used to guide Allied operations." },
-    { "term": "Convoy", "definition": "A group of merchant ships sailing together under naval escort, used to reduce losses to submarines in the Atlantic." },
-    { "term": "Strategic bombing", "definition": "The bombing of an enemy's cities, industry and transport to undermine its economy and civilian morale, as practised by the Allies against Germany." }
+    {
+      "term": "Blitzkrieg",
+      "definition": "Lightning war: a German method of combined armoured thrusts, air support and rapid encirclement that defeated Poland and France in 1939 and 1940."
+    },
+    {
+      "term": "Axis powers",
+      "definition": "The alliance of Germany, Italy and Japan, linked by the Pact of Steel of 1939 and the Tripartite Pact of 1940."
+    },
+    {
+      "term": "Grand Alliance",
+      "definition": "The coalition of Britain, the Soviet Union and the United States against the Axis powers, formed after 1941."
+    },
+    {
+      "term": "Lend-Lease",
+      "definition": "The American programme of 1941 that supplied Britain and later the Soviet Union with weapons and equipment without immediate payment."
+    },
+    {
+      "term": "Enigma",
+      "definition": "The German electro-mechanical cipher machine whose messages were decrypted by British codebreakers at Bletchley Park."
+    },
+    {
+      "term": "Ultra",
+      "definition": "The British name for intelligence obtained by decrypting German Enigma messages, used to guide Allied operations."
+    },
+    {
+      "term": "Convoy",
+      "definition": "A group of merchant ships sailing together under naval escort, used to reduce losses to submarines in the Atlantic."
+    },
+    {
+      "term": "Strategic bombing",
+      "definition": "The bombing of an enemy's cities, industry and transport to undermine its economy and civilian morale, as practised by the Allies against Germany."
+    },
+    {
+      "term": "Operation Barbarossa",
+      "definition": "The German invasion of the Soviet Union begun on 22 June 1941."
+    },
+    {
+      "term": "Phoney War",
+      "definition": "The period from September 1939 to May 1940 in which Britain and France were at war with Germany but made no major attack in the west."
+    },
+    {
+      "term": "Atlantic Charter",
+      "definition": "The declaration of August 1941 by Churchill and Roosevelt of shared war aims including self-determination."
+    },
+    {
+      "term": "Radar",
+      "definition": "A system using radio waves to detect aircraft and ships, which gave Britain early warning during the Battle of Britain."
+    },
+    {
+      "term": "Manhattan Project",
+      "definition": "The American programme that developed the atomic bomb, first tested in New Mexico on 16 July 1945."
+    },
+    {
+      "term": "V-weapons",
+      "definition": "The German V-1 flying bomb and V-2 rocket, launched against Britain and Belgium from June and September 1944."
+    }
   ],
   "factCards": [
-    { "term": "Invasion of Poland: date and result", "definition": "Germany invaded Poland on 1 September 1939 and the Polish army was defeated within about five weeks." },
-    { "term": "Phoney War: dates", "definition": "The period from September 1939 until the German offensive in the west in May 1940, with little fighting on the Western Front." },
-    { "term": "Western offensive: start date and route", "definition": "The German offensive began on 10 May 1940, advancing through the Netherlands, Belgium and the Ardennes." },
-    { "term": "Battle of Britain: dates", "definition": "Fought from July to October 1940 between the Luftwaffe and the RAF Fighter Command." },
-    { "term": "Operation Barbarossa: date", "definition": "The German invasion of the Soviet Union began on 22 June 1941." },
-    { "term": "Pearl Harbor: date and effect", "definition": "The Japanese attack on 7 December 1941 brought the United States into the war." },
-    { "term": "Pact of Steel: date", "definition": "Signed on 22 May 1939 by Germany and Italy as a military alliance." },
-    { "term": "Tripartite Pact: date and members", "definition": "Signed on 27 September 1940 by Germany, Italy and Japan, it formed the core of the Axis." },
-    { "term": "Atlantic Charter: date and signatories", "definition": "Churchill and Roosevelt issued the Atlantic Charter in August 1941, setting out shared Allied principles." },
-    { "term": "Tehran Conference: dates and leaders", "definition": "Held in November and December 1943, it brought Roosevelt, Churchill and Stalin together for the first time." },
-    { "term": "Yalta Conference: date", "definition": "The Yalta Conference of February 1945 agreed the occupation zones of Germany and the entry of the Soviet Union into the war against Japan." },
-    { "term": "El Alamein: dates", "definition": "The Second Battle of El Alamein, fought from October to November 1942, defeated the Axis armies in North Africa." },
-    { "term": "D-Day: date", "definition": "Allied forces landed in Normandy on 6 June 1944." },
-    { "term": "Hiroshima and Nagasaki: dates", "definition": "The United States dropped atomic bombs on Hiroshima on 6 August 1945 and on Nagasaki on 9 August 1945." },
-    { "term": "Churchill's appointment as Prime Minister: date", "definition": "He succeeded Neville Chamberlain as Prime Minister on 10 May 1940." }
+    {
+      "term": "Invasion of Poland: date and result",
+      "definition": "Germany invaded Poland on 1 September 1939 and the Polish army was defeated within about five weeks."
+    },
+    {
+      "term": "Phoney War: dates",
+      "definition": "The period from September 1939 until the German offensive in the west in May 1940, with little fighting on the Western Front."
+    },
+    {
+      "term": "Western offensive: start date and route",
+      "definition": "The German offensive began on 10 May 1940, advancing through the Netherlands, Belgium and the Ardennes."
+    },
+    {
+      "term": "Battle of Britain: dates",
+      "definition": "Fought from July to October 1940 between the Luftwaffe and the RAF Fighter Command."
+    },
+    {
+      "term": "Operation Barbarossa: date",
+      "definition": "The German invasion of the Soviet Union began on 22 June 1941."
+    },
+    {
+      "term": "Pearl Harbor: date and effect",
+      "definition": "The Japanese attack on 7 December 1941 brought the United States into the war."
+    },
+    {
+      "term": "Pact of Steel: date",
+      "definition": "Signed on 22 May 1939 by Germany and Italy as a military alliance."
+    },
+    {
+      "term": "Tripartite Pact: date and members",
+      "definition": "Signed on 27 September 1940 by Germany, Italy and Japan, it formed the core of the Axis."
+    },
+    {
+      "term": "Atlantic Charter: date and signatories",
+      "definition": "Churchill and Roosevelt issued the Atlantic Charter in August 1941, setting out shared Allied principles."
+    },
+    {
+      "term": "Tehran Conference: dates and leaders",
+      "definition": "Held in November and December 1943, it brought Roosevelt, Churchill and Stalin together for the first time."
+    },
+    {
+      "term": "Yalta Conference: date",
+      "definition": "The Yalta Conference of February 1945 agreed the occupation zones of Germany and the entry of the Soviet Union into the war against Japan."
+    },
+    {
+      "term": "El Alamein: dates",
+      "definition": "The Second Battle of El Alamein, fought from October to November 1942, defeated the Axis armies in North Africa."
+    },
+    {
+      "term": "D-Day: date",
+      "definition": "Allied forces landed in Normandy on 6 June 1944."
+    },
+    {
+      "term": "Hiroshima and Nagasaki: dates",
+      "definition": "The United States dropped atomic bombs on Hiroshima on 6 August 1945 and on Nagasaki on 9 August 1945."
+    },
+    {
+      "term": "Churchill's appointment as Prime Minister: date",
+      "definition": "He succeeded Neville Chamberlain as Prime Minister on 10 May 1940."
+    },
+    {
+      "term": "Dunkirk evacuation: dates and numbers",
+      "definition": "Between 26 May and 4 June 1940, over 330,000 Allied troops were evacuated."
+    },
+    {
+      "term": "Midway, June 1942",
+      "definition": "An American victory in which four Japanese carriers were sunk, ending Japan's advance."
+    },
+    {
+      "term": "Casablanca Conference, January 1943",
+      "definition": "Roosevelt and Churchill announced the demand for unconditional surrender."
+    },
+    {
+      "term": "Churchill's percentages agreement",
+      "definition": "In October 1944 he proposed to Stalin spheres of influence in the Balkans."
+    },
+    {
+      "term": "Achtung - Panzer!",
+      "definition": "Guderian's 1937 book on armoured warfare that influenced German tank doctrine."
+    },
+    {
+      "term": "Radar in Britain: origins",
+      "definition": "Robert Watson-Watt demonstrated the detection of aircraft in 1935, and Chain Home stations were built from 1936."
+    }
   ]
 }
