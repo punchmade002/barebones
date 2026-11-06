@@ -89,7 +89,7 @@
       "points": [
         "News of the February 1848 revolution in Paris sparked demonstrations in German and Austrian cities.",
         "On 13 March 1848 students and workers demonstrated in Vienna, troops fired on the crowd, and the court made Metternich resign that evening; he fled and went into exile in England.",
-        "His fall removed the main defender of the 1815 settlement and set off the March revolutions across the Habsburg lands and the German states.",
+        "His fall removed the main defender of the 1815 settlement and coincided with revolutions across the Habsburg lands and the German states.",
         "The Habsburg Empire then faced a crisis of nationalities, with Hungarian, Czech and Italian demands for self-rule (see the notes on the 1848 Revolution in Germany)."
       ]
     },
@@ -122,31 +122,103 @@
     }
   ],
   "keyTerms": [
-    { "term": "Legitimacy", "definition": "The principle at the Congress of Vienna that rightful dynasties deposed by Napoleon should be restored to their thrones." },
-    { "term": "Balance of power", "definition": "The arrangement of territories and alliances so that no single state could dominate Europe, used in 1815 to contain France." },
-    { "term": "Congress System", "definition": "The post-1815 practice of the great powers meeting at congresses to manage crises, which Metternich used to justify intervention against revolutions." },
-    { "term": "Holy Alliance", "definition": "The 1815 declaration by Russia, Austria and Prussia that rulers would govern by Christian principles, which came to stand for the alliance of the eastern autocracies against revolution." },
-    { "term": "Autocracy", "definition": "Government by a single ruler with unlimited power and no constitution or elected body to limit it, as in Metternich's Austria and tsarist Russia." },
-    { "term": "Liberalism", "definition": "The early nineteenth-century belief in constitutional government, an elected parliament, civil liberties such as a free press, and limits on the power of rulers." },
-    { "term": "Nationalism", "definition": "The belief that people sharing a language, culture and history form a nation that should have its own state, which threatened the multinational empires of 1815." },
-    { "term": "German Confederation", "definition": "The loose union of 39 German states created in 1815, with a Diet of government delegates at Frankfurt under Austrian presidency." },
-    { "term": "Carlsbad Decrees", "definition": "The 1819 measures adopted by the German Diet that banned the Burschenschaften, supervised the universities and imposed press censorship." },
-    { "term": "Burschenschaft", "definition": "A liberal and nationalist German student fraternity, first founded at Jena in 1815, banned under the Carlsbad Decrees." },
-    { "term": "Zollverein", "definition": "The Prussian-led German customs union, in force from 1 January 1834, which removed tariffs between its members and excluded Austria." }
+    {
+      "term": "Legitimacy",
+      "definition": "The principle at the Congress of Vienna that rightful dynasties deposed by Napoleon should be restored to their thrones."
+    },
+    {
+      "term": "Balance of power",
+      "definition": "The arrangement of territories and alliances so that no single state could dominate Europe, used in 1815 to contain France."
+    },
+    {
+      "term": "Congress System",
+      "definition": "The post-1815 practice of the great powers meeting at congresses to manage crises, which Metternich used to justify intervention against revolutions."
+    },
+    {
+      "term": "Holy Alliance",
+      "definition": "The 1815 declaration by Russia, Austria and Prussia that rulers would govern by Christian principles, which came to stand for the alliance of the eastern autocracies against revolution."
+    },
+    {
+      "term": "Autocracy",
+      "definition": "Government by a single ruler with unlimited power and no constitution or elected body to limit it, as in Metternich's Austria and tsarist Russia."
+    },
+    {
+      "term": "Liberalism",
+      "definition": "The early nineteenth-century belief in constitutional government, an elected parliament, civil liberties such as a free press, and limits on the power of rulers."
+    },
+    {
+      "term": "Nationalism",
+      "definition": "The belief that people sharing a language, culture and history form a nation that should have its own state, which threatened the multinational empires of 1815."
+    },
+    {
+      "term": "German Confederation",
+      "definition": "The loose union of 39 German states created in 1815, with a Diet of government delegates at Frankfurt under Austrian presidency."
+    },
+    {
+      "term": "Carlsbad Decrees",
+      "definition": "The 1819 measures adopted by the German Diet that banned the Burschenschaften, supervised the universities and imposed press censorship."
+    },
+    {
+      "term": "Burschenschaft",
+      "definition": "A liberal and nationalist German student fraternity, first founded at Jena in 1815, banned under the Carlsbad Decrees."
+    },
+    {
+      "term": "Zollverein",
+      "definition": "The Prussian-led German customs union, in force from 1 January 1834, which removed tariffs between its members and excluded Austria."
+    }
   ],
   "factCards": [
-    { "term": "Congress of Vienna: four aims", "definition": "To contain France, restore legitimate rulers, create a balance of power, and reward the victors with territory." },
-    { "term": "Congress of Vienna: Austria's and Prussia's gains", "definition": "Austria gained Lombardy-Venetia and dominance in Italy; Prussia gained the Rhineland, Westphalia and part of Saxony." },
-    { "term": "Buffer states around France in 1815", "definition": "The enlarged Kingdom of the Netherlands (with Belgium), Piedmont-Sardinia strengthened with Genoa, and a neutral Switzerland." },
-    { "term": "The four congresses, 1818–1822", "definition": "Aix-la-Chapelle (1818) readmitted France; Troppau (1820) claimed a right of intervention; Laibach (1821) sent Austria into Naples; Verona (1822) backed France in Spain and Britain left." },
-    { "term": "Carlsbad Decrees, 1819: three measures", "definition": "They banned the Burschenschaften, placed the universities under government supervisors and imposed press censorship, with an investigating commission at Mainz." },
-    { "term": "Why the Carlsbad Decrees were passed", "definition": "The murder of the writer August von Kotzebue by the student Karl Sand in March 1819 gave Metternich the excuse to act against the universities." },
-    { "term": "Wartburg Festival, 1817", "definition": "A student gathering that marked 300 years since the Reformation and the victory at Leipzig, called for German unity and burned conservative books." },
-    { "term": "Hambach Festival and the Six Articles, 1832", "definition": "About 20,000–30,000 people at Hambach demanded unity and a free press; the Diet replied with the Six Articles and a ban on political associations." },
-    { "term": "Challenges to the settlement in 1830", "definition": "Revolution in France, Belgian independence from the Netherlands, the Polish rising against Russia and, in 1831, risings in central Italy." },
-    { "term": "Zollverein: founding and significance", "definition": "It began on 1 January 1834 with 18 states, excluded Austria and gave Prussia economic leadership of Germany." },
-    { "term": "Fall of Metternich, 13 March 1848", "definition": "Demonstrations in Vienna after the Paris revolution forced him to resign that evening and go into exile in England." },
-    { "term": "Clemens Metternich: three achievements", "definition": "He shaped the Vienna settlement, kept the great powers at peace until his fall, and crushed liberal and national movements in Germany and Italy before 1848." },
-    { "term": "Metternich: historians' views", "definition": "Srbik and Kissinger praised him for a stable peace; critics say he only repressed the causes of unrest, which exploded in 1848." }
+    {
+      "term": "Congress of Vienna: four aims",
+      "definition": "To contain France, restore legitimate rulers, create a balance of power, and reward the victors with territory."
+    },
+    {
+      "term": "Congress of Vienna: Austria's and Prussia's gains",
+      "definition": "Austria gained Lombardy-Venetia and dominance in Italy; Prussia gained the Rhineland, Westphalia and part of Saxony."
+    },
+    {
+      "term": "Buffer states around France in 1815",
+      "definition": "The enlarged Kingdom of the Netherlands (with Belgium), Piedmont-Sardinia strengthened with Genoa, and a neutral Switzerland."
+    },
+    {
+      "term": "The four congresses, 1818–1822",
+      "definition": "Aix-la-Chapelle (1818) readmitted France; Troppau (1820) claimed a right of intervention; Laibach (1821) sent Austria into Naples; Verona (1822) backed France in Spain and Britain left."
+    },
+    {
+      "term": "Carlsbad Decrees, 1819: three measures",
+      "definition": "They banned the Burschenschaften, placed the universities under government supervisors and imposed press censorship, with an investigating commission at Mainz."
+    },
+    {
+      "term": "Why the Carlsbad Decrees were passed",
+      "definition": "The murder of the writer August von Kotzebue by the student Karl Sand in March 1819 gave Metternich the excuse to act against the universities."
+    },
+    {
+      "term": "Wartburg Festival, 1817",
+      "definition": "A student gathering that marked 300 years since the Reformation and the victory at Leipzig, called for German unity and burned conservative books."
+    },
+    {
+      "term": "Hambach Festival and the Six Articles, 1832",
+      "definition": "About 20,000–30,000 people at Hambach demanded unity and a free press; the Diet replied with the Six Articles and a ban on political associations."
+    },
+    {
+      "term": "Challenges to the settlement in 1830",
+      "definition": "Revolution in France, Belgian independence from the Netherlands, the Polish rising against Russia and, in 1831, risings in central Italy."
+    },
+    {
+      "term": "Zollverein: founding and significance",
+      "definition": "It began on 1 January 1834 with 18 states, excluded Austria and gave Prussia economic leadership of Germany."
+    },
+    {
+      "term": "Fall of Metternich, 13 March 1848",
+      "definition": "Demonstrations in Vienna after the Paris revolution forced him to resign that evening and go into exile in England."
+    },
+    {
+      "term": "Clemens Metternich: three achievements",
+      "definition": "He shaped the Vienna settlement, kept the great powers at peace until his fall, and crushed liberal and national movements in Germany and Italy before 1848."
+    },
+    {
+      "term": "Metternich: historians' views",
+      "definition": "Srbik and Kissinger praised him for a stable peace; critics say he only repressed the causes of unrest, which exploded in 1848."
+    }
   ]
 }
