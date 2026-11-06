@@ -419,6 +419,19 @@ const els = {
   profileMenu: document.getElementById("profileMenu"),
   profileMenuMain: document.getElementById("profileMenuMain"),
   profileMenuSubjects: document.getElementById("profileMenuSubjects"),
+  profileMenuFeedback: document.getElementById("profileMenuFeedback"),
+  profileMenuInbox: document.getElementById("profileMenuInbox"),
+  openFeedback: document.getElementById("openFeedback"),
+  openFeedbackInbox: document.getElementById("openFeedbackInbox"),
+  feedbackInboxCount: document.getElementById("feedbackInboxCount"),
+  feedbackForm: document.getElementById("feedbackForm"),
+  feedbackMessage: document.getElementById("feedbackMessage"),
+  feedbackStatus: document.getElementById("feedbackStatus"),
+  feedbackSubmit: document.getElementById("feedbackSubmit"),
+  feedbackInboxList: document.getElementById("feedbackInboxList"),
+  feedbackReplyModal: document.getElementById("feedbackReplyModal"),
+  feedbackReplyList: document.getElementById("feedbackReplyList"),
+  feedbackReplyDismiss: document.getElementById("feedbackReplyDismiss"),
   openSubjectChoices: document.getElementById("openSubjectChoices"),
   openStudyPlan: document.getElementById("openStudyPlan"),
   studyPlanValue: document.getElementById("studyPlanValue"),
@@ -467,6 +480,10 @@ let state = loadState();
 const accountAuth = window.BarebonesAuth;
 let authSnapshot = null;
 let activeAuthUserId = "";
+let isFeedbackAdmin = false;
+let feedbackInboxItems = [];
+let feedbackInboxFilter = "open";
+let pendingFeedbackReplyIds = [];
 let authSaveTimer = null;
 let authSaveInFlight = null;
 let authActivationPromise = null;
@@ -570,6 +587,7 @@ function bindEvents() {
     showOnboarding(user, { editing: true });
   });
   els.closeSubjectChoices.addEventListener("click", () => showProfilePane("main"));
+  bindFeedback();
   els.closeAccountDetails.addEventListener("click", hideAuthPanel);
   els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
   els.showSignUp.addEventListener("click", () => showAuthMode("signup"));
@@ -655,6 +673,7 @@ function bindEvents() {
     }
     activeAuthUserId = "";
     authSnapshot = null;
+    resetFeedbackState();
     state.session.currentUser = "";
     persist({ sync: false });
     renderAll();
@@ -680,10 +699,270 @@ function bindEvents() {
 }
 
 function showProfilePane(pane) {
-  const subjects = pane === "subjects";
-  els.profileMenuMain.classList.toggle("hidden", subjects);
-  els.profileMenuSubjects.classList.toggle("hidden", !subjects);
-  els.profileMenu.classList.toggle("profile-menu-wide", subjects);
+  const panes = {
+    main: els.profileMenuMain,
+    subjects: els.profileMenuSubjects,
+    feedback: els.profileMenuFeedback,
+    inbox: els.profileMenuInbox,
+  };
+  const active = panes[pane] ? pane : "main";
+  Object.entries(panes).forEach(([name, el]) => el.classList.toggle("hidden", name !== active));
+  els.profileMenu.classList.toggle("profile-menu-wide", active === "subjects" || active === "feedback");
+  els.profileMenu.classList.toggle("profile-menu-inbox", active === "inbox");
+}
+
+/* ── Feedback ──────────────────────────────────
+   Students send feedback from the profile menu. An admin (public.admins in
+   Supabase) sees an inbox there too, and marks items addressed with an
+   optional reply. Unseen replies pop up once, the next time the student
+   opens the app. Schema: supabase/feedback.sql. */
+function bindFeedback() {
+  els.openFeedback.addEventListener("click", () => {
+    showProfilePane("feedback");
+    setFeedbackStatus("");
+    els.feedbackMessage.focus();
+  });
+  els.openFeedbackInbox.addEventListener("click", () => {
+    showProfilePane("inbox");
+    loadFeedbackInbox();
+  });
+  document.querySelectorAll("[data-profile-back]").forEach((button) => {
+    button.addEventListener("click", () => showProfilePane("main"));
+  });
+  els.feedbackMessage.addEventListener("input", () => setFeedbackStatus(""));
+  els.feedbackForm.addEventListener("submit", handleFeedbackSubmit);
+  els.profileMenuInbox.querySelectorAll("[data-inbox-filter]").forEach((button) => {
+    button.addEventListener("click", () => {
+      feedbackInboxFilter = button.dataset.inboxFilter;
+      renderFeedbackInbox();
+    });
+  });
+  els.feedbackInboxList.addEventListener("click", handleFeedbackInboxClick);
+  els.feedbackReplyDismiss.addEventListener("click", dismissFeedbackReplies);
+  els.feedbackReplyModal.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") dismissFeedbackReplies();
+  });
+}
+
+function setFeedbackStatus(message, tone = "neutral") {
+  els.feedbackStatus.textContent = message;
+  els.feedbackStatus.dataset.tone = tone;
+}
+
+function feedbackErrorMessage(error) {
+  const message = String(error?.message || error || "");
+  if (/recently|empty|4000 characters|sign in/i.test(message)) return message;
+  if (/failed to fetch|network/i.test(message)) return "Couldn’t reach the server. Check your connection and try again.";
+  if (/function .* does not exist|could not find the function|schema cache/i.test(message)) {
+    return "Feedback isn’t switched on yet. Try again later.";
+  }
+  return "That didn’t send. Please try again.";
+}
+
+async function handleFeedbackSubmit(event) {
+  event.preventDefault();
+  const message = els.feedbackMessage.value.trim();
+  if (!message) {
+    setFeedbackStatus("Write something first.", "error");
+    els.feedbackMessage.focus();
+    return;
+  }
+  if (!accountAuth?.configured || !activeAuthUserId) {
+    setFeedbackStatus("Sign in to send feedback.", "error");
+    return;
+  }
+  els.feedbackSubmit.disabled = true;
+  els.feedbackSubmit.textContent = "Sending…";
+  try {
+    await accountAuth.submitFeedback(message);
+    els.feedbackMessage.value = "";
+    setFeedbackStatus("Sent. Thanks for telling us.", "success");
+    if (isFeedbackAdmin) refreshFeedbackAdmin();
+  } catch (error) {
+    console.error(error);
+    setFeedbackStatus(feedbackErrorMessage(error), "error");
+  } finally {
+    els.feedbackSubmit.disabled = false;
+    els.feedbackSubmit.textContent = "Send feedback";
+  }
+}
+
+async function refreshFeedbackAdmin() {
+  isFeedbackAdmin = false;
+  if (accountAuth?.configured && activeAuthUserId) {
+    try {
+      isFeedbackAdmin = await accountAuth.isAdmin();
+    } catch (error) {
+      isFeedbackAdmin = false;
+    }
+  }
+  els.openFeedbackInbox.classList.toggle("hidden", !isFeedbackAdmin);
+  if (!isFeedbackAdmin) {
+    feedbackInboxItems = [];
+    els.feedbackInboxCount.textContent = "";
+    return;
+  }
+  await loadFeedbackInbox();
+}
+
+function resetFeedbackState() {
+  isFeedbackAdmin = false;
+  feedbackInboxItems = [];
+  pendingFeedbackReplyIds = [];
+  els.openFeedbackInbox.classList.add("hidden");
+  els.feedbackInboxCount.textContent = "";
+  els.feedbackMessage.value = "";
+  setFeedbackStatus("");
+  hideFeedbackReplies();
+}
+
+async function loadFeedbackInbox() {
+  if (!isFeedbackAdmin) return;
+  if (!feedbackInboxItems.length) {
+    els.feedbackInboxList.innerHTML = `<p class="inbox-empty">Loading…</p>`;
+  }
+  try {
+    feedbackInboxItems = await accountAuth.listFeedback();
+  } catch (error) {
+    console.error(error);
+    els.feedbackInboxList.innerHTML = `<p class="inbox-empty">Couldn’t load feedback. ${escapeHtml(feedbackErrorMessage(error))}</p>`;
+    return;
+  }
+  renderFeedbackInbox();
+}
+
+function formatFeedbackDate(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return date.toLocaleDateString("en-IE", { day: "numeric", month: "short" }) +
+    " · " + date.toLocaleTimeString("en-IE", { hour: "2-digit", minute: "2-digit" });
+}
+
+function renderFeedbackInbox() {
+  const openCount = feedbackInboxItems.filter((item) => item.status === "open").length;
+  els.feedbackInboxCount.textContent = openCount ? `${openCount} open` : "";
+  els.profileMenuInbox.querySelectorAll("[data-inbox-filter]").forEach((button) => {
+    const active = button.dataset.inboxFilter === feedbackInboxFilter;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", String(active));
+    if (button.dataset.inboxFilter === "open") button.textContent = openCount ? `Open (${openCount})` : "Open";
+  });
+
+  const items = feedbackInboxItems.filter((item) => item.status === feedbackInboxFilter);
+  if (!items.length) {
+    els.feedbackInboxList.innerHTML = `<p class="inbox-empty">${
+      feedbackInboxFilter === "open" ? "Nothing open. You’re all caught up." : "Nothing addressed yet."
+    }</p>`;
+    return;
+  }
+
+  els.feedbackInboxList.innerHTML = items.map((item) => {
+    const meta = `
+      <div class="inbox-item-meta">
+        <strong>${escapeHtml(item.username)}</strong>
+        <span>${escapeHtml(formatFeedbackDate(item.created_at))}</span>
+      </div>
+      <p class="inbox-item-message">${escapeHtml(item.message)}</p>`;
+    if (item.status === "open") {
+      return `
+        <article class="inbox-item" data-feedback-id="${escapeHtml(item.id)}">
+          ${meta}
+          <label class="inbox-reply-label" for="reply-${escapeHtml(item.id)}">Reply (optional, shown to ${escapeHtml(item.username)} next login)</label>
+          <textarea id="reply-${escapeHtml(item.id)}" class="feedback-textarea inbox-reply-input" rows="3" maxlength="4000" placeholder="Fixed it, thanks!"></textarea>
+          <p class="feedback-status inbox-item-status" role="status" aria-live="polite"></p>
+          <button class="button-primary inbox-action" type="button" data-feedback-action="address">Mark addressed</button>
+        </article>`;
+    }
+    const replyState = !item.reply
+      ? "No reply sent"
+      : item.reply_seen_at
+        ? `Seen ${escapeHtml(formatFeedbackDate(item.reply_seen_at))}`
+        : "Not seen yet";
+    return `
+      <article class="inbox-item is-addressed" data-feedback-id="${escapeHtml(item.id)}">
+        ${meta}
+        ${item.reply ? `<p class="inbox-item-reply"><span>Your reply</span>${escapeHtml(item.reply)}</p>` : ""}
+        <div class="inbox-item-foot">
+          <span>${replyState}</span>
+          <button class="inbox-link" type="button" data-feedback-action="reopen">Reopen</button>
+        </div>
+        <p class="feedback-status inbox-item-status" role="status" aria-live="polite"></p>
+      </article>`;
+  }).join("");
+}
+
+async function handleFeedbackInboxClick(event) {
+  const button = event.target.closest("[data-feedback-action]");
+  if (!button) return;
+  const itemEl = button.closest("[data-feedback-id]");
+  const id = itemEl?.dataset.feedbackId;
+  if (!id) return;
+  const statusEl = itemEl.querySelector(".inbox-item-status");
+  button.disabled = true;
+  try {
+    if (button.dataset.feedbackAction === "address") {
+      const reply = itemEl.querySelector(".inbox-reply-input")?.value || "";
+      await accountAuth.addressFeedback(id, reply);
+    } else {
+      await accountAuth.reopenFeedback(id);
+    }
+    await loadFeedbackInbox();
+  } catch (error) {
+    console.error(error);
+    button.disabled = false;
+    if (statusEl) {
+      statusEl.textContent = feedbackErrorMessage(error);
+      statusEl.dataset.tone = "error";
+    }
+  }
+}
+
+async function checkFeedbackReplies({ delay = 0 } = {}) {
+  if (!accountAuth?.configured || !activeAuthUserId) return;
+  let replies = [];
+  try {
+    replies = await accountAuth.getUnseenFeedbackReplies();
+  } catch (error) {
+    // Before supabase/feedback.sql is applied the table is missing; stay quiet.
+    return;
+  }
+  if (!replies.length) return;
+  const userId = activeAuthUserId;
+  window.setTimeout(() => {
+    if (activeAuthUserId !== userId) return;
+    showFeedbackReplies(replies);
+  }, delay);
+}
+
+function showFeedbackReplies(replies) {
+  pendingFeedbackReplyIds = replies.map((item) => item.id);
+  els.feedbackReplyList.innerHTML = replies.map((item) => `
+    <article class="feedback-reply-item">
+      <p class="feedback-reply-original"><span>You wrote${item.created_at ? ` on ${escapeHtml(formatFeedbackDate(item.created_at))}` : ""}</span>${escapeHtml(item.message)}</p>
+      <p class="feedback-reply-text">${escapeHtml(item.reply)}</p>
+    </article>`).join("");
+  els.profileMenu.classList.add("hidden");
+  els.feedbackReplyModal.classList.remove("hidden");
+  document.body.classList.add("modal-open");
+  els.feedbackReplyDismiss.focus();
+}
+
+function hideFeedbackReplies() {
+  els.feedbackReplyModal.classList.add("hidden");
+  document.body.classList.remove("modal-open");
+}
+
+async function dismissFeedbackReplies() {
+  const ids = pendingFeedbackReplyIds;
+  pendingFeedbackReplyIds = [];
+  hideFeedbackReplies();
+  try {
+    await accountAuth?.markFeedbackRepliesSeen(ids);
+  } catch (error) {
+    // If this fails the reply simply shows again next time.
+    console.error(error);
+  }
 }
 
 /* ── Sidebar collapse ──────────────────────────
@@ -837,6 +1116,7 @@ async function handleAuthEvent(event, session) {
   if (event === "SIGNED_OUT") {
     activeAuthUserId = "";
     authSnapshot = null;
+    resetFeedbackState();
     state.session.currentUser = "";
     persist({ sync: false });
     renderAll();
@@ -1167,10 +1447,15 @@ async function activateAuthenticatedSession(session, options = {}) {
     renderAll();
     hideAuthPanel();
 
+    refreshFeedbackAdmin();
     if (needsOnboarding(merged, snapshot)) {
       showOnboarding(merged);
     } else if (options.animate !== false) {
       triggerLoginAnimation(username);
+      // Let the welcome animation (2.5s + 0.6s exit) finish first.
+      checkFeedbackReplies({ delay: 3200 });
+    } else {
+      checkFeedbackReplies();
     }
   })();
 
