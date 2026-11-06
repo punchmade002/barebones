@@ -29,15 +29,20 @@
       ]
     },
     {
-      "h": "Two fronts: Operation Barbarossa and Pearl Harbor, 1941",
-      "b": "The German invasion of the Soviet Union and the Japanese attack on the United States in December 1941 turned the war into a global conflict.",
+      "h": "Two fronts: Barbarossa, Pearl Harbor and the war in the Pacific, 1941-1945",
       "points": [
         "Operation Barbarossa, the German invasion of the Soviet Union, began on 22 June 1941 along a front of about 3,000 kilometres from the Baltic to the Black Sea.",
         "German forces advanced rapidly in the first months and reached the outskirts of Moscow and Leningrad by late 1941, but were halted by the winter and Soviet counter-attacks in December.",
         "The Japanese attack on the US Pacific Fleet at Pearl Harbor on 7 December 1941 brought the United States into the war, and Germany and Italy declared war on the United States on 11 December.",
         "The Lend-Lease Act of March 1941 allowed the United States to supply Britain, and later the Soviet Union, with weapons and equipment without immediate payment.",
-        "Japan's attacks also took the Philippines, Malaya and Singapore, forcing Britain to surrender Singapore in February 1942."
-      ]
+        "Japan's attacks also took the Philippines, Malaya and Singapore, forcing Britain to surrender Singapore in February 1942.",
+        "Japan had been at war with China since 1937 and occupied French Indochina in 1940 and 1941; the United States responded with an oil embargo, which pushed Japan towards the attack of December 1941.",
+        "Within months Japan captured Hong Kong, Malaya, Singapore, the Dutch East Indies, the Philippines and Burma.",
+        "The American victory at Midway in June 1942, in which four Japanese carriers were sunk, ended Japan's advance, and the Guadalcanal campaign began the American counter-offensive.",
+        "The United States used an island-hopping strategy, backed by submarines and carrier air power, to approach Japan, and later bombed Japanese cities with B-29 bombers.",
+        "Japan surrendered after the atomic bombs and the Soviet declaration of war on 8 August 1945; the formal surrender was signed on 2 September 1945."
+      ],
+      "b": "The German invasion of the Soviet Union and the Japanese attack on the United States in December 1941 turned the war into a global conflict."
     },
     {
       "h": "The Axis alliance",
@@ -88,38 +93,21 @@
     },
     {
       "h": "Key personality: Winston Churchill",
-      "b": "Churchill served as Prime Minister from May 1940 and led Britain through the war and the negotiations of the Grand Alliance.",
       "points": [
         "Born in 1874 at Blenheim Palace into an aristocratic family, he entered Parliament in 1900 as a Conservative, joined the Liberals in 1904, was First Lord of the Admiralty from 1911 to 1915, and was Chancellor of the Exchequer from 1924 to 1929, then spent the 1930s out of office warning against Hitler.",
         "He became First Lord of the Admiralty again in September 1939 and succeeded Neville Chamberlain as Prime Minister on 10 May 1940.",
         "His speech of 4 June 1940 included the phrase 'we shall fight on the beaches', and his leadership in the Battle of Britain made him a symbol of national resistance.",
         "He was a participant in the Allied conferences at Tehran and Yalta and negotiated closely with Roosevelt and Stalin, and he lost office in July 1945 after the general election.",
         "Contemporaries, including some of his own party, criticised his part in the Gallipoli campaign in 1915 and his return to the gold standard in 1925, but his wartime leadership won wide admiration.",
-        "Historians have praised his resolve in 1940 and his strategic leadership, while criticising the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to colonial peoples, as in the Bengal famine of 1943."
-      ]
-    },
-    {
-      "h": "The war in Asia and the Pacific",
-      "b": "Japan's attack widened the war, and American industrial power turned the Pacific campaign.",
-      "points": [
-        "Japan had been at war with China since 1937 and occupied French Indochina in 1940 and 1941; the United States responded with an oil embargo, which pushed Japan towards the attack of December 1941.",
-        "Within months Japan captured Hong Kong, Malaya, Singapore, the Dutch East Indies, the Philippines and Burma.",
-        "The American victory at Midway in June 1942, in which four Japanese carriers were sunk, ended Japan's advance, and the Guadalcanal campaign began the American counter-offensive.",
-        "The United States used an island-hopping strategy, backed by submarines and carrier air power, to approach Japan, and later bombed Japanese cities with B-29 bombers.",
-        "Japan surrendered after the atomic bombs and the Soviet declaration of war on 8 August 1945; the formal surrender was signed on 2 September 1945."
-      ]
-    },
-    {
-      "h": "Churchill's war leadership",
-      "b": "Churchill combined inspiring speeches with direct control over strategy.",
-      "points": [
+        "Historians have praised his resolve in 1940 and his strategic leadership, while criticising the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to colonial peoples, as in the Bengal famine of 1943.",
         "He became Prime Minister at the head of a coalition including Labour leaders Clement Attlee and Ernest Bevin, and he also acted as Minister of Defence.",
         "His speeches on the radio and in Parliament, including 'blood, toil, tears and sweat' (13 May 1940) and 'their finest hour' (18 June 1940), sustained morale after Dunkirk and during the Blitz.",
         "Between 26 May and 4 June 1940, Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk.",
         "He built a close relationship with Roosevelt, meeting him at Placentia Bay, Washington, Casablanca (January 1943, where unconditional surrender was announced) and Quebec.",
         "In October 1944 he met Stalin in Moscow and proposed the 'percentages agreement' on spheres of influence in the Balkans, which has been seen as a sign of wartime realism or of cynicism.",
         "He attended the Potsdam Conference in July 1945 until the Labour election victory replaced him with Attlee."
-      ]
+      ],
+      "b": "Churchill served as Prime Minister from May 1940 and led Britain through the war and the negotiations of the Grand Alliance."
     },
     {
       "h": "The technology of warfare between the wars",
@@ -173,10 +161,6 @@
       "definition": "The British name for intelligence obtained by decrypting German Enigma messages, used to guide Allied operations."
     },
     {
-      "term": "Convoy",
-      "definition": "A group of merchant ships sailing together under naval escort, used to reduce losses to submarines in the Atlantic."
-    },
-    {
       "term": "Strategic bombing",
       "definition": "The bombing of an enemy's cities, industry and transport to undermine its economy and civilian morale, as practised by the Allies against Germany."
     },
@@ -199,10 +183,6 @@
     {
       "term": "Manhattan Project",
       "definition": "The American programme that developed the atomic bomb, first tested in New Mexico on 16 July 1945."
-    },
-    {
-      "term": "V-weapons",
-      "definition": "The German V-1 flying bomb and V-2 rocket, launched against Britain and Belgium from June and September 1944."
     }
   ],
   "factCards": [
