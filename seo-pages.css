@@ -1,0 +1,271 @@
+/* ============================================================
+   barebones — public notes pages (/leaving-cert-*/)
+   Built on design_handoff_barebones_landing/styles.css; generated
+   by scripts/build_seo_pages.ts. Editorial study sheet: warm grey
+   page, off-white paper for reading, orange pixel markers.
+   ============================================================ */
+body.np { --bg: #d6d4cf; background: var(--bg); }
+
+.np-page { padding-top: 26px; padding-bottom: 80px; }
+.np .nav-cta .np-signin { padding: 12px 18px; }
+
+/* ---------- breadcrumb ---------- */
+.np-crumbs ol {
+  list-style: none; margin: 0 0 34px; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 4px 0;
+  font-size: 14px; font-weight: 600; color: var(--ink-2);
+}
+.np-crumbs li { display: inline-flex; align-items: center; }
+.np-crumbs li + li::before {
+  content: ""; width: 5px; height: 5px; border-radius: 1px;
+  background: var(--orange); margin: 0 12px; opacity: 0.85;
+}
+.np-crumbs a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.np-crumbs [aria-current] { color: var(--ink); }
+
+/* ---------- headings ---------- */
+.np-head h1 {
+  font-size: clamp(36px, 5.4vw, 66px);
+  text-transform: uppercase;
+  line-height: 0.95;
+  max-width: 18ch;
+}
+.np-kicker {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 13px; letter-spacing: 0.16em; line-height: 1.3;
+  color: var(--ink-2); text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.np-kicker::before {
+  content: ""; flex: none; width: 8px; height: 8px; border-radius: 2px;
+  background: var(--orange);
+  box-shadow: 12px 0 0 var(--orange), 6px 0 0 var(--orange);
+  margin-right: 18px;
+}
+.np-meta { margin: 20px 0 0; color: var(--ink-2); font-size: 15px; font-weight: 600; }
+.np-standfirst { font-size: 21px; color: var(--ink-2); max-width: 62ch; margin: 22px 0 0; }
+.np-head-wide { margin-bottom: 48px; }
+.np-head-wide h1 { max-width: 22ch; }
+.np-label {
+  font-family: var(--font-display); font-weight: 700; font-size: 12px;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2);
+  margin: 0 0 14px; line-height: 1.3;
+}
+
+/* ---------- subsection layout ---------- */
+.np-grid {
+  display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 40px;
+  align-items: start;
+}
+.np-article {
+  background: var(--card-2);
+  border: 1px solid var(--line-soft);
+  border-radius: 22px;
+  padding: clamp(28px, 4.5vw, 64px);
+  box-shadow: 0 30px 60px -48px rgba(26, 21, 18, 0.6);
+  min-width: 0;
+}
+.np-article .np-head { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+
+.np-toc { padding: 26px 0 8px; }
+.np-toc ol { margin: 0; padding: 0; list-style: none; counter-reset: toc; columns: 2 220px; column-gap: 28px; }
+.np-toc li { counter-increment: toc; break-inside: avoid; padding: 5px 0; font-weight: 600; font-size: 16px; line-height: 1.35; }
+.np-toc li::before {
+  content: counter(toc, decimal-leading-zero);
+  font-family: var(--font-display); font-weight: 800; color: var(--orange);
+  font-size: 12px; margin-right: 10px; letter-spacing: 0.04em;
+}
+.np-toc a:hover { color: var(--orange-700); }
+
+.np-block, .np-terms, .np-questions { padding-top: 44px; scroll-margin-top: 96px; max-width: 70ch; }
+.np-block h2, .np-terms h2, .np-questions h2 {
+  font-size: clamp(24px, 2.6vw, 32px);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  margin-bottom: 16px;
+  display: flex; gap: 14px; align-items: baseline;
+}
+.np-block h2::before, .np-terms h2::before, .np-questions h2::before {
+  content: ""; flex: none; width: 10px; height: 10px; border-radius: 2px;
+  background: var(--orange); transform: translateY(-3px);
+}
+.np-lead { font-size: 19px; font-weight: 500; margin: 0 0 14px; }
+.np-block ul { margin: 0; padding: 0; list-style: none; }
+.np-block li {
+  position: relative; padding: 0 0 0 26px; margin: 0 0 12px;
+}
+.np-block li::before {
+  content: ""; position: absolute; left: 4px; top: 0.66em;
+  width: 7px; height: 7px; border-radius: 1.5px; background: var(--ink);
+  opacity: 0.55;
+}
+.np-article .np-block a, .np-article .np-terms a, .np-article .np-locked a { color: var(--orange-700); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.np-article .np-block a:hover, .np-article .np-terms a:hover, .np-article .np-locked a:hover { color: var(--ink); }
+.np-block li.np-diagram {
+  background: var(--card); border: 1px dashed var(--line); border-radius: 12px;
+  padding: 12px 16px 12px 16px; color: var(--ink-2); font-size: 16px;
+}
+.np-block li.np-diagram::before { display: none; }
+.np-tag {
+  font-family: var(--font-display); font-weight: 700; font-size: 11px;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--orange-700);
+  margin-right: 6px;
+}
+
+/* mid-article nudge */
+.np-nudge {
+  margin: 44px 0 0; max-width: 70ch;
+  display: flex; align-items: center; justify-content: space-between; gap: 18px;
+  background: var(--orange-200); border-radius: 16px; padding: 18px 20px 18px 24px;
+  font-size: 16px;
+}
+.np-nudge strong { font-family: var(--font-display); }
+.np-nudge .btn { padding: 11px 18px; font-size: 15px; flex: none; }
+
+/* key terms */
+.np-terms dl { margin: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.np-terms dl > div {
+  display: grid; grid-template-columns: minmax(130px, 34%) 1fr; gap: 20px;
+  padding: 14px 0; border-bottom: 1px solid var(--line);
+}
+.np-terms dt { font-family: var(--font-display); font-weight: 700; font-size: 17px; line-height: 1.35; }
+.np-terms dd { margin: 0; font-size: 16px; color: var(--ink-2); }
+
+/* practice questions */
+.np-questions ol { margin: 0; padding: 0; list-style: none; counter-reset: q; }
+.np-questions li {
+  counter-increment: q; position: relative;
+  background: var(--card); border-radius: 14px; padding: 18px 20px 18px 62px; margin-bottom: 12px;
+}
+.np-questions li::before {
+  content: counter(q); position: absolute; left: 18px; top: 16px;
+  width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center;
+  background: var(--ink); color: var(--card-2);
+  font-family: var(--font-display); font-weight: 800; font-size: 15px;
+}
+.np-questions li p { margin: 0; }
+.np-marks {
+  display: inline-block; margin-top: 8px;
+  font-family: var(--font-display); font-weight: 700; font-size: 12px;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2);
+}
+.np-locked { font-size: 15px; color: var(--ink-2); margin: 14px 0 0; }
+.np-locked span { color: var(--orange); margin-right: 6px; }
+
+/* prev / next */
+.np-pager {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+  margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line);
+}
+.np-article .np-pager a {
+  display: block; text-decoration: none; color: var(--ink);
+  border: 1.5px solid var(--line); border-radius: 14px; padding: 14px 18px;
+  font-family: var(--font-display); font-weight: 700; font-size: 16px; line-height: 1.25;
+  transition: border-color 0.15s, transform 0.12s;
+}
+.np-article .np-pager a:hover { border-color: var(--ink); transform: translateY(-2px); color: var(--ink); }
+.np-pager a span {
+  display: block; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--ink-2); margin-bottom: 6px;
+}
+.np-pager .next { text-align: right; grid-column: 2; }
+
+/* sidebar */
+.np-side { position: sticky; top: 100px; }
+.np-side-inner { padding: 6px 0 0; }
+.np-side .np-label a:hover { color: var(--ink); }
+.np-sibs { list-style: none; margin: 0 0 24px; padding: 0; border-left: 2px solid var(--line); }
+.np-sibs li { font-size: 15px; font-weight: 600; line-height: 1.35; }
+.np-sibs a, .np-sibs span { display: block; padding: 7px 0 7px 16px; margin-left: -2px; border-left: 2px solid transparent; }
+.np-sibs a { color: var(--ink-2); }
+.np-sibs a:hover { color: var(--ink); border-left-color: var(--ink-2); }
+.np-sibs [aria-current] span { color: var(--ink); border-left-color: var(--orange); }
+.np-side-cta {
+  background: var(--ink); color: var(--card-2); border-radius: 16px; padding: 20px;
+}
+.np-side-cta p { margin: 0 0 14px; font-size: 15px; color: rgba(255, 255, 255, 0.78); }
+.np-side-cta strong { color: #fff; }
+.np-side-cta .btn { width: 100%; justify-content: center; }
+
+/* ---------- cards (hub + chapter pages) ---------- */
+.np-cards {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px;
+}
+.np-card > a {
+  display: flex; flex-direction: column; height: 100%;
+  background: var(--card-2); border: 1px solid var(--line-soft); border-radius: 18px;
+  padding: 26px 26px 22px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s;
+}
+.np-card > a:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--line); }
+.np-card h2 { font-size: 24px; line-height: 1.08; margin-bottom: 12px; }
+.np-card p { color: var(--ink-2); font-size: 16px; margin: 0 0 14px; }
+.np-num {
+  font-family: var(--font-display); font-weight: 800; font-size: 13px;
+  color: var(--orange); letter-spacing: 0.06em; margin-bottom: 14px;
+}
+.np-heads { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.np-heads li {
+  font-size: 13px; font-weight: 600; color: var(--ink-2);
+  background: var(--card); border-radius: 999px; padding: 4px 11px;
+}
+.np-card-meta {
+  margin-top: auto; font-family: var(--font-display); font-weight: 700; font-size: 13px;
+  letter-spacing: 0.04em; color: var(--ink);
+}
+.np-card > a:hover .np-card-meta { color: var(--orange-700); }
+
+.np-more { margin-top: 64px; }
+.np-more ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.np-more a {
+  display: inline-block; font-size: 15px; font-weight: 600;
+  border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 14px;
+}
+.np-more a:hover { border-color: var(--ink); }
+
+/* ---------- subject page ---------- */
+.np-chapters { columns: 3 300px; column-gap: 18px; }
+.np-chapter {
+  break-inside: avoid; margin: 0 0 18px;
+  background: var(--card-2); border: 1px solid var(--line-soft); border-radius: 18px; padding: 22px 24px;
+}
+.np-chapter h2 { font-size: 21px; line-height: 1.1; margin-bottom: 12px; }
+.np-chapter h2 a:hover { color: var(--orange-700); }
+.np-chapter ul { list-style: none; margin: 0; padding: 0; }
+.np-chapter li { font-size: 15px; font-weight: 500; line-height: 1.35; padding: 5px 0; border-top: 1px solid var(--line-soft); }
+.np-chapter li a { color: var(--ink-2); }
+.np-chapter li a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- CTA band + footer ---------- */
+.np-cta-wrap { padding: 0 0 90px; }
+.np-foot-line { max-width: 30ch; color: var(--ink-2); font-weight: 500; margin: 0; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1040px) {
+  .np-grid { grid-template-columns: 1fr; }
+  .np-side { position: static; }
+  .np-side-inner { background: var(--card-2); border-radius: 18px; padding: 22px; }
+}
+@media (max-width: 720px) {
+  .np .nav-cta .np-signin { display: none; }
+  .np .nav-cta .btn-primary { padding: 11px 16px; font-size: 15px; }
+  .np .brand img { height: 40px; width: auto; }
+  .np-nudge { flex-direction: column; align-items: flex-start; }
+  .np-terms dl > div { grid-template-columns: 1fr; gap: 4px; }
+  .np-pager { grid-template-columns: 1fr; }
+  .np-pager .next { grid-column: 1; }
+  .np-cards { grid-template-columns: 1fr; }
+  .np-article { border-radius: 18px; }
+  .np-standfirst { font-size: 18px; }
+}
+@media (max-width: 560px) {
+  .np .wrap { padding: 0 16px; }
+  .np-article { padding: 24px 18px; margin: 0 -4px; }
+  .np-crumbs ol { font-size: 13px; }
+}
+@media print {
+  header.nav, .np-side, .np-cta-wrap, .np-nudge, footer.site, .np-pager { display: none; }
+  .np-article { box-shadow: none; border: 0; padding: 0; }
+}
