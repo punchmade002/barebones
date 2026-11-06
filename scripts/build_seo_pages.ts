@@ -148,7 +148,8 @@ function buildModel(): Subject[] {
       const subSlugs = new Set<string>();
       const subs: Sub[] = los.map((lo: Any) => {
         const entry = entries.get(lo.id)!;
-        const title = entry.subsection || lo.title;
+        // Outline numbering ("3. Properties") means nothing out of context; the pages order them.
+        const title = (entry.subsection || lo.title).replace(/^\d+[.)]\s+/, "");
         const s = unique(slugify(title), subSlugs);
         return { ...entry, title, slug: s, url: `${url}${s}/`, path: `${meta.slug}/${slug}/${s}` };
       });
@@ -176,6 +177,21 @@ function truncate(text: string, max: number): string {
   if (text.length <= max) return text;
   const cut = text.slice(0, max - 1).replace(/[\s,;:.]+\S*$/, "");
   return `${cut}…`;
+}
+
+// "Leaving Cert Biology: Photosynthesis Notes" while it fits; longer topics go first so a
+// truncated search result still shows what the page is about.
+function pageTitle(subjectName: string, topic: string): string {
+  const base = `Leaving Cert ${subjectName}: ${topic} Notes`;
+  if (base.length <= 52) return `${base} | barebones`;
+  if (base.length <= 66) return base;
+  return `${topic} | Leaving Cert ${subjectName} Notes`;
+}
+
+// Short or repeated subsection names ("Properties", "Sources") need the chapter alongside.
+function topicName(sub: Sub, ch: Chapter, repeated: Set<string>): string {
+  const generic = repeated.has(norm(sub.title)) || sub.title.split(/\s+/).length <= 2;
+  return generic && !norm(sub.title).includes(norm(ch.title)) ? `${ch.title} – ${sub.title}` : sub.title;
 }
 
 function plural(n: number, one: string, many = `${one}s`): string {
@@ -382,9 +398,15 @@ function subsectionPage(subject: Subject, ch: Chapter, i: number, subjects: Subj
   const prev = ch.subs[i - 1];
   const next = ch.subs[i + 1];
   const lead = sub.notes.find((b) => b.b)?.b || sub.notes[0].points?.[0] || "";
-  const titleBase = `Leaving Cert ${subject.name}: ${sub.title} Notes`;
-  const title = titleBase.length <= 52 ? `${titleBase} | barebones` : titleBase;
-  const description = truncate(`${subject.name} notes for the Leaving Cert on ${sub.title.charAt(0).toLowerCase() + sub.title.slice(1)}. ${lead}`, 158);
+  const seen = new Set<string>(), repeated = new Set<string>();
+  for (const c of subject.chapters) for (const s of c.subs) {
+    const key = norm(s.title);
+    if (seen.has(key)) repeated.add(key);
+    seen.add(key);
+  }
+  const topic = topicName(sub, ch, repeated);
+  const title = pageTitle(subject.name, topic);
+  const description = truncate(`Leaving Cert ${subject.name} notes: ${topic}. ${lead}`, 158);
   const crumbs: Crumb[] = [
     { name: "Home", url: "/" },
     { name: "Leaving Cert Notes", url: `/${HUB_SLUG}/` },
@@ -479,8 +501,8 @@ ${ctaBand({ heading: `Now drill ${ch.title}.`, text: chapterCtaText(subject, ch)
   return page({
     title, description, url: sub.url, crumbs, body, subjects,
     ld: [learningResourceLd({
-      url: sub.url, name: `${sub.title}: Leaving Cert ${subject.name} notes`, description,
-      about: sub.title, modified: sub.mtime, partOf: ch.url,
+      url: sub.url, name: `${topic}: Leaving Cert ${subject.name} notes`, description,
+      about: topic, modified: sub.mtime, partOf: ch.url,
       teaches: blocks.map((b) => b.h), keywords: sub.keyTerms.map((t) => t.term),
     })],
   });
@@ -495,8 +517,7 @@ function nextChapterLink(subject: Subject, ch: Chapter): string {
 }
 
 function chapterPage(subject: Subject, ch: Chapter, subjects: Subject[]): string {
-  const titleBase = `Leaving Cert ${subject.name}: ${ch.title} Notes`;
-  const title = titleBase.length <= 52 ? `${titleBase} | barebones` : titleBase;
+  const title = pageTitle(subject.name, ch.title);
   const subNames = ch.subs.map((s) => s.title);
   const description = truncate(
     `Free Leaving Cert ${subject.name} notes on ${ch.title}: ${subNames.join(", ")}. Key terms, practice questions and flashcards.`,

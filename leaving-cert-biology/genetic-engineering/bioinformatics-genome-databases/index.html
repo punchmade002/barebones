@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Leaving Cert Biology: Bioinformatics: genome databases Notes</title>
+<meta name="description" content="Leaving Cert Biology notes: Bioinformatics: genome databases. Aim: to use a genome database to find the gene and the alleles responsible for two named…" />
+<link rel="canonical" href="https://barebones.ie/leaving-cert-biology/genetic-engineering/bioinformatics-genome-databases/" />
+<meta name="generator" content="barebones-seo-pages" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="barebones" />
+<meta property="og:locale" content="en_IE" />
+<meta property="og:url" content="https://barebones.ie/leaving-cert-biology/genetic-engineering/bioinformatics-genome-databases/" />
+<meta property="og:title" content="Leaving Cert Biology: Bioinformatics: genome databases Notes" />
+<meta property="og:description" content="Leaving Cert Biology notes: Bioinformatics: genome databases. Aim: to use a genome database to find the gene and the alleles responsible for two named…" />
+<meta property="og:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
+<meta property="og:image:alt" content="barebones logo" />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/design_handoff_barebones_landing/styles.css" />
+<link rel="stylesheet" href="/seo-pages.css" />
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://barebones.ie/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Leaving Cert Notes",
+     "item": "https://barebones.ie/leaving-cert-notes/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Biology",
+     "item": "https://barebones.ie/leaving-cert-biology/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Genetic Engineering",
+     "item": "https://barebones.ie/leaving-cert-biology/genetic-engineering/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "Bioinformatics: genome databases",
+     "item": "https://barebones.ie/leaving-cert-biology/genetic-engineering/bioinformatics-genome-databases/"
+    }
+   ]
+  },
+  {
+   "@type": "LearningResource",
+   "@id": "https://barebones.ie/leaving-cert-biology/genetic-engineering/bioinformatics-genome-databases/#notes",
+   "name": "Bioinformatics: genome databases: Leaving Cert Biology notes",
+   "description": "Leaving Cert Biology notes: Bioinformatics: genome databases. Aim: to use a genome database to find the gene and the alleles responsible for two named…",
+   "url": "https://barebones.ie/leaving-cert-biology/genetic-engineering/bioinformatics-genome-databases/",
+   "inLanguage": "en-IE",
+   "learningResourceType": "Revision notes",
+   "educationalLevel": "Leaving Certificate",
+   "isAccessibleForFree": true,
+   "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": "student"
+   },
+   "about": {
+    "@type": "Thing",
+    "name": "Bioinformatics: genome databases"
+   },
+   "teaches": [
+    "Bioinformatics and the value of computers",
+    "Identifying patterns and searching for anomalies",
+    "Benefits for health and research",
+    "The main databases",
+    "Worked method: finding disease alleles in OMIM",
+    "Expected results for the two diseases",
+    "Using NCBI and Ensembl",
+    "Conclusion and limitations"
+   ],
+   "keywords": "Bioinformatics, Genome database, Reference genome, Variant, Sequence alignment, BLAST, OMIM, ClinVar, Pathogenic variant, Chromosome location, Autosomal recessive, Autosomal dominant, Uncertain significance",
+   "isPartOf": {
+    "@id": "https://barebones.ie/leaving-cert-biology/genetic-engineering/#notes"
+   },
+   "dateModified": "2026-10-30",
+   "publisher": {
+    "@id": "https://barebones.ie/#org"
+   }
+  }
+ ]
+}</script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body class="np">
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="barebones home">
+      <img src="/design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" width="166" height="52" />
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/leaving-cert-notes/">Notes</a>
+      <a href="/#method">Method</a>
+      <a href="/#features">Features</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="/app.html#signin" class="btn btn-ghost np-signin">Sign in</a>
+      <a href="/app.html#signup" class="btn btn-primary">Get started free</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap np-page">
+  <nav class="np-crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/leaving-cert-notes/">Leaving Cert Notes</a></li><li><a href="/leaving-cert-biology/">Biology</a></li><li><a href="/leaving-cert-biology/genetic-engineering/">Genetic Engineering</a></li><li aria-current="page">Bioinformatics: genome databases</li></ol></nav>
+  <div class="np-grid">
+    <article class="np-article">
+      <header class="np-head">
+        <h1><span class="np-kicker">Leaving Cert Biology · Genetic Engineering</span>Bioinformatics: genome databases</h1>
+        <p class="np-meta">8 sections · 13 key terms · Syllabus 3.3.5</p>
+      </header>
+      <nav class="np-toc" aria-label="On this page"><h2 class="np-label">On this page</h2><ol><li><a href="#bioinformatics-and-the-value-of-computers">Bioinformatics and the value of computers</a></li><li><a href="#identifying-patterns-and-searching-for-anomalies">Identifying patterns and searching for anomalies</a></li><li><a href="#benefits-for-health-and-research">Benefits for health and research</a></li><li><a href="#the-main-databases">The main databases</a></li><li><a href="#worked-method-finding-disease-alleles-in-omim">Worked method: finding disease alleles in OMIM</a></li><li><a href="#expected-results-for-the-two-diseases">Expected results for the two diseases</a></li><li><a href="#using-ncbi-and-ensembl">Using NCBI and Ensembl</a></li><li><a href="#conclusion-and-limitations">Conclusion and limitations</a></li><li><a href="#key-terms">Key terms</a></li></ol></nav>
+    <section class="np-block" id="bioinformatics-and-the-value-of-computers">
+      <h2>Bioinformatics and the value of computers</h2>
+      <ul>
+        <li>Bioinformatics is the use of computers and software to store, search, compare and analyse biological information, especially DNA, RNA and protein sequences.</li>
+        <li>A genome database is an online store of genome sequences and information about genes, their variants (alleles) and their effects, which anyone can search.</li>
+        <li>Computers are essential because one human genome is about 3 billion base pairs (see “<a href="/leaving-cert-biology/genetic-engineering/dna-sequencing/">DNA sequencing</a>”), and sequencing machines produce data on many genomes quickly; no person could read or compare this by eye.</li>
+        <li>Computers compare sequences in seconds, store them permanently, and let scientists anywhere share them, much of it freely, as the Human Genome Project did (see “<a href="/leaving-cert-biology/scientific-knowledge/science-as-a-global-enterprise/">Science as a global enterprise</a>”).</li>
+      </ul>
+    </section>
+    <section class="np-block" id="identifying-patterns-and-searching-for-anomalies">
+      <h2>Identifying patterns and searching for anomalies</h2>
+      <ul>
+        <li>Identifying patterns: software lines up (aligns) sequences to find similarities, e.g. genes shared by different species.</li>
+        <li>Shared genes show evolutionary relationships and help work out what a newly found gene does, since a gene similar to a known gene in another species often has a similar job.</li>
+        <li>The NCBI tool BLAST takes a sequence typed or pasted in and finds the most similar sequences in the database, e.g. to identify the species or gene a DNA sample came from.</li>
+        <li>Searching for anomalies: a person’s sequence is compared with a reference genome (a standard sequence), and the computer lists every difference (variant).</li>
+        <li>Most variants are harmless; the database shows which have been recorded in people with a disease, so a disease-causing allele can be recognised.</li>
+        <li>Worked example: reference beta-globin gene … CCT GAG GAG …; patient … CCT GTG GAG …; the computer flags one substitution, A to T in the codon GAG → GTG, which is the sickle-cell allele (glutamic acid replaced by valine; see “<a href="/leaving-cert-biology/dna-replication-protein-synthesis-and-mutations/mutations/">Mutations</a>”).</li>
+        <li>Databases show the DNA strand with the same sequence as the mRNA, so GTG here matches GUG in the mRNA.</li>
+      </ul>
+    </section>
+    <section class="np-block" id="benefits-for-health-and-research">
+      <h2>Benefits for health and research</h2>
+      <ul>
+        <li>Diagnosing rare genetic diseases quickly by comparing a patient’s genome with databases.</li>
+        <li>Carrier testing and genetic counselling (see “<a href="/leaving-cert-biology/genetic-inheritance/benefits-and-limitations-of-mendelian-genetics/">Benefits and limitations of Mendelian genetics</a>”).</li>
+        <li>Finding which genes are mutated in a tumour, to choose a treatment (see “<a href="/leaving-cert-biology/cell-division-and-cancer/causes-prevention-and-treatment-of-cancer/">Causes, prevention and treatment of cancer</a>”).</li>
+        <li>Tracking the spread and evolution of pathogens, and finding genes that raise the risk of common diseases.</li>
+      </ul>
+    </section>
+    <section class="np-block" id="the-main-databases">
+      <h2>The main databases</h2>
+      <ul>
+        <li>OMIM (Online Mendelian Inheritance in Man, omim.org) is a catalogue of human genes and genetic disorders and the relationships between them. It is written and updated by scientists at Johns Hopkins University in the USA, and was begun by the geneticist Victor McKusick.</li>
+        <li>Each OMIM entry has a six-digit MIM number. Searching OMIM is free on the website.</li>
+        <li>NCBI (the National Center for Biotechnology Information, ncbi.nlm.nih.gov) is part of the US National Library of Medicine.</li>
+        <li>NCBI hosts many linked databases, including GenBank (DNA sequences), Gene (one record per gene, with its location and a summary of its function), ClinVar (variants found in patients and their classification), and the BLAST tool.</li>
+        <li>A search box at the top of the NCBI home page searches all of them, or one chosen database.</li>
+        <li>Ensembl (ensembl.org) is a genome browser run by the European Bioinformatics Institute (EMBL-EBI) near Cambridge, UK.</li>
+        <li>Ensembl shows the genomes of humans and many other animals as maps on which genes, their structure and known variants can be viewed and compared between species.</li>
+      </ul>
+    </section>
+    <aside class="np-nudge"><div><strong>Know this already?</strong> Prove it: 13 flashcards on Bioinformatics: genome databases are waiting in the app.</div><a class="btn btn-dark" href="/app.html#signup" data-cta="nudge">Test yourself</a></aside>
+    <section class="np-block" id="worked-method-finding-disease-alleles-in-omim">
+      <h2>Worked method: finding disease alleles in OMIM</h2>
+      <p class="np-lead">Aim: to use a genome database to find the gene and the alleles responsible for two named genetic diseases, cystic fibrosis and Huntington’s disease, and record the gene, its chromosome location, the pattern of inheritance and the disease-causing allele.</p>
+      <ul>
+        <li>1. Go to omim.org and type the disease name (e.g. “cystic fibrosis”) in the search box.</li>
+        <li>2. The results list entries, each with a MIM number and a title. A symbol before the number shows the type of entry: # means a description of a disease or other phenotype whose molecular basis (gene) is known; * means a gene.</li>
+        <li>3. Open the disease entry (the # entry: cystic fibrosis is #219700; Huntington’s disease is #143100).</li>
+        <li>4. Near the top of the disease entry, a table of phenotype–gene relationships gives the chromosome location (cytogenetic band), the phenotype, its pattern of inheritance (e.g. “AR” for autosomal recessive, “AD” for autosomal dominant), and the gene responsible, with a link to the gene’s own (*) entry.</li>
+        <li>5. Read the text sections of the entry (e.g. clinical features, inheritance, molecular genetics) for a description of the disease and of the mutations that cause it.</li>
+        <li>6. Follow the link to the gene entry; its section on allelic variants lists selected disease-causing alleles, each with a description of the change in the DNA and the protein.</li>
+        <li>7. Record the findings in a table (columns: disease; gene; chromosome location; inheritance; disease-causing allele; protein affected).</li>
+        <li>8. Repeat for the second disease.</li>
+        <li>9. Check one result in a second database (e.g. search the gene name in NCBI Gene or Ensembl) to confirm the location (a check of reliability; see “<a href="/leaving-cert-biology/scientific-knowledge/recognising-bias-and-evaluating-sources/">Recognising bias and evaluating sources</a>”).</li>
+        <li>Reading a chromosome location: 7q31.2 means chromosome 7, the long arm (q), band 31.2; 4p16.3 means chromosome 4, the short arm (p), band 16.3.</li>
+      </ul>
+    </section>
+    <section class="np-block" id="expected-results-for-the-two-diseases">
+      <h2>Expected results for the two diseases</h2>
+      <p class="np-lead">The results table, one row per disease, with the gene, location, inheritance and disease-causing allele.</p>
+      <ul>
+        <li>Cystic fibrosis: gene CFTR (cystic fibrosis transmembrane conductance regulator), chromosome 7 (7q31.2); autosomal recessive.</li>
+        <li>The commonest disease-causing allele is F508del, a deletion of three bases that removes one phenylalanine from the CFTR protein (see “<a href="/leaving-cert-biology/dna-replication-protein-synthesis-and-mutations/mutations/">Mutations</a>”).</li>
+        <li>Many hundreds of other disease-causing alleles are listed. The protein affected is CFTR, a channel that moves chloride ions across cell membranes.</li>
+        <li>Huntington’s disease: gene HTT (huntingtin), chromosome 4 (4p16.3); autosomal dominant.</li>
+        <li>The disease-causing allele has too many repeats of the three bases CAG near the start of the gene: 40 or more repeats cause the disease, 36 to 39 may or may not, and unaffected people usually have 26 or fewer.</li>
+        <li>Each CAG codes for the amino acid glutamine, so the huntingtin protein carries an abnormally long chain of glutamines, which damages nerve cells in the brain.</li>
+        <li>Third example (optional, may be given as a row in the table): sickle-cell anaemia; gene HBB (beta-globin), chromosome 11 (11p15.4); autosomal recessive.</li>
+        <li>The sickle-cell allele is one base substitution changing glutamic acid to valine in beta-globin (haemoglobin S; see “<a href="/leaving-cert-biology/dna-replication-protein-synthesis-and-mutations/mutations/">Mutations</a>”).</li>
+      </ul>
+    </section>
+    <section class="np-block" id="using-ncbi-and-ensembl">
+      <h2>Using NCBI and Ensembl</h2>
+      <ul>
+        <li>NCBI: choose the Gene database, search the gene name with “human” (e.g. “CFTR human”), and open the human gene record.</li>
+        <li>The NCBI gene record gives the official name, the chromosome location, a summary of what the gene does, and links to OMIM and ClinVar.</li>
+        <li>In ClinVar, a search for the gene lists the variants reported in patients, each with a classification: pathogenic, likely pathogenic, uncertain significance, likely benign or benign.</li>
+        <li>A disease-causing allele is one classified as pathogenic.</li>
+        <li>Ensembl: choose the human genome, search for the gene name, and open the gene page.</li>
+        <li>The Ensembl gene page shows the gene’s position on the chromosome, its coding and non-coding sections, and a table of known variants with their consequences.</li>
+        <li>The same gene can be viewed in other species to see how similar it is.</li>
+      </ul>
+    </section>
+    <section class="np-block" id="conclusion-and-limitations">
+      <h2>Conclusion and limitations</h2>
+      <ul>
+        <li>Each disease is caused by alleles of a single gene at a known chromosome location.</li>
+        <li>Cystic fibrosis is recessive, so a person needs two disease-causing alleles, while Huntington’s disease is dominant, so one is enough (see “<a href="/leaving-cert-biology/genetic-inheritance/monohybrid-crosses/">Monohybrid crosses</a>”).</li>
+        <li>Databases record many different disease-causing alleles of the same gene.</li>
+        <li>Many variants are of “uncertain significance”: it is not yet known whether they cause disease.</li>
+        <li>Most common diseases (e.g. heart disease, type 2 diabetes) involve many genes and the environment, so no single allele “causes” them (see “<a href="/leaving-cert-biology/genetic-inheritance/benefits-and-limitations-of-mendelian-genetics/">Benefits and limitations of Mendelian genetics</a>”).</li>
+        <li>Databases contain far more data from people of European ancestry than from other populations, so variants in other groups are less well understood.</li>
+        <li>Databases are for research and professionals, so a result should be interpreted with a doctor or genetic counsellor. Privacy of genetic data is covered in “<a href="/leaving-cert-biology/genetic-engineering/ethics-of-genetic-technologies/">Ethics of genetic technologies</a>”.</li>
+      </ul>
+    </section>
+    <section class="np-terms" id="key-terms">
+      <h2>Key terms</h2>
+      <dl>
+        <div><dt>Bioinformatics</dt><dd>The use of computers and software to store, search, compare and analyse biological information, especially DNA, RNA and protein sequences.</dd></div>
+        <div><dt>Genome database</dt><dd>An online store of genome sequences and information about genes, their variants and their effects, which anyone can search.</dd></div>
+        <div><dt>Reference genome</dt><dd>A standard sequence against which a person’s genome is compared to find differences (variants).</dd></div>
+        <div><dt>Variant</dt><dd>A difference between a person’s sequence and the reference genome, which may or may not be harmful.</dd></div>
+        <div><dt>Sequence alignment</dt><dd>Lining up sequences so that similarities between them can be found by software.</dd></div>
+        <div><dt>BLAST</dt><dd>An NCBI tool that finds the most similar sequences in a database to a sequence entered by the user.</dd></div>
+        <div><dt>OMIM</dt><dd>Online Mendelian Inheritance in Man, a catalogue of human genes and genetic disorders, with six-digit MIM numbers for each entry.</dd></div>
+        <div><dt>ClinVar</dt><dd>An NCBI database of variants found in patients, each with a classification such as pathogenic or benign.</dd></div>
+        <div><dt>Pathogenic variant</dt><dd>A variant classified as causing disease, which is therefore a disease-causing allele.</dd></div>
+        <div><dt>Chromosome location</dt><dd>The position of a gene on a chromosome, given by chromosome number, arm (p or q) and band, such as 7q31.2.</dd></div>
+        <div><dt>Autosomal recessive</dt><dd>An inheritance pattern in which a person needs two disease-causing alleles to have the condition, as in cystic fibrosis.</dd></div>
+        <div><dt>Autosomal dominant</dt><dd>An inheritance pattern in which one disease-causing allele is enough to cause the condition, as in Huntington’s disease.</dd></div>
+        <div><dt>Uncertain significance</dt><dd>The classification of a variant when it is not yet known whether it causes disease.</dd></div>
+      </dl>
+    </section>
+    <section class="np-questions" id="practice-questions">
+      <h2>Practice questions</h2>
+      <ol>
+        <li><p>What is meant by bioinformatics? Give two reasons why computers are needed to analyse genetic information.</p><span class="np-marks">6 marks</span></li>
+        <li><p>Describe how you would use a named genome database to find information about the allele that causes a named genetic disease, and state what you would expect to find.</p><span class="np-marks">12 marks</span></li>
+      </ol>
+      <p class="np-locked"><span aria-hidden="true">■</span> Model answers, marking and 3 practice questions for this section are in the app. <a href="/app.html#signup" data-cta="answers">See the answers</a></p>
+    </section>
+    <nav class="np-pager" aria-label="Next and previous">
+      <a class="prev" href="/leaving-cert-biology/genetic-engineering/dna-sequencing/"><span>Previous</span>DNA sequencing</a>
+      <a class="next" href="/leaving-cert-biology/genetic-engineering/investigation-dna-profile-patterns/"><span>Next</span>Investigation: DNA-profile patterns</a>
+    </nav>
+    </article>
+    <aside class="np-side">
+      <div class="np-side-inner">
+        <h2 class="np-label"><a href="/leaving-cert-biology/genetic-engineering/">Genetic Engineering</a></h2>
+        <ol class="np-sibs">
+          <li><a href="/leaving-cert-biology/genetic-engineering/genetic-engineering/">Genetic engineering</a></li>
+          <li><a href="/leaving-cert-biology/genetic-engineering/dna-profiling/">DNA profiling</a></li>
+          <li><a href="/leaving-cert-biology/genetic-engineering/generating-a-dna-profile/">Generating a DNA profile</a></li>
+          <li><a href="/leaving-cert-biology/genetic-engineering/dna-sequencing/">DNA sequencing</a></li>
+          <li aria-current="page"><span>Bioinformatics: genome databases</span></li>
+          <li><a href="/leaving-cert-biology/genetic-engineering/investigation-dna-profile-patterns/">Investigation: DNA-profile patterns</a></li>
+          <li><a href="/leaving-cert-biology/genetic-engineering/ethics-of-genetic-technologies/">Ethics of genetic technologies</a></li>
+        </ol>
+        <div class="np-side-cta">
+          <p><strong>13 flashcards</strong> for this section and <strong>6 past exam questions</strong> for the chapter.</p>
+          <a class="btn btn-primary" href="/app.html#signup" data-cta="sidebar">Drill them free</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+<section class="np-cta-wrap">
+  <div class="wrap">
+    <div class="cta">
+      <div class="dotfield"></div>
+      <div>
+        <h2>Now drill Genetic Engineering.</h2>
+        <p>Reading is step one. In the app, Genetic Engineering becomes 96 flashcards and 6 past exam questions marked the way the examiner marks them, with progress saved as you go. Free for Leaving Cert Biology students.</p>
+      </div>
+      <div class="right">
+        <a href="/app.html#signup" class="btn btn-primary signup-btn" data-cta="band">Get started free</a>
+        <p class="signin-note">Already have an account? <a href="/app.html#signin">Sign in</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img class="fwm" src="/design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+        <p class="np-foot-line">The bare-bones way to study for the Leaving Cert.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Notes</h4>
+          <a href="/leaving-cert-biology/">Biology notes</a>
+          <a href="/leaving-cert-chemistry/">Chemistry notes</a>
+          <a href="/leaving-cert-history/">History notes</a>
+          <a href="/leaving-cert-geography/">Geography notes</a>
+          <a href="/leaving-cert-business/">Business notes</a>
+          <a href="/leaving-cert-home-economics/">Home Economics notes</a>
+          <a href="/leaving-cert-pe/">PE notes</a>
+        </div>
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="/#method">Method</a>
+          <a href="/#features">Features</a>
+          <a href="/app.html#signin">Sign in</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 barebones. Made in Ireland.</span>
+      <span>Not affiliated with the State Examinations Commission.</span>
+    </div>
+  </div>
+</footer>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+</html>
