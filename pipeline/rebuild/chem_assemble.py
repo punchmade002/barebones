@@ -28,6 +28,13 @@ ROOT = Path(__file__).resolve().parents[2]
 def main(fill_path):
     raw = json.loads(Path(fill_path).read_text())
     fill = (raw.get('result') or raw)['answers']
+    # Later layers, applied last by part id "<key>|<label>": Sonnet figure-check fixes, then the
+    # Haiku presentation tidy (examiner notation removed). Each is {id: model}.
+    overrides = {}
+    for name in ('figcheck-fixes.json', 'tidy.json'):
+        path = DATA / 'fill' / name
+        if path.exists():
+            overrides.update(json.loads(path.read_text()))
     crops = json.loads((DATA / 'crops.json').read_text())
     cfg = SUBJECTS['chemistry']
     bank, review, sources = [], [], Counter()
@@ -53,6 +60,9 @@ def main(fill_path):
                 model, status, source = a['model'], 'written', a['by']
             else:
                 review.append(f'- {key} {p["label"]}: no answer\n  {p["text"][:300]}')
+            pid = f'{key}|{p["label"]}'
+            if model and pid in overrides and overrides[pid].strip():
+                model = overrides[pid]
             sources[source or 'none'] += 1
             refs = p.get('loIds') or ([sp['chapterId']] if sp.get('chapterId') else [])
             parts.append({
