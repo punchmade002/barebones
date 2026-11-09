@@ -442,7 +442,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(vi)",
     "marks": 9,
-    "model": "Catalytic cracking is the breaking (splitting) of large, long-chain molecules into smaller, more useful molecules.\nIt is carried out using heat and a catalyst.\nSolid Y: porcelain (a porous pot or broken porcelain), which acts as the catalyst. Steel wool, iron or silica-alumina would also work.",
+    "model": "Catalytic cracking is the breaking (splitting) of large, long-chain molecules into smaller, more useful molecules.\nIt is carried out using heat and a catalyst.\nSolid Y: porcelain (a porous pot or broken porcelain), which acts as the catalyst.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1121,7 +1121,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "8 flocculant (unlabelled)",
     "marks": 3,
-    "model": "Aluminium sulphate (alum), Al₂(SO₄)₃.\nIron(III) sulphate or iron(III) chloride is also acceptable.",
+    "model": "Aluminium sulphate (alum), Al₂(SO₄)₃.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1136,7 +1136,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "8 treatment (a)",
     "marks": 3,
-    "model": "Add a base to raise the pH, for example calcium hydroxide (lime), Ca(OH)₂.\nSodium carbonate (soda ash) or sodium hydroxide are also acceptable.",
+    "model": "Add a base to raise the pH, for example calcium hydroxide (lime), Ca(OH)₂.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1151,7 +1151,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "8 treatment (b)",
     "marks": 3,
-    "model": "Add an acid to lower the pH, for example sulphuric acid, H₂SO₄.\nCarbon dioxide, CO₂, which forms carbonic acid in water, is also acceptable.",
+    "model": "Add an acid to lower the pH, for example sulphuric acid, H₂SO₄.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1181,7 +1181,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "8 (ii)",
     "marks": 6,
-    "model": "Ka = [H₃O⁺][ClO⁻] / [HClO]\n(with [H⁺] in place of [H₃O⁺] also acceptable)",
+    "model": "Ka = [H₃O⁺][ClO⁻] / [HClO]",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1387,7 +1387,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 12,
-    "model": "1. Burn sulphur in air to form sulphur dioxide: S + O₂ → SO₂.\n2. Oxidise SO₂ to SO₃: 2SO₂ + O₂ ⇌ 2SO₃.\n3. Use a catalyst of vanadium(V) oxide, V₂O₅ (platinum is also acceptable), at about 450 °C.\n4. Absorb the SO₃ in concentrated H₂SO₄ to form oleum (H₂S₂O₇), then add water to give dilute sulphuric acid, H₂SO₄.",
+    "model": "1. Burn sulphur in air to form sulphur dioxide: S + O₂ → SO₂.\n2. Oxidise SO₂ to SO₃: 2SO₂ + O₂ ⇌ 2SO₃.\n3. Use a catalyst of vanadium(V) oxide, V₂O₅, at about 450 °C.\n4. Absorb the SO₃ in concentrated H₂SO₄ to form oleum (H₂S₂O₇), then add water to give dilute sulphuric acid, H₂SO₄.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -1469,7 +1469,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 12,
-    "model": "**Product:** The hydration of ethyne produces **ethanal (acetaldehyde), CH₃CHO**.\n\n**Reaction:** C₂H₂ + H₂O → CH₃CHO\n\n**Reagents and conditions:**\n- Dilute sulfuric acid (H₂SO₄) as catalyst\n- Mercury(II) sulfate (HgSO₄) as promoter/catalyst\n- Water\n- Temperature: moderate heat (gentle warming or reflux)\n- Pressure: atmospheric pressure acceptable\n\nThe mechanism involves hydration of the triple bond, with water adding across the C≡C bond to form the enol intermediate, which tautomerizes to the stable carbonyl compound, ethanal.",
+    "model": "**Product:** The hydration of ethyne produces **ethanal (acetaldehyde), CH₃CHO**.\n\n**Reaction:** C₂H₂ + H₂O → CH₃CHO\n\n**Reagents and conditions:**\n- Dilute sulfuric acid (H₂SO₄) as catalyst\n- Mercury(II) sulfate (HgSO₄) as catalyst\n- Water\n- Temperature: moderate heat (gentle warming)\n- Pressure: atmospheric pressure\n\nThe mechanism involves hydration of the triple bond, with water adding across the C≡C bond to form the enol intermediate, which tautomerizes to the stable carbonyl compound, ethanal.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -2575,7 +2575,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)2",
     "marks": 21,
-    "model": "Definition: the heat of combustion is the heat change when one mole of a substance is burned completely in excess oxygen.\nMethod:\n1. Pour a known mass (or volume) of water into a copper calorimeter and stir; record the initial temperature.\n2. Weigh a spirit burner containing methanol.\n3. Place the burner under the calorimeter with a draught shield and light the wick.\n4. Stir the water while it heats; when the temperature has risen by a suitable amount (about 20 to 30 °C), extinguish the flame.\n5. Record the highest temperature reached and reweigh the burner to find the mass of methanol burned.\n6. Calculate the heat absorbed: q = m × c × Δθ, using c = 4.18 J g⁻¹ K⁻¹ for water.\n7. Calculate the moles of methanol burned (M = 32 g mol⁻¹). Heat of combustion = −q ÷ moles, in kJ mol⁻¹.\nSources of error:\n- Heat is lost to the surroundings (air, calorimeter walls, shield), so the temperature rise is too small.\n- The temperature rise is measured inaccurately (reading the thermometer, poor stirring).\n- Methanol does not burn completely (incomplete combustion, soot), or it evaporates before it burns.",
+    "model": "Definition: the heat of combustion is the heat change when one mole of a substance is burned completely in excess oxygen.\nMethod:\n1. Pour a known mass of water into a copper calorimeter and stir; record the initial temperature.\n2. Weigh a spirit burner containing methanol.\n3. Place the burner under the calorimeter with a draught shield and light the wick.\n4. Stir the water while it heats; when the temperature has risen by a suitable amount (about 20 to 30 °C), extinguish the flame.\n5. Record the highest temperature reached and reweigh the burner to find the mass of methanol burned.\n6. Calculate the heat absorbed: q = m × c × Δθ, using c = 4.18 J g⁻¹ K⁻¹ for water.\n7. Calculate the moles of methanol burned (M = 32 g mol⁻¹). Heat of combustion = −q ÷ moles, in kJ mol⁻¹.\nSources of error:\n- Heat is lost to the surroundings (air, calorimeter walls, shield), so the temperature rise is too small.\n- The temperature rise is measured inaccurately (reading the thermometer, poor stirring).\n- Methanol does not burn completely (incomplete combustion, soot), or it evaporates before it burns.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -3324,7 +3324,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "Compound: ethanol/ethyl alcohol/C2H5OH (4)\nProcess: oxidation (4)",
+    "model": "Compound: ethanol, C₂H₅OH\nProcess: oxidation",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3360,7 +3360,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 15,
-    "model": "Equipment: burette (3)\nWashing & filling: with deionised water / then solution (ethanoic acid, diluted vinegar) / use of funnel (pour in at top) / ensure that the area below the tap is filled (3 x 3)\nIndicator: phenolphthalein / thymolphthalein / thymol blue / cresol purple / neutral red / phenol red / bromothymol blue (3)",
+    "model": "Equipment: burette\nWashing and filling: rinse the burette with deionised water, then with the ethanoic acid solution; use a funnel to pour the solution in at the top; make sure the area below the tap is filled.\nIndicator: phenolphthalein",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3514,7 +3514,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "Describe: filter (6)\nPrecaution: wash with brine / wash with ice-cold water / thorough washing / use of indicator (named indicator) / test pH (6)",
+    "model": "Describe: filter\nPrecaution: wash with ice-cold water",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3562,7 +3562,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "Use burette (pipette, graduated cylinder) to measure 80 cm³ of 0.1 M solution (or measure 100, remove 20); make up with deionised (distilled) water to 100 cm³ [Accept: add 20 cm³ deionised water to 80 cm³]",
+    "model": "Use a burette to measure 80 cm³ of 0.1 M solution, then make up to 100 cm³ with deionised water.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3594,7 +3594,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "2.5 minutes [rate from graph = 0.4 (3); 1/t = 0.4 (3); t = 2.5 (3)] [Accept 0.39 to 0.41 for 3-1 marks]",
+    "model": "2.5 minutes (rate from graph = 0.4; 1/t = 0.4; t = 2.5)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3736,7 +3736,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "Yellow to orange (3)\nIncreased H⁺ concentration / shifts forward (to right) / shifts to decrease H⁺ concentration (3)",
+    "model": "Yellow to orange\nIncreased H⁺ concentration; the equilibrium shifts forward (to the right) to decrease H⁺ concentration.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3877,7 +3877,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 15,
-    "model": "Increase: increasing nuclear charge (atomic number) / decreasing atomic radius (6)\nDrops: Be or N stable due to full/half-full sublevels (3); Be: 2s full / 1s²2s² / N: half-full p sublevel / three half-full p-orbitals / 1s²2s²2p³ (3); OR B or O unstable / B: one electron in 2p / O: pair of electrons in one p-orbital (3)",
+    "model": "Increase: increasing nuclear charge (atomic number) and decreasing atomic radius\nDrops: Be or N is stable due to full or half-full sublevels. Be: 2s sublevel full (1s²2s²). N: half-full p sublevel (1s²2s²2p³).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3922,7 +3922,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "2nd to 3rd: third electron coming from new shell (new main level) / full shell / high stability configuration / noble gas (neon) configuration / stability of octet / stability of 2s²2p⁶ (6)\nNext: between 10th and 11th (3)\nReason: eleventh electron coming from new shell (new main level) / full shell / high stability configuration / noble gas (helium) configuration / 1s² (3)",
+    "model": "2nd to 3rd: third electron comes from a new shell (new main level), which is a full shell with stable noble gas (neon) configuration, 2s²2p⁶\nNext: between 10th and 11th\nReason: eleventh electron comes from a new shell (new main level), with the stable noble gas (helium) configuration, 1s²",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3955,7 +3955,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "Which: A / C₃H₆ / propene (4)\nReason: A is non-polar / A cannot form dipole-dipole (hydrogen) bonds with water / water is polar / B, C polar / B, C form hydrogen (dipole-dipole) bonds with water (4)",
+    "model": "Which: A, C₃H₆ (propene)\nReason: A is non-polar and cannot form hydrogen bonds with water, while B and C are polar and form hydrogen bonds with water.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -3971,7 +3971,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "A = propene (also accepted: prop-1-ene, 1-propene)\nC = propanone (also accepted: propan-2-one, 2-propanone)",
+    "model": "A = propene\nC = propanone",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -3988,7 +3988,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "Isomer 1: propan-1-ol (also accepted: 1-propanol, n-propanol, propyl alcohol), CH₃CH₂CH₂OH\nIsomer 2: propan-2-ol (also accepted: 2-propanol, isopropanol, isopropyl alcohol), CH₃CH(OH)CH₃",
+    "model": "Isomer 1: propan-1-ol, CH₃CH₂CH₂OH\nIsomer 2: propan-2-ol, CH₃CH(OH)CH₃",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -4005,7 +4005,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 3,
-    "model": "Propanal (also accepted: propionaldehyde), CH₃CH₂CHO. It has the same formula as propanone, C₃H₆O, but a different structure.",
+    "model": "Propanal, CH₃CH₂CHO. It has the same formula as propanone, C₃H₆O, but a different structure.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -4024,7 +4024,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "A: one (3)\nB: three (3)\nC: two (3)",
+    "model": "A: one\nB: three\nC: two",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -4043,7 +4043,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "A to B: water (6) [Accept 'hydration']\nB to C: sulfuric acid / acidified dichromate(VI) / chromate(VI) / sodium (potassium) dichromate (chromate) / manganate(VII) / potassium permanganate (3) // dehydrogenate by passing over hot copper catalyst (3)",
+    "model": "A to B: water\nB to C: acidified potassium dichromate(VI)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -4423,7 +4423,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 15,
-    "model": "Sedimentation: settling / sinking down / depositing on bottom of suspended matter (suspended solids, suspended particles, undissolved solids) (6)\nFlocculation: adding chemical (flocculating agent, named flocculating agent) causing clumping (coagulating, joining together) of particles / helping sedimentation (settlement, filtration) (6)\nFiltration: passing through sand (anthracite, gravel) to remove suspended (solids, undissolved) matter (6)",
+    "model": "Sedimentation: suspended matter settles (sinks down) to the bottom\nFlocculation: adding a flocculating agent causes particles to clump together, helping sedimentation\nFiltration: passing through sand to remove suspended matter",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -4565,7 +4565,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "Yellow (also accepted: orange, amber). Sodium gives a characteristic yellow line in its emission spectrum.",
+    "model": "Yellow. Sodium gives a characteristic yellow line in its emission spectrum.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -4726,7 +4726,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 9,
-    "model": "4 × 10²² molecules [5 ÷ 74.5 = 0.067 mol (3); 0.067 mol Cl₂ (3); 0.067 × 6 × 10²³ = 4 × 10²² (3)]",
+    "model": "4 × 10²² molecules (5 ÷ 74.5 = 0.067 mol; 0.067 mol Cl₂; 0.067 × 6 × 10²³ = 4 × 10²²)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -4743,7 +4743,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 6,
-    "model": "1.5 l / 1500–1503 cm³ [0.067 × 22.4 = 1.5]",
+    "model": "1.5 l (0.067 × 22.4 = 1.5)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -5170,7 +5170,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 3,
-    "model": "About 45 cm³ of oxygen (accepted range 45 to 49 cm³).\nThe volume is 36 cm³ at 2 min and 54 cm³ at 4 min, so at 3 min it is halfway: (36 + 54) ÷ 2 = 45 cm³.",
+    "model": "About 45 cm³ of oxygen.\nThe volume is 36 cm³ at 2 min and 54 cm³ at 4 min, so at 3 min it is halfway: (36 + 54) ÷ 2 = 45 cm³.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -5185,7 +5185,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 6,
-    "model": "Average rate = volume ÷ time = 45 cm³ ÷ 3 min = 15.0 cm³ min⁻¹ (accepted range 15.0 to 16.3 cm³ min⁻¹).",
+    "model": "Average rate = volume ÷ time = 45 cm³ ÷ 3 min = 15.0 cm³ min⁻¹.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -5297,7 +5297,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "Benzene (C₆H₆) is an aromatic compound. Other acceptable examples: methylbenzene/toluene (C₇H₈), phenol (C₆H₅OH).",
+    "model": "Benzene (C₆H₆) is an aromatic compound.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -5972,7 +5972,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)2",
     "marks": 3,
-    "model": "Polonium, named after Poland, her country of birth. (Radium is also accepted.)",
+    "model": "Polonium, named after Poland, her country of birth.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -6063,7 +6063,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)3",
     "marks": 9,
-    "model": "Stomach powders contain an alkali (base or antacid), which neutralises excess acid.\nExample: sodium hydrogen carbonate, NaHCO₃ (magnesium hydroxide, Mg(OH)₂, is also accepted).",
+    "model": "Stomach powders contain an alkali, which neutralises excess acid.\nExample: sodium hydrogen carbonate, NaHCO₃.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -6556,7 +6556,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 18,
-    "model": "Test: Bromine/Br₂/bromine water (6 marks); Shake with/mix with/add to/bubble through (6 marks); Decolorised (6 marks). Alternative test using acidified manganate(VII). Equations: C₂H₂ + Br₂ → C₂H₂Br₂ (dibromoethene) or C₂H₂ + 2Br₂ → C₂H₂Br₄ (tetrabromoethane)",
+    "model": "Test: bubble the gas through bromine water (Br₂), shaking the mixture. The bromine water is decolorised.\nEquation: C₂H₂ + Br₂ → C₂H₂Br₂ (dibromoethene)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -6658,7 +6658,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "0.0031 / 0.00309 mol. T = 97 + 273 = 370 K (3 marks); V = 95 × 10⁻⁶ m³ / 0.000095 m³ (3 marks); n = PV/RT = (1 × 10⁵ × 95 × 10⁻⁶)/(8.3 × 370) = 0.00309 / 0.0031 mol (3 marks each step)",
+    "model": "0.00309 mol.\nT = 97 + 273 = 370 K\nV = 95 × 10⁻⁶ m³\nn = PV/RT = (1 × 10⁵ × 95 × 10⁻⁶)/(8.3 × 370) = 0.00309 mol",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -6737,7 +6737,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "6.6 × 10²³ electrons. 2.3 ÷ 23 = 0.1 mol (3 marks); 0.1 × 6 × 10²³ = 6 × 10²² atoms; 6 × 10²² × 11 = 6.6 × 10²³ electrons (3 marks)",
+    "model": "6.6 × 10²³ electrons. 2.3 ÷ 23 = 0.1 mol; 0.1 × 6 × 10²³ = 6 × 10²² atoms; 6 × 10²² × 11 = 6.6 × 10²³ electrons",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -6752,7 +6752,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Pressure inversely proportional to volume / PV = k (3 marks) for definite mass of gas at constant temperature (3 marks)",
+    "model": "Pressure is inversely proportional to volume (PV = k) for a definite mass of gas at constant temperature.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -6827,7 +6827,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "HCOOC₂H₅ / C₂H₅OOCH (ethyl methanoate/ethyl formate) or CH₃COOCH₃ / CH₃OOCCH₃ (methyl ethanoate/methyl acetate). Structure (3 marks) and name (3 marks).",
+    "model": "HCOOC₂H₅ (ethyl methanoate)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7044,7 +7044,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Observe: Water attracted to rod (6 marks) / Allow 'deflected' for 3 marks\nExplain: Water is polar (3 marks) / Allow 'water has/is a dipole' or correct dipole diagram",
+    "model": "Observe: water is attracted to the rod\nExplain: water is polar",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7078,7 +7078,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "Which: A / C₂H₄ / ethene / ethylene (4 marks)\nDraw: H–C=C–H with H atoms above and below or H₂C=CH₂ (4 marks)",
+    "model": "Which: A, C₂H₄ (ethene)\nDraw: H₂C=CH₂",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7097,7 +7097,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "X = addition (3 marks)\nY = addition (3 marks)\nZ = substitution (3 marks)",
+    "model": "X = addition\nY = addition\nZ = substitution",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7116,7 +7116,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 3,
-    "model": "Hydrogen chloride / HCl(g). Do not accept 'hydrochloric acid'.",
+    "model": "Hydrogen chloride, HCl(g)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7135,7 +7135,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Reagent: Chlorine / Dichlorine / Cl₂ (3 marks)\nConditions: Ultraviolet (UV) light (3 marks). 'Sunlight' not acceptable.",
+    "model": "Reagent: Chlorine (Cl₂)\nConditions: Ultraviolet (UV) light",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7212,7 +7212,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "(i) Define: Change in concentration per unit time / Change in concentration/time (5 marks)\n(ii) Particle size: Mass of small particles (powder), equal mass of larger particles (granules, lumps) (3 marks); Added to equal volumes of HCl of same concentration (3 marks); Note times to complete reactions / Observe vigour of reactions / Smaller particles faster (3 marks)\nConcentration: Equal masses of equal-sized particles of CaCO₃ (3 marks); Added to equal volumes of HCl of different concentrations (3 marks); Note times to complete reactions / Observe vigour of reactions / Higher concentration faster (3 marks)",
+    "model": "(i) Define: Change in concentration per unit time\n(ii) Particle size: Mass of small particles (powder), equal mass of larger particles (granules)\nAdded to equal volumes of HCl of same concentration\nNote times to complete reactions. Smaller particles react faster.\nConcentration: Equal masses of equal-sized particles of CaCO₃\nAdded to equal volumes of HCl of different concentrations\nNote times to complete reactions. Higher concentration reacts faster.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7263,7 +7263,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "(i) Catalyst: Substance that alters (speeds up) rate of reaction (3 marks); Not consumed (not used up) / Chemically unchanged at the end (3 marks)\n(ii) Reactants (3 marks), Products (3 marks). Examples: CO → CO₂; Hydrocarbons → CO₂ + H₂O; CO + NO → CO₂ + N₂; NOx → N₂ + O₂. Environmental benefit must be specific: CO toxic (6 marks) / Prevents smog / Reduces greenhouse effect (6 marks) / NOx causes acid rain (6 marks).\nName: Platinum / Palladium / Rhodium (3 marks)\nType: Heterogeneous / Adsorption (6 marks)",
+    "model": "(i) Catalyst: Substance that alters (speeds up) rate of reaction\nNot used up (chemically unchanged at the end)\n(ii) Reactants, Products. Examples: CO → CO₂; Hydrocarbons → CO₂ + H₂O; CO + NO → CO₂ + N₂; NOx → N₂ + O₂. Environmental benefit: CO is toxic.\nName: Platinum\nType: Heterogeneous",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7297,7 +7297,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 9,
-    "model": "Element: platinum (Pt). Palladium (Pd) or rhodium (Rh) are also accepted.\nType of catalysis: heterogeneous catalysis, where the gases are adsorbed onto the solid metal surface.",
+    "model": "Element: platinum (Pt).\nType of catalysis: heterogeneous catalysis, where the gases are adsorbed onto the solid metal surface.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -7593,7 +7593,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 7,
-    "model": "(i) Heat when 1 mole (4 marks) is burned completely / burned in excess oxygen (3 marks)\n(ii) ΔH = –2222 kJ mol⁻¹ (12 marks). Using formation equations: C₃H₈ → 3C + 4H₂ (ΔH = 104); 3C + 3O₂ → 3CO₂ (ΔH = 3 × –394 = –1182); 4H₂ + 2O₂ → 4H₂O (ΔH = 4 × –286 = –1144); Overall: ΔH = 104 – 1182 – 1144 = –2222 kJ mol⁻¹. Or using ΣΔHf(products) – ΣΔHf(reactants) = ΔH\n(iii) 10 g (6 marks). (1/2222) × 500 = 0.225 mol × 44 = 10 g",
+    "model": "(i) Heat released when 1 mole is burned completely in excess oxygen\n(ii) ΔH = –2222 kJ mol⁻¹. Using formation equations: C₃H₈ → 3C + 4H₂ (ΔH = 104); 3C + 3O₂ → 3CO₂ (ΔH = 3 × –394 = –1182); 4H₂ + 2O₂ → 4H₂O (ΔH = 4 × –286 = –1144); Overall: ΔH = 104 – 1182 – 1144 = –2222 kJ mol⁻¹. Or using ΣΔHf(products) – ΣΔHf(reactants) = ΔH\n(iii) 10 g. (1/2222) × 500 = 0.225 mol × 44 = 10 g",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -7682,7 +7682,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)1",
     "marks": 4,
-    "model": "A flame test. Dip a clean nichrome wire into each salt, place it in a clean, non-luminous Bunsen flame and observe the colour. Atomic absorption spectrometry (AAS) would also work.",
+    "model": "A flame test. Dip a clean nichrome wire into each salt, place it in a clean, non-luminous Bunsen flame and observe the colour.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -7748,7 +7748,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 7,
-    "model": "(i) State: Reactions at equilibrium (3 marks) oppose / minimise / relieve applied stresses (4 marks)\n(ii) Kc = [HI]²/([H₂][I₂]) (6 marks)\n(iii) 1.56 mol (12 marks). Using equilibrium calculation with initial condition of 2 mol HI and 0 mol H₂ and I₂. Setting up: H₂ + I₂ ⇌ 2HI; (2–x)/2, (2–x)/2, x. Using x²/((2–x)/2)² = 50. Solving: x/((2–x)/2) = 7.07/7.1; x = 1.56 mol HI",
+    "model": "(i) Reactions at equilibrium oppose applied stresses\n(ii) Kc = [HI]²/([H₂][I₂])\n(iii) 1.56 mol. Using equilibrium calculation with initial condition of 2 mol HI and 0 mol H₂ and I₂. Setting up: H₂ + I₂ ⇌ 2HI; (2–x)/2, (2–x)/2, x. Using x²/((2–x)/2)² = 50. Solving: x/((2–x)/2) = 7.07/7.1; x = 1.56 mol HI",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8117,7 +8117,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "A = Beaker (3)\nB = Funnel (3)\nC = Wash bottle (3)\nD = Volumetric flask (3)",
+    "model": "A = Beaker\nB = Funnel\nC = Wash bottle\nD = Volumetric flask",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8133,7 +8133,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Accuracy of the concentration of the resultant solution (6)\nWashing with deionised (distilled) water / brushing with a camel hair brush (3)",
+    "model": "Accuracy of the concentration of the resultant solution\nWashing with deionised water",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8165,7 +8165,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "To mix / to make the solution homogeneous [Accept 'help dissolve completely' for 3 marks]",
+    "model": "To make the solution homogeneous",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8181,7 +8181,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 12,
-    "model": "Mr of Na2CO3 = 106 (3)\nNumber of moles = 2.65/106 = 0.025 mol (3)\nConcentration = 0.025 mol / 0.5 L = 0.05 M (6)",
+    "model": "Mr of Na2CO3 = 106\nNumber of moles = 2.65/106 = 0.025 mol\nConcentration = 0.025 mol / 0.5 L = 0.05 M",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8261,7 +8261,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "Add a solution of barium chloride / BaCl2 / barium ions / barium solution / Ba²⁺ (6)\nA white precipitate results (6) [Allow 3 marks for barium or Ba]",
+    "model": "Add a solution of barium chloride (BaCl₂)\nA white precipitate results",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8324,7 +8324,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "If a system at equilibrium is disturbed (3) the position of the equilibrium shifts so as to minimise the disturbance (3)",
+    "model": "If a system at equilibrium is disturbed, the position of the equilibrium shifts so as to minimise the disturbance.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8339,7 +8339,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Tetrahedral [Accept correct sketch]",
+    "model": "Tetrahedral",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8399,7 +8399,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "Mass of an atom of an element relative to (3) 1/12 of the mass of the carbon-12 isotope (3)",
+    "model": "Mass of an atom of an element relative to 1/12 of the mass of the carbon-12 isotope.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8507,7 +8507,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 8,
-    "model": "In order of / increasing / according to (4) atomic mass (weight) (4)",
+    "model": "In order of increasing atomic mass.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8522,7 +8522,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 12,
-    "model": "Modern periodic table has elements in order of increasing atomic number;\nMendeleev left gaps for undiscovered elements;\nMendeleev reversed the sequence of some pairs of elements;\nModern table has noble gases;\nModern table has separate block for d elements [Accept other valid differences]",
+    "model": "Modern periodic table has elements in order of increasing atomic number;\nMendeleev left gaps for undiscovered elements;\nMendeleev reversed the sequence of some pairs of elements;\nModern table has noble gases;\nModern table has separate block for d elements",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8630,7 +8630,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "Naphtha [Accept kerosene]",
+    "model": "Naphtha",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8687,7 +8687,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "Catalytic reforming (converting straight-chain hydrocarbons into branched and aromatic hydrocarbons). Isomerisation, cracking and dehydrocyclisation are also accepted.",
+    "model": "Catalytic reforming (converting straight-chain hydrocarbons into branched and aromatic hydrocarbons).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -8706,7 +8706,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "Kerosene [Accept naphtha]",
+    "model": "Kerosene",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8744,7 +8744,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Gas oil (6)\nKills birds / sea life / damages beaches / etc. (3)",
+    "model": "Gas oil\nKills birds",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8909,7 +8909,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "X = elimination (6)\nY = addition (6)",
+    "model": "X = elimination\nY = addition",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -8929,7 +8929,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 18,
-    "model": "A = ethanol / ethyl alcohol [accept alcohol for 3 marks] (6)\nB = ethene / ethylene (6)\nC = 1,2-dibromo ethane (3+3)",
+    "model": "A = ethanol\nB = ethene\nC = 1,2-dibromoethane",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9002,7 +9002,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 25,
-    "model": "1 = Arrhenius (7)\n2 = hydrogen ions (6)\n3 = neutralisation (6)\n4 = salt (6)",
+    "model": "1 = Arrhenius\n2 = hydrogen ions\n3 = neutralisation\n4 = salt",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9018,7 +9018,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 25,
-    "model": "5 = flocculation (7)\n6 = chlorination (6)\n7 = fluoridation (6)\n8 = filtration (6)",
+    "model": "5 = flocculation\n6 = chlorination\n7 = fluoridation\n8 = filtration",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9096,7 +9096,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 12,
-    "model": "A / pipette (3)\nWash with deionised water (3)\nWash with solution it is to measure (contain) - base (sodium hydroxide) (NaOH) (3)\nBottom of meniscus level with mark / read at eye level / use pipette filler / draw solution into pipette above mark (3)",
+    "model": "A: pipette\nWash with deionised water\nWash with the solution it is to measure - base (sodium hydroxide) (NaOH)\nBottom of meniscus level with the mark",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9171,7 +9171,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 6,
-    "model": "Molar mass of MgO = 40 g/mol\nMass = 0.1 mol × 40 = 4.0 g [Allow 3 marks for correctly identified formula mass of 40]",
+    "model": "Molar mass of MgO = 40 g/mol\nMass = 0.1 mol × 40 = 4.0 g",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9224,7 +9224,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "To bring reactions to completion / to speed up reaction / maximise yield / keep reactants hot [Allow 3 marks for 'prevents escape of solvent (reactants/products)']",
+    "model": "To bring the reaction to completion",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9264,7 +9264,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 9,
-    "model": "Anti-bumping granules / pumice stones / boiling chips / pieces of porcelain (6)\nPrevent bumping (3)",
+    "model": "Anti-bumping granules\nPrevent bumping",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9301,7 +9301,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 12,
-    "model": "B (6)\nThe acid (HCl) is more concentrated / because rate depends on concentration (6) [Accept 'more acid' for 3 marks]",
+    "model": "B\nThe acid (HCl) is more concentrated, because rate depends on concentration.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9318,7 +9318,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "When carbon dioxide is passed through limewater (3) it turns milky (3)",
+    "model": "When carbon dioxide is passed through limewater it turns milky.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -9794,7 +9794,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 3,
-    "model": "Crystals could be dried by pressing between filter paper to remove surface moisture, then air-drying on a watch glass or filter paper at room temperature, or by gentle heating in a warm oven at low temperature (50–60 °C).",
+    "model": "Crystals could be dried by pressing between filter paper to remove surface moisture, then air-drying on a watch glass at room temperature.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -10733,7 +10733,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "No. Le Chatelier's principle predicts that a low temperature gives the highest yield, but industry uses a high (compromise) temperature of about 400 to 450 °C.\nAt low temperatures the rate of reaction is too slow, so the process would not be economical. The activation energy is too high for enough collisions to react at a useful rate.",
+    "model": "No. Le Chatelier's principle predicts that a low temperature gives the highest yield, but industry uses a high (compromise) temperature of about 450 °C.\nAt low temperatures the rate of reaction is too slow, so the process would not be economical. The activation energy is too high for enough collisions to react at a useful rate.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -11329,7 +11329,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "When heating stops, the hot gases in the apparatus cool and contract, reducing pressure inside. This pressure drop causes atmospheric pressure to force water from the delivery tube back into the hot boiling tube. To avoid suck back, remove the delivery tube from the water (or collection vessel) before stopping heat, or allow the apparatus to cool slightly while still heating gently, so pressure inside remains higher than atmospheric.",
+    "model": "When heating stops, the hot gases in the apparatus cool and contract, reducing pressure inside. This pressure drop causes atmospheric pressure to force water from the delivery tube back into the hot boiling tube. To avoid suck back, remove the delivery tube from the water before stopping heat.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -11454,7 +11454,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 9,
-    "model": "A suitable indicator is methyl orange. At the end point, the colour changes from yellow (in the neutral/basic sodium carbonate solution) to orange-red/red (in the acidic solution after complete reaction). Alternative acceptable indicators include bromophenol blue or methyl red, with appropriate colour changes for each.",
+    "model": "A suitable indicator is methyl orange. At the end point, the colour changes from yellow (in the basic sodium carbonate solution) to orange-red (in the acidic solution after complete reaction).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -12200,7 +12200,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "The reaction is complete when the curve becomes horizontal (no more O₂ is produced), at about 7 minutes (6.5 to 7.0 minutes), when the volume reaches 20.0 cm³ and stays constant.",
+    "model": "The reaction is complete when the curve becomes horizontal (no more O₂ is produced), at about 7 minutes, when the volume reaches 20.0 cm³ and stays constant.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -12601,7 +12601,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 9,
-    "model": "Working: % S = (32 ÷ 98) × 100\n\nAnswer: 32.65% (32.6% or 32.7% accepted).",
+    "model": "Working: % S = (32 ÷ 98) × 100\n\nAnswer: 32.65%",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -13114,7 +13114,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "Test: Mix equal amounts of Fehling's 1 (Fehling's A / copper sulfate/CuSO₄ solution) and Fehling's 2 (Fehling's B, alkaline/sodium hydroxide/NaOH solution with Rochelle salt/potassium sodium tartrate/potassium sodium 2,3-dihydroxybutanedioate). Add ethanal and warm / heat / put test tube in hot (boiling) water. Observation: brick-red (accept orange/brown) precipitate produced",
+    "model": "Test: Mix equal amounts of Fehling's 1 (copper sulfate, CuSO₄, solution) and Fehling's 2 (alkaline sodium hydroxide, NaOH, solution with Rochelle salt). Add ethanal and warm in hot (boiling) water. Observation: brick-red precipitate produced",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -13134,7 +13134,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "2.97 g (accept 2.948–3.000 g). 8.94 g sodium dichromate ÷ 298 = 0.03 mol; 0.03 mol dichromate ≡ 0.09 mol ethanal; 0.09 mol ethanal × 44 = 3.96 g ethanal; 75% yield = 3.96 × 75/100 = 2.97 g",
+    "model": "2.97 g. 8.94 g sodium dichromate ÷ 298 = 0.03 mol; 0.03 mol dichromate ≡ 0.09 mol ethanal; 0.09 mol ethanal × 44 = 3.96 g ethanal; 75% yield = 3.96 × 75/100 = 2.97 g",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -13764,7 +13764,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "Chloroethane / ethyl chloride (accept with number e.g. 1-chloroethane)",
+    "model": "Chloroethane",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -14656,7 +14656,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "Brick red / Accept brown",
+    "model": "Brick red",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16255,7 +16255,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "anhydrous sodium carbonate (Na2CO3) [Allow sodium carbonate]",
+    "model": "anhydrous sodium carbonate (Na2CO3)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16287,7 +16287,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "rinse with deionised (distilled) water // rinse with reagent (solution)",
+    "model": "Rinse with deionised (distilled) water",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16334,7 +16334,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 3,
-    "model": "Mr of Na₂CO₃ = 106\nmass concentration = molarity × Mr = 0.0573 × 106\n= 6.075 g l⁻¹ (accepted range 6.042 to 6.075 g l⁻¹)",
+    "model": "Mr of Na₂CO₃ = 106\nmass concentration = molarity × Mr = 0.0573 × 106\n= 6.075 g l⁻¹",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -16349,7 +16349,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "Mr of Na₂CO₃ = 106, Mr of H₂O = 18\nMass of hydrated crystals per litre = 8.20 × 2 = 16.4 g l⁻¹ (8.20 g in 500 cm³)\nMass of water per litre = 16.4 − 6.075 = 10.325 g l⁻¹\n\n(i) Percentage water = (10.325/16.4) × 100 = 62.9% (accepted 62.9 to 63.2%)\n\n(ii) Moles Na₂CO₃ = 6.075/106 = 0.0573\nMoles H₂O = 10.325/18 = 0.573\nRatio Na₂CO₃ : H₂O = 0.0573 : 0.573 = 1 : 10\nSo x = 10 (Na₂CO₃.10H₂O)",
+    "model": "Mr of Na₂CO₃ = 106, Mr of H₂O = 18\nMass of hydrated crystals per litre = 8.20 × 2 = 16.4 g l⁻¹ (8.20 g in 500 cm³)\nMass of water per litre = 16.4 − 6.075 = 10.325 g l⁻¹\n\n(i) Percentage water = (10.325/16.4) × 100 = 62.9%\n\n(ii) Moles Na₂CO₃ = 6.075/106 = 0.0573\nMoles H₂O = 10.325/18 = 0.573\nRatio Na₂CO₃ : H₂O = 0.0573 : 0.573 = 1 : 10\nSo x = 10 (Na₂CO₃.10H₂O)",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -16382,7 +16382,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "Why: to speed up the reaction / reaction is slow / to drive reaction to completion / to maximise (increase) yield. Type: base hydrolysis / saponification [Accept substitution]",
+    "model": "Why: to speed up the reaction. Type: base hydrolysis (saponification)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16403,7 +16403,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "3 C17H35COONa + CH2(OH)CH(OH)CH2OH [Accept full structures, molecular formulas: C18H35O2Na and C3H8O3]",
+    "model": "3 C17H35COONa + CH2(OH)CH(OH)CH2OH",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16444,7 +16444,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "dissolve residue in minimum of boiling (hot) water // pour onto brine (salt water) // filter // wash with more brine / wash with a little ice-water",
+    "model": "Dissolve residue in minimum of boiling (hot) water\nPour onto brine (salt water)\nFilter\nWash with more brine",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16806,7 +16806,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "identified periodicity of properties / arranged in increasing relative atomic mass // in his law of octaves / repeat every eighth (after seven) elements",
+    "model": "Identified periodicity of properties\nIn his law of octaves, properties repeat every eighth (after seven) elements",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16821,7 +16821,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "brick-red // precipitate (ppt) produced",
+    "model": "Brick-red\nPrecipitate (ppt) produced",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16857,7 +16857,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "in solution (in water) // in the molten state (in the liquid state)",
+    "model": "In solution (in water)\nIn the molten state",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16938,7 +16938,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 8,
-    "model": "place sample of the salt on a nickel probe {platinum (nichrome, steel) wire} // in (over) a Bunsen flame",
+    "model": "Place sample of the salt on a nickel probe\nIn (over) a Bunsen flame",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16953,7 +16953,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "each element has a different distribution (set, arrangement) of energy levels / each element has a different electron configuration // giving rise to different electron transitions (jumps)",
+    "model": "each element has a different electron configuration, giving rise to different electron transitions (jumps)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -16998,7 +16998,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(v)",
     "marks": 6,
-    "model": "it is not possible to measure the exact position // and energy (momentum, velocity) of an electron in an atom simultaneously",
+    "model": "it is not possible to measure the exact position and energy of an electron in an atom simultaneously",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17029,7 +17029,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "decrease in atomic radius / atoms getting smaller // increase in effective nuclear charge",
+    "model": "decrease in atomic radius\nincrease in effective nuclear charge",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17044,7 +17044,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 9,
-    "model": "reactivity increases // increase in atomic radius / increase in shells / atoms getting bigger // effective nuclear charge is the same / screening (shielding) effect of inner shells cancels the increase in nuclear charge // outermost electron less tightly held by the nucleus",
+    "model": "Reactivity increases\nIncrease in atomic radius\nEffective nuclear charge is the same, as the screening (shielding) effect of inner shells cancels the increase in nuclear charge\nOutermost electron less tightly held by the nucleus",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17220,7 +17220,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "Reason 1: increased energy of collisions (particles, molecules, reactants) // Reason 2: increased number of collisions due to increased velocity (energy) of particles. More significant: first reason. Why: for same temperature rise increase in number of collisions very small compared with increase in number reaching activation energy / increase in effective collisions",
+    "model": "Reason 1: increased energy of collisions of particles\nReason 2: increased number of collisions due to increased velocity of particles\nMore significant: first reason. Why: for the same temperature rise, the increase in number of collisions is very small compared with the increase in number reaching activation energy",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17237,7 +17237,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "heat known volumes of the solutions separately to a certain temperature // mix, note temperature, and place reaction vessel over cross (X, mark), keeping at temperature // record time for cross to become invisible and take rate as 1/time // repeat for other temperature(s)",
+    "model": "Heat known volumes of the solutions separately to a certain temperature\nMix, note temperature, and place reaction vessel over a cross (X), keeping at temperature\nRecord time for cross to become invisible and take rate as 1/time\nRepeat for other temperature(s)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17254,7 +17254,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "AgNO3 and NaCl present as free ions in solution / no bond breaking (dissociation) // For Na2S2O3 and HCl covalent bonds must be broken (dissociated)",
+    "model": "AgNO3 and NaCl are present as free ions in solution\nFor Na2S2O3 and HCl, covalent bonds must be broken",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17271,7 +17271,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 15,
-    "model": "Type: heterogeneous catalysis. Entering and products: carbon monoxide (CO) → carbon dioxide (CO2) // hydrocarbon (correct formula) → carbon dioxide (CO2) and water (H2O) // oxide of nitrogen (correct formula) → nitrogen (N2) and oxygen (O2)",
+    "model": "Type: heterogeneous catalysis.\nEntering and products: carbon monoxide (CO) → carbon dioxide (CO2)\nHydrocarbon → carbon dioxide (CO2) and water (H2O)\nOxide of nitrogen → nitrogen (N2) and oxygen (O2)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17306,7 +17306,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 5,
-    "model": "water which does not easily form lather (forms scum instead of lather) with soap // water containing calcium or magnesium ions or their salts",
+    "model": "water containing calcium or magnesium ions or their salts, which does not easily form lather with soap",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17344,7 +17344,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 9,
-    "model": "the coming (joining) together (clumping, coagulating) // of small (fine) suspended particles (solids) in the water. Agent: aluminium sulfate / aluminium chloride / aluminium(III) / alum / iron(III) sulfate (ferric sulfate) / iron(III) chloride / iron(III) / polyelectrolytes / lime",
+    "model": "the coming together (clumping) of small suspended particles in the water. Agent: aluminium sulfate",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17382,7 +17382,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 9,
-    "model": "the indicator itself dissociates according to the equation HX ⇌ H⁺ + X⁻ // in acid (low pH) equilibrium lies on the left (shifts backward) giving colour of molecules (HX) // in base (alkali / high pH) equilibrium lies on the right (shifts forward) giving colour of ions (X⁻)",
+    "model": "the indicator itself dissociates according to the equation HX ⇌ H⁺ + X⁻\nin acid (low pH) equilibrium lies on the left (shifts backward), giving colour of molecules (HX)\nin base (high pH) equilibrium lies on the right (shifts forward), giving colour of ions (X⁻)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17398,7 +17398,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 9,
-    "model": "graph with pH axis labelled at 7 and number over 7 // neutralisation point at about 25 cm³ // steep rise at about pH = 6.5 to 10.5",
+    "model": "Graph with the pH axis labelled, rising through 7 to above 7.\nNeutralisation (equivalence) point at about 25 cm³.\nSteep, almost vertical rise from about pH 6.5 to pH 10.5 at the equivalence point.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17635,7 +17635,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "average mass of atom(s) of element / average of isotopes taking abundances into account // relative to (based on) 1/12 mass of carbon-12 atom",
+    "model": "average mass of atom(s) of element, taking abundances of isotopes into account\nrelative to 1/12 mass of carbon-12 atom",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17666,7 +17666,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 6,
-    "model": "6.926 [Accept 6.93]. (7.4 × 6 + 92.6 × 7 = 692.6 ÷ 100 = 6.926)",
+    "model": "6.926. (7.4 × 6 + 92.6 × 7 = 692.6 ÷ 100 = 6.926)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17682,7 +17682,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "+1 [Accept 1]",
+    "model": "+1",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17698,7 +17698,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "+5 [Accept 5]",
+    "model": "+5",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17746,7 +17746,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 7,
-    "model": "alcohols have higher (bigger) relative molecular mass // and polar hydroxyl group (polar OH) / intermolecular hydrogen bonds",
+    "model": "alcohols have higher relative molecular mass\nand polar hydroxyl group (polar OH) forming intermolecular hydrogen bonds",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17780,7 +17780,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 12,
-    "model": "methane: virtually insoluble // methanol: completely soluble (miscible) / miscible in all proportions // butane: virtually insoluble // butanol: slightly (sparingly) soluble / less soluble than methanol",
+    "model": "methane: virtually insoluble\nmethanol: completely soluble (miscible)\nbutane: virtually insoluble\nbutanol: slightly soluble",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -17898,7 +17898,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 7,
-    "model": "reactions at equilibrium // oppose (minimise, relieve) applied stress(es)",
+    "model": "reactions at equilibrium\noppose applied stress",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -19376,7 +19376,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 12,
-    "model": "Two metals: platinum and rhodium (palladium is also accepted).\nAdvantage: the converter reduces harmful emissions. For example, it changes carbon monoxide to carbon dioxide and nitrogen oxides to nitrogen gas, so less pollution is released.",
+    "model": "Two metals: platinum and rhodium.\nAdvantage: the converter reduces harmful emissions. For example, it changes carbon monoxide to carbon dioxide and nitrogen oxides to nitrogen gas, so less pollution is released.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -19930,7 +19930,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 4,
-    "model": "Do not allow the solutions to come into contact with the skin (or eyes).",
+    "model": "Do not allow the solutions to come into contact with the skin or eyes.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -20252,7 +20252,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(k)(A)",
     "marks": 6,
-    "model": "Hydrofluorocarbons (HFCs), for example HFC-134a. Hydrochlorofluorocarbons (HCFCs) and perfluorocarbons (PFCs) are also acceptable.",
+    "model": "Hydrofluorocarbons (HFCs), for example HFC-134a.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -20765,7 +20765,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Reagent: Hydrogen / hydrogenation. Catalyst: Nickel (Ni) / palladium (Pd) / platinum (Pt). Accept lithium aluminium hydride or sodium borohydride",
+    "model": "Reagent: hydrogen. Catalyst: nickel (Ni)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -20939,7 +20939,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "Sketch a new curve on the same axes, starting at (0, 0), that:\n- rises more steeply at the start, because smaller marble chips have a larger surface area and so react faster;\n- levels off sooner, at about 4 to 5 minutes rather than 7 to 8 minutes;\n- reaches the same final mass of CO₂, 2.20 g, because the same mass of marble chips and an excess of acid are used.",
+    "model": "Sketch a new curve on the same axes, starting at (0, 0), that:\n- rises more steeply at the start, because smaller marble chips have a larger surface area and so react faster;\n- levels off sooner, at about 4.5 minutes rather than about 7.5 minutes;\n- reaches the same final mass of CO₂, 2.20 g, because the same mass of marble chips and an excess of acid are used.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -21183,7 +21183,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 7,
-    "model": "Positively charged sphere (ball) with electrons embedded (scattered, dotted, placed at random) in it. Accept 'plum pudding' model.",
+    "model": "Positively charged sphere with electrons embedded in it.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21540,7 +21540,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "Ethanol: As solvent / to dissolve (6 marks)\nBoiling chips / pumice stones / glass beads / anti-bumping agent (6 marks)",
+    "model": "Ethanol: As solvent\nBoiling chips",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21706,7 +21706,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 9,
-    "model": "Rinse with deionised water // rinse with solution it is to measure // fill above line // release liquid until meniscus rests on line",
+    "model": "Rinse with deionised water\nRinse with solution it is to measure\nFill above line\nRelease liquid until meniscus rests on line",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21738,7 +21738,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 3,
-    "model": "Allow drain (empty under gravity) / don't blow out last drop / touch tip against side of flask",
+    "model": "Let the liquid drain (empty under gravity)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21860,7 +21860,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "Allow temperature equalisation in advance (average initial temperatures) / use accurate thermometer (short range / 0.1 deg calibrated) / mix (stir) / measure quickly / plot temperatures / record highest temperature reached (any two: 6 + 3 marks)",
+    "model": "Equalise the temperatures in advance and use the average of the initial temperatures\nUse an accurate thermometer (calibrated to 0.1 °C)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21983,7 +21983,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "8 g\n11.2 / 22.4 (3) × 16 (3) = 8",
+    "model": "8 g\n11.2 / 22.4 × 16 = 8",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -21999,7 +21999,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Steam reforming / of methane // Electrolysis / of water",
+    "model": "Steam reforming of methane\nElectrolysis of water",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22072,7 +22072,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "56 ppm\n0.028 / 500 × 1000 (3) × 1000 (3) = 56",
+    "model": "56 ppm\n0.028 / 500 × 1000 × 1000 = 56",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22088,7 +22088,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "Add barium chloride solution // white precipitate",
+    "model": "Add barium chloride solution\nWhite precipitate",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22220,7 +22220,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "2, 8, 8, 1 (allow 3 marks for 2, 8 for inner shells)",
+    "model": "2, 8, 8, 1",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22485,7 +22485,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "2 chlorine atoms each with 7 valence electrons (3 marks)\nformation of 1 shared pair (3 marks)",
+    "model": "2 chlorine atoms each with 7 valence electrons\nformation of 1 shared pair",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22501,7 +22501,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "1 hydrogen atom with 1 electron & 1 chlorine atom with 7 valence electrons (3 marks)\nformation of 1 shared pair (3 marks)",
+    "model": "1 hydrogen atom with 1 electron & 1 chlorine atom with 7 valence electrons\nformation of 1 shared pair",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22517,7 +22517,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "1 sodium atom with 1 valence electron & 1 chlorine atom with 7 valence electrons (3 marks)\nformation of Na⁺ and Cl⁻ ions (3 marks)",
+    "model": "1 sodium atom with 1 valence electron & 1 chlorine atom with 7 valence electrons\nformation of Na⁺ and Cl⁻ ions",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22533,7 +22533,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Polar bond: Involving unequal sharing of electrons (3 marks)\nExplain: Electronegativity difference of elements high / chlorine has a greater hold on the shared electron (6 marks)",
+    "model": "Polar bond: Involving unequal sharing of electrons\nExplain: Electronegativity difference of elements high; chlorine has a greater hold on the shared electron",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22549,7 +22549,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "Sodium chloride (6 marks)\nReason: Ionic substance and polar solvent (3 marks)",
+    "model": "Sodium chloride\nReason: Ionic substance and polar solvent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22614,7 +22614,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "A: Ethyne (3 marks)\nB: Ethene (3 marks)\nC: Chloroethane (3 marks)",
+    "model": "A: Ethyne\nB: Ethene\nC: Chloroethane",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22674,7 +22674,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "Reagent: HCl / hydrogen chloride (6 marks)\nReaction type: Addition (6 marks)",
+    "model": "Reagent: HCl\nReaction type: Addition",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22707,7 +22707,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "MnO₂ // manganese dioxide",
+    "model": "MnO₂",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22757,7 +22757,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 18,
-    "model": "Labelled axes (6 marks)\nAll points plotted correctly (6 marks)\nCurve drawn (6 marks)",
+    "model": "Labelled axes\nAll points plotted correctly\nCurve drawn",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22874,7 +22874,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 9,
-    "model": "12\npOH = – log₁₀[0.01] / = 2 (3 marks)\npH = 14 – 2 (3 marks)\npH = 12 (3 marks)\nOR Kw = [H⁺][OH⁻] / 1 × 10⁻¹⁴ = [H⁺][OH⁻]\n[H⁺] = 1 × 10⁻¹² (3 marks)\npH = – log₁₀[1 × 10⁻¹²] / = 12 (3 marks)",
+    "model": "12\npOH = – log₁₀[0.01] = 2\npH = 14 – 2\npH = 12",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22942,7 +22942,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 7,
-    "model": "Flocculation: coming together (clumping) of tiny suspended particles (4 marks)\nSubstance: aluminium sulphate [Al₂(SO₄)₃] / polyelectrolytes (3 marks)",
+    "model": "Flocculation: coming together (clumping) of tiny suspended particles\nSubstance: aluminium sulphate [Al₂(SO₄)₃]",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -22999,7 +22999,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 6,
-    "model": "How: Addition of fluoride ion (F⁻) / sodium fluoride (NaF) / sodium hexafluorosilicate (Na₂SiF₆) / antimony hexafluoride (SbF₆) (3 marks)\nPurpose: Preventing tooth decay (3 marks)",
+    "model": "How: Addition of fluoride ion (F⁻) as sodium fluoride (NaF)\nPurpose: Preventing tooth decay",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -23036,7 +23036,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 25,
-    "model": "1: The Greeks (5 marks)\n2: Dalton (5 marks)\n3: Davy (5 marks)\n4: Mendeleev (5 marks)\n5: Bohr (5 marks)",
+    "model": "1: The Greeks\n2: Dalton\n3: Davy\n4: Mendeleev\n5: Bohr",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -23394,7 +23394,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 15,
-    "model": "Diagram (paper chromatography):\n\n          ┌── support (rod/clip)\n   ───────┴───────────── lid / cover\n      │ chromatography paper │\n      │  ·  ·  ·   ← separated spots\n      │ ──────────  ← solvent front (pencil mark)\n      │  ●  ●  ●   ← original spots on pencil baseline\n      │ ──────────  ← pencil baseline\n   ┌──┴────────────┐\n   │ ≈≈≈ solvent ≈≈≈│  ← solvent level BELOW baseline\n   └────────────────┘\n        beaker / tank\n\nLabels: beaker/tank with lid, solvent, solvent level (below the baseline), chromatography paper, pencil baseline with original spots (indicators and mixture), separated spots, solvent front, support.\n\nMethod:\n1. Draw a pencil baseline about 2 cm from the bottom of the paper (pencil, because ink would dissolve and run with the solvent).\n2. Using a capillary tube, place a small spot of each known indicator and of the mixture on the baseline, well spaced. Allow to dry.\n3. Pour solvent (e.g. ethanol/water) into the beaker to a depth of about 1 cm, below the baseline.\n4. Hang the paper vertically so only its lower edge dips into the solvent. Cover the container so the air stays saturated with solvent vapour.\n5. The solvent rises by capillary action and carries the components up at different rates.\n6. When the solvent front is near the top, remove the paper, mark the solvent front in pencil and allow to dry.\n7. The mixture has separated into coloured spots. Identify the components by matching the colour/height of spots with the known indicators, or by Rf = distance moved by spot ÷ distance moved by solvent front.",
+    "model": "Diagram (paper chromatography):\n\n          ┌── support (clip)\n   ───────┴───────────── lid\n      │ chromatography paper │\n      │  ·  ·  ·   ← separated spots\n      │ ──────────  ← solvent front (pencil mark)\n      │  ●  ●  ●   ← original spots on pencil baseline\n      │ ──────────  ← pencil baseline\n   ┌──┴────────────┐\n   │ ≈≈≈ solvent ≈≈≈│  ← solvent level BELOW baseline\n   └────────────────┘\n        beaker\n\nLabels: beaker with lid, solvent, solvent level (below the baseline), chromatography paper, pencil baseline with original spots (indicators and mixture), separated spots, solvent front, support.\n\nMethod:\n1. Draw a pencil baseline about 2 cm from the bottom of the paper (pencil, because ink would dissolve and run with the solvent).\n2. Using a capillary tube, place a small spot of each known indicator and of the mixture on the baseline, well spaced. Allow to dry.\n3. Pour solvent (e.g. ethanol) into the beaker to a depth of about 1 cm, below the baseline.\n4. Hang the paper vertically so only its lower edge dips into the solvent. Cover the container so the air stays saturated with solvent vapour.\n5. The solvent rises by capillary action and carries the components up at different rates.\n6. When the solvent front is near the top, remove the paper, mark the solvent front in pencil and allow to dry.\n7. The mixture has separated into coloured spots. Identify the components by matching the colour and height of the spots with the known indicators, and calculate Rf = distance moved by spot ÷ distance moved by solvent front.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -23470,7 +23470,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 9,
-    "model": "**Appearance:** The distillate appears as two distinct immiscible layers: a lower aqueous layer (water) and an upper organic layer (volatile oil), which may range in colour from colourless to yellow/brown depending on the substance. The layers do not mix. **Separation technique:** Use a separatory funnel (separating funnel) to separate the organic layer from the aqueous layer by opening the stopcock and running off each layer into separate containers. Alternatively, use a pipette to carefully extract the organic layer, or allow standing until layers fully separate before decanting.",
+    "model": "**Appearance:** The distillate appears as two distinct immiscible layers: a lower aqueous layer (water) and an upper organic layer (volatile oil), which may range in colour from colourless to yellowish-brown depending on the substance. The layers do not mix. **Separation technique:** Use a separatory funnel to separate the organic layer from the aqueous layer by opening the stopcock and running off each layer into separate containers. Allow standing until the layers fully separate before decanting.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -23582,7 +23582,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 4,
-    "model": "Draw a tangent to the curve at t = 5 minutes (the point where the volume is 65.5 cm³), touching the curve only at that point.\nChoose two points on the tangent, well apart, and draw a right-angled triangle, e.g. (3 min, 55.5 cm³) and (7 min, 75.5 cm³).\nGradient = Δvolume/Δtime = (75.5 − 55.5)/(7 − 3) = 20/4 = 5 cm³ min⁻¹\nInstantaneous rate of gas production at 5 minutes ≈ 5 cm³ per minute (accept about 4 to 5 cm³ min⁻¹).",
+    "model": "Draw a tangent to the curve at t = 5 minutes (the point where the volume is 65.5 cm³), touching the curve only at that point.\nChoose two points on the tangent, well apart, and draw a right-angled triangle, e.g. (3 min, 55.5 cm³) and (7 min, 75.5 cm³).\nGradient = Δvolume/Δtime = (75.5 − 55.5)/(7 − 3) = 20/4 = 5 cm³ min⁻¹\nInstantaneous rate of gas production at 5 minutes ≈ 5 cm³ per minute.",
     "model_source": "sonnet-figure",
     "answerStatus": "written",
     "type": [
@@ -23690,7 +23690,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 3.125,
-    "model": "Ca(HCO₃)₂ (calcium hydrogencarbonate). Mg(HCO₃)₂ (magnesium hydrogencarbonate) is also correct.",
+    "model": "Ca(HCO₃)₂ (calcium hydrogencarbonate).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -23705,7 +23705,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 3.125,
-    "model": "CaSO₄ (calcium sulfate). MgSO₄, CaCl₂ or MgCl₂ are also correct.",
+    "model": "CaSO₄ (calcium sulfate).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -24106,7 +24106,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 18,
-    "model": "Balanced equation (3 marks):\nC₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)\n\nHeat of combustion calculation (15 marks):\nΔH°comb = Σ(ΔH°f products) − Σ(ΔH°f reactants)\n= [2(−394) + 3(−286)] − [−278 + 0]\n= [−788 − 858] − [−278]\n= −1646 + 278\n= −1368 kJ mol⁻¹\n\nThe negative sign indicates the reaction is exothermic. The heat of combustion of ethanol is 1368 kJ mol⁻¹ (or −1368 kJ mol⁻¹).",
+    "model": "Balanced equation:\nC₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)\n\nHeat of combustion calculation:\nΔH°comb = Σ(ΔH°f products) − Σ(ΔH°f reactants)\n= [2(−394) + 3(−286)] − [−278 + 0]\n= [−788 − 858] − [−278]\n= −1646 + 278\n= −1368 kJ mol⁻¹\n\nThe negative sign indicates the reaction is exothermic. The heat of combustion of ethanol is 1368 kJ mol⁻¹.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -24450,7 +24450,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "The intermediate is a carbocation: a two-carbon species with a bromine atom on one carbon and a positive charge on the other carbon.\nStructure: Br–CH₂–CH₂⁺\nThe carbon carrying the positive charge is bonded to two hydrogens and to the other carbon.\nA bromonium ion (a three-membered ring of two carbons and a Br⁺ bonded to both) is also accepted.",
+    "model": "The intermediate is a carbocation: a two-carbon species with a bromine atom on one carbon and a positive charge on the other carbon.\nStructure: Br–CH₂–CH₂⁺\nThe carbon carrying the positive charge is bonded to two hydrogens and to the other carbon.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -24887,7 +24887,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)A(iii)",
     "marks": 9,
-    "model": "Carbonic acid, H₂CO₃\nHydrogen ions, H⁺ (or H₃O⁺)\nHydrogencarbonate ions, HCO₃⁻ (carbonate ions, CO₃²⁻, are also accepted)\nCO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻",
+    "model": "Carbonic acid, H₂CO₃\nHydrogen ions, H⁺\nHydrogencarbonate ions, HCO₃⁻\nCO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -24947,7 +24947,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)B(iii)",
     "marks": 3,
-    "model": "Cryolite lowers the melting point of the alumina from about 2000 °C to about 900–1000 °C. The electrolysis can therefore run at a lower temperature, which saves energy and cost.\nIt also dissolves the alumina and improves the electrical conductivity of the melt.",
+    "model": "Cryolite lowers the melting point of the alumina from about 2000 °C to about 950 °C. The electrolysis can therefore run at a lower temperature, which saves energy and cost.\nIt also dissolves the alumina and improves the electrical conductivity of the melt.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -25299,7 +25299,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 14,
-    "model": "FLAME COLOUR | SALT\n—\nOrange-yellow | Sodium chloride (NaCl)\nLilac | Potassium nitrate (KNO3)\nGreen | Copper(II) chloride (CuCl2)\n\nThe flame colours arise from electron excitation in metal atoms. Sodium produces orange-yellow light (589 nm) as the characteristic emission of excited sodium electrons. Potassium produces lilac/violet light from a different energy transition. Copper(II) produces green light through its distinctive electron transitions. These colours are sufficiently different to allow unambiguous identification of the metal cations present in the salt.",
+    "model": "FLAME COLOUR | SALT\n—\nOrange-yellow | Sodium chloride (NaCl)\nLilac | Potassium nitrate (KNO3)\nGreen | Copper(II) chloride (CuCl2)\n\nThe flame colours arise from electron excitation in metal atoms. Sodium produces orange-yellow light (589 nm) as the characteristic emission of excited sodium electrons. Potassium produces lilac light from a different energy transition. Copper(II) produces green light through its distinctive electron transitions. These colours are sufficiently different to allow unambiguous identification of the metal cations present in the salt.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26065,7 +26065,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "Compound Y, ethanol (CH₃CH₂OH).\nEthanol is produced by the fermentation of sugars and is the alcohol present at about 40–55% (v/v) in whiskey.",
+    "model": "Compound Y, ethanol (CH₃CH₂OH).\nEthanol is produced by the fermentation of sugars and is the alcohol present at about 40% (v/v) in whiskey.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -26554,7 +26554,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "not primary standard / to find concentration / reagent (KMnO₄) impure // unstable / decomposed / affected by light (heat, acids, bases, Mn²⁺, MnO₂) / reacts with water // ammonium iron(II) sulfate / sodium ethanedioate (oxalate) / ethanedioic (oxalic) acid / excess iodide => iodine titrated with thiosulfate",
+    "model": "not primary standard (to find concentration); reagent (KMnO₄) impure\nunstable; affected by light; reacts with water\nammonium iron(II) sulfate",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26569,7 +26569,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "tablets crushed and dissolved // transferred (added, poured, etc.) with rinsings to 250 cm³ volumetric flask // bottom of meniscus on mark / brought to mark // prevents oxidation by air (atmosphere, oxygen) of iron(II) / prevents iron(II) going to iron(III) due to air",
+    "model": "tablets crushed and dissolved\ntransferred with rinsings to 250 cm³ volumetric flask\nbottom of meniscus on mark\nprevents oxidation of iron(II) by air",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26585,7 +26585,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "to ensure complete conversion (reduction) of MnO₄⁻ to Mn²⁺ // to prevent formation of manganese(IV) / to prevent formation of a brown ppt",
+    "model": "to ensure complete conversion of MnO₄⁻ to Mn²⁺\nto prevent formation of manganese(IV) (brown ppt)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26723,7 +26723,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "keep gas from flame / air-tight stopper / secure assembly / don't use first gas jar // safety screen / glasses (goggles) / protective clothing / tie hair back // before heat removed take tube from water / disconnect tube / dismantle apparatus // use tongs / gloves // avoid inhaling glass wool / wear mask (ANY THREE)",
+    "model": "keep gas from flame\nuse a safety screen\nuse tongs",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26876,7 +26876,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 11,
-    "model": "Introduce salt into (on, in) flame of bunsen burner // using platinum (nichrome) wire (probe) / using soaked (dipped) splint (lollipop stick) // sodium (Na) gives orange (yellow) flame // potassium (K) gives lilac (violet, purple) flame",
+    "model": "Introduce salt into flame of bunsen burner using platinum wire\nsodium (Na) gives orange flame\npotassium (K) gives lilac flame",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26892,7 +26892,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "KCl / potassium chloride / the chloride (Cl⁻) // white precipitate (ppt) soluble in ammonia solution",
+    "model": "potassium chloride (KCl)\nwhite precipitate soluble in ammonia solution",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26908,7 +26908,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "iron(II) sulfate / ferrous sulfate / FeSO₄ solution // KNO₃ / potassium nitrate / the nitrate ion (NO₃⁻)",
+    "model": "iron(II) sulfate (FeSO₄) solution\npotassium nitrate (KNO₃)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26924,7 +26924,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "To salt solution add ammonium molybdate [(NH₄)₆Mo₇O₂₄.4H₂O, (NH₄)₂MoO₄] solution and a few drops of concentrated nitric acid and warm gently // yellow precipitate (ppt) formed",
+    "model": "To salt solution add ammonium molybdate solution [(NH₄)₆Mo₇O₂₄.4H₂O] and a few drops of concentrated nitric acid and warm gently\nyellow precipitate formed",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -26972,7 +26972,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "add dilute acid // carbon dioxide (CO₂) evolved / gas turns limewater milky // OR add magnesium sulfate (MgSO₄) solution // no precipitate (ppt) observed",
+    "model": "add dilute acid\ncarbon dioxide (CO₂) evolved, which turns limewater milky",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27006,7 +27006,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 6,
-    "model": "Robert Millikan // electron",
+    "model": "Robert Millikan\nelectron",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27081,7 +27081,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "1.6 // –log 0.025 = 1.6",
+    "model": "–log 0.025 = 1.6",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27096,7 +27096,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "calcium carbonate / CaCO₃ [Accept 'magnesium carbonate' or 'MgCO₃']",
+    "model": "calcium carbonate (CaCO₃)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27111,7 +27111,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "O–H / OH // C=O / COOH // CH₂OH // CHOH // COH // SO₃H (ANY TWO)",
+    "model": "O–H and C=O",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27126,7 +27126,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "Only one chlorine atom needs to replace hydrogen for the simplest answer (free-radical substitution):\nC₂H₆ + Cl₂ → C₂H₅Cl + HCl\n(Further substitution is also acceptable, e.g. C₂H₆ + 2Cl₂ → C₂H₄Cl₂ + 2HCl, up to C₂H₆ + 6Cl₂ → C₂Cl₆ + 6HCl.)",
+    "model": "Free-radical substitution:\nC₂H₆ + Cl₂ → C₂H₅Cl + HCl",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -27216,7 +27216,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(k)B(iii)",
     "marks": 6,
-    "model": "Ca(OH)₂ + MgCl₂ → Mg(OH)₂ + CaCl₂\nIonic form: Ca(OH)₂ + Mg²⁺ → Mg(OH)₂ + Ca²⁺\n(MgBr₂ would also be acceptable as the magnesium halide.)",
+    "model": "Ca(OH)₂ + MgCl₂ → Mg(OH)₂ + CaCl₂\nIonic form: Ca(OH)₂ + Mg²⁺ → Mg(OH)₂ + Ca²⁺",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -27516,7 +27516,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "–10 kJ mol⁻¹ // Using ΔH(reaction) = Σ ΔHf(products) – Σ ΔHf(reactants) and solving for ΔHf(C₄H₈) = 4(–394) + 4(–286) – (–2710) = –10 kJ mol⁻¹",
+    "model": "Using ΔH(reaction) = Σ ΔHf(products) – Σ ΔHf(reactants) and solving for ΔHf(C₄H₈) = 4(–394) + 4(–286) – (–2710) = –10 kJ mol⁻¹",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27553,7 +27553,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 11,
-    "model": "Any three of the following:\n- Settlement (sedimentation): the water is left to stand so the suspended solids settle to the bottom.\n- Flocculation (coagulation): a chemical such as aluminium sulfate or iron(III) chloride is added, so the fine particles clump together into larger flocs that settle more quickly.\n- Decanting: the clear water is poured off or allowed to overflow from the top.\n- Filtration: the water is passed through beds of sand and gravel, which trap the remaining particles.",
+    "model": "- Settlement (sedimentation): the water is left to stand so the suspended solids settle to the bottom.\n- Flocculation (coagulation): a chemical such as aluminium sulfate or iron(III) chloride is added, so the fine particles clump together into larger flocs that settle more quickly.\n- Filtration: the water is passed through beds of sand and gravel, which trap the remaining particles.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -27661,7 +27661,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 12,
-    "model": "A = ethanol // B = ethanal // C = ethanoic acid // D = ethyl ethanoate",
+    "model": "A = ethanol\nB = ethanal\nC = ethanoic acid\nD = ethyl ethanoate",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -27897,7 +27897,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "Any two of: methanal (HCHO), hydrogen (H₂), water (H₂O).\n(Carbon monoxide is also accepted.)",
+    "model": "Methanal (HCHO)\nHydrogen (H₂)",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -28215,7 +28215,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 3,
-    "model": "High cost of building and maintaining the high-pressure plant (expensive equipment and energy).\n(Danger of leaks or explosions would also be accepted.)",
+    "model": "High cost of building and maintaining the high-pressure plant (expensive equipment and energy).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -28678,7 +28678,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "wash with deionised water / wash with solution to be measured / use pipette filler / fill to above mark / allow drain until bottom of meniscus rests on line / touch tip off side of beaker to remove any droplets on outside / read vertically (eye level) / drain under gravity into titration flask / do not blow out last drop",
+    "model": "wash with deionised water\nwash with solution to be measured\nuse pipette filler\nfill to above mark\nallow drain until bottom of meniscus rests on line\ntouch tip off side of beaker to remove any droplets on outside\nread vertically (eye level)\ndrain under gravity into titration flask\ndo not blow out last drop",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -28693,7 +28693,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "methyl orange: orange (yellow) to red (accept peach). Methyl red: yellow to red. phenolphthalein: pink (purple, violet, red) to colourless. thymolphthalein: blue to colourless. thymol blue: blue to yellow. cresol purple: purple (pink, violet) to yellow. neutral red: yellow-brown (yellow, brown) to red. phenol red: red to yellow. bromothymol blue: blue to yellow",
+    "model": "methyl orange: orange to red. Methyl red: yellow to red. phenolphthalein: pink to colourless. thymolphthalein: blue to colourless. thymol blue: blue to yellow. cresol purple: purple to yellow. neutral red: yellow-brown to red. phenol red: red to yellow. bromothymol blue: blue to yellow",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -28738,7 +28738,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 8,
-    "model": "repeat without indicator / repeat with volumes determined by titration / remove indicator using charcoal and filter / evaporate solution to small volume / allow pure salt to crystallise out (be produced) [ANY 2 points]",
+    "model": "Evaporate the solution to a small volume.\nAllow the pure salt to crystallise out.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -29952,7 +29952,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 4,
-    "model": "Reduction definition: gain. (i) Species: Cu2+ / copper. Electrons: 2. (ii) Changes: blue colour fades / decolourises / zinc dissolves / copper precipitated (coats the zinc) / brown (pink, reddish, copper ppt) [any 2]. (iii) List name: electrochemical series [accept activity series]",
+    "model": "Reduction definition: gain. (i) Species: Cu2+. Electrons: 2. (ii) Changes: blue colour fades; zinc dissolves. (iii) List name: electrochemical series",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30382,7 +30382,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "To bring reaction to completion / to allow time/energy for reaction to complete / to maximise yield / to heat without loss of volatile ethanol. Base hydrolysis or saponification (accept substitution). Solvent",
+    "model": "To bring the reaction to completion.\nBase hydrolysis (saponification).\nSolvent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30459,7 +30459,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "76–77%. Calculation: 8.9 ÷ 890 = 0.01 mol glyceryl tristearate × 3 = 0.03 mol soap (theoretical); 0.03 × 306 = 9.18 g soap (theoretical); 7.0 ÷ 306 = 0.023 mol soap (actual); 7.0/9.18 × 100 = 76–77%",
+    "model": "76%. Calculation: 8.9 ÷ 890 = 0.01 mol glyceryl tristearate × 3 = 0.03 mol soap (theoretical); 0.03 × 306 = 9.18 g soap (theoretical); 7.0 ÷ 306 = 0.023 mol soap (actual); 7.0/9.18 × 100 = 76%",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30556,7 +30556,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "2.30 ± 0.05 minutes [Use data from graph; allow 3 marks for reading 1/t value from graph]",
+    "model": "2.30 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30716,7 +30716,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "A gas that obeys the gas laws/Boyle's law/kinetic theory/PV = nRT at all values of temperature and pressure/all conditions/perfectly [Allow 'A gas that obeys the assumptions of the kinetic theory' for 6 marks]",
+    "model": "A gas that obeys the gas laws at all values of temperature and pressure.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30879,7 +30879,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 15,
-    "model": "The electron occupies fixed energy levels/discrete energies; an electron in an energy level does not radiate energy; electron occupies lowest energy levels available/ground state; electron can move to higher energy level if it receives energy/photon of energy; photon energy must equal energy difference between levels; electron in excited state is unstable; excited electron falls back to lower level; emitting excess energy as photon of light (hf)/definite frequency/wavelength [Accept 'quantum' for 'photon', 'shell' for 'level'; any four points]",
+    "model": "The electron occupies fixed energy levels (discrete energies).\nAn electron in an energy level does not radiate energy.\nAn electron can move to a higher energy level if it receives a photon of energy equal to the energy difference between the levels.\nThe excited electron falls back to a lower level, emitting a photon of definite frequency (hf).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -30894,7 +30894,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Didn't work for higher elements/only worked for hydrogen/doesn't work for multi-electron systems; Did not take wave-particle duality into account; Did not allow for uncertainty/probability; Did not explain higher resolution spectra/sublevels; Could not account for existence of orbitals/Zeeman effect/splitting of spectral lines (any two)",
+    "model": "It only worked for hydrogen; it does not work for multi-electron systems.\nIt did not take wave-particle duality into account.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -31350,7 +31350,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "Ethene/ethylene [Allow 3 marks for C₂H₄]",
+    "model": "Ethene",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -31395,7 +31395,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "Heterolytic fission of hydrogen chloride/HCl → Cl⁻ + H⁺; Addition of H⁺ (Hδ⁺–Clδ⁻) to double bond; Forming localised carbonium/carbocation ion/positive carbon (C⁺); Addition of Cl⁻ to carbonium ion to give chloroethane [Allow correct use of curly arrows]",
+    "model": "Heterolytic fission of hydrogen chloride (HCl) → Cl⁻ + H⁺; Addition of H⁺ (Hδ⁺–Clδ⁻) to double bond; Forming a localised carbocation (C⁺); Addition of Cl⁻ to carbocation to give chloroethane",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -31644,7 +31644,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "Orange to green [Both colours required; accept 'yellow' for 'orange']",
+    "model": "Orange to green",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -31684,7 +31684,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 6,
-    "model": "Ethanoic acid/acetic acid [Accept ethyl ethanoate/ethyl acetate; Accept CH₃COOH]",
+    "model": "Ethanoic acid",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -31722,7 +31722,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 4,
-    "model": "Platinum [Accept carbon/graphite]",
+    "model": "Platinum",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -32191,7 +32191,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 9,
-    "model": "What colour: Purple (pink) to colourless [Allow decolourises]\nWhat info.: Unsaturated",
+    "model": "What colour: Purple to colourless\nWhat info.: Unsaturated",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -32303,7 +32303,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "5.3 ÷ 106 = 0.05\n[Allow 3 marks for arriving at the Mr of 106]",
+    "model": "5.3 ÷ 106 = 0.05",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -32433,7 +32433,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 6,
-    "model": "Rutherford [Accept Geiger or Marsden]",
+    "model": "Rutherford",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -32553,7 +32553,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "Kc = [CO][H2]³ / [CH4][H2O]\n[Allow 3 marks for top or bottom correct or 3 marks for inverted expression]",
+    "model": "Kc = [CO][H2]³ / [CH4][H2O]",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -33224,7 +33224,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 18,
-    "model": "Graph:\nLabel the y-axis 'Volume of oxygen (cm³)' and the x-axis 'Time (min)', each with an even scale.\nPlot all the points (0,0), (2,27), (4,41), (6,48), (8,52), (10,54), (12,55), (14,55), (16,55).\nDraw a smooth curve through the points. It rises steeply at first, then levels off at 55 cm³.\nEstimate: read up from 3 min on the x-axis to the curve, then across to the y-axis.\nVolume after 3 minutes ≈ 34 cm³ (accept 32–36 cm³).",
+    "model": "Graph:\nLabel the y-axis 'Volume of oxygen (cm³)' and the x-axis 'Time (min)', each with an even scale.\nPlot all the points (0,0), (2,27), (4,41), (6,48), (8,52), (10,54), (12,55), (14,55), (16,55).\nDraw a smooth curve through the points. It rises steeply at first, then levels off at 55 cm³.\nEstimate: read up from 3 min on the x-axis to the curve, then across to the y-axis.\nVolume after 3 minutes ≈ 34 cm³.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -33835,7 +33835,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 12,
-    "model": "pipette into 500 cm³ volumetric flask // add deionised (distilled, pure) water until near mark // add dropwise (by dropper, by wash bottle, other suitable method) // until bottom of meniscus up to (on, at) mark / flask at eye-level (vertical) // stopper and invert several times / mix thoroughly / solution homogeneous (even concentration, same concentration throughout). ANY FOUR required.",
+    "model": "Pipette into 500 cm³ volumetric flask.\nAdd deionised (distilled, pure) water until near the mark.\nAdd dropwise until the bottom of the meniscus is on the mark, with the flask at eye level.\nStopper and invert several times to mix thoroughly.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -33991,7 +33991,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 30,
-    "model": "Identify: preparation of soap / preparation of ethanoic (acetic) acid (CH₃COOH) / preparation of carboxylic acid / ethanol to ethanoic (acetic) acid. Draw: flask with contents shown or labelled // anti-bumping granules // condenser in correct position // correct flow of water clearly indicated // labelled or identifiable source of heat. What: hot vapour rose / liquid evaporated (entered condenser) / vapour was condensed (changed to liquid) / returned to flask. How: allowed enough time (or concept of time) to bring reaction to completion / provide the activation energy / heating without loss of reactants (vapour) / by keeping the reactants together / in open apparatus (vessel, container)",
+    "model": "Identify: preparation of ethanoic acid (CH₃COOH).\nDraw: flask with contents labelled; anti-bumping granules; condenser in correct position; correct flow of water clearly indicated; labelled source of heat.\nWhat: hot vapour rose, condensed back to liquid in the condenser and returned to the flask.\nHow: allowed enough time to bring the reaction to completion.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34158,7 +34158,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "both substances soluble in hot water // benzoic acid much less soluble (insoluble) in cold water so comes (crystallises) out of solution / NaCl much more soluble in cold water so remains in solution",
+    "model": "Both substances are soluble in hot water.\nBenzoic acid is much less soluble in cold water, so it crystallises out of solution.\nNaCl is much more soluble in cold water, so it remains in solution.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34237,7 +34237,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 6,
-    "model": "negatively charged (attracted to anode) // negligible mass // straight-line motion // penetrating // cause fluorescence // move paddle wheel // deflected by electric field // deflected by magnetic field // high-speed. ANY TWO required.",
+    "model": "They are negatively charged (attracted to the anode).\nThey have negligible mass.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34252,7 +34252,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "equal (same) volumes of gases contain equal (same) numbers of molecules (particles, moles) // under same (not 'all') conditions (temp. and pressure) (not 'at s.t.p.')",
+    "model": "Equal volumes of gases contain equal numbers of molecules under the same conditions of temperature and pressure.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34269,7 +34269,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "linear / straight // bent / angular / V-shaped",
+    "model": "linear\nbent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34333,7 +34333,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "distillation // ion exchange resin (deioniser) // zeolites // washing soda (bath salts). ANY TWO required.",
+    "model": "distillation\nion exchange resin (deioniser)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34352,7 +34352,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "minimum energy of / energy required for // particles colliding to react / to initiate reaction / for effective collision to occur",
+    "model": "The minimum energy required for particles colliding to react.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34369,7 +34369,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "general formula // differ by CH₂ // same functional group // similar chemical properties // gradation in physical properties // similar method of preparation. ANY TWO required.",
+    "model": "same functional group\ndiffer by CH₂",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34388,7 +34388,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(j)",
     "marks": 6,
-    "model": "based on their selective adsorbance on / based on their relative affinities (attractions) for / based on their partitioning between / based on their different interactions with // a stationary phase and a mobile phase",
+    "model": "based on their different interactions with a stationary phase and a mobile phase",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34627,7 +34627,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "hydrocarbons (cpds of C and H). Accept 'alkanes (paraffins)'",
+    "model": "hydrocarbons (compounds of C and H)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -34948,7 +34948,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 3,
-    "model": "Elimination (also accepted: dehydration).",
+    "model": "Elimination",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -34978,7 +34978,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 8,
-    "model": "six identical carbon-to-carbon sigma (single) bonds // sigma (single) bonds from carbon to hydrogen // delocalised π (pi) electron(s) (bonds, cloud) / formed from six p orbitals (electrons). OR: identical carbon-to-carbon bonds // intermediate in length between single and double / resonance str (hybrid) // delocalised π (pi) electron(s) (bonds, cloud) / formed from six p orbitals (electrons) / six delocalised electrons",
+    "model": "six identical carbon-to-carbon sigma bonds\nsigma bonds from carbon to hydrogen\ndelocalised π electrons formed from six p orbitals",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -35027,7 +35027,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 18,
-    "model": "Initial [HI] = 5 mol ÷ 12 l = 0.42 mol l⁻¹. Initially there is no H₂ or I₂.\nLet x = the equilibrium concentration of H₂ (mol l⁻¹). Then [I₂] = x and [HI] = 0.42 − 2x.\nKc = x² / (0.42 − 2x)² = 0.0185\nTake the square root of both sides: x / (0.42 − 2x) = √0.0185 = 0.136\nx = 0.136(0.42 − 2x) = 0.0571 − 0.272x\n1.272x = 0.0571\nx = 0.0449 mol l⁻¹\n\nEquilibrium [H₂] = 0.044–0.045 mol l⁻¹ (about 0.045 mol l⁻¹).",
+    "model": "Initial [HI] = 5 mol ÷ 12 l = 0.42 mol l⁻¹. Initially there is no H₂ or I₂.\nLet x = the equilibrium concentration of H₂ (mol l⁻¹). Then [I₂] = x and [HI] = 0.42 − 2x.\nKc = x² / (0.42 − 2x)² = 0.0185\nTake the square root of both sides: x / (0.42 − 2x) = √0.0185 = 0.136\nx = 0.136(0.42 − 2x) = 0.0571 − 0.272x\n1.272x = 0.0571\nx = 0.0449 mol l⁻¹\n\nEquilibrium [H₂] = 0.045 mol l⁻¹.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -35723,7 +35723,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "preparation of ethanoic acid / preparation of soap // ethanoic acid / ethanol",
+    "model": "preparation of ethanoic acid\nethanoic acid",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -35803,7 +35803,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "(Liebig) condenser // correct connection // cold water flows between two glass surfaces / provides a cold jacket / hot vapour hits the cold surface and condenses",
+    "model": "Liebig condenser\ncorrect connection\ncold water flows between two glass surfaces",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -35872,7 +35872,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "invert several times // to ensure mixing (homogeneous solution)",
+    "model": "invert several times\nto ensure mixing",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -35904,7 +35904,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "B: pipette // C: burette",
+    "model": "B: pipette\nC: burette",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -35936,7 +35936,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 9,
-    "model": "methyl orange, orange (yellow) to red (accept peach) / methyl red, yellow to red / phenolphthalein, pink (purple, violet, red) to colourless / thymolphthalein, blue to colourless / thymol blue, blue to yellow / cresol purple, purple (pink, violet) to yellow / neutral red, yellow-brown (yellow, brown) to red / phenol red, red to yellow / bromothymol blue, blue to yellow",
+    "model": "methyl orange, orange to red",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36001,7 +36001,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "manganese dioxide // MnO2",
+    "model": "manganese dioxide",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36061,7 +36061,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 3,
-    "model": "11 – 12 minutes [consistent with graph]",
+    "model": "11.5 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36109,7 +36109,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 6,
-    "model": "small // identical // indivisible",
+    "model": "atoms are small, identical and indivisible",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36143,7 +36143,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "evolves (gives out) // heat",
+    "model": "evolves heat",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36162,7 +36162,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Catalytic reforming (isomerisation, cracking or dehydrocyclisation are also acceptable).",
+    "model": "Catalytic reforming.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -36397,7 +36397,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "2 electrons in first shell // 6 electrons in second shell",
+    "model": "2 electrons in first shell\n6 electrons in second shell",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36412,7 +36412,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "measure of the relative attraction an atom has // for a shared pair of electrons in a covalent bond / for the electrons in a covalent bond",
+    "model": "measure of the relative attraction an atom has for a shared pair of electrons in a covalent bond",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36427,7 +36427,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "electronegativity difference / electronegativity values // polar covalent",
+    "model": "electronegativity difference\npolar covalent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36443,7 +36443,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 9,
-    "model": "electronic configurations of hydrogen and oxygen // two shared pairs of electrons // two non-bonding (lone) pairs of electrons // angular / v-shaped / bent",
+    "model": "electronic configurations of hydrogen and oxygen\ntwo shared pairs of electrons\ntwo lone pairs of electrons\nbent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36626,7 +36626,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 12,
-    "model": "sooty / smoky / luminous flame // C2H2 + 2½O2 → 2CO2 + H2O",
+    "model": "sooty flame\nC2H2 + 2½O2 → 2CO2 + H2O",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36727,7 +36727,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "reaction of an acid and a base // to give a salt and water // stomach acid treatment / sting treatment / adding lime to acidic soil",
+    "model": "reaction of an acid and a base\nto give a salt and water\nstomach acid treatment",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36844,7 +36844,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "W: ethene // X: ethanol // Y: ethanal // Z: ethanoic acid / acetic acid",
+    "model": "W: ethene\nX: ethanol\nY: ethanal\nZ: ethanoic acid",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36901,7 +36901,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "add bromine water / potassium manganate(VII) (potassium permanganate) // decolorises",
+    "model": "add bromine water\ndecolorises",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36938,7 +36938,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 9,
-    "model": "W / C2H4 / ethene // polyethene / polythene",
+    "model": "W (ethene)\npolyethene",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -36976,7 +36976,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 36,
-    "model": "1: chlorination // 2: filtration // 3: pH adjustment // 4: fluoridation // 5: sedimentation / flocculation // 6: sedimentation / flocculation",
+    "model": "1: chlorination\n2: filtration\n3: pH adjustment\n4: fluoridation\n5: flocculation\n6: sedimentation",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37032,7 +37032,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 16,
-    "model": "platinum probe (wire) / nichrome probe (wire) / wood splint // prepare (clean) probe / soak wood splint // dip in salt // place in hottest part // of Bunsen flame // observe colour // (i) yellow / orange // (ii) lilac / purple",
+    "model": "platinum wire\nclean the probe\ndip in salt\nplace in hottest part of Bunsen flame\nobserve colour\n(i) yellow\n(ii) lilac",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37080,7 +37080,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "Drug identification in forensic samples (separation of dyes or inks is also acceptable).",
+    "model": "Drug identification in forensic samples.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -37333,7 +37333,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)A(iii)",
     "marks": 6,
-    "model": "Sulfur dioxide, SO₂ (nitrogen dioxide, NO₂, is also acceptable).",
+    "model": "Sulfur dioxide, SO₂.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -37411,7 +37411,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "Can be dissolved (used) to make up a solution of exact (known) concentration / no need to standardise by titration (can be made up directly) // pure / stable / anhydrous (not hydrated) / no water loss (no efflorescence) / not deliquescent (not hygroscopic) / does not sublime / high formula (molecular, molar) mass (Mr) - ANY TWO",
+    "model": "Can be dissolved to make up a solution of known concentration\npure\nstable",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37647,7 +37647,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Reagent: bromine water (3) // colour before: red/orange/yellow/brown (3) // colour after: colourless (3)\nOR Acidified manganate(VII) solution (3) // colour before: purple/violet/pink (3) // colour after: colourless (3)",
+    "model": "Reagent: bromine water\ncolour before: orange\ncolour after: colourless",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37685,7 +37685,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 15,
-    "model": "2.4 × 0.8 = 1.92 g ethanol (3) // 1.92 ÷ 46 = 0.042 (0.0417) mol ethanol = 0.042 (0.0417) mol ethene (3) // 0.042 × 24000 = 1008 (1002) cm³ (3) // 60% of 1008 = 605 (601) cm³ (3) // 605 ÷ 75 = 8 test tubes of ethene (3)",
+    "model": "2.4 × 0.8 = 1.92 g ethanol\n1.92 ÷ 46 = 0.042 mol ethanol = 0.042 mol ethene\n0.042 × 24000 = 1008 cm³\n60% of 1008 = 605 cm³\n605 ÷ 75 = 8 test tubes of ethene",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37736,7 +37736,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 9,
-    "model": "Apparatus A: weigh flask + fittings (3) // heat until all liquid gone (until vaporised), cool, dry and reweigh (3) // mass is difference (find difference) (3)\nOR Apparatus B: weigh small syringe + contents (3) // inject liquid and reweigh (3) // mass is difference (find difference) (3)",
+    "model": "Apparatus A: weigh flask + fittings\nheat until all liquid has vaporised, cool, dry and reweigh\nmass is the difference",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37770,7 +37770,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "For Apparatus A: the pinhole (in apparatus A) means // vapour exposed to (in contact with) the air (atmosphere) / vessel is open to atmosphere\nOR For Apparatus B: the plunger (in apparatus B) is free to move (moves) // until vapour pressure reaches atmospheric pressure (until pressure is equal inside and outside) / plunger stops when pressure equalises",
+    "model": "For Apparatus A: the pinhole means the vapour is exposed to the air",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37884,7 +37884,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Average mass of atom(s) of element / average of isotopes taking abundances into account // relative to (based on) 1/12 the mass of a carbon-12 atom",
+    "model": "average mass of atoms of the element, taking isotope abundances into account\nrelative to 1/12 the mass of a carbon-12 atom",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37899,7 +37899,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Sigma: head-on (end-on) overlap of orbitals // Pi: lateral (sideways) overlap of p-orbitals",
+    "model": "Sigma: head-on overlap of orbitals\nPi: lateral overlap of p-orbitals",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -37929,7 +37929,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "Equal (same) volumes of gases contain equal (same) numbers of molecules / moles, particles, atoms (for noble gases) // under same (not \"all\") conditions (temp. and pressure) (not \"at s.t.p.\")",
+    "model": "equal volumes of gases contain equal numbers of molecules\nunder the same conditions of temperature and pressure",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38082,7 +38082,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "Define: half internuclear distance (half distance between the centres of the atoms) in a single homonuclear bond (of singly-bonded atoms of the same element) (6)\nState: decrease in atomic radius (3)\nExplain: increase in effective nuclear charge (number of protons) (3)",
+    "model": "Define: half the internuclear distance (half the distance between the centres of the atoms) in a single homonuclear bond (of singly-bonded atoms of the same element)\nState: decrease in atomic radius\nExplain: increase in effective nuclear charge",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38144,7 +38144,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 6,
-    "model": "Shape: pyramidal (3)\nExplain: repulsion between four electron pairs (e.p.), one a lone pair (l.p.) / repulsion between three bonds (bond pairs, b.p.) and a (one) lone pair (l.p.) (3)",
+    "model": "Shape: pyramidal\nExplain: repulsion between four electron pairs, one of which is a lone pair",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38380,7 +38380,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 11,
-    "model": "Cause: dissolution of calcium ions / calcium hydrogencarbonate / calcium sulfate / calcium chloride / other soluble calcium salt / magnesium ions / magnesium hydrogencarbonate / magnesium sulfate / magnesium chloride / other soluble magnesium salt (3)\nWaste: soap used up in react with Ca and Mg ions to give scum (3)\nDe-ion: pass through resin to replace positive ions (named + ion) with hydrogen ions (H⁺) // and negative ions (named – ion) with hydroxyl (hydroxide) ions (OH⁻) (5)",
+    "model": "Cause: dissolved calcium hydrogencarbonate\nWaste: soap used up reacting with Ca and Mg ions to give scum\nDe-ion: pass through resin to replace positive ions with hydrogen ions (H⁺)\nand negative ions with hydroxide ions (OH⁻)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38494,7 +38494,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Add silver nitrate (AgNO₃) and dilute nitric acid // white precipitate (ppt) formed",
+    "model": "Add silver nitrate (AgNO₃) and dilute nitric acid\nwhite precipitate formed",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38636,7 +38636,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Reagent: hydrogen (3)\nCatalyst: nickel / palladium / platinum (3)",
+    "model": "Reagent: hydrogen\nCatalyst: nickel",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38748,7 +38748,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 12,
-    "model": "Axes: horizontal axis labelled 'Time / s' (0 to 240 s); vertical axis labelled 'Loss of mass (mass of CO₂ produced) / g' (0 to 0.45 g), both scaled evenly to fit the data.\nPoints to plot: (0, 0.00), (20, 0.10), (40, 0.18), (80, 0.29), (120, 0.35), (160, 0.39), (220, 0.41), (240, 0.41).\nDraw a smooth curve starting from the origin (0, 0), steep at first and levelling off, passing accurately through all the points.",
+    "model": "Axes: horizontal axis labelled 'Time / s' (0 to 240 s); vertical axis labelled 'Loss of mass / g' (0 to 0.45 g), both scaled evenly to fit the data.\nPoints to plot: (0, 0.00), (20, 0.10), (40, 0.18), (80, 0.29), (120, 0.35), (160, 0.39), (220, 0.41), (240, 0.41).\nDraw a smooth curve starting from the origin (0, 0), steep at first and levelling off, passing accurately through all the points.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -38869,7 +38869,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 7,
-    "model": "Presence of double bond (unsaturation) (4) // which is electron rich / which can donate electrons / which is a nucleophile / pi bond weak (pi bond more easily broken) / high electron density (3)",
+    "model": "Presence of double bond\nwhich is electron rich",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -38889,7 +38889,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 18,
-    "model": "Mechanism: polarisation of Br₂ / Br^δ+–Br^δ– under influence of double bond (3) // followed by heterolytic fission / splitting into ions / Br⁺ & Br⁻ (3) // addition of bromonium ion (Br⁺) across (to) the double bond / addition of Br⁺ forming bridged intermediate (cyclic bromonium ion) (3) // attack (addition) of bromide ion (Br⁻) to bridged intermediate / attack (addition) of bromide ion (Br⁻) to cyclic Br⁺ / attack (addition) of bromide ion (Br⁻) to carbonium ion (C⁺) (3)\nEvidence: when named nucleophiles (anions, negative ions) present (alternative nucleophile source e.g. Cl⁻ or NaCl (HCl); OH⁻ or H₂O) and an identified matched product (6)",
+    "model": "Mechanism: polarisation of Br₂ under the influence of the double bond\nfollowed by heterolytic fission into Br⁺ and Br⁻\naddition of bromonium ion (Br⁺) across the double bond\nattack of bromide ion (Br⁻) on the bromonium ion intermediate\nEvidence: when named nucleophiles (anions) are present (e.g. Cl⁻ from NaCl or HCl; OH⁻ or H₂O) and an identified matching product is formed",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39073,7 +39073,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "Sphere (ball) with positive (+) charge spread out over it // with electrons embedded (scattered, dotted, placed at random) in it",
+    "model": "Sphere with positive charge spread out over it\nwith electrons embedded in it",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39088,7 +39088,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "Repelled (3) // when passing near (by) nucleus / near (by) positive (+) core (centre) (3)",
+    "model": "Repelled when passing near the nucleus",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39103,7 +39103,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 6,
-    "model": "Collided with nucleus / positive (+) core (centre) (3)\nNucleus / positive (+) core (centre) very small / most (almost all) of atom's mass concentrated in nucleus / positive (+) core (centre) / most (almost all) of atom is empty space (3)",
+    "model": "Collided with nucleus\nNucleus very small; most of the atom's mass is concentrated in the nucleus; most of the atom is empty space",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39341,7 +39341,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "Prevent: before heating is stopped (removed, turned off) / at the end // remove delivery tube from water / loosen stopper before removing heat (2 × 3). Risk: cold water sucked into test tube / test tube cracks / fire / explosion / injury due to broken glass (6)",
+    "model": "Prevent: remove the delivery tube from the water before heating is stopped.\nRisk: cold water sucked into the test tube, causing it to crack.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39386,7 +39386,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "Explain: having a double (triple) carbon-carbon bond //. Test: shake with (bubble through, add to) bromine (Br2) water (solution) / acidified potassium manganate(VII) (permanganate, KMnO4, MnO4¯) soln. // reagent decolourised (6 + 2 × 3)",
+    "model": "Explain: having a double carbon-carbon bond.\nTest: shake with bromine (Br2) water; reagent decolourised.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39451,7 +39451,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 6,
-    "model": "Rinse: with deionised (distilled, pure) // water // with a little of the solution to be measured (6 + 2 × 3)",
+    "model": "Rinse: with deionised water, then with a little of the solution to be measured.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39515,7 +39515,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 9,
-    "model": "25 × MNaOH = 20 × 0.08 (3). MNaOH = 0.064 (3). [Accept 0.06] (3)",
+    "model": "25 × MNaOH = 20 × 0.08. MNaOH = 0.064",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39548,7 +39548,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "heat change when one mole of HCl / heat change when one mole of NaOH / heat change when the numbers of moles in the equation // react(s) completely / neutralise(s) completely (5 + 3)",
+    "model": "heat change when the numbers of moles in the equation react completely",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39643,7 +39643,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 9,
-    "model": "(100 × 2) / 1000 = 2/10 = 0.2 moles (9)",
+    "model": "(100 × 2) / 1000 = 2/10 = 0.2 moles",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39659,7 +39659,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 6,
-    "model": "11.4 / 0.2 = 57 kJ mol⁻¹ (6)",
+    "model": "11.4 / 0.2 = 57 kJ mol⁻¹",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39766,7 +39766,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "two or more elements // combined (bonded, joined chemically) (2 × 3)",
+    "model": "two or more elements chemically combined",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39811,7 +39811,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "relative attraction // for shared pair of electrons / for electrons in a covalent bond (2 × 3)",
+    "model": "relative attraction for the shared pair of electrons in a covalent bond",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39826,7 +39826,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "iron(II) sulfate / ferrous sulfate / FeSO4 // concentrated sulfuric acid / H2SO4 (2 × 3)",
+    "model": "iron(II) sulfate\nconcentrated sulfuric acid",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39841,7 +39841,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(g)",
     "marks": 6,
-    "model": "stream attracted (deflected towards, moves towards, bends towards) rod [Allow 3 marks for 'deflected']",
+    "model": "stream attracted towards the rod",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39856,7 +39856,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "pyramidal / trigonal pyramidal [Accept 'tetrahedral' for 3 marks. Accept diagram with or without lone pair.]",
+    "model": "trigonal pyramidal",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -39995,7 +39995,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "it has one proton only // it has no neutron",
+    "model": "it has one proton only\nit has no neutron",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40010,7 +40010,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "Similar: number of protons (6 protons) // number of electrons (6 electrons) (2 × 3). Differ: number(s) of neutrons / 6 neutrons in carbon-12, 8 neutrons in carbon-14 / two neutrons extra in carbon-14 (3)",
+    "model": "Similar: number of protons (6 protons) and number of electrons (6 electrons).\nDiffer: number of neutrons (6 neutrons in carbon-12, 8 neutrons in carbon-14).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40197,7 +40197,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 6,
-    "model": "pOH = – log 0.01 / = 2 (3). pH = 14 – 2 / = 12 (3)",
+    "model": "pOH = – log 0.01 = 2\npH = 14 – 2 = 12",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40213,7 +40213,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "3.65 ÷ 36.5 / = 0.1 (3). pH = – log 0.1 / = 1 (3)",
+    "model": "3.65 ÷ 36.5 = 0.1\npH = – log 0.1 = 1",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40267,7 +40267,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Name: aluminium sulfate / aluminium chloride / aluminium(III) / alum / iron(III) sulfate (ferric sulfate) / iron(III) chloride (ferric chloride) / iron(III) / lime (calcium hydroxide) / polyelectrolytes [Name or formula] (3). Explain: causes fine suspended particles (solids) clump (join together, coagulate, aggregate) / forms flocs / helping sedimentation (settlement, sinking) / helping filtration (6)",
+    "model": "Name: aluminium sulfate.\nExplain: causes fine suspended particles to clump together, forming flocs which aid sedimentation and filtration.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40305,7 +40305,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 6,
-    "model": "temporary: removed by boiling (heating) / contains dissolved Ca(HCO₃)₂ // permanent: not removed by boiling (heating) / contains appropriate dissolved Ca or Mg salt (2 × 3)",
+    "model": "temporary: removed by boiling; contains dissolved Ca(HCO₃)₂\npermanent: not removed by boiling; contains dissolved Ca or Mg salt",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40324,7 +40324,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 6,
-    "model": "advantage: healthy / has calcium / good for bones (teeth) / good for brewing (tanning) / nice taste // disadvantage: wastes soap / blocks pipes / scale (deposit) on kettles (boilers) / scum on baths, sinks, etc. / could cause explosion in boilers (2 × 3)",
+    "model": "advantage: has calcium, good for bones\ndisadvantage: wastes soap and leaves scale on kettles",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40361,7 +40361,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "general formula // differ by CH₂ // same functional group // similar chemical properties // gradation in physical properties // similar preparation [Any two]",
+    "model": "same general formula\ndiffer by CH₂",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40422,7 +40422,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "Gas: carbon dioxide / CO₂ (6). Test: bubble through limewater [calcium hydroxide {Ca(OH)₂} solution] // turns milky / goes cloudy / white precipitate (ppt) produced / precipitate of calcium carbonate (CaCO₃) produced (2 × 3)",
+    "model": "Gas: carbon dioxide (CO₂).\nTest: bubble through limewater (calcium hydroxide {Ca(OH)₂} solution); it turns milky, forming a white precipitate of calcium carbonate (CaCO₃).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40503,7 +40503,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 3,
-    "model": "chlorine / Cl₂ / ½Cl₂ [Accept Cl.]",
+    "model": "chlorine (Cl₂)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40663,7 +40663,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 7,
-    "model": "hydrogen peroxide // H₂O₂",
+    "model": "hydrogen peroxide (H₂O₂)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40693,7 +40693,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "58 to 62 cm³",
+    "model": "60 cm³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40708,7 +40708,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 7,
-    "model": "average mass of molecule(s) // relative to (based on, compared with) 1/12 mass of carbon-12 atom",
+    "model": "average mass of molecules relative to 1/12 of the mass of a carbon-12 atom",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40723,7 +40723,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "6 × 12 + 12 + 6 × 16 / 72 + 12 + 96 (3). = 180 (3)",
+    "model": "6 × 12 + 12 + 6 × 16\n= 72 + 12 + 96\n= 180",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40738,7 +40738,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "12/180 (3) × 100 (3) / = 6.6 to 6.7 (3)",
+    "model": "12/180 × 100 = 6.7",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40753,7 +40753,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 6,
-    "model": "9/180 (3) = 0.05 (3)",
+    "model": "9/180 = 0.05",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -40978,7 +40978,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 12,
-    "model": "State: if a system at equilibrium is disturbed (experiences a stress) // it tends to minimise (oppose, relieve) the disturbance (stress) (2 × 3). Explain: reaction shifts (goes) to left (backward, reverse, to reactants, endothermic direction) // to oppose (offset) temperature rise / to lower temperature / to absorb heat / to relieve disturbance (stress) (2 × 3)",
+    "model": "State: if a system at equilibrium is disturbed, it tends to minimise the disturbance.\nExplain: reaction shifts to the left (endothermic direction) to oppose the temperature rise.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -41674,7 +41674,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Tetrahedral; 109° 28' (accept 109–109.5°)",
+    "model": "Tetrahedral; 109° 28'",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -41918,7 +41918,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "The wave nature of the electron (wave-particle duality).\nOther accepted factors include higher-resolution spectra showing sublevels, the Zeeman effect, electron spin, and the failure of the theory for atoms with more than one electron.",
+    "model": "The wave nature of the electron (wave-particle duality).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -44338,7 +44338,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 6,
-    "model": "Platinum and palladium (rhodium is also acceptable).",
+    "model": "Platinum and palladium.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -44999,7 +44999,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "Purpose: to allow time for reaction / to bring reaction to completion / to maximise yield / to speed up slow reaction / to heat / to supply activation energy without losing volatile material (ethanol, vapour, solvent) / without flask boiling dry; Name: base (alkaline)-catalysed hydrolysis / saponification",
+    "model": "Purpose: to bring the reaction to completion\nName: saponification",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -45234,7 +45234,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "Read the rate at 35 °C from the graph: rate ≈ 0.0145 s⁻¹.\nTime = 1 ÷ rate = 1 ÷ 0.0145 ≈ 69 s (accepted range 66–72 s).",
+    "model": "Read the rate at 35 °C from the graph: rate ≈ 0.0145 s⁻¹.\nTime = 1 ÷ rate = 1 ÷ 0.0145 ≈ 69 s.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -46436,7 +46436,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "oxidising agent: NO₃⁻; +5 (5) → +2 (2)",
+    "model": "oxidising agent: NO₃⁻; +5 → +2",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -46452,7 +46452,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 6,
-    "model": "reducing agent: Cd; 0 → +2 (2)",
+    "model": "reducing agent: Cd; 0 → +2",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -46845,7 +46845,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 11,
-    "model": "Contains carbon and hydrogen only // Alkynes (acetylenes)",
+    "model": "Contains carbon and hydrogen only\nAlkynes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -46940,7 +46940,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "Contains at least one triple (multiple) carbon-to-carbon bond // Shake with bromine water (solution) / acidified KMnO4; colour before Br2 brown (red, orange, yellow) / KMnO4 purple (pink, violet); colour after colourless, paler, lighter",
+    "model": "Contains at least one triple carbon-to-carbon bond\nShake with bromine water; colour changes from brown to colourless.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -46959,7 +46959,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "Smoky (sooty) / luminous // Cutting metals / welding",
+    "model": "Smoky flame\nCutting metals",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47012,7 +47012,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 9,
-    "model": "A: Burette // B: Pipette // C: Wash (water, squeeze) bottle",
+    "model": "A: Burette\nB: Pipette\nC: Wash bottle",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47060,7 +47060,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Rinse with deionised (distilled, pure) water // Rinse with solution (sodium hydroxide, NaOH)",
+    "model": "Rinse with deionised water\nRinse with sodium hydroxide (NaOH) solution",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47172,7 +47172,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 11,
-    "model": "Substance that alters (speeds up, slows down) rate of reaction; not consumed (not used up) / chemically unchanged at the end // Manganese(IV) oxide / manganese dioxide / MnO2 / KI / liver / minced-meat / celery / radish / yeast / catalase",
+    "model": "A substance that speeds up the rate of a reaction and is not used up (chemically unchanged) at the end of the reaction\nManganese(IV) oxide (MnO2)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47222,7 +47222,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 18,
-    "model": "Axes correctly labelled and scaled; six points correctly plotted; smooth curve correctly drawn // Estimate: 23 cm³ [22 – 24 cm³]",
+    "model": "Axes correctly labelled and scaled; six points correctly plotted; smooth curve correctly drawn\nEstimate: 23 cm³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47244,7 +47244,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "Decreases // Concentration of reactant decreases / graph gets less steep / H2O2 used up",
+    "model": "Decreases\nConcentration of reactant decreases as H2O2 is used up.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47326,7 +47326,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "Endothermic // The heat change (ΔH) is positive (+) / heat is absorbed (taken in)",
+    "model": "Endothermic\nThe heat change (ΔH) is positive, meaning heat is absorbed.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -47656,7 +47656,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "A: Methane // B: Butane / n-butane",
+    "model": "A: Methane\nB: Butane",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -48456,7 +48456,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 25,
-    "model": "A: Chromatography // B: Distillation / Fractionation // C: Recrystallisation // D: Fractionation / Distillation // E: Refluxing // F: Steam distillation",
+    "model": "A: Chromatography\nB: Distillation\nC: Recrystallisation\nD: Fractionation\nE: Refluxing\nF: Steam distillation",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -48684,7 +48684,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "pour some iodine (solution) into a clean, dry beaker // use pipette // previously rinsed with deionised (distilled) water // rinsed with iodine (solution) // fill using pipette filler until bottom of meniscus is on mark // read at eye-level / allow drainage time / last drop to remain / drain under gravity",
+    "model": "Pour some iodine solution into a clean, dry beaker.\nUse a pipette, previously rinsed with deionised water.\nRinse the pipette with iodine solution.\nFill the pipette using a pipette filler until the bottom of the meniscus is on the mark.\nRead at eye level, allowing time for drainage.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -48900,7 +48900,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "Recrystallisation raises the melting point, bringing it closer to the value of 122 °C.\nIt also makes the melting point range sharper (narrower). The impure crystals melted over 112–118 °C, whereas the purified crystals melt over a smaller range close to 122 °C.",
+    "model": "Recrystallisation raises the melting point, bringing it closer to the value of 122 °C.\nIt also makes the melting point range narrower. The impure crystals melted over 112–118 °C, whereas the purified crystals melt over a smaller range close to 122 °C.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -49024,7 +49024,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 9,
-    "model": "Add a DPD reagent tablet (or sachet) to a measured sample of pool water D in a comparator container.\nStir or allow time for the pink colour to develop fully.\nCompare the colour with the colour chart (disc or card) and read off the free chlorine concentration in p.p.m.",
+    "model": "Add a DPD reagent tablet to a measured sample of pool water D in a comparator container.\nAllow time for the pink colour to develop fully.\nCompare the colour with the colour chart and read off the free chlorine concentration in p.p.m.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -49164,7 +49164,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "boron [central atom of boron trifluoride (BF₃)] has three bond pairs of electrons // nitrogen [central atom of ammonia (NH₃)] has three bond pairs and one lone pair of electrons",
+    "model": "boron [central atom of boron trifluoride (BF₃)] has three bond pairs of electrons\nnitrogen [central atom of ammonia (NH₃)] has three bond pairs and one lone pair of electrons",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49197,7 +49197,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "equal (same) volumes of gases contain equal (same) number of particles (molecules, moles) // at the same (constant) conditions of temperature and pressure",
+    "model": "equal volumes of gases contain equal numbers of particles (molecules)\nat the same temperature and pressure",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49418,7 +49418,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Observations: most alpha-particles undeflected (passed straight through, were deflected slightly as they passed through) the gold foil // some alpha-particles deflected // some (a few) alpha-particles reflected (deflected straight back) along their original paths. Deductions: (i) repulsion (deflection) of positive alpha-particles. (ii) most alpha-particles undeflected (passed straight through) the gold foil / large angles of deflection (repulsion) for many alpha-particles consistent with charge concentrated in small, dense nucleus / a few (a small number) alpha-particles reflected (deflected straight back) showing most of mass concentrated in small, dense nucleus / statistical analysis of angles of deflection consistent with charge and mass concentrated in small, dense nucleus",
+    "model": "Observations: most alpha-particles pass undeflected through the gold foil.\nSome alpha-particles are deflected.\nA few alpha-particles are reflected back along their original paths.\nDeductions:\n(i) Repulsion of positive alpha-particles causes deflection.\n(ii) Large angles of deflection for many alpha-particles are consistent with charge concentrated in a small, dense nucleus.\nA few alpha-particles reflected back show that most of the mass is concentrated in a small, dense nucleus.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49463,7 +49463,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "in the ground state the hydrogen electron occupies the lowest available energy level // the electron can jump (move, become excited) to a higher energy level (state) if it receives (absorbs) a certain amount of energy (light, heat, electricity, a photon) // excited (higher energy) state unstable (temporary) // electron falls back to a lower level // energy emitted (given out) as photon (light of definite frequency, light of definite wavelength, hf, hυ) thus giving rise to a spectrum / energy emitted (hf, hυ) corresponds to (=) difference between the two energy levels (E₂ – E₁) thus giving rise to a line on the spectrum / E₂ – E₁ = hf (hυ)",
+    "model": "In the ground state, the hydrogen electron occupies the lowest available energy level.\nThe electron can jump to a higher energy level (become excited) if it absorbs a certain amount of energy.\nThe excited (higher energy) state is unstable (temporary).\nThe electron falls back to a lower level, emitting energy as a photon of light of definite frequency, giving rise to a spectrum.\nThe energy emitted (hf) corresponds to the difference between the two energy levels, E₂ – E₁ = hf, giving rise to a line on the spectrum.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49478,7 +49478,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 3,
-    "model": "copper ['Barium' or 'boron' acceptable.]",
+    "model": "copper",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49696,7 +49696,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "substance that alters (changes) rate of a reaction // but not consumed (used up, chemically changed) in the reaction or substance that provides alternative (different) pathway for reaction // that has (with) different (higher, lower) activation energy",
+    "model": "A substance that changes the rate of a reaction but is not used up in it, by providing an alternative pathway with a lower activation energy.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49730,7 +49730,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Observation: wire glows and dims / odour (smell) of methanol (HCHO, formaldehyde) / popping sounds / explosions / flask becomes hot / methanol boils (bubbles) / methanol used up / volume methanol decreases / flame (flash) / cardboard ignites. Products: methanal (formaldehyde, HCHO) // water (H₂O) // hydrogen (H₂) - any two",
+    "model": "Observation: the wire glows and dims\nProducts: methanal (HCHO) and water (H₂O)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49768,7 +49768,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 18,
-    "model": "Definition: minimum combined energy of colliding particles (molecules) // for reaction to take place between them or minimum combined energy of particles (molecules) // for effective collisions. Sketch: y-axis energy, x-axis time (reaction progress); suitable curve with energy of reactants greater than energy of products; ∆H (between reactant and product energies); Eₐ (between reactant energy and peak)",
+    "model": "Definition: the minimum combined energy of colliding particles (molecules) for a reaction to take place between them.\nSketch: energy on the y-axis, reaction progress on the x-axis; a suitable curve with the energy of the reactants greater than the energy of the products; ∆H marked between the reactant and product energies; Eₐ marked between the reactant energy and the peak.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49837,7 +49837,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "Broken: C to O pi (π) bond / (pi (π) bond of CO (carbonyl) // Formed: OH / O–H / O to H // Formed: CH / C–H / C to H",
+    "model": "Broken: C–O π (pi) bond\nFormed: O–H bond\nFormed: C–H bond",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49870,7 +49870,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "A (C₃H₆, propene) = – 48 °C (lowest boiling point) - van der Waals (London, dispersion, weakest dipole-dipole, temporary, transient) forces (attractions, bonds) between the molecules // B (CH₃CHOHCH₃, propan-2-ol, 2-propanol) = 82 °C (highest boiling point) - hydrogen (strongest dipole-dipole) bonds (forces, attractions) between the molecules // C (CH₃COCH₃, propanone) = 56 °C (middle boiling point) - dipole-dipole forces (attractions, bonds) between the molecules",
+    "model": "A (C₃H₆, propene) = – 48 °C (lowest boiling point) – van der Waals forces between the molecules\nB (CH₃CHOHCH₃, propan-2-ol) = 82 °C (highest boiling point) – hydrogen bonds between the molecules\nC (CH₃COCH₃, propanone) = 56 °C (middle boiling point) – dipole-dipole forces between the molecules",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -49951,7 +49951,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 15,
-    "model": "Plot pH (y-axis) against volume of NaOH added in cm³ (x-axis), labelling both axes.\nScales: x-axis 0 to 40 cm³ (e.g. 5 cm³ per division); y-axis pH 0 to 14 (e.g. 1 unit per division).\nPlot every point from the table, e.g. (0, 3.3), (10, 4.8), (15, 5.1), (19.0, 6.2), (19.8, 7.0), (20.0, 8.9), (20.2, 10.7), (22.0, 11.6), (30.0, 12.3), (40.0, 12.4), and join them with a smooth curve.\nShape: starts at pH 3.3, rises slowly to about pH 5 by 15 cm³, then climbs more steeply; the near-vertical jump lies between about 19.8 cm³ (pH 7.0) and 20.2 cm³ (pH 10.7), centred on 20 cm³; after that the curve levels off at about pH 12.4 by 40 cm³.\nPlot the vertical part carefully through the points at 19.8, 20.0 and 20.2 cm³.",
+    "model": "Plot pH (y-axis) against volume of NaOH added in cm³ (x-axis), labelling both axes.\nScales: x-axis 0 to 40 cm³ (e.g. 5 cm³ per division); y-axis pH 0 to 14 (e.g. 1 unit per division).\nPlot every point from the table, e.g. (0, 3.3), (10, 4.8), (15, 5.1), (19.0, 6.2), (19.8, 7.0), (20.0, 8.9), (20.2, 10.7), (22.0, 11.6), (30.0, 12.3), (40.0, 12.4), and join them with a smooth curve.\nShape: starts at pH 3.3, rises slowly to about pH 5 by 15 cm³, then climbs more steeply; the near-vertical jump lies between about 19.8 cm³ (pH 7.0) and 20.2 cm³ (pH 10.7), centred on 20 cm³; after that the curve levels off at about pH 12.4 by 40 cm³.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -50033,7 +50033,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 19,
-    "model": "Distinction: saturated hydrocarbons contain all (only) single (no double or triple) carbon-carbon bonds / saturated hydrocarbons have maximum number of hydrogen (monovalent) atoms attached to carbon skeleton // unsaturated hydrocarbons contain at least one double (triple, multiple) carbon-carbon bond / more hydrogen (monovalent) atoms can be added to carbon skeleton of unsaturated hydrocarbons. Test: bromine (Br₂) solution (water) / acidified potassium manganate(VII) (permanganate) / (KMnO₄/H⁺) / (MnO₄⁻/H⁺); decolourises (changes to colourless, colour disappears). Number of pi-electrons: 6. Correct number: yes, each of the 3 double bonds has 2 pi-electrons / each carbon has 3 sigma and one pi electron. Distribution: electrons in benzene are delocalised / electrons are in three double bonds in the Kekulé structure / electrons localised in the Kekulé structure. Evidence: all carbon-carbon (C-C) bonds in benzene are of same length (energy, strength) / all carbon-carbon (C-C) bonds in benzene are intermediate between single and double in length (energy, strength) / chemical stability (unreactivity) of benzene / no isomers of 1,2-disubstituted benzene / reacts mainly by substitution / does not decolourise Br₂ solution easily / does not decolourise acidified KMnO₄ solution easily / does not undergo electrophilic addition",
+    "model": "Distinction: saturated hydrocarbons contain only single carbon–carbon bonds, with the maximum number of hydrogen atoms attached to the carbon skeleton; unsaturated hydrocarbons contain at least one double (or triple) carbon–carbon bond, so more hydrogen atoms can be added to the carbon skeleton.\nTest: add bromine solution (Br₂), which is decolourised by unsaturated hydrocarbons.\nNumber of pi-electrons: 6.\nCorrect number: yes, each of the 3 double bonds has 2 pi-electrons.\nDistribution: the electrons in benzene are delocalised.\nEvidence: all carbon–carbon bonds in benzene are the same length, intermediate between single and double bonds.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -50658,7 +50658,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 12,
-    "model": "stopper / shake (invert, mix) layers / release vapours (pressure) by opening tap or stopper / repeat washing (rewash) aqueous layer twice with more solvent / allow to stand / allow layers separate / open tap to drain (collect layers)",
+    "model": "Stopper and shake the funnel, releasing pressure from vapours by opening the tap.\nAllow the layers to separate.\nOpen the tap to drain the layers.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -50973,7 +50973,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "Labelled diagram: a dry, weighed evaporating basin (or beaker) on a tripod and gauze over a Bunsen burner, or on a water bath, with a known volume of filtered river water in it.\nSteps:\n1. Measure a known volume of previously filtered river water into a dry, pre-weighed evaporating basin.\n2. Heat the water gently (on a water bath or over a Bunsen burner) to evaporate it to dryness, leaving the dissolved solids behind.\n3. Allow the basin to cool (in a desiccator).\n4. Reweigh the basin and the solid residue.\n5. Find the difference between the masses to give the mass of dissolved solids, then divide by the volume used.",
+    "model": "Labelled diagram: a dry, weighed evaporating basin on a tripod and gauze over a Bunsen burner, with a known volume of filtered river water in it.\nSteps:\n1. Measure a known volume of previously filtered river water into a dry, pre-weighed evaporating basin.\n2. Heat the water gently to evaporate it to dryness, leaving the dissolved solids behind.\n3. Allow the basin to cool (in a desiccator).\n4. Reweigh the basin and the solid residue.\n5. Find the difference between the masses to give the mass of dissolved solids, then divide by the volume used.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -51318,7 +51318,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 12,
-    "model": "relative (measure of) attraction / number expressing (giving) attraction / for shared electrons (pair) / for electrons in a covalent bond // H = 2.20, O = 3.44 / electronegativity difference is 1.24 / polar // polar / covalent // (i) attraction between the ions of the crystal // ionic compounds / and polar (partially charged) water molecules // dissolve in water / like dissolves like // (ii) ions are free from lattice in solution / ions move",
+    "model": "Electronegativity is a relative measure of the attraction for shared electrons in a covalent bond.\nH = 2.20, O = 3.44; the electronegativity difference is 1.24, so the bond is polar covalent.\n(i) Attraction between the ions of the crystal and polar (partially charged) water molecules causes ionic compounds to dissolve in water.\n(ii) In solution, the ions are free from the lattice and can move.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51498,7 +51498,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "water / H2O // carbon dioxide / CO2",
+    "model": "Water (H2O)\nCarbon dioxide (CO2)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51766,7 +51766,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 8,
-    "model": "ethene // structure showing C=C with four hydrogen atoms",
+    "model": "Ethene\nStructure showing a C=C double bond with four hydrogen atoms.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51827,7 +51827,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 9,
-    "model": "add bromine solution (water) / add acidified permanganate (KMnO4/H+) // brown to colourless / pink to colourless / decolourises (colour fading) / is a positive test",
+    "model": "Add bromine solution.\nThe solution changes from brown to colourless, which is a positive test.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51872,7 +51872,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 9,
-    "model": "ethanol // ethanol polar / ethene is non-polar / H-bonding occurs between ethanol and water molecules",
+    "model": "Ethanol\nEthanol is polar, whereas ethene is non-polar.\nHydrogen bonding occurs between ethanol and water molecules.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51905,7 +51905,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 5,
-    "model": "measure of amount (mass, concentration) of a reactant used up / measure of amount (mass, concentration) of a product formed // in a given (unit) time",
+    "model": "A measure of the amount of a reactant used up per unit time.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -51920,7 +51920,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 15,
-    "model": "Label the axes: y-axis \"Volume of CO₂ (cm³)\", x-axis \"Time (minutes)\".\nScale the axes: x-axis 0 to 8 min (1 min per division), y-axis 0 to 60 cm³ (e.g. 10 cm³ per division), using most of the page.\nPlot at least seven of the nine points: (0,0), (1,21), (2,36), (3,46), (4,53), (5,57), (6,59), (7,60), (8,60).\nDraw a smooth curve through the points and (0,0). It rises steeply at first, then levels off to a plateau at 60 cm³ from 7 min.",
+    "model": "Label the axes: y-axis \"Volume of CO₂ (cm³)\", x-axis \"Time (minutes)\".\nScale the axes: x-axis 0 to 8 min (1 min per division), y-axis 0 to 60 cm³ (e.g. 10 cm³ per division), using most of the page.\nPlot all nine points: (0,0), (1,21), (2,36), (3,46), (4,53), (5,57), (6,59), (7,60), (8,60).\nDraw a smooth curve through the points and (0,0). It rises steeply at first, then levels off to a plateau at 60 cm³ from 7 min.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -52058,7 +52058,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 15,
-    "model": "B-10: Atomic Number 5, Mass Number 10, Number of Neutrons 5 // B-11: Atomic Number 5, Mass Number 11, Number of Neutrons 6",
+    "model": "B-10: Atomic Number 5, Mass Number 10, Number of Neutrons 5\nB-11: Atomic Number 5, Mass Number 11, Number of Neutrons 6",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -52133,7 +52133,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "heat (change, involved, released) when 1 mole of a substance // is completely burned / burned in excess oxygen",
+    "model": "The heat released when 1 mole of a substance is completely burned in excess oxygen.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -52163,7 +52163,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(v)",
     "marks": 6,
-    "model": "yes // ∆H negative / all combustion reactions are exothermic / hexane is a fuel",
+    "model": "Yes\n∆H is negative, as all combustion reactions are exothermic.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -52256,7 +52256,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 25,
-    "model": "1 redox // 2 lost // 3 gained // 4 reduced // 5 zinc // 6 oxidised // blue colour fades / zinc begins to dissolve (disappear) / copper precipitates (forms) / zinc becomes coated with copper / zinc becomes brown (black, tarnished) / solution becomes warm / fizzing (bubbles)",
+    "model": "1 redox\n2 lost\n3 gained\n4 reduced\n5 zinc\n6 oxidised\nObservations: the blue colour fades and copper precipitates.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -52372,7 +52372,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)B(i)",
     "marks": 15,
-    "model": "An ore of iron: haematite (iron(III) oxide, Fe₂O₃). Magnetite (Fe₃O₄) is also acceptable.\nAnother substance added in the charge with the ore: coke (carbon), with limestone (calcium carbonate) also added.\nThe impurity removed at X is slag.",
+    "model": "An ore of iron: haematite (iron(III) oxide, Fe₂O₃).\nAnother substance added in the charge with the ore: coke (carbon), together with limestone (calcium carbonate).\nThe impurity removed at X is slag.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -52422,7 +52422,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 15,
-    "model": "MEASURE: use 25 cm³ pipette (burette); previously rinsed with deionised (distilled, pure) water; and previously rinsed with vinegar (solution it will contain, sample); pipette: read at eye-level / read bottom of meniscus / bottom of meniscus on the mark / allow drainage time / last drop to remain (not to be shaken out, blown out) / drain under gravity / touch (tip, tap) pipette against wall of flask; burette: read at eye-level / jet (part below tap) full / vertical / read bottom of meniscus. DILUTE: transfer to 250 cm³ volumetric flask; previously rinsed with deionised (distilled, pure) water; fill with deionised water until bottom of meniscus is on mark; stopper and invert flask a number of times / stopper and mix contents thoroughly.",
+    "model": "MEASURE: use a 25 cm³ pipette previously rinsed with deionised water and then with vinegar. Fill until the bottom of the meniscus is on the mark, allow to drain under gravity, leaving the last drop in the tip. Touch the tip against the wall of the flask, and read the bottom of the meniscus at eye level.\nDILUTE: transfer to a 250 cm³ volumetric flask previously rinsed with deionised water. Fill with deionised water until the bottom of the meniscus is on the mark, then stopper and invert the flask a number of times.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -52733,7 +52733,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Draw a tangent to curve A at t = 4.0 min (where the volume is about 63 cm³).\nChoose two points on the tangent, e.g. (2.0 min, 45 cm³) and (6.0 min, 81 cm³).\nRate = gradient = change in volume ÷ change in time = (81 − 45) ÷ (6.0 − 2.0) = 36 ÷ 4.0 = 9.0 cm³ O₂ per minute.\nAny answer from 8.2 to 9.5 cm³ min⁻¹ is acceptable.",
+    "model": "Draw a tangent to curve A at t = 4.0 min (where the volume is about 63 cm³).\nChoose two points on the tangent, e.g. (2.0 min, 45 cm³) and (6.0 min, 81 cm³).\nRate = gradient = change in volume ÷ change in time = (81 − 45) ÷ (6.0 − 2.0) = 36 ÷ 4.0 = 9.0 cm³ O₂ per minute.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -53859,7 +53859,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b) instrumental method",
     "marks": 6,
-    "model": "Atomic absorption spectroscopy (AAS).\nThe water sample is atomised in a flame, and the amount of light absorbed at a wavelength characteristic of the metal is measured to find the concentration of the metal.\nOther accepted methods include mass spectroscopy, gas (ionic) chromatography, and x-ray fluorescence.",
+    "model": "Atomic absorption spectroscopy (AAS).\nThe water sample is atomised in a flame, and the amount of light absorbed at a wavelength characteristic of the metal is measured to find the concentration of the metal.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -54193,7 +54193,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "Arsine (AsH₃) is expected to have pure (non-polar) covalent bonding. Arsenic and hydrogen have almost equal electronegativities, so the electrons are shared equally. (Slightly polar covalent is also accepted.)",
+    "model": "Arsine (AsH₃) is expected to have non-polar covalent bonding. Arsenic and hydrogen have almost equal electronegativities, so the electrons are shared equally.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -54731,7 +54731,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 9,
-    "model": "Repeat the titration without the indicator, using the same volumes (22.5 cm³ of HCl added to 25 cm³ of NaOH), so the mixture contains only sodium chloride solution and water.\nTransfer the solution to an evaporating basin. Labelled diagram: a Bunsen burner under a tripod, with a wire gauze on top of the tripod; an evaporating basin sits on the gauze, containing the salt solution.\nHeat gently to evaporate the water until crystals begin to form (or to dryness). Allow the solution to cool, so pure NaCl crystals form.\nFilter the crystals and dry them between sheets of filter paper (or in a desiccator) to obtain a pure, dry sample.",
+    "model": "Repeat the titration without the indicator, using the same volumes (22.5 cm³ of HCl added to 25 cm³ of NaOH), so the mixture contains only sodium chloride solution and water.\nTransfer the solution to an evaporating basin. Labelled diagram: a Bunsen burner under a tripod, with a wire gauze on top of the tripod; an evaporating basin sits on the gauze, containing the salt solution.\nHeat gently to evaporate the water until crystals begin to form. Allow the solution to cool, so pure NaCl crystals form.\nFilter the crystals and dry them between sheets of filter paper to obtain a pure, dry sample.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -54813,7 +54813,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 15,
-    "model": "Label the axes: y-axis \"Volume of O₂ (cm³)\", x-axis \"Time (minutes)\".\nScale the axes: x-axis 0 to 12 min (1 or 2 min per division), y-axis 0 to 80 cm³ (e.g. 10 cm³ per division).\nPlot six or more points correctly: (0,0), (2,50), (4,69), (6,75), (8,78), (10,79), (12,79).\nDraw a smooth curve through the points and (0,0). It rises steeply at first, then levels off at about 79 cm³.",
+    "model": "Label the axes: y-axis: Volume of O₂ (cm³); x-axis: Time (minutes).\nScale the axes: x-axis 0 to 12 min (2 min per division), y-axis 0 to 80 cm³ (e.g. 10 cm³ per division).\nPlot the points correctly: (0,0), (2,50), (4,69), (6,75), (8,78), (10,79), (12,79).\nDraw a smooth curve through the points and (0,0). It rises steeply at first, then levels off at about 79 cm³.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -54828,7 +54828,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 12,
-    "model": "60 cm³ [58 – 62 cm³]. rate decreases (slows down) with time / initial rate greatest / more reactant (hydrogen peroxide, H2O2) at start / rate proportional to concentration / reactant (hydrogen peroxide, H2O2) gets used up",
+    "model": "60 cm³. The rate decreases (slows down) with time, because the reactant, hydrogen peroxide (H2O2), gets used up.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -55027,7 +55027,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(k)A",
     "marks": 6,
-    "model": "Two physical properties shared by all metals:\nGood conductor of heat (heat conductivity)\nGood conductor of electricity (electrical conductivity)\nOther accepted properties include lustre (shine), malleability and ductility.",
+    "model": "Two physical properties shared by all metals:\nGood conductor of heat\nGood conductor of electricity",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -55841,7 +55841,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 12,
-    "model": "Method:\n1. Draw a pencil line about 2 cm from the bottom edge of a strip of chromatography paper.\n2. Apply a small spot of the indicator mixture to the line with a capillary tube or dropper and allow it to dry.\n3. Place the paper in a closed tank or beaker containing a shallow layer of solvent, so the bottom edge dips into the solvent and the spot is about 2 cm above the solvent level.\n4. Cover the tank and allow the solvent to rise up the paper until it nearly reaches the top.\n5. Remove the paper, mark the solvent front and allow it to dry.\nLabelled diagram (in words): a vertical strip of paper with the pencil line and spot near the bottom, a covered beaker or tank, and the solvent level below the spot line.\nMobile phase: the solvent (eluent), e.g. ethanol or water, which moves up the paper carrying the indicators.",
+    "model": "Method:\n1. Draw a pencil line about 2 cm from the bottom edge of a strip of chromatography paper.\n2. Apply a small spot of the indicator mixture to the line with a capillary tube and allow it to dry.\n3. Place the paper in a closed tank containing a shallow layer of solvent, so the bottom edge dips into the solvent and the spot is about 2 cm above the solvent level.\n4. Cover the tank and allow the solvent to rise up the paper until it nearly reaches the top.\n5. Remove the paper, mark the solvent front and allow it to dry.\nLabelled diagram (in words): a vertical strip of paper with the pencil line and spot near the bottom, a covered tank, and the solvent level below the spot line.\nMobile phase: the solvent (eluent), e.g. ethanol, which moves up the paper carrying the indicators.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -57424,7 +57424,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "Reactant: hydrogen gas, H₂.\nCatalyst: a transition metal such as nickel (Ni). Other acceptable catalysts are platinum (Pt), palladium (Pd), copper (Cu), rhodium (Rh) or ruthenium (Ru).",
+    "model": "Reactant: hydrogen gas, H₂.\nCatalyst: a transition metal such as nickel (Ni).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -58402,7 +58402,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "Methyl orange (or methyl red, or phenolphthalein). Any suitable indicator is accepted.",
+    "model": "Methyl orange.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -58478,7 +58478,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 6,
-    "model": "Mr(NaOH) = 23 + 16 + 1 = 40 g/mol.\nConcentration in g/l = 0.0782 mol/l × 40 g/mol = 3.13 g/l (within the range 3.12–3.2 g/l).",
+    "model": "Mr(NaOH) = 23 + 16 + 1 = 40 g/mol.\nConcentration in g/l = 0.0782 mol/l × 40 g/mol = 3.13 g/l.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -58569,7 +58569,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "A volumetric flask. A measuring cylinder, pipette or burette would also be acceptable.",
+    "model": "A volumetric flask.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -59462,7 +59462,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "Gas chromatography (GC). Mass spectrometry would also be accepted.",
+    "model": "Gas chromatography (GC).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -59545,7 +59545,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 3,
-    "model": "Manganese dioxide (MnO₂), a black powder that catalyses the decomposition of hydrogen peroxide. Copper(II) oxide (CuO) would also be accepted.",
+    "model": "Manganese dioxide (MnO₂), a black powder that catalyses the decomposition of hydrogen peroxide.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -59605,7 +59605,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "Reading the graph at 1.5 minutes gives a volume of about 64 cm³ of oxygen (acceptable range 60 to 70 cm³).",
+    "model": "Reading the graph at 1.5 minutes gives a volume of about 64 cm³ of oxygen.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -59999,7 +59999,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 6,
-    "model": "HCl is a strong acid, so it is fully dissociated and [H⁺] = 0.3 mol dm⁻³.\npH = −log(0.3) = 0.523 (accept 0.5 to 0.523).",
+    "model": "HCl is a strong acid, so it is fully dissociated and [H⁺] = 0.3 mol dm⁻³.\npH = −log(0.3) = 0.523.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -60231,7 +60231,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)",
     "marks": 12,
-    "model": "Use 25 cm³ pipette twice, previously rinsed with deionised water and rinsed with hard water sample. Read meniscus at eye level at bottom. Do not blow out last drop. Allow drainage time. OR use burette to measure 50 cm³, rinsed with deionised water and sample, read meniscus at eye level, keep vertical.",
+    "model": "Use 25 cm³ pipette twice, previously rinsed with deionised water and rinsed with hard water sample. Read meniscus at eye level at bottom. Do not blow out last drop. Allow drainage time.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -60554,7 +60554,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 3,
-    "model": "Evaporate (boil off) the solvent, leaving the clove oil behind. Distillation of the solvent would also work.",
+    "model": "Evaporate (boil off) the solvent, leaving the clove oil behind.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -61411,7 +61411,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 12,
-    "model": "Draw a tangent to the NO₂ concentration–time curve at t = 100 s (touching the curve at 0.0065 M).\nRead two points on the tangent, e.g. (0 s, 0.0087 M) and (205 s, 0.0040 M).\nGradient = Δ[NO₂]/Δt = (0.0040 − 0.0087) / (205 − 0) = −2.3 × 10⁻⁵ M s⁻¹\nRate of decomposition of NO₂ = 2.3 × 10⁻⁵ M s⁻¹ (the negative sign is not required; any value from 1.8 × 10⁻⁵ to 2.5 × 10⁻⁵ M s⁻¹ is acceptable, using points from your own tangent).",
+    "model": "Draw a tangent to the NO₂ concentration–time curve at t = 100 s (touching the curve at 0.0065 M).\nRead two points on the tangent, e.g. (0 s, 0.0087 M) and (205 s, 0.0040 M).\nGradient = Δ[NO₂]/Δt = (0.0040 − 0.0087) / (205 − 0) = −2.3 × 10⁻⁵ M s⁻¹\nRate of decomposition of NO₂ = 2.3 × 10⁻⁵ M s⁻¹",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -61580,7 +61580,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "Propanal has a polar C=O group, so its molecules are attracted to each other by stronger dipole-dipole forces.// Butane is non-polar, so its molecules are held together only by weaker van der Waals (London, dispersion) forces. More energy is needed to overcome the stronger forces in propanal, so its boiling point is much higher.",
+    "model": "Propanal has a polar C=O group, so its molecules are attracted to each other by stronger dipole-dipole forces.\nButane is non-polar, so its molecules are held together only by weaker van der Waals (London dispersion) forces. More energy is needed to overcome the stronger forces in propanal, so its boiling point is much higher.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -62834,7 +62834,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 15,
-    "model": "y-axis: volume of O₂ (cm³); x-axis: time (minutes). Label both axes with quantity and unit.\nScale the axes evenly, e.g. 0 to 8 min on x and 0 to 40 (or 45) cm³ on y.\nPlot all eight points correctly: (1, 20), (2, 31), (3, 36.5), (4, 39), (5, 40), (6, 40), (7, 40), (8, 40), plus the origin (0, 0).\nDraw a smooth curve through the points and (0, 0): steep at first, then flattening to a plateau at 40 cm³ from 5 min.",
+    "model": "y-axis: volume of O₂ (cm³); x-axis: time (minutes). Label both axes with quantity and unit.\nScale the axes evenly, e.g. 0 to 8 min on x and 0 to 45 cm³ on y.\nPlot the points correctly: (1, 20), (2, 31), (3, 36.5), (4, 39), (5, 40), (6, 40), (7, 40), (8, 40), plus the origin (0, 0).\nDraw a smooth curve through the points and (0, 0): steep at first, then flattening to a plateau at 40 cm³ from 5 min.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -62868,7 +62868,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 6,
-    "model": "34 cm3 [33 to 35 cm3]",
+    "model": "34 cm³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -62984,7 +62984,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "pH = – log10 [H+] / pH = – log10 [H3O+] / pH = – log10 0.3 / 0.3 moles H+ (3); pH = – log 0.3 = 0.5 (3)",
+    "model": "pH = –log10 [H+]\n[H+] = 0.3 moles\npH = –log 0.3 = 0.5",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -63000,7 +63000,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "exothermic (3); ΔH negative / methanol (CH3OH) is a fuel / combustion reactions exothermic (give out heat) (3)",
+    "model": "exothermic\nΔH is negative: combustion reactions are exothermic and give out heat (methanol, CH3OH, is a fuel).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -63388,7 +63388,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 12.0,
-    "model": "A / methane (6); global warming / climate change / greenhouse effect / greenhouse gas / rising sea levels (6)",
+    "model": "A (methane)\nglobal warming",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -63440,7 +63440,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "temporary (3); calcium hydrogencarbonate / calcium bicarbonate / (Ca(HCO3)2 / magnesium hydrogencarbonate / magnesium bicarbonate / (Mg(HCO3)2 (3)",
+    "model": "temporary\ncalcium hydrogencarbonate (Ca(HCO3)2)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -63818,7 +63818,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 12,
-    "model": "clean a platinum (nichrome) wire (rod, probe) in concentrated hydrochloric acid (HCl) (6); dip rod in salt and hold salt in (over) hot (blue) part of flame (Bunsen) (5); observe colour of flame (1)",
+    "model": "Clean a platinum wire in concentrated hydrochloric acid (HCl).\nDip the wire in the salt and hold the salt in the hot (blue) part of the Bunsen flame.\nObserve the colour of the flame.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -64611,7 +64611,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 4,
-    "model": "H2 // (CH3COO)2Mg / (C2H3O2)2Mg",
+    "model": "H2\n(CH3COO)2Mg",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -64642,7 +64642,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 10,
-    "model": "Horizontal (slanting) test tube with delivery tube // collection over water shown // glass wool soaked in ethanol, ethene, catalyst/Al2O3, heat labelled",
+    "model": "Horizontal test tube with delivery tube\nCollection over water shown\nGlass wool soaked in ethanol, ethene, catalyst (Al2O3), heat labelled",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -64687,7 +64687,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 8,
-    "model": "Mass of ethanol = volume × density = 2.9 × 0.80 = 2.32 g\nMr (C₂H₅OH) = 46, so moles of ethanol = 2.32 ÷ 46 = 0.0504 mol\nC₂H₅OH → C₂H₄ + H₂O (1 mol ethanol gives 1 mol ethene), so 100% yield = 0.0504 mol ethene\n26% yield: 0.0504 × 0.26 = 0.0131 mol ethene\nVolume = 0.0131 × 24 000 cm³ = 315 cm³ (accepted range 300 to 315 cm³)",
+    "model": "Mass of ethanol = volume × density = 2.9 × 0.80 = 2.32 g\nMr (C₂H₅OH) = 46, so moles of ethanol = 2.32 ÷ 46 = 0.0504 mol\nC₂H₅OH → C₂H₄ + H₂O (1 mol ethanol gives 1 mol ethene), so 100% yield = 0.0504 mol ethene\n26% yield: 0.0504 × 0.26 = 0.0131 mol ethene\nVolume = 0.0131 × 24 000 cm³ = 315 cm³",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -65188,7 +65188,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 3,
-    "model": "FrOH (francium hydroxide) // H2 (hydrogen)",
+    "model": "FrOH (francium hydroxide)\nH2 (hydrogen)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -65442,7 +65442,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 3,
-    "model": "Strong acid / good proton donor / equilibrium lies on right / forward reaction favoured / Cl– cannot readily accept protons",
+    "model": "Strong acid, a good proton donor; the equilibrium lies on the right (forward reaction favoured).\nCl⁻ cannot readily accept protons.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -65640,7 +65640,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "1-butanal / butan-1-al // 1-butanoic acid / butan-1-oic acid",
+    "model": "1-butanal\n1-butanoic acid",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -65670,7 +65670,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "OH bond // CH bond of carbon to which OH is attached",
+    "model": "OH bond\nCH bond of carbon to which OH is attached",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -65715,7 +65715,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 2,
-    "model": "Methanol / CH3OH // sodium propanoate / sodium propionate / CH3CH2COONa",
+    "model": "Methanol (CH3OH)\nsodium propanoate (CH3CH2COONa)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -67518,7 +67518,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "90 - 92 mg (0.09 to 0.092 g)",
+    "model": "91 mg (0.091 g)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -67552,7 +67552,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "mortar // and pestle",
+    "model": "mortar and pestle",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -68857,7 +68857,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 3,
-    "model": "Phenylmethanol is the limiting reagent: 0.0144 mol.\nThe mole ratio of phenylmethanol to benzoic acid is 1 : 1, so 0.0144 mol of benzoic acid forms.\nTheoretical yield = 0.0144 mol × 122 g mol⁻¹ = 1.76 g (within 1.7–1.8 g) of benzoic acid.",
+    "model": "Phenylmethanol is the limiting reagent: 0.0144 mol.\nThe mole ratio of phenylmethanol to benzoic acid is 1 : 1, so 0.0144 mol of benzoic acid forms.\nTheoretical yield = 0.0144 mol × 122 g mol⁻¹ = 1.76 g of benzoic acid.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -70557,7 +70557,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "1. Ethanoic acid, CH₃COOH: CH₃–C(=O)–OH.\n2. Methyl methanoate, HCOOCH₃: H–C(=O)–O–CH₃.\n(Hydroxyethanal, HOCH₂CHO, is also acceptable.)",
+    "model": "1. Ethanoic acid, CH₃COOH: CH₃–C(=O)–OH.\n2. Methyl methanoate, HCOOCH₃: H–C(=O)–O–CH₃.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -71199,7 +71199,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 3,
-    "model": "71 cm3 (70 – 74 cm3)",
+    "model": "71 cm3",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -73143,7 +73143,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 9,
-    "model": "0.03 moles tri-ester → 0.09 moles soap. Mr soap = 222. 0.09 × 222 = 19.98 g (19.98 – 20 g) CH₃(CH₂)₁₀COONa.",
+    "model": "0.03 moles tri-ester → 0.09 moles soap. Mr soap = 222. 0.09 × 222 = 19.98 g CH₃(CH₂)₁₀COONa.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -73438,7 +73438,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "H₂O + H₂O ⇌ H₃O⁺ + OH⁻ / 2H₂O ⇌ H₃O⁺ + OH⁻. Allow H₂O ⇌ H⁺ + OH⁻.",
+    "model": "2H₂O ⇌ H₃O⁺ + OH⁻",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -74618,7 +74618,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "1,2-dibromoethane (BrCH₂CH₂Br) / other addition products acceptable.",
+    "model": "1,2-dibromoethane (BrCH₂CH₂Br)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -75343,7 +75343,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "6.7 – 7.0 °C",
+    "model": "6.8 °C",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -75400,7 +75400,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "corrosive; (Allow harmful, burning, irritating)",
+    "model": "corrosive",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -75660,7 +75660,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(l)(A)",
     "marks": 6,
-    "model": "SO2 / burning sulfur (sulfur compounds) (Award 3 for volcanoes, fossil fuels, etc)",
+    "model": "SO₂ (from burning sulfur or sulfur compounds)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -75828,7 +75828,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 0,
-    "model": "no attraction between polar water and non-polar oxygen molecules / water polar and oxygen non-polar / molecules (substances) with similar bonding dissolve one another / molecules (substances) with dissimilar bonding do not dissolve one another (Allow 3 for 'like dissolves like')",
+    "model": "There is no attraction between polar water and non-polar oxygen molecules.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -76303,7 +76303,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "A: bromine (Br2); B: hydrogen chloride (HCl) (Allow hydrochloric acid for hydrogen chloride)",
+    "model": "A: bromine (Br2); B: hydrogen chloride (HCl)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -76479,7 +76479,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "2.2 – 2.6 minutes",
+    "model": "2.4 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -77171,7 +77171,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "At the start the solution is wine red (pink is also accepted).\nAt the end point the solution turns blue.",
+    "model": "At the start the solution is wine red.\nAt the end point the solution turns blue.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -77276,7 +77276,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(iv)",
     "marks": 3,
-    "model": "Mass of CaCO₃ per litre = moles × molar mass (100 g mol⁻¹)\n= 3.68 × 10⁻³ mol × 100 g mol⁻¹ = 0.368 g per litre (about 0.37 g l⁻¹).\nIn p.p.m.: 0.368 g = 368 mg in 1 litre, so the hardness removed is 368 p.p.m. CaCO₃ (accept 368 to 370).",
+    "model": "Mass of CaCO₃ per litre = moles × molar mass (100 g mol⁻¹)\n= 3.68 × 10⁻³ mol × 100 g mol⁻¹ = 0.368 g per litre (about 0.37 g l⁻¹).\nIn p.p.m.: 0.368 g = 368 mg in 1 litre, so the hardness removed is 368 p.p.m. CaCO₃.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -77463,7 +77463,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "Evaporate/boil off some water or heat filtrate; put flask in ice-water or cool solution; allow time for crystals to form",
+    "model": "Evaporate some water from the solution; cool in ice-water; allow time for crystals to form",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -77571,7 +77571,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 15,
-    "model": "13 – 14 minutes",
+    "model": "13.5 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -77586,7 +77586,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "19 – 20 cm3 O2 per minute (total volume ÷ total time = 78 ÷ 4)",
+    "model": "19.5 cm3 O2 per minute (total volume ÷ total time = 78 ÷ 4)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -77616,7 +77616,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 9,
-    "model": "On the graph from (c), draw a rising curve starting at the origin and label it 'half' (or '(i)').\nIt is less steep than the original curve (half the concentration gives a slower rate) and levels off at about 56 cm³ (anywhere from 50 to 60 cm³), half the original volume.",
+    "model": "On the graph from (c), draw a rising curve starting at the origin and label it 'half'.\nIt is less steep than the original curve (half the concentration gives a slower rate) and levels off at about 56 cm³, half the original volume.",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -79523,7 +79523,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)B(ii)",
     "marks": 3,
-    "model": "Zinc (Zn). Magnesium (Mg) or aluminium (Al) are also acceptable.",
+    "model": "Zinc (Zn).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -79987,7 +79987,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "1.3–1.7 minute",
+    "model": "1.5 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -80004,7 +80004,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 3,
-    "model": "Read the volume of O₂ at 2.5 minutes from the graph: about 72 cm³ (68–76 cm³)\nAverage rate = volume ÷ time = 72 ÷ 2.5 = 28.8 cm³ O₂ per minute (27.0–30.4 cm³ per minute)",
+    "model": "Read the volume of O₂ at 2.5 minutes from the graph: about 72 cm³\nAverage rate = volume ÷ time = 72 ÷ 2.5 = 28.8 cm³ O₂ per minute",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
@@ -80395,7 +80395,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "Na: 0.93 (0.9) and F: 3.98 (4). Ionic.",
+    "model": "Na: 0.93 and F: 3.98. Ionic.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -81069,7 +81069,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 6,
-    "model": "Number of protons (allow: number of electrons in a neutral atom)",
+    "model": "Number of protons",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -81359,7 +81359,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 3,
-    "model": "Phosphorus (P), as phosphates. Nitrogen (N), as nitrates, is also acceptable.",
+    "model": "Phosphorus (P), as phosphates.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -82179,7 +82179,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 6,
-    "model": "Three times more heat produced / three times more moles (0.15) neutralised // three times more solution (water) absorbing heat / three times more solution (greater mass of water, more water, 0.3 kg) being heated",
+    "model": "Three times more heat is produced, as three times more moles (0.15) are neutralised, and this heat is absorbed by three times more solution (0.3 kg of water) being heated.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -82272,7 +82272,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "V-shape / bent / angular // linear",
+    "model": "V-shape (bent)\nLinear",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -82347,7 +82347,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "Catalyst / substance which alters rate of reaction // of biological (living) origin / that is protein in nature",
+    "model": "A substance of biological (living) origin, i.e. a protein, which alters the rate of reaction.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -82500,7 +82500,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "Only works for hydrogen atom (He⁺ ion) / doesn't work for multi-electron atoms (ions) // wave-particle duality not included / wave nature of electron not included // uncertainty (Heisenberg) principle not included // did not explain high resolution spectra (splitting of spectral lines, Zeemann effect) // did not explain sublevels (orbitals) / only accounted for main energy levels (shells). ANY TWO.",
+    "model": "1. It only works for the hydrogen atom (He⁺ ion) and does not work for multi-electron atoms (ions).\n2. It does not include the wave nature of the electron (wave-particle duality).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -82943,7 +82943,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 8,
-    "model": "Add iron(II) sulfate (FeSO₄) / add ammonium iron(II) sulfate ((NH₄)₂SO₄·FeSO₄·6H₂O) // add concentrated sulfuric acid (H₂SO₄) dropwise (gently, with a dropper) // brown ring forms",
+    "model": "Add iron(II) sulfate (FeSO₄).\nAdd concentrated sulfuric acid (H₂SO₄) dropwise (gently, with a dropper).\nA brown ring forms.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83201,7 +83201,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 8,
-    "model": "Stage reached when / after a while / rate of forward reaction decreases until / only PCl₃ and Cl₂ react at first / rate of reverse reaction increases until / PCl₅ reacts when it is formed / both reactions continue / dynamic equilibrium / reactions do not stop // at equilibrium rates of forward and reverse reactions are equal (rᶠ = rʳ) / at equilibrium unchanging concentrations",
+    "model": "Equilibrium is reached when the rate of the forward reaction decreases until it equals the rate of the reverse reaction. At first only PCl₃ and Cl₂ react; the rate of the reverse reaction increases as PCl₅ forms. Both reactions continue, giving a dynamic equilibrium.\nAt equilibrium the rates of the forward and reverse reactions are equal (rᶠ = rʳ), so the concentrations are unchanged.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83282,7 +83282,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "Adding chlorine (Cl₂) is a stress // relieved when chlorine (Cl₂) reacts forming more PCl₅ (favouring forward reaction, right hand side, greater yield of product)",
+    "model": "Adding chlorine (Cl₂) is a stress. The stress is relieved when chlorine (Cl₂) reacts, forming more PCl₅ (favouring the forward reaction, right-hand side, greater yield of product).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83529,7 +83529,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "Atoms with same atomic number (same Z, equal numbers protons) / atoms of the same element // different number of neutrons (different A) / different mass numbers",
+    "model": "Atoms with the same atomic number (same number of protons)\nDifferent numbers of neutrons (different mass numbers)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83658,7 +83658,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 4,
-    "model": "High temperature // low pressure",
+    "model": "High temperature\nLow pressure",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83692,7 +83692,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(v)",
     "marks": 6,
-    "model": "Strong H bonding (intermolecular forces) between its molecules / polar molecule // molecules (particles) not point masses / particles (molecules, atoms) occupy volume // collisions not elastic. ANY TWO.",
+    "model": "1. Strong H bonding (intermolecular forces) between its polar molecules.\n2. Molecules (particles) are not point masses; they occupy volume.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83804,7 +83804,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 4,
-    "model": "Minimum energy of reacting (colliding) molecules (particles, reactants) // for product molecule(s) to be formed / for reaction to occur / for (of) effective collisions / for intermediate (transition state) to be formed / for internal bonds to be broken",
+    "model": "The minimum energy of reacting (colliding) molecules needed for a reaction to occur.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83855,7 +83855,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 6,
-    "model": "Energy (time) required to break covalent bonds before new bonds formed / covalent bonds must be broken before they can react // ions dissociated already / ions ready to react / ions react when they collide (meet) / ionic bonds already broken in solution",
+    "model": "Covalent bonds must be broken before they can react, which takes energy and time.\nIons are already dissociated in solution, so they react as soon as they collide (meet).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -83872,7 +83872,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(v)",
     "marks": 9,
-    "model": "Add catalyst (Co²⁺, cobalt(II) ions) // increase temperature // increase concentration hydrogen peroxide // increase concentration sodium potassium tartrate. ANY THREE.",
+    "model": "1. Add a catalyst (Co²⁺, cobalt(II) ions).\n2. Increase the temperature.\n3. Increase the concentration of hydrogen peroxide.",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -84365,7 +84365,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 3,
-    "model": "to find approximate titre (volume required for neutralisation, result) / to allow accurate titre (volume required for neutralisation, result) to be found more easily (quickly)",
+    "model": "To find the approximate titre (volume required for neutralisation), so that an accurate titre can be found more easily (quickly).",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -85582,7 +85582,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "5.5 – 6.0 minute",
+    "model": "5.8 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -85597,7 +85597,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "1.1 – 1.3 minute",
+    "model": "1.2 minutes",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -85612,7 +85612,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 3,
-    "model": "0.41 – 0.49 g CO2",
+    "model": "0.45 g CO₂",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86216,7 +86216,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(A)(iv)",
     "marks": 6,
-    "model": "Nitrogen makes up about four-fifths of clean air, i.e. approximately 78–80%.",
+    "model": "Nitrogen makes up about four-fifths of clean air, i.e. approximately 78%.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -86365,7 +86365,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 3,
-    "model": "pipette / burette [accept graduated cylinder / syringe]",
+    "model": "pipette",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86413,7 +86413,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "reference to a factor of 5 [state/imply]; 12.4 ÷ 5 = 2.48 (cm³) [accept 2.5 (cm³)]",
+    "model": "reference to a factor of 5; 12.4 ÷ 5 = 2.48 (cm³)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86460,7 +86460,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "pink [do not accept purple] to colourless [do not accept clear]; [award 3 marks for both correct colours reversed]",
+    "model": "pink to colourless",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86606,7 +86606,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 3,
-    "model": "to maximise the yield / to allow crystallisation",
+    "model": "to maximise the yield",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86640,7 +86640,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 3,
-    "model": "acidified KMnO₄ (solution) // Fehling's (A and B) // Tollen's (reagent)",
+    "model": "acidified KMnO₄ (solution)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86700,7 +86700,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 3,
-    "model": "Mn⁷⁺ → Mn²⁺ // Cu²⁺ → Cu⁺ // Ag⁺ → Ag",
+    "model": "Mn⁷⁺ → Mn²⁺\nCu²⁺ → Cu⁺\nAg⁺ → Ag",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -86760,7 +86760,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)2",
     "marks": 3,
-    "model": "The co-product is glycerol, i.e. propane-1,2,3-triol (also accepted as glycerin or glycerine).",
+    "model": "The co-product is glycerol, i.e. propane-1,2,3-triol.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -86818,7 +86818,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 6,
-    "model": "X placed under flask // light-meter; (time measured until) X not visible // (time measured until) same value",
+    "model": "X placed under flask; (time measured until) X not visible",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87335,7 +87335,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "ground state: lowest energy / n = 1 / stable / in 1s // excited states: greater energy / n > 1 / unstable / not in 1s",
+    "model": "ground state: lowest energy\nexcited states: greater energy",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87365,7 +87365,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 3,
-    "model": "spectrometer / spectroscope [do not accept mass spectrometer]",
+    "model": "spectrometer",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87410,7 +87410,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "sublevel: 2p // (Ne has) 3 // can be > 2 e⁻; orbital: e.g. 2pₓ // (Ne has) 5 // = 2 e⁻",
+    "model": "sublevel: 2p (Ne has 3); can be > 2 e⁻\norbital: e.g. 2pₓ (Ne has 5); = 2 e⁻",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87578,7 +87578,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 15,
-    "model": "Compound C is C₄H₈. Three isomers, each with a name and structure:\n\n1. But-1-ene (CH₂=CH–CH₂–CH₃): a four-carbon chain with a double bond between carbons 1 and 2. C1 has two H atoms, C2 has one H atom, C3 has two H atoms and C4 has three H atoms. All C–H, C–C and the C=C bond are drawn.\n\n2. But-2-ene (CH₃–CH=CH–CH₃): a four-carbon chain with the double bond between carbons 2 and 3. Each end carbon has three H atoms and each middle carbon has one H atom. Both the cis and trans forms are accepted.\n\n3. 2-methylprop-1-ene, also called methylpropene (CH₂=C(CH₃)–CH₃): a three-carbon chain with a double bond between carbons 1 and 2. C1 has two H atoms. The central carbon (C2) is bonded to a methyl (CH₃) group and to the terminal carbon (C3), which has three H atoms.",
+    "model": "Compound C is C₄H₈. Three isomers, each with a name and structure:\n\n1. But-1-ene (CH₂=CH–CH₂–CH₃): a four-carbon chain with a double bond between carbons 1 and 2. C1 has two H atoms, C2 has one H atom, C3 has two H atoms and C4 has three H atoms.\n\n2. But-2-ene (CH₃–CH=CH–CH₃): a four-carbon chain with the double bond between carbons 2 and 3. Each end carbon has three H atoms and each middle carbon has one H atom.\n\n3. 2-methylprop-1-ene, also called methylpropene (CH₂=C(CH₃)–CH₃): a three-carbon chain with a double bond between carbons 1 and 2. C1 has two H atoms. The central carbon (C2) is bonded to a methyl (CH₃) group and to the terminal carbon (C3), which has three H atoms.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -87645,7 +87645,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 5,
-    "model": "forward and reverse reactions // concentrations; have equal rates // are constant",
+    "model": "forward and reverse reactions have equal rates\nconcentrations are constant",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87661,7 +87661,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "Kc = [H₂][CO₂] / [H₂O][CO] [award 3 marks if round brackets are used]",
+    "model": "Kc = [H₂][CO₂] / [H₂O][CO]",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87677,7 +87677,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 9,
-    "model": "[H₂O] = 3.2/V // [CO] = 0.2/V // [CO₂] = 0.8/V; 0.8 × 0.8 / (3.2 × 0.2) = 1",
+    "model": "[H₂O] = 3.2/V\n[CO] = 0.2/V\n[CO₂] = 0.8/V; 0.8 × 0.8 / (3.2 × 0.2) = 1",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -87883,7 +87883,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "hydrogen chloride [do not accept HCl or hydrochloric acid]",
+    "model": "hydrogen chloride",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -88041,7 +88041,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 3,
-    "model": "increases by 1 [accept changes by 1]",
+    "model": "increases by 1",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -88090,7 +88090,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 5,
-    "model": "pH is close to 0 (when pure) / weak base and long vertical [accept pH < 1 or pH is very low]",
+    "model": "pH is close to 0 (when pure)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -89073,7 +89073,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 14,
-    "model": "wash with deionised water / use a wash bottle; wash with solution; use a pipette filler; draw solution above mark; (reduce volume until the bottom of the meniscus is) level with the mark; allow to fall into flask; tip drop off edge; wash down sides of flask",
+    "model": "wash with deionised water; wash with solution; use a pipette filler; draw solution above mark; reduce volume until the bottom of the meniscus is level with the mark; allow to fall into flask; tip drop off edge; wash down sides of flask",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91022,7 +91022,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "add (deionised water) drop by drop / slowly (3); bottom of meniscus on the mark (3)",
+    "model": "add (deionised water) drop by drop; bottom of meniscus on the mark",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91067,7 +91067,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "with deionised water (3); with iron(II) solution / solution it will contain (3)",
+    "model": "with deionised water; with iron(II) solution",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91112,7 +91112,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(iii)",
     "marks": 6,
-    "model": "brown / precipitate (3); MnO2 / Mn4+ (3)",
+    "model": "brown precipitate; MnO2",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91142,7 +91142,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 4,
-    "model": "0.000225 × 5 = 0.001125 (moles per 25 cm³) (2); 0.001125 × 10 = 0.01125 (moles per 250 cm³) (2)",
+    "model": "0.000225 × 5 = 0.001125 (moles per 25 cm³); 0.001125 × 10 = 0.01125 (moles per 250 cm³)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91157,7 +91157,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(iii)",
     "marks": 4,
-    "model": "0.01125 ÷ 6 = 0.001875 (moles per tablet) (2); × 56 = 0.105 (g per tablet) (2)",
+    "model": "0.01125 ÷ 6 = 0.001875 (moles per tablet); × 56 = 0.105 (g per tablet)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91172,7 +91172,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(iv)",
     "marks": 4,
-    "model": "0.105/0.416 = 0.2524, × 100 = 25.24 (%) // 0.630/2.496 = 0.2524, × 100 = 25.24 (%)",
+    "model": "0.105/0.416 = 0.2524, × 100 = 25.24 (%)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91220,7 +91220,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "milky (3); emulsion / oil droplets dispersed in water (3)",
+    "model": "milky; emulsion",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91265,7 +91265,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "non-polar // low solubility in water // low boiling point // low reactivity // lower density than water [any two]",
+    "model": "non-polar; low solubility in water",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91355,7 +91355,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iv)",
     "marks": 5,
-    "model": "18 × 0.07 = 1.26 (3); 1.26 ÷ 1.06 = 1.2 cm³ (2)",
+    "model": "18 × 0.07 = 1.26; 1.26 ÷ 1.06 = 1.2 cm³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91388,7 +91388,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 12,
-    "model": "axes labelled (3); points plotted (7 × 1); [maximum of 3 marks for points plotted on paper other than graph paper]; curve with good fit (2)",
+    "model": "axes labelled; points plotted; curve with good fit",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91403,7 +91403,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "good tangent drawn at 2.5 minutes (3); ≈ 9.8 cm³ min⁻¹ (3)",
+    "model": "good tangent drawn at 2.5 minutes; ≈ 9.8 cm³ min⁻¹",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91559,7 +91559,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 6,
-    "model": "by atomic mass (3); similar properties (3)",
+    "model": "by atomic mass; similar properties",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91636,7 +91636,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 6,
-    "model": "1s² 2s² 2p⁶ (3); 3s² 3p⁶ 4s² 3d³ (3)",
+    "model": "1s² 2s² 2p⁶; 3s² 3p⁶ 4s² 3d³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91651,7 +91651,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "57.84/12 : 3.61/1 : 38.55/16 (3); C4H3O2 (3)",
+    "model": "57.84/12 : 3.61/1 : 38.55/16; C4H3O2",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91667,7 +91667,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 6,
-    "model": "at the same temperature and pressure (3); equal volumes of gases have equal numbers of particles (3)",
+    "model": "at the same temperature and pressure; equal volumes of gases have equal numbers of particles",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91703,7 +91703,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(h)",
     "marks": 6,
-    "model": "140 × 8.3 = 1162 (mg) (3); 1162 (mg) ÷ 50 = 23.24 cm³ (3)",
+    "model": "140 × 8.3 = 1162 (mg); 1162 (mg) ÷ 50 = 23.24 cm³",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91719,7 +91719,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "quantity of dissolved oxygen consumed by biological action (3); over 5 days in the dark at 20 °C (3)",
+    "model": "quantity of dissolved oxygen consumed by biological action; over 5 days in the dark at 20 °C",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91738,7 +91738,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(j)",
     "marks": 6,
-    "model": "lower (melting point) (3); broader range / less sharp (3)",
+    "model": "lower (melting point); broader range",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91758,7 +91758,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(k)",
     "marks": 6,
-    "model": "N (+5) → N (+2) / Cu(0) → Cu (+2) (3); Nitrogen / N (3)",
+    "model": "N (+5) → N (+2); Cu(0) → Cu (+2); N",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91844,7 +91844,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 6,
-    "model": "35 protons (3); 44 neutrons (Br-79) and 46 neutrons (Br-81) (3)",
+    "model": "35 protons; 44 neutrons (Br-79) and 46 neutrons (Br-81)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91859,7 +91859,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "average mass of an atom (3); compared to one twelfth the carbon–12 isotope (3)",
+    "model": "average mass of an atom; compared to one twelfth the carbon–12 isotope",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91874,7 +91874,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 6,
-    "model": "50.69 × 79 = 4004.5 and 49.31 × 81 = 3994.11 (2); 4004.5 + 3994.11 = 7998.61 (2); 7998.61 ÷ 100 = 79.99 (2)",
+    "model": "50.69 × 79 = 4004.5 and 49.31 × 81 = 3994.11; 4004.5 + 3994.11 = 7998.61; 7998.61 ÷ 100 = 79.99",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -91934,7 +91934,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 6,
-    "model": "occupy singly (3); then in pairs (3)",
+    "model": "occupy singly; then in pairs",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92148,7 +92148,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 14,
-    "model": "+ (+50.6) [= +50.6] (3); + 2 (–285.8) [= –571.6] (3); – 2(–45.9) [= +91.8] (3); – (– 187.8) [= +187.8] (3); = –241.4 (kJ) (2)",
+    "model": "+ (+50.6) [= +50.6]; + 2 (–285.8) [= –571.6]; – 2(–45.9) [= +91.8]; – (– 187.8) [= +187.8]; = –241.4 (kJ)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92181,7 +92181,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 4,
-    "model": "proton donor (2); proton acceptor (2)",
+    "model": "proton donor; proton acceptor",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92197,7 +92197,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(ii)",
     "marks": 4,
-    "model": "good proton donor (2); poor proton donor (2)",
+    "model": "good proton donor; poor proton donor",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92245,7 +92245,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "–log10 (2); [H+] / moles per litre of H+ ions (2)",
+    "model": "–log10; [H+] = moles per litre of H+ ions",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92261,7 +92261,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 4,
-    "model": "[H+] = 10⁻1.4 (2); 0.0398 (mol L⁻¹) (2)",
+    "model": "[H+] = 10⁻1.4; 0.0398 (mol L⁻¹)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92277,7 +92277,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 7,
-    "model": "√(Ka×Macid) = [H+] / –log10√(Ka×Macid) (2); Ka×Macid = 0.0000048 / √(Ka×Macid) = 0.00219 (2); pH = 2.66 / 2.7 (3)",
+    "model": "√(Ka×Macid) = [H+]; Ka×Macid = 0.0000048; √(Ka×Macid) = 0.00219; pH = 2.66",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92309,7 +92309,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "[H+] = √(9.61 × 10⁻¹⁴) / [H+] = 3.1 × 10⁻⁷ (3); pH = –log10 (3.1 × 10⁻⁷) = 6.5 (3)",
+    "model": "[H+] = √(9.61 × 10⁻¹⁴); [H+] = 3.1 × 10⁻⁷; pH = –log10 (3.1 × 10⁻⁷) = 6.5",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92325,7 +92325,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "blue (3); H3O+ concentration decreases / (equilibrium position) moves to the right / system opposes stress (3)",
+    "model": "blue; H3O+ concentration decreases",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92452,7 +92452,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "(from) blue (3); to red (3)",
+    "model": "(from) blue; to red",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92472,7 +92472,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "hydrogen (gas) / H2 (3); nickel / Ni (3)",
+    "model": "hydrogen (gas); nickel",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92687,7 +92687,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 4,
-    "model": "Mr = 110 (2); 55/110 = 0.5 (moles of NOBr) (2)",
+    "model": "Mr = 110; 55/110 = 0.5 (moles of NOBr)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92702,7 +92702,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 4,
-    "model": "0.5 × 78% = 0.390 (moles decomposed) (2); 0.5 – 0.39 = 0.110 (moles of NOBr at equilibrium) (2)",
+    "model": "0.5 × 78% = 0.390 (moles decomposed); 0.5 – 0.39 = 0.110 (moles of NOBr at equilibrium)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92717,7 +92717,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "[NO]²[Br2]/[NOBr]² [award 3 marks if round brackets are used]",
+    "model": "[NO]²[Br2]/[NOBr]²",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92732,7 +92732,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 10,
-    "model": "0.390 (moles of NO) (2); 0.195 (moles of Br2) (2); convert moles to moles per litre (÷ 2) i.e. 0.055 of NOBr, 0.195 of NO, 0.0975 of Br2 (3); Kc = (0.195)² (0.0975)/(0.055)² = 1.2 (mol L⁻¹) (3)",
+    "model": "0.390 (moles of NO); 0.195 (moles of Br2); convert moles to moles per litre (÷ 2) i.e. 0.055 of NOBr, 0.195 of NO, 0.0975 of Br2; Kc = (0.195)² (0.0975)/(0.055)² = 1.2 (mol L⁻¹)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92747,7 +92747,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "system at equilibrium (4); opposes an applied stress (2)",
+    "model": "system at equilibrium; opposes an applied stress",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92762,7 +92762,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "decreases (4); (equilibrium position) moves to side with fewer moles (2)",
+    "model": "decreases; (equilibrium position) moves to side with fewer moles",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92777,7 +92777,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "endothermic (4); (equilibrium position) moves in direction that absorbs heat (2)",
+    "model": "endothermic; (equilibrium position) moves in direction that absorbs heat",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92811,7 +92811,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 6,
-    "model": "3.98(F) - 3.04(N) = 0.94 (3); polar covalent (3)",
+    "model": "3.98(F) - 3.04(N) = 0.94; polar covalent",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92841,7 +92841,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "pyramidal (3); one lone pair and three bonding pairs (of electrons around central atom) (3)",
+    "model": "pyramidal; one lone pair and three bonding pairs (of electrons around central atom)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92886,7 +92886,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(vi)",
     "marks": 4,
-    "model": "BF3 is symmetrical / centres of positive and negative charge coincide (4)",
+    "model": "BF3 is symmetrical; centres of positive and negative charge coincide",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92931,7 +92931,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "Cl+ (3); Cl⁻ (3)",
+    "model": "Cl+; Cl⁻",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92961,7 +92961,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(v)",
     "marks": 6,
-    "model": "Cl⁻ attacks (3); the carbocation / carbonium ion / bridged chloronium ion (3)",
+    "model": "Cl⁻ attacks; the carbocation",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -92991,7 +92991,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 18,
-    "model": "Mr (C6H8O7) = 192 (2); Mr (C4H6O6) = 150 (2); Mr (NaHCO3) = 84 (2); 0.096/192 = 0.0005 (moles of C6H8O7) (2); 0.0005 × 3 = 0.0015 (moles of NaHCO3) (2); 0.15/150 = 0.001 (moles of C4H6O6) (2); 0.001 × 2 = 0.002 (moles of NaHCO3) (2); 0.0015 + 0.002 = 0.0035 (total moles of NaHCO3) (2); 0.0035 × 84 = 0.294 (g NaHCO3) (2)",
+    "model": "Mr (C6H8O7) = 192; Mr (C4H6O6) = 150; Mr (NaHCO3) = 84; 0.096/192 = 0.0005 (moles of C6H8O7); 0.0005 × 3 = 0.0015 (moles of NaHCO3); 0.15/150 = 0.001 (moles of C4H6O6); 0.001 × 2 = 0.002 (moles of NaHCO3); 0.0015 + 0.002 = 0.0035 (total moles of NaHCO3); 0.0035 × 84 = 0.294 (g NaHCO3)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93022,7 +93022,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 5,
-    "model": "0.0005 × 3 (2); 0.0015 × 6 × 10²³ = 9 × 10²⁰ (H2O molecules) (3)",
+    "model": "0.0005 × 3; 0.0015 × 6 × 10²³ = 9 × 10²⁰ (H2O molecules)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93115,7 +93115,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iv)",
     "marks": 6,
-    "model": "add iron(II) sulfate solution / FeSO4 (2); add concentrated sulfuric acid / H2SO4 (2); brown ring forms (at interface) (2)",
+    "model": "add iron(II) sulfate solution; add concentrated sulfuric acid; brown ring forms (at interface)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93172,7 +93172,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(vii)",
     "marks": 6,
-    "model": "(1% =) 1 g per 100 cm³/ 10 g per 1 litre/ 50 g per 5 litres (2); 1000 mg per 100 cm³/ 10000 mg per 1 litre/ 50000 mg per 5 litres (2); multiply by dilution factor = 2000 (p.p.m.) (2)",
+    "model": "(1% =) 10 g per 1 litre; 10000 mg per 1 litre; multiply by dilution factor = 2000 (p.p.m.)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93207,7 +93207,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "heat change (3); when the number of moles of reactants in a balanced equation react completely (3)",
+    "model": "heat change; when the number of moles of reactants in a balanced equation react completely",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93242,7 +93242,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(iv)",
     "marks": 6,
-    "model": "mass = 0.160 (kg) (2); mcΔθ / (0.160)(4.2)(6.8) (2); 4.5696 (kJ) / 4569.6 J (2)",
+    "model": "mass = 0.160 (kg); mcΔθ = (0.160)(4.2)(6.8); 4.5696 (kJ)",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93261,7 +93261,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(v)",
     "marks": 4,
-    "model": "4.5696 ÷ 0.08 = 57.12 (2); ΔH = – 57.12 kJ mol⁻¹ (2)",
+    "model": "4.5696 ÷ 0.08 = 57.12; ΔH = – 57.12 kJ mol⁻¹",
     "model_source": "audited",
     "answerStatus": "kept",
     "type": [
@@ -93907,7 +93907,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)",
     "marks": 9,
-    "model": "Moles of Na₂CO₃ = 0.05 × 25/1000 = 0.00125 mol\nFrom the equation 2HCl + Na₂CO₃ → 2NaCl + H₂O + CO₂, 1 mol Na₂CO₃ reacts with 2 mol HCl:\nMoles of HCl = 2 × 0.00125 = 0.0025 mol\nConcentration of HCl = 0.0025 × 1000/18.4 = 0.136 M (accept 0.13 - 0.14 M)",
+    "model": "Moles of Na₂CO₃ = 0.05 × 25/1000 = 0.00125 mol\nFrom the equation 2HCl + Na₂CO₃ → 2NaCl + H₂O + CO₂, 1 mol Na₂CO₃ reacts with 2 mol HCl:\nMoles of HCl = 2 × 0.00125 = 0.0025 mol\nConcentration of HCl = 0.0025 × 1000/18.4 = 0.136 M",
     "model_source": "audited",
     "answerStatus": "written",
     "type": [
