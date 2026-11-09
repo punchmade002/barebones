@@ -183,6 +183,11 @@ const els = {
   feedbackStatus: document.getElementById("feedbackStatus"),
   feedbackSubmit: document.getElementById("feedbackSubmit"),
   feedbackInboxList: document.getElementById("feedbackInboxList"),
+  openUsageStats: document.getElementById("openUsageStats"),
+  usageStatsCount: document.getElementById("usageStatsCount"),
+  profileMenuUsage: document.getElementById("profileMenuUsage"),
+  usageSummary: document.getElementById("usageSummary"),
+  usageStatsList: document.getElementById("usageStatsList"),
   feedbackReplyModal: document.getElementById("feedbackReplyModal"),
   feedbackReplyList: document.getElementById("feedbackReplyList"),
   feedbackReplyDismiss: document.getElementById("feedbackReplyDismiss"),
@@ -238,6 +243,10 @@ let isFeedbackAdmin = false;
 let feedbackInboxItems = [];
 let feedbackInboxFilter = "open";
 let pendingFeedbackReplyIds = [];
+let usageTracker = null;
+let usageStatsRows = null;
+let usageStatsRange = "7";
+let usageStatsRequest = 0;
 let authSaveTimer = null;
 let authSaveInFlight = null;
 let authActivationPromise = null;
@@ -330,6 +339,7 @@ if (isLocalOnboardingPreview) {
   switchTab("test");
 } else if (!isLocalMathsPreview) {
   initializeAccounts();
+  startUsageTracking();
 }
 
 function bindEvents() {
@@ -345,6 +355,7 @@ function bindEvents() {
   });
   els.closeSubjectChoices.addEventListener("click", () => showProfilePane("main"));
   bindFeedback();
+  bindUsageStats();
   els.closeAccountDetails.addEventListener("click", hideAuthPanel);
   els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
   els.showSignUp.addEventListener("click", () => showAuthMode("signup"));
@@ -424,6 +435,7 @@ function bindEvents() {
     els.profileMenu.classList.add("hidden");
     try {
       await flushRemoteStudySave();
+      await usageTracker?.flush();
       await accountAuth?.signOut();
     } catch (error) {
       console.error(error);
@@ -461,11 +473,13 @@ function showProfilePane(pane) {
     subjects: els.profileMenuSubjects,
     feedback: els.profileMenuFeedback,
     inbox: els.profileMenuInbox,
+    usage: els.profileMenuUsage,
   };
   const active = panes[pane] ? pane : "main";
   Object.entries(panes).forEach(([name, el]) => el.classList.toggle("hidden", name !== active));
   els.profileMenu.classList.toggle("profile-menu-wide", active === "subjects" || active === "feedback");
   els.profileMenu.classList.toggle("profile-menu-inbox", active === "inbox");
+  els.profileMenu.classList.toggle("profile-menu-usage", active === "usage");
 }
 
 /* ── Feedback ──────────────────────────────────
@@ -554,6 +568,7 @@ async function refreshFeedbackAdmin() {
     }
   }
   els.openFeedbackInbox.classList.toggle("hidden", !isFeedbackAdmin);
+  els.openUsageStats.classList.toggle("hidden", !isFeedbackAdmin);
   if (!isFeedbackAdmin) {
     feedbackInboxItems = [];
     els.feedbackInboxCount.textContent = "";
@@ -568,6 +583,8 @@ function resetFeedbackState() {
   pendingFeedbackReplyIds = [];
   els.openFeedbackInbox.classList.add("hidden");
   els.feedbackInboxCount.textContent = "";
+  els.openUsageStats.classList.add("hidden");
+  usageStatsRows = null;
   els.feedbackMessage.value = "";
   setFeedbackStatus("");
   hideFeedbackReplies();
@@ -720,6 +737,223 @@ async function dismissFeedbackReplies() {
     // If this fails the reply simply shows again next time.
     console.error(error);
   }
+}
+
+/* ── Usage stats ───────────────────────────────
+   usage-tracker.js counts active time per subject + screen and sends it to
+   record_usage(). Admins see everyone's totals in Profile menu → User stats
+   (admin_usage_stats()). Schema: supabase/usage.sql. */
+const USAGE_SCREEN_LABELS = {
+  home: "Subject list",
+  learn: "Learn",
+  test: "Test setup",
+  "test-session": "Taking a test",
+  exam: "Exam questions",
+  notes: "Full notes",
+  "live-reader": "Live reader",
+  "exam-breakdown": "Exam breakdown",
+  papers: "Exam papers",
+  "paper-viewer": "Reading a paper",
+  progress: "Progress",
+  onboarding: "Onboarding",
+};
+
+function startUsageTracking() {
+  if (!accountAuth?.configured || !window.BarebonesUsage) return;
+  usageTracker = window.BarebonesUsage.startUsageTracker({
+    getContext: currentUsageContext,
+    send: (entries) => accountAuth.recordUsage(entries),
+  });
+}
+
+// Where the student is right now, or null when nothing should be counted.
+function currentUsageContext() {
+  if (!activeAuthUserId || !getCurrentUser()) return null;
+  const shown = (el) => Boolean(el) && !el.classList.contains("hidden");
+  if (shown(els.authPanel)) return null;
+  const userId = activeAuthUserId;
+  const subject = selectedSubjectId || "general";
+  const at = (screen, subjectId = subject) => ({ userId, subject: subjectId, screen });
+
+  if (document.body.classList.contains("onboarding-open")) return at("onboarding", "general");
+  if (shown(document.getElementById("paperViewer"))) return at("paper-viewer");
+  if (shown(document.getElementById("papersScreen"))) return at("papers");
+  if (shown(els.liveReader)) return at("live-reader");
+  if (shown(els.fullNotesScreen)) return at("notes");
+  if (shown(document.getElementById("examBreakdownModal"))) return at("exam-breakdown");
+  if (shown(els.testScreen)) return at("test-session");
+  if (shown(els.progressScreen)) return at("progress", "general");
+  if (isPhoneLayout() && phoneHome) return at("home", "general");
+  if (els.examTab?.classList.contains("active")) return at("exam");
+  if (els.testTab?.classList.contains("active")) return at("test");
+  return at("learn");
+}
+
+function bindUsageStats() {
+  els.openUsageStats.addEventListener("click", () => {
+    showProfilePane("usage");
+    loadUsageStats();
+  });
+  els.profileMenuUsage.querySelectorAll("[data-usage-range]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (usageStatsRange === button.dataset.usageRange) return;
+      usageStatsRange = button.dataset.usageRange;
+      usageStatsRows = null;
+      loadUsageStats();
+    });
+  });
+}
+
+function usageSinceDay(range) {
+  if (range === "all") return null;
+  const since = new Date();
+  since.setDate(since.getDate() - (Number(range) - 1));
+  return window.BarebonesUsage.localDay(since.getTime());
+}
+
+async function loadUsageStats() {
+  if (!isFeedbackAdmin) return;
+  els.profileMenuUsage.querySelectorAll("[data-usage-range]").forEach((button) => {
+    const active = button.dataset.usageRange === usageStatsRange;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", String(active));
+  });
+  if (usageStatsRows) {
+    renderUsageStats();
+    return;
+  }
+  const request = ++usageStatsRequest;
+  els.usageSummary.textContent = "";
+  els.usageStatsList.innerHTML = `<p class="inbox-empty">Loading…</p>`;
+  try {
+    // Send this browser's pending time first so your own row is current.
+    await usageTracker?.flush();
+    const rows = await accountAuth.adminUsageStats(usageSinceDay(usageStatsRange));
+    if (request !== usageStatsRequest) return;
+    usageStatsRows = rows;
+  } catch (error) {
+    if (request !== usageStatsRequest) return;
+    console.error(error);
+    const missing = /admin_usage_stats|schema cache|does not exist/i.test(error?.message || "");
+    els.usageStatsList.innerHTML = `<p class="inbox-empty">${
+      missing
+        ? "Stats aren’t switched on yet. Run supabase/usage.sql in the Supabase SQL editor."
+        : `Couldn’t load stats. ${escapeHtml(error?.message || "")}`
+    }</p>`;
+    return;
+  }
+  renderUsageStats();
+}
+
+// One entry per student: { username, total, days, lastActive, subjects, screens }.
+function summarizeUsage(rows) {
+  const byUser = new Map();
+  rows.forEach((row) => {
+    let user = byUser.get(row.user_id);
+    if (!user) {
+      user = {
+        id: row.user_id,
+        username: row.username || "unknown",
+        joinedAt: row.joined_at,
+        total: 0,
+        days: Number(row.active_days) || 0,
+        lastActive: row.last_active || null,
+        subjects: new Map(),
+        screens: new Map(),
+      };
+      byUser.set(row.user_id, user);
+    }
+    const seconds = Number(row.seconds) || 0;
+    if (!seconds || !row.subject || !row.screen) return;
+    user.total += seconds;
+    user.subjects.set(row.subject, (user.subjects.get(row.subject) || 0) + seconds);
+    user.screens.set(row.screen, (user.screens.get(row.screen) || 0) + seconds);
+  });
+  return [...byUser.values()].sort((a, b) =>
+    b.total - a.total || String(b.lastActive || "").localeCompare(String(a.lastActive || "")) || a.username.localeCompare(b.username)
+  );
+}
+
+function formatUsageDuration(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 1) return seconds > 0 ? "<1m" : "0m";
+  const hours = Math.floor(minutes / 60);
+  if (!hours) return `${minutes}m`;
+  return `${hours}h ${String(minutes % 60).padStart(2, "0")}m`;
+}
+
+function formatUsageLastActive(value) {
+  if (!value) return "Never active";
+  const diff = Date.now() - new Date(value).getTime();
+  if (!Number.isFinite(diff)) return "";
+  const minutes = Math.round(diff / 60000);
+  if (minutes < 2) return "Active now";
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.round(hours / 24);
+  if (days < 14) return `${days}d ago`;
+  return formatFeedbackDate(value);
+}
+
+function usageSubjectLabel(id) {
+  if (id === "general") return "General";
+  return SUBJECTS.find((s) => s.id === id)?.title || id;
+}
+
+function usageScreenLabel(id) {
+  return USAGE_SCREEN_LABELS[id] || id;
+}
+
+function renderUsageBreakdown(title, entries, labelFor) {
+  const sorted = [...entries].sort((a, b) => b[1] - a[1]);
+  const max = sorted[0]?.[1] || 1;
+  return `
+    <div class="usage-group">
+      <p class="usage-group-title">${escapeHtml(title)}</p>
+      ${sorted.map(([id, seconds]) => `
+        <div class="usage-bar-row">
+          <span class="usage-bar-label">${escapeHtml(labelFor(id))}</span>
+          <span class="usage-bar-track" aria-hidden="true"><span class="usage-bar-fill" style="width:${Math.max(2, Math.round((seconds / max) * 100))}%"></span></span>
+          <span class="usage-bar-value">${escapeHtml(formatUsageDuration(seconds))}</span>
+        </div>`).join("")}
+    </div>`;
+}
+
+function renderUsageStats() {
+  const users = summarizeUsage(usageStatsRows || []);
+  const active = users.filter((u) => u.total > 0);
+  const total = active.reduce((sum, u) => sum + u.total, 0);
+  els.usageStatsCount.textContent = users.length ? `${users.length}` : "";
+  els.usageSummary.innerHTML = users.length
+    ? `<span><strong>${users.length}</strong> ${users.length === 1 ? "student" : "students"}</span>
+       <span><strong>${active.length}</strong> active</span>
+       <span><strong>${escapeHtml(formatUsageDuration(total))}</strong> total</span>`
+    : "";
+  if (!users.length) {
+    els.usageStatsList.innerHTML = `<p class="inbox-empty">No accounts yet.</p>`;
+    return;
+  }
+  els.usageStatsList.innerHTML = users.map((user) => {
+    const meta = user.total
+      ? `${escapeHtml(formatUsageLastActive(user.lastActive))} · ${user.days} ${user.days === 1 ? "day" : "days"}`
+      : "No time in this range";
+    const head = `
+      <span class="usage-user-name">${escapeHtml(user.username)}</span>
+      <span class="usage-user-total">${escapeHtml(formatUsageDuration(user.total))}</span>
+      <span class="usage-user-meta">${meta}</span>`;
+    if (!user.total) {
+      return `<div class="usage-user is-idle"><div class="usage-user-head">${head}</div></div>`;
+    }
+    return `
+      <details class="usage-user">
+        <summary class="usage-user-head">${head}</summary>
+        <div class="usage-user-body">
+          ${renderUsageBreakdown("By subject", user.subjects, usageSubjectLabel)}
+          ${renderUsageBreakdown("By screen", user.screens, usageScreenLabel)}
+        </div>
+      </details>`;
+  }).join("");
 }
 
 /* ── Sidebar collapse ──────────────────────────

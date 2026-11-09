@@ -265,7 +265,26 @@
     if (error) throw error;
   }
 
+  async function recordUsage(entries) {
+    if (!entries?.length) return;
+    const authClient = requireClient();
+    const { error } = await authClient.rpc("record_usage", { entries });
+    if (error) throw error;
+  }
+
+  // sinceDay: "YYYY-MM-DD" or null for all time. Admin only.
+  async function adminUsageStats(sinceDay) {
+    const authClient = requireClient();
+    const { data, error } = await authClient.rpc("admin_usage_stats", {
+      since_day: sinceDay || null,
+    });
+    if (error) throw error;
+    return data || [];
+  }
+
   window.BarebonesAuth = {
+    recordUsage,
+    adminUsageStats,
     submitFeedback,
     getUnseenFeedbackReplies,
     markFeedbackRepliesSeen,
