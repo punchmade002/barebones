@@ -67,6 +67,7 @@ def main(subject, journals):
             'key': key,
             'crops': [str(base / 'crops-png' / f'{key}-{i}.png') for i in range(1, len(crops[key]['images']) + 1)],
             'attemptRule': scan['attemptRule'],
+            'context': scan.get('context', ''),     # shared material (case study, table) as text
             'questionMarks': total,
             'schemeNote': scheme['note'],
             'oldAnswer': str(old) if old.exists() else None,

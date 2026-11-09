@@ -27,6 +27,10 @@ SUBJECTS = {
                 'paper': lambda section: 'A+B' if section in ('A', 'B') else 'C'},
     'chemistry': {'prefix': 'chem', 'default_marks': {'A': 50, 'B': 50},
                   'paper': lambda section: ''},
+    # PE (2018 specification): one answerbook; Section A short questions (8 marks), Section B the
+    # case study (Q13, 50 marks), Section C long questions (40 marks each).
+    'pe': {'prefix': 'pe', 'default_marks': {'A': 8, 'B': 50, 'C': 40},
+           'paper': lambda section: ''},
 }
 
 
