@@ -1,6 +1,7 @@
 // Chemistry exam bank, rebuilt to the Biology blueprint (pipeline/EXAM_BANK_REBUILD.md):
-// questions ship as crops of the original paper, every answer is notes-only and checked
-// against the marking scheme, and each part is tagged with its exact paper question.
+// questions ship as crops of the original paper, every answer was checked against the marking
+// scheme, and each part is tagged with its exact paper question. Unlike Biology, off-spec parts
+// keep a reference answer (still tagged offSpec, so the app labels them and tests skip them).
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
@@ -45,13 +46,13 @@ test("every question is tagged with its exact paper, level and number", () => {
   for (let y = 2001; y <= 2025; y++) assert.ok(years.has(y), `no questions from ${y}`);
 });
 
-test("only checked answers ship, and off-spec or disputed parts carry none", () => {
+test("only checked answers ship, and disputed parts carry none", () => {
   for (const q of rebuiltBank()) {
     assert.ok(q.totalMarks > 0, `${q.id} needs the scheme's question total`);
     for (const part of q.parts) {
       const shipped = ["written", "kept"].includes(part.answerStatus);
       assert.equal(Boolean(part.model), shipped, `${q.id} ${part.label}: answer/status mismatch`);
-      if (part.offSpec) assert.equal(part.answerStatus, "off-spec");
+      assert.ok(["kept", "written", "flagged"].includes(part.answerStatus), `${q.id} ${part.label}: ${part.answerStatus}`);
       if (shipped) assert.ok(part.notesRefs.length > 0, `${q.id} ${part.label} cites no notes`);
     }
   }

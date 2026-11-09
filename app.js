@@ -3551,7 +3551,11 @@ function setExamPaperScale(input) {
 // Part rows for image-based questions carry no question text, only what the paper can't show.
 function renderExamPartStatus(group, part) {
   if (!group.images?.length) return "";
-  if (part.offSpec) return `<p class="exam-part-note muted small">Not on the current course, so there is no model answer.</p>`;
+  if (part.offSpec) {
+    return part.model
+      ? `<p class="exam-part-note muted small">Not on the current course. The model answer is kept for reference.</p>`
+      : `<p class="exam-part-note muted small">Not on the current course, so there is no model answer.</p>`;
+  }
   if (!part.model) return `<p class="exam-part-note muted small">Model answer under review.</p>`;
   return "";
 }
