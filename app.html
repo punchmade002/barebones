@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=72" />
+    <link rel="stylesheet" href="./styles.css?v=73" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="./responsive.css?v=7" />
@@ -66,6 +66,11 @@
             <span id="feedbackInboxCount" class="profile-row-value"></span>
             <span class="profile-row-chevron" aria-hidden="true">›</span>
           </button>
+          <button id="openUsageStats" class="profile-row hidden" type="button">
+            <span class="profile-row-label">User stats</span>
+            <span id="usageStatsCount" class="profile-row-value"></span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
           <button id="openStudyPlan" class="profile-row" type="button">
             <span class="profile-row-label">Study plan</span>
             <span id="studyPlanValue" class="profile-row-value"></span>
@@ -105,6 +110,19 @@
             <button class="inbox-filter-btn" type="button" role="tab" aria-selected="false" data-inbox-filter="addressed">Addressed</button>
           </div>
           <div id="feedbackInboxList" class="inbox-list"></div>
+        </div>
+        <div id="profileMenuUsage" class="profile-pane hidden">
+          <div class="profile-pane-head">
+            <button class="profile-pane-back" type="button" data-profile-back aria-label="Back to account">‹</button>
+            <span>User stats</span>
+          </div>
+          <div class="inbox-filter usage-range" role="tablist" aria-label="Time range">
+            <button class="inbox-filter-btn active" type="button" role="tab" aria-selected="true" data-usage-range="7">7 days</button>
+            <button class="inbox-filter-btn" type="button" role="tab" aria-selected="false" data-usage-range="30">30 days</button>
+            <button class="inbox-filter-btn" type="button" role="tab" aria-selected="false" data-usage-range="all">All time</button>
+          </div>
+          <p id="usageSummary" class="usage-summary"></p>
+          <div id="usageStatsList" class="inbox-list usage-list"></div>
         </div>
       </div>
     </div>
@@ -483,7 +501,8 @@
     <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=4"></script>
+    <script src="./auth.js?v=5"></script>
+    <script src="./usage-tracker.js?v=1"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
     <script src="./pe-exam-info.js?v=2"></script>
@@ -498,7 +517,7 @@
     <script src="./subject-packs.js?v=1"></script>
     <script src="./subject-builder.js?v=1"></script>
     <script src="./subject-index.js?v=1"></script>
-    <script src="./app.js?v=87"></script>
+    <script src="./app.js?v=88"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=5"></script>
     <script src="./timer.js?v=2"></script>
