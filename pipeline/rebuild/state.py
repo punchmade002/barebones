@@ -31,9 +31,15 @@ def main(subject, journals):
         # falls back to every notes file of that part's chapter.
         notes_dir = base / 'notes'
         for p in scan['parts']:
+            chapter = p.get('chapterId') or ''
             good = [lo for lo in p.get('loIds', []) if (notes_dir / f'{lo}.md').exists()]
-            if not good:
-                good = sorted(f.stem for f in notes_dir.glob(f"{p.get('chapterId', '')}-s*.md"))
+            if '-s' in chapter:                # a notes id given as the chapter ("chem23-s1")
+                if (notes_dir / f'{chapter}.md').exists() and chapter not in good:
+                    good.append(chapter)
+                chapter = chapter.split('-s')[0]
+                p['chapterId'] = chapter
+            if not good and chapter:
+                good = sorted(f.stem for f in notes_dir.glob(f'{chapter}-s*.md'))
             p['loIds'] = good
         marks = {p['label']: p for p in scheme['parts']}
         labels = [p['label'] for p in scan['parts']]
@@ -44,6 +50,14 @@ def main(subject, journals):
         # Count-based Section A schemes ("6 correct = 20") give no per-part marks; fall back to
         # the section total and an even split so timing and marks still show sensibly.
         total = scheme['questionMarks'] or SUBJECTS[subject]['default_marks'][crops[key]['section']]
+        # Parts the scheme left without marks (e.g. "answer A or B" options) share what the
+        # question total has not already given out.
+        missing = [p for p in scan['parts'] if not marks.get(p['label'], {}).get('marks')]
+        given = sum(marks[p['label']]['marks'] for p in scan['parts'] if marks.get(p['label'], {}).get('marks'))
+        if missing and len(missing) < len(scan['parts']) and total and total > given:
+            share = round((total - given) / len(missing), 1)
+            for p in missing:
+                marks.setdefault(p['label'], {'schemePoints': [], 'fullMarksRule': ''})['marks'] = share
         if not any(marks.get(p['label'], {}).get('marks') for p in scan['parts']):
             share = round(total / max(len(scan['parts']), 1), 1)
             for p in scan['parts']:
