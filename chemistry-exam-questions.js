@@ -2360,7 +2360,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(i)",
     "marks": 6,
-    "model": "About 12 minutes (accept 11 to 12 min).\nThe curve levels off at 30 cm³, the final volume of hydrogen, so the reaction has finished by about 12 minutes.",
+    "model": "The reaction was finished at about 12 minutes.\nThe curve levels off at 30 cm³, the final volume of hydrogen, so no more gas is produced after this time.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -2377,7 +2377,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "About 2.2 minutes (accept 2.1 to 2.5 min, or 2 min 6 s to 2 min 30 s).\nHalf the magnesium gives half the final volume, 15 cm³.\nRead across from 15 cm³ to the curve and down to the time axis.",
+    "model": "About 2.2 minutes.\nHalf the magnesium gives half the final volume of hydrogen, 15 cm³.\nRead across from 15 cm³ to the curve and down to the time axis.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -2394,7 +2394,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "About 2.8 minutes (accept 2.7 to 3.0 min, or 2 min 42 s to 3 min).\nRead across from 18 cm³ to the curve and down to the time axis.",
+    "model": "About 2.8 minutes.\nRead across from 18 cm³ on the volume axis to the curve and down to the time axis.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -13232,7 +13232,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 3,
-    "model": "Read across from 2.5 minutes on the time axis to the curve, then across to the volume axis.\nVolume of oxygen at 2.5 minutes: 26.5 to 28.5 cm³ (about 27.5 cm³).",
+    "model": "Read up from 2.5 minutes on the time axis to the curve, then across to the volume axis.\nVolume of oxygen produced in the first 2.5 minutes ≈ 27.5 cm³.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -13247,7 +13247,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(ii)",
     "marks": 6,
-    "model": "Draw a tangent to the curve at 2.5 minutes and find its gradient from two points on the tangent.\nGradient = change in volume ÷ change in time = 6.0 to 8.0 cm³ min⁻¹ (equivalently 0.10 to 0.13 cm³ s⁻¹).",
+    "model": "Draw a tangent to the curve at t = 2.5 minutes and choose two points on it.\nInstantaneous rate = gradient = change in volume ÷ change in time ≈ 7.0 cm³ min⁻¹.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -38210,7 +38210,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 3,
-    "model": "Dehydrocyclisation (cyclodehydrogenation) / reforming: hydrogen is removed from hexane and the chain closes into a six-membered ring to form benzene.",
+    "model": "Dehydrocyclisation (reforming).\nHydrogen is removed from hexane and the chain closes into a six-membered ring, forming benzene.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -38765,7 +38765,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 6,
-    "model": "Draw a tangent to the curve at t = 60 s.\nGradient = (0.29 − 0.18) g ÷ (80 − 40) s = 0.11 g ÷ 40 s ≈ 2.75 × 10⁻³ g/s.\n(Any value between 2.0 × 10⁻³ and 3.0 × 10⁻³ g/s is accepted.)",
+    "model": "Draw a tangent to the curve at t = 60 s.\nGradient = (0.29 − 0.18) g ÷ (80 − 40) s = 0.11 g ÷ 40 s\nRate ≈ 2.75 × 10⁻³ g/s of carbon dioxide produced.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -39419,7 +39419,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(i)",
     "marks": 8,
-    "model": "A: pipette (graduated pipette), used to measure a fixed volume of solution accurately.\nB: burette, used to deliver a variable volume of solution accurately, controlled by the tap.",
+    "model": "A: pipette (a 25 cm³ bulb or volumetric pipette), used to measure a fixed volume of solution accurately.\nB: burette, used to deliver a variable volume of solution accurately, controlled by the tap.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -41985,7 +41985,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "A: pentane\nB: 2-methylbutane\n(The number 2 is not required for pentane, but an incorrect number would lose the mark.)",
+    "model": "A: pentane\nB: 2-methylbutane",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -52750,7 +52750,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "Run A reached completion first.",
+    "model": "Run A reached completion first: it reached 82 cm³ of oxygen at 9.5 minutes, whereas run B only reached 82 cm³ at 11.0 minutes.\nRun B had the slower initial rate: it produced only 16 cm³ in the first minute compared with 25 cm³ for run A.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -57362,7 +57362,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 9,
-    "model": "The overall colour change is purple (pink) to brown to colourless.\nThe purple MnO₄⁻ ion contains manganese in the +7 oxidation state (Mn(VII)). It is reduced to brown MnO₂, in which manganese is +4 (Mn(IV)), which forms as a brown solid.\nThis brown MnO₂ is reduced further to colourless Mn²⁺, in which manganese is +2 (Mn(II)).",
+    "model": "The colour changes from colourless to purple (pink), then to brown, then back to colourless.\nThe purple colour is MnO₄⁻, with manganese in the +7 oxidation state (Mn(VII)). It is reduced to brown MnO₂, in which manganese is +4 (Mn(IV)).\nThe brown MnO₂ is then reduced further to colourless Mn²⁺, in which manganese is +2 (Mn(II)).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -58273,7 +58273,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 3,
-    "model": "Three different indicators were separated. Four is also accepted.",
+    "model": "Three different indicators were separated.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -64350,7 +64350,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)B(iii)",
     "marks": 6,
-    "model": "Ammonia: hydrogen (from natural gas or coal) and nitrogen (from the air).\nNitric acid: ammonia and oxygen (from the air).\nMagnesium oxide: seawater and limestone.\nGive two feedstocks from the one line for the industry you study.",
+    "model": "Ammonia industry: hydrogen (from natural gas or coal) and nitrogen (from the air).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -65259,7 +65259,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)(iii)",
     "marks": 2,
-    "model": "A (pentane) is most likely to auto-ignition (knock).\nA is a straight-chain molecule with no branching, so it has the lowest octane number and the poorest resistance to auto-ignition.",
+    "model": "A (pentane) is the most likely to auto-ignite (cause knocking).\nA is a straight-chain molecule with no branching, so it has the lowest octane number and the poorest resistance to auto-ignition.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -68977,7 +68977,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 6,
-    "model": "From the curve, the rate at 40 °C is about 0.029 s⁻¹. Double this is about 0.059 s⁻¹, which the curve reaches at about 50 °C.\nSo the rate doubles for every x ≈ 10 °C rise in temperature (accept 9–11 °C).",
+    "model": "From the graph, the rate at 40 °C is about 0.029 s⁻¹.\nDouble this is about 0.059 s⁻¹, which the curve reaches at about 50 °C.\nSo the rate doubles for every 10 °C rise in temperature (x = 10).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -69726,7 +69726,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(i)",
     "marks": 6,
-    "model": "pH = −log[H₃O⁺], so [H₃O⁺] = inverse log(−5.6) = 10⁻⁵·⁶\n[H₃O⁺] = 2.5 × 10⁻⁶ mol per litre (mol l⁻¹) (2.512 × 10⁻⁶ mol l⁻¹)",
+    "model": "pH = −log[H₃O⁺], so [H₃O⁺] = inverse log(−5.6) = 10⁻⁵·⁶\n[H₃O⁺] = 2.5 × 10⁻⁶ mol l⁻¹",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -69741,7 +69741,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(d)(ii)",
     "marks": 6,
-    "model": "pOH = 14 − 7.2 = 6.8\n[OH⁻] = inverse log(−6.8) = 10⁻⁶·⁸\n[OH⁻] = 1.58 × 10⁻⁷ mol per litre (mol l⁻¹) (about 1.6 × 10⁻⁷ mol l⁻¹)",
+    "model": "pOH = 14 − 7.2 = 6.8\n[OH⁻] = inverse log(−6.8) = 10⁻⁶·⁸\n[OH⁻] = 1.58 × 10⁻⁷ mol l⁻¹",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -69879,7 +69879,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "Reagent: hydrogen gas (H₂).\nCatalyst: nickel (Ni). Platinum (Pt), palladium (Pd) or another suitable metal catalyst is also acceptable.",
+    "model": "Reagent: hydrogen gas (H₂).\nCatalyst: nickel (Ni).",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -72687,7 +72687,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)A(ii)",
     "marks": 6,
-    "model": "Feedstock (also called raw materials).",
+    "model": "Feedstock.",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
@@ -76494,7 +76494,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "From the table, the volume is 50 cm³ at 4 minutes and 62 cm³ at 6 minutes, so at 5 minutes the volume is about 56 cm³ (read from the graph, 55 to 57 cm³).\nAverage rate = volume ÷ time = 56 cm³ ÷ 5 min\n= 11.2 cm³ of H₂ per minute (accept 11.0 to 11.4 cm³ min⁻¹).",
+    "model": "From the graph, the volume of H₂ at 5 minutes is about 56 cm³.\nAverage rate = volume ÷ time = 56 cm³ ÷ 5 min\n= 11.2 cm³ of H₂ per minute",
     "model_source": "haiku",
     "answerStatus": "written",
     "type": [
