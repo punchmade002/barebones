@@ -41,8 +41,14 @@ BACK_COVER = re.compile(r'Leaving Certificate\s*[–-]\s*(Higher|Ordinary)')  # 
 ANCHOR = re.compile(r'^(\d{1,2})(\.?)(\s|$)')
 ANCHOR_SLACK = 8        # question numbers sit at the paper's left margin; numbered sub-items are indented
 SECTION = re.compile(r'^Section\s+([ABC])\b')
-FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Biology\s*[–-].*Level.*'
+FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Leaving Certificate,?\s*\d{4}.*|(Biology|Chemistry)\s*[–-].*Level.*'
                     r'|Sections? [ABC].*|\d{1,2})$')
+
+
+def paper_pdf(subject, paper):
+    """Raw paper PDF; pre-syllabus reference papers are stored with a -REF suffix."""
+    plain = RAW / subject / f'{paper}-EV-papers.pdf'
+    return plain if plain.exists() else RAW / subject / f'{paper}-EV-papers-REF.pdf'
 
 
 def lines_of(page):
@@ -98,7 +104,7 @@ def content_box(page, y0, y1):
 
 def find_questions(paper):
     """Return [{number, section, segments: [(page_index, y0, y1)]}] for one paper file."""
-    doc = fitz.open(RAW / SUBJECT / f'{paper}-EV-papers.pdf')
+    doc = fitz.open(paper_pdf(SUBJECT, paper))
     margins = [min((b[0] for b, t in lines_of(page) if b[0] < 80 and (m := ANCHOR.match(t)) and m.group(2)),
                    default=None) for page in doc]
     doc_margin = min((m for m in margins if m is not None), default=57)
@@ -192,6 +198,13 @@ def main(subject, papers):
     for paper in papers:
         year, level = paper.split('-')[:2]
         doc, questions = find_questions(paper)
+        # a question the detector missed can be supplied entirely by an override
+        found = {q['number'] for q in questions}
+        for okey in overrides:
+            oy, ol, oq = okey.split('-')
+            if (oy, ol) == (year, level) and int(oq[1:]) not in found:
+                questions.append({'number': int(oq[1:]), 'section': None, 'segments': []})
+        questions.sort(key=lambda q: q['number'])
         render_pages(doc, paper)
         img_dir = ROOT / 'exam-images' / subject / year
         img_dir.mkdir(parents=True, exist_ok=True)
@@ -202,7 +215,7 @@ def main(subject, papers):
             segments = overrides.get(key, segments)
             images, text = [], []
             for k, seg in enumerate(segments, 1):
-                page = fitz.open(RAW / subject / f'{seg["paper"]}-EV-papers.pdf')[seg['page'] - 1]
+                page = fitz.open(paper_pdf(subject, seg['paper']))[seg['page'] - 1]
                 box = content_box(page, seg['y0'], seg['y1'])
                 if box is None or box.height < 2 * PAD + 14:
                     continue
