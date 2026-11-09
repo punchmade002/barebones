@@ -1,67 +1,58 @@
-// Integrity tests for the chemistry exam bank after the Nov 2026 answer audit.
-//
-// Every model answer was audited against the official marking scheme by two
-// independent Haiku agents; any part either flagged went to Sonnet, whose rewrite
-// (or decision to keep the original) was re-checked by Haiku against the scheme.
-// Each part is tagged with the exact paper question it answers (qref), its audit
-// outcome (answerStatus) and the number of full-marks scheme points.
-// Scripts: pipeline/rebuild/chem_audit_{packets.ts,workflow.js,merge.ts}.
-
-const test = require("node:test");
+// Chemistry exam bank, rebuilt to the Biology blueprint (pipeline/EXAM_BANK_REBUILD.md):
+// questions ship as crops of the original paper, every answer is notes-only and checked
+// against the marking scheme, and each part is tagged with its exact paper question.
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
+const test = require("node:test");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const context = {};
-context.window = context;
-vm.createContext(context);
-vm.runInContext(fs.readFileSync(path.join(root, "chemistry-exam-questions.js"), "utf8"), context);
-const questions = context.EXAM_QUESTIONS_DB;
-const parts = questions.flatMap((q) => q.parts.map((p, i) => ({ q, p, i })));
 
-function report(label, offenders) {
-  const sample = offenders.slice(0, 5).map(({ q, p }) => `${q.id} [${p ? p.label : "-"}]`);
-  return `${offenders.length} with ${label}: ${sample.join(", ")}${offenders.length > 5 ? ", …" : ""}`;
+function rebuiltBank() {
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, "chemistry-exam-questions.js"), "utf8"), context);
+  return context.window.EXAM_QUESTIONS_DB;
 }
 
-test("the bank keeps every question and part", () => {
-  assert.equal(questions.length, 617);
-  assert.equal(parts.length, 3701);
+test("rebuilt Chemistry questions ship as paper crops, never as transcribed text", () => {
+  const bank = rebuiltBank();
+  assert.ok(bank.length > 500, `only ${bank.length} questions`);
+  for (const q of bank) {
+    assert.ok(q.images.length > 0, `${q.id} has no crops`);
+    q.images.forEach((src) => assert.ok(fs.existsSync(path.join(root, src)), `${src} must exist`));
+    for (const part of q.parts) {
+      assert.ok(!("question" in part) && !("text" in part), `${q.id} ${part.label} ships question text`);
+    }
+  }
 });
 
-test("question ids are unique", () => {
-  const seen = new Map();
-  for (const q of questions) seen.set(q.id, (seen.get(q.id) || 0) + 1);
-  const dups = [...seen].filter(([, n]) => n > 1).map(([id]) => id);
-  assert.deepEqual(dups, []);
+test("every question is tagged with its exact paper, level and number", () => {
+  const bank = rebuiltBank();
+  const ids = new Set();
+  for (const q of bank) {
+    assert.ok(!ids.has(q.id), `duplicate id ${q.id}`);
+    ids.add(q.id);
+    assert.match(q.id, /^chemistry-pp-\d{4}-(higher|ordinary)-q\d+$/);
+    assert.ok(["higher", "ordinary"].includes(q.level), `${q.id} level`);
+    assert.equal(q.id, `chemistry-pp-${q.year}-${q.level}-q${q.questionNumber}`);
+    assert.ok(["chem-sectionA", "chem-sectionB"].includes(q.sectionId), `${q.id} section`);
+    assert.equal(q.legacy, true, `${q.id}: every paper predates the 2027 specification`);
+  }
+  // every paper on disk (2001-2025) is represented
+  const years = new Set(bank.map((q) => q.year));
+  for (let y = 2001; y <= 2025; y++) assert.ok(years.has(y), `no questions from ${y}`);
 });
 
-test("every question is tagged with its level and question number", () => {
-  const bad = questions.filter((q) => !["higher", "ordinary"].includes(q.level) || !Number.isInteger(q.questionNumber) || q.questionNumber < 1 || q.questionNumber > 11);
-  assert.equal(bad.length, 0, report("no level/questionNumber", bad.map((q) => ({ q }))));
-});
-
-test("every part is audited and tagged with the exact question it answers", () => {
-  const bad = parts.filter(({ p }) => !["kept", "written", "flagged"].includes(p.answerStatus) || typeof p.qref !== "string" || !Number.isInteger(p.scheme_points));
-  assert.equal(bad.length, 0, report("no audit tag", bad));
-});
-
-test("each part's tag matches its question's year, level and number", () => {
-  const bad = parts.filter(({ q, p }) => {
-    const m = /^(\d{4}) (Higher|Ordinary) Q(\d+)(\(.+\))$/.exec(p.qref || "");
-    return !m || Number(m[1]) !== q.year || m[2].toLowerCase() !== q.level || Number(m[3]) !== q.questionNumber;
-  });
-  assert.equal(bad.length, 0, report("a qref that disagrees with its question", bad));
-});
-
-test("every part carries a model answer", () => {
-  const bad = parts.filter(({ p }) => !String(p.model || "").trim());
-  assert.equal(bad.length, 0, report("no model answer", bad));
-});
-
-test("rewritten answers carry no examiner notation", () => {
-  const bad = parts.filter(({ p }) => p.model_source === "audit-rewrite" && /\[accept|\(\d+ marks?\)|\(\d+ ?× ?\d+\)/i.test(p.model));
-  assert.equal(bad.length, 0, report("examiner notation in a rewrite", bad));
+test("only checked answers ship, and off-spec or disputed parts carry none", () => {
+  for (const q of rebuiltBank()) {
+    assert.ok(q.totalMarks > 0, `${q.id} needs the scheme's question total`);
+    for (const part of q.parts) {
+      const shipped = ["written", "kept"].includes(part.answerStatus);
+      assert.equal(Boolean(part.model), shipped, `${q.id} ${part.label}: answer/status mismatch`);
+      if (part.offSpec) assert.equal(part.answerStatus, "off-spec");
+      if (shipped) assert.ok(part.notesRefs.length > 0, `${q.id} ${part.label} cites no notes`);
+    }
+  }
 });
