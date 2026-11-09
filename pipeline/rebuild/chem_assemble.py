@@ -68,12 +68,15 @@ def main(fill_path):
                 '_chapter': sp.get('chapterId', ''),
             })
         on_spec = [p['_chapter'] for p in parts if not p['offSpec'] and p['_chapter']] or [p['_chapter'] for p in parts if p['_chapter']]
+        chapter = Counter(on_spec).most_common(1)[0][0]
         for p in parts:
             del p['_chapter']
+            if p['model'] and not p['notesRefs']:     # untagged part: cite the question's chapter
+                p['notesRefs'] = [chapter]
         bank.append({
             'id': f'chemistry-pp-{key}',
             'subject': 'chemistry',
-            'chapterId': Counter(on_spec).most_common(1)[0][0],
+            'chapterId': chapter,
             'sectionId': f'{cfg["prefix"]}-section{crop["section"]}',
             'source': f'LC Chemistry {LEVEL_NAME[crop["level"]]} {crop["year"]} — Section {crop["section"]} — Q{crop["number"]}',
             'year': crop['year'],
