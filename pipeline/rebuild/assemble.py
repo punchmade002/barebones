@@ -20,6 +20,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path.home() / 'barebones/pipeline/_data/rebuild'
 LEVEL_NAME = {'higher': 'Higher', 'ordinary': 'Ordinary'}
+# Per-subject paper layout. Biology: Sections A+B answerbook and a separate Section C paper.
+# Chemistry (1999 syllabus papers): one paper, Section A experiments (Q1-3) and Section B, 50 marks a question.
+SUBJECTS = {
+    'biology': {'prefix': 'bio', 'default_marks': {'A': 20, 'B': 30, 'C': 60},
+                'paper': lambda section: 'A+B' if section in ('A', 'B') else 'C'},
+    'chemistry': {'prefix': 'chem', 'default_marks': {'A': 50, 'B': 50},
+                  'paper': lambda section: ''},
+}
 
 
 def read_journal(path):
@@ -120,12 +128,13 @@ def main(subject, journals):
             review.append((key, None, 'crop', q['scan']['cropIssues'], ''))
 
         on_spec = [p['chapterId'] for p in parts if not p['offSpec']] or [p['chapterId'] for p in parts]
-        paper = 'A+B' if crop['section'] in ('A', 'B') else 'C'
+        cfg = SUBJECTS[subject]
+        paper = cfg['paper'](crop['section'])
         bank.append({
             'id': f'{subject}-pp-{key}',
             'subject': subject,
             'chapterId': Counter(on_spec).most_common(1)[0][0],
-            'sectionId': f'bio-section{crop["section"]}',
+            'sectionId': f'{cfg["prefix"]}-section{crop["section"]}',
             'source': f'LC {subject.title()} {LEVEL_NAME[crop["level"]]} {crop["year"]} — '
                       f'Section {crop["section"]} — Q{crop["number"]}',
             'year': crop['year'],
@@ -133,7 +142,7 @@ def main(subject, journals):
             'paper': paper,
             'questionNumber': crop['number'],
             'legacy': True,
-            'totalMarks': q['scheme']['questionMarks'] or {'A': 20, 'B': 30, 'C': 60}[crop['section']],
+            'totalMarks': q['scheme']['questionMarks'] or cfg['default_marks'][crop['section']],
             'images': crop['images'],
             'parts': [{
                 'label': p['label'],
