@@ -8467,7 +8467,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(k)(B)",
@@ -25033,15 +25035,18 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "The solution was orange (orange-red). This colour is due to dichromate(VI) ions, Cr₂O₇²⁻, in the acidic solution.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem14-s1",
+     "chem14-s2"
+    ]
    },
    {
     "label": "(d)",
@@ -25066,15 +25071,18 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Green. The orange dichromate(VI) ion is reduced to the green chromium(III) ion, Cr³⁺, as the ethanol is oxidised.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem14-s1",
+     "chem14-s2"
+    ]
    },
    {
     "label": "(f)",
@@ -26416,7 +26424,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)A(ii)",
@@ -26429,7 +26439,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)A(iii)",
@@ -26442,7 +26454,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)B(i)",
@@ -26455,7 +26469,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)B(ii)",
@@ -26468,7 +26484,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)B(iii)",
@@ -26481,7 +26499,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     ],
     "diagramRelation": "refers-to-figure",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem2"
+    ]
    },
    {
     "label": "(c)B(iv)",
@@ -50274,197 +50294,227 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 13,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Initial [A] = 30 mol ÷ 10 L = 3.0 mol/L. Let x mol/L of A dissociate.\nEquilibrium: [A] = (3.0 − x) mol/L, [B] = x mol/L, [C] = x mol/L.\nKc = [B][C] ÷ [A] = x² ÷ (3.0 − x) = 4.0\nx² + 4x − 12 = 0\n(x + 6)(x − 2) = 0, so x = 2.0 mol/L\nEquilibrium concentrations: [A] = 1.0 mol/L, [B] = 2.0 mol/L, [C] = 2.0 mol/L\nTotal gas concentration = 1.0 + 2.0 + 2.0 = 5.0 mol/L\nNumber of gaseous moles = 5.0 mol/L × 10 L = 50 mol",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "calculation"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem18-s1"
+    ]
    },
    {
     "label": "(b)(ii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "The dissociation of A is endothermic.\nThe value of Kc increases as the temperature increases, so more products (B and C) are formed at higher temperature.\nThe equilibrium shifts to the right (forward reaction) when heat is added, so the forward reaction must absorb heat.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "refers-to-figure",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem18-s2"
+    ]
    },
    {
     "label": "(b)(iii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "The pressure of the equilibrium mixture increases.\nThe dissociation is endothermic, so raising the temperature shifts the equilibrium to the right, producing more gaseous particles (B and C) from each mole of A; this increases the total pressure in the rigid container.\nThe gas particles also gain kinetic energy, so they collide with the container walls more often and more forcefully, further increasing the pressure.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem18-s2"
+    ]
    },
    {
     "label": "(c)A(i)",
     "marks": 4,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Greenhouse gases are gases that absorb and retain heat (infra-red radiation) in the atmosphere, preventing it from escaping into the outer atmosphere.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)A(ii)",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Global warming, which melts the polar ice caps, raises sea levels and causes flooding (and endangers wildlife and their habitats).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)A(iii)1",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "In increasing order of greenhouse factor: water vapour, carbon dioxide, methane, chlorofluorocarbon (CFC).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)A(iii)2",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Water vapour contributes most to the greenhouse effect.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)A(iii)3",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "CFCs are broken down by ultraviolet (UV) radiation in the stratosphere.\nThe UV radiation breaks the carbon–chlorine bond, releasing chlorine atoms (chlorine free radicals, Cl•).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)A(iv)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Ban the use of CFCs and use CFC substitutes (such as HCFCs) in refrigerators and air conditioners.\nUse renewable energy (wind, wave, tide or solar power) instead of fossil fuels.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)B(i)",
     "marks": 4,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Coke (carbon, from charcoal or coal)\nLimestone (calcium carbonate, CaCO₃)",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "refers-to-figure",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem14-s1"
+    ]
    },
    {
     "label": "(c)B(ii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Fe₂O₃ + 3CO → 2Fe + 3CO₂\nThe equation is balanced: 2 iron atoms and 6 oxygen atoms on each side.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem14-s1"
+    ]
    },
    {
     "label": "(c)B(iii)1",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "The main impurity is silica (SiO₂). Calcium oxide (from the limestone) reacts with it to form slag:\nCaO + SiO₂ → CaSiO₃\nCalcium oxide also reacts with alumina (Al₂O₃) impurity:\nCaO + Al₂O₃ → CaAl₂O₄",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem11-s1"
+    ]
    },
    {
     "label": "(c)B(iii)2",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Road making.\nBuilding blocks (or cement and bricks).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem11-s1"
+    ]
    },
    {
     "label": "(c)B(iv)1",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Quarrying the iron ore and limestone damages the landscape and destroys wildlife habitats.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(c)B(iv)2",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Restore the quarried landscape after mining and protect the wildlife habitats.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    }
   ]
  },
@@ -50572,15 +50622,21 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Draw a closed ring of six carbon atoms, each joined to its two neighbours by a single bond.\nEach carbon atom has two hydrogen atoms attached, one above and one below the plane of the ring, giving C₆H₁₂.\nAll bonds are single, so there are no double bonds and the molecule is saturated. It is not aromatic like benzene.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "diagram"
     ],
     "diagramRelation": "draw-a-diagram",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem23-s1",
+     "chem23-s2",
+     "chem23-s3",
+     "chem23-s4",
+     "chem23-s5"
+    ]
    },
    {
     "label": "(b)(ii)",
@@ -50898,55 +50954,73 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)",
     "marks": 9,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "1. Measure a known volume of the river water.\n2. Weigh a piece of filter paper accurately beforehand to find its known mass.\n3. Filter the river water through the weighed filter paper so the suspended solids are trapped on it.\n4. Wash the filter paper and residue with distilled water.\n5. Dry the filter paper in an oven, then allow it to cool.\n6. Reweigh the filter paper and residue.\n7. Find the difference between the two masses to give the mass of suspended solids.\n8. Divide this mass by the volume of water used to find the concentration.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1",
+     "chem20-s2",
+     "chem20-s3",
+     "chem20-s4",
+     "chem20-s5"
+    ]
    },
    {
     "label": "(d)",
     "marks": 9,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Labelled diagram: a dry, weighed evaporating basin (or beaker) on a tripod and gauze over a Bunsen burner, or on a water bath, with a known volume of filtered river water in it.\nSteps:\n1. Measure a known volume of previously filtered river water into a dry, pre-weighed evaporating basin.\n2. Heat the water gently (on a water bath or over a Bunsen burner) to evaporate it to dryness, leaving the dissolved solids behind.\n3. Allow the basin to cool (in a desiccator).\n4. Reweigh the basin and the solid residue.\n5. Find the difference between the masses to give the mass of dissolved solids, then divide by the volume used.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "long-answer",
      "diagram"
     ],
     "diagramRelation": "draw-a-diagram",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1",
+     "chem20-s2",
+     "chem20-s3",
+     "chem20-s4",
+     "chem20-s5"
+    ]
    },
    {
     "label": "(e)(i)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Working: 500 cm³ = 0.5 dm³, so 1 litre contains 0.03 g × (1000 ÷ 500) = 0.03 × 2 = 0.06 g\nConcentration of suspended solids = 0.06 g/l",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "calculation"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem8-s1",
+     "chem8-s2"
+    ]
    },
    {
     "label": "(e)(ii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Working: 200 cm³ contains 0.13 g, so 1 litre contains 0.13 × (1000 ÷ 200) = 0.13 × 5 = 0.65 g\nConcentration of dissolved solids = 0.65 g/l\nIn mg/l (ppm): 0.65 g/l × 1000 = 650 mg/l (ppm)",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "calculation"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem8-s1",
+     "chem8-s2"
+    ]
    }
   ]
  },
@@ -51029,28 +51103,32 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)(i)",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "A single covalent bond involves 2 shared electrons (one from each atom).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem5-s1"
+    ]
    },
    {
     "label": "(e)(ii)",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "A triple covalent bond involves 6 shared electrons (three pairs).",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem5-s1"
+    ]
    },
    {
     "label": "(f)",
@@ -51100,15 +51178,17 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(i)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Tertiary treatment (the third stage) removes phosphates and nitrates.",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": true,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s3"
+    ]
    },
    {
     "label": "(j)",
@@ -51128,28 +51208,32 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(k)(A)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Carbon dioxide (CO₂)\nMethane (CH₄)",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem20-s1"
+    ]
    },
    {
     "label": "(k)(B)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "Calcium\nSodium",
+    "model_source": "haiku",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "chem14-s2"
+    ]
    }
   ]
  },
