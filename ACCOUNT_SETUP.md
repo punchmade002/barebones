@@ -105,3 +105,18 @@ marked addressed with an optional reply. A reply pops up for that student the
 next time they open the app, once; the inbox shows whether it has been seen.
 "Reopen" clears the reply. All writes go through security-definer functions, so
 students can only submit and read their own feedback.
+
+## User stats
+
+The app counts each signed-in student's **active** time (tab visible and some
+input in the last 90 seconds) and files it under the subject and screen they
+are on: Learn, Test setup, Taking a test, Exam questions, Full notes, Live
+reader, Exam papers, Reading a paper, Progress, and so on. Totals are sent
+about once a minute; time that couldn't be sent waits in the browser and goes
+next visit. To switch it on, run `supabase/usage.sql` in the Supabase SQL
+editor (after `feedback.sql`, which creates the admin list).
+
+Admins see a **User stats** row in the profile menu: every account with total
+time, last active, days active, and a per-subject and per-screen breakdown for
+the last 7 days, 30 days, or all time. Students can only add to their own
+totals, and only through `record_usage()`, which caps what one call can add.
