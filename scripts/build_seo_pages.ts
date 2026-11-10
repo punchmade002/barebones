@@ -22,6 +22,8 @@ const GENERATOR = "barebones-seo-pages";
 const ORG_ID = `${SITE}/#org`;
 const HUB_SLUG = "leaving-cert-notes";
 const SAMPLE_QUESTIONS = 2;
+// Hand-made pages that share the /leaving-cert-* prefix: keep their sitemap entries.
+const HAND_MADE = new Set(["/leaving-cert-points-calculator/"]);
 
 // Subjects to publish, in display order. Remove a line to take a subject offline.
 const SUBJECTS = [
@@ -348,6 +350,7 @@ ${o.body}
         </div>
         <div class="foot-col">
           <h4>Product</h4>
+          <a href="/leaving-cert-points-calculator/">Points calculator</a>
           <a href="/#method">Method</a>
           <a href="/#features">Features</a>
           <a href="/app.html#signin">Sign in</a>
@@ -672,7 +675,7 @@ function updateSitemap(pages: { url: string; modified: Date }[]): void {
     kept = [...xml.matchAll(/<url>[\s\S]*?<\/url>/g)].map((m) => m[0])
       .filter((block) => {
         const loc = /<loc>([^<]+)<\/loc>/.exec(block)?.[1] || "";
-        return !loc.startsWith(`${SITE}/leaving-cert-`);
+        return !loc.startsWith(`${SITE}/leaving-cert-`) || HAND_MADE.has(loc.slice(SITE.length));
       });
   } catch {
     kept = [];
