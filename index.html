@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
 <title>barebones: Leaving Cert Notes, Flashcards &amp; Past Exam Questions</title>
 <meta name="description" content="Free Leaving Cert study app: notes, flashcards and real past exam questions for Biology, Chemistry, Maths, Geography, History, Business, Home Economics and PE." />
 <link rel="canonical" href="https://barebones.ie/" />
@@ -89,7 +90,8 @@
       <a href="leaving-cert-notes/">Notes</a>
     </nav>
     <div class="nav-cta">
-      <a href="app.html#signin" class="btn btn-primary">Sign in</a>
+      <a href="app.html#signin" class="btn btn-primary auth-out">Sign in</a>
+      <a href="app.html" class="btn btn-primary auth-in">Open app</a>
     </div>
   </div>
 </header>
@@ -105,7 +107,8 @@
         <h1 class="hl reveal">The Leaving Cert,<br />stripped <span class="accent">back.</span></h1>
         <p class="lede reveal">Every subject broken into two moves: learn the content, then drill real exam questions. Nothing you don't need.</p>
         <div class="cta-row reveal">
-          <a href="app.html#signup" class="btn btn-primary">Get started free</a>
+          <a href="app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+          <a href="app.html" class="btn btn-primary auth-in">Open app</a>
           <a href="#method" class="btn btn-ghost">See how it works</a>
         </div>
         <div class="micro reveal">
@@ -128,7 +131,8 @@
     <h1 class="hl reveal">The Leaving Cert, stripped back.</h1>
     <p class="lede reveal">A study app that does two things brilliantly — teaches you the content, then drills you on real exam questions.</p>
     <div class="cta-row reveal">
-      <a href="app.html#signup" class="btn btn-primary">Get started free</a>
+      <a href="app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+      <a href="app.html" class="btn btn-primary auth-in">Open app</a>
       <a href="#method" class="btn btn-ghost">See the method</a>
     </div>
     <div class="steps-row reveal">
@@ -154,7 +158,8 @@
         <h1 class="hl">The Leaving Cert,<br />stripped back.</h1>
         <p class="lede">Two steps. Learn the content, drill the exam questions. That's the whole app — and that's the point.</p>
         <div class="cta-row">
-          <a href="app.html#signup" class="btn btn-primary">Get started free</a>
+          <a href="app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+          <a href="app.html" class="btn btn-primary auth-in">Open app</a>
           <a href="#method" class="btn btn-ghost">See how it works</a>
         </div>
       </div>
@@ -244,7 +249,8 @@
           <li><span class="b">2</span><div><h3>Learn with flashcards</h3><p>AI-built cards and quizzes drill the content until it's locked in.</p></div></li>
           <li><span class="b">3</span><div><h3>Sit exam questions</h3><p>Switch to practice mode and answer real exam-style questions, marked instantly.</p></div></li>
         </ul>
-        <a href="app.html#signup" class="btn btn-primary" style="margin-top:30px;">Get started free</a>
+        <a href="app.html#signup" class="btn btn-primary auth-out" style="margin-top:30px;">Get started free</a>
+        <a href="app.html" class="btn btn-primary auth-in" style="margin-top:30px;">Open app</a>
       </div>
     </div>
   </div>
@@ -261,8 +267,9 @@
         <p>Free to use — study right in your browser. No install needed.</p>
       </div>
       <div class="right">
-        <a href="app.html#signup" class="btn btn-primary signup-btn">Get started free</a>
-        <p class="signin-note">Already have an account? <a href="app.html#signin">Sign in</a></p>
+        <a href="app.html#signup" class="btn btn-primary signup-btn auth-out">Get started free</a>
+        <a href="app.html" class="btn btn-primary signup-btn auth-in">Open the app</a>
+        <p class="signin-note auth-out">Already have an account? <a href="app.html#signin">Sign in</a></p>
       </div>
     </div>
   </div>
@@ -285,7 +292,8 @@
           <a href="#features">Features</a>
           <a href="#product">The app</a>
           <a href="leaving-cert-points-calculator/">Points calculator</a>
-          <a href="app.html#signin">Sign in</a>
+          <a href="app.html#signin" class="auth-out">Sign in</a>
+          <a href="app.html" class="auth-in">Open app</a>
         </div>
         <div class="foot-col">
           <h4>Free notes</h4>
