@@ -359,6 +359,8 @@ h2, h3, h4 {
 .profile-row-chevron { font-size: 1.05rem; color: var(--muted); line-height: 1; }
 .profile-row:hover .profile-row-chevron { color: var(--accent); }
 .profile-row-quiet { color: var(--muted); font-weight: 500; }
+.profile-row-link { text-decoration: none; }
+.profile-row-link .profile-row-chevron { font-size: 0.8rem; }
 
 .profile-pane-head {
   display: flex;
@@ -969,6 +971,25 @@ body.auth-open {
   font-size: 0.68rem;
   line-height: 1.45;
 }
+
+.auth-privacy-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+  padding: 0.28rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-full);
+  color: var(--ink-2);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background var(--t) var(--ease), color var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+.auth-privacy-link span { font-size: 0.65rem; color: var(--muted); }
+.auth-privacy-link:hover { background: var(--accent-xlight); border-color: var(--accent-light); color: var(--accent-strong); }
+.auth-privacy-link:hover span { color: var(--accent); }
+.auth-privacy-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .account-details-row {
   display: flex;
