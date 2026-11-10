@@ -48,6 +48,7 @@ body.auth-open .timer-widget { display: none; }
   .button-secondary:hover,
   .subject-panel-btn:hover,
   .profile-avatar:hover,
+  .calc-link:hover,
   .timer-clock-btn:hover { transform: none; }
 
   .button-primary:active,
@@ -85,7 +86,10 @@ body.auth-open .timer-widget { display: none; }
   .brand-mark { top: 1.05rem; left: 1rem; }
   .brand-mark img { height: 22px; }
 
-  .profile-avatar-wrap { top: 0.55rem; right: 1rem; }
+  .profile-avatar-wrap { top: 0.55rem; right: 1rem; gap: 0.5rem; }
+
+  .calc-link { width: 38px; height: 38px; }
+  .calc-link svg { width: 18px; height: 18px; }
 
   .profile-avatar {
     width: 38px;
@@ -98,7 +102,7 @@ body.auth-open .timer-widget { display: none; }
   /* Level % rides on the avatar as a badge so the timer can sit beside it */
   .profile-level {
     top: auto;
-    right: 50%;
+    right: 19px; /* centre of the 38px avatar, not the whole wrap (the calculator shortcut sits left of it) */
     bottom: -0.45rem;
     transform: translateX(50%);
     padding: 0.05rem 0.4rem;
@@ -111,7 +115,7 @@ body.auth-open .timer-widget { display: none; }
   /* Timer moves out of the thumb zone into the top bar; its menu drops down */
   .timer-widget {
     top: 0.55rem;
-    right: calc(1rem + 38px + 0.6rem);
+    right: calc(1rem + 38px + 0.5rem + 38px + 0.6rem); /* avatar + calculator shortcut */
     bottom: auto;
   }
 
