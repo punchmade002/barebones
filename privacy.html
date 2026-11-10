@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
 <title>Privacy Policy | barebones</title>
 <meta name="description" content="How barebones collects, uses and protects your personal data." />
 <link rel="canonical" href="https://barebones.ie/privacy.html" />
@@ -34,8 +35,9 @@
       <a href="/#features">Features</a>
     </nav>
     <div class="nav-cta">
-      <a href="/app.html#signin" class="btn btn-ghost np-signin">Sign in</a>
-      <a href="/app.html#signup" class="btn btn-primary">Get started free</a>
+      <a href="/app.html#signin" class="btn btn-ghost np-signin auth-out">Sign in</a>
+      <a href="/app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+      <a href="/app.html" class="btn btn-primary auth-in">Open app</a>
     </div>
   </div>
 </header>
@@ -115,7 +117,8 @@
           <h4>Product</h4>
           <a href="/#method">Method</a>
           <a href="/#features">Features</a>
-          <a href="/app.html#signin">Sign in</a>
+          <a href="/app.html#signin" class="auth-out">Sign in</a>
+          <a href="/app.html" class="auth-in">Open app</a>
         </div>
         <div class="foot-col">
           <h4>Legal</h4>

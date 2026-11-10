@@ -411,3 +411,8 @@ body[data-accent="bold"] .cta .dotfield { opacity: 0.15; }
   .product-phones .phone:nth-child(2) { transform: none; }
   #hero-b .word { width: 92%; }
 }
+
+/* Signed-in state for the public pages. An inline <head> script adds .bb-signed-in to <html>
+   (same check as app.html), so signed-in visitors see "Open app" instead of sign-in prompts. */
+html.bb-signed-in .auth-out { display: none !important; }
+html:not(.bb-signed-in) .auth-in { display: none !important; }

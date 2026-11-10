@@ -285,6 +285,7 @@ function page(o: {
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.description)}" />
 <link rel="canonical" href="${canonical}" />
@@ -326,8 +327,9 @@ ${jsonLd({ "@context": "https://schema.org", "@graph": [breadcrumbLd(o.crumbs), 
       <a href="/#features">Features</a>
     </nav>
     <div class="nav-cta">
-      <a href="/app.html#signin" class="btn btn-ghost np-signin">Sign in</a>
-      <a href="/app.html#signup" class="btn btn-primary">Get started free</a>
+      <a href="/app.html#signin" class="btn btn-ghost np-signin auth-out">Sign in</a>
+      <a href="/app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+      <a href="/app.html" class="btn btn-primary auth-in">Open app</a>
     </div>
   </div>
 </header>
@@ -353,7 +355,8 @@ ${o.body}
           <a href="/leaving-cert-points-calculator/">Points calculator</a>
           <a href="/#method">Method</a>
           <a href="/#features">Features</a>
-          <a href="/app.html#signin">Sign in</a>
+          <a href="/app.html#signin" class="auth-out">Sign in</a>
+          <a href="/app.html" class="auth-in">Open app</a>
         </div>
       </div>
     </div>
@@ -379,8 +382,9 @@ function ctaBand(o: { heading: string; text: string; source: string }): string {
         <p>${esc(o.text)}</p>
       </div>
       <div class="right">
-        <a href="/app.html#signup" class="btn btn-primary signup-btn" data-cta="${esc(o.source)}">Get started free</a>
-        <p class="signin-note">Already have an account? <a href="/app.html#signin">Sign in</a></p>
+        <a href="/app.html#signup" class="btn btn-primary signup-btn auth-out" data-cta="${esc(o.source)}">Get started free</a>
+        <a href="/app.html" class="btn btn-primary signup-btn auth-in">Open the app</a>
+        <p class="signin-note auth-out">Already have an account? <a href="/app.html#signin">Sign in</a></p>
       </div>
     </div>
   </div>
