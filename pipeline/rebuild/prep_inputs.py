@@ -9,6 +9,7 @@
 Also fills a missing crop section (old papers print no "Section A/B" header): Q1-3 are A, the rest B.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -55,7 +56,8 @@ def main(subject):
     notes = base / 'notes'
     notes.mkdir(exist_ok=True)
     titles = {}
-    for f in sorted((ROOT / 'content' / subject).glob('*.json'), key=lambda p: [int(x) if x.isdigit() else x for x in p.stem.replace('-s', '-').replace(subject[:4], '').split('-')]):
+    natural = lambda t: [(0, int(x), '') if x.isdigit() else (1, 0, x) for x in re.split(r'(\d+)', t)]
+    for f in sorted((ROOT / 'content' / subject).glob('*.json'), key=lambda p: natural(p.stem)):
         d = json.loads(f.read_text())
         lo, ch = d['loId'], d['chapterId']
         lines = [f"# {lo} — {d.get('subsection', '')} [{d.get('syllabusRef', '')}] (chapter {ch})", '']
@@ -70,7 +72,7 @@ def main(subject):
         (notes / f'{lo}.md').write_text('\n'.join(lines))
         titles.setdefault(ch, []).append(f"- {lo} — [{d.get('syllabusRef', '')}] {d.get('subsection', '')}  -> notes/{lo}.md")
     index = [f'# {subject.title()} notes index (chapterId / section loId — syllabusRef — title)', '']
-    for ch in sorted(titles, key=lambda c: int(''.join(x for x in c if x.isdigit()))):
+    for ch in sorted(titles, key=natural):
         index += [f'## {ch}'] + titles[ch] + ['']
     (notes / 'INDEX.md').write_text('\n'.join(index))
     print(f'{len(crops)} crops, {len(papers)} scheme folders, {sum(len(v) for v in titles.values())} notes files')

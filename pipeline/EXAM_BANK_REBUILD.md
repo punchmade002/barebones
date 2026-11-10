@@ -59,3 +59,29 @@ sections the answer draws on).
 
 A workflow can run at most 1,000 agents, and cached replays count toward that. Split large
 subjects into several runs instead of resuming a big one.
+
+## Cheap fill for any subject (as done for PE, Nov 2026)
+
+The Chemistry recipe, parameterised by subject. Answers come from the marking scheme (no audited
+old answers existed for PE). One workflow at a time.
+
+1. `crops.py <subject> <papers>` then `prep_inputs.py <subject>`. PE needed a "Question N" anchor
+   and its Section B case-study pages attached to Q13 (both in `crops.py`).
+2. One Haiku agent per paper section transcribes, tags and extracts scheme points in one pass
+   (PE: 30 agents), converted to a journal for `state.py <subject>`. Check that every label is
+   printed on the paper: one PE batch invented "(a)(i)/(ii)" splits, merged back by hand.
+3. `fill_packages.py <subject> [--split]` sorts by paper and cuts short-answer packages (10
+   questions, at most 50 parts and 50 KB) and long-answer packages (5 questions). The long rule
+   is per subject in `is_long()`: for PE, 10+ marks, or 8-9 marks tagged long-answer.
+4. `fill_workflow.js`: Haiku writes short answers, Sonnet answers figure parts and checks a
+   fixed 5-package sample, then every package if the sample has any error.
+   `fill_collect.py <subject> <output> short` remaps mangled ids.
+5. `figcheck_batches.py` + `figcheck_workflow.js`: Sonnet checks every Haiku figure answer
+   against the crops (fixes go to `fill/figcheck-fixes.json`).
+6. `long_workflow.js`: Sonnet writes long answers, a second Sonnet checks every one, one fix
+   round, anything still failing is flagged (`fill_collect.py ... long`).
+7. `tidy_scan.py <subject> [--batch]` + `tidy_workflow.js` for examiner notation; read the hits
+   first, since words like "accepted" and "awarded" are often plain prose.
+8. `bank_assemble.py <subject>` layers fill, long, figure fixes, tidy and `fill/manual.json`
+   (edits from the final read). Past-paper answers render through `formatModelAnswer`: a line
+   starting "Label:" becomes a subheading, and `**bold**` would show literally, so none is used.
