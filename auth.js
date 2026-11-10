@@ -75,7 +75,10 @@
     return Boolean(data);
   }
 
-  async function signUp({ username, email, password, origin = "self_service" }) {
+  // Bump when terms.html or privacy.html change in a way users must agree to again.
+  const TERMS_VERSION = "2026-11-06";
+
+  async function signUp({ username, email, password, origin = "self_service", marketingOptIn = false }) {
     const authClient = requireClient();
     const normalized = normalizeUsername(username);
 
@@ -93,6 +96,10 @@
         data: {
           username: normalized,
           account_origin: origin,
+          // Proof of what the person agreed to, stored on their Supabase auth user.
+          terms_version: TERMS_VERSION,
+          terms_accepted_at: new Date().toISOString(),
+          marketing_opt_in: Boolean(marketingOptIn),
         },
       },
     });

@@ -170,6 +170,14 @@
                 <input id="signUpPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
                 <button class="password-toggle" type="button" data-password-toggle="signUpPasswordConfirm" aria-label="Show password confirmation">Show</button>
               </div>
+              <label class="auth-consent" for="signUpTerms">
+                <input id="signUpTerms" name="terms" type="checkbox" required />
+                <span>I’m 16 or older (or my parent or guardian has agreed), and I agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+              </label>
+              <label class="auth-consent" for="signUpMarketing">
+                <input id="signUpMarketing" name="marketing" type="checkbox" />
+                <span>Email me study tips and barebones news (optional, unsubscribe any time).</span>
+              </label>
               <button class="button-primary auth-submit" type="submit">Create account</button>
             </form>
 
@@ -192,6 +200,14 @@
                 <input id="legacyPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
                 <button class="password-toggle" type="button" data-password-toggle="legacyPasswordConfirm" aria-label="Show password confirmation">Show</button>
               </div>
+              <label class="auth-consent" for="legacyTerms">
+                <input id="legacyTerms" name="terms" type="checkbox" required />
+                <span>I’m 16 or older (or my parent or guardian has agreed), and I agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+              </label>
+              <label class="auth-consent" for="legacyMarketing">
+                <input id="legacyMarketing" name="marketing" type="checkbox" />
+                <span>Email me study tips and barebones news (optional, unsubscribe any time).</span>
+              </label>
               <button class="button-primary auth-submit" type="submit">Secure my account</button>
               <button id="legacySignIn" class="auth-text-button" type="button">I already secured this account — sign in</button>
             </form>

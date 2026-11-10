@@ -6599,3 +6599,29 @@ body.test-open .timer-widget { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .test-time-track span { transition: none; }
 }
+
+/* Terms / privacy agreement and optional email consent on the sign-up forms */
+.auth-form .auth-consent {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  margin-top: 0.4rem;
+  font-weight: 500;
+  line-height: 1.45;
+  cursor: pointer;
+}
+.auth-form .auth-consent input {
+  flex: none;
+  width: 1.05rem;
+  min-height: 0;
+  height: 1.05rem;
+  margin: 0.1rem 0 0;
+  padding: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.auth-form .auth-consent a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
