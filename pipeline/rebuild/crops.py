@@ -35,13 +35,18 @@ STOP_MARKERS = ('Answerbook for Section C', 'Acknowledg', 'Copyright notice', 'B
                 'Start each question on a new page', 'Do not write on this page',
                 'There is no examination material on this page', 'Do not hand this question paper up',
                 'supplied in a separate', 'is supplied separately',
-                'Questions for Section C are supplied separately')
+                'Questions for Section C are supplied separately', 'Space for extra work',
+                'Indicate clearly the question number')
 STOP_LINES = ('Instructions',)  # whole-line markers (the answerbook's Section C instructions page)
 BACK_COVER = re.compile(r'Leaving Certificate\s*[–-]\s*(Higher|Ordinary)')  # "The Leaving Certificate – Ordinary Level"
 ANCHOR = re.compile(r'^(\d{1,2})(\.?)(\s|$)')
+# PE prints "Question 7" at the margin; its numbered answer lines ("1.", "2.") sit just inside it.
+HEADED = re.compile(r'^Question\s+(\d{1,2})()(\s|$)')
+# Subjects whose Section B opens with a case study before its one question: those pages belong to it.
+PREAMBLE_SECTIONS = {'pe': {'B'}}
 ANCHOR_SLACK = 8        # question numbers sit at the paper's left margin; numbered sub-items are indented
 SECTION = re.compile(r'^Section\s+([ABC])\b')
-FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Leaving Certificate,?\s*\d{4}.*|(Biology|Chemistry)\s*[–-].*Level.*'
+FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Leaving Certificate,?\s*\d{4}.*|(Biology|Chemistry|Physical Education)\s*[–-].*Level.*'
                     r'|Sections? [ABC].*|\d{1,2})$')
 
 
@@ -105,6 +110,7 @@ def content_box(page, y0, y1):
 def find_questions(paper):
     """Return [{number, section, segments: [(page_index, y0, y1)]}] for one paper file."""
     doc = fitz.open(paper_pdf(SUBJECT, paper))
+    anchor = HEADED if SUBJECT == 'pe' else ANCHOR
     margins = [min((b[0] for b, t in lines_of(page) if b[0] < 80 and (m := ANCHOR.match(t)) and m.group(2)),
                    default=None) for page in doc]
     doc_margin = min((m for m in margins if m is not None), default=57)
@@ -126,7 +132,7 @@ def find_questions(paper):
             s = SECTION.match(text)
             if s and x0 < 300:
                 events.append((y0, 'section', s.group(1)))
-            a = ANCHOR.match(text)
+            a = anchor.match(text)
             # A number with no full stop only counts if it is the next question (the 2022 OL
             # paper prints "12" without one); otherwise it is a table value or a label.
             if a and x0 <= margin + ANCHOR_SLACK and (a.group(2) or int(a.group(1)) == last + 1):
@@ -141,10 +147,15 @@ def find_questions(paper):
                     current = None
                 section = value
                 cursor = y
+                if value in PREAMBLE_SECTIONS.get(SUBJECT, ()):
+                    current = {'number': None, 'section': section, 'segments': []}
                 continue
             # A figure printed beside a question's first lines can start above its number;
             # move the boundary up so the figure goes with the question it belongs to.
             cut = min([r.y0 - 3 for r in pictures if r.y0 < y - 3 < r.y1 and r.y0 > cursor] + [y - 3])
+            if current is not None and current['number'] is None:
+                current['number'] = value    # the case study runs straight on into its question
+                continue
             if current is not None:
                 current['segments'].append((pno, cursor, cut))
                 questions.append(current)

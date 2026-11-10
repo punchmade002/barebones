@@ -1,148 +1,112 @@
-// Regression tests for the PE exam bank.
-//
-// Each assertion below corresponds to a defect class that was measured in the PE bank
-// on 1 September 2026 and then fixed. They are cheap, run over 100% of the bank, and
-// exist so that a future pipeline run cannot reintroduce any of them silently.
-//
-//   defect                                    before   after
-//   recycled template answer                     571        0
-//   answer citing a non-existent part            398        0
-//   generic non-answer                            87        0
-//   question text carrying page furniture        302        0
-//   two questions merged into one part            38        0
-//   question text empty or a bare fragment        32        0
-//   distinct model answers (of 543 parts)          35      543
-
-const test = require("node:test");
+// PE exam bank, rebuilt to the Biology blueprint (pipeline/EXAM_BANK_REBUILD.md): questions ship
+// as crops of the original paper, every answer was written against the marking scheme (short
+// answers by Haiku with a Sonnet sample check, long answers by Sonnet with every one checked), and
+// each part is tagged with its exact paper question. As in Chemistry, off-spec parts (Topics 7
+// and 8, Adventure Activities) keep a reference answer and stay tagged offSpec.
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
+const test = require("node:test");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
 
-function loadExamBank() {
-  const context = { console };
-  context.window = context;
-  context.globalThis = context;
+function rebuiltBank() {
+  const context = { window: {} };
   vm.createContext(context);
-  for (const file of ["exam-questions-db.js", "pe-exam-questions.js"]) {
-    const source = fs.readFileSync(path.join(root, file), "utf8");
-    // exam-questions-db.js ends by indexing against COURSE_DATA, which we do not load here.
-    vm.runInContext(source.replace(/\n\(function \(\) \{[\s\S]*$/, "\n"), context, { filename: file });
-  }
-  return context.EXAM_QUESTIONS_DB.filter((q) => q.subject === "pe");
+  vm.runInContext(fs.readFileSync(path.join(root, "pe-exam-questions.js"), "utf8"), context);
+  return context.window.EXAM_QUESTIONS_DB;
 }
 
-const questions = loadExamBank();
-const parts = questions.flatMap((q) => q.parts.map((p, i) => ({ q, p, i })));
-
-// Furniture the segmenter strips: running headers, page numbers, printed answer lines,
-// and the "(40 marks)" heading that belongs to the question rather than to a part.
-const FURNITURE = [
-  /continues on the next page/i,
-  /(^|\n)\s*\d{1,3}\s*(\n|$)/,
-  /do not write|blank page/i,
-  /^\s*\(\d+\s*marks?\)\s*[()a-zi\s]*$/i,
-  /\n\s*\d\.\s*(\n|$)/,
-];
-// A second "Question N" heading at the start of a line means a neighbouring question was
-// swept into this part. A mid-line "in Question 13 (a) (i)" is a legitimate cross-reference.
-const MERGED = /(?:^|\n)\s*Question\s+\d{1,2}\b/;
-const TEMPLATE_TAIL = /This addresses the requirement in part \d+/;
-const GENERIC_STEM = /^Use the relevant Leaving Certificate/;
+const bank = rebuiltBank();
+const parts = bank.flatMap((q) => q.parts.map((p) => ({ q, p })));
+const shipped = parts.filter(({ p }) => p.model);
+const SECTION_MARKS = { "pe-sectionA": 8, "pe-sectionB": 50, "pe-sectionC": 40 };
 
 function report(label, offenders) {
   const sample = offenders.slice(0, 5).map(({ q, p }) => `${q.id} [${p.label || "-"}]`);
   return `${offenders.length} part(s) with ${label}: ${sample.join(", ")}${offenders.length > 5 ? ", …" : ""}`;
 }
 
-test("every part carries a model answer", () => {
-  const bad = parts.filter(({ p }) => !String(p.model || "").trim());
-  assert.equal(bad.length, 0, report("no model answer", bad));
+test("rebuilt PE questions ship as paper crops, never as transcribed text", () => {
+  assert.equal(bank.length, 180, "18 questions on each of the 10 papers");
+  for (const q of bank) {
+    assert.ok(q.images.length > 0, `${q.id} has no crops`);
+    q.images.forEach((src) => assert.ok(fs.existsSync(path.join(root, src)), `${src} must exist`));
+    for (const part of q.parts) {
+      assert.ok(!("question" in part) && !("text" in part), `${q.id} ${part.label} ships question text`);
+    }
+  }
 });
 
-test("no answer is recycled from a template pool", () => {
-  const bad = parts.filter(({ p }) => TEMPLATE_TAIL.test(p.model || "") || GENERIC_STEM.test(p.model || ""));
-  assert.equal(bad.length, 0, report("a templated or generic answer", bad));
+test("every question is tagged with its exact paper, level, number and section", () => {
+  const ids = new Set();
+  for (const q of bank) {
+    assert.ok(!ids.has(q.id), `duplicate id ${q.id}`);
+    ids.add(q.id);
+    assert.match(q.id, /^pe-pp-\d{4}-(higher|ordinary)-q\d+$/);
+    assert.equal(q.id, `pe-pp-${q.year}-${q.level}-q${q.questionNumber}`);
+    const section = q.questionNumber <= 12 ? "A" : q.questionNumber === 13 ? "B" : "C";
+    assert.equal(q.sectionId, `pe-section${section}`, `${q.id} section`);
+    assert.equal(q.legacy, false, `${q.id}: 2022-2026 papers are set on the current (2018) specification`);
+  }
+  const papers = new Set(bank.map((q) => `${q.year}-${q.level}`));
+  for (let y = 2022; y <= 2026; y++) {
+    for (const level of ["higher", "ordinary"]) assert.ok(papers.has(`${y}-${level}`), `no ${level} ${y} paper`);
+  }
 });
 
-test("answers are distinct — an answer written for one question is not reused under another", () => {
-  const seen = new Map();
-  const duplicates = [];
+test("part labels are the paper's own: (a), (a)(i) or blank for an unlettered question", () => {
+  for (const q of bank) {
+    const labels = q.parts.map((p) => p.label);
+    assert.equal(new Set(labels).size, labels.length, `${q.id} repeats a label`);
+    labels.forEach((l) => assert.match(l, /^(\([a-z]+\))*$/, `${q.id} label ${JSON.stringify(l)}`));
+    if (labels.includes("")) assert.equal(labels.length, 1, `${q.id}: a blank label must be the only part`);
+  }
+});
+
+test("part marks add up to the scheme's question total", () => {
+  for (const q of bank) {
+    assert.equal(q.totalMarks, SECTION_MARKS[q.sectionId], `${q.id} total`);
+    const sum = q.parts.reduce((s, p) => s + (p.marks || 0), 0);
+    assert.ok(Math.abs(sum - q.totalMarks) < 0.5, `${q.id}: parts sum to ${sum}, not ${q.totalMarks}`);
+  }
+});
+
+test("only checked answers ship, and disputed parts carry none", () => {
   for (const { q, p } of parts) {
-    const key = String(p.model || "").trim();
+    const has = ["written", "kept"].includes(p.answerStatus);
+    assert.equal(Boolean(p.model), has, `${q.id} ${p.label}: answer/status mismatch`);
+    assert.ok(["kept", "written", "flagged"].includes(p.answerStatus), `${q.id} ${p.label}: ${p.answerStatus}`);
+    if (has) assert.ok(p.notesRefs.length > 0, `${q.id} ${p.label} cites no notes`);
+  }
+  const flagged = parts.filter(({ p }) => p.answerStatus === "flagged");
+  assert.ok(flagged.length <= parts.length * 0.03, report("no shipped answer (over 3%)", flagged));
+});
+
+test("answers read like a student's, not a marking scheme", () => {
+  // Examiner phrasing only: PE prose legitimately says "socially accepted", "allow a player to
+  // grip", "a free throw awarded after a foul" or "judges deduct marks for".
+  const NOTATION = [
+    /\(\s*\d{1,2}\s*(?:marks?)?\s*\)(?!\s*[\w(×])/i,
+    /\/\//,
+    /\[\s*(accept|allow)|\b(accept|allow)\s*:/i,
+    /also (acceptable|accepted|correct)|would also (work|be accepted)/i,
+    /\bcandidates?\b|\baward(?:ed)?\s+\d+\s*marks?\b|\bmarking scheme\b/i,
+    /\*\*/,
+  ];
+  const bad = shipped.filter(({ p }) => NOTATION.some((rx) => rx.test(p.model)));
+  assert.equal(bad.length, 0, report("examiner notation or markdown", bad));
+});
+
+test("answers are distinct — an answer written for one part is not reused under another", () => {
+  const seen = new Set();
+  const duplicates = [];
+  for (const { q, p } of shipped) {
+    const key = p.model.trim();
     if (key.length < 60) continue; // short factual answers legitimately repeat
     if (seen.has(key)) duplicates.push({ q, p });
-    else seen.set(key, q.id);
+    else seen.add(key);
   }
   assert.equal(duplicates.length, 0, report("an answer reused verbatim elsewhere", duplicates));
-});
-
-test("question text carries no page furniture", () => {
-  const bad = parts.filter(({ p }) => FURNITURE.some((rx) => rx.test(p.question || "")));
-  assert.equal(bad.length, 0, report("page furniture in the question text", bad));
-});
-
-test("no part contains a second question", () => {
-  const bad = parts.filter(({ p }) => MERGED.test(String(p.question || "").slice(15)));
-  assert.equal(bad.length, 0, report("a merged neighbouring question", bad));
-});
-
-test("every question text is a readable question", () => {
-  const bad = parts.filter(({ p }) => String(p.question || "").replace(/[^A-Za-z]/g, "").length < 10);
-  assert.equal(bad.length, 0, report("empty or fragment question text", bad));
-});
-
-test("every referenced diagram exists on disk", () => {
-  const bad = parts.filter(({ p }) => p.diagram && !fs.existsSync(path.join(root, p.diagram)));
-  assert.equal(bad.length, 0, report("a missing diagram file", bad));
-});
-
-test("no diagram is an uncropped full page", () => {
-  // The source papers render at 1241x1755 at the zoom the crops use, so a diagram anywhere
-  // near that tall is the whole scanned page rather than a crop of the figure on it.
-  const pngSize = (file) => {
-    const head = Buffer.alloc(24);
-    const fd = fs.openSync(file, "r");
-    fs.readSync(fd, head, 0, 24, 0);
-    fs.closeSync(fd);
-    return { width: head.readUInt32BE(16), height: head.readUInt32BE(20) };
-  };
-  const bad = parts.filter(({ p }) => {
-    if (!p.diagram) return false;
-    const { width, height } = pngSize(path.join(root, p.diagram));
-    return height >= 1200 || width >= 1200;
-  });
-  assert.equal(bad.length, 0, report("an uncropped full-page diagram", bad));
-});
-
-test("part marks sum to the marks available for the section", () => {
-  const expected = { "pe-section-a": 8, "pe-section-b": 50, "pe-section-c": 40 };
-  const bad = questions.filter((q) => {
-    const target = expected[q.sectionId];
-    if (!target) return false;
-    // Parts dropped because their topic is not examined in June 2027 still count towards the total.
-    const parts = q.parts.concat(q.omittedParts || []);
-    return parts.reduce((sum, p) => sum + (p.marks || 0), 0) !== target;
-  });
-  assert.equal(bad.length, 0, `${bad.length} question(s) whose part marks do not sum correctly: ${bad.slice(0, 5).map((q) => q.id).join(", ")}`);
-});
-
-test("no question is filed twice against the same paper", () => {
-  const seen = new Map();
-  const duplicates = [];
-  for (const q of questions) {
-    const key = `${q.source}`;
-    if (seen.has(key)) duplicates.push(q.id);
-    else seen.set(key, q.id);
-  }
-  assert.equal(duplicates.length, 0, `duplicate paper questions: ${duplicates.join(", ")}`);
-});
-
-test("the bank still covers every paper it is meant to", () => {
-  const papers = new Set(questions.map((q) => `${q.year}-${/Higher/.test(q.source) ? "HL" : "OL"}`));
-  assert.equal(papers.size, 10, `expected 10 papers, found ${[...papers].sort().join(", ")}`);
-  assert.ok(questions.length >= 150, `expected at least 150 questions, found ${questions.length}`);
-  assert.ok(parts.length >= 519, `expected at least 519 parts, found ${parts.length}`);
 });
