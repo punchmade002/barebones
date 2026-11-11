@@ -42,6 +42,8 @@ def remap(returned, ids):
             continue
         y, lv, q, L = norm(rid)
         cands = [i for yy, i in by_norm.get((lv, q, L), []) if y is None or yy == y]
+        if not cands and '|' not in rid:   # label dropped: fine when the question has one part
+            cands = [i for i in ids if i.split('|')[0] == rid]
         if len(cands) == 1 and cands[0] not in returned:
             out[cands[0]] = val
             moved.append((rid, cands[0]))

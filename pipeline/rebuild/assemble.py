@@ -31,6 +31,14 @@ SUBJECTS = {
     # case study (Q13, 50 marks), Section C long questions (40 marks each).
     'pe': {'prefix': 'pe', 'default_marks': {'A': 8, 'B': 50, 'C': 40},
            'paper': lambda section: ''},
+    # Geography (2003 syllabus): Part One short questions (HL 8, OL 10 marks), Part Two keyed q101+
+    # (core 1-6, electives 7-12, HL options 13-24), 80 marks a question at HL.
+    'geography': {'prefix': 'geo', 'default_marks': {'P1': 8, 'core': 80, 'elective': 80, 'option': 80},
+                  'paper': lambda section: 'Part One' if section == 'P1' else 'Part Two'},
+    # History (2003 syllabus, Later Modern paper only): q1 the documents-based question, q2-7
+    # Ireland topics 1-6, q8-13 Europe topics 1-6; 100 marks each.
+    'history': {'prefix': 'hist', 'default_marks': {'DBQ': 100, 'IRL': 100, 'EUR': 100},
+                'paper': lambda section: {'DBQ': 'Section 1', 'IRL': 'Section 2', 'EUR': 'Section 3'}[section]},
 }
 
 

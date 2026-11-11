@@ -36,7 +36,8 @@ STOP_MARKERS = ('Answerbook for Section C', 'Acknowledg', 'Copyright notice', 'B
                 'There is no examination material on this page', 'Do not hand this question paper up',
                 'supplied in a separate', 'is supplied separately',
                 'Questions for Section C are supplied separately', 'Space for extra work',
-                'Indicate clearly the question number')
+                'Indicate clearly the question number', 'PART TWO are supplied separately',
+                'Do not hand this up', 'This document will not be returned')
 STOP_LINES = ('Instructions',)  # whole-line markers (the answerbook's Section C instructions page)
 BACK_COVER = re.compile(r'Leaving Certificate\s*[–-]\s*(Higher|Ordinary)')  # "The Leaving Certificate – Ordinary Level"
 ANCHOR = re.compile(r'^(\d{1,2})(\.?)(\s|$)')
@@ -44,9 +45,25 @@ ANCHOR = re.compile(r'^(\d{1,2})(\.?)(\s|$)')
 HEADED = re.compile(r'^Question\s+(\d{1,2})()(\s|$)')
 # Subjects whose Section B opens with a case study before its one question: those pages belong to it.
 PREAMBLE_SECTIONS = {'pe': {'B'}}
+# Geography numbers Part One "1."-"12.", then Part Two "Question 1"-"Question 12" and the options
+# "13."-"24." (2017-19 in one file; 2020+ as separate P1/P2 files). Part Two is keyed 100+N so the
+# two parts never share a key; the printed number is kept as printedNumber.
+GEO_PART_TWO = 100
+# Instruction blocks between Geography's parts and sections: they end the question above them and
+# belong to no question.
+GEO_BREAK = re.compile(r'^(PART (ONE|TWO)\b|SECTION \d|PATTERNS AND PROCESSES|REGIONAL GEOGRAPHY|Questions \d+ to \d+'
+                       r'|Note:\s+It is better|Attempt (ONE|any|TWO) question|You MUST attempt|Answerbook for PART TWO'
+                       r'|(Global Interdependence|Geoecology|Culture and Identity|(The )?Atmosphere\s*[–-]\s*Ocean Environment)\s*$)')
+
+
+def geo_section(number):
+    if number < GEO_PART_TWO:
+        return 'P1'
+    n = number - GEO_PART_TWO
+    return 'core' if n <= 6 else 'elective' if n <= 12 else 'option'
 ANCHOR_SLACK = 8        # question numbers sit at the paper's left margin; numbered sub-items are indented
 SECTION = re.compile(r'^Section\s+([ABC])\b')
-FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Leaving Certificate,?\s*\d{4}.*|(Biology|Chemistry|Physical Education)\s*[–-].*Level.*'
+FOOTER = re.compile(r'^(Page \d+ of \d+|\[OVER\]|Leaving Certificate Examination.*|Leaving Certificate,?\s*\d{4}.*|(Biology|Chemistry|Physical Education|Geography)\s*[–-].*[Ll]evel.*'
                     r'|Sections? [ABC].*|\d{1,2})$')
 
 
@@ -107,14 +124,108 @@ def content_box(page, y0, y1):
                      min(max(xs1) + PAD, page.rect.width), min(max(ys1) + PAD, y1, page.rect.height))
 
 
+# History (Later Modern paper only): Section 1 is the documents-based question (q1), then each
+# topic block is one question: Ireland topic N -> q(1+N), Europe topic N -> q(7+N). Headers are
+# centred and can be split into several spans on one row. The DBQ's own topic is not set again
+# in Section 2/3, so a paper has 12 or 13 questions.
+HIST_SECTION = re.compile(r'^SECTION\s*(\d)\s*:')
+HIST_TOPIC = re.compile(r'^(?:Later Modern\s+)?(Ireland|Europe and the wider world)\s*:?\s*Topic\s*(\d)\s*$', re.I)
+# 2023-25 Ordinary papers add a Part A for the DBQ's own topic, for candidates on that year's
+# alternative instructions; it takes the DBQ topic's otherwise unused question number.
+HIST_ALTERNATIVE = re.compile(r'^Answer the questions below if you are following the Alternative', re.I)
+# Topic titles decide the topic number (the 2010 OL paper prints "Topic 5" over Topic 6's title).
+HIST_TITLES = {('IRL', 'Ireland and the Union'): 1, ('IRL', 'Movements for political'): 2,
+               ('IRL', 'The pursuit of sovereignty'): 3, ('IRL', 'The Irish diaspora'): 4,
+               ('IRL', 'Politics and society in Northern'): 5, ('IRL', 'Government, economy and society'): 6,
+               ('EUR', 'Nationalism and state formation'): 1, ('EUR', 'Nation states and international'): 2,
+               ('EUR', 'Dictatorship and democracy'): 3, ('EUR', 'Division and realignment'): 4,
+               ('EUR', 'European retreat from empire'): 5, ('EUR', 'The United States and the world'): 6}
+HIST_RUNNING = re.compile(r'^History\s*[–-]\s*Later Modern|^Leaving Certificate Examination|^\d{1,2}$')
+
+
+def rows_of(page):
+    """lines_of, with spans that share a baseline joined left to right."""
+    out = []
+    for b, t in lines_of(page):
+        if out and abs(out[-1][0][1] - b[1]) < 4:
+            pb, pt = out[-1]
+            out[-1] = ((min(pb[0], b[0]), min(pb[1], b[1]), max(pb[2], b[2]), max(pb[3], b[3])),
+                       f'{pt} {t}' if b[0] >= pb[0] else f'{t} {pt}')
+        else:
+            out.append((b, t))
+    return [(b, re.sub(r'\s+', ' ', t)) for b, t in out]
+
+
+def find_history(paper):
+    doc = fitz.open(paper_pdf(SUBJECT, paper))
+    questions, current, section, dbq_topic = [], None, None, None
+    for pno, page in enumerate(doc):
+        if pno == 0:
+            continue                     # cover page
+        rows = rows_of(page)
+        footer = footer_y(page, rows)
+        stop = stop_y(rows, footer)
+        limit = min(stop if stop is not None else footer, footer)
+        # the running head ("Leaving Certificate Examination 2025 / 4 / History – Later Modern –
+        # Higher Level") is not part of any question
+        head = [b[3] for b, t in rows if b[1] < 110 and HIST_RUNNING.match(t)]
+        cursor = max(head) + 2 if head else TOP_Y
+        for (x0, y0, x1, y1), text in rows:
+            if y0 >= limit or y0 < cursor:
+                continue
+            s, t = HIST_SECTION.match(text), HIST_TOPIC.match(text)
+            if t and section == 1 and dbq_topic is None:
+                dbq_topic = t
+            alt = HIST_ALTERNATIVE.match(text) and dbq_topic is not None
+            if alt:
+                t = dbq_topic
+            if s:
+                if current is not None:
+                    current['segments'].append((pno, cursor, y0 - 3))
+                    questions.append(current)
+                    current = None
+                section = int(s.group(1))
+                if section == 1:
+                    current = {'number': 1, 'section': 'DBQ', 'segments': []}
+                cursor = y0 - 3 if section == 1 else y1 + 1
+            elif t and section in (2, 3):
+                if current is not None:
+                    current['segments'].append((pno, cursor, y0 - 3))
+                    questions.append(current)
+                europe = t.group(1)[0] in 'Ee'
+                topic = int(t.group(2))
+                if not alt:
+                    after = [r for b, r in rows if b[1] > y0 + 2][:1]
+                    titled = [n for (sec, title), n in HIST_TITLES.items()
+                              if sec == ('EUR' if europe else 'IRL') and after and after[0].lower().startswith(title.lower())]
+                    if titled and titled[0] != topic:
+                        print(f'  {paper} p{pno + 1}: printed Topic {topic}, title is Topic {titled[0]}')
+                        topic = titled[0]
+                current = {'number': (7 if europe else 1) + topic,
+                           'section': 'EUR' if europe else 'IRL', 'segments': [],
+                           **({'alternative': True} if alt else {})}
+                cursor = y0 - 3
+        if current is not None:
+            current['segments'].append((pno, cursor, limit))
+            if stop is not None:
+                questions.append(current)
+                current = None
+    if current is not None:
+        questions.append(current)
+    return doc, questions
+
+
 def find_questions(paper):
     """Return [{number, section, segments: [(page_index, y0, y1)]}] for one paper file."""
+    if SUBJECT == 'history':
+        return find_history(paper)
     doc = fitz.open(paper_pdf(SUBJECT, paper))
     anchor = HEADED if SUBJECT == 'pe' else ANCHOR
     margins = [min((b[0] for b, t in lines_of(page) if b[0] < 80 and (m := ANCHOR.match(t)) and m.group(2)),
                    default=None) for page in doc]
     doc_margin = min((m for m in margins if m is not None), default=57)
     questions, current, section, last = [], None, None, 0
+    part_two = paper.endswith('-P2')
     for pno, page in enumerate(doc):
         lines = lines_of(page)
         # Question numbers hang at the page's left margin (37-57pt depending on the year and
@@ -132,6 +243,25 @@ def find_questions(paper):
             s = SECTION.match(text)
             if s and x0 < 300:
                 events.append((y0, 'section', s.group(1)))
+            if SUBJECT == 'geography' and GEO_BREAK.match(text):
+                if not events or events[-1][1] != 'section':
+                    events.append((y0, 'section', None))
+                continue
+            if SUBJECT == 'geography':
+                if x0 > margin + ANCHOR_SLACK:
+                    continue
+                h, a = HEADED.match(text), ANCHOR.match(text)
+                num = None
+                if h:
+                    part_two, num = True, GEO_PART_TWO + int(h.group(1))
+                elif a and a.group(2):
+                    n = int(a.group(1))
+                    # inside Part Two a bare "3." is a list item; only the options (13-24) count
+                    num = (GEO_PART_TWO + n if n >= 13 else None) if part_two else n
+                if num is not None:
+                    events.append((y0, 'anchor', num))
+                    last = max(last, num)
+                continue
             a = anchor.match(text)
             # A number with no full stop only counts if it is the next question (the 2022 OL
             # paper prints "12" without one); otherwise it is a table value or a label.
@@ -212,7 +342,7 @@ def main(subject, papers):
         # a question the detector missed can be supplied entirely by an override
         found = {q['number'] for q in questions}
         for okey in overrides:
-            oy, ol, oq = okey.split('-')
+            oy, ol, oq = okey.split('-')[:3]
             if (oy, ol) == (year, level) and int(oq[1:]) not in found:
                 questions.append({'number': int(oq[1:]), 'section': None, 'segments': []})
         questions.sort(key=lambda q: q['number'])
@@ -237,9 +367,11 @@ def main(subject, papers):
                 images.append(f'exam-images/{subject}/{year}/{name}')
                 text.append(page.get_text(clip=box))
             (DATA / subject / 'text' / f'{key}.txt').write_text('\n'.join(text))
+            section = geo_section(q['number']) if subject == 'geography' else q['section']
             manifest[key] = {'year': int(year), 'level': level, 'paper': paper,
-                             'number': q['number'], 'section': q['section'],
-                             'segments': segments, 'images': images}
+                             'number': q['number'], 'section': section,
+                             'segments': segments, 'images': images,
+                             **({'alternative': True} if q.get('alternative') else {})}
             print(f'{key:22} sec {q["section"]}  pages {[s["page"] for s in segments]}  '
                   f'{len(images)} image(s)')
     manifest_path.write_text(json.dumps(manifest, indent=1))

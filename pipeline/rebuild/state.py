@@ -72,6 +72,7 @@ def main(subject, journals):
             'schemeNote': scheme['note'],
             'oldAnswer': str(old) if old.exists() else None,
             'parts': [{**{k: p[k] for k in ('label', 'text', 'type', 'diagramRelation', 'loIds', 'offSpec', 'offSpecReason')},
+                       **({'resource': p['resource']} if p.get('resource', 'none') != 'none' else {}),
                        **{k: marks.get(p['label'], {}).get(k) for k in ('marks', 'schemePoints', 'fullMarksRule')}}
                       for p in scan['parts']],
         }

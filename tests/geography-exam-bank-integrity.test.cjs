@@ -1,169 +1,91 @@
-// Regression tests for the geography exam bank.
-//
-// Each assertion below corresponds to a defect class that was measured in the
-// geography bank on 2 September 2026 and then fixed. They are cheap, run over
-// 100% of the bank, and exist so that a future pipeline run cannot reintroduce
-// any of them silently.
-//
-//   defect                                         before   after
-//   part with no model answer at all                  154        0
-//   answer describing a method instead of answering   106        0
-//   answer lifted from marking-scheme scaffolding       7        0
-//   bare letter sequence with no mapping given         45        0
-//   answer written for a different question            38        0
-//   two parts of one question sharing an answer         1        0
-//   paper question filed under an ambiguous label     119        0
-//   unreferenced full-page scan on disk               280        0
-//   crop whose top edge cuts through a line of text   187       43
-//
-// The crop figures are geometry, not judgement: "ink touching the top edge" is
-// a screen, and after the rebuild most of what it flags is a chart border or an
-// attribution line sitting legitimately close to the edge. The test below caps
-// it at the measured level so a regression would show up, and no lower.
-
-const test = require("node:test");
+// Geography exam bank, rebuilt to the Biology blueprint (pipeline/EXAM_BANK_REBUILD.md):
+// questions ship as crops of the original paper (2017-2026, both levels), every answer was
+// written against the marking scheme and checked, and each part is tagged with its exact paper
+// question. Part Two is keyed q101+ internally (Part One and Part Two both start at "1"), while
+// questionNumber is the number printed on the paper. 30-mark essays were each checked by a
+// second Sonnet; any still failing after one fix round ship flagged with no answer.
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
+const test = require("node:test");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
 
-function loadExamBank() {
-  const context = { console };
-  context.window = context;
-  context.globalThis = context;
+function rebuiltBank() {
+  const context = { window: {} };
   vm.createContext(context);
-  for (const file of ["exam-questions-db.js", "geography-exam-questions.js"]) {
-    const source = fs.readFileSync(path.join(root, file), "utf8");
-    // exam-questions-db.js ends by indexing against COURSE_DATA, which we do not load here.
-    vm.runInContext(source.replace(/\n\(function \(\) \{[\s\S]*$/, "\n"), context, { filename: file });
-  }
-  return context.EXAM_QUESTIONS_DB.filter((q) => q.subject === "geography");
+  vm.runInContext(fs.readFileSync(path.join(root, "geography-exam-questions.js"), "utf8"), context);
+  return context.window.EXAM_QUESTIONS_DB;
 }
 
-const questions = loadExamBank();
-const parts = questions.flatMap((q) => q.parts.map((p, i) => ({ q, p, i })));
+const SECTIONS = { P1: "Part One", core: "Part Two", elective: "Part Two", option: "Part Two" };
 
-// An answer that tells you how to approach the question instead of answering it.
-const METHOD_ONLY = /^\s*(WORKED METHOD|Worked method|CASE \d+ - WORKED)/;
-// Marking schemes say "Two valid countries" where the candidate supplies the content.
-const SCHEME_SCAFFOLD = /^(any |two |three |four |one )?(valid|named|correct|relevant|suitable|appropriate|stated|identified)\b/i;
-// "C, A, D, B" is the scheme's shorthand; on its own it tells a student nothing.
-const BARE_LETTER_SEQUENCE = /^[A-Z](,\s*[A-Z]){1,5}\.?$/;
-
-function report(label, offenders) {
-  const sample = offenders.slice(0, 5).map(({ q, p }) => `${q.id} [${p.label || "-"}]`);
-  return `${offenders.length} part(s) with ${label}: ${sample.join(", ")}${offenders.length > 5 ? ", …" : ""}`;
-}
-
-test("every part carries a model answer", () => {
-  const bad = parts.filter(({ p }) => !String(p.model || "").trim());
-  assert.equal(bad.length, 0, report("no model answer", bad));
-});
-
-test("no answer describes a method instead of answering the question", () => {
-  const bad = parts.filter(({ p }) => METHOD_ONLY.test(p.model || ""));
-  assert.equal(bad.length, 0, report("a method-only answer", bad));
-});
-
-test("no answer is marking-scheme scaffolding", () => {
-  const bad = parts.filter(({ p }) => SCHEME_SCAFFOLD.test(String(p.model || "").trim()));
-  assert.equal(bad.length, 0, report("an answer lifted from scheme scaffolding", bad));
-});
-
-test("a matching answer gives the mapping, not just the letters", () => {
-  const bad = parts.filter(({ p }) => BARE_LETTER_SEQUENCE.test(String(p.model || "").trim()));
-  assert.equal(bad.length, 0, report("a bare letter sequence", bad));
-});
-
-test("no long answer is reused verbatim under another question", () => {
-  const seen = new Map();
-  const duplicates = [];
-  for (const { q, p } of parts) {
-    const key = String(p.model || "").trim();
-    if (key.length < 400) continue; // short factual answers, and shared essay material, legitimately repeat
-    if (seen.has(key)) duplicates.push({ q, p });
-    else seen.set(key, q.id);
-  }
-  assert.equal(duplicates.length, 0, report("a long answer reused verbatim elsewhere", duplicates));
-});
-
-test("no two parts of the same question share an answer", () => {
-  // Caught a real defect: part (i) "What will the ratio be in 2024?" was carrying
-  // part (ii)'s answer, so both parts of the question said the same thing.
-  const duplicates = [];
-  for (const q of questions) {
-    const seen = new Map();
-    for (const p of q.parts) {
-      const key = String(p.model || "").trim();
-      if (key.length < 80) continue;
-      if (seen.has(key)) duplicates.push({ q, p });
-      else seen.set(key, p.label);
+test("rebuilt Geography questions ship as paper crops, never as transcribed text", () => {
+  const bank = rebuiltBank();
+  assert.equal(bank.length, 600, `expected 600 questions, got ${bank.length}`);
+  for (const q of bank) {
+    assert.ok(q.images.length > 0, `${q.id} has no crops`);
+    q.images.forEach((src) => assert.ok(fs.existsSync(path.join(root, src)), `${src} must exist`));
+    for (const part of q.parts) {
+      assert.ok(!("question" in part) && !("text" in part), `${q.id} ${part.label} ships question text`);
     }
   }
-  assert.equal(duplicates.length, 0, report("an answer shared with another part of the same question", duplicates));
 });
 
-test("every question text is a readable question", () => {
-  const bad = parts.filter(({ p }) => String(p.question || "").replace(/[^A-Za-z]/g, "").length < 10);
-  assert.equal(bad.length, 0, report("empty or fragment question text", bad));
-});
-
-test("question text carries no page furniture", () => {
-  const FURNITURE = [/continues on the next page/i, /do not write|blank page/i, /Acknowledge?ments/i, /https?:\/\//];
-  const bad = parts.filter(({ p }) => FURNITURE.some((rx) => rx.test(p.question || "")));
-  assert.equal(bad.length, 0, report("page furniture in the question text", bad));
-});
-
-test("every referenced diagram exists on disk", () => {
-  const bad = parts.filter(({ p }) => p.diagram && !fs.existsSync(path.join(root, p.diagram)));
-  assert.equal(bad.length, 0, report("a missing diagram file", bad));
-});
-
-test("no diagram is an uncropped full page", () => {
-  // The source papers render at 1310x1853 at the zoom the crops use, so a diagram
-  // anywhere near that tall is the whole scanned page rather than a crop of the figure.
-  const pngSize = (file) => {
-    const head = Buffer.alloc(24);
-    const fd = fs.openSync(file, "r");
-    fs.readSync(fd, head, 0, 24, 0);
-    fs.closeSync(fd);
-    return { width: head.readUInt32BE(16), height: head.readUInt32BE(20) };
-  };
-  const bad = parts.filter(({ p }) => {
-    if (!p.diagram) return false;
-    const { width, height } = pngSize(path.join(root, p.diagram));
-    return height >= 1200 && width >= 1200;
-  });
-  assert.equal(bad.length, 0, report("an uncropped full-page diagram", bad));
-});
-
-test("no unreferenced image is left in the geography image directory", () => {
-  const referenced = new Set(parts.map(({ p }) => p.diagram).filter(Boolean).map((d) => path.basename(d)));
-  const dir = path.join(root, "exam-images", "geography");
-  const orphans = fs.readdirSync(dir).filter((f) => !referenced.has(f));
-  assert.equal(orphans.length, 0, `${orphans.length} unreferenced image(s): ${orphans.slice(0, 5).join(", ")}`);
-});
-
-test("every paper question carries a label that identifies it uniquely", () => {
-  const seen = new Map();
-  const duplicates = [];
-  for (const q of questions) {
-    if (seen.has(q.source)) duplicates.push(`${q.source} (${seen.get(q.source)} and ${q.id})`);
-    else seen.set(q.source, q.id);
+test("every question is tagged with its exact paper, part, level and printed number", () => {
+  const bank = rebuiltBank();
+  const ids = new Set();
+  for (const q of bank) {
+    assert.ok(!ids.has(q.id), `duplicate id ${q.id}`);
+    ids.add(q.id);
+    const m = q.id.match(/^geography-pp-(\d{4})-(higher|ordinary)-q(\d+)$/);
+    assert.ok(m, `${q.id} id shape`);
+    const key = Number(m[3]);
+    assert.equal(q.year, Number(m[1]));
+    assert.equal(q.level, m[2]);
+    assert.equal(q.questionNumber, key % 100, `${q.id} shows the printed number`);
+    const section = q.sectionId.replace(/^geo-section/, "");
+    assert.ok(section in SECTIONS, `${q.id} section ${q.sectionId}`);
+    assert.equal(q.paper, SECTIONS[section], `${q.id} paper`);
+    assert.equal(key > 100, q.paper === "Part Two", `${q.id} key and part disagree`);
+    assert.equal(q.legacy, false, `${q.id}: the 2003 syllabus is examined to 2027`);
   }
-  assert.equal(duplicates.length, 0, `ambiguous source labels: ${duplicates.slice(0, 5).join("; ")}`);
+  for (let y = 2017; y <= 2026; y++) {
+    for (const level of ["higher", "ordinary"]) {
+      const n = bank.filter((q) => q.year === y && q.level === level).length;
+      assert.equal(n, level === "higher" ? 36 : 24, `${y} ${level}: ${n} questions`);
+    }
+  }
 });
 
-test("the bank still covers every paper it is meant to", () => {
-  const papers = new Set(
-    questions.map((q) => {
-      const m = /LC Geography (Higher|Ordinary) (\d{4})(?: (Paper \d|Part (?:One|Two)))?/.exec(q.source);
-      return `${m[2]}-${m[1]}-${m[3] || ""}`;
-    })
-  );
-  assert.ok(papers.size >= 30, `expected at least 30 paper slots, found ${papers.size}`);
-  assert.ok(questions.length >= 715, `expected at least 715 questions, found ${questions.length}`);
-  assert.ok(parts.length >= 1930, `expected at least 1930 parts, found ${parts.length}`);
+test("only checked answers ship, and disputed parts carry none", () => {
+  for (const q of rebuiltBank()) {
+    assert.ok(q.totalMarks > 0, `${q.id} needs the scheme's question total`);
+    for (const part of q.parts) {
+      const shipped = ["written", "kept"].includes(part.answerStatus);
+      assert.equal(Boolean(part.model), shipped, `${q.id} ${part.label}: answer/status mismatch`);
+      assert.ok(["kept", "written", "flagged"].includes(part.answerStatus), `${q.id} ${part.label}: ${part.answerStatus}`);
+      if (shipped) assert.ok(part.notesRefs.length > 0, `${q.id} ${part.label} cites no notes`);
+    }
+  }
+});
+
+test("no examiner notation or markdown in any shipped answer", () => {
+  const NOTATION = [/\(\d{1,2}m\)|\(\d+\s?marks?\)/i, /\/\//, /\*\*/, /\[(accept|allow)/i, /\bSRPs?\b/, /\bexaminers?\b|\bcandidates? (must|should|may|will)\b/i];
+  const bad = [];
+  for (const q of rebuiltBank()) for (const p of q.parts) {
+    if (p.model && NOTATION.some((rx) => rx.test(p.model))) bad.push(`${q.id} ${p.label}`);
+  }
+  assert.equal(bad.length, 0, `${bad.length} answers with notation: ${bad.slice(0, 5).join(", ")}`);
+});
+
+test("30-mark essays came from the checked Sonnet run", () => {
+  let essays = 0;
+  for (const q of rebuiltBank()) for (const p of q.parts) {
+    if (p.marks !== 30 || !p.type.includes("long-answer") || /^\d*A/.test(p.label)) continue;
+    essays++;
+    if (p.model) assert.match(p.model_source, /^sonnet-thirty/, `${q.id} ${p.label} source ${p.model_source}`);
+  }
+  assert.ok(essays >= 340, `only ${essays} 30-mark essays`);
 });

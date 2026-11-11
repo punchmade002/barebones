@@ -23,9 +23,11 @@ from fill_packages import BASE, lab, old_answers, order  # noqa: E402
 from assemble import LEVEL_NAME, SUBJECTS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
-NAMES = {'pe': 'Physical Education', 'chemistry': 'Chemistry', 'biology': 'Biology'}
+NAMES = {'pe': 'Physical Education', 'chemistry': 'Chemistry', 'biology': 'Biology', 'geography': 'Geography'}
 # Papers set on the specification students sit now; everything else is legacy.
-CURRENT_SPEC = {'pe': lambda year: True}
+CURRENT_SPEC = {'pe': lambda year: True,
+                # Geography: the 2003 syllabus is examined to June 2027; its replacement starts in 2028.
+                'geography': lambda year: True}
 
 
 def load(path):
@@ -35,12 +37,13 @@ def load(path):
 def main(subject):
     data = BASE / subject
     fill = {}
-    for name in ('short.json', 'long.json'):
+    for name in ('short.json', 'long.json', 'thirty.json'):   # thirty: Geography 30-mark essays
         fill.update(load(data / 'fill' / name))
     figfix = load(data / 'fill' / 'figcheck-fixes.json')
     tidy = load(data / 'fill' / 'tidy.json')
     tidy.update(load(data / 'fill' / 'manual.json'))   # reviewer edits found on the final read, {id: model}
-    flagged_long = {f['id']: f.get('issue', '') for f in load(data / 'fill' / 'long-flagged.json').get('flagged', [])}
+    flagged_long = {f['id']: f.get('issue', '') for name in ('long-flagged.json', 'thirty-flagged.json')
+                    for f in load(data / 'fill' / name).get('flagged', [])}
     crops = json.loads((data / 'crops.json').read_text())
     cfg = SUBJECTS[subject]
     current = CURRENT_SPEC.get(subject, lambda year: False)
@@ -99,17 +102,20 @@ def main(subject):
             del p['_chapter']
             if p['model'] and not p['notesRefs']:
                 p['notesRefs'] = [chapter]
+        # Geography keys Part Two as q101+; students see the number printed on the paper.
+        printed = crop['number'] % 100 if subject == 'geography' else crop['number']
         bank.append({
             'id': f'{subject}-pp-{key}',
             'subject': subject,
             'chapterId': chapter,
             'sectionId': f'{cfg["prefix"]}-section{crop["section"]}',
             'source': f'LC {NAMES.get(subject, subject.title())} {LEVEL_NAME[crop["level"]]} {crop["year"]} — '
-                      f'Section {crop["section"]} — Q{crop["number"]}',
+                      + (f'{cfg["paper"](crop["section"])} — Q{printed}' if subject == 'geography'
+                         else f'Section {crop["section"]} — Q{crop["number"]}'),
             'year': crop['year'],
             'level': crop['level'],
             'paper': cfg['paper'](crop['section']),
-            'questionNumber': crop['number'],
+            'questionNumber': printed,
             'legacy': not current(crop['year']),
             'totalMarks': st.get('questionMarks') or cfg['default_marks'][crop['section']],
             'attemptRule': st.get('attemptRule', ''),
