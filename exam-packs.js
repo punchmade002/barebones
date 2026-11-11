@@ -8,7 +8,7 @@
     history: "./history-exam-questions.js?v=2",
     chemistry: "./chemistry-exam-questions.js?v=2",
     "home-economics": "./home-economics-exam-questions.js?v=2",
-    geography: "./geography-exam-questions.js?v=2",
+    geography: "./geography-exam-questions.js?v=3",
     pe: "./pe-exam-questions.js?v=5",
   };
   var loaded = new Set();

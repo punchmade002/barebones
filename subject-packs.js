@@ -38,7 +38,7 @@
     ],
     geography: [
       "./geography-test-questions.js?v=1",
-      "./geography-notes.js?v=22",
+      "./geography-notes.js?v=23",
     ],
   };
   var loaded = new Set();
