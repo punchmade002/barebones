@@ -197,6 +197,31 @@
     return true;
   }
 
+  // Exam paper markup: one row per paper file (see supabase/paper-ink.sql)
+  async function loadPaperInk(file) {
+    const authClient = requireClient();
+    const { data, error } = await authClient
+      .from("paper_ink")
+      .select("data, updated_at")
+      .eq("file", file)
+      .maybeSingle();
+    if (error) throw error;
+    return data ? { data: data.data || {}, updatedAt: data.updated_at } : null;
+  }
+
+  async function savePaperInk(file, data) {
+    const authClient = requireClient();
+    const currentSession = session || (await authClient.auth.getSession()).data.session;
+    if (!currentSession?.user) return null;
+    const updatedAt = new Date().toISOString();
+    const { error } = await authClient.from("paper_ink").upsert(
+      { user_id: currentSession.user.id, file, data, updated_at: updatedAt },
+      { onConflict: "user_id,file" }
+    );
+    if (error) throw error;
+    return updatedAt;
+  }
+
   async function currentUserId() {
     const authClient = requireClient();
     const currentSession = session || (await authClient.auth.getSession()).data.session;
@@ -315,5 +340,7 @@
     updatePassword,
     getAccountSnapshot,
     saveStudyData,
+    loadPaperInk,
+    savePaperInk,
   };
 })();
