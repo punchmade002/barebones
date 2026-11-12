@@ -5685,6 +5685,7 @@ body.onboarding-open .timer-widget {
   gap: 1rem;
 }
 
+.outcome-picker-head { flex-wrap: wrap; }
 .outcome-picker-actions { display: flex; gap: 0.5rem; }
 
 .outcome-picker-head .outcome-picker-notes,
@@ -6718,3 +6719,17 @@ body { height: 100vh; height: 100dvh; }
 .bd-panels { flex: none; overflow: visible; min-height: min(32rem, 60dvh); }
 .bd-panel-body { overflow: visible; }
 .bd-panel:not(.is-open) .bd-panel-body { height: 0; padding-block: 0; overflow: hidden; }
+
+/* ── Skeleton loaders: placeholder shapes while a screen's data downloads ── */
+.skeleton-block { display: grid; gap: 1.25rem; padding: 0.5rem 0; }
+.skeleton-row { display: grid; gap: 0.6rem; }
+.skeleton {
+  display: block;
+  max-width: 100%;
+  border-radius: var(--r-sm);
+  background: linear-gradient(90deg, var(--line) 25%, color-mix(in srgb, var(--line), var(--panel) 55%) 50%, var(--line) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.3s linear infinite;
+}
+@keyframes skeleton-shimmer { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
