@@ -128,10 +128,11 @@ function renderPapersArchive(failed = false) {
   const archive = { ...summary, papers: list };
 
   const levels = [...new Set(archive.papers.map((p) => p.level))];
-  const shown = archive.papers.filter((p) => papersState.level === "all" || p.level === papersState.level);
+  const shown = archive.papers.filter((p) => papersState.level === "all" || p.level === papersState.level || p.level === "common");
   const years = [...new Set(shown.map((p) => p.year))];
 
-  const filters = ["all", ...levels].map((level) => `
+  // "Both levels" papers belong to every level, so they get no button of their own
+  const filters = ["all", ...levels.filter((level) => level !== "common")].map((level) => `
     <button class="papers-filter${papersState.level === level ? " is-active" : ""}" type="button"
       data-level="${level}" aria-pressed="${papersState.level === level}">
       ${level === "all" ? "All levels" : LEVEL_NAMES[level] || level}
