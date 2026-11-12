@@ -2048,7 +2048,10 @@ function renderOutcomePicker() {
   picker.innerHTML = `
     <header class="outcome-picker-head">
       <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
-      <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
+      <span class="outcome-picker-actions">
+        <button class="workbench-notes outcome-picker-exam" type="button">Exam</button>
+        <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
+      </span>
     </header>
     <div class="outcome-picker-grid">${cardsHtml}</div>
   `;
@@ -2056,6 +2059,15 @@ function renderOutcomePicker() {
   // From the grid the notes open on the first subsection and page on from there
   picker.querySelector(".outcome-picker-notes").addEventListener("click", () => {
     openFullNotes(chapter.learningOutcomes[0].id);
+  });
+
+  // Exam questions are per chapter, so leave the grid and open the Exam tab
+  picker.querySelector(".outcome-picker-exam").addEventListener("click", () => {
+    if (!chapter.learningOutcomes.some((lo) => lo.id === selectedOutcomeId)) selectedOutcomeId = chapter.learningOutcomes[0].id;
+    pickingOutcome = false;
+    switchTab("exam");
+    pushPhoneScreen("study");
+    renderAll();
   });
 
   picker.querySelectorAll(".outcome-card").forEach((btn) => {

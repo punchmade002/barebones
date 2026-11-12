@@ -3790,7 +3790,9 @@ body.modal-open { overflow: hidden; }
    ═══════════════════════════════════════════════ */
 
 @media (min-width: 981px) {
-  .subject-area { --sidebar-w: 238px; gap: 0.35rem; }
+  /* Fill the viewport: the shell's 2rem bottom margin left a dead strip under both panels */
+  .app-shell { margin-bottom: 0; }
+  .subject-area { --sidebar-w: 238px; gap: 0.35rem; height: calc(100vh - 3.5rem); height: calc(100dvh - 3.5rem); }
 
   .subject-list-wrap {
     overflow: hidden;
@@ -5351,7 +5353,9 @@ body.onboarding-open .timer-widget {
 #subjectWorkbench.picker-mode .workbench-nav,
 #subjectWorkbench.picker-mode .tab-content { display: none !important; }
 
-#subjectWorkbench.picker-mode { overflow-y: auto; }
+/* learn-mode (Learn tab active) sets overflow:hidden; overview and picker are long lists and must scroll */
+#subjectWorkbench.picker-mode,
+#subjectWorkbench.overview-mode { overflow-y: auto; padding-bottom: 2.5rem; }
 
 .outcome-picker {
   display: grid;
@@ -5679,7 +5683,10 @@ body.onboarding-open .timer-widget {
   gap: 1rem;
 }
 
-.outcome-picker-head .outcome-picker-notes {
+.outcome-picker-actions { display: flex; gap: 0.5rem; }
+
+.outcome-picker-head .outcome-picker-notes,
+.outcome-picker-head .outcome-picker-exam {
   border: 1.5px solid var(--line);
   border-radius: var(--r-full);
   background: var(--panel);
