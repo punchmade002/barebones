@@ -6733,3 +6733,4 @@ body { height: 100vh; height: 100dvh; }
 }
 @keyframes skeleton-shimmer { to { background-position: -200% 0; } }
 @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
+.study-card-footer[aria-hidden="true"] button { opacity: 0.5; pointer-events: none; }

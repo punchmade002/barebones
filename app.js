@@ -1749,9 +1749,25 @@ function typesetMath(node) {
 
 // Placeholder shapes shown while a screen's data downloads
 function skeletonHtml(kind) {
-  const bar = (w, h = "0.9rem") => `<span class="skeleton" style="width:${w};height:${h}"></span>`;
+  const bar = (w, h = "0.9rem", extra = "") => `<span class="skeleton" style="width:${w};height:${h};${extra}"></span>`;
+  // Margins pad a bar out to the line box of the text it stands in for (line-height 1.55 / 1.65)
+  const small = (w) => bar(w, "0.7rem", "margin-block:0.1925rem");
   if (kind === "card") {
-    return `<div class="skeleton-block" aria-busy="true" aria-label="Loading flashcard">${bar("40%", "1.6rem")}${bar("85%")}${bar("70%")}</div>`;
+    // Same parts and classes as the real card (head, centred face, controls) so nothing shifts when it loads
+    return `
+      <header class="study-card-head" aria-hidden="true">
+        <div class="study-progress"><div class="progress-bar"><span style="width:0"></span></div>${small("1.6rem")}</div>
+        ${small("2rem")}
+      </header>
+      <div class="study-face" aria-busy="true" aria-label="Loading flashcard">${bar("min(320px, 70%)", "1em", "font-size:clamp(1.35rem, 2.5vw, 2rem);margin-block:0.325em")}</div>
+      <div class="study-card-footer" aria-hidden="true">
+        <div class="study-controls">
+          <button id="prevCard" class="button-secondary study-step" tabindex="-1" disabled>←</button>
+          <button id="flipCard" class="button-primary" tabindex="-1" disabled>Reveal</button>
+          <button id="nextCard" class="button-secondary study-step" tabindex="-1" disabled>→</button>
+          <button id="markLearned" class="button-secondary study-learned" tabindex="-1" disabled>Mark learned</button>
+        </div>
+      </div>`;
   }
   const rows = [0, 1, 2, 3].map(() => `<div class="skeleton-row">${bar("34%", "1rem")}${bar("92%")}${bar("78%")}</div>`).join("");
   return `<div class="skeleton-block" aria-busy="true" aria-label="Loading">${rows}</div>`;
