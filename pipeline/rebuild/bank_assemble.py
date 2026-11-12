@@ -23,11 +23,15 @@ from fill_packages import BASE, lab, old_answers, order  # noqa: E402
 from assemble import LEVEL_NAME, SUBJECTS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
-NAMES = {'pe': 'Physical Education', 'chemistry': 'Chemistry', 'biology': 'Biology', 'geography': 'Geography'}
+NAMES = {'pe': 'Physical Education', 'chemistry': 'Chemistry', 'biology': 'Biology', 'geography': 'Geography', 'history': 'History'}
 # Papers set on the specification students sit now; everything else is legacy.
 CURRENT_SPEC = {'pe': lambda year: True,
                 # Geography: the 2003 syllabus is examined to June 2027; its replacement starts in 2028.
-                'geography': lambda year: True}
+                'geography': lambda year: True,
+                # History: the 2003 Later Modern syllabus is still examined.
+                'history': lambda year: True}
+# History scans name sections DBQ/IRL/EUR; the app's sections (exam-breakdown.js) are 1/2/3.
+SECTION_NO = {'history': {'DBQ': 1, 'IRL': 2, 'EUR': 3}}
 
 
 def load(path):
@@ -104,14 +108,15 @@ def main(subject):
                 p['notesRefs'] = [chapter]
         # Geography keys Part Two as q101+; students see the number printed on the paper.
         printed = crop['number'] % 100 if subject == 'geography' else crop['number']
+        section = SECTION_NO.get(subject, {}).get(crop['section'], crop['section'])
         bank.append({
             'id': f'{subject}-pp-{key}',
             'subject': subject,
             'chapterId': chapter,
-            'sectionId': f'{cfg["prefix"]}-section{crop["section"]}',
+            'sectionId': f'{cfg["prefix"]}-section{section}',
             'source': f'LC {NAMES.get(subject, subject.title())} {LEVEL_NAME[crop["level"]]} {crop["year"]} — '
                       + (f'{cfg["paper"](crop["section"])} — Q{printed}' if subject == 'geography'
-                         else f'Section {crop["section"]} — Q{crop["number"]}'),
+                         else f'Section {section} — Q{crop["number"]}'),
             'year': crop['year'],
             'level': crop['level'],
             'paper': cfg['paper'](crop['section']),

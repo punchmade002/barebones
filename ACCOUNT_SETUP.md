@@ -18,6 +18,21 @@ Before public launch, keep email confirmation enabled and configure a custom
 SMTP provider. Supabase's built-in mailer is restricted to project-team
 addresses and is not a production password-recovery service.
 
+### Confirmation emails (required for sign-ups to work)
+
+1. **Custom SMTP.** Without it, Supabase only delivers to project-team addresses
+   and caps all auth email at a couple per hour, so new students never get
+   their confirmation link. Set it under Authentication → Emails → SMTP
+   Settings (Resend, Postmark, Brevo or SES all work), sending from an address
+   on `barebones.ie` with SPF/DKIM set up. Then raise the email rate limit
+   under Authentication → Rate Limits.
+2. **Templates.** Paste the branded templates from `supabase/email-templates/`
+   into Authentication → Emails → Templates (subjects are in that folder's
+   README). Regenerate them with `python3 scripts/build_email_templates.py`.
+3. **Stuck usernames.** Run `supabase/signup-fixes.sql` so a student whose first
+   email never arrived can retry with the same username, and names held by
+   sign-ups left unconfirmed for 24 hours are released.
+
 The publishable key is safe to ship to browsers. Never put a secret or
 service-role key in this repository.
 

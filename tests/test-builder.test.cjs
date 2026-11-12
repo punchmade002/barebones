@@ -16,6 +16,8 @@ function createContext() {
   const files = [...html.matchAll(/<script src="\.\/([^"?]+)/g)]
     .map((m) => m[1])
     .filter((file) => !SKIP_SCRIPTS.has(file));
+  // The test kit is downloaded on demand (loadTestKit in app.js), so app.html no longer lists it
+  files.push("flashcard-test-prompts.js", "answer-marker.js", "test-builder.js");
   const subjectFiles = Object.values(readPacks()).flat();
   files.splice(files.indexOf("data.js") + 1, 0, ...subjectFiles);
   const context = { console };

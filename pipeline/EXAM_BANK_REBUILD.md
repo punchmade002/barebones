@@ -85,3 +85,28 @@ old answers existed for PE). One workflow at a time.
 8. `bank_assemble.py <subject>` layers fill, long, figure fixes, tidy and `fill/manual.json`
    (edits from the final read). Past-paper answers render through `formatModelAnswer`: a line
    starting "Label:" becomes a subheading, and `**bold**` would show literally, so none is used.
+
+## History scan (Nov 2026)
+
+Later Modern paper only (the app has no Early Modern chapters), 2006–2026, 42 papers. The papers
+are regular, so most of the scan is local and only the documents-based question uses agents.
+
+1. `crops.py history <year>-<level> ...` anchors on "SECTION 1: DOCUMENTS-BASED QUESTION" and the
+   topic headers: q1 = DBQ, q2–q7 = Ireland topics 1–6, q8–q13 = Europe topics 1–6. The topic
+   number comes from the printed title (2010 OL misprints one). The DBQ's own topic is not set
+   again, so a paper has 12 crops, except that 2023–26 OL add an "Alternative Instructions" Part A
+   in the DBQ topic's slot (`alternative: true`). Page-15 pictures ("Picture X on page 15",
+   2006/2013/2014 OL) are attached in `crop-overrides.json`.
+2. `prep_inputs.py history` keeps only the Later Modern block of each scheme (it always comes first).
+3. `hist_scan_journal.py <out>` parses the topic blocks locally: HL essays 1–4 (100 marks, scheme
+   = CM 60 + OE 40 plus any "TWO elements" note); OL A1–A5 (scheme answers, 6 marks; 2006–10
+   sometimes set four), B1–B4 (CM 20 + OE 10) and C1–C4 (CM 30 + OE 10), all marked by Core
+   Statements of 5 marks each.
+4. A Haiku workflow (11 agents, 4 DBQs each) transcribes the DBQ parts and scheme points from
+   `scan/dbq/<key>.paper.txt` + `.scheme.txt`; `hist_dbq_journal.py` converts it (context = the
+   documents' text).
+5. `state.py history scan/topics.jsonl scan/dbq.jsonl` gives 508 questions and 4,343 parts.
+
+### History fill (Nov 2026)
+
+Short parts: fill_workflow.js with notes packages (nNN, one chapter each) for Ordinary B/C and DBQ Q4, then a full Sonnet check after the sample failed. Long parts (Higher essays, Higher DBQ Q4), 2016–2026 only: hist_long_packages.py regroups them 3 per package by chapter; hist_long_workflow.js writes, checks every answer and gives one fix round. Checkers get script-measured word counts, because Sonnet's own estimates ran 100–300 words high and failed good essays. The 2006–2015 long parts ship flagged with no answer.

@@ -18,7 +18,7 @@ from fill_packages import BASE, lab  # noqa: E402
 
 def package_ids(subject, prefix):
     ids = []
-    for f in sorted((BASE / subject / 'fill').glob(f'{prefix}[0-9][0-9].json')):
+    for f in sorted((BASE / subject / 'fill').glob(f'[{prefix}][0-9][0-9].json')):
         ids += [it['id'] for it in json.loads(f.read_text()) if 'id' in it]
     return ids
 
@@ -55,7 +55,7 @@ def remap(returned, ids):
 def main(subject, path, kind):
     raw = json.loads(Path(path).read_text())
     res = raw.get('result') or raw
-    ids = package_ids(subject, 'p' if kind == 'short' else 'l')
+    ids = package_ids(subject, 'pn' if kind == 'short' else 'l')   # n = History notes packages
     answers, moved, lost = remap(res['answers'], ids)
     missing = [i for i in ids if i not in answers]
     out = BASE / subject / 'fill'
