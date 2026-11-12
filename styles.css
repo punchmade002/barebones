@@ -3244,6 +3244,8 @@ body.modal-open { overflow: hidden; }
   color: var(--ink);
 }
 
+.bd-timing-note { margin: 0 0 1rem; max-width: 70ch; font-size: 0.85rem; line-height: 1.5; color: var(--muted); }
+
 /* Marks strip: each section's share of the paper */
 .bd-bar { display: flex; gap: 6px; }
 .bd-bar-seg {
@@ -6681,3 +6683,38 @@ body.test-open .timer-widget { display: none; }
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* ═══════════════════════════════════════════════
+   VIEWPORT FIT
+   The shell owns the viewport height; the panels fill what is left. No panel
+   subtracts a guessed header height, so any window size or aspect ratio fits.
+   Later than every breakpoint above on purpose; responsive.css (phone) still
+   wins for its own padding because it loads after this file.
+   ═══════════════════════════════════════════════ */
+body { height: 100vh; height: 100dvh; }
+
+.app-shell {
+  --shell-top: 3.5rem;
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  padding-top: var(--shell-top);
+}
+
+.main-content { height: 100%; min-height: 0; grid-template-rows: minmax(0, 1fr); }
+.subject-area { height: 100%; min-height: 0; }
+
+@media (max-width: 980px) {
+  .app-shell { --shell-top: 5rem; }
+}
+
+/* Sidebar tracks the window instead of a fixed 238px */
+@media (min-width: 981px) {
+  .subject-area { --sidebar-w: clamp(230px, 19vw, 300px); }
+}
+
+/* Paper guide: the whole screen scrolls, not the panel inside it */
+.bd-screen { overflow-y: auto; overscroll-behavior: contain; }
+.bd-panels { flex: none; overflow: visible; min-height: min(32rem, 60dvh); }
+.bd-panel-body { overflow: visible; }
+.bd-panel:not(.is-open) .bd-panel-body { height: 0; padding-block: 0; overflow: hidden; }

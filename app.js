@@ -5078,7 +5078,10 @@ function renderBreakdownModal(data) {
     </div>`;
   }
 
-  const timeStr = data.timingNote || (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '');
+  // A long timingNote is a paragraph, not a stat: show the total time big and the note beneath
+  const shortNote = data.timingNote && data.timingNote.length <= 30;
+  const timeStr = shortNote ? data.timingNote : (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : data.timingNote || '');
+  const longNote = data.timingNote && !shortNote && data.totalMinutes ? `<p class="bd-timing-note">${escapeHtml(data.timingNote)}</p>` : '';
   const meta = `
     <dl class="bd-stats">
       ${data.totalMarks ? `<div><dt>Marks</dt><dd>${data.totalMarks}</dd></div>` : ''}
@@ -5088,6 +5091,7 @@ function renderBreakdownModal(data) {
 
   return `<div class="bd-screen">
     ${head(meta)}
+    ${longNote}
     ${renderBreakdownBar(data)}
     <div class="bd-panels">
       ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
