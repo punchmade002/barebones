@@ -68,7 +68,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="design_handoff_barebones_landing/styles.css" />
+<link rel="stylesheet" href="design_handoff_barebones_landing/styles.css?v=2" />
 <!-- Vercel Web Analytics -->
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -293,10 +293,10 @@
           <a href="#product">The app</a>
           <a href="leaving-cert-points-calculator/">Points calculator</a>
           <a href="app.html#signin" class="auth-out">Sign in</a>
-          <a href="app.html" class="auth-in">Open app</a>
         </div>
         <div class="foot-col">
           <h4>Free notes</h4>
+          <a href="leaving-cert-notes/">All Leaving Cert notes</a>
           <a href="leaving-cert-biology/">Biology notes</a>
           <a href="leaving-cert-chemistry/">Chemistry notes</a>
           <a href="leaving-cert-history/">History notes</a>
@@ -304,12 +304,11 @@
           <a href="leaving-cert-business/">Business notes</a>
           <a href="leaving-cert-home-economics/">Home Economics notes</a>
           <a href="leaving-cert-pe/">PE notes</a>
-          <a href="leaving-cert-notes/">All Leaving Cert notes</a>
         </div>
         <div class="foot-col">
           <h4>Company</h4>
           <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#contact" id="openContact">Contact</a>
           <a href="privacy.html">Privacy</a>
           <a href="terms.html">Terms</a>
         </div>
@@ -321,6 +320,28 @@
     </div>
   </div>
 </footer>
+
+<dialog id="contactDialog" class="contact-dialog" aria-labelledby="contactTitle">
+  <h2 id="contactTitle">Get in touch</h2>
+  <a href="app.html#feedback"><strong>Leave feedback</strong><span>Tell us what's wrong or missing (sign in needed)</span></a>
+  <a href="mailto:1stcitizen@barebones.ie"><strong>Email us</strong><span>1stcitizen@barebones.ie</span></a>
+  <a href="https://www.instagram.com/barebones.ie/" target="_blank" rel="noopener"><strong>Instagram</strong><span>@barebones.ie</span></a>
+  <a href="https://www.tiktok.com/@barebones.ie" target="_blank" rel="noopener"><strong>TikTok</strong><span>@barebones.ie</span></a>
+  <form method="dialog"><button class="btn btn-ghost">Close</button></form>
+</dialog>
+<script>
+  // Contact opens the dialog; the #contact link still works without JS
+  (function () {
+    var dialog = document.getElementById('contactDialog');
+    document.getElementById('openContact').addEventListener('click', function (e) {
+      if (!dialog.showModal) return;
+      e.preventDefault();
+      dialog.showModal();
+    });
+    dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+    if (location.hash === '#contact' && dialog.showModal) dialog.showModal();
+  })();
+</script>
 
 <!-- ============================ PHONE SCREEN TEMPLATES ============================ -->
 <template id="tpl-screen-flash">
