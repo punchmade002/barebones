@@ -255,6 +255,16 @@ async function openPaperViewer(paper) {
     setPaperStatus("");
     await buildPageStrip();
     showPaperPage(1);
+    // Pick up markup saved from another device without blocking the paper itself
+    pullPaperInk(paper.file).then((remoteInk) => {
+      if (!remoteInk || loadId !== viewer.loadId) return;
+      viewer.ink = remoteInk;
+      viewer.undo = {};
+      pv.strip.querySelectorAll(".pv-thumb").forEach((thumb) => {
+        thumb.classList.toggle("has-ink", Boolean(viewer.ink[thumb.dataset.page]?.length));
+      });
+      drawPaperInk();
+    }).catch((error) => console.error("Could not load paper markup from your account", error));
   } catch (error) {
     if (loadId !== viewer.loadId) return;
     console.error(error);
@@ -438,6 +448,73 @@ function loadPaperInk(file) {
   }
 }
 
+// ── Account sync ─────────────────────────────────────────
+// The browser copy stays the working copy (it works offline and for guests). Signed-in
+// users also get one row per paper in their account. Per paper, the last save wins;
+// a local edit that hasn't reached the account yet is marked dirty and wins on open.
+const INK_SYNC_KEY = "bb-paper-ink-sync:";
+const inkSyncTimers = {};
+
+function inkAuth() {
+  const auth = window.BarebonesAuth;
+  const user = typeof state !== "undefined" ? state.session?.currentUser : "";
+  return auth?.configured && user && auth.getSession() ? auth : null;
+}
+
+function inkSyncKey(file) {
+  return paperInkKey(file).replace(PAPER_INK_KEY, INK_SYNC_KEY);
+}
+
+function readInkSync(file) {
+  try { return JSON.parse(localStorage.getItem(inkSyncKey(file))) || {}; } catch (error) { return {}; }
+}
+
+function queueInkSync(file) {
+  const auth = inkAuth();
+  if (!auth) return;
+  const localKey = paperInkKey(file);
+  const syncKey = inkSyncKey(file);
+  try { localStorage.setItem(syncKey, JSON.stringify({ ...readInkSync(file), dirty: true })); } catch (error) { /* quota */ }
+  clearTimeout(inkSyncTimers[localKey]);
+  inkSyncTimers[localKey] = setTimeout(async () => {
+    try {
+      const raw = localStorage.getItem(localKey);
+      const at = await auth.savePaperInk(file, raw ? JSON.parse(raw) : {});
+      if (at) localStorage.setItem(syncKey, JSON.stringify({ at, dirty: false }));
+    } catch (error) {
+      console.error("Could not sync paper markup", error);
+    }
+  }, 800);
+}
+
+// Called when a paper opens. Returns the account's markup if it should replace what is
+// on screen, otherwise null (and uploads local markup the account doesn't have yet).
+async function pullPaperInk(file) {
+  const auth = inkAuth();
+  if (!auth) return null;
+  const remote = await auth.loadPaperInk(file);
+  const local = loadPaperInk(file);
+  const sync = readInkSync(file);
+  const localHasInk = Object.keys(local).length > 0;
+  const remoteHasInk = remote && Object.keys(remote.data).length > 0;
+  if (!remote || sync.dirty || (!remoteHasInk && localHasInk && !sync.at)) {
+    if (localHasInk || remote) queueInkSync(file);
+    return null;
+  }
+  if (sync.at === remote.updatedAt) return null;
+  // Markup made here before this paper was ever synced: keep its pages alongside the account's
+  const incoming = !sync.at && localHasInk && remoteHasInk ? { ...local, ...remote.data } : remote.data;
+  try {
+    if (remoteHasInk) localStorage.setItem(paperInkKey(file), JSON.stringify(incoming));
+    else localStorage.removeItem(paperInkKey(file));
+    localStorage.setItem(inkSyncKey(file), JSON.stringify({ at: remote.updatedAt, dirty: false }));
+  } catch (error) {
+    console.error(error);
+  }
+  if (incoming !== remote.data) queueInkSync(file);
+  return incoming;
+}
+
 function savePaperInk() {
   viewer.ink = Object.fromEntries(Object.entries(viewer.ink).filter(([, items]) => items.length));
   // A text box still empty (just placed, not typed in yet) isn't kept
@@ -450,6 +527,7 @@ function savePaperInk() {
   } catch (error) {
     console.error(error);
   }
+  queueInkSync(viewer.paper.file);
   pv.strip.querySelector(`.pv-thumb[data-page="${viewer.page}"]`)
     ?.classList.toggle("has-ink", Boolean(stored[viewer.page]?.length));
 }
