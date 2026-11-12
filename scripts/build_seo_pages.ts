@@ -356,7 +356,6 @@ ${o.body}
           <a href="/#method">Method</a>
           <a href="/#features">Features</a>
           <a href="/app.html#signin" class="auth-out">Sign in</a>
-          <a href="/app.html" class="auth-in">Open app</a>
         </div>
       </div>
     </div>
