@@ -122,7 +122,7 @@ function renderPapersArchive(failed = false) {
   if (!list) {
     document.getElementById("papersBody").innerHTML = `<p class="papers-status">${failed
       ? "The papers could not be loaded. Check your connection and open them again."
-      : "Loading papers…"}</p>`;
+      : "Loading papers…"}</p>${failed ? "" : '<div class="skeleton-block" aria-hidden="true"><div class="skeleton-row"><span class="skeleton" style="width:30%;height:1rem"></span><span class="skeleton" style="width:100%;height:5rem"></span></div></div>'}`;
     return;
   }
   const archive = { ...summary, papers: list };

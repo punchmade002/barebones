@@ -1619,6 +1619,63 @@ function serializeStudyUser(user) {
   };
 }
 
+// ── On-demand assets ───────────────────────────────────────────
+// KaTeX (~270 KB) and the Test kit (~190 KB) are only fetched when something on screen needs them.
+const assetLoads = new Map();
+function loadAsset(url, { cors = false } = {}) {
+  if (!assetLoads.has(url)) {
+    assetLoads.set(url, new Promise((resolve, reject) => {
+      const isCss = url.split("?")[0].endsWith(".css");
+      const el = document.createElement(isCss ? "link" : "script");
+      if (isCss) { el.rel = "stylesheet"; el.href = url; } else { el.src = url; el.async = false; }
+      if (cors) el.crossOrigin = "anonymous";
+      el.onload = resolve;
+      el.onerror = () => { assetLoads.delete(url); el.remove(); reject(new Error(`Could not load ${url}`)); };
+      document.head.appendChild(el);
+    }));
+  }
+  return assetLoads.get(url);
+}
+
+const KATEX_BASE = "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/";
+function loadKatex() {
+  return Promise.all([
+    loadAsset(`${KATEX_BASE}katex.min.css`, { cors: true }),
+    loadAsset(`${KATEX_BASE}katex.min.js`, { cors: true }),
+  ]).then(() => loadAsset(`${KATEX_BASE}contrib/auto-render.min.js`, { cors: true }));
+}
+
+function loadTestKit() {
+  return Promise.all([
+    loadAsset("./flashcard-test-prompts.js?v=2"),
+    loadAsset("./answer-marker.js?v=2"),
+  ]).then(() => loadAsset("./test-builder.js?v=4"));
+}
+
+// Typeset $…$ maths inside node, fetching KaTeX first only if there is any
+function typesetMath(node) {
+  if (!node || !node.textContent.includes("$")) return;
+  loadKatex().then(() => {
+    window.renderMathInElement?.(node, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+      ],
+      throwOnError: false,
+    });
+  }, (error) => console.error(error));
+}
+
+// Placeholder shapes shown while a screen's data downloads
+function skeletonHtml(kind) {
+  const bar = (w, h = "0.9rem") => `<span class="skeleton" style="width:${w};height:${h}"></span>`;
+  if (kind === "card") {
+    return `<div class="skeleton-block" aria-busy="true" aria-label="Loading flashcard">${bar("40%", "1.6rem")}${bar("85%")}${bar("70%")}</div>`;
+  }
+  const rows = [0, 1, 2, 3].map(() => `<div class="skeleton-row">${bar("34%", "1rem")}${bar("92%")}${bar("78%")}</div>`).join("");
+  return `<div class="skeleton-block" aria-busy="true" aria-label="Loading">${rows}</div>`;
+}
+
 function switchTab(tab) {
   els.tabs.forEach((btn) => btn.classList.toggle("active", btn.dataset.tab === tab));
   els.flashcardsTab.classList.toggle("active", tab === "flashcards");
@@ -1626,6 +1683,7 @@ function switchTab(tab) {
   els.examTab.classList.toggle("active", tab === "exam");
   els.subjectWorkbench?.classList.toggle("learn-mode", tab === "flashcards");
   if (tab === "exam") renderExamSection();
+  if (tab === "test") renderTestOverview();
 }
 
 function reconcileSelection() {
@@ -2160,6 +2218,13 @@ function renderOutcomes() {
   }
   if (!outcome) return;
 
+  // The subject's flashcards are still downloading: show a placeholder, not a half-filled card
+  if (openedSubjects.has(selectedSubjectId) && !subjectPackReady(selectedSubjectId)) {
+    els.flashcardList.innerHTML = "";
+    els.flashcardStudy.innerHTML = skeletonHtml("card");
+    return;
+  }
+
   els.flashcardList.innerHTML = "";
   const allPoints = outcome.keyTerms || [];
   allPoints.forEach((point, index) => {
@@ -2387,6 +2452,16 @@ function testMultiline(text) {
 
 function renderTestOverview() {
   if (!els.testContainer) return;
+  // Only the Test tab needs this, and only then is the Test kit downloaded
+  if (!els.testTab?.classList.contains("active")) return;
+  if (!window.TestBuilder) {
+    els.testContainer.innerHTML = skeletonHtml("rows");
+    loadTestKit().then(renderTestOverview, (error) => {
+      console.error(error);
+      els.testContainer.innerHTML = `<p class="muted">The test could not be loaded. Check your connection and try again.</p>`;
+    });
+    return;
+  }
   const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
   if (!subject) return;
   const settings = getTestSettings();
@@ -2635,15 +2710,7 @@ function renderTestScreen() {
   } else {
     els.testScreen.innerHTML = renderTestResults();
   }
-  if (typeof renderMathInElement !== "undefined") {
-    renderMathInElement(els.testScreen, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-      ],
-      throwOnError: false,
-    });
-  }
+  typesetMath(els.testScreen);
 }
 
 function renderTestBar(right, extra = "") {
@@ -3643,10 +3710,9 @@ function renderExamSection() {
     const emptyMessage = examPackReady(selectedSubjectId)
       ? "No past paper questions available for this chapter yet."
       : "Loading past paper questions…";
-    els.examContainer.innerHTML = papersLink + `
-      <div class="exam-empty">
-        <p class="muted">${emptyMessage}</p>
-      </div>${offSpecToggle}`;
+    els.examContainer.innerHTML = papersLink + (examPackReady(selectedSubjectId)
+      ? `<div class="exam-empty"><p class="muted">${emptyMessage}</p></div>${offSpecToggle}`
+      : skeletonHtml("rows"));
     return;
   }
 
@@ -3715,15 +3781,7 @@ function renderExamSection() {
 
   bindExamAccordions(els.examContainer);
 
-  if (typeof renderMathInElement !== "undefined") {
-    renderMathInElement(els.examContainer, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-      ],
-      throwOnError: false,
-    });
-  }
+  typesetMath(els.examContainer);
 }
 
 // The whole papers sit behind the question-by-question list, one tap away
@@ -4125,15 +4183,7 @@ function openMathsStepExplanation(stepElement, selectedText = "") {
   void panel.offsetWidth;
   panel.classList.add("is-open");
 
-  if (typeof renderMathInElement !== "undefined") {
-    renderMathInElement(panel, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-      ],
-      throwOnError: false,
-    });
-  }
+  typesetMath(panel);
 }
 
 function closeMathsExplanation(panel) {
@@ -5243,10 +5293,5 @@ function openSectionQuestions(subjectId, sectionIdx) {
   els.fullNotesScreen.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 
-  if (typeof renderMathInElement !== 'undefined') {
-    renderMathInElement(els.fullNotesScreen, {
-      delimiters: [{ left: '$$', right: '$$', display: true }, { left: '$', right: '$', display: false }],
-      throwOnError: false,
-    });
-  }
+  typesetMath(els.fullNotesScreen);
 }

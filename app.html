@@ -15,9 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=77" />
+    <link rel="stylesheet" href="./styles.css?v=78" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
     <script>
@@ -499,8 +498,6 @@
     </div>
     <canvas id="confettiCanvas"></canvas>
 
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
     <script src="./data.js?v=58"></script>
     <!-- geo-content.js retired 2026-08-14 (archived in archive/geography-2026-10-19/): geography is being rebuilt by pipeline/run.py.
          Snapshot of what it shipped: pipeline/_data/reports/geography-preexisting-index.json -->
@@ -518,16 +515,14 @@
     <script>window.BB_LAZY_SUBJECTS = true;</script>
     <script src="./generated-notes-content.js?v=8"></script>
     <script src="./onboarding.js?v=3"></script>
-    <script src="./flashcard-test-prompts.js?v=2"></script>
-    <script src="./answer-marker.js?v=2"></script>
-    <script src="./test-builder.js?v=4"></script>
+    <!-- KaTeX and the Test kit (test-builder, answer-marker, test prompts) load on demand: see loadKatex / loadTestKit in app.js -->
     <script src="./exam-packs.js?v=1"></script>
     <script src="./subject-packs.js?v=1"></script>
     <script src="./subject-builder.js?v=1"></script>
     <script src="./subject-index.js?v=1"></script>
-    <script src="./app.js?v=90"></script>
+    <script src="./app.js?v=91"></script>
     <script src="./exam-papers.js?v=2"></script>
-    <script src="./paper-archive.js?v=7"></script>
+    <script src="./paper-archive.js?v=8"></script>
     <script src="./timer.js?v=2"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
