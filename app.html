@@ -26,6 +26,8 @@
         try { isLoggedIn = !!(JSON.parse(saved).session.currentUser); } catch (e) {}
         var isAuthCallback = location.search.indexOf('code=') !== -1 ||
           location.hash.indexOf('access_token=') !== -1 ||
+          // A failed confirmation/reset link must reach the app so it can explain.
+          (location.hash + location.search).indexOf('error_description=') !== -1 ||
           location.hash === '#reset-password';
         var isLocalMathsPreview = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') &&
           ['maths', 'onboarding', 'test'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
@@ -255,6 +257,7 @@
             </div>
 
             <p id="accountStatus" class="auth-status" role="status" aria-live="polite"></p>
+            <button id="resendConfirmation" class="auth-text-button hidden" type="button">Didn’t get the email? Send it again</button>
             <p class="auth-privacy">Your password is never stored by barebones. Authentication is encrypted and your study data is protected per account.</p>
             <a class="auth-privacy-link" href="privacy.html" target="_blank" rel="noopener">Privacy policy<span aria-hidden="true">↗</span></a>
           </div>
@@ -506,7 +509,7 @@
     <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=6"></script>
+    <script src="./auth.js?v=7"></script>
     <script src="./usage-tracker.js?v=1"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
@@ -520,7 +523,7 @@
     <script src="./subject-packs.js?v=1"></script>
     <script src="./subject-builder.js?v=1"></script>
     <script src="./subject-index.js?v=1"></script>
-    <script src="./app.js?v=91"></script>
+    <script src="./app.js?v=92"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=8"></script>
     <script src="./timer.js?v=2"></script>

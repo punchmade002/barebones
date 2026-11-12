@@ -4,7 +4,7 @@ const path = require("node:path");
 const test = require("node:test");
 const vm = require("node:vm");
 
-function loadAuthHarness() {
+function loadAuthHarness({ hash = "", rpcErrors = {} } = {}) {
   const calls = [];
   let usernameAvailable = true;
   const session = {
@@ -40,6 +40,10 @@ function loadAuthHarness() {
         calls.push(["resetPasswordForEmail", email, options]);
         return { error: null };
       },
+      async resend(payload) {
+        calls.push(["resend", payload]);
+        return { error: null };
+      },
       async updateUser(payload) {
         calls.push(["updateUser", payload]);
         return { data: { user: session.user }, error: null };
@@ -47,6 +51,7 @@ function loadAuthHarness() {
     },
     async rpc(name, payload) {
       calls.push(["rpc", name, payload]);
+      if (rpcErrors[name]) return { data: null, error: { message: rpcErrors[name] } };
       return { data: usernameAvailable, error: null };
     },
     from(table) {
@@ -74,6 +79,8 @@ function loadAuthHarness() {
     location: {
       origin: "https://barebones.example",
       pathname: "/study/app.html",
+      hash,
+      search: "",
     },
     setTimeout(callback) {
       callback();
@@ -91,7 +98,7 @@ function loadAuthHarness() {
       storage.delete(key);
     },
   };
-  const context = vm.createContext({ window, localStorage, console });
+  const context = vm.createContext({ window, localStorage, console, URLSearchParams });
   const source = fs.readFileSync(path.join(__dirname, "..", "auth.js"), "utf8");
   vm.runInContext(source, context);
   return {
@@ -176,4 +183,53 @@ test("account creation stores normalized emails in the protected mailing list", 
     schema,
     /from auth\.users[\s\S]*on conflict \(user_id\) do update/i
   );
+});
+
+test("sign-up lets the same email reclaim its unconfirmed username", async () => {
+  const { auth, calls } = loadAuthHarness();
+  await auth.ready();
+  await auth.signUp({ username: "Student", email: " Student@Example.com ", password: "long-password" });
+
+  const rpcCall = calls.find(([name, fn]) => name === "rpc" && fn === "username_claimable");
+  assert.equal(rpcCall[2].candidate, "student");
+  assert.equal(rpcCall[2].candidate_email, "student@example.com");
+});
+
+test("sign-up falls back to the plain username check before the SQL fix is applied", async () => {
+  const { auth, calls } = loadAuthHarness({
+    rpcErrors: { username_claimable: "Could not find the function public.username_claimable" },
+  });
+  await auth.ready();
+  await auth.signUp({ username: "student", email: "student@example.com", password: "long-password" });
+
+  assert.ok(calls.some(([name, fn]) => name === "rpc" && fn === "username_available"));
+  assert.ok(calls.some(([name]) => name === "signUp"));
+});
+
+test("confirmation emails can be resent to the app callback URL", async () => {
+  const { auth, calls } = loadAuthHarness();
+  await auth.ready();
+  await auth.resendConfirmation(" Student@Example.com ");
+
+  const resendCall = calls.find(([name]) => name === "resend");
+  assert.equal(resendCall[1].type, "signup");
+  assert.equal(resendCall[1].email, "student@example.com");
+  assert.equal(resendCall[1].options.emailRedirectTo, "https://barebones.example/study/app.html");
+});
+
+test("a failed email link is reported instead of swallowed", () => {
+  const { auth } = loadAuthHarness({
+    hash: "#error=access_denied&error_code=otp_expired&error_description=Email+link+is+invalid+or+has+expired",
+  });
+  assert.equal(auth.urlAuthError.code, "otp_expired");
+  assert.equal(auth.urlAuthError.message, "Email link is invalid or has expired");
+
+  assert.equal(loadAuthHarness({ hash: "#signup" }).auth.urlAuthError, null);
+});
+
+test("abandoned unconfirmed sign-ups release their username", () => {
+  const sql = fs.readFileSync(path.join(__dirname, "..", "supabase", "signup-fixes.sql"), "utf8");
+  assert.match(sql, /function public\.username_claimable\(candidate text, candidate_email text\)/i);
+  assert.match(sql, /grant execute on function public\.username_claimable\(text, text\) to anon, authenticated/i);
+  assert.match(sql, /delete from auth\.users[\s\S]*email_confirmed_at is null[\s\S]*interval '24 hours'/i);
 });

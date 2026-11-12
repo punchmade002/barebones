@@ -201,6 +201,7 @@ const els = {
   subjectArea: document.getElementById("subjectArea"),
   sidebarToggle: document.getElementById("sidebarToggle"),
   accountStatus: document.getElementById("accountStatus"),
+  resendConfirmation: document.getElementById("resendConfirmation"),
   subjectGraph: document.getElementById("subjectGraph"),
   subjectWorkbench: document.getElementById("subjectWorkbench"),
   studyContext: document.getElementById("studyContext"),
@@ -374,6 +375,7 @@ function bindEvents() {
   });
   els.signInForm.addEventListener("submit", handleSignIn);
   els.signUpForm.addEventListener("submit", handleSignUp);
+  els.resendConfirmation.addEventListener("click", handleResendConfirmation);
   els.legacySetupForm.addEventListener("submit", handleLegacySetup);
   els.legacySignIn.addEventListener("click", () => {
     showExistingAccountSignIn(els.legacyEmail.value);
@@ -1081,7 +1083,15 @@ async function initializeAccounts() {
     showAuthMode(requestedMode);
     setAuthStatus(friendlyAuthError(error), "error");
   } finally {
-    if (window.location.hash === "#signin" || window.location.hash === "#signup") {
+    const linkError = accountAuth.urlAuthError;
+    if (linkError) {
+      history.replaceState(null, "", window.location.pathname);
+      if (!accountAuth.getSession()) {
+        showAuthMode("signin");
+        setAuthStatus(friendlyLinkError(linkError), "error");
+        showResendConfirmation(true);
+      }
+    } else if (window.location.hash === "#signin" || window.location.hash === "#signup") {
       history.replaceState(null, "", window.location.pathname);
     }
   }
@@ -1118,6 +1128,10 @@ async function handleAuthEvent(event, session) {
 async function handleSignIn(event) {
   event.preventDefault();
   if (!els.signInForm.reportValidity()) return;
+  localStorage.setItem(
+    pendingAuthEmailKey,
+    String(els.signInEmail.value || "").trim().toLowerCase()
+  );
   await runAuthAction(els.signInForm, async () => {
     await accountAuth.signIn(els.signInEmail.value, els.signInPassword.value);
     setAuthStatus("Signing you in…", "neutral");
@@ -1146,8 +1160,9 @@ async function handleSignUp(event) {
     if (data.session) {
       await activateAuthenticatedSession(data.session);
     } else {
-      setAuthStatus("Account created. Check your email to confirm it, then you’ll be signed in.", "success");
+      setAuthStatus("Account created! Check your inbox (and spam folder) for a confirmation link, then you’ll be signed in.", "success");
       els.signUpForm.reset();
+      showResendConfirmation(true);
     }
   });
 }
@@ -1189,7 +1204,8 @@ async function handleLegacySetup(event) {
     if (data.session) {
       await activateAuthenticatedSession(data.session);
     } else {
-      setAuthStatus("Nearly done. Confirm the email we sent you; your existing progress is waiting here.", "success");
+      setAuthStatus("Nearly done. Confirm the email we sent you (check spam too); your existing progress is waiting here.", "success");
+      showResendConfirmation(true);
       els.legacyEmail.disabled = true;
       els.legacyPassword.disabled = true;
       els.legacyPasswordConfirm.disabled = true;
@@ -1241,6 +1257,7 @@ async function runAuthAction(form, action) {
   } catch (error) {
     console.error(error);
     setAuthStatus(friendlyAuthError(error), "error");
+    if (/email not confirmed/i.test(String(error?.message || ""))) showResendConfirmation(true);
   } finally {
     if (submit && form.dataset.locked !== "true") {
       submit.disabled = false;
@@ -1269,6 +1286,7 @@ function showAuthMode(mode) {
   els.showSignUp.classList.toggle("active", mode === "signup");
   els.showSignUp.setAttribute("aria-selected", String(mode === "signup"));
   setAuthStatus("", "neutral");
+  showResendConfirmation(false);
 
   const current = getCurrentUser();
   if (mode === "legacy") {
@@ -1352,6 +1370,62 @@ function setAuthStatus(message, type = "neutral") {
   els.accountStatus.dataset.type = type;
 }
 
+function showResendConfirmation(show) {
+  els.resendConfirmation.classList.toggle("hidden", !show);
+}
+
+let resendCooldownTimer = 0;
+
+async function handleResendConfirmation() {
+  const button = els.resendConfirmation;
+  const email = String(
+    localStorage.getItem(pendingAuthEmailKey) || els.signInEmail.value || ""
+  ).trim().toLowerCase();
+  if (!email) {
+    showAuthMode("signin");
+    setAuthStatus("Enter your email and password, then press Sign in. We’ll offer to resend the link from there.", "neutral");
+    els.signInEmail.focus();
+    return;
+  }
+  const label = button.textContent;
+  button.disabled = true;
+  button.textContent = "Sending…";
+  try {
+    await accountAuth.resendConfirmation(email);
+    setAuthStatus(`Sent a fresh confirmation link to ${email}. It can take a minute, so check spam too.`, "success");
+    // Supabase only allows one resend a minute per address; match it in the UI.
+    let seconds = 60;
+    button.textContent = `Send again in ${seconds}s`;
+    clearInterval(resendCooldownTimer);
+    resendCooldownTimer = setInterval(() => {
+      seconds -= 1;
+      if (seconds > 0) {
+        button.textContent = `Send again in ${seconds}s`;
+        return;
+      }
+      clearInterval(resendCooldownTimer);
+      button.disabled = false;
+      button.textContent = label;
+    }, 1000);
+  } catch (error) {
+    console.error(error);
+    setAuthStatus(friendlyAuthError(error), "error");
+    button.disabled = false;
+    button.textContent = label;
+  }
+}
+
+function friendlyLinkError(linkError) {
+  const text = `${linkError.code} ${linkError.message}`;
+  if (/otp_expired|expired|invalid/i.test(text)) {
+    return "That link has expired or was already used. If you’ve already confirmed, just sign in. Otherwise, send yourself a fresh link below.";
+  }
+  if (/access_denied/i.test(text)) {
+    return "That link didn’t work. Sign in below, or send yourself a fresh confirmation link.";
+  }
+  return "That link didn’t work. Please sign in, or request a new link below.";
+}
+
 function togglePasswordVisibility(button) {
   const input = document.getElementById(button.dataset.passwordToggle);
   if (!input) return;
@@ -1375,6 +1449,13 @@ function friendlyAuthError(error) {
   if (/already registered|already exists/i.test(message)) return "An account already exists for that email.";
   if (/username.*taken|duplicate key|profiles_username/i.test(message)) return "That username is already taken.";
   if (/password/i.test(message) && /weak|least|characters/i.test(message)) return "Use a password with at least 8 characters.";
+  if (/error sending|sending (confirmation|recovery|magic link)|smtp|not authorized|email_address_not_authorized/i.test(message)) {
+    return "We couldn’t send your confirmation email just now. Please try again in a few minutes.";
+  }
+  if (/email rate limit|over_email_send_rate_limit|only request this after/i.test(message)) {
+    return "We’ve just sent you an email. Give it a minute (check spam), then try again if it hasn’t arrived.";
+  }
+  if (/email address.*invalid|invalid.*email/i.test(message)) return "That email address doesn’t look right. Check it and try again.";
   if (/rate limit|too many/i.test(message)) return "Too many attempts. Wait a moment and try again.";
   if (/failed to fetch|network/i.test(message)) return "Couldn’t reach account services. Check your connection and try again.";
   if (/not configured/i.test(message)) return "Account services are not configured yet.";

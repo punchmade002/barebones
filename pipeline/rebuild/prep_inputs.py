@@ -21,6 +21,29 @@ DATA = ROOT / 'pipeline/_data/rebuild'
 RAW = ROOT / 'pipeline/_data/raw'
 
 
+HIST_DBQ = re.compile(r'DOCUMENTS[- ]BASED', re.I)
+HIST_LM = re.compile(r'Ireland and the Union|Movements for political|pursuit of sovereignty|Irish diaspora|'
+                     r'Politics and society in Northern|Nationalism and state formation|Dictatorship and democracy|'
+                     r'Division and realignment|retreat from empire|United States and the world', re.I)
+
+
+def scheme_pages(subject, doc):
+    """Page indexes to keep. History schemes cover both fields, Later Modern first: keep the
+    general guidance and the Later Modern block, stopping at the next DBQ after it."""
+    pages = list(range(len(doc)))
+    if subject != 'history':
+        return pages
+    texts = [page.get_text() for page in doc]
+    last_lm = max((i for i, t in enumerate(texts) if HIST_LM.search(t)), default=None)
+    if last_lm is None:
+        return pages
+    # the Early Modern half opens with its own cover or Research Study Report page, then its DBQ
+    cut = next((i for i in range(last_lm + 1, len(texts))
+                if HIST_DBQ.search(texts[i]) or re.search(r'EARLY MODERN|RESEARCH STUDY REPORT', texts[i], re.I)),
+               len(texts))
+    return pages[:cut]
+
+
 def main(subject):
     base = DATA / subject
     crops = json.loads((base / 'crops.json').read_text())
@@ -46,7 +69,8 @@ def main(subject):
             continue
         doc = fitz.open(pdf)
         text = []
-        for i, page in enumerate(doc, 1):
+        for i in [k + 1 for k in scheme_pages(subject, doc)]:
+            page = doc[i - 1]
             text.append(f'===== PAGE {i} =====\n{page.get_text()}')
             png = out / f'p{i:02d}.png'
             if not png.exists():

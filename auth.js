@@ -15,6 +15,22 @@
   let session = null;
   const listeners = new Set();
 
+  // A confirmation or reset link that failed (expired, already used, opened by a
+  // mail scanner first) comes back as #error=...&error_description=... Read it
+  // before Supabase parses the URL so the app can explain what happened.
+  const urlAuthError = (() => {
+    if (typeof URLSearchParams !== "function") return null;
+    const hash = String(window.location.hash || "").replace(/^#/, "");
+    const query = String(window.location.search || "").replace(/^\?/, "");
+    const params = new URLSearchParams(hash.includes("=") ? hash : query);
+    const description = params.get("error_description");
+    if (!params.get("error") && !description) return null;
+    return {
+      code: params.get("error_code") || params.get("error") || "",
+      message: (description || "").replace(/\+/g, " "),
+    };
+  })();
+
   function notify(event, nextSession) {
     session = nextSession || null;
     if (session) {
@@ -75,6 +91,29 @@
     return Boolean(data);
   }
 
+  // True when the username is free, or is held by a never-confirmed sign-up with
+  // this same email (so someone whose first email never arrived can try again).
+  // Falls back to the plain check until supabase/signup-fixes.sql is applied.
+  async function canClaimUsername(username, email) {
+    const authClient = requireClient();
+    const { data, error } = await authClient.rpc("username_claimable", {
+      candidate: normalizeUsername(username),
+      candidate_email: String(email || "").trim().toLowerCase(),
+    });
+    if (error) return isUsernameAvailable(username);
+    return Boolean(data);
+  }
+
+  async function resendConfirmation(email) {
+    const authClient = requireClient();
+    const { error } = await authClient.auth.resend({
+      type: "signup",
+      email: String(email || "").trim().toLowerCase(),
+      options: { emailRedirectTo: redirectUrl() },
+    });
+    if (error) throw error;
+  }
+
   // Bump when terms.html or privacy.html change in a way users must agree to again.
   const TERMS_VERSION = "2026-11-06";
 
@@ -82,7 +121,7 @@
     const authClient = requireClient();
     const normalized = normalizeUsername(username);
 
-    if (!(await isUsernameAvailable(normalized))) {
+    if (!(await canClaimUsername(normalized, email))) {
       const error = new Error("That username is already taken.");
       error.code = "username_taken";
       throw error;
@@ -334,6 +373,8 @@
     normalizeUsername,
     isUsernameAvailable,
     signUp,
+    resendConfirmation,
+    urlAuthError,
     signIn,
     signOut,
     sendPasswordReset,
