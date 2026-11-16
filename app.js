@@ -3697,11 +3697,17 @@ function examGroupsForChapter(chapter) {
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
 }
 
-// Maths questions follow the level picked in onboarding; a group with no level, or a user with none, shows everything.
+// Exam questions follow the level picked in onboarding for their subject; a question with no
+// known level, or a user with no level for that subject, shows everything.
 function hiddenByUserLevel(group) {
-  if (group?.subject !== "maths" || !group.level) return false;
-  const level = getCurrentUser()?.onboarding?.levels?.maths;
-  return Boolean(level) && group.level !== level;
+  const level = getCurrentUser()?.onboarding?.levels?.[group?.subject];
+  const groupLevel = examGroupLevel(group);
+  return Boolean(level && groupLevel) && groupLevel !== level;
+}
+
+// Home Economics records the level only in its source line ("LC Home Economics Ordinary 2025 …").
+function examGroupLevel(group) {
+  return group?.level || /\b(Higher|Ordinary)\b/.exec(group?.source || "")?.[1].toLowerCase() || "";
 }
 
 // During the maths pilot preview the old (text-only) maths questions are hidden everywhere.
