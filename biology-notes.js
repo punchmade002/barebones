@@ -8721,7 +8721,7 @@
     "term": "Investigation Brief"
    },
    {
-    "definition": "The four criteria, with high, moderate and low wording, against which the Biology in Practice Investigation is judged.",
+    "definition": "The NCCA's four criteria, with high, moderate and low wording, that describe the quality expected in the Biology in Practice Investigation.",
     "term": "Descriptors of quality"
    },
    {
@@ -8738,7 +8738,7 @@
     "h": "What it is and how it is weighted",
     "points": [
      "Leaving Certificate Biology has two assessment components: a written examination worth 60%, at Higher and Ordinary level, and an additional assessment component, the Biology in Practice Investigation, worth 40%.",
-     "The investigation is based on a common brief, which is the same for all students and is not set at two levels. Only the written examination has a Higher and an Ordinary level.",
+     "The investigation is based on one common brief, the same for all students, and is worth 200 marks; it is assessed at the level at which the written paper is taken.",
      "Both components are set and examined by the State Examinations Commission (SEC).",
      "Students complete the work during the course and, in Year 2 (sixth year), submit to the SEC evidence of their ability to conduct scientific research on a particular issue and to use appropriate primary data to investigate aspects of that issue.",
      "The specification envisages that the investigation will take up to 20 hours to complete. Further details are given in the Guidelines for the Biology in Practice Investigation."
@@ -8756,7 +8756,8 @@
    {
     "h": "The Investigation Brief",
     "points": [
-     "The SEC publishes an Investigation Brief every year, in term two of Year 1 (fifth year) of the course.",
+     "The SEC publishes an Investigation Brief every year, in term two of Year 1 (fifth year) of the course; the brief for the 2027 examination was issued in January 2026.",
+     "The 2027 brief is set on membranes, osmosis and food preservation.",
      "The brief sets out the specific requirements of the investigation for that year.",
      "The brief allows students to develop their thinking and ideas on areas related to the brief that they would like to pursue.",
      "The brief helps teachers and students plan, and includes stimulus material to set a context for the investigation.",
@@ -8780,6 +8781,21 @@
     "points": [
      "The investigation requires students to consider issues related to real-world applications of biology.",
      "It requires students to demonstrate investigative skills, to relate their investigative work to the work of scientists in society, and to communicate their findings appropriately and effectively."
+    ]
+   },
+   {
+    "b": "The SEC brief sets the report's headings, limits and format, and allocates the 200 marks in four blocks of 50. The descriptors below describe the quality expected within them.",
+    "h": "The 2027 report: marks and rules",
+    "points": [
+     "Criterion A, 50 marks: title and introduction, research question and hypothesis, background research and evaluation of secondary data, and references.",
+     "Criterion B, 50 marks: designing and planning, and conducting the experiment, including safety, fairness, accuracy and choice of equipment.",
+     "Criterion C, 50 marks: primary data and its presentation, data analysis, and conclusions.",
+     "Criterion D, 50 marks: scientific literacy (communication, coherence, relevance and a reflective approach), judged across the whole report rather than in one section.",
+     "The report uses seven numbered headings, each on a new page: Title and Introduction; Background Research; Designing and Planning; Conducting the Experiment; Data and Data Analysis; Conclusions; References.",
+     "The report body is no more than 1,500 words (references, data tables, formulae, equations and labels are not counted), with no more than 20 images and no video.",
+     "Text is Arial and black, with 14-point bold headings and 12-point body text at 1.5 line spacing, portrait pages, 20 mm margins with nothing in them, and page numbers at the bottom centre.",
+     "The experiment and primary data collection are carried out under the direct supervision of the biology teacher, and every source, including any use of AI, is referenced.",
+     "The completed SEC cover page goes first; the report is converted to PDF, printed and proof-read, then given to the teacher by Friday 26 February 2027 with Authentication Form P.2 signed by the student, teacher and principal."
     ]
    },
    {

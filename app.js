@@ -2279,7 +2279,10 @@ function renderSubjectOverview() {
   overviewEl.innerHTML = `
     <div class="overview-nav">
       <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to subjects">Subjects</button>
-      ${hasBreakdown ? `<button class="overview-paper-guide" type="button" onclick="openExamBreakdown('${escapeHtml(ss.subject.id)}')">Paper guide</button>` : ""}
+      <span class="overview-guides">
+        ${hasBreakdown ? `<button class="overview-paper-guide" type="button" onclick="openExamBreakdown('${escapeHtml(ss.subject.id)}')">Paper guide</button>` : ""}
+        ${window.AAC_GUIDES?.[ss.subject.id] ? `<button class="overview-paper-guide" type="button" onclick="openAacGuide('${escapeHtml(ss.subject.id)}')">AAC guide</button>` : ""}
+      </span>
     </div>
     <div class="overview-header">
       <div class="overview-header-text">
@@ -5429,7 +5432,7 @@ function renderBreakdownModal(data) {
   const head = (meta) => `
     <header class="bd-head">
       <div class="bd-head-text">
-        <span class="bd-eyebrow">Paper guide</span>
+        ${guideSwitch(data.subject, 'paper')}
         <h2 class="bd-title">${subjectTitle}</h2>
       </div>
       ${meta}
@@ -5611,4 +5614,146 @@ function openSectionQuestions(subjectId, sectionIdx) {
   document.body.style.overflow = 'hidden';
 
   typesetMath(els.fullNotesScreen);
+}
+
+// ── AAC guides ──────────────────────────────────────────────
+// Same modal, panels and strip as the Paper guide; data in aac-guides.js. Ticks are per browser.
+const AAC_STAGE_COLORS = ['#3B82F6', '#14B8A6', '#F59E0B', '#F97316', '#EF4444', '#0EA5E9', '#64748B'];
+const AAC_TICKS_KEY = 'aacTicks';
+
+function readAacTicks() {
+  try { return JSON.parse(localStorage.getItem(AAC_TICKS_KEY) || '{}') || {}; } catch { return {}; }
+}
+
+function aacTickCount(guide, ticks) {
+  const done = new Set(ticks[guide.subject] || []);
+  const all = guide.stages.flatMap((s) => s.checklist);
+  return { done: all.filter((t) => done.has(t)).length, total: all.length };
+}
+
+function toggleAacTick(input) {
+  const { subject, text } = input.dataset;
+  const ticks = readAacTicks();
+  const set = new Set(ticks[subject] || []);
+  if (input.checked) set.add(text); else set.delete(text);
+  ticks[subject] = [...set];
+  try { localStorage.setItem(AAC_TICKS_KEY, JSON.stringify(ticks)); } catch {}
+  const { done, total } = aacTickCount(window.AAC_GUIDES[subject], ticks);
+  const out = document.getElementById('aacProgress');
+  if (out) out.textContent = `${done}/${total}`;
+}
+
+// Eyebrow of both guide screens: a Paper guide | AAC guide switch when the subject has both
+function guideSwitch(subjectId, active, aacTitle = '') {
+  const hasPaper = !!window.EXAM_BREAKDOWN?.[subjectId];
+  const hasAac = !!window.AAC_GUIDES?.[subjectId];
+  const label = active === 'aac' ? `AAC guide · ${escapeHtml(aacTitle)}` : 'Paper guide';
+  if (!hasPaper || !hasAac) return `<span class="bd-eyebrow">${label}</span>`;
+  const tab = (key, text, open) => key === active
+    ? `<span class="bd-switch-tab is-active" aria-current="page">${text}</span>`
+    : `<button type="button" class="bd-switch-tab" onclick="${open}('${subjectId}')">${text}</button>`;
+  return `<span class="bd-eyebrow bd-switch">${tab('paper', 'Paper guide', 'openExamBreakdown')}${tab('aac', active === 'aac' ? label : 'AAC guide', 'openAacGuide')}</span>`;
+}
+
+function openAacGuide(subjectId) {
+  const guide = window.AAC_GUIDES?.[subjectId];
+  if (!guide) return;
+  document.getElementById('examBreakdownContent').innerHTML = renderAacGuide(guide);
+  document.getElementById('examBreakdownModal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  selectAacStage(0);
+}
+
+function selectAacStage(idx) {
+  const modal = document.getElementById('examBreakdownModal');
+  modal.querySelectorAll('.bd-panel').forEach((el) => {
+    const open = Number(el.dataset.idx) === idx;
+    el.classList.toggle('is-open', open);
+    el.querySelector('.bd-panel-head').setAttribute('aria-expanded', String(open));
+  });
+  modal.querySelectorAll('.bd-bar-seg').forEach((el) => el.classList.toggle('is-open', Number(el.dataset.idx) === idx));
+}
+
+// The year's task as the SEC sets it: topic or assignments, what to submit, and the due date
+function renderAacBrief(brief) {
+  if (!brief) return '';
+  return `<section class="aac-brief" aria-label="The 2027 brief">
+    <div class="aac-brief-main">
+      <span class="bd-label">The 2027 brief</span>
+      <p class="aac-brief-task">${escapeHtml(brief.task)}</p>
+      ${brief.list ? `<ol class="aac-brief-list">${brief.list.map((t) => `<li>${escapeHtml(t)}</li>`).join('')}</ol>` : ''}
+      <a class="aac-brief-source" href="${escapeHtml(brief.source.url)}" target="_blank" rel="noopener">${escapeHtml(brief.source.label)} ↗</a>
+    </div>
+    <dl class="aac-brief-facts">${brief.facts.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('')}</dl>
+  </section>`;
+}
+
+function renderAacGuide(guide) {
+  const ticks = readAacTicks();
+  const done = new Set(ticks[guide.subject] || []);
+  const { done: doneCount, total } = aacTickCount(guide, ticks);
+  const byMarks = guide.stages.every((s) => s.marks);
+  const color = (i) => AAC_STAGE_COLORS[i % AAC_STAGE_COLORS.length];
+
+  const bar = `<div class="bd-bar" aria-hidden="true">${guide.stages.map((s, i) => `
+      <button type="button" class="bd-bar-seg" style="--sec:${color(i)};flex-grow:${byMarks ? s.marks : 1}"
+        data-idx="${i}" tabindex="-1" onclick="selectAacStage(${i})">
+        <span class="bd-bar-label">${escapeHtml(splitSectionName(s.name).kicker || s.name)}${s.marks ? ` · ${s.marks}` : ''}</span>
+        <span class="bd-bar-strip"></span>
+      </button>`).join('')}</div>`;
+
+  const panels = guide.stages.map((s, i) => {
+    const { kicker, title } = splitSectionName(s.name);
+    const depth = s.guide.reduce((n, g) => n + g.points.length, 0);
+    const last = i === guide.stages.length - 1;
+    return `
+    <section class="bd-panel" style="--sec:${color(i)};--i:${i}" data-idx="${i}"
+      onclick="if (!this.classList.contains('is-open')) selectAacStage(${i})">
+      <button type="button" class="bd-panel-head" aria-expanded="false">
+        <span class="bd-kicker">${escapeHtml(kicker || `Stage ${i + 1}`)}</span>
+        <span class="bd-panel-title">${escapeHtml(title)}</span>
+        ${s.marks ? `<span class="bd-marks"><strong>${s.marks}</strong> marks</span>` : ''}
+        <span class="bd-facts">${s.checklist.length} step${s.checklist.length === 1 ? '' : 's'}${s.marksNote ? ` · ${escapeHtml(s.marksNote)}` : ''}</span>
+      </button>
+      <span class="bd-panel-cue" aria-hidden="true">${s.checklist.length} steps · Click to open</span>
+      <div class="bd-panel-body">
+        <div class="bd-tip aac-checklist">
+          <span class="bd-label">Full-marks checklist</span>
+          <ul class="aac-checks">${s.checklist.map((t) => `
+            <li><label><input type="checkbox" data-subject="${guide.subject}" data-text="${escapeHtml(t)}"
+              ${done.has(t) ? 'checked' : ''} onchange="toggleAacTick(this)"><span>${escapeHtml(t)}</span></label></li>`).join('')}
+          </ul>
+        </div>
+        <details class="bd-tip aac-depth">
+          <summary><span class="bd-label">Full guide</span><span class="aac-depth-count">${depth} points</span></summary>
+          ${s.guide.map((g) => `
+            <h4 class="aac-h">${escapeHtml(g.h)}</h4>
+            <ul class="bd-reminders aac-points">${g.points.map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul>`).join('')}
+        </details>
+        ${last ? `
+        <div class="bd-tip aac-sources">
+          <span class="bd-label">Pooled from ${guide.sources.length} sources</span>
+          <ul>${guide.sources.map((src) => `<li><a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.label)}</a></li>`).join('')}</ul>
+        </div>` : ''}
+      </div>
+    </section>`;
+  }).join('');
+
+  return `<div class="bd-screen aac-screen">
+    <header class="bd-head">
+      <div class="bd-head-text">
+        ${guideSwitch(guide.subject, 'aac', guide.title)}
+        <h2 class="bd-title">${escapeHtml(guide.subjectTitle)}</h2>
+      </div>
+      <dl class="bd-stats">
+        <div><dt>Of your grade</dt><dd>${escapeHtml(guide.weight)}</dd></div>
+        <div><dt>Level</dt><dd>${escapeHtml(guide.level)}</dd></div>
+        <div><dt>Checklist</dt><dd id="aacProgress">${doneCount}/${total}</dd></div>
+      </dl>
+    </header>
+    <p class="bd-timing-note">${escapeHtml(guide.summary)}</p>
+    ${renderAacBrief(guide.brief)}
+    ${bar}
+    <div class="bd-panels">${panels}</div>
+  </div>`;
 }
