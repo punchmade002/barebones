@@ -106,11 +106,13 @@ for (const subject of SUBJECTS) {
   test(`${subject}: a whole-subject test fills the time asked for`, () => {
     const pool = poolFor(subject);
     [5, 10, 20, 45].forEach((minutes) => {
-      ["flashcards", "balanced", "exam"].forEach((mix) => {
+      ["all-flashcards", "flashcards", "balanced", "exam", "all-exam"].forEach((mix) => {
         const built = TB.assembleTest(pool, { minutes, mix, random: seeded(minutes * 7 + mix.length) });
         assert.ok(built.items.length > 0, `${minutes} min ${mix} should have questions`);
         assert.ok(built.plannedSeconds <= minutes * 60, `${minutes} min ${mix} should not overrun`);
-        assert.ok(built.plannedSeconds >= minutes * 60 * 0.9, `${minutes} min ${mix} should fill at least 90% (got ${built.plannedSeconds}s)`);
+        // All-exam has no flashcards to pack the gaps between long exam parts.
+        if (mix === "all-exam") assert.ok(built.items.every((i) => i.bucket !== "flashcard"), "all-exam should have no flashcards");
+        else assert.ok(built.plannedSeconds >= minutes * 60 * 0.9, `${minutes} min ${mix} should fill at least 90% (got ${built.plannedSeconds}s)`);
         const ids = built.items.map((item) => item.id);
         assert.equal(ids.length, new Set(ids).size, "no question should repeat");
         const cards = built.items.filter((item) => item.cardId).map((item) => item.cardId);
@@ -126,8 +128,12 @@ for (const subject of SUBJECTS) {
       const flash = built.items.filter((i) => i.bucket === "flashcard").reduce((s, i) => s + i.seconds, 0);
       return flash / built.plannedSeconds;
     };
+    assert.equal(share("all-flashcards"), 1);
+    assert.ok(share("all-flashcards") > share("flashcards"));
     assert.ok(share("flashcards") > share("balanced"));
     assert.ok(share("balanced") > share("exam"));
+    assert.ok(share("exam") > share("all-exam"));
+    assert.equal(share("all-exam"), 0);
   });
 }
 
