@@ -10,7 +10,7 @@
   const MIN_EXAM_SECONDS = 60;
 
   // Share of the test's time spent on flashcards for each mix setting.
-  const MIX_FLASHCARD_SHARE = { flashcards: 0.75, balanced: 0.5, exam: 0.25 };
+  const MIX_FLASHCARD_SHARE = { "all-flashcards": 1, flashcards: 0.75, balanced: 0.5, exam: 0.25, "all-exam": 0 };
 
   // Target proportions of flashcard formats. Recall needs an authored prompt,
   // so cards without one share its slot between the other formats.
@@ -729,7 +729,8 @@
   }
 
   /**
-   * Picks questions to fill `minutes`. mix is "flashcards" | "balanced" | "exam".
+   * Picks questions to fill `minutes`. mix is a MIX_FLASHCARD_SHARE key.
+   * The "all-" mixes never borrow from the other bucket, even if that leaves time unfilled.
    * Flashcards come first as a warm-up, exam questions after.
    */
   function assembleTest(pool, options = {}) {
@@ -743,10 +744,10 @@
     const usedExam = new Set();
     const exam = pickExam(pool, budget * (1 - share), random, usedExam);
     const examSeconds = exam.reduce((s, i) => s + i.seconds, 0);
-    const flashcards = pickFlashcards(pool, budget - examSeconds, random, usedCards);
+    const flashcards = share === 0 ? [] : pickFlashcards(pool, budget - examSeconds, random, usedCards);
     const flashSeconds = flashcards.reduce((s, i) => s + i.seconds, 0);
     // Not enough flashcards to use their share? Give the time back to exam questions.
-    const topUp = pickExam(pool, budget - examSeconds - flashSeconds, random, usedExam);
+    const topUp = share === 1 && hasExam && hasCards ? [] : pickExam(pool, budget - examSeconds - flashSeconds, random, usedExam);
 
     const examItems = exam.concat(topUp);
     // Keep each exam question's parts together, in paper order.

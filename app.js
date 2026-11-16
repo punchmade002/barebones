@@ -284,11 +284,14 @@ const mathsSolutionStore = new Map();
 // Test state. Declared up here because renderAll() runs before the Test section below.
 const TEST_HISTORY_LIMIT = 30;
 const TEST_SETTINGS_KEY = "bb-test-settings-v1";
-const TEST_LENGTHS = [5, 10, 15, 20, 30, 45];
+const TEST_MINUTES = { min: 5, max: 60, step: 5 };
+// Ordered from all flashcards to all exam; ids are TestBuilder.MIX_FLASHCARD_SHARE keys.
 const TEST_MIXES = [
-  { id: "flashcards", label: "Mostly flashcards" },
-  { id: "balanced", label: "Balanced" },
-  { id: "exam", label: "Mostly exam" },
+  { id: "all-flashcards", label: "All flashcards", short: "All cards" },
+  { id: "flashcards", label: "Mostly flashcards", short: "Mostly cards" },
+  { id: "balanced", label: "Even split", short: "Even" },
+  { id: "exam", label: "Mostly exam questions", short: "Mostly exam" },
+  { id: "all-exam", label: "All exam questions", short: "All exam" },
 ];
 const TEST_PASS_PERCENT = 70;
 const TEST_KIND_LABELS = {
@@ -391,6 +394,12 @@ function bindEvents() {
   });
   els.testContainer.addEventListener("click", handleTestSetupClick);
   els.testContainer.addEventListener("change", handleTestSetupChange);
+  els.testContainer.addEventListener("input", handleTestSetupInput);
+  els.testContainer.addEventListener("keydown", handleTestSetupKeydown);
+  els.testContainer.addEventListener("pointerdown", handleTestMixPointer);
+  document.addEventListener("pointerdown", (event) => {
+    if (!event.target.closest?.(".test-dropdown")) closeTestDropdown(false);
+  });
   els.testScreen.addEventListener("click", handleTestScreenClick);
   els.testScreen.addEventListener("pointerdown", handleTestPointerDown);
   els.testScreen.addEventListener("input", handleTestScreenInput);
@@ -2442,10 +2451,15 @@ function getTestSettings() {
   }
   return {
     scope: ["chapter", "subject", "custom"].includes(saved.scope) ? saved.scope : "chapter",
-    minutes: TEST_LENGTHS.includes(saved.minutes) ? saved.minutes : 10,
+    minutes: Number.isFinite(Number(saved.minutes)) ? snapTestMinutes(saved.minutes) : 10,
     mix: TEST_MIXES.some((mix) => mix.id === saved.mix) ? saved.mix : "balanced",
     customChapters: saved.customChapters && typeof saved.customChapters === "object" ? saved.customChapters : {},
   };
+}
+
+function snapTestMinutes(value) {
+  const { min, max, step } = TEST_MINUTES;
+  return Math.min(max, Math.max(min, Math.round(Number(value) / step) * step));
 }
 
 function saveTestSettings(settings) {
@@ -2565,60 +2579,120 @@ function renderTestOverview() {
   if (!subject) return;
   const settings = getTestSettings();
   const scope = getTestScope(settings);
-  const pool = scope.chapters.length ? getTestPool(subject, scope.chapters) : null;
-  const preview = pool
-    ? TestBuilder.assembleTest(pool, { minutes: settings.minutes, mix: settings.mix, random: seededRandom(7) })
-    : null;
-  const chosen = new Set(settings.customChapters[subject.id] || []);
-
-  const choice = (attr, value, label, active) => `
-    <button type="button" class="test-choice${active ? " is-active" : ""}" role="radio" aria-checked="${active}" ${attr}="${escapeHtml(value)}">${label}</button>`;
-
-  const chapterPicker = settings.scope === "custom" ? `
-    <div class="test-chapter-picker">
-      <div class="test-chapter-picker-head">
-        <span>${plural(chosen.size, "chapter")} chosen</span>
-        <button type="button" class="test-link" data-test-chapters="all">Select all</button>
-        <button type="button" class="test-link" data-test-chapters="none">Clear</button>
-      </div>
-      <ul class="test-chapter-list">
-        ${subject.chapters.map((chapter) => `
-          <li>
-            <label class="test-chapter-option">
-              <input type="checkbox" data-test-chapter="${escapeHtml(chapter.id)}" ${chosen.has(chapter.id) ? "checked" : ""} />
-              <span>${escapeHtml(chapter.title)}</span>
-            </label>
-          </li>`).join("")}
-      </ul>
-    </div>` : "";
+  const covered = new Set(scope.chapters.map((c) => c.id));
+  const mixIndex = TEST_MIXES.findIndex((mix) => mix.id === settings.mix);
+  const share = TestBuilder.MIX_FLASHCARD_SHARE[settings.mix] ?? 0.5;
+  const minutesP = (settings.minutes - TEST_MINUTES.min) / (TEST_MINUTES.max - TEST_MINUTES.min);
+  const scopeOption = (value, title, meta) => `
+    <button type="button" class="test-dropdown-option" role="radio" aria-checked="${settings.scope === value}" data-test-scope="${value}">
+      <span>${title}</span><small>${meta}</small>
+    </button>`;
 
   els.testContainer.innerHTML = `
     <div class="test-setup">
       <div class="test-setup-row">
         <span class="test-setup-label" id="testScopeLabel">Cover</span>
-        <div class="test-choices" role="radiogroup" aria-labelledby="testScopeLabel">
-          ${choice("data-test-scope", "chapter", "This chapter", settings.scope === "chapter")}
-          ${choice("data-test-scope", "subject", `All of ${escapeHtml(subject.title)}`, settings.scope === "subject")}
-          ${choice("data-test-scope", "custom", "Choose chapters", settings.scope === "custom")}
-        </div>
+        <details class="test-dropdown">
+          <summary class="test-dropdown-toggle" aria-describedby="testScopeLabel">
+            <span class="test-dropdown-value">${escapeHtml(scope.label || "Choose chapters")}</span>
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <div class="test-dropdown-menu">
+            <div role="radiogroup" aria-labelledby="testScopeLabel">
+              ${scopeOption("chapter", "This chapter", escapeHtml(getSelectedChapter()?.title || "None selected"))}
+              ${scopeOption("subject", `All of ${escapeHtml(subject.title)}`, plural(subject.chapters.length, "chapter"))}
+            </div>
+            <p class="test-dropdown-head">Or pick chapters</p>
+            <ul class="test-chapter-list">
+              ${subject.chapters.map((chapter) => `
+                <li>
+                  <label class="test-chapter-option">
+                    <input type="checkbox" data-test-chapter="${escapeHtml(chapter.id)}" ${covered.has(chapter.id) ? "checked" : ""} />
+                    <span>${escapeHtml(chapter.title)}</span>
+                  </label>
+                </li>`).join("")}
+            </ul>
+          </div>
+        </details>
       </div>
-      ${chapterPicker}
       <div class="test-setup-row">
-        <span class="test-setup-label" id="testLengthLabel">Time</span>
-        <div class="test-choices" role="radiogroup" aria-labelledby="testLengthLabel">
-          ${TEST_LENGTHS.map((m) => choice("data-test-minutes", m, `${m} min`, settings.minutes === m)).join("")}
+        <label class="test-setup-label" for="testMinutes">Time</label>
+        <div class="test-time" style="--p: ${minutesP}">
+          <output class="test-time-value" for="testMinutes"><strong>${settings.minutes}</strong> min</output>
+          <input type="range" id="testMinutes" class="test-range" min="${TEST_MINUTES.min}" max="${TEST_MINUTES.max}" step="${TEST_MINUTES.step}" value="${settings.minutes}" aria-valuetext="${settings.minutes} minutes" data-test-minutes />
+          <div class="test-time-scale" aria-hidden="true">
+            ${[5, 15, 30, 45, 60].map((m) => `<span style="--p: ${(m - TEST_MINUTES.min) / (TEST_MINUTES.max - TEST_MINUTES.min)}">${m}</span>`).join("")}
+          </div>
         </div>
       </div>
       <div class="test-setup-row">
         <span class="test-setup-label" id="testMixLabel">Mix</span>
-        <div class="test-choices" role="radiogroup" aria-labelledby="testMixLabel">
-          ${TEST_MIXES.map((mix) => choice("data-test-mix", mix.id, mix.label, settings.mix === mix.id)).join("")}
+        <div class="test-mix" style="--mix-i: ${mixIndex}; --mix-share: ${share}">
+          <div class="test-mix-track" role="radiogroup" aria-labelledby="testMixLabel">
+            <span class="test-mix-thumb" aria-hidden="true"></span>
+            ${TEST_MIXES.map((mix, i) => `
+              <button type="button" class="test-mix-stop" role="radio" aria-checked="${i === mixIndex}" tabindex="${i === mixIndex ? 0 : -1}" aria-label="${mix.label}" data-test-mix="${mix.id}">${mix.short}</button>`).join("")}
+          </div>
+          <div class="test-mix-ratio" aria-hidden="true">
+            <span>Flashcards <b data-mix-cards>${Math.round(share * 100)}%</b></span>
+            <span class="test-mix-bar"><i class="is-cards"></i><i class="is-exam"></i></span>
+            <span><b data-mix-exam>${Math.round((1 - share) * 100)}%</b> Exam Qs</span>
+          </div>
         </div>
       </div>
-      ${renderTestPreview(scope, preview, settings)}
+      ${renderTestPreview(scope, previewTest(subject, scope, settings), settings)}
       ${renderTestHistory(subject)}
     </div>
   `;
+}
+
+function previewTest(subject, scope, settings) {
+  if (!scope.chapters.length) return null;
+  return TestBuilder.assembleTest(getTestPool(subject, scope.chapters), { minutes: settings.minutes, mix: settings.mix, random: seededRandom(7) });
+}
+
+// Controls update in place rather than re-rendering, so the slider keeps its
+// drag, the chapter list keeps its scroll and the mix thumb can glide.
+function refreshTestSetup() {
+  const root = els.testContainer.querySelector(".test-setup");
+  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  if (!root || !subject) return renderTestOverview();
+  const settings = getTestSettings();
+  const scope = getTestScope(settings);
+  const covered = new Set(scope.chapters.map((c) => c.id));
+  root.querySelector(".test-dropdown-value").textContent = scope.label || "Choose chapters";
+  root.querySelectorAll("[data-test-scope]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.testScope === settings.scope)));
+  root.querySelectorAll("[data-test-chapter]").forEach((box) => { box.checked = covered.has(box.dataset.testChapter); });
+
+  const share = TestBuilder.MIX_FLASHCARD_SHARE[settings.mix] ?? 0.5;
+  const mix = root.querySelector(".test-mix");
+  mix.style.setProperty("--mix-i", TEST_MIXES.findIndex((m) => m.id === settings.mix));
+  mix.style.setProperty("--mix-share", share);
+  mix.querySelectorAll("[data-test-mix]").forEach((b) => {
+    const on = b.dataset.testMix === settings.mix;
+    b.setAttribute("aria-checked", String(on));
+    b.tabIndex = on ? 0 : -1;
+  });
+  mix.querySelector("[data-mix-cards]").textContent = `${Math.round(share * 100)}%`;
+  mix.querySelector("[data-mix-exam]").textContent = `${Math.round((1 - share) * 100)}%`;
+
+  root.querySelector(".test-setup-start").outerHTML = renderTestPreview(scope, previewTest(subject, scope, settings), settings);
+}
+
+// A small pop and haptic tick when a control lands on a new value.
+function nudgeTestControl(el) {
+  navigator.vibrate?.(6);
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  el?.animate([{ transform: "scale(1.14)" }, { transform: "none" }], { duration: 320, easing: "cubic-bezier(0.22, 1, 0.36, 1)" });
+}
+
+function setTestMix(id) {
+  const settings = getTestSettings();
+  if (settings.mix === id) return;
+  settings.mix = id;
+  saveTestSettings(settings);
+  refreshTestSetup();
+  nudgeTestControl(els.testContainer.querySelector(`[data-test-mix="${id}"]`));
 }
 
 function renderTestPreview(scope, preview, settings) {
@@ -2678,42 +2752,89 @@ function renderTestHistory(subject) {
 function handleTestSetupClick(event) {
   const target = event.target.closest("button");
   if (!target || !els.testContainer.contains(target)) return;
-  const settings = getTestSettings();
-  if (target.dataset.testScope) {
+  if (target.dataset.testMix) {
+    setTestMix(target.dataset.testMix);
+  } else if (target.dataset.testScope) {
+    const settings = getTestSettings();
     settings.scope = target.dataset.testScope;
-    if (settings.scope === "custom" && !(settings.customChapters[selectedSubjectId] || []).length && selectedChapterId) {
-      settings.customChapters[selectedSubjectId] = [selectedChapterId];
-    }
-  } else if (target.dataset.testMinutes) {
-    settings.minutes = Number(target.dataset.testMinutes);
-  } else if (target.dataset.testMix) {
-    settings.mix = target.dataset.testMix;
-  } else if (target.dataset.testChapters) {
-    const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
-    settings.customChapters[selectedSubjectId] = target.dataset.testChapters === "all"
-      ? subject.chapters.map((c) => c.id)
-      : [];
+    saveTestSettings(settings);
+    refreshTestSetup();
+    closeTestDropdown(true);
   } else if (target.dataset.testAction === "start") {
     startTest();
-    return;
-  } else {
-    return;
   }
-  saveTestSettings(settings);
-  renderTestOverview();
 }
 
+// Ticking a chapter starts from whatever is covered now, so "This chapter"
+// plus one more tick is two chapters, not one.
 function handleTestSetupChange(event) {
   const box = event.target.closest("[data-test-chapter]");
   if (!box) return;
   const settings = getTestSettings();
-  const chosen = new Set(settings.customChapters[selectedSubjectId] || []);
+  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  const chosen = new Set(getTestScope(settings).chapters.map((c) => c.id));
   if (box.checked) chosen.add(box.dataset.testChapter);
   else chosen.delete(box.dataset.testChapter);
-  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  settings.scope = "custom";
   settings.customChapters[selectedSubjectId] = subject.chapters.map((c) => c.id).filter((id) => chosen.has(id));
   saveTestSettings(settings);
-  renderTestOverview();
+  refreshTestSetup();
+}
+
+function handleTestSetupInput(event) {
+  const range = event.target.closest("[data-test-minutes]");
+  if (!range) return;
+  const settings = getTestSettings();
+  const minutes = snapTestMinutes(range.value);
+  if (minutes === settings.minutes) return;
+  settings.minutes = minutes;
+  saveTestSettings(settings);
+  range.setAttribute("aria-valuetext", `${minutes} minutes`);
+  const time = range.closest(".test-time");
+  time.style.setProperty("--p", (minutes - TEST_MINUTES.min) / (TEST_MINUTES.max - TEST_MINUTES.min));
+  time.querySelector(".test-time-value strong").textContent = minutes;
+  nudgeTestControl(time.querySelector(".test-time-value strong"));
+  refreshTestSetup();
+}
+
+function handleTestSetupKeydown(event) {
+  if (event.key === "Escape" && event.target.closest(".test-dropdown[open]")) {
+    closeTestDropdown(true);
+    return;
+  }
+  const stop = event.target.closest("[data-test-mix]");
+  const step = { ArrowLeft: -1, ArrowUp: -1, ArrowRight: 1, ArrowDown: 1 }[event.key];
+  if (!stop || !step) return;
+  event.preventDefault();
+  const i = Math.min(TEST_MIXES.length - 1, Math.max(0, TEST_MIXES.findIndex((m) => m.id === stop.dataset.testMix) + step));
+  setTestMix(TEST_MIXES[i].id);
+  els.testContainer.querySelector(`[data-test-mix="${TEST_MIXES[i].id}"]`)?.focus();
+}
+
+// Press anywhere on the mix track and drag: the thumb follows, snapping to each stop.
+function handleTestMixPointer(event) {
+  const track = event.target.closest(".test-mix-track");
+  if (!track) return;
+  const pick = (e) => {
+    const box = track.getBoundingClientRect();
+    const i = Math.floor(((e.clientX - box.left) / box.width) * TEST_MIXES.length);
+    setTestMix(TEST_MIXES[Math.min(TEST_MIXES.length - 1, Math.max(0, i))].id);
+  };
+  track.setPointerCapture(event.pointerId);
+  track.classList.add("is-dragging");
+  pick(event);
+  track.onpointermove = pick;
+  track.onpointerup = track.onpointercancel = () => {
+    track.onpointermove = track.onpointerup = track.onpointercancel = null;
+    track.classList.remove("is-dragging");
+  };
+}
+
+function closeTestDropdown(refocus) {
+  const menu = els.testContainer.querySelector(".test-dropdown[open]");
+  if (!menu) return;
+  menu.open = false;
+  if (refocus) menu.querySelector("summary").focus();
 }
 
 // ── Running a test ──
