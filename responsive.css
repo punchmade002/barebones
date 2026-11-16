@@ -143,8 +143,7 @@ body.auth-open .timer-widget { display: none; }
 
   /* Full-screen pages put their Close button where the timer now lives */
   body:has(#progressScreen:not(.hidden)) .timer-widget,
-  body:has(#fullNotesScreen:not(.hidden)) .timer-widget,
-  body:has(#examBreakdownModal:not(.hidden)) .timer-widget { display: none; }
+  body:has(#fullNotesScreen:not(.hidden)) .timer-widget { display: none; }
 
   /* ── Shell ───────────────────────────────── */
   /* Padding, not margin: a top margin collapses through body and makes the page a bar taller than the screen */

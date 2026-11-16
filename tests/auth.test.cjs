@@ -4,7 +4,7 @@ const path = require("node:path");
 const test = require("node:test");
 const vm = require("node:vm");
 
-function loadAuthHarness({ hash = "", rpcErrors = {} } = {}) {
+function loadAuthHarness({ hash = "", rpcErrors = {}, pathname = "/study/app.html" } = {}) {
   const calls = [];
   let usernameAvailable = true;
   const session = {
@@ -78,7 +78,7 @@ function loadAuthHarness({ hash = "", rpcErrors = {} } = {}) {
     },
     location: {
       origin: "https://barebones.example",
-      pathname: "/study/app.html",
+      pathname,
       hash,
       search: "",
     },
@@ -128,6 +128,14 @@ test("sign-up normalizes identity and uses the app callback URL", async () => {
     signUpCall[1].options.emailRedirectTo,
     "https://barebones.example/study/app.html"
   );
+});
+
+test("sign-up from a subject page sends the email link to app.html", async () => {
+  const { auth, calls } = loadAuthHarness({ pathname: "/study/app/biology/" });
+  await auth.ready();
+  await auth.signUp({ username: "student_1", email: "student@example.com", password: "long-password" });
+  const signUpCall = calls.find(([name]) => name === "signUp");
+  assert.equal(signUpCall[1].options.emailRedirectTo, "https://barebones.example/study/app.html");
 });
 
 test("password recovery uses a non-enumerating email flow", async () => {
