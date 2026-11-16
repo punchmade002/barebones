@@ -71,6 +71,35 @@ const SUBJECTS = [
   HISTORY_SUBJECT,
 ];
 
+// Set on the generated /app/<subject>/ pages (scripts/build_subject_pages.ts); "" on the dashboard (app.html).
+const PAGE_SUBJECT = SUBJECTS.some((s) => s.id === document.body.dataset.subject) ? document.body.dataset.subject : "";
+const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam" };
+const SECTION_TABS = { flashcards: "flashcards", tests: "test", exam: "exam" };
+// Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
+// The AAC guide only where aac-guides.js has one for the subject.
+function sectionsFor(subjectId) {
+  const sections = subjectId === "maths" ? ["guide", "aac", "exam"] : Object.keys(SECTION_LABELS);
+  return sections.filter((id) => id !== "aac" || window.AAC_GUIDES?.[subjectId]);
+}
+// Signed-out visitors (often from Google) can read these; the rest ask them to sign in.
+const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes"]);
+const EXAM_VIEWS = [["chapter", "By chapter"], ["type", "By type"], ["papers", "Full papers"]];
+const EXAM_TYPE_LABELS = {
+  "short-answer": "Short answer",
+  "long-answer": "Long answer",
+  experiment: "Experiments",
+  diagram: "Diagrams",
+  calculation: "Calculations",
+  written: "Written",
+  drawn: "Drawing",
+};
+let subjectSection = "";
+let examView = "chapter"; // papers | chapter | type
+let examTypeFilter = "";
+let sectionPanelKey = "";
+// Declared up here because a page opened on #guide draws the paper guide during startup.
+let breakdownSelection = null; // { subjectId, idx } of the section open in the paper guide
+
 const SINGULAR_S_WORDS = new Set([
   "virus","axis","basis","crisis","thesis","nexus","status","campus","focus",
   "bonus","minus","calculus","stimulus","syllabus","apparatus","process",
@@ -163,7 +192,6 @@ const els = {
   accountDetailsUsername: document.getElementById("accountDetailsUsername"),
   accountDetailsEmail: document.getElementById("accountDetailsEmail"),
   closeAccountDetails: document.getElementById("closeAccountDetails"),
-  openProgress: document.getElementById("openProgress"),
   closeProgress: document.getElementById("closeProgress"),
   progressScreen: document.getElementById("progressScreen"),
   progressBody: document.getElementById("progressBody"),
@@ -199,10 +227,8 @@ const els = {
   accountIdentity: document.getElementById("accountIdentity"),
   signOutButton: document.getElementById("signOutButton"),
   subjectArea: document.getElementById("subjectArea"),
-  sidebarToggle: document.getElementById("sidebarToggle"),
   accountStatus: document.getElementById("accountStatus"),
   resendConfirmation: document.getElementById("resendConfirmation"),
-  subjectGraph: document.getElementById("subjectGraph"),
   subjectWorkbench: document.getElementById("subjectWorkbench"),
   studyContext: document.getElementById("studyContext"),
   flashcardList: document.getElementById("flashcardList"),
@@ -234,6 +260,10 @@ const els = {
   examTab: document.getElementById("examTab"),
   examContainer: document.getElementById("examContainer"),
   subjectOverview: document.getElementById("subjectOverview"),
+  dashboard: document.getElementById("dashboard"),
+  sectionPanel: document.getElementById("sectionPanel"),
+  subjectSectionTitle: document.getElementById("subjectSectionTitle"),
+  closeAuth: document.getElementById("closeAuth"),
 };
 
 let state = loadState();
@@ -263,14 +293,13 @@ let showOffSpecExamQuestions = false;
 // Declared up here because renderAll() can draw the Exam tab first.
 const EXAM_PAPER_SCALE_KEY = "bare-bones-exam-paper-scale";
 const EXAM_PAPER_SCALE_MIN = 40;
-let expandedSubjectId = "";
-let selectedSubjectId = SUBJECTS[0].id;
-let selectedChapterId = SUBJECTS[0].chapters[0].id;
-let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
+const PAGE_SUBJECT_DATA = SUBJECTS.find((s) => s.id === PAGE_SUBJECT) || SUBJECTS[0];
+let selectedSubjectId = PAGE_SUBJECT_DATA.id;
+let selectedChapterId = PAGE_SUBJECT_DATA.chapters[0]?.id || "";
+let selectedOutcomeId = PAGE_SUBJECT_DATA.chapters[0]?.learningOutcomes[0]?.id || "";
 let studyIndex = 0;
 let showAnswer = false;
-let viewMode = 'chapter';
-let phoneHome = true; // phones open on the subject list; see "Phone navigation"
+let viewMode = 'subject-overview';
 // True while a freshly opened chapter is showing its full-screen subsection picker.
 let pickingOutcome = false;
 // Live reading state lives up here because bindEvents() runs before the reader's code below.
@@ -312,7 +341,6 @@ if (isLocalMathsPreview) {
   const previewUsername = "maths-preview";
   state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
   state.session.currentUser = previewUsername;
-  expandedSubjectId = "";
   selectedSubjectId = MATHS_SUBJECT.id;
   selectedChapterId = MATHS_SUBJECT.chapters[0]?.id || "";
   selectedOutcomeId = MATHS_SUBJECT.chapters[0]?.learningOutcomes[0]?.id || "";
@@ -329,22 +357,12 @@ if (isLocalTestPreview) {
   const previewUsername = "test-preview";
   state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
   state.session.currentUser = previewUsername;
-  const previewSubject = SUBJECTS.find((s) => s.id === "biology") || SUBJECTS[0];
+  const previewSubject = PAGE_SUBJECT ? PAGE_SUBJECT_DATA : SUBJECTS.find((s) => s.id === "biology") || SUBJECTS[0];
   selectedSubjectId = previewSubject.id;
   selectedChapterId = previewSubject.chapters[0]?.id || "";
   selectedOutcomeId = previewSubject.chapters[0]?.learningOutcomes[0]?.id || "";
 }
 
-bindEvents();
-renderAll();
-if (isLocalOnboardingPreview) {
-  showOnboarding(getCurrentUser());
-} else if (isLocalTestPreview) {
-  switchTab("test");
-} else if (!isLocalMathsPreview) {
-  initializeAccounts();
-  startUsageTracking();
-}
 
 function bindEvents() {
   els.subjectWorkbench?.addEventListener("pointerdown", openShownSubjectData, { capture: true });
@@ -362,6 +380,11 @@ function bindEvents() {
   bindUsageStats();
   els.closeAccountDetails.addEventListener("click", hideAuthPanel);
   els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
+  els.closeAuth?.addEventListener("click", () => {
+    els.authPanel.classList.add("hidden");
+    document.body.classList.remove("auth-open");
+    setAuthBackgroundInert(false);
+  });
   els.showSignUp.addEventListener("click", () => showAuthMode("signup"));
   document.getElementById("showForgotPassword").addEventListener("click", () => {
     els.forgotEmail.value = els.signInEmail.value;
@@ -408,12 +431,6 @@ function bindEvents() {
   els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
   bindFullNotesPager();
   bindLiveReader();
-  els.openProgress.addEventListener("click", openProgress);
-  document.addEventListener("click", (event) => {
-    if (!expandedSubjectId || !isCompactLayout() || event.target.closest(".graph-subject")) return;
-    expandedSubjectId = "";
-    renderGraph();
-  });
   els.closeProgress.addEventListener("click", () => leavePhoneScreen("progress", closeProgress));
   // A reload starts again from the subject list, so drop any phone screen entry it restored
   if (history.state?.bbScreen) history.replaceState(null, "", location.href);
@@ -425,8 +442,6 @@ function bindEvents() {
       closeMathsExplanation(openMathsPanel);
     } else if (!els.liveReader.classList.contains("hidden")) {
       closeLiveReader();
-    } else if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
-      closeExamBreakdown();
     } else if (!els.fullNotesScreen.classList.contains("hidden")) {
       leavePhoneScreen("notes", closeFullNotes);
     } else if (!els.progressScreen.classList.contains("hidden")) {
@@ -441,7 +456,6 @@ function bindEvents() {
     if (opening) showProfilePane("main");
     renderAccountIdentity();
   });
-  bindSidebarCollapse();
   els.signOutButton.addEventListener("click", async () => {
     els.profileMenu.classList.add("hidden");
     try {
@@ -788,13 +802,15 @@ function currentUsageContext() {
 
   if (document.body.classList.contains("onboarding-open")) return at("onboarding", "general");
   if (shown(document.getElementById("paperViewer"))) return at("paper-viewer");
-  if (shown(document.getElementById("papersScreen"))) return at("papers");
   if (shown(els.liveReader)) return at("live-reader");
   if (shown(els.fullNotesScreen)) return at("notes");
   if (shown(document.getElementById("examBreakdownModal"))) return at("exam-breakdown");
   if (shown(els.testScreen)) return at("test-session");
   if (shown(els.progressScreen)) return at("progress", "general");
-  if (isPhoneLayout() && phoneHome) return at("home", "general");
+  if (!PAGE_SUBJECT) return at("dashboard", "general");
+  if (subjectSection === "exam" && examView === "papers") return at("papers");
+  if (subjectSection === "notes") return at("notes-list");
+  if (!subjectSection) return at("subject-home");
   if (els.examTab?.classList.contains("active")) return at("exam");
   if (els.testTab?.classList.contains("active")) return at("test");
   return at("learn");
@@ -967,94 +983,12 @@ function renderUsageStats() {
   }).join("");
 }
 
-/* ── Sidebar collapse ──────────────────────────
-   Two-finger horizontal trackpad swipe over the subject area hides the
-   sidebar; swiping back (or the edge button) brings it in. Wheel deltas
-   are accumulated so a lazy gesture still lands, and a run of vertical
-   scrolling resets the tally so ordinary reading never trips it. */
-const SIDEBAR_COLLAPSE_KEY = "bare-bones-sidebar-collapsed";
-const SWIPE_THRESHOLD = 90;
-let swipeAccum = 0;
-let swipeResetTimer = null;
-
-function isSidebarCollapsed() {
-  return els.subjectArea?.classList.contains("sidebar-collapsed");
-}
-
-function setSidebarCollapsed(collapsed) {
-  if (!els.subjectArea) return;
-  els.subjectArea.classList.toggle("sidebar-collapsed", collapsed);
-  if (els.sidebarToggle) {
-    els.sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
-    els.sidebarToggle.setAttribute(
-      "aria-label",
-      collapsed ? "Show subject sidebar" : "Hide subject sidebar"
-    );
-  }
-  swipeAccum = 0;
-  try {
-    localStorage.setItem(SIDEBAR_COLLAPSE_KEY, collapsed ? "1" : "0");
-  } catch (e) {
-    /* storage unavailable — collapse is session-only */
-  }
-}
-
-function hasHorizontalScroll(node) {
-  let el = node instanceof Element ? node : node?.parentElement;
-  while (el && el !== els.subjectArea) {
-    if (el.scrollWidth > el.clientWidth + 2) {
-      const overflow = getComputedStyle(el).overflowX;
-      if (overflow === "auto" || overflow === "scroll") return true;
-    }
-    el = el.parentElement;
-  }
-  return false;
-}
-
-function bindSidebarCollapse() {
-  if (!els.subjectArea) return;
-  try {
-    if (localStorage.getItem(SIDEBAR_COLLAPSE_KEY) === "1") setSidebarCollapsed(true);
-  } catch (e) {
-    /* ignore */
-  }
-
-  els.sidebarToggle?.addEventListener("click", () => {
-    setSidebarCollapsed(!isSidebarCollapsed());
-  });
-
-  els.subjectArea.addEventListener(
-    "wheel",
-    (event) => {
-      // Only a deliberate horizontal gesture counts.
-      if (Math.abs(event.deltaX) < Math.abs(event.deltaY) * 1.5) {
-        swipeAccum = 0;
-        return;
-      }
-      // Let genuinely scrollable content (wide tables, chapter strips) keep its gesture.
-      if (hasHorizontalScroll(event.target)) {
-        swipeAccum = 0;
-        return;
-      }
-      swipeAccum += event.deltaX;
-      clearTimeout(swipeResetTimer);
-      swipeResetTimer = setTimeout(() => { swipeAccum = 0; }, 220);
-
-      if (swipeAccum > SWIPE_THRESHOLD && !isSidebarCollapsed()) {
-        setSidebarCollapsed(true);
-      } else if (swipeAccum < -SWIPE_THRESHOLD && isSidebarCollapsed()) {
-        setSidebarCollapsed(false);
-      }
-    },
-    { passive: true }
-  );
-}
-
 async function initializeAccounts() {
   const requestedMode = window.location.hash === "#signup" ? "signup" : "signin";
 
+  const askedForAuth = window.location.hash === "#signin" || window.location.hash === "#signup";
   if (!accountAuth?.configured) {
-    if (!getCurrentUser() || window.location.hash === "#signin" || window.location.hash === "#signup") {
+    if ((!getCurrentUser() && !PAGE_SUBJECT) || askedForAuth) {
       showAuthMode(requestedMode);
       setAuthStatus("Account services need to be connected before sign-in and registration can go live.", "error");
     }
@@ -1084,7 +1018,8 @@ async function initializeAccounts() {
         state.session.currentUser = "";
         persist({ sync: false });
         renderAll();
-        showAuthMode(requestedMode);
+        // A subject page is a public preview; it only asks to sign in when a locked section is opened
+        if (!PAGE_SUBJECT || askedForAuth) showAuthMode(requestedMode);
       }
     }
   } catch (error) {
@@ -1581,14 +1516,6 @@ function showOnboarding(user, { editing = false } = {}) {
       current.disabledSubjects = SUBJECTS
         .map((s) => s.id)
         .filter((id) => !result.subjects.includes(id));
-      const priority = SUBJECTS.find((s) => s.id === result.prioritySubject);
-      if (priority && !editing) {
-        openSubjectData(priority.id);
-        selectedSubjectId = priority.id;
-        expandedSubjectId = priority.id;
-        selectedChapterId = priority.chapters[0]?.id || "";
-        selectedOutcomeId = priority.chapters[0]?.learningOutcomes[0]?.id || "";
-      }
       // The preview profile is throwaway; saving it would surface as a legacy account.
       if (!isLocalOnboardingPreview) persist();
       renderAll();
@@ -1792,18 +1719,6 @@ function switchTab(tab) {
   if (tab === "test") renderTestOverview();
 }
 
-function reconcileSelection() {
-  const enabled = getEnabledSubjects();
-  if (!enabled.length) return;
-  if (!enabled.some((s) => s.id === selectedSubjectId)) {
-    const first = enabled[0];
-    selectedSubjectId = first.id;
-    selectedChapterId = first.chapters[0]?.id || "";
-    selectedOutcomeId = first.chapters[0]?.learningOutcomes[0]?.id || "";
-    expandedSubjectId = "";
-  }
-}
-
 function triggerLoginAnimation(name) {
   const overlay = document.getElementById("loginOverlay");
   if (!overlay) return;
@@ -1825,21 +1740,7 @@ function triggerLoginAnimation(name) {
   }, 2500);
 }
 
-function renderTabVisibility() {
-  const isMaths = selectedSubjectId === "maths";
-  els.tabs.forEach((btn) => {
-    const tab = btn.dataset.tab;
-    if (tab === "flashcards" || tab === "test") {
-      btn.classList.toggle("hidden", isMaths);
-    }
-  });
-  if (isMaths && !els.examTab.classList.contains("active")) {
-    switchTab("exam");
-  }
-}
-
 function renderAll() {
-  reconcileSelection();
   if (openedSubjects.has(selectedSubjectId)) {
     requestSubjectPack(selectedSubjectId).catch((error) => console.error(error));
     requestExamPack(selectedSubjectId);
@@ -1849,11 +1750,10 @@ function renderAll() {
   renderAccountIdentity();
   renderAvatarPicker();
   renderSubjectPicker();
-  renderGraph();
+  renderSubjectPage();
   renderSubjectOverview();
   renderOutcomePicker();
   renderStudyContext();
-  renderTabVisibility();
   els.subjectWorkbench?.classList.toggle("learn-mode", els.flashcardsTab.classList.contains("active"));
   renderOutcomes();
   renderTestOverview();
@@ -1922,16 +1822,6 @@ function renderSubjectPicker() {
         return;
       }
       u.disabledSubjects = unchecked;
-      const enabledIds = getEnabledSubjectIds(u);
-      if (!enabledIds.includes(selectedSubjectId)) {
-        const first = SUBJECTS.find((s) => enabledIds.includes(s.id));
-        if (first) {
-          selectedSubjectId = first.id;
-          selectedChapterId = first.chapters[0]?.id || "";
-          selectedOutcomeId = first.chapters[0]?.learningOutcomes[0]?.id || "";
-          expandedSubjectId = "";
-        }
-      }
       persist();
       renderAll();
     });
@@ -2009,15 +1899,15 @@ function computeUserProgress(user) {
 
 
 // ── Phone navigation ─────────────────────────────
-// Phones show one screen at a time: subjects (and Progress), then chapters, then a
-// chapter's subsections where it has them, then study. Each step down is a history
-// entry, so the back gesture steps up a level instead of leaving the app.
+// Phones show one screen at a time: a section's chapter list, then a chapter's
+// subsections where it has them, then study. Each step down is a history entry,
+// so the back gesture steps up a level instead of leaving the page.
 function isPhoneLayout() {
   return window.matchMedia("(max-width: 640px)").matches;
 }
 
 function phoneScreen() {
-  if (phoneHome) return "home";
+  if (!PAGE_SUBJECT) return "home";
   if (viewMode === "subject-overview") return "subject";
   return chapterHasSubsections(getSelectedChapter()) && !isPickingOutcome() ? "study" : "chapter";
 }
@@ -2038,8 +1928,7 @@ function navigateUp() {
     history.back();
     return;
   }
-  if (viewMode === "chapter") viewMode = "subject-overview";
-  else phoneHome = true;
+  viewMode = "subject-overview";
   renderAll();
 }
 
@@ -2047,91 +1936,19 @@ function handlePhonePopState(event) {
   if (!isPhoneLayout()) return;
   // A running test sits on top of everything; keep the screen under it and restore the entry
   if (document.body.classList.contains("test-open")) {
-    if (phoneScreen() !== "home") history.pushState({ bbScreen: phoneScreen() }, "", location.href);
+    history.pushState({ bbScreen: phoneScreen() }, "", location.href);
     return;
   }
-  const screen = event.state?.bbScreen || "home";
+  const screen = event.state?.bbScreen || "subject";
   if (screen !== "notes" && !els.fullNotesScreen.classList.contains("hidden")) closeFullNotes();
   if (screen !== "progress" && !els.progressScreen.classList.contains("hidden")) closeProgress();
   if (screen !== "paper") closePaperViewer();
-  if (screen !== "papers" && screen !== "paper" && !document.getElementById("papersScreen").classList.contains("hidden")) closeExamPapers();
-  if (screen === "home") phoneHome = true;
   if (screen === "subject" || screen === "chapter" || screen === "study") {
-    phoneHome = false;
     viewMode = screen === "subject" ? "subject-overview" : "chapter";
     // Stepping back onto a chapter with subsections lands on its subsection grid
     pickingOutcome = screen === "chapter" && chapterHasSubsections(getSelectedChapter());
   }
   renderAll();
-}
-
-function isCompactLayout() {
-  return window.matchMedia("(max-width: 980px)").matches;
-}
-
-function renderGraph() {
-  els.subjectGraph.innerHTML = "";
-  getEnabledSubjects().forEach((subject) => {
-    const block = document.createElement("div");
-    block.className = "graph-subject";
-    const hasBreakdown = !!window.EXAM_BREAKDOWN?.[subject.id];
-    const expanded = expandedSubjectId === subject.id;
-    block.classList.toggle("expanded", expanded);
-    block.classList.toggle("selected", selectedSubjectId === subject.id);
-    block.innerHTML = `
-      <div class="graph-subject-header">
-        <button class="graph-subject-name" aria-expanded="${expanded}">
-          <span class="graph-subject-chevron" aria-hidden="true">›</span>
-          <span class="graph-subject-title">${escapeHtml(subject.title)}</span>
-          <span class="graph-subject-count" aria-label="${subject.chapters.length} chapters">${subject.chapters.length}</span>
-        </button>
-        ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Paper guide</button>` : ""}
-      </div>
-      <div class="graph-chapters ${expanded ? "" : "hidden"}" aria-label="${escapeHtml(subject.title)} chapters"></div>
-    `;
-    const openSubject = () => {
-      openSubjectData(subject.id);
-      // Phones show the chapter list as its own screen rather than the overlay sheet
-      expandedSubjectId = isPhoneLayout() || expandedSubjectId === subject.id ? "" : subject.id;
-      selectedSubjectId = subject.id;
-      viewMode = 'subject-overview';
-      phoneHome = false;
-      pushPhoneScreen("subject");
-      renderAll();
-    };
-    block.querySelector(".graph-subject-name").addEventListener("click", openSubject);
-    block.querySelector(".graph-subject-exam")?.addEventListener("click", (event) => {
-      event.stopPropagation();
-      openExamBreakdown(subject.id);
-    });
-    const chaptersWrap = block.querySelector(".graph-chapters");
-    subject.chapters.forEach((chapter) => {
-      const chapterButton = document.createElement("button");
-      chapterButton.className = `graph-chapter subject-open ${chapter.id === selectedChapterId ? "active" : ""}`;
-      chapterButton.textContent = chapter.title;
-      chapterButton.addEventListener("click", () => {
-        openSubjectData(subject.id);
-        selectedSubjectId = subject.id;
-        selectedChapterId = chapter.id;
-        selectedOutcomeId = chapter.learningOutcomes[0].id;
-        // Below 980px the chapter list is an overlay, so picking a chapter closes it
-        expandedSubjectId = isCompactLayout() ? "" : subject.id;
-        studyIndex = 0;
-        showAnswer = false;
-        viewMode = 'chapter';
-        pickingOutcome = chapterHasSubsections(chapter);
-        renderAll();
-      });
-      chaptersWrap.appendChild(chapterButton);
-    });
-    els.subjectGraph.appendChild(block);
-  });
-  if (isCompactLayout()) {
-    requestAnimationFrame(() => {
-      els.subjectGraph.scrollLeft = 0;
-    });
-  }
-  els.subjectWorkbench.classList.toggle("hidden", !getCurrentUser());
 }
 
 function renderStudyContext() {
@@ -2213,7 +2030,6 @@ function renderOutcomePicker() {
     <header class="outcome-picker-head">
       <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
       <span class="outcome-picker-actions">
-        <button class="workbench-notes outcome-picker-exam" type="button">Exam</button>
         <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
       </span>
     </header>
@@ -2223,15 +2039,6 @@ function renderOutcomePicker() {
   // From the grid the notes open on the first subsection and page on from there
   picker.querySelector(".outcome-picker-notes").addEventListener("click", () => {
     openFullNotes(chapter.learningOutcomes[0].id);
-  });
-
-  // Exam questions are per chapter, so leave the grid and open the Exam tab
-  picker.querySelector(".outcome-picker-exam").addEventListener("click", () => {
-    if (!chapter.learningOutcomes.some((lo) => lo.id === selectedOutcomeId)) selectedOutcomeId = chapter.learningOutcomes[0].id;
-    pickingOutcome = false;
-    switchTab("exam");
-    pushPhoneScreen("study");
-    renderAll();
   });
 
   picker.querySelectorAll(".outcome-card").forEach((btn) => {
@@ -2246,56 +2053,250 @@ function renderOutcomePicker() {
   });
 }
 
+// ── Subject pages ─────────────────────────────
+// /app/<subject>/ shows one subject; the hash picks the section (#flashcards, #exam…).
+// Flashcards and Exam › By chapter list the chapters first, then use the study
+// workbench below; Notes and the other Exam views draw into #sectionPanel.
+function sectionFromHash() {
+  const id = location.hash.slice(1);
+  return sectionsFor(PAGE_SUBJECT).includes(id) ? id : "";
+}
+
+function enterSection() {
+  if (!PAGE_SUBJECT) return;
+  subjectSection = sectionFromHash();
+  viewMode = "subject-overview";
+  pickingOutcome = false;
+  if (SECTION_TABS[subjectSection]) switchTab(SECTION_TABS[subjectSection]);
+  if (subjectSection === "guide") openExamBreakdown(PAGE_SUBJECT);
+  if (subjectSection === "aac") openAacGuide(PAGE_SUBJECT);
+  if (subjectSection) openSubjectData(PAGE_SUBJECT);
+  renderAll();
+  els.subjectArea.querySelectorAll(".section-panel, .workbench, .guide-inline").forEach((el) => { el.scrollTop = 0; });
+}
+
+function subjectStats(subject, user) {
+  const progress = user?.progressByOutcome || {};
+  const learned = user?.learnedByOutcome || {};
+  let subEarned = 0, subTotal = 0;
+  const chStats = (subject.chapters || []).map((ch) => {
+    let chEarned = 0, chTotal = 0;
+    (ch.learningOutcomes || []).forEach((lo) => {
+      const concepts = outcomeCardTotal(lo);
+      chTotal += concepts;
+      chEarned += (progress[lo.id] || 0) >= 1 ? concepts : (learned[lo.id] || []).length;
+    });
+    subEarned += chEarned;
+    subTotal += chTotal;
+    return { ch, earned: chEarned, total: chTotal, ratio: chTotal ? chEarned / chTotal : 0 };
+  });
+  const pct = subTotal ? Math.round((subEarned / subTotal) * 100) : 0;
+  return { subject, earned: subEarned, total: subTotal, pct, chStats };
+}
+
+function renderSubjectPage() {
+  const user = getCurrentUser();
+  const area = els.subjectArea;
+  els.dashboard.classList.toggle("hidden", Boolean(PAGE_SUBJECT) || !user);
+  if (!PAGE_SUBJECT) {
+    els.subjectWorkbench.classList.add("hidden");
+    els.sectionPanel.classList.add("hidden");
+    if (user) renderDashboard();
+    return;
+  }
+  // Tests pick their own chapters in the setup, so there is no chapter list first
+  if (subjectSection === "tests") {
+    viewMode = "chapter";
+    pickingOutcome = false;
+  }
+  const locked = !user && !PUBLIC_SECTIONS.has(subjectSection);
+  const workbench = !locked && (subjectSection === "flashcards" || subjectSection === "tests"
+    || (subjectSection === "exam" && examView === "chapter"));
+  els.subjectWorkbench.classList.toggle("hidden", !workbench);
+  // The paper guide and the AAC guide draw into the same element
+  document.getElementById("examBreakdownModal").classList.toggle("hidden", subjectSection !== "guide" && subjectSection !== "aac");
+  area.dataset.section = subjectSection || "home";
+  area.dataset.examView = subjectSection === "exam" && !locked ? examView : "";
+  // Inside a section, the header steps back to the subject's tiles and names the section
+  const back = document.querySelector(".subject-head-back");
+  if (back) {
+    back.textContent = subjectSection ? PAGE_SUBJECT_DATA.title : "Your subjects";
+    // Same path and query, empty hash: a hash change, not a reload
+    back.setAttribute("href", subjectSection ? `${location.pathname}${location.search}#` : "app.html");
+  }
+  if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = SECTION_LABELS[subjectSection] || "";
+  renderSectionPanel(locked);
+}
+
+function renderSectionPanel(locked) {
+  const panel = els.sectionPanel;
+  const show = locked || !subjectSection || subjectSection === "notes" || subjectSection === "exam";
+  panel.classList.toggle("hidden", !show);
+  if (!show) {
+    sectionPanelKey = "";
+    return;
+  }
+  const user = getCurrentUser();
+  // Rebuilding resets open questions and scroll, so only redraw when what it shows has changed
+  const key = [subjectSection, examView, examTypeFilter, locked, user?.username || "",
+    subjectPackReady(PAGE_SUBJECT), examPackReady(PAGE_SUBJECT), typeof hasExamPapers, // paper-archive.js loads after app.js
+    Object.keys(user?.viewedNotesByChapter || {}).length, user?.onboarding?.levels?.[PAGE_SUBJECT] || "",
+    studyRange, studyRows?.length ?? studyRowsError].join("|");
+  if (key === sectionPanelKey) return;
+  sectionPanelKey = key;
+
+  if (locked) {
+    panel.innerHTML = `
+      <div class="section-card section-locked">
+        <h2>Sign in to use ${escapeHtml(SECTION_LABELS[subjectSection].toLowerCase())}</h2>
+        <p>Your progress saves to your account, so you can pick up on any device.</p>
+        <div class="section-locked-actions">
+          <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
+          <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
+        </div>
+      </div>`;
+  } else if (!subjectSection) {
+    panel.innerHTML = subjectHomeHtml();
+  } else if (subjectSection === "notes") {
+    panel.innerHTML = `<div class="section-card">${notesListHtml()}</div>`;
+  } else {
+    panel.innerHTML = examViewsHtml();
+  }
+  panel.querySelectorAll("[data-auth-mode]").forEach((btn) => {
+    btn.addEventListener("click", () => showAuthMode(btn.dataset.authMode));
+  });
+  if (subjectSection === "exam" && examView === "papers") openExamPapers(PAGE_SUBJECT);
+  if (subjectSection === "exam" && examView === "type") {
+    bindExamAccordions(panel);
+    typesetMath(panel);
+  }
+}
+
+function subjectHomeHtml() {
+  const subject = PAGE_SUBJECT_DATA;
+  const tiles = sectionsFor(subject.id).map((id) => `
+    <li><a class="section-tile" href="app/${subject.id}/#${id}">${iconHtml(id)}<span>${SECTION_LABELS[id]}</span></a></li>`).join("");
+  const below = getCurrentUser() ? studyTimeBlockHtml(subject.id) : `
+    <div class="section-locked-actions">
+      <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
+      <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
+    </div>`;
+  return `<ul class="section-tiles">${tiles}</ul>${below}`;
+}
+
+function notesListHtml() {
+  const rows = PAGE_SUBJECT_DATA.chapters.map((ch) => {
+    const subsections = ch.learningOutcomes?.length || 0;
+    const read = hasViewedNotesForChapter(ch.id);
+    return `
+      <li>
+        <button class="chapter-row" type="button" onclick="openChapterNotes('${escapeHtml(ch.id)}')">
+          <span class="chapter-row-title">${escapeHtml(ch.title)}</span>
+          <span class="chapter-row-meta">${read ? `<span class="chapter-row-done">Read</span>` : subsections > 1 ? plural(subsections, "subsection") : ""}</span>
+        </button>
+      </li>`;
+  }).join("");
+  return `<ol class="chapter-rows">${rows}</ol>`;
+}
+
+function openChapterNotes(chapterId) {
+  const chapter = PAGE_SUBJECT_DATA.chapters.find((c) => c.id === chapterId);
+  if (!chapter) return;
+  selectedChapterId = chapter.id;
+  selectedOutcomeId = chapter.learningOutcomes[0]?.id || "";
+  // The notes text is in the subject pack; open once it has arrived
+  requestSubjectPack(PAGE_SUBJECT).then(() => openFullNotes(selectedOutcomeId), (error) => console.error(error));
+}
+
+function setExamView(view) {
+  examView = view;
+  if (view === "chapter") viewMode = "subject-overview";
+  renderAll();
+}
+
+function examViewsHtml() {
+  // Only offer "By type" once the bank has tagged its questions (Maths' current bank hasn't)
+  const typed = !examPackReady(PAGE_SUBJECT) || examTypeCounts(subjectExamGroups()).length > 0;
+  const views = EXAM_VIEWS.filter(([id]) => (id !== "papers" || (typeof hasExamPapers === "function" && hasExamPapers(PAGE_SUBJECT)))
+    && (id !== "type" || typed));
+  if (!views.some(([id]) => id === examView)) examView = "chapter";
+  const nav = `<div class="exam-views" role="tablist" aria-label="Exam questions">${views.map(([id, label]) => `
+    <button type="button" role="tab" class="exam-view ${examView === id ? "active" : ""}" aria-selected="${examView === id}" onclick="setExamView('${id}')">${label}</button>`).join("")}
+  </div>`;
+  if (examView === "papers") return `${nav}<div class="section-card"><div id="papersBody" class="papers-body"></div></div>`;
+  if (examView === "type") return `${nav}<div class="section-card">${examTypeHtml()}</div>`;
+  return nav;
+}
+
+// Every past-paper question for the subject once, each tagged with the kinds of answer its parts ask for
+function subjectExamGroups() {
+  const seen = new Set();
+  return PAGE_SUBJECT_DATA.chapters.flatMap(getExamQuestionsForChapter).filter((group) => {
+    if (seen.has(group.id) || isOffSpecExamGroup(group) || hiddenByMathsPilot(group)) return false;
+    seen.add(group.id);
+    return true;
+  });
+}
+
+function examGroupTypes(group) {
+  return new Set((group.parts || []).flatMap((part) => [].concat(part.type || [])));
+}
+
+// A type with only a handful of questions isn't worth its own filter
+const MIN_TYPE_QUESTIONS = 4;
+
+// [[type, count]] for each labelled type with at least MIN_TYPE_QUESTIONS questions
+function examTypeCounts(groups) {
+  return Object.keys(EXAM_TYPE_LABELS)
+    .map((type) => [type, groups.filter((g) => examGroupTypes(g).has(type)).length])
+    .filter(([, n]) => n >= MIN_TYPE_QUESTIONS);
+}
+
+function examTypeHtml() {
+  if (!examPackReady(PAGE_SUBJECT)) return skeletonHtml("rows");
+  const groups = subjectExamGroups();
+  const counts = examTypeCounts(groups);
+  if (!counts.some(([type]) => type === examTypeFilter)) examTypeFilter = counts[0][0];
+  const chips = counts.map(([type, n]) => `
+    <button type="button" class="exam-type-chip" aria-pressed="${type === examTypeFilter}" onclick="examTypeFilter='${type}'; renderAll()">
+      ${EXAM_TYPE_LABELS[type]} <span>${n}</span>
+    </button>`).join("");
+  const shown = groups.filter((g) => examGroupTypes(g).has(examTypeFilter))
+    .sort((a, b) => (b.year || 0) - (a.year || 0) || (a.questionNumber || 0) - (b.questionNumber || 0));
+  return `
+    <div class="exam-type-chips" aria-label="Question type">${chips}</div>
+    <p class="exam-type-note muted small">Newest first. A question is listed when any of its parts is ${escapeHtml(EXAM_TYPE_LABELS[examTypeFilter].toLowerCase())}.</p>
+    <div class="exam-container">${shown.map(examGroupHtml).join("")}</div>`;
+}
+
+// The chapter list a section opens on (Flashcards, Exam › By chapter)
 function renderSubjectOverview() {
   const overviewEl = els.subjectOverview;
   if (!overviewEl) return;
 
-  const isOverview = viewMode === 'subject-overview' && Boolean(getCurrentUser());
+  const user = getCurrentUser();
+  const isOverview = viewMode === 'subject-overview' && Boolean(user);
   els.subjectWorkbench.classList.toggle('overview-mode', isOverview);
   overviewEl.classList.toggle('hidden', !isOverview);
-
   if (!isOverview) return;
 
-  const user = getCurrentUser();
-  const subjectStats = buildProgressSubjectStats(user);
-  const ss = subjectStats.find(s => s.subject.id === selectedSubjectId);
-  if (!ss) { overviewEl.innerHTML = ''; return; }
-
+  const ss = subjectStats(PAGE_SUBJECT_DATA, user);
+  const forExam = subjectSection === "exam";
   const rows = ss.chStats.map(s => {
     const pct = Math.round(s.ratio * 100);
+    const examCount = forExam && examPackReady(PAGE_SUBJECT)
+      ? getExamQuestionsForChapter(s.ch).filter((g) => !isOffSpecExamGroup(g)).length : null;
     return `
       <button class="overview-chapter-row" onclick="selectChapterFromOverview('${escapeHtml(s.ch.id)}')">
         <div class="overview-chapter-text">
           <span class="overview-chapter-title">${escapeHtml(s.ch.title)}</span>
-          <span class="overview-chapter-score">${s.earned}/${s.total}</span>
+          <span class="overview-chapter-score">${forExam ? (examCount === null ? "" : plural(examCount, "question")) : `${s.earned}/${s.total}`}</span>
         </div>
-        <div class="overview-progress-bar">
-          <div class="overview-progress-fill" style="width:${pct}%"></div>
-        </div>
+        ${forExam ? "" : `<div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${pct}%"></div></div>`}
       </button>`;
   }).join('');
 
-  const hasBreakdown = !!window.EXAM_BREAKDOWN?.[ss.subject.id];
-  overviewEl.innerHTML = `
-    <div class="overview-nav">
-      <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to subjects">Subjects</button>
-      <span class="overview-guides">
-        ${hasBreakdown ? `<button class="overview-paper-guide" type="button" onclick="openExamBreakdown('${escapeHtml(ss.subject.id)}')">Paper guide</button>` : ""}
-        ${window.AAC_GUIDES?.[ss.subject.id] ? `<button class="overview-paper-guide" type="button" onclick="openAacGuide('${escapeHtml(ss.subject.id)}')">AAC guide</button>` : ""}
-      </span>
-    </div>
-    <div class="overview-header">
-      <div class="overview-header-text">
-        <h3>${escapeHtml(ss.subject.title)}</h3>
-        <span class="muted small">${ss.pct}% · ${ss.earned}/${ss.total} concepts</span>
-      </div>
-      <div class="overview-total-bar">
-        <div class="overview-total-fill" style="width:${ss.pct}%"></div>
-      </div>
-    </div>
-    ${examPapersLink(ss.subject.id, "overview-papers-link")}
-    <div class="overview-chapter-list">${rows}</div>
-  `;
+  overviewEl.innerHTML = `<div class="overview-chapter-list">${rows}</div>`;
 }
 
 function selectChapterFromOverview(chapterId) {
@@ -2309,9 +2310,8 @@ function selectChapterFromOverview(chapterId) {
   studyIndex = 0;
   showAnswer = false;
   viewMode = 'chapter';
-  pickingOutcome = chapterHasSubsections(chapter);
-  // On phones a chapter opens on its flashcards (Maths has none; renderTabVisibility moves it to Exam)
-  if (isPhoneLayout()) switchTab("flashcards");
+  // Exam questions are per chapter; flashcards go on to the chapter's subsections
+  pickingOutcome = subjectSection === "flashcards" && chapterHasSubsections(chapter);
   pushPhoneScreen("chapter");
   renderAll();
 }
@@ -3954,12 +3954,11 @@ function renderExamSection() {
     ? `<button type="button" class="button-secondary exam-offspec-toggle" onclick="showOffSpecExamQuestions = !showOffSpecExamQuestions; renderExamSection();">${showOffSpecExamQuestions ? "Hide" : "Show"} ${plural(hiddenCount, "question")} not on the current course</button>`
     : "";
 
-  const papersLink = examPapersLink(selectedSubjectId);
   if (!examGroups.length) {
     const emptyMessage = examPackReady(selectedSubjectId)
       ? "No past paper questions available for this chapter yet."
       : "Loading past paper questions…";
-    els.examContainer.innerHTML = papersLink + (examPackReady(selectedSubjectId)
+    els.examContainer.innerHTML = (examPackReady(selectedSubjectId)
       ? `<div class="exam-empty"><p class="muted">${emptyMessage}</p></div>${offSpecToggle}`
       : skeletonHtml("rows"));
     return;
@@ -3967,7 +3966,14 @@ function renderExamSection() {
 
   const disclaimer = getExamDisclaimer(selectedSubjectId);
 
-  els.examContainer.innerHTML = papersLink + disclaimer + examGroups.map((group) => {
+  els.examContainer.innerHTML = disclaimer + examGroups.map(examGroupHtml).join("") + offSpecToggle;
+
+  bindExamAccordions(els.examContainer);
+
+  typesetMath(els.examContainer);
+}
+
+function examGroupHtml(group) {
     const parts = (group.parts || []).map((part, pIdx) => {
       const partId = `${group.id}-p${pIdx}`;
       const diagramBtn = part.diagram
@@ -4026,22 +4032,6 @@ function renderExamSection() {
           ${appliesToBlock}
         </div>
       </div>`;
-  }).join("") + offSpecToggle;
-
-  bindExamAccordions(els.examContainer);
-
-  typesetMath(els.examContainer);
-}
-
-// The whole papers sit behind the question-by-question list, one tap away
-function examPapersLink(subjectId, extraClass = "") {
-  // paper-archive.js loads after app.js; a startup render can reach here first
-  if (typeof hasExamPapers !== "function" || !hasExamPapers(subjectId)) return "";
-  const { from, to } = window.EXAM_PAPERS[subjectId];
-  return `<button class="exam-papers-link ${extraClass}" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
-    <span><strong>Whole exam papers</strong><small>${from}–${to} · write on them as you go</small></span>
-    <span class="exam-papers-link-arrow" aria-hidden="true">›</span>
-  </button>`;
 }
 
 function bindExamAccordions(container) {
@@ -4839,11 +4829,10 @@ function getOriginalChapter(chapterId) {
 function closeFullNotes() {
   closeLiveReader();
   els.fullNotesScreen.classList.add("hidden");
+  document.body.style.overflow = "";
   if (_fullNotesReturnToBreakdown) {
     openExamBreakdown(_fullNotesReturnToBreakdown);
     _fullNotesReturnToBreakdown = null;
-  } else {
-    document.body.style.overflow = "";
   }
 }
 
@@ -5085,28 +5074,7 @@ function renderLiveReaderWords() {
 }
 
 function buildProgressSubjectStats(user) {
-  const progress = user?.progressByOutcome || {};
-  const learned = user?.learnedByOutcome || {};
-  return getEnabledSubjects().map((subject) => {
-    let subEarned = 0, subTotal = 0;
-    const chStats = (subject.chapters || []).map((ch) => {
-      let chEarned = 0, chTotal = 0;
-      (ch.learningOutcomes || []).forEach((lo) => {
-        const concepts = outcomeCardTotal(lo);
-        chTotal += concepts;
-        if ((progress[lo.id] || 0) >= 1) {
-          chEarned += concepts;
-        } else {
-          chEarned += (learned[lo.id] || []).length;
-        }
-      });
-      subEarned += chEarned;
-      subTotal += chTotal;
-      return { ch, earned: chEarned, total: chTotal, ratio: chTotal ? chEarned / chTotal : 0 };
-    });
-    const pct = subTotal ? Math.round((subEarned / subTotal) * 100) : 0;
-    return { subject, earned: subEarned, total: subTotal, pct, chStats };
-  });
+  return getEnabledSubjects().map((subject) => subjectStats(subject, user));
 }
 
 function renderProgressOverview() {
@@ -5382,7 +5350,6 @@ function examSectionBadge(section, data) {
   return `<span class="exam-section-badge" style="background:${bg};color:color-mix(in srgb, ${section.color} 62%, #1A1916);border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
 }
 
-let breakdownSelection = null; // { subjectId, idx } of the section open in the paper guide
 
 function openExamBreakdown(subjectId) {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
@@ -5393,14 +5360,7 @@ function openExamBreakdown(subjectId) {
   requestExamPack(subjectId);
   document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
   if (data.sections?.length) selectBreakdownSection(subjectId, Math.min(startIdx, data.sections.length - 1));
-}
-
-function closeExamBreakdown() {
-  document.getElementById('examBreakdownModal').classList.add('hidden');
-  document.body.style.overflow = '';
-  breakdownSelection = null;
 }
 
 // "Section A – Short Questions" → { kicker: "Section A", title: "Short Questions" }
@@ -5432,7 +5392,7 @@ function renderBreakdownModal(data) {
   const head = (meta) => `
     <header class="bd-head">
       <div class="bd-head-text">
-        ${guideSwitch(data.subject, 'paper')}
+        ${guideEyebrow('paper')}
         <h2 class="bd-title">${subjectTitle}</h2>
       </div>
       ${meta}
@@ -5643,16 +5603,9 @@ function toggleAacTick(input) {
   if (out) out.textContent = `${done}/${total}`;
 }
 
-// Eyebrow of both guide screens: a Paper guide | AAC guide switch when the subject has both
-function guideSwitch(subjectId, active, aacTitle = '') {
-  const hasPaper = !!window.EXAM_BREAKDOWN?.[subjectId];
-  const hasAac = !!window.AAC_GUIDES?.[subjectId];
-  const label = active === 'aac' ? `AAC guide · ${escapeHtml(aacTitle)}` : 'Paper guide';
-  if (!hasPaper || !hasAac) return `<span class="bd-eyebrow">${label}</span>`;
-  const tab = (key, text, open) => key === active
-    ? `<span class="bd-switch-tab is-active" aria-current="page">${text}</span>`
-    : `<button type="button" class="bd-switch-tab" onclick="${open}('${subjectId}')">${text}</button>`;
-  return `<span class="bd-eyebrow bd-switch">${tab('paper', 'Paper guide', 'openExamBreakdown')}${tab('aac', active === 'aac' ? label : 'AAC guide', 'openAacGuide')}</span>`;
+// Eyebrow of both guide screens; each guide is its own section, so this is a label, not a switch
+function guideEyebrow(active, aacTitle = '') {
+  return `<span class="bd-eyebrow">${active === 'aac' ? `AAC guide · ${escapeHtml(aacTitle)}` : 'Paper guide'}</span>`;
 }
 
 function openAacGuide(subjectId) {
@@ -5660,7 +5613,6 @@ function openAacGuide(subjectId) {
   if (!guide) return;
   document.getElementById('examBreakdownContent').innerHTML = renderAacGuide(guide);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
   selectAacStage(0);
 }
 
@@ -5742,7 +5694,7 @@ function renderAacGuide(guide) {
   return `<div class="bd-screen aac-screen">
     <header class="bd-head">
       <div class="bd-head-text">
-        ${guideSwitch(guide.subject, 'aac', guide.title)}
+        ${guideEyebrow('aac', guide.title)}
         <h2 class="bd-title">${escapeHtml(guide.subjectTitle)}</h2>
       </div>
       <dl class="bd-stats">
@@ -5756,4 +5708,23 @@ function renderAacGuide(guide) {
     ${bar}
     <div class="bd-panels">${panels}</div>
   </div>`;
+}
+
+// ── Startup ───────────────────────────────────
+// Last in the file so every declaration above exists before the first render:
+// a subject page can open straight onto any section (#tests, #guide…).
+bindEvents();
+if (PAGE_SUBJECT) {
+  window.addEventListener("hashchange", enterSection);
+  enterSection();
+} else {
+  renderAll();
+}
+if (isLocalOnboardingPreview) {
+  showOnboarding(getCurrentUser());
+} else if (isLocalTestPreview) {
+  if (!PAGE_SUBJECT) switchTab("test");
+} else if (!isLocalMathsPreview) {
+  initializeAccounts();
+  startUsageTracking();
 }

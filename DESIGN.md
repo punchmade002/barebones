@@ -94,10 +94,10 @@ All interactive transitions use `var(--t) var(--ease)`. Modal entrance: `0.24s`.
 `.tabs` — flex row, `background: --panel-2`, `border-radius: --r-full`, `border: 1.5px solid --line`, `padding: 0.28rem`.
 Active tab: orange bg, white text, `--so` shadow.
 
-### Sidebar (Left Panel)
-Two-level: subject header row → chapter list (collapsed/expanded). The header row carries the subject title, a chapter count, an "Exam info" pill (only where a breakdown exists) and a rotating chevron; chapters sit below. Chapters: muted, `--panel-2` bg, small font. Both levels use `--r-md` radius.
+### Subject header (`layout.css`)
+On `/app/<subject>/` pages: a back link ("‹ Your subjects" on the subject's home, "‹ Biology" inside a section), the subject name ("Leaving Cert" is in the heading but visually hidden) (`clamp(2rem, 4.2vw, 3rem)`/800), and inside a section its name in `--accent-strong`. No tab row: the home view's section tiles (icon + name, min-height 10rem) are the only navigation, with this subject's Study time card beneath them. Sections: Paper guide, AAC guide (only where `aac-guides.js` has one), Flashcards, Notes, Tests, Exam; Maths has Paper guide and Exam. Exam has its own pill switch: By chapter / By type / Full papers. By type only offers a type with at least 4 questions (`MIN_TYPE_QUESTIONS`).
 
-Collapsible: a two-finger horizontal trackpad swipe over the subject area hides or restores the panel, and the state persists in `localStorage` under `bare-bones-sidebar-collapsed`. A pill handle (`.sidebar-toggle`) fades in when the pointer comes within 44px of the content window's left edge. The zone is click-through, so its visibility is driven by a `mousemove` listener setting `.edge-hot`, not by `:hover`.
+Tile icons are inline line SVGs (`ICONS` in `dashboard.js`, 24×24, 1.8 stroke, `currentColor`) in a `--accent-xlight` square with `--accent-strong` ink.
 
 ### Account Menu
 Two panes inside the avatar dropdown. Main pane: username as the headline (1.3rem/800), email beneath, then settings-style rows. "Subject choices" opens the second pane, where subjects are toggle switches rather than checkboxes; at least one must stay on. No sign-in or add-account control lives here.
@@ -131,22 +131,19 @@ Not an overlay: `.progress-screen` is a fixed, full-viewport page on `--bg`. Tit
 Fixed top-right. 46px circle, orange bg, white initial, `--accent-light` ring. Shows level % badge to its left.
 
 ## Layout
-Two-column grid: `440px` left sidebar (via `--sidebar-w`, `0px` when collapsed) + `1fr` right workbench. Both panels fill `calc(100vh - 5.5rem)` and scroll independently (`overflow-y: auto; overscroll-behavior: contain`). Page itself never scrolls (`body: overflow: hidden`).
+`app.html` is the dashboard; `/app/<subject>/index.html` are generated from it by `scripts/build_subject_pages.ts` (re-run after editing `app.html`). Both are one centred column, `min(1180px, 100%)`: the subject header (or dashboard heading), then the open section, which scrolls on its own (`overflow-y: auto; overscroll-behavior: contain`). The page itself never scrolls. Section content sits in one `.section-card` (`--panel`, `--r-xl`, `--s1`); lists inside are rows divided by 1px `--line`, never nested cards.
 
-From 641px to 980px the sidebar becomes a horizontal subject strip; tapping the selected subject opens its chapters as an overlay sheet, which closes on a pick or an outside tap.
-
-The subject name above a chapter title (`.nav-up`) links back to that subject's chapter overview at every width.
+The dashboard is "Your subjects" as a grid of tiles (one per subject: name, % learned, time studied in the chosen range, a 6px progress bar; the whole tile links to the subject page), then "Study time" underneath: four stats and a daily bar chart that always opens on 7 days (30 days / 3 months on request). Bars are orange-600 `#EA580C` (the brand orange is under 3:1 on white), 70% of their column up to 6rem, 6px rounded tops; each full-height column is the hover target for its tooltip. Subject tiles carry the subject's icon.
 
 ### Phone (≤640px)
 Lives in `responsive.css`, loaded after `styles.css`, and follows the landing-page phone mockups (`index.html` screen templates).
-- **One screen at a time.** `app.js` sets `data-screen` on `#subjectArea` (`phoneHome` + `viewMode`), and only that screen shows:
-  1. `home`: "What are you studying?", a Progress row, then the subject list (the sidebar, restyled).
-  2. `subject`: "‹ Subjects" back and a Paper guide pill (`.overview-nav`), then the subject overview's chapter list.
-  3. `chapter`: "‹ Biology" back and the chapter title. A chapter with subsections shows its subsection grid; one without goes straight to the study tabs. Opening a chapter lands on Learn.
-  4. `study` (chapters with subsections only): "‹ Biology · 13. Enzymes" back to the grid, the subsection title and the study tabs.
+- **One screen at a time.** `app.js` sets `data-screen` on `#subjectArea` (`home` on the dashboard; otherwise from `viewMode`). Inside a subject section:
+  1. `subject`: the section's chapter list (or its whole content: Notes, Tests, Exam by type / papers).
+  2. `chapter`: a chapter's subsection grid (Flashcards) or its exam questions.
+  3. `study` (chapters with subsections only): "‹ Biology · 13. Enzymes" back to the grid, then the flashcards.
 
-  Each step down (and Progress / Full notes) is a `history.pushState` entry, so the back gesture or button steps up a level instead of leaving the app. A reload starts at `home`; a running test ignores back.
-- **Top bar** (`--phone-bar`, 3.6rem): 22px wordmark left; timer and 38px avatar right. The level % rides on the avatar as a small badge. The timer's menu drops downward, and the timer hides on Progress, Full notes and Paper guide, whose Close button sits in the same corner.
+  While on `chapter`/`study` the subject header shrinks to the name and tabs. Each step down (and Progress / Full notes / a paper) is a `history.pushState` entry, so back steps up a level; section tabs are hash links, so back also returns to the previous section. A running test ignores back.
+- **Top bar** (`--phone-bar`, 3.6rem): 22px wordmark left; timer and 38px avatar right. The level % rides on the avatar as a small badge. The timer's menu drops downward, and the timer hides on Progress and Full notes, whose Close button sits in the same corner.
 - **Study header:** chapter title (two-line clamp) with a Full notes pill beside it, then a segmented Learn/Test/Exam switch: grey track, white active segment.
 - **Learn card:** dark (`--ink`) and fills the remaining height. An orange "Flashcard"/"Answer" label sits above the face, and tapping the face flips it. Controls are pinned to the bottom, with key words above them.
 - **Heights** use `100dvh` so Safari's toolbars don't hide the card. Text fields are 16px so iOS doesn't zoom on focus.

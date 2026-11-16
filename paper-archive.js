@@ -101,22 +101,12 @@ function openExamPapers(subjectId) {
       if (papersState.subjectId === subjectId) renderPapersArchive(true);
     });
   }
-  document.getElementById("papersScreen").classList.remove("hidden");
-  document.getElementById("papersScreen").scrollTop = 0;
-  document.body.style.overflow = "hidden";
-  pushPhoneScreen("papers");
 }
 
-function closeExamPapers() {
-  closePaperViewer();
-  document.getElementById("papersScreen").classList.add("hidden");
-  document.body.style.overflow = "";
-}
-
+// Draws into #papersBody, which only exists while Exam › Full papers is showing
 function renderPapersArchive(failed = false) {
+  if (!document.getElementById("papersBody")) return;
   const summary = window.EXAM_PAPERS[papersState.subjectId];
-  const subject = SUBJECTS.find((s) => s.id === papersState.subjectId);
-  document.getElementById("papersKicker").textContent = subject?.title || "";
 
   const list = paperList(papersState.subjectId);
   if (!list) {
@@ -249,7 +239,9 @@ async function openPaperViewer(paper) {
     const pdfjs = await loadPdfJs();
     // Fetch only the parts of the file the pages on screen need (where the server allows
     // range requests) rather than streaming the whole PDF in the background
-    const doc = await pdfjs.getDocument({ url: paper.file, disableAutoFetch: true, disableStream: true }).promise;
+    // pdf.js resolves against window.location, not <base href> (subject pages live under /app/<subject>/)
+    const url = new URL(paper.file, document.baseURI).href;
+    const doc = await pdfjs.getDocument({ url, disableAutoFetch: true, disableStream: true }).promise;
     if (loadId !== viewer.loadId) { doc.destroy(); return; }
     viewer.doc = doc;
     setPaperStatus("");
@@ -282,9 +274,9 @@ function closePaperViewer() {
   viewer.doc?.destroy();
   viewer.doc = null;
   pv.root.classList.add("hidden");
-  // Back on the archive, which still covers the page; refresh its "Your notes" marks
-  if (!document.getElementById("papersScreen").classList.contains("hidden")) renderPapersArchive();
-  else document.body.style.overflow = "";
+  // Back on the archive; refresh its "Your notes" marks
+  renderPapersArchive();
+  document.body.style.overflow = "";
 }
 
 function setPaperStatus(text) {
@@ -913,7 +905,6 @@ function initPaperArchive() {
   });
   if (!pv.root) return;
 
-  byId("closePapers").addEventListener("click", () => leavePhoneScreen("papers", closeExamPapers));
   byId("pvBack").addEventListener("click", () => leavePhoneScreen("paper", closePaperViewer));
   pv.prev.addEventListener("click", () => showPaperPage(viewer.page - 1));
   pv.next.addEventListener("click", () => showPaperPage(viewer.page + 1));
@@ -939,8 +930,7 @@ function initPaperArchive() {
   // Capture phase, so the app's own Escape and arrow-key handlers don't also act underneath
   document.addEventListener("keydown", (event) => {
     const viewerOpen = !pv.root.classList.contains("hidden");
-    const archiveOpen = !byId("papersScreen").classList.contains("hidden");
-    if (!viewerOpen && !archiveOpen) return;
+    if (!viewerOpen) return;
     if (event.target.isContentEditable) {
       // Escape finishes the text box instead of closing the paper
       if (event.key === "Escape") {
@@ -951,11 +941,10 @@ function initPaperArchive() {
     }
     if (event.key === "Escape") {
       event.stopImmediatePropagation();
-      if (viewerOpen) leavePhoneScreen("paper", closePaperViewer);
-      else leavePhoneScreen("papers", closeExamPapers);
+      leavePhoneScreen("paper", closePaperViewer);
       return;
     }
-    if (!viewerOpen || event.altKey) return;
+    if (event.altKey) return;
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "z") {
       event.preventDefault();
       undoPaperInk();
@@ -988,3 +977,5 @@ function initPaperArchive() {
 }
 
 initPaperArchive();
+// app.js drew the page before this file loaded; redraw so Exam › Full papers appears
+if (typeof renderAll === "function") renderAll();

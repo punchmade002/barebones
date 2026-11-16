@@ -15,10 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=87" />
+    <link rel="stylesheet" href="./styles.css?v=88" />
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
+    <link rel="stylesheet" href="./layout.css?v=9" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -32,7 +33,9 @@
         var isLocalMathsPreview = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') &&
           ['maths', 'onboarding', 'test'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
-        if (!isLoggedIn && !hasAuthSession && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
+        // /app/<subject>/ pages are public previews, so they never bounce to the landing page
+        var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
       })();
@@ -138,6 +141,7 @@
       <main class="main-content">
         <section id="authPanel" class="auth-screen hidden" role="dialog" aria-modal="true" aria-labelledby="authTitle">
           <div class="auth-card">
+            <button id="closeAuth" class="auth-close" type="button" aria-label="Close and keep browsing">✕</button>
             <a class="auth-brand" href="index.html" aria-label="Back to barebones home">
               <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
             </a>
@@ -263,31 +267,20 @@
           </div>
         </section>
         <section class="subject-area" id="subjectArea">
-          <div class="subject-list-wrap graph-wrap">
-            <div class="subject-list-scroll">
-              <h1 class="phone-home-title">What are you <span>studying</span>?</h1>
-              <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
-              <p class="phone-home-label">Subjects</p>
-              <div id="subjectGraph" class="subject-graph"></div>
+          <!-- subject-head -->
+          <div id="dashboard" class="dashboard hidden"></div>
+          <div id="sectionPanel" class="section-panel hidden"></div>
+          <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
+            <div class="breakdown-modal-card">
+              <div id="examBreakdownContent"></div>
             </div>
-          </div>
-
-          <div class="sidebar-edge">
-            <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Hide subject sidebar" aria-expanded="true">
-              <span class="sidebar-toggle-arrow" aria-hidden="true">‹</span>
-            </button>
-          </div>
+          </section>
 
           <div id="subjectWorkbench" class="workbench hidden">
             <div id="subjectOverview" class="subject-overview hidden"></div>
             <div class="workbench-bar">
               <div id="studyContext" class="study-context" aria-live="polite"></div>
               <div class="workbench-nav">
-                <div class="tabs" aria-label="Study mode">
-                  <button class="tab active" data-tab="flashcards">Learn</button>
-                  <button class="tab" data-tab="test">Test</button>
-                  <button class="tab" data-tab="exam">Exam</button>
-                </div>
                 <button id="openFullNotes" class="workbench-notes" type="button">Full notes</button>
               </div>
             </div>
@@ -373,19 +366,6 @@
       </div>
     </section>
 
-    <section id="papersScreen" class="papers-screen hidden" aria-label="Exam papers">
-      <div class="papers-page">
-        <header class="papers-head">
-          <div>
-            <p id="papersKicker" class="papers-kicker"></p>
-            <h1 class="papers-title">Exam papers</h1>
-          </div>
-          <button id="closePapers" class="button-secondary" type="button">Close</button>
-        </header>
-        <div id="papersBody" class="papers-body"></div>
-      </div>
-    </section>
-
     <section id="paperViewer" class="paper-viewer hidden" aria-label="Exam paper">
       <header class="pv-bar">
         <button id="pvBack" class="pv-back" type="button" aria-label="Back to exam papers">
@@ -451,13 +431,6 @@
       </footer>
     </section>
 
-    <section id="examBreakdownModal" class="full-notes-screen hidden" role="dialog" aria-modal="true">
-      <div class="full-notes-card breakdown-modal-card">
-        <button class="full-notes-close" onclick="closeExamBreakdown()" aria-label="Close">✕</button>
-        <div id="examBreakdownContent"></div>
-      </div>
-    </section>
-
     <section id="feedbackReplyModal" class="full-notes-screen feedback-reply-screen hidden" role="dialog" aria-modal="true" aria-labelledby="feedbackReplyTitle">
       <div class="full-notes-card feedback-reply-card">
         <p class="feedback-reply-kicker">Reply to your feedback</p>
@@ -509,7 +482,7 @@
     <script src="./exam-breakdown.js?v=6"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=7"></script>
+    <script src="./auth.js?v=8"></script>
     <script src="./usage-tracker.js?v=1"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
@@ -524,9 +497,10 @@
     <script src="./subject-builder.js?v=1"></script>
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
-    <script src="./app.js?v=105"></script>
+    <script src="./dashboard.js?v=7"></script>
+    <script src="./app.js?v=113"></script>
     <script src="./exam-papers.js?v=2"></script>
-    <script src="./paper-archive.js?v=8"></script>
+    <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {

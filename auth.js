@@ -76,8 +76,10 @@
     return String(value || "").trim().toLowerCase();
   }
 
+  // Email links land on app.html beside the page they came from; a subject page
+  // (/app/<subject>/) sits one folder below it.
   function redirectUrl() {
-    const path = window.location.pathname.replace(/\/[^/]*$/, "/app.html");
+    const path = window.location.pathname.replace(/\/app\/[a-z-]+\/$/, "/").replace(/\/[^/]*$/, "/app.html");
     return `${window.location.origin}${path}`;
   }
 
@@ -343,6 +345,28 @@
     if (error) throw error;
   }
 
+  // The signed-in student's own rows from sinceDay ("YYYY-MM-DD") on: [{ day, subject, seconds }].
+  // Filtered by user id because admins can read everyone's rows; paged past the API's row cap.
+  async function myUsage(sinceDay) {
+    const authClient = requireClient();
+    const userId = await currentUserId();
+    if (!userId) return [];
+    const PAGE = 1000;
+    const rows = [];
+    for (let from = 0; ; from += PAGE) {
+      const { data, error } = await authClient
+        .from("usage_time")
+        .select("day,subject,seconds")
+        .eq("user_id", userId)
+        .gte("day", sinceDay)
+        .order("day")
+        .range(from, from + PAGE - 1);
+      if (error) throw error;
+      rows.push(...(data || []));
+      if (!data || data.length < PAGE) return rows;
+    }
+  }
+
   // sinceDay: "YYYY-MM-DD" or null for all time. Admin only.
   async function adminUsageStats(sinceDay) {
     const authClient = requireClient();
@@ -355,6 +379,7 @@
 
   window.BarebonesAuth = {
     recordUsage,
+    myUsage,
     adminUsageStats,
     submitFeedback,
     getUnseenFeedbackReplies,
