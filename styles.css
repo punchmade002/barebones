@@ -2849,11 +2849,81 @@ body.modal-open { overflow: hidden; }
   line-height: 1.45;
 }
 
+/* Static variant (rebuilt maths bank): every step shown, maths typeset by KaTeX. */
+.maths-step--static {
+  cursor: default;
+}
+
+.maths-step--static:hover {
+  background: transparent;
+}
+
+.maths-step-work--katex {
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-wrap: normal;
+}
+
+.maths-static-block {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.1rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.maths-static-block .katex-display {
+  margin: 0.35rem 0;
+  text-align: left;
+}
+
+.maths-static-block .katex-display > .katex {
+  text-align: left;
+}
+
+.maths-static-note {
+  max-width: 62ch;
+  margin: 0.45rem 0 0.2rem;
+  color: var(--maths-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.maths-static-figure {
+  margin: 0.9rem 1rem 0.2rem 48px;
+  padding: 0.75rem;
+  max-width: 420px;
+  background: #fffdfa;
+  border: 1px solid #e8ddd5;
+  border-radius: 10px;
+  color: var(--maths-ink);
+}
+
+.maths-static-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.maths-final-answer--katex > div {
+  font-family: inherit;
+  font-size: 1rem;
+  overflow-x: auto;
+}
+
+.maths-final-answer--katex .katex {
+  color: #fffdfb;
+}
+
 @media (max-width: 700px) {
   .exam-answer-wrap--maths {
     margin-right: -0.35rem;
     margin-left: -0.35rem;
   }
+
+  .maths-static-figure { margin-left: 42px; margin-right: 0.7rem; }
+  .maths-step-work--katex { font-size: 0.9rem; }
 
   .maths-solution-toolbar { padding: 0.75rem 0.8rem; }
   .maths-solution-toolbar strong { font-size: 0.84rem; }

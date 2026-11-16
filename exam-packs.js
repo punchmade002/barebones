@@ -10,7 +10,10 @@
     "home-economics": "./home-economics-exam-questions.js?v=2",
     geography: "./geography-exam-questions.js?v=3",
     pe: "./pe-exam-questions.js?v=5",
+    maths: "./maths-exam-questions.js?v=1",
   };
+  // The rebuilt maths bank (pipeline/MATHS_REBUILD.md) replaces the old text-only maths questions everywhere.
+  window.MATHS_BANK_PILOT = true;
   var loaded = new Set();
   var pending = new Map();
 
