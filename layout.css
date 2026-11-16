@@ -453,3 +453,40 @@ body:not([data-subject]) .auth-close { display: none; }
   /* Studying a chapter: the card gets the room, the header keeps only the name and tabs */
   .subject-area:is([data-screen="chapter"], [data-screen="study"]) .subject-head h1 { font-size: 1.4rem; }
 }
+
+/* Paper / AAC guide on narrow screens: the sections sit side by side in a row that swipes
+   sideways, every one open, under the marks bar (scrollGuideTo / bindGuideSwipe in app.js) */
+@media (max-width: 860px) {
+  .guide-inline .bd-panels {
+    --bleed: clamp(1rem, 3vw, 2.5rem); /* .bd-screen's side padding: the row runs to the card's edges */
+    flex-direction: row;
+    align-items: start; /* each section as tall as its own content */
+    min-height: 0;
+    gap: 0.75rem;
+    margin: 0 calc(-1 * var(--bleed));
+    padding: 0.25rem var(--bleed) 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--bleed);
+    scrollbar-width: none;
+  }
+  .guide-inline .bd-panels::-webkit-scrollbar { display: none; }
+  .guide-inline .bd-panel,
+  .guide-inline .bd-panel.is-open {
+    --tint: 6%;
+    flex: 0 0 min(85%, 24rem);
+    scroll-snap-align: start;
+    box-shadow: none;
+    cursor: default;
+  }
+  .guide-inline .bd-panel .bd-panel-body,
+  .guide-inline .bd-panel:not(.is-open) .bd-panel-body {
+    display: flex;
+    height: auto;
+    padding: 0 1.1rem 1.25rem;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+  .guide-inline .bd-tips { grid-template-columns: minmax(0, 1fr); }
+}
