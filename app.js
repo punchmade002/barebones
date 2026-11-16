@@ -1457,6 +1457,7 @@ async function activateAuthenticatedSession(session, options = {}) {
     state.usersByName[username] = merged;
     state.session.currentUser = username;
     activeAuthUserId = session.user.id;
+    loadStudyRows(session.user.id);
     authSnapshot = snapshot;
     localStorage.removeItem(pendingAuthUsernameKey);
     localStorage.removeItem(pendingAuthEmailKey);

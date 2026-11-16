@@ -36,10 +36,6 @@ function setStudyRange(days) {
   renderAll();
 }
 
-function ensureStudyRows() {
-  if (accountAuth?.configured && activeAuthUserId && studyRowsFor !== activeAuthUserId) loadStudyRows(activeAuthUserId);
-}
-
 // The last `count` local days as "YYYY-MM-DD", oldest first
 function lastDays(count) {
   const days = [];
@@ -51,6 +47,8 @@ function lastDays(count) {
   return days;
 }
 
+// Called from activateAuthenticatedSession the moment the account is known, in parallel
+// with the rest of sign-in, so it never waits on a re-render to start.
 async function loadStudyRows(userId) {
   studyRowsFor = userId;
   studyRows = null;
@@ -77,7 +75,6 @@ function formatStudyTime(seconds) {
 function renderDashboard() {
   const user = getCurrentUser();
   if (!user || !els.dashboard) return;
-  ensureStudyRows();
   const { percent } = computeUserProgress(user);
   const tests = user.testsCompleted || 0;
   const subjects = buildProgressSubjectStats(user);
@@ -124,7 +121,6 @@ function renderDashboard() {
 
 // The Study time card: every subject on the dashboard, one subject on its own page
 function studyTimeBlockHtml(subjectId = "") {
-  ensureStudyRows();
   return `
     <section class="dash-block dash-habits" aria-labelledby="dashHabitsTitle">
       <div class="dash-block-head">
