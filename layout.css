@@ -239,7 +239,9 @@
 
 /* Paper guide: drawn in place instead of as a full-screen modal */
 .guide-inline { border-radius: var(--r-xl); }
-.guide-inline .breakdown-modal-card { height: auto; min-height: 100%; border-radius: var(--r-xl); }
+/* The modal's id rule sets overflow: hidden; inline, the guide scrolls like every other section */
+#examBreakdownModal.guide-inline { overflow-y: auto; }
+.guide-inline .breakdown-modal-card { height: auto; min-height: 100%; border-radius: var(--r-xl); background: var(--panel); }
 /* The page heading already names the subject */
 .guide-inline .bd-title { display: none; }
 
