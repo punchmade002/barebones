@@ -2473,7 +2473,9 @@ function getTestScope(settings = getTestSettings()) {
 }
 
 function getTestPool(subject, chapters) {
-  const key = `${subject.id}|${chapters.map((c) => c.id).join(",")}`;
+  // the level is in the key because the pool's exam questions are filtered by it
+  const level = getCurrentUser()?.onboarding?.levels?.[subject.id] || "";
+  const key = `${subject.id}|${level}|${chapters.map((c) => c.id).join(",")}`;
   if (!testPoolCache.has(key)) {
     testPoolCache.set(key, TestBuilder.buildPool({
       subjectId: subject.id,
@@ -3677,14 +3679,34 @@ function requestExamPack(subjectId) {
 }
 
 function getExamQuestionsForChapter(chapter) {
+  return examGroupsForChapter(chapter).filter((group) => !hiddenByUserLevel(group));
+}
+
+function examGroupsForChapter(chapter) {
   const source = getOriginalChapter(chapter.id);
   const cached = source?.examQuestions || [];
   // Rebuilt (paper-crop) questions load after the push loop, so list them ahead of the cache.
-  const rebuilt = (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id && q.images?.length);
+  // A rebuilt question is listed under its own chapter and every chapter one of its parts is tagged with.
+  const rebuilt = (window.EXAM_QUESTIONS_DB || []).filter(q => q.images?.length
+    && (q.chapterId === chapter.id || q.parts?.some(part => part.topics?.includes(chapter.id))));
+  // Maths pilot preview shows only the rebuilt questions, not the old maths bank.
+  if (window.MATHS_BANK_PILOT && chapter.id?.startsWith("maths")) return rebuilt;
   if (rebuilt.length) return [...rebuilt, ...cached.filter(q => !rebuilt.includes(q))];
   if (cached.length) return cached;
   // Fall back to live DB for chapters loaded via additive scripts after the initial push loop.
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
+}
+
+// Maths questions follow the level picked in onboarding; a group with no level, or a user with none, shows everything.
+function hiddenByUserLevel(group) {
+  if (group?.subject !== "maths" || !group.level) return false;
+  const level = getCurrentUser()?.onboarding?.levels?.maths;
+  return Boolean(level) && group.level !== level;
+}
+
+// During the maths pilot preview the old (text-only) maths questions are hidden everywhere.
+function hiddenByMathsPilot(group) {
+  return Boolean(window.MATHS_BANK_PILOT && group?.subject === "maths" && !group.images?.length);
 }
 
 function isOffSpecExamGroup(group) {
@@ -3728,11 +3750,11 @@ function setExamPaperScale(input) {
 function renderExamPartStatus(group, part) {
   if (!group.images?.length) return "";
   if (part.offSpec) {
-    return part.model
+    return part.model || part.workedSolution
       ? `<p class="exam-part-note muted small">Not on the current course. The model answer is kept for reference.</p>`
       : `<p class="exam-part-note muted small">Not on the current course, so there is no model answer.</p>`;
   }
-  if (!part.model) return `<p class="exam-part-note muted small">Model answer under review.</p>`;
+  if (!part.model && !part.workedSolution) return `<p class="exam-part-note muted small">Model answer under review.</p>`;
   return "";
 }
 
@@ -3883,7 +3905,8 @@ function renderExamSection() {
 
 // The whole papers sit behind the question-by-question list, one tap away
 function examPapersLink(subjectId, extraClass = "") {
-  if (!hasExamPapers(subjectId)) return "";
+  // paper-archive.js loads after app.js; a startup render can reach here first
+  if (typeof hasExamPapers !== "function" || !hasExamPapers(subjectId)) return "";
   const { from, to } = window.EXAM_PAPERS[subjectId];
   return `<button class="exam-papers-link ${extraClass}" type="button" onclick="openExamPapers('${escapeHtml(subjectId)}')">
     <span><strong>Whole exam papers</strong><small>${from}–${to} · write on them as you go</small></span>
@@ -3920,7 +3943,8 @@ function renderExamAnswer(group, part, partId) {
   const answerHtml = isMaths
     ? renderMathsWorkedSolution(part, partId)
     : `<div class="exam-answer-text">${formatModelAnswer(part.model, group.subject)}</div>`;
-  const showLabel = isMaths ? "Explore worked solution" : "Show Model Answer";
+  const staticMaths = isMaths && isStaticMathsSolution(part);
+  const showLabel = staticMaths ? "Show worked solution" : isMaths ? "Explore worked solution" : "Show Model Answer";
   const hideLabel = isMaths ? "Hide worked solution" : "Hide Model Answer";
 
   return `
@@ -4148,7 +4172,74 @@ function formatMathsText(text) {
     .join("");
 }
 
+// Rebuilt maths bank (pipeline/MATHS_REBUILD.md): steps carry KaTeX lines, shown all at once.
+function isStaticMathsSolution(part) {
+  return Boolean(part.workedSolution?.steps?.some((step) => Array.isArray(step.lines)));
+}
+
+function renderKatexBlock(tex, displayMode = true) {
+  if (typeof katex === "undefined") return `<p>${escapeHtml(displayMode ? `$$${tex}$$` : `$${tex}$`)}</p>`;
+  return katex.renderToString(tex, { displayMode, throwOnError: false, strict: "ignore" });
+}
+
+function renderStaticMathsLines(lines) {
+  const html = [];
+  let texRun = [];
+  const flush = () => {
+    if (!texRun.length) return;
+    const aligned = texRun.some((tex) => tex.includes("&"));
+    const body = aligned ? `\\begin{aligned}${texRun.join(" \\\\[4pt] ")}\\end{aligned}` : texRun.join(" \\\\ ");
+    html.push(`<div class="maths-static-block">${renderKatexBlock(body)}</div>`);
+    texRun = [];
+  };
+  (lines || []).forEach((line) => {
+    if (line.tex) {
+      texRun.push(line.tex);
+    } else if (line.text) {
+      flush();
+      // inline $...$ is typeset by renderMathInElement once the exam list is on the page
+      html.push(`<p class="maths-static-note">${escapeHtml(line.text)}</p>`);
+    }
+  });
+  flush();
+  return html.join("");
+}
+
+function renderStaticMathsSolution(part) {
+  const solution = part.workedSolution;
+  const steps = solution.steps.map((step, index) => `
+    <section class="maths-step maths-step--static">
+      <div class="maths-step-rail" aria-hidden="true">
+        <span>${String(index + 1).padStart(2, "0")}</span>
+        <i></i>
+      </div>
+      <div class="maths-step-content">
+        <div class="maths-step-heading"><h5>${escapeHtml(step.title || `Step ${index + 1}`)}</h5></div>
+        <div class="maths-step-work maths-step-work--katex">${renderStaticMathsLines(step.lines)}</div>
+      </div>
+    </section>`).join("");
+  // SVGs come from our own pipeline (checked, no scripts); still refuse anything script-like.
+  const svg = typeof solution.svg === "string" && /^\s*<svg[\s>]/.test(solution.svg) && !/<script|\son\w+=/i.test(solution.svg)
+    ? `<figure class="maths-static-figure">${solution.svg}</figure>`
+    : "";
+  const finalHtml = solution.finalAnswer
+    ? `<div class="maths-final-answer maths-final-answer--katex">
+        <span>Answer</span>
+        <div>${renderKatexBlock(solution.finalAnswer, false)}</div>
+      </div>`
+    : "";
+  return `
+    <div class="maths-worked-solution maths-worked-solution--static">
+      <div class="maths-step-list">
+        ${steps}
+        ${svg}
+        ${finalHtml}
+      </div>
+    </div>`;
+}
+
 function renderMathsWorkedSolution(part, solutionKey) {
+  if (isStaticMathsSolution(part)) return renderStaticMathsSolution(part);
   const solution = normaliseMathsSolution(part);
   mathsSolutionStore.set(solutionKey, solution);
   const countLabel = `${solution.steps.length} ${solution.steps.length === 1 ? "move" : "moves"}`;
@@ -5326,7 +5417,7 @@ function selectBreakdownSection(subjectId, idx) {
   modal.querySelectorAll('[data-questions-slot]').forEach((slot) => {
     const i = Number(slot.closest('.bd-panel').dataset.idx);
     const section = data.sections[i];
-    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q)).length;
+    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q)).length;
     slot.innerHTML = count
       ? `<button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
            Practise past-paper questions <span>${count}</span>
@@ -5340,7 +5431,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
   if (!data) return;
   const section = data.sections[sectionIdx];
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q));
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q));
 
   const questionsHtml = questions.map((group, qi) => {
     const parts = (group.parts || []).map((part, pIdx) => {
