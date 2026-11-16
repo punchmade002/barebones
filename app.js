@@ -3246,7 +3246,7 @@ function renderTestReviewBody(item, response, result) {
       </div>`
     : `<div class="test-review-model">
         <span class="test-review-label">${item.groupId ? "Marking scheme answer" : "Model answer"}</span>
-        <div class="exam-answer-text">${item.groupId ? formatModelAnswer(item.model) : formatAuthoredModel(item.model)}</div>
+        <div class="exam-answer-text">${item.groupId ? formatModelAnswer(item.model, item.subject) : formatAuthoredModel(item.model)}</div>
         ${scheme}
       </div>`;
   return `
@@ -3919,7 +3919,7 @@ function renderExamAnswer(group, part, partId) {
   const answerLabel = isMaths ? "Worked solution" : "Model Answer";
   const answerHtml = isMaths
     ? renderMathsWorkedSolution(part, partId)
-    : `<div class="exam-answer-text">${formatModelAnswer(part.model)}</div>`;
+    : `<div class="exam-answer-text">${formatModelAnswer(part.model, group.subject)}</div>`;
   const showLabel = isMaths ? "Explore worked solution" : "Show Model Answer";
   const hideLabel = isMaths ? "Hide worked solution" : "Hide Model Answer";
 
@@ -5067,8 +5067,10 @@ function getLearnedByOutcome() {
   return current.learnedByOutcome;
 }
 
-function formatModelAnswer(rawText) {
+function formatModelAnswer(rawText, subject) {
   if (!rawText) return '';
+  // History answers are written one point or one paragraph per line; sentence-splitting would break paragraphs.
+  if (subject === 'history') return formatAuthoredModel(rawText);
 
   // Match "Heading Text: " at the start of the string or immediately after a sentence-ending period
   const re = /([A-Z][A-Za-z0-9\s\-–—()\/&~]{1,60}?):\s+/g;

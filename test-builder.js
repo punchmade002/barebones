@@ -647,6 +647,7 @@
       kind: "written",
       chapterId: entry.chapterId,
       groupId: group.id,
+      subject: group.subject || "",
       continuation: isContinuation,
       source: group.source || "",
       year: group.year || null,
