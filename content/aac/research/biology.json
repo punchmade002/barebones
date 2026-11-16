@@ -1,0 +1,317 @@
+{
+  "subject": "biology",
+  "title": "Biology in Practice Investigation",
+  "weight": "40%",
+  "marks": 200,
+  "level": "Common level (one brief for everyone; assessed at the level you sit the written paper, Higher or Ordinary)",
+  "keyDates": [
+    "January 2026 — SEC issued the live 2027 Investigation Brief (topic: Membranes, Osmosis, Food Preservation); the SEC viewer page was last updated 18 September 2026",
+    "Friday 26 February 2027 — coursework completion date: your finished report must be with your class teacher by this date (named in the 2027 brief; also shown on the SEC Schedule of Examination and Completion Dates, updated 20/10/2026)",
+    "Before 26 February 2027 — Authentication Form P.2 signed by you, then your teacher and principal (exact signing date set by your school; SEC says dates are subject to change)",
+    "After 26 February 2027 — school submits your PDF to the SEC through the Schools Portal; the exact Biology submission window is TBC by SEC (a Schools Portal circular issues each year with file-naming and timeframe)",
+    "June 2027 — written Biology paper (60%); exact date not checked for this guide"
+  ],
+  "summary": "A 200-mark report (1,500 words max, 20 images max) on the SEC's 2027 topic of membranes, osmosis and food preservation. You research the topic, design and run your own supervised experiment, analyse your own data and write it up as a typed PDF. It is worth 40% of your Biology grade and is marked by the SEC in four criteria of 50 marks each.",
+  "stages": [
+    {
+      "name": "Stage 1: Initial response to the brief",
+      "marksNote": "Feeds Criterion A (title, introduction, research question, hypothesis, 50 marks) and sets up everything after it. Suggested time 1-2 hours.",
+      "guide": [
+        {
+          "h": "What the brief asks",
+          "points": [
+            "The 2027 brief title is 'Membranes, Osmosis, Food Preservation'. Cells have a selectively permeable plasma membrane that controls what moves in and out, including water.",
+            "Foods with high water content support microbial growth and spoilage. One preservation method relies on water leaving microbial cells by osmosis when food is placed in high-solute solutions such as sugar syrups or salt brines.",
+            "The brief names temperature, concentration gradient and surface area as factors that affect the rate of osmosis, and says understanding them helps scientists extend shelf life and improve food safety.",
+            "You are told to investigate 'one or more aspects' of the topic. You do not have to cover all of it; pick a focused area.",
+            "The brief is open-ended on purpose. The NCCA guidelines describe it as an opportunity for creative interpretation."
+          ]
+        },
+        {
+          "h": "Getting started",
+          "points": [
+            "The NCCA guidelines suggest asking yourself: what do I already know about the topic, what do I need to learn, which experiments in biology connect to it, what part interests me, and which sources will be useful.",
+            "Think early about whether you could extend or adapt an experiment you have already done in class, or develop an original one. Both are allowed.",
+            "Start your investigative log now. The SEC strongly encourages it. Use it for your thoughts, how they change, references and resources. It is not submitted to the SEC.",
+            "Keep your log in a format you choose (digital or paper). The NCCA advises sharing it with your teacher for regular check-ins, which supports authentication.",
+            "Talk through feasibility with your teacher: safety, equipment and time. The NCCA says discussing limitations at this stage is important.",
+            "Set up your report document early using the SEC cover page and formatting rules (see the Rules section) so you do not have to reformat later."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "Read the full 2027 brief and underline the factors it names",
+        "Start an investigative log and date every entry",
+        "Pick one narrow aspect of osmosis or membranes you can test in 1-2 hours",
+        "Check feasibility, safety and equipment with your teacher",
+        "Download the SEC cover page and set up the Arial 12 / 1.5 spacing document"
+      ]
+    },
+    {
+      "name": "Stage 2: Background research",
+      "marksNote": "Feeds Criterion A: background research (secondary data), evaluation of secondary data, referencing. Suggested time 2-3 hours.",
+      "guide": [
+        {
+          "h": "What to research",
+          "points": [
+            "The NCCA says this research should be broader than just what you need for your experiment. It can cover wider scientific areas, socio-scientific implications and media-based arguments linked to the topic.",
+            "During this stage you develop your research question, informed by the research.",
+            "Good research practice means reviewing, summarising and evaluating evidence from different viewpoints, then reaching an informed, justified opinion in response to your question.",
+            "The SEC mark scheme lists 'background research (secondary data)' and 'evaluation of secondary data' as separate items, so do both: gather data from other scientists' similar work and judge how reliable it is.",
+            "Study advice: use the Stage 2 research to justify your hypothesis later. The NCCA descriptors expect a testable hypothesis 'underpinned by biological theory' for top-level knowledge and understanding."
+          ]
+        },
+        {
+          "h": "Recording and referencing",
+          "points": [
+            "Record extracts, secondary data, your reflections, download dates and references in your log as you go (NCCA Appendix 1).",
+            "Reference in the text and in a reference list. The NCCA says no particular referencing style is required, but there must be enough detail for a reader to check the source.",
+            "For books give author, title, year and page or chapter. For websites give the hyperlink and the date you accessed it.",
+            "For AI tools, the NCCA example says to give the tool name, date generated and a short explanation of use, plus the shareable URL or the prompt used. The SEC's AI rules (see Rules) add developer, version and a dedicated section such as an appendix.",
+            "Anything not your own that is not referenced is treated as plagiarism, which the SEC regards as cheating.",
+            "References are not counted in the 1,500 words."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "Write a clear, testable research question",
+        "Summarise secondary data from at least two different sources",
+        "Evaluate each source for reliability and bias",
+        "Cite every source in the text and in the reference list with date accessed",
+        "Declare any AI use with tool, date, prompt and purpose"
+      ]
+    },
+    {
+      "name": "Stage 3: Designing and planning the experiment",
+      "marksNote": "Feeds Criterion B (experimental design, method, safety, fairness, accuracy, selection of equipment, 50 marks) and the hypothesis in Criterion A. Suggested time 2-3 hours.",
+      "guide": [
+        {
+          "h": "Designing your experiment",
+          "points": [
+            "Use your background research to pose a testable hypothesis and choose a strategy to test it. The experiment can be original or an adaptation of one you have already met.",
+            "The NCCA lists what you must consider: reliability, validity, accuracy, precision, error, fairness, safety and integrity.",
+            "The SEC mark scheme for this part names experimental design, experimental method, safety, fairness, accuracy and selection of equipment. Address each by name in your report.",
+            "Study advice: a fair test changes one variable, keeps the others controlled and uses repeats. The brief's examples of variables are temperature, concentration gradient and surface area.",
+            "Decide what materials and equipment you need and how you will get them. The NCCA says gathering and trying the materials during planning helps you spot limits in your design.",
+            "Record difficulties and compromises in your log and how you dealt with them. Keep a record of key decisions with the reason for each.",
+            "Unexpected outcomes are valid scientific evidence. The NCCA says to record them and reflect on them in the report."
+          ]
+        },
+        {
+          "h": "Ownership and teacher input",
+          "points": [
+            "The design must be yours. The NCCA says your teacher is a sounding board and should only step in if your design is likely to be unsafe.",
+            "Your teacher cannot design the investigation for you.",
+            "You can work with others while planning, but each student completes an individual investigation. Where classmates work on similar ideas, each must take an individualised approach."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "State a testable hypothesis grounded in your background research",
+        "Name the independent, dependent and controlled variables",
+        "Plan repeats so your results can be checked for reliability",
+        "List equipment with a reason for each choice",
+        "Identify safety risks and how you will control them",
+        "Log every design decision and the reason for it"
+      ]
+    },
+    {
+      "name": "Stage 4: Conducting the experiment",
+      "marksNote": "Feeds Criterion B (method, safety, accuracy, fairness) and the primary data in Criterion C. Suggested time 1-2 hours, possibly split over up to three sessions.",
+      "guide": [
+        {
+          "h": "Doing the experiment",
+          "points": [
+            "The SEC brief says the experiment and primary data collection must be fully completed under the direct supervision of your Biology teacher, in a relevant, safe and supervised setting such as the school lab.",
+            "You carry out the experiment you designed. Classmates may help you handle equipment, but the investigation and data are yours.",
+            "Record all observations and data, both qualitative and quantitative, in your log as you go.",
+            "The NCCA suggests photographing your apparatus set-up and your observations or results, whether expected or not.",
+            "Your teacher does not step in if you use equipment incorrectly (but safely), record badly or make experimental errors. That is by design, so handle your own errors and record them honestly.",
+            "Your teacher must be satisfied that what you did matches your shared research and planning. This is part of authentication, so keep your log up to date and visible to them.",
+            "Study advice from the SEC criteria: accuracy, fairness and safety are marked, so note in your log how you measured accurately, kept conditions equal and handled materials safely while you work.",
+            "Schools may be limited to roughly eight experiments at once, so a lab experiment may be spread across up to three sessions. Use any non-lab session to refine your plan, research or analyse data."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "Follow your written method exactly and note any change you make",
+        "Record every reading with units as you take it",
+        "Take photos of your set-up and results",
+        "Record anomalies and unexpected results without altering them",
+        "Keep working only under teacher supervision"
+      ]
+    },
+    {
+      "name": "Stage 5: Data analysis and conclusions",
+      "marksNote": "Feeds Criterion C (observations/primary data, data presentation, data analysis, conclusions, 50 marks). Suggested time 1-2 hours.",
+      "guide": [
+        {
+          "h": "Analysing your data",
+          "points": [
+            "The NCCA says analysis may include evaluating accuracy, precision, repeatability and reproducibility.",
+            "Use calculations and/or graphs to show patterns and relationships.",
+            "Explain any anomalous results and justify any repeats or changes to your process.",
+            "You do not have to get the result you expected. The NCCA says what matters is that your data are interrogated and explained in the context of your equipment, materials and design.",
+            "Label graphs and tables with titles, axes and units. The IoE masterclass slides list unlabelled graphs and a lack of reflection on results as common mistakes.",
+            "Use words to describe what your results show. The IoE slides say to turn results into a written description, not leave them as a table."
+          ]
+        },
+        {
+          "h": "Conclusions and error",
+          "points": [
+            "Say whether your data support your hypothesis and answer your research question.",
+            "Link your conclusion to the background research and to cell biology.",
+            "Identify sources of error in your design. For the top descriptor, 'thoroughly evaluate' the investigation and acknowledge those sources of error.",
+            "The IoE slides suggest closing with: a summary of results, a link back to the research question/hypothesis, a link to the brief, benefits to health, sustainability or technology, and revisions and improvements.",
+            "Your teacher must be satisfied your analysis and conclusions match the experiment done under their supervision, so share your analysis with them."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "Present primary data in a labelled table with units",
+        "Plot a labelled graph showing the pattern",
+        "Explain any anomalies and how you handled them",
+        "State whether the data support the hypothesis, using your own figures",
+        "Identify specific sources of error and suggest improvements",
+        "Link conclusions back to the research question and brief"
+      ]
+    },
+    {
+      "name": "Stage 6: Finalising and submitting the report",
+      "marksNote": "Feeds all four criteria, especially Criterion D (communication, coherence, relevance, reflective approach, 50 marks). Suggested time up to 4 hours.",
+      "guide": [
+        {
+          "h": "Writing the report",
+          "points": [
+            "Use exactly these seven headings, each starting on a new page: 1. Title and Introduction; 2. Background Research; 3. Designing and Planning; 4. Conducting the Experiment; 5. Data and Data Analysis; 6. Conclusions; 7. References.",
+            "The SEC provides no template, only a cover page. Structure and format the document yourself.",
+            "Maximum 1,500 words. References, data tables, formulae/equations and labels do not count. Going over can lose marks.",
+            "Maximum 20 images, described by the SEC as a limit and not a target. Images must not be used to add extra text. Videos are not allowed. Formulae and equations do not count toward the image limit.",
+            "Graphs, diagrams and photos can be software-made, captured from sources, photographed or hand-drawn, and embedded as photographs or partial screenshots.",
+            "The SEC says brevity with clarity gains marks and unwarranted length that loses coherence loses marks.",
+            "Give an authentic account of how the investigation actually went. The NCCA says clear reflections on how your decisions changed can strengthen authenticity.",
+            "Make the report consistent: the IoE slides say information from background research and planning should be referred to again in the analysis and conclusion.",
+            "Keep to the research question and link it to health, sustainability and technology where relevant (IoE slides).",
+            "Your teacher cannot edit or correct your report for redrafting. Feedback must be general and non-directive."
+          ]
+        },
+        {
+          "h": "Submitting",
+          "points": [
+            "Convert your final report to PDF, then print it and check every page. Anything not visible on the printout will not be visible to examiners and cannot earn marks.",
+            "Give the digital PDF to your class teacher by 26 February 2027, using the file-naming rule in that year's SEC Schools Portal circular.",
+            "Sign Authentication Form P.2. Your teacher and principal then sign it too.",
+            "The school keeps a printed copy and the digital copy until appeals are finished, and submits the work to the SEC through the Schools Portal."
+          ]
+        }
+      ],
+      "checklistCandidates": [
+        "Use the seven headings, each on a new page",
+        "Keep the body text at or under 1,500 words",
+        "Use no more than 20 images, each earning its place",
+        "Format as Arial, black, 12pt, 1.5 spacing, 20 mm margins, page numbers bottom-centre",
+        "Put the completed SEC cover page first",
+        "Convert to PDF, print it and check every page is visible",
+        "Sign Form P.2 and hand in by 26 February 2027"
+      ]
+    }
+  ],
+  "criteria": [
+    {
+      "name": "A: Title and Introduction, Background Research, References (title, introduction, research question, hypothesis, background research on secondary data, evaluation of secondary data, referencing)",
+      "marks": 50,
+      "whatTopMarksLook": "SEC publishes the content list but not band descriptors. The NCCA descriptors for knowledge and understanding say the top level engages thoroughly with the concepts, explains the biological phenomena clearly and accurately, poses a testable hypothesis underpinned by biological theory, and clearly describes the purpose of the investigation. Study advice: evaluate your sources and reference them precisely."
+    },
+    {
+      "name": "B: Designing and Planning, Conducting the Experiment (experimental design, method, safety, fairness, accuracy, selection of equipment)",
+      "marks": 50,
+      "whatTopMarksLook": "The NCCA's top descriptor for design and method is a clear, thorough and appropriate design and method to collect primary data, leading to high quality data, presentation and analysis. The low descriptor is an unclear design and methods leading to limited data."
+    },
+    {
+      "name": "C: Data and Data Analysis, Conclusions (experimental observations/primary data, data presentation, data analysis, conclusions)",
+      "marks": 50,
+      "whatTopMarksLook": "The NCCA's top descriptor for analysis and conclusions is valid conclusions justified by the data and related to any hypotheses made, plus a thorough evaluation of the investigation that acknowledges sources of error in the design. A moderate level only identifies potential sources of error; a low level does not identify them."
+    },
+    {
+      "name": "D: Scientific Literacy (communication, coherence, relevance, reflective approach), assessed throughout the whole report",
+      "marks": 50,
+      "whatTopMarksLook": "SEC says these are not separate sections but should be evident throughout. It rewards clear communication with skilful brevity and penalises length that loses coherence. For the reflective approach, the NCCA's top descriptor for relating work to scientists in society is a considered reflection that places your outcomes within broader issues relating to the work of a scientist or science and society."
+    }
+  ],
+  "rules": [
+    "The work must be your own individual, authentic work. You sign Authentication Form P.2, then your class teacher and principal sign it to confirm the authentication process was followed.",
+    "Each student submits an individual report. You may have classmates' help to handle equipment during the experiment, but design, data, analysis and writing must be yours.",
+    "The experiment and primary data collection must be fully completed under the direct supervision of your Biology teacher in a safe, supervised setting.",
+    "Your teacher cannot write parts of your report, edit drafts, give model text or design your investigation. Feedback is general and non-directive.",
+    "Reference all sources, including any use of AI. Anything not yours and not properly referenced counts as plagiarism, which the SEC treats as cheating.",
+    "SEC Coursework Rules, Appendix 2 (2025/26 edition; the 2027 brief points to the same Appendices): AI tools should not be used to generate coursework content. They may help with ideas, research or clarity if clearly documented. Discuss any planned AI use with your teacher first.",
+    "AI acknowledgement must give tool name and version, developer, date, a short description of use, the prompts used and any shareable URL, in a dedicated section such as an appendix. Referenced AI material earns no credit in itself; credit is only for how you use it in your own work.",
+    "You must be able to critically evaluate any AI output for accuracy, bias and hallucinations.",
+    "Breaches can lead to loss of the marks for the component, loss of the subject, or heavier penalties.",
+    "Format: SEC cover page as page 1; Arial only, black text, no highlighting; headings 14pt bold, body 12pt, 1.5 spacing; portrait only; 20 mm margins on all sides with nothing in the margins; page numbers bottom-centre; each section on a new page.",
+    "Limits: 1,500 words (not counting references, data tables, formulae/equations or labels) and 20 images; no videos. Exceeding the word count may lose marks.",
+    "Submit as a PDF. Print it and check all work is visible before handing it in.",
+    "Do not hand in your investigative log to the SEC.",
+    "Work completed outside a recognised school or centre, for example by studying the subject alone or with private tuition, will not be accepted for the coursework marks (SEC Coursework Rules, section 16.1).",
+    "Avoid images in which people can be identified (SEC advice in the brief)."
+  ],
+  "mistakes": [
+    "Ignoring the formatting rules: wrong font, spacing, margins, coloured text or content in the margins (IoE slides; SEC brief).",
+    "Going over 1,500 words, or using images to carry extra text (IoE slides; SEC brief).",
+    "Poorly controlled or unfair experiments (IoE slides).",
+    "Weak or unclear conclusions that are not tied to the data or the hypothesis (IoE slides; NCCA descriptors).",
+    "Graphs without labels or units, or tables not explained in words (IoE slides).",
+    "No reflection on results, error or improvements (IoE slides; NCCA descriptors).",
+    "Using work that is not your own, or leaving out AI or source references (IoE slides; SEC rules).",
+    "Not proof-reading the printed PDF, so content is cut off or hidden and earns no marks (SEC brief).",
+    "Being given or just adopting a hypothesis rather than posing your own, grounded in biological theory (NCCA descriptors suggest this places you at the low level).",
+    "Study advice, not an SEC statement: reporting only a tidy, expected result. The NCCA says unexpected outcomes and errors are a valid part of the process if you explain them."
+  ],
+  "sources": [
+    {
+      "label": "SEC — Leaving Certificate Examination 2027, Biology in Practice Investigation Brief (live brief, 2027L025C2EL)",
+      "url": "https://www.examinations.ie/docs/viewer.php?q=7b87644280731ea78cad6d9b87c5a1890e6041bf",
+      "used_for": "Topic, 26 Feb 2027 completion date, 200 marks, six stages, headings, 1500 words, 20 images, formatting rules, submission steps, authentication and AI wording, and the A-D mark allocation."
+    },
+    {
+      "label": "SEC — Biology in Practice Investigation sample brief (2027L025C2ES, Bioprocessing and Enzymes)",
+      "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-biology-2027-3-qp-dvmax.pdf",
+      "used_for": "Confirmed the report structure, limits and mark allocation are the same as the live brief; sample topic differs (bioprocessing and enzymes)."
+    },
+    {
+      "label": "SEC — Schedule of Examination and Completion Dates 2026/2027 (updated 20/10/2026)",
+      "url": "https://www.examinations.ie/misc-doc/EN-EX-29354825.pdf",
+      "used_for": "Confirmed Biology in Practice Investigation completion date of Friday 26 February 2027 and that submission windows are shown separately (no Biology-specific window named)."
+    },
+    {
+      "label": "NCCA — Guidelines to support the Biology in Practice Investigation (November 2024)",
+      "url": "https://curriculumonline.ie/getmedia/fc6493fa-f5d7-4c8e-9c82-3fcd268ce1ba/AAC_Guidelines_Biology_Final.pdf",
+      "used_for": "Stage-by-stage guidance and suggested timings (about 20 hours), descriptors of quality, teacher role, referencing and AI referencing examples."
+    },
+    {
+      "label": "SEC — Coursework Rules and Procedures 2025/2026 (Schools Circular 1011), incl. Appendix 2 on AI",
+      "url": "https://www.examinations.ie/docs/schoolscirculars/EN-1011-4236490.pdf",
+      "used_for": "Authentication process and Form P.2, non-compliance and penalties, rules on permitted/prohibited AI use and how to acknowledge it. This is the 2025/26 edition; the 2027 brief refers to the SEC Coursework Rules and Procedures without a separate 2027 edition being read."
+    },
+    {
+      "label": "Institute of Education — In Practice Investigations masterclass slides (Jan 2026)",
+      "url": "https://instituteofeducation.ie/wp-content/uploads/2026/01/In_Practice_Investigation_Masterclass_Jan-2026.pdf",
+      "used_for": "Per-stage hour estimates, what examiners look for, common mistakes, student checklist, conclusion layout and consistency advice."
+    },
+    {
+      "label": "ASTI — Astir, March 2026, 'Live AAC briefs issued for senior cycle'",
+      "url": "https://www.asti.ie/document-library/astir-article-live-aac-briefs-issued-for-senior-cycle-march/astir-march2026-web-scupdates.pdf",
+      "used_for": "Confirms live briefs were released in January 2026 and the 40% weighting; summary of record-keeping and authentication requirements; teacher concerns about equity and authentication."
+    }
+  ],
+  "conflicts": [
+    "The app (bio2-s7) gives no marks, word or image limits, report headings, formatting rules or dates. These are published in the 2027 brief and should be added: 200 marks, 1,500 words, 20 images, seven headings, completion date 26 February 2027.",
+    "The app's four descriptors of quality are the NCCA descriptors (knowledge and understanding; design and method; analysis and conclusions; relating to scientists in society). The SEC's 2027 brief instead allocates marks as four blocks of 50 (A title/research/references; B design and conducting; C data, analysis and conclusions; D scientific literacy). These are different frameworks, and the SEC allocation is what the marks are actually split by. I would show both and say which is which. SEC has not published band descriptors by block.",
+    "The app says the brief is published 'in term two of Year 1'. The NCCA guidelines say the same, but the live 2027 brief actually appeared in January 2026 (ASTI, March 2026) and the SEC page was last updated 18 September 2026. Not a real conflict, but 'January 2026' is the actual date for this cohort.",
+    "The app says the investigation 'will take up to 20 hours'. The NCCA says about 20 hours; however its per-stage estimates (1-2, 2-3, 2-3, 1-2, 1-2 and up to 4 hours) add to roughly 11-16 hours, a mismatch within the sources. I would present the 20 hours as approximate class-plus-outside time, not a limit.",
+    "A third-party blog gives 23 April 2027 as a Chemistry in Practice date. That is correct for Chemistry, not Biology, per the SEC schedule (Biology is 26 February 2027). Treat any blog that gives a single date for all three sciences with caution.",
+    "The SEC coursework rules document I could read is the 2025/26 edition. The 2027 live brief cites its Section 18 for breaches whereas the 2025/26 document handles this in Sections 15 and 18, so numbering may differ in the 2026/27 edition. AI rules are likely unchanged but I could not confirm that.",
+    "The exact SEC submission window for Biology (after the 26 February 2027 completion date) is not stated in the sources I could read. The schedule shows several submission windows; I did not assume which one applies.",
+    "The IoE slides mention a 'student checklist' and 'what examiners look for' that is the presenters' summary, not an SEC marking scheme. No published SEC marking scheme for this component was found."
+  ]
+}

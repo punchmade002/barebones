@@ -3582,6 +3582,112 @@ body.modal-open { overflow: hidden; }
   .bd-panel, .bd-panel-body { animation: none; transition: none; }
 }
 
+/* AAC guide: the Paper guide's panels plus a tickable checklist and a collapsible full guide */
+.aac-screen .bd-stats dd { white-space: nowrap; }
+.aac-checks { list-style: none; margin: 0.6rem 0 0; padding: 0; display: grid; gap: 0.15rem; }
+.aac-checks label {
+  display: grid;
+  grid-template-columns: 1.15rem 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.5rem 0.4rem;
+  border-radius: var(--r-md);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color var(--t) var(--ease);
+}
+.aac-checks label:hover { background: color-mix(in srgb, var(--sec) 7%, transparent); }
+.aac-checks input {
+  appearance: none;
+  box-sizing: border-box;
+  width: 1.15rem;
+  height: 1.15rem;
+  min-height: 0;
+  padding: 0;
+  margin: 0.15rem 0 0;
+  box-shadow: none;
+  border: 2px solid color-mix(in srgb, var(--sec) 60%, var(--line));
+  border-radius: 4px;
+  background: var(--panel);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  transition: background-color var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+.aac-checks input::after {
+  content: "";
+  width: 0.55rem;
+  height: 0.3rem;
+  border: solid #fff;
+  border-width: 0 0 2px 2px;
+  transform: translateY(-1px) rotate(-45deg) scale(0);
+  transition: transform 180ms var(--ease);
+}
+.aac-checks input:checked { background: var(--sec); border-color: var(--sec); }
+.aac-checks input:checked::after { transform: translateY(-1px) rotate(-45deg) scale(1); }
+.aac-checks input:focus-visible { outline: 2px solid var(--sec); outline-offset: 2px; }
+.aac-checks input:checked + span { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--sec) 55%, transparent); }
+
+.aac-depth summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+.aac-depth summary::-webkit-details-marker { display: none; }
+.aac-depth summary .bd-label::before { content: "+ "; }
+.aac-depth[open] summary .bd-label::before { content: "– "; }
+.aac-depth-count { font-size: 0.78rem; color: var(--muted); }
+.aac-h {
+  margin: 1.1rem 0 0;
+  font-size: 0.86rem;
+  font-weight: 650;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+.aac-points { grid-template-columns: 1fr; }
+
+.aac-sources ul { margin: 0.5rem 0 0; padding-left: 1.1rem; display: grid; gap: 0.25rem; font-size: 0.82rem; line-height: 1.45; }
+.aac-sources a { color: var(--ink-2); text-decoration-color: color-mix(in srgb, var(--sec) 50%, transparent); text-underline-offset: 2px; }
+.aac-sources a:hover { color: var(--ink); }
+
+.overview-guides { display: inline-flex; gap: 0.5rem; }
+.aac-brief {
+  --sec: var(--accent);
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 1rem 2.5rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--r-lg);
+  border: 1.5px solid color-mix(in srgb, var(--sec) 22%, var(--line));
+  background: color-mix(in srgb, var(--sec) 4%, var(--panel));
+}
+.aac-brief-task { margin: 0.45rem 0 0; font-size: clamp(1rem, 1.5vw, 1.15rem); font-weight: 600; line-height: 1.45; letter-spacing: -0.01em; color: var(--ink); }
+.aac-brief-list { margin: 0.75rem 0 0; padding-left: 1.3rem; display: grid; gap: 0.3rem; font-size: 0.88rem; line-height: 1.45; color: var(--ink-2); }
+.aac-brief-list li::marker { font-weight: 700; color: var(--accent-strong); }
+.aac-brief-source { display: inline-block; margin-top: 0.85rem; font-size: 0.8rem; font-weight: 600; color: var(--accent-strong); text-underline-offset: 3px; }
+.aac-brief-facts { margin: 0; display: grid; gap: 0.7rem; align-content: start; }
+.aac-brief-facts div { display: grid; gap: 0.1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); }
+.aac-brief-facts div:last-child { border-bottom: 0; padding-bottom: 0; }
+.aac-brief-facts dt { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.aac-brief-facts dd { margin: 0; font-size: 0.88rem; line-height: 1.45; color: var(--ink); }
+@media (max-width: 860px) {
+  .aac-brief { grid-template-columns: 1fr; padding: 1.1rem; }
+}
+.bd-switch { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.35rem 1.1rem; }
+.bd-switch-tab { width: auto; min-height: 0; box-shadow: none; padding: 0; border: 0; background: none; font: inherit; letter-spacing: inherit; text-transform: inherit; color: var(--muted); }
+button.bd-switch-tab { cursor: pointer; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 4px; transition: color var(--t) var(--ease), text-decoration-color var(--t) var(--ease); }
+button.bd-switch-tab:hover { color: var(--ink); text-decoration-color: currentColor; }
+.bd-switch-tab.is-active { color: var(--accent-strong); }
+
+@media (max-width: 860px) {
+  .aac-screen .bd-stats { gap: 1.1rem; }
+}
+
 /* Practice questions */
 .breakdown-questions-header { font-size: 0.84rem; font-weight: 600; color: var(--ink); margin-bottom: 0.45rem; }
 .breakdown-q-list { display: flex; flex-direction: column; gap: 0.4rem; max-height: 240px; overflow-y: auto; }

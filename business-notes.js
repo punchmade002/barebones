@@ -301,7 +301,7 @@
      "Hours 3 to 4: write the project plan, covering purpose, goals, criteria for success, roles, resources, objectives, a Gantt-style schedule and a risk assessment.",
      "Hours 5 to 9: collect primary data through questionnaires or interviews, gather at least two secondary sources, and record and reference every item as it is gathered.",
      "Hours 10 to 13: organise the data, interpret the tables and charts, and compare findings across the sources.",
-     "Hours 14 to 16: evaluate the sources and findings, draw conclusions, and form recommendations for a named audience.",
+     "Hours 14 to 16: evaluate the sources and findings, draw conclusions justified by the analysis, and note how the plan and the student's perspective changed.",
      "Hours 17 to 20: write up the study, check the references and length, reflect on any change in perspective, and update the monitoring log."
     ]
    }
@@ -493,47 +493,47 @@
  "ch0-s4": {
   "keyTerms": [
    {
-    "definition": "A student-led research project in which the student plans, investigates, analyses and reports on a business question, assessed as part of the Leaving Certificate.",
+    "definition": "A student-led research report on a business question set by an SEC brief, worth 40% of Leaving Certificate Business.",
     "term": "Investigative Study"
    },
    {
-    "definition": "The criteria the SEC uses to judge the Investigative Study, covering planning, investigating, applying and communicating.",
+    "definition": "The NCCA descriptions of high, moderate and low achievement in planning, investigating, applying and communicating.",
     "term": "Descriptors of Quality"
+   },
+   {
+    "definition": "The 50 marks awarded for the whole report's organisation, clarity, structure, evidence of planning and reflection, terminology and referencing.",
+    "term": "Overall Coherence"
    },
    {
     "definition": "The focused question the study sets out to answer, tested against SMART criteria before data collection begins.",
     "term": "Research question"
    },
    {
-    "definition": "The process by which a teacher confirms that the submitted work is the student's own.",
+    "definition": "A record of the student's thoughts, sources and changes during the study, which is encouraged but not submitted to the SEC.",
+    "term": "Investigative folder"
+   },
+   {
+    "definition": "The process by which the student, teacher and principal confirm, on Form P.2, that the submitted work is the student's own.",
     "term": "Authentication"
    },
    {
-    "definition": "A way of doing work that depends on digital tools, such as remote working, cloud collaboration or automation.",
+    "definition": "A way of doing work that depends on digital tools, such as video calls or shared cloud files.",
     "term": "Digital work practice"
    },
    {
-    "definition": "Recording and crediting every source used, including any artificial intelligence tools, within the report.",
+    "definition": "Recording and crediting every source used, including any AI tool with its name, date and how it was used, within the report.",
     "term": "Acknowledgement"
    },
    {
-    "definition": "Using business concepts and evidence to reach supported conclusions and recommendations for a specific audience.",
-    "term": "Applying learning"
-   },
-   {
-    "definition": "A specific proposed action for a named audience that follows from the conclusions reached.",
-    "term": "Recommendation"
-   },
-   {
-    "definition": "The upper limit on the number of words in the report, set in the SEC brief for the 2027 study.",
+    "definition": "1,500 words, not counting references, data tables, graphs, diagrams, images or labels.",
     "term": "Maximum report length"
    },
    {
-    "definition": "No more than 1,500 words, with the counting rules set out in the SEC brief.",
+    "definition": "No more than 1,500 words; references, data tables, graphs, diagrams, images and labels are not counted.",
     "term": "Length of the 2027 report"
    },
    {
-    "definition": "No more than 10 images, each of which should show evidence.",
+    "definition": "No more than 10 images, each labelled as a Figure if referred to, and never used to carry extra text.",
     "term": "Image allowance in the report"
    },
    {
@@ -545,12 +545,24 @@
     "term": "Weight of the Investigative Study"
    },
    {
-    "definition": "Getting started, developing a question, project plan, sources and data, analysis and evaluation, then applying learning and conclusions.",
-    "term": "Stages of the study in sequence"
+    "definition": "Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, Overall Coherence 50.",
+    "term": "SEC mark allocation for the study"
    },
    {
-    "definition": "Planning, investigating, applying and communicating.",
-    "term": "The four areas the SEC marks"
+    "definition": "Introduction, Investigation and Findings, Analysis and Evaluation, Conclusions, and References, each starting on a new page.",
+    "term": "The five report headings"
+   },
+   {
+    "definition": "Introduction about 200, Investigation and Findings about 400, Analysis and Evaluation about 600, Conclusions about 300.",
+    "term": "Suggested word counts by section"
+   },
+   {
+    "definition": "Arial, black, size 14 bold headings and size 12 body at 1.5 spacing, portrait, 20 mm margins, page numbers bottom centre, SEC cover page first.",
+    "term": "Report formatting rules"
+   },
+   {
+    "definition": "Getting started, developing a question, project plan, sources and data, analysis and evaluation, then applying learning and conclusions.",
+    "term": "Stages of the study in sequence"
    },
    {
     "definition": "Unlabelled charts, headings that do not follow the question, and references that cannot be traced to a source.",
@@ -559,124 +571,136 @@
   ],
   "notes": [
    {
-    "b": "The Business Alive Investigative Study is a student-led research project that is assessed as part of the Leaving Certificate Business course. It rewards sustained independent work over the study period.",
+    "b": "The Business Alive Investigative Study is a student-led research report written in response to an SEC brief. It is the additional assessment component (AAC) of Leaving Certificate Business.",
     "h": "What the Investigative Study is and how it is weighted",
     "points": [
-     "The study is assessed through the AAC section of the specification and is worth 40% of the overall marks, which is 200 marks.",
-     "The written examination is worth the remaining 60%, so the study carries a large share of the course's marks and must be planned from the start.",
-     "The study is marked against the Descriptors of Quality, which cover planning, investigating, applying and communicating.",
-     "The completed study is submitted to the teacher by 12 March 2027.",
-     "The study rewards the process of investigation as well as the final report, so the evidence of planning and monitoring matters."
+     "The study is worth 40% of the overall marks, which is 200 marks; the written examination is worth the remaining 60%.",
+     "One common brief is set for Higher and Ordinary Level, and the study is marked at the level at which the written paper is taken.",
+     "The SEC allocates the 200 marks as: Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, and Overall Coherence 50.",
+     "Overall Coherence is not a section of the report: it is awarded for the whole report's organisation, clarity, logical structure, evidence of planning and reflection, business terminology and accurate references.",
+     "The NCCA Descriptors of Quality (planning, investigating, applying and communicating) describe what high, moderate and low achievement look like across the work.",
+     "The completed study is given to the class teacher by 12 March 2027."
     ]
    },
    {
-    "b": "The SEC brief sets limits on length and images. Check the current brief for the exact counting rules before writing.",
+    "b": "The 2027 SEC brief sets the limits and the layout. There is no SEC template, so structuring the document is the student's responsibility.",
     "h": "Length, images and formatting",
     "points": [
-     "The report must be no more than 1,500 words, so each section should be planned to a word budget from the beginning.",
-     "No more than 10 images may be included, so each image must show evidence, such as a chart of primary data, rather than decorate the report.",
-     "Confirm in the SEC brief which elements, such as tables, captions or the reference list, count towards the word limit.",
-     "Use a consistent layout with clear headings for each report section, and a referenced list of sources at the end."
+     "The report body is no more than 1,500 words; going over the limit may lose marks, and the brief rewards skilful brevity.",
+     "References, data tables, graphs, diagrams, images and labels do not count towards the 1,500 words.",
+     "No more than 10 images may be used in the whole report, images must not be used to carry extra text, and any image referred to is labelled Figure 1, Figure 2 and so on.",
+     "Headings are Arial, black, size 14 and bold; body text is Arial, black, size 12 with 1.5 line spacing; coloured or highlighted text and other fonts are not allowed.",
+     "Pages are portrait with page numbers at the bottom centre and 20 mm margins on all sides, with nothing written in the margins.",
+     "The completed SEC cover page is the first page, and the report is submitted as a PDF that is printed and proof-read first, because anything not visible in print earns no marks."
     ]
    },
    {
-    "b": "The report is organised into five sections, each with a suggested word count. The content of each section follows from the study's stages.",
+    "b": "The SEC brief sets five headings, each starting on a new page. The suggested word counts add up to the 1,500-word limit.",
     "h": "The five report sections",
     "points": [
-     "Section one covers the research question, its SMART refinement and why it matters to the business or sector.",
-     "Section two covers the project plan and how the study was managed, including the risk assessment and monitoring.",
-     "Section three presents the findings from primary and secondary sources, with each source judged for credibility.",
-     "Section four analyses and evaluates the findings, states the limitations and identifies any gaps in the data.",
-     "Section five draws conclusions and recommendations for a named audience, and reflects on how the student's perspective changed.",
-     "Check the exact section headings, suggested word counts and mark allocation in the SEC brief, as these are set there and not in this summary."
+     "Section 1, Introduction (about 200 words): the research question, the rationale for choosing it, and reflection on how the student engaged with the project plan.",
+     "Section 2, Investigation and Findings (about 400 words): the purpose and relevance of the research methods and sources used, and the findings presented from a variety of perspectives.",
+     "Section 3, Analysis and Evaluation (about 600 words): in-depth analysis and evaluation of the data, showing originality and critical thinking, with limitations identified.",
+     "Section 4, Conclusions (about 300 words): conclusions justified by the analysis, how planning contributed to completing the study, how the student's perspective evolved, and links to the real world of business.",
+     "Section 5, References: every source used, including any AI tool; this section is not counted in the word limit.",
+     "There is no separate project-plan section: planning is shown through reflection in the Introduction and Conclusions and throughout the report."
     ]
    },
    {
-    "b": "The stages form a learning sequence. Each stage produces the evidence that the next stage uses.",
+    "b": "The NCCA guidelines set out the stages as a learning sequence. Each stage produces the evidence that the next stage uses.",
     "h": "The six stages of the study",
     "points": [
-     "Getting started: choose a business topic linked to the 2027 digital work practice theme and note initial ideas.",
+     "Getting started: read the brief, carry out background research and start an investigative folder.",
      "Developing a question: refine the ideas into one SMART research question with a clear business focus.",
-     "Project plan: set the purpose, goals, criteria for success, roles, resources, objectives, time schedule, risk assessment and monitoring arrangements.",
+     "Project plan: set objectives, tasks, role, resources, time schedule and possible risks, with ongoing monitoring of what is working.",
      "Sources and data: gather primary and secondary data, judge each source, and record and acknowledge everything as the work proceeds.",
-     "Analysis and evaluation: interpret the data, evaluate the findings and perspectives, and identify gaps and limitations.",
-     "Applying learning and conclusions: state conclusions and recommendations for a named audience, and reflect on the change in perspective."
+     "Analysis and evaluation: interpret the data, evaluate the findings and perspectives, and identify the limitations.",
+     "Applying learning and conclusions: draw justified conclusions, relate them to business and the cross-cutting themes, and reflect on the change in perspective."
     ]
    },
    {
-    "b": "The planning descriptor rewards a focused question and a plan that is followed and adjusted when needed.",
+    "b": "Both are working tools. Neither is submitted to the SEC, so their value has to show up in the report.",
+    "h": "The investigative folder and the project plan",
+    "points": [
+     "The SEC strongly encourages an investigative folder that records the student's thoughts, how they change, sources and dates accessed.",
+     "The project plan is shared with the teacher as part of ongoing authentication, but only the report is submitted.",
+     "Dated notes of problems met and changes made give the student specific planning decisions to reflect on in the Introduction and Conclusions."
+    ]
+   },
+   {
+    "b": "The planning descriptor rewards a focused question and planning that is engaged with and reflected on throughout.",
     "h": "Descriptor of Quality: planning",
     "points": [
-     "High achievement shows a research question that passes the SMART tests, rather than a broad topic label.",
-     "The plan has every required element with realistic timings, rather than a list of vague intentions.",
-     "Monitoring evidence shows the plan was checked and changed where needed, with dated entries in the investigative folder."
+     "High achievement shows a clear and probing research question, underpinned by why it matters to business locally, nationally or internationally.",
+     "High achievement shows effective engagement with planning throughout, with clear reflection on and evaluation of how far the planning helped complete the study.",
+     "Writing only that a plan was made is low achievement; the report needs to say what changed in the plan and what effect it had."
     ]
    },
    {
     "b": "The investigating descriptor rewards the range of sources and the judgement applied to them.",
     "h": "Descriptor of Quality: investigating",
     "points": [
-     "High achievement draws on several primary and secondary sources from differing perspectives, and explains why each was chosen.",
-     "Each source is judged for credibility, context, accuracy, bias, reliability and value, and that judgement is visible in the report.",
-     "Data is recorded and referenced, checked for representativeness, and any gaps are identified with their likely effect on the conclusions."
+     "High achievement identifies and evaluates the potential value of a wide range of appropriate sources, and justifies the choice of each.",
+     "Each source is judged for relevance, reliability, how recent it is, bias and purpose, and whether it is fact or opinion, and that judgement is visible in the report.",
+     "Limitations are clearly identified across the design of the question, the research gathered and the analysis, such as a small sample, a single sector or out-of-date data."
     ]
    },
    {
-    "b": "The applying descriptor rewards the use of business concepts and evidence to reach supported decisions.",
+    "b": "The applying descriptor rewards relating the findings to the world of business.",
     "h": "Descriptor of Quality: applying",
     "points": [
-     "High achievement applies business concepts to the specific business and question, rather than describing the concepts in general terms.",
-     "Analysis explains causes and effects, and evaluation weighs the findings against stated criteria to reach a judgement.",
-     "Conclusions and recommendations follow directly from the evidence and name a specific audience and a specific action."
+     "High achievement reflects on how the findings relate to business, and to business stories in the media where relevant.",
+     "Findings are clearly related to the cross-cutting themes of the specification, with the link explained rather than listed; digital transformation is the natural theme for the 2027 brief.",
+     "Conclusions are justified by the analysis and answer the research question directly."
     ]
    },
    {
-    "b": "The communicating descriptor rewards a clear, well-structured report suited to its audience.",
+    "b": "The communicating descriptor rewards a clear, coherent report that is fully referenced.",
     "h": "Descriptor of Quality: communicating",
     "points": [
-     "High achievement uses headings that follow the research question, so the reader can follow the argument from question to conclusion.",
-     "Charts and graphs are labelled, suited to the data, and referred to in the text.",
-     "Writing is precise, uses correct business terms, and stays within the word and image limits.",
-     "References are consistent and complete, and every in-text citation matches an entry in the reference list."
+     "High achievement presents data, information and analysis clearly, using a range of relevant graphics that are labelled and referred to in the text.",
+     "Language is coherent and consistent throughout, and uses correct business terms.",
+     "References are clear and complete: every in-text citation links to an entry in the reference list, with enough detail to find the source and the date an online source was accessed."
     ]
    },
    {
-    "b": "The 2027 topic asks students to investigate a digital work practice and its impact on employers or employees. Examples include remote working, cloud collaboration and automation.",
+    "b": "The 2027 brief asks students to investigate how a work practice that uses digital technology is impacting either employers or employees, supported by primary and/or secondary data.",
     "h": "The 2027 topic: a digital work practice",
     "points": [
-     "A digital work practice is a way of working that relies on digital tools, such as video calls for meetings or cloud platforms for shared files.",
+     "The study focuses on one side, employers or employees, not both.",
+     "A digital work practice is a way of working that relies on digital tools, such as video calls for meetings or cloud platforms for shared files; the brief itself gives no list of examples.",
      "The impact can fall on employers, such as costs, productivity or recruitment, or on employees, such as flexibility, workload or skills needs.",
-     "A strong study narrows to one practice, one business or sector, and one affected group, so that the research question remains testable.",
+     "A strong study narrows to one practice and one affected group, so that the research question stays answerable within 1,500 words.",
      "The later chapters on digital transformation, and on how technology affects employees, provide the background theory for this topic."
     ]
    },
    {
-    "b": "Good work is shown by the student's own process, sources and judgement. Quality guidance describes what to aim for, and is not a template for a report.",
-    "h": "What good work looks like",
+    "b": "The work must be the student's own, and every source used must be acknowledged.",
+    "h": "Authentication, referencing and AI",
     "points": [
-     "Good work has a research question the student can answer, evidence the student collected or found, and a conclusion the evidence supports.",
-     "Strong studies show visible decisions, such as dropping a source after judging it unreliable and explaining why.",
-     "Weak work typically describes a topic in general terms, copies published content without acknowledgement, or reaches conclusions the data cannot support.",
-     "Work written by another person, or generated by a tool and presented as the student's own, is not acceptable and breaches the rules on authentication."
+     "The student, the class teacher and the school principal sign the SEC Authentication Form P.2.",
+     "Teachers may give general, non-directive feedback, but may not edit drafts, correct the report for redrafting or supply model text.",
+     "Any use of AI must be acknowledged in the references with the tool name, the date and how it was used, plus the share link if the tool gives one, or otherwise the prompt.",
+     "Material that is not the student's own and is not properly referenced, including unacknowledged AI output, is plagiarism; the SEC treats it as cheating, and penalties can include withholding results."
     ]
    }
   ],
   "questions": [
    {
     "marks": 20,
-    "model": "The investigating descriptor rewards the range of sources used and the judgement applied to them. High achievement draws on several primary and secondary sources from different perspectives, such as employees, managers and independent reports on the practice, and explains why each source was chosen. Each source is judged for credibility, context, accuracy, bias, reliability and value, and this judgement is visible in the report rather than assumed. Data is recorded and referenced at the time it is gathered, checked for whether it represents the group studied, and any gaps are identified with a note of how they affect the conclusions.",
+    "model": "The investigating descriptor rewards the range of sources used and the judgement applied to them. High achievement identifies and evaluates the potential value of a wide range of appropriate sources, such as a survey of employees, an interview with a manager and an independent report on the practice, and justifies why each was chosen. Each source is judged for relevance, reliability, how recent it is, bias and purpose, and this judgement is visible in the report rather than assumed. Limitations are clearly identified across the question, the research and the analysis, for example a small survey sample drawn from one workplace.",
     "prompt": "Explain what the investigating descriptor rewards, and describe what high achievement looks like for a study of a digital work practice.",
     "type": "short"
    },
    {
     "marks": 15,
-    "model": "A project plan with a risk assessment shows that the student considered what could disrupt the study and prepared responses in advance, which is the basis of the planning descriptor. A monitoring record shows the plan was checked against progress, with dated entries recording problems and the changes made, so the student can show the study was managed rather than improvised. Together these give evidence of the process, which the marks for the study reward alongside the final report.",
-    "prompt": "Explain why a project plan with a risk assessment and a monitoring record strengthens an Investigative Study.",
+    "model": "Planning is rewarded through the report itself. The Introduction must reflect on how the student engaged with the project plan, and the Conclusions must outline how planning contributed to completing the study, so the student should keep dated notes of problems met and changes made, such as changing a survey after a low response rate. Evidence of planning and reflection throughout also feeds the 50 marks for Overall Coherence. Sharing the plan with the teacher during the study supports authentication, but the marks depend on specific, honest reflection written into the report.",
+    "prompt": "The project plan is not submitted with the Investigative Study. Explain how a student can still earn credit for planning.",
     "type": "short"
    },
    {
     "marks": 10,
-    "model": "The report must be no more than 1,500 words, which requires a word budget for each section so that the report stays focused and the marking is fair to every student. No more than 10 images may be included, so each image must justify its place by showing evidence rather than decoration, which keeps the report concise and clearly based on the student's own findings.",
+    "model": "The report body must be no more than 1,500 words, which requires a word budget for each section so that the report stays focused; going over may lose marks. The report must be converted to a PDF that is printed and proof-read, with nothing in the 20 mm margins, because anything that is not visible on the printed copy cannot be seen by the examiner and earns no marks.",
     "prompt": "State two rules on formatting that a student must follow in the report, and explain why each matters.",
     "type": "short"
    }

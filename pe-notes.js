@@ -8512,7 +8512,7 @@
     "points": [
      "Four specific areas are identified from the analysis, for example one technical, one tactical, one fitness and one psychological area.",
      "Each area is backed by evidence from the analysis, such as a checklist result, a success rate or a questionnaire score.",
-     "The four areas become the four performance goals in the next stage of the cycle, covered in the notes on planning for optimum performance."
+     "These areas become the performance goals in the next stage of the cycle, covered in the notes on planning for optimum performance."
     ]
    }
   ],
@@ -8761,8 +8761,8 @@
     "term": "Physical Activity Project: weighting and length"
    },
    {
-    "definition": "Performance analysis; four performance goals; evidence of ongoing training and reflection; concluding analysis.",
-    "term": "Four sections of the Physical Activity Project"
+    "definition": "Section A, performance analysis; Section B, performance goals, training plans and evidence of implementation; Section C, retest and concluding analysis; 1,600 words in total.",
+    "term": "Sections of the Physical Activity Project booklet"
    },
    {
     "definition": "Achieved, partly achieved or not achieved, with the reason from the evidence.",
@@ -8777,7 +8777,7 @@
    {
     "h": "From analysis to goals",
     "points": [
-     "The four areas for development identified in the analysis become the four performance goals, with one goal written for each area.",
+     "The main areas for development identified in the analysis become the performance goals, with one goal written for each area.",
      "Each goal is linked to its evidence: the analysis result that revealed the weakness becomes the reason for the goal.",
      "Example: a checklist showing the elbow flaring out during the shot gives a technical goal about elbow position.",
      "Priorities are set by how much each weakness limits performance in the activity, so the weakness costing most performance is addressed first.",
@@ -8856,7 +8856,8 @@
     "points": [
      "The Physical Activity Project is worth 20% of the overall mark.",
      "It follows this cycle over eight to ten weeks, in the role of performer or coach/choreographer.",
-     "Its four sections are: performance analysis; identification of four performance goals; evidence of ongoing training or practice and reflection; and concluding analysis.",
+     "The current SEC booklet has three sections within 1,600 words: Section A, performance analysis (about 700 words); Section B, performance goals, training plans and evidence of implementation; and Section C, retest and concluding analysis.",
+     "Reflection is written into Sections B and C rather than a separate section, and the booklet sets how many goals and training plans are needed, so the current year's booklet is followed rather than older guidance that asked for four goals.",
      "Written-exam questions may describe a planning cycle carried out during the course and ask about its stages."
     ]
    }

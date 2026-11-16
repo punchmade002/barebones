@@ -1160,12 +1160,12 @@
     "term": "Secondary source"
    },
    {
-    "definition": "The SEC statements of what high and lower achievement look like in each of the four areas judged.",
+    "definition": "The NCCA statements of what high and lower achievement look like in each of the four areas judged.",
     "term": "Descriptors of quality"
    },
    {
-    "definition": "The level at which the Chemistry in Practice Investigation is taken, the same for Higher and Ordinary level students.",
-    "term": "Common level"
+    "definition": "One Investigation Brief set for both Higher and Ordinary level students; the work is assessed at the level at which the written paper is taken.",
+    "term": "Common brief"
    }
   ],
   "notes": [
@@ -1218,7 +1218,7 @@
     "points": [
      "Leaving Certificate Chemistry has two assessment components, both set and marked by the State Examinations Commission (SEC).",
      "The written examination is worth 60% and is taken at Higher or Ordinary level.",
-     "The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
+     "The Chemistry in Practice Investigation is worth 40%, or 200 marks; one common brief is set for Higher and Ordinary level, and the investigation is assessed at the level at which the written paper is taken.",
      "Grades are H1 to H8 at Higher level and O1 to O8 at Ordinary level, in bands of 10% from 30% to 100%; below 30% is grade 8.",
      "The written examination uses a range of question types and assesses all four contextual strands, the unifying strand, and the application of chemistry to the cross-cutting themes of sustainability, health and technology."
     ]
@@ -1226,7 +1226,8 @@
    {
     "h": "The brief",
     "points": [
-     "The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year).",
+     "The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year); the brief for the 2027 examination was issued in January 2026.",
+     "The 2027 brief asks students to investigate how the rate of a chemical reaction can be controlled, investigating one or more aspects of that topic.",
      "The brief sets out the requirements and includes stimulus material that sets a context.",
      "The brief allows students to develop their own ideas related to that context, and helps teachers and students to plan.",
      "Students keep an investigative log that they draw on to write the report."
@@ -1245,7 +1246,22 @@
     ]
    },
    {
-    "b": "Four areas are judged: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.",
+    "b": "The SEC brief sets the report's headings, limits and format, and allocates the 200 marks in four blocks of 50.",
+    "h": "The 2027 report: marks and rules",
+    "points": [
+     "Criterion A, 50 marks: title and introduction, background research and references.",
+     "Criterion B, 50 marks: designing and planning, and conducting the experiment, including safety, fairness, accuracy and choice of equipment.",
+     "Criterion C, 50 marks: data and data analysis, and conclusions.",
+     "Criterion D, 50 marks: scientific literacy (communication, coherence, relevance and a reflective approach), judged across the whole report rather than in one section.",
+     "The report uses seven numbered headings, each on a new page: Title and Introduction; Background Research; Designing and Planning; Conducting the Experiment; Data and Data Analysis; Conclusions; References.",
+     "The report body is no more than 1,500 words (references, data tables, formulae, equations and labels are not counted), with no more than 20 images and no video.",
+     "Text is Arial and black, with 14-point bold headings and 12-point body text at 1.5 line spacing, portrait pages, 20 mm margins with nothing in them, and page numbers at the bottom centre.",
+     "The experiment and primary data collection are carried out under the direct supervision of the chemistry teacher, and every source, including any use of AI, is referenced.",
+     "The completed SEC cover page goes first; the report is converted to PDF, printed and proof-read, then given to the teacher by Friday 23 April 2027 with Authentication Form P.2 signed by the student, teacher and principal."
+    ]
+   },
+   {
+    "b": "The NCCA descriptors of quality describe high and lower achievement in four areas: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.",
     "h": "How the investigation is judged",
     "points": [
      "High achievement in knowledge and understanding shows considerable understanding of the brief, a clearly described purpose, and relevant research that evaluates a wide range of appropriate sources.",
@@ -1282,7 +1298,7 @@
    },
    {
     "marks": 6,
-    "model": "The written examination is worth 60% and is taken at Higher or Ordinary level. The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
+    "model": "The written examination is worth 60% and is taken at Higher or Ordinary level. The Chemistry in Practice Investigation is worth 40%; it is set as one common brief for both levels and is assessed at the level at which the written paper is taken.",
     "prompt": "State the weighting of each assessment component in Leaving Certificate Chemistry and the level at which each is taken.",
     "type": "short"
    }

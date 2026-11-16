@@ -1,0 +1,625 @@
+{
+ "biology": {
+  "subjectTitle": "Biology",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Criterion A – Introduction and research",
+    "marks": 50,
+    "marksNote": "Headings 1–2",
+    "from": [
+     0,
+     1
+    ],
+    "checklist": [
+     "Pick one narrow, testable aspect of the 2027 brief (membranes, osmosis, food preservation) and write it as a single research question.",
+     "Research the biology behind it from at least two reliable secondary sources, and say how reliable or biased each one is.",
+     "Write your own testable hypothesis that gives a biological reason for what you expect."
+    ]
+   },
+   {
+    "name": "Criterion B – Design and experiment",
+    "marks": 50,
+    "marksNote": "Headings 3–4",
+    "from": [
+     2,
+     3
+    ],
+    "checklist": [
+     "Design a fair test: name the independent, dependent and controlled variables, plan repeats, and justify each piece of equipment.",
+     "List each hazard with its control, and run the experiment only under your teacher's supervision.",
+     "Record every reading with units as you take it, anomalies included, and photograph your set-up."
+    ]
+   },
+   {
+    "name": "Criterion C – Data and conclusions",
+    "marks": 50,
+    "marksNote": "Headings 5–6",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Present your data in labelled tables and graphs with units, and calculate means.",
+     "State whether your own figures support the hypothesis, and explain the pattern with biology.",
+     "Name specific sources of error and a concrete improvement for each."
+    ]
+   },
+   {
+    "name": "Criterion D – Scientific literacy and hand-in",
+    "marks": 50,
+    "marksNote": "Whole report",
+    "from": [
+     5
+    ],
+    "checklist": [
+     "Reflect on what your result means for food preservation or society, and how your thinking changed.",
+     "Use the seven SEC headings, each on a new page, within 1,500 words and 20 images: Arial 12 body, 14 bold headings, 1.5 spacing, 20 mm margins, SEC cover page first.",
+     "Reference every source in the text and in the list, and acknowledge any AI use (tool, date, prompts, how used).",
+     "Export to PDF, print it to check every page is visible, sign Form P.2 and hand it in by 26 February 2027."
+    ]
+   }
+  ],
+  "brief": {
+   "task": "Investigate one or more aspects of the topic Membranes, Osmosis, Food Preservation: research the biology, then design, run and report on your own experiment.",
+   "facts": [
+    [
+     "Topic",
+     "Membranes, osmosis and food preservation"
+    ],
+    [
+     "Factors named",
+     "Temperature, concentration gradient and surface area, which affect the rate of osmosis"
+    ],
+    [
+     "You submit",
+     "A PDF report: 1,500 words and 20 images at most, seven SEC headings"
+    ],
+    [
+     "Due",
+     "Friday 26 February 2027, to your teacher"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Investigation Brief",
+    "url": "https://www.examinations.ie/docs/viewer.php?q=7b87644280731ea78cad6d9b87c5a1890e6041bf"
+   }
+  }
+ },
+ "chemistry": {
+  "subjectTitle": "Chemistry",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Criterion A – Introduction and research",
+    "marks": 50,
+    "marksNote": "Headings 1–2",
+    "from": [
+     0,
+     1
+    ],
+    "checklist": [
+     "Pick one reaction and one rate factor your school lab can test safely, and write it as a single research question.",
+     "Explain the chemistry in your own words with correct terms and equations, and evaluate how reliable each source is.",
+     "Write a testable hypothesis backed by collision theory or another chemical reason."
+    ]
+   },
+   {
+    "name": "Criterion B – Design and experiment",
+    "marks": 50,
+    "marksNote": "Headings 3–4",
+    "from": [
+     2,
+     3
+    ],
+    "checklist": [
+     "Design a fair test: name the independent, dependent and controlled variables, plan repeat trials, and justify equipment for the precision you need.",
+     "List each hazard with a specific precaution, get your teacher's safety sign-off, and run it only under supervision.",
+     "Record observations as well as numbers, with units, and note anomalies and any change to your plan."
+    ]
+   },
+   {
+    "name": "Criterion C – Data and conclusions",
+    "marks": 50,
+    "marksNote": "Headings 5–6",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Present results in labelled tables and graphs with units, and show your working for means and rates.",
+     "Explain each trend with chemical theory and state whether the data support your hypothesis.",
+     "Identify limitations in your research, design and data, with a specific improvement for each."
+    ]
+   },
+   {
+    "name": "Criterion D – Scientific literacy and hand-in",
+    "marks": 50,
+    "marksNote": "Whole report",
+    "from": [
+     5
+    ],
+    "checklist": [
+     "Link your result to a real use in health, sustainability or technology, and show how your research shaped your design.",
+     "Use the seven SEC headings, each on a new page, within 1,500 words and 20 images: Arial 12 body, 14 bold headings, 1.5 spacing, 20 mm margins, SEC cover page first.",
+     "Reference every source in the text and in the list, and acknowledge any AI use (tool, date, prompts, how used).",
+     "Export to PDF, print it to check every page is visible, sign Form P.2 and hand it in by 23 April 2027."
+    ]
+   }
+  ],
+  "brief": {
+   "task": "Investigate one or more aspects of how the rate of a chemical reaction can be controlled, and link your work to health, sustainability or technology.",
+   "facts": [
+    [
+     "Reactions named",
+     "Acid–base, decomposition, redox, combination, displacement, precipitation"
+    ],
+    [
+     "Rate factors",
+     "Concentration, surface area, temperature, pressure, catalyst"
+    ],
+    [
+     "You submit",
+     "A PDF report: 1,500 words and 20 images at most, seven SEC headings"
+    ],
+    [
+     "Due",
+     "Friday 23 April 2027, to your teacher"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Investigation Brief",
+    "url": "https://exams.ie/project-files/lc/chemistry/2026-27-project-brief.pdf"
+   }
+  }
+ },
+ "business": {
+  "subjectTitle": "Business",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Section 1 – Introduction and planning",
+    "marks": 20,
+    "marksNote": "~200 words",
+    "from": [
+     0,
+     1,
+     2
+    ],
+    "checklist": [
+     "Write one SMART research question about one digital work practice and one side only: employers or employees.",
+     "Explain why the question matters to business locally, nationally or internationally.",
+     "Keep a project plan (objectives, tasks, resources, timeline, risks), share it with your teacher, and log each change and why."
+    ]
+   },
+   {
+    "name": "Sections 2–3 – Investigation and analysis",
+    "marks": 100,
+    "marksNote": "~400 + ~600 words",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "Gather primary and secondary sources that give different perspectives, logging each link and date accessed.",
+     "Justify each source or method and judge its reliability and bias.",
+     "Analyse patterns, trends and contradictions, tie every point back to the question, and label each image as a Figure (10 images max).",
+     "Name the limitations of your question, your data and your analysis."
+    ]
+   },
+   {
+    "name": "Section 4 – Conclusions",
+    "marks": 30,
+    "marksNote": "~300 words",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Answer the question using only what your analysis supports, and say how your planning helped and how your view changed.",
+     "Link your findings to a real business or media story and a named cross-cutting theme."
+    ]
+   },
+   {
+    "name": "Overall coherence – Format and hand-in",
+    "marks": 50,
+    "marksNote": "Whole report",
+    "from": [
+     5
+    ],
+    "checklist": [
+     "Use the five SEC headings, each on a new page, within 1,500 words: Arial 12 body, 14 bold headings, 1.5 spacing, 20 mm margins, SEC cover page first.",
+     "Cite every source in the text and in References, and acknowledge any AI use (tool, date, how used).",
+     "Export to PDF, print it to check every page is visible, hand it in by 12 March 2027 and sign Form P.2."
+    ]
+   }
+  ],
+  "brief": {
+   "task": "Investigate how a work practice that uses digital technology is impacting either employers or employees, supported by primary and/or secondary data.",
+   "facts": [
+    [
+     "Context",
+     "Digitalisation is raising productivity, disrupting traditional roles and changing the world of work"
+    ],
+    [
+     "Focus",
+     "One digital work practice, and one side only: employers or employees"
+    ],
+    [
+     "You submit",
+     "A PDF report: 1,500 words and 10 images at most, five SEC headings"
+    ],
+    [
+     "Due",
+     "12 March 2027, to your teacher"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Business Alive brief",
+    "url": "https://exams.ie/project-files/lc/business/2026-27-project-brief.pdf"
+   }
+  }
+ },
+ "geography": {
+  "subjectTitle": "Geography",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Stage 1 – Introduction",
+    "marks": 5,
+    "marksNote": "50 words max",
+    "from": [
+     0
+    ],
+    "checklist": [
+     "Pick one of the six 2027 SEC topics and write one testable hypothesis or aim that names the place and what you will measure."
+    ]
+   },
+   {
+    "name": "Stage 2 – Planning",
+    "marks": 5,
+    "marksNote": "100 words max",
+    "from": [
+     1
+    ],
+    "checklist": [
+     "List the information you need, the methods you will use, and which sources are primary and which secondary (at least 60% primary)."
+    ]
+   },
+   {
+    "name": "Stage 3 – Gathering information",
+    "marks": 40,
+    "marksNote": "450 words max",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Describe two methods in your own words: the equipment and what it measured, how you recorded data, and how many sites, readings or responses.",
+     "Acknowledge your secondary sources, and explain problems you met and how they affected the data."
+    ]
+   },
+   {
+    "name": "Stage 4 – Results, conclusions, evaluation",
+    "marks": 30,
+    "marksNote": "400 words max",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "State your main results with figures from your own data, referring to each graph.",
+     "Say whether the hypothesis is supported and compare your findings with established theory.",
+     "Name specific weaknesses in your method, with an improvement for each."
+    ]
+   },
+   {
+    "name": "Stage 5 – Presentation of results",
+    "marks": 20,
+    "marksNote": "Booklet spaces only",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Present results in at least two different graph types, each hand-drawn with a title, labels, units and key, and add them as images to the booklet's image pages (no graphing software).",
+     "Reference every source, including any AI use, sign the authentication declaration and submit the digital booklet to your teacher by 16 April 2027."
+    ]
+   }
+  ],
+  "title": "Geographical Investigation",
+  "brief": {
+   "task": "Complete a report on one of the six SEC topics below, in the digital Geographical Investigation Reporting Booklet.",
+   "list": [
+    "A study of the evolution of settlement over time in a local urban or rural setting.",
+    "The economic and/or environmental impact of one economic activity in a local area.",
+    "The role of geomorphic processes in forming one landform in a fluvial, coastal or glacial environment.",
+    "Water pollution: a study of a local water source.",
+    "The impact of geology on shaping the landscape in a local area.",
+    "The relationship between traffic management and residential land use in a local area."
+   ],
+   "facts": [
+    [
+     "You submit",
+     "The digital Reporting Booklet: 1,000 typed words at most, hand-drawn illustrations added as images"
+    ],
+    [
+     "Levels",
+     "The same six topics at Higher and Ordinary level"
+    ],
+    [
+     "Due",
+     "16 April 2027, to your teacher"
+    ]
+   ],
+   "source": {
+    "label": "SEC Prescribed List of Investigation Topics, 2027",
+    "url": "https://exams.ie/project-files/lc/geography/2026-27-prescribed-list.pdf"
+   }
+  }
+ },
+ "history": {
+  "subjectTitle": "History",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Outline plan",
+    "marks": 15,
+    "marksNote": "One page",
+    "from": [
+     0,
+     1,
+     2
+    ],
+    "checklist": [
+     "Choose a narrow subject with a dated title, all on or before 1993 (Ireland) or 1992 (Europe and the wider world), and get your teacher's approval.",
+     "Justify why it is historically significant, state 3–5 aims about the subject, and explain your research approach step by step.",
+     "Cite three sources (two at Ordinary level), primary or specialist secondary and not textbooks, with author, title and publisher or date."
+    ]
+   },
+   {
+    "name": "Evaluation of sources",
+    "marks": 25,
+    "marksNote": "Every cited source",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "For every source you cited, say whether it is primary or secondary and give its relevance, a strength and a weakness, then compare them."
+    ]
+   },
+   {
+    "name": "Extended essay",
+    "marks": 50,
+    "marksNote": "HL 1,200–1,500 · OL 600–800 words",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Write an introduction, a logical body and a conclusion that answers each of your aims, within the word range for your level.",
+     "Use accurate evidence from all your sources, footnote quotations, and treat the issues fairly from more than one viewpoint."
+    ]
+   },
+   {
+    "name": "Review of the research process",
+    "marks": 10,
+    "marksNote": "Final page",
+    "from": [
+     5
+    ],
+    "checklist": [
+     "Review your own research honestly: whether each aim was achieved, the real problems you met and what you would change.",
+     "Proofread, convert to PDF, print it to check every page is visible, and sign the authentication form before the SEC deadline."
+    ]
+   }
+  ],
+  "brief": {
+   "task": "There is no set topic. With your teacher, choose a narrow, historically significant subject and research it in depth from your own sources.",
+   "facts": [
+    [
+     "Date limit",
+     "Nothing after 1993 for Irish history, or after 1992 for European and wider history"
+    ],
+    [
+     "Sources",
+     "At least three (two at Ordinary level): primary or specialist secondary, not school textbooks"
+    ],
+    [
+     "You submit",
+     "The digital RSR booklet: outline plan, evaluation of sources, extended essay with a review"
+    ],
+    [
+     "Essay length",
+     "Higher 1,200–1,500 words; Ordinary 600–800 words"
+    ],
+    [
+     "Due",
+     "2027 date TBC by the SEC (mid-April in past years)"
+    ]
+   ],
+   "source": {
+    "label": "Leaving Certificate History syllabus (RSR section)",
+    "url": "https://www.curriculumonline.ie/getmedia/da556505-f5fb-4921-869f-e0983fd80e50/SCSEC20_History_syllabus_eng.pdf"
+   }
+  }
+ },
+ "pe": {
+  "subjectTitle": "Physical Education",
+  "level": "Common level",
+  "stages": [
+   {
+    "name": "PAP Section A – Choose and analyse",
+    "marks": null,
+    "marksNote": "~700 words",
+    "from": [
+     0,
+     1
+    ],
+    "checklist": [
+     "Pick a competitive sport with a Sport Ireland–affiliated governing body and a role, in a different activity area from your Performance Assessment, and get your teacher to confirm both.",
+     "Test every component that matters in your sport, compare your results with referenced normative data, and interpret what they mean for your performance."
+    ]
+   },
+   {
+    "name": "PAP Section B – Goals and training",
+    "marks": null,
+    "marksNote": "~400–450 words",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Set SMART goals (baseline, target, deadline), as many as your SEC booklet asks for, each drawn from your Section A data.",
+     "Write one followable training plan per goal, justified by the principles of training, and film yourself really doing it."
+    ]
+   },
+   {
+    "name": "PAP Section C – Retest and conclude",
+    "marks": null,
+    "marksNote": "~450–500 words",
+    "from": [
+     3,
+     4
+    ],
+    "checklist": [
+     "Retest everything from Section A and state for each goal whether you achieved it, with numbers and a reason.",
+     "Evaluate each plan, including unintended outcomes, and give realistic next steps.",
+     "Link Sections A, B and C, stay within 1,600 words in Arial 12 and the video limits, reference every source, print-check the PDF and sign Form P.2."
+    ]
+   },
+   {
+    "name": "Performance Assessment – Your video",
+    "marks": null,
+    "marksNote": "30% of PE",
+    "from": [
+     5,
+     6
+    ],
+    "checklist": [
+     "Choose an activity from a different area to your PAP and plan to show it in more than one context, such as drills and a game.",
+     "Film in class under supervision, clearly identifiable, showing a wide range of skills, tactics, rules and safe practice within the SEC length limit, as an MP4."
+    ]
+   }
+  ],
+  "title": "PAP and Performance Assessment",
+  "brief": {
+   "task": "There is no topic brief. Choose a competitive sport and a role for the Physical Activity Project, and an activity from a different area for the Performance Assessment.",
+   "facts": [
+    [
+     "PAP activity",
+     "A competitive sport with a Sport Ireland–affiliated governing body, as performer or coach/choreographer, over 8–10 weeks"
+    ],
+    [
+     "PAP submission",
+     "A PDF booklet of 1,600 words at most, with short MP4 video clips"
+    ],
+    [
+     "Performance Assessment",
+     "One video of you performing one of your three studied activities, in a different area from your PAP"
+    ],
+    [
+     "Due",
+     "PAP mid-December 2026; video late March 2027 (exact dates TBC by the SEC)"
+    ]
+   ],
+   "source": {
+    "label": "NCCA guidelines for the Physical Activity Project",
+    "url": "https://www.curriculumonline.ie/getmedia/7d5c8744-583f-4f9d-aa37-b808c93ce653/LCPE_AssessmentGuidelines_PAP_EN.pdf"
+   }
+  }
+ },
+ "home-economics": {
+  "subjectTitle": "Home Economics",
+  "title": "Food Studies Practical Coursework",
+  "weight": "20%",
+  "level": "Both levels",
+  "stages": [
+   {
+    "name": "Section 1 – Investigation",
+    "marks": 32,
+    "marksNote": "Per assignment",
+    "from": [
+     0,
+     1
+    ],
+    "checklist": [
+     "Do the number of assignments your teacher confirms (2027 arrangements: two of the five, best two counted), with a different fresh-food dish for each.",
+     "Answer every command word in the brief, cover the area's recording criteria, suggest a range of dishes before choosing, and cite every source, AI included."
+    ]
+   },
+   {
+    "name": "Section 2 – Planning and preparation",
+    "marks": 8,
+    "marksNote": "Per assignment",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Give the dish name, recipe source, exact quantity and cost of every ingredient, the total cost, and all key equipment."
+    ]
+   },
+   {
+    "name": "Section 3 – Implementation",
+    "marks": 28,
+    "marksNote": "Per assignment",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "Do the practical in class under supervision, then write up the procedure step by step, the key factors you considered, and the safety and hygiene points."
+    ]
+   },
+   {
+    "name": "Section 4 – Evaluation",
+    "marks": 12,
+    "marksNote": "Per assignment",
+    "from": [
+     4,
+     5
+    ],
+    "checklist": [
+     "Write evaluation (a) on the implementation and (b) on the specific requirement under separate headings, each backed by evidence from your practical and what you would change.",
+     "Keep the booklet in Arial 12 with 1.5 spacing, check no box has overflowed, convert to PDF, print-check it and sign Form P.2."
+    ]
+   },
+   {
+    "name": "Elective 2 only – Textiles coursework",
+    "marks": null,
+    "marksNote": "Folder 25 + garment 75 · 10%",
+    "from": [
+     6,
+     7
+    ],
+    "checklist": [
+     "In the design folder, analyse the brief's requirements and constraints, explore the theme in sketches, justify your garment, record the work sequence and evaluate it against the brief.",
+     "Make the garment with two of the three mandatory processes, the theme clearly visible and skills beyond Junior Cycle, finished and pressed, by 6 April 2027."
+    ]
+   }
+  ],
+  "brief": {
+   "task": "Food Studies: complete the 2027 assignments in the SEC coursework journal, each with an investigation, planning, a supervised practical and an evaluation.",
+   "list": [
+    "Area A: the diet of older people, with menus and one main course cooked.",
+    "Area A: iron deficiency, with menus to reduce the risk and one main course cooked.",
+    "Area B: commercial filo or puff pastry, with one sweet or savoury dish cooked.",
+    "Area D: marinades, their types and principles, with one marinated dish cooked.",
+    "Area E: a descriptive rating test of two granola brands on six attributes, with star diagrams."
+   ],
+   "facts": [
+    [
+     "How many count",
+     "Two of the five under the 2027 arrangements; confirm with your teacher"
+    ],
+    [
+     "Food Studies due",
+     "2 November 2026 (already passed)"
+    ],
+    [
+     "Elective 2 Textiles",
+     "Design a holiday outfit for a young person, then make one garment with two of: buttons and buttonholes, darts or shaping, a pocket"
+    ],
+    [
+     "Textiles due",
+     "6 April 2027"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Food Studies Assignments",
+    "url": "https://exams.ie/project-files/lc/home-economics/2026-27-food-studies-assignments.pdf"
+   }
+  },
+  "summary": "Food Studies is the practical coursework journal, worth 20% of Home Economics: each assignment is recorded as an investigation, planning, a supervised practical and an evaluation. Students taking Elective 2 also complete Textiles, Fashion and Design coursework, worth 10%."
+ }
+}
