@@ -1,8 +1,7 @@
-/* Cursor tilt + orange light on home subject cards and in-subject section tiles. tilt.js feeds the --vars;
+/* Cursor tilt on home subject cards and in-subject section tiles. tilt.js feeds the --vars;
    loaded after layout.css so these hover/active rules win. */
 .dash-subject,
 .section-tile {
-  position: relative;
   transition:
     transform 160ms var(--ease),
     box-shadow 220ms var(--ease),
@@ -11,29 +10,19 @@
     color var(--t) var(--ease);
 }
 
-/* The light: a soft orange spot that sits under the cursor */
-.dash-subject::after,
-.section-tile::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  background: radial-gradient(140px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 122, 40, 0.3), transparent 70%);
-  opacity: 0;
-  transition: opacity 220ms var(--ease);
-}
-
-:is(.dash-subject, .section-tile):hover::after { opacity: 1; }
-
-/* Shadow is cast away from the cursor, as if the light came from it */
+/* Shadow is cast away from the cursor. The inset ring thickens the orange hover border
+   without changing border-width, which would shift the tile's content. */
 :is(.dash-subject, .section-tile):hover {
   transform: perspective(700px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); /* replaces layout.css's lift */
-  box-shadow: var(--sx, 0px) calc(var(--sy, 0px) + 6px) 20px -8px rgba(194, 53, 4, 0.38);
+  box-shadow:
+    inset 0 0 0 1px var(--accent-light),
+    var(--sx, 0px) calc(var(--sy, 0px) + 6px) 20px -8px rgba(194, 53, 4, 0.38);
 }
 
 /* Push: sink a little, keep the tilt, shadow tucks in. */
 :is(.dash-subject, .section-tile):active {
   transform: perspective(700px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(0.97);
-  box-shadow: calc(var(--sx, 0px) / 3) calc(var(--sy, 0px) / 3 + 2px) 8px -4px rgba(194, 53, 4, 0.45);
+  box-shadow:
+    inset 0 0 0 1px var(--accent-light),
+    calc(var(--sx, 0px) / 3) calc(var(--sy, 0px) / 3 + 2px) 8px -4px rgba(194, 53, 4, 0.45);
 }
