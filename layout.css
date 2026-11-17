@@ -36,16 +36,6 @@
   padding-top: 0.5rem;
 }
 
-.subject-head-back {
-  justify-self: start;
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.subject-head-back::before { content: "‹ "; color: var(--accent); }
-.subject-head-back:hover { color: var(--accent-strong); }
 
 .subject-head h1 {
   margin: 0;
@@ -55,7 +45,9 @@
   letter-spacing: -0.045em;
 }
 
-.subject-head h1 a { color: var(--ink); text-decoration: none; }
+.subject-head h1 a { color: var(--ink); text-decoration: none; transition: color var(--t) var(--ease); }
+.subject-head h1 a:hover { color: var(--accent-strong); }
+.subject-head h1 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
 .subject-section-title {
   margin: 0.15rem 0 0;
@@ -65,6 +57,16 @@
 }
 
 .subject-section-title:empty { display: none; }
+
+/* Inside a chapter the section's name sits under the chapter's (.study-context-section) */
+.subject-area:has(#subjectWorkbench:not(.hidden) .study-context-section) .subject-section-title { display: none; }
+
+.study-context .study-context-section {
+  margin-top: 0.3rem;
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
 
 .section-tile:focus-visible,
 .chapter-row:focus-visible,
