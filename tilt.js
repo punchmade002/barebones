@@ -1,7 +1,7 @@
-// Tilts subject/chapter buttons to face the cursor and moves their light + shadow (styles in tilt.css).
+// Tilts subject cards and section tiles to face the cursor and moves their light + shadow (styles in tilt.css).
 (() => {
-  const SEL = '.graph-subject-header, .graph-chapter, .overview-chapter-row, .exam-papers-link';
-  if (!matchMedia('(hover: hover) and (prefers-reduced-motion: no-preference)').matches) return;
+  const SEL = '.dash-subject, .section-tile';
+  if (!globalThis.matchMedia?.('(hover: hover) and (prefers-reduced-motion: no-preference)').matches) return;
 
   const VARS = ['--rx', '--ry', '--mx', '--my', '--sx', '--sy'];
   const reset = (el) => VARS.forEach((v) => el.style.removeProperty(v));
