@@ -3675,6 +3675,18 @@ body.modal-open { overflow: hidden; }
   .bd-tl-detail { padding-bottom: 0.9rem; }
 }
 
+/* Wide: the to-scale bar sits above; each block's text keeps a stripe in its colour to match it up */
+.bd-tl-scale { display: grid; gap: 3px; }
+.bd-tl-scale > span { display: flex; min-width: 0; }
+.bd-tl-scale .bd-tl-bar { flex: 1; min-width: 0; }
+.bd-tl-bar span { overflow: hidden; white-space: nowrap; }
+@container (min-width: 44.01rem) {
+  .bd-timeline { gap: 1.25rem; }
+  .bd-timeline .bd-tl-bar { display: none; }
+  .bd-tl-block { border-top: 4px solid var(--c); padding-top: 0.6rem; }
+}
+@container (max-width: 44rem) { .bd-tl-scale { display: none; } }
+
 /* Paper guide: one row per question type, split by hairlines rather than nested cards */
 .bd-type { border-top: 1px solid var(--line); padding: 0.75rem 0 0.2rem; }
 .bd-type:first-of-type { margin-top: 0.6rem; }
@@ -3917,6 +3929,30 @@ body.modal-open { overflow: hidden; }
 /* Pomodoro sits level with the other presets — no orange highlight */
 .timer-opt-sub {
   font-size: 0.66rem; font-weight: 400; color: var(--muted);
+}
+
+/* Desktop: the options sit together in one rounded panel that opens sideways, left of the clock.
+   Phones (≤640px) keep the drop-down list above. */
+@media (min-width: 641px) {
+  .timer-idle { position: relative; }
+  /* Out of flow, so the hidden panel doesn't push the clock along the top bar */
+  .timer-picker {
+    position: absolute; top: 50%; right: calc(100% + 0.5rem);
+    width: max-content; /* anchored to the 46px clock, it would otherwise shrink to min-content */
+    flex-direction: row; align-items: center; gap: 0.1rem;
+    padding: 0.3rem;
+    background: var(--panel);
+    border: 1.5px solid var(--line);
+    border-radius: var(--r-lg);
+    box-shadow: var(--s2);
+    transform: translate(6px, -50%) scale(0.97);
+    transform-origin: center right;
+  }
+  .timer-picker.picker-open { transform: translate(0, -50%) scale(1); }
+  .timer-opt,
+  .timer-opt:hover { border-color: transparent; box-shadow: none; }
+  .timer-opt { width: auto; border-radius: var(--r-md); padding: 0.45rem 0.85rem; } /* undo global button width:100% */
+  .timer-custom-row { width: 9.5rem; } /* its input shrinks to nothing in a row otherwise */
 }
 
 /* ── Custom toggle: revealed input row ── */

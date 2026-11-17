@@ -274,6 +274,15 @@ html:not(.bb-section-link) .page-shell .shell-section { display: none; }
 .guide-inline .breakdown-modal-card { height: auto; min-height: 100%; border-radius: var(--r-xl); background: var(--panel); }
 /* The page heading already names the subject */
 .guide-inline .bd-title { display: none; }
+/* …so the guide's own label becomes its title, filling the header beside the stats */
+.guide-inline .bd-eyebrow {
+  margin: 0;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  text-transform: none;
+}
 
 /* ── Dashboard ──────────────────────────────── */
 .dashboard { display: grid; align-content: start; gap: 1.25rem; padding: 0.5rem 0 2rem; }
