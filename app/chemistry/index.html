@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,39 @@
             <h1><a href="app/chemistry/#"><span class="sr-only">Leaving Cert </span>Chemistry</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert Chemistry on barebones</h2>
+            <p>Leaving Cert Chemistry study: flashcards, notes, timed tests and past exam questions by chapter and type, covering atomic structure, bonding, stoichiometry, rates, equilibrium and organic chemistry.</p>
+            <h3>Chemistry chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-chemistry/the-nature-of-science/">The Nature of Science</a></li>
+              <li><a href="/leaving-cert-chemistry/atomic-structure-the-nuclear-model/">Atomic Structure: The Nuclear Model</a></li>
+              <li><a href="/leaving-cert-chemistry/atomic-structure-the-bohr-and-orbital-models/">Atomic Structure: The Bohr and Orbital Models</a></li>
+              <li><a href="/leaving-cert-chemistry/the-periodic-table-arrangement-of-electrons/">The Periodic Table: Arrangement of Electrons</a></li>
+              <li><a href="/leaving-cert-chemistry/chemical-bonding-and-structure/">Chemical Bonding and Structure</a></li>
+              <li><a href="/leaving-cert-chemistry/electronegativity-and-the-continuum-of-chemical-bonding/">Electronegativity and the Continuum of Chemical Bonding</a></li>
+              <li><a href="/leaving-cert-chemistry/families-and-trends-in-the-periodic-table/">Families and Trends in the Periodic Table</a></li>
+              <li><a href="/leaving-cert-chemistry/the-mole-the-chemists-counting-unit/">The Mole: The Chemist's Counting Unit</a></li>
+              <li><a href="/leaving-cert-chemistry/kinetic-theory-of-matter-and-behaviour-of-gases/">Kinetic Theory of Matter and Behaviour of Gases</a></li>
+              <li><a href="/leaving-cert-chemistry/law-of-conservation-of-mass-introducing-stoichiometry/">Law of Conservation of Mass: Introducing Stoichiometry</a></li>
+              <li><a href="/leaving-cert-chemistry/acids-and-bases/">Acids and Bases</a></li>
+              <li><a href="/leaving-cert-chemistry/volumetric-analysis-acid-base/">Volumetric Analysis: Acid–Base</a></li>
+              <li><a href="/leaving-cert-chemistry/acid-base-volumetric-exam-style-questions/">Acid–Base Volumetric Exam-Style Questions</a></li>
+              <li><a href="/leaving-cert-chemistry/oxidation-and-reduction/">Oxidation and Reduction</a></li>
+              <li><a href="/leaving-cert-chemistry/volumetric-analysis-oxidation-reduction/">Volumetric Analysis: Oxidation-Reduction</a></li>
+              <li><a href="/leaving-cert-chemistry/oxidation-reduction-volumetric-exam-style-questions/">Oxidation–Reduction Volumetric Exam-Style Questions</a></li>
+              <li><a href="/leaving-cert-chemistry/rates-of-reaction/">Rates of Reaction</a></li>
+              <li><a href="/leaving-cert-chemistry/chemical-equilibrium/">Chemical Equilibrium</a></li>
+              <li><a href="/leaving-cert-chemistry/ph-and-indicators/">pH and Indicators</a></li>
+              <li><a href="/leaving-cert-chemistry/environmental-chemistry/">Environmental Chemistry</a></li>
+              <li><a href="/leaving-cert-chemistry/thermochemistry/">Thermochemistry</a></li>
+              <li><a href="/leaving-cert-chemistry/electrochemistry/">Electrochemistry</a></li>
+              <li><a href="/leaving-cert-chemistry/allotropes-of-carbon-hydrocarbons/">Allotropes of Carbon. Hydrocarbons</a></li>
+              <li><a href="/leaving-cert-chemistry/more-families-of-organic-compounds/">More Families of Organic Compounds</a></li>
+              <li><a href="/leaving-cert-chemistry/reactions-of-organic-compounds/">Reactions of Organic Compounds</a></li>
+              <li><a href="/leaving-cert-chemistry/stoichiometry-limiting-reactants-and-percentage-yield/">Stoichiometry: Limiting Reactants and Percentage Yield</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +545,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

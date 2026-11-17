@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,49 @@
             <h1><a href="app/home-economics/#"><span class="sr-only">Leaving Cert </span>Home Economics</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert Home Economics on barebones</h2>
+            <p>Leaving Cert Home Economics study: flashcards, notes, timed tests and past exam questions by chapter and type, covering food science, nutrition, the family and resource management.</p>
+            <h3>Home Economics chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-home-economics/proteins-and-amino-acids/">Proteins and Amino Acids</a></li>
+              <li><a href="/leaving-cert-home-economics/carbohydrates-and-dietary-fibre/">Carbohydrates and Dietary Fibre</a></li>
+              <li><a href="/leaving-cert-home-economics/lipids-and-fats/">Lipids and Fats</a></li>
+              <li><a href="/leaving-cert-home-economics/vitamins-and-minerals/">Vitamins and Minerals</a></li>
+              <li><a href="/leaving-cert-home-economics/digestion-and-metabolism/">Digestion and Metabolism</a></li>
+              <li><a href="/leaving-cert-home-economics/energy-balance-and-nutritional-needs/">Energy Balance and Nutritional Needs</a></li>
+              <li><a href="/leaving-cert-home-economics/meal-planning-and-special-diets/">Meal Planning and Special Diets</a></li>
+              <li><a href="/leaving-cert-home-economics/the-irish-food-industry/">The Irish Food Industry</a></li>
+              <li><a href="/leaving-cert-home-economics/meat-selection-properties-and-cooking/">Meat: Selection, Properties, and Cooking</a></li>
+              <li><a href="/leaving-cert-home-economics/fish-and-seafood/">Fish and Seafood</a></li>
+              <li><a href="/leaving-cert-home-economics/dairy-products-and-eggs/">Dairy Products and Eggs</a></li>
+              <li><a href="/leaving-cert-home-economics/cereals-and-grains/">Cereals and Grains</a></li>
+              <li><a href="/leaving-cert-home-economics/fruit-and-vegetables/">Fruit and Vegetables</a></li>
+              <li><a href="/leaving-cert-home-economics/cooking-methods-and-heat-transfer/">Cooking Methods and Heat Transfer</a></li>
+              <li><a href="/leaving-cert-home-economics/food-additives-and-processing/">Food Additives and Processing</a></li>
+              <li><a href="/leaving-cert-home-economics/food-preservation-and-storage/">Food Preservation and Storage</a></li>
+              <li><a href="/leaving-cert-home-economics/food-safety-and-microorganisms/">Food Safety and Microorganisms</a></li>
+              <li><a href="/leaving-cert-home-economics/family-resource-management/">Family Resource Management</a></li>
+              <li><a href="/leaving-cert-home-economics/personal-finance-and-budgeting/">Personal Finance and Budgeting</a></li>
+              <li><a href="/leaving-cert-home-economics/consumer-rights-and-protection/">Consumer Rights and Protection</a></li>
+              <li><a href="/leaving-cert-home-economics/environmental-issues-and-sustainability/">Environmental Issues and Sustainability</a></li>
+              <li><a href="/leaving-cert-home-economics/household-appliances-and-equipment/">Household Appliances and Equipment</a></li>
+              <li><a href="/leaving-cert-home-economics/sociological-terms-and-concepts/">Sociological Terms and Concepts</a></li>
+              <li><a href="/leaving-cert-home-economics/the-family-in-society/">The Family in Society</a></li>
+              <li><a href="/leaving-cert-home-economics/the-family-as-a-caring-unit/">The Family as a Caring Unit</a></li>
+              <li><a href="/leaving-cert-home-economics/marriage/">Marriage</a></li>
+              <li><a href="/leaving-cert-home-economics/family-law/">Family Law</a></li>
+              <li><a href="/leaving-cert-home-economics/housing-and-accommodation/">Housing and Accommodation</a></li>
+              <li><a href="/leaving-cert-home-economics/designing-the-house-interior/">Designing the House Interior</a></li>
+              <li><a href="/leaving-cert-home-economics/the-energy-efficient-home-systems-and-services/">The Energy-Efficient Home, Systems and Services</a></li>
+              <li><a href="/leaving-cert-home-economics/textiles-and-fabric-properties/">Textiles and Fabric Properties</a></li>
+              <li><a href="/leaving-cert-home-economics/clothing-selection-and-care/">Clothing Selection and Care</a></li>
+              <li><a href="/leaving-cert-home-economics/social-change-and-the-family/">Social Change and the Family</a></li>
+              <li><a href="/leaving-cert-home-economics/education/">Education</a></li>
+              <li><a href="/leaving-cert-home-economics/work-and-leisure/">Work and Leisure</a></li>
+              <li><a href="/leaving-cert-home-economics/unemployment-poverty-and-social-responses/">Unemployment, Poverty, and Social Responses</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +555,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

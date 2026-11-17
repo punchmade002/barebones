@@ -277,8 +277,10 @@ function crumbsHtml(crumbs: Crumb[]): string {
 function page(o: {
   title: string; description: string; url: string; crumbs: Crumb[]; ld: unknown[];
   body: string; subjects: Subject[];
+  app?: string; // the subject's /app/<id>/ page; defaults to the dashboard
 }): string {
   const canonical = `${SITE}${o.url}`;
+  const app = o.app || "/app.html";
   const subjectLinks = o.subjects.map((s) => `<a href="${s.url}">${esc(s.name)} notes</a>`).join("\n          ");
   return `<!doctype html>
 <html lang="en-IE">
@@ -327,9 +329,9 @@ ${jsonLd({ "@context": "https://schema.org", "@graph": [breadcrumbLd(o.crumbs), 
       <a href="/#features">Features</a>
     </nav>
     <div class="nav-cta">
-      <a href="/app.html#signin" class="btn btn-ghost np-signin auth-out">Sign in</a>
-      <a href="/app.html#signup" class="btn btn-primary auth-out">Get started free</a>
-      <a href="/app.html" class="btn btn-primary auth-in">Open app</a>
+      <a href="${app}#signin" class="btn btn-ghost np-signin auth-out">Sign in</a>
+      <a href="${app}#signup" class="btn btn-primary auth-out">Get started free</a>
+      <a href="${app}" class="btn btn-primary auth-in">Open app</a>
     </div>
   </div>
 </header>
@@ -355,7 +357,7 @@ ${o.body}
           <a href="/leaving-cert-points-calculator/">Points calculator</a>
           <a href="/#method">Method</a>
           <a href="/#features">Features</a>
-          <a href="/app.html#signin" class="auth-out">Sign in</a>
+          <a href="${app}#signin" class="auth-out">Sign in</a>
         </div>
       </div>
     </div>
@@ -371,7 +373,8 @@ ${o.body}
 `;
 }
 
-function ctaBand(o: { heading: string; text: string; source: string }): string {
+function ctaBand(o: { heading: string; text: string; source: string; app?: string }): string {
+  const app = o.app || "/app.html";
   return `<section class="np-cta-wrap">
   <div class="wrap">
     <div class="cta">
@@ -381,9 +384,9 @@ function ctaBand(o: { heading: string; text: string; source: string }): string {
         <p>${esc(o.text)}</p>
       </div>
       <div class="right">
-        <a href="/app.html#signup" class="btn btn-primary signup-btn auth-out" data-cta="${esc(o.source)}">Get started free</a>
-        <a href="/app.html" class="btn btn-primary signup-btn auth-in">Open the app</a>
-        <p class="signin-note auth-out">Already have an account? <a href="/app.html#signin">Sign in</a></p>
+        <a href="${app}#signup" class="btn btn-primary signup-btn auth-out" data-cta="${esc(o.source)}">Get started free</a>
+        <a href="${app}" class="btn btn-primary signup-btn auth-in">Open the app</a>
+        <p class="signin-note auth-out">Already have an account? <a href="${app}#signin">Sign in</a></p>
       </div>
     </div>
   </div>
@@ -440,7 +443,7 @@ function subsectionPage(subject: Subject, ch: Chapter, i: number, subjects: Subj
       return `<li>${inline(p, links, sub.url)}</li>`;
     }).join("\n        ");
     const nudge = n === midpoint - 1 && blocks.length >= 4
-      ? `\n    <aside class="np-nudge"><div><strong>Know this already?</strong> Prove it: ${plural(cardCount, "flashcard")} on ${esc(sub.title)} are waiting in the app.</div><a class="btn btn-dark" href="/app.html#signup" data-cta="nudge">Test yourself</a></aside>`
+      ? `\n    <aside class="np-nudge"><div><strong>Know this already?</strong> Prove it: ${plural(cardCount, "flashcard")} on ${esc(sub.title)} are waiting in the app.</div><a class="btn btn-dark" href="/app/${subject.id}/#signup" data-cta="nudge">Test yourself</a></aside>`
       : "";
     return `    <section class="np-block" id="${b.id}">
       <h2>${esc(b.h)}</h2>${b.b ? `\n      <p class="np-lead">${inline(b.b, links, sub.url)}</p>` : ""}${points ? `\n      <ul>\n        ${points}\n      </ul>` : ""}
@@ -461,7 +464,7 @@ function subsectionPage(subject: Subject, ch: Chapter, i: number, subjects: Subj
       <ol>
         ${qs.map((q) => `<li><p>${esc(q.prompt)}</p><span class="np-marks">${q.marks} marks</span></li>`).join("\n        ")}
       </ol>
-      <p class="np-locked"><span aria-hidden="true">■</span> Model answers, marking and ${plural(Math.max((sub.questions || []).length, qs.length), "practice question")} for this section are in the app. <a href="/app.html#signup" data-cta="answers">See the answers</a></p>
+      <p class="np-locked"><span aria-hidden="true">■</span> Model answers, marking and ${plural(Math.max((sub.questions || []).length, qs.length), "practice question")} for this section are in the app. <a href="/app/${subject.id}/#signup" data-cta="answers">See the answers</a></p>
     </section>`
     : "";
 
@@ -480,7 +483,7 @@ function subsectionPage(subject: Subject, ch: Chapter, i: number, subjects: Subj
         </ol>
         <div class="np-side-cta">
           <p><strong>${plural(cardCount, "flashcard")}</strong> for this section${ch.examCount ? ` and <strong>${plural(ch.examCount, "past exam question")}</strong> for the chapter` : ""}.</p>
-          <a class="btn btn-primary" href="/app.html#signup" data-cta="sidebar">Drill them free</a>
+          <a class="btn btn-primary" href="/app/${subject.id}/#signup" data-cta="sidebar">Drill them free</a>
         </div>
       </div>
     </aside>`;
@@ -502,10 +505,10 @@ ${questions}
     ${side}
   </div>
 </div>
-${ctaBand({ heading: `Now drill ${ch.title}.`, text: chapterCtaText(subject, ch), source: "band" })}`;
+${ctaBand({ heading: `Now drill ${ch.title}.`, text: chapterCtaText(subject, ch), source: "band", app: `/app/${subject.id}/` })}`;
 
   return page({
-    title, description, url: sub.url, crumbs, body, subjects,
+    title, description, url: sub.url, crumbs, body, subjects, app: `/app/${subject.id}/`,
     ld: [learningResourceLd({
       url: sub.url, name: `${topic}: Leaving Cert ${subject.name} notes`, description,
       about: topic, modified: sub.mtime, partOf: ch.url,
@@ -563,9 +566,9 @@ function chapterPage(subject: Subject, ch: Chapter, subjects: Subject[]): string
     <ul>${others}</ul>
   </nav>
 </div>
-${ctaBand({ heading: `Now drill ${ch.title}.`, text: chapterCtaText(subject, ch), source: "band-chapter" })}`;
+${ctaBand({ heading: `Now drill ${ch.title}.`, text: chapterCtaText(subject, ch), source: "band-chapter", app: `/app/${subject.id}/` })}`;
   return page({
-    title, description, url: ch.url, crumbs, body, subjects,
+    title, description, url: ch.url, crumbs, body, subjects, app: `/app/${subject.id}/`,
     ld: [learningResourceLd({
       url: ch.url, name: `${ch.title}: Leaving Cert ${subject.name} notes`, description, about: ch.title,
       modified: latest(ch.subs.map((s) => s.mtime)), partOf: subject.url,
@@ -602,9 +605,10 @@ ${ctaBand({
     heading: `Learn it. Then drill it.`,
     text: `Every section of Leaving Cert ${subject.name} has flashcards and a test mode in the app${subject.chapters.some((c) => c.examCount) ? ", plus past exam questions sorted by chapter" : ""}. Free to start.`,
     source: "band-subject",
+    app: `/app/${subject.id}/`,
   })}`;
   return page({
-    title, description, url: subject.url, crumbs, body, subjects,
+    title, description, url: subject.url, crumbs, body, subjects, app: `/app/${subject.id}/`,
     ld: [learningResourceLd({
       url: subject.url, name: `Leaving Cert ${subject.name} notes`, description, about: `Leaving Certificate ${subject.name}`,
       modified: latest(subject.chapters.flatMap((c) => c.subs.map((s) => s.mtime))),

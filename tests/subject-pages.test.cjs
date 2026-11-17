@@ -17,6 +17,9 @@ test("a subject page names its subject, links from the site root and has its own
   assert.match(html, /<base href="\/" \/>/);
   assert.match(html, /<link rel="canonical" href="https:\/\/barebones\.ie\/app\/biology\/" \/>/);
   assert.match(html, /<h1>.*Biology.*<\/h1>/);
+  // Crawlable text: the course description and each chapter linked to its notes page
+  assert.match(html, /<section id="subjectAbout"/);
+  assert.match(html, /<li><a href="\/leaving-cert-biology\/[a-z0-9-]+\/">[^<]+<\/a><\/li>/);
   // With <base href="/">, a bare "#notes" would point at the landing page
   assert.doesNotMatch(html, /href="#/);
 });
