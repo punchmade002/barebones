@@ -1,0 +1,43 @@
+/* Cursor tilt + orange light on subject and chapter buttons. tilt.js feeds the --vars;
+   loaded after styles.css / paper-archive.css so these hover/active rules win. */
+.graph-subject-header,
+.graph-chapter,
+.overview-chapter-row,
+.exam-papers-link {
+  position: relative;
+  transform: perspective(700px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition:
+    transform 160ms var(--ease),
+    box-shadow 220ms var(--ease),
+    background var(--t) var(--ease),
+    border-color var(--t) var(--ease),
+    color var(--t) var(--ease);
+}
+
+/* The light: a soft orange spot that sits under the cursor */
+.graph-subject-header::after,
+.graph-chapter::after,
+.overview-chapter-row::after,
+.exam-papers-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(140px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 122, 40, 0.3), transparent 70%);
+  opacity: 0;
+  transition: opacity 220ms var(--ease);
+}
+
+:is(.graph-subject-header, .graph-chapter, .overview-chapter-row, .exam-papers-link):hover::after { opacity: 1; }
+
+/* Shadow is cast away from the cursor, as if the light came from it */
+:is(.graph-subject-header, .graph-chapter, .overview-chapter-row, .exam-papers-link):hover {
+  box-shadow: var(--sx, 0px) calc(var(--sy, 0px) + 6px) 20px -8px rgba(194, 53, 4, 0.38);
+}
+
+/* Push: sink a little, keep the tilt, shadow tucks in. Beats the global button:active !important. */
+:is(.graph-subject-header, .graph-chapter, .overview-chapter-row, .exam-papers-link):active {
+  transform: perspective(700px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(0.97) !important;
+  box-shadow: calc(var(--sx, 0px) / 3) calc(var(--sy, 0px) / 3 + 2px) 8px -4px rgba(194, 53, 4, 0.45);
+}
