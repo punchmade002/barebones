@@ -65,10 +65,24 @@ def validate(data, subject: str | None = None) -> list[str]:
             for field in ("name", "see", "marked", "play"):
                 if not isinstance(qt, dict) or not str(qt.get(field) or "").strip():
                     errors.append(f"{at}.questionTypes[{j}].{field} is required")
+        for b in section.get("bank") or []:
+            if not (isinstance(b, dict) and isinstance(b.get("sectionId"), str)
+                    and all(isinstance(n, int) for n in b.get("numbers", []))):
+                errors.append(f"{at}.bank entries need a sectionId and optional integer numbers")
     day = data.get("examDay")
     if day is not None and not (isinstance(day, dict) and str(day.get("task") or "").strip()
                                 and all(isinstance(f, list) and len(f) == 2 for f in day.get("facts", []))):
         errors.append("examDay needs a task and [label, value] facts")
+    # The timeline is drawn to scale, so its blocks must run back to back and finish at "end"
+    if isinstance(day, dict) and day.get("timeline"):
+        mins = lambda t: int(t.split(":")[0]) * 60 + int(t.split(":")[1])
+        clock = mins(day["timeline"][0]["start"])
+        for block in day["timeline"]:
+            if mins(block["start"]) != clock:
+                errors.append(f"examDay.timeline: {block.get('label')} should start at {clock // 60}:{clock % 60:02d}")
+            clock += block["minutes"]
+        if day.get("end") and mins(day["end"]) != clock:
+            errors.append(f"examDay.end should be {clock // 60}:{clock % 60:02d}")
     return errors
 
 

@@ -76,13 +76,28 @@ const PAGE_SUBJECT = SUBJECTS.some((s) => s.id === document.body.dataset.subject
 const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam" };
 const SECTION_TABS = { flashcards: "flashcards", tests: "test", exam: "exam" };
 // Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
-// The AAC guide only where aac-guides.js has one for the subject.
+// One AAC section per coursework component in aac-guides.js (none for Maths).
 function sectionsFor(subjectId) {
   const sections = subjectId === "maths" ? ["guide", "aac", "exam"] : Object.keys(SECTION_LABELS);
-  return sections.filter((id) => id !== "aac" || window.AAC_GUIDES?.[subjectId]);
+  return sections.flatMap((id) => (id === "aac" ? aacGuidesFor(subjectId).map((a) => a.section) : [id]));
+}
+// A subject with two coursework components (PE, Home Economics) has two guides: aac-guides.js
+// keys them "<subject>" and "<subject>-<part>", and their sections are "aac" and "aac-<part>".
+function aacGuidesFor(subjectId) {
+  return Object.entries(window.AAC_GUIDES || {})
+    .filter(([, guide]) => guide.subject === subjectId)
+    .map(([key, guide]) => ({ key, guide, section: key === subjectId ? "aac" : `aac-${key.slice(subjectId.length + 1)}` }));
+}
+const isAacSection = (id) => /^aac(-|$)/.test(id);
+function sectionLabel(subjectId, id) {
+  if (!isAacSection(id)) return SECTION_LABELS[id] || "";
+  const all = aacGuidesFor(subjectId);
+  const own = all.find((a) => a.section === id);
+  return all.length > 1 && own ? `AAC · ${own.guide.short || own.guide.title}` : SECTION_LABELS.aac;
 }
 // Signed-out visitors (often from Google) can read these; the rest ask them to sign in.
 const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes"]);
+const isPublicSection = (id) => PUBLIC_SECTIONS.has(id) || isAacSection(id);
 const EXAM_VIEWS = [["chapter", "By chapter"], ["type", "By type"], ["papers", "Full papers"]];
 const EXAM_TYPE_LABELS = {
   "short-answer": "Short answer",
@@ -2070,7 +2085,7 @@ function enterSection() {
   pickingOutcome = false;
   if (SECTION_TABS[subjectSection]) switchTab(SECTION_TABS[subjectSection]);
   if (subjectSection === "guide") openExamBreakdown(PAGE_SUBJECT);
-  if (subjectSection === "aac") openAacGuide(PAGE_SUBJECT);
+  if (isAacSection(subjectSection)) openAacGuide(PAGE_SUBJECT, subjectSection);
   if (subjectSection) openSubjectData(PAGE_SUBJECT);
   renderAll();
   els.subjectArea.querySelectorAll(".section-panel, .workbench, .guide-inline").forEach((el) => { el.scrollTop = 0; });
@@ -2110,12 +2125,12 @@ function renderSubjectPage() {
     viewMode = "chapter";
     pickingOutcome = false;
   }
-  const locked = !user && !PUBLIC_SECTIONS.has(subjectSection);
+  const locked = !user && !isPublicSection(subjectSection);
   const workbench = !locked && (subjectSection === "flashcards" || subjectSection === "tests"
     || (subjectSection === "exam" && examView === "chapter"));
   els.subjectWorkbench.classList.toggle("hidden", !workbench);
   // The paper guide and the AAC guide draw into the same element
-  document.getElementById("examBreakdownModal").classList.toggle("hidden", subjectSection !== "guide" && subjectSection !== "aac");
+  document.getElementById("examBreakdownModal").classList.toggle("hidden", subjectSection !== "guide" && !isAacSection(subjectSection));
   area.dataset.section = subjectSection || "home";
   area.dataset.examView = subjectSection === "exam" && !locked ? examView : "";
   // Inside a section, the header steps back to the subject's tiles and names the section
@@ -2125,7 +2140,7 @@ function renderSubjectPage() {
     // Same path and query, empty hash: a hash change, not a reload
     back.setAttribute("href", subjectSection ? `${location.pathname}${location.search}#` : "app.html");
   }
-  if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = SECTION_LABELS[subjectSection] || "";
+  if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = sectionLabel(PAGE_SUBJECT, subjectSection);
   renderSectionPanel(locked);
 }
 
@@ -2149,7 +2164,7 @@ function renderSectionPanel(locked) {
   if (locked) {
     panel.innerHTML = `
       <div class="section-card section-locked">
-        <h2>Sign in to use ${escapeHtml(SECTION_LABELS[subjectSection].toLowerCase())}</h2>
+        <h2>Sign in to use ${escapeHtml(sectionLabel(PAGE_SUBJECT, subjectSection).toLowerCase())}</h2>
         <p>Your progress saves to your account, so you can pick up on any device.</p>
         <div class="section-locked-actions">
           <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
@@ -2184,7 +2199,7 @@ const SUBJECT_ABOUT_HTML = (() => {
 function subjectHomeHtml() {
   const subject = PAGE_SUBJECT_DATA;
   const tiles = sectionsFor(subject.id).map((id) => `
-    <li><a class="section-tile" href="app/${subject.id}/#${id}">${iconHtml(id)}<span>${SECTION_LABELS[id]}</span></a></li>`).join("");
+    <li><a class="section-tile" href="app/${subject.id}/#${id}">${iconHtml(isAacSection(id) ? "aac" : id)}<span>${escapeHtml(sectionLabel(subject.id, id))}</span></a></li>`).join("");
   const below = getCurrentUser() ? studyTimeBlockHtml(subject.id) : `
     <div class="section-locked-actions">
       <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
@@ -5336,8 +5351,14 @@ function getSectionForQuestion(questionId) {
   const q = window.EXAM_QUESTIONS_INDEX?.get(questionId);
   if (!q?.sectionId || !q?.subject) return null;
   const data = window.EXAM_BREAKDOWN?.[q.subject];
-  const section = data?.sections?.find(function (s) { return s.id === q.sectionId; });
+  const section = data?.sections?.find(function (s) { return inBreakdownSection(q, s); });
   return section ? { section, data } : null;
+}
+
+// A guide section can draw on bank sections with other ids: bank: [{ sectionId, numbers? }]
+function inBreakdownSection(q, section) {
+  if (!section.bank) return q.sectionId === section.id;
+  return section.bank.some((b) => b.sectionId === q.sectionId && (!b.numbers || b.numbers.includes(q.questionNumber)));
 }
 
 function getRecommendedMinutes(subjectId, marks) {
@@ -5398,7 +5419,7 @@ function sectionShareText(section, data) {
 }
 
 function renderBreakdownModal(data) {
-  const subjectTitle = data.subject.charAt(0).toUpperCase() + data.subject.slice(1);
+  const subjectTitle = escapeHtml(SUBJECTS.find((s) => s.id === data.subject)?.title || data.subject);
   const head = (meta) => `
     <header class="bd-head">
       <div class="bd-head-text">
@@ -5421,11 +5442,9 @@ function renderBreakdownModal(data) {
   // A long timingNote is a paragraph, not a stat: show the total time big and the note beneath
   const shortNote = data.timingNote && data.timingNote.length <= 30;
   const timeStr = shortNote ? data.timingNote : (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : data.timingNote || '');
-  // Where the note names the subject's coursework, that phrase opens its AAC guide
-  const aacTitle = window.AAC_GUIDES?.[data.subject]?.title;
-  const noteHtml = aacTitle
-    ? escapeHtml(data.timingNote || '').replace(escapeHtml(aacTitle), `<a class="bd-note-link" href="/app/${data.subject}/#aac">${escapeHtml(aacTitle)}</a>`)
-    : escapeHtml(data.timingNote || '');
+  // Where the note names a coursework component, that phrase opens its AAC guide
+  const noteHtml = aacGuidesFor(data.subject).reduce((html, { guide, section }) => html.replace(escapeHtml(guide.title),
+    `<a class="bd-note-link" href="/app/${data.subject}/#${section}">${escapeHtml(guide.title)}</a>`), escapeHtml(data.timingNote || ''));
   const longNote = data.timingNote && !shortNote && data.totalMinutes ? `<p class="bd-timing-note">${noteHtml}</p>` : '';
   const meta = `
     <dl class="bd-stats">
@@ -5542,7 +5561,7 @@ function renderQuestionTypes(types) {
       <details class="bd-type"${i === 0 ? ' open' : ''}>
         <summary>
           <span class="bd-type-name">${escapeHtml(t.name)}</span>
-          <span class="aac-depth-count">${[t.marks && `${t.marks} marks`, t.minutes && `~${t.minutes} min`].filter(Boolean).join(' · ')}</span>
+          <span class="aac-depth-count">${[t.marks && (typeof t.marks === 'number' ? `${t.marks} marks` : t.marks), t.minutes && `~${t.minutes} min`].filter(Boolean).join(' · ')}</span>
         </summary>
         <dl class="aac-brief-facts">${rows.filter(([, k]) => t[k]).map(([label, k]) => `<div><dt>${label}</dt><dd>${escapeHtml(t[k])}</dd></div>`).join('')}</dl>
         ${t.traps?.length ? `<span class="bd-label bd-type-traps">Where marks are lost</span>
@@ -5571,7 +5590,7 @@ function selectBreakdownSection(subjectId, idx) {
   modal.querySelectorAll('[data-questions-slot]').forEach((slot) => {
     const i = Number(slot.closest('.bd-panel').dataset.idx);
     const section = data.sections[i];
-    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q)).length;
+    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => inBreakdownSection(q, section) && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q)).length;
     slot.innerHTML = count
       ? `<button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
            Practise past-paper questions <span>${count}</span>
@@ -5585,7 +5604,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
   if (!data) return;
   const section = data.sections[sectionIdx];
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q));
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => inBreakdownSection(q, section) && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q));
 
   const questionsHtml = questions.map((group, qi) => {
     const parts = (group.parts || []).map((part, pIdx) => {
@@ -5649,20 +5668,20 @@ function readAacTicks() {
   try { return JSON.parse(localStorage.getItem(AAC_TICKS_KEY) || '{}') || {}; } catch { return {}; }
 }
 
-function aacTickCount(guide, ticks) {
-  const done = new Set(ticks[guide.subject] || []);
+function aacTickCount(guide, ticks, key) {
+  const done = new Set(ticks[key] || []);
   const all = guide.stages.flatMap((s) => s.checklist);
   return { done: all.filter((t) => done.has(t)).length, total: all.length };
 }
 
 function toggleAacTick(input) {
-  const { subject, text } = input.dataset;
+  const { key, text } = input.dataset;
   const ticks = readAacTicks();
-  const set = new Set(ticks[subject] || []);
+  const set = new Set(ticks[key] || []);
   if (input.checked) set.add(text); else set.delete(text);
-  ticks[subject] = [...set];
+  ticks[key] = [...set];
   try { localStorage.setItem(AAC_TICKS_KEY, JSON.stringify(ticks)); } catch {}
-  const { done, total } = aacTickCount(window.AAC_GUIDES[subject], ticks);
+  const { done, total } = aacTickCount(window.AAC_GUIDES[key], ticks, key);
   const out = document.getElementById('aacProgress');
   if (out) out.textContent = `${done}/${total}`;
 }
@@ -5672,10 +5691,10 @@ function guideEyebrow(active, aacTitle = '') {
   return `<span class="bd-eyebrow">${active === 'aac' ? `AAC guide · ${escapeHtml(aacTitle)}` : 'Paper guide'}</span>`;
 }
 
-function openAacGuide(subjectId) {
-  const guide = window.AAC_GUIDES?.[subjectId];
-  if (!guide) return;
-  document.getElementById('examBreakdownContent').innerHTML = renderAacGuide(guide);
+function openAacGuide(subjectId, section = 'aac') {
+  const found = aacGuidesFor(subjectId).find((a) => a.section === section);
+  if (!found) return;
+  document.getElementById('examBreakdownContent').innerHTML = renderAacGuide(found.guide, found.key);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   selectAacStage(0);
 }
@@ -5709,10 +5728,10 @@ function renderAacBrief(brief) {
   </section>`;
 }
 
-function renderAacGuide(guide) {
+function renderAacGuide(guide, key) {
   const ticks = readAacTicks();
-  const done = new Set(ticks[guide.subject] || []);
-  const { done: doneCount, total } = aacTickCount(guide, ticks);
+  const done = new Set(ticks[key] || []);
+  const { done: doneCount, total } = aacTickCount(guide, ticks, key);
   const byMarks = guide.stages.every((s) => s.marks);
   const color = (i) => AAC_STAGE_COLORS[i % AAC_STAGE_COLORS.length];
 
@@ -5741,7 +5760,7 @@ function renderAacGuide(guide) {
         <div class="bd-tip aac-checklist">
           <span class="bd-label">Full-marks checklist</span>
           <ul class="aac-checks">${s.checklist.map((t) => `
-            <li><label><input type="checkbox" data-subject="${guide.subject}" data-text="${escapeHtml(t)}"
+            <li><label><input type="checkbox" data-key="${key}" data-text="${escapeHtml(t)}"
               ${done.has(t) ? 'checked' : ''} onchange="toggleAacTick(this)"><span>${escapeHtml(t)}</span></label></li>`).join('')}
           </ul>
         </div>
@@ -5774,7 +5793,7 @@ function renderAacGuide(guide) {
     </header>
     <p class="bd-timing-note">${escapeHtml(guide.summary)}</p>
     ${renderAacBrief(guide.brief)}
-    <a class="aac-ai-guide" href="./aac-ai-guides/${guide.subject}.pdf" download="${escapeHtml(guide.subjectTitle)} AAC AI review guide.pdf">
+    <a class="aac-ai-guide" href="./aac-ai-guides/${key}.pdf" download="${escapeHtml(guide.title)} AI review guide.pdf">
       <span class="bd-label">AI review guide · PDF</span>
       <span>Attach it with your draft to ChatGPT, Claude or Gemini. It leaves your writing as it is and shows how each paragraph could earn more marks, and why.</span>
     </a>

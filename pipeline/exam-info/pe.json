@@ -2,61 +2,436 @@
   "subject": "pe",
   "totalMarks": 250,
   "totalMinutes": 150,
-  "timingNote": "2h 30m · 250 marks. The written examination is worth 50% of the overall LC Physical Education assessment at both Higher and Ordinary Level.",
+  "timingNote": "Higher Level: 2h 30m, 250 marks, which is 50% of your grade. The other 50% is coursework you finish before the exam: the Physical Activity Project (PAP) is 20% (marked out of 100, Higher and Ordinary Level) and the Performance Assessment is 30% (marked out of 150, common level). The paper has three sections: short questions (80 marks), a case study (50) and long questions (120). Every rule, mark split and trap below comes from the 2023 to 2026 papers and the SEC's published marking schemes.",
+  "examDay": {
+    "task": "2:00 to 4:30 in the afternoon (the time on every paper from 2022 to 2026; check your 2027 timetable). You get one answer booklet: the questions are printed in it, the case study is on pages 16 and 17 of the 2026 booklet, and every answer goes in the spaces provided. There is extra space at the end of the booklet and you can ask for supplementary paper. It is scanned and marked on screen, so anything outside the answer areas may not be seen. Write in blue or black pen.",
+    "facts": [
+      [
+        "The choice rule (HL)",
+        "Section A: any 10 of 12 questions, 8 marks each. Section B: Question 13 only, 50 marks. Section C: any 3 of 5 questions, 40 marks each. Nothing links the choices, so you can skip any topic."
+      ],
+      [
+        "Ordinary Level",
+        "Same shape and marks: any 10 of 12 (8 marks each), Question 13 (50), any 3 of 5 (40 each), 2h 30m. The wording is more guided, with more tables, tick boxes and 'identify' parts (2026 Q14 gives test results to read), and the grade bands are lower. 2022 was a shorter 170-mark paper at both levels."
+      ],
+      [
+        "Same format in 2027",
+        "The adjustments in place since 2022 stay until a subject's new course arrives. The redeveloped PE course is first examined in 2028, so 2027 uses the 2023 to 2026 format: 80 + 50 + 120 marks."
+      ],
+      [
+        "How marks are given",
+        "Small items score 1 to 4 marks per correct point. Longer answers are marked in bands (for example 10-12, 7-9, 4-6, 1-3 for a 12-mark part). The top band needs a clear, accurate, cohesive answer with examples and a judgement. Wrong or contradicted terms can lose marks."
+      ]
+    ],
+    "end": "4:30",
+    "timeline": [
+      {
+        "start": "2:00",
+        "minutes": 5,
+        "label": "Choose",
+        "color": "#C9C4BE",
+        "detail": "Read all 12 in Section A and all 5 in Section C. Tick the ones you will answer."
+      },
+      {
+        "start": "2:05",
+        "minutes": 45,
+        "label": "Section A",
+        "color": "#F97316",
+        "detail": "About 4 to 5 minutes a question. Do your 10 surest first, then use spare minutes to improve your thinnest answer."
+      },
+      {
+        "start": "2:50",
+        "minutes": 30,
+        "label": "Question 13",
+        "color": "#57534E",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 3
+          },
+          {
+            "label": "b",
+            "minutes": 6
+          },
+          {
+            "label": "c",
+            "minutes": 7
+          },
+          {
+            "label": "d",
+            "minutes": 7
+          },
+          {
+            "label": "e",
+            "minutes": 7
+          }
+        ],
+        "detail": "Compulsory case study. Parts (b) to (e) are 10 to 12 marks each: about 7 minutes a part."
+      },
+      {
+        "start": "3:20",
+        "minutes": 23,
+        "label": "Long question 1",
+        "color": "#8A847D",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 3
+          },
+          {
+            "label": "b",
+            "minutes": 6
+          },
+          {
+            "label": "c",
+            "minutes": 7
+          },
+          {
+            "label": "d",
+            "minutes": 7
+          }
+        ],
+        "detail": "Your strongest question. Spend the most time on the 10 to 12 mark discuss part."
+      },
+      {
+        "start": "3:43",
+        "minutes": 23,
+        "label": "Long question 2",
+        "color": "#57534E",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 3
+          },
+          {
+            "label": "b",
+            "minutes": 6
+          },
+          {
+            "label": "c",
+            "minutes": 7
+          },
+          {
+            "label": "d",
+            "minutes": 7
+          }
+        ],
+        "detail": "Same split. When time is up, move on and come back if you can."
+      },
+      {
+        "start": "4:06",
+        "minutes": 24,
+        "label": "Long question 3",
+        "color": "#8A847D",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 3
+          },
+          {
+            "label": "b",
+            "minutes": 6
+          },
+          {
+            "label": "c",
+            "minutes": 7
+          },
+          {
+            "label": "d",
+            "minutes": 8
+          }
+        ],
+        "detail": "Leave 2 minutes at the end to check every part has an answer with the right label."
+      }
+    ]
+  },
   "sections": [
     {
-      "id": "pe-section-a",
+      "id": "pe-sectionA",
       "name": "Section A – Short Questions",
       "marks": 80,
+      "minutes": 45,
       "color": "#F97316",
       "minutesPerQuestion": 4.5,
       "tips": {
-        "timing": "Aim for about 45 minutes. Answer any 10 of Questions 1–12; the section is worth 80 marks, so allow roughly 4–5 minutes for each chosen question.",
-        "structure": "Answer every requested part directly in the spaces provided. Match the number of distinct points, examples or labels to the wording and marks, and use precise Physical Education terminology.",
+        "timing": "About 45 minutes for 10 questions. Each is 8 marks, so aim for 4 to 5 minutes. Section A is 32% of the marks, so give it 30% of the time, not more.",
+        "structure": "Questions are split into parts of 2 to 8 marks, and the marks printed beside each part tell you how many separate points to give. Most 8-mark questions are two short parts or one 'describe two' part. Write in the space under the question and label which point is which.",
         "reminders": [
-          "Read all 12 questions before choosing the 10 you will answer",
-          "Give separate answers where the question asks for two or more points",
-          "Name the selected physical activity, role, skill or fitness component when required",
-          "Label diagrams and complete every row of tables",
-          "Move on promptly so short questions do not consume long-answer time"
+          "Read all 12 first and choose the 10 where you can give the full number of points. If you answer 11, the extra is only insurance",
+          "Count the points asked for (two influences, three demands, four rules) and number your answers",
+          "Where the question says 'a named activity of your choice' or 'skills that you analysed', name them first: the name usually earns marks and your examples must fit it",
+          "Tick boxes (school or community, structures or strategies, sportsmanship or gamesmanship) pick your context. Answer the one you ticked, nothing else",
+          "If a question says 'you may not use' something (creatine, anabolic steroids, swimming), the banned answer scores nothing"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "One-fact answers: identify, state, name, list",
+          "where": "Every year. Examples: 2026 Q1(a) three demands on a coach/choreographer, Q2(b) three supports for participation in schools, Q5(b) two Irish anti-doping rules, Q8(a) two benefits of warming up; 2024 Q6 four anti-doping rules.",
+          "marks": 4,
+          "minutes": 1.5,
+          "see": "A short list in the space provided, with 2 to 4 lines. Often 'identify' or 'state' plus a number: 'identify three demands', 'state four current Irish anti-doping rules'.",
+          "marked": "Usually 1 or 2 marks per correct item. A set of three can be 2 + 1 + 1 (2026 Q1a and Q2b), and two items are 2 + 2 (Q5b, Q8a). Anti-doping rules are 2 marks each in 2026. Items must be relevant to the context asked (supports must be relevant to schools).",
+          "play": "Give exactly the number asked, each as a short precise phrase. If the scheme splits marks 2 + 1 + 1, your first answer carries the most weight, so lead with your best one. Learn the Irish anti-doping rules list (presence, use, refusing a test, three whereabouts failures, tampering, possession, trafficking, complicity, prohibited association) because it has come up in 2024, 2025 and 2026.",
+          "traps": [
+            "Giving a general answer that fits any context, such as 'PE' as a school support when the question rules it out",
+            "Two answers that are the same idea in different words: you score for one",
+            "Writing more than the number asked and hoping the examiner picks the right ones"
+          ]
+        },
+        {
+          "name": "Definitions and concepts",
+          "where": "Most years, often as part (a): 2026 Q2(a) explain Physical Education as a concept of physical activity; 2025 Q4(a) short term goal and performance goal, Q9 mass-participation sports; 2024 Q5(a) define skill; 2023 Q8 rules, rituals and conventions.",
+          "marks": 4,
+          "minutes": 2,
+          "see": "A term from the specification to define or explain, sometimes one of several terms in a table (2023 Q8, 2025 Q4(a)).",
+          "marked": "Banded: a clear, accurate definition scores 3 to 4 of 4, a partly accurate one 1 to 2. In 2026 Q2(a) the explanation had to place PE as a concept of physical activity. Where a question has two terms, each is marked on its own.",
+          "play": "Write a one-sentence definition in your own words, then add a short example or a key feature to move into the top band. Define the term in the context the question names, not in general.",
+          "traps": [
+            "A definition that only repeats the term ('sport is playing a sport')",
+            "Giving the general meaning of the word when the question asks for it as a concept of physical activity",
+            "Mixing up two similar terms (short term goal and performance goal, rules and conventions)"
+          ]
+        },
+        {
+          "name": "Describe or explain two (influences, principles, strategies, methods)",
+          "where": "Almost every paper has several. 2026 Q7 two influences on boys' participation, Q9(b) two adherence tips, Q10 Newton's first law applied to two skills, Q11 two ethical principles; 2025 Q6 two principles of effective practice, Q11 two structures or strategies; 2024 Q7 two fitness training methods.",
+          "marks": 8,
+          "minutes": 4,
+          "see": "A single instruction for two items, each with a reason or example. Many are linked to a named activity or to your own project work ('skills that you analysed', 'tip sheet you designed').",
+          "marked": "A mark for naming each item, then marks for the description: 1 + 3 ×2 for 2026 Q7, 3 ×2 for Q9(b), 4 ×2 for Q10. In 2026 Q11 two principles are 1 mark each and 6 marks for the importance of upholding them. Two applications must be different (Q10).",
+          "play": "Use the same mini-structure twice: name it (1 mark), explain how or why it has this effect, add one example. Keep both halves equal in length because each is marked on its own.",
+          "traps": [
+            "Describing one item well and the second in a few words: each is capped separately",
+            "Two applications of Newton's first law that are the same skill from the same angle (they must be different)",
+            "Leaving out the example or the 'why' that the marks sit on"
+          ]
+        },
+        {
+          "name": "Table and fill-in questions (levers, planes, injuries, three activities)",
+          "where": "2026 Q4 lever class plus fulcrum, effort and load; 2026 Q12 three physical activities with an official and a safety regulation; 2024 Q8 two injuries and causes; 2023 Q1 planes of movement.",
+          "marks": 8,
+          "minutes": 4,
+          "see": "A grid or labelled lines to complete: lever class, then three body parts in a table (2026 Q4). The row labels are printed for you.",
+          "marked": "Each cell is marked on its own. 2026 Q4: 2 marks for the class, then 2 marks each for fulcrum, effort and load. These must match the lever you named in part (a). 2026 Q12: 3 + 3 + 2 for the three activities, each needing a regulation and the official who applies it.",
+          "play": "Pick the example you know best (the elbow in a bicep curl or the ankle in a calf raise for a lever) and fill every cell. Name the exact body part, not the area. For Q12-style questions, choose three different activities with a clear official (referee, umpire, starter, lifeguard).",
+          "traps": [
+            "Naming the right lever class but body parts that belong to another class: the whole table scores 0 once (a) is wrong",
+            "Leaving cells empty because you are unsure: every cell is an easy 2 marks",
+            "A safety regulation without naming who implements it"
+          ]
+        },
+        {
+          "name": "Describe or discuss in one 8-mark paragraph",
+          "where": "2026 Q3 how media coverage can positively impact spectator behaviour; 2025 Q3 gender stereotyping and the media; 2024 Q4 two technology advances for spectators in a named activity; 2023 Q6 sportsmanship versus gamesmanship.",
+          "marks": 8,
+          "minutes": 5,
+          "see": "One statement, often with a photo or figure, and a single 8-mark space. 'Describe' or 'discuss', sometimes two items.",
+          "marked": "One banded mark out of 8: 6 to 8 for a clear, accurate, structured description with one or more developed examples; 3 to 5 for an accurate description; 1 to 2 for some accuracy (2026 Q3).",
+          "play": "Write 4 to 6 sentences: make the point, say how it works, and give a developed real example (a named event, athlete or campaign). One well-developed example scores higher than several thin ones.",
+          "traps": [
+            "A list of points with no explanation",
+            "No example, which caps you below the top band",
+            "Writing about the wrong direction: 'positively impact' means the question wants benefits, not problems"
+          ]
+        },
+        {
+          "name": "Choose-your-own and tick-box questions",
+          "where": "2025 Q7 and Q11, 2026 Q16(c): tick which context or term you are answering. 2026 Q6 choose one HRF and one PRF component from a list.",
+          "marks": 8,
+          "minutes": 4,
+          "see": "The question gives a choice (school or community, structures or strategies, one component from each of two lists) and asks for a response in the chosen frame.",
+          "marked": "In 2026 Q6 the two component choices are 1 mark each and 6 marks for one activity that trains both. The answer is marked against the box you ticked, so a mismatch loses marks.",
+          "play": "Pick the option you have a ready example for. Tick it before writing, then keep every sentence tied to that choice. Where the question wants one activity that trains two components, give the activity, how it is done and why it trains both.",
+          "traps": [
+            "Ticking one box and answering the other",
+            "Choosing two components from the same group when the question wants one HRF and one PRF",
+            "An activity that trains only one of the two components"
+          ]
+        }
+      ]
     },
     {
-      "id": "pe-section-b",
+      "id": "pe-sectionB",
       "name": "Section B – Case Study",
       "marks": 50,
+      "minutes": 30,
       "color": "#10B981",
       "minutesPerQuestion": 30,
       "tips": {
-        "timing": "Allow about 30 minutes. Question 13 is compulsory and the full case-study section is worth 50 marks.",
-        "structure": "Use the supplied text, data and images explicitly, then apply relevant course knowledge to the physical-activity scenario. Follow the printed sub-parts in order and keep each response proportional to its marks.",
+        "timing": "About 30 minutes for 50 marks, nearly 1 minute a mark. Read the case study in the first 2 minutes with the five parts in mind. Parts (b) to (e) are worth 10 to 12 marks each: about 7 minutes each.",
+        "structure": "Question 13 is compulsory and has five parts. Part (a) tests the text and your NGB knowledge (4 marks). The rest are knowledge questions that use the text as a starting point: 2026 asked for periodisation, energy systems, technology and nutrition. Use the text where the question says so, otherwise answer from the course.",
         "reminders": [
-          "Question 13 is compulsory",
-          "Read the case study and all sub-parts before beginning",
-          "Quote or identify specific evidence from the stimulus when asked",
-          "Connect case-study evidence to accurate course concepts",
-          "Label every sub-part clearly, including work written on supplementary paper"
+          "Part (a)(ii) must come from the case study. Quote or paraphrase it, do not use outside knowledge",
+          "Parts that say 'a selected physical activity' want your own example. Name it, and use two when asked",
+          "When the question says 'you may not refer to swimming' (or the case study sport), choose a different one",
+          "Put a judgement into every 'discuss' answer: say which effect matters most or why",
+          "Label every part and tick through them at the end: five parts means five answers"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Text-based and recall parts",
+          "where": "Part (a) every year. 2026 (a)(i) name two NGBs and their sports, (a)(ii) two ways Swim Ireland supports high performance, from the case study.",
+          "marks": 4,
+          "minutes": 4,
+          "see": "Two short sub-parts. Name two other National Governing Bodies and the sports they govern, then pick two points from the text.",
+          "marked": "1 mark per correct item, so 2 marks each for (i) and (ii). In (ii) the points must be from the case study.",
+          "play": "Take answers for (ii) straight from the passage in a few words. For (i) choose NGBs you know well (GAA, FAI, Rugby Ireland, Athletics Ireland, Basketball Ireland, Swim Ireland is already taken).",
+          "traps": [
+            "Naming the NGB without the sport, or the sport without the NGB",
+            "Giving a point not in the text for (ii)",
+            "Naming the NGB already in the case study"
+          ]
+        },
+        {
+          "name": "Explain a concept and its importance",
+          "where": "2026 (b) explain periodisation and outline its importance in preparing for an Olympics every four years; 2023 Section C also asked you to define periodisation.",
+          "marks": 10,
+          "minutes": 6,
+          "see": "A definition followed by an application to the sport in the stimulus.",
+          "marked": "10 marks in bands: 8 to 10 for a clear explanation and a clear outline of the importance; 5 to 7 for an accurate explanation with a weaker link to performance; 1 to 4 for an explanation with little importance (2026).",
+          "play": "Spend two sentences on what it is (the planned division of training into macro, meso and micro cycles with phases such as preparation, competition, transition), then the rest on why it matters for the event in the question. Use the four-year Olympic cycle in your example.",
+          "traps": [
+            "Defining without applying: it caps at 5 to 7 of 10",
+            "Mixing up cycle lengths (macrocycle is a full year or longer, mesocycle about two months, microcycle about two weeks)",
+            "Writing generally when the question gives an event or time frame"
+          ]
+        },
+        {
+          "name": "Explain how knowledge informs performance",
+          "where": "2026 (c) how an understanding of the ATP-PC (alactic) and aerobic (oxidative) energy systems can inform preparation for performance, for 100m backstroke versus 10km open water; 2023 Q10 two energy systems in a chosen activity.",
+          "marks": 12,
+          "minutes": 7,
+          "see": "A 12-mark explanation of science applied to two contrasting events.",
+          "marked": "12 marks in bands: 10 to 12 for a clear, accurate and cohesive explanation of both systems and how this knowledge informs preparation, with examples; 6 to 9 for accurate explanation; 3 to 5 for limited; 1 to 2 for accurate facts about the systems (2026).",
+          "play": "Give both systems their own short paragraph: fuel, duration, then what training follows (short sprints and long recoveries for the ATP-PC system, continuous and tempo work for the aerobic system). End with a linking sentence on how a coach uses the difference.",
+          "traps": [
+            "Describing the energy systems without the 'inform preparation' link: 1 to 2 marks only",
+            "Covering only one of the two systems",
+            "Calling the aerobic system 'anaerobic' or confusing the lactic and alactic systems"
+          ]
+        },
+        {
+          "name": "Discuss, with examples, in your own activity",
+          "where": "2026 (d) two ways technology can positively impact a performer (not swimming), (e) nutritional considerations after performance in a selected activity.",
+          "marks": 12,
+          "minutes": 7,
+          "see": "A named activity of your choice, then a 12-mark discussion with examples.",
+          "marked": "12 marks in bands: 10 to 12 for accurate, cohesive, concise discussion that makes a judgement and uses clear examples (two for technology; timing, nutrients and functions for nutrition); 7 to 9 for accurate but less cohesive; 4 to 6 for some links; 1 to 3 for limited (2026).",
+          "play": "Name your activity, then give two developed examples and a closing judgement. For nutrition cover timing (such as within 30 to 60 minutes), the nutrient (protein, carbohydrate, fluids) and its function (repair, glycogen replacement, rehydration).",
+          "traps": [
+            "No judgement, which stops you at 9 of 12",
+            "Using the sport the question rules out",
+            "General nutrition tips that do not fit the activity you named"
+          ]
+        }
+      ]
     },
     {
-      "id": "pe-section-c",
+      "id": "pe-sectionC",
       "name": "Section C – Long Questions",
       "marks": 120,
+      "minutes": 70,
       "color": "#3B82F6",
       "minutesPerQuestion": 23,
       "tips": {
-        "timing": "Allow about 70 minutes plus final checking time. Answer any three of Questions 14–18; each chosen question is worth 40 marks, giving roughly 23 minutes per question.",
-        "structure": "Choose questions only after reading all five. Answer every sub-part of each selected question, develop the required number of points with course detail, and apply examples to the named performer, activity or participation context.",
+        "timing": "About 70 minutes for three questions (23 minutes each; 40 marks is about 1.7 marks a minute). Spend about 3 minutes on part (a), 6 on (b) and 7 each on the 10 to 12 mark parts.",
+        "structure": "Each of Questions 14 to 18 has four parts that start with short recall (identify, define) and finish with a 10 to 12 mark discuss or compare. They cover a theme: 2026 was skill acquisition, participation and social factors, ethics and drugs, psychology and training, and media and the economy. Choose three whose long parts you can do, not three with easy part (a)s.",
         "reminders": [
-          "Answer three questions from Questions 14–18",
-          "Complete every sub-part of each selected 40-mark question",
-          "Plan longer responses briefly before writing",
-          "Use relevant examples and Physical Education terminology rather than generic statements",
-          "Reserve a few minutes to check question numbers, labels and unfinished parts"
+          "Mark how many marks sit in each part and divide your time to match: the last part is usually 12 marks, worth 30% of the question",
+          "Answer all four parts of a question. A blank 4-mark definition costs the same as a blank 12-mark part, per mark",
+          "Count 'identify four' or 'two examples': the number is in the scheme",
+          "Compare or discuss answers need a judgement or conclusion, not a list",
+          "Do not answer more than three questions: only your best three count and spare time is better spent improving them"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Identify and list parts",
+          "where": "Part (a) in most Section C questions: 2026 Q15(a) four benefits of physical activity, Q16(a) four statements for a code of ethics, Q18(a) two economic benefits.",
+          "marks": 4,
+          "minutes": 3,
+          "see": "A short numbered list in lines under the stem.",
+          "marked": "1 mark per correct item for four-item lists; 2026 Q16(a) split its marks between statements (2 for the first, then 1). Q18(a) is 3 marks each for two economic benefits outlined.",
+          "play": "List the full number asked in one line each. Where the part says 'outline', add one short reason.",
+          "traps": [
+            "Writing a benefit that is not an economic one when asked for economic",
+            "Repeating the same idea twice in different words",
+            "Statements for a code of ethics that are not written as statements of conduct"
+          ]
+        },
+        {
+          "name": "Define and name stages",
+          "where": "2026 Q14(a) define ability, (b) name and outline the stages of skill learning, Q17(a) define confidence and motivation; 2023 definitions of ability and periodisation.",
+          "marks": 9,
+          "minutes": 4,
+          "see": "A short definition or an ordered list of named stages with a line on each.",
+          "marked": "Definitions are 4 marks in bands (3 to 4 for clear and accurate, 1 to 2 for accurate). Naming and outlining the stages of skill learning was 9 marks: 8 to 9 for all stages named and clearly outlined, 5 to 7 for named and accurate, 3 to 4 for named with some attempt to outline, 1 to 2 for at least one stage named (2026).",
+          "play": "Give a one-line definition plus a short example. For stages, name each in order (cognitive, associative, autonomous) and give two or three features of each, such as performance level and amount of feedback needed.",
+          "traps": [
+            "Naming the stages out of order or missing one",
+            "Defining ability as skill, or the other way around",
+            "A definition with no link to physical education or performance"
+          ]
+        },
+        {
+          "name": "Identify and justify, or complete a table",
+          "where": "2026 Q14(c) three principles of effective practice with justification; Q16(b) a table of three sports supplements, their function and the performance effect; Q17(c) two principles of training.",
+          "marks": 12,
+          "minutes": 7,
+          "see": "A set of three items or a table with columns to fill in.",
+          "marked": "Each item has a split: principle 1 + 4 marks for the justification (Q14c); each supplement 1 mark name, 1 mark function, 2 marks performance effect (Q16b); Q17(c) 1 mark to name each principle and 4 marks each for how it leads to improvement.",
+          "play": "Fill every cell. Put your effort into the part with the most marks: the effect or the justification. Pick items you know well, and use a different one each time.",
+          "traps": [
+            "Naming the supplement or principle and leaving the 'why' blank",
+            "Using creatine when the question bans it",
+            "Justifying a principle with a generic statement ('it is important') rather than showing its effect on performance"
+          ]
+        },
+        {
+          "name": "Explain two with a link to participation, performance or society",
+          "where": "2026 Q15(b) hegemonic femininity and masculinity (5 + 5), (c) body image, Q15(d) two community supports, Q17(b) two psychological strategies, Q18(b) two characteristics of role models.",
+          "marks": 10,
+          "minutes": 6,
+          "see": "Two or three parts, each with its own marks and often a stem figure or statement.",
+          "marked": "Examples: Q15(d) is 1 mark to identify and up to 5 marks to explain how it helps, for each of two supports. Q15(b) each term is 4 to 5 for a clear explanation with an example, 1 to 3 for accurate. Q17(b) is 1 mark for the strategy and 3 to 4 for its impact.",
+          "play": "Use the 1 + 4 pattern: name, then explain with an example. A real example, such as a named programme or athlete, is what earns the top band.",
+          "traps": [
+            "An answer that defines the term but never links it to participation or performance",
+            "Naming only one of the two items",
+            "Explaining the same effect for both items"
+          ]
+        },
+        {
+          "name": "Describe or compare using figures",
+          "where": "2026 Q14(d) compare two images using aesthetic or artistic criteria (12 marks), Q18(c) the media and gender stereotyping of women in sport (12 marks, two examples), Q16(c) sportsmanship or gamesmanship (10 marks, two examples).",
+          "marks": 12,
+          "minutes": 7,
+          "see": "A figure or two images, plus a 10 to 12 mark question that asks you to describe or compare.",
+          "marked": "Banded: 10 to 12 for a clear and accurate description or comparison using clear examples and the criteria named, 7 to 9 for an appropriate comparison, 4 to 6 for accurate but narrow, 1 to 3 for limited (2026 Q14d and Q18c).",
+          "play": "Name the criteria (for example creativity, expression, flow, technical difficulty) and compare both images against each, not one after another. For 'two examples', say which part of your answer is example 1 and example 2.",
+          "traps": [
+            "Describing each image separately and never comparing",
+            "Using sport criteria such as speed or distance when the question wants aesthetic criteria",
+            "Only one example when two are required: top band is out of reach"
+          ]
+        },
+        {
+          "name": "Discuss to a judgement",
+          "where": "2026 Q16(d) implications of using performance-enhancing drugs for the performer; Q17(d) the extent to which reaction time, muscular endurance and power are needed in your activity; Q18(d) media coverage and mass participation events.",
+          "marks": 12,
+          "minutes": 7,
+          "see": "A 'discuss' or 'discuss the extent to which' statement, usually the last part, worth 10 to 12 marks.",
+          "marked": "12 marks in bands: 10 to 12 for accurate, cohesive and concise discussion that weighs up the statement; 7 to 9 for accurate but less cohesive; 4 to 6 for some effort; 1 to 3 for limited (2026 Q16d, Q17d, Q18d).",
+          "play": "Open with your position in one sentence (agree, partly agree, or the order of importance). Give 3 or 4 developed points and one counterpoint, and end with a conclusion that uses the question's own words.",
+          "traps": [
+            "A list of facts with no judgement about the statement",
+            "Covering only the positive or only the negative side of a 'discuss'",
+            "Skipping one of the three components in Q17(d): each needs a link to your chosen activity"
+          ]
+        }
+      ]
     }
   ]
 }
