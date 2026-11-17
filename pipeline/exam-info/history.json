@@ -1,0 +1,387 @@
+{
+  "subject": "history",
+  "totalMarks": 400,
+  "totalMinutes": 170,
+  "timingNote": "Higher Level: 2h 50m, 400 marks (80% of your grade). The other 20% is the Research Study Report (RSR), 100 marks, which you hand in before the exam. The paper is one compulsory documents-based question (100 marks) and three essays of 100 marks each, so every block of the paper is worth the same and deserves about the same time. This guide covers the Later Modern field (1815 to 1993). Every rule, mark split and trap below comes from the 2024 to 2026 Higher and Ordinary Level papers and the SEC's published marking schemes.",
+  "examDay": {
+    "task": "2:00 to 4:50 in the afternoon (the slot in 2024, 2025 and 2026). You write in an answer book. The question paper is yours to keep, and it holds the documents for Question 1 on facing pages and all the essay questions, topic by topic. Read the instructions on its front cover: they decide which questions you may pick.",
+    "facts": [
+      [
+        "The choice rule (HL)",
+        "Question 1 (documents, 100 marks) is compulsory, on one topic. That topic is left out of Sections 2 and 3. If it is Irish (2026): Section 2, one question from one topic; Section 3, one question from each of two topics. If it is European (2024, 2025): Section 2, one question from each of two topics; Section 3, one question from one topic. Alternative instructions: any three questions from any two topics across Sections 2 and 3, so two from one topic and one from another."
+      ],
+      [
+        "Same rules in 2027",
+        "The Department confirmed the adjustments in place since 2022 stay until each subject's new course arrives. History keeps its existing specification in 2027, so expect the same format as 2025 and 2026, with the two sets of instructions on the front cover. Which topic the documents are on is only known on the day."
+      ],
+      [
+        "How essays are marked",
+        "Each essay is 100 marks: up to 60 for content, marked paragraph by paragraph (12 marks at most each), and up to 40 for Overall Evaluation, which is how well the whole answer deals with the question set. Most questions have two parts; cover only one and your content marks are capped at 50."
+      ],
+      [
+        "Ordinary Level",
+        "Question 1 is 100 marks: comprehension 40 (five parts at 8), comparison 20, criticism 20, a 20-mark answer on the case study. Sections 2 and 3 are three topics, each 100 marks in three parts: A (30, five source questions), B (30, a short paragraph), C (40, a longer answer). One Irish and two European topics if the documents are Irish, two Irish and one European if they are European. The alternative lets you answer two topics plus an extra B and C and a separate Part A. The RSR needs two sources, not three."
+      ]
+    ],
+    "end": "4:50",
+    "timeline": [
+      {
+        "start": "2:00",
+        "minutes": 5,
+        "label": "Choose",
+        "color": "#C9C4BE",
+        "detail": "Read the front cover, then pick your three essay topics before you start writing."
+      },
+      {
+        "start": "2:05",
+        "minutes": 40,
+        "label": "Question 1 (documents)",
+        "color": "#F97316",
+        "detail": "Parts 1 to 3 are 60 marks from the documents; Question 4 is 40 marks from your own knowledge.",
+        "split": [
+          {
+            "label": "Q1 + reading",
+            "minutes": 8
+          },
+          {
+            "label": "Q2",
+            "minutes": 7
+          },
+          {
+            "label": "Q3",
+            "minutes": 7
+          },
+          {
+            "label": "Q4",
+            "minutes": 18
+          }
+        ]
+      },
+      {
+        "start": "2:45",
+        "minutes": 42,
+        "label": "Essay 1",
+        "color": "#57534E",
+        "detail": "Your strongest topic. Plan for 3 minutes, then write about 6 paragraphs.",
+        "split": [
+          {
+            "label": "Plan",
+            "minutes": 3
+          },
+          {
+            "label": "Write",
+            "minutes": 39
+          }
+        ]
+      },
+      {
+        "start": "3:27",
+        "minutes": 42,
+        "label": "Essay 2",
+        "color": "#8A847D",
+        "detail": "Same pattern. When the 42 minutes are up, stop and move on.",
+        "split": [
+          {
+            "label": "Plan",
+            "minutes": 3
+          },
+          {
+            "label": "Write",
+            "minutes": 39
+          }
+        ]
+      },
+      {
+        "start": "4:09",
+        "minutes": 41,
+        "label": "Essay 3",
+        "color": "#57534E",
+        "detail": "Never leave it blank: the first paragraphs of an essay score the most for the time.",
+        "split": [
+          {
+            "label": "Plan",
+            "minutes": 3
+          },
+          {
+            "label": "Write",
+            "minutes": 38
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hist-section1",
+      "name": "Section 1 – Documents-Based Question",
+      "marks": 100,
+      "minutes": 40,
+      "minutesPerQuestion": 40,
+      "color": "#F97316",
+      "tips": {
+        "timing": "About 40 minutes for 100 marks. Parts 1 to 3 are 60 marks and are answered straight from the two documents, so they go fast. Question 4 is 40 marks and is the only part that needs your own knowledge: give it about 18 minutes.",
+        "structure": "Higher Level: Question 1 comprehension (20, four parts at 5 marks), Question 2 comparison (20, two parts at 10), Question 3 criticism (20, two parts at 10), Question 4 contextualisation (40). The documents relate to one case study inside the topic (2026: The GAA to 1891; 2025: The Jarrow March; 2024: Stalin's show trials).",
+        "reminders": [
+          "Read both documents and their source lines (author, date, type of source) before writing anything. Questions 2 and 3 are won or lost on who wrote each document, when, and why",
+          "Each question names its document (\"according to document B\"). Answer from that document and nothing else",
+          "Question 4 is about the case study, not the documents. Use what you know and don't retell the documents",
+          "Write all four parts: they are marked separately and the first marks in each are the cheapest",
+          "Everything is answered in the answer book, in order: number your parts as the paper does"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Comprehension (Question 1)",
+          "where": "Question 1, every year. Four short parts, (a) to (d).",
+          "marks": 20,
+          "minutes": 6,
+          "see": "Short fact questions on the documents. 2026: why the writer travelled to Kilkenny (document A), what people were doing in secret (A), what would strike people about the hurlers' discipline (B), and one form of decoration in Charleville (B).",
+          "marked": "5 marks per part, awarded for the point in the document. 2026 answers: 'To see how conditions had improved since the foundation of the GAA'; 'Drinking alcohol/visiting the shebeen'; 'Dressed in club uniforms/marched two abreast/obeyed their captains'; 'Evergreens/flags'. At Ordinary Level there are five parts at 8 marks each (40 in all).",
+          "play": "Find the line, lift the fact, move on. A short phrase is enough. Some parts accept several answers (the 2026 part (c) listed three), so one clear point is all you need.",
+          "traps": [
+            "Pulling the answer from the wrong document: the question says which one",
+            "Adding your own knowledge or opinion, which the question did not ask for and which earns nothing here",
+            "Spending 5 minutes on 5 marks: this part should take about 6 minutes in total"
+          ]
+        },
+        {
+          "name": "Comparison (Question 2)",
+          "where": "Question 2, every year. Parts (a) and (b), both referring to both documents.",
+          "marks": 20,
+          "minutes": 7,
+          "see": "Compare what the two documents say on a theme. 2026: (a) the contrasting views of hurlers and hurling in A and B; (b) to what extent both writers were concerned about matters other than sport. 2025: to what extent both documents question the value of marching on London.",
+          "marked": "Each part is 10 marks, split 5 for each document on a sliding scale: excellent 5, very good 4, good 3, fair 2, weak 0 to 1. An answer that refers to only one document is capped at 5 out of 10. Ordinary Level: 5 + 5 per part, a point with a quote or explanation earns 5.",
+          "play": "Give each part two paragraphs, one per document, with a short quotation in each. Use a link phrase (\"whereas\", \"both\", \"more than\") so the examiner sees you comparing, not listing.",
+          "traps": [
+            "Writing about one document only: you lose half the marks, however good it is",
+            "General impressions (\"the writers disagree\") with no quotation or detail from either document",
+            "Missing the 'to what extent' wording: say how far they agree, don't just say they do"
+          ]
+        },
+        {
+          "name": "Criticism of sources (Question 3)",
+          "where": "Question 3, every year. Parts (a) and (b), each 10 marks.",
+          "marks": 20,
+          "minutes": 7,
+          "see": "Judge a source as evidence. 2026: (a) is document A an objective source; (b) in what ways is document B a useful source for the history of the GAA. 2025: (a) are the government's points convincing, using your knowledge of the Jarrow March; (b) the value of a newspaper editorial. 2024: why a diary entry is useful; the evidence that Maisky was a skilful propagandist.",
+          "marked": "Each part is marked on a sliding scale out of 10: excellent 9 to 10, very good 7 to 8, good 5 to 6, fair 3 to 4, weak 0 to 2. The 2026 scheme says a clear understanding of 'objective' is needed to reach the very good to excellent range. Both a yes and a no can score if reasoned from the document.",
+          "play": "Say yes, no or partly in your first line. Then use three tools on the source: who wrote it and what view they hold (bias), when it was written relative to the events (primary or secondary), and what facts it gives that can be checked. Quote the document for each point.",
+          "traps": [
+            "A bare opinion with no reference to the document, even though the question tells you to refer to it",
+            "Treating 'biased' as the same as 'useless': a biased source is still useful evidence of what that person thought",
+            "Not defining the key word (objective, reliable, propagandist) in your own words"
+          ]
+        },
+        {
+          "name": "Contextualisation essay (Question 4)",
+          "where": "Question 4, every year. A short essay on the wider topic or case study, 40 marks.",
+          "marks": 40,
+          "minutes": 18,
+          "see": "2026: 'What political problems faced the GAA during the years 1884 to 1891 and how successfully did it handle them?' 2025: 'Would you agree that the Jarrow March was a total failure? Argue your case.' 2024: 'What was the impact of Stalin's show trials on Soviet Russia?'",
+          "marked": "Marked paragraph by paragraph like an essay, but with smaller caps: Cumulative Mark (content) up to 24, Overall Evaluation up to 16 (excellent 14 to 16, very good 11 to 13, good 6 to 10, fair 4 to 5, weak 2 to 3, very weak 0 to 1). Paragraph bands are the same as the essays (up to 12 each), so about three strong paragraphs reach the content cap. The scheme tells examiners not to expect more than 40% of a long essay. Ordinary Level: 20 marks, four core statements at 5 marks each.",
+          "play": "Introduction of two lines that answers the question, then three developed paragraphs, each with names, dates and a fact, then a two-line conclusion that gives your verdict. Stay on the case study named in the question.",
+          "traps": [
+            "Retelling the documents instead of using your own knowledge",
+            "Ignoring the second half of the question (in 2026, 'how successfully'): that costs Overall Evaluation marks",
+            "Writing a full-length essay: marks stop at the cap, and the time is better spent on the next essay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-section2",
+      "name": "Section 2 – Ireland",
+      "marks": 150,
+      "marksRange": [
+        100,
+        200
+      ],
+      "minutes": 42,
+      "minutesPerQuestion": 42,
+      "color": "#D29A2E",
+      "tips": {
+        "timing": "About 42 minutes per essay, 100 marks each. One essay if the documents topic is Irish, two if it is European. Spend 3 minutes planning, then about 6 minutes a paragraph.",
+        "structure": "Six topics, four questions each. Topic 2 is left out whenever it is the documents topic (2026). Higher Level essays are marked out of 100: 60 for content, 40 for Overall Evaluation. Open by addressing the question, write about six paragraphs that each make one point backed by facts, and end with a conclusion that is not a repeat. Ordinary Level splits each topic into A, B and C.",
+        "reminders": [
+          "Every essay must be from a different topic, and none from the documents topic. Three questions from one topic is an invalid combination: the lowest-scoring invalid answer is deducted from your total",
+          "Read all four questions on a topic before choosing. Pick the one where you can name the most facts, not the one that sounds familiar",
+          "A paragraph is one point, one fact set: a name, date, figure or quotation. 'Mentions' score poorly, specifics score in the 8 to 12 range",
+          "Tick off each part of the question in your plan (for example 'government' and 'private') before you start writing",
+          "Once content marks reach the 60 cap, extra paragraphs score nothing: five or six strong paragraphs beat nine thin ones"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Two-part essay",
+          "where": "Most Irish questions, every year. In 2026 all four Topic 1 questions, plus Topic 3 Q2 and Q4, Topic 4 Q2, Topic 5 Q2 and Topic 6 Q2 and Q3.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "A question with two things to cover. 2026: 'How effective were government and private responses to the Famine?'; 'What was the Sunningdale Agreement, 1973, and why did the power-sharing executive collapse?'; 'How did Cumann na nGaedheal and Fianna Fáil contribute to the consolidation of democracy, 1923 to 1937?'",
+          "marked": "Each paragraph (or paragraph equivalent) is marked out of 12: excellent 11 to 12, very good 8 to 10, good 6 to 7, fair 3 to 5, poor 0 to 2 (trivial, irrelevant or grave errors). Paragraph marks add up to a Cumulative Mark (CM) capped at 60. The scheme lists the two parts (for Famine: government and private). Cover only one and the maximum content mark drops from 60 to 50, so the most you can score is 90. Overall Evaluation (OE) is out of 40: excellent 34 to 40, very good 28 to 33, good 22 to 27, fair 16 to 21, weak 10 to 15, very weak 0 to 9. It rewards analysis (more than narrative), evidence marshalled for your argument, and a case argued to a conclusion that answers the question as set.",
+          "play": "Name both parts in the introduction and give each its own paragraphs, roughly balanced. Finish with a conclusion that weighs one against the other (which was more effective, what caused the collapse most). That is where Overall Evaluation marks come from.",
+          "traps": [
+            "Covering one part in detail and mentioning the other: content capped at 50 unless both are genuinely covered",
+            "A conclusion that repeats the introduction: a summation that is mere repetition earns at most 4 marks",
+            "Writing everything you know on the topic: paragraphs that don't answer the question as set score low and pull the evaluation down",
+            "Describing events without judging them: 'how effective' and 'why' need a verdict"
+          ]
+        },
+        {
+          "name": "Single-theme essay",
+          "where": "Every year. In 2026: Topic 3 Q1 and Q3, Topic 4 Q1, Q3 and Q4, Topic 5 Q1, Q3 and Q4, Topic 6 Q1 and Q4.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "One theme or period. 2026: 'During the years 1840 to 1920, what challenges faced the Irish in Britain?'; 'What was the social and economic impact of the Troubles on Northern Ireland?'; 'How effectively did the Unionist Party in power respond to the challenges it faced, 1920 to 1939?'",
+          "marked": "Same bands as every essay: content up to 60 (12 per paragraph at most), Overall Evaluation up to 40. These questions carry no two-part cap in the scheme, but the question's date range and wording still set what counts as relevant.",
+          "play": "Turn the question into a short list of points (challenges: housing, work, religion, prejudice, and so on), one paragraph each, with a named fact per paragraph. Use the dates in the question to decide what to leave out.",
+          "traps": [
+            "Going outside the dates in the question (for example 1920 to 1939), which wastes time on irrelevant paragraphs",
+            "A list of events in time order with no link back to the question word: narrative scores low on evaluation"
+          ]
+        },
+        {
+          "name": "Personality and 'and/or' questions",
+          "where": "Every year, usually question 1 or 4 of a topic. 2026: Pearse and/or Markievicz; Jack Lynch and/or Charles Haughey; Gerry Adams; Boss Croker, Joe Kennedy or Paul O'Dwyer.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "'How important was the contribution of Patrick Pearse and/or Countess Markievicz to Irish affairs?' or 'What did you learn about the participation of the Irish diaspora in US affairs from your study of one or more of the following: Boss Croker; Joe Kennedy; Paul O'Dwyer?'",
+          "marked": "With 'and/or' or 'one or more of', the 2026 scheme gives the full 60 and 40 with no two-part cap, so one person can be enough. When a question says 'and' (2025: 'Mary Robinson and Sylvia Meehan'; 'Joe Kennedy and John F. Kennedy'), both people are required and covering one caps content at 50.",
+          "play": "Read whether it says 'and' or 'and/or'. If you may pick one, choose the person you can fill six paragraphs on, and build the paragraphs around their contribution, not their biography: what they did, the effect, how far it mattered.",
+          "traps": [
+            "Writing a life story: contribution questions reward effects and judgement, not birth and death dates",
+            "Leaving out the second person when the question says 'and' and not 'and/or'"
+          ]
+        },
+        {
+          "name": "Ordinary Level Part A (source questions)",
+          "where": "Section 2 and Section 3, every topic, every year. Part A of three. Recommended time 10 minutes.",
+          "marks": 30,
+          "minutes": 10,
+          "see": "A short stimulus (a newspaper or diary extract, a letter, a photograph description) and five questions. 2026 Topic 1: the opening of what event is described (the Synod of Thurles), who took part, what religious buildings are mentioned, what sounds were to be heard, and one decision of the Synod.",
+          "marked": "Five questions, usually 6 marks each. Two-part answers split 3 + 3 (for example 'London and one hour', or a date: '4th November (3m) 1956 (3m)'). The first four are taken from the extract. In 2026 Question 5 asked for one fact from your own knowledge ( one decision of the Synod; one achievement of Billy Graham).",
+          "play": "Answer in a short phrase using the words of the extract. For Question 5 give one clear fact in one sentence. This is the fastest 30 marks on the paper, so spend about 8 minutes, not 15.",
+          "traps": [
+            "Spending long writing full sentences where a phrase scores the same",
+            "Leaving Question 5 blank: it is the only one not in the extract, and it is worth the same 6 marks"
+          ]
+        },
+        {
+          "name": "Ordinary Level Part B (short paragraph)",
+          "where": "Section 2 and Section 3, every topic. Choose one of four headings. Recommended time 10 minutes.",
+          "marks": 30,
+          "minutes": 10,
+          "see": "'Write a short paragraph on one of the following: The Tithe War; William Carleton; Charles Kickham; Industrial development in Belfast' (2026 Topic 1).",
+          "marked": "By Core Statements: each completed statement (a fact, a valid explanation or comment, or an introductory or concluding point) is 5 marks. Up to 20 marks for statements (four), plus up to 10 for Overall Evaluation of how well the paragraph addresses the heading (excellent 9 to 10, very good 7 to 8, good 5 to 6, fair 3 to 4, poor 0 to 2). An unfinished statement at the end can earn 1 to 4.",
+          "play": "Write four separate facts about the heading, each a full sentence with a name, date or figure. Open with one line that says what or who it is. Choose the heading you can write four facts on, not the one you only half know.",
+          "traps": [
+            "Two facts with a lot of detail each: that scores two statements, not four",
+            "A paragraph that drifts from the heading: it loses Overall Evaluation"
+          ]
+        },
+        {
+          "name": "Ordinary Level Part C (longer answer)",
+          "where": "Section 2 and Section 3, every topic. Choose one of four questions. Recommended time 15 minutes.",
+          "marks": 40,
+          "minutes": 15,
+          "see": "2026 Topic 1: 'What were successes and failures in the career of Daniel O'Connell?'; 'During the period 1815 to 1870, what was the impact of emigration on Ireland?'",
+          "marked": "Core Statements again at 5 marks each: up to 30 marks for statements (six) plus up to 10 for Overall Evaluation. If the question names two things (successes and failures), cover both.",
+          "play": "Aim for six clear, separate statements. Link them to the question words (impact, success, importance) so the evaluation mark follows. A one-line conclusion counts as a statement if it adds a judgement.",
+          "traps": [
+            "Writing only four statements: that caps you at 20 out of 30 for content",
+            "Covering only one half of a two-part question (successes but no failures)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-section3",
+      "name": "Section 3 – Europe and the Wider World",
+      "marks": 150,
+      "marksRange": [
+        100,
+        200
+      ],
+      "minutes": 42,
+      "minutesPerQuestion": 42,
+      "color": "#2F6F73",
+      "tips": {
+        "timing": "About 42 minutes per essay, 100 marks each. Two essays if the documents topic is Irish, one if it is European. The Section 2 and Section 3 marking is identical.",
+        "structure": "Six topics, four questions each. Topic 3 was left out in 2024 and 2025 when it was the documents topic. Same marking as Section 2: 60 for content paragraph by paragraph, 40 for Overall Evaluation. European questions often cover a long period, so choose your points and be selective.",
+        "reminders": [
+          "Pick questions where you can name leaders, treaties, dates and figures precisely. Specifics are what move a paragraph from 6 to 10 or more",
+          "Questions often join two themes or two people. Plan for both before writing, or content is capped at 50",
+          "In 2025 one Topic 5 question also required reference to at least two European countries: look for conditions like that in the wording",
+          "If your two Section 3 essays are from different topics, that satisfies the rule. Never use two from one topic when the usual instructions are in force",
+          "Leave time for the third essay: a missing essay costs a whole 100 marks, a rushed paragraph costs a few"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Argue your case, comparing two",
+          "where": "One or two questions a year. 2026: Topic 2 Q1 and Topic 6 Q2.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "'Who had the more successful foreign policy, Otto von Bismarck or Kaiser Wilhelm II? Argue your case, referring to both.' and 'Which had the greater impact on the US, the Cold War in Europe or the Cold War in Asia? Argue your case, referring to both.'",
+          "marked": "Two parts on the scheme (Bismarck and Wilhelm II; Europe and Asia). Content is capped at 50 if only one is covered. Content paragraphs are marked up to 12 each (60 in all) and Overall Evaluation up to 40, which looks directly at the ability to argue a case and reach a conclusion.",
+          "play": "Decide your answer before you write. Introduction: state your verdict. Then alternate or group: three paragraphs for one side, three for the other, with a head-to-head comparison in the last one. Conclusion: restate the verdict with the single strongest reason.",
+          "traps": [
+            "Describing both sides and never choosing: Overall Evaluation rewards a case argued to a conclusion",
+            "Giving one side four paragraphs and the other a line: you are then really covering one"
+          ]
+        },
+        {
+          "name": "Development or cause essay",
+          "where": "Every topic, every year. In 2026: Topic 1 Q1, Q3 and Q4, Topic 5 Q2, and Topic 6 Q1 and Q3.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "'What factors contributed to the outbreak of revolutions in Europe in 1848?'; 'During the years 1815 to 1871, how did cultural nationalism develop in Europe?'; 'What developments took place in city planning with particular reference to Haussmann's Paris?'; 'To what extent did the US economy prosper during the years 1945 to 1989?'",
+          "marked": "Content up to 60 and Overall Evaluation up to 40, with the same paragraph bands as every essay. Where the scheme names two parts (for example 'meaning' plus 'how carried out' in the 2026 'Sovietisation of Eastern Europe' question), cover both or content is capped at 50.",
+          "play": "Use the date range as a skeleton: for 'developments', go in time order with a name or event per paragraph; for 'factors', one cause per paragraph, ranked. Say which factor mattered most. Keep to the countries named or implied.",
+          "traps": [
+            "Pure narrative: a long account of events with no link to causes or effects scores low on evaluation",
+            "Leaving out the key figures or dates that define the topic: an examiner can only credit what you write down"
+          ]
+        },
+        {
+          "name": "Two items or two themes",
+          "where": "Every year. In 2026: all four questions in Topic 3 and in Topic 4.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "'How did church-state relations develop under Mussolini and Hitler?'; 'What was the political and economic impact on Europe of Marshall Aid and the 1973 Oil Crisis?'; 'How effective a leader was Margaret Thatcher at home and abroad?'; 'What was the contribution of radio and cinema to popular culture, 1920 to 1945?'",
+          "marked": "The scheme names the two elements (for example Mussolini and Hitler; Marshall Aid and the Oil Crisis; at home and abroad; radio and cinema). If you cover only one, content is capped at 50. Content paragraphs and Overall Evaluation are marked on the usual bands.",
+          "play": "Split the essay evenly: two or three paragraphs per element, then a closing paragraph that compares them. If the question says 'and abroad' or 'at home', plan both before writing. Use the same sentence stems in each half so the examiner can see the balance.",
+          "traps": [
+            "Three paragraphs on one element and one on the other, with nothing linking them",
+            "Treating 'political and economic' as one idea: they are two parts and each needs its own facts"
+          ]
+        },
+        {
+          "name": "Case-study options ('two of the following')",
+          "where": "Topic 2 Q4 and Topic 5 Q4 in 2026, and similar questions in earlier years.",
+          "marks": 100,
+          "minutes": 42,
+          "see": "2026 Topic 2: 'From your study of women, 1871 to 1920, what was the importance of two of the following: Marie Curie; women in the workforce during World War I; Rosa Luxemburg?' 2026 Topic 5: the social and economic consequences of decolonisation 'from your study of one or more of' development workers in Africa, Julius Nyerere, or the Lomé Conventions.",
+          "marked": "The 'two of the following' question is on the scheme as two elements: only one means content is capped at 50. With 'one or more of', the scheme gives the full 60 and 40 with no cap. Content is paragraph by paragraph (12 at most each) and Overall Evaluation out of 40.",
+          "play": "Count what the question asks for before you choose. For 'two of', pick the two you can write three paragraphs each on, and finish with a comparison of their importance. For 'one or more of', a single well-known case studied in depth is a safe choice.",
+          "traps": [
+            "Writing on three options with a few lines each: depth on two beats breadth on three",
+            "Describing what happened without saying why it was important, which is what the question asks"
+          ]
+        },
+        {
+          "name": "Ordinary Level Parts A, B and C",
+          "where": "Section 3, every topic: same A (30), B (30), C (40) layout as Section 2. Two topics in this section under the usual instructions when the documents topic is Irish, one when it is European.",
+          "marks": 100,
+          "minutes": 35,
+          "see": "2026 Topic 4: Part A uses a journalist's account of the Soviet invasion of Budapest on 4 November 1956, with a final question on Imre Nagy. Topic 6: Part A uses Billy Graham's letter to Eisenhower; Part B includes 'Marilyn Monroe' and 'Muhammad Ali'.",
+          "marked": "Part A: five questions, usually 6 marks each (3 + 3 where a question asks for two things). Part B: Core Statements at 5 marks, content up to 20 plus Overall Evaluation up to 10. Part C: Core Statements at 5 marks, content up to 30 plus Overall Evaluation up to 10.",
+          "play": "About 10, 10 and 15 minutes: the paper's recommended times. Three topics at 35 minutes is 105 minutes, which leaves the rest of the 2h 50m for the documents question and checking.",
+          "traps": [
+            "Skipping Part A because it looks easy: it is 30 marks for the least writing on the whole paper",
+            "Spending 25 minutes on Part C and not finishing Part B"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ window.AAC_GUIDES = {
   "subject": "biology",
   "subjectTitle": "Biology",
   "title": "Biology in Practice Investigation",
+  "short": null,
   "weight": "40%",
   "marks": 200,
   "level": "Both levels",
@@ -274,6 +275,7 @@ window.AAC_GUIDES = {
   "subject": "chemistry",
   "subjectTitle": "Chemistry",
   "title": "Chemistry in Practice Investigation",
+  "short": null,
   "weight": "40%",
   "marks": 200,
   "level": "Both levels",
@@ -595,6 +597,7 @@ window.AAC_GUIDES = {
   "subject": "business",
   "subjectTitle": "Business",
   "title": "Business Alive Investigative Study",
+  "short": null,
   "weight": "40%",
   "marks": 200,
   "level": "Both levels",
@@ -946,6 +949,7 @@ window.AAC_GUIDES = {
   "subject": "geography",
   "subjectTitle": "Geography",
   "title": "Geographical Investigation",
+  "short": null,
   "weight": "20%",
   "marks": 100,
   "level": "Both levels",
@@ -1223,6 +1227,7 @@ window.AAC_GUIDES = {
   "subject": "history",
   "subjectTitle": "History",
   "title": "Research Study Report (RSR)",
+  "short": null,
   "weight": "20%",
   "marks": 100,
   "level": "Both levels",
@@ -1549,29 +1554,30 @@ window.AAC_GUIDES = {
  "pe": {
   "subject": "pe",
   "subjectTitle": "Physical Education",
-  "title": "PAP and Performance Assessment",
-  "weight": "50%",
-  "marks": null,
-  "level": "Common level",
-  "summary": "Physical Education has three parts: a 50% written exam, a 20% Physical Activity Project (PAP, Higher and Ordinary level) and a 30% Performance Assessment (common level). In the PAP you pick a competitive sport and a role (performer or coach/choreographer), analyse your performance, set goals, train, retest and reflect, then submit a word-limited PDF booklet with short MP4 videos. In the Performance Assessment you submit one video of yourself performing in one of your three studied activities, in a different activity area from the PAP.",
+  "title": "Physical Activity Project (PAP)",
+  "short": "PAP",
+  "weight": "20%",
+  "marks": 100,
+  "level": "Higher and Ordinary level",
+  "summary": "The PAP is 20% of Physical Education. Pick a competitive sport and a role, analyse your performance, set three goals with a training plan each, retest, and submit one 1,600-word PDF with three short videos.",
   "brief": {
-   "task": "There is no topic brief. Choose a competitive sport and a role for the Physical Activity Project, and an activity from a different area for the Performance Assessment.",
+   "task": "There is no topic brief. Choose a competitive sport with a Sport Ireland-affiliated governing body and a role (performer or coach/choreographer), in a different activity area from your Performance Assessment.",
    "facts": [
     [
      "PAP activity",
-     "A competitive sport with a Sport Ireland–affiliated governing body, as performer or coach/choreographer, over 8–10 weeks"
+     "A competitive sport with a Sport Ireland-affiliated governing body, as performer or coach/choreographer, over 8 to 10 weeks"
     ],
     [
      "PAP submission",
-     "A PDF booklet of 1,600 words at most, with short MP4 video clips"
+     "One PDF booklet of 1,600 words at most (Arial 12, 28 pages) and three MP4 videos totalling 4 minutes at most, one per section"
     ],
     [
-     "Performance Assessment",
-     "One video of you performing one of your three studied activities, in a different area from your PAP"
+     "Marks",
+     "Section A 25, Section B 45 (three goals), Section C 20, overall coherence 10"
     ],
     [
      "Due",
-     "PAP mid-December 2026; video late March 2027 (exact dates TBC by the SEC)"
+     "PAP mid-December 2026 (2026 cycle: 12 December); exact date to be set by the SEC"
     ]
    ],
    "source": {
@@ -1581,12 +1587,13 @@ window.AAC_GUIDES = {
   },
   "stages": [
    {
-    "name": "PAP Section A – Choose and analyse",
-    "marks": null,
-    "marksNote": "~700 words",
+    "name": "Choose and analyse (Section A)",
+    "marks": 25,
+    "marksNote": "Section A, about 700 words",
     "checklist": [
-     "Pick a competitive sport with a Sport Ireland–affiliated governing body and a role, in a different activity area from your Performance Assessment, and get your teacher to confirm both.",
-     "Test every component that matters in your sport, compare your results with referenced normative data, and interpret what they mean for your performance."
+     "Pick a competitive sport with a Sport Ireland-affiliated governing body and a role, in a different activity area from your Performance Assessment, and get your teacher to confirm both.",
+     "Test every area that matters in your sport, present the data in detail and compare it with referenced normative data.",
+     "Interpret what each result means for your performance, linking to your sport and to theory."
     ],
     "guide": [
      {
@@ -1655,185 +1662,159 @@ window.AAC_GUIDES = {
        "Short snippets of each test (10-20 seconds) are enough; Studyclix suggests about a minute in total.",
        "No slides of text, images or audio reflections as part of videos, and no video collages except a two-video side-by-side skill comparison (OIDE, 2025 booklet)."
       ]
-     }
-    ]
-   },
-   {
-    "name": "PAP Section B – Goals and training",
-    "marks": null,
-    "marksNote": "~400–450 words",
-    "checklist": [
-     "Set SMART goals (baseline, target, deadline), as many as your SEC booklet asks for, each drawn from your Section A data.",
-     "Write one followable training plan per goal, justified by the principles of training, and film yourself really doing it."
-    ],
-    "guide": [
-     {
-      "h": "Goals",
-      "points": [
-       "Set distinct goals, one per area (skill and technique, psychological, physiological, performance-related fitness, health-related fitness, biomechanical, structures/strategies, roles and relationships, diet and nutrition). Agility and coordination are both performance-related fitness, so only one of them counts.",
-       "The official 2019 guidelines say four goals; the 2025/26 teacher guidance found says three - confirm with your SEC booklet (see conflicts).",
-       "Every goal must come from evidence in Section A.",
-       "Write each goal as SMART (specific, measurable, achievable, relevant/realistic, time-bound), with a baseline, a target, a time frame and the test used. Example from OIDE: 20m shuttle run from 9.4 to 10.2 shuttles over five weeks."
-      ]
      },
      {
-      "h": "Rationale and plan",
+      "h": "What the marking scheme rewards",
       "points": [
-       "Give a short rationale for each goal linked to the Section A result.",
-       "Write a separate training plan per goal in the booklet's table, usually 4-6 weeks (Studyclix), so someone else could follow it.",
-       "Justify methods with principles of training and theory.",
-       "Bring in a distinct approach per goal rather than three similar fitness plans."
-      ]
-     },
-     {
-      "h": "Evidence of implementation",
-      "points": [
-       "Film real engagement in your plans; at least two samples of the same exercise at different points show progress.",
-       "Section B video must show authentic engagement, not staged clips.",
-       "Keep a note of each session and what you changed, because Section C asks how you responded to challenges."
+       "Excellent (22 to 25) needs a wide selection of tests or methods, relevant data presented in detail, analysis across a wide variety of factors affecting performance, and clear links to the chosen activity and to theory.",
+       "Very good (17 to 21) analyses a range of data from a variety of areas, in some detail. Good (12 to 16) covers key performance areas with some links. Below 12 means limited tools and little interpretation.",
+       "Examiners are told not to penalise skilful brevity or reward unwarranted length, so concise and accurate beats long."
       ]
      }
     ]
    },
    {
-    "name": "PAP Section C – Retest and conclude",
-    "marks": null,
-    "marksNote": "~450–500 words",
+    "name": "Goals and training (Section B)",
+    "marks": 45,
+    "marksNote": "Section B, about 450 words",
     "checklist": [
-     "Retest everything from Section A and state for each goal whether you achieved it, with numbers and a reason.",
-     "Evaluate each plan, including unintended outcomes, and give realistic next steps.",
-     "Link Sections A, B and C, stay within 1,600 words in Arial 12 and the video limits, reference every source, print-check the PDF and sign Form P.2."
+     "Set three distinct SMART goals from different areas, each drawn from your Section A data.",
+     "Write one individualised training plan per goal in a table, applying a wide range of principles of training.",
+     "Give each goal a rationale linked to theory and a reflection based on really doing the training, and film that training."
     ],
     "guide": [
      {
-      "h": "Retesting",
+      "h": "Goals (3 x 4 marks)",
       "points": [
-       "Repeat all Section A tests, not only those tied to your goals, under the same conditions.",
-       "Reuse the Section A table so comparisons are direct, referring back to the same figures."
+       "Set three distinct goals, each based on your Section A analysis and the demands of your activity. Two goals from the same area (agility and coordination are both performance-related fitness) do not count as distinct.",
+       "Top marks (4) need a clear, concise goal that is appropriate, measurable and time related, grounded in theory and your initial analysis.",
+       "Write each as SMART with a baseline, a target, a time frame and the test used. Example from OIDE: 20 m shuttle run from 9.4 to 10.2 shuttles over five weeks."
       ]
      },
      {
-      "h": "Analysis",
+      "h": "Training or practice plans (3 x 7 marks)",
       "points": [
-       "State for each goal whether it was achieved, with the numbers, and why or why not.",
-       "Discuss unintended outcomes: improvements or changes in other tests caused by your training.",
-       "Evaluate the strengths and weaknesses of each plan and how you responded to challenges.",
-       "Give realistic next steps for each goal.",
-       "Link back to theory; the top descriptor needs an in-depth understanding of the factors affecting performance."
+       "Each of the three plans is marked separately. A 7 needs a clear, well developed, individualised plan in table format that applies a wide range of theoretical principles, links to your analysis and goal, and uses activities relevant to your sport.",
+       "Insert the table as an image (the scheme lists tabulated plans inserted as an image), within the 8-image limit for Section B.",
+       "Use a different approach per goal rather than three similar fitness plans."
       ]
      },
      {
-      "h": "Video",
+      "h": "Rationale and reflection (3 x 2 + 3 x 2 marks)",
       "points": [
-       "Show a short clip of each retest and engagement in the activity, complementing rather than repeating the text.",
-       "Total of all three videos is capped at 4 minutes (OIDE, 2025 booklet)."
+       "The rationale (2 marks) links the plan to relevant theory and to your activity. A weak rationale scores 1.",
+       "The reflection (2 marks) is on the goal, based on actually doing the training. A reflection that says what you did and noticed scores 2.",
+       "Keep a note of each session and what you changed, so the reflection is specific."
       ]
      },
      {
-      "h": "Booklet rules (2025 booklet, via OIDE)",
+      "h": "Video for Section B",
       "points": [
-       "Total 1,600 words across Sections A to C, excluding references and bibliography; OIDE lists about 700/450/450, Studyclix and PEAI about 700/400/500.",
-       "Arial 12; bullets, bold and italics allowed.",
-       "The booklet must be a PDF before submission; schools upload four files: PDF, Section A MP4, Section B MP4, Section C MP4.",
-       "Videos total a maximum of 4 minutes combined, in MP4.",
-       "Use brackets for in-text sources, e.g. (topendsports.com), and put full details in the bibliography so links do not cost words.",
-       "Each candidate submits a separate, distinct PAP, even when working with classmates."
-      ]
-     },
-     {
-      "h": "Coherence",
-      "points": [
-       "Section B must build on A, and C on A and B.",
-       "Videos should add clarity and support the text in all three sections.",
-       "Avoid repetition and waffle.",
-       "Proofread the printed PDF: anything not visible cannot earn marks.",
-       "You sign a P.2 form confirming that the printed PDF matches the submitted version."
+       "Film real engagement in your plans, at least two samples of the same exercise at different points, to show progress.",
+       "Videos must be real time, with no images or text slides, and the three videos together must be 4 minutes at most."
       ]
      }
     ]
    },
    {
-    "name": "Performance Assessment – Your video",
-    "marks": null,
-    "marksNote": "30% of PE",
+    "name": "Retest and conclude (Section C)",
+    "marks": 20,
+    "marksNote": "Section C, about 450 words",
     "checklist": [
-     "Choose an activity from a different area to your PAP and plan to show it in more than one context, such as drills and a game.",
-     "Film in class under supervision, clearly identifiable, showing a wide range of skills, tactics, rules and safe practice within the SEC length limit, as an MP4."
+     "Retest everything from Section A under the same conditions and state for each goal whether you achieved it, with numbers and a reason.",
+     "Reflect on the effect of the training, including unintended outcomes, and give realistic next steps."
     ],
     "guide": [
      {
-      "h": "Choosing",
+      "h": "Retesting and analysis (10 marks)",
       "points": [
-       "Pick one of the three activities you studied, agreed with your teacher; it must be from a different activity area to your PAP.",
-       "Your teacher notifies the SEC of the activity in September of sixth year.",
-       "Options: Games, Aquatics, Adventure activities, Athletics, Artistic and aesthetic movement, or Personal exercise and fitness (NCCA noted a proposal to remove this last option for the new specification only)."
+       "Repeat the Section A tests under the same conditions and reuse the same table so the comparison is direct.",
+       "Top marks need a thorough, relevant post-training analysis tied to your initial analysis and goals, with broad theoretical links.",
+       "State for each goal whether you achieved it, with the numbers, and why or why not."
       ]
      },
      {
-      "h": "What the video must show, by scenario",
+      "h": "Reflection and next steps (5 + 5 marks)",
       "points": [
-       "Games, Aquatics, Adventure, Athletics: skills and techniques from the specification, tactics and/or strategies, and awareness of safety, equipment and rules, in a mix of contexts such as fully competitive, conditioned practices, individual and group.",
-       "Artistic and aesthetic: imaginative combinations of skills (gymnastics) or movements (dance), compositional/choreographic design including props or costume, creativity, and safety, in two of individual, pair, group.",
-       "Personal exercise and fitness: a personal programme to improve either performance-related or health-related fitness, with one aerobic method and one conditioning/resistance method, each applying principles of training, training zones, thresholds, work-recovery intervals and warm-up/cool-down.",
-       "In every case you introduce the video by stating the performance characteristics you want examiners to notice."
+       "Reflect accurately on the effects of the training and refer to performance.",
+       "Give next steps that follow from your results. A limited or missing reference to improving further scores 2 of 5.",
+       "Discuss unintended outcomes, such as changes in tests you did not target, and how you responded to challenges."
       ]
      },
      {
-      "h": "Filming",
+      "h": "Video for Section C",
       "points": [
-       "Filming is done in PE class under teacher supervision between January and March of sixth year, about 10 hours of work.",
-       "Capture, editing and publishing are done in school under teacher monitoring for authentication.",
-       "Be clearly identifiable in group play, for example with a bib.",
-       "You should be the main, clearly visible subject; keep other people on camera to a minimum.",
-       "Upload footage to the school's secure storage quickly and delete it from the device after backup."
+       "Show a short clip of each retest and engagement in the activity, adding to the text rather than repeating it.",
+       "Total of all three videos is capped at 4 minutes."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Format and submit",
+    "marks": 10,
+    "marksNote": "Overall coherence",
+    "checklist": [
+     "Link Sections A, B and C, and make the three videos support the text in each section.",
+     "Stay inside every limit: 1,600 words, 16 images (4, 8 and 4), 4 minutes of video, no collages or text in video.",
+     "Reference every source, proofread the printed PDF and sign Form P.2."
+    ],
+    "guide": [
+     {
+      "h": "Overall coherence (10 marks)",
+      "points": [
+       "Not a separate section: the 10 marks reward a project with clear quality, communication and links to theory throughout.",
+       "Top marks need videos that add clarity and value and support the text in all three sections. Videos that support two sections score 6, one section 4.",
+       "Section B must build on A and C on A and B. Avoid repetition."
       ]
      },
      {
-      "h": "Format",
+      "h": "Booklet restrictions (2026 SEC marking scheme)",
       "points": [
-       "One MP4 video is submitted (file named with year, subject code 225, component 3 and your exam number).",
-       "A teacher guide (Folens/ABC) and an OIDE slide give a maximum of 8 minutes and up to 6 text frames, with material beyond that not marked; this is secondary, so verify against the SEC brief."
+       "Word count 1,600 across A to C, excluding references; Arial 12; at most 28 pages; page 7 of the booklet must be completed.",
+       "Maximum 16 images in total: 4 in Section A, 8 in Section B and 4 in Section C. No image collages.",
+       "Videos: three required (one per section), at most 4 minutes in total, at most 1 GB, recorded in real time, no images, no excessive text in images or video, no video collages (a side-by-side comparison of skill and technique is allowed).",
+       "Marks are capped if you break the rules: no videos 2, one video 4, two videos 6; a non-compliant activity 2; one restriction infringement 8, two 6, three or more 4."
       ]
      },
      {
-      "h": "Top-band descriptors",
+      "h": "Submission",
       "points": [
-       "Games: wide range of skills, using both dominant and non-dominant sides, success under pressure, creativity in different contexts, tactical knowledge, rules and safety.",
-       "Aquatics, Adventure, Athletics: very high accuracy, control and fluency, success under pressure or in challenging situations, strong tactical knowledge/decision-making, comprehensive rules and safety.",
-       "Artistic: extensive repertoire, proficiency and fluency, creativity, prominent compositional knowledge, safety."
+       "Schools upload four files: the PDF and the three MP4s, named to the SEC convention (for example 2026-225-A-EV-334567.mp4).",
+       "Sign P.2 to confirm the printed PDF matches the submitted version.",
+       "Proofread the printed PDF: anything not visible cannot earn marks."
       ]
      },
      {
       "h": "Rules you can't break",
       "points": [
-       "The PAP must be in a competitive sport with a Sport Ireland-affiliated NGB.",
-       "PAP and Performance Assessment activities must be in different physical activity areas.",
-       "The PAP is your own work, completed in PE class under teacher supervision; you may train with peers but must submit individual reports based on your own goals.",
+       "The PAP must be in a competitive sport with a Sport Ireland-affiliated national governing body.",
+       "The PAP and the Performance Assessment must be in different physical activity areas.",
+       "The PAP is your own work, done in PE class under teacher supervision; you may train with peers but submit your own report and goals.",
        "Editing and publishing of videos is done in school under teacher monitoring.",
-       "Booklet limit of 1,600 words excluding references; Arial 12; PDF format.",
-       "PAP videos total no more than 4 minutes, MP4, with no text slides, audio reflections or collages (side-by-side skill comparison allowed).",
-       "Images must not carry additional text.",
+       "Booklet limit of 1,600 words excluding references, Arial 12, at most 28 pages, PDF format.",
+       "Three MP4 videos (one per section), 4 minutes in total, real time, no images in video, no collages (side-by-side skill comparison allowed).",
+       "At most 16 images: 4 in Section A, 8 in Section B, 4 in Section C.",
        "Anyone filmed has signed consent; out-of-school filming needs a teacher and a club representative present.",
        "Filenames must follow the SEC naming convention or the Schools Portal rejects them.",
        "You sign P.2 confirming the printed PDF matches the submission.",
-       "Missing a deadline needs an SEC-approved extension; the portal re-opens only for those cases."
+       "Missing a deadline needs an SEC-approved extension."
       ]
      },
      {
       "h": "Mistakes that cost marks",
       "points": [
-       "Choosing a PAP activity in the same activity area as the Performance Assessment.",
-       "Choosing a sport that is not a competitive sport with an affiliated NGB.",
-       "Doing a single skill or exercise instead of the activity as a whole.",
-       "Goals from the same area (e.g. agility and coordination both performance-related fitness).",
-       "Goals without Section A evidence behind them.",
+       "Choosing a PAP activity in the same activity area as the Performance Assessment (or a non-competitive or unaffiliated sport): the mark is capped at 2.",
+       "Submitting fewer than three videos: the mark is capped at 6 with two, 4 with one and 2 with none.",
+       "Breaking a restriction (word count, image or video limits, collages, text in images): each infringement lowers the cap.",
+       "Goals from the same area (agility and coordination are both performance-related fitness).",
+       "Goals that do not come from Section A evidence.",
        "Describing results instead of interpreting them.",
-       "Normative data without a source.",
+       "Normative data with no source.",
        "Retesting only the goal-related tests in Section C.",
        "Ignoring unintended outcomes.",
-       "Putting text in images or video slides, or leaving audio on without need (Studyclix says videos with sound lose marks - unverified).",
-       "Going over the word or video limits, or not proofreading the printed PDF.",
-       "Filming without being identifiable in group play for the Performance Assessment."
+       "Plan tables that are not individualised, or three similar plans for three goals.",
+       "Not proofreading the printed PDF."
       ]
      }
     ]
@@ -1841,40 +1822,338 @@ window.AAC_GUIDES = {
   ],
   "sources": [
    {
-    "label": "NCCA/SEC — LCPE Guidelines for the Physical Activity Project (PAP), January 2019",
+    "label": "SEC - Leaving Certificate 2026 Physical Education Higher Level marking scheme (examinations.ie exam materials)",
+    "url": "https://www.examinations.ie/exammaterials/"
+   },
+   {
+    "label": "NCCA/SEC - LCPE Guidelines for the Physical Activity Project (PAP), January 2019",
     "url": "https://www.curriculumonline.ie/getmedia/7d5c8744-583f-4f9d-aa37-b808c93ce653/LCPE_AssessmentGuidelines_PAP_EN.pdf"
    },
    {
-    "label": "NCCA — LCPE Guidelines for the Performance Assessment, November 2018",
-    "url": "https://www.curriculumonline.ie/getmedia/26801e8b-f491-4a98-9254-d6025cf1ab2d/LCPE_AssessmentGuidelines_PA_EN.pdf"
-   },
-   {
-    "label": "SEC — Circular S57/25, Upload of Coursework 2026 (via scoilpol.ie)",
+    "label": "SEC - Circular S57/25, Upload of Coursework 2026 (via scoilpol.ie)",
     "url": "https://scoilpol.ie/Downloads/Examinations/Coursework_Information_2026.pdf"
    },
    {
-    "label": "Oide — LCPE Phase 5 Day 4 (PAP Digital Booklet 2025 summary)",
+    "label": "Oide - LCPE Phase 5 Day 4 (PAP booklet 2025 summary)",
     "url": "https://oide.ie/wp-content/uploads/2024/10/LCPE-Phase-5-Day-4.pdf"
    },
    {
-    "label": "PEAI — PAP: A Teacher's Perspective (Paul Gallagher)",
-    "url": "https://www.peai.org/wp-content/uploads/2022/10/PEAI-PAP-Presentation-2022PG.pdf"
-   },
-   {
-    "label": "Studyclix — How to get an H1 in the Leaving Cert PE PAP (Karen Lynch)",
-    "url": "https://studyclixsaielive.blob.core.windows.net/cms/media/kfwhizts/leaving-cert-pe-pap-guide.pdf"
-   },
-   {
-    "label": "PEAI — LCPE resources page",
+    "label": "PEAI - LCPE resources page",
     "url": "https://www.peai.org/resources/lcpe/"
    },
    {
-    "label": "Oide — SEC Webinar 27/04/26",
+    "label": "Oide - SEC Webinar 27/04/26",
+    "url": "https://oide.ie/wp-content/uploads/2023/09/SEC-Webinar-COMPLETED-Final-27_04_26.pdf"
+   }
+  ]
+ },
+ "pe-performance": {
+  "subject": "pe",
+  "subjectTitle": "Physical Education",
+  "title": "Performance Assessment",
+  "short": "Performance",
+  "weight": "30%",
+  "marks": 150,
+  "level": "Common level",
+  "summary": "The Performance Assessment is 30% of Physical Education, marked out of 150. You submit one video of up to 8 minutes of your best performance in one of your three studied activities, in a different area from your PAP.",
+  "brief": {
+   "task": "There is no topic brief. Choose one of your three studied activities, in a different physical activity area from your Physical Activity Project, and record your best performance in class between January and March.",
+   "facts": [
+    [
+     "Activity",
+     "One of your three studied activities, in a different area from the PAP"
+    ],
+    [
+     "Video",
+     "One MP4 of 8 minutes at most, a single best performance, with two mandatory text slides and up to four optional ones"
+    ],
+    [
+     "Marks",
+     "Skill and technique 80, tactics 20, rules 10, safe practice 10, overall performance 30 (150 in total)"
+    ],
+    [
+     "Due",
+     "Late March 2027 (2026 cycle: 23 March); exact date to be set by the SEC"
+    ]
+   ],
+   "source": {
+    "label": "NCCA guidelines for the Performance Assessment",
+    "url": "https://www.curriculumonline.ie/getmedia/26801e8b-f491-4a98-9254-d6025cf1ab2d/LCPE_AssessmentGuidelines_PA_EN.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Choose your activity",
+    "marks": null,
+    "marksNote": "Agreed with your teacher",
+    "checklist": [
+     "Pick an activity from a different area to your PAP and agree it with your teacher.",
+     "Plan to show it in more than one context, such as a conditioned practice and a full game, and check the specification's list of skills."
+    ],
+    "guide": [
+     {
+      "h": "Picking the activity",
+      "points": [
+       "You and your PE teacher agree one of the three activities you are studying; the video is made in that one.",
+       "It must be in a different physical activity area from your Physical Activity Project.",
+       "The areas are Games, Aquatics, Adventure activities, Athletics, Artistic and aesthetic movement, and Personal exercise and fitness. Your teacher tells the SEC your activity in September of sixth year.",
+       "The activity needs listed skills and techniques in the specification (pp. 34 to 45), because the marking is against that list.",
+       "The PAP guide advises thinking about which of your sports you want graded on skill and saving it for this component."
+      ]
+     },
+     {
+      "h": "Know the scenario you are in",
+      "points": [
+       "Games, Aquatics, Adventure and Athletics: skills and techniques, tactics and strategies, and safety, rules and codes, shown in a mix of contexts such as fully competitive, conditioned practices, individual and group.",
+       "Artistic and aesthetic (gymnastics or dance): imaginative combinations of skills or movements in the style of the event, composition or choreography (props and costume where suitable), creativity and safety, in two of individual, pair and group. Dance needs a solo and a pair or group dance.",
+       "Personal exercise and fitness: a programme to improve performance-related or health-related fitness, with one aerobic method and one conditioning or resistance method, plus warm-up, progressions and adaptations, and cool-down. Swimming needs two different strokes."
+      ]
+     },
+     {
+      "h": "Plan",
+      "points": [
+       "Decide with your teacher which contexts will show your best performance (a conditioned game and a full match, for example).",
+       "Check the specification's list of skills for your activity: leaving out 3 or more listed skills caps the overall mark at 12 of 30."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Prepare and practise",
+    "marks": null,
+    "marksNote": "Fifth and sixth year",
+    "checklist": [
+     "Practise every listed skill so you can show a wide variety, on both sides where the activity allows.",
+     "Rehearse under pressure and learn the rules, tactics and safety procedures of your activity."
+    ],
+    "guide": [
+     {
+      "h": "Build the repertoire",
+      "points": [
+       "Practise every skill or technique the specification lists for your activity, not only your favourites. Leaving out 1 or 2 is not permitted.",
+       "Practise the dominant and non-dominant side where the activity uses both, and the full range of skills so you can show a wide variety.",
+       "Athletics field events need 3 attempts; running events need a stated time and distance on the slide."
+      ]
+     },
+     {
+      "h": "Practise under pressure",
+      "points": [
+       "Rehearse in conditioned and competitive practices, because 'stable under pressure' is worth 15 marks and decision making is worth 10.",
+       "Practise adjusting a skill to the situation (a pass under pressure, a change of stroke rhythm) and use the same movement pattern repeatedly so accuracy and consistency hold up.",
+       "Work on control and fluency: smooth, unbroken movement that is free flowing."
+      ]
+     },
+     {
+      "h": "Tactics, rules and safety",
+      "points": [
+       "Learn the rules, regulations and codes of practice and show you follow them throughout.",
+       "Know the tactics or strategies, compositional elements or training considerations that apply and use them when they help the performance.",
+       "Practise warm-up and cool-down, safe use of equipment and attire, and the safety procedures of the activity: these are marked in 10 marks for safe practice."
+      ]
+     },
+     {
+      "h": "Rehearse the filming",
+      "points": [
+       "Do a test recording in class with the camera angle and a bib or distinguishing clothing so you can be identified throughout.",
+       "Draft the introductory slide and identification slide before you film, so you know what to show."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Skill and technique",
+    "marks": 80,
+    "marksNote": "80 marks",
+    "checklist": [
+     "Show accurate, consistent skills that hold up over repetitions.",
+     "Perform with control and fluency, and keep your technique stable under pressure."
+    ],
+    "guide": [
+     {
+      "h": "Capacity to select and apply skills (15 marks)",
+      "points": [
+       "Excellent (13 to 15): you pick the most appropriate skill for every context, with creativity in challenging situations and adjustments where needed.",
+       "Good (8 to 12): skills relevant to the context. Fair (1 to 7): skills mostly suitable.",
+       "All three bands need a variety (wide for excellent) of the skills prescribed in the specification."
+      ]
+     },
+     {
+      "h": "Accuracy and consistency (25 marks)",
+      "points": [
+       "Excellent (20 to 25): accurate movement patterns, maintained across repetitions and over time.",
+       "Good (11 to 19): mostly accurate and fairly consistent. Fair (1 to 10): limited accuracy in some skills.",
+       "Show more than one repetition of each skill if time allows, so the examiner sees consistency."
+      ]
+     },
+     {
+      "h": "Control and fluency (25 marks)",
+      "points": [
+       "Excellent (20 to 25): excellent control and unbroken, free-flowing movement that is adjusted where necessary.",
+       "Good (11 to 19): control and fluency evident, with some tension or loss of coordination. Fair (1 to 10): jerky or uncoordinated in some skills."
+      ]
+     },
+     {
+      "h": "Stable under pressure (15 marks)",
+      "points": [
+       "Excellent (13 to 15): the movement pattern stays stable under pressure and in competitive contexts, and you alter it immediately before or during a skill when pressured.",
+       "Good (8 to 12): stable under pressure. Fair (1 to 7): limited stability.",
+       "This is why a competitive or conditioned context must be in the video: a performance with no pressure cannot earn this mark."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Tactics, rules and safety",
+    "marks": 40,
+    "marksNote": "40 marks",
+    "checklist": [
+     "Use tactics, strategies or composition that clearly help the performance, and show every required element.",
+     "Follow every rule and code and show a warm-up, a cool-down and safe use of equipment and attire."
+    ],
+    "guide": [
+     {
+      "h": "Principles of play and conventions (10 marks)",
+      "points": [
+       "Excellent (10): clear evidence of excellent understanding and application of the principles of play and conventions of the activity; good (7); fair (4).",
+       "If one required element is missing (for example one stroke, or a warm-up in personal exercise and fitness) the mark is capped at 7; two or more missing caps it at 4."
+      ]
+     },
+     {
+      "h": "Tactics, strategy, compositional elements (10 marks)",
+      "points": [
+       "Excellent (10): excellent decision making, with tactics, strategies or composition that help the performance in challenging circumstances, and no sign of lacking awareness.",
+       "In dance, composition and use of props or costume count; in personal exercise and fitness, the training considerations count.",
+       "The same caps apply: one element missing is a maximum of 7, two or more 4."
+      ]
+     },
+     {
+      "h": "Rules, regulations and codes (10 marks)",
+      "points": [
+       "Excellent (10): all rules, regulations and codes adhered to across every aspect; good (7): generally adhered to; fair (4): limited adherence.",
+       "Show the rules working: a correct throw-in, a legal turn, the code of conduct in your activity."
+      ]
+     },
+     {
+      "h": "Safe practice (10 marks)",
+      "points": [
+       "Excellent (10): excellent evidence of safe practice throughout, with an appropriate warm-up and cool-down, safety procedures complied with, and safe use of equipment, attire and facilities.",
+       "Good (7): appropriate warm-up and cool-down, safe use. Fair (4): safe practice evident."
+      ]
+     },
+     {
+      "h": "What this means in practice",
+      "points": [
+       "Only what the examiner can see earns marks. If it is not visible and clear in the video, it is not awarded."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Overall performance, film and submit",
+    "marks": 30,
+    "marksNote": "30 marks",
+    "checklist": [
+     "Show confident, consistent performance in a range of contexts, in complete form within 8 minutes.",
+     "Meet every video rule: be identifiable throughout, no speed changes, collages, music or extra text, and a correct introductory slide.",
+     "Name the MP4 to the SEC convention and check the late-March 2027 date."
+    ],
+    "guide": [
+     {
+      "h": "Overall performance (30 marks)",
+      "points": [
+       "Excellent (25 to 30): confidence and competence in all requirements, excellent consistency, all skills shown in challenging or competitive situations, and clear and detailed evidence of performance in a range of contexts. The performance is shown in complete form where time allows.",
+       "Good (13 to 24): competence in the chosen activity, consistent in most aspects. Fair (1 to 12): some competence, somewhat consistent, limited evidence in the right contexts.",
+       "Caps: three or more listed skills missing, or one element missing (a stroke, a dance, a fitness element, an athletics attempt), is a maximum of 12."
+      ]
+     },
+     {
+      "h": "Filming and video file rules",
+      "points": [
+       "Video must be 8 minutes at most, MP4, with a single best performance (full and unedited where it fits in 8 minutes), no change in the speed of the video, no collages and no photos except one identification photo.",
+       "Slides: two mandatory slides (introductory and identification) and at most four optional text slides. No other text, subtitles, voiceover or music. Sound recordings or music are allowed only where the activity requires it (some dance and gymnastics).",
+       "Text must not move or cover the performer. You must be clearly identifiable throughout, so do not change identifying clothing or bib. Keep other people on camera to a minimum and be the main, clearly visible subject.",
+       "One infringement caps the overall mark at 24, two at 18 and three or more at 12.",
+       "Filming, editing and publishing are done in school during class under your teacher's supervision."
+      ]
+     },
+     {
+      "h": "What the introductory slide must say",
+      "points": [
+       "Games, Aquatics, Adventure and Athletics: the performance characteristics you want the examiner to notice.",
+       "Athletics: running events show time and distance (and hurdle height and number); throws show the implement weight and each distance; jumps show the distance or height of each of three jumps.",
+       "Aquatics: the area of aquatics, the two strokes and, where relevant, the distance swum and the time taken.",
+       "Dance: the genre or style. Gymnastics: rhythmic or artistic.",
+       "Personal exercise and fitness: health-related or performance-related fitness (and the activity it is designed for), the aerobic method and the conditioning method, with at least 3 reps of each exercise, adaptation and progression for each conditioning exercise, in the order warm-up, aerobic, conditioning, cool-down."
+      ]
+     },
+     {
+      "h": "Submit",
+      "points": [
+       "The school uploads one MP4 named to the SEC convention (year, subject code 225, component 3, EV for English, your exam number), for example 2026-225-3-EV-334567.mp4.",
+       "Upload your footage to the school's secure storage as soon as you record and delete it from your device after backup, as the teacher's guidelines require.",
+       "The 2027 completion and upload dates come from the SEC circular, so check your school notice."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "The Performance Assessment is 30% of the subject at a common level, marked out of 150.",
+       "Your activity must be in a different physical activity area from your Physical Activity Project, and be one of the three you studied.",
+       "It is recorded in PE class, between January and March of sixth year, under teacher supervision; capture, editing and publishing are done in school.",
+       "The video is MP4, 8 minutes at most, a single best performance, no speed changes, no collages, no photos except one identification photo.",
+       "Two mandatory text slides (introductory and identification) plus at most four optional text slides; no other text, subtitles, voiceover or music.",
+       "You must be clearly identifiable throughout and must not change identifying clothing.",
+       "The activity's listed skills must all be shown: you may not leave out one or two.",
+       "Only what the examiner can see earns marks.",
+       "The completion date is the end of March; the exact date is set by SEC circular."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Choosing an activity in the same area as the PAP.",
+       "Leaving out three or more listed skills (the overall mark is capped at 12) or one required element such as a stroke or a warm-up.",
+       "Having 1, 2 or 3+ video infringements: the overall mark is capped at 24, 18 or 12.",
+       "No competitive or pressure context, so the stable-under-pressure and decision-making marks cannot be earned.",
+       "Showing only your favourite skills, with no variety.",
+       "Not being identifiable in group play, or changing bibs or clothing.",
+       "Text or analysis outside the allowed slides, speeding up the video or using music.",
+       "A fitness programme without adaptations, progressions, or at least three reps per exercise.",
+       "Going over 8 minutes, so the footage after 8 minutes is not seen.",
+       "Leaving out the information the introductory slide must state for your activity."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "NCCA - LCPE Guidelines for the Performance Assessment, November 2018",
+    "url": "https://www.curriculumonline.ie/getmedia/26801e8b-f491-4a98-9254-d6025cf1ab2d/LCPE_AssessmentGuidelines_PA_EN.pdf"
+   },
+   {
+    "label": "SEC - Leaving Certificate 2026 Physical Education Higher Level marking scheme (examinations.ie exam materials)",
+    "url": "https://www.examinations.ie/exammaterials/"
+   },
+   {
+    "label": "SEC - Circular S57/25, Upload of Coursework 2026 (via scoilpol.ie)",
+    "url": "https://scoilpol.ie/Downloads/Examinations/Coursework_Information_2026.pdf"
+   },
+   {
+    "label": "SEC - Coursework Rules and Procedures 2025/26 (school copy)",
+    "url": "https://www.wexfordcbs.ie/wp-content/uploads/2025/11/Coursework-Rules-and-Procedures-2025-26.pdf"
+   },
+   {
+    "label": "Oide - LCPE Phase 5 Day 4",
+    "url": "https://oide.ie/wp-content/uploads/2024/10/LCPE-Phase-5-Day-4.pdf"
+   },
+   {
+    "label": "Oide - SEC Webinar 27/04/26",
     "url": "https://oide.ie/wp-content/uploads/2023/09/SEC-Webinar-COMPLETED-Final-27_04_26.pdf"
    },
    {
-    "label": "Folens/ABC Schools — PE for Leaving Cert Teacher's Guide (via search snippet)",
-    "url": "https://issuu.com/abcschoolsupplies/docs/teachers_guide_with_cover/179"
+    "label": "PEAI - LCPE resources page",
+    "url": "https://www.peai.org/resources/lcpe/"
    }
   ]
  },
@@ -1882,10 +2161,11 @@ window.AAC_GUIDES = {
   "subject": "home-economics",
   "subjectTitle": "Home Economics",
   "title": "Food Studies Practical Coursework",
+  "short": "Food Studies",
   "weight": "20%",
   "marks": null,
   "level": "Both levels",
-  "summary": "Food Studies is the practical coursework journal, worth 20% of Home Economics: each assignment is recorded as an investigation, planning, a supervised practical and an evaluation. Students taking Elective 2 also complete Textiles, Fashion and Design coursework, worth 10%.",
+  "summary": "Food Studies is the practical coursework journal, worth 20% of Home Economics: each assignment is recorded as an investigation, planning, a supervised practical and an evaluation. It was due on 2 November 2026.",
   "brief": {
    "task": "Food Studies: complete the 2027 assignments in the SEC coursework journal, each with an investigation, planning, a supervised practical and an evaluation.",
    "list": [
@@ -1901,16 +2181,16 @@ window.AAC_GUIDES = {
      "Two of the five under the 2027 arrangements; confirm with your teacher"
     ],
     [
+     "Marks per assignment",
+     "80: investigation 32, planning 8, implementation 28, evaluation 12"
+    ],
+    [
+     "Weight",
+     "20% of your Home Economics grade"
+    ],
+    [
      "Food Studies due",
      "2 November 2026 (already passed)"
-    ],
-    [
-     "Elective 2 Textiles",
-     "Design a holiday outfit for a young person, then make one garment with two of: buttons and buttonholes, darts or shaping, a pocket"
-    ],
-    [
-     "Textiles due",
-     "6 April 2027"
     ]
    ],
    "source": {
@@ -1968,6 +2248,15 @@ window.AAC_GUIDES = {
       ]
      },
      {
+      "h": "How the 32 marks are split (2025 marking scheme)",
+      "points": [
+       "24 marks for the investigation itself, marked in four bands: A 19 to 24 (thorough exploration and comprehensive analysis of every issue linked to the key requirements, from a range of sources, with research used as the basis for your choices), B 13 to 18, C 7 to 12, D 0 to 6.",
+       "4 marks for the menu, dishes or products you suggest (a menu for the day, two two-course meals, one dish, two dishes or two products depending on the assignment). They must suit the factors you identified, and main courses must be balanced: three of the four main food groups is accepted.",
+       "4 marks for sources: two sources at 2 marks each (graded 2:1:0).",
+       "If you cook a dish that was not investigated, you lose 1, 2 or 4 marks in the investigation (menus: starter or dessert 1 mark, main course 1 mark)."
+      ]
+     },
+     {
       "h": "Doing it well (what each 2027 brief asks for)",
       "points": [
        "Older people (Assignment 1): analyse the challenges in keeping a healthy diet, then use them to justify your nutritional needs, meal-planning guidelines and menus.",
@@ -2008,6 +2297,13 @@ window.AAC_GUIDES = {
       ]
      },
      {
+      "h": "How the 8 marks are split",
+      "points": [
+       "Resources are marked at 2 marks each: quantities, ingredients, costing and equipment.",
+       "For Area E (sensory analysis) the product list is worth 2 marks and the equipment 6 marks (graded 6:5:4:3:2:1:0)."
+      ]
+     },
+     {
       "h": "Making it strong",
       "points": [
        "The dish must be the one identified in your investigation and must meet the assignment's requirements.",
@@ -2032,6 +2328,15 @@ window.AAC_GUIDES = {
        "All practical work must be done in class time under the supervision of your Home Economics teacher. A teacher demonstration does not count.",
        "You may cook in pairs, or in groups for Area E, but your written account must be your own.",
        "Cook, and serve, one dish from your research, as the assignment states: a main course for Assignments 1 and 2, one pastry dish for Assignment 3, one marinated dish for Assignment 4, and for Assignment 5 the descriptive rating test on two granolas."
+      ]
+     },
+     {
+      "h": "How the 28 marks are split",
+      "points": [
+       "Procedure, 16 marks, in four bands (A is 13 to 16): all essential stages of preparing the dish identified, summarised in your own words, in the correct sequence, with the food preparation processes named; include cooking time, temperature, serving and tasting.",
+       "Key factors considered, 8 marks: two factors at 4 marks each (graded 4:2:0), 2 for identifying the factor and 2 for explaining why it matters. They must relate to your specific dish or test.",
+       "Safety and hygiene, 4 marks: one safety issue and one hygiene issue at 2 marks each (graded 2:1:0), 1 mark to identify and 1 to explain, linked to your actual ingredients or dish.",
+       "A dish that does not fully meet the assignment's requirements (for example an uncooked dish where a cooked one is specified) can draw an 8 mark deduction (-8), applied only after an advising examiner is consulted. A dish showing few process skills is marked pro rata."
       ]
      },
      {
@@ -2074,6 +2379,14 @@ window.AAC_GUIDES = {
       ]
      },
      {
+      "h": "How the 12 marks are split (2025 marking scheme)",
+      "points": [
+       "Three points at 4 marks each (graded 4:3:2:0): the implementation (two points) and the specific requirement of the assignment (one point).",
+       "Band A (4 marks) for implementation means you identified and analysed specific strengths and challenges, justified any modifications and critically analysed your use of resources and planning. For the specific requirement, Band A means informed conclusions drawn in relation to the key requirements of the assignment.",
+       "If you do not complete the practical, the marks for the evaluation of implementation are disallowed even if you attempted it."
+      ]
+     },
+     {
       "h": "Making it earn marks",
       "points": [
        "Keep (a) and (b) as separate, clearly headed parts; StudyTok lists merging them as a common mistake.",
@@ -2102,67 +2415,6 @@ window.AAC_GUIDES = {
        "The school uploads the PDF through the Schools Portal; the file name format is 2027-098-2-EV-(your exam number).pdf for English.",
        "Back up your journal securely until the SEC has received it."
       ]
-     }
-    ]
-   },
-   {
-    "name": "Elective 2 only – Textiles coursework",
-    "marks": null,
-    "marksNote": "Folder 25 + garment 75 · 10%",
-    "checklist": [
-     "In the design folder, analyse the brief's requirements and constraints, explore the theme in sketches, justify your garment, record the work sequence and evaluate it against the brief.",
-     "Make the garment with two of the three mandatory processes, the theme clearly visible and skills beyond Junior Cycle, finished and pressed, by 6 April 2027."
-    ],
-    "guide": [
-     {
-      "h": "The 2027 brief",
-      "points": [
-       "Theme: values, interests and personality expressed through a holiday wardrobe.",
-       "Task: design and sketch an outfit suitable for a young person to wear on holiday, set out the design specifications, then make and evaluate one garment from it.",
-       "The outfit can be knitted, crocheted or machine stitched.",
-       "The garment must include two of three processes: button/s and buttonhole/s; darts or shaping; pocket.",
-       "You must follow the design process and present a design folder with analysis and research, implementation and evaluation."
-      ]
-     },
-     {
-      "h": "Folder marks",
-      "points": [
-       "Design brief, analysis and research (15 marks): analyse the brief to identify key requirements and constraints, explore the theme, describe the proposed outfit with design sketches having regard to the theme and mandatory processes, justify the outfit and the garment to be made, and outline the planned course of action.",
-       "Implementation (4 marks): the work sequence you followed, with brief reference to how you carried out the mandatory processes.",
-       "Evaluation (6 marks): evaluate the garment, the difficulties met and how they were addressed, and proposed modifications; also evaluate the outcomes in relation to the brief."
-      ]
-     },
-     {
-      "h": "Rules",
-      "points": [
-       "Individual work only; group work is not acceptable.",
-       "All work is done under your teacher's supervision and every source, including AI-generated material, is referenced.",
-       "Put your examination number on the folder and on the garment."
-      ]
-     },
-     {
-      "h": "What the examiner looks for",
-      "points": [
-       "Design aspects (15): the garment suits the brief, applies design principles, shows aesthetic consideration and creativity.",
-       "Skills and processes (50): use of materials, equipment and skills, and execution of the prescribed processes. This is two thirds of the garment marks.",
-       "Finish (10): presentation of the completed garment."
-      ]
-     },
-     {
-      "h": "Requirements for the garment",
-      "points": [
-       "It must be textile based, include the specified processes, show a clearly identifiable interpretation of the theme, and show competence in a range of textile skills that progress from Junior Cycle Home Economics.",
-       "Make one garment from the outfit you designed.",
-       "The completion date is Tuesday 6 April 2027. The SEC says arrangements for assessing the folder and garment, and the dates, will be notified to schools.",
-       "The SEC circular says the school must have notified it before 23 October 2026 that you are doing the Textiles coursework."
-      ]
-     },
-     {
-      "h": "Written exam link",
-      "points": [
-       "If you submit the Textiles coursework you sit a written exam weighted 70%, Food Studies is 20%, and the Textiles coursework is 10%.",
-       "A 2025 marking scheme noted that candidates who submitted the Textiles coursework may attempt only Elective Question 2; check the 2027 paper instructions as this was reported by a search summary, not read in full."
-      ]
      },
      {
       "h": "Rules you can't break",
@@ -2175,7 +2427,7 @@ window.AAC_GUIDES = {
        "Do not change the booklet's structure, format or margins; use Arial 12 with 1.5 line spacing, no extra links, and no videos.",
        "Text that is not visible in the printed PDF cannot earn marks, so proofread the printout.",
        "Bonus marks are not given for coursework completed through Irish.",
-       "Textiles coursework: individual work only, textile based, includes the specified processes, examination number on the folder and garment, and supervised by your teacher."
+       "Each Food Studies assignment must include a different practical activity. If you repeat one, the examiner disallows the marks of the repeated activity that scored lowest (2025 marking scheme, Appendix 1)."
       ]
      },
      {
@@ -2197,60 +2449,313 @@ window.AAC_GUIDES = {
   ],
   "sources": [
    {
-    "label": "State Examinations Commission — Leaving Certificate 2027 Home Economics: Food Studies Assignments (M47/48A, 2027)",
+    "label": "State Examinations Commission, Leaving Certificate 2027 Home Economics: Food Studies Assignments (M47/48A, 2027)",
     "url": "https://exams.ie/project-files/lc/home-economics/2026-27-food-studies-assignments.pdf"
    },
    {
-    "label": "State Examinations Commission — circular S61/25, Leaving Certificate Home Economics 2027 assessment arrangements",
+    "label": "State Examinations Commission, circular S61/25, Leaving Certificate Home Economics 2027 assessment arrangements",
     "url": "https://www.examinations.ie/docs/viewer.php?q=de9fa388e42255f38577a673aee8b488ca834c0c"
    },
    {
-    "label": "State Examinations Commission — Textiles, Fashion and Design Elective Practical Coursework Assignment Brief 2027",
-    "url": "https://www.examinations.ie/docs/viewer.php?q=c5d51109c575f870bf3603067a46c46e43fd3589"
-   },
-   {
-    "label": "State Examinations Commission — 2027 Food Studies Coursework Journal (Word booklet)",
+    "label": "State Examinations Commission, 2027 Food Studies Coursework Journal (Word booklet)",
     "url": "https://examinations.ie/misc-doc/EN-EX-29724396.docx"
    },
    {
-    "label": "State Examinations Commission — circular S68.2.26, upload of coursework on the Schools Portal 2027",
+    "label": "State Examinations Commission, circular S68.2.26, upload of coursework on the Schools Portal 2027",
     "url": "https://www.examinations.ie/docs/viewer.php?q=7440c3195d630d41fd96a06cd6a39a3cf54424ad"
    },
    {
-    "label": "SEC — Food Studies Coursework Journal 2025 (hosted by ACCS)",
+    "label": "SEC, Food Studies Coursework Journal 2025 (hosted by ACCS)",
     "url": "https://www.accs.ie/s/Food-Studies-Coursework-Journal-2025-digital-EV.pdf"
    },
    {
-    "label": "Department of Education and Youth — Assessment Arrangements for Junior Cycle and Leaving Certificate 2027 (page 40)",
+    "label": "Department of Education and Youth, Assessment Arrangements for Junior Cycle and Leaving Certificate 2027 (page 40)",
     "url": "https://assets.gov.ie/static/documents/54a1450c/FINAL_v2_English_Assessment_Arrangements_2027.pdf"
    },
    {
-    "label": "ATHE (Association of Teachers of Home Economics) — Leaving Certificate Home Economics: Food Studies Assignments for 2027 and 2028",
+    "label": "ATHE (Association of Teachers of Home Economics), Leaving Certificate Home Economics: Food Studies Assignments for 2027 and 2028",
     "url": "https://www.athe-ireland.com/articles/leaving-certificate-home-economics:-food-studies-assignments-for-2027-and-2028/51/"
    },
    {
-    "label": "SEC — Project and Practical Coursework page (Leaving Certificate Home Economics 2027 and 2028 listings)",
+    "label": "SEC, Project and Practical Coursework page (Leaving Certificate Home Economics 2027 and 2028 listings)",
     "url": "https://www.examinations.ie/?l=en&mc=ex&sc=he"
    },
    {
-    "label": "Department of Education — Home Economics Leaving Certificate guidelines (SCSEC21)",
+    "label": "Department of Education, Home Economics Leaving Certificate guidelines (SCSEC21)",
     "url": "https://www.curriculumonline.ie/getmedia/b2a42b09-979a-467f-b165-304bf2e480fd/SCSEC21_home_economics_guidelines_eng.pdf"
    },
    {
-    "label": "Department of Education Inspectorate — Looking at Home Economics (2006 to 2007 inspections)",
+    "label": "Department of Education Inspectorate, Looking at Home Economics (2006 to 2007 inspections)",
     "url": "https://assets.gov.ie/25342/a654dbbf173c47d4a886848ed069a2e3.pdf"
    },
    {
-    "label": "StudyTok — Leaving Cert Home Economics Higher Level: Food Assignments notes",
+    "label": "StudyTok, Leaving Cert Home Economics Higher Level: Food Assignments notes",
     "url": "https://studytok.com/notes/leaving-cert/home-economics/higher-level/food-assignments"
    },
    {
-    "label": "Study Skills Ireland — How to Study Leaving Cert Home Economics, and Why November Matters So Much",
+    "label": "Study Skills Ireland, How to Study Leaving Cert Home Economics, and Why November Matters So Much",
     "url": "https://studyskillsireland.com/2026/09/22/how-to-study-leaving-cert-home-economics/"
    },
    {
-    "label": "Oide — Leaving Certificate Home Economics Refresher Day 2025 to 2026",
+    "label": "Oide, Leaving Certificate Home Economics Refresher Day 2025 to 2026",
     "url": "https://oide.ie/wp-content/uploads/2025/09/Leaving-Certificate-Home-Economics-Refresher-Day-2025-2026.pdf"
+   },
+   {
+    "label": "State Examinations Commission, Leaving Certificate 2025 Home Economics Higher Level marking scheme (Food Studies Coursework section), examinations.ie archive",
+    "url": "https://www.examinations.ie/exammaterialarchive/"
+   }
+  ]
+ },
+ "home-economics-textiles": {
+  "subject": "home-economics",
+  "subjectTitle": "Home Economics",
+  "title": "Textiles, Fashion and Design Coursework",
+  "short": "Textiles",
+  "weight": "10%",
+  "marks": 100,
+  "level": "Both levels (Elective 2 only)",
+  "summary": "Textiles, Fashion and Design coursework is only for Elective 2 students and is worth 10% of Home Economics (marked out of 100: design folder 25, garment 75). You design a holiday outfit for a young person, make one garment from it with two of three prescribed processes, and hand both in by 6 April 2027.",
+  "brief": {
+   "task": "Design and sketch an outfit for a young person to wear on holiday, set out the design specifications, then make and evaluate one garment from it, supported by a design folder.",
+   "list": [
+    "Theme: our values, interests and personality can be expressed through our holiday wardrobe.",
+    "The outfit can be knitted, crocheted or machine stitched.",
+    "The garment must include two of: button/s and buttonhole/s, darts or shaping, a pocket.",
+    "Individual work only, done in class under your teacher's supervision, with your examination number on the folder and the garment."
+   ],
+   "facts": [
+    [
+     "Elective 2 only",
+     "Only Elective 2 students do it, and they may only answer Question 2 in Section C of the written paper"
+    ],
+    [
+     "Weight",
+     "10% of your Home Economics grade (70% written exam, 20% Food Studies)"
+    ],
+    [
+     "Marks",
+     "100: design folder 25, garment 75"
+    ],
+    [
+     "Textiles due",
+     "Tuesday 6 April 2027"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Textiles, Fashion and Design Elective Practical Coursework Assignment Brief",
+    "url": "https://www.examinations.ie/docs/viewer.php?q=c5d51109c575f870bf3603067a46c46e43fd3589"
+   }
+  },
+  "stages": [
+   {
+    "name": "Brief, theme research and design folder",
+    "marks": 15,
+    "marksNote": "Design brief: analysis and research",
+    "checklist": [
+     "List the brief's key requirements and constraints: young person, holiday, theme, two processes, 6 April 2027.",
+     "Explore the theme in sketches of the full outfit, then name the garment you will make.",
+     "Justify the outfit and garment with reasons, and outline your plan of work in order."
+    ],
+    "guide": [
+     {
+      "h": "What the 2027 brief asks",
+      "points": [
+       "The theme is 'Our values, interests and personality can be expressed through our holiday wardrobe.'",
+       "Design and sketch an outfit suitable for a young person to wear on holiday. The outfit can be knitted, crocheted or machine stitched.",
+       "Set out the design specifications for the outfit, then make and evaluate one garment from it.",
+       "The garment must include two of these three processes: (i) button/s and buttonhole/s, (ii) darts or shaping, (iii) pocket.",
+       "You must follow the design process and present a design folder with information on analysis and research, implementation and evaluation.",
+       "The assignment is common to Higher and Ordinary Level, and you may only present individual work."
+      ]
+     },
+     {
+      "h": "What the 15 marks reward",
+      "points": [
+       "Analysis of the brief, including identification of the key requirements and constraints.",
+       "Exploration of the theme.",
+       "Identification and description of your proposed outfit with design sketches, having regard to the theme and the mandatory processes.",
+       "Justification of the outfit and of the garment you will construct.",
+       "An outline of the proposed course of action you will follow when making the garment."
+      ]
+     },
+     {
+      "h": "Building this part of the folder",
+      "points": [
+       "Break the brief into key requirements: a young person, holiday wear, a personal theme (values, interests, personality), a design you can sketch, one garment you can make, and two of the three processes.",
+       "Constraints come from the brief itself: the processes you must include, the technique (knitted, crocheted or machine stitched), the date (6 April 2027), and work you can complete in class under supervision.",
+       "Explore the theme before you commit: show how a value, interest or personality trait turns into colour, fabric, shape or detail. Use sketches to show it, not only words.",
+       "Sketch the full outfit, then say which garment you will make from it and why it lets you show the two processes you chose.",
+       "Justify with reasons from your research and the brief (suitability for holiday wear, comfort, skills, time), then write a short plan of work in the order you will do it.",
+       "The syllabus guidelines say pattern drafting is not expected and commercial patterns may be used; check with your teacher what your school allows.",
+       "Reference every source you use, including any material produced by AI, or it counts as plagiarism."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Make the garment",
+    "marks": 50,
+    "marksNote": "Skills and processes",
+    "checklist": [
+     "Include two of the three processes (buttons and buttonholes, darts or shaping, pocket) and execute each neatly.",
+     "Show a range of textile skills beyond Junior Cycle level, all done in class under supervision.",
+     "Make the theme clearly identifiable in the garment."
+    ],
+    "guide": [
+     {
+      "h": "What the examiner looks for",
+      "points": [
+       "Skills and processes (50 marks): use of materials, equipment and skills, and execution of the prescribed processes.",
+       "This is half of the whole coursework and two thirds of the garment marks, so the way you make it matters more than the design.",
+       "Execution is the quality of the processes you were told to include: neat buttonholes with buttons that sit right, darts or shaping that give a smooth fit, a pocket that is even and secure."
+      ]
+     },
+     {
+      "h": "What the garment must be",
+      "points": [
+       "It must be textile based and include the processes specified in the brief (two of the three).",
+       "It must include a clearly identifiable interpretation of the theme in its design.",
+       "It must demonstrate competence in a range of textile skills that show progression from the skills developed in Junior Cycle Home Economics.",
+       "You make one garment from the outfit you designed, not the whole outfit."
+      ]
+     },
+     {
+      "h": "Doing the making well",
+      "points": [
+       "Pick the two mandatory processes you can do most neatly, not the two that look most impressive: you are marked on how well they are executed.",
+       "Choose a fabric and a pattern or method that fit your skill level and the time you have: a simple garment made well is worth more than a complex one rushed.",
+       "Practise the process on scrap fabric first, especially buttonholes and darts.",
+       "Do every stage of the construction in class under your Home Economics teacher's supervision. Work done outside class cannot be validated.",
+       "Work alone: group work is not acceptable and collaboration in the recording can lead to the marks being disallowed."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Design quality and finish",
+    "marks": 25,
+    "marksNote": "Design aspects 15, finish 10",
+    "checklist": [
+     "Apply design principles (balance, emphasis, proportion, rhythm) and show where in the garment.",
+     "Trim, check and press the garment so it is ready to present."
+    ],
+    "guide": [
+     {
+      "h": "Design aspects (15 marks)",
+      "points": [
+       "A garment design that is appropriate to the design brief.",
+       "Application of design principles.",
+       "Aesthetic considerations.",
+       "Creativity."
+      ]
+     },
+     {
+      "h": "Finish (10 marks)",
+      "points": [
+       "Marks are for the presentation of the completed garment.",
+       "Trim loose threads, check every seam and hem, and press the garment before it is handed in."
+      ]
+     },
+     {
+      "h": "Showing design principles and the theme",
+      "points": [
+       "The SEC's own written paper names these principles in its marking: balance, emphasis, proportion and rhythm. Use the ones that really apply to your garment and say where they appear (for example, repeating a colour in trim and fabric for rhythm).",
+       "Make the theme visible in the garment itself (colour, fabric, shape, detail), because the brief requires a clearly identifiable interpretation of it.",
+       "Show creativity in how you interpret the theme and the holiday setting while still meeting the brief."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Record, evaluate and submit",
+    "marks": 10,
+    "marksNote": "Implementation 4, evaluation 6",
+    "checklist": [
+     "Record the work sequence, with a note on how you did each mandatory process.",
+     "Evaluate the garment against the brief: difficulties, how you fixed them, and modifications.",
+     "Put your examination number on the folder and garment, reference every source, and hand in by 6 April 2027."
+    ],
+    "guide": [
+     {
+      "h": "Implementation (4 marks)",
+      "points": [
+       "An outline of the work sequence you followed, with brief reference to how you carried out the mandatory processes.",
+       "Keep notes as you make it (date, stage, problem, solution) so the sequence is accurate when you write it up.",
+       "Write this section in your own words."
+      ]
+     },
+     {
+      "h": "Evaluation (6 marks)",
+      "points": [
+       "Evaluate the garment you made, the difficulties you met and how you dealt with them, and any modifications you would make.",
+       "Evaluate the outcomes of the assignment in relation to the brief: did the garment meet the key requirements and show the theme?",
+       "Give specific evidence (a seam that puckered, how you fixed a buttonhole) rather than general statements like 'it went well'."
+      ]
+     },
+     {
+      "h": "Submission and dates",
+      "points": [
+       "Present the written support material in a folder, to be submitted with the completed garment.",
+       "Put your examination number on the folder and on the completed garment.",
+       "The completion date is Tuesday 6 April 2027. The SEC will notify schools of the arrangements for assessing the folders and garments, and your school stores them safely.",
+       "Your school must have told the SEC, before 23 October 2026, that you are doing the Textiles coursework.",
+       "Your school certifies that the coursework is your own individual unaided work; work not done under your teacher's supervision is not included for assessment."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "Individual work only. Group work is not acceptable.",
+       "All aspects of the coursework, written and practical, must be done under your Home Economics class teacher's supervision, or your teacher cannot validate that it is your own work and it will not be included for assessment.",
+       "The garment must be textile based, include the processes specified (two of the three), show a clearly identifiable interpretation of the theme, and show competence in a range of textile skills that progress from Junior Cycle Home Economics.",
+       "Your examination number must be on the folder and on the completed garment.",
+       "Acknowledge every secondary source: books, journals, websites, government reports, other media, specialist organisations and individuals, and any material generated by AI software. Unreferenced material is treated as plagiarism.",
+       "Where there is evidence of collaboration in the recording of any aspect of the assignment, the marks for the work presented will be disallowed.",
+       "Penalties for copying, plagiarism or improper help range from losing the marks to losing the subject or being debarred from the exams in later years.",
+       "Bonus marks are not given for coursework completed through Irish.",
+       "If you submit the coursework, you may attempt only Question 2 in Section C of the written paper."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Putting in only one of the three mandatory processes, or one that is not executed well (the brief requires two, and 50 marks are for skills and processes).",
+       "Choosing a garment that is too ambitious to finish and press by 6 April 2027, which loses finish marks and execution marks.",
+       "A design with no identifiable link to the holiday-wardrobe theme (the brief requires it).",
+       "Describing the outfit without design sketches, or justifying it without reasons from the brief or your research.",
+       "An evaluation that says it went well with no difficulties, fixes or modifications, and does not return to the brief.",
+       "Forgetting your examination number on the folder or the garment (the brief requires it on both).",
+       "Doing work at home so your teacher cannot supervise it, or working with a classmate, which can make the work invalid.",
+       "Using AI text or any source without referencing it, which counts as plagiarism."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "State Examinations Commission, Leaving Certificate 2027 Home Economics: Textiles, Fashion and Design Elective Practical Coursework Assignment Brief",
+    "url": "https://www.examinations.ie/docs/viewer.php?q=c5d51109c575f870bf3603067a46c46e43fd3589"
+   },
+   {
+    "label": "State Examinations Commission, circular S61/25, Leaving Certificate Home Economics 2027 assessment arrangements",
+    "url": "https://www.examinations.ie/docs/viewer.php?q=de9fa388e42255f38577a673aee8b488ca834c0c"
+   },
+   {
+    "label": "Department of Education and Youth, Assessment Arrangements for Junior Cycle and Leaving Certificate 2027",
+    "url": "https://assets.gov.ie/static/documents/54a1450c/FINAL_v2_English_Assessment_Arrangements_2027.pdf"
+   },
+   {
+    "label": "Department of Education, Leaving Certificate Home Economics Guidelines for Teachers (Section 7, assessment of the Textiles, Fashion and Design elective practical)",
+    "url": "https://www.curriculumonline.ie/getmedia/b2a42b09-979a-467f-b165-304bf2e480fd/SCSEC21_home_economics_guidelines_eng.pdf"
+   },
+   {
+    "label": "State Examinations Commission, Leaving Certificate Home Economics 2025 Higher Level marking scheme and 2025 and 2026 papers (Section C, Elective 2)",
+    "url": "https://www.examinations.ie/exammaterialarchive/"
+   },
+   {
+    "label": "State Examinations Commission, Project and Practical Coursework page (Home Economics)",
+    "url": "https://www.examinations.ie/?l=en&mc=ex&sc=he"
    }
   ]
  }

@@ -4,61 +4,391 @@ window.EXAM_BREAKDOWN["home-economics"] = {
   "subject": "home-economics",
   "totalMarks": 320,
   "totalMinutes": 150,
-  "timingNote": "2h 30m · 280 or 320 marks depending on the Section C option",
+  "timingNote": "Higher Level: 2h 30m (2:00 to 4:30 pm), 320 marks, or 280 marks if you take Elective 2 (Textiles). The written paper is 80% of your grade, or 70% if you also did Textiles. Food Studies Practical Coursework is 20%, and Elective 2 students also complete Textiles, Fashion and Design Coursework (10%). Rules, mark splits and traps come from the 2025 and 2026 papers and the 2025 marking scheme (the 2026 scheme was not available when this was written).",
+  "examDay": {
+    "task": "2:00 to 4:30 in the afternoon (Wednesday 3 June in 2026). You get an answerbook that holds Section A and all your answers, and a separate Sections B and C question booklet that you do not hand up. The answerbook is scanned: anything outside the answer areas may not be seen. Write in blue or black pen; pencil only for sketches and diagrams. Start each question on a new page and write the question number in the box at the top.",
+    "end": "4:30",
+    "timeline": [
+      {
+        "start": "2:00",
+        "minutes": 5,
+        "label": "Choose",
+        "color": "#C9C4BE",
+        "detail": "Read Sections B and C and pick your questions before you write anything."
+      },
+      {
+        "start": "2:05",
+        "minutes": 28,
+        "label": "Section A",
+        "color": "#F97316",
+        "detail": "About 2.8 minutes a question. Do your best 10 of the 14 first."
+      },
+      {
+        "start": "2:33",
+        "minutes": 35,
+        "label": "Question 1",
+        "color": "#57534E",
+        "detail": "Compulsory, 80 marks. Time per part follows the marks.",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 9
+          },
+          {
+            "label": "b",
+            "minutes": 4
+          },
+          {
+            "label": "c",
+            "minutes": 6
+          },
+          {
+            "label": "d",
+            "minutes": 8
+          },
+          {
+            "label": "e",
+            "minutes": 8
+          }
+        ]
+      },
+      {
+        "start": "3:08",
+        "minutes": 22,
+        "label": "Section B choice 1",
+        "color": "#8A847D",
+        "detail": "A 50-mark question: about 9 minutes on (a), 13 on the rest."
+      },
+      {
+        "start": "3:30",
+        "minutes": 22,
+        "label": "Section B choice 2",
+        "color": "#57534E",
+        "detail": "Same again. Stop when the time is up and move on."
+      },
+      {
+        "start": "3:52",
+        "minutes": 38,
+        "label": "Section C",
+        "color": "#8A847D",
+        "detail": "80 marks: about 24 minutes on (a), 14 on (b) or (c). Elective 2 is only 40 marks: use about 19 minutes, and put the spare time into Section B.",
+        "split": [
+          {
+            "label": "a",
+            "minutes": 24
+          },
+          {
+            "label": "b or c",
+            "minutes": 14
+          }
+        ]
+      }
+    ],
+    "facts": [
+      [
+        "The choice rule (HL)",
+        "Section A: any 10 of 14 questions, 6 marks each. Section B: Question 1 (80 marks) plus any two of Questions 2 to 5 (50 each). Section C: one question only (Elective 1, 2, 3 or Core Question 4). For an 80-mark one, answer (a) and either (b) or (c)."
+      ],
+      [
+        "If you did Textiles coursework",
+        "Elective 2 students submit Textiles, Fashion and Design coursework and may only attempt Question 2 in Section C (40 marks: part (a) plus (b) or (c)). Your paper is out of 280, not 320. Answer another Section C question as well and only your best one counts. If you did not submit it, choose Elective 1, 3 or Core."
+      ],
+      [
+        "Ordinary Level",
+        "The same structure, times and marks. Section A has tick true or false, matching and fill-in questions, and Section B and C use more 'state', 'outline' and 'set out a menu' prompts. The Section C elective choices and grade bands are the same."
+      ],
+      [
+        "Same format in 2027",
+        "The SEC circular S61/25 sets the 2027 components (written 80%, or 70% with the Textiles elective; Food Studies 20%) and the existing structure continues. The Department's adjustments in place since 2022 stay until the new Home Economics course replaces the current one."
+      ]
+    ]
+  },
   "sections": [
     {
       "id": "hom-section-a",
       "name": "Section A – Short Questions",
       "marks": 60,
+      "minutes": 28,
+      "minutesPerQuestion": 2.8,
       "color": "#F97316",
-      "minutesPerQuestion": 3,
       "tips": {
-        "timing": "About 30 minutes — answer any 10 of the 12 questions. Each question carries 6 marks, so keep each answer concise and move on after roughly 3 minutes.",
-        "structure": "Answer in the spaces provided on the paper. Match the number of distinct points to the marks available, use precise Home Economics terminology, and complete every requested table, label, calculation or example.",
+        "timing": "About 28 minutes for 10 questions, 6 marks each: under 3 minutes a question. Read all 14 first and answer the 10 you are surest of; if time is left, try an 11th as insurance.",
+        "structure": "Answer in the space under each question. Marks come as small graded points (2:1:0 or 3:2:1:0), so the number of correct points is what counts. 2025 and 2026 both had 14 questions, mostly on nutrition, food science, consumer studies, finance and family resource management.",
         "reminders": [
-          "Read all 12 questions before settling on your best 10",
-          "Attempt extra questions only after completing the required 10",
-          "Give a separate, specific point for each available mark",
-          "Include units and show working in nutritional or financial calculations",
-          "Do not spend long-answer time developing a 6-mark response"
+          "Count the points the question asks for and give exactly that many",
+          "Give a fact, not an opinion: a vague point earns the partial mark at best",
+          "Use the correct term in context: wrong or contradictory wording can lose the mark",
+          "Never leave a blank: partial marks are on offer",
+          "Do not develop a 6-mark answer into a Section B essay"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "One-fact answers (name, state, list)",
+          "where": "Spread across Questions 1 to 14, every year. Examples: 2025 Q3 (two functions of sodium, two dietary sources), Q4 (vitamin for night blindness, rickets, beri-beri); 2026 Q3 (three functions of vitamin C), Q11 (two items on a furniture fire-safety label).",
+          "marks": 6,
+          "minutes": 2.5,
+          "see": "A short instruction (State, Name, Outline, Identify) with a numbered gap for each point. 2025 Q3 asked for two functions of sodium and two sources, so one question had two different tasks.",
+          "marked": "Each point is marked separately and graded. 2025 Q3: two functions at 2 marks each (2:1:0), two sources at 1 mark each. 2025 Q4: three vitamins at 2 marks each (2:1:0). A precise point gets full marks, a correct but vague one gets partial, a wrong one gets 0. Words that are wrong or contradict your answer can lose the marks (scheme note).",
+          "play": "Count the gaps, answer every part, and give one exact fact per gap: 'blood pressure regulation', not 'helps the body'. Use the textbook name (retinol, thiamine) when you know it. Stop when the gaps are full.",
+          "traps": [
+            "Forgetting the second task in a two-part question (the two sodium sources were worth 2 of the 6 marks)",
+            "Giving the same function twice in different words: it scores once",
+            "Vague points like 'good for health' only reach the partial mark",
+            "Naming a vitamin that is wrong for the disease, then adding a second guess: contradictions can lose the mark"
+          ]
+        },
+        {
+          "name": "Complete the table",
+          "where": "2025 Q2 (digestion of protein: organ, enzyme, substrate, product), 2026 Q1 (carbohydrates: formula and example for mono-, di- and polysaccharides), 2026 Q5 (processing of milk: temperature, time, effect).",
+          "marks": 6,
+          "minutes": 2.5,
+          "see": "A printed grid with some cells filled in as a model. 2025 Q2 gave you the organ (pancreas) and wanted the enzyme, substrate and product.",
+          "marked": "Three points at 2 marks each (graded 2:1:0) in 2025 Q2, so each row or column scores separately and a half-right cell gets 1. Accepted alternatives are listed (for example 'trypsin, tripsin, proteinase').",
+          "play": "Fill every cell, including the model row if it asks you to. Add units (degrees Celsius, seconds) in any temperature or time column. If you are unsure, write the nearest correct term: partial marks exist.",
+          "traps": [
+            "Leaving a cell blank: no partial marks for nothing",
+            "Mixing up substrate and product in digestion tables",
+            "No units in temperature or time columns",
+            "Copying the wording of the question into the cell instead of the term it asks for"
+          ]
+        },
+        {
+          "name": "Describe or explain two terms or methods",
+          "where": "2025 Q6 (cold and hot smoking of fish), Q7 (added value foods, functional foods), Q8 (a method of heat transfer with an example), Q12 (desk and field research); 2026 Q2 (smoke point, flash point), Q4 (caramelisation, crystallisation), Q9 (infectious and toxic food poisoning), Q10 (transformer, magnetron), Q12 (the two pensions).",
+          "marks": 6,
+          "minutes": 3,
+          "see": "Two bold headings, each with its own answer space. 2025 Q12: 'Describe each of the following types of consumer research: desk research, field research.'",
+          "marked": "Two points at 3 marks each (graded 3:2:1:0) in 2025 Q6, Q7, Q12. For cold and hot smoking the scheme credits steps such as brine or dry salting, exposure to smoke, and the temperature (about 27 degrees Celsius for cold, up to about 80 degrees Celsius for hot, which cooks the fish). Q8 splits 2 marks for naming the method, 3 for describing it, 1 for a cooking example.",
+          "play": "Give each term three short facts: what it is, how it works or is done, and an example. That is how you reach 3 of 3 rather than 1. Keep both halves the same length: the marks are equal.",
+          "traps": [
+            "Answering only one of the two terms",
+            "Defining a term with its own words ('desk research is research done at a desk')",
+            "Leaving out the number or example that the scheme lists (the smoking temperatures, the cooking method)",
+            "Swapping the two terms, for example giving the hot smoking temperature to cold smoking"
+          ]
+        },
+        {
+          "name": "Discuss, outline or analyse (guidelines, services, laws)",
+          "where": "2025 Q5 (three meal-planning guidelines for coeliac disease), Q10 (a type of life assurance), Q13 (two supermarket merchandising techniques), Q14 (protection from the Consumer Credit Act 1995); 2026 Q7 (two factors in iron absorption), Q8 (three points on the FSAI), Q13 (three housing trends), Q14 (the role of MABS).",
+          "marks": 6,
+          "minutes": 3,
+          "see": "A verb (Discuss, Outline, Analyse, Explain) plus 'give two points' or 'three guidelines'. These are the Social and Consumer questions in short form.",
+          "marked": "Typically 2 or 3 points at 2 or 3 marks each: 2025 Q5 was three guidelines at 2 marks (2:1:0); Q13 two techniques at 3 marks (3:2:1:0); Q14 two points at 3 marks (3:2:0). The scheme lists key phrases (for the Consumer Credit Act: credit agreements in writing, APR shown, a cooling-off period).",
+          "play": "Name the point, then add one clause that explains it: 'Credit agreements must be in writing, so the borrower has a record of the terms.' Do exactly the number of points asked.",
+          "traps": [
+            "Naming an Act with no content: the marks are for what it does",
+            "A heading with no development only earns the partial mark",
+            "Giving fewer points than asked because you ran out of facts: each missing point costs a full share of the 6",
+            "Writing a paragraph on one point instead of the two or three asked for"
+          ]
+        },
+        {
+          "name": "Tick, match and fill in the gaps (Ordinary Level only)",
+          "where": "Ordinary Level 2025 Q1, Q3, Q4 and 2026 Q1, Q3, Q5, Q6. Higher Level has none of these.",
+          "marks": 6,
+          "minutes": 2.5,
+          "see": "A true or false grid, a list of terms to slot into sentences, or matching processes to descriptions. 2026 OL Q1: 'Sugar and starch provide heat and energy to the body' (true or false).",
+          "marked": "Three items at 2 marks each (graded 2:0) in 2025 OL Q1: right gets 2, wrong gets 0.",
+          "play": "Read each statement for words like 'all', 'only' and 'fat soluble'. Eliminate used words in fill-in questions as you go.",
+          "traps": [
+            "Ticking both boxes or neither",
+            "Skipping a statement because you are unsure: a guess costs nothing",
+            "Using a word twice in a fill-in question"
+          ]
+        }
+      ]
     },
     {
       "id": "hom-section-b",
       "name": "Section B – Core Long Questions",
       "marks": 180,
-      "color": "#10B981",
-      "minutesPerQuestion": 28,
+      "minutes": 79,
+      "minutesPerQuestion": 26,
+      "color": "#57534E",
       "tips": {
-        "timing": "About 85 minutes — Question 1 is compulsory and worth 80 marks; answer any two of Questions 2–5, worth 50 marks each. Budget roughly 38 minutes for Question 1 and 23–24 minutes for each chosen 50-mark question.",
-        "structure": "Follow the printed sub-parts in order and write in proportion to the marks. For discuss, assess or evaluate questions, make a clear point, explain it with course knowledge, and apply it to the named food, family, consumer or social context.",
+        "timing": "About 79 minutes: Question 1 takes about 35 minutes, then about 22 minutes each for your two 50-mark questions. All parts are graded the same way, so do not run over in the part you enjoy.",
+        "structure": "Question 1 is compulsory (80 marks, nutrition and food science with a table or chart in 2025 and 2026). Questions 2 to 5 cover food science, food safety, consumer studies and family or social issues. Each is split into (a), (b) and (c) of 12 to 20 marks. Marks are points at a fixed value: 4 points at 5 marks, 3 points at 4 marks, and so on.",
         "reminders": [
-          "Question 1 is compulsory",
-          "Choose the other two questions only after reading Questions 2–5",
-          "Use the supplied table, chart, image or case material explicitly when asked",
-          "Label every sub-part so the examiner can match answers to the paper",
-          "Support developed points with relevant examples from the course"
+          "Read the bullet headings and cover each one: the scheme demands a point on every heading",
+          "Start every question on a new page and label each part in the left column",
+          "Each point earns marks only once, so do not repeat it under another heading",
+          "Choose your two optional questions where you can answer all three parts, not just (a)",
+          "Quote the data in Question 1 (a) rather than just describing it"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Data-based evaluation (Question 1, part a)",
+          "where": "Question 1 (a), every year, 20 marks. 2025: pie chart of the main sources of energy in the diet of adults in Ireland. 2026: nutritional content per 100 g of a protein bar and a high-protein fruit yogurt.",
+          "marks": 20,
+          "minutes": 9,
+          "see": "A chart or nutrient table and an instruction such as 'comment and elaborate on four sources' (2025) or 'compare and evaluate the nutritional contribution' (2026), 'having regard to current healthy eating guidelines'.",
+          "marked": "2025: 4 points at 5 marks each (graded 5:4:3:2:1:0). Each source earns marks for what it supplies (nutrients, fat type, fibre) and how it fits healthy eating guidelines (the food pyramid, saturated fat, sugar, salt). Reading values from the data gets you started; the nutrition earns the rest.",
+          "play": "Take as many items as the question names, one block each. In each block: quote the figure from the data, name the nutrients it provides, then say what the guidelines advise (more, less, swap). For a comparison, use the same nutrients for both foods and finish with a verdict.",
+          "traps": [
+            "Repeating the numbers with no nutritional comment",
+            "No reference to the guidelines (the question says 'having regard to')",
+            "Comparing items on different bases: stay with per 100 g if the table is per 100 g",
+            "Writing six thin points in a four-point question: the extra time costs you later parts"
+          ]
+        },
+        {
+          "name": "Nutrient and food science explanations (Question 1, parts b to d)",
+          "where": "Question 1 (b), (c), (d) every year. 2025: structure of saturated, mono- and polyunsaturated fatty acids with an example each (18), significance of fatty acids (12), formation of emulsions (10). 2026: essential and non-essential amino acids (8), deamination (14), denaturation by heat, mechanical action and enzymes (18).",
+          "marks": 40,
+          "minutes": 18,
+          "see": "Short science questions inside the compulsory Question 1, usually with bullets to cover. 2026 (d): 'Explain the denaturation of protein. Refer to heat, mechanical action, enzymes.'",
+          "marked": "Many small marks. 2025 (b): 4 structure points at 1 mark each, for each of three types, plus one example at 2 marks each (18 in all). (c): 3 points at 4 marks (4:3:2:1:0). (d): 5 points at 2 marks (2:1:0). The scheme says 'accept clear diagrams'.",
+          "play": "Write a numbered run of short facts, one per mark, in the order of the bullets. Draw the structure as a labelled diagram if it is faster. Always give the example: it is a free 2 marks.",
+          "traps": [
+            "Missing the examples (6 of the 18 marks in 2025 (b))",
+            "Skipping one bullet in a 'refer to' list: each bullet carries marks",
+            "General statements ('fats are bad') where the scheme wants chemistry (double bonds, hydrogens, carboxyl group)",
+            "Confusing temporary and permanent emulsions, or leaving out the emulsifier (lecithin) that makes the permanent one"
+          ]
+        },
+        {
+          "name": "Detailed account of a food, process or product",
+          "where": "2025 Q2 (c) production of cheese (17); 2026 Q2 (c) food spoilage in vegetables (18) and Q3 (b) artificial sweeteners (18). Appears in most years as a 15 to 18 mark part.",
+          "marks": 17,
+          "minutes": 8,
+          "see": "'Give a detailed account of...' or 'Write an informative account of...', with 'Refer to' bullets such as 'stages of production' and 'packaging and labelling'.",
+          "marked": "2025 cheese: 6 stages at 2 marks (2:1:0), 2 packaging points at 1 mark each, 3 labelling points at 1 mark each. Temperatures and named agents (rennet, culture, 2% salt) are the points the scheme lists.",
+          "play": "Use the printed bullets as sub-headings. For a process, write the stages in order and add the number or the named substance in each (temperature, time, ingredient). Allow the last minute for packaging and labelling: they are cheap marks.",
+          "traps": [
+            "Skipping the packaging and labelling bullet (5 of 17 marks)",
+            "Stages in the wrong order",
+            "Stages with no temperature or named agent: the second mark of 2:1:0 is lost",
+            "Describing a product you did not study instead of the one asked"
+          ]
+        },
+        {
+          "name": "Discuss, evaluate and analyse",
+          "where": "2025 Q1 (e) food choices and eating habits (20), Q2 (a) osteoporosis, Q3 (b) food storage and cooking, Q4 (a) environmental responsibility with appliances, Q5 (a) the family in Ireland since the 1950s (20); 2026 Q2 (a) vegetables in the diet (20), Q4 (a) consumer shopping patterns (20), Q5 (a) economic and social change for families (20).",
+          "marks": 20,
+          "minutes": 9,
+          "see": "The main 15 to 20 mark part of each Section B question: 'Discuss', 'Analyse', 'Evaluate', sometimes with headings. 2025 Q3 (b): 'Discuss the importance of correct food storage and cooking/reheating procedures in ensuring that food is safe.'",
+          "marked": "A number of points at equal marks, graded in three: 2025 Q1 (e) 4 points at 5 marks (5:3:0); Q3 (b) 4 points at 5 marks (5:3:0), with one on storage, one on cooking and reheating and two others; Q5 (a) 4 points at 5 marks (5:3:0); Q4 (a) 4 points at 4 marks (4:2:0), one each on choosing, using and disposing plus one other.",
+          "play": "If the question names headings, cover each one first, then add your extra point. Make the point, explain why it matters, and finish with an Irish example or a named guideline. Leave a line between points so the examiner can count them.",
+          "traps": [
+            "Leaving out one of the named headings: the scheme demands one point on each",
+            "A list of factors with no explanation scores the partial mark at best",
+            "Using the same point twice under two headings",
+            "Going over time because the 20-mark part feels easy: every part is marked the same way"
+          ]
+        },
+        {
+          "name": "Laws, schemes and consumer protection",
+          "where": "2025 Q3 (c) Hygiene of Foodstuffs Regulations 2006 (12), Q4 (c) Sale of Goods and Supply of Services Act 1980 (12); 2026 Q1 (e) strategies for safe, good-value protein shopping (20) and Q3 (c) how labelling helps consumers (16).",
+          "marks": 12,
+          "minutes": 6,
+          "see": "'Describe the protection provided...' or 'Explain how the Act protects consumers when...'",
+          "marked": "3 points at 4 marks (4:2:0) for both 2025 questions. The scheme credits specific content: goods must be of merchantable quality, fit for the purpose and as described; repair, replace or refund; a food safety management system (HACCP); staff trained; closure orders.",
+          "play": "Name the Act, then give three separate protections, each with a clause on what it means for the consumer. Choose your three from the list you have learnt: do not try to remember everything.",
+          "traps": [
+            "The Act's name and date with no content",
+            "Two points that are really the same ('fit for purpose' and 'does what it says')",
+            "Confusing the Sale of Goods Act with the Consumer Credit Act",
+            "Describing a retailer's policy instead of the law"
+          ]
+        },
+        {
+          "name": "A study you have undertaken",
+          "where": "2025 Q4 (b) one refrigeration appliance (22 marks: working principle and modern features); Ordinary Level 2026 Q4 (a) microwave ovens (20 marks: modern features, guidelines for use, care and cleaning).",
+          "marks": 22,
+          "minutes": 10,
+          "see": "'Set out details of a study you have undertaken on one...', with bullets. In 2025 you chose which refrigeration appliance (fridge, freezer or fridge-freezer).",
+          "marked": "2025 Q4 (b): name of the appliance at 1 mark, working principle 5 points at 3 marks (3:2:1:0), modern features 3 points at 2 marks (2:1:0). The scheme credits a clearly labelled diagram for the working principle.",
+          "play": "Name the appliance in your first line. Draw a labelled diagram of the cycle (compressor, condenser, evaporator, refrigerant, thermostat) and use it to write your five points. List three modern features by name with one detail each.",
+          "traps": [
+            "Not naming the appliance",
+            "A working principle that skips a stage of the cycle",
+            "A modern feature named with no explanation",
+            "Writing about a different appliance than the one you chose in the first line"
+          ]
+        }
+      ]
     },
     {
       "id": "hom-section-c",
-      "name": "Section C – Elective or Core Option",
+      "name": "Section C – Electives and Core",
       "marks": 80,
-      "color": "#3B82F6",
-      "minutesPerQuestion": 35,
+      "minutes": 38,
+      "minutesPerQuestion": 38,
+      "color": "#8A847D",
       "tips": {
-        "timing": "About 35 minutes — answer one elective question or Question 4 (core), including part (a) and either part (b) or part (c). Electives 1 and 3 and the core option are worth 80 marks; Elective 2 is worth 40 marks.",
-        "structure": "State clearly which question and option you are answering. Develop part (a) fully, then answer only one of (b) or (c). Organise longer responses into focused paragraphs with a point, explanation and relevant Home Economics example.",
+        "timing": "About 38 minutes for one 80-mark question: about 24 on (a) and 14 on (b) or (c). If you are an Elective 2 (Textiles) student, Section C is 40 marks: about 19 minutes. Put the saved 19 into Section B.",
+        "structure": "You answer only one of: Elective 1 (Home Design and Management, 80), Elective 2 (Textiles, Fashion and Design, 40), Elective 3 (Social Studies, 80) or Core Question 4 (80). Each is part (a) plus (b) or (c). If you submitted Textiles coursework you may only attempt Question 2: this is stated on the front of the paper.",
         "reminders": [
-          "Answer part (a) and either part (b) or part (c), not both",
-          "If you submitted Textiles, Fashion and Design coursework, you may attempt only Question 2 in this section",
-          "Check whether your chosen option is worth 40 or 80 marks",
-          "Keep enough time to complete every sub-part of the chosen question",
-          "Use subject-specific examples and terminology rather than generic statements"
+          "Textiles coursework students answer Question 2 only. Your paper totals 280 marks, and your grade bands are on 280",
+          "Answering two Section C questions only counts your best one: do not waste the time",
+          "Read the whole of (a), (b) and (c) before choosing: (b) and (c) are different topics",
+          "Elective questions are the same in style as Section B: graded points on named headings"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Core Question 4 (80 marks)",
+          "where": "Section C, every year. 2025: 4 (a) meat (20, 18, 12), (b) mortgages, (c) meal planning for older people. 2026: 4 (a) wholegrain cereals, flour production and special diets (16, 18, 16), (b) sensory analysis, (c) caring for a family member with special needs.",
+          "marks": 80,
+          "minutes": 38,
+          "see": "Part (a) has three 15 to 20 mark sub-parts and is compulsory for this question. Then you choose (b) or (c) for another 30 marks. Core is open to everyone who did not submit Textiles coursework.",
+          "marked": "Same points at graded marks as Section B. 2025 4 (a) (ii): 2 causes of toughness at 3 marks plus 4 tenderising methods at 3 marks (3:2:0). 4 (c): 3 points at 5 marks (5:3:0) and a steaming evaluation under the three bullets.",
+          "play": "Read (b) and (c) before you commit to Core: if both look weak, choose an elective instead. Spend about 24 minutes on (a) and 14 on (b) or (c).",
+          "traps": [
+            "Picking Core and finding neither (b) nor (c) is learnt",
+            "Answering both (b) and (c): only one counts",
+            "Starting (b) without finishing all of (a)",
+            "Missing a bullet in 'evaluate with reference to'"
+          ]
+        },
+        {
+          "name": "Elective 1: Home Design and Management (80 marks)",
+          "where": "Section C, Elective 1, every year. 2025: kitchen and dining room design, lighting and ventilation, then housing needs or water systems. 2026: housing provision and amenities then house design or renewable energy.",
+          "marks": 80,
+          "minutes": 38,
+          "see": "Three-part (a) of 50 marks and a (b) or (c) of 30. 2025 1 (a) (i): 'Discuss the factors that influence the design of a kitchen/dining room' with three bullets.",
+          "marked": "4 points at 4 marks (4:2:0), one on each heading and one other, in 2025 1 (a) (i). (b) (i) outlines of housing requirements are 18 marks. (c) (ii) strategies 15 marks.",
+          "play": "Learn one system fully (heating, water, lighting). Quote real figures or named schemes (Housing for All, SEAI). Tie each point to the family or home in the question.",
+          "traps": [
+            "Ignoring the named bullets",
+            "Describing systems with no link to the household in the question",
+            "Missing the second part of the question",
+            "Using the same example under two parts"
+          ]
+        },
+        {
+          "name": "Elective 3: Social Studies (80 marks)",
+          "where": "Section C, Elective 3, every year. 2025: work and flexible hours, lifelong learning, poverty. 2026: unemployment, voluntary work, education in child development.",
+          "marks": 80,
+          "minutes": 38,
+          "see": "A (a) of 50 marks in three parts and a (b) or (c) of 30. 2025 3 (a) (i): 'Discuss how increased educational requirements and flexibility in working hours have impacted work in Ireland.'",
+          "marked": "5 points at 4 marks (4:2:0) with two on each named heading plus one other (2025 3 (a) (i)); 3 points at 5 marks (5:3:0) with one on each of intrinsic and extrinsic plus one more (3 (a) (ii)); a named childcare option at 3 marks (3:0).",
+          "play": "Use Irish facts: schemes (Springboard+, flexi time), a named group or statute. Write one point per mark block and make the heading counts match.",
+          "traps": [
+            "Not splitting your points across the named headings",
+            "General opinions in place of Irish facts",
+            "A named service or statute described in one line",
+            "Poor time split across the three parts of (a)"
+          ]
+        },
+        {
+          "name": "Elective 2: Textiles, Fashion and Design (40 marks, coursework candidates only)",
+          "where": "Section C, Question 2. 2025: 2 (a) a blazer outfit (15 + 10), then 2 (b) performance tests (15) or 2 (c) fashion trends and restyling (9 + 6). 2026: 2 (a) fashion trends, sketch an outfit, fabric and aesthetic appeal (9 + 9 + 7), then 2 (b) profile of a natural fabric (15) or 2 (c) function and social influences (6 + 9).",
+          "marks": 40,
+          "minutes": 19,
+          "see": "If you submitted Textiles, Fashion and Design coursework, Question 2 is the only Section C question you may attempt. It is 40 marks, so your paper is out of 280, not 320. Part (a) is 25 marks, and you choose (b) or (c) for 15 marks. Part (a) often shows pictures (2025: two blazer outfits) or asks you to sketch (2026).",
+          "marked": "2025 2 (a) (i): 3 points at 5 marks (5:3:0), one on each outfit and one other, under design, comfort and aesthetic appeal. (ii): the design principle at 4 marks plus 2 points at 3 marks (3:2:0). 2 (b): two tests named at 3 marks (3:2:0) and 3 procedure steps at 3 marks (3:2:0). 2 (c): 3 influences at 3 marks (3:2:0), 2 restyling ideas at 3 marks (3:2:0). If you also answer another Section C question, only the greater mark counts, so the extra answer is wasted time. Your grade bands are on 280: Grade 1 is 252 to 280.",
+          "play": "Spend about 19 minutes and use the time saved for Section B. In (a), refer to the picture in every point and name the design principle (balance, emphasis, proportion, rhythm). In (b), learn two tests with a short procedure each (abrasion, absorbency, crease resistance, colourfastness).",
+          "traps": [
+            "Answering another Section C question as well: the examiner counts the best one only",
+            "Evaluating an outfit without naming a feature in the picture",
+            "Describing the principle instead of showing where it appears in the outfit",
+            "A test procedure with no control sample or no way to compare results"
+          ]
+        }
+      ]
     }
   ]
 };

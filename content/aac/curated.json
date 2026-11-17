@@ -438,87 +438,189 @@
  },
  "pe": {
   "subjectTitle": "Physical Education",
-  "level": "Common level",
-  "stages": [
-   {
-    "name": "PAP Section A – Choose and analyse",
-    "marks": null,
-    "marksNote": "~700 words",
-    "from": [
-     0,
-     1
-    ],
-    "checklist": [
-     "Pick a competitive sport with a Sport Ireland–affiliated governing body and a role, in a different activity area from your Performance Assessment, and get your teacher to confirm both.",
-     "Test every component that matters in your sport, compare your results with referenced normative data, and interpret what they mean for your performance."
-    ]
-   },
-   {
-    "name": "PAP Section B – Goals and training",
-    "marks": null,
-    "marksNote": "~400–450 words",
-    "from": [
-     2
-    ],
-    "checklist": [
-     "Set SMART goals (baseline, target, deadline), as many as your SEC booklet asks for, each drawn from your Section A data.",
-     "Write one followable training plan per goal, justified by the principles of training, and film yourself really doing it."
-    ]
-   },
-   {
-    "name": "PAP Section C – Retest and conclude",
-    "marks": null,
-    "marksNote": "~450–500 words",
-    "from": [
-     3,
-     4
-    ],
-    "checklist": [
-     "Retest everything from Section A and state for each goal whether you achieved it, with numbers and a reason.",
-     "Evaluate each plan, including unintended outcomes, and give realistic next steps.",
-     "Link Sections A, B and C, stay within 1,600 words in Arial 12 and the video limits, reference every source, print-check the PDF and sign Form P.2."
-    ]
-   },
-   {
-    "name": "Performance Assessment – Your video",
-    "marks": null,
-    "marksNote": "30% of PE",
-    "from": [
-     5,
-     6
-    ],
-    "checklist": [
-     "Choose an activity from a different area to your PAP and plan to show it in more than one context, such as drills and a game.",
-     "Film in class under supervision, clearly identifiable, showing a wide range of skills, tactics, rules and safe practice within the SEC length limit, as an MP4."
-    ]
-   }
-  ],
-  "title": "PAP and Performance Assessment",
+  "title": "Physical Activity Project (PAP)",
+  "weight": "20%",
+  "marks": 100,
+  "level": "Higher and Ordinary level",
+  "summary": "The PAP is 20% of Physical Education. Pick a competitive sport and a role, analyse your performance, set three goals with a training plan each, retest, and submit one 1,600-word PDF with three short videos.",
   "brief": {
-   "task": "There is no topic brief. Choose a competitive sport and a role for the Physical Activity Project, and an activity from a different area for the Performance Assessment.",
+   "task": "There is no topic brief. Choose a competitive sport with a Sport Ireland-affiliated governing body and a role (performer or coach/choreographer), in a different activity area from your Performance Assessment.",
    "facts": [
     [
      "PAP activity",
-     "A competitive sport with a Sport Ireland–affiliated governing body, as performer or coach/choreographer, over 8–10 weeks"
+     "A competitive sport with a Sport Ireland-affiliated governing body, as performer or coach/choreographer, over 8 to 10 weeks"
     ],
     [
      "PAP submission",
-     "A PDF booklet of 1,600 words at most, with short MP4 video clips"
+     "One PDF booklet of 1,600 words at most (Arial 12, 28 pages) and three MP4 videos totalling 4 minutes at most, one per section"
     ],
     [
-     "Performance Assessment",
-     "One video of you performing one of your three studied activities, in a different area from your PAP"
+     "Marks",
+     "Section A 25, Section B 45 (three goals), Section C 20, overall coherence 10"
     ],
     [
      "Due",
-     "PAP mid-December 2026; video late March 2027 (exact dates TBC by the SEC)"
+     "PAP mid-December 2026 (2026 cycle: 12 December); exact date to be set by the SEC"
     ]
    ],
    "source": {
     "label": "NCCA guidelines for the Physical Activity Project",
     "url": "https://www.curriculumonline.ie/getmedia/7d5c8744-583f-4f9d-aa37-b808c93ce653/LCPE_AssessmentGuidelines_PAP_EN.pdf"
    }
-  }
+  },
+  "stages": [
+   {
+    "name": "Choose and analyse (Section A)",
+    "marks": 25,
+    "marksNote": "Section A, about 700 words",
+    "from": [
+     0,
+     1
+    ],
+    "checklist": [
+     "Pick a competitive sport with a Sport Ireland-affiliated governing body and a role, in a different activity area from your Performance Assessment, and get your teacher to confirm both.",
+     "Test every area that matters in your sport, present the data in detail and compare it with referenced normative data.",
+     "Interpret what each result means for your performance, linking to your sport and to theory."
+    ]
+   },
+   {
+    "name": "Goals and training (Section B)",
+    "marks": 45,
+    "marksNote": "Section B, about 450 words",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Set three distinct SMART goals from different areas, each drawn from your Section A data.",
+     "Write one individualised training plan per goal in a table, applying a wide range of principles of training.",
+     "Give each goal a rationale linked to theory and a reflection based on really doing the training, and film that training."
+    ]
+   },
+   {
+    "name": "Retest and conclude (Section C)",
+    "marks": 20,
+    "marksNote": "Section C, about 450 words",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "Retest everything from Section A under the same conditions and state for each goal whether you achieved it, with numbers and a reason.",
+     "Reflect on the effect of the training, including unintended outcomes, and give realistic next steps."
+    ]
+   },
+   {
+    "name": "Format and submit",
+    "marks": 10,
+    "marksNote": "Overall coherence",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Link Sections A, B and C, and make the three videos support the text in each section.",
+     "Stay inside every limit: 1,600 words, 16 images (4, 8 and 4), 4 minutes of video, no collages or text in video.",
+     "Reference every source, proofread the printed PDF and sign Form P.2."
+    ]
+   }
+  ],
+  "short": "PAP"
+ },
+ "pe-performance": {
+  "subject": "pe",
+  "subjectTitle": "Physical Education",
+  "title": "Performance Assessment",
+  "weight": "30%",
+  "marks": 150,
+  "level": "Common level",
+  "summary": "The Performance Assessment is 30% of Physical Education, marked out of 150. You submit one video of up to 8 minutes of your best performance in one of your three studied activities, in a different area from your PAP.",
+  "brief": {
+   "task": "There is no topic brief. Choose one of your three studied activities, in a different physical activity area from your Physical Activity Project, and record your best performance in class between January and March.",
+   "facts": [
+    [
+     "Activity",
+     "One of your three studied activities, in a different area from the PAP"
+    ],
+    [
+     "Video",
+     "One MP4 of 8 minutes at most, a single best performance, with two mandatory text slides and up to four optional ones"
+    ],
+    [
+     "Marks",
+     "Skill and technique 80, tactics 20, rules 10, safe practice 10, overall performance 30 (150 in total)"
+    ],
+    [
+     "Due",
+     "Late March 2027 (2026 cycle: 23 March); exact date to be set by the SEC"
+    ]
+   ],
+   "source": {
+    "label": "NCCA guidelines for the Performance Assessment",
+    "url": "https://www.curriculumonline.ie/getmedia/26801e8b-f491-4a98-9254-d6025cf1ab2d/LCPE_AssessmentGuidelines_PA_EN.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Choose your activity",
+    "marks": null,
+    "marksNote": "Agreed with your teacher",
+    "from": [
+     0
+    ],
+    "checklist": [
+     "Pick an activity from a different area to your PAP and agree it with your teacher.",
+     "Plan to show it in more than one context, such as a conditioned practice and a full game, and check the specification's list of skills."
+    ]
+   },
+   {
+    "name": "Prepare and practise",
+    "marks": null,
+    "marksNote": "Fifth and sixth year",
+    "from": [
+     1
+    ],
+    "checklist": [
+     "Practise every listed skill so you can show a wide variety, on both sides where the activity allows.",
+     "Rehearse under pressure and learn the rules, tactics and safety procedures of your activity."
+    ]
+   },
+   {
+    "name": "Skill and technique",
+    "marks": 80,
+    "marksNote": "80 marks",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Show accurate, consistent skills that hold up over repetitions.",
+     "Perform with control and fluency, and keep your technique stable under pressure."
+    ]
+   },
+   {
+    "name": "Tactics, rules and safety",
+    "marks": 40,
+    "marksNote": "40 marks",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "Use tactics, strategies or composition that clearly help the performance, and show every required element.",
+     "Follow every rule and code and show a warm-up, a cool-down and safe use of equipment and attire."
+    ]
+   },
+   {
+    "name": "Overall performance, film and submit",
+    "marks": 30,
+    "marksNote": "30 marks",
+    "from": [
+     4
+    ],
+    "checklist": [
+     "Show confident, consistent performance in a range of contexts, in complete form within 8 minutes.",
+     "Meet every video rule: be identifiable throughout, no speed changes, collages, music or extra text, and a correct introductory slide.",
+     "Name the MP4 to the SEC convention and check the late-March 2027 date."
+    ]
+   }
+  ],
+  "short": "Performance"
  },
  "home-economics": {
   "subjectTitle": "Home Economics",
@@ -573,19 +675,6 @@
      "Write evaluation (a) on the implementation and (b) on the specific requirement under separate headings, each backed by evidence from your practical and what you would change.",
      "Keep the booklet in Arial 12 with 1.5 spacing, check no box has overflowed, convert to PDF, print-check it and sign Form P.2."
     ]
-   },
-   {
-    "name": "Elective 2 only – Textiles coursework",
-    "marks": null,
-    "marksNote": "Folder 25 + garment 75 · 10%",
-    "from": [
-     6,
-     7
-    ],
-    "checklist": [
-     "In the design folder, analyse the brief's requirements and constraints, explore the theme in sketches, justify your garment, record the work sequence and evaluate it against the brief.",
-     "Make the garment with two of the three mandatory processes, the theme clearly visible and skills beyond Junior Cycle, finished and pressed, by 6 April 2027."
-    ]
    }
   ],
   "brief": {
@@ -603,16 +692,16 @@
      "Two of the five under the 2027 arrangements; confirm with your teacher"
     ],
     [
+     "Marks per assignment",
+     "80: investigation 32, planning 8, implementation 28, evaluation 12"
+    ],
+    [
+     "Weight",
+     "20% of your Home Economics grade"
+    ],
+    [
      "Food Studies due",
      "2 November 2026 (already passed)"
-    ],
-    [
-     "Elective 2 Textiles",
-     "Design a holiday outfit for a young person, then make one garment with two of: buttons and buttonholes, darts or shaping, a pocket"
-    ],
-    [
-     "Textiles due",
-     "6 April 2027"
     ]
    ],
    "source": {
@@ -620,6 +709,101 @@
     "url": "https://exams.ie/project-files/lc/home-economics/2026-27-food-studies-assignments.pdf"
    }
   },
-  "summary": "Food Studies is the practical coursework journal, worth 20% of Home Economics: each assignment is recorded as an investigation, planning, a supervised practical and an evaluation. Students taking Elective 2 also complete Textiles, Fashion and Design coursework, worth 10%."
+  "summary": "Food Studies is the practical coursework journal, worth 20% of Home Economics: each assignment is recorded as an investigation, planning, a supervised practical and an evaluation. It was due on 2 November 2026.",
+  "short": "Food Studies"
+ },
+ "home-economics-textiles": {
+  "subject": "home-economics",
+  "subjectTitle": "Home Economics",
+  "title": "Textiles, Fashion and Design Coursework",
+  "weight": "10%",
+  "marks": 100,
+  "level": "Both levels (Elective 2 only)",
+  "summary": "Textiles, Fashion and Design coursework is only for Elective 2 students and is worth 10% of Home Economics (marked out of 100: design folder 25, garment 75). You design a holiday outfit for a young person, make one garment from it with two of three prescribed processes, and hand both in by 6 April 2027.",
+  "brief": {
+   "task": "Design and sketch an outfit for a young person to wear on holiday, set out the design specifications, then make and evaluate one garment from it, supported by a design folder.",
+   "list": [
+    "Theme: our values, interests and personality can be expressed through our holiday wardrobe.",
+    "The outfit can be knitted, crocheted or machine stitched.",
+    "The garment must include two of: button/s and buttonhole/s, darts or shaping, a pocket.",
+    "Individual work only, done in class under your teacher's supervision, with your examination number on the folder and the garment."
+   ],
+   "facts": [
+    [
+     "Elective 2 only",
+     "Only Elective 2 students do it, and they may only answer Question 2 in Section C of the written paper"
+    ],
+    [
+     "Weight",
+     "10% of your Home Economics grade (70% written exam, 20% Food Studies)"
+    ],
+    [
+     "Marks",
+     "100: design folder 25, garment 75"
+    ],
+    [
+     "Textiles due",
+     "Tuesday 6 April 2027"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Textiles, Fashion and Design Elective Practical Coursework Assignment Brief",
+    "url": "https://www.examinations.ie/docs/viewer.php?q=c5d51109c575f870bf3603067a46c46e43fd3589"
+   }
+  },
+  "stages": [
+   {
+    "name": "Brief, theme research and design folder",
+    "marks": 15,
+    "marksNote": "Design brief: analysis and research",
+    "from": [
+     0
+    ],
+    "checklist": [
+     "List the brief's key requirements and constraints: young person, holiday, theme, two processes, 6 April 2027.",
+     "Explore the theme in sketches of the full outfit, then name the garment you will make.",
+     "Justify the outfit and garment with reasons, and outline your plan of work in order."
+    ]
+   },
+   {
+    "name": "Make the garment",
+    "marks": 50,
+    "marksNote": "Skills and processes",
+    "from": [
+     1
+    ],
+    "checklist": [
+     "Include two of the three processes (buttons and buttonholes, darts or shaping, pocket) and execute each neatly.",
+     "Show a range of textile skills beyond Junior Cycle level, all done in class under supervision.",
+     "Make the theme clearly identifiable in the garment."
+    ]
+   },
+   {
+    "name": "Design quality and finish",
+    "marks": 25,
+    "marksNote": "Design aspects 15, finish 10",
+    "from": [
+     2
+    ],
+    "checklist": [
+     "Apply design principles (balance, emphasis, proportion, rhythm) and show where in the garment.",
+     "Trim, check and press the garment so it is ready to present."
+    ]
+   },
+   {
+    "name": "Record, evaluate and submit",
+    "marks": 10,
+    "marksNote": "Implementation 4, evaluation 6",
+    "from": [
+     3
+    ],
+    "checklist": [
+     "Record the work sequence, with a note on how you did each mandatory process.",
+     "Evaluate the garment against the brief: difficulties, how you fixed them, and modifications.",
+     "Put your examination number on the folder and garment, reference every source, and hand in by 6 April 2027."
+    ]
+   }
+  ],
+  "short": "Textiles"
  }
 }

@@ -222,6 +222,11 @@ window.EXAM_BREAKDOWN["geography"] = {
             "'Difference' means subtract. 'Percentage change' means change divided by the original, times 100"
           ]
         }
+      ],
+      "bank": [
+        {
+          "sectionId": "geo-sectionP1"
+        }
       ]
     },
     {
@@ -283,6 +288,16 @@ window.EXAM_BREAKDOWN["geography"] = {
             "If you name a second process or example, that's 1 SRP. A third needs explaining to count"
           ]
         }
+      ],
+      "bank": [
+        {
+          "sectionId": "geo-sectioncore",
+          "numbers": [
+            1,
+            2,
+            3
+          ]
+        }
       ]
     },
     {
@@ -340,6 +355,16 @@ window.EXAM_BREAKDOWN["geography"] = {
             "The wrong kind of region (a European example in an Irish question) scores 0",
             "Describing an activity without saying how the factor shaped it caps that factor at 1 SRP",
             "Comparisons (core vs periphery) need both sides. Pure description of either side caps at 2 SRPs"
+          ]
+        }
+      ],
+      "bank": [
+        {
+          "sectionId": "geo-sectioncore",
+          "numbers": [
+            4,
+            5,
+            6
           ]
         }
       ]
@@ -426,6 +451,11 @@ window.EXAM_BREAKDOWN["geography"] = {
             "If you name a second example, that's 1 SRP; general points with no example score poorly"
           ]
         }
+      ],
+      "bank": [
+        {
+          "sectionId": "geo-sectionelective"
+        }
       ]
     },
     {
@@ -458,6 +488,11 @@ window.EXAM_BREAKDOWN["geography"] = {
             "If an aspect isn't clearly named, you lose its 3 or 4 identifying marks",
             "A fifth or sixth thin aspect earns nothing: surplus points beyond the scheme aren't credited"
           ]
+        }
+      ],
+      "bank": [
+        {
+          "sectionId": "geo-sectionoption"
         }
       ]
     }

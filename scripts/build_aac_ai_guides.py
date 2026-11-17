@@ -1,4 +1,4 @@
-"""Build one AI review guide PDF per AAC subject from aac-guides.js.
+"""Build one AI review guide PDF per AAC guide (one per coursework component) from aac-guides.js.
 
 The PDF is a prompt: a student attaches it with their draft to a chatbot, which then
 reviews every paragraph (left untouched, with an example rewording and the reason
@@ -62,26 +62,39 @@ SUBJECTS = {
     },
     "home-economics": {
         "ask": [
-            "which piece of work this is: one Food Studies assignment (Areas A, A, B, D or E) or the Elective 2 Textiles folder",
+            "which Food Studies assignment this is (Area A, B, D or E)",
             "their level (Higher or Ordinary)",
         ],
         "marking": (
-            "Food Studies: mark one assignment out of 80 (Investigation 32, Planning and preparation 8, Implementation 28, Evaluation 12). "
-            "Implementation is partly judged on a practical the teacher supervised, so mark only the written account and say so. "
-            "Textiles: mark the folder only, out of 25 (design brief, analysis and research 15, implementation 4, evaluation 6). Never estimate the garment's 75 marks."
+            "Mark one assignment out of 80 (Investigation 32, Planning and preparation 8, Implementation 28, Evaluation 12). "
+            "Implementation is partly judged on a practical the teacher supervised, so mark only the written account and say so."
         ),
         "notes": [
             "Each Food Studies assignment is a separate piece of work. Review only the one the student names.",
             "The Food Studies hand-in date for 2027 (2 November 2026) has passed. If the student is still working on it, note this once and continue.",
         ],
     },
+    "home-economics-textiles": {
+        "ask": ["their level (Higher or Ordinary)"],
+        "marking": "Mark the design folder only, out of 25 (design brief, analysis and research 15, implementation 4, evaluation 6). Never estimate the garment's 75 marks.",
+        "notes": [
+            "The garment or item is examined in person, so judge only what the folder shows about it.",
+        ],
+    },
     "pe": {
-        "ask": ["which part they are sharing: Physical Activity Project Section A, B or C, or the spoken introduction to their Performance Assessment video"],
+        "ask": ["which section of the Physical Activity Project they are sharing: A, B or C"],
         "marking": None,
         "no_marks_reason": "The SEC has not published section marks for the Physical Activity Project, and the only split available comes from a single teacher presentation, so a number would be guesswork.",
         "notes": [
-            "The Performance Assessment is a video and cannot be reviewed. If the student pastes the script of their spoken introduction, review that against the video guidance; otherwise skip it.",
             "Use the top-band descriptors in the reference to say what each section would need to reach the top band.",
+        ],
+    },
+    "pe-performance": {
+        "ask": ["which activity they are performing and what their video plan or spoken introduction says"],
+        "marking": None,
+        "no_marks_reason": "The Performance Assessment is a video marked on the performance itself, so a written draft cannot be given a mark.",
+        "notes": [
+            "The video cannot be reviewed. Review only the written plan or the script of the spoken introduction against the video guidance, and check it covers every required context.",
         ],
     },
 }
