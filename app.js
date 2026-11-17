@@ -5485,22 +5485,26 @@ function renderBreakdownPanel(data, section, idx) {
     </section>`;
 }
 
-// The exam morning as a timeline: each block's width is its share of the minutes
+// The exam morning as a timeline. Wide: one bar drawn to scale (each block's width is exactly its
+// share of the minutes) with the blocks' text in even columns beneath. Narrow: the blocks run down
+// the page with their own bars, heights scaled by minutes (see .bd-day in styles.css).
 function renderExamDay(day) {
   if (!day) return '';
   const tl = day.timeline || [];
-  // A 5-minute block would be a sliver, so every column keeps a readable minimum
-  const cols = tl.map((b) => `minmax(6.5rem, ${b.minutes}fr)`).join(' ');
-  return `<section class="aac-brief bd-day" aria-label="How the exam goes">
+  const bar = (b) => `<span class="bd-tl-bar">${(b.split || [{ minutes: b.minutes }]).map((x) => `<span style="flex-grow:${x.minutes}">${x.label ? `${escapeHtml(x.label)} ${x.minutes}′` : ''}</span>`).join('')}</span>`;
+  return `<section class="aac-brief bd-day" aria-label="Time breakdown">
     <div class="aac-brief-main">
-      <span class="bd-label">How the exam goes</span>
+      <span class="bd-label">Time breakdown</span>
       <p class="aac-brief-task">${escapeHtml(day.task)}</p>
     </div>
-    <ol class="bd-timeline" style="grid-template-columns:${cols}">
+    <div class="bd-tl-scale" aria-hidden="true" style="grid-template-columns:${tl.map((b) => `${b.minutes}fr`).join(' ')}">
+      ${tl.map((b) => `<span style="--c:${b.color}">${bar(b)}</span>`).join('')}
+    </div>
+    <ol class="bd-timeline" style="grid-template-columns:repeat(${tl.length}, minmax(0, 1fr))">
       ${tl.map((b, i) => `
       <li class="bd-tl-block" style="--c:${b.color};--m:${b.minutes}">
         <span class="bd-tl-time">${escapeHtml(b.start)}${i === tl.length - 1 && day.end ? `<span>${escapeHtml(day.end)}</span>` : ''}</span>
-        <span class="bd-tl-bar">${(b.split || [{ minutes: b.minutes }]).map((x) => `<span style="flex-grow:${x.minutes}">${x.label ? `${escapeHtml(x.label)} ${x.minutes}′` : ''}</span>`).join('')}</span>
+        ${bar(b)}
         <strong class="bd-tl-label">${escapeHtml(b.label)}</strong>
         <span class="bd-tl-mins">${b.minutes} min</span>
         <p class="bd-tl-detail">${escapeHtml(b.detail)}</p>
