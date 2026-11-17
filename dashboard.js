@@ -31,6 +31,63 @@ function iconHtml(name) {
   return `<span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICONS[name] || ""}</svg></span>`;
 }
 
+// ── Subject page sections ──
+// scripts/subject-pages.cjs runs this file at build time to write each subject page's tiles
+// and placeholders into its HTML, so they show before the app's scripts have loaded.
+const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam" };
+// Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
+// One AAC section per coursework component in aac-guides.js (none for Maths).
+function sectionsFor(subjectId) {
+  const sections = subjectId === "maths" ? ["guide", "aac", "exam"] : Object.keys(SECTION_LABELS);
+  return sections.flatMap((id) => (id === "aac" ? aacGuidesFor(subjectId).map((a) => a.section) : [id]));
+}
+// A subject with two coursework components (PE, Home Economics) has two guides: aac-guides.js
+// keys them "<subject>" and "<subject>-<part>", and their sections are "aac" and "aac-<part>".
+function aacGuidesFor(subjectId) {
+  return Object.entries(window.AAC_GUIDES || {})
+    .filter(([, guide]) => guide.subject === subjectId)
+    .map(([key, guide]) => ({ key, guide, section: key === subjectId ? "aac" : `aac-${key.slice(subjectId.length + 1)}` }));
+}
+const isAacSection = (id) => /^aac(-|$)/.test(id);
+function sectionLabel(subjectId, id) {
+  if (!isAacSection(id)) return SECTION_LABELS[id] || "";
+  const all = aacGuidesFor(subjectId);
+  const own = all.find((a) => a.section === id);
+  return all.length > 1 && own ? `AAC · ${own.guide.short || own.guide.title}` : SECTION_LABELS.aac;
+}
+
+function sectionTilesHtml(subjectId) {
+  const tiles = sectionsFor(subjectId).map((id) => `
+    <li><a class="section-tile" href="app/${subjectId}/#${id}">${iconHtml(isAacSection(id) ? "aac" : id)}<span>${escapeHtml(sectionLabel(subjectId, id))}</span></a></li>`).join("");
+  return `<ul class="section-tiles">${tiles}</ul>`;
+}
+
+// Placeholder shapes shown while a screen's data downloads
+function skeletonHtml(kind) {
+  const bar = (w, h = "0.9rem", extra = "") => `<span class="skeleton" style="width:${w};height:${h};${extra}"></span>`;
+  // Margins pad a bar out to the line box of the text it stands in for (line-height 1.55 / 1.65)
+  const small = (w) => bar(w, "0.7rem", "margin-block:0.1925rem");
+  if (kind === "card") {
+    // Same parts and classes as the real card (head, centred face, controls) so nothing shifts when it loads
+    return `
+      <header class="study-card-head" aria-hidden="true">
+        <div class="study-progress"><div class="progress-bar"><span style="width:0"></span></div>${small("1.6rem")}</div>
+        ${small("2rem")}
+      </header>
+      <div class="study-face" aria-busy="true" aria-label="Loading flashcard">${bar("min(320px, 70%)", "1em", "font-size:clamp(1.35rem, 2.5vw, 2rem);margin-block:0.325em")}</div>
+      <div class="study-card-footer" aria-hidden="true">
+        <div class="study-controls">
+          <button id="prevCard" class="button-secondary study-step" tabindex="-1" disabled>←</button>
+          <button id="flipCard" class="button-primary" tabindex="-1" disabled>Reveal</button>
+          <button id="nextCard" class="button-secondary study-step" tabindex="-1" disabled>→</button>
+          <button id="markLearned" class="button-secondary study-learned" tabindex="-1" disabled>Mark learned</button>
+        </div>
+      </div>`;
+  }
+  const rows = [0, 1, 2, 3].map(() => `<div class="skeleton-row">${bar("34%", "1rem")}${bar("92%")}${bar("78%")}</div>`).join("");
+  return `<div class="skeleton-block" aria-busy="true" aria-label="Loading">${rows}</div>`;
+}
+
 function setStudyRange(days) {
   studyRange = days;
   renderAll();
