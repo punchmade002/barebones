@@ -3869,7 +3869,12 @@ body.modal-open { overflow: hidden; }
   flex-direction: column;
   align-items: flex-end;
   gap: 0.5rem;
+  /* The closed menu still takes up room below the clock; only the controls catch clicks */
+  pointer-events: none;
 }
+
+.timer-clock-btn,
+.timer-active { pointer-events: auto; }
 
 /* ── Idle: clock + menu that drops down ── */
 .timer-idle {
@@ -5596,8 +5601,8 @@ body.onboarding-open .timer-widget {
 
 .outcome-picker {
   display: grid;
-  gap: 1rem;
-  padding: 0.4rem 0 2.5rem;
+  gap: 0.75rem;
+  padding: 0 0 2.5rem;
   animation: distilled-enter 220ms var(--ease);
 }
 
@@ -5906,25 +5911,20 @@ body.onboarding-open .timer-widget {
   from { opacity: 0; transform: translateX(-1.5rem); }
 }
 
-.outcome-picker-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.outcome-picker-head { flex-wrap: wrap; }
-.outcome-picker-actions { display: flex; gap: 0.5rem; margin-left: auto; }
-
-.outcome-picker-head .outcome-picker-notes,
-.outcome-picker-head .outcome-picker-exam {
+/* Full notes: one full-width button under the subsection cards */
+.outcome-picker-notes {
+  width: 100%;
+  padding: 0.95rem 1rem;
   border: 1.5px solid var(--line);
-  border-radius: var(--r-full);
+  border-radius: var(--r-md);
   background: var(--panel);
-  color: var(--ink-2);
-  font-size: 0.78rem;
-  padding: 0.4rem 0.9rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+  box-shadow: var(--s0);
 }
+
+.outcome-picker-notes:hover { border-color: var(--accent-light); color: var(--accent-strong); }
 
 /* ── Live reading — lyrics-style, three lines at a time ── */
 .live-reader {

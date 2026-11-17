@@ -41,8 +41,7 @@ function pageMeta(subject) {
 function renderHead(subject) {
   // Links are written from the site root: the page sets <base href="/">
   return `<header class="subject-head">
-            <a class="subject-head-back" href="app.html">Your subjects</a>
-            <h1><a href="app/${subject.id}/#"><span class="sr-only">Leaving Cert </span>${escapeHtml(subject.name)}</a></h1>
+            <h1><a class="subject-head-back" href="app.html"><span class="sr-only">Leaving Cert </span>${escapeHtml(subject.name)}</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>`;
 }

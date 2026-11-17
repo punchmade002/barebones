@@ -1996,11 +1996,21 @@ function renderStudyContext() {
     return;
   }
 
-  // The subsection grid sits under the subject header already, so it skips the subject link
+  // The subject heading above steps back to the chapter list; the section's name moves under the chapter's
   els.studyContext.innerHTML = `
-    ${isPickingOutcome() ? "" : `<button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to ${escapeHtml(subject.title)} chapters">${escapeHtml(subject.title)}</button>`}
     <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
+    <span class="study-context-section">${escapeHtml(SECTION_LABELS[subjectSection] || "")}</span>
   `;
+}
+
+// Inside a chapter the heading steps back one screen: subsection → subsection grid → chapter list.
+// Elsewhere the link's own href (subject tiles, then your subjects) does the job.
+function stepBackFromHeading(event) {
+  if (els.subjectWorkbench.classList.contains("hidden") || viewMode !== "chapter" || subjectSection === "tests") return;
+  event.preventDefault();
+  const toGrid = els.studyContext.querySelector(".study-context-back");
+  if (toGrid) toGrid.click();
+  else navigateUp();
 }
 
 function chapterHasSubsections(chapter) {
@@ -2044,12 +2054,8 @@ function renderOutcomePicker() {
   }).join("");
 
   picker.innerHTML = `
-    <header class="outcome-picker-head">
-      <span class="outcome-picker-actions">
-        <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
-      </span>
-    </header>
     <div class="outcome-picker-grid">${cardsHtml}</div>
+    <button class="outcome-picker-notes" type="button">Full notes</button>
   `;
 
   // From the grid the notes open on the first subsection and page on from there
@@ -2133,12 +2139,16 @@ function renderSubjectPage() {
   document.getElementById("examBreakdownModal").classList.toggle("hidden", subjectSection !== "guide" && !isAacSection(subjectSection));
   area.dataset.section = subjectSection || "home";
   area.dataset.examView = subjectSection === "exam" && !locked ? examView : "";
-  // Inside a section, the header steps back to the subject's tiles and names the section
+  // The subject heading is the back link: inside a section it steps back to the subject's tiles
   const back = document.querySelector(".subject-head-back");
   if (back) {
-    back.textContent = subjectSection ? PAGE_SUBJECT_DATA.title : "Your subjects";
+    back.title = subjectSection ? `Back to ${PAGE_SUBJECT_DATA.title}` : "Back to your subjects";
     // Same path and query, empty hash: a hash change, not a reload
     back.setAttribute("href", subjectSection ? `${location.pathname}${location.search}#` : "app.html");
+    if (!back.dataset.wired) {
+      back.dataset.wired = "1";
+      back.addEventListener("click", stepBackFromHeading);
+    }
   }
   if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = sectionLabel(PAGE_SUBJECT, subjectSection);
   renderSectionPanel(locked);

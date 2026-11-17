@@ -10,22 +10,6 @@
 .phone-home-label,
 .overview-nav { display: none; }
 
-/* The subject name above a chapter title is a link back to that subject's chapters */
-.nav-up {
-  width: auto;
-  justify-self: start;
-  padding: 0;
-  background: none;
-  border: 0;
-  border-radius: 0;
-  color: var(--muted);
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-align: left;
-}
-
-.nav-up:hover { color: var(--accent-strong); }
-
 /* The timer has nothing to time before sign-in */
 body.auth-open .timer-widget { display: none; }
 
@@ -137,25 +121,6 @@ body.auth-open .timer-widget { display: none; }
 
   .subject-area[data-screen="home"] #subjectWorkbench,
   .subject-area:not([data-screen="home"]) .subject-list-wrap { display: none; }
-
-  /* Back to the level above: "‹ Subjects" on a chapter list, "‹ Biology" on a chapter */
-  .nav-up {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    min-height: 36px;
-    color: var(--ink-2);
-    font-size: 0.85rem;
-    font-weight: 650;
-  }
-
-  .nav-up::before {
-    content: "‹";
-    margin-top: -0.1em;
-    color: var(--accent);
-    font-size: 1.4rem;
-    line-height: 1;
-  }
 
   /* Studying a subsection: "‹ Biology · 1. Scientific Knowledge" goes back to its grid */
   .study-context-back {
