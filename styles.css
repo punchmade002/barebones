@@ -5740,6 +5740,13 @@ body.onboarding-open .timer-widget {
 
 .full-notes-actions button { width: auto; white-space: nowrap; }
 
+/* Full notes covers the top bar but not the timer: the clock takes the toolbar's corner,
+   right of Live reading and Close (phones hide the timer here instead) */
+@media (min-width: 641px) {
+  body:has(#fullNotesScreen:not(.hidden)) .timer-widget { right: clamp(1rem, 4vw, 3rem); } /* the toolbar's side padding */
+  body:has(#fullNotesScreen:not(.hidden)) .full-notes-actions { margin-right: calc(46px + 0.5rem); }
+}
+
 .live-reading-btn.is-active {
   background: var(--panel);
   border-color: var(--line);
