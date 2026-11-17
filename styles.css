@@ -3765,6 +3765,11 @@ body.modal-open { overflow: hidden; }
 .aac-ai-guide { display: grid; gap: 0.25rem; margin: 0 0 1.25rem; padding: 0.85rem 1.1rem; border-radius: var(--r-md); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); background: var(--accent-bg); color: var(--ink-2); font-size: 0.88rem; line-height: 1.45; text-decoration: none; }
 .aac-ai-guide:hover { background: var(--accent-xlight); }
 .aac-ai-guide .bd-label { color: var(--accent-strong); }
+/* Text on the left, the ChatGPT and Claude marks on the right */
+.aac-ai-guide { grid-template-columns: minmax(0, 1fr) auto; column-gap: 1.25rem; align-items: center; }
+.aac-ai-guide > :not(.aac-ai-logos) { grid-column: 1; }
+.aac-ai-logos { grid-column: 2; grid-row: 1 / span 2; display: flex; gap: 0.7rem; }
+.aac-ai-logos img { width: 30px; height: 30px; }
 .aac-brief-facts { margin: 0; display: grid; gap: 0.7rem; align-content: start; }
 .aac-brief-facts div { display: grid; gap: 0.1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); }
 .aac-brief-facts div:last-child { border-bottom: 0; padding-bottom: 0; }
