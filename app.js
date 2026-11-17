@@ -5379,6 +5379,7 @@ function splitSectionName(name) {
 }
 
 function sectionMinutes(section, data) {
+  if (section.minutes) return section.minutes;
   if (!section.marks || section.marksRange || !data.totalMarks || !data.totalMinutes) return null;
   return Math.round((section.marks / data.totalMarks) * data.totalMinutes);
 }
@@ -5420,7 +5421,12 @@ function renderBreakdownModal(data) {
   // A long timingNote is a paragraph, not a stat: show the total time big and the note beneath
   const shortNote = data.timingNote && data.timingNote.length <= 30;
   const timeStr = shortNote ? data.timingNote : (data.totalMinutes ? `${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : data.timingNote || '');
-  const longNote = data.timingNote && !shortNote && data.totalMinutes ? `<p class="bd-timing-note">${escapeHtml(data.timingNote)}</p>` : '';
+  // Where the note names the subject's coursework, that phrase opens its AAC guide
+  const aacTitle = window.AAC_GUIDES?.[data.subject]?.title;
+  const noteHtml = aacTitle
+    ? escapeHtml(data.timingNote || '').replace(escapeHtml(aacTitle), `<a class="bd-note-link" href="/app/${data.subject}/#aac">${escapeHtml(aacTitle)}</a>`)
+    : escapeHtml(data.timingNote || '');
+  const longNote = data.timingNote && !shortNote && data.totalMinutes ? `<p class="bd-timing-note">${noteHtml}</p>` : '';
   const meta = `
     <dl class="bd-stats">
       ${data.totalMarks ? `<div><dt>Marks</dt><dd>${data.totalMarks}</dd></div>` : ''}
@@ -5431,6 +5437,7 @@ function renderBreakdownModal(data) {
   return `<div class="bd-screen">
     ${head(meta)}
     ${longNote}
+    ${renderExamDay(data.examDay)}
     ${renderBreakdownBar(data)}
     <div class="bd-panels">
       ${data.sections.map((s, i) => renderBreakdownPanel(data, s, i)).join('')}
@@ -5469,6 +5476,7 @@ function renderBreakdownPanel(data, section, idx) {
           <span class="bd-label">Answer structure</span>
           <p>${tips.structure}</p>
         </div>
+        ${renderQuestionTypes(section.questionTypes)}
         <div class="bd-tip bd-tip--wide">
           <span class="bd-label">Reminders</span>
           <ul class="bd-reminders">
@@ -5488,12 +5496,59 @@ function renderBreakdownPanel(data, section, idx) {
           <span class="bd-marks${section.marksRange ? ' bd-marks--range' : ''}"><strong>${sectionMarksText(section)}</strong> marks</span>
           <span class="bd-facts">${[share, mins && `~${mins} min`, section.minutesPerQuestion && `${section.minutesPerQuestion} min per question`].filter(Boolean).join(' · ')}</span>` : ''}
       </button>
-      <span class="bd-panel-cue" aria-hidden="true">${tips ? `${tips.reminders.length} reminders · ` : ''}Click to open</span>
+      <span class="bd-panel-cue" aria-hidden="true">${section.questionTypes ? `${section.questionTypes.length} question types · ` : tips ? `${tips.reminders.length} reminders · ` : ''}Click to open</span>
       <div class="bd-panel-body">
         ${body}
         <div class="bd-questions" data-questions-slot></div>
       </div>
     </section>`;
+}
+
+// The exam morning as a timeline: each block's width is its share of the minutes
+function renderExamDay(day) {
+  if (!day) return '';
+  const tl = day.timeline || [];
+  // A 5-minute block would be a sliver, so every column keeps a readable minimum
+  const cols = tl.map((b) => `minmax(6.5rem, ${b.minutes}fr)`).join(' ');
+  return `<section class="aac-brief bd-day" aria-label="How the exam goes">
+    <div class="aac-brief-main">
+      <span class="bd-label">How the exam goes</span>
+      <p class="aac-brief-task">${escapeHtml(day.task)}</p>
+    </div>
+    <ol class="bd-timeline" style="grid-template-columns:${cols}">
+      ${tl.map((b, i) => `
+      <li class="bd-tl-block" style="--c:${b.color};--m:${b.minutes}">
+        <span class="bd-tl-time">${escapeHtml(b.start)}${i === tl.length - 1 && day.end ? `<span>${escapeHtml(day.end)}</span>` : ''}</span>
+        <span class="bd-tl-bar">${(b.split || [{ minutes: b.minutes }]).map((x) => `<span style="flex-grow:${x.minutes}">${x.label ? `${escapeHtml(x.label)} ${x.minutes}′` : ''}</span>`).join('')}</span>
+        <strong class="bd-tl-label">${escapeHtml(b.label)}</strong>
+        <span class="bd-tl-mins">${b.minutes} min</span>
+        <p class="bd-tl-detail">${escapeHtml(b.detail)}</p>
+      </li>`).join('')}
+    </ol>
+  </section>
+  ${day.facts?.length ? `<section class="aac-brief bd-day bd-rules" aria-label="Key rules">
+    <span class="bd-label">Key rules</span>
+    <dl class="aac-brief-facts">${day.facts.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('')}</dl>
+  </section>` : ''}`;
+}
+
+// One collapsible row per kind of question in a section: what it looks like, how it's marked, how to play it
+function renderQuestionTypes(types) {
+  if (!types?.length) return '';
+  const rows = [['Where it comes up', 'where'], ["What you'll see", 'see'], ['How it’s marked', 'marked'], ['How to answer', 'play']];
+  return `<div class="bd-tip bd-tip--wide bd-types">
+    <span class="bd-label">Question types · ${types.length}</span>
+    ${types.map((t, i) => `
+      <details class="bd-type"${i === 0 ? ' open' : ''}>
+        <summary>
+          <span class="bd-type-name">${escapeHtml(t.name)}</span>
+          <span class="aac-depth-count">${[t.marks && `${t.marks} marks`, t.minutes && `~${t.minutes} min`].filter(Boolean).join(' · ')}</span>
+        </summary>
+        <dl class="aac-brief-facts">${rows.filter(([, k]) => t[k]).map(([label, k]) => `<div><dt>${label}</dt><dd>${escapeHtml(t[k])}</dd></div>`).join('')}</dl>
+        ${t.traps?.length ? `<span class="bd-label bd-type-traps">Where marks are lost</span>
+        <ul class="bd-reminders">${t.traps.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : ''}
+      </details>`).join('')}
+  </div>`;
 }
 
 function selectBreakdownSection(subjectId, idx) {
