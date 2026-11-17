@@ -20,6 +20,10 @@ test("a subject page names its subject, links from the site root and has its own
   // Crawlable text: the course description and each chapter linked to its notes page
   assert.match(html, /<section id="subjectAbout"/);
   assert.match(html, /<li><a href="\/leaving-cert-biology\/[a-z0-9-]+\/">[^<]+<\/a><\/li>/);
+  // First paint, before the scripts load: the real section tiles, placeholders for what loads later
+  assert.match(html, /<div id="sectionPanel" class="section-panel page-shell">/);
+  assert.match(html, /<a class="section-tile" href="app\/biology\/#flashcards">/);
+  assert.match(html, /class="skeleton-block"/);
   // With <base href="/">, a bare "#notes" would point at the landing page
   assert.doesNotMatch(html, /href="#/);
 });

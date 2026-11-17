@@ -7,13 +7,14 @@
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const { ROOT, SUBJECTS, buildSubjectPage, readTemplate, pageFile, updateSitemap } = require("./subject-pages.cjs");
+const { ROOT, SUBJECTS, appKit, buildSubjectPage, readTemplate, pageFile, updateSitemap } = require("./subject-pages.cjs");
 
 const template = readTemplate();
+const kit = appKit();
 for (const subject of SUBJECTS) {
   const file = pageFile(subject);
   Deno.mkdirSync(file.replace(/index\.html$/, ""), { recursive: true });
-  Deno.writeTextFileSync(file, buildSubjectPage(template, subject));
+  Deno.writeTextFileSync(file, buildSubjectPage(template, subject, kit));
 }
 const sitemap = `${ROOT}/sitemap.xml`;
 Deno.writeTextFileSync(sitemap, updateSitemap(Deno.readTextFileSync(sitemap), new Date().toISOString().slice(0, 10)));

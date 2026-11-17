@@ -12,7 +12,7 @@ const context = {};
 context.window = context;
 vm.createContext(context);
 const html = fs.readFileSync(path.join(root, "app.html"), "utf8");
-for (const [, file] of html.matchAll(/<script src="\.\/([\w-]*exam-(?:info|breakdown)\.js)/g)) {
+for (const [, file] of html.matchAll(/<script (?:defer )?src="\.\/([\w-]*exam-(?:info|breakdown)\.js)/g)) {
   vm.runInContext(fs.readFileSync(path.join(root, file), "utf8"), context, { filename: file });
 }
 const guides = context.EXAM_BREAKDOWN;
