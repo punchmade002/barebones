@@ -26,6 +26,10 @@ for (const id of EXPECTED) {
     assert.ok(g.brief?.task && g.brief.facts.length >= 3, "needs the year's brief: task and key facts");
     assert.ok(g.brief.facts.some(([k]) => /due/i.test(k)), "the brief states when the work is due");
     assert.match(g.brief.source.url, /^https:\/\//);
+    // The guide screen links this PDF; rebuild with scripts/build_aac_ai_guides.py after editing guides
+    const pdf = path.join(root, "aac-ai-guides", `${id}.pdf`);
+    assert.ok(fs.existsSync(pdf), "AI review guide PDF missing");
+    assert.ok(fs.statSync(pdf).mtimeMs >= fs.statSync(path.join(root, "aac-guides.js")).mtimeMs - 1000, "AI review guide PDF is older than aac-guides.js");
     assert.ok(g.sources.length >= 4, "pool at least four sources");
     g.sources.forEach((s) => assert.match(s.url, /^https:\/\//));
     assert.ok(g.stages.length >= 3 && g.stages.length <= 7, "3-7 stages fit the panel layout");

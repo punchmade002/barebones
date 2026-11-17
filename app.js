@@ -5711,6 +5711,10 @@ function renderAacGuide(guide) {
     </header>
     <p class="bd-timing-note">${escapeHtml(guide.summary)}</p>
     ${renderAacBrief(guide.brief)}
+    <a class="aac-ai-guide" href="./aac-ai-guides/${guide.subject}.pdf" download="${escapeHtml(guide.subjectTitle)} AAC AI review guide.pdf">
+      <span class="bd-label">AI review guide · PDF</span>
+      <span>Attach it with your draft to ChatGPT, Claude or Gemini. It leaves your writing as it is and shows how each paragraph could earn more marks, and why.</span>
+    </a>
     ${bar}
     <div class="bd-panels">${panels}</div>
   </div>`;
