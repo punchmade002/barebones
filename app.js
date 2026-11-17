@@ -1981,8 +1981,9 @@ function renderStudyContext() {
     return;
   }
 
+  // The subsection grid sits under the subject header already, so it skips the subject link
   els.studyContext.innerHTML = `
-    <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to ${escapeHtml(subject.title)} chapters">${escapeHtml(subject.title)}</button>
+    ${isPickingOutcome() ? "" : `<button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to ${escapeHtml(subject.title)} chapters">${escapeHtml(subject.title)}</button>`}
     <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
   `;
 }
@@ -2029,7 +2030,6 @@ function renderOutcomePicker() {
 
   picker.innerHTML = `
     <header class="outcome-picker-head">
-      <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
       <span class="outcome-picker-actions">
         <button class="workbench-notes outcome-picker-notes" type="button">Full notes</button>
       </span>

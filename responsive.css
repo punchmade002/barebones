@@ -26,12 +26,6 @@
 
 .nav-up:hover { color: var(--accent-strong); }
 
-/* ── Desktop: the card footer ends under the bottom-right timer, so key words
-   (right end of the footer) stop short of it ── */
-@media (min-width: 981px) {
-  #subjectWorkbench.learn-mode .study-card-footer { padding-right: 2.5rem; }
-}
-
 /* The timer has nothing to time before sign-in */
 body.auth-open .timer-widget { display: none; }
 
@@ -57,12 +51,6 @@ body.auth-open .timer-widget { display: none; }
   .tab:active,
   .graph-chapter:active,
   .timer-opt:active { transform: scale(0.97); }
-}
-
-/* ── Tablet portrait: the timer stays bottom-right, so key words move out of its way ── */
-@media (min-width: 641px) and (max-width: 980px) {
-  .study-keywords { order: -1; margin-left: 0; }
-  .study-keywords-panel { right: auto; left: 0; }
 }
 
 /* ═══════════════════════════════════════════════
@@ -99,47 +87,34 @@ body.auth-open .timer-widget { display: none; }
     box-shadow: var(--s1), 0 0 0 2px var(--accent-light);
   }
 
-  /* Level % rides on the avatar as a badge so the timer can sit beside it */
   .profile-level {
-    top: auto;
-    right: 19px; /* centre of the 38px avatar, not the whole wrap (the calculator shortcut sits left of it) */
+    right: 19px; /* centre of the 38px avatar */
     bottom: -0.45rem;
-    transform: translateX(50%);
     padding: 0.05rem 0.4rem;
     font-size: 0.6rem;
-    box-shadow: 0 0 0 2px var(--bg);
   }
 
   .profile-menu { max-width: calc(100vw - 2rem); }
 
-  /* Timer moves out of the thumb zone into the top bar; its menu drops down */
   .timer-widget {
     top: 0.55rem;
-    right: calc(1rem + 38px + 0.5rem + 38px + 0.6rem); /* avatar + calculator shortcut */
-    bottom: auto;
+    right: calc(1rem + 38px + 0.5rem + 38px + 0.5rem); /* avatar + calculator shortcut */
   }
 
-  .timer-idle { flex-direction: column-reverse; }
-
-  .timer-picker {
-    padding: 0.5rem 0 0;
-    transform: translateY(-6px) scale(0.97);
-    transform-origin: top right;
-  }
-
-  .timer-picker.picker-open { transform: none; }
+  .timer-picker { padding-top: 0.5rem; }
   .timer-opt { min-height: 40px; justify-content: center; }
 
-  .timer-clock-btn {
-    width: 38px;
-    height: 38px;
-    padding: 0;
-    box-shadow: var(--s1);
-  }
+  .timer-clock-btn { width: 38px; height: 38px; }
 
-  .timer-clock-btn svg { flex: none; width: 20px; height: 20px; }
+  /* Narrow enough that "Study 25:00" clears the logo on a 375px screen */
+  .timer-active { height: 38px; min-width: 0; gap: 0.3rem; padding: 0 0.3rem 0 0.75rem; }
+  .timer-active-text { font-size: 0.8rem; }
+  .timer-stop-btn { width: 28px; height: 28px; font-size: 0.9rem; }
+}
 
-  .timer-active { height: 38px; min-width: 0; }
+/* 360px Androids: a smaller wordmark keeps it clear of a running timer */
+@media (max-width: 380px) {
+  .brand-mark img { height: 18px; }
 
   /* Full-screen pages put their Close button where the timer now lives */
   body:has(#progressScreen:not(.hidden)) .timer-widget,

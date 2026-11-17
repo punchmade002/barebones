@@ -292,19 +292,20 @@ h2, h3, h4 {
 }
 
 .profile-level {
+  /* Rides on the avatar as a badge so the timer can sit beside the calculator */
   position: absolute;
-  top: 50%;
-  right: calc(100% + 0.6rem);
-  transform: translateY(-50%);
+  right: 23px; /* centre of the 46px avatar */
+  bottom: -0.5rem;
+  transform: translateX(50%);
   background: var(--accent);
   color: #fff;
   font-weight: 700;
   font-size: 0.75rem;
   font-family: var(--font);
   letter-spacing: 0.02em;
-  padding: 0.25rem 0.65rem;
+  padding: 0.1rem 0.45rem;
   border-radius: var(--r-full);
-  box-shadow: var(--so);
+  box-shadow: 0 0 0 2px var(--bg);
   white-space: nowrap;
 }
 
@@ -3861,7 +3862,8 @@ body.modal-open { overflow: hidden; }
 
 .timer-widget {
   position: fixed;
-  bottom: 1.5rem; right: 1.5rem;
+  top: 0.85rem;
+  right: calc(1.25rem + 46px + 0.6rem + 46px + 0.6rem); /* top bar, left of avatar + calculator shortcut */
   z-index: 900;
   display: flex;
   flex-direction: column;
@@ -3869,19 +3871,19 @@ body.modal-open { overflow: hidden; }
   gap: 0.5rem;
 }
 
-/* ── Idle: picker + clock ── */
+/* ── Idle: clock + menu that drops down ── */
 .timer-idle {
-  display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem;
+  display: flex; flex-direction: column-reverse; align-items: flex-end; gap: 0.5rem;
 }
 
 .timer-picker {
   display: flex; flex-direction: column; gap: 0.35rem;
   opacity: 0; pointer-events: none;
-  transform: translateY(6px) scale(0.97);
-  transform-origin: bottom right;
+  transform: translateY(-6px) scale(0.97);
+  transform-origin: top right;
   transition: opacity 200ms var(--ease), transform 200ms var(--ease);
   /* padding bridges the gap to the clock button so hover stays live */
-  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
 }
 
 /* Picker open state — toggled by JS with delay so gap between button and menu doesn't dismiss it */
@@ -3948,17 +3950,19 @@ body.modal-open { overflow: hidden; }
 }
 .timer-custom-go:hover { background: var(--accent-strong); transform: scale(1.1); }
 
-/* ── Clock button — circle restored, 30% bigger than original 44px ── */
+/* ── Clock button — matches the calculator shortcut beside it ── */
 .timer-clock-btn {
-  width: 58px; height: 58px; border-radius: 50%;
+  width: 46px; height: 46px; border-radius: 50%;
+  padding: 0;
   background: var(--panel);
   border: 1.5px solid var(--line);
-  box-shadow: var(--s2);
+  box-shadow: var(--s1);
   cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  color: var(--muted);
+  color: var(--ink);
   transition: color 150ms, border-color 150ms, box-shadow 150ms, transform 150ms;
 }
+.timer-clock-btn svg { flex: none; width: 20px; height: 20px; }
 .timer-clock-btn:hover {
   color: var(--accent); border-color: var(--accent);
   box-shadow: var(--so); transform: scale(1.08);
@@ -3967,7 +3971,7 @@ body.modal-open { overflow: hidden; }
 /* ── Active timer bar ── */
 .timer-active {
   position: relative;
-  height: 44px; min-width: 210px;
+  height: 46px; min-width: 210px;
   border-radius: var(--r-full);
   background: var(--panel);
   border: 1.5px solid var(--accent-edge);
@@ -5580,6 +5584,9 @@ body.onboarding-open .timer-widget {
 }
 
 /* ── Subsection picker — full workbench grid shown when a chapter opens ── */
+/* The chapter heading lines up with the subject heading above it */
+#subjectWorkbench.picker-mode { padding-inline: 0; }
+
 #subjectWorkbench.picker-mode .workbench-nav,
 #subjectWorkbench.picker-mode .tab-content { display: none !important; }
 
@@ -5592,13 +5599,6 @@ body.onboarding-open .timer-widget {
   gap: 1rem;
   padding: 0.4rem 0 2.5rem;
   animation: distilled-enter 220ms var(--ease);
-}
-
-.outcome-picker-head p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 600;
 }
 
 .outcome-picker-grid {
@@ -5914,7 +5914,7 @@ body.onboarding-open .timer-widget {
 }
 
 .outcome-picker-head { flex-wrap: wrap; }
-.outcome-picker-actions { display: flex; gap: 0.5rem; }
+.outcome-picker-actions { display: flex; gap: 0.5rem; margin-left: auto; }
 
 .outcome-picker-head .outcome-picker-notes,
 .outcome-picker-head .outcome-picker-exam {
@@ -6083,8 +6083,7 @@ body.onboarding-open .timer-widget {
   #fullNotesScreen.is-paged #fullNotesTitle { flex: 1; }
   #fullNotesScreen.is-paged .full-notes-body { padding-inline: 1rem; }
   .live-reader-controls { flex-wrap: wrap; }
-  /* Leave room for the floating study timer in the bottom-right corner. */
-  .live-reader-speed { width: 100%; margin-left: 0; padding-right: 4.5rem; justify-content: center; }
+  .live-reader-speed { width: 100%; margin-left: 0; justify-content: center; }
   .live-reader-speed input[type="range"] { flex: 1; }
 }
 
