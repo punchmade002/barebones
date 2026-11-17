@@ -2172,26 +2172,38 @@ function subjectHomeHtml() {
   return `${sectionTilesHtml(subject.id)}${below}`;
 }
 
+// A chapter with subsections folds open to list them, each opening the notes on its own page;
+// a one-subsection chapter opens its notes straight away
 function notesListHtml() {
   const rows = PAGE_SUBJECT_DATA.chapters.map((ch) => {
-    const subsections = ch.learningOutcomes?.length || 0;
+    const outcomes = ch.learningOutcomes || [];
     const read = hasViewedNotesForChapter(ch.id);
+    const id = escapeHtml(ch.id);
+    const meta = `<span class="chapter-row-meta">${read ? `<span class="chapter-row-done">Read</span>` : outcomes.length > 1 ? plural(outcomes.length, "subsection") : ""}</span>`;
+    if (outcomes.length < 2) return `
+      <li>
+        <button class="chapter-row" type="button" onclick="openChapterNotes('${id}')">
+          <span class="chapter-row-title">${escapeHtml(ch.title)}</span>${meta}
+        </button>
+      </li>`;
     return `
       <li>
-        <button class="chapter-row" type="button" onclick="openChapterNotes('${escapeHtml(ch.id)}')">
-          <span class="chapter-row-title">${escapeHtml(ch.title)}</span>
-          <span class="chapter-row-meta">${read ? `<span class="chapter-row-done">Read</span>` : subsections > 1 ? plural(subsections, "subsection") : ""}</span>
-        </button>
+        <details class="chapter-fold">
+          <summary class="chapter-row"><span class="chapter-row-title">${escapeHtml(ch.title)}</span>${meta}</summary>
+          <ol class="chapter-subs">${outcomes.map((lo) => `
+            <li><button type="button" onclick="openChapterNotes('${id}','${escapeHtml(lo.id)}')">${escapeHtml(compactText(lo.title || ""))}</button></li>`).join("")}
+          </ol>
+        </details>
       </li>`;
   }).join("");
   return `<ol class="chapter-rows">${rows}</ol>`;
 }
 
-function openChapterNotes(chapterId) {
+function openChapterNotes(chapterId, outcomeId = "") {
   const chapter = PAGE_SUBJECT_DATA.chapters.find((c) => c.id === chapterId);
   if (!chapter) return;
   selectedChapterId = chapter.id;
-  selectedOutcomeId = chapter.learningOutcomes[0]?.id || "";
+  selectedOutcomeId = chapter.learningOutcomes.some((lo) => lo.id === outcomeId) ? outcomeId : chapter.learningOutcomes[0]?.id || "";
   // The notes text is in the subject pack; open once it has arrived
   requestSubjectPack(PAGE_SUBJECT).then(() => openFullNotes(selectedOutcomeId), (error) => console.error(error));
 }
