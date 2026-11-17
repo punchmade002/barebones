@@ -3670,6 +3670,9 @@ body.modal-open { overflow: hidden; }
 .aac-brief-list { margin: 0.75rem 0 0; padding-left: 1.3rem; display: grid; gap: 0.3rem; font-size: 0.88rem; line-height: 1.45; color: var(--ink-2); }
 .aac-brief-list li::marker { font-weight: 700; color: var(--accent-strong); }
 .aac-brief-source { display: inline-block; margin-top: 0.85rem; font-size: 0.8rem; font-weight: 600; color: var(--accent-strong); text-underline-offset: 3px; }
+.aac-ai-guide { display: grid; gap: 0.25rem; margin: 0 0 1.25rem; padding: 0.85rem 1.1rem; border-radius: var(--r-md); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); background: var(--accent-bg); color: var(--ink-2); font-size: 0.88rem; line-height: 1.45; text-decoration: none; }
+.aac-ai-guide:hover { background: var(--accent-xlight); }
+.aac-ai-guide .bd-label { color: var(--accent-strong); }
 .aac-brief-facts { margin: 0; display: grid; gap: 0.7rem; align-content: start; }
 .aac-brief-facts div { display: grid; gap: 0.1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); }
 .aac-brief-facts div:last-child { border-bottom: 0; padding-bottom: 0; }
