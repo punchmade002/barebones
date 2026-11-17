@@ -33,7 +33,7 @@
   flex: none;
   display: grid;
   gap: 0.35rem;
-  padding-top: 0.5rem;
+  padding-top: 0; /* sits a little closer under the logo */
 }
 
 

@@ -227,7 +227,61 @@ window.EXAM_BREAKDOWN["geography"] = {
         {
           "sectionId": "geo-sectionP1"
         }
-      ]
+      ],
+      "commandWords": {
+        "higher": [
+          [
+            "Name",
+            52
+          ],
+          [
+            "Match",
+            46
+          ],
+          [
+            "State",
+            38
+          ],
+          [
+            "Calculate",
+            26
+          ],
+          [
+            "Indicate",
+            23
+          ],
+          [
+            "Give",
+            13
+          ]
+        ],
+        "ordinary": [
+          [
+            "Match",
+            60
+          ],
+          [
+            "Tick",
+            35
+          ],
+          [
+            "State",
+            30
+          ],
+          [
+            "Name",
+            30
+          ],
+          [
+            "Indicate",
+            25
+          ],
+          [
+            "Draw",
+            12
+          ]
+        ]
+      }
     },
     {
       "id": "geo-section1",
@@ -298,7 +352,61 @@ window.EXAM_BREAKDOWN["geography"] = {
             3
           ]
         }
-      ]
+      ],
+      "commandWords": {
+        "higher": [
+          [
+            "Name",
+            42
+          ],
+          [
+            "Explain briefly",
+            33
+          ],
+          [
+            "Examine",
+            31
+          ],
+          [
+            "Describe and explain",
+            19
+          ],
+          [
+            "Explain",
+            18
+          ],
+          [
+            "Draw",
+            10
+          ]
+        ],
+        "ordinary": [
+          [
+            "Name",
+            55
+          ],
+          [
+            "Describe and explain",
+            36
+          ],
+          [
+            "Explain briefly",
+            26
+          ],
+          [
+            "Explain",
+            22
+          ],
+          [
+            "Examine",
+            14
+          ],
+          [
+            "State",
+            12
+          ]
+        ]
+      }
     },
     {
       "id": "geo-section2",
@@ -367,7 +475,61 @@ window.EXAM_BREAKDOWN["geography"] = {
             6
           ]
         }
-      ]
+      ],
+      "commandWords": {
+        "higher": [
+          [
+            "Examine",
+            30
+          ],
+          [
+            "Explain briefly",
+            29
+          ],
+          [
+            "Account for",
+            17
+          ],
+          [
+            "Calculate",
+            14
+          ],
+          [
+            "Name",
+            14
+          ],
+          [
+            "Draw",
+            10
+          ]
+        ],
+        "ordinary": [
+          [
+            "Name",
+            43
+          ],
+          [
+            "Explain",
+            35
+          ],
+          [
+            "Explain briefly",
+            26
+          ],
+          [
+            "Describe and explain",
+            23
+          ],
+          [
+            "Describe",
+            15
+          ],
+          [
+            "Calculate",
+            14
+          ]
+        ]
+      }
     },
     {
       "id": "geo-section3",
@@ -456,7 +618,61 @@ window.EXAM_BREAKDOWN["geography"] = {
         {
           "sectionId": "geo-sectionelective"
         }
-      ]
+      ],
+      "commandWords": {
+        "higher": [
+          [
+            "Examine",
+            58
+          ],
+          [
+            "Explain briefly",
+            54
+          ],
+          [
+            "Discuss",
+            26
+          ],
+          [
+            "Name",
+            21
+          ],
+          [
+            "Draw",
+            20
+          ],
+          [
+            "Calculate",
+            13
+          ]
+        ],
+        "ordinary": [
+          [
+            "Name",
+            95
+          ],
+          [
+            "Explain",
+            72
+          ],
+          [
+            "Describe and explain",
+            61
+          ],
+          [
+            "State",
+            36
+          ],
+          [
+            "Explain briefly",
+            33
+          ],
+          [
+            "Describe",
+            21
+          ]
+        ]
+      }
     },
     {
       "id": "geo-section4",
@@ -494,7 +710,36 @@ window.EXAM_BREAKDOWN["geography"] = {
         {
           "sectionId": "geo-sectionoption"
         }
-      ]
+      ],
+      "commandWords": {
+        "higher": [
+          [
+            "Examine",
+            54
+          ],
+          [
+            "Discuss",
+            45
+          ],
+          [
+            "Describe",
+            9
+          ],
+          [
+            "State",
+            6
+          ],
+          [
+            "Give",
+            3
+          ],
+          [
+            "Describe and explain",
+            3
+          ]
+        ]
+      }
     }
-  ]
+  ],
+  "commandWordYears": "2017–2026"
 };
