@@ -5457,6 +5457,7 @@ function renderBreakdownPanel(data, section, idx) {
           <span class="bd-label">Answer structure</span>
           <p>${tips.structure}</p>
         </div>
+        ${renderCommandWords(section, data)}
         ${renderQuestionTypes(section.questionTypes)}
         <div class="bd-tip bd-tip--wide">
           <span class="bd-label">Reminders</span>
@@ -5555,22 +5556,68 @@ function selectBreakdownSection(subjectId, idx) {
   const packReady = examPackReady(subjectId);
   modal.querySelectorAll('[data-questions-slot]').forEach((slot) => {
     const i = Number(slot.closest('.bd-panel').dataset.idx);
-    const section = data.sections[i];
-    const count = (window.EXAM_QUESTIONS_DB || []).filter(q => inBreakdownSection(q, section) && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q)).length;
-    slot.innerHTML = count
-      ? `<button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
-           Practise past-paper questions <span>${count}</span>
+    const questions = sectionQuestions(data.sections[i]);
+    slot.innerHTML = questions.length
+      ? `${renderChapterFrequency(questions, subjectId, i)}
+         <button class="bd-questions-btn" type="button" onclick="openSectionQuestions('${subjectId}',${i})">
+           Practise past-paper questions <span>${questions.length}</span>
          </button>`
       : `<p class="bd-empty">${packReady ? 'No past-paper questions indexed for this section yet.' : 'Loading past-paper questions…'}</p>`;
   });
 }
 
-function openSectionQuestions(subjectId, sectionIdx) {
+// The instruction words this section's questions open with, counted from the past papers
+// (pipeline/command_words.py), at the student's level, Higher until they've picked one
+function renderCommandWords(section, data) {
+  const byLevel = section.commandWords;
+  if (!byLevel) return '';
+  const chosen = getCurrentUser()?.onboarding?.levels?.[data.subject];
+  const level = byLevel[chosen] ? chosen : byLevel.higher ? 'higher' : Object.keys(byLevel)[0];
+  const words = byLevel[level] || [];
+  if (!words.length) return '';
+  return `<div class="bd-tip bd-tip--wide">
+    <span class="bd-label">How the questions ask · ${level === 'higher' ? 'Higher' : 'Ordinary'} Level, ${escapeHtml(data.commandWordYears || '')} papers</span>
+    <ul class="bd-words">${words.map(([w, n]) => `<li><strong>${escapeHtml(w)}</strong><span>${n}×</span></li>`).join('')}</ul>
+  </div>`;
+}
+
+function sectionQuestions(section) {
+  return (window.EXAM_QUESTIONS_DB || []).filter(q => inBreakdownSection(q, section) && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q));
+}
+
+// Which chapters a section's questions have come from, as "in X of Y papers" (a paper is one year at one
+// level). Each row opens that chapter's past questions. Empty for banks without chapter tags.
+function renderChapterFrequency(questions, subjectId, sectionIdx) {
+  const paperOf = (q) => `${q.year}-${examGroupLevel(q)}`;
+  const papers = new Set(questions.map(paperOf));
+  const byChapter = new Map();
+  questions.forEach((q) => {
+    if (!q.chapterId) return;
+    if (!byChapter.has(q.chapterId)) byChapter.set(q.chapterId, new Set());
+    byChapter.get(q.chapterId).add(paperOf(q));
+  });
+  if (papers.size < 2 || !byChapter.size) return '';
+  const chapters = SUBJECTS.find((s) => s.id === subjectId)?.chapters || [];
+  // "3. Rocks, Weathering and Mass Movement — …" reads as "Rocks, Weathering and Mass Movement"
+  const nameOf = (id) => (chapters.find((c) => c.id === id)?.title || id).replace(/^\d+\.\s*/, '').split(' — ')[0];
+  const rows = [...byChapter].sort((a, b) => b[1].size - a[1].size).map(([id, seen]) => `
+    <li><button type="button" onclick="openSectionQuestions('${subjectId}',${sectionIdx},'${escapeHtml(id)}')">
+      <span class="bd-ch-name">${escapeHtml(nameOf(id))}</span>
+      <span class="bd-ch-bar" aria-hidden="true"><span style="width:${(seen.size / papers.size) * 100}%"></span></span>
+      <span class="bd-ch-count">${seen.size}/${papers.size}</span>
+    </button></li>`).join('');
+  return `<div class="bd-chapters">
+    <span class="bd-label">Chapters that come up · in how many of the last ${papers.size} papers</span>
+    <ul>${rows}</ul>
+  </div>`;
+}
+
+function openSectionQuestions(subjectId, sectionIdx, chapterId = '') {
   const data = window.EXAM_BREAKDOWN?.[subjectId];
   if (!data) return;
   const section = data.sections[sectionIdx];
 
-  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => inBreakdownSection(q, section) && !isOffSpecExamGroup(q) && !hiddenByMathsPilot(q) && !hiddenByUserLevel(q));
+  const questions = sectionQuestions(section).filter((q) => !chapterId || q.chapterId === chapterId);
 
   const questionsHtml = questions.map((group, qi) => {
     const parts = (group.parts || []).map((part, pIdx) => {
@@ -5613,7 +5660,8 @@ function openSectionQuestions(subjectId, sectionIdx) {
   _fullNotesReturnToBreakdown = subjectId;
 
   // Populate and open the full-notes screen (true full-screen overlay)
-  document.getElementById('fullNotesTitle').textContent = `${section.name}: Practice questions`;
+  const chapterTitle = chapterId && SUBJECTS.find((s) => s.id === subjectId)?.chapters.find((c) => c.id === chapterId)?.title.replace(/^\d+\.\s*/, '').split(' — ')[0];
+  document.getElementById('fullNotesTitle').textContent = `${section.name}${chapterTitle ? ` · ${chapterTitle}` : ''}: Practice questions`;
   els.fullNotesScreen.classList.remove('is-paged');
   closeLiveReader();
   els.openLiveReading.classList.add('hidden');
