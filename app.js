@@ -2103,7 +2103,9 @@ function renderSubjectPage() {
       back.addEventListener("click", stepBackFromHeading);
     }
   }
-  if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = sectionLabel(PAGE_SUBJECT, subjectSection);
+  // The guides carry their own big title, so they skip the subheading (it's empty, so CSS hides it)
+  const ownTitle = subjectSection === "guide" || isAacSection(subjectSection);
+  if (els.subjectSectionTitle) els.subjectSectionTitle.textContent = ownTitle ? "" : sectionLabel(PAGE_SUBJECT, subjectSection);
   renderSectionPanel(locked);
 }
 
@@ -5810,6 +5812,7 @@ function renderAacGuide(guide, key) {
     <a class="aac-ai-guide" href="./aac-ai-guides/${key}.pdf" download="${escapeHtml(guide.title)} AI review guide.pdf">
       <span class="bd-label">AI review guide · PDF</span>
       <span>Attach it with your draft to ChatGPT, Claude or Gemini. It leaves your writing as it is and shows how each paragraph could earn more marks, and why.</span>
+      <span class="aac-ai-logos" aria-hidden="true"><img src="images/openai.svg" alt="" /><img src="images/claude.svg" alt="" /></span>
     </a>
     ${bar}
     <div class="bd-panels">${panels}</div>

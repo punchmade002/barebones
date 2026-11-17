@@ -285,6 +285,7 @@ html:not(.bb-section-link) .page-shell .shell-section { display: none; }
   line-height: 0.95;
   letter-spacing: -0.035em;
   text-transform: none;
+  color: var(--accent);
 }
 
 /* ── Dashboard ──────────────────────────────── */
