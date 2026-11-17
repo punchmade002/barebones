@@ -3044,7 +3044,7 @@ body.modal-open { overflow: hidden; }
 .overview-chapter-row {
   width: 100%;
   text-align: left;
-  background: var(--panel-2);
+  background: var(--panel);
   border: 1.5px solid var(--line);
   border-radius: var(--r-md);
   padding: 0.7rem 1rem;
@@ -3058,12 +3058,8 @@ body.modal-open { overflow: hidden; }
   transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease), background var(--t) var(--ease);
 }
 
-.overview-chapter-row:hover {
-  border-color: var(--accent-light);
-  background: var(--accent-xxlight);
-  box-shadow: var(--s1);
-  transform: translateY(-1px);
-}
+/* Thick orange border + shadow on hover come from tilt.css, same as the subject tiles */
+.overview-chapter-row:hover { border-color: var(--accent-light); }
 
 .overview-chapter-text {
   min-width: 0;
@@ -3086,7 +3082,7 @@ body.modal-open { overflow: hidden; }
   max-width: 360px;
   height: 46px;
   justify-self: end;
-  background: var(--accent-xlight);
+  background: var(--panel-3);
   border-radius: var(--r-full);
   overflow: hidden;
 }
