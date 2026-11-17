@@ -5362,7 +5362,6 @@ function openExamBreakdown(subjectId) {
   document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   if (data.sections?.length) selectBreakdownSection(subjectId, Math.min(startIdx, data.sections.length - 1));
-  bindGuideSwipe((idx) => selectBreakdownSection(subjectId, idx));
 }
 
 // "Section A – Short Questions" → { kicker: "Section A", title: "Short Questions" }
@@ -5616,31 +5615,11 @@ function openAacGuide(subjectId) {
   document.getElementById('examBreakdownContent').innerHTML = renderAacGuide(guide);
   document.getElementById('examBreakdownModal').classList.remove('hidden');
   selectAacStage(0);
-  bindGuideSwipe(selectAacStage);
 }
 
-// Narrow screens lay the guide's panels out in a sideways row (layout.css): the marks bar
-// slides the row to a panel, and swiping moves the bar's highlight to the panel in view.
+// Tapping a slice of the marks bar opens that section below it: bring it into view
 function scrollGuideTo(idx) {
-  const row = document.querySelector('#examBreakdownModal .bd-panels');
-  const panels = row ? [...row.querySelectorAll('.bd-panel')] : [];
-  if (!panels[idx] || row.scrollWidth <= row.clientWidth) return;
-  row.scrollTo({ left: panels[idx].offsetLeft - panels[0].offsetLeft, behavior: 'smooth' });
-}
-
-function bindGuideSwipe(select) {
-  const row = document.querySelector('#examBreakdownModal .bd-panels');
-  if (!row) return;
-  let timer;
-  row.addEventListener('scroll', () => {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      const x = row.getBoundingClientRect().left;
-      const gap = (el) => Math.abs(el.getBoundingClientRect().left - x);
-      const near = [...row.querySelectorAll('.bd-panel')].reduce((a, b) => (gap(b) < gap(a) ? b : a));
-      if (!near.classList.contains('is-open')) select(Number(near.dataset.idx));
-    }, 100);
-  }, { passive: true });
+  document.querySelectorAll('#examBreakdownModal .bd-panel')[idx]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function selectAacStage(idx) {

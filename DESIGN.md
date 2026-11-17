@@ -97,7 +97,7 @@ Active tab: orange bg, white text, `--so` shadow.
 ### Subject header (`layout.css`)
 On `/app/<subject>/` pages: a back link ("‹ Your subjects" on the subject's home, "‹ Biology" inside a section), the subject name ("Leaving Cert" is in the heading but visually hidden) (`clamp(2rem, 4.2vw, 3rem)`/800), and inside a section its name in `--accent-strong`. No tab row: the home view's section tiles (icon + name, min-height 10rem) are the only navigation, with this subject's Study time card beneath them. Sections: Paper guide, AAC guide (only where `aac-guides.js` has one), Flashcards, Notes, Tests, Exam; Maths has Paper guide and Exam. Exam has its own pill switch: By chapter / By type / Full papers. By type only offers a type with at least 4 questions (`MIN_TYPE_QUESTIONS`).
 
-Paper guide and AAC guide sit on one plain `--panel` card that scrolls when it is taller than the screen. Above 860px their sections are a sideways accordion (the open one widest). At 860px and below they are a sideways row of cards, all open, `min(85%, 24rem)` wide, that snap as you swipe; the marks bar above stays, tapping a segment slides to that section and swiping moves its highlight.
+Paper guide and AAC guide sit on one plain `--panel` card that scrolls when it is taller than the screen. At every width their sections stack one above another under the marks bar, as an accordion: the open section shows its tips, each closed one is a single row (name, facts, marks; "Click to open" above 860px). Tapping a section or its slice of the bar opens it, and the bar scrolls it to the top.
 
 Tile icons are inline line SVGs (`ICONS` in `dashboard.js`, 24×24, 1.8 stroke, `currentColor`) in a `--accent-xlight` square with `--accent-strong` ink.
 
