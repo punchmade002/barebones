@@ -49,6 +49,24 @@
 .subject-head h1 a:hover { color: var(--accent-strong); }
 .subject-head h1 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
+/* The heading is the back link: a back arrow slides in before it on hover / keyboard focus */
+.subject-head h1 a::before {
+  content: "←";
+  display: inline-block;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  vertical-align: top;
+  color: var(--accent);
+  transition: max-width var(--t) var(--ease), margin var(--t) var(--ease), opacity var(--t) var(--ease);
+}
+
+.subject-head h1 a:focus-visible::before { max-width: 1.2em; margin-right: 0.12em; opacity: 1; }
+
+@media (hover: hover) {
+  .subject-head h1 a:hover::before { max-width: 1.2em; margin-right: 0.12em; opacity: 1; }
+}
+
 .subject-section-title {
   margin: 0.15rem 0 0;
   color: var(--ink);
