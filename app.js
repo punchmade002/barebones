@@ -73,28 +73,7 @@ const SUBJECTS = [
 
 // Set on the generated /app/<subject>/ pages (scripts/build_subject_pages.ts); "" on the dashboard (app.html).
 const PAGE_SUBJECT = SUBJECTS.some((s) => s.id === document.body.dataset.subject) ? document.body.dataset.subject : "";
-const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam" };
 const SECTION_TABS = { flashcards: "flashcards", tests: "test", exam: "exam" };
-// Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
-// One AAC section per coursework component in aac-guides.js (none for Maths).
-function sectionsFor(subjectId) {
-  const sections = subjectId === "maths" ? ["guide", "aac", "exam"] : Object.keys(SECTION_LABELS);
-  return sections.flatMap((id) => (id === "aac" ? aacGuidesFor(subjectId).map((a) => a.section) : [id]));
-}
-// A subject with two coursework components (PE, Home Economics) has two guides: aac-guides.js
-// keys them "<subject>" and "<subject>-<part>", and their sections are "aac" and "aac-<part>".
-function aacGuidesFor(subjectId) {
-  return Object.entries(window.AAC_GUIDES || {})
-    .filter(([, guide]) => guide.subject === subjectId)
-    .map(([key, guide]) => ({ key, guide, section: key === subjectId ? "aac" : `aac-${key.slice(subjectId.length + 1)}` }));
-}
-const isAacSection = (id) => /^aac(-|$)/.test(id);
-function sectionLabel(subjectId, id) {
-  if (!isAacSection(id)) return SECTION_LABELS[id] || "";
-  const all = aacGuidesFor(subjectId);
-  const own = all.find((a) => a.section === id);
-  return all.length > 1 && own ? `AAC · ${own.guide.short || own.guide.title}` : SECTION_LABELS.aac;
-}
 // Signed-out visitors (often from Google) can read these; the rest ask them to sign in.
 const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes"]);
 const isPublicSection = (id) => PUBLIC_SECTIONS.has(id) || isAacSection(id);
@@ -1699,32 +1678,6 @@ function typesetMath(node) {
   }, (error) => console.error(error));
 }
 
-// Placeholder shapes shown while a screen's data downloads
-function skeletonHtml(kind) {
-  const bar = (w, h = "0.9rem", extra = "") => `<span class="skeleton" style="width:${w};height:${h};${extra}"></span>`;
-  // Margins pad a bar out to the line box of the text it stands in for (line-height 1.55 / 1.65)
-  const small = (w) => bar(w, "0.7rem", "margin-block:0.1925rem");
-  if (kind === "card") {
-    // Same parts and classes as the real card (head, centred face, controls) so nothing shifts when it loads
-    return `
-      <header class="study-card-head" aria-hidden="true">
-        <div class="study-progress"><div class="progress-bar"><span style="width:0"></span></div>${small("1.6rem")}</div>
-        ${small("2rem")}
-      </header>
-      <div class="study-face" aria-busy="true" aria-label="Loading flashcard">${bar("min(320px, 70%)", "1em", "font-size:clamp(1.35rem, 2.5vw, 2rem);margin-block:0.325em")}</div>
-      <div class="study-card-footer" aria-hidden="true">
-        <div class="study-controls">
-          <button id="prevCard" class="button-secondary study-step" tabindex="-1" disabled>←</button>
-          <button id="flipCard" class="button-primary" tabindex="-1" disabled>Reveal</button>
-          <button id="nextCard" class="button-secondary study-step" tabindex="-1" disabled>→</button>
-          <button id="markLearned" class="button-secondary study-learned" tabindex="-1" disabled>Mark learned</button>
-        </div>
-      </div>`;
-  }
-  const rows = [0, 1, 2, 3].map(() => `<div class="skeleton-row">${bar("34%", "1rem")}${bar("92%")}${bar("78%")}</div>`).join("");
-  return `<div class="skeleton-block" aria-busy="true" aria-label="Loading">${rows}</div>`;
-}
-
 function switchTab(tab) {
   els.tabs.forEach((btn) => btn.classList.toggle("active", btn.dataset.tab === tab));
   els.flashcardsTab.classList.toggle("active", tab === "flashcards");
@@ -2156,6 +2109,7 @@ function renderSubjectPage() {
 
 function renderSectionPanel(locked) {
   const panel = els.sectionPanel;
+  panel.classList.remove("page-shell"); // the page's prebuilt placeholder (scripts/subject-pages.cjs) is drawn over below
   const show = locked || !subjectSection || subjectSection === "notes" || subjectSection === "exam";
   panel.classList.toggle("hidden", !show);
   if (!show) {
@@ -2208,14 +2162,12 @@ const SUBJECT_ABOUT_HTML = (() => {
 
 function subjectHomeHtml() {
   const subject = PAGE_SUBJECT_DATA;
-  const tiles = sectionsFor(subject.id).map((id) => `
-    <li><a class="section-tile" href="app/${subject.id}/#${id}">${iconHtml(isAacSection(id) ? "aac" : id)}<span>${escapeHtml(sectionLabel(subject.id, id))}</span></a></li>`).join("");
   const below = getCurrentUser() ? studyTimeBlockHtml(subject.id) : `
     <div class="section-locked-actions">
       <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
       <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
     </div>${SUBJECT_ABOUT_HTML}`;
-  return `<ul class="section-tiles">${tiles}</ul>${below}`;
+  return `${sectionTilesHtml(subject.id)}${below}`;
 }
 
 function notesListHtml() {

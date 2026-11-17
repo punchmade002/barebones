@@ -24,11 +24,13 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=95" />
+    <!-- auth.js's Supabase client comes from here; connect while the stylesheets load -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="./styles.css?v=96" />
 
     <link rel="stylesheet" href="./responsive.css?v=11" />
     <link rel="stylesheet" href="./paper-archive.css?v=9" />
-    <link rel="stylesheet" href="./layout.css?v=19" />
+    <link rel="stylesheet" href="./layout.css?v=20" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -45,6 +47,8 @@
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
         if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
+        // A subject page opened on a section (#flashcards…) shows placeholder rows, not its tiles, until app.js draws it
+        if (location.hash.length > 1) document.documentElement.classList.add('bb-section-link');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('/'); // the homepage's canonical address, not /index.html
         }
@@ -281,12 +285,38 @@
             <h1><a class="subject-head-back" href="app.html"><span class="sr-only">Leaving Cert </span>Maths</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
-          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+          <div id="dashboard" class="dashboard hidden"></div>
+          <div id="sectionPanel" class="section-panel page-shell">
+            <div class="shell-home">
+              <ul class="section-tiles">
+    <li><a class="section-tile" href="app/maths/#guide"><span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 11h7M9 15h7M9 19h4"/></svg></span><span>Paper guide</span></a></li>
+    <li><a class="section-tile" href="app/maths/#exam"><span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 14l2 2 4-4"/></svg></span><span>Exam</span></a></li></ul>
+              <div class="shell-signed-in">
+    <section class="dash-block dash-habits" aria-labelledby="dashHabitsTitle">
+      <div class="dash-block-head">
+        <h2 id="dashHabitsTitle">Study time</h2>
+        <div class="dash-range" role="group" aria-label="Time range">
+          
+            <button type="button" aria-pressed="true" onclick="setStudyRange(7)">7 days</button>
+            <button type="button" aria-pressed="false" onclick="setStudyRange(30)">30 days</button>
+            <button type="button" aria-pressed="false" onclick="setStudyRange(90)">3 months</button>
+        </div>
+      </div>
+      <div class="skeleton-block" aria-busy="true" aria-label="Loading"><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div></div>
+    </section></div>
+              <div class="shell-signed-out">
+                <div class="section-locked-actions">
+                  <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
+                  <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
+                </div>
+                <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
             <h2 id="subjectAboutTitle">Leaving Cert Maths on barebones</h2>
             <p>Leaving Cert Maths past exam questions with worked solutions, sorted by chapter and by type, plus whole past papers and a guide to both papers.</p>
           </section>
-          <div id="dashboard" class="dashboard hidden"></div>
-          <div id="sectionPanel" class="section-panel hidden"></div>
+              </div>
+            </div>
+            <div class="shell-section"><div class="skeleton-block" aria-busy="true" aria-label="Loading"><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div><div class="skeleton-row"><span class="skeleton" style="width:34%;height:1rem;"></span><span class="skeleton" style="width:92%;height:0.9rem;"></span><span class="skeleton" style="width:78%;height:0.9rem;"></span></div></div></div>
+          </div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
             <div class="breakdown-modal-card">
               <div id="examBreakdownContent"></div>
@@ -491,47 +521,50 @@
     </div>
     <canvas id="confettiCanvas"></canvas>
 
-    <script src="./data.js?v=58"></script>
+    <script defer src="./data.js?v=58"></script>
     <!-- geo-content.js retired 2026-08-14 (archived in archive/geography-2026-10-19/): geography is being rebuilt by pipeline/run.py.
          Snapshot of what it shipped: pipeline/_data/reports/geography-preexisting-index.json -->
-    <script src="./maths-content.js?v=1"></script>
-    <script src="./exam-questions-db.js?v=4"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="./auth-config.js?v=1"></script>
-    <script src="./auth.js?v=8"></script>
-    <script src="./usage-tracker.js?v=1"></script>
+    <script defer src="./maths-content.js?v=1"></script>
+    <script defer src="./exam-questions-db.js?v=4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script defer src="./auth-config.js?v=1"></script>
+    <script defer src="./auth.js?v=8"></script>
+    <script defer src="./usage-tracker.js?v=1"></script>
     <!-- Paper guides, one per subject: pipeline/exam-info/<subject>.json rendered by pipeline/exam_info.py -->
-    <script src="./biology-exam-info.js?v=1"></script>
-    <script src="./business-exam-info.js?v=1"></script>
-    <script src="./chemistry-exam-info.js?v=1"></script>
-    <script src="./geography-exam-info.js?v=3"></script>
-    <script src="./history-exam-info.js?v=1"></script>
-    <script src="./home-economics-exam-info.js?v=2"></script>
-    <script src="./maths-exam-info.js?v=1"></script>
-    <script src="./pe-exam-info.js?v=3"></script>
+    <script defer src="./biology-exam-info.js?v=1"></script>
+    <script defer src="./business-exam-info.js?v=1"></script>
+    <script defer src="./chemistry-exam-info.js?v=1"></script>
+    <script defer src="./geography-exam-info.js?v=3"></script>
+    <script defer src="./history-exam-info.js?v=1"></script>
+    <script defer src="./home-economics-exam-info.js?v=2"></script>
+    <script defer src="./maths-exam-info.js?v=1"></script>
+    <script defer src="./pe-exam-info.js?v=3"></script>
     <!-- Subjects' notes and flashcards load when one of their topics is opened (subject-packs.js). -->
     <script>window.BB_LAZY_SUBJECTS = true;</script>
-    <script src="./generated-notes-content.js?v=8"></script>
-    <script src="./onboarding.js?v=3"></script>
+    <script defer src="./generated-notes-content.js?v=8"></script>
+    <script defer src="./onboarding.js?v=3"></script>
     <!-- KaTeX and the Test kit (test-builder, answer-marker, test prompts) load on demand: see loadKatex / loadTestKit in app.js -->
-    <script src="./exam-packs.js?v=2"></script>
-    <script src="./subject-packs.js?v=1"></script>
-    <script src="./subject-builder.js?v=1"></script>
-    <script src="./subject-index.js?v=1"></script>
-    <script src="./aac-guides.js?v=5"></script>
-    <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=125"></script>
-    <script src="./exam-papers.js?v=2"></script>
-    <script src="./paper-archive.js?v=11"></script>
-    <script src="./timer.js?v=2"></script>
+    <script defer src="./exam-packs.js?v=2"></script>
+    <script defer src="./subject-packs.js?v=1"></script>
+    <script defer src="./subject-builder.js?v=1"></script>
+    <script defer src="./subject-index.js?v=1"></script>
+    <script defer src="./aac-guides.js?v=5"></script>
+    <script defer src="./dashboard.js?v=9"></script>
+    <script defer src="./app.js?v=126"></script>
+    <script defer src="./exam-papers.js?v=2"></script>
+    <script defer src="./paper-archive.js?v=11"></script>
+    <script defer src="./timer.js?v=2"></script>
     <script>
-      if (window.location.hash === '#signin' || window.location.hash === '#signup') {
-        sessionStorage.setItem('bb_seen_landing', '1');
-        var authPanel = document.getElementById('authPanel');
-        if (authPanel) authPanel.classList.remove('hidden');
-        var input = document.getElementById(window.location.hash === '#signup' ? 'signUpUsername' : 'signInEmail');
-        if (input) input.focus();
-      }
+      // After the deferred scripts above, so app.js has drawn the page first
+      document.addEventListener('DOMContentLoaded', function () {
+        if (window.location.hash === '#signin' || window.location.hash === '#signup') {
+          sessionStorage.setItem('bb_seen_landing', '1');
+          var authPanel = document.getElementById('authPanel');
+          if (authPanel) authPanel.classList.remove('hidden');
+          var input = document.getElementById(window.location.hash === '#signup' ? 'signUpUsername' : 'signInEmail');
+          if (input) input.focus();
+        }
+      });
     </script>
 
     <!-- Vercel Speed Insights -->

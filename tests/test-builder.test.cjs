@@ -13,7 +13,7 @@ const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", 
 // straight after data.js here, as their <script> tags used to.
 function createContext() {
   const html = fs.readFileSync(path.join(root, "app.html"), "utf8");
-  const files = [...html.matchAll(/<script src="\.\/([^"?]+)/g)]
+  const files = [...html.matchAll(/<script (?:defer )?src="\.\/([^"?]+)/g)]
     .map((m) => m[1])
     .filter((file) => !SKIP_SCRIPTS.has(file));
   // The test kit is downloaded on demand (loadTestKit in app.js), so app.html no longer lists it

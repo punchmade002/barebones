@@ -105,6 +105,15 @@
 
 .section-panel { display: grid; align-content: start; gap: 1rem; padding-bottom: 1.5rem; }
 
+/* Prebuilt first paint of a subject page (scripts/subject-pages.cjs), drawn over by app.js.
+   The wrappers add no boxes, so it lays out exactly like the real panel. */
+.page-shell :is(.shell-home, .shell-signed-in, .shell-signed-out, .shell-section) { display: contents; }
+html:not(.bb-signed-in) .page-shell .shell-signed-in,
+html.bb-signed-in .page-shell .shell-signed-out,
+html.bb-section-link .page-shell .shell-home,
+html:not(.bb-section-link) .page-shell .shell-section { display: none; }
+.page-shell .dash-range { pointer-events: none; } /* its buttons work once app.js has loaded */
+
 /* Tests choose their chapters in the setup, so the chapter breadcrumb has nothing to say */
 .subject-area[data-section="tests"] .workbench-bar { display: none; }
 
