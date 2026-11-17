@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,38 @@
             <h1><a href="app/geography/#"><span class="sr-only">Leaving Cert </span>Geography</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert Geography on barebones</h2>
+            <p>Leaving Cert Geography study: flashcards, notes, timed tests and past exam questions by chapter and type, covering physical geography, regions, economic activity and the options.</p>
+            <h3>Geography chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-geography/plate-tectonics-earths-structure-continental-drift-sea-floor/">Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries</a></li>
+              <li><a href="/leaving-cert-geography/volcanic-and-earthquake-activity/">Volcanic and Earthquake Activity</a></li>
+              <li><a href="/leaving-cert-geography/rocks-weathering-and-mass-movement/">Rocks, Weathering and Mass Movement</a></li>
+              <li><a href="/leaving-cert-geography/glaciation-glacial-processes-landforms-and-isostasy/">Glaciation — Glacial Processes, Landforms and Isostasy</a></li>
+              <li><a href="/leaving-cert-geography/rivers-fluvial-processes-and-landforms/">Rivers — Fluvial Processes and Landforms</a></li>
+              <li><a href="/leaving-cert-geography/the-sea-at-work-coastal-processes-and-landforms/">The Sea at Work — Coastal Processes and Landforms</a></li>
+              <li><a href="/leaving-cert-geography/aerial-photographs-interpretation-location-sketch-maps-and-land-use/">Aerial Photographs — Interpretation, Location, Sketch Maps and Land Use</a></li>
+              <li><a href="/leaving-cert-geography/ordnance-survey-mapwork-and-the-geographical-investigation/">Ordnance Survey Mapwork and the Geographical Investigation</a></li>
+              <li><a href="/leaving-cert-geography/weather-and-climate-weather-maps-and-satellite-imagery/">Weather and Climate — Weather Maps and Satellite Imagery</a></li>
+              <li><a href="/leaving-cert-geography/tables-graphs-and-data-skills/">Tables, Graphs and Data Skills</a></li>
+              <li><a href="/leaving-cert-geography/the-concept-of-a-region-defining-and-classifying-regions/">The Concept of a Region — Defining and Classifying Regions</a></li>
+              <li><a href="/leaving-cert-geography/irish-regions-core-and-peripheral/">Irish Regions — Core and Peripheral</a></li>
+              <li><a href="/leaving-cert-geography/european-regions-core-peripheral-and-complexity-of-regions/">European Regions — Core, Peripheral and Complexity of Regions</a></li>
+              <li><a href="/leaving-cert-geography/a-continental-subcontinental-region/">A Continental / Subcontinental Region</a></li>
+              <li><a href="/leaving-cert-geography/economic-development-measuring-development-and-the-distribution-of/">Economic Development — Measuring Development and the Distribution of Wealth</a></li>
+              <li><a href="/leaving-cert-geography/primary-secondary-and-tertiary-economic-activities/">Primary, Secondary and Tertiary Economic Activities</a></li>
+              <li><a href="/leaving-cert-geography/economic-activity-and-environmental-impact/">Economic Activity and Environmental Impact</a></li>
+              <li><a href="/leaving-cert-geography/ireland-and-the-european-union/">Ireland and the European Union</a></li>
+              <li><a href="/leaving-cert-geography/the-global-economy-multinationals-and-globalisation/">The Global Economy — Multinationals and Globalisation</a></li>
+              <li><a href="/leaving-cert-geography/population-dynamics-overpopulation-and-migration/">Population Dynamics, Overpopulation and Migration</a></li>
+              <li><a href="/leaving-cert-geography/urban-geography-settlement-urban-land-use-planning-and-urban-problems/">Urban Geography — Settlement, Urban Land Use, Planning and Urban Problems</a></li>
+              <li><a href="/leaving-cert-geography/option-the-atmosphere-ocean-environment/">Option — The Atmosphere-Ocean Environment</a></li>
+              <li><a href="/leaving-cert-geography/option-culture-and-identity/">Option — Culture and Identity</a></li>
+              <li><a href="/leaving-cert-geography/option-geoecology-soils-and-biomes/">Option — Geoecology (Soils and Biomes)</a></li>
+              <li><a href="/leaving-cert-geography/option-global-interdependence/">Option — Global Interdependence</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +544,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

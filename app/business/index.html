@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,33 @@
             <h1><a href="app/business/#"><span class="sr-only">Leaving Cert </span>Business</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert Business on barebones</h2>
+            <p>Leaving Cert Business study: flashcards, notes, timed tests and past exam questions by chapter and type, covering people in business, enterprise, management and the domestic and international environment.</p>
+            <h3>Business chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-business/investigating-business-and-the-investigative-study/">Investigating Business and the Investigative Study</a></li>
+              <li><a href="/leaving-cert-business/key-stakeholders-in-business/">Key Stakeholders in Business</a></li>
+              <li><a href="/leaving-cert-business/forms-of-business-business-regulation-and-governance/">Forms of Business, Business Regulation and Governance</a></li>
+              <li><a href="/leaving-cert-business/business-and-the-economy/">Business and the Economy</a></li>
+              <li><a href="/leaving-cert-business/the-influence-of-national-and-eu-policy/">The Influence of National and EU Policy</a></li>
+              <li><a href="/leaving-cert-business/irish-business-globally-and-internationally/">Irish Business Globally and Internationally</a></li>
+              <li><a href="/leaving-cert-business/enterprise-in-action/">Enterprise in Action</a></li>
+              <li><a href="/leaving-cert-business/idea-development/">Idea Development</a></li>
+              <li><a href="/leaving-cert-business/business-planning/">Business Planning</a></li>
+              <li><a href="/leaving-cert-business/the-target-market/">The Target Market</a></li>
+              <li><a href="/leaving-cert-business/operations-and-finance/">Operations and Finance</a></li>
+              <li><a href="/leaving-cert-business/growth-development-and-expansion/">Growth, Development and Expansion</a></li>
+              <li><a href="/leaving-cert-business/managing-risk/">Managing Risk</a></li>
+              <li><a href="/leaving-cert-business/leading-and-managing-an-organisation/">Leading and Managing an Organisation</a></li>
+              <li><a href="/leaving-cert-business/leading-and-managing-people/">Leading and Managing People</a></li>
+              <li><a href="/leaving-cert-business/the-importance-of-communication/">The Importance of Communication</a></li>
+              <li><a href="/leaving-cert-business/the-rationale-for-planning/">The Rationale for Planning</a></li>
+              <li><a href="/leaving-cert-business/making-informed-decisions-as-a-consumer/">Making Informed Decisions as a Consumer</a></li>
+              <li><a href="/leaving-cert-business/making-informed-financial-decisions/">Making Informed Financial Decisions</a></li>
+              <li><a href="/leaving-cert-business/being-an-informed-employee/">Being an Informed Employee</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +539,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,25 @@
             <h1><a href="app/history/#"><span class="sr-only">Leaving Cert </span>History</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert History on barebones</h2>
+            <p>Leaving Cert History study: flashcards, notes, timed tests and past exam questions by chapter and type, covering the Irish and European topics, documents-based study and essay writing.</p>
+            <h3>History chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-history/ireland-t1-ireland-and-the-union-1815-1870/">Ireland T1 — Ireland and the Union, 1815-1870</a></li>
+              <li><a href="/leaving-cert-history/ireland-t2-movements-for-political-and-social-reform-1870-1914/">Ireland T2 — Movements for political and social reform, 1870-1914</a></li>
+              <li><a href="/leaving-cert-history/ireland-t3-the-pursuit-of-sovereignty-and-the-impact-of-partition/">Ireland T3 — The pursuit of sovereignty and the impact of partition, 1912-1949</a></li>
+              <li><a href="/leaving-cert-history/ireland-t4-the-irish-diaspora-1840-1966/">Ireland T4 — The Irish diaspora, 1840-1966</a></li>
+              <li><a href="/leaving-cert-history/ireland-t5-politics-and-society-in-northern-ireland-1949-1993/">Ireland T5 — Politics and society in Northern Ireland, 1949-1993</a></li>
+              <li><a href="/leaving-cert-history/ireland-t6-government-economy-and-society-in-the-republic-1949-1989/">Ireland T6 — Government, economy and society in the Republic, 1949-1989</a></li>
+              <li><a href="/leaving-cert-history/europe-t1-nationalism-and-state-formation-in-europe-1815-1871/">Europe T1 — Nationalism and state formation in Europe, 1815-1871</a></li>
+              <li><a href="/leaving-cert-history/europe-t2-nation-states-and-international-tensions-1871-1920/">Europe T2 — Nation states and international tensions, 1871-1920</a></li>
+              <li><a href="/leaving-cert-history/europe-t3-dictatorship-and-democracy-in-europe-1920-1945/">Europe T3 — Dictatorship and democracy in Europe, 1920-1945</a></li>
+              <li><a href="/leaving-cert-history/europe-t4-division-and-realignment-in-europe-1945-1992/">Europe T4 — Division and realignment in Europe, 1945-1992</a></li>
+              <li><a href="/leaving-cert-history/europe-t5-european-retreat-from-empire-and-the-aftermath-1945-1990/">Europe T5 — European retreat from empire and the aftermath, 1945-1990</a></li>
+              <li><a href="/leaving-cert-history/europe-t6-the-united-states-and-the-world-1945-1989/">Europe T6 — The United States and the world, 1945-1989</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +531,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

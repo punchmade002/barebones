@@ -47,6 +47,32 @@ function renderHead(subject) {
           </header>`;
 }
 
+// The subject's chapters as its notes hub lists them (written by scripts/build_seo_pages.ts)
+function notesChapters(subject) {
+  const hub = path.join(ROOT, `leaving-cert-${subject.id}`, "index.html");
+  if (!fs.existsSync(hub)) return [];
+  const re = new RegExp(`<a href="(/leaving-cert-${subject.id}/[^"/]+/)">([^<]+)<`, "g");
+  const seen = new Set();
+  return [...fs.readFileSync(hub, "utf8").matchAll(re)]
+    .filter(([, href]) => !seen.has(href) && seen.add(href))
+    .map(([, href, title]) => ({ href, title: title.trim() })); // title is already escaped HTML
+}
+
+// Plain text about the subject for search engines and signed-out visitors, linking each chapter
+// to its notes. app.js moves it under the section tiles while signed out; signed-in users never
+// see it (the head script marks <html class="bb-signed-in"> before first paint).
+function renderAbout(subject) {
+  const chapters = notesChapters(subject);
+  return `<section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert ${escapeHtml(subject.name)} on barebones</h2>
+            <p>${escapeHtml(pageMeta(subject).description)}</p>${chapters.length ? `
+            <h3>${escapeHtml(subject.name)} chapters</h3>
+            <ol class="subject-about-chapters">
+              ${chapters.map((c) => `<li><a href="${c.href}">${c.title}</a></li>`).join("\n              ")}
+            </ol>` : ""}
+          </section>`;
+}
+
 function replaceOnce(html, find, replacement) {
   if (html.split(find).length !== 2) throw new Error(`app.html should contain ${JSON.stringify(find)} exactly once`);
   return html.replace(find, () => replacement);
@@ -68,7 +94,7 @@ function buildSubjectPage(template, subject) {
     `<meta property="og:description" content="${escapeHtml(description)}" />`,
   ].join("\n    "));
   html = replaceOnce(html, "<body>", `<body data-subject="${subject.id}">`);
-  html = replaceOnce(html, "<!-- subject-head -->", renderHead(subject));
+  html = replaceOnce(html, "<!-- subject-head -->", `${renderHead(subject)}\n          ${renderAbout(subject)}`);
   return html;
 }
 

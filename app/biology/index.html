@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="./responsive.css?v=8" />
     <link rel="stylesheet" href="./paper-archive.css?v=7" />
-    <link rel="stylesheet" href="./layout.css?v=15" />
+    <link rel="stylesheet" href="./layout.css?v=16" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -44,6 +44,7 @@
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         // /app/<subject>/ pages are public previews, so they never bounce to the landing page
         var isSubjectPage = location.pathname.indexOf('/app/') === 0;
+        if (isLoggedIn || hasAuthSession) document.documentElement.classList.add('bb-signed-in');
         if (!isLoggedIn && !hasAuthSession && !isSubjectPage && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
@@ -281,6 +282,49 @@
             <h1><a href="app/biology/#"><span class="sr-only">Leaving Cert </span>Biology</a></h1>
             <p id="subjectSectionTitle" class="subject-section-title"></p>
           </header>
+          <section id="subjectAbout" class="subject-about" aria-labelledby="subjectAboutTitle">
+            <h2 id="subjectAboutTitle">Leaving Cert Biology on barebones</h2>
+            <p>Leaving Cert Biology study: flashcards, notes, timed tests and past exam questions by chapter and type, covering cells, biomolecules, genetics, human biology, plants and ecology.</p>
+            <h3>Biology chapters</h3>
+            <ol class="subject-about-chapters">
+              <li><a href="/leaving-cert-biology/scientific-knowledge/">Scientific Knowledge</a></li>
+              <li><a href="/leaving-cert-biology/investigating-in-science/">Investigating in Science</a></li>
+              <li><a href="/leaving-cert-biology/science-in-society/">Science in Society</a></li>
+              <li><a href="/leaving-cert-biology/biological-reasoning/">Biological Reasoning</a></li>
+              <li><a href="/leaving-cert-biology/characteristics-of-life/">Characteristics of Life</a></li>
+              <li><a href="/leaving-cert-biology/viruses-classification-and-domains-of-life/">Viruses, Classification and Domains of Life</a></li>
+              <li><a href="/leaving-cert-biology/the-unit-of-life-the-cell/">The Unit of Life — The Cell</a></li>
+              <li><a href="/leaving-cert-biology/biomolecules-the-chemicals-of-life/">Biomolecules — The Chemicals of Life</a></li>
+              <li><a href="/leaving-cert-biology/transfer-molecules/">Transfer Molecules</a></li>
+              <li><a href="/leaving-cert-biology/dna-rna-and-the-genetic-code/">DNA, RNA and the Genetic Code</a></li>
+              <li><a href="/leaving-cert-biology/genetic-inheritance/">Genetic Inheritance</a></li>
+              <li><a href="/leaving-cert-biology/evolution-the-origins-of-life/">Evolution: The Origins of Life</a></li>
+              <li><a href="/leaving-cert-biology/enzymes/">Enzymes</a></li>
+              <li><a href="/leaving-cert-biology/photosynthesis/">Photosynthesis</a></li>
+              <li><a href="/leaving-cert-biology/respiration/">Respiration</a></li>
+              <li><a href="/leaving-cert-biology/cell-division-and-cancer/">Cell Division and Cancer</a></li>
+              <li><a href="/leaving-cert-biology/dna-replication-protein-synthesis-and-mutations/">DNA Replication, Protein Synthesis and Mutations</a></li>
+              <li><a href="/leaving-cert-biology/the-musculoskeletal-system/">The Musculoskeletal System</a></li>
+              <li><a href="/leaving-cert-biology/the-nervous-system/">The Nervous System</a></li>
+              <li><a href="/leaving-cert-biology/the-endocrine-system/">The Endocrine System</a></li>
+              <li><a href="/leaving-cert-biology/homeostasis/">Homeostasis</a></li>
+              <li><a href="/leaving-cert-biology/immunity/">Immunity</a></li>
+              <li><a href="/leaving-cert-biology/human-reproduction/">Human Reproduction</a></li>
+              <li><a href="/leaving-cert-biology/plant-reproduction/">Plant Reproduction</a></li>
+              <li><a href="/leaving-cert-biology/transport-across-membranes/">Transport Across Membranes</a></li>
+              <li><a href="/leaving-cert-biology/the-urinary-system/">The Urinary System</a></li>
+              <li><a href="/leaving-cert-biology/the-digestive-system/">The Digestive System</a></li>
+              <li><a href="/leaving-cert-biology/the-breathing-system/">The Breathing System</a></li>
+              <li><a href="/leaving-cert-biology/the-circulatory-system-and-blood/">The Circulatory System and Blood</a></li>
+              <li><a href="/leaving-cert-biology/transport-in-plants/">Transport in Plants</a></li>
+              <li><a href="/leaving-cert-biology/ecology-ecosystems-and-biodiversity/">Ecology, Ecosystems and Biodiversity</a></li>
+              <li><a href="/leaving-cert-biology/investigating-an-ecosystem/">Investigating an Ecosystem</a></li>
+              <li><a href="/leaving-cert-biology/microorganisms/">Microorganisms</a></li>
+              <li><a href="/leaving-cert-biology/nutrient-cycling/">Nutrient Cycling</a></li>
+              <li><a href="/leaving-cert-biology/genetic-engineering/">Genetic Engineering</a></li>
+              <li><a href="/leaving-cert-biology/biology-acronyms-and-key-terms/">Biology Acronyms and Key Terms</a></li>
+            </ol>
+          </section>
           <div id="dashboard" class="dashboard hidden"></div>
           <div id="sectionPanel" class="section-panel hidden"></div>
           <section id="examBreakdownModal" class="guide-inline hidden" aria-label="Paper guide">
@@ -511,7 +555,7 @@
     <script src="./subject-index.js?v=1"></script>
     <script src="./aac-guides.js?v=4"></script>
     <script src="./dashboard.js?v=8"></script>
-    <script src="./app.js?v=118"></script>
+    <script src="./app.js?v=119"></script>
     <script src="./exam-papers.js?v=2"></script>
     <script src="./paper-archive.js?v=11"></script>
     <script src="./timer.js?v=2"></script>

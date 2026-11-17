@@ -2173,6 +2173,14 @@ function renderSectionPanel(locked) {
   }
 }
 
+// The page's static "about" text (scripts/subject-pages.cjs): lifted out of the page at startup
+// and shown under the section tiles only while signed out
+const SUBJECT_ABOUT_HTML = (() => {
+  const el = document.getElementById("subjectAbout");
+  el?.remove();
+  return el?.outerHTML || "";
+})();
+
 function subjectHomeHtml() {
   const subject = PAGE_SUBJECT_DATA;
   const tiles = sectionsFor(subject.id).map((id) => `
@@ -2181,7 +2189,7 @@ function subjectHomeHtml() {
     <div class="section-locked-actions">
       <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
       <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
-    </div>`;
+    </div>${SUBJECT_ABOUT_HTML}`;
   return `<ul class="section-tiles">${tiles}</ul>${below}`;
 }
 
