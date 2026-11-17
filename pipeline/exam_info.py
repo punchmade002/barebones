@@ -61,6 +61,14 @@ def validate(data, subject: str | None = None) -> list[str]:
         if not isinstance(reminders, list) or not reminders or not all(
                 isinstance(x, str) and x.strip() for x in reminders):
             errors.append(f"{at}.tips.reminders must contain non-empty strings")
+        for j, qt in enumerate(section.get("questionTypes") or []):
+            for field in ("name", "see", "marked", "play"):
+                if not isinstance(qt, dict) or not str(qt.get(field) or "").strip():
+                    errors.append(f"{at}.questionTypes[{j}].{field} is required")
+    day = data.get("examDay")
+    if day is not None and not (isinstance(day, dict) and str(day.get("task") or "").strip()
+                                and all(isinstance(f, list) and len(f) == 2 for f in day.get("facts", []))):
+        errors.append("examDay needs a task and [label, value] facts")
     return errors
 
 

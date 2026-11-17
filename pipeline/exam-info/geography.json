@@ -2,98 +2,462 @@
   "subject": "geography",
   "totalMarks": 400,
   "totalMinutes": 170,
-  "timingNote": "2h 50m · 400 marks. Higher Level: Part One 80 marks (best 10 of 12 short questions) + Part Two 320 marks (four 80-mark questions, one from at least three of the four sections). Ordinary Level uses the same 400 marks and time but splits it 100/300 — Part One is worth 100 and you answer three 100-mark Part Two questions from Sections 1–3 only (no Options).",
+  "timingNote": "Higher Level: 2h 50m, 400 marks (80% of your grade; the Geographical Investigation is the other 20%). Part One is 10 short questions for 80 marks. Part Two is four 80-mark questions for 320 marks. Every rule, mark split and trap below comes from the 2024 to 2026 papers and the SEC's published marking schemes.",
+  "examDay": {
+    "task": "9:30 to 12:20. You get one answerbook (Part One questions are printed in it, and every answer goes in it), a separate Part Two question booklet, a 1:50 000 OS map, an aerial photograph (usually of the same town) and a colour source booklet.",
+    "facts": [
+      [
+        "The choice rule (HL)",
+        "Part One: any 10 of 12, 8 marks each. Part Two: 4 questions. They must cover three different sections; the fourth can come from any section, so you can skip one section completely."
+      ],
+      [
+        "Same rules in 2027",
+        "The Department confirmed the adjustments in place since 2022 stay until each subject's new course arrives. New Geography is first examined in 2028, so 2027 uses this format."
+      ],
+      [
+        "What an SRP is",
+        "A Significant Relevant Point: one distinct fact, worth 2 marks at Higher Level. A 30-mark answer is 2 to 6 marks for naming what you are writing about, then 12 to 15 SRPs. Saying the same thing twice scores once."
+      ],
+      [
+        "Ordinary Level",
+        "Part One: any 10 of 12 at 10 marks each (100). Part Two: 3 questions at 100 marks, from Sections 1 to 3 only (one from each of two different sections, the third from any). No Options. SRPs are worth 3 marks."
+      ]
+    ],
+    "end": "12:20",
+    "timeline": [
+      {
+        "start": "9:30",
+        "minutes": 5,
+        "label": "Choose",
+        "color": "#C9C4BE",
+        "detail": "Open the Part Two booklet first and pick your four questions."
+      },
+      {
+        "start": "9:35",
+        "minutes": 25,
+        "label": "Part One",
+        "color": "#F97316",
+        "detail": "About 2½ min a question. Try an 11th and 12th if time allows: only your best 10 count."
+      },
+      {
+        "start": "10:00",
+        "minutes": 35,
+        "label": "Question 1",
+        "color": "#57534E",
+        "split": [
+          {
+            "label": "A",
+            "minutes": 8
+          },
+          {
+            "label": "B",
+            "minutes": 13
+          },
+          {
+            "label": "C",
+            "minutes": 13
+          }
+        ],
+        "detail": "Your strongest question. Part A about 8 min, B and C about 13 min each."
+      },
+      {
+        "start": "10:35",
+        "minutes": 35,
+        "label": "Question 2",
+        "color": "#8A847D",
+        "split": [
+          {
+            "label": "A",
+            "minutes": 8
+          },
+          {
+            "label": "B",
+            "minutes": 13
+          },
+          {
+            "label": "C",
+            "minutes": 13
+          }
+        ],
+        "detail": "Same split. When the time is up, move on."
+      },
+      {
+        "start": "11:10",
+        "minutes": 35,
+        "label": "Question 3",
+        "color": "#57534E",
+        "split": [
+          {
+            "label": "A",
+            "minutes": 8
+          },
+          {
+            "label": "B",
+            "minutes": 13
+          },
+          {
+            "label": "C",
+            "minutes": 13
+          }
+        ],
+        "detail": "Same split, or one 35-minute Options essay."
+      },
+      {
+        "start": "11:45",
+        "minutes": 35,
+        "label": "Question 4",
+        "color": "#8A847D",
+        "split": [
+          {
+            "label": "A",
+            "minutes": 8
+          },
+          {
+            "label": "B",
+            "minutes": 13
+          },
+          {
+            "label": "C",
+            "minutes": 13
+          }
+        ],
+        "detail": "Never leave it blank: the first 5 SRPs of an answer are the easiest marks left."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "geo-part1",
       "name": "Part One – Short-Answer Questions",
       "marks": 80,
+      "minutes": 25,
       "color": "#F97316",
-      "minutesPerQuestion": 3,
+      "minutesPerQuestion": 2.5,
       "tips": {
-        "timing": "Aim to spend about 35 minutes on Part One. There are 12 questions and you are marked on your 10 best answers — you do not need to choose in advance, so attempt all 12 if time allows and your two weakest are simply dropped.",
-        "structure": "Each answer should be 3–5 focused sentences, or the exact data the question asks for. Include a labelled diagram or sketch where it adds marks — a good diagram can carry a whole answer. Answers are written in the spaces provided in the answerbook, and anything outside the answer area may not be seen by the examiner.",
+        "timing": "About 25 minutes. Part One is 20% of the marks, but it's naming, matching and reading values, so it should take less than 20% of the time. Bank the minutes for Part Two, where every one buys SRPs.",
+        "structure": "Answers go in the box printed under each question. Marks come in small pieces: a match is usually 1 mark, a name, value or true/false 2 marks, and a 'valid answer' 2 marks (or 1 + 1). Write only what is asked; full sentences earn nothing extra.",
         "reminders": [
-          "You are marked on your 10 best answers out of 12 — attempt all 12 if possible",
-          "Diagrams must be fully labelled to earn marks — an unlabelled diagram gets nothing",
-          "Questions range across the whole course: physical geography, OS maps, aerial photographs, weather charts, graphs and tables, regional and human geography",
-          "Spend roughly 3 minutes per question — stop and move on rather than over-writing one answer",
-          "OS map and photograph questions: always quote grid references, contour values, or specific visible evidence before drawing a conclusion",
-          "Write inside the answer areas only — the answerbook is scanned for on-screen marking"
+          "Examiners mark every question you attempt and keep your best 10, so a quick 11th or 12th attempt is free insurance",
+          "Wrong answers lose nothing: never leave a box blank",
+          "Since 2023 the order has held: Questions 1 to 5 physical geography, 6 regions, 7 to 9 map and photo skills, 10 weather, 11 and 12 charts and statistics",
+          "Write inside the answer boxes. The answerbook is scanned and anything outside them may not be seen"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Landform and process identification",
+          "where": "Questions 1 to 5, every year. Topics rotate: plate tectonics, rocks and the rock cycle, weathering, karst, mass movement, rivers, coasts, glaciation, isostasy.",
+          "marks": 8,
+          "minutes": 2,
+          "see": "Photos or diagrams labelled A to D to match to a list (oxbow lake, fjord, lateral moraine, laccolith, karren), true/false statements, or 'match each feature to its grid reference on the OS map'.",
+          "marked": "Each match is usually 1 mark and each true/false or name 2 marks. 2026 Q2: four photo matches at 1 mark plus two true/false at 2 marks.",
+          "play": "Fill in the ones you're sure of first, then use elimination for the rest. Each letter is used once, so the last match is often free.",
+          "traps": [
+            "True/false statements hinge on one word (erosion or deposition, exogenic or endogenic). Read every word before ticking",
+            "If two photos seem to fit one feature, one of them belongs elsewhere: re-check the other options"
+          ]
+        },
+        {
+          "name": "Concept of a region",
+          "where": "Question 6, every year from 2023 to 2026.",
+          "marks": 8,
+          "minutes": 2,
+          "see": "Match region types (administrative, cultural, urban, geomorphological, climatic, socio-economic) to examples. 2026 used Co. Longford, the Gaeltacht, Munich and the Burren.",
+          "marked": "1 mark per correct match.",
+          "play": "Learn the six region types with one Irish and one European example each. That covers every version of this question so far.",
+          "traps": [
+            "A county is administrative, a language area is cultural, a landscape (the Burren) is geomorphological. Don't overthink it"
+          ]
+        },
+        {
+          "name": "OS map skills",
+          "where": "Question 7 every year, often Question 8 as well.",
+          "marks": 8,
+          "minutes": 3,
+          "see": "Give a grid reference, name the symbol at a grid reference, measure a distance along a road or railway, work out an area, read a height, or name a road or walking route.",
+          "marked": "2 marks per part, all or nothing. 2026 Q7 answers: J 042 069, Graveyard, 10.1 km, 21 km².",
+          "play": "Grid reference: sub-zone letter, then 3 digits across (eastings), then 3 digits up (northings). Distance: lay a paper edge along the route, mark the bends, read it against the scale bar. Area: each grid square is 1 km²; count the full squares and add up the part squares.",
+          "traps": [
+            "Across first, then up. Swapping them gets 0",
+            "Include the sub-zone letter (J, M, etc.) in every grid reference"
+          ]
+        },
+        {
+          "name": "Aerial photograph",
+          "where": "Question 8 or 9, every year.",
+          "marks": 8,
+          "minutes": 2,
+          "see": "Say where features are on the photo, name land uses, or link the photo to the OS map (which way the camera was pointing, which road is shown).",
+          "marked": "2 marks for each correct location. 2026 Q9 answers looked like 'Right background' and 'Centre foreground'.",
+          "play": "Split the photo into nine zones: left, centre or right, combined with foreground (bottom), middleground or background (top). Always give both parts: 'centre foreground'.",
+          "traps": [
+            "'Background' on its own is half an answer",
+            "Use the photo for photo questions and the map for map questions. Answers from the wrong one score 0 here and in Part Two"
+          ]
+        },
+        {
+          "name": "Weather maps and climate data",
+          "where": "Question 10 in most years (2022, 2023, 2025, 2026; sunshine data in 2024).",
+          "marks": 8,
+          "minutes": 2,
+          "see": "A synoptic chart, satellite image or climate map of Ireland: read a value, name a line or front, state the pressure or wind, explain a pattern.",
+          "marked": "2 marks per part. 2026 Q10 (a sunshine map): two readings, the term 'isohels', and one valid explanation.",
+          "play": "Learn the line names: isobar (pressure), isotherm (temperature), isohyet (rainfall), isohel (sunshine). Know the warm, cold and occluded front symbols.",
+          "traps": [
+            "Most 'explain' parts come down to this: low pressure brings cloud, wind and rain; high pressure brings settled, clear weather"
+          ]
+        },
+        {
+          "name": "Graphs, tables and statistics",
+          "where": "Questions 11 and 12 in most years (Question 12 was a satellite image in 2024).",
+          "marks": 8,
+          "minutes": 3,
+          "see": "A bar, line or pie chart or a table, usually CSO or Eurostat data: read a value, find the highest or lowest, work out a difference, then give a reason.",
+          "marked": "Readings and calculations 2 marks each; reasons usually 1 + 1. 2026 Q11: €275.4bn, €2bn, then two 1 + 1 reasons.",
+          "play": "Read the title, axis labels and units before the questions. A reason needs a cause and its effect: two short clauses get the 1 + 1.",
+          "traps": [
+            "Watch the units: thousands, %, billions",
+            "'Difference' means subtract. 'Percentage change' means change divided by the original, times 100"
+          ]
+        }
+      ]
     },
     {
       "id": "geo-section1",
       "name": "Section 1 – Patterns and Processes in the Physical Environment",
       "marks": 80,
+      "minutes": 35,
       "color": "#3B82F6",
-      "minutesPerQuestion": 34,
+      "minutesPerQuestion": 35,
       "tips": {
-        "timing": "About 34 minutes for the one question you choose from Questions 1–3. Budget roughly 11 minutes for each 30-mark part, 8 minutes for the 20-mark part, and 4 minutes planning.",
-        "structure": "An 80-mark question is normally two 30-mark essays plus one 20-mark structured part. For a 30-mark essay write 15 Significant Relevant Points (SRPs) — one standalone piece of geographic information per line. The 20-mark part follows a specific instruction: a data or diagram comprehension, a labelled sketch, or a shorter written answer.",
+        "timing": "35 minutes for one question from Questions 1 to 3: part A (20 marks) about 8 minutes, parts B and C (30 marks each) about 13 minutes each. If your Options answer is weak, this is the easiest section to take two questions from.",
+        "structure": "Each question has a 20-mark part A (a sketch map or a short-answer interpretation) and two 30-mark SRP answers (parts B and C). B often lets you answer (i) or (ii); pick the one you can write 15 facts on.",
         "reminders": [
-          "Each SRP must be a distinct, standalone point — repeating or rewording the same idea earns zero for that line",
-          "Name a real location in every SRP essay (e.g. 'The San Andreas Fault, California…')",
-          "Explain the process, then the evidence, then the resulting landform — do not just list landform names",
-          "Draw and fully label a diagram where the question mentions one; unlabelled sketches score nothing",
-          "Answer the exact command word: 'explain' needs causes, 'describe' needs detail, 'examine' needs both plus evaluation"
+          "Prepare at least one fully learnt landform (formation process, diagram, named example) from rivers, coasts and glaciation each. 'Explain the formation of one landform' comes up every year in some form",
+          "Plate tectonics, rocks and weathering each came up somewhere on all of the last three papers",
+          "Name a real place in every essay: one example is 1 SRP, and examiners expect it"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "OS map sketch",
+          "where": "Question 1A in 2024, 2025 and 2026. The same task, using the aerial photo, shows up in Section 3.",
+          "marks": 20,
+          "minutes": 8,
+          "see": "Draw a sketch map of the OS map at half scale and show and label four features (2026: the coastline, the railway, a wind farm, all land above 300 m).",
+          "marked": "Frame 4 marks: correct size (half the length and half the breadth; 12 cm × 9 cm in 2026, ±0.5 cm), landscape, four ruled sides. Each feature 4 marks: 3 for showing it (graded 3/1/0 for position and shape) plus 1 for the label.",
+          "play": "Rule and measure the frame first: those 4 marks are the easiest on the paper. Lightly pencil in the grid lines at half spacing so you can place each feature square by square. Label on the map or in a key.",
+          "traps": [
+            "Tracing loses the frame marks and every 'showing' mark",
+            "The edge of the page doesn't count as a side of the frame",
+            "A feature with no label scores 0, however well it's drawn",
+            "Sketching the aerial photo instead of the map scores 0"
+          ]
+        },
+        {
+          "name": "Photo or diagram interpretation",
+          "where": "Questions 2A and 3A (2026: limestone pavement photo, plutonic features diagram).",
+          "marks": 20,
+          "minutes": 8,
+          "see": "One photo or diagram followed by about five short parts: name labelled features, true/false, name two examples, and 'explain briefly' a term.",
+          "marked": "Built from 2-mark pieces. 2026 Q2A: four labels at 2 marks, two features at 2, two terms at 2, and 'explain briefly' at 2 + 2.",
+          "play": "Treat it like Part One. 'Explain briefly' is worth 4 marks, so give two separate facts in two sentences.",
+          "traps": [
+            "A one-line definition to an 'explain briefly' usually gets 2 of the 4 marks"
+          ]
+        },
+        {
+          "name": "30-mark SRP answer",
+          "where": "Parts B and C of every Section 1 question.",
+          "marks": 30,
+          "minutes": 13,
+          "see": "'Explain', 'Examine' or 'Discuss' one landform, process or topic. 2026: how earthquakes are predicted and their effects reduced; how one sedimentary and one metamorphic rock form; the role of erosion in forming one landform.",
+          "marked": "First, 2 marks for each thing the question asks you to name (a landform, a rock, a process), usually 2 to 6 marks in total. Then 13 or 14 SRPs at 2 marks. A labelled diagram is worth 1 SRP, plus up to 2 more for information on it that isn't in your writing. A named example is 1 SRP.",
+          "play": "Name the landform, rock or process in your first line. Then write 15 distinct facts, one per sentence, following the process in order. Add one labelled diagram carrying two facts you haven't written. Name a real place (e.g. 'Burren, Co. Clare').",
+          "traps": [
+            "Two-part questions are capped: answer only one part (only prediction, or only one rock) and the most you can get is 7 SRPs",
+            "Stick to the question's focus. In a 'formation' question, describing what the landform looks like earns at most 1 SRP",
+            "Diagrams with no labels score 0",
+            "If you name a second process or example, that's 1 SRP. A third needs explaining to count"
+          ]
+        }
+      ]
     },
     {
       "id": "geo-section2",
       "name": "Section 2 – Regional Geography",
       "marks": 80,
+      "minutes": 35,
       "color": "#10B981",
-      "minutesPerQuestion": 34,
+      "minutesPerQuestion": 35,
       "tips": {
-        "timing": "About 34 minutes for the one question you choose from Questions 4–6. Same split as Section 1: ~11 minutes per 30-mark part, ~8 for the 20-mark part, ~4 planning.",
-        "structure": "Regional answers must be anchored to a named region you have studied — Irish, European, or Continental/Sub-Continental, whichever the question specifies. Build each SRP as claim, named evidence, and geographic consequence.",
+        "timing": "35 minutes for one question from Questions 4 to 6. Same split: part A about 8 minutes, parts B and C about 13 minutes each.",
+        "structure": "Every answer has to be tied to a named region. Questions say which kind: an Irish region, a European region (not in Ireland), or a Continental/Sub-Continental region (e.g. India, Brazil). Most 30-mark parts ask for factors behind primary, secondary or tertiary activity, population, or urban growth in that region.",
         "reminders": [
-          "Name your studied region in the very first sentence — the examiner needs to know which region you are writing about",
-          "Check whether the question excludes a region ('not in Ireland', 'not in Europe') before you start",
-          "Use named places, real statistics, and specific industries or crops rather than general description",
-          "For sketch maps: include a title, north arrow, legend, and at least four labelled features",
-          "Have one Irish, one European and one Continental region prepared — the paper chooses, not you"
+          "Learn one region of each kind (Irish, European, Continental) across all four headings: physical (relief, climate, soils), primary, secondary and tertiary activity, and human (population, urban growth, culture)",
+          "Question 4A has been an outline map of a region in each of the last three years: free marks if you've practised",
+          "Use figures and named places: towns, rivers, companies, crops, ports"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Outline map of a region",
+          "where": "Question 4A ('Map Skills') in 2024, 2025 and 2026.",
+          "marks": 20,
+          "minutes": 8,
+          "see": "Draw an outline map of a region you studied and show and name four things. 2026: a European region (not Ireland), two urban centres, one river, one upland or lowland.",
+          "marked": "Outline 4 marks (graded 4/2/0). Each feature 4 marks: 2 for showing it (graded) plus 2 for naming it. A correct name scores even if the feature is badly placed; a feature with no name scores 0.",
+          "play": "Practise drawing your three regions until each takes under 3 minutes, with the main towns, rivers, uplands and lowlands in place.",
+          "traps": [
+            "Check which kind of region is asked. An Irish map in a 'not in Ireland' question scores 0",
+            "Name every feature, on the map or in a key"
+          ]
+        },
+        {
+          "name": "Data or text comprehension",
+          "where": "Questions 5A and 6A most years (2026: eurozone text and map; value of Irish industry pie charts).",
+          "marks": 20,
+          "minutes": 8,
+          "see": "A chart, table or short article about Ireland or the EU, then about six parts: read values, calculate, list benefits, 'explain briefly'.",
+          "marked": "2 marks per reading; calculations are often 4 marks (2026 Q6A: the missing pie slice, 43%). 'Explain briefly' is 2 + 2.",
+          "play": "Answer read-off questions straight from the source; the answer is printed there. Use your own knowledge only for the 'explain' parts.",
+          "traps": [
+            "A missing pie-chart value is 100 minus the rest",
+            "Copy units exactly as the source gives them"
+          ]
+        },
+        {
+          "name": "30-mark regional answer",
+          "where": "Parts B and C of Questions 4 to 6.",
+          "marks": 30,
+          "minutes": 13,
+          "see": "2026 examples: two factors behind one primary activity in an Irish region; how changing boundaries affect cultural groups; how economic activity differs between core and peripheral regions.",
+          "marked": "Typically 2 marks for each factor or example identified, then 12 to 15 SRPs. Up to 2 SRPs for examples of the activity; a labelled sketch map is worth 1 SRP plus 1 for extra information on it. An answer not linked to a named region scores 0.",
+          "play": "Open with the region and the factor: 'Factor 1: Climate, in the Paris Basin.' Make every SRP specific to that region, with a place, a figure, a crop, a company or a port.",
+          "traps": [
+            "The wrong kind of region (a European example in an Irish question) scores 0",
+            "Describing an activity without saying how the factor shaped it caps that factor at 1 SRP",
+            "Comparisons (core vs periphery) need both sides. Pure description of either side caps at 2 SRPs"
+          ]
+        }
+      ]
     },
     {
       "id": "geo-section3",
       "name": "Section 3 – Electives: Economic Activities / The Human Environment",
       "marks": 80,
+      "minutes": 35,
       "color": "#A855F7",
-      "minutesPerQuestion": 34,
+      "minutesPerQuestion": 35,
       "tips": {
-        "timing": "About 34 minutes for the one question you choose from Questions 7–12. Questions 7–9 are the Economic Activities elective and Questions 10–12 are the Human Environment elective.",
-        "structure": "Answer from the elective you actually studied. These questions lean on data — tables, graphs, population pyramids and maps — so the 20-mark part is often a calculation or data interpretation. Show your working and quote the figures you used.",
+        "timing": "35 minutes for one question. Questions 7 to 9 are Elective 4 (Economic Activities); Questions 10 to 12 are Elective 5 (The Human Environment). Only answer from the one you studied.",
+        "structure": "Same shape as Sections 1 and 2: a 20-mark part A and two 30-mark parts. Part A here is the most varied on the paper: an aerial photo sketch, drawing a graph, or reading a chart. Some 30-mark parts ask you to use evidence from the OS map.",
         "reminders": [
-          "Only answer from the elective you studied — the two are not interchangeable",
-          "Quote the actual figures from any table or graph before interpreting them",
-          "Show working for percentage, rate and density calculations, and include units",
-          "Support every point with a named example: a specific country, city, company or scheme",
-          "Distinguish causes from effects clearly — many questions award marks separately for each"
+          "Economic: have a named multinational, a colonialism example, an EU policy (e.g. CAP or CFP), a developed and a developing economy, and a conflict between resource use and the environment",
+          "Human: have migration examples, a city's land-use zones, a developing-world city, overpopulation, and the stages of the demographic transition with countries",
+          "Learn the formulas: net migration = immigration minus emigration; population density = people ÷ km²"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "Aerial photo sketch",
+          "where": "Questions 7A and 12A in 2026; Question 10A in 2025.",
+          "marks": 20,
+          "minutes": 8,
+          "see": "Draw a sketch map of the aerial photo at half the length and half the breadth, then show and label four land uses or features (river, railway bridge, residential area, recreational land).",
+          "marked": "Frame 4 marks: exact size (12.7 cm × 8.4 cm in 2026, ±0.5 cm), landscape, four ruled sides. Each feature 4 marks: 3 for showing it (graded 3/1/0) plus 1 for the label.",
+          "play": "Measure the photo, halve both sides, rule the frame. Lightly pencil in the nine zones to place features accurately.",
+          "traps": [
+            "Using the OS map instead of the photo scores 0",
+            "Tracing loses the frame marks and all showing marks",
+            "A feature with no label scores 0"
+          ]
+        },
+        {
+          "name": "Draw a graph",
+          "where": "Question 10A in 2026; graph drawing appeared twice on both the 2024 and 2025 papers.",
+          "marks": 20,
+          "minutes": 9,
+          "see": "A table of data (2026: populations of six Irish towns) to plot as a suitable graph (16 marks), plus a short 'explain briefly' (4 marks).",
+          "marked": "Bar chart: title 2, vertical axis named 1, horizontal axis named 1, each item plotted 2 (graded). Pie chart: title 2, circle and centre 1 + 1, each slice 2. Lose 2 marks overall if you don't use graph paper.",
+          "play": "Ask for graph paper. Give a title that describes the data ('Population of Irish towns, 2022'), name both axes with units, and keep bars an even width.",
+          "traps": [
+            "'Bar chart' is not a title",
+            "Uneven bar widths or gaps cost the graded marks"
+          ]
+        },
+        {
+          "name": "Chart or data interpretation",
+          "where": "Questions 8A, 9A and 11A most years (migration charts, HDI, electricity sources, renewable energy).",
+          "marks": 20,
+          "minutes": 8,
+          "see": "A chart or table, then about six short parts: highest or lowest year, a difference, a calculation, two barriers or reasons, and one 'explain briefly'.",
+          "marked": "2 marks per reading; calculations 4 (2026 Q11A: net migration in 2024, 79 thousand); 'state two' is 2 + 2.",
+          "play": "Do the reading and calculating parts first, then write two-clause reasons for the rest.",
+          "traps": [
+            "Net migration = immigration minus emigration. Keep the units (thousands)"
+          ]
+        },
+        {
+          "name": "OS map evidence answer",
+          "where": "Question 9C in 2026; OS map evidence questions also appeared in 2024 and 2025.",
+          "marks": 30,
+          "minutes": 13,
+          "see": "'Using evidence from the OS map, explain three factors that have influenced…' (economic activity, settlement, a town's growth).",
+          "marked": "3 factors at 10 marks each: factor named 2, map evidence 2, then 3 SRPs. An answer based on the aerial photo only gets the naming marks.",
+          "play": "Use the same pattern three times: name the factor, give the evidence (a grid reference or named road), then three facts on how it helped.",
+          "traps": [
+            "No grid reference or named feature means no evidence marks",
+            "Only two of your factors can be different kinds of transport"
+          ]
+        },
+        {
+          "name": "30-mark elective answer",
+          "where": "Parts B and C of Questions 7 to 12.",
+          "marks": 30,
+          "minutes": 13,
+          "see": "Multinationals, colonialism, EU policy, economic development over time, conflicts of interest, migration, urban land use, overpopulation, developing-world cities.",
+          "marked": "2 marks for each example or idea the question asks you to name, then 13 to 14 SRPs. Two-sided questions are capped: only one side of a 'conflict' answer caps at 7 SRPs, and no mention of the conflict at all caps at 2.",
+          "play": "Name your example in your first line (e.g. a named company and its Irish base). If the question has two sides, plan two halves of about 7 SRPs each before you write.",
+          "traps": [
+            "One-sided answers to two-sided questions lose half the marks",
+            "If you name a second example, that's 1 SRP; general points with no example score poorly"
+          ]
+        }
+      ]
     },
     {
       "id": "geo-section4",
       "name": "Section 4 – Options (Higher Level only)",
       "marks": 80,
+      "minutes": 35,
       "color": "#EF4444",
-      "minutesPerQuestion": 34,
+      "minutesPerQuestion": 35,
       "tips": {
-        "timing": "About 34 minutes for the one question you choose from the Options block. This section exists on the Higher Level paper only; Ordinary Level candidates answer three questions from Sections 1–3 instead.",
-        "structure": "Answer from the single option you studied — Global Interdependence, Geoecology, Culture and Identity, or The Atmosphere-Ocean Environment. Option answers are marked to the same SRP standard as the rest of Part Two, and examiners expect option-specific terminology.",
+        "timing": "35 minutes for one essay from your option's three questions (Global Interdependence 13 to 15, Geoecology 16 to 18, Culture and Identity 19 to 21, Atmosphere-Ocean Environment 22 to 24). Spend 3 minutes planning your aspects before writing.",
+        "structure": "The only true essay on the paper: one 80-mark answer to a statement. You don't have to take an Options question. Under the current rules you can answer two questions from Section 1, 2 or 3 instead. Decide which before June, not in the exam hall.",
         "reminders": [
-          "Answer only from the option you studied — mixing options loses the thread and the marks",
-          "Use the option's own vocabulary (e.g. soil horizons and leaching for Geoecology, ITCZ and ocean currents for Atmosphere-Ocean)",
-          "Bring a prepared case study with named places, dates and figures for each likely topic",
-          "The Options question is not optional at Higher Level if you need it as one of your four — decide early which section you will skip",
-          "Ordinary Level candidates: ignore this section entirely and answer three questions from Sections 1–3"
+          "Answer only from the option you studied",
+          "Learn three or four broad aspects per likely question, each with a case study, rather than one memorised essay",
+          "Ordinary Level has no Options section"
         ]
-      }
+      },
+      "questionTypes": [
+        {
+          "name": "80-mark Options essay",
+          "where": "Questions 13 to 24, every year. Themes recur: development models and sustainability (Global Interdependence), soil processes and biomes (Geoecology), language, religion and nation states (Culture and Identity), heat transfer and climates (Atmosphere-Ocean).",
+          "marks": 80,
+          "minutes": 35,
+          "see": "A statement plus 'Discuss' or 'Examine', e.g. 'Sustainability is a model for future human and economic development. Discuss.'",
+          "marked": "Either 3 aspects at 20 marks (aspect identified 4, then 8 SRPs) or 4 aspects at 15 marks (aspect identified 3, then 6 SRPs). That's 60 marks. The other 20 are Overall Coherence, graded 20, 17, 14, 10, 6 or 0 for how well the whole essay answers the statement.",
+          "play": "Plan 3 or 4 aspect headings that answer the statement directly. Write each as a paragraph: aspect named in the first sentence, then 8 (or 6) developed points with named places, dates and figures, then a closing line that links back to the statement. The scheme itself says 3 or 4 aspects in detail beat many aspects done thinly.",
+          "traps": [
+            "Overall Coherence is a quarter of the question. A memorised essay that doesn't fit the statement drops to 'Fair' (10) or lower",
+            "If an aspect isn't clearly named, you lose its 3 or 4 identifying marks",
+            "A fifth or sixth thin aspect earns nothing: surplus points beyond the scheme aren't credited"
+          ]
+        }
+      ]
     }
   ]
 }

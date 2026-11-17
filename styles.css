@@ -3315,6 +3315,8 @@ body.modal-open { overflow: hidden; }
 }
 
 .bd-timing-note { margin: 0 0 1rem; max-width: 70ch; font-size: 0.85rem; line-height: 1.5; color: var(--muted); }
+.bd-note-link { display: inline; width: auto; min-height: 0; padding: 0; border: 0; box-shadow: none; background: none; font: inherit; font-weight: 600; color: var(--accent-strong); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent); text-underline-offset: 3px; cursor: pointer; }
+.bd-note-link:hover { text-decoration-color: currentColor; }
 
 /* Marks strip: each section's share of the paper */
 .bd-bar { display: flex; gap: 6px; }
@@ -3563,18 +3565,21 @@ body.modal-open { overflow: hidden; }
   to   { opacity: 1; transform: none; }
 }
 
-/* Narrow screens: sections stack, tap one to open it */
+/* Sections are full-width rows stacked down the page at every width; tap one to open it */
+.bd-panels { flex-direction: column; gap: 0.6rem; margin: 0 -0.25rem; padding: 0 0.25rem 1rem; }
+.bd-panel, .bd-panel.is-open { flex: none; animation-name: bd-rise; }
+.bd-panel-head { grid-template-columns: 1fr auto; column-gap: 1rem; padding: 1.25rem 1.5rem 1rem; }
+.bd-kicker, .bd-panel-title, .bd-facts { grid-column: 1; }
+.bd-marks { grid-column: 2; grid-row: 1 / span 3; margin: 0; align-self: center; text-align: right; }
+.bd-marks strong { display: block; font-size: 2.1rem; }
+.bd-panel-cue { display: none; }
+.bd-panel-body { display: none; min-width: 0; overflow: visible; padding: 0 1.5rem 1.5rem; }
+.bd-panel.is-open .bd-panel-body { display: flex; }
+
 @media (max-width: 860px) {
   .bd-head { padding-right: 3rem; gap: 1rem; }
-  .bd-panels { flex-direction: column; overflow-y: auto; gap: 0.6rem; margin: 0 -0.25rem; padding: 0 0.25rem 1rem; }
-  .bd-panel, .bd-panel.is-open { flex: none; animation-name: bd-rise; }
-  .bd-panel-head { grid-template-columns: 1fr auto; column-gap: 1rem; padding: 1.25rem 1.1rem 1rem; }
-  .bd-kicker, .bd-panel-title, .bd-facts { grid-column: 1; }
-  .bd-marks { grid-column: 2; grid-row: 1 / span 3; margin: 0; align-self: center; text-align: right; }
-  .bd-marks strong { display: block; font-size: 2.1rem; }
-  .bd-panel-cue { display: none; }
-  .bd-panel-body { display: none; min-width: 0; overflow: visible; padding: 0 1.1rem 1.25rem; }
-  .bd-panel.is-open .bd-panel-body { display: flex; }
+  .bd-panel-head { padding: 1.25rem 1.1rem 1rem; }
+  .bd-panel-body { padding: 0 1.1rem 1.25rem; }
   .bd-tips { grid-template-columns: 1fr; }
 }
 
@@ -3642,6 +3647,55 @@ body.modal-open { overflow: hidden; }
 .aac-depth summary .bd-label::before { content: "+ "; }
 .aac-depth[open] summary .bd-label::before { content: "– "; }
 .aac-depth-count { font-size: 0.78rem; color: var(--muted); }
+
+/* Paper guide: the exam morning as a proportional timeline */
+/* .aac-brief is two columns on desktop; the timeline and rules need the full width */
+.aac-brief.bd-day { grid-template-columns: minmax(0, 1fr); gap: 1.4rem; container-type: inline-size; }
+.bd-day .aac-brief-task { max-width: 75ch; font-size: 0.98rem; }
+.bd-timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.bd-tl-block { min-width: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.bd-tl-time { display: flex; justify-content: space-between; font-size: 0.95rem; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; color: var(--ink); }
+.bd-tl-bar { display: flex; gap: 3px; height: 3rem; border-radius: 8px; overflow: hidden; }
+.bd-tl-bar span { display: grid; place-items: center; min-width: 0; background: var(--c); color: var(--panel); font-size: 0.82rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bd-tl-bar span:nth-child(2) { background: color-mix(in srgb, var(--c) 82%, var(--panel)); }
+.bd-tl-bar span:nth-child(3) { background: color-mix(in srgb, var(--c) 68%, var(--panel)); }
+.bd-tl-label { margin-top: 0.35rem; font-size: 1.08rem; font-weight: 700; letter-spacing: -0.015em; color: var(--ink); }
+.bd-tl-mins { font-size: 0.82rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--sec); }
+.bd-tl-detail { margin: 0.15rem 0 0; font-size: 0.88rem; line-height: 1.5; color: var(--ink-2); }
+.aac-brief.bd-rules { gap: 0.6rem; }
+.bd-day .aac-brief-facts { gap: 0.9rem 1.5rem; }
+.bd-day .aac-brief-facts div { border-bottom: 0; padding: 0.6rem 0 0; border-top: 1px solid var(--line); align-content: start; }
+@container (min-width: 30rem) { .bd-day .aac-brief-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container (min-width: 56rem) { .bd-day .aac-brief-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+/* Too narrow for six columns: run the timeline down the page, bar heights still scaled by minutes */
+@container (max-width: 44rem) {
+  .bd-timeline { grid-template-columns: 1fr !important; gap: 4px; }
+  .bd-tl-block { display: grid; grid-template-columns: 3.4rem 0.8rem minmax(0, 1fr); column-gap: 0.9rem; align-content: start; }
+  .bd-tl-time { grid-column: 1; grid-row: 1 / span 3; flex-direction: column; }
+  .bd-tl-bar { grid-column: 2; grid-row: 1 / span 3; flex-direction: column; height: auto; min-height: calc(var(--m) * 0.2rem); border-radius: 5px; }
+  .bd-tl-bar span { font-size: 0; }
+  .bd-tl-label, .bd-tl-mins, .bd-tl-detail { grid-column: 3; margin: 0; }
+  .bd-tl-detail { padding-bottom: 0.9rem; }
+}
+
+/* Paper guide: one row per question type, split by hairlines rather than nested cards */
+.bd-type { border-top: 1px solid var(--line); padding: 0.75rem 0 0.2rem; }
+.bd-type:first-of-type { margin-top: 0.6rem; }
+.bd-type summary { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; list-style: none; cursor: pointer; }
+.bd-type summary::-webkit-details-marker { display: none; }
+.bd-type-name { font-size: 0.95rem; font-weight: 650; letter-spacing: -0.01em; color: var(--ink); }
+.bd-type-name::before { content: "+ "; color: var(--sec); }
+.bd-type[open] .bd-type-name::before { content: "– "; }
+.bd-type summary:hover .bd-type-name { color: var(--sec); }
+/* The four facts sit side by side: 4 across a wide panel, 2×2 in a medium one, stacked on a phone */
+.bd-types { container-type: inline-size; }
+.bd-type .aac-brief-facts { margin: 0.75rem 0 0.9rem; grid-template-columns: 1fr; gap: 0.9rem 1.25rem; }
+.bd-type .aac-brief-facts div { border-bottom: 0; padding: 0.55rem 0 0; border-top: 1px solid var(--line); align-content: start; }
+.bd-type .aac-brief-facts dd { color: var(--ink-2); }
+@container (min-width: 26rem) { .bd-type .aac-brief-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container (min-width: 46rem) { .bd-type .aac-brief-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.bd-type-traps { display: block; }
+.bd-type .bd-reminders { margin-bottom: 0.6rem; }
 .aac-h {
   margin: 1.1rem 0 0;
   font-size: 0.86rem;
@@ -7136,7 +7190,7 @@ body { height: 100vh; height: 100dvh; }
 
 /* Paper guide: the whole screen scrolls, not the panel inside it */
 .bd-screen { overflow-y: auto; overscroll-behavior: contain; }
-.bd-panels { flex: none; overflow: visible; min-height: min(32rem, 60dvh); }
+.bd-panels { flex: none; overflow: visible; }
 .bd-panel-body { overflow: visible; }
 .bd-panel:not(.is-open) .bd-panel-body { height: 0; padding-block: 0; overflow: hidden; }
 
