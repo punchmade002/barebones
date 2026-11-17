@@ -641,11 +641,14 @@
   text-align: center;
 }
 
+/* The viewer's zoom controls sit where the top-bar timer is */
+body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
+
 .pv-foot {
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 0.55rem 6rem 0.55rem 1rem; /* clear of the study timer, bottom right */
+  padding: 0.55rem 1rem;
   background: var(--desk-2);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
@@ -730,9 +733,8 @@
     border-radius: var(--r-sm);
   }
 
-  /* Phones keep the timer in the top bar, where these screens put their own controls */
-  body:has(#papersScreen:not(.hidden)) .timer-widget,
-  body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
+  /* Phones keep the timer in the top bar, where this screen puts its own controls */
+  body:has(#papersScreen:not(.hidden)) .timer-widget { display: none; }
 
   .papers-page { padding: 1.25rem 1rem 5rem; }
   .papers-head { align-items: center; }
