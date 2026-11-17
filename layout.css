@@ -454,39 +454,20 @@ body:not([data-subject]) .auth-close { display: none; }
   .subject-area:is([data-screen="chapter"], [data-screen="study"]) .subject-head h1 { font-size: 1.4rem; }
 }
 
-/* Paper / AAC guide on narrow screens: the sections sit side by side in a row that swipes
-   sideways, every one open, under the marks bar (scrollGuideTo / bindGuideSwipe in app.js) */
-@media (max-width: 860px) {
-  .guide-inline .bd-panels {
-    --bleed: clamp(1rem, 3vw, 2.5rem); /* .bd-screen's side padding: the row runs to the card's edges */
-    flex-direction: row;
-    align-items: start; /* each section as tall as its own content */
-    min-height: 0;
-    gap: 0.75rem;
-    margin: 0 calc(-1 * var(--bleed));
-    padding: 0.25rem var(--bleed) 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-padding-inline: var(--bleed);
-    scrollbar-width: none;
-  }
-  .guide-inline .bd-panels::-webkit-scrollbar { display: none; }
-  .guide-inline .bd-panel,
-  .guide-inline .bd-panel.is-open {
-    --tint: 6%;
-    flex: 0 0 min(85%, 24rem);
-    scroll-snap-align: start;
-    box-shadow: none;
-    cursor: default;
-  }
-  .guide-inline .bd-panel .bd-panel-body,
-  .guide-inline .bd-panel:not(.is-open) .bd-panel-body {
-    display: flex;
-    height: auto;
-    padding: 0 1.1rem 1.25rem;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-  }
-  .guide-inline .bd-tips { grid-template-columns: minmax(0, 1fr); }
-}
+/* Paper / AAC guide: the sections stack one above another under the marks bar. The open one
+   shows its tips; the rest are a row each (tap one, or its slice of the bar, to open it). */
+.guide-inline .bd-panels { flex: none; flex-direction: column; gap: 0.6rem; min-height: 0; overflow: visible; }
+.guide-inline .bd-panel,
+.guide-inline .bd-panel.is-open { flex: none; }
+.guide-inline .bd-panel-head { grid-template-columns: 1fr auto; column-gap: 1rem; }
+.guide-inline .bd-kicker,
+.guide-inline .bd-panel-title,
+.guide-inline .bd-facts { grid-column: 1; }
+.guide-inline .bd-marks { grid-column: 2; grid-row: 1 / span 3; margin: 0; align-self: center; text-align: right; }
+.guide-inline .bd-marks strong { display: block; }
+.guide-inline .bd-panel-cue { position: static; padding: 0 1.5rem 1.1rem; }
+.guide-inline .bd-panel.is-open .bd-panel-cue,
+.guide-inline .bd-panel:not(.is-open) .bd-panel-body { display: none; }
+.guide-inline .bd-panel-body { min-width: 0; }
+
+.guide-inline .bd-panel { scroll-margin-top: 0.75rem; }
