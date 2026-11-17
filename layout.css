@@ -271,6 +271,9 @@ html:not(.bb-section-link) .page-shell .shell-section { display: none; }
 .guide-inline { border-radius: var(--r-xl); }
 /* The modal's id rule sets overflow: hidden; inline, the guide scrolls like every other section */
 #examBreakdownModal.guide-inline { overflow-y: auto; }
+/* …so the inner screen must not be a scroller too: styles.css gives it overscroll-behavior: contain for the
+   full-screen modal, which here swallows every wheel scroll before it reaches the guide */
+.guide-inline .bd-screen { overflow-y: visible; overscroll-behavior: auto; }
 .guide-inline .breakdown-modal-card { height: auto; min-height: 100%; border-radius: var(--r-xl); background: var(--panel); }
 /* The page heading already names the subject */
 .guide-inline .bd-title { display: none; }
