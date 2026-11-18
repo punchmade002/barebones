@@ -4495,6 +4495,28 @@ body.modal-open { overflow: hidden; }
 .study-controls #flipCard { min-width: 104px; }
 .study-controls .study-learned { min-width: 116px; }
 
+/* Your own flashcards: quiet text actions in the card head, and the inline form that replaces the card */
+.study-card-tools { display: flex; align-items: center; gap: 0.9rem; }
+.own-card-action {
+  min-height: 36px;
+  padding: 0 0.15rem;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  font-weight: 650;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.own-card-action:hover { background: none; text-decoration: underline; text-underline-offset: 3px; }
+.own-card-action.is-quiet { color: var(--muted); }
+.own-card-form { display: grid; gap: 1rem; align-content: start; }
+.own-card-heading { color: var(--ink); font-size: 0.95rem; }
+.own-card-field { display: grid; gap: 0.35rem; color: var(--ink-2); font-size: 0.78rem; font-weight: 650; }
+.own-card-field .feedback-textarea { min-height: 0; font-weight: 400; }
+.own-card-form .study-card-footer { justify-content: flex-end; }
+
 .study-keywords { position: relative; margin-left: auto; }
 
 .study-keywords summary {
