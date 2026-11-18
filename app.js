@@ -296,6 +296,11 @@ let showAnswer = false;
 let viewMode = 'subject-overview';
 // True while a freshly opened chapter is showing its full-screen subsection picker.
 let pickingOutcome = false;
+// Your flashcards: user.ownCards[subjectId] = [{ id, outcomeId, term, definition, learned }].
+// A card made inside a subsection (outcomeId) joins that subsection's deck; every card is in
+// the subject's "Your flashcards" deck, a pretend chapter with this id.
+const OWN_CHAPTER_ID = "own";
+let addingOwnCard = false;
 // Live reading state lives up here because bindEvents() runs before the reader's code below.
 const LIVE_READER_WPM_KEY = "bb-live-reader-wpm";
 // The highlight moves a character at a time; the slider stays in words per
@@ -1627,6 +1632,7 @@ function serializeStudyUser(user) {
     learnedByOutcome: user?.learnedByOutcome || {},
     disabledSubjects: Array.isArray(user?.disabledSubjects) ? user.disabledSubjects : [],
     onboarding: user?.onboarding || null,
+    ownCards: user?.ownCards, // left out until the first card, so an empty device can't wipe the synced ones
     testHistory: Array.isArray(user?.testHistory) ? user.testHistory : [],
   };
 }
@@ -2040,6 +2046,11 @@ function sectionFromHash() {
 function enterSection() {
   if (!PAGE_SUBJECT) return;
   subjectSection = sectionFromHash();
+  // Your flashcards only exists in Flashcards: Tests and Exam get a real chapter
+  if (subjectSection !== "flashcards" && selectedChapterId === OWN_CHAPTER_ID) {
+    selectedChapterId = PAGE_SUBJECT_DATA.chapters[0]?.id || "";
+    selectedOutcomeId = PAGE_SUBJECT_DATA.chapters[0]?.learningOutcomes[0]?.id || "";
+  }
   viewMode = "subject-overview";
   pickingOutcome = false;
   if (SECTION_TABS[subjectSection]) switchTab(SECTION_TABS[subjectSection]);
@@ -2050,16 +2061,18 @@ function enterSection() {
   els.subjectArea.querySelectorAll(".section-panel, .workbench, .guide-inline").forEach((el) => { el.scrollTop = 0; });
 }
 
+// Cards learned in one subsection (a finished subsection counts in full)
+function outcomeDone(lo, user) {
+  return (user?.progressByOutcome?.[lo.id] || 0) >= 1 ? outcomeCardTotal(lo) : (user?.learnedByOutcome?.[lo.id] || []).length;
+}
+
 function subjectStats(subject, user) {
-  const progress = user?.progressByOutcome || {};
-  const learned = user?.learnedByOutcome || {};
   let subEarned = 0, subTotal = 0;
   const chStats = (subject.chapters || []).map((ch) => {
     let chEarned = 0, chTotal = 0;
     (ch.learningOutcomes || []).forEach((lo) => {
-      const concepts = outcomeCardTotal(lo);
-      chTotal += concepts;
-      chEarned += (progress[lo.id] || 0) >= 1 ? concepts : (learned[lo.id] || []).length;
+      chTotal += outcomeCardTotal(lo);
+      chEarned += outcomeDone(lo, user);
     });
     subEarned += chEarned;
     subTotal += chTotal;
@@ -2174,6 +2187,13 @@ function subjectHomeHtml() {
 
 // A chapter with subsections folds open to list them, each opening the notes on its own page;
 // a one-subsection chapter opens its notes straight away
+// Chapters left open stay open when the list redraws (sync, sign-in…)
+const openFolds = new Set();
+function foldAttrs(chapterId) {
+  const id = escapeHtml(chapterId);
+  return `${openFolds.has(chapterId) ? "open" : ""} ontoggle="openFolds[this.open ? 'add' : 'delete']('${id}')"`;
+}
+
 function notesListHtml() {
   const rows = PAGE_SUBJECT_DATA.chapters.map((ch) => {
     const outcomes = ch.learningOutcomes || [];
@@ -2188,7 +2208,7 @@ function notesListHtml() {
       </li>`;
     return `
       <li>
-        <details class="chapter-fold">
+        <details class="chapter-fold" ${foldAttrs(ch.id)}>
           <summary class="chapter-row"><span class="chapter-row-title">${escapeHtml(ch.title)}</span>${meta}</summary>
           <ol class="chapter-subs">${outcomes.map((lo) => `
             <li><button type="button" onclick="openChapterNotes('${id}','${escapeHtml(lo.id)}')">${escapeHtml(compactText(lo.title || ""))}</button></li>`).join("")}
@@ -2284,35 +2304,69 @@ function renderSubjectOverview() {
   const forExam = subjectSection === "exam";
   const rows = ss.chStats.map(s => {
     const pct = Math.round(s.ratio * 100);
+    const id = escapeHtml(s.ch.id);
     const examCount = forExam && examPackReady(PAGE_SUBJECT)
       ? getExamQuestionsForChapter(s.ch).filter((g) => !isOffSpecExamGroup(g)).length : null;
-    return `
-      <button class="overview-chapter-row" onclick="selectChapterFromOverview('${escapeHtml(s.ch.id)}')">
+    const inner = `
         <div class="overview-chapter-text">
           <span class="overview-chapter-title">${escapeHtml(s.ch.title)}</span>
           <span class="overview-chapter-score">${forExam ? (examCount === null ? "" : plural(examCount, "question")) : `${s.earned}/${s.total}`}</span>
         </div>
-        ${forExam ? "" : `<div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${pct}%"></div></div>`}
+        ${forExam ? "" : `<div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${pct}%"></div></div>`}`;
+    // Exam questions are per chapter; a flashcard chapter with subsections folds open to list them
+    if (forExam || !chapterHasSubsections(s.ch)) return `
+      <button class="overview-chapter-row" onclick="selectChapterFromOverview('${id}')">${inner}
       </button>`;
+    return `
+      <details class="chapter-fold overview-fold" ${foldAttrs(s.ch.id)}>
+        <summary class="overview-chapter-row">${inner}</summary>
+        <ol class="chapter-subs">${s.ch.learningOutcomes.map((lo) => `
+          <li><button type="button" onclick="openOutcomeFromOverview('${id}','${escapeHtml(lo.id)}')">
+            <span>${escapeHtml(compactText(lo.title || ""))}</span>
+            <span class="chapter-sub-count">${outcomeDone(lo, user)}/${outcomeCardTotal(lo)}</span>
+          </button></li>`).join("")}
+        </ol>
+      </details>`;
   }).join('');
 
-  overviewEl.innerHTML = `<div class="overview-chapter-list">${rows}</div>`;
+  const own = ownCardList();
+  const ownPct = own.length ? Math.round((own.filter((c) => c.learned).length / own.length) * 100) : 0;
+  const ownRow = forExam ? "" : `
+      <button class="overview-chapter-row" onclick="selectChapterFromOverview('${OWN_CHAPTER_ID}')">
+        <div class="overview-chapter-text">
+          <span class="overview-chapter-title">Your flashcards</span>
+          <span class="overview-chapter-score">${own.length ? plural(own.length, "card") : "Make your own"}</span>
+        </div>
+        <div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${ownPct}%"></div></div>
+      </button>`;
+  overviewEl.innerHTML = `<div class="overview-chapter-list">${ownRow}${rows}</div>`;
 }
 
 function selectChapterFromOverview(chapterId) {
   const subject = SUBJECTS.find(s => s.id === selectedSubjectId);
   if (!subject) return;
-  const chapter = subject.chapters.find(c => c.id === chapterId);
+  const chapter = chapterId === OWN_CHAPTER_ID ? ownChapter(subject.id) : subject.chapters.find(c => c.id === chapterId);
   if (!chapter) return;
   openSubjectData(subject.id);
   selectedChapterId = chapterId;
   selectedOutcomeId = chapter.learningOutcomes[0]?.id || '';
   studyIndex = 0;
   showAnswer = false;
+  addingOwnCard = false;
   viewMode = 'chapter';
   // Exam questions are per chapter; flashcards go on to the chapter's subsections
   pickingOutcome = subjectSection === "flashcards" && chapterHasSubsections(chapter);
   pushPhoneScreen("chapter");
+  renderAll();
+}
+
+// Straight to one subsection's cards from the chapter list; Back still lands on the subsection grid
+function openOutcomeFromOverview(chapterId, outcomeId) {
+  selectChapterFromOverview(chapterId);
+  if (!getSelectedChapter()?.learningOutcomes.some((lo) => lo.id === outcomeId)) return;
+  selectedOutcomeId = outcomeId;
+  pickingOutcome = false;
+  pushPhoneScreen("study");
   renderAll();
 }
 
@@ -2349,14 +2403,69 @@ function renderOutcomes() {
     els.flashcardList.appendChild(li);
   });
 
-  const cards = cardsForOutcome(outcome, selectedSubjectId);
+  const ownDeck = chapter.id === OWN_CHAPTER_ID;
+  els.openFullNotes?.classList.toggle("hidden", ownDeck);
+  const mine = ownCardList().filter((c) => ownDeck || c.outcomeId === outcome.id).map((c) => ({ ...c, own: true }));
+  const cards = [...cardsForOutcome(outcome, selectedSubjectId), ...mine];
+  els.hierarchyPanel.classList.add("hidden");
+
+  // An empty Your flashcards deck opens straight on the form
+  if (addingOwnCard || (ownDeck && !cards.length)) {
+    els.flashcardStudy.innerHTML = `
+      <form class="own-card-form">
+        <header class="study-card-head">
+          <strong class="own-card-heading">New flashcard</strong>
+          <span class="study-card-count">${ownDeck ? "" : "Also kept in Your flashcards"}</span>
+        </header>
+        <label class="own-card-field">Question
+          <textarea name="term" class="feedback-textarea" rows="2" maxlength="300" required placeholder="What is osmosis?"></textarea>
+        </label>
+        <label class="own-card-field">Answer
+          <textarea name="definition" class="feedback-textarea" rows="4" maxlength="2000" required></textarea>
+        </label>
+        <div class="study-card-footer">
+          <div class="study-controls">
+            ${cards.length ? `<button type="button" class="button-secondary" data-own-cancel>Cancel</button>` : ""}
+            <button type="submit" class="button-primary">Save card</button>
+          </div>
+        </div>
+      </form>`;
+    const form = els.flashcardStudy.querySelector("form");
+    form.term.focus();
+    form.querySelector("[data-own-cancel]")?.addEventListener("click", () => {
+      addingOwnCard = false;
+      renderOutcomes();
+    });
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const user = getCurrentUser();
+      const term = form.term.value.trim();
+      const definition = form.definition.value.trim();
+      if (!user || !term || !definition) return;
+      user.ownCards = user.ownCards || {};
+      user.ownCards[selectedSubjectId] = [...ownCardList(), {
+        id: `own-${Date.now().toString(36)}`, outcomeId: ownDeck ? "" : outcome.id, term, definition,
+      }];
+      studyIndex = cards.length; // the new card is last in this deck
+      showAnswer = false;
+      addingOwnCard = false;
+      persist();
+      renderOutcomes();
+    });
+    return;
+  }
+
   if (studyIndex >= cards.length) studyIndex = 0;
   const card = cards[studyIndex] || { term: "No content", definition: "No chapter concepts loaded." };
   const learnedByOutcome = getLearnedByOutcome();
   const learnedSet = new Set(learnedByOutcome[outcome.id] || []);
+  const isLearned = card.own ? Boolean(card.learned) : learnedSet.has(card.id);
   let chapterTotalCards = 0;
   let chapterLearnedCards = 0;
-  chapter.learningOutcomes.forEach(lo => {
+  if (ownDeck) {
+    chapterTotalCards = cards.length;
+    chapterLearnedCards = cards.filter((c) => c.learned).length;
+  } else chapter.learningOutcomes.forEach(lo => {
     const loCards = cardsForOutcome(lo, selectedSubjectId);
     chapterTotalCards += outcomeCardTotal(lo);
     const loLearned = new Set(learnedByOutcome[lo.id] || []);
@@ -2370,7 +2479,11 @@ function renderOutcomes() {
         <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
         <span>${chapterPct}%</span>
       </div>
-      <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${outcomeCardTotal(outcome)}</span>
+      <span class="study-card-tools">
+        ${card.own ? `<button type="button" class="own-card-action is-quiet" id="deleteOwnCard">Delete</button>` : ""}
+        <button type="button" class="own-card-action" id="addOwnCard">+ Add card</button>
+        <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${outcomeCardTotal(outcome) + mine.length}</span>
+      </span>
     </header>
     <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
     <div class="study-card-footer">
@@ -2378,7 +2491,7 @@ function renderOutcomes() {
         <button id="prevCard" class="button-secondary study-step" aria-label="Previous concept">←</button>
         <button id="flipCard" class="button-primary">${showAnswer ? "Question" : "Reveal"}</button>
         <button id="nextCard" class="button-secondary study-step" aria-label="Next concept">→</button>
-        <button id="markLearned" class="button-secondary study-learned" aria-label="${learnedSet.has(card.id) ? "Mark concept unlearned" : "Mark concept learned"}" title="${learnedSet.has(card.id) ? "Press again to mark unlearned" : "Mark this concept learned"}">${learnedSet.has(card.id) ? "✓ Learned" : "Mark learned"}</button>
+        <button id="markLearned" class="button-secondary study-learned" aria-label="${isLearned ? "Mark concept unlearned" : "Mark concept learned"}" title="${isLearned ? "Press again to mark unlearned" : "Mark this concept learned"}">${isLearned ? "✓ Learned" : "Mark learned"}</button>
       </div>
       ${showAnswer && card.keywords?.length ? `
         <details class="study-keywords">
@@ -2410,7 +2523,27 @@ function renderOutcomes() {
     showAnswer = !showAnswer;
     renderOutcomes();
   });
+  document.getElementById("addOwnCard").addEventListener("click", () => {
+    addingOwnCard = true;
+    renderOutcomes();
+  });
+  document.getElementById("deleteOwnCard")?.addEventListener("click", () => {
+    if (!window.confirm("Delete this flashcard?")) return;
+    const user = getCurrentUser();
+    user.ownCards[selectedSubjectId] = ownCardList().filter((c) => c.id !== card.id);
+    showAnswer = false;
+    persist();
+    renderOutcomes();
+  });
   document.getElementById("markLearned").addEventListener("click", () => {
+    // Your own cards keep their learned mark on the card, out of the course progress
+    const stored = card.own && ownCardList().find((c) => c.id === card.id);
+    if (stored) {
+      stored.learned = !stored.learned;
+      persist();
+      renderOutcomes();
+      return;
+    }
     const learnedByOutcome = getLearnedByOutcome();
     if (!learnedByOutcome[outcome.id]) learnedByOutcome[outcome.id] = [];
     const set = new Set(learnedByOutcome[outcome.id]);
@@ -3759,6 +3892,7 @@ function requestSubjectPack(subjectId) {
 // subject-index.js mirrors the full data, but if it's out of date a selected topic
 // may not exist once the real files arrive: fall back to the first one.
 function keepSelectionInSubject(subject) {
+  if (selectedChapterId === OWN_CHAPTER_ID) return;
   const chapter = subject.chapters.find((c) => c.id === selectedChapterId) || subject.chapters[0];
   selectedChapterId = chapter?.id || "";
   const outcomes = chapter?.learningOutcomes || [];
@@ -4663,8 +4797,17 @@ function compactText(text) {
     .trim();
 }
 
+function ownCardList(subjectId = selectedSubjectId) {
+  return getCurrentUser()?.ownCards?.[subjectId] || [];
+}
+
+function ownChapter(subjectId) {
+  return { id: OWN_CHAPTER_ID, title: "Your flashcards", learningOutcomes: [{ id: `own-${subjectId}`, title: "Your flashcards", keyTerms: [] }] };
+}
+
 function getSelectedChapter() {
   const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  if (subject && selectedChapterId === OWN_CHAPTER_ID) return ownChapter(subject.id);
   return subject?.chapters.find((c) => c.id === selectedChapterId) || null;
 }
 

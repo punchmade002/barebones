@@ -237,6 +237,17 @@ html:not(.bb-section-link) .page-shell .shell-section { display: none; }
   text-align: left;
 }
 .chapter-subs button:hover { border-left-color: var(--accent); background: var(--accent-xxlight); color: var(--accent-strong); }
+.chapter-subs button:has(.chapter-sub-count) { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.chapter-sub-count { flex: none; color: var(--muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
+
+/* Flashcards' chapter list: the same fold, keeping the row's progress bar with the chevron after it */
+.overview-fold > summary { grid-template-columns: minmax(0, 1fr) minmax(160px, 34%) auto; }
+.overview-fold > .chapter-subs { margin-top: 0.4rem; }
+@media (max-width: 620px) {
+  .overview-fold > summary { grid-template-columns: minmax(0, 1fr) auto; }
+  .overview-fold > summary::after { grid-column: 2; grid-row: 1; }
+  .overview-fold > summary .overview-progress-bar { grid-column: 1 / -1; }
+}
 
 .section-locked { display: grid; gap: 0.6rem; justify-items: start; }
 .section-locked h2 { margin: 0; font-size: 1.35rem; }
