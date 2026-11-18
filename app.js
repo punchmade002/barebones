@@ -2312,7 +2312,7 @@ function renderSubjectOverview() {
           <span class="overview-chapter-title">${escapeHtml(s.ch.title)}</span>
           <span class="overview-chapter-score">${forExam ? (examCount === null ? "" : plural(examCount, "question")) : `${s.earned}/${s.total}`}</span>
         </div>
-        ${forExam ? "" : `<div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${pct}%"></div></div>`}`;
+        ${forExam ? "" : overviewBarHtml(pct)}`;
     // Exam questions are per chapter; a flashcard chapter with subsections folds open to list them
     if (forExam || !chapterHasSubsections(s.ch)) return `
       <button class="overview-chapter-row" onclick="selectChapterFromOverview('${id}')">${inner}
@@ -2320,11 +2320,17 @@ function renderSubjectOverview() {
     return `
       <details class="chapter-fold overview-fold" ${foldAttrs(s.ch.id)}>
         <summary class="overview-chapter-row">${inner}</summary>
-        <ol class="chapter-subs">${s.ch.learningOutcomes.map((lo) => `
+        <ol class="chapter-subs">${s.ch.learningOutcomes.map((lo) => {
+          const done = outcomeDone(lo, user), total = outcomeCardTotal(lo);
+          return `
           <li><button type="button" onclick="openOutcomeFromOverview('${id}','${escapeHtml(lo.id)}')">
-            <span>${escapeHtml(compactText(lo.title || ""))}</span>
-            <span class="chapter-sub-count">${outcomeDone(lo, user)}/${outcomeCardTotal(lo)}</span>
-          </button></li>`).join("")}
+            <span class="overview-sub-text">
+              <span>${escapeHtml(compactText(lo.title || ""))}</span>
+              <span class="chapter-sub-count">${done}/${total}</span>
+            </span>
+            ${overviewBarHtml(total ? Math.round((done / total) * 100) : 0)}
+          </button></li>`;
+        }).join("")}
         </ol>
       </details>`;
   }).join('');
@@ -2337,9 +2343,13 @@ function renderSubjectOverview() {
           <span class="overview-chapter-title">Your flashcards</span>
           <span class="overview-chapter-score">${own.length ? plural(own.length, "card") : "Make your own"}</span>
         </div>
-        <div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${ownPct}%"></div></div>
+        ${overviewBarHtml(ownPct)}
       </button>`;
   overviewEl.innerHTML = `<div class="overview-chapter-list">${ownRow}${rows}</div>`;
+}
+
+function overviewBarHtml(pct) {
+  return `<div class="overview-progress-bar"><div class="overview-progress-fill" style="width:${pct}%"></div><span class="overview-progress-pct">${pct}%</span></div>`;
 }
 
 function selectChapterFromOverview(chapterId) {

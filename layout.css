@@ -240,13 +240,75 @@ html:not(.bb-section-link) .page-shell .shell-section { display: none; }
 .chapter-subs button:has(.chapter-sub-count) { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
 .chapter-sub-count { flex: none; color: var(--muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
 
-/* Flashcards' chapter list: the same fold, keeping the row's progress bar with the chevron after it */
-.overview-fold > summary { grid-template-columns: minmax(0, 1fr) minmax(160px, 34%) auto; }
-.overview-fold > .chapter-subs { margin-top: 0.4rem; }
+/* Flashcards' chapter list. Every row with a bar keeps a chevron-wide last column, so the bars
+   of plain rows, folds and subsections all end at the same edge. */
+.overview-chapter-row:has(.overview-progress-bar),
+.overview-fold .chapter-subs button { grid-template-columns: minmax(0, 1fr) minmax(160px, 34%) 0.5rem; }
+.overview-progress-bar { position: relative; }
+.overview-progress-pct {
+  position: absolute;
+  inset: 0 0.9rem 0 auto;
+  display: grid;
+  place-items: center;
+  color: var(--ink-2);
+  font-size: 0.75rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+/* A chapter with subsections is one white card; opening it grows the card down over its subsections */
+.overview-fold {
+  background: var(--panel);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-md);
+  overflow: clip;
+  transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease);
+}
+.overview-fold:hover { border-color: var(--accent-light); box-shadow: inset 0 0 0 1px var(--accent-light); }
+.overview-fold > summary.overview-chapter-row { border: 0; border-radius: 0; background: none; }
+.overview-fold > summary.overview-chapter-row:is(:hover, :active) { transform: none; box-shadow: none; }
+.overview-fold > .chapter-subs { margin: 0; padding: 0.3rem 0 0.5rem; gap: 0; border-top: 1px solid var(--line); }
+.overview-fold .chapter-subs button {
+  display: grid;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  padding: 0.4rem 1rem; /* same sides as the chapter row, so the bar columns match */
+  border: 0;
+  border-radius: 0;
+}
+.overview-fold .chapter-subs button:hover { background: var(--accent-xxlight); color: var(--accent-strong); }
+.overview-sub-text { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; min-width: 0; padding-left: 1rem; }
+.overview-fold .chapter-subs .overview-progress-bar { height: 28px; }
+.overview-fold .chapter-subs .overview-progress-pct { font-size: 0.7rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (interpolate-size: allow-keywords) {
+    .overview-fold { interpolate-size: allow-keywords; }
+    .overview-fold::details-content {
+      block-size: 0;
+      overflow: clip;
+      transition: block-size 0.34s cubic-bezier(0.22, 1, 0.36, 1), content-visibility 0.34s allow-discrete;
+    }
+    .overview-fold[open]::details-content { block-size: auto; }
+  }
+}
+
 @media (max-width: 620px) {
-  .overview-fold > summary { grid-template-columns: minmax(0, 1fr) auto; }
+  .overview-chapter-row:has(.overview-progress-bar) { grid-template-columns: minmax(0, 1fr); }
+  .overview-fold { border-radius: var(--r-sm); }
+  .overview-fold > summary.overview-chapter-row { grid-template-columns: minmax(0, 1fr) auto; }
   .overview-fold > summary::after { grid-column: 2; grid-row: 1; }
   .overview-fold > summary .overview-progress-bar { grid-column: 1 / -1; }
+  .overview-fold .chapter-subs button { grid-template-columns: minmax(0, 1fr); gap: 0.35rem; padding: 0.5rem 0.85rem; }
+  .overview-sub-text { padding-left: 0.6rem; }
+  .overview-sub-text + .overview-progress-bar { margin-left: 0.6rem; width: calc(100% - 0.6rem); }
+}
+/* responsive.css thins phone bars to 6px; keep them tall enough to carry the % */
+@media (max-width: 640px) {
+  .overview-progress-bar,
+  .overview-fold .chapter-subs .overview-progress-bar { height: 18px; }
+  .overview-progress-pct,
+  .overview-fold .chapter-subs .overview-progress-pct { right: 0.55rem; font-size: 0.62rem; }
 }
 
 .section-locked { display: grid; gap: 0.6rem; justify-items: start; }
