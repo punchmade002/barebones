@@ -94,7 +94,7 @@ def _open_year(page, view: str, year: int) -> list[str] | None:
     return _options(page, "SubjectSelect") or None
 
 
-def _read_rows(page) -> list[dict] | None:
+def _read_rows(page, versions: list[str]) -> list[dict] | None:
     try:
         page.wait_for_function(
             "() => [...document.querySelectorAll('tr')].some(r => /Level/.test(r.innerText))", timeout=10000)
@@ -104,17 +104,21 @@ def _read_rows(page) -> list[dict] | None:
     for a in page.locator("a", has_text="Click Here").all():
         text = re.sub(r"\s+", " ", a.evaluate("e => e.closest('tr')?.cells[0]?.innerText || ''")).strip()
         level, version = ROW.search(text), VERSION.search(text)
-        if not level or not version or version[1] != "EV":
+        href = a.get_attribute("href") or ""
+        if not level or not version or version[1] not in versions:
+            continue
+        # shortcut: language aurals' sound files are skipped by extension; the viewer only shows PDFs
+        if re.search(r"\.(mp3|wav|wma|m4a|zip)$", href.split("?")[0], re.I):
             continue
         # "Section A&B / Higher Level (EV)" -> part "Section A&B"
         part = VERSION.sub("", ROW.sub("", text)).replace("/", " ").strip(" -–:")
         part = re.sub(r"\s+", " ", part)
-        rows.append({"level": level[1].lower(), "part": part, "href": a.get_attribute("href")})
+        rows.append({"level": level[1].lower(), "part": part, "href": href})
     return rows
 
 
-def _year(page, view: str, year: int, names: re.Pattern) -> dict[str, list[dict]] | None:
-    """Every English-version row the archive lists for the subject in one year, per subject name
+def _year(page, view: str, year: int, names: re.Pattern, versions: list[str]) -> dict[str, list[dict]] | None:
+    """Every English-version row (Irish-version for Irish) the archive lists for the subject in one year, per subject name
     (History has two in some years). {} when the subject wasn't examined that year."""
     found: dict[str, list[dict]] = {}
     opts = _open_year(page, view, year)
@@ -130,7 +134,7 @@ def _year(page, view: str, year: int, names: re.Pattern) -> dict[str, list[dict]
             return None
         if not _select(page, "SubjectSelect", label=listing):
             return None
-        rows = _read_rows(page)
+        rows = _read_rows(page, versions)
         if rows is None:
             return None
         found[listing] = rows
@@ -195,7 +199,7 @@ def fetch(subject_id: str, retry_gaps: bool = False) -> None:
         page = browser.new_context().new_page()
         for view, kind, year in todo:
             print(f"{subject_id} {year} {kind}", flush=True)
-            found = _retry(_year, page, view, year, names)
+            found = _retry(_year, page, view, year, names, cfg.get("versions", ["EV"]))
             if found is None:
                 gaps.append({"year": year, "kind": kind, "reason": "the archive did not answer"})
                 continue

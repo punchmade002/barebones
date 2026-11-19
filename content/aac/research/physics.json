@@ -1,0 +1,343 @@
+{
+ "subject": "physics",
+ "title": "Physics in Practice Investigation",
+ "weight": "40%",
+ "marks": 200,
+ "level": "Common brief for Higher and Ordinary Level (one brief for both; the NCCA says it is assessed at the level you sit the written paper)",
+ "keyDates": [
+  "January 2026: SEC issued the live 2027 brief (NCCA/Oide timeline: live AAC brief January 2026; sample brief September 2025)",
+  "Friday 11 December 2026: coursework must be completed in full and submitted to your class teacher (SEC brief, section 1). This is earlier than Chemistry (23 April 2027). From 19 November 2026 that is about three weeks away",
+  "Before 11 December 2026: your school may set earlier internal deadlines for drafts, log check-ins and the final PDF. Ask your teacher. The SEC does not publish these",
+  "After 11 December 2026: your school submits the PDF through the SEC Schools Portal. File naming comes from a yearly SEC Schools Portal circular (not checked here, ask your teacher)",
+  "June 2027: written paper (300 marks, 60%). The 2027 timetable was not published on 19 November 2026"
+ ],
+ "summary": "The Physics in Practice Investigation is a supervised piece of coursework worth 200 marks, 40% of Leaving Cert Physics. For 2027 the brief is about domestic sustainability: you investigate one or more aspects of energy sources, energy usage and/or energy losses in the home. You research it, plan and run your own experiment under your teacher's supervision, analyse your own data, and write a digital report of at most 1500 words and 20 images, saved as a PDF. It is due to your teacher on Friday 11 December 2026.",
+ "stages": [
+  {
+   "name": "Stage 1: Initial response to the brief",
+   "marksNote": "Feeds A (50): title, introduction, research question. Feeds D (50): relevance and coherence from the start.",
+   "guide": [
+    {
+     "h": "What the 2027 brief says",
+     "points": [
+      "The topic, word for word from the SEC brief: 'Sustainable practices in a domestic setting have led to ways of reducing domestic energy losses, allowing for a comfortable indoor environment with less energy input.'",
+      "The instruction: 'Investigate one or more aspects of domestic sustainability, energy sources, energy usage and/or energy losses.' You choose the aspect.",
+      "The stimulus is a SEAI diagram of energy sources into a home (electricity, gas, solid fuels, oil, renewables) and energy uses (space heating, water heating, cooking, lighting and appliances, other end uses). Use it to find your area.",
+      "You follow six stages set by the SEC: initial response, background research, designing and planning, conducting the experiment, data analysis and conclusions, finalising the report.",
+      "The brief is open. The NCCA calls it 'open-ended presenting an opportunity for creative interpretation', so an original idea is welcome, and so is adapting an experiment you did in class."
+     ]
+    },
+    {
+     "h": "Choosing your aspect (the NCCA suggests 1 to 2 hours)",
+     "points": [
+      "Ask the NCCA's questions: What do I already know? What do I need to find out? What experiments in physics connect to this? What am I interested in? Could I extend an experiment I have already done?",
+      "Link it to Physics you know. Examples from the specification and the sample papers: heat transfer (conduction, convection, radiation), specific heat capacity, U-value (Higher Sample Paper 1 Q3 is about doors, U-value and solar panels), power and efficiency, solar irradiance.",
+      "Example ideas, my own suggestions and not SEC examples: compare how fast a hot container of water cools when wrapped in different insulation materials; test how the thickness of insulation changes the heat lost; compare a single and a double layer; measure the standby power of appliances; test how the angle of a small solar panel changes its output. Pick one you can run in one school lab session.",
+      "Check feasibility and safety with your teacher before you commit. The NCCA says discussing limits and how to overcome them is part of this stage.",
+      "Your work must be your own. If a classmate picks a similar topic, your investigation cannot be the same."
+     ]
+    },
+    {
+     "h": "Start your investigative log today",
+     "points": [
+      "The SEC strongly encourages it. It records your ideas, how your thinking changes, sources with dates, calculations, photos and decisions. Digital or paper, your choice.",
+      "You do not submit the log to the SEC. The NCCA advises sharing it with your teacher regularly because it helps them authenticate your work.",
+      "Write down why you made each decision as you make it. You will use these notes for the report."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "Read the SEC brief and the SEAI diagram and pick one aspect: a source, a use or a loss",
+    "Choose an experiment you can run safely in one lab session",
+    "Start an investigative log and add to it at every stage",
+    "Agree feasibility and safety with your teacher before going further"
+   ]
+  },
+  {
+   "name": "Stage 2: Background research",
+   "marksNote": "Feeds A (50): background research (secondary data), evaluation of secondary data, referencing, hypothesis. Also D: relevance and coherence.",
+   "guide": [
+    {
+     "h": "What to research (NCCA: about 2 to 3 hours)",
+     "points": [
+      "Research the physics behind your topic, for example how heat moves, what U-value measures, why insulation works, how a heat pump or a solar panel converts energy.",
+      "The NCCA wants research that is 'more far reaching' than the experiment: wider scientific areas, social and scientific implications, and media arguments linked to the topic.",
+      "Useful starting points from the brief itself: the SEAI residential energy statistics page cited in the SEC brief (seai.ie/data-and-insights/seai-statistics/residential).",
+      "From this research you write a research question on one specific issue. It should be narrow enough to test in one experiment.",
+      "Weigh evidence from different viewpoints. The top band describes a 'large number of varied, balanced and referenced sources', not a list of websites."
+     ]
+    },
+    {
+     "h": "Evaluating secondary data and sources",
+     "points": [
+      "The top band says you 'evaluate the reliability of any secondary sources used'. In a sentence or two for each important source say who produced it, how current it is, and whether the numbers are measured or estimated.",
+      "Compare a published value (for example a U-value or specific heat capacity from a data table) with what you later measure. That is secondary data used well.",
+      "Write ideas in your own words. Copying without a reference is plagiarism, which the SEC treats as cheating."
+     ]
+    },
+    {
+     "h": "Referencing (applies to the whole report)",
+     "points": [
+      "Reference inside the text and in a reference list. The list does not count towards the 1500 words.",
+      "No fixed style is required. Each reference needs enough detail to check it: author, title, year and page for print; link and date accessed for online sources; time stamps for video or audio.",
+      "Any AI-generated material must be acknowledged: tool name, the date, and how you used it. Add the shareable chat link if the tool gives one, or the tool name and the prompt if not (NCCA guidelines, Appendix 1).",
+      "The SEC brief sends you to Appendices 1 and 2 of the SEC Coursework Rules and Procedures for its referencing and AI rules. Read them yourself.",
+      "Keep references in your log as you go. Chasing sources the night before the deadline costs marks."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "Write one focused research question from your background research",
+    "Explain the physics in your own words with correct terms and units",
+    "Say how reliable each main source is, in a sentence",
+    "Reference every source in the text and the list, including any AI use"
+   ]
+  },
+  {
+   "name": "Stage 3: Designing and planning the experiment",
+   "marksNote": "Feeds A (50): hypothesis. Feeds B (50): experimental design, method, safety, fairness, accuracy, selection of equipment.",
+   "guide": [
+    {
+     "h": "Hypothesis and design (NCCA: about 2 to 3 hours)",
+     "points": [
+      "State a testable hypothesis based on physics, and give the reason you expect it. The top band wants one 'underpinned by physics theory', not a guess.",
+      "Design an original experiment or extend or adapt one you know from class. Both are allowed by the NCCA.",
+      "Plan to collect quantitative primary data. A graph or a calculated quantity is easier to analyse than a description.",
+      "Name the independent variable (what you change), the dependent variable (what you measure) and the controlled variables (what you keep the same), with values.",
+      "Write the method as numbered steps another student could repeat."
+     ]
+    },
+    {
+     "h": "Fairness, accuracy, equipment",
+     "points": [
+      "Say how each controlled variable is kept constant. Example: same volume and starting temperature of water, same container, same room, same time interval.",
+      "Plan repeat readings and say why they improve reliability. The NCCA lists reliability, validity, accuracy, precision, error, fairness, safety and integrity.",
+      "Choose equipment to match the precision you need and justify it. Selection of equipment is a named marking criterion. For example, a temperature probe with a data logger is more precise than a thermometer read by eye.",
+      "Say what you assume (for example that the room temperature stays constant) and how that could affect results.",
+      "The NCCA says it is good practice to have used the apparatus in class first, so you know its limits. Record any compromise you make because of equipment."
+     ]
+    },
+    {
+     "h": "Safety and practical checks",
+     "points": [
+      "Name each hazard and its precaution. For heat experiments: hot water and hot surfaces, spills, electrical equipment near water.",
+      "Safety, GDPR and access to property are listed by the NCCA as mandatory requirements. If you measure at home or on a building, get permission first.",
+      "The teacher is a sounding board. The NCCA says they step in only if the design is likely to be unsafe. The design is yours."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "State a testable hypothesis and the physics reason for it",
+    "List the independent, dependent and controlled variables",
+    "Plan repeat readings and justify your equipment",
+    "List each hazard with a precaution and get teacher sign-off"
+   ]
+  },
+  {
+   "name": "Stage 4: Conducting the experiment",
+   "marksNote": "Feeds B (50): method, accuracy, fairness, safety. Feeds C (50): experimental observations (primary data).",
+   "guide": [
+    {
+     "h": "Under supervision",
+     "points": [
+      "The SEC requires the experiment and the primary data collection to be completed under the direct supervision of your Physics teacher, in a safe setting such as the school lab.",
+      "Each student does their own experiment. A classmate may help you handle equipment, but the investigation is yours.",
+      "The NCCA expects a typical experiment to take about 1 to 2 hours of lab time. A school can run only about eight at once, so up to three sessions may be needed. With the 11 December 2026 deadline, book your slot with your teacher now.",
+      "Your teacher is present at all times. The NCCA says they should not step in if you use equipment incorrectly but safely, record poorly or make errors. These are part of what you report."
+     ]
+    },
+    {
+     "h": "Recording",
+     "points": [
+      "Record qualitative and quantitative observations in your log as you work, with units and the precision of each instrument.",
+      "Photograph the apparatus and results (you have up to 20 images in the report) and keep photos of the set-up.",
+      "Record anomalies and unexpected results. The NCCA says unexpected outcomes are a valid part of science and you do not need the result you predicted.",
+      "Note any change from your plan and the reason for it.",
+      "The teacher must be able to confirm the experiment you ran matches the research and plan you shared with them, so share your plan before the lab session."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "Run the experiment only with your teacher present",
+    "Record every reading with units and the instrument's precision",
+    "Photograph the set-up and the results",
+    "Note anomalies and any change to your plan"
+   ]
+  },
+  {
+   "name": "Stage 5: Data analysis and conclusions",
+   "marksNote": "Feeds C (50): data presentation, data analysis, conclusions. Feeds D (50): reflective approach.",
+   "guide": [
+    {
+     "h": "Analysing the data (NCCA: about 1 to 2 hours)",
+     "points": [
+      "Present results in tables with units and averages, then in a graph or calculated quantity that shows the pattern. Label axes with quantity and unit.",
+      "The NCCA lists what analysis may include: accuracy, precision, repeatability and reproducibility, calculations and graphs to find patterns, and identifying and explaining any anomalous results.",
+      "Use physics from the course: for cooling data use the gradient as a rate of heat loss; for power and efficiency show the formula, the substitution and the unit. Take error bars or spread from repeats.",
+      "State the pattern in words, then explain it with physics. 'It cooled more slowly' is not enough. Say why (lower conduction through the material)."
+     ]
+    },
+    {
+     "h": "Conclusions and evaluation",
+     "points": [
+      "Answer your research question and say if the data support your hypothesis. Base it on the data, not on what you hoped for.",
+      "Compare your result with secondary data from your research (a table value, a published U-value). Say if they agree and why they might not.",
+      "Name sources of error in the research, the design and the data gathering, and give one specific improvement for each. The top band wants 'valid conclusions justified by evidence' and a reflection on 'what worked and did not work'.",
+      "Optional, at your own initiative: an extension or new direction. The top descriptor for communicating mentions 'new directions or approaches to experimentation' you include on your own initiative."
+     ]
+    },
+    {
+     "h": "Relating to society",
+     "points": [
+      "The top band for relating to society asks for a 'considered reflection locating the outcomes of the investigation within broader issues relating to the real world'. Link your result to home heating, energy costs, the SEAI data or climate targets.",
+      "Share your analysis with your teacher. They must be satisfied that your analysis and conclusions match the experiment they supervised."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "Show results in labelled tables and graphs with units",
+    "Show the working for every calculated quantity",
+    "Explain each pattern with physics and say whether the hypothesis holds",
+    "Name errors and limits in research, design and data, each with an improvement",
+    "Link the outcome to a real-world energy issue"
+   ]
+  },
+  {
+   "name": "Stage 6: Finalising and submitting the report",
+   "marksNote": "Feeds all of A to D. D (50) is judged across the whole report: communication, coherence, relevance, reflective approach.",
+   "guide": [
+    {
+     "h": "Report rules (NCCA: up to 4 hours)",
+     "points": [
+      "Download the SEC cover page (Word) and make it the first page. The SEC provides no template.",
+      "Maximum 1500 words. The count excludes references, data tables, formulae or equations and labels. Going over may lose marks.",
+      "Maximum 20 images, a limit not a target. No videos. Do not use images to carry extra text. Avoid images where a person could be identified. Formulae and equations do not count towards the image limit.",
+      "Use the seven headings in this order: 1 Title and Introduction, 2 Background Research, 3 Designing and Planning, 4 Conducting the Experiment, 5 Data and Data Analysis, 6 Conclusions, 7 References.",
+      "Format: each numbered heading starts a new page, Arial 14 bold black; body Arial 12 black at 1.5 line spacing; bold, italics, numbering and bullets allowed; no coloured or highlighted text; portrait; page numbers bottom centre; 20 mm margins on all four sides and nothing in the margins.",
+      "Graphs, diagrams and photos can be software made, captured from sources (with a reference), photographed or hand drawn. Hand-written equations can be photographed or scanned."
+     ]
+    },
+    {
+     "h": "Word budget (my estimate, not an SEC rule)",
+     "points": [
+      "The SEC sets only the 1500 total. A split that works for most reports: Title and Introduction 150, Background Research 300, Designing and Planning 300, Conducting the Experiment 150, Data and Data Analysis 350, Conclusions 250.",
+      "The SEC says short, clear writing earns credit and unwarranted length that makes the report incoherent loses it. Cut anything that does not help your research question."
+     ]
+    },
+    {
+     "h": "Writing it well",
+     "points": [
+      "Use your log to write an honest account of what you did, including what went wrong and what you changed.",
+      "Keep it consistent. Ideas from your research and design should come back in the analysis and conclusion.",
+      "Your teacher gives general, non-directive feedback only. They must not edit your draft or give model text."
+     ]
+    },
+    {
+     "h": "Submitting",
+     "points": [
+      "Convert to PDF. Print it and check every page. Anything not visible on the print will not be visible to examiners.",
+      "Give the digital file to your class teacher by Friday 11 December 2026 (or the earlier school date). File naming follows a SEC Schools Portal circular, so ask your teacher.",
+      "Sign SEC Authentication Form P.2. Your teacher and school principal also sign. The school keeps a printed and digital copy until appeals end and submits it through the Schools Portal.",
+      "Keep your own backup copy."
+     ]
+    }
+   ],
+   "checklistCandidates": [
+    "Put the SEC cover page first",
+    "Use the seven SEC headings in order, each on a new page",
+    "Keep to 1500 words, 20 images, Arial 12 at 1.5 spacing, 20 mm margins",
+    "Reference every source, including any AI use",
+    "Export to PDF, print and check every page, sign Form P.2 and hand in by 11 December 2026"
+   ]
+  }
+ ],
+ "criteria": [
+  {
+   "name": "A: Title and Introduction, Background Research, References",
+   "marks": 50,
+   "whatTopMarksLook": "SEC lists: title, introduction, research question, hypothesis, background research (secondary data), evaluation of secondary data, referencing. NCCA top band: you engage thoroughly with the physics, describe clearly the purpose of the investigation, use a large number of varied, balanced and referenced sources, pose a testable hypothesis underpinned by physics theory, and evaluate the reliability of secondary sources. The lowest band uses some referenced sources and a hypothesis supported by the teacher."
+  },
+  {
+   "name": "B: Designing and Planning, Conducting the Experiment",
+   "marks": 50,
+   "whatTopMarksLook": "SEC lists: experimental design, method, safety, fairness, accuracy, selection of equipment. NCCA top band: a clear investigative design and thorough, appropriate methods that collect high-quality primary data. Moderate: good-quality data and reflection on what worked and did not work. Low: unclear design and little thought about reliability."
+  },
+  {
+   "name": "C: Data and Data Analysis, Conclusions",
+   "marks": 50,
+   "whatTopMarksLook": "SEC lists: experimental observations (primary data), data presentation, data analysis, conclusions. NCCA top band: valid conclusions justified by evidence and a design that leads to high-quality data presentation and analysis. Moderate: conclusions that relate to the hypothesis and identified sources of error. Low: limited conclusions and no sources of error identified."
+  },
+  {
+   "name": "D: Scientific Literacy (judged across the whole report)",
+   "marks": 50,
+   "whatTopMarksLook": "SEC lists: communication, coherence, relevance, reflective approach. NCCA relating-to-society row: top band offers a considered reflection placing the outcomes in broader real-world issues; moderate reflects on how outcomes relate to real-world issues; low makes limited links. The SEC says marks are given for clear communication with skilful brevity and fewer for lost coherence through unwarranted length."
+  }
+ ],
+ "rules": [
+  "Work must be your own. Each student submits their own report even if classmates investigate something similar.",
+  "The experiment and primary data collection must be done under the direct supervision of your Physics teacher, in a relevant, safe and supervised setting.",
+  "Reference all sources, including any AI use. Unreferenced material is plagiarism, which the SEC treats as cheating and investigates under Section 18 of its Coursework Rules; penalties can include withholding results.",
+  "The SEC Coursework Rules and Procedures apply in full. You, your teacher and the school authority share responsibility for authenticity.",
+  "Use the SEC cover page as page one, convert to PDF, print and proof-read it, and sign Authentication Form P.2 (teacher and principal sign too).",
+  "Maximum 1500 words (not counting references, data tables, formulae or equations, and labels) and 20 images. No videos. Images must not carry extra text.",
+  "Formatting: Arial only, black text only, headings 14 bold on new pages, body 12 at 1.5 spacing, portrait, page numbers bottom centre, 20 mm margins and nothing in the margins.",
+  "The investigative log is not submitted to the SEC.",
+  "Your teacher may not edit your drafts, give model text or design your investigation. Feedback must be general and non-directive.",
+  "Hand in to your teacher by Friday 11 December 2026, or any earlier school deadline."
+ ],
+ "mistakes": [
+  "Not enough time. With the due date on 11 December 2026 and a lab slot to book, a late start is the biggest risk (inferred from the dates, not from an SEC report).",
+  "Picking an experiment that does not link to energy sources, use or losses at home, so relevance (criterion D) suffers.",
+  "Vague hypothesis with no physics reason, or no research question at all.",
+  "Poor control of variables, for example different starting temperatures or room draughts, with no comment on it.",
+  "Tables and graphs with no units or labelled axes.",
+  "Describing a trend without explaining it using physics (conduction, convection, radiation, power, efficiency).",
+  "Conclusions that do not link back to the hypothesis and the research question, or that ignore anomalies.",
+  "No evaluation of sources, or no reference list, or leaving out an AI acknowledgement.",
+  "Breaking the format: wrong font or spacing, over 1500 words, headings not on new pages, text in the margins.",
+  "Padding the report. The SEC says unwarranted length loses coherence marks.",
+  "Not printing and checking the PDF, so something is cut off and cannot earn marks.",
+  "No Examiner's report exists yet for this first year of the new course, so these mistakes come from the SEC brief and NCCA descriptors, not past marking."
+ ],
+ "sources": [
+  {
+   "label": "State Examinations Commission, Physics in Practice Investigation brief 2027 (2027L021C2EL)",
+   "url": "https://exams.ie/project-files/lc/physics/2026-27-project-brief.pdf",
+   "used_for": "Official brief: 200 marks and 40%, 11 December 2026 date, topic wording, seven headings, 1500 words, 20 images, formatting, submission steps, P.2, A to D mark split (50 each)."
+  },
+  {
+   "label": "NCCA, Guidelines to support the Physics in Practice Investigation (Nov 2024)",
+   "url": "https://www.curriculumonline.ie/getmedia/661fe09e-2b93-4f55-b548-ff87d7e38331/AAC_Guidelines_Physics_Final.pdf",
+   "used_for": "Six stages and their indicative hours, log, teacher role, authentication, referencing and AI guidance, descriptors of quality."
+  },
+  {
+   "label": "NCCA, Leaving Certificate Physics specification",
+   "url": "https://www.curriculumonline.ie/getmedia/aec702a9-4818-45f1-917e-497c3a9a2466/SC-PHYSICS-Spec-EN.pdf",
+   "used_for": "Assessment section: two components (60% written, 40% investigation), common brief, up to 20 hours, descriptors of quality table."
+  },
+  {
+   "label": "Oide, Senior Cycle Redevelopment webinar: SEC sample papers for Physics",
+   "url": "https://oide.ie/wp-content/uploads/2023/09/Final-Physics-Webinar-Presentation-for-website.pdf",
+   "used_for": "Key dates (sample brief Sept 2025, live brief Jan 2026, AAC submitted in Year 2, written exam June 2027)."
+  },
+  {
+   "label": "SEC, Physics in Practice Investigation sample brief (2027L021C2ES)",
+   "url": "https://oide.ie/wp-content/uploads/2023/09/Sample-Brief-Physics-EN-EX-61375663.pdf",
+   "used_for": "Shows the sample brief was about waves, not the live domestic energy brief, and uses the same format and rules."
+  },
+  {
+   "label": "SEAI residential energy statistics page cited in the SEC brief",
+   "url": "https://www.seai.ie/data-and-insights/seai-statistics/residential",
+   "used_for": "The source of the energy sources and uses diagram in the brief; a starting point for background research (not opened for this guide)."
+  }
+ ],
+ "conflicts": [
+  "Due date: third-party websites mention 11 December 2026. The SEC brief itself says 'Friday, 11 December 2026'. I trust the SEC brief. It is much earlier than Chemistry (23 April 2027), so do not copy dates between subjects.",
+  "Hours: the NCCA and the specification say about 20 hours in total, while its stage estimates (1 to 2, 2 to 3, 2 to 3, 1 to 2 of lab time, 1 to 2, and up to 4) add to roughly 8 to 16 hours. These are guides, not limits.",
+  "Level: the NCCA calls it a 'common brief' assessed at the level you sit. The SEC brief is headed Higher and Ordinary Level. Same thing; I use 'common brief'.",
+  "Mark split: the SEC gives four blocks of 50 (A to D). The NCCA descriptor table uses four different rows (knowledge, investigating, communicating, relating to society) with high, moderate and low bands and no marks. Use the SEC for marks and the NCCA for what a top answer looks like. No band-by-band mark ranges are published.",
+  "Sample brief and live brief: the sample brief was on waves and information. The live 2027 brief is domestic energy. Use only the live brief.",
+  "Word split by section: my own estimate. The SEC sets only the 1500 total.",
+  "Experiment ideas: my suggestions, not SEC examples. The SEC brief does not name an experiment."
+ ]
+}

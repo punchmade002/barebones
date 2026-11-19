@@ -69,6 +69,10 @@ const SUBJECTS = [
   CHEMISTRY_SUBJECT,
   HOME_ECONOMICS_SUBJECT,
   HISTORY_SUBJECT,
+  // Papers only for now (dashboard.js); exam-papers.js loads first so we know which have an archive
+  ...Object.entries(PAPERS_ONLY_SUBJECTS)
+    .filter(([id]) => window.EXAM_PAPERS?.[id])
+    .map(([id, title]) => ({ id, title, chapters: [] })),
 ];
 
 // Set on the generated /app/<subject>/ pages (scripts/build_subject_pages.ts); "" on the dashboard (app.html).
@@ -813,7 +817,7 @@ function currentUsageContext() {
   if (shown(els.testScreen)) return at("test-session");
   if (shown(els.progressScreen)) return at("progress", "general");
   if (!PAGE_SUBJECT) return at("dashboard", "general");
-  if (subjectSection === "exam" && examView === "papers") return at("papers");
+  if ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers") return at("papers");
   if (subjectSection === "notes") return at("notes-list");
   if (!subjectSection) return at("subject-home");
   if (els.examTab?.classList.contains("active")) return at("exam");
@@ -2149,7 +2153,7 @@ function renderSubjectPage() {
 function renderSectionPanel(locked) {
   const panel = els.sectionPanel;
   panel.classList.remove("page-shell"); // the page's prebuilt placeholder (scripts/subject-pages.cjs) is drawn over below
-  const show = locked || !subjectSection || subjectSection === "notes" || subjectSection === "exam";
+  const show = locked || !subjectSection || ["notes", "exam", "papers"].includes(subjectSection);
   panel.classList.toggle("hidden", !show);
   if (!show) {
     sectionPanelKey = "";
@@ -2178,13 +2182,15 @@ function renderSectionPanel(locked) {
     panel.innerHTML = subjectHomeHtml();
   } else if (subjectSection === "notes") {
     panel.innerHTML = `<div class="section-card">${notesListHtml()}</div>`;
+  } else if (subjectSection === "papers") {
+    panel.innerHTML = `<div class="section-card"><div id="papersBody" class="papers-body"></div></div>`;
   } else {
     panel.innerHTML = examViewsHtml();
   }
   panel.querySelectorAll("[data-auth-mode]").forEach((btn) => {
     btn.addEventListener("click", () => showAuthMode(btn.dataset.authMode));
   });
-  if (subjectSection === "exam" && examView === "papers") openExamPapers(PAGE_SUBJECT);
+  if (!locked && ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers")) openExamPapers(PAGE_SUBJECT);
   if (subjectSection === "exam" && examView === "type") {
     bindExamAccordions(panel);
     typesetMath(panel);
@@ -5258,7 +5264,8 @@ function renderProgressOverview() {
   const user = getCurrentUser();
   const { earned, total, percent } = computeUserProgress(user);
   const testsCompleted = user?.testsCompleted || 0;
-  const subjectStats = buildProgressSubjectStats(user);
+  // Papers-only subjects have no chapters to show progress on
+  const subjectStats = buildProgressSubjectStats(user).filter((ss) => ss.chStats.length);
 
   const subjectRows = subjectStats.map((ss) => {
     const started = ss.chStats.filter((c) => c.earned > 0).length;
@@ -5724,7 +5731,29 @@ function renderQuestionTypes(types) {
         <dl class="aac-brief-facts">${rows.filter(([, k]) => t[k]).map(([label, k]) => `<div><dt>${label}</dt><dd>${escapeHtml(t[k])}</dd></div>`).join('')}</dl>
         ${t.traps?.length ? `<span class="bd-label bd-type-traps">Where marks are lost</span>
         <ul class="bd-reminders">${t.traps.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : ''}
+        ${renderTypeFrequency(t.frequency)}
       </details>`).join('')}
+  </div>`;
+}
+
+// How often each topic has been set in one question type, counted by hand from the past papers for subjects
+// without a chapter-tagged bank. A row's optional third value is its own denominator (a poet is only
+// examinable in the years they were on the course).
+function renderTypeFrequency(f) {
+  if (!f?.rows?.length) return '';
+  const perRow = f.rows.some((r) => r[2]);
+  const rows = f.rows.map(([name, n, of = f.papers]) => `
+    <li class="bd-ch-row">
+      <span class="bd-ch-name">${escapeHtml(name)}</span>
+      <span class="bd-ch-bar" aria-hidden="true"><span style="width:${(n / of) * 100}%"></span></span>
+      <span class="bd-ch-count">${n}/${of}</span>
+    </li>`).join('');
+  return `<div class="bd-chapters bd-type-freq">
+    <span class="bd-label">${escapeHtml(f.unit)} that come up · ${perRow
+      ? `in how many of the years each was on the course (${escapeHtml(f.years)})`
+      : `in how many of the last ${f.papers} Higher Level papers (${escapeHtml(f.years)})`}</span>
+    <ul>${rows}</ul>
+    ${f.note ? `<p class="bd-type-freq-note">${escapeHtml(f.note)}</p>` : ''}
   </div>`;
 }
 

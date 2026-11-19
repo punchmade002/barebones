@@ -3556,7 +3556,7 @@ body.modal-open { overflow: hidden; }
 /* Chapters a section draws on: name · share-of-papers bar · count; each row opens its past questions */
 .bd-chapters { margin-bottom: 1rem; }
 .bd-chapters ul { list-style: none; margin: 0.5rem 0 0; padding: 0; display: grid; gap: 2px; }
-.bd-chapters button {
+.bd-chapters button, .bd-ch-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(4rem, 30%) 2.6rem;
   align-items: center;
@@ -3575,6 +3575,9 @@ body.modal-open { overflow: hidden; }
 .bd-ch-bar { height: 6px; border-radius: var(--r-full); background: var(--panel-3); overflow: hidden; }
 .bd-ch-bar span { display: block; height: 100%; border-radius: inherit; background: var(--sec); }
 .bd-ch-count { font-size: 0.8rem; font-weight: 600; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+/* The same rows inside one question type: read-only, since these subjects have no question bank to open */
+.bd-type-freq { margin: 1rem 0 0; }
+.bd-type-freq-note { margin: 0.4rem 0.6rem 0; font-size: 0.8rem; color: var(--muted); }
 
 .bd-notice {
   max-width: 42rem;
