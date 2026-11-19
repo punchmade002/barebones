@@ -69,6 +69,10 @@ const SUBJECTS = [
   CHEMISTRY_SUBJECT,
   HOME_ECONOMICS_SUBJECT,
   HISTORY_SUBJECT,
+  // Papers only for now (dashboard.js); exam-papers.js loads first so we know which have an archive
+  ...Object.entries(PAPERS_ONLY_SUBJECTS)
+    .filter(([id]) => window.EXAM_PAPERS?.[id])
+    .map(([id, title]) => ({ id, title, chapters: [] })),
 ];
 
 // Set on the generated /app/<subject>/ pages (scripts/build_subject_pages.ts); "" on the dashboard (app.html).
@@ -807,7 +811,7 @@ function currentUsageContext() {
   if (shown(els.testScreen)) return at("test-session");
   if (shown(els.progressScreen)) return at("progress", "general");
   if (!PAGE_SUBJECT) return at("dashboard", "general");
-  if (subjectSection === "exam" && examView === "papers") return at("papers");
+  if ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers") return at("papers");
   if (subjectSection === "notes") return at("notes-list");
   if (!subjectSection) return at("subject-home");
   if (els.examTab?.classList.contains("active")) return at("exam");
@@ -2125,7 +2129,7 @@ function renderSubjectPage() {
 function renderSectionPanel(locked) {
   const panel = els.sectionPanel;
   panel.classList.remove("page-shell"); // the page's prebuilt placeholder (scripts/subject-pages.cjs) is drawn over below
-  const show = locked || !subjectSection || subjectSection === "notes" || subjectSection === "exam";
+  const show = locked || !subjectSection || ["notes", "exam", "papers"].includes(subjectSection);
   panel.classList.toggle("hidden", !show);
   if (!show) {
     sectionPanelKey = "";
@@ -2154,13 +2158,15 @@ function renderSectionPanel(locked) {
     panel.innerHTML = subjectHomeHtml();
   } else if (subjectSection === "notes") {
     panel.innerHTML = `<div class="section-card">${notesListHtml()}</div>`;
+  } else if (subjectSection === "papers") {
+    panel.innerHTML = `<div class="section-card"><div id="papersBody" class="papers-body"></div></div>`;
   } else {
     panel.innerHTML = examViewsHtml();
   }
   panel.querySelectorAll("[data-auth-mode]").forEach((btn) => {
     btn.addEventListener("click", () => showAuthMode(btn.dataset.authMode));
   });
-  if (subjectSection === "exam" && examView === "papers") openExamPapers(PAGE_SUBJECT);
+  if (!locked && ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers")) openExamPapers(PAGE_SUBJECT);
   if (subjectSection === "exam" && examView === "type") {
     bindExamAccordions(panel);
     typesetMath(panel);
@@ -5234,7 +5240,8 @@ function renderProgressOverview() {
   const user = getCurrentUser();
   const { earned, total, percent } = computeUserProgress(user);
   const testsCompleted = user?.testsCompleted || 0;
-  const subjectStats = buildProgressSubjectStats(user);
+  // Papers-only subjects have no chapters to show progress on
+  const subjectStats = buildProgressSubjectStats(user).filter((ss) => ss.chStats.length);
 
   const subjectRows = subjectStats.map((ss) => {
     const started = ss.chStats.filter((c) => c.earned > 0).length;
