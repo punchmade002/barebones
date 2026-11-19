@@ -5,7 +5,8 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const SUBJECTS = ["biology", "business", "chemistry", "geography", "history", "home-economics", "maths", "pe"];
+const SUBJECTS = ["biology", "business", "chemistry", "geography", "history", "home-economics", "maths", "pe",
+  "english", "irish", "french", "spanish", "construction-studies", "art", "physics"];
 
 // The Paper guide data, loaded in app.html's order (later files replace earlier entries)
 const context = {};
