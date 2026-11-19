@@ -174,6 +174,10 @@ const els = {
   signInEmail: document.getElementById("signInEmail"),
   signInPassword: document.getElementById("signInPassword"),
   signUpUsername: document.getElementById("signUpUsername"),
+  signUpRole: document.getElementById("signUpRole"),
+  signUpTeacherFields: document.getElementById("signUpTeacherFields"),
+  signUpTitle: document.getElementById("signUpTitle"),
+  signUpLastName: document.getElementById("signUpLastName"),
   signUpEmail: document.getElementById("signUpEmail"),
   signUpPassword: document.getElementById("signUpPassword"),
   signUpPasswordConfirm: document.getElementById("signUpPasswordConfirm"),
@@ -404,6 +408,8 @@ function bindEvents() {
   });
   els.signInForm.addEventListener("submit", handleSignIn);
   els.signUpForm.addEventListener("submit", handleSignUp);
+  els.signUpRole.addEventListener("change", syncTeacherFields);
+  els.signUpForm.addEventListener("reset", () => setTimeout(syncTeacherFields));
   els.resendConfirmation.addEventListener("click", handleResendConfirmation);
   els.legacySetupForm.addEventListener("submit", handleLegacySetup);
   els.legacySignIn.addEventListener("click", () => {
@@ -1085,6 +1091,19 @@ async function handleSignIn(event) {
   });
 }
 
+// Disabled while hidden so their `required` doesn't block student sign-ups.
+function syncTeacherFields() {
+  const teacher = els.signUpRole.value === "teacher";
+  els.signUpTeacherFields.classList.toggle("hidden", !teacher);
+  els.signUpTitle.disabled = !teacher;
+  els.signUpLastName.disabled = !teacher;
+}
+
+// "Ms Murphy" for teachers (from sign-up metadata), otherwise the username.
+function welcomeName(user) {
+  return user?.displayName || user?.username || "";
+}
+
 async function handleSignUp(event) {
   event.preventDefault();
   if (!els.signUpForm.reportValidity()) return;
@@ -1103,6 +1122,9 @@ async function handleSignUp(event) {
       password: els.signUpPassword.value,
       origin: "self_service",
       marketingOptIn: Boolean(document.getElementById("signUpMarketing")?.checked),
+      teacher: els.signUpRole.value === "teacher"
+        ? { title: els.signUpTitle.value, lastName: els.signUpLastName.value.trim() }
+        : null,
     });
     if (data.session) {
       await activateAuthenticatedSession(data.session);
@@ -1455,6 +1477,8 @@ async function activateAuthenticatedSession(session, options = {}) {
     merged.authUserId = session.user.id;
     merged.email = session.user.email || "";
     merged.entitlements = snapshot.entitlements || [];
+    const meta = session.user.user_metadata || {};
+    merged.displayName = meta.role === "teacher" && meta.last_name ? `${meta.title} ${meta.last_name}` : "";
 
     if (existingKey && existingKey !== username) delete state.usersByName[existingKey];
     state.usersByName[username] = merged;
@@ -1473,7 +1497,7 @@ async function activateAuthenticatedSession(session, options = {}) {
     if (needsOnboarding(merged, snapshot)) {
       showOnboarding(merged);
     } else if (options.animate !== false) {
-      triggerLoginAnimation(username);
+      triggerLoginAnimation(welcomeName(merged));
       // Let the welcome animation (2.5s + 0.6s exit) finish first.
       checkFeedbackReplies({ delay: 3200 });
     } else {
@@ -1509,7 +1533,7 @@ function showOnboarding(user, { editing = false } = {}) {
     : user.onboarding || {};
   window.BarebonesOnboarding.open({
     subjects: SUBJECTS.map((s) => ({ id: s.id, title: s.title })),
-    username: user.username,
+    username: welcomeName(user),
     initial,
     editing,
     onComplete(result) {
@@ -1523,7 +1547,7 @@ function showOnboarding(user, { editing = false } = {}) {
       // The preview profile is throwaway; saving it would surface as a legacy account.
       if (!isLocalOnboardingPreview) persist();
       renderAll();
-      if (!editing) window.setTimeout(() => triggerLoginAnimation(current.username), 420);
+      if (!editing) window.setTimeout(() => triggerLoginAnimation(welcomeName(current)), 420);
     },
   });
 }

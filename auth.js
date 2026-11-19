@@ -119,7 +119,7 @@
   // Bump when terms.html or privacy.html change in a way users must agree to again.
   const TERMS_VERSION = "2026-11-06";
 
-  async function signUp({ username, email, password, origin = "self_service", marketingOptIn = false }) {
+  async function signUp({ username, email, password, origin = "self_service", marketingOptIn = false, teacher = null }) {
     const authClient = requireClient();
     const normalized = normalizeUsername(username);
 
@@ -141,6 +141,7 @@
           terms_version: TERMS_VERSION,
           terms_accepted_at: new Date().toISOString(),
           marketing_opt_in: Boolean(marketingOptIn),
+          ...(teacher && { role: "teacher", title: teacher.title, last_name: teacher.lastName }),
         },
       },
     });
