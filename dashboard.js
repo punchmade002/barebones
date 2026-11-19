@@ -67,10 +67,12 @@ function aacGuidesFor(subjectId) {
 const isAacSection = (id) => /^aac(-|$)/.test(id);
 function sectionLabel(subjectId, id) {
   if (!isAacSection(id)) return SECTION_LABELS[id] || "";
-  const all = aacGuidesFor(subjectId);
-  const own = all.find((a) => a.section === id);
-  return all.length > 1 && own ? `AAC · ${own.guide.short || own.guide.title}` : SECTION_LABELS.aac;
+  const own = aacGuidesFor(subjectId).find((a) => a.section === id);
+  return own ? aacLabel(own.guide) : SECTION_LABELS.aac;
 }
+// Only the new-spec subjects (Biology, Chemistry, Physics, Business) call their coursework the AAC;
+// every other guide has a short name for its component ("Oral", "Project") and goes by that.
+const aacLabel = (guide) => (guide.short ? `${guide.short} guide` : SECTION_LABELS.aac);
 
 function sectionTilesHtml(subjectId) {
   const tiles = sectionsFor(subjectId).map((id) => `

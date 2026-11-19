@@ -5921,8 +5921,9 @@ function toggleAacTick(input) {
 }
 
 // Eyebrow of both guide screens; each guide is its own section, so this is a label, not a switch
-function guideEyebrow(active, aacTitle = '') {
-  return `<span class="bd-eyebrow">${active === 'aac' ? `AAC guide · ${escapeHtml(aacTitle)}` : 'Paper guide'}</span>`;
+function guideEyebrow(active, aac) {
+  // A guide with its own name ("Oral guide") needs only its title; the AAC ones say what an AAC is called
+  return `<span class="bd-eyebrow">${active !== 'aac' ? 'Paper guide' : aac.short ? escapeHtml(aac.title) : `AAC guide · ${escapeHtml(aac.title)}`}</span>`;
 }
 
 function openAacGuide(subjectId, section = 'aac') {
@@ -6016,7 +6017,7 @@ function renderAacGuide(guide, key) {
   return `<div class="bd-screen aac-screen">
     <header class="bd-head">
       <div class="bd-head-text">
-        ${guideEyebrow('aac', guide.title)}
+        ${guideEyebrow('aac', guide)}
         <h2 class="bd-title">${escapeHtml(guide.subjectTitle)}</h2>
       </div>
       <dl class="bd-stats">
