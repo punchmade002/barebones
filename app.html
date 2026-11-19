@@ -173,6 +173,21 @@
             </form>
 
             <form id="signUpForm" class="auth-form hidden" novalidate>
+              <label for="signUpRole">I’m a</label>
+              <select id="signUpRole" name="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+              </select>
+              <div id="signUpTeacherFields" class="auth-form hidden">
+                <label for="signUpTitle">Title</label>
+                <select id="signUpTitle" name="title" required disabled>
+                  <option value="Ms">Ms</option>
+                  <option value="Mrs">Mrs</option>
+                  <option value="Mr">Mr</option>
+                </select>
+                <label for="signUpLastName">Last name</label>
+                <input id="signUpLastName" name="last-name" type="text" autocomplete="family-name" maxlength="40" placeholder="Used to welcome you, e.g. Ms Murphy" required disabled />
+              </div>
               <label for="signUpUsername">Username</label>
               <input id="signUpUsername" name="username" type="text" autocomplete="username" minlength="3" maxlength="24" pattern="[A-Za-z0-9_-]+" placeholder="How you’ll appear in the app" required />
               <p class="field-hint">3–24 characters. Letters, numbers, _ and - only.</p>
