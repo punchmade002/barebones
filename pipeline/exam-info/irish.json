@@ -1,0 +1,409 @@
+{
+  "subject": "irish",
+  "totalMarks": 360,
+  "totalMinutes": 325,
+  "timingNote": "Higher Level: two written papers, 360 marks in all, which is 60% of your grade. Paper 1 is 2h 20m and 160 marks (the aural 60, the composition 100). Paper 2 is 3h 5m and 200 marks (reading comprehension 100, prose 30, poetry 30, Litríocht Bhreise 40). The other 40% (240 marks) is the Scrúdú Cainte (oral exam), held in the Easter holidays and covered in its own guide. The oral is one common test for Higher and Ordinary Level. Standard of Irish is marked on every part of the written papers, so accuracy matters as much as ideas. Ordinary Level uses the same two-paper shape and the same 60% and 40% split: Paper 1 is 1h 50m (aural 60, two compositions of 50) and Paper 2 is 2h 20m (comprehension 100, prose 50, poetry 50, no Litríocht Bhreise). Times and mark splits below come from the 2025 papers and the 2025 SEC marking scheme. The 2027 timetable is not published yet.",
+  "examDay": {
+    "task": "Paper 1 is in the afternoon and Paper 2 is the next morning. In 2025: Paper 1 Monday 9 June, 2:00 to 4:20, and Paper 2 Tuesday 10 June, 9:30 to 12:35. In 2026 they were Monday 8 June and Tuesday 9 June. The 2027 dates are not yet published, so use the 2025 times as a guide only. Paper 1 is an answerbook: you write in the spaces, in blue or black pen (pencil is not allowed), and it is scanned, so anything outside the boxes may not be seen. The aural (Cuid I) is played to the whole hall first. The timeline shows Paper 1. Paper 2 is longer: do the reading comprehension first (about 80 minutes), then prose, poetry and Litríocht Bhreise.",
+    "facts": [
+      [
+        "The choice rules (HL)",
+        "Paper 1: answer every aural question, then pick ONE composition title from A (aiste or article), B (scéal, story) or C (díospóireacht or óráid, debate or speech). Paper 2: answer all of Q1 (both texts). Q2 prose and Q3 poetry: one question each, from the named or the optional course (not both). Q4 Litríocht Bhreise: one question from the work you studied."
+      ],
+      [
+        "What is new for 2027",
+        "The Department's September 2026 arrangements keep the 2025 written format. The named texts changed: the prose and poems on the 2027 and 2028 list are different from the ones on the 2025 and 2026 papers (new poems include Dínit an Bhróin and Glaoch Abhaile). Do not use 2025 or 2026 poetry or prose questions as practice for named texts. They still work for the format and for the optional course."
+      ],
+      [
+        "Marks for Irish itself",
+        "Language accuracy is marked everywhere: 80 of the 100 composition marks, 5 of each 30-mark prose and poetry answer, 5 of the 40-mark Litríocht Bhreise, and up to 3 marks off the aural. The scheme lists what it looks at: correct syntax, the copula, verb tenses, prepositions, spelling, séimhiú, urú, indirect speech and noun declensions. It treats big syntax errors as much worse than small slips. (A different, modified scheme applies only to candidates who were granted it.)"
+      ],
+      [
+        "Ordinary Level",
+        "Paper 1: aural 60 (A 24, B 24, C 12), then TWO compositions at 50 each from A (continuous piece or blog), B (story), C (letter or email) and D (conversation), each about half a page (8 marks content, 2 task, 40 Irish). Paper 2: two comprehensions (50 each, five 10-mark questions), prose 50 (two of three, 25 each) and poetry 50 (two of three poems, 25 each). No Litríocht Bhreise."
+      ]
+    ],
+    "end": "4:20",
+    "timeline": [
+      {
+        "start": "2:00",
+        "minutes": 40,
+        "label": "Cluastuiscint",
+        "color": "#F97316",
+        "detail": "The aural is played once through the hall (about 40 minutes with the pauses; my estimate). Answer in the pauses and write short answers: the 2 marks are for the fact, not a sentence.",
+        "split": [
+          {
+            "label": "A",
+            "minutes": 12
+          },
+          {
+            "label": "B",
+            "minutes": 18
+          },
+          {
+            "label": "C",
+            "minutes": 10
+          }
+        ]
+      },
+      {
+        "start": "2:40",
+        "minutes": 10,
+        "label": "Pick and plan",
+        "color": "#C9C4BE",
+        "detail": "Read all the titles. Choose the one where you have the most to say AND the Irish for it. Write 5 or 6 bullet points and your best 6 phrases."
+      },
+      {
+        "start": "2:50",
+        "minutes": 75,
+        "label": "Ceapadóireacht",
+        "color": "#57534E",
+        "detail": "Write 500 to 600 words (the paper's guide). Keep every paragraph tied to the title: off-topic writing is crossed out and does not count."
+      },
+      {
+        "start": "4:05",
+        "minutes": 15,
+        "label": "Check",
+        "color": "#8A847D",
+        "detail": "Read once for tenses, the copula (is/ba), prepositions, séimhiú and urú, and spelling. The scheme names all of these. Big syntax errors cost the most."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "irish-p1-aural",
+      "name": "Paper 1 Cuid I – An Chluastuiscint (Aural)",
+      "marks": 60,
+      "minutes": 40,
+      "color": "#F97316",
+      "tips": {
+        "timing": "About 40 minutes (my estimate: the recording length is not printed on the paper). You do not control the pace. The supervisor plays the recording, so the work is to answer inside the pauses and never fall behind.",
+        "structure": "Three parts, 60 marks for understanding. Cuid A: two fógraí (announcements), 18 marks (Fógra 1 is 5 answers, Fógra 2 is 4). Cuid B: two comhráite (conversations), 28 marks (7 answers each). Cuid C: two phíosa nuachta (news items), 14 marks (3 answers, then 4). Every answer is worth 2 marks. Each piece is played twice (the conversations are heard whole, then in two halves). Your answers must be in Irish, and up to 3 marks can come off for poor Irish in them.",
+        "reminders": [
+          "Every box is worth 2 marks and a blank is 0, so write something in each one, even a guess",
+          "Learn numbers, dates, times and days of the week in Irish. They are in nearly every piece",
+          "The recordings use Connacht, Munster and Ulster Irish (the 2025 scheme names the dialect of each piece), so listen to RnaG and TG4 and not only to your teacher",
+          "2026 (teacher reaction): the start was easy and Cuid B and C were harder. The word árachas (insurance) threw some students. Skip a word you miss and keep listening for the rest"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Fógraí (announcements), Cuid A",
+          "where": "Cuid A every year. 2025: an RTÉ Raidió na Gaeltachta announcement of a new youth programme (Pé Scéal É), then an announcement from science teachers looking for 20 students for an air-pollution project.",
+          "marks": 18,
+          "minutes": 12,
+          "see": "Questions in the order of the announcement: who issued it (Cé a chuir amach?), what, when, how many, then a reason or a task. 2025 Fógra 1: who, the start date, two things you will hear, the presenter's role. Fógra 2: who, what they will research, one thing they do afterwards, what time the meeting is.",
+          "marked": "2 marks for each correct answer: 2025 Fógra 1 was 5 x 2 = 10 and Fógra 2 was 4 x 2 = 8. A question that asks for 'dhá rud' (two things) is two separate boxes, each worth 2.",
+          "play": "On the first listen, catch the who, when and how many. On the second, fill the reasons and the extra detail. Write only the key words.",
+          "traps": [
+            "Times: 'ceathrú chun a haon' is 12:45, not 1:15 (the 2025 meeting time)",
+            "Dates are said in full ('an tríú lá déag de mhí Mheán Fómhair' is 13 September). Write them as numbers",
+            "A box with two lines (i) and (ii) needs two different facts"
+          ]
+        },
+        {
+          "name": "Comhráite (conversations), Cuid B",
+          "where": "Cuid B every year, the biggest part. 2025: Seán's new full-time job as a fitness instructor and Aoife's exercise, then Liam's sister living in Sydney and Áine's friend Maria from Brazil who works in Limerick.",
+          "marks": 28,
+          "minutes": 18,
+          "see": "Two conversations, each heard whole and then in two halves (an chéad mhír, an dara mír), with questions on each half. 2025: where the job is, two kinds of work, a reason he likes it, two reasons Aoife stopped, the student membership fee.",
+          "marked": "14 marks per conversation: 7 answers at 2 marks. Details count, so 'ionad aclaíochta' (fitness centre) scores and 'obair' alone does not.",
+          "play": "Use the first full listen to get who is speaking and what the topic is. Then each half is a new chance, so answer that half's questions only. Use the pause to write, and do not try to remember it all.",
+          "traps": [
+            "Two speakers, so check whose opinion the question asks for (Liam says it, not his sister)",
+            "'Cén fáth' needs a reason, not a description",
+            "Numbers in money and time (a fee, how many years) are the most common wrong answers"
+          ]
+        },
+        {
+          "name": "Píosaí nuachta (news items), Cuid C",
+          "where": "Cuid C every year. 2025: the Deposit Return Scheme (Scéim Éarlaise agus Aisíoca) for plastic bottles and cans, then a new photo archive from an organisation.",
+          "marks": 14,
+          "minutes": 10,
+          "see": "Two short, fast news reports in news-reader Irish, with questions in order: when a scheme started, where you put the bottle, one good result, which organisation, why it was set up, two events the photos show.",
+          "marked": "2 marks each: 2025 Píosa 1 was 3 x 2 = 6 and Píosa 2 was 4 x 2 = 8.",
+          "play": "Listen to the language of the news: 'seoladh' (launched), 'tionscnamh' (initiative), 'cartlann' (archive), 'rialtas' (government). Learn 20 of these news words and you gain marks here every year.",
+          "traps": [
+            "The news items use vocabulary your class may not have met. Write what you hear and move on",
+            "Do not leave the last answer of Píosa 2 blank: the 'dhá imeacht' question is 2 separate marks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish-p1-composition",
+      "name": "Paper 1 Cuid II – An Cheapadóireacht (Composition)",
+      "marks": 100,
+      "minutes": 100,
+      "color": "#57534E",
+      "tips": {
+        "timing": "100 minutes in total from 2:40: about 10 to read and plan, about 75 to write 500 to 600 words, and about 15 to check. You write one piece for 100 marks, so there is no excuse for rushing it. A rushed piece is the easiest way to lose marks for Irish.",
+        "structure": "One piece, 100 marks: Stíl chuí (the right style, 5), Ionramháil Ábhair (how well you handle the ideas, 15) and Cumas Gaeilge (your Irish, 80). The 80 splits into Stór Gaeilge (range and richness of your Irish) and Cruinneas (accuracy). The top band for Irish is 68 to 80. Examiners judge the piece as a whole first, then place it in a band.",
+        "reminders": [
+          "There must be a clear, continuous link between the title you choose and what you write. Writing that is not on the title is put in square brackets and ignored",
+          "The paper's guide is 500 to 600 words. A short piece is graded as 'deficient'. Relevant writing of only a page and a half caps you at about 68 for Irish, a page caps you at about 56, half a page at about 44",
+          "Pick the right form. A story title needs a story (if you write an essay under a story title, the 5 style marks are 0)",
+          "The scheme looks at syntax, tenses, the copula (is/ba), prepositions, spelling, séimhiú, urú, indirect speech and declensions, and treats big syntax errors as much worse than small slips",
+          "Prepare 3 or 4 'recyclable' pieces (Irish language, climate and environment, politics and news, young people) that you can adjust to many titles"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Aiste or alt nuachtáin/irise (essay or article)",
+          "where": "Option A every year, five titles. 2025: people I respect, is Ireland a good country to live in, the environment, politicians and politics worldwide, big news stories. 2026: Irish language and culture (it was predicted), things that bother people, today's international news, the climate crisis, online safety.",
+          "marks": 100,
+          "minutes": 100,
+          "see": "A broad title and the choice of an essay or a newspaper or magazine article, 500 to 600 words. 2026 titles pushed you to name an international angle ('ar fud an domhain').",
+          "marked": "Stíl 5 + Ábhar 15 + Gaeilge 80. Ábhar bands: 13 to 15 excellent (wide ideas, original), 11 to 12 very good, 9 to 10 good, 6 to 8 fair, 3 to 5 weak, 0 to 2 very weak. Gaeilge bands: 68 to 80 excellent, 56 to 67 very good, 44 to 55 good, 32 to 43 fair, 20 to 31 weak, 8 to 19 very weak, 0 to 7.",
+          "play": "Write 4 or 5 paragraphs, each with one idea plus an example, a tense change and one complex sentence ('Dá mbeadh... bheadh...'). Use phrases you know are correct instead of chancing hard ones. Finish with a short conclusion.",
+          "traps": [
+            "Writing a prepared essay that does not answer the exact title: the off-topic part is crossed out",
+            "Overly ambitious Irish with errors scores lower than simple, correct Irish",
+            "No paragraphs or a one-sided piece on a title that asks a question (2025 'an tír mhaith í le cónaí inti?')"
+          ]
+        },
+        {
+          "name": "Scéal (story)",
+          "where": "Option B every year, two titles. 2025: 'Dóchas' (Hope) and 'Is ait an mac an saol' (Life is a strange thing). 2026: respect (meas) and how travel inspires stories.",
+          "marks": 100,
+          "minutes": 100,
+          "see": "A one-word or one-line title that your story must clearly be linked to. Plan an opening, a problem, a turning point and an ending.",
+          "marked": "Same split as the essay. The style mark (5) is only given if you actually write a story.",
+          "play": "Write in the past tense (aimsir chaite). Add direct speech, a short description and a twist that links back to the title. Keep the plot small enough to finish in 550 words.",
+          "traps": [
+            "A story with a prepared plot that has nothing to do with the title (for example a title about hope and a plot about a robbery)",
+            "Switching between past and present tense in the same paragraph",
+            "An ending that is only 'agus bhí sé go maith' (and it was good)"
+          ]
+        },
+        {
+          "name": "Díospóireacht (debate) or óráid (speech)",
+          "where": "Option C every year, two titles. 2025: a school debate on 'Bíonn saol maith ag daoine óga sa lá atá inniu ann' (young people have a good life today), or a radio talk on the opportunities and challenges of artificial intelligence. 2026: a debate that everyone is treated fairly in Ireland, or a speech on the importance of hobbies for young people.",
+          "marks": 100,
+          "minutes": 100,
+          "see": "You write the speech you would give, for or against the motion, or a radio talk. Open with 'A chathaoirligh, a mholtóirí agus a chairde' (chairperson, judges and friends) in a debate.",
+          "marked": "Same split as the essay. The style mark needs the correct form: a speech that opens and closes like a speech and addresses an audience.",
+          "play": "Take a firm side in a debate and give three strong points, one reply to the other side and a close. Reuse your education, housing and health material (the 2026 reaction notes that these topics fit).",
+          "traps": [
+            "A debate has a fixed for or against stance, so the essay-style 'on the one hand' balance loses the Ábhar marks",
+            "A radio talk needs to sound like a talk: say 'Fáilte' (welcome) and speak to the listeners",
+            "Do not forget the title's focus (the opportunities AND the challenges of AI means both)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish-p2-reading",
+      "name": "Paper 2 Ceist 1 – Léamhthuiscint (Reading comprehension)",
+      "marks": 100,
+      "minutes": 80,
+      "color": "#3B82F6",
+      "tips": {
+        "timing": "About 80 minutes for both texts, 40 minutes each (my split; Paper 2 is 185 minutes in total). In 2026 teachers said this section slowed students and the harder unseen vocabulary cost time. Start it first and keep to 40 minutes a text.",
+        "structure": "Two texts, A and B, 50 marks each. The questions come in paragraph order and each question names the paragraph (Alt 1, Alt 2...). Q1 to Q5 are 7 marks each: part (a) is 3 marks and part (b) is 4 marks (two 2-mark answers (i) and (ii)). Q6(a) is a grammar question for 3 marks. Q6(b) is 12 marks: two points, in your own words, 6 marks each, about 60 words.",
+        "reminders": [
+          "For Q1 to Q5 you can answer in your own words or in the text's words, as the question needs. Q6(b) must be in your own words",
+          "In Q6(b) a sentence copied straight from the text earns nothing, and examiners put square brackets round it",
+          "Each text has a given paragraph for each question, so go straight to that paragraph",
+          "Your Irish is marked in your answers too, so write full, correct sentences where the question asks for a sentence"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Extraction questions Q1 to Q5",
+          "where": "Questions 1 to 5 in both texts, every year. 2025 A: Rory Gallagher (Laoch ceoil) and 2025 B: Cúrsaí Spóirt in Éirinn (sport in Ireland). 2026: a text on Sr Stan and a text on fast fashion.",
+          "marks": 70,
+          "minutes": 40,
+          "see": "Parts (a) and (b)(i) and (ii): 'Tabhair dhá chúis...' (give two reasons), 'Cén fáth...?' (why), 'Luaigh dhá rud...' (mention two things). 2025 A Q1(a): two reasons the auction of his instruments sparked interest. 2025 B Q1(a): why the 2024 Olympics were the most successful ever (seven medals).",
+          "marked": "(a) is 3 marks: 2 marks for the first correct answer and 1 for the second. (b)(i) and (b)(ii) are 2 marks each. Partial answers get 1 mark: in 2025 A Q1(b)(i) the full reason about Buddy Holly was 2, the reason without 'a laoch' was 1.",
+          "play": "Find the paragraph, underline the exact answer, copy the relevant clause, and make sure it answers the question word ('Cén fáth' needs a reason). For 'dhá' questions write two clear points.",
+          "traps": [
+            "Copying a whole sentence and adding extra information: examiners mark it 'iomarcaíocht' (excess), and at Ordinary Level it is penalised",
+            "Giving only one reason to a 'dhá chúis' question caps you at 2 of the 3 marks",
+            "The answer to part (b) is in the same paragraph as the paragraph named, so do not go looking elsewhere"
+          ]
+        },
+        {
+          "name": "Grammar question Q6(a)",
+          "where": "Question 6(a) in each text, every year. 2025 A: the saorbhriathar (autonomous verb) in the future tense in Alt 1, and a feminine noun in the genitive singular in Alt 4. 2025 B: a comparative adjective (breischéim) in Alt 4 and a saorbhriathar in the past tense in Alt 5. 2026: saorbhriathar, modh coinníollach and breischéim na haidiachta (no tuiseal ginideach question).",
+          "marks": 6,
+          "minutes": 5,
+          "see": "Two items to find and copy from a named paragraph. It tests grammar terms you must recognise.",
+          "marked": "3 marks: 2 for the first correct item and 1 for the other. Copy the item exactly, with its ending.",
+          "play": "Know the six terms cold: saorbhriathar, tuiseal ginideach (genitive case), breischéim (comparative), modh coinníollach (conditional), aimsir fháistineach (future), aimsir chaite (past). Look for the ending: the future saorbhriathar ends in '-fear' or '-far' ('déanfar'); the comparative of an adjective is 'níos' plus the adjective ('níos fearr').",
+          "traps": [
+            "Mixing up the tense (a saorbhriathar in the wrong tense scores 0)",
+            "Copying a part of a word. Copy the whole word",
+            "Genitive of a feminine noun is different from the masculine, so check the gender before you pick"
+          ]
+        },
+        {
+          "name": "Own-words question Q6(b)",
+          "where": "Question 6(b) in both texts, every year. 2025 A: 'Ceoltóir as an ngnáth ba ea Rory Gallagher' (an extraordinary musician). 2025 B: 'Tá dul chun cinn maith á dhéanamh i gcúrsaí spóirt' (good progress in sport). 2026: how Sr Stan helped different groups, and whether you are hopeful about fast fashion's decline (dóchasach).",
+          "marks": 24,
+          "minutes": 10,
+          "see": "A statement, and you must give two points from the text that show it is true, in your own words (60 words is enough).",
+          "marked": "12 marks per text: 6 for point 1 and 6 for point 2. Each point is graded on how well you explain it in your own words. Words copied from the text get no credit.",
+          "play": "Pick the two best points, then rewrite them: change the verb, the order and the structure ('mar gheall ar' for 'de bharr'). Write about 30 words per point and keep them separate.",
+          "traps": [
+            "Writing more than 60 words is not rewarded and wastes time",
+            "Two points that are really the same point count once",
+            "A direct copy in square brackets scores 0, even if the point is perfect"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish-p2-prose",
+      "name": "Paper 2 Ceist 2 – Prós (Prose)",
+      "marks": 30,
+      "minutes": 28,
+      "color": "#10B981",
+      "tips": {
+        "timing": "About 28 minutes (my split). The question is one answer for 30 marks, so plan for 3 to 4 minutes of thinking and 25 minutes of writing, about two pages.",
+        "structure": "You answer one question: either 2A (Prós Ainmnithe, named prose: a choice between two questions on two named works) or 2B (Prós Roghnach, optional prose: a choice between two questions on the optional works you studied). You cannot mix them. In 2025 a 2A question was a statement to discuss ('Déan plé ar an ráiteas sin') and a 2B question asked about the main character or the main events and behaviour.",
+        "reminders": [
+          "2027 named prose is a new list: Clann Lir (Séamus Ó Searcaigh), one of Athair or Glantóir or An Bóthar go Santiago, Cuairteoir, An tIriseoir, and either the film Eoinín na nÉan or the play An Féileacán agus an Crann Úll. Ask your teacher which ones your class studied",
+          "An optional text must be written with the exact title and the author's name, and you may not use any named text in an optional answer",
+          "The 30 marks are 25 for content and 5 for your Irish",
+          "Quote or refer to exact moments of the text: the top bands need 'tagairtí téagartha' (solid references)"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Named prose: discuss a statement (2A)",
+          "where": "Question 2A every year at Higher Level. 2025: Hurlamaboc (Lisín: 'bean nach mbíonn riamh díomhaoin', a woman who is never idle) or the folktale Oisín i dTír na nÓg (a loyal hero left heartbroken). The 2027 named works are different.",
+          "marks": 30,
+          "minutes": 28,
+          "see": "A quoted statement about a character or theme, then 'Déan plé ar an ráiteas sin' (discuss that statement), with an extract printed on the paper for some works.",
+          "marked": "25 marks for content: 22 to 25 excellent (a very full discussion, clear understanding, very strong references), 18 to 21 very good, 14 to 17 good, 10 to 13 fair, 0 to 9 weak. Then 5 for Irish (5 excellent, 4, 3, 2, 1).",
+          "play": "Agree or disagree with the statement in your first sentence. Then write 4 or 5 developed points, each with a precise reference to the story, and finish by tying back to the statement.",
+          "traps": [
+            "Retelling the plot without discussing the statement lands you in the 'fair' or 'good' band",
+            "Only part of the statement discussed: the scheme marks it as 'eolas easnamhach' (incomplete)",
+            "Using a text that is not on this year's list"
+          ]
+        },
+        {
+          "name": "Optional prose: character or events (2B)",
+          "where": "Question 2B every year. 2025: describe the main character as shown in the extract of your optional novel (a), or the behaviour and attitude of the main character in an optional folktale from start to finish (b).",
+          "marks": 30,
+          "minutes": 28,
+          "see": "A question on the optional novel extract, short story, folktale or other work you studied. You must write the title and author correctly at the start.",
+          "marked": "Same bands as 2A: 25 for content, 5 for Irish.",
+          "play": "Use this only if your class studied optional texts. Learn the main character's key traits and two or three exact events for each work, and write the title and author in your first line.",
+          "traps": [
+            "Writing the title wrongly or leaving it out",
+            "Using a named text for an optional question: it is not allowed",
+            "No reference to the extract in the novel question"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish-p2-poetry",
+      "name": "Paper 2 Ceist 3 – Filíocht (Poetry)",
+      "marks": 30,
+      "minutes": 32,
+      "color": "#A855F7",
+      "tips": {
+        "timing": "About 32 minutes (my split). The three parts need different lengths: part (i) is the main 'plé' (discussion) and gets about 18 minutes, (ii) about 6 and (iii) about 8.",
+        "structure": "One question from 3A (Filíocht Ainmnithe, two named poems on the paper, you pick one) or 3B (Filíocht Roghnach, an optional old poem (before 1850) or a modern one that you studied). Each question has three parts. The paper shows 15, 6 and 9 marks. The scheme gives 13, 5 and 7 for content, plus 5 for your Irish. The poem is printed on the paper for named poems.",
+        "reminders": [
+          "The five named poems for 2027 and 2028 are Dínit an Bhróin (Máirtín Ó Direáin), Deireadh na Feide (Ailbhe Ní Ghearbhuigh), Iníon (Áine Durkin), Glaoch Abhaile (Áine Ní Ghlinn) and Úirchill an Chreagáin (Airt Mac Cumhaidh)",
+          "Optional poetry needs at least five poems, one of them from before 1850, and exact poem and poet titles in your answer",
+          "On this paper you may be asked a short question on where a work sits in the history of Irish literature",
+          "Poems on the 2025 and 2026 papers (Géibheann, Colscaradh, Mo Ghrá-sa, An tEarrach Thiar, An Spailpín Fánach) are the OLD list. Use them only to practise the three-part format"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Part (i): discuss imagery or theme",
+          "where": "Every poem question, part (i). 2025 An Spailpín Fánach: how images show the spailpín's life. 2025 Colscaradh: the differences between how the man and woman see marriage.",
+          "marks": 13,
+          "minutes": 18,
+          "see": "A statement about the poem's images, theme or the feelings in it, and 'É sin a phlé' (discuss that).",
+          "marked": "13 marks of content. 12 to 13 excellent, 10 to 11 very good, 8 to 9 good, 6 to 7 fair, 0 to 5 weak. You must discuss at least two images: if you only mention and discuss one image, the same answer is marked out of 10.",
+          "play": "Write 3 images or points, each with the exact line quoted or the exact image named, what it shows and how it affects the reader. Use the poet's phrases in Irish, with the verse number.",
+          "traps": [
+            "One image only: the answer is marked out of 10, so the top mark is 10",
+            "Summarising the poem without commenting on the images",
+            "General statements ('tá an dán brónach') with no line to support them"
+          ]
+        },
+        {
+          "name": "Part (ii): poetic technique and effect",
+          "where": "Every poem question, part (ii). 2025: the effect of the first-person voice (the spailpín speaks to us directly) in An Spailpín Fánach, and of the poet telling the couple's story in Colscaradh.",
+          "marks": 5,
+          "minutes": 6,
+          "see": "A named technique (voice, repetition, imagery, contrast) and 'Cén éifeacht a bhaineann leis...?' (what is its effect). One supporting point from the poem is enough.",
+          "marked": "5 marks: 5 excellent, 4 very good, 3 good, 2 fair, 0 to 1 weak.",
+          "play": "Name the technique, say the effect on the reader ('músclaíonn sé trua ionainn', it stirs pity in us), then add one example from the poem.",
+          "traps": [
+            "Naming the technique but not saying what effect it has on the reader",
+            "Taking the full 6 minutes: it is only 5 marks, so stop when you have the effect and one example"
+          ]
+        },
+        {
+          "name": "Part (iii): metre, or the poet's life and work",
+          "where": "Every poem question, part (iii). 2025 An Spailpín Fánach: what metre, one point about it and an exact example. 2025 Colscaradh and the modern optional: who wrote it and a short note on the poet's life and work.",
+          "marks": 7,
+          "minutes": 8,
+          "see": "A short factual question: the metre (meadaracht), or 'Cé a chum an dán?' (who wrote it) plus a short note on that poet.",
+          "marked": "7 marks. For metre: naming the metre is worth 2 marks, then a point about it and an exact example from the poem. A poet note is graded on accuracy and detail.",
+          "play": "Learn for each poem: the poet's name, 3 facts about the poet's life or writing, and the metre in one line ('meadaracht aiceanta', natural rhythm, if it applies). This is the most predictable part of the paper.",
+          "traps": [
+            "Not naming the metre but describing it: you lose the 2 naming marks",
+            "A poet note with 1 vague fact. Give 3 specific ones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish-p2-extra",
+      "name": "Paper 2 Ceist 4 – Litríocht Bhreise (Additional literature, HL only)",
+      "marks": 40,
+      "minutes": 45,
+      "color": "#EF4444",
+      "tips": {
+        "timing": "About 45 minutes (my split). It is the most marks of any one answer on Paper 2, so give it the time. At Ordinary Level this section does not exist.",
+        "structure": "You study one item from the Additional Prose list OR the five Additional Poetry poems, and answer ONE question on one work. The 40 marks are 35 for content and 5 for Irish. Prose questions give a statement to discuss. Poetry in 2025 (Caoineadh Airt Uí Laoghaire) had three parts: 20, 10 and 10.",
+        "reminders": [
+          "2027 additional prose (one is studied): Cóirín na dTonn (Celia de Fréine, a play), An Nollaig Thiar (Breandán Ó hEithir), Deirdre (Darach Ó Scolaí), Dordán (Éilís Ní Dhuibhne) or five stories from Bláth na dTulach (Ón Spéir Anuas, Bréaga, Cóco, Maeirí, Oileánach)",
+          "2027 additional poetry (all five are studied): Trén bhFearann Breac (Colm Breathnach), Eanáir 1991 (Biddy Jenkinson), Ag Tiomáint Siar (Nuala Ní Dhomhnaill), Dijeridiú (Louis de Paor), Anthony Daly (Antaine Raiftearaí)",
+          "The 2025 and 2026 options (An Triail, A Thig Ná Tit Orm, Gafa, Tóraíocht Dhiarmada agus Ghráinne, Canary Wharf, Caoineadh Airt Uí Laoghaire) are not the 2027 list",
+          "2026 reaction: this section was harder than usual, because the An Triail question was about 'fulaingíonn' (suffering) and the society's rules and not the plot"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Prose: discuss a statement",
+          "where": "Q4 options in 2025 (An Triail, A Thig Ná Tit Orm, Tóraíocht Dhiarmada agus Ghráinne, Gafa, Canary Wharf) and 2026. Each had a one-sentence statement, then 'Déan plé ar an ráiteas sin'.",
+          "marks": 40,
+          "minutes": 45,
+          "see": "A quoted claim about a character, relationship or theme, for example 2025 Gafa: the unease and dishonesty in the relationships between characters.",
+          "marked": "35 for content: 30 to 35 excellent, 25 to 29 very good, 20 to 24 good, 14 to 19 fair, 0 to 13 weak. Then 5 for Irish. The answer is marked as one unit. You must discuss the whole statement, not part of it.",
+          "play": "Spend 4 minutes on a plan with 4 points, each with a named scene or an exact quote. Write each point as a paragraph that returns to the words of the statement.",
+          "traps": [
+            "Discussing only half the statement (marked 'eolas easnamhach', incomplete)",
+            "A retelling with no discussion",
+            "Not tying each paragraph back to the statement's keyword (for example 'míshuaimhneas', unease)"
+          ]
+        },
+        {
+          "name": "Additional poetry: three parts",
+          "where": "2025 Q4F, Caoineadh Airt Uí Laoghaire. The new 2027 list has five different poems and the format may change.",
+          "marks": 40,
+          "minutes": 45,
+          "see": "(i) 20 marks: discuss a theme (Eibhlín's love for Art and the blow his death was). (ii) 10 marks: one example of dramatic atmosphere with two points. (iii) 10 marks: one of Art's qualities with two points from the poem.",
+          "marked": "40 marks in total (20, 10 and 10 in 2025). The scheme note says Irish is 5 of the 40 in this section.",
+          "play": "Know for each poem its theme, one dramatic moment and two quotes. If you choose this option you must be confident with all five poems.",
+          "traps": [
+            "Only studying one or two of the five poems: all five are on the course and any can be asked",
+            "Giving three points where two are asked, and not developing any of them"
+          ]
+        }
+      ]
+    }
+  ]
+}
