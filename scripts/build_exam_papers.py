@@ -116,6 +116,7 @@ SUBJECTS = {
         "course": "current syllabus",
         "firstExamined": 2012,
         "versions": ["IV", "EV"],  # the papers are set in Irish
+        "labels": {"Paper One": "Páipéar 1", "Paper Two": "Páipéar 2"},
     },
     "french": {
         "archiveName": r"^French$",
@@ -138,8 +139,11 @@ SUBJECTS = {
     "art": {
         "archiveName": r"^Art\b",
         "fromYear": 2001,
-        "course": "2022 specification",
-        "firstExamined": 2024,
+        "course": "2021 specification",
+        "firstExamined": 2023,  # the 2023 papers are the new "Visual Studies" paper
+        # Hand-added names come back title-cased
+        "labels": {"History And Appreciation Of Art": "History and Appreciation of Art",
+                   "Imaginative Composition And Still Life": "Imaginative Composition and Still Life"},
     },
     "physics": {
         "archiveName": r"^Physics$",

@@ -779,10 +779,26 @@ window.EXAM_PAPER_LISTS["physics"] = [
  },
  {
   "year": 2002,
+  "level": "higher",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/physics/2002-higher-marking-scheme.pdf",
+  "oldCourse": true
+ },
+ {
+  "year": 2002,
   "level": "ordinary",
   "kind": "papers",
   "label": "Exam paper",
   "file": "exam-papers/physics/2002-ordinary-exam-paper.pdf",
+  "oldCourse": true
+ },
+ {
+  "year": 2002,
+  "level": "ordinary",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/physics/2002-ordinary-marking-scheme.pdf",
   "oldCourse": true
  }
 ];
