@@ -1558,7 +1558,7 @@ window.AAC_GUIDES = {
   "short": "PAP",
   "weight": "20%",
   "marks": 100,
-  "level": "Higher and Ordinary level",
+  "level": "Both levels",
   "summary": "The PAP is 20% of Physical Education. Pick a competitive sport and a role, analyse your performance, set three goals with a training plan each, retest, and submit one 1,600-word PDF with three short videos.",
   "brief": {
    "task": "There is no topic brief. Choose a competitive sport with a Sport Ireland-affiliated governing body and a role (performer or coach/choreographer), in a different activity area from your Performance Assessment.",
@@ -2513,7 +2513,7 @@ window.AAC_GUIDES = {
   "short": "Textiles",
   "weight": "10%",
   "marks": 100,
-  "level": "Both levels (Elective 2 only)",
+  "level": "Both levels",
   "summary": "Textiles, Fashion and Design coursework is only for Elective 2 students and is worth 10% of Home Economics (marked out of 100: design folder 25, garment 75). You design a holiday outfit for a young person, make one garment from it with two of three prescribed processes, and hand both in by 6 April 2027.",
   "brief": {
    "task": "Design and sketch an outfit for a young person to wear on holiday, set out the design specifications, then make and evaluate one garment from it, supported by a design folder.",
@@ -3114,7 +3114,7 @@ window.AAC_GUIDES = {
   "short": null,
   "weight": "25%",
   "marks": 100,
-  "level": "Higher Level (Ordinary Level: 20%, 80 marks)",
+  "level": "Both levels",
   "summary": "The French oral is 25% of your Higher Level grade. It is a general conversation of about 12 to 15 minutes with an SEC examiner, with an optional document or project you can bring. Four things earn the marks: Communication 30, Structures 30, Vocabulary 20 and Pronunciation 20.",
   "brief": {
    "task": "Prepare spoken answers on the usual topics (family, school, free time, job, holidays, future plans), optionally one document or project, and practise aloud so the conversation flows when the examiner jumps around.",
@@ -3393,7 +3393,7 @@ window.AAC_GUIDES = {
   "short": "Oral",
   "weight": "25%",
   "marks": 100,
-  "level": "Higher Level 100 marks; Ordinary Level 80 marks",
+  "level": "Both levels",
   "summary": "The Spanish oral is a 15-minute conversation with an examiner in March. At Higher Level it is 25 percent of your grade. It has a general conversation (70 marks) and a role-play (30 marks).",
   "brief": {
    "task": "A 15-minute oral with an SEC examiner: about 10 minutes of general conversation, then one role-play from the SEC cards after one minute to read it.",
@@ -3672,7 +3672,7 @@ window.AAC_GUIDES = {
   "short": "Project",
   "weight": "25%",
   "marks": 150,
-  "level": "Higher and Ordinary Level",
+  "level": "Both levels",
   "summary": "The project is 150 marks: an artefact you make in school plus a design folio. It is 25% of your grade at Higher Level (30% at Ordinary). There is no set theme, so you pick a project you can finish in school and agree it with your teacher.",
   "brief": {
    "task": "Choose and agree a project with your teacher, make the artefact in school under supervision, and write a design folio (report). No brief is set by the SEC; you choose.",
@@ -3976,7 +3976,7 @@ window.AAC_GUIDES = {
   "short": "Practical test",
   "weight": "25%",
   "marks": 150,
-  "level": "Common Level",
+  "level": "Common level",
   "summary": "The Practical Test is a 4 hour hand-tool woodwork test, marked out of 150. It is 25% of your grade at Higher Level (30% at Ordinary). You make a small piece from a drawing and you are marked on marking out, each joint and the finished assembly.",
   "brief": {
    "task": "In 4 hours in school, make the set piece from the drawing using hand tools only. A battery screwdriver is allowed but machines are not.",
@@ -4246,7 +4246,7 @@ window.AAC_GUIDES = {
   "short": "Coursework",
   "weight": "50%",
   "marks": 250,
-  "level": "Higher and Ordinary (common brief)",
+  "level": "Both levels",
   "summary": "Practical Coursework is 50% of Art, marked out of 250. You choose one theme from the SEC brief, research from primary sources in your Visual Journal, and make Artefact A in class over about 12 weeks. The journal development for Artefact B also counts here, and the realised Artefact B is the practical exam.",
   "brief": {
    "task": "Choose one theme from the SEC brief. In the SEC Visual Journal, research from primary sources, draw, and develop ideas for two artefacts in two distinctly different areas of practice. Realise Artefact A in class over about 12 school weeks.",
@@ -4504,7 +4504,7 @@ window.AAC_GUIDES = {
   "short": "Practical exam",
   "weight": "20%",
   "marks": 100,
-  "level": "Higher and Ordinary (common brief)",
+  "level": "Both levels",
   "summary": "The Invigilated Practical Examination is 20% of Art, marked out of 100. You make Artefact B from scratch in 5 hours, in two 2.5 hour periods, using your Visual Journal. It is marked on the same criteria and common brief as the coursework.",
   "brief": {
    "task": "Make Artefact B from scratch in a 5-hour invigilated exam, in two periods of 2.5 hours, based on the development work in your Visual Journal. It must be finished, dry and ready for storage at the end.",

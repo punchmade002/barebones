@@ -27,6 +27,8 @@ for (const id of EXPECTED) {
     // Two guides in one subject show as two tiles, named by their short titles
     if (EXPECTED.some((other) => other !== id && guides[other]?.subject === g.subject)) assert.ok(g.short, "needs a short tile name");
     for (const key of ["title", "subjectTitle", "weight", "level", "summary"]) assert.ok(g[key], `${key} missing`);
+    // The stats row under the title never wraps, so a longer level runs off a phone screen; details go in brief.facts
+    assert.ok(g.level.length <= 12, `level should be a short label like "Both levels", got "${g.level}"`);
     assert.ok(g.brief?.task && g.brief.facts.length >= 3, "needs the year's brief: task and key facts");
     assert.ok(g.brief.facts.some(([k]) => /due/i.test(k)), "the brief states when the work is due");
     assert.match(g.brief.source.url, /^https:\/\//);
