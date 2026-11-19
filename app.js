@@ -5731,7 +5731,29 @@ function renderQuestionTypes(types) {
         <dl class="aac-brief-facts">${rows.filter(([, k]) => t[k]).map(([label, k]) => `<div><dt>${label}</dt><dd>${escapeHtml(t[k])}</dd></div>`).join('')}</dl>
         ${t.traps?.length ? `<span class="bd-label bd-type-traps">Where marks are lost</span>
         <ul class="bd-reminders">${t.traps.map((x) => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : ''}
+        ${renderTypeFrequency(t.frequency)}
       </details>`).join('')}
+  </div>`;
+}
+
+// How often each topic has been set in one question type, counted by hand from the past papers for subjects
+// without a chapter-tagged bank. A row's optional third value is its own denominator (a poet is only
+// examinable in the years they were on the course).
+function renderTypeFrequency(f) {
+  if (!f?.rows?.length) return '';
+  const perRow = f.rows.some((r) => r[2]);
+  const rows = f.rows.map(([name, n, of = f.papers]) => `
+    <li class="bd-ch-row">
+      <span class="bd-ch-name">${escapeHtml(name)}</span>
+      <span class="bd-ch-bar" aria-hidden="true"><span style="width:${(n / of) * 100}%"></span></span>
+      <span class="bd-ch-count">${n}/${of}</span>
+    </li>`).join('');
+  return `<div class="bd-chapters bd-type-freq">
+    <span class="bd-label">${escapeHtml(f.unit)} that come up · ${perRow
+      ? `in how many of the years each was on the course (${escapeHtml(f.years)})`
+      : `in how many of the last ${f.papers} Higher Level papers (${escapeHtml(f.years)})`}</span>
+    <ul>${rows}</ul>
+    ${f.note ? `<p class="bd-type-freq-note">${escapeHtml(f.note)}</p>` : ''}
   </div>`;
 }
 
