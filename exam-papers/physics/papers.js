@@ -11,10 +11,26 @@ window.EXAM_PAPER_LISTS["physics"] = [
  },
  {
   "year": 2026,
+  "level": "higher",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/physics/2026-higher-marking-scheme.pdf",
+  "oldCourse": true
+ },
+ {
+  "year": 2026,
   "level": "ordinary",
   "kind": "papers",
   "label": "Exam paper",
   "file": "exam-papers/physics/2026-ordinary-exam-paper.pdf",
+  "oldCourse": true
+ },
+ {
+  "year": 2026,
+  "level": "ordinary",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/physics/2026-ordinary-marking-scheme.pdf",
   "oldCourse": true
  },
  {
