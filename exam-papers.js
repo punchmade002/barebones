@@ -71,6 +71,6 @@ window.EXAM_PAPERS = {
     "from": 2002,
     "to": 2026,
     "papers": 52,
-    "list": "exam-papers/physics/papers.js?v=d9ceb3c7"
+    "list": "exam-papers/physics/papers.js?v=986ca78a"
   }
 };
