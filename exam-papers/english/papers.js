@@ -2,6 +2,54 @@
 window.EXAM_PAPER_LISTS = window.EXAM_PAPER_LISTS || {};
 window.EXAM_PAPER_LISTS["english"] = [
  {
+  "year": 2026,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2026-higher-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2026,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper Two",
+  "file": "exam-papers/english/2026-higher-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2026,
+  "level": "higher",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2026-higher-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2026,
+  "level": "ordinary",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2026-ordinary-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2026,
+  "level": "ordinary",
+  "kind": "papers",
+  "label": "Paper Two",
+  "file": "exam-papers/english/2026-ordinary-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2026,
+  "level": "ordinary",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2026-ordinary-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
   "year": 2025,
   "level": "higher",
   "kind": "papers",
@@ -893,8 +941,24 @@ window.EXAM_PAPER_LISTS["english"] = [
   "year": 2007,
   "level": "ordinary",
   "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2007-ordinary-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2007,
+  "level": "ordinary",
+  "kind": "papers",
   "label": "Paper Two",
   "file": "exam-papers/english/2007-ordinary-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2007,
+  "level": "ordinary",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2007-ordinary-marking-scheme.pdf",
   "oldCourse": false
  },
  {
@@ -1021,6 +1085,14 @@ window.EXAM_PAPER_LISTS["english"] = [
   "year": 2004,
   "level": "ordinary",
   "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2004-ordinary-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2004,
+  "level": "ordinary",
+  "kind": "papers",
   "label": "Paper Two",
   "file": "exam-papers/english/2004-ordinary-paper-two.pdf",
   "oldCourse": false
@@ -1031,6 +1103,14 @@ window.EXAM_PAPER_LISTS["english"] = [
   "kind": "scheme",
   "label": "Marking scheme",
   "file": "exam-papers/english/2004-ordinary-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2003,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2003-higher-paper-one.pdf",
   "oldCourse": false
  },
  {
@@ -1053,6 +1133,14 @@ window.EXAM_PAPER_LISTS["english"] = [
   "year": 2003,
   "level": "ordinary",
   "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2003-ordinary-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2003,
+  "level": "ordinary",
+  "kind": "papers",
   "label": "Paper Two",
   "file": "exam-papers/english/2003-ordinary-paper-two.pdf",
   "oldCourse": false
@@ -1063,6 +1151,38 @@ window.EXAM_PAPER_LISTS["english"] = [
   "kind": "scheme",
   "label": "Marking scheme",
   "file": "exam-papers/english/2003-ordinary-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2002,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2002-higher-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2002,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper Two",
+  "file": "exam-papers/english/2002-higher-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2002,
+  "level": "higher",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2002-higher-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2002,
+  "level": "ordinary",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2002-ordinary-paper-one.pdf",
   "oldCourse": false
  },
  {
@@ -1079,6 +1199,54 @@ window.EXAM_PAPER_LISTS["english"] = [
   "kind": "scheme",
   "label": "Marking scheme",
   "file": "exam-papers/english/2002-ordinary-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2001-higher-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "higher",
+  "kind": "papers",
+  "label": "Paper Two",
+  "file": "exam-papers/english/2001-higher-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "higher",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2001-higher-marking-scheme.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "ordinary",
+  "kind": "papers",
+  "label": "Paper One",
+  "file": "exam-papers/english/2001-ordinary-paper-one.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "ordinary",
+  "kind": "papers",
+  "label": "Paper Two",
+  "file": "exam-papers/english/2001-ordinary-paper-two.pdf",
+  "oldCourse": false
+ },
+ {
+  "year": 2001,
+  "level": "ordinary",
+  "kind": "scheme",
+  "label": "Marking scheme",
+  "file": "exam-papers/english/2001-ordinary-marking-scheme.pdf",
   "oldCourse": false
  }
 ];

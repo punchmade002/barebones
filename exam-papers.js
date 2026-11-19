@@ -44,10 +44,10 @@ window.EXAM_PAPERS = {
   "english": {
     "course": "current syllabus",
     "firstExamined": 2001,
-    "from": 2002,
-    "to": 2025,
-    "papers": 89,
-    "list": "exam-papers/english/papers.js?v=456ebbe3"
+    "from": 2001,
+    "to": 2026,
+    "papers": 104,
+    "list": "exam-papers/english/papers.js?v=5d0aa0ad"
   },
   "french": {
     "course": "current syllabus",
