@@ -5,7 +5,8 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
-const SUBJECTS = ["biology", "business", "chemistry", "geography", "history", "home-economics", "maths", "pe"];
+const SUBJECTS = ["biology", "business", "chemistry", "geography", "history", "home-economics", "maths", "pe",
+  "english", "irish", "french", "spanish", "construction-studies", "art", "physics"];
 
 // The Paper guide data, loaded in app.html's order (later files replace earlier entries)
 const context = {};
@@ -43,6 +44,14 @@ for (const id of SUBJECTS) {
       for (const qt of s.questionTypes) {
         for (const key of ["name", "where", "see", "marked", "play"]) assert.ok(qt[key], `${s.name} › ${qt.name}: ${key}`);
         assert.ok(qt.traps?.length, `${s.name} › ${qt.name}: traps`);
+        // Topic frequency: each row counts papers, so it can't exceed its denominator (a row's own, or the papers counted)
+        const f = qt.frequency;
+        if (f) {
+          assert.ok(f.unit && f.years && f.papers > 0 && f.rows.length, `${qt.name}: frequency needs unit, years, papers, rows`);
+          for (const [name, n, of = f.papers] of f.rows) {
+            assert.ok(name && Number.isInteger(n) && n >= 0 && n <= of && of <= f.papers, `${qt.name} › ${name}: ${n}/${of} of ${f.papers}`);
+          }
+        }
       }
     }
     // New copy follows the house style: no em dashes

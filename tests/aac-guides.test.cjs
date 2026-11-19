@@ -11,9 +11,10 @@ vm.createContext(context);
 vm.runInContext(fs.readFileSync(path.join(root, "aac-guides.js"), "utf8"), context);
 const guides = context.AAC_GUIDES;
 
-// One guide per coursework component; Maths has none. A subject's second component is
+// One guide per coursework or oral component; Maths and English have none. A subject's second component is
 // keyed "<subject>-<part>" (PE's Performance Assessment, Home Economics' Textiles).
-const EXPECTED = ["biology", "chemistry", "business", "geography", "history", "home-economics", "home-economics-textiles", "pe", "pe-performance"];
+const EXPECTED = ["biology", "chemistry", "business", "geography", "history", "home-economics", "home-economics-textiles", "pe", "pe-performance",
+  "irish", "french", "spanish", "construction-studies", "construction-studies-practical", "art", "art-practical", "physics"];
 
 test("every subject with an AAC has a guide", () => {
   assert.deepEqual(Object.keys(guides).sort(), [...EXPECTED].sort());
@@ -22,10 +23,12 @@ test("every subject with an AAC has a guide", () => {
 for (const id of EXPECTED) {
   test(`${id} AAC guide is complete`, () => {
     const g = guides[id];
-    assert.equal(g.subject, id.replace(/-(textiles|performance)$/, ""));
+    assert.equal(g.subject, id.replace(/-(textiles|performance|practical)$/, ""));
     // Two guides in one subject show as two tiles, named by their short titles
     if (EXPECTED.some((other) => other !== id && guides[other]?.subject === g.subject)) assert.ok(g.short, "needs a short tile name");
     for (const key of ["title", "subjectTitle", "weight", "level", "summary"]) assert.ok(g[key], `${key} missing`);
+    // The stats row under the title never wraps, so a longer level runs off a phone screen; details go in brief.facts
+    assert.ok(g.level.length <= 12, `level should be a short label like "Both levels", got "${g.level}"`);
     assert.ok(g.brief?.task && g.brief.facts.length >= 3, "needs the year's brief: task and key facts");
     assert.ok(g.brief.facts.some(([k]) => /due/i.test(k)), "the brief states when the work is due");
     assert.match(g.brief.source.url, /^https:\/\//);

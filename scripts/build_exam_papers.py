@@ -102,6 +102,56 @@ SUBJECTS = {
         "course": "2018 specification",
         "firstExamined": 2020,
     },
+    # Papers-only subjects (no question bank yet). fromYear 2001 is where the archive's marking
+    # schemes start, unless the course began later.
+    "english": {
+        "archiveName": r"^English$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "irish": {
+        "archiveName": r"^Irish$",
+        "fromYear": 2012,  # the revised course (oral worth 40%), first examined 2012
+        "course": "current syllabus",
+        "firstExamined": 2012,
+        "versions": ["IV", "EV"],  # the papers are set in Irish
+        "labels": {"Paper One": "Páipéar 1", "Paper Two": "Páipéar 2"},
+    },
+    "french": {
+        "archiveName": r"^French$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "spanish": {
+        "archiveName": r"^Spanish$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "construction-studies": {
+        "archiveName": r"^Construction Studies$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "art": {
+        "archiveName": r"^Art\b",
+        "fromYear": 2001,
+        "course": "2021 specification",
+        "firstExamined": 2023,  # the 2023 papers are the new "Visual Studies" paper
+        # Hand-added names come back title-cased
+        "labels": {"History And Appreciation Of Art": "History and Appreciation of Art",
+                   "Imaginative Composition And Still Life": "Imaginative Composition and Still Life"},
+    },
+    "physics": {
+        "archiveName": r"^Physics$",
+        "fromYear": 2002,  # the previous syllabus, first examined 2002 (as Chemistry)
+        "course": "2025 specification",
+        "firstExamined": 2027,
+        "labels": {"Deferred": "Deferred sitting"},  # 2022-23 deferred exams, from the Maynooth archive
+    },
 }
 
 LEVEL_ORDER = {"higher": 0, "ordinary": 1, "foundation": 2, "common": 3}
@@ -176,7 +226,7 @@ DROPPED = re.compile(r"^(\d{4})-(higher|ordinary|foundation|common)-(papers|sche
 
 def dropped_in(cfg: dict, src: Path, listed: set[str]) -> list[dict]:
     entries = []
-    for path in sorted(src.iterdir()):
+    for path in sorted(src.iterdir(), key=lambda p: p.stem):  # by stem: a paper before its -deferred twin
         m = DROPPED.match(path.name.lower())
         if not m or path.name in listed:
             continue
