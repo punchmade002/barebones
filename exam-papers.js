@@ -64,5 +64,13 @@ window.EXAM_PAPERS = {
     "to": 2026,
     "papers": 13,
     "list": "exam-papers/pe/papers.js?v=41d6295b"
+  },
+  "physics": {
+    "course": "2025 specification",
+    "firstExamined": 2027,
+    "from": 2002,
+    "to": 2010,
+    "papers": 18,
+    "list": "exam-papers/physics/papers.js?v=e631b2ce"
   }
 };
