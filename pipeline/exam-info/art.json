@@ -1,0 +1,305 @@
+{
+  "subject": "art",
+  "totalMarks": 150,
+  "totalMinutes": 150,
+  "timingNote": "Higher Level: 2h 30m, 150 marks, 30% of your Art grade (the same on the Ordinary Level paper). The other 70% is practical and is done before the written exam: Practical Coursework is 50% (250 marks) and the Invigilated Practical Examination is 20% (100 marks). Both practical components are marked on one common brief, so Higher and Ordinary Level students make the same work, and a higher standard is expected at Higher Level. Both are covered in the guides Practical Coursework and Invigilated Practical Examination. The written paper, Visual Studies, has three sections of 50 marks each: Section A (any 5 of 7 short questions at 10 marks), Section B (one essay on Europe and the wider world) and Section C (one essay on Ireland and its place in the wider world). Marks are given by bands (low, moderate, high), not point by point. Students who answer entirely through Irish get a bonus of 10% of their marks if they score under 75%, with a sliding table above that. The 2027 paper date is not yet published (the 2026 paper was Friday 12 June, 2:00 to 4:30). This is the same course and assessment as 2025 and 2026. It is not on the new Senior Cycle redevelopment specification, so the 2025 marking scheme and 2025 and 2026 papers are the model. The SEC says the details of marking may change from year to year.",
+  "examDay": {
+    "task": "2:00 to 4:30 in the afternoon (2026: Friday 12 June, 2:00 pm, 2h 30m; the 2027 date and time are not yet published, check your timetable). You get one answer booklet with the questions printed in it, and an image booklet or printed images for Section A. There is an optional planning space and an optional space for sketches and diagrams in the booklet, plus additional answer spaces. The booklet is scanned and marked on screen, so write inside the spaces.",
+    "facts": [
+      [
+        "The choice rule",
+        "Section A: any 5 of 7 questions (10 marks each). Section B: one question (50 marks). Section C: one question (50 marks). If you answer more than the number asked in a section, the best one is counted."
+      ],
+      [
+        "Same course in 2027",
+        "Art is not one of the redeveloped Senior Cycle subjects, so the format is the one used in 2025 and 2026. The 2025 scheme says details can change year to year, so check the 2027 paper wording on the day."
+      ],
+      [
+        "Ordinary Level",
+        "Same shape: Section A any 5 of 7 at 10 marks, Section B one essay and Section C one essay at 50 marks each. Section A is more guided (2025 OL asked for descriptions with given headings and simple opinions), and the essay questions are more directed."
+      ],
+      [
+        "Irish bonus",
+        "Answer the whole paper through Irish and you get 10% of your marks as a bonus if you score under 75% (112 or less of 150). Above that a sliding table gives 11 down to 0."
+      ]
+    ],
+    "end": "4:30",
+    "timeline": [
+      {
+        "start": "2:00",
+        "minutes": 5,
+        "label": "Read and choose",
+        "color": "#C9C4BE",
+        "detail": "Read all of Section A to Section C. Tick your 5 for Section A, then one for B and one for C. Use the 5 minutes to pick the question you could write a plan for first."
+      },
+      {
+        "start": "2:05",
+        "minutes": 40,
+        "label": "Section A",
+        "color": "#F97316",
+        "split": [
+          {
+            "label": "Q1",
+            "minutes": 8
+          },
+          {
+            "label": "Q2",
+            "minutes": 8
+          },
+          {
+            "label": "Q3",
+            "minutes": 8
+          },
+          {
+            "label": "Q4",
+            "minutes": 8
+          },
+          {
+            "label": "Q5",
+            "minutes": 8
+          }
+        ],
+        "detail": "Five questions at about 8 minutes each. 4 minutes on part (a), 3 on part (b), 1 spare. Move on when the 8 minutes are up."
+      },
+      {
+        "start": "2:45",
+        "minutes": 52,
+        "label": "Section B",
+        "color": "#3B82F6",
+        "split": [
+          {
+            "label": "Plan",
+            "minutes": 5
+          },
+          {
+            "label": "Write",
+            "minutes": 42
+          },
+          {
+            "label": "Sketch + check",
+            "minutes": 5
+          }
+        ],
+        "detail": "Plan, write about 3 paragraphs, add a sketch, finish with a line that links back to the question."
+      },
+      {
+        "start": "3:37",
+        "minutes": 53,
+        "label": "Section C",
+        "color": "#10B981",
+        "split": [
+          {
+            "label": "Plan",
+            "minutes": 5
+          },
+          {
+            "label": "Write",
+            "minutes": 43
+          },
+          {
+            "label": "Sketch + check",
+            "minutes": 5
+          }
+        ],
+        "detail": "Same plan as Section B. If you are behind, write two strong paragraphs and a sketch rather than three thin ones."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "art-sectionA",
+      "name": "Section A – Today's World",
+      "marks": 50,
+      "minutes": 45,
+      "color": "#F97316",
+      "minutesPerQuestion": 8,
+      "tips": {
+        "timing": "About 45 minutes including 5 to read the whole paper and choose. Five questions, so about 8 minutes each (a 6-mark part in about 4 minutes and a 4-mark part in about 3). Section A is 50 of the 150 marks, a third of the paper, so it should not take more than a third of the time.",
+        "structure": "Seven questions, answer any five. Each is worth 10 marks and is split into two parts: 6 + 4 or 5 + 5 (2025). The question gives you an image, a short text or a scenario you have not seen before. Part (a) is usually 'discuss' or 'describe' using headings the paper gives you. Part (b) asks for your opinion and a reason.",
+        "reminders": [
+          "Choose the five you can answer with the image in front of you. You do not need an artist's name for Section A, so pick on the picture, not on the topic",
+          "Marks are bands (low, moderate, high), not one mark per point. Examiners look for a clear, reasoned answer, so one developed point beats three half-sentences",
+          "Use the given headings as your sentence starters (for example 'Scale:', 'Form:'). They are the easiest way to show you have covered what was asked",
+          "A quick labelled sketch is credited as part of the answer, using the marks of the part it supports",
+          "If you answer six, the best five are counted, so a short sixth is free insurance only if time is left"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Discuss or describe an image using given headings",
+          "where": "Part (a) of most questions. 2025 HL: Q1(a) a site-specific artwork using materials, scale, form and function; Q4(a) a photograph using art elements and design principles; Q6(a) artworks using art elements and design principles; Q7(a) comparing Car A with Car B using shape, style and details.",
+          "marks": 6,
+          "minutes": 3.5,
+          "see": "A colour image or two, a short caption, and 2 to 4 headings printed in the question. 2025 OL used the same pattern with simpler headings: Q1(a) a poster (layout, font), Q2(a) a mural (imagery, colour, light), Q5(a) a car design (shape, line, colour).",
+          "marked": "Out of 6 in three bands: low 0 to 2, moderate 3 to 4, high 5 to 6 (2025 scheme). The scheme looks for a thorough understanding of what was asked, accurate use of art terms, and analysis that sticks to what you can see in the image.",
+          "play": "Write one short paragraph per heading: say what you see, then what it does ('The thick black outlines flatten the figures and make them feel like a poster'). Name the element or principle with its proper term (line, tone, contrast, balance, rhythm, emphasis).",
+          "traps": [
+            "Describing without analysing ('there are red and blue colours') stays in the low band. Say what the colour does",
+            "Skipping a heading the question gave you. Cover every one, even briefly",
+            "Writing about the artist's life when the question is about the image"
+          ]
+        },
+        {
+          "name": "Opinion with justification",
+          "where": "Part (b) of Questions 1, 2, 4, 6 and 7 in 2025 HL (4 marks): the ideas a painting communicates, what a photograph is about, what inspired the artworks, who the target market is.",
+          "marks": 4,
+          "minutes": 2.5,
+          "see": "One question that starts 'In your opinion', 'Give your opinion' or 'Discuss', and ends with 'Justify your answer' or 'Give reasons'.",
+          "marked": "Out of 4: low 0 to 1, moderate 2 to 3, high 4. High needs an opinion that is clear, backed by evidence from the image, and coherent.",
+          "play": "State your view in the first sentence, then give two reasons that point to specific things in the image ('I think it is about loneliness because the figure is small and the space around it is empty'). Finish with a short link back to the opinion.",
+          "traps": [
+            "An opinion with no reason cannot leave the low band",
+            "Reasons that do not refer to the stimulus ('because it is a famous painting') earn little"
+          ]
+        },
+        {
+          "name": "Reasoned discussion on art in the world (5 + 5)",
+          "where": "Questions 3 and 5 in 2025 HL. Q3: the artistic criteria for an artist-in-residence programme at your school, then how a residency benefits an artist's career. Q5: why look at an artist's sketchbooks as well as finished work, then the advantages and disadvantages of viewing a sketchbook on a digital platform.",
+          "marks": 10,
+          "minutes": 6,
+          "see": "No image to analyse. A scenario about artists, galleries, exhibitions, sketchbooks or the art world, with 'Reasons for your answer' or 'Explain your answer'.",
+          "marked": "Two parts of 5 marks, each with three bands (0 to 1, 2 to 3, 4 to 5). The scheme looks for ideas based on evidence, and 'problem-solving skills in relation to Visual Studies and the practical application of art'.",
+          "play": "Use what you know from your own practical work: your sketchbook, a gallery visit, your artefacts. Give two or three developed reasons, each with an example. This is where your coursework experience earns marks.",
+          "traps": [
+            "Answering for 'an artist' in general with no example. Name one artist or one thing you did",
+            "Giving only advantages when the question says 'advantages and/or disadvantages' and asks to explain the answer. Show you weighed it"
+          ]
+        },
+        {
+          "name": "Unseen contemporary stimulus",
+          "where": "2026 HL (reported): a recent Banksy mural, the Basic Income for the Arts Scheme, and artificial intelligence in art. Each year Section A is built around current, real-world material.",
+          "marks": 10,
+          "minutes": 8,
+          "see": "A recent news-style image or short text. You are expected to bring your own knowledge of art, design and culture to something you have not studied.",
+          "marked": "Same short-question descriptors: understanding of the question, application of knowledge to a new situation, analysis of the stimulus, and use of art terminology.",
+          "play": "Do not panic at unfamiliar content. Treat it like any artwork: what is it, what does it say, how is it made, and how does it connect to something you know (an artist, a movement, a medium).",
+          "traps": [
+            "Writing a general opinion about the news topic instead of about the art. Keep to visual language",
+            "Ignoring the second part: (b) usually changes from describing to giving your own view"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-sectionB",
+      "name": "Section B – Europe and the Wider World",
+      "marks": 50,
+      "minutes": 52,
+      "color": "#3B82F6",
+      "minutesPerQuestion": 52,
+      "tips": {
+        "timing": "About 52 minutes for one 50-mark answer. Spend 5 minutes planning (artists, works, the point you will argue), 42 minutes writing, and 5 minutes on sketches and a last check. Two thirds of Sections B and C is knowledge and examples, so the plan matters more than the length.",
+        "structure": "One question from Section B, 50 marks. The questions cover European art (and the wider world) from Romanesque and Gothic to today. Each gives you a focus, such as portals, grandeur, sculpture, challenging tradition, or social issues. If you write more than one, the highest-scoring answer counts.",
+        "reminders": [
+          "The question sets the focus. A well-known artist who does not fit the focus is worth less than a lesser-known one who does",
+          "Use two or three artists and name specific works, with dates and where they are. 'Relevant examples' is a full 10 marks",
+          "Draw one or two small labelled sketches. Visual language is worth 10 marks and the scheme credits sketches that are accurate and relevant",
+          "Say why, not just what. Subject knowledge (20) goes to analysis and evaluation, not just recall",
+          "Write a one-line opening that answers the question and a one-line ending that links back to it. That is most of Coherence and focus"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Medieval and Renaissance essay",
+          "where": "2025 HL (reported by the Institute of Education): Gothic with a focus on portals; Renaissance and Baroque with open choice of artists. 2026 HL: Romanesque and Gothic; Baroque with a prompt about 'grandeur'; Renaissance limited to sculpture.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "A short title with a movement and a focus, for example a statement about grandeur, portals or sculpture, and 'discuss with reference to the work of artists, architects, designers or craft workers you have studied'.",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Plan three paragraphs: one per artist or work, each with the work, its materials and techniques, its context, and how it answers the question's focus. For architecture, include a sketch of a plan, an elevation or a detail.",
+          "traps": [
+            "The 2026 Renaissance question was sculpture only. Painting examples did not answer it. Check the limit in the wording before you choose",
+            "Listing three artists with two lines each leaves Subject knowledge in the low band. Go deep on two or three works",
+            "Not naming works. 'Michelangelo did lots of sculptures' is not an example"
+          ]
+        },
+        {
+          "name": "19th century essay",
+          "where": "2025 HL Q11: the movements from 1850 to 1900, with the idea of challenging tradition. 2026 HL: Realism, Impressionism and Post-Impressionism.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "A statement about how artists broke with the past, or a request to discuss the work of artists from the period.",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Plan around the question's idea. For 'challenge tradition': name the tradition (the Academy, history painting), then show how two or three artists broke from it, with a work for each.",
+          "traps": [
+            "Describing the movements without answering the idea in the title. The 2025 question needed a plan to keep on task",
+            "Mixing up movements (Impressionism v Post-Impressionism). Link each artist to the right one"
+          ]
+        },
+        {
+          "name": "20th and 21st century essay",
+          "where": "2025 HL Q13: limited to Conceptual Art and Performance Art. 2026 HL: post-1960 art with a social issue you have to define.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "Contemporary art question, often with a narrow limit such as a type of practice or a theme.",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Know at least two artists each for installation, conceptual and performance art, and one for art about a social issue. Define the issue in your first sentence and show how the artwork speaks about it.",
+          "traps": [
+            "The 2025 question excluded painting and sculpture. Students who prepared only those could not use that material",
+            "Describing a work's appearance without saying what it means. Contemporary questions reward ideas and context"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-sectionC",
+      "name": "Section C – Ireland and its Place in the Wider World",
+      "marks": 50,
+      "minutes": 53,
+      "color": "#10B981",
+      "minutesPerQuestion": 53,
+      "tips": {
+        "timing": "About 53 minutes for one 50-mark answer, the same shape as Section B: 5 planning, 43 writing, 5 for sketches and checking. This is the last section, so keep 5 minutes spare from earlier to protect it.",
+        "structure": "One question from Section C, 50 marks, on Irish art, architecture and design from early Ireland to today, always linked to the wider world. Marked on the same four criteria as Section B. If you write more than one, the highest-scoring answer counts.",
+        "reminders": [
+          "Irish content is yours to choose, but the question narrows it: a period, a type of work, or a theme such as identity",
+          "Pick the period you know best before the exam: early Irish (pre-Christian, Insular), Georgian, or modern and contemporary",
+          "Have one or two sketches ready that you can draw in under a minute: a Celtic spiral, a high cross panel, a Georgian doorway or fanlight",
+          "Name the place a work is kept or found (National Museum, Book of Kells at Trinity). It shows knowledge and counts for examples",
+          "Link to the wider world when the question asks. Irish art did not develop in isolation"
+        ]
+      },
+      "questionTypes": [
+        {
+          "name": "Early Irish art",
+          "where": "2025 HL (reported): Q14 other cultures (Bronze and Iron Age Ireland was enough) and Q15 Insular art. 2026 HL: pre-Christian art, described by teachers as accessible.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "Passage tombs, Bronze and Iron Age metalwork, early Christian manuscripts, metalwork and high crosses.",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Choose two or three works (Newgrange, the Broighter Hoard, the Book of Kells, the Ardagh Chalice, Muiredach's Cross) and for each say what it is, how it was made, what it meant and who made it.",
+          "traps": [
+            "Mixing up periods. Pre-Christian, Insular and Romanesque Ireland are different questions",
+            "Not tying the examples to the question. The title tells you the angle (for example other cultures or influences)"
+          ]
+        },
+        {
+          "name": "Georgian and architecture question",
+          "where": "2025 HL Q17: the influence of planning on urban development in Georgian Dublin. 2026 HL: influences on art and architecture of the Georgian period, called the hardest on the paper by one teacher.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "A narrow question on Georgian Dublin: planning, architecture, design, or influences from abroad.",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Know the Wide Streets Commission, Merrion Square and the Georgian squares, one or two buildings and their architects (for example Gandon or Cassels), and a sketch of a Georgian doorway or fanlight.",
+          "traps": [
+            "The 2025 and 2026 Georgian questions were both narrow. A general 'Georgian Dublin' answer risks missing the focus",
+            "Describing the buildings instead of answering the planning or influence question"
+          ]
+        },
+        {
+          "name": "Modern and contemporary Irish art",
+          "where": "2025 HL Q18: cultural and political change in Ireland from 1880 to 1960, and a question on two lens-based artists. 2026 HL: post-1960s art focused on identity.",
+          "marks": 50,
+          "minutes": 50,
+          "see": "A theme question on Irish art, design or craft in the 19th to 21st centuries, sometimes limited to a medium (photography, film).",
+          "marked": "Out of 50 in four criteria (2025 scheme): Coherence and focus 10 (0 to 3 low, 4 to 6 moderate, 7 to 10 high), Subject knowledge 20 (0 to 7, 8 to 13, 14 to 20), Relevant examples 10 (0 to 3, 4 to 6, 7 to 10) and Visual language, meaning terminology and/or sketches, 10 (0 to 3, 4 to 6, 7 to 10).",
+          "play": "Prepare two or three Irish artists across the period (for example Jack B. Yeats, Seán Keating, Louis le Brocquy, Alice Maher) and one lens-based artist. Link each work to the theme of identity, politics or change.",
+          "traps": [
+            "The 2025 lens-based question named two artists, which one teacher called niche. Have at least two photographers or film-makers ready",
+            "Not saying why the work matters to Irish society"
+          ]
+        }
+      ]
+    }
+  ]
+}
