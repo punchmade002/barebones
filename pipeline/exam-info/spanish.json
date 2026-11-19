@@ -142,7 +142,43 @@
             "Writing the answer from the wrong paragraph",
             "Giving only half of a two-part answer: the scheme splits the marks",
             "Writing the answer in Spanish: the question asks for English"
-          ]
+          ],
+          "frequency": {
+            "unit": "Text topics",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Topics overlap, so one text can sit in two rows.",
+            "rows": [
+              [
+                "School and education",
+                6
+              ],
+              [
+                "Technology and science",
+                5
+              ],
+              [
+                "People and life stories",
+                4
+              ],
+              [
+                "Health and food",
+                3
+              ],
+              [
+                "Culture, music and customs",
+                3
+              ],
+              [
+                "Crime and safety",
+                1
+              ],
+              [
+                "Climate and environment",
+                1
+              ]
+            ]
+          }
         },
         {
           "name": "Synonyms (find a Spanish word with the same meaning)",
@@ -280,7 +316,59 @@
             "Copying chunks from the insert: no marks for them",
             "Writing about the wrong topic: zero for content and language",
             "Only using the present tense"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Two statements to choose from until 2020, three from 2021; a theme counts if any statement used it.",
+            "rows": [
+              [
+                "Work and jobs",
+                4
+              ],
+              [
+                "Leisure, sport and holidays (ocio)",
+                4
+              ],
+              [
+                "School, education and student life",
+                4
+              ],
+              [
+                "Environment, consumption and animals",
+                4
+              ],
+              [
+                "Society, respect and social problems",
+                4
+              ],
+              [
+                "Young people (los jóvenes)",
+                3
+              ],
+              [
+                "Change, tradition and culture",
+                3
+              ],
+              [
+                "Fear, problems and emotions",
+                3
+              ],
+              [
+                "Technology, social media and AI",
+                2
+              ],
+              [
+                "Volunteering and helping others",
+                1
+              ],
+              [
+                "Family",
+                1
+              ]
+            ]
+          }
         }
       ]
     },
@@ -314,7 +402,43 @@
             "Wrong tense for a verb: it costs the 6",
             "Skipping a turn you do not like: every turn is a possible 6",
             "Not reading the examiner's lines"
-          ]
+          ],
+          "frequency": {
+            "unit": "Situations",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Situations overlap; from 2021 you answer any five of six points.",
+            "rows": [
+              [
+                "Shops, restaurants and hiring services",
+                4
+              ],
+              [
+                "Language course, school or study in Spain",
+                4
+              ],
+              [
+                "Problems, lost property and complaints",
+                3
+              ],
+              [
+                "Tourism and advice on places to visit",
+                2
+              ],
+              [
+                "Hostel, flat and meeting people on arrival",
+                2
+              ],
+              [
+                "Free time, clubs and making plans",
+                2
+              ],
+              [
+                "Finding a summer job",
+                1
+              ]
+            ]
+          }
         },
         {
           "name": "Letter or email",
@@ -327,7 +451,43 @@
           "traps": [
             "Making the points short: each one needs expanding",
             "Mixing informal and formal address"
-          ]
+          ],
+          "frequency": {
+            "unit": "Situations",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Letter to a newspaper editor or similar; topics overlap.",
+            "rows": [
+              [
+                "Young people's habits and lives",
+                6
+              ],
+              [
+                "Tourism and holidays",
+                4
+              ],
+              [
+                "Environment and local nuisances",
+                4
+              ],
+              [
+                "Technology, phones and social media",
+                3
+              ],
+              [
+                "Food and diet",
+                2
+              ],
+              [
+                "Learning languages",
+                2
+              ],
+              [
+                "Family life and generations",
+                2
+              ]
+            ]
+          }
         },
         {
           "name": "Diary entry",
@@ -340,7 +500,39 @@
           "traps": [
             "Forgetting the past tense in a diary",
             "Giving one paragraph for the whole entry: marks are per point"
-          ]
+          ],
+          "frequency": {
+            "unit": "Situations",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Situations overlap; from 2021 you cover any four points.",
+            "rows": [
+              [
+                "Holidays, travel and a stay in Spain",
+                6
+              ],
+              [
+                "School, exchange or study in Spain",
+                5
+              ],
+              [
+                "Celebrations, festivals and family occasions",
+                4
+              ],
+              [
+                "Moving or arriving somewhere new",
+                3
+              ],
+              [
+                "Travel problems and disappointments",
+                1
+              ],
+              [
+                "Waiting for exam results",
+                1
+              ]
+            ]
+          }
         },
         {
           "name": "Note",
@@ -352,7 +544,39 @@
           "play": "Short and polite. A note covers instructions, plans, reminders. Use the imperative or present and future tenses.",
           "traps": [
             "Writing it too informally for someone you do not know"
-          ]
+          ],
+          "frequency": {
+            "unit": "Situations",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Papers counted: 2004-2009, 2013-2015 and 2019-2025 (no 2010-2012 or 2016-2018 papers in the set). Situations overlap; from 2021 you cover any four points.",
+            "rows": [
+              [
+                "Cinema, concerts, shows and sport",
+                5
+              ],
+              [
+                "Trips, parties and nights out",
+                4
+              ],
+              [
+                "Changing plans or apologising",
+                3
+              ],
+              [
+                "Work, hostel and residence staff",
+                3
+              ],
+              [
+                "Passing on a message or saying what you did",
+                2
+              ],
+              [
+                "Thanking someone",
+                1
+              ]
+            ]
+          }
         }
       ]
     },

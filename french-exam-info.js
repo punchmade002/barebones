@@ -205,7 +205,55 @@ window.EXAM_BREAKDOWN["french"] = {
             "Ignoring the stimulus: 'stimulus material well exploited' is the first Communication descriptor",
             "A list of memorised sentences that does not answer the question asked: 'a lot of irrelevant material' drops you to the middle or bottom band",
             "Tense errors in the main verbs: 'most verbs incorrect' is the bottom Language band"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2013–2025",
+            "papers": 13,
+            "note": "Question 1 changed from two options (one opinion, one story) to three in 2021, and Section B went from 3 pieces to 2 in 2021; I counted only the opinion options across all 13 papers because the task is the same. The (c) story option is not counted.",
+            "rows": [
+              [
+                "Social issues and inclusion",
+                4
+              ],
+              [
+                "Education, work and careers",
+                3
+              ],
+              [
+                "Environment and animals",
+                2
+              ],
+              [
+                "Travel, tourism and holidays",
+                2
+              ],
+              [
+                "Friendship, kindness and relationships",
+                2
+              ],
+              [
+                "Young people and society",
+                2
+              ],
+              [
+                "Technology and media",
+                2
+              ],
+              [
+                "Family and generations",
+                1
+              ],
+              [
+                "Rural life and community",
+                1
+              ],
+              [
+                "Culture and interests",
+                1
+              ]
+            ]
+          }
         },
         {
           "name": "Question 1 narrative (c)",
@@ -258,7 +306,55 @@ window.EXAM_BREAKDOWN["french"] = {
             "Describing the picture and not answering the question",
             "Copying phrases from the stimulus: the grid rewards your own language",
             "Writing 130 words and running out of time on Question 1"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2013–2025",
+            "papers": 13,
+            "note": "Before 2021 these were the opinion options in Questions 3 and 4; since 2021 they are among Questions 4 to 6. A paper can count under more than one theme, and an option is counted under its main theme (some under two).",
+            "rows": [
+              [
+                "Health and lifestyle",
+                7
+              ],
+              [
+                "Politics, Europe and world issues",
+                6
+              ],
+              [
+                "Technology, media and shopping",
+                5
+              ],
+              [
+                "Family, friends and relationships",
+                4
+              ],
+              [
+                "Ireland and society (immigration, housing, history)",
+                4
+              ],
+              [
+                "Gender equality and roles",
+                4
+              ],
+              [
+                "Education and school life",
+                4
+              ],
+              [
+                "Culture, celebrities and leisure",
+                3
+              ],
+              [
+                "Sport",
+                3
+              ],
+              [
+                "Environment and consumption",
+                3
+              ]
+            ]
+          }
         }
       ]
     },

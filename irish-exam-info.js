@@ -162,7 +162,63 @@ window.EXAM_BREAKDOWN["irish"] = {
             "Writing a prepared essay that does not answer the exact title: the off-topic part is crossed out",
             "Overly ambitious Irish with errors scores lower than simple, correct Irish",
             "No paragraphs or a one-sided piece on a title that asks a question (2025 'an tír mhaith í le cónaí inti?')"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2012–2024",
+            "papers": 12,
+            "note": "No 2020 paper. 2012 had separate essay and article sections (article prompts counted here); from 2013 one section with five titles.",
+            "rows": [
+              [
+                "Social issues and inequality (drugs, poverty, housing, rights)",
+                9
+              ],
+              [
+                "Irish life: rural, emigration, economy, travel",
+                7
+              ],
+              [
+                "Politics and world affairs",
+                6
+              ],
+              [
+                "Youth and young people",
+                5
+              ],
+              [
+                "Sport",
+                5
+              ],
+              [
+                "Technology and social media",
+                4
+              ],
+              [
+                "Famous people and role models",
+                4
+              ],
+              [
+                "Environment and climate",
+                3
+              ],
+              [
+                "Irish language and culture (An Ghaeilge)",
+                3
+              ],
+              [
+                "Education and school life",
+                2
+              ],
+              [
+                "Health (Sláinte)",
+                2
+              ],
+              [
+                "Personal reflection (my life, my values)",
+                2
+              ]
+            ]
+          }
         },
         {
           "name": "Scéal (story)",
@@ -176,7 +232,39 @@ window.EXAM_BREAKDOWN["irish"] = {
             "A story with a prepared plot that has nothing to do with the title (for example a title about hope and a plot about a robbery)",
             "Switching between past and present tense in the same paragraph",
             "An ending that is only 'agus bhí sé go maith' (and it was good)"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2012–2024",
+            "papers": 12,
+            "note": "Each year offers two story prompts, one emotion word and one proverb, bucketed by theme.",
+            "rows": [
+              [
+                "Positive emotions (joy, pride, relief, gratitude, wonder)",
+                5
+              ],
+              [
+                "Difficult emotions (disappointment, loneliness, revenge, pity)",
+                4
+              ],
+              [
+                "Friendship, community and home",
+                4
+              ],
+              [
+                "Wisdom, time and consequences",
+                4
+              ],
+              [
+                "Courage, hope and perseverance",
+                3
+              ],
+              [
+                "Secrets, silence and appearances",
+                3
+              ]
+            ]
+          }
         },
         {
           "name": "Díospóireacht (debate) or óráid (speech)",
@@ -190,7 +278,47 @@ window.EXAM_BREAKDOWN["irish"] = {
             "A debate has a fixed for or against stance, so the essay-style 'on the one hand' balance loses the Ábhar marks",
             "A radio talk needs to sound like a talk: say 'Fáilte' (welcome) and speak to the listeners",
             "Do not forget the title's focus (the opportunities AND the challenges of AI means both)"
-          ]
+          ],
+          "frequency": {
+            "unit": "Themes",
+            "years": "2012–2024",
+            "papers": 12,
+            "note": "Each year offers a debate motion and a speech topic, both counted; 2022 to 2024 papers are answerbooks but the choices are unchanged.",
+            "rows": [
+              [
+                "Politics, government and economy",
+                6
+              ],
+              [
+                "Education and school life",
+                4
+              ],
+              [
+                "Equality, women and older people",
+                3
+              ],
+              [
+                "Youth and young people",
+                3
+              ],
+              [
+                "Irish language and culture",
+                2
+              ],
+              [
+                "Health and alcohol",
+                2
+              ],
+              [
+                "Housing and charity work",
+                2
+              ],
+              [
+                "Leisure: music, reading, holidays",
+                2
+              ]
+            ]
+          }
         }
       ]
     },

@@ -213,7 +213,63 @@ window.EXAM_BREAKDOWN["art"] = {
             "The 2026 Renaissance question was sculpture only. Painting examples did not answer it. Check the limit in the wording before you choose",
             "Listing three artists with two lines each leaves Subject knowledge in the low band. Go deep on two or three works",
             "Not naming works. 'Michelangelo did lots of sculptures' is not an example"
-          ]
+          ],
+          "frequency": {
+            "unit": "Periods and artists",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count; old Baroque questions included, Renaissance questions are open to any artist since 2023.",
+            "rows": [
+              [
+                "Baroque (Caravaggio, Bernini, Rembrandt, Rubens, Vermeer)",
+                15
+              ],
+              [
+                "Gothic (architecture, sculpture, stained glass, International Gothic)",
+                13
+              ],
+              [
+                "Early Renaissance (Masaccio, Uccello, Donatello, Piero, Brunelleschi, Ghiberti)",
+                10
+              ],
+              [
+                "Romanesque",
+                9
+              ],
+              [
+                "Giotto and Proto-Renaissance (Cimabue, Duccio)",
+                6
+              ],
+              [
+                "Northern Renaissance (Holbein, Van Eyck, Durer)",
+                5
+              ],
+              [
+                "Raphael",
+                5
+              ],
+              [
+                "Botticelli",
+                4
+              ],
+              [
+                "Leonardo",
+                3
+              ],
+              [
+                "Mannerism (El Greco)",
+                3
+              ],
+              [
+                "Michelangelo",
+                3
+              ],
+              [
+                "Open Renaissance question (any artist)",
+                3
+              ]
+            ]
+          }
         },
         {
           "name": "19th century essay",
@@ -226,7 +282,39 @@ window.EXAM_BREAKDOWN["art"] = {
           "traps": [
             "Describing the movements without answering the idea in the title. The 2025 question needed a plan to keep on task",
             "Mixing up movements (Impressionism v Post-Impressionism). Link each artist to the right one"
-          ]
+          ],
+          "frequency": {
+            "unit": "Movements and artists",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count; the 2023 to 2025 questions cover all three movements, so each is counted.",
+            "rows": [
+              [
+                "Impressionism (Monet, Renoir, Degas)",
+                14
+              ],
+              [
+                "Post-Impressionism (Cezanne, Van Gogh, Gauguin, Seurat)",
+                10
+              ],
+              [
+                "Realism (Courbet, Millet, Manet)",
+                7
+              ],
+              [
+                "Romanticism and Neoclassicism (Turner, Goya, David, Ingres)",
+                7
+              ],
+              [
+                "Pre-Raphaelites",
+                1
+              ],
+              [
+                "Symbolism",
+                1
+              ]
+            ]
+          }
         },
         {
           "name": "20th and 21st century essay",
@@ -239,7 +327,59 @@ window.EXAM_BREAKDOWN["art"] = {
           "traps": [
             "The 2025 question excluded painting and sculpture. Students who prepared only those could not use that material",
             "Describing a work's appearance without saying what it means. Contemporary questions reward ideas and context"
-          ]
+          ],
+          "frequency": {
+            "unit": "Movements and artists",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count; 2012 had no 20th century question.",
+            "rows": [
+              [
+                "Cubism (Picasso, Braque)",
+                8
+              ],
+              [
+                "Bauhaus and modernist architecture (Le Corbusier)",
+                7
+              ],
+              [
+                "Surrealism (Magritte, Dali)",
+                7
+              ],
+              [
+                "Expressionism (Die Brucke, Munch, Nolde)",
+                6
+              ],
+              [
+                "Post-1960 and contemporary (Conceptual, Performance, Hirst, Gormley)",
+                5
+              ],
+              [
+                "Fauvism (Matisse)",
+                4
+              ],
+              [
+                "Dada, Futurism and Duchamp",
+                3
+              ],
+              [
+                "Francis Bacon and Lucian Freud",
+                3
+              ],
+              [
+                "Henry Moore",
+                3
+              ],
+              [
+                "Abstraction (Mondrian, De Stijl)",
+                2
+              ],
+              [
+                "Open Modernism question (any movement)",
+                2
+              ]
+            ]
+          }
         }
       ]
     },
@@ -273,7 +413,43 @@ window.EXAM_BREAKDOWN["art"] = {
           "traps": [
             "Mixing up periods. Pre-Christian, Insular and Romanesque Ireland are different questions",
             "Not tying the examples to the question. The title tells you the angle (for example other cultures or influences)"
-          ]
+          ],
+          "frequency": {
+            "unit": "Topics",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count; late medieval Irish architecture is included here.",
+            "rows": [
+              [
+                "Early Christian and medieval metalwork (Ardagh Chalice, Tara Brooch, croziers, shrines)",
+                12
+              ],
+              [
+                "Stone Age tombs and carving (Newgrange)",
+                9
+              ],
+              [
+                "Iron Age and La Tene (Turoe Stone)",
+                8
+              ],
+              [
+                "Bronze Age gold and metalwork",
+                7
+              ],
+              [
+                "Early Christian and medieval architecture (monasteries, Romanesque, Cistercian)",
+                7
+              ],
+              [
+                "High crosses and stone crosses",
+                7
+              ],
+              [
+                "Illuminated manuscripts (Book of Kells, Durrow)",
+                7
+              ]
+            ]
+          }
         },
         {
           "name": "Georgian and architecture question",
@@ -286,7 +462,47 @@ window.EXAM_BREAKDOWN["art"] = {
           "traps": [
             "The 2025 and 2026 Georgian questions were both narrow. A general 'Georgian Dublin' answer risks missing the focus",
             "Describing the buildings instead of answering the planning or influence question"
-          ]
+          ],
+          "frequency": {
+            "unit": "Topics",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count.",
+            "rows": [
+              [
+                "Country houses (Castletown, Russborough, Bellamont, Westport)",
+                7
+              ],
+              [
+                "Casino at Marino (Chambers)",
+                4
+              ],
+              [
+                "Gandon (Custom House)",
+                4
+              ],
+              [
+                "Interiors and plasterwork",
+                4
+              ],
+              [
+                "Pearce and Cassels (Parliament House)",
+                3
+              ],
+              [
+                "Town houses and urban planning",
+                3
+              ],
+              [
+                "Grand Tour and foreign influence",
+                2
+              ],
+              [
+                "Palladian and Neo-Classical styles",
+                2
+              ]
+            ]
+          }
         },
         {
           "name": "Modern and contemporary Irish art",
@@ -299,7 +515,63 @@ window.EXAM_BREAKDOWN["art"] = {
           "traps": [
             "The 2025 lens-based question named two artists, which one teacher called niche. Have at least two photographers or film-makers ready",
             "Not saying why the work matters to Irish society"
-          ]
+          ],
+          "frequency": {
+            "unit": "Artists and topics",
+            "years": "2004–2025",
+            "papers": 16,
+            "note": "Old History and Appreciation papers 2004 to 2010, 2012, 2014 and 2019 to 2022 plus Visual Studies 2023 to 2025; choice-list names count.",
+            "rows": [
+              [
+                "Irish public sculpture (myth, famine, roadside)",
+                6
+              ],
+              [
+                "Roderic O'Conor",
+                5
+              ],
+              [
+                "Eileen Gray (design)",
+                4
+              ],
+              [
+                "Harry Clarke",
+                4
+              ],
+              [
+                "Jack B. Yeats",
+                4
+              ],
+              [
+                "Louis le Brocquy",
+                4
+              ],
+              [
+                "Paul Henry",
+                4
+              ],
+              [
+                "Robert Ballagh",
+                4
+              ],
+              [
+                "Irish art and Modernism 1880 to 1960 (nationalism, European influence, change)",
+                3
+              ],
+              [
+                "John Behan",
+                3
+              ],
+              [
+                "John Rocha",
+                3
+              ],
+              [
+                "Post-1960 Irish artists (identity, social and political messages, lens-based)",
+                3
+              ]
+            ]
+          }
         }
       ]
     }

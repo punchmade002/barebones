@@ -3578,6 +3578,11 @@ body.modal-open { overflow: hidden; }
 /* The same rows inside one question type: read-only, since these subjects have no question bank to open */
 .bd-type-freq { margin: 1rem 0 0; }
 .bd-type-freq-note { margin: 0.4rem 0.6rem 0; font-size: 0.8rem; color: var(--muted); }
+/* Inside a question type a phone has no room for three columns: name and count on top, bar full width below */
+@media (max-width: 640px) {
+  .bd-type-freq .bd-ch-row { grid-template-columns: minmax(0, 1fr) 2.6rem; row-gap: 0.35rem; }
+  .bd-type-freq .bd-ch-bar { grid-column: 1 / -1; grid-row: 2; }
+}
 
 .bd-notice {
   max-width: 42rem;
