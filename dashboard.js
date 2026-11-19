@@ -19,12 +19,20 @@ const ICONS = {
   "home-economics": '<path d="M4 10h16v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M2 10h20M9 3.5c1 1 1 2 0 3M13 3.5c1 1 1 2 0 3"/>',
   pe: '<path d="M6.5 6.5v11M3.5 9v6M17.5 6.5v11M20.5 9v6M6.5 12h11"/>',
   maths: '<path d="M5 7h6M8 4v6M14 7h5M6 15l4 4M10 15l-4 4M14 16h5M14 19h5"/>',
+  english: '<path d="M4 20l1.5-5L16 4.5a2.1 2.1 0 0 1 3 3L8.5 18z"/><path d="M14 6.5l3 3M4 20h16"/>',
+  irish: '<path d="M12 12a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7zM12 12a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/><path d="M12 12a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0zM12 12a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0z"/>',
+  french: '<path d="M4 5h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-4 3v-3H4z"/><path d="M8 9h5M8 11.5h3"/>',
+  spanish: '<path d="M3 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H8l-3 2.5V12a2 2 0 0 1-2-2z"/><path d="M18 9h1a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2v2.5L16 18h-4a2 2 0 0 1-2-2v-1"/>',
+  "construction-studies": '<path d="M3 21h18M5 21V11l7-6 7 6v10"/><path d="M9.5 21v-6h5v6"/>',
+  art: '<path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-1 1.5-2.2-.6-1.4.3-2.8 1.8-2.8H18a3 3 0 0 0 3-3c0-5.5-4-10-9-10z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10.5" cy="7.5" r="1"/><circle cx="15" cy="7.5" r="1"/>',
+  physics: '<circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/>',
   guide: '<path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 11h7M9 15h7M9 19h4"/>',
   aac: '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4M8.5 11l2 2 4-4M9 17h6"/>',
   flashcards: '<rect x="3" y="8" width="14" height="12" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v10"/>',
   notes: '<path d="M3 5h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h7z"/>',
   tests: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M10 2h4"/>',
   exam: '<path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 14l2 2 4-4"/>',
+  papers: '<path d="M8 3h8l4 4v12a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M16 3v4h4M4 7v13a1 1 0 0 0 1 1h10M10.5 11h6M10.5 14.5h6"/>',
 };
 
 function iconHtml(name) {
@@ -34,11 +42,19 @@ function iconHtml(name) {
 // ── Subject page sections ──
 // scripts/subject-pages.cjs runs this file at build time to write each subject page's tiles
 // and placeholders into its HTML, so they show before the app's scripts have loaded.
-const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam" };
+const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam", papers: "Exam papers" };
+// Subjects that so far have only their whole past papers (exam-papers.js); each joins the app once
+// scripts/build_exam_papers.py has built its archive. Their paper and AAC guides come later.
+const PAPERS_ONLY_SUBJECTS = {
+  english: "English", irish: "Irish", french: "French", "construction-studies": "Construction Studies",
+  spanish: "Spanish", art: "Art", physics: "Physics",
+};
 // Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
 // One AAC section per coursework component in aac-guides.js (none for Maths).
 function sectionsFor(subjectId) {
-  const sections = subjectId === "maths" ? ["guide", "aac", "exam"] : Object.keys(SECTION_LABELS);
+  const sections = subjectId in PAPERS_ONLY_SUBJECTS ? ["aac", "papers"]
+    : subjectId === "maths" ? ["guide", "aac", "exam"]
+    : ["guide", "aac", "flashcards", "notes", "tests", "exam"];
   return sections.flatMap((id) => (id === "aac" ? aacGuidesFor(subjectId).map((a) => a.section) : [id]));
 }
 // A subject with two coursework components (PE, Home Economics) has two guides: aac-guides.js

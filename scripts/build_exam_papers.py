@@ -102,6 +102,51 @@ SUBJECTS = {
         "course": "2018 specification",
         "firstExamined": 2020,
     },
+    # Papers-only subjects (no question bank yet). fromYear 2001 is where the archive's marking
+    # schemes start, unless the course began later.
+    "english": {
+        "archiveName": r"^English$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "irish": {
+        "archiveName": r"^Irish$",
+        "fromYear": 2012,  # the revised course (oral worth 40%), first examined 2012
+        "course": "current syllabus",
+        "firstExamined": 2012,
+        "versions": ["IV", "EV"],  # the papers are set in Irish
+    },
+    "french": {
+        "archiveName": r"^French$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "spanish": {
+        "archiveName": r"^Spanish$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "construction-studies": {
+        "archiveName": r"^Construction Studies$",
+        "fromYear": 2001,
+        "course": "current syllabus",
+        "firstExamined": 2001,
+    },
+    "art": {
+        "archiveName": r"^Art\b",
+        "fromYear": 2001,
+        "course": "2022 specification",
+        "firstExamined": 2024,
+    },
+    "physics": {
+        "archiveName": r"^Physics$",
+        "fromYear": 2002,  # the previous syllabus, first examined 2002 (as Chemistry)
+        "course": "2025 specification",
+        "firstExamined": 2027,
+    },
 }
 
 LEVEL_ORDER = {"higher": 0, "ordinary": 1, "foundation": 2, "common": 3}

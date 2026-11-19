@@ -25,7 +25,21 @@ const SUBJECTS = [
     title: "Leaving Cert Maths: Past Paper Questions & Paper Guide",
     description: "Leaving Cert Maths past exam questions with worked solutions, sorted by chapter and by type, plus whole past papers and a guide to both papers.",
   },
+  // Papers-only subjects (PAPERS_ONLY_SUBJECTS in dashboard.js), each paged once its archive is built
+  ...papersOnly([
+    ["english", "English"], ["irish", "Irish"], ["french", "French"], ["construction-studies", "Construction Studies"],
+    ["spanish", "Spanish"], ["art", "Art"], ["physics", "Physics"],
+  ]),
 ];
+
+function papersOnly(subjects) {
+  const archive = fs.readFileSync(path.join(ROOT, "exam-papers.js"), "utf8");
+  return subjects.filter(([id]) => archive.includes(`"${id}": {`)).map(([id, name]) => ({
+    id, name,
+    title: `Leaving Cert ${name}: Past Exam Papers & Marking Schemes`,
+    description: `Every Leaving Cert ${name} exam paper and marking scheme from the SEC archive, by year and level, to open and write on.`,
+  }));
+}
 
 const escapeHtml = (value) => String(value)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
