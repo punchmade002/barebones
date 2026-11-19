@@ -163,7 +163,7 @@ function renderDashboard() {
 
   els.dashboard.innerHTML = `
     <header class="dash-head">
-      <h1>Hi, ${escapeHtml(user.username)}</h1>
+      <h1>Hi, ${escapeHtml(user.displayName || user.username)}</h1>
       <p>${percent}% of your course learned · ${plural(tests, "test")} passed</p>
     </header>
     <section class="dash-subjects" aria-labelledby="dashSubjectsTitle">
