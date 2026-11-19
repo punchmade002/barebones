@@ -44,7 +44,7 @@ function iconHtml(name) {
 // and placeholders into its HTML, so they show before the app's scripts have loaded.
 const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam", papers: "Exam papers" };
 // Subjects that so far have only their whole past papers (exam-papers.js); each joins the app once
-// scripts/build_exam_papers.py has built its archive. Their paper and AAC guides come later.
+// scripts/build_exam_papers.py has built its archive. They have paper and AAC guides but no study tools yet.
 const PAPERS_ONLY_SUBJECTS = {
   english: "English", irish: "Irish", french: "French", "construction-studies": "Construction Studies",
   spanish: "Spanish", art: "Art", physics: "Physics",
@@ -52,7 +52,7 @@ const PAPERS_ONLY_SUBJECTS = {
 // Maths has no flashcards or notes yet; it keeps its chapter → exam questions view.
 // One AAC section per coursework component in aac-guides.js (none for Maths).
 function sectionsFor(subjectId) {
-  const sections = subjectId in PAPERS_ONLY_SUBJECTS ? ["aac", "papers"]
+  const sections = subjectId in PAPERS_ONLY_SUBJECTS ? ["guide", "aac", "papers"]
     : subjectId === "maths" ? ["guide", "aac", "exam"]
     : ["guide", "aac", "flashcards", "notes", "tests", "exam"];
   return sections.flatMap((id) => (id === "aac" ? aacGuidesFor(subjectId).map((a) => a.section) : [id]));
