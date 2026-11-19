@@ -146,6 +146,7 @@ SUBJECTS = {
         "fromYear": 2002,  # the previous syllabus, first examined 2002 (as Chemistry)
         "course": "2025 specification",
         "firstExamined": 2027,
+        "labels": {"Deferred": "Deferred sitting"},  # 2022-23 deferred exams, from the Maynooth archive
     },
 }
 
@@ -221,7 +222,7 @@ DROPPED = re.compile(r"^(\d{4})-(higher|ordinary|foundation|common)-(papers|sche
 
 def dropped_in(cfg: dict, src: Path, listed: set[str]) -> list[dict]:
     entries = []
-    for path in sorted(src.iterdir()):
+    for path in sorted(src.iterdir(), key=lambda p: p.stem):  # by stem: a paper before its -deferred twin
         m = DROPPED.match(path.name.lower())
         if not m or path.name in listed:
             continue
