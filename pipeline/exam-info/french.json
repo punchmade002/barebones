@@ -127,7 +127,7 @@
           "play": "Match meaning in the named section, give just the word and stop. For a grammar item, scan the section for the tense marker (auxiliary plus past participle) and copy one clean example.",
           "traps": [
             "Writing a whole line around the word: minus 1 for each extraneous element",
-            "Picking a word from the wrong section: the question names the section and answers outside it score nothing"
+            "Looking in the wrong section: the question names the section to search"
           ]
         },
         {
