@@ -2758,5 +2758,2236 @@ window.AAC_GUIDES = {
     "url": "https://www.examinations.ie/?l=en&mc=ex&sc=he"
    }
   ]
+ },
+ "irish": {
+  "subject": "irish",
+  "subjectTitle": "Irish",
+  "title": "Scrúdú Cainte (oral exam)",
+  "short": "Scrúdú Cainte",
+  "weight": "40%",
+  "marks": 240,
+  "level": "Common level",
+  "summary": "The Scrúdú Cainte is 40% of Leaving Cert Irish, 240 marks, with one common test for Higher and Ordinary Level. An SEC examiner records about 15 minutes in your school at Easter: Fáiltiú 5, a poem 35, a Sraith Pictiúr 80 and a Comhrá 120. For 2027 you prepare 10 of the 20 Sraith Pictiúr.",
+  "brief": {
+   "task": "There is no topic brief. You prepare the five prescribed poems for 2027, 10 of the 20 Sraith Pictiúr 2027, and conversation topics. On the day you answer the examiner in Irish in four parts.",
+   "facts": [
+    [
+     "Due",
+     "Oral held in the Easter holidays 2027, dates not yet published (2026: Saturday 28 March to Thursday 2 April)"
+    ],
+    [
+     "Length",
+     "About 15 minutes, recorded by an SEC examiner in your school"
+    ],
+    [
+     "Marks",
+     "Fáiltiú 5, Léamh na Filíochta 35, Sraith Pictiúr 80, Comhrá 120 (240 in total)"
+    ],
+    [
+     "You prepare",
+     "The 5 prescribed poems and 10 of the 20 Sraith Pictiúr 2027 (hand the examiner your list of 10)"
+    ],
+    [
+     "Level",
+     "One common test for Higher and Ordinary Level"
+    ]
+   ],
+   "source": {
+    "label": "Department of Education and Youth: Assessment Arrangements 2027 (Irish page)",
+    "url": "https://assets.gov.ie/static/documents/54a1450c/FINAL_v2_English_Assessment_Arrangements_2027.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Know the test",
+    "marks": null,
+    "marksNote": "Not marked, but it sets your plan",
+    "checklist": [
+     "Split your preparation by marks: the conversation is half the test and the picture series a third.",
+     "Check you are learning the 2027 and 2028 poems, not the old list."
+    ],
+    "guide": [
+     {
+      "h": "The shape of the exam",
+      "points": [
+       "240 marks, 40% of your Irish grade. Higher and Ordinary Level sit the same test, so there is no easier or harder version.",
+       "Four parts in this order: Fáiltiú (welcome) 5 marks, Léamh na Filíochta (reading a poem) 35, Sraith Pictiúr (picture series) 80, Comhrá (conversation) 120.",
+       "The whole test is about 15 minutes. The SEC's own summary gives about 1 minute for the welcome, 2 for the poem, 4 for the pictures and 6 to 8 for the conversation.",
+       "An examiner assigned by the SEC comes to your school and records the test. The recording is what gets marked.",
+       "Time your preparation by the marks: the conversation is half the test (120 of 240) and the picture series is a third (80 of 240). The poem and welcome together are 40 marks."
+      ]
+     },
+     {
+      "h": "What is different in 2027",
+      "points": [
+       "Sraith Pictiúr: the Department's September 2026 arrangements say each candidate prepares 10 of the 20 Sraith Pictiúr 2027. Before the adjustment it was 20. Everything else in the oral is 'gan leasú' (unchanged).",
+       "Poems: the 2027 and 2028 prescribed poems are a new list: Dínit an Bhróin (Máirtín Ó Direáin), Deireadh na Feide (Ailbhe Ní Ghearbhuigh), Iníon (Áine Durkin), Glaoch Abhaile (Áine Ní Ghlinn) and Úirchill an Chreagáin (Airt Mac Cumhaidh). Many guides online still list the old five (Géibheann, Colscaradh, Mo Ghrá-sa, An tEarrach Thiar, An Spailpín Fánach), so check you are learning the right ones.",
+       "Timing: orals stay in the Easter holidays up to and including 2027, then the SEC reviews it.",
+       "The poem rule (how many verses the examiner may ask for) is set in SEC circular S76/25 for 2027 and 2028. I could not open that circular, so ask your teacher for it and learn each full poem to be safe."
+      ]
+     },
+     {
+      "h": "What the examiner is looking for",
+      "points": [
+       "Every part is marked on two things: how much and how well you communicate in Irish, and how accurate your Irish is. Keeping the conversation going earns marks even when a verb is wrong.",
+       "The test is not a knowledge test. You are never asked for facts or statistics, only to talk.",
+       "Examiners are teachers trained by the SEC. A teacher said they are there to give you as many marks as they can, not to catch you out."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fáiltiú and poem",
+    "marks": 40,
+    "marksNote": "5 + 35 marks",
+    "checklist": [
+     "Give name, age, date of birth, address and exam number in full Irish sentences.",
+     "Learn each prescribed poem in full and say its title and the poet before you read."
+    ],
+    "guide": [
+     {
+      "h": "What you are asked",
+      "points": [
+       "Five items: your ainm (name), aois (age), dáta breithe (date of birth), seoladh baile (home address) and scrúduimhir (exam number).",
+       "The examiner asks in Irish: 'Cén t-ainm atá ort?' (what is your name), 'Cén aois thú?' (how old are you), and so on. You answer in full Irish sentences.",
+       "It takes about a minute and it is the first thing on the recording, so it also settles your voice."
+      ]
+     },
+     {
+      "h": "A script to learn",
+      "points": [
+       "'Is mise (your name).' (I am ...)",
+       "'Tá mé seacht mbliana déag d'aois.' (I am 17 years old.)",
+       "'Rugadh mé ar an (number) lá de mhí (month), (year).' (I was born on the ... day of ...) Say the day as an ordinal: an chéad lá, an dara lá, an tríú lá, an ceathrú lá, an cúigiú lá.",
+       "'Tá cónaí orm i (town), i gContae (county).' (I live in ..., in County ...)",
+       "'Is é mo scrúduimhir ná (digits).' (My exam number is ...) Say each digit: a haon, a dó, a trí, a ceathair, a cúig, a sé, a seacht, a hocht, a naoi, a náid.",
+       "Practise your birth year aloud in Irish, and your exam number, until neither makes you pause."
+      ]
+     },
+     {
+      "h": "Common ways to lose a mark",
+      "points": [
+       "Saying the digits of the exam number in English or in the wrong order.",
+       "Freezing on the year of birth or the county. Say them out loud 10 times.",
+       "Answering in one word. A full sentence is safer and sets the tone for the test."
+      ]
+     },
+     {
+      "h": "How it works",
+      "points": [
+       "The examiner chooses one of the prescribed poems. You do not choose it and you get no preparation time (SEC S90/10 summary).",
+       "In the old rules the examiner chose the verses too: whole poem for the shortest ones, two or three verses for the longer ones. The 2027 rule is in SEC circular S76/25, which I could not open. Learn every poem in full.",
+       "Say the title of the poem and the name of the poet before you read, whichever verses you are asked for (teacher advice for the RTÉ 2026 tips).",
+       "It is marked on how well you understand the poem and on your pronunciation and rhythm."
+      ]
+     },
+     {
+      "h": "The five poems for 2027",
+      "points": [
+       "Dínit an Bhróin (Máirtín Ó Direáin), Deireadh na Feide (Ailbhe Ní Ghearbhuigh), Iníon (Áine Durkin), Glaoch Abhaile (Áine Ní Ghlinn) and Úirchill an Chreagáin (Airt Mac Cumhaidh). They are in the Department circular 0041/2026 for 2027 and 2028.",
+       "Úirchill an Chreagáin is an older song-poem (18th century), so read it with its rhythm.",
+       "Check that the poems you are being taught match this list, because the 2025 and 2026 papers used a different list."
+      ]
+     },
+     {
+      "h": "How to prepare each poem",
+      "points": [
+       "Read the poem aloud 10 times a day for a week, with a pencil in hand. Mark the stressed words and write the sounds above hard words (in phonetics) in your own booklet.",
+       "Learn what each line means. If you know the meaning you read with the right pauses and tone, and that is what 'understanding' means in the scheme.",
+       "Listen to a good reader or the poet if you can find a recording, then record yourself and compare.",
+       "Pause at the end of a line only if the sense stops there. Do not read in a flat monotone."
+      ]
+     },
+     {
+      "h": "What the bands look like",
+      "points": [
+       "From the SEC summary: 29 to 35 is the top grade A, 24 to 28 is B, 19 to 23 is C, 14 to 18 is D, 9 to 13 is E, 0 to 8 is F.",
+       "Top marks are for a reading that sounds natural, correct and clearly understood. A hesitant reading with 3 or 4 mispronounced words usually lands in the 24 to 28 band."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Sraith Pictiúr",
+    "marks": 80,
+    "marksNote": "80 marks",
+    "checklist": [
+     "Prepare 10 of the 20 Sraith Pictiúr 2027 and write the list of 10 titles for the examiner.",
+     "Describe each picture in 5 or 6 sentences in one tense, with a wide range of verbs.",
+     "Plan one question to ask about the story and a sentence of your own experience."
+    ],
+    "guide": [
+     {
+      "h": "How it works in 2027",
+      "points": [
+       "The SEC publishes 20 Sraith Pictiúr 2027 on examinations.ie. Each is a page of 6 pictures that tell a story.",
+       "You prepare 10 of them. At the start of the oral you give the examiner the list of the 10 titles. You then pick one of the 20 at random. If it is on your list, you keep it. If not, you pick again until it is (this is the rule in SEC circular S11/25 for 2025, and the 2027 adjustment keeps the 10 of 20 format).",
+       "You describe the six pictures for about 4 minutes. After that the examiner and you ask each other a small number of questions about the story (SEC S90/10 summary).",
+       "Do not trust online posts that say all 20 return for 2027. The official arrangements are 10 of 20."
+      ]
+     },
+     {
+      "h": "Where the 80 marks go",
+      "points": [
+       "SEC S90/10 gives bands for the whole 80: 68 to 80 is grade A, 56 to 67 is B, 44 to 55 is C, 32 to 43 is D, 20 to 31 is E, 0 to 19 is F.",
+       "Teacher sources break it down as 50 for the range and fluency of your Irish, 20 for accuracy and 10 for the questions. The SEC document confirms the total and the bands but I did not find the 50/20/10 in an SEC document, so treat it as a teacher estimate.",
+       "So fluency and range count most. Describe a lot, with a lot of different verbs."
+      ]
+     },
+     {
+      "h": "How to build each story",
+      "points": [
+       "Write 5 or 6 sentences per picture (RTÉ 2026 teacher tip). That is about 30 sentences per series, which you can say in 3 to 4 minutes.",
+       "Use ONE tense for the whole story and do not change it. Aimsir chaite (past tense) is the best choice because every picture shows something that already happened.",
+       "Use many different verbs. A list of strong past-tense verbs: chuaigh (went), chonaic (saw), d'fhéach (looked), thosaigh (began), shiúil (walked), bhuail (met or hit), ghlaoigh (called), tháinig (came), thug (gave), dúirt (said), d'éirigh (got up or succeeded).",
+       "Link the pictures: 'Sa chéad phictiúr...' (In the first picture), 'Ansin...' (then), 'Tar éis tamaill...' (after a while), 'Faoi dheireadh...' (at last), 'Sa phictiúr deireanach...' (in the last picture).",
+       "Add feelings and a small detail to each picture ('bhí ionadh uirthi', she was surprised; 'bhí sé ar bís', he was excited)."
+      ]
+     },
+     {
+      "h": "The questions at the end",
+      "points": [
+       "Prepare one question to ask about the story, such as 'An raibh tú riamh i gcás mar sin?' (Were you ever in a situation like that?).",
+       "Expect one or two questions back: your opinion of the story, or a similar story of your own. Prepare 2 or 3 sentences of your own experience for each series.",
+       "Pick your 10 series early and keep the list. Do not decide the night before."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Comhrá",
+    "marks": 120,
+    "marksNote": "120 marks: range 75, fluency and accuracy 45",
+    "checklist": [
+     "Prepare 12 or more topics with a fact, an opinion, the past and a conditional for each.",
+     "Give full answers, steer the conversation to what you prepared, and match the tense of each question."
+    ],
+    "guide": [
+     {
+      "h": "How it works",
+      "points": [
+       "It runs for about 6 to 8 minutes. It starts with things close to you, such as yourself, your family and your school, and then widens as far as you can go.",
+       "SEC S90/10 gives the split: 75 marks for Irish 'repertoire' (the range and richness of your vocabulary and structures) and 45 marks for ability (fluency and accuracy).",
+       "SEC grade bands: for the 75, A is 64 to 75, B 53 to 63, C 42 to 52, D 30 to 41. For the 45, A is 39 to 45, B 32 to 38, C 25 to 31, D 18 to 24.",
+       "You can steer the conversation. If you want to talk about something you prepared, bring it in. Do not wait for the examiner to ask (RTÉ 2026 teacher tip)."
+      ]
+     },
+     {
+      "h": "Topics to prepare",
+      "points": [
+       "Core (most of the test): mé féin (myself), mo chlann (my family), mo cheantar (my area), mo scoil (my school), caitheamh aimsire (hobbies), léitheoireacht (reading), teilifís agus scannáin (TV and films), ceol (music), an bhliain seo chugainn (next year), post páirtaimseartha (part-time job), laethanta saoire (holidays).",
+       "Harder topics that earn the high marks: an Ghaeilge agus an Ghaeltacht, teicneolaíocht agus na meáin shóisialta (technology and social media), athrú aeráide (climate change), córas an oideachais (the education system), polaitíocht (politics), féilte (festivals) and whatever is in the news.",
+       "Many of these also work in your Paper 1 composition, so the work counts twice."
+      ]
+     },
+     {
+      "h": "How to build a topic (four layers)",
+      "points": [
+       "For each topic prepare four layers: a fact ('Tá triúr deartháireacha agus deirfiúr amháin agam', I have three brothers and one sister), an opinion ('Dar liomsa, tá an iomarca brú ar dhaltaí', in my opinion there is too much pressure on students), something in the past ('Bhí mé i...') and something in the future or conditional.",
+       "Conditional is the sentence that lifts you into the top bands: 'Dá n-éireodh liom sna scrúduithe, rachainn ar an ollscoil' (if I did well in the exams, I would go to university) and 'Ba mhaith liom a bheith i mo dhochtúir' (I would like to be a doctor).",
+       "Listen carefully to the tense of each question and answer in the same tense. A teacher said not listening to the tense is the most common mistake when nervous.",
+       "Aim for grammar the examiner can hear: prepositions with pronouns ('liom', 'agam', 'dom'), possessive adjectives and the genitive case."
+      ]
+     },
+     {
+      "h": "Phrases that keep it going",
+      "points": [
+       "'Bhuel...' and 'Lig dom smaoineamh...' (Let me think...) give you a second.",
+       "'Is é an rud is fearr liom faoi... ná...' (what I like best about ... is ...), 'Ar an láimh eile...' (on the other hand), 'Mar shampla...' (for example).",
+       "'Ní thuigim an cheist. An bhféadfá í a rá arís, le do thoil?' (I don't understand the question. Could you say it again, please?) It is fine to say this.",
+       "If you make a mistake, correct yourself and carry on. Examiners notice it positively."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Practise and the day",
+    "marks": null,
+    "marksNote": "Before and on exam day",
+    "checklist": [
+     "Speak out loud and record yourself, and do three timed 15-minute mocks before Easter.",
+     "Leave your phone outside, bring your list of 10 titles, and use recovery phrases instead of silence."
+    ],
+    "guide": [
+     {
+      "h": "A weekly routine",
+      "points": [
+       "Say everything out loud, not in your head (RTÉ 2026 teacher tip). Record your voice on your phone and listen back for pauses, repeated words and mistakes.",
+       "Do a full 15-minute mock at least three times before Easter: welcome 1 minute, poem 2, pictures 4, conversation 6 to 8. Ask a teacher or a friend to be the examiner and to time it.",
+       "Practise your 10 Sraith Pictiúr until each one takes about 3 to 4 minutes without notes.",
+       "Practise changing topic quickly: have a friend jump from 'mo scoil' to 'athrú aeráide' with no warning."
+      ]
+     },
+     {
+      "h": "Build your Irish",
+      "points": [
+       "Listen to Irish every day. Nuacht (the news) on TG4, RnaG or a film in Irish all help your range and your accent.",
+       "Keep a small list of 40 reusable verbs and 30 linking phrases. The picture series and the conversation both use them.",
+       "Ask your teacher to correct 2 or 3 of your recordings in writing. Fix every repeated error, because one repeated error costs marks every time.",
+       "Learn the numbers, dates and the 'Cén fáth?' (why) answers for each topic: examiners ask 'why' a lot."
+      ]
+     },
+     {
+      "h": "Before you go in",
+      "points": [
+       "Your school gives you a time, but examiners run late or early, so be ready at the start of your day. No phones or recording devices are allowed in the room (SEC rule): leave them outside.",
+       "Bring the list of your 10 chosen Sraith Pictiúr titles, written clearly. The examiner asks for it at the beginning.",
+       "If you are ill or bereaved, tell your school at once: there is a late oral (2026: the week of 18 May), but you need evidence."
+      ]
+     },
+     {
+      "h": "In the room",
+      "points": [
+       "The order is: welcome, poem, picture series, conversation. Speak clearly and a little more slowly than you think you need to.",
+       "Say the title and poet before the poem. In the picture series start with the picture number and keep your tense.",
+       "In the conversation, give a full answer (3 to 5 sentences) rather than one line, and add your own idea. If the examiner moves to a topic you know less, use a few safe phrases and steer back to a topic you prepared.",
+       "If you blank, say 'Lig dom smaoineamh' and take a breath. Do not stay silent: silence has no marks."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "The Scrúdú Cainte is 240 marks and 40% of Irish. It is one common test for Higher and Ordinary Level.",
+       "It has four parts: Fáiltiú 5, Léamh na Filíochta 35, Sraith Pictiúr 80, Comhrá 120.",
+       "It is held in the first week of the Easter holidays (the SEC confirmed this for 2025, 2026 and 2027) by an SEC examiner in your school, and recorded. The 2027 dates are not yet published.",
+       "For 2027 you prepare 10 of the 20 Sraith Pictiúr 2027 and give the examiner the list of 10 titles at the start. A random pick is made from the 20. If it is not on your list you pick again.",
+       "The poem is chosen by the examiner from the prescribed poems. For 2027 and 2028 the poems are Dínit an Bhróin, Deireadh na Feide, Iníon, Glaoch Abhaile and Úirchill an Chreagáin.",
+       "Mobile phones and recording devices are not allowed in the room.",
+       "A candidate who misses the oral through illness or bereavement can sit a late oral (2026: the week of 18 May) with evidence."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Learning the old poems (Géibheann, Colscaradh, Mo Ghrá-sa, An tEarrach Thiar, An Spailpín Fánach) because an online guide still lists them.",
+       "Preparing 20 Sraith Pictiúr after reading a petition or post that says all 20 return. The official 2027 arrangements say 10 of 20.",
+       "Changing tense in the middle of a picture story. Choose the past tense and keep it.",
+       "Memorising a long speech and saying it whatever the question was. The examiner asks about the tense and the topic, and you must answer that.",
+       "Forgetting to say the title of the poem and the poet.",
+       "Stumbling over the exam number or the date of birth in the Fáiltiú, which are 5 free marks.",
+       "Practising silently, so the first time you say the sentences is in the exam.",
+       "Giving one-line answers in the Comhrá, so the examiner has to keep asking questions."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Department of Education and Youth: Assessment Arrangements for Junior Cycle and Leaving Certificate Examinations 2027 (September 2026), Irish page",
+    "url": "https://assets.gov.ie/static/documents/54a1450c/FINAL_v2_English_Assessment_Arrangements_2027.pdf"
+   },
+   {
+    "label": "Department of Education and Youth: Circular 0041/2026, Prescribed Material for the Leaving Certificate Irish Examination in June 2027 and June 2028 (ASTI copy)",
+    "url": "https://www.asti.ie/document-library/circular-00412026-prescribed-material-for-the-leaving/0041-26-prescribed-material-for-the-leaving-certificate-irish-examination-in-june-2027-and-june-2028-ev.pdf"
+   },
+   {
+    "label": "SEC Circular S11/25: Oral Examinations 2025 (via FSSU), including Appendix 1 on the Irish Sraith Pictiúr",
+    "url": "https://fssu.ie/app/uploads/2025/04/SEC-S11-25-Oral-Examinations-Circular.pdf"
+   },
+   {
+    "label": "SEC Circular: Preliminary information on the 2026 oral examinations in Irish and Modern Foreign Languages (via FSSU)",
+    "url": "https://www.fssu.ie/app/uploads/2026/03/SEC-Circular-Oral-Exams-for-Leaving-Cert-2026.pdf"
+   },
+   {
+    "label": "SEC Circular S90/10 The Irish Examination in the Leaving Certificate for 2012 onwards (SlideShare summary of the circular)",
+    "url": "https://www.slideshare.net/slideshow/s-90-10baltriail/33030174"
+   },
+   {
+    "label": "RTÉ Learn: Leaving Cert Irish oral exam study tips with Cass Ní Chionnaith (29 March 2026)",
+    "url": "https://www.rte.ie/learn/senior-cycle/2026/0329/1565236-leaving-cert-irish-oral-exam-study-tips-cass-ni-chionnaith/"
+   },
+   {
+    "label": "An tEascapeasca for RTÉ Learn: Top 5 Tips for the Leaving Cert Irish Oral (2023)",
+    "url": "https://www.rte.ie/documents/learn/2023/03/leaving-irish-oral-2023-top-5-tips.pdf"
+   },
+   {
+    "label": "The Irish Times: How to stay cool, calm and collected for your Leaving Cert language oral (17 March 2026)",
+    "url": "https://www.irishtimes.com/ireland/education/2026/03/17/how-to-stay-cool-calm-and-collected-for-your-leaving-cert-language-oral/"
+   }
+  ]
+ },
+ "french": {
+  "subject": "french",
+  "subjectTitle": "French",
+  "title": "Oral Examination",
+  "short": null,
+  "weight": "25%",
+  "marks": 100,
+  "level": "Higher Level (Ordinary Level: 20%, 80 marks)",
+  "summary": "The French oral is 25% of your Higher Level grade. It is a general conversation of about 12 to 15 minutes with an SEC examiner, with an optional document or project you can bring. Four things earn the marks: Communication 30, Structures 30, Vocabulary 20 and Pronunciation 20.",
+  "brief": {
+   "task": "Prepare spoken answers on the usual topics (family, school, free time, job, holidays, future plans), optionally one document or project, and practise aloud so the conversation flows when the examiner jumps around.",
+   "facts": [
+    [
+     "Length",
+     "About 12 to 15 minutes, with an SEC-appointed examiner in your school"
+    ],
+    [
+     "Marks",
+     "Communication 30, Structures 30, Vocabulary 20, Pronunciation 20 (100 in total; split from the Irish Times 2026, not the SEC page)"
+    ],
+    [
+     "Optional",
+     "A document, photo or project of your choice to start a part of the conversation"
+    ],
+    [
+     "Ordinary Level",
+     "Same format, worth 80 marks and 20% of the grade"
+    ],
+    [
+     "Due",
+     "Oral held in the first week of the Easter holidays (2026: 28 March to 2 April); 2027 window not yet published"
+    ]
+   ],
+   "source": {
+    "label": "NCCA French syllabus",
+    "url": "https://www.curriculumonline.ie/getmedia/52ac0a4a-562b-410a-83f3-02fa2d666f9e/SCSEC15_French_syllabus_eng.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Know the test",
+    "marks": null,
+    "marksNote": "Format and dates",
+    "checklist": [
+     "Check your oral date with your school and the SEC window for the Easter holidays.",
+     "Learn the four marking headings and what each rewards."
+    ],
+    "guide": [
+     {
+      "h": "What the oral is",
+      "points": [
+       "The Oral Examination is 25% of Higher Level French, marked out of 100. At Ordinary Level it is 20%, marked out of 80 (NCCA French syllabus; the 100 and 80 totals come from school and publisher sources).",
+       "The NCCA syllabus describes the oral as a general conversation based on the syllabus content. You may choose, as an option, to discuss a literary work or a project you have worked on. A role-play is listed as an optional extra from the syllabus, but none of the current guides or reports I found describe a role-play in the French oral (they do for Spanish and German), so prepare for conversation plus an optional document.",
+       "The syllabus allots fifteen minutes per candidate. Publisher guides say about 12 minutes of actual conversation, because the examiner uses the rest of the time to fill in marks.",
+       "An SEC-appointed examiner assigned to your school runs it, not your own teacher (SEC circulars on the Easter oral model)."
+      ]
+     },
+     {
+      "h": "How it is marked (100 marks)",
+      "points": [
+       "Communication 30, Structures (grammar) 30, Vocabulary 20, Pronunciation 20. Source: Irish Times oral guide, 17 March 2026, matched by a publisher guide and a teacher forum post. I could not open the SEC's own oral marking scheme, so treat this split as well supported but not first-hand.",
+       "Structures is as big as Communication. Showing a range of tenses and constructions is worth as much as having something to say.",
+       "Pronunciation is 20 marks and cannot be fixed by writing. It is only improved by saying answers out loud."
+      ]
+     },
+     {
+      "h": "When",
+      "points": [
+       "The SEC runs the French oral in the first week of the Easter holidays. 2026 ran Saturday 28 March to Thursday 2 April. The SEC circular says 2027 will also be the first week of the Easter holidays, subject to confirmation after a review. Your school will give you your slot."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Prepare topics and a document",
+    "marks": null,
+    "marksNote": "Autumn to Easter",
+    "checklist": [
+     "Write 5 or 6 spoken sentences on each main topic, answering Qui, Où, Quand, Pourquoi.",
+     "Choose one document or project and write ten sentences about it in three tenses."
+    ],
+    "guide": [
+     {
+      "h": "Topics to cover",
+      "points": [
+       "Topics named by teachers and the Irish Times guide: yourself and your family, school and subjects, free time and hobbies, part-time job, holidays (last and next), daily routine, future plans and career. Add the town you live in, food, health, technology and the environment because examiners follow your answers into them.",
+       "For each topic write 5 or 6 sentences of about 8 to 15 words each that you could say without a script. That is 40 to 60 seconds of speech.",
+       "Do not write one paragraph per topic. Write one sentence for each likely question word: Qui ? Où ? Quand ? Pourquoi ? Comment ? Depuis quand ?"
+      ]
+     },
+     {
+      "h": "Answer the question that was asked",
+      "points": [
+       "The most common mistake reported is not answering the question word that opens the question. A 'Pourquoi' question needs 'parce que' and a reason. A 'Depuis combien de temps' question needs 'depuis' plus a time.",
+       "Open with the direct answer, then add one reason and one detail. This stops you reciting the prepared paragraph that does not fit the question."
+      ]
+     },
+     {
+      "h": "Example of an upgrade",
+      "points": [
+       "Basic: 'Le weekend dernier, j'ai joué au football.'",
+       "Better: 'Samedi dernier, j'ai joué un match de football avec mon équipe. On a perdu, ce qui m'a énervé, mais l'ambiance était super. Si on gagnait plus souvent, j'irais plus volontiers aux entraînements.' This has passé composé, imparfait, a relative pronoun (ce qui) and a conditional with si plus imparfait."
+      ]
+     },
+     {
+      "h": "What counts",
+      "points": [
+       "The syllabus allows you to discuss a literary work or a project you have worked on. Teacher guides describe it as a document of your choice: a photo, a project in French, an article in French or a French book.",
+       "I could not find an official SEC rule on its length. One tuition source says about 2 minutes of the conversation. Check with your teacher and the SEC oral guidelines for your year.",
+       "Choose something you can talk about in the past, present and future tenses and where you have opinions. A photo of a family holiday, a match, or a school trip works for most students."
+      ]
+     },
+     {
+      "h": "How to prepare it",
+      "points": [
+       "Write eight to ten sentences: what it is, who or what is in it, when it was taken or made, why you chose it, what you did or learned, and what you think now.",
+       "Prepare answers to the likely follow-ups: pourquoi l'avez-vous choisi ? qu'est-ce que vous avez appris ? recommanderiez-vous ce livre ?",
+       "Practise taking the examiner on to a topic you know. One good document hands you the topic for 2 minutes of the conversation."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Communication",
+    "marks": 30,
+    "marksNote": "30 marks",
+    "checklist": [
+     "Answer the question word first, then add a reason and a detail.",
+     "Do full mock orals with follow-up questions.",
+     "Learn rescue lines for when you freeze or lack a word."
+    ],
+    "guide": [
+     {
+      "h": "How the marks are earned",
+      "points": [
+       "Communication is how well you get meaning across and keep the conversation going. Short one-sentence answers stop the flow. Answer, add a reason, add a detail.",
+       "Aim for 3 to 5 sentences per answer, but let the examiner interrupt. Do not recite."
+      ]
+     },
+     {
+      "h": "Practise",
+      "points": [
+       "Do a full 12-minute mock with a teacher, a friend or a recording app. Ask them to jump between topics and ask follow-ups (the Irish Times guide suggests a friend suggest follow-up questions).",
+       "Practise rescue lines so you never go silent: 'Pardon, pourriez-vous répéter la question ?', 'Comment dit-on ... en français ?', 'Je voulais dire ...', and describe a word you do not know ('c'est quelque chose qu'on utilise pour ...').",
+       "Record yourself once a week and listen back for the same three errors, then fix those."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Structures",
+    "marks": 30,
+    "marksNote": "30 marks",
+    "checklist": [
+     "Put a past, a future and a conditional into each topic answer.",
+     "Use five structures you are sure of, such as subjonctif, si + conditionnel, y and en."
+    ],
+    "guide": [
+     {
+      "h": "What to show",
+      "points": [
+       "A spread of tenses: présent, passé composé and imparfait together, futur proche or futur simple, conditionnel.",
+       "At least a few harder structures you can use correctly: subjonctif after il faut que / pour que, si + imparfait + conditionnel, relative pronouns (qui, que, dont), the pronouns y and en, depuis + présent, après avoir + participe passé.",
+       "Correct gender and agreement on the words you use most often (ma sœur est partie, nous sommes allés)."
+      ]
+     },
+     {
+      "h": "How to build it",
+      "points": [
+       "Take your own prepared answers and add three upgrades to each: one past/future contrast, one conditional, one pronoun.",
+       "Pick five structures you are certain of and use each at least once in every topic. Accuracy on five beats mistakes on fifteen.",
+       "Drill the irregular verbs you will actually say: être, avoir, aller, faire, pouvoir, vouloir, savoir, venir, prendre, mettre."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Vocabulary and pronunciation",
+    "marks": 40,
+    "marksNote": "20 marks each",
+    "checklist": [
+     "Swap bland words for ten stronger opinion phrases and link words.",
+     "Record yourself and fix nasal vowels, liaison and stress."
+    ],
+    "guide": [
+     {
+      "h": "Vocabulary",
+      "points": [
+       "Replace bland words: bien, bon, beaucoup, chose, aimer. Instead: génial, passionnant, un tas de, un atout, adorer, détester, me tenir à cœur.",
+       "Learn 10 opinion phrases and 10 link words (cependant, en revanche, d'ailleurs, de plus, par contre, bref).",
+       "Add idioms that fit: ça m'a changé les idées, c'est la meilleure chose qui me soit arrivée, je suis fan de."
+      ]
+     },
+     {
+      "h": "Pronunciation",
+      "points": [
+       "Say answers aloud and record them. Compare the nasal vowels (on, an, in), the French r, the u/ou difference (tu / tout), silent final consonants, and the liaisons (les amis, vous avez).",
+       "Stress falls on the last syllable of each word group, not on the first as in English. Keep it even and slightly flat.",
+       "Learn the sound of your key words first: the ones you use in every answer (maintenant, parce que, depuis, préférer, famille, voyage)."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "On the day",
+    "marks": null,
+    "marksNote": "The oral itself",
+    "checklist": [
+     "Warm up by saying five answers aloud before you go in.",
+     "If you freeze, ask for the question again in French and carry on."
+    ],
+    "guide": [
+     {
+      "h": "Before you go in",
+      "points": [
+       "Bring any document you will use (the syllabus lets you discuss one) and follow your school's instructions for the day.",
+       "In the 10 minutes before, say five of your prepared answers aloud, quietly. This warms up your French pronunciation."
+      ]
+     },
+     {
+      "h": "In the room",
+      "points": [
+       "Treat it as a chat, not an interview. Smile, say bonjour, and respond to the first question with energy, as it sets the examiner's first impression.",
+       "Listen for the question word, answer it first, then add your reason.",
+       "If you freeze, use a rescue line. A calm 'Pardon, pourriez-vous répéter ?' costs nothing.",
+       "If you make a mistake, correct it once and move on. Do not apologise in English."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "The syllabus lists a general conversation, an optional discussion of a literary work or project, and an optional role-play. I found no source describing a role-play in the French oral today.",
+       "Fifteen minutes are allowed per candidate (syllabus). Publisher guides say about 12 minutes is conversation.",
+       "The oral is held by SEC-appointed examiners in your school in the first week of the Easter holidays (SEC circulars for 2025 and 2026; 2027 subject to review).",
+       "Candidates who miss the oral get a later session under the usual SEC arrangements for a missed language oral (2026 circular, section on missed orals).",
+       "At Ordinary Level the oral is run the same way but is worth 80 marks, 20%."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Not answering the question word the examiner started with.",
+       "One-sentence answers with no reason or detail.",
+       "Reciting a memorised paragraph that does not fit the question.",
+       "Using only the present tense and passé composé.",
+       "Rushing, which wrecks pronunciation and stress.",
+       "Going silent instead of using a rescue line."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "NCCA Leaving Certificate French syllabus",
+    "url": "https://www.curriculumonline.ie/getmedia/52ac0a4a-562b-410a-83f3-02fa2d666f9e/SCSEC15_French_syllabus_eng.pdf"
+   },
+   {
+    "label": "SEC circular, preliminary information on the 2026 oral examinations",
+    "url": "https://www.fssu.ie/app/uploads/2026/03/SEC-Circular-Oral-Exams-for-Leaving-Cert-2026.pdf"
+   },
+   {
+    "label": "SEC circular S11/25 on oral examinations",
+    "url": "https://fssu.ie/app/uploads/2025/04/SEC-S11-25-Oral-Examinations-Circular.pdf"
+   },
+   {
+    "label": "Irish Times: how to stay cool, calm and collected for your Leaving Cert language oral (17 March 2026)",
+    "url": "https://www.irishtimes.com/ireland/education/2026/03/17/how-to-stay-cool-calm-and-collected-for-your-leaving-cert-language-oral/"
+   },
+   {
+    "label": "Institute of Education, Higher Level 6th year French oral notes (school subjects)",
+    "url": "https://instituteofeducation.ie/wp-content/uploads/2022/09/6th-H-Oral-School-Subjects.pdf"
+   },
+   {
+    "label": "Louise Sutton Marking Scheme guide, Leaving Cert French Higher Level (publisher sample)",
+    "url": "https://gmcontent.affino.com/AcuCustom/Sitename/DAM/117/LSMS_-_Leaving_Cert_-_French_Higher_Level_-_Look_Inside.pdf"
+   }
+  ]
+ },
+ "spanish": {
+  "subject": "spanish",
+  "subjectTitle": "Spanish",
+  "title": "Oral Examination",
+  "short": "Oral",
+  "weight": "25%",
+  "marks": 100,
+  "level": "Higher Level 100 marks; Ordinary Level 80 marks",
+  "summary": "The Spanish oral is a 15-minute conversation with an examiner in March. At Higher Level it is 25 percent of your grade. It has a general conversation (70 marks) and a role-play (30 marks).",
+  "brief": {
+   "task": "A 15-minute oral with an SEC examiner: about 10 minutes of general conversation, then one role-play from the SEC cards after one minute to read it.",
+   "facts": [
+    [
+     "Due",
+     "Oral held in the 2027 window, provisionally Sat 20 to Thu 25 March 2027 (2026 was 28 March to 2 April); your school sets your slot"
+    ],
+    [
+     "Length",
+     "About 15 minutes: about 10 for conversation, about 5 for the role-play"
+    ],
+    [
+     "Marks",
+     "Higher Level 100 (25 percent): conversation 70, role-play 30. Ordinary Level 80 (20 percent)"
+    ],
+    [
+     "Role-play",
+     "Five SEC cards, examiner speaks first, one minute to read, four prepared turns and one unseen question, 6 marks each"
+    ],
+    [
+     "Not in the test",
+     "No picture series, poem or prepared document"
+    ]
+   ],
+   "source": {
+    "label": "NCCA Leaving Certificate Spanish syllabus",
+    "url": "https://www.curriculumonline.ie/getmedia/07bbdb0e-e958-4eac-8629-31557e34bac0/SCSEC32_Spanish_syllabus_eng.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Know the format and plan",
+    "marks": null,
+    "marksNote": "Not marked",
+    "checklist": [
+     "Learn the two parts and their marks: conversation 70, role-play 30.",
+     "Put your weekly practice slots in a calendar up to 20 March 2027."
+    ],
+    "guide": [
+     {
+      "h": "What the test is",
+      "points": [
+       "It is one conversation with one examiner, about 15 minutes in total. It is worth 100 marks, 25 percent of your Higher Level grade.",
+       "Part 1 is the general conversation (about 10 minutes, 70 marks). Part 2 is a role-play (about 5 minutes, 30 marks). The role-play comes last.",
+       "The NCCA syllabus says the conversation is based on the syllabus content and that candidates may use the option of discussing a literary work. Teacher guides do not treat this as part of the normal test, so ask your teacher whether to prepare it.",
+       "There is no picture series, no poem and no prepared document in Spanish. The only prepared text is the role-play."
+      ]
+     },
+     {
+      "h": "Higher and Ordinary Level",
+      "points": [
+       "Higher Level: oral is 25 percent of the grade (100 marks). Ordinary Level: 20 percent (80 marks), and listening and reading carry more weight (NCCA syllabus).",
+       "The same five SEC role-play cards are listed for both levels in a teacher handout of the SEC cards. The Ordinary Level split between the conversation and role-play was not found in a published source: if it is 70:30 like Higher, that would be about 56 and 24 marks. That is an estimate."
+      ]
+     },
+     {
+      "h": "Plan the time",
+      "points": [
+       "2027 oral window: Saturday 20 March to Thursday 25 March 2027, from the SEC schedule as reported by a study site. It is not confirmed on the SEC page this guide could open. 2026 was 28 March to 2 April. Your school gives you your own slot.",
+       "From late November that is about 16 weeks. Aim for one topic block a week, then two or three mock orals in the last month."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Build your conversation bank",
+    "marks": null,
+    "marksNote": "Prepares the 70 marks",
+    "checklist": [
+     "Write short answers on each topic in past, present and future.",
+     "Learn ideas, not word-for-word blocks, and end answers with a hook.",
+     "Learn question words and how to ask for a repeat."
+    ],
+    "guide": [
+     {
+      "h": "Topics to prepare",
+      "points": [
+       "The questions are not fixed. Teacher guides list: family, home, area, school, daily routine, friends, hobbies, sport, music, films, TV, social media, holidays, last summer, next summer, plans for the future, and sometimes current affairs.",
+       "Write about 6 to 8 sentences for each topic and learn the ideas, not the exact words. Examiners and teachers warn that memorised blocks are the main weakness.",
+       "Write each answer in past, present and future. Add one conditional ('me gustaría') and one subjunctive phrase ('espero que', 'quiero que') per topic."
+      ]
+     },
+     {
+      "h": "What loses marks",
+      "points": [
+       "A teacher guide quoting the Chief Examiner says the three main reasons for lost marks were too little vocabulary, weak sentence structure and relying on memorised material. A 2010 Chief Examiner's report copy says the same about memorised pieces.",
+       "Answering with a bare sí or no, or a single sentence, wastes the question.",
+       "Not answering the question word: if asked how many subjects you take, begin with the number."
+      ]
+     },
+     {
+      "h": "Hooks",
+      "points": [
+       "Finish an answer with a detail the examiner can pick up, such as a place, a trip or a person. That steers the conversation to topics you know.",
+       "Learn question words (cuántos, por qué, cuándo, con quién, qué tal) and ways to ask for a repeat: '¿Puede repetir la pregunta, por favor?'"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Learn the role-plays",
+    "marks": null,
+    "marksNote": "Prepares the 30 marks",
+    "checklist": [
+     "Confirm with your teacher which cards you must prepare and learn all five if unsure.",
+     "Write your four turns in your own words and prepare the unseen question."
+    ],
+    "guide": [
+     {
+      "h": "How the role-play works",
+      "points": [
+       "The SEC publishes five role-play cards for each level cycle (Spanish cards are listed for 2024 to 2028). The examiner has a card in Spanish and you have one in English.",
+       "After the conversation the examiner gives you your card and you get one minute to read it. Then the examiner asks if you are ready ('¿Preparado/a?').",
+       "In every role-play the examiner speaks first. You then give four turns that you can prepare from the card, and a final unseen question about the situation.",
+       "Each of the five turns is marked out of 6 (SEC role-play cards as presented in a teacher handout)."
+      ]
+     },
+     {
+      "h": "Which cards to learn",
+      "points": [
+       "Sources disagree. A 2026 Irish Times piece and two other sources say candidates prepare three of the five and the examiner chooses one of those. Older guides say learn all five.",
+       "The SEC instruction document could not be opened. Ask your teacher which rule applies to you, and if there is any doubt learn all five. An SEC amendment to role-play 3 (the camper van) was noted for the 2026 cycle: use the latest card from your teacher."
+      ]
+     },
+     {
+      "h": "How to learn them",
+      "points": [
+       "Write each of the four prepared turns in your own words, check the verbs, and say them aloud. Do not just memorise a translation.",
+       "Prepare answers for the unseen last question. For full marks you must answer it properly and add a little: a bare sí or no, or an answer with no verb, does not earn the 6.",
+       "Practise one card a day for 5 minutes in the last six weeks. Record yourself."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Practise under exam conditions",
+    "marks": null,
+    "marksNote": "Not marked",
+    "checklist": [
+     "Do two full 15-minute mock orals with a card and one minute to read.",
+     "Fix speed, pronunciation and tenses from the feedback."
+    ],
+    "guide": [
+     {
+      "h": "Mock orals",
+      "points": [
+       "Ask your teacher for at least two full 15-minute mock orals before March: 10 minutes of conversation, one minute to read a card, 5 minutes of role-play.",
+       "Ask someone to change the wording of questions and jump between tenses (¿qué hiciste?, ¿qué harás?, ¿qué harías?). The examiner can do this.",
+       "Have the mock marked on the four things the examiner assesses: understanding the question, pronunciation and fluency, range of vocabulary, accuracy."
+      ]
+     },
+     {
+      "h": "Common problems to fix",
+      "points": [
+       "Speed: a fast, flat recital sounds learned off. Slow down and use filler phrases like 'pues' and 'bueno'.",
+       "Pronunciation: practise j, ll, ñ, rr, and stress on the right syllable. Record yourself and listen.",
+       "Using usted to the examiner: address the examiner as usted."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "General conversation",
+    "marks": 70,
+    "marksNote": "70 marks",
+    "checklist": [
+     "Greet in Spanish, answer in full sentences with a reason, and use several tenses.",
+     "Correct slips calmly and ask for a repeat if needed."
+    ],
+    "guide": [
+     {
+      "h": "Start",
+      "points": [
+       "Greet the examiner in Spanish and give your name, age and where you live, then expect easy questions to settle in.",
+       "Bring ID if your school asks for it, and arrive early. The examiner is not your teacher and does not see your notes."
+      ]
+     },
+     {
+      "h": "During the conversation",
+      "points": [
+       "Answer in full sentences, then give a reason or example. Aim for three or four sentences per question.",
+       "Use a range of tenses and avoid repeating me gusta: try me encanta, me chifla, me apasiona.",
+       "If you make a slip, correct it and carry on. Examiners reward proficiency, not zero errors.",
+       "If you do not understand, ask politely for the question again. Do not say you do not know the word.",
+       "If you have no opinion, say so, then say what you do think."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Role-play",
+    "marks": 30,
+    "marksNote": "30 marks",
+    "checklist": [
+     "Use the minute to check the tense for each prompt.",
+     "Give each prompt fully and answer the final question with a verb and a little extra."
+    ],
+    "guide": [
+     {
+      "h": "Reading the card",
+      "points": [
+       "You have one minute. Read the English prompts in order and check which verb tense each needs (yesterday, next year, would like).",
+       "Check whether the examiner speaks first: in the five SEC cards they do."
+      ]
+     },
+     {
+      "h": "Giving your lines",
+      "points": [
+       "Say each turn clearly and in a natural voice, with a little acting. The skill being tested is getting the message across with the right verb.",
+       "Every prompt has several things to say. Make sure you mention each item on the card.",
+       "Slashes on the card mean you choose one option."
+      ]
+     },
+     {
+      "h": "The last question",
+      "points": [
+       "The examiner asks one extra question about the situation. You will not know it.",
+       "Answer with a full sentence containing a verb and add a short extra detail. For example, if asked about the price, say what you think and why."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "Time: about 15 minutes per candidate (NCCA syllabus). Ten for conversation and five for role-play is the usual split.",
+       "The role-play comes after the general conversation, with one minute to read the card.",
+       "You are marked by an SEC examiner who visits your school, not your own teacher.",
+       "Candidates may use the option of discussing a literary work in the conversation (NCCA syllabus). Check with your teacher whether to prepare it.",
+       "Ordinary Level uses the same oral structure, with 80 marks in total. The split was not found in a published source."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Learning answers word for word and reciting them: the Chief Examiner's comments warn about this.",
+       "Giving one-word answers or just sí or no.",
+       "Not knowing the verb tenses: examiners may switch between past, present and future.",
+       "Skipping the role-play prep: it is the most predictable 30 marks.",
+       "Answering the unseen role-play question without a verb."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "NCCA Leaving Certificate Spanish syllabus (oral format, 15 minutes, mark weightings)",
+    "url": "https://www.curriculumonline.ie/getmedia/07bbdb0e-e958-4eac-8629-31557e34bac0/SCSEC32_Spanish_syllabus_eng.pdf"
+   },
+   {
+    "label": "Role-plays 2021 to 2025 handout reproducing SEC role-play cards (Lisa Fitzpatrick, RTE Study Hub)",
+    "url": "https://www.rte.ie/documents/learn/2021/03/drivetime-study-hub-spanish-roleplay-1-to-5.pdf"
+   },
+   {
+    "label": "Institute of Education Spanish oral masterclass notes (Begona de la Fuente)",
+    "url": "https://instituteofeducation.ie/wp-content/uploads/2024/02/Spanish-Oral-Masterclass-Revision-Notes.pdf"
+   },
+   {
+    "label": "Irish Times: how to stay cool for your language oral (March 2026)",
+    "url": "https://www.irishtimes.com/ireland/education/2026/03/17/how-to-stay-cool-calm-and-collected-for-your-leaving-cert-language-oral/"
+   },
+   {
+    "label": "Study site report of the SEC 2026/27 schedule (oral window)",
+    "url": "https://fascliste.com/leaving-cert-dates"
+   },
+   {
+    "label": "Marking scheme, Leaving Certificate 2025 Spanish Higher Level (SEC, copy hosted by educateplus)",
+    "url": "https://educateplus.ie/sites/default/files/storage/2025%20LC%20Spanish%20HL.pdf"
+   }
+  ]
+ },
+ "construction-studies": {
+  "subject": "construction-studies",
+  "subjectTitle": "Construction Studies",
+  "title": "Coursework: Design and Realisation",
+  "short": "Project",
+  "weight": "25%",
+  "marks": 150,
+  "level": "Higher and Ordinary Level",
+  "summary": "The project is 150 marks: an artefact you make in school plus a design folio. It is 25% of your grade at Higher Level (30% at Ordinary). There is no set theme, so you pick a project you can finish in school and agree it with your teacher.",
+  "brief": {
+   "task": "Choose and agree a project with your teacher, make the artefact in school under supervision, and write a design folio (report). No brief is set by the SEC; you choose.",
+   "facts": [
+    [
+     "Two items",
+     "An artefact and a design folio or report"
+    ],
+    [
+     "Marks",
+     "Planning 40, Report 35, Manipulative Skills 40, Completion 35 (150 in total)"
+    ],
+    [
+     "Where",
+     "The artefact is made entirely in school and never leaves it"
+    ],
+    [
+     "Experiments",
+     "Laboratory work is not required in 2027"
+    ],
+    [
+     "Due",
+     "All coursework complete by Friday 30 April 2027"
+    ]
+   ],
+   "source": {
+    "label": "SEC Construction Studies 2027 coursework instructions and marking criteria",
+    "url": "https://exams.ie/project-files/lc/construction-studies/2026-27-coursework-instructions-1.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Plan the project",
+    "marks": 40,
+    "marksNote": "Planning of Project: 40 marks",
+    "checklist": [
+     "Agree a project you can finish in school and write down a simple weekly plan to 30 April 2027.",
+     "Do relevant research, in your own words, and reference every source including any AI material.",
+     "Develop your design through annotated sketches and one working drawing with sizes and joints."
+    ],
+    "guide": [
+     {
+      "h": "What the SEC says you must do",
+      "points": [
+       "The project is Coursework: Design and Realisation. You submit two items: an artefact and a design folio or report.",
+       "There is no set 2027 brief or theme in the SEC instructions. You choose your own project.",
+       "It must be possible to finish it in the supervised time available in school, using only the equipment and materials that the school has.",
+       "You must agree the project with your teacher. It must meet the requirements for coursework in the Construction Studies syllabus (we could not open that syllabus text, so check its list with your teacher)."
+      ]
+     },
+     {
+      "h": "Marks for this stage",
+      "points": [
+       "Criterion A, Planning of Project, is 40 marks. It covers coursework selection, exploration and management planning, plus investigation and research, plus design development.",
+       "The first bullet is about the choice: the marker looks at whether your choice is sensible and how well you managed the plan."
+      ]
+     },
+     {
+      "h": "Advice (ours, not from the SEC)",
+      "points": [
+       "Choose a piece that shows a spread of the joints and processes you have practised, and that fits the time. A smaller piece done well beats a bigger piece left half done, since artefact and finish carry 75 of the 150 marks.",
+       "Make a simple timeline of the weeks until 30 April 2027 and note it in your folio, because management planning is named in the marking criteria."
+      ]
+     },
+     {
+      "h": "What is marked",
+      "points": [
+       "Criterion A includes investigation and relevant research. The marker wants research that is relevant to your project, not general facts about woodwork.",
+       "Experimental or laboratory work is not required in 2027. If you already did it, you may include it as part of your investigation and research."
+      ]
+     },
+     {
+      "h": "Referencing, which the SEC checks",
+      "points": [
+       "You must reference and acknowledge all research sources: books, journals, government reports, online sources, other media, specialist people and organisations.",
+       "This includes any material produced by artificial intelligence software. Using a source without referencing it is plagiarism.",
+       "Copying or reproducing material from sources can also be treated as plagiarism, even if you reference it, so write findings in your own words."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Link each piece of research to a decision you make later, for example a timber choice or a joint, and say so in one sentence. That shows the research was relevant."
+      ]
+     },
+     {
+      "h": "What is marked",
+      "points": [
+       "Criterion A names design development through annotated sketches, with working drawing(s) and/or models.",
+       "Annotated means your sketches carry notes on what you changed and why.",
+       "Where you use computer aided manufacture (CAM), you must include the supporting CAD drawings in your folio to prove the work is yours."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Show at least two or three early ideas, then say which one you chose and why. Then draw one working drawing with sizes, joints and materials that you actually build from."
+      ]
+     },
+     {
+      "h": "Individual work",
+      "points": [
+       "Your work must be your own. Group projects are not accepted, and if your work is clearly similar to another candidate's, you get no marks for it."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Make the artefact",
+    "marks": 40,
+    "marksNote": "Manipulative Skills: 40 marks",
+    "checklist": [
+     "Mark out accurately and show a range of different joints and processes.",
+     "Make everything in school, never take the artefact home, and photograph each stage as you go."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "Criterion C, Manipulative Skills, is 40 marks for marking out of materials, processing and assembly of materials, and the range and depth of skills evident in the artefact.",
+       "Range and depth means a number of different joints or processes done to a good standard, not a single repeated skill."
+      ]
+     },
+     {
+      "h": "Where you make it",
+      "points": [
+       "The artefact must be made entirely in school under your teacher's supervision. It must never leave the school, or the project is invalid and gets no marks."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Mark out carefully on the timber before cutting: accurate marking out is named separately in the criteria and is the base for every cut after it.",
+       "Photograph each stage as you make it. You need the photos for the folio, and you cannot go back later."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Finish and complete",
+    "marks": 35,
+    "marksNote": "Completion of Project: 35 marks",
+    "checklist": [
+     "Finish the artefact well, with sanding, edge shaping and a final finish.",
+     "Check the artefact, drawings and folio match, so the work is coherent."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "Criterion D, Completion of Project, is 35 marks across three things: the artefact well finished, creativity and appropriateness of the coursework, and the overall quality, coherence and presentation of the coursework.",
+       "Coherence means the folio, the drawings and the artefact match each other."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Leave time at the end for sanding, edge shaping and the final finish. Check your artefact against your working drawing and write down any differences for your appraisal."
+      ]
+     },
+     {
+      "h": "Creativity and appropriateness",
+      "points": [
+       "Creativity and appropriateness is its own bullet in criterion D. Appropriate means the piece suits its purpose and the skills and materials available in school.",
+       "Be ready to say in the folio why your design fits the use you chose."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Write the design folio",
+    "marks": 35,
+    "marksNote": "Report: 35 marks",
+    "checklist": [
+     "Record the manufacturing sequence with photos or sketches, step by step.",
+     "Write a specific critical appraisal and conclusions from your experience, and present the folio neatly."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "Criterion B, Report, is 35 marks: the sequence of manufacture with photographic evidence and/or sketches, a critical appraisal and conclusions from your coursework experience, and the overall quality of communication and presentation of the folio.",
+       "The instructions say your folio should include a record, photographs and/or sketches, of the manufacturing sequence."
+      ]
+     },
+     {
+      "h": "Critical appraisal",
+      "points": [
+       "Critical means you say honestly what worked and what did not, and what you would change. Include conclusions that come from your own experience of doing the project."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Write each step of the sequence as: what you did, which tool or process, and one photo or sketch. Keep the appraisal specific, for example a joint that gapped and why."
+      ]
+     },
+     {
+      "h": "Presentation",
+      "points": [
+       "The last bullet in criterion B is the overall quality of communication and presentation of the design folio. Use headings, numbered pages and clear labels.",
+       "Your examination number goes on the folio. Keep photographs large enough that the marker can see the joint or stage."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Sign off and hand in",
+    "marks": null,
+    "marksNote": "No marks of its own; a breach can mean 0 for the component",
+    "checklist": [
+     "Put your examination number on the artefact and the folio.",
+     "Finish by Friday 30 April 2027 and make sure the teacher and principal can validate your work."
+    ],
+    "guide": [
+     {
+      "h": "Dates and ownership",
+      "points": [
+       "All coursework must be completed by Friday 30 April 2027.",
+       "Your examination number must be clearly shown on both the artefact and the design folio.",
+       "Repeat candidates must do new coursework. The same folio or artefact cannot be presented a second time."
+      ]
+     },
+     {
+      "h": "Validation",
+      "points": [
+       "Your Construction Studies teacher and the principal both have to sign that you followed the instructions. If they cannot validate your work you get no marks for the component.",
+       "You are responsible for following the instructions. If you do not, your teacher cannot sign it off."
+      ]
+     },
+     {
+      "h": "Checklist before hand in",
+      "points": [
+       "Examination number on artefact and folio. Sources referenced, including any AI material. CAD drawings in the folio if you used CAM. Manufacturing record included. Artefact still in school."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "Complete all coursework by Friday 30 April 2027",
+       "Individual work only, no group projects",
+       "The artefact must be made entirely in school under supervision and must never leave the school",
+       "Two items are handed in: an artefact and a design folio or report",
+       "Reference every source, including anything generated by AI; copying or reproducing material can be plagiarism",
+       "Experimental or laboratory work is not required in 2027",
+       "CAM work needs supporting CAD drawings in the folio",
+       "Clear similarity to another candidate's work means no marks",
+       "Teacher and principal sign to validate; if they cannot, you get no marks",
+       "Examination number on both the artefact and the folio"
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Choosing a project too big to finish in school time. Finish and completion carry 35 marks and range of skills 40.",
+       "Not taking photographs while making. The manufacturing sequence needs photographic evidence and/or sketches.",
+       "Leaving out references or AI sources. That counts as plagiarism under the SEC instructions.",
+       "Forgetting your examination number on the artefact or the folio.",
+       "Writing a folio that only says what went well. The criteria ask for a critical appraisal.",
+       "Taking the artefact home to finish it. This makes the whole coursework invalid."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC: Construction Studies 2027 coursework instructions and marking criteria (Form A), as hosted on exams.ie",
+    "url": "https://exams.ie/project-files/lc/construction-studies/2026-27-coursework-instructions-1.pdf"
+   },
+   {
+    "label": "SEC 2025 Construction Studies marking scheme (Higher theory and Practical Test), as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2025-ms-s66c3.pdf"
+   },
+   {
+    "label": "SEC 2024 Construction Studies marking scheme, as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2024-ms-zeb9t.pdf"
+   },
+   {
+    "label": "SEC 2025 Construction Studies question papers and Practical Test papers, as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2025-qp-s66c3.pdf"
+   },
+   {
+    "label": "NCCA Construction Technology guidelines for the Additional Assessment Components",
+    "url": "https://www.curriculumonline.ie/getmedia/237bfb25-4205-4c6f-9e4f-298530e1e603/Guidelines-to-support-the-Additional-Assessment-Components-in-Leaving-Certificate-Construction-Technology.pdf"
+   },
+   {
+    "label": "Examly: Is Leaving Cert Construction Studies hard? (third-party guide)",
+    "url": "https://examly.ie/blog/is-leaving-cert-construction-studies-hard"
+   },
+   {
+    "label": "exams.ie 2027 timetables page",
+    "url": "https://exams.ie/2027-timetables/"
+   }
+  ]
+ },
+ "construction-studies-practical": {
+  "subject": "construction-studies",
+  "subjectTitle": "Construction Studies",
+  "title": "Practical Test",
+  "short": "Practical test",
+  "weight": "25%",
+  "marks": 150,
+  "level": "Common Level",
+  "summary": "The Practical Test is a 4 hour hand-tool woodwork test, marked out of 150. It is 25% of your grade at Higher Level (30% at Ordinary). You make a small piece from a drawing and you are marked on marking out, each joint and the finished assembly.",
+  "brief": {
+   "task": "In 4 hours in school, make the set piece from the drawing using hand tools only. A battery screwdriver is allowed but machines are not.",
+   "facts": [
+    [
+     "Duration",
+     "4 hours, Common Level, one paper for Higher and Ordinary"
+    ],
+    [
+     "Marks",
+     "150: 2025 marking out 51, processing 85, assembly 14"
+    ],
+    [
+     "Recent pieces",
+     "2025 Desk Organiser; 2024 Awards Display"
+    ],
+    [
+     "Machines",
+     "Machine use on a procedure means half marks for it"
+    ],
+    [
+     "Due",
+     "Late April 2027, not yet published (2026 was 28 to 30 April)"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2025 Construction Studies marking scheme, Practical Test",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2025-ms-s66c3.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Prepare and practise",
+    "marks": null,
+    "marksNote": "Fifth and sixth year",
+    "checklist": [
+     "Practise every joint seen in 2024 and 2025 and time yourself on each.",
+     "Learn that sawing and paring are marked cut by cut, so work to the line."
+    ],
+    "guide": [
+     {
+      "h": "Format",
+      "points": [
+       "The 2025 paper is headed Practical Test, Common Level, 150 marks, Duration 4:00 hours. The artefact and the paper go into an envelope that you hand to the Superintendent.",
+       "There are three papers, Day 1, Day 2 and Day 3, with the same piece. Your school tells you which day you sit.",
+       "You are given an engineering style drawing with plan, elevation and end view. In 2025 it showed a dovetail slope of 1:6, and it says that some hidden detail is omitted for clarity.",
+       "Shaping of the edges is left for the candidate to complete (2025 note on the paper)."
+      ]
+     },
+     {
+      "h": "The no-machinery rule",
+      "points": [
+       "The SEC marking scheme says the artefact must be hand produced without the assistance of machinery. A battery powered screwdriver is allowed.",
+       "Where there is evidence of machinery for a procedure, that component is marked out of 50% of the marks available for it. So a machine cut costs half of that procedure's marks."
+      ]
+     },
+     {
+      "h": "How the 150 marks split (2025 and 2024)",
+      "points": [
+       "2025 Desk Organiser: overall assembly 14, marking out 51, processing the joints 85. 2024 Awards Display: assembly 14, marking out 48, processing 88.",
+       "The SEC says the details can change year to year, so use this as a guide."
+      ]
+     },
+     {
+      "h": "Joints seen in the last two papers",
+      "points": [
+       "2025: barefaced mortice and tenon, notched housing, halving, dovetail, housing (base), mortice and tenon, box dovetail, plus slopes, curves, chamfer and drilling.",
+       "2024: bridle, double mortice and tenon, dovetail, cross halving and housing joint, plus shaping and drilling.",
+       "Every year the same skills come back in a new combination. Be fluent at all the joints above, not just the 2025 ones."
+      ]
+     },
+     {
+      "h": "What the scheme rewards in processing",
+      "points": [
+       "Sawing across the grain is marked per cut, often 1 mark each. Paring a trench to depth is marked per trench, often 2 marks each.",
+       "Dovetail tails and box dovetail pins are marked with separate sawing and paring marks. Box dovetail tails were 2 x 4 marks in 2025.",
+       "Drilling holes accurately was 3 x 2 marks in 2025."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Time yourself on each joint in class so you know how long it takes. In 4 hours you need to mark out, cut ten or more procedures and assemble, so a joint that takes you 50 minutes will cost you the test."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Marking out",
+    "marks": 51,
+    "marksNote": "51 marks in 2025 (48 in 2024)",
+    "checklist": [
+     "Read the whole drawing and make a cutting list before you cut.",
+     "Mark out every joint carefully with gauge, square and knife and check sizes."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "In 2025 marking out was split by joint: barefaced mortice and tenon 6, notched housing 6, halving 4, dovetail 6, housing base 2, mortice and tenon 6, box dovetail 12, slopes curves and chamfer 9 (total 51).",
+       "Each joint is marked separately, for example mortice 3 and tenon 3. Box dovetail was tails 2 x 3 and pins 2 x 3."
+      ]
+     },
+     {
+      "h": "Why it matters",
+      "points": [
+       "These marks are given before you cut. They are for lines correctly placed, so careful use of the marking gauge, square and knife pays off twice.",
+       "Marking out is 1 in 3 marks of the whole test, so time spent on it is well spent."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Read the whole drawing first and make a cutting list. Mark out the pieces in one go so you can check your sizes against the drawing before you cut anything."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Processing the joints",
+    "marks": 85,
+    "marksNote": "85 marks in 2025 (88 in 2024)",
+    "checklist": [
+     "Do the highest-mark joints first and cut on the waste side of the line.",
+     "Pare every trench to depth and drill holes accurately."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "2025: mortice and tenon (barefaced) 9, notched housing 12, halving 8, dovetail 12, housing base 4, mortice and tenon 7, box dovetail 16, shaping and drilling 17 (total 85).",
+       "Sawing and paring are marked as separate small marks per cut. For a halving joint in 2025: 4 saw cuts across the grain at 1 mark and 2 trenches pared to depth at 2 marks (8 total).",
+       "Shaping and drilling in 2025: short slope 1, long slopes 2 x 2, curves 2 x 2, drilling holes 3 x 2 and a chamfer 2."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Do the joints with the most marks first, such as the box dovetail (16 in 2025). Saw on the waste side of the line and pare to the line. A cut finished on the line earns more than a cut you have to fix."
+      ]
+     },
+     {
+      "h": "What a joint is judged on",
+      "points": [
+       "Each joint breaks into small tasks: the mortice 3 marks and the tenon 3 to 6 marks in 2025, tails 4 marks each for the box dovetail.",
+       "Every procedure is scored separately, so even if one joint goes wrong you still collect the marks for the rest."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Assembly and finish",
+    "marks": 14,
+    "marksNote": "14 marks in 2025 and 2024",
+    "checklist": [
+     "Dry fit before gluing and keep the last 20 to 30 minutes for assembly and edge shaping."
+    ],
+    "guide": [
+     {
+      "h": "What is marked",
+      "points": [
+       "Overall assembly was 14 marks in 2025: 10 for the overall quality of the assembled artefact and 4 for the design and applied shaping to the edges (2 x 1 for design and 2 x 1 for shaping).",
+       "The scheme also lists Overall Completion of Piece under the grand total of 150."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Dry fit every joint before gluing. Keep the last 20 to 30 minutes for gluing, clamping, checking square and edge shaping."
+      ]
+     },
+     {
+      "h": "Shaping",
+      "points": [
+       "In 2025 the shaping of the edges was left to the candidate, and slopes, curves and chamfers were marked both at marking out (9 marks) and at processing (short slope 1, long slopes 4, curves 4, chamfer 2).",
+       "Work the shaping out on the drawing early and do it before assembly where the shape allows."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "On the day",
+    "marks": null,
+    "marksNote": "Hand tools only",
+    "checklist": [
+     "Use hand tools only, write your examination number on the paper and hand the paper and artefact to the Superintendent."
+    ],
+    "guide": [
+     {
+      "h": "Before and during",
+      "points": [
+       "Write your examination number in the box on the paper.",
+       "Check you have all the tools your school lists, and sharpen your saw, chisels and plane the day before.",
+       "Use hand tools only. A battery screwdriver is the one power tool allowed."
+      ]
+     },
+     {
+      "h": "Hand in",
+      "points": [
+       "At the end, put the examination paper and the artefact into the candidate envelope and hand it to the Superintendent. Do not leave it on the bench."
+      ]
+     },
+     {
+      "h": "Advice (ours)",
+      "points": [
+       "Spend the first 10 minutes reading the drawing and writing a work order. Check the clock at the end of each joint."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "4 hours, in school, Common Level paper for Higher and Ordinary candidates",
+       "The artefact must be hand produced without machinery; a battery powered screwdriver is allowed",
+       "Evidence of machinery on a procedure means that procedure is marked out of 50% of its marks",
+       "Write your examination number on the paper",
+       "Hand the paper and artefact to the Superintendent in the envelope at the end"
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Using a power tool on a joint. That procedure drops to half marks.",
+       "Rushing the marking out. It is about a third of all marks and every later cut depends on it.",
+       "Spending too long on one joint and not finishing the piece.",
+       "Cutting to the wrong side of the line, then forcing the joint.",
+       "Forgetting that shaping the edges is left to you, as the 2025 paper says."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC: Construction Studies 2027 coursework instructions and marking criteria (Form A), as hosted on exams.ie",
+    "url": "https://exams.ie/project-files/lc/construction-studies/2026-27-coursework-instructions-1.pdf"
+   },
+   {
+    "label": "SEC 2025 Construction Studies marking scheme (Higher theory and Practical Test), as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2025-ms-s66c3.pdf"
+   },
+   {
+    "label": "SEC 2024 Construction Studies marking scheme, as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2024-ms-zeb9t.pdf"
+   },
+   {
+    "label": "SEC 2025 Construction Studies question papers and Practical Test papers, as hosted on SimpleStudy",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-construction%20studies-2025-qp-s66c3.pdf"
+   },
+   {
+    "label": "NCCA Construction Technology guidelines for the Additional Assessment Components",
+    "url": "https://www.curriculumonline.ie/getmedia/237bfb25-4205-4c6f-9e4f-298530e1e603/Guidelines-to-support-the-Additional-Assessment-Components-in-Leaving-Certificate-Construction-Technology.pdf"
+   },
+   {
+    "label": "Examly: Is Leaving Cert Construction Studies hard? (third-party guide)",
+    "url": "https://examly.ie/blog/is-leaving-cert-construction-studies-hard"
+   },
+   {
+    "label": "exams.ie 2027 timetables page",
+    "url": "https://exams.ie/2027-timetables/"
+   }
+  ]
+ },
+ "art": {
+  "subject": "art",
+  "subjectTitle": "Art",
+  "title": "Practical Coursework",
+  "short": "Coursework",
+  "weight": "50%",
+  "marks": 250,
+  "level": "Higher and Ordinary (common brief)",
+  "summary": "Practical Coursework is 50% of Art, marked out of 250. You choose one theme from the SEC brief, research from primary sources in your Visual Journal, and make Artefact A in class over about 12 weeks. The journal development for Artefact B also counts here, and the realised Artefact B is the practical exam.",
+  "brief": {
+   "task": "Choose one theme from the SEC brief. In the SEC Visual Journal, research from primary sources, draw, and develop ideas for two artefacts in two distinctly different areas of practice. Realise Artefact A in class over about 12 school weeks.",
+   "facts": [
+    [
+     "Weight",
+     "250 marks, 50% of Art. Artefact A is 175 marks and the journal work for Artefact B is 75"
+    ],
+    [
+     "Work",
+     "SEC Visual Journal (development for A and B) and Artefact A; 2D A5 to A2, 3D up to 1 metre, film 1 to 3 minutes"
+    ],
+    [
+     "Marks",
+     "Investigation 5, primary sources 30, development 40, realised artefact 90, two areas of practice 10, per artefact"
+    ],
+    [
+     "Due",
+     "2027 dates not yet published. Brief usually January, 12 school weeks; 2026 brief issued 28 Nov 2025, finished Friday 17 April 2026"
+    ],
+    [
+     "Rules",
+     "All work done in school and never taken home; every source referenced, AI included"
+    ]
+   ],
+   "source": {
+    "label": "SEC Leaving Certificate 2026 Art Brief (examinations.ie)",
+    "url": "https://exams.ie/project-files/lc/art/2025-26-practical-brief.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Brief and theme",
+    "marks": null,
+    "marksNote": "Not marked directly",
+    "checklist": [
+     "Pick the theme that gives you real objects and places you can draw first-hand.",
+     "Plan two artefacts in two distinctly different areas of practice, with B small enough for 5 hours."
+    ],
+    "guide": [
+     {
+      "h": "How the project works",
+      "points": [
+       "It is one project in two parts. Practical Coursework covers the Visual Journal, Artefact A and the development work for Artefact B. The practical exam is where you make Artefact B.",
+       "You choose one theme from the list in the SEC brief. The 2026 themes were 'Vision and view', 'Five' and 'Halcyon Days'. The 2027 themes are not yet published.",
+       "The brief says to choose the theme that best lets you find primary sources with potential for visual exploration. Pick on what you can see and draw, not on the title that sounds best.",
+       "Both artefacts must be realised through two distinctly different areas of practice (for example painting and ceramics, or printmaking and lens-based media), each with different materials and techniques."
+      ]
+     },
+     {
+      "h": "Plan around the two artefacts",
+      "points": [
+       "Artefact B has to be fully finished in 5 hours. Plan Artefact A as the slower, larger piece and Artefact B as something you can make in one day from scratch.",
+       "Size limits: 2D work at least A5 and no bigger than A2; 3D work no more than 1 metre in its largest dimension; film or animation between 1 and 3 minutes.",
+       "Work must not be perishable. It has to be dry and ready for storage when you hand it in, so no wet clay or food.",
+       "Talk to your teacher early about materials and equipment. Everything has to be done in school."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Exploration page",
+    "marks": 10,
+    "marksNote": "5 marks per artefact",
+    "checklist": [
+     "Show several different ways into your theme, with drawings and your own reasons.",
+     "Work directly in the journal with no extra pages or inserts."
+    ],
+    "guide": [
+     {
+      "h": "What the page is for",
+      "points": [
+       "It is the first page of your Visual Journal. It shows the theme you chose, your first ideas and the direction your work might take.",
+       "You begin to explore, study, draw and record from primary sources here.",
+       "Marks go for 'a sustained, meaningful, creative and varied investigation of the theme' (5 marks each for A and B). The scheme has three bands: 0 to 1, 2 to 3, 4 to 5."
+      ]
+     },
+     {
+      "h": "How to earn the top band",
+      "points": [
+       "Show more than one way into the theme: more than one idea, more than one drawing approach, different media.",
+       "Draw and write straight onto the page. Include your own words on why this theme and these ideas matter to you.",
+       "Work directly in the journal. You may not add extra pages or inserts."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Primary sources and drawing",
+    "marks": 60,
+    "marksNote": "30 marks per artefact",
+    "checklist": [
+     "Draw from real objects and places, and from imagination, memory or feeling, in a range of media.",
+     "Analyse each source with tone, line, colour and close-up studies."
+    ],
+    "guide": [
+     {
+      "h": "What counts as a primary source",
+      "points": [
+       "A primary source is something you see in its original state, not filtered through someone else's view: an object, a place, a person, a still life, or a memory or feeling.",
+       "Working from a photograph, even one you took yourself, is valid but is a 2D image of a source. The scheme says examiners look at the quality of learning shown, and it is a different thing from drawing the real object.",
+       "Secondary sources (books, websites, other artists' images) should only influence or inspire your work."
+      ]
+     },
+     {
+      "h": "What the marks reward",
+      "points": [
+       "Criterion B, 10 marks each: choice of appropriate primary sources that suit your theme, and a good range of them. Bands 0 to 4, 5 to 7, 8 to 10.",
+       "Criterion C, 20 marks each: analysis of the primary sources, with drawing using a range of visual means, media and techniques. Bands 0 to 8, 9 to 15, 16 to 20.",
+       "Drawing is core to the specification. The brief says to show observational and analytical drawing, and drawing used to develop ideas, in a range of media.",
+       "Vary the drawing: line, tone, colour studies, close-ups, diagrams, measured studies. Visit a gallery, museum or studio if you can and draw there."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Development and Visual Studies",
+    "marks": 80,
+    "marksNote": "40 marks per artefact",
+    "checklist": [
+     "Show progression: tested ideas, noted failures and annotated decisions on Development Sheets 1 and 2.",
+     "Name the artists whose work changed yours and say what you took from them."
+    ],
+    "guide": [
+     {
+      "h": "Development Sheet 1 and 2",
+      "points": [
+       "Sheet 1: explore, consider and reconsider the ideas from your Exploration page in new ways. Review the work regularly, note what succeeded and failed and record your significant decisions.",
+       "Sheet 2: show how your ideas progress using your chosen materials, media and techniques. Test and refine them so you can decide what to make and how.",
+       "Do a pair of sheets for each artefact. The sheets for Artefact B are marked in this component (75 of your 250 marks come from B's investigation, sources and development)."
+      ]
+     },
+     {
+      "h": "What the marks reward",
+      "points": [
+       "Criterion D, 30 marks each: developing concepts imaginatively, an annotated visual record of your enquiry that shows progression, and a personal visual language that links the theme to your intentions and the realised artefact. Bands 0 to 12, 13 to 23, 24 to 30.",
+       "Criterion E, 10 marks each: research from Visual Studies, understanding of the conventions of your area of practice, and how much that research influenced you. Bands 0 to 4, 5 to 7, 8 to 10.",
+       "There is no special page for Visual Studies. Refer to artists and artworks wherever they changed your work, naming the artist, the work and what you took from it (a technique, a use of colour, an idea).",
+       "Annotate in short, clear phrases that explain decisions: 'tried charcoal because it gave a softer edge than pencil'."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Realise Artefact A",
+    "marks": 100,
+    "marksNote": "90 for the artefact, 10 for two areas of practice",
+    "checklist": [
+     "Make an artefact that clearly follows your journal and uses elements, principles and your chosen media with control.",
+     "Finish it dry, labelled and ready to store before the finishing date."
+    ],
+    "guide": [
+     {
+      "h": "Making Artefact A",
+      "points": [
+       "You make Artefact A over the coursework period in school, under your teacher's supervision. Everything must be your own work and your teacher has to be able to authenticate it.",
+       "It must correspond with the Artefact A pages in your journal. The artefact should clearly come out of the development work.",
+       "Dates matter: you must hand it in on or before the finishing date (2026: Friday 17 April) and may not touch it after that."
+      ]
+     },
+     {
+      "h": "What the marks reward",
+      "points": [
+       "F, 30 marks: a personal, meaningful artefact that realises your intentions and communicates the ideas from your journal. Bands 0 to 12, 13 to 23, 24 to 30.",
+       "G, 20 marks: knowledge and understanding of art elements and design principles. Bands 0 to 8, 9 to 15, 16 to 20.",
+       "H, 30 marks: knowledge and understanding of your chosen media, materials and techniques. Bands 0 to 12, 13 to 23, 24 to 30.",
+       "I, 10 marks: overall impact of the finished artefact. J, 10 marks: two artefacts made through two distinctly different areas of practice with different materials and techniques.",
+       "If your artefact is digital, name the software in your journal, work only on school-owned equipment, and print it (unless it is a video, which goes on a flash drive or CD as an MP4)."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Statements and hand-in",
+    "marks": null,
+    "marksNote": "Pages unmarked in 2026; confirm for 2027",
+    "checklist": [
+     "Write the Final Proposals and Artist's Statements, and reference every source.",
+     "Leave the journal and artefacts in school and follow the sealing and labelling rules."
+    ],
+    "guide": [
+     {
+      "h": "Final Proposal and Artist's Statement",
+      "points": [
+       "In a normal year each artefact has a Final Proposal (what you will make, dimensions, materials, techniques) and an Artist's Statement (what you created, how, and why).",
+       "For 2026 these four pages earned no marks. Check the 2027 brief to see if the same applies, but write them anyway: they help you to plan and to explain your choices.",
+       "Reference and acknowledge all sources, including anything created with AI. Unreferenced material counts as plagiarism."
+      ]
+     },
+     {
+      "h": "Hand-in rules",
+      "points": [
+       "Your Visual Journal and artefacts must never leave the school. Removing them can make the work invalid and no marks are awarded.",
+       "Write your roll number, candidate number, level and theme on the journal cover. Use the SEC labels with your exam number on each artefact.",
+       "Journal and 2D work go in the tamper-evident envelope. 3D work sits on top of the envelope. 2D work is not framed and 3D work is not wrapped or boxed."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "Practical Coursework is 50% of Art (250 marks) and the Invigilated Practical Examination is 20% (100 marks). They are marked together as one project on one set of criteria.",
+       "The brief is common to Higher and Ordinary Level. A higher standard is expected at Higher Level. Work is marked on a reference scale then converted: for Ordinary Level, a reference mark of 150 or more is 250 for coursework, 75 to 149 gets 100 added, and 1 to 74 is doubled plus 25.",
+       "The 250 marks are Artefact A in full (175) plus Artefact B's investigation, primary sources and development (75). Artefact B's realised work (100) is the practical exam.",
+       "The Visual Journal and artefacts must be your own individual work, done in school under supervision, and authenticated by you, your teacher and the school.",
+       "You must work directly in the journal and may not add pages or inserts.",
+       "You may make preliminary studies of primary sources outside school, and include them if your teacher can authenticate them as yours.",
+       "2D artefacts: at least A5 and at most A2. 3D: no more than 1 metre. Film or animation: 1 to 3 minutes. Work must not be perishable.",
+       "Digital work must be on school equipment, the software named in the journal, and printed (or saved as MP4 for moving images).",
+       "All sources must be referenced and acknowledged, including AI-generated material."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Working from internet images or your own photographs only. Examiners look for first-hand drawing from real objects and places.",
+       "Making two artefacts in the same area of practice (for example two drawings). That costs the 10 marks for criterion J on each artefact and weakens variety.",
+       "A journal that shows a final idea with no steps in between. Criterion D (30 marks each) is about progression, so keep the failures and changes.",
+       "Leaving Visual Studies out. Criterion E is 20 marks across both artefacts, and the scheme asks how the research influenced you.",
+       "Planning Artefact B too big for 5 hours, or one that needs drying time.",
+       "Taking the journal or artefact home. The brief says the work is then invalid and no marks are awarded.",
+       "Adding extra pages or inserts to the journal, or using a personal laptop for digital work.",
+       "Using the 2026 themes for 2027. Check the new brief before you start."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC - Leaving Certificate Examination 2026 Art: Brief for Practical Coursework and Invigilated Practical Examination (examinations.ie, hosted copy)",
+    "url": "https://exams.ie/project-files/lc/art/2025-26-practical-brief.pdf"
+   },
+   {
+    "label": "SEC - Leaving Certificate 2025 Art Higher Level marking scheme (copy hosted on simplestudy.io)",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-art-2025-ms-u7jso.pdf"
+   },
+   {
+    "label": "NCCA - Leaving Certificate Art Specification",
+    "url": "https://www.curriculumonline.ie/getmedia/d809df63-51e4-43dc-b091-3c5f18a8312d/Leaving-Certificate-Art-Specification_EN.pdf"
+   },
+   {
+    "label": "Oide - Leaving Certificate 2026 Art brief announcement",
+    "url": "https://oide.ie/post-primary-news/important-announcements-leaving-certificate-examination-2026-art-brief-for-practical-coursework-and-invigilated-practical-examination/"
+   },
+   {
+    "label": "SEC - Leaving Certificate Schedule of Examination Dates 2026 (copy on scoilpol.ie)",
+    "url": "https://scoilpol.ie/Downloads/Examinations/LeavingCertificationVocationalPogrammeSchedule_of_ExaminationDates2026.pdf"
+   }
+  ]
+ },
+ "art-practical": {
+  "subject": "art",
+  "subjectTitle": "Art",
+  "title": "Invigilated Practical Examination",
+  "short": "Practical exam",
+  "weight": "20%",
+  "marks": 100,
+  "level": "Higher and Ordinary (common brief)",
+  "summary": "The Invigilated Practical Examination is 20% of Art, marked out of 100. You make Artefact B from scratch in 5 hours, in two 2.5 hour periods, using your Visual Journal. It is marked on the same criteria and common brief as the coursework.",
+  "brief": {
+   "task": "Make Artefact B from scratch in a 5-hour invigilated exam, in two periods of 2.5 hours, based on the development work in your Visual Journal. It must be finished, dry and ready for storage at the end.",
+   "facts": [
+    [
+     "Weight",
+     "100 marks, 20% of Art, on the realised Artefact B"
+    ],
+    [
+     "Length",
+     "5 hours on one day: two 2.5 hour periods with a break"
+    ],
+    [
+     "Marks",
+     "Personal artefact 30, elements and principles 20, media and techniques 30, impact 10, different area of practice 10"
+    ],
+    [
+     "Due",
+     "2027 window not yet published. 2026 was Tuesday 21 to Thursday 23 April after coursework ended"
+    ],
+    [
+     "Rules",
+     "Blank start, no prepared materials, no internet; Visual Journal allowed; still-life objects only"
+    ]
+   ],
+   "source": {
+    "label": "SEC Leaving Certificate 2026 Art Brief (examinations.ie)",
+    "url": "https://exams.ie/project-files/lc/art/2025-26-practical-brief.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Plan and prepare",
+    "marks": null,
+    "marksNote": "Not marked here",
+    "checklist": [
+     "Choose a medium and size you can finish in 5 hours, different from Artefact A, and test the techniques in your journal.",
+     "Agree materials with your teacher, and pack only a journal and permitted objects."
+    ],
+    "guide": [
+     {
+      "h": "Before the exam",
+      "points": [
+       "Artefact B must be a piece you can fully finish in 5 hours. Choose a medium and size suited to that, and different from Artefact A (two distinctly different areas of practice).",
+       "Use your Artefact B pages in the journal (Exploration, Development Sheets 1 and 2) to settle your idea, composition, colours, materials and steps. Those pages are marked in the coursework component.",
+       "Test the techniques you will use in your development sheets, so there are no surprises on the day.",
+       "Write a time plan for the two sessions. Know what must be done by the end of the first 2.5 hours."
+      ]
+     },
+     {
+      "h": "What the brief says",
+      "points": [
+       "You make Artefact B from scratch. You may not use any prepared materials: paper must be blank, and you cannot make any part in advance. You cannot bring in raw footage or imagery to edit.",
+       "Materials and equipment come from your school. Agree the list with your teacher so everything is there on the day.",
+       "You get your Visual Journal back for reference and you may work into it if needed to realise Artefact B.",
+       "If your artefact needs a still life, you may bring in inanimate primary sources of a reasonable size. No other visual aids are allowed.",
+       "No internet access."
+      ]
+     },
+     {
+      "h": "Finish line",
+      "points": [
+       "Artefact B must be completely finished, dry and ready for secure storage at the end of the 5 hours. There is no drying time afterwards, so wet clay wrapped in plastic is not admissible.",
+       "2D work must not be framed, and 3D work must not be wrapped or boxed.",
+       "At the end you receive a tamper-evident envelope for the journal, Artefact A and any 2D Artefact B or MP4. 3D work goes on top. Put your label on each artefact."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "First 2.5 hours",
+    "marks": 50,
+    "marksNote": "Criteria F and G, 50 marks",
+    "checklist": [
+     "Block in the whole piece before the break, following your journal plan.",
+     "Set your focal point, contrast, balance and colour choices early."
+    ],
+    "guide": [
+     {
+      "h": "Use the first session to commit",
+      "points": [
+       "Start with your journal page open. Set up your composition or structure quickly: major shapes, proportions, layout.",
+       "Get the whole piece blocked in or constructed by the break, so you are refining, not starting, in the second session.",
+       "Criterion F (30 marks): a personal and meaningful artefact that realises your intentions and communicates the ideas in the journal. Bands 0 to 12, 13 to 23, 24 to 30.",
+       "Criterion G (20 marks): your understanding of art elements and design principles. Decide on your focal point, contrast, balance and use of colour now. Bands 0 to 8, 9 to 15, 16 to 20.",
+       "Use the break to look at the piece from a distance and write down the three things that most need to change in the second session."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Second 2.5 hours",
+    "marks": 50,
+    "marksNote": "Criteria H, I and J, 50 marks",
+    "checklist": [
+     "Refine with control of the media you tested, then step back and judge the overall impact.",
+     "Finish dry, labelled and ready to store in the last 15 minutes."
+    ],
+    "guide": [
+     {
+      "h": "Finish with control",
+      "points": [
+       "Criterion H (30 marks): your knowledge of media, materials and techniques. Show control of the materials you tested in your journal. Bands 0 to 12, 13 to 23, 24 to 30.",
+       "Criterion I (10 marks): overall impact. Step back and check the artwork as a whole. Bands 0 to 4, 5 to 7, 8 to 10.",
+       "Criterion J (10 marks): Artefact B should be in a different area of practice from Artefact A, using different materials and techniques.",
+       "Leave the last 15 minutes for finishing details, labelling and checking it is dry and ready to store.",
+       "Stop on time. Unfinished work loses marks under F and H, since the artefact has to realise your intentions."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Know the marking",
+    "marks": null,
+    "marksNote": "Bands and conversion",
+    "checklist": [
+     "Check your plan against F to J: intention, elements, technique, impact, a different area of practice.",
+     "Make sure the artefact visibly follows your Artefact B development sheets."
+    ],
+    "guide": [
+     {
+      "h": "Marking",
+      "points": [
+       "The 100 marks are Artefact B's realised work: F 30, G 20, H 30, I 10 and J 10. The examiner views the journal and both artefacts as a whole project.",
+       "Reference marks: Higher Level grades are H1 at 90 to 100, H2 80 to 89, H3 70 to 79, H4 60 to 69, H5 50 to 59, H6 40 to 49, H7 30 to 39 (2025 scheme).",
+       "Ordinary Level: a reference mark of 60 or more is 100 marks, 30 to 59 gets 40 added, and 1 to 29 is doubled plus 10.",
+       "The scheme asks for 'perseverance, creativity and imagination, focus and relevance', strong drawing, good use of primary sources, art elements and design principles, and understanding of media.",
+       "The examiner looks at the journal first, then Artefact B, so make sure your artefact visibly grows out of your Artefact B development sheets."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "5 hours on a single day, in two periods of 2.5 hours with a break (2026 brief).",
+       "Artefact B is made from scratch. No prepared materials and no raw footage or imagery.",
+       "Your Visual Journal is available for reference and you can work into it if needed.",
+       "Only inanimate primary sources of reasonable size may be brought in, such as a still life. No other visual aids and no internet.",
+       "Artefact B must be dry and ready for storage at the end. No drying time is given.",
+       "The work must be Artefact B's pages in the journal and the artefact must match them.",
+       "The practical exam is 100 of the 350 practical marks (20% of the Art grade)."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Choosing a medium that cannot dry, set or finish in 5 hours.",
+       "Making Artefact B in the same area of practice as Artefact A.",
+       "Bringing in pre-made materials, printed images for editing, or a pre-primed canvas. The paper must start blank.",
+       "Leaving the final hour for the biggest part of the work. Block in the whole piece before the break.",
+       "Ignoring your journal plan on the day. Examiners view it as one project.",
+       "Not labelling the artefact with your examination number."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC - Leaving Certificate Examination 2026 Art: Brief for Practical Coursework and Invigilated Practical Examination (examinations.ie, hosted copy)",
+    "url": "https://exams.ie/project-files/lc/art/2025-26-practical-brief.pdf"
+   },
+   {
+    "label": "SEC - Leaving Certificate 2025 Art Higher Level marking scheme (copy hosted on simplestudy.io)",
+    "url": "https://cdn.simplestudy.io/assets/backend/uploads/exam_papers/lc-art-2025-ms-u7jso.pdf"
+   },
+   {
+    "label": "NCCA - Leaving Certificate Art Specification",
+    "url": "https://www.curriculumonline.ie/getmedia/d809df63-51e4-43dc-b091-3c5f18a8312d/Leaving-Certificate-Art-Specification_EN.pdf"
+   },
+   {
+    "label": "Oide - Leaving Certificate 2026 Art brief announcement",
+    "url": "https://oide.ie/post-primary-news/important-announcements-leaving-certificate-examination-2026-art-brief-for-practical-coursework-and-invigilated-practical-examination/"
+   },
+   {
+    "label": "SEC - Leaving Certificate Schedule of Examination Dates 2026 (copy on scoilpol.ie)",
+    "url": "https://scoilpol.ie/Downloads/Examinations/LeavingCertificationVocationalPogrammeSchedule_of_ExaminationDates2026.pdf"
+   }
+  ]
+ },
+ "physics": {
+  "subject": "physics",
+  "subjectTitle": "Physics",
+  "title": "Physics in Practice Investigation",
+  "short": null,
+  "weight": "40%",
+  "marks": 200,
+  "level": "Both levels",
+  "summary": "A supervised piece of coursework worth 200 marks, 40% of Leaving Cert Physics. For 2027 you investigate domestic sustainability: energy sources, energy use or energy losses in the home. You write a PDF report of at most 1500 words and 20 images, due to your teacher on Friday 11 December 2026.",
+  "brief": {
+   "task": "Investigate one or more aspects of domestic sustainability, energy sources, energy usage and/or energy losses, and report on it.",
+   "facts": [
+    [
+     "Topic",
+     "Reducing domestic energy losses while keeping a comfortable indoor environment"
+    ],
+    [
+     "Stimulus",
+     "SEAI diagram of home energy sources and uses (heating, hot water, cooking, lighting, appliances)"
+    ],
+    [
+     "You submit",
+     "A PDF report: 1,500 words and 20 images at most, seven SEC headings"
+    ],
+    [
+     "Due",
+     "Friday 11 December 2026, to your teacher"
+    ]
+   ],
+   "source": {
+    "label": "SEC 2027 Investigation Brief",
+    "url": "https://exams.ie/project-files/lc/physics/2026-27-project-brief.pdf"
+   }
+  },
+  "stages": [
+   {
+    "name": "Criterion A – Introduction and research",
+    "marks": 50,
+    "marksNote": "Headings 1 to 2",
+    "checklist": [
+     "Pick one aspect of home energy (a source, a use or a loss) that you can test in one lab session, and write it as a single research question.",
+     "Explain the physics in your own words and say how reliable each main source is.",
+     "Write a testable hypothesis with a physics reason."
+    ],
+    "guide": [
+     {
+      "h": "What the 2027 brief says",
+      "points": [
+       "The topic, word for word from the SEC brief: 'Sustainable practices in a domestic setting have led to ways of reducing domestic energy losses, allowing for a comfortable indoor environment with less energy input.'",
+       "The instruction: 'Investigate one or more aspects of domestic sustainability, energy sources, energy usage and/or energy losses.' You choose the aspect.",
+       "The stimulus is a SEAI diagram of energy sources into a home (electricity, gas, solid fuels, oil, renewables) and energy uses (space heating, water heating, cooking, lighting and appliances, other end uses). Use it to find your area.",
+       "You follow six stages set by the SEC: initial response, background research, designing and planning, conducting the experiment, data analysis and conclusions, finalising the report.",
+       "The brief is open. The NCCA calls it 'open-ended presenting an opportunity for creative interpretation', so an original idea is welcome, and so is adapting an experiment you did in class."
+      ]
+     },
+     {
+      "h": "Choosing your aspect (the NCCA suggests 1 to 2 hours)",
+      "points": [
+       "Ask the NCCA's questions: What do I already know? What do I need to find out? What experiments in physics connect to this? What am I interested in? Could I extend an experiment I have already done?",
+       "Link it to Physics you know. Examples from the specification and the sample papers: heat transfer (conduction, convection, radiation), specific heat capacity, U-value (Higher Sample Paper 1 Q3 is about doors, U-value and solar panels), power and efficiency, solar irradiance.",
+       "Example ideas, my own suggestions and not SEC examples: compare how fast a hot container of water cools when wrapped in different insulation materials; test how the thickness of insulation changes the heat lost; compare a single and a double layer; measure the standby power of appliances; test how the angle of a small solar panel changes its output. Pick one you can run in one school lab session.",
+       "Check feasibility and safety with your teacher before you commit. The NCCA says discussing limits and how to overcome them is part of this stage.",
+       "Your work must be your own. If a classmate picks a similar topic, your investigation cannot be the same."
+      ]
+     },
+     {
+      "h": "Start your investigative log today",
+      "points": [
+       "The SEC strongly encourages it. It records your ideas, how your thinking changes, sources with dates, calculations, photos and decisions. Digital or paper, your choice.",
+       "You do not submit the log to the SEC. The NCCA advises sharing it with your teacher regularly because it helps them authenticate your work.",
+       "Write down why you made each decision as you make it. You will use these notes for the report."
+      ]
+     },
+     {
+      "h": "What to research (NCCA: about 2 to 3 hours)",
+      "points": [
+       "Research the physics behind your topic, for example how heat moves, what U-value measures, why insulation works, how a heat pump or a solar panel converts energy.",
+       "The NCCA wants research that is 'more far reaching' than the experiment: wider scientific areas, social and scientific implications, and media arguments linked to the topic.",
+       "Useful starting points from the brief itself: the SEAI residential energy statistics page cited in the SEC brief (seai.ie/data-and-insights/seai-statistics/residential).",
+       "From this research you write a research question on one specific issue. It should be narrow enough to test in one experiment.",
+       "Weigh evidence from different viewpoints. The top band describes a 'large number of varied, balanced and referenced sources', not a list of websites."
+      ]
+     },
+     {
+      "h": "Evaluating secondary data and sources",
+      "points": [
+       "The top band says you 'evaluate the reliability of any secondary sources used'. In a sentence or two for each important source say who produced it, how current it is, and whether the numbers are measured or estimated.",
+       "Compare a published value (for example a U-value or specific heat capacity from a data table) with what you later measure. That is secondary data used well.",
+       "Write ideas in your own words. Copying without a reference is plagiarism, which the SEC treats as cheating."
+      ]
+     },
+     {
+      "h": "Referencing (applies to the whole report)",
+      "points": [
+       "Reference inside the text and in a reference list. The list does not count towards the 1500 words.",
+       "No fixed style is required. Each reference needs enough detail to check it: author, title, year and page for print; link and date accessed for online sources; time stamps for video or audio.",
+       "Any AI-generated material must be acknowledged: tool name, the date, and how you used it. Add the shareable chat link if the tool gives one, or the tool name and the prompt if not (NCCA guidelines, Appendix 1).",
+       "The SEC brief sends you to Appendices 1 and 2 of the SEC Coursework Rules and Procedures for its referencing and AI rules. Read them yourself.",
+       "Keep references in your log as you go. Chasing sources the night before the deadline costs marks."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Criterion B – Design and experiment",
+    "marks": 50,
+    "marksNote": "Headings 3 to 4",
+    "checklist": [
+     "Design a fair test: name the independent, dependent and controlled variables, plan repeat readings and justify your equipment.",
+     "List each hazard with a precaution, get your teacher's sign-off, and book your supervised lab slot now.",
+     "Record every reading with units, and note anomalies and any change to your plan."
+    ],
+    "guide": [
+     {
+      "h": "Hypothesis and design (NCCA: about 2 to 3 hours)",
+      "points": [
+       "State a testable hypothesis based on physics, and give the reason you expect it. The top band wants one 'underpinned by physics theory', not a guess.",
+       "Design an original experiment or extend or adapt one you know from class. Both are allowed by the NCCA.",
+       "Plan to collect quantitative primary data. A graph or a calculated quantity is easier to analyse than a description.",
+       "Name the independent variable (what you change), the dependent variable (what you measure) and the controlled variables (what you keep the same), with values.",
+       "Write the method as numbered steps another student could repeat."
+      ]
+     },
+     {
+      "h": "Fairness, accuracy, equipment",
+      "points": [
+       "Say how each controlled variable is kept constant. Example: same volume and starting temperature of water, same container, same room, same time interval.",
+       "Plan repeat readings and say why they improve reliability. The NCCA lists reliability, validity, accuracy, precision, error, fairness, safety and integrity.",
+       "Choose equipment to match the precision you need and justify it. Selection of equipment is a named marking criterion. For example, a temperature probe with a data logger is more precise than a thermometer read by eye.",
+       "Say what you assume (for example that the room temperature stays constant) and how that could affect results.",
+       "The NCCA says it is good practice to have used the apparatus in class first, so you know its limits. Record any compromise you make because of equipment."
+      ]
+     },
+     {
+      "h": "Safety and practical checks",
+      "points": [
+       "Name each hazard and its precaution. For heat experiments: hot water and hot surfaces, spills, electrical equipment near water.",
+       "Safety, GDPR and access to property are listed by the NCCA as mandatory requirements. If you measure at home or on a building, get permission first.",
+       "The teacher is a sounding board. The NCCA says they step in only if the design is likely to be unsafe. The design is yours."
+      ]
+     },
+     {
+      "h": "Under supervision",
+      "points": [
+       "The SEC requires the experiment and the primary data collection to be completed under the direct supervision of your Physics teacher, in a safe setting such as the school lab.",
+       "Each student does their own experiment. A classmate may help you handle equipment, but the investigation is yours.",
+       "The NCCA expects a typical experiment to take about 1 to 2 hours of lab time. A school can run only about eight at once, so up to three sessions may be needed. With the 11 December 2026 deadline, book your slot with your teacher now.",
+       "Your teacher is present at all times. The NCCA says they should not step in if you use equipment incorrectly but safely, record poorly or make errors. These are part of what you report."
+      ]
+     },
+     {
+      "h": "Recording",
+      "points": [
+       "Record qualitative and quantitative observations in your log as you work, with units and the precision of each instrument.",
+       "Photograph the apparatus and results (you have up to 20 images in the report) and keep photos of the set-up.",
+       "Record anomalies and unexpected results. The NCCA says unexpected outcomes are a valid part of science and you do not need the result you predicted.",
+       "Note any change from your plan and the reason for it.",
+       "The teacher must be able to confirm the experiment you ran matches the research and plan you shared with them, so share your plan before the lab session."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Criterion C – Data and conclusions",
+    "marks": 50,
+    "marksNote": "Headings 5 to 6",
+    "checklist": [
+     "Show results in labelled tables and graphs with units, with working for every calculated quantity.",
+     "Explain each trend with physics and say whether the data support your hypothesis.",
+     "Name limits in your research, design and data, each with a specific improvement."
+    ],
+    "guide": [
+     {
+      "h": "Analysing the data (NCCA: about 1 to 2 hours)",
+      "points": [
+       "Present results in tables with units and averages, then in a graph or calculated quantity that shows the pattern. Label axes with quantity and unit.",
+       "The NCCA lists what analysis may include: accuracy, precision, repeatability and reproducibility, calculations and graphs to find patterns, and identifying and explaining any anomalous results.",
+       "Use physics from the course: for cooling data use the gradient as a rate of heat loss; for power and efficiency show the formula, the substitution and the unit. Take error bars or spread from repeats.",
+       "State the pattern in words, then explain it with physics. 'It cooled more slowly' is not enough. Say why (lower conduction through the material)."
+      ]
+     },
+     {
+      "h": "Conclusions and evaluation",
+      "points": [
+       "Answer your research question and say if the data support your hypothesis. Base it on the data, not on what you hoped for.",
+       "Compare your result with secondary data from your research (a table value, a published U-value). Say if they agree and why they might not.",
+       "Name sources of error in the research, the design and the data gathering, and give one specific improvement for each. The top band wants 'valid conclusions justified by evidence' and a reflection on 'what worked and did not work'.",
+       "Optional, at your own initiative: an extension or new direction. The top descriptor for communicating mentions 'new directions or approaches to experimentation' you include on your own initiative."
+      ]
+     },
+     {
+      "h": "Relating to society",
+      "points": [
+       "The top band for relating to society asks for a 'considered reflection locating the outcomes of the investigation within broader issues relating to the real world'. Link your result to home heating, energy costs, the SEAI data or climate targets.",
+       "Share your analysis with your teacher. They must be satisfied that your analysis and conclusions match the experiment they supervised."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Criterion D – Scientific literacy and hand-in",
+    "marks": 50,
+    "marksNote": "Whole report",
+    "checklist": [
+     "Link your result to a real home-energy issue, and keep the report coherent from the introduction to the conclusion.",
+     "Use the seven SEC headings on new pages within 1,500 words and 20 images: Arial 12 at 1.5 spacing, 20 mm margins, SEC cover page first.",
+     "Reference every source and any AI use, export to PDF, print to check every page, sign Form P.2 and hand in by 11 December 2026."
+    ],
+    "guide": [
+     {
+      "h": "Report rules (NCCA: up to 4 hours)",
+      "points": [
+       "Download the SEC cover page (Word) and make it the first page. The SEC provides no template.",
+       "Maximum 1500 words. The count excludes references, data tables, formulae or equations and labels. Going over may lose marks.",
+       "Maximum 20 images, a limit not a target. No videos. Do not use images to carry extra text. Avoid images where a person could be identified. Formulae and equations do not count towards the image limit.",
+       "Use the seven headings in this order: 1 Title and Introduction, 2 Background Research, 3 Designing and Planning, 4 Conducting the Experiment, 5 Data and Data Analysis, 6 Conclusions, 7 References.",
+       "Format: each numbered heading starts a new page, Arial 14 bold black; body Arial 12 black at 1.5 line spacing; bold, italics, numbering and bullets allowed; no coloured or highlighted text; portrait; page numbers bottom centre; 20 mm margins on all four sides and nothing in the margins.",
+       "Graphs, diagrams and photos can be software made, captured from sources (with a reference), photographed or hand drawn. Hand-written equations can be photographed or scanned."
+      ]
+     },
+     {
+      "h": "Word budget (my estimate, not an SEC rule)",
+      "points": [
+       "The SEC sets only the 1500 total. A split that works for most reports: Title and Introduction 150, Background Research 300, Designing and Planning 300, Conducting the Experiment 150, Data and Data Analysis 350, Conclusions 250.",
+       "The SEC says short, clear writing earns credit and unwarranted length that makes the report incoherent loses it. Cut anything that does not help your research question."
+      ]
+     },
+     {
+      "h": "Writing it well",
+      "points": [
+       "Use your log to write an honest account of what you did, including what went wrong and what you changed.",
+       "Keep it consistent. Ideas from your research and design should come back in the analysis and conclusion.",
+       "Your teacher gives general, non-directive feedback only. They must not edit your draft or give model text."
+      ]
+     },
+     {
+      "h": "Submitting",
+      "points": [
+       "Convert to PDF. Print it and check every page. Anything not visible on the print will not be visible to examiners.",
+       "Give the digital file to your class teacher by Friday 11 December 2026 (or the earlier school date). File naming follows a SEC Schools Portal circular, so ask your teacher.",
+       "Sign SEC Authentication Form P.2. Your teacher and school principal also sign. The school keeps a printed and digital copy until appeals end and submits it through the Schools Portal.",
+       "Keep your own backup copy."
+      ]
+     },
+     {
+      "h": "Rules you can't break",
+      "points": [
+       "Work must be your own. Each student submits their own report even if classmates investigate something similar.",
+       "The experiment and primary data collection must be done under the direct supervision of your Physics teacher, in a relevant, safe and supervised setting.",
+       "Reference all sources, including any AI use. Unreferenced material is plagiarism, which the SEC treats as cheating and investigates under Section 18 of its Coursework Rules; penalties can include withholding results.",
+       "The SEC Coursework Rules and Procedures apply in full. You, your teacher and the school authority share responsibility for authenticity.",
+       "Use the SEC cover page as page one, convert to PDF, print and proof-read it, and sign Authentication Form P.2 (teacher and principal sign too).",
+       "Maximum 1500 words (not counting references, data tables, formulae or equations, and labels) and 20 images. No videos. Images must not carry extra text.",
+       "Formatting: Arial only, black text only, headings 14 bold on new pages, body 12 at 1.5 spacing, portrait, page numbers bottom centre, 20 mm margins and nothing in the margins.",
+       "The investigative log is not submitted to the SEC.",
+       "Your teacher may not edit your drafts, give model text or design your investigation. Feedback must be general and non-directive.",
+       "Hand in to your teacher by Friday 11 December 2026, or any earlier school deadline."
+      ]
+     },
+     {
+      "h": "Mistakes that cost marks",
+      "points": [
+       "Not enough time. With the due date on 11 December 2026 and a lab slot to book, a late start is the biggest risk (inferred from the dates, not from an SEC report).",
+       "Picking an experiment that does not link to energy sources, use or losses at home, so relevance (criterion D) suffers.",
+       "Vague hypothesis with no physics reason, or no research question at all.",
+       "Poor control of variables, for example different starting temperatures or room draughts, with no comment on it.",
+       "Tables and graphs with no units or labelled axes.",
+       "Describing a trend without explaining it using physics (conduction, convection, radiation, power, efficiency).",
+       "Conclusions that do not link back to the hypothesis and the research question, or that ignore anomalies.",
+       "No evaluation of sources, or no reference list, or leaving out an AI acknowledgement.",
+       "Breaking the format: wrong font or spacing, over 1500 words, headings not on new pages, text in the margins.",
+       "Padding the report. The SEC says unwarranted length loses coherence marks.",
+       "Not printing and checking the PDF, so something is cut off and cannot earn marks.",
+       "No Examiner's report exists yet for this first year of the new course, so these mistakes come from the SEC brief and NCCA descriptors, not past marking."
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "State Examinations Commission, Physics in Practice Investigation brief 2027 (2027L021C2EL)",
+    "url": "https://exams.ie/project-files/lc/physics/2026-27-project-brief.pdf"
+   },
+   {
+    "label": "NCCA, Guidelines to support the Physics in Practice Investigation (Nov 2024)",
+    "url": "https://www.curriculumonline.ie/getmedia/661fe09e-2b93-4f55-b548-ff87d7e38331/AAC_Guidelines_Physics_Final.pdf"
+   },
+   {
+    "label": "NCCA, Leaving Certificate Physics specification",
+    "url": "https://www.curriculumonline.ie/getmedia/aec702a9-4818-45f1-917e-497c3a9a2466/SC-PHYSICS-Spec-EN.pdf"
+   },
+   {
+    "label": "Oide, Senior Cycle Redevelopment webinar: SEC sample papers for Physics",
+    "url": "https://oide.ie/wp-content/uploads/2023/09/Final-Physics-Webinar-Presentation-for-website.pdf"
+   },
+   {
+    "label": "SEC, Physics in Practice Investigation sample brief (2027L021C2ES)",
+    "url": "https://oide.ie/wp-content/uploads/2023/09/Sample-Brief-Physics-EN-EX-61375663.pdf"
+   },
+   {
+    "label": "SEAI residential energy statistics page cited in the SEC brief",
+    "url": "https://www.seai.ie/data-and-insights/seai-statistics/residential"
+   }
+  ]
  }
 };

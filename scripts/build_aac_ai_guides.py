@@ -97,6 +97,90 @@ SUBJECTS = {
             "The video cannot be reviewed. Review only the written plan or the script of the spoken introduction against the video guidance, and check it covers every required context.",
         ],
     },
+    "irish": {
+        "ask": ["which 10 Sraith Pictiúr they chose and which Comhrá topics their notes cover", "the Irish text of each script they want checked (picture-series script, prepared answers, welcome script)"],
+        "marking": None,
+        "no_marks_reason": "The oral is marked on your spoken Irish (pronunciation, rhythm and fluency), so a written script cannot be given a mark out of 240.",
+        "notes": [
+            "Check each Sraith Pictiúr script for one consistent tense (past is best), 5 or 6 sentences per picture, and a wide range of different verbs.",
+            "Check the Comhrá notes: each topic should have a fact, an opinion, something in the past and something conditional or future. Flag memorised paragraphs that would not answer a question about tense.",
+            "Check the Fáiltiú script has all five items: name, age, date of birth, address, exam number.",
+            "Correct the Irish itself (tenses, prepositions, the copula, séimhiú and urú) and keep the student's own sentences short enough to say aloud.",
+            "Poems: check the student is learning the 2027 and 2028 list (Dínit an Bhróin, Deireadh na Feide, Iníon, Glaoch Abhaile, Úirchill an Chreagáin), not the old one.",
+            "Pronunciation, rhythm, fluency and the poem reading cannot be reviewed from text. Tell the student to record themselves and ask a teacher or Irish speaker to listen.",
+        ],
+    },
+    "french": {
+        "ask": ["their level (Higher or Ordinary)", "which topics their prepared answers cover", "what document or project they will bring, if any", "how many minutes of French they can speak on a topic without notes"],
+        "marking": "Mark the written prepared answers out of 80, not 100: Communication 30 (does it answer the question and add a reason or detail), Structures 30 (range of tenses and constructions, accuracy), Vocabulary 20 (range beyond basic words). Do not award Pronunciation (20): say it cannot be judged from text.",
+        "notes": [
+            "Pronunciation, fluency, speed and how they handle the unexpected cannot be reviewed from text. Tell the student to record themselves and play it back.",
+            "Check the prepared answers use a spread of tenses, then suggest one concrete upgrade per answer.",
+            "The 30/30/20/20 split is from the Irish Times (2026) and publisher guides, not an SEC page I could open. Say so.",
+            "Ordinary Level: the oral is worth 80 marks; I found no official split, so give a rough read and not marks.",
+        ],
+    },
+    "spanish": {
+        "ask": ["their level (Higher or Ordinary)", "which topics or role-play cards the draft covers"],
+        "marking": "Mark the prepared written material only, as a guide to the oral: for each topic answer check the range of tenses, vocabulary and accuracy; for each role-play turn check the message and verb tense against the card (6 marks a turn, 5 turns, 30 marks). The oral itself is 100 marks (conversation 70, role-play 30) and is not marked from a draft.",
+        "notes": [
+            "Pronunciation and fluency cannot be reviewed from text; say so once and suggest recording and listening back.",
+            "Do not mark the conversation out of 70: only the examiner can. Comment on grammar, vocabulary and range of tenses.",
+            "Check that answers are ideas the student can say naturally, not long memorised paragraphs: examiners and Chief Examiner comments warn against this.",
+            "Ordinary Level split between conversation and role-play was not found: do not state one.",
+        ],
+    },
+    "construction-studies": {
+        "ask": ["their level (Higher or Ordinary), and what project they chose", "which part of the folio they want reviewed"],
+        "marking": "Mark out of 150 using the SEC headings: Planning of Project 40, Report 35, Manipulative Skills 40, Completion of Project 35. Only the folio can be assessed from a draft.",
+        "notes": [
+            "The artefact cannot be reviewed from text. Manipulative Skills (40) and the finish part of Completion can only be judged by the teacher on the real artefact, so do not give a mark for them from a draft.",
+            "Check that the folio has: research with references (including any AI sources), annotated design sketches, a working drawing, the manufacturing sequence with photos or sketches, and a critical appraisal.",
+            "The SEC says marks within each criterion can vary by year, so give marks as an estimate.",
+        ],
+    },
+    "construction-studies-practical": {
+        "ask": ["their level (Higher or Ordinary)", "which joints and processes they have practised and their planned order of work"],
+        "marking": None,
+        "no_marks_reason": "The Practical Test is a bench test of hand skills, so a written plan cannot be marked against the SEC scheme.",
+        "notes": [
+            "Review only the student's cutting list, order of work and timings. Do not give marks.",
+            "Check the plan allows time to mark out, cut each joint, dry fit, glue and shape edges in 4 hours.",
+            "Remind the student that machine use on a procedure halves its marks and that the 2027 piece will not be known until the day.",
+        ],
+    },
+    "art": {
+        "ask": ["their level (Higher or Ordinary) and which theme they chose", "which stage they are in, and what they are making as Artefact A and Artefact B (two different areas of practice)", "what their drafts are: journal page text, annotations, or a plan"],
+        "marking": "Mark the written parts of the journal against criteria A (5), B (10), C (20), D (30) and E (10) per artefact, as an estimate only: the SEC publishes bands (low, moderate, high) but not marks for each piece of work.",
+        "notes": [
+            "The Visual Journal is visual and the artefacts are physical. Do not judge drawings or finished work; review only annotations, plans and the reasoning behind choices.",
+            "Check each annotation explains a decision, names the artist or Visual Studies influence and what was taken from it.",
+            "Check the plan has two distinctly different areas of practice and that Artefact B can be finished in 5 hours.",
+            "Check sources are referenced and that any AI-generated material is acknowledged.",
+            "2027 dates and any adjusted arrangements are not yet published.",
+        ],
+    },
+    "art-practical": {
+        "ask": ["their level (Higher or Ordinary)", "what Artefact B will be, in which medium, and how it differs from Artefact A", "their time plan for the two 2.5 hour periods and their kit list"],
+        "marking": None,
+        "no_marks_reason": "The practical exam is the realised artefact itself, made in the hall, so a written plan cannot be given a mark.",
+        "notes": [
+            "Only the plan, time plan and kit list can be reviewed. The artefact and its drawings cannot.",
+            "Check the plan finishes dry in 5 hours, starts from blank materials with no prepared parts, and follows the journal.",
+            "Check the kit list has no visual aids other than inanimate still-life objects and the journal.",
+            "The 2027 dates are not yet published.",
+        ],
+    },
+    "physics": {
+        "ask": ["their level (Higher or Ordinary)", "which aspect of home energy they chose (source, use or loss) and their research question", "where they are in the six stages, and when their lab slot is (the report is due 11 December 2026)"],
+        "marking": "Mark each of the four criteria out of 50 (200 in total). A: introduction, research question, hypothesis, sources and referencing. B: design, method, safety, fairness, accuracy, equipment. C: data, analysis, conclusions. D: communication, coherence, relevance, reflection across the whole report. The SEC publishes no band-by-band marks, so say the mark is an estimate.",
+        "notes": [
+            "Tables and graphs: do not reproduce them. Check each has a title, labelled axes or columns with units, and is referred to in the text.",
+            "Criterion D covers the whole report, so judge it last.",
+            "Check the SEC format: 1500 words (not counting references, tables, formulae and labels), 20 images, Arial 12 at 1.5 spacing, headings on new pages.",
+            "Experiment ideas given in the guide are suggestions, not SEC examples.",
+        ],
+    },
 }
 
 
