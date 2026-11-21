@@ -45,7 +45,8 @@ A short gloss of a term is not teaching the topic.
    welcome where they help the reader follow: "first", "this is why", "in other words",
    "remember that", "in short". One everyday analogy per block at most, and only where a
    concept is abstract (e.g. ATP as a rechargeable battery); it must be accurate.
-6. **Coach for the exam with `tip`.** Most blocks get a `tip`: one or two sentences, written to
+6. **Coach for the exam with `tip`.** Give a block a `tip` whenever the package has a trap or
+   exam topic that fits it (usually more than half the blocks): one or two sentences, written to
    the student ("you"), saying what examiners ask about this block and how to get the marks,
    or the mistake students make. Take tips only from the package's "Traps" and "What exams
    ask" sections, and the marking schemes in `<subject>-exam-questions.js`. Never invent mark
@@ -112,8 +113,8 @@ at a time**; the build warns about part-written chapters.
 }
 ```
 
-- `notes`: usually 4–10 blocks per subsection, each with 3–8 points. A block with more than 8
-  points is usually two blocks.
+- `notes`: usually 4–10 blocks per subsection (investigations and other long subsections may
+  need more), each with 3–8 points. A block with more than 8 points is usually two blocks.
 - `keyTerms`: the subsection's essential vocabulary for flashcards, one sentence each. These
   can overlap with the notes, because flashcards are a separate study mode.
 - `factCards` (optional): flashcards for what the key terms don't test: case-study facts,
@@ -281,7 +282,9 @@ Go through these one at a time, and fix anything that fails before you finish.
 
 1. Every block has a `b` lead of one to three sentences.
 2. Read each bullet with only its block's heading and lead. Does every technical term in it
-   have a gloss, or an explanation earlier in this subsection? If not, add a gloss.
+   have a gloss, or an explanation earlier in this subsection? If not, add a gloss. Watch for
+   short everyday-looking words with a special meaning ("fixed", "reduced", "limiting").
+   If a bullet says something must happen ("it must regain an electron"), it also says how.
 3. At least a third of bullets contain "because", "so", "which means", "this is why", "for
    example", "such as" or another reason or example.
 4. No bullet is over 50 words. No block has more than 8 points.

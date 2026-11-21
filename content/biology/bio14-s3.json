@@ -13,7 +13,7 @@
         "The pigment molecules sit in clusters of hundreds, called light-harvesting or antenna complexes, around a reaction centre. The cluster works like a satellite dish, collecting light over a wide area and focusing it on one point.",
         "When any pigment in the cluster absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule.",
         "At the reaction centre, the energy raises (excites) one of the chlorophyll's electrons to a high energy level. This energised electron leaves the chlorophyll and is taken up by an electron acceptor, the first carrier of an electron transport chain.",
-        "Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one."
+        "Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one, and in the non-cyclic pathway it takes that electron from water."
       ],
       "tip": "If asked what chlorophyll releases when it absorbs light, the answer is energised (high-energy) electrons. Don't say that light hits water and splits it: the light is absorbed by the pigments."
     },
@@ -26,7 +26,7 @@
         "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺, a hydrogen carrier. Each NADP⁺ takes two electrons and one proton (H⁺) to form NADPH: NADP⁺ + 2e⁻ + H⁺ → NADPH.",
         "4. The chlorophyll is still positively charged, so it strongly attracts electrons and pulls them from water molecules. This splits the water, a step called photolysis (splitting by light, because the energy for it ultimately came from light): 2H₂O → 4H⁺ + 4e⁻ + O₂.",
         "5. The electrons from water replace the ones the chlorophyll lost, so it is neutral again and ready to absorb more energy.",
-        "The protons (H⁺) from photolysis are used to form NADPH, and they also help build up the proton store that drives ATP-making in the thylakoid.",
+        "The protons (H⁺) from photolysis are used to form NADPH, and they also build up inside the thylakoid, where this crowd of protons is used to power ATP-making. There is more on this in The chloroplast's internal structure.",
         "The oxygen from photolysis is a by-product. It is used in the cell's respiration or released through the stomata.",
         "It is called non-cyclic because the electrons go one way only, from water through the chlorophyll and the chain to NADP⁺, and never return to where they started. The electrons aren't used up; they end up on NADPH.",
         "Products of the non-cyclic pathway: ATP, NADPH and oxygen."
@@ -41,7 +41,7 @@
         "As they pass along the carriers, they give up their extra energy, which is used to make ATP from ADP and Pi.",
         "Because the electrons come back, the chlorophyll is neutral again without needing electrons from water. So water is not split, no oxygen is released and no NADPH is made.",
         "Products of the cyclic pathway: ATP only.",
-        "Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed. The cyclic pathway tops up the extra ATP.",
+        "Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed (built into sugar) in the light-independent reactions, the second stage that makes glucose. The cyclic pathway tops up the extra ATP.",
         "It also runs when NADP⁺ is in short supply because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
       ],
       "tip": "The classic mistake is saying the cyclic pathway makes NADPH or oxygen. It makes ATP only, because water is never split."
@@ -55,7 +55,7 @@
         "Water: split by photolysis in the non-cyclic pathway, to replace the lost electrons; not needed in the cyclic pathway, because the electrons come back.",
         "Products: non-cyclic makes ATP, NADPH and oxygen; cyclic makes ATP only.",
         "What they share: both start with light energy reaching the reaction centre and an energised electron leaving the chlorophyll, both pass electrons along carriers to make ATP, and both happen on the thylakoid membranes.",
-        "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ becoming NADP⁻ before it picks up a proton. Recognise these names, but learn the single step to NADPH given above.",
+        "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ first picking up two electrons (becoming NADP⁻) and then a proton. Recognise these names, but learn the single step to NADPH given above.",
         "Diagram: one energy diagram with chlorophyll at the bottom receiving light from pigment molecules; the electron rising to an acceptor; a downhill chain (ATP made) ending at NADP⁺ → NADPH; water entering below the chlorophyll; a loop back to the chlorophyll for the cyclic pathway (ATP made)."
       ],
       "tip": "When asked to distinguish, give paired points, one for each pathway, covering electron route, products and whether water is split."
