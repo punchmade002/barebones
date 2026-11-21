@@ -4237,74 +4237,98 @@
   ],
   "notes": [
    {
+    "b": "Photosynthesis is how plants make their own food. They capture energy from light and use it to build glucose, a sugar, out of two simple substances they take from their surroundings: carbon dioxide and water.",
     "h": "What photosynthesis is",
     "points": [
-     "Green plants, algae and some bacteria (e.g. cyanobacteria) photosynthesise: they use light energy, absorbed by chlorophyll, to make glucose from carbon dioxide and water, releasing oxygen as a by-product.",
-     "These organisms are autotrophs, so they make their own food.",
-     "Light energy is converted to chemical energy stored in the bonds of glucose. Almost all food chains, and so almost all the energy used by living things, start with this conversion.",
-     "The oxygen in the air also comes from photosynthesis.",
-     "Photosynthesis is anabolic: it builds one large molecule, glucose (C₆H₁₂O₆), from small inorganic molecules, carbon dioxide and water, and it takes in energy, supplied by light. Respiration is the matching catabolic process, explained in Respiration as a catabolic process.",
-     "Word equation: carbon dioxide + water → glucose + oxygen, with light energy and chlorophyll written above the arrow.",
-     "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll written above the arrow.",
-     "The balanced equation has 6 carbon, 18 oxygen and 12 hydrogen atoms on each side. The six molecules of CO₂ supply the six carbon atoms of one glucose molecule."
-    ]
+     "Green plants, algae and some bacteria, such as cyanobacteria, photosynthesise. They use light energy, absorbed by the green pigment chlorophyll, to make glucose from carbon dioxide and water, and they release oxygen as a by-product.",
+     "Because they make their own food from simple inorganic substances, these organisms are called autotrophs (self-feeders). Animals and fungi can't do this, so they must eat food that was made by an autotroph.",
+     "The key change is an energy conversion: light energy becomes chemical energy, stored in the bonds of the glucose molecule. Almost every food chain starts with this conversion, so nearly all the energy living things use was first captured by photosynthesis.",
+     "Photosynthesis is also where the oxygen in the air comes from. Without it, there would be no oxygen for aerobic respiration.",
+     "Word equation: carbon dioxide + water → glucose + oxygen, with light energy and chlorophyll written above the arrow, because both are needed for the reaction but neither is a reacting substance.",
+     "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll above the arrow. Each side has 6 carbon, 12 hydrogen and 18 oxygen atoms. Six CO₂ molecules are needed because each one supplies one of glucose's six carbon atoms."
+    ],
+    "tip": "Learn the balanced equation exactly, with light energy and chlorophyll above the arrow. If asked to name the type of nutrition, the answer is autotrophic."
    },
    {
-    "h": "Sources of the reactants and fate of the products",
+    "b": "Every reaction in a cell either builds molecules up or breaks them down. Photosynthesis is a building-up reaction, and the exam expects you to say why in two parts.",
+    "h": "Why photosynthesis is an anabolic process",
     "points": [
-     "Carbon dioxide diffuses from the air into the leaf through the stomata, pores mainly on the lower surface, then through the air spaces to the mesophyll cells. Some carbon dioxide also comes from the plant's own respiring cells.",
-     "Aquatic plants take in carbon dioxide dissolved in the water, partly as hydrogencarbonate ions.",
-     "Water is absorbed from the soil by root hair cells, by osmosis, and carried up to the leaves in the xylem. Only a tiny fraction of the water taken up is used in photosynthesis; most is lost in transpiration. Transport in Plants explains this in full.",
-     "Light comes from the sun, or from artificial light in greenhouses and laboratories.",
-     "Chlorophyll, the green pigment in chloroplasts, absorbs mainly red and blue light and reflects green light, which is why leaves look green.",
-     "Oxygen is used by the plant's own cells in respiration. The excess diffuses out of the leaf through the stomata into the air, or out of the water in aquatic plants.",
-     "The oxygen released comes from the splitting of water, not from carbon dioxide. This was shown in the 1940s by experiments in which water labelled with the heavy oxygen isotope ¹⁸O gave labelled oxygen gas.",
-     "Glucose is used in the plant's own respiration to release energy, stored as ATP (see ATP). The rest is converted to other substances, described in the next block."
-    ]
+     "An anabolic reaction builds a large molecule from smaller ones and takes in energy to do it. Photosynthesis fits both parts of that definition.",
+     "First, it builds a large organic molecule, glucose (C₆H₁₂O₆), from small inorganic molecules, carbon dioxide and water.",
+     "Second, it takes in energy rather than releasing it. The energy comes from light, and it ends up stored in the glucose.",
+     "Respiration is the opposite, catabolic process: it breaks glucose back down into carbon dioxide and water and releases the stored energy. There is more on this in Respiration as a catabolic process."
+    ],
+    "tip": "For full marks on \"why is photosynthesis anabolic?\" give both halves: small molecules are built into a larger one, and energy (from light) is taken in."
    },
    {
-    "h": "Glucose converted to sucrose, starch and cellulose",
+    "b": "A plant has to gather carbon dioxide, water and light, and then deal with the oxygen and glucose it makes. Each one has a definite route into or out of the leaf.",
+    "h": "Where the reactants come from and where the products go",
     "points": [
-     "Sucrose: glucose is joined to fructose to form the disaccharide sucrose. Sucrose is the form in which carbohydrate is transported from the leaves, in the phloem, to growing tips, roots, fruits and storage organs.",
-     "Sucrose suits transport because it is soluble and less reactive than glucose; it is not a reducing sugar, so it is not used up on the way.",
-     "Starch: glucose is joined into the polysaccharide starch for storage. Starch grains form in the stroma of the chloroplast during the day, and long-term stores are in storage organs and seeds, such as potato tubers and cereal grains.",
-     "Starch suits storage because it is insoluble, so it does not affect osmosis, and it is compact.",
-     "Cellulose: glucose is joined into the polysaccharide cellulose, which forms plant cell walls. Cellulose is the most abundant organic compound on Earth.",
-     "Plants also convert glucose to lipids, such as oils in seeds, and, with nitrates from the soil, to amino acids. Both conversions are explained in Biomolecules and metabolism."
-    ]
+     "Carbon dioxide diffuses from the air into the leaf through the stomata, small pores found mainly on the lower surface. It moves through the air spaces inside the leaf to the mesophyll cells, where photosynthesis happens. Some also comes from the plant's own respiring cells.",
+     "Plants that live under water can't take gas from the air, so they absorb carbon dioxide dissolved in the water, partly as hydrogencarbonate ions.",
+     "Water is absorbed from the soil by root hair cells, by osmosis, and carried up the stem to the leaves in the xylem (the plant's water-carrying tubes). Only a tiny fraction of this water is used in photosynthesis; most evaporates from the leaves in transpiration.",
+     "Light comes from the sun, or from artificial lights in greenhouses and laboratories.",
+     "Chlorophyll absorbs mainly red and blue light and reflects green light. This is why leaves look green: green is the colour the plant isn't using.",
+     "Oxygen is partly used by the plant's own cells for respiration. The rest diffuses out of the leaf through the stomata into the air, or into the water for aquatic plants.",
+     "The oxygen released comes from splitting water molecules, not from carbon dioxide. This was shown in the 1940s: when plants were given water containing a heavy form (isotope) of oxygen, ¹⁸O, the oxygen gas they released contained ¹⁸O.",
+     "Glucose is partly used straight away in the plant's own respiration, which releases its energy as ATP for the cell's work. The rest is converted into other substances (next block)."
+    ],
+    "tip": "If asked where the oxygen comes from, say water, not carbon dioxide, and you can back it up with the ¹⁸O evidence. Don't write that plants respire only at night: they respire all the time, day and night."
    },
    {
+    "b": "Glucose is a good fuel, but it isn't ideal for moving around the plant, storing or building with. So plants convert it into three other carbohydrates, each suited to one job.",
+    "h": "What glucose is turned into: sucrose, starch and cellulose",
+    "points": [
+     "Sucrose (for transport): glucose is joined to fructose to form the disaccharide sucrose. Sucrose is carried from the leaves in the phloem (the plant's food-carrying tubes) to growing tips, roots, fruits and storage organs.",
+     "Sucrose suits transport because it is soluble, so it travels dissolved in the phloem, and less reactive than glucose. It is not a reducing sugar, so it isn't used up by the cells it passes on the way.",
+     "Starch (for storage): glucose is joined into long chains to form the polysaccharide starch. Starch grains build up in the chloroplasts during the day, and longer-term stores are kept in storage organs and seeds, such as potato tubers and cereal grains.",
+     "Starch suits storage because it is insoluble, so large amounts can be stored without drawing water into the cell by osmosis, and it is compact.",
+     "Cellulose (for building): glucose is joined into the polysaccharide cellulose, which forms the strong walls around plant cells. Because every plant cell has a wall, cellulose is the most abundant organic compound on Earth.",
+     "Plants also use glucose to make lipids, such as the oils in seeds, and, combined with nitrates taken from the soil, amino acids for proteins."
+    ],
+    "tip": "Exams ask what happens to the glucose a plant makes. Give its use in respiration, then sucrose for transport in the phloem and starch for storage, each with its reason."
+   },
+   {
+    "b": "When a plant photosynthesises, it pulls carbon out of the air and locks it inside its own body. This is why forests, bogs and the oceans matter in the fight against climate change.",
     "h": "Photosynthesis as a carbon sink",
     "points": [
-     "A carbon sink is anything that takes in more carbon from the atmosphere than it releases, storing it. Photosynthesis is the only major biological process that removes CO₂ from the air.",
-     "The carbon is fixed into glucose, then into sucrose, starch, cellulose and the rest of the plant's biomass.",
-     "The carbon stays locked up as long as the biomass survives: in the wood of trees for decades or centuries, and in peat bogs for thousands of years, because waterlogged, acidic conditions slow decomposition.",
-     "Carbon is also locked up in ocean sediments formed from algae and phytoplankton.",
-     "Respiration, decomposition and burning return it to the air as CO₂ (see Respiration as a catabolic process).",
-     "Forests, peatlands and the algae and phytoplankton of the oceans are the main natural carbon sinks.",
-     "Cutting forests, draining or burning peat, and burning fossil fuels release stored carbon and add to the CO₂ that drives climate change. Fossil fuels hold carbon that was fixed by photosynthesis millions of years ago."
-    ]
+     "A carbon sink is anything that takes in more carbon from the atmosphere than it releases, and stores it. Photosynthesis is the only major biological process that removes carbon dioxide from the air.",
+     "The carbon from CO₂ is fixed (built into organic molecules) as glucose, then as sucrose, starch, cellulose and the rest of the plant's body, its biomass.",
+     "The carbon stays locked away for as long as the biomass lasts: for decades or centuries in the wood of trees, and for thousands of years in peat bogs, because waterlogged, acidic conditions slow down decomposition.",
+     "Algae and phytoplankton (tiny floating photosynthesisers) in the oceans also fix carbon, and some of it is locked up in ocean sediments when they die.",
+     "Respiration, decomposition and burning return the stored carbon to the air as CO₂.",
+     "Forests, peatlands and the oceans' algae and phytoplankton are the main natural carbon sinks. Cutting down forests, draining or burning peat and burning fossil fuels all release stored carbon and add to the CO₂ that drives climate change.",
+     "Fossil fuels are themselves stored photosynthesis: coal, oil and gas hold carbon that plants and algae fixed millions of years ago, which is why burning them adds extra CO₂ to the air."
+    ],
+    "tip": "When explaining the carbon sink role, make the chain clear: CO₂ is taken from the air, fixed into glucose and then into biomass, and stays stored until respiration, decay or burning releases it."
    },
    {
-    "b": "Photosynthesis takes place in chloroplasts, which in a leaf are mostly in the palisade mesophyll cells just below the upper surface, where light is strongest. Spongy mesophyll cells and guard cells also contain chloroplasts.",
-    "h": "Where photosynthesis happens and the two stages",
+    "b": "Photosynthesis happens inside chloroplasts, and it doesn't happen in one go. It runs as two linked stages in two different parts of the chloroplast: the first captures energy from light, and the second uses that energy to build glucose.",
+    "h": "Where photosynthesis happens and its two stages",
     "points": [
-     "Stage 1, the light-dependent stage (light stage), takes place on the thylakoid membranes, which are stacked into grana.",
+     "In a leaf, most chloroplasts are in the palisade mesophyll cells, just below the upper surface, because that is where light is strongest. Spongy mesophyll cells and guard cells also have some.",
+     "Stage 1, the light-dependent stage, takes place on the thylakoid membranes, the flattened sacs inside the chloroplast that are stacked into piles called grana.",
      "1. Chlorophyll absorbs light energy.",
-     "2. The energy is used to split water molecules (photolysis) into oxygen, protons (H⁺) and electrons.",
-     "3. The oxygen is released.",
-     "4. The energy is trapped in ATP, and the protons and high-energy electrons are picked up by a carrier molecule, explained in The light-dependent reactions.",
-     "Stage 2, the light-independent stage, takes place in the stroma:",
-     "1. Carbon dioxide enters the stroma.",
-     "2. It is combined with the protons and electrons (hydrogen) from stage 1.",
-     "3. Energy from the ATP made in stage 1 drives the reactions.",
-     "4. Glucose is formed.",
-     "The reactions are controlled by enzymes, so this stage is affected by temperature.",
-     "Stage 1 supplies the energy (ATP) and hydrogen that stage 2 needs. Stage 2 returns the spent carriers, ADP and the empty hydrogen carrier, to stage 1.",
-     "The light-independent stage does not use light directly, but it stops soon after dark, because stage 1 stops supplying ATP and hydrogen.",
-     "Older books call the light-independent stage the dark stage. That name is misleading, because the stage happens in the light.",
-     "Diagram: a flow diagram of a chloroplast in outline. Draw the light-dependent stage on a thylakoid stack, with inputs light and H₂O, output O₂ released from the cell, and ATP and hydrogen passed to the stroma. Draw the light-independent stage in the stroma, with inputs CO₂, ATP and hydrogen and output glucose, which is converted to sucrose, starch and cellulose. Show ADP and the empty carrier returned to the thylakoid."
-    ]
+     "2. The energy is used to split water molecules into oxygen, protons (H⁺) and electrons. This splitting is called photolysis, meaning splitting by light.",
+     "3. The oxygen is released as a by-product.",
+     "4. The energy is trapped in ATP, and the protons and high-energy electrons are picked up by a hydrogen carrier molecule, ready for stage 2.",
+     "Stage 2, the light-independent stage, takes place in the stroma, the fluid that fills the chloroplast around the thylakoids.",
+     "1. Carbon dioxide enters the stroma. 2. It is combined with the hydrogen (protons and electrons) brought from stage 1. 3. Energy from the ATP made in stage 1 drives these reactions. 4. Glucose is formed."
+    ],
+    "tip": "Expect to be asked to name the organelle and the exact part of it for each stage: light-dependent on the thylakoids (grana), light-independent in the stroma."
+   },
+   {
+    "b": "The two stages are like a factory with a delivery service between them. Stage 1 loads up carriers with energy and hydrogen, stage 2 unloads them to build glucose, and the empty carriers go back to be reloaded.",
+    "h": "How the two stages depend on each other",
+    "points": [
+     "Stage 1 supplies the two things stage 2 needs: energy, as ATP, and hydrogen, on the hydrogen carrier.",
+     "Stage 2 returns the spent carriers to stage 1: ATP comes back as ADP, and the carrier comes back empty, so both can be reused.",
+     "The reactions of stage 2 are controlled by enzymes, which is why this stage, and so the whole process, is affected by temperature.",
+     "The light-independent stage doesn't use light directly, but it stops soon after dark, because stage 1 stops and the supply of ATP and hydrogen runs out.",
+     "Older books call the light-independent stage the dark stage. That name is misleading: the stage happens in the light, at the same time as stage 1.",
+     "Diagram: a chloroplast outline with stage 1 on a thylakoid stack (inputs light and H₂O; output O₂) and stage 2 in the stroma (input CO₂; output glucose → sucrose, starch, cellulose). Arrows: ATP and hydrogen to the stroma; ADP and the empty carrier back."
+    ],
+    "tip": "If asked why the light-independent stage isn't really a \"dark\" stage, explain that it needs the ATP and hydrogen from the light stage, so it only runs while there is light."
    }
   ],
   "questions": [
@@ -4530,62 +4554,72 @@
   ],
   "notes": [
    {
-    "h": "Capturing light: photons, pigments and the reaction centre (Higher Level only)",
+    "b": "The light-dependent reactions start when light hits a leaf. Before any chemistry can happen, the plant has to catch that light energy and channel it to one special chlorophyll molecule, which uses it to fire off an electron.",
+    "h": "Capturing light: pigments and the reaction centre (Higher Level only)",
     "points": [
-     "Light travels as tiny packets of energy called photons. A pigment is a molecule that absorbs light of particular colours, or wavelengths.",
-     "The thylakoid membranes hold several pigments: chlorophyll a, chlorophyll b, and the yellow and orange carotenoids. Having several pigments widens the range of colours of light the plant can use.",
-     "Pigment molecules are grouped in clusters, called light-harvesting or antenna complexes, of hundreds of molecules around a reaction centre.",
-     "When a pigment molecule absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll molecule (chlorophyll a).",
-     "At the reaction centre, the energy raises (excites) an electron of the chlorophyll to a high energy level. This energised electron leaves the chlorophyll and is taken up by the first electron acceptor of an electron transport chain.",
-     "Having lost a negatively charged electron, the reaction-centre chlorophyll molecule is left positively charged. It must regain an electron before it can absorb energy and release an electron again."
-    ]
+     "Light travels as tiny packets of energy called photons. A pigment is a molecule that absorbs light of particular colours (wavelengths).",
+     "The thylakoid membranes hold several pigments: chlorophyll a, chlorophyll b, and yellow and orange pigments called carotenoids. Each absorbs slightly different colours, so having several widens the range of light the plant can use.",
+     "The pigment molecules sit in clusters of hundreds, called light-harvesting or antenna complexes, around a reaction centre. The cluster works like a satellite dish, collecting light over a wide area and focusing it on one point.",
+     "When any pigment in the cluster absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule.",
+     "At the reaction centre, the energy raises (excites) one of the chlorophyll's electrons to a high energy level. This energised electron leaves the chlorophyll and is taken up by an electron acceptor, the first carrier of an electron transport chain.",
+     "Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one."
+    ],
+    "tip": "If asked what chlorophyll releases when it absorbs light, the answer is energised (high-energy) electrons. Don't say that light hits water and splits it: the light is absorbed by the pigments."
    },
    {
-    "h": "Non-cyclic pathway (Higher Level only)",
+    "b": "The energised electron now has to go somewhere useful. In the non-cyclic pathway, it travels one way, from water to NADP⁺, and along the way its energy is used to make the two things the second stage of photosynthesis needs: ATP and NADPH.",
+    "h": "The non-cyclic pathway (Higher Level only)",
     "points": [
      "1. Light energy reaches the reaction centre, and energised electrons leave the chlorophyll.",
-     "2. Electron transfer: the high-energy electrons are passed along an electron transport chain, a series of electron carriers in the thylakoid membrane. At each transfer they lose some energy, and this energy is used to make ATP from ADP and Pi.",
-     "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺. Each NADP⁺ takes two electrons and one proton (H⁺), forming NADPH, which carries the electrons and hydrogen to the light-independent reactions.",
-     "The reaction is NADP⁺ + 2e⁻ + H⁺ → NADPH.",
-     "The electrons are not used up: in the non-cyclic pathway they end up on NADPH.",
-     "4. Photolysis: the positively charged chlorophyll molecule strongly attracts electrons and pulls them from water molecules, splitting the water. Photolysis means splitting by light, because the energy for it ultimately comes from light.",
-     "The equation for photolysis is 2H₂O → 4H⁺ + 4e⁻ + O₂.",
-     "5. The electrons from water replace those lost by the chlorophyll, so the chlorophyll is neutral again and ready to absorb more energy.",
-     "The protons (H⁺) are used in forming NADPH, and they contribute to the proton gradient explained in The chloroplast's internal structure.",
-     "The oxygen is a by-product of photolysis. It is used in respiration or released through the stomata.",
-     "Non-cyclic: the electrons travel in one direction only, from water through the chlorophyll and the chain to NADP⁺. They never return to the chlorophyll they came from. This pathway produces ATP, NADPH and oxygen."
-    ]
+     "2. The electrons are passed along an electron transport chain, a series of electron carriers in the thylakoid membrane. At each hand-over they lose a little energy, like a ball bouncing down a staircase, and this released energy is used to make ATP from ADP and phosphate (Pi).",
+     "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺, a hydrogen carrier. Each NADP⁺ takes two electrons and one proton (H⁺) to form NADPH: NADP⁺ + 2e⁻ + H⁺ → NADPH.",
+     "4. The chlorophyll is still positively charged, so it strongly attracts electrons and pulls them from water molecules. This splits the water, a step called photolysis (splitting by light, because the energy for it ultimately came from light): 2H₂O → 4H⁺ + 4e⁻ + O₂.",
+     "5. The electrons from water replace the ones the chlorophyll lost, so it is neutral again and ready to absorb more energy.",
+     "The protons (H⁺) from photolysis are used to form NADPH, and they also help build up the proton store that drives ATP-making in the thylakoid.",
+     "The oxygen from photolysis is a by-product. It is used in the cell's respiration or released through the stomata.",
+     "It is called non-cyclic because the electrons go one way only, from water through the chlorophyll and the chain to NADP⁺, and never return to where they started. The electrons aren't used up; they end up on NADPH.",
+     "Products of the non-cyclic pathway: ATP, NADPH and oxygen."
+    ],
+    "tip": "A full description goes in order: light passed to the reaction centre, electrons energised and passed along the chain (ATP made), electrons and a proton taken up by NADP⁺ (NADPH made), and water split to replace the electrons (oxygen released). Write NADPH, not NADPH₂ or NADH."
    },
    {
-    "h": "Cyclic pathway (Higher Level only)",
+    "b": "Sometimes the energised electrons take a shortcut. In the cyclic pathway they loop back to the chlorophyll they came from, making ATP on the way but nothing else.",
+    "h": "The cyclic pathway (Higher Level only)",
     "points": [
-     "In the cyclic pathway, some energised electrons leaving the reaction-centre chlorophyll pass along carriers of the electron transport chain and return to the same chlorophyll molecule, instead of going to NADP⁺.",
-     "As they pass along the carriers, they transfer their surplus energy to making ATP from ADP and Pi. When they arrive back, the chlorophyll is neutral again, so no electrons are taken from water.",
-     "Products of the cyclic pathway: ATP only. No NADPH is made, water is not split and no oxygen is released.",
-     "The light-independent reactions use more ATP than NADPH, in a ratio of 3 ATP to 2 NADPH for each CO₂ molecule fixed, so the cyclic pathway tops up the supply of ATP.",
-     "The cyclic pathway also runs when NADP⁺ is in short supply, because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
-    ]
+     "In the cyclic pathway, some energised electrons leaving the reaction-centre chlorophyll pass along carriers of the electron transport chain and then return to the same chlorophyll molecule, instead of going on to NADP⁺.",
+     "As they pass along the carriers, they give up their extra energy, which is used to make ATP from ADP and Pi.",
+     "Because the electrons come back, the chlorophyll is neutral again without needing electrons from water. So water is not split, no oxygen is released and no NADPH is made.",
+     "Products of the cyclic pathway: ATP only.",
+     "Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed. The cyclic pathway tops up the extra ATP.",
+     "It also runs when NADP⁺ is in short supply because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
+    ],
+    "tip": "The classic mistake is saying the cyclic pathway makes NADPH or oxygen. It makes ATP only, because water is never split."
    },
    {
+    "b": "Exams ask you to tell the two pathways apart. The differences all come back to one thing: where the electrons end up.",
     "h": "Comparing the two pathways (Higher Level only)",
     "points": [
-     "Route of electrons: non-cyclic, one way from water to NADP⁺; cyclic, from the chlorophyll round the carriers and back to the chlorophyll.",
-     "Products: non-cyclic, ATP, NADPH and O₂; cyclic, ATP only.",
-     "Water: split by photolysis in the non-cyclic pathway; not used in the cyclic pathway.",
+     "Route of the electrons: non-cyclic goes one way, from water to NADP⁺; cyclic goes from the chlorophyll round the carriers and back to the same chlorophyll.",
      "Final electron acceptor: NADP⁺ in the non-cyclic pathway; the chlorophyll molecule itself in the cyclic pathway.",
-     "Both pathways begin with light energy reaching the reaction centre and an energised electron leaving the chlorophyll. Both pass electrons along carriers in the thylakoid membrane and make ATP, and both take place on the thylakoid membranes.",
-     "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2. They describe NADP⁺ first gaining two electrons to become NADP⁻ before it attracts a proton; the reaction to learn is the single step to NADPH described above.",
-     "Diagram: the two pathways on one energy diagram. Show a chlorophyll molecule at the bottom receiving light, as a wavy arrow, from a cluster of pigment molecules, and an arrow for the energised electron rising to an electron acceptor. For the non-cyclic pathway, draw a downhill chain of carriers labelled ATP made, ending at NADP⁺ + H⁺ → NADPH, with water entering below the chlorophyll as H₂O → 2H⁺ + ½O₂ + 2e⁻ and the electrons going to the chlorophyll. For the cyclic pathway, draw a branch from the chain looping back to the chlorophyll, labelled ATP made. Label photon, pigment molecules, reaction centre (chlorophyll), electron acceptor, electron transport chain, ATP, NADP⁺, NADPH, photolysis, O₂ and H⁺."
-    ]
+     "Water: split by photolysis in the non-cyclic pathway, to replace the lost electrons; not needed in the cyclic pathway, because the electrons come back.",
+     "Products: non-cyclic makes ATP, NADPH and oxygen; cyclic makes ATP only.",
+     "What they share: both start with light energy reaching the reaction centre and an energised electron leaving the chlorophyll, both pass electrons along carriers to make ATP, and both happen on the thylakoid membranes.",
+     "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ becoming NADP⁻ before it picks up a proton. Recognise these names, but learn the single step to NADPH given above.",
+     "Diagram: one energy diagram with chlorophyll at the bottom receiving light from pigment molecules; the electron rising to an acceptor; a downhill chain (ATP made) ending at NADP⁺ → NADPH; water entering below the chlorophyll; a loop back to the chlorophyll for the cyclic pathway (ATP made)."
+    ],
+    "tip": "When asked to distinguish, give paired points, one for each pathway, covering electron route, products and whether water is split."
    },
    {
+    "b": "Put together, the light-dependent reactions turn light into a form of energy the rest of the chloroplast can use, and hand it on to the second stage.",
     "h": "Summary of the light-dependent reactions (Higher Level only)",
     "points": [
-     "Location: the thylakoid membranes (grana) of the chloroplast, where the pigments and carriers are held (see The chloroplast's internal structure).",
-     "Inputs: light energy, water, ADP + Pi and NADP⁺. Outputs: ATP and NADPH, passed to the stroma for the light-independent reactions, and oxygen as a by-product.",
-     "Energy conversion: light energy becomes chemical energy, held in ATP and in the high-energy electrons of NADPH.",
-     "Transfer molecules: ATP carries energy, and NADPH carries electrons and hydrogen to the light-independent reactions. ADP + Pi and NADP⁺ come back to be reloaded. The full two-stage model is drawn in The light-independent reactions."
-    ]
+     "Location: the thylakoid membranes (grana) of the chloroplast, because that is where the pigments and electron carriers are held.",
+     "Inputs: light energy, water, ADP + Pi and NADP⁺.",
+     "Outputs: ATP and NADPH, which pass into the stroma for the light-independent reactions, and oxygen, released as a by-product.",
+     "Energy conversion: light energy becomes chemical energy, stored in ATP and in the high-energy electrons carried by NADPH.",
+     "The two products have different jobs: ATP carries energy, and NADPH carries electrons and hydrogen to reduce carbon dioxide to glucose. After use, they return as ADP + Pi and NADP⁺ to be reloaded. There is more on this in The light-independent reactions."
+    ],
+    "tip": "If asked what passes from the light stage to the light-independent stage, name both and give each one's role: ATP supplies energy, NADPH supplies electrons and hydrogen."
    }
   ],
   "questions": [

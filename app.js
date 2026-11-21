@@ -4973,6 +4973,7 @@ function buildFullNotesHtml(chapter, outcome = null) {
                       .map((pt) => `<li>${escapeHtml(compactText(pt))}</li>`)
                       .join("")}</ul>`
                   : ""}
+                ${n.tip ? `<p class="note-tip"><span>Exam tip</span>${escapeHtml(compactText(n.tip))}</p>` : ""}
               </div>`
           )
           .join("");
