@@ -4271,7 +4271,7 @@
      "Chlorophyll absorbs mainly red and blue light and reflects green light. This is why leaves look green: green is the colour the plant isn't using.",
      "Oxygen is partly used by the plant's own cells for respiration. The rest diffuses out of the leaf through the stomata into the air, or into the water for aquatic plants.",
      "The oxygen released comes from splitting water molecules, not from carbon dioxide. This was shown in the 1940s: when plants were given water containing a heavy form (isotope) of oxygen, ¹⁸O, the oxygen gas they released contained ¹⁸O.",
-     "Glucose is partly used straight away in the plant's own respiration, which releases its energy as ATP for the cell's work. The rest is converted into other substances (next block)."
+     "Glucose is partly used straight away in the plant's own respiration, which releases its energy as ATP for the cell's work. The rest is turned into sucrose, starch and cellulose."
     ],
     "tip": "If asked where the oxygen comes from, say water, not carbon dioxide, and you can back it up with the ¹⁸O evidence. Don't write that plants respire only at night: they respire all the time, day and night."
    },
@@ -4381,48 +4381,71 @@
   ],
   "notes": [
    {
+    "b": "Before measuring anything, you need to know what \"rate\" means and which conditions can speed photosynthesis up or hold it back. This theory is what every hypothesis in the investigation rests on.",
     "h": "Rate of photosynthesis and limiting factors",
     "points": [
-     "The rate of photosynthesis is the amount of product made, or reactant used, per unit time.",
-     "It is usually measured as the rate of oxygen production, in bubbles per minute or cm³ of gas per minute, but it can also be measured as the rate of CO₂ uptake. The oxygen comes from the splitting of water in the light-dependent stage (see Photosynthesis as an anabolic process).",
-     "Light intensity: light supplies the energy for the light-dependent stage, so more light means more ATP and hydrogen are made per minute and the rate rises, until another factor holds it back.",
-     "Carbon dioxide concentration: CO₂ is the raw material of the light-independent stage, so more CO₂ raises the rate, until another factor holds it back.",
-     "Temperature: the light-independent stage is controlled by enzymes. Raising the temperature increases the rate, because molecules move faster and collide more often with the enzymes' active sites, up to an optimum. Above the optimum the rate falls quickly as the enzymes are denatured. Enzyme action is explained in Enzymes as catalysts.",
-     "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. At any moment the rate of photosynthesis is limited by whichever of light intensity, CO₂ concentration or temperature is furthest from its best value.",
-     "Raising a limiting factor increases the rate. Raising a factor that is not limiting has no effect.",
-     "Net rate: a plant respires all the time, using some of the oxygen it makes, so the oxygen given off is photosynthesis minus respiration.",
-     "In very dim light the two processes are equal and no oxygen is given off; this is the compensation point. In darkness the plant takes in oxygen."
-    ]
+     "The rate of photosynthesis is the amount of product made, or reactant used, per unit time. It is usually measured as the rate of oxygen production, in bubbles per minute or cm³ of gas per minute, but it can also be measured as the rate of CO₂ uptake.",
+     "Oxygen is a good thing to measure because it is a product: it comes from the splitting of water in the light-dependent stage (the first stage, which needs light).",
+     "Light intensity: light supplies the energy for the light-dependent stage, so more light means more ATP (the cell's energy carrier) and hydrogen are made per minute and the rate rises, until another factor holds it back.",
+     "Carbon dioxide concentration: CO₂ is the raw material of the light-independent stage (the second stage, which builds glucose), so more CO₂ raises the rate, until another factor holds it back.",
+     "Temperature: the light-independent stage is controlled by enzymes. Raising the temperature increases the rate, because molecules move faster and collide more often with the enzymes' active sites (the part of the enzyme where the reaction happens), up to an optimum.",
+     "Above the optimum the rate falls quickly, because the enzymes are denatured (their shape is permanently changed, so they stop working). There is more on this in Enzymes as catalysts.",
+     "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. At any moment the rate is limited by whichever of light intensity, CO₂ concentration or temperature is furthest from its best value.",
+     "Raising a limiting factor increases the rate. Raising a factor that is not limiting has no effect, because something else is still holding the rate back."
+    ],
+    "tip": "If asked to explain a limiting factor, say it is the factor in shortest supply and that raising it raises the rate, while raising a factor that is not limiting does nothing. Remember that only high temperatures denature enzymes: at low temperatures the rate is low because molecules move slowly."
    },
    {
-    "h": "Investigation planning: aim, variables, control and equipment",
+    "b": "The bubbles you count are not the whole story. A plant is also respiring, and respiration uses oxygen, so what you measure is a net result.",
+    "h": "Net rate: photosynthesis minus respiration",
     "points": [
-     "Aim: to investigate the effect of light intensity (or CO₂ concentration, or temperature) on the rate of photosynthesis of pondweed. Change only one factor in each investigation.",
-     "Elodea (Canadian pondweed) is the standard school plant. It is aquatic, so the oxygen it gives off appears as visible bubbles from the cut stem, which can be counted or collected. It is easy to obtain, grows quickly and photosynthesises rapidly.",
-     "Hypotheses: as light intensity increases, the rate of photosynthesis increases until it levels off; as CO₂ concentration increases, the rate increases until it levels off; the rate increases with temperature up to an optimum and then decreases. Each rests on the theory of rate and limiting factors above.",
-     "Light-intensity investigation: the independent variable is light intensity, changed by the distance of the lamp from the plant or measured with a light meter in lux. The dependent variable is the rate of oxygen production, as bubbles per minute or cm³ of gas per minute.",
-     "Controlled variables: temperature (water bath), CO₂ concentration (the same sodium hydrogencarbonate concentration), the same piece of pondweed (same species, length and number of leaves), the same lamp and bulb, the time allowed to adjust, and the length of the counting period.",
-     "For the other factors, the independent variable is swapped for CO₂ concentration or temperature, and light intensity is kept constant.",
-     "Control: an identical set-up kept in darkness (lamp off, tube covered with foil), or a tube with no plant, gives no bubbles. This shows that the bubbles come from photosynthesis by the plant in the light, not from gas leaving the solution.",
-     "Equipment and materials: fresh Elodea, scalpel or scissors, boiling tube or test tube, paper clip to weigh the pondweed down, beaker of water as a water bath (or an electric water bath), thermometer, bench lamp (an LED bulb gives out less heat), metre stick or ruler, stopwatch, and a light meter (optional).",
-     "Chemicals: sodium hydrogencarbonate (NaHCO₃) powder, or solutions of known concentration, in water that has been boiled and cooled. For measuring volume: a funnel and graduated tube, or a capillary tube attached to a syringe, called a photosynthometer. A glowing splint is optional, for testing the gas."
+     "A plant respires all the time, using some of the oxygen it makes, so the oxygen given off is photosynthesis minus respiration. This is called the net (apparent) rate.",
+     "In very dim light the two processes are equal and no oxygen is given off, because all the oxygen made is used up. This is the compensation point.",
+     "In darkness there is no photosynthesis, so the plant takes in oxygen for respiration."
     ]
    },
    {
+    "b": "A good investigation changes one thing and measures one thing. Planning starts with a clear aim, a prediction for each factor, and a plant that lets you see the result.",
+    "h": "Investigation planning: aim, hypotheses and choice of plant",
+    "points": [
+     "Aim: to investigate the effect of light intensity (or CO₂ concentration, or temperature) on the rate of photosynthesis of pondweed. Write one investigation per factor, changing only that factor, so you know which one caused any change.",
+     "Hypothesis for light: as light intensity increases, the rate of photosynthesis increases until it levels off. This rests on the theory that light drives the light-dependent stage until something else becomes limiting.",
+     "Hypothesis for CO₂: as CO₂ concentration increases, the rate increases until it levels off. This rests on CO₂ being the raw material of the light-independent stage.",
+     "Hypothesis for temperature: the rate increases with temperature up to an optimum and then decreases, because the enzymes of the light-independent stage work faster until they are denatured.",
+     "Elodea (Canadian pondweed) is the standard school plant. It is aquatic, so the oxygen it gives off appears as visible bubbles from the cut stem, which can be counted or collected. It is also easy to obtain, grows quickly and photosynthesises rapidly."
+    ]
+   },
+   {
+    "b": "Next you decide what to change, what to measure and what to hold steady, and gather the apparatus. The variables below are for the light-intensity investigation.",
+    "h": "Investigation planning: variables, control and equipment",
+    "points": [
+     "The independent variable (the one you change) is light intensity, set by the lamp's distance from the plant or measured with a light meter in lux.",
+     "The dependent variable (the one you measure) is the rate of oxygen production, as bubbles per minute or cm³ of gas per minute.",
+     "Controlled variables (kept the same, so they cannot affect the result): temperature (water bath), CO₂ concentration (same sodium hydrogencarbonate concentration), the same pondweed (species, length, leaves), the same lamp and bulb, the adjustment time and the counting period.",
+     "For the other factors, swap the independent variable for CO₂ concentration or temperature, and keep light intensity constant.",
+     "Control: an identical set-up kept in darkness (lamp off, tube covered with foil), or a tube with no plant, gives no bubbles. This shows that the bubbles come from photosynthesis by the plant in the light, not from gas leaving the solution.",
+     "Equipment: fresh Elodea, scalpel or scissors, boiling tube or test tube, paper clip to weigh the pondweed down, beaker as a water bath (or an electric water bath), thermometer, bench lamp (an LED bulb gives out less heat), metre stick, stopwatch, and a light meter (optional).",
+     "Chemicals: sodium hydrogencarbonate (NaHCO₃) powder, or solutions of known concentration, which supplies the plant with CO₂, in water that has been boiled and cooled.",
+     "For measuring volume: a funnel and graduated tube, or a capillary tube attached to a syringe, called a photosynthometer. A glowing splint is optional, for testing the gas."
+    ]
+   },
+   {
+    "b": "This basic set-up is used for all three investigations. Only the factor you change differs, so learn it once and adapt it.",
     "h": "Investigation set-up and measurement",
     "points": [
      "1. Fill a boiling tube with water containing a set concentration of sodium hydrogencarbonate. It dissolves to supply CO₂ to the plant, so that CO₂ is not limiting (except in the carbon dioxide investigation).",
      "2. Cut a healthy shoot of pondweed about 5 to 8 cm long, cutting the stem cleanly and slantwise under water.",
      "3. Place it in the tube upside down, with the cut end at the top, weighed down with a paper clip.",
-     "4. Stand the tube in a beaker of water at a constant temperature, for example 25 °C, checked with a thermometer.",
+     "4. Stand the tube in a beaker of water at a constant temperature, for example 25 °C, checked with a thermometer, so the temperature stays steady.",
      "5. Carry out the investigation in a darkened room, so that the lamp is the only light source.",
      "Counting: let the plant adjust to each new condition for about 5 minutes, then count the bubbles leaving the cut end in one minute. Repeat the count three times at each setting and calculate the mean.",
-     "Collecting (more accurate): place an inverted funnel over the pondweed in a beaker, with a water-filled graduated tube over the stem of the funnel, and record the volume of gas collected in a set time, for example 5 minutes. Alternatively, draw the gas up a capillary tube with a syringe and measure the length of the bubble.",
-     "Volume per unit time is more accurate than counting, because bubbles vary in size.",
-     "Testing the gas (optional): collected gas relights a glowing splint, showing that it is rich in oxygen. It is not pure oxygen; some nitrogen and carbon dioxide dissolved in the water also come out."
-    ]
+     "Collecting (more accurate): place an inverted funnel over the pondweed in a beaker, with a water-filled graduated tube over its stem, and record the gas collected in a set time, for example 5 minutes. Alternatively, draw the gas up a capillary tube with a syringe and measure the bubble's length.",
+     "Volume per unit time is more accurate than counting, because bubbles vary in size. Optional gas test: it relights a glowing splint, so it is rich in oxygen, but not pure oxygen, since dissolved nitrogen and carbon dioxide also come out."
+    ],
+    "tip": "Examiners ask you to name the plant and give a reason for using it, to state how the rate was measured, and to say how temperature was kept constant (a water bath checked with a thermometer)."
    },
    {
+    "b": "Here the independent variable is light intensity, which you change by moving the lamp. The challenge is changing the light without also changing the temperature.",
     "h": "Investigation method: light intensity",
     "points": [
      "1. Set up as in the basic set-up.",
@@ -4431,20 +4454,24 @@
      "4. Move the lamp to 20, 30, 40 and 50 cm, and repeat.",
      "5. Check the water temperature at each distance and keep it constant, by adding cold or warm water to the bath.",
      "A lamp close to the plant also heats it, which would change two variables at once. Use an LED bulb, or place a beaker or flat-sided tank of water between the lamp and the plant as a heat shield, and check the thermometer.",
-     "Moving the lamp further away lowers the light intensity as the inverse square of the distance (light intensity ∝ 1/d²): doubling the distance gives a quarter of the light intensity.",
-     "Plot the rate against 1/d² to show the relationship with light intensity, or measure the light intensity at each position with a light meter."
-    ]
+     "Moving the lamp further away lowers the light intensity as the inverse square of the distance (light intensity ∝ 1/d²): doubling the distance gives a quarter of the light intensity. It does not fall in simple proportion.",
+     "So plot the rate against 1/d² to show the relationship with light intensity, or measure the light intensity at each position with a light meter."
+    ],
+    "tip": "Students often forget the heating effect of the lamp, so say how you keep temperature constant. Don't plot rate against distance and call it light intensity: use 1/d² or a light meter."
    },
    {
+    "b": "Here the independent variable is CO₂ concentration, which you change by using sodium hydrogencarbonate solutions of different strengths. Light and temperature are held constant.",
     "h": "Investigation method: carbon dioxide concentration",
     "points": [
      "1. Make up a series of sodium hydrogencarbonate solutions of increasing concentration, for example 0%, 0.25%, 0.5%, 0.75% and 1%, using water that has been boiled and cooled. Boiling removes dissolved CO₂, so the 0% tube has very little.",
-     "2. Keep the lamp at a fixed distance close to the plant, for example 10 cm, and keep the temperature constant.",
+     "2. Keep the lamp at a fixed distance close to the plant, for example 10 cm, and keep the temperature constant, so that CO₂ is the only thing that changes.",
      "3. Place the same pondweed in each solution in turn, allow 5 minutes to adjust, and count the bubbles per minute three times.",
      "4. Calculate the mean for each concentration."
-    ]
+    ],
+    "tip": "Sodium hydrogencarbonate is the source of CO₂ (through hydrogencarbonate ions). It is not a nutrient or a source of oxygen, and the bubbles are mostly oxygen, not carbon dioxide."
    },
    {
+    "b": "Here the independent variable is temperature, changed with water baths. Light and CO₂ are held constant.",
     "h": "Investigation method: temperature",
     "points": [
      "1. Set up as in the basic set-up, with a fixed lamp distance and a fixed sodium hydrogencarbonate concentration.",
@@ -4455,48 +4482,61 @@
     ]
    },
    {
+    "b": "This investigation mixes electricity, water, heat and sharp tools, so each hazard needs its own precaution.",
     "h": "Investigation safety",
     "points": [
      "Electricity and water: keep the lamp, its cable and plug away from the water bath, dry your hands before touching switches, and do not move a lamp while it is on and hot.",
-     "Lamp bulbs, other than LEDs, get very hot and can burn; let them cool before moving them.",
+     "Lamp bulbs, other than LEDs, get very hot and can burn, so let them cool before moving them.",
      "Take care with the scalpel: cut on a tile, away from the body. Take care with hot water baths and glassware.",
      "Wash your hands after handling pondweed and pond water.",
-     "Elodea canadensis is a non-native invasive species in Ireland. Never put leftover pondweed or its water into ponds, lakes, rivers or drains; dispose of it in compost or general waste."
+     "Elodea canadensis is a non-native invasive species (one that spreads and harms native wildlife) in Ireland. Never put leftover pondweed or its water into ponds, lakes, rivers or drains; dispose of it in compost or general waste."
     ]
    },
    {
+    "b": "The results table and graph turn counts into a relationship you can explain. For each factor the shape of the graph tells you what is limiting the rate.",
     "h": "Investigation results, graphs and conclusion",
     "points": [
-     "Record the primary data in a table: the independent variable (distance in cm and 1/d², concentration in %, or temperature in °C), the three counts and the mean number of bubbles per minute.",
+     "Record the primary data (the results you collect yourself) in a table: the independent variable (distance in cm and 1/d², concentration in %, or temperature in °C), the three counts and the mean number of bubbles per minute.",
      "Plot the mean rate on the y-axis against the independent variable on the x-axis, with units, and join the points with a smooth curve or straight lines.",
-     "Light intensity: as the lamp moves closer, light intensity increases and the rate increases. At high intensity the curve levels off, forming a plateau, because another factor, CO₂ concentration or temperature, has become limiting. The rate of photosynthesis therefore falls as the distance increases.",
+     "Light intensity: as the lamp moves closer, the rate increases, so it falls as distance increases. At high intensity the curve levels off in a plateau, because another factor, CO₂ concentration or temperature, has become limiting.",
      "CO₂ concentration: the rate increases with CO₂ concentration and then levels off, because light intensity or temperature becomes limiting. At 0% (boiled water) there are few or no bubbles.",
-     "Temperature: the rate rises up to an optimum, then falls steeply above it, as the enzymes of the light-independent stage are denatured. At the highest temperatures bubbling may stop. The curve is not symmetrical: the fall is steeper than the rise.",
-     "Conclusion: state the relationship shown by the primary data and whether it supports the hypothesis. On the levelling-off part of the graph, name the factor that is now limiting.",
-     "Diagram: the set-up, with a lamp and metre stick, a heat shield, a beaker water bath with a thermometer, and a boiling tube of sodium hydrogencarbonate solution with an upside-down pondweed shoot giving off bubbles from the cut end (or, as an alternative, the funnel and graduated collecting tube). Label each part.",
-     "Diagram: two sketch graphs. (a) Rate against light intensity, rising and then levelling off, with a second, higher curve labelled higher CO₂ concentration that levels off at a higher rate; label the rising part light limiting and the plateau CO₂ or temperature limiting. (b) Rate against temperature, rising to an optimum and then falling steeply."
-    ]
+     "Temperature: the rate rises up to an optimum, then falls steeply above it, as the enzymes of the light-independent stage are denatured. Bubbling may stop at the highest temperatures. The curve is not symmetrical: the fall is steeper than the rise.",
+     "Conclusion: state the relationship shown by the primary data and whether it supports the hypothesis. On the levelling-off part of the graph, name the factor that is now limiting."
+    ],
+    "tip": "A plateau means another factor is limiting, not that the plant is full or that enzymes are denatured. Denaturation explains only the fall at high temperature."
    },
    {
+    "b": "Examiners often ask you to draw the apparatus or sketch the expected graphs. Learn the labels for each.",
+    "h": "Investigation diagrams to draw",
+    "points": [
+     "Diagram: the set-up. Labels: lamp, metre stick, heat shield, beaker water bath, thermometer, boiling tube of sodium hydrogencarbonate solution, upside-down pondweed with bubbles at the cut end (or the funnel and graduated collecting tube).",
+     "Diagram: two sketch graphs. (a) Rate against light intensity, rising then levelling off, plus a higher curve labelled higher CO₂ concentration; label the rise light limiting and the plateau CO₂ or temperature limiting. (b) Rate against temperature, rising to an optimum then falling steeply."
+    ],
+    "tip": "For a graph of rate against light intensity or CO₂ concentration, sketch and label it over a wide range and explain the shape: it rises, then levels off as another factor becomes limiting."
+   },
+   {
+    "b": "Your own results are only one source. You can also use other people's data to support a conclusion, and apply the idea of limiting factors to growing crops.",
     "h": "Using secondary data",
     "points": [
-     "Secondary data are results collected by others: other groups' class results, textbook or published graphs, or data-logger results from an oxygen or CO₂ sensor. Pooling class results increases the sample size and checks reproducibility.",
+     "Secondary data are results collected by others: other groups' class results, textbook or published graphs, or data-logger results from an oxygen or CO₂ sensor. Pooling class results increases the sample size and checks reproducibility (whether others get the same result).",
      "Interpreting a graph of rate against light intensity at two CO₂ concentrations (or two temperatures): where the two curves overlap, light is the limiting factor, because raising CO₂ makes no difference.",
      "Where the two curves separate and each levels off, CO₂ (or temperature) is limiting, because raising it raises the plateau.",
-     "Applying limiting factors: commercial glasshouse growers raise the yield of crops such as tomatoes and lettuce by supplying extra light (artificial lighting), heat and CO₂. Heat and CO₂ can come from burning paraffin or propane, which also gives heat, or from adding CO₂ gas.",
+     "Applying limiting factors: commercial glasshouse growers raise the yield of crops such as tomatoes and lettuce by supplying extra light (artificial lighting), heat and CO₂. Burning paraffin or propane gives both heat and CO₂, or CO₂ gas can be added.",
      "Each factor is kept just high enough that it is not limiting. Raising a factor that is not limiting wastes fuel and money and adds to emissions."
-    ]
+    ],
+    "tip": "If asked how limiting factors apply to greenhouse growing, name the factors a grower can supply (light, heat, CO₂) and say each is raised only while it is limiting."
    },
    {
+    "b": "No school investigation is perfect. Knowing where the errors come from tells you how to reduce them.",
     "h": "Sources of error and limitations",
     "points": [
      "Bubbles vary in size and can be missed or merge when the rate is fast, so counting is imprecise. Collecting the volume of gas is more accurate.",
-     "Other light in the room, such as daylight or other groups' lamps, changes the light intensity; work in a darkened room.",
-     "Temperature can drift, especially with a hot bulb close to the plant. Check and adjust it.",
+     "Other light in the room, such as daylight or other groups' lamps, changes the light intensity, so work in a darkened room.",
+     "Temperature can drift, especially with a hot bulb close to the plant, so check it and adjust it.",
      "The gas is not pure oxygen, and some oxygen dissolves in the water instead of forming bubbles, so the bubbles underestimate the true rate. The measured rate is also a net rate, after respiration.",
-     "The carbon dioxide from sodium hydrogencarbonate is used up over time, and the plant's response may change during a long investigation. Use fresh solution, a fresh plant for each run if needed, and repeat the whole series.",
+     "The carbon dioxide from sodium hydrogencarbonate is used up over time, and the plant's response may change, so use fresh solution, a fresh plant for each run if needed, and repeat the whole series.",
      "Allowing too little time to adjust after each change gives rates that still reflect the previous setting.",
-     "Repeat each reading at least three times and calculate a mean. Compare your results with other groups' results."
+     "Repeat each reading at least three times and calculate a mean, so a single odd count has less effect. Compare your results with other groups' results."
     ]
    }
   ],
@@ -4562,7 +4602,7 @@
      "The pigment molecules sit in clusters of hundreds, called light-harvesting or antenna complexes, around a reaction centre. The cluster works like a satellite dish, collecting light over a wide area and focusing it on one point.",
      "When any pigment in the cluster absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule.",
      "At the reaction centre, the energy raises (excites) one of the chlorophyll's electrons to a high energy level. This energised electron leaves the chlorophyll and is taken up by an electron acceptor, the first carrier of an electron transport chain.",
-     "Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one."
+     "Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one, and in the non-cyclic pathway it takes that electron from water."
     ],
     "tip": "If asked what chlorophyll releases when it absorbs light, the answer is energised (high-energy) electrons. Don't say that light hits water and splits it: the light is absorbed by the pigments."
    },
@@ -4575,7 +4615,7 @@
      "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺, a hydrogen carrier. Each NADP⁺ takes two electrons and one proton (H⁺) to form NADPH: NADP⁺ + 2e⁻ + H⁺ → NADPH.",
      "4. The chlorophyll is still positively charged, so it strongly attracts electrons and pulls them from water molecules. This splits the water, a step called photolysis (splitting by light, because the energy for it ultimately came from light): 2H₂O → 4H⁺ + 4e⁻ + O₂.",
      "5. The electrons from water replace the ones the chlorophyll lost, so it is neutral again and ready to absorb more energy.",
-     "The protons (H⁺) from photolysis are used to form NADPH, and they also help build up the proton store that drives ATP-making in the thylakoid.",
+     "The protons (H⁺) from photolysis are used to form NADPH, and they also build up inside the thylakoid, where this crowd of protons is used to power ATP-making. There is more on this in The chloroplast's internal structure.",
      "The oxygen from photolysis is a by-product. It is used in the cell's respiration or released through the stomata.",
      "It is called non-cyclic because the electrons go one way only, from water through the chlorophyll and the chain to NADP⁺, and never return to where they started. The electrons aren't used up; they end up on NADPH.",
      "Products of the non-cyclic pathway: ATP, NADPH and oxygen."
@@ -4590,7 +4630,7 @@
      "As they pass along the carriers, they give up their extra energy, which is used to make ATP from ADP and Pi.",
      "Because the electrons come back, the chlorophyll is neutral again without needing electrons from water. So water is not split, no oxygen is released and no NADPH is made.",
      "Products of the cyclic pathway: ATP only.",
-     "Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed. The cyclic pathway tops up the extra ATP.",
+     "Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed (built into sugar) in the light-independent reactions, the second stage that makes glucose. The cyclic pathway tops up the extra ATP.",
      "It also runs when NADP⁺ is in short supply because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
     ],
     "tip": "The classic mistake is saying the cyclic pathway makes NADPH or oxygen. It makes ATP only, because water is never split."
@@ -4604,7 +4644,7 @@
      "Water: split by photolysis in the non-cyclic pathway, to replace the lost electrons; not needed in the cyclic pathway, because the electrons come back.",
      "Products: non-cyclic makes ATP, NADPH and oxygen; cyclic makes ATP only.",
      "What they share: both start with light energy reaching the reaction centre and an energised electron leaving the chlorophyll, both pass electrons along carriers to make ATP, and both happen on the thylakoid membranes.",
-     "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ becoming NADP⁻ before it picks up a proton. Recognise these names, but learn the single step to NADPH given above.",
+     "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ first picking up two electrons (becoming NADP⁻) and then a proton. Recognise these names, but learn the single step to NADPH given above.",
      "Diagram: one energy diagram with chlorophyll at the bottom receiving light from pigment molecules; the electron rising to an acceptor; a downhill chain (ATP made) ending at NADP⁺ → NADPH; water entering below the chlorophyll; a loop back to the chlorophyll for the cyclic pathway (ATP made)."
     ],
     "tip": "When asked to distinguish, give paired points, one for each pathway, covering electron route, products and whether water is split."
@@ -4668,36 +4708,43 @@
   ],
   "notes": [
    {
+    "b": "The second stage of photosynthesis is where glucose is actually built. It uses the ATP and NADPH made in the first stage as its energy and hydrogen supply, and in return sends the empty carriers back.",
     "h": "The light-independent reactions (Higher Level only)",
     "points": [
-     "Location: the stroma of the chloroplast, which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.",
+     "Location: the stroma (the fluid that fills the chloroplast), which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.",
      "1. Carbon dioxide diffuses into the stroma, from the air spaces of the leaf through the cell and the chloroplast's membranes. It is taken up, or fixed, by combining with a carbon dioxide-accepting compound already present in the stroma.",
-     "2. NADPH and ATP from the light-dependent reactions enter the reactions.",
+     "2. NADPH and ATP from the light-dependent reactions enter the reactions, because they supply the hydrogen and the energy that CO₂ needs to become glucose.",
      "3. Protons and electrons, that is hydrogen, are transferred from NADPH to the carbon compounds made from CO₂. This adds hydrogen to the carbon, which is reduction, turning CO₂ into carbohydrate. NADPH becomes NADP⁺.",
-     "4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi.",
-     "5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose. The glucose is then used, or converted to sucrose, starch and cellulose (see Photosynthesis as an anabolic process).",
+     "4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi (phosphate).",
+     "5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose, because each supplies one of its six carbon atoms. The glucose is then used, or converted to sucrose, starch and cellulose.",
      "6. ADP + Pi and NADP⁺ return to the light-dependent reactions on the thylakoid membranes, where they are reloaded to ATP and NADPH and can be re-used.",
-     "The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose.",
-     "Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released."
-    ]
+     "The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose."
+    ],
+    "tip": "Keep the roles straight: ATP gives energy, and NADPH gives hydrogen (protons and electrons). It is ADP + Pi and NADP⁺ that return, not ATP. Don't call this the dark stage or say it happens only at night."
    },
    {
-    "h": "Why the stage is sensitive to temperature and CO₂, and stops in the dark (Higher Level only)",
+    "b": "Once you know the inputs and outputs, you can explain why this stage responds to temperature and CO₂ and why it stops soon after dark, even though it uses no light directly.",
+    "h": "Summary of the stage, and what affects it (Higher Level only)",
     "points": [
-     "Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis (see Investigation: rate of photosynthesis).",
+     "Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released, so the carriers are free to be reloaded.",
+     "Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis.",
      "CO₂ is the raw material of this stage, so its supply directly limits the rate of glucose production.",
-     "In darkness the light-dependent reactions stop. ATP and NADPH run out within a short time, and the light-independent reactions then stop too, even though they do not use light directly."
-    ]
+     "In darkness the light-dependent reactions stop, so ATP and NADPH run out within a short time. The light-independent reactions then stop too, even though they do not use light directly."
+    ],
+    "tip": "If asked why this stage stops soon after a plant is put in the dark, explain that the light-dependent reactions stop making ATP and NADPH, which this stage needs. 'Light-independent' means it uses no light itself."
    },
    {
+    "b": "Photosynthesis is best understood as two linked stages joined by recycled carrier molecules. Modelling it means showing what goes in and out of each stage and what the carriers move between them.",
     "h": "Modelling the two-stage process (Higher Level only)",
     "points": [
-     "Stage 1, the light-dependent reactions on the thylakoid membranes: light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.",
-     "Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.",
-     "The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1. Because they are recycled, the chloroplast needs only a small supply of each.",
-     "Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH. The isotope evidence for this is in Photosynthesis as an anabolic process.",
-     "Diagram: the two-stage model. Draw a thylakoid (stage 1) on the left and the stroma (stage 2) on the right. Stage 1 has inputs of light and H₂O and an output of O₂. Stage 2 has an input of CO₂ and an output of glucose (C₆H₁₂O₆). Between the stages draw two loops of arrows: ATP from stage 1 to stage 2 with ADP + Pi returning, and NADPH from stage 1 to stage 2 with NADP⁺ returning. Label each arrow with what it carries: energy, or protons and electrons."
-    ]
+     "Stage 1, the light-dependent reactions on the thylakoid membranes (the flattened sacs inside the chloroplast): light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.",
+     "Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded, which is why this stage needs stage 1. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.",
+     "The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1.",
+     "Because the transfer molecules are recycled, the chloroplast needs only a small supply of each.",
+     "Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH.",
+     "Diagram: thylakoid (stage 1) beside stroma (stage 2). Stage 1: in light, H₂O; out O₂. Stage 2: in CO₂; out glucose. Two loops between them: ATP across and ADP + Pi back, NADPH across and NADP⁺ back, each arrow labelled energy, or protons and electrons."
+    ],
+    "tip": "In a labelled model, show both carrier loops and the location of each stage. Name the two products of the light-dependent stage used in stage 2 and their roles (ATP: energy; NADPH: protons and electrons), and the two that return (ADP + Pi, NADP⁺)."
    }
   ],
   "questions": [
@@ -4754,46 +4801,56 @@
   ],
   "notes": [
    {
+    "b": "Photosynthesis happens inside the chloroplast, and its two stages happen in different parts of it. Each internal part has a structure that suits its job.",
     "h": "Internal structure of the chloroplast (Higher Level only)",
     "points": [
-     "Envelope: two membranes, an outer and an inner, surround the chloroplast. The inner membrane controls which substances enter and leave, such as CO₂ going in and the products of photosynthesis going out, and keeps the stroma's enzymes and conditions separate from the cytoplasm.",
-     "Thylakoids are flattened membrane sacs inside the chloroplast, separate from the envelope. Each encloses a fluid-filled space called the thylakoid space, or lumen.",
+     "Envelope: two membranes, an outer and an inner, surround the chloroplast. The inner membrane controls which substances enter and leave, such as CO₂ going in and the products of photosynthesis going out, so the stroma (the fluid inside the envelope) keeps its enzymes and conditions separate from the cytoplasm.",
+     "Thylakoids are flattened membrane sacs inside the chloroplast, separate from the envelope. Each one encloses a fluid-filled space called the thylakoid space, or lumen.",
      "Thylakoids are stacked like piles of coins into grana (singular: granum). Grana are joined by single, unstacked thylakoid membranes called intergranal lamellae, so the whole system is one connected network of membranes.",
-     "The thylakoid membranes hold the pigments in their clusters and reaction centres, the electron transport chains and the enzyme ATP synthase. They are the site of the light-dependent reactions.",
-     "Stroma: the fluid around the thylakoids, containing the enzymes of the light-independent reactions, so it is the site of those reactions. It also contains starch grains, which are a temporary store of glucose, lipid droplets, ribosomes and a small loop of DNA.",
-     "The chloroplast makes some of its own proteins, including some of the proteins of the thylakoid membrane and of the light-independent reactions, using its own DNA and ribosomes. How this DNA is inherited is explained in Nuclear and non-nuclear inheritance.",
-     "Diagram: an electron-microscope-level drawing of a chloroplast in section, labelled outer membrane, inner membrane, stroma, granum, thylakoid, thylakoid space, intergranal lamella, starch grain, ribosomes and DNA. This extends the simpler chloroplast diagram in Structures and organelles of animal and plant cells."
-    ]
+     "The thylakoid membranes hold the pigments (molecules that absorb light, such as chlorophyll) in their clusters and reaction centres, the electron transport chains (chains of electron carriers) and the enzyme ATP synthase. This is why they are the site of the light-dependent reactions, the first stage of photosynthesis.",
+     "The stroma contains the enzymes of the light-independent reactions, the second stage of photosynthesis, so it is the site of those reactions. It also holds starch grains, which are a temporary store of glucose, lipid droplets, ribosomes (the small structures that make proteins) and a small loop of DNA.",
+     "The chloroplast makes some of its own proteins, including some of the proteins of the thylakoid membrane and of the light-independent reactions, using its own DNA and ribosomes. There is more on this in Nuclear and non-nuclear inheritance.",
+     "Diagram: an electron-microscope-level drawing of a chloroplast in section, labelled outer membrane, inner membrane, stroma, granum, thylakoid, thylakoid space, intergranal lamella, starch grain, ribosomes and DNA."
+    ],
+    "tip": "Exams ask you to label a chloroplast diagram (granum, thylakoid, stroma, membranes) and to say which stage of photosynthesis happens in each part. The thylakoid membranes are for the light-dependent stage and the stroma for the light-independent stage."
    },
    {
+    "b": "The light-dependent reactions need a chain that moves electrons along and releases their energy bit by bit. In the chloroplast, this chain is built into the thylakoid membrane.",
     "h": "The electron transport chain in the thylakoid membrane (Higher Level only)",
     "points": [
-     "An electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level, releasing energy in small steps that can be used.",
-     "In the thylakoid membrane, the chain is made of a number of large protein complexes embedded in (spanning) the membrane, linked by smaller mobile electron carriers that move within or along the membrane and carry electrons from one complex to the next.",
-     "Some protein complexes contain the clusters of pigment molecules and the reaction-centre chlorophyll; others pass electrons on and use their energy.",
-     "NADP⁺ is reduced to NADPH on the stroma side of the membrane, right where the light-independent reactions use it.",
-     "Embedding the complexes in a membrane holds them in a fixed order and close together, so electrons pass quickly and in the right sequence. The energy released can be used to move protons across the membrane, as described in the block on the thylakoid proton gradient below."
-    ]
+     "An electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level. It releases energy in small steps that can be used, such as water running downhill in stages, losing height and so energy at each step.",
+     "In the thylakoid membrane, the chain is made of a number of large protein complexes (large groups of proteins that work together) embedded in, or spanning, the membrane. Smaller mobile electron carriers that move within or along the membrane link the complexes, carrying electrons from one to the next.",
+     "Some protein complexes contain the clusters of pigment molecules and the reaction-centre chlorophyll, the special chlorophyll molecule that loses electrons when light hits it. Others pass electrons on and use their energy.",
+     "NADP⁺, a carrier that takes up electrons and hydrogen, is reduced (gains electrons) to NADPH, as NADP⁺ + 2e⁻ + H⁺ → NADPH, on the stroma side of the membrane. This means NADPH is made right where the light-independent reactions use it.",
+     "Embedding the complexes in a membrane holds them in a fixed order and close together, so electrons pass quickly and in the right sequence. The energy released can move protons across the membrane, setting up a proton gradient (a difference in proton concentration across it) that drives ATP making."
+    ],
+    "tip": "Exams ask you to name the location of the electron transport chain in photosynthesis. Say the thylakoid membrane, not the envelope membranes and not the stroma."
    },
    {
+    "b": "The energy released by the electron transport chain is used to move protons (H⁺) into a small enclosed space. The protons then flow back out through an enzyme, and this flow powers the making of ATP.",
     "h": "The thylakoid proton gradient (Higher Level only)",
     "points": [
-     "As electrons pass along the chain, protons (H⁺) are moved from the stroma into the thylakoid space; protons released by the photolysis of water are also released there. The small, enclosed thylakoid space therefore builds up a high concentration of protons.",
-     "The protons flow back out of the thylakoid space into the stroma through ATP synthase in the thylakoid membrane, and the enzyme uses this flow to make ATP from ADP and Pi on the stroma side, where the light-independent reactions need it. The same mechanism makes ATP in mitochondria, explained in The mitochondrion's internal structure and ATP synthase."
-    ]
+     "As electrons pass along the chain, protons (H⁺, hydrogen ions) are moved from the stroma into the thylakoid space. Protons released by the photolysis of water (splitting water using light energy) are also released there, so the small, enclosed thylakoid space builds up a high concentration of protons.",
+     "Photolysis happens on the thylakoid-space side of the membrane, and its equation is 2H₂O → 4H⁺ + 4e⁻ + O₂, so the protons it makes go straight into the thylakoid space.",
+     "The protons flow back out of the thylakoid space into the stroma through ATP synthase in the thylakoid membrane. The enzyme uses this flow to make ATP from ADP and phosphate (Pi), as ADP + Pi → ATP, on the stroma side, where the light-independent reactions need it.",
+     "The same mechanism makes ATP in mitochondria. There is more on this in The mitochondrion's internal structure and ATP synthase."
+    ],
+    "tip": "Protons build up inside the thylakoid space, not in the stroma and not between the envelope membranes, and ATP is made in the stroma. Keep these locations separate in your answer."
    },
    {
-    "h": "How the internal structure facilitates photosynthesis (Higher Level only)",
+    "b": "Exams ask how the structure of the chloroplast suits it to photosynthesis. The key idea is that each feature gives the reactions more room to work, or keeps them in the right place.",
+    "h": "How the internal structure helps photosynthesis (Higher Level only)",
     "points": [
      "Large surface area: the many stacked thylakoids give a huge area of membrane for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH can be made.",
-     "Organisation of pigments: grouping many pigment molecules around each reaction centre funnels the energy of photons absorbed over a wide area, and over a range of colours, to the reaction centres.",
+     "Organisation of pigments: grouping many pigment molecules around each reaction centre funnels the energy of photons absorbed over a wide area, and over a range of colours, to the reaction centres. This means more of the light energy reaches the reaction centres.",
      "Separate compartments: the thylakoid space is a small, enclosed compartment, so protons can be concentrated in it to drive ATP synthase. The thylakoid membrane is not freely permeable to protons, so the gradient is kept.",
-     "Two stages side by side: the light-dependent reactions on the membranes and the light-independent reactions in the stroma are next to each other. ATP and NADPH are released into the stroma directly where they are used, and ADP + Pi and NADP⁺ return a short distance.",
-     "The stroma holds all the enzymes of the light-independent reactions in one compartment, with their substrates, and stores the product temporarily as starch.",
-     "Own DNA and ribosomes let the chloroplast make the membrane and enzyme proteins that its two stages need, on the spot.",
-     "Related: the leaf cells that do most photosynthesis, the palisade mesophyll, are packed with chloroplasts, which can move within the cell towards or away from the light.",
-     "Diagram: a section of a thylakoid membrane, with the stroma above and the thylakoid space below. Show a pigment cluster with its reaction-centre chlorophyll receiving light; electron carriers and protein complexes in the membrane, with an arrow for electron flow; water being split on the thylakoid-space side (H₂O → 2H⁺ + ½O₂ + 2e⁻); H⁺ being moved into the thylakoid space and building up there; NADP⁺ + H⁺ → NADPH on the stroma side; and ATP synthase, with H⁺ flowing out into the stroma and ADP + Pi → ATP. Label protein complex, mobile electron carrier, thylakoid membrane, thylakoid space, stroma and ATP synthase."
-    ]
+     "Two stages side by side: the light-dependent reactions on the membranes and the light-independent reactions in the stroma are next to each other, so ATP and NADPH are released into the stroma directly where they are used. ADP + Pi and NADP⁺ return only a short distance.",
+     "The stroma holds all the enzymes of the light-independent reactions in one compartment, with their substrates (the substances they act on), so they meet easily. It stores its glucose temporarily as starch.",
+     "Own DNA and ribosomes let the chloroplast make some of its own proteins on the spot, such as the membrane and enzyme proteins its two stages need.",
+     "Related: the palisade mesophyll, the leaf cells that do most photosynthesis, are packed with chloroplasts, which can move within the cell towards or away from the light.",
+     "Diagram: a thylakoid membrane, stroma above and thylakoid space below. Draw pigment clusters, protein complexes and electron carriers with electron arrows, water splitting and H⁺ building up inside, and ATP synthase making ATP in the stroma. Label thylakoid membrane, thylakoid space, stroma, protein complex, mobile electron carrier, ATP synthase."
+    ],
+    "tip": "Explain the structure first, then how it helps: a large surface area for the reactions, a sealed space for building up protons, and the two stages placed side by side."
    }
   ],
   "questions": [

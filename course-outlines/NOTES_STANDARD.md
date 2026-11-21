@@ -74,7 +74,9 @@ A short gloss of a term is not teaching the topic.
    Dargle, Co. Wicklow"), not "a waterfall in Ireland". Use the syllabus's own settings where it
    gives them. Never invent statistics. If unsure of a figure, leave it out.
 13. **Accurate before complete.** If you aren't confident a fact is correct, omit it rather than
-   guess.
+   guess. Copy every equation and formula character for character from the package or the
+   old notes; never retype, shorten or rebalance one. Where the same equation appears in two
+   forms, use the form the earlier subsection uses.
 14. **Include the assumed knowledge.** Syllabus documents list outcomes, not the basics those
    outcomes rest on, but exam questions take the basics for granted and every textbook teaches
    them. Teach whatever a student needs in order to meet each outcome, even when the syllabus
