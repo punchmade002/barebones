@@ -632,7 +632,7 @@
     "part": "maths-pp-2020-ordinary-p1-q7#(b)",
     "note": null,
     "legend": {
-     "1": "the growth factor, 1.331",
+     "1": "the growth factor over the whole term",
      "2": "the rate r, as a decimal",
      "3": "the answer, as a percentage"
     },
@@ -681,7 +681,7 @@
     "part": "maths-pp-2017-ordinary-p1-q1#(c)",
     "note": "Changed from being given the growth factor to being given the start and end amounts, so the factor has to be worked out by dividing first. The rate stays in slot 2 and the answer as a percentage in slot 3.",
     "legend": {
-     "1": "the growth factor",
+     "1": "the growth factor over the whole term",
      "2": "the rate r, as a decimal",
      "3": "the answer, as a percentage"
     },
@@ -742,7 +742,7 @@
     "part": "maths-pp-2023-ordinary-p1-q1#(c)",
     "note": "Changed from Problem 2: 4 years instead of 3, so you take the fourth root, and the rate sits in the formula as r/100 (a percentage) rather than as a decimal. The steps are the same: divide, take the root, subtract 1.",
     "legend": {
-     "1": "the growth factor, 1.331",
+     "1": "the growth factor over the whole term",
      "2": "the rate r, as a decimal",
      "3": "the answer, as a percentage"
     },
