@@ -1,0 +1,359 @@
+[
+ {"skill": "geo-thm20", "problems": [
+  {"part": "maths-pp-2015-higher-p2-q7#(a)", "note": null,
+   "legend": {"1": "the right angle at T (90°)", "2": "the unknown radius r"},
+   "steps": [
+    {"ask": "BK and AH both meet the tangent HK. What do they make with it, and what shape is BTHK?",
+     "title": "Draw BT parallel to KH",
+     "lines": [
+      {"text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."},
+      {"tex": "|TH| &= |BK| = \\hl{2}{r}"},
+      {"tex": "|BT| &= |HK| = \\hl{2}{8r}"},
+      {"tex": "|AT| &= \\hl{2}{4r} - \\hl{2}{r}"},
+      {"tex": "&= \\hl{2}{3r}"}
+     ]},
+    {"ask": "Which triangle has a right angle at T? Which side is its hypotenuse, and what are the other two sides in terms of r?",
+     "title": "Use Pythagoras in the right-angled triangle ATB",
+     "lines": [
+      {"text": "$\\hl{1}{|\\angle ATB| = 90^{\\circ}}$, so the hypotenuse is $[AB]$."},
+      {"tex": "|AB|^2 &= |AT|^2 + |BT|^2"},
+      {"tex": "\\left(20\\sqrt{73}\\right)^2 &= (\\hl{2}{3r})^2 + (\\hl{2}{8r})^2"},
+      {"tex": "400 \\times 73 &= \\hl{2}{9r^2} + \\hl{2}{64r^2}"},
+      {"tex": "29200 &= \\hl{2}{73r^2}"},
+      {"tex": "\\hl{2}{r^2} &= 400"}
+     ]},
+    {"ask": "Can a radius be negative? r² is 400, so which root is the radius?",
+     "title": "Take the positive square root",
+     "lines": [
+      {"text": "A radius cannot be negative."},
+      {"tex": "\\hl{2}{r} &= 20"}
+     ]}
+   ],
+   "final": "\\hl{2}{r} = 20 \\text{ cm}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p2-q5#(b)", "note": "This time the unknown is an angle, not a length. The tangent only comes in at the last step, but it still gives the 90° at the point of contact that you need.",
+   "legend": {"1": "the right angle at the point of contact (90°)", "2": "the unknown angle BEA"},
+   "steps": [
+    {"ask": "Look at triangle ODC. Which of its sides are radii or half a diameter, and what does that make its shape?",
+     "title": "Show triangle ODC is equilateral",
+     "lines": [
+      {"text": "$|CD| = \\frac{1}{2}|AB|$ and $|OB|$ is a radius, which is half the diameter, so $|CD| = |OB|$."},
+      {"text": "$|OC|$ and $|OD|$ are also radii, so all three sides of $\\triangle ODC$ are equal."},
+      {"text": "An equilateral triangle has all angles $60^\\circ$, so $|\\angle ODC| = 60^\\circ$."}
+     ]},
+    {"ask": "CD is parallel to AB. Which angle at O is equal to angle ODC because of the parallel lines?",
+     "title": "Use the parallel lines",
+     "lines": [
+      {"text": "$CD \\parallel AB$, so the alternate angles are equal."},
+      {"tex": "|\\angle AOD| &= |\\angle ODC| = 60^\\circ"}
+     ]},
+    {"ask": "Triangle AOD has two equal sides. What do you know about its base angles, and how does that give you angle OAD?",
+     "title": "Find the angle at A in triangle AOD",
+     "lines": [
+      {"text": "$|OA| = |OD|$ (radii), so $\\triangle AOD$ is isosceles and its base angles are equal."},
+      {"tex": "|\\angle OAD| &= \\frac{180 - 60}{2}"},
+      {"tex": "&= 60^\\circ"}
+     ]},
+    {"ask": "Where does the tangent meet the diameter, and which angle does the tangent theorem give there? What is left in triangle ABE?",
+     "title": "Use the tangent",
+     "lines": [
+      {"text": "A tangent is perpendicular to the radius (diameter) at the point of contact, so $\\hl{1}{|\\angle ABE| = 90^\\circ}$."},
+      {"text": "In $\\triangle ABE$ the angles add to $180^\\circ$, and $|\\angle BAE| = |\\angle OAD| = 60^\\circ$."},
+      {"tex": "\\hl{2}{|\\angle BEA|} &= 180 - \\hl{1}{90} - 60"},
+      {"tex": "&= \\hl{2}{30^\\circ}"}
+     ]}
+   ],
+   "final": "\\hl{2}{|\\angle BEA| = 30^\\circ}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p2-q9#(d)(i)", "note": "Now the answer is an area in terms of r, not a number. The radius is still the height, and the 90° at the point of contact is still what makes it the height.",
+   "legend": {"1": "the right angle at the point of contact (90°)", "2": "the unknown radius r, kept as a letter"},
+   "steps": [
+    {"ask": "A radius meets the tangent at 90°. Which line from P can you use as the height of triangle HSP?",
+     "title": "Use the radius as the height of triangle HSP",
+     "lines": [
+      {"text": "A radius meets a tangent at $\\hl{1}{90^\\circ}$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$."},
+      {"tex": "\\text{Area} &= \\frac{1}{2}(58)(\\hl{2}{r})"},
+      {"tex": "&= \\hl{2}{29r}"}
+     ]}
+   ],
+   "final": "\\hl{2}{29r} \\text{ m}^2",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm4", "problems": [
+  {"part": "maths-pp-2020-ordinary-p2-q7#(a)(i)", "note": null,
+   "legend": {"1": "180°, the angle sum of a triangle", "2": "the unknown angle BCA", "3": "the known angles 30° and 45°"},
+   "steps": [
+    {"ask": "What do the three angles of any triangle add up to? Which two angles of triangle ABC are already given?",
+     "title": "Use the angles in triangle ABC",
+     "lines": [
+      {"text": "The angles in a triangle add up to $\\hl{1}{180^\\circ}$. At $A$ the angle is $\\hl{3}{30^\\circ}$ and at $B$ it is $\\hl{3}{45^\\circ}$."},
+      {"tex": "\\hl{2}{|\\angle BCA|} &= \\hl{1}{180^\\circ} - \\hl{3}{30^\\circ} - \\hl{3}{45^\\circ}"},
+      {"tex": "\\hl{2}{|\\angle BCA|} &= \\hl{2}{105^\\circ}"}
+     ]}
+   ],
+   "final": "\\hl{2}{|\\angle BCA| = 105^\\circ}",
+   "graph": null},
+  {"part": "maths-pp-2025-ordinary-p2-q2#(a)(i)", "note": "The two unknown angles are now written in terms of A, so you set up an equation and solve for A. The angle-sum rule is the same as problem 1, and the right angle is the known angle.",
+   "legend": {"1": "180°, the angle sum of a triangle", "2": "the unknown angle A", "3": "the 90° right angle, and what the other two angles add to"},
+   "steps": [
+    {"ask": "One angle is a right angle and the other two are written in terms of A. What must the three angles add to?",
+     "title": "Use the angles of a triangle",
+     "lines": [
+      {"text": "The angles of a triangle add to $\\hl{1}{180^\\circ}$. The right angle is $\\hl{3}{90^\\circ}$, so the other two angles add to $\\hl{3}{90^\\circ}$."},
+      {"tex": "\\hl{2}{A} + \\hl{2}{2A} &= \\hl{3}{90}"},
+      {"tex": "\\hl{2}{3A} &= \\hl{3}{90}"},
+      {"tex": "\\hl{2}{A} &= 30"}
+     ]}
+   ],
+   "final": "\\hl{2}{A} = 30^\\circ",
+   "graph": null},
+  {"part": "maths-pp-2025-ordinary-p2-q5#(a)", "note": "Now there are several triangles, and each angle you find is used in the next triangle. The 180° rule is the same as before, applied again and again.",
+   "legend": {"1": "180°, the angle sum of a triangle", "2": "the unknown angle found in this step (B or C)", "3": "a known angle (60°, 75°, 120° or 40°)"},
+   "steps": [
+    {"ask": "Which angle is vertically opposite to A at the crossing? What do vertically opposite angles have in common?",
+     "title": "Find A",
+     "lines": [
+      {"text": "$A$ and the $\\hl{3}{60^\\circ}$ angle are vertically opposite angles, so they are equal."},
+      {"tex": "|\\angle A| &= \\hl{3}{60^\\circ}"}
+     ]},
+    {"ask": "The top triangle has two known angles now. What do its angles add to, and what does that leave for B?",
+     "title": "Find B",
+     "lines": [
+      {"text": "$B$, $A$ and $\\hl{3}{75^\\circ}$ are the angles of the top triangle. The angles of a triangle add to $\\hl{1}{180^\\circ}$."},
+      {"tex": "\\hl{2}{|\\angle B|} &= \\hl{1}{180} - (\\hl{3}{75} + \\hl{3}{60})"},
+      {"tex": "&= \\hl{1}{180} - 135"},
+      {"tex": "&= \\hl{2}{45^\\circ}"}
+     ]},
+    {"ask": "Which angle at k matches the 60° angle at j? What is the angle inside the bottom triangle that is on a straight line with it?",
+     "title": "Find the angle inside the bottom triangle at line k",
+     "lines": [
+      {"text": "The $\\hl{3}{60^\\circ}$ angle at $j$ corresponds to the $\\hl{3}{60^\\circ}$ angle at $k$. The angle inside the bottom triangle is on a straight line with it."},
+      {"tex": "\\hl{1}{180} - \\hl{3}{60} &= \\hl{3}{120^\\circ}"}
+     ]},
+    {"ask": "The bottom triangle has a 120° angle, a 40° angle and C. What do its three angles add to, so what is C?",
+     "title": "Find C",
+     "lines": [
+      {"text": "The angles of the bottom triangle add to $\\hl{1}{180^\\circ}$."},
+      {"tex": "\\hl{2}{|\\angle C|} &= \\hl{1}{180} - (\\hl{3}{120} + \\hl{3}{40})"},
+      {"tex": "&= \\hl{1}{180} - 160"},
+      {"tex": "&= \\hl{2}{20^\\circ}"}
+     ]}
+   ],
+   "final": "|\\angle A| = \\hl{3}{60^\\circ}, \\quad \\hl{2}{|\\angle B| = 45^\\circ}, \\quad \\hl{2}{|\\angle C| = 20^\\circ}",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm9", "problems": [
+  {"part": "maths-pp-2018-ordinary-p2-q6#(b)(i)", "note": null,
+   "legend": {"1": "the given 115° angle, copied to its opposite angle", "2": "the unknown angle α or β", "3": "180°, the sum of adjacent angles"},
+   "steps": [
+    {"ask": "α is opposite the angle SPQ. What do opposite angles of a parallelogram have in common?",
+     "title": "Find α",
+     "lines": [
+      {"text": "Opposite angles of a parallelogram are equal, so $\\hl{2}{\\alpha}$ equals $\\hl{1}{|\\angle SPQ|}$."},
+      {"tex": "\\hl{2}{\\alpha} &= \\hl{1}{115^\\circ}"}
+     ]},
+    {"ask": "β and the angle SPQ share a side. What do adjacent angles of a parallelogram add to?",
+     "title": "Find β",
+     "lines": [
+      {"text": "Adjacent angles of a parallelogram add to $\\hl{3}{180^\\circ}$."},
+      {"tex": "\\hl{2}{\\beta} &= \\hl{3}{180^\\circ} - \\hl{1}{115^\\circ}"},
+      {"tex": "&= \\hl{2}{65^\\circ}"}
+     ]}
+   ],
+   "final": "\\hl{2}{\\alpha} = \\hl{1}{115^\\circ}, \\ \\hl{2}{\\beta} = \\hl{2}{65^\\circ}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q6#(b)", "note": "The angles are now expressions in x and y, so each rule gives an equation and you solve them one after the other. The two rules are the same as in problem 1.",
+   "legend": {"1": "the given 100° angle", "2": "the unknowns x and y", "3": "180°, the sum of adjacent angles"},
+   "steps": [
+    {"ask": "(2x − 30)° is opposite the 100° angle. What do opposite angles of a parallelogram tell you?",
+     "title": "Opposite angles are equal: find x",
+     "lines": [
+      {"text": "$(2\\hl{2}{x}-30)^\\circ$ is opposite the $\\hl{1}{100^\\circ}$ angle, so they are equal."},
+      {"tex": "2\\hl{2}{x} - 30 &= \\hl{1}{100}"},
+      {"tex": "2\\hl{2}{x} &= 130"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{65}"}
+     ]},
+    {"ask": "(x + 3y)° and 100° are next to each other on one side. What do adjacent angles add to, and what does that give you for x + 3y?",
+     "title": "Adjacent angles sum to 180°",
+     "lines": [
+      {"text": "$(\\hl{2}{x}+3\\hl{2}{y})^\\circ$ and $\\hl{1}{100^\\circ}$ are adjacent angles, so they add to $\\hl{3}{180^\\circ}$."},
+      {"tex": "\\hl{2}{x} + 3\\hl{2}{y} + \\hl{1}{100} &= \\hl{3}{180}"},
+      {"tex": "\\hl{2}{x} + 3\\hl{2}{y} &= 80"}
+     ]},
+    {"ask": "x is known now. Which equation still has y in it, and how do you get y from it?",
+     "title": "Substitute x = 65 and solve for y",
+     "lines": [
+      {"tex": "\\hl{2}{65} + 3\\hl{2}{y} &= 80"},
+      {"tex": "3\\hl{2}{y} &= 80 - \\hl{2}{65}"},
+      {"tex": "3\\hl{2}{y} &= 15"},
+      {"tex": "\\hl{2}{y} &= \\hl{2}{5}"}
+     ]}
+   ],
+   "final": "\\hl{2}{x} = \\hl{2}{65},\\ \\hl{2}{y} = \\hl{2}{5}",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p2-q9#(c)", "note": "There is no angle now. The parallelogram sits on a grid, and you find a missing corner with the same rule: opposite sides are equal and parallel, so [TQ] is a copy of [FB].",
+   "legend": {"1": "the 5-unit side [FB], copied across", "2": "the unknown corner T (its x and y values)"},
+   "steps": [
+    {"ask": "Which side is equal and parallel to [FB]? How far, and in which direction, is T from Q?",
+     "title": "Use the opposite sides of the parallelogram",
+     "lines": [
+      {"text": "In $FBQT$, the side $[TQ]$ is parallel and equal to $\\hl{1}{[FB]}$. $\\hl{1}{[FB]}$ goes straight up 5 units, so $\\hl{2}{T}$ is 5 units directly below $Q$."},
+      {"tex": "\\hl{2}{x_T} &= -2"},
+      {"tex": "\\hl{2}{y_T} &= 7 - \\hl{1}{5}"},
+      {"tex": "&= \\hl{2}{2}"}
+     ]},
+    {"ask": "Where does T sit now? Plot it and check the four corners form a parallelogram.",
+     "title": "Plot T",
+     "lines": [
+      {"text": "Plot $\\hl{2}{T(-2, 2)}$ and join $F$, $B$, $Q$ and $T$ to see the parallelogram."}
+     ]}
+   ],
+   "final": "\\hl{2}{T} = (\\hl{2}{-2}, \\hl{2}{2})",
+   "graph": null}
+ ]},
+ {"skill": "geo-transformations", "problems": [
+  {"part": "maths-pp-2018-ordinary-p2-q2#(d)", "note": null,
+   "legend": {"1": "the move (translation): how far x and y change", "2": "the unknown image point S", "3": "the given points U, V and Q, and their coordinates"},
+   "steps": [
+    {"ask": "U moves to V. How far does the x-value change, and how far does the y-value change?",
+     "title": "Find the translation that takes U to V",
+     "lines": [
+      {"tex": "\\hl{3}{U(4, 6)} &\\to \\hl{3}{V(9, 7)}"},
+      {"tex": "\\text{Horizontal move} &= \\hl{3}{9} - \\hl{3}{4} = \\hl{1}{5}"},
+      {"tex": "\\text{Vertical move} &= \\hl{3}{7} - \\hl{3}{6} = \\hl{1}{1}"}
+     ]},
+    {"ask": "Every point moves by the same amount. Apply that move to Q. What are the new coordinates?",
+     "title": "Apply the same translation to Q",
+     "lines": [
+      {"tex": "\\hl{3}{Q(1, 2)} &\\to (\\hl{3}{1}+\\hl{1}{5}, \\hl{3}{2}+\\hl{1}{1})"},
+      {"tex": "\\hl{2}{S} &= \\hl{2}{(6, 3)}"}
+     ]}
+   ],
+   "final": "\\hl{2}{S} = \\hl{2}{(6, 3)}",
+   "graph": null},
+  {"part": "maths-pp-2019-ordinary-p2-q4#(a)", "note": "The move now comes from a square. Since PQRS is a square, S to P is the same move as R to Q, so you find the move from S and P and apply it to R. The method is the same as problem 1.",
+   "legend": {"1": "the move (translation): how far x and y change", "2": "the unknown image point", "3": "the given points S, P and R, and their coordinates"},
+   "steps": [
+    {"ask": "PQRS is a square. Which other pair of corners moves in the same way as S to P? Then how far do x and y change?",
+     "title": "Find the translation that takes S to P",
+     "lines": [
+      {"text": "$PQRS$ is a square, so $S \\to P$ is the same move as $R \\to Q$."},
+      {"tex": "\\hl{3}{S(-4, 11)} &\\to \\hl{3}{P(2, 3)}"},
+      {"text": "The $x$-co-ordinate goes up by $\\hl{1}{2 - (-4) = 6}$ and the $y$-co-ordinate goes down by $\\hl{1}{11 - 3 = 8}$."}
+     ]},
+    {"ask": "Apply the same x and y moves to R. What are the coordinates of its image?",
+     "title": "Apply the same translation to R",
+     "lines": [
+      {"tex": "\\hl{3}{R(4, 17)} &\\to (\\hl{3}{4} + \\hl{1}{6},\\ \\hl{3}{17} - \\hl{1}{8})"},
+      {"tex": "&= \\hl{2}{(10, 9)}"}
+     ]}
+   ],
+   "final": "\\hl{2}{Q(10, 9)}",
+   "graph": null},
+  {"part": "maths-pp-2022-ordinary-p2-q1#(b)(i), (ii)", "note": "The move is now a reflection in the y-axis, not a translation: the y-value stays the same and the x-value changes sign. The length and the line are then found from L and M.",
+   "legend": {"1": "the transformation: the move, or the axis of reflection (the y-axis)", "2": "the unknown: the image L, the length |LM| and the line", "3": "the given point M(9, 1)"},
+   "steps": [
+    {"ask": "A reflection in the y-axis keeps the y-value. What happens to the x-value of M?",
+     "title": "Find L using the symmetry about the y-axis",
+     "lines": [
+      {"text": "$\\hl{2}{L}$ is the reflection of $\\hl{3}{M(9, 1)}$ in the $\\hl{1}{y}$-axis, so $\\hl{2}{L = (-9, 1)}$."}
+     ]},
+    {"ask": "L and M sit on the same horizontal line. How do you get the length from their x-values?",
+     "title": "(i) Find the length of LM",
+     "lines": [
+      {"text": "$\\hl{2}{L}$ and $\\hl{3}{M}$ have the same $y$-value, so the length is the difference in $x$-values."},
+      {"tex": "\\hl{2}{|LM|} &= \\hl{3}{9} - (\\hl{2}{-9})"},
+      {"tex": "&= \\hl{2}{18}"}
+     ]},
+    {"ask": "Every point on LM has the same y-value. What is that value, and what kind of line is LM?",
+     "title": "(ii) Write the equation of LM",
+     "lines": [
+      {"text": "Every point on $LM$ has $\\hl{2}{y = 1}$, so the horizontal line is $\\hl{2}{y = 1}$."}
+     ]}
+   ],
+   "final": "\\hl{2}{|LM| = 18}, \\quad \\hl{2}{y = 1}",
+   "graph": null}
+ ]},
+ {"skill": "con-21", "problems": [
+  {"part": "maths-pp-2025-ordinary-p2-q9#(a)(i), (ii)", "note": null,
+   "legend": {"1": "a midpoint (D, E) of a side", "2": "the centroid O, where the medians meet"},
+   "steps": [
+    {"ask": "How can you find the midpoint of [AB] with only a compass and a straight edge?",
+     "title": "Construct the midpoint D of [AB]",
+     "lines": [
+      {"text": "Set the compass to more than half of $|AB|$. Put the point on $A$ and draw an arc above and below the line $AB$."},
+      {"text": "Keep the same compass width. Put the point on $B$ and draw two arcs that cross the first two arcs."},
+      {"text": "Join the two crossing points with a straight line. It meets $[AB]$ at its midpoint. Label this point $\\hl{1}{D}$."}
+     ]},
+    {"ask": "A median joins a vertex to the midpoint of the opposite side. Which vertex and which midpoint do you join?",
+     "title": "Draw the median from C",
+     "lines": [
+      {"text": "A median joins a vertex to the midpoint of the opposite side. Join $C$ to $\\hl{1}{D}$."}
+     ]},
+    {"ask": "You need a second median. Which side's midpoint is still missing, and how can you find it?",
+     "title": "Draw a second median",
+     "lines": [
+      {"text": "Find the midpoint $\\hl{1}{E}$ of $[BC]$ by measuring: $|BC| = 10$ cm, so $\\hl{1}{E}$ is $5$ cm from $B$. (Or bisect $[BC]$ with arcs as before.)"},
+      {"text": "Join $A$ to $\\hl{1}{E}$."}
+     ]},
+    {"ask": "Where do the medians meet, and what is that point called?",
+     "title": "Mark the centroid",
+     "lines": [
+      {"text": "The medians cross at the centroid. Label this point $\\hl{2}{O}$."}
+     ]}
+   ],
+   "final": "\\hl{1}{D} \\text{ is the midpoint of } [AB] \\text{ and } \\hl{2}{O} \\text{ is the centroid}",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p2-q4#(a)", "note": "Same compass method as problem 1, on a new triangle PQR. There are two midpoints to find, M1 on PQ and M2 on QR, and the medians run from R and from P.",
+   "legend": {"1": "a midpoint (M1, M2) of a side", "2": "the centroid G, where the medians meet"},
+   "steps": [
+    {"ask": "What do you need to draw to locate the centroid, and how many medians are enough?",
+     "title": "Recall what the centroid is",
+     "lines": [
+      {"text": "The centroid is the point where the three medians meet. A median joins a vertex to the midpoint of the opposite side, so two medians are enough."}
+     ]},
+    {"ask": "Which arcs find the midpoint of PQ without measuring? Where do the arcs cross?",
+     "title": "Find the midpoint of PQ",
+     "lines": [
+      {"text": "Set the compass to more than half of $|PQ|$. Draw an arc above and below $PQ$ from $P$, then the same arcs from $Q$."},
+      {"text": "Join the two points where the arcs cross. This line cuts $PQ$ at its midpoint $\\hl{1}{M_1}$. (Or measure $|PQ|$ and mark half of it.)"}
+     ]},
+    {"ask": "Do the same with the arcs at Q and R. Which point is the midpoint of QR?",
+     "title": "Find the midpoint of QR",
+     "lines": [
+      {"text": "Repeat the arcs from $Q$ and $R$ and join the crossing points. This cuts $QR$ at its midpoint $\\hl{1}{M_2}$."}
+     ]},
+    {"ask": "Which two vertices do the medians come from? Where do the two medians cross?",
+     "title": "Draw two medians and mark the centroid",
+     "lines": [
+      {"text": "Draw the line from $R$ to $\\hl{1}{M_1}$ and the line from $P$ to $\\hl{1}{M_2}$."},
+      {"text": "These medians cross at $\\hl{2}{G}$, the centroid. A third median from $Q$ to the midpoint of $PR$ would pass through $\\hl{2}{G}$ too."}
+     ]}
+   ],
+   "final": "\\text{Centroid } \\hl{2}{G} = \\text{intersection of the medians}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p2-q6#(a)", "note": "Same centroid method, but the midpoints come from measured lengths, not compass arcs. Measure each side, halve it and mark it. The rest of the steps are unchanged.",
+   "legend": {"1": "a midpoint (D, E) of a side", "2": "the centroid G, where the medians meet"},
+   "steps": [
+    {"ask": "The centroid needs midpoints. Which side do you halve first, and how do you find its midpoint from its length?",
+     "title": "Find the midpoint of $[BC]$",
+     "lines": [
+      {"text": "The centroid is where the three medians meet. A median joins a vertex to the midpoint of the opposite side."},
+      {"text": "Measure $|BC|=11.7$ cm and mark the midpoint at 5.85 cm from $B$. Call this midpoint $\\hl{1}{D}$."}
+     ]},
+    {"ask": "Do the same for side AC. How far from A does its midpoint sit?",
+     "title": "Find the midpoint of $[AC]$",
+     "lines": [
+      {"text": "Measure $|AC|=11.1$ cm and mark the midpoint at 5.55 cm from $A$. Call it $\\hl{1}{E}$."}
+     ]},
+    {"ask": "Which two medians do you draw? Where do they cross, and must the third median go through that point?",
+     "title": "Draw two medians",
+     "lines": [
+      {"text": "Join $A$ to $\\hl{1}{D}$ and $B$ to $\\hl{1}{E}$. Two medians are enough, since all three pass through the same point."},
+      {"text": "The centroid $\\hl{2}{G}$ is where $[AD]$ and $[BE]$ cross. The third median, from $C$ to the midpoint of $[AB]$, also passes through $\\hl{2}{G}$."}
+     ]}
+   ],
+   "final": "\\text{Centroid } \\hl{2}{G} \\text{ is where the medians cross}",
+   "graph": null}
+ ]}
+]
