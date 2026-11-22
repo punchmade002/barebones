@@ -277,6 +277,12 @@ rewriting them, keep every fact and change how it is taught:
   fact to make a block shorter.
 - Don't add facts that are in neither the old notes nor the package. A gloss, a reason that
   follows from facts already given, or an everyday analogy is fine.
+- **Stay information-dense.** Students use these notes to get top grades. Keep every fact,
+  number, named example, list item, qualifier ("usually", "only in", "at least") and technical
+  term from the old notes. Never merge two facts into one vaguer statement or swap a specific
+  statement for a general one. The rewrite adds leads, glosses, reasons and tips around the
+  facts, so it usually comes out 20–50% longer than the old notes, never shorter. Concise means
+  no wasted words, not fewer facts.
 
 ## Quality checks before finishing a subsection
 

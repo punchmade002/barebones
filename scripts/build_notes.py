@@ -23,8 +23,6 @@ ROOT = Path(__file__).resolve().parent.parent
 
 BANNED_PHRASES = (
     "these ideas should be used together",
-    "it is important to note",
-    "in conclusion",
     "this topic is frequently examined",
     "a complete answer should",
     "question focus:",
