@@ -2007,7 +2007,8 @@
     "fn-graph-cubic",
     "fn-graph-exponential",
     "fn-transformations",
-    "fn-limit-concept"
+    "fn-limit-concept",
+    "diff-stationary"
    ]
   },
   {
@@ -2617,7 +2618,8 @@
    "output": "max/min points via f′ = 0 and f″",
    "prereqs": [
     "diff-second",
-    "quad-solve-factor"
+    "quad-solve-factor",
+    "fn-evaluate"
    ],
    "example": "x³ − 3x → max (−1, 2), min (1, −2)",
    "strand": 5,

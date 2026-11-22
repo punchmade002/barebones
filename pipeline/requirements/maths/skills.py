@@ -240,7 +240,7 @@ diff-slope-tangent | OL | 5.2 | Find the slope and equation of a tangent | f(x) 
 diff-point-given-slope | OL | 5.2 | Find where a curve has a given slope | f(x) and slope m (or parallel line) | x (and point) | diff-poly, eq-linear, quad-solve-factor | y = x² − 3x, slope 1 → (2, −2)
 diff-increasing | OL | 5.2 | Decide whether a function is increasing or decreasing at a point | f(x) + x value | sign of f′(a) | diff-poly | f = x² − 4x at x = 1 → f′ = −2 < 0, decreasing
 diff-increasing-interval | HL | 5.2 | Find where a function is increasing/decreasing for all x or on intervals | f(x) | intervals where f′ > 0 / f′ < 0 | diff-increasing, ineq-quadratic | x³ + 3x increasing for all x (f′ = 3x² + 3 > 0)
-diff-stationary | OL | 5.2 | Find and classify turning points | f(x) | max/min points via f′ = 0 and f″ | diff-second, quad-solve-factor | x³ − 3x → max (−1, 2), min (1, −2)
+diff-stationary | OL | 5.2 | Find and classify turning points | f(x) | max/min points via f′ = 0 and f″ | diff-second, quad-solve-factor, fn-evaluate | x³ − 3x → max (−1, 2), min (1, −2)
 diff-inflection | HL | 5.2 | Find a point of inflection | f(x) | point where f″ = 0 and changes sign | diff-second, eq-linear | x³ − 6x² → (2, −16)
 diff-curve-sketch | OL | 5.2 | Sketch a curve using calculus | f(x) | sketch with intercepts, turning points | diff-stationary, fn-graph-cubic | y = x³ − 3x
 diff-sketch-derivative | HL | 5.2 | Sketch/match the graph of f′ from f | graph of f | graph of f′ (and vice versa) | diff-stationary, diff-increasing-interval | turning points of f ↔ roots of f′
