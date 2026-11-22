@@ -1,0 +1,676 @@
+[
+ {
+  "skill": "fin-percentages",
+  "problems": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the rate, or the part",
+     "2": "the original amount, or the whole",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "How do you write 12% as a fraction, and what does 'of' tell you to do with 200?",
+      "title": "Find 12% of 200 ml",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{12}{100}} \\times \\hl{2}{200} &= \\hl{3}{24}"
+       },
+       {
+        "tex": "&= \\hl{3}{24}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{24} \\text{ ml}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q8#(c)(iii)",
+    "note": "Changed from finding a percentage of an amount to adding a percentage to it. The bill goes up by 13.5%, so the multiplier is 1.135 and the answer is the new total; the original amount stays in slot 2 and the answer in slot 3.",
+    "legend": {
+     "1": "the rate, or the part",
+     "2": "the original amount, or the whole",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "If the bill goes up by 13.5%, what do you multiply the old bill by to get the new one?",
+      "title": "Add 13.5% VAT",
+      "lines": [
+       {
+        "text": "Adding 13.5% means multiplying by $\\hl{1}{1.135}$."
+       },
+       {
+        "tex": "\\text{Bill} &= \\hl{2}{378.74} \\times \\hl{1}{1.135}"
+       },
+       {
+        "tex": "&= \\text{€}429.8699"
+       },
+       {
+        "tex": "&\\approx \\text{€}\\hl{3}{429.87}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{429.87}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(a)(ii)",
+    "note": "Changed from finding an amount to finding what percentage one number is of another. The part goes in slot 1, the whole in slot 2, and the percentage is the answer in slot 3, as before.",
+    "legend": {
+     "1": "the rate, or the part",
+     "2": "the original amount, or the whole",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which total should the votes be divided by, and what must the result be multiplied by to give a percentage?",
+      "title": "Leave votes as a fraction of valid votes",
+      "lines": [
+       {
+        "text": "Use the valid votes, not the total votes."
+       },
+       {
+        "tex": "\\frac{\\hl{1}{17\\,410\\,742}}{\\hl{2}{33\\,551\\,983}} \\times 100 &= \\hl{3}{51.89}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{52}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{52}\\%",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-profit-margin",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q6#(a)(i), (ii)",
+    "note": null,
+    "legend": {
+     "1": "the cost price",
+     "2": "the selling price",
+     "3": "the profit",
+     "4": "the percentage asked (margin or mark-up)"
+    },
+    "steps": [
+     {
+      "ask": "If the selling price is cost plus 25%, what single number do you multiply the cost by?",
+      "title": "Find the multiplier for a 25% profit",
+      "lines": [
+       {
+        "text": "The selling price is 100% of the cost plus the 25% profit, so it is 125% of the cost."
+       },
+       {
+        "tex": "1 + 0.25 &= 1.25"
+       }
+      ]
+     },
+     {
+      "ask": "What number do you multiply the cost of €90 by to get the selling price?",
+      "title": "Work out the selling price",
+      "lines": [
+       {
+        "tex": "\\text{Selling price} &= \\hl{1}{90} \\times 1.25"
+       },
+       {
+        "tex": "&= \\text{€}\\hl{2}{112.50}"
+       }
+      ]
+     },
+     {
+      "ask": "How much more is the selling price than the cost?",
+      "title": "Write down the profit",
+      "lines": [
+       {
+        "tex": "\\text{Profit} &= \\hl{2}{112.50} - \\hl{1}{90}"
+       },
+       {
+        "tex": "&= \\text{€}\\hl{3}{22.50}"
+       }
+      ]
+     },
+     {
+      "ask": "Margin is measured against the selling price, so what do you divide the profit by?",
+      "title": "Find the margin as a percentage of the selling price",
+      "lines": [
+       {
+        "text": "Margin is the profit divided by the selling price, times 100."
+       },
+       {
+        "tex": "\\text{Margin} &= \\frac{\\hl{3}{22.50}}{\\hl{2}{112.50}} \\times 100"
+       },
+       {
+        "tex": "&= \\hl{4}{20\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Selling price} = \\text{€}\\hl{2}{112.50},\\ \\text{profit} = \\text{€}\\hl{3}{22.50},\\ \\text{margin} = \\hl{4}{20\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(f)",
+    "note": "Changed from working forwards from a cost to working backwards from a margin given on the selling price. So a selling price of 100 is picked first, and the mark-up is profit over cost, not over selling price.",
+    "legend": {
+     "1": "the cost price",
+     "2": "the selling price",
+     "3": "the profit",
+     "4": "the percentage asked (margin or mark-up)"
+    },
+    "steps": [
+     {
+      "ask": "Which selling price makes 18% easy to work out? Then how do you get the cost price from it?",
+      "title": "Pick a selling price of 100",
+      "lines": [
+       {
+        "text": "Margin is profit as a percentage of the selling price. Let the selling price be 100."
+       },
+       {
+        "tex": "\\text{profit} &= 18\\% \\text{ of } \\hl{2}{100}"
+       },
+       {
+        "tex": "&= \\hl{3}{18}"
+       },
+       {
+        "tex": "\\text{cost price} &= \\hl{2}{100} - \\hl{3}{18}"
+       },
+       {
+        "tex": "&= \\hl{1}{82}"
+       }
+      ]
+     },
+     {
+      "ask": "Mark-up is measured on cost, not on selling price. What do you divide the profit by?",
+      "title": "Mark up is profit as a percentage of cost price",
+      "lines": [
+       {
+        "tex": "\\text{mark up} &= \\frac{\\hl{3}{18}}{\\hl{1}{82}} \\times 100"
+       },
+       {
+        "tex": "&= \\hl{4}{21.95}"
+       },
+       {
+        "text": "To the nearest percent, the mark up is $\\hl{4}{22\\%}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{22\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q10#(d)",
+    "note": "Changed from a mark-up to comparing two orders of taking off 10% and taking off r. The method is the same: write each price in terms of p, subtract, then simplify.",
+    "legend": {
+     "1": "the price before discount, p",
+     "3": "the difference between the two prices"
+    },
+    "steps": [
+     {
+      "ask": "Which comes first in Option 1, the 10% reduction or taking off r? Write Option 1 in terms of p.",
+      "title": "Price for Option 1",
+      "lines": [
+       {
+        "text": "Reduce by 10% means multiply by $0.9$. Then subtract $r$."
+       },
+       {
+        "tex": "\\text{Option 1} &= 0.9\\hl{1}{p} - r"
+       }
+      ]
+     },
+     {
+      "ask": "Option 2 does the two steps in the other order. What gets multiplied by 0.9 this time?",
+      "title": "Price for Option 2",
+      "lines": [
+       {
+        "text": "Subtract $r$ first, then multiply by $0.9$."
+       },
+       {
+        "tex": "\\text{Option 2} &= 0.9(\\hl{1}{p} - r)"
+       },
+       {
+        "tex": "&= 0.9\\hl{1}{p} - 0.9r"
+       }
+      ]
+     },
+     {
+      "ask": "How do the two prices differ? Subtract one from the other and simplify.",
+      "title": "Compare the two prices",
+      "lines": [
+       {
+        "tex": "\\text{Option 1} - \\text{Option 2} &= (0.9\\hl{1}{p} - r) - (0.9\\hl{1}{p} - 0.9r)"
+       },
+       {
+        "tex": "&= -r + 0.9r"
+       },
+       {
+        "tex": "&= \\hl{3}{-0.1r}"
+       },
+       {
+        "text": "Since $r > 0$, the difference is negative, so Option 1 costs less for every $\\hl{1}{p}$ and $r$. Tick Option 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Option 1 is cheaper: } 0.9\\hl{1}{p} - r < 0.9\\hl{1}{p} - 0.9r",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-rate-conversion",
+  "problems": [
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the annual growth factor, 1.2175",
+     "2": "the monthly rate, i",
+     "3": "the answer as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "If the monthly rate is i, what does the balance get multiplied by over 12 months?",
+      "title": "Set up the equivalent monthly rate",
+      "lines": [
+       {
+        "text": "An APR of 21.75% multiplies a balance by $\\hl{1}{1.2175}$ over 12 months. If the monthly rate is $\\hl{2}{i}$, then $(1+\\hl{2}{i})^{12} = \\hl{1}{1.2175}$."
+       },
+       {
+        "tex": "(1+\\hl{2}{i})^{12} &= \\hl{1}{1.2175}"
+       }
+      ]
+     },
+     {
+      "ask": "To undo a power of 12, what do you do to both sides?",
+      "title": "Take the 12th root",
+      "lines": [
+       {
+        "tex": "1+\\hl{2}{i} &= \\hl{1}{1.2175}^{\\frac{1}{12}}"
+       },
+       {
+        "tex": "1+\\hl{2}{i} &\\approx 1.016535"
+       },
+       {
+        "tex": "\\hl{2}{i} &\\approx \\hl{2}{0.016535}"
+       },
+       {
+        "text": "As a percentage, $\\hl{2}{i} \\approx \\hl{3}{1.65\\%}$ to 3 significant figures."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{1.65\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(c)",
+    "note": "Changed from monthly to quarterly: four quarters make a year, so the root is the fourth root instead of the twelfth. The annual factor stays in slot 1 and the answer as a percentage in slot 3.",
+    "legend": {
+     "1": "the annual growth factor, 1.024",
+     "2": "the quarterly rate, i",
+     "3": "the answer as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "Over a year, how many quarters of growth must multiply to equal the annual factor?",
+      "title": "Set the quarterly growth factor so that 4 quarters match one year",
+      "lines": [
+       {
+        "text": "Let $\\hl{2}{i}$ be the quarterly rate. Four quarters of growth must equal the annual factor $\\hl{1}{1.024}$."
+       },
+       {
+        "tex": "(1 + \\hl{2}{i})^4 &= \\hl{1}{1.024}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you undo a power of 4, applied to both sides?",
+      "title": "Take the fourth root and solve for i",
+      "lines": [
+       {
+        "tex": "1 + \\hl{2}{i} &= (\\hl{1}{1.024})^{\\frac{1}{4}}"
+       },
+       {
+        "tex": "\\hl{2}{i} &= (\\hl{1}{1.024})^{\\frac{1}{4}} - 1"
+       },
+       {
+        "tex": "&= \\hl{2}{0.005947}"
+       }
+      ]
+     },
+     {
+      "ask": "The question wants a percentage. What do you do to the decimal i?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{2}{0.005947} \\times 100 &= \\hl{3}{0.59}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0.59\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q7#(c)(iii)",
+    "note": "Changed from a fixed number of periods to continuous growth: the factor over one year is e to the 0.04, with no root, and the answer is the annual effective rate. The factor stays in slot 1 and the answer in slot 3.",
+    "legend": {
+     "1": "the annual growth factor, e to the 0.04",
+     "3": "the AER, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "With continuous growth at 4%, what factor does the account get over one year? Write it with e.",
+      "title": "Find the yearly growth factor",
+      "lines": [
+       {
+        "text": "Over one year, $t$ increases by 1, so the account is multiplied by $\\hl{1}{e^{0.04}}$."
+       },
+       {
+        "tex": "\\frac{F(1)}{F(0)} &= \\frac{5000\\hl{1}{e^{0.04}}}{5000e^{0}}"
+       },
+       {
+        "tex": "&= \\hl{1}{e^{0.04}}"
+       },
+       {
+        "tex": "&= \\hl{1}{1.04081\\ldots}"
+       }
+      ]
+     },
+     {
+      "ask": "The growth factor is 1 plus the increase. What is the increase, and how do you write it as a percentage?",
+      "title": "Convert the increase to a percentage",
+      "lines": [
+       {
+        "tex": "\\text{AER} &= (\\hl{1}{1.04081} - 1) \\times 100"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{4.08\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{4.08\\%}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-solve-rate-time",
+  "problems": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q7#(b)",
+    "note": null,
+    "legend": {
+     "1": "the growth factor, 1.331",
+     "2": "the rate r, as a decimal",
+     "3": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "What expression in r must be cubed to give 1.331?",
+      "title": "Write the growth factor for 3 years",
+      "lines": [
+       {
+        "text": "An increase of $33.1\\%$ means the investment becomes $\\hl{1}{1.331}$ times the original. With $\\hl{2}{r}$ as a decimal, the growth factor over 3 years is $(1+\\hl{2}{r})^3$."
+       },
+       {
+        "tex": "(1 + \\hl{2}{r})^3 &= \\hl{1}{1.331}"
+       }
+      ]
+     },
+     {
+      "ask": "What undoes cubing, and what does it do to 1.331?",
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "1 + \\hl{2}{r} &= \\sqrt[3]{\\hl{1}{1.331}}"
+       },
+       {
+        "tex": "1 + \\hl{2}{r} &= 1.1"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.1}"
+       }
+      ]
+     },
+     {
+      "ask": "The question asks for a percentage. What do you do to the decimal r?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.1} \\times 100 = \\hl{3}{10\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{r} = \\hl{3}{10\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q1#(c)",
+    "note": "Changed from being given the growth factor to being given the start and end amounts, so the factor has to be worked out by dividing first. The rate stays in slot 2 and the answer as a percentage in slot 3.",
+    "legend": {
+     "1": "the growth factor",
+     "2": "the rate r, as a decimal",
+     "3": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "What does €25 000 become after 3 years at rate r? Write it with r.",
+      "title": "Write the compound interest formula",
+      "lines": [
+       {
+        "text": "Let $\\hl{2}{r}$ be the yearly rate as a decimal. After 3 years, €25 000 grows to $25000(1 + \\hl{2}{r})^3$."
+       },
+       {
+        "tex": "25000(1 + \\hl{2}{r})^3 &= 26530.2"
+       }
+      ]
+     },
+     {
+      "ask": "To get (1 + r)³ on its own, what do you do to both sides?",
+      "title": "Divide both sides by 25 000",
+      "lines": [
+       {
+        "tex": "(1 + \\hl{2}{r})^3 &= \\frac{26530.2}{25000}"
+       },
+       {
+        "tex": "&= \\hl{1}{1.061208}"
+       }
+      ]
+     },
+     {
+      "ask": "What undoes a cube, applied to both sides?",
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "1 + \\hl{2}{r} &= \\sqrt[3]{\\hl{1}{1.061208}}"
+       },
+       {
+        "tex": "&= 1.02"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract 1 from the bracket. What is r now, and what does the question ask for?",
+      "title": "Subtract 1 and convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.02}"
+       },
+       {
+        "tex": "&= \\hl{3}{2\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{r} = \\hl{3}{2\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(b)(iv)",
+    "note": "Changed from solving for a rate with a cube root to solving for the time with logs. The formula is a repayment formula that must be rearranged first; the ratio stays in slot 1 and the rate in slot 2.",
+    "legend": {
+     "1": "the growth ratio, 125 over 42.5",
+     "2": "the monthly rate, i"
+    },
+    "steps": [
+     {
+      "ask": "Which terms contain (1 + i) to the power t? Gather them on one side, then divide.",
+      "title": "Rearrange the formula to get (1+i)^t on its own",
+      "lines": [
+       {
+        "text": "Use $A = \\frac{P\\, \\hl{2}{i}(1+\\hl{2}{i})^t}{(1+\\hl{2}{i})^t - 1}$."
+       },
+       {
+        "tex": "A\\left((1+\\hl{2}{i})^t - 1\\right) &= P\\, \\hl{2}{i} (1+\\hl{2}{i})^t"
+       },
+       {
+        "tex": "A(1+\\hl{2}{i})^t - A &= P\\, \\hl{2}{i} (1+\\hl{2}{i})^t"
+       },
+       {
+        "tex": "A &= (1+\\hl{2}{i})^t\\left(A - P\\, \\hl{2}{i}\\right)"
+       },
+       {
+        "tex": "(1+\\hl{2}{i})^t &= \\frac{A}{A - P\\, \\hl{2}{i}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put in the numbers. What do A, P and i become on the right-hand side?",
+      "title": "Substitute A = 125, P = 5000 and i = 0.0165",
+      "lines": [
+       {
+        "tex": "(1.0165)^t &= \\frac{125}{125 - 5000(\\hl{2}{0.0165})}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{125}{42.5}}"
+       }
+      ]
+     },
+     {
+      "ask": "The unknown t is in a power. What does taking logs of both sides let you do with it?",
+      "title": "Take logs and solve for t",
+      "lines": [
+       {
+        "tex": "\\ln\\left((1.0165)^t\\right) &= \\ln\\left(\\hl{1}{\\frac{125}{42.5}}\\right)"
+       },
+       {
+        "tex": "t \\ln(1.0165) &= \\ln\\left(\\hl{1}{\\frac{125}{42.5}}\\right)"
+       },
+       {
+        "tex": "t &= \\frac{\\ln\\left(\\hl{1}{\\frac{125}{42.5}}\\right)}{\\ln(1.0165)}"
+       },
+       {
+        "tex": "t &\\approx 65.92"
+       },
+       {
+        "tex": "t &= 66 \\text{ months (to the nearest month)}"
+       }
+      ]
+     }
+    ],
+    "final": "66 \\text{ months}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-units",
+  "problems": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q1#(a)",
+    "note": null,
+    "legend": {
+     "1": "the starting amount, 2000 euro",
+     "2": "the conversion rate, dollars per euro",
+     "3": "the converted amount, in dollars"
+    },
+    "steps": [
+     {
+      "ask": "If each euro buys a set number of dollars, do you multiply or divide the euros by that number?",
+      "title": "Multiply the euro amount by the rate",
+      "lines": [
+       {
+        "text": "Each euro buys $1.29, so multiply by the number of euro."
+       },
+       {
+        "tex": "\\text{Dollars} &= \\hl{1}{2000} \\times \\hl{2}{1.29}"
+       },
+       {
+        "tex": "&= \\hl{3}{2580}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\$2580}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q9#(d)",
+    "note": "Changed from multiplying by a given rate to finding the rate by dividing one pair of amounts. The answer is now the rate itself, which stays in slot 2.",
+    "legend": {
+     "1": "the starting amount, 55 pounds",
+     "2": "the conversion rate, pounds per euro"
+    },
+    "steps": [
+     {
+      "ask": "To find the value of 1 euro in pounds, which amount do you divide by which?",
+      "title": "Divide the pounds by the euros",
+      "lines": [
+       {
+        "text": "£55 costs €62.70, so £1 = €$\\frac{62.70}{\\hl{1}{55}}$ and €1 = £$\\frac{\\hl{1}{55}}{62.70}$."
+       },
+       {
+        "tex": "\\text{rate} &= \\frac{\\hl{1}{55}}{62.70}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{0.8772}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}1 = \\text{£}\\hl{2}{0.8772}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q8#(c)(ii)",
+    "note": "Changed from a currency to a unit of distance, with the rate given as 27 nautical miles equal to 50 km. The steps are the same: divide, then give the converted amount in slot 3.",
+    "legend": {
+     "1": "the starting amount, 1 nautical mile",
+     "2": "the conversion rate, km per nautical mile",
+     "3": "the converted amount, in km"
+    },
+    "steps": [
+     {
+      "ask": "If 27 nautical miles is 50 km, how many km is 1 nautical mile? Which amount do you divide by which?",
+      "title": "Divide to find the length of 1 nautical mile",
+      "lines": [
+       {
+        "text": "27 nautical miles equal 50 km, so divide 50 km by 27."
+       },
+       {
+        "tex": "\\hl{1}{1} \\text{ nautical mile} &= \\hl{2}{\\frac{50}{27}} \\text{ km}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{1.852} \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{1.852} \\text{ km}",
+    "graph": null
+   }
+  ]
+ }
+]

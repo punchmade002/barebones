@@ -171,6 +171,8 @@ def check_lesson(job, out):
             errs.append(f"{pr['part']}: not one of the candidates")
             continue
         tag = pr['part'].split('maths-pp-')[-1]
+        if re.search(r'marking scheme', json.dumps(c), re.I):
+            errs.append(f'{tag}: its solution talks about the marking scheme; choose another candidate')
         if n and not (pr.get('note') or '').strip():
             errs.append(f'{tag}: backup needs a "what\'s different" note')
         if bare_tex(pr.get('note') or ''):

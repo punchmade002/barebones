@@ -84,8 +84,8 @@
     {"ask": "What is the first term here, and which exponent does step n get?",
      "title": "Write the perimeter at step n",
      "lines": [
-      {"text": "A geometric sequence with first term $\\hl{1}{3}$ (step 0) and ratio $\\hl{2}{\\frac{3}{2}}$."},
-      {"tex": "P_n &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^{\\hl{3}{n}}"}
+      {"text": "A geometric sequence with first term 3 (step 0) and ratio $\\hl{2}{\\frac{3}{2}}$."},
+      {"tex": "P_n &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^n"}
      ]},
     {"ask": "Which step does the question ask for, and where does that number go?",
      "title": "Substitute n = 35",
@@ -120,7 +120,7 @@
  ]},
  {"skill": "seq-geo-sum", "problems": [
   {"part": "maths-pp-2019-higher-p1-q7#(a)(ii)", "note": null,
-   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n"},
+   "legend": {"1": "first term a", "2": "common ratio r"},
    "steps": [
     {"ask": "What must you multiply by to get from one term to the next? Find that, and the first term.",
      "title": "Spot the geometric series",
@@ -132,13 +132,13 @@
     {"ask": "Which sum formula uses a, r and n? Put your a and r into it.",
      "title": "Substitute into the sum formula",
      "lines": [
-      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
-      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}\\right)}{1-\\hl{2}{\\frac{2}{3}}}"},
-      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}\\right)}{\\frac{1}{3}}"},
-      {"tex": "S_n &= 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}"}
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n\\right)}{1-\\hl{2}{\\frac{2}{3}}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n\\right)}{\\frac{1}{3}}"},
+      {"tex": "S_n &= 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n"}
      ]}
    ],
-   "final": "S_n = 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}",
+   "final": "S_n = 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n",
    "graph": null},
   {"part": "maths-pp-2018-higher-p2-q7#(a)", "note": "This time the terms are sphere volumes and the ratio 1.75 is bigger than 1, so 1 − r is negative. The sum formula is used the same way.",
    "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n"},
@@ -155,12 +155,12 @@
      "title": "Recognise a geometric sequence",
      "lines": [
       {"text": "Each volume is $\\hl{2}{1.75}$ times the one before, so the volumes form a GP with $\\hl{1}{a} = \\hl{1}{36\\pi}$, $\\hl{2}{r} = \\hl{2}{1.75}$ and $\\hl{3}{n} = \\hl{3}{5}$."},
-      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"}
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"}
      ]},
     {"ask": "Which sum formula fits, and what do a, r and n become here?",
      "title": "Substitute into the sum formula",
      "lines": [
-      {"tex": "S_5 &= \\frac{\\hl{1}{36\\pi}(1 - \\hl{2}{1.75}^{\\hl{3}{5}})}{1 - \\hl{2}{1.75}}"},
+      {"tex": "S_5 &= \\frac{\\hl{1}{36\\pi}(1 - \\hl{2}{1.75}^5)}{1 - \\hl{2}{1.75}}"},
       {"tex": "&= \\frac{\\hl{1}{36\\pi}(1 - 16.4130859375)}{-0.75}"},
       {"tex": "&= \\frac{\\hl{1}{36\\pi}(-15.4130859375)}{-0.75}"},
       {"tex": "&\\approx 2324.24"},
@@ -181,9 +181,9 @@
     {"ask": "Which sum formula fits, and what does the question tell you about ωⁿ?",
      "title": "Use the sum formula and substitute",
      "lines": [
-      {"tex": "S &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
-      {"tex": "&= \\frac{\\hl{1}{1}(1-\\hl{2}{\\omega}^{\\hl{3}{n}})}{1-\\hl{2}{\\omega}}"},
-      {"text": "Since $\\hl{2}{\\omega}^{\\hl{3}{n}}=1$, replace $\\hl{2}{\\omega}^{\\hl{3}{n}}$ with 1."},
+      {"tex": "S &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"},
+      {"tex": "&= \\frac{\\hl{1}{1}(1-\\hl{2}{\\omega}^n)}{1-\\hl{2}{\\omega}}"},
+      {"text": "Since $\\hl{2}{\\omega}^n=1$, replace $\\hl{2}{\\omega}^n$ with 1."},
       {"tex": "&= \\frac{\\hl{1}{1}(1-1)}{1-\\hl{2}{\\omega}}"},
       {"tex": "&= \\frac{0}{1-\\hl{2}{\\omega}}"},
       {"text": "$\\hl{2}{\\omega}\\ne 1$, so the denominator is not zero."},
@@ -203,7 +203,7 @@
       {"text": "The ratio $\\hl{2}{r} = \\hl{2}{\\frac12}$ is between $-1$ and $1$, so the sum to infinity exists."},
       {"tex": "S_\\infty &= \\frac{\\hl{1}{a}}{1-\\hl{2}{r}}"},
       {"tex": "S_\\infty &= \\frac{\\hl{1}{4}}{1-\\hl{2}{\\frac{1}{2}}}"},
-      {"tex": "&= \\frac{\\hl{1}{4}}{\\frac{1}{2}}"},
+      {"tex": "&= \\frac{\\hl{1}{4}}{\\frac12}"},
       {"tex": "&= 8"}
      ]}
    ],
@@ -291,18 +291,18 @@
     {"ask": "The sum of the first n distances is given. Which formula gives that sum?",
      "title": "Use the sum of n terms and set it equal to 7.9375",
      "lines": [
-      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
-      {"tex": "S_n &= \\frac{\\hl{1}{4}\\left(1-\\hl{2}{\\left(\\frac12\\right)}^{\\hl{3}{n}}\\right)}{1-\\hl{2}{\\frac12}}"},
-      {"tex": "S_n &= 8\\left(1-\\frac{1}{2^{\\hl{3}{n}}}\\right)"},
-      {"tex": "8\\left(1-\\frac{1}{2^{\\hl{3}{n}}}\\right) &= \\hl{4}{7.9375}"}
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{4}\\left(1-\\hl{2}{\\left(\\frac12\\right)}^n\\right)}{1-\\hl{2}{\\frac12}}"},
+      {"tex": "S_n &= 8\\left(1-\\frac{1}{2^n}\\right)"},
+      {"tex": "8\\left(1-\\frac{1}{2^n}\\right) &= \\hl{4}{7.9375}"}
      ]},
     {"ask": "Rearrange to get the power on its own. What power of 2 gives that number?",
      "title": "Solve for n",
      "lines": [
-      {"tex": "1-\\frac{1}{2^{\\hl{3}{n}}} &= 0.9921875"},
-      {"tex": "\\frac{1}{2^{\\hl{3}{n}}} &= 0.0078125"},
-      {"tex": "\\frac{1}{2^{\\hl{3}{n}}} &= \\frac{1}{128}"},
-      {"tex": "2^{\\hl{3}{n}} &= 128"},
+      {"tex": "1-\\frac{1}{2^n} &= 0.9921875"},
+      {"tex": "\\frac{1}{2^n} &= 0.0078125"},
+      {"tex": "\\frac{1}{2^n} &= \\frac{1}{128}"},
+      {"tex": "2^n &= 128"},
       {"tex": "\\hl{3}{n} &= 7"}
      ]}
    ],

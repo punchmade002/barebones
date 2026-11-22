@@ -1,0 +1,214 @@
+[
+ {
+  "skill": "ind-hidden-quadratic",
+  "problems": [
+   {
+    "part": "maths-pp-2022-higher-p1-q4#(b)(ii)",
+    "note": null,
+    "legend": {"1": "the substitute y, which equals e^k", "2": "the quadratic in y", "3": "the unknown exponent k"},
+    "steps": [
+     {"ask": "The equation is a quadratic in y. How could you factorise it, and what must the two brackets multiply to?", "title": "Factorise the quadratic in y", "lines": [{"tex": "\\hl{2}{5y^2 - 26y + 5} &= 0"}, {"tex": "\\hl{2}{(y - 5)(5y - 1)} &= 0"}]},
+     {"ask": "For a product to be zero, what must each bracket equal? Set them up.", "title": "Set each factor equal to zero", "lines": [{"tex": "\\hl{1}{y} - 5 &= 0 \\quad \\text{or} \\quad 5\\hl{1}{y} - 1 = 0"}, {"tex": "\\hl{1}{y} &= 5 \\quad \\text{or} \\quad \\hl{1}{y} = \\frac{1}{5}"}]},
+     {"ask": "Which expression in k does y stand for here? Put it back in place of y.", "title": "Replace y with e^k", "lines": [{"tex": "\\hl{1}{e^k} &= 5 \\quad \\text{or} \\quad \\hl{1}{e^k} = \\frac{1}{5}"}]},
+     {"ask": "To bring k down out of the exponent, what do you take of both sides?", "title": "Take natural logs to solve for k", "lines": [{"tex": "\\hl{3}{k} &= \\ln 5 \\quad \\text{or} \\quad \\hl{3}{k} = \\ln \\frac{1}{5}"}, {"text": "Write $\\frac{1}{5} = 5^{-1}$ and use $\\ln(a^b) = b\\ln a$."}, {"tex": "\\hl{3}{k} &= \\ln 5 \\quad \\text{or} \\quad \\hl{3}{k} = -\\ln 5"}]}
+    ],
+    "final": "\\hl{3}{k} = \\ln 5 \\ \\text{or} \\ \\hl{3}{k} = -\\ln 5",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+    "note": "The base is 3 instead of e, and the leading coefficient is 3, so you first rewrite $3^{2m+1}$ as $3(3^m)^2$ to get the quadratic. Then one root is rejected and you take logs base 3, but the method is otherwise the same.",
+    "legend": {"1": "the substitute 3^m (x in the question)", "2": "the quadratic in 3^m", "3": "the unknown, m"},
+    "steps": [
+     {"ask": "The base is 3. How can you rewrite $3^{2m+1}$ so that only $3^m$ appears?", "title": "Write the equation in the form of part (i)", "lines": [{"tex": "3^{2m+1} &= 35 - 8(\\hl{1}{3^m})"}, {"tex": "3 \\cdot 3^{2m} &= 35 - 8(\\hl{1}{3^m})"}, {"tex": "3(\\hl{1}{3^m})^2 &= 35 - 8(\\hl{1}{3^m})"}, {"tex": "\\hl{2}{3(3^m)^2 + 8(3^m) - 35} &= 0"}]},
+     {"ask": "Part (i) solved a quadratic in x. Which quantity plays the role of x here, and what values does it take?", "title": "Compare with part (i) using x = 3^m", "lines": [{"text": "This is $3x^2 + 8x - 35 = 0$ with $x = 3^m$, so $3^m = \\frac{7}{3}$ or $3^m = -5$."}, {"text": "$3^m > 0$ for every real $m$, so $3^m = -5$ is rejected."}, {"tex": "\\hl{1}{3^m} &= \\frac{7}{3}"}]},
+     {"ask": "You now have $3^m$ equal to a number. What do you take log base 3 of both sides to get m?", "title": "Take log base 3 of both sides", "lines": [{"tex": "\\log_3 \\hl{1}{3^m} &= \\log_3\\left(\\frac{7}{3}\\right)"}, {"tex": "\\hl{3}{m} &= \\log_3\\left(\\frac{7}{3}\\right)"}]},
+     {"ask": "Split the fraction 7/3 into two logs with the quotient rule. What is log base 3 of 3?", "title": "Split the log into the form log_3 p - q", "lines": [{"tex": "\\hl{3}{m} &= \\log_3 7 - \\log_3 3"}, {"tex": "&= \\log_3 7 - 1"}]}
+    ],
+    "final": "\\hl{3}{m} = \\log_3 7 - 1",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q3#(b)",
+    "note": "This time the equation has a fraction with e^x on the bottom, so you clear it first to get the quadratic. The substitution, the rejected root and the final log are the same as before.",
+    "legend": {"1": "the substitute e^x (y in the working)", "2": "the quadratic in e^x", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "The equation has a fraction with eˣ on the bottom. What do you multiply both sides by to clear it?", "title": "Set f(x) equal to g(x) and clear the fraction", "lines": [{"tex": "e^x - 1 &= \\frac{2}{e^x}"}, {"tex": "\\hl{1}{e^x}(\\hl{1}{e^x} - 1) &= 2"}, {"tex": "\\hl{2}{e^{2x} - e^x} &= 2"}]},
+     {"ask": "If y stands for $e^x$, what is $e^{2x}$ in terms of y?", "title": "Treat it as a quadratic in e^x", "lines": [{"text": "Let $y = e^x$, so $e^{2x} = y^2$."}, {"tex": "\\hl{2}{y^2 - y} &= 2"}, {"tex": "\\hl{2}{y^2 - y - 2} &= 0"}, {"tex": "\\hl{2}{(y - 2)(y + 1)} &= 0"}, {"tex": "\\hl{1}{y} = 2 \\quad &\\text{or} \\quad \\hl{1}{y} = -1"}]},
+     {"ask": "Can $e^x$ ever be negative? Which of the two values of y can it equal?", "title": "Reject the impossible value and solve for x", "lines": [{"text": "$\\hl{1}{e^x}$ is always positive, so $\\hl{1}{e^x} = -1$ has no solution."}, {"tex": "\\hl{1}{e^x} &= 2"}, {"tex": "\\hl{3}{x} &= \\ln 2"}, {"tex": "\\hl{3}{x} &\\approx 0.693"}]}
+    ],
+    "final": "\\hl{3}{x} = \\ln 2 \\approx 0.693",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "ind-solve-equation",
+  "problems": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+    "note": null,
+    "legend": {"1": "the left-hand exponent, 2x − 1", "2": "the right-hand exponent, 6", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "Both sides need the same base. What power of 2 is 64?", "title": "Write both sides as powers of 2", "lines": [{"text": "$64 = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$."}, {"tex": "2^{\\hl{1}{2x-1}} &= 64"}, {"tex": "2^{\\hl{1}{2x-1}} &= 2^\\hl{2}{6}"}]},
+     {"ask": "When the bases match, what must the two powers be equal to?", "title": "Equate the powers", "lines": [{"text": "The bases are equal, so the indices are equal."}, {"tex": "\\hl{1}{2x - 1} &= \\hl{2}{6}"}]},
+     {"ask": "Getting x on its own takes two moves. What are they, and in which order?", "title": "Solve for x", "lines": [{"tex": "2\\hl{3}{x} &= 7"}, {"tex": "\\hl{3}{x} &= \\frac{7}{2}"}]}
+    ],
+    "final": "\\hl{3}{x} = \\frac{7}{2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q4#(c)(i), (ii)",
+    "note": "The right side is 128, which is not a power of 2 you know straight away, so you list powers of 2 to find 128 = 2⁷. The method is the same after that, and the answer comes out as a decimal.",
+    "legend": {"1": "the left-hand exponent, 4x + 1", "2": "the right-hand exponent, 7", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "Keep doubling from 2. Which power of 2 first reaches 128?", "title": "Write 128 as a power of 2 (part (i))", "lines": [{"text": "Keep multiplying by 2 until you reach 128."}, {"tex": "2^1 &= 2"}, {"tex": "2^2 &= 4"}, {"tex": "2^3 &= 8"}, {"tex": "2^4 &= 16"}, {"tex": "2^5 &= 32"}, {"tex": "2^6 &= 64"}, {"tex": "2^\\hl{2}{7} &= 128"}, {"text": "So $128 = 2^7$, and $k = 7$."}]},
+     {"ask": "Use $128 = 2^7$ from part (i). What does the equation look like with both sides in base 2?", "title": "Write both sides of the equation with base 2 (part (ii))", "lines": [{"tex": "2^{\\hl{1}{4x+1}} &= 128"}, {"tex": "2^{\\hl{1}{4x+1}} &= 2^\\hl{2}{7}"}]},
+     {"ask": "Both sides have base 2. What must the powers be equal to?", "title": "Equate the powers", "lines": [{"text": "The bases are the same, so the powers must be equal."}, {"tex": "\\hl{1}{4x + 1} &= \\hl{2}{7}"}]},
+     {"ask": "From $4x + 1 = 7$, what is the first step to isolate the 4x?", "title": "Solve for $x$", "lines": [{"tex": "4\\hl{3}{x} &= 6"}, {"tex": "\\hl{3}{x} &= \\frac{6}{4}"}, {"tex": "&= 1.5"}]}
+    ],
+    "final": "128 = 2^\\hl{2}{7}, \\quad \\hl{3}{x} = 1.5",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+    "note": "The right side is now $8^{2x}$, so you write 8 as $2^3$ and multiply the powers, $(2^3)^{2x} = 2^{6x}$, before equating. The rest of the method is the same.",
+    "legend": {"1": "the left-hand exponent, 9x − 1", "2": "the right-hand exponent, 6x", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "The left side is already base 2. How can you write $8$ as a power of 2?", "title": "Write both sides as powers of 2", "lines": [{"text": "$8 = 2^3$, so $8^{2x} = (2^3)^{2x}$."}, {"tex": "2^{\\hl{1}{9x-1}} &= 8^{2x}"}, {"tex": "2^{\\hl{1}{9x-1}} &= (2^3)^{2x}"}]},
+     {"ask": "When a power is raised to another power, what happens to the two indices?", "title": "Multiply the indices on the right", "lines": [{"text": "Use $(a^m)^n = a^{mn}$."}, {"tex": "2^{\\hl{1}{9x-1}} &= 2^{\\hl{2}{6x}}"}]},
+     {"ask": "Both sides are base 2 now. What must the powers be equal to?", "title": "Equate the indices", "lines": [{"text": "The bases are equal, so the powers must be equal."}, {"tex": "\\hl{1}{9x - 1} &= \\hl{2}{6x}"}, {"tex": "9x - 6x &= 1"}, {"tex": "3\\hl{3}{x} &= 1"}, {"tex": "\\hl{3}{x} &= \\frac{1}{3}"}]}
+    ],
+    "final": "\\hl{3}{x} = \\frac{1}{3}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "log-laws",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+    "note": null,
+    "legend": {"1": "the index brought down (the 3 in 2³)", "2": "the basic logs, log_a 2 and log_a 3, now p and q"},
+    "steps": [
+     {"ask": "The argument of the log is a fraction. Which log law splits it?", "title": "Split the fraction using the quotient rule", "lines": [{"text": "$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$."}, {"tex": "\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3"}]},
+     {"ask": "8 is a power of 2. Write it that way and bring its index to the front.", "title": "Write 8 as a power of 2 and use the power rule", "lines": [{"tex": "\\log_a 8 - \\log_a 3 &= \\log_a 2^\\hl{1}{3} - \\log_a 3"}, {"tex": "&= \\hl{1}{3}\\hl{2}{\\log_a 2} - \\hl{2}{\\log_a 3}"}]},
+     {"ask": "Which logs in the expression are the ones the question calls p and q?", "title": "Replace log_a 2 by p and log_a 3 by q", "lines": [{"tex": "&= \\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}"}]}
+    ],
+    "final": "\\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+    "note": "The argument is now a product, $5x^2$, not a fraction, so you use the product rule and then the power rule. The answer is written in the form a + b log₅ x, as the question asks, and the same laws are used.",
+    "legend": {"1": "the index brought down (the 2 in x²)", "2": "the basic log, log_5 5 = 1"},
+    "steps": [
+     {"ask": "Take log base 5 of both sides of y = 5x². What does the left side become?", "title": "Take log base 5 of both sides", "lines": [{"tex": "\\log_5 y &= \\log_5 (5x^2)"}]},
+     {"ask": "The argument 5x² is a product. Which rule splits it into two logs?", "title": "Split the product into two logs", "lines": [{"text": "Use $\\log (AB) = \\log A + \\log B$."}, {"tex": "\\log_5 y &= \\hl{2}{\\log_5 5} + \\log_5 x^\\hl{1}{2}"}]},
+     {"ask": "What is log base 5 of 5? And what does the square on x become?", "title": "Simplify each log", "lines": [{"text": "$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$."}, {"tex": "\\log_5 y &= \\hl{2}{1} + \\hl{1}{2}\\log_5 x"}, {"text": "Comparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$."}]}
+    ],
+    "final": "a = \\hl{2}{1}, \\quad b = \\hl{1}{2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+    "note": "The fraction now has $9a^2$ on top, so you also split $9a^2$ into $(3a)^2$ and $16$ into $2^4$ before using the rules. The replacements for p and q stay the same.",
+    "legend": {"1": "the index brought down (the 2 in (3a)² and the 4 in 2⁴)", "2": "the basic logs: log_a 2, log_a 3 and log_a a"},
+    "steps": [
+     {"ask": "The argument is a fraction. Which rule gives a difference of two logs?", "title": "Split the fraction using the quotient rule", "lines": [{"tex": "\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16"}]},
+     {"ask": "Can you write $9a^2$ as a square and $16$ as a power of 2?", "title": "Write 9a^2 and 16 as powers", "lines": [{"text": "$9a^2 = (3a)^2$ and $16 = 2^4$."}, {"tex": "\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^\\hl{1}{2} - \\log_a 2^\\hl{1}{4}"}]},
+     {"ask": "Which rule brings an index in front of its log?", "title": "Use the power rule", "lines": [{"tex": "&= \\hl{1}{2}\\log_a 3a - \\hl{1}{4}\\hl{2}{\\log_a 2}"}]},
+     {"ask": "3a is a product inside a log. Which rule splits it, and what are the two pieces?", "title": "Split 3a using the product rule", "lines": [{"tex": "&= \\hl{1}{2}\\hl{2}{\\log_a 3} + \\hl{1}{2}\\hl{2}{\\log_a a} - \\hl{1}{4}\\hl{2}{\\log_a 2}"}]},
+     {"ask": "Which logs are p and q, and what is log base a of a?", "title": "Replace with p and q", "lines": [{"text": "$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$."}, {"tex": "&= \\hl{1}{2}\\hl{2}{q} + \\hl{1}{2}(\\hl{2}{1}) - \\hl{1}{4}\\hl{2}{p}"}, {"tex": "&= \\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}"}]}
+    ],
+    "final": "\\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "log-solve",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+    "note": null,
+    "legend": {"1": "the log term, ln√x", "2": "the argument of the log, √x", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "Write the equation with the log on the left. Which expression is inside the ln?", "title": "Set up the equation", "lines": [{"tex": "\\hl{1}{\\ln\\sqrt{x}} &= 3.5"}]},
+     {"ask": "What do you do to both sides to undo a natural log?", "title": "Remove the logarithm", "lines": [{"text": "$\\ln A = k$ means $A = e^k$."}, {"tex": "\\hl{2}{\\sqrt{x}} &= e^{3.5}"}]},
+     {"ask": "How do you undo a square root? Apply it to both sides.", "title": "Square both sides", "lines": [{"tex": "\\hl{3}{x} &= \\left(e^{3.5}\\right)^2"}, {"tex": "\\hl{3}{x} &= e^{7}"}]}
+    ],
+    "final": "\\hl{3}{x} = e^{7}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q3#(b)",
+    "note": "The equation now factorises into two brackets, one with ln x, so each bracket is set to zero. One root, x = −4/3, is rejected because ln x needs x > 0, and the log steps stay the same.",
+    "legend": {"1": "the log term, ln x", "3": "the unknown, x"},
+    "steps": [
+     {"ask": "Which two pairs of terms in g(x) share a common factor?", "title": "Group the terms as in part (a)", "lines": [{"tex": "g(x) &= 3x\\hl{1}{\\ln x} - 9x + 4\\hl{1}{\\ln x} - 12"}, {"tex": "&= 3x(\\hl{1}{\\ln x} - 3) + 4(\\hl{1}{\\ln x} - 3)"}]},
+     {"ask": "What bracket is common to both groups, and what is left over?", "title": "Take out the common bracket", "lines": [{"tex": "&= (3x+4)(\\hl{1}{\\ln x} - 3)"}]},
+     {"ask": "A product equals zero. What must each factor do?", "title": "Set each factor equal to zero", "lines": [{"text": "A product is zero when one of its factors is zero."}, {"tex": "3x + 4 &= 0"}, {"tex": "\\hl{3}{x} &= -\\tfrac{4}{3}"}]},
+     {"ask": "Set the ln bracket to zero. What is ln x equal to?", "title": "Solve the logarithm factor", "lines": [{"tex": "\\hl{1}{\\ln x} - 3 &= 0"}, {"tex": "\\hl{1}{\\ln x} &= 3"}, {"tex": "\\hl{3}{x} &= e^3"}, {"text": "$\\ln x$ only exists for $x>0$, so reject $x=-\\tfrac{4}{3}$."}]}
+    ],
+    "final": "\\hl{3}{x} = e^3",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(b)",
+    "note": "This time the log sits in a formula from a real situation with decimal numbers, so you subtract 1 after using e and round the answer to 2 decimal places. The steps for isolating the log are the same as before.",
+    "legend": {"1": "the log term, ln(t + 1)", "2": "the argument of the log, t + 1", "3": "the unknown, t"},
+    "steps": [
+     {"ask": "Put P(t) equal to 0.55 in the formula. What equation do you get?", "title": "Set P(t) equal to 0.55", "lines": [{"tex": "0.82 - 0.12\\hl{1}{\\ln(t+1)} &= 0.55"}]},
+     {"ask": "Which numbers move to the other side first to leave the log on its own?", "title": "Isolate ln(t + 1)", "lines": [{"text": "Subtract $0.82$ from both sides."}, {"tex": "-0.12\\hl{1}{\\ln(t+1)} &= -0.27"}, {"text": "Divide both sides by $-0.12$."}, {"tex": "\\hl{1}{\\ln(t+1)} &= \\frac{0.27}{0.12}"}, {"tex": "\\hl{1}{\\ln(t+1)} &= 2.25"}]},
+     {"ask": "Use e to undo the natural log. What does t + 1 equal, and then what is t?", "title": "Remove the log by using e", "lines": [{"text": "$\\ln x = y$ means $x = e^{y}$."}, {"tex": "\\hl{2}{t+1} &= e^{2.25}"}, {"tex": "\\hl{3}{t} &= e^{2.25} - 1"}]},
+     {"ask": "Work out e to the power 2.25 on a calculator. How many decimal places should the answer have?", "title": "Evaluate and round", "lines": [{"tex": "\\hl{3}{t} &= 8.487\\ldots"}, {"tex": "\\hl{3}{t} &\\approx 8.49 \\text{ hours}"}]}
+    ],
+    "final": "\\hl{3}{t} = 8.49\\text{ hours}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "log-solve-exponential",
+  "problems": [
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(a)(ii)",
+    "note": null,
+    "legend": {"1": "the power of e, e^{0.065t}", "2": "the value the power equals", "3": "the unknown, t"},
+    "steps": [
+     {"ask": "Put N(t) = 790 in. What do you divide by to get the power of e on its own?", "title": "Set N(t) = 790", "lines": [{"tex": "450\\hl{1}{e^{0.065t}} &= 790"}, {"tex": "\\hl{1}{e^{0.065t}} &= \\hl{2}{\\frac{790}{450}}"}, {"tex": "\\hl{1}{e^{0.065t}} &= \\hl{2}{\\frac{79}{45}}"}]},
+     {"ask": "Take the natural log of both sides. What does ln do to e raised to a power?", "title": "Take the natural log of both sides", "lines": [{"tex": "0.065\\hl{3}{t} &= \\ln\\left(\\hl{2}{\\frac{79}{45}}\\right)"}, {"text": "$\\ln e^{x} = x$."}]},
+     {"ask": "Divide both sides by 0.065. What is t equal to?", "title": "Divide by 0.065", "lines": [{"tex": "\\hl{3}{t} &= \\frac{\\ln(79/45)}{0.065}"}, {"tex": "&\\approx 8.659"}, {"tex": "&\\approx 8.7"}]}
+    ],
+    "final": "\\hl{3}{t} = 8.7 \\text{ hours}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(d)",
+    "note": "This model has a factor of 10⁶ and a constant 3.9, and k comes out negative, rounded to 2 decimal places. The method is the same: isolate the power of e, then take natural logs.",
+    "legend": {"1": "the power of e, e^k", "2": "the value the power equals", "3": "the unknown, k"},
+    "steps": [
+     {"ask": "Put t = 1 into the model. What does the exponent become in terms of k?", "title": "Write an equation in k using t = 1", "lines": [{"text": "The beginning of 2011 is $t = 1$."}, {"tex": "q(1) &= 3.9 \\hl{1}{e^{k(1)}} \\times 10^6"}, {"tex": "3.9 \\hl{1}{e^{k}} \\times 10^6 &= \\hl{2}{3\\,709\\,795}"}]},
+     {"ask": "What must you divide both sides by to get the power of e on its own?", "title": "Isolate e^k", "lines": [{"tex": "3.9 \\hl{1}{e^{k}} &= \\hl{2}{3.709795}"}, {"tex": "\\hl{1}{e^{k}} &= \\hl{2}{\\frac{3.709795}{3.9}}"}]},
+     {"ask": "Undo the e with natural logs. What is k, to 2 decimal places?", "title": "Take natural logs to solve for k", "lines": [{"tex": "\\hl{3}{k} &= \\ln\\left(\\hl{2}{\\frac{3.709795}{3.9}}\\right)"}, {"tex": "\\hl{3}{k} &\\approx -0.0499999"}, {"tex": "\\hl{3}{k} &\\approx -0.05 \\text{ (2 decimal places)}"}]}
+    ],
+    "final": "\\hl{3}{k} = -0.05",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(iii)",
+    "note": "The base is now 132.16 instead of e, so the logs are ordinary logs and c comes out of the power as a factor. The time must first be converted from minutes and seconds into seconds.",
+    "legend": {"1": "the power, (132.16)^c", "2": "the value the power equals", "3": "the unknown, c"},
+    "steps": [
+     {"ask": "How many seconds are in 2 minutes, and what do you add to that?", "title": "Write the time in seconds", "lines": [{"tex": "2\\text{ min } 1.84\\text{ s} &= 2(60) + 1.84"}, {"tex": "&= 121.84\\text{ s}"}]},
+     {"ask": "Put the time into y = a(b − x)^c. What does the bracket become?", "title": "Substitute into y = a(b − x)^c", "lines": [{"tex": "1087 &= 0.11193(254 - 121.84)^c"}, {"tex": "1087 &= 0.11193\\hl{1}{(132.16)^c}"}]},
+     {"ask": "Divide to get the power on its own. Which log brings the c down?", "title": "Isolate the power and take logs", "lines": [{"tex": "\\hl{2}{\\frac{1087}{0.11193}} &= \\hl{1}{(132.16)^c}"}, {"tex": "\\hl{2}{9711.426} &= \\hl{1}{(132.16)^c}"}, {"tex": "\\log \\hl{2}{9711.426} &= \\hl{3}{c}\\log 132.16"}, {"tex": "\\hl{3}{c} &= \\frac{\\log 9711.426}{\\log 132.16}"}, {"tex": "\\hl{3}{c} &= 1.88"}]}
+    ],
+    "final": "\\hl{3}{c} = 1.88",
+    "graph": null
+   }
+  ]
+ }
+]

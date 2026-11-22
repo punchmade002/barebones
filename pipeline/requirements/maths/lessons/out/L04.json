@@ -1,0 +1,296 @@
+[
+ {"skill": "diff-stationary", "problems": [
+  {"part": "maths-pp-2015-ordinary-p1-q4#(b)", "note": null,
+   "legend": {"1": "the slope, f′(x)", "2": "x at the turning point", "3": "y at the turning point"},
+   "steps": [
+    {"ask": "Turning points happen where the slope is zero. What expression gives the slope of f(x) at any x?", "title": "Differentiate and set the derivative equal to zero", "lines": [
+      {"text": "At a turning point the slope is zero."},
+      {"tex": "f(x) &= -x^2 + 6x - 4"},
+      {"tex": "\\hl{1}{f'(x)} &= \\hl{1}{-2x + 6}"},
+      {"tex": "\\hl{1}{-2x + 6} &= \\hl{1}{0}"}
+    ]},
+    {"ask": "Solve that equation for x, one step at a time.", "title": "Solve for x", "lines": [
+      {"tex": "-2x &= -6"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{3}"}
+    ]},
+    {"ask": "The turning point now has an x-value. What do you put into f(x) to get the y-value?", "title": "Find the y-co-ordinate", "lines": [
+      {"tex": "f(\\hl{2}{3}) &= -(\\hl{2}{3})^2 + 6(\\hl{2}{3}) - 4"},
+      {"tex": "&= -9 + 18 - 4"},
+      {"tex": "&= \\hl{3}{5}"}
+    ]}
+   ],
+   "final": "(\\hl{2}{3}, \\hl{3}{5})",
+   "graph": {"f": "-x**2 + 6*x - 4", "box": [0, 6, 6, -5], "tangent": true, "points": [{"x": 3, "y": 5, "name": "max (3, 5)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+  {"part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)", "note": "The x² term is now positive, so the curve is U-shaped and the turning point is a minimum, not a maximum. Only x is asked here, so there is no y-value step. The method is the same.",
+   "legend": {"1": "the slope, g′(x)", "2": "x at the turning point"},
+   "steps": [
+    {"ask": "A U-shaped curve turns at its lowest point, where the slope is zero. What is the slope function of g(x)?", "title": "Differentiate g(x)", "lines": [
+      {"text": "The graph of $g$ is a U-shape, so the minimum is where the slope is zero."},
+      {"tex": "g(x) &= x^2 + 8x - 6"},
+      {"tex": "\\hl{1}{g'(x)} &= \\hl{1}{2x + 8}"}
+    ]},
+    {"ask": "Set that slope equal to zero and solve for x.", "title": "Set the derivative equal to zero", "lines": [
+      {"tex": "\\hl{1}{2x + 8} &= \\hl{1}{0}"},
+      {"tex": "2x &= -8"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{-4}"}
+    ]}
+   ],
+   "final": "\\hl{2}{x} = \\hl{2}{-4}",
+   "graph": {"f": "x**2 + 8*x - 6", "box": [-9, 4, 1, -24], "tangent": true, "points": [{"x": -4, "y": -22, "name": "min (-4, -22)"}], "line": null, "slots": {"x": 2, "y": null, "line": null}}},
+  {"part": "maths-pp-2020-ordinary-p1-q8#(c)(ii)", "note": "The function is now a depth in a real context, and its coefficients are fractions. It is still a minimum, the lowest point, and the same steps apply.",
+   "legend": {"1": "the slope, h′(x)", "2": "x at the lowest point"},
+   "steps": [
+    {"ask": "At the deepest point, what is the slope? Set h′(x) equal to it.", "title": "Set h'(x) = 0 at the greatest depth", "lines": [
+      {"text": "At the lowest point of the graph the slope is zero."},
+      {"tex": "\\hl{1}{\\frac{1}{30}x - \\frac{1}{4}} &= \\hl{1}{0}"}
+    ]},
+    {"ask": "To isolate x, undo the multiplication by 1/30. What do you do to both sides?", "title": "Solve for x", "lines": [
+      {"tex": "\\frac{1}{30}x &= \\frac{1}{4}"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{30}{4}}"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{15}{2}}"}
+    ]}
+   ],
+   "final": "\\hl{2}{x} = \\hl{2}{\\frac{15}{2}}\\text{ m}",
+   "graph": null}
+ ]},
+ {"skill": "diff-chain", "problems": [
+  {"part": "maths-pp-2025-higher-p1-q3#(a)", "note": null,
+   "legend": {"1": "the outer derivative, f′ at the inside", "2": "the inside derivative, du/dx"},
+   "steps": [
+    {"ask": "Which part is the inside of the power? Name it u and say what the outside power is.", "title": "Identify the outer and inner functions", "lines": [
+      {"text": "$f(x) = u^{28}$ where $u = 3x^5 - 4$. Use the chain rule: $f'(x) = \\hl{1}{28u^{27}} \\times \\hl{2}{\\frac{du}{dx}}$."}
+    ]},
+    {"ask": "Differentiate only the inside expression, u, with respect to x.", "title": "Differentiate the inner function", "lines": [
+      {"tex": "\\hl{2}{\\frac{du}{dx}} &= \\hl{2}{15x^4}"}
+    ]},
+    {"ask": "Put the outside result, with u replaced by 3x⁵ − 4, and the inside derivative together. What do you multiply?", "title": "Multiply the two results together", "lines": [
+      {"tex": "f'(x) &= \\hl{1}{28(3x^5 - 4)^{27}} \\times \\hl{2}{15x^4}"}
+    ]}
+   ],
+   "final": "f'(x) = \\hl{1}{28(3x^5 - 4)^{27}}(\\hl{2}{15x^4})",
+   "graph": null},
+  {"part": "maths-pp-2023-higher-p1-q5#(a)", "note": "The power is now −1, so the answer needs a positive power at the end. The inside is a quadratic, 5x² + 7, but the chain rule steps are the same: outside derivative times inside derivative.",
+   "legend": {"1": "the outer derivative, f′ at the inside", "2": "the inside derivative, du/dx"},
+   "steps": [
+    {"ask": "How can you write 1 over (5x² + 7) using a power, so that the power rule applies to the outside?", "title": "Write f(x) as a power", "lines": [
+      {"tex": "f(x) &= (5x^2 + 7)^{-1}"}
+    ]},
+    {"ask": "Apply the chain rule: bring the power down, reduce it by 1, then multiply by the inside derivative. What is that inside derivative?", "title": "Differentiate using the chain rule", "lines": [
+      {"text": "Bring down the power, reduce it by 1, then multiply by the derivative of $5x^2 + 7$, which is $\\hl{2}{10x}$."},
+      {"tex": "f'(x) &= \\hl{1}{-1(5x^2 + 7)^{-2}}(\\hl{2}{10x})"},
+      {"tex": "&= -10x(5x^2 + 7)^{-2}"}
+    ]},
+    {"ask": "The answer has a negative power. How do you write (5x² + 7)⁻² with a positive power?", "title": "Write with a positive power", "lines": [
+      {"tex": "&= \\frac{-10x}{(5x^2 + 7)^2}"}
+    ]}
+   ],
+   "final": "f'(x) = \\frac{-10x}{(5x^2 + 7)^2}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p1-q8#(c)", "note": "The outside function is now a cosine instead of a power, with constants in front and added on. The method is the same: outside derivative times inside derivative, then simplify the constants.",
+   "legend": {"1": "the outer derivative, −sin at the inside", "2": "the inside derivative, π/26"},
+   "steps": [
+    {"ask": "The outside is a cosine. What is its derivative, and what is the derivative of the angle πt/26?", "title": "Differentiate using the chain rule", "lines": [
+      {"text": "The derivative of $\\cos u$ is $\\hl{1}{-\\sin u}$, multiplied by the derivative of the inside, $\\hl{2}{\\frac{\\pi}{26}}$. The constant $37500$ differentiates to $0$."},
+      {"tex": "r(t) &= 22500\\cos\\left(\\frac{\\pi}{26}t\\right)+37500"},
+      {"tex": "r'(t) &= 22500\\left[\\hl{1}{-\\sin\\left(\\frac{\\pi}{26}t\\right)}\\right]\\left(\\hl{2}{\\frac{\\pi}{26}}\\right)"}
+    ]},
+    {"ask": "Multiply the numbers in front together and simplify the fraction.", "title": "Simplify the constant", "lines": [
+      {"tex": "r'(t) &= -\\frac{22500\\pi}{26}\\sin\\left(\\frac{\\pi}{26}t\\right)"},
+      {"tex": "&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)"}
+    ]}
+   ],
+   "final": "r'(t) = -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)",
+   "graph": null}
+ ]},
+ {"skill": "diff-exponential", "problems": [
+  {"part": "maths-pp-2024-higher-p1-q7#(c)(i)", "note": null,
+   "legend": {"1": "the rate k, 0.04, which comes down", "2": "the time t, here 3.5"},
+   "steps": [
+    {"ask": "What is the derivative of eᵏᵗ, and which number comes out in front?", "title": "Differentiate F(t)", "lines": [
+      {"text": "Use $\\dfrac{d}{dt}\\left(e^{kt}\\right) = k e^{kt}$."},
+      {"tex": "F(t) &= 5000 e^{\\hl{1}{0.04}t}"},
+      {"tex": "F'(t) &= 5000(\\hl{1}{0.04})e^{\\hl{1}{0.04}t}"},
+      {"tex": "&= 200 e^{\\hl{1}{0.04}t}"}
+    ]},
+    {"ask": "Put the given time into your derivative. What is the exponent now?", "title": "Substitute t = 3.5", "lines": [
+      {"tex": "F'(\\hl{2}{3.5}) &= 200 e^{\\hl{1}{0.04}(\\hl{2}{3.5})}"},
+      {"tex": "&= 200 e^{0.14}"},
+      {"tex": "&= 230.05\\ldots"}
+    ]},
+    {"ask": "Look at the decimal part. Which whole euro is it nearest to?", "title": "Round to the nearest euro", "lines": [
+      {"tex": "F'(\\hl{2}{3.5}) &\\approx 230"}
+    ]}
+   ],
+   "final": "\\text{€}230 \\text{ per year}",
+   "graph": null},
+  {"part": "maths-pp-2017-higher-p1-q7#(g)", "note": "The exponent is now negative, −0.05t, so the quantity falls and the rate is negative. The 10⁶ factor just stays in front, and the steps are the same: differentiate, then substitute.",
+   "legend": {"1": "the rate k, −0.05, which comes down", "2": "the time t, here 8"},
+   "steps": [
+    {"ask": "Which number comes down from the exponent when you differentiate, including its sign?", "title": "Differentiate q(t)", "lines": [
+      {"tex": "q(t) &= 3.9 e^{\\hl{1}{-0.05}t} \\times 10^6"},
+      {"text": "The derivative of $e^{kt}$ is $k e^{kt}$."},
+      {"tex": "q'(t) &= \\hl{1}{-0.05} \\times 3.9 e^{\\hl{1}{-0.05}t} \\times 10^6"}
+    ]},
+    {"ask": "Put t = 8 into your derivative and keep the minus sign in the exponent.", "title": "Substitute t = 8", "lines": [
+      {"text": "The beginning of 2018 is $t = \\hl{2}{8}$."},
+      {"tex": "q'(\\hl{2}{8}) &= \\hl{1}{-0.05} \\times 3.9 e^{\\hl{1}{-0.05}(\\hl{2}{8})} \\times 10^6"},
+      {"tex": "&= -0.195 e^{-0.4} \\times 10^6"},
+      {"tex": "&= -0.195 \\times 0.670320 \\times 10^6"},
+      {"tex": "&= -130\\,712"}
+    ]}
+   ],
+   "final": "-130\\,712 \\text{ people per year}",
+   "graph": null},
+  {"part": "maths-pp-2020-higher-p1-q9#(c)", "note": "The exponent is now positive, 0.065t, so the colony grows instead of falling. The steps are the same: bring the rate down, then substitute the time.",
+   "legend": {"1": "the rate k, 0.065, which comes down", "2": "the time t, here 12"},
+   "steps": [
+    {"ask": "What number comes down in front when you differentiate $e^{0.065t}$?", "title": "Differentiate N(t)", "lines": [
+      {"text": "$\\frac{d}{dt}e^{at} = ae^{at}$."},
+      {"tex": "N'(t) &= 450e^{\\hl{1}{0.065}t} \\times \\hl{1}{0.065}"},
+      {"tex": "&= 29.25e^{\\hl{1}{0.065}t}"}
+    ]},
+    {"ask": "Put t = 12 into N′(t). Work out the exponent before using the calculator.", "title": "Substitute t = 12", "lines": [
+      {"tex": "N'(\\hl{2}{12}) &= 29.25e^{\\hl{1}{0.065}(\\hl{2}{12})}"},
+      {"tex": "&= 29.25e^{0.78}"},
+      {"tex": "&\\approx 63.8"}
+    ]},
+    {"ask": "What does a rate of 63.8 bacteria per hour tell you about the colony?", "title": "Interpret", "lines": [
+      {"text": "After 12 hours the colony is growing at a rate of 63.8 bacteria per hour (about 64)."}
+    ]}
+   ],
+   "final": "63.8 \\text{ bacteria per hour}",
+   "graph": null}
+ ]},
+ {"skill": "diff-first-principles", "problems": [
+  {"part": "maths-pp-2022-higher-p1-q6#(a)", "note": null,
+   "legend": {"1": "f(x + h)", "2": "f(x), the original function", "3": "f′(x), the derivative"},
+   "steps": [
+    {"ask": "Start from the limit definition of f′(x). What goes on top, and what goes underneath?", "title": "Write the first-principles definition", "lines": [
+      {"tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} \\frac{\\hl{1}{f(x + h)} - \\hl{2}{f(x)}}{h}"}
+    ]},
+    {"ask": "Replace every x in f(x) with x + h. Keep brackets when you square.", "title": "Find f(x + h)", "lines": [
+      {"text": "Replace every $x$ in $\\hl{2}{f(x)} = 2x^2 + 4x$ with $x + h$."},
+      {"tex": "\\hl{1}{f(x + h)} &= 2(x + h)^2 + 4(x + h)"},
+      {"tex": "&= 2(x^2 + 2xh + h^2) + 4x + 4h"},
+      {"tex": "&= 2x^2 + 4xh + 2h^2 + 4x + 4h"}
+    ]},
+    {"ask": "Subtract the original f(x) from f(x + h). Which terms cancel?", "title": "Find f(x + h) − f(x)", "lines": [
+      {"tex": "\\hl{1}{f(x + h)} - \\hl{2}{f(x)} &= 2x^2 + 4xh + 2h^2 + 4x + 4h - 2x^2 - 4x"},
+      {"tex": "&= 4xh + 2h^2 + 4h"}
+    ]},
+    {"ask": "Which factor does every term on top share with h?", "title": "Divide by h", "lines": [
+      {"tex": "\\frac{\\hl{1}{f(x + h)} - \\hl{2}{f(x)}}{h} &= \\frac{4xh + 2h^2 + 4h}{h}"},
+      {"text": "Every term has a factor of $h$, so divide each term by $h$."},
+      {"tex": "&= 4x + 2h + 4"}
+    ]},
+    {"ask": "As h gets very close to 0, what happens to the terms that still have h in them?", "title": "Let h tend to 0", "lines": [
+      {"tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (4x + 2h + 4)"},
+      {"tex": "&= 4x + 4"}
+    ]}
+   ],
+   "final": "\\hl{3}{f'(x)} = 4x + 4",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p1-q4#(a)", "note": "The leading term is now x², and there is a constant −10 at the end. The constant cancels when you subtract f(x), so the steps are the same.",
+   "legend": {"1": "f(x + h)", "2": "f(x), the original function", "3": "f′(x), the derivative"},
+   "steps": [
+    {"ask": "Replace x with x + h in f(x). Square the bracket carefully.", "title": "Find f(x + h)", "lines": [
+      {"text": "First principles uses $\\hl{3}{f'(x)}=\\lim_{h\\to 0}\\frac{\\hl{1}{f(x+h)}-\\hl{2}{f(x)}}{h}$."},
+      {"tex": "\\hl{1}{f(x+h)} &= (x+h)^2 - 7(x+h) - 10"},
+      {"tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10"}
+    ]},
+    {"ask": "Subtract f(x). Watch the minus sign in front of the bracket.", "title": "Find f(x + h) − f(x)", "lines": [
+      {"tex": "\\hl{1}{f(x+h)} - \\hl{2}{f(x)} &= x^2 + 2hx + h^2 - 7x - 7h - 10 - (x^2 - 7x - 10)"},
+      {"tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10 - x^2 + 7x + 10"},
+      {"tex": "&= 2hx + h^2 - 7h"}
+    ]},
+    {"ask": "Divide each term on top by h. Which terms cancel?", "title": "Divide by h", "lines": [
+      {"tex": "\\frac{\\hl{1}{f(x+h)} - \\hl{2}{f(x)}}{h} &= \\frac{2hx + h^2 - 7h}{h}"},
+      {"tex": "&= \\frac{2hx}{h} + \\frac{h^2}{h} - \\frac{7h}{h}"},
+      {"tex": "&= 2x + h - 7"}
+    ]},
+    {"ask": "What is the limit of the terms that still have h in them?", "title": "Let h tend to 0", "lines": [
+      {"tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (2x + h - 7)"},
+      {"tex": "&= 2x + 0 - 7"},
+      {"tex": "&= 2x - 7"}
+    ]}
+   ],
+   "final": "\\hl{3}{f'(x)} = 2x - 7",
+   "graph": null},
+  {"part": "maths-pp-2016-higher-p1-q6#(a)", "note": "The function is written as a squared bracket, (2x + 4)², so it must be expanded first. After that, the first-principles steps are the same as before.",
+   "legend": {"1": "f(x + h)", "2": "f(x), the original function", "3": "f′(x), the derivative"},
+   "steps": [
+    {"ask": "f(x) is squared in brackets. What must you do before replacing x with x + h?", "title": "Expand f(x)", "lines": [
+      {"tex": "\\hl{2}{f(x)} &= (2x+4)^2"},
+      {"tex": "&= 4x^2 + 16x + 16"}
+    ]},
+    {"ask": "Replace x with x + h in the expanded f(x). Which terms pick up an h?", "title": "Find f(x + h)", "lines": [
+      {"tex": "\\hl{1}{f(x+h)} &= 4(x+h)^2 + 16(x+h) + 16"},
+      {"tex": "&= 4x^2 + 8hx + 4h^2 + 16x + 16h + 16"}
+    ]},
+    {"ask": "Subtract f(x). Which terms match and cancel?", "title": "Subtract f(x)", "lines": [
+      {"tex": "\\hl{1}{f(x+h)} - \\hl{2}{f(x)} &= (4x^2 + 8hx + 4h^2 + 16x + 16h + 16) - (4x^2 + 16x + 16)"},
+      {"tex": "&= 8hx + 4h^2 + 16h"}
+    ]},
+    {"ask": "Divide the top by h. What factor do the remaining terms share with h?", "title": "Divide by h", "lines": [
+      {"tex": "\\frac{\\hl{1}{f(x+h)} - \\hl{2}{f(x)}}{h} &= \\frac{8hx + 4h^2 + 16h}{h}"},
+      {"tex": "&= \\frac{h(8x + 4h + 16)}{h}"},
+      {"tex": "&= 8x + 4h + 16"}
+    ]},
+    {"ask": "What is left when h gets very close to 0?", "title": "Let h tend to 0", "lines": [
+      {"tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (8x + 4h + 16)"},
+      {"tex": "&= 8x + 16"}
+    ]}
+   ],
+   "final": "\\hl{3}{8x + 16}",
+   "graph": null}
+ ]},
+ {"skill": "diff-log", "problems": [
+  {"part": "maths-pp-2020-higher-p1-q6#(b)(i)", "note": null,
+   "legend": {"1": "1/u, the reciprocal of the inside", "2": "du/dx, the derivative of the inside"},
+   "steps": [
+    {"ask": "For the log of an inside expression, what two parts do you multiply together?", "title": "Differentiate the logarithm using the chain rule", "lines": [
+      {"text": "$\\dfrac{d}{dx}\\ln u = \\hl{1}{\\dfrac{1}{u}}\\cdot\\hl{2}{\\dfrac{du}{dx}}$ with $u = 2x+3$, so $\\hl{2}{\\dfrac{du}{dx}} = 2$. The constant $C$ differentiates to 0."},
+      {"tex": "h'(x) &= \\frac{1}{2}\\left(\\hl{1}{\\frac{1}{2x+3}}\\right)(\\hl{2}{2})"},
+      {"tex": "&= \\frac{1}{2x+3}"}
+    ]}
+   ],
+   "final": "h'(x) = \\frac{1}{2x+3}",
+   "graph": null},
+  {"part": "maths-pp-2025-higher-p1-q9#(a)(iv)", "note": "The inside is now t², not a linear expression, so the reciprocal is 1/t² and the inside derivative is 2t. The same two parts are multiplied, then a common factor of t cancels.",
+   "legend": {"1": "1/u, the reciprocal of the inside", "2": "du/dt, the derivative of the inside"},
+   "steps": [
+    {"ask": "Use the same two parts as before. What is the reciprocal of t², and what is the derivative of t²?", "title": "Differentiate c using the chain rule", "lines": [
+      {"text": "For $\\ln u$ with $u=t^2$: $\\frac{d}{dt}\\ln u = \\hl{1}{\\frac{1}{u}}\\cdot\\hl{2}{\\frac{du}{dt}}$, and $\\hl{2}{\\frac{du}{dt}}=2t$."},
+      {"tex": "\\frac{dc}{dt} &= 9 \\cdot \\hl{1}{\\frac{1}{t^2}} \\cdot \\hl{2}{2t}"},
+      {"tex": "&= \\frac{18t}{t^2}"}
+    ]},
+    {"ask": "Is there a common factor of t on the top and the bottom?", "title": "Cancel a factor of t", "lines": [
+      {"tex": "\\frac{dc}{dt} &= \\frac{18t}{t^2}"},
+      {"tex": "&= \\frac{18}{t}"}
+    ]}
+   ],
+   "final": "\\frac{dc}{dt} = \\frac{18}{t}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p1-q10#(c)(i), (ii)", "note": "The function is now a proportion recalled, P(t), with −0.12 in front of the log. The derivative is found the same way, and the last step interprets what the sign means.",
+   "legend": {"1": "1/u, the reciprocal of the inside"},
+   "steps": [
+    {"ask": "Differentiate each term of P(t). What does the constant 0.82 become?", "title": "Differentiate P(t)", "lines": [
+      {"text": "The derivative of $\\ln(t+1)$ is $\\hl{1}{\\frac{1}{t+1}}$, and the constant $0.82$ differentiates to $0$."},
+      {"tex": "P(t) &= 0.82 - 0.12\\ln(t+1)"},
+      {"tex": "P'(t) &= -0.12 \\times \\hl{1}{\\frac{1}{t+1}}"},
+      {"tex": "&= \\frac{-0.12}{t+1}"}
+    ]},
+    {"ask": "Put t = 1 into your derivative. What is t + 1 when t = 1?", "title": "Substitute t = 1 into P'(t)", "lines": [
+      {"tex": "P'(1) &= \\frac{-0.12}{1+1}"},
+      {"tex": "&= \\frac{-0.12}{2}"},
+      {"tex": "&= -0.06"}
+    ]},
+    {"ask": "What does a negative rate of change tell you about the proportion as time goes on?", "title": "Interpret the sign of P'(t) in part (ii)", "lines": [
+      {"text": "$P'(t)$ is the rate of change of the proportion recalled. It is negative, so $P$ is decreasing."},
+      {"text": "The proportion of digits recalled correctly decreases as the time $t$ increases."}
+    ]}
+   ],
+   "final": "P'(1) = -0.06;\\ \\text{the proportion recalled decreases over time}",
+   "graph": null}
+ ]}
+]

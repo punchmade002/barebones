@@ -1,168 +1,16 @@
 {
- "cx-divide": [
-  "no output"
- ],
- "cx-modulus": [
-  "no output"
- ],
- "num-ratio-proportion": [
-  "no output"
- ],
- "num-sci-notation": [
-  "no output"
- ],
- "diff-increasing": [
-  "no output"
- ],
- "diff-inflection": [
-  "no output"
- ],
- "diff-optimisation": [
-  "no output"
- ],
- "diff-rates-of-change": [
-  "no output"
- ],
- "diff-related-rates": [
-  "no output"
- ],
- "diff-slope-tangent": [
-  "no output"
- ],
- "diff-stationary": [
-  "no output"
- ],
- "diff-chain": [
-  "no output"
- ],
- "diff-exponential": [
-  "no output"
- ],
- "diff-first-principles": [
-  "no output"
- ],
- "diff-log": [
-  "no output"
- ],
- "diff-poly": [
-  "no output"
- ],
- "diff-product": [
-  "no output"
- ],
- "diff-trig": [
-  "no output"
- ],
- "fin-average-rate": [
-  "no output"
- ],
- "fin-compound-interest": [
-  "no output"
- ],
- "fin-costing": [
-  "no output"
- ],
- "fin-depreciation": [
-  "no output"
- ],
- "fin-error": [
-  "no output"
- ],
- "fin-income-tax": [
-  "no output"
- ],
- "fin-mortgage": [
-  "no output"
- ],
- "fin-percentages": [
-  "no output"
- ],
- "fin-profit-margin": [
-  "no output"
- ],
- "fin-rate-conversion": [
-  "no output"
- ],
- "fin-solve-rate-time": [
-  "no output"
- ],
- "fin-units": [
-  "no output"
- ],
- "fn-compare-graphs": [
-  "no output"
- ],
- "fn-evaluate": [
-  "no output"
- ],
- "fn-graph-cubic": [
-  "no output"
- ],
  "fn-graph-exponential": [
-  "no output"
- ],
- "fn-graph-linear": [
-  "no output"
- ],
- "fn-graph-quadratic": [
-  "no output"
+  "2015-ordinary-p1-q9#(a)(iii): no \\hl marks"
  ],
  "fn-solve-graphically": [
-  "no output"
- ],
- "fn-transformations": [
-  "no output"
- ],
- "geo-congruence": [
-  "no output"
- ],
- "geo-cor3": [
-  "no output"
- ],
- "geo-enlargement": [
-  "no output"
- ],
- "geo-enlargement-centre": [
-  "no output"
- ],
- "geo-similar-triangles": [
-  "no output"
- ],
- "geo-thm14": [
-  "no output"
- ],
- "geo-thm2": [
-  "no output"
- ],
- "geo-thm20": [
-  "no output"
- ],
- "geo-thm4": [
-  "no output"
- ],
- "geo-thm9": [
-  "no output"
- ],
- "geo-transformations": [
-  "no output"
- ],
- "con-21": [
-  "no output"
+  "2019-ordinary-p1-q3#(a)(ii): its solution talks about the marking scheme; choose another candidate",
+  "2018-ordinary-p1-q8#(d)(ii): its solution talks about the marking scheme; choose another candidate"
  ],
  "ind-hidden-quadratic": [
-  "no output"
- ],
- "ind-solve-equation": [
-  "no output"
- ],
- "log-laws": [
-  "no output"
- ],
- "log-solve": [
-  "no output"
+  "2016-higher-p1-q3#(b): note has LaTeX outside $…$"
  ],
  "log-solve-exponential": [
-  "no output"
+  "2016-higher-p1-q8#(b)(iii) step 2: ask has LaTeX outside $…$"
  ],
  "int-area-between": [
   "no output"
@@ -179,95 +27,8 @@
  "alg-evaluate": [
   "no output"
  ],
- "alg-rearrange": [
-  "no output"
- ],
- "prob-addition-rule": [
-  "no output"
- ],
- "prob-arrangement-restrictions": [
-  "no output"
- ],
- "prob-bernoulli-3": [
-  "no output"
- ],
- "prob-binomial": [
-  "no output"
- ],
- "prob-conditional": [
-  "no output"
- ],
- "prob-counting-principle": [
-  "no output"
- ],
- "prob-equally-likely": [
-  "no output"
- ],
- "prob-expected-value": [
-  "no output"
- ],
- "prob-factorial": [
-  "no output"
- ],
- "prob-independence-test": [
-  "no output"
- ],
- "prob-independent": [
-  "no output"
- ],
- "prob-kth-success": [
-  "no output"
- ],
- "prob-ncr": [
-  "no output"
- ],
- "prob-sample-space": [
-  "no output"
- ],
- "prob-tree": [
-  "no output"
- ],
- "prob-venn": [
-  "no output"
- ],
- "prob-without-replacement": [
-  "no output"
- ],
- "seq-arith-find-ad": [
-  "no output"
- ],
- "seq-arith-nth": [
-  "no output"
- ],
- "seq-arith-sum": [
-  "no output"
- ],
- "seq-geo-nth": [
-  "no output"
- ],
- "seq-geo-sum": [
-  "no output"
- ],
- "seq-geo-sum-infinity": [
-  "no output"
- ],
- "seq-geo-unknown-n": [
-  "no output"
- ],
- "seq-limits": [
-  "no output"
- ],
- "seq-pattern": [
-  "no output"
- ],
- "seq-quadratic": [
-  "no output"
- ],
- "stat-averages": [
-  "no output"
- ],
  "stat-back-to-back": [
-  "no output"
+  "2022-ordinary-p2-q7#(a)(ii): no \\hl marks"
  ],
  "stat-charts": [
   "no output"
@@ -282,21 +43,6 @@
   "no output"
  ],
  "stat-quartiles-iqr": [
-  "no output"
- ],
- "stat-scatter-correlation": [
-  "no output"
- ],
- "stat-sd": [
-  "no output"
- ],
- "inf-ci-mean": [
-  "no output"
- ],
- "inf-ci-proportion": [
-  "no output"
- ],
- "inf-hypothesis-moe": [
   "no output"
  ],
  "inf-margin-of-error": [
