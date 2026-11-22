@@ -1,0 +1,962 @@
+[
+ {
+  "skill": "diff-chain",
+  "problems": [
+   {
+    "part": "maths-pp-2025-higher-p1-q3#(a)",
+    "note": null,
+    "legend": {
+     "1": "the outer derivative, f′ at the inside",
+     "2": "the inside derivative, du/dx"
+    },
+    "steps": [
+     {
+      "ask": "Which part is the inside of the power? Name it u and say what the outside power is.",
+      "title": "Identify the outer and inner functions",
+      "lines": [
+       {
+        "text": "$f(x) = u^{28}$ where $u = 3x^5 - 4$. Use the chain rule: $f'(x) = \\hl{1}{28u^{27}} \\times \\hl{2}{\\frac{du}{dx}}$."
+       }
+      ]
+     },
+     {
+      "ask": "What is the derivative of the inside expression, u, with respect to x?",
+      "title": "Differentiate the inner function",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{du}{dx}} &= \\hl{2}{15x^4}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the outside result, with u replaced by 3x⁵ − 4, and the inside derivative together. What do you multiply?",
+      "title": "Multiply the two results together",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\hl{1}{28(3x^5 - 4)^{27}} \\times \\hl{2}{15x^4}"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = \\hl{1}{28(3x^5 - 4)^{27}}(\\hl{2}{15x^4})",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q5#(a)",
+    "note": "The power is now −1, so the answer needs a positive power at the end. The inside is a quadratic, 5x² + 7, but the chain rule steps are the same: outside derivative times inside derivative.",
+    "legend": {
+     "1": "the outer derivative, f′ at the inside",
+     "2": "the inside derivative, du/dx"
+    },
+    "steps": [
+     {
+      "ask": "How can you write 1 over (5x² + 7) using a power, so that the power rule applies to the outside?",
+      "title": "Write f(x) as a power",
+      "lines": [
+       {
+        "tex": "f(x) &= (5x^2 + 7)^{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Apply the chain rule: bring the power down, reduce it by 1, then multiply by the inside derivative. What is that inside derivative?",
+      "title": "Differentiate using the chain rule",
+      "lines": [
+       {
+        "text": "Bring down the power, reduce it by 1, then multiply by the derivative of $5x^2 + 7$, which is $\\hl{2}{10x}$."
+       },
+       {
+        "tex": "f'(x) &= \\hl{1}{-1(5x^2 + 7)^{-2}}(\\hl{2}{10x})"
+       },
+       {
+        "tex": "&= -10x(5x^2 + 7)^{-2}"
+       }
+      ]
+     },
+     {
+      "ask": "The answer has a negative power. How do you write (5x² + 7)⁻² with a positive power?",
+      "title": "Write with a positive power",
+      "lines": [
+       {
+        "tex": "&= \\frac{-10x}{(5x^2 + 7)^2}"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = \\frac{-10x}{(5x^2 + 7)^2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q8#(c)",
+    "note": "The outside function is now a cosine instead of a power, with constants in front and added on. The method is the same: outside derivative times inside derivative, then simplify the constants.",
+    "legend": {
+     "1": "the outer derivative, −sin at the inside",
+     "2": "the inside derivative, π/26"
+    },
+    "steps": [
+     {
+      "ask": "The outside is a cosine. What is its derivative, and what is the derivative of the angle πt/26?",
+      "title": "Differentiate using the chain rule",
+      "lines": [
+       {
+        "text": "The derivative of $\\cos u$ is $\\hl{1}{-\\sin u}$, multiplied by the derivative of the inside, $\\hl{2}{\\frac{\\pi}{26}}$. The constant $37500$ differentiates to $0$."
+       },
+       {
+        "tex": "r(t) &= 22500\\cos\\left(\\frac{\\pi}{26}t\\right)+37500"
+       },
+       {
+        "tex": "r'(t) &= 22500\\left[\\hl{1}{-\\sin\\left(\\frac{\\pi}{26}t\\right)}\\right]\\left(\\hl{2}{\\frac{\\pi}{26}}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply the numbers in front together and simplify the fraction?",
+      "title": "Simplify the constant",
+      "lines": [
+       {
+        "tex": "r'(t) &= -\\frac{22500\\pi}{26}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+       },
+       {
+        "tex": "&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+       }
+      ]
+     }
+    ],
+    "final": "r'(t) = -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "diff-exponential",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p1-q7#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "the rate k, 0.04, which comes down",
+     "2": "the time t, here 3.5"
+    },
+    "steps": [
+     {
+      "ask": "What is the derivative of eᵏᵗ, and which number comes out in front?",
+      "title": "Differentiate F(t)",
+      "lines": [
+       {
+        "text": "Use $\\dfrac{d}{dt}\\left(e^{kt}\\right) = k e^{kt}$."
+       },
+       {
+        "tex": "F(t) &= 5000 e^{\\hl{1}{0.04}t}"
+       },
+       {
+        "tex": "F'(t) &= 5000(\\hl{1}{0.04})e^{\\hl{1}{0.04}t}"
+       },
+       {
+        "tex": "&= 200 e^{\\hl{1}{0.04}t}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the given time into your derivative. What is the exponent now?",
+      "title": "Substitute t = 3.5",
+      "lines": [
+       {
+        "tex": "F'(\\hl{2}{3.5}) &= 200 e^{\\hl{1}{0.04}(\\hl{2}{3.5})}"
+       },
+       {
+        "tex": "&= 200 e^{0.14}"
+       },
+       {
+        "tex": "&= 230.05\\ldots"
+       }
+      ]
+     },
+     {
+      "ask": "Look at the decimal part. Which whole euro is it nearest to?",
+      "title": "Round to the nearest euro",
+      "lines": [
+       {
+        "tex": "F'(\\hl{2}{3.5}) &\\approx 230"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}230 \\text{ per year}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(g)",
+    "note": "The exponent is now negative, −0.05t, so the quantity falls and the rate is negative. The 10⁶ factor just stays in front, and the steps are the same: differentiate, then substitute.",
+    "legend": {
+     "1": "the rate k, −0.05, which comes down",
+     "2": "the time t, here 8"
+    },
+    "steps": [
+     {
+      "ask": "Which number comes down from the exponent when you differentiate, including its sign?",
+      "title": "Differentiate q(t)",
+      "lines": [
+       {
+        "tex": "q(t) &= 3.9 e^{\\hl{1}{-0.05}t} \\times 10^6"
+       },
+       {
+        "text": "The derivative of $e^{kt}$ is $k e^{kt}$."
+       },
+       {
+        "tex": "q'(t) &= \\hl{1}{-0.05} \\times 3.9 e^{\\hl{1}{-0.05}t} \\times 10^6"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put t = 8 into your derivative, keeping the minus sign in the exponent?",
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "text": "The beginning of 2018 is $t = \\hl{2}{8}$."
+       },
+       {
+        "tex": "q'(\\hl{2}{8}) &= \\hl{1}{-0.05} \\times 3.9 e^{\\hl{1}{-0.05}(\\hl{2}{8})} \\times 10^6"
+       },
+       {
+        "tex": "&= -0.195 e^{-0.4} \\times 10^6"
+       },
+       {
+        "tex": "&= -0.195 \\times 0.670320 \\times 10^6"
+       },
+       {
+        "tex": "&= -130\\,712"
+       }
+      ]
+     }
+    ],
+    "final": "-130\\,712 \\text{ people per year}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(c)",
+    "note": "The exponent is now positive, 0.065t, so the colony grows instead of falling. The steps are the same: bring the rate down, then substitute the time.",
+    "legend": {
+     "1": "the rate k, 0.065, which comes down",
+     "2": "the time t, here 12"
+    },
+    "steps": [
+     {
+      "ask": "What number comes down in front when you differentiate $e^{0.065t}$?",
+      "title": "Differentiate N(t)",
+      "lines": [
+       {
+        "text": "$\\frac{d}{dt}e^{at} = ae^{at}$."
+       },
+       {
+        "tex": "N'(t) &= 450e^{\\hl{1}{0.065}t} \\times \\hl{1}{0.065}"
+       },
+       {
+        "tex": "&= 29.25e^{\\hl{1}{0.065}t}"
+       }
+      ]
+     },
+     {
+      "ask": "What is N′(12), and what exponent do you get before using the calculator?",
+      "title": "Substitute t = 12",
+      "lines": [
+       {
+        "tex": "N'(\\hl{2}{12}) &= 29.25e^{\\hl{1}{0.065}(\\hl{2}{12})}"
+       },
+       {
+        "tex": "&= 29.25e^{0.78}"
+       },
+       {
+        "tex": "&\\approx 63.8"
+       }
+      ]
+     },
+     {
+      "ask": "What does a rate of 63.8 bacteria per hour tell you about the colony?",
+      "title": "Interpret",
+      "lines": [
+       {
+        "text": "After 12 hours the colony is growing at a rate of 63.8 bacteria per hour (about 64)."
+       }
+      ]
+     }
+    ],
+    "final": "63.8 \\text{ bacteria per hour}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "diff-first-principles",
+  "problems": [
+   {
+    "part": "maths-pp-2022-higher-p1-q6#(a)",
+    "note": null,
+    "legend": {
+     "1": "f(x + h)",
+     "2": "f(x), the original function",
+     "3": "f′(x), the derivative"
+    },
+    "steps": [
+     {
+      "ask": "Start from the limit definition of f′(x). What goes on top, and what goes underneath?",
+      "title": "Write the first-principles definition",
+      "lines": [
+       {
+        "tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} \\frac{\\hl{1}{f(x + h)} - \\hl{2}{f(x)}}{h}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when every x in f(x) is replaced with x + h? Keep brackets when you square.",
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "text": "Replace every $x$ in $\\hl{2}{f(x)} = 2x^2 + 4x$ with $x + h$."
+       },
+       {
+        "tex": "\\hl{1}{f(x + h)} &= 2(x + h)^2 + 4(x + h)"
+       },
+       {
+        "tex": "&= 2(x^2 + 2xh + h^2) + 4x + 4h"
+       },
+       {
+        "tex": "&= 2x^2 + 4xh + 2h^2 + 4x + 4h"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract the original f(x) from f(x + h). Which terms cancel?",
+      "title": "Find f(x + h) − f(x)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f(x + h)} - \\hl{2}{f(x)} &= 2x^2 + 4xh + 2h^2 + 4x + 4h - 2x^2 - 4x"
+       },
+       {
+        "tex": "&= 4xh + 2h^2 + 4h"
+       }
+      ]
+     },
+     {
+      "ask": "Which factor does every term on top share with h?",
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{1}{f(x + h)} - \\hl{2}{f(x)}}{h} &= \\frac{4xh + 2h^2 + 4h}{h}"
+       },
+       {
+        "text": "Every term has a factor of $h$, so divide each term by $h$."
+       },
+       {
+        "tex": "&= 4x + 2h + 4"
+       }
+      ]
+     },
+     {
+      "ask": "As h gets very close to 0, what happens to the terms that still have h in them?",
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (4x + 2h + 4)"
+       },
+       {
+        "tex": "&= 4x + 4"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{f'(x)} = 4x + 4",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q4#(a)",
+    "note": "The leading term is now x², and there is a constant −10 at the end. The constant cancels when you subtract f(x), so the steps are the same.",
+    "legend": {
+     "1": "f(x + h)",
+     "2": "f(x), the original function",
+     "3": "f′(x), the derivative"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when x is replaced with x + h in f(x)? How do you square the bracket?",
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "text": "First principles uses $\\hl{3}{f'(x)}=\\lim_{h\\to 0}\\frac{\\hl{1}{f(x+h)}-\\hl{2}{f(x)}}{h}$."
+       },
+       {
+        "tex": "\\hl{1}{f(x+h)} &= (x+h)^2 - 7(x+h) - 10"
+       },
+       {
+        "tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you subtract f(x)? Watch the minus sign in front of the bracket.",
+      "title": "Find f(x + h) − f(x)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f(x+h)} - \\hl{2}{f(x)} &= x^2 + 2hx + h^2 - 7x - 7h - 10 - (x^2 - 7x - 10)"
+       },
+       {
+        "tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10 - x^2 + 7x + 10"
+       },
+       {
+        "tex": "&= 2hx + h^2 - 7h"
+       }
+      ]
+     },
+     {
+      "ask": "Divide each term on top by h. Which terms cancel?",
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{1}{f(x+h)} - \\hl{2}{f(x)}}{h} &= \\frac{2hx + h^2 - 7h}{h}"
+       },
+       {
+        "tex": "&= \\frac{2hx}{h} + \\frac{h^2}{h} - \\frac{7h}{h}"
+       },
+       {
+        "tex": "&= 2x + h - 7"
+       }
+      ]
+     },
+     {
+      "ask": "What is the limit of the terms that still have h in them?",
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (2x + h - 7)"
+       },
+       {
+        "tex": "&= 2x + 0 - 7"
+       },
+       {
+        "tex": "&= 2x - 7"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{f'(x)} = 2x - 7",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q6#(a)",
+    "note": "The function is written as a squared bracket, (2x + 4)², so it must be expanded first. After that, the first-principles steps are the same as before.",
+    "legend": {
+     "1": "f(x + h)",
+     "2": "f(x), the original function",
+     "3": "f′(x), the derivative"
+    },
+    "steps": [
+     {
+      "ask": "f(x) is squared in brackets. What must you do before replacing x with x + h?",
+      "title": "Expand f(x)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{f(x)} &= (2x+4)^2"
+       },
+       {
+        "tex": "&= 4x^2 + 16x + 16"
+       }
+      ]
+     },
+     {
+      "ask": "Replace x with x + h in the expanded f(x). Which terms pick up an h?",
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f(x+h)} &= 4(x+h)^2 + 16(x+h) + 16"
+       },
+       {
+        "tex": "&= 4x^2 + 8hx + 4h^2 + 16x + 16h + 16"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract f(x). Which terms match and cancel?",
+      "title": "Subtract f(x)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f(x+h)} - \\hl{2}{f(x)} &= (4x^2 + 8hx + 4h^2 + 16x + 16h + 16) - (4x^2 + 16x + 16)"
+       },
+       {
+        "tex": "&= 8hx + 4h^2 + 16h"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the top by h. What factor do the remaining terms share with h?",
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{1}{f(x+h)} - \\hl{2}{f(x)}}{h} &= \\frac{8hx + 4h^2 + 16h}{h}"
+       },
+       {
+        "tex": "&= \\frac{h(8x + 4h + 16)}{h}"
+       },
+       {
+        "tex": "&= 8x + 4h + 16"
+       }
+      ]
+     },
+     {
+      "ask": "What is left when h gets very close to 0?",
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "\\hl{3}{f'(x)} &= \\lim_{h \\to 0} (8x + 4h + 16)"
+       },
+       {
+        "tex": "&= 8x + 16"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{8x + 16}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "diff-product",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p1-q5#(b)",
+    "note": null,
+    "legend": {
+     "1": "u, the factor tan(x/2)",
+     "2": "v, the factor ln x",
+     "3": "u′, the derivative of u",
+     "4": "v′, the derivative of v"
+    },
+    "steps": [
+     {
+      "ask": "g(x) is two functions multiplied together. Which is u, which is v, and what is the derivative of each?",
+      "title": "Name the two factors and differentiate each",
+      "lines": [
+       {
+        "text": "$g(x)$ is a product, so use the product rule with $u$ and $v$."
+       },
+       {
+        "tex": "u &= \\hl{1}{\\tan\\frac{x}{2}}"
+       },
+       {
+        "tex": "\\hl{3}{\\frac{du}{dx}} &= \\hl{3}{\\frac12\\sec^2\\frac{x}{2}}"
+       },
+       {
+        "tex": "v &= \\hl{2}{\\ln x}"
+       },
+       {
+        "tex": "\\hl{4}{\\frac{dv}{dx}} &= \\hl{4}{\\frac1x}"
+       }
+      ]
+     },
+     {
+      "ask": "When two functions are multiplied, how do u, v and their derivatives combine? Write the formula before checking.",
+      "title": "Apply the product rule",
+      "lines": [
+       {
+        "text": "$g'(x) = \\hl{1}{u}\\,\\hl{4}{\\frac{dv}{dx}} + \\hl{2}{v}\\,\\hl{3}{\\frac{du}{dx}}$"
+       },
+       {
+        "tex": "g'(x) &= \\hl{1}{\\tan\\frac{x}{2}}\\cdot\\hl{4}{\\frac1x} + \\hl{2}{\\ln x}\\cdot\\hl{3}{\\frac12\\sec^2\\frac{x}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put x = π/2 into the expression for g′(x). What does the angle x/2 become?",
+      "title": "Substitute x = π/2",
+      "lines": [
+       {
+        "tex": "g'\\left(\\frac{\\pi}{2}\\right) &= \\hl{1}{\\tan\\frac{\\pi}{4}}\\cdot\\hl{4}{\\frac{1}{\\pi/2}} + \\hl{2}{\\ln\\frac{\\pi}{2}}\\cdot\\hl{3}{\\frac12\\sec^2\\frac{\\pi}{4}}"
+       }
+      ]
+     },
+     {
+      "ask": "What are tan(π/4) and sec²(π/4) exactly? Use exact values, not decimals.",
+      "title": "Evaluate the trig values",
+      "lines": [
+       {
+        "text": "$\\tan\\frac{\\pi}{4} = 1$ and $\\sec^2\\frac{\\pi}{4} = \\frac{1}{(1/\\sqrt{2})^2} = 2$."
+       },
+       {
+        "tex": "&= \\hl{1}{1}\\cdot\\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}\\cdot\\hl{3}{\\frac12\\cdot 2}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "g'\\left(\\frac{\\pi}{2}\\right) = \\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q6#(b)(i), (ii)",
+    "note": "Same product rule, but the second factor is a sine of 1/x, so v′ needs the chain rule, and the final step is in radians.",
+    "legend": {
+     "1": "u, the factor x",
+     "2": "v, the factor sin(1/x)",
+     "3": "u′, the derivative of u, equal to 1",
+     "4": "v′, the derivative of v"
+    },
+    "steps": [
+     {
+      "ask": "Name the two factors in y. Which one is u, which is v, and what is du/dx?",
+      "title": "Set up the product rule",
+      "lines": [
+       {
+        "text": "$y = uv$ with $u = \\hl{1}{x}$ and $v = \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)}$, so $\\frac{dy}{dx} = \\hl{1}{u}\\hl{4}{\\frac{dv}{dx}} + \\hl{2}{v}\\hl{3}{\\frac{du}{dx}}$."
+       },
+       {
+        "tex": "\\hl{3}{\\frac{du}{dx}} &= \\hl{3}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "sin(1/x) is a function inside a function. What do you differentiate first, and what does the chain rule multiply by?",
+      "title": "Differentiate v with the chain rule",
+      "lines": [
+       {
+        "text": "Write $\\frac{1}{x} = x^{-1}$, which differentiates to $-\\frac{1}{x^2}$."
+       },
+       {
+        "tex": "\\hl{4}{\\frac{dv}{dx}} &= \\hl{4}{\\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "Put u, v, du/dx and dv/dx into the product rule. What is dy/dx before simplifying?",
+      "title": "Combine",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= \\hl{1}{x}\\hl{4}{\\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right)} + \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)}\\hl{3}{(1)}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)} - \\frac{1}{x}\\cos\\left(\\frac{1}{x}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "When x = 4/π, what is 1/x? Substitute it into both terms.",
+      "title": "Substitute x = 4/pi",
+      "lines": [
+       {
+        "text": "When $x = \\frac{4}{\\pi}$, $\\frac{1}{x} = \\frac{\\pi}{4}$."
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= \\hl{2}{\\sin\\frac{\\pi}{4}} - \\frac{\\pi}{4}\\cos\\frac{\\pi}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Which angle mode must the calculator be in for sin(π/4), and what decimal do you get?",
+      "title": "Evaluate in radians",
+      "lines": [
+       {
+        "text": "Put the calculator in radian mode."
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= \\hl{2}{0.7071} - 0.5554"
+       },
+       {
+        "tex": "&\\approx 0.15"
+       }
+      ]
+     }
+    ],
+    "final": "0.15",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q3#(c)",
+    "note": "This time both factors are simple (3x and ln x), so no chain rule is needed, but the answer has two extra terms, −9 and 4/x, which are differentiated one term at a time.",
+    "legend": {
+     "1": "u, the factor 3x",
+     "2": "v, the factor ln x",
+     "3": "u′, the derivative of u, equal to 3",
+     "4": "v′, the derivative of v, equal to 1/x"
+    },
+    "steps": [
+     {
+      "ask": "3x ln x is a product. What are u and v, and what are u′ and v′?",
+      "title": "Differentiate $3x\\ln x$ with the product rule",
+      "lines": [
+       {
+        "text": "Product rule: $\\frac{d}{dx}(uv) = \\hl{1}{u}\\,\\hl{4}{v'} + \\hl{2}{v}\\,\\hl{3}{u'}$ with $u=\\hl{1}{3x}$, $v=\\hl{2}{\\ln x}$."
+       },
+       {
+        "tex": "g'(x) &= \\hl{1}{3x}\\hl{4}{\\left(\\frac{1}{x}\\right)} + \\hl{3}{3}\\hl{2}{\\ln x} - 9 + 4\\left(\\frac{1}{x}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What does 3x times 1/x simplify to? Which terms can you now combine?",
+      "title": "Simplify the derivative",
+      "lines": [
+       {
+        "tex": "&= 3 + \\hl{3}{3}\\hl{2}{\\ln x} - 9 + \\frac{4}{x}"
+       },
+       {
+        "tex": "&= \\hl{3}{3}\\hl{2}{\\ln x} - 6 + \\frac{4}{x}"
+       }
+      ]
+     },
+     {
+      "ask": "What is ln e? Substitute x = e into the derivative and simplify.",
+      "title": "Substitute x = e",
+      "lines": [
+       {
+        "tex": "g'(e) &= \\hl{3}{3}\\hl{2}{\\ln e} - 6 + \\frac{4}{e}"
+       },
+       {
+        "text": "Since $\\hl{2}{\\ln e} = 1$:"
+       },
+       {
+        "tex": "&= 3 - 6 + \\frac{4}{e}"
+       },
+       {
+        "tex": "&= -3 + \\frac{4}{e}"
+       }
+      ]
+     },
+     {
+      "ask": "What is −3 + 4/e on your calculator, rounded to 2 decimal places?",
+      "title": "Evaluate to 2 decimal places",
+      "lines": [
+       {
+        "tex": "&= -1.53"
+       }
+      ]
+     }
+    ],
+    "final": "g'(e) = -1.53",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-average-rate",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p1-q8#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the distance, D, 12 km",
+     "2": "the time, T, 0.5 hours",
+     "3": "the average speed, S"
+    },
+    "steps": [
+     {
+      "ask": "What is speed as a rate? Write it in terms of distance D and time T.",
+      "title": "Write the speed formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S} &= \\frac{D}{T}"
+       }
+      ]
+     },
+     {
+      "ask": "The distance from A to B is the difference between the two readings. Which way round do you subtract?",
+      "title": "Find the distance from A to B",
+      "lines": [
+       {
+        "tex": "\\hl{1}{D} &= 32 - 20"
+       },
+       {
+        "tex": "&= \\hl{1}{12} \\text{ km}"
+       }
+      ]
+     },
+     {
+      "ask": "A leaves at 08:30 and reaches B at 09:00. How many minutes is that, and what is it in hours?",
+      "title": "Find the time from A to B",
+      "lines": [
+       {
+        "text": "A is at 08:30 and B is at 09:00, so the time is 30 minutes."
+       },
+       {
+        "tex": "\\hl{2}{T} &= 30 \\text{ min} = 0.5 \\text{ hours}"
+       }
+      ]
+     },
+     {
+      "ask": "Divide your distance by your time, with the time in hours. What is the speed?",
+      "title": "Divide distance by time",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S} &= \\frac{12}{0.5}"
+       },
+       {
+        "tex": "&= \\hl{3}{24}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{24} \\ \\text{km/hour}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q5#(b)(ii)",
+    "note": "Now there are two legs of 120 km at different speeds, so you add the two times before dividing, rather than using one leg.",
+    "legend": {
+     "1": "the total distance, 240 km",
+     "2": "the total time, 40/33 hours",
+     "3": "the average speed, 198 km/h"
+    },
+    "steps": [
+     {
+      "ask": "Time is distance divided by speed. What is the time for the outward leg?",
+      "title": "Time from A to B",
+      "lines": [
+       {
+        "tex": "T_1 &= \\frac{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "The return leg is also 120 km. What is its time, using the same formula with the return speed?",
+      "title": "Time from B to A",
+      "lines": [
+       {
+        "tex": "T_2 &= \\frac{120}{220}"
+       },
+       {
+        "tex": "&= \\frac{6}{11}"
+       }
+      ]
+     },
+     {
+      "ask": "How far do you travel altogether, and how long does the whole trip take? Add the two times as fractions.",
+      "title": "Add the times and find the total distance",
+      "lines": [
+       {
+        "text": "Total distance there and back is $\\hl{1}{2 \\times 120 = 240}$ km."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Total time}} &= \\frac{2}{3} + \\frac{6}{11}"
+       },
+       {
+        "tex": "&= \\frac{22}{33} + \\frac{18}{33}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{40}{33}}"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the total distance by the total time. What do you get when you divide by a fraction?",
+      "title": "Average speed = total distance ÷ total time",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Average speed}} &= \\frac{240}{\\frac{40}{33}}"
+       },
+       {
+        "tex": "&= \\hl{1}{240} \\times \\frac{33}{40}"
+       },
+       {
+        "tex": "&= \\hl{3}{198}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{198} \\text{ km/hour}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q7#(g)",
+    "note": "This asks for the rate at which the speed changes, so you find the drop in speed and divide it by the 4 minutes, rather than dividing distance by time.",
+    "legend": {
+     "2": "the time, 4 minutes",
+     "3": "the rate of change, 15 km/h per minute"
+    },
+    "steps": [
+     {
+      "ask": "The car runs at 120 km/h for 2 minutes. Convert 2 minutes to hours, then multiply. How far is that?",
+      "title": "Distance covered in the first 2 minutes",
+      "lines": [
+       {
+        "tex": "d &= 120 \\times \\frac{2}{60}"
+       },
+       {
+        "tex": "&= 4 \\text{ km}"
+       },
+       {
+        "tex": "10 - 4 &= 6"
+       },
+       {
+        "text": "So 6 km remain to get to $B$."
+       }
+      ]
+     },
+     {
+      "ask": "At an average of 100 km/h, how many minutes do the whole 10 km take? How many of those are already used?",
+      "title": "Total time for an average of 100 km/hour",
+      "lines": [
+       {
+        "tex": "\\text{total time} &= \\frac{10}{100}"
+       },
+       {
+        "tex": "&= \\frac{1}{10} \\text{ hour}"
+       },
+       {
+        "tex": "&= 6 \\text{ minutes}"
+       },
+       {
+        "tex": "6 - 2 &= \\hl{2}{4}"
+       },
+       {
+        "text": "So the last 6 km take 4 minutes."
+       }
+      ]
+     },
+     {
+      "ask": "The last 6 km take some minutes. How many hours do they take, and what is the speed over them?",
+      "title": "Average speed over the last 6 km",
+      "lines": [
+       {
+        "tex": "\\text{speed} &= \\frac{6}{4/60}"
+       },
+       {
+        "tex": "&= 90"
+       }
+      ]
+     },
+     {
+      "ask": "Speed falls at a steady rate, so the average is the mean of the starting and final speeds. Which two speeds does that involve?",
+      "title": "Find the speed v at B",
+      "lines": [
+       {
+        "text": "Constant deceleration means the average speed is the mean of the starting speed 120 and the final speed $v$."
+       },
+       {
+        "tex": "\\frac{120 + v}{2} &= 90"
+       },
+       {
+        "tex": "120 + v &= 180"
+       },
+       {
+        "tex": "v &= 60"
+       }
+      ]
+     },
+     {
+      "ask": "How much does the speed drop in those 4 minutes? Divide that drop by the time to get the rate.",
+      "title": "Deceleration over the 4 minutes",
+      "lines": [
+       {
+        "tex": "\\hl{3}{a} &= \\frac{120 - 60}{4}"
+       },
+       {
+        "tex": "&= \\hl{3}{15}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{15} \\text{ km/hour per minute}",
+    "graph": null
+   }
+  ]
+ }
+]
