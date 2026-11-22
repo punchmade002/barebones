@@ -52,66 +52,74 @@
   ],
   "notes": [
    {
-    "b": "Aquatics covers water-based activities that use swimming and/or diving skills and techniques.",
+    "b": "Aquatics is the Physical Education area built around water. It covers water-based activities that use swimming and/or diving skills and techniques, and every activity in it has a clear reason for being done.",
     "h": "What the aquatics area is",
     "points": [
-     "Each aquatic activity serves one of three purposes: performance, water safety or recreation.",
-     "Performance: racing strokes, water polo and synchronised swimming.",
-     "Water safety: lifesaving and survival swimming.",
-     "Recreation: water activity done for enjoyment."
-    ]
+     "Each aquatic activity serves one of three purposes: performance, water safety or recreation. The purpose decides what the activity is trying to achieve.",
+     "Performance (competing or presenting to a high standard): racing strokes, water polo (a team ball game played in the water) and synchronised swimming (swimming routines performed to music and judged on composition and skill).",
+     "Water safety (staying safe and keeping others safe in and around water): lifesaving (rescuing and caring for people in difficulty in water) and survival swimming (staying afloat and getting to safety yourself).",
+     "Recreation: water activity done for enjoyment rather than to compete or to meet a safety need."
+    ],
+    "tip": "Be ready to sort activities by purpose: racing strokes, water polo and synchronised swimming are performance, lifesaving and survival swimming are water safety, and recreation is done for enjoyment."
    },
    {
+    "b": "A learner does not have to cover everything in aquatics. The syllabus gives five options and the learner picks one, which becomes the activity they are assessed in.",
     "h": "The five options and the choice rule",
     "points": [
-     "The five options are lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming.",
-     "Choice rule: a learner selects one of these five options.",
+     "The five options are lifesaving, survival swimming, two swimming strokes, water polo and synchronised swimming. Lifesaving is the specification's own example of an aquatics activity.",
+     "Choice rule: a learner selects one of these five options, not several.",
      "The two swimming strokes option means choosing two of the four competitive strokes: front crawl, backstroke, breaststroke and butterfly.",
-     "In each activity, learners aim to develop the standard of their performance, be creative and be consistent."
+     "In each activity, learners aim to develop the standard of their performance, be creative and be consistent. Consistent means performing to the same standard each time, not just once."
     ]
    },
    {
+    "b": "A pool looks safe, but hard wet surfaces and unknown depths cause injuries. Each pool safety rule exists to prevent a particular kind of accident or problem.",
     "h": "Pool safety",
     "points": [
-     "Swimming takes place under lifeguard supervision.",
-     "Know the depths of the pool before entering the water.",
-     "No diving in shallow water.",
+     "Swimming takes place under lifeguard supervision, so a trained person is watching and can respond if someone is in difficulty.",
+     "Know the depths of the pool before entering the water, so you do not enter or dive where it is too shallow.",
+     "No diving in shallow water, because you can hit the bottom and be injured.",
      "Walk, do not run, on the poolside, because wet surfaces are slippery.",
-     "Enter the water feet first when the depth is unknown.",
-     "Follow the pool rules at all times.",
+     "Enter the water feet first when the depth is unknown, so your feet find the bottom before your head can hit it.",
+     "Follow the pool rules at all times, which are set to keep everyone in the pool safe.",
      "Shower before entering the pool, for hygiene."
-    ]
+    ],
+    "tip": "Written questions can ask about safety regulations at a pool. Give each rule together with its reason, for example walking because wet surfaces are slippery."
    },
    {
+    "b": "The sea, lakes and rivers (open water) are less predictable than a pool and they bring their own dangers, such as cold water and moving water. These rules deal with those extra dangers.",
     "h": "Open-water safety",
     "points": [
      "Cold water shock: a sudden gasp and rapid breathing when a person enters cold water.",
-     "Currents and tides can carry a swimmer away from the point of entry.",
-     "Check the conditions before entering the water.",
-     "Never swim alone.",
-     "Wear a bright swim cap so the swimmer is easy to see.",
-     "Swim parallel to the shore rather than straight out from it."
+     "Currents and tides (water flowing in one direction, and the rise and fall of the sea) can carry a swimmer away from the point of entry.",
+     "Check the conditions before entering the water, so you know about hazards such as currents and tides before you are in them.",
+     "Never swim alone, so that someone can raise the alarm or help if you get into trouble.",
+     "Wear a bright swim cap so the swimmer is easy to see from the shore or from a boat.",
+     "Swim parallel to the shore rather than straight out from it, so you stay close to safety and do not drift far from where you entered."
     ]
    },
    {
+    "b": "Aquatics is one of the activities in which a student's practical performance is marked. The assessment looks at more than swimming well: it also tests knowledge of tactics and of safe practice.",
     "h": "The performance assessment",
     "points": [
-     "The performance assessment is worth 30% of the marks and is assessed at common level.",
-     "The State Examinations Commission (SEC) assesses the performance from video.",
+     "The performance assessment is worth 30% of the marks and is assessed at common level, meaning the same assessment for Ordinary and Higher Level students.",
+     "The State Examinations Commission (SEC, the body that runs the Leaving Certificate) assesses the performance from video.",
      "The chosen aquatics activity is one of the student's three activities.",
-     "The assessment covers the listed skills and techniques applied in conditioned, competitive or personal performance.",
-     "It also covers tactics or compositional knowledge, and rules and safe practice before, during and after the activity."
+     "The assessment covers the listed skills and techniques applied in conditioned (practice set up with set rules or limits), competitive or personal performance.",
+     "It also covers tactics (plans used to gain an advantage) or compositional knowledge (how a routine is put together, such as in synchronised swimming), and rules and safe practice before, during and after the activity."
     ]
    },
    {
+    "b": "Written PE questions can use a named activity to test theory, and aquatics provides examples for several topics. Each link below shows how a theory idea appears in swimming.",
     "h": "Aquatics as a context for theory",
     "points": [
-     "Energy systems: sprint and distance swimming place different demands on the energy systems.",
+     "Energy systems (the body's ways of supplying energy to muscles): sprint and distance swimming place different demands on them, because the events differ in length and intensity.",
      "Technique analysis: a stroke is analysed through its body position, arm action, kick, breathing and co-ordination.",
-     "Newton's third law of motion: a swimmer pushes water backwards, and the water pushes the swimmer forward with an equal force.",
-     "Streamlining: the shape of the body determines how much resistance the water creates.",
+     "Newton's third law of motion: a swimmer pushes water backwards, and the water pushes the swimmer forward with an equal force. This is how propulsion (the forward drive) is produced.",
+     "Streamlining: the shape of the body determines how much resistance the water creates, so a streamlined body moves through the water more easily.",
      "Lifeguard as an official: the lifeguard supervises swimmers and enforces the pool's safety rules."
-    ]
+    ],
+    "tip": "Written questions use aquatics as context: the energy demands of two swimming events, technology helping a swimmer, National Governing Body support (Swim Ireland) and safety regulations at a pool. Answer with the theory applied to swimming, not a general answer."
    }
   ],
   "questions": [
@@ -190,126 +198,145 @@
   ],
   "notes": [
    {
+    "b": "Lifesaving (rescuing a person in difficulty in water) starts with decisions made before anyone enters the water. These four priorities shape every rescue.",
     "h": "Rescuer priorities",
     "points": [
-     "The rescuer's own safety comes first, because a hurt rescuer cannot help the casualty.",
-     "Shout for help and alert the emergency services.",
-     "Keep the casualty in sight at all times.",
-     "Choose the safest method that will work, using the order of rescue methods."
-    ]
+     "The rescuer's own safety comes first, because a hurt rescuer cannot help the casualty (the person being rescued) and becomes a second person needing rescue.",
+     "Shout for help and alert the emergency services, so that trained help is on its way while you act.",
+     "Keep the casualty in sight at all times, because a casualty you lose sight of cannot be reached or guided.",
+     "Choose the safest method that will work, using the order of rescue methods, so you take on no more risk than the situation needs."
+    ],
+    "tip": "Rescuer safety comes first, and you should never recommend a contact rescue (physically touching the casualty) as the first option. Lifesaving appears in written answers on safe practice, roles, communication and first aid, so state the priorities in this order."
    },
    {
+    "b": "Rescue methods run from the least risky for the rescuer to the most risky. Work down the list and stop at the first method that will work.",
     "h": "Order of rescue methods, safest first",
     "points": [
-     "1. Talk: shout instructions to the casualty.",
-     "2. Reach: extend an arm, a pole or a towel from the bank.",
-     "3. Throw: throw a buoyant aid or a rope.",
-     "4. Wade: enter only if it is safe to do so.",
-     "5. Row: use a boat.",
-     "6. Swim: reach the casualty with an aid.",
-     "7. Tow: a contact tow, used only if the rescuer is trained and the tow is necessary."
-    ]
+     "1. Talk: shout instructions to the casualty. The rescuer stays on dry land and takes no risk.",
+     "2. Reach: extend an arm, a pole or a towel from the bank, so the casualty can grab it and be pulled in.",
+     "3. Throw: throw a buoyant aid (one that floats) or a rope for the casualty to hold.",
+     "4. Wade: enter the water on foot, only if it is safe to do so.",
+     "5. Row: use a boat to reach the casualty.",
+     "6. Swim: swim out and reach the casualty with an aid, which is riskier because the rescuer is now in the water.",
+     "7. Tow: a contact tow (the rescuer physically holds the casualty and swims them in), used only if the rescuer is trained and the tow is necessary, because it is the most dangerous method."
+    ],
+    "tip": "Learn the order talk, reach, throw, wade, row, swim, tow. Never recommend a contact rescue as the first option."
    },
    {
+    "b": "Casualties differ in what they can do for themselves, and this decides how the rescuer approaches them. Four types are recognised.",
     "h": "Types of casualty",
     "points": [
-     "Weak swimmer: a casualty who swims, but poorly.",
-     "Non-swimmer: a casualty who may panic and grab the rescuer.",
+     "Weak swimmer: a casualty who swims, but poorly, so may tire and get into difficulty.",
+     "Non-swimmer: a casualty who may panic and grab the rescuer, which puts the rescuer in danger.",
      "Injured swimmer: a casualty who has been hurt in the water.",
-     "Unconscious casualty: a casualty who has lost consciousness and cannot help with the rescue."
+     "Unconscious casualty: a casualty who has lost consciousness and cannot help with the rescue, so the rescuer must do all the work."
     ]
    },
    {
+    "b": "How a rescuer gets into the water depends on how much they know about its depth and clarity. A wrong entry can injure the rescuer, so the choice matters.",
     "h": "Entries",
     "points": [
      "Slide-in entry: used for unknown depth or conditions, and the safest entry; the rescuer enters feet first and slowly.",
      "Step-in entry: used in known depth and clear water, and keeps the rescuer's eyes on the casualty.",
      "Straddle entry: used in known deep water, with the head kept above the water so the rescuer can watch the casualty.",
      "Compact jump: a jump from a height into known deep water.",
-     "Unknown conditions: always enter feet first, slowly, while testing the depth."
-    ]
+     "Unknown conditions: always enter feet first, slowly, while testing the depth, so the rescuer does not hit the bottom or hidden hazards."
+    ],
+    "tip": "Enter feet first into unknown water, and never dive."
    },
    {
+    "b": "Once in the water, the rescuer must swim to the casualty without losing sight of them and without tiring.",
     "h": "Approach strokes",
     "points": [
-     "Head-up front crawl or head-up breaststroke keeps the casualty in sight during the approach.",
-     "Pace the approach to conserve energy for the return."
+     "Head-up front crawl (freestyle with the head kept out of the water) or head-up breaststroke keeps the casualty in sight during the approach.",
+     "Pace the approach to conserve energy for the return, because the swim back with the casualty is harder than the swim out."
     ]
    },
    {
+    "b": "Towing a casualty means the rescuer's hands are busy, so the legs must do the work. Two techniques suit this.",
     "h": "Lifesaving kick and sidestroke",
     "points": [
-     "The lifesaving kick is an inverted breaststroke kick performed on the back.",
-     "Sidestroke is also used for towing.",
+     "The lifesaving kick is an inverted breaststroke kick (the usual breaststroke leg kick) performed on the back.",
+     "Sidestroke (swimming on one side) is also used for towing.",
      "Both are used when towing, because the arms are occupied with the casualty or the aid."
     ]
    },
    {
+    "b": "A frightened casualty can grab and drag a rescuer under. The final approach is therefore made carefully, from a distance.",
     "h": "Approaching the casualty",
     "points": [
-     "Stop at a safe distance of about 2 to 3 metres from the casualty.",
-     "Talk to reassure the casualty while stopped.",
-     "Offer an aid, such as a rescue tube or towel.",
+     "Stop at a safe distance of about 2 to 3 metres from the casualty, so they cannot reach the rescuer.",
+     "Talk to reassure the casualty while stopped, which helps calm a panicking person.",
+     "Offer an aid, such as a rescue tube (a floating tube the casualty can hold) or towel.",
      "If the casualty grabs the rescuer, submerge to break free."
-    ]
+    ],
+    "tip": "Say \"about\" 2 to 3 metres when giving the safe stopping distance from a panicking casualty."
    },
    {
+    "b": "A casualty facing the rescuer must be turned before towing, so that their breathing is protected.",
     "h": "Turning the casualty",
     "points": [
      "From the front, turn the casualty onto their back.",
      "Turn smoothly, keeping the casualty's face clear of the water.",
-     "The casualty's face is out of the water once they are on their back."
+     "The casualty's face is out of the water once they are on their back, so they can breathe during the tow."
     ]
    },
    {
+    "b": "In a non-contact tow the rescuer never grips the casualty directly. Instead, an aid links the two of them.",
     "h": "Non-contact tows",
     "points": [
      "The rescuer and the casualty both hold the aid, which keeps the rescuer out of reach of a panicking casualty.",
-     "Rigid aid: a rescue tube or float.",
-     "Non-rigid aid: a towel or clothing."
+     "Rigid aid (one that keeps its shape): a rescue tube or float.",
+     "Non-rigid aid (one that bends or folds): a towel or clothing."
     ]
    },
    {
+    "b": "Where a casualty cannot hold an aid, the rescuer must hold the casualty directly. This carries more risk, so it is used only when needed.",
     "h": "Contact tows",
     "points": [
      "Chin tow: the rescuer supports the casualty by the chin.",
      "Cross-chest or arm tow: the rescuer holds the casualty across the chest or arm.",
-     "Keep the casualty's face clear of the water throughout the tow.",
-     "Contact tows are used for tired or unconscious casualties."
-    ]
+     "Keep the casualty's face clear of the water throughout the tow, so they can keep breathing.",
+     "Contact tows are used for tired or unconscious casualties, who cannot hold an aid themselves."
+    ],
+    "tip": "Never recommend a contact rescue as the first option. It comes last in the order of methods and is used only if the rescuer is trained and the tow is necessary."
    },
    {
+    "b": "A rescue can be long, and the rescuer must still be able to reach safety. Four habits protect the rescuer's reserves.",
     "h": "Conserving energy, breath and heat",
     "points": [
-     "Swim at a steady pace.",
-     "Breathe regularly.",
+     "Swim at a steady pace, so energy lasts the whole rescue.",
+     "Breathe regularly, so breath does not run out.",
      "Rest on an aid when tired.",
-     "Minimise movement in cold water."
+     "Minimise movement in cold water, because movement loses body heat."
     ]
    },
    {
+    "b": "A rescue does not end when the casualty reaches the edge. Aftercare protects them once they are out.",
     "h": "Landing and aftercare",
     "points": [
      "Help the casualty out of the water with support.",
      "Check the casualty's breathing.",
      "Place the casualty in the recovery position, lying on their side to keep the airway clear.",
      "Keep the casualty warm.",
-     "Seek medical help: a casualty rescued from water may still be at risk of secondary drowning."
-    ]
+     "Seek medical help: a casualty rescued from water may still be at risk of secondary drowning (breathing problems that can develop after the rescue)."
+    ],
+    "tip": "Written answers on lifesaving ask about first aid, so give breathing check, recovery position, warmth and medical help."
    },
    {
-    "b": "A weak swimmer is in difficulty near the edge.",
+    "b": "A weak swimmer is in difficulty near the edge. This is the safest type of rescue, because the rescuer stays out of the water.",
     "h": "Worked rescue: reach or throw",
     "points": [
-     "1. Lie flat on the bank.",
+     "1. Lie flat on the bank, so the rescuer is not pulled in.",
      "2. Reach with a pole, or throw a buoyant aid.",
      "3. Talk the casualty in towards the edge."
     ]
    },
    {
+    "b": "When the casualty is too far to reach or throw to, the rescuer swims out. This uses the entry, approach, tow and landing from the earlier blocks in order.",
     "h": "Worked rescue: swimming rescue with an aid",
     "points": [
-     "1. Enter with a slide-in entry, feet first and slowly, testing the depth.",
+     "1. Enter with a slide-in entry, feet first and slowly, testing the depth, because the conditions may be unknown.",
      "2. Approach head-up, so the casualty stays in sight.",
      "3. Stop about 2 to 3 metres from the casualty, talk to reassure them and offer the aid.",
      "4. Tow the casualty with a non-contact tow, both holding the aid, using the lifesaving kick.",
@@ -401,100 +428,114 @@
   ],
   "notes": [
    {
+    "b": "Survival swimming is different from swimming for speed or fitness. Its aim is simply to keep you alive after something goes wrong in the water.",
     "h": "Purpose of survival swimming",
     "points": [
-     "Purpose: to stay alive and reach safety after an unexpected fall into water.",
-     "The swimmer is often clothed and cold, so the skills must conserve energy and heat until rescue."
-    ]
+     "The purpose is to stay alive and reach safety after an unexpected fall into water.",
+     "The swimmer is often clothed and cold, so the skills must conserve energy and heat until rescue arrives, because a tired, chilled swimmer cannot keep going for long."
+    ],
+    "tip": "Survival swimming appears as a named activity in written answers, so be ready to link it to safety and to conserving energy."
    },
    {
+    "b": "How you enter the water matters most when you do not know what is in it. The safest entry depends on whether the depth and the hazards are known.",
     "h": "Entries into unknown conditions",
     "points": [
-     "Enter feet first and slowly, sliding in, when conditions are unknown.",
-     "Straddle entry: used in known deep water, and keeps the head above the water."
+     "When conditions are unknown, enter feet first and slowly, sliding in, so your feet meet any hidden obstacle or shallow bottom before your head does.",
+     "A straddle entry (jumping in with one leg forward and one back) is used in known deep water, and it keeps the head above the water so you can see and breathe."
     ]
    },
    {
+    "b": "Sometimes a survival swimmer has to go under the surface, for example to pass beneath a hazard or reach an object. A surface dive is a controlled way of going from swimming at the top of the water down to depth.",
     "h": "Submerging and surface dives",
     "points": [
      "Submerging feet first: push down with the arms, with the legs together, so the body sinks vertically.",
-     "Head-first surface dive: bend at the hips, then drive the legs up vertically so that their weight pushes the body down.",
+     "Head-first surface dive: bend at the hips, then drive the legs up vertically, so that the weight of the legs above the water pushes the body down.",
      "Feet-first surface dive: rise slightly, then sweep the arms up so the body sinks vertically feet first.",
-     "The feet-first surface dive is useful in unknown water."
+     "The feet-first surface dive is useful in unknown water, because your feet lead and meet any hidden hazard or shallow bottom before your head does."
     ]
    },
    {
+    "b": "Floating lets you rest and save energy while you wait for help. It works because a relaxed body with the lungs filled with air stays at the surface.",
     "h": "Floating",
     "points": [
-     "Lie back with the head back and the ears in the water.",
-     "Spread the body and limbs to increase surface area.",
-     "Breathe calmly while floating.",
-     "Floating works with or without a buoyancy aid."
+     "Lie back with the head back and the ears in the water, which helps the body lie flat and stay up.",
+     "Spread the body and limbs to increase surface area, so the weight is supported over a larger area of water.",
+     "Breathe calmly while floating, so you keep your energy and stay relaxed.",
+     "Floating works with or without a buoyancy aid (equipment that helps you stay afloat, such as a lifejacket)."
     ]
    },
    {
+    "b": "Treading water keeps your head above the surface while you stay in one place. It relies on the legs and hands working together, and the hands use a movement called sculling.",
     "h": "Treading water and sculling",
     "points": [
      "Treading water: keep the body upright.",
-     "Treading water: the legs use an eggbeater kick or a breaststroke-type kick.",
+     "Treading water: the legs use an eggbeater kick (the legs rotate alternately in circles) or a breaststroke-type kick (the legs push out and round, then squeeze together).",
      "Treading water: the hands scull flat, moving back and forth near the surface.",
      "Sculling: figure-of-eight hand movements push water down to keep the head up or to move gently."
     ]
    },
    {
+    "b": "Most people who fall in are fully dressed, and clothes change how you swim. You need a plan for staying afloat and moving without wasting energy.",
     "h": "Swimming in clothing",
     "points": [
-     "Clothes trap water and add drag.",
-     "Use slow, efficient strokes: breaststroke, sidestroke or back strokes with the arms under water.",
-     "Keep clothing on in cold water, where it provides insulation.",
-     "Maintain good form throughout."
+     "Clothes trap water and add drag (resistance that slows you down), so swimming is harder and tires you faster.",
+     "Use slow, efficient strokes: breaststroke, sidestroke or back strokes with the arms under water, so you save energy over a long time.",
+     "Keep clothing on in cold water, where it provides insulation (it helps keep body heat in).",
+     "Maintain good form throughout, so the strokes stay efficient even as you tire."
     ]
    },
    {
+    "b": "Underwater swimming means travelling beneath the surface for a short distance. It has one safety rule that must never be broken.",
     "h": "Underwater swimming",
     "points": [
      "Use a breaststroke-type arm and leg action.",
-     "Keep the eyes open.",
+     "Keep the eyes open, so you can see where you are going.",
      "Underwater swimming is used to escape surface hazards.",
-     "Never hyperventilate beforehand, because it suppresses the urge to breathe and can lead to blackout underwater."
-    ]
+     "Never hyperventilate (take a series of deep, fast breaths) beforehand, because it suppresses the urge to breathe and can lead to blackout underwater."
+    ],
+    "tip": "Never recommend hyperventilating before underwater swimming."
    },
    {
+    "b": "Survival swimming includes swimming a longer distance, so you also need to turn efficiently at the end of a length.",
     "h": "Turns in distance swimming",
     "points": [
-     "Efficient open turns are made at the wall.",
-     "Efficient turns help keep a steady pace over the distance."
+     "Efficient open turns (turns made at the wall without a tumble) are made at the wall.",
+     "Efficient turns help keep a steady pace over the distance, so you do not lose rhythm or waste energy."
     ]
    },
    {
+    "b": "Cold water takes heat from the body quickly. HELP is a position that cuts heat loss for a swimmer who is on their own.",
     "h": "Conserving heat: HELP",
     "points": [
      "HELP stands for Heat Escape Lessening Posture.",
-     "The swimmer floats with a buoyancy aid and draws the knees up to the chest.",
+     "The swimmer floats with a buoyancy aid (equipment that helps you stay afloat) and draws the knees up to the chest.",
      "The arms are crossed over the chest.",
      "HELP protects the main areas of heat loss: the head, armpits and groin."
-    ]
+    ],
+    "tip": "In cold water the HELP and HUDDLE positions keep you still, which is why they conserve heat."
    },
    {
+    "b": "HUDDLE is the group version of HELP. Staying close together shares heat.",
     "h": "Conserving heat: HUDDLE",
     "points": [
-     "HUDDLE is performed with at least two others, each wearing a buoyancy aid.",
+     "HUDDLE is performed with at least two others, each wearing a buoyancy aid (equipment that helps you stay afloat).",
      "The group holds each other closely, with chests together, to share heat and stay together.",
      "Children are placed in the middle of the group."
-    ]
+    ],
+    "tip": "Survival swimming appears in written answers on roles in a group, so know how a group arranges itself in HUDDLE."
    },
    {
+    "b": "Cold water is dangerous in two ways: a sudden shock on entry, and a slower loss of body heat. Staying calm and still is the main defence against both.",
     "h": "Cold water shock, hypothermia and keeping still",
     "points": [
-     "On entry to cold water, the swimmer gasps and breathes rapidly.",
-     "For the first minute, stay still and calm.",
-     "Float rather than thrash.",
+     "On entry to cold water, the swimmer gasps and breathes rapidly. This is called cold water shock.",
+     "For the first minute, stay still and calm, and float rather than thrash.",
      "HELP and HUDDLE keep the swimmer still, which conserves heat.",
      "Swimming hard in cold water loses heat faster than keeping still.",
-     "Hypothermia: a dangerous fall in body temperature caused by heat loss.",
-     "The risk of hypothermia increases with time in cold water.",
-     "Limit movement to conserve heat, unless safety is very close."
-    ]
+     "Hypothermia is a dangerous fall in body temperature caused by heat loss.",
+     "The risk of hypothermia increases with time in cold water, so limit movement to conserve heat, unless safety is very close."
+    ],
+    "tip": "In cold water, swimming hard loses heat faster, so say that staying still in HELP or HUDDLE is the better choice."
    }
   ],
   "questions": [
@@ -581,107 +622,124 @@
   ],
   "notes": [
    {
+    "b": "Water is far denser than air, so every stroke is a balance between pushing yourself forward and being held back. Four ideas explain what good technique in any stroke is trying to achieve.",
     "h": "Principles common to all strokes",
     "points": [
-     "Streamlining: a flat, horizontal, straight body reduces resistance in the water.",
-     "Drag: the resistance the water creates against a moving body, which slows the swimmer.",
-     "Propulsion: the swimmer pushes water backwards with the hands and feet.",
-     "Newton's third law: the backward push on the water is matched by an equal and opposite forward push on the swimmer."
-    ]
+     "Streamlining means making the body as slim and smooth in the water as possible: a flat, horizontal, straight body reduces resistance, so the swimmer travels further for the same effort.",
+     "Drag is the resistance the water creates against a moving body. It slows the swimmer, which is why a poor body position (for example, legs hanging low) costs speed.",
+     "Propulsion (the force that drives the swimmer forward) comes from the swimmer pushing water backwards with the hands and feet.",
+     "Newton's third law (every action has an equal and opposite reaction) explains propulsion: the backward push on the water is matched by an equal and opposite forward push on the swimmer."
+    ],
+    "tip": "Swimming appears in written answers on economy of movement in front crawl and on Newton's laws, so link propulsion to Newton's third law and link streamlining to reduced drag."
    },
    {
+    "b": "Front crawl is the stroke swum face down with alternating arms and a continuous kick. The technique breaks into body position, arm action, kick, breathing and co-ordination.",
     "h": "Front crawl",
     "points": [
-     "Body position: the body is flat, with a slight body roll.",
-     "Arm action (entry): the hand enters in front of the shoulder, fingers first, and the arm extends forward.",
-     "Arm action (catch and pull): the catch is made with a high elbow, and the arm pulls in an S or straight line under the body to the thigh.",
-     "Arm action (exit): the hand leaves the water at the thigh.",
-     "Arm action (recovery): a relaxed, elbow-high recovery.",
-     "Kick: a flutter kick from the hip with relaxed ankles.",
-     "Breathing and head: the head rotates to the side with the body roll, breathing bilaterally every three strokes or unilaterally.",
-     "Co-ordination: usually six kicks for each arm cycle."
-    ]
+     "Body position: the body is flat, which keeps it streamlined, with a slight body roll (the body rotating a little from side to side as each arm pulls).",
+     "Arm entry: the hand enters the water in front of the shoulder, fingers first, and the arm extends forward so the swimmer reaches forward and the stroke is long.",
+     "Catch and pull: the catch (the moment the hand grips the water) is made with a high elbow, so the forearm can push water backwards, and the arm pulls in an S or straight line under the body to the thigh.",
+     "Exit and recovery: the hand leaves the water at the thigh, and the arm swings forward in a relaxed, elbow-high recovery (the arm's return to the entry position).",
+     "Kick: a flutter kick (small, fast, alternating up-and-down leg beats) from the hip with relaxed ankles, so the kick stays smooth and loose.",
+     "Breathing and head: the head rotates to the side with the body roll, so the swimmer breathes without lifting the head. Breathing is bilateral (alternating sides) every three strokes, or unilateral (always the same side).",
+     "Co-ordination: usually six kicks for each arm cycle (one full pull and recovery by both arms)."
+    ],
+    "tip": "Economy of movement in front crawl is asked about in written answers, so describe the flat body, high-elbow catch and relaxed recovery. Remember that front crawl does not need a two-handed touch at turns or the finish."
    },
    {
+    "b": "Backstroke is swum on the back, so the swimmer can breathe freely and the main technical points are keeping the body position high and the arms working in a continuous cycle.",
     "h": "Backstroke",
     "points": [
-     "Body position: on the back, with the head still and the hips high.",
-     "Arm action (entry): the little finger enters first, in line with the shoulder.",
-     "Arm action (catch and pull): a bent-arm pull to the thigh.",
-     "Arm action (recovery): a straight-arm recovery over the top.",
-     "Kick: a flutter kick.",
-     "Breathing and head: the head stays still with the eyes up, and breathing is regular.",
-     "Co-ordination: a body roll accompanies the arm stroke."
-    ]
+     "Body position: on the back, with the head still and the hips high, which keeps the body flat and streamlined.",
+     "Arm entry: the little finger enters first, in line with the shoulder, which keeps the entry straight.",
+     "Catch and pull: a bent-arm pull to the thigh.",
+     "Recovery: a straight-arm recovery over the top (the arm swings out of the water and over the swimmer to the entry point).",
+     "Kick: a flutter kick (alternating up-and-down leg beats), as in front crawl.",
+     "Breathing and head: the head stays still with the eyes up, and breathing is regular, because the face is out of the water.",
+     "Co-ordination: a body roll (the body rotating a little from side to side) accompanies the arm stroke."
+    ],
+    "tip": "Backstroke, like front crawl, does not require a two-handed touch at turns or the finish."
    },
    {
+    "b": "Breaststroke is different from the other strokes because both arms and both legs move together and in the same way on each side. Its timing matters as much as the individual movements.",
     "h": "Breaststroke",
     "points": [
-     "Body position: a flat body with a slight undulation.",
-     "Arm action (catch and pull): the arms pull out and round in a heart shape.",
-     "Arm action (recovery): the arms recover forward together under the water.",
-     "Kick: a whip kick, with the feet turned out, drawn up, then driven round and back.",
-     "Breathing and head: the swimmer breathes as the arms pull.",
-     "Co-ordination: the timing is pull, breathe, kick, glide."
-    ]
+     "Body position: a flat body with a slight undulation (a gentle rising and falling of the body).",
+     "Catch and pull: the arms pull out and round in a heart shape.",
+     "Recovery: the arms recover (return to the start position) forward together under the water.",
+     "Kick: a whip kick, with the feet turned out, drawn up, then driven round and back. It is not a flutter kick.",
+     "Breathing and head: the swimmer breathes as the arms pull, so breathing fits into the stroke rhythm.",
+     "Co-ordination: the timing is pull, breathe, kick, glide (a short, streamlined stretch between strokes)."
+    ],
+    "tip": "The breaststroke kick is a whip kick with the feet turned out, not a flutter kick. Breaststroke needs a simultaneous two-handed touch at turns and the finish."
    },
    {
+    "b": "Butterfly is swum with both arms moving together and a wave-like body movement, so the body, arms and legs must be timed together.",
     "h": "Butterfly",
     "points": [
-     "Body position: the body moves in an undulating, dolphin-like movement.",
-     "Arm action (entry): both arms enter together in front of the shoulders.",
-     "Arm action (catch and pull): the arms pull under the body in a keyhole shape.",
-     "Arm action (recovery): the arms recover together over the water.",
-     "Kick: a dolphin kick.",
+     "Body position: the body moves in an undulating, dolphin-like movement (a wave running through the body from chest to feet).",
+     "Arm entry: both arms enter together in front of the shoulders, so the stroke stays symmetrical.",
+     "Catch and pull: the arms pull under the body in a keyhole shape (wide at the hands, narrowing under the chest, then widening again).",
+     "Recovery: the arms recover (return to the entry position) together over the water.",
+     "Kick: a dolphin kick (both legs kicking together, like a dolphin's tail).",
      "Breathing and head: the swimmer breathes forward as the arms finish the pull.",
-     "Co-ordination: two dolphin kicks for each arm cycle."
-    ]
+     "Co-ordination: two dolphin kicks for each arm cycle (one full pull and recovery)."
+    ],
+    "tip": "Butterfly needs a simultaneous two-handed touch at turns and the finish."
    },
    {
+    "b": "A good start gives the swimmer speed from the first moment, so the aim is to enter the water in a streamlined shape and glide before stroking. The start differs for backstroke because that stroke begins in the water.",
     "h": "Starts",
     "points": [
      "1. Dive start (front crawl, breaststroke and butterfly): crouch on the block.",
      "2. Drive off the block.",
-     "3. Make a streamlined entry through one point.",
-     "4. Glide.",
+     "3. Make a streamlined entry through one point, so the whole body follows the hands through the same hole in the water and meets little drag.",
+     "4. Glide (travel forward without stroking).",
      "5. Begin the stroke.",
      "Backstroke start: starting in the water and holding the block, the swimmer drives back over the water."
     ]
    },
    {
+    "b": "A turn lets the swimmer change direction at the wall without losing speed. Which turn is used depends on the stroke.",
     "h": "Turns",
     "points": [
      "Tumble turn (front crawl and backstroke): a somersault at the wall, then the feet are planted against the wall.",
-     "Tumble turn: the swimmer pushes off the wall in a streamlined position.",
+     "Tumble turn: the swimmer pushes off the wall in a streamlined position, which keeps drag low.",
      "Open turn (breaststroke and butterfly): the swimmer touches the wall with a simultaneous two-handed touch.",
-     "Backstroke flags warn the swimmer that the wall is approaching."
-    ]
+     "Backstroke flags warn the swimmer that the wall is approaching, because the swimmer cannot see the wall when on the back."
+    ],
+    "tip": "Breaststroke and butterfly require a simultaneous two-handed touch at turns; front crawl and backstroke do not, because they use the tumble turn."
    },
    {
+    "b": "The finish is the last chance to win or lose time, so the swimmer keeps full speed right to the wall.",
     "h": "Finishes",
     "points": [
      "Touch the wall at full stretch, without slowing down.",
-     "Breaststroke and butterfly finish with a simultaneous two-handed touch.",
+     "Breaststroke and butterfly finish with a simultaneous two-handed touch (both hands touching the wall at the same time).",
      "Front crawl and backstroke do not require a two-handed touch."
-    ]
+    ],
+    "tip": "Remember the split: breaststroke and butterfly need two hands together at the finish; front crawl and backstroke do not."
    },
    {
+    "b": "A short race and a long race need different technique because they draw on different energy systems (the body's ways of producing the energy for muscles). Sprinters go flat out; distance swimmers save energy.",
     "h": "Sprint versus distance swimming",
     "points": [
-     "Sprint: maximal effort, a faster stroke rate, more kicking and fewer breaths.",
-     "Sprint: the energy comes from the ATP-PC and lactic acid systems.",
-     "Distance: even pacing, with longer and more efficient strokes.",
-     "Distance: a two-beat or lighter kick saves energy, and breathing is regular.",
-     "Distance: the energy comes from the aerobic system."
-    ]
+     "Sprint: maximal effort, a faster stroke rate (more arm cycles each minute), more kicking and fewer breaths, so the swimmer keeps moving at top speed.",
+     "Sprint: the energy comes from the ATP-PC system (energy from stored ATP and phosphocreatine in the muscle) and the lactic acid system (energy made without oxygen, which produces lactic acid).",
+     "Distance: even pacing (the same speed throughout), with longer and more efficient strokes, so each stroke carries the swimmer further.",
+     "Distance: a two-beat or lighter kick (a kick that is lighter, with fewer beats for each arm cycle) saves energy, and breathing is regular, so the swimmer can keep going for longer.",
+     "Distance: the energy comes from the aerobic system (energy made using oxygen)."
+    ],
+    "tip": "Energy systems are linked to swimming in written answers, so name the system for each event: ATP-PC and lactic acid for sprint, aerobic for distance."
    },
    {
+    "b": "Analysing a stroke means spotting a fault and saying what causes it. Four faults are listed.",
     "h": "Common faults to analyse",
     "points": [
-     "Sinking legs: usually caused by the head being held too high.",
-     "Crossing over at entry: the hand enters across the centre line of the body, rather than in front of the shoulder.",
-     "Dropping the elbow in the pull: the elbow sinks during the catch and pull.",
-     "Mistimed breathing: breathing out of time with the arm stroke breaks the rhythm."
+     "Sinking legs: usually caused by the head being held too high, which drops the hips and legs and makes the body less streamlined.",
+     "Crossing over at entry: the hand enters across the centre line of the body (an imaginary line down the middle of the body), rather than in front of the shoulder.",
+     "Dropping the elbow in the pull: the elbow sinks during the catch and pull (the part of the stroke where the hand grips and pulls the water).",
+     "Mistimed breathing: breathing out of time with the arm stroke breaks the rhythm, so the stroke loses speed."
     ]
    }
   ],
@@ -779,101 +837,123 @@
   ],
   "notes": [
    {
+    "b": "Water polo is a team ball game played in deep water, so the rules are shaped by the fact that players cannot stand and must keep themselves afloat while they play.",
     "h": "The game",
     "points": [
      "Two teams play, each with six field players and a goalkeeper in the water, seven in total.",
-     "The aim is to throw the ball into the opponents' goal.",
-     "Field players may handle the ball with one hand only; the goalkeeper may use two.",
-     "Field players may not touch the bottom of the pool; in some pools the goalkeeper may."
-    ]
+     "The aim is to throw the ball into the opponents' goal; the team that scores more goals wins.",
+     "Field players may handle the ball with one hand only, because both arms are needed to stay afloat and the one-hand rule keeps play fast; the goalkeeper may use two.",
+     "Field players may not touch the bottom of the pool, so they must tread water for the whole game; in some pools the goalkeeper may touch the bottom."
+    ],
+    "tip": "Say seven players per team in the water, including the goalkeeper, and one hand only on the ball for field players."
    },
    {
+    "b": "Because players cannot stand, every skill in water polo starts from how they stay up and how they swim. Two movements underpin everything else.",
     "h": "Basic movement",
     "points": [
-     "Eggbeater kick: an alternating circular leg kick that keeps the player high and stable in the water.",
-     "The eggbeater kick lets the player pass, shoot and defend from a high position.",
-     "Head-up front crawl: the head stays up, so the player can see the ball and the other players."
-    ]
+     "Eggbeater kick: an alternating circular leg kick (one leg circles, then the other, like the beaters of a whisk) that keeps the player high and stable in the water.",
+     "The eggbeater kick lets the player pass, shoot and defend from a high position, because the legs hold the body up and leave both arms free.",
+     "Head-up front crawl: the normal front crawl swimming stroke, but with the head kept up, so the player can see the ball and the other players while swimming."
+    ],
+    "tip": "If asked why the eggbeater kick matters, say it keeps the player high and stable so they can pass, shoot and defend."
    },
    {
+    "b": "Passes move the ball between team-mates without anyone touching the bottom. There are two main types, and the difference is whether the ball touches the water.",
     "h": "Passing and receiving",
     "points": [
-     "Dry pass: thrown to the receiver's hand above the water, and caught without touching the water.",
-     "Wet pass: put into the water in front of a team-mate, who swims onto it.",
-     "The passer uses the eggbeater kick to rise out of the water.",
-     "Passes can be made with one hand from above the head."
-    ]
+     "Dry pass: thrown to the receiver's hand above the water, and caught without touching the water, so it is quick and the receiver can shoot at once.",
+     "Wet pass: put into the water in front of a team-mate, who swims onto it (swims to meet the ball and collects it).",
+     "The passer uses the eggbeater kick to rise out of the water, which gives height and room to throw.",
+     "Passes can be made with one hand from above the head, which fits the one-hand rule for field players."
+    ],
+    "tip": "Define both passes by what the ball does: a dry pass goes to the hand above the water, a wet pass goes into the water in front of a team-mate."
    },
    {
+    "b": "A goal is scored by throwing the ball past the goalkeeper, so players choose a shot to suit their position in the water and where the goalkeeper is.",
     "h": "Shooting",
     "points": [
-     "Power shot: taken from above the head, with an eggbeater lift and body rotation.",
-     "Push shot: taken from the water surface.",
+     "Power shot: taken from above the head, with an eggbeater lift and body rotation, so the whole body adds force to the throw.",
+     "Push shot: taken from the water surface, without needing to rise high out of the water.",
      "Backhand shot: thrown with the back of the throwing hand leading.",
      "Lob: a high shot played over the goalkeeper.",
-     "Aim for the corners of the goal."
-    ]
+     "Aim for the corners of the goal, because they are hardest for the goalkeeper to reach."
+    ],
+    "tip": "Describe each shot by where it is taken from or how it travels: above the head, water surface, back of the hand leading, or high over the goalkeeper."
    },
    {
+    "b": "A player who has the ball can swim with it rather than pass, a skill called dribbling. It uses the head-up front crawl, so the player can see the field while swimming.",
     "h": "Moving with the ball",
     "points": [
-     "Dribbling: the player swims head-up front crawl with the ball between the arms.",
-     "The ball is pushed forward by the bow wave of the swimmer."
-    ]
+     "Dribbling: the player swims head-up front crawl with the ball between the arms, so the player can still watch the other players.",
+     "The ball is pushed forward by the bow wave of the swimmer (the wave of water that builds up in front of the swimming body)."
+    ],
+    "tip": "For dribbling, give both the technique (head-up front crawl, ball between the arms) and how the ball moves (pushed forward by the bow wave)."
    },
    {
+    "b": "Moving free means getting away from your marker (the defender who is guarding you) so a team-mate can pass to you. It is what an attacker does when they do not have the ball.",
     "h": "Moving free",
     "points": [
-     "Sprint and change direction to lose a marker.",
-     "Drive towards the goal.",
-     "Position to receive the ball."
-    ]
+     "Sprint and change direction to lose a marker, because a defender cannot easily follow a sudden change.",
+     "Drive towards the goal, which puts the attacker in a shooting position and forces the defence to react.",
+     "Position to receive the ball, so the passer has a clear target."
+    ],
+    "tip": "Cover all three parts: sprinting and changing direction to lose a marker, driving towards goal, and positioning to receive."
    },
    {
+    "b": "Defenders mark an opponent (stay close to them) and try to intercept passes (catch or knock away a pass meant for someone else) to stop the attacking team scoring.",
     "h": "Marking and intercepting",
     "points": [
-     "Stay between the opponent and the goal.",
-     "Use the eggbeater kick to stay high in the water.",
+     "Stay between the opponent and the goal, so any shot or drive has to get past the defender.",
+     "Use the eggbeater kick to stay high in the water, which lets the defender reach and block.",
      "Raise an arm to block passes and shots.",
-     "Anticipate passes."
-    ]
+     "Anticipate passes (read where the ball is going) so the defender can intercept it."
+    ],
+    "tip": "A full answer on marking and intercepting gives all four: position between opponent and goal, eggbeater to stay high, arm raised to block, and anticipating passes."
    },
    {
+    "b": "The rules protect players, who are partly hidden under water and easy to hold or pull down, and keep play moving.",
     "h": "Basic rules and fouls",
     "points": [
      "Field players use one hand only on the ball.",
-     "No holding, sinking or pulling an opponent who does not have the ball.",
-     "Such a foul may be an ordinary foul or an exclusion foul.",
-     "A shot clock limits how long a team may keep possession without shooting."
-    ]
+     "No holding, sinking or pulling an opponent who does not have the ball, because the player without the ball is not allowed to be obstructed.",
+     "Such a foul may be an ordinary foul or an exclusion foul (a more serious foul where the offender is sent out of the water for a period).",
+     "A shot clock (a timer) limits how long a team may keep possession without shooting, so teams must attack rather than hold the ball.",
+     "The pool has a 2 m line and a 5 m line marked out from the goal, and these lines are part of the rules."
+    ],
+    "tip": "Describe the rules in words, such as one hand only, no holding, sinking or pulling, and a shot clock. Do not give shot clock or exclusion times."
    },
    {
+    "b": "Teams attack and defend with set roles and plans. Knowing the positions and the options after possession changes is the basis of water polo tactics.",
     "h": "Positions and simple tactics",
     "points": [
-     "The centre forward sets up in the hole set, in front of the goal.",
+     "The centre forward sets up in the hole set, in front of the goal, which is the main scoring position.",
      "Drivers are field players who attack by driving towards the goal.",
-     "After a turnover, a team may counter-attack quickly.",
-     "Defence is played as zone or man-to-man.",
+     "After a turnover (when possession changes from one team to the other), a team may counter-attack quickly, before the defence is organised.",
+     "Defence is played as zone (each defender covers an area) or man-to-man (each defender marks one opponent).",
      "After an exclusion, the attacking team has an extra player and uses it to create a shot."
-    ]
+    ],
+    "tip": "Water polo appears in written answers on structures and strategies. Name the position or tactic and say what it is for, such as the centre forward in front of goal or the extra player after an exclusion."
    },
    {
+    "b": "Water polo involves contact, fast throws and deep water, so a few precautions reduce the risk of injury.",
     "h": "Safety",
     "points": [
-     "Caps with ear guards protect the ears.",
-     "Fingernails are trimmed.",
-     "No jewellery is worn.",
-     "Deep water is supervised."
+     "Caps with ear guards protect the ears from the ball and from contact.",
+     "Fingernails are trimmed, so players do not scratch one another when they contest the ball.",
+     "No jewellery is worn, because it can injure other players or be lost.",
+     "Deep water is supervised, so help is at hand if a player is in difficulty."
     ]
    },
    {
+    "b": "Players tread water, sprint and contest the ball for the whole game, so the game makes several fitness demands.",
     "h": "Physical demands",
     "points": [
-     "Cardio-respiratory and muscular endurance: the legs work for long periods in the eggbeater kick.",
-     "Power: needed for the shooting skills.",
+     "Cardio-respiratory endurance (heart and lungs working for long periods) and muscular endurance: the legs work for long periods in the eggbeater kick.",
+     "Power: needed for the shooting skills, which add force through body rotation and lift.",
      "Agility in the water: quick changes of direction when moving free and marking.",
      "Physical contest: close marking and blocking involve physical contact."
-    ]
+    ],
+    "tip": "In fitness demands answers, link each demand to a skill: endurance to the eggbeater legs, power to shooting, agility to moving free and marking."
    }
   ],
   "questions": [
@@ -960,110 +1040,126 @@
   ],
   "notes": [
    {
+    "b": "Synchronised swimming is an aesthetic water activity, one where the quality and beauty of the movement are judged as well as the skill. Swimmers link set shapes and movements into a performance to music.",
     "h": "What synchronised swimming is",
     "points": [
-     "Synchronised swimming is performing figures and routines to music, either solo or in a group.",
-     "It is judged on execution and artistic impression.",
-     "The sport is now officially called artistic swimming.",
-     "Swim Ireland governs synchronised swimming in Ireland."
-    ]
+     "Synchronised swimming is performing figures (set body shapes held or moved through in the water) and routines to music, either solo or in a group.",
+     "It is judged on execution (how accurately and cleanly the movements are done) and artistic impression (how well the performance is designed and presented).",
+     "The sport is now officially called artistic swimming, although the syllabus still uses the name synchronised swimming.",
+     "Swim Ireland, the national governing body for swimming, governs synchronised swimming in Ireland."
+    ],
+    "tip": "Synchronised swimming appears in written answers as an aesthetic activity, so be ready to use aesthetic criteria and compositional elements (the parts a performance is built from) when describing it or comparing it with other activities."
    },
    {
+    "b": "Swimmers cannot push against the pool floor, so they hold themselves up and move using their hands. This skill is called sculling, and every position below depends on it.",
     "h": "Sculling",
     "points": [
-     "Sculling is continuous figure-of-eight hand movement that supports and moves the body.",
-     "Standard scull: the basic sculling movement.",
-     "Support scull: used in vertical positions to hold the body up.",
-     "Propelling scull: used to move the body through the water."
+     "Sculling is continuous figure-of-eight hand movement that supports and moves the body, which is why it is used throughout a routine.",
+     "Standard scull: the basic sculling movement, so it is the one to learn first.",
+     "Support scull: used in vertical positions (where the body is upside down) to hold the body up.",
+     "Propelling scull: used to move the body through the water, so the swimmer can travel across the pool."
     ]
    },
    {
+    "b": "These are the three basic body shapes. A layout is a straight, flat body held at the surface, and the tuck is its compact opposite.",
     "h": "Back layout, front layout and tuck position",
     "points": [
-     "Back layout: floating on the back, with the body straight and horizontal.",
-     "Back layout: the face, chest, thighs and feet are at the surface.",
+     "Back layout: floating on the back, with the body straight and horizontal (flat, level with the surface).",
+     "In the back layout the face, chest, thighs and feet are at the surface.",
      "Front layout: face down, with the body straight and horizontal at the surface.",
-     "Tuck position: the knees and hips are bent and drawn to the chest, so the body is compact."
+     "Tuck position: the knees and hips are bent and drawn to the chest, so the body is compact (curled into a small ball)."
     ]
    },
    {
+    "b": "A pike is a position where the body folds at the hips while the legs stay straight. It can be done facing down or facing up.",
     "h": "Front pike and back pike",
     "points": [
-     "Front pike: bent at the hips to 90 degrees, with the legs straight and together and the trunk straight.",
-     "The front pike is the starting shape for many figures.",
-     "Back pike: bent at the hips to about 90 degrees, with the legs straight and together, facing upwards."
+     "Front pike: bent at the hips to 90 degrees, with the legs straight and together and the trunk (the upper body) straight.",
+     "The front pike is the starting shape for many figures, so it is worth learning well.",
+     "Back pike: bent at the hips to about 90 degrees, with the legs straight and together, facing upwards, so it mirrors the front pike but on the back."
     ]
    },
    {
+    "b": "In both of these positions the swimmer lies on her back and lifts one leg, but the other leg is placed differently.",
     "h": "Ballet leg and flamingo",
     "points": [
      "Ballet leg: from the back layout, one leg is raised vertically and kept straight while the other stays at the surface.",
-     "Flamingo: a back-based position with one leg extended vertically, as in the ballet leg.",
-     "Flamingo: the other leg is drawn up towards the chest, with the shin parallel to the surface."
+     "Flamingo: a back-based position (done on the back) with one leg extended vertically, for example the same leg position as in the ballet leg.",
+     "Flamingo: the other leg is drawn up towards the chest, with the shin parallel to the surface (lying flat and level with it)."
     ]
    },
    {
+    "b": "In a vertical position the swimmer is upside down, so the legs rise out of the water. The two named variations differ in what the second leg does.",
     "h": "Vertical positions",
     "points": [
      "Vertical positions: the body is vertical and head-down, with the legs extended out of the water.",
-     "Fishtail: one leg is vertical, and the other extends forward horizontally at the surface.",
+     "Fishtail: one leg is vertical, and the other extends forward horizontally at the surface, so only one leg is vertical.",
      "Bent-knee vertical: one leg is vertical, and the other is bent with its toe touching the inside of the straight leg's knee."
     ]
    },
    {
+    "b": "In an arch the back is curved. One arch is done at the surface and the other moves under the water.",
     "h": "Arch positions",
     "points": [
-     "Surface arch: the lower back is arched, with the legs at the surface.",
+     "Surface arch: the lower back is arched, with the legs at the surface, so the curve is visible above the water.",
      "Dolphin arch: the body is arched as it travels head-first in a circle under the water, as in the dolphin figure."
     ]
    },
    {
+    "b": "This figure turns the swimmer over by moving the legs, and it starts from two positions already covered.",
     "h": "Split walkover front",
     "points": [
      "The split walkover front begins from a front pike or a vertical position.",
-     "The legs split and walk over to finish the figure."
+     "The legs split (open apart) and walk over to finish the figure, which is how the swimmer turns over."
     ]
    },
    {
+    "b": "A transition is the move from one position to the next. A routine is only as good as these links, so they matter as much as the positions themselves.",
     "h": "Figures and transitions",
     "points": [
-     "Figures move smoothly from one position to another.",
-     "Transitions are performed with control, height and stability."
+     "Figures move smoothly from one position to another, without stopping or breaking the flow.",
+     "Transitions are performed with control, height (how high the body or legs rise out of the water) and stability (staying steady and balanced)."
     ]
    },
    {
+    "b": "In a duet (two swimmers) or trio (three), the positions and figures are combined into a performance. Each element below is something the performers are expected to plan.",
     "h": "Duet or trio routine",
     "points": [
      "Choreography: a sequence that combines the positions and figures.",
-     "Synchronisation: timing with each other and with the music.",
-     "Patterns and formations, using the pool space.",
-     "Entries and exits.",
-     "Expression and artistic impression."
-    ]
+     "Synchronisation: timing with each other and with the music, which is what gives the sport its name.",
+     "Patterns and formations, using the pool space (the swimmers arrange themselves in shapes across the pool).",
+     "Entries and exits (how the swimmers get into and out of the water).",
+     "Expression and artistic impression (showing mood and character through the performance)."
+    ],
+    "tip": "Choreography, patterns, formations and expression are compositional elements and aesthetic criteria, so use them when asked how a performance is put together or judged."
    },
    {
+    "b": "Performances are marked in three areas. Two are about how well the routine is done and presented, and the third is about how hard it is.",
     "h": "Judging criteria",
     "points": [
-     "Execution: precision, height, control and synchronisation.",
-     "Artistic impression: choreography, musicality and manner of presentation.",
+     "Execution: precision (accuracy), height, control and synchronisation.",
+     "Artistic impression: choreography, musicality (how well the movement fits the music) and manner of presentation.",
      "Difficulty of the figures."
-    ]
+    ],
+    "tip": "Keep execution and artistic impression separate in your answer: execution is precision, height, control and synchronisation, while artistic impression is choreography, musicality and manner of presentation."
    },
    {
+    "b": "Synchronised swimming asks for fitness, physical skill and mental qualities all at once, because swimmers perform precise movements while upside down and holding their breath.",
     "h": "Demands",
     "points": [
-     "Breath control and cardio-respiratory endurance.",
-     "Flexibility, core strength and leg strength.",
-     "Co-ordination and spatial awareness under water.",
-     "Concentration and teamwork."
+     "Breath control and cardio-respiratory endurance (the heart and lungs keeping working over a long routine).",
+     "Flexibility (range of movement at the joints), core strength (the trunk muscles) and leg strength.",
+     "Co-ordination (moving body parts together smoothly) and spatial awareness (knowing where you are and where others are) under water.",
+     "Concentration and teamwork, because the swimmers must stay in time with each other."
     ]
    },
    {
+    "b": "Because swimmers spend long periods under water, safety centres on supervision and careful breath-hold training.",
     "h": "Safety",
     "points": [
-     "Training takes place in supervised deep water.",
-     "Breath-hold training is built up gradually, without hyperventilation.",
-     "Nose clips help keep water out of the nose."
+     "Training takes place in supervised deep water, so someone is watching in case a swimmer gets into difficulty.",
+     "Breath-hold training is built up gradually, without hyperventilation (deliberate fast over-breathing before a breath-hold).",
+     "Nose clips help keep water out of the nose, which matters when the head is under water."
     ]
    }
   ],
@@ -1147,59 +1243,70 @@
   ],
   "notes": [
    {
+    "b": "Some PE activities are about making something as well as doing it. Artistic activities ask you to craft a performance creatively, rather than simply repeat set movements.",
     "h": "Artistic activities",
     "points": [
-     "Artistic activities give learners creative crafting and performance of activities.",
-     "They involve imaginative combinations of skills, techniques and/or movements.",
-     "The combinations are performed in the appropriate style of the event."
-    ]
+     "Artistic activities give learners creative crafting and performance of activities, so the student acts as a maker of the routine as well as a performer of it.",
+     "They involve imaginative combinations of skills, techniques and/or movements, which means the skills are linked in an original way rather than shown one by one.",
+     "The combinations are performed in the appropriate style of the event, so a gymnastics routine and a dance each follow the conventions of their own activity."
+    ],
+    "tip": "Written questions use aesthetic activities to test aesthetic and artistic criteria, so be ready to say what makes a combination of movements imaginative and suited to the style of the event."
    },
    {
+    "b": "Aesthetic means to do with the beauty and quality of movement. Aesthetic activities are judged on how movement looks and what it expresses, not only on whether a skill was completed.",
     "h": "Aesthetic activities",
     "points": [
-     "Aesthetic activities give learners the opportunity to demonstrate appreciation of the qualities of movement.",
-     "They also show appreciation of the expressive abilities of the performers.",
-     "Learners demonstrate this by adopting aesthetic criteria when they plan, perform and evaluate the activity."
-    ]
+     "Aesthetic activities give learners the opportunity to demonstrate appreciation of the qualities of movement, such as how smooth, controlled or well shaped it is.",
+     "They also show appreciation of the expressive abilities of the performers, meaning how well performers communicate mood or meaning through movement.",
+     "Learners demonstrate this by adopting aesthetic criteria (the standards used to judge the quality of movement) when they plan, perform and evaluate the activity, so the criteria are used at all three stages."
+    ],
+    "tip": "Remember the three verbs: plan, perform and evaluate. Aesthetic criteria apply to all three, not only to the performance itself."
    },
    {
+    "b": "This area of the course is made up of a short list of activities. You need to know exactly which ones are on it and how this area fits into your choice of activities.",
     "h": "Options and the choice rule",
     "points": [
      "The area offers artistic gymnastics, rhythmic gymnastics and dance.",
      "Dance may be in any one of eight styles: contemporary, folk, modern, ballet, jazz, tap, ethnic or traditional.",
-     "One activity from this area may be one of the student's three."
+     "One activity from this area may be one of the student's three, so a student can choose at most one of these as part of their three activities."
     ]
    },
    {
+    "b": "Every routine is put together from building blocks and then judged against a set of standards. Knowing both lets you plan a routine and explain why it earns credit.",
     "h": "Links to compositional elements and criteria",
     "points": [
-     "Routines are built from compositional elements: action, space, dynamics, relationships and choreographic form.",
+     "Routines are built from compositional elements (the building blocks used to put a routine together): action, space, dynamics, relationships and choreographic form (the overall structure of the routine or dance).",
      "Routines are judged against aesthetic and artistic criteria: body line, control, fluency, musicality, expression and originality.",
-     "Example: a planned change from high to low levels uses the space element, and a balance held still with a clean finish shows control."
-    ]
+     "Example: a planned change from high to low levels uses the space element, because it uses the performance area in a deliberate way.",
+     "Example: a balance held still with a clean finish shows control, because the performer stays steady and ends the movement cleanly."
+    ],
+    "tip": "Written questions on aesthetic activities ask about aesthetic and artistic criteria, compositional elements, methods of analysing choreography and comparing two activities. Learn the two lists so you can name them and link an example to each."
    },
    {
+    "b": "Gymnastics and dance put demanding stresses on the body, so safe practice is part of the activity and is assessed. Each precaution below is aimed at preventing a particular kind of injury.",
     "h": "Safe practice in gymnastics and dance",
     "points": [
-     "The warm-up includes mobility work before skills are attempted.",
-     "Skills are taught through correct progressions, with each simpler step secured before the next is attempted.",
-     "In gymnastics, spotting and supporting are used when a skill needs them.",
-     "Mats are positioned and checked, and apparatus is checked before use.",
-     "No jewellery is worn and hair is tied back.",
-     "Dance requires a suitable floor surface.",
-     "Hydration is part of safe practice.",
-     "Overuse is avoided to prevent injury."
+     "The warm-up includes mobility work (moving joints through their range) before skills are attempted, so the body is prepared for demanding movements.",
+     "Skills are taught through correct progressions, with each simpler step secured before the next is attempted, so a difficult skill is never tried before its basics are safe.",
+     "In gymnastics, spotting and supporting (a helper stays close to guide or catch the performer) are used when a skill needs them, which protects the performer if it goes wrong.",
+     "Mats are positioned and checked, and apparatus is checked before use, so landings are cushioned and equipment will not fail.",
+     "No jewellery is worn and hair is tied back, so nothing catches on equipment or other people or blocks the performer's view.",
+     "Dance requires a suitable floor surface, which reduces the risk of slipping and of jarring the joints.",
+     "Hydration (drinking enough water) is part of safe practice.",
+     "Overuse is avoided to prevent injury, because repeating the same movements too often without rest strains the body."
     ]
    },
    {
+    "b": "Your practical work is assessed on more than the skills themselves. The assessment also tests what you know about building routines and how safely you work.",
     "h": "The performance assessment",
     "points": [
-     "Assessment covers the listed skills performed within a routine or dance.",
-     "It also covers compositional and choreographic knowledge.",
+     "Assessment covers the listed skills performed within a routine or dance, not skills shown in isolation.",
+     "It also covers compositional and choreographic knowledge (how a routine or dance is put together).",
      "Rules of the activity and safe practice are assessed.",
      "Performances are captured on video.",
      "In written exams, aesthetic activities are used to test aesthetic and artistic criteria, compositional elements, methods of analysing choreography and the comparison of two activities."
-    ]
+    ],
+    "tip": "For the written exam, prepare to apply the criteria and the compositional elements to a routine, to analyse choreography, and to compare two activities."
    }
   ],
   "questions": [
@@ -1294,58 +1401,66 @@
   ],
   "notes": [
    {
+    "b": "The syllabus sets a minimum number of skills you must show in each group, so you can plan your performance around them. Agilities means the gymnastic skills performed on the floor, such as rolls, balances and cartwheels.",
     "h": "Minimum requirements",
     "points": [
-     "At least 2 jumps, 2 rolls, 2 balances and 2 weight transferences must be shown.",
-     "The short floor sequence includes at least 4 of the listed agilities.",
-     "Proficiency is shown in at least 2 vaults from handspring, short arm overswing or an optional vault of similar tariff."
-    ]
+     "At least 2 jumps, 2 rolls, 2 balances and 2 weight transferences must be shown. Weight transference means moving your body weight from one body part to another, for example from your feet onto your hands in a cartwheel.",
+     "The short floor sequence (a routine of linked skills performed on the floor) includes at least 4 of the listed agilities, so the sequence cannot be just jumps and rolls.",
+     "Proficiency (skill and control) is shown in at least 2 vaults from handspring, short arm overswing or an optional vault of similar tariff. Tariff is the difficulty value given to a vault."
+    ],
+    "tip": "Know the minimums as numbers: 2 jumps, 2 rolls, 2 balances, 2 weight transferences, at least 4 listed agilities in the sequence and at least 2 vaults."
    },
    {
+    "b": "A jump is a skill where you leave the floor, show a shape in the air and land under control. All the jumps share the same take-off and landing, and differ in the shape made in the air.",
     "h": "Jumps",
     "points": [
-     "Every jump takes off from two feet with an arm swing.",
-     "Tuck: the knees are pulled up to the chest.",
-     "Pike: the legs are kept straight and together, with the body folded forward at the hips.",
-     "Straddle: the legs are kept straight and apart.",
-     "180-degree turn: the gymnast turns through 180 degrees in the air.",
-     "Every jump ends in a controlled two-footed landing with the knees bent and the arms out."
+     "Every jump takes off from two feet with an arm swing, which helps lift the body into the air.",
+     "Tuck: the knees are pulled up to the chest while in the air, making a tight, compact shape.",
+     "Pike: the legs are kept straight and together, with the body folded forward at the hips, so the body makes an L or V shape.",
+     "Straddle: the legs are kept straight and apart in the air.",
+     "180-degree turn: the gymnast turns through 180 degrees (a half turn) in the air, so they land facing the opposite way.",
+     "Every jump ends in a controlled two-footed landing with the knees bent and the arms out. Bent knees absorb the force of landing and outstretched arms help balance."
     ]
    },
    {
+    "b": "A roll turns the body over while it stays in contact with the mat, so it is the safest way to rotate. Both rolls use a tucked, rounded body so you roll over the back and not the neck.",
     "h": "Rolls",
     "points": [
-     "Forward roll: the chin is tucked and the hands are placed flat on the mat.",
+     "Forward roll: the chin is tucked and the hands are placed flat on the mat, so the head stays off the floor and the hands take the weight.",
      "Forward roll: the legs push, and the body rolls over the rounded back.",
-     "Forward roll: the gymnast comes up onto the feet without using the hands.",
-     "Backward roll: the body is tucked tightly, with the hands by the ears and palms up.",
+     "Forward roll: the gymnast comes up onto the feet without using the hands, which shows control.",
+     "Backward roll: the body is tucked tightly, with the hands by the ears and palms up, ready to push.",
      "Backward roll: the gymnast rolls back, then pushes through the hands to land on the feet."
     ]
    },
    {
+    "b": "A balance is a held, still position where the body is supported on a small base. The skill is in the control and the straight, tight body shape.",
     "h": "Balances",
     "points": [
-     "Handstand: the arms are straight and shoulder-width apart, with the body straight and the core tight.",
-     "Handstand: the gymnast kicks up from a lunge, holds the shoulders over the hands and stays still, then steps down.",
-     "Headstand: the base is a triangle formed by the forehead and both hands.",
+     "Handstand: the arms are straight and shoulder-width apart, with the body straight and the core (the trunk muscles) tight.",
+     "Handstand: the gymnast kicks up from a lunge (one leg forward with the knee bent, the other leg straight behind), holds the shoulders over the hands and stays still, then steps down.",
+     "Headstand: the base is a triangle formed by the forehead and both hands, which gives a stable support.",
      "Headstand: the hips are held over the head and the legs are raised with control.",
      "Arabesque: the gymnast balances on one straight leg, with the other leg extended behind, the arms out and the chest lifted."
     ]
    },
    {
+    "b": "These skills move your weight from your feet onto your hands and back to your feet, travelling as you go. They are the weight transferences you choose from to meet the minimum of two.",
     "h": "Weight transference",
     "points": [
-     "Cartwheel: from a lunge, the hands are placed one after the other in a line.",
-     "Cartwheel: the legs pass straight over the top in the frontal plane, and the gymnast lands one foot after the other, facing sideways.",
+     "Cartwheel: from a lunge (one leg forward with the knee bent), the hands are placed one after the other in a line.",
+     "Cartwheel: the legs pass straight over the top in the frontal plane (the flat plane that divides the body into front and back), and the gymnast lands one foot after the other, facing sideways.",
      "Round-off: a cartwheel with a quarter turn, in which the legs snap together overhead and the gymnast lands on two feet facing back the way they came.",
-     "Round-off: it links into backward skills.",
-     "Handspring: the gymnast runs and hurdles, places the hands on the mat and swings the legs straight over.",
+     "Round-off: it links into backward skills, because landing on two feet facing back gives a starting position for them.",
+     "Handspring: the gymnast runs and hurdles (a small step and hop into the skill), places the hands on the mat and swings the legs straight over.",
      "Handspring: the gymnast pushes from the shoulders and lands on the feet with the arms up.",
      "Back flip (back handspring): the gymnast sits back as if into a chair, swings the arms back and up, and jumps backwards onto the hands.",
      "Back flip: the legs snap over to land on the feet."
-    ]
+    ],
+    "tip": "Written answers can ask about planes and axes in gymnastics. The cartwheel is described as passing over in the frontal plane."
    },
    {
+    "b": "The short floor sequence must include at least four agilities from the syllabus list. The handspring and back flip on that list are covered under weight transference, and these are the rest.",
     "h": "Other floor agilities",
     "points": [
      "Backward roll to handstand: a backward roll that finishes in a handstand.",
@@ -1357,6 +1472,7 @@
     ]
    },
    {
+    "b": "A vault is a skill where the gymnast runs, uses a springboard to launch, and passes over a vault table (a padded apparatus) with the hands. You must show proficiency in at least two vaults from the syllabus list.",
     "h": "Vaults",
     "points": [
      "Handspring vault: the gymnast runs and takes off from two feet on the springboard.",
@@ -1364,44 +1480,53 @@
      "Handspring vault: the body rotates forward over the hands, the gymnast pushes off the table and lands facing away from it.",
      "Short arm overswing: one of the vaults the specification names; learn its technique from your teacher's demonstration.",
      "Optional vault: any vault of similar tariff, meaning similar difficulty value, excluding through and straddle vaults."
-    ]
+    ],
+    "tip": "For the short arm overswing, name it as one of the listed vaults and do not describe its technique. Through and straddle vaults are excluded for the optional vault."
    },
    {
+    "b": "A sequence is more than a list of skills. It is a planned routine in which the agilities are joined smoothly, and the way it is composed is part of what is judged.",
     "h": "Building the short floor sequence",
     "points": [
-     "The sequence has a planned start and finish.",
-     "Smooth linking movements of steps, turns and jumps join the agilities together.",
-     "Levels and directions are varied across the sequence.",
-     "The whole floor area is used.",
-     "Speed is contrasted, with slow and fast sections."
-    ]
+     "The sequence has a planned start and finish, so it looks deliberate and not like a series of separate skills.",
+     "Smooth linking movements of steps, turns and jumps join the agilities together, so the routine flows.",
+     "Levels (low, middle and high) and directions are varied across the sequence to add interest.",
+     "The whole floor area is used, so the routine does not stay in one place.",
+     "Speed is contrasted, with slow and fast sections.",
+     "Landings are controlled."
+    ],
+    "tip": "Written answers on gymnastics ask about compositional elements, so use these as your list: start and finish, links, levels, directions, floor area and speed."
    },
    {
+    "b": "A routine is marked on three things: what you attempt, how well you perform it and how well it is put together. Knowing this tells you where marks are won and lost.",
     "h": "Judging",
     "points": [
-     "Difficulty: the elements attempted are scored for their difficulty.",
-     "Execution: deductions are taken for bent legs, flexed feet, loss of balance and poor landings.",
-     "Artistry and composition: judged with aesthetic and artistic criteria such as body line, control and fluency."
-    ]
+     "Difficulty: the elements attempted are scored for their difficulty, so harder skills are worth more.",
+     "Execution: deductions (marks taken off) are made for bent legs, flexed feet (feet not pointed), loss of balance and poor landings.",
+     "Artistry and composition: judged with aesthetic and artistic criteria such as body line, control and fluency (smooth flow)."
+    ],
+    "tip": "Aesthetic criteria are taught in Aesthetic and artistic considerations, so apply them briefly here. Written answers ask about aesthetic criteria."
    },
    {
+    "b": "Gymnastics involves inverted positions, rotation and landings from height, so injuries are a risk. These precautions reduce that risk.",
     "h": "Safety and spotting",
     "points": [
-     "Warm-up and conditioning come before any skill is attempted.",
-     "Progressions come first: a handstand is practised against a wall before a free handstand.",
-     "Mats are placed correctly for each skill.",
-     "Trained spotters support the gymnast at the hips and shoulders.",
-     "The springboard and vault are checked before use.",
+     "Warm-up and conditioning (exercises that build strength and fitness) come before any skill is attempted.",
+     "Progressions come first: easier steps are learned before harder ones, for example a handstand is practised against a wall before a free handstand.",
+     "Mats are placed correctly for each skill, so they cushion the landing where the gymnast will actually come down.",
+     "Trained spotters (people who stand ready to help) support the gymnast at the hips and shoulders.",
+     "The springboard and vault are checked before use, so faulty equipment is found before it causes a fall.",
      "No jewellery is worn."
     ]
    },
    {
+    "b": "Artistic gymnastics asks a lot of the body and the mind. These demands are the qualities a gymnast needs to perform the skills above.",
     "h": "Demands",
     "points": [
-     "Physical demands: flexibility, strength in the upper body and core, power and balance.",
+     "Physical demands: flexibility, strength in the upper body and core, power and balance. Upper body strength is needed, for example, to support the body on the hands.",
      "Co-ordination and spatial awareness: controlling body parts in relation to each other and to the space around the body.",
-     "Mental demands: courage and concentration."
-    ]
+     "Mental demands: courage, because many skills are inverted or rotate, and concentration."
+    ],
+    "tip": "Written answers on gymnastics ask about flexibility, so name it first among the physical demands."
    }
   ],
   "questions": [
@@ -1480,68 +1605,81 @@
   ],
   "notes": [
    {
+    "b": "Rhythmic gymnastics is an aesthetic activity, meaning one judged on how it looks and feels as well as on what is done. It joins the movement of dance with the skilful handling of a small hand-held object.",
     "h": "What rhythmic gymnastics is",
     "points": [
-     "Rhythmic gymnastics is a floor discipline that combines dance-like body movement with handling a piece of apparatus.",
-     "Routines are set to music.",
-     "The apparatus used is a ball, hoop, ribbon, rope or club."
-    ]
+     "It is a floor discipline that combines dance-like body movement with handling a piece of apparatus (the hand-held equipment used in the routine).",
+     "Routines are set to music, so the movement is planned to fit the sound rather than done in silence.",
+     "The apparatus used is a ball, hoop, ribbon, rope or club, and a routine is built around the chosen piece."
+    ],
+    "tip": "Rhythmic gymnastics is used as an aesthetic activity in written answers, so be ready to link it to aesthetic criteria, music and choreography (the planning of the movements). Keep it separate from artistic gymnastics: do not bring in vaults or tumbling."
    },
    {
+    "b": "Balances and pivots are the basic body skills of the floor sequence. In a balance the performer stays still, and in a pivot the performer turns while keeping a set shape.",
     "h": "Balances and pivots",
     "points": [
-     "Balance: the performer stands on one foot on relevé, meaning on the toes, with the free leg held in a clear shape.",
-     "The balance is held still.",
-     "Pivot: the performer turns on one foot, on the ball of the foot, with a fixed body shape held through the turn."
+     "Balance: the performer stands on one foot on relevé, meaning raised up on the toes, with the free leg (the one off the floor) held in a clear shape.",
+     "The balance is held still, because a wobble or movement during the hold shows a loss of control.",
+     "Pivot: the performer turns on one foot, on the ball of the foot (the padded part just behind the toes), with a fixed body shape held through the turn.",
+     "Holding the shape during the pivot means the body does not change position mid-turn, which makes the turn look controlled."
     ]
    },
    {
+    "b": "Rolls and splits are floor skills that show control and range of movement. Rolls travel along the body or floor, while splits show how far the legs can open.",
     "h": "Rolls and splits",
     "points": [
-     "Body rolls: controlled rolls of the body on the floor.",
-     "Front splits and side splits are performed on the floor or in the air."
+     "Body rolls: controlled rolls of the body on the floor, with the performer in charge of the speed and direction rather than simply tumbling.",
+     "Rolling can also be done with the apparatus, which is rolled along the body or the floor, as the ball and hoop blocks below show.",
+     "Front splits (one leg forward, one back) and side splits (legs out to each side) are performed on the floor or in the air."
     ]
    },
    {
+    "b": "Hops, leaps and skips carry the performer across the floor. They are the travelling movements of the sequence, and they are judged on the shape made in the air and on the landing.",
     "h": "Hops, leaps and skips",
     "points": [
-     "These are travelling movements with a clear shape held in the air.",
-     "A split leap, with the legs at maximum range, is an example.",
-     "Each one finishes with a soft landing."
+     "These are travelling movements with a clear shape held in the air, so the body looks deliberate and not loose while off the ground.",
+     "A split leap, with the legs at maximum range (as far apart as they will go), is an example.",
+     "Each one finishes with a soft landing, which keeps the movement controlled and quiet."
     ]
    },
    {
+    "b": "These movements link the other skills together and make a routine look fluid. They use the whole body rather than just a limb.",
     "h": "Body waves, bends, circles, swings and turns",
     "points": [
-     "These are flowing movements through the whole body.",
-     "They show flexibility and fluency."
+     "These are flowing movements through the whole body, such as a wave travelling from one end of the body to the other.",
+     "They show flexibility (range of movement at the joints) and fluency (smooth, unbroken movement)."
     ]
    },
    {
+    "b": "The ball is handled by rolling, bouncing, throwing and catching. Every skill must look smooth, and the ball is never held tightly.",
     "h": "Ball",
     "points": [
      "Rolls of the ball along the arms and along the floor.",
      "Bounces of the ball on the floor.",
-     "Throws and catches with one hand, without gripping the ball."
+     "Throws and catches with one hand, without gripping the ball, so the ball rests in the hand and is not clutched."
     ]
    },
    {
+    "b": "The hoop is a ring that can roll, spin and be passed through, which gives a wider range of skills than the ball.",
     "h": "Hoop",
     "points": [
      "Rolls of the hoop along the floor.",
-     "Rotations of the hoop around the hand or body.",
-     "Throws and catches of the hoop, and passing through the hoop."
+     "Rotations of the hoop around the hand or body, meaning the hoop is spun in a circle.",
+     "Throws and catches of the hoop, and passing through the hoop, where the performer steps or moves through the ring."
     ]
    },
    {
+    "b": "The ribbon is a long strip of cloth on a stick, and it makes its shapes in the air. Its rule is different from the other apparatus: it must never stop.",
     "h": "Ribbon",
     "points": [
-     "Continuous patterns such as spirals, snakes and circles.",
-     "The ribbon must stay in motion throughout.",
-     "Stopping or knotting the ribbon is a fault."
-    ]
+     "Continuous patterns such as spirals, snakes (wave shapes) and circles are drawn in the air.",
+     "The ribbon must stay in motion throughout, because the patterns are only seen while it is moving.",
+     "Stopping or knotting the ribbon is a fault, meaning a mistake that is penalised."
+    ],
+    "tip": "If asked about the ribbon, state that it must keep moving and that stopping or knotting it is a fault."
    },
    {
+    "b": "The rope is used for skipping and jumping as well as swinging, throwing and catching.",
     "h": "Rope",
     "points": [
      "Skips and jumps through the rope.",
@@ -1550,55 +1688,63 @@
     ]
    },
    {
+    "b": "Clubs are held one in each hand, so they are used in pairs. The work is mainly small, rhythmic movement.",
     "h": "Clubs",
     "points": [
      "Mills: small circles made with the clubs.",
      "Swings with the clubs.",
-     "Tapping with the clubs.",
+     "Tapping with the clubs, which also makes a sound that can be matched to the music.",
      "Throws and catches of one or both clubs."
     ]
    },
    {
+    "b": "In rhythmic gymnastics the music shapes the movement. The routine is made to fit the music, which is what makes it aesthetic.",
     "h": "Working with music",
     "points": [
-     "Movements are matched to the tempo of the music.",
-     "Movements are matched to the phrasing and accents of the music.",
-     "The routine reflects the mood of the music."
-    ]
+     "Movements are matched to the tempo (the speed) of the music, so fast music gets quick movements and slow music gets slower ones.",
+     "Movements are matched to the phrasing (the way the music is grouped into musical sentences) and accents (the stressed beats) of the music.",
+     "The routine reflects the mood of the music, for example a calm piece would be expressed with gentle, flowing movement."
+    ],
+    "tip": "When asked about music and choreography, give all three links: tempo, phrasing and accents, and mood."
    },
    {
+    "b": "Composing means planning the routine so that it is a complete piece and not a string of separate skills. Each part below makes the whole routine more interesting to watch.",
     "h": "Composing the routine",
     "points": [
-     "The routine has a start position and an end position.",
-     "It uses a variety of body groups and apparatus elements.",
-     "Space and levels are used throughout.",
-     "Links between elements flow smoothly.",
-     "Body work and apparatus work are coordinated with each other."
-    ]
+     "The routine has a start position and an end position, so it has a clear beginning and finish.",
+     "It uses a variety of body groups (types of body movement, such as balances, pivots, leaps and waves) and apparatus elements (the handling skills), so it does not repeat itself.",
+     "Space and levels are used throughout, meaning the performer moves across the floor and works at different heights, from low to high.",
+     "Links between elements flow smoothly, so one skill leads into the next without stopping.",
+     "Body work and apparatus work are coordinated with each other, so the body and the equipment move together."
+    ],
+    "tip": "Rhythmic gymnastics is used as an aesthetic activity in written answers, so use these composition points as aesthetic criteria."
    },
    {
+    "b": "A routine is judged on three things: how hard it is, how well it is carried out, and how artistic it is.",
     "h": "Judging",
     "points": [
-     "Difficulty: body and apparatus elements are scored for difficulty.",
-     "Execution: deductions are taken for loss of balance, dropped apparatus and poor technique.",
-     "Artistry: music, expression and composition are judged."
+     "Difficulty: body and apparatus elements are scored for difficulty, so harder skills are worth more.",
+     "Execution: deductions (marks taken off) are made for loss of balance, dropped apparatus and poor technique.",
+     "Artistry: music, expression and composition are judged, so the way the routine is put together and performed counts as well as the skills."
     ]
    },
    {
+    "b": "Rhythmic gymnastics asks for a mix of physical and mental qualities, because the performer must move well, handle the apparatus and stay in time with the music.",
     "h": "Demands",
     "points": [
-     "Flexibility and balance are both required.",
-     "Hand-eye co-ordination is needed to handle the apparatus.",
-     "Muscular endurance is needed to sustain the routine.",
+     "Flexibility and balance are both required, for splits, leaps and held balances.",
+     "Hand-eye co-ordination (using the eyes to guide the hands) is needed to handle the apparatus, for example to catch a thrown ball or hoop.",
+     "Muscular endurance (the ability of muscles to keep working without tiring) is needed to sustain the routine.",
      "Rhythm and timing match the movements to the music.",
-     "Concentration is needed throughout the routine."
+     "Concentration is needed throughout the routine, so that errors such as a dropped apparatus are avoided."
     ]
    },
    {
+    "b": "The performer moves quickly, stretches far and throws equipment into the air. Safety steps reduce the risk of injury and accidents.",
     "h": "Safety",
     "points": [
-     "Warm-up includes flexibility preparation.",
-     "Performers need adequate space between them.",
+     "Warm-up includes flexibility preparation, so the muscles and joints are ready for stretching skills such as splits.",
+     "Performers need adequate space between them, so that they and their apparatus do not collide.",
      "A suitable floor surface is used.",
      "The condition of the apparatus is checked before use."
     ]
@@ -1700,45 +1846,52 @@
   ],
   "notes": [
    {
+    "b": "Dance is an aesthetic activity, one where the movement is judged for how it looks and what it expresses. Learners perform it twice, once alone and once in a group, and the same areas are considered in both.",
     "h": "The individual and group dance requirement",
     "points": [
-     "Learners perform an individual dance and a group dance.",
-     "Both show consideration of technical ability, choreographic design, dance style, props and music, and overall sense of performance.",
-     "Choreographic design includes choreographic content, choreographic construction and choreographic form."
-    ]
+     "Learners perform an individual dance and a group dance, so they must be able to perform on their own and to dance with others.",
+     "Both dances show consideration of technical ability, choreographic design (how the dance is planned and put together), dance style, props and music, and overall sense of performance.",
+     "Choreographic design includes choreographic content (what movements and space the dance uses), choreographic construction (how a motif is built up and varied) and choreographic form (the overall structure of the dance)."
+    ],
+    "tip": "Dance is a common aesthetic activity in written answers, so be ready to apply compositional elements and aesthetic and artistic criteria to it. Those criteria are taught elsewhere; here you apply them to dance."
    },
    {
+    "b": "Technical ability is how well the body is used to perform the movements. It is made up of eight skills, and each one has a clear meaning you can describe in an answer.",
     "h": "Technical ability",
     "points": [
-     "Posture: an upright, lifted carriage of the body.",
+     "Posture: an upright, lifted carriage of the body, which gives a clean line for every movement.",
      "Alignment: body parts held in a correct line, for example knees over toes.",
-     "Co-ordination: movements of different body parts combined in time.",
-     "Balance: holding the body steady over its base.",
+     "Co-ordination: movements of different body parts combined in time, so that arms, legs and trunk work together.",
+     "Balance: holding the body steady over its base (the part of the body in contact with the floor).",
      "Strength: the muscular power to lift, hold and control the body.",
      "Flexibility: the ability of muscles and joints to move through a large range.",
-     "Mobility: the range of movement available at each joint.",
-     "Control: stopping, holding and moving precisely."
+     "Mobility: the range of movement available at each joint (a joint is where two bones meet).",
+     "Control: stopping, holding and moving precisely, rather than letting momentum carry the body."
     ]
    },
    {
+    "b": "Choreography is the planning and arranging of dance movement. Its content is the raw material the choreographer works with: space, time and the other dancers.",
     "h": "Choreographic content",
     "points": [
-     "Levels: high, medium and low positions.",
+     "Levels: high, medium and low positions, which add variety by moving the dancer up and down in space.",
      "Pathways: straight, curved and zigzag routes across the floor.",
      "Directions and formations: the way dancers face and how they are arranged, such as in lines or circles.",
-     "Timing: the speed, rhythm and stillness of movement.",
-     "Relationships to other dancers: mirroring, contrast, leading and following, and contact."
-    ]
+     "Timing: the speed, rhythm and stillness of movement, so a pause is part of the timing as well as movement.",
+     "Relationships to other dancers: mirroring (copying a partner as in a mirror), contrast, leading and following, and contact."
+    ],
+    "tip": "Levels, pathways and timing count as compositional elements, so use them when an answer asks you to analyse choreography."
    },
    {
+    "b": "Once the content is chosen, a choreographer builds the dance from a small idea that is then developed. That idea is the motif.",
     "h": "Choreographic construction",
     "points": [
-     "A motif is a short movement phrase that expresses the theme.",
-     "Variation changes the motif, for example by altering its size, speed, level, direction or body part.",
-     "Adding repetition is also a way of varying a motif."
+     "A motif is a short movement phrase (a short sequence of linked movements) that expresses the theme, so it carries the idea of the dance.",
+     "Variation changes the motif so it does not simply repeat unchanged, for example by altering its size, speed, level, direction or body part.",
+     "Adding repetition is also a way of varying a motif, because repeating it in a new place or with a new emphasis changes how it is seen."
     ]
    },
    {
+    "b": "Form is the overall structure of a dance, in the way a song has verses and a chorus. It describes whether dancers move together or in turn, and how sections are ordered. A letter stands for each section, so AB means two different sections.",
     "h": "Choreographic form",
     "points": [
      "Unison: all dancers perform the same movement at the same time, for example a group arm sweep done together on one beat.",
@@ -1746,69 +1899,78 @@
      "Binary (AB): two contrasting sections, for example a slow, smooth section followed by a fast, sharp one.",
      "Ternary (ABA): three sections in which the first returns after a contrasting middle, for example a slow opening, a fast middle and the opening returning.",
      "Rondo (ABACA): a main section A returns between contrasting sections B and C, for example a main group phrase returning between a duet and a solo."
-    ]
+    ],
+    "tip": "Canon is sequential and unison is simultaneous, so do not swap them. Unison, canon, binary, ternary and rondo are the standard forms."
    },
    {
+    "b": "A dance style is a recognised type of dance with its own movement, music and history. Each of the eight styles on the syllabus can be identified by one defining feature.",
     "h": "Dance styles",
     "points": [
-     "Contemporary: draws on ballet and modern techniques and uses fluid, expressive movement and floor work.",
+     "Contemporary: draws on ballet and modern techniques and uses fluid, expressive movement and floor work (movement performed on or close to the floor).",
      "Folk: social dance of ordinary people, usually performed in groups and passed on informally.",
-     "Modern: a style that broke away from classical ballet conventions, using contraction, release and floor work.",
-     "Ballet: a classical style with turnout, pointed feet, set positions and a codified vocabulary of steps.",
-     "Jazz: an energetic style with sharp, rhythmic movements and isolations of body parts, often danced to jazz music.",
+     "Modern: a style that broke away from classical ballet conventions, using contraction (a tightening of the body), release and floor work.",
+     "Ballet: a classical style with turnout (legs rotated outward from the hips), pointed feet, set positions and a codified vocabulary of steps (a fixed, named set of steps).",
+     "Jazz: an energetic style with sharp, rhythmic movements and isolations of body parts (moving one part while the rest stays still), often danced to jazz music.",
      "Tap: a style in which metal plates on the shoes make percussive sounds as the dancer steps and taps.",
      "Ethnic: a style rooted in the dance of a particular cultural group, performed with that group's music and costume.",
      "Traditional: a style passed down through generations within a community, such as Irish traditional dance."
     ]
    },
    {
+    "b": "Props and music support the movement and help the dance communicate its theme. The dancer must use both deliberately, and not let them distract from the dancing.",
     "h": "Props and music",
     "points": [
      "Props extend the movement or tell part of the story, for example a chair, a scarf or a ribbon.",
-     "Music sets the mood, tempo and structure of the dance.",
-     "Movement is matched to the phrasing and accents of the music.",
-     "Silence can be used for effect."
+     "Music sets the mood, tempo (speed) and structure of the dance, so it shapes how the audience feels and where sections begin and end.",
+     "Movement is matched to the phrasing (the musical sentences) and accents (the stressed beats) of the music.",
+     "Silence can be used for effect, because the absence of music draws attention to the movement."
     ]
    },
    {
+    "b": "A dance is for an audience, so the overall sense of performance matters as well as the steps. Performers must communicate the theme artistically and aesthetically, meaning in a way that is expressive and pleasing to watch.",
     "h": "Performance and communication",
     "points": [
-     "Projection: energy and expression sent out to the audience.",
+     "Projection: energy and expression sent out to the audience, so that even those at the back can see and feel the dance.",
      "Focus: where the eyes look, which directs the audience's attention.",
-     "Facial expression matches the theme.",
-     "Energy and commitment are shown in every movement.",
-     "The theme is communicated to the audience artistically and aesthetically."
-    ]
+     "Facial expression matches the theme, so the face supports the story of the dance.",
+     "Energy and commitment are shown in every movement, not only in the big moments.",
+     "Confidence is shown in the performance, and the theme is communicated to the audience artistically and aesthetically."
+    ],
+    "tip": "Aesthetic and artistic criteria are taught elsewhere. When asked about dance, apply them by naming specific features such as projection, focus and facial expression."
    },
    {
+    "b": "A choreographer does not create a finished dance in one go. The work follows a sequence of stages from first idea to polished performance.",
     "h": "The choreographic process",
     "points": [
-     "Choose a stimulus or theme.",
-     "Improvise and select movement.",
-     "Create motifs from the selected movement.",
-     "Develop and structure the motifs into a chosen form.",
-     "Rehearse, then refine using feedback and video."
+     "1. Choose a stimulus (the starting idea, such as a picture or a piece of music) or theme.",
+     "2. Improvise (try out movement freely without planning) and select the movement that works best.",
+     "3. Create motifs from the selected movement.",
+     "4. Develop and structure the motifs into a chosen form, such as binary or rondo.",
+     "5. Rehearse, then refine using feedback and video, because watching a recording shows what the dancer cannot see while performing."
     ]
    },
    {
+    "b": "Dance puts demands on the joints and muscles, and dancers move close together, so injury is a risk. These five habits keep dancers safe.",
     "h": "Safe practice",
     "points": [
-     "Warm-up and cool-down are both part of safe practice.",
-     "The floor surface and footwear must be suitable.",
-     "Dancers keep enough space between them.",
-     "Lifts and landings use correct technique.",
-     "Hydration is maintained."
+     "Warm-up and cool-down are both part of safe practice, one before and one after the dance.",
+     "The floor surface and footwear must be suitable, so that dancers do not slip or strain their joints.",
+     "Dancers keep enough space between them, so they do not collide.",
+     "Lifts and landings use correct technique, because poor technique in these moments risks injury.",
+     "Hydration is maintained, meaning dancers drink enough water."
     ]
    },
    {
+    "b": "Dance asks for a mix of physical, skill-related and personal qualities. The group dance adds one more, working with others.",
     "h": "Demands",
     "points": [
-     "Flexibility, balance and strength are needed.",
-     "Muscular endurance is needed to sustain a dance.",
-     "Co-ordination, rhythm and spatial awareness are needed.",
-     "Confidence and expression are required to perform.",
-     "Teamwork is needed in the group dance."
-    ]
+     "Flexibility, balance and strength are needed to perform the movements.",
+     "Muscular endurance (the ability of muscles to keep working without tiring) is needed to sustain a dance.",
+     "Co-ordination, rhythm and spatial awareness (knowing where you and others are in the space) are needed.",
+     "Confidence and expression are required to perform in front of an audience.",
+     "Teamwork is needed in the group dance, so that dancers move together."
+    ],
+    "tip": "When comparing dance with another activity, link each demand to the part of the dance that calls for it."
    }
   ],
   "questions": [
@@ -1891,33 +2053,39 @@
   ],
   "notes": [
    {
-    "b": "Athletics is a group of running, jumping, throwing and walking events. Each is measurable in terms of the performer's own ability and against standards set by others' achievements.",
+    "b": "Athletics is a group of running, jumping, throwing and walking events. Each can be measured, both against the performer's own ability and against standards set by other people's achievements.",
     "h": "What athletics is",
     "points": [
-     "The events may be performed indoors or outdoors.",
-     "Performance is judged by the measurement itself: a time for running events, a distance or height for throwing and jumping.",
-     "Progress is shown by comparing a performance with the performer's own earlier results and with the achievements of others."
-    ]
+     "The events may be performed indoors or outdoors, so the same event can be contested in a hall or on an outdoor track or field.",
+     "Performance is judged by the measurement itself: a time for running events, and a distance or height for throwing and jumping events. No opinion is needed to decide a result.",
+     "Progress is shown by comparing a performance with the performer's own earlier results and with the achievements of others, which is why athletics suits both self-improvement and competition.",
+     "Walking events are named in the definition of athletics, but the events a learner can choose for assessment are running, throwing and jumping."
+    ],
+    "tip": "Mention walking events only when you define athletics. The categories and events you choose from are running, throwing and jumping."
    },
    {
+    "b": "Athletics events fall into three categories: running, throwing and jumping. You need to know which events belong to each category, because the assessment is chosen from one of them.",
     "h": "The three categories and their events",
     "points": [
-     "Running events: sprints, middle distance, long distance and hurdles.",
+     "Running events: sprints (short, flat-out races), middle distance, long distance and hurdles.",
      "Sprints: 100 m, 200 m and 400 m.",
      "Middle distance: 800 m and 1500 m.",
      "Long distance: 5000 m, 10,000 m and beyond.",
-     "Hurdles: the hurdles events, each run over a row of barriers.",
-     "Throwing events: shot-put, discus, javelin and hammer.",
-     "Jumping events: high jump, long jump and triple jump."
-    ]
+     "Hurdles: the hurdles events, each run over a row of barriers that the athlete must clear while racing.",
+     "Throwing events: shot-put (a heavy ball pushed from the shoulder), discus, javelin and hammer. In each, an implement (the object thrown) is sent as far as possible.",
+     "Jumping events: high jump (clear a bar for height), long jump and triple jump (both for distance)."
+    ],
+    "tip": "Technique for each event is taught in the notes for its own category, so here you only need the lists of events."
    },
    {
+    "b": "You do not assess the whole of athletics. The syllabus narrows the choice in two steps, first a category and then a single event within it.",
     "h": "The choice rule for the performance assessment",
     "points": [
      "The learner selects one category: running, throwing or jumping.",
-     "Within that category, the performance assessment focuses on one activity, for example the discus.",
-     "The assessment covers the skills and techniques, the tactics, and the rules and safe practice of that one activity."
-    ]
+     "Within that category, so as to keep the assessment manageable, the performance assessment (the practical assessment of how well you perform) focuses on one activity, for example the discus.",
+     "The assessment covers the skills and techniques, the tactics (decisions made to perform better), and the rules and safe practice of that one activity."
+    ],
+    "tip": "Remember the order: one category first, then one event inside it, such as the discus within throwing."
    },
    {
     "b": "Athletics results are objective, so a performer's improvement can be recorded and compared exactly.",
@@ -1926,51 +2094,61 @@
      "A running time or a throwing or jumping distance is recorded by a timekeeper, electronic timing or a field judge's measurement, with no room for opinion about the result.",
      "A personal best is the best result a performer has achieved; a season's best is the best result in the current season.",
      "Recording these results allows a performer to set measurable goals, such as improving a personal best by a stated amount.",
-     "Comparing results over sessions shows whether a training plan is working, which is the basis of performance analysis in athletics.",
+     "Comparing results over sessions shows whether a training plan is working, which is the basis of performance analysis (studying performance to find strengths and weaknesses) in athletics.",
      "Results are also compared with the achievements of others, so a performer can see where their standard sits in relation to a national or event standard."
-    ]
+    ],
+    "tip": "Link the measurement to its use: because times and distances are objective, improvement is easy to record and compare, which suits goal setting and performance analysis."
    },
    {
+    "b": "Each result must be fair and accurate, so athletics uses officials with set jobs. Knowing who does what is also part of the rules and conventions you are assessed on.",
     "h": "General rules and officials",
     "points": [
-     "The starter controls the start of running events and enforces the false start rules.",
-     "Track judges watch the lanes and the finish of running events.",
-     "Field judges measure every throw and jump and check each attempt for fouls.",
-     "Timekeepers or electronic timing record the times of running events.",
-     "Field events allow a set number of attempts for each athlete, and the high jump has its own elimination rule."
-    ]
+     "The starter controls the start of running events and enforces the false start rules (a false start is leaving before the start signal).",
+     "Track judges watch the lanes and the finish of running events, so that athletes stay in their lane and the finishing order is decided fairly.",
+     "Field judges measure every throw and jump and check each attempt for fouls (attempts that break the rules and do not count).",
+     "Timekeepers or electronic timing record the times of running events, so the result is a measurement and not an opinion.",
+     "Field events allow a set number of attempts for each athlete, so every competitor gets the same chances, and the high jump has its own elimination rule."
+    ],
+    "tip": "A question on rules and officials expects the starter and false starts, lane rules, track judges, field judges who measure and check fouls, timekeepers or electronic timing, and the number of attempts in field events."
    },
    {
+    "b": "Throwing implements, spikes (shoes with metal points for grip) and hard landings all carry risk. These safety rules apply across athletics and are part of what you are assessed on.",
     "h": "Safety common to all athletics events",
     "points": [
-     "Warm up thoroughly before any event, including the muscles that will be used most in the event.",
+     "Warm up thoroughly before any event, including the muscles that will be used most in the event, to prepare the body for hard effort.",
      "Throwing areas are cleared before a throw and controlled throughout: athletes throw only on command and retrieve implements only on command.",
-     "Nobody walks across a throwing sector while throws are being made.",
-     "Discus and hammer are thrown from cages, which must be in place before throwing starts.",
-     "Landing pits are raked and mats are in place before any jump.",
-     "Spikes are checked for damage before a session.",
-     "Implements must be of the correct weight for the age of the athletes."
-    ]
+     "Nobody walks across a throwing sector (the marked area where throws land) while throws are being made.",
+     "Discus and hammer are thrown from cages, which must be in place before throwing starts, so that a stray throw is contained.",
+     "Landing pits are raked and mats are in place before any jump, so the athlete lands on a prepared surface.",
+     "Spikes are checked for damage before a session, because damaged spikes can cause a slip or injury.",
+     "Implements must be of the correct weight for the age of the athletes, so that younger athletes are not given loads too heavy to control safely."
+    ],
+    "tip": "For a safety answer, cover the warm-up, clearing and controlling the throwing area, cages, raked pits and mats, spike checks and correct implement weight for age."
    },
    {
+    "b": "The assessment pulls the earlier blocks together. You are assessed on one event, chosen within one category, as a whole performer and not only on how far or fast you go.",
     "h": "The performance assessment",
     "points": [
      "The assessment is of one event, chosen within one category.",
      "It covers the listed skills and techniques of that event.",
-     "It covers the rules and conventions of the event, and the safe practice that goes with it.",
-     "Technique for each event is taught in the notes for that category, not here."
-    ]
+     "It covers the rules and conventions of the event (the accepted ways of competing), and the safe practice that goes with it.",
+     "Technique for each event is taught in the notes for that category, not here, because each category has its own techniques."
+    ],
+    "tip": "Do not describe event technique in answers about the athletics area in general. Each category has its own notes for that."
    },
    {
-    "b": "The same principles from the theory chapters recur across the athletics events.",
+    "b": "The same principles from the theory chapters recur across the athletics events, so athletics is used as a named activity in written answers. Each point below names the principle and the event it fits.",
     "h": "Athletics as a context for theory",
     "points": [
-     "Energy systems: a 100 m sprint draws mainly on the ATP-PC system, a 400 m race mainly on the lactic acid system with a large aerobic contribution, and a 10,000 m race mainly on the aerobic system (see the note titled Energy systems).",
-     "Levers and Newton's laws: a throw or jump is explained by a lever whose end speed depends on a straight, long arm or leg, and by Newton's third law, since the ground reaction force from the take-off propels the athlete (see the note titled Analysing skill: movement and quality perspectives).",
-     "Planes and axes: the turns of a discus or hammer thrower are rotation in the transverse plane about the longitudinal axis (see the note titled Analysing skill: the biomechanical perspective).",
-     "Fitness components and testing: a 10,000 m race depends on aerobic endurance, a shot-put throw depends on muscular strength and power, and a 100 m sprint depends on speed (see the notes on assessing fitness and the principles of training).",
-     "Periodisation: a training year is divided into phases so that general conditioning comes first, then event-specific training, with the peak timed for the main competitions (see the notes on designing a fitness plan)."
-    ]
+     "Energy systems (the ways the body makes the energy for muscles): a 100 m sprint draws mainly on the ATP-PC system, and a 400 m race mainly on the lactic acid system with a large aerobic contribution.",
+     "A 10,000 m race draws mainly on the aerobic system (the one that uses oxygen), because the effort lasts long enough for oxygen to supply the energy. There is more on this in the note titled Energy systems.",
+     "Levers and Newton's laws: a throw or jump is explained by a lever (a rigid bone turning about a joint) whose end speed depends on a straight, long arm or leg.",
+     "Newton's third law (every force has an equal and opposite reaction) applies too, since the ground reaction force from the take-off propels the athlete.",
+     "Planes and axes: the turns of a discus or hammer thrower are rotation in the transverse plane (a flat horizontal slice through the body) about the longitudinal axis (an imaginary line running from head to toe).",
+     "Fitness components and testing: a 10,000 m race depends on aerobic endurance (keeping going for long periods), a shot-put throw depends on muscular strength and power, and a 100 m sprint depends on speed.",
+     "Periodisation (dividing the training year into phases): general conditioning comes first, then event-specific training, with the peak timed for the main competitions."
+    ],
+    "tip": "Athletics is a frequent context in past papers. Be ready for a sprinter's practice principles, the discus and hammer planes and axes, the javelin's lever and practice method, components of fitness for 10,000 m versus shot-put, and energy systems in running events."
    }
   ],
   "questions": [
@@ -2053,98 +2231,113 @@
   ],
   "notes": [
    {
+    "b": "Running events are grouped by distance, and each group asks something different of the body. The longer the race, the more the energy comes from oxygen and the more pacing matters.",
     "h": "The running events and their demands",
     "points": [
-     "Sprints (100 m, 200 m and 400 m) demand speed, power and reaction time, and are powered by the ATP-PC system in the first seconds, with the lactic acid system taking over for the longer sprints.",
-     "Middle distance (800 m and 1500 m) demands speed endurance and tactical awareness, powered by the lactic acid system with a large aerobic contribution.",
-     "Long distance (5000 m, 10,000 m and beyond) demands cardio-respiratory endurance and pacing, powered mainly by the aerobic system.",
+     "Sprints (100 m, 200 m and 400 m) demand speed, power and reaction time (how fast you respond to the gun).",
+     "Sprints are powered by the ATP-PC system (a store of energy in the muscles that lasts only the first seconds), with the lactic acid system (energy made without oxygen, which produces lactic acid) taking over for the longer sprints, because the store runs out.",
+     "Middle distance (800 m and 1500 m) demands speed endurance (holding a fast pace for a long time) and tactical awareness (choosing where to run and when to move). It is powered by the lactic acid system with a large aerobic contribution (energy made using oxygen).",
+     "Long distance (5000 m, 10,000 m and beyond) demands cardio-respiratory endurance (the heart and lungs keeping oxygen flowing to the muscles for a long time) and pacing (spreading effort evenly over the race). It is powered mainly by the aerobic system.",
      "Hurdles demand speed, flexibility and rhythm, so that the stride pattern between barriers stays consistent."
-    ]
+    ],
+    "tip": "Running events are used as contexts for questions on principles of effective practice for a sprinter, the component of fitness needed for 10,000 m, and energy systems for the marathon and 400 m. Give the energy system and the demand for each event group."
    },
    {
+    "b": "A good start gets the athlete moving at full effort the moment the race begins. Sprinters start from blocks in a crouch, while middle and long distance runners use a simpler standing start.",
     "h": "Starts",
     "points": [
-     "Crouch start (sprints, from blocks): on 'On your marks' the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground.",
-     "Crouch start, 'Set': the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees and the back leg at about 120 degrees.",
-     "Crouch start, gun: the athlete drives out low with a powerful extension of the legs, while the opposite arm drives forward.",
+     "Crouch start (sprints, from blocks), on 'On your marks': the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground.",
+     "Crouch start, 'Set': the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees and the back leg at about 120 degrees. These angles are approximate coaching guides, so write 'about'.",
+     "Crouch start, gun: the athlete drives out low with a powerful extension of the legs (straightening them hard), while the opposite arm drives forward.",
      "Standing start (middle and long distance): one foot is forward, the body leans slightly, the weight is on the front foot and no hands touch the track.",
-     "Standing start, 'Go': the athlete drives forward from the front foot."
-    ]
+     "Standing start, 'Go': the athlete drives forward from the front foot, because the weight is already over it."
+    ],
+    "tip": "Newton's laws are asked about at the start, so link the powerful leg push into the blocks to the athlete being driven forward."
    },
    {
+    "b": "A sprinter does not run upright from the first step. Speed is built up in phases, starting with a low, forward-leaning drive.",
     "h": "Drive and acceleration in sprinting",
     "points": [
-     "At first the body is low and leaning forward, so that the drive pushes the athlete forward.",
+     "At first the body is low and leaning forward, so that the drive (the push of the legs against the ground) pushes the athlete forward.",
      "The body gradually becomes upright over about 20-30 m of the race.",
-     "Once upright, the athlete maintains speed through maximum velocity and into the final phase, which is the maintenance of speed."
+     "Once upright, the athlete maintains speed through maximum velocity (top speed) and into the final phase, which is the maintenance of speed."
     ]
    },
    {
+    "b": "Sprint technique is about driving forward with no wasted movement. A relaxed upper body keeps the arms and head helping the legs, and the legs do the work of pushing.",
     "h": "Sprint technique: upper body and lower body",
     "points": [
      "Upper body: the head is still and in line with the spine, the eyes look forward, and the face and shoulders are relaxed.",
      "Arms are bent at about 90 degrees and drive from the shoulder, with the hand moving from the hip to chin level.",
-     "Arms do not cross the body.",
-     "Lower body: the knee lifts high on the drive, and the foot lands on the ball of the foot under the hips.",
+     "Arms do not cross the body, because that would twist the trunk and waste energy.",
+     "Lower body: the knee lifts high on the drive, and the foot lands on the ball of the foot (the padded part behind the toes) under the hips.",
      "The drive leg extends fully at the hip, knee and ankle to push the body forward.",
-     "On recovery the heel is pulled up towards the bottom, so the leg swings through without wasted movement.",
+     "On recovery (the phase when the leg comes off the ground and swings forward again) the heel is pulled up towards the bottom, so the leg swings through without wasted movement.",
      "Ground contact is short, so that each stride drives the body forward rather than braking it."
-    ]
+    ],
+    "tip": "Questions on a sprinter's technique can be answered by working down the body: head, arms, knee lift, foot landing, leg extension, recovery and ground contact."
    },
    {
+    "b": "Over long races the aim is to run smoothly and use as little energy as possible, then to share effort out sensibly across the distance. Pacing is the plan for how fast to run each part of the race.",
     "h": "Middle and long distance technique and pacing",
     "points": [
-     "The body is more upright than in a sprint, and the running is relaxed.",
-     "The knee lift and the arm drive are lower than in a sprint.",
+     "The body is more upright than in a sprint, and the running is relaxed, so energy is not wasted over a long race.",
+     "The knee lift and the arm drive are lower than in a sprint, because the aim is to last the distance rather than reach top speed.",
      "The foot lands mid-foot, under the body.",
      "Breathing is rhythmic, matched to the stride, so that oxygen supply stays steady.",
-     "Economy of movement is the aim: smooth, efficient stride with no wasted motion.",
+     "Economy of movement is the aim: a smooth, efficient stride with no wasted motion, so energy lasts the whole race.",
      "Pacing: an even pace over the race or a negative split, with the second half faster than the first.",
-     "Going out too fast builds up lactic acid early, so the athlete cannot sustain the pace later.",
-     "The kick is used in the final part of the race to pass rivals."
-    ]
+     "Going out too fast builds up lactic acid early (the waste product of energy made without oxygen), so the athlete cannot sustain the pace later.",
+     "The kick (a burst of speed) is used in the final part of the race to pass rivals."
+    ],
+    "tip": "For a 10,000 m or marathon question, name the aerobic system and cardio-respiratory endurance, and link going out too fast to lactic acid build-up."
    },
    {
+    "b": "Hurdling is sprinting with barriers in the way. The aim is to clear each hurdle with as little loss of speed as possible and land ready to keep running.",
     "h": "Hurdles technique",
     "points": [
      "The athlete attacks the hurdle from a set distance, so the stride pattern is consistent between barriers.",
-     "The lead leg is driven up straight, with the knee leading.",
-     "The trail leg is brought round to the side with the knee high and the foot turned out.",
+     "The lead leg (the first leg over the hurdle) is driven up straight, with the knee leading.",
+     "The trail leg (the second leg over) is brought round to the side with the knee high and the foot turned out.",
      "The trunk leans forward over the hurdle, and the arm opposite the lead leg drives.",
      "The athlete runs off the hurdle quickly, back into the normal stride.",
      "Hurdles are usually run with a consistent number of strides between them, for example three strides."
     ]
    },
    {
+    "b": "Races are decided at the line, so how you cross it matters. The rule is about which part of the body counts.",
     "h": "Finishes",
     "points": [
-     "The athlete runs through the line without slowing down.",
-     "At the line the torso dips forward; the head and arms do not count for the finish.",
+     "The athlete runs through the line without slowing down, so that no time is lost before the line is crossed.",
+     "At the line the torso (the trunk of the body, not the head or limbs) dips forward; the head and arms do not count for the finish.",
      "In athletics the finish is decided by the torso crossing the line."
     ]
    },
    {
+    "b": "Efficient running wastes no energy, and most faults come from movement that does not push the body forward. Spotting them is a way to describe how a runner could improve.",
     "h": "Overall efficiency and common faults",
     "points": [
      "Efficient running is relaxed, with minimal side-to-side movement, good posture and a steady rhythm.",
      "Arms crossing the body waste energy and twist the trunk.",
-     "Overstriding and heel striking act as brakes, because the foot lands ahead of the centre of mass.",
+     "Overstriding (taking too long a stride) and heel striking act as brakes, because the foot lands ahead of the centre of mass (the point the body's weight balances around).",
      "Tense shoulders and a leaning-back posture reduce the efficiency of the stride.",
      "Slowing down before the line loses time that the athlete has already earned."
     ]
    },
    {
+    "b": "In middle distance races the runners are close together, so where you run and when you move can decide the result as much as fitness.",
     "h": "Tactics in middle distance racing",
     "points": [
-     "The athlete positions near the front on the inside to avoid being boxed in.",
-     "The athlete responds to surges by rivals rather than being carried by them.",
+     "The athlete positions near the front on the inside to avoid being boxed in (trapped behind or between other runners with no room to move).",
+     "The athlete responds to surges (sudden increases in pace) by rivals rather than being carried by them.",
      "The final kick is timed to start at the point where the athlete can sustain it to the line."
     ]
    },
    {
+    "b": "Rules keep races fair and safe. Knowing them also stops an athlete being disqualified for a simple mistake.",
     "h": "Rules for running events",
     "points": [
-     "At senior level, under current World Athletics rules, one false start results in disqualification with no warning.",
+     "At senior level, under current World Athletics rules, one false start (leaving the blocks before the gun) results in disqualification with no warning.",
      "Sprints stay in their lanes for the whole race.",
      "In the 800 m, runners break from their lanes into the inside lane after the first bend.",
      "Obstruction of another runner is a breach of the rules."
@@ -2231,85 +2424,103 @@
   ],
   "notes": [
    {
+    "b": "Whatever the implement (the object being thrown), the aim is the same: make it travel as far as possible. Three factors decide how far it goes, and one body mechanism produces the speed.",
     "h": "Principles common to all throws",
     "points": [
-     "Distance depends mainly on release speed, then on release angle and release height.",
-     "Summation of forces (kinetic chain): force is generated from the legs, passes through the hips and trunk, then to the shoulder, arm and hand in sequence, with each segment adding speed.",
-     "A long, straight throwing arm at release lengthens the lever, which increases the speed of release."
-    ]
+     "Distance depends mainly on release speed (how fast the implement is moving as it leaves the hand), then on release angle (the angle it leaves at) and release height.",
+     "Summation of forces, also called the kinetic chain, means force is generated from the legs, passes through the hips and trunk, then to the shoulder, arm and hand in sequence, with each segment adding speed to the one before.",
+     "A long, straight throwing arm at release lengthens the lever (the arm acts as a rigid bar turning about the shoulder), which increases the speed of release."
+    ],
+    "tip": "Exams use throws as contexts for the javelin as a third-class lever, so link a long, straight arm to a longer lever and greater release speed."
    },
    {
+    "b": "Shot-put, discus and hammer are thrown from a marked circle into a sector (the marked landing area). The same rules apply to all three, and breaking them makes the throw a foul (an illegal throw that does not count).",
     "h": "Rules common to the circle throws",
     "points": [
-     "The throw starts from a stationary position inside the circle.",
-     "The implement must land within the sector.",
-     "The thrower must not touch the top of the stop board or step on or outside the circle's edge.",
+     "The throw starts from a stationary position inside the circle, so the thrower cannot begin moving before entering it.",
+     "The implement must land within the sector, otherwise the throw does not count.",
+     "The thrower must not touch the top of the stop board (the raised curved board at the front of the shot-put circle) or step on or outside the circle's edge.",
      "The thrower leaves the circle from the back half, and only after the implement has landed.",
      "A thrower who leaves the circle before the implement lands commits a foul."
     ]
    },
    {
+    "b": "The shot is put (pushed) rather than thrown. The technique builds speed from the legs and hips and finishes with a push from the neck.",
     "h": "Shot-put",
     "points": [
      "Grip: the shot rests on the fingers at their base, not in the palm, and is tucked into the neck under the jaw.",
      "Stance and preparation: the athlete stands at the back of the circle facing away from the throwing direction, with the elbow held high.",
-     "Movement into the throw: the athlete moves across the circle by a glide or a rotational movement, drives from the legs, and turns the hips.",
-     "Release and follow-through: the shot is pushed from the neck at about 40 degrees with a wrist flick; a reverse switches the feet so the athlete stays in the circle.",
+     "Movement into the throw: the athlete moves across the circle by a glide (a low travelling movement backwards across the circle) or a rotational movement (a spin), drives from the legs, and turns the hips.",
+     "Release: the shot is pushed from the neck at about 40 degrees, the typical optimum release angle, with a wrist flick that adds final speed.",
+     "Follow-through: a reverse (switching the feet after release) stops the athlete's momentum carrying them out, so they stay in the circle.",
      "Key rules: the shot is pushed, not thrown; a throwing action from behind the shoulder is a foul.",
-     "Safety: no cage is used for the shot, so the sector must be checked clear before each put."
-    ]
+     "Safety: no cage (the protective netting around the circle) is used for the shot, so the sector must be checked clear before each put."
+    ],
+    "tip": "The shot is pushed, not thrown, and a throwing action from behind the shoulder is a foul. Say 'about 40 degrees' for the release angle. Exams also ask for a component of fitness for shot-put."
    },
    {
+    "b": "The discus is a flat disc thrown after spinning across the circle. The turn builds speed and the spin on release keeps the discus stable in flight.",
     "h": "Discus",
     "points": [
      "Grip: the fingertips are spread over the rim of the discus, with the palm facing down.",
-     "Stance and preparation: the athlete stands at the back of the circle and makes preliminary swings to build the turn.",
-     "Movement into the throw: the athlete makes a turn of one and a half rotations across the circle in the transverse plane about the longitudinal axis (see the note titled Analysing skill: the biomechanical perspective), with the arm long and straight, sweeping round at shoulder height.",
-     "Release and follow-through: the discus is released off the index finger, spinning clockwise for a right-hander, and a reverse keeps the athlete in the circle.",
+     "Stance and preparation: the athlete stands at the back of the circle, so there is room to turn, and makes preliminary swings (practice swings of the arm) to build the turn.",
+     "Movement into the throw: the athlete makes a turn of one and a half rotations across the circle, with the arm long and straight, sweeping round at shoulder height.",
+     "The turn happens in the transverse plane (a horizontal plane that divides the body into top and bottom halves) about the longitudinal axis (an imaginary line running from head to toe). There is more on this in Analysing skill: the biomechanical perspective.",
+     "Release and follow-through: the discus is released off the index finger, spinning clockwise for a right-hander, and a reverse (switching the feet) keeps the athlete in the circle.",
      "Key rules: the discus is thrown with its spin set up in the turn, and its flight is judged by where it lands in the sector.",
      "Safety: discus is thrown from a cage, so the cage must be in place before the turns begin."
-    ]
+    ],
+    "tip": "Discus and hammer rotation is in the transverse plane about the longitudinal axis. Exams ask for the plane and axis of these turns, so name both."
    },
    {
+    "b": "The javelin is a long spear thrown after a run-up rather than a spin. The thrower builds speed on the approach, then transfers it through a braced front leg.",
     "h": "Javelin",
     "points": [
-     "Grip: held behind the cord, using a grip such as the Finnish or American grip.",
-     "Stance and preparation: the javelin is carried above the shoulder during the approach run.",
-     "Movement into the throw: over the last strides the javelin is withdrawn back with a straight arm, followed by cross-over (impulse) steps, then the front leg is planted.",
-     "Release and follow-through: the hips and then the shoulders rotate, the elbow leads over the shoulder, and the throw is made over a braced front leg at about 30-35 degrees along the line of the shaft.",
+     "Grip: held behind the cord (the binding on the shaft), using a grip such as the Finnish or American grip.",
+     "Stance and preparation: the javelin is carried above the shoulder during the approach run (the run-up before the throw).",
+     "Movement into the throw: over the last strides the javelin is withdrawn back with a straight arm, followed by cross-over (impulse) steps, where the legs cross to keep the hips ahead of the javelin, then the front leg is planted.",
+     "Release: the hips and then the shoulders rotate, and the elbow leads over the shoulder, passing force up the kinetic chain in order.",
+     "Follow-through: the throw is made over a braced front leg (a firm, straight leg that blocks forward movement) at about 30-35 degrees along the line of the shaft, the typical optimum release angle.",
      "Key rules: the javelin must land tip first in the sector.",
      "Safety: the approach run passes ahead of the thrower, so the javelin is not thrown until the area in front is clear."
-    ]
+    ],
+    "tip": "The javelin must land tip first. Say 'about 30-35 degrees' for the release angle. Exams ask for the javelin as a third-class lever and for practice methods for a javelin thrower."
    },
    {
+    "b": "The hammer is swung round the head and turned with the body to build speed, and it is thrown from a cage for protection.",
     "h": "Hammer",
     "points": [
      "Grip: both hands hold the handle of the hammer.",
-     "Stance and preparation: preliminary winds (swings) of the hammer are made around the head.",
-     "Movement into the throw: three or four accelerating turns are made on the heels and toes, in the transverse plane about the longitudinal axis, with long straight arms.",
-     "Release and follow-through: the hammer passes through a low point and a high point of its orbit, and is released over the left shoulder for a right-hander.",
+     "Stance and preparation: preliminary winds (swings) of the hammer are made around the head, to get it moving before the turns begin.",
+     "Movement into the throw: three or four accelerating turns are made on the heels and toes, with long straight arms, which keeps the hammer in a wide orbit so it gains speed.",
+     "These turns happen in the transverse plane (a horizontal plane dividing the body into top and bottom halves) about the longitudinal axis (a line running from head to toe).",
+     "Release and follow-through: the hammer passes through a low point and a high point of its orbit (the circular path it travels), and is released over the left shoulder for a right-hander.",
      "Key rules: the hammer is thrown from a cage, which must be fully in place before the throw.",
      "Safety: the cage contains the turns and the release, so the thrower stays inside it until the hammer has left the hand."
-    ]
+    ],
+    "tip": "Discus and hammer rotation is in the transverse plane about the longitudinal axis. Exams ask for the plane and axis of these turns, so name both."
    },
    {
+    "b": "Efficient throwing means the whole body works as one chain, which is why a single weak link wastes speed. Knowing what efficient technique looks like also tells you what the faults are.",
     "h": "Overall efficiency and common faults",
     "points": [
      "Efficient throwing is a smooth rhythm, with balance in the circle and the kinetic chain sequenced from the legs to the hand.",
-     "A blocked or braced front side lets the force from the legs transfer into the throw.",
-     "Throwing with the arm only, without a leg drive, loses most of the available speed.",
-     "Opening the shoulders too early ends the rotation before release.",
-     "A low release angle sends the implement flat and short.",
-     "Falling out of the circle during the throw is a foul."
-    ]
+     "A blocked or braced front side lets the force from the legs transfer into the throw, rather than the body carrying on forward.",
+     "Fault: throwing with the arm only, without a leg drive, loses most of the available speed because the strongest muscles are not used.",
+     "Fault: opening the shoulders too early ends the rotation before release.",
+     "Fault: a low release angle sends the implement flat and short.",
+     "Fault: falling out of the circle during the throw is a foul."
+    ],
+    "tip": "For efficiency, name the smooth rhythm, balance in the circle, the sequenced kinetic chain and the blocked or braced front side. Exams also ask about training with light and heavy implements."
    },
    {
+    "b": "Throwing implements are heavy and can travel a long way, so strict habits protect everyone on the field.",
     "h": "Safety in throwing events",
     "points": [
-     "Throw only on command, and retrieve only on command.",
-     "Carry implements back to the thrower; never throw them back.",
-     "Stay behind the thrower while a throw is being made.",
-     "Check the sector is clear before each throw."
+     "Throw only on command, and retrieve only on command, so nobody walks into the sector while a throw is being made.",
+     "Carry implements back to the thrower; never throw them back, because a thrown implement can hit someone.",
+     "Stay behind the thrower while a throw is being made, so you are never in the line of the throw.",
+     "Check the sector is clear before each throw, so no one is struck by the implement."
     ]
    }
   ],
@@ -2385,75 +2596,89 @@
   ],
   "notes": [
    {
+    "b": "Every jump in athletics works the same way: the athlete builds up speed in a run-up (the controlled run before the jump) and then turns that speed into height or distance at take-off (the moment the feet leave the ground).",
     "h": "Principles of jumping",
     "points": [
-     "Jumping converts the speed of the run-up into height (high jump) or horizontal distance (long and triple jump) at take-off.",
-     "The distance or height achieved depends on the take-off speed, the take-off angle and the height of the centre of mass at take-off.",
-     "Take-off uses a powerful, extended drive of the hip, knee and ankle, and the free leg and arms swing upward to add lift.",
-     "Newton's third law explains take-off: the jumper pushes down into the ground, and the ground reaction force pushes the jumper up and forward."
-    ]
+     "Jumping converts the speed of the run-up into height in the high jump, or into horizontal distance in the long jump and triple jump, at take-off. This is why a fast, controlled run-up matters.",
+     "The distance or height achieved depends on three things: the take-off speed, the take-off angle (the angle at which the body leaves the ground) and the height of the centre of mass (the balance point of the body) at take-off.",
+     "Take-off uses a powerful, extended drive, meaning the hip, knee and ankle all straighten fully, so the jumper pushes for as long as possible against the ground.",
+     "The free leg (the leg that is not pushing off) and the arms swing upward at take-off, which adds lift.",
+     "Newton's third law (every action has an equal and opposite reaction) explains take-off: the jumper pushes down into the ground, and the ground reaction force (the push of the ground back on the jumper) pushes the jumper up and forward."
+    ],
+    "tip": "Jumps are used as contexts for power, planes and axes, Newton's laws, energy systems (the long jump uses the ATP-PC system) and fitness testing, so be ready to link a jump to these ideas."
    },
    {
+    "b": "The Fosbury flop is the technique used to clear a bar in the high jump. It goes through four phases: run-up, take-off, flight and landing. Each one sets up the next.",
     "h": "High jump (Fosbury flop)",
     "points": [
-     "Run-up: a curved, J-shaped approach, straight at first and then curving in the final strides.",
-     "Run-up: the jumper leans away from the bar on the curve.",
-     "Take-off: the jumper takes off from the foot further from the bar, driving the knee of the free leg up.",
-     "Take-off: the body rotates so that the back faces the bar.",
-     "Flight: the jumper arches over the bar with the head and shoulders back and the hips high, then lifts the legs over.",
-     "Landing: the jumper lands on the upper back and shoulders on the mat."
-    ]
+     "Run-up: the approach is curved and J-shaped, straight at first and then curving in the final strides. The curve is what makes the later body rotation possible.",
+     "Run-up: the jumper leans away from the bar on the curve, which sets up the rotation needed to clear the bar.",
+     "Take-off: the jumper takes off from the foot further from the bar, driving the knee of the free leg (the leg not pushing off) up to add lift.",
+     "Take-off: the body rotates so that the back faces the bar, ready to go over it.",
+     "Flight: the jumper arches over the bar with the head and shoulders back and the hips high, then lifts the legs over once the hips have passed.",
+     "Landing: the jumper lands on the upper back and shoulders on the mat, which spreads the impact over a safe part of the body."
+    ],
+    "tip": "Remember that the high jumper takes off from the foot further from the bar."
    },
    {
+    "b": "The long jump rewards horizontal distance, so the run-up is built for speed and accuracy. The jumper must hit the take-off board without slowing down, then control the body in the air and on landing.",
     "h": "Long jump",
     "points": [
-     "Run-up: an accelerating run-up with a consistent number of strides, checked by a check mark on the runway.",
-     "Take-off: an active, flat-footed take-off from the board, without stopping on the board.",
+     "Run-up: the jumper accelerates with a consistent number of strides, checked by a check mark on the runway (a marker that lets the jumper confirm the stride pattern), so that the take-off foot meets the board.",
+     "Take-off: it is active and flat-footed from the board, without stopping on the board, so that the speed of the run-up is not lost.",
      "Take-off: the free knee is driven up to help the body rotate forward.",
-     "Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping.",
-     "Landing: the legs are extended forward, and the jumper falls forward or sideways, not backwards."
-    ]
+     "Flight: the jumper uses a hang, a sail or a hitch-kick to keep balance and delay the legs dropping, so the legs can be reached forward late.",
+     "Landing: the legs are extended forward, and the jumper falls forward or sideways, not backwards, because falling back would shorten the measured jump."
+    ],
+    "tip": "Jumps are used as contexts for energy systems, and the long jump is linked to the ATP-PC system."
    },
    {
+    "b": "The triple jump is three linked jumps in one: hop, step and jump. The run-up is the same as in the long jump, but the athlete has to keep speed and balance through three take-offs and landings.",
     "h": "Triple jump",
     "points": [
-     "Run-up: as for the long jump, with an accelerating run-up and a consistent stride pattern.",
+     "Run-up: as for the long jump, the jumper accelerates with a consistent stride pattern.",
      "Take-off (hop): the jumper takes off from the board and lands on the same foot.",
      "Flight (step): the jumper lands on the other foot, keeping the phases balanced.",
      "Landing (jump): the jumper lands in the pit on both feet.",
-     "The sequence is always hop, then step, then jump.",
-     "The phases should have roughly even rhythm, and speed is maintained through all three.",
-     "Landings are active and flat-footed.",
-     "Arm action, either single or double, drives each phase."
-    ]
+     "The sequence is always hop, then step, then jump: hop is same foot, step is the other foot, and jump ends on both feet.",
+     "The phases should have roughly even rhythm, and speed is maintained through all three, because a weak phase would waste the speed built up in the run-up.",
+     "Landings are active and flat-footed, so the jumper can push off again straight away.",
+     "Arm action, either single or double (one arm or both arms swinging), drives each phase."
+    ],
+    "tip": "The triple jump sequence is hop (same foot), step (other foot), jump. Do not mix up the order or the feet."
    },
    {
+    "b": "Each jumping event has rules that decide whether an attempt counts and how it is measured. Breaking one makes the attempt a failure or a foul.",
     "h": "Rules and fouls for jumping events",
     "points": [
      "High jump: the take-off must be from one foot.",
      "High jump: three consecutive failures eliminate the jumper, whether at one height or across heights.",
      "High jump: the bar must stay on the supports; knocking it off is a failure.",
-     "Long and triple jump: stepping over the take-off board line is a foul.",
-     "Long and triple jump: the jump is measured from the take-off line to the nearest mark in the sand made by any part of the body."
-    ]
+     "Long and triple jump: stepping over the take-off board line is a foul, so the jumper must take off before the line.",
+     "Long and triple jump: the jump is measured from the take-off line to the nearest mark in the sand made by any part of the body, so a hand or a falling-back landing can cost distance.",
+     "Long and triple jump: wind limits apply for records."
+    ],
+    "tip": "In high jump, three consecutive failures eliminate the jumper. In long and triple jump, the measurement runs from the take-off line to the nearest mark in the sand made by any part of the body."
    },
    {
+    "b": "An efficient jump is one where nothing wastes the speed built up in the run-up. Most faults come from losing speed or balance somewhere between run-up and landing.",
     "h": "Overall efficiency and common faults",
     "points": [
      "An efficient jump has a consistent run-up, speed maintained through take-off, an upright posture at take-off and a controlled landing.",
-     "Slowing down before the board removes the speed that the jump depends on.",
+     "Slowing down before the board is a fault, because it removes the speed that the jump depends on.",
      "Overstriding at take-off lands the foot ahead of the body, which brakes the jump.",
-     "Sitting back on landing loses distance.",
+     "Sitting back on landing loses distance, because the measurement is taken from the nearest mark in the sand.",
      "Flattening the curve in the high jump reduces the lean away from the bar and the rotation needed to clear it."
     ]
    },
    {
+    "b": "Jumpers land hard and take off at speed, so the area has to be checked before anyone jumps.",
     "h": "Safety in jumping events",
     "points": [
-     "Landing pits are dug and raked before any jump.",
-     "Landing mats are positioned and checked before the high jump.",
-     "The runway is clear of people and equipment during the run-up.",
-     "Spikes are checked for damage before use.",
+     "Landing pits are dug and raked before any jump, so the sand is loose and soft.",
+     "Landing mats are positioned and checked before the high jump, so the jumper lands on the mat and not on the ground.",
+     "The runway is clear of people and equipment during the run-up, so nothing is in the way of a jumper at speed.",
+     "Spikes (the studded shoes jumpers wear for grip) are checked for damage before use.",
      "The take-off area is dry, so the jumper does not slip at take-off."
     ]
    }
@@ -2546,111 +2771,151 @@
   ],
   "notes": [
    {
+    "b": "Sport is big business, and money flows into it in several different ways. Each way has its own name, and the exam expects you to define them separately.",
     "h": "Key definitions",
     "points": [
-     "Sponsorship: a business provides money, products or services to a sport, team, event or performer in return for association, exposure and commercial benefit.",
-     "Title sponsorship: the sponsor's name is attached to a competition, such as the Guinness Six Nations, the men's rugby championship that Guinness has sponsored since 2019.",
-     "Other sponsorship forms: a logo on a team's jersey, and naming rights to a venue or competition.",
-     "Endorsement: a performer is paid to publicly promote and use a product or brand.",
+     "Sponsorship: a business provides money, products or services to a sport, team, event or performer in return for association (being linked with it in the public mind), exposure and commercial benefit (a gain in sales or profit).",
+     "Title sponsorship: the sponsor's name is attached to a competition, such as the Guinness Six Nations, the men's rugby championship that Guinness has sponsored since 2019. It is also an example of alcohol sponsorship in sport.",
+     "Other sponsorship forms: a logo on a team's jersey, and naming rights (the right to put the sponsor's name on a venue or competition).",
+     "Endorsement: a performer is paid to publicly promote and use a product or brand (the name and identity a company sells under).",
      "Merchandising: selling branded goods, such as jerseys, scarves, equipment and souvenirs, connected with a sport, team, event or performer.",
      "Sport-related advertising: advertising that uses sport, sports settings or athletes to sell products, including products unrelated to sport."
-    ]
+    ],
+    "tip": "Questions ask you to define sponsorship and endorsement, and to explain sponsorship, merchandising and sport-related advertising. Keep sponsorship and endorsement distinct: sponsorship is a business relationship with a sport, team or event, while endorsement is a performer promoting a product."
    },
    {
+    "b": "The three are easy to mix up because all involve a brand and sport. The difference is who has the relationship and who receives the income.",
     "h": "Sponsorship, endorsement and merchandising compared",
     "points": [
      "Sponsorship is a business relationship with a sport, team or event, and the income goes to that organisation.",
      "Endorsement is a performer promoting a product, and the income goes to the performer.",
-     "Merchandising is the sale of branded goods, and the income goes to the club, NGB or event that owns the brand.",
+     "Merchandising is the sale of branded goods, and the income goes to the club, NGB (national governing body, the organisation that runs a sport nationally) or event that owns the brand.",
      "Endorsement example: a performer is paid to appear in an advert for a brand of running shoes they wear.",
      "Merchandising example: a club sells replica jerseys and scarves in its shop, and each sale brings income to the club."
-    ]
+    ],
+    "tip": "A question may ask for the difference between merchandising and endorsement with examples. State who earns the income in each case and give one example of each."
    },
    {
+    "b": "A business only sponsors sport if it gets something back. The benefits explain why companies pay, and why sport can rely on them.",
     "h": "What a sponsor gains",
     "points": [
-     "Brand awareness and exposure to a large audience.",
-     "A positive image through association with success and with health.",
-     "Access to target markets, such as the young people and families who follow a sport.",
-     "Hospitality for clients and staff at matches and events.",
-     "Higher sales of the sponsor's products."
+     "Brand awareness and exposure to a large audience, because crowds, television viewers and online followers all see the sponsor's name.",
+     "A positive image through association with success and with health, because the brand is linked in people's minds with winning teams and fit athletes.",
+     "Access to target markets (the groups of customers the business wants to reach), such as the young people and families who follow a sport.",
+     "Hospitality for clients and staff at matches and events, such as tickets and entertainment, which builds business relationships.",
+     "Higher sales of the sponsor's products, which is the final commercial benefit of the other four."
     ]
    },
    {
+    "b": "Each type of commercial deal changes sport and the people in it, for better and for worse. Take them one at a time.",
     "h": "Impact of sponsorship, endorsement and merchandising on sport and performers",
     "points": [
-     "Sponsorship funds grassroots programmes, facilities, coaching, events and broadcasting.",
-     "Sponsorship allows elite athletes to train full-time.",
+     "Sponsorship funds grassroots programmes (sport for local clubs and beginners), facilities, coaching, events and broadcasting (getting matches onto television and online).",
+     "Sponsorship allows elite athletes (those competing at the top level) to train full-time, because the money replaces income from another job.",
      "Endorsement brings large income to star performers and raises their profile.",
      "Endorsement obligations, such as personal appearances and filming, take time away from training.",
      "A performer's image is tied to the brand, so a problem with the brand can damage the performer's reputation, and the reverse.",
      "Merchandising brings major income to clubs and NGBs.",
-     "Merchandising builds fan identity with a team, a sport or an event.",
-     "Replica kits change often and are expensive for families."
-    ]
+     "Merchandising builds fan identity with a team, a sport or an event, because fans who wear the kit feel they belong to it.",
+     "Replica kits (copies of the team's playing jersey) change often and are expensive for families."
+    ],
+    "tip": "You may be asked to discuss the impact of merchandising on sport. Give both sides: major income and fan identity, against kits that change often and cost families a lot."
    },
    {
-    "h": "Advantages and disadvantages of sponsorship for the national governing body (NGB)",
+    "b": "An NGB runs its sport nationally, organising competitions, development and the national teams. It needs money to do this, and sponsors supply a good deal of it.",
+    "h": "Sponsorship for the national governing body (NGB): advantages",
     "points": [
-     "Advantage, income: sponsorship money pays for development and high-performance programmes.",
-     "Advantage, facilities: sponsor funds can build or improve facilities.",
-     "Advantage, coach education: sponsor funds pay for the training of coaches.",
-     "Advantage, expertise: sponsors bring marketing expertise that helps the NGB promote the sport.",
-     "Advantage, recognition: the NGB's name and competitions gain public recognition through sponsors' advertising.",
-     "Disadvantage, dependence: relying on one sponsor leaves the NGB exposed.",
-     "Disadvantage, withdrawal: the NGB loses income if the sponsor withdraws.",
-     "Disadvantage, influence: a sponsor may try to influence scheduling and decisions.",
-     "Disadvantage, reputation: an unsuitable sponsor can damage the NGB's reputation.",
-     "Disadvantage, ethics: brands such as alcohol or gambling can conflict with the values the NGB promotes to young members."
-    ]
+     "Income: sponsorship money pays for development programmes (bringing new players into the sport) and high-performance programmes (preparing top athletes for elite competition).",
+     "Facilities: sponsor funds can build or improve facilities, so the NGB does not have to find that money elsewhere.",
+     "Coach education: sponsor funds pay for the training of coaches, so standards of coaching can improve.",
+     "Expertise: sponsors bring marketing expertise (skill in promoting and selling) that helps the NGB promote the sport.",
+     "Recognition: the NGB's name and competitions gain public recognition through sponsors' advertising."
+    ],
+    "tip": "Questions ask for the advantages of sponsorship for the NGB, and for the impact on a named NGB. Give the advantages for the NGB itself, not for the performer or the sport."
    },
    {
-    "h": "Advantages and disadvantages of sponsorship for the performer",
+    "b": "Sponsorship money comes with strings. For an NGB the risks are mainly about depending on the sponsor and about who the sponsor is.",
+    "h": "Sponsorship for the national governing body (NGB): disadvantages",
     "points": [
-     "Advantage, income: sponsorship money lets the performer train full-time.",
-     "Advantage, equipment and travel: sponsors may provide free equipment and travel.",
-     "Advantage, profile: a higher profile can open a career after sport.",
-     "Disadvantage, obligations: contracts set appearances, filming and other demands on the performer's time.",
-     "Disadvantage, pressure: the performer must perform and win to keep the deal.",
-     "Disadvantage, injury or poor form: the deal can end after an injury or a run of poor results.",
-     "Disadvantage, privacy: the performer gives up some privacy when their image is used commercially.",
-     "Disadvantage, conduct: the performer must not do anything that damages the brand.",
-     "Disadvantage, conflict: the performer's personal deal can clash with the sponsorship of their team.",
-     "Disadvantage, unwanted products: the performer may be linked to a product they would not choose."
+     "Dependence: relying on one sponsor leaves the NGB exposed, because the whole budget rests on one company.",
+     "Withdrawal: the NGB loses income if the sponsor withdraws, so programmes it paid for may have to stop.",
+     "Influence: a sponsor may try to influence scheduling (when matches are played) and decisions.",
+     "Reputation: an unsuitable sponsor can damage the NGB's reputation.",
+     "Ethics: brands such as alcohol or gambling can conflict with the values the NGB promotes to young members."
     ]
    },
    {
-    "h": "Advantages and disadvantages of sponsorship for the sport or activity",
+    "b": "For an individual athlete, sponsorship can decide whether a sporting career is affordable. Answer these separately from the NGB and the sport.",
+    "h": "Sponsorship for the performer: advantages",
+    "points": [
+     "Income: sponsorship money lets the performer train full-time.",
+     "Equipment and travel: sponsors may provide free equipment and travel, which removes costs the athlete would otherwise pay.",
+     "Profile: a higher profile can open a career after sport, because the performer is already known to the public and to businesses."
+    ],
+    "tip": "Exam questions name one stakeholder, so give advantages and disadvantages for the performer on their own. Expect to be asked for the positive impact of sponsorship deals for an athlete and for the disadvantages for an athlete."
+   },
+   {
+    "b": "A sponsorship deal is a contract, and the performer has to keep their side of it. That creates several pressures.",
+    "h": "Sponsorship for the performer: disadvantages",
+    "points": [
+     "Obligations: contracts set appearances, filming and other demands on the performer's time.",
+     "Pressure: the performer must perform and win to keep the deal.",
+     "Injury or poor form: the deal can end after an injury or a run of poor results, because the sponsor's benefit depends on a successful athlete.",
+     "Privacy: the performer gives up some privacy when their image is used commercially, because the sponsor wants them seen.",
+     "Conduct: the performer must not do anything that damages the brand.",
+     "Conflict: the performer's personal deal can clash with the sponsorship of their team, for example if the two sponsors are rivals.",
+     "Unwanted products: the performer may be linked to a product they would not choose."
+    ]
+   },
+   {
+    "b": "Here the question is about the sport as a whole, not the NGB or any one athlete. Sponsorship raises a sport's profile, but it can also change it.",
+    "h": "Sponsorship for the sport or activity: advantages and disadvantages",
     "points": [
      "Advantage, profile: sponsorship brings higher profile and more media coverage.",
      "Advantage, events: sponsors help to fund better events.",
      "Advantage, facilities: sponsors help to fund better facilities.",
      "Advantage, participation: a higher profile can attract more participants.",
      "Disadvantage, inequality: sponsors favour popular sports, men's sport and elite sport, so other sports struggle to attract money.",
-     "Disadvantage, commercialisation: changes are made to suit sponsors and television rather than the sport's own needs.",
+     "Disadvantage, commercialisation (turning the sport into a product to be sold): changes are made to suit sponsors and television rather than the sport's own needs.",
      "Disadvantage, image: the sport's image is linked to unhealthy products."
-    ]
+    ],
+    "tip": "Give advantages and disadvantages for each of the three stakeholders (NGB, performer, sport) separately, because a question names only one."
    },
    {
-    "h": "Sport-related advertising: forms and messages to young people",
+    "b": "Advertisers use sport because young people watch it and admire its stars. They reach them through several routes.",
+    "h": "Sport-related advertising: forms",
     "points": [
-     "Form: television and online adverts featuring athletes.",
-     "Form: social media and influencer content.",
-     "Form: shirt and stadium advertising.",
-     "Form: product placement in sport.",
-     "Form: branded events and competitions.",
-     "Positive message: being active is enjoyable and achievable.",
-     "Positive message: effort and perseverance pay off.",
-     "Positive message: role models of diverse backgrounds and abilities show that sport is open to everyone.",
-     "Positive message: healthy lifestyles are presented as normal.",
-     "Negative message: sport is linked with unhealthy products such as sugary drinks, fast food, alcohol and gambling.",
-     "Negative message: unrealistic body ideals are presented as the norm.",
-     "Negative message: success appears to depend on expensive gear.",
-     "Negative message: winning at all costs is presented as the goal.",
-     "Negative message: betting adverts shown during matches normalise gambling."
+     "Television and online adverts featuring athletes.",
+     "Social media and influencer content (posts by people with large online followings who promote products).",
+     "Shirt and stadium advertising, which is seen by everyone at the ground and on television.",
+     "Product placement in sport (a brand deliberately shown within the game or its coverage).",
+     "Branded events and competitions."
     ]
    },
    {
+    "b": "Sport-related advertising can send young people messages that support taking part in sport.",
+    "h": "Sport-related advertising: positive messages to young people",
+    "points": [
+     "Being active is enjoyable and achievable.",
+     "Effort and perseverance pay off.",
+     "Role models of diverse backgrounds and abilities show that sport is open to everyone.",
+     "Healthy lifestyles are presented as normal."
+    ],
+    "tip": "You may be asked to analyse two forms of sport-related advertising in terms of their messages to young people. Name the form, then give both a positive and a negative message."
+   },
+   {
+    "b": "The same advertising can also harm young viewers, who are still forming their ideas about health, bodies and success.",
+    "h": "Sport-related advertising: negative messages to young people",
+    "points": [
+     "Sport is linked with unhealthy products such as sugary drinks, fast food, alcohol and gambling.",
+     "Unrealistic body ideals are presented as the norm.",
+     "Success appears to depend on expensive gear, which can make sport seem out of reach for families who cannot afford it.",
+     "Winning at all costs is presented as the goal.",
+     "Betting adverts shown during matches normalise gambling, meaning it comes to seem an ordinary part of watching sport."
+    ]
+   },
+   {
+    "b": "When an exam shows or describes an advert, work through the same five steps in order. They turn a vague impression into marked points.",
     "h": "Analysing a sport-related advert",
     "points": [
      "1. Who is shown: the age, gender, body type and ability of the people in the advert.",
@@ -2661,16 +2926,20 @@
     ]
    },
    {
-    "b": "Each criterion below carries a justification, so the committee can explain its choice to parents and members.",
+    "b": "A code of practice is a set of rules a club agrees to follow when choosing sponsors. Each criterion below carries a justification, so the committee can explain its choice to parents and members.",
     "h": "Code of practice for selecting sponsors of youth sport",
     "points": [
-     "Criterion 1: no sponsors whose products are unsuitable for young people, such as alcohol, gambling, tobacco and vaping, or high-fat and high-sugar food and drink. Justification: a logo on a child's jersey is a constant endorsement to the child and everyone watching, so an unhealthy brand contradicts the club's health message.",
-     "Criterion 2: the sponsor's values and conduct must match the club's code of ethics, child safeguarding, inclusion and fair play. Justification: a sponsor shown on the club's kit is associated with its values, so a sponsor whose conduct breaks them damages the club's credibility with young players and parents.",
+     "Criterion 1: no sponsors whose products are unsuitable for young people, such as alcohol, gambling, tobacco and vaping, or high-fat and high-sugar food and drink.",
+     "Justification for criterion 1: a logo on a child's jersey is a constant endorsement to the child and everyone watching, so an unhealthy brand contradicts the club's health message.",
+     "Criterion 2: the sponsor's values and conduct must match the club's code of ethics, child safeguarding (protecting children from harm), inclusion and fair play.",
+     "Justification for criterion 2: a sponsor shown on the club's kit is associated with its values, so a sponsor whose conduct breaks them damages the club's credibility with young players and parents.",
      "Criterion 3: no use of children's images, names or data in marketing without parental consent. Justification: children cannot judge how a commercial company will use their image, so parents must decide.",
      "Criterion 4: sponsorship benefits the whole club fairly, including girls' and boys' teams and all age groups, not only elite teams. Justification: a deal that funds one team alone leaves other young members without coaching, facilities or equipment.",
      "Criterion 5: the sponsor has no say over team selection, coaching or club decisions. Justification: selection and coaching should reflect players' ability and development, not what suits a commercial partner.",
-     "Criterion 6: a transparent written agreement, approved by the committee, with a fixed term and a review and exit clause. Justification: a written, time-limited agreement lets the club check what it receives, review the deal and leave it if the sponsor no longer meets the criteria."
-    ]
+     "Criterion 6: a transparent written agreement, approved by the committee, with a fixed term and a review and exit clause (a condition allowing the club to leave the deal).",
+     "Justification for criterion 6: a written, time-limited agreement lets the club check what it receives, review the deal and leave it if the sponsor no longer meets the criteria."
+    ],
+    "tip": "You may be asked to state and justify three criteria for a code of practice for selecting commercial sponsorship for a youth team. Pick three, and give each a justification in the same sentence."
    }
   ],
   "questions": [
@@ -2763,96 +3032,125 @@
   ],
   "notes": [
    {
+    "b": "Sport is a big business, and many different kinds of company make money from it. Each sector (a branch of the industry) earns in its own way, so knowing the sectors helps you place any business you investigate.",
     "h": "Sectors of the sport industry",
     "points": [
-     "Sportswear and equipment manufacturers and retailers: make and sell kit, footwear and equipment.",
-     "Media and broadcasters: sell coverage of sport to audiences and buy the rights to show events.",
-     "Stadiums and venues: host matches, concerts and other events, and earn from ticketing and hire.",
-     "Gyms and leisure centres: sell memberships, classes and access to facilities.",
-     "Sports nutrition: manufactures and sells foods and supplements for athletes and active people.",
-     "Event organisers: plan and run competitions, races and festivals.",
-     "Tourism and travel: carry and house visitors who travel to take part in or watch sport.",
-     "Betting companies: take bets on sporting events and sponsor teams and competitions.",
-     "Sports clubs and NGBs: operate as businesses that earn income from members, events, sponsors and merchandise."
+     "Sportswear and equipment manufacturers and retailers make and sell kit, footwear and equipment, so every player and supporter is a potential customer.",
+     "Media and broadcasters sell coverage of sport to audiences and buy the rights to show events (the legal permission to broadcast them).",
+     "Stadiums and venues host matches, concerts and other events, and earn from ticketing (selling entry tickets) and hire (renting the venue out).",
+     "Gyms and leisure centres sell memberships, classes and access to facilities, which means they earn from people who want to be active.",
+     "Sports nutrition businesses manufacture and sell foods and supplements for athletes and active people.",
+     "Event organisers plan and run competitions, races and festivals.",
+     "Tourism and travel businesses carry and house visitors who travel to take part in or watch sport.",
+     "Betting companies take bets on sporting events and sponsor (pay money to be linked with) teams and competitions.",
+     "Sports clubs and NGBs (national governing bodies, the organisations that run a sport nationally) operate as businesses, earning income from members, events, sponsors and merchandise (branded goods for fans)."
     ]
    },
    {
+    "b": "A revenue stream is a way of bringing money in. Sport has several, and most businesses and organisations in it rely on a mix of them.",
     "h": "Revenue streams in sport",
     "points": [
-     "Broadcasting rights: sold to television and online platforms for the right to show events.",
-     "Sponsorship: business money or products given in return for association and exposure.",
-     "Ticketing and hospitality: sales of match and event tickets, and packages of food and seats for businesses and guests.",
-     "Merchandising: sales of branded kit, scarves and souvenirs.",
-     "Membership and participation fees: regular payments by club members and people taking part.",
-     "Facility hire: renting pitches, halls and pools to clubs and groups.",
-     "Events: income from hosting competitions, concerts and festivals."
+     "Broadcasting rights are sold to television and online platforms, which pay for the right to show events to their audiences.",
+     "Sponsorship is business money or products given to a team or event in return for association and exposure (the brand being seen by fans). There is more on this in Sponsorship and advertising.",
+     "Ticketing and hospitality means sales of match and event tickets, and packages of food and seats for businesses and guests.",
+     "Merchandising is the sale of branded kit, scarves and souvenirs, so fans pay to show their support.",
+     "Membership and participation fees are regular payments by club members and people taking part.",
+     "Facility hire means renting pitches, halls and pools to clubs and groups, so a facility earns even when no match is on.",
+     "Events bring in income from hosting competitions, concerts and festivals."
     ]
    },
    {
+    "b": "Enterprise is how new sport businesses begin. Someone spots something people want and builds a way to provide it.",
     "h": "Enterprise in sport",
     "points": [
-     "Enterprise means identifying a need in sport and meeting it with a product, service or event.",
-     "Examples: a coaching camp, a sports app or a fitness class.",
-     "An enterprise plan weighs the target market, the value offered, the costs, the expected revenue and the risk.",
-     "Target market: the group of customers the product is designed for, such as young players, parents or older adults."
+     "Enterprise means identifying a need in sport and meeting it with a product (something made), a service (something done for people) or an event.",
+     "Examples include a coaching camp, a sports app or a fitness class.",
+     "An enterprise plan weighs the target market, the value offered (what the customer gains), the costs, the expected revenue (money coming in) and the risk (the chance it loses money or fails).",
+     "The target market is the group of customers the product is designed for, such as young players, parents or older adults, so the offer can be shaped to suit them."
     ]
    },
    {
+    "b": "When you investigate a business in sport, you work from a fixed set of questions and gather answers from real sources. The questions cover what the business does, how it earns, and whether its role in sport is good or bad.",
     "h": "How to investigate a business",
     "points": [
      "Question 1: what does the business sell, and to whom?",
-     "Question 2: how is it involved in sport, as a supplier, sponsor, owner or broadcaster?",
+     "Question 2: how is it involved in sport, as a supplier (provides goods), sponsor, owner or broadcaster?",
      "Question 3: how does it earn money from sport?",
-     "Question 4: how does it promote itself through sport?",
-     "Question 5: what is its impact on participation, on the sport and on the local economy?",
-     "Question 6: what ethical issues does it raise?",
+     "Question 4: how does it promote itself through sport, for example by getting its brand seen at games?",
+     "Question 5: what is its impact on participation, on the sport and on the local economy (jobs and spending in the area)?",
+     "Question 6: what ethical issues does it raise (questions of what is fair or right)?",
      "Question 7: what challenges does it face?",
-     "Sources: the company's website and annual reports, news articles, interviews, visits to the business and its social media."
-    ]
+     "Sources: the company's website and annual reports (yearly summaries a company publishes about its business), news articles, interviews, visits to the business and its social media."
+    ],
+    "tip": "You may be asked to outline three key findings from your investigation of a named business. Use the findings in the worked investigations below, which come from these questions."
    },
    {
+    "b": "O'Neills shows how a manufacturer is involved in sport. It makes the kit people play and support in, so its business is tied closely to the sporting calendar.",
     "h": "Worked investigation 1: O'Neills, an Irish sportswear manufacturer",
     "points": [
-     "What it is: an Irish sportswear manufacturer, best known for GAA jerseys and team kit.",
-     "Other kit: it also supplies rugby, soccer and other club and school kits.",
-     "Involvement as a supplier: it supplies kit to county and club teams and to schools.",
-     "Involvement with fans: it sells replica jerseys and leisurewear to supporters.",
-     "Involvement as a sponsor: it sponsors and supports clubs and events.",
-     "Visibility: kit deals put its brand in front of players, supporters and crowds.",
-     "Key finding 1: its business depends on the club and county calendar and on GAA culture.",
-     "Key finding 2: it employs people in manufacturing in Ireland.",
-     "Key finding 3: replica jerseys turn county identity into sales.",
-     "Key finding 4: it competes with large international brands."
+     "What it is: an Irish sportswear manufacturer, best known for GAA (Gaelic Athletic Association) jerseys and team kit.",
+     "Other kit: it also supplies rugby, soccer and other club and school kits, so it is not limited to one sport.",
+     "Involvement as a supplier: it supplies kit to county and club teams and to schools, so its customers are teams as well as individuals.",
+     "Involvement with fans: it sells replica jerseys (copies of the team shirt) and leisurewear to supporters, so fans are customers as well as spectators.",
+     "Involvement as a sponsor: it sponsors and supports clubs and events, which helps the clubs and keeps its name visible.",
+     "Visibility: kit deals put its brand in front of players, supporters and crowds, which is how it promotes itself through sport."
     ]
    },
    {
+    "b": "These four findings are what you would present from the O'Neills investigation. Each shows how its business is tied to the sport it serves.",
+    "h": "O'Neills: key findings to present",
+    "points": [
+     "Key finding 1: its business depends on the club and county calendar and on GAA culture, so its sales follow the sporting season.",
+     "Key finding 2: it employs people in manufacturing in Ireland.",
+     "Key finding 3: replica jerseys turn county identity into sales, because supporters buy the shirt to show loyalty to their county.",
+     "Key finding 4: it competes with large international brands."
+    ],
+    "tip": "Use O'Neills as your checked business and do not copy past-paper examples such as a sports retailer or a nutrition company. Do not add figures like founding date, staff numbers or turnover."
+   },
+   {
+    "b": "Croke Park shows a stadium run as a business. It is a sports ground, but it also earns money from many activities that are not matches.",
     "h": "Worked investigation 2: Croke Park as a business",
     "points": [
      "What it is: the GAA's headquarters and main stadium, in Dublin, used for major GAA games.",
-     "Ticketing and corporate hospitality for games.",
-     "Concerts and other events held at the stadium.",
-     "Conference and meeting facilities.",
-     "The GAA Museum and stadium tours.",
-     "Naming and advertising opportunities.",
-     "Key finding 1: non-GAA events earn income that supports the GAA.",
-     "Key finding 2: the stadium brings visitors and spending to the surrounding area.",
-     "Key finding 3: the GAA is an amateur organisation whose players are not paid, while the stadium operates commercially.",
-     "Key finding 4: large events can affect local residents."
+     "Concerts and other events are held at the stadium, which is why it can earn income outside the GAA season.",
+     "Concerts and other events held at the stadium, which bring in income outside the GAA season.",
+     "Conference and meeting facilities, which businesses and groups can use.",
+     "The GAA Museum and stadium tours, which earn from visitors who come even when there is no game."
     ]
    },
    {
+    "b": "These four findings are what you would present from the Croke Park investigation. Each links the stadium's business to its effect on the GAA and the area around it.",
+    "h": "Croke Park: key findings to present",
+    "points": [
+     "Naming and advertising opportunities, where companies pay to have their name or message at the stadium.",
+     "Key finding 1: non-GAA events earn income that supports the GAA.",
+     "Key finding 2: the stadium brings visitors and spending to the surrounding area.",
+     "Key finding 3: the GAA is an amateur organisation (its players are not paid), while the stadium operates commercially.",
+     "Key finding 4: large events can affect local residents."
+    ],
+    "tip": "Do not describe GAA players as paid. The contrast in finding 3 is that the players are unpaid amateurs while the stadium runs commercially. Do not quote capacity or income figures."
+   },
+   {
+    "b": "A business can help sport and harm it at the same time. To evaluate or analyse its involvement, weigh the benefits against the concerns and use examples from the business you studied.",
     "h": "Evaluating a business's involvement in sport",
     "points": [
      "Benefit, funding: money from the business supports the sport.",
      "Benefit, equipment: the business supplies equipment to teams and clubs.",
      "Benefit, jobs: the business creates jobs in its own operation and in related services.",
-     "Benefit, publicity: the business gives the sport publicity.",
+     "Benefit, publicity: the business gives the sport publicity, which can attract new participants and fans.",
      "Benefit, facilities: the business helps to provide new or improved facilities.",
-     "Concern, priorities: commercial interests may outweigh the interests of participants.",
+     "Concern, priorities: commercial interests (the aim of making profit) may outweigh the interests of participants.",
      "Concern, costs: families bear costs such as replica kits and tickets.",
-     "Concern, products: unhealthy or gambling products are linked with sport.",
+     "Concern, products: unhealthy or gambling products are linked with sport."
+    ],
+    "tip": "You may be asked to discuss (Ordinary) or analyse (Higher) the involvement of a named business in sport. Give benefits and concerns, each tied to your checked business. There is more on sponsorship in Sponsorship and advertising."
+   },
+   {
+    "b": "The remaining concerns are about control. When a business pays for sport, it can gain influence over when it is played and how its people are used.",
+    "h": "More concerns about business involvement",
+    "points": [
      "Concern, scheduling: the business may influence the timing of fixtures and events.",
-     "Concern, athletes: athletes' images may be exploited for commercial gain."
+     "Concern, athletes: athletes' images may be exploited for commercial gain, meaning used to make money for others."
     ]
    }
   ],
@@ -2940,66 +3238,75 @@
   ],
   "notes": [
    {
+    "b": "Some sporting events are built for the crowd taking part rather than for the winner. Knowing exactly what the term means is the starting point for the business and enterprise opportunities they create.",
     "h": "What mass-participation events are",
     "points": [
-     "Mass-participation sporting events: organised events in which large numbers of people of mixed ability take part at the same time.",
-     "Usual aim: personal challenge, health or charity, rather than winning.",
-     "Types: city marathons, fun runs, parkrun, cycling sportives, open-water swims, obstacle and colour runs and triathlons."
-    ]
+     "Mass-participation sporting events are organised events in which large numbers of people of mixed ability take part at the same time, so beginners and experienced athletes share the same start line.",
+     "The usual aim is personal challenge, health or charity, rather than winning, which is why finishing is the goal for most entrants.",
+     "Types include city marathons (long-distance road races through a city), fun runs, parkrun (a free weekly timed run), cycling sportives (organised long-distance bike rides for all abilities), open-water swims, obstacle and colour runs, and triathlons (swim, cycle and run in one event)."
+    ],
+    "tip": "If asked to define mass-participation sporting events, include large numbers, mixed ability, taking part at the same time, and the aim of challenge, health or charity rather than winning. Then give two examples."
    },
    {
+    "b": "Ireland has well-known events that fit the definition. Naming real ones, with a fact about each, makes an answer specific.",
     "h": "Irish examples",
     "points": [
-     "Dublin Marathon: held in Dublin each year.",
-     "Women's Mini Marathon: a women's mass-participation event in Dublin.",
-     "parkrun: a free, weekly, timed 5 km event held on Saturday mornings.",
+     "Dublin Marathon: a marathon (a long-distance road race) held in Dublin each year.",
+     "Women's Mini Marathon: a women's mass-participation event in Dublin, so it is an example of a women-only format.",
+     "parkrun: a free, weekly, timed 5 km event held on Saturday mornings, so anyone can take part at no cost.",
      "Great Limerick Run: a mass-participation running event in Limerick."
-    ]
+    ],
+    "tip": "When asked to give examples of mass-participation events, name the event and where it is held, such as the Dublin Marathon in Dublin or the Great Limerick Run in Limerick."
    },
    {
+    "b": "The number of people entering these events has grown because several things have made taking part more appealing and easier. Each reason below is one cause you can use to explain the growth.",
     "h": "Reasons for growth",
     "points": [
-     "Health and fitness awareness, promoted nationally.",
-     "Charity fundraising and personal challenge goals, such as events people want to complete at least once in their lives.",
-     "Social media, apps and wearable trackers make training and sharing results easy.",
-     "Inclusive formats: walk, jog or run options, shorter distances, women-only events and free weekly events.",
-     "Sponsorship and professional event organisers who market events widely.",
-     "Running and cycling clubs, couch-to-5k style programmes and workplace challenges."
-    ]
+     "Health and fitness awareness, promoted nationally, has encouraged more people to look for an activity to take up, and an organised event gives them one.",
+     "Charity fundraising and personal challenge goals attract entrants, such as 'bucket list' events (events people want to complete at least once in their lives).",
+     "Social media, apps and wearable trackers (watches and devices that record your runs) make training and sharing results easy, so participants stay motivated and show others what they achieved.",
+     "Inclusive formats widen who can enter: walk, jog or run options, shorter distances, women-only events and free weekly events.",
+     "Sponsorship (companies paying to be linked with the event) and professional event organisers, who market events widely, make events better known and better run.",
+     "Running and cycling clubs, couch-to-5k style programmes (plans that take a beginner from no running to a 5 km run) and workplace challenges give people a route into the events."
+    ],
+    "tip": "A question on how growth has provided opportunities for business needs causes and their business effect. Link each reason, such as sponsorship or apps and trackers, to the businesses that gain."
    },
    {
+    "b": "A large crowd of participants and spectators is a market. For each opportunity, know what it is and who benefits.",
     "h": "Business and enterprise opportunities",
     "points": [
-     "Entry fees: income for the organiser and for charities.",
-     "Title and partner sponsorship: brands gain exposure to thousands of participants and spectators.",
-     "Merchandise and event products: branded T-shirts, medals and photographs; the organiser and the event brand benefit from sales.",
-     "Retail: running shoes, clothing, watches, trackers and nutrition products bought for training; sports retailers benefit.",
-     "Services: coaching, training plans and apps, physiotherapy, sports massage and timing companies; these providers benefit.",
-     "Local economy: hotels, restaurants, pubs, shops and transport are busy on event weekends with visitors from outside the area; local businesses benefit.",
-     "Media and advertising: live and online coverage carries sponsors' brands to viewers beyond the start line; broadcasters and advertisers benefit.",
-     "Charities: raise large sums through participants' fundraising.",
-     "Enterprise: new businesses are set up to organise events, sell event photography, provide timing chips or run training groups; their founders benefit."
-    ]
+     "Entry fees: each participant pays to enter, which is income for the organiser and for charities.",
+     "Title and partner sponsorship: a company's name is attached to the event (title sponsor) or it supports it as a partner, so brands gain exposure to thousands of participants and spectators.",
+     "Merchandise and event products: branded T-shirts, medals and photographs are sold, so the organiser and the event brand benefit from sales.",
+     "Retail: running shoes, clothing, watches, trackers and nutrition products are bought for training, so sports retailers benefit.",
+     "Services: coaching, training plans and apps, physiotherapy, sports massage and timing companies (who record each runner's time) are needed, so these providers benefit.",
+     "Local economy: hotels, restaurants, pubs, shops and transport are busy on event weekends with visitors from outside the area, so local businesses benefit.",
+     "Media and advertising: live and online coverage carries sponsors' brands to viewers beyond the start line, so broadcasters and advertisers benefit.",
+     "Charities raise large sums through participants' fundraising, because entrants ask friends, family and colleagues to sponsor them. Enterprise: new businesses are set up to organise events, sell event photography, provide timing chips (devices that record a runner's time) or run training groups, and their founders benefit."
+    ],
+    "tip": "To describe an opportunity, say what it is and who benefits, for example sponsorship gives brands exposure to thousands of participants and spectators. Choose opportunities from the event itself, such as entry fees, merchandise, retail, services or local spending."
    },
    {
+    "b": "Events do more than make money. They also bring gains for the people taking part and the communities around them.",
     "h": "Benefits to participants and communities",
     "points": [
-     "Health: participants gain fitness and wellbeing.",
-     "Goal-setting: a fixed event date gives participants a training target.",
+     "Health: participants gain fitness and wellbeing from the training and from taking part.",
+     "Goal-setting: a fixed event date gives participants a training target to work towards.",
      "Community spirit: people train, cheer and volunteer together.",
-     "Inclusivity: events welcome people of mixed ability.",
-     "Charity income: money is raised for good causes."
+     "Inclusivity: events welcome people of mixed ability, so beginners are not shut out.",
+     "Charity income: money is raised for good causes through fundraising."
     ]
    },
    {
+    "b": "Large events also have downsides. These are the costs and problems that organisers and communities have to deal with.",
     "h": "Costs and problems",
     "points": [
-     "Road closures and disruption to residents.",
-     "Policing and stewarding costs that must be met.",
-     "Litter and environmental impact.",
-     "Rising entry fees that exclude lower-income groups.",
-     "Injury risk for participants who are unprepared.",
-     "Events dominated by commercial interests rather than by participants."
+     "Road closures cause disruption to residents, because roads along the route are shut for the event.",
+     "Policing and stewarding costs (stewards guide participants and manage the route) must be met, which adds to the cost of running the event.",
+     "Litter and environmental impact, since thousands of people on a route leave waste behind.",
+     "Rising entry fees exclude lower-income groups, which works against the inclusive aim of these events.",
+     "Injury risk for participants who are unprepared, such as those who take on a distance without enough training.",
+     "Events can be dominated by commercial interests rather than by participants, so the business side outweighs the participants' needs."
     ]
    }
   ],
@@ -3087,82 +3394,93 @@
   ],
   "notes": [
    {
+    "b": "Sport can be used to sell things, and it can also draw people to a place. Sports marketing and sports tourism have different definitions, and sports tourists fall into three types according to why they travel.",
     "h": "Sports marketing and sports tourism",
     "points": [
-     "Sports marketing: using sport to promote and sell products, services or places, and promoting sport itself to attract participants, spectators, sponsors and broadcasters.",
-     "Sports tourism: travel to take part in or watch sport, or to visit sporting attractions.",
-     "Active sports tourist: travels to take part, for example in golf, surfing, cycling, walking or running events.",
-     "Event sports tourist: travels to watch, for example international matches, golf tournaments or horse racing.",
-     "Nostalgia sports tourist: visits stadiums, museums and halls of fame."
-    ]
+     "Sports marketing means using sport to promote and sell products, services or places. It also means promoting sport itself to attract participants, spectators, sponsors (businesses that pay to be linked with a sport) and broadcasters (television and media companies that show it).",
+     "Sports tourism is travel to take part in or watch sport, or to visit sporting attractions. The sport is the reason for the trip, not an extra.",
+     "An active sports tourist travels to take part, for example in golf, surfing, cycling, walking or running events.",
+     "An event sports tourist travels to watch, for example international matches, golf tournaments or horse racing.",
+     "A nostalgia sports tourist travels to visit stadiums, museums and halls of fame (places that honour great players and past achievements), so the draw is sporting history."
+    ],
+    "tip": "Exams ask you to explain sports marketing, so give both parts of the definition: selling through sport and promoting sport itself."
    },
    {
+    "b": "One way sports marketing builds tourism is to market Ireland as a place to do a particular activity. Each activity is matched to a setting Ireland can offer.",
     "h": "Marketing Ireland for activities",
     "points": [
      "Golf: Ireland is marketed as a destination for golf, so visitors travel specifically to play.",
-     "Surfing and water sports are marketed on the Wild Atlantic Way, a tourism route along Ireland's west coast.",
+     "Surfing and water sports are marketed on the Wild Atlantic Way, a tourism route along Ireland's west coast, where the Atlantic provides the waves.",
      "Walking and cycling are marketed on greenways, which are off-road routes such as the Great Western Greenway in Co. Mayo and the Waterford Greenway.",
-     "Visitors who come specifically for an activity stay longer and spend more."
-    ]
+     "Visitors who come specifically for an activity stay longer and spend more, which is why marketing aims at them: a longer stay means more spending in the local area."
+    ],
+    "tip": "Questions ask for ways sports marketing could develop tourism, so name an activity, the place it is marketed on, and the effect: longer stays and more spending."
    },
    {
+    "b": "Countries compete to host big events, and Ireland can bid for them (make a formal offer to host). A hosted event brings people and attention that marketing alone cannot.",
     "h": "Bidding for and hosting major international events",
     "points": [
-     "Bidding for and hosting major international events brings visiting teams, media and spectators to Ireland.",
-     "Hosting an event shows Ireland to a worldwide television audience.",
-     "The 2006 Ryder Cup was held at the K Club, Co. Kildare; the 2027 Ryder Cup is scheduled for Adare Manor, Co. Limerick.",
-     "The Tour de France began in Dublin in 1998.",
-     "Six Nations matches are played at the Aviva Stadium, Dublin.",
+     "Bidding for and hosting major international events brings visiting teams, media and spectators to Ireland, all of whom spend money while they are here.",
+     "Hosting an event shows Ireland to a worldwide television audience, which works as advertising for the country as a whole.",
+     "The 2006 Ryder Cup (a golf contest between teams from Europe and the United States) was held at the K Club, Co. Kildare. The 2027 Ryder Cup is scheduled for Adare Manor, Co. Limerick.",
+     "The Tour de France (the famous cycling race) began in Dublin in 1998.",
+     "Six Nations matches (the annual rugby championship) are played at the Aviva Stadium, Dublin.",
      "American college football games have been played at the Aviva Stadium, Dublin."
-    ]
+    ],
+    "tip": "The 2027 Ryder Cup has not happened yet, so write that it is scheduled for Adare Manor or to be held there. Exams ask you to describe the impact of hosting an event on tourism in Ireland."
    },
    {
+    "b": "Not all tourism comes from one-off events. Yearly fixtures, dramatic settings, sporting history and famous names all keep Ireland in view.",
     "h": "Annual events, spectacle and heritage",
     "points": [
-     "Annual events attract visitors every year, such as the Galway Races, an annual horse-racing festival in Galway.",
+     "Annual events attract visitors every year, such as the Galway Races, an annual horse-racing festival in Galway, so the benefit repeats instead of happening once.",
      "The Irish Open, a professional golf championship held in Ireland, attracts visitors every year.",
-     "Spectacle events in scenic locations market the landscape: the Red Bull Cliff Diving World Series has held events on Inis Mór in the Aran Islands.",
-     "Sporting heritage attractions: the GAA Museum and stadium tours at Croke Park, Dublin.",
-     "Famous athletes and teams are used in tourism campaigns to publicise Ireland."
-    ]
+     "Spectacle events in scenic locations market the landscape: the Red Bull Cliff Diving World Series has held events on Inis Mór in the Aran Islands, so the scenery is shown to viewers along with the sport.",
+     "Sporting heritage attractions draw nostalgia tourists: the GAA Museum and stadium tours at Croke Park, Dublin.",
+     "Famous athletes and teams are used in tourism campaigns to publicise Ireland, because people follow and trust sporting stars."
+    ],
+    "tip": "Exams ask for two examples of sports events that could attract tourists to Ireland. Pick named ones, such as the Galway Races or the Irish Open."
    },
    {
+    "b": "Visitors who come for sport bring money, a better reputation and local energy. The benefits fall into three groups: economic, image and legacy, and community.",
     "h": "Benefits of sports tourism for Ireland",
     "points": [
-     "Economic: visitor spending on accommodation, food, transport and retail.",
-     "Economic: jobs in tourism and hospitality.",
+     "Economic: visitor spending on accommodation, food, transport and retail (shops).",
+     "Economic: jobs in tourism and hospitality (hotels, restaurants and similar services), created by that spending.",
      "Economic: taxes raised from visitor spending.",
-     "Economic: benefits spread to rural and coastal areas outside the main tourist season.",
-     "Image and legacy: a positive international image for Ireland.",
+     "Economic: benefits spread to rural and coastal areas outside the main tourist season, because activities such as surfing and walking happen outside cities and outside the summer peak.",
+     "Image and legacy (what is left behind after an event): a positive international image for Ireland.",
      "Image and legacy: improved facilities and infrastructure that local people can use afterwards.",
      "Image and legacy: repeat visits by people who first came for a sporting event.",
-     "Community: pride in hosting events.",
-     "Community: volunteering to run events.",
-     "Community: increased local participation, inspired by events."
-    ]
+     "Community: pride in hosting events; volunteering to run events; and increased local participation, inspired by events."
+    ],
+    "tip": "When asked to discuss the impact on tourism, organise your answer under economic, image and legacy, and community, and give a reason with each benefit."
    },
    {
+    "b": "Sports tourism is not all gain. Some costs fall on the public and on residents, and some things about Ireland limit which events it can host.",
     "h": "Costs and limitations",
     "points": [
-     "Public cost of bidding, hosting and security.",
-     "Money can leave the area through international companies.",
-     "Congestion and overcrowding in host areas.",
-     "Rising prices and disruption for residents.",
-     "Environmental damage caused by visitors.",
-     "Facilities built for one event may be under-used afterwards.",
+     "There is a public cost of bidding, hosting and security, so taxpayers' money is spent before any benefit arrives.",
+     "Money can leave the area through international companies, which means the profits of an event may not stay with local businesses.",
+     "Congestion and overcrowding in host areas make travel and daily life harder.",
+     "Rising prices and disruption for residents are a cost to the people who live in the host area.",
+     "Environmental damage is caused by visitors.",
+     "Facilities built for one event may be under-used afterwards, which wastes the money spent building them.",
      "Ireland's weather limits some events.",
-     "Ireland has limited large venues, which restricts the size of some events.",
-     "Transport links limit some events."
-    ]
+     "Ireland has limited large venues, which restricts the size of some events, and transport links limit some events too."
+    ],
+    "tip": "A discussion question needs both sides, so pair the benefits with costs and limitations."
    },
    {
+    "b": "To discuss the potential of sports marketing for tourism, weigh the benefits against the costs and limits. The overall judgement is that the potential is high, but it depends on conditions.",
     "h": "Evaluating the potential of sports marketing for tourism in Ireland",
     "points": [
      "High potential for activity tourism, given Ireland's landscape and Irish sporting culture.",
      "Heritage tourism also has high potential, rooted in Irish sporting culture.",
-     "The potential depends on investment in facilities and transport.",
-     "The benefits depend on being spread locally, beyond the venue and the event weekend."
-    ]
+     "The potential depends on investment in facilities and transport, because limited venues and transport links hold back some events.",
+     "The benefits depend on being spread locally, beyond the venue and the event weekend, so that rural and coastal communities gain as well."
+    ],
+    "tip": "Discuss questions ask how sports marketing can affect tourism in Ireland. Finish with a judgement, for example high potential for activity and heritage tourism if investment is made, and do not quote a figure for the value of sports tourism."
    }
   ],
   "questions": [
@@ -3245,78 +3563,91 @@
   ],
   "notes": [
    {
+    "b": "Every sport has written rules, but not every situation is covered by them. Ethics and fair play describe how people are expected to behave in those gaps and within the rules.",
     "h": "Ethics and fair play",
     "points": [
-     "Ethics in sport: the moral principles about what is right and wrong that guide behaviour in sport.",
-     "Fair play: playing within the rules and the spirit of the game, with respect for others.",
-     "Ethical practice in sport rests on four principles: integrity, respect, fairness and equity."
-    ]
+     "Ethics in sport means the moral principles about what is right and wrong that guide behaviour in sport, so they shape what players, coaches and officials choose to do, not just what the rulebook says.",
+     "Fair play means playing within the rules and the spirit of the game (the idea behind the rules, not only their wording), with respect for others.",
+     "Ethical practice in sport rests on four principles: integrity, respect, fairness and equity. Each one is taught in the blocks that follow, with its definition, examples, breaches (ways of breaking it) and why it matters."
+    ],
+    "tip": "You may be asked to identify three principles of ethical practice, or to list two and outline why upholding them matters. Learn all four names: integrity, respect, fairness and equity."
    },
    {
+    "b": "Integrity is the principle about honesty. It is tested most when breaking the rules would go unnoticed, so it is about what a person does when nobody would find out.",
     "h": "Integrity",
     "points": [
      "Definition: honesty and strong moral principles, shown by doing the right thing when no one is watching.",
-     "In practice: owning up to touching the ball last, even when the referee has not seen it.",
-     "In practice: not diving or feigning injury to win a free or a penalty.",
-     "In practice: refusing to dope, even when no one is watching.",
+     "In practice: owning up to touching the ball last, even when the referee has not seen it, because the honest call is made even though it costs the player something.",
+     "In practice: not diving or feigning injury (pretending to be fouled or hurt) to win a free or a penalty.",
+     "In practice: refusing to dope (use banned performance-enhancing substances), even when no one is watching.",
      "Breach: doping, or match-fixing, where the outcome of a contest is arranged in advance for gain.",
-     "Why it matters: integrity lets players, officials and spectators trust the sport and its results.",
+     "Why it matters: integrity lets players, officials and spectators trust the sport and its results, because they know the outcome was not secretly manipulated.",
      "Applied to Gaelic football: a player who tells the referee about a foul the referee missed shows integrity, even though it costs the player's team a free."
-    ]
+    ],
+    "tip": "If asked to define integrity and outline its importance to an activity, give the definition (honesty and strong moral principles, doing the right thing when no one is watching), then say it builds trust in results and in the sport. Be ready to name a second principle as well."
    },
    {
+    "b": "Respect is about how you treat everyone and everything involved in a game, not only the people on the opposing team. It is what keeps a game safe and pleasant to be part of.",
     "h": "Respect",
     "points": [
      "Definition: regard for opponents, team-mates, officials, coaches, spectators, the rules and oneself.",
-     "In practice: accepting officials' decisions, even when a player disagrees with them.",
-     "In practice: shaking hands with opponents and officials at the end of a match.",
-     "Breach: abuse of officials, sledging, or violence towards an opponent.",
-     "Why it matters: a safe, positive environment keeps players and officials involved, so clubs can retain them.",
-     "Applied to hurling: a player who stays calm after a hard tackle, rather than retaliating, shows respect for the opponent and the rules."
-    ]
+     "In practice: accepting officials' decisions, even when a player disagrees with them, because the official's role is to apply the rules and the game cannot work if every call is argued.",
+     "In practice: shaking hands with opponents and officials at the end of a match, which shows regard for them whatever the result.",
+     "Breach: abuse of officials, sledging (insulting or taunting an opponent to unsettle them), or violence towards an opponent.",
+     "Why it matters: a safe, positive environment keeps players and officials involved, so clubs can retain them (stop them leaving the sport).",
+     "Applied to hurling: a player who stays calm after a hard tackle, rather than retaliating (hitting back), shows respect for the opponent and the rules."
+    ],
+    "tip": "Respect covers more than opponents: remember officials, coaches, spectators, the rules and oneself too. Its importance is a safe, positive environment and keeping players and officials."
    },
    {
+    "b": "Fairness is about a level playing field. If everyone is treated and judged the same way, the result means something.",
     "h": "Fairness",
     "points": [
      "Definition: everyone competes under the same rules and conditions, and no one seeks an unfair advantage.",
-     "In practice: consistent refereeing, applying the same rules to both teams.",
-     "In practice: fair team selection, based on ability and commitment.",
+     "In practice: consistent refereeing, applying the same rules to both teams, so neither side is helped or hindered by the official.",
+     "In practice: fair team selection, based on ability and commitment rather than favouritism.",
      "Breach: cheating, which gives one competitor an advantage the rules do not allow.",
-     "Breach: win-at-all-costs coaching, where winning is put above the rules and above the players' welfare.",
+     "Breach: win-at-all-costs coaching, where winning is put above the rules and above the players' welfare (their health and wellbeing).",
      "Why it matters: the result reflects ability and effort rather than an unfair advantage.",
      "Applied to athletics: every runner in a race starts under the same start rules and runs the same distance, so the placings reflect running ability."
-    ]
+    ],
+    "tip": "When explaining the importance of fairness, link it to the result: it should reflect ability and effort. Be ready to give consistent refereeing, fair team selection and no cheating as examples."
    },
    {
+    "b": "Equity is easily confused with equality, but the two differ. Equity recognises that people start from different positions, so some need different support to get the same chance.",
     "h": "Equity",
     "points": [
      "Definition: giving everyone access and opportunity according to their needs, so that differences in gender, ability, disability, ethnicity or income do not exclude people.",
      "Equity differs from equality: equality treats everyone the same, while equity gives people what they need for a fair chance.",
-     "In practice: equal facilities and coaching for girls' teams as for boys' teams.",
-     "Breach: discrimination, such as excluding a player because of gender, disability, ethnicity or income.",
+     "In practice: equal facilities and coaching for girls' teams as for boys' teams, so gender does not limit the standard of training a team receives.",
+     "Breach: discrimination (unfair treatment of a person because of who they are), such as excluding a player because of gender, disability, ethnicity or income.",
      "Why it matters: removing barriers lets people from every group take part and compete.",
-     "Applied to Gaelic football: a club that gives a player with a disability adapted equipment and coaching gives that player the same chance to take part."
-    ]
+     "Applied to Gaelic football: a club that gives a player with a disability adapted equipment (equipment changed to suit the player's needs) and coaching gives that player the same chance to take part."
+    ],
+    "tip": "Define the difference between equity and equality once, clearly: equality treats everyone the same, equity gives people what they need. If asked to explain the importance of equity in a named activity, use that activity in your answer."
    },
    {
+    "b": "Ethical practice does not rest with players alone. Everyone connected with a sport has a part to play, and each group's role is different.",
     "h": "Who is responsible for ethical practice",
     "points": [
      "Participants: responsible for their own conduct towards opponents, team-mates and officials.",
-     "Coaches and leaders: model good behaviour and teach fair play.",
-     "Officials: apply the rules impartially to every competitor.",
+     "Coaches and leaders: model good behaviour (set an example by how they act themselves) and teach fair play.",
+     "Officials: apply the rules impartially (without favouring either side) to every competitor.",
      "Parents and spectators: responsible for their behaviour on the sideline and in the stands.",
-     "National governing bodies and sports bodies: write codes, provide education, and impose sanctions on those who breach the principles."
+     "National governing bodies (NGBs) and sports bodies: write codes (written standards of behaviour), provide education, and impose sanctions (punishments) on those who breach the principles."
     ]
    },
    {
+    "b": "Upholding the four principles is not just about being nice. It affects the people playing, the people watching and the future of the sport itself.",
     "h": "Why upholding the principles matters",
     "points": [
      "Safety and welfare: ethical conduct protects participants from injury and abuse.",
      "Enjoyment and participation: a sport with fair play keeps people playing and attracts new players.",
-     "Credibility of results: results carry weight only when every competitor has followed the rules.",
-     "Sponsorship and image: sponsors and the public judge a sport by its conduct, so ethical behaviour protects its image and sponsorship.",
+     "Credibility of results: results carry weight (are believed and respected) only when every competitor has followed the rules.",
+     "Sponsorship and image: sponsors (businesses that pay to be linked with a sport) and the public judge a sport by its conduct, so ethical behaviour protects its image and sponsorship.",
      "Values for life: fair play teaches honesty, respect and fairness that carry over beyond sport."
-    ]
+    ],
+    "tip": "A case study may ask you to explain how a doping athlete did not adhere to at least two principles of ethical practice. Use generic reasoning: doping breaks integrity (not honest) and fairness (an unfair advantage). Doping has its own subsections, so keep it to the principles here."
    }
   ],
   "questions": [
@@ -3401,118 +3732,134 @@
   ],
   "notes": [
    {
+    "b": "Every sport needs shared rules about how people behave, not just rules about how the game is played. A code of ethics writes those expectations down so that everyone knows them.",
     "h": "What a code of ethics is",
     "points": [
-     "A code of ethics is a written set of principles and standards of behaviour expected of everyone involved in a sport.",
-     "It is usually published by the sport's national governing body or by a club.",
-     "A code of conduct sets out the specific behaviours expected of each group involved in the sport."
-    ]
+     "A code of ethics is a written set of principles and standards of behaviour expected of everyone involved in a sport, including players, coaches, parents, spectators and officials.",
+     "It is usually published by the sport's national governing body (the organisation that runs the sport across the country) or by a club.",
+     "A code of conduct is the more detailed part: it sets out the specific behaviours expected of each group involved in the sport, so each person knows exactly what is asked of them."
+    ],
+    "tip": "If asked what a code of ethics is, give the written principles and standards of behaviour for everyone involved. If asked how it applies, pick one group (participant, parent, spectator, coach or club official) and give its specific behaviours."
    },
    {
+    "b": "A code is not paperwork for its own sake. Each reason below answers a real problem that sport faces when people behave badly.",
     "h": "Why sports have codes of ethics",
     "points": [
-     "They protect participants, especially children.",
-     "They promote fair play and respect.",
-     "They set clear standards of behaviour for everyone involved.",
-     "They give the club or governing body a basis for discipline.",
-     "They protect the sport's image."
+     "They protect participants, especially children, because young people are the most vulnerable to poor treatment in sport.",
+     "They promote fair play (playing honestly within the rules) and respect between everyone involved.",
+     "They set clear standards of behaviour for everyone involved, so nobody can claim they did not know what was expected.",
+     "They give the club or governing body a basis for discipline, because a person who breaks the written code can be dealt with against a standard that was agreed in advance.",
+     "They protect the sport's image, because a sport known for abuse or cheating loses members, volunteers and public respect."
     ]
    },
    {
+    "b": "In Ireland the protection of children in sport is organised at three levels: a national code, the governing bodies of each sport, and the individual club.",
     "h": "Codes of ethics in Ireland",
     "points": [
-     "Sport Ireland publishes the Code of Ethics and Good Practice for Children's Sport, which is child-centred and promotes safe sport.",
-     "National governing bodies adopt codes of conduct and child safeguarding policies.",
-     "Clubs appoint a children's officer or a designated liaison person for child safeguarding."
+     "Sport Ireland publishes the Code of Ethics and Good Practice for Children's Sport, which is child-centred (it puts the child's needs first) and promotes safe sport.",
+     "National governing bodies adopt codes of conduct and child safeguarding policies (the rules and procedures that keep children safe from harm) for their own sport.",
+     "Clubs appoint a children's officer or a designated liaison person for child safeguarding, so that there is a named person in the club who deals with child safeguarding concerns."
     ]
    },
    {
+    "b": "Participants are the players themselves. Their code is about how they treat the game, the people they play against and the people who run it.",
     "h": "The code for participants",
     "points": [
-     "Play by the rules and within the spirit of the game.",
-     "Respect opponents and officials.",
-     "Never cheat.",
-     "Never dope.",
-     "Never abuse anyone.",
+     "Play by the rules and within the spirit of the game, which means respecting what the rules are trying to achieve, not just their wording.",
+     "Respect opponents and officials (referees, umpires and other match officials), because the game cannot happen without them.",
+     "Never cheat, never dope (use banned performance-enhancing substances) and never abuse anyone.",
      "Do your best and be a good team-mate."
-    ]
+    ],
+    "tip": "For a participant code, include no cheating or doping, no abuse, respect for opponents and officials, doing your best and being a good team-mate."
    },
    {
+    "b": "Parents are not on the pitch, but their behaviour shapes how a child experiences sport. Their code is about supporting the child without adding pressure.",
     "h": "The code for parents",
     "points": [
-     "Encourage the child rather than pressure them.",
-     "Focus on enjoyment and effort rather than only the result.",
+     "Encourage the child rather than pressure them, because pressure from a parent can take the fun out of playing.",
+     "Focus on enjoyment and effort rather than only the result, so the child learns that trying matters as well as winning.",
      "Respect the decisions of coaches and officials, even when disagreeing with them.",
-     "Model good behaviour on the sideline.",
+     "Model good behaviour on the sideline, because children copy how the adults around them behave.",
      "Support the club."
     ]
    },
    {
+    "b": "Spectators watch rather than play, but their noise and behaviour affect players and officials directly. Their code is short and about respect.",
     "h": "The code for spectators",
     "points": [
-     "Applaud good play by both sides.",
+     "Applaud good play by both sides, not only by the team you support.",
      "Never abuse players or officials.",
      "Respect the venue and its rules."
     ]
    },
    {
+    "b": "Coaches have power over players and are role models for them. Their code is the longest because their influence is the greatest.",
     "h": "The code for coaches",
     "points": [
-     "Put the welfare of players first.",
+     "Put the welfare of players first, ahead of winning.",
      "Treat all players fairly.",
-     "Be qualified and trained in child safeguarding.",
-     "Model fair play in their own conduct.",
+     "Be qualified and trained in child safeguarding (protecting children from harm), because coaches spend time with young players.",
+     "Model fair play in their own conduct, so players see the behaviour they are asked to copy.",
      "Never encourage cheating or doping.",
      "Use positive coaching, praising effort and correct behaviour."
     ]
    },
    {
+    "b": "Club officials (the committee members and others who run the club) are responsible for the whole organisation. Their code covers how the club is run and how problems are handled.",
     "h": "The code for club officials",
     "points": [
-     "Run the club fairly and transparently.",
-     "Implement child safeguarding policies.",
-     "Ensure coaches are qualified and facilities are safe.",
-     "Deal with complaints and discipline consistently."
+     "Run the club fairly and transparently, meaning decisions are made openly and not in secret.",
+     "Implement child safeguarding policies, so the written rules are actually put into practice.",
+     "Ensure coaches are qualified and facilities are safe, because the club is responsible for the people and places its members use.",
+     "Deal with complaints and discipline consistently, so that everyone is treated by the same standard."
     ]
    },
    {
+    "b": "An exam may ask you to write statements for a code. Each one has to turn a principle into a clear instruction for a particular group.",
     "h": "Writing code statements",
     "points": [
-     "Each statement should comply with the principles of ethical practice, set out in the notes on principles of ethical practice.",
-     "Each statement should name who it applies to and what that person must do.",
-     "Example: Players will accept the referee's decision without dissent.",
+     "Each statement should comply with the principles of ethical practice, which are set out in the notes on principles of ethical practice.",
+     "Each statement should name who it applies to and what that person must do, so it is a clear instruction.",
+     "Example: Players will accept the referee's decision without dissent (open disagreement).",
      "Example: Coaches will give every player a fair opportunity to take part."
-    ]
+    ],
+    "tip": "Exams ask you to list statements that comply with the principles of ethical practice. Name the group and the behaviour in each, as in the two examples."
    },
    {
+    "b": "A code lists what people must do. Sportsmanship is the attitude behind it: how a good sport behaves when the result is at stake.",
     "h": "Sportsmanship",
     "points": [
      "Definition: playing within the rules and the spirit of the game, with respect, honesty and grace in winning and losing.",
-     "Example: helping a fallen opponent up.",
-     "Example: kicking the ball out of play when an opponent is injured.",
-     "Example: shaking hands with opponents and applauding them at the end of a match."
-    ]
+     "Example: helping a fallen opponent up, which shows respect even in competition.",
+     "Example: kicking the ball out of play when an opponent is injured, so that play stops and the player can be treated.",
+     "Example: shaking hands with opponents and applauding them at the end of a match, which shows grace whether you win or lose."
+    ],
+    "tip": "Exams ask you to explain sportsmanship and to tell which picture shows it. Define it, then give examples such as helping a fallen opponent or shaking hands."
    },
    {
+    "b": "Gamesmanship sits in a grey area between fair play and cheating. The player stays inside the rules on paper but uses tactics that go against their spirit.",
     "h": "Gamesmanship",
     "points": [
      "Definition: bending the rules, or using dubious, psychological or time-wasting tactics, to gain an advantage without technically cheating.",
      "Gamesmanship is not outright cheating: doping, for example, is cheating rather than gamesmanship.",
-     "Time-wasting: deliberately delaying a restart of play.",
-     "Feigning injury, or diving to win a free.",
-     "Psychological tactics: sledging an opponent, or unsettling them before a serve."
-    ]
+     "Time-wasting: deliberately delaying a restart of play, for instance to run down the clock when ahead.",
+     "Feigning injury (pretending to be hurt), or diving to win a free (falling over on purpose to get a free kick or free).",
+     "Psychological tactics: sledging an opponent (insulting or taunting them to put them off), or unsettling them before a serve."
+    ],
+    "tip": "Do not call doping gamesmanship: it is cheating. Give several different examples, because a question can say you cannot use faking injury. Exams ask you to define gamesmanship and give two examples."
    },
    {
+    "b": "Engagement means people taking part and staying involved in a sport, as players, volunteers or officials. The way people behave decides whether they stay.",
     "h": "How sportsmanship and gamesmanship affect engagement",
     "points": [
      "Sportsmanship creates a positive, safe and enjoyable environment that keeps people involved.",
-     "Sportsmanship attracts new participants and volunteers.",
-     "Gamesmanship can sour the experience and cause conflict.",
-     "Gamesmanship can lead to drop-out, especially of young players and officials.",
+     "Sportsmanship attracts new participants and volunteers, because people want to join a club that treats its members well.",
+     "Gamesmanship can sour the experience and cause conflict between players, teams and officials.",
+     "Gamesmanship can lead to drop-out, especially of young players and officials, who may decide the sport is not worth the stress.",
      "Gamesmanship can damage the sport's image.",
      "Gamesmanship may win in the short term, but it erodes engagement over time."
-    ]
+    ],
+    "tip": "To describe the impact of sportsmanship or gamesmanship on engagement, give two examples, such as new participants attracted or young players and officials dropping out. Exams also ask you to discuss the difference between the two."
    }
   ],
   "questions": [
@@ -3605,112 +3952,135 @@
   ],
   "notes": [
    {
+    "b": "Sport depends on athletes competing on equal terms. A drug that artificially lifts performance breaks that equal footing, so sport has a body and a list to control them.",
     "h": "What a performance-enhancing drug is",
     "points": [
-     "A performance-enhancing drug (PED) is a substance taken to improve performance artificially, giving an unfair advantage.",
-     "The World Anti-Doping Agency (WADA) publishes the Prohibited List, which is updated annually.",
-     "The Prohibited List names substances and methods that are banned at all times, banned in competition only, or banned in particular sports."
-    ]
+     "A performance-enhancing drug (PED) is a substance taken to improve performance artificially, which gives the user an unfair advantage over athletes who do not take it.",
+     "The World Anti-Doping Agency (WADA) is the international body that fights drug use in sport. It publishes the Prohibited List, which is updated annually.",
+     "The Prohibited List names substances and methods (ways of improving performance that do not involve a drug). Each is banned at all times, banned in competition only, or banned in particular sports."
+    ],
+    "tip": "Creatine and caffeine at normal doses are not prohibited, so do not list them as PEDs. Keep drug categories separate from anti-doping rules, which are a different subsection."
    },
    {
+    "b": "Anabolic agents are the drugs that build muscle. They are the PEDs most closely tied to strength and power, and they carry some of the widest health risks.",
     "h": "Anabolic agents",
     "points": [
-     "Examples: anabolic steroids such as nandrolone, testosterone and stanozolol.",
-     "Effect: they increase protein synthesis, muscle mass, strength and power, allowing harder training and faster recovery.",
-     "Misused in: strength and power events, where muscle mass and recovery from hard training matter.",
+     "Examples: anabolic steroids (synthetic versions of male hormones) such as nandrolone, testosterone and stanozolol.",
+     "Effect: they increase protein synthesis (the body building new protein, which is what muscle is made of), so muscle mass, strength and power rise. This allows harder training and faster recovery.",
+     "Misused in strength and power events, because muscle mass and recovery from hard training matter most there.",
      "Health risks: liver damage, heart disease, acne and aggression.",
-     "Hormonal effects: infertility, and masculinisation in women."
-    ]
+     "Hormonal effects: infertility, and masculinisation in women (developing male characteristics)."
+    ],
+    "tip": "If asked for two effects of anabolic steroids on performance, give more muscle mass, strength and power, and faster recovery that allows harder training. For examples, name steroids such as nandrolone, testosterone or stanozolol."
    },
    {
+    "b": "Hormones are chemical messengers made in the body. Peptide hormones and growth factors copy these messengers to change how the body performs and recovers. The two to know are EPO and HGH.",
     "h": "Peptide hormones and growth factors",
     "points": [
-     "Erythropoietin (EPO): raises red blood cell production and oxygen-carrying capacity, improving endurance.",
-     "EPO is misused in endurance events such as distance running and cycling.",
-     "EPO health risks: thickened blood, clots, stroke and heart attack.",
-     "Human growth hormone (HGH): increases muscle and aids recovery.",
+     "Erythropoietin (EPO) raises red blood cell production and oxygen-carrying capacity. More oxygen reaches the muscles, which improves endurance.",
+     "EPO is misused in endurance events such as distance running and cycling, because these events depend on a steady oxygen supply.",
+     "EPO health risks: thickened blood, which causes clots, stroke and heart attack.",
+     "Human growth hormone (HGH) increases muscle and aids recovery.",
      "HGH health risks: abnormal growth and heart problems."
-    ]
+    ],
+    "tip": "Exams ask for an example of a PED in the peptide hormones category, so name EPO or HGH. When describing how one affects performance, state the effect (EPO: oxygen-carrying capacity and endurance)."
    },
    {
+    "b": "Stimulants act on the body and brain to speed up and sharpen an athlete in the moment. They also hide the signals that would normally tell an athlete to slow down.",
     "h": "Stimulants",
     "points": [
      "Examples: amphetamines, cocaine and ephedrine.",
-     "Effect: they increase alertness and aggression, and mask fatigue and pain.",
-     "Misused in: sports that demand sustained alertness and aggression, such as contact sports and endurance events.",
+     "Effect: they increase alertness and aggression, and mask fatigue and pain (the athlete does not feel tiredness or pain that would normally force them to ease off).",
+     "Misused in sports that demand sustained alertness and aggression, such as contact sports and endurance events.",
      "Health risks: high blood pressure, heart problems, overheating, addiction and poor judgement."
-    ]
+    ],
+    "tip": "Stimulants are one of the categories exams ask you to give an example of. Name amphetamines, cocaine or ephedrine and state the effect."
    },
    {
+    "b": "These drugs work by changing what leaves the body rather than by building performance directly. A diuretic is a drug that makes the body produce more urine.",
     "h": "Diuretics and masking agents",
     "points": [
-     "Effect: they increase urine output, allowing rapid weight loss to make a weight category, or diluting and hiding other drugs.",
-     "Misused in: weight-category sports such as boxing.",
+     "Effect: they increase urine output. This allows rapid weight loss to make a weight category (the weight band an athlete must fit in to compete).",
+     "Masking agents work by diluting urine or otherwise hiding other drugs, so the athlete is less likely to be caught in a drug test.",
+     "Misused in weight-category sports such as boxing, because losing weight fast helps an athlete make the limit.",
      "Health risks: dehydration, cramps and kidney problems."
-    ]
+    ],
+    "tip": "When a table asks for a category with an example and its effect, link diuretics to rapid weight loss and to diluting or hiding other drugs."
    },
    {
+    "b": "An analgesic is a painkiller. Narcotic analgesics are strong painkillers that let an athlete keep competing when the body is signalling injury.",
     "h": "Narcotic analgesics",
     "points": [
      "Example: morphine.",
-     "Effect: masks pain, so an athlete can compete while injured.",
-     "Misused in: sports where athletes compete through injury, such as contact sports.",
-     "Health risks: worsening injury and addiction."
-    ]
+     "Effect: it masks pain, so an athlete can compete while injured.",
+     "Misused in sports where athletes compete through injury, such as contact sports.",
+     "Health risks: worsening injury, because pain is the warning that stops an athlete using an injured body part, and addiction."
+    ],
+    "tip": "When describing how this category affects performance, say that it masks pain so the athlete can compete injured, then give the risk of worsening the injury."
    },
    {
+    "b": "Beta-blockers calm the body, which is the opposite of a stimulant. That helps in sports where a steady hand matters more than power.",
     "h": "Beta-blockers",
     "points": [
-     "Effect: lower heart rate and steady tremor, which helps precision performance.",
-     "Prohibited in particular precision sports such as archery and shooting.",
+     "Effect: they lower heart rate and steady tremor (shaking of the hands), which helps precision performance.",
+     "They are prohibited in particular precision sports such as archery and shooting, where a steady hand decides the result.",
      "Health risks: fatigue and low blood pressure."
-    ]
+    ],
+    "tip": "Beta-blockers are banned in particular precision sports such as archery and shooting, so name the sport when you name them."
    },
    {
+    "b": "The Prohibited List is longer than the main categories above. Four more classes are on it.",
     "h": "Other drug classes on the list",
     "points": [
      "Beta-2 agonists, hormone and metabolic modulators, cannabinoids and glucocorticoids are also on the Prohibited List."
     ]
    },
    {
+    "b": "Not everything banned is a drug. Some banned methods change the body or the test result without a drug being taken.",
     "h": "Prohibited methods",
     "points": [
-     "Blood doping: transfusion of blood to raise the red blood cell count.",
-     "Tampering with samples.",
+     "Blood doping: a transfusion of blood to raise the red blood cell count, which carries more oxygen.",
+     "Tampering with samples, meaning interfering with the urine or blood sample given for testing.",
      "Gene doping: altering genes to enhance performance."
     ]
    },
    {
+    "b": "Athletes know the health and career risks, yet some still use PEDs. The reasons come from pressure and from the benefits a drug seems to offer.",
     "h": "Why athletes use PEDs",
     "points": [
-     "Pressure to win.",
-     "Financial rewards and sponsorship.",
+     "Pressure to win, because success is what the athlete is judged on.",
+     "Financial rewards and sponsorship, which go to winners.",
      "National pressure to succeed.",
-     "Belief that rivals are doping.",
-     "Recovering from injury faster.",
+     "Belief that rivals are doping, so the athlete feels they must do the same to compete on equal terms.",
+     "Recovering from injury faster, so they can return to training and competition sooner.",
      "Making a weight category.",
-     "Ageing athletes trying to stay competitive."
-    ]
+     "Ageing athletes trying to stay competitive as their natural performance declines."
+    ],
+    "tip": "Exams ask why an athlete might use a PED. Give a reason and develop it, for example financial reward or the belief that rivals are doping."
    },
    {
+    "b": "An athlete who is caught, or who simply takes PEDs, faces consequences in their health, their results, their income and their name. Each is a separate implication you can use in an answer.",
     "h": "Implications for the performer",
     "points": [
-     "Health: short- and long-term risks, including death in extreme cases.",
+     "Health: short- and long-term risks from the categories above, including death in extreme cases.",
      "Sanctions: a ban, normally four years for intentional doping, and disqualification of results.",
      "Losses: medals and records are taken away.",
      "Financial and career: loss of funding, prize money and sponsorship, and the career can end.",
      "Reputation and personal: public disgrace, damage to family, mental-health effects and loss of self-respect."
-    ]
+    ],
+    "tip": "Exams ask for implications for the performer with examples. Use the health risks of a named drug, a ban, and loss of medals, income or reputation. Do not invent statistics on positive tests."
    },
    {
+    "b": "Doping harms more than the individual. When rules are broken, the whole activity pays, from public trust to the clean athletes who compete against dopers.",
     "h": "Implications for the sport",
     "points": [
      "Credibility: public trust falls, and every outstanding performance is doubted.",
-     "Commercial: sponsors, broadcasters and spectators withdraw, reducing funding.",
-     "Clean athletes: they lose medals, places and earnings, and records may be reallocated years later.",
+     "Commercial: sponsors, broadcasters and spectators withdraw, which reduces funding.",
+     "Clean athletes (those who do not dope) lose medals, places and earnings, and records may be reallocated years later.",
      "Participation: young people and parents turn away, and others may feel pressure to dope.",
      "Cost and exclusion: testing and education are expensive, and a country or team may be excluded from competition."
-    ]
+    ],
+    "tip": "To examine the idea that doping damages the sport, cover credibility, loss of sponsors and spectators, cheated clean athletes, falling participation, and the cost of testing and education."
    }
   ],
   "questions": [
@@ -3799,84 +4169,96 @@
   ],
   "notes": [
    {
+    "b": "Anti-doping (the effort to stop athletes using banned drugs and methods) works on two levels. An international agency writes the rules, and a national body applies them in each country.",
     "h": "Who makes and runs the rules",
     "points": [
-     "The World Anti-Doping Agency (WADA) sets the World Anti-Doping Code and the Prohibited List.",
-     "In Ireland, Sport Ireland runs the Irish Anti-Doping Programme and the Irish Anti-Doping Rules.",
-     "The Irish rules apply the World Anti-Doping Code to all athletes in sports governed by national governing bodies that Sport Ireland recognises."
-    ]
+     "The World Anti-Doping Agency (WADA) sets the World Anti-Doping Code, the single set of rules for the world, and the Prohibited List, the list of substances and methods that athletes are banned from using.",
+     "In Ireland, Sport Ireland (the national sports body) runs the Irish Anti-Doping Programme and the Irish Anti-Doping Rules, so the world rules are put into practice at home.",
+     "The Irish rules apply the World Anti-Doping Code to all athletes in sports governed by national governing bodies (NGBs, such as the association that runs a sport in Ireland) that Sport Ireland recognises."
+    ],
+    "tip": "Keep to the current Irish rules. Do not describe historical rules or older sanction lengths."
    },
    {
+    "b": "The rules do not ask what the athlete meant to do. They look only at what is found in the athlete's body, and this principle is called strict liability.",
     "h": "Strict liability",
     "points": [
-     "Athletes are responsible for any prohibited substance found in their body, whether or not they intended to cheat.",
-     "Athletes must therefore check every medicine and supplement they take before taking it."
-    ]
+     "Athletes are responsible for any prohibited substance found in their body, whether or not they intended to cheat, so claiming it was an accident is not a defence.",
+     "Athletes must therefore check every medicine and supplement (such as a vitamin or protein product) they take before taking it, because anything they swallow could contain a banned substance."
+    ],
+    "tip": "Prescribed medicine is not automatically allowed, so remember that a check is needed before taking anything."
    },
    {
+    "b": "An anti-doping rule violation is any act that breaks the anti-doping rules. The list goes well beyond failing a test, and it also covers people around the athlete.",
     "h": "Anti-doping rule violations",
     "points": [
-     "Presence: a prohibited substance, its metabolites or markers found in a sample.",
-     "Use: use or attempted use of a prohibited substance or method.",
-     "Refusal: evading, refusing or failing to submit to sample collection after being notified.",
-     "Whereabouts failures: three missed tests and/or filing failures within 12 months.",
-     "Tampering: tampering or attempted tampering with any part of doping control.",
+     "Presence: a prohibited substance, its metabolites (the substances the body breaks it down into) or markers (signs that it was used) found in a sample taken from the athlete.",
+     "Use: use or attempted use of a prohibited substance or method, so an athlete can be in breach even if the attempt did not work.",
+     "Refusal: evading, refusing or failing to submit to sample collection after being notified, so an athlete cannot avoid a test without consequences.",
+     "Whereabouts failures: three missed tests and/or filing failures (not giving required location details on time) within 12 months. Whereabouts means the athlete's location, given in advance for testing.",
+     "Tampering: tampering or attempted tampering with any part of doping control (the testing process), such as interfering with a sample.",
      "Possession: possession of a prohibited substance or method.",
-     "Trafficking: trafficking or attempted trafficking, including selling a prohibited substance.",
-     "Administration: administering or attempting to administer a prohibited substance or method to an athlete.",
-     "Complicity: assisting or covering up a violation.",
-     "Prohibited association: working with a banned coach or doctor."
-    ]
+     "Trafficking: trafficking or attempted trafficking, including selling a prohibited substance, so selling a performance-enhancing drug (PED) is itself a violation.",
+     "Administration: administering or attempting to administer a prohibited substance or method to an athlete, which can involve coaches or doctors rather than the athlete.",
+     "Complicity: assisting or covering up a violation. Prohibited association: working with a banned coach or doctor."
+    ],
+    "tip": "Selling a PED is a violation (trafficking), and athletes cannot refuse a test without consequences. If asked for two rules an athlete may have broken when the substance is unknown, refusing a test and whereabouts failures are accepted examples. Exams ask you to state two or four current Irish anti-doping rules."
    },
    {
+    "b": "Rules only work if they are enforced. Samples, advance location details and long-term monitoring are three ways Ireland checks that athletes follow them.",
     "h": "Testing, whereabouts and the athlete biological passport",
     "points": [
-     "Testing: urine and blood samples are taken in competition and out of competition, often with no advance notice.",
-     "Each sample is sealed and split into an A and a B sample, which are analysed in WADA-accredited laboratories; the B sample can be tested to confirm a positive A sample.",
-     "Whereabouts: athletes in the registered testing pool give their location in advance.",
+     "Testing: urine and blood samples are taken in competition and out of competition, often with no advance notice, so athletes cannot time their drug use around a known test.",
+     "Each sample is sealed and split into an A and a B sample, which are analysed in WADA-accredited laboratories (labs approved by WADA).",
+     "The B sample can be tested to confirm a positive A sample, which gives the athlete a second check on the result.",
+     "Whereabouts: athletes in the registered testing pool (the group of athletes chosen for testing) give their location in advance, so testers know where to find them.",
      "The whereabouts requirement includes a daily 60-minute slot when the athlete is available for testing.",
-     "Athlete biological passport: blood and steroid markers are monitored over time to detect the effects of doping."
-    ]
+     "Athlete biological passport: blood and steroid markers are monitored over time to detect the effects of doping, so doping can be spotted from changes even when no banned substance is found."
+    ],
+    "tip": "Exams ask you to identify three ways the rules are enforced. Testing, whereabouts and the athlete biological passport are three."
    },
    {
+    "b": "Once a possible violation is found, a fixed process decides whether the athlete is guilty and what the penalty is. Each step is designed to be fair to the athlete.",
     "h": "Results management, hearings and sanctions",
     "points": [
      "Sport Ireland notifies the athlete of the suspected violation.",
-     "An independent disciplinary panel hears the case, and appeals are possible.",
-     "Sanctions include disqualification of results and loss of medals and prize money.",
-     "Sanctions include a period of ineligibility, normally four years for an intentional first violation.",
+     "An independent disciplinary panel (a group not linked to Sport Ireland) hears the case, and appeals are possible, so a decision can be challenged.",
+     "Sanctions (penalties) include disqualification of results and loss of medals and prize money.",
+     "Sanctions include a period of ineligibility (a time when the athlete is banned from competing), normally four years for an intentional first violation.",
      "The decision is published."
-    ]
+    ],
+    "tip": "Give four years only for an intentional first violation, and do not give other sanction lengths."
    },
    {
+    "b": "Enforcement is not only testing. Ireland also tries to prevent doping through teaching and to catch it by other means.",
     "h": "Education and investigation",
     "points": [
-     "Anti-doping education programmes are run for athletes and support staff.",
-     "Investigations use information from sources other than sample tests."
+     "Anti-doping education programmes are run for athletes and support staff (coaches, doctors and others who work with athletes), so that they know the rules and the risks.",
+     "Investigations use information from sources other than sample tests, so doping can be uncovered even when an athlete has never failed a test."
     ]
    },
    {
+    "b": "Some athletes have genuine medical conditions that need drugs which are on the Prohibited List. A therapeutic use exemption lets them take the medicine legally, provided strict conditions are met.",
     "h": "Therapeutic use exemptions",
     "points": [
-     "A therapeutic use exemption (TUE) is permission to use a prohibited substance or method to treat a diagnosed medical condition.",
+     "A therapeutic use exemption (TUE) is permission to use a prohibited substance or method to treat a diagnosed medical condition. It is the circumstance in which an athlete can compete with a banned substance in their system.",
      "The athlete applies in advance, except in an emergency, to the relevant anti-doping organisation, with medical evidence.",
      "An independent panel of doctors decides the application.",
      "Condition 1: the athlete's health would be significantly impaired without the substance or method.",
-     "Condition 2: it gives no additional performance enhancement beyond a return to normal health.",
-     "Condition 3: there is no reasonable permitted alternative.",
-     "Condition 4: the need is not a consequence of earlier use without a TUE.",
-     "Example: insulin for type 1 diabetes.",
-     "Example: certain asthma medications taken above the permitted doses.",
-     "Example: prescribed stimulant medication for diagnosed ADHD.",
-     "A doctor's prescription alone does not make a prohibited medicine allowed; a TUE is needed."
-    ]
+     "Condition 2: it gives no additional performance enhancement beyond a return to normal health, so the athlete is treated but not given an advantage.",
+     "Condition 3: there is no reasonable permitted alternative. Condition 4: the need is not a consequence of earlier use without a TUE.",
+     "Examples: insulin for type 1 diabetes; certain asthma medications taken above the permitted doses; prescribed stimulant medication for diagnosed ADHD (attention deficit hyperactivity disorder).",
+     "A doctor's prescription alone does not make a prohibited medicine allowed; a TUE is needed, because a doctor's prescription does not by itself give permission under the anti-doping rules."
+    ],
+    "tip": "Exams ask what a TUE is, when TUEs are used, and for two circumstances where Sport Ireland might grant one. The three examples above cover this. Prescribed medicine is not automatically allowed."
    },
    {
+    "b": "Doping harms more than the athlete who is caught. The consequences fall on the performer and on the activity (the sport) as a whole.",
     "h": "What a violation means for the performer and the activity",
     "points": [
      "For the performer: a ban, disqualification of results, loss of medals, funding and sponsorship, damage to reputation, and the health risks of the drug itself.",
-     "For the activity: lost credibility and public trust, withdrawal of sponsors and broadcasters, and young people and parents turning away from the sport."
-    ]
+     "For the activity: lost credibility and public trust, withdrawal of sponsors and broadcasters, and young people and parents turning away from the sport, which means fewer people take part."
+    ],
+    "tip": "There is more on this in Drugs and sport, where the categories of PED and their effects are covered."
    }
   ],
   "questions": [
@@ -3969,92 +4351,113 @@
   ],
   "notes": [
    {
+    "b": "Athletes are often tempted to look for an extra edge beyond ordinary meals. A dietary supplement is the kind of product they turn to, and it carries a risk that ordinary food does not.",
     "h": "What a dietary supplement is",
     "points": [
      "A dietary supplement is a product taken in addition to the normal diet, such as a powder, tablet, drink or gel.",
-     "It supplies nutrients or other substances intended to improve health or performance.",
-     "Supplements are not regulated like medicines, so a product can contain substances that are not on its label."
-    ]
+     "It supplies nutrients or other substances intended to improve health or performance, so it is meant to add to meals, not replace them.",
+     "Supplements are not regulated like medicines, so a product can contain substances that are not on its label. This is why athletes cannot simply trust what a tub says."
+    ],
+    "tip": "Do not present supplements as necessary or risk-free. Give the benefit and the risk together."
    },
    {
+    "b": "The danger of an unregulated product is not just poor quality. For an athlete who is drug-tested, it can lead to a ban even if they never meant to cheat.",
     "h": "The anti-doping risk: inadvertent doping",
     "points": [
-     "Some supplements are contaminated with prohibited substances, or contain undeclared ones.",
-     "Under strict liability the athlete is responsible for a positive test, whatever the source of the substance.",
-     "Taking a supplement without intending to cheat can still produce an anti-doping violation; this is inadvertent doping."
-    ]
+     "Some supplements are contaminated with prohibited substances (banned drugs picked up during manufacture), or contain undeclared ones that are missing from the label.",
+     "Under strict liability the athlete is responsible for a positive test, whatever the source of the substance. Blaming the supplement or the manufacturer is not a defence.",
+     "Taking a supplement without intending to cheat can still produce an anti-doping violation; this is inadvertent doping (doping by accident)."
+    ],
+    "tip": "To explain why supplement use can lead to an anti-doping violation, link the three ideas: not regulated like medicines, possible contamination or undeclared substances, and strict liability."
    },
    {
+    "b": "Because of these risks, athletes should work through three questions before taking anything: can food do the job, is there a real need, and does the evidence support it?",
     "h": "Best practice before using a supplement",
     "points": [
-     "Food first: meet nutritional needs through a balanced diet before considering supplements.",
+     "Food first: meet nutritional needs through a balanced diet before considering supplements, because a supplement is an addition to food, not a substitute for it.",
      "Needs assessment: a qualified professional, such as a sports dietitian or doctor, decides whether there is a genuine need and whether the supplement will help this athlete.",
-     "Evidence: use only supplements with good scientific evidence for the athlete's activity."
-    ]
+     "Evidence: use only supplements with good scientific evidence for the athlete's activity, so that the benefit is proven for that sport and not just claimed."
+    ],
+    "tip": "Do not present supplements as necessary. Food first and a professional needs assessment come before any supplement."
    },
    {
+    "b": "Once an athlete and a professional decide a supplement is justified, the next job is to lower the chance that it contains a banned substance.",
     "h": "Reducing the risk of contamination",
     "points": [
-     "Choose batch-tested products from third-party testing programmes; this reduces the risk but does not remove it.",
-     "Check every ingredient against the Prohibited List.",
-     "Keep the packaging, batch number and receipt.",
-     "Never buy from unknown online sources."
-    ]
+     "Choose batch-tested products (each production batch checked for banned substances) from third-party testing programmes, which are run independently of the manufacturer; this reduces the risk but does not remove it.",
+     "Check every ingredient against the Prohibited List, the official list of substances and methods banned in sport.",
+     "Keep the packaging, batch number and receipt, so the product can be traced if a problem arises.",
+     "Never buy from unknown online sources, because there is no assurance about what the product contains."
+    ],
+    "tip": "When asked for best practice, give the specific steps: batch-tested, third-party programmes, ingredient check, keep packaging, batch number and receipt, and no unknown online sources."
    },
    {
+    "b": "Even a safe, tested product can cause problems if it is used badly, so how and when it is taken matters as well as what it is.",
     "h": "Using a supplement safely",
     "points": [
-     "Use the correct dose and timing.",
-     "Trial the supplement in training, never for the first time in competition.",
-     "Monitor side effects.",
+     "Use the correct dose and timing, because more is not better and a supplement works best when taken at the right moment.",
+     "Trial the supplement in training, never for the first time in competition, so that any bad reaction happens when the result does not count.",
+     "Monitor side effects (unwanted effects such as stomach upset) and stop if they appear.",
      "Young athletes: supplements are generally not recommended for under-18s, so diet should come first."
-    ]
+    ],
+    "tip": "Outline challenges of taking supplements using real points: side effects, cost, unnecessary if the diet is adequate, and the doping risk."
    },
    {
+    "b": "Protein is the supplement most associated with building muscle. It comes as powders and bars that are quick to use.",
     "h": "Protein (powders and bars)",
     "points": [
-     "Function: muscle repair and growth after resistance or high-volume training.",
+     "Function: muscle repair and growth after resistance (strength) or high-volume (large amounts of) training.",
      "Suits: athletes who do heavy resistance or high-volume training.",
      "Challenge: it is convenient, but often unnecessary when the diet already supplies enough protein."
-    ]
+    ],
+    "tip": "Some questions ask for food supplements other than protein, so be ready with others and their reasons."
    },
    {
+    "b": "Creatine works on the energy supply of muscle for very short, powerful efforts, so it suits sports built from repeated bursts.",
     "h": "Creatine",
     "points": [
-     "Function: raises muscle phosphocreatine stores, improving repeated short maximal efforts and recovery between them.",
-     "Suits: sprinting, team games and weightlifting.",
+     "Function: raises muscle phosphocreatine stores (phosphocreatine is a fuel store in muscle used for quick energy), improving repeated short maximal efforts and recovery between them.",
+     "Suits: sprinting, team games and weightlifting, because each involves short all-out efforts.",
      "Challenge: weight gain from water retention.",
      "Not prohibited: creatine is not a prohibited substance."
-    ]
+    ],
+    "tip": "Exam questions may exclude creatine, for example by saying you may not use it. Know at least three other supplements, each with its function and effect."
    },
    {
+    "b": "Caffeine is a familiar substance that also has effects useful to athletes. Its status in anti-doping rules is worth knowing precisely.",
     "h": "Caffeine",
     "points": [
-     "Function: a stimulant that can reduce perceived effort and improve alertness and endurance.",
+     "Function: a stimulant (a substance that raises alertness and activity in the nervous system) that can reduce perceived effort (how hard exercise feels) and improve alertness and endurance.",
      "Suits: endurance events and games that need sustained alertness.",
      "Challenge: side effects include anxiety, poor sleep and stomach upset.",
-     "Not prohibited: caffeine is on WADA's monitoring programme, not the Prohibited List."
-    ]
+     "Not prohibited: caffeine is on WADA's monitoring programme, not the Prohibited List. WADA is the World Anti-Doping Agency, and monitored means it is watched, not banned."
+    ],
+    "tip": "Name a supplement and justify why athletes use it. For caffeine, give the function and the effect on performance, and say it is permitted but monitored."
    },
    {
+    "b": "In long events the body loses fluid and runs low on fuel. Sports drinks and gels replace both while the athlete is still competing.",
     "h": "Sports drinks and energy gels",
     "points": [
-     "Function: fluid, electrolytes and carbohydrate during long events.",
+     "Function: they supply fluid, electrolytes (salts such as sodium lost in sweat) and carbohydrate (the body's main fuel) during long events.",
      "Suits: long endurance events.",
-     "Challenge: sugar, calories and cost, and unnecessary for short or low-intensity activity."
-    ]
+     "Challenge: sugar, calories and cost, and unnecessary for short or low-intensity activity, where water and a normal diet are enough."
+    ],
+    "tip": "Give function and effect on performance: fluid, electrolytes and carbohydrate during long events."
    },
    {
+    "b": "Vitamins and minerals are needed in small amounts, and normally a balanced diet provides them. A supplement has a narrow use here.",
     "h": "Vitamin and mineral supplements",
     "points": [
-     "Function: to correct a diagnosed deficiency, such as iron or vitamin D.",
-     "Use: only to correct a diagnosed deficiency, not as a routine addition to the diet."
-    ]
+     "Function: to correct a diagnosed deficiency (a shortage confirmed by a professional), such as iron or vitamin D.",
+     "Use: only to correct a diagnosed deficiency, not as a routine addition to the diet, so a healthy athlete with a balanced diet does not need them."
+    ],
+    "tip": "Do not list steroids or EPO as supplements. Those are prohibited drugs and belong under drugs and sport."
    },
    {
+    "b": "The syllabus asks you to investigate supplement use in one activity you have chosen. The answer is built from the activity's demands, matched to the supplements that suit them.",
     "h": "Investigating a supplement for one activity",
     "points": [
-     "Structure: describe the activity's demands, including its duration, intensity and main energy systems.",
+     "Structure: describe the activity's demands, including its duration, intensity and main energy systems (the body's ways of releasing energy for movement).",
      "Structure: list the supplements used in the activity, with their claimed benefits, the evidence, the risks and the best-practice guidance.",
      "Structure: end with a conclusion on whether and how a performer should use them.",
      "Worked example, Gaelic football: a match is a long game of repeated sprints, changes of pace and physical contact.",
@@ -4062,7 +4465,8 @@
      "Link: the length of a match makes sports drinks useful for fluid and carbohydrate.",
      "Link: recovery after heavy training is where protein has its role.",
      "Conclusion: a player could use creatine for repeated sprints, protein for recovery and sports drinks in matches, but only after food-first habits are in place, a qualified professional has confirmed the need, and batch-tested products are chosen."
-    ]
+    ],
+    "tip": "Exams ask you to investigate the uses of a supplement in one selected activity. Tie each supplement to a demand of that activity and finish with a conclusion."
    }
   ],
   "questions": [
@@ -4159,42 +4563,54 @@
   ],
   "notes": [
    {
-    "b": "Games are individual, pair or team activities that need activity-specific skills, game appreciation, decision-making, tactical knowledge and strategic thinking in pursuit of a defined goal.",
+    "b": "The games area covers any activity played in pursuit of a defined goal (for example scoring more than the opposition). The specification describes what a player needs in order to play one.",
     "h": "What a game is",
-    "points": []
+    "points": [
+     "Games are individual, pair or team activities, so a game can be played alone against an opponent, as a two, or as a full team.",
+     "Every game needs activity-specific skills (the techniques of that one game, such as the ones used to pass or strike).",
+     "Every game needs game appreciation (understanding what is happening and why) and decision-making (choosing what to do in the moment).",
+     "Every game needs tactical knowledge (the plans used within a match) and strategic thinking (the overall plan), all in pursuit of a defined goal."
+    ],
+    "tip": "Games are the most common context in written answers, so know this definition and be ready to apply it to your named game."
    },
    {
+    "b": "The specification sorts games into three categories according to how the goal is reached. You study one category, and the category decides which principles of play apply.",
     "h": "The three categories of games",
     "points": [
-     "Invasion games: teams invade the opponents' territory to score in a goal or zone.",
+     "Invasion games: teams invade the opponents' territory (their half or end of the playing area) to score in a goal or zone.",
      "Invasion games named in the specification: Gaelic football, hurling and camogie, rugby union, soccer, basketball, hockey, netball and Olympic handball.",
-     "Net/wall games: players send an object over a net or against a wall so the opponent cannot return it.",
+     "Net/wall games: players send an object (a ball or shuttle) over a net or against a wall so the opponent cannot return it.",
      "Net/wall games named in the specification: badminton, tennis, volleyball, table tennis, handball (Gaelic handball, played on a court) and squash.",
-     "Striking/fielding games: one team strikes an object and runs to score while the other fields to limit runs and get batters out.",
+     "Striking/fielding games: one team strikes an object and runs to score while the other fields (chases and collects the object) to limit runs and get batters out.",
      "Striking/fielding games named in the specification: cricket, softball and rounders."
-    ]
+    ],
+    "tip": "Do not teach individual game skills in this area. Each category has its own notes for those."
    },
    {
+    "b": "Good players do more than perform skills. They understand the game and choose well under pressure, which is what these four ideas describe.",
     "h": "Game appreciation and decision-making",
     "points": [
-     "Game appreciation: understanding what is happening in a game and why, including the tactics each team is using.",
+     "Game appreciation: understanding what is happening in a game and why, including the tactics (the match plans) each team is using.",
      "Reading the game: recognising a developing situation, such as space opening up or a team-mate being free.",
-     "Decision-making: choosing the right option, such as a pass, a shot or a dribble, for the situation.",
+     "Decision-making: choosing the right option, such as a pass, a shot or a dribble (running with the ball under control), for the situation.",
      "Anticipation: predicting what opponents will do next, so the player acts before the opportunity or threat arrives."
     ]
    },
    {
+    "b": "Attacking principles are the guidelines a team follows when it has the ball and is trying to score in an invasion game (one where teams enter the opponents' territory). Each one solves a different problem.",
     "h": "Attacking principles in invasion games",
     "points": [
      "Possession: keeping control of the ball so the team can attack without giving it away.",
-     "Width: spreading the attack across the playing area to stretch the defence.",
+     "Width: spreading the attack across the playing area to stretch the defence, which leaves gaps between defenders.",
      "Depth: moving the attack forward towards the goal or scoring zone.",
      "Penetration: breaking through the defence with a pass or run into the scoring area.",
      "Support: positioning team-mates close enough to receive the ball and help the player with it.",
-     "Mobility: moving off the ball to create space and options for team-mates."
-    ]
+     "Mobility: moving off the ball (when you do not have it) to create space and options for team-mates."
+    ],
+    "tip": "Written answers ask about strategies. Use these six terms by name when you describe how a team attacks."
    },
    {
+    "b": "When the other team has the ball, a team defends. These principles describe how defenders stop the attack and protect the goal or scoring zone.",
     "h": "Defensive principles in invasion games",
     "points": [
      "Pressure: closing down the player with the ball to limit their options and time.",
@@ -4202,25 +4618,29 @@
      "Cover: a team-mate positioned behind the defender applying pressure, ready to take over if the attacker gets past.",
      "Balance: keeping defenders spread so the team is not exposed on one side of the playing area.",
      "Compactness: keeping defenders close together so there is little space between them."
-    ]
+    ],
+    "tip": "Written answers ask about weaknesses in an opposition team. Name the defensive principle that is missing, such as cover or balance."
    },
    {
+    "b": "Play in an invasion game changes direction every time the ball changes hands. This change is called transition, and a team has to react to it straight away.",
     "h": "Transition between attack and defence",
     "points": [
-     "Losing possession triggers an immediate switch from attack to defence.",
-     "Winning possession triggers an immediate switch from defence to attack."
+     "Losing possession triggers an immediate switch from attack to defence, so players stop attacking and apply the defensive principles.",
+     "Winning possession triggers an immediate switch from defence to attack, so players use the attacking principles."
     ]
    },
    {
+    "b": "In net/wall games (where an object is sent over a net or against a wall) there is no territory to invade. The aim is to make the opponent unable to return the object, and these principles show how.",
     "h": "Principles of play in net/wall games",
     "points": [
      "Create space on the opponent's side by placing the object where they cannot easily reach it.",
      "Move the opponent: make them travel to reach the object and return it.",
      "Return to a base position after each shot, so the player can reach the next shot.",
-     "Vary pace, height and direction so the opponent has difficulty returning the object."
+     "Vary pace (speed), height and direction so the opponent has difficulty returning the object."
     ]
    },
    {
+    "b": "In striking/fielding games the two teams have opposite jobs. The batting side tries to score runs, and the fielding side tries to limit them.",
     "h": "Principles of play in striking and fielding games",
     "points": [
      "Batting: place the ball into gaps in the fielding side, so it cannot be caught and runs can be scored.",
@@ -4231,36 +4651,47 @@
     ]
    },
    {
+    "b": "You do not study every game. The course limits you to one category and one game, and that game is what you are assessed on.",
     "h": "Choice rule and the performance assessment",
     "points": [
      "Learners study one category and one game from it.",
      "The performance assessment focuses on one activity in the category, such as Gaelic football.",
-     "Conditioned practices are small-sided or rule-modified games.",
+     "Conditioned practices are small-sided or rule-modified games (fewer players, or changed rules, to focus on one part of play).",
      "The performance assessment covers the listed skills, the ability to apply and adapt tactics and strategies in conditioned or competitive play, and rules and safe practice.",
      "Performance shows skills, tactics and rule knowledge."
     ]
    },
    {
+    "b": "Whatever game you study, the same safety measures apply. They reduce the risk of injury before and during play.",
     "h": "Safety common to all games",
     "points": [
-     "Warm up before play.",
+     "Warm up before play, so the body is prepared for the activity.",
      "Wear protective equipment suited to the game.",
      "Wear suitable footwear.",
      "Check the playing surface and goals before play.",
      "Rules on dangerous play apply to every game.",
-     "Officials enforce safety by stopping play when a risk appears, as set out in the notes titled The role of official."
+     "Officials (the referee, umpire or other person who applies the rules) enforce safety by stopping play when a risk appears. There is more on this in The role of official."
     ]
    },
    {
-    "h": "Games as a context for theory",
+    "b": "Games are the most common context for written answers in PE, so your named game is the example you use for theory topics. These first three link the game to how it is organised and run.",
+    "h": "Games as a context for theory: structures, roles, officials and scoring",
     "points": [
-     "Structures and strategies: a structure is how a team organises its players and a strategy is the overall plan it uses to score or stop the opposition; apply both to the named game, as set out in the notes titled Structures, strategies and compositional elements.",
-     "Roles: each player's job within the team structure, such as attacker or defender, as set out in the notes titled Roles and relationships.",
-     "Officials and scoring systems: name the official who applies the rules and the scoring system of the named game, both covered in the notes titled The role of official.",
-     "Fitness profile: the fitness components the named game demands, such as speed, agility and endurance, as set out in the notes titled Physical fitness and Performance-related fitness.",
-     "Energy systems in intermittent sport: short bursts of high-intensity play draw mainly on the phosphagen and anaerobic glycolytic systems, while the aerobic system supports recovery between bursts, as set out in the notes titled Energy systems.",
-     "Ethics and fair play: following the rules and the spirit of the game and respecting opponents and officials, as set out in the notes titled Principles of ethical practice."
-    ]
+     "Structures and strategies: a structure is how a team organises its players and a strategy is the overall plan it uses to score or stop the opposition; apply both to the named game.",
+     "Roles: each player's job within the team structure, such as attacker or defender. There is more on this in Roles and relationships.",
+     "Officials and scoring systems: name the official who applies the rules and the scoring system of the named game."
+    ],
+    "tip": "Structures and strategies in general are taught in Structures, strategies and compositional elements, so here you only apply them briefly. Written questions ask about weaknesses in an opposition team, strategies, roles, officials and scoring systems."
+   },
+   {
+    "b": "The other theory topics link the game to the body and to behaviour. Games are intermittent (play comes in bursts with pauses between), and this shapes the energy demands.",
+    "h": "Games as a context for theory: fitness, energy systems and ethics",
+    "points": [
+     "Fitness profile: the fitness components the named game demands, such as speed, agility and endurance. There is more on this in Physical fitness and Performance-related fitness.",
+     "Energy systems in intermittent sport: short bursts of high-intensity play draw mainly on the phosphagen and anaerobic glycolytic systems (energy supplied without oxygen), while the aerobic system (energy supplied using oxygen) supports recovery between bursts.",
+     "Ethics and fair play: following the rules and the spirit of the game and respecting opponents and officials."
+    ],
+    "tip": "Written answers ask about fitness components in games, so link each component you name to your game."
    }
   ],
   "questions": [
@@ -4355,121 +4786,191 @@
   ],
   "notes": [
    {
-    "h": "Gaelic football",
+    "b": "Gaelic football is an invasion game (a game where teams move into the opponents' territory to score). Its skills are handling, moving with the ball, kicking and tackling, and each has a few coaching points you should be able to name.",
+    "h": "Gaelic football: skills",
     "points": [
-     "Catching: catch a high ball with the hands in a W shape and the fingers spread.",
-     "Hand pass: hold the ball in one hand and strike it with the fist or open palm; it is struck, not thrown.",
-     "Soloing: drop the ball onto the foot and kick it back to the hands while running.",
-     "Toe-to-hand pick-up: lift the ball off the ground with the toe and catch it in the hands.",
-     "Kicking from the hands: eyes on the ball, non-kicking foot beside the ball's line, and follow through towards the target.",
-     "Tackling and blocking: the shoulder-to-shoulder tackle, and blocking.",
-     "A player may hold the ball for a maximum of four steps before it must be soloed, bounced or released.",
-     "The ball may not be bounced twice in a row; soloing may be repeated.",
-     "The ball may not be picked directly off the ground with the hands."
+     "Catching: to catch a high ball, make a W shape with the hands and spread the fingers, which gives the widest possible surface to take the ball.",
+     "Hand pass: hold the ball in one hand and strike it with the fist or open palm. It is struck, not thrown, so the ball must leave the hand from a strike, such as with the fist.",
+     "Soloing (running with the ball while keeping it in your control): drop the ball onto the foot and kick it back to the hands while running.",
+     "Toe-to-hand pick-up: lift the ball off the ground with the toe and catch it in the hands. This is how the ball is lifted, because it may not be picked up with the hands.",
+     "Kicking from the hands: keep the eyes on the ball, place the non-kicking foot beside the ball's line, and follow through towards the target.",
+     "Tackling and blocking: the shoulder-to-shoulder tackle (making contact shoulder to shoulder with the player who has the ball), and blocking (getting a hand or body in the way of the ball)."
+    ],
+    "tip": "Gaelic football is one of the games that appears repeatedly in exams, so be ready to name each skill and give its coaching points, such as the W-shaped catch or the foot beside the ball when kicking."
+   },
+   {
+    "b": "The rules limit how long a player can carry the ball and how it can be moved, so a player who wants to keep the ball must keep moving it in a permitted way.",
+    "h": "Gaelic football: key rules",
+    "points": [
+     "A player may hold the ball for a maximum of four steps before it must be soloed, bounced or released (passed or kicked away).",
+     "The ball may not be bounced twice in a row, but soloing may be repeated as often as the player likes.",
+     "The ball may not be picked directly off the ground with the hands, so a player must use the toe-lift (toe-to-hand pick-up) instead."
     ]
    },
    {
-    "h": "Hurling and camogie",
+    "b": "Hurling and camogie are played with a hurley (a wooden stick with a curved, flat end called the bas). The skills are about controlling the ball with the stick and the hand, and tackling safely.",
+    "h": "Hurling and camogie: skills",
     "points": [
-     "Ready position: dominant hand at the top of the hurley.",
-     "Pick-up: the roll lift and the jab lift.",
-     "Catching: catch with the hand protected.",
-     "Soloing: the ball is balanced on the bas of the hurley while running.",
-     "Striking from the hand and off the ground: hands together for power, hands apart for control.",
-     "Tackling: the hook and the block.",
-     "Hand pass: struck with the palm.",
+     "Ready position: hold the hurley with the dominant hand at the top of the hurley, so you are set to strike or lift.",
+     "Pick-up: the ball is lifted from the ground with a roll lift or a jab lift, because it may not be picked up directly by hand.",
+     "Catching: catch the ball with the hand protected, so that the hand is not hurt by the ball or the hurleys.",
+     "Soloing: run while the ball is balanced on the bas of the hurley.",
+     "Striking from the hand and off the ground: keep the hands together for power, or apart for control.",
+     "Tackling: the hook (using the hurley to pull or knock the opponent's stick off the ball) and the block (placing the hurley in the way of the strike).",
+     "Hand pass: the ball is struck with the palm, so it is hit, not thrown."
+    ],
+    "tip": "Hurling is one of the games that appears repeatedly in exams. When asked about striking, say hands together for power and hands apart for control."
+   },
+   {
+    "b": "Handling in hurling and camogie is limited, so players must use the hurley to lift the ball and cannot run far with it in the hand.",
+    "h": "Hurling and camogie: key rules",
+    "points": [
      "The ball may be carried in the hand for a maximum of four steps.",
-     "The ball may not be picked directly off the ground with the hand; a lift is used instead."
+     "The ball may not be picked directly off the ground with the hand; a lift (roll lift or jab lift, using the hurley) is used instead."
     ]
    },
    {
+    "b": "Rugby union is an invasion game in which the ball is passed backwards while the team advances. The skills cover passing, tackling, keeping the ball in contact situations and evading defenders.",
     "h": "Rugby union",
     "points": [
-     "Rugby passes go backwards or level, never forwards.",
-     "Receiving: hands up as a target, with the fingers spread.",
-     "Spin pass: used to gain distance.",
-     "Tackling: cheek to cheek, shoulder into the thigh, and wrap the arms.",
-     "Tackling finish: drive, then finish on top of the ball carrier.",
-     "Maul: the ball carrier stays on their feet.",
-     "Ruck: the ball is on the ground, and players bind and stay on their feet.",
-     "Evasion: side-step and swerve.",
-     "Infringements: forward pass and knock-on.",
-     "Tackles must be below the shoulders, and the tackler must release."
+     "Rugby passes go backwards or level, never forwards. A pass that goes forward is a forward pass, which is an infringement (a breach of the rules).",
+     "Receiving: hold the hands up as a target for the passer, so they can see where to aim, with the fingers spread to catch the ball securely.",
+     "Spin pass: used to gain distance, because the spin helps the ball travel further.",
+     "Tackling: go cheek to cheek (head to the side of the ball carrier), put the shoulder into the thigh, and wrap the arms around the ball carrier.",
+     "Tackling finish: drive with the legs, which keeps the tackle moving forwards, then finish on top of the ball carrier.",
+     "Maul (a contest for the ball while it is held off the ground by the ball carrier): the ball carrier stays on their feet, for example while team-mates bind on to them.",
+     "Ruck (a contest for the ball after a tackle): the ball is on the ground, and players bind (grip each other) and stay on their feet.",
+     "Evasion (getting past a defender while carrying the ball): use the side-step and the swerve, which change your direction so the defender misses you."
+    ],
+    "tip": "Remember that rugby passes go backwards or level, never forwards. If a question asks about a pass, do not describe it going forward."
+   },
+   {
+    "b": "Two infringements and two tackle rules decide whether play is legal.",
+    "h": "Rugby union: key rules",
+    "points": [
+     "Infringements: a forward pass (the ball thrown forward) and a knock-on (the ball knocked or dropped forward from the hands) are both rule breaches.",
+     "Tackles must be below the shoulders, and the tackler must release the ball carrier after the tackle."
     ]
    },
    {
-    "h": "Basketball",
+    "b": "Basketball is an invasion game in which players move the ball by passing and dribbling (bouncing the ball while moving) and score by shooting into the basket. Each skill has set coaching points.",
+    "h": "Basketball: skills",
     "points": [
-     "Chest pass: thumbs down at release, stepping into the pass.",
-     "Bounce pass: bounced two-thirds of the way to the receiver.",
-     "Overhead pass: passed from above the head.",
-     "Dribbling: fingertips on the ball, ball below the waist, eyes up, and the ball protected by the body.",
-     "Lay-up: right-hand lay-up off the left foot, after two steps.",
-     "Set and jump shot: the BEEF cue, which is balance, eyes on the target, elbow under the ball and follow-through.",
-     "Rebounding: box out the opponent to win position under the basket.",
-     "Defensive stance: low, feet shoulder-width apart, sliding without crossing the feet.",
-     "Pivot footwork: keep one foot planted while turning on the other.",
-     "Travelling: moving the pivot foot or taking too many steps while holding the ball without dribbling.",
+     "Chest pass: release with the thumbs down and step into the pass, which adds power.",
+     "Bounce pass: bounce the ball two-thirds of the way to the receiver.",
+     "Overhead pass: pass the ball from above the head, so it travels over a defender's reach.",
+     "Dribbling: use the fingertips, keep the ball below the waist so it is hard to steal, keep the eyes up to see the court, and protect the ball with the body.",
+     "Lay-up (a shot taken close to the basket while moving): a right-hand lay-up is taken off the left foot, after two steps.",
+     "Set and jump shot: use the BEEF cue, which stands for balance, eyes on the target, elbow under the ball and follow-through.",
+     "Rebounding (winning the ball after a missed shot): box out the opponent to win position under the basket.",
+     "Defensive stance: stay low with the feet shoulder-width apart, sliding without crossing the feet, because crossing the feet makes you unbalanced."
+    ],
+    "tip": "Basketball is one of the games that appears repeatedly in exams. If a question asks for a shooting cue, give BEEF and say what each letter stands for."
+   },
+   {
+    "b": "A player with the ball who is not dribbling must follow footwork and time rules. Breaking them gives possession to the other team.",
+    "h": "Basketball: footwork and rules",
+    "points": [
+     "Pivot footwork: keep one foot planted while turning on the other, so you can turn without travelling.",
+     "Travelling: moving the pivot foot, or taking too many steps while holding the ball without dribbling. This is why a player must dribble or pass to move.",
      "Double dribble: dribbling with both hands at once, or starting a new dribble after stopping one.",
-     "Three seconds: an attacking player may not stay in the key (restricted area) for more than three seconds.",
-     "Personal fouls: illegal contact such as pushing, holding or charging gives the opponent possession or free throws."
+     "Three seconds: an attacking player may not stay in the key (the restricted area near the basket) for more than three seconds.",
+     "Personal fouls: illegal contact, such as pushing, holding or charging, gives the opponent possession or free throws (unopposed shots at the basket)."
     ]
    },
    {
-    "h": "Soccer",
+    "b": "Outfield players are all players except the goalkeeper. Their skills are passing, controlling, dribbling, shooting, heading and defending.",
+    "h": "Soccer: outfield skills",
     "points": [
-     "Inside-of-the-foot pass: ankle locked, standing foot beside the ball, and follow-through to the target.",
+     "Inside-of-the-foot pass: lock the ankle, place the standing foot beside the ball, and follow through to the target.",
      "Lofted pass and chip: the ball is lifted into the air to pass over the defence.",
-     "Cushioning control: the foot gives on contact to absorb the ball's pace.",
-     "Dribbling: with both feet, with changes of pace.",
-     "Shooting with the laces: head over the ball, non-kicking foot beside it.",
-     "Heading: use the forehead, with the eyes open.",
-     "Defending: jockeying (stay goal-side, side-on, delay) and the block tackle.",
-     "Goalkeeping: set position; W-shaped catch for high balls and scoop for low balls.",
-     "Goalkeeping: dive with the body behind the ball, and narrow the angle to the shooter.",
-     "Goalkeeping: punch crosses; distribute by throw, roll and kick.",
-     "Key rules: only the goalkeeper may handle the ball, and only inside their own penalty area.",
-     "Key rules: a player is offside if, when the ball is played to them, they are in the opponents' half and nearer the goal line than both the ball and the second-last defender.",
-     "Key rules: fouls such as tripping, pushing or a careless tackle give a free kick, or a penalty if committed by a defender in their own penalty area."
+     "Cushioning control: the foot gives on contact to absorb the ball's pace, so the ball stays under control.",
+     "Dribbling: use both feet, with changes of pace, so a defender cannot predict your next touch.",
+     "Shooting with the laces: head over the ball and the non-kicking foot beside it.",
+     "Heading: use the forehead, with the eyes open, so you can see the ball and meet it cleanly.",
+     "Defending: jockeying (stay goal-side, between the attacker and your goal, stay side-on, and delay the attacker) and the block tackle."
+    ],
+    "tip": "Soccer is one of the games that appears repeatedly in exams. For defending, give all three parts of jockeying: goal-side, side-on and delay."
+   },
+   {
+    "b": "The goalkeeper is the only player allowed to use the hands, so the skills are different from the rest of the team.",
+    "h": "Soccer: goalkeeping",
+    "points": [
+     "Set position: the goalkeeper is balanced and ready before the shot.",
+     "Catching: use a W-shaped catch for high balls and a scoop for low balls.",
+     "Diving: dive with the body behind the ball, so the body is a second barrier if the hands miss.",
+     "Narrowing the angle: move out towards the shooter, which leaves less of the goal to aim at.",
+     "Punching crosses (balls played in from the side): punch the ball away.",
+     "Distribution (getting the ball to a team-mate): by throw, roll and kick."
     ]
    },
    {
+    "b": "Three rules shape how soccer is played: who may handle the ball, the offside rule and fouls.",
+    "h": "Soccer: key rules",
+    "points": [
+     "Only the goalkeeper may handle the ball, and only inside their own penalty area.",
+     "Offside: a player is offside if, when the ball is played to them, they are in the opponents' half and nearer the goal line than both the ball and the second-last defender.",
+     "Fouls such as tripping, pushing or a careless tackle give a free kick, or a penalty if committed by a defender in their own penalty area."
+    ]
+   },
+   {
+    "b": "Netball is an invasion game with strict rules about contact and movement. Players hold the ball only briefly, so they must pass it on.",
     "h": "Netball",
     "points": [
      "Passing: chest, shoulder, bounce and lob passes.",
-     "Footwork: land on one foot and pivot; do not step with the landing foot.",
-     "Shooting: ball on the fingertips above the head, knees bent, with a flick of the wrist.",
-     "Dodging: to get free of the marker.",
-     "Marking: arms out, 0.9 m from the player being marked.",
+     "Footwork: land on one foot and pivot (turn on the spot); do not step with the landing foot.",
+     "Shooting: hold the ball on the fingertips above the head, with the knees bent for power, and use a flick of the wrist.",
+     "Dodging: a quick move to get free of the marker (the defender guarding you), so you can receive a pass.",
+     "Marking: arms out, 0.9 m (3 feet) from the player being marked.",
      "Key rules: a player may hold the ball for no more than three seconds.",
-     "Key rules: no contact, and playing areas by position."
+     "Key rules: no contact, and playing areas by position, which means each position is limited to certain areas of the court."
     ]
    },
    {
-    "h": "Hockey",
+    "b": "Hockey is played with a stick that has a flat side and a rounded side, and only the flat side may be used. Skills cover grip, passing, dribbling, flicking, shooting and defending.",
+    "h": "Hockey: outfield skills",
     "points": [
      "Grip: left hand at the top of the stick, right hand lower down.",
-     "Passing and stopping: push pass, slap and hit; stopping the ball on the open stick.",
+     "Passing and stopping: the push pass, slap and hit; stop the ball on the open stick.",
      "Dribbling: with the open stick and with the reverse stick.",
-     "Flicks: a lifting stroke used to move the ball off the ground.",
-     "Shooting: hit the ball towards goal from inside the shooting circle.",
-     "Defending: jockeying and channelling the attacker away from goal.",
+     "Flicks: a lifting stroke used to move the ball off the ground, for example over a defender's stick.",
+     "Shooting: hit the ball towards goal from inside the shooting circle (the D-shaped area in front of the goal).",
+     "Defending: jockeying and channelling, which means forcing the attacker away from goal."
+    ],
+    "tip": "In hockey only the flat (face) side of the stick is used. Say this when asked about a rule or about technique."
+   },
+   {
+    "b": "Hockey has three rules about how the stick is used and where goals can be scored.",
+    "h": "Hockey: key rules",
+    "points": [
      "In hockey only the flat (face) side of the stick is used.",
      "Goals may only be scored from inside the shooting circle.",
-     "No dangerous play with the ball or stick.",
-     "Goalkeeping: protective kit, kicking clearances, and saves with the pads and kickers.",
-     "Goalkeeping: defending short corners, facing penalty flicks, and diving and sliding saves."
+     "No dangerous play with the ball or stick."
+    ],
+    "tip": "In hockey only the flat (face) side of the stick is used. Do not say that either side can be used."
+   },
+   {
+    "b": "The hockey goalkeeper wears protective kit and uses the pads and feet to stop shots.",
+    "h": "Hockey: goalkeeping",
+    "points": [
+     "Protective kit is worn by the goalkeeper, so shots can be stopped with the body.",
+     "Kicking clearances: the goalkeeper kicks the ball away from goal.",
+     "Saves are made with the pads and kickers (the protective boots worn over the feet).",
+     "Defending short corners (a set play awarded to the attackers near the goal).",
+     "Facing penalty flicks (a flick taken at the goal as a penalty).",
+     "Diving and sliding saves."
     ]
    },
    {
+    "b": "Olympic handball is an invasion game played with the hands, where players pass and shoot at a goal. Players must keep moving the ball because they may hold it only briefly.",
     "h": "Olympic handball",
     "points": [
-     "Catching: hands form a W.",
+     "Catching: the hands form a W.",
      "Passing: one-handed passes.",
-     "Shooting: jump shot from outside the goal area; penalty throw.",
-     "Moving free: getting clear of a marker to receive the ball.",
-     "Defending: marking in a zone.",
-     "Key rules: maximum three steps and three seconds holding the ball.",
+     "Shooting: a jump shot from outside the goal area, and the penalty throw.",
+     "Moving free: getting clear of a marker so that a team-mate can pass to you.",
+     "Defending: marking in a zone (each defender guards an area).",
+     "Key rules: a maximum of three steps and three seconds holding the ball.",
      "Key rules: only the goalkeeper may stand in the goal area."
     ]
    }
@@ -4576,88 +5077,94 @@
   ],
   "notes": [
    {
+    "b": "Badminton is a net game: players hit a shuttle (the feathered projectile) over a net with a racket. Each shot has a purpose, either to put the opponent under pressure or to buy yourself time.",
     "h": "Badminton",
     "points": [
-     "Grips: forehand and backhand grips.",
-     "Ready position: a balanced stance, with the player returning to base after each shot.",
-     "In badminton the serve is hit below the waist and diagonally into the opposite service box.",
-     "High serve: hit deep to the back of the court.",
-     "Low serve: hit just over the net, to the front service line.",
+     "Grips: you use a forehand grip for shots on your racket-hand side and a backhand grip for shots on the other side, changing between them as the shuttle comes.",
+     "Ready position: a balanced stance, with the player returning to base (the central court position) after each shot, so they can reach a shot in any direction.",
+     "In badminton the serve is hit below the waist and diagonally into the opposite service box (the marked area the serve must land in).",
+     "High serve: hit deep to the back of the court. Low serve: hit just over the net, to the front service line, so the receiver has little time to attack it.",
      "Net shots: soft, tumbling shots played from near the net, which keep the shuttle low over the net so the opponent cannot attack it.",
-     "Clear: hit high and deep to the back of the court to gain time.",
-     "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward.",
-     "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended.",
-     "Tactics: move the opponent around the four corners of the court and attack the weaker side."
-    ]
+     "Clear: hit high and deep to the back of the court to gain time, because the shuttle is in the air for longer and you can recover your position.",
+     "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward. Because it looks like a clear, the opponent moves back and is caught out.",
+     "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended, so the shuttle is driven sharply downwards.",
+     "Tactics: move the opponent around the four corners of the court and attack the weaker side, so they are stretched and make errors."
+    ],
+    "tip": "If asked about the badminton serve, say it is hit below the waist and diagonally into the opposite service box. Net and wall games are common exam contexts, so be ready to analyse a shot or a tactic against a weaker side."
    },
    {
+    "b": "Tennis is played over a net with strung rackets, and the grip you choose depends on the shot. Technique runs from the serve that starts each point to the shots that finish it.",
     "h": "Tennis",
     "points": [
-     "Grips: continental grip for the serve and volley; eastern or semi-western grip for groundstrokes.",
-     "Serve: ball toss slightly in front, trophy position, contact at full stretch, with pronation.",
+     "Grips: continental grip for the serve and volley (a shot hit before the ball bounces); eastern or semi-western grip for groundstrokes (shots hit after the ball bounces).",
+     "Serve: ball toss slightly in front, trophy position (racket held back and up, like holding a trophy), contact at full stretch, with pronation (the forearm turning over through contact).",
      "Serve variations: flat, slice and kick.",
-     "Drives: forehand and backhand, with early preparation, a side-on stance, a low-to-high swing and a follow-through.",
-     "Volley: a short punch with a firm wrist, racket head up, moving forward.",
-     "Lob: hit high over a net player.",
-     "Smash: side-on, pointing at the ball and hit at full extension.",
-     "Tactics: serve and volley, baseline play, and attacking the weaker side.",
-     "Scoring: 15, 30, 40, game, with deuce and advantage."
-    ]
+     "Drives: forehand and backhand groundstrokes, with early preparation, a side-on stance, a low-to-high swing and a follow-through, so the swing is controlled and finishes the stroke fully.",
+     "Volley: a short punch with a firm wrist, racket head up, moving forward. A short punch is used because the ball is hit before it bounces, so there is little time.",
+     "Lob: hit high over a net player, so the ball passes over their head and they cannot reach it.",
+     "Smash: side-on, pointing at the ball and hit at full extension, an overhead shot played to finish the point.",
+     "Tactics: serve and volley (follow the serve to the net), baseline play (staying at the back of the court), and attacking the weaker side.",
+     "Scoring: 15, 30, 40, game, with deuce (40 each) and advantage."
+    ],
+    "tip": "Net and wall games, badminton and tennis especially, are common exam contexts. Be ready for questions on reaction time, agility, shot analysis, tactics against a weaker side and the scoring system, including 15, 30, 40, game, deuce and advantage."
    },
    {
+    "b": "Table tennis is a fast net game played on a table, so control of spin and placement matters more than power. The rules on the serve and scoring are exact and are worth knowing.",
     "h": "Table tennis",
     "points": [
-     "Grips: shake-hand or penhold.",
+     "Grips: shake-hand (held like a handshake) or penhold (held like a pen).",
      "Legal serve: the ball is tossed at least 16 cm up from an open palm and struck behind the end line.",
-     "Drives: forehand and backhand, with topspin, close to the table.",
-     "Push: backspin, soft, keeping the ball low.",
-     "Block: racket angled to absorb a fast attack close to the table.",
-     "Smash: a high ball hit flat and hard.",
-     "Tactics: vary spin and placement.",
+     "Drives: forehand and backhand, with topspin (forward spin on the ball), close to the table.",
+     "Push: backspin (backward spin on the ball), soft, keeping the ball low, so it is hard for the opponent to attack.",
+     "Block: racket angled to absorb a fast attack close to the table, using the opponent's own pace.",
+     "Smash: a high ball hit flat and hard, to finish the point.",
+     "Tactics: vary spin and placement, so the opponent cannot predict the next shot.",
      "Scoring: games to 11 points, won by two clear points."
-    ]
+    ],
+    "tip": "Learn the scoring and serve rules exactly: at least 16 cm from an open palm, struck behind the end line, and games to 11 won by two clear points. Questions on net and wall games can also ask about shot analysis and tactics."
    },
    {
+    "b": "Volleyball teams get three touches to send the ball back over the net, so each touch has a job. The usual pattern is a dig, then a set, then a spike.",
     "h": "Volleyball",
     "points": [
-     "Underarm serve: used by beginners.",
-     "Overarm serve: the floating serve has no spin and moves unpredictably.",
-     "Dig (forearm pass): forearms together to form a platform, with the legs bent.",
-     "Volleyball forearm pass power comes from the legs, not swinging the arms.",
-     "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended.",
-     "Spike: approach, a two-foot jump, high contact and a wrist snap.",
-     "Block: jump with the hands above the net and penetrate forward to stop the spike.",
+     "Serve: the underarm serve is used by beginners. In the overarm serve, the floating serve has no spin and moves unpredictably, which makes it hard to receive.",
+     "Dig (forearm pass): forearms together to form a platform, with the legs bent. Volleyball forearm pass power comes from the legs, not swinging the arms.",
+     "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended, to place the ball for the spike.",
+     "Spike: approach, a two-foot jump, high contact and a wrist snap, which drives the ball down hard into the opposing court.",
+     "Block: jump with the hands above the net and penetrate forward (reach over the net) to stop the spike.",
      "Tactics: a dig, set and spike sequence, using the three touches.",
-     "Rules: a maximum of three touches per side.",
-     "Rules: the same player may not touch the ball twice in a row, except after a block.",
-     "Scoring: rally scoring."
-    ]
+     "Rules: a maximum of three touches per side, and the same player may not touch the ball twice in a row, except after a block.",
+     "Scoring: rally scoring (a point is won on every rally, whoever served)."
+    ],
+    "tip": "For the forearm pass, say the power comes from the legs and not from swinging the arms. Be ready to state the touch rules: three touches per side, and no player touches twice in a row except after a block."
    },
    {
+    "b": "Squash is a wall game: both players share one court and hit the ball off the walls. Position matters as much as the shot, which is why the T is central.",
     "h": "Squash",
     "points": [
-     "Ready position: on the T.",
+     "Ready position: on the T (the junction of the lines at the centre of the court), from where every part of the court is easiest to reach.",
      "Serve: one foot in the service box; the ball hits the front wall above the service line and lands in the opposite back quarter.",
-     "Straight drive: along the side wall, hit to length, to the back of the court.",
-     "Volley: cut the ball off early, before it bounces.",
+     "Straight drive: along the side wall, hit to length, to the back of the court, so the opponent is pushed back.",
+     "Volley: cut the ball off early, before it bounces, so the opponent has less time.",
      "Boast: hit onto a side wall first, so the ball travels to the front wall.",
      "Lob: hit high to the back of the court.",
      "Tactics: dominate the T, hit to length, and move the opponent.",
-     "Rules: let and stroke rules for interference."
+     "Rules: let and stroke rules for interference (when a player gets in the way of the opponent's shot)."
     ]
    },
    {
+    "b": "Gaelic handball is a wall game in which the ball is struck with the hand against the front wall. It is played on two court sizes, and one stroke depends on which court is used.",
     "h": "Handball (Gaelic handball)",
     "points": [
+     "Courts: 60 x 30 feet and 40 x 20 feet.",
      "Underarm stroke: low, swinging upwards, side-on.",
-     "Overhand stroke: struck from above the shoulder, for power and kill shots.",
+     "Overhand stroke: struck from above the shoulder, for power and kill shots (shots that stay so low on the front wall that the opponent cannot return them).",
      "Back wall shot: played after the ball rebounds off the back wall.",
-     "Straight hit: struck from the short line.",
+     "Straight hit: struck from the short line (the line across the court that the serve must pass).",
      "Fly shot: struck before the ball bounces.",
      "Side-arm stroke: used only on the 40 x 20 court.",
      "Serve: the ball is bounced and struck so that it lands beyond the short line.",
-     "Courts: 60 x 30 feet and 40 x 20 feet.",
-     "Tactics: use both hands, play kill shots low on the front wall, and move the opponent."
+     "Tactics: use both hands, play kill shots low on the front wall, and move the opponent, so there is no weak side to attack."
     ]
    }
   ],
@@ -4757,120 +5264,146 @@
   ],
   "notes": [
    {
+    "b": "Cricket, softball and rounders look different, but they are built the same way: one side tries to score while the other tries to stop them. Knowing this shared structure helps you make sense of every skill that follows.",
     "h": "What striking and fielding games share",
     "points": [
-     "One team bats to score runs (or rounders) while the other bowls or pitches and fields to stop runs and get batters out.",
-     "Innings: each team bats in an innings, after which the teams swap roles."
-    ]
+     "One team bats (hits the ball with a bat) to score runs, or rounders in rounders, while the other team bowls or pitches (delivers the ball to the batter) and fields (catches and retrieves the ball) to stop runs and get batters out.",
+     "Each team bats in an innings (the turn a team takes at batting), after which the teams swap roles, so both sides get to bat and to bowl and field."
+    ],
+    "tip": "Striking and fielding games are used in exams for skill analysis, decision-making, levers (batting) and teamwork, so be ready to link each skill to one of these."
    },
    {
+    "b": "Every cricket shot starts from a good set-up. A balanced stance and a correct grip give the batter control of the bat before the ball arrives.",
     "h": "Cricket batting stance and grip",
     "points": [
-     "Stance: side-on, feet shoulder-width apart, head still and eyes level.",
-     "Grip: hands together at the top of the handle."
-    ]
+     "Stance: stand side-on to the bowler, with feet shoulder-width apart, so you are balanced and can move forwards or back, and keep the head still and the eyes level so you can judge the ball.",
+     "Grip: hold the bat with the hands together at the top of the handle, so the two hands work as one unit when you swing."
+    ],
+    "tip": "Exams use these games for skill analysis and levers (batting), so describe stance and grip point by point and say what each contributes to the shot."
    },
    {
+    "b": "A batter chooses the shot according to the ball. Full balls (which pitch close to the batter) are driven; shorter balls (which pitch further from the batter) call for back-foot shots, the cut, the pull or the glance.",
     "h": "Cricket drives, cut, pull and glance",
     "points": [
-     "Drives (straight, on and off) are played to a full ball with a front-foot step towards the ball.",
-     "Front-foot drive: head over the ball, high elbow, and a straight bat follow-through.",
-     "Back-foot shots are played to shorter balls.",
-     "Cut: square on the off side to a short, wide ball.",
-     "Pull: horizontal bat to a short ball on the leg side.",
-     "Glance: deflects the ball finely on the leg side."
-    ]
+     "Drives (straight, on and off, named for the direction the ball is hit) are played to a full ball with a front-foot step towards the ball.",
+     "Front-foot drive: keep the head over the ball, the elbow high, and finish with a straight bat follow-through so the ball is hit along the intended line.",
+     "Back-foot shots are played to shorter balls, with the weight moved back rather than forward.",
+     "Cut: played square (at a right angle to the pitch) on the off side (the side the bat faces in the stance) to a short, wide ball.",
+     "Pull: a horizontal bat swung at a short ball on the leg side (the side of the batter's body behind the legs).",
+     "Glance: deflects the ball finely on the leg side, meaning it is turned away to the area behind the batter rather than hit hard."
+    ],
+    "tip": "When asked to analyse a shot, state which ball it is played to (full, short, wide) and then the body and bat positions, because the choice of shot depends on the ball."
    },
    {
+    "b": "A bowling action is a chain of linked movements. Each stage builds speed and balance for the next, ending with a legal release of the ball.",
     "h": "Cricket bowling action",
     "points": [
-     "Action in order: run-up, gather, side-on or front-on delivery stride, release, follow-through.",
-     "Straight bowling arm, with no throwing.",
+     "Action in order: 1. run-up, 2. gather (bringing the body together ready to deliver), 3. side-on or front-on delivery stride, 4. release, 5. follow-through.",
+     "The bowling arm must be straight, with no throwing, because throwing is not a legal delivery.",
      "In cricket the bowling arm must not straighten during delivery (throwing is illegal)."
-    ]
+    ],
+    "tip": "The trap here is the arm. In cricket the bowling arm must not straighten during delivery, because throwing is illegal, so never describe a bent-then-straightened arm as correct."
    },
    {
+    "b": "Bowlers try to make batting difficult by controlling where the ball pitches (lands) and how it moves after that. Line, length and the type of delivery are the three tools they use.",
     "h": "Line, length and types of delivery",
     "points": [
-     "Line: aim at or just outside off stump.",
-     "Good length: makes the batter unsure whether to go forward or back.",
-     "Medium and fast pace: bowling that uses seam and swing.",
-     "Spin: off-spin and leg-spin, which turn the ball off the pitch."
-    ]
+     "Line (the direction of the ball): aim at or just outside off stump (the stump nearest the off side, part of the wicket the batter defends).",
+     "Good length: makes the batter unsure whether to go forward or back, so they are more likely to choose the wrong shot.",
+     "Medium and fast pace: bowling that uses seam and swing (the stitched ridge of the ball and its movement through the air).",
+     "Spin: off-spin and leg-spin, which turn the ball off the pitch, so the ball changes direction after it lands."
+    ],
+    "tip": "Use line and length together in answers, for example at or just outside off stump on a good length, and name the type of delivery as pace (seam and swing) or spin."
    },
    {
+    "b": "Fielders are placed close to the bat to catch edges and far away near the boundary to stop runs. The skills differ because the ball arrives in different ways.",
     "h": "Cricket fielding: close and deep",
     "points": [
-     "Close fielding (slips, short leg): low, ready, with soft hands.",
-     "Deep fielding (boundary): take a long barrier to stop the ball.",
-     "Deep fielding: attack the ball and make a flat throw to the keeper."
-    ]
+     "Close fielding (slips, short leg, positions near the batter): stay low and ready, with soft hands, because the ball arrives quickly and may be an edge.",
+     "Deep fielding (boundary, the edge of the playing area): take a long barrier (a position with the body and legs behind the ball) to stop the ball.",
+     "Deep fielding: attack the ball and make a flat throw to the keeper (the wicketkeeper, who stands behind the stumps)."
+    ],
+    "tip": "Striking and fielding games are used for teamwork and decision-making, so link fielding to team roles, for example a flat throw to the keeper."
    },
    {
+    "b": "Catching and throwing are the basic skills of the fielding side in softball and rounders. A good catch gets a batter out, and an accurate throw stops runs.",
     "h": "Catching and throwing in softball and rounders",
     "points": [
-     "Catching: two-handed, with the hands forming a cup or basket and giving with the ball.",
-     "Throwing: overarm, from a side-on stance, stepping towards the target."
+     "Catching: use two hands, with the hands forming a cup or basket, and give with the ball (let the hands move back with it) so it does not bounce out.",
+     "Throwing: throw overarm from a side-on stance, stepping towards the target so the body weight goes in the direction of the throw."
     ]
    },
    {
+    "b": "Hitting (also called striking or batting) is how the batting side starts a run. A controlled swing sends the ball into space and gives the batter time to run.",
     "h": "Hitting in softball and rounders",
     "points": [
-     "Stance: side-on, with the eyes on the ball.",
+     "Stance: side-on, with the eyes on the ball so you can time the contact.",
      "Swing: level through the ball, with a full follow-through.",
-     "After the hit, the batter runs to the next post or base."
-    ]
+     "After the hit, the batter runs to the next post or base (the marked points the batter must reach).",
+     "Drop the bat (do not throw it) before running."
+    ],
+    "tip": "Levers (batting) are a listed exam context, so describe the swing and follow-through in order."
    },
    {
+    "b": "Pitching or bowling puts the ball into play. The rules about how the ball is delivered differ between the games, so know which applies.",
     "h": "Pitching and bowling in softball and rounders",
     "points": [
-     "Rounders bowling is underarm.",
-     "In rounders the ball must pass between the batter's head and knee on the batting side.",
-     "Variations: pace, swerve and spin.",
-     "Line and length: the ball is pitched to a consistent line and length."
-    ]
+     "Rounders bowling is underarm, meaning the arm swings from below the shoulder.",
+     "In rounders the ball must pass between the batter's head and knee on the batting side, so that it is a fair delivery the batter can hit.",
+     "Variations: pace (speed), swerve (curving through the air) and spin.",
+     "Line and length: the ball is pitched to a consistent line and length so the batter cannot predict it."
+    ],
+    "tip": "Remember that rounders bowling is underarm, and that a good ball passes between the batter's head and knee on the batting side."
    },
    {
+    "b": "Fielders are spread across the pitch so that every area is covered. Their positions have names, and each job helps the team stop the batter scoring.",
     "h": "Fielding positions in softball and rounders",
     "points": [
-     "Rounders positions: backstop, bowler, and first to fourth post fielders.",
-     "Softball positions: basemen, with deep fielders covering the outfield.",
-     "Fielding on base: stretch to catch the ball with a foot on the base.",
+     "Rounders positions: backstop (behind the batter), bowler, and first to fourth post fielders (one at each post).",
+     "Softball positions: basemen (fielders who guard each base), with deep fielders covering the outfield (the area far from the batter).",
+     "Fielding on base: stretch to catch the ball with a foot on the base, so the runner is out as soon as the ball arrives.",
      "Deep fielders back up: move behind the fielder throwing the ball, so that a missed or overthrown ball can be stopped."
-    ]
+    ],
+    "tip": "Backing up is a good example of teamwork, so use it when an answer asks how fielders help each other."
    },
    {
+    "b": "Cricket scoring is in runs, and the fielding side gets a batter out by one of several dismissals. These rules decide what the skills are for.",
     "h": "Cricket runs, boundaries and dismissals",
     "points": [
-     "Runs: batters run between the wickets to score.",
-     "Boundaries: 4 runs when the ball crosses the boundary along the ground, and 6 when it crosses on the full.",
-     "Dismissals: bowled, caught, run out, LBW and stumped."
+     "Runs: batters run between the wickets (the sets of stumps at each end of the pitch) to score.",
+     "Boundaries: 4 runs when the ball crosses the boundary along the ground, and 6 when it crosses on the full (without bouncing).",
+     "Dismissals: bowled (the ball hits the stumps), caught (a fielder catches it before it bounces), run out, LBW (leg before wicket, when the batter's body blocks a ball that would hit the stumps) and stumped (the keeper removes the bails when the batter is out of the crease)."
     ]
    },
    {
+    "b": "Rounders and softball each have their own scoring and out rules. Learn them separately, because the same word can mean different things.",
     "h": "Rounders and softball scoring",
     "points": [
      "Rounders: a rounder is scored by reaching fourth post.",
      "Rounders: a batter is out if caught, if a post is stumped before they reach it, or if they overtake another batter.",
      "Softball: runs are scored for reaching home.",
-     "Softball: three outs end the innings."
-    ]
+     "Softball: three outs end the innings, after which the teams swap roles."
+    ],
+    "tip": "Remember that in rounders the score is a rounder, earned by reaching fourth post."
    },
    {
+    "b": "Tactics are the decisions a team makes to gain an advantage. Both sides use them, so exam answers can look at batting and at fielding.",
     "h": "Tactics",
     "points": [
-     "Batting into gaps: placing the ball where fielders cannot reach it.",
-     "Running calls between wickets or posts: yes, no or wait.",
-     "Fielding placement is set for the batter and for the bowler.",
-     "Bowling to the field that has been set."
-    ]
+     "Batting into gaps: placing the ball where fielders cannot reach it, so runs can be taken safely.",
+     "Running calls between wickets or posts: yes, no or wait, so both batters know whether to run.",
+     "Fielding placement is set for the batter and for the bowler, so fielders cover the likely shots.",
+     "Bowling to the field that has been set, so the delivery and the fielders work together."
+    ],
+    "tip": "Decision-making and teamwork are the exam contexts for these games, so give each tactic with its reason."
    },
    {
+    "b": "A hard ball travelling at speed can cause injury, so these games depend on equipment and safe habits.",
     "h": "Safety in striking and fielding games",
     "points": [
      "Cricket protective equipment: helmet, pads, gloves and box.",
      "A hard ball creates a danger zone, so players must stay alert to where it is travelling.",
-     "Batters drop the bat, never throw it.",
+     "Batters drop the bat, never throw it, so no one nearby is hit.",
      "Fielders call for catches so that team-mates do not collide."
     ]
    }
@@ -4955,27 +5488,31 @@
   ],
   "notes": [
    {
-    "b": "Differences in participation are best understood through gender, the social side of being male or female, rather than through biology alone.",
+    "b": "Differences in participation are best understood through gender, the social side of being male or female, rather than through biology alone. So the first step is to separate the two words, which are often used as if they meant the same thing.",
     "h": "Sex and gender (assumed knowledge)",
     "points": [
-     "Sex: the biological characteristics, such as chromosomes, hormones and physical make-up, that define a person as male or female.",
-     "Gender: the socially constructed roles, behaviours and expectations that a society attaches to being male or female.",
+     "Sex: the biological characteristics, such as chromosomes (the genetic material that helps determine sex), hormones (chemical messengers in the body) and physical make-up, that define a person as male or female.",
+     "Gender: the socially constructed roles, behaviours and expectations (in other words, ideas made by society, not by biology) that a society attaches to being male or female.",
      "Gender expectations differ between societies and change over time, so the activities seen as suitable for each sex are social rather than fixed.",
-     "Gendered activities: physical activities that a society labels as suitable for boys or for girls."
-    ]
+     "Gendered activities: physical activities that a society labels as suitable for boys or for girls, for example rugby as 'for boys' and dance as 'for girls'."
+    ],
+    "tip": "Do not explain participation differences by biology alone. The specification frames them as social, so build your answer around gender."
    },
    {
+    "b": "Boys and girls do not take part in physical activity in the same way. The differences show up in how much they do, which activities they choose and when they stop, and they are described here in words, not percentages.",
     "h": "Participation patterns: how much, which activities and when drop-out happens",
     "points": [
      "How much: on average, girls are less active than boys in physical activity and sport.",
-     "When: girls drop out of sport in greater numbers than boys during adolescence, especially in the senior cycle years.",
-     "Which activities: boys more often play competitive team and contact sports, such as rugby and Gaelic football.",
-     "Which activities: girls more often choose dance, gymnastics, individual fitness and non-contact activities.",
+     "When: girls drop out of sport in greater numbers than boys during adolescence (the teenage years), especially in the senior cycle years (the last three years of secondary school).",
+     "Which activities: boys more often play competitive team and contact sports (where players physically tackle or collide), such as rugby and Gaelic football.",
+     "Which activities: girls more often choose dance, gymnastics, individual fitness and non-contact activities (where players do not tackle or collide).",
      "Many activities are labelled 'for boys' or 'for girls', which steers young people towards the activities seen as suitable for their gender.",
-     "Participation changes across the life course and is shaped by many interacting influences rather than by biology alone."
-    ]
+     "Participation changes across the life course (the stages of life from childhood to older age) and is shaped by many interacting influences rather than by biology alone."
+    ],
+    "tip": "Do not quote survey percentages, including ones you remember from past papers. Describe the pattern in words, such as 'girls are on average less active'."
    },
    {
+    "b": "The family is the first place a child meets sport, and parents control much of what a child can try. Their attitudes can push boys and girls towards different activities.",
     "h": "Family influences",
     "points": [
      "Parents' own activity and encouragement shape whether a child sees physical activity as normal.",
@@ -4983,56 +5520,67 @@
      "For boys: parents may encourage sons into contact sports and competitive team games.",
      "For girls: parents may steer daughters towards activities they consider suitable, such as dance or gymnastics.",
      "Example: a parent pays a son's club fees and drives him to matches, while a daughter's wish to join the same club is not supported."
-    ]
+    ],
+    "tip": "Exams ask you to examine the main influences, so for each one say how it works, its effect on boys, its effect on girls and give an example."
    },
    {
+    "b": "Peers (friends and classmates of the same age) matter most in the teenage years, when fitting in feels important. What friends think of sport can decide whether a young person takes part.",
     "h": "Peer influences",
     "points": [
      "Friends' choices can decide whether a young person joins an activity or stays in it.",
      "Fear of being judged by peers stops young people trying new activities.",
      "For teenage girls: being sporty may be seen as uncool, so girls may downplay their interest in sport to fit in with friends.",
      "For boys: sport can be central to status among peers, so skill in team sports can bring respect, while boys who are not sporty may lose standing."
-    ]
+    ],
+    "tip": "Describing two influences on boys is a Higher question, so know the boys' side of peers as well as the girls' side."
    },
    {
+    "b": "School is where most young people do most of their organised sport, so what a school offers and how it runs PE can widen or narrow the gender gap.",
     "h": "School influences",
     "points": [
      "The range of activities offered often centres on competitive team games, which draw boys more than girls.",
      "For girls: a narrow range of activities leaves those who prefer non-contact or individual activities with little to choose from.",
-     "For boys: competitive team games give boys a visible route into school teams and inter-school competition.",
+     "For boys: competitive team games give boys a visible route into school teams and inter-school competition (matches between schools).",
      "PE kit and changing facilities can deter girls where changing space is shared, poorly kept or lacks privacy.",
      "Teacher expectations and attention: boys' teams often receive more of the teacher's time, and teachers may hold different expectations of girls' competitiveness.",
      "Timetabling decides which activities run and when, so a fixed timetable can limit the choices open to each group."
-    ]
+    ],
+    "tip": "Examiners ask how a school could tackle a gender imbalance, so use these causes to pick your solutions: each school influence has a matching fix in the school action block below."
    },
    {
+    "b": "Outside school, whether a young person can play depends on what local clubs and facilities offer and on who they see succeeding in sport.",
     "h": "Community provision and role models",
     "points": [
-     "Provision: the teams, coaches, facility time and fixtures that let people take part, and how much of each is on offer.",
+     "Provision: the teams, coaches, facility time and fixtures (scheduled matches) that let people take part, and how much of each is on offer.",
      "For boys: boys often have more teams, better facility slots and more fixtures, so they can train and play more regularly.",
      "For girls: fewer teams, coaches and facility slots limit how regularly they can train and play.",
-     "Role models: fewer visible female athletes, coaches and administrators mean girls see fewer people like themselves in sport and its leadership.",
+     "Role models: fewer visible female athletes, coaches and administrators (people who run clubs and governing bodies) mean girls see fewer people like themselves in sport and its leadership.",
      "For boys: male role models dominate many visible team and contact sports, which reinforces the view that these sports belong to boys."
     ]
    },
    {
+    "b": "What young people have to wear for an activity can decide whether they take part. Kit that shows the body can make teenagers, who are already conscious of how they look, want to avoid it.",
     "h": "Clothing and kit",
     "points": [
      "Tight, short or revealing kit, such as swimwear, leotards, athletics briefs and short skirts, can make teenagers self-conscious about their bodies.",
      "For girls: self-consciousness about kit can lead to avoiding an activity or dropping out, especially in adolescence.",
      "For boys: tight or revealing kit can produce the same self-consciousness, leading some boys to avoid the activity too.",
      "Comfortable kit that students can choose helps young people take part without feeling exposed."
-    ]
+    ],
+    "tip": "An Ordinary Level question asks how required clothing can affect participation in certain sports. Name the kit, say it makes people self-conscious and say that leads to avoiding or dropping out."
    },
    {
+    "b": "Gender shapes boys' participation too. Boys have some advantages, but they also face pressures that can limit what they feel free to do.",
     "h": "Pressures and pathways for boys",
     "points": [
-     "Provision and pathways: boys often have more established routes from school teams into competitive club sport.",
+     "Provision and pathways: boys often have more established routes from school teams into competitive club sport, so it is easier for them to keep progressing.",
      "Pressure to be strong and competitive: boys may feel they must excel in contact and team sports to be respected.",
      "Ridicule: boys who choose activities labelled feminine, such as dance, may be mocked, which narrows their choices too."
-    ]
+    ],
+    "tip": "The 2026 Higher question asks about boys, and describing two influences on boys is a Higher question. Include boys' pressures and ridicule, not only girls' barriers."
    },
    {
+    "b": "Some barriers are practical rather than social. They affect everyone, but they can weigh more heavily on girls.",
     "h": "Time, cost, safety and transport",
     "points": [
      "Time, cost and transport limit participation for all young people, especially where clubs and facilities are far from home.",
@@ -5041,35 +5589,41 @@
     ]
    },
    {
+    "b": "Two further influences work through ideas and images rather than through facilities. Each has its own subsection, so only the main point of each is given here. There is more on these in Gender, media and body image and in Gender socialisation and its impact on participation.",
     "h": "Body image, media and socialisation",
     "points": [
-     "Body image and media: idealised thin, toned and muscular bodies in advertising and social media can make young people dissatisfied with their own bodies and deter them from activity (developed in Gender, media and body image).",
-     "Gender socialisation and hegemonic ideals: family, peers, school and media teach boys and girls what is appropriate for their sex, and dominant ideals of masculinity and femininity steer them towards some activities and away from others (developed in Gender socialisation and its impact on participation)."
-    ]
+     "Body image and media: idealised thin, toned and muscular bodies in advertising and social media can make young people dissatisfied with their own bodies (their body image) and deter them from activity.",
+     "Gender socialisation (learning the behaviour expected of your sex) and hegemonic ideals (the dominant, most-valued versions of masculinity and femininity): family, peers, school and media teach boys and girls what is appropriate for their sex, and these ideals steer them towards some activities and away from others."
+    ],
+    "tip": "Body image and media, and socialisation with hegemonic ideals, are separate subsections. Give each one short point in an influences answer and do not go into depth."
    },
    {
+    "b": "Once the causes are known, a school can act on each one. Each measure below removes a particular barrier, so match the fix to the problem.",
     "h": "Addressing the imbalance in school",
     "points": [
-     "Broaden the activity offer with dance, fitness classes, aquatics, outdoor pursuits and non-contact versions of games, and give students a choice, so girls who avoid competitive team games have options.",
+     "Broaden the activity offer with dance, fitness classes, aquatics (water-based activities such as swimming), outdoor pursuits and non-contact versions of games, and give students a choice, so girls who avoid competitive team games have options.",
      "Offer girls-only or friendship-group options and non-competitive sessions alongside competitive teams, which removes the fear of being judged in mixed or competitive settings.",
      "Provide flexible, comfortable PE kit and private, clean changing facilities, which removes self-consciousness about kit and changing.",
      "Give girls' teams equal facility time, fixtures, coaching and recognition, shown in assemblies, on noticeboards and on social media, which removes unequal provision and invisibility.",
      "Bring in female role models and leaders, such as older students acting as leaders and visiting female athletes and coaches, which tackles the shortage of visible women in sport.",
-     "Use student voice: survey students and plan activities from the results, so provision matches what students want.",
+     "Use student voice (asking students what they want): survey students and plan activities from the results, so provision matches what students want.",
      "Track participation by gender to see whether the gap is closing and which measures need changing."
-    ]
+    ],
+    "tip": "A Higher question asks you to discuss two ways a school could tackle a gender imbalance. Pick two measures and say what each does and which barrier it removes."
    },
    {
+    "b": "Clubs, local bodies and national campaigns can close the gap outside school, by giving girls and women somewhere to play and by making women's sport easier to see.",
     "h": "Addressing the imbalance in the community",
     "points": [
      "Clubs offering girls' and women's teams at every age, with female coaches, give girls a team to join at each stage of their development.",
      "Social, beginner and return-to-sport programmes, such as women's recreational leagues and mothers-and-daughters sessions, bring in people who would not join competitive teams.",
-     "Allocate pitches, halls and coaching fairly between girls' and boys' teams.",
-     "Provide safe, accessible, well-lit facilities and transport.",
-     "Local Sports Partnership programmes targeting teenage girls reach girls through local provision.",
+     "Allocate pitches, halls and coaching fairly between girls' and boys' teams, so neither group has the better slots.",
+     "Provide safe, accessible, well-lit facilities and transport, which tackles safety concerns about travelling after dark.",
+     "Local Sports Partnership programmes (local bodies that promote sport and physical activity) targeting teenage girls reach girls through local provision.",
      "The Ladies Gaelic Football Association (LGFA) and the Camogie Association govern ladies' Gaelic football and camogie, giving girls and women their own pathway in those games.",
      "The 20x20 campaign, launched in 2018, aims to increase the visibility of women's sport in Ireland, under the slogan 'If she can't see it, she can't be it'. Sport Ireland has a Women in Sport policy, and media coverage of women's sport adds to its visibility."
-    ]
+    ],
+    "tip": "Exams ask how the imbalance could be addressed in the community as well as in school, so have a few of these measures ready with the problem each one solves."
    }
   ],
   "questions": [
@@ -5158,76 +5712,89 @@
   ],
   "notes": [
    {
-    "b": "Body image concerns a perception, not actual shape or weight, and it is shaped by the ideals a society promotes.",
+    "b": "Body image is about how you see and feel about your body, not about what your body is actually like. It is shaped by the ideals a society promotes, and those ideals affect who takes part in physical activity.",
     "h": "Body image and body ideals",
     "points": [
-     "Body image: a person's perceptions, thoughts and feelings about their own body, including how they think others see it.",
-     "Body image can be positive or negative, and it is not the same as the body's actual shape or weight.",
-     "Body ideals: the ideal promoted for women is typically slim and toned; for men, it is lean and muscular.",
-     "Few people naturally match these ideals.",
-     "The ideals draw on dominant notions of masculinity and femininity, described in Gender socialisation and its impact on participation."
-    ]
+     "Body image is a person's perceptions, thoughts and feelings about their own body, including how they think others see it. It is a perception, so two people with the same shape can have very different body images.",
+     "Body image can be positive or negative, and it is not the same as the body's actual shape or weight. Someone can be healthy and still feel negatively about their body.",
+     "Body ideals are the 'perfect' bodies a society promotes. The ideal promoted for women is typically slim and toned; for men, it is lean (low in body fat) and muscular.",
+     "Few people naturally match these ideals, so many people compare themselves with a standard they cannot reach, which can leave them with a negative body image.",
+     "The ideals draw on dominant notions of masculinity and femininity (the society's accepted ideas of what a man or a woman should be like). There is more on this in Gender socialisation and its impact on participation."
+    ],
+    "tip": "If asked to define body image, give it as a perception, thoughts and feelings about your own body, and not as body shape or weight. Back it with an example to explain it."
    },
    {
+    "b": "How a girl feels about her body affects whether she joins in physical activity and whether she stays. Two main worries show up: being looked at, and looking 'too muscular'.",
     "h": "How body image influences female participation",
     "points": [
-     "Self-consciousness about appearance, feeling watched or judged, sweating and revealing kit lead some girls to avoid activity or drop out, especially in adolescence.",
-     "Fear of becoming too muscular steers girls away from strength training and contact sports."
-    ]
+     "Self-consciousness about appearance, feeling watched or judged, sweating and revealing kit lead some girls to avoid activity or drop out, especially in adolescence (the teenage years, when body image concerns are strongest).",
+     "Fear of becoming 'too muscular' steers girls away from strength training and contact sports (sports with physical contact between players, such as rugby), because muscle does not fit the slim, toned ideal."
+    ],
+    "tip": "When asked how body image may influence participation, use two clear examples, such as feeling watched or judged in revealing kit, and fear of becoming too muscular."
    },
    {
+    "b": "Boys face pressure from their ideal body too, but it pushes them in a different direction: towards building size, and away from anything that exposes a body that does not fit.",
     "h": "How body image influences male participation",
     "points": [
-     "Pressure to be muscular pushes boys towards weight training and away from activities seen as unmasculine.",
-     "Boys who feel too small, too heavy or unathletic may avoid team sports and changing rooms."
-    ]
+     "Pressure to be muscular pushes boys towards weight training and away from activities seen as unmasculine (not fitting the accepted idea of what boys do).",
+     "Boys who feel too small, too heavy or unathletic may avoid team sports and changing rooms, because both put their bodies on show and invite comparison with others."
+    ],
+    "tip": "Exams ask how body image may affect young men's participation as well as young women's, so have a male example ready, not just female ones."
    },
    {
+    "b": "Putting the female and male examples together, the pattern is the same for both sexes: how you feel about your body decides whether activity feels open to you or closed off.",
     "h": "Body image as a barrier or a support for both sexes",
     "points": [
-     "Negative body image is a barrier to joining and staying in physical activity for both males and females.",
-     "Positive body image supports joining and staying in physical activity for both males and females."
+     "Negative body image is a barrier to joining and staying in physical activity for both males and females, because feeling judged or inadequate makes people avoid situations where their body is on show.",
+     "Positive body image supports joining and staying in physical activity for both males and females, because people who are comfortable with their body are more willing to take part."
     ]
    },
    {
+    "b": "The influence runs both ways. Taking part in physical activity can improve how people feel about their body, but some activities can damage it.",
     "h": "How participation influences body image",
     "points": [
-     "Positive effect: regular activity improves fitness, competence and self-esteem.",
-     "Positive effect: it shifts attention from how the body looks to what it can do, known as body functionality.",
-     "Negative effect: activities that emphasise weight or appearance, such as gymnastics, dance, distance running, weight-category sports and bodybuilding, can lead to unhealthy dieting, disordered eating or excessive exercise.",
+     "Positive effect: regular activity improves fitness, competence (feeling able at a skill) and self-esteem (how much you value yourself).",
+     "Positive effect: it shifts attention from how the body looks to what it can do, known as body functionality. A body judged by what it can achieve is less likely to be judged on appearance alone.",
+     "Negative effect: activities that emphasise weight or appearance, such as gymnastics, dance, distance running, weight-category sports (where athletes must make a set weight) and bodybuilding, can lead to unhealthy dieting, disordered eating (unhealthy eating patterns) or excessive exercise.",
      "Muscle dysmorphia: in males, the belief that one's body is too small despite being muscular, an extreme effect of body image pressure."
-    ]
+    ],
+    "tip": "If asked how female body image can be influenced by participation, give both sides: the positive effects of fitness, competence, self-esteem and body functionality, and the negative effects in activities that emphasise weight or appearance. Keep the negative effects to a brief statement, with no clinical detail."
    },
    {
+    "b": "The media (the channels that carry images and stories to the public) are a major source of body ideals. What they show, and who they show, shapes what young people think bodies and sports are for.",
     "h": "Media representations of male and female bodies",
     "points": [
      "Media, including TV, magazines, advertising and social media, show narrow, idealised bodies: thin and toned women, and lean muscular men.",
-     "Many images are edited or filtered, so the bodies they show are not a realistic picture of typical bodies.",
-     "Female athletes are more often shown for appearance, sexualised poses or personal life, while male athletes are more often shown for power, strength and action.",
-     "Social media lets young people compare themselves constantly with idealised images, including those posted by influencers and fitness accounts.",
-     "Male athletes in aesthetic activities and female athletes in power and contact sports are shown less often, which reinforces ideas about which activities suit each gender."
-    ]
+     "Many images are edited or filtered, so the bodies they show are not a realistic picture of typical bodies. A fitness influencer's edited photos are one example.",
+     "Female athletes are more often shown for appearance, sexualised poses (poses that present the body as sexually attractive) or personal life, while male athletes are more often shown for power, strength and action.",
+     "Social media lets young people compare themselves constantly with idealised images, including those posted by influencers (people with large online followings) and fitness accounts.",
+     "Male athletes in aesthetic activities (where appearance or artistic movement is judged) and female athletes in power and contact sports are shown less often, which reinforces ideas about which activities suit each gender."
+    ],
+    "tip": "Exams ask you to describe two ways media representation of the body may affect young people's participation, and how it may affect young men's participation. Pick two of the points above, such as constant social media comparison or sexualised images of female athletes, and say what each does to participation."
    },
    {
+    "b": "Media images can pull young people towards activity or push them away. A good answer gives both sides and then reaches a reasoned conclusion.",
     "h": "Debate: do media representations help or hinder participation?",
     "points": [
      "Hinder: unattainable ideals lower body satisfaction, and young people who do not match them can feel excluded from activity.",
-     "Hinder: when activity is framed as a way to change appearance rather than for enjoyment and health, the motivation is weak and fragile.",
+     "Hinder: when activity is framed as a way to change appearance rather than for enjoyment and health, the motivation is weak and fragile, so people give up when the appearance goal is not met.",
      "Hinder: sexualised images of women can discourage girls from taking part.",
      "Help: images of fit, healthy athletes can inspire young people to start and keep going.",
      "Help: greater coverage of diverse body types and of women's sport shows that bodies of many shapes and sizes perform well.",
      "Help: athletes who speak openly about body confidence challenge narrow ideals.",
-     "Verdict: the effect depends on focus; images that emphasise performance and diversity encourage participation, while images that emphasise appearance and narrow ideals discourage it."
-    ]
+     "Verdict: the effect depends on focus. Images that emphasise performance and diversity encourage participation, while images that emphasise appearance and narrow ideals discourage it."
+    ],
+    "tip": "Keep the debate balanced: give both sides, then a conclusion. If asked to discuss whether showcasing lean women and muscular men promotes participation (Higher Level), weigh both sides and finish with the verdict that it depends on whether the focus is performance and diversity or appearance and narrow ideals."
    },
    {
+    "b": "Schools and the media can reduce the harm of narrow body ideals. Each response below tackles one cause of negative body image.",
     "h": "Responses to negative body image and media effects",
     "points": [
-     "Media literacy education: teaching young people how images are edited and selected, so they can read them critically.",
-     "Representation: media and schools using a wide range of body types in images and teaching materials.",
-     "Coverage that focuses on skill and achievement rather than appearance.",
-     "Comfortable kit choices that let young people move without feeling exposed.",
-     "PE that values effort and enjoyment over appearance."
+     "Media literacy education: teaching young people how images are edited and selected, so they can read them critically and see that they are not realistic.",
+     "Representation: media and schools using a wide range of body types in images and teaching materials, so young people see bodies like their own taking part.",
+     "Coverage that focuses on skill and achievement rather than appearance, so that athletes are valued for what they do.",
+     "Comfortable kit choices that let young people move without feeling exposed, which removes one reason for self-conscious students to avoid activity.",
+     "PE that values effort and enjoyment over appearance, so that how the body looks does not decide who feels able to take part."
     ]
    }
   ],
@@ -5317,108 +5884,126 @@
   ],
   "notes": [
    {
-    "b": "Gender socialisation shapes which activities young people see as open to them.",
+    "b": "Gender socialisation shapes which activities young people see as open to them. To understand why boys and girls take part in sport differently, start with how children learn what is expected of them.",
     "h": "Socialisation and gender socialisation",
     "points": [
-     "Socialisation: the lifelong process of learning the norms, values and behaviour expected in a society.",
-     "Gender socialisation: learning what is seen as appropriate for boys and men, and for girls and women."
+     "Socialisation is the lifelong process of learning the norms (the unwritten rules about how to act), values and behaviour expected in a society. It goes on throughout life, not only in childhood.",
+     "Gender socialisation is the part of that learning that tells you what is seen as appropriate for boys and men, and for girls and women. This is why a child may rule out an activity before ever trying it."
     ]
    },
    {
+    "b": "An agent of socialisation is a person or group that passes these expectations on. Each agent below teaches children, often without meaning to, which activities suit their sex.",
     "h": "Agents of gender socialisation",
     "points": [
-     "Family: the toys children are given, the activities encouraged and the behaviour praised.",
-     "Peers: friends reward behaviour that fits gender norms and mock behaviour that does not.",
-     "School: the activities offered and the expectations teachers hold.",
-     "Media: the images of male and female athletes that young people see.",
+     "Family: the toys children are given, the activities encouraged and the behaviour praised. Children learn what earns approval at home.",
+     "Peers (friends of the same age): they reward behaviour that fits gender norms and mock behaviour that does not, so children copy what their friends accept.",
+     "School: the activities offered and the expectations teachers hold. What is on offer, and who is expected to do it, tells pupils what is normal.",
+     "Media: the images of male and female athletes that young people see. There is more on this in Gender, media and body image.",
      "Sports clubs and coaches: the activities offered and the language used with boys and girls.",
      "Religion and culture: the roles and behaviour a community treats as proper for each sex."
-    ]
+    ],
+    "tip": "Name the agent and say what it does, for example family through toys, activities encouraged and praise, or school through activities offered and teacher expectations."
    },
    {
+    "b": "These everyday examples show socialisation at work: small differences in what children are given and told add up to different sporting habits.",
     "h": "Examples of gender socialisation in sport",
     "points": [
-     "Boys are given footballs and encouraged to be rough and competitive.",
-     "Girls are given dance classes and praised for being neat and graceful.",
-     "Comments such as 'throws like a girl' teach children that some physical skills belong to one sex."
+     "Boys are given footballs and encouraged to be rough and competitive, so they learn that sport and aggression suit boys.",
+     "Girls are given dance classes and praised for being neat and graceful, so they learn that looking good while moving is what is expected of girls.",
+     "Comments such as 'throws like a girl' teach children that some physical skills belong to one sex, and that doing them 'like a girl' is an insult."
     ]
    },
    {
+    "b": "Society does not only teach roles, it also sets rules about bodies. Social regulation of the body is the idea that these rules decide which physical activity people feel they may take part in, and the past shows this clearly for women.",
     "h": "Social regulation of the body: definition and history",
     "points": [
-     "Social regulation of the body: the way society, through its norms, expectations, rules and media images, defines how bodies should look, move and behave.",
-     "This regulation determines which physical activity people feel is appropriate or available to them.",
-     "Past: women were historically excluded or restricted, for example barred from some events and clubs.",
-     "Past: women's competition distances were limited and dress rules restricted their participation.",
-     "Past: a belief that strenuous exercise harmed women's health discouraged women from taking part.",
-     "Women's boxing was first included in the Olympic Games in 2012, in London."
-    ]
+     "Social regulation of the body is the way society, through its norms, expectations, rules and media images, defines how bodies should look, move and behave.",
+     "This regulation determines which physical activity people feel is appropriate or available to them, so it limits participation before a person has even chosen.",
+     "In the past, women were historically excluded or restricted, for example barred from some events and clubs.",
+     "In the past, women's competition distances were limited and dress rules restricted their participation.",
+     "In the past, a belief that strenuous exercise harmed women's health discouraged women from taking part.",
+     "Women's boxing was first included in the Olympic Games in 2012, in London, which shows how recently some barriers were lifted."
+    ],
+    "tip": "If asked what social regulation of the body is, define it using norms, expectations, rules and media images, then link it to which activity people feel is appropriate or available. For the past, give examples of exclusion and restriction for women."
    },
    {
+    "b": "The old formal bans have largely gone, but the regulation continues in softer forms that still affect who takes part and in what.",
     "h": "Social regulation of the body today",
     "points": [
-     "Dress codes and kit expectations set out what women and men should wear to take part.",
-     "Muscular women, and men who take part in activities seen as feminine, are judged or criticised.",
-     "Unequal provision and pay for women's sport persist.",
-     "Appearance expectations continue to shape which activities people feel comfortable taking part in."
-    ]
+     "Dress codes and kit expectations set out what women and men should wear to take part, so people who dislike or feel uneasy in the required kit may stay away.",
+     "Muscular women, and men who take part in activities seen as feminine, are judged or criticised, which punishes people who step outside the norm.",
+     "Unequal provision (the facilities, teams and opportunities offered) and unequal pay for women's sport persist.",
+     "Appearance expectations continue to shape which activities people feel comfortable taking part in. There is more on this in Gender, media and body image."
+    ],
+    "tip": "Discuss the effect on both men and women, not only women. Use the present-day examples here for the continuing part of the question."
    },
    {
+    "b": "Social regulation does not affect only one sex. It pushes women and men towards different activities, and each group pays a price.",
     "h": "Effects of social regulation on women and men",
     "points": [
-     "For women: girls are steered away from contact, power and strength sports and from visible muscle.",
-     "For women: women practise self-surveillance, constantly monitoring and judging their appearance.",
-     "For women: these pressures contribute to drop-out in adolescence.",
-     "For men: pressure to be strong, tough and competitive.",
+     "For women: girls are steered away from contact, power and strength sports and from visible muscle, because these are not seen as suited to women.",
+     "For women: self-surveillance, meaning constantly monitoring and judging their own appearance, takes attention away from enjoying the activity.",
+     "For women: these pressures contribute to drop-out (giving up sport) in adolescence.",
+     "For men: pressure to be strong, tough and competitive, whether or not they want to be.",
      "For men: avoidance of dance, gymnastics and synchronised swimming, which are seen as feminine.",
-     "For men: pressure to play through pain and injury.",
+     "For men: pressure to play through pain and injury, rather than stop and look after themselves.",
      "For men: reluctance to show weakness or seek help."
-    ]
+    ],
+    "tip": "A question on how social regulation affects participation expects both men and women, so give effects for each."
    },
    {
+    "b": "Hegemonic means dominant and widely accepted. Hegemonic masculinity is the ideal of manhood that a society holds up above all others, and it sets a standard that boys and men are judged against.",
     "h": "Hegemonic masculinity: definition and characteristics",
     "points": [
-     "Hegemonic masculinity: the dominant, widely accepted idea of what it means to be a man in a society, treated as the norm against which men are measured.",
-     "It is a standard that individual men are measured against; it does not describe all men.",
-     "The concept was developed by the sociologist R. W. Connell.",
-     "Characteristics: physical strength, toughness, aggression, competitiveness, dominance, emotional restraint, risk-taking and heterosexuality."
-    ]
+     "Hegemonic masculinity is the dominant, widely accepted idea of what it means to be a man in a society, treated as the norm against which men are measured.",
+     "It is a standard that individual men are measured against; it does not describe all men, so many men do not match it.",
+     "The concept was developed by the sociologist (a researcher who studies society) R. W. Connell.",
+     "Characteristics: physical strength, toughness, aggression, competitiveness, dominance, emotional restraint (not showing feelings), risk-taking and heterosexuality (attraction to women)."
+    ],
+    "tip": "Do not write that hegemonic masculinity means all men. It means the dominant, widely accepted ideal. When asked to explain it, give the definition and the characteristics."
    },
    {
+    "b": "Because this ideal links manhood with strength and toughness, it rewards some boys, penalises others, and also changes how girls are seen when they play sport.",
     "h": "Hegemonic masculinity: impact on boys and girls",
     "points": [
-     "For boys: boys who fit the ideal gain high status in contact team sports.",
-     "For boys: boys who are less sporty or prefer aesthetic activities are excluded or ridiculed.",
-     "For boys: boys are encouraged to play through injury and violence.",
-     "For boys: boys who do not fit the ideal may drop out.",
+     "For boys: boys who fit the ideal gain high status in contact team sports, which rewards them for matching the ideal.",
+     "For boys: boys who are less sporty or prefer aesthetic activities (ones where how movement looks matters, such as dance) are excluded or ridiculed.",
+     "For boys: boys are encouraged to play through injury and violence, because toughness is part of the ideal.",
+     "For boys: boys who do not fit the ideal may drop out of sport.",
      "For girls: sport itself is defined as masculine, so girls who play are seen as less feminine.",
      "For girls: women's sport is treated as second-rate."
-    ]
+    ],
+    "tip": "Always answer for both boys and girls. Pick characteristics such as strength, toughness or competitiveness and explain how each affects participation."
    },
    {
+    "b": "Alongside the ideal man there is an ideal woman. Hegemonic femininity is the matching standard for girls and women, and it points them towards different activities.",
     "h": "Hegemonic femininity: definition and characteristics",
     "points": [
-     "Hegemonic femininity: the dominant, widely accepted idea of what it means to be a woman in a society, treated as the norm against which women are measured.",
+     "Hegemonic femininity is the dominant, widely accepted idea of what it means to be a woman in a society, treated as the norm against which women are measured.",
      "It is a standard that individual women are measured against; it does not describe all women.",
-     "Characteristics: slimness, grace, attractiveness and an appearance focus, gentleness, passivity and non-aggression, caring and deference."
-    ]
+     "Characteristics: slimness, grace, attractiveness and an appearance focus, gentleness, passivity (taking a quiet, receptive role) and non-aggression, caring and deference (giving way to others)."
+    ],
+    "tip": "Hegemonic means dominant and widely accepted, not all women. You may be asked to identify two characteristics and explain why they might affect girls' participation, so link each one to a sporting effect."
    },
    {
+    "b": "The ideal of femininity affects girls most directly, but it also shapes what boys feel able to do.",
     "h": "Hegemonic femininity: impact on girls and boys",
     "points": [
      "For girls: activities that are aggressive, muscular, sweaty or contact-based seem unfeminine, so girls avoid them or drop out.",
-     "For girls: an emphasis on appearance leads to self-consciousness about how they look while taking part.",
-     "For girls: they are channelled into aesthetic activities, such as dance or gymnastics.",
+     "For girls: an emphasis on appearance leads to self-consciousness (worry about being watched and judged) about how they look while taking part.",
+     "For girls: they are channelled into aesthetic activities, such as dance or gymnastics, which fit the ideal of grace.",
      "For boys: activities linked to femininity, such as dance and gymnastics, are avoided for fear of ridicule."
-    ]
+    ],
+    "tip": "Both ideals affect both boys and girls, so cover both in your answer. Higher Level questions can ask you to explain hegemonic masculinity and hegemonic femininity together."
    },
    {
+    "b": "Gender norms are learned, so they can be changed. These steps help boys and girls choose activities freely.",
     "h": "Challenging these norms",
     "points": [
-     "Visible role models who break stereotypes, such as women playing rugby, boxing and Gaelic games, and men taking part in dance.",
-     "Equal provision and media coverage for women's and men's sport.",
-     "Mixed and choice-based PE, so boys and girls can choose activities without gender labels.",
-     "Coaches and teachers who challenge stereotyped comments as they happen."
+     "Visible role models who break stereotypes, such as women playing rugby, boxing and Gaelic games, and men taking part in dance, show young people that these activities are open to everyone.",
+     "Equal provision and media coverage for women's and men's sport, so women's sport is no longer treated as second-rate.",
+     "Mixed and choice-based PE (physical education), so boys and girls can choose activities without gender labels.",
+     "Coaches and teachers who challenge stereotyped comments as they happen, so comments like 'throws like a girl' do not go unchallenged."
     ]
    }
   ],
@@ -5520,53 +6105,61 @@
   ],
   "notes": [
    {
+    "b": "Three terms are easy to mix up: skill, technique and skilled performance. Each describes a different thing, and the exam asks you to define them.",
     "h": "Skill, technique and a skilled performance",
     "points": [
-     "Skill: a learned ability to bring about a predetermined result with maximum certainty and the minimum outlay of time and/or energy. Barbara Knapp (1963) defined it as the learned ability to bring about pre-determined results with maximum certainty, often with the minimum outlay of time or energy or both.",
-     "A skill is learned through practice and is goal-directed: the performer knows the result they want before they start.",
-     "Technique: the way a skill is executed, meaning the specific movement pattern used. Two players can both have the skill of a basketball free throw but use different techniques, such as a one-handed or two-handed release.",
-     "The specification defines a skilled performance as one in which a sequence of movements is performed in a fluent and controlled manner, the right options are selected, and the skills and techniques used fully reflect the performer's ability and experience.",
-     "A skilled performance therefore includes decision-making, not only movement quality: a perfectly struck pass to a marked team-mate is not a skilled performance."
-    ]
+     "Skill is a learned ability to bring about a predetermined result (one decided in advance) with maximum certainty and the minimum outlay of time and/or energy.",
+     "Barbara Knapp (1963) defined skill as the learned ability to bring about pre-determined results with maximum certainty, often with the minimum outlay of time or energy or both.",
+     "A skill is learned through practice and is goal-directed, which means the performer knows the result they want before they start.",
+     "Technique is the way a skill is executed, meaning the specific movement pattern used. Two players can both have the skill of a basketball free throw (an uncontested shot at the basket) but use different techniques, such as a one-handed or two-handed release.",
+     "The specification defines a skilled performance as one in which a sequence of movements is performed in a fluent (smooth) and controlled manner, the right options are selected, and the skills and techniques used fully reflect the performer's ability and experience.",
+     "A skilled performance therefore includes decision-making, not only movement quality, because choosing the right option is part of the definition. A perfectly struck pass to a marked team-mate (one closely guarded by a defender) is not a skilled performance."
+    ],
+    "tip": "You may be asked to define skill, so learn Knapp's wording or a close paraphrase of it. Keep skill (the learned result-seeking ability) separate from technique (the way it is executed)."
    },
    {
-    "b": "Each characteristic can be seen in a named skill such as the basketball jump shot, the Gaelic football solo or the tennis serve.",
+    "b": "You can recognise a skilled performance by a set of features. Each can be seen in a named skill such as the basketball jump shot (a shot taken while jumping), the Gaelic football solo (running while dropping the ball onto the foot and kicking it back to the hand) or the tennis serve.",
     "h": "Characteristics of a skilled performance",
     "points": [
-     "Consistent: the outcome can be repeated reliably, even under pressure late in a match; a skilled free-taker scores from similar positions again and again.",
+     "Consistent: the outcome can be repeated reliably, even under pressure late in a match. A skilled free-taker scores from similar positions again and again.",
      "Accurate and precise: the intended outcome is achieved, such as a tennis serve landing in the chosen corner of the service box.",
      "Fluent and well co-ordinated: movements flow smoothly from one phase to the next with good timing, such as the run-up, gather and release of a jump shot.",
-     "Controlled: the performer is in control of the body and any implement throughout, such as keeping the ball close while soloing at speed.",
-     "Efficient: no wasted movement or energy is used (economy of movement, covered fully in the notes on movement and quality perspectives).",
+     "Controlled: the performer is in control of the body and any implement (equipment such as a racket or hurley) throughout, such as keeping the ball close while soloing at speed.",
+     "Efficient: no wasted movement or energy is used, which is called economy of movement. There is more on this in the notes on movement and quality perspectives.",
      "Aesthetically pleasing: the movement looks good to an observer, which matters most in judged activities such as gymnastics and dance.",
-     "Adaptable: the right option is chosen and the skill is adjusted to the situation, using anticipation and reading of the play, such as switching from a shot to a pass when a defender closes in.",
+     "Adaptable: the right option is chosen and the skill is adjusted to the situation, using anticipation (predicting what will happen next) and reading of the play, such as switching from a shot to a pass when a defender closes in.",
      "Learned and goal-directed: the movement results from practice and has a clear intended outcome.",
-     "A novice shows the opposite features: movements are jerky and inconsistent, errors are frequent, and decisions are slow or wrong."
-    ]
+     "A novice (beginner) shows the opposite features: movements are jerky and inconsistent, errors are frequent, and decisions are slow or wrong."
+    ],
+    "tip": "Exams ask you to identify two or four characteristics, sometimes for highly skilled athletes in a photograph. At Higher Level you must explain each characteristic, not just name it, so add a short example from a named skill."
    },
    {
+    "b": "Skill depends on something the performer already has before any practice: ability. Ability is a different thing from skill.",
     "h": "Ability",
     "points": [
-     "Ability: an inherited (innate), stable and enduring trait that a person brings to the learning of skills.",
-     "Abilities underpin skills and set a person's potential in an activity.",
-     "Edwin Fleishman classified motor abilities into two groups: perceptual-motor abilities, such as reaction time, co-ordination, balance and spatial awareness, and physical proficiency abilities, such as strength, flexibility and stamina.",
-     "Each skill draws on several abilities: a tennis serve needs co-ordination, timing, power and flexibility.",
-     "One ability supports many skills: good hand-eye co-ordination helps with catching, striking a sliotar and returning a serve."
-    ]
+     "Ability is an inherited (innate, meaning born with), stable and enduring trait that a person brings to the learning of skills. It is not how good someone is at a sport, because that is skill level.",
+     "Abilities underpin skills (skills are built on them) and set a person's potential in an activity.",
+     "Edwin Fleishman classified motor abilities (abilities used in movement) into two groups: perceptual-motor abilities, such as reaction time, co-ordination, balance and spatial awareness, and physical proficiency abilities, such as strength, flexibility and stamina.",
+     "Each skill draws on several abilities. A tennis serve, for example, needs co-ordination, timing, power and flexibility.",
+     "One ability supports many skills. Good hand-eye co-ordination, for example, helps with catching, striking a sliotar and returning a serve."
+    ],
+    "tip": "When you define ability, say it is inherited, stable and enduring. Do not define it as how good someone is at a sport, because that is skill level."
    },
    {
+    "b": "Skill and ability are linked but they are not the same thing. Comparing them on origin, change and relationship gives a clear answer to the question of whether they are the same.",
     "h": "The difference between skill and ability",
     "points": [
-     "Origin: skill is learned; ability is largely inherited.",
-     "Change: skill can develop quickly with practice; ability is relatively stable and changes only slowly, influenced by genetics and early development.",
+     "Origin: skill is learned, whereas ability is largely inherited.",
+     "Change: skill can develop quickly with practice, whereas ability is relatively stable and changes only slowly, influenced by genetics and early development.",
      "Relationship: skills are built on abilities, and ability decides how quickly and how far a skill can be developed.",
-     "Example: a young basketball player with excellent co-ordination and speed (abilities) still has to practise to develop a reliable lay-up (skill).",
-     "Natural ability alone is not enough to succeed: without practice, coaching, feedback and psychological preparation, ability is never turned into a skilled performance.",
-     "A less gifted performer who practises well and is well coached can outperform a more gifted performer who does not."
-    ]
+     "Example: a young basketball player with excellent co-ordination and speed (abilities) still has to practise to develop a reliable lay-up (a close-range shot played off the backboard, a skill).",
+     "Natural ability alone is not enough to succeed. Without practice, coaching, feedback and psychological preparation, ability is never turned into a skilled performance.",
+     "A less gifted performer who practises well and is well coached can outperform a more gifted performer who does not, because practice develops the skill that ability only makes possible."
+    ],
+    "tip": "If asked whether skill and ability are the same thing, say no and justify it using origin, change and relationship. If asked whether someone can succeed with just natural ability, say no and name practice, coaching, feedback and psychological preparation. Do not say ability cannot change at all: it is relatively stable."
    },
    {
-    "b": "Most skills sit somewhere between the two extremes of each type, so each is a continuum. The types decide which practice methods suit a skill.",
+    "b": "Skills can be sorted into types, and most skills sit somewhere between the two extremes of each type, so each is a continuum (a scale with two ends). The types decide which practice methods suit a skill.",
     "h": "Types of skill",
     "points": [
      "Open skill: performed in an unpredictable environment that the performer must react to, and usually externally paced, such as passing in a game.",
@@ -5574,19 +6167,21 @@
      "Discrete skill: has a clear beginning and end, such as a penalty kick.",
      "Serial skill: a series of discrete elements linked in order, such as the hop, step and jump of a triple jump.",
      "Continuous skill: has no clear beginning or end, and each movement cycle runs into the next, such as running or swimming.",
-     "Gross skill: uses large muscle groups and whole-body movement, such as a shot-put.",
+     "Gross skill: uses large muscle groups and whole-body movement, such as a shot-put (throwing a heavy metal ball).",
      "Fine skill: uses small muscle groups for precise, delicate movement, such as a snooker shot or a dart throw.",
-     "Self-paced skill: the performer decides when to start and how fast to go, such as a tennis serve.",
-     "Externally paced skill: the timing is set by the environment or opponents, such as receiving a serve."
-    ]
+     "Self-paced skill: the performer decides when to start and how fast to go, such as a tennis serve. Externally paced skill: the timing is set by the environment or opponents, such as receiving a serve."
+    ],
+    "tip": "Practice types and the stages of learning belong to skill acquisition, so here just be able to name each type of skill and give an example."
    },
    {
+    "b": "Exam questions ask you to take one activity and explain why particular skills help performance. Basketball gives three clear examples, each linked to its benefit.",
     "h": "Applying skills to a named activity: basketball",
     "points": [
-     "Jump shot: scores points from mid-range and over a defender, so the team can score when the defence is set.",
-     "Bounce pass: keeps possession by passing below a defender's reach to a team-mate cutting to the basket.",
-     "Defensive slide: lets a defender stay between the attacker and the basket without crossing the feet, preventing penetration."
-    ]
+     "Jump shot: scores points from mid-range and over a defender, so the team can score when the defence is set (organised and in position).",
+     "Bounce pass: keeps possession by passing below a defender's reach to a team-mate cutting to the basket (running towards it to receive the ball).",
+     "Defensive slide: lets a defender stay between the attacker and the basket without crossing the feet, preventing penetration (the attacker getting through to the basket)."
+    ],
+    "tip": "You may be asked to identify three skills from a named activity and explain why each benefits performance. Name the skill, then give its benefit, as in each point here."
    }
   ],
   "questions": [
@@ -5695,63 +6290,82 @@
   ],
   "notes": [
    {
+    "b": "To analyse a skill from the biomechanical perspective you need two things: a science that explains how forces shape movement, and an agreed starting posture so that everyone describes movement the same way.",
     "h": "Biomechanics and the anatomical position",
     "points": [
-     "Biomechanics: the study of the forces acting on and produced by the body and their effects on movement.",
-     "Uses in analysing skill: improving technique, reducing the risk of injury and informing the design of equipment.",
-     "The anatomical position is the reference for describing movement: standing upright, facing forward, arms by the sides and palms facing forward.",
-     "A plane is a flat surface passing through the body in which a movement takes place.",
-     "An axis is an imaginary line about which the body or a limb rotates. Each plane pairs with the axis at right angles to it."
+     "Biomechanics is the study of the forces acting on and produced by the body and their effects on movement. A force is a push or pull, so this covers both what moves you and what you push against.",
+     "In analysing skill, biomechanics is used to improve technique, to reduce the risk of injury and to inform the design of equipment.",
+     "The anatomical position is the reference for describing movement: standing upright, facing forward, arms by the sides and palms facing forward. Every movement is described as a change from this position.",
+     "A plane is a flat surface passing through the body in which a movement takes place. Think of an imaginary sheet of glass slicing through you.",
+     "An axis is an imaginary line about which the body or a limb rotates, like the rod a wheel spins on. Each plane pairs with the axis at right angles to it."
     ]
    },
    {
+    "b": "Planes and axes are matched to movements, so you first need the names of the basic joint actions (the ways a joint can move). Each name is paired below with a sporting example.",
     "h": "Joint actions used to describe movement",
     "points": [
-     "Flexion: bending at a joint so the angle decreases, such as bending the elbow.",
+     "Flexion: bending at a joint so the angle between the bones decreases, such as bending the elbow.",
      "Extension: straightening at a joint so the angle increases, such as straightening the knee to kick.",
-     "Abduction: movement away from the midline of the body, such as raising the arm sideways.",
+     "Abduction: movement away from the midline of the body (the imaginary vertical line down the centre of the body), such as raising the arm sideways.",
      "Adduction: movement towards the midline, such as bringing the arm back to the side.",
-     "Rotation: turning a body part around its long axis, such as turning the trunk in a golf swing.",
-     "Plantar flexion: pointing the toes, as in rising onto the toes; dorsiflexion: pulling the toes up towards the shin."
+     "Rotation: turning a body part around its long axis, such as turning the trunk (the torso) in a golf swing.",
+     "Plantar flexion: pointing the toes, as in rising onto the toes. Dorsiflexion: pulling the toes up towards the shin, the opposite action."
     ]
    },
    {
+    "b": "The body has three planes, and each one is paired with one axis at right angles to it. Each plane is linked to particular joint actions, which is how you work out which plane a movement happens in.",
     "h": "The three planes and their axes",
     "points": [
-     "Sagittal plane: divides the body into left and right sides. Movements are flexion and extension. The axis is the transverse axis (also called the frontal or medial-lateral axis), which runs from side to side.",
-     "Sagittal plane examples: the leg action in running, a biceps curl, a squat, kicking a ball straight ahead, a forward roll, a front somersault.",
-     "Frontal (coronal) plane: divides the body into front and back. Movements are abduction, adduction and lateral flexion. The axis is the sagittal axis (also called the antero-posterior axis), which runs from front to back.",
-     "Frontal plane examples: a cartwheel, a star jump, a side-step, a side bend.",
-     "Transverse (horizontal) plane: divides the body into upper and lower halves. The movement is rotation. The axis is the longitudinal (vertical) axis, which runs from head to toe.",
-     "Transverse plane examples: the turns of a discus or hammer thrower, a golf swing, a pirouette, a full twist in trampolining.",
+     "Sagittal plane: divides the body into left and right sides. Its movements are flexion and extension. Its axis is the transverse axis (also called the frontal or medial-lateral axis), which runs from side to side.",
+     "Sagittal plane examples: the leg action in running, a biceps curl, a squat, kicking a ball straight ahead, a forward roll and a front somersault. All of these bend and straighten joints in a forward-and-back direction.",
+     "Frontal (coronal) plane: divides the body into front and back. Its movements are abduction, adduction and lateral flexion (bending sideways). Its axis is the sagittal axis (also called the antero-posterior axis), which runs from front to back.",
+     "Frontal plane examples: a cartwheel, a star jump, a side-step and a side bend. Each moves the body or limbs out to the side or bends sideways.",
+     "Transverse (horizontal) plane: divides the body into upper and lower halves. Its movement is rotation. Its axis is the longitudinal (vertical) axis, which runs from head to toe.",
+     "Transverse plane examples: the turns of a discus or hammer thrower, a golf swing, a pirouette (a spin on one foot in dance) and a full twist in trampolining. Each is a turn about a vertical line.",
      "The pairs never change: sagittal plane with transverse axis; frontal plane with sagittal axis; transverse plane with longitudinal axis."
-    ]
+    ],
+    "tip": "Never pair a plane with the axis of the same name, such as sagittal plane with sagittal axis. Some textbooks call the transverse axis the frontal axis, so give both names once and then stick to one. A discus or hammer turn is the transverse plane, not the frontal plane."
    },
    {
+    "b": "Exam questions give you a movement and ask for its plane and axis. The method is to decide which joint action the movement is, then use the fixed pairing from the last block.",
     "h": "Applying planes and axes to a named movement",
     "points": [
      "Hammer throw: the thrower's turns in the circle are rotation, so they are in the transverse plane about the longitudinal axis.",
-     "Discus: the spin that builds speed before release is also rotation in the transverse plane about the longitudinal axis; a pirouette in dance occurs in the same plane and axis.",
-     "Gymnastics: a forward roll is flexion of the spine and hips, so it is in the sagittal plane about the transverse axis; a cartwheel is in the frontal plane about the sagittal axis.",
+     "Discus: the spin that builds speed before release is also rotation in the transverse plane about the longitudinal axis. A pirouette in dance occurs in the same plane and axis because it is also a turn about a vertical line.",
+     "Gymnastics: a forward roll is flexion of the spine and hips, so it is in the sagittal plane about the transverse axis. A cartwheel is in the frontal plane about the sagittal axis.",
      "To justify an answer, name the movement (flexion, abduction, rotation) and match it to its plane and axis."
-    ]
+    ],
+    "tip": "You may be asked for the plane and axis of a described movement, such as a discus spin or hammer turn, and then for another movement from a different activity in the same or a different plane and axis, with an explanation. You may also be asked to name two planes and describe each with a sporting example."
    },
    {
-    "b": "A lever is a rigid bar that turns about a fixed point. The class depends on which part is in the middle: 1st class fulcrum, 2nd class load, 3rd class effort (memory aid 1, 2, 3 = F, L, E).",
+    "b": "A lever is a rigid bar that turns about a fixed point. The class of a lever depends on which part is in the middle: 1st class fulcrum, 2nd class load, 3rd class effort (memory aid 1, 2, 3 = F, L, E).",
     "h": "Levers in the body",
     "points": [
-     "In the body: the bone is the lever (bar), the joint is the fulcrum (pivot), muscle contraction provides the effort, and the weight of the body part plus anything held or struck is the load (resistance).",
-     "First-class lever (fulcrum in the middle): nodding the head, with the neck joint as fulcrum, the neck muscles as effort and the weight of the head as load.",
-     "First-class lever: extension of the elbow by the triceps, with the elbow as fulcrum, the triceps pulling behind it as effort, and the forearm, hand and ball as load, as in a soccer throw-in or the follow-through of a basketball set shot.",
-     "Second-class lever (load in the middle): plantar flexion of the ankle when rising onto the toes, with the ball of the foot as fulcrum, body weight through the ankle as load, and the calf muscle (gastrocnemius) pulling on the heel through the Achilles tendon as effort.",
-     "Second-class sporting examples: the push-off in a sprint start and the take-off in a jump.",
-     "Third-class lever (effort in the middle): elbow flexion by the biceps, with the elbow as fulcrum, the biceps attached just below it as effort and the forearm, hand and any weight as load, as in a biceps curl.",
-     "Third-class lever: knee extension by the quadriceps when kicking a ball, with the knee as fulcrum, the quadriceps pulling just below the knee as effort, and the lower leg, foot and ball as load.",
+     "In the body the bone is the lever (the bar), the joint is the fulcrum (the pivot it turns about) and muscle contraction provides the effort (the force that does the moving).",
+     "The load (the resistance) is the weight of the body part plus anything held or struck, such as a ball.",
+     "To identify the class, ask which of the three parts sits between the other two: fulcrum in the middle is 1st class, load in the middle is 2nd class, effort in the middle is 3rd class.",
      "Most levers in the body are third class.",
      "Diagram: draw the bar, mark the fulcrum as a triangle, the effort as an arrow showing the muscle's pull, the load as an arrow showing the weight, and the direction of movement."
-    ]
+    ],
+    "tip": "Exams ask you to label load, effort and fulcrum on a diagram and identify the class of lever, and to name the body parts acting as fulcrum, effort and load for a named lever. Keep to the single muscle providing the effort."
    },
    {
+    "b": "Each class has standard body examples. Learn which part is the fulcrum, effort and load in each, because exams ask you to identify them and to name the joint action.",
+    "h": "Examples of first-, second- and third-class levers",
+    "points": [
+     "First-class lever (fulcrum in the middle): nodding the head, with the neck joint as fulcrum, the neck muscles as effort and the weight of the head as load.",
+     "First-class lever: extension of the elbow by the triceps (the muscle at the back of the upper arm), with the elbow as fulcrum, the triceps pulling behind it as effort, and the forearm, hand and ball as load.",
+     "That first-class elbow extension is the arm action in a soccer throw-in or the follow-through of a basketball set shot.",
+     "Second-class lever (load in the middle): plantar flexion of the ankle when rising onto the toes, with the ball of the foot as fulcrum and body weight through the ankle as load.",
+     "In that second-class example the effort comes from the calf muscle (gastrocnemius) pulling on the heel through the Achilles tendon, the tendon at the back of the heel.",
+     "Second-class sporting examples: the push-off in a sprint start and the take-off in a jump.",
+     "Third-class lever (effort in the middle): elbow flexion by the biceps (the muscle at the front of the upper arm), with the elbow as fulcrum, the biceps attached just below it as effort and the forearm, hand and any weight as load, as in a biceps curl.",
+     "Third-class lever: knee extension by the quadriceps (the muscle group at the front of the thigh) when kicking a ball, with the knee as fulcrum, the quadriceps pulling just below the knee as effort, and the lower leg, foot and ball as load."
+    ],
+    "tip": "You may be asked to complete a table giving the class of lever, the skill or technique and the joint action for 1st, 2nd and 3rd class, or to name a skill that uses a third-class lever and justify it. Elbow flexion is a common prompt."
+   },
+   {
+    "b": "The class of a lever decides whether it favours force or speed. This comes from how far the effort and the load are from the fulcrum, and it explains why different skills use different levers.",
     "h": "Mechanical advantage and applying levers to performance",
     "points": [
      "Effort arm: the distance from the fulcrum to the point where the effort is applied. Load arm: the distance from the fulcrum to the load.",
@@ -5761,7 +6375,8 @@
      "Comparing second- and third-class levers: the second class has the load in the middle and favours force (rising onto the toes to push off); the third class has the effort in the middle and favours speed and range (the arm action in a throw).",
      "Lengthening the lever, with a straight arm or by adding a racket, hurley, bat or club, increases the speed at the end of the lever and so the speed of release or impact, but needs more effort.",
      "Using levers to improve a skill: a fuller arm extension at contact in a tennis serve, or at release in the javelin, lengthens the lever and adds speed to the ball or implement."
-    ]
+    ],
+    "tip": "You may be asked to examine the differences between second- and third-class levers using sporting examples. Cover the position of the components, mechanical advantage versus disadvantage, and force versus speed and range."
    }
   ],
   "questions": [
@@ -5854,85 +6469,101 @@
   ],
   "notes": [
    {
+    "b": "Physical quantities used to describe movement fall into two types. A scalar tells you only how much; a vector tells you how much and which way. Sorting them correctly is the first step in analysing movement.",
     "h": "Scalar and vector quantities",
     "points": [
-     "Scalar quantity: has size (magnitude) only, such as distance, speed, mass and time.",
-     "Vector quantity: has size and direction, such as displacement, velocity, acceleration, force, momentum and weight. A vector can be drawn as an arrow whose length shows its size.",
-     "Distance is the total length of path travelled (scalar); displacement is the straight-line change in position from start to finish in a given direction (vector).",
-     "A 400 m runner on a standard track runs a distance of 400 m but finishes where they started, so their displacement is zero.",
-     "Direction decides outcomes in sport: a pass's velocity, not just its speed, decides whether it reaches a team-mate."
-    ]
+     "A scalar quantity has size (magnitude, meaning how much there is) only. Examples are distance, speed, mass and time.",
+     "A vector quantity has size and direction. Examples are displacement, velocity, acceleration, force, momentum and weight. A vector can be drawn as an arrow whose length shows its size and whose point shows its direction.",
+     "Distance is the total length of path travelled, so it is a scalar. Displacement is the straight-line change in position from start to finish in a given direction, so it is a vector.",
+     "A 400 m runner on a standard outdoor track runs a distance of 400 m, but finishes where they started, so their displacement is zero.",
+     "Direction decides outcomes in sport: a pass's velocity (its speed in a particular direction), not just its speed, decides whether it reaches a team-mate."
+    ],
+    "tip": "Speed is a scalar and velocity is a vector. Mass is a scalar, but weight is a vector because it is a force. Exams ask you to discuss the difference between vectors and scalars and to identify scalar quantities in a case study."
    },
    {
+    "b": "Speed, velocity, acceleration and momentum are built from distance or displacement, time and mass. Whether each one is a scalar or a vector depends on whether direction is part of it.",
     "h": "Motion quantities",
     "points": [
-     "Speed = distance ÷ time (scalar).",
-     "Velocity = displacement ÷ time (vector).",
-     "Acceleration = change in velocity ÷ time taken (vector); deceleration is negative acceleration, such as a defender braking to change direction.",
-     "Momentum = mass × velocity (vector): a heavier or faster rugby player is harder to stop.",
+     "Speed = distance ÷ time. It is a scalar, because distance has no direction.",
+     "Velocity = displacement ÷ time. It is a vector, because displacement includes direction.",
+     "Acceleration = change in velocity ÷ time taken, and it is a vector. Deceleration is negative acceleration (slowing down), such as a defender braking to change direction.",
+     "Momentum = mass × velocity, and it is a vector. A heavier or faster rugby player has more momentum, so is harder to stop.",
      "Classified: speed is a scalar; velocity and momentum are vectors, because velocity includes direction and momentum depends on velocity."
-    ]
+    ],
+    "tip": "A past question asks you to classify speed, velocity and momentum and justify velocity. Say velocity is a vector because it is displacement over time, so it includes direction."
    },
    {
+    "b": "A force is a push or pull. A body only starts, stops or changes direction when a force acts on it, so these are the forces a performer deals with in sport.",
     "h": "Forces that change motion",
     "points": [
-     "Muscular force: produced by the performer's muscles to move the body or an implement.",
-     "Gravity: pulls every body and object towards the ground; its force on a body is its weight.",
-     "Friction: opposes sliding between surfaces; studs and grip on footwear increase it.",
-     "Air resistance and water resistance (drag): oppose motion through air or water; streamlining reduces them.",
-     "Ground reaction force: the push back from the ground when a performer pushes against it."
+     "Muscular force is produced by the performer's muscles to move the body or an implement (a piece of equipment such as a bat or javelin).",
+     "Gravity pulls every body and object towards the ground; its force on a body is its weight.",
+     "Friction opposes sliding between surfaces, so studs and grip on footwear increase it to stop slipping.",
+     "Air resistance and water resistance (together called drag) oppose motion through air or water. Streamlining, which means shaping the body or object to let air or water flow past smoothly, reduces them.",
+     "Ground reaction force is the push back from the ground when a performer pushes against it."
     ]
    },
    {
+    "b": "Newton's laws link force to motion. Between them they explain why a body starts moving, how quickly it speeds up and why pushing always produces a push back.",
     "h": "Newton's three laws of motion",
     "points": [
-     "First law (law of inertia): a body stays at rest, or keeps moving at a constant velocity in a straight line, unless an external unbalanced force acts on it.",
+     "First law (law of inertia, the tendency of a body to resist a change in its motion): a body stays at rest, or keeps moving at a constant velocity in a straight line, unless an external unbalanced force (one not cancelled out by another force) acts on it.",
      "First law examples: a ball on the penalty spot stays still until it is kicked; a sprinter in the blocks stays still until they drive against the blocks; a sliding player slows down only because friction acts on them.",
-     "Second law (law of acceleration): the acceleration of a body is proportional to the force applied, happens in the direction of the force, and is inversely proportional to the body's mass (F = m × a, with force in newtons, mass in kilograms and acceleration in metres per second squared).",
+     "Second law (law of acceleration): the acceleration of a body is proportional to the force applied, happens in the direction of the force, and is inversely proportional to the body's mass (so a bigger mass accelerates less).",
+     "In symbols the second law is F = m × a, with force in newtons, mass in kilograms and acceleration in metres per second squared.",
      "Second law examples: a harder kick gives the ball greater acceleration; the same force accelerates a lighter implement more than a heavier one. This is the law used to calculate the acceleration of a kicked ball.",
      "Third law (law of action and reaction): for every action there is an equal and opposite reaction.",
      "Third law examples: a sprinter pushes back and down on the blocks and the ground reaction force drives them forward; a swimmer's hand pushes water backwards and the water pushes the swimmer forwards; a jumper drives down into the take-off board and is pushed upwards."
-    ]
+    ],
+    "tip": "The second law is the acceleration law, not the action-reaction law, which is the third. Exams ask you to name which law calculates the acceleration of a kicked ball, define the second law, explain the third law using a named activity, and apply the first law to two skills."
    },
    {
+    "b": "Exams ask you to apply the laws to one named activity. Swimming works well because each law shows up at a different stage: the start, the stroke and the glide off the wall.",
     "h": "All three laws applied to swimming",
     "points": [
-     "First law: the swimmer on the blocks stays at rest until the leg drive applies a force; off the wall, a streamlined glide keeps speed because less water resistance acts to slow it.",
-     "Second law: a stronger, better-directed arm pull and leg kick produce greater acceleration for the same body mass.",
-     "Third law: the hand and forearm push water backwards and the water pushes the swimmer forwards; at the dive, the force into the blocks is returned as forward propulsion."
-    ]
+     "First law: the swimmer on the blocks stays at rest until the leg drive applies a force. Off the wall, a streamlined glide keeps speed because less water resistance acts to slow it.",
+     "Second law: a stronger, better-directed arm pull and leg kick produce greater acceleration for the same body mass, because acceleration is proportional to force.",
+     "Third law: the hand and forearm push water backwards and the water pushes the swimmer forwards. At the dive, the force into the blocks is returned as forward propulsion."
+    ],
+    "tip": "When asked how each of Newton's three laws applies in a named activity, name the activity, then give one example for each law as in the three points above."
    },
    {
+    "b": "Analysing a skill means finding out why it works or fails. Newton's laws give a coach a way to do that in terms of forces.",
     "h": "Why Newton's laws are used to analyse movement",
     "points": [
      "They explain what starts, stops and changes a movement, so a coach can see the cause of a fault rather than just its effect.",
      "They show where and in what direction force must be applied, such as driving through the ball rather than at it.",
      "They guide technique corrections, such as directing force in the intended direction of travel at a jump take-off.",
-     "They inform the choice of equipment, such as a lighter implement for faster acceleration in training."
-    ]
+     "They inform the choice of equipment, such as a lighter implement for faster acceleration in training, since the second law says the same force accelerates a lighter object more."
+    ],
+    "tip": "Exams ask you to explain why you would use the laws when analysing human movement. Give causes of motion, where and in what direction to apply force, correcting technique, and choice of equipment."
    },
    {
+    "b": "Quality and effectiveness describe how well a skill is performed. One measure is economy of movement: getting the result without wasting effort, which matters most when a performer is tired.",
     "h": "Quality and effectiveness: economy of movement",
     "points": [
-     "Economy of movement: performing a skill with no unnecessary movement and the least energy needed for the result.",
-     "It delays fatigue, so technique holds up late in a performance.",
+     "Economy of movement means performing a skill with no unnecessary movement and the least energy needed for the result.",
+     "It delays fatigue (the tiredness that weakens performance), so technique holds up late in a performance.",
      "It improves consistency and accuracy, because there are fewer moving parts to go wrong.",
-     "It makes a movement look fluent, adding to its aesthetic quality.",
+     "It makes a movement look fluent, adding to its aesthetic quality (how good it looks to watch).",
      "Front crawl example: a flat, streamlined body position with the hips high reduces drag, so more of each arm pull produces forward motion; sinking legs waste energy.",
      "Distance running example: a relaxed arm swing without side-to-side twisting of the trunk saves energy over the race.",
-     "Economy is improved by practising until the skill is automatic, correcting technique using video, and building the flexibility and strength to hold efficient positions."
-    ]
+     "Economy is improved by practising until the skill is automatic (the autonomous stage, where it needs little thought), correcting technique using video, and building the flexibility and strength to hold efficient positions."
+    ],
+    "tip": "Economy of movement is not moving slowly. It is achieving the result with the least wasted energy. Exams ask you to examine how it affects the quality or effectiveness of a named skill, so use front crawl or distance running with the effects above."
    },
    {
+    "b": "The other perspective on quality is creativity. A performer who has mastered a skill can go beyond the standard version and use it to solve the problem in front of them.",
     "h": "Quality and effectiveness: creative application of skill",
     "points": [
-     "Creative application: using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents, rather than reproducing the standard version.",
+     "Creative application means using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents, rather than reproducing the standard version.",
      "It depends on the skill being automatic, so the performer's attention is free to read the situation.",
      "It deceives and unbalances opponents and opens options when the expected one is closed off.",
      "It makes a performer less predictable and harder to defend against.",
      "In dance and gymnastics it adds artistic merit and originality.",
-     "Examples: a no-look pass in basketball; a disguised drop shot in badminton; a dummy solo in Gaelic football; an original linking movement in a gymnastics floor routine."
-    ]
+     "Examples: a no-look pass in basketball; a disguised drop shot in badminton; a dummy solo in Gaelic football (a feint that fools a defender); an original linking movement in a gymnastics floor routine."
+    ],
+    "tip": "Exams ask you to explain creative application, describe two ways it benefits performance, and give an example in a named skill. Pick two benefits from the list and attach one named example."
    }
   ],
   "questions": [
@@ -6041,78 +6672,93 @@
   ],
   "notes": [
    {
+    "b": "A skill (a learned movement or action, such as a shot or a throw) is not mastered all at once. Fitts and Posner (1967) described three stages in order: cognitive, associative, then autonomous. What the performer does, how the movement looks and what the coach should do all change at each stage.",
     "h": "The three stages of learning (Fitts and Posner, 1967)",
     "points": [
      "Cognitive (beginner) stage: the performer forms a mental picture of the skill, usually from a demonstration, and works out what to do.",
-     "Cognitive stage: movements are slow, jerky and inconsistent; errors are frequent and large and the performer often cannot detect them; full conscious attention is on the movement.",
-     "Cognitive stage coaching: simple, unopposed practice, clear demonstrations and frequent, specific feedback from the coach. Progress is rapid but fragile.",
-     "Associative (intermediate) stage: the basic movement pattern is in place; movements are smoother and more consistent; errors are fewer and smaller, and the performer begins to detect some through the feel of the movement (kinaesthetic sense).",
-     "Associative stage coaching: add pressure, speed and simple opposition; feedback becomes more detailed. Most learners spend the longest time at this stage.",
+     "Cognitive stage: movements are slow, jerky and inconsistent. Errors are frequent and large and the performer often cannot detect them, because full conscious attention (deliberate thinking) is on the movement.",
+     "Cognitive stage coaching: simple, unopposed practice (no defender or opponent), clear demonstrations and frequent, specific feedback from the coach, because the performer cannot yet spot errors alone. Progress is rapid but fragile, meaning it is easily lost.",
+     "Associative (intermediate) stage: the basic movement pattern is in place, so movements are smoother and more consistent. Errors are fewer and smaller, and the performer begins to detect some through the feel of the movement (kinaesthetic sense).",
+     "Associative stage coaching: add pressure, speed and simple opposition, and make feedback more detailed. Most learners spend the longest time at this stage.",
      "Autonomous (expert) stage: the skill is performed automatically, consistently and fluently with little conscious attention, so attention is free for tactics, opponents and decisions.",
-     "Autonomous stage coaching: the performer detects and corrects their own errors; practice keeps the skill grooved under competitive conditions and feedback is fine-tuning."
-    ]
+     "Autonomous stage coaching: the performer detects and corrects their own errors. Practice keeps the skill grooved (so well learned it repeats the same way) under competitive conditions, and feedback is fine-tuning."
+    ],
+    "tip": "Do not reverse the stages: cognitive comes first, then associative, then autonomous. Exams ask you to name and outline the three stages, so give for each one what the performer is doing, the errors, the attention and the coaching."
    },
    {
+    "b": "Exams ask you to describe one named skill at each stage. The basketball jump shot (shooting while jumping) shows how the same skill looks different as the learner improves.",
     "h": "One skill at the three stages: the basketball jump shot",
     "points": [
-     "Cognitive: the feet are not set, the elbow flares out, the ball is pushed from the chest and the release point varies; the player can shoot only when stationary and unopposed.",
+     "Cognitive: the feet are not set, the elbow flares out, the ball is pushed from the chest and the release point varies. The player can shoot only when stationary and unopposed.",
      "Associative: the set-up and release are mostly correct and the success rate rises, but the shot breaks down when a defender closes or the player is tired.",
-     "Autonomous: the shot is released quickly and consistently off the dribble or the catch, under pressure, while the player reads the defence.",
-     "Identifying a stage from evidence: an elite athlete winning national titles with a consistent technique is at the autonomous stage; someone new to a sport who is inconsistent and needs instructions is at the cognitive stage."
-    ]
+     "Autonomous: the shot is released quickly and consistently off the dribble (while bouncing the ball) or the catch, under pressure, while the player reads the defence.",
+     "Identifying a stage from evidence: an elite athlete winning national titles with a consistent technique is at the autonomous stage. Someone new to a sport who is inconsistent and needs instructions is at the cognitive stage."
+    ],
+    "tip": "To identify a performer's stage, use the evidence given: consistency, errors, attention and level of competition. Exams ask for a stage from case-study evidence and for two ways the performer could improve at that stage, so use the coaching points for that stage."
    },
    {
+    "b": "Learners improve faster when the coach gives them the right kind of help. Guidance can be visual, verbal, manual or mechanical, and it works best alongside feedback, mental rehearsal and motivation.",
     "h": "How skills are learned effectively",
     "points": [
-     "Visual guidance and demonstration: accurate demonstrations, video and model performers give the learner a clear picture, which matters most at the cognitive stage.",
-     "Verbal guidance: short, clear key teaching points; too much information overloads a beginner.",
+     "Visual guidance and demonstration: accurate demonstrations, video and model performers (someone who performs the skill well) give the learner a clear picture, which matters most at the cognitive stage.",
+     "Verbal guidance: short, clear key teaching points, because too much information overloads a beginner.",
      "Manual guidance: physically moving the learner through the movement, such as a coach guiding the arm through a swing.",
      "Mechanical guidance: equipment that supports the learner, such as a float in swimming or a harness on a trampoline.",
      "Manual and mechanical guidance build safety and confidence, but over-use creates dependence and the learner may not develop the feel of the movement.",
-     "Feedback after attempts tells the learner what to change (the types of feedback are in the notes on psychological preparation).",
-     "Mental rehearsal: imagining performing the skill between physical attempts strengthens the mental picture.",
-     "Motivation, clear goals and practice matched to the learner's stage keep learning effective."
-    ]
+     "Feedback after attempts tells the learner what to change. There is more on this in Psychological preparation, which covers the types of feedback.",
+     "Mental rehearsal (imagery): imagining performing the skill between physical attempts strengthens the mental picture.",
+     "Motivation (the drive to keep trying), clear goals and practice matched to the learner's stage keep learning effective."
+    ],
+    "tip": "Exams ask you to discuss how learning skills effectively benefits performance, and to describe an activity that improves a named skill and say why it is effective. Link each type of guidance to a benefit and, for manual and mechanical guidance, state the over-use problem."
    },
    {
+    "b": "A coach must decide whether to teach a skill as one piece or in sections. Whole practice, part practice, whole-part-whole and progressive part are the four ways of breaking a skill down.",
     "h": "Practice methods: how the skill is broken down",
     "points": [
-     "Whole practice: the skill is practised in its entirety; suits skills that are fast and fluid or cannot easily be broken into parts, such as a golf swing or a javelin throw.",
-     "Part practice: one sub-routine is practised in isolation, such as the ball toss in a tennis serve; suits complex serial skills and dangerous elements.",
+     "Whole practice: the skill is practised in its entirety. It suits skills that are fast and fluid or cannot easily be broken into parts, such as a golf swing or a javelin throw.",
+     "Part practice: one sub-routine (a section of the skill) is practised in isolation, such as the ball toss in a tennis serve. It suits complex serial skills (skills made of several linked parts) and dangerous elements.",
      "Whole-part-whole: the learner tries the whole skill, a weak part is isolated and practised, then the whole skill is performed again.",
      "Progressive part (chaining): the first part is learned, then the second is added, and so on, such as the hop, step and jump of a triple jump."
-    ]
+    ],
+    "tip": "Exams ask you to explain a practice method for a named skill, for example a method for a javelin thrower and how to apply it. Name the method, say what the performer does and say why it suits that skill."
    },
    {
+    "b": "Practice can also be organised by how much rest it includes and by whether conditions stay the same. Massed or distributed is about rest, and fixed or variable is about conditions.",
     "h": "Practice methods: rest and variety",
     "points": [
-     "Massed practice: continuous practice with little or no rest; suits simple, closed, discrete skills and motivated, fit, experienced performers, such as repeated basketball free throws.",
-     "Distributed practice: practice broken up by rest or other activities; suits beginners and complex or tiring skills, and lowers fatigue and injury risk.",
-     "Fixed practice: the skill repeated in unchanging conditions to groove the movement; suits closed skills such as a free throw or a penalty kick.",
-     "Variable practice: the skill practised in changing situations; suits open skills because it builds adaptability, such as passing under different levels of defensive pressure.",
+     "Massed practice: continuous practice with little or no rest. It suits simple, closed (predictable, in a stable setting), discrete (a short skill with a clear start and end) skills and motivated, fit, experienced performers, such as repeated basketball free throws.",
+     "Distributed practice: practice broken up by rest or other activities. It suits beginners and complex or tiring skills, and lowers fatigue and injury risk.",
+     "Fixed practice: the skill repeated in unchanging conditions to groove the movement. It suits closed skills such as a free throw or a penalty kick.",
+     "Variable practice: the skill practised in changing situations. It suits open skills (skills where the situation keeps changing) because it builds adaptability, such as passing under different levels of defensive pressure.",
      "The pairs are separate choices: whole or part (how the skill is broken down), massed or distributed (rest), fixed or variable (conditions)."
-    ]
+    ],
+    "tip": "Massed practice is not the same as whole practice: one concerns rest, the other how the skill is broken down. Variable practice best suits open skills; do not recommend fixed practice for open skills except as an early-stage step. Exams ask you to explain massed, part or variable practice for a named skill."
    },
    {
+    "b": "Good practice follows a set of principles, which are the rules a coach uses to plan and judge a session. Exam answers use these seven.",
     "h": "Principles of effective practice",
     "points": [
      "Specificity: practice reproduces the demands of the competitive situation, including the same skills, speeds, conditions and fatigue, so learning transfers to performance.",
      "Progression: practice moves from simple to complex, unopposed to opposed, slow to game speed and closed to open, raising the demand only when the previous level is secure.",
      "Appropriate distribution: the balance of practice and rest (massed or distributed) suits the learner and the skill.",
      "Variety: different drills and conditions keep motivation high and build adaptability.",
-     "Quality of repetitions: correct technique is repeated, not just volume; practice stops before fatigue breaks down technique.",
+     "Quality of repetitions: correct technique is repeated, not just volume, and practice stops before fatigue breaks down technique.",
      "Clear goals and regular feedback direct each session.",
      "Practice is matched to the individual's stage of learning and ability, is safe and begins with a warm-up."
-    ]
+    ],
+    "tip": "Exams ask you to outline or identify two or three principles, justify them and show how to use one in a practice session. Use these seven principles, not the list of principles in the 2026 specification, which is not this course."
    },
    {
+    "b": "A practice schedule applies the methods and principles to one skill. It plans a single session and then the weeks of work, and every choice is justified.",
     "h": "Designing a practice schedule",
     "points": [
-     "Session structure: warm-up; introduction and demonstration with key teaching points; progressive drills from simple to complex; a conditioned game or competitive scenario; cool-down; review and reflection.",
+     "Session structure: warm-up; introduction and demonstration with key teaching points; progressive drills from simple to complex; a conditioned game (a game with rules changed to focus on the skill) or competitive scenario; cool-down; review and reflection.",
      "Over several weeks: set the number of sessions per week and their length, raise the difficulty week by week, choose practice methods and record progress, such as a success rate out of ten attempts.",
      "Justify each choice by the principles and the type of skill: fixed, massed whole practice suits a closed free throw; variable practice suits an open pass.",
-     "Illustrative six-week plan for a basketball lay-up: weeks 1 and 2 standing footwork then one-dribble lay-ups unopposed; weeks 3 and 4 lay-ups from the wing at game speed off either hand; weeks 5 and 6 lay-ups against a passive then an active defender, with success recorded each session."
-    ]
+     "Illustrative six-week plan for a basketball lay-up (a shot taken close to the basket after running): weeks 1 and 2 standing footwork then one-dribble lay-ups unopposed; weeks 3 and 4 lay-ups from the wing at game speed off either hand.",
+     "Weeks 5 and 6 of the same illustrative lay-up plan: lay-ups against a passive then an active defender, with success recorded each session."
+    ],
+    "tip": "When you design a schedule, give the sessions per week, duration, progression of difficulty, the methods chosen and why, and how progress is recorded. Exams ask you to describe an activity to improve a named skill and explain why it is effective."
    }
   ],
   "questions": [
@@ -6173,38 +6819,48 @@
   ],
   "notes": [
    {
+    "b": "Before splitting fitness into types, you need to know what health and fitness each mean, because the two words are not interchangeable. Fitness is only one part of health.",
     "h": "Health and fitness",
     "points": [
-     "Health, as defined by the World Health Organization: a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
-     "Health is broader than fitness: a person can be fit for their sport but unwell, or healthy but unfit.",
-     "Physical fitness: the ability to carry out daily tasks and physical activity with vigour and without undue fatigue, with energy left to meet emergencies.",
-     "The specification names four demands of performance: health-related fitness, performance-related fitness, psychological preparation, and diet and nutrition. Each has its own notes in this chapter."
-    ]
+     "Health, as defined by the World Health Organization (the United Nations health agency): a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity (weakness or frailty).",
+     "Health is broader than fitness, because it includes mental and social well-being as well as the body. So a person can be fit for their sport but unwell, or healthy but unfit.",
+     "Physical fitness: the ability to carry out daily tasks and physical activity with vigour and without undue fatigue (without becoming more tired than the task justifies), with energy left to meet emergencies.",
+     "The specification names four demands of performance, the things an athlete must get right: health-related fitness, performance-related fitness, psychological preparation (getting the mind ready), and diet and nutrition. Each has its own notes in this chapter."
+    ],
+    "tip": "Quote the World Health Organization definition and make the point that health is broader than fitness, since mental and social well-being count as well as the physical."
    },
    {
+    "b": "Physical fitness is made up of separate components, and the specification sorts them into two lists: those that serve health and those that serve sporting success. You should be able to list both and place any component in the right one.",
     "h": "The two categories of fitness",
     "points": [
-     "Health-related fitness (HRF): the components linked to good health and a lower risk of disease that everyone needs for daily life: cardio-respiratory endurance, muscular endurance, strength, flexibility and body composition.",
-     "Performance-related fitness (PRF), also called skill-related fitness: the components needed for successful performance in sport: agility, balance, co-ordination, power, speed and reaction time.",
+     "Health-related fitness (HRF): the components linked to good health and a lower risk of disease that everyone needs for daily life.",
+     "The HRF components are cardio-respiratory endurance (how long the heart and lungs can keep the body working), muscular endurance (how long a muscle can keep working) and strength (the most force a muscle can produce). Strength sits here, not under PRF.",
+     "The other two HRF components are flexibility (range of movement at a joint) and body composition (the proportions of fat and other tissue in the body).",
+     "Performance-related fitness (PRF), also called skill-related fitness: the components needed for successful performance in sport. They are agility (changing direction quickly), balance (staying steady), co-ordination (moving body parts smoothly together), power (force applied quickly), speed (how fast you move) and reaction time (how fast you respond to a signal).",
      "Classifying a component: co-ordination, agility and reaction time are PRF; muscular endurance, flexibility and strength are HRF."
-    ]
+    ],
+    "tip": "Strength is health-related and power is performance-related, so do not move them. Questions ask you to classify named components as HRF or PRF, sometimes in a table with test results, so learn both lists exactly. Here, list the components only and do not define each one at length."
    },
    {
+    "b": "The two categories differ in why you need them, who needs them, how far training can change them and how you build them. These four contrasts are the answer when you are asked to discuss the difference.",
     "h": "Differences between health-related and performance-related fitness",
     "points": [
-     "Purpose: HRF supports health and the demands of daily living; PRF supports the demands of a particular sport or activity.",
-     "Who needs it: everyone needs HRF; PRF matters mainly to performers, and which components matter depends on the activity.",
-     "Trainability: HRF responds well to training for most people; PRF is more strongly influenced by genetics and is more specific to the activity.",
-     "How it is developed: HRF through general exercise such as running, swimming and resistance work; PRF mainly through sport-specific drills and practice."
-    ]
+     "Purpose: HRF supports health and the demands of daily living, whereas PRF supports the demands of a particular sport or activity.",
+     "Who needs it: everyone needs HRF, because everyone has daily tasks to carry out. PRF matters mainly to performers, and which components matter depends on the activity.",
+     "Trainability (how far training can improve it): HRF responds well to training for most people. PRF is more strongly influenced by genetics (the abilities a person inherits) and is more specific to the activity.",
+     "How it is developed: HRF through general exercise such as running, swimming and resistance work (training against a load, such as weights). PRF mainly through sport-specific drills and practice, which repeat the movements of that sport."
+    ],
+    "tip": "When asked to discuss the difference, as in an Ordinary Level question after you name three components, give contrasts on purpose, who needs it, trainability and how it is developed, rather than just defining each type."
    },
    {
+    "b": "This is a statement you may be asked to evaluate. The answer is that it is inaccurate, but the two types of fitness are linked, and a good answer says both.",
     "h": "Is health-related fitness the same as performance-related fitness?",
     "points": [
      "The statement is inaccurate, because the two differ in purpose, in who needs them, in how trainable they are and in how they are developed.",
      "They are linked, however: a performer needs both, and many sports demand a high level of an HRF component, such as cardio-respiratory endurance for a Gaelic football midfielder.",
-     "Good HRF also supports PRF: strength underpins power, and flexibility helps agility."
-    ]
+     "Good HRF also supports PRF: strength underpins power, because power is force applied quickly, and flexibility helps agility."
+    ],
+    "tip": "To discuss the accuracy of this statement, say it is inaccurate and give the reasons from the differences above, then show that the two are linked. A Higher Level question has asked this."
    }
   ],
   "questions": [
@@ -6283,54 +6939,64 @@
   ],
   "notes": [
    {
+    "b": "Health-related fitness is the set of fitness components that matter for staying healthy as well as for sport. The first is cardio-respiratory endurance, which is about how well your body keeps supplying oxygen to working muscles.",
     "h": "Cardio-respiratory endurance",
     "points": [
-     "Definition: the ability of the heart, lungs and blood vessels to take in, transport and use oxygen to sustain whole-body activity over a long period. Also called aerobic fitness or stamina.",
-     "It depends on the aerobic energy system.",
-     "Important in distance running, distance swimming, soccer and Gaelic football, where players are active for over an hour.",
-     "Health benefit: lowers the risk of heart disease, stroke and high blood pressure."
-    ]
+     "Definition: the ability of the heart, lungs and blood vessels to take in, transport and use oxygen to sustain whole-body activity over a long period. It is also called aerobic fitness or stamina.",
+     "It depends on the aerobic energy system (the way the body releases energy from fuel using oxygen), which is why oxygen delivery by the heart, lungs and blood vessels decides how long you can keep going.",
+     "It is important in distance running, distance swimming, soccer and Gaelic football, because players in these activities are active for over an hour.",
+     "Health benefit: it lowers the risk of heart disease, stroke and high blood pressure."
+    ],
+    "tip": "Define it as whole-body: heart, lungs and blood vessels taking in, transporting and using oxygen over a long period. Do not define it using muscular endurance, which is local to one muscle group."
    },
    {
+    "b": "Muscular endurance sounds like cardio-respiratory endurance but is a different component. It is about how long one muscle or muscle group can keep working, not the whole body.",
     "h": "Muscular endurance",
     "points": [
-     "Definition: the ability of a muscle or muscle group to perform repeated contractions over a period of time without tiring.",
-     "It is local to a muscle group, whereas cardio-respiratory endurance involves the whole body.",
-     "Important for the legs of a rower or cyclist, the arms in repeated tackles, and the core and legs of a dancer holding positions through a routine.",
-     "Health benefit: makes everyday tasks such as climbing stairs and carrying shopping easier and supports good posture."
-    ]
+     "Definition: the ability of a muscle or muscle group to perform repeated contractions (the tightening of a muscle as it produces force) over a period of time without tiring.",
+     "It is local to a muscle group, whereas cardio-respiratory endurance involves the whole body. This is the key distinction to state when comparing them.",
+     "It matters for the legs of a rower or cyclist, the arms in repeated tackles, and the core and legs of a dancer holding positions through a routine, because each of these muscle groups must keep working over and over.",
+     "Health benefit: it makes everyday tasks such as climbing stairs and carrying shopping easier and supports good posture."
+    ],
+    "tip": "Keep the two endurances separate: muscular endurance is local to a muscle group, cardio-respiratory endurance is the whole body. Do not use one to define the other."
    },
    {
+    "b": "Strength is the force a muscle can produce. It comes in several forms depending on how fast, how often and whether the body moves while the force is applied.",
     "h": "Strength",
     "points": [
      "Definition: the maximum force a muscle or muscle group can exert against a resistance in a single contraction.",
-     "Maximal strength: the greatest force in one all-out effort, such as pushing in a rugby scrum.",
-     "Explosive (elastic) strength: force applied quickly, the basis of power, such as a jump take-off.",
-     "Strength endurance: repeated sub-maximal force over time, such as a rower's stroke.",
-     "Static strength is used without movement, such as holding a position on the rings; dynamic strength is used with movement, such as lifting a weight.",
-     "Training intensity: strength is built with heavy loads and few repetitions, while muscular endurance is built with lighter loads and many repetitions.",
-     "Health benefit: protects joints, supports bone density and makes daily lifting safer."
-    ]
+     "Maximal strength is the greatest force you can produce in one all-out effort, such as pushing in a rugby scrum (the forwards driving against the opposing pack).",
+     "Explosive (elastic) strength is force applied quickly, such as a jump take-off. It is the basis of power, so it is the link to the next subsection.",
+     "Strength endurance is repeated sub-maximal force (below your maximum, so it can be repeated) over time, such as a rower's stroke.",
+     "Static strength is used without movement, such as holding a position on the rings (the hanging gymnastics apparatus). Dynamic strength is used with movement, such as lifting a weight.",
+     "In terms of training intensity, strength is built with heavy loads and few repetitions, while muscular endurance is built with lighter loads and many repetitions.",
+     "Health benefit: it protects joints, supports bone density and makes daily lifting safer."
+    ],
+    "tip": "When asked to describe the difference between training for muscular endurance and for strength in terms of intensity, say heavy loads and few repetitions for strength, lighter loads and many repetitions for muscular endurance. Power is not a form of strength in the specification's list; mention explosive strength only as the link."
    },
    {
+    "b": "Flexibility is about how far your joints can move. A joint is where two bones meet, so more range at the joints means the body can reach and stretch further.",
     "h": "Flexibility",
     "points": [
      "Definition: the range of movement possible at a joint or series of joints.",
-     "Static flexibility: the range a joint can reach and hold at rest, such as a held split.",
-     "Dynamic flexibility: the range used during movement, such as a hurdler's lead leg or a high kick in dance.",
-     "Important in gymnastics, dance, hurdles, goalkeeping and tennis, where the body must stretch to reach the ball.",
-     "Benefits: better technique through a full range of movement, less risk of muscle strains, and easier everyday movement."
-    ]
+     "Static flexibility is the range a joint can reach and hold at rest, such as a held split.",
+     "Dynamic flexibility is the range used during movement, such as a hurdler's lead leg (the first leg to go over the hurdle) or a high kick in dance.",
+     "It is important in gymnastics, dance, hurdles, goalkeeping and tennis, where the body must stretch to reach the ball.",
+     "Benefits: better technique through a full range of movement, less risk of muscle strains (muscles overstretched or torn), and easier everyday movement."
+    ],
+    "tip": "Be ready to define flexibility and to say why it matters for a tennis player: the body must stretch to reach the ball. Reduced injury risk is also a point to make."
    },
    {
+    "b": "Body composition looks at what the body is made of rather than how much it weighs. It is the last of the five health-related fitness components.",
     "h": "Body composition",
     "points": [
-     "Definition: the relative proportions of fat mass and lean (fat-free) mass (muscle, bone and organs) in the body, usually given as a body-fat percentage.",
-     "It is not the same as body weight: two people of the same weight can have very different body composition.",
+     "Definition: the relative proportions of fat mass and lean (fat-free) mass (muscle, bone and organs) in the body, usually given as a body-fat percentage (the share of total body weight that is fat).",
+     "It is not the same as body weight: two people of the same weight can have very different body composition, because one may carry more fat and the other more muscle.",
      "Different activities favour different compositions: a low body-fat percentage suits distance running, while more lean mass suits a rugby forward.",
-     "Somatotypes describe body shape: ectomorph (lean and linear), mesomorph (muscular) and endomorph (rounder, with more fat); most people are a mix.",
-     "Health benefit: a healthy body-fat percentage lowers the risk of type 2 diabetes, heart disease and joint problems."
-    ]
+     "Somatotypes (body-shape types) are ectomorph (lean and linear), mesomorph (muscular) and endomorph (rounder, with more fat). Most people are a mix.",
+     "Health benefit: a healthy body-fat percentage lowers the risk of type 2 diabetes (a condition affecting how the body handles blood sugar), heart disease and joint problems."
+    ],
+    "tip": "Define body composition as the proportions of fat mass and lean mass, usually as body-fat percentage. Do not equate it with body weight or BMI."
    }
   ],
   "questions": [
@@ -6405,65 +7071,76 @@
   ],
   "notes": [
    {
+    "b": "Many sports need a player to change direction suddenly without losing control. That skill is agility, one of the six components of performance-related fitness (the fitness qualities that help a person perform well in a sport).",
     "h": "Agility",
     "points": [
-     "Definition: the ability to change the position or direction of the body quickly and with control, while keeping balance.",
-     "Rugby: a ball carrier side-steps to evade a tackler.",
-     "Badminton: a player recovers to the centre of the court after each shot and changes direction to reach the next shuttle."
-    ]
+     "Definition: agility is the ability to change the position or direction of the body quickly and with control, while keeping balance.",
+     "Rugby: a ball carrier side-steps (steps sharply to one side) to evade a tackler. This is agility because the direction changes quickly and the player stays in control.",
+     "Badminton: a player recovers to the centre of the court after each shot and changes direction to reach the next shuttle (the feathered shot that is hit over the net)."
+    ],
+    "tip": "Agility includes a change of direction with control. Running fast in a straight line is speed, not agility. If asked to define agility and outline its importance in a named activity, give the definition and then a specific moment in that activity."
    },
    {
+    "b": "Balance is what stops you toppling over, whether you are still or moving. It comes in two types, and exam answers should name both.",
     "h": "Balance",
     "points": [
-     "Definition: the ability to keep the body's centre of mass over its base of support.",
-     "Static balance: balance while stationary, such as holding a handstand or an arabesque.",
-     "Dynamic balance: balance while moving, such as a gymnast travelling on the beam or a hurler striking the ball on the run."
+     "Definition: balance is the ability to keep the body's centre of mass (the point around which its weight is evenly spread) over its base of support (the part of the body in contact with the ground).",
+     "Static balance: balance while stationary, such as holding a handstand or an arabesque (a ballet or gymnastics pose standing on one leg with the other leg lifted behind).",
+     "Dynamic balance: balance while moving, such as a gymnast travelling along the beam or a hurler striking the ball on the run."
     ]
    },
    {
+    "b": "Most skills need several parts of the body, or the eyes and the body, to work as one. Co-ordination is how well they do that.",
     "h": "Co-ordination",
     "points": [
-     "Definition: the ability to use two or more body parts, or the senses and body parts, together smoothly and efficiently.",
-     "Hurling: hand-eye co-ordination to strike a moving sliotar.",
-     "Front crawl: the timing of the arm pull, leg kick and breathing."
+     "Definition: co-ordination is the ability to use two or more body parts, or the senses and body parts, together smoothly and efficiently.",
+     "Hurling: hand-eye co-ordination (the eyes guiding the hands) is needed to strike a moving sliotar (the hurling ball).",
+     "Front crawl: the swimmer must time the arm pull, the leg kick and the breathing so that they work together."
     ]
    },
    {
+    "b": "Power combines two other qualities: how strong a movement is and how fast it is done. A strong but slow movement is not powerful.",
     "h": "Power",
     "points": [
-     "Definition: the ability to apply strength at speed; power = strength × speed.",
-     "High jump: the explosive drive of the take-off leg.",
-     "Shot-put: the rapid extension of the legs, trunk and arm at release.",
-     "Badminton: the smash."
-    ]
+     "Definition: power is the ability to apply strength (the force a muscle can produce) at speed; power = strength × speed.",
+     "High jump: the explosive (very fast and forceful) drive of the take-off leg, which pushes the jumper upwards.",
+     "Shot-put: the rapid extension (straightening) of the legs, trunk and arm at release, when the shot leaves the hand.",
+     "Badminton: the smash, a hard, fast downward shot."
+    ],
+    "tip": "Strength is health-related in the specification, while power is performance-related. Write power as strength × speed, not as strength alone."
    },
    {
+    "b": "Speed is about how quickly the whole body, or just one part of it, covers a distance. It can be measured, which is why it has a formula.",
     "h": "Speed",
     "points": [
-     "Definition: the ability to move the body, or a part of it, from one point to another in the shortest possible time; speed = distance ÷ time.",
-     "Whole-body speed: a 100 m sprint, or a basketball fast break.",
-     "Limb speed: the speed of the arm in a throw or of the leg in a kick."
+     "Definition: speed is the ability to move the body, or a part of it, from one point to another in the shortest possible time; speed = distance ÷ time.",
+     "Whole-body speed: a 100 m sprint, or a basketball fast break (a quick attack up the court before the defence is set).",
+     "Limb speed (the speed of an arm or leg alone): the speed of the arm in a throw or of the leg in a kick."
     ]
    },
    {
+    "b": "Reaction time measures how quickly you start to respond, not how quickly you finish. To avoid mixing it up with the movement itself, learn it alongside movement time and response time.",
     "h": "Reaction time",
     "points": [
-     "Definition: the time between the presentation of a stimulus and the start of the response.",
+     "Definition: reaction time is the time between the presentation of a stimulus (the signal that prompts a response) and the start of the response.",
      "Movement time: the time from starting a movement to completing it.",
-     "Response time = reaction time + movement time.",
+     "Response time = reaction time + movement time, so response time covers the whole action from signal to finish.",
      "Sprinting: reacting to the starting gun.",
-     "Soccer goalkeeping: reacting to a shot or a deflection.",
-     "Two examples in one activity, tennis: reacting to the opponent's serve, and reacting to a volley at the net."
-    ]
+     "Soccer goalkeeping: reacting to a shot or a deflection (a ball that changes direction after hitting a player or post).",
+     "Two examples in one activity, tennis: reacting to the opponent's serve, and reacting to a volley (a shot hit before the ball bounces) at the net."
+    ],
+    "tip": "Reaction time ends when movement starts. It does not include the movement itself. If asked for two examples of where it is needed, give both from one named activity."
    },
    {
+    "b": "Exam tables describe an athlete or event and ask which component matters most. Work out what the athlete actually has to do, then match it to a component.",
     "h": "Identifying the main component for an event",
     "points": [
-     "A 100 m breaststroke swimmer needs speed and power off the start and turns.",
-     "A tennis server needs power and co-ordination.",
-     "A goalkeeper needs reaction time, agility and power.",
+     "A 100 m breaststroke swimmer needs speed and power off the start and turns, where a fast, forceful push is needed.",
+     "A tennis server needs power and co-ordination, because the serve combines a forceful strike with well-timed movement of the body and arm.",
+     "A goalkeeper needs reaction time, agility and power, to respond to a shot, change position and dive or jump.",
      "Justify the choice by linking the component to a specific moment in the event."
-    ]
+    ],
+    "tip": "You may be asked to identify the main component for named athletes or events, explain each choice, and name another activity where it matters. You may also be asked for two components important in one named activity, with a justification for each."
    }
   ],
   "questions": [
@@ -6514,65 +7191,76 @@
   ],
   "notes": [
    {
+    "b": "Before you can say which fitness components matter, you need to break an activity down. This is the first step in applying the fitness components to a real sport, position or role.",
     "h": "Analysing the fitness demands of an activity",
     "points": [
-     "Needs analysis: working out which fitness components an activity, position or role demands by examining its duration, intensity, pattern of work and rest, the movements involved and the energy systems used.",
-     "The performer's current fitness is then compared with those demands, usually by fitness testing, to find the gaps to train.",
-     "Examining the extent: rank each component as essential, important or less important for the activity, and justify each with a specific moment of play or performance.",
-     "Positions and roles differ within one activity: a soccer goalkeeper needs reaction time, power and agility more than cardio-respiratory endurance, while a midfielder needs the reverse."
-    ]
+     "Needs analysis means working out which fitness components an activity, position or role demands, by examining its duration, intensity, pattern of work and rest, the movements involved and the energy systems used (the ways the body produces energy for the muscles).",
+     "The performer's current fitness is then compared with those demands, usually by fitness testing, to find the gaps to train. This comparison is what turns the analysis into a training plan.",
+     "To examine the extent to which a component matters, rank it as essential, important or less important for the activity. Then justify each ranking with a specific moment of play or performance.",
+     "Positions and roles differ within one activity, so analyse the role, not just the sport. A soccer goalkeeper needs reaction time, power and agility more than cardio-respiratory endurance (the ability of the heart and lungs to keep supplying oxygen over long periods), while a midfielder needs the reverse."
+    ],
+    "tip": "When asked to discuss the extent to which a component is required, give a ranking and justify it with a specific moment from the activity, not just a definition. Name the role as well when it matters."
    },
    {
+    "b": "An invasion game is one where two teams move into each other's territory to score. Gaelic football mixes long running with sudden bursts, so it draws on many components at once.",
     "h": "Fitness profile: an invasion game (Gaelic football)",
     "points": [
-     "Cardio-respiratory endurance (essential): players cover long distances over two halves and must recover between efforts.",
-     "Speed (essential): to win the race to a breaking ball or get away from a marker.",
-     "Agility (essential): to side-step a tackler or turn quickly in defence.",
-     "Power (important): to jump for a high catch and to kick long.",
-     "Muscular endurance (important): legs keep working for repeated sprints and challenges late in the game."
-    ]
+     "Cardio-respiratory endurance (essential): players cover long distances over two halves and must recover between efforts, so a strong heart and lungs keep supplying oxygen to the working muscles.",
+     "Speed (essential): the ability to move the body quickly, needed to win the race to a breaking ball or to get away from a marker (the opponent guarding you).",
+     "Agility (essential): the ability to change direction quickly while keeping control, needed to side-step a tackler or turn quickly in defence.",
+     "Power (important): the ability to produce force quickly, a mix of strength and speed. It is needed to jump for a high catch and to kick long.",
+     "Muscular endurance (important): the ability of a muscle to keep working without tiring. The legs must keep going for repeated sprints and challenges late in the game."
+    ],
+    "tip": "For a game like this, give each component a rank and tie it to a moment of play, such as the sprint to a breaking ball or the jump for a catch. Examiners want the reason, not just a list of components."
    },
    {
+    "b": "An aesthetic activity is judged on how the movement looks as well as what is achieved. Artistic gymnastics is made of short, controlled routines, so the profile is very different from a running game.",
     "h": "Fitness profile: an aesthetic activity (artistic gymnastics)",
     "points": [
-     "Flexibility (essential): for splits, walkovers and extended body lines.",
-     "Strength (essential): to support body weight in balances and on the hands.",
-     "Balance (essential): for held positions and landings.",
-     "Power (essential): for jumps, tumbles and vaults.",
-     "Co-ordination (essential): to link elements fluently.",
-     "Cardio-respiratory endurance (less important): routines are short."
-    ]
+     "Flexibility (essential): the range of movement at a joint, needed for splits, walkovers and extended body lines, which are marked on how they look.",
+     "Strength (essential): the most force a muscle can produce, needed to support body weight in balances and on the hands.",
+     "Balance (essential): the ability to keep the body steady, needed for held positions and landings, where a wobble or step costs control.",
+     "Power (essential): force produced quickly, needed for the explosive jumps, tumbles and vaults.",
+     "Co-ordination (essential): using the senses and body parts together smoothly, needed to link elements of a routine fluently.",
+     "Cardio-respiratory endurance (less important): routines are short, so the heart and lungs are not pushed for long periods."
+    ],
+    "tip": "Exams ask you to pick the main components for an activity and explain. Gymnastics is a good contrast to a team game, because cardio-respiratory endurance is less important while flexibility, strength, balance, power and co-ordination are essential."
    },
    {
+    "b": "In an endurance activity the performer keeps going at a steady pace for a long time. The profile is narrow: a few components matter very much and most others matter little.",
     "h": "Fitness profile: an endurance activity (distance running)",
     "points": [
-     "Cardio-respiratory endurance (essential): the event lasts many minutes or hours at a steady pace.",
-     "Muscular endurance (essential): the legs repeat thousands of strides.",
-     "Body composition (important): a low body-fat percentage reduces the weight carried.",
-     "Reaction time (less important): a slow start matters little over a long race."
-    ]
+     "Cardio-respiratory endurance (essential): the event lasts many minutes or hours at a steady pace, so the heart and lungs must keep delivering oxygen to the muscles throughout.",
+     "Muscular endurance (essential): the legs repeat thousands of strides, so the leg muscles must resist fatigue (tiring) over the whole race.",
+     "Body composition (important): the proportion of the body that is fat compared with muscle and bone. A low body-fat percentage reduces the weight carried, so the runner uses less energy at each stride.",
+     "Reaction time (less important): the time taken to respond to a signal. A slow start matters little over a long race, because a fraction of a second is tiny compared with the whole event."
+    ],
+    "tip": "You may be asked to name the main component for two contrasting events, such as 10,000 m and shot-put, and explain. For the long event, cardio-respiratory endurance is the main one, and your explanation should say why."
    },
    {
-    "b": "Fitness can be trained inside the activity itself, while skills are practised under the fatigue and pressure of competition.",
+    "b": "Fitness can be trained inside the activity itself, while skills are practised under the fatigue and pressure of competition. This is what a demanding practice context means.",
     "h": "Developing fitness in a demanding practice context",
     "points": [
-     "Methods: conditioned and small-sided games, game-speed drills and skill circuits.",
+     "Methods include conditioned games (games with extra rules that force a type of work), small-sided games (fewer players on a smaller pitch), game-speed drills and skill circuits.",
      "Example: a small-sided possession game with a two-touch limit develops cardio-respiratory endurance, agility and speed while players pass and move.",
      "Example: a dribbling relay through cones develops speed, agility and co-ordination.",
-     "Benefit: specificity, because players use the same movements, energy systems and decisions as in competition.",
-     "Benefit: it is motivating and time-efficient, and trains skill under fatigue.",
-     "Limitation: intensity and overload are harder to control precisely, and some players work less than others.",
+     "Benefit: specificity, because players use the same movements, energy systems and decisions as in competition, so the fitness gained transfers directly to the match.",
+     "Benefit: it is motivating and time-efficient, because fitness and skill are trained together, and it trains skill execution under fatigue.",
+     "Limitation: intensity and overload (working harder than the body is used to) are harder to control precisely, and some players work less than others.",
      "Limitation: it may not develop maximal strength or flexibility, so it is combined with training outside the activity."
-    ]
+    ],
+    "tip": "When asked how fitness can be developed in practice, give a named method, an example with the components it trains, a benefit and a limitation. Specificity is one benefit you can name, along with motivation and time-efficiency."
    },
    {
+    "b": "Health-related fitness (HRF) components support general health, while performance-related fitness (PRF) components support success in a sport. A combined approach trains one of each together, which links the training to the demands of the activity.",
     "h": "A combined approach to health- and performance-related fitness",
     "points": [
-     "A combined approach develops a health-related and a performance-related component in the same activity or session.",
-     "Designing one: name the two components, describe what the performer does with sets, repetitions or time, state how it progresses, explain how each component is trained, and link it to the activity's demands.",
-     "Example, flexibility (HRF) and balance (PRF): a single-leg balance-and-reach routine, standing on one leg and reaching the free foot out slowly to points around the body through a full range, progressing to an unstable surface.",
+     "A combined approach develops a health-related and a performance-related component in the same activity or session. It must name one HRF and one PRF component and train both together.",
+     "To design one, name the two components, describe what the performer does with sets, repetitions or time, and state how it progresses. Then explain how each component is trained and link it to the activity's demands.",
+     "Example, flexibility (HRF) and balance (PRF): a single-leg balance-and-reach routine, standing on one leg and reaching the free foot out slowly to points around the body through a full range. It progresses to an unstable surface, which makes balance harder.",
      "Example, muscular endurance (HRF) and agility (PRF): a circuit alternating ladder footwork drills with body-weight squats and lunges, with timed work and rest at each station."
-    ]
+    ],
+    "tip": "Exams ask you to choose one HRF and one PRF component and outline one activity that trains both. Name both components, describe the work with sets, repetitions or time, and say how it progresses and links to the activity."
    }
   ],
   "questions": [
@@ -6685,82 +7373,102 @@
   ],
   "notes": [
    {
+    "b": "A fitness test turns a vague feeling of being fit into a measurement. For the measurement to be worth acting on, the test must be chosen and carried out properly.",
     "h": "Why fitness is tested, and good practice",
     "points": [
-     "Purposes: identify strengths and weaknesses against the demands of the activity, set realistic goals, design and monitor a training programme, motivate the performer, and compare results with norms (normative data).",
-     "Valid: a test measures what it claims to measure.",
-     "Reliable: a test gives consistent results when repeated under the same conditions.",
-     "Standardised protocol: the same warm-up, surface, time of day, equipment and tester each time, so results can be compared.",
-     "Tests must be safe and suited to the performer, and are repeated before and after a programme to show progress.",
+     "Testing has several purposes: to identify strengths and weaknesses against the demands of the activity, to set realistic goals, to design and monitor a training programme, and to motivate the performer.",
+     "Results can also be compared with norms (normative data).",
+     "A valid test measures what it claims to measure. For example, a sit-and-reach test is valid for hamstring and lower-back flexibility but not for strength.",
+     "A reliable test gives consistent results when repeated under the same conditions. Validity and reliability are different ideas: a test can be consistent without measuring the right thing.",
+     "Use a standardised protocol (the same set of instructions every time): the same warm-up, surface, time of day, equipment and tester, so that any change in the results comes from the performer and not from the conditions.",
+     "Tests must be safe and suited to the performer. They are repeated before and after a programme to show progress.",
      "Field tests are practical, cheap and can test many people at once; laboratory tests are more accurate but expensive."
-    ]
+    ],
+    "tip": "Don't merge validity and reliability in an answer. Give each its own definition: validity is measuring what the test claims to measure, reliability is giving consistent results when repeated."
    },
    {
+    "b": "Each health-related component of fitness has a standard test. For every one you should be able to name the test, outline how it is carried out and say what is recorded.",
     "h": "Tests for the health-related components",
     "points": [
-     "Cardio-respiratory endurance: the multistage fitness test (bleep test), running 20 m shuttles at a pace set by bleeps that get faster each level until the performer can no longer keep up; the level reached is recorded and VO2 max (maximum oxygen uptake) is estimated.",
-     "Cardio-respiratory endurance: the Cooper 12-minute run, recording the distance covered in 12 minutes.",
-     "Cardio-respiratory endurance for intermittent team sports: the Yo-Yo intermittent recovery test, repeated shuttles with short recovery breaks.",
-     "Muscular endurance: press-up and sit-up (curl-up) tests, the maximum number in one minute or to exhaustion; or the time a plank is held.",
-     "Strength: the hand-grip dynamometer, or a one-repetition maximum (1RM), the heaviest weight lifted once with correct technique.",
-     "Flexibility: the sit-and-reach test, measuring hamstring and lower-back flexibility as the distance reached past the toes.",
-     "Body composition: skinfold callipers at set sites, bioelectrical impedance scales, or BMI (body mass index), which can wrongly class muscular people as overweight."
-    ]
+     "Cardio-respiratory endurance (the ability of the heart and lungs to supply oxygen over time): the multistage fitness test (bleep test). The performer runs 20 m shuttles at a pace set by bleeps that get faster each level until they can no longer keep up.",
+     "In the multistage fitness test the level reached is recorded, and VO2 max (maximum oxygen uptake, the most oxygen the body can use per minute) is estimated from it.",
+     "Cardio-respiratory endurance, alternative: the Cooper 12-minute run, in which the distance the performer covers in 12 minutes is recorded, so a longer distance means better endurance.",
+     "Cardio-respiratory endurance for intermittent team sports (sports with bursts of effort and rests): the Yo-Yo intermittent recovery test, which uses repeated shuttles with short recovery breaks, so it matches the stop-start pattern of the game.",
+     "Muscular endurance (repeated muscle contractions without tiring): press-up and sit-up (curl-up) tests, recording the maximum number in one minute or to exhaustion; or the time a plank is held.",
+     "Strength (the most force a muscle can produce): the hand-grip dynamometer, or a one-repetition maximum (1RM), which is the heaviest weight lifted once with correct technique.",
+     "Flexibility (range of movement at a joint): the sit-and-reach test, measuring hamstring and lower-back flexibility as the distance reached past the toes.",
+     "Body composition (the proportions of fat, muscle and bone): skinfold callipers at set sites, or bioelectrical impedance scales.",
+     "BMI (body mass index, based on height and weight) is a third option, but it can wrongly class muscular people as overweight because muscle is heavy and BMI cannot tell muscle from fat."
+    ],
+    "tip": "When asked to name and describe a test for a component such as muscular endurance, give the name, how it is done in outline and what is recorded, for example the maximum press-ups in one minute."
    },
    {
+    "b": "Performance-related components matter most for success in a particular sport. Their tests are short and practical, and each records a time, a distance or a count.",
     "h": "Tests for the performance-related components",
     "points": [
-     "Speed: a 30 m sprint from a standing start, timed.",
-     "Agility: the Illinois agility run or the T-test, timing a set course with changes of direction.",
-     "Power: the vertical (sergeant) jump, measuring jump height, or the standing broad jump, measuring distance.",
-     "Balance: the stork stand, timing how long the performer balances on one foot.",
-     "Co-ordination: the alternate-hand wall-toss test, counting catches in 30 seconds.",
-     "Reaction time: the ruler drop test, in which a partner drops a ruler between the performer's thumb and finger and the distance it falls before being caught is recorded."
-    ]
+     "Speed (how fast you can move): a 30 m sprint from a standing start, timed.",
+     "Agility (changing direction quickly and under control): the Illinois agility run or the T-test, timing a set course with changes of direction.",
+     "Power (strength applied at speed): the vertical (sergeant) jump, measuring jump height, or the standing broad jump, measuring distance.",
+     "Balance (keeping the body steady): the stork stand, timing how long the performer balances on one foot.",
+     "Co-ordination (moving body parts smoothly together, for example hand and eye): the alternate-hand wall-toss test, counting catches in 30 seconds.",
+     "Reaction time (the delay between a signal and the start of a response): the ruler drop test. A partner drops a ruler between the performer's thumb and finger, and the distance it falls before being caught is recorded. A shorter distance means a faster reaction."
+    ],
+    "tip": "Examiners ask you to name and justify tests for a named sport, so link each test to a component the sport needs, for example the vertical jump for power."
    },
    {
+    "b": "A test battery is a set of tests chosen to measure the components a specific activity demands, based on a needs analysis (a study of what the activity asks of the performer). Building one is a short sequence of decisions.",
     "h": "Designing a fitness test battery",
     "points": [
-     "A test battery is a set of tests chosen to measure the components a specific activity demands, based on a needs analysis.",
-     "Step 1: analyse the activity's demands and select its key components.",
-     "Step 2: choose one valid, reliable test for each component that is specific to the activity.",
-     "Step 3: order the tests so fatigue does not distort results: non-fatiguing tests such as flexibility, power and agility first, and the maximal endurance test last.",
-     "Step 4: standardise the conditions, record the results and compare them with norms or previous results.",
-     "Example battery for soccer: 30 m sprint (speed for breaking away), Illinois agility run (changes of direction), vertical jump (power for heading), then the Yo-Yo intermittent recovery test (repeated high-intensity running)."
-    ]
+     "1. Analyse the activity's demands and select its key components, so you only test what matters for that sport.",
+     "2. Choose one valid, reliable test for each component that is specific to the activity, so the result tells you something useful about the sport.",
+     "3. Order the tests so fatigue does not distort results. Non-fatiguing tests such as flexibility, power and agility go first, and the maximal endurance test goes last, because a tired performer would score badly on everything after it.",
+     "4. Standardise the conditions, record the results and compare them with norms or previous results.",
+     "Example battery for soccer: a 30 m sprint (speed for breaking away from a defender), the Illinois agility run (changes of direction), the vertical jump (power for heading), then the Yo-Yo intermittent recovery test (repeated high-intensity running over a match)."
+    ],
+    "tip": "Exams ask for a table of component, test and justification for a named activity. Never put the endurance test first; it comes last so fatigue does not affect the other results."
    },
    {
-    "b": "The specification names readiness, specificity, progression, overload and rest/recovery. Exam answers also accept reversibility, individual differences and variety.",
+    "b": "The principles of training are rules that make a programme effective and safe. The specification names readiness, specificity, progression, overload and rest/recovery. Exam answers also accept reversibility, individual differences and variety.",
     "h": "Principles of training",
     "points": [
-     "Specificity: training must match the demands of the activity, including its energy systems, muscles, movements and speeds.",
-     "Progression: the training load is increased gradually as the body adapts.",
-     "Overload: the body must work harder than normal to adapt, achieved by raising frequency, intensity or time.",
-     "Rest and recovery: the body adapts during recovery, so too little rest leads to overtraining.",
+     "Specificity: training must match the demands of the activity, including its energy systems, muscles, movements and speeds, because the body adapts only to what it is asked to do.",
+     "Progression: the training load is increased gradually as the body adapts, so improvement continues without a sudden jump that risks injury.",
+     "Overload: the body must work harder than normal to adapt, achieved by raising frequency (how often), intensity (how hard) or time (how long).",
+     "Rest and recovery: the body adapts during recovery, so too little rest leads to overtraining (a build-up of fatigue that stops progress or causes injury).",
      "Readiness: the performer must be physically and mentally ready for the training, considering age, maturity, fitness base and skill.",
-     "Reversibility: fitness gains are lost if training stops.",
-     "Individual differences: programmes should suit the individual's fitness, goals and response to training.",
-     "Variety (avoiding tedium): varying training keeps motivation high and reduces overuse injuries."
-    ]
+     "Reversibility: fitness gains are lost if training stops, so training must be kept up.",
+     "Individual differences: programmes should suit the individual's fitness, goals and response to training, because two people given the same programme will not adapt in the same way.",
+     "Variety (avoiding tedium): varying training keeps motivation high and reduces overuse injuries, which come from repeating the same movements."
+    ],
+    "tip": "Expect to define three principles, name another and outline its importance, or identify the principle in a case study. A gradual increase in load for young players is progression or readiness."
    },
    {
+    "b": "Each principle helps performance, but each has a cost if it is applied badly. Evaluating means giving the benefit and the risk together.",
     "h": "Evaluating the principles from a performance perspective",
     "points": [
      "Specificity transfers training directly to competition, but too narrow a focus can neglect general fitness and cause overuse injuries.",
      "Overload drives improvement, but progressing too fast raises injury and overtraining risk.",
-     "Rest and recovery allow adaptation, but too much rest causes reversibility.",
-     "Readiness protects young athletes, who should not be given adult training loads before they are physically mature."
-    ]
+     "Rest and recovery allow adaptation, but too much rest causes reversibility (the loss of fitness gained).",
+     "Readiness protects young athletes, who should not be given adult training loads before they are physically mature, because their bodies are still developing."
+    ],
+    "tip": "Exams ask you to examine the impact of two principles on performance, or to explain how a coach uses two principles in programme design. State the benefit, then the risk or limit, for each."
    },
    {
-    "b": "Frequency (how often), Intensity (how hard), Time (how long) and Type (what kind of exercise). The values below are typical guidance, not fixed rules.",
-    "h": "The FITT formula",
+    "b": "FITT is a way to describe a training programme: Frequency (how often), Intensity (how hard), Time (how long) and Type (what kind of exercise). Changing frequency, intensity or time is how overload is applied. The values below are typical guidance, not fixed rules.",
+    "h": "The FITT formula: health-related components",
     "points": [
      "Cardio-respiratory endurance: 3 to 5 times a week, 60 to 80% of maximum heart rate, at least 20 minutes, continuous running, cycling or swimming.",
      "Muscular endurance: 2 to 3 times a week, light loads, 15 or more repetitions in 2 to 3 sets, circuits or body-weight exercises.",
      "Strength: 2 to 3 times a week with rest days between, heavy loads, 3 to 6 repetitions in 3 to 5 sets, free weights or machines.",
      "Flexibility: 3 to 5 times a week, stretch to mild tension, hold each stretch about 30 seconds, static, dynamic or PNF stretching.",
-     "Body composition: most days, moderate intensity, longer sessions of 30 minutes or more, aerobic exercise combined with a balanced diet.",
+     "Body composition: most days, moderate intensity, longer sessions of 30 minutes or more, aerobic exercise combined with a balanced diet."
+    ],
+    "tip": "When asked to describe FITT or apply it to a named component, say what each letter stands for and give a value for each, such as flexibility: 3 to 5 times a week, mild tension, about 30 seconds per stretch, static stretching."
+   },
+   {
+    "b": "The same four letters apply to the performance-related components. Again, the values are typical guidance.",
+    "h": "The FITT formula: performance-related components",
+    "points": [
      "Speed: 2 to 3 times a week, maximal efforts, short sprints with full recovery, sprint intervals.",
      "Agility: 2 to 3 times a week, high intensity, short drills with recovery, ladder and cone drills.",
      "Power: 2 to 3 times a week, explosive maximal efforts, low repetitions with full recovery, plyometrics or jump training.",
@@ -6770,15 +7478,17 @@
     ]
    },
    {
+    "b": "Intensity is the hardest FITT letter to judge by eye, so performers use heart rate to set it. Heart rate zones show whether a session is training the aerobic system (using oxygen) or the anaerobic system (working without enough oxygen). These figures are estimates.",
     "h": "Training zones and thresholds",
     "points": [
      "Maximum heart rate is estimated as 220 minus age.",
      "Aerobic training zone: about 60 to 80% of maximum heart rate. Anaerobic training zone: about 80 to 90%.",
-     "Aerobic threshold: the lower edge of the aerobic zone, below which training gives little cardio-respiratory benefit.",
-     "Anaerobic (lactate) threshold: the intensity above which lactic acid builds up faster than it can be removed.",
+     "Aerobic threshold: the lower edge of the aerobic zone, below which training gives little cardio-respiratory benefit because the heart and lungs are not being challenged enough.",
+     "Anaerobic (lactate) threshold: the intensity above which lactic acid builds up faster than it can be removed, which is why exercise above it cannot be kept going for long.",
      "Example: a 17-year-old's estimated maximum heart rate is 220 − 17 = 203 beats per minute, so the aerobic zone is about 122 to 162 beats per minute.",
      "Intensity is monitored by heart rate or by the rating of perceived exertion (RPE), the performer's own score of how hard they are working."
-    ]
+    ],
+    "tip": "Expect to calculate and apply a training zone: estimate maximum heart rate as 220 minus age, then take the percentages of that figure."
    }
   ],
   "questions": [
@@ -6879,85 +7589,97 @@
   ],
   "notes": [
    {
+    "b": "Different sports tax the body's energy systems in different ways, so there is no single best way to train. These three methods mainly target the aerobic system (which uses oxygen to release energy for long efforts) and the anaerobic system (which works without oxygen for short, intense efforts).",
     "h": "Methods of aerobic and anaerobic training",
     "points": [
-     "Continuous training: steady, moderate-intensity exercise without rest for at least 20 minutes in the aerobic zone (about 60 to 80% of maximum heart rate). Develops cardio-respiratory and muscular endurance through the aerobic system. Suits distance running, swimming and cycling.",
-     "Interval training: periods of work alternated with periods of rest or recovery, set by the work-to-rest ratio, the number of repetitions and the number of sets.",
-     "Short, high-intensity intervals with longer recovery develop speed and anaerobic capacity; longer intervals at lower intensity develop aerobic fitness. Interval training suits intermittent sports such as hurling, soccer and basketball.",
-     "Fartlek (speed play): continuous running with changes of pace and terrain, such as jogging, sprinting between lamp posts and running uphill. Trains the aerobic and anaerobic systems together and suits games players."
-    ]
+     "Continuous training is steady, moderate-intensity exercise without rest for at least 20 minutes in the aerobic zone (about 60 to 80% of maximum heart rate). It works the aerobic system, so it develops cardio-respiratory endurance (heart and lungs) and muscular endurance.",
+     "Continuous training suits activities that are themselves continuous, such as distance running, swimming and cycling, because the training matches what the event demands.",
+     "Interval training alternates periods of work with periods of rest or recovery. Its demand is set by three things: the work-to-rest ratio (how long you work compared with how long you recover), the number of repetitions and the number of sets.",
+     "Short, high-intensity intervals with longer recovery develop speed and anaerobic capacity, because the rest lets you repeat hard efforts. Longer intervals at lower intensity develop aerobic fitness instead.",
+     "Interval training suits intermittent sports (bursts of effort with pauses) such as hurling, soccer and basketball, because it copies the pattern of work and rest in the game.",
+     "Fartlek (speed play) is continuous running with changes of pace and terrain, for example jogging, sprinting between lamp posts and running uphill. It trains the aerobic and anaerobic systems together, so it suits games players."
+    ],
+    "tip": "If asked to name a method of training for speed, give interval training (short, high-intensity work) and name an activity it suits, such as soccer. Always link the method to the energy system and the activity."
    },
    {
+    "b": "Muscles can be trained to work for longer, to produce more force, to produce force quickly, or to move through a bigger range. Each of these aims has its own method.",
     "h": "Methods of strength, power and flexibility training",
     "points": [
-     "Circuit training: a series of stations worked in turn with set work and rest times; can be designed for muscular endurance, strength, cardio-respiratory endurance or sport skills.",
-     "Resistance (weight) training: working against a load such as free weights, machines or body weight, with exercises such as squats, lunges, presses, rows and curls.",
-     "Heavy loads with few repetitions build strength; light loads with many repetitions build muscular endurance.",
-     "Plyometric training: jumping, bounding and hopping in which a lengthening contraction on landing is immediately followed by a forceful shortening contraction on take-off. Develops power for jumping and sprinting.",
+     "Circuit training is a series of stations worked in turn with set work and rest times. It can be designed for muscular endurance, strength, cardio-respiratory endurance or sport skills, depending on the exercises chosen at the stations.",
+     "Resistance (weight) training means working against a load such as free weights, machines or body weight, with exercises such as squats, lunges, presses, rows and curls.",
+     "In resistance training, the number of repetitions decides the result: heavy loads with few repetitions build strength, while light loads with many repetitions build muscular endurance (the ability to keep a muscle working).",
+     "Plyometric training uses jumping, bounding and hopping. A lengthening contraction on landing is followed immediately by a forceful shortening contraction on take-off, which develops power for jumping and sprinting.",
      "Plyometrics needs a strength base, a forgiving surface and low volume, so it is not for beginners.",
-     "Static stretching: a stretch held still at mild tension; best in the cool-down.",
-     "Dynamic stretching: controlled movement through the full range, such as leg swings; used in the warm-up.",
-     "PNF (proprioceptive neuromuscular facilitation) stretching: stretch the muscle, contract it against resistance from a partner, relax, then stretch further; gives the greatest gains in range."
-    ]
+     "Static stretching holds a stretch still at mild tension. It is best in the cool-down.",
+     "Dynamic stretching is controlled movement through the full range of a joint, such as leg swings, and it is used in the warm-up to prepare the muscles for the movements to come.",
+     "PNF (proprioceptive neuromuscular facilitation) stretching has four steps: stretch the muscle, contract it against resistance from a partner, relax, then stretch further. It gives the greatest gains in range."
+    ],
+    "tip": "Examiners ask how weight training and circuit training could improve a chosen component, so say which load or station design you would use. Never recommend plyometrics for beginners without the strength-base caution. For flexibility, name a method with an example activity."
    },
    {
+    "b": "The skill in comparing methods is matching each one to what the activity actually demands. The same method can be ideal for one sport and poor for another.",
     "h": "Comparing methods for selected activities",
     "points": [
-     "Hurling: interval training and fartlek suit the stop-start game better than continuous training, with resistance and plyometric work for power in striking and jumping.",
-     "Distance swimming: continuous and long-interval training develop the aerobic system the event depends on.",
-     "Gymnastics: flexibility training and body-weight strength work matter more than long aerobic sessions.",
+     "Hurling is stop-start, so interval training and fartlek suit it better than continuous training. Resistance and plyometric work add power for striking and jumping.",
+     "Distance swimming depends on the aerobic system, so continuous and long-interval training develop the fitness the event needs.",
+     "Gymnastics relies on flexibility and body-weight strength rather than long efforts, so flexibility training and body-weight strength work matter more than long aerobic sessions.",
      "The best method depends on the energy systems and fitness components the activity demands."
-    ]
+    ],
+    "tip": "When asked to explain methods for a named activity, give the method, the energy system or component it develops, and why the activity needs it."
    },
    {
+    "b": "Training can take place in the sport itself or in other forms of exercise that build the same fitness. Each approach has strengths, and good programmes use both.",
     "h": "Training in the activity and outside the activity",
     "points": [
-     "Training in the activity: conditioned games and sport-specific drills that are specific, motivating and train skill under fatigue.",
-     "Training outside the activity: gym-based resistance training, plyometrics, swimming or cycling as cross-training, and yoga or Pilates for flexibility and core strength.",
-     "Benefits of training outside the activity: overloads specific components precisely, builds a fitness base, adds variety, and reduces overuse of the sport's repeated movements.",
-     "Limitation of training outside the activity: it is less specific, so it must be linked back to the activity's movements and demands.",
-     "Example for a hurler: resistance training builds the strength and power for long striking and winning dropping balls; yoga improves hip and shoulder range for the swing."
-    ]
+     "Training in the activity uses conditioned games and sport-specific drills. It is specific (it copies the real movements), motivating, and trains skill under fatigue, which is when skill usually breaks down in matches.",
+     "Training outside the activity includes gym-based resistance training, plyometrics, swimming or cycling as cross-training (training in a different sport), and yoga or Pilates for flexibility and core strength.",
+     "Training outside the activity can overload specific components precisely, build a fitness base, add variety, and reduce overuse of the sport's repeated movements.",
+     "The limitation is that training outside the activity is less specific, so it must be linked back to the activity's movements and demands.",
+     "For a hurler, resistance training builds the strength and power for long striking and winning dropping balls, while yoga improves hip and shoulder range for the swing."
+    ],
+    "tip": "If asked to identify two approaches to training outside a named activity, pick two (for example resistance training and yoga or Pilates) and say how each helps the activity."
    },
    {
+    "b": "A good programme starts from evidence, not guesswork. Fitness test results show what to train, and the rest of the design follows in five steps.",
     "h": "Designing a fitness programme from test data",
     "points": [
-     "Step 1: use the fitness test results to identify the weakest components that matter most for the activity.",
-     "Step 2: set goals for those components.",
-     "Step 3: select training methods suited to each goal.",
-     "Step 4: apply FITT and the principles of training, planning sessions per week across several weeks with progression, a warm-up and cool-down in each session, and rest days.",
-     "Step 5: re-test at the end to evaluate the programme and adjust it.",
-     "Illustrative six-week plan for a soccer player whose tests show weak speed and agility: two speed and agility sessions a week (sprints and cone drills with full recovery), one resistance session for leg strength, one fartlek run; repetitions rise every two weeks; week four is lighter; re-test in week six."
-    ]
+     "1. Use the fitness test results to identify the weakest components that matter most for the activity, so effort goes where it will help performance most.",
+     "2. Set goals for those components.",
+     "3. Select training methods suited to each goal.",
+     "4. Apply FITT and the principles of training. Plan sessions per week across several weeks with progression, a warm-up and cool-down in each session, and rest days.",
+     "5. Re-test at the end to evaluate the programme and adjust it, because the new results show whether the goals were met.",
+     "Illustrative six-week plan (example values only) for a soccer player whose tests show weak speed and agility: two speed and agility sessions a week (sprints and cone drills with full recovery), one resistance session for leg strength, and one fartlek run.",
+     "In the same illustrative plan, repetitions rise every two weeks, week four is lighter, and the player is re-tested in week six."
+    ],
+    "tip": "For a programme question, link each training method to a weakness shown in the test results, then show progression, rest and a re-test. Label any figures you invent as examples."
    },
    {
+    "b": "Training is the stimulus, but the body improves while it recovers afterwards. Recovery strategies help this process along and keep performers ready for the next session.",
     "h": "Recovery and adaptation",
     "points": [
-     "Adaptation happens during recovery, not during the session: if recovery is adequate, the body rebuilds slightly above its previous level (supercompensation).",
-     "Cool-down: light activity and stretching help remove waste products and return the body to rest.",
-     "Rehydration: replaces fluid and electrolytes lost in sweat.",
-     "Refuelling soon after exercise: carbohydrate restores muscle glycogen and protein repairs muscle tissue.",
-     "Sleep: most tissue repair and growth takes place during sleep.",
-     "Active recovery: a light session, such as an easy swim the day after a match, keeps blood flowing to the muscles.",
-     "Massage and foam rolling: reduce muscle tightness and soreness.",
-     "Cold-water immersion: reduces inflammation and soreness after intense exercise.",
-     "Compression garments: may reduce swelling and soreness.",
-     "Planned rest days and lighter weeks prevent overtraining (its signs are in the notes on safe practice)."
-    ]
+     "Adaptation happens during recovery, not during the session. If recovery is adequate, the body rebuilds slightly above its previous level, which is called supercompensation.",
+     "Cool-down means light activity and stretching, which help remove waste products and return the body to rest.",
+     "Rehydration replaces fluid and electrolytes (salts) lost in sweat. Refuelling soon after exercise matters too: carbohydrate restores muscle glycogen (the muscles' stored fuel) and protein repairs muscle tissue.",
+     "Sleep supports recovery because most tissue repair and growth takes place during sleep.",
+     "Active recovery is a light session, such as an easy swim the day after a match, which keeps blood flowing to the muscles.",
+     "Massage and foam rolling reduce muscle tightness and soreness. Cold-water immersion reduces inflammation and soreness after intense exercise, and compression garments may reduce swelling and soreness.",
+     "Planned rest days and lighter weeks prevent overtraining, which is when training outpaces recovery. There is more on its signs in Safe practice."
+    ],
+    "tip": "Explain two recovery strategies by giving each one with its reason, for example carbohydrate restores muscle glycogen, or sleep supports tissue repair. A bare list of strategies earns little."
    },
    {
+    "b": "Periodisation plans training in stages, so the performer is at their best when it matters.",
     "h": "Periodisation",
     "points": [
-     "Periodisation: dividing a training plan into planned phases or cycles, each with a specific aim, so that volume, intensity and recovery vary systematically to bring the performer to peak performance at target competitions.",
-     "Macrocycle: the long-term plan, often a year or a season.",
-     "Mesocycle: a block of several weeks, often 4 to 6, with one focus, such as building strength.",
-     "Microcycle: usually one week of sessions.",
-     "Preparation phase: general fitness first, then specific fitness and skills.",
-     "Competition phase: fitness is maintained and the performer peaks for key events; tapering before the main event reduces training volume while keeping intensity, so the performer arrives fresh.",
-     "Transition phase: active rest and recovery after the season.",
-     "Why coaches use it: the performer peaks at the right time, develops qualities in a logical order, avoids overtraining and injury, and stays motivated through variety.",
+     "Periodisation divides a training plan into planned phases or cycles, each with a specific aim, so that volume, intensity and recovery vary systematically to bring the performer to peak performance at target competitions.",
+     "Cycles run from longest to shortest. The macrocycle is the long-term plan, often a year or a season. The mesocycle is a block of several weeks, often 4 to 6, with one focus, such as building strength. The microcycle is usually one week of sessions.",
+     "The preparation phase builds general fitness first, then specific fitness and skills.",
+     "In the competition phase, fitness is maintained and the performer peaks for key events. Tapering before the main event reduces training volume while keeping intensity, so the performer arrives fresh.",
+     "The transition phase is active rest and recovery after the season.",
+     "Coaches use periodisation so the performer peaks at the right time, develops qualities in a logical order, avoids overtraining and injury, and stays motivated through variety.",
      "Peaking for a single major event, such as an Olympic Games every four years, uses a long-term plan built from these cycles, with each year's macrocycle building towards the target."
-    ]
+    ],
+    "tip": "When matching timeframes, keep the order macro > meso > micro: a full year is the macrocycle, a block of weeks the mesocycle, one week the microcycle. Define periodisation, then give reasons coaches use it."
    }
   ],
   "questions": [
@@ -7082,95 +7804,116 @@
   ],
   "notes": [
    {
+    "b": "Skill alone does not decide a performance; what the performer believes about their skill matters too. Confidence shapes how hard they try, what they attempt and how they cope under pressure.",
     "h": "Confidence",
     "points": [
-     "Confidence: a performer's belief in their ability to perform successfully. Self-efficacy is confidence in a specific situation, such as taking a penalty in a final.",
-     "Albert Bandura's four sources of self-efficacy: performance accomplishments (past success), vicarious experiences (seeing similar others succeed), verbal persuasion (encouragement from others) and emotional arousal (how the performer interprets their body's state).",
-     "Effects of high confidence: more effort and persistence, and willingness to attempt difficult skills and to take responsibility at key moments.",
-     "Effects of low confidence: avoiding the ball or difficult moves, hesitation, and more anxiety; over-confidence can cause complacency and poor preparation.",
-     "Strategies: set achievable goals so success builds up; recall or watch video of past successes; positive self-talk; imagery of performing well; watch demonstrations by similar performers; specific praise from the coach."
-    ]
+     "Confidence is a performer's belief in their ability to perform successfully. Self-efficacy is confidence in one specific situation, such as taking a penalty in a final, so a player can be confident in training yet doubtful in that moment.",
+     "Albert Bandura's theory gives four sources of self-efficacy. The first is performance accomplishments (past success).",
+     "The second source is vicarious experiences (watching similar others succeed), which tells the performer 'someone like me can do this'. The third is verbal persuasion (encouragement from others).",
+     "The fourth source is emotional arousal: how the performer interprets their body's state, for example reading a racing heart as readiness rather than as fear.",
+     "High confidence leads to more effort and persistence, and to willingness to attempt difficult skills and to take responsibility at key moments, because the performer expects to succeed.",
+     "Low confidence leads to avoiding the ball or difficult moves, hesitation, and more anxiety, because the performer expects to fail. Over-confidence can also harm, causing complacency (relaxing too much) and poor preparation.",
+     "Strategies to build confidence: set achievable goals so success builds up; recall or watch video of past successes; use positive self-talk; use imagery (picturing yourself performing well); watch demonstrations by similar performers; and receive specific praise from the coach."
+    ],
+    "tip": "Exams ask how confidence affects performance and for a strategy to improve it. Give an effect and its reason, and explain how the strategy you choose works rather than just naming it."
    },
    {
+    "b": "Before anyone can understand anxiety they need to know about arousal, the body and mind's level of activation. Performers need some arousal to perform well, but the right amount depends on the task and the person.",
     "h": "Arousal and the inverted-U",
     "points": [
-     "Arousal: the level of physical and mental activation or readiness, on a scale from deep sleep to extreme excitement.",
-     "Inverted-U hypothesis (based on the Yerkes-Dodson law): performance improves as arousal rises to an optimal level, then declines if arousal keeps rising.",
-     "Under-aroused: the performer is bored, slow to react and makes careless errors. Over-aroused: muscles tense, attention narrows, decisions and co-ordination suffer.",
-     "The optimal level is lower for complex and fine skills and for beginners (such as a golf putt or a beginner's handspring), and higher for simple and gross skills and for experts (such as a rugby tackle or a weightlift)."
-    ]
+     "Arousal is the level of physical and mental activation or readiness, on a scale from deep sleep to extreme excitement. It is neutral: it is simply how switched on the performer is, not a good or bad feeling.",
+     "The inverted-U hypothesis (based on the Yerkes-Dodson law) says performance improves as arousal rises to an optimal level, then declines if arousal keeps rising. Plotted on a graph this makes an upside-down U.",
+     "Under-aroused, the performer is bored, slow to react and makes careless errors, because they are not alert enough for the task.",
+     "Over-aroused, muscles tense, attention narrows, and decisions and co-ordination suffer, because the performer is overloaded.",
+     "The optimal level is lower for complex and fine skills and for beginners, such as a golf putt or a beginner's handspring, because these need precise control and a lot of thinking.",
+     "The optimal level is higher for simple and gross skills and for experts, such as a rugby tackle or a weightlift, because these need force and speed and the expert has them well learned."
+    ],
+    "tip": "Do not mix up arousal and anxiety: arousal is neutral activation, anxiety is a negative emotional response."
    },
    {
+    "b": "Anxiety is what arousal can turn into when a performer feels threatened. It has a mental side and a physical side, and each affects performance in its own way.",
     "h": "Anxiety",
     "points": [
-     "Anxiety: a negative emotional state of worry and apprehension, linked to high arousal.",
-     "Cognitive anxiety: the mental side, such as worry, negative thoughts and self-doubt, for example dwelling on missing a free.",
-     "Somatic anxiety: the physical side, such as a raised heart rate, sweating, muscle tension and butterflies in the stomach.",
-     "State anxiety: anxiety felt in a particular situation, such as before a penalty. Trait anxiety: a person's general tendency to be anxious across situations.",
-     "Effects on performance: attention is narrowed or distracted, muscles tense, co-ordination and decision-making break down, and a performer may choke under pressure.",
-     "Some anxiety can help if the performer interprets the feelings as readiness rather than threat.",
-     "Strategies: breathing control; progressive muscular relaxation (tensing and relaxing muscle groups in turn); positive self-talk and reframing nerves as excitement; imagery; a pre-performance routine; simulating competition pressure in practice."
-    ]
+     "Anxiety is a negative emotional state of worry and apprehension (a fearful sense that something will go wrong), linked to high arousal.",
+     "Cognitive anxiety is the mental side: worry, negative thoughts and self-doubt, for example dwelling on missing a free.",
+     "Somatic anxiety is the physical side: a raised heart rate, sweating, muscle tension and butterflies in the stomach.",
+     "State anxiety is anxiety felt in a particular situation, such as before a penalty. Trait anxiety is a person's general tendency to be anxious across situations, so a high-trait performer feels it more often.",
+     "Effects on performance: attention is narrowed or distracted, muscles tense, and co-ordination and decision-making break down. A performer may choke under pressure (fail at a skill they can normally do).",
+     "Some anxiety can help if the performer interprets the feelings as readiness rather than threat, which is how nerves can become useful energy.",
+     "Strategies: breathing control; progressive muscular relaxation (tensing and relaxing muscle groups in turn); positive self-talk and reframing nerves as excitement; imagery; a pre-performance routine; and simulating competition pressure in practice so it feels familiar.",
+     "Match the strategy to the problem: relaxation and breathing lower somatic anxiety, while self-talk and reframing tackle the worry of cognitive anxiety."
+    ],
+    "tip": "Examiners ask you to define anxiety and to discuss how it may affect performance. Name cognitive and somatic anxiety with an example of each, and say that relaxation lowers anxiety; it does not directly raise motivation."
    },
    {
+    "b": "Motivation is what gets a performer to the training session and keeps them going when it is hard.",
     "h": "Motivation",
     "points": [
-     "Motivation: the drive to begin, direct and keep going with an activity.",
-     "Intrinsic motivation comes from within, such as enjoyment, mastery and satisfaction; extrinsic motivation comes from outside, such as trophies, praise, selection and rewards.",
+     "Motivation is the drive to begin, direct and keep going with an activity.",
+     "Intrinsic motivation comes from within, such as enjoyment, mastery and satisfaction. Extrinsic motivation comes from outside, such as trophies, praise, selection and rewards.",
      "Effects on practice: a motivated performer attends, works hard, keeps the quality of repetitions high when no one is watching and persists when progress is slow.",
      "Effects on performance: persistence when losing, effort to the final whistle, and willingness to train through difficult phases.",
-     "Strategies: SMART goal setting; variety in training; recording progress so improvement is visible; specific praise and positive feedback; giving the performer choice and ownership; team targets; appropriate rewards.",
-     "Relying too much on extrinsic rewards can reduce intrinsic motivation, so rewards should recognise effort and improvement."
-    ]
+     "Strategies: SMART goal setting; variety in training so it stays interesting; recording progress so improvement is visible; and specific praise and positive feedback.",
+     "More strategies: give the performer choice and ownership, so they feel the training is theirs; set team targets; and use appropriate rewards.",
+     "Relying too much on extrinsic rewards can reduce intrinsic motivation, because the performer starts to train for the prize rather than the enjoyment. Rewards should therefore recognise effort and improvement."
+    ],
+    "tip": "Exams ask how motivation affects practice. Cover effort, attendance and quality of repetitions when no one is watching, and link each to better skill."
    },
    {
+    "b": "Concentration means putting your attention on the right thing at the right time. Different moments in a game need different kinds of focus, which Nideffer's model describes.",
     "h": "Concentration",
     "points": [
-     "Concentration: the ability to focus attention on the relevant cues, ignore distractions, and keep that focus over time.",
-     "Robert Nideffer described attentional focus as broad or narrow and internal or external.",
-     "Broad-external: reading the whole game, such as a quarterback or midfielder scanning the field.",
-     "Narrow-external: focusing on one cue, such as watching the ball onto the racket.",
-     "Broad-internal: planning tactics or analysing performance in the mind.",
-     "Narrow-internal: focusing on one's own body or thoughts, such as a pre-shot routine or a key cue word.",
+     "Concentration is the ability to focus attention on the relevant cues (the information that matters), ignore distractions, and keep that focus over time.",
+     "Robert Nideffer described attentional focus as broad or narrow and internal or external. Broad takes in lots of information; narrow takes in one thing; internal is inside the performer; external is the outside world.",
+     "Broad-external is reading the whole game, such as a quarterback or midfielder scanning the field. Narrow-external is focusing on one cue, such as watching the ball onto the racket.",
+     "Broad-internal is planning tactics or analysing performance in the mind. Narrow-internal is focusing on one's own body or thoughts, such as a pre-shot routine or a key cue word.",
      "Effects of lapses: errors, missed cues and poor decisions, especially late in a contest or during long waits between efforts, such as between attempts in a field event.",
-     "Strategies: pre-performance routines; cue words; focusing on process goals; thought stopping (recognising a negative thought and replacing it with a positive one); simulation training with crowd noise and distractions; imagery; breaking a long event into short segments."
-    ]
+     "Strategies: pre-performance routines; cue words (short trigger words); focusing on process goals (what to do, not the result); and imagery.",
+     "Further strategies: thought stopping (recognising a negative thought and replacing it with a positive one); simulation training with crowd noise and distractions, so distractions lose their effect; and breaking a long event into short segments."
+    ],
+    "tip": "When asked how concentration affects performance, link a lapse to a missed cue and then an error. When asked for one strategy, explain how it works rather than just naming it."
    },
    {
+    "b": "Feedback is how a performer finds out what happened, and it drives improvement. Feedback is classified in several ways, and exam questions often ask you to identify the type.",
     "h": "Feedback",
     "points": [
-     "Feedback: information a performer receives about their performance.",
-     "Intrinsic feedback: comes from within, through the senses and the feel of the movement (kinaesthetic feedback), such as feeling a clean strike.",
-     "Extrinsic feedback: comes from outside, such as a coach, video or the scoreboard.",
-     "Knowledge of results (KR): information about the outcome, such as whether the shot went in or the time achieved.",
-     "Knowledge of performance (KP): information about the quality of the movement or technique, such as the elbow position at release.",
-     "Positive feedback tells the performer what went well and motivates; negative feedback tells them what went wrong and helps correct it.",
+     "Feedback is information a performer receives about their performance.",
+     "Intrinsic feedback comes from within, through the senses and the feel of the movement (kinaesthetic feedback), such as feeling a clean strike. Extrinsic feedback comes from outside, such as a coach, video or the scoreboard.",
+     "Knowledge of results (KR) is information about the outcome, such as whether the shot went in or the time achieved.",
+     "Knowledge of performance (KP) is information about the quality of the movement or technique, such as the elbow position at release. Do not swap KR and KP.",
+     "Positive feedback tells the performer what went well and motivates. Negative feedback tells them what went wrong and helps correct it.",
      "Concurrent feedback is given during the performance; terminal feedback is given after it.",
-     "Beginners need frequent, simple, positive, extrinsic feedback and KR; experienced performers rely more on intrinsic feedback and detailed KP.",
-     "Good feedback is specific, timely and constructive; too much feedback overloads the learner and creates dependence on the coach."
-    ]
+     "Beginners need frequent, simple, positive, extrinsic feedback and KR, because they cannot yet judge their own movement. Experienced performers rely more on intrinsic feedback and detailed KP.",
+     "Good feedback is specific, timely and constructive. Too much feedback overloads the learner and creates dependence on the coach."
+    ],
+    "tip": "Exams ask you to outline four types of feedback, to explain intrinsic and extrinsic feedback, and to identify the type in a quotation. Remember KR is about the outcome and KP is about the technique."
    },
    {
+    "b": "Mental preparation is not only a pre-match job. Strategies are used at three stages, and each strategy has strengths and limits worth knowing.",
     "h": "Mental preparation before, during and after performance",
     "points": [
-     "Before: goal setting for the performance; imagery of key moments; a pre-performance routine; relaxation and breathing; positive self-talk; preparing equipment and a game plan.",
-     "During: cue words and self-talk; a refocusing routine after errors, such as a deep breath and a reset word; breathing control in breaks in play; focusing on the process, one point at a time.",
-     "After: reflection and performance review; constructive feedback; relaxation and recovery; resetting goals; reframing a poor result as information for improvement.",
+     "Before: goal setting for the performance; imagery of key moments; a pre-performance routine; relaxation and breathing; positive self-talk; and preparing equipment and a game plan, so nothing is left to worry about.",
+     "During: cue words and self-talk; a refocusing routine after errors, such as a deep breath and a reset word; breathing control in breaks in play; and focusing on the process, one point at a time.",
+     "After: reflection and performance review; constructive feedback; relaxation and recovery; and resetting goals. A poor result is reframed (viewed differently) as information for improvement.",
      "Evaluating imagery: it builds confidence and rehearses skills without physical fatigue, but it needs practice and a clear, controllable image to work.",
      "Evaluating goal setting: it directs effort and raises motivation, but unrealistic or outcome-only goals can increase anxiety.",
      "Evaluating relaxation techniques: they lower somatic anxiety quickly, but too much relaxation before a power event can leave the performer under-aroused."
-    ]
+    ],
+    "tip": "When asked for two strategies for a named activity before or during performance, choose ones that fit the stage and explain how each works. When evaluating, give a strength and a limitation, such as imagery needing a clear image."
    },
    {
+    "b": "A personal action plan turns the psychological factors into a plan you could actually follow. It starts from the performer's own weaknesses and ends with a check on whether it worked.",
     "h": "Designing a personal action plan",
     "points": [
      "Step 1: identify the psychological factors to target from self-assessment, such as an anxiety questionnaire or a reflective diary.",
      "Step 2: set goals for those factors.",
      "Step 3: choose one or two strategies for before, during and after performance.",
-     "Step 4: give a rationale for each strategy, explaining how it affects the targeted factor.",
+     "Step 4: give a rationale for each strategy, explaining how it affects the targeted factor. A rationale is the reason the strategy was chosen.",
      "Step 5: say how progress will be monitored and reviewed, such as rating confidence after each match.",
-     "Illustrative plan for a basketball free-throw shooter with high anxiety: before, breathing control and imagery of successful shots to lower somatic anxiety and build confidence; during, the same pre-shot routine and a cue word at every free throw to narrow focus; after, a review of video and a diary rating of anxiety to track progress."
-    ]
+     "Illustrative plan for a basketball free-throw shooter with high anxiety: before, breathing control and imagery of successful shots to lower somatic anxiety and build confidence.",
+     "During, the same pre-shot routine and a cue word at every free throw to narrow focus. After, a review of video and a diary rating of anxiety to track progress."
+    ],
+    "tip": "Exams ask you to outline three aspects of a personal action plan and their rationale. For each, say what you would do and why it works, rather than just listing the step."
    }
   ],
   "questions": [
@@ -7267,83 +8010,96 @@
   ],
   "notes": [
    {
+    "b": "Food supplies the fuel and the building materials a performer needs. Each nutrient does a different job, so knowing what each does and where it comes from lets you build a diet that supports training and competition.",
     "h": "Nutrients and their roles in performance",
     "points": [
-     "Carbohydrate: the body's main energy source for moderate and high-intensity exercise; stored as glycogen in the muscles and liver. Sources: bread, pasta, rice, potatoes, cereals and fruit.",
-     "Protein: growth and repair of muscle and other tissue. Sources: meat, fish, eggs, dairy and pulses.",
-     "Fat: a concentrated energy source for low-intensity, long-duration exercise; also insulates the body and carries fat-soluble vitamins. Sources: oils, nuts, dairy and oily fish.",
-     "Iron: carries oxygen in red blood cells; a deficiency causes tiredness and reduces endurance.",
-     "Calcium: needed for strong bones and muscle contraction.",
-     "B vitamins: help release energy from food.",
-     "Fibre: keeps the digestive system healthy, but large amounts just before exercise can cause discomfort.",
+     "Carbohydrate is the body's main energy source for moderate and high-intensity exercise, and it is stored as glycogen (the body's stored form of carbohydrate) in the muscles and liver. Sources: bread, pasta, rice, potatoes, cereals and fruit.",
+     "Protein is used for growth and repair of muscle and other tissue, which is why it matters after hard training damages muscle fibres. Sources: meat, fish, eggs, dairy and pulses (beans, peas and lentils).",
+     "Fat is a concentrated energy source for low-intensity, long-duration exercise. It also insulates the body and carries fat-soluble vitamins (vitamins that need fat to be absorbed). Sources: oils, nuts, dairy and oily fish.",
+     "Iron carries oxygen in red blood cells, so a deficiency (not having enough) causes tiredness and reduces endurance because muscles receive less oxygen.",
+     "Calcium is needed for strong bones and for muscle contraction.",
+     "B vitamins help release energy from food, so they support the energy supply for training.",
+     "Fibre keeps the digestive system healthy, but large amounts just before exercise can cause discomfort because it is slow to digest.",
      "A balanced diet for a performer is mostly carbohydrate-based, with enough protein, limited saturated fat, plenty of fruit and vegetables, and energy intake matched to the training load."
-    ]
+    ],
+    "tip": "Exams ask you to match nutrients to foods and say why each matters on event day. Always give both the nutrient and a food source, for example carbohydrate from pasta or rice."
    },
    {
+    "b": "What you eat before an event decides how much fuel you start with and whether your stomach copes with it. The aim is full energy stores without digestive problems.",
     "h": "Nutrition before performance",
     "points": [
-     "A meal about 3 to 4 hours before: high in carbohydrate, moderate in protein, low in fat and fibre, so glycogen stores are topped up and digestion is complete, such as pasta with chicken.",
-     "A small carbohydrate snack about 1 to 2 hours before if needed, such as a banana or toast.",
-     "Familiar foods only, to avoid stomach upsets on competition day.",
-     "Plenty of fluid in the hours beforehand.",
-     "Carbohydrate loading for endurance events lasting more than about 90 minutes: carbohydrate intake is increased over the days before while training tapers, to maximise glycogen stores."
-    ]
+     "Eat a meal about 3 to 4 hours before: high in carbohydrate, moderate in protein, and low in fat and fibre, such as pasta with chicken. This tops up glycogen stores and leaves time for digestion to be complete.",
+     "If needed, have a small carbohydrate snack about 1 to 2 hours before, such as a banana or toast, to add energy without a heavy stomach.",
+     "Eat familiar foods only on competition day, to avoid stomach upsets from something your body is not used to.",
+     "Drink plenty of fluid in the hours beforehand so you start properly hydrated.",
+     "Carbohydrate loading is for endurance events lasting more than about 90 minutes. Carbohydrate intake is increased over the days before while training tapers (is reduced), to maximise glycogen stores."
+    ],
+    "tip": "If asked for one nutritional requirement before an event, give a high-carbohydrate meal 3 to 4 hours before and say it fills glycogen stores. Carbohydrate loading is only for long endurance events, not short ones."
    },
    {
+    "b": "During an event the goal is to keep energy and fluid levels up. Afterwards the goal switches to recovery, which means refuelling, repairing and rehydrating.",
     "h": "Nutrition during and after performance",
     "points": [
-     "During short events: water is usually enough.",
-     "During events lasting more than about an hour: carbohydrate from a sports drink, gel or banana, with fluid, maintains blood glucose and delays fatigue.",
-     "After: carbohydrate restores muscle glycogen and protein repairs muscle, ideally within about 30 to 60 minutes, such as chocolate milk or a chicken and rice meal.",
-     "After: rehydrate with fluid and electrolytes to replace sweat losses.",
+     "During short events, water is usually enough because stored glycogen lasts the whole effort.",
+     "During events lasting more than about an hour, take carbohydrate from a sports drink, gel or banana, with fluid. This maintains blood glucose and delays fatigue.",
+     "After exercise, carbohydrate restores muscle glycogen and protein repairs muscle, ideally within about 30 to 60 minutes, such as chocolate milk or a chicken and rice meal.",
+     "After exercise, rehydrate with fluid and electrolytes (salts such as sodium) to replace sweat losses.",
      "Match-day example for Gaelic football: a pasta lunch three to four hours before throw-in; a banana an hour before; water and a sports drink at half-time; chocolate milk straight after and a chicken and rice dinner that evening."
-    ]
+    ],
+    "tip": "Questions ask for two nutritional considerations after performance, excluding hydration. Give carbohydrate to restore glycogen and protein to repair muscle, each with its reason and an example food."
    },
    {
+    "b": "Water is involved in almost everything the body does during exercise, and sweating drains it quickly. Even a small fluid shortage harms performance, so performers need to know why water matters, when needs rise and how to check their hydration.",
     "h": "Hydration",
     "points": [
-     "Water regulates body temperature through sweating, transports nutrients and maintains blood volume.",
-     "Effects of dehydration: raised heart rate and body temperature, fatigue, headache, cramp, reduced concentration and poorer skill.",
-     "A fluid loss of about 2% of body mass can impair performance.",
-     "Fluid needs are higher in long or high-intensity activities, in hot or humid conditions, in indoor halls, when wearing heavy kit, and at altitude; swimmers also sweat and need fluid.",
-     "Monitoring: urine colour (pale straw is good), weighing before and after exercise, and thirst, which is a late sign.",
+     "Water regulates body temperature through sweating, transports nutrients and maintains blood volume, so losing it affects cooling and circulation.",
+     "Effects of dehydration (not having enough water in the body): raised heart rate and body temperature, fatigue, headache, cramp, reduced concentration and poorer skill.",
+     "A fluid loss of about 2% of body mass can impair performance, so waiting until you feel very dehydrated is too late.",
+     "Fluid needs are higher in long or high-intensity activities, in hot or humid conditions, in indoor halls, when wearing heavy kit, and at altitude. Swimmers also sweat and need fluid, even though they are in water.",
+     "Monitor hydration with urine colour (pale straw is good), by weighing before and after exercise, and by thirst, which is a late sign because it appears after dehydration has begun.",
      "Replace about 1.5 times the fluid lost: 1 kg of body mass lost needs about 1.5 litres.",
-     "Drinking large amounts of plain water in very long events can dilute blood sodium (hyponatraemia), so drinks should include electrolytes."
-    ]
+     "Drinking large amounts of plain water in very long events can dilute blood sodium (hyponatraemia, dangerously low sodium in the blood), so drinks should include electrolytes."
+    ],
+    "tip": "Side effects of dehydration are a common question, so list several (heart rate, temperature, fatigue, headache, cramp, concentration and skill). Remember that thirst is a late sign, so it is not a reliable guide."
    },
    {
+    "b": "Sports drinks come in three types, defined by how concentrated they are compared with body fluid. The concentration decides how fast the drink is absorbed and what it is best used for.",
     "h": "Sports drinks",
     "points": [
-     "Hypotonic: a lower concentration than body fluid; absorbed fastest, for rapid rehydration.",
-     "Isotonic: about 6 to 8% carbohydrate, the same concentration as body fluid; provides fluid and energy together and is the most common drink during exercise.",
-     "Hypertonic: a higher carbohydrate concentration; provides energy, usually after exercise.",
-     "Benefits: replace fluid, electrolytes (sodium and potassium) and carbohydrate in one convenient drink.",
-     "Disadvantages: sugar and calories (dental decay and weight gain for inactive users), cost, and unnecessary for short or low-intensity activity."
-    ]
+     "Hypotonic drinks have a lower concentration than body fluid, so they are absorbed fastest and suit rapid rehydration.",
+     "Isotonic drinks have about 6 to 8% carbohydrate, the same concentration as body fluid. They provide fluid and energy together and are the most common drink during exercise.",
+     "Hypertonic drinks have a higher carbohydrate concentration, so they provide energy and are usually used after exercise.",
+     "Benefits: they replace fluid, electrolytes (sodium and potassium) and carbohydrate in one convenient drink.",
+     "Disadvantages: sugar and calories (dental decay, and weight gain for inactive users), cost, and they are unnecessary for short or low-intensity activity, where water is enough."
+    ],
+    "tip": "Questions ask for advantages and disadvantages of sports drinks. Give a benefit such as replacing fluid, electrolytes and carbohydrate, and a drawback such as sugar, cost or being unnecessary for short activity."
    },
    {
+    "b": "Supplements are products taken in addition to food to help performance or recovery. Each has a specific role, but each also brings risks, which is why a balanced diet comes first.",
     "h": "Sports supplements: role and challenges",
     "points": [
-     "Protein powders: muscle repair and convenience after training.",
-     "Creatine: raises phosphocreatine stores in muscle, improving repeated short, maximal efforts.",
-     "Caffeine: a stimulant that can reduce perceived effort and improve alertness and endurance.",
-     "Energy gels: rapid carbohydrate during long events.",
-     "Vitamin and mineral supplements: to correct a diagnosed deficiency, such as iron.",
-     "Challenge: contamination with prohibited substances; under strict liability the athlete is responsible for anything found in their sample.",
+     "Protein powders help muscle repair and are a convenient way to get protein after training.",
+     "Creatine raises phosphocreatine stores (a quick energy store) in muscle, improving repeated short, maximal efforts.",
+     "Caffeine is a stimulant that can reduce perceived effort and improve alertness and endurance.",
+     "Energy gels give rapid carbohydrate during long events.",
+     "Vitamin and mineral supplements correct a diagnosed deficiency, such as iron.",
+     "Challenge: products can be contaminated with prohibited substances, and under strict liability the athlete is responsible for anything found in their sample. Batch-tested products reduce but do not remove this risk.",
      "Challenge: side effects, such as stomach upset from caffeine or weight gain from creatine.",
-     "Challenge: cost, unregulated claims, and possible dependence.",
-     "Challenge: usually unnecessary when the diet is balanced (food first); batch-tested products reduce but do not remove the risk."
-    ]
+     "Challenges: cost, unregulated claims and possible dependence. Supplements are also usually unnecessary when the diet is balanced, so the advice is food first."
+    ],
+    "tip": "To name a supplement and justify its use, pair it with its role, for example creatine for repeated short maximal efforts. For challenges, give specific ones such as contamination risk, side effects, cost and being unnecessary with a balanced diet."
    },
    {
+    "b": "A dietary plan applies everything above to one chosen activity. A good plan shows what the performer eats and drinks, and gives a reason for each choice.",
     "h": "Designing a dietary plan",
     "points": [
      "Cover a training day and a competition day, with meals and snacks before, during and after activity and a fluid plan.",
-     "Give a rationale for each choice, linked to the activity's duration, intensity and main energy system.",
+     "Give a rationale (reason) for each choice, linked to the activity's duration, intensity and main energy system, so the food matches the demands of the sport.",
      "Aspect 1, pre-event carbohydrate: maximises glycogen for high-intensity efforts.",
      "Aspect 2, post-event carbohydrate and protein: restores glycogen and repairs muscle for the next session.",
      "Aspect 3, hydration plan: prevents dehydration and keeps concentration and skill levels high."
-    ]
+    ],
+    "tip": "When asked for three aspects of a dietary plan with rationale, name each aspect and give its reason, such as pre-event carbohydrate to maximise glycogen. A bare list of foods earns little without the why."
    }
   ],
   "questions": [
@@ -7424,70 +8180,86 @@
   ],
   "notes": [
    {
+    "b": "Every muscle contraction needs a chemical fuel that the muscle can use immediately. That fuel is ATP, and the body's energy systems exist to keep making more of it.",
     "h": "ATP: the energy for muscle contraction",
     "points": [
-     "ATP (adenosine triphosphate) is the only direct source of energy for muscle contraction.",
-     "Muscles store only enough ATP for about 2 to 3 seconds of work, so it must be constantly resynthesised by three energy systems."
-    ]
+     "ATP (adenosine triphosphate) is the only direct source of energy for muscle contraction, so the energy stored in other fuels, such as carbohydrate, fat or phosphocreatine, has to be used to rebuild ATP before the muscle can use it.",
+     "Muscles store only enough ATP for about 2 to 3 seconds of work, which means it must be constantly resynthesised (rebuilt) by three energy systems: ATP-PC, lactic acid and aerobic."
+    ],
+    "tip": "Exams ask you to name the three energy systems. Learn all three names and remember that ATP is the only direct energy source for muscle contraction."
    },
    {
+    "b": "The ATP-PC system is the body's fastest way to make ATP. It uses a fuel already stored in the muscle, so it can power short, explosive efforts but runs out quickly.",
     "h": "The ATP-PC (alactic) system",
     "points": [
-     "Fuel: phosphocreatine (PC) stored in the muscle; no oxygen is needed (anaerobic).",
-     "Intensity and duration: maximal intensity, for about 8 to 10 seconds.",
-     "By-products: none that cause fatigue; fatigue comes from PC running out.",
-     "Recovery: PC stores are about half restored in 30 seconds and almost fully restored in about 3 minutes of rest.",
-     "Sporting examples: 100 m sprint, long jump, shot-put, a tackle, a jump to catch a ball."
-    ]
+     "Fuel: phosphocreatine (PC), a chemical stored in the muscle that is used to rebuild ATP. No oxygen is needed, so the system is anaerobic (without oxygen).",
+     "Intensity and duration: it is the main supplier for maximal intensity work lasting about 8 to 10 seconds, after which the PC stores are used up.",
+     "By-products: none that cause fatigue, which is why it is called alactic (no lactic acid). Fatigue comes from PC running out, not from a waste product building up.",
+     "Recovery: PC stores are about half restored in 30 seconds and almost fully restored in about 3 minutes of rest, so a full rest lets a performer repeat a maximal effort.",
+     "Sporting examples: 100 m sprint, long jump, shot-put, a tackle, a jump to catch a ball. Each is a very short, all-out effort."
+    ],
+    "tip": "The ATP-PC system does not produce lactic acid. If asked why it causes fatigue, say the PC stores run out. Give times as 'about'."
    },
    {
+    "b": "When high-intensity work continues beyond about 10 seconds, PC is running low and the body needs another anaerobic source of ATP. The lactic acid system supplies it by breaking down carbohydrate, but at a price.",
     "h": "The lactic acid (anaerobic glycolytic) system",
     "points": [
-     "Fuel: carbohydrate (glycogen and glucose) broken down without oxygen.",
-     "Intensity and duration: high intensity, from about 10 seconds to about 2 minutes.",
-     "By-product: lactic acid, which lowers the pH in the muscle and causes fatigue and a burning feeling.",
-     "Recovery: removing lactic acid takes much longer, up to about an hour, and is faster with an active cool-down.",
+     "Fuel: carbohydrate (glycogen, the store of carbohydrate in the muscle, and glucose) broken down without oxygen. This system uses carbohydrate only, not fat.",
+     "Intensity and duration: high intensity, from about 10 seconds to about 2 minutes, and it predominates (does most of the work) at roughly 10 to 90 seconds.",
+     "By-product: lactic acid (lactate and hydrogen ions), which lowers the pH (makes the muscle more acidic) and so causes fatigue and a burning feeling.",
+     "Recovery: removing lactic acid takes much longer than restoring PC, up to about an hour, and is faster with an active cool-down (easy movement after exercise).",
      "Sporting examples: 400 m race, 100 m swim, a long sustained attack in a team game."
-    ]
+    ],
+    "tip": "Remember that the anaerobic systems use carbohydrate (and PC for ATP-PC) only, while fat is an aerobic fuel. Lactic acid is the cause of fatigue here, so link it to pH and the burning feeling."
    },
    {
+    "b": "For anything longer than about 2 minutes, the body relies on oxygen. The aerobic system is slower to deliver ATP, but it can keep going for hours and does not cause fatigue.",
     "h": "The aerobic system",
     "points": [
-     "Fuel: carbohydrate and fat (protein only in extreme cases), broken down with oxygen.",
-     "Intensity and duration: low to moderate intensity, from about 2 minutes to several hours.",
-     "By-products: carbon dioxide and water, which are easily removed and do not cause fatigue.",
-     "It produces far more ATP from each molecule of fuel than the anaerobic systems, but more slowly.",
+     "Fuel: carbohydrate and fat (protein only in extreme cases), broken down with oxygen. Using fat as well as carbohydrate is what lets the system last so long.",
+     "Intensity and duration: low to moderate intensity, from about 2 minutes to several hours, and it predominates beyond about 2 minutes.",
+     "By-products: carbon dioxide and water, which are easily removed (the body breathes out the carbon dioxide), so there are no fatigue-causing by-products.",
+     "It produces far more ATP from each molecule of fuel than the anaerobic systems, but more slowly, so it cannot supply the quick bursts of ATP that sprints need.",
      "Sporting examples: marathon, 10 km open-water swim, the background work of a Gaelic football match.",
-     "It also powers recovery between high-intensity efforts, such as restoring PC between sprints."
-    ]
+     "It also powers recovery between high-intensity efforts, such as restoring PC between sprints, because the aerobic system supplies the ATP the body needs to rebuild its PC stores."
+    ],
+    "tip": "If asked why an activity uses the aerobic system, give its duration and its low to moderate intensity. Don't forget that the aerobic system uses fat as well as carbohydrate."
    },
    {
+    "b": "The three systems are not separate switches. They work together as a continuum (a smooth scale), and what changes with the activity is which one does most of the work.",
     "h": "The energy continuum and relative contribution",
     "points": [
-     "All three systems work at all times; the one that predominates depends on the duration and intensity of the activity.",
+     "All three systems work at all times; the one that predominates depends on the duration and intensity of the activity. Do not say a system 'switches on' only after another runs out.",
      "Short, maximal activities rely mainly on ATP-PC; high-intensity efforts lasting up to about 2 minutes rely mainly on the lactic acid system; longer, moderate efforts rely mainly on the aerobic system.",
      "Main system by event: long jump (3 to 5 seconds, high intensity) ATP-PC; 400 m (45 seconds or more, high intensity) lactic acid; marathon (2 hours or more, low to medium intensity) aerobic.",
-     "Intermittent team games use all three: ATP-PC for sprints, jumps and tackles; lactic acid for repeated efforts with short recovery; aerobic for the overall duration and for recovery between efforts.",
+     "Intermittent team games (bursts of effort with rests) use all three: ATP-PC for sprints, jumps and tackles; lactic acid for repeated efforts with short recovery; aerobic for the overall duration and for recovery between efforts.",
      "On an energy-system graph of contribution against time, the ATP-PC line peaks first and falls within about 10 seconds, the lactic acid line peaks next, and the aerobic line rises steadily and dominates after about 2 minutes."
-    ]
+    ],
+    "tip": "To pick the main system, match the event's duration and intensity (marathon aerobic, 400 m lactic acid, long jump ATP-PC). On a graph, identify the aerobic line as the one that rises steadily and dominates later. For a team game, describe how two systems contribute."
    },
    {
+    "b": "Knowing which system an activity relies on lets athletes and coaches plan smarter. The same knowledge guides how to train, how to compete and how to recover.",
     "h": "Using the energy systems in preparation, performance and recovery",
     "points": [
-     "Preparation: train the predominant system (specificity). For ATP-PC, short maximal sprints with full recovery; for the lactic acid system, repeated high-intensity intervals with short recovery to build tolerance of lactic acid; for the aerobic system, continuous or long-interval training.",
+     "Preparation: train the predominant system (specificity, meaning training matches the demands of the activity). For ATP-PC, use short maximal sprints with full recovery; for the lactic acid system, repeated high-intensity intervals with short recovery to build tolerance of lactic acid; for the aerobic system, continuous or long-interval training.",
      "Work-to-rest ratios match the system: for ATP-PC, about 1:3 or longer so PC is restored before the next effort; for the lactic acid system, shorter recovery; aerobic work is near-continuous.",
-     "Performance: pacing strategy matters; going too hard early in a 400 m or 1500 m race floods the muscles with lactic acid.",
-     "Performance: substitutions and breaks in play let team players restore PC between efforts.",
+     "Performance: pacing strategy matters, because going too hard early in a 400 m or 1500 m race floods the muscles with lactic acid and causes early fatigue.",
+     "Performance: substitutions and breaks in play (tactical rests) let team players restore PC between efforts.",
      "Recovery: an active cool-down removes lactic acid faster; carbohydrate refuels glycogen for the lactic acid and aerobic systems; full rest between maximal efforts restores PC.",
      "Diet link: carbohydrate fuels the lactic acid and aerobic systems; creatine supplementation aims to raise PC stores for the ATP-PC system."
-    ]
+    ],
+    "tip": "When asked how energy-system knowledge informs training, link each system to a specific session type and its work-to-rest ratio, rather than just saying 'train the system'."
    },
    {
+    "b": "Two swimming events at opposite ends of the continuum show how the same knowledge is applied. One is a short, intense race and the other a very long, steady one.",
     "h": "Two contrasting swimming events",
     "points": [
-     "100 m backstroke: about one minute at very high intensity, so the ATP-PC system powers the start and the lactic acid system supplies most of the race. Preparation focuses on maximal starts and turns with full recovery and on high-intensity intervals with short recovery.",
-     "10 km open-water swim: about two hours at moderate intensity, so the aerobic system supplies almost all the energy, using carbohydrate and fat. Preparation focuses on long continuous swims and long intervals, pacing practice and feeding with carbohydrate during the race."
-    ]
+     "100 m backstroke: about one minute at very high intensity, so the ATP-PC system powers the start and the lactic acid system supplies most of the race.",
+     "Preparation for the 100 m backstroke focuses on maximal starts and turns with full recovery (to restore PC) and on high-intensity intervals with short recovery (to build tolerance of lactic acid).",
+     "10 km open-water swim: about two hours at moderate intensity, so the aerobic system supplies almost all the energy, using carbohydrate and fat.",
+     "Preparation for the 10 km swim focuses on long continuous swims and long intervals, pacing practice and feeding with carbohydrate during the race to keep fuel available."
+    ],
+    "tip": "For two contrasting events, name the main system for each, give the reason from duration and intensity, then link each system to a different type of preparation. Use these reasoning steps rather than any times or swimmers from a past paper."
    }
   ],
   "questions": [
@@ -7580,56 +8352,66 @@
   ],
   "notes": [
    {
+    "b": "The personal exercise and fitness area is the part of the course where you take part in a fitness programme that you design yourself. It is practical: you perform the programme, not just describe it.",
     "h": "What the area is",
     "points": [
-     "The area is active and purposeful participation in a personally designed exercise and fitness programme.",
-     "The programme reflects the performer's own interests and goals.",
-     "The programme applies the principles of training to the chosen methods and exercises."
-    ]
+     "The area is active and purposeful participation in a personally designed exercise and fitness programme, which means you do the exercise with a clear aim rather than just moving around.",
+     "The programme reflects the performer's own interests and goals, so two students can follow quite different programmes and both be correct.",
+     "The programme applies the principles of training (the rules that make training effective, such as overload and progression) to the chosen methods and exercises."
+    ],
+    "tip": "Personal exercise is a context for questions on training methods, principles of training, FITT, warm-up and cool-down, and progression, so expect to link your own programme to these ideas."
    },
    {
+    "b": "You do not do every type of training. You pick one method for the heart and lungs and one for the muscles, so every performance is built around exactly two activities.",
     "h": "Choosing the activities",
     "points": [
-     "The aerobic choice is one method: continuous training, interval training, fartlek training, aerobics or step aerobics, spinning, or indoor rowing.",
-     "The second choice is one other conditioning and resistance activity: weight training, core stability or circuit training.",
+     "The aerobic choice is one method: continuous training, interval training, fartlek training, aerobics or step aerobics, spinning, or indoor rowing. Aerobic training works the heart and lungs for a sustained period.",
+     "The second choice is one other conditioning and resistance activity (training that builds the muscles by working them against resistance): weight training, core stability or circuit training.",
      "Only one of each is chosen, so each performance uses exactly two activities."
     ]
    },
    {
+    "b": "The performance starts with a warm-up, which prepares the body for the harder work to come. The specification sets its length at five minutes and lists the elements it must contain.",
     "h": "Five-minute warm-up",
     "points": [
      "The warm-up lasts five minutes and comes first in the performance.",
-     "It includes a pulse raiser, an activity that gradually raises heart rate.",
-     "It includes mobility work and dynamic stretches, which move the joints and muscles through their range.",
-     "It includes movements that rehearse the development section, so the actions to come are practised first."
-    ]
+     "It includes a pulse raiser, an activity that gradually raises heart rate, so blood flow to the muscles increases before hard work begins.",
+     "It includes mobility work and dynamic stretches, which move the joints and muscles through their range, so they are ready for the movements ahead.",
+     "It includes movements that rehearse the development section, so the actions to come are practised."
+    ],
+    "tip": "Warm-up is a regular exam context, so be ready to name its three elements: pulse raiser, mobility and dynamic stretches, and movements that rehearse the main work."
    },
    {
+    "b": "After the warm-up comes the main part of the performance. It has two sections, one for the heart and lungs and one for the muscles, and together they last fifteen minutes.",
     "h": "Fifteen-minute development section",
     "points": [
      "The development section lasts fifteen minutes and is the main part of the performance.",
-     "The cardiovascular section uses the chosen aerobic method.",
-     "The muscular strength and endurance section uses the chosen conditioning and resistance activity.",
-     "The muscular strength and endurance section can be organised as a circuit."
+     "The cardiovascular section (the part that works the heart and circulation) uses the chosen aerobic method.",
+     "The muscular strength and endurance section (working the muscles against resistance, to lift heavier loads or keep going for longer) uses the chosen conditioning and resistance activity.",
+     "The muscular strength and endurance section can be organised as a circuit, a series of exercises done one after another."
     ]
    },
    {
+    "b": "The performance ends with a cool-down, which brings the body back towards rest. It lasts five minutes and has two parts in a set order.",
     "h": "Five-minute cool-down",
     "points": [
      "The cool-down lasts five minutes and comes last in the performance.",
-     "Intensity is reduced gradually rather than stopping abruptly.",
-     "Static stretches then cover the muscles used in the performance, each held still."
-    ]
+     "Intensity is reduced gradually rather than stopping abruptly, so heart rate and breathing come down smoothly.",
+     "Static stretches then cover the muscles used in the performance, each held still, which helps the worked muscles to relax and lengthen."
+    ],
+    "tip": "When asked about the cool-down, give the order: first a gradual reduction in intensity, then static stretches of the muscles used."
    },
    {
+    "b": "Every programme needs a purpose, because the goal decides which methods and exercises make sense. The aim can be one of two kinds.",
     "h": "Setting the goal: performance or health-related fitness",
     "points": [
      "The programme aims either to improve performance in a physical activity or to improve health-related fitness.",
-     "A performance goal targets the fitness and skills that a chosen physical activity demands.",
-     "A health-related goal targets fitness that supports good health."
+     "A performance goal targets the fitness and skills that a chosen physical activity demands, such as the fitness a particular sport requires.",
+     "A health-related goal targets fitness that supports good health, so it is about everyday wellbeing rather than success in one activity."
     ]
    },
    {
+    "b": "A good programme is built in a logical order, so that each decision follows from the one before. Work through these steps in sequence.",
     "h": "Designing the programme",
     "points": [
      "1. Set the goal.",
@@ -7638,31 +8420,36 @@
      "4. Choose the exercises.",
      "5. Set the work and recovery periods.",
      "6. Plan progression over weeks.",
-     "7. Record each session."
-    ]
+     "7. Record each session, so you can see what you did and whether you are improving."
+    ],
+    "tip": "Know the order of the steps and name FITT and the principles at step 3."
    },
    {
+    "b": "A programme that never changes stops working, and an exercise that is too hard or too easy does not suit the performer. Progressions and adaptations solve these two problems.",
     "h": "Progressions and adaptations",
     "points": [
-     "A progression makes an exercise harder in small steps, by increasing the load, repetitions, sets, duration or complexity.",
-     "Recovery can also be reduced to progress, by shortening the rest between sets or efforts.",
+     "A progression makes an exercise harder in small steps, by increasing the load, repetitions, sets, duration or complexity. Small steps keep the increase manageable.",
+     "Recovery can also be reduced to progress, by shortening the rest between sets or efforts, so the body has less time to recover.",
      "An adaptation is an easier or harder version of an exercise, chosen so the programme suits the individual.",
      "Press-up adaptations: on the knees or against a wall for an easier version, and with the feet raised for a harder version."
-    ]
+    ],
+    "tip": "Exams use personal exercise as a context for progression, so give the ways to progress (load, repetitions, sets, duration, complexity, less recovery) and a concrete adaptation such as the press-up."
    },
    {
+    "b": "Training only helps if you stay uninjured. Each safety rule below prevents a particular kind of harm, so learn the reason with the rule.",
     "h": "Safe practice",
     "points": [
-     "Technique and posture must be correct before the load is increased.",
-     "The load must be appropriate to the performer.",
-     "A spotter is used for heavy lifts.",
-     "Equipment is checked before use.",
+     "Technique and posture must be correct before the load is increased, because heavier weight with poor form is how injuries happen.",
+     "The load must be appropriate to the performer, so it challenges them without being more than their body can handle.",
+     "A spotter (a partner who stands by to help) is used for heavy lifts, so the lift can be stopped safely if the performer fails.",
+     "Equipment is checked before use, so faults are found before they cause an accident.",
      "Fluids are taken to stay hydrated through the session.",
-     "The performer stops the exercise if there is pain or dizziness.",
-     "The space must be adequate for the activity."
+     "The performer stops the exercise if there is pain or dizziness, because these are warning signs that continuing could cause harm.",
+     "The space must be adequate for the activity, so the performer can move without hitting people or objects."
     ]
    },
    {
+    "b": "The NCCA (the body that sets the curriculum) has clarified what kind of training the area can include. The training does not have to be aerobic only.",
     "h": "NCCA clarification: aerobic and anaerobic training",
     "points": [
      "The NCCA clarification on curriculumonline.ie states that the training may be aerobic and/or anaerobic.",
@@ -7755,80 +8542,95 @@
   ],
   "notes": [
    {
-    "b": "Continuous training is exercise at a constant intensity in the aerobic zone, with no rest.",
+    "b": "Continuous training means working at a steady, constant intensity in the aerobic zone (the effort level where your body can keep supplying oxygen to the working muscles), with no rest breaks.",
     "h": "Continuous training",
     "points": [
-     "Purpose: builds cardio-respiratory endurance and an aerobic base, and supports body composition.",
-     "Intermediate slow distance: continuous work for 20 to 60 minutes.",
-     "Long slow distance: continuous work for more than 60 minutes.",
-     "Typical FITT example: frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running."
-    ]
+     "Purpose: it builds cardio-respiratory endurance (the ability of the heart and lungs to keep supplying oxygen during long exercise) and an aerobic base, and it supports body composition (the balance of fat and lean tissue in the body).",
+     "Intermediate slow distance is continuous work lasting 20 to 60 minutes, so it suits a performer who wants a manageable steady session.",
+     "Long slow distance is continuous work lasting more than 60 minutes, so it builds endurance over a longer time at the same steady effort.",
+     "Typical FITT example (FITT stands for frequency, intensity, time and type): frequency 3 to 5 times a week; intensity about 60 to 80% of maximum heart rate; time 30 minutes; type running. These are typical guidance figures, not fixed rules."
+    ],
+    "tip": "Exams ask you to define continuous training and give an example, so say 'constant intensity, aerobic zone, no rest' and quote the 20 to 60 minute and over 60 minute distances. When asked for FITT applied to a method, give all four parts."
    },
    {
+    "b": "Interval training alternates hard work periods with recovery periods, repeated in a set pattern. Because the hard efforts are demanding, the plan has to be matched to the performer and to the fitness component being trained.",
     "h": "Interval training",
     "points": [
      "Readiness: a fitness base and correct technique must be in place before high-intensity intervals are added.",
-     "Work-to-recovery ratios (typical guidance): 1:1 or 1:2 for aerobic and lactic intervals; 1:3 or more for maximal efforts.",
-     "Interval duration: short intervals develop speed and anaerobic power; longer intervals develop aerobic capacity.",
-     "Each hard work period is followed by a recovery period, repeated in a set pattern.",
-     "Illustrative FITT example: type running; intensity hard for each effort; time 6 × 3 minutes of hard work with 3 minutes of easy jogging between efforts, a 1:1 ratio."
-    ]
+     "Each hard work period is followed by a recovery period, and the pair is repeated in a set pattern, so the performer can reach high intensity several times in one session.",
+     "Work-to-recovery ratios compare the time spent working with the time spent recovering. Typical guidance is 1:1 or 1:2 for aerobic and lactic intervals (lactic means hard enough to build up lactic acid), and 1:3 or more for maximal efforts.",
+     "Maximal efforts need a recovery at least three times as long as the work, so that the performer can repeat each effort at full intensity.",
+     "Interval duration decides the effect: short intervals develop speed and anaerobic power (energy produced without oxygen), while longer intervals develop aerobic capacity.",
+     "Illustrative FITT example: type running; intensity hard for each effort; time 6 x 3 minutes of hard work with 3 minutes of easy jogging between efforts, which is a 1:1 ratio."
+    ],
+    "tip": "Readiness is listed in the specification, so mention a fitness base and correct technique whenever you describe interval training. If asked for a work:recovery ratio, state it as a ratio, such as 1:1 or 1:3, and link it to the type of effort."
    },
    {
+    "b": "Fartlek is continuous running with bursts of speed added. The run never fully stops, but the effort changes.",
     "h": "Fartlek training",
     "points": [
-     "Fartlek is continuous running with unstructured or structured bursts of speed.",
+     "Fartlek is continuous running with unstructured or structured bursts of speed, so the heart rate rises and falls during one session.",
      "Readiness: a fitness base is needed before fast bursts are added, because bursts raise the load sharply.",
-     "Terrain: hills, sand, grass and trails vary the load of the same run.",
-     "Interval duration: unstructured bursts are chosen by the performer as the run goes; structured bursts are set in advance, such as sprints between markers.",
+     "Terrain: hills, sand, grass and trails vary the load of the same run, so the surface itself makes the effort harder or easier without changing the plan.",
+     "Unstructured bursts are chosen by the performer as the run goes, for example speeding up to a tree or a lamp post when they feel ready.",
+     "Structured bursts are set in advance, such as sprints between markers, so the performer knows exactly when and how long to work hard.",
      "Illustrative FITT example: type running; time 30 minutes; sprints between markers and hill efforts."
-    ]
+    ],
+    "tip": "Readiness must be addressed for fartlek as well as interval training, so say a fitness base is needed first. When defining fartlek, state that it is continuous running and name both unstructured and structured bursts."
    },
    {
+    "b": "Aerobics is exercise to music made of linked moves, and step aerobics does the same on a raised platform called a step. The skill is to perform clean moves in time with the music while keeping the heart rate in the aerobic zone.",
     "h": "Aerobics and step aerobics",
     "points": [
-     "Basic steps: basic step, V-step, grapevine, knee lift and step touch.",
+     "Basic steps: basic step, V-step, grapevine (a side-stepping move), knee lift and step touch. Each is a separate skill that is later combined with others.",
      "Stepping technique: in step aerobics, the whole foot is placed on the step when stepping up and down.",
-     "Routine: blocks of moves combined into a sequence.",
-     "Transitions: smooth changes between moves, so the routine flows.",
-     "Timing and rhythm: moves are performed in time with the beats of the music, often counted in blocks such as 32 counts.",
-     "Training zones: the routine keeps heart rate in the aerobic zone, about 60 to 80% of maximum heart rate.",
+     "Routine: blocks of moves combined into a sequence, so the performer can keep moving for the length of the session.",
+     "Transitions: smooth changes between moves, so the routine flows rather than stopping and starting.",
+     "Timing and rhythm: moves are performed in time with the beats of the music, often counted in blocks such as 32 counts, which keeps the whole group together.",
+     "Training zones: the routine keeps heart rate in the aerobic zone, about 60 to 80% of maximum heart rate (typical guidance), so the work stays aerobic.",
      "FITT: type is step aerobics; intensity is kept in the aerobic zone; time is the length of the routine; frequency is the number of sessions a week."
-    ]
+    ],
+    "tip": "When asked to describe step aerobics skills, name specific steps and say the whole foot goes on the step. Also mention transitions and timing to the beat of the music."
    },
    {
+    "b": "Spinning is group cycling on a stationary bike, led through a planned session. Because the bike is fixed, the performer controls the intensity through the bike settings and the technique used.",
     "h": "Spinning",
     "points": [
-     "Techniques: seated climb, standing climb, seated flat and sprints.",
+     "Techniques: seated climb, standing climb, seated flat and sprints. Each changes the body position and the load on the legs and heart.",
      "Bike set-up: the saddle height is set so the knee is slightly bent at the bottom of the pedal stroke.",
-     "Workout intensity is set by resistance and cadence, and monitored by heart-rate zones or perceived exertion.",
-     "Session design: warm-up, then intervals of climbs and sprints, then cool-down.",
-     "Training zones: heart-rate zones guide the intensity of the climbs and sprints.",
+     "Workout intensity is set by resistance (how hard the pedals are to turn) and cadence (pedal turns per minute), and monitored by heart-rate zones or perceived exertion (how hard the effort feels to the performer).",
+     "Session design: warm-up, then intervals of climbs and sprints, then cool-down, so the body is prepared first and recovers at the end.",
+     "Training zones: heart-rate zones guide the intensity of the climbs and sprints, so the performer knows whether each effort is working at the intended level.",
      "FITT: type is a stationary bike ride; intensity is the resistance and cadence chosen; time and frequency are planned around the session length and the sessions each week."
-    ]
+    ],
+    "tip": "For spinning, name the four techniques and say intensity comes from resistance and cadence. Give the three-part session design of warm-up, intervals, cool-down when asked about planning a session."
    },
    {
+    "b": "Indoor rowing uses a rowing machine, which trains the whole body in a repeated stroke. Getting the order of body movements right matters, and the monitor gives numbers to aim for.",
     "h": "Indoor rowing",
     "points": [
      "Stroke sequence: catch, drive, finish, then recovery.",
      "Drive: legs first, then body, then arms.",
-     "Recovery: arms first, then body, then legs.",
+     "Recovery: arms first, then body, then legs, which is the drive in reverse and returns the rower to the catch.",
      "Time and distance: a steady piece of 20 minutes, or a 2,000 m test, which is the standard rowing test distance.",
      "Targets: pace per 500 m, shown on the monitor, and stroke rate, the number of strokes per minute.",
      "Resistance: the damper setting adjusts how hard each stroke feels.",
      "Session design: warm-up, then intervals or a steady piece, then cool-down."
-    ]
+    ],
+    "tip": "A common trap is mixing up the order: the drive is legs, body, arms and the recovery is arms, body, legs. For targets, name pace per 500 m and stroke rate."
    },
    {
+    "b": "This example shows how the methods fit into one planned session for a named goal. The figures are typical guidance, not fixed rules.",
     "h": "Worked session: a games player building cardio-respiratory endurance (illustrative)",
     "points": [
-     "Frequency: 3 sessions a week, with a rest day between sessions.",
+     "Frequency: 3 sessions a week, with a rest day between sessions, so the body has time to recover and adapt.",
      "Intensity: 60 to 80% of maximum heart rate, mostly in the aerobic zone.",
      "Time: 30 minutes in total, with 20 minutes of main work between the warm-up and cool-down.",
-     "Type: fartlek on grass, with sprints between markers and a hill effort.",
+     "Type: fartlek on grass, with sprints between markers and a hill effort, which suits a games player who needs to change pace.",
      "Warm-up (5 minutes): easy jogging, then dynamic leg movements that rehearse the bursts at low intensity.",
      "Cool-down (5 minutes): gradual slowing to a walk, then static stretches of the legs."
-    ]
+    ],
+    "tip": "When asked to apply FITT to a method, give a figure or detail for each of frequency, intensity, time and type, and include a warm-up and cool-down."
    }
   ],
   "questions": [
@@ -7903,101 +8705,122 @@
   ],
   "notes": [
    {
+    "b": "Weight training means lifting loads (weights) to make muscles work harder than usual. Heavy loads can injure you if you are careless, so safe habits come before any thought of lifting more.",
     "h": "Weight-training safety",
     "points": [
-     "Warm up before lifting, so the muscles are ready for load.",
-     "Learn correct technique before adding any load.",
-     "Breathe out on the effort of each lift.",
-     "Move under control, lowering the weight with the same care as lifting it.",
-     "Use a spotter for heavy pressing exercises.",
-     "Check that the collars on the bar are secured before each lift.",
-     "Increase the load progressively, one step at a time, rather than jumping to a heavy weight."
-    ]
+     "Warm up before lifting, so the muscles are warm and ready for load.",
+     "Learn correct technique before adding any load, and only then add load.",
+     "Breathe out on the effort of each lift (the hardest part, such as pressing the bar up), and never hold your breath.",
+     "Move under control, lowering the weight with the same care as lifting it, so the weight never drops or swings out of your control.",
+     "Use a spotter (a helper who stands ready to take the bar) for heavy pressing exercises, in case you cannot finish a repetition.",
+     "Check that the collars (the clips that hold the plates on the bar) are secured before each lift, so plates cannot slide off and unbalance the bar.",
+     "Increase the load progressively, one step at a time, rather than jumping to a heavy weight, so the body has time to adapt."
+    ],
+    "tip": "When asked how to train safely, give several specific habits from this list, such as warm-up, technique first, spotter, collars and progressive loading, rather than just saying 'be careful'."
    },
    {
+    "b": "Pushing exercises move a load away from your body. Pressing and triceps extensions both train pushing, and in each the technique points protect the joints.",
     "h": "Upper-body pushing: pressing and extensions",
     "points": [
-     "Pressing (bench press or shoulder press): the grip is just wider than the shoulders.",
-     "Lower the bar under control.",
-     "Press to full extension without locking out aggressively.",
-     "Keep the back flat on the bench.",
-     "Triceps extension (works the triceps): keep the elbows still and extend at the elbow only."
-    ]
+     "Pressing (bench press or shoulder press): the grip is just wider than the shoulders, which gives a stable base for pushing the bar straight up.",
+     "Lower the bar under control, because dropping it quickly wastes effort and risks injury at the bottom of the movement.",
+     "Press to full extension (arms straight) without locking out aggressively, so the elbow joints are not slammed at the top.",
+     "Keep the back flat on the bench, so the spine is supported and not arched under load.",
+     "Triceps extension (works the triceps, the muscle at the back of the upper arm): keep the elbows still and extend at the elbow only, so the triceps does the work and not the shoulders."
+    ],
+    "tip": "If asked to describe a pressing technique, include grip width, controlled lowering, full extension without locking out aggressively and a flat back on the bench."
    },
    {
+    "b": "Pulling exercises bring a load towards your body. Rows work the upper back and curls work the front of the upper arm, and both depend on keeping the rest of the body still.",
     "h": "Upper-body pulling: rows and curls",
     "points": [
-     "Bent-over or seated row (works the upper back): keep a flat back.",
-     "Pull the elbows back and squeeze the shoulder blades together.",
-     "Biceps curl (works the biceps): keep the elbows fixed at the sides."
-    ]
+     "Bent-over or seated row (works the upper back): keep a flat back, so the spine is protected and the back muscles do the pulling.",
+     "In the row, pull the elbows back and squeeze the shoulder blades together, which makes sure the upper back is working at the end of the pull.",
+     "Biceps curl (works the biceps, the muscle at the front of the upper arm): keep the elbows fixed at the sides, with no swinging.",
+     "Swinging the body or moving the elbows lets momentum lift the weight, so the biceps does less work and the exercise loses its value."
+    ],
+    "tip": "Name the main muscle worked in a phrase only, for example 'a biceps curl works the biceps', and focus your answer on technique points such as flat back, elbows fixed and no swinging."
    },
    {
+    "b": "Squats and lunges train the legs by lowering and raising your body weight, or a load. Good alignment of the knees and trunk keeps the joints safe.",
     "h": "Lower-body exercises: squats and lunges",
     "points": [
-     "Squat (works the thighs): feet shoulder-width apart and chest up.",
-     "Knees track over the toes during the squat.",
-     "Sit back until the thighs are parallel with the floor.",
-     "Drive up through the heels to stand.",
-     "Lunge: take a long step, with the front knee over the ankle.",
-     "Lunge: lower the back knee towards the floor, keeping the trunk upright."
-    ]
+     "Squat (works the thighs): feet shoulder-width apart and chest up, which gives a stable base and keeps the trunk from folding forward.",
+     "Knees track over the toes during the squat, so they do not roll inwards or collapse.",
+     "Sit back until the thighs are parallel with the floor, as if sitting onto a chair, which gives the full range of the exercise.",
+     "Drive up through the heels to stand, so the push comes from the legs.",
+     "Lunge: take a long step, with the front knee over the ankle, so the front knee is not pushed too far forward over the toes.",
+     "Lunge: lower the back knee towards the floor, keeping the trunk upright, so the legs work and the back is not strained."
+    ],
+    "tip": "Give technique points in order, from starting position to the finish, and make them specific: for the squat, feet shoulder-width, chest up, knees over toes, thighs parallel, drive up through the heels."
    },
    {
+    "b": "The same exercise can train different fitness components depending on how much weight you lift and how many times. Training for strength and training for muscular endurance use opposite loadings.",
     "h": "Loading for strength and for muscular endurance",
     "points": [
-     "Strength: heavy loads with few repetitions, about 3 to 6 per set, and longer rests between sets (typical guidance).",
-     "Muscular endurance: light loads with many repetitions, about 15 or more per set, and short rests between sets (typical guidance).",
+     "Strength: heavy loads with few repetitions, about 3 to 6 per set, and longer rests between sets (typical guidance), so the muscles recover enough to lift heavy again.",
+     "Muscular endurance: light loads with many repetitions, about 15 or more per set, and short rests between sets (typical guidance), so the muscles are kept working for a long time.",
      "The two loadings are opposites: strength is the heaviest load for the fewest repetitions, and endurance is the lightest load for the most.",
-     "A set is one group of consecutive repetitions, followed by a rest before the next set."
-    ]
+     "A set is one group of consecutive repetitions (reps, one complete lift), followed by a rest before the next set."
+    ],
+    "tip": "Examiners ask for the difference between training for strength and for muscular endurance, so state load, repetitions and rest for each. Do not mix them up: heavy and few is strength, light and many is endurance."
    },
    {
+    "b": "The core is the middle section of the body, and keeping it stable supports the rest of the body as it moves.",
     "h": "Core stability: what the core is",
     "points": [
-     "The core is the group of trunk muscles, the abdominals, back and pelvis, that stabilise the spine.",
-     "Core stability supports posture.",
-     "Core stability supports balance.",
-     "Core stability supports the transfer of force through the trunk.",
-     "Core stability helps prevent injury."
-    ]
+     "The core is the group of trunk muscles, the abdominals (stomach), back and pelvis, that stabilise the spine, which means they keep it steady while you move.",
+     "Core stability supports posture, so you can stand and sit upright without slumping.",
+     "Core stability supports balance, because a steady trunk keeps your body weight over your base.",
+     "Core stability supports the transfer of force through the trunk, so force passes through the trunk.",
+     "Core stability helps prevent injury, because a stable spine is less likely to be strained by sudden movements."
+    ],
+    "tip": "When asked for the benefits of core stability, give all four: posture, balance, transfer of force and injury prevention."
    },
    {
+    "b": "Four qualities show good technique: breathing, control, alignment and flow.",
     "h": "Core stability: breathing, control, alignment and flow",
     "points": [
-     "Relaxation and breathing: breathing is controlled, and the breath is never held.",
-     "Control: movements are slow and precise.",
-     "Control: positions are held without shaking or sagging.",
-     "Alignment: the spine is kept neutral, the head is in line and the hips are level.",
-     "Flow: transitions between exercises are smooth."
-    ]
+     "Relaxation and breathing: breathing is controlled, and the breath is never held, because holding the breath raises tension and stops the body relaxing.",
+     "Control: movements are slow and precise, so the core muscles do the work rather than momentum.",
+     "Control: positions are held without shaking or sagging, which shows the core muscles are strong enough to hold the body steady.",
+     "Alignment: the spine is kept neutral (in its natural curves, not over-arched or rounded), the head is in line and the hips are level.",
+     "Flow: transitions between exercises are smooth, so the body keeps its control as it moves from one position to the next."
+    ],
+    "tip": "If asked how to perform core exercises well, cover each quality in turn: controlled breathing with no breath-holding, slow precise control, neutral spine with level hips, and smooth flow."
    },
    {
+    "b": "A core session can be organised as a planned routine. The example routine mixes exercises that hold a position still with exercises that move.",
     "h": "Core stability routine and example exercises",
     "points": [
      "A routine is a planned sequence of core exercises, performed in one session.",
      "Example routine, in order: plank, side plank, bird-dog, dead bug, glute bridge.",
-     "The plank and side plank are held positions, while the bird-dog, dead bug and glute bridge are moving exercises."
-    ]
+     "The plank and side plank are held positions, where you keep the body still and straight, while the bird-dog, dead bug and glute bridge are moving exercises, where the limbs or hips move while the trunk stays steady."
+    ],
+    "tip": "When asked for a core routine, list exercises in a clear order, such as plank, side plank, bird-dog, dead bug and glute bridge, and say which are held and which are moving."
    },
    {
+    "b": "Circuit training moves you round a set of exercise stations, which makes one session train several things at once. A circuit is built from three choices: its theme, its equipment and its work-recovery intervals.",
     "h": "Circuit training: themes, equipment and intervals",
     "points": [
-     "Circuit training is a series of stations, each worked in turn.",
-     "Themes: muscular endurance, cardio, or sport-specific skills; the exercises at each station match the theme.",
-     "Equipment: body weight, medicine balls, kettlebells or steps.",
-     "Work-recovery intervals (typical guidance): 30 seconds of work, then 30 seconds of rest at each station."
-    ]
+     "Circuit training is a series of stations (places where one exercise is done), each worked in turn.",
+     "Themes: muscular endurance, cardio, or sport-specific skills; the exercises at each station match the theme, so the circuit trains what the performer needs.",
+     "Equipment: body weight, medicine balls (weighted balls), kettlebells (weights with a handle) or steps, so a circuit can be run with little or no equipment.",
+     "Work-recovery intervals (typical guidance): 30 seconds of work, then 30 seconds of rest at each station, so the effort is repeatable across the whole circuit."
+    ],
+    "tip": "Exams ask you to use circuit or weight training to improve a named component. Say the theme (for example muscular endurance), the exercises at the stations and the work-recovery interval."
    },
    {
+    "b": "A well-designed circuit lets you keep working without tiring one muscle group too early, and it can be made harder as you get fitter. The example circuit shows these principles for a games player.",
     "h": "Designing a circuit, with an example for a games player",
     "points": [
      "Alternate muscle groups between stations (upper body, lower body, core and cardio), so each group recovers while the others work.",
-     "Use 8 to 10 stations (typical guidance).",
-     "Set the number of circuits to complete.",
-     "Progress by increasing the work time, reducing the rest, or adding circuits.",
+     "Use 8 to 10 stations (typical guidance), enough to give variety and a full session.",
+     "Set the number of circuits to complete, which fixes the total amount of work in the session.",
+     "Progress by increasing the work time, reducing the rest, or adding circuits, so the body keeps being challenged as it adapts.",
      "Illustrative example circuit for a games player, in order: squats, press-ups, plank, step-ups onto a step, lunges, medicine-ball throws, side plank and passes against a wall."
-    ]
+    ],
+    "tip": "When asked to design a circuit, alternate the muscle groups and say why, give the number of stations and circuits, and show how you would progress it by more work, less rest or more circuits."
    }
   ],
   "questions": [
@@ -8068,68 +8891,80 @@
   ],
   "notes": [
    {
+    "b": "Knowing a principle of training is not enough: you must show how it shapes a real programme for a real method, such as continuous running or weight training. These are the nine aspects you apply to each method, and each is given one line here before being applied.",
     "h": "The aspects to apply",
     "points": [
-     "Readiness: the performer is physically and mentally ready, with a fitness base and technique in place.",
-     "Specificity: the training matches the demands of the activity or goal.",
-     "Progression: the training load rises gradually.",
-     "Overload: the body works harder than normal, adjusted through FITT (frequency, intensity, time and type).",
-     "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt.",
-     "Training zones: the heart-rate bands for aerobic and anaerobic work.",
-     "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold.",
-     "Work-recovery intervals: the ratio of recovery time to work time.",
-     "Warm-up and cool-down: the start and end of every session."
-    ]
+     "Readiness: the performer is physically and mentally ready, with a fitness base (the general fitness already built up) and technique in place, so they can train hard without being injured or put off.",
+     "Specificity: the training matches the demands of the activity or goal, so the body adapts in the ways the activity actually needs.",
+     "Progression: the training load rises gradually, so the body is always challenged a little more but never asked to jump too far ahead.",
+     "Overload: the body works harder than normal, because it only adapts when pushed beyond what it is used to. Overload is adjusted through FITT (frequency, intensity, time and type).",
+     "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt, because improvement happens during recovery rather than during the session itself.",
+     "Training zones: the heart-rate bands for aerobic work (using oxygen) and anaerobic work (without enough oxygen).",
+     "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold, the heart-rate points where the type of work changes.",
+     "Work-recovery intervals: the ratio of recovery time to work time. Warm-up and cool-down form the start and end of every session."
+    ],
+    "tip": "Apply, don't re-define: give one line for the principle, then spend the rest of your answer showing how it is used in the method you are given."
    },
    {
+    "b": "Here is how the five principles of training look in a real plan. The figures are illustrative: they show the method, not the only correct numbers.",
     "h": "Worked example: continuous running for a 17-year-old, principles applied (illustrative)",
     "points": [
-     "Readiness: a fitness base and running technique are in place before the runs are lengthened; interval or heavy weight work is added only after this.",
-     "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power.",
-     "Progression: 5 minutes is added to the continuous runs each week.",
+     "Readiness: a fitness base and running technique are in place before the runs are lengthened. Interval or heavy weight work is added only after this, because those methods put far more stress on the body.",
+     "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power. The method must match the goal.",
+     "Progression: 5 minutes is added to the continuous runs each week, a small step that raises the load gradually.",
      "Overload through FITT: time rises from 25 to 40 minutes per run, frequency is 3 runs a week, intensity stays in the aerobic zone, and type is running.",
-     "Rest and recovery: one rest day between runs."
-    ]
+     "Rest and recovery: one rest day between runs, so the body can adapt before the next session."
+    ],
+    "tip": "When asked for FITT for a component, cover all four letters, frequency, intensity, time and type, as the overload bullet does here."
    },
    {
+    "b": "Training zones are bands of heart rate worked out from the performer's maximum heart rate, so we can check that a run is hard enough to train the body but not so hard that it becomes anaerobic. Here they are calculated for the same 17-year-old runner.",
     "h": "Worked example: continuous running, zones and thresholds (illustrative)",
     "points": [
      "Maximum heart rate is estimated as 220 minus age: 220 − 17 = 203 beats per minute.",
-     "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute.",
-     "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect.",
+     "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute. In this zone the body gets enough oxygen to keep going for a long time.",
+     "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect. Below it, the work is too easy to improve fitness.",
      "Anaerobic zone: about 80% to 90% of maximum heart rate, starting at about 162 beats per minute for this runner.",
-     "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it."
-    ]
+     "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it. Above that threshold lactic acid builds up, so hard efforts can only be kept up briefly."
+    ],
+    "tip": "Show the calculation in steps: 220 minus age, then 60% and 80% of that answer. Zones and heart rate are an exam topic."
    },
    {
+    "b": "Muscular endurance is the ability of a muscle to keep working for a long time, so the plan uses light loads and many repetitions. The same principles apply as for running, but they look different in the gym.",
     "h": "Worked example: weight training for muscular endurance (illustrative)",
     "points": [
-     "Readiness: correct technique and warm-up sets with a light load come before any increase in load.",
-     "Specificity: the exercises chosen must use the muscles the activity uses.",
+     "Readiness: correct technique and warm-up sets with a light load come before any increase in load, so the performer is not injured when the weight rises.",
+     "Specificity: the exercises chosen must use the muscles the activity uses, so the endurance gained is in the right muscles.",
      "Progression: repetitions are added first, rising towards 15 or more per set; a small load is added once all repetitions are completed with good form.",
      "Overload through FITT: 2 to 3 sets of 15 or more repetitions, at a light load, using resistance exercises.",
-     "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles."
-    ]
+     "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles, so those muscles can recover."
+    ],
+    "tip": "Progression here has an order: add repetitions first, then a small load only when every repetition is done with good form."
    },
    {
+    "b": "A work-recovery interval pairs a period of effort with a period of recovery. The ratio tells you how much recovery follows each period of work, and it is the main way of adjusting the difficulty of interval training, circuits and weight sets.",
     "h": "Work-recovery intervals in intervals, circuits and weight sets (typical guidance)",
     "points": [
-     "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period.",
-     "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts.",
+     "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period. For example, 30 seconds of work with 60 seconds of recovery is 1:2.",
+     "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts, because the body needs more time to recover from them.",
      "Circuits follow the same logic: 30 seconds of work to 30 seconds of rest is a 1:1 ratio.",
-     "Weight training rests: longer rests between sets for strength, shorter rests for endurance."
-    ]
+     "Weight training rests: longer rests between sets for strength, so the muscles can lift heavy loads again, and shorter rests for endurance."
+    ],
+    "tip": "Exams ask for work-recovery intervals for a given method. Give the ratio and say why: more intense work needs a longer recovery."
    },
    {
+    "b": "Every session starts with a warm-up, which prepares the body for work, and ends with a cool-down, which brings it back to rest. The content differs for each method, so it should copy the movements of the session that follows.",
     "h": "Warm-up and cool-down for each method",
     "points": [
      "Running: an easy jog, then dynamic leg drills; the cool-down is a walk, then static stretches.",
      "Weight training: light cardio, mobility work and warm-up sets with a light load; the cool-down stretches the muscles used.",
      "Aerobics: low-impact moves that build up gradually; the cool-down slows the tempo, then stretches.",
      "Spinning and indoor rowing: each session starts with a warm-up and ends with a cool-down around the intervals or steady piece."
-    ]
+    ],
+    "tip": "Name the method's own warm-up and cool-down, such as warm-up sets with a light load for weights, not just a general 'warm up and stretch'."
    },
    {
+    "b": "A programme only works if you check that it is working. Monitoring compares what the performer is doing with what was planned, so the programme can be changed when it needs to be.",
     "h": "Monitoring the programme",
     "points": [
      "Heart-rate monitor or pulse checks confirm that heart rate sits in the target zone.",
@@ -8211,67 +9046,78 @@
   ],
   "notes": [
    {
-    "b": "Performance analysis is the systematic observation, measurement and evaluation of a performance, or part of it, to identify strengths and weaknesses and inform improvement.",
+    "b": "Before a performer can improve, they need to know exactly where they stand. Performance analysis is the systematic observation, measurement and evaluation of a performance, or part of it, to identify strengths and weaknesses and inform improvement.",
     "h": "What performance analysis is",
     "points": [
-     "Systematic: the same observation or measurement method is used each time, so results can be compared, rather than a general impression of how the performance went.",
-     "It can cover a whole performance, such as a full match or routine, or one part of it, such as one phase of a jump or one set play.",
-     "Strengths are identified so they can be kept, and weaknesses are identified so they can be targeted in training.",
-     "Analysis is used at the start of a plan to find priorities and again at the end to measure progress."
-    ]
+     "Systematic means the same observation or measurement method is used each time, so results can be compared fairly, rather than relying on a general impression of how the performance went.",
+     "It can cover a whole performance, such as a full match or routine, or one part of it, such as one phase of a jump or one set play (a rehearsed team move).",
+     "Strengths are identified so they can be kept, and weaknesses are identified so they can be targeted in training, which stops time being wasted on things already done well.",
+     "Analysis is used at the start of a plan to find priorities and again at the end to measure progress, so the same method gives a fair before-and-after comparison."
+    ],
+    "tip": "If asked to explain performance analysis, give the definition (systematic observation, measurement and evaluation) and say it identifies strengths and weaknesses to inform improvement. Name methods only in general terms here."
    },
    {
-    "b": "Analysis replaces guesswork with evidence before the performer decides what to train.",
+    "b": "Analysis replaces guesswork with evidence before the performer decides what to train. This is why athletes carry out a performance analysis, and each benefit below is a reason you can use.",
     "h": "Benefits to the performer",
     "points": [
-     "Objective evidence: recorded data, such as counts of successful actions or measured times, replaces opinion about how well the performance went.",
+     "Objective evidence: recorded data, such as counts of successful actions or measured times, replaces opinion about how well the performance went, so the performer is not misled by feelings.",
      "Identifies priorities: it shows which weaknesses cost the most performance, so training time goes to them first.",
      "Sets realistic goals: current levels are measured, so goals can be set just beyond them rather than at an unknown level.",
      "Tracks progress: repeated analysis shows whether training is working and when a target has been reached.",
-     "Motivates: measurable improvement shows the performer that effort is producing results.",
+     "Motivates: measurable improvement shows the performer that effort is producing results, which encourages them to keep training.",
      "Improves decision-making: evidence of which choices succeeded in a performance helps the performer choose better in future.",
-     "Improves technique: analysis pinpoints which part of a movement needs changing."
-    ]
+     "Improves technique: analysis pinpoints which part of a movement needs changing, so practice is aimed at the actual fault."
+    ],
+    "tip": "Questions ask for two benefits or why athletes would analyse performance. Pick two, and for each say what the evidence lets the performer do, for example priorities are identified so training targets the biggest weakness."
    },
    {
-    "b": "Performance analysis is the first of four linked stages. Each stage feeds the next, and the results of the final stage start the next cycle.",
+    "b": "Performance analysis is the first of four linked stages. Each stage feeds the next, and the results of the final stage start the next cycle. The next three subsections cover stages 2 to 4 in detail.",
     "h": "The planning cycle",
     "points": [
      "Stage 1, analyse: observe and measure the performance and identify strengths and weaknesses.",
-     "Stage 2, set goals: turn the weaknesses into realistic performance goals based on sound theory.",
+     "Stage 2, set goals: turn the weaknesses into realistic performance goals based on sound theory (principles known to work in training).",
      "Stage 3, train or practise: carry out a designed programme, monitor it with ongoing evidence, reflect on it and adapt it where needed.",
      "Stage 4, concluding analysis: evaluate a performance using the same methods as the first analysis, so the two can be compared fairly.",
-     "The results of the concluding analysis inform the next set of goals."
+     "The results of the concluding analysis inform the next set of goals, which is why it is a cycle and not a straight line."
     ]
    },
    {
-    "b": "Physical factors set what a performer's body can do; technical factors set how efficiently the skill is carried out.",
-    "h": "Physical and technical factors",
+    "b": "Physical factors set what a performer's body can do. They decide how hard and how long someone can train and perform.",
+    "h": "Physical factors",
     "points": [
      "Fitness levels: the health-related and performance-related components of fitness set how long and how hard a performer can work; a sprinter depends on speed and power, while a long-distance swimmer depends on endurance.",
      "Health: illness reduces training time and the energy available for practice, lowering performance until the performer recovers.",
-     "Injury: an injury stops or limits training and can change movement patterns, so technique and fitness both suffer until rehabilitation is complete.",
+     "Injury: an injury stops or limits training and can change movement patterns, so technique and fitness both suffer until rehabilitation (the recovery programme) is complete.",
      "Body type: height, limb length and body mass affect suitability for an activity; a tall basketball player has an advantage in rebounding.",
-     "Age and maturation: physical maturity affects strength, speed and size, so the same training load can suit one young performer and overload another.",
-     "Fatigue: tired muscles lose strength and co-ordination, so late in a match a player's shooting accuracy and decision-making decline.",
-     "Level of skill: a performer who has learned the correct technique for a skill, such as a golf putt, repeats it more often under pressure.",
-     "Technique: efficient technique uses less energy for the same output, so a sprinter with an efficient running action produces more speed from the same effort.",
-     "Consistency: a performer who repeats the same technique under different conditions produces more reliable results."
+     "Age and maturation (physical development): physical maturity affects strength, speed and size, so the same training load can suit one young performer and overload another.",
+     "Fatigue: tired muscles lose strength and co-ordination, so late in a match a player's shooting accuracy and decision-making decline."
     ]
    },
    {
+    "b": "Technical factors are about how well a skill is carried out. Two performers with the same fitness can perform very differently if one has better technique.",
+    "h": "Technical factors",
+    "points": [
+     "Level of skill: a performer who has learned the correct technique for a skill, such as a golf putt, repeats it more often under pressure.",
+     "Technique: efficient technique uses less energy for the same output, so a sprinter with an efficient running action produces more speed from the same effort.",
+     "Consistency: a performer who repeats the same technique under different conditions produces more reliable results, because the movement does not break down when circumstances change."
+    ]
+   },
+   {
+    "b": "Tactical factors are about thinking and reading the game; psychological factors are about the performer's mind. Both decide whether physical ability and skill are used well on the day.",
     "h": "Tactical and psychological factors",
     "points": [
      "Game understanding: recognising patterns of play, such as an attacking team leaving space behind its defence, lets a performer anticipate and move before the play develops.",
      "Decision-making: choosing between passing, shooting and dribbling in the time available; poor choices waste possession even when skill is high.",
      "Knowledge of structures and strategies: knowing a team's set plays and the opponent's defensive system lets a player fit into the plan.",
      "Confidence: a confident performer attempts difficult actions, such as a long-range shot in football, that a doubtful performer avoids.",
-     "Anxiety and arousal: too much arousal causes tension and poor co-ordination, while too little leaves the performer sluggish; the best level differs between performers and tasks.",
+     "Anxiety and arousal (how alert and excited the body and mind are): too much arousal causes tension and poor co-ordination, while too little leaves the performer sluggish; the best level differs between performers and tasks.",
      "Motivation: a performer who wants to improve practises more and persists with difficult drills, so training gains are larger.",
      "Concentration: a performer who loses focus during a game misses cues, such as a team-mate's run or a change in the opponent's position."
-    ]
+    ],
+    "tip": "Don't redefine fitness components or psychological terms at length. Name the factor, then say how it changes performance with a short example from a sport."
    },
    {
+    "b": "What a performer does away from training, and the people around them, can help or hold back performance as much as the training itself.",
     "h": "Lifestyle and social factors",
     "points": [
      "Diet and hydration: a balanced diet supplies energy for training and recovery, and dehydration reduces endurance and concentration.",
@@ -8285,6 +9131,7 @@
     ]
    },
    {
+    "b": "The conditions and facilities around a performance can change what the performer is able to do, even when their fitness and skill stay the same.",
     "h": "Environmental factors",
     "points": [
      "Weather: wind alters the flight of a ball or an arrow, and rain makes surfaces slippery.",
@@ -8292,11 +9139,12 @@
      "Quality of facilities and equipment: well-fitted equipment supports correct technique, while worn or badly fitted equipment causes errors or injury.",
      "Access to coaching: a performer far from a qualified coach has fewer structured sessions and less feedback.",
      "Home or away venue: a home venue brings familiar surfaces and crowd support, while an away venue brings travel fatigue and unfamiliar conditions.",
-     "Altitude: thinner air at height gives less oxygen per breath, reducing endurance performance until the body acclimatises.",
+     "Altitude: thinner air at height gives less oxygen per breath, reducing endurance performance until the body acclimatises (adjusts to the conditions).",
      "Heat: high temperatures increase fatigue and sweat loss and raise the risk of heat illness, so performance drops in long events."
     ]
    },
    {
+    "b": "Sport costs money, and money decides which equipment, clubs and coaching a performer can use. This is why two equally talented performers may not get equal opportunities.",
     "h": "Economic factors",
     "points": [
      "Cost of equipment: specialist equipment, such as a bicycle or skis, may be unaffordable, limiting participation and access to the best kit.",
@@ -8306,16 +9154,17 @@
     ]
    },
    {
-    "b": "Method: pick the two factors that most affect performance in the named activity, preferably from different groups, and link each to specific moments of performance.",
+    "b": "Exam questions often name an activity and ask for the two factors that matter most. The method is to pick the two that most affect performance in that activity, preferably from different groups, and link each to specific moments of performance.",
     "h": "Choosing the two most important factors",
     "points": [
      "Start by listing what the activity demands; the factors that match those demands are the most important.",
      "Basketball free-throw shooter: technique and concentration are the two most important factors, because the shot is a repeated movement taken alone under pressure.",
      "Technique: a small fault in the release shows in every attempt, so technique largely determines accuracy.",
      "Concentration: the shooter must block out the crowd and the score and complete the same routine before each shot, so concentration decides whether the routine is completed.",
-     "Marathon runner: cardio-respiratory endurance and motivation are the two most important factors.",
-     "Endurance decides whether pace holds after the halfway point; motivation decides whether the runner keeps pushing through the final stages when fatigue rises."
-    ]
+     "Marathon runner: cardio-respiratory endurance (the ability of the heart and lungs to supply oxygen over a long time) and pacing/motivation are the two most important factors.",
+     "Endurance decides whether pace holds after the halfway point; pacing and motivation decide whether the runner keeps pushing through the final stages when fatigue rises."
+    ],
+    "tip": "The question asks you to identify two factors and discuss why. Name both, then justify each with a link to the activity, such as a specific moment in the free throw or the final stages of a marathon, not just a definition."
    }
   ],
   "questions": [
@@ -8410,90 +9259,107 @@
   ],
   "notes": [
    {
+    "b": "Analysis starts with looking carefully at a performance. Observation does this live, while video analysis records the performance so it can be studied again and again.",
     "h": "Observation and video analysis",
     "points": [
-     "Observation with a checklist: an observation schedule built from the key coaching points is ticked off during live observation, recording whether each point is performed.",
-     "What it shows: which key points are present or absent, and how often they are carried out correctly.",
-     "Strengths of observation: cheap and immediate, needs little equipment, and can be used during training sessions.",
+     "Observation with a checklist: an observation schedule (a list of the key coaching points for the skill) is ticked off during live observation, recording whether each point is performed.",
+     "What a checklist shows: which key points are present or absent, and how often they are carried out correctly.",
+     "Strengths of observation: it is cheap and immediate, needs little equipment, and can be used during training sessions, so feedback can be given straight away.",
      "Limitations of observation: fast actions are easy to miss, and different observers may judge differently, so observers must use the same points.",
-     "Video analysis: a performance is recorded and reviewed using slow motion, frame-by-frame playback and freeze-frame to examine a position closely.",
-     "Side-by-side playback shows two performances together; overlay comparison superimposes one recording on another to compare position and timing.",
-     "Drawing tools in analysis software or apps mark angles, lines and paths on a paused frame.",
+     "Video analysis: a performance is recorded and reviewed using slow motion, frame-by-frame playback and freeze-frame (pausing on one image) to examine a position closely.",
+     "Side-by-side playback shows two performances together. Overlay comparison superimposes (places) one recording on top of another so that differences in position and timing show up clearly.",
+     "Drawing tools in analysis software or apps mark angles, lines and paths on a paused frame, which turns 'it looks wrong' into a measured difference.",
      "Strengths of video: the performer sees their own technique, and the recording can be replayed and compared over time.",
      "Limitations of video: a fixed camera position and setup time are needed, and the footage must be reviewed afterwards, so feedback is delayed."
-    ]
+    ],
+    "tip": "When asked for strengths or limitations of a method, give one of each with its reason, for example live observation is immediate but fast actions are missed, while video is replayable but feedback is delayed."
    },
    {
+    "b": "Some methods turn a performance into numbers. Notational analysis counts what happens, and fitness data measures how hard the body is working.",
     "h": "Notational analysis and fitness data",
     "points": [
-     "Notational analysis: events during a performance are tallied, such as passes completed, turnovers, shots and scores, or unforced errors in racket sports.",
+     "Notational analysis: events during a performance are tallied (counted as they happen), such as passes completed, turnovers, shots and scores, or unforced errors in racket sports.",
      "The tallies produce statistics, such as the percentage of passes completed, that show patterns across a whole performance or season.",
      "Notational analysis can be done by hand with a tally sheet or with software that logs events on a timeline.",
-     "Strengths of notational analysis: objective and quick to compare across performances, and it shows patterns that memory misses.",
-     "Limitations of notational analysis: it records what happened but not why, and a trained analyst must define each event consistently.",
+     "Strengths of notational analysis: it is objective and quick to compare across performances, and it shows patterns that memory misses.",
+     "Limitations of notational analysis: it records what happened but not why, and a trained analyst must define each event consistently, otherwise two analysts would count differently.",
      "Heart-rate monitors record heart rate during a performance, showing the intensity of effort and whether a session stayed at the intended level.",
      "GPS units record the distance covered and speed, showing how much running a player did in a match and at what speeds.",
-     "Limitations of fitness data: devices can be inaccurate or costly, and the figures must be interpreted against the demands of the activity.",
+     "Limitations of fitness data: devices can be inaccurate or costly, and the figures must be interpreted against the demands of the activity, because the same heart rate means different things in different sports.",
      "Fitness test batteries: a set of standard tests whose results are compared with earlier results to show change."
-    ]
+    ],
+    "tip": "Notational analysis tells you what happened, not why. If a question asks for a limitation, say this and add that the analyst must define events consistently."
    },
    {
+    "b": "In activities that are judged rather than timed or counted, quality is rated against agreed standards. Judges' criteria and scoring sheets make that rating consistent.",
     "h": "Judges' criteria and scoring sheets",
     "points": [
      "Judges' criteria: the list of elements a judged activity scores, with a scoring sheet recording the mark given for each criterion.",
-     "Strengths: a transparent, standard way to rate quality, and the same sheet can be used across performances.",
+     "Strengths: a transparent, standard way to rate quality, and the same sheet can be used across performances, so scores can be compared.",
      "Limitations: judgement varies between judges, so judges must be trained on the same criteria before scoring."
     ]
    },
    {
+    "b": "Thoughts and feelings cannot be seen or timed, so the performer has to report them. Self-report tools ask the performer, or the people around them, directly.",
     "h": "Self-report tools: questionnaires, interviews and diaries",
     "points": [
      "Questionnaires and self-report inventories: the performer answers standard statements about their own thoughts, feelings or behaviour, and the answers are scored.",
-     "Competitive anxiety questionnaire: the SCAT (Sport Competition Anxiety Test), developed by Rainer Martens, measures competitive trait anxiety.",
+     "Competitive anxiety questionnaire: the SCAT (Sport Competition Anxiety Test), developed by Rainer Martens, measures competitive trait anxiety (how anxious a performer usually is in competition).",
      "A mood profile is a self-report inventory that rates the performer's mood states over a period.",
-     "Strengths of self-report: captures thoughts and feelings that cannot be observed.",
-     "Limitations of self-report: answers depend on honesty and can be shaped by mood on the day.",
+     "Strengths of self-report: it captures thoughts and feelings that cannot be observed.",
+     "Limitations of self-report: answers depend on honesty and can be shaped by mood on the day, so the results may not be a true picture.",
      "Interviews: a conversation with the performer, coach or team-mates that explores the reasons behind a performance.",
      "Reflective diaries: after each session the performer records what went well, what did not and why.",
      "Limitations of diaries: they depend on honest recall and take time to keep up."
-    ]
+    ],
+    "tip": "Name SCAT as the example of a competitive anxiety questionnaire and say it measures competitive trait anxiety. Use a different method for each aspect of performance when asked."
    },
    {
+    "b": "Skill and technique are about how well a movement is performed. The right methods compare the movement with the ideal and measure how often it works.",
     "h": "Methods for skill and technique",
     "points": [
-     "Video analysis with a technique checklist: each phase of the skill is compared with the key coaching points on slow-motion replay.",
-     "Success rate: the number of successful attempts out of a set number, such as shots taken in training, measures accuracy and consistency."
-    ]
+     "Video analysis with a technique checklist: each phase of the skill is compared with the key coaching points on slow-motion replay, so faults can be found phase by phase.",
+     "Success rate: the number of successful attempts out of a set number, such as shots taken in training, measures accuracy and consistency.",
+     "Comparison with a model performer (a more skilled performer at the same skill) is a third method for skill and technique, because it shows exactly where your technique differs from the ideal."
+    ],
+    "tip": "If asked for two methods of analysing skill and technique, give two different ones, such as a video checklist and success rate, rather than naming video twice."
    },
    {
+    "b": "Structures and strategies are team plans, such as how players are positioned and how set plays are used. They are judged by looking at team actions across the whole game.",
     "h": "Methods for structures and strategies",
     "points": [
-     "Notational analysis of team actions: records where possession is lost, how many passes occur in each phase and the outcome of each set play.",
-     "Match video with positional tagging: each clip is labelled with the position of the player involved and the area of play where the action happened."
-    ]
+     "Notational analysis of team actions: records where possession is lost, how many passes occur in each phase and the outcome of each set play, which shows which parts of the plan work.",
+     "Match video with positional tagging: each clip is labelled with the position of the player involved and the area of play where the action happened, so patterns by position or area can be found."
+    ],
+    "tip": "Do not answer 'video analysis' for every aspect. For structures and strategies, name notational analysis of team actions or video with positional tagging."
    },
    {
+    "b": "Choreography is the planned design of a dance or routine. Its quality depends on set requirements, so the methods check the work against those requirements.",
     "h": "Methods for choreography",
     "points": [
-     "Video reviewed against a checklist of compositional requirements: use of space, levels, variety, musicality and transitions, each checked in turn.",
+     "Video reviewed against a checklist of compositional requirements (the things a good composition must include): use of space, levels, variety, musicality and transitions, each checked in turn.",
      "Scoring by judges or peers against agreed criteria, so the choreography is rated on the same points each time."
     ]
    },
    {
+    "b": "Fitness is analysed by testing. A battery is a set of tests, and each battery is chosen to match the type of fitness being analysed.",
     "h": "Methods for performance-related and health-related fitness",
     "points": [
      "Performance-related test battery: a 30 m sprint, an Illinois agility test, a vertical jump and a ruler drop.",
      "Health-related test battery: a multistage fitness test, a sit-and-reach test and a press-up test.",
-     "Each battery is repeated under the same conditions so that scores can be compared across sessions."
-    ]
+     "Each battery is repeated under the same conditions so that scores can be compared across sessions, because a change in conditions would make the comparison unfair."
+    ],
+    "tip": "Here you only need to name the tests as methods. If asked for two tests of fitness for an athlete, name two from the correct battery."
    },
    {
+    "b": "Psychological preparedness means how ready the performer's mind is for competition. Because it cannot be seen, it is measured through what the performer reports.",
     "h": "Methods for psychological preparedness",
     "points": [
-     "A validated questionnaire completed before competition, such as the SCAT, shows the level of competitive anxiety the performer brings to the event.",
+     "A validated questionnaire (one shown to measure what it claims to) completed before competition, such as the SCAT, shows the level of competitive anxiety the performer brings to the event.",
      "Interviews with the performer about their confidence, focus and expectations before competition.",
      "A reflective diary in which the performer rates confidence and concentration after each session, showing how they change over a programme."
-    ]
+    ],
+    "tip": "If asked to explain how you would use one method, state when it is used (before competition), what it shows, and how the result is used."
    },
    {
     "b": "A model performer is a more skilled performer at the same skill, used as a visual target for comparison.",
@@ -8505,14 +9371,16 @@
      "Benefit two: the phase-by-phase comparison identifies specific technical faults and the phase in which each one occurs.",
      "The comparison motivates the performer by showing that the standard is achievable, and the gap between the two performances helps set realistic goals.",
      "Limitation: the model's body type, strength and experience differ from the performer's, so copying every feature of the model's style is not always appropriate."
-    ]
+    ],
+    "tip": "For 'two reasons why comparing helps', pick two benefits such as a clear visual target and identifying specific faults, and say why each helps. For 'describe how you did it', give the steps in order."
    },
    {
+    "b": "Analysis is only useful if it leads to action. The last step is to pick the areas of the performance that most need work.",
     "h": "Identifying four areas for development",
     "points": [
      "Four specific areas are identified from the analysis, for example one technical, one tactical, one fitness and one psychological area.",
-     "Each area is backed by evidence from the analysis, such as a checklist result, a success rate or a questionnaire score.",
-     "These areas become the performance goals in the next stage of the cycle, covered in the notes on planning for optimum performance."
+     "Each area is backed by evidence from the analysis, such as a checklist result, a success rate or a questionnaire score, so the choice is not just opinion.",
+     "These areas become the four performance goals in the next stage of the cycle. There is more on this in Planning for optimum performance."
     ]
    }
   ],
@@ -8614,71 +9482,85 @@
   ],
   "notes": [
    {
+    "b": "Some activities are won by a clock or a scoreboard, but others are decided by how the performance looks and what it communicates. Two related words describe this, and they are not the same.",
     "h": "What aesthetic and artistic mean",
     "points": [
-     "Aesthetic: concerned with the beauty and quality of movement as perceived by the observer, meaning how a movement looks and feels to watch.",
-     "Artistic: concerned with creative expression, where the performer deliberately communicates an idea, mood, story or emotion through choreographed movement.",
-     "A performance can be aesthetically pleasing without being artistic, because the performer need not be communicating an idea.",
+     "Aesthetic means concerned with the beauty and quality of movement as perceived by the observer, in other words how a movement looks and feels to watch.",
+     "Artistic means concerned with creative expression, where the performer deliberately communicates an idea, mood, story or emotion through choreographed movement (movement planned in advance).",
+     "A performance can be aesthetically pleasing without being artistic, because the performer need not be communicating an idea. A graceful dive is lovely to watch but is not telling a story.",
      "Aesthetic and artistic criteria are judged qualitatively, by people, rather than by an objective outcome such as time, distance or score."
-    ]
+    ],
+    "tip": "Keep the two terms distinct when asked to explain 'aesthetic and/or artistic criteria': aesthetic is the observer's perception of quality, artistic is the performer's deliberate creative expression."
    },
    {
+    "b": "The first group of criteria asks how well the body moves and holds its shape. Judges look for clean, controlled, flowing movement that is matched to the music where there is any.",
     "h": "Movement quality criteria",
     "points": [
-     "Body line, shape and extension: the position the body makes, such as pointed toes, straight legs and full extension of the arms.",
-     "Control, poise and balance: positions are held steadily and landings are controlled, such as a balanced finish at the end of a turn on a beam.",
-     "Fluency and flow: smooth transitions between elements with no pauses or jerky changes.",
-     "Timing, rhythm and musicality: movements matched to the accents of the music."
-    ]
+     "Body line, shape and extension: the position the body makes, such as pointed toes, straight legs and full extension of the arms. Stretched, clear shapes look more polished than bent or half-finished ones.",
+     "Control, poise and balance: positions are held steadily and landings are controlled, such as a balanced finish at the end of a turn on a beam. Wobbling or stumbling shows a lack of control.",
+     "Fluency and flow: smooth transitions between elements with no pauses or jerky changes, so the routine looks like one continuous movement rather than a string of separate skills.",
+     "Timing, rhythm and musicality: movements are matched to the accents (the strongest beats) of the music, so the movement and the sound seem to belong together."
+    ],
+    "tip": "When asked to state or outline criteria for a named activity, give each criterion with a short example from that activity, such as straight legs and pointed toes for body line."
    },
    {
+    "b": "The second group of criteria is about what the performance says and how it is put together. These matter most in dance and other activities where the performer is deliberately communicating something.",
     "h": "Expression, composition and presentation criteria",
     "points": [
-     "Expression and communication: a mood or story is conveyed through facial expression and body language, and projected to the audience.",
-     "Creativity and originality: choreography uses new or unexpected movements and combinations.",
-     "Use of space and variety: levels (high, medium and low), pathways (straight, curved or zigzag) and direction (forwards, sideways or backwards) are varied across the routine.",
-     "Synchronisation and relationships: in group or pair work, performers move with matched timing and shape, and their relationships convey the theme.",
-     "Presentation: costume, props, entrance and finish, where the activity allows."
-    ]
+     "Expression and communication: a mood or story is conveyed through facial expression and body language, and projected to the audience so that even those far away can read it.",
+     "Creativity and originality: the choreography uses new or unexpected movements and combinations, so the routine stands out from others rather than repeating familiar patterns.",
+     "Use of space and variety: levels (high, medium and low), pathways (straight, curved or zigzag) and direction (forwards, sideways or backwards) are varied across the routine, which keeps it interesting to watch.",
+     "Synchronisation and relationships: in group or pair work, performers move with matched timing and shape, and their relationships (such as leading, following, mirroring or contrasting) convey the theme.",
+     "Presentation: costume, props, entrance and finish, where the activity allows. A strong start and finish frame the routine and leave an impression on the judges."
+    ],
+    "tip": "Choose criteria that fit the activity you are given: synchronisation only applies to pair or group work, and presentation only where the activity allows it."
    },
    {
+    "b": "Even though judging is done by people, activities such as gymnastics use a structured scoring system. The system splits a routine into what was attempted and how well it was done.",
     "h": "How judged activities are scored",
     "points": [
-     "Difficulty value: awarded for the elements attempted, separately from how well they are performed.",
-     "Execution score: starts from a maximum and has deductions for faults such as bent legs, loss of balance or a poor landing.",
+     "Difficulty value: awarded for the elements attempted, separately from how well they are performed. Harder skills earn a higher value.",
+     "Execution score: starts from a maximum and has deductions for faults such as bent legs, loss of balance or a poor landing, so a cleaner performance keeps more of the marks.",
      "The final mark combines the difficulty value and the execution score, so a hard routine performed poorly can score less than an easier one performed well.",
      "Diving is scored in the same way, on the difficulty of the dive and its execution.",
-     "Dance is scored by judges against criteria such as expression and musicality."
-    ]
+     "Dance is scored by judges against criteria such as expression and musicality, rather than by a difficulty value plus deductions."
+    ],
+    "tip": "In a comparison, say how the scoring works for each activity: difficulty plus execution with deductions from a maximum for gymnastics, against judged criteria such as expression and musicality for dance."
    },
    {
+    "b": "Beauty is not limited to activities with judges. Games, athletics and swimming races are decided by objective outcomes, yet good performers often show aesthetic qualities along the way.",
     "h": "Aesthetic qualities in activities judged on outcomes",
     "points": [
      "Games, athletics and swimming races are judged on objective outcomes, but they contain aesthetic qualities that are present and not scored.",
      "Example: a fluent passing move in a game is aesthetically pleasing, but the score depends on the result, such as a goal.",
      "Example: an elegant hurdling technique in athletics is aesthetically pleasing, but the race is decided by time.",
-     "Coaches and spectators notice these qualities informally; they are not recorded on a scoring sheet."
-    ]
+     "Coaches and spectators notice these qualities informally, so they shape how people enjoy and talk about the activity, but they are not recorded on a scoring sheet."
+    ],
+    "tip": "For activities judged on outcomes, name the quality, such as a fluent passing move or elegant hurdling, and say what actually decides the result."
    },
    {
+    "b": "Exam questions ask you to set two activities side by side, with at least one being artistic or aesthetic. A good comparison covers what each is judged on, then where they overlap and where they differ.",
     "h": "Comparing activities by their criteria",
     "points": [
      "Activities judged mainly on aesthetic or artistic criteria include gymnastics, dance, diving, synchronised swimming and figure skating.",
      "A comparison covers what each activity is judged on, how its scoring works, which criteria the two share and where they differ.",
-     "Shared criteria: body line, control and timing appear in both dance and gymnastics.",
+     "Shared criteria: body line, control and timing appear in both dance and gymnastics, because both reward well-held shapes and movement matched to the music or rhythm.",
      "Difference: dance emphasises expression and musicality, while gymnastics adds a difficulty value to the execution score.",
-     "Surfing is a borderline case: it is judged on criteria including speed, power and flow, so its criteria mix performance qualities with aesthetic ones."
-    ]
+     "Surfing is a borderline case: it is judged on criteria including speed, power and flow, so its criteria mix performance qualities with aesthetic ones. Ski jumping is similar, because style marks are written into its scoring."
+    ],
+    "tip": "For a compare question, write paired points: what each activity is judged on, how scoring works, one shared criterion and one difference. Do not describe pictures from past papers, apply the criteria to the activities named."
    },
    {
+    "b": "Evaluating means judging a performance against the criteria and then using the result to improve. Because the criteria are qualitative, a clear method keeps the judgement fair and repeatable.",
     "h": "Evaluating a performance from aesthetic or artistic perspectives",
     "points": [
-     "Video the performance so it can be replayed and scored more than once against the same criteria.",
-     "Score each criterion with a checklist or rating scale.",
-     "Gather self, peer and teacher evaluations, and compare the scores with a model performance.",
-     "Identify strengths, such as clean body lines, and areas to improve, such as transitions that lose their flow.",
-     "For each area to improve, state how it will be improved, such as a drill that rehearses the transition."
-    ]
+     "1. Video the performance so it can be replayed and scored more than once against the same criteria.",
+     "2. Score each criterion with a checklist or rating scale, so every criterion gets its own mark.",
+     "3. Gather self, peer and teacher evaluations, and compare the scores with a model performance (an example of the standard to aim for).",
+     "4. Identify strengths, such as clean body lines, and areas to improve, such as transitions that lose their flow.",
+     "5. For each area to improve, state how it will be improved, such as a drill that rehearses the transition."
+    ],
+    "tip": "Finish an evaluation answer by saying how each weakness will be improved, not just what it is."
    }
   ],
   "questions": [
@@ -8775,91 +9657,107 @@
   ],
   "notes": [
    {
+    "b": "A performance analysis is only useful if it changes what you do next. The weaknesses it finds become the goals of your plan, so every goal has evidence behind it.",
     "h": "From analysis to goals",
     "points": [
-     "The main areas for development identified in the analysis become the performance goals, with one goal written for each area.",
-     "Each goal is linked to its evidence: the analysis result that revealed the weakness becomes the reason for the goal.",
-     "Example: a checklist showing the elbow flaring out during the shot gives a technical goal about elbow position.",
+     "The main areas for development identified in the analysis become the performance goals, with one goal written for each area. In the project these are four areas, so there are four goals.",
+     "Each goal is linked to its evidence: the analysis result that revealed the weakness becomes the reason for the goal, which shows the goal was chosen for a reason and not by guesswork.",
+     "Example: an observation checklist (a list of technique points ticked off while watching) showing the elbow flaring out during the shot gives a technical goal about elbow position.",
      "Priorities are set by how much each weakness limits performance in the activity, so the weakness costing most performance is addressed first.",
-     "Goals are linked to the demands of the activity, so that improvements transfer to competition."
-    ]
+     "Goals are linked to the demands of the activity (what the activity requires of a performer), so that improvements transfer to competition."
+    ],
+    "tip": "When asked how analysis informed planning, name the specific result from your analysis and then the goal it produced. Do not just say the analysis 'helped'."
    },
    {
+    "b": "Not all goals are the same kind. They differ in how much of the result is in your own hands, and that decides which kind is most useful in training.",
     "h": "Outcome, performance and process goals",
     "points": [
-     "Outcome goals concern results, such as winning a league, which also depend on opponents and conditions.",
-     "Performance goals set a personal standard that is independent of others, such as raising free-throw success from 60% to 75% (illustrative figures).",
+     "Outcome goals concern results, such as winning a league. They also depend on opponents and conditions, so you can do everything right and still miss them.",
+     "Performance goals set a personal standard that is independent of others, such as raising free-throw success from 60% to 75% (illustrative figures). Another team's play cannot stop you reaching it.",
      "Process goals concern technique or behaviour that the performer controls, such as keeping the elbow under the ball when shooting.",
      "Most short-term goals are performance or process goals, because the performer controls them more directly than outcomes."
-    ]
+    ],
+    "tip": "Give an example for each type, and label any figures in a performance goal as illustrative. Examiners can ask you to define a performance goal."
    },
    {
+    "b": "Big aims are reached by small steps. Splitting goals by time lets you check progress along the way instead of waiting until the end.",
     "h": "Short-term and long-term goals",
     "points": [
      "Short-term goals are achieved in a few days to a few weeks and are broken into steps.",
      "Long-term goals are achieved over a season or more and are usually built from several short-term goals.",
      "Each short-term step leads towards the long-term goal, so the achievement of one step is checked before the next is set."
-    ]
+    ],
+    "tip": "A common question asks you to define a short-term goal. Say it is achieved in a few days to a few weeks, then give an example."
    },
    {
+    "b": "A vague goal such as 'get better at shooting' cannot be checked. SMART is a five-letter test that turns an aim into a goal you can plan for and judge.",
     "h": "SMART goals",
     "points": [
-     "Specific: the goal states exactly what will improve.",
+     "Specific: the goal states exactly what will improve, so you know what to practise.",
      "Measurable: a number or test result shows whether the goal has been achieved.",
-     "Achievable: the goal is a stretch that the performer can reach with effort and the planned training.",
-     "Realistic: the goal is possible given the time, facilities and circumstances available.",
-     "Time-bound: the goal has a deadline or review date.",
+     "Achievable: the goal is a stretch that the performer can reach with effort and the planned training, so it is neither too easy nor out of reach.",
+     "Realistic: the goal is possible given the time, facilities and circumstances available, such as how many weeks and what equipment you have.",
+     "Time-bound: the goal has a deadline or review date, which stops it drifting.",
      "Example short-term performance goal: by the next competition, raise free-throw success in training from the baseline recorded in the first analysis to 75% (illustrative figure), measured out of a set number of attempts in each session."
-    ]
+    ],
+    "tip": "When asked to write a short-term performance goal, include a skill, a starting figure, a target figure, a way of measuring and a deadline. That covers all five letters."
    },
    {
+    "b": "Once goals are set, the plan says how you will reach them. A good plan matches the method to each goal and each choice can be justified from theory.",
     "h": "Designing the practice or training plan",
     "points": [
      "Plan contents: the goals; the methods and drills for each goal; the sessions per week, their duration and how they progress across the weeks.",
-     "Each goal has matched methods: skill practice for a technique goal, fitness training for an endurance goal and psychological strategies for a concentration goal.",
-     "Each session includes a warm-up and cool-down, and the plan sets the rest days and how progress will be recorded.",
-     "FITT is applied to each component of training, using the guidance values in the notes on assessing fitness and the principles of training.",
+     "Each goal has matched methods: skill practice for a technique goal, fitness training for an endurance goal and psychological strategies for a concentration goal, because each method trains a different quality.",
+     "Each session includes a warm-up (to prepare the body) and cool-down (to help recovery), and the plan sets the rest days and how progress will be recorded.",
+     "FITT (frequency, intensity, time, type) is applied to each component of training, using guidance values for each component.",
      "Each design choice is linked to a principle of training or effective practice, such as progression in the weekly load or variety in the drills.",
-     "Distributed practice suits a beginner, because rest between shorter sessions lowers fatigue and injury risk.",
-     "Progressive overload suits a strength goal, because the load is raised as the performer adapts, so strength keeps improving.",
-     "Sessions per week are justified by the principles of recovery: the plan must allow enough rest for adaptation to take place."
-    ]
+     "Distributed practice (shorter sessions with rest between) suits a beginner, because rest between shorter sessions lowers fatigue and injury risk.",
+     "Progressive overload (gradually increasing the training load) suits a strength goal, because the load is raised as the performer adapts, so strength keeps improving.",
+     "Sessions per week are justified by the principles of recovery: the plan must allow enough rest for adaptation (the body getting stronger after training) to take place."
+    ],
+    "tip": "Never just list what you did. Give each choice a reason from theory, for example distributed practice for a beginner or progressive overload for strength."
    },
    {
+    "b": "A plan is not fixed once written. Evidence collected during the programme shows whether it is working, and reflection turns that evidence into changes.",
     "h": "Monitoring, reflection and adapting",
     "points": [
      "Training logs or diaries record each session's content, load and how it felt to the performer.",
-     "Video of the performance is recorded at intervals and checked against the same checklist used in the analysis.",
+     "Video of the performance is recorded at intervals and checked against the same checklist used in the analysis, so changes in technique can be seen.",
      "Mid-programme retests repeat some of the analysis tests partway through the programme to check progress.",
      "Heart-rate data show whether training intensity stayed at the intended level.",
-     "Coach feedback is recorded alongside the performer's own notes.",
+     "Coach feedback is recorded alongside the performer's own notes, giving an outside view as well as your own.",
      "Reflection asks what went well, what did not, why it happened and what to change next.",
-     "Adapting: increase the difficulty when a target is reached early.",
-     "Adapting: change a drill that is not improving the goal.",
-     "Adapting: adjust the load or the exercises when an injury limits training."
-    ]
+     "Adapting: increase the difficulty when a target is reached early, so training keeps challenging you.",
+     "Adapting: change a drill that is not improving the goal, and adjust the load or the exercises when an injury limits training."
+    ],
+    "tip": "Exams often ask how progress was evidenced. Name specific sources, such as logs, video at intervals, mid-programme retests, heart-rate data and coach feedback, and say what each showed."
    },
    {
+    "b": "At the end you repeat the analysis to find out whether the plan worked. The evidence must be fair and tied back to each goal.",
     "h": "Concluding analysis and evidence of effectiveness",
     "points": [
      "Repeat the same methods of analysis used at the start, under the same conditions, so that results can be compared fairly.",
      "Before-and-after test scores show change in the fitness components measured at the start.",
-     "Success rates, video comparison and notational statistics show change in skill, technique and tactics.",
+     "Success rates, video comparison and notational statistics (counts of events recorded during play) show change in skill, technique and tactics.",
      "For each goal, state whether it was achieved, partly achieved or not achieved, and give the reason from the evidence.",
      "A goal may be missed because a drill was unsuitable, practice was insufficient, an injury interrupted training or the goal was set too high.",
      "Each result is linked back to the goal and the method designed to produce it, so the evidence shows whether the plan worked.",
      "Next steps: new goals for continued improvement are set from the concluding analysis, and the cycle begins again."
-    ]
+    ],
+    "tip": "For each goal say achieved, partly achieved or not achieved, and always give the reason, backed by before-and-after evidence."
    },
    {
+    "b": "The planning cycle you have just met is the structure of the Physical Activity Project, so knowing it helps both the project and written questions about it.",
     "h": "How the cycle is assessed in the Physical Activity Project",
     "points": [
      "The Physical Activity Project is worth 20% of the overall mark.",
      "It follows this cycle over eight to ten weeks, in the role of performer or coach/choreographer.",
-     "The current SEC booklet has three sections within 1,600 words: Section A, performance analysis (about 700 words); Section B, performance goals, training plans and evidence of implementation; and Section C, retest and concluding analysis.",
-     "Reflection is written into Sections B and C rather than a separate section, and the booklet sets how many goals and training plans are needed, so the current year's booklet is followed rather than older guidance that asked for four goals.",
+     "The specification describes four sections: performance analysis; identification of four performance goals; evidence of ongoing training or practice and reflection; and concluding analysis.",
+     "Reflection is written in alongside the ongoing evidence and the concluding analysis, rather than as a separate section.",
+     "The SEC sets the booklet layout and how many goals and plans are needed, so follow the current year's booklet rather than older guidance.",
      "Written-exam questions may describe a planning cycle carried out during the course and ask about its stages."
-    ]
+    ],
+    "tip": "Questions are often framed as 'as part of your studies you designed...'. Answer from your own cycle: how analysis informed the plan, then how progress was evidenced."
    }
   ],
   "questions": [
@@ -8942,78 +9840,98 @@
   ],
   "notes": [
    {
-    "b": "Physical activity runs on a continuum, from healthy-lifestyle activity to competing to win. The other concepts describe its settings and purposes.",
-    "h": "Concepts of physical activity",
+    "b": "Physical activity is the broad idea, and it runs on a continuum, from healthy-lifestyle activity at one end to competing to win at the other. Play, leisure and recreation, and physical education each have their own purpose.",
+    "h": "Concepts of physical activity: from everyday movement to school and leisure",
     "points": [
-     "Physical activity: any bodily movement produced by skeletal muscles that uses energy. Examples: a walk to school; a professional match.",
-     "Play: spontaneous, freely chosen activity done for its own sake, with flexible or self-made rules, mainly associated with children. Examples: chasing games in a playground; kicking a ball around a park with self-made goals.",
-     "Leisure and recreation: activity chosen in free time for enjoyment, relaxation and wellbeing, with little emphasis on competition. Examples: a walk; a leisurely cycle.",
-     "Physical education: planned, structured learning in, through and about physical activity within the school curriculum, taught by a qualified teacher. Examples: a PE class learning the technique of a striking action; a lesson on how the body responds to exercise.",
-     "Mass-participation sports: organised events in which large numbers of people of mixed ability take part at the same time, usually for personal challenge or charity rather than to win. Examples: city marathons; parkrun.",
-     "Outdoor and adventure activities: activities in the natural environment that involve challenge, managed risk and uncertainty.",
+     "Physical activity is any bodily movement produced by skeletal muscles (the muscles attached to your bones) that uses energy, so it covers everything from a walk to school to a professional match.",
+     "Play is spontaneous, freely chosen activity done for its own sake, with flexible or self-made rules, and it is mainly associated with children. Examples: chasing games in a playground; kicking a ball around a park with self-made goals.",
+     "Leisure and recreation is activity chosen in free time for enjoyment, relaxation and wellbeing, with little emphasis on competition, because the point is to feel good rather than to win. Examples: a walk; a leisurely cycle; a swim.",
+     "Physical education is planned, structured learning in, through and about physical activity within the school curriculum, taught by a qualified teacher. Examples: a PE class learning the technique of a striking action; a lesson on how the body responds to exercise."
+    ],
+    "tip": "Exams ask you to define or explain each concept and to match concepts to descriptions with examples. Give the key features (free choice for play, a qualified teacher and the curriculum for PE) and two examples each."
+   },
+   {
+    "b": "Mass-participation sports, outdoor and adventure activities, and sport differ in their purpose: personal challenge, adventure in nature, or winning.",
+    "h": "Concepts of physical activity: mass participation, outdoor and adventure, and sport",
+    "points": [
+     "Mass-participation sports are organised events in which large numbers of people of mixed ability take part at the same time, usually for personal challenge or charity rather than to win. Examples: city marathons; fun runs; sportives; parkrun.",
+     "parkrun is a free, weekly, timed 5 km event held on Saturday mornings in many locations and open to everyone, which makes it a clear example of many people of mixed ability taking part together.",
+     "Outdoor and adventure activities take place in the natural environment and involve challenge, managed risk (risk that is assessed and controlled) and uncertainty.",
      "Land-based outdoor and adventure activities: hill walking, orienteering, rock-climbing and mountain biking.",
      "Water-based outdoor and adventure activities: canoeing, kayaking, sailing and surfing.",
-     "Sport: organised, competitive physical activity governed by formal rules and a governing body, with an emphasis on performance and winning. Examples: a club league in Gaelic football; a national championship in swimming."
-    ]
+     "Sport is organised, competitive physical activity governed by formal rules and a governing body, with an emphasis on performance and winning. Examples: a club league in Gaelic football; a national championship in swimming."
+    ],
+    "tip": "Mass-participation sport is about many participants at once, not about popularity on television. If asked for outdoor and adventure activities other than water activities, leave out canoeing, kayaking, sailing, rowing and surfing and name land-based ones such as hill walking, orienteering, rock-climbing and mountain biking."
    },
    {
+    "b": "Regular activity keeps the heart, bones and body systems working well. This is why it protects against many long-term illnesses and makes daily life easier.",
     "h": "Personal benefits: physical health",
     "points": [
-     "Lower risk of heart disease and stroke.",
+     "Lower risk of heart disease and stroke, because activity keeps the heart and circulation working well.",
      "Lower risk of type 2 diabetes.",
-     "Lower risk of obesity, which supports weight management.",
+     "Lower risk of obesity, which supports weight management because activity uses energy.",
      "Lower risk of some cancers.",
-     "Stronger bones and a lower risk of osteoporosis.",
+     "Stronger bones and a lower risk of osteoporosis (a condition in which bones become weak and break easily).",
      "Better fitness, which makes everyday physical tasks easier.",
      "Better sleep."
-    ]
+    ],
+    "tip": "Exams ask you to identify four benefits of participation or to give personal benefits. Name specific ones, such as a lower risk of heart disease, stronger bones, better fitness and better sleep, rather than just saying 'being healthier'."
    },
    {
+    "b": "Physical activity helps the mind as well as the body. It affects how people feel, think and stay motivated.",
     "h": "Personal benefits: mental wellbeing",
     "points": [
-     "Improved mood and self-esteem.",
+     "Improved mood and self-esteem (how you value yourself).",
      "Reduced stress and anxiety.",
      "Reduced symptoms of depression.",
      "Better concentration.",
-     "Enjoyment and a sense of achievement, which sustain motivation to keep taking part."
-    ]
+     "Enjoyment and a sense of achievement, which sustain motivation to keep taking part, so people carry on being active."
+    ],
+    "tip": "Keep personal benefits separate from social and economic ones. Mood, stress, anxiety and self-esteem are mental benefits, while fitter bones and a healthier heart are physical benefits."
    },
    {
+    "b": "Physical activity can build relationships, skills and communities as well as fitness.",
     "h": "Social benefits",
     "points": [
-     "Making friends and belonging to a group.",
-     "Teamwork, communication and leadership skills develop through group activity.",
+     "Making friends and belonging to a group, which come from regularly taking part alongside the same people.",
+     "Teamwork, communication and leadership skills develop through group activity, because people must work together, talk to each other and sometimes take charge.",
      "A social outlet and a positive use of free time.",
      "Reduced isolation, because activity brings people together regularly.",
-     "Community cohesion, as people from different backgrounds meet through shared activity."
-    ]
+     "Community cohesion (people in a community getting along and sticking together), as people from different backgrounds meet through shared activity."
+    ],
+    "tip": "Exams ask you to outline social benefits for teenagers or adults. Write about relationships, teamwork, belonging and community, and keep fitness out of it."
    },
    {
+    "b": "Economic benefits are about money. They fall on society as a whole and on the individual, and a student should keep the two apart.",
     "h": "Economic benefits",
     "points": [
      "For society: lower healthcare costs, because fewer people need treatment.",
-     "For society: fewer sick days and higher productivity at work.",
+     "For society: fewer sick days and higher productivity at work, because healthier workers are absent less.",
      "For society: employment in the sport and leisure industry.",
      "For society: income from tourism and events.",
      "For society: the value of volunteering, which keeps clubs and events running.",
      "For the individual: lower medical costs, since fewer treatments are needed.",
-     "For the individual: career opportunities in coaching, officiating, teaching and the leisure industry.",
+     "For the individual: career opportunities in coaching, officiating (acting as a referee or umpire), teaching and the leisure industry.",
      "For the individual: free activities such as walking cost less than health treatment for conditions that inactivity can cause."
-    ]
+    ],
+    "tip": "Economic benefits are financial, not 'fitter people'. Write about costs saved, jobs and income, and keep the three types of benefit (personal, social, economic) distinct."
    },
    {
+    "b": "The benefits of activity change with age. In childhood and the teenage years it helps the body develop and shapes habits and confidence.",
     "h": "Benefits by life stage: children and adolescents",
     "points": [
      "Children: motor-skill development, such as running, jumping, throwing and catching.",
      "Children: healthy growth, supported by play and daily activity.",
      "Children: social skills learned through play with others.",
-     "Adolescents: self-esteem and body image, which are formed during the teenage years.",
+     "Adolescents (teenagers): self-esteem and body image, which are formed during the teenage years.",
      "Adolescents: stress relief during the pressures of school and exams.",
-     "Adolescents: friendships and belonging to a peer group.",
+     "Adolescents: friendships and belonging to a peer group (people of the same age).",
      "Adolescents: lifelong habits that can carry into adult life."
-    ]
+    ],
+    "tip": "Questions ask for benefits for children and for teenagers separately. Match each to the stage: motor skills and growth through play for children; self-esteem, body image, stress, friendships and habits for teenagers."
    },
    {
+    "b": "Adults use activity to protect their health and manage pressure. For older adults it also protects independence and the ability to move safely.",
     "h": "Benefits by life stage: adults and older adults",
     "points": [
      "Adults: weight and disease prevention, which protects health across working life.",
@@ -9023,17 +9941,17 @@
      "Older adults: balance and strength, which help prevent falls.",
      "Older adults: bone density, which helps protect against fractures.",
      "Older adults: independence in daily life for longer.",
-     "Older adults: social contact and reduced loneliness.",
-     "Older adults: cognitive health, including thinking and memory."
-    ]
+     "Older adults: social contact and reduced loneliness, and cognitive health (thinking and memory)."
+    ],
+    "tip": "For health benefits for older adults, link each benefit to its result: balance and strength prevent falls, and bone density protects against fractures. Exams may also ask for named activities."
    },
    {
-    "b": "Get Ireland Active sets the national activity guidelines.",
+    "b": "Get Ireland Active sets the national activity guidelines. They say how much activity each age group needs.",
     "h": "Irish activity guidelines",
     "points": [
      "Children and young people: at least 60 minutes of moderate to vigorous activity every day.",
      "Adults: at least 30 minutes of moderate activity on five days a week, which is 150 minutes a week.",
-     "Older adults: the adult target of 30 minutes of moderate activity on five days a week, plus balance and strength activities."
+     "Older adults: the adult target of 30 minutes of moderate activity on five days a week, plus balance and strength activities, which target the falls and fracture risks of older age."
     ]
    }
   ],
@@ -9127,119 +10045,128 @@
   ],
   "notes": [
    {
-    "b": "A physical activity biography records a person's activity history so far and sets out their current activity profile.",
+    "b": "A physical activity biography is the story of how a person has been active so far and what they do now. Writing one shows what has shaped a person's habits, which is the first step in understanding participation.",
     "h": "Physical activity biography",
     "points": [
-     "History content: the activities taken up and given up, the age at each, and the settings used (school, club, home, outdoors).",
-     "History content: the influences on participation, such as family, school, friends, coaches and facilities.",
-     "History content: the reasons for starting and stopping each activity, and the high and low points.",
-     "Presentation: a timeline by life stage that marks the turning points.",
-     "Current profile: the activities done now, how often, for how long and at what intensity.",
+     "History content: the activities taken up and given up, the age at each, and the settings used (school, club, home, outdoors), so you can see how a person's activity changed over time.",
+     "History content: the influences on participation, such as family, school, friends, coaches and facilities, because these often explain why someone started, kept going or stopped.",
+     "History content: the reasons for starting and stopping each activity, and the high and low points, such as a first team win or an injury that ended a sport.",
+     "Presentation: a timeline by life stage (for example childhood, early teens, senior cycle) that marks the turning points, where a person's activity changed direction.",
+     "Current profile: the activities done now, how often, for how long and at what intensity (how hard the effort is). This is the person's activity profile today.",
      "Comparison: set the biography beside someone whose profile differs, such as a non-participant, an older adult or someone with a disability, and explain the differences in influences, opportunities and motivation."
-    ]
+    ],
+    "tip": "You present your own biography and one for a person whose activity profile differs from yours. For the second person, explain why the two profiles differ, not just how."
    },
    {
+    "b": "A support is something that makes it easier to be active and a barrier is something that makes it harder. School shapes activity for most young people, so it has both.",
     "h": "Supports and barriers in school",
     "points": [
-     "Support: PE classes taught by qualified teachers who make activity enjoyable and accessible.",
-     "Support: school teams and extra-curricular activities, such as after-school clubs.",
-     "Support: lunchtime leagues and activity breaks during the school day.",
-     "Support: facilities and equipment that are available to pupils outside class time.",
-     "Support: a positive peer culture that values activity.",
-     "Barrier: limited time for PE on the timetable.",
-     "Barrier: exam pressure, especially in senior cycle.",
+     "Support: PE classes taught by qualified teachers and coaches, who make activity enjoyable and accessible so pupils build skill and confidence.",
+     "Support: school teams and extra-curricular activities (those outside timetabled classes), such as after-school clubs, which give pupils regular chances to take part.",
+     "Support: lunchtime leagues and activity breaks during the school day, which fit activity into time pupils are already in school.",
+     "Support: facilities and equipment that are available to pupils outside class time, so activity is not limited to the PE timetable.",
+     "Support: the Active School Flag, a Department of Education initiative that recognises schools that promote physical activity and PE, and a positive peer culture that values activity.",
+     "Barrier: limited time for PE on the timetable, and exam pressure, especially in senior cycle.",
      "Barrier: a narrow range of activities, with a focus on competitive sports that some pupils do not enjoy.",
-     "Barrier: lack of facilities, or limited access to them.",
-     "Barrier: changing-room and kit concerns, which discourage some pupils.",
-     "Barrier: low confidence in one's own skill or body."
-    ]
+     "Barrier: lack of facilities or limited access to them, changing-room and kit concerns that discourage some pupils, and low confidence in one's own skill or body."
+    ],
+    "tip": "Exams ask you to describe supports in school other than PE classes, so know several, such as teams, clubs, lunchtime leagues and facilities, and say how each helps."
    },
    {
+    "b": "Outside school, whether a person is active depends on what is available locally and whether they can afford and reach it. The community also offers supports and barriers.",
     "h": "Supports and barriers in the community",
     "points": [
-     "Support: local clubs and sports partnerships offering organised activity.",
-     "Support: parks, greenways and walking routes that are free to use.",
-     "Support: free events, such as parkrun and fun runs.",
-     "Support: family involvement, such as parents driving children to and attending sessions.",
-     "Support: accessible and affordable facilities close to home.",
+     "Support: local clubs and sports partnerships offering organised activity, which give people a place to train and play with others.",
+     "Support: parks, greenways (traffic-free routes for walking and cycling) and walking routes that are free to use, so cost is not an obstacle.",
+     "Support: free events, such as parkrun (a free weekly 5 km timed event on Saturday mornings) and fun runs.",
+     "Support: family involvement, such as parents driving children to sessions and attending them.",
+     "Support: accessible and affordable facilities close to home, which make regular activity realistic.",
      "Barrier: cost of membership, fees and equipment.",
-     "Barrier: transport, especially where public transport is limited or travel to facilities is long.",
-     "Barrier: lack of local facilities.",
-     "Barrier: safety concerns, such as poorly lit paths.",
-     "Barrier: opening hours that do not suit people who work or study.",
-     "Barrier: weather, which stops outdoor activity.",
-     "Barrier: lack of programmes for some groups."
-    ]
+     "Barrier: transport, especially where public transport is limited or travel to facilities is long, and lack of local facilities.",
+     "Barrier: safety concerns, such as poorly lit paths, opening hours that do not suit people who work or study, and weather, which stops outdoor activity.",
+     "Barrier: lack of programmes for some groups, so those people have nothing suitable to join."
+    ],
+    "tip": "Exams ask you to outline two supports and two barriers in the community, or to discuss two barriers. For each one, say how it helps or stops participation, not just name it. Keep to school and community in general here."
    },
    {
-    "b": "Every school or community factor falls into one of four types.",
+    "b": "Every school or community factor falls into one of four types. Sorting factors this way helps you see what kind of action would fix a problem.",
     "h": "Classifying supports and barriers",
     "points": [
-     "Personal: time, motivation, confidence, skill level, injury and body image.",
-     "Social: family, friends and culture, which can either encourage or discourage participation.",
-     "Environmental: facilities, transport, safety and weather.",
-     "Economic: membership fees, equipment and travel costs."
-    ]
+     "Personal: time, motivation, confidence, skill level, injury and body image, which all depend on the individual.",
+     "Social: family, friends and culture, which can either encourage or discourage participation depending on whether they value activity.",
+     "Environmental: facilities, transport, safety and weather, which are about the places and conditions around a person.",
+     "Economic: membership fees, equipment and travel costs, which decide whether a person can afford to take part."
+    ],
+    "tip": "When asked to group factors, use the four headings personal, social, environmental and economic, and place each factor under the right one."
    },
    {
+    "b": "To understand participation you need evidence, and no single method records everything. Each method collects a different type of information and has its own strength and limitation.",
     "h": "Methods of collecting participation data",
     "points": [
-     "Pedometers: record steps per day. Strength: cheap and objective. Limitation: they do not record cycling, swimming or intensity.",
-     "Activity diaries or logs: record the type, duration and intensity of each activity. Strength: detailed. Limitation: they depend on honesty and memory.",
-     "Questionnaires and surveys: record self-reported activity and attitudes from many people quickly. Strength: wide reach. Limitation: self-report bias, because people may overstate or forget their activity.",
-     "Interviews and focus groups: record reasons and attitudes in depth. Strength: explain why people do or do not take part. Limitation: time-consuming and limited to small numbers.",
-     "Wearable trackers and smartphone apps: record steps, heart rate and distance. Strength: automatic and continuous. Limitation: cost and accuracy limits.",
-     "Heart-rate monitors: record the intensity of activity. Strength: show whether activity is moderate or vigorous. Limitation: cost, and the need to wear them correctly.",
-     "Observation and attendance records: record numbers using a facility or club. Strength: objective counts that do not rely on memory. Limitation: they show whether people attend, but not why or how active they are."
-    ]
+     "Pedometers record steps per day. Strength: cheap and objective (not based on opinion). Limitation: they do not record cycling, swimming or intensity.",
+     "Activity diaries or logs record the type, duration and intensity of each activity. Strength: detailed. Limitation: they depend on honesty and memory, so entries may be wrong.",
+     "Questionnaires and surveys record self-reported activity and attitudes from many people quickly. Strength: wide reach. Limitation: self-report bias, because people may overstate or forget their activity.",
+     "Interviews and focus groups record reasons and attitudes in depth. Strength: they explain why people do or do not take part. Limitation: time-consuming and limited to small numbers.",
+     "Wearable trackers and smartphone apps record steps, heart rate and distance. Strength: automatic and continuous, so nothing relies on memory. Limitation: cost and accuracy limits.",
+     "Heart-rate monitors record the intensity of activity. Strength: they show whether activity is moderate or vigorous. Limitation: cost, and the need to wear them correctly.",
+     "Observation and attendance records count numbers using a facility or club. Strength: objective counts that do not rely on memory. Limitation: they show whether people attend, but not why or how active they are."
+    ],
+    "tip": "Exams ask you to name methods and say what information each collects, to identify three methods, or to suggest methods for a survey. Always pair the method with the information it records, plus a strength and a limitation."
    },
    {
-    "b": "A specific group in the school community, such as a year group or girls in senior cycle, can be analysed in five steps.",
+    "b": "A specific group in the school community, such as a year group or girls in senior cycle, can be analysed in five steps. Once you have the steps, you can also check the results against patterns that are commonly found.",
     "h": "Analysing participation patterns in a group",
     "points": [
      "Step 1: collect data on the group, using a questionnaire, activity diary or attendance record.",
-     "Step 2: present the data in tables and bar charts so that comparisons are clear.",
-     "Step 3: describe the patterns, such as which activities are most popular, how often students take part and any drop-off with age.",
+     "Step 2: present the data in tables and bar charts so that comparisons between activities and groups are clear.",
+     "Step 3: describe the patterns, such as which activities are most popular, how often students take part and any drop-off (fall in participation) with age.",
      "Step 4: explain the likely reasons, such as exam pressure, interests, cost, facilities or gender.",
-     "Step 5: suggest actions the school could take, linked to the reasons found.",
+     "Step 5: suggest actions the school could take, linked to the reasons found, so the suggestions fit the problem.",
      "Common pattern: participation falls through adolescence, especially in senior cycle.",
-     "Common pattern: team-sport participation is often higher among boys, while drop-out is often higher among girls.",
+     "Common pattern: team-sport participation is often higher among boys, while drop-out is often higher among girls. This is one observed pattern only.",
      "Common pattern: popular activities reflect local facilities and traditions, such as strong Gaelic games participation where clubs are local, and low swimming where there is no pool."
-    ]
+    ],
+    "tip": "When you interpret school survey data, explain the differences between activities and year groups, not just describe them, and link each difference to a likely reason such as facilities or exams."
    },
    {
+    "b": "Promotion means encouraging more people to be active. Different approaches work at different levels, from national campaigns to a single school.",
     "h": "Approaches to physical activity promotion",
     "points": [
-     "National media campaigns: reach large audiences through television, radio and social media.",
-     "School-based programmes: the Active School Flag, daily activity breaks and PE.",
-     "Community events: parkrun and fun runs.",
-     "Targeted programmes for groups with low participation.",
-     "Making environments active: greenways and cycle lanes.",
-     "Incentives and free access, such as free taster sessions or free entry to events.",
-     "Role models: athletes and coaches who inspire others to take part.",
-     "Wearable technology and challenges: step challenges that track progress."
-    ]
+     "National media campaigns reach large audiences through television, radio and social media.",
+     "School-based programmes, such as the Active School Flag (a Department of Education initiative recognising schools that promote physical activity and PE), daily activity breaks and PE.",
+     "Community events, such as parkrun (a free weekly 5 km timed event on Saturday mornings) and fun runs.",
+     "Targeted programmes for groups with low participation, which aim to help where it is most needed.",
+     "Making environments active, such as building greenways and cycle lanes, so being active becomes the easy choice.",
+     "Incentives and free access, such as free taster sessions or free entry to events, which remove cost as a barrier.",
+     "Role models, such as athletes and coaches, who inspire others to take part.",
+     "Wearable technology and challenges, such as step challenges that track progress and keep people motivated."
+    ],
+    "tip": "Exams ask you to discuss two approaches to promotion. Pick two, say how each works and give an example from this list."
    },
    {
+    "b": "Evaluating an approach means judging how well it works. Five questions help you decide.",
     "h": "Evaluating a promotion approach",
     "points": [
      "Reach: how many people take part, and whether they are the people the approach targeted.",
-     "Cost: the money, staff and facilities needed, compared with the number of people reached.",
-     "Sustainability: whether activity continues once the programme ends.",
+     "Cost: the money, staff and facilities needed, compared with the number of people reached, which shows whether it is good value.",
+     "Sustainability: whether activity continues once the programme ends, so the benefit lasts.",
      "Inactive groups: whether the approach reaches people who are not active, not only those already keen.",
      "Measuring success: participation records, questionnaires or trackers used before and after the programme to show change."
-    ]
+    ],
+    "tip": "Exams ask you to evaluate measures of a programme's success. Name how success is measured, such as participation records, questionnaires or trackers, and say why a before-and-after comparison shows change."
    },
    {
+    "b": "A school can act directly to get more pupils taking part. The actions below are ways to widen who takes part and how.",
     "h": "How a school can increase participation",
     "points": [
      "Offer a wider range of activities, so pupils with different interests can find one they enjoy.",
-     "Provide non-competitive options, such as fitness classes or walking groups.",
-     "Run lunchtime and after-school clubs.",
-     "Let students have a say in which activities are offered.",
+     "Provide non-competitive options, such as fitness classes or walking groups, for pupils who dislike competitive sport.",
+     "Run lunchtime and after-school clubs, which give extra chances to be active outside class.",
+     "Let students have a say in which activities are offered, so they are more likely to take part in them.",
      "Link with local clubs, so pupils can carry on being active outside school.",
      "Use positive role models, such as older students, former pupils or coaches, to encourage others."
-    ]
+    ],
+    "tip": "Exams ask for ways a school can increase participation. Give specific actions and say why each would work."
    }
   ],
   "questions": [
@@ -9340,77 +10267,88 @@
   ],
   "notes": [
    {
+    "b": "A policy is a government's written plan for what it wants to achieve and how. Ireland has three national policies that aim to get more people active, and each one has a slightly different focus.",
     "h": "National policies",
     "points": [
-     "National Physical Activity Plan for Ireland, published in 2016: the government's plan to increase physical activity levels across the population, with actions across health, education, transport, sport and communities.",
-     "National Sports Policy 2018–2027: the government's policy to increase sport participation, develop high performance and improve sports facilities.",
-     "Healthy Ireland: the government framework to improve the health and wellbeing of the population, including through physical activity."
-    ]
+     "The National Physical Activity Plan for Ireland, published in 2016, is the government's plan to increase physical activity levels across the whole population, with actions across health, education, transport, sport and communities.",
+     "The National Sports Policy 2018–2027 is the government's ten-year policy to increase sport participation, develop high performance (the top level of elite sport) and improve sports facilities.",
+     "Healthy Ireland is the government framework (an overall structure that guides other plans) to improve the health and wellbeing of the population, including through physical activity."
+    ],
+    "tip": "Healthy Ireland, the National Physical Activity Plan and the National Sports Policy are all acceptable answers when asked to name a national policy. Do not invent others."
    },
    {
+    "b": "Policies only work if someone delivers them. Sport Ireland does this nationally, Local Sports Partnerships do it in each area, and councils, schools and clubs add their own local plans.",
     "h": "National and local bodies and local actions",
     "points": [
-     "Sport Ireland: the statutory body responsible for developing sport in Ireland, established in 2015 under the Sport Ireland Act 2015, replacing the Irish Sports Council.",
+     "Sport Ireland is the statutory body (one set up by law) responsible for developing sport in Ireland. It was established in 2015 under the Sport Ireland Act 2015, replacing the Irish Sports Council.",
      "Sport Ireland funds national governing bodies and Local Sports Partnerships, runs participation programmes and anti-doping, and supports high performance.",
-     "Local Sports Partnerships (LSPs): local bodies in counties and cities, funded by Sport Ireland, that increase participation at local level.",
-     "LSPs focus on under-represented groups and work through local programmes, coach education, community events and information.",
-     "County council recreation and active-travel plans, which provide greenways, parks and cycle lanes.",
-     "School physical activity policies, which set out how the school provides PE and activity.",
-     "Club development plans, which set out how a club will grow its membership and coaching."
-    ]
+     "Local Sports Partnerships (LSPs) are local bodies in counties and cities, funded by Sport Ireland, that increase participation at local level.",
+     "LSPs focus on under-represented groups, meaning people who take part less than others, and work through local programmes, coach education, community events and information.",
+     "County council recreation and active-travel plans provide greenways, parks and cycle lanes, so people have safe, free places to be active close to home.",
+     "School physical activity policies set out how the school provides PE and activity.",
+     "Club development plans set out how a club will grow its membership and coaching."
+    ],
+    "tip": "Do not quote the number of LSPs or funding figures. Name Sport Ireland, say what it funds, and say that LSPs work locally with under-represented groups."
    },
    {
-    "b": "A named policy can be analysed through its aims, its actions, its target and its strengths and limitations. The example is the National Physical Activity Plan for Ireland.",
+    "b": "To analyse a policy, look at its aims, its actions, who it targets, and its strengths and limitations. The example here is the National Physical Activity Plan for Ireland.",
     "h": "Analysing a national policy",
     "points": [
      "Aim: to increase physical activity levels across the population.",
      "Actions: set out across health, education, transport, sport and communities.",
-     "Target: the whole population, so several sectors of society have a role.",
+     "Target: the whole population, so several sectors of society have a role in carrying it out.",
      "Strength: it coordinates action across government sectors, so health, education and transport are linked in one plan.",
-     "Strength: a national framework gives local bodies a shared direction.",
+     "Strength: a national framework gives local bodies a shared direction, so their work pulls the same way.",
      "Limitation: its actions depend on each sector implementing them, so gaps in implementation slow progress.",
      "Limitation: funding gaps can stop local actions from going ahead.",
      "Limitation: many local activities rely on volunteers, which limits how far they can grow."
-    ]
+    ],
+    "tip": "When asked to name a policy and analyse how it promotes activity, give its aim, the actions it sets out and who it targets, then add at least one strength and one limitation with a reason."
    },
    {
-    "b": "A national governing body (NGB) governs one sport or activity in Ireland and is linked to the international federation for that sport.",
+    "b": "A national governing body (NGB) governs one sport or activity in Ireland and is linked to the international federation for that sport. It is the organisation that keeps the sport running and growing.",
     "h": "National governing bodies: role",
     "points": [
-     "Sets and enforces the rules of the sport.",
-     "Develops coaches and officials through education and certification.",
+     "Sets and enforces the rules of the sport, so every club plays the same game fairly.",
+     "Organises competitions, such as national leagues and championships.",
+     "Develops coaches and officials through education and certification, so people are trained to a recognised standard.",
+     "Supports clubs by affiliating them and giving them governance and training.",
      "Selects and prepares national teams.",
      "Promotes participation through programmes and campaigns.",
      "Links the sport to the international federation that governs it internationally."
     ]
    },
    {
+    "b": "At local level an NGB works through clubs, schools and leagues to get people started in the sport and keep them playing.",
     "h": "NGB support at local level",
     "points": [
-     "Affiliates clubs and gives them governance, insurance, safeguarding policies and codes of conduct.",
-     "Educates coaches, officials and first-aiders.",
-     "Development officers visit schools to run introductory sessions and link pupils to local clubs.",
-     "Local leagues and blitzes give beginners regular, low-pressure games.",
+     "Affiliates clubs (admits them as members) and gives them governance, insurance, safeguarding policies (rules that protect children and vulnerable people) and codes of conduct.",
+     "Educates coaches, officials and first-aiders, so sessions are well run and safe.",
+     "Development officers visit schools to run introductory sessions and link pupils to local clubs, so a first taste of the sport leads to regular membership.",
+     "Local leagues and blitzes (short tournaments in which many teams play one day) give beginners regular, low-pressure games.",
      "Grants for facilities and equipment reduce the cost and access barriers to joining a club.",
      "Extra funding can pay for more development officers and participation programmes.",
      "Extra funding can also improve facilities, deliver coach education and run campaigns."
-    ]
+    ],
+    "tip": "Questions ask you to name an NGB and examine how it supports local participation, to suggest three ways it can promote activity locally, or to describe what it could do with extra funding. Pick distinct points such as school visits, local leagues and grants, and say how each gets people involved."
    },
    {
+    "b": "Beyond local clubs, an NGB runs the national structure of its sport and represents Ireland internationally.",
     "h": "NGB support at national and international level",
     "points": [
-     "National competitions and leagues, run under the sport's rules.",
-     "Disciplinary systems for breaches of the rules.",
-     "National coaching structures that develop coaches at each level.",
-     "Talent pathways and development squads for young players.",
-     "Safeguarding standards that apply to every club and member.",
-     "Membership of an international federation, which sets international rules for the sport.",
-     "Selecting and preparing national teams for international competition.",
-     "Hosting international events.",
-     "Implementing international rules and anti-doping."
-    ]
+     "It runs national competitions and leagues under the sport's rules.",
+     "It operates disciplinary systems for breaches of the rules, so the rules are enforced fairly.",
+     "It builds national coaching structures that develop coaches at each level.",
+     "It provides talent pathways and development squads for young players, so promising players are noticed and developed.",
+     "It sets safeguarding standards that apply to every club and member.",
+     "It holds membership of an international federation, which sets international rules for the sport.",
+     "It selects and prepares national teams for international competition.",
+     "It hosts international events, and implements international rules and anti-doping."
+    ],
+    "tip": "Keep the international role to membership of the federation, teams, events, rules and anti-doping."
    },
    {
+    "b": "You need to be able to name the governing body for common activities. These are the NGBs for the main team sports.",
     "h": "Named NGBs: Gaelic games and team sports",
     "points": [
      "GAA: Gaelic football and hurling.",
@@ -9420,9 +10358,11 @@
      "Irish Rugby Football Union (IRFU): rugby union.",
      "Basketball Ireland: basketball.",
      "Hockey Ireland: hockey."
-    ]
+    ],
+    "tip": "If asked to name two other NGBs and their sports, always pair the body with its sport, for example the FAI with association football."
    },
    {
+    "b": "These are the NGBs for individual and other sports. Note that one body can govern several related activities.",
     "h": "Named NGBs: other sports",
     "points": [
      "Athletics Ireland: athletics.",
@@ -9437,33 +10377,36 @@
     "b": "A tip sheet names one target group, gives promotion tips to attract them and adherence tips to keep them taking part, and justifies each tip for that group.",
     "h": "Tip sheet: target group and promotion tips",
     "points": [
-     "Target group: choose one specific group, such as teenage girls, older adults, office workers or beginners returning after a long absence.",
+     "Target group: choose one specific group, such as teenage girls, older adults, office workers or beginners returning after a long absence, so every tip can be matched to their needs.",
      "Promotion: start small with short, easy sessions, because a modest first step feels manageable and is more likely to be repeated.",
      "Promotion: choose enjoyable activities, since people keep doing what they enjoy.",
      "Promotion: exercise with friends or in a group, because shared activity adds social motivation.",
      "Promotion: schedule activity like an appointment, so it is planned rather than left to chance.",
      "Promotion: set a clear first goal, such as attending one session each week, so early success is visible from the start.",
      "Promotion: use free local options such as parkrun, walking routes and greenways, which remove cost as a barrier."
-    ]
+    ],
+    "tip": "Every tip must be justified for your chosen group: say why it helps that group start."
    },
    {
+    "b": "Adherence means sticking with activity over weeks and months, not just starting. These tips help a target group keep going once the first enthusiasm fades.",
     "h": "Tip sheet: adherence tips",
     "points": [
-     "Adherence: set SMART goals (specific, measurable, achievable, realistic and time-bound), so progress can be judged and goals stay realistic.",
-     "Adherence: track progress with an app or diary, so improvement is visible and motivation holds.",
-     "Adherence: vary activities, which prevents boredom and reduces overuse injuries.",
-     "Adherence: reward milestones, so each achievement gives a reason to continue.",
-     "Adherence: plan for barriers such as bad weather or lack of time, with an indoor option or a shorter session, so one bad week does not end the habit.",
-     "Adherence: build up gradually to avoid injury and soreness, which can make people stop.",
-     "Adherence: join a club or class for social support, which gives people a commitment to others."
-    ]
+     "Set SMART goals (specific, measurable, achievable, realistic and time-bound), so progress can be judged and goals stay realistic.",
+     "Track progress with an app or diary, so improvement is visible and motivation holds.",
+     "Vary activities, which prevents boredom and reduces overuse injuries.",
+     "Reward milestones, so each achievement gives a reason to continue.",
+     "Plan for barriers such as bad weather or lack of time, with an indoor option or a shorter session, so one bad week does not end the habit.",
+     "Build up gradually to avoid injury and soreness, which can make people stop.",
+     "Join a club or class for social support, which gives people a commitment to others."
+    ],
+    "tip": "A common question asks for two adherence tips for someone returning after a long absence, each justified. Building up gradually and planning for barriers suit this group well, and you must say why each helps them keep going."
    },
    {
-    "b": "Significant people include parents and family, PE teachers, coaches, peers, local club volunteers, sports stars and role models.",
+    "b": "Significant people are those whose influence shapes whether someone takes part. They include parents and family, PE teachers, coaches, peers, local club volunteers, sports stars and role models. The characteristics below make them effective.",
     "h": "Significant people who promote participation",
     "points": [
      "Enthusiastic and passionate about activity, which spreads to the people they work with.",
-     "Lead by example by being active themselves.",
+     "Lead by example by being active themselves, so their actions match their words.",
      "Positive and encouraging, which builds confidence in people who doubt their ability.",
      "Approachable and supportive, so people feel comfortable asking for help.",
      "Knowledgeable about the activity and about how to teach or coach it safely.",
@@ -9471,13 +10414,15 @@
      "Reliable and committed, so people can count on them to turn up.",
      "Good communicators who explain clearly and give useful feedback.",
      "Visible and relatable to the target group, so people see someone like themselves taking part."
-    ]
+    ],
+    "tip": "When asked for two characteristics, name each one and explain its effect on the person being supported, for example that encouragement builds confidence. For a case study, pick characteristics the person in it clearly shows."
    },
    {
+    "b": "A role model is someone admired whom others copy. Their influence reaches beyond the people who know them personally.",
     "h": "How role models increase participation",
     "points": [
      "Role models inspire people to try an activity they might not otherwise consider.",
-     "Role models show that taking part is possible for 'people like me'.",
+     "Role models show that taking part is possible for 'people like me', so people can believe they could do it too.",
      "Role models raise the profile of a sport and bring it to the attention of new players and families."
     ]
    }
@@ -9572,76 +10517,85 @@
   ],
   "notes": [
    {
-    "b": "A pathway to excellence is the route and supports that take a participant from first involvement to high-level performance.",
+    "b": "Nobody becomes a high-level performer overnight. A pathway to excellence is the route, and the supports along it, that take a participant from first involvement in a sport to high-level performance.",
     "h": "What a pathway to excellence is",
     "points": [
-     "A typical route runs from school or club to county or regional development squads, then to provincial and national underage squads, and on to senior international level.",
-     "Athletes move up the pathway as their skill and commitment develop, and each stage needs suitable coaching, competition and facilities."
-    ]
+     "A typical route runs from school or club to county or regional development squads (teams that select and train promising players), then to provincial and national underage squads, and on to senior international level.",
+     "Athletes move up the pathway as their skill and commitment develop, and each stage needs suitable coaching, competition and facilities, so a gap at any stage can hold a talented athlete back."
+    ],
+    "tip": "When asked to describe a pathway, give the stages in order from school or club up to senior international level, and mention the supports (coaching, competition, facilities) that each stage needs."
    },
    {
-    "b": "Long-term athlete development is a model associated with Istvan Balyi. It matches training and competition to the age and stage of the athlete.",
+    "b": "Long-term athlete development is a model associated with Istvan Balyi. It matches training and competition to the age and stage of the athlete, because what suits a seven-year-old is wrong for an elite adult.",
     "h": "Long-term athlete development (LTAD)",
     "points": [
-     "FUNdamentals: children build fundamental movement skills such as running, jumping, throwing and catching through play, with enjoyment at the centre.",
-     "Learn to Train: children learn the basic skills of sport in a structured way, still across a range of activities.",
-     "Train to Train: the training load increases, building the fitness and skill base for later competition.",
+     "FUNdamentals: children build fundamental movement skills such as running, jumping, throwing and catching through play, with enjoyment at the centre, so they want to keep taking part.",
+     "Learn to Train: children learn the basic skills of sport in a structured way, still across a range of activities rather than one sport.",
+     "Train to Train: the training load (how much and how hard an athlete trains) increases, building the fitness and skill base for later competition.",
      "Train to Compete: training is targeted at the demands of competition in the chosen sport and position.",
-     "Train to Win: performance at the highest level, with specialised, individual training aimed at peaking for major events.",
+     "Train to Win: performance at the highest level, with specialised, individual training aimed at peaking (being at their very best) for major events.",
      "Active for Life: everyone, at any level, is encouraged to stay active throughout life, as a participant, coach, official or volunteer.",
-     "Early specialisation, focusing on one sport at too young an age, can cause drop-out and injury."
-    ]
+     "Early specialisation, focusing on one sport at too young an age, can cause drop-out and injury, which is why the early stages stay broad and playful."
+    ],
+    "tip": "Learn the six stage names in order: FUNdamentals, Learn to Train, Train to Train, Train to Compete, Train to Win, Active for Life. Remember that Active for Life is for everyone, not only elite athletes."
    },
    {
+    "b": "These are ways school-based and community-based (club) activity can be linked more closely.",
     "h": "Strengthening pathways between school and community sport",
     "points": [
-     "Club coaches run sessions in schools, and teachers coach in clubs.",
-     "Taster sessions and bring-a-friend days move pupils from school PE into local clubs.",
-     "Shared facilities and coordinated fixtures stop school and club demands from clashing.",
-     "Information on local clubs is given to pupils, and clubs hold open days.",
-     "Transition Year sports-leadership and coaching courses train young pupils to lead and coach.",
-     "Local Sports Partnerships link schools and clubs, and school-based clubs are affiliated to national governing bodies.",
-     "School and club coaches communicate about workload, to avoid overtraining talented young players."
-    ]
+     "Club coaches run sessions in schools, and teachers coach in clubs, so pupils meet club coaches in a familiar setting and each side learns from the other.",
+     "Taster sessions and bring-a-friend days move pupils from school PE into local clubs, because trying a club with a friend is less daunting than joining alone.",
+     "Shared facilities and coordinated fixtures (matches scheduled to avoid clashes) stop school and club demands from clashing.",
+     "Information on local clubs is given to pupils, and clubs hold open days, so pupils know what is available and how to join.",
+     "Transition Year sports-leadership and coaching courses train young pupils to lead and coach, giving them skills and a route into club involvement.",
+     "Local Sports Partnerships link schools and clubs, and school-based clubs are affiliated to national governing bodies (NGBs, the organisations that run each sport nationally).",
+     "School and club coaches communicate about workload, to avoid overtraining talented young players who may be training and playing for both."
+    ],
+    "tip": "If asked for two ways to strengthen the pathway, choose two distinct ideas, such as club coaches in schools and taster sessions, and say how each links school and club activity."
    },
    {
+    "b": "Once a player shows talent, a series of structures gives them better coaching and tougher competition at each step of the pathway.",
     "h": "Structures for excellence",
     "points": [
      "Clubs are the first structure, providing regular coaching and competition.",
      "County or regional development squads select and develop talented players.",
      "Provincial and national underage squads give young athletes higher-level competition.",
      "Academies, such as the rugby provincial academies, give selected players structured, intensive development.",
-     "College sports scholarships support athletes who combine study with training."
+     "College sports scholarships support athletes who combine study with training, so they do not have to choose between education and sport."
     ]
    },
    {
+    "b": "High performance is expensive, because it needs coaches, facilities, travel and support staff. Money reaches athletes through several routes.",
     "h": "Funding for excellence",
     "points": [
-     "Sport Ireland funds national governing bodies for high performance.",
+     "Sport Ireland funds national governing bodies for high performance, so each NGB can pay for coaching and squad programmes.",
      "Direct funding goes to high-performing athletes through Sport Ireland's International Carding Scheme.",
      "University sports scholarships support students who compete at a high level.",
      "Sponsorship from companies adds income for athletes and teams."
-    ]
+    ],
+    "tip": "For how an NGB might use funding to support high performance, link the money to something specific such as coaching, facilities or camps. Do not quote funding amounts or carding levels."
    },
    {
+    "b": "Talent needs expert support and the right places to train. Elite athletes rely on specialist people as well as good facilities.",
     "h": "Coaching, sports science and facilities",
     "points": [
-     "Qualified high-performance coaches work with squads and individual athletes.",
-     "Strength and conditioning, physiotherapy, performance analysis, nutrition and psychology support athletes.",
+     "Qualified high-performance coaches work with squads and individual athletes, planning training to a high standard.",
+     "Strength and conditioning, physiotherapy, performance analysis, nutrition and psychology support athletes, covering their fitness, injuries, technique, diet and mental preparation.",
      "Many of these services are delivered through the Sport Ireland Institute, which provides high-performance support services to athletes and national governing bodies.",
-     "The Sport Ireland Campus at Abbotstown, Dublin, is a national centre for high performance.",
-     "County grounds and indoor arenas provide local training space."
+     "The Sport Ireland Campus at Abbotstown, Dublin, is a national centre for high performance, bringing facilities and expertise together in one place.",
+     "County grounds and indoor arenas provide local training space, so athletes can train close to home."
     ]
    },
    {
+    "b": "Athletes improve by being tested, so the pathway has to supply regular competition at the right level.",
     "h": "Competition",
     "points": [
-     "Regular high-level competition at underage and senior level tests athletes against strong opponents.",
-     "International fixtures and training camps prepare athletes for competition abroad."
+     "Regular high-level competition at underage and senior level tests athletes against strong opponents, which pushes their skills and fitness on.",
+     "International fixtures and training camps prepare athletes for competition abroad, where conditions and opposition are unfamiliar."
     ]
    },
    {
-    "b": "Gaelic football is governed by the GAA, and its players are amateurs who train around work or study.",
+    "b": "Gaelic football is governed by the GAA, and its players are amateurs who train around work or study, not paid professionals. Analysing it means judging strengths and weaknesses of the supports and suggesting improvements.",
     "h": "Worked analysis: a Gaelic game (Gaelic football)",
     "points": [
      "Pathway: the club system gives young players a local route from school into club teams and then into county squads.",
@@ -9651,21 +10605,23 @@
      "Weakness: most support relies on volunteers, which limits the time and expertise available for high performance.",
      "Weakness: amateur players train around work or study, which limits the training time they can give to high performance.",
      "Improvement: more funded development officers and coach education would strengthen the link between club coaches and high-performance squads."
-    ]
+    ],
+    "tip": "Describe Gaelic players as amateurs, never as paid professionals. A good analysis names the activity, gives strengths and weaknesses of the provision, and ends with a suggested improvement."
    },
    {
-    "b": "Swimming is an Olympic sport, governed in Ireland by Swim Ireland.",
+    "b": "Swimming is an Olympic sport, governed in Ireland by Swim Ireland. It shows how a sport with national facilities and carded athletes is supported.",
     "h": "Worked analysis: an Olympic sport (swimming)",
     "points": [
      "Pathway: swimming clubs and school-based clubs feed talented swimmers into development squads and then national squads.",
      "Funding: Sport Ireland funds Swim Ireland for high performance, and high-performing swimmers can receive direct funding through the International Carding Scheme.",
-     "Facilities: the National Aquatic Centre gives elite swimmers a national high-performance base.",
+     "Facilities: the National Aquatic Centre, on the Sport Ireland Campus at Abbotstown, Dublin, gives elite swimmers a national high-performance base.",
      "Competition: international fixtures and training camps give swimmers experience against strong opponents abroad.",
      "Strength: concentrating a national centre and its expertise in one place gives elite swimmers a focused environment.",
      "Weakness: reliance on a small number of national facilities concentrates access in one place.",
      "Weakness: direct funding goes to carded athletes, so swimmers outside the scheme receive less direct support.",
      "Improvement: spreading access to high-performance facilities beyond one national centre, and extending support to swimmers outside the carding scheme."
-    ]
+    ],
+    "tip": "For how an NGB supports high performance in swimming, use funding from Sport Ireland, the pathway of squads, and the national facility. Keep to the facts and do not invent amounts."
    }
   ],
   "questions": [
@@ -9764,129 +10720,150 @@
   ],
   "notes": [
    {
+    "b": "Teams and performers succeed because they organise themselves and plan ahead, not just because they are fit or skilful. Three linked words describe this: structure, strategy and tactics, and each means something different.",
     "h": "Structure, strategy and tactics",
     "points": [
-     "Structure: the organised arrangement of players or performers, such as a team formation, positional roles, a set-piece arrangement or a relay order.",
-     "Strategy: an overall plan, made before the performance, that uses the team's or performer's strengths and the opponent's weaknesses to achieve a goal.",
-     "Tactics: the specific actions used during the performance to carry out the strategy.",
-     "One strategy can be carried out through several tactics; when a tactic fails, the tactic changes while the strategy usually stays the same."
-    ]
+     "Structure is the organised arrangement of players or performers, such as a team formation, positional roles (who plays where), a set-piece arrangement or a relay order. It gives everyone a clear place and job.",
+     "Strategy is an overall plan, made before the performance, to achieve a goal. It uses the team's or performer's strengths and the opponent's weaknesses, so the plan is built around what you do well and what the opponent does badly.",
+     "Tactics are the specific actions used during the performance to carry out the strategy. In short, strategy is the plan and tactics are the moves that deliver it.",
+     "One strategy can be carried out through several tactics. When a tactic fails, the tactic changes while the strategy usually stays the same, because the goal of the plan has not changed, only the way of reaching it."
+    ],
+    "tip": "Do not use strategy and tactics as if they were the same word. Say once that strategy is the overall plan and tactics are the in-game actions, then use each correctly."
    },
    {
+    "b": "A formation decides where a team's players stand, and a marking system decides how defenders look after attackers. Together they set the basic shape of a team in attack and in defence.",
     "h": "Team formations and marking systems",
     "points": [
-     "Team formation: a fixed arrangement of players by line, which sets how many defend, midfield and attack.",
-     "4-4-2 in soccer: four defenders, four midfielders and two forwards.",
-     "4-3-3 in soccer: four defenders, three midfielders and three forwards, with wide attackers stretching the defence.",
-     "Zonal marking: each defender guards an area of the pitch or court and marks any opponent who enters it.",
-     "Man-to-man marking: each defender is assigned one opponent to mark wherever that opponent moves.",
-     "Basketball 2-3 zone: two players stationed higher and three lower, covering areas of the court rather than individual players."
-    ]
+     "A team formation is a fixed arrangement of players by line, which sets how many defend, how many play in midfield and how many attack. Formations are written as numbers from defence to attack.",
+     "4-4-2 in soccer means four defenders, four midfielders and two forwards, a balanced shape with solid cover in every area of the pitch.",
+     "4-3-3 in soccer means four defenders, three midfielders and three forwards, with wide attackers stretching the defence so that defenders must cover more ground.",
+     "Zonal marking means each defender guards an area of the pitch or court and marks any opponent who enters it. Defenders hold their areas rather than following attackers.",
+     "Man-to-man marking means each defender is assigned one opponent to mark wherever that opponent moves, so the defender follows that player around the pitch or court.",
+     "The basketball 2-3 zone has two players stationed higher and three lower, covering areas of the court rather than individual players."
+    ],
+    "tip": "When asked for a structure or strategy with an example, state the formation or marking system, then say what it does for the team (for example, wide attackers stretch the defence)."
    },
    {
-    "b": "A set play is a planned, rehearsed arrangement used at a stoppage or restart, so each player knows their position before play resumes.",
+    "b": "A set play is a planned, rehearsed arrangement used at a stoppage or restart, so each player knows their position before play resumes. It is a structure because the players are arranged in advance.",
     "h": "Set plays and restarts",
     "points": [
      "Kick-outs in Gaelic football: the goalkeeper restarts play from the goal area while team-mates position themselves to win or receive the ball.",
      "Line-outs in rugby: forwards form two lines and the ball is thrown in straight between them, with a lifted jumper contesting for it.",
-     "Short corners in hockey: a planned routine from a set position, in which a short pass is played to a team-mate who shoots or passes into the danger area.",
-     "A rehearsed restart can create a scoring chance before the opposing defence has organised itself."
-    ]
+     "Short corners in hockey: a planned routine from a set position, in which a short pass is played to a team-mate who shoots or passes into the danger area (the area in front of goal where a score is most likely).",
+     "A rehearsed restart can create a scoring chance before the opposing defence has organised itself, which is why teams practise these routines in training."
+    ],
+    "tip": "Name the sport and the restart in your answer (kick-out, line-out or short corner) and say how players are arranged before play restarts."
    },
    {
+    "b": "Structure is not only for big teams. Relay teams and badminton doubles pairs also arrange their performers in advance so that each person's strengths are used.",
     "h": "Structures in individual and paired activities",
     "points": [
-     "Relay running order: the coach fixes the order of runners in advance, matching each runner's strengths, such as a fast starter or a runner who changes the baton well at speed, to the legs of the race.",
-     "Lanes and order: the runner in each lane and leg is set before the race, so every changeover is planned.",
-     "Badminton doubles, side-by-side formation in defence: each player covers one half of the court.",
-     "Badminton doubles, front-and-back formation in attack: one player stays near the net while the partner stays back to hit smashes."
-    ]
+     "Relay running order: the coach fixes the order of runners in advance, matching each runner's strengths, such as a fast starter or a runner who changes the baton well at speed, to the legs (sections) of the race.",
+     "Lanes and order: the runner in each lane and leg is set before the race, so every changeover (the handing over of the baton) is planned.",
+     "Badminton doubles, side-by-side formation in defence: each player covers one half of the court, so the whole court is guarded.",
+     "Badminton doubles, front-and-back formation in attack: one player stays near the net while the partner stays back to hit smashes (hard downward shots), so the pair attacks from both areas."
+    ],
+    "tip": "For a mixed relay running order, explain why you put each runner on a leg using their strengths, and say why the order might change, for example because of injury or a change in the opposition."
    },
    {
+    "b": "Attacking strategies are plans to create scoring chances. Each one works by using the attackers' strengths or by exploiting a weakness in the defence, usually by creating space.",
     "h": "Attacking strategies",
     "points": [
-     "Width and depth: wide players stretch the defence sideways while runners move into the space in front of or behind it, so defenders cover more ground.",
-     "Overlap run: a team-mate runs outside the player with the ball, creating an extra attacker on that flank.",
-     "Fast break in basketball: after a defensive rebound or turnover, the team pushes the ball up the court before the defence is set, using speed and quick passes.",
-     "Pick and roll in basketball: the ball-handler dribbles towards a team-mate who sets a screen, then the screener rolls to the basket, forcing a defender to choose between two players.",
+     "Width and depth: wide players stretch the defence sideways while runners move into the space in front of or behind it, so defenders cover more ground and gaps open.",
+     "Overlap run: a team-mate runs outside the player with the ball, creating an extra attacker on that flank (side of the pitch).",
+     "Fast break in basketball: after a defensive rebound or turnover (winning the ball), the team pushes the ball up the court before the defence is set, using speed and quick passes.",
+     "Pick and roll in basketball: the ball-handler dribbles towards a team-mate who sets a screen (a legal block of a defender), then the screener rolls to the basket, forcing a defender to choose between two players.",
      "Playing to the space behind a high defensive line: passes and runs are timed into the gap behind defenders who have pushed up, exploiting slow pace or poor recovery."
-    ]
+    ],
+    "tip": "When describing a strategy, always add how it uses a strength or exploits a weakness, for example the fast break works because the defence is not yet set."
    },
    {
+    "b": "Defensive strategies are plans to win the ball back or stop the opponents scoring. Like attacking ones, each is chosen because it suits your players or targets a weakness in the opponents.",
     "h": "Defensive strategies",
     "points": [
      "Pressing: the team applies pressure close to the opponents' goal to win the ball high up the pitch or court, exploiting a team that struggles under pressure.",
-     "Pressing risk: the space left behind the pressing players must be covered, or the press is easily bypassed.",
+     "Pressing risk: the space left behind the pressing players must be covered, or the press is easily bypassed with one pass.",
      "Deep, compact block: players defend in a tight shape close to their own goal, denying central space and forcing the opponents to play wide.",
-     "Double-teaming: two defenders close down one key player, forcing the ball away from the playmaker and exploiting a team that depends on one player."
-    ]
+     "Double-teaming: two defenders close down one key player, forcing the ball away from the playmaker and exploiting a team that depends on one player.",
+     "Zonal and man-to-man marking are also defensive strategies. Zonal marking guards areas and man-to-man marking guards players."
+    ],
+    "tip": "For pressing, state the risk too (space left behind the press). For double-teaming, say why it works: it exploits a team that relies on one player."
    },
    {
+    "b": "In net and wall games such as tennis, badminton and squash, players cannot tackle each other, so strategy is about where and how the ball is hit. The aim is to make the opponent's return weak or leave a gap.",
     "h": "Net and wall strategies",
     "points": [
      "Serve-and-volley: after serving, the server moves to the net and volleys the return before it bounces, shortening the rally and exploiting a returner who struggles against a player at the net.",
      "Targeting the backhand: the ball is hit to an opponent's weaker side, so the return is harder to control.",
-     "Moving the opponent around the court: shots alternate between corners, the baseline and the net, so the opponent covers distance and leaves a gap."
-    ]
+     "Moving the opponent around the court: shots alternate between corners, the baseline (the back line of the court) and the net, so the opponent covers distance and leaves a gap."
+    ],
+    "tip": "Link each strategy to the weakness it exploits: serve-and-volley beats a weak returner, targeting the backhand beats a weak backhand, and moving the opponent tires them and opens gaps."
    },
    {
+    "b": "In running and other individual events, the athlete's strategy is how to spend limited energy over the whole race. Starting too fast or too slow can cost the result.",
     "h": "Individual strategies",
     "points": [
      "Pacing: the athlete distributes effort over the race so that energy lasts to the finish.",
-     "Even pace: a steady speed throughout saves energy for a fast finish and avoids early fatigue.",
-     "Fast start: an early burst gains position but risks fatigue later in the race.",
-     "Race tactics: sitting in behind a leading group to save energy, then kicking for the line in the final stage of the race."
-    ]
+     "Even pace: a steady speed throughout saves energy for a fast finish and avoids early fatigue (tiredness).",
+     "Fast start: an early burst gains position but risks fatigue later in the race, because energy is used up early.",
+     "Race tactics: sitting in behind a leading group to save energy, then kicking (sprinting) for the line in the final stage of the race."
+    ],
+    "tip": "When comparing pacing strategies, give the benefit and the risk of each: even pace saves energy, a fast start gains position but risks late fatigue."
    },
    {
-    "b": "Compositional elements are the design elements used to build a routine: action, space, dynamics, relationships and choreographic form.",
+    "b": "Compositional elements are the design elements used to build a routine: action, space, dynamics, relationships and choreographic form. They are for dance and gymnastics, while games use structures and strategies.",
     "h": "Compositional elements in dance and gymnastics",
     "points": [
      "Action: what moves are performed, such as travelling steps, balances, turns, jumps, gestures or gymnastic skills.",
-     "Space: levels (high, medium and low), pathways (straight, curved or zigzag), direction (forward, sideways or backward) and formations such as a line, circle or diagonal.",
+     "Space: levels (high, medium and low), pathways (straight, curved or zigzag lines travelled), direction (forward, sideways or backward) and formations such as a line, circle or diagonal.",
      "Dynamics: how the movement is performed, through speed, force (strong or light) and flow (smooth or sudden).",
-     "Relationships with other performers: mirroring, following, or meeting and parting.",
+     "Relationships with other performers: mirroring (copying as if in a mirror), following, or meeting and parting.",
      "Relationships with props: a prop such as a hoop or ribbon changes the shape of the movement.",
      "Relationships with music: movement is timed on the beat or set against it."
-    ]
+    ],
+    "tip": "Remember the split: action is what moves, space is where, and dynamics is how. Use this to organise an answer that applies the elements to a sequence."
    },
    {
+    "b": "Choreographic form is the overall structure of a piece, and approaches such as contrast, climax and transitions shape how it feels. Choreographers choose these so that a routine holds the audience's interest and flows from start to finish.",
     "h": "Choreographic form and approaches",
     "points": [
      "Choreographic form is the overall structure of the piece; the main forms are motif and development, canon, unison, binary and rondo.",
-     "Motif and development: a short movement idea is repeated and altered by changing its speed, level, direction or dynamics.",
+     "Motif and development: a motif (a short movement idea) is repeated and altered by changing its speed, level, direction or dynamics.",
      "Canon: the same movement phrase is performed by each dancer in turn, starting at different times.",
      "Unison: all performers perform the same movement at the same time.",
      "Binary form: two contrasting sections, A then B.",
      "Rondo: a recurring theme alternates with contrasting sections, in the pattern A B A C A.",
-     "Contrast: a slow, sustained section followed by a fast, sudden one, so each section stands out.",
-     "Climax: energy and complexity build to a peak, usually late in the routine.",
-     "Transitions: movements that link sections so the change of pattern looks smooth.",
-     "Applying the elements to a group sequence: the action is a travelling phrase, the space uses a diagonal formation, the dynamics change from sustained to sudden, and performers mirror each other on the beat."
-    ]
+     "Contrast: a slow, sustained section followed by a fast, sudden one, so each section stands out. Climax: energy and complexity build to a peak, usually late in the routine.",
+     "Transitions: movements that link sections so the change of pattern looks smooth. Applying the elements to a group sequence: the action is a travelling phrase, the space uses a diagonal formation, the dynamics change from sustained to sudden, and performers mirror each other on the beat."
+    ],
+    "tip": "Give the pattern with the form: binary is A B and rondo is A B A C A. Describe how the routine is built."
    },
    {
+    "b": "Planning a structure or strategy is only half the job. You then check whether it worked, using methods of analysis, and judge it against clear criteria.",
     "h": "Evaluating how structures and strategies are used",
     "points": [
      "Video review: the coach replays the performance to check whether players held their positions and carried out the tactics.",
-     "Notational analysis: tallying passes, turnovers and scores from each strategy shows which one worked.",
+     "Notational analysis: tallying passes, turnovers and scores from each strategy shows which one worked, because the numbers can be compared.",
      "Checklists: each element of the strategy is checked against key principles, such as whether the team kept its shape in defence.",
      "Observation by a coach or peer: a second observer notices what the player cannot see during play.",
      "Criteria: whether the structure or strategy achieved its aim, whether each role was carried out, and how the opponents responded.",
-     "The analysis methods are described in the notes on Methods of analysis; here they are applied to a specific structure or strategy."
-    ]
+     "Here these analysis methods are applied to a specific structure or strategy."
+    ],
+    "tip": "When asked to evaluate, name a method (for example, notational analysis) and then judge the strategy against all three criteria: aim achieved, roles carried out, and the opponents' response."
    },
    {
+    "b": "A plan that suits the start of a performance may not suit the end. Good performers change their structure or strategy when the situation changes, and they can say what they changed and why it works.",
     "h": "Modifying structures and strategies",
     "points": [
-     "Reasons to modify: the score and time remaining, changes by the opponent, weather or pitch and court conditions, injury or dismissal, fatigue, or a strategy that is not working.",
+     "Reasons to modify: the score and time remaining, changes by the opponent, weather or pitch and court conditions, injury or dismissal (a player sent off), fatigue, or a strategy that is not working.",
      "Change formation: an extra defender is added to the back line when protecting a lead, making the defence more compact.",
-     "Switch the marking system, for example from zonal to man-to-man marking when one attacker is dominating the game.",
-     "Change the point of attack: play switches from a blocked centre to a wing where the defence is thinner.",
+     "Switch the marking system, for example from zonal to man-to-man marking when one attacker is dominating the game, so that attacker is followed everywhere.",
+     "Change the point of attack: play switches from a blocked centre to a wing where the defence is thinner, so attackers meet less resistance.",
      "Pick and roll becomes pick and pop: when the defender stops the roll to the basket, the screener steps out to a shooting position instead, pulling that defender out to guard the shot.",
-     "Smaller space: a routine is adapted by using levels and shorter pathways in place of wide travel.",
+     "Smaller space: a routine is adapted by using levels and shorter pathways in place of wide travel, so it still fits the area available.",
      "Different music: phrases are shortened or lengthened so that each motif fits the new tempo and beat count."
-    ]
+    ],
+    "tip": "If asked how to adapt a plan that is not working, name the change and say why it works, as in pick and roll becoming pick and pop because the defender has stopped the roll."
    }
   ],
   "questions": [
@@ -9979,101 +10956,116 @@
   ],
   "notes": [
    {
+    "b": "Every performer in a team or group activity has a job to do. To analyse that job, split what it asks of the performer into three separate headings: physical, personal and technical.",
     "h": "Role and the three headings of demand",
     "points": [
      "Role: a performer's specific position, function and responsibilities within an activity or team, such as goalkeeper, centre-back, point guard, setter in volleyball or lead dancer.",
-     "Physical demands: the fitness components a role relies on, such as endurance, power, agility, speed or reaction time.",
-     "Personal demands: the psychological and interpersonal qualities a role needs, such as concentration, decision-making, communication, composure, resilience and responsibility.",
-     "Technical demands: the skills and tactical knowledge a role needs to perform."
-    ]
+     "Physical demands: the fitness components a role relies on, such as endurance, power, agility, speed or reaction time. A midfielder, for example, needs cardio-respiratory endurance (heart and lungs supplying oxygen for long periods).",
+     "Personal demands: the psychological and interpersonal qualities (mental and people skills) a role needs, such as concentration, decision-making, communication, leadership, composure (staying calm), resilience (recovering from setbacks) and responsibility.",
+     "Technical demands: the skills and tactical knowledge a role needs to perform, such as a goalkeeper's handling and distribution, a point guard's ball-handling and passing, or a setter's volleying accuracy."
+    ],
+    "tip": "Keep the three headings separate. Fitness belongs under physical, never under personal, and examiners expect each demand placed under the right heading."
    },
    {
+    "b": "The goalkeeper's role mixes explosive movement with concentration through long periods with little action.",
     "h": "Worked analysis: soccer goalkeeper",
     "points": [
-     "Physical: power to dive and jump, agility to change direction quickly, and reaction time to a shot struck at close range.",
+     "Physical: power to dive and jump, agility to change direction quickly, and reaction time to a shot struck at close range, because there is almost no time to see the ball and respond.",
      "Personal: concentration through long periods with little action, then sharp focus when a shot comes.",
-     "Personal: composure after conceding a goal, and leadership in directing the defensive line on positioning.",
+     "Personal: composure after conceding a goal, so one mistake does not lead to more, and leadership in directing the defensive line on positioning.",
      "Technical: handling, meaning catching and holding the ball safely, and distribution, meaning throwing or kicking to team-mates to start attacks.",
      "Technical: positioning, which reduces the angle and space the attacker can use to score."
-    ]
+    ],
+    "tip": "If asked for demands on a role, name the role's specific need (for example reaction time to a close-range shot) rather than a general word like 'fitness'."
    },
    {
+    "b": "The midfielder is involved in both attack and defence and needs endurance to cover ground across a whole game, so this role contrasts strongly with the goalkeeper.",
     "h": "Worked analysis: Gaelic football midfielder",
     "points": [
-     "Physical: high cardio-respiratory endurance to cover ground and repeat runs across a whole game.",
+     "Physical: high cardio-respiratory endurance to cover ground and repeat runs across a whole game, because the midfielder is involved in both attack and defence.",
      "Physical: acceleration to win loose balls and reach space before an opponent.",
      "Personal: decision-making about when to hold the ball, when to hand-pass and when to run into space.",
-     "Personal: resilience to keep working after a missed chance or a turnover.",
+     "Personal: resilience to keep working after a missed chance or a turnover (losing possession).",
      "Technical: hand-passing and kicking accuracy under pressure from an opponent.",
      "Technical: catching a high ball while an opponent is closing in."
     ]
    },
    {
+    "b": "The point guard is the player who runs the team's attack, so quick thinking and control of the ball are key demands alongside speed.",
     "h": "Worked analysis: basketball point guard",
     "points": [
      "Physical: speed and agility to get past defenders and to stay with fast opponents on defence.",
-     "Personal: decision-making in a fraction of a second about whether to pass, shoot or drive.",
+     "Personal: decision-making in a fraction of a second about whether to pass, shoot or drive (run towards the basket).",
      "Personal: leadership, because the point guard directs the team's offence and organises team-mates on the court.",
      "Technical: ball-handling, meaning dribbling and protecting the ball under pressure.",
      "Technical: passing to set up team-mates for scoring chances."
-    ]
+    ],
+    "tip": "Questions ask for analysis of a named performer in a named activity. Give physical, personal and technical demands in turn, each with a reason tied to what the role does."
    },
    {
+    "b": "Some questions tell you not to refer to fitness. Then you use only personal and technical demands, and a lead dancer shows how much a role can ask beyond fitness.",
     "h": "Demands other than fitness: lead dancer",
     "points": [
      "Personal: concentration to hold the sequence and its timing for the whole routine.",
-     "Personal: confidence to perform in front of an audience.",
-     "Personal: responsibility to keep the group in time.",
-     "Technical: accurate execution of the choreographed movement, with clean body alignment and line.",
+     "Personal: confidence to perform in front of an audience, so nerves do not spoil the performance.",
+     "Personal: responsibility to keep the group in time, because the other dancers follow the lead.",
+     "Technical: accurate execution of the choreographed movement (the planned steps), with clean body alignment and line.",
      "Technical: learning the sequence quickly and performing it to the timing of the music."
-    ]
+    ],
+    "tip": "When a question says you may not refer to fitness, identify a role and describe two demands, both personal or technical. Do not slip in endurance, power or other fitness components."
    },
    {
+    "b": "A group performs better when its members feel they belong and work well together. Affiliation and team building are the ways a team creates that.",
     "h": "Affiliation and team building",
     "points": [
      "Affiliation: belonging to a team, club or group and identifying with it.",
-     "Formal affiliation to a club or governing body also gives access to competitions, insurance and coaching.",
-     "Team building develops trust, communication and cohesion through shared goals, team activities and clear roles.",
-     "Task cohesion: team members working together towards a shared goal.",
-     "Social cohesion: team members getting on well with one another."
+     "Formal affiliation to a club or governing body (the organisation that runs a sport) also gives access to competitions, insurance and coaching.",
+     "Team building develops trust, communication and cohesion (the bond that holds a group together) through shared goals, team activities and clear roles.",
+     "Task cohesion: team members working together towards a shared goal, such as winning a match.",
+     "Social cohesion: team members getting on well with one another, which makes working together easier."
     ]
    },
    {
+    "b": "A captain or leader has influence over the whole group, so the way they behave can strengthen or damage the team.",
     "h": "Responsible leadership",
     "points": [
-     "A responsible captain or leader communicates clearly and sets an example in effort and behaviour.",
+     "A responsible captain or leader communicates clearly and sets an example in effort and behaviour, because team-mates copy what the leader does.",
      "A responsible leader supports team-mates, keeps discipline and puts the team's goals before personal ones.",
      "A leader who undermines the coach's plan or shows a poor attitude weakens the group, so responsible leaders support decisions even when they disagree with them."
-    ]
+    ],
+    "tip": "Link each quality to its effect on the team, for example that setting an example in effort encourages others to match it."
    },
    {
+    "b": "When everyone knows their job and trusts their team-mates, players cover for each other and communicate well.",
     "h": "How clear roles and relationships improve performance",
     "points": [
-     "Players know their responsibilities, so every area of the pitch or court is covered.",
-     "Players cover for each other when a team-mate is out of position or tired.",
+     "Players know their responsibilities, so every area of the pitch or court is covered and no two players chase the same task.",
+     "Players cover for each other when a team-mate is out of position or tired, so gaps do not stay open for the opposition.",
      "Good communication lets players call for the ball, warn of an opponent and adjust during play."
     ]
    },
    {
+    "b": "To exploit an opponent you first have to find where they are weak. Teams gather this information before a match and confirm it during play.",
     "h": "Identifying an opponent's weaknesses",
     "points": [
      "Scouting: watching the opponent in previous matches, live or on video.",
      "Video analysis of previous matches shows patterns, such as where a defence leaves space or how a player reacts under pressure.",
-     "Notational statistics record how often a player or team uses a skill or position, so repeated patterns can be counted.",
+     "Notational statistics record how often a player or team uses a skill or position, so repeated patterns can be counted rather than guessed.",
      "Early observation: watching the opening minutes of a game to confirm what scouting suggested."
     ]
    },
    {
-    "b": "Each exploitation is a strategy; the strategies themselves are in the notes on Structures, strategies and compositional elements, and here each is linked only to the weakness it exploits.",
+    "b": "Weaknesses fall into four types: technical, physical, tactical and psychological. Each type is matched to a strategy that targets it. There is more on the strategies themselves in Structures, strategies and compositional elements.",
     "h": "Exploiting each type of weakness",
     "points": [
-     "Technical weakness, such as a weak backhand or a weaker foot: direct serves, passes or shots to that side.",
-     "Physical weakness, such as slow defenders: play balls into the space behind them.",
+     "Technical weakness (a flaw in a skill), such as a weak backhand or a weaker foot: direct serves, passes or shots to that side.",
+     "Physical weakness, such as slow defenders: play balls into the space behind them, where their lack of speed leaves them unable to recover.",
      "Physical weakness, such as poor stamina late in a game: run at the tired defender late in the game.",
-     "Tactical weakness, such as a high defensive line: play balls into the space behind it.",
-     "Tactical weakness, such as poor marking at set pieces: attack set pieces with a planned routine that creates a free attacker.",
+     "Tactical weakness (a flaw in team organisation), such as a high defensive line: play balls into the space behind it.",
+     "Tactical weakness, such as poor marking at set pieces (planned restarts like corners and free kicks): attack set pieces with a planned routine that creates a free attacker.",
      "Psychological weakness, such as losing composure under pressure: keep pressure on the player, forcing hurried decisions and errors."
-    ]
+    ],
+    "tip": "A typical question asks you to identify two weaknesses an opposition team could have in a named activity and suggest a strategy to exploit one. Name the type of weakness and make the strategy match it."
    }
   ],
   "questions": [
@@ -10168,103 +11160,120 @@
   ],
   "notes": [
    {
+    "b": "Sport carries a risk of injury, but much of that risk can be reduced by how people prepare and behave. Safe practice is the name for those habits.",
     "h": "Safe practice in training and performance",
     "points": [
-     "Safe practice: procedures and behaviours that reduce the risk of injury or harm before, during and after physical activity.",
-     "In training and performance: a warm-up and cool-down, correct technique, and suitable progression and loads.",
-     "Supervision by a qualified coach, with rules followed and participants matched by size, age or ability where relevant.",
-     "Intrinsic risk factors come from the performer: fitness level, previous injury, technique and fatigue.",
-     "Extrinsic risk factors come from outside the performer: equipment, playing surface, weather, opponents and coaching."
-    ]
+     "Safe practice means the procedures and behaviours that reduce the risk of injury or harm before, during and after physical activity.",
+     "In training and performance this includes a warm-up and cool-down, correct technique, and suitable progression and loads, so the body is never asked to do too much too soon.",
+     "It also includes supervision by a qualified coach, with rules followed and participants matched by size, age or ability where relevant, so that a smaller or less skilled player is not put at risk by a much stronger opponent.",
+     "Intrinsic risk factors come from the performer: fitness level, previous injury, technique and fatigue. For example, a tired player with poor technique is more likely to be hurt.",
+     "Extrinsic risk factors come from outside the performer: equipment, playing surface, weather, opponents and coaching. For example, a wet pitch makes slips more likely."
+    ],
+    "tip": "If asked to define safe practice, give the idea (reducing risk of harm before, during and after activity) and then an example. Sort risk factors correctly: from the performer is intrinsic, from outside is extrinsic."
    },
    {
+    "b": "When you run a competition or event, the safety of participants, officials and spectators is the organiser's responsibility. Safety is planned in advance, not left to chance.",
     "h": "Organising a safe event",
     "points": [
-     "Risk assessment: a systematic check of the venue and activity to identify hazards and the people who could be harmed.",
-     "First aid cover and an emergency action plan, so casualties are treated and moved quickly.",
-     "Trained stewards and officials, and checks of facilities and equipment before the event starts.",
-     "Clear rules, and a briefing for participants and officials.",
-     "Crowd and traffic management for spectators and vehicles.",
-     "A weather contingency, with hydration points and shelter for participants.",
-     "Communication systems between organisers, first aid and emergency services.",
-     "Pre-competition safety checks by officials are set out in the notes on The role of official."
-    ]
+     "Carry out a risk assessment, a systematic check of the venue and activity to identify hazards and the people who could be harmed, so problems are dealt with before the event.",
+     "Arrange first aid cover and an emergency action plan, so casualties are treated and moved quickly.",
+     "Use trained stewards and officials, and check facilities and equipment before the event starts.",
+     "Set clear rules and give a briefing to participants and officials, so everyone knows what is expected and what to do in an emergency.",
+     "Manage crowds and traffic, for spectators and vehicles, so people can enter, leave and be reached by emergency vehicles safely.",
+     "Prepare a weather contingency, with hydration points and shelter for participants, so heat, cold or rain does not cause harm.",
+     "Set up communication systems between organisers, first aid and emergency services, so help can be called without delay."
+    ],
+    "tip": "Exams ask you to describe two things organisers should do to keep participants safe, or to examine two approaches at a major event. Pick two from this list and say why each protects people, rather than just naming it."
    },
    {
+    "b": "A warm-up is the preparation done just before training or competition. It is built in three phases that move from general to specific, so the body is ready for the exact demands of the activity.",
     "h": "Warm-up: phases",
     "points": [
      "Phase 1, pulse raiser: light activity, such as jogging, that gradually increases in intensity to raise the heart rate.",
-     "Phase 2, mobility: dynamic stretching through the ranges of movement the activity uses.",
-     "Phase 3, activity-specific drills: skill rehearsal that builds up to game intensity.",
-     "Mental preparation, such as rehearsing the first passages of play, can be included.",
+     "Phase 2, mobility: dynamic stretching (stretching while moving) through the ranges of movement the activity uses, so the joints and muscles are ready for those actions.",
+     "Phase 3, activity-specific drills: skill rehearsal that builds up to game intensity, so the performer practises the real movements before they matter.",
+     "Mental preparation, such as rehearsing the first passages of play, can be included to focus the performer.",
      "Illustrative soccer warm-up of about 15 minutes: five minutes of jogging, five minutes of dynamic stretches, then five minutes of passing and shooting drills at increasing speed."
-    ]
+    ],
+    "tip": "When asked to outline the phases or describe a warm-up structure, name the three phases in order and give a named activity with timings, such as the soccer example. Treat the timings as illustrative."
    },
    {
+    "b": "Each part of a warm-up has a physical or mental effect. Together they make injury less likely and performance better.",
     "h": "Warm-up: benefits",
     "points": [
-     "Raises heart rate and the temperature of the body and muscles.",
-     "Increases blood flow and oxygen delivery to the muscles.",
-     "Improves muscle elasticity and joint mobility, reducing injury risk.",
-     "Rehearses skills and prepares the performer mentally."
-    ]
+     "It raises heart rate and the temperature of the body and muscles, because warm muscles contract and relax more efficiently.",
+     "It increases blood flow and oxygen delivery to the muscles, so they have the fuel they need once work begins.",
+     "It improves muscle elasticity and joint mobility, which reduces injury risk because warm, stretchy muscle is less likely to tear.",
+     "It rehearses skills and prepares the performer mentally, so they start focused rather than cold."
+    ],
+    "tip": "Exams ask for two benefits of warming up. Give each benefit with its reason, for example raised muscle temperature leading to greater elasticity and lower injury risk."
    },
    {
+    "b": "A cool-down is done after activity, and it eases the body back to rest rather than stopping suddenly. Its content mirrors a warm-up in reverse.",
     "h": "Cool-down",
     "points": [
      "Content: light activity, such as easy jogging or walking, that gradually reduces in intensity.",
-     "Content: static stretching of the muscles used in the activity.",
-     "Gradually returns heart rate and breathing to rest.",
-     "Prevents blood pooling and dizziness that can follow stopping suddenly.",
-     "Speeds the removal of lactic acid from the muscles.",
-     "May reduce delayed onset muscle soreness (DOMS).",
-     "Helps flexibility and gives time to reflect on the performance."
-    ]
+     "Content: static stretching (holding a stretch still) of the muscles used in the activity.",
+     "It gradually returns heart rate and breathing to rest, so the body is not left working hard with nothing to do.",
+     "It prevents blood pooling (blood collecting in the legs) and the dizziness that can follow stopping suddenly.",
+     "It speeds the removal of lactic acid (a waste product that builds up in working muscles) from the muscles.",
+     "It may reduce delayed onset muscle soreness (DOMS), the stiffness and ache that can follow hard exercise.",
+     "It helps flexibility, because muscles are warm and stretch easily, and it gives time to reflect on the performance."
+    ],
+    "tip": "To outline two reasons for a cool-down, choose from returning heart rate and breathing to rest, preventing blood pooling and dizziness, or removing lactic acid, and give the reason with each."
    },
    {
+    "b": "What a performer wears and uses affects both comfort and risk of injury. The right choice protects the performer and the people around them.",
     "h": "Attire, protective equipment and selection",
     "points": [
-     "Footwear suited to the surface: studs for grass and court shoes for indoor courts.",
-     "Clothing suited to the conditions, with layers for cold or wet weather.",
-     "Jewellery removed before activity, because it can injure the wearer or others.",
-     "Helmets with faceguards are compulsory in hurling under GAA rules, and helmets are worn in camogie.",
+     "Footwear should suit the surface and activity: studs for grass and court shoes for indoor courts, so the player has grip without twisting an ankle.",
+     "Clothing should suit the conditions, with layers for cold or wet weather, so the performer stays warm and dry.",
+     "Jewellery is removed before activity, because it can injure the wearer or others.",
+     "Helmets with faceguards are compulsory in hurling under GAA rules, and helmets are worn in camogie, to protect the head and face from the ball and hurleys.",
      "Gumshields protect the teeth and mouth in rugby.",
      "Shin guards protect the lower leg in soccer and hockey.",
-     "Buoyancy aids are worn in water activities.",
-     "Selection: equipment must be the correct size and fit, and meet approved standards.",
-     "Selection by level: a racket's grip size and head size are chosen to suit the performer's ability."
-    ]
+     "Buoyancy aids are worn in water activities, so a performer stays afloat if they get into difficulty.",
+     "Selection: equipment must be the correct size and fit, and meet approved standards. It should also suit the performer's level, so a racket's grip size and head size are chosen to suit their ability."
+    ],
+    "tip": "When asked why suitable attire and equipment matter, link each item to the injury it prevents. Say that helmets are compulsory in hurling, but only that helmets are worn in camogie."
    },
    {
+    "b": "Even well-chosen equipment becomes dangerous if it is damaged or poorly kept. Regular maintenance keeps facilities safe to use.",
     "h": "Maintaining equipment and facilities",
     "points": [
-     "Regular inspection and repair of nets, posts and goals, which must be secured in place.",
-     "Surfaces are checked for holes, debris and other hazards before use.",
-     "Pool water quality is tested and maintained.",
+     "Nets, posts and goals are inspected and repaired regularly, and goals must be secured in place.",
+     "Surfaces are checked for holes, debris and other hazards before use, so players do not trip or twist an ankle.",
+     "Pool water quality is tested and maintained, so swimmers are not exposed to harmful bacteria or chemicals.",
      "Proper storage keeps equipment clean, dry and undamaged.",
      "Maintenance prevents injury, keeps equipment effective and extends its life.",
      "Example: an unsecured goal can topple onto a player, so securing it before each session prevents that injury."
-    ]
+    ],
+    "tip": "Exams ask how to maintain a facility and why. Name one facility, say what you check or repair, and give the injury it prevents, as in the goalpost example."
    },
    {
+    "b": "Injuries are grouped by how they start and by the tissue damaged. Knowing the groups helps you name an injury correctly and treat it.",
     "h": "Types of injury: acute, chronic, sprain and strain",
     "points": [
      "Acute injury: sudden onset, such as a sprain, strain, fracture, dislocation, concussion or cut.",
      "Chronic (overuse) injury: develops gradually from repeated stress, such as tendinitis, shin splints, stress fracture or tennis elbow.",
-     "Sprain: damage to a ligament, the tissue that joins bone to bone.",
-     "Strain: damage to a muscle or tendon, the tissue that joins muscle to bone."
-    ]
+     "Sprain: damage to a ligament, the tissue that joins bone to bone, for example an ankle sprain from landing awkwardly.",
+     "Strain: damage to a muscle or tendon, the tissue that joins muscle to bone, for example a hamstring strain from sprinting without a warm-up."
+    ],
+    "tip": "A sprain is a ligament injury and a strain is a muscle or tendon injury. Examiners test this, so do not swap them."
    },
    {
+    "b": "Each activity has injuries that happen again and again, because of the movements and contact it involves. Knowing the cause shows how to prevent the injury.",
     "h": "Common injuries and their causes",
     "points": [
-     "Soccer: ankle sprain, caused by landing awkwardly.",
-     "Soccer: hamstring strain, caused by sprinting without a warm-up.",
-     "Rugby: concussion, caused by a collision or tackle.",
-     "Rugby: shoulder dislocation, caused by a heavy tackle or a fall onto the shoulder."
-    ]
+     "Soccer: ankle sprain, caused by landing awkwardly, which twists the ankle and overstretches a ligament.",
+     "Soccer: hamstring strain, caused by sprinting without a warm-up, when cold muscle is stretched too fast.",
+     "Rugby: concussion, caused by a collision or tackle that shakes the brain inside the skull.",
+     "Rugby: shoulder dislocation, caused by a heavy tackle or a fall onto the shoulder, which forces the joint out of its socket."
+    ],
+    "tip": "You are asked for two common injuries in a named activity, with their causes and first aid. Choose one activity, name both injuries, give the cause of each, then the treatment."
    },
    {
+    "b": "Soft-tissue injuries, such as sprains and strains, swell and bleed under the skin. PRICE is a five-step routine that limits this damage in the first 48 to 72 hours.",
     "h": "First aid for soft-tissue injuries (PRICE)",
     "points": [
      "PRICE stands for Protect, Rest, Ice, Compression and Elevation, and is used in the first 48 to 72 hours after a soft-tissue injury.",
@@ -10275,56 +11284,72 @@
      "Elevation: raise the injured limb above heart level to reduce swelling.",
      "Avoid heat on a fresh soft-tissue injury, because it increases swelling.",
      "Refer for medical assessment if the injury is severe."
-    ]
+    ],
+    "tip": "Never recommend heat on a fresh soft-tissue injury. When asked for first aid treatment, give each PRICE letter with what you do and why."
    },
    {
+    "b": "Before deciding whether an injured player can carry on, a coach or first aider needs a quick, orderly check. SALTAPS gives the steps in order.",
     "h": "Assessing an injury on the field (SALTAPS)",
     "points": [
      "SALTAPS stands for See, Ask, Look, Touch, Active movement, Passive movement and Strength.",
      "See: watch how the player fell and how they move.",
      "Ask: ask what happened and where it hurts.",
-     "Look: check for swelling, bruising or deformity.",
+     "Look: check for swelling, bruising or deformity (a joint or limb that looks the wrong shape).",
      "Touch: feel the injured area for tenderness.",
      "Active movement: the player moves the joint themselves.",
      "Passive movement: the examiner moves the joint while the player relaxes.",
-     "Strength: the player pushes or pulls against resistance.",
-     "Pain, weakness or instability at any step means the player should not return to play."
-    ]
+     "Strength: the player pushes or pulls against resistance. Pain, weakness or instability at any step means the player should not return to play."
+    ],
+    "tip": "SALTAPS is used to decide whether the player can continue. Learn the seven words in order, and state that pain, weakness or instability at any step means no return to play."
    },
    {
+    "b": "Two injuries need special rules because they can be serious or can spread infection: a blow to the head and an open wound.",
     "h": "Concussion and bleeding",
     "points": [
      "Concussion signs: confusion, headache, dizziness, loss of consciousness and balance problems.",
-     "Concussion can occur without loss of consciousness.",
-     "Remove the player from play immediately and do not return them that day. Guidance: if in doubt, sit them out.",
-     "Medical clearance is needed before a graduated return to play.",
-     "Cuts and bleeding: apply pressure with a clean dressing, wearing gloves.",
+     "Concussion can occur without loss of consciousness, so a player who stays awake may still be concussed.",
+     "Remove the player from play immediately and do not return them that day. The guidance is: if in doubt, sit them out.",
+     "Medical clearance is needed before a graduated return to play, meaning a step-by-step return rather than straight back to full play.",
+     "Cuts and bleeding: apply pressure with a clean dressing, wearing gloves, to stop the blood and protect the helper from infection.",
      "Blood rule: the player leaves the field until the bleeding stops."
-    ]
+    ],
+    "tip": "Do not give return-to-play timelines in days for concussion. Say medical clearance and a graduated return."
    },
    {
+    "b": "Training makes you fitter only when the body has time to recover. Without that recovery, more training makes performance worse, which is overtraining.",
     "h": "Overtraining: definition and symptoms",
     "points": [
      "Overtraining: training too hard or too often without enough recovery, so performance declines.",
      "Symptoms: persistent fatigue, a raised resting heart rate and poor sleep.",
-     "Symptoms: frequent illness and injury, and loss of motivation.",
-     "Symptoms: irritability, falling performance and muscle soreness that does not go away."
-    ]
+     "Symptoms: frequent illness and injury, because a tired body is less able to resist infection or cope with stress.",
+     "Symptoms: loss of motivation and irritability.",
+     "Symptoms: falling performance and muscle soreness that does not go away."
+    ],
+    "tip": "Exams ask you to define overtraining and give symptoms. Include the idea that recovery is missing, so performance declines, then list several symptoms."
    },
    {
-    "h": "Designing and evaluating training schedules",
+    "b": "A good schedule balances work and recovery. These principles keep the load rising without pushing the athlete into overtraining or fatigue.",
+    "h": "Designing training schedules to avoid overtraining",
     "points": [
      "Progress gradually: a common rule of thumb is to raise weekly load by about 10%, which is guidance rather than a law.",
      "Build in rest days and easy weeks so the body can recover.",
      "Periodisation, alternating harder and easier blocks of training, is one way to plan recovery into a schedule.",
      "Vary intensity so that not every session is maximal.",
-     "Monitor load with session RPE multiplied by session duration, heart rate or a wellness questionnaire.",
+     "Monitor load with session RPE (how hard the athlete rates the session) multiplied by session duration, heart rate or a wellness questionnaire.",
      "Adequate sleep and nutrition support recovery between sessions.",
-     "Listen to the athlete: reduce load when they report fatigue or pain.",
-     "Evaluating a schedule: check where weekly load rises sharply, since a sudden jump increases injury and overtraining risk.",
-     "Evaluating a schedule: check whether it includes rest days and easy weeks, and whether intensity varies.",
-     "Evaluating a schedule: propose changes that smooth the jump, add rest or vary the intensity."
-    ]
+     "Listen to the athlete: reduce load when they report fatigue or pain."
+    ],
+    "tip": "To explain two ways a schedule can prevent overtraining, choose two principles, such as gradual progression and rest days, and say how each allows recovery."
+   },
+   {
+    "b": "Evaluating a schedule means judging it against those principles and then suggesting improvements. You look for where load rises too fast or recovery is missing.",
+    "h": "Evaluating a training schedule",
+    "points": [
+     "Check where weekly load rises sharply, since a sudden jump increases injury and overtraining risk.",
+     "Check whether the schedule includes rest days and easy weeks, and whether intensity varies, because a plan with every session hard gives no time to recover.",
+     "Propose changes that smooth the jump, add rest or vary the intensity."
+    ],
+    "tip": "When evaluating a schedule, identify where load jumps too quickly or recovery is missing, then propose a specific change for each problem."
    }
   ],
   "questions": [
@@ -10413,86 +11438,102 @@
   ],
   "notes": [
    {
+    "b": "Every physical activity needs agreed limits on what players may do, otherwise nobody could compete on equal terms. Rules are those limits, written down and applied by someone neutral.",
     "h": "Rules",
     "points": [
-     "Rules: the formal, written regulations of an activity, set by its governing body and enforced by officials.",
-     "Rules cover scoring, permitted actions, the playing area and equipment, time, and sanctions for breaking them.",
-     "Sanction: a penalty for breaking a rule, such as a free kick, a card or a suspension.",
+     "Rules are the formal, written regulations of an activity, set by its governing body (the organisation in charge of the sport) and enforced by officials such as referees, so every player is judged by the same standard.",
+     "Rules cover scoring, permitted actions, the playing area and equipment, and time, so everyone knows what counts as a point, what is allowed, where play happens and how long it lasts.",
+     "Rules also set sanctions. A sanction is a penalty for breaking a rule, such as a free kick, a card or a suspension, and it stops players gaining from cheating.",
      "Offside in soccer: an attacker in an offside position when a team-mate plays the ball forward may be penalised, and the defending team is awarded an indirect free kick.",
-     "Four-step rule in Gaelic football: a player may take four steps while holding the ball, then must bounce, hand-pass or kick it.",
-     "Foot fault in tennis: a server's foot touches the line, or the court beyond it, before the ball is struck."
-    ]
+     "Four-step rule in Gaelic football: a player may take four steps while holding the ball, then must bounce, hand-pass or kick it, so nobody can simply run with the ball.",
+     "Foot fault in tennis: a server's foot touches the line, or the court beyond it, before the ball is struck, so the serve is not allowed."
+    ],
+    "tip": "If asked to outline three rules of a named activity, pick rules you are sure of, such as offside, the four-step rule or a foot fault, and say what each one stops or allows. Describe rules generally if unsure of the detail."
    },
    {
+    "b": "Not everything around a game is about winning points. Rituals are the repeated, symbolic actions that give a game its sense of occasion.",
     "h": "Rituals",
     "points": [
-     "Rituals: customary, often symbolic actions repeated before, during or after an activity.",
-     "The national anthem is played before an international match.",
-     "The haka is performed by the New Zealand men's rugby team before international matches.",
-     "A team huddle before the start focuses the group.",
-     "A minute's silence honours a person or event."
-    ]
+     "Rituals are customary, often symbolic actions repeated before, during or after an activity. They are repeated traditions that give the activity a sense of occasion.",
+     "The national anthem is played before an international match, which reminds players and supporters that they are representing their country.",
+     "The haka is performed by the New Zealand men's rugby team before international matches, expressing the team's identity and tradition.",
+     "A team huddle before the start focuses the group on a shared goal, so players begin the contest united.",
+     "A minute's silence honours a person or event, giving everyone present a moment to show respect together."
+    ],
+    "tip": "When defining a ritual, stress that it is customary and symbolic, then give a named example such as the haka or the anthem."
    },
    {
+    "b": "Some good behaviour is expected in sport even though no rule demands it. These unwritten codes are conventions, and they are what keep competition respectful.",
     "h": "Conventions",
     "points": [
-     "Conventions: unwritten codes of behaviour that participants are expected to follow, and that the rules do not enforce.",
-     "Shaking hands with opponents and officials after a match.",
-     "Kicking the ball out of play when an opponent is injured, then returning possession to the opposing team at the restart.",
-     "A tennis player raises a hand to apologise for a net cord winner.",
-     "Applauding opponents off the field after a hard contest.",
-     "A convention becomes a rule when the rule-book requires it, such as a rule about kit colours."
-    ]
+     "Conventions are unwritten codes of behaviour that participants are expected to follow, and that the rules do not enforce. Players follow them out of respect, not fear of a penalty.",
+     "Shaking hands with opponents and officials after a match shows that the contest is over and respect remains.",
+     "Kicking the ball out of play when an opponent is injured, then returning possession to the opposing team at the restart, puts care for a player ahead of gaining an advantage.",
+     "A tennis player raises a hand to apologise for a net cord winner (a point won by luck when the ball clips the net), acknowledging the opponent was unlucky.",
+     "Applauding opponents off the field after a hard contest shows respect for their effort.",
+     "A convention becomes a rule when the rule-book requires it, such as a rule about kit colours. Once written into the rules it is enforced, so it is no longer a convention."
+    ],
+    "tip": "The common trap is calling something a convention when the rule-book requires it. If it is written and enforced, it is a rule; a convention is always unwritten."
    },
    {
-    "h": "Why they matter",
+    "b": "Each of the three does a different job. Together they make an activity fair, meaningful and respectful.",
+    "h": "Why rules, rituals and conventions matter",
     "points": [
-     "Rules make competition fair and safe.",
-     "Rituals build identity, tradition and focus.",
-     "Conventions express respect and fair play and keep the spirit of the game."
-    ]
+     "Rules make competition fair and safe, because everyone plays under the same limits and dangerous actions can be punished.",
+     "Rituals build identity, tradition and focus, because repeating them binds a team and its supporters together and prepares players mentally.",
+     "Conventions express respect and fair play and keep the spirit of the game, because they cover the good behaviour that rules cannot list or enforce."
+    ],
+    "tip": "A question asking you to define rules, rituals and conventions as they relate to physical activity (set at Higher Level) is worth 8 marks, so learn a precise definition of each: rules are written and enforced by officials, rituals are customary and symbolic, and conventions are unwritten and not enforced by the rules."
    },
    {
+    "b": "An event only respects the rules, rituals and conventions of an activity if the organiser plans for them. Good organisation has three stages: planning, building in traditions, and evaluating afterwards.",
     "h": "Organising an event that respects them",
     "points": [
-     "Planning: the fixture and format, the venue and the equipment are set in advance.",
-     "Officials are appointed and briefed, and rules are clarified to teams in advance.",
-     "A scoring and recording system is in place before the first contest.",
-     "Roles are assigned to the organiser, officials, timekeeper, first aid and stewards.",
-     "Rituals built in: team introductions before the start.",
-     "Conventions built in: handshakes at the end, presentation of awards, and acknowledgement of officials and opponents.",
+     "Planning: the fixture and format (who plays whom, and how the competition is structured), the venue and the equipment are set in advance so nothing is left to chance on the day.",
+     "Officials are appointed and briefed, and the rules are clarified to teams in advance, so everyone applies and expects the same rules.",
+     "A scoring and recording system is in place before the first contest, so results are accurate and disputes can be settled.",
+     "Roles are assigned to the organiser, officials, timekeeper, first aid and stewards (people who guide spectators and keep order), so everyone knows their job.",
+     "Rituals are built in, such as team introductions before the start, which give the event a sense of occasion.",
+     "Conventions are built in: handshakes at the end, presentation of awards, and acknowledgement of officials and opponents, which promote respect.",
      "Evaluation checks whether the event ran on time and whether rules were applied consistently.",
-     "Evaluation also checks whether participants behaved respectfully and what would change next time."
-    ]
+     "Evaluation also checks whether participants behaved respectfully and what would change next time, so the next event improves."
+    ],
+    "tip": "Organising questions reward answers that cover planning, rituals and conventions, and evaluation."
    },
    {
+    "b": "Communication is part of respecting an activity. How you speak to players and officials affects performance, behaviour and the atmosphere of the whole event.",
     "h": "Respectful communication with players and officials",
     "points": [
-     "With players: clear, calm instructions, and listening before reacting.",
-     "With players: encouragement rather than criticism, and appropriate language.",
-     "With officials: accept decisions without dissent, meaning no arguing, gesturing or shouting.",
-     "With officials: ask questions through the captain at an appropriate time.",
-     "Thank officials after the contest."
-    ]
+     "With players: give clear, calm instructions and listen before reacting, so players understand what is wanted and feel heard.",
+     "With players: use encouragement rather than criticism, and appropriate language, because positive comments keep confidence and effort high.",
+     "With officials: accept decisions without dissent, meaning no arguing, gesturing or shouting, because dissent damages the spirit of the game.",
+     "With officials: ask questions through the captain at an appropriate time, not by confronting the official during play.",
+     "Thank officials after the contest, which shows respect for the job they do."
+    ],
+    "tip": "For communicating with officials, list the four behaviours: accept decisions, no dissent, questions through the captain at an appropriate time, and thanks."
    },
    {
+    "b": "Much of what is communicated in sport is not spoken. In a noisy venue, a gesture or a look can reach a player when words cannot.",
     "h": "Non-verbal communication",
     "points": [
-     "Hand signals, such as a referee's signals, communicate decisions quickly to players and spectators.",
-     "Body language and gestures show approval, instruction or warning without words.",
+     "Hand signals, such as a referee's signals, communicate decisions quickly to players and spectators, even from a distance or over crowd noise.",
+     "Body language and gestures show approval, instruction or warning without words, so a nod or open posture can reassure a player.",
      "Eye contact holds a player's attention and shows that the message is meant for them.",
-     "Tone of voice: a calm, steady tone reduces tension, while a sharp tone signals urgency."
-    ]
+     "Tone of voice: a calm, steady tone reduces tension, while a sharp tone signals urgency, so the same words can feel very different."
+    ],
+    "tip": "Non-verbal communication covers body language, eye contact, gestures, hand signals and tone of voice. Name several and say what each achieves."
    },
    {
+    "b": "Good communicators in sport share a set of habits that make a message clear and trusted.",
     "h": "Effective communication skills",
     "points": [
-     "Clear voice, projected so every team-mate can hear.",
-     "Short, precise instructions given at the right moment.",
-     "Active listening: checking understanding by listening carefully and asking questions.",
-     "Consistent signals: the same gesture or call always means the same thing.",
-     "Whistle use: a clear, distinct blast signals a stoppage or a restart."
-    ]
+     "A clear voice, projected so every team-mate can hear, means instructions are not missed.",
+     "Short, precise instructions given at the right moment are easy to act on, while long ones are forgotten or arrive too late.",
+     "Active listening means checking understanding by listening carefully and asking questions, so messages are received correctly.",
+     "Consistent signals: the same gesture or call always means the same thing, so there is no confusion in the middle of play.",
+     "Whistle use: a clear, distinct blast signals a stoppage or a restart, so everyone knows play has changed."
+    ],
+    "tip": "If asked for three effective communication skills other than hand signals, choose from clear voice, short precise instructions, positive body language, active listening, use of a whistle, consistent signals and eye contact, and say why each works."
    }
   ],
   "questions": [
@@ -10579,140 +11620,161 @@
   ],
   "notes": [
    {
+    "b": "A coach (or a choreographer, who creates and teaches a dance or movement routine) is a non-playing role, but it is demanding. The performers depend on this person for knowledge, organisation and safety, so the job asks for much more than turning up to sessions.",
     "h": "Demands of the coach or choreographer",
     "points": [
-     "Technical knowledge of the activity: its skills, tactics and rules or, for a choreographer, the movement and composition of the routine.",
-     "Knowledge of fitness, psychology and safety, to plan training and manage risk.",
-     "Planning and organisation of sessions, equipment and the programme over a season.",
-     "Time commitment for sessions, travel, preparation and reviewing performance.",
-     "Managing a group, including keeping everyone involved, resolving conflict and treating each performer fairly.",
-     "Making selection decisions, which must be fair and explained.",
-     "Duty of care: responsibility for the safety and welfare of performers.",
-     "Safeguarding in Ireland: people working with children in sport must be Garda vetted and complete child-safeguarding training under their governing body's procedures."
-    ]
+     "Technical knowledge of the activity: its skills, tactics and rules or, for a choreographer, the movement and composition of the routine. Without it the coach cannot teach correctly or spot errors.",
+     "Knowledge of fitness, psychology and safety, so the coach can plan suitable training, support the performers' confidence and focus, and manage the risk of injury.",
+     "Planning and organisation of sessions, equipment and the programme over a season, so that training builds towards the competitions that matter.",
+     "Time commitment for sessions, travel, preparation and reviewing performance. Much of the work happens outside the training hour.",
+     "Managing a group, including keeping everyone involved, resolving conflict and treating each performer fairly, so the team stays united.",
+     "Making selection decisions (who plays or performs), which must be fair and explained, otherwise performers feel resentful and trust in the coach falls.",
+     "Duty of care: responsibility for the safety and welfare of performers while they are under the coach's supervision.",
+     "Safeguarding in Ireland: people working with children in sport must be Garda vetted (checked by the police) and complete child-safeguarding training under their governing body's procedures, which protects young performers from harm."
+    ],
+    "tip": "If asked to identify three demands, pick distinct ones, for example technical knowledge, planning and duty of care, and say briefly what each involves. Only mention Garda vetting and safeguarding training at this level of detail."
    },
    {
+    "b": "Interpersonal skills are the skills used when dealing with other people. A coach can know the activity perfectly and still fail if performers cannot understand, trust or approach them.",
     "h": "Desirable interpersonal skills",
     "points": [
-     "Clear communication and active listening.",
-     "Empathy: understanding how the performer feels about their performance.",
-     "Patience and approachability, so performers feel able to ask questions.",
-     "Enthusiasm that motivates the group.",
-     "Fairness and consistency in selection, discipline and feedback.",
+     "Clear communication and active listening (giving full attention to what the performer says, not just waiting to speak), so instructions are understood and the performer's concerns are heard.",
+     "Empathy: understanding how the performer feels about their performance, so the coach responds to a nervous or disappointed performer in a helpful way.",
+     "Patience and approachability, so performers feel able to ask questions rather than staying silent when they are confused.",
+     "Enthusiasm that motivates the group, because performers tend to copy the energy of the person leading them.",
+     "Fairness and consistency in selection, discipline and feedback, so performers know the same standards apply to everyone.",
      "Tact when delivering criticism, so that it is accepted rather than resented.",
-     "Leadership and emotional control under pressure."
-    ]
+     "Leadership and emotional control under pressure, so the coach stays calm and gives clear direction during a difficult match or rehearsal."
+    ],
+    "tip": "Questions often give a scenario in which a coach's instruction is misunderstood. Name a skill, such as clear communication or active listening, and say how it would have prevented the problem. Describe two skills, not just list them."
    },
    {
+    "b": "Beyond interpersonal skills, successful coaches share certain personal qualities (what kind of person they are) and technical qualities (how well they coach the activity). Examiners ask you to discuss both.",
     "h": "Personal and technical qualities for successful coaching",
     "points": [
-     "Personal quality, integrity: being honest with performers and selectors about performance and decisions.",
-     "Personal quality, patience: teaching new skills at the performer's pace rather than the coach's.",
-     "Personal quality, resilience: recovering from losses and keeping the group focused.",
-     "Personal quality, commitment to the performers' development rather than personal recognition.",
+     "Personal quality, integrity: being honest with performers and selectors about performance and decisions, which builds trust.",
+     "Personal quality, patience: teaching new skills at the performer's pace rather than the coach's, because rushing leads to poor technique.",
+     "Personal quality, resilience: recovering from losses and keeping the group focused, so a bad result does not derail the season.",
+     "Personal quality, commitment to the performers' development rather than personal recognition, so decisions are made for the performer's benefit.",
      "Technical quality, demonstration: showing skills accurately so that performers can copy them.",
-     "Technical quality, analysis: identifying the cause of an error, such as a poor body position behind a missed shot.",
+     "Technical quality, analysis: identifying the cause of an error, such as a poor body position behind a missed shot, so the coach corrects the cause rather than the symptom.",
      "Technical quality, practice design: designing practices that match the demands of the activity so that training transfers to competition."
-    ]
+    ],
+    "tip": "Keep the two groups separate in a discussion answer: give personal qualities and technical qualities, and for each one say why it makes the coaching more successful."
    },
    {
+    "b": "A goal gives training a purpose. Coaches break a big ambition into smaller steps, and they guide the performer to set goals rather than simply handing them over.",
     "h": "Short-term and long-term goals",
     "points": [
-     "Short-term goals cover days to weeks and act as steps towards the long-term goal.",
-     "Long-term goals cover a season or more.",
-     "Agree goals together, using the performer's performance analysis as the starting point.",
-     "Write the goals down so that both coach and performer can refer to them.",
-     "Review goals regularly and adjust them when circumstances change."
+     "Short-term goals cover days to weeks and act as steps towards the long-term goal, so the performer sees regular progress.",
+     "Long-term goals cover a season or more and describe the bigger target the performer is working towards.",
+     "Agree goals together, using the performer's performance analysis as the starting point, so the goals fit the real strengths and weaknesses and the performer is committed to them.",
+     "Write the goals down so that both coach and performer can refer to them and are not relying on memory.",
+     "Review goals regularly and adjust them when circumstances change, for example after an injury or a big improvement."
     ]
    },
    {
+    "b": "A vague goal such as \"get better\" is hard to act on or check. SMART is a checklist that turns a goal into one a performer can work towards and measure.",
     "h": "SMART goals",
     "points": [
      "SMART stands for Specific, Measurable, Achievable, Realistic and Time-bound.",
-     "Specific: the goal states exactly what is to be achieved.",
-     "Measurable: the goal has a number or observable outcome that shows progress.",
-     "Achievable: the goal is reachable with effort at the performer's current level.",
-     "Realistic: the goal fits the time, resources and ability available.",
-     "Time-bound: the goal has a deadline or review date.",
-     "SMARTER adds Evaluate and Review, so the goal is checked and revised."
-    ]
+     "Specific: the goal states exactly what is to be achieved, so there is no doubt about the target.",
+     "Measurable: the goal has a number or observable outcome that shows progress, so the performer knows when it has been met.",
+     "Achievable: the goal is reachable with effort at the performer's current level, so it challenges without being impossible.",
+     "Realistic: the goal fits the time, resources and ability available, such as the number of training sessions per week.",
+     "Time-bound: the goal has a deadline or review date, which keeps the performer working towards it.",
+     "SMARTER adds Evaluate and Review, so the goal is checked and revised rather than set and forgotten."
+    ],
+    "tip": "The syllabus form is Specific, Measurable, Achievable, Realistic, Time-bound. Say what each letter means for a named goal rather than only writing out the words."
    },
    {
+    "b": "Goals can focus on three different things. Coaches use all three, but they favour the ones the performer can actually control.",
     "h": "Outcome, performance and process goals",
     "points": [
      "Outcome goal: the result, such as winning a match.",
      "Performance goal: a personal standard, such as getting 80% of first serves in.",
      "Process goal: a technique focus, such as a high ball toss on the serve.",
-     "Performance and process goals are more within the performer's control than outcome goals, which also depend on the opponent."
-    ]
+     "Performance and process goals are more within the performer's control than outcome goals, which also depend on the opponent. A performer can hit every target and still lose to a stronger opponent."
+    ],
+    "tip": "Give a tennis-style example for each type if asked to distinguish them, and say that performance and process goals are more controllable than outcome goals."
    },
    {
+    "b": "A programme for a specific performer is built in a logical order: start with where the performer is, then plan how to get to the goal. The coach applies methods and principles taught elsewhere, such as FITT (Frequency, Intensity, Time, Type), to one real person.",
     "h": "Designing a fitness and skills programme",
     "points": [
-     "Analyse the performer through fitness tests and skill analysis.",
-     "Set goals from the analysis, then choose fitness methods and skill practices that match them.",
-     "Apply FITT and the principles of training and effective practice, which are set out in the notes on Designing a fitness plan and Skill acquisition.",
-     "Plan weekly sessions with progression, starting from where the performer is.",
-     "Monitor the performer and adjust the programme when results or fatigue show a need."
+     "1. Analyse the performer through fitness tests and skill analysis, so the programme starts from their real strengths and weaknesses.",
+     "2. Set goals from the analysis, then choose fitness methods and skill practices that match them.",
+     "3. Apply FITT and the principles of training and effective practice. There is more on this in Designing a fitness plan and Skill acquisition.",
+     "4. Plan weekly sessions with progression (gradually increasing the demand), starting from where the performer is.",
+     "5. Monitor the performer and adjust the programme when results or fatigue show a need, because a plan that never changes will not fit a performer who is improving or tiring."
     ]
    },
    {
+    "b": "How the coach communicates decides whether performers understand and act on the coaching. Good communication is clear, checked and positive.",
     "h": "Communication with the performer",
     "points": [
-     "Short, clear instructions with a few key teaching points, not long explanations.",
-     "Demonstrations show the performer what the skill or sequence should look like.",
+     "Short, clear instructions with a few key teaching points, not long explanations, because performers can only take in and remember a small amount at once.",
+     "Demonstrations show the performer what the skill or sequence should look like, which is easier to copy than a verbal description.",
      "Questioning checks understanding, for example by asking the performer to explain the key point back.",
-     "Positive body language, with eye contact and an open stance.",
-     "Feedback that is specific, timely and constructive, such as praise, then correction, then praise.",
-     "Language adjusted to the performer's age and level."
-    ]
+     "Positive body language, with eye contact and an open stance, shows the coach is interested and approachable.",
+     "Feedback that is specific, timely and constructive, such as praise, then correction, then praise, so the performer hears what to fix without losing confidence.",
+     "Language adjusted to the performer's age and level, so a beginner or a child is not confused by technical terms."
+    ],
+    "tip": "Describe how a coach gives feedback (specific, timely, constructive), not the definitions of feedback types. Those belong with psychological preparation."
    },
    {
+    "b": "A plan rarely survives contact with real performers unchanged. A good coach adapts what is happening as the need arises, rather than carrying on regardless.",
     "h": "Modifying practice or performance",
     "points": [
-     "Simplify or make the task harder to suit the performer's current level.",
-     "Change the drill, or add or remove opposition.",
-     "Adapt for injury, fatigue or weather.",
+     "Simplify or make the task harder to suit the performer's current level, so it stays challenging but achievable.",
+     "Change the drill, or add or remove opposition, to make a practice easier or more game-like.",
+     "Adapt for injury, fatigue or weather, so that performers stay safe and the session is still useful.",
      "Change tactics or choreography at half-time, based on what the review showed.",
      "A choreographer changes the sequence, formation or timing of the music when a routine does not fit the performers or the space."
     ]
    },
    {
+    "b": "Performers train harder and for longer when they want to. Coaches use strategies to keep that motivation going through the weeks when progress is slow.",
     "h": "Motivation",
     "points": [
      "Goal setting gives the performer direction and a reason to train.",
-     "Variety in sessions keeps training interesting.",
-     "Recording progress lets the performer see improvement.",
-     "Praise and recognition for effort as well as results.",
-     "Ownership and choice: the performer chooses some drills or goals.",
-     "Punishment, such as running laps as a penalty, is avoided as a training tool because it links training with negative feeling."
-    ]
+     "Variety in sessions keeps training interesting, so performers do not become bored.",
+     "Recording progress lets the performer see improvement, which encourages them to continue.",
+     "Praise and recognition for effort as well as results, so performers keep trying even when they lose.",
+     "Ownership and choice: the performer chooses some drills or goals, which makes them more committed to the plan.",
+     "Punishment, such as running laps as a penalty, is avoided as a training tool because it links training with negative feeling. A positive training environment works better."
+    ],
+    "tip": "Give strategies and say how each one keeps the performer motivated. Avoiding punishment as a training tool is a good point to include."
    },
    {
+    "b": "Reflection means looking back on a session or performance to learn from it. A coach does not just tell the performer what to think but guides them to reflect for themselves.",
     "h": "Guiding reflection",
     "points": [
-     "Training diaries: the performer records what they did, how it felt and what to improve.",
-     "Video review together, pausing at key moments to discuss them.",
-     "Questioning: what went well, and what would you change?",
-     "Reflection is linked to the goals of the next session."
+     "Training diaries: the performer records what they did, how it felt and what to improve, which builds a record they can look back on.",
+     "Video review together, pausing at key moments to discuss them, so the performer sees what actually happened.",
+     "Questioning: what went well, and what would you change? This makes the performer do the thinking.",
+     "Reflection is linked to the goals of the next session, so what is learned leads to action."
     ]
    },
    {
+    "b": "Practice time is limited, so time wasted standing around or setting up is time not spent improving. Managing it well means performers get the most useful activity from every session.",
     "h": "Managing practice and training time",
     "points": [
-     "Session plan with a timing for each activity.",
+     "Session plan with a timing for each activity, so the coach knows what must happen and when.",
      "Equipment set up in advance, so no time is lost during the session.",
      "Minimal waiting: small groups or rotating stations keep every performer active.",
-     "Clear transitions between activities, signalled in advance.",
+     "Clear transitions between activities, signalled in advance, so the group moves on quickly.",
      "Keep to the plan while allowing flexibility when the session needs changing.",
-     "If time runs short, protect the session's main objective first."
-    ]
+     "If time runs short, protect the session's main objective first, so the most important work is not the part that gets dropped."
+    ],
+    "tip": "When asked why a coach must manage time effectively, link each point to more activity time or a better session outcome, not just to being organised."
    },
    {
+    "b": "The syllabus asks you to analyse your own coaching, using a coach or choreographer you admire as a point of reference. The coach you choose is your own choice.",
     "h": "Evaluating your coaching against an admired coach",
     "points": [
-     "Choose criteria such as communication, planning, motivation, technical knowledge and results.",
-     "Compare your coaching with the admired coach's on each criterion, honestly.",
+     "Choose criteria such as communication, planning, motivation, technical knowledge and results, so the comparison is fair and specific.",
+     "Compare your coaching with the admired coach's on each criterion, honestly, including where you fall short.",
      "Identify one strength to keep and one area to develop.",
      "Set a specific action to improve the chosen area, such as reviewing video of your own sessions."
     ]
@@ -10808,154 +11870,183 @@
   ],
   "notes": [
    {
+    "b": "A competition needs more than one person keeping order. Different officials look after different jobs, and the type you meet depends on the activity.",
     "h": "Types of official",
     "points": [
-     "Referee or umpire: in charge of the contest, applying the rules and making the final decisions on play.",
-     "Linesperson or assistant referee: judges line calls or helps the referee with positions such as offside.",
-     "Umpires in Gaelic games: positioned around the field to watch their area, help the referee and signal scores to the scorers.",
-     "Judges in gymnastics, diving and dance: score routines and performances against set criteria.",
-     "Timekeepers and scorers: keep the official time and record scores and results.",
-     "Starters in athletics and swimming: start the race.",
-     "Video officials, such as the television match official in rugby, review contested decisions using video."
-    ]
+     "The referee or umpire is in charge of the contest. They apply the rules and make the final decisions on play, so every other official ultimately supports them.",
+     "A linesperson or assistant referee judges line calls (for example, whether a ball is in or out) or helps the referee with positions such as offside, because the referee cannot watch the whole pitch at once.",
+     "Umpires in Gaelic games are positioned around the field to watch their own area, help the referee and signal scores to the scorers.",
+     "Judges in gymnastics, diving and dance score routines and performances against set criteria, because these activities are not won by a clock or a goal.",
+     "Timekeepers keep the official time, and scorers record the scores and results, so the outcome is accurate and agreed.",
+     "Starters in athletics and swimming start the race, which makes sure every competitor begins at the same moment.",
+     "Video officials, such as the television match official (TMO) in rugby, review contested decisions using video footage."
+    ],
+    "tip": "When asked to outline the roles of two competition officials, pick two different types, such as a referee and a timekeeper or judge, and give each one's job in a named activity."
    },
    {
+    "b": "Whatever the activity, officials share a set of core jobs. Together they make the contest fair, safe and properly recorded.",
     "h": "Roles of officials",
     "points": [
-     "Apply and interpret the rules throughout the contest.",
-     "Keep the game flowing by restarting play promptly after each stoppage.",
-     "Ensure safety by stopping play when a risk appears.",
-     "Record scores and results accurately.",
-     "Manage discipline, using cards or sanctions.",
+     "Apply and interpret the rules throughout the contest, so that both sides are treated by the same standard.",
+     "Keep the game flowing by restarting play promptly after each stoppage, so that time is not wasted and players stay warm and focused.",
+     "Ensure safety by stopping play when a risk appears, for example when a player is injured or equipment is faulty.",
+     "Record scores and results accurately, because the final result depends on them.",
+     "Manage discipline, using cards or sanctions (penalties) against players who break the rules.",
      "Start and finish the contest, enforcing its time limits."
-    ]
+    ],
+    "tip": "If asked to describe two roles of an official, give each role with what the official actually does, not just its name. For example, say that they stop play when a risk appears, which keeps players safe."
    },
    {
+    "b": "You must be able to explain the main rules of the activities you study, covering fouls, sanctions and restarts. These examples show the pattern: what counts as a breach, what the penalty is and how play restarts.",
     "h": "Rules of selected activities",
     "points": [
-     "Soccer: a foul such as tripping an opponent is penalised with a direct free kick.",
+     "Soccer: a foul such as tripping an opponent is penalised with a direct free kick, so the fouled team gets a chance to restart play with an advantage.",
      "Soccer: after a goal, play restarts with a kick-off from the centre spot.",
-     "Basketball: a player who fouls a shooter gives the shooter free throws.",
-     "Basketball: after a made basket, the team that conceded inbounds the ball from behind the end line.",
-     "Tennis: a double fault, two consecutive faults on serve, loses the point.",
+     "Basketball: a player who fouls a shooter gives the shooter free throws, which compensates the shooter for the lost scoring chance.",
+     "Basketball: after a made basket, the team that conceded inbounds the ball (puts it back into play) from behind the end line.",
+     "Tennis: a double fault, which is two consecutive faults on serve, loses the point.",
      "Tennis: a let means the serve is replayed when the ball touches the net and lands in the correct service box."
-    ]
+    ],
+    "tip": "Questions may ask for three rules and the scoring system of a named activity. Choose an activity you know well and cover scoring, a foul with its sanction, and a restart."
    },
    {
+    "b": "Each activity has its own safety regulations, and a specific official is responsible for enforcing each one. Knowing both the rule and the person who enforces it is what the exam asks for.",
     "h": "Safety regulations and who enforces them",
     "points": [
-     "The referee checks for jewellery and studs before play.",
-     "A lifeguard or official enforces pool depth rules and bans diving in shallow water.",
-     "A high-jump official checks that the landing mats are in place and correctly positioned.",
-     "A hurling referee enforces the requirement to wear helmets with faceguards."
-    ]
+     "The referee checks for jewellery and studs before play, because these can cut or injure other players.",
+     "A lifeguard or official enforces pool depth rules and bans diving in shallow water, because hitting the bottom can cause serious injury.",
+     "A high-jump official checks that the landing mats are in place and correctly positioned, so jumpers land on a cushioned surface.",
+     "A hurling referee enforces the requirement to wear helmets with faceguards, which protect the head and face from the ball and the hurley."
+    ],
+    "tip": "For each activity you are asked about, give one safety regulation and name the official who implements it. Do not give the rule without the official."
    },
    {
+    "b": "Before a contest begins, officials check equipment, facilities and player clothing so that hazards are removed in advance. This subsection covers the official's checks.",
     "h": "Pre-competition safety checks",
     "points": [
-     "Equipment: balls correctly inflated, and posts and nets secure, with padding on posts where required.",
-     "Facilities: the playing surface is free of glass, holes and debris.",
-     "Facilities: lines are clearly marked, lighting is adequate and run-off areas are safe.",
-     "Player clothing: correct footwear and studs, and no jewellery.",
-     "Player clothing: mandatory protective equipment such as helmets, gumshields and shin guards.",
-     "Player clothing: kits that distinguish the teams."
-    ]
+     "Equipment: balls are correctly inflated, because a ball that is too hard or soft behaves unpredictably, and posts and nets are secure, with padding on posts where required.",
+     "Facilities: the playing surface is free of glass, holes and debris, which could cause cuts or trips.",
+     "Facilities: lines are clearly marked, lighting is adequate and run-off areas (the space around the pitch where players may slide or fall) are safe.",
+     "Player clothing: correct footwear and studs, and no jewellery, so that players do not injure themselves or others.",
+     "Player clothing: mandatory protective equipment such as helmets, gumshields and shin guards is worn.",
+     "Player clothing: kits distinguish the teams, so the officials and players can tell who is who."
+    ],
+    "tip": "When asked to outline two safety checks before a competition, give a precise check (such as checking the surface for glass or holes) and say what risk it prevents."
    },
    {
+    "b": "Gaelic football and hurling use a two-level scoring system. Scorers must record goals and points separately, so the written score has a fixed format.",
     "h": "Scoring and recording in Gaelic games",
     "points": [
      "A goal, struck into the net under the crossbar, is worth 3 points.",
      "A point, sent over the crossbar between the posts, is worth 1 point.",
-     "Scores are written as goals-points, so 2-10 means 2 goals and 10 points, a total of 16."
-    ]
+     "Scores are written as goals-points, so 2-10 means 2 goals and 10 points. In total that is 6 + 10 = 16, because each goal is worth 3."
+    ],
+    "tip": "If asked to outline a scoring system, state the value of each score and show how it is written, using an example such as 2-10 = 16."
    },
    {
+    "b": "Basketball scoring depends on where the shot is taken from, so the scorer must record how each basket was made.",
     "h": "Scoring in basketball",
     "points": [
-     "A field goal from inside the three-point line is worth 2 points.",
-     "A field goal from beyond the three-point line is worth 3 points.",
-     "A free throw is worth 1 point."
+     "A field goal (a basket scored in open play) from inside the three-point line is worth 2 points.",
+     "A field goal from beyond the three-point line is worth 3 points, which rewards the harder, longer shot.",
+     "A free throw, awarded after certain fouls, is worth 1 point."
     ]
    },
    {
+    "b": "Tennis does not count points one by one. Points build into games, and games build into sets, each with its own rule for who wins.",
     "h": "Scoring in tennis",
     "points": [
-     "Points are called love, 15, 30, 40 and game.",
-     "At 40 all, the score is deuce; winning the next point gives the player advantage, and winning a point from advantage wins the game.",
-     "A set is won by six games with a two-game margin.",
+     "Points within a game are called love (zero), 15, 30, 40 and game.",
+     "At 40 all, the score is deuce. Winning the next point gives the player advantage, and winning a point from advantage wins the game.",
+     "A set is won by six games with a two-game margin, so a player cannot win a set by a single game at 6-5.",
      "Tie-break rules vary by event."
-    ]
+    ],
+    "tip": "Remember the sequence love, 15, 30, 40, game, then deuce and advantage. Outline tennis if you need a scoring system that differs from a points-count system like basketball."
    },
    {
+    "b": "Some activities are decided by measurement, others by the opinion of judges. You should be able to outline both methods, because exam questions ask for two activities with different systems.",
     "h": "Scoring in athletics, swimming and judged activities",
     "points": [
-     "Athletics and swimming: times and distances are recorded.",
-     "Team scoring in athletics and swimming can be decided by the placing of each athlete.",
-     "Gymnastics, dance and diving are judged by panels of judges.",
-     "Panels score difficulty and execution or artistry.",
+     "Athletics and swimming: times and distances are recorded, because the winner is the one who is fastest or goes furthest.",
+     "Team scoring in athletics and swimming can be decided by the placing of each athlete, with points awarded for finishing position.",
+     "Gymnastics, dance and diving are judged by panels of judges, because the quality of a performance cannot be measured with a stopwatch.",
+     "Panels score difficulty and execution or artistry, so a harder routine and a cleaner or more expressive performance both earn credit.",
      "In gymnastics, the execution score starts from a maximum, and judges deduct for each fault."
-    ]
+    ],
+    "tip": "When asked to outline scoring for two activities with different systems, pair a measured one (such as athletics) with a judged one (such as gymnastics), and do not invent rules for unfamiliar activities."
    },
    {
+    "b": "Officiating is demanding for both body and mind. An official who cannot keep up with play or who loses composure will make poorer decisions.",
     "h": "Demands of officiating: fitness and psychological readiness",
     "points": [
-     "Cardio-respiratory endurance and speed are needed to keep up with play; for example, a rugby or soccer referee covers a large distance with repeated high-intensity efforts.",
-     "Agility and positioning: getting into the best place to see each decision.",
-     "Concentration for the full contest, without a lapse.",
-     "Confidence and decisiveness, making calls clearly and quickly.",
-     "Composure under pressure from players, coaches and crowds.",
-     "Resilience: recovering quickly after a mistake and staying consistent."
-    ]
+     "Cardio-respiratory endurance (the ability of heart and lungs to keep working) and speed are needed to keep up with play. For example, a rugby or soccer referee covers a large distance with repeated high-intensity efforts.",
+     "Agility and positioning: getting into the best place to see each decision, which means the official must move quickly and change direction.",
+     "Concentration for the full contest, without a lapse, because one missed incident can change the result.",
+     "Confidence and decisiveness, making calls clearly and quickly so that players accept them.",
+     "Composure (staying calm) under pressure from players, coaches and crowds.",
+     "Resilience: recovering quickly after a mistake and staying consistent, so one error does not affect later decisions."
+    ],
+    "tip": "To describe the demands of officiating, choose two headings, such as personal fitness and psychological readiness, and give specific demands with reasons under each."
    },
    {
+    "b": "An official needs the right clothing and kit to do the job properly. Each item has a purpose, and you may be asked to explain why it matters.",
     "h": "Personal attire and equipment",
     "points": [
-     "Attire: a correct, distinguishable uniform, suitable footwear for the surface and weather-appropriate layers.",
-     "Equipment: a whistle, with a spare, and a watch or stopwatch.",
-     "Equipment: a scorecard and pen, and cards: yellow, red and, where used, black.",
+     "Attire: a correct, distinguishable uniform, suitable footwear for the surface and weather-appropriate layers, so the official can stay comfortable and mobile.",
+     "Equipment: a whistle, with a spare in case the first fails, and a watch or stopwatch to keep time.",
+     "Equipment: a scorecard and pen to record scores and incidents, and cards: yellow, red and, where used, black.",
      "Equipment: a coin for the toss, flags, and communication headsets at higher levels.",
-     "Importance: a coin for the toss decides the start fairly.",
-     "Importance: attire marks the official out and conveys authority."
-    ]
+     "Importance: a coin for the toss decides the start fairly, for example which team chooses ends or who starts.",
+     "Importance: attire marks the official out and conveys authority, so players and spectators can recognise who is in charge."
+    ],
+    "tip": "Questions ask for the importance of two pieces of attire and two pieces of equipment in a named activity. Name the item and say why it matters, for example the spare whistle in case one fails."
    },
    {
+    "b": "Officials must communicate their decisions so that everyone understands and accepts them. The best style is assertive: firm and clear without being hostile.",
     "h": "Assertive communication",
     "points": [
      "Assertive communication is clear, confident, firm and calm.",
-     "Decisive signals and a strong, sharp whistle.",
-     "Eye contact when making a call.",
-     "Brief explanation of a decision when one is needed.",
-     "Assertive is not aggressive, such as shouting, and not passive, such as avoiding confrontation."
-    ]
+     "Decisive signals and a strong, sharp whistle show that the decision has been made, so players do not think the official is unsure.",
+     "Eye contact when making a call shows confidence and tells the player the decision is being communicated directly to them.",
+     "A brief explanation of a decision when one is needed helps players understand the call without opening a debate.",
+     "Assertive is not aggressive, such as shouting, and not passive, such as avoiding confrontation. Aggression provokes players, while passivity invites them to challenge decisions."
+    ],
+    "tip": "Do not describe assertive as aggressive. Say it is firm, calm and clear, and contrast it with aggressive and passive styles."
    },
    {
+    "b": "Players, coaches and crowds will sometimes disagree with decisions. The official's job is to keep control without turning the disagreement into an argument.",
     "h": "Managing conflict between official and participants",
     "points": [
-     "Stay calm and neutral.",
-     "Explain the decision and the rule behind it, briefly.",
-     "Speak through the captains when a group of players protests.",
-     "Apply disciplinary sanctions consistently.",
-     "Do not argue or debate a decision at length."
-    ]
+     "Stay calm and neutral, because an official who loses their temper loses authority.",
+     "Explain the decision and the rule behind it, briefly, so players know why the call was made.",
+     "Speak through the captains when a group of players protests, so the official deals with one person rather than a crowd.",
+     "Apply disciplinary sanctions consistently, so players see that the same behaviour always gets the same response.",
+     "Do not argue or debate a decision at length, because this wastes time and makes it look as though the decision can be changed."
+    ],
+    "tip": "Give strategies as actions, such as speaking through the captain, and say why each works. Keep this separate from conflict between players."
    },
    {
+    "b": "Tempers can flare between players during a contest. The official's aim is to stop trouble before it grows and to keep everyone safe.",
     "h": "Managing conflict between participants",
     "points": [
      "Separate the players quickly, before a confrontation escalates.",
-     "Intervene early and give warnings.",
-     "Call the captains to calm their team-mates.",
+     "Intervene early and give warnings, so that minor incidents do not become serious ones.",
+     "Call the captains to calm their team-mates, because players are more likely to listen to their own leader.",
      "Use advantage or a stoppage to cool the situation.",
-     "Apply sanctions consistently and report serious incidents."
-    ]
+     "Apply sanctions consistently and report serious incidents, so that proper action can be taken after the contest."
+    ],
+    "tip": "Exams ask you to identify and describe strategies officials use for conflict between participants. Name each strategy and add how it helps, such as calling the captains to calm their team-mates."
    },
    {
+    "b": "You are asked to evaluate your own officiating by comparing it with an official you admire, who is your own choice. The method is to judge yourself on set criteria, then turn the result into a plan.",
     "h": "Evaluating your officiating",
     "points": [
      "Choose criteria such as positioning, decision accuracy, communication, fitness and game management.",
-     "Compare your officiating with an official you admire on each criterion, honestly.",
+     "Compare your officiating with an official you admire on each criterion, honestly, so the evaluation is useful rather than flattering.",
      "Identify one strength and one target for development.",
-     "Set a concrete action, such as reviewing video of your own games."
-    ]
+     "Set a concrete action, such as reviewing video of your own games, so that the target can actually be achieved."
+    ],
+    "tip": "A full evaluation has criteria, an honest comparison, one strength, one target and an action. Leave any of these out and you lose the structure."
    }
   ],
   "questions": [
