@@ -22,7 +22,7 @@
       "h": "Clear communication",
       "b": "A discovery only helps science once other scientists can read it, understand it and use it. So scientists publish in a standard form and use precise language that anyone in the field can follow.",
       "points": [
-        "Scientists communicate mainly through papers in scientific journals. They also use conferences, review articles (summaries of many studies on one topic) and shared online databases such as genome databases (stores of DNA sequences).",
+        "Scientists communicate mainly through papers in scientific journals. They also use conferences, review articles (summaries of many studies on one topic) and shared online databases such as genome databases (stores of DNA sequences). There is more on genome databases in Bioinformatics: genome databases.",
         "A research paper has a standard structure: title and authors; abstract (a short summary); introduction (background and the aim or hypothesis); methods (exactly what was done, with materials and conditions).",
         "The paper then gives results (data in tables and graphs); discussion (what the results mean, the limitations, and comparison with other work); and references to other work.",
         "The methods section must be detailed enough for another scientist to repeat the work, which makes reproducibility (others getting the same result) possible.",
@@ -30,7 +30,7 @@
         "Open access journals make papers free to read for everyone, not only subscribers, so more people can use the findings.",
         "Preprints are papers posted online before peer review (checking by independent experts), e.g. on bioRxiv, launched 2013, and medRxiv, launched 2019, for medical research. They speed up sharing, as in the COVID-19 pandemic, but readers must remember that they have not yet been checked.",
         "Poor communication slows science. Gregor Mendel published his results on inheritance in pea plants in 1866, in the journal of the Natural History Society of Brünn (now Brno, Czech Republic). They were little read, and their importance was recognised only when other scientists reached the same conclusions independently in 1900.",
-        "Communicating with the public (news, policy and outreach) is also part of a scientist’s work. There is more on this in Evaluating evidence."
+        "Communicating with the public (news, policy and outreach) is also part of a scientist’s work. There is more on evaluating media reports in Evaluating evidence, and on presenting your own findings in Communicating results."
       ],
       "tip": "Mendel is the standard example of poor communication delaying science: his 1866 results were little read until 1900. When you mention preprints, say they are not yet peer reviewed."
     },
@@ -51,7 +51,7 @@
     },
     {
       "h": "How peer review works",
-      "b": "Before a paper is published, other experts check it. This is peer review, the main quality check in science, and it follows a set sequence of steps.",
+      "b": "Before a paper is published, other experts check it. This is peer review, a quality check that follows a set sequence of steps.",
       "points": [
         "Peer review is the evaluation of a scientific paper by independent experts in the same field, the author’s “peers”, before it is published.",
         "Steps 1 to 3: the scientists submit the paper to a journal; the editor checks that it suits the journal and is of reasonable quality, and may reject it straight away; if it passes, the editor sends it to usually two or three independent experts, called reviewers or referees.",
@@ -83,7 +83,7 @@
       "points": [
         "A result is reproducible if other scientists, working independently in other laboratories, get the same result when they repeat the work, using the same or different methods. There is more on repeatability and reproducibility in Objectivity and data quality.",
         "Science relies on reproducibility because a single result may be due to chance, error, an unusual sample, bias or fraud. Agreement between independent groups shows that the result is a real feature of nature.",
-        "Only reproduced findings become accepted knowledge and can support theories. For example, the H. pylori explanation of stomach ulcers (that a bacterium causes them) was accepted once others reproduced the findings.",
+        "Only reproduced findings become accepted knowledge and can support theories. For example, the H. pylori explanation of stomach ulcers (that a bacterium causes them) was accepted once others reproduced the findings. There is more on this in The nature of scientific knowledge.",
         "Reproducibility depends on clear communication: full methods, raw data and materials must be shared so that others can repeat the work.",
         "Not all published results reproduce. Scientists at the company Amgen reported in 2012 that they could confirm the findings of only 6 of 53 “landmark” preclinical cancer studies (early studies done before testing in patients).",
         "Causes of failure include small samples, selective reporting of positive results, pressure to publish, poorly described methods and, rarely, fraud.",

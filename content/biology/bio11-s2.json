@@ -21,11 +21,11 @@
       "b": "Parents pass genes on through special sex cells. Following the chromosome number from parent to gametes to zygote shows how each generation gets its genes and why the number stays constant.",
       "points": [
         "A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.",
-        "Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis, a cell division that halves the chromosome number, which is why gametes must be haploid: it stops the number doubling every generation.",
+        "Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis. Gametes must be haploid because fertilisation adds the two sets together, so otherwise the chromosome number would double every generation.",
         "Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other. There is more on this in Variation.",
         "Asexual reproduction involves one parent and no gametes, so it produces genetically identical offspring, called clones.",
         "Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote (a cell with two sets of chromosomes), the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.",
-        "The zygote divides by mitosis (division that copies a cell exactly), so every body cell carries the same set of chromosomes.",
+        "The zygote divides by mitosis, so every body cell carries the same set of chromosomes.",
         "Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis."
       ],
       "tip": "Expect to state that a human sperm or egg has 23 chromosomes and to explain why gametes must be haploid. Write that fertilisation is the fusion of the nuclei, not just the gametes meeting, and that the zygote is diploid."
@@ -71,7 +71,7 @@
         "Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.",
         "A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it."
       ],
-      "tip": "Write 'dominant allele', never 'dominant gene'. Do not call recessive alleles weaker, less common or lost: they stay in heterozygotes and can be passed on. Dominant and recessive definitions are regularly asked."
+      "tip": "Write 'dominant allele', never 'dominant gene'. Do not call recessive alleles weaker, less common or lost: they stay in heterozygotes and can be passed on. Dominant and recessive definitions may be asked."
     },
     {
       "h": "Gene expression",

@@ -50,9 +50,11 @@ def pack(bank_path):
 
 def collect():
     tags, problems = {}, []
-    expected = {}
+    expected, level = {}, {}
     for f in sorted((WORK / 'in').glob('b*.json')):
-        expected.update({p['part']: f.stem for p in json.loads(f.read_text())})
+        for p in json.loads(f.read_text()):
+            expected[p['part']] = f.stem
+            level[p['part']] = p['level']
         out = WORK / 'out' / f.name
         if not out.exists():
             problems.append(f'{f.stem}: no output')
@@ -78,7 +80,16 @@ def collect():
         if t['primary']:
             prim[t['primary']] += 1
     (HERE / 'skill-tags.json').write_text(json.dumps(tags, ensure_ascii=False, indent=1) + '\n')
+    # an OL exam part needing an HL-only skill means a wrong tag or a wrong level in skills.py
+    clash = {}
+    for part, t in tags.items():
+        if level[part] == 'ordinary':
+            for i in t['skills']:
+                if SKILLS[i]['level'] == 'HL':
+                    clash.setdefault(i, []).append(part)
     report = dict(parts=len(expected), tagged=len(tags), problems=problems,
+                  olPartsUsingHL={i: len(v) for i, v in sorted(clash.items(), key=lambda kv: -len(kv[1]))},
+                  olPartsUsingHLExamples={i: v[:3] for i, v in clash.items()},
                   primaryUnder3=sorted(i for i, c in prim.items() if c < 3),
                   neverUsed=sorted(i for i, c in count.items() if c == 0),
                   primaryCounts=prim)

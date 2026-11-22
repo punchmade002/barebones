@@ -50,7 +50,7 @@
         "Histone modification: chemical groups are added to or removed from the histone proteins that the DNA is wound around, like thread on spools. There is more on this in Chromosome structure and genes.",
         "Adding acetyl groups loosens the packing so the genes there can be read and are switched on; other changes tighten the packing so the genes cannot be read and are switched off.",
         "Tightly packed, heavily methylated DNA is inactive; loosely packed, unmethylated DNA is active. So the same DNA can give different phenotypes depending on its marks.",
-        "Diagram: the same gene twice. Left: DNA loosely wound on histones, no methyl groups, arrow 'gene read → protein made'. Right: DNA tightly packed, methyl groups as small flags, cross through 'gene read'. Label DNA, histone, methyl group, gene on, gene off."
+        "Diagram: the same gene twice. Left: DNA loosely wound on histones, no methyl groups, arrow 'gene read → protein made → gene switched on'. Right: DNA tightly packed, methyl groups as small flags, cross through 'gene read → gene switched off'. Label DNA, histone, methyl group, gene on, gene off."
       ],
       "tip": "Learn the direction: methylation usually switches genes off, and histone acetylation switches them on. Students lose marks by reversing these. Always add that the base sequence is unchanged."
     },

@@ -20,7 +20,7 @@
     },
     {
       "h": "Benefits: predicting offspring and genetic counselling",
-      "b": "The main strength of Mendelian genetics is predictive power: if you know the parents' genotypes, you can work out the chances for their children. Medicine uses this every day for single-gene disorders.",
+      "b": "The main strength of Mendelian genetics is predictive power: if you know the parents' genotypes, you can work out the chances for their children. Medicine uses this idea in genetic counselling for single-gene disorders.",
       "points": [
         "Predicting offspring: knowing the parents' genotypes, a cross predicts the probability of each genotype and phenotype in the offspring. For example, two carriers of cystic fibrosis (people with one faulty recessive allele who are not themselves affected) have a 1 in 4 chance of an affected child.",
         "Genetic counselling and screening in medicine: families with a history of a single-gene disorder can be told the risks to future children, so they can make informed decisions.",
@@ -50,7 +50,7 @@
         "Mendel's idea that traits are passed on by separate, unchanging units (genes) that segregate in gametes is the basis of later discoveries, such as genes being carried on chromosomes, DNA being the genetic material, and gene mapping.",
         "It also explains how hidden recessive alleles keep variation in a population, because they are carried unseen by heterozygotes. Natural selection acts on this variation. There is more on this in Variation.",
         "Genetic databases and testing: modern genetic tests and genome databases identify alleles known to cause single-gene diseases.",
-        "Mendel's rules then turn a test result into a risk for a person's children, so the database finding becomes useful advice for a family."
+        "Mendel's rules then turn a test result into a risk for a person's children, so the database finding becomes useful advice for a family. There is more on database searches in Bioinformatics: genome databases."
       ],
       "tip": "A good answer to a benefit question gives the benefit, a reason it works and one example. Pick one benefit you can support fully rather than listing several."
     },
@@ -75,7 +75,7 @@
       "points": [
         "Common diseases are multifactorial (caused by several factors together): conditions such as heart disease, type 2 diabetes and most cancers depend on many genes plus lifestyle and environment (diet, exercise, smoking).",
         "So a person's risk can be estimated but not predicted from a simple cross. There is more on this in Causes, prevention and treatment of cancer.",
-        "Epigenetic effects: environment and behaviour can switch genes on or off without changing the DNA sequence, and some such changes can be passed on, which Mendel's laws don't account for."
+        "Epigenetic effects: environment and behaviour can switch genes on or off without changing the DNA sequence, and some such changes can be passed on, which Mendel's laws don't account for. There is more on this in Genetic and epigenetic mechanisms."
       ],
       "tip": "Stimulus questions may describe a disease. If it depends on lifestyle as well as genes, such as heart disease or type 2 diabetes, it is multifactorial and does not follow Mendelian inheritance."
     },
@@ -109,7 +109,7 @@
         "Most human traits and common diseases are complex, so Mendel's rules alone cannot predict them.",
         "Modern genetics adds polygenic risk, gene–environment interaction, epigenetics and whole-genome sequencing (reading all of a person's DNA) to Mendel's principles rather than replacing them."
       ],
-      "tip": "Exams often ask for one benefit and one limitation with an example each. Frame limitations as situations where Mendel's laws don't predict the result, not as mistakes Mendel made."
+      "tip": "Be ready to give one benefit and one limitation with an example each. Frame limitations as situations where Mendel's laws don't predict the result, not as mistakes Mendel made."
     }
   ],
   "keyTerms": [

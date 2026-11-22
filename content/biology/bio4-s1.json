@@ -119,7 +119,7 @@
         "The balloons also have no alveoli (the air sacs of the lungs). There is more on this in “Gas exchange and the breathing mechanism”.",
         "Punnett square: predicts the expected ratios of offspring genotypes (the alleles they carry) and phenotypes (their observable features).",
         "Assumptions of the Punnett square: one gene controls the trait; each gamete (sex cell) carries one allele; fertilisation is random; all offspring survive.",
-        "Limitations of the Punnett square: the ratios are only probabilities, so small families often differ from them; and it does not apply to traits controlled by many genes or by the environment."
+        "Limitations of the Punnett square: the ratios are only probabilities, so small families often differ from them; and it does not apply to traits controlled by many genes or by the environment. There is more on this in “Monohybrid crosses” and “Benefits and limitations of Mendelian genetics”."
       ],
       "tip": "For the bell jar, the parts and their limitations are the point. If asked for a limitation, say what the model does differently from the real structure, for example rigid walls against moving ribs."
     },
@@ -127,8 +127,9 @@
       "h": "Further models in the course: ecology, disease and homeostasis",
       "b": "Diagrams and equations model whole systems, such as ecosystems, matter cycles and outbreaks. Each shows the pattern but leaves out detail.",
       "points": [
-        "Food chains, food webs and pyramids of numbers model feeding relationships and energy flow. Limitations: real feeding relationships are more complex, and pyramids of numbers can be inverted, e.g. many insects on one tree. There is more on this in “Energy and nutrient transfer”.",
+        "Food chains, food webs and pyramids of numbers model feeding relationships and energy flow. Limitations: real feeding relationships are more complex, and pyramids of numbers can be inverted, e.g. many insects on one tree. There is more on this in “Energy and nutrient transfer” and “Pyramids of numbers”.",
         "Carbon and nitrogen cycle diagrams model how matter moves between living things and the environment. They show processes but not their rates or amounts, so they cannot tell you how fast carbon moves or how much is stored.",
+        "There is more on these cycles in “The carbon cycle” and “The nitrogen cycle”.",
         "Disease-spread models use R₀, the average number of people one infected person infects in a population with no immunity. They predict that an outbreak grows if R₀ is above 1 and dies out if it is below 1, and how many people must be immune to stop spread.",
         "Assumptions of disease models: people mix randomly and R₀ stays constant. In reality, behaviour, vaccination, seasons and new variants change it, so predictions are updated as new data come in. There is more on this in “Emergence and spread of infectious disease”.",
         "Homeostasis (keeping the body’s internal conditions steady) is modelled as a stimulus–response model, with negative feedback. There is more on this in “Homeostasis as a stimulus-response model”."

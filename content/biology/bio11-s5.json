@@ -135,7 +135,7 @@
         "Offspring genotypes: 1 Tt : 1 tt.",
         "Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf."
       ],
-      "tip": "In the gametes line, write t once for the tt parent. Writing it twice there loses marks, though a 2 × 2 square may repeat it."
+      "tip": "In the gametes line, write t once for the tt parent. The gametes line lists each different allele a parent can pass on, though a 2 × 2 square may repeat it."
     },
     {
       "h": "All six monohybrid crosses",
@@ -181,7 +181,8 @@
         "Gametes: F, f × F, f, because each carrier makes both types.",
         "Offspring genotypes: 1 FF : 2 Ff : 1 ff.",
         "Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.",
-        "Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither. There is more on this in Benefits and limitations of Mendelian genetics."
+        "Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.",
+        "Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics."
       ],
       "tip": "Exams ask for the probability that a child of two carriers of a recessive disorder will be affected: 1 in 4, or 25%."
     }
