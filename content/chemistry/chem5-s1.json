@@ -6,187 +6,214 @@
   "notes": [
     {
       "h": "Why atoms bond",
+      "b": "Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.",
       "points": [
-        "A chemical bond is a force of attraction that holds atoms or ions together in an element or compound.",
-        "Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level like the nearest noble gas (the octet rule); bonding lowers their energy.",
-        "Only the outer (valence) electrons take part in bonding."
+        "A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.",
+        "Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.",
+        "Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared."
       ]
     },
     {
       "h": "Ionic bonding",
+      "b": "In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.",
       "points": [
-        "An ionic bond is the electrostatic attraction between oppositely charged ions.",
+        "An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.",
         "It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.",
-        "Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻.",
-        "Both ions have the electron arrangement of a noble gas.",
-        "Ionic compounds form a giant lattice of ions, not molecules.",
+        "Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.",
+        "Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.",
+        "Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).",
         "In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.",
-        "The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻.",
+        "The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.",
         "Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions."
-      ]
+      ],
+      "tip": "An ionic bond is the attraction between the ions, not the transfer of electrons itself. Ionic compounds have no molecules, so never write a molecule of sodium chloride. Exams ask you to explain how an ionic compound forms, with an example."
     },
     {
       "h": "Covalent bonding",
+      "b": "Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.",
       "points": [
-        "A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair.",
-        "A single bond is one shared pair, as in H–H and Cl–Cl.",
+        "A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.",
+        "A single bond is one shared pair, such as in H–H and Cl–Cl.",
         "A double bond is two shared pairs, as in O=O and C=O in CO₂.",
         "A triple bond is three shared pairs, as in N≡N.",
-        "Covalently bonded atoms form molecules, e.g. H₂O, CH₄ and NH₃.",
-        "A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout, e.g. diamond."
-      ]
+        "Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.",
+        "A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond."
+      ],
+      "tip": "Exams ask you to define ionic bond and covalent bond. Do not teach dative (coordinate) bonding here, as it is not on the specification."
     },
     {
       "h": "Pure and polar covalent bonds",
+      "b": "Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.",
       "points": [
         "A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.",
         "The C–H bond is nearly non-polar.",
         "A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.",
-        "The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−."
-      ]
+        "The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred."
+      ],
+      "tip": "Exams ask you to distinguish polar and non-polar covalent bonds. Give the reason in each case: equal attraction for the electrons, or one atom attracting them more strongly, with an example of each."
     },
     {
       "h": "The bonding continuum",
+      "b": "Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.",
       "points": [
-        "Bonds are not simply ionic or covalent; they lie on a continuum from pure covalent, through polar covalent, to ionic.",
-        "At one end, pure covalent bonds share electrons equally.",
-        "In the middle, polar covalent bonds share electrons unequally.",
-        "At the other end, ionic bonds involve complete transfer of electrons.",
+        "Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.",
+        "At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.",
+        "In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.",
+        "At the other end, ionic bonds involve complete transfer of electrons, so ions form.",
         "Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).",
-        "Most bonds have some ionic and some covalent character.",
-        "The difference in electronegativity between the atoms decides where a bond lies (see \"Bond type and intermolecular forces\").",
+        "Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.",
+        "The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.",
         "Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end."
-      ]
+      ],
+      "tip": "Exams ask you to describe the bonding continuum. Cover equal sharing, unequal sharing and complete transfer, and say that most bonds have some ionic and some covalent character. Do not teach electronegativity values or cut-off differences here."
     },
     {
       "h": "Comparing the types",
+      "b": "Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.",
       "points": [
         "Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).",
         "Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.",
         "Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.",
-        "Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons, which explains why metals conduct electricity."
+        "Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity."
       ]
     },
     {
       "h": "Valency and the octet rule",
+      "b": "To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.",
       "points": [
         "Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.",
         "The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.",
-        "Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium.",
-        "Elements in group 1 and group 17 have a valency of 1.",
-        "Elements in group 2 and group 16 have a valency of 2.",
-        "Elements in group 13 and group 15 have a valency of 3.",
-        "Elements in group 14 have a valency of 4."
+        "Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).",
+        "Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.",
+        "Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).",
+        "Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).",
+        "Elements in group 14 have a valency of 4, because they share four electrons to reach an octet."
       ]
     },
     {
       "h": "Predicting ionic formulae",
+      "b": "An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.",
       "points": [
         "Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.",
         "Step 2: Combine the ions so that the total positive charge equals the total negative charge.",
         "Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.",
         "Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.",
         "Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻."
-      ]
+      ],
+      "tip": "Exams ask you to predict the formula of a compound. Write each ion's charge first, then balance them so the total charge is zero. Do not predict formulae with variable-valency (transition) metals, as they are not required."
     },
     {
       "h": "Compound ions",
+      "b": "Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.",
       "points": [
         "Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.",
-        "Positive compound ion: ammonium NH₄⁺.",
-        "Brackets are used round a compound ion when more than one is needed, e.g. Ca(OH)₂ and (NH₄)₂SO₄."
+        "Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.",
+        "Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄."
       ]
     },
     {
       "h": "Predicting covalent formulae",
+      "b": "Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.",
       "points": [
         "Covalent formulae: atoms share enough electron pairs to complete each octet.",
-        "Hydrogen (valency 1) and oxygen (valency 2) form H₂O.",
-        "Nitrogen (valency 3) and hydrogen form NH₃.",
-        "Carbon (valency 4) and hydrogen form CH₄.",
+        "Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.",
+        "Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.",
+        "Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.",
         "Carbon and oxygen form CO₂, with two double bonds."
-      ]
+      ],
+      "tip": "Exams ask you to predict the formula of a compound. Use each atom's valency to see how many bonds it makes."
     },
     {
       "h": "Lewis (dot-and-cross) diagrams",
+      "b": "A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.",
       "points": [
-        "A Lewis diagram shows the outer electrons of each atom as dots or crosses.",
-        "Shared pairs of electrons are drawn between the atoms they join.",
+        "A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.",
+        "Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.",
         "Lone pairs are pairs of outer electrons that are not used in bonding.",
         "Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.",
-        "Magnesium oxide is drawn as [Mg]²⁺ [O]²⁻.",
+        "Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.",
         "Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.",
-        "Ammonia, NH₃, has one lone pair on nitrogen.",
+        "Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.",
         "O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.",
         "Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled."
-      ]
+      ],
+      "tip": "Exams ask you to draw dot-and-cross diagrams for given ionic and covalent compounds. Show charges in square brackets for ionic compounds, and show lone pairs for covalent ones."
     },
     {
       "h": "Orbital overlap",
+      "b": "Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.",
       "points": [
         "A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.",
-        "The shared pair occupies the overlap region between the two nuclei."
+        "The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it."
       ]
     },
     {
       "h": "Sigma and pi bonds (Higher Level only)",
+      "b": "The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.",
       "points": [
         "A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.",
         "Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.",
         "A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.",
-        "Every single bond is a σ bond.",
+        "Every single bond is a σ bond, so H–H is one σ bond.",
         "A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.",
         "π bonds are weaker than σ bonds because sideways overlap is less effective.",
         "π bonds prevent rotation about a double bond.",
         "Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π)."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish sigma and pi bonds and to state the number of each in a molecule. For nitrogen, N₂, the answer is one σ and two π."
     },
     {
       "h": "Delocalised bonding (Higher Level only)",
+      "b": "Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.",
       "points": [
         "In delocalised bonding, electrons are spread over several atoms rather than confined between two.",
         "In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.",
         "This forms a ring of delocalised π electrons above and below the plane of the ring.",
-        "All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds.",
-        "Benzene's structure is used again in the chapter \"Allotropes of Carbon. Hydrocarbons\"."
+        "All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons."
       ]
     },
     {
       "h": "Extending the rules to element 36 (Higher Level only)",
+      "b": "Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).",
       "points": [
         "The same rules apply to elements 21–36 in the main groups.",
-        "Potassium bromide is K⁺Br⁻.",
-        "Calcium bromide is CaBr₂.",
-        "Gallium (group 13) forms Ga³⁺ ions.",
-        "Arsenic (group 15) and hydrogen form AsH₃.",
-        "Selenium (group 16) and hydrogen form H₂Se."
+        "Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.",
+        "Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.",
+        "Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.",
+        "Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.",
+        "Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2."
       ]
     },
     {
       "h": "Limitations in predicting bonding (Higher Level only)",
+      "b": "The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.",
       "points": [
         "Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.",
-        "Elements in period 3 and beyond can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.",
+        "Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.",
         "SF₆ has twelve electrons around sulfur.",
         "The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.",
         "They cannot show delocalised bonding, as in benzene.",
         "Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum."
-      ]
+      ],
+      "tip": "Exams ask you to state an exception to the octet rule. Give BF₃ (six electrons around boron) or PCl₅ or SF₆ (more than eight), or say what the rule cannot predict."
     },
     {
       "h": "The VSEPR theory (Higher Level only)",
+      "b": "The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.",
       "points": [
         "VSEPR stands for valence shell electron pair repulsion.",
-        "The theory applies to molecules of the form ABn, with up to four pairs of electrons around a central atom and single bonds only.",
+        "The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.",
         "Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.",
-        "Both bonding pairs and lone pairs count.",
+        "Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.",
         "Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.",
         "Lone pairs therefore squeeze the bond angles smaller.",
-        "The shape is described by the positions of the atoms only, not the lone pairs."
-      ]
+        "The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal."
+      ],
+      "tip": "Stick to single bonds and up to four pairs (ABn). Do not include double bonds such as CO₂, or five or six pairs such as PCl₅ and SF₆."
     },
     {
       "h": "Method for predicting shape (Higher Level only)",
+      "b": "Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.",
       "points": [
         "Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.",
         "Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.",
@@ -195,27 +222,32 @@
     },
     {
       "h": "The five shapes (Higher Level only)",
+      "b": "With up to four pairs around the central atom, only five shapes are possible. Each depends on how many pairs are bonding and how many are lone.",
       "points": [
-        "Two bonding pairs and no lone pairs: linear, 180°, e.g. BeCl₂ (gas).",
-        "Three bonding pairs and no lone pairs: trigonal planar, 120°, e.g. BF₃.",
-        "Four bonding pairs and no lone pairs: tetrahedral, 109.5°, e.g. CH₄, CCl₄ and SiH₄.",
+        "Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).",
+        "Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.",
+        "Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.",
         "Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.",
         "Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.",
         "H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°."
-      ]
+      ],
+      "tip": "NH₃ is pyramidal, not trigonal planar, and H₂O is V-shaped, not linear. Exams ask you to predict and explain the shapes of molecules such as CH₄, NH₃, H₂O, BF₃, BeCl₂, PH₃ and H₂S."
     },
     {
       "h": "Bond angles and lone pairs (Higher Level only)",
+      "b": "Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.",
       "points": [
         "NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.",
-        "The lone pairs push the bonds closer together, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O."
-      ]
+        "The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O."
+      ],
+      "tip": "Exams ask you to explain why the bond angle in water is less than in methane. Say that water has two lone pairs, which repel the bonding pairs more strongly than bonding pairs repel each other."
     },
     {
       "h": "Visualising shapes (Higher Level only)",
+      "b": "Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.",
       "points": [
         "Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.",
-        "3D models: ball-and-stick kits show bond angles.",
+        "3D models: ball-and-stick kits show bond angles, so you can see the shape directly.",
         "Digital models, from molecular-modelling software or apps, can be rotated on screen.",
         "Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled."
       ]
