@@ -1154,7 +1154,7 @@
      "Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain, much as beads are threaded on a string.",
      "DNA is deoxyribonucleic acid; RNA is ribonucleic acid. Both contain the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.",
      "Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base (a nitrogen-containing molecule) attached to the sugar.",
-     "The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose, which is where its name comes from: deoxy means without oxygen.",
+     "The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose, which is where its name comes from: deoxy means an oxygen has been removed.",
      "Each nucleic acid has four bases. DNA: adenine (A), thymine (T), cytosine (C) and guanine (G). RNA: adenine (A), uracil (U), cytosine (C) and guanine (G); uracil takes the place of thymine.",
      "Adenine and guanine are larger, double-ringed bases, called purines; cytosine, thymine and uracil are smaller, single-ringed bases, called pyrimidines.",
      "A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information, just as the order of letters makes a word.",
@@ -11229,7 +11229,7 @@
     "h": "Worked example: water balance (hormonal)",
     "points": [
      "The hypothalamus detects the water concentration of the blood, and the pituitary adjusts the release of ADH (antidiuretic hormone).",
-     "ADH changes how much water the kidneys reabsorb (take back into the blood). There is more on this in The Urinary System."
+     "ADH changes how much water the kidneys reabsorb (take back into the blood): when the blood is short of water, more ADH is released, so more water is reabsorbed and less is lost in urine. There is more on this in The Urinary System."
     ]
    },
    {
