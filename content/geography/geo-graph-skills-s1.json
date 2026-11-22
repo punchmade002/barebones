@@ -6,61 +6,76 @@
   "notes": [
     {
       "h": "Reading a figure or table",
-      "b": "Read the labels and units before reading any value. Most lost marks come from a wrong unit, year or column.",
+      "b": "Every figure question starts the same way: read the labels and units before reading any value. Most lost marks come from a wrong unit, year or column, because a correct reading of the wrong one still scores nothing.",
       "points": [
-        "Check the title, both axis labels, the key or legend, the units (%, thousands, millions, €m, hectares, mm, °C, per 1,000), the years shown and the source line.",
+        "Check the title, both axis labels (the words along the horizontal and vertical lines), the key or legend (the box explaining colours or symbols), the units (%, thousands, millions, €m, hectares, mm, °C, per 1,000), the years shown and the source line. Each one changes what a number means.",
         "Read a bar or line value by running a ruler from the top of the bar or point across to the vertical axis, estimating between gridlines, and quoting the value with its unit.",
-        "In a table, find the row and the column and read the cell where they meet; check the totals row before using a figure.",
-        "Compare two years by reading neighbouring columns; to spot the one that did not change, read across the whole row.",
-        "Highest and lowest: scan every value, not just the first and last. For a ranking, list the values from largest to smallest.",
-        "Count how many items are above an average line by counting the bars or points whose tops lie above it.",
-        "Twice as much: double the smaller value and look for the value that matches it.",
-        "Infographics combine headline numbers, icons, small charts and county maps on one page. Read each panel's own label and unit: headline figures are often totals, while panels may show percentages."
-      ]
+        "In a table, find the row and the column and read the cell where they meet. Check the totals row before using a figure, so you know whether a number is a part or the whole.",
+        "Compare two years by reading neighbouring columns. To spot the one that did not change, read across the whole row, because the unchanged value is the one that stays the same between years.",
+        "For highest and lowest, scan every value, not just the first and last, because the extreme can sit in the middle. For a ranking, list the values from largest to smallest.",
+        "To count how many items are above an average line, count the bars or points whose tops lie above it.",
+        "For 'twice as much', double the smaller value and look for the value that matches it.",
+        "An infographic (a single page combining headline numbers, icons, small charts and county maps) has several panels. Read each panel's own label and unit: headline figures are often totals, while panels may show percentages."
+      ],
+      "tip": "Short exam questions ask you to read a value from a bar chart, line graph, pie chart, table or infographic, find the highest or lowest, count items above an average line, find an item twice another, or pick the year of no change. Check the unit, year and column before you answer."
     },
     {
-      "h": "Describing and explaining trends",
-      "b": "A description states what the figure shows. An explanation states why it shows it.",
+      "h": "Describing trends: vocabulary and method",
+      "b": "A description states what the figure shows. Using exact trend words and quoting numbers turns a vague answer into a complete one.",
       "points": [
-        "Trend vocabulary: increase, rise or growth; decrease, fall or decline; steady, constant or no change; fluctuate; peak (highest point); trough (lowest point); gradual or rapid (sharp); levelling off.",
-        "The overall trend is the long-term direction. A short-term change, such as a single year's dip, is described separately.",
+        "Trend vocabulary: increase, rise or growth; decrease, fall or decline; steady, constant or no change; fluctuate (go up and down); peak (highest point); trough (lowest point); gradual or rapid (sharp); levelling off (the change slows and flattens).",
+        "The overall trend is the long-term direction. A short-term change, such as a single year's dip, is described separately so it does not hide the main pattern.",
         "To describe a trend, state the overall direction, the start and end values with their years and units, and the period of fastest change.",
-        "Name any peak, trough or reversal, and quantify the change as the difference, the percentage change, or both.",
-        "Point out anomalies: values that break the pattern of the others.",
-        "To compare two series, say which is higher, when the lines cross, whether the gap widens or narrows, and the difference in a given year (for example, net migration = immigration minus emigration).",
-        "To explain a trend, link the pattern to one cause from the relevant chapter, in one clause.",
-        "To evaluate a figure, check whether an axis that does not start at zero or has uneven intervals exaggerates change, whether unevenly spaced dates distort the trend, whether the sample is small, and whether the source is reliable and recent.",
-        "Percentages can hide small totals: a large percentage rise may be a small change in numbers."
-      ]
+        "Name any peak, trough or reversal (a change of direction), and quantify the change as the difference, the percentage change, or both.",
+        "Point out anomalies: values that break the pattern of the others."
+      ],
+      "tip": "At Higher Level you are asked to analyse and evaluate data, which means describing trends, comparisons and anomalies. Give the direction, then numbers with years and units."
+    },
+    {
+      "h": "Comparing series, explaining and evaluating",
+      "b": "Once a trend is described, the next marks come from comparing it with another, saying why it happened and judging whether the figure can be trusted.",
+      "points": [
+        "To compare two series (two lines or two sets of bars), say which is higher, when the lines cross, whether the gap widens or narrows, and the difference in a given year. For example, net migration = immigration minus emigration.",
+        "To explain a trend, link the pattern to one cause from the relevant chapter, in one clause. Explaining means saying why the figure looks as it does, not just what it shows.",
+        "To evaluate a figure, check whether an axis that does not start at zero or has uneven intervals exaggerates change, because a small rise then looks large.",
+        "Also check whether unevenly spaced dates distort the trend, whether the sample (the group measured) is small, and whether the source is reliable and recent.",
+        "Percentages can hide small totals: a large percentage rise may be a small change in numbers, because a small starting number is easy to double."
+      ],
+      "tip": "Data questions often add a short 'explain one reason' part. That content belongs to the chapter the data is about, so give one cause in a clause. Keep describe (what) and explain (why) separate."
     },
     {
       "h": "Totals, differences, means and ranges",
-      "b": "These worked values come from the invented (illustrative) population of six towns, in thousands: Town A 18, Town B 32, Town C 25, Town D 41, Town E 12, Town F 29.",
+      "b": "These worked values come from the invented (illustrative) population of six towns, in thousands: Town A 18, Town B 32, Town C 25, Town D 41, Town E 12, Town F 29. Each statistic has a short method that you can repeat on any data set.",
       "points": [
-        "Total (sum): 18 + 32 + 25 + 41 + 12 + 29 = 157 thousand (illustrative).",
+        "Total (sum): add every value. 18 + 32 + 25 + 41 + 12 + 29 = 157 thousand (illustrative).",
         "Difference: subtract the smaller value from the larger and say which is larger. Town B (32) exceeds Town C (25) by 7 thousand (illustrative).",
         "Mean (average) = total of the values ÷ number of values: 157 ÷ 6 = 26.2 thousand, to one decimal place (illustrative).",
-        "Median: put the values in order (12, 18, 25, 29, 32, 41); with an even number of values, average the middle two: (25 + 29) ÷ 2 = 27 thousand (illustrative).",
+        "Median (the middle value): put the values in order (12, 18, 25, 29, 32, 41); with an even number of values, average the middle two: (25 + 29) ÷ 2 = 27 thousand (illustrative).",
         "Mode: the most frequent value. The six towns have no mode because no value repeats.",
-        "Range = highest value minus lowest value: 41 − 12 = 29 thousand (illustrative)."
-      ]
+        "Range = highest value minus lowest value: 41 − 12 = 29 thousand (illustrative), which shows how spread out the values are."
+      ],
+      "tip": "Short questions ask you to calculate a difference or a mean. Round sensibly and keep the unit and the multiplier (thousands) in the answer."
     },
     {
       "h": "Percentages and percentage change",
+      "b": "Percentages let you compare parts of different-sized wholes, but the method matters: dividing by the wrong number, or mixing up a percentage with a percentage point, gives a wrong answer.",
       "points": [
         "Percentage of a total = part ÷ total × 100. Illustrative: Town D's share of the six towns is 41 ÷ 157 × 100 = 26.1%.",
         "Percentage change = (new value − old value) ÷ old value × 100. A positive result is an increase; a negative result is a decrease.",
-        "Always divide by the old (earlier) value. Illustrative Country P, broadband households: 20% in 2000 and 90% in 2025, so the percentage change is (90 − 20) ÷ 20 × 100 = 350%.",
+        "Always divide by the old (earlier) value, because the change is measured against where you started. Illustrative Country P, broadband households: 20% in 2000 and 90% in 2025, so the percentage change is (90 − 20) ÷ 20 × 100 = 350%.",
         "Percentage points: when both values are already percentages, the change is a difference in percentage points. A rise from 20% to 30% is a 10 percentage-point increase, but a 50% increase in the percentage change, (30 − 20) ÷ 20 × 100.",
         "When a question asks by what percentage a percentage changed, the subtraction is the usual reading: give the answer in percentage points and add the percentage change if unsure. Use the percentage-change formula when the values are numbers rather than percentages.",
-        "Missing value X: parts of a whole add to 100% (pie chart or percentage table) or to a stated total (stacked bar or total row), so X = total minus the sum of the known parts. Illustrative Country Q: if all segments except 'other' total 85%, then other = 100 − 85 = 15%.",
+        "Missing value X: parts of a whole add to 100% (pie chart or percentage table) or to a stated total (stacked bar, a bar split into parts, or a total row), so X = total minus the sum of the known parts.",
+        "Illustrative Country Q: if all segments except 'other' total 85%, then other = 100 − 85 = 15%, because the parts of a pie chart must reach 100%.",
         "To find a number from a percentage: number = percentage ÷ 100 × total."
-      ]
+      ],
+      "tip": "Percentage change divides by the old value, and a change in a percentage is in percentage points. Students mix these up. Exams ask for a percentage of a total, a percentage change and a missing value X from 100% or a total row."
     },
     {
       "h": "Rates, ratios and rounding",
+      "b": "Raw numbers are hard to compare between places of different size, so geographers use rates, densities and ratios. How you present the answer matters too.",
       "points": [
-        "Rate per 1,000 = number ÷ population × 1,000. A birth rate is births ÷ population × 1,000.",
+        "Rate per 1,000 = number ÷ population × 1,000, which lets places of different size be compared. A birth rate is births ÷ population × 1,000.",
         "Density = number ÷ area, given as people per km².",
         "Ratio: compare two values as a ratio, e.g. 2 : 1. Illustrative: Town D (41) is more than three times the size of Town E (12), a ratio of about 3.4 : 1.",
         "'Twice as much' means two times the other value; 'half' means divided by two.",
@@ -70,31 +85,33 @@
     },
     {
       "h": "Drawing a graph: marked rules",
+      "b": "When you are asked to draw a graph from a small table of data, marks are given for each of these rules, so each one is worth doing even when the shape of the graph is easy.",
       "points": [
         "Use graph paper, a sharp pencil and a ruler; draw the graph large enough to fill most of the space.",
         "The title says what the data is, where and when, taken from the wording of the question.",
         "The horizontal (x) axis shows categories or time; the vertical (y) axis shows values. Label both axes with units.",
         "The scale starts at zero, is evenly divided, and its interval is chosen so the largest value fits (e.g. steps of 5 or 10 units).",
-        "On a line graph, time intervals are spaced in proportion to the years.",
+        "On a line graph, time intervals are spaced in proportion to the years. If the data is for 1990, 2000, 2010 and 2015, the last gap is half the others.",
         "Plot every value accurately. Bars have equal widths and equal gaps; points are joined with ruled straight lines.",
-        "Use a key or legend whenever more than one colour or shading is used, and shade or colour each category distinctly."
-      ]
+        "Use a key or legend (a box saying what each colour or shading means) whenever more than one colour or shading is used, and shade or colour each category distinctly."
+      ],
+      "tip": "Marks go for title, labelled axes, an evenly divided scale from zero, accurate plotting, equal bars and key or shading. The vertical axis on a bar chart must start at 0 and be evenly scaled, because uneven scales and missing zeros lose marks."
     },
     {
       "h": "Worked example: drawing a bar chart (illustrative)",
-      "b": "Illustrative data: population of six towns, in thousands, from the totals block above.",
+      "b": "Illustrative data: population of six towns, in thousands, from the totals block above. Following the rules in order shows how each mark is earned.",
       "points": [
         "Graph choice: a bar chart, because the values are one measure for separate towns.",
         "Title: 'Population of six towns (thousands), illustrative'.",
         "x-axis: 'Town', with Towns A to F in order.",
         "y-axis: 'Population (thousands)', from 0 to 45 in steps of 5, so the largest value (41) fits.",
         "Six bars of equal width with equal gaps, each drawn to its value: A 18, B 32, C 25, D 41, E 12, F 29.",
-        "A single data series needs no key; check each bar top against the scale before finishing."
+        "A single data series (one set of values) needs no key; check each bar top against the scale before finishing."
       ]
     },
     {
       "h": "Choosing a suitable graph",
-      "b": "The question 'draw a suitable graph' is answered with one sentence of justification after naming the graph type. Each example below is illustrative.",
+      "b": "The question 'draw a suitable graph' is answered by naming the graph type, then giving one sentence of justification. The type depends on what the data is. Each example below is illustrative.",
       "points": [
         "Values for separate categories, e.g. the populations of six towns: bar chart.",
         "Change over time, e.g. the percentage of an urban population from 1980 to 2020: line graph (a bar chart is usually also accepted).",
@@ -103,82 +120,101 @@
         "Three components that add to 100%, e.g. sand, silt and clay at a soil site: triangular graph.",
         "Age and sex structure of a population: population pyramid.",
         "Monthly temperature and rainfall for one place: climate graph.",
-        "Values for areas on a map, e.g. population density by region: choropleth map."
-      ]
+        "Values for areas on a map, e.g. population density by region: choropleth map (a map with areas shaded by value)."
+      ],
+      "tip": "When a graph is to be drawn from a data table, the suitable graph has been a bar chart (values for separate countries or towns), a line graph (change over time) or a pie chart (percentage shares of one total). One sentence of justification earns the choice."
     },
     {
-      "h": "Bar charts, histograms and line graphs",
+      "h": "Bar charts and compound bars",
+      "b": "Bar charts show amounts for separate categories. They come in several forms, depending on whether you are comparing categories, groups within a category, or parts of a total.",
       "points": [
         "Simple bar chart: separate categories, one bar per category, equal widths and equal gaps; vertical or horizontal.",
-        "Multiple (clustered or comparative) bar chart: two or more bars side by side per category, e.g. males and females, or two years; a key is needed.",
+        "Multiple (clustered or comparative) bar chart: two or more bars side by side per category, e.g. males and females, or two years; a key is needed to tell the bars apart.",
         "Compound (stacked or divided) bar chart: each bar is split into components, and the top of the whole bar is the total.",
         "To read a component in a compound bar, take the top of its segment minus the bottom of its segment.",
         "Percentage compound bar: every bar reaches 100%, so the segments show shares rather than totals.",
-        "Illustrative Region R, tree planting: total 2,000 hectares, of which conifers 1,350 ha. Broadleaf = 2,000 − 1,350 = 650 ha, a share of 650 ÷ 2,000 × 100 = 32.5%.",
-        "Histogram: like a bar chart but for continuous data grouped in classes (e.g. age groups or rainfall amounts), drawn with no gaps between bars.",
+        "Illustrative Region R, tree planting: total 2,000 hectares, of which conifers 1,350 ha. Broadleaf = 2,000 − 1,350 = 650 ha, a share of 650 ÷ 2,000 × 100 = 32.5%."
+      ],
+      "tip": "Bar chart is not the same as histogram: bar charts have gaps because the categories are separate."
+    },
+    {
+      "h": "Histograms and line graphs",
+      "b": "A histogram looks like a bar chart but is used for continuous data, while a line graph is the standard way to show one variable changing over time.",
+      "points": [
+        "Histogram: like a bar chart but for continuous data grouped in classes (e.g. age groups or rainfall amounts), drawn with no gaps between bars because one class runs straight into the next.",
         "Line graph (trend graph): one variable over time; plot the points at the correct years and join them with ruled lines.",
-        "Multiple line graph: two or more series on the same axes, with a key.",
-        "The gradient of a line shows the rate of change: a steeper section means faster change.",
+        "Multiple line graph: two or more series on the same axes, with a key so each line can be identified.",
+        "The gradient (steepness) of a line shows the rate of change: a steeper section means faster change.",
         "Illustrative Country P, households with broadband: 2000 20%, 2005 38%, 2010 61%, 2015 74%, 2020 86%, 2025 90%. The rise is continuous; the fastest change is 2005 to 2010 (+23 percentage points), and the rise slows to +4 points from 2020 to 2025 as the line levels off.",
-        "Illustrative Country P: the change from 2000 to 2025 is +70 percentage points, which is not the same as the 350% percentage change above."
-      ]
+        "Illustrative Country P: the change from 2000 to 2025 is +70 percentage points, which is not the same as the 350% percentage change above, because one is a subtraction and the other is measured against the old value."
+      ],
+      "tip": "Bar charts have gaps (separate categories); histograms have none (continuous classes). On a line graph the time axis must be spaced in proportion to the years."
     },
     {
       "h": "Pie charts and divided bars",
+      "b": "A pie chart shows how a whole is split into parts. Because a full circle is 360° and the parts add to 100%, each 1% takes up 3.6° of the circle.",
       "points": [
         "Pie chart: parts of a whole. Degrees = percentage × 3.6, because 360° ÷ 100 = 3.6.",
-        "For raw numbers rather than percentages: degrees = value ÷ total × 360.",
-        "Drawing steps: draw a circle with a compass, draw a radius to 12 o'clock, then measure each angle clockwise with a protractor, largest segment first.",
+        "For raw numbers rather than percentages: degrees = value ÷ total × 360. Do not multiply raw numbers by 3.6.",
+        "Drawing steps: draw a circle with a compass, draw a radius (a line from the centre to the edge) to 12 o'clock, then measure each angle clockwise with a protractor, largest segment first.",
         "Shade, key or label each segment with its percentage, and check that the angles add to 360°.",
         "Illustrative Country Q, electricity sources (gas 40%, wind 25%, solar 10%, coal 5%, hydro 5%, other 15%): angles 144°, 90°, 36°, 18°, 18° and 54°, totalling 360°.",
         "Two pie charts compare the shares in two years, not the totals, unless the circles are drawn in proportion to the totals.",
         "Divided (percentage) bar: a single bar split into shares that add to 100%, an alternative to a pie chart."
-      ]
+      ],
+      "tip": "Use x 3.6 for percentages, but value ÷ total × 360 for raw numbers. Angles must total 360°."
     },
     {
       "h": "Pictograms, population pyramids and the pyramid method",
+      "b": "A pictogram uses icons to stand for quantities. A population pyramid is a special graph showing how many people of each age and sex a country has.",
       "points": [
-        "Pictogram: each icon stands for a fixed quantity stated in the key; a part-icon is a fraction of that quantity.",
+        "Pictogram: each icon stands for a fixed quantity stated in the key, so check the key first; a part-icon is a fraction of that quantity.",
         "Population pyramid: a back-to-back horizontal bar chart, which is a histogram on its side.",
         "Age groups, usually in 5-year bands, sit on the central vertical axis: 0 to 4 at the bottom and the oldest group at the top.",
-        "Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, scaled outward from zero on both sides.",
+        "Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, not age, scaled outward from zero on both sides.",
         "Reading a pyramid: a wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.",
-        "Describe the dependent groups (young and old) and the working-age group when reading a pyramid.",
-        "The shapes of pyramids and the stages of demographic transition belong to the notes on Changing population characteristics.",
-        "Method for drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females aged 20 to 24 are 3.4%. Draw a bar 3.5 units long to the left of the centre axis and a bar 3.4 units long to the right, at the 20 to 24 level."
-      ]
+        "Describe the dependent groups (the young and the old, who rely on others) and the working-age group when reading a pyramid.",
+        "Drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females 3.4%, so at the 20 to 24 level draw a bar 3.5 units long left of the centre axis and one 3.4 units long to the right.",
+        "The shapes of pyramids and the stages of demographic transition (how a country's birth and death rates change over time) are taught fully elsewhere. There is more on this in Changing population characteristics."
+      ],
+      "tip": "Males go on the left and females on the right. The horizontal axis is percentage (or number), not age."
     },
     {
       "h": "Climate graphs",
+      "b": "A climate graph combines two kinds of data for one place on a single set of axes: rainfall as bars and temperature as a line, across 12 months.",
       "points": [
         "Months J to D run along the bottom axis. Rainfall is shown as bars against a left-hand axis in mm.",
-        "Mean monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.",
+        "Mean (average) monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.",
         "From the graph, read the hottest and coldest months, the wettest and driest months, and the seasonal pattern (rain all year, or a wet and dry season).",
         "Calculations from the graph: annual temperature range = maximum mean monthly temperature minus minimum; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars.",
-        "Identifying a climate type from a climate graph is taught in the notes on Physical regions and the notes on Climatic environments and climate change.",
         "Illustrative Station M, mean monthly temperature (°C) J to D: 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8, 6. Rainfall (mm) J to D: 110, 80, 85, 60, 65, 70, 70, 85, 90, 115, 110, 120.",
         "Illustrative Station M results: warmest in July and August (16°C); coldest in January and February (5°C); annual range 16 − 5 = 11°C; mean annual temperature 123 ÷ 12 = 10.3°C.",
-        "Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern."
-      ]
+        "Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern.",
+        "Identifying a climate type from a climate graph is taught elsewhere. There is more on this in Physical regions and Climatic environments and climate change."
+      ],
+      "tip": "Temperature is a line and rainfall is bars, and the graph has two different vertical axes."
     },
     {
       "h": "Scatter graphs",
+      "b": "A scatter graph tests whether two measurements for the same set of places are related, for example whether land value changes with distance from a city centre.",
       "points": [
-        "Scatter graph: two variables for the same set of places. The independent variable goes on the x-axis; each place is plotted as a point, and the points are not joined.",
-        "Draw a line of best fit by eye through the middle of the points.",
+        "Scatter graph: two variables for the same set of places. The independent variable (the one that may cause the change) goes on the x-axis; each place is plotted as a point, and the points are not joined.",
+        "Draw a line of best fit by eye through the middle of the points, so it shows the general direction.",
         "Positive correlation: both variables rise together. Negative correlation: one rises as the other falls. No correlation: no clear pattern. Strength is described as strong or weak.",
         "Outliers, or anomalies, are points that lie away from the pattern of the others.",
-        "Correlation does not prove cause.",
+        "Correlation does not prove cause: two things can move together without one causing the other.",
         "Illustrative distance from a city centre and land value at eight sites: 1 km €900 per m²; 2 km €700; 3 km €620; 4 km €450; 5 km €400; 6 km €250; 7 km €260; 8 km €150.",
         "Illustrative: the result is a strong negative correlation, with the 7 km site a slight anomaly because it is higher than the 6 km site. A one-clause explanation: accessibility falls with distance from the centre."
-      ]
+      ],
+      "tip": "Scatter graph points are not joined. Correlation is not causation, and at Higher Level this is part of evaluating a figure."
     },
     {
       "h": "Triangular graphs",
+      "b": "A triangular graph is used when a total is split into exactly three parts. Each point is placed using all three values at once.",
       "points": [
         "Triangular graph: shows three components that always total 100%, e.g. the percentage employed in the primary, secondary and tertiary sectors.",
         "Each side is a 0 to 100% scale. Read each component along the gridlines parallel to the side where its 0 is, following the direction in which its numbers run.",
-        "Check that the three readings add to 100.",
+        "Check that the three readings add to 100, which confirms you have read the scales correctly.",
         "To plot a point: find the first value on its scale, follow its gridline in, and mark where it meets the second value's gridline; check the point with the third value.",
         "A point clustered near a corner is dominated by the component that corner represents.",
         "Illustrative employment structure: Country X is primary 10%, secondary 25%, tertiary 65%; it sits near the tertiary corner, typical of a developed economy. Country Y is primary 60%, secondary 15%, tertiary 25%; it sits near the primary corner, typical of a less developed economy."
@@ -186,6 +222,7 @@
     },
     {
       "h": "Choropleth and other statistical maps",
+      "b": "Statistical maps put values onto a map so you can see how they vary from place to place. The choropleth is the main one; four other types each show a different kind of data.",
       "points": [
         "Choropleth map: areas (counties, regions or countries) shaded by value class; darker shading means a higher value.",
         "Classes must not overlap and must cover every value, e.g. 0 to 49, 50 to 99, 100 to 149, 150 and over. A key is essential.",
@@ -199,9 +236,10 @@
     },
     {
       "h": "Tables and the investigation",
+      "b": "Sometimes a table is a better way to present data than a graph, and tables, graphs and maps all feed into the Geographical Investigation.",
       "points": [
         "Use a table rather than a graph when many exact values must be given. A table cannot show a trend at a glance.",
-        "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in the notes on The Geographical Investigation (20%)."
+        "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report. There is more on this in The Geographical Investigation (20%)."
       ]
     }
   ],

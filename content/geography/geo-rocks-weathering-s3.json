@@ -6,100 +6,117 @@
   "notes": [
     {
       "h": "What weathering is",
-      "b": "Weathering is the breakdown of rock in place at or near the earth's surface, by weather, water, plants and animals. Erosion is the wearing away and removal of material by a moving agent such as a river, the sea, ice or wind.",
+      "b": "Rock at the surface is attacked by weather, water, plants and animals. Weathering is the first step in wearing landscapes down, and it must be kept separate from erosion.",
       "points": [
-        "Weathering involves no transport: the rock breaks down where it lies, and this prepares it for erosion and mass movement.",
-        "Regolith is the layer of loose, weathered rock fragments lying on top of solid bedrock.",
-        "Physical (mechanical) weathering breaks rock into smaller pieces without changing its minerals.",
-        "Chemical weathering changes or dissolves the minerals in the rock.",
+        "Weathering is the breakdown of rock in place (in situ) at or near the earth's surface, by weather, water, plants and animals. Erosion is the wearing away and removal of material by a moving agent such as a river, the sea, ice or wind.",
+        "Weathering involves no transport: the rock breaks down where it lies, so no moving agent is involved. This prepares the rock for erosion and for mass movement (the downhill movement of loose material under gravity).",
+        "Regolith is the layer of loose, weathered rock fragments lying on top of solid bedrock (the unbroken rock beneath).",
+        "Physical (mechanical) weathering breaks rock into smaller pieces without changing its minerals (the chemical substances the rock is made of).",
+        "Chemical weathering changes or dissolves the minerals in the rock, so the rock itself is altered, not just broken.",
         "Biological weathering by plants and animals works through both physical and chemical means."
-      ]
+      ],
+      "tip": "If asked to define regolith, give it on its own: loose, weathered rock fragments lying on top of solid bedrock. Do not describe weathering as erosion, because weathering involves no movement by an agent."
     },
     {
       "h": "Freeze-thaw action (physical)",
-      "b": "Freeze-thaw action, also called frost shattering, needs temperatures that move above and below 0 °C often, together with water and jointed rock.",
+      "b": "Freeze-thaw action, also called frost shattering, is a physical weathering process. It needs temperatures that move above and below 0 °C often, together with water and jointed rock (rock with natural cracks called joints).",
       "points": [
-        "Water enters cracks and joints in the rock.",
-        "At night the water freezes and expands by about 9%, widening the crack.",
-        "By day the ice thaws, and the water seeps deeper into the crack.",
-        "Repeated cycles of freezing and thawing split off angular fragments.",
-        "It is most effective on mountains in upland Ireland, on high mountains and in periglacial areas; freeze-thaw is active on Irish mountain summits such as Carrauntoohil, Co. Kerry.",
-        "Result: scree (talus) slopes of angular fragments at the foot of mountain cliffs, and jagged peaks and blockfields."
-      ]
+        "1. Water enters cracks and joints in the rock.",
+        "2. At night the water freezes and expands by about 9%, which widens the crack.",
+        "3. By day the ice thaws, and the water seeps deeper into the crack.",
+        "4. Repeated cycles of freezing and thawing split off angular (sharp-edged) fragments.",
+        "It is most effective on mountains in upland Ireland, on high mountains and in periglacial areas (cold areas where the ground is frozen for much of the year). Freeze-thaw is active on Irish mountain summits such as Carrauntoohil, Co. Kerry.",
+        "Result: scree (talus) slopes of angular fragments at the foot of mountain cliffs, and jagged peaks and blockfields (areas covered in broken angular rock)."
+      ],
+      "tip": "Freeze-thaw is physical, and you should state the type in your first sentence. If asked to match scree to a process, the answer is freeze-thaw."
     },
     {
       "h": "Exfoliation and granular disintegration (physical)",
+      "b": "In hot deserts the rock surface swings between hot days and cold nights. Both processes here are physical weathering driven by that heating and cooling, called insolation (heating by the sun).",
       "points": [
-        "Exfoliation, or onion weathering, is an insolation process in hot deserts such as the Sahara, where the daily temperature range is large.",
+        "Exfoliation, or onion weathering, is an insolation process in hot deserts such as the Sahara, where the daily temperature range (the gap between day and night temperature) is large.",
         "The outer layer of rock heats and expands by day, and cools and contracts at night more than the interior, because rock conducts heat poorly.",
         "Stress builds up, and curved outer sheets peel off like the layers of an onion, leaving rounded boulders.",
         "Many geographers stress that some moisture, such as dew, must be present for exfoliation to work effectively.",
         "Granular disintegration: dark and light minerals in a rock such as granite heat and expand at different rates, so individual grains loosen and fall away, leaving gravelly sand."
-      ]
+      ],
+      "tip": "Exfoliation is physical, not chemical. Name the type first, then give the temperature condition, the stress it causes and the result, and give no desert temperatures."
     },
     {
       "h": "Pressure release and salt crystallisation (physical)",
+      "b": "Rock can also break because the forces on it change, or because growing crystals push it apart. Neither process changes the minerals, so both are physical.",
       "points": [
-        "Pressure release (sheeting): when the overlying rock is eroded, buried rock such as granite expands upward and cracks into sheets parallel to the surface.",
-        "The sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA.",
-        "Salt crystallisation: salt water enters pores and cracks; as it evaporates, salt crystals grow and force the rock apart.",
-        "Salt crystallisation is common in hot deserts and on coasts."
+        "Pressure release (also called unloading or sheeting): when the overlying rock is eroded, the weight pressing on buried rock such as granite is removed, so it expands upward and cracks into sheets parallel to the surface.",
+        "The sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA, a granite dome shaped by sheeting.",
+        "Salt crystallisation: salt water enters pores (tiny holes) and cracks; as it evaporates, salt crystals grow and force the rock apart.",
+        "Salt crystallisation is common in hot deserts and on coasts, where salt water is available and evaporates."
       ]
     },
     {
       "h": "Biological weathering",
+      "b": "Plants and animals break rock down in two ways. Their physical action is a form of physical weathering, and the acids they produce cause chemical weathering.",
       "points": [
-        "Plant roots grow into cracks and widen them, and burrowing animals expose fresh rock to weathering.",
-        "Decaying plants produce humic acids, and lichens and mosses release acids that attack rock surfaces."
+        "Physical: plant roots grow into cracks and widen them, and burrowing animals expose fresh rock to weathering.",
+        "Chemical: decaying plants produce humic acids, and lichens and mosses release acids that attack rock surfaces."
       ]
     },
     {
       "h": "Carbonation (chemical)",
-      "b": "Carbonation dissolves limestone, and it works along joints and bedding planes.",
+      "b": "Carbonation is a chemical weathering process. It dissolves limestone, and it works along joints and bedding planes (the flat surfaces between layers of rock).",
       "points": [
         "Rainwater absorbs carbon dioxide from the air and soil to form weak carbonic acid.",
-        "The acid reacts with calcium carbonate in limestone to form calcium bicarbonate, which is soluble and is carried away in solution.",
+        "The acid reacts with calcium carbonate in limestone to form calcium bicarbonate, which is soluble, so it is carried away in solution (dissolved in water).",
         "Word equation: calcium carbonate + water + carbon dioxide gives calcium bicarbonate.",
-        "Carbonation is the process behind karst; it operates on the Carboniferous limestone of the Burren, Co. Clare."
-      ]
+        "Carbonation is the process behind karst (distinctive limestone scenery); it operates on the Carboniferous limestone of the Burren, Co. Clare."
+      ],
+      "tip": "Carbonation is chemical. If asked to name and explain it, give the acid formed, what it reacts with, and why the product is carried away (it is soluble). The word equation may be asked."
     },
     {
       "h": "Hydrolysis, oxidation, hydration and solution (chemical)",
+      "b": "Four more chemical processes each work on different minerals. Each changes or dissolves the mineral, so each is chemical weathering.",
       "points": [
-        "Hydrolysis: water reacts with feldspar in granite and turns it into clay (kaolin, or china clay); the quartz grains are left as sand, and the granite crumbles.",
+        "Hydrolysis: water reacts with feldspar (a mineral in granite) and turns it into clay (kaolin, or china clay); the quartz grains (another mineral in granite) are left as sand, and the granite crumbles.",
         "China clay from the hydrolysis of granite is quarried around St Austell, Cornwall, England, and on the edge of Dartmoor.",
         "Oxidation: oxygen dissolved in water reacts with iron in the rock to form iron oxide (rust), which gives red, yellow or brown colours and weakens the rock.",
-        "Hydration: some minerals absorb water and swell, setting up stress; anhydrite, for example, becomes gypsum.",
+        "Hydration: some minerals absorb water and swell, setting up stress in the rock; anhydrite, for example, becomes gypsum.",
         "Solution: some minerals, such as rock salt, dissolve directly in water."
-      ]
+      ],
+      "tip": "Hydrolysis is chemical. If asked to name two chemical processes and explain one, pick one of these or carbonation and give what reacts, what is produced and the effect on the rock."
     },
     {
       "h": "Factors influencing weathering: climate and rock",
+      "b": "Weathering does not act at the same speed or in the same way everywhere. Climate decides which type of weathering dominates, and rock type decides how vulnerable the rock is.",
       "points": [
         "Climate: temperature and rainfall decide which type of weathering dominates.",
-        "Warm, wet climates favour fast chemical weathering; by Van 't Hoff's rule, the rate of chemical reactions roughly doubles for every 10 °C rise in temperature.",
+        "Warm, wet climates favour fast chemical weathering because, by Van 't Hoff's rule, the rate of chemical reactions roughly doubles for every 10 °C rise in temperature.",
         "Cold climates with temperatures around freezing favour freeze-thaw, and hot deserts favour exfoliation and salt crystallisation.",
-        "Ireland's mild, wet climate favours chemical weathering.",
-        "Rock type: limestone is vulnerable to carbonation, granite to hydrolysis, and quartzite resists both."
-      ]
+        "Ireland's mild, wet climate favours chemical weathering, with freeze-thaw on mountain tops.",
+        "Rock type (its mineral composition): limestone is vulnerable to carbonation, granite to hydrolysis, and quartzite (a very hard rock) resists both."
+      ],
+      "tip": "If asked for two factors and an explanation, name each factor, say which weathering type it favours and give the reason."
     },
     {
       "h": "Factors influencing weathering: structure, cover, time and relief",
+      "b": "Beyond climate and rock type, four more factors affect how quickly rock weathers. Most work by letting water reach the rock or by exposing fresh rock.",
       "points": [
-        "Rock structure: joints, bedding planes and faults let water in, so heavily jointed rock weathers faster.",
-        "Vegetation and soil: roots and humic acids speed weathering, and soil holds moisture against the rock.",
-        "Time: older surfaces are more weathered.",
-        "Relief and aspect: steep slopes remove debris and expose fresh rock, and shady slopes stay frozen longer, so freeze-thaw is stronger on them."
-      ]
+        "Rock structure: joints, bedding planes and faults (breaks in the rock where blocks have moved) let water in, so heavily jointed rock weathers faster.",
+        "Vegetation and soil cover: roots and humic acids speed weathering, and soil holds moisture against the rock.",
+        "Time: older surfaces are more weathered, because weathering has had longer to act.",
+        "Relief (the steepness and shape of the land): steep slopes remove debris and expose fresh rock to weathering.",
+        "Aspect (the direction a slope faces): shady slopes stay frozen longer, so freeze-thaw is stronger on them."
+      ],
+      "tip": "If asked for two factors, give each with its explanation rather than a bare list."
     },
     {
       "h": "The role of temperature",
+      "b": "Temperature links the processes above. It matters in two different ways, and the type of weathering that results depends on the temperature pattern of the place.",
       "points": [
         "Temperature acts in two ways: as a trigger, through the expansion and contraction that cause stress, and as a control on the rate of chemical reactions.",
         "Freeze-thaw depends on temperature crossing the freezing point, and exfoliation and granular disintegration depend on a large daily range; both need changes in temperature, not just warmth.",
         "Warmth speeds the chemical reactions of carbonation and hydrolysis, so the same temperature can favour chemical weathering in one place and freeze-thaw in another.",
         "Method: name the process and its type, state the temperature condition it needs, explain the stress or rate change it produces, and link this to the result, such as scree from freeze-thaw."
-      ]
+      ],
+      "tip": "The Higher Level question asks for the role of temperature in physical weathering. Build the answer from freeze-thaw, exfoliation and granular disintegration, using the method above for each."
     }
   ],
   "keyTerms": [

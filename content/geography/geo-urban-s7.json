@@ -6,190 +6,225 @@
   "notes": [
     {
       "h": "Scale and pace of urban growth",
+      "b": "Cities in the developing world (poorer countries, mostly in Asia, Africa and Latin America) now account for most of the world's urban growth. The UN figures below show how big the shift is.",
       "points": [
-        "Most of the world's urban growth now takes place in developing countries in Asia, Africa and Latin America.",
-        "About 30% of the world's population was urban in 1950 and about 55% in 2018 (UN, World Urbanization Prospects 2018).",
-        "Over half of the world's population has been urban since about 2007.",
+        "Most of the world's urban growth now takes place in developing countries in Asia, Africa and Latin America, so the fastest-growing cities are no longer in Europe or North America.",
+        "About 30% of the world's population was urban (living in towns and cities) in 1950 and about 55% in 2018 (UN, World Urbanization Prospects 2018).",
+        "Over half of the world's population has been urban since about 2007, so the world passed the point where city dwellers outnumber rural dwellers.",
         "The UN projects that about 68% of the world's population will be urban by 2050.",
         "Close to 90% of the increase to 2050 is expected in Asia and Africa; India, China and Nigeria together account for over a third of it.",
         "Megacities, with over 10 million people, are a growing feature of urbanisation in the developing world.",
-        "UN-Habitat estimates that over 1 billion people live in slums or informal settlements."
-      ]
+        "UN-Habitat (the UN agency for human settlements) estimates that over 1 billion people live in slums or informal settlements, meaning crowded housing built without legal permission or services."
+      ],
+      "tip": "A general answer on developing-world cities should open with scale: name the regions, then use the UN shares of 30% (1950), 55% (2018) and about 68% (2050)."
     },
     {
       "h": "Reasons for rapid growth",
-      "b": "Cities grow through natural increase and through migration. The migration theory itself is covered in the note Rural-to-urban migration in developed and developing regions.",
+      "b": "Cities grow in two ways: more babies than deaths, and more people arriving than leaving. In developing countries both are strong at once. There is more on migration theory in the Rural-to-urban migration in developed and developing regions note.",
       "points": [
-        "Natural increase: the urban population is young, birth rates are high and death rates have fallen.",
-        "Push factors: rural poverty, landlessness, small farms, mechanisation, drought and crop failure, lack of services, conflict and natural disasters.",
-        "Pull factors: jobs in the formal and informal sectors, higher wages, schools and hospitals, perceived opportunities, and family already living in the city.",
-        "Primate cities attract investment and government spending, which reinforces their pull on migrants."
-      ]
+        "Natural increase (births minus deaths): the urban population is young, birth rates are high and death rates have fallen, so the city grows even without newcomers.",
+        "Push factors (things that drive people out of the countryside): rural poverty, landlessness, small farms, mechanisation (machines replacing farm workers), drought and crop failure, lack of services, conflict and natural disasters.",
+        "Pull factors (things that draw people to the city): jobs in the formal and informal sectors, higher wages, schools and hospitals, perceived opportunities, and family already living in the city.",
+        "Primate cities (a country's largest city, far bigger than any other) attract investment and government spending, which reinforces their pull on migrants."
+      ],
+      "tip": "Ordinary Level questions ask for reasons or factors behind a city's growth, so give natural increase and then push and pull factors, each with a short explanation."
     },
     {
       "h": "Housing: slums and informal settlements",
+      "b": "Migrants arrive faster than the city can build homes, and most have little money. They build their own shelter wherever they can, which creates the first and most visible problem of rapid growth.",
       "points": [
         "Migrants with little money and no legal land settle in shanty towns, slums and informal settlements, called bustees, favelas, chawls or jhopadpattis depending on the country.",
-        "These settlements are built on marginal land: river banks, steep slopes, beside railways, rubbish dumps and floodplains.",
-        "Tenure is insecure, so residents can be evicted and have no legal right to the land they occupy.",
+        "These settlements are built on marginal land (land nobody else wants because it is unsafe or unsuitable): river banks, steep slopes, beside railways, rubbish dumps and floodplains.",
+        "Tenure (the legal right to occupy land) is insecure, so residents can be evicted and have no legal right to the land they occupy.",
         "Overcrowding is severe, and some people have no shelter at all, living as homeless pavement dwellers."
-      ]
+      ],
+      "tip": "Housing problems can be used in a short answer on two problems of rapid urban growth. Give the cause (migrants with no money or legal land) as well as the effect."
     },
     {
       "h": "Water, sanitation and health",
+      "b": "Informal settlements are built without services, and this directly harms health. Sanitation means the safe disposal of human waste and dirty water.",
       "points": [
-        "Without piped water or sewers, settlements rely on open drains and shared toilets.",
-        "Contaminated water and waste spread water-borne disease: cholera, typhoid and dysentery."
-      ]
+        "Without piped water or sewers, settlements rely on open drains and shared toilets, so waste stays close to where people live and cook.",
+        "Contaminated water and waste spread water-borne disease (illness carried in dirty water): cholera, typhoid and dysentery."
+      ],
+      "tip": "Link cause and effect here: no piped water or sewers leads to open drains, which leads to cholera, typhoid and dysentery."
     },
     {
       "h": "Employment and the informal sector",
+      "b": "There are not enough regular jobs for all the migrants, so many make a living outside the formal economy. The informal sector means work that is unregistered, untaxed and unprotected.",
       "points": [
         "Many residents work in the informal sector as street vendors, rickshaw pullers, waste pickers and home workers.",
         "Informal work offers no job security and low pay; child labour is part of informal employment.",
-        "Underemployment means that people have work but not enough of it to earn a living."
-      ]
+        "Underemployment means that people have work but not enough of it to earn a living, so they are counted as working yet remain poor."
+      ],
+      "tip": "Name the informal jobs and say what is wrong with them: no security, low pay and child labour."
     },
     {
       "h": "Transport and congestion",
+      "b": "Road and rail systems were built for much smaller populations. When the city expands faster than its transport, movement slows for everyone.",
       "points": [
-        "Road networks cannot cope with the growth in traffic, so journeys take longer and congestion becomes permanent.",
-        "Trains and buses are overcrowded at peak times.",
-        "Road deaths are a serious problem in the city."
+        "Road networks cannot cope with the growth in traffic, so journeys take longer and congestion (traffic jams) becomes permanent.",
+        "Trains and buses are overcrowded at peak times, when most people travel to and from work.",
+        "Road deaths are a serious problem in the city, because crowded roads mix heavy traffic with pedestrians."
       ]
     },
     {
       "h": "Pollution",
+      "b": "Crowded cities with weak services release waste into the air, rivers and streets faster than it can be removed.",
       "points": [
         "Air pollution comes from traffic, industry and cooking fuels burned in crowded homes.",
-        "Untreated sewage and industrial waste are discharged into rivers.",
+        "Untreated sewage and industrial waste are discharged into rivers, because there are no treatment plants to clean them first.",
         "Rubbish is not collected in many areas, so it builds up in streets and drains."
-      ]
+      ],
+      "tip": "A pollution answer should separate air, water and rubbish, with a cause for each."
     },
     {
       "h": "Flooding and other hazards",
+      "b": "Poor people settle on the land most exposed to danger, so natural hazards hit informal settlements hardest.",
       "points": [
-        "Monsoon or tropical downpours flood low-lying, paved and badly drained land, where settlements are often built.",
+        "Monsoon (seasonal heavy rain) or tropical downpours flood low-lying, paved and badly drained land, where settlements are often built; paving stops rain soaking into the ground and poor drains cannot carry it away.",
         "Hillside slums are at risk of landslides, and crowded, poorly built homes are at risk of fire."
       ]
     },
     {
       "h": "Social problems",
+      "b": "Rapid growth also produces social strains, which weak city government is too stretched to manage.",
       "points": [
         "Crime and drugs are social problems, and street children live and work on the streets.",
         "Rich and poor districts sit side by side, so inequality is visible within the city.",
         "Local government is weak, so it struggles to provide services."
-      ]
+      ],
+      "tip": "For a short answer on two problems, choose from housing, water and sanitation, employment, transport, pollution, flooding and social problems, and explain each with a cause and an effect."
     },
     {
       "h": "Slum clearance",
+      "b": "The first response to slums is often to remove them. This is the least successful of the solutions.",
       "points": [
-        "Slum clearance removes informal settlements by demolition and eviction.",
-        "It usually fails, because residents are moved further out or into new slums and the underlying problems remain."
-      ]
+        "Slum clearance removes informal settlements by demolition and eviction (forcing residents out).",
+        "It usually fails, because residents are moved further out or into new slums and the underlying problems (poverty and lack of housing) remain."
+      ],
+      "tip": "If asked to evaluate slum clearance, say it usually fails and give the reason: people end up further out or in new slums."
     },
     {
       "h": "Site-and-service schemes and aided self-help",
+      "b": "Instead of building homes for people, the authorities prepare land and let residents do the building. No named scheme is needed for this general solution.",
       "points": [
-        "The authorities provide serviced plots with water, drains and power.",
-        "Residents build their own homes on these plots, which is known as aided self-help."
+        "In a site-and-service scheme the authorities provide serviced plots with water, drains and power.",
+        "Residents build their own homes on these plots, which is known as aided self-help (the authorities help with the services, the residents do the building)."
       ]
     },
     {
       "h": "Slum upgrading in place",
+      "b": "Upgrading improves a slum where it stands rather than removing it, so nobody has to move.",
       "points": [
-        "Lanes are paved, water taps, toilets, drains and electricity are installed, and residents are given secure tenure.",
-        "Because the community stays in place, people can improve their own homes over time."
+        "Lanes are paved, water taps, toilets, drains and electricity are installed, and residents are given secure tenure (a legal right to stay).",
+        "Because the community stays in place, people can improve their own homes over time, as they no longer fear eviction."
       ]
     },
     {
       "h": "Planned satellite and new towns",
+      "b": "Another approach is to build new towns beside the city so that growth goes there instead of into the crowded centre.",
       "points": [
-        "Planned satellite towns and new towns divert growth away from the overcrowded core.",
+        "Planned satellite towns and new towns (towns built beside a large city, with planned housing, jobs and services) divert growth away from the overcrowded core.",
         "Examples are given in the Mumbai case study (Navi Mumbai) and the Kolkata case study (Salt Lake and New Town)."
       ]
     },
     {
       "h": "Transport solutions",
+      "b": "Cities cannot solve congestion just by building more roads, so they invest in public transport that carries many people at once.",
       "points": [
-        "Metros, suburban rail and bus rapid transit move large numbers of people without adding more cars to the roads.",
+        "Metros (underground or elevated urban railways), suburban rail and bus rapid transit (buses with their own lanes and fast boarding, working like a train system) move large numbers of people without adding more cars to the roads.",
         "Curitiba in Brazil is the leading example of bus rapid transit, described below."
       ]
     },
     {
       "h": "Solution example: Curitiba, Brazil (bus rapid transit)",
+      "b": "Curitiba, in southern Brazil, shows how a cheap, well-planned bus system can ease traffic in a developing-world city.",
       "points": [
         "Bus rapid transit began in Curitiba in 1974 under architect-mayor Jaime Lerner.",
-        "Dedicated bus lanes and raised tube stations allow fast boarding, which reduces car use.",
-        "Recyclable waste could be exchanged for food or bus tokens.",
+        "Dedicated bus lanes and raised tube stations allow fast boarding, which reduces car use because the bus is quicker than sitting in traffic.",
+        "Recyclable waste could be exchanged for food or bus tokens, which tackled rubbish and helped poorer residents at the same time.",
         "The model has been copied worldwide, for example in Bogotá's TransMilenio (2000)."
-      ]
+      ],
+      "tip": "If asked for one solution, Curitiba gives you a named place, a date (1974), a person (Jaime Lerner) and a result (reduced car use)."
     },
     {
       "h": "Reducing migration",
+      "b": "Some solutions act on the push factors in the countryside, so fewer people leave for the city in the first place.",
       "points": [
-        "Rural development, land reform and jobs in smaller cities give people reasons to stay in rural areas.",
-        "NGOs and community groups also act on these problems, as the Missionaries of Charity do in Kolkata."
+        "Rural development, land reform (giving landless farmers land) and jobs in smaller cities give people reasons to stay in rural areas.",
+        "NGOs (non-governmental organisations, i.e. charities) and community groups also act on these problems, as the Missionaries of Charity do in Kolkata."
       ]
     },
     {
       "h": "Kolkata, India: site and history",
+      "b": "Kolkata (called Calcutta until 2001) is the main developing-world case study. Its site and history explain why it became one of India's largest cities.",
       "points": [
-        "Kolkata lies on the Hooghly river near the Bay of Bengal, on low-lying delta land.",
+        "Kolkata lies on the Hooghly river near the Bay of Bengal, on low-lying delta land (flat land built up by river deposits), which is why it floods easily.",
         "It was founded in 1690 by the British East India Company (Job Charnock).",
-        "It developed as a port on the Hooghly, with jute mills; Howrah Bridge across the river opened in 1943.",
-        "It was the capital of British India until 1911.",
+        "It developed as a port on the Hooghly, with jute mills (factories making cloth and sacks from the jute plant); Howrah Bridge across the river opened in 1943.",
+        "It was the capital of British India until 1911, so government jobs and trade drew people to it.",
         "The city was renamed from Calcutta to Kolkata in 2001."
-      ]
+      ],
+      "tip": "Kolkata was the capital of British India until 1911. Use the name Kolkata, giving Calcutta once."
     },
     {
       "h": "Kolkata: reasons for growth",
+      "b": "Kolkata grew because colonial rule built an economy that drew people in, and because disasters and wars then pushed more people towards it.",
       "points": [
         "It was a colonial port and administrative capital, and its jute and engineering industries attracted migrants from Bihar, Odisha and rural Bengal.",
         "The Bengal famine of 1943 drove millions of rural people towards the city.",
-        "Partition in 1947 brought refugees, and the 1971 Bangladesh Liberation War brought a further wave.",
-        "Natural increase adds to the population, and the city has regional primacy in eastern India.",
-        "Census 2011 gave an urban agglomeration of about 14.1 million people."
-      ]
+        "Partition in 1947 (the division of British India into India and Pakistan) brought refugees, and the 1971 Bangladesh Liberation War brought a further wave.",
+        "Natural increase adds to the population, and the city has regional primacy in eastern India, meaning it dominates the region's economy and services.",
+        "Census 2011 gave an urban agglomeration (the built-up city and its suburbs) of about 14.1 million people."
+      ],
+      "tip": "For three factors influencing growth, pick from the port and capital role, the jute industry, the 1943 famine, Partition refugees, the 1971 war, natural increase and regional primacy. Use Census 2011 only for Indian figures."
     },
     {
       "h": "Kolkata: housing problems",
+      "b": "Migrants arriving faster than housing could be built ended up in slums or on the streets.",
       "points": [
-        "Bustees (slums) house many of the city's poorest people, in overcrowded conditions.",
+        "Bustees (slums) house many of the city's poorest people, in overcrowded conditions, because they cannot afford other housing.",
         "Pavement dwellers have no shelter and live on the streets.",
-        "Census 2011 counted about 65 million people in slums across India; this is an India-wide figure."
-      ]
+        "Census 2011 counted about 65 million people in slums across India; this is an India-wide figure, not a Kolkata figure."
+      ],
+      "tip": "Do not give a Kolkata slum percentage. The 65 million figure is for the whole of India."
     },
     {
       "h": "Kolkata: economic problems",
+      "b": "Kolkata's economy weakened just as migrants kept arriving, so there were too few jobs.",
       "points": [
-        "Partition cut the city off from the jute-growing lands that became East Pakistan, so the economy declined.",
+        "Partition cut the city off from the jute-growing lands that became East Pakistan, so the economy declined because the jute mills lost their raw material.",
         "Jobs did not keep pace with migrants, so many people depend on informal work.",
         "Informal work includes hand-pulled rickshaws; Kolkata is one of the few cities in the world where these still operate."
       ]
     },
     {
       "h": "Kolkata: water, flooding, pollution and traffic",
+      "b": "Services and infrastructure (the basic systems a city runs on) were never built for so many people, and the city's low-lying site adds to the problems.",
       "points": [
-        "Water supply and sewerage are poor, so many residents lack safe water and proper sanitation.",
+        "Water supply and sewerage (the system of pipes carrying away waste water) are poor, so many residents lack safe water and proper sanitation.",
         "Monsoon rain floods the low-lying streets of the city.",
         "Air pollution and traffic congestion add to the city's environmental problems."
       ]
     },
     {
       "h": "Kolkata: responses",
+      "b": "Kolkata's planners, governments and charities have tried housing, transport, new towns and environmental solutions. Together these form the solutions part of the case study.",
       "points": [
         "The Calcutta Metropolitan Development Authority, the city's planning body, was set up in 1970.",
         "From the 1970s its bustee improvement programme provided water taps, toilets, paved lanes and drains.",
-        "Kolkata Metro, India's first, opened in 1984.",
-        "Salt Lake City (Bidhannagar) is a planned township built from the 1960s on reclaimed wetland east of the city; its Sector V is an IT hub.",
-        "New Town (Rajarhat) was planned from the late 1990s, with IT parks.",
+        "Kolkata Metro, India's first, opened in 1984, which eases congestion by moving people underground.",
+        "Salt Lake City (Bidhannagar) is a planned township built from the 1960s on reclaimed wetland (wetland drained and filled to make building land) east of the city; its Sector V is an IT hub.",
+        "New Town (Rajarhat) was planned from the late 1990s, with IT parks (business parks for information technology firms).",
         "The East Kolkata Wetlands were designated a Ramsar wetland of international importance in 2002; their fish ponds and fields use and naturally treat much of the city's sewage.",
         "Mother Teresa founded the Missionaries of Charity in the city in 1950 and received the Nobel Peace Prize in 1979."
-      ]
+      ],
+      "tip": "Exams ask you to explain one solution, so pick one response, such as bustee improvement, the metro or the new towns, and give its date and what it did."
     },
     {
       "h": "Kolkata: evaluation of responses",
+      "b": "To judge the responses, ask who benefited and what is left unsolved.",
       "points": [
         "Bustee upgrading improved conditions for many residents, but slums remain.",
         "The new towns serve the middle classes more than the poor."
@@ -197,25 +232,30 @@
     },
     {
       "h": "Mumbai, India: site and growth",
+      "b": "Mumbai (called Bombay until 1995) is the second Indian case study. Its natural harbour and its role as a trading centre made it a magnet for migrants.",
       "points": [
-        "Mumbai was originally seven islands, joined together by land reclamation, with a deep, sheltered natural harbour.",
+        "Mumbai was originally seven islands, joined together by land reclamation (building up land from the sea), with a deep, sheltered natural harbour.",
         "It was a British East India Company port, and cotton mills were built there from the 19th century.",
         "Mumbai is India's financial capital, not its political capital; it houses the Reserve Bank of India headquarters and the Bombay Stock Exchange, founded in 1875, Asia's oldest.",
-        "It is the centre of the Bollywood film industry.",
+        "It is the centre of the Bollywood film industry, which is another source of jobs that attracts migrants.",
         "The city was renamed from Bombay in 1995.",
         "Migrants come from across India, including Bihar and Uttar Pradesh, drawn by industry and jobs.",
-        "Census 2011 gave a Greater Mumbai urban agglomeration of about 18.4 million people."
-      ]
+        "Census 2011 gave a Greater Mumbai urban agglomeration (the city plus its built-up suburbs) of about 18.4 million people."
+      ],
+      "tip": "Mumbai is India's financial capital, not its political capital. Use Census 2011 for Indian city figures."
     },
     {
       "h": "Mumbai: slums and housing costs",
+      "b": "Mumbai is built on a narrow strip of land, so space is short and housing is expensive. Many people end up in slums.",
       "points": [
         "Dharavi is one of Asia's largest slums, in central Mumbai, with many small home-based industries such as recycling, leather and pottery.",
-        "Land and housing costs are very high on the narrow peninsula, which limits the space available for housing."
-      ]
+        "Land and housing costs are very high on the narrow peninsula (a strip of land almost surrounded by water), which limits the space available for housing."
+      ],
+      "tip": "Do not give a population for Dharavi."
     },
     {
       "h": "Mumbai: transport, flooding and water problems",
+      "b": "Dense population puts pressure on transport and services, and heavy monsoon rain can overwhelm the city.",
       "points": [
         "The suburban railway carries several million passengers a day, and its trains are overcrowded.",
         "Road congestion adds to the pressure on the transport network.",
@@ -225,13 +265,15 @@
     },
     {
       "h": "Mumbai: economic decline",
+      "b": "Mumbai's old industrial base collapsed in the 1980s, which changed where people worked.",
       "points": [
         "The Great Bombay textile strike of 1982 led to the closure of most cotton mills.",
-        "Mill land was later redeveloped, so the city's industrial base changed."
+        "Mill land was later redeveloped, so the city's industrial base changed, for example away from cotton."
       ]
     },
     {
       "h": "Mumbai: planned growth at Navi Mumbai",
+      "b": "Mumbai's planners tried to relieve the crowded island city by building a second city across the water.",
       "points": [
         "Navi Mumbai is a planned twin city across the harbour, begun in the 1970s by CIDCO (City and Industrial Development Corporation of Maharashtra, set up 1970).",
         "It is designed to take population and industry away from the crowded core of Mumbai."
@@ -239,62 +281,73 @@
     },
     {
       "h": "Mumbai: slum rehabilitation and Dharavi",
+      "b": "Rehabilitation means rehousing slum dwellers in new buildings, with private developers paying for it.",
       "points": [
-        "The Slum Rehabilitation Authority, set up in 1995, lets developers rehouse slum dwellers free in new blocks and sell the remaining flats.",
-        "The Dharavi Redevelopment Project was awarded to the Adani Group in 2022."
+        "The Slum Rehabilitation Authority, set up in 1995, lets developers rehouse slum dwellers free in new blocks and sell the remaining flats, so the developers pay for it from those sales.",
+        "The Dharavi Redevelopment Project was awarded to the Adani Group in 2022, as a plan to rebuild the slum, for example with new housing."
       ]
     },
     {
       "h": "Mumbai: transport links",
+      "b": "New rail and road links ease pressure on Mumbai's transport and tie it to Navi Mumbai.",
       "points": [
-        "Mumbai Metro Line 1 opened in 2014.",
-        "The Bandra–Worli Sea Link opened in 2009.",
+        "Mumbai Metro Line 1 opened in 2014, so some commuters have an alternative to the overcrowded roads and trains.",
+        "The Bandra–Worli Sea Link opened in 2009, a road bridge over the sea that shortens journeys across the city.",
         "The Mumbai Trans Harbour Link (Atal Setu), opened in January 2024, is India's longest sea bridge and links Mumbai to Navi Mumbai."
       ]
     },
     {
       "h": "Mumbai: evaluation of responses",
+      "b": "Rehousing gave people new homes but has drawbacks.",
       "points": [
         "Rehousing flats under the Slum Rehabilitation Authority are criticised for poor design.",
-        "Rehousing is also criticised for breaking up Dharavi's home-based industries."
+        "Rehousing is also criticised for breaking up Dharavi's home-based industries, which depended on the slum's layout and community for their work."
       ]
     },
     {
       "h": "São Paulo, Brazil: site and early history",
+      "b": "São Paulo is the Latin American case study. It is not Brazil's capital (that is Brasília) and it is not on the coast.",
       "points": [
         "São Paulo lies on a plateau inland from the port of Santos, not on the coast.",
-        "It was founded on 25 January 1554 by Jesuit missionaries.",
-        "Santos is now Latin America's busiest container port."
-      ]
+        "It was founded on 25 January 1554 by Jesuit missionaries, long before its coffee and industrial growth.",
+        "Santos is now Latin America's busiest container port, which is why trade and growth gathered inland at São Paulo."
+      ],
+      "tip": "São Paulo is inland and is not the capital; Santos is its port."
     },
     {
       "h": "São Paulo: reasons for growth",
+      "b": "Coffee, immigration and industry each brought a new wave of people to São Paulo.",
       "points": [
         "Coffee wealth in the 19th century was exported through Santos and carried by the Santos–Jundiaí railway, opened in 1867.",
         "Immigration from Europe, especially Italy, in the late 19th and early 20th centuries.",
         "Japanese immigration began in 1908 with the ship Kasato Maru; the city has the largest Japanese community outside Japan, centred on the Liberdade district.",
         "From the 1950s São Paulo became Brazil's industrial heartland; car plants, including Volkswagen, opened in the ABC region (Santo André, São Bernardo do Campo and São Caetano do Sul).",
         "Migrants from the drought-prone North-East of Brazil, known as nordestinos, moved to the city to work in its industries."
-      ]
+      ],
+      "tip": "For factors influencing growth, pick any three of coffee, immigration, industry and migration from the North-East, with a reason for each."
     },
     {
       "h": "São Paulo: size today",
+      "b": "Be clear whether a figure refers to the city or the wider metropolitan region, because the two are very different.",
       "points": [
-        "IBGE Census 2022 gave the city of São Paulo about 11.5 million people and the metropolitan region about 21 million.",
+        "IBGE (the Brazilian statistics agency) Census 2022 gave the city of São Paulo about 11.5 million people and the metropolitan region about 21 million.",
         "São Paulo is the largest city in South America and in the Southern Hemisphere.",
-        "Brazil is over 80% urban."
-      ]
+        "Brazil is over 80% urban, so São Paulo's growth is part of a country-wide shift."
+      ],
+      "tip": "Do not mix the city figure (about 11.5 million) with the metropolitan figure (about 21 million)."
     },
     {
       "h": "São Paulo: favelas and inequality",
+      "b": "São Paulo's wealth sits right beside poverty, and informal housing (favelas) is the clearest sign of this.",
       "points": [
         "Paraisópolis favela borders the wealthy district of Morumbi, so extreme inequality is visible from one street to the next.",
         "Heliópolis is São Paulo's largest favela.",
-        "Crime is a problem in the city, including in its favelas."
+        "Crime is a problem in the city, including in its favelas, so inequality has social effects as well as housing ones."
       ]
     },
     {
       "h": "São Paulo: traffic, pollution and flooding",
+      "b": "A very large metropolitan region puts heavy pressure on its roads, air and rivers.",
       "points": [
         "Traffic congestion is severe across the metropolitan region.",
         "Air pollution from vehicles and industry adds to the city's environmental problems.",
@@ -303,26 +356,30 @@
     },
     {
       "h": "São Paulo: water shortage",
+      "b": "Unusually, São Paulo's problem was too little water, not too much.",
       "points": [
-        "The Cantareira reservoir system is the main source of the city's water.",
-        "During the 2014–2015 drought the Cantareira fell to very low levels, and water rationing was introduced."
+        "The Cantareira reservoir system (a group of reservoirs) is the main source of the city's water.",
+        "During the 2014–2015 drought the Cantareira fell to very low levels, and water rationing (limiting how much water people receive) was introduced."
       ]
     },
     {
       "h": "São Paulo: responses",
+      "b": "The authorities have tried traffic limits, new transport and new housing.",
       "points": [
-        "Rodízio, from 1997: cars are banned from central São Paulo at rush hours on one weekday, according to the last digit of the number plate.",
-        "The São Paulo Metro opened its first line in 1974.",
-        "The Rodoanel Mário Covas ring road encircles the metropolitan region; its first section opened in 2002.",
+        "Rodízio, from 1997: cars are banned from central São Paulo at rush hours on one weekday, according to the last digit of the number plate, which cuts the number of cars on the road each day.",
+        "The São Paulo Metro opened its first line in 1974, so that people can travel without using the congested roads.",
+        "The Rodoanel Mário Covas ring road encircles the metropolitan region, so traffic can bypass the centre; its first section opened in 2002.",
         "Projeto Cingapura (1990s) replaced some favela shacks with apartment blocks on the same sites.",
-        "Minha Casa, Minha Vida, a national subsidised housing programme, was launched in 2009."
-      ]
+        "Minha Casa, Minha Vida, a national subsidised housing programme (the state pays part of the cost), was launched in 2009."
+      ],
+      "tip": "Pick one response and explain what it was and what it did, using its date."
     },
     {
       "h": "São Paulo: evaluation of responses",
+      "b": "The measures have made a difference, but not enough.",
       "points": [
         "Favela upgrading and transport improvements have helped.",
-        "Favelas and traffic congestion persist."
+        "Favelas and traffic congestion persist, because growth has outpaced the measures taken."
       ]
     }
   ],

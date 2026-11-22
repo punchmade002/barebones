@@ -6,38 +6,43 @@
   "notes": [
     {
       "h": "What satellite imagery is",
-      "b": "Satellite imagery is remote sensing: information about the earth's surface gathered from a distance, without contact, by sensors that record reflected or emitted energy.",
+      "b": "Satellite imagery is remote sensing: information about the earth's surface gathered from a distance, without contact, by sensors that record reflected or emitted energy. It lets geographers study large areas that nobody could survey on foot.",
       "points": [
-        "Sensors on satellites or aircraft record energy in several wavebands, such as visible light, infrared and microwaves (radar).",
-        "Each picture element, or pixel, stores a number for each waveband, and a computer turns these numbers into an image; a satellite image is therefore not a photograph in the ordinary sense.",
-        "Resolution is the size of the ground area one pixel covers: high resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.",
-        "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in the notes on Aerial photograph interpretation."
-      ]
+        "Sensors on satellites or aircraft record energy in several wavebands (separate bands of the energy spectrum), such as visible light, infrared (heat energy) and microwaves (radar).",
+        "Each picture element, or pixel (one tiny square of the image), stores a number for each waveband, and a computer turns these numbers into an image. A satellite image is therefore not a photograph in the ordinary sense.",
+        "Resolution is the size of the ground area one pixel covers. High resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.",
+        "A satellite image is taken from far higher than an aerial photograph (a photo taken from an aircraft), covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see.",
+        "An aerial photograph shows more detail of a small area and is vertical (taken straight down) or oblique (taken at a slant). There is more on this in Aerial photograph interpretation."
+      ],
+      "tip": "A satellite image is not an aerial photograph, so do not apply the oblique-photo nine-area grid or sketch-map rules to it. Only if a question asks for a location on a vertical image, use left, centre or right with top, centre or bottom, or compass directions."
     },
     {
       "h": "Geostationary and polar-orbiting satellites",
-      "b": "The height and path of a satellite's orbit decide how much of the earth it sees, how often, and in how much detail.",
+      "b": "The height and path of a satellite's orbit decide how much of the earth it sees, how often, and in how much detail. There are two main types, and they trade coverage against detail.",
       "points": [
-        "Geostationary satellites orbit about 36,000 km above the equator at the same speed as the earth turns, so they stay over one point and view a whole hemisphere continuously.",
-        "Geostationary images have low detail and are used for weather; Meteosat weather satellites are operated by EUMETSAT, of which Ireland is a member state.",
+        "Geostationary satellites orbit about 36,000 km above the equator at the same speed as the earth turns, so they stay over one point and view the same large area, a whole hemisphere (half the globe), continuously.",
+        "Geostationary images have low detail and are used for weather, because the satellite can watch cloud systems continuously. Meteosat weather satellites are operated by EUMETSAT, of which Ireland is a member state.",
         "Polar-orbiting satellites fly in much lower orbits of hundreds of km, passing near both poles while the earth turns beneath them, so they cover the whole surface strip by strip over days.",
-        "Polar-orbiting images have much greater detail and are used for land use, mapping and environmental monitoring; Landsat (USA) has imaged the earth since 1972, and the Sentinel satellites belong to the EU's Copernicus earth-observation programme."
-      ]
+        "Polar-orbiting images have much greater detail and are used for land use, mapping and environmental monitoring. Landsat (USA) has imaged the earth since 1972, and the Sentinel satellites belong to the EU's Copernicus earth-observation programme."
+      ],
+      "tip": "Students often swap the two types. Geostationary means high, fixed over the equator, weather and low detail. Polar-orbiting means low, moving, detailed and used for land use."
     },
     {
       "h": "Types of image",
+      "b": "Different sensors record different energy, so the same place looks different on each type of image. Knowing which type you have tells you what the colours mean.",
       "points": [
-        "Visible image: reflected sunlight, like a photograph; daytime only; thick cloud appears bright white.",
-        "Infrared image: records heat, so it works day and night; cold, high cloud tops appear white and warm land and sea appear darker; used to show cloud height and sea temperature.",
-        "False-colour image: near-infrared is shown as red, so healthy vegetation appears red and towns appear blue-grey; used to study crops and forests.",
-        "Radar image: the satellite sends microwaves and records the echo; it sees through cloud and works at night, so it is useful for mapping floods in cloudy weather."
-      ]
+        "Visible image: records reflected sunlight, like a photograph, so it works in daytime only. Thick cloud appears bright white.",
+        "Infrared image: records heat, so it works day and night. Cold, high cloud tops appear white and warm land and sea appear darker, which is why it is used to show cloud height and sea temperature.",
+        "False-colour image: near-infrared (infrared just beyond visible red) is shown as red, so healthy vegetation appears red and towns appear blue-grey. It is used to study crops and forests.",
+        "Radar image: the satellite sends microwaves and records the echo. It sees through cloud and works at night, so it is useful for mapping floods in cloudy weather."
+      ],
+      "tip": "In standard false colour, healthy vegetation is red, not green."
     },
     {
       "h": "Reading a satellite image: method",
       "b": "Work through the same five steps for any image, then give the answer in geographical terms.",
       "points": [
-        "Step 1: read the caption, date, scale or area covered, and check whether the image is true colour, false colour or infrared.",
+        "Step 1: read the caption, date, scale or area covered, and check whether the image is true colour (natural colours), false colour or infrared, because this decides what each colour means.",
         "Step 2: find north (usually the top) and any coastline or river to orient yourself.",
         "Step 3: identify features by colour or tone, texture, shape, size, pattern and association, meaning what lies next to what.",
         "Step 4: describe the distribution and pattern, such as linear, clustered or regular, or lying along rivers or coasts.",
@@ -46,79 +51,111 @@
     },
     {
       "h": "Colour, tone and telling cloud from snow",
+      "b": "In a true-colour image each surface has a typical colour. White is the confusing one, because several very different things appear white.",
       "points": [
         "In true colour, water is dark blue to black, and muddy or shallow water is brown or turquoise.",
-        "Vegetation is green: forest is dark green, and crops and grass are lighter.",
+        "Vegetation is green, because plants reflect green light: forest is dark green, and crops and grass are lighter.",
         "Bare ground and desert are yellow, brown, orange or red; urban areas are grey.",
-        "Snow, ice, cloud and salt flats all appear white, so decide between them using shape, texture and location.",
-        "Cloud is fluffy, streaky or swirling, casts shadows and changes position between images.",
+        "Snow, ice, cloud and salt flats (flat areas of dried salt) all appear white, so decide between them using shape, texture and location.",
+        "Cloud is fluffy, streaky or swirling, casts shadows and changes position between images, because it is moving.",
         "Snow and ice follow the shape of the land, filling valleys and lying along mountain ridges and the coastline."
-      ]
+      ],
+      "tip": "White can be cloud, snow, ice or salt. Use shape, texture and location to decide, and say which clue you used."
     },
     {
-      "h": "Recognising weather systems, hazards and landforms",
-      "b": "Matching questions depend on the recognition clues below; the clue alone identifies the feature.",
+      "h": "Recognising weather systems and ice",
+      "b": "Matching questions depend on recognition clues. Each feature below has a look that identifies it, and you only need to know what the image shows, not how the feature forms.",
       "points": [
-        "Depression (mid-latitude storm): a large comma-shaped or spiral band of white cloud, with a long trailing cloud band, the front.",
-        "Hurricane (tropical cyclone): a huge circular spiral of thick white cloud with a clear, dark eye at the centre, over the ocean.",
-        "Anticyclone: a large cloud-free area in which land and sea are clearly visible.",
-        "Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine along it and a cracked (crevassed) texture; it may end in the sea or a lake with icebergs.",
-        "Ice sheet: a vast, smooth white surface with no visible land.",
-        "Volcano: a circular cone with a crater at the summit and radial gullies down its sides; during an eruption a grey or white ash plume is blown in one direction, and dark lava flows spread downslope.",
-        "Wildfire: grey or brown smoke plumes drifting downwind from bright red-orange fire fronts; afterwards a dark brown or black burn scar lies among green vegetation.",
-        "Flood: brown, muddy water spread over land outside the river channel, covering fields and roads; compare with an image taken before the flood.",
+        "Depression (mid-latitude storm, a low-pressure system): a large comma-shaped or spiral band of white cloud, with a long trailing cloud band, the front (the boundary between air masses).",
+        "Hurricane (tropical cyclone): a huge circular spiral of thick white cloud with a clear, dark eye (the calm centre) at the middle, over the ocean.",
+        "Anticyclone (a high-pressure system): a large cloud-free area in which land and sea are clearly visible.",
+        "Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine (rock debris carried by the ice) along it and a cracked (crevassed) texture. It may end in the sea or a lake with icebergs.",
+        "Ice sheet: a vast, smooth white surface with no visible land."
+      ],
+      "tip": "Do not use images or captions from past papers. Learn the clues for each feature instead, and do not try to recall the exam's named examples."
+    },
+    {
+      "h": "Recognising hazards and deserts",
+      "b": "Hazards change the surface suddenly, and the change shows up in colour. Before-and-after comparison is often the clearest way to spot the damage.",
+      "points": [
+        "Volcano: a circular cone with a crater at the summit and radial gullies (channels running outward) down its sides.",
+        "During an eruption a grey or white ash plume is blown in one direction, and dark lava flows spread downslope.",
+        "Wildfire: grey or brown smoke plumes drift downwind from bright red-orange fire fronts.",
+        "After a wildfire a dark brown or black burn scar (the burnt ground) lies among green vegetation.",
+        "Flood: brown, muddy water spread over land outside the river channel, covering fields and roads. Compare with an image taken before the flood.",
         "Hot desert: a yellow, orange or red-brown surface with no vegetation, sand-dune patterns of ripples or ridges, and dry river beds."
       ]
     },
     {
-      "h": "Recognising land use, settlement and coasts",
+      "h": "Recognising farming, forest and urban land use",
+      "b": "Human land use leaves patterns that nature rarely makes: straight lines, circles and regular grids. These shapes are the main clue.",
       "points": [
-        "Irrigated farming in a dry region: bright green geometric fields, often perfect circles from centre-pivot irrigation or rectangles, sharply set against brown desert; or a green strip along a river.",
-        "Centre-pivot circles are well known in Saudi Arabia and on the Great Plains of the USA; the Nile valley and delta, Egypt, shows as a green strip and fan of farmland through the desert.",
+        "Irrigated farming (artificial watering of crops) in a dry region: bright green geometric fields, often perfect circles from centre-pivot irrigation (a rotating watering arm) or rectangles, sharply set against brown desert; or a green strip along a river.",
+        "Centre-pivot circles are well known in Saudi Arabia and on the Great Plains of the USA. The Nile valley and delta, Egypt, shows as a green strip and fan of farmland through the desert.",
         "Commercial crop farming in temperate lowlands: a regular chequerboard of rectangular fields of different colours, showing crops at different stages, with straight roads on a grid.",
-        "Forest: a uniform dark green texture; deforestation shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).",
-        "Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging; parks show as green.",
-        "Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.",
-        "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in the notes on Coastal processes, patterns and associated landforms (The Sea at Work).",
-        "Large landforms: river valleys and meanders; mountain ranges shown by ridges, shadows and snow; canyons as deep, branching, steep-sided valleys in bare rock; salt pans as dazzling white geometric patches in deserts.",
-        "Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated."
-      ]
+        "Forest: a uniform dark green texture. Deforestation (clearing of forest) shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).",
+        "Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging. Parks show as green.",
+        "Airport: long straight runways, often crossing, beside large paved areas and terminal buildings."
+      ],
+      "tip": "Irrigation means the artificial supply of water to crops, which is why irrigated fields stand out as green against dry land."
     },
     {
-      "h": "Uses of satellite imagery",
-      "b": "For a 'state one use' question, name the use and say what the image shows.",
+      "h": "Recognising coasts, landforms and night lights",
+      "b": "Coasts and large landforms are recognised by outline, shape and tone. Here you only name what the image shows.",
       "points": [
-        "Weather forecasting: tracking depressions, fronts and cloud, issuing storm warnings and tracking hurricanes so that coasts can be evacuated; ex-hurricane Ophelia was tracked by satellite as it approached Ireland.",
+        "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast. A spit is a sand strip attached at one end, and a tombolo joins an island to the mainland.",
+        "Deltas show as fan-shaped land with branching channels and sediment plumes (clouds of suspended mud) in the sea. Islands, bays and headlands are recognised by outline.",
+        "Large landforms: river valleys and meanders (bends in a river), and mountain ranges shown by ridges, shadows and snow.",
+        "Canyons appear as deep, branching, steep-sided valleys in bare rock, and salt pans as dazzling white geometric patches in deserts.",
+        "Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated. There is more on coastal landform formation in Coastal processes, patterns and associated landforms (The Sea at Work)."
+      ],
+      "tip": "Matching questions have included a coastal feature such as a tombolo, a canyon, an airport runway, salt production and islands, and the answer depends on the clues here."
+    },
+    {
+      "h": "Uses of satellite imagery: weather, maps, farming and environment",
+      "b": "For a 'state one use' question, name the use and say what the image shows. These first uses cover forecasting, mapping, farming and long-term change.",
+      "points": [
+        "Weather forecasting: tracking depressions, fronts and cloud, issuing storm warnings and tracking hurricanes so that coasts can be evacuated. Ex-hurricane Ophelia (October 2017) was tracked by satellite as it approached Ireland.",
         "Mapping: mapping remote or inaccessible areas and updating maps with new roads and housing.",
         "Agriculture: monitoring crop health and yields, irrigation and land-use change, and checking farm area claims.",
-        "Environmental change: tracking deforestation, desertification, shrinking lakes, glacier and ice-sheet retreat, sea-ice extent and sea surface temperature.",
-        "The Aral Sea (Kazakhstan–Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation; satellite images from different decades show the shrinkage.",
+        "Environmental change: tracking deforestation, desertification (land turning to desert), shrinking lakes, glacier and ice-sheet retreat, sea-ice extent and sea surface temperature.",
+        "The Aral Sea (Kazakhstan-Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation. Satellite images from different decades show the shrinkage."
+      ],
+      "tip": "Expected answers to 'state one use' include weather forecasting, mapping, monitoring crops, deforestation or hazards."
+    },
+    {
+      "h": "Uses of satellite imagery: hazards, pollution, cities and others",
+      "b": "Satellite images also help in emergencies and in planning, and some satellites that people link with 'satellite' do not take images at all.",
+      "points": [
         "Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.",
-        "Pollution: detecting oil spills at sea, smog and algal blooms.",
-        "Urban growth: measuring urban sprawl over time, a GIS study in the notes on Geographical information systems (GIS).",
+        "Pollution: detecting oil spills at sea, smog and algal blooms (dense growths of algae in water).",
+        "Urban growth: measuring urban sprawl (the spread of a city into the countryside) over time, which is a GIS (geographic information system) study. There is more on this in Geographical information systems (GIS).",
         "Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.",
         "Military and security surveillance."
-      ]
+      ],
+      "tip": "GPS satellites are for positioning, not imaging."
     },
     {
       "h": "Satellite imagery and the core and elective units",
+      "b": "Satellite images are a source for the rest of the course. They show whole landscapes at once, which suits both physical and human geography.",
       "points": [
-        "Physical landscape: plate boundaries and fold mountains (long parallel ranges), volcanoes, rift valleys, glaciated valleys and ice sheets, river basins and deltas, and coastlines.",
-        "Regions: images of Ireland and Europe show regional contrasts, such as the mountainous, wetter, greener west against the flatter, more cultivated east, and cloud-cover patterns; regional detail is in the regional chapters.",
+        "Physical landscape: plate boundaries (where crustal plates meet) and fold mountains (long parallel ranges), volcanoes, rift valleys, glaciated valleys and ice sheets, river basins and deltas, and coastlines.",
+        "Regions: images of Ireland and Europe show regional contrasts, such as the mountainous, wetter, greener west against the flatter, more cultivated east, and cloud-cover patterns. Regional detail is in the regional chapters.",
         "Human landscape: settlement patterns, urban growth, transport routes, field patterns, land-use change and deforestation."
       ]
     },
     {
       "h": "Advantages and limitations",
+      "b": "Satellite imagery is powerful for large areas and change over time, but it has weaknesses that affect what it can tell you.",
       "points": [
-        "Advantage: one image covers a very large area in a single view.",
-        "Advantage: regular repeat coverage shows change over time, and archives go back decades.",
+        "Advantage: one image covers a very large area in a single view, so patterns too big to see on the ground become clear.",
+        "Advantage: regular repeat coverage shows change over time, such as a shrinking lake, and archives go back decades.",
         "Advantage: remote and dangerous areas can be reached without a visit, and invisible wavebands such as infrared and radar are recorded.",
         "Advantage: images can be produced quickly, so they are useful in emergencies.",
-        "Limitation: cloud blocks visible and infrared images.",
+        "Limitation: cloud blocks visible and infrared images, so the ground beneath cannot be seen.",
         "Limitation: many images have limited resolution, and interpreting them needs skill and software.",
-        "Limitation: images carry no names or labels, and relief is hard to judge on a flat image unless shadows show it.",
-        "Limitation: high-resolution imagery can be costly."
+        "Limitation: images carry no names or labels, and relief (the height and shape of the land) is hard to judge on a flat image unless shadows show it.",
+        "Limitation: high-resolution imagery can be costly, so not every user can afford it."
       ]
     }
   ],

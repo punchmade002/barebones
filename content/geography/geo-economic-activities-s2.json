@@ -6,21 +6,23 @@
   "notes": [
     {
       "h": "Bulk-reducing and bulk-gaining industries",
-      "b": "Firms locate where total transport costs are lowest. This least-cost principle of industrial location was set out by Alfred Weber in 1909.",
+      "b": "Firms try to locate where total transport costs are lowest. This least-cost principle of industrial location was set out by Alfred Weber in 1909, and it depends on whether processing makes the materials lighter or heavier.",
       "points": [
-        "Bulk-reducing industries: the raw material loses weight in processing, so the plant locates near the raw material. Examples: alumina refining, dairy processing, fish processing, mining.",
-        "Bulk-gaining industries: the product gains weight or bulk in production, so the plant locates near the market. Examples: brewing, soft drinks bottling, bakeries.",
+        "Bulk-reducing industries are those where the raw material loses weight in processing, so the plant locates near the raw material because carrying the heavy input a long way would waste money. Examples: alumina refining, dairy processing, fish processing, mining.",
+        "Bulk-gaining industries are those where the product gains weight or bulk in production, so the plant locates near the market because the finished product is the costly thing to move. Examples: brewing, soft drinks bottling, bakeries.",
         "Test for an exam location question: if the inputs lose weight in processing, the plant is pulled towards the raw material; if the finished product is heavier or bulkier, it is pulled towards the market."
-      ]
+      ],
+      "tip": "Do not swap the two groups. Brewing and soft drinks are bulk-gaining (market-oriented); alumina refining, dairy processing and fish processing are bulk-reducing (raw-material-oriented)."
     },
     {
       "h": "Terms used in location",
+      "b": "Location questions use a set of working terms. Knowing them makes the location factors easier to follow.",
       "points": [
-        "Footloose industry: defined under the subsection Case study of a developed economy; the factors below explain where footloose activities choose to locate.",
+        "Footloose industry: one that is not tied to a raw material or a market, so it is free to choose its location. The factors below explain where footloose activities choose to locate.",
         "Branch plant: a factory or office owned by a company headquartered elsewhere, usually carrying out routine production.",
         "Headquarters (HQ): the head office where a company's main decisions are made. Research and development (R&D): the work of designing new products and processes.",
         "Greenfield site: undeveloped land on which a new plant is built. Brownfield site: land already built on, often a former industrial site that may need clearing before reuse.",
-        "Industrial estate or business park: a serviced area of land set aside for firms.",
+        "Industrial estate or business park: a serviced area of land set aside for firms, with roads and utilities already in place.",
         "Cluster, or agglomeration: firms in the same or related industries grouped together, sharing skills, suppliers and research.",
         "Backward linkages are links to a firm's suppliers; forward linkages are links to its customers.",
         "Infrastructure: the transport, energy, water, communications and waste systems that firms depend on."
@@ -28,75 +30,84 @@
     },
     {
       "h": "Raw materials, energy and labour",
-      "b": "A location factor is any condition that makes one place more suitable than another for an activity.",
+      "b": "A location factor is any condition that makes one place more suitable than another for an activity. The first three are the inputs a firm needs to make its product.",
       "points": [
-        "Raw materials: weight-losing raw materials pull processing towards their source or towards a port where they arrive.",
-        "Energy: industry once clustered on coalfields. National electricity grids freed most industry from this, but energy-hungry activities such as alumina refining and data centres still need large, reliable and affordable power.",
+        "Raw materials: weight-losing raw materials pull processing towards their source or towards a port where they arrive, which keeps the cost of moving heavy loads down.",
+        "Energy: industry once clustered on coalfields, where the fuel was. National electricity grids freed most industry from this, but energy-hungry activities such as alumina refining and data centres still need large, reliable and affordable power.",
         "Labour: the quantity, skills and education, cost, productivity and flexibility of the workforce.",
-        "High-technology and service firms seek graduates; standardised assembly seeks low wages.",
-        "Irish example for labour: the Intel plant at Leixlip and the Galway cluster, both described below."
-      ]
+        "High-technology and service firms seek graduates because their work needs advanced skills; standardised assembly (repeating the same simple steps) seeks low wages.",
+        "Irish examples for labour: the Intel plant at Leixlip and the Galway cluster, both described below."
+      ],
+      "tip": "Higher Level questions on raw materials, labour, markets and infrastructure as influences on secondary activity (manufacturing) are asked in general terms, so give the factor, why it matters, and an Irish firm as an example."
     },
     {
       "h": "Markets, transport and communications",
+      "b": "Once a product is made it has to reach its customers, and firms need to receive inputs. Markets, transport links and communications decide how cheaply and quickly that happens.",
       "points": [
-        "Markets: the size and wealth of the market, and access to the EU single market. Bulk-gaining and perishable goods locate near the market; services locate near their customers.",
-        "Ports: deep water lets bulk carriers berth. Dublin Port is Ireland's busiest port. Port of Cork and Shannon Foynes Port are also major ports.",
-        "Rosslare Europort: direct ferry routes to France grew after Brexit (2021) to avoid the UK land bridge.",
+        "Markets: the size and wealth of the market, and access to the EU single market (the EU area with no trade barriers between members). Bulk-gaining and perishable goods locate near the market; services locate near their customers.",
+        "Ports: deep water lets bulk carriers (large ships carrying loose cargo) berth. Dublin Port is Ireland's busiest port. Port of Cork and Shannon Foynes Port are also major ports.",
+        "Rosslare Europort: direct ferry routes to France grew after Brexit (2021) to avoid the UK land bridge, the route across Britain to continental Europe.",
         "Whitegate, Cork Harbour: Ireland's only oil refinery, opened 1959.",
-        "Airports: air freight suits light, high-value, time-sensitive goods such as pharmaceuticals, medical devices and microchips.",
+        "Airports: air freight suits light, high-value, time-sensitive goods such as pharmaceuticals, medical devices and microchips, because the high price of the goods can bear the high cost of air transport.",
         "Dublin Airport handled over 30 million passengers in 2023; its North Runway opened in 2022.",
         "Freight modes: road offers door-to-door flexibility over short and medium distances; rail carries heavy loads on fixed routes; sea is the cheapest way to move bulk over long distances; air is the fastest but the most expensive.",
-        "Motorways, rail, broadband and fibre connect firms to markets and suppliers; for services, broadband and fibre matter most.",
-        "One environmental challenge of air transport is its CO2 emissions."
-      ]
+        "Motorways, rail, broadband and fibre (fibre-optic cable) connect firms to markets and suppliers; for services, broadband and fibre matter most. One environmental challenge of air transport is its CO2 emissions."
+      ],
+      "tip": "Short questions ask for the advantages of air freight, one environmental challenge of air transport, and reasons for growth at the busiest airport. Give each freight mode with its advantage, and name CO2 emissions as the air challenge."
     },
     {
       "h": "Capital, government and EU policy",
+      "b": "A firm also needs money and a welcoming policy environment. Governments, and the EU above them, can make a location more or less attractive through money, tax and rules.",
       "points": [
-        "Capital: investment money comes from banks, shareholders, government grants and venture capital.",
-        "IDA Ireland was set up in 1949 and became an independent agency in 1969. It offers grants, serviced sites and advance factories to attract firms.",
-        "Corporation tax was 12.5% from 2003. Very large groups pay 15% from 2024.",
+        "Capital: investment money comes from banks, shareholders, government grants and venture capital (money from investors who back new, risky businesses).",
+        "IDA Ireland was set up in 1949 and became an independent agency in 1969. It attracts firms by offering grants, serviced sites (land with utilities already supplied) and advance factories (buildings built ready for a firm to move into).",
+        "Corporation tax (the tax on company profits) was 12.5% from 2003. Very large groups pay 15% from 2024.",
         "Enterprise Ireland (1998) supports Irish-owned firms. Údarás na Gaeltachta (1980) supports enterprise in Gaeltacht areas.",
         "Regional policy steers firms towards less-developed areas through grants and incentives.",
-        "Planning permission is needed before a site can be built on. EU state-aid rules limit the subsidies governments may give firms, while EU funds support regional development.",
-        "Trade agreements reduce the barriers that firms face when selling across borders."
-      ]
+        "Planning permission (official approval from the local authority) is needed before a site can be built on.",
+        "EU state-aid rules limit the subsidies governments may give firms, while EU funds support regional development.",
+        "Trade agreements reduce the barriers that firms face when selling across borders, which makes a location inside the agreement more attractive."
+      ],
+      "tip": "Government policy is a named Higher Level topic. Cover tax rates, grants, serviced sites and advance factories (IDA Ireland), regional policy, planning permission, EU state-aid rules and funds, and trade agreements."
     },
     {
       "h": "Site, services and infrastructure",
+      "b": "After a firm picks a general area it must find a suitable piece of land, and workers and the plant both need services. The site and its services decide whether the plant can actually be built and run.",
       "points": [
-        "Site: flat, well-drained land, large enough for expansion, at a cheap price.",
-        "Site: a water supply, and facilities for effluent and waste disposal.",
-        "Site: hazardous industry needs distance from homes.",
-        "Services: water, electricity, gas, broadband, waste treatment, housing and schools. Workers must be able to live near the plant."
+        "Site: flat, well-drained land, large enough for expansion, at a cheap price, so that building is easy and the plant can grow later.",
+        "Site: a water supply, and facilities for effluent (liquid waste) and waste disposal.",
+        "Site: hazardous industry needs distance from homes, so that accidents or pollution do not harm residents.",
+        "Services: water, electricity, gas, broadband, waste treatment, housing and schools. Workers must be able to live near the plant, which is why housing and schools count as location factors."
       ]
     },
     {
       "h": "Agglomeration, inertia and quality of life",
+      "b": "Some location factors are about people and history rather than land and transport. Firms gather together, stay put out of habit, or follow the pull of a pleasant place to live.",
       "points": [
-        "Agglomeration: firms in the same industry gather to share skilled workers, suppliers, research and universities.",
+        "Agglomeration: firms in the same industry gather to share skilled workers, suppliers, research and universities, so each firm gains from the others being nearby.",
         "Cork Harbour (pharmaceuticals) and Galway (medical technology) grew into clusters in this way.",
-        "Personal and historical factors: the choices of founders and the history of a site can decide a location.",
+        "Personal and historical factors: the choices of founders and the history of a site can decide a location, whatever the economics of the place.",
         "Industrial inertia: an industry stays where it is after the original reason for locating there has gone.",
-        "Quality of life: attractive places to live help firms recruit skilled staff."
-      ]
+        "Quality of life: attractive places to live help firms recruit skilled staff, because graduates can choose where to work."
+      ],
+      "tip": "Guinness at St James's Gate is the example of industrial inertia. Cork Harbour and Galway are the examples of clusters."
     },
     {
       "h": "Local opposition and environmental regulation",
       "b": "Local opposition and environmental regulation can stop or delay a project. Corrib gas shows how long a delay can be.",
       "points": [
-        "Corrib gas was discovered in 1996. Its terminal is at Bellanaboy, Co. Mayo.",
+        "Corrib gas was discovered in 1996. Its terminal (the plant that receives and processes the gas) is at Bellanaboy, Co. Mayo.",
         "The Shell to Sea campaign opposed the project, and the Rossport Five were jailed in 2005.",
         "Gas first flowed in December 2015, after a long delay caused by local opposition and changes to planning."
       ]
     },
     {
       "h": "Changing importance of location factors",
+      "b": "The weight of each factor has changed over time as transport, energy supply and technology have changed. The pattern runs from resources, to customers, to skills and quality of life.",
       "points": [
-        "In the 19th century, raw materials and power were the main location factors.",
+        "In the 19th century, raw materials and power were the main location factors, so industry sat on or near coalfields and sources of materials.",
         "In the 20th century, markets and labour became the main factors.",
-        "Today, footloose activities chase skills, tax, connectivity and quality of life."
+        "Today, footloose activities (those free to choose a location) chase skills, tax, connectivity and quality of life."
       ]
     },
     {
@@ -104,17 +115,19 @@
       "b": "A bulk-reducing heavy industry located on a deep-water estuary, where imported raw material arrives by sea.",
       "points": [
         "Aughinish Alumina opened in 1983 on Aughinish Island near Askeaton, Co. Limerick, on the south shore of the Shannon Estuary. It is Europe's largest alumina refinery.",
-        "Bulk-reducing: about two to three tonnes of bauxite make one tonne of alumina, so the refinery sits at the raw material's port.",
+        "Bulk-reducing: about two to three tonnes of bauxite (the ore, or raw rock, that alumina is made from) make one tonne of alumina, so the refinery sits at the raw material's port.",
         "Bauxite is imported by sea, mainly from Guinea and Brazil. The alumina (aluminium oxide) is shipped to aluminium smelters elsewhere; the refinery does not make aluminium.",
         "Deep, sheltered water in the Shannon Estuary, Ireland's deepest natural sheltered water, allows large bulk carriers to berth.",
-        "The site is a flat island location away from towns.",
+        "The site is a flat island location away from towns, which suits a large heavy industry.",
         "Government support for heavy industry is a further factor in its siting.",
         "Problems: bauxite residue, known as red mud, is stored in large disposal areas on site.",
         "The company has been owned by the Russian company Rusal since 2007."
-      ]
+      ],
+      "tip": "Bauxite is the raw material, alumina is what Aughinish produces, and aluminium is made from alumina elsewhere in smelters. Never say Aughinish makes aluminium."
     },
     {
       "h": "Moneypoint and energy on the Shannon Estuary",
+      "b": "The same estuary that serves Aughinish has also been used for energy, because deep water lets fuel arrive by ship.",
       "points": [
         "Moneypoint power station, Co. Clare, is on the Shannon Estuary and imported coal by sea.",
         "Coal burning at Moneypoint ended in 2025, so the estuary's energy role has changed."
@@ -122,24 +135,26 @@
     },
     {
       "h": "Intel, Leixlip, Co. Kildare: footloose high-technology manufacturing",
-      "b": "Intel is footloose in the sense that its products are not tied to a raw material or a market, so it chose Leixlip from many possible sites.",
+      "b": "Intel is footloose in the sense that its products are not tied to a raw material or a market, so it chose Leixlip from many possible sites. Its choice shows which factors matter to a high-technology firm.",
       "points": [
         "Intel's Leixlip plant opened in 1989. It is Ireland's largest private-sector investment, worth billions of euro.",
-        "Skilled graduates are available, with Maynooth University nearby.",
-        "IDA support and low corporation tax attracted the investment (see Capital, government and EU policy).",
+        "Skilled graduates are available, so with Maynooth University nearby, which meets the plant's need for a skilled workforce.",
+        "IDA support and low corporation tax attracted the investment. There is more on this in Capital, government and EU policy.",
         "Access to the EU single market from an English-speaking base.",
-        "The plant lies beside the M4 motorway and close to Dublin Airport.",
-        "It occupies a large greenfield site with a supply of electricity and water.",
+        "The plant lies beside the M4 motorway and close to Dublin Airport, so goods and staff can move easily.",
+        "It occupies a large greenfield site (undeveloped land) with a supply of electricity and water.",
         "Footloose does not mean likely to leave: the large fixed investment makes relocation unlikely.",
         "Global job cuts announced in 2024 and 2025 affected Leixlip, showing that even a large plant depends on parent-company decisions."
-      ]
+      ],
+      "tip": "Footloose means free to choose a location, not likely to leave. Do not call Intel footloose because it could move easily, since its plant is a huge fixed investment."
     },
     {
       "h": "Cork Harbour pharmaceutical cluster, Ringaskiddy",
+      "b": "Cork Harbour combines deep water, industrial land and skilled graduates, so pharmaceutical firms have gathered there. Their closeness to each other reinforces the pattern.",
       "points": [
         "Pfizer, Janssen (Johnson & Johnson) and Novartis are at Ringaskiddy; Eli Lilly is at Kinsale, Co. Cork.",
         "The Port of Cork has deep-water berths at Ringaskiddy, which suits the import and export of pharmaceutical goods.",
-        "Large flat sites are zoned for industry, with water supply and waste facilities.",
+        "Large flat sites are zoned for industry (set aside for it in the local plan), with water supply and waste facilities.",
         "Skilled labour comes from University College Cork (UCC) and Munster Technological University (MTU). MTU was formed in 2021 from Cork IT and IT Tralee.",
         "IDA support, tax and clustering reinforce the pattern.",
         "Pharmaceuticals and chemicals are Ireland's largest goods exports.",
@@ -148,102 +163,116 @@
     },
     {
       "h": "Galway medical-technology cluster",
+      "b": "Galway shows how the closure of one firm can feed the growth of another industry. Skilled people left behind became the base for a cluster making medical devices.",
       "points": [
         "Boston Scientific opened in Galway in 1994. Medtronic, Parkmore, Galway followed.",
-        "The cluster draws on skilled engineers left by the closure of DEC's plant (see Location changes: Dell and DEC).",
+        "The cluster draws on skilled engineers left by the closure of DEC's plant. The Dell and DEC block below gives the date.",
         "University of Galway research (renamed in 2022) supports the cluster, and a network of suppliers has grown around the firms.",
-        "Detail of Galway industry is in the peripheral Irish region subsection of Irish Regions — Core and Peripheral."
+        "There is more on this in Irish Regions — Core and Peripheral, in the peripheral Irish region subsection."
       ]
     },
     {
       "h": "Food processing near raw materials; brewing near the market",
+      "b": "Food and drink show both sides of Weber's idea. Processing that makes the product lighter stays at the source, while brewing, which makes the product heavier, stays near its customers.",
       "points": [
         "Kerry Group grew from the North Kerry Milk Products co-operative at Listowel, founded in 1972. Its headquarters are in Tralee, Co. Kerry.",
         "Dairy processing is bulk-reducing: plants at Listowel and Tralee sit near the supply of milk.",
         "Killybegs, Co. Donegal, is Ireland's largest fishing port.",
-        "Fish processing plants at Killybegs handle pelagic fish such as mackerel and herring, a bulk-reducing process that locates at the port.",
+        "Fish processing plants at Killybegs handle pelagic fish (fish that live near the surface) such as mackerel and herring, a bulk-reducing process that locates at the port.",
         "Guinness at St James's Gate, Dublin, was founded in 1759 by Arthur Guinness on a 9,000-year lease.",
         "Brewing is bulk-gaining because water is added to the product, so the brewery sits near its market.",
-        "Industrial inertia: Guinness still brews at St James's Gate today."
-      ]
+        "Industrial inertia: Guinness still brews at St James's Gate today, long after the original reasons for the site have gone."
+      ],
+      "tip": "Dairy and fish processing are bulk-reducing and sit near raw materials. Brewing is bulk-gaining and sits near the market. Do not swap them."
     },
     {
       "h": "Data centres: a modern location problem",
+      "b": "Data centres (buildings full of computers that store and process online data) are a modern footloose activity, but they use huge amounts of electricity. For them the power grid has become a limit on location.",
       "points": [
         "Data centres used about 21% of Ireland's metered electricity in 2023 (CSO).",
-        "EirGrid stated in 2022 that it would not connect new data centres in the Dublin region until about 2028, so the electricity grid now limits their location.",
+        "EirGrid (the electricity grid operator) stated in 2022 that it would not connect new data centres in the Dublin region until about 2028, so the electricity grid now limits their location.",
         "Amazon Web Services, Microsoft, Google and Meta operate data centres in Ireland.",
         "Why Ireland: a cool, mild climate reduces cooling costs; fibre links to the USA and Europe; existing clusters of technology firms; tax."
       ]
     },
     {
       "h": "Why modern activities are mobile",
+      "b": "Modern economic activities can move more easily than older ones. Five changes have loosened the link between an activity and a fixed place.",
       "points": [
-        "Lower transport costs, through containerisation and air freight, let goods move cheaply over long distances.",
+        "Lower transport costs, through containerisation (goods packed in standard boxes that move easily between ship, rail and lorry) and air freight, let goods move cheaply over long distances.",
         "Instant communications, through the internet, fibre and video calls, let firms manage plants at a distance.",
         "Standardised production can be done by low-skilled workers, so the work can go anywhere with a cheap labour supply.",
         "The removal of trade barriers, through the EU single market and the World Trade Organization, makes it easier to sell across borders from any member location.",
-        "Multinationals can compare countries and move capital quickly."
+        "Multinationals (firms operating in many countries) can compare countries and move capital quickly."
       ]
     },
     {
       "h": "Consequences for host countries",
+      "b": "A country that hosts a branch plant gains quickly, but its gains are not secure. The same mobility that brings the plant can take it away.",
       "points": [
         "Investment brings rapid job creation, but jobs can leave just as quickly.",
-        "Branch plants are vulnerable because the decisions are made at a distant headquarters.",
+        "Branch plants are vulnerable because the decisions are made at a distant headquarters, not in the host country.",
         "Countries compete for investment by offering tax and grants."
       ]
     },
     {
       "h": "Strategies that open branch plants",
+      "b": "A company opens a branch plant in another country when the move helps its own plans. These are the strategies behind such decisions.",
       "points": [
-        "Expansion into new markets.",
-        "Getting inside a trade bloc, which gives tariff-free access to the EU.",
-        "Lower costs.",
-        "Access to skilled labour.",
-        "Following competitors into a cluster.",
-        "Tax planning."
-      ]
+        "Expansion into new markets, for example, so that customers are served from nearby.",
+        "Getting inside a trade bloc (a group of countries trading freely together), which gives tariff-free access to the EU. A tariff is a tax on imports.",
+        "Lower costs, because cheaper land, labour or tax raises profit.",
+        "Access to skilled labour, because some work cannot be done without trained staff.",
+        "Following competitors into a cluster, so as to share the skills and suppliers already there.",
+        "Tax planning, because a low-tax country leaves the firm more profit."
+      ],
+      "tip": "Higher Level questions ask for the impact of corporate strategies on one MNC. The opening and closing strategies together supply the branch-plant reasoning behind the answer."
     },
     {
       "h": "Strategies that close branch plants",
+      "b": "The strategies that open plants have opposites that close them. A parent company closes a branch plant when the plant no longer suits its plans.",
       "points": [
         "Rationalisation: cutting surplus capacity after a fall in demand or a merger.",
-        "Relocation to lower-cost countries.",
+        "Relocation to lower-cost countries, because production costs are lower there.",
         "Outsourcing: contract manufacturers make the goods instead of the company's own plant.",
-        "Automation reduces the number of workers needed.",
+        "Automation (machines replacing workers) reduces the number of workers needed.",
         "Mergers and takeovers, after which a parent firm may close a duplicate plant.",
-        "A product reaching the end of its life cycle."
+        "A product reaching the end of its life cycle, because falling demand leaves the plant with no future output."
       ]
     },
     {
       "h": "Upgrading as an alternative to closure",
+      "b": "A branch plant does not have to close when its routine work moves away. It can survive by changing what it does.",
       "points": [
-        "A plant can survive by moving up the value chain into more R&D, advanced products and services.",
-        "Intel's continuing investment at Leixlip is the example: Fab 34, opened in 2023, makes advanced chips using extreme ultraviolet lithography."
+        "A plant can survive by moving up the value chain (the steps that add more value to a product) into more R&D, advanced products and services.",
+        "Intel's continuing investment at Leixlip is the example: Fab 34, opened in 2023, makes advanced chips using extreme ultraviolet lithography, a chip-making technique."
       ]
     },
     {
       "h": "Location changes: Dell and DEC",
+      "b": "Dell and DEC are two short examples of plants that closed or moved, and of how a closure can affect a region.",
       "points": [
         "Dell opened in Limerick (Raheen) in 1990.",
         "In January 2009 Dell announced that manufacturing would move to Łódź, Poland, with about 1,900 jobs lost in Limerick. It kept sales and service functions in Ireland.",
         "Poland joined the EU on 1 May 2004, with nine other states, so its plants lay inside the enlarged EU with lower costs.",
-        "The full Dell case study is in The MNC and change subsection of The Global Economy — Multinationals and Globalisation.",
-        "DEC closed its Galway plant in 1993, and its skilled workforce later helped attract the medtech cluster."
-      ]
+        "DEC closed its Galway plant in 1993, and its skilled workforce later helped attract the medtech cluster.",
+        "There is more on Dell in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
+      ],
+      "tip": "Dell moved manufacturing to Łódź, Poland, in 2009, not to China and not in 2008. Dell did not leave Ireland entirely. DEC closed in 1993 and Boston Scientific came in 1994."
     },
     {
       "h": "Product life cycle and changes in location",
+      "b": "A product passes through stages from launch to decline, and its best production location changes at each stage. This is how the product life cycle shapes where plants are found.",
       "points": [
         "Introduction: the product is developed near headquarters and R&D, in a core region with highly skilled labour.",
         "Growth: branch plants are opened in other developed countries near large markets; Ireland gained many.",
-        "Maturity: the standardised product is mass-produced in low-wage locations.",
+        "Maturity: the standardised product is mass-produced in low-wage locations, because it no longer needs high skills.",
         "Decline: the plant closes or production is concentrated in the cheapest plant."
       ]
     },
     {
       "h": "Apple, Hollyhill, Cork: a location shift",
+      "b": "Apple's Cork site shows a plant changing its role as the company's production methods change, rather than closing.",
       "points": [
         "Apple opened at Hollyhill, Cork, in 1980 and first made computers there.",
         "As Apple's manufacturing moved to contract manufacturers in Asia, the Cork site shifted mainly to operations, support and services.",
@@ -252,46 +281,53 @@
     },
     {
       "h": "What a host country can do",
+      "b": "A host country is not helpless against mobile firms. It can aim to make its jobs harder to move.",
       "points": [
-        "Attract firms early in new life cycles, for example in pharmaceuticals, medical technology and software.",
-        "Invest in education and research so that jobs are harder to move: Science Foundation Ireland, set up in 2000 and made a statutory body in 2003, funds research; it merged into Research Ireland in 2024.",
+        "Attract firms early in new life cycles, for example in pharmaceuticals, medical technology and software, so the country has the work while it is new and growing.",
+        "Invest in education and research so that jobs are harder to move: Science Foundation Ireland, set up in 2000 and made a statutory body (one created by law) in 2003, funds research; it merged into Research Ireland in 2024.",
         "Universities supply the graduates that keep high-technology firms in place."
       ]
     },
     {
       "h": "Information technology and teleservices",
+      "b": "Computing and the internet have freed many services from a fixed place. Delivering a service at a distance means it can be located almost anywhere.",
       "points": [
-        "Computing and the internet have made many services footloose, and Ireland became a European base for software and internet firms (see Case study of a developed economy).",
+        "Computing and the internet have made many services footloose, and Ireland became a European base for software and internet firms.",
         "Teleservices are services delivered at a distance by phone or internet, such as customer support, technical support and remote data processing.",
-        "Teleservices can locate anywhere with broadband, including peripheral areas.",
+        "Teleservices can locate anywhere with broadband, including peripheral areas (those far from the main centres).",
         "Low-skilled teleservice work moves easily to cheaper countries or is automated.",
-        "The full MNC case of IT and teleservices is in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
+        "There is more on IT and teleservices in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
       ]
     },
     {
       "h": "E-commerce and location",
+      "b": "E-commerce has three effects on where activities locate: on warehouses, on town-centre shops and on bank branches, because customers no longer need to travel.",
       "points": [
         "E-commerce is buying and selling goods and services over the internet.",
-        "Warehouses and delivery depots locate near motorways and airports.",
+        "Warehouses and delivery depots locate near motorways and airports, so that parcels can be moved quickly.",
         "Pressure on town-centre shops, and bank branch closures, follow the growth of online trade.",
-        "Effects on an MNC's operations are in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
-      ]
+        "There is more on e-commerce and an MNC's operations in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
+      ],
+      "tip": "Short questions ask you to define e-commerce, so learn the definition: buying and selling goods and services over the internet."
     },
     {
       "h": "Remote and hybrid working",
+      "b": "After COVID-19 many jobs could be done away from a city office. This gives rural areas a chance to attract work, but only if they have good broadband.",
       "points": [
-        "Remote and hybrid working grew after COVID-19, so some jobs can be done from home or a local hub rather than a city office.",
+        "Remote and hybrid working (part at home, part in the office) grew after COVID-19, so some jobs can be done from home or a local hub rather than a city office.",
         "National Broadband Plan: the contract was signed in 2019 with National Broadband Ireland to bring high-speed broadband to rural premises.",
         "Connected Hubs: a national network of remote-working hubs launched in 2021.",
         "Our Rural Future, rural development policy, 2021.",
         "Broadband availability differs from region to region, and a region's coverage affects whether it can attract remote-working jobs."
-      ]
+      ],
+      "tip": "Exams use regional broadband data, so be ready to say that coverage differs between regions and affects which regions can attract remote-working jobs."
     },
     {
       "h": "Artificial intelligence and automation",
+      "b": "New technology continues to change where work is done and how many people are needed.",
       "points": [
         "Artificial intelligence and automation are future drivers of location and job change.",
-        "Automation can reduce the labour-cost advantage of low-wage locations, favouring places with skills and research."
+        "Automation can reduce the labour-cost advantage of low-wage locations, favouring places with skills and research, because machines make cheap labour less important."
       ]
     },
     {
@@ -302,42 +338,47 @@
         "Explain why the factor matters to the activity.",
         "Give three to five significant relevant points (SRPs) for each reason.",
         "Use the same structure for a reason why the activity might not locate there."
-      ]
+      ],
+      "tip": "At Higher Level the map question asks why a multinational, factory or fish processing plant might or might not locate in the map area, with map evidence. A hotel question also asks for its disadvantages and an alternative site."
     },
     {
       "h": "Factor checklist: factory or multinational",
+      "b": "For a factory or multinational, look on the map for the features that supply land, transport, workers and services.",
       "points": [
-        "Flat land and an edge-of-town site.",
-        "A national primary road or motorway, a railway, and a port or airport.",
+        "Flat land and an edge-of-town site, where there is room and land is cheaper.",
+        "A national primary road or motorway, a railway, and a port or airport, for moving goods.",
         "A town labour force and services: schools, hospital and housing.",
-        "Water and an existing industrial estate."
+        "Water and an existing industrial estate, because services and planning approval for industry are already in place."
       ]
     },
     {
       "h": "Factor checklist: fish processing plant",
+      "b": "A fish processing plant needs to be close to where fish are landed, because fish is a bulk-reducing, perishable raw material.",
       "points": [
         "A pier, harbour or fishing port, on the coast.",
-        "Roads to markets.",
-        "Water and a labour force.",
-        "Low-lying land."
+        "Roads to markets, so that fresh fish reaches buyers quickly.",
+        "Water and a labour force, because processing needs both.",
+        "Low-lying land, because it is flat enough to build on and close to the coast."
       ]
     },
     {
       "h": "Factor checklist: hotel",
+      "b": "A hotel depends on attractions that draw visitors, together with the services that let them reach and use the hotel.",
       "points": [
-        "Coast, beach and scenery; lakes or mountains; antiquities.",
-        "A golf course, and water sports.",
-        "Nearby town services and road access.",
-        "Tourist information."
+        "Coast, beach and scenery; lakes or mountains; antiquities (ancient sites and monuments).",
+        "A golf course, and water sports, because these give guests activities.",
+        "Nearby town services and road access, so guests and staff can reach the hotel.",
+        "Tourist information, which helps visitors plan trips."
       ]
     },
     {
       "h": "Reasons why an activity might not locate at a site",
+      "b": "The one reason against in your answer comes from the map features that make a site unsuitable.",
       "points": [
-        "Steep or high land.",
-        "A floodplain.",
+        "Steep or high land, which is hard and costly to build on.",
+        "A floodplain, which would flood.",
         "A protected or scenic area, where planning conflict is likely.",
-        "Poor roads, remoteness from labour, distance from services, and impact on residents."
+        "Poor roads, remoteness from labour, distance from services, and impact on residents, because each makes the plant harder to run or provokes opposition."
       ]
     },
     {
@@ -351,9 +392,10 @@
     },
     {
       "h": "Aerial photograph",
+      "b": "Ordinary Level aerial photograph questions ask you to judge a proposed factory site and an alternative location.",
       "points": [
         "Give advantages and disadvantages of the proposed factory site and of an alternative location, using accepted notation for the photograph.",
-        "Refer to features by their position in the photograph, such as foreground, background, left or right."
+        "Refer to features by their position in the photograph, such as foreground, background, left or right, so the examiner can tell exactly what you mean."
       ]
     }
   ],

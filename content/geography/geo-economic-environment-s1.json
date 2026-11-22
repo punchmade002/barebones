@@ -6,181 +6,213 @@
   "notes": [
     {
       "h": "Resources and how they are classed",
-      "b": "A resource is anything in the environment that people use to meet their needs. Resources are classed by whether nature can replace them.",
+      "b": "A resource is anything in the environment that people use to meet their needs. Resources are classed by whether nature can replace them, and this decides whether a country can keep using them for ever.",
       "points": [
-        "Resources include energy, minerals, water, soil, forests, fish, land and scenery.",
-        "Non-renewable (stock, finite) resources formed over millions of years, so they are used up far faster than they form and will eventually run out: coal, oil, natural gas, peat, metal ores and uranium.",
-        "Renewable (flow) resources are replaced naturally and will not run out however much is used: wind, solar, hydro (running water), wave, tidal and geothermal heat.",
-        "Some resources are renewable only if managed sustainably: forests, fish stocks, soils, groundwater and biomass. Overuse turns them into exhausted resources, as happens with fish stocks (see the note Sustainable economic development)."
-      ]
+        "Resources include energy, minerals, water, soil, forests, fish, land and scenery, so the word covers far more than fuels.",
+        "Non-renewable (stock, finite) resources formed over millions of years, so they are used up far faster than they form and will eventually run out. Examples are coal, oil, natural gas, peat, metal ores and uranium.",
+        "Renewable (flow) resources are replaced naturally, so they will not run out however much is used. Examples are wind, solar, hydro (running water), wave, tidal and geothermal heat (heat from inside the Earth).",
+        "Some resources are renewable only if managed sustainably (used no faster than they are replaced): forests, fish stocks, soils, groundwater and biomass (plant material used as fuel). Overuse turns them into exhausted resources, as happens with fish stocks. There is more on this in Sustainable economic development."
+      ],
+      "tip": "You may be asked to define a non-renewable resource or a renewable energy source, or to name two renewable energy sources. Wind, solar, hydro, wave, tidal and geothermal are safe answers."
     },
     {
       "h": "Fossil fuels, peat and nuclear energy",
+      "b": "Three kinds of fuel are non-renewable. Fossil fuels and peat formed from once-living material, and uranium is a finite mineral.",
       "points": [
-        "Fossil fuels (coal, oil, natural gas and peat) formed from the remains of plants or marine organisms buried and compressed over millions of years; burning them releases the carbon they stored.",
-        "Peat is non-renewable: a bog grows only about 1 mm a year, far slower than it is cut.",
+        "Fossil fuels (coal, oil, natural gas and peat) formed from the remains of plants or marine organisms buried and compressed over millions of years. Burning them releases the carbon they stored.",
+        "Peat is non-renewable because a bog (wet ground where dead plants build up as peat) grows only about 1 mm a year, far slower than it is cut.",
         "Nuclear energy from uranium is an alternative to fossil fuels with low carbon emissions, but it is not renewable because uranium is finite."
-      ]
+      ],
+      "tip": "Never call peat renewable. Never call nuclear renewable either: it is a low-carbon alternative, but uranium is finite. Biomass (wood, energy crops) is renewable."
     },
     {
       "h": "Primary energy, electricity and the economy",
+      "b": "Energy is the resource that the rest of the economy runs on. This is why a country's energy supply matters so much to its wealth and security.",
       "points": [
-        "Primary energy is energy in its raw form, such as oil, gas or wind. Electricity is a secondary form made from primary sources.",
+        "Primary energy is energy in its raw form, such as oil, gas or wind. Electricity is a secondary form made from primary sources, for example by burning gas or by turning turbines with wind.",
+        "Renewables give a far larger share of electricity than of total energy, because much of total energy is oil used for transport and heating, which renewables supply little of.",
         "Energy powers industry, transport, farming and homes, so resources are central to the economy.",
-        "Energy security means a secure and affordable supply that is not disrupted by price shocks or supply cuts.",
-        "A country that imports its energy pays a large import bill and is exposed to price shocks and supply cuts."
-      ]
+        "Energy security means a secure and affordable supply that is not disrupted by price shocks (sudden large rises in price) or supply cuts.",
+        "A country that imports its energy pays a large import bill (the money spent buying energy from abroad) and is exposed to price shocks and supply cuts."
+      ],
+      "tip": "Do not mix up renewables' share of electricity (about two-fifths in Ireland) with their share of all energy (a little over a tenth). Energy-mix chart questions ask which fuel is largest and what the renewable share is, so check which one the chart shows."
     },
     {
       "h": "Ireland's energy mix: overview",
-      "b": "Ireland has few fossil fuels of its own, so it depends heavily on imported energy.",
+      "b": "Ireland has few fossil fuels of its own, so it depends heavily on imported energy. The mix of fuels it uses shows where that dependence lies.",
       "points": [
         "Import dependence (the share of energy bought from abroad): Ireland imported close to 90% of its energy in the years before Corrib gas came ashore in 2015.",
-        "The share fell after Corrib began and has risen again as Corrib's output declines. In the early 2020s Ireland still imported about three-quarters of its energy (SEAI).",
-        "Early 2020s primary energy mix (SEAI): oil just under half and the largest single source; natural gas about a third; renewables a little over a tenth; coal and peat small and falling."
-      ]
+        "The share fell after Corrib began and has risen again as Corrib's output declines. In the early 2020s Ireland still imported about three-quarters of its energy (SEAI, the Sustainable Energy Authority of Ireland).",
+        "Early 2020s primary energy mix (SEAI): oil just under half and the largest single source; natural gas about a third; renewables a little over a tenth; coal and peat small and falling.",
+        "Adding oil, gas, coal and peat shows that fossil fuels still supply most of Ireland's primary energy, while renewables are growing."
+      ],
+      "tip": "Data questions ask which fuel is largest, what the renewable share is, or the total fossil-fuel share. For Ireland, oil is largest and renewables are a little over a tenth of primary energy."
     },
     {
       "h": "Oil",
+      "b": "Oil is Ireland's largest single source of primary energy, and Ireland produces none of it.",
       "points": [
-        "All of Ireland's oil is imported.",
+        "All of Ireland's oil is imported, which adds to the import bill and leaves the country exposed to price shocks.",
         "Oil is used mainly for transport and home heating.",
-        "Whitegate, Co. Cork, is Ireland's only oil refinery."
+        "Whitegate, Co. Cork, is Ireland's only oil refinery (the plant that turns crude oil into fuels)."
       ]
     },
     {
       "h": "Natural gas",
+      "b": "Natural gas is Ireland's second-largest primary energy source and its largest source of electricity. Home gas fields supplied it for decades but are now running down.",
       "points": [
-        "Kinsale Head gas field, off Co. Cork, was discovered in 1971 and began production in 1978 as Ireland's first commercial gas field. Production ended in 2020 when the field was depleted.",
+        "Kinsale Head gas field, off Co. Cork, was discovered in 1971 and began production in 1978 as Ireland's first commercial gas field. Production ended in 2020 when the field was depleted (used up), so it is no longer a working field.",
         "Corrib gas field, off north-west Co. Mayo, was discovered in 1996 and first flowed in December 2015. Its gas is processed at Bellanaboy, Co. Mayo.",
-        "For a time after 2015 Corrib supplied over half of Ireland's gas. Its output is now declining.",
-        "Most of Ireland's gas now comes from Britain through interconnector pipelines from Moffat, Scotland.",
-        "Gas is the largest single source of Irish electricity."
-      ]
+        "For a time after 2015 Corrib supplied over half of Ireland's gas. Its output is now declining, which is why import dependence has risen again.",
+        "Most of Ireland's gas now comes from Britain through interconnector pipelines (cross-border links) from Moffat, Scotland.",
+        "Gas is the largest single source of Irish electricity, because gas-fired power stations generate more of it than any other fuel."
+      ],
+      "tip": "Kinsale Head stopped producing in 2020, so never describe it as a working gas field."
     },
     {
       "h": "Coal",
+      "b": "Ireland's own coal fields are small and long closed. Moneypoint, the big coal-burning station, ran on imported coal and has now stopped burning coal.",
       "points": [
-        "Ireland's native coalfields are small and long closed: Arigna, Co. Roscommon, where mining ended in 1990 and which is now the Arigna Mining Experience (see the note A Peripheral Irish Region), and Castlecomer, Co. Kilkenny.",
-        "Moneypoint, Co. Clare, on the Shannon Estuary, is an ESB coal-fired station opened in 1985. At about 900 MW it is Ireland's largest power station.",
-        "Moneypoint burned imported coal, brought in by large ships to its deep-water jetty.",
+        "Ireland's native coalfields are small and long closed. They are Arigna, Co. Roscommon, where mining ended in 1990 and which is now the Arigna Mining Experience, and Castlecomer, Co. Kilkenny.",
+        "Moneypoint, Co. Clare, on the Shannon Estuary, is an ESB (Electricity Supply Board) coal-fired station opened in 1985. At about 900 MW (megawatts, a measure of power output) it is Ireland's largest power station.",
+        "Moneypoint burned imported coal, brought in by large ships to its deep-water jetty (a landing pier where water is deep enough for big ships).",
         "Moneypoint stopped burning coal in 2025."
-      ]
+      ],
+      "tip": "Moneypoint burned coal, not peat, and stopped in 2025. Lanesborough and Shannonbridge were the peat stations."
     },
     {
       "h": "Peat",
+      "b": "Peat, cut from the bogs of the Midlands, was Ireland's own fuel and powered stations for decades. It has now ended, and the cutaway bogs (bogs from which the peat has been removed) are being given new uses.",
       "points": [
         "Bord na Móna, the State peat company, was founded in 1946.",
         "Peat-fired stations at Lanesborough (Lough Ree) and Shannonbridge (West Offaly) closed in December 2020. Bord na Móna ended all peat harvesting in January 2021.",
-        "Edenderry, Co. Offaly, switched from peat to biomass.",
+        "Edenderry, Co. Offaly, switched from peat to biomass, a renewable fuel of wood and energy crops.",
         "Bellacorick, Co. Mayo: the peat station closed in 2003 and was replaced by wind farms on the cutaway bog.",
         "Cutaway bogs are reused. Lough Boora Discovery Park, Co. Offaly, has turned a cutaway bog into parkland, wetlands and walking and cycling trails."
-      ]
+      ],
+      "tip": "Peat is non-renewable, and Lanesborough and Shannonbridge were the peat stations, not Moneypoint."
     },
     {
       "h": "Hydroelectric power",
+      "b": "Hydroelectric power uses falling water to turn turbines (machines that spin to drive generators). The Shannon Scheme at Ardnacrusha was an early large scheme, and little potential is left for more.",
       "points": [
         "Ardnacrusha, on the River Shannon near Limerick, was built by the German firm Siemens and opened in 1929 as the Shannon Scheme. The ESB was set up in 1927 to run it, and for some years it supplied most of the country's electricity.",
         "Other stations: Poulaphouca on the River Liffey, Co. Wicklow; Inniscarra and Carrigadrohid on the River Lee, Co. Cork; and Cathaleen's Fall at Ballyshannon on the River Erne, Co. Donegal.",
-        "Turlough Hill, Co. Wicklow, opened in 1974 as an ESB pumped-storage station. Water is pumped uphill when demand is low and released through turbines at peak times."
+        "Turlough Hill, Co. Wicklow, opened in 1974 as an ESB pumped-storage station. Water is pumped uphill when demand is low and released through turbines at peak times, so it stores energy for when it is needed.",
+        "Little potential is left for large new hydro schemes, because the best sites were already used."
       ]
     },
     {
       "h": "Wind energy",
-      "b": "Wind is Ireland's main renewable source.",
+      "b": "Wind is Ireland's main renewable source. The country's position on the Atlantic edge of Europe gives it an advantage.",
       "points": [
         "Wind supplied about a third of Irish electricity in the early 2020s. Renewables, mostly wind, supplied about two-fifths.",
         "Strong, frequent Atlantic winds make the western coasts and uplands the best sites for wind farms.",
         "Bellacorick wind farm, Co. Mayo (1992), was Ireland's first commercial wind farm. Oweninny wind farm was built on the same cutaway bog.",
-        "Galway Wind Park, Connemara, completed in 2017, is one of Ireland's largest onshore wind farms.",
-        "Arklow Bank Wind Park, off Co. Wicklow, opened in 2004 as Ireland's first offshore wind farm, with seven turbines."
-      ]
+        "Galway Wind Park, Connemara, completed in 2017, is one of Ireland's largest onshore (on land) wind farms.",
+        "Arklow Bank Wind Park, off Co. Wicklow, opened in 2004 as Ireland's first offshore (at sea) wind farm, with seven turbines. Offshore wind is planned to grow strongly, with at least 5 GW targeted by 2030."
+      ],
+      "tip": "If asked for one reason for the growth of wind energy in Ireland, you can give Atlantic winds, targets, falling costs, grants and supports, or energy security."
     },
     {
       "h": "Solar, wave, tidal, geothermal and biomass in Ireland",
+      "b": "Ireland's other renewable sources are smaller than wind. Some are growing quickly and some are still at an early stage.",
       "points": [
         "Solar power has grown rapidly since the early 2020s, through large solar farms on farmland and panels on rooftops. SEAI grants support home installations.",
-        "The Atlantic Marine Energy Test Site off Belmullet, Co. Mayo, is Ireland's wave-energy test site.",
-        "Geothermal energy is limited to low-temperature ground-source heat pumps.",
+        "The Atlantic Marine Energy Test Site off Belmullet, Co. Mayo, is Ireland's wave-energy test site, where wave machines are trialled.",
+        "Geothermal energy is limited to low-temperature ground-source heat pumps (devices that take heat from the ground to warm buildings).",
         "Tidal energy harnesses the rise and fall of the sea, and it is at an early stage in Ireland.",
-        "Biomass (wood and energy crops) and biofuels are the remaining renewable sources."
+        "Biomass (wood and energy crops) and biofuels (fuels made from plant material) are the remaining renewable sources."
       ]
     },
     {
       "h": "Ireland's renewable energy targets",
+      "b": "Governments set targets to push renewables up and cut emissions. Ireland missed its 2020 target and has set tougher ones for 2030 and 2050.",
       "points": [
-        "Ireland's 2020 EU target was 16% of gross final energy consumption from renewables.",
+        "Ireland's 2020 EU target was 16% of gross final energy consumption (all the energy used by final users such as homes, industry and transport) from renewables.",
         "Ireland reached only about 13.5% and missed the target. It was one of the furthest from its target of any EU member state.",
-        "Climate Action Plan: 80% of electricity from renewables by 2030, and at least 5 GW of offshore wind by 2030.",
-        "Climate Action and Low Carbon Development (Amendment) Act 2021: cut greenhouse gas emissions by 51% by 2030, compared with 2018, and reach climate neutrality (net zero) by 2050."
-      ]
+        "Climate Action Plan: 80% of electricity from renewables by 2030, and at least 5 GW (gigawatts) of offshore wind by 2030.",
+        "Climate Action and Low Carbon Development (Amendment) Act 2021: cut greenhouse gas emissions by 51% by 2030, compared with 2018, and reach climate neutrality (net zero, meaning emissions no higher than what is removed) by 2050."
+      ],
+      "tip": "Be ready to explain why Ireland was furthest from its 2020 target. For a longer answer on renewable energy and Ireland's environment and economy, use the targets, import bill and energy security."
     },
     {
       "h": "Why Ireland lagged behind other EU countries on renewables",
+      "b": "Ireland's renewable share fell short of its 2020 target for six linked reasons. Several come from how Irish people live and travel, and some from delays in building.",
       "points": [
-        "Heavy dependence on cars and road freight for transport.",
-        "Oil used for home heating in a dispersed rural settlement pattern.",
-        "Slow planning and grid connection for wind farms.",
-        "No large hydro potential left for new schemes.",
-        "A late start on offshore wind.",
-        "Strong economic and population growth raising energy demand."
-      ]
+        "Heavy dependence on cars and road freight for transport, which runs on oil, so renewables supply little of it.",
+        "Oil used for home heating in a dispersed rural settlement pattern (homes spread out, so gas networks and shared heating are hard to provide).",
+        "Slow planning and grid connection for wind farms, which delayed new capacity.",
+        "No large hydro potential left for new schemes, because the best sites were already used.",
+        "A late start on offshore wind, which left Ireland with less renewable capacity.",
+        "Strong economic and population growth raising energy demand, which made the renewable share harder to raise."
+      ],
+      "tip": "This is an exam topic: you are asked to explain why Ireland was furthest from its 2020 target. Give a reason and explain it, not just a list."
     },
     {
       "h": "Interconnection and energy security",
+      "b": "Interconnectors are cables or pipelines that link Ireland's energy network to other countries. They help security of supply because power and gas can flow in when Ireland needs them.",
       "points": [
         "The East-West Interconnector, opened in 2012, links Co. Dublin to north Wales by electricity cable.",
-        "The Celtic Interconnector, from Co. Cork to Brittany, France, is under construction and due to link Ireland to the EU mainland grid in the late 2020s."
+        "The Celtic Interconnector, from Co. Cork to Brittany, France, is under construction and due to link Ireland to the EU mainland grid in the late 2020s.",
+        "Gas also arrives by interconnector pipelines from Scotland, which is how most of Ireland's gas now reaches it."
       ]
     },
     {
       "h": "Energy use by sector in Ireland",
+      "b": "Knowing which sectors use most energy shows where demand is highest and where savings or renewables matter most.",
       "points": [
         "Transport is the largest energy-using sector in Ireland (SEAI).",
         "Heat for homes and businesses comes next, then electricity generation for industry and services.",
-        "Data centres used about a fifth of Ireland's metered electricity in 2023 (CSO). Most are in the Dublin region."
+        "Data centres (buildings full of computer servers) used about a fifth of Ireland's metered electricity in 2023 (CSO, the Central Statistics Office). Most are in the Dublin region."
       ]
     },
     {
       "h": "European imports and supply",
       "b": "Europe depends heavily on imported energy, and its main oil and gas comes from the North Sea and from suppliers outside the EU.",
       "points": [
-        "The EU imports close to three-fifths of its energy (early 2020s, Eurostat).",
-        "The North Sea, shared by the UK and Norway, is Europe's main oil and gas province.",
+        "The EU imports close to three-fifths of its energy (early 2020s, Eurostat, the EU's statistics office).",
+        "The North Sea, shared by the UK and Norway, is Europe's main oil and gas province (an area rich in oil and gas).",
         "Norway is not an EU member but is one of the EU's main gas suppliers, by pipeline."
-      ]
+      ],
+      "tip": "Norway is not an EU member, so call it European, not EU."
     },
     {
       "h": "Russia and European energy security",
+      "b": "Relying on one supplier for a vital fuel is risky. Europe learned this when Russia, its biggest gas supplier, invaded Ukraine.",
       "points": [
         "Before 2022 Russia supplied about two-fifths of the EU's imported gas.",
         "Russia invaded Ukraine in February 2022. Gas and electricity prices soared across Europe.",
-        "REPowerEU plan, May 2022: cut dependence on Russian fossil fuels by saving energy, importing more liquefied natural gas (LNG, much of it from the USA) and speeding up renewables.",
+        "REPowerEU plan, May 2022: cut dependence on Russian fossil fuels by saving energy, importing more liquefied natural gas (LNG, gas cooled to a liquid so ships can carry it, much of it from the USA) and speeding up renewables.",
         "Russia's share of EU gas imports has since fallen sharply."
       ]
     },
     {
       "h": "France: nuclear-based electricity",
+      "b": "National energy mixes differ widely across Europe. France relies on nuclear power.",
       "points": [
-        "Nuclear power supplies about two-thirds of France's electricity."
+        "Nuclear power (electricity made from splitting uranium atoms) supplies about two-thirds of France's electricity."
       ]
     },
     {
       "h": "Germany: the energy transition",
+      "b": "Germany is changing its energy mix by moving to renewables and ending nuclear power, though it still burns coal.",
       "points": [
         "The Energiewende (energy transition) is Germany's long-term switch to renewables.",
-        "After the Fukushima disaster in Japan in March 2011, Germany decided to phase out nuclear power. Its last three reactors closed on 15 April 2023.",
-        "Germany still burns lignite (brown coal) from huge open-cast mines in the Rhineland. A 2020 law sets 2038 at the latest as the end of coal-fired power."
+        "After the Fukushima disaster in Japan in March 2011 (a nuclear accident), Germany decided to phase out nuclear power. Its last three reactors closed on 15 April 2023.",
+        "Germany still burns lignite (brown coal) from huge open-cast mines (mines dug from the surface) in the Rhineland. A 2020 law sets 2038 at the latest as the end of coal-fired power."
       ]
     },
     {
       "h": "Poland: coal-based electricity",
+      "b": "Poland shows a country whose power still rests on coal.",
       "points": [
         "Coal generates well over half of Poland's electricity (early 2020s)."
       ]
     },
     {
       "h": "Denmark: wind power",
+      "b": "Denmark shows a country that has built its electricity supply around wind.",
       "points": [
         "Wind supplies about half of Denmark's electricity (2020s).",
         "Denmark was an early leader in wind power and is home to the turbine maker Vestas."
@@ -188,32 +220,38 @@
     },
     {
       "h": "Norway and Iceland: hydro and geothermal (European, not EU members)",
+      "b": "Two European countries that are not EU members get nearly all their electricity from renewable sources, thanks to their landscapes.",
       "points": [
-        "Hydroelectric power supplies about 90% of Norway's electricity, from its mountains, high rainfall and glacial lakes.",
+        "Hydroelectric power supplies about 90% of Norway's electricity, from its mountains, high rainfall and glacial lakes, which give plenty of falling water.",
         "Geothermal and hydro supply almost all of Iceland's electricity, and about 9 in 10 Icelandic homes are heated geothermally."
-      ]
+      ],
+      "tip": "Norway and Iceland are not EU members, so say European, not EU, when using them as examples."
     },
     {
       "h": "EU renewable energy targets",
+      "b": "The EU sets renewable targets for all its members. It met its 2020 target and has raised the goal for 2030.",
       "points": [
         "The EU target of 20% renewable energy by 2020 was achieved, at about 22%.",
-        "The revised Renewable Energy Directive (2023) requires at least 42.5% renewable energy by 2030.",
-        "Renewables supplied about a quarter of EU gross final energy consumption in 2023."
+        "The revised Renewable Energy Directive (2023, an EU law binding on member states) requires at least 42.5% renewable energy by 2030.",
+        "Renewables supplied about a quarter of EU gross final energy consumption in 2023, so the EU still has far to go to reach 42.5%."
       ]
     },
     {
       "h": "Patterns of energy consumption in the EU",
+      "b": "Despite the growth of renewables, fossil fuels still supply most of the EU's energy. Final energy (the energy used by consumers) is spread across several sectors.",
       "points": [
         "Fossil fuels (oil, gas and coal) still supply most of the EU's energy. Oil is the largest single source, mainly for transport.",
         "Transport, households and industry each take roughly a quarter to a third of final energy. Services take a smaller share."
-      ]
+      ],
+      "tip": "For chart questions on the EU, the general pattern is that fossil fuels supply most energy and oil is the largest single source."
     },
     {
       "h": "Production and consumption compared",
+      "b": "Energy production and consumption are not spread evenly across Europe. Which role a country plays depends on its industry and its natural resources.",
       "points": [
-        "Core industrial countries, such as Germany and France, consume most of the energy.",
-        "Resource-rich countries, such as Norway, export energy.",
-        "Peripheral countries, such as Ireland, depend on imports."
+        "Core industrial countries, such as Germany and France, consume most of the energy, because their large industry and populations need so much.",
+        "Resource-rich countries, such as Norway, export energy, because they produce more than they need.",
+        "Peripheral countries, such as Ireland, depend on imports, because they have few fuels of their own."
       ]
     }
   ],

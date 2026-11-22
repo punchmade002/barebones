@@ -6,116 +6,145 @@
   "notes": [
     {
       "h": "Continental drift",
-      "b": "Alfred Wegener, a German meteorologist, proposed continental drift in 1912 and published it in his book The Origin of Continents and Oceans in 1915.",
+      "b": "The plate tectonics model grew in two stages, and the first was continental drift, the idea that the continents move. Alfred Wegener, a German meteorologist (a scientist who studies weather), proposed it in 1912 and published it in his book The Origin of Continents and Oceans in 1915.",
       "points": [
-        "Wegener proposed that the continents were once joined in one supercontinent, Pangaea, surrounded by one ocean, Panthalassa, and have since drifted apart.",
-        "Pangaea split into Laurasia in the north and Gondwanaland in the south, separated by the Tethys Sea; these broke up further into today's continents.",
+        "Wegener proposed that the continents were once joined in one supercontinent (a single giant landmass), Pangaea, surrounded by one ocean, Panthalassa, and have since drifted apart.",
+        "Pangaea split into Laurasia in the north and Gondwanaland in the south, separated by the Tethys Sea; these broke up further into today's continents, such as South America and Africa.",
         "Pangaea began to break up about 200 million years ago.",
-        "Wegener could not explain what force moved the continents, so the theory was rejected at first."
-      ]
+        "Wegener could not explain what force moved the continents, so the theory was rejected at first, because without a cause few accepted that continents could move."
+      ],
+      "tip": "Wegener proposed continental drift, not sea-floor spreading or a convection mechanism. Keep the names apart: Pangaea is the supercontinent, Panthalassa the ocean around it, and Tethys the sea between Laurasia and Gondwanaland."
     },
     {
       "h": "Evidence for continental drift",
+      "b": "Wegener backed his idea with four kinds of evidence. Each shows that lands now far apart were once joined or lay in different climate zones.",
       "points": [
-        "Jigsaw fit: the coastlines of South America and Africa fit together, and the fit is even better at the edge of the continental shelves.",
-        "Fossils: Mesosaurus, a small freshwater reptile, is found in both Brazil and southern Africa; Glossopteris, a fern-like plant, is found in South America, Africa, India, Antarctica and Australia. Neither could have crossed an ocean.",
-        "Rocks and mountains: the Appalachian Mountains of eastern North America match the Caledonian mountains of Ireland, Scotland and Norway in rock type, age and structure.",
-        "Past climates: glacial deposits and striations about 300 million years old occur in India, Africa, South America and Australia, places now warm or near the equator.",
-        "Coal seams in Antarctica formed from plant matter in warm swamps."
-      ]
+        "Jigsaw fit: the coastlines of South America and Africa fit together, and the fit is even better at the edge of the continental shelves (the shallow sea floor around a continent's edge).",
+        "Fossils: Mesosaurus, a small freshwater reptile, is found in both Brazil and southern Africa. Glossopteris, a fern-like plant, is found in South America, Africa, India, Antarctica and Australia. Neither could have crossed an ocean, so the lands must once have been joined.",
+        "Rocks and mountains: the Appalachian Mountains of eastern North America match the Caledonian mountains of Ireland, Scotland and Norway in rock type, age and structure, as if one range had been split by the Atlantic.",
+        "Past climates: glacial deposits (material left by ice) and striations (scratches cut into rock by moving ice) about 300 million years old occur in India, Africa, South America and Australia, places now warm or near the equator.",
+        "Coal seams in Antarctica formed from plant matter in warm swamps, which shows that Antarctica was once in a much warmer place than it is now."
+      ],
+      "tip": "Give the evidence with named examples: Mesosaurus and Glossopteris for fossils, and the Appalachian and Caledonian mountains for rocks. A fossil answer should say the species could not have crossed an ocean."
     },
     {
       "h": "Mapping the ocean floor",
+      "b": "Continental drift lacked a force to move the continents. The clue came from the ocean floor, which was mapped in detail only after the Second World War.",
       "points": [
-        "Detailed mapping of the ocean floor by echo-sounding (sonar) followed the Second World War.",
-        "The mapping revealed long mid-ocean ridges with a central rift valley, and deep ocean trenches.",
+        "Detailed mapping of the ocean floor by echo-sounding (sonar, which times sound echoes bounced off the sea bed) followed the Second World War.",
+        "The mapping revealed long mid-ocean ridges (underwater mountain chains) with a central rift valley, and deep ocean trenches (long, very deep gashes in the sea floor).",
         "The Mid-Atlantic Ridge is about 16,000 km long."
       ]
     },
     {
       "h": "Sea-floor spreading",
-      "b": "Sea-floor spreading supplied the mechanism that continental drift lacked.",
+      "b": "Sea-floor spreading supplied the mechanism that continental drift lacked, by showing that the ocean floor itself is moving and carrying the continents with it.",
       "points": [
-        "Arthur Holmes, a British geologist, suggested in the late 1920s that mantle convection could move continents.",
-        "Harry Hess, an American geologist, proposed sea-floor spreading in the early 1960s.",
-        "1. Magma rises at mid-ocean ridges.",
-        "2. It cools to form new oceanic crust made of basalt.",
+        "Arthur Holmes, a British geologist, suggested in the late 1920s that mantle convection (slow circulation of heated rock in the layer beneath the crust) could move continents.",
+        "Harry Hess, an American geologist, proposed sea-floor spreading in the early 1960s, in four stages.",
+        "1. Magma (molten rock) rises at mid-ocean ridges.",
+        "2. It cools to form new oceanic crust (the crust under the oceans) made of basalt, a dark volcanic rock.",
         "3. The new crust pushes older crust away on both sides of the ridge.",
-        "4. Old crust is destroyed again at ocean trenches."
-      ]
+        "4. Old crust is destroyed again at ocean trenches, so the ocean floor is constantly recycled.",
+        "Sea-floor spreading supplied the missing mechanism and turned continental drift into the theory of plate tectonics."
+      ],
+      "tip": "Hess proposed sea-floor spreading. Don't credit Wegener with it or with a convection mechanism."
     },
     {
       "h": "Evidence for sea-floor spreading",
+      "b": "Three pieces of evidence from the ocean floor support Hess: the age of the rocks, the thickness of the sediment and the pattern of magnetism.",
       "points": [
-        "Age of rocks: oceanic rocks are youngest at the ridge and get progressively older with distance from it, symmetrically on both sides.",
-        "Sediment: ocean-floor sediment is thin or absent at the ridge and thicker further away.",
-        "Palaeomagnetism: the earth's magnetic field reverses from time to time. Iron minerals in cooling basalt line up with the field at that moment, so the ocean floor holds stripes of normal and reversed magnetism that mirror each other on either side of the ridge.",
+        "Age of rocks: oceanic rocks are youngest at the ridge and get progressively older with distance from it, symmetrically on both sides. This fits new crust forming at the ridge and moving outwards.",
+        "Sediment (mud and particles that settle on the sea bed): it is thin or absent at the ridge and thicker further away, because the crust at the ridge is new and the crust further out has had longer to collect it.",
+        "Palaeomagnetism (the record of the earth's magnetism in rocks): the earth's magnetic field reverses from time to time. Iron minerals in cooling basalt line up with the field at that moment.",
+        "So the ocean floor holds stripes of normal and reversed magnetism that mirror each other on either side of the ridge.",
         "Magnetic striping was explained by Fred Vine and Drummond Matthews in 1963.",
         "Diagram: plan view of a ridge with symmetrical magnetic stripes and arrows showing movement away from the ridge."
-      ]
+      ],
+      "tip": "For a diagram of magnetic striping, draw a plan view of a ridge with symmetrical stripes on both sides and arrows showing movement away from the ridge."
     },
     {
       "h": "Plates and plate movement",
+      "b": "Sea-floor spreading showed that the earth's surface is divided into moving pieces called plates. Here you meet the definition of a plate, the main plates by name and the force that moves them.",
       "points": [
-        "A plate is a rigid slab of lithosphere that floats and moves on the asthenosphere. A plate can carry continental crust, oceanic crust or both.",
-        "The earth has seven major plates: Pacific, North American, South American, Eurasian, African, Indo-Australian and Antarctic.",
+        "A plate is a rigid slab of lithosphere (the crust plus the solid upper part of the mantle) that floats and moves on the asthenosphere (the softer, slowly flowing layer beneath). A plate can carry continental crust, oceanic crust or both.",
+        "The earth has seven major plates: Pacific, North American, South American, Eurasian, African, Indo-Australian and Antarctic. The Pacific plate is the largest.",
         "Smaller plates include Nazca, Cocos, Caribbean, Juan de Fuca, Philippine, Arabian and Scotia.",
-        "Some maps split the Indo-Australian plate into the Indian plate and the Australian plate; both versions are accepted. The Pacific plate is the largest.",
-        "Convection currents in the mantle drag the plates along.",
-        "Higher Level: ridge push is new, hot crust at the ridge sliding away from it under gravity; slab pull is the cold, dense subducting edge of a plate pulling the rest of the plate after it.",
+        "Some maps split the Indo-Australian plate into the Indian plate and the Australian plate; both versions are accepted.",
+        "Convection currents in the mantle (rising and sinking flows of heated rock) drag the plates along, because the plates sit on top of the moving rock.",
         "Plates move a few centimetres a year, so the map of continents and oceans changes over geological time. The Atlantic is widening by about 2.5 cm a year, roughly the rate a fingernail grows.",
-        "Plates meet in three ways: moving apart (constructive, or divergent), moving together (destructive, or convergent), and sliding past (passive, conservative, or transform). Each is described in the next subsection."
-      ]
+        "Plates meet in three ways: moving apart (constructive, or divergent), moving together (destructive, or convergent), and sliding past (passive, conservative, or transform). There is more on this in the next subsection."
+      ],
+      "tip": "Exams ask you to name plates labelled on a world map, for example North American, Eurasian, African, Pacific, Nazca, South American, Antarctic and Indian or Indo-Australian. They also ask what a plate is and how plates move, where the answer is convection currents."
+    },
+    {
+      "h": "Ridge push and slab pull (Higher Level only)",
+      "b": "Higher Level students need two more forces that help move plates, one acting at the ridge where a plate forms and one at the edge where it sinks.",
+      "points": [
+        "Ridge push is new, hot crust at the ridge sliding away from it under gravity, so the plate is shoved away from the ridge.",
+        "Slab pull is the cold, dense subducting edge of a plate (the edge sinking back into the mantle) pulling the rest of the plate after it."
+      ],
+      "tip": "The Higher Level theory of plate tectonics expects plates and convection to be covered. Name convection currents as the way plates move, then add ridge push and slab pull."
     },
     {
       "h": "Endogenic forces and plate boundaries",
+      "b": "Because the crust is mobile, plate movement produces forces from inside the earth, called endogenic forces. These give rise to geological structures such as folds and faults.",
       "points": [
-        "Plate movement drives endogenic forces, which are concentrated mostly along plate boundaries.",
+        "Plate movement drives endogenic forces, which, for example, cause folding, faulting, volcanic activity and earthquakes and are concentrated mostly along plate boundaries.",
         "The continental drift and sea-floor spreading evidence above is why the plate tectonics model replaced the earlier theory."
-      ]
+      ],
+      "tip": "A 30-mark Higher Level question asks you to discuss the theory of plate tectonics. Cover continental drift and its evidence, sea-floor spreading and its evidence, plates, convection and the three boundary types by name."
     },
     {
       "h": "Ireland now",
       "b": "Ireland's position on the plate map determines its present geological activity.",
       "points": [
-        "Ireland lies on the Eurasian plate, near its western edge and far from any plate boundary.",
-        "The nearest plate boundary is the Mid-Atlantic Ridge to the west, which separates the Eurasian and North American plates.",
+        "Ireland lies on the Eurasian plate, near its western edge and far from any plate boundary, which means it sits in the interior of a plate.",
+        "The nearest plate boundary is the Mid-Atlantic Ridge to the west, which separates the Eurasian and North American plates in the North Atlantic, with Iceland on the ridge.",
         "As the Atlantic widens, Ireland moves slowly away from North America.",
-        "Ireland has no active volcanoes and only rare, minor earthquakes."
-      ]
+        "Because Ireland is far from a plate boundary, it has no active volcanoes and only rare, minor earthquakes."
+      ],
+      "tip": "If asked which plate Ireland lies on, the answer is Eurasian, not North American. Ireland is not at a plate boundary today."
     },
     {
       "h": "Iapetus and the Caledonian folding",
+      "b": "Ireland's past position was very different. About 500 million years ago it was split in two by an ocean, and the closing of that ocean built the first set of Irish mountains.",
       "points": [
-        "Before the Caledonian folding, Ireland was in two parts on opposite sides of the Iapetus Ocean: the north-west part on the North American (Laurentian) side and the south-east part on the European side.",
-        "The Iapetus Ocean closed as the plates converged, and the two parts of Ireland were joined along the Iapetus suture, which runs across Ireland roughly from the Shannon Estuary to Clogherhead, Co. Louth.",
-        "The collision caused the Caledonian folding, about 400 million years ago, which built mountains running north-east to south-west.",
-        "Caledonian mountains include the mountains of Donegal, Mayo and Connemara, and the Wicklow Mountains; the Leinster granite batholith was intruded during this period."
-      ]
+        "About 500 million years ago, before the Caledonian folding, Ireland was in two parts on opposite sides of the Iapetus Ocean: the north-west part on the North American (Laurentian) side and the south-east part on the European side.",
+        "The Iapetus Ocean closed as the plates converged (moved together), and the two parts of Ireland were joined along the Iapetus suture (the line where the two landmasses were welded), which runs across Ireland roughly from the Shannon Estuary to Clogherhead, Co. Louth.",
+        "The collision caused the Caledonian folding (the crumpling of rock layers into fold mountains), about 400 million years ago, which built mountains running north-east to south-west.",
+        "Caledonian mountains include the mountains of Donegal, Mayo and Connemara, and the Wicklow Mountains. The Leinster granite batholith (a huge mass of granite that cooled underground) was intruded during this period."
+      ],
+      "tip": "The Wicklow Mountains are Caledonian (with the Leinster granite), not Armorican. The Mourne Mountains are not Caledonian, so don't use them for either folding period. Iapetus is the much older ocean that closed across Ireland; don't confuse it with Tethys or Panthalassa."
     },
     {
       "h": "Ireland's drift and past climates",
+      "b": "As plates carried Ireland north, it passed through different climates, and the rocks that formed record them.",
       "points": [
-        "Ireland has drifted north over hundreds of millions of years.",
-        "Old Red Sandstone formed in hot, dry conditions after the Caledonian folding.",
+        "Ireland has drifted north over hundreds of millions of years, which is why rocks formed in very different climates are found there.",
+        "Old Red Sandstone (a red sedimentary rock) formed in hot, dry conditions after the Caledonian folding.",
         "Carboniferous limestone formed about 350 million years ago, when Ireland lay near the equator under a warm, shallow tropical sea."
       ]
     },
     {
       "h": "Armorican folding",
+      "b": "A second collision, further south, built a second set of Irish mountains running in a different direction.",
       "points": [
         "The Armorican (Variscan) folding, about 300 million years ago, came from the collision of Africa, part of Gondwanaland, with Europe as Pangaea came together.",
         "It built east-west mountains across the south of Ireland: Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdowns and the Caha Mountains, which form the Munster ridge-and-valley landscape.",
         "Armorica is the old name for Brittany, where the same fold belt occurs."
-      ]
+      ],
+      "tip": "Use Macgillycuddy's Reeks or the Galtees as Armorican examples. For a 30-mark question on tectonic activity and the Irish landscape, link Caledonian folding to north-east to south-west mountains and Armorican folding to east-west Munster ridges."
     },
     {
       "h": "Opening of the Atlantic and Alpine folding",
+      "b": "The last events in the story are the splitting of Pangaea, which opened the Atlantic, and Alpine folding, which happened elsewhere.",
       "points": [
         "As North America and Greenland separated from Europe after Pangaea split, magma rose through cracks in north-east Ireland and formed the Antrim basalts about 60 million years ago.",
         "Alpine folding is the most recent period of fold mountain building, producing the Alps and the Himalayas.",
         "Alpine folding did not build Ireland's mountains; the two periods that did are Caledonian and Armorican."
-      ]
+      ],
+      "tip": "If asked to name two periods of fold mountain building that shaped the Irish landscape, the answer is Caledonian and Armorican, not Alpine. A full answer on Ireland's landscape also covers the opening of the Atlantic and Antrim basalts, and Ireland's present stable position."
     }
   ],
   "keyTerms": [
