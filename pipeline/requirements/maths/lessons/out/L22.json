@@ -1,0 +1,312 @@
+[
+{"skill": "inf-margin-of-error", "problems": [
+ {"part": "maths-pp-2025-ordinary-p2-q8#(c)(i)", "note": null,
+  "legend": {"1": "the sample size n", "2": "the margin of error as a decimal, 1/√n", "3": "the margin of error as a percentage"},
+  "steps": [
+   {"ask": "Which single quantity does the margin of error depend on? Write the formula that uses it.", "title": "Use the margin of error formula",
+    "lines": [
+     {"text": "The margin of error is $\\dfrac{1}{\\sqrt{\\hl{1}{n}}}$, with $\\hl{1}{n} = \\hl{1}{815}$."},
+     {"tex": "\\text{margin of error} &= \\frac{1}{\\sqrt{\\hl{1}{n}}}"},
+     {"tex": "&= \\frac{1}{\\sqrt{\\hl{1}{815}}}"},
+     {"tex": "&= \\hl{2}{0.035028\\ldots}"},
+     {"tex": "&\\approx \\hl{3}{3.5\\%}"}
+    ]}
+  ],
+  "final": "\\text{margin of error} = \\hl{3}{3.5\\%}",
+  "graph": null},
+ {"part": "maths-pp-2018-ordinary-p2-q9#(b)(i)", "note": "The sample is bigger this time (n = 1560 instead of 815), so the margin of error is smaller, at 2.5%. The formula and the steps stay the same.",
+  "legend": {"1": "the sample size n", "2": "the margin of error as a decimal, 1/√n", "3": "the margin of error as a percentage"},
+  "steps": [
+   {"ask": "The sample size is different this time. Write the margin of error formula with n in it, then substitute the new n.", "title": "Use the margin of error formula",
+    "lines": [
+     {"tex": "\\hl{2}{\\text{MOE}} &= \\frac{1}{\\sqrt{\\hl{1}{n}}}"},
+     {"tex": "&= \\frac{1}{\\sqrt{\\hl{1}{1560}}}"},
+     {"tex": "&= \\hl{2}{0.025318}"},
+     {"tex": "&\\approx \\hl{3}{2.5\\%}"}
+    ]}
+  ],
+  "final": "\\hl{3}{2.5\\%}",
+  "graph": null},
+ {"part": "maths-pp-2017-ordinary-p2-q9#(c)(ii)", "note": "The margin (3%) is given from the earlier part, and this time the question asks for an interval for p rather than the margin. The sample size is 1200 here, not 815.",
+  "legend": {"1": "the sample size n", "3": "the margin of error as a percentage"},
+  "steps": [
+   {"ask": "The interval is centred on the sample proportion. What is p̂ as a percentage?", "title": "Find the sample proportion as a percentage",
+    "lines": [
+     {"tex": "\\hat{p} &= \\frac{578}{\\hl{1}{1200}} \\times 100"},
+     {"tex": "&= 48.17"}
+    ]},
+   {"ask": "The margin of error from the earlier part is 3%. How do p̂ and the margin combine into an interval for p?", "title": "Add and subtract the margin of error",
+    "lines": [
+     {"text": "The confidence interval is $\\hat{p} \\pm$ margin of error."},
+     {"tex": "48.17 - \\hl{3}{3} < p &< 48.17 + \\hl{3}{3}"},
+     {"tex": "45.17 < p &< 51.17"}
+    ]}
+  ],
+  "final": "45.17\\% < p < 51.17\\%",
+  "graph": null}
+]},
+{"skill": "inf-p-value", "problems": [
+ {"part": "maths-pp-2021-higher-p2-q8#(b)(ii)", "note": null,
+  "legend": {"1": "the test statistic z", "2": "the area in one tail", "3": "the p-value", "4": "the 5% significance level"},
+  "steps": [
+   {"ask": "The test is two-tailed. How does the p-value relate to the area beyond |z| in one tail?", "title": "Find the two-tailed p-value",
+    "lines": [
+     {"text": "Round $\\hl{1}{|z|}$ to $\\hl{1}{1.79}$. The test is two-tailed, so $\\hl{3}{p} = 2\\left[1 - P(z < \\hl{1}{1.79})\\right]$."},
+     {"text": "From the tables, $P(z < \\hl{1}{1.79}) = 0.9633$."},
+     {"tex": "\\hl{3}{p} &= 2(\\hl{2}{1 - 0.9633})"},
+     {"tex": "&= 2(\\hl{2}{0.0367})"},
+     {"tex": "&= \\hl{3}{0.0734}"}
+    ]},
+   {"ask": "Compare the p-value with the 5% significance level. What does that tell you about H₀?", "title": "Compare with the 5% level and conclude",
+    "lines": [
+     {"text": "$\\hl{3}{0.0734} > \\hl{4}{0.05}$, so we do not reject the null hypothesis."},
+     {"text": "There is not enough evidence to say the news report's claim of 21 hours is incorrect."}
+    ]}
+  ],
+  "final": "\\hl{3}{p = 0.0734}; \\text{ not enough evidence to reject the claim}",
+  "graph": null},
+ {"part": "maths-pp-2019-higher-p2-q8#(b)(i)", "note": "The p-value is given this time, so there is no calculation, only the comparison. It is below 0.05, so H₀ is rejected, the opposite result to problem 1.",
+  "legend": {"3": "the p-value", "4": "the 5% significance level"},
+  "steps": [
+   {"ask": "The p-value is already given. Is it smaller or larger than the significance level, and what does that mean for H₀?", "title": "Compare the p-value with the significance level",
+    "lines": [
+     {"text": "The significance level is 5%, which is $\\hl{4}{0.05}$."},
+     {"text": "The p-value $\\hl{3}{0.024}$ is less than $\\hl{4}{0.05}$, so we reject the null hypothesis that the average speed is unchanged."}
+    ]}
+  ],
+  "final": "\\text{The average speed has changed, because } \\hl{3}{p = 0.024} < \\hl{4}{0.05}.",
+  "graph": null},
+ {"part": "maths-pp-2015-higher-p2-q2#(c)", "note": "The test statistic is negative this time, so the tail lies below -1.71 and you start from the lower tail. The doubling rule is the same as problem 1, and the answer is explained in words at the end.",
+  "legend": {"1": "the test statistic z", "2": "the area in one tail", "3": "the p-value", "4": "the 5% significance level"},
+  "steps": [
+   {"ask": "The test is two-tailed and z is negative. Which tail area do you need, and how do you get it from the table?", "title": "Find the probability in the tail",
+    "lines": [
+     {"text": "Because the test is two-tailed, $\\hl{3}{p}$ is twice the area below $z = \\hl{1}{-1.71}$."},
+     {"tex": "P(z < \\hl{1}{-1.71}) &= 1 - P(z < \\hl{1}{1.71})"},
+     {"tex": "&= 1 - 0.9564"},
+     {"tex": "&= \\hl{2}{0.0436}"}
+    ]},
+   {"ask": "One tail gives only half of what a two-tailed test needs. What do you do to the tail area?", "title": "Double it for both tails",
+    "lines": [
+     {"tex": "\\hl{3}{p} &= 2 \\times \\hl{2}{0.0436}"},
+     {"tex": "&= \\hl{3}{0.0872}"}
+    ]},
+   {"ask": "Put the p-value into words: what chance does it describe, and is it small enough to reject H₀ at 5%?", "title": "Explain what it represents",
+    "lines": [
+     {"text": "If the true mean spend really were $\\text{€}94$, there would be about an 8.72% chance of getting a sample mean at least as far from $\\text{€}94$ as $\\text{€}90.45$ (that is, $\\text{€}90.45$ or less, or $\\text{€}97.55$ or more)."},
+     {"text": "Since $\\hl{3}{0.0872} > \\hl{4}{0.05}$, this is not unusual enough to reject $H_0$."}
+    ]}
+  ],
+  "final": "\\hl{3}{p = 0.0872}",
+  "graph": null}
+]},
+{"skill": "inf-sampling-distribution", "problems": [
+ {"part": "maths-pp-2018-higher-p2-q8#(a)(i)", "note": null,
+  "legend": {"1": "the standard error, σ/√n", "2": "the sample mean x̄ (the bounds 4.6 and 4.7)", "3": "the population mean μ", "4": "the z-score"},
+  "steps": [
+   {"ask": "How does the spread of a sample mean compare with the spread of a single value? Write the standard error formula.", "title": "Find the standard error of the sample mean",
+    "lines": [
+     {"text": "For samples of size $n$, the sample mean has mean $\\hl{3}{4.64}$ and standard error $\\hl{1}{\\frac{\\sigma}{\\sqrt{n}}}$."},
+     {"tex": "\\hl{1}{\\frac{\\sigma}{\\sqrt{n}}} &= \\hl{1}{\\frac{0.12}{\\sqrt{10}}}"},
+     {"tex": "&\\approx \\hl{1}{0.03795}"}
+    ]},
+   {"ask": "To standardise 4.6, subtract the mean first. What do you divide the result by?", "title": "Convert 4.6 to a z-score",
+    "lines": [
+     {"tex": "\\hl{4}{z_1} &= \\frac{\\hl{2}{4.6} - \\hl{3}{4.64}}{\\hl{1}{0.12/\\sqrt{10}}}"},
+     {"tex": "&= \\frac{-0.04}{\\hl{1}{0.03795}}"},
+     {"tex": "&\\approx \\hl{4}{-1.05}"}
+    ]},
+   {"ask": "Repeat the same standardising for 4.7. Which part of the calculation changes?", "title": "Convert 4.7 to a z-score",
+    "lines": [
+     {"tex": "\\hl{4}{z_2} &= \\frac{\\hl{2}{4.7} - \\hl{3}{4.64}}{\\hl{1}{0.12/\\sqrt{10}}}"},
+     {"tex": "&= \\frac{0.06}{\\hl{1}{0.03795}}"},
+     {"tex": "&\\approx \\hl{4}{1.58}"}
+    ]},
+   {"ask": "The probability is between two z-values. Which tail area do you have to subtract, and why?", "title": "Use the normal tables",
+    "lines": [
+     {"tex": "P(\\hl{2}{4.6} < \\hl{2}{\\bar{x}} < \\hl{2}{4.7}) &= P(\\hl{4}{-1.05} < z < \\hl{4}{1.58})"},
+     {"text": "From the tables, $P(z < \\hl{4}{1.58}) = 0.9429$ and $P(z < 1.05) = 0.8531$, so $P(z < \\hl{4}{-1.05}) = 1 - 0.8531$."},
+     {"tex": "&= 0.9429 - (1 - 0.8531)"},
+     {"tex": "&= 0.9429 - 0.1469"},
+     {"tex": "&= 0.796"}
+    ]}
+  ],
+  "final": "0.796",
+  "graph": null},
+ {"part": "maths-pp-2020-higher-p2-q8#(d)", "note": "The question gives a total weight, so the first step turns it into a sample mean of 75 kg. The standard error and z-score steps match problem 1.",
+  "legend": {"1": "the standard error, σ/√n", "2": "the sample mean x̄", "3": "the population mean μ", "4": "the z-score"},
+  "steps": [
+   {"ask": "The question gives a total, not an average. What average does a total of over 3000 kg for 40 passengers correspond to?", "title": "Convert the total weight to an average weight",
+    "lines": [
+     {"text": "The total is over 3000 kg exactly when the average of the 40 passengers is over $\\hl{2}{3000 \\div 40}$."},
+     {"tex": "\\hl{2}{\\bar{x}} &= \\frac{3000}{40}"},
+     {"tex": "&= \\hl{2}{75}"}
+    ]},
+   {"ask": "Standardise the sample mean 75 using μ and the standard error for samples of 40. What goes on top?", "title": "Find the z-score of the sample mean",
+    "lines": [
+     {"text": "For means of samples of 40: $\\hl{3}{\\mu} = \\hl{3}{73}$ and standard error $\\hl{1}{\\sigma/\\sqrt{n} = 12/\\sqrt{40}}$."},
+     {"tex": "\\hl{4}{z} &= \\frac{\\hl{2}{75} - \\hl{3}{73}}{\\hl{1}{12 / \\sqrt{40}}}"},
+     {"tex": "&= \\frac{2}{\\hl{1}{1.8974}}"},
+     {"tex": "&= \\hl{4}{1.054}"}
+    ]},
+   {"ask": "The question asks about more than 75 kg. Which tail is that, and which table value do you need?", "title": "Find the probability",
+    "lines": [
+     {"text": "From the tables, $P(Z < \\hl{4}{1.054}) = 0.8531$."},
+     {"tex": "P(Z > \\hl{4}{1.054}) &= 1 - P(Z < \\hl{4}{1.054})"},
+     {"tex": "&= 1 - 0.8531"},
+     {"tex": "&= 0.1469"},
+     {"tex": "&= 14.69\\%"}
+    ]}
+  ],
+  "final": "14.69\\%",
+  "graph": null},
+ {"part": "maths-pp-2021-higher-p2-q8#(b)(i)", "note": "The question asks only for the z-score, so there is no table lookup at the end. The sample mean is below μ this time, so z is negative, and the sample standard deviation s replaces σ.",
+  "legend": {"1": "the standard error, s/√n", "2": "the sample mean x̄", "3": "the population mean μ", "4": "the z-score"},
+  "steps": [
+   {"ask": "A sample mean is standardised differently from a single value. Which formula do you use, and what goes in the denominator?", "title": "Use the z-score of a sample mean",
+    "lines": [
+     {"text": "$\\hl{4}{z} = \\dfrac{\\hl{2}{\\bar{x}} - \\hl{3}{\\mu}}{\\hl{1}{s/\\sqrt{n}}}$ with $\\bar{x} = \\hl{2}{19.8}$, $\\mu = \\hl{3}{21}$, $s = 5.2$, $n = 60$."},
+     {"tex": "\\hl{4}{z} &= \\frac{\\hl{2}{19.8} - \\hl{3}{21}}{\\hl{1}{5.2/\\sqrt{60}}}"},
+     {"tex": "&= \\frac{-1.2}{\\hl{1}{0.6713...}}"},
+     {"tex": "&= \\hl{4}{-1.787}"}
+    ]}
+  ],
+  "final": "\\hl{4}{z = -1.787}",
+  "graph": null}
+]},
+{"skill": "inf-z-test", "problems": [
+ {"part": "maths-pp-2020-higher-p2-q8#(c)", "note": null,
+  "legend": {"1": "the test statistic z", "2": "the hypothesised mean μ", "3": "the sample mean x̄", "4": "the critical value 1.96"},
+  "steps": [
+   {"ask": "The question asks whether the mean has changed. What do H₀ and H₁ say?", "title": "State the hypotheses",
+    "lines": [
+     {"text": "$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = \\hl{2}{12}$ kg)."},
+     {"text": "$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne \\hl{2}{12}$ kg)."}
+    ]},
+   {"ask": "Standardise the sample mean against the hypothesised mean, using σ/√n. What goes on top, and what on the bottom?", "title": "Calculate the test statistic",
+    "lines": [
+     {"tex": "\\hl{1}{z} &= \\frac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma / \\sqrt{n}}"},
+     {"tex": "&= \\frac{\\hl{3}{13.1} - \\hl{2}{12}}{4.5 / \\sqrt{80}}"},
+     {"tex": "&= \\frac{1.1}{0.5031}"},
+     {"tex": "&= \\hl{1}{2.186}"}
+    ]},
+   {"ask": "Compare the test statistic with the two-tailed 5% critical values. Is it inside or outside them?", "title": "Compare with the critical value and conclude",
+    "lines": [
+     {"text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."},
+     {"tex": "\\hl{1}{2.186} &> \\hl{4}{1.96}"},
+     {"text": "$\\hl{1}{z}$ is outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed."}
+    ]}
+  ],
+  "final": "\\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}",
+  "graph": null},
+ {"part": "maths-pp-2015-higher-p2-q2#(b)", "note": "Only the result changes: the sample mean of €90.45 is close enough to €94 that z = -1.71 lies inside ±1.96, so H₀ is not rejected. The steps are the same as problem 1.",
+  "legend": {"1": "the test statistic z", "2": "the hypothesised mean μ", "3": "the sample mean x̄", "4": "the critical value 1.96"},
+  "steps": [
+   {"ask": "The supermarket claims a mean spend of €94. Write H₀, then H₁ for a change in either direction.", "title": "State the hypotheses",
+    "lines": [
+     {"tex": "H_0:\\ \\mu &= \\hl{2}{94}"},
+     {"text": "The null hypothesis $H_0$: the mean spend is $\\text{€}\\hl{2}{94}$ (the supermarket is right)."},
+     {"tex": "H_1:\\ \\mu &\\ne \\hl{2}{94}"},
+     {"text": "The alternative hypothesis $H_1$: the mean spend is not $\\text{€}\\hl{2}{94}$."}
+    ]},
+   {"ask": "Standardise the sample mean against the claimed mean of €94. Which mean goes on top, and what goes on the bottom?", "title": "Calculate the test statistic",
+    "lines": [
+     {"text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{s / \\sqrt{n}}$."},
+     {"tex": "\\hl{1}{z} &= \\frac{\\hl{3}{90.45} - \\hl{2}{94}}{20.73 / \\sqrt{100}}"},
+     {"tex": "&= \\frac{-3.55}{2.073}"},
+     {"tex": "&= \\hl{1}{-1.71}"}
+    ]},
+   {"ask": "Where does z sit compared with the two-tailed 5% critical values?", "title": "Compare with the 5% critical values",
+    "lines": [
+     {"text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."},
+     {"tex": "-\\hl{4}{1.96} &< \\hl{1}{-1.71} < \\hl{4}{1.96}"}
+    ]},
+   {"ask": "Does z fall inside the critical values? What does that mean for the claim of €94?", "title": "Conclude",
+    "lines": [
+     {"text": "$\\hl{1}{z}$ lies between $-\\hl{4}{1.96}$ and $\\hl{4}{1.96}$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}\\hl{2}{94}$)."}
+    ]}
+  ],
+  "final": "\\text{Do not reject } H_0\\ (\\hl{1}{z = -1.71}).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}\\hl{2}{94}\\text{).}",
+  "graph": null},
+ {"part": "maths-pp-2022-higher-p2-q5#(b)", "note": "Only the result changes: this sample mean of 22.16 is well above 20.79, so z is large and positive and H₀ is rejected. The steps and the two-tailed test stay the same as problem 2.",
+  "legend": {"1": "the test statistic z", "2": "the hypothesised mean μ", "3": "the sample mean x̄", "4": "the critical value 1.96"},
+  "steps": [
+   {"ask": "Write H₀ and H₁ for a change in either direction from the 2019 mean of 20.79.", "title": "State the hypotheses",
+    "lines": [
+     {"text": "We test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed."},
+     {"tex": "H_0: \\mu &= \\hl{2}{20.79}"},
+     {"text": "Null hypothesis: the mean monthly spend has not changed."},
+     {"tex": "H_1: \\mu &\\neq \\hl{2}{20.79}"},
+     {"text": "Alternative hypothesis: the mean monthly spend has changed."}
+    ]},
+   {"ask": "Which quantity is the standard error here, and how does it enter the z formula?", "title": "Calculate the test statistic",
+    "lines": [
+     {"text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = \\hl{3}{22.16}$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$."},
+     {"tex": "\\hl{1}{z} &= \\frac{\\hl{3}{22.16} - \\hl{2}{20.79}}{8.12/\\sqrt{500}}"},
+     {"tex": "\\hl{1}{z} &= \\frac{1.37}{8.12/\\sqrt{500}}"},
+     {"tex": "\\hl{1}{z} &\\approx \\hl{1}{3.7726}"}
+    ]},
+   {"ask": "Compare the z-score with the two-tailed 5% critical values. Is it inside or outside?", "title": "Compare with the critical value",
+    "lines": [
+     {"text": "At the 5% level, two-tailed, the critical values are $\\pm \\hl{4}{1.96}$."},
+     {"tex": "\\hl{1}{3.7726} &> \\hl{4}{1.96}"}
+    ]},
+   {"ask": "State the decision in words first, then the reason in terms of the z-score and the critical value.", "title": "State the conclusion and reason",
+    "lines": [
+     {"text": "Conclusion: reject $H_0$. The mean monthly spend has changed."},
+     {"text": "Reason: $\\hl{1}{z = 3.7726}$ lies outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so the result is significant at the 5% level."}
+    ]}
+  ],
+  "final": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } \\hl{1}{3.7726} > \\hl{4}{1.96}",
+  "graph": null}
+]},
+{"skill": "stat-empirical-rule", "problems": [
+ {"part": "maths-pp-2015-ordinary-p2-q9#(d)(i)", "note": null,
+  "legend": {"1": "the mean (μ or x̄)", "2": "the standard deviation σ", "3": "the ends of the range"},
+  "steps": [
+   {"ask": "Which number of standard deviations either side of the mean holds about 95% of values?", "title": "Use the Empirical Rule",
+    "lines": [
+     {"text": "About 95% of values lie within 2 standard deviations of the mean: $\\hl{1}{\\bar{x}} \\pm 2\\hl{2}{\\sigma}$."},
+     {"tex": "\\hl{1}{166.7} - 2(\\hl{2}{8.9}) &\\le h \\le \\hl{1}{166.7} + 2(\\hl{2}{8.9})"},
+     {"tex": "\\hl{3}{148.9} &\\le h \\le \\hl{3}{184.5}"}
+    ]}
+  ],
+  "final": "\\hl{3}{148.9} \\le h \\le \\hl{3}{184.5}",
+  "graph": null},
+ {"part": "maths-pp-2020-ordinary-p2-q3#(b)(i)", "note": "The shaded region is only one standard deviation either side of the mean, not two, so the range is narrower. The same method applies: mean plus or minus the standard deviation.",
+  "legend": {"1": "the mean (μ or x̄)", "2": "the standard deviation σ", "3": "the ends of the range"},
+  "steps": [
+   {"ask": "Work out the two ends of the range that lies one standard deviation either side of the mean.", "title": "Find the boundaries one standard deviation from the mean",
+    "lines": [
+     {"text": "The shaded area runs from $\\hl{1}{\\mu} - \\hl{2}{\\sigma}$ to $\\hl{1}{\\mu} + \\hl{2}{\\sigma}$, with $\\mu = \\hl{1}{480}$ and $\\sigma = \\hl{2}{90}$."},
+     {"tex": "\\hl{3}{A} &= \\hl{1}{480} - \\hl{2}{90}"},
+     {"tex": "&= \\hl{3}{390}"},
+     {"tex": "\\hl{3}{B} &= \\hl{1}{480} + \\hl{2}{90}"},
+     {"tex": "&= \\hl{3}{570}"}
+    ]}
+  ],
+  "final": "\\hl{3}{A = 390},\\ \\hl{3}{B = 570}",
+  "graph": null},
+ {"part": "maths-pp-2021-ordinary-p2-q5#(a)", "note": "This time the range is given and you work backwards to the mean and standard deviation. The rule is the same read in reverse: the mean is halfway between the ends, and 2σ is the distance from the mean to either end.",
+  "legend": {"1": "the mean (μ or x̄)", "2": "the standard deviation σ", "3": "the ends of the range"},
+  "steps": [
+   {"ask": "If 95% lies within two standard deviations of the mean, how is the mean related to the two ends of the range?", "title": "Find the mean",
+    "lines": [
+     {"text": "By the empirical rule, 95% of values lie within $2\\hl{2}{\\sigma}$ of the mean, so the range is $\\hl{1}{\\mu} - 2\\hl{2}{\\sigma}$ to $\\hl{1}{\\mu} + 2\\hl{2}{\\sigma}$."},
+     {"text": "The mean is halfway between the ends of the range."},
+     {"tex": "\\hl{1}{\\mu} &= \\frac{\\hl{3}{147.9} + \\hl{3}{178.7}}{2}"},
+     {"tex": "&= \\frac{326.6}{2}"},
+     {"tex": "&= \\hl{1}{163.3}"}
+    ]},
+   {"ask": "Use the top end of the range to find σ. What do you subtract from what?", "title": "Find the standard deviation",
+    "lines": [
+     {"text": "The top of the range is $\\hl{1}{\\mu} + 2\\hl{2}{\\sigma}$."},
+     {"tex": "2\\hl{2}{\\sigma} &= \\hl{3}{178.7} - \\hl{1}{163.3}"},
+     {"tex": "2\\hl{2}{\\sigma} &= 15.4"},
+     {"tex": "\\hl{2}{\\sigma} &= \\hl{2}{7.7}"}
+    ]}
+  ],
+  "final": "\\hl{1}{\\mu = 163.3} \\text{ cm},\\ \\hl{2}{\\sigma = 7.7} \\text{ cm}",
+  "graph": null}
+]}
+]
