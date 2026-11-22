@@ -6,84 +6,100 @@
   "notes": [
     {
       "h": "Scalar and vector quantities",
+      "b": "Physical quantities used to describe movement fall into two types. A scalar tells you only how much; a vector tells you how much and which way. Sorting them correctly is the first step in analysing movement.",
       "points": [
-        "Scalar quantity: has size (magnitude) only, such as distance, speed, mass and time.",
-        "Vector quantity: has size and direction, such as displacement, velocity, acceleration, force, momentum and weight. A vector can be drawn as an arrow whose length shows its size.",
-        "Distance is the total length of path travelled (scalar); displacement is the straight-line change in position from start to finish in a given direction (vector).",
-        "A 400 m runner on a standard track runs a distance of 400 m but finishes where they started, so their displacement is zero.",
-        "Direction decides outcomes in sport: a pass's velocity, not just its speed, decides whether it reaches a team-mate."
-      ]
+        "A scalar quantity has size (magnitude, meaning how much there is) only. Examples are distance, speed, mass and time.",
+        "A vector quantity has size and direction. Examples are displacement, velocity, acceleration, force, momentum and weight. A vector can be drawn as an arrow whose length shows its size and whose point shows its direction.",
+        "Distance is the total length of path travelled, so it is a scalar. Displacement is the straight-line change in position from start to finish in a given direction, so it is a vector.",
+        "A 400 m runner on a standard outdoor track runs a distance of 400 m, but finishes where they started, so their displacement is zero.",
+        "Direction decides outcomes in sport: a pass's velocity (its speed in a particular direction), not just its speed, decides whether it reaches a team-mate."
+      ],
+      "tip": "Speed is a scalar and velocity is a vector. Mass is a scalar, but weight is a vector because it is a force. Exams ask you to discuss the difference between vectors and scalars and to identify scalar quantities in a case study."
     },
     {
       "h": "Motion quantities",
+      "b": "Speed, velocity, acceleration and momentum are built from distance or displacement, time and mass. Whether each one is a scalar or a vector depends on whether direction is part of it.",
       "points": [
-        "Speed = distance ÷ time (scalar).",
-        "Velocity = displacement ÷ time (vector).",
-        "Acceleration = change in velocity ÷ time taken (vector); deceleration is negative acceleration, such as a defender braking to change direction.",
-        "Momentum = mass × velocity (vector): a heavier or faster rugby player is harder to stop.",
+        "Speed = distance ÷ time. It is a scalar, because distance has no direction.",
+        "Velocity = displacement ÷ time. It is a vector, because displacement includes direction.",
+        "Acceleration = change in velocity ÷ time taken, and it is a vector. Deceleration is negative acceleration (slowing down), such as a defender braking to change direction.",
+        "Momentum = mass × velocity, and it is a vector. A heavier or faster rugby player has more momentum, so is harder to stop.",
         "Classified: speed is a scalar; velocity and momentum are vectors, because velocity includes direction and momentum depends on velocity."
-      ]
+      ],
+      "tip": "A past question asks you to classify speed, velocity and momentum and justify velocity. Say velocity is a vector because it is displacement over time, so it includes direction."
     },
     {
       "h": "Forces that change motion",
+      "b": "A force is a push or pull. A body only starts, stops or changes direction when a force acts on it, so these are the forces a performer deals with in sport.",
       "points": [
-        "Muscular force: produced by the performer's muscles to move the body or an implement.",
-        "Gravity: pulls every body and object towards the ground; its force on a body is its weight.",
-        "Friction: opposes sliding between surfaces; studs and grip on footwear increase it.",
-        "Air resistance and water resistance (drag): oppose motion through air or water; streamlining reduces them.",
-        "Ground reaction force: the push back from the ground when a performer pushes against it."
+        "Muscular force is produced by the performer's muscles to move the body or an implement (a piece of equipment such as a bat or javelin).",
+        "Gravity pulls every body and object towards the ground; its force on a body is its weight.",
+        "Friction opposes sliding between surfaces, so studs and grip on footwear increase it to stop slipping.",
+        "Air resistance and water resistance (together called drag) oppose motion through air or water. Streamlining, which means shaping the body or object to let air or water flow past smoothly, reduces them.",
+        "Ground reaction force is the push back from the ground when a performer pushes against it."
       ]
     },
     {
       "h": "Newton's three laws of motion",
+      "b": "Newton's laws link force to motion. Between them they explain why a body starts moving, how quickly it speeds up and why pushing always produces a push back.",
       "points": [
-        "First law (law of inertia): a body stays at rest, or keeps moving at a constant velocity in a straight line, unless an external unbalanced force acts on it.",
+        "First law (law of inertia, the tendency of a body to resist a change in its motion): a body stays at rest, or keeps moving at a constant velocity in a straight line, unless an external unbalanced force (one not cancelled out by another force) acts on it.",
         "First law examples: a ball on the penalty spot stays still until it is kicked; a sprinter in the blocks stays still until they drive against the blocks; a sliding player slows down only because friction acts on them.",
-        "Second law (law of acceleration): the acceleration of a body is proportional to the force applied, happens in the direction of the force, and is inversely proportional to the body's mass (F = m × a, with force in newtons, mass in kilograms and acceleration in metres per second squared).",
+        "Second law (law of acceleration): the acceleration of a body is proportional to the force applied, happens in the direction of the force, and is inversely proportional to the body's mass (so a bigger mass accelerates less).",
+        "In symbols the second law is F = m × a, with force in newtons, mass in kilograms and acceleration in metres per second squared.",
         "Second law examples: a harder kick gives the ball greater acceleration; the same force accelerates a lighter implement more than a heavier one. This is the law used to calculate the acceleration of a kicked ball.",
         "Third law (law of action and reaction): for every action there is an equal and opposite reaction.",
         "Third law examples: a sprinter pushes back and down on the blocks and the ground reaction force drives them forward; a swimmer's hand pushes water backwards and the water pushes the swimmer forwards; a jumper drives down into the take-off board and is pushed upwards."
-      ]
+      ],
+      "tip": "The second law is the acceleration law, not the action-reaction law, which is the third. Exams ask you to name which law calculates the acceleration of a kicked ball, define the second law, explain the third law using a named activity, and apply the first law to two skills."
     },
     {
       "h": "All three laws applied to swimming",
+      "b": "Exams ask you to apply the laws to one named activity. Swimming works well because each law shows up at a different stage: the start, the stroke and the glide off the wall.",
       "points": [
-        "First law: the swimmer on the blocks stays at rest until the leg drive applies a force; off the wall, a streamlined glide keeps speed because less water resistance acts to slow it.",
-        "Second law: a stronger, better-directed arm pull and leg kick produce greater acceleration for the same body mass.",
-        "Third law: the hand and forearm push water backwards and the water pushes the swimmer forwards; at the dive, the force into the blocks is returned as forward propulsion."
-      ]
+        "First law: the swimmer on the blocks stays at rest until the leg drive applies a force. Off the wall, a streamlined glide keeps speed because less water resistance acts to slow it.",
+        "Second law: a stronger, better-directed arm pull and leg kick produce greater acceleration for the same body mass, because acceleration is proportional to force.",
+        "Third law: the hand and forearm push water backwards and the water pushes the swimmer forwards. At the dive, the force into the blocks is returned as forward propulsion."
+      ],
+      "tip": "When asked how each of Newton's three laws applies in a named activity, name the activity, then give one example for each law as in the three points above."
     },
     {
       "h": "Why Newton's laws are used to analyse movement",
+      "b": "Analysing a skill means finding out why it works or fails. Newton's laws give a coach a way to do that in terms of forces.",
       "points": [
         "They explain what starts, stops and changes a movement, so a coach can see the cause of a fault rather than just its effect.",
         "They show where and in what direction force must be applied, such as driving through the ball rather than at it.",
         "They guide technique corrections, such as directing force in the intended direction of travel at a jump take-off.",
-        "They inform the choice of equipment, such as a lighter implement for faster acceleration in training."
-      ]
+        "They inform the choice of equipment, such as a lighter implement for faster acceleration in training, since the second law says the same force accelerates a lighter object more."
+      ],
+      "tip": "Exams ask you to explain why you would use the laws when analysing human movement. Give causes of motion, where and in what direction to apply force, correcting technique, and choice of equipment."
     },
     {
       "h": "Quality and effectiveness: economy of movement",
+      "b": "Quality and effectiveness describe how well a skill is performed. One measure is economy of movement: getting the result without wasting effort, which matters most when a performer is tired.",
       "points": [
-        "Economy of movement: performing a skill with no unnecessary movement and the least energy needed for the result.",
-        "It delays fatigue, so technique holds up late in a performance.",
+        "Economy of movement means performing a skill with no unnecessary movement and the least energy needed for the result.",
+        "It delays fatigue (the tiredness that weakens performance), so technique holds up late in a performance.",
         "It improves consistency and accuracy, because there are fewer moving parts to go wrong.",
-        "It makes a movement look fluent, adding to its aesthetic quality.",
+        "It makes a movement look fluent, adding to its aesthetic quality (how good it looks to watch).",
         "Front crawl example: a flat, streamlined body position with the hips high reduces drag, so more of each arm pull produces forward motion; sinking legs waste energy.",
         "Distance running example: a relaxed arm swing without side-to-side twisting of the trunk saves energy over the race.",
-        "Economy is improved by practising until the skill is automatic, correcting technique using video, and building the flexibility and strength to hold efficient positions."
-      ]
+        "Economy is improved by practising until the skill is automatic (the autonomous stage, where it needs little thought), correcting technique using video, and building the flexibility and strength to hold efficient positions."
+      ],
+      "tip": "Economy of movement is not moving slowly. It is achieving the result with the least wasted energy. Exams ask you to examine how it affects the quality or effectiveness of a named skill, so use front crawl or distance running with the effects above."
     },
     {
       "h": "Quality and effectiveness: creative application of skill",
+      "b": "The other perspective on quality is creativity. A performer who has mastered a skill can go beyond the standard version and use it to solve the problem in front of them.",
       "points": [
-        "Creative application: using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents, rather than reproducing the standard version.",
+        "Creative application means using a well-learned skill in a new, original or unexpected way to solve the problem a situation presents, rather than reproducing the standard version.",
         "It depends on the skill being automatic, so the performer's attention is free to read the situation.",
         "It deceives and unbalances opponents and opens options when the expected one is closed off.",
         "It makes a performer less predictable and harder to defend against.",
         "In dance and gymnastics it adds artistic merit and originality.",
-        "Examples: a no-look pass in basketball; a disguised drop shot in badminton; a dummy solo in Gaelic football; an original linking movement in a gymnastics floor routine."
-      ]
+        "Examples: a no-look pass in basketball; a disguised drop shot in badminton; a dummy solo in Gaelic football (a feint that fools a defender); an original linking movement in a gymnastics floor routine."
+      ],
+      "tip": "Exams ask you to explain creative application, describe two ways it benefits performance, and give an example in a named skill. Pick two benefits from the list and attach one named example."
     }
   ],
   "keyTerms": [
