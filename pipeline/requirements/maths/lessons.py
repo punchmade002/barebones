@@ -114,7 +114,7 @@ def pack():
     print(f'{len(jobs)} skills → {(len(jobs) + PER_BATCH - 1) // PER_BATCH} batches in {WORK / "in"}')
 
 
-X = sp.Symbol('x')
+X = sp.Symbol('x', real=True)   # real, so d|f|/dx is sign(f)·f′ rather than re/im parts
 
 
 def parse_f(expr):
