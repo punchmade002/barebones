@@ -1,0 +1,1145 @@
+[
+ {
+  "skill": "fn-graph-cubic",
+  "problems": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q3#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)"
+    },
+    "steps": [
+     {
+      "ask": "The table needs f(x) at x = −1 to 4. Start with x = −1. What do you substitute?",
+      "title": "Substitute x = −1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{-1}) &= -(-1)^3 + 4(-1)^2 + (-1) - 2"
+       },
+       {
+        "tex": "&= 1 + 4 - 1 - 2"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute x = 0. Which terms become zero?",
+      "title": "Substitute x = 0 into f(x)",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{0}) &= -(0)^3 + 4(0)^2 + 0 - 2"
+       },
+       {
+        "tex": "&= \\hl{2}{-2}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute x = 1? Be careful with the minus signs in each term.",
+      "title": "Substitute x = 1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{1}) &= -(1)^3 + 4(1)^2 + 1 - 2"
+       },
+       {
+        "tex": "&= -1 + 4 + 1 - 2"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute x = 2? Work out the cube and the square before adding.",
+      "title": "Substitute x = 2 into f(x)",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{2}) &= -(2)^3 + 4(2)^2 + 2 - 2"
+       },
+       {
+        "tex": "&= -8 + 16 + 2 - 2"
+       },
+       {
+        "tex": "&= \\hl{2}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "The table gives f(3). Substitute x = 4 the same way. What is f(4)?",
+      "title": "Check x = 3 and substitute x = 4",
+      "lines": [
+       {
+        "text": "The table gives $f(\\hl{1}{3}) = \\hl{2}{10}$. For $x = \\hl{1}{4}$:"
+       },
+       {
+        "tex": "f(\\hl{1}{4}) &= -(4)^3 + 4(4)^2 + 4 - 2"
+       },
+       {
+        "tex": "&= -64 + 64 + 4 - 2"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which six values of f(x) go with x = −1 to 4, listed in the order of x?",
+      "title": "Complete the table",
+      "lines": [
+       {
+        "text": "$x$: $-1, 0, 1, 2, 3, 4$ gives $f(x)$: $2, -2, 2, 8, 10, 2$."
+       }
+      ]
+     },
+     {
+      "ask": "Plot each pair (x, f(x)). How many turns can a cubic curve have, and where do these points turn?",
+      "title": "Plot the points and join them with a smooth curve",
+      "lines": [
+       {
+        "text": "Plot $(-1, 2)$, $(0, -2)$, $(1, 2)$, $(2, 8)$, $(3, 10)$ and $(4, 2)$, then draw one smooth curve through them."
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = 2, -2, 2, 8, 10, 2 \\text{ for } x = -1, 0, 1, 2, 3, 4",
+    "graph": {
+     "f": "-x**3 + 4*x**2 + x - 2",
+     "box": [
+      -1.5,
+      12,
+      4.5,
+      -3.5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": -1,
+       "y": 2,
+       "name": "(-1, 2)"
+      },
+      {
+       "x": 0,
+       "y": -2,
+       "name": "(0, -2)"
+      },
+      {
+       "x": 1,
+       "y": 2,
+       "name": "(1, 2)"
+      },
+      {
+       "x": 2,
+       "y": 8,
+       "name": "(2, 8)"
+      },
+      {
+       "x": 3,
+       "y": 10,
+       "name": "(3, 10)"
+      },
+      {
+       "x": 4,
+       "y": 2,
+       "name": "(4, 2)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+    "note": "Changed from Problem 1: the coefficients are now decimals (0.001, −0.12 and 3.6), so each term needs more careful arithmetic. The method is the same: substitute, then plot the points and join them with a smooth curve.",
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)"
+    },
+    "steps": [
+     {
+      "ask": "What is h(0)? Which terms are left when x = 0?",
+      "title": "Use p = 3.6 and find h(0)",
+      "lines": [
+       {
+        "tex": "h(x) &= 0.001x^3 - 0.12x^2 + 3.6x + 5"
+       },
+       {
+        "text": "At $x = \\hl{1}{0}$ every term except the constant is zero, so $h(\\hl{1}{0}) = \\hl{2}{5}$."
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute x = 20 into each term? Work out the powers first.",
+      "title": "Find h(20)",
+      "lines": [
+       {
+        "tex": "h(\\hl{1}{20}) &= 0.001(20)^3 - 0.12(20)^2 + 3.6(20) + 5"
+       },
+       {
+        "tex": "&= 8 - 48 + 72 + 5"
+       },
+       {
+        "tex": "&= \\hl{2}{37}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute x = 30 the same way. Which term is the biggest?",
+      "title": "Find h(30)",
+      "lines": [
+       {
+        "tex": "h(\\hl{1}{30}) &= 0.001(30)^3 - 0.12(30)^2 + 3.6(30) + 5"
+       },
+       {
+        "tex": "&= 27 - 108 + 108 + 5"
+       },
+       {
+        "tex": "&= \\hl{2}{32}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute x = 50 into each term? Watch the sign of each term.",
+      "title": "Find h(50)",
+      "lines": [
+       {
+        "tex": "h(\\hl{1}{50}) &= 0.001(50)^3 - 0.12(50)^2 + 3.6(50) + 5"
+       },
+       {
+        "tex": "&= 125 - 300 + 180 + 5"
+       },
+       {
+        "tex": "&= \\hl{2}{10}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute x = 70. Does h(70) rise or fall compared with h(50)?",
+      "title": "Find h(70)",
+      "lines": [
+       {
+        "tex": "h(\\hl{1}{70}) &= 0.001(70)^3 - 0.12(70)^2 + 3.6(70) + 5"
+       },
+       {
+        "tex": "&= 343 - 588 + 252 + 5"
+       },
+       {
+        "tex": "&= \\hl{2}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "Plot each pair (x, h(x)) on the grid. Where does the curve turn?",
+      "title": "Plot the points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0, 5)$, $(10, 30)$, $(20, 37)$, $(30, 32)$, $(40, 21)$, $(50, 10)$, $(60, 5)$, $(70, 12)$ and $(75, 21.875)$."
+       },
+       {
+        "text": "Join them with a smooth curve: it rises to a maximum near $x = 20$, falls to a minimum near $x = 60$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "h(\\hl{1}{0})=\\hl{2}{5},\\ h(\\hl{1}{20})=\\hl{2}{37},\\ h(\\hl{1}{30})=\\hl{2}{32},\\ h(\\hl{1}{50})=\\hl{2}{10},\\ h(\\hl{1}{70})=\\hl{2}{12}",
+    "graph": {
+     "f": "0.001*x**3 - 0.12*x**2 + 3.6*x + 5",
+     "box": [
+      -5,
+      42,
+      80,
+      -2
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 5,
+       "name": "(0, 5)"
+      },
+      {
+       "x": 20,
+       "y": 37,
+       "name": "max (20, 37)"
+      },
+      {
+       "x": 30,
+       "y": 32,
+       "name": "(30, 32)"
+      },
+      {
+       "x": 50,
+       "y": 10,
+       "name": "(50, 10)"
+      },
+      {
+       "x": 70,
+       "y": 12,
+       "name": "(70, 12)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(c)",
+    "note": "Changed from Problem 2: there is no formula. The ten points are already in a table of hours and units, so you plot them rather than working them out. The method is the same: plot the points, then join them with a smooth curve.",
+    "legend": {
+     "1": "the x-value (across: hours)",
+     "2": "the y-value (up: units)"
+    },
+    "steps": [
+     {
+      "ask": "How do you read one point in this table? Which number goes across and which goes up?",
+      "title": "Plot the ten points from the table",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0},\\hl{2}{0})$, $(\\hl{1}{1},\\hl{2}{57.5})$, $(\\hl{1}{2},\\hl{2}{118})$, $(\\hl{1}{3},\\hl{2}{175.5})$, $(\\hl{1}{4},\\hl{2}{224})$, $(\\hl{1}{5},\\hl{2}{257.5})$, $(\\hl{1}{6},\\hl{2}{270})$, $(\\hl{1}{7},\\hl{2}{255.5})$, $(\\hl{1}{8},\\hl{2}{208})$ and $(\\hl{1}{9},\\hl{2}{121.5})$. Each point is the hours value across and the units value up."
+       }
+      ]
+     },
+     {
+      "ask": "Join the ten points with one smooth curve. Where does the peak come?",
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "The function is a cubic, so join the points with a smooth curve from $t = \\hl{1}{0}$ to $t = \\hl{1}{9}$. It rises to a peak near $t = \\hl{1}{6}$, then falls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curve through the plotted points}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fn-graph-exponential",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(d)(i), (ii)",
+    "note": null,
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put m = 1 into P(m)? Work out 1.29 to the power of m before you multiply by 2.",
+      "title": "Substitute m = 1 into P(m)",
+      "lines": [
+       {
+        "tex": "P(\\hl{1}{1}) &= 2 \\times 1.29^{\\hl{1}{1}}"
+       },
+       {
+        "tex": "&= \\hl{2}{2.58}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute m = 3? Work out the power first, then multiply by 2.",
+      "title": "Substitute m = 3 into P(m)",
+      "lines": [
+       {
+        "tex": "P(\\hl{1}{3}) &= 2 \\times 1.29^{\\hl{1}{3}}"
+       },
+       {
+        "tex": "&= \\hl{2}{4.29}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute m = 4 the same way? Keep the 2 until the end.",
+      "title": "Substitute m = 4 into P(m)",
+      "lines": [
+       {
+        "tex": "P(\\hl{1}{4}) &= 2 \\times 1.29^{\\hl{1}{4}}"
+       },
+       {
+        "tex": "&= \\hl{2}{5.54}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute m = 5. Is this value bigger than the value for m = 4?",
+      "title": "Substitute m = 5 into P(m)",
+      "lines": [
+       {
+        "tex": "P(\\hl{1}{5}) &= 2 \\times 1.29^{\\hl{1}{5}}"
+       },
+       {
+        "tex": "&= \\hl{2}{7.14}"
+       }
+      ]
+     },
+     {
+      "ask": "Plot each pair (m, P(m)). What shape should a value that is multiplied by the same factor each step make?",
+      "title": "Draw the graph of P(m)",
+      "lines": [
+       {
+        "text": "Plot the seven points: $(\\hl{1}{0}, \\hl{2}{2})$, $(\\hl{1}{1}, \\hl{2}{2.58})$, $(\\hl{1}{2}, \\hl{2}{3.33})$, $(\\hl{1}{3}, \\hl{2}{4.29})$, $(\\hl{1}{4}, \\hl{2}{5.54})$, $(\\hl{1}{5}, \\hl{2}{7.14})$, $(\\hl{1}{6}, \\hl{2}{9.22})$."
+       },
+       {
+        "text": "Join them with a smooth curve."
+       }
+      ]
+     }
+    ],
+    "final": "P(\\hl{1}{1}) = \\hl{2}{2.58},\\ P(\\hl{1}{3}) = \\hl{2}{4.29},\\ P(\\hl{1}{4}) = \\hl{2}{5.54},\\ P(\\hl{1}{5}) = \\hl{2}{7.14}",
+    "graph": {
+     "f": "2*1.29**x",
+     "box": [
+      -0.5,
+      10.5,
+      6.5,
+      -1
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1,
+       "y": 2.58,
+       "name": "(1, 2.58)"
+      },
+      {
+       "x": 3,
+       "y": 4.29,
+       "name": "(3, 4.29)"
+      },
+      {
+       "x": 4,
+       "y": 5.54,
+       "name": "(4, 5.54)"
+      },
+      {
+       "x": 5,
+       "y": 7.14,
+       "name": "(5, 7.14)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(b)(i), (ii)",
+    "note": "Changed from Problem 1: the numbers are bigger (a starting value of 2100 and a factor of 1.18), and the table runs from t = 0 to 6. The method is the same: substitute, then plot the points and join them.",
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you substitute t = 0 into the formula? Work out the power before multiplying by 2100.",
+      "title": "Find D(0)",
+      "lines": [
+       {
+        "tex": "D(\\hl{1}{0}) &= 2100 \\times 1.18^0"
+       },
+       {
+        "tex": "&\\approx 2100.00"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{2100}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute t = 1 into the formula? Use the power, then multiply by 2100.",
+      "title": "Find D(1)",
+      "lines": [
+       {
+        "tex": "D(\\hl{1}{1}) &= 2100 \\times 1.18^1"
+       },
+       {
+        "tex": "&\\approx 2478.00"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{2478}"
+       }
+      ]
+     },
+     {
+      "ask": "The table already gives one value. Which value is it, and does it need working out?",
+      "title": "Use the value given for D(2)",
+      "lines": [
+       {
+        "text": "The table already gives $D(\\hl{1}{2}) = \\hl{2}{2924}$."
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you substitute t = 3? Round only at the end.",
+      "title": "Find D(3)",
+      "lines": [
+       {
+        "tex": "D(\\hl{1}{3}) &= 2100 \\times 1.18^3"
+       },
+       {
+        "tex": "&\\approx 3450.37"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{3450}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute t = 4 the same way. Is it bigger than the value before?",
+      "title": "Find D(4)",
+      "lines": [
+       {
+        "tex": "D(\\hl{1}{4}) &= 2100 \\times 1.18^4"
+       },
+       {
+        "tex": "&\\approx 4071.43"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{4071}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute t = 5 the same way. Does it still fit the growing pattern?",
+      "title": "Find D(5)",
+      "lines": [
+       {
+        "tex": "D(\\hl{1}{5}) &= 2100 \\times 1.18^5"
+       },
+       {
+        "tex": "&\\approx 4804.29"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{4804}"
+       }
+      ]
+     },
+     {
+      "ask": "Which value does the table give for t = 6?",
+      "title": "Use the value given for D(6)",
+      "lines": [
+       {
+        "text": "The table already gives $D(\\hl{1}{6}) = \\hl{2}{5669}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which seven values go into the table, in order of t?",
+      "title": "Complete the table",
+      "lines": [
+       {
+        "text": "$t$: 0, 1, 2, 3, 4, 5, 6"
+       },
+       {
+        "text": "$D(t)$: 2100, 2478, 2924, 3450, 4071, 4804, 5669"
+       }
+      ]
+     },
+     {
+      "ask": "Plot each point (t, D(t)). Why does the curve bend upward more and more?",
+      "title": "Plot the points and draw the curve",
+      "lines": [
+       {
+        "text": "Plot each point $(t, D(t))$ on the grid."
+       },
+       {
+        "text": "Join the points with a smooth curve that rises more steeply as $t$ increases."
+       }
+      ]
+     }
+    ],
+    "final": "D(t) = 2100, 2478, 2924, 3450, 4071, 4804, 5669 \\text{ for } t = 0, \\ldots, 6",
+    "graph": {
+     "f": "2100*1.18**x",
+     "box": [
+      -0.5,
+      6200,
+      6.5,
+      -200
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 2100,
+       "name": "(0, 2100)"
+      },
+      {
+       "x": 1,
+       "y": 2478,
+       "name": "(1, 2478)"
+      },
+      {
+       "x": 2,
+       "y": 2924,
+       "name": "(2, 2924)"
+      },
+      {
+       "x": 3,
+       "y": 3450,
+       "name": "(3, 3450)"
+      },
+      {
+       "x": 4,
+       "y": 4071,
+       "name": "(4, 4071)"
+      },
+      {
+       "x": 5,
+       "y": 4804,
+       "name": "(5, 4804)"
+      },
+      {
+       "x": 6,
+       "y": 5669,
+       "name": "(6, 5669)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q9#(a)(iii)",
+    "note": "Changed from Problem 2: you do not plot anything here; you name the curve from the rule. The idea that a factor repeats every step is the same.",
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)"
+    },
+    "steps": [
+     {
+      "ask": "Look at the factor (0.8) that repeats each year. What kind of curve does that give?",
+      "title": "Name the curve",
+      "lines": [
+       {
+        "text": "A $\\hl{2}{\\text{quantity}}$ that is multiplied by the same factor (0.8) every $\\hl{1}{\\text{year}}$ follows an exponential curve."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Exponential}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fn-graph-linear",
+  "problems": [
+   {
+    "part": "maths-pp-2019-higher-p1-q2#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)",
+     "3": "the slope"
+    },
+    "steps": [
+     {
+      "ask": "How many points does a straight line need? Pick two easy x-values and work out g at each.",
+      "title": "Find two points on the line",
+      "lines": [
+       {
+        "text": "$g(x)=\\hl{3}{4}x+1$ is a straight line, so two points are enough."
+       },
+       {
+        "tex": "g(\\hl{1}{0}) &= \\hl{3}{4}(\\hl{1}{0}) + 1 = \\hl{2}{1}"
+       },
+       {
+        "tex": "g(\\hl{1}{2}) &= \\hl{3}{4}(\\hl{1}{2}) + 1 = \\hl{2}{9}"
+       }
+      ]
+     },
+     {
+      "ask": "Plot both points. How far should the line extend across the grid?",
+      "title": "Plot and join the points",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0},\\hl{2}{1})$ and $(\\hl{1}{2},\\hl{2}{9})$ and draw a straight line through them, extending it across the grid."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Line through } (\\hl{1}{0},\\hl{2}{1}) \\text{ and } (\\hl{1}{2},\\hl{2}{9})",
+    "graph": {
+     "f": "4*x + 1",
+     "box": [
+      -1,
+      10,
+      3,
+      -4
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 1,
+       "name": "(0, 1)"
+      },
+      {
+       "x": 2,
+       "y": 9,
+       "name": "(2, 9)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(d)",
+    "note": "Changed from Problem 1: the rule is now p(x) = 1.5x with no constant term, so the line passes through the origin. You still need two points, and the solution uses x = 40 and x = 70.",
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)",
+     "3": "the slope"
+    },
+    "steps": [
+     {
+      "ask": "p(0) is one easy point. Which second x-value would you use, and why?",
+      "title": "Find two points on p(x) = 1.5x",
+      "lines": [
+       {
+        "text": "A straight line through the origin needs one more point; use $x = \\hl{1}{40}$ and $x = \\hl{1}{70}$."
+       },
+       {
+        "tex": "p(\\hl{1}{0}) &= \\hl{3}{1.5}(\\hl{1}{0})"
+       },
+       {
+        "tex": "&= \\hl{2}{0}"
+       },
+       {
+        "tex": "p(\\hl{1}{40}) &= \\hl{3}{1.5} \\times \\hl{1}{40}"
+       },
+       {
+        "tex": "&= \\hl{2}{60}"
+       },
+       {
+        "tex": "p(\\hl{1}{70}) &= \\hl{3}{1.5} \\times \\hl{1}{70}"
+       },
+       {
+        "tex": "&= \\hl{2}{105}"
+       }
+      ]
+     },
+     {
+      "ask": "Plot the three points. Then join them: do they all lie on one straight line?",
+      "title": "Draw the line",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0}, \\hl{2}{0})$, $(\\hl{1}{40}, \\hl{2}{60})$ and $(\\hl{1}{70}, \\hl{2}{105})$ and join them with a straight line."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{line through } (\\hl{1}{0},\\hl{2}{0}),\\ (\\hl{1}{40},\\hl{2}{60}),\\ (\\hl{1}{70},\\hl{2}{105})",
+    "graph": {
+     "f": "1.5*x",
+     "box": [
+      -5,
+      115,
+      80,
+      -10
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 0,
+       "name": "(0, 0)"
+      },
+      {
+       "x": 40,
+       "y": 60,
+       "name": "(40, 60)"
+      },
+      {
+       "x": 70,
+       "y": 105,
+       "name": "(70, 105)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q1#(c)(i), (ii)",
+    "note": "Changed from Problem 2: the line is drawn only between two limits, so you first work out where it stops. The slope and the two-point method stay the same.",
+    "legend": {
+     "1": "the x-value (across)",
+     "2": "the y-value (up)",
+     "3": "the slope"
+    },
+    "steps": [
+     {
+      "ask": "The segment stops at y = −2 and y = 6. What x-value does each of these give when you put it into the line?",
+      "title": "Find the end points of the slope 2 segment",
+      "lines": [
+       {
+        "text": "Slope 2 means the line is $y - 2 = \\hl{3}{2}(x - 4)$. The range $-2 \\le y \\le 6$ fixes where the segment stops."
+       },
+       {
+        "tex": "y - 2 &= \\hl{3}{2}(x - 4)"
+       },
+       {
+        "tex": "y &= \\hl{3}{2}x - 6"
+       },
+       {
+        "text": "When $y = \\hl{2}{-2}$: $\\hl{2}{-2} = \\hl{3}{2}x - 6$, so $x = \\hl{1}{2}$. When $y = \\hl{2}{6}$: $\\hl{2}{6} = \\hl{3}{2}x - 6$, so $x = \\hl{1}{6}$."
+       }
+      ]
+     },
+     {
+      "ask": "Plot the two end points and join them. Does the line pass through (4, 2)?",
+      "title": "Draw the slope 2 segment",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{2}, \\hl{2}{-2})$ and $(\\hl{1}{6}, \\hl{2}{6})$, then join them with a straight line through $(\\hl{1}{4}, \\hl{2}{2})$. It also passes through $(\\hl{1}{3}, \\hl{2}{0})$ and $(\\hl{1}{5}, \\hl{2}{4})$."
+       }
+      ]
+     },
+     {
+      "ask": "The domain is −1 ≤ x ≤ 7. Put each end into the line. What y-value do you get?",
+      "title": "Find the end points of the slope $-\\tfrac{2}{3}$ segment",
+      "lines": [
+       {
+        "text": "The line is $y - 2 = \\hl{3}{-\\tfrac{2}{3}}(x - 4)$. The domain $-1 \\le x \\le 7$ fixes where the segment stops."
+       },
+       {
+        "tex": "y - 2 &= \\hl{3}{-\\frac{2}{3}}(x - 4)"
+       },
+       {
+        "tex": "y &= \\hl{3}{-\\frac{2}{3}}x + \\frac{14}{3}"
+       },
+       {
+        "text": "When $x = \\hl{1}{7}$: $y = \\hl{2}{0}$. When $x = \\hl{1}{-1}$: $y = \\hl{2}{\\tfrac{16}{3}} \\approx 5.33$."
+       }
+      ]
+     },
+     {
+      "ask": "From (4, 2), how many steps right and down does a slope of −2/3 give?",
+      "title": "Draw the slope $-\\tfrac{2}{3}$ segment",
+      "lines": [
+       {
+        "text": "From $(\\hl{1}{4}, \\hl{2}{2})$ go 3 right and 2 down to reach $(\\hl{1}{7}, \\hl{2}{0})$. Extend the line left to $x = \\hl{1}{-1}$ (about $y = 5.33$)."
+       }
+      ]
+     }
+    ],
+    "final": "y = \\hl{3}{2}x - 6 \\text{ and } y = \\hl{3}{-\\tfrac{2}{3}}x + \\tfrac{14}{3}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fn-solve-graphically",
+  "problems": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q7#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "the x-value you read off (the solution, t)",
+     "2": "the value f(t) is set equal to (0 here)"
+    },
+    "steps": [
+     {
+      "ask": "When does the ball land, and what is its height at that moment? Where on the graph do you look for that height?",
+      "title": "Find where the curve meets the t-axis",
+      "lines": [
+       {
+        "text": "The ball lands when its height is $\\hl{2}{0}$, so look where the curve crosses the $t$-axis."
+       },
+       {
+        "text": "Read across from the point where the curve meets the axis: it is at about $t = \\hl{1}{4.1}$."
+       },
+       {
+        "text": "The ball was hit at $t = 0$, so the time in the air is $\\hl{1}{4.1} - 0$."
+       },
+       {
+        "tex": "\\hl{1}{4.1} - 0 &= \\hl{1}{4.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{4.1} \\text{ seconds}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(d)(i)",
+    "note": "Changed from Problem 1: you start from a given time and read the height, instead of finding the time where the height is 0. The method is the same: follow the curve and read the other axis.",
+    "legend": {
+     "1": "the x-value you start from (across: t)",
+     "2": "the y-value you read off (up: height)"
+    },
+    "steps": [
+     {
+      "ask": "Start at 3.5 on the horizontal axis. Which way do you move to reach the curve, and what do you read on the other axis?",
+      "title": "Read the graph at t = 3.5",
+      "lines": [
+       {
+        "text": "Go up from $\\hl{1}{3.5}$ on the horizontal axis to the curve, then across to the vertical axis."
+       },
+       {
+        "text": "The vertical axis reads about $\\hl{2}{200}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\approx \\hl{2}{200} \\text{ units}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q9#(c)",
+    "note": "Now the target is the graph of B rather than a fixed value, so the answer is the point where the two graphs cross. You still read the x-value (h) from that point, as before.",
+    "legend": {
+     "1": "the x-value of the solution (h here)"
+    },
+    "steps": [
+     {
+      "ask": "Where do two graphs have the same height, and what value do you read there?",
+      "title": "Find where the two graphs cross",
+      "lines": [
+       {
+        "text": "The charges are the same where the graph of A meets the graph of B."
+       },
+       {
+        "text": "Read the $\\hl{1}{h}$ value of that crossing point from the graphs: it is just over $\\hl{1}{3}$ hours."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{h} \\approx \\hl{1}{3.2}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "ind-hidden-quadratic",
+  "problems": [
+   {
+    "part": "maths-pp-2022-higher-p1-q4#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the substitute y, which equals e^k",
+     "2": "the quadratic in y",
+     "3": "the unknown exponent k"
+    },
+    "steps": [
+     {
+      "ask": "The equation is a quadratic in y. How could you factorise it, and what must the two brackets multiply to?",
+      "title": "Factorise the quadratic in y",
+      "lines": [
+       {
+        "tex": "\\hl{2}{5y^2 - 26y + 5} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{(y - 5)(5y - 1)} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "For a product to be zero, what must each bracket equal? Set them up.",
+      "title": "Set each factor equal to zero",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y} - 5 &= 0 \\quad \\text{or} \\quad 5\\hl{1}{y} - 1 = 0"
+       },
+       {
+        "tex": "\\hl{1}{y} &= 5 \\quad \\text{or} \\quad \\hl{1}{y} = \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "Which expression in k does y stand for here? Put it back in place of y.",
+      "title": "Replace y with e^k",
+      "lines": [
+       {
+        "tex": "\\hl{1}{e^k} &= 5 \\quad \\text{or} \\quad \\hl{1}{e^k} = \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "To bring k down out of the exponent, what do you take of both sides?",
+      "title": "Take natural logs to solve for k",
+      "lines": [
+       {
+        "tex": "\\hl{3}{k} &= \\ln 5 \\quad \\text{or} \\quad \\hl{3}{k} = \\ln \\frac{1}{5}"
+       },
+       {
+        "text": "Write $\\frac{1}{5} = 5^{-1}$ and use $\\ln(a^b) = b\\ln a$."
+       },
+       {
+        "tex": "\\hl{3}{k} &= \\ln 5 \\quad \\text{or} \\quad \\hl{3}{k} = -\\ln 5"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{k} = \\ln 5 \\ \\text{or} \\ \\hl{3}{k} = -\\ln 5",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+    "note": "The base is 3 instead of e, and the leading coefficient is 3, so you first rewrite $3^{2m+1}$ as $3(3^m)^2$ to get the quadratic. Then one root is rejected and you take logs base 3, but the method is otherwise the same.",
+    "legend": {
+     "1": "the substitute 3^m (x in the question)",
+     "2": "the quadratic in 3^m",
+     "3": "the unknown, m"
+    },
+    "steps": [
+     {
+      "ask": "The base is 3. How can you rewrite $3^{2m+1}$ so that only $3^m$ appears?",
+      "title": "Write the equation in the form of part (i)",
+      "lines": [
+       {
+        "tex": "3^{2m+1} &= 35 - 8(\\hl{1}{3^m})"
+       },
+       {
+        "tex": "3 \\cdot 3^{2m} &= 35 - 8(\\hl{1}{3^m})"
+       },
+       {
+        "tex": "3(\\hl{1}{3^m})^2 &= 35 - 8(\\hl{1}{3^m})"
+       },
+       {
+        "tex": "\\hl{2}{3(3^m)^2 + 8(3^m) - 35} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Part (i) solved a quadratic in x. Which quantity plays the role of x here, and what values does it take?",
+      "title": "Compare with part (i) using x = 3^m",
+      "lines": [
+       {
+        "text": "This is $3x^2 + 8x - 35 = 0$ with $x = 3^m$, so $3^m = \\frac{7}{3}$ or $3^m = -5$."
+       },
+       {
+        "text": "$3^m > 0$ for every real $m$, so $3^m = -5$ is rejected."
+       },
+       {
+        "tex": "\\hl{1}{3^m} &= \\frac{7}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "You now have $3^m$ equal to a number. What do you take log base 3 of both sides to get m?",
+      "title": "Take log base 3 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_3 \\hl{1}{3^m} &= \\log_3\\left(\\frac{7}{3}\\right)"
+       },
+       {
+        "tex": "\\hl{3}{m} &= \\log_3\\left(\\frac{7}{3}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Split the fraction 7/3 into two logs with the quotient rule. What is log base 3 of 3?",
+      "title": "Split the log into the form log_3 p - q",
+      "lines": [
+       {
+        "tex": "\\hl{3}{m} &= \\log_3 7 - \\log_3 3"
+       },
+       {
+        "tex": "&= \\log_3 7 - 1"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{m} = \\log_3 7 - 1",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q3#(b)",
+    "note": "This time the equation has a fraction with $e^x$ on the bottom, so you clear it first to get the quadratic. The substitution, the rejected root and the final log are the same as before.",
+    "legend": {
+     "1": "the substitute e^x (y in the working)",
+     "2": "the quadratic in e^x",
+     "3": "the unknown, x"
+    },
+    "steps": [
+     {
+      "ask": "The equation has a fraction with eˣ on the bottom. What do you multiply both sides by to clear it?",
+      "title": "Set f(x) equal to g(x) and clear the fraction",
+      "lines": [
+       {
+        "tex": "e^x - 1 &= \\frac{2}{e^x}"
+       },
+       {
+        "tex": "\\hl{1}{e^x}(\\hl{1}{e^x} - 1) &= 2"
+       },
+       {
+        "tex": "\\hl{2}{e^{2x} - e^x} &= 2"
+       }
+      ]
+     },
+     {
+      "ask": "If y stands for $e^x$, what is $e^{2x}$ in terms of y?",
+      "title": "Treat it as a quadratic in e^x",
+      "lines": [
+       {
+        "text": "Let $y = e^x$, so $e^{2x} = y^2$."
+       },
+       {
+        "tex": "\\hl{2}{y^2 - y} &= 2"
+       },
+       {
+        "tex": "\\hl{2}{y^2 - y - 2} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{(y - 2)(y + 1)} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{y} = 2 \\quad &\\text{or} \\quad \\hl{1}{y} = -1"
+       }
+      ]
+     },
+     {
+      "ask": "Can $e^x$ ever be negative? Which of the two values of y can it equal?",
+      "title": "Reject the impossible value and solve for x",
+      "lines": [
+       {
+        "text": "$\\hl{1}{e^x}$ is always positive, so $\\hl{1}{e^x} = -1$ has no solution."
+       },
+       {
+        "tex": "\\hl{1}{e^x} &= 2"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\ln 2"
+       },
+       {
+        "tex": "\\hl{3}{x} &\\approx 0.693"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{x} = \\ln 2 \\approx 0.693",
+    "graph": null
+   }
+  ]
+ }
+]

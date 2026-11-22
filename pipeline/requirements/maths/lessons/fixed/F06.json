@@ -748,10 +748,10 @@
       "title": "Compare the two sides of the plot",
       "lines": [
        {
-        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on \\hl{1}{stems 5 and 6}."
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on $\\hl{1}{\\text{stems 5 and 6}}$."
        },
        {
-        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on \\hl{1}{stems 6, 7 and 8}."
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on $\\hl{1}{\\text{stems 6, 7 and 8}}$."
        },
        {
         "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."

@@ -152,6 +152,14 @@ def check_graph(g):
     return errs
 
 
+def prose(s):
+    """A text line may wrap words in $\\hl{n}{\\text{…}}$ to colour them; compare without those wrappers."""
+    return re.sub(r'\\text\{([^{}]*)\}', r'\1', s).replace('$', '')
+
+
+assert prose('A $\\text{quantity}$ of $200$') == prose('A quantity of 200')
+
+
 def bare_tex(s):
     """Prose (ask, note) is shown as text with $…$ rendered: a bare z_2 or \\sqrt prints literally."""
     return bool(re.search(r'[_^\\]', re.sub(r'\$[^$]*\$', '', s)))
@@ -195,7 +203,8 @@ def check_lesson(job, out):
                 continue
             for i, (la, lb) in enumerate(zip(a['lines'], b['lines'])):
                 kind = 'tex' if 'tex' in lb else 'text'
-                if norm(unmark(la.get(kind, ''))) != norm(lb[kind]):
+                same = prose if kind == 'text' else (lambda t: t)
+                if norm(same(unmark(la.get(kind, '')))) != norm(same(lb[kind])):
                     errs.append(f'{tag} step {k + 1} line {i + 1}: changed beyond adding \\hl marks')
                 used |= set(re.findall(r'\\hl\{(\d)\}', la.get(kind, '')))
                 if kind == 'text' and '\\hl' in re.sub(r'\$[^$]*\$', '', la.get('text', '')):
