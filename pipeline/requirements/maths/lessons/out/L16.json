@@ -62,7 +62,7 @@
    "steps": [
     {"ask": "Write the test for independence for O and U in your copy. Which two quantities does it compare?", "title": "State the test for independence",
      "lines": [
-      {"text": "$O$ and $U$ are independent if $\\hl{1}{P(O)}\\times\\hl{1}{P(U)} = \\hl{2}{P(O \\cap U)}$."}
+      {"text": "$O$ and $U$ are independent if $\\hl{1}{P(O)}\\times \\hl{1}{P(U)} = \\hl{2}{P(O \\cap U)}$."}
      ]},
     {"ask": "Each probability is a count divided by the total. What is the total, and which count goes with O and which with U?", "title": "Find P(O) and P(U)",
      "lines": [
@@ -73,7 +73,7 @@
      ]},
     {"ask": "Multiply the two single probabilities. You will compare the result with a joint probability next.", "title": "Multiply P(O) and P(U)",
      "lines": [
-      {"tex": "\\hl{1}{P(O)}\\times\\hl{1}{P(U)} &= \\hl{1}{0.3776} \\times \\hl{1}{0.6915}"},
+      {"tex": "\\hl{1}{P(O)}\\times \\hl{1}{P(U)} &= \\hl{1}{0.3776} \\times \\hl{1}{0.6915}"},
       {"tex": "&= 0.2611\\ldots"}
      ]},
     {"ask": "Which count gives students who are both 24 or older and undergraduates? Divide it by the total.", "title": "Find P(O and U)",
@@ -84,7 +84,7 @@
      ]},
     {"ask": "Is the joint probability equal to the product? What does your answer mean for O and U?", "title": "Compare and conclude",
      "lines": [
-      {"tex": "\\hl{2}{P(O \\cap U)} = \\hl{2}{0.1286} &\\neq 0.2611 = \\hl{1}{P(O)}\\times\\hl{1}{P(U)}"},
+      {"tex": "\\hl{2}{P(O \\cap U)} = \\hl{2}{0.1286} &\\neq 0.2611 = \\hl{1}{P(O)}\\times \\hl{1}{P(U)}"},
       {"text": "Conclusion: the events $O$ and $U$ are not independent."}
      ]}
    ],
