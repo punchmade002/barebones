@@ -1,0 +1,796 @@
+[
+  {
+    "skill": "cx-arithmetic",
+    "problems": [
+      {
+        "part": "maths-pp-2016-ordinary-p1-q2#(a)",
+        "note": null,
+        "legend": {
+          "1": "real parts",
+          "2": "imaginary parts (the i terms)"
+        },
+        "steps": [
+          {
+            "ask": "Put z₁ and z₂ in place of the letters. What does the 2 multiply?",
+            "title": "Substitute z₁ and z₂",
+            "lines": [
+              {
+                "tex": "z_3 &= z_1 + 2z_2"
+              },
+              {
+                "tex": "&= (\\hl{1}{1} + \\hl{2}{3i}) + 2(\\hl{1}{2} \\hl{2}{- i})"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply the 2 by each part inside its bracket. What do you get?",
+            "title": "Multiply out the bracket",
+            "lines": [
+              {
+                "tex": "&= \\hl{1}{1} + \\hl{2}{3i} + \\hl{1}{4} - \\hl{2}{2i}"
+              }
+            ]
+          },
+          {
+            "ask": "Group the real numbers together and the i terms together. What do they add to?",
+            "title": "Collect real and imaginary parts",
+            "lines": [
+              {
+                "tex": "&= \\hl{1}{5} + \\hl{2}{i}"
+              }
+            ]
+          }
+        ],
+        "final": "z_3 = \\hl{1}{5} + \\hl{2}{i}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2018-ordinary-p1-q2#(a)",
+        "note": "This time z₂ is subtracted rather than added, so every sign inside its bracket flips. Reading the parts and combining them work as before.",
+        "legend": {
+          "1": "real parts",
+          "2": "imaginary parts (the i terms)"
+        },
+        "steps": [
+          {
+            "ask": "How do you write z₃ as z₁ minus z₂, and what goes in each bracket?",
+            "title": "Write z₃ as a subtraction",
+            "lines": [
+              {
+                "tex": "z_3 &= z_1 - z_2"
+              },
+              {
+                "tex": "z_3 &= (\\hl{1}{-2} + \\hl{2}{3i}) - (\\hl{1}{-3} - \\hl{2}{2i})"
+              }
+            ]
+          },
+          {
+            "ask": "What happens to each term in the second bracket when you subtract the whole bracket?",
+            "title": "Remove the brackets",
+            "lines": [
+              {
+                "text": "Subtracting $\\hl{1}{-3} - \\hl{2}{2i}$ changes both signs."
+              },
+              {
+                "tex": "&= \\hl{1}{-2} + \\hl{2}{3i} + \\hl{1}{3} + \\hl{2}{2i}"
+              }
+            ]
+          },
+          {
+            "ask": "Group the real numbers and the i terms. What do they add to?",
+            "title": "Collect real and imaginary parts",
+            "lines": [
+              {
+                "tex": "&= \\hl{1}{1} + \\hl{2}{5i}"
+              }
+            ]
+          },
+          {
+            "ask": "Which point in the plane does each number correspond to?",
+            "title": "Plot each point as (real part, imaginary part)",
+            "lines": [
+              {
+                "text": "$z_1 = (-2, 3)$, $z_2 = (-3, -2)$ and $z_3 = (1, 5)$. Label each point."
+              }
+            ]
+          }
+        ],
+        "final": "z_3 = \\hl{1}{1} + \\hl{2}{5i}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2023-ordinary-p1-q2#(a)(iii)",
+        "note": "The numbers are now multiplied by 4 and 5, and both z₂ and z₃ are given, so both brackets must be expanded. The steps are the same as before.",
+        "legend": {
+          "1": "real parts",
+          "2": "imaginary parts (the i terms)"
+        },
+        "steps": [
+          {
+            "ask": "What number multiplies each bracket?",
+            "title": "Substitute z₂ and z₃",
+            "lines": [
+              {
+                "tex": "4z_2 - 5z_3 &= 4(\\hl{1}{5} + \\hl{2}{i}) - 5(\\hl{1}{6} - \\hl{2}{2i})"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply the outside number into each term of its bracket. What do you get?",
+            "title": "Expand the brackets",
+            "lines": [
+              {
+                "tex": "&= \\hl{1}{20} + \\hl{2}{4i} - \\hl{1}{30} + \\hl{2}{10i}"
+              }
+            ]
+          },
+          {
+            "ask": "Group the real numbers and the i terms. What is each group?",
+            "title": "Collect real and imaginary parts",
+            "lines": [
+              {
+                "tex": "&= (\\hl{1}{20} - \\hl{1}{30}) + (\\hl{2}{4i} + \\hl{2}{10i})"
+              },
+              {
+                "tex": "&= \\hl{1}{-10} + \\hl{2}{14i}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{1}{-10} + \\hl{2}{14i}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "cx-modulus",
+    "problems": [
+      {
+        "part": "maths-pp-2020-ordinary-p1-q3#(a)(iii)",
+        "note": null,
+        "legend": {
+          "1": "the sum of squares, a² + b²",
+          "2": "the modulus |z|"
+        },
+        "steps": [
+          {
+            "ask": "The modulus is the distance from the origin. Which formula gives it from a and b?",
+            "title": "Use the modulus formula |a + bi| = √(a² + b²)",
+            "lines": [
+              {
+                "tex": "\\hl{2}{|z_1|} &= \\sqrt{\\hl{1}{3^2 + (-4)^2}}"
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{9 + 16}}"
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{25}}"
+              },
+              {
+                "tex": "&= \\hl{2}{5}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{|z_1|} = \\hl{2}{5}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2022-ordinary-p1-q1#(c)",
+        "note": "Changed from the first: the number is not given directly. Subtract z₃ from z₂ first to get −9 + 5i, then use the same modulus formula.",
+        "legend": {
+          "1": "the sum of squares, a² + b²",
+          "2": "the modulus |z|",
+          "3": "the difference z₂ − z₃, −9 + 5i"
+        },
+        "steps": [
+          {
+            "ask": "What do you get when you subtract z₃ from z₂? Which signs change?",
+            "title": "Subtract z₃ from z₂",
+            "lines": [
+              {
+                "tex": "z_2 - z_3 &= (-5 + 3i) - (4 - 2i)"
+              },
+              {
+                "tex": "&= -5 + 3i - 4 + 2i"
+              },
+              {
+                "tex": "&= \\hl{3}{-9 + 5i}"
+              }
+            ]
+          },
+          {
+            "ask": "Put the real and imaginary parts into the formula. What is under the root?",
+            "title": "Find the modulus",
+            "lines": [
+              {
+                "text": "$|a + bi| = \\sqrt{a^2 + b^2}$."
+              },
+              {
+                "tex": "|z_2 - z_3| &= |\\hl{3}{-9 + 5i}|"
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{(-9)^2 + 5^2}}"
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{81 + 25}}"
+              },
+              {
+                "tex": "&= \\hl{2}{\\sqrt{106}}"
+              }
+            ]
+          }
+        ],
+        "final": "z_2 - z_3 = \\hl{3}{-9 + 5i}, \\quad |z_2 - z_3| = \\hl{2}{\\sqrt{106}}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2023-ordinary-p1-q2#(a)(iv)",
+        "note": "Changed from the second: this time the root does not come out whole, so the last step writes it as a surd: 40 = 4 × 10 and √4 = 2. The modulus formula and the sum of squares stay the same.",
+        "legend": {
+          "1": "the sum of squares, a² + b²",
+          "2": "the modulus |z|"
+        },
+        "steps": [
+          {
+            "ask": "Which numbers are a and b in z₃ = 6 − 2i? Put them into the formula.",
+            "title": "Use the modulus formula",
+            "lines": [
+              {
+                "text": "For $z = a + bi$, $|z| = \\sqrt{a^2 + b^2}$. Here $z_3 = 6 - 2i$, so $a = 6$ and $b = -2$."
+              },
+              {
+                "tex": "\\hl{2}{|z_3|} &= \\sqrt{\\hl{1}{6^2 + (-2)^2}}"
+              }
+            ]
+          },
+          {
+            "ask": "Work out the squares and add them. What is under the root now?",
+            "title": "Evaluate under the root",
+            "lines": [
+              {
+                "tex": "&= \\sqrt{\\hl{1}{36 + 4}}"
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{40}}"
+              }
+            ]
+          },
+          {
+            "ask": "The number under the root is not a perfect square. Can you split it into a perfect square times another number?",
+            "title": "Write in surd form",
+            "lines": [
+              {
+                "text": "$\\hl{1}{40} = 4 \\times 10$ and $\\sqrt{4} = 2$."
+              },
+              {
+                "tex": "&= \\sqrt{\\hl{1}{4 \\times 10}}"
+              },
+              {
+                "tex": "&= \\hl{2}{2\\sqrt{10}}"
+              }
+            ]
+          }
+        ],
+        "final": "\\sqrt{\\hl{1}{40}} = \\hl{2}{2\\sqrt{10}}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "diff-related-rates",
+    "problems": [
+      {
+        "part": "maths-pp-2016-higher-p1-q7#(a)(i)",
+        "note": null,
+        "legend": {
+          "1": "the known rate, dV/dt",
+          "2": "the radius r at that moment",
+          "3": "the rate asked for, dr/dt"
+        },
+        "steps": [
+          {
+            "ask": "How does the volume change as the radius changes? Differentiate V with respect to r.",
+            "title": "Differentiate the volume of a sphere",
+            "lines": [
+              {
+                "tex": "V &= \\frac{4}{3}\\pi \\hl{2}{r}^3"
+              },
+              {
+                "tex": "\\frac{dV}{dr} &= 4\\pi \\hl{2}{r}^2"
+              }
+            ]
+          },
+          {
+            "ask": "Which rate do you have, and which one do you need? Link them with the chain rule.",
+            "title": "Use the chain rule for the rate of change of the radius",
+            "lines": [
+              {
+                "text": "The rate given is $\\hl{1}{\\frac{dV}{dt} = 250}$, so we need $\\hl{3}{\\frac{dr}{dt}} = \\frac{dr}{dV}\\times\\hl{1}{\\frac{dV}{dt}}$."
+              },
+              {
+                "tex": "\\hl{3}{\\frac{dr}{dt}} &= \\frac{1}{4\\pi \\hl{2}{r}^2}\\times \\hl{1}{250}"
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when the radius at this moment goes into your chain-rule expression?",
+            "title": "Substitute r = 20",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\frac{dr}{dt}} &= \\frac{\\hl{1}{250}}{4\\pi (\\hl{2}{20})^2}"
+              },
+              {
+                "tex": "&= \\frac{\\hl{1}{250}}{1600\\pi}"
+              },
+              {
+                "tex": "&= \\hl{3}{\\frac{5}{32\\pi}}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\frac{5}{32\\pi}} \\text{ cm/s}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2016-higher-p1-q7#(a)(ii)",
+        "note": "The question now asks for the rate of the surface area, not the radius, and the known rate is dr/dt from the problem before. What stays the same is the chain rule.",
+        "legend": {
+          "1": "the known rate, dr/dt",
+          "2": "the radius r at that moment",
+          "3": "the rate asked for, dA/dt"
+        },
+        "steps": [
+          {
+            "ask": "How does the surface area change as the radius changes? Differentiate A with respect to r.",
+            "title": "Differentiate the surface area of a sphere",
+            "lines": [
+              {
+                "tex": "A &= 4\\pi \\hl{2}{r}^2"
+              },
+              {
+                "tex": "\\frac{dA}{dr} &= 8\\pi \\hl{2}{r}"
+              }
+            ]
+          },
+          {
+            "ask": "Which rate do you know, and how does it connect to the rate of change of area?",
+            "title": "Use the chain rule with the result from part (i)",
+            "lines": [
+              {
+                "text": "$\\hl{3}{\\frac{dA}{dt}} = \\frac{dA}{dr}\\times\\hl{1}{\\frac{dr}{dt}}$, and $\\hl{1}{\\frac{dr}{dt} = \\frac{5}{32\\pi}}$ when $\\hl{2}{r = 20}$."
+              },
+              {
+                "tex": "\\hl{3}{\\frac{dA}{dt}} &= 8\\pi(\\hl{2}{20})\\times\\hl{1}{\\frac{5}{32\\pi}}"
+              },
+              {
+                "tex": "&= \\frac{800\\pi}{32\\pi}"
+              },
+              {
+                "tex": "&= \\hl{3}{25}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{25} \\text{ cm}^2/\\text{s}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2021-higher-p1-q9#(d)",
+        "note": "The shape is now a cube and the volume is shrinking, so the known rate is negative. The chain rule works the same way, linking the volume rate to the side length.",
+        "legend": {
+          "1": "the known rate, dV/dt",
+          "2": "the side length x at that moment",
+          "3": "the rate asked for, dx/dt"
+        },
+        "steps": [
+          {
+            "ask": "Which way is the volume changing here, and what is V as a function of x?",
+            "title": "Write down the rates",
+            "lines": [
+              {
+                "text": "The volume is decreasing, so the rate is negative."
+              },
+              {
+                "tex": "\\hl{1}{\\frac{dV}{dt}} &= \\hl{1}{-\\frac{1}{20}}"
+              },
+              {
+                "tex": "V &= \\hl{2}{x}^3"
+              },
+              {
+                "tex": "\\frac{dV}{dx} &= 3\\hl{2}{x}^2"
+              }
+            ]
+          },
+          {
+            "ask": "What side length gives a volume of 1/64?",
+            "title": "Find the side length when V = 1/64",
+            "lines": [
+              {
+                "tex": "\\hl{2}{x}^3 &= \\frac{1}{64}"
+              },
+              {
+                "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{1}{4}}"
+              }
+            ]
+          },
+          {
+            "ask": "How do you get dx/dt from dV/dt, using dV/dx? Write it in terms of x.",
+            "title": "Use the chain rule",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\frac{dx}{dt}} &= \\hl{1}{\\frac{dV}{dt}} \\div \\frac{dV}{dx}"
+              },
+              {
+                "tex": "&= \\hl{1}{-\\frac{1}{20}} \\div 3\\hl{2}{x}^2"
+              },
+              {
+                "tex": "&= -\\frac{1}{60\\hl{2}{x}^2}"
+              }
+            ]
+          },
+          {
+            "ask": "Substitute the side length into the expression. What do you get?",
+            "title": "Substitute x = 1/4",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\frac{dx}{dt}} &= -\\frac{1}{60\\left(\\hl{2}{\\frac{1}{4}}\\right)^2}"
+              },
+              {
+                "tex": "&= -\\frac{1}{\\frac{15}{4}}"
+              },
+              {
+                "tex": "&= \\hl{3}{-\\frac{4}{15}}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{-\\frac{4}{15}}\\ \\text{cm/sec}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "diff-slope-tangent",
+    "problems": [
+      {
+        "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+        "note": null,
+        "legend": {
+          "1": "the slope, f′(a)",
+          "2": "x of the point",
+          "3": "y of the point"
+        },
+        "steps": [
+          {
+            "ask": "The slope of the tangent is the derivative at x = 2. Find the derivative, then put x = 2 in. What is the slope?",
+            "title": "Find the slope at x = 2",
+            "lines": [
+              {
+                "text": "The slope of the tangent is $\\hl{1}{h'(2)}$."
+              },
+              {
+                "tex": "\\hl{1}{h'(\\hl{2}{2})} &= 3(\\hl{2}{2})^2 + 4(\\hl{2}{2}) - 1"
+              },
+              {
+                "tex": "&= 12 + 8 - 1"
+              },
+              {
+                "tex": "&= \\hl{1}{19}"
+              }
+            ]
+          },
+          {
+            "ask": "Which formula gives a line from a point and a slope? Put the point and slope in.",
+            "title": "Use the point-slope formula",
+            "lines": [
+              {
+                "text": "With $\\hl{1}{m = 19}$ and point $(\\hl{2}{2}, \\hl{3}{6})$: $y - y_1 = m(x - x_1)$."
+              },
+              {
+                "tex": "y - \\hl{3}{6} &= \\hl{1}{19}(x - \\hl{2}{2})"
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when you expand the bracket and move every term to one side, in the form ax + by + c = 0?",
+            "title": "Rearrange (optional)",
+            "lines": [
+              {
+                "tex": "y - \\hl{3}{6} &= \\hl{1}{19}x - 38"
+              },
+              {
+                "tex": "0 &= \\hl{1}{19}x - y - 32"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{1}{19}x - y - 32 = 0",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2020-ordinary-p1-q6#(a)(iii)",
+        "note": "The slope is given in the question, so there is no derivative step. The point-slope formula and the rearranging stay the same.",
+        "legend": {
+          "1": "the slope, f′(a)",
+          "2": "x of the point",
+          "3": "y of the point"
+        },
+        "steps": [
+          {
+            "ask": "Which values are the slope and the point here? Put them into the point-slope formula.",
+            "title": "Write the line through (1, -5) with slope 7",
+            "lines": [
+              {
+                "text": "Use $y - y_1 = m(x - x_1)$ with $\\hl{1}{m = 7}$ and $(x_1, y_1) = (\\hl{2}{1}, \\hl{3}{-5})$."
+              },
+              {
+                "tex": "y - (\\hl{3}{-5}) &= \\hl{1}{7}(x - \\hl{2}{1})"
+              },
+              {
+                "tex": "y + 5 &= \\hl{1}{7}(x - \\hl{2}{1})"
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when every term is collected on one side, in the form ax + by + c = 0?",
+            "title": "Rearrange into the form ax + by + c = 0",
+            "lines": [
+              {
+                "tex": "y + 5 &= \\hl{1}{7}x - 7"
+              },
+              {
+                "tex": "0 &= \\hl{1}{7}x - 7 - y - 5"
+              },
+              {
+                "tex": "\\hl{1}{7}x - y - 12 &= 0"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{1}{7}x - y - 12 = 0",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2016-ordinary-p1-q4#(c)(ii)",
+        "note": "The answer is now asked in the form y = mx + c, not ax + by + c = 0. The slope and point change, but the steps are otherwise the same.",
+        "legend": {
+          "1": "the slope, f′(a)",
+          "2": "x of the point",
+          "3": "y of the point"
+        },
+        "steps": [
+          {
+            "ask": "What is the point-slope formula, and what are the slope and the point here?",
+            "title": "Use the point and the slope",
+            "lines": [
+              {
+                "text": "The slope is $\\hl{1}{m = 3}$ and the point is $(\\hl{2}{1}, \\hl{3}{7})$."
+              },
+              {
+                "tex": "y - y_1 &= m(x - x_1)"
+              }
+            ]
+          },
+          {
+            "ask": "Put the slope and point into the formula. Which numbers go where?",
+            "title": "Substitute",
+            "lines": [
+              {
+                "tex": "y - \\hl{3}{7} &= \\hl{1}{3}(x - \\hl{2}{1})"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply the bracket out. What is the right-hand side?",
+            "title": "Multiply out the bracket",
+            "lines": [
+              {
+                "tex": "y - \\hl{3}{7} &= \\hl{1}{3}x - 3"
+              }
+            ]
+          },
+          {
+            "ask": "What must you add to both sides to get y by itself?",
+            "title": "Add 7 to both sides",
+            "lines": [
+              {
+                "tex": "y &= \\hl{1}{3}x + 4"
+              }
+            ]
+          }
+        ],
+        "final": "y = \\hl{1}{3}x + 4",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "diff-stationary",
+    "problems": [
+      {
+        "part": "maths-pp-2015-ordinary-p1-q4#(b)",
+        "note": null,
+        "legend": {
+          "1": "the slope, f′(x)",
+          "2": "x at the turning point",
+          "3": "y at the turning point"
+        },
+        "steps": [
+          {
+            "ask": "Turning points happen where the slope is zero. What expression gives the slope of f(x) at any x?",
+            "title": "Differentiate and set the derivative equal to zero",
+            "lines": [
+              {
+                "text": "At a turning point the slope is zero."
+              },
+              {
+                "tex": "f(x) &= -x^2 + 6x - 4"
+              },
+              {
+                "tex": "\\hl{1}{f'(x)} &= \\hl{1}{-2x + 6}"
+              },
+              {
+                "tex": "\\hl{1}{-2x + 6} &= \\hl{1}{0}"
+              }
+            ]
+          },
+          {
+            "ask": "What value of x does that equation give? Which step do you undo first?",
+            "title": "Solve for x",
+            "lines": [
+              {
+                "tex": "-2x &= -6"
+              },
+              {
+                "tex": "\\hl{2}{x} &= \\hl{2}{3}"
+              }
+            ]
+          },
+          {
+            "ask": "The turning point now has an x-value. What do you put into f(x) to get the y-value?",
+            "title": "Find the y-co-ordinate",
+            "lines": [
+              {
+                "tex": "f(\\hl{2}{3}) &= -(\\hl{2}{3})^2 + 6(\\hl{2}{3}) - 4"
+              },
+              {
+                "tex": "&= -9 + 18 - 4"
+              },
+              {
+                "tex": "&= \\hl{3}{5}"
+              }
+            ]
+          }
+        ],
+        "final": "(\\hl{2}{3}, \\hl{3}{5})",
+        "graph": {
+          "f": "-x**2 + 6*x - 4",
+          "box": [
+            0,
+            6,
+            6,
+            -5
+          ],
+          "tangent": true,
+          "points": [
+            {
+              "x": 3,
+              "y": 5,
+              "name": "max (3, 5)"
+            }
+          ],
+          "line": null,
+          "slots": {
+            "x": 2,
+            "y": 3,
+            "line": null
+          }
+        }
+      },
+      {
+        "part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+        "note": "The x² term is now positive, so the curve is U-shaped and the turning point is a minimum, not a maximum. Only x is asked here, so there is no y-value step. The method is the same.",
+        "legend": {
+          "1": "the slope, g′(x)",
+          "2": "x at the turning point"
+        },
+        "steps": [
+          {
+            "ask": "A U-shaped curve turns at its lowest point, where the slope is zero. What is the slope function of g(x)?",
+            "title": "Differentiate g(x)",
+            "lines": [
+              {
+                "text": "The graph of $g$ is a U-shape, so the minimum is where the slope is zero."
+              },
+              {
+                "tex": "g(x) &= x^2 + 8x - 6"
+              },
+              {
+                "tex": "\\hl{1}{g'(x)} &= \\hl{1}{2x + 8}"
+              }
+            ]
+          },
+          {
+            "ask": "What is x when that slope is zero?",
+            "title": "Set the derivative equal to zero",
+            "lines": [
+              {
+                "tex": "\\hl{1}{2x + 8} &= \\hl{1}{0}"
+              },
+              {
+                "tex": "2x &= -8"
+              },
+              {
+                "tex": "\\hl{2}{x} &= \\hl{2}{-4}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{x} = \\hl{2}{-4}",
+        "graph": {
+          "f": "x**2 + 8*x - 6",
+          "box": [
+            -9,
+            4,
+            1,
+            -24
+          ],
+          "tangent": true,
+          "points": [
+            {
+              "x": -4,
+              "y": -22,
+              "name": "min (-4, -22)"
+            }
+          ],
+          "line": null,
+          "slots": {
+            "x": 2,
+            "y": null,
+            "line": null
+          }
+        }
+      },
+      {
+        "part": "maths-pp-2020-ordinary-p1-q8#(c)(ii)",
+        "note": "The function is now a depth in a real context, and its coefficients are fractions. It is still a minimum, the lowest point, and the same steps apply.",
+        "legend": {
+          "1": "the slope, h′(x)",
+          "2": "x at the lowest point"
+        },
+        "steps": [
+          {
+            "ask": "At the deepest point, what is the slope? Set h′(x) equal to it.",
+            "title": "Set h'(x) = 0 at the greatest depth",
+            "lines": [
+              {
+                "text": "At the lowest point of the graph the slope is zero."
+              },
+              {
+                "tex": "\\hl{1}{\\frac{1}{30}x - \\frac{1}{4}} &= \\hl{1}{0}"
+              }
+            ]
+          },
+          {
+            "ask": "To isolate x, undo the multiplication by 1/30. What do you do to both sides?",
+            "title": "Solve for x",
+            "lines": [
+              {
+                "tex": "\\frac{1}{30}x &= \\frac{1}{4}"
+              },
+              {
+                "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{30}{4}}"
+              },
+              {
+                "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{15}{2}}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{x} = \\hl{2}{\\frac{15}{2}}\\text{ m}",
+        "graph": null
+      }
+    ]
+  }
+]

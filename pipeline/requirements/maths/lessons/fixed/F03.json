@@ -1,0 +1,724 @@
+[
+  {
+    "skill": "fin-compound-interest",
+    "problems": [
+      {
+        "part": "maths-pp-2016-ordinary-p1-q7#(b)",
+        "note": null,
+        "legend": {
+          "1": "the principal, €8000",
+          "2": "the growth factor, 1.037",
+          "3": "the final amount, F"
+        },
+        "steps": [
+          {
+            "ask": "The rate of 3.7% adds to the money each year. What single number multiplies the amount each year?",
+            "title": "Write the compound interest formula",
+            "lines": [
+              {
+                "text": "Compound interest at 3.7% for 3 years multiplies by $\\hl{2}{1.037}$ three times."
+              },
+              {
+                "tex": "\\hl{3}{F} &= \\hl{1}{8000}\\hl{2}{(1.037)}^3"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply the €8000 by the growth factor for year 1. What is the amount at the end of year 1?",
+            "title": "Find the value after each year",
+            "lines": [
+              {
+                "tex": "\\hl{1}{8000} \\times \\hl{2}{1.037} &= 8296"
+              },
+              {
+                "tex": "8296 \\times \\hl{2}{1.037} &= 8602.952"
+              },
+              {
+                "tex": "8602.952 \\times \\hl{2}{1.037} &= \\hl{3}{8921.26}"
+              }
+            ]
+          }
+        ],
+        "final": "\\text{€}\\hl{3}{8921.26}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2016-ordinary-p1-q7#(a)",
+        "note": "The principal is the same, but the rate changes each year (2%, then 3%, then 5%), so you use a different growth factor each year instead of one factor repeated.",
+        "legend": {
+          "1": "the principal, €8000",
+          "2": "the growth factor for that year",
+          "3": "the final amount after 3 years"
+        },
+        "steps": [
+          {
+            "ask": "What single number multiplies an amount to increase it by 2%? Use it on the €8000.",
+            "title": "Increase by 2% in Year 1",
+            "lines": [
+              {
+                "text": "Increasing by 2% means multiplying by $\\hl{2}{1.02}$."
+              },
+              {
+                "tex": "\\hl{1}{8000} \\times \\hl{2}{1.02} &= 8160"
+              }
+            ]
+          },
+          {
+            "ask": "Now the rate is 3%. Which growth factor do you use on the Year 1 amount?",
+            "title": "Increase by 3% in Year 2",
+            "lines": [
+              {
+                "tex": "8160 \\times \\hl{2}{1.03} &= 8404.8"
+              }
+            ]
+          },
+          {
+            "ask": "Repeat with the 5% rate on the Year 2 amount. What is the amount at the end of Year 3?",
+            "title": "Increase by 5% in Year 3",
+            "lines": [
+              {
+                "tex": "8404.8 \\times \\hl{2}{1.05} &= \\hl{3}{8825.04}"
+              }
+            ]
+          }
+        ],
+        "final": "\\text{€}\\hl{3}{8825.04}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2017-ordinary-p1-q1#(b)",
+        "note": "The rate is 3% again, but the unknown is now the starting sum P, so the formula is solved backwards by dividing rather than multiplying.",
+        "legend": {
+          "1": "the principal P, the sum invested",
+          "2": "the growth factor, 1 + 0.03 per year",
+          "3": "the amount after 2 years, €30000"
+        },
+        "steps": [
+          {
+            "ask": "The €30000 is the amount after 2 years. How is it built from the unknown P and the growth factor?",
+            "title": "Write the compound interest formula",
+            "lines": [
+              {
+                "text": "Let $\\hl{1}{P}$ be the sum invested. After 2 years at 3% it is worth $\\hl{1}{P}\\hl{2}{(1 + 0.03)}^2$."
+              },
+              {
+                "tex": "\\hl{1}{P}\\hl{2}{(1 + 0.03)}^2 &= \\hl{3}{30000}"
+              },
+              {
+                "tex": "\\hl{1}{P}\\hl{2}{(1.03)}^2 &= \\hl{3}{30000}"
+              }
+            ]
+          },
+          {
+            "ask": "To get P on its own, what do you do to the factor 1.03² on the left?",
+            "title": "Divide both sides by $1.03^2$",
+            "lines": [
+              {
+                "tex": "\\hl{1}{P} &= \\frac{30000}{1.03^2}"
+              }
+            ]
+          },
+          {
+            "ask": "What is 1.03² on your calculator?",
+            "title": "Evaluate",
+            "lines": [
+              {
+                "tex": "1.03^2 &= 1.0609"
+              }
+            ]
+          },
+          {
+            "ask": "What is €30000 divided by 1.0609, to the nearest cent?",
+            "title": "Divide",
+            "lines": [
+              {
+                "tex": "\\hl{1}{P} &= \\frac{30000}{1.0609}"
+              },
+              {
+                "tex": "&\\approx \\text{€}\\hl{1}{28277.88}"
+              }
+            ]
+          }
+        ],
+        "final": "\\text{€}\\hl{1}{28277.88}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "fin-costing",
+    "problems": [
+      {
+        "part": "maths-pp-2015-ordinary-p2-q8#(b)(iii)",
+        "note": null,
+        "legend": {
+          "1": "price per unit (€ per tin or m²)",
+          "2": "number of units to buy or cover",
+          "3": "total cost"
+        },
+        "steps": [
+          {
+            "ask": "Divide the litres needed by the litres in one tin. Can you buy part of a tin?",
+            "title": "Find the number of tins",
+            "lines": [
+              {
+                "tex": "\\frac{129}{25} &= \\hl{2}{5.16}"
+              },
+              {
+                "text": "5 tins hold only 125 litres, which is not enough, so 6 tins are needed."
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when you multiply the whole number of tins by the price of one tin?",
+            "title": "Find the cost",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\text{Cost}} &= \\hl{2}{6} \\times \\hl{1}{\\text{€}180}"
+              },
+              {
+                "tex": "&= \\hl{3}{\\text{€}1080}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\text{€}1080}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2016-ordinary-p2-q7#(d)(iii)",
+        "note": "Same method as the tins problem: find the quantity, then multiply by the price per unit. This time the quantity is three areas added together, and no rounding up is needed.",
+        "legend": {
+          "1": "price per unit (€ per tin or m²)",
+          "2": "number of units to buy or cover",
+          "3": "total cost"
+        },
+        "steps": [
+          {
+            "ask": "The job has three separate areas. What do you do with them before pricing?",
+            "title": "Add the three areas",
+            "lines": [
+              {
+                "tex": "\\hl{2}{\\text{Total area}} &= 1908 + 3170 + 9161"
+              },
+              {
+                "tex": "&= \\hl{2}{14\\,239 \\text{ m}^2}"
+              }
+            ]
+          },
+          {
+            "ask": "Which rate is given per square metre, and what do you multiply the total area by?",
+            "title": "Multiply by the cost per square metre",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\text{Cost}} &= \\hl{2}{14\\,239} \\times \\hl{1}{\\text{€}70}"
+              },
+              {
+                "tex": "&= \\hl{3}{\\text{€}996\\,730}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\text{€}996\\,730}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2023-ordinary-p1-q8#(d)",
+        "note": "The grass area is now found by subtracting the pond rather than adding parts. The answer is also rounded to the nearest ten euro, while the method (area times price per square metre) is the same.",
+        "legend": {
+          "1": "price per unit (€ per tin or m²)",
+          "2": "number of units to buy or cover",
+          "3": "total cost"
+        },
+        "steps": [
+          {
+            "ask": "The pond takes up part of the garden. Should the grass area be bigger or smaller than the whole garden?",
+            "title": "Find the area of grass",
+            "lines": [
+              {
+                "text": "Grass area is the whole garden minus the pond."
+              },
+              {
+                "tex": "\\hl{2}{\\text{Grass}} &= 1500 - 172"
+              },
+              {
+                "tex": "&= \\hl{2}{1328}"
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when you multiply the grass area by the price per square metre?",
+            "title": "Find the cost",
+            "lines": [
+              {
+                "tex": "\\hl{3}{\\text{Cost}} &= \\hl{2}{1328} \\times \\hl{1}{2.55}"
+              },
+              {
+                "tex": "&= \\hl{3}{3386.40}"
+              }
+            ]
+          },
+          {
+            "ask": "The question asks for the nearest ten euro. What do you do with the cost?",
+            "title": "Round to the nearest ten euro",
+            "lines": [
+              {
+                "tex": "&\\approx \\hl{3}{3390}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\text{€}3390}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "fin-depreciation",
+    "problems": [
+      {
+        "part": "maths-pp-2020-ordinary-p1-q7#(c)(i)",
+        "note": null,
+        "legend": {
+          "1": "starting value",
+          "2": "yearly multiplier (1 − rate)",
+          "3": "value after depreciation"
+        },
+        "steps": [
+          {
+            "ask": "A 20% fall leaves what fraction of the value each year? Use that fraction for 3 years on €32000.",
+            "title": "Apply 20% depreciation for 3 years",
+            "lines": [
+              {
+                "text": "Losing $20\\%$ each year leaves $80\\% = \\hl{2}{0.8}$ of the value each year."
+              },
+              {
+                "tex": "\\hl{3}{\\text{value}} &= \\hl{1}{32000}\\hl{2}{(0.8)}^3"
+              },
+              {
+                "tex": "&= \\hl{1}{32000} \\times 0.512"
+              },
+              {
+                "tex": "&= \\hl{3}{16384}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\text{€}16\\,384}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2024-ordinary-p1-q1#(a)(i), (ii)",
+        "note": "Same 20% fall as the first problem, but the value is needed after 1 year and after 2 years, so it is worked out year by year rather than with a power. The starting value and the fraction left each year stay the same.",
+        "legend": {
+          "1": "starting value",
+          "2": "yearly multiplier (1 − rate)",
+          "3": "value after depreciation"
+        },
+        "steps": [
+          {
+            "ask": "What fraction of the value is left after one year? Apply it to €30 000.",
+            "title": "Find the value after 1 year",
+            "lines": [
+              {
+                "text": "A 20% fall leaves 80% of the value, and $80\\% = \\hl{2}{0.8}$."
+              },
+              {
+                "tex": "\\hl{3}{\\text{Value after 1 year}} &= \\hl{1}{30000} \\times \\hl{2}{0.8}"
+              },
+              {
+                "tex": "&= \\hl{3}{24000}"
+              }
+            ]
+          },
+          {
+            "ask": "The second year starts from the value after the first year. What do you get when you apply the same fraction again?",
+            "title": "Find the value after 2 years",
+            "lines": [
+              {
+                "text": "Take 80% of the value after 1 year."
+              },
+              {
+                "tex": "\\hl{3}{\\text{Value after 2 years}} &= \\hl{3}{24000} \\times \\hl{2}{0.8}"
+              },
+              {
+                "tex": "&= \\hl{3}{19200}"
+              }
+            ]
+          }
+        ],
+        "final": "\\text{(i) } \\hl{3}{\\text{€}24\\,000}, \\quad \\text{(ii) } \\hl{3}{\\text{€}19\\,200}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2017-ordinary-p1-q1#(a)",
+        "note": "The rate is now 15%, so each year leaves 0.85 of the value instead of 0.8, and the value is needed after 5 years. The method is the same: find the fraction left each year, take a power of it, then multiply by the starting value.",
+        "legend": {
+          "1": "starting value",
+          "2": "yearly multiplier (1 − rate)",
+          "3": "value after depreciation"
+        },
+        "steps": [
+          {
+            "ask": "If 15% goes each year, what fraction of the value is left? Write the formula for 5 years.",
+            "title": "Write the depreciation formula",
+            "lines": [
+              {
+                "text": "Depreciation of 15% each year multiplies the value by $1 - 0.15 = \\hl{2}{0.85}$ each year, for 5 years."
+              },
+              {
+                "tex": "\\hl{3}{A} &= \\hl{1}{30000}\\hl{2}{(1 - 0.15)}^5"
+              },
+              {
+                "tex": "&= \\hl{1}{30000}\\hl{2}{(0.85)}^5"
+              }
+            ]
+          },
+          {
+            "ask": "What is this fraction raised to the power of 5?",
+            "title": "Work out the power",
+            "lines": [
+              {
+                "tex": "\\hl{2}{(0.85)}^5 &= 0.4437053125"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply the starting value by this decimal. How many decimal places should the euro answer have?",
+            "title": "Multiply by 30 000",
+            "lines": [
+              {
+                "tex": "\\hl{3}{A} &= \\hl{1}{30000} \\times 0.4437053125"
+              },
+              {
+                "tex": "&= \\hl{3}{13311.159375}"
+              },
+              {
+                "tex": "&\\approx \\hl{3}{\\text{€}13311.16}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{\\text{€}13311.16}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "fin-mortgage",
+    "problems": [
+      {
+        "part": "maths-pp-2015-higher-p1-q6#(b)",
+        "note": null,
+        "legend": {
+          "1": "loan amount, P",
+          "2": "rate per payment, i (decimal)",
+          "3": "number of payments (t or n)",
+          "4": "repayment per payment, A"
+        },
+        "steps": [
+          {
+            "ask": "Write down the repayment formula. What is the monthly rate as a decimal, and how many monthly payments are there in 10 years?",
+            "title": "Write the repayment formula and its values",
+            "lines": [
+              {
+                "tex": "\\hl{4}{A} &= \\hl{1}{P}\\left[\\frac{i(1+i)^t}{(1+i)^t - 1}\\right]"
+              },
+              {
+                "text": "$\\hl{1}{P=80\\,000}$, $\\hl{2}{i=0.0035}$, and $\\hl{3}{t=10\\times 12=120}$ months."
+              }
+            ]
+          },
+          {
+            "ask": "Put the loan and the values from the last step into the formula. Which value goes where?",
+            "title": "Substitute the values",
+            "lines": [
+              {
+                "tex": "\\hl{4}{A} &= \\hl{1}{80\\,000}\\left[\\frac{0.0035(1.0035)^{120}}{(1.0035)^{120} - 1}\\right]"
+              }
+            ]
+          },
+          {
+            "ask": "Work out the power of (1 + i) first, then the fraction. What do you get?",
+            "title": "Evaluate the power and then the fraction",
+            "lines": [
+              {
+                "tex": "(1.0035)^{\\hl{3}{120}} &= 1.520846"
+              },
+              {
+                "tex": "\\hl{4}{A} &= \\hl{1}{80\\,000}\\left[\\frac{0.0035 \\times 1.520846}{1.520846 - 1}\\right]"
+              },
+              {
+                "tex": "&= \\hl{1}{80\\,000}\\left[\\frac{0.00532296}{0.520846}\\right]"
+              },
+              {
+                "tex": "&= \\hl{4}{817.59}"
+              },
+              {
+                "tex": "&\\approx \\hl{4}{\\text{€}818}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{4}{\\text{€}818}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2020-higher-p1-q5#(a)",
+        "note": "The rate is given as a percentage, so it must be changed to a decimal (0.00287) first. The term is 25 years, so there are 300 monthly payments; the formula itself is the same as the first problem.",
+        "legend": {
+          "1": "loan amount, P",
+          "2": "rate per payment, i (decimal)",
+          "3": "number of payments (t or n)",
+          "4": "repayment per payment, A"
+        },
+        "steps": [
+          {
+            "ask": "Write down the amortisation formula. Which letter stands for the loan, the monthly rate and the number of months?",
+            "title": "Write down the amortisation formula",
+            "lines": [
+              {
+                "text": "$\\hl{1}{P}$ is the loan, $\\hl{2}{i}$ the monthly rate and $\\hl{3}{n}$ the number of months."
+              },
+              {
+                "tex": "\\hl{4}{A} &= \\frac{P\\,i\\,(1+i)^n}{(1+i)^n - 1}"
+              }
+            ]
+          },
+          {
+            "ask": "Turn the percentage into a decimal. How many months are in 25 years?",
+            "title": "Find i and n",
+            "lines": [
+              {
+                "text": "$i = 0.287\\% = \\hl{2}{0.00287}$."
+              },
+              {
+                "text": "$\\hl{3}{n = 25 \\times 12 = 300}$ months."
+              }
+            ]
+          },
+          {
+            "ask": "What do you get when you put the loan, rate and number of months into the formula? Work out the top and bottom separately before dividing.",
+            "title": "Substitute into the formula",
+            "lines": [
+              {
+                "tex": "\\hl{4}{A} &= \\frac{250000(0.00287)(1.00287)^{300}}{(1.00287)^{300} - 1}"
+              },
+              {
+                "tex": "\\hl{4}{A} &= \\frac{717.5 \\times 2.36261}{1.36261}"
+              },
+              {
+                "tex": "\\hl{4}{A} &= \\frac{1695.17}{1.36261}"
+              }
+            ]
+          },
+          {
+            "ask": "Divide on a calculator. How many decimal places should a euro answer have?",
+            "title": "Evaluate with a calculator",
+            "lines": [
+              {
+                "tex": "\\hl{4}{A} &= \\hl{4}{\\text{€}1244.06}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{4}{\\text{€}1244.06}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2017-higher-p1-q8#(b)(v)",
+        "note": "The yearly rate is spread over 52 weeks, so the weekly rate has to be worked out from (1 + i)⁵² = 1.085 before the formula can be used. The formula and substitution are otherwise the same as the first problem.",
+        "legend": {
+          "2": "rate per payment, i (decimal)",
+          "4": "repayment per payment, A"
+        },
+        "steps": [
+          {
+            "ask": "The 8.5% is a yearly rate spread over 52 weeks. What weekly factor, raised to the power 52, gives 1.085?",
+            "title": "Find the weekly interest rate",
+            "lines": [
+              {
+                "text": "An APR of 8.5% multiplies a balance by $1.085$ over 52 weeks, so $\\hl{2}{(1+i)^{52}} = 1.085$."
+              },
+              {
+                "tex": "\\hl{2}{(1+i)^{52}} &= 1.085"
+              },
+              {
+                "tex": "\\hl{2}{1+i} &= 1.085^{\\frac{1}{52}}"
+              },
+              {
+                "tex": "\\hl{2}{1+i} &\\approx 1.00157"
+              },
+              {
+                "tex": "\\hl{2}{i} &\\approx \\hl{2}{0.00157}"
+              }
+            ]
+          },
+          {
+            "ask": "Substitute the loan, the weekly rate and the number of weeks into the formula. How many weeks are in 3 years?",
+            "title": "Substitute P = 5000, i = 0.00157 and t = 156 into the formula",
+            "lines": [
+              {
+                "tex": "\\hl{4}{A} &= \\frac{P\\, i (1+i)^t}{(1+i)^t - 1}"
+              },
+              {
+                "tex": "&= \\frac{5000(0.00157)(1.00157)^{156}}{(1.00157)^{156} - 1}"
+              },
+              {
+                "tex": "&\\approx \\hl{4}{36.16}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{4}{\\text{€}36.16}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "fn-compare-graphs",
+    "problems": [
+      {
+        "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+        "note": null,
+        "legend": {
+          "1": "x where the two graphs cross",
+          "4": "the comparison k(x) < m(x)"
+        },
+        "steps": [
+          {
+            "ask": "Where does a graph have height 0? Look at the graph of m, not at the words.",
+            "title": "Find where m(x) = 0",
+            "lines": [
+              {
+                "text": "$m(x) = 0$ where the graph of $m$ meets the $x$-axis."
+              },
+              {
+                "tex": "m(x) = 0 \\text{ at } x &= 1"
+              },
+              {
+                "tex": "\\text{and } x &= 4.5"
+              }
+            ]
+          },
+          {
+            "ask": "Where are the two graphs equal? Which x-values do you need to find?",
+            "title": "Find where the two graphs cross",
+            "lines": [
+              {
+                "text": "The graphs of $k$ and $m$ cross at $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$."
+              }
+            ]
+          },
+          {
+            "ask": "Pick an x-value between the two crossings. Which graph is higher there?",
+            "title": "Find where k(x) is less than m(x)",
+            "lines": [
+              {
+                "text": "Between $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$ the graph of $m$ is above the graph of $k$."
+              },
+              {
+                "text": "Outside that range, $m$ is below $k$. Do not include the endpoints, because there $k(x) = m(x)$."
+              },
+              {
+                "tex": "\\hl{4}{k(x) < m(x)} \\text{ for } \\hl{1}{2} &< x < \\hl{1}{3.5}"
+              }
+            ]
+          }
+        ],
+        "final": "x = 1 \\text{ or } x = 4.5; \\quad \\hl{1}{2} < x < \\hl{1}{3.5}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2019-higher-p1-q2#(a)(ii)",
+        "note": "Changed from Problem 1: instead of finding where the graphs cross, this asks you to compare the two values at one x-value. Both functions are still given as bare formulas.",
+        "legend": {
+          "1": "the x-value tested",
+          "2": "f(x), the value of the first function",
+          "3": "g(x), the value of the second function",
+          "4": "the comparison (which is smaller)"
+        },
+        "steps": [
+          {
+            "ask": "Substitute x = 1.9 into g(x). What do you get?",
+            "title": "Substitute x = 1.9 into g(x)",
+            "lines": [
+              {
+                "tex": "\\hl{3}{g(1.9)} &= 4(\\hl{1}{1.9}) + 1"
+              },
+              {
+                "tex": "&= 7.6 + 1"
+              },
+              {
+                "tex": "&= \\hl{3}{8.6}"
+              }
+            ]
+          },
+          {
+            "ask": "Now do the same for f(x). Which part of the expression is the power?",
+            "title": "Substitute x = 1.9 into f(x)",
+            "lines": [
+              {
+                "tex": "\\hl{2}{f(1.9)} &= 3^{\\hl{1}{1.9}}"
+              },
+              {
+                "tex": "&= \\hl{2}{8.06}"
+              }
+            ]
+          },
+          {
+            "ask": "Which of the two values is smaller? Compare f(1.9) with g(1.9).",
+            "title": "Compare the two values",
+            "lines": [
+              {
+                "tex": "\\hl{2}{8.06} &\\hl{4}{<} \\hl{3}{8.6}"
+              },
+              {
+                "text": "So $\\hl{2}{f(1.9)} \\hl{4}{<} \\hl{3}{g(1.9)}$."
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{f(1.9)} = \\hl{2}{8.06} \\hl{4}{<} \\hl{3}{8.6} = \\hl{3}{g(1.9)}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+        "note": "Changed from Problem 2: the same one-value comparison, but now in context. The two rules are charges for hours, so you read or calculate both charges and compare them.",
+        "legend": {
+          "1": "the x-value tested (2.5 hours)",
+          "2": "f(x), Company A's charge",
+          "3": "g(x), Company B's charge"
+        },
+        "steps": [
+          {
+            "ask": "What is each company's charge at 2.5 hours? Read the graphs or substitute into the rules.",
+            "title": "Find each charge for 2.5 hours",
+            "lines": [
+              {
+                "text": "Read both graphs at $h = \\hl{1}{2.5}$, or calculate."
+              },
+              {
+                "tex": "\\hl{2}{A(2.5)} &= 30 + 9.5(\\hl{1}{2.5}) = \\hl{2}{53.75}"
+              },
+              {
+                "tex": "\\hl{3}{B(2.5)} &= 10(1.74)^{\\hl{1}{2.5}} \\approx \\hl{3}{39.94}"
+              }
+            ]
+          },
+          {
+            "ask": "Which company charges less at 2.5 hours? Compare the two charges you found.",
+            "title": "Compare",
+            "lines": [
+              {
+                "text": "Company B charges less, because its charge is lower than Company A's at $\\hl{1}{2.5}$ hours."
+              }
+            ]
+          }
+        ],
+        "final": "\\text{Company B, as its charge is less at } \\hl{1}{2\\tfrac{1}{2}} \\text{ hours}",
+        "graph": null
+      }
+    ]
+  }
+]
