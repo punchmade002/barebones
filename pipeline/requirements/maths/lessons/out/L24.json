@@ -1,361 +1,1036 @@
 [
- {"skill": "trig-graph", "problems": [
-  {"part": "maths-pp-2022-higher-p1-q8#(a), (b)", "note": null,
-   "legend": {"1": "the height h(t)", "3": "the cosine term"},
-   "steps": [
-    {"ask": "The question gives one value of h. What must you do for each other value of t?",
-     "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
-     "lines": [{"text": "Work in radians. $\\hl{1}{h(1)} = \\hl{1}{42}$ is given, so we find the other eight values."}]},
-    {"ask": "Put t = 0 into the formula. What is the cosine of that angle?",
-     "title": "Substitute t = 0",
-     "lines": [{"tex": "\\hl{1}{h(0)} &= 72 - 60\\hl{3}{\\cos\\left(0\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(1\\right)}"}, {"tex": "&= 72 - 60"}, {"tex": "&= \\hl{1}{12}"}]},
-    {"ask": "Put t = 2 in. What angle is πt/3 now, and what is its cosine?",
-     "title": "Substitute t = 2",
-     "lines": [{"tex": "\\hl{1}{h(2)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{2\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
-    {"ask": "Put t = 3 in. What is the cosine of π?",
-     "title": "Substitute t = 3",
-     "lines": [{"tex": "\\hl{1}{h(3)} &= 72 - 60\\hl{3}{\\cos\\left(\\pi\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(-1\\right)}"}, {"tex": "&= 72 + 60"}, {"tex": "&= \\hl{1}{132}"}]},
-    {"ask": "Put t = 4 in. What is the cosine of 4π/3?",
-     "title": "Substitute t = 4",
-     "lines": [{"tex": "\\hl{1}{h(4)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{4\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
-    {"ask": "Put t = 5 in. What is the cosine of 5π/3?",
-     "title": "Substitute t = 5",
-     "lines": [{"tex": "\\hl{1}{h(5)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{5\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(\\frac{1}{2}\\right)}"}, {"tex": "&= 72 - 30"}, {"tex": "&= \\hl{1}{42}"}]},
-    {"ask": "Put t = 6 in. What is the cosine of 2π?",
-     "title": "Substitute t = 6",
-     "lines": [{"tex": "\\hl{1}{h(6)} &= 72 - 60\\hl{3}{\\cos\\left(2\\pi\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(1\\right)}"}, {"tex": "&= 72 - 60"}, {"tex": "&= \\hl{1}{12}"}]},
-    {"ask": "Put t = 7 in. What is the cosine of 7π/3?",
-     "title": "Substitute t = 7",
-     "lines": [{"tex": "\\hl{1}{h(7)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{7\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(\\frac{1}{2}\\right)}"}, {"tex": "&= 72 - 30"}, {"tex": "&= \\hl{1}{42}"}]},
-    {"ask": "Put t = 8 in. What is the cosine of 8π/3?",
-     "title": "Substitute t = 8",
-     "lines": [{"tex": "\\hl{1}{h(8)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{8\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
-    {"ask": "Once you have the nine heights, what smooth shape joins the lowest and highest points in order?",
-     "title": "Plot the nine points and join them",
-     "lines": [
-      {"text": "Plot $(0,\\hl{1}{12}), (1,\\hl{1}{42}), (2,\\hl{1}{102}), (3,\\hl{1}{132}), (4,\\hl{1}{102}), (5,\\hl{1}{42}), (6,\\hl{1}{12}), (7,\\hl{1}{42}), (8,\\hl{1}{102})$."},
-      {"text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."}]}
-   ],
-   "final": "\\text{Table: } \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102},\\ \\hl{1}{132},\\ \\hl{1}{102},\\ \\hl{1}{42},\\ \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102}",
-   "graph": {"f": "72 - 60*cos(pi*x/3)", "box": [-0.5, 150, 8.5, 0], "tangent": false,
-             "points": [{"x": 0, "y": 12, "name": "min (0, 12)"}, {"x": 3, "y": 132, "name": "max (3, 132)"}, {"x": 6, "y": 12, "name": "min (6, 12)"}],
-             "line": null, "slots": {"x": null, "y": 1, "line": null}}},
-  {"part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
-   "note": "What changed: the same cosine curve now comes from a tide table, so you plot nine given heights against time instead of working them out from a formula. Joining the points into a smooth wave stays the same.",
-   "legend": {"1": "the height h", "2": "the time t"},
-   "steps": [
-    {"ask": "Which quantity goes on the horizontal axis, and which goes on the vertical axis?",
-     "title": "Plot the nine points from the table",
-     "lines": [
-      {"text": "Plot $(\\hl{2}{t}, \\hl{1}{h})$ using time on the horizontal axis and height on the vertical axis."},
-      {"text": "The points are $(\\hl{2}{0}, \\hl{1}{3.1})$, $(\\hl{2}{3}, \\hl{1}{1.6})$, $(\\hl{2}{6}, \\hl{1}{0.1})$, $(\\hl{2}{9}, \\hl{1}{1.6})$, $(\\hl{2}{12}, \\hl{1}{3.1})$, $(\\hl{2}{15}, \\hl{1}{1.6})$, $(\\hl{2}{18}, \\hl{1}{0.1})$, $(\\hl{2}{21}, \\hl{1}{1.6})$, $(\\hl{2}{24}, \\hl{1}{3.1})$."}]},
-    {"ask": "The heights rise to a top and fall to a bottom in turns. What shape repeats in this way?",
-     "title": "Join the points with a smooth curve",
-     "lines": [
-      {"text": "It is a cosine wave: maximum $\\hl{1}{3.1}$ at midnight, midday and the next midnight, minimum $\\hl{1}{0.1}$ at 6 a.m. and 6 p.m. It crosses $\\hl{1}{1.6}$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."}]}
-   ],
-   "final": "\\text{Cosine curve through the nine points}",
-   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1.5, 3.6, 25.5, -0.2], "tangent": false,
-             "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}, {"x": 12, "y": 3.1, "name": "max (12, 3.1)"}],
-             "line": null, "slots": {"x": 2, "y": 1, "line": null}}},
-  {"part": "maths-pp-2016-higher-p2-q8#(a)",
-   "note": "What changed: the same tide curve is now used to find its period and range from the formula, rather than being plotted from a table. The cosine term and the highest and lowest heights are found the same way.",
-   "legend": {"1": "the height h", "3": "the cosine term", "4": "the period"},
-   "steps": [
-    {"ask": "The period of cos(bt) depends on b. What is that period in terms of b, and what is b for this curve?",
-     "title": "Find the period",
-     "lines": [
-      {"text": "For $\\hl{3}{\\cos(bt)}$ the period is $\\hl{4}{\\dfrac{2\\pi}{b}}$. Here $b = \\dfrac{\\pi}{6}$."},
-      {"tex": "\\hl{4}{\\text{Period}} &= \\frac{2\\pi}{\\pi/6}"},
-      {"tex": "&= 2\\pi \\times \\frac{6}{\\pi}"},
-      {"tex": "&= \\hl{4}{12\\text{ hours}}"}]},
-    {"ask": "How far can the cosine term move above and below zero?",
-     "title": "Find the range",
-     "lines": [
-      {"text": "$\\cos$ always lies between $-1$ and $1$, so the $\\hl{3}{1.5\\cos(\\cdot)}$ term lies between $-1.5$ and $1.5$."},
-      {"tex": "\\hl{1}{\\text{Minimum}} &= 1.6 - 1.5"},
-      {"tex": "&= \\hl{1}{0.1}"},
-      {"tex": "\\hl{1}{\\text{Maximum}} &= 1.6 + 1.5"},
-      {"tex": "&= \\hl{1}{3.1}"}]}
-   ],
-   "final": "\\hl{4}{\\text{Period}} = \\hl{4}{12\\text{ hours}},\\quad \\text{Range} = [\\hl{1}{0.1},\\,\\hl{1}{3.1}]\\text{ m}",
-   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1.5, 3.6, 25.5, -0.2], "tangent": false,
-             "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}],
-             "line": null, "slots": {"x": null, "y": 1, "line": null}}}
- ]},
- {"skill": "trig-graph-abc", "problems": [
-  {"part": "maths-pp-2016-higher-p2-q8#(a)", "note": null,
-   "legend": {"1": "the height, min or max", "2": "the period", "3": "the midline, 1.6", "4": "the frequency constant b"},
-   "steps": [
-    {"ask": "What is the period of cos(bt) in terms of b, and what is b for this curve?",
-     "title": "Find the period",
-     "lines": [
-      {"text": "For $\\cos(\\hl{4}{b}t)$ the period is $\\hl{2}{\\dfrac{2\\pi}{b}}$. Here $\\hl{4}{b} = \\dfrac{\\pi}{6}$."},
-      {"tex": "\\hl{2}{\\text{Period}} &= \\frac{2\\pi}{\\pi/6}"},
-      {"tex": "&= 2\\pi \\times \\frac{6}{\\pi}"},
-      {"tex": "&= \\hl{2}{12\\text{ hours}}"}]},
-    {"ask": "How far can the 1.5 cos term move above and below zero?",
-     "title": "Find the range",
-     "lines": [
-      {"text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."},
-      {"tex": "\\hl{1}{\\text{Minimum}} &= \\hl{3}{1.6} - 1.5"},
-      {"tex": "&= \\hl{1}{0.1}"},
-      {"tex": "\\hl{1}{\\text{Maximum}} &= \\hl{3}{1.6} + 1.5"},
-      {"tex": "&= \\hl{1}{3.1}"}]}
-   ],
-   "final": "\\hl{2}{\\text{Period}} = \\hl{2}{12\\text{ hours}},\\quad \\text{Range} = [\\hl{1}{0.1},\\,\\hl{1}{3.1}]\\text{ m}",
-   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1.5, 3.6, 13.5, -0.2], "tangent": false,
-             "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}],
-             "line": null, "slots": {"x": null, "y": 1, "line": null}}},
-  {"part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
-   "note": "What changed: the task is now to plot the same cosine wave from a table of nine heights, not to find its period and range from the formula. The midline 1.6 and amplitude 1.5 are the same, so the heights match the earlier problem.",
-   "legend": {"1": "the height h"},
-   "steps": [
-    {"ask": "Which quantity goes on the horizontal axis, and what does each height pair with?",
-     "title": "Plot the nine points from the table",
-     "lines": [
-      {"text": "Plot $(t, \\hl{1}{h})$ using time on the horizontal axis and height on the vertical axis."},
-      {"text": "The points are $(0, \\hl{1}{3.1})$, $(3, \\hl{1}{1.6})$, $(6, \\hl{1}{0.1})$, $(9, \\hl{1}{1.6})$, $(12, \\hl{1}{3.1})$, $(15, \\hl{1}{1.6})$, $(18, \\hl{1}{0.1})$, $(21, \\hl{1}{1.6})$, $(24, \\hl{1}{3.1})$."}]},
-    {"ask": "The heights rise and fall between a top and a bottom value. What smooth shape repeats like this?",
-     "title": "Join the points with a smooth curve",
-     "lines": [
-      {"text": "It is a cosine wave: maximum $\\hl{1}{3.1}$ at midnight, midday and the next midnight, minimum $\\hl{1}{0.1}$ at 6 a.m. and 6 p.m. It crosses $\\hl{1}{1.6}$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."}]}
-   ],
-   "final": "\\text{Cosine curve through the nine points}",
-   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1.5, 3.6, 25.5, -0.2], "tangent": false,
-             "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}, {"x": 12, "y": 3.1, "name": "max (12, 3.1)"}],
-             "line": null, "slots": {"x": null, "y": 1, "line": null}}},
-  {"part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
-   "note": "What changed: c is now the unknown, and the period comes from the high-tide times. You use period = 2π/c, the same formula as before, but solve it for c.",
-   "legend": {"2": "the period, 12 h 34 min", "4": "the frequency constant c"},
-   "steps": [
-    {"ask": "How long is it between two successive high tides? That time is one period.",
-     "title": "Find the period",
-     "lines": [
-      {"text": "The period of $\\cos \\hl{4}{c}t$ is $\\frac{2\\pi}{\\hl{4}{c}}$. It is the time between two successive high tides: 02:00 to 14:34."},
-      {"tex": "\\hl{2}{\\text{period}} &= \\hl{2}{12\\frac{34}{60} \\text{ hours}}"}]},
-    {"ask": "Which formula links the period to c, and how do you rearrange it to make c the subject?",
-     "title": "Solve for c",
-     "lines": [
-      {"tex": "\\frac{2\\pi}{\\hl{4}{c}} &= \\hl{2}{12\\frac{34}{60}}"},
-      {"tex": "\\hl{4}{c} &= \\frac{2\\pi}{\\hl{2}{12\\frac{34}{60}}}"},
-      {"tex": "\\hl{4}{c} &\\approx 0.49999"},
-      {"tex": "\\hl{4}{c} &\\approx \\hl{4}{0.5} \\text{ (1 decimal place)}"}]}
-   ],
-   "final": "\\hl{4}{c} = \\hl{4}{0.5}",
-   "graph": null}
- ]},
- {"skill": "trig-solve-basic", "problems": [
-  {"part": "maths-pp-2015-higher-p1-q7#(b)(ii)", "note": null,
-   "legend": {"1": "the value k, 0.0288", "2": "the angle θ", "3": "the rounded answer"},
-   "steps": [
-    {"ask": "Which trig ratio gives the slope of the path, and what is its value at x = -4?",
-     "title": "Relate the slope to the angle",
-     "lines": [
-      {"text": "The slope of the path at $x = -4$ is $\\tan\\hl{2}{\\theta}$, where $\\hl{2}{\\theta}$ is the angle to the horizontal."},
-      {"text": "The slope is negative because the plane is going down. Its size gives the angle of descent."},
-      {"tex": "\\tan\\hl{2}{\\theta} &= \\hl{1}{0.0288}"}]},
-    {"ask": "Which inverse function on your calculator turns a tan value back into an angle?",
-     "title": "Find the angle",
-     "lines": [
-      {"tex": "\\hl{2}{\\theta} &= \\tan^{-1}(\\hl{1}{0.0288})"},
-      {"tex": "&\\approx \\hl{2}{1.6497^{\\circ}}"},
-      {"tex": "&\\approx \\hl{3}{2^{\\circ}}"}]}
-   ],
-   "final": "\\hl{3}{2^{\\circ}}",
-   "graph": null},
-  {"part": "maths-pp-2021-higher-p2-q9#(b)(iv)",
-   "note": "What changed: the equation is now a sine with the angle 120πt and a voltage, instead of the tan from the last problem. The steps are the same: isolate the trig term, take the inverse, then divide.",
-   "legend": {"1": "the value k, 1/√2", "2": "the angle 120πt", "3": "the answer t"},
-   "steps": [
-    {"ask": "Divide by the number in front of the sine. What value must the sine take?",
-     "title": "Set the voltage equal to 110",
-     "lines": [
-      {"tex": "110\\sqrt{2}\\,\\sin(\\hl{2}{120\\pi t}) &= 110"},
-      {"tex": "\\sin(\\hl{2}{120\\pi t}) &= \\hl{1}{\\frac{1}{\\sqrt{2}}}"}]},
-    {"ask": "Which angle has a sine of 1/√2? Set the angle 120πt equal to it.",
-     "title": "Solve for the angle",
-     "lines": [
-      {"text": "$\\sin\\theta = \\hl{1}{\\frac{1}{\\sqrt{2}}}$ when $\\hl{2}{\\theta} = \\frac{\\pi}{4}$ (one solution)."},
-      {"tex": "\\hl{2}{120\\pi t} &= \\frac{\\pi}{4}"}]},
-    {"ask": "What do you divide both sides by to leave t on its own?",
-     "title": "Divide both sides by 120π",
-     "lines": [
-      {"tex": "\\hl{3}{t} &= \\frac{\\pi}{4 \\times 120\\pi}"},
-      {"tex": "\\hl{3}{t} &= \\hl{3}{\\frac{1}{480}}"}]}
-   ],
-   "final": "\\hl{3}{t} = \\hl{3}{\\frac{1}{480}} \\text{ seconds}",
-   "graph": null},
-  {"part": "maths-pp-2019-higher-p1-q8#(b)",
-   "note": "What changed: it is cosine instead of sine, and the range now gives two angles, so you must find and solve for both. The steps are otherwise the same.",
-   "legend": {"1": "the value k, -1/2", "2": "the angle πt/26", "3": "the answer t"},
-   "steps": [
-    {"ask": "Move the constant term across, then divide by 22500. What value must the cosine take?",
-     "title": "Set r(t) = 26250 and isolate the cosine",
-     "lines": [
-      {"tex": "22500\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right)+37500 &= 26250"},
-      {"tex": "22500\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right) &= -11250"},
-      {"tex": "\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right) &= \\hl{1}{-\\frac{1}{2}}"}]},
-    {"ask": "Cosine is negative in two quadrants. Which two angles between 0 and 2π have this value?",
-     "title": "Find the angles in the first 52 weeks",
-     "lines": [
-      {"text": "For $0 \\le t \\le 52$, the angle $\\hl{2}{\\frac{\\pi}{26}t}$ runs from $0$ to $2\\pi$. Cosine is $\\hl{1}{-\\frac12}$ in the second and third quadrants."},
-      {"tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{2\\pi}{3} \\text{ or } \\frac{4\\pi}{3}"}]},
-    {"ask": "Use the first angle: what do you multiply both sides by to get t on its own?",
-     "title": "Solve for the first value of t",
-     "lines": [
-      {"tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{2\\pi}{3}"},
-      {"tex": "t &= \\frac{2\\pi}{3}\\times\\frac{26}{\\pi}"},
-      {"tex": "\\hl{3}{t} &= \\hl{3}{\\frac{52}{3}}"}]},
-    {"ask": "Repeat with the second angle. What is t for this angle?",
-     "title": "Solve for the second value of t",
-     "lines": [
-      {"tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{4\\pi}{3}"},
-      {"tex": "t &= \\frac{4\\pi}{3}\\times\\frac{26}{\\pi}"},
-      {"tex": "\\hl{3}{t} &= \\hl{3}{\\frac{104}{3}}"}]}
-   ],
-   "final": "\\hl{3}{t} = \\hl{3}{\\frac{52}{3}} \\text{ and } \\hl{3}{t} = \\hl{3}{\\frac{104}{3}}",
-   "graph": null}
- ]},
- {"skill": "trig-solve-general", "problems": [
-  {"part": "maths-pp-2024-higher-p2-q3#(b)", "note": null,
-   "legend": {"1": "the ratio, √3/2", "2": "the multiple angle 2X", "3": "the answer X", "4": "the reference angle, 30°"},
-   "steps": [
-    {"ask": "Which acute angle has a cosine of √3/2?",
-     "title": "Find the reference angle",
-     "lines": [
-      {"tex": "\\cos(\\hl{2}{2X}) &= \\hl{1}{\\frac{\\sqrt{3}}{2}}"},
-      {"tex": "\\hl{2}{2X} &= \\cos^{-1}\\hl{1}{\\frac{\\sqrt{3}}{2}} = \\hl{4}{30^\\circ}"}]},
-    {"ask": "Which quadrants make cosine positive, and how many full turns does 2X cover?",
-     "title": "Find all values of 2X between 0° and 720°",
-     "lines": [
-      {"text": "$\\cos$ is positive in the 1st and 4th quadrants. Since $0^\\circ \\le X \\le 360^\\circ$, we need $0^\\circ \\le \\hl{2}{2X} \\le 720^\\circ$, which is two full turns."},
-      {"text": "First turn: $\\hl{2}{2X} = \\hl{2}{30^\\circ}$ or $360^\\circ - 30^\\circ = \\hl{2}{330^\\circ}$."},
-      {"text": "Second turn: add $360^\\circ$ to each, giving $\\hl{2}{390^\\circ}$ and $\\hl{2}{690^\\circ}$."},
-      {"tex": "\\hl{2}{2X} &= \\hl{2}{30^\\circ},\\ \\hl{2}{330^\\circ},\\ \\hl{2}{390^\\circ},\\ \\hl{2}{690^\\circ}"}]},
-    {"ask": "To get X from 2X, what do you do to each value?",
-     "title": "Divide each value by 2",
-     "lines": [
-      {"tex": "\\hl{3}{X} &= \\hl{3}{15^\\circ},\\ \\hl{3}{165^\\circ},\\ \\hl{3}{195^\\circ},\\ \\hl{3}{345^\\circ}"}]}
-   ],
-   "final": "X = \\hl{3}{15^\\circ},\\ \\hl{3}{165^\\circ},\\ \\hl{3}{195^\\circ},\\ \\hl{3}{345^\\circ}",
-   "graph": null},
-  {"part": "maths-pp-2018-higher-p2-q4#(a)",
-   "note": "What changed: the cosine is now negative, so the solutions for 2x are in the 2nd and 3rd quadrants (150° and 210°) instead of the 1st and 4th. The same two-turn check and divide-by-2 steps apply.",
-   "legend": {"1": "the ratio, √3/2", "2": "the multiple angle 2x", "3": "the answer x", "4": "the reference angle, 30°"},
-   "steps": [
-    {"ask": "In which quadrants is cosine negative, and what is the reference angle?",
-     "title": "Find the angles whose cosine is $-\\frac{\\sqrt{3}}{2}$",
-     "lines": [
-      {"text": "$\\cos 30^\\circ = \\hl{1}{\\frac{\\sqrt{3}}{2}}$, so the reference angle is $\\hl{4}{30^\\circ}$."},
-      {"text": "Cosine is negative in the 2nd and 3rd quadrants."},
-      {"tex": "\\hl{2}{2x} &= 180 - \\hl{4}{30}"},
-      {"tex": "&= \\hl{2}{150}"},
-      {"tex": "\\hl{2}{2x} &= 180 + \\hl{4}{30}"},
-      {"tex": "&= \\hl{2}{210}"}]},
-    {"ask": "Since 2x covers two full turns, what must you add to get the next set of answers?",
-     "title": "Allow for $0^\\circ \\le x \\le 360^\\circ$",
-     "lines": [
-      {"text": "If $0 \\le x \\le 360$ then $0 \\le \\hl{2}{2x} \\le 720$, so add $360^\\circ$ to get the next turn."},
-      {"tex": "\\hl{2}{2x} &= \\hl{2}{150} + 360"},
-      {"tex": "&= \\hl{2}{510}"},
-      {"tex": "\\hl{2}{2x} &= \\hl{2}{210} + 360"},
-      {"tex": "&= \\hl{2}{570}"}]},
-    {"ask": "What do you divide each value of 2x by to get x?",
-     "title": "Divide each value of $2x$ by 2",
-     "lines": [
-      {"tex": "\\hl{3}{x} &= \\frac{\\hl{2}{150}}{2}"},
-      {"tex": "&= \\hl{3}{75}"},
-      {"tex": "\\hl{3}{x} &= \\frac{\\hl{2}{210}}{2}"},
-      {"tex": "&= \\hl{3}{105}"},
-      {"tex": "\\hl{3}{x} &= \\frac{\\hl{2}{510}}{2}"},
-      {"tex": "&= \\hl{3}{255}"},
-      {"tex": "\\hl{3}{x} &= \\frac{\\hl{2}{570}}{2}"},
-      {"tex": "&= \\hl{3}{285}"}]}
-   ],
-   "final": "x = \\hl{3}{75^\\circ},\\ \\hl{3}{105^\\circ},\\ \\hl{3}{255^\\circ},\\ \\hl{3}{285^\\circ}",
-   "graph": null},
-  {"part": "maths-pp-2015-higher-p2-q5#(b)",
-   "note": "What changed: it is sine instead of cosine, and the multiple angle is 3x, so θ runs up to 1080° and gives six answers. The method is the same: find the angles in one turn, then add 360° until the range is used up.",
-   "legend": {"1": "the ratio, √3/2", "2": "the multiple angle θ = 3x", "3": "the answer x", "4": "the reference angle, 60°"},
-   "steps": [
-    {"ask": "If θ = 3x, over what range does θ run, and in which quadrants is sine positive?",
-     "title": "Find the angles whose sine is $\\frac{\\sqrt{3}}{2}$",
-     "lines": [
-      {"text": "Let $\\hl{2}{\\theta}=\\hl{2}{3x}$. Since $0\\le x\\le 360$, we need $0\\le \\hl{2}{\\theta}\\le 1080$."},
-      {"text": "$\\sin\\hl{2}{\\theta}=\\hl{1}{\\frac{\\sqrt{3}}{2}}$ has reference angle $\\hl{4}{60^\\circ}$. Sine is positive in the first and second quadrants, so $\\hl{2}{\\theta}=\\hl{2}{60^\\circ}$ or $\\hl{2}{\\theta}=180^\\circ-60^\\circ=\\hl{2}{120^\\circ}$."},
-      {"text": "Add $360^\\circ$ repeatedly to stay inside the range."},
-      {"tex": "\\hl{2}{3x} &= \\hl{2}{60^\\circ},\\ \\hl{2}{120^\\circ},\\ \\hl{2}{420^\\circ},\\ \\hl{2}{480^\\circ},\\ \\hl{2}{780^\\circ},\\ \\hl{2}{840^\\circ}"}]},
-    {"ask": "What do you divide each value of 3x by to get x?",
-     "title": "Divide each value by 3",
-     "lines": [
-      {"tex": "\\hl{3}{x} &= \\hl{3}{20^\\circ},\\ \\hl{3}{40^\\circ},\\ \\hl{3}{140^\\circ},\\ \\hl{3}{160^\\circ},\\ \\hl{3}{260^\\circ},\\ \\hl{3}{280^\\circ}"}]}
-   ],
-   "final": "x = \\hl{3}{20^\\circ},\\ \\hl{3}{40^\\circ},\\ \\hl{3}{140^\\circ},\\ \\hl{3}{160^\\circ},\\ \\hl{3}{260^\\circ},\\ \\hl{3}{280^\\circ}",
-   "graph": null}
- ]},
- {"skill": "trig-unit-circle", "problems": [
-  {"part": "maths-pp-2023-higher-p2-q9#(c)(i)", "note": null,
-   "legend": {"1": "x, the cosine co-ordinate", "2": "y, the sine co-ordinate", "3": "the angle, 135°"},
-   "steps": [
-    {"ask": "Measured from the positive x-axis, what angle does OQ make?",
-     "title": "Place Q on the unit circle using the angle",
-     "lines": [
-      {"text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $\\hl{3}{135^\\circ}$ with the positive $x$-axis."},
-      {"text": "On the unit circle, a point at angle $\\hl{3}{\\theta}$ is $(\\hl{1}{\\cos\\theta}, \\hl{2}{\\sin\\theta})$."},
-      {"tex": "Q &= (\\hl{1}{\\cos 135^\\circ}, \\hl{2}{\\sin 135^\\circ})"}]},
-    {"ask": "Which acute angle has the same size, and is cosine positive or negative in this quadrant?",
-     "title": "Find the x co-ordinate",
-     "lines": [
-      {"tex": "\\hl{1}{\\cos 135^\\circ} &= -\\cos 45^\\circ"},
-      {"tex": "&= \\hl{1}{-\\frac{1}{\\sqrt{2}}}"}]},
-    {"ask": "Is sine positive or negative in this quadrant, and what is its size?",
-     "title": "Find the y co-ordinate",
-     "lines": [
-      {"tex": "\\hl{2}{\\sin 135^\\circ} &= \\sin 45^\\circ"},
-      {"tex": "&= \\hl{2}{\\frac{1}{\\sqrt{2}}}"}]}
-   ],
-   "final": "Q = \\left(\\hl{1}{-\\frac{1}{\\sqrt{2}}}, \\hl{2}{\\frac{1}{\\sqrt{2}}}\\right)",
-   "graph": null},
-  {"part": "maths-pp-2020-higher-p1-q8#(a)(i)",
-   "note": "What changed: the radius is now 5 instead of 1, so each co-ordinate is 5 times the cosine or sine. Reading cos and sin from the right-angled triangle is the same as before.",
-   "legend": {"1": "x, the cosine co-ordinate", "2": "y, the sine co-ordinate", "4": "the radius, 5"},
-   "steps": [
-    {"ask": "In a right triangle with hypotenuse 5, what is cos θ as a ratio of two sides?",
-     "title": "Use right-angled triangle ratios with radius 5",
-     "lines": [
-      {"tex": "\\hl{1}{\\cos\\theta} &= \\frac{\\hl{1}{x}}{\\hl{4}{5}}"},
-      {"tex": "\\hl{1}{x} &= \\hl{4}{5}\\hl{1}{\\cos\\theta}"},
-      {"tex": "\\hl{2}{\\sin\\theta} &= \\frac{\\hl{2}{y}}{\\hl{4}{5}}"},
-      {"tex": "\\hl{2}{y} &= \\hl{4}{5}\\hl{2}{\\sin\\theta}"}]},
-    {"ask": "Which number multiplies cos θ and which multiplies sin θ in the co-ordinates?",
-     "title": "Compare with (a cos θ, b sin θ)",
-     "lines": [
-      {"tex": "(\\hl{1}{x}, \\hl{2}{y}) &= (\\hl{4}{5}\\hl{1}{\\cos\\theta},\\ \\hl{4}{5}\\hl{2}{\\sin\\theta})"},
-      {"text": "So $a = \\hl{4}{5}$ and $b = \\hl{4}{5}$."}]}
-   ],
-   "final": "a = \\hl{4}{5},\\ b = \\hl{4}{5}",
-   "graph": null},
-  {"part": "maths-pp-2021-higher-p1-q10#(b)(i)",
-   "note": "What changed: the question no longer asks for a co-ordinate. It uses only the range of sine, -1 to 1, to show a quantity is always positive. The sign reasoning from the unit circle still applies.",
-   "legend": {"2": "the sine term"},
-   "steps": [
-    {"ask": "What are the largest and smallest values that any sine can take?",
-     "title": "Bound the sine term",
-     "lines": [
-      {"text": "The sine of any angle lies between $-1$ and $1$."},
-      {"tex": "-1 &\\le \\hl{2}{\\sin\\frac{\\pi t}{5}} \\le 1"}]},
-    {"ask": "If the sine is at least -1, what is the least value of 1.5 plus the sine?",
-     "title": "Add 1.5 to find the smallest value of I(t)",
-     "lines": [
-      {"tex": "0.5 &\\le 1.5 + \\hl{2}{\\sin\\frac{\\pi t}{5}} \\le 2.5"},
-      {"tex": "I(t) &\\ge 0.5 > 0"}]},
-    {"ask": "If I(t+1) is always positive, what does that say about r(t+1) compared with r(t)?",
-     "title": "Relate this to the radius",
-     "lines": [
-      {"text": "$r(t+1) = r(t) + I(t+1)$ and $I(t+1) > 0$, so $r(t+1) > r(t)$: the radius increases every year."}]}
-   ],
-   "final": "r(t+1) > r(t)",
-   "graph": null}
- ]}
+ {
+  "skill": "trig-graph",
+  "problems": [
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "note": null,
+    "legend": {
+     "1": "the height h(t)",
+     "3": "the cosine term"
+    },
+    "steps": [
+     {
+      "ask": "The question gives one value of h. What must you do for each other value of t?",
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $\\hl{1}{h(1)} = \\hl{1}{42}$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 0 into the formula. What is the cosine of that angle?",
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(0)} &= 72 - 60\\hl{3}{\\cos\\left(0\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(1\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= \\hl{1}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 2 in. What angle is πt/3 now, and what is its cosine?",
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(2)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{2\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 3 in. What is the cosine of π?",
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(3)} &= 72 - 60\\hl{3}{\\cos\\left(\\pi\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(-1\\right)}"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= \\hl{1}{132}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 4 in. What is the cosine of 4π/3?",
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(4)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{4\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 5 in. What is the cosine of 5π/3?",
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(5)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{5\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(\\frac{1}{2}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= \\hl{1}{42}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 6 in. What is the cosine of 2π?",
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(6)} &= 72 - 60\\hl{3}{\\cos\\left(2\\pi\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(1\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= \\hl{1}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 7 in. What is the cosine of 7π/3?",
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(7)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{7\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(\\frac{1}{2}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= \\hl{1}{42}"
+       }
+      ]
+     },
+     {
+      "ask": "Put t = 8 in. What is the cosine of 8π/3?",
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(8)} &= 72 - 60\\hl{3}{\\cos\\left(\\frac{8\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\hl{3}{\\left(-\\frac{1}{2}\\right)}"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "Once you have the nine heights, what smooth shape joins the lowest and highest points in order?",
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,\\hl{1}{12}), (1,\\hl{1}{42}), (2,\\hl{1}{102}), (3,\\hl{1}{132}), (4,\\hl{1}{102}), (5,\\hl{1}{42}), (6,\\hl{1}{12}), (7,\\hl{1}{42}), (8,\\hl{1}{102})$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102},\\ \\hl{1}{132},\\ \\hl{1}{102},\\ \\hl{1}{42},\\ \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102}",
+    "graph": {
+     "f": "72 - 60*cos(pi*x/3)",
+     "box": [
+      -0.5,
+      150,
+      8.5,
+      0
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 12,
+       "name": "min (0, 12)"
+      },
+      {
+       "x": 3,
+       "y": 132,
+       "name": "max (3, 132)"
+      },
+      {
+       "x": 6,
+       "y": 12,
+       "name": "min (6, 12)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iii)",
+    "note": "What changed: the curve now comes from five plotted values of a crank distance, not from a formula, so you plot points and join them. The smooth-curve method stays the same.",
+    "legend": {
+     "1": "the height f(α)",
+     "2": "the angle α"
+    },
+    "steps": [
+     {
+      "ask": "Which quantity goes on the horizontal axis, and which goes on the vertical axis?",
+      "title": "Set up the axes",
+      "lines": [
+       {
+        "text": "Put $\\hl{2}{\\alpha}$ from $0^\\circ$ to $360^\\circ$ on the horizontal axis and $\\hl{1}{f(\\alpha)}$ from $0$ to $30$ on the vertical axis."
+       }
+      ]
+     },
+     {
+      "ask": "Each point pairs an angle with a height. Which value of each pair is the angle?",
+      "title": "Plot the five points from the table",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{2}{0^\\circ}, \\hl{1}{30})$, $(\\hl{2}{90^\\circ}, \\hl{1}{18.28})$, $(\\hl{2}{180^\\circ}, \\hl{1}{10})$, $(\\hl{2}{270^\\circ}, \\hl{1}{18.28})$ and $(\\hl{2}{360^\\circ}, \\hl{1}{30})$."
+       }
+      ]
+     },
+     {
+      "ask": "The curve starts high, dips and rises again. What smooth shape joins these points?",
+      "title": "Join them with a smooth curve",
+      "lines": [
+       {
+        "text": "The curve starts at a maximum, falls to a minimum of $\\hl{1}{10}$ at $180^\\circ$ and rises again, like an ordinary cosine wave."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curve through } (\\hl{2}{0^\\circ},\\hl{1}{30}),\\ (\\hl{2}{90^\\circ},\\hl{1}{18.28}),\\ (\\hl{2}{180^\\circ},\\hl{1}{10}),\\ (\\hl{2}{270^\\circ},\\hl{1}{18.28}),\\ (\\hl{2}{360^\\circ},\\hl{1}{30})",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q6#(b)",
+    "note": "What changed: the function is now 4|sin x| - 1 and the question asks for the period and range, not a plot. You read them the same way: the repeat length and the highest and lowest values of the curve.",
+    "legend": {
+     "1": "the height y",
+     "3": "the trig term, sin x or |sin x|",
+     "4": "the period"
+    },
+    "steps": [
+     {
+      "ask": "What is the period of sin x, and how does the modulus change how often the graph repeats?",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "$\\hl{3}{\\sin x}$ has period $\\hl{4}{2\\pi}$."
+       },
+       {
+        "text": "The modulus flips the negative half of each wave upwards, so the graph repeats twice as often, in half the length."
+       },
+       {
+        "tex": "\\hl{4}{\\text{Period}} &= \\frac{1}{2}(\\hl{4}{2\\pi})"
+       },
+       {
+        "tex": "&= \\hl{4}{\\pi}"
+       }
+      ]
+     },
+     {
+      "ask": "What range does sin x have, and what does the modulus do to it?",
+      "title": "Start with the range of |sin x|",
+      "lines": [
+       {
+        "text": "$\\hl{3}{\\sin x}$ lies between $-1$ and $1$, and the modulus removes the negatives."
+       },
+       {
+        "tex": "0 \\le \\hl{3}{|\\sin x|} &\\le 1"
+       }
+      ]
+     },
+     {
+      "ask": "What happens to the bounds when you multiply the modulus by 4?",
+      "title": "Multiply by 4",
+      "lines": [
+       {
+        "tex": "0 \\le \\hl{3}{4|\\sin x|} &\\le 4"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract 1 from each part of the inequality. What is the new range of y?",
+      "title": "Subtract 1",
+      "lines": [
+       {
+        "tex": "-1 \\le \\hl{1}{4|\\sin x| - 1} &\\le 3"
+       },
+       {
+        "text": "This matches the graph: the lowest points are at $y = \\hl{1}{-1}$ and the highest at $y = \\hl{1}{3}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\text{Period}} = \\hl{4}{\\pi}, \\quad \\text{Range} = [\\hl{1}{-1}, \\hl{1}{3}]",
+    "graph": {
+     "f": "4*Abs(sin(x)) - 1",
+     "box": [
+      -0.3,
+      3.6,
+      3.5,
+      -1.6
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": -1,
+       "name": "min (0, -1)"
+      },
+      {
+       "x": 1.5708,
+       "y": 3,
+       "name": "max (π/2, 3)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph-abc",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(a)",
+    "note": null,
+    "legend": {
+     "1": "the height, min or max",
+     "2": "the period",
+     "3": "the midline, 1.6",
+     "4": "the frequency constant b"
+    },
+    "steps": [
+     {
+      "ask": "What is the period of cos(bt) in terms of b, and what is b for this curve?",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\cos(\\hl{4}{b}t)$ the period is $\\hl{2}{\\dfrac{2\\pi}{b}}$. Here $\\hl{4}{b} = \\dfrac{\\pi}{6}$."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Period}} &= \\frac{2\\pi}{\\pi/6}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{6}{\\pi}"
+       },
+       {
+        "tex": "&= \\hl{2}{12\\text{ hours}}"
+       }
+      ]
+     },
+     {
+      "ask": "How far can the 1.5 cos term move above and below zero?",
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{Minimum}} &= \\hl{3}{1.6} - 1.5"
+       },
+       {
+        "tex": "&= \\hl{1}{0.1}"
+       },
+       {
+        "tex": "\\hl{1}{\\text{Maximum}} &= \\hl{3}{1.6} + 1.5"
+       },
+       {
+        "tex": "&= \\hl{1}{3.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\text{Period}} = \\hl{2}{12\\text{ hours}},\\quad \\text{Range} = [\\hl{1}{0.1},\\,\\hl{1}{3.1}]\\text{ m}",
+    "graph": {
+     "f": "1.6 + 1.5*cos(pi*x/6)",
+     "box": [
+      -1.5,
+      3.6,
+      13.5,
+      -0.2
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 3.1,
+       "name": "max (0, 3.1)"
+      },
+      {
+       "x": 6,
+       "y": 0.1,
+       "name": "min (6, 0.1)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+    "note": "What changed: the task is now to plot the same cosine wave from a table of nine heights, not to find its period and range from the formula. The midline 1.6 and amplitude 1.5 are the same, so the heights match the earlier problem.",
+    "legend": {
+     "1": "the height h"
+    },
+    "steps": [
+     {
+      "ask": "Which quantity goes on the horizontal axis, and what does each height pair with?",
+      "title": "Plot the nine points from the table",
+      "lines": [
+       {
+        "text": "Plot $(t, \\hl{1}{h})$ using time on the horizontal axis and height on the vertical axis."
+       },
+       {
+        "text": "The points are $(0, \\hl{1}{3.1})$, $(3, \\hl{1}{1.6})$, $(6, \\hl{1}{0.1})$, $(9, \\hl{1}{1.6})$, $(12, \\hl{1}{3.1})$, $(15, \\hl{1}{1.6})$, $(18, \\hl{1}{0.1})$, $(21, \\hl{1}{1.6})$, $(24, \\hl{1}{3.1})$."
+       }
+      ]
+     },
+     {
+      "ask": "The heights rise and fall between a top and a bottom value. What smooth shape repeats like this?",
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "It is a cosine wave: maximum $\\hl{1}{3.1}$ at midnight, midday and the next midnight, minimum $\\hl{1}{0.1}$ at 6 a.m. and 6 p.m. It crosses $\\hl{1}{1.6}$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cosine curve through the nine points}",
+    "graph": {
+     "f": "1.6 + 1.5*cos(pi*x/6)",
+     "box": [
+      -1.5,
+      3.6,
+      25.5,
+      -0.2
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 3.1,
+       "name": "max (0, 3.1)"
+      },
+      {
+       "x": 6,
+       "y": 0.1,
+       "name": "min (6, 0.1)"
+      },
+      {
+       "x": 12,
+       "y": 3.1,
+       "name": "max (12, 3.1)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
+    "note": "What changed: c is now the unknown, and the period comes from the high-tide times. You use period = 2π/c, the same formula as before, but solve it for c.",
+    "legend": {
+     "2": "the period, 12 h 34 min",
+     "4": "the frequency constant c"
+    },
+    "steps": [
+     {
+      "ask": "How long is it between two successive high tides? That time is one period.",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "The period of $\\cos \\hl{4}{c}t$ is $\\frac{2\\pi}{\\hl{4}{c}}$. It is the time between two successive high tides: 02:00 to 14:34."
+       },
+       {
+        "tex": "\\hl{2}{\\text{period}} &= \\hl{2}{12\\frac{34}{60} \\text{ hours}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which formula links the period to c, and how do you rearrange it to make c the subject?",
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\frac{2\\pi}{\\hl{4}{c}} &= \\hl{2}{12\\frac{34}{60}}"
+       },
+       {
+        "tex": "\\hl{4}{c} &= \\frac{2\\pi}{\\hl{2}{12\\frac{34}{60}}}"
+       },
+       {
+        "tex": "\\hl{4}{c} &\\approx 0.49999"
+       },
+       {
+        "tex": "\\hl{4}{c} &\\approx \\hl{4}{0.5} \\text{ (1 decimal place)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{c} = \\hl{4}{0.5}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "trig-solve-basic",
+  "problems": [
+   {
+    "part": "maths-pp-2015-higher-p1-q7#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the value k, 0.0288",
+     "2": "the angle θ",
+     "3": "the rounded answer"
+    },
+    "steps": [
+     {
+      "ask": "Which trig ratio gives the slope of the path, and what is its value at x = -4?",
+      "title": "Relate the slope to the angle",
+      "lines": [
+       {
+        "text": "The slope of the path at $x = -4$ is $\\tan\\hl{2}{\\theta}$, where $\\hl{2}{\\theta}$ is the angle to the horizontal."
+       },
+       {
+        "text": "The slope is negative because the plane is going down. Its size gives the angle of descent."
+       },
+       {
+        "tex": "\\tan\\hl{2}{\\theta} &= \\hl{1}{0.0288}"
+       }
+      ]
+     },
+     {
+      "ask": "Which inverse function on your calculator turns a tan value back into an angle?",
+      "title": "Find the angle",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\theta} &= \\tan^{-1}(\\hl{1}{0.0288})"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{1.6497^{\\circ}}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{2^{\\circ}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{2^{\\circ}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q9#(b)(iv)",
+    "note": "What changed: the equation is now a sine with the angle 120πt and a voltage, instead of the tan from the last problem. The steps are the same: isolate the trig term, take the inverse, then divide.",
+    "legend": {
+     "1": "the value k, 1/√2",
+     "2": "the angle 120πt",
+     "3": "the answer t"
+    },
+    "steps": [
+     {
+      "ask": "Divide by the number in front of the sine. What value must the sine take?",
+      "title": "Set the voltage equal to 110",
+      "lines": [
+       {
+        "tex": "110\\sqrt{2}\\,\\sin(\\hl{2}{120\\pi t}) &= 110"
+       },
+       {
+        "tex": "\\sin(\\hl{2}{120\\pi t}) &= \\hl{1}{\\frac{1}{\\sqrt{2}}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which angle has a sine of 1/√2? Set the angle 120πt equal to it.",
+      "title": "Solve for the angle",
+      "lines": [
+       {
+        "text": "$\\sin\\theta = \\hl{1}{\\frac{1}{\\sqrt{2}}}$ when $\\hl{2}{\\theta} = \\frac{\\pi}{4}$ (one solution)."
+       },
+       {
+        "tex": "\\hl{2}{120\\pi t} &= \\frac{\\pi}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide both sides by to leave t on its own?",
+      "title": "Divide both sides by 120π",
+      "lines": [
+       {
+        "tex": "\\hl{3}{t} &= \\frac{\\pi}{4 \\times 120\\pi}"
+       },
+       {
+        "tex": "\\hl{3}{t} &= \\hl{3}{\\frac{1}{480}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{t} = \\hl{3}{\\frac{1}{480}} \\text{ seconds}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q8#(b)",
+    "note": "What changed: it is cosine instead of sine, and the range now gives two angles, so you must find and solve for both. The steps are otherwise the same.",
+    "legend": {
+     "1": "the value k, -1/2",
+     "2": "the angle πt/26",
+     "3": "the answer t"
+    },
+    "steps": [
+     {
+      "ask": "Move the constant term across, then divide by 22500. What value must the cosine take?",
+      "title": "Set r(t) = 26250 and isolate the cosine",
+      "lines": [
+       {
+        "tex": "22500\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right)+37500 &= 26250"
+       },
+       {
+        "tex": "22500\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right) &= -11250"
+       },
+       {
+        "tex": "\\cos\\left(\\hl{2}{\\frac{\\pi}{26}t}\\right) &= \\hl{1}{-\\frac{1}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Cosine is negative in two quadrants. Which two angles between 0 and 2π have this value?",
+      "title": "Find the angles in the first 52 weeks",
+      "lines": [
+       {
+        "text": "For $0 \\le t \\le 52$, the angle $\\hl{2}{\\frac{\\pi}{26}t}$ runs from $0$ to $2\\pi$. Cosine is $\\hl{1}{-\\frac12}$ in the second and third quadrants."
+       },
+       {
+        "tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{2\\pi}{3} \\text{ or } \\frac{4\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Use the first angle: what do you multiply both sides by to get t on its own?",
+      "title": "Solve for the first value of t",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{2\\pi}{3}"
+       },
+       {
+        "tex": "t &= \\frac{2\\pi}{3}\\times\\frac{26}{\\pi}"
+       },
+       {
+        "tex": "\\hl{3}{t} &= \\hl{3}{\\frac{52}{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "Repeat with the second angle. What is t for this angle?",
+      "title": "Solve for the second value of t",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{\\pi}{26}t} &= \\frac{4\\pi}{3}"
+       },
+       {
+        "tex": "t &= \\frac{4\\pi}{3}\\times\\frac{26}{\\pi}"
+       },
+       {
+        "tex": "\\hl{3}{t} &= \\hl{3}{\\frac{104}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{t} = \\hl{3}{\\frac{52}{3}} \\text{ and } \\hl{3}{t} = \\hl{3}{\\frac{104}{3}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "trig-solve-general",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p2-q3#(b)",
+    "note": null,
+    "legend": {
+     "1": "the ratio, √3/2",
+     "2": "the multiple angle 2X",
+     "3": "the answer X",
+     "4": "the reference angle, 30°"
+    },
+    "steps": [
+     {
+      "ask": "Which acute angle has a cosine of √3/2?",
+      "title": "Find the reference angle",
+      "lines": [
+       {
+        "tex": "\\cos(\\hl{2}{2X}) &= \\hl{1}{\\frac{\\sqrt{3}}{2}}"
+       },
+       {
+        "tex": "\\hl{2}{2X} &= \\cos^{-1}\\hl{1}{\\frac{\\sqrt{3}}{2}} = \\hl{4}{30^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "Which quadrants make cosine positive, and how many full turns does 2X cover?",
+      "title": "Find all values of 2X between 0° and 720°",
+      "lines": [
+       {
+        "text": "$\\cos$ is positive in the 1st and 4th quadrants. Since $0^\\circ \\le X \\le 360^\\circ$, we need $0^\\circ \\le \\hl{2}{2X} \\le 720^\\circ$, which is two full turns."
+       },
+       {
+        "text": "First turn: $\\hl{2}{2X} = \\hl{2}{30^\\circ}$ or $360^\\circ - 30^\\circ = \\hl{2}{330^\\circ}$."
+       },
+       {
+        "text": "Second turn: add $360^\\circ$ to each, giving $\\hl{2}{390^\\circ}$ and $\\hl{2}{690^\\circ}$."
+       },
+       {
+        "tex": "\\hl{2}{2X} &= \\hl{2}{30^\\circ},\\ \\hl{2}{330^\\circ},\\ \\hl{2}{390^\\circ},\\ \\hl{2}{690^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "To get X from 2X, what do you do to each value?",
+      "title": "Divide each value by 2",
+      "lines": [
+       {
+        "tex": "\\hl{3}{X} &= \\hl{3}{15^\\circ},\\ \\hl{3}{165^\\circ},\\ \\hl{3}{195^\\circ},\\ \\hl{3}{345^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "X = \\hl{3}{15^\\circ},\\ \\hl{3}{165^\\circ},\\ \\hl{3}{195^\\circ},\\ \\hl{3}{345^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q4#(a)",
+    "note": "What changed: the cosine is now negative, so the solutions for 2x are in the 2nd and 3rd quadrants (150° and 210°) instead of the 1st and 4th. The same two-turn check and divide-by-2 steps apply.",
+    "legend": {
+     "1": "the ratio, √3/2",
+     "2": "the multiple angle 2x",
+     "3": "the answer x",
+     "4": "the reference angle, 30°"
+    },
+    "steps": [
+     {
+      "ask": "In which quadrants is cosine negative, and what is the reference angle?",
+      "title": "Find the angles whose cosine is $-\\frac{\\sqrt{3}}{2}$",
+      "lines": [
+       {
+        "text": "$\\cos 30^\\circ = \\hl{1}{\\frac{\\sqrt{3}}{2}}$, so the reference angle is $\\hl{4}{30^\\circ}$."
+       },
+       {
+        "text": "Cosine is negative in the 2nd and 3rd quadrants."
+       },
+       {
+        "tex": "\\hl{2}{2x} &= 180 - \\hl{4}{30}"
+       },
+       {
+        "tex": "&= \\hl{2}{150}"
+       },
+       {
+        "tex": "\\hl{2}{2x} &= 180 + \\hl{4}{30}"
+       },
+       {
+        "tex": "&= \\hl{2}{210}"
+       }
+      ]
+     },
+     {
+      "ask": "Since 2x covers two full turns, what must you add to get the next set of answers?",
+      "title": "Allow for $0^\\circ \\le x \\le 360^\\circ$",
+      "lines": [
+       {
+        "text": "If $0 \\le x \\le 360$ then $0 \\le \\hl{2}{2x} \\le 720$, so add $360^\\circ$ to get the next turn."
+       },
+       {
+        "tex": "\\hl{2}{2x} &= \\hl{2}{150} + 360"
+       },
+       {
+        "tex": "&= \\hl{2}{510}"
+       },
+       {
+        "tex": "\\hl{2}{2x} &= \\hl{2}{210} + 360"
+       },
+       {
+        "tex": "&= \\hl{2}{570}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide each value of 2x by to get x?",
+      "title": "Divide each value of $2x$ by 2",
+      "lines": [
+       {
+        "tex": "\\hl{3}{x} &= \\frac{\\hl{2}{150}}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{75}"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\frac{\\hl{2}{210}}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{105}"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\frac{\\hl{2}{510}}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{255}"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\frac{\\hl{2}{570}}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{285}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{3}{75^\\circ},\\ \\hl{3}{105^\\circ},\\ \\hl{3}{255^\\circ},\\ \\hl{3}{285^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q5#(b)",
+    "note": "What changed: it is sine instead of cosine, and the multiple angle is 3x, so θ runs up to 1080° and gives six answers. The method is the same: find the angles in one turn, then add 360° until the range is used up.",
+    "legend": {
+     "1": "the ratio, √3/2",
+     "2": "the multiple angle θ = 3x",
+     "3": "the answer x",
+     "4": "the reference angle, 60°"
+    },
+    "steps": [
+     {
+      "ask": "If θ = 3x, over what range does θ run, and in which quadrants is sine positive?",
+      "title": "Find the angles whose sine is $\\frac{\\sqrt{3}}{2}$",
+      "lines": [
+       {
+        "text": "Let $\\hl{2}{\\theta}=\\hl{2}{3x}$. Since $0\\le x\\le 360$, we need $0\\le \\hl{2}{\\theta}\\le 1080$."
+       },
+       {
+        "text": "$\\sin\\hl{2}{\\theta}=\\hl{1}{\\frac{\\sqrt{3}}{2}}$ has reference angle $\\hl{4}{60^\\circ}$. Sine is positive in the first and second quadrants, so $\\hl{2}{\\theta}=\\hl{2}{60^\\circ}$ or $\\hl{2}{\\theta}=180^\\circ-60^\\circ=\\hl{2}{120^\\circ}$."
+       },
+       {
+        "text": "Add $360^\\circ$ repeatedly to stay inside the range."
+       },
+       {
+        "tex": "\\hl{2}{3x} &= \\hl{2}{60^\\circ},\\ \\hl{2}{120^\\circ},\\ \\hl{2}{420^\\circ},\\ \\hl{2}{480^\\circ},\\ \\hl{2}{780^\\circ},\\ \\hl{2}{840^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide each value of 3x by to get x?",
+      "title": "Divide each value by 3",
+      "lines": [
+       {
+        "tex": "\\hl{3}{x} &= \\hl{3}{20^\\circ},\\ \\hl{3}{40^\\circ},\\ \\hl{3}{140^\\circ},\\ \\hl{3}{160^\\circ},\\ \\hl{3}{260^\\circ},\\ \\hl{3}{280^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{3}{20^\\circ},\\ \\hl{3}{40^\\circ},\\ \\hl{3}{140^\\circ},\\ \\hl{3}{160^\\circ},\\ \\hl{3}{260^\\circ},\\ \\hl{3}{280^\\circ}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "trig-unit-circle",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "x, the cosine co-ordinate",
+     "2": "y, the sine co-ordinate",
+     "3": "the angle, 135°"
+    },
+    "steps": [
+     {
+      "ask": "Measured from the positive x-axis, what angle does OQ make?",
+      "title": "Place Q on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $\\hl{3}{135^\\circ}$ with the positive $x$-axis."
+       },
+       {
+        "text": "On the unit circle, a point at angle $\\hl{3}{\\theta}$ is $(\\hl{1}{\\cos\\theta}, \\hl{2}{\\sin\\theta})$."
+       },
+       {
+        "tex": "Q &= (\\hl{1}{\\cos 135^\\circ}, \\hl{2}{\\sin 135^\\circ})"
+       }
+      ]
+     },
+     {
+      "ask": "Which acute angle has the same size, and is cosine positive or negative in this quadrant?",
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos 135^\\circ} &= -\\cos 45^\\circ"
+       },
+       {
+        "tex": "&= \\hl{1}{-\\frac{1}{\\sqrt{2}}}"
+       }
+      ]
+     },
+     {
+      "ask": "Is sine positive or negative in this quadrant, and what is its size?",
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sin 135^\\circ} &= \\sin 45^\\circ"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{\\sqrt{2}}}"
+       }
+      ]
+     }
+    ],
+    "final": "Q = \\left(\\hl{1}{-\\frac{1}{\\sqrt{2}}}, \\hl{2}{\\frac{1}{\\sqrt{2}}}\\right)",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q8#(a)(i)",
+    "note": "What changed: the radius is now 5 instead of 1, so each co-ordinate is 5 times the cosine or sine. Reading cos and sin from the right-angled triangle is the same as before.",
+    "legend": {
+     "1": "x, the cosine co-ordinate",
+     "2": "y, the sine co-ordinate",
+     "4": "the radius, 5"
+    },
+    "steps": [
+     {
+      "ask": "In a right triangle with hypotenuse 5, what is cos θ as a ratio of two sides?",
+      "title": "Use right-angled triangle ratios with radius 5",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos\\theta} &= \\frac{\\hl{1}{x}}{\\hl{4}{5}}"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{4}{5}\\hl{1}{\\cos\\theta}"
+       },
+       {
+        "tex": "\\hl{2}{\\sin\\theta} &= \\frac{\\hl{2}{y}}{\\hl{4}{5}}"
+       },
+       {
+        "tex": "\\hl{2}{y} &= \\hl{4}{5}\\hl{2}{\\sin\\theta}"
+       }
+      ]
+     },
+     {
+      "ask": "Which number multiplies cos θ and which multiplies sin θ in the co-ordinates?",
+      "title": "Compare with (a cos θ, b sin θ)",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{x}, \\hl{2}{y}) &= (\\hl{4}{5}\\hl{1}{\\cos\\theta},\\ \\hl{4}{5}\\hl{2}{\\sin\\theta})"
+       },
+       {
+        "text": "So $a = \\hl{4}{5}$ and $b = \\hl{4}{5}$."
+       }
+      ]
+     }
+    ],
+    "final": "a = \\hl{4}{5},\\ b = \\hl{4}{5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(i)",
+    "note": "What changed: the question no longer asks for a co-ordinate. It uses only the range of sine, -1 to 1, to show a quantity is always positive. The sign reasoning from the unit circle still applies.",
+    "legend": {
+     "2": "the sine term"
+    },
+    "steps": [
+     {
+      "ask": "What are the largest and smallest values that any sine can take?",
+      "title": "Bound the sine term",
+      "lines": [
+       {
+        "text": "The sine of any angle lies between $-1$ and $1$."
+       },
+       {
+        "tex": "-1 &\\le \\hl{2}{\\sin\\frac{\\pi t}{5}} \\le 1"
+       }
+      ]
+     },
+     {
+      "ask": "If the sine is at least -1, what is the least value of 1.5 plus the sine?",
+      "title": "Add 1.5 to find the smallest value of I(t)",
+      "lines": [
+       {
+        "tex": "0.5 &\\le 1.5 + \\hl{2}{\\sin\\frac{\\pi t}{5}} \\le 2.5"
+       },
+       {
+        "tex": "I(t) &\\ge 0.5 > 0"
+       }
+      ]
+     },
+     {
+      "ask": "If I(t+1) is always positive, what does that say about r(t+1) compared with r(t)?",
+      "title": "Relate this to the radius",
+      "lines": [
+       {
+        "text": "$r(t+1) = r(t) + I(t+1)$ and $I(t+1) > 0$, so $r(t+1) > r(t)$: the radius increases every year."
+       }
+      ]
+     }
+    ],
+    "final": "r(t+1) > r(t)",
+    "graph": null
+   }
+  ]
+ }
 ]
