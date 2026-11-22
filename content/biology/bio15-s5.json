@@ -6,7 +6,7 @@
   "notes": [
     {
       "h": "Internal structure of the mitochondrion (Higher Level only)",
-      "b": "A mitochondrion is the organelle (a specialised compartment inside a cell) where most of the cell's ATP is made. Its inside is divided into distinct regions by two membranes, and each region has a job.",
+      "b": "A mitochondrion is an organelle (a specialised compartment inside a cell). Its inside is divided into distinct regions by two membranes, and each region has a job.",
       "points": [
         "Outer membrane: smooth, it surrounds the mitochondrion and is permeable to small molecules such as pyruvate, ADP and ATP, so these can move freely in and out.",
         "Inner membrane: folded into many cristae (singular crista), which greatly increase its surface area. It holds the electron transport chains and ATP synthase (the enzyme that makes ATP). It is impermeable to protons except through ATP synthase.",
@@ -39,7 +39,7 @@
         "5. Protons flow back: the inner membrane lets protons through only at the enzyme ATP synthase. They flow back down their gradient, from the intermembrane space across the inner membrane into the matrix, through a channel in ATP synthase. They do not pass back through the electron transport complexes.",
         "6. ATP is made: ATP synthase harnesses the flow of protons. It turns part of the enzyme, like a water wheel or turbine, and uses the energy to join ADP and Pi (inorganic phosphate) into ATP on the matrix side.",
         "7. Oxygen keeps the system running: oxygen accepts the electrons and protons at the end of the chain, forming water, so electrons keep flowing and protons keep being moved out. Without oxygen, the gradient is not maintained and ATP synthase stops.",
-        "Diagram: inner membrane, matrix below, intermembrane space above. Show NADH → NAD⁺ + H⁺ + 2e⁻; electron arrow; many H⁺ up; ½O₂ + 2H⁺ + 2e⁻ → H₂O; H⁺ down ATP synthase, ADP + Pi → ATP. Label protein complex, mobile electron carrier, ATP synthase, proton gradient."
+        "Diagram: inner membrane, matrix below, intermembrane space above. Show NADH → NAD⁺ + H⁺ + 2e⁻; electron arrow; many H⁺ up; ½O₂ + 2H⁺ + 2e⁻ → H₂O; H⁺ down ATP synthase, ADP + Pi → ATP. Label protein complex, mobile electron carrier, inner membrane, intermembrane space, matrix, ATP synthase, proton gradient."
       ],
       "tip": "When asked how ATP synthase makes ATP, talk about protons: they build up in the intermembrane space, then flow back through ATP synthase into the matrix. The proton gradient, not the electrons directly, powers ATP synthase. Say that protons do not return through the electron transport complexes, and that ATP synthase is an enzyme, not a carrier."
     },

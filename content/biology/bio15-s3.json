@@ -20,7 +20,7 @@
     },
     {
       "h": "Where glycolysis occurs and what enters it (Higher Level only)",
-      "b": "Glycolysis is the most widespread pathway in living things, and it is not limited to glucose from food.",
+      "b": "Glycolysis happens in almost every living cell, and it is not limited to glucose from food.",
       "points": [
         "Glycolysis happens in almost every living cell, prokaryotic (no nucleus) and eukaryotic (with a nucleus). This suggests it evolved early in the history of life, before there was oxygen in the atmosphere, which fits with it needing no oxygen.",
         "Other six-carbon sugars, such as fructose, and the glucose from glycogen or starch enter the same pathway."
@@ -36,11 +36,11 @@
         "The fate of NADH depends on oxygen. With oxygen, it passes its electrons to the electron transport chain in the mitochondrion (the organelle where the second stage of respiration happens). There is more on this in Second-stage process.",
         "Without oxygen, NADH passes its hydrogen to pyruvate instead, a process called fermentation. Either way, NAD⁺ is regenerated, so glycolysis can carry on."
       ],
-      "tip": "A common exam question is how fermentation lets glycolysis continue. The answer is that NADH is converted back to NAD⁺, which glycolysis needs in order to keep running."
+      "tip": "Exams ask how fermentation lets glycolysis continue. The answer is that NADH is converted back to NAD⁺, which glycolysis needs in order to keep running."
     },
     {
       "h": "Fermentation: regenerating NAD⁺ without oxygen (Higher Level only)",
-      "b": "Without oxygen, the mitochondrion cannot take up NADH's hydrogen, so NAD⁺ would run out and glycolysis would stop. Fermentation solves this problem, and it works in the cytoplasm.",
+      "b": "Without oxygen, pyruvate is not passed to the mitochondrion, and glycolysis would stop if NADH were not turned back into NAD⁺. Fermentation solves this problem, and it works in the cytoplasm.",
       "points": [
         "When oxygen is absent or too scarce, pyruvate is not passed to the mitochondrion. Instead, in the cytoplasm, NADH passes its hydrogen to pyruvate, or to a product made from it. This regenerates NAD⁺, so glycolysis can keep running and keep making its 2 ATP per glucose.",
         "The purpose of fermentation is to regenerate NAD⁺, not to make more ATP. No ATP is made after glycolysis.",
