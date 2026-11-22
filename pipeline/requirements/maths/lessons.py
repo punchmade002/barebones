@@ -285,7 +285,7 @@ def review_pack(cap=55_000, most=10):
         size += n
     batches.append(cur)
     for i, b in enumerate(batches, 1):
-        (d / f'R{i:02}.json').write_text(json.dumps(b, ensure_ascii=False, indent=1))
+        (d / f'R{i:02}.json').write_text(json.dumps(b, ensure_ascii=False))
     print(f'{len(js)} lessons → {len(batches)} review batches in {d}')
 
 
