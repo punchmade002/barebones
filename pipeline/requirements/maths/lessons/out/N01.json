@@ -1,0 +1,151 @@
+[
+{"skill": "cx-polar", "problems": [
+ {"part": "maths-pp-2019-higher-p1-q5#(b)(i)", "note": null,
+  "legend": {"1": "the modulus, r", "2": "the argument, θ"},
+  "steps": [
+   {"ask": "What is the modulus r of a complex number a + bi, in terms of a and b?", "title": "Find the modulus r",
+    "lines": [{"tex": "\\hl{1}{r} = |v| &= \\sqrt{2^2 + (2\\sqrt{3})^2}"}, {"tex": "&= \\sqrt{4 + 12}"}, {"tex": "&= \\hl{1}{4}"}]},
+   {"ask": "Which quadrant is 2 − 2√3 i in? How do you get θ from the reference angle α there?", "title": "Find the argument",
+    "lines": [{"text": "$v = 2 - 2\\sqrt{3}\\,i$ is in the fourth quadrant (real part positive, imaginary part negative)."}, {"tex": "\\tan\\alpha &= \\frac{2\\sqrt{3}}{2} = \\sqrt{3}"}, {"tex": "\\alpha &= \\frac{\\pi}{3}"}, {"tex": "\\hl{2}{\\theta} &= 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}"}]},
+   {"ask": "Put r and θ into the form r(cos θ + i sin θ). Which values go in?", "title": "Write v in polar form",
+    "lines": [{"tex": "v &= \\hl{1}{4}\\left(\\cos\\hl{2}{\\frac{5\\pi}{3}} + i\\sin\\hl{2}{\\frac{5\\pi}{3}}\\right)"}]}
+  ],
+  "final": "v = \\hl{1}{4}\\left(\\cos\\hl{2}{\\frac{5\\pi}{3}} + i\\sin\\hl{2}{\\frac{5\\pi}{3}}\\right)",
+  "graph": null},
+ {"part": "practice-cx-polar-1", "note": "Written practice problem with the same three steps. Only the quadrant changes: z is in the second quadrant, so θ = π − α instead of 2π − α.",
+  "legend": {"1": "the modulus, r", "2": "the argument, θ"},
+  "steps": [
+   {"ask": "What formula gives the modulus r from the real and imaginary parts of z?", "title": "Find the modulus",
+    "lines": [{"tex": "\\hl{1}{r} &= \\sqrt{(-1)^2 + (\\sqrt{3})^2}"}, {"tex": "&= \\sqrt{4}"}, {"tex": "&= \\hl{1}{2}"}]},
+   {"ask": "Which quadrant is z in? Then how does θ relate to the reference angle α in that quadrant?", "title": "Find the argument",
+    "lines": [{"text": "The real part is negative and the imaginary part is positive, so $z$ is in the second quadrant."}, {"tex": "\\tan\\alpha &= \\frac{\\sqrt{3}}{1} = \\sqrt{3}"}, {"tex": "\\alpha &= \\frac{\\pi}{3}"}, {"tex": "\\hl{2}{\\theta} &= \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}"}]},
+   {"ask": "Put r and θ into r(cos θ + i sin θ). Which values go in?", "title": "Write in polar form",
+    "lines": [{"tex": "z &= \\hl{1}{2}\\left(\\cos\\hl{2}{\\frac{2\\pi}{3}} + i\\sin\\hl{2}{\\frac{2\\pi}{3}}\\right)"}]}
+  ],
+  "final": "z = \\hl{1}{2}\\left(\\cos\\hl{2}{\\frac{2\\pi}{3}} + i\\sin\\hl{2}{\\frac{2\\pi}{3}}\\right)",
+  "graph": null},
+ {"part": "practice-cx-polar-2", "note": "Same steps again. The point is now in the third quadrant, so θ = π + α instead of π − α; the modulus step is unchanged.",
+  "legend": {"1": "the modulus, r", "2": "the argument, θ"},
+  "steps": [
+   {"ask": "What formula gives the modulus r from the real and imaginary parts of w?", "title": "Find the modulus",
+    "lines": [{"tex": "\\hl{1}{r} &= \\sqrt{(-\\sqrt{3})^2 + (-1)^2}"}, {"tex": "&= \\sqrt{4}"}, {"tex": "&= \\hl{1}{2}"}]},
+   {"ask": "Which quadrant is w in, and how does θ relate to the reference angle α in that quadrant?", "title": "Find the argument",
+    "lines": [{"text": "Both parts are negative, so $w$ is in the third quadrant."}, {"tex": "\\tan\\alpha &= \\frac{1}{\\sqrt{3}}"}, {"tex": "\\alpha &= \\frac{\\pi}{6}"}, {"tex": "\\hl{2}{\\theta} &= \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}"}]},
+   {"ask": "Put r and θ into r(cos θ + i sin θ). Which values go in?", "title": "Write in polar form",
+    "lines": [{"tex": "w &= \\hl{1}{2}\\left(\\cos\\hl{2}{\\frac{7\\pi}{6}} + i\\sin\\hl{2}{\\frac{7\\pi}{6}}\\right)"}]}
+  ],
+  "final": "w = \\hl{1}{2}\\left(\\cos\\hl{2}{\\frac{7\\pi}{6}} + i\\sin\\hl{2}{\\frac{7\\pi}{6}}\\right)",
+  "graph": null}
+]},
+{"skill": "diff-second", "problems": [
+ {"part": "practice-diff-second-1", "note": null,
+  "legend": {"1": "the second derivative (f″(x) or d²s/dt²)"},
+  "steps": [
+   {"ask": "Which function do you differentiate first to get f′(x), and what happens to each term?", "title": "Differentiate once",
+    "lines": [{"tex": "f'(x) &= 4x^3 - 6x^2 + 5"}]},
+   {"ask": "Differentiate f′(x) once more. What is the power rule for each term?", "title": "Differentiate again",
+    "lines": [{"tex": "\\hl{1}{f''(x)} &= 12x^2 - 12x"}]}
+  ],
+  "final": "\\hl{1}{f''(x)} = 12x^2 - 12x",
+  "graph": null},
+ {"part": "practice-diff-second-2", "note": "Same two differentiation steps as problem 1, but on a cubic. The question asks for the x where f″(x) = 0, so the last step solves an equation instead of stopping at a formula.",
+  "legend": {"1": "the second derivative (f″(x) or d²s/dt²)", "2": "the value of x (or t) we solve for or substitute"},
+  "steps": [
+   {"ask": "Differentiate f(x) term by term. What happens to each power of x?", "title": "Find $f'(x)$",
+    "lines": [{"tex": "f'(x) &= 6x^2 - 18x + 12"}]},
+   {"ask": "What is the derivative of each term of f′(x)? Write down f″(x).", "title": "Find $f''(x)$",
+    "lines": [{"tex": "\\hl{1}{f''(x)} &= 12x - 18"}]},
+   {"ask": "What equation do you get when f″(x) is set equal to 0? Solve it for x.", "title": "Set $f''(x) = 0$ and solve",
+    "lines": [{"tex": "\\hl{1}{12x - 18} &= 0"}, {"tex": "12x &= 18"}, {"tex": "\\hl{2}{x} &= \\frac{3}{2}"}]}
+  ],
+  "final": "\\hl{2}{x} = \\frac{3}{2}",
+  "graph": {"f": "2*x**3 - 9*x**2 + 12*x + 1", "box": [0, 19, 3.5, 0], "tangent": false,
+            "points": [{"x": 1.5, "y": 5.5, "name": "inflection (1.5, 5.5)"}], "line": null, "slots": {"x": 2, "y": null, "line": null}}},
+ {"part": "practice-diff-second-3", "note": "Compared with problem 2, the function is now a motion model in t, and the question asks for a value at t = 4 rather than solving f″(x) = 0, so the last step is a substitution. The differentiation method is the same.",
+  "legend": {"1": "the second derivative (f″(x) or d²s/dt²)", "2": "the value of x (or t) we solve for or substitute"},
+  "steps": [
+   {"ask": "What is the first derivative ds/dt of s with respect to t?", "title": "Find the velocity",
+    "lines": [{"tex": "\\frac{ds}{dt} &= 3t^2 - 12t + 4"}]},
+   {"ask": "Differentiate ds/dt once more. What is d²s/dt² as a function of t?", "title": "Find the acceleration",
+    "lines": [{"tex": "\\hl{1}{\\frac{d^2s}{dt^2}} &= 6t - 12"}]},
+   {"ask": "The question asks for the acceleration at t = 4. What do you get when you put t = 4 into 6t − 12?", "title": "Substitute $t = 4$",
+    "lines": [{"tex": "6(\\hl{2}{4}) - 12 &= 24 - 12"}, {"tex": "&= \\hl{1}{12}"}]}
+  ],
+  "final": "\\hl{1}{12}\\text{ m/s}^2",
+  "graph": null}
+]},
+{"skill": "geo-thm19", "problems": [
+ {"part": "practice-geo-thm19-1", "note": null,
+  "legend": {"1": "the angle at the centre", "2": "the unknown angle, the one asked for"},
+  "steps": [
+   {"ask": "What kind of angle is ∠AOC, and what kind is ∠ABC? Which arc do both stand on?", "title": "Identify the arc",
+    "lines": [{"text": "$\\hl{1}{\\angle AOC}$ is the angle at the centre and $\\hl{2}{\\angle ABC}$ is the angle at the circumference, both standing on the arc $AC$."}]},
+   {"ask": "Which theorem links the angle at the centre to the angle at the circumference on the same arc? Use it to find ∠ABC.", "title": "Apply Theorem 19",
+    "lines": [{"text": "The angle at the centre is twice the angle at the circumference on the same arc."}, {"tex": "\\hl{2}{|\\angle ABC|} &= \\frac{1}{2}\\hl{1}{|\\angle AOC|}"}, {"tex": "&= \\frac{1}{2}(\\hl{1}{110^\\circ})"}, {"tex": "&= \\hl{2}{55^\\circ}"}]}
+  ],
+  "final": "\\hl{2}{|\\angle ABC|} = \\hl{2}{55^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-thm19-3", "note": "B is now on the minor arc, so ∠ABC stands on the major arc and the centre angle is the reflex 220°, found from 360° − 140°, not 140°. The theorem step is the same.",
+  "legend": {"1": "the angle at the centre", "2": "the unknown angle, the one asked for"},
+  "steps": [
+   {"ask": "B is on the minor arc. Which arc does ∠ABC stand on, and what is the angle at the centre on that arc?", "title": "Find the reflex angle at the centre",
+    "lines": [{"text": "$B$ is on the minor arc, so the arc that $\\hl{2}{\\angle ABC}$ stands on is the major arc $AC$. The angle at the centre on that arc is the reflex angle $\\hl{1}{AOC}$."}, {"tex": "\\text{reflex } \\hl{1}{\\angle AOC} &= 360^\\circ - 140^\\circ"}, {"tex": "&= \\hl{1}{220^\\circ}"}]},
+   {"ask": "What is the angle at the circumference in terms of the angle at the centre on the same arc? Use your answer from step 1.", "title": "Apply Theorem 19",
+    "lines": [{"text": "The angle at the circumference is half the angle at the centre on the same arc."}, {"tex": "\\hl{2}{|\\angle ABC|} &= \\frac{1}{2}(\\hl{1}{220^\\circ})"}, {"tex": "&= \\hl{2}{110^\\circ}"}]}
+  ],
+  "final": "\\hl{2}{|\\angle ABC|} = \\hl{2}{110^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-thm19-2", "note": "The unknown is now ∠OPQ, and Theorem 19 only gives the centre angle POQ, so an isosceles-triangle step using the radii OP and OQ is added to finish. Step 1 uses the same theorem.",
+  "legend": {"1": "the angle at the centre", "2": "the unknown angle, the one asked for"},
+  "steps": [
+   {"ask": "Which angle at the centre stands on arc PQ, and how is it related to ∠PRQ?", "title": "Apply Theorem 19",
+    "lines": [{"text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$."}, {"tex": "\\hl{1}{|\\angle POQ|} &= 2 \\times 35^\\circ"}, {"tex": "&= \\hl{1}{70^\\circ}"}]},
+   {"ask": "Two sides of triangle OPQ are radii. Which two angles are equal, and what do the three angles of a triangle add up to?", "title": "Use the isosceles triangle",
+    "lines": [{"text": "$|OP| = |OQ|$ because both are radii, so triangle $OPQ$ is isosceles and $\\hl{2}{|\\angle OPQ|} = |\\angle OQP|$."}, {"tex": "2\\hl{2}{|\\angle OPQ|} &= 180^\\circ - \\hl{1}{70^\\circ}"}, {"tex": "&= 110^\\circ"}]},
+   {"ask": "How do you find one of two equal angles when you know their total?", "title": "Solve for the angle",
+    "lines": [{"tex": "\\hl{2}{|\\angle OPQ|} &= \\frac{110^\\circ}{2}"}, {"tex": "&= \\hl{2}{55^\\circ}"}]}
+  ],
+  "final": "\\hl{2}{|\\angle OPQ|} = \\hl{2}{55^\\circ}",
+  "graph": null}
+]},
+{"skill": "circ-chord-length", "problems": [
+ {"part": "practice-circ-chord-length-1", "note": null,
+  "legend": {"1": "the radius", "2": "the distance from the centre to the chord", "3": "half the chord", "4": "the chord length"},
+  "steps": [
+   {"ask": "Which lengths in triangle OMB are given, and which side is the hypotenuse?", "title": "Draw the right-angled triangle",
+    "lines": [{"text": "The perpendicular from $O$ to the chord meets $AB$ at its midpoint $M$, so $OMB$ has a right angle at $M$."}, {"tex": "\\hl{1}{|OB|} &= \\hl{1}{13}"}, {"tex": "\\hl{2}{|OM|} &= \\hl{2}{5}"}]},
+   {"ask": "In a right-angled triangle, how are the three sides related? Use it on triangle OMB to find |MB|.", "title": "Find half the chord with Pythagoras",
+    "lines": [{"tex": "\\hl{3}{|MB|^2} &= \\hl{1}{13^2} - \\hl{2}{5^2}"}, {"tex": "&= 169 - 25"}, {"tex": "&= 144"}, {"tex": "\\hl{3}{|MB|} &= \\hl{3}{12}"}]},
+   {"ask": "How do you get the full chord from half of it?", "title": "Double it to get the chord",
+    "lines": [{"tex": "\\hl{4}{|AB|} &= 2 \\times \\hl{3}{12}"}, {"tex": "&= \\hl{4}{24}"}]}
+  ],
+  "final": "\\hl{4}{|AB|} = \\hl{4}{24}\\text{ cm}",
+  "graph": null},
+ {"part": "practice-circ-chord-length-2", "note": "The chord is now given and the distance from the centre is the unknown, so the last step takes a square root for the distance instead of doubling. The Pythagoras set-up is the same.",
+  "legend": {"1": "the radius", "2": "the distance from the centre to the chord", "3": "half the chord", "4": "the chord length"},
+  "steps": [
+   {"ask": "What is half the length of the bar, and which side of the triangle is the radius?", "title": "Find half the chord",
+    "lines": [{"text": "The perpendicular from the centre to the bar bisects it, giving a right-angled triangle with hypotenuse $\\hl{1}{17}$."}, {"tex": "\\tfrac{1}{2}(\\hl{4}{30}) &= \\hl{3}{15}"}]},
+   {"ask": "In the right-angled triangle, which side is unknown, and what does Pythagoras give you for it?", "title": "Use Pythagoras",
+    "lines": [{"tex": "\\hl{2}{d^2} &= \\hl{1}{17^2} - \\hl{3}{15^2}"}, {"tex": "&= 289 - 225"}, {"tex": "&= 64"}]},
+   {"ask": "What is the square root of your value for d²?", "title": "Take the square root",
+    "lines": [{"tex": "\\hl{2}{d} &= \\sqrt{64}"}, {"tex": "&= \\hl{2}{8}"}]}
+  ],
+  "final": "\\hl{2}{d} = \\hl{2}{8}\\text{ cm}",
+  "graph": null},
+ {"part": "maths-pp-2021-higher-p2-q3#(a)", "note": "Same Pythagoras method, but the distance from the centre is not given: it is found with the distance formula from coordinates, and the unknown is the radius. This is a higher-level exam part, so it has the extra coordinate step.",
+  "legend": {"1": "the radius", "2": "the distance from the centre to the chord", "3": "half the chord"},
+  "steps": [
+   {"ask": "The line from the centre to the midpoint of a chord is perpendicular to it. What fraction of the chord is |DB|?", "title": "Find half the chord, |DB|",
+    "lines": [{"text": "A line from the centre to the midpoint of a chord is perpendicular to the chord, so $CDB$ is a right-angled triangle with the right angle at $D$."}, {"tex": "\\hl{3}{|DB|} &= \\frac{1}{2} \\times 4\\sqrt{3}"}, {"tex": "&= \\hl{3}{2\\sqrt{3}}"}]},
+   {"ask": "Which formula gives the distance between two points from their coordinates? Apply it to C and D.", "title": "Find |CD| using the distance formula",
+    "lines": [{"tex": "\\hl{2}{|CD|^2} &= (3-1)^2 + (2-(-2))^2"}, {"tex": "&= 2^2 + 4^2"}, {"tex": "&= 20"}, {"tex": "\\hl{2}{|CD|} &= \\sqrt{20}"}, {"tex": "&= \\hl{2}{2\\sqrt{5}}"}]},
+   {"ask": "Which side of triangle CDB is the hypotenuse, and what does Pythagoras say about the three sides?", "title": "Use Pythagoras in triangle CDB",
+    "lines": [{"text": "The radius is $\\hl{1}{r} = |CB|$, the hypotenuse of the right-angled triangle."}, {"tex": "\\hl{1}{r^2} &= \\hl{2}{|CD|^2} + \\hl{3}{|DB|^2}"}, {"tex": "&= \\hl{2}{(2\\sqrt{5})^2} + \\hl{3}{(2\\sqrt{3})^2}"}, {"tex": "&= 20 + 12"}, {"tex": "&= 32"}]},
+   {"ask": "What is the square root of 32, written in its simplest surd form?", "title": "Take the square root and simplify",
+    "lines": [{"tex": "\\hl{1}{r} &= \\sqrt{32}"}, {"tex": "&= \\sqrt{16 \\times 2}"}, {"tex": "&= \\hl{1}{4\\sqrt{2}}"}]}
+  ],
+  "final": "\\hl{1}{r} = \\hl{1}{4\\sqrt{2}}",
+  "graph": null}
+]}
+]

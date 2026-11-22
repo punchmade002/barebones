@@ -203,7 +203,9 @@ function stepHtml(step, k) {
 
 function header() {
   const p = LESSON.problems[state.i], first = state.i === 0 && !state.end;
-  const where = state.end ? '' : ['Exam problem', 'Another one (1 of 2)', 'Another one (2 of 2)'][state.i] + ` · ${esc(p.source)}`;
+  // a written practice problem is never called an exam problem
+  const label = state.i === 0 ? (p.image ? 'Exam problem' : 'Practice problem') : `Another one (${state.i} of ${LESSON.problems.length - 1})`;
+  const where = state.end ? '' : label + (p.image ? ` · ${esc(p.source)}` : state.i ? ' · Practice problem' : '');
   const nec = first && LESSON.necessary.length
     ? `<button class="linkish" data-act="nec" aria-expanded="${state.showNec}">Necessary skills (${LESSON.necessary.length})</button>` : '';
   const list = state.showNec && first ? `<div class="nec"><p>This skill is built from these. If a line loses you, the gap is usually one of them.</p><ul>${
