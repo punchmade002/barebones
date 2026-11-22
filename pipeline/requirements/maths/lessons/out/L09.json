@@ -36,7 +36,7 @@
      {"text": "The marking scheme printed $\\hl{1}{-0.7}$ and $\\hl{1}{0.7}$."}
    ]}
   ],
-  "final": "x \\approx \\hl{1}{-0.8} \\text{ and } \\hl{1}{0.6}",
+  "final": "x \\approx \\hl{1}{-0.8} \\text{ and } x \\approx \\hl{1}{0.6}",
   "graph": null},
  {"part": "maths-pp-2018-ordinary-p1-q8#(d)(ii)", "note": "The equation is now f(x) = 100 rather than f(x) = 0, so you start on the vertical axis at 100, go across to the curve, then down to the horizontal axis. The rest is the same.",
   "legend": {"1": "the x-value you read off (the solution)", "2": "the value f(x) is set equal to (100 here)"},

@@ -1,0 +1,377 @@
+[
+ {"skill": "stat-scatter-correlation", "problems": [
+  {"part": "maths-pp-2021-ordinary-p2-q5#(b)(ii)", "note": null,
+   "legend": {"1": "the value of r chosen", "2": "values ruled out by the plot"},
+   "steps": [
+    {"ask": "Which way do the points run, and how close are they to a straight line? What does that rule out?",
+     "title": "Judge the strength and direction from the scatter plot",
+     "lines": [
+      {"text": "The points rise from bottom left to top right, so the correlation is positive. This rules out $\\hl{2}{-0.6}$."},
+      {"text": "They lie close to a straight line, so the correlation is strong. This rules out $\\hl{2}{0.2}$."},
+      {"text": "So $\\hl{1}{0.9}$ is the best choice."}
+     ]}
+   ],
+   "final": "\\hl{1}{0.9}", "graph": null},
+  {"part": "maths-pp-2022-ordinary-p2-q7#(a)(iii)",
+   "note": "The context changes from rainfall and heights to dogs' weights on two days, and there is one more wrong value to rule out. The method is the same: direction first, then strength, then choose r.",
+   "legend": {"1": "the value of r chosen", "2": "values ruled out by the plot"},
+   "steps": [
+    {"ask": "Do the points rise or fall, and how closely do they follow a line? Which values of r does that rule out?",
+     "title": "Pick the value of r from the data",
+     "lines": [
+      {"text": "Dogs that are heavier on Day X tend to be heavier on Day Y, so the points rise from left to right."},
+      {"text": "So the correlation is positive, which rules out $\\hl{2}{-0.9}$ and $\\hl{2}{-0.2}$."},
+      {"text": "The points lie close to a straight line, so the correlation is strong. $\\hl{2}{0.2}$ is too weak, so $\\hl{1}{r = 0.9}$."}
+     ]}
+   ],
+   "final": "\\hl{1}{r = 0.9}", "graph": null},
+  {"part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+   "note": "The direction flips: sunshine falls as rainfall rises, so r is negative and the answer is -0.6. There is only one value to tick, so no values are ruled out this time.",
+   "legend": {"1": "the value of r chosen"},
+   "steps": [
+    {"ask": "As rainfall goes up, which way does sunshine go, and so what sign must r have?",
+     "title": "Read the pattern of the points",
+     "lines": [
+      {"text": "As rainfall goes up, sunshine tends to go down, so the correlation is negative."},
+      {"text": "The points are fairly close to a downward line, so it is moderate to strong. Tick $\\hl{1}{-0.6}$."}
+     ]}
+   ],
+   "final": "\\hl{1}{-0.6}", "graph": null}
+ ]},
+ {"skill": "stat-sd", "problems": [
+  {"part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)", "note": null,
+   "legend": {"2": "the standard deviation, σ"},
+   "steps": [
+    {"ask": "Which setting on the calculator takes a list of values and gives σ?",
+     "title": "Use the calculator in statistics mode",
+     "lines": [
+      {"text": "Enter the 13 Meat values into the calculator and read off the population standard deviation $\\hl{2}{\\sigma}$."},
+      {"tex": "\\hl{2}{\\sigma} &\\approx \\hl{2}{50.99}"},
+      {"tex": "&\\approx \\hl{2}{51}"}
+     ]}
+   ],
+   "final": "\\hl{2}{\\text{€}51}", "graph": null},
+  {"part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+   "note": "This time the calculator is not used: the total, the mean and the sum of squares are worked out by hand before σ. The answer is still σ, and the mean is now marked as its own slot.",
+   "legend": {"1": "the mean, μ", "2": "the standard deviation, σ"},
+   "steps": [
+    {"ask": "What is the total of the ten heart rates?",
+     "title": "Add the heart rates after exercise",
+     "lines": [
+      {"tex": "\\sum x &= 71+81+79+108+91+83+102+113+118+87"},
+      {"tex": "&= 933"}
+     ]},
+    {"ask": "What do you divide the total by to get the mean?",
+     "title": "Divide by the number of values to find the mean",
+     "lines": [
+      {"text": "There are $n = 10$ values."},
+      {"tex": "\\hl{1}{\\mu} &= \\frac{\\sum x}{n}"},
+      {"tex": "&= \\hl{1}{\\frac{933}{10}}"},
+      {"tex": "&= \\hl{1}{93.3}"}
+     ]},
+    {"ask": "What do you get when you square each value and add the squares?",
+     "title": "Square each value and add",
+     "lines": [
+      {"tex": "\\sum x^2 &= 71^2+81^2+79^2+108^2+91^2+83^2+102^2+113^2+118^2+87^2"},
+      {"tex": "&= 5041+6561+6241+11664+8281+6889+10404+12769+13924+7569"},
+      {"tex": "&= 89343"}
+     ]},
+    {"ask": "How do you get the variance from the mean of the squares and the mean?",
+     "title": "Find the variance",
+     "lines": [
+      {"text": "Use $\\sigma^2 = \\frac{\\sum x^2}{n} - \\hl{1}{\\mu^2}$."},
+      {"tex": "\\sigma^2 &= \\frac{89343}{10} - \\hl{1}{93.3^2}"},
+      {"tex": "&= 8934.3 - \\hl{1}{8704.89}"},
+      {"tex": "&= 229.41"}
+     ]},
+    {"ask": "What is the last step to turn the variance into σ?",
+     "title": "Take the square root",
+     "lines": [
+      {"tex": "\\hl{2}{\\sigma} &= \\sqrt{229.41}"},
+      {"tex": "&= \\hl{2}{15.146}"},
+      {"tex": "&= \\hl{2}{15.1}"}
+     ]}
+   ],
+   "final": "\\text{Mean} = \\hl{1}{93.3}, \\quad \\hl{2}{\\sigma} = \\hl{2}{15.1}", "graph": null},
+  {"part": "maths-pp-2018-ordinary-p2-q7#(e)",
+   "note": "The data are rainfall values and the answer is in mm. The method changes: each value's distance from the mean is squared and added, rather than using the sum-of-squares shortcut.",
+   "legend": {"1": "the mean, μ", "2": "the standard deviation, σ"},
+   "steps": [
+    {"ask": "What is the mean of the ten rainfall values? Add them first.",
+     "title": "Find the mean of the rainfall",
+     "lines": [
+      {"tex": "\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84"},
+      {"tex": "&= 1063"},
+      {"tex": "\\hl{1}{\\mu} &= \\hl{1}{\\frac{1063}{10}}"},
+      {"tex": "&= \\hl{1}{106.3}"}
+     ]},
+    {"ask": "How far is each value from the mean, and what do you do with each distance before adding?",
+     "title": "Square each difference from the mean",
+     "lines": [
+      {"tex": "(72 - \\hl{1}{106.3})^2 &= 1176.49"},
+      {"tex": "(133 - \\hl{1}{106.3})^2 &= 712.89"},
+      {"tex": "(155 - \\hl{1}{106.3})^2 &= 2371.69"},
+      {"tex": "(101 - \\hl{1}{106.3})^2 &= 28.09"},
+      {"tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"},
+      {"tex": "(47 - \\hl{1}{106.3})^2 &= 3516.49"},
+      {"tex": "(149 - \\hl{1}{106.3})^2 &= 1823.29"},
+      {"tex": "(134 - \\hl{1}{106.3})^2 &= 767.29"},
+      {"tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"},
+      {"tex": "(84 - \\hl{1}{106.3})^2 &= 497.29"}
+     ]},
+    {"ask": "What is the total of the ten squared differences?",
+     "title": "Add the squares",
+     "lines": [
+      {"tex": "\\sum (x-\\hl{1}{\\mu})^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29"},
+      {"tex": "&= 11196.1"}
+     ]},
+    {"ask": "Divide the sum by n. What is the next step to get σ?",
+     "title": "Divide by n and take the square root",
+     "lines": [
+      {"tex": "\\sigma^2 &= \\frac{11196.1}{10}"},
+      {"tex": "&= 1119.61"},
+      {"tex": "\\hl{2}{\\sigma} &= \\sqrt{1119.61}"},
+      {"tex": "&= \\hl{2}{33.46}"},
+      {"tex": "&\\approx \\hl{2}{33.5 \\text{ mm}}"}
+     ]}
+   ],
+   "final": "\\hl{2}{33.5 \\text{ mm}}", "graph": null}
+ ]},
+ {"skill": "inf-ci-mean", "problems": [
+  {"part": "maths-pp-2015-higher-p2-q2#(a)", "note": null,
+   "legend": {"1": "the sample mean, x̄", "2": "the margin of error", "3": "the ends of the interval"},
+   "steps": [
+    {"ask": "What multiplier does a 95% interval use?",
+     "title": "Choose the formula",
+     "lines": [
+      {"text": "A 95% confidence interval for the mean is $\\hl{1}{\\bar{x}} \\pm 1.96 \\dfrac{s}{\\sqrt{n}}$, with $\\hl{1}{\\bar{x}} = \\hl{1}{90.45}$, $s = 20.73$, $n = 100$."}
+     ]},
+    {"ask": "What is s divided by the square root of n, and what do you get when you multiply it by 1.96?",
+     "title": "Find the margin of error",
+     "lines": [
+      {"tex": "\\hl{2}{1.96 \\times \\frac{20.73}{\\sqrt{100}}} &= \\hl{2}{1.96 \\times \\frac{20.73}{10}}"},
+      {"tex": "&= \\hl{2}{1.96 \\times 2.073}"},
+      {"tex": "&= \\hl{2}{4.063}"}
+     ]},
+    {"ask": "What do you get when you subtract the margin from the mean, and when you add it?",
+     "title": "Add and subtract the margin from the mean",
+     "lines": [
+      {"tex": "\\hl{1}{90.45} - \\hl{2}{4.063} &= \\hl{3}{86.387}"},
+      {"tex": "&= \\hl{3}{86.39}"},
+      {"tex": "\\hl{1}{90.45} + \\hl{2}{4.063} &= \\hl{3}{94.513}"},
+      {"tex": "&= \\hl{3}{94.51}"}
+     ]}
+   ],
+   "final": "\\left(\\hl{3}{\\text{€}86.39},\\ \\hl{3}{\\text{€}94.51}\\right)", "graph": null},
+  {"part": "maths-pp-2016-higher-p2-q9#(b)",
+   "note": "The numbers are much larger (mean 26 974, s = 5120, n = 400), so the margin runs into the hundreds. The steps are the same as the first problem, and the answer is written with inequality signs.",
+   "legend": {"1": "the sample mean, x̄", "2": "the margin of error", "3": "the ends of the interval"},
+   "steps": [
+    {"ask": "What does the interval centre on, and what is added and subtracted from it?",
+     "title": "Write the 95% confidence interval",
+     "lines": [
+      {"text": "Use $\\hl{1}{\\bar{x}} \\pm 1.96\\dfrac{s}{\\sqrt{n}}$ with $\\hl{1}{\\bar{x}} = \\hl{1}{26\\,974}$, $s = 5120$ and $n = 400$."},
+      {"tex": "\\text{Interval} &= \\hl{1}{26974} \\pm \\hl{2}{1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)}"}
+     ]},
+    {"ask": "How is the margin built from 1.96, s and the square root of n?",
+     "title": "Work out the margin of error",
+     "lines": [
+      {"tex": "\\hl{2}{E} &= \\hl{2}{1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)}"},
+      {"tex": "&= \\hl{2}{1.96\\left(\\frac{5120}{20}\\right)}"},
+      {"tex": "&= \\hl{2}{1.96 \\times 256}"},
+      {"tex": "&= \\hl{2}{501.76}"}
+     ]},
+    {"ask": "Once you have the margin, how do you find the lower and upper ends?",
+     "title": "Find the two ends of the interval",
+     "lines": [
+      {"tex": "\\text{Lower} &= \\hl{1}{26974} - \\hl{2}{501.76}"},
+      {"tex": "&= \\hl{3}{26472.24}"},
+      {"tex": "\\text{Upper} &= \\hl{1}{26974} + \\hl{2}{501.76}"},
+      {"tex": "&= \\hl{3}{27475.76}"}
+     ]}
+   ],
+   "final": "\\hl{3}{26472.24} \\le \\mu \\le \\hl{3}{27475.76}", "graph": null},
+  {"part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+   "note": "The spread is now a known σ rather than the sample s, so the standard error is σ over the square root of n. The steps are the same as before, with the lower and upper ends worked out as separate steps.",
+   "legend": {"1": "the sample mean, x̄", "2": "the margin of error", "3": "the ends of the interval"},
+   "steps": [
+    {"ask": "What is the standard error of the mean, in terms of σ and n?",
+     "title": "Write the confidence interval formula",
+     "lines": [
+      {"text": "A $95\\%$ confidence interval uses $1.96$ standard errors."},
+      {"tex": "\\hl{1}{\\bar{x}} &\\pm 1.96\\frac{\\sigma}{\\sqrt{n}}"}
+     ]},
+    {"ask": "What do you get when you multiply 1.96 by σ over the square root of n?",
+     "title": "Find the margin of error",
+     "lines": [
+      {"text": "$\\hl{1}{\\bar{x}} = \\hl{1}{3.74}$, $\\sigma = 0.36$, $n = 64$."},
+      {"tex": "\\hl{2}{1.96 \\times \\frac{0.36}{\\sqrt{64}}} &= \\hl{2}{1.96 \\times \\frac{0.36}{8}}"},
+      {"tex": "&= \\hl{2}{1.96 \\times 0.045}"},
+      {"tex": "&= \\hl{2}{0.0882}"}
+     ]},
+    {"ask": "What do you get when you take the margin away from the mean?",
+     "title": "Find the lower limit",
+     "lines": [
+      {"tex": "\\hl{1}{3.74} - \\hl{2}{0.0882} &= \\hl{3}{3.6518}"}
+     ]},
+    {"ask": "What do you get when you add the margin to the mean?",
+     "title": "Find the upper limit",
+     "lines": [
+      {"tex": "\\hl{1}{3.74} + \\hl{2}{0.0882} &= \\hl{3}{3.8282}"}
+     ]}
+   ],
+   "final": "\\hl{3}{3.6518} \\le \\mu \\le \\hl{3}{3.8282}", "graph": null}
+ ]},
+ {"skill": "inf-ci-proportion", "problems": [
+  {"part": "maths-pp-2022-higher-p2-q5#(a)(iii)", "note": null,
+   "legend": {"1": "the sample proportion, p̂", "2": "the margin of error", "3": "the ends of the interval"},
+   "steps": [
+    {"ask": "What multiplier does a 95% interval use?",
+     "title": "Write the formula for a 95% interval",
+     "lines": [
+      {"text": "Use $\\hl{1}{\\hat{p}} \\pm \\hl{2}{1.96\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}}$ with $\\hl{1}{\\hat{p}} = \\hl{1}{0.3375}$ and $n = 400$."}
+     ]},
+    {"ask": "What do you get for p̂(1 − p̂) over n, and then its square root?",
+     "title": "Find the margin of error",
+     "lines": [
+      {"tex": "\\hl{2}{1.96\\sqrt{\\frac{0.3375(1-0.3375)}{400}}} &= \\hl{2}{1.96\\sqrt{\\frac{0.22359375}{400}}}"},
+      {"tex": "&\\approx \\hl{2}{0.04633}"}
+     ]},
+    {"ask": "What do you get when you take the margin away from p̂?",
+     "title": "Lower end of the interval",
+     "lines": [
+      {"tex": "\\hl{1}{0.3375} - \\hl{2}{0.04633} &\\approx \\hl{3}{0.2912}"}
+     ]},
+    {"ask": "What do you get when you add the margin to p̂?",
+     "title": "Upper end of the interval",
+     "lines": [
+      {"tex": "\\hl{1}{0.3375} + \\hl{2}{0.04633} &\\approx \\hl{3}{0.3838}"}
+     ]}
+   ],
+   "final": "[\\hl{3}{0.2912},\\ \\hl{3}{0.3838}]", "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q8#(a)(ii)",
+   "note": "This time the sample proportion is worked out first from the count, 324 out of 400, before it goes into the formula. The margin and the two ends are found the same way as in the first problem.",
+   "legend": {"1": "the sample proportion, p̂", "2": "the margin of error", "3": "the ends of the interval"},
+   "steps": [
+    {"ask": "How do you turn 324 out of 400 into a proportion?",
+     "title": "Find the sample proportion",
+     "lines": [
+      {"tex": "\\hl{1}{\\hat{p}} &= \\hl{1}{\\frac{324}{400}}"},
+      {"tex": "&= \\hl{1}{0.81}"}
+     ]},
+    {"ask": "What formula gives the 95% interval, and which values go into it?",
+     "title": "Write the 95% confidence interval",
+     "lines": [
+      {"text": "The interval is $\\hl{1}{\\hat{p}} \\pm \\hl{2}{1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}}$, with $\\hl{1}{\\hat{p}} = \\hl{1}{0.81}$ and $n = 400$."},
+      {"tex": "\\hl{2}{\\text{margin}} &= \\hl{2}{1.96\\sqrt{\\frac{0.81 \\times 0.19}{400}}}"},
+      {"tex": "&= \\hl{2}{1.96\\sqrt{0.00038475}}"},
+      {"tex": "&\\approx \\hl{2}{1.96 \\times 0.019615}"},
+      {"tex": "&\\approx \\hl{2}{0.038445}"}
+     ]},
+    {"ask": "What do you get when you subtract the margin from p̂, and when you add it?",
+     "title": "Add and subtract the margin",
+     "lines": [
+      {"tex": "\\hl{1}{0.81} - \\hl{2}{0.038445} \\le p &\\le \\hl{1}{0.81} + \\hl{2}{0.038445}"},
+      {"tex": "\\hl{3}{0.771555} \\le p &\\le \\hl{3}{0.848445}"},
+      {"tex": "\\hl{3}{0.77} \\le p &\\le \\hl{3}{0.85}"}
+     ]}
+   ],
+   "final": "\\hl{3}{0.77} \\le p \\le \\hl{3}{0.85}", "graph": null},
+  {"part": "maths-pp-2019-higher-p2-q8#(a)(i)",
+   "note": "Now the standard error is worked out as its own step before the margin, which is 1.96 times it. The steps split the same formula into smaller moves, and the answer is written with strict inequalities.",
+   "legend": {"1": "the sample proportion, p̂", "2": "the margin of error", "3": "the ends of the interval", "4": "the standard error"},
+   "steps": [
+    {"ask": "How do you turn 174 out of 800 into a proportion?",
+     "title": "Find the sample proportion",
+     "lines": [
+      {"tex": "\\hl{1}{\\hat{p}} &= \\hl{1}{\\frac{174}{800}}"},
+      {"tex": "&= \\hl{1}{0.2175}"}
+     ]},
+    {"ask": "What expression gives the standard error of a proportion, using p̂ and n?",
+     "title": "Find the standard error",
+     "lines": [
+      {"tex": "\\hl{4}{\\text{SE}} &= \\hl{4}{\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}}"},
+      {"tex": "&= \\hl{4}{\\sqrt{\\frac{(0.2175)(0.7825)}{800}}}"},
+      {"tex": "&= \\hl{4}{\\sqrt{0.00021274}}"},
+      {"tex": "&= \\hl{4}{0.014586}"}
+     ]},
+    {"ask": "What do you multiply the standard error by to get the margin for 95%?",
+     "title": "Find the margin of error at 95%",
+     "lines": [
+      {"text": "For a 95% interval the multiplier is $1.96$."},
+      {"tex": "\\hl{2}{\\text{Margin}} &= \\hl{2}{1.96 \\times 0.014586}"},
+      {"tex": "&= \\hl{2}{0.02859}"}
+     ]},
+    {"ask": "What do you get when you subtract the margin from p̂, and when you add it?",
+     "title": "Subtract and add the margin to the proportion",
+     "lines": [
+      {"tex": "\\hl{1}{0.2175} - \\hl{2}{0.02859} &= \\hl{3}{0.18891}"},
+      {"tex": "\\hl{1}{0.2175} + \\hl{2}{0.02859} &= \\hl{3}{0.24609}"}
+     ]}
+   ],
+   "final": "\\hl{3}{0.1889} < p < \\hl{3}{0.2461}", "graph": null}
+ ]},
+ {"skill": "inf-hypothesis-moe", "problems": [
+  {"part": "maths-pp-2017-ordinary-p2-q9#(c)(iii)", "note": null,
+   "legend": {"1": "the value being tested", "2": "the ends of the 95% interval"},
+   "steps": [
+    {"ask": "What does H0 claim, and how does H1 differ from it?",
+     "title": "State the hypotheses",
+     "lines": [
+      {"tex": "H_0 &: p = \\hl{1}{53\\%}"},
+      {"tex": "H_1 &: p \\ne \\hl{1}{53\\%}"}
+     ]},
+    {"ask": "Is the claimed value inside the 95% interval?",
+     "title": "Compare the claim with the confidence interval",
+     "lines": [
+      {"text": "The 95% confidence interval is $\\hl{2}{45\\%} < p < \\hl{2}{51\\%}$. The claimed value $\\hl{1}{53\\%}$ is not inside it."}
+     ]},
+    {"ask": "What does the interval tell you to decide about H0, and what does that say about the party's claim?",
+     "title": "Conclude in context",
+     "lines": [
+      {"text": "Reject $H_0$ at the 5% level. There is evidence that the party's claim that 53% of the Irish population think the UK leaving the EU would hurt the Irish economy is false."}
+     ]}
+   ],
+   "final": "\\text{Reject } H_0\\text{: the party's claim is false}", "graph": null},
+  {"part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+   "note": "The method is the same as the first problem, but the claimed 65% lies inside the interval this time. So the decision flips to fail to reject H0.",
+   "legend": {"1": "the value being tested", "2": "the ends of the 95% interval"},
+   "steps": [
+    {"ask": "What does H0 claim about the share, and what does H1 say instead?",
+     "title": "State the hypotheses",
+     "lines": [
+      {"text": "The null hypothesis says nothing has changed from 65%."},
+      {"tex": "H_0: p &= \\hl{1}{65\\%}"},
+      {"tex": "H_1: p &\\ne \\hl{1}{65\\%}"}
+     ]},
+    {"ask": "Where does the claimed value sit against the two ends of the interval?",
+     "title": "Compare 65% with the confidence interval",
+     "lines": [
+      {"tex": "\\hl{1}{65} &\\in [\\hl{2}{64.6},\\ \\hl{2}{73.2}]"},
+      {"text": "65% lies inside the 95% interval, so there is not enough evidence to reject $H_0$."},
+      {"text": "Conclusion: at the 5% level of significance, the Netflix share of the market has not changed."}
+     ]}
+   ],
+   "final": "\\text{Fail to reject } H_0: \\text{ the Netflix share has not changed}", "graph": null},
+  {"part": "maths-pp-2025-ordinary-p2-q8#(c)(iii)",
+   "note": "Here the interval has to be built first, from p̂ = 13% and a margin of 3.5%, rather than given. The 19.2% is then checked against it, and the decision is still to reject.",
+   "legend": {"1": "the value being tested", "2": "the ends of the interval", "3": "the sample proportion, p̂", "4": "the margin of error"},
+   "steps": [
+    {"ask": "How do you get the two ends of the interval from p̂ and the margin?",
+     "title": "Find the confidence interval",
+     "lines": [
+      {"text": "The interval is $\\hl{3}{\\hat{p}} \\pm \\dfrac{1}{\\sqrt{n}}$, with $\\hl{3}{\\hat{p}} = \\hl{3}{13\\%}$ and margin of error $\\hl{4}{3.5\\%}$."},
+      {"tex": "\\hl{3}{13} - \\hl{4}{3.5} &= \\hl{2}{9.5}"},
+      {"tex": "\\hl{3}{13} + \\hl{4}{3.5} &= \\hl{2}{16.5}"},
+      {"tex": "\\hl{2}{9.5} \\le p &\\le \\hl{2}{16.5}"}
+     ]},
+    {"ask": "Is 19.2% inside the interval or outside it, and what does that tell you about the change?",
+     "title": "State the conclusion and the reason",
+     "lines": [
+      {"text": "Conclusion: there is evidence that the percentage of new cars that are electric in 2024 is different from 2023."},
+      {"text": "Reason: $\\hl{1}{19.2\\%}$ is outside the interval $\\hl{2}{9.5\\%}$ to $\\hl{2}{16.5\\%}$."}
+     ]}
+   ],
+   "final": "\\text{There is evidence of a difference: } \\hl{1}{19.2\\%} \\text{ is outside } \\hl{2}{9.5\\%} \\text{ to } \\hl{2}{16.5\\%}", "graph": null}
+ ]}
+]

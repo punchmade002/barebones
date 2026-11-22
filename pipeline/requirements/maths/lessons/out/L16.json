@@ -1,0 +1,316 @@
+[
+ {"skill": "prob-independence-test", "problems": [
+  {"part": "maths-pp-2020-higher-p2-q5#(a)(ii)", "note": null,
+   "legend": {"1": "P(A) and P(B), the single probabilities", "2": "P(A ∩ B), the joint probability", "3": "the verdict: independent or not"},
+   "steps": [
+    {"ask": "Which formula links P(A ∪ B) with P(A), P(B) and P(A ∩ B)? Rearrange it to find P(B).", "title": "Find P(B) from the union formula",
+     "lines": [
+      {"tex": "P(A \\cup B) &= \\hl{1}{P(A)} + \\hl{1}{P(B)} - \\hl{2}{P(A \\cap B)}"},
+      {"tex": "\\frac{11}{12} &= \\hl{1}{\\frac{3}{4}} + \\hl{1}{P(B)} - \\hl{2}{\\frac{1}{2}}"},
+      {"tex": "\\hl{1}{P(B)} &= \\frac{11}{12} - \\hl{1}{\\frac{3}{4}} + \\hl{2}{\\frac{1}{2}}"},
+      {"tex": "&= \\frac{11}{12} - \\frac{9}{12} + \\frac{6}{12}"},
+      {"tex": "&= \\frac{8}{12} = \\hl{1}{\\frac{2}{3}}"}
+     ]},
+    {"ask": "What must P(A) × P(B) equal for the events to be independent? Work that product out and compare it with P(A ∩ B).", "title": "Test the condition for independence",
+     "lines": [
+      {"text": "$A$ and $B$ are independent if $\\hl{1}{P(A)} \\times \\hl{1}{P(B)} = \\hl{2}{P(A \\cap B)}$."},
+      {"tex": "\\hl{1}{P(A)} \\times \\hl{1}{P(B)} &= \\hl{1}{\\frac{3}{4}} \\times \\hl{1}{\\frac{2}{3}}"},
+      {"tex": "&= \\frac{6}{12}"},
+      {"tex": "&= \\frac{1}{2}"},
+      {"text": "This equals $\\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{2}}$, so the condition holds."},
+      {"text": "Conclusion: $A$ and $B$ are independent."}
+     ]}
+   ],
+   "final": "\\hl{1}{P(B)} = \\hl{1}{\\frac{2}{3}},\\ \\hl{1}{P(A)}\\hl{1}{P(B)} = \\hl{2}{P(A \\cap B)} \\Rightarrow \\hl{3}{\\text{independent}}",
+   "graph": null},
+  {"part": "maths-pp-2025-higher-p2-q3#(a)(iii)", "note": "The probabilities are no longer given: you build P(A ∩ B) and P(B) from counts in a diagram. The test itself is the same as before.",
+   "legend": {"1": "P(A) and P(B), the single probabilities", "2": "P(A ∩ B), the joint probability", "3": "the verdict: independent or not"},
+   "steps": [
+    {"ask": "Write the test for independence in your copy. Which two quantities does it compare?", "title": "State the test for independence",
+     "lines": [
+      {"text": "$A$ and $B$ are independent if $\\hl{2}{P(A \\cap B)} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}$."}
+     ]},
+    {"ask": "Which regions lie in both A and B, and what is the total number of people?", "title": "Find P(A ∩ B)",
+     "lines": [
+      {"text": "$A \\cap B$ contains the regions $18$ and $6$."},
+      {"tex": "\\hl{2}{P(A \\cap B)} &= \\frac{18 + 6}{240}"},
+      {"tex": "&= \\frac{24}{240}"},
+      {"tex": "&= \\hl{2}{\\frac{1}{10}}"}
+     ]},
+    {"ask": "Read P(A) and P(B) from the diagram. What fraction of the 240 people is in each group?", "title": "Find P(A) and P(B)",
+     "lines": [
+      {"text": "$B$ contains $18 + 6 + 16 + 56 = 96$ people."},
+      {"tex": "\\hl{1}{P(A)} &= \\hl{1}{\\frac{1}{4}}"},
+      {"tex": "\\hl{1}{P(B)} &= \\frac{96}{240}"},
+      {"tex": "&= \\hl{1}{\\frac{2}{5}}"}
+     ]},
+    {"ask": "Multiply P(A) by P(B). Does the product match P(A ∩ B) from the earlier step?", "title": "Multiply P(A) and P(B)",
+     "lines": [
+      {"tex": "\\hl{1}{P(A)} \\times \\hl{1}{P(B)} &= \\hl{1}{\\frac{1}{4}} \\times \\hl{1}{\\frac{2}{5}}"},
+      {"tex": "&= \\frac{2}{20}"},
+      {"tex": "&= \\frac{1}{10}"}
+     ]},
+    {"ask": "Does the product equal the joint probability? What does that tell you about A and B?", "title": "Conclude",
+     "lines": [
+      {"text": "Answer: yes. $\\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{10}} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}$, so $A$ and $B$ are independent."}
+     ]}
+   ],
+   "final": "\\hl{3}{\\text{Yes, }} \\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{10}} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p2-q1#(a)(ii)", "note": "The answer is now no, because the joint probability is not equal to the product. The test and steps are the same as before, but the counts are larger and rounded to decimals.",
+   "legend": {"1": "P(O) and P(U), the single probabilities", "2": "P(O ∩ U), the joint probability", "3": "the verdict: independent or not"},
+   "steps": [
+    {"ask": "Write the test for independence for O and U in your copy. Which two quantities does it compare?", "title": "State the test for independence",
+     "lines": [
+      {"text": "$O$ and $U$ are independent if $\\hl{1}{P(O)}\\times\\hl{1}{P(U)} = \\hl{2}{P(O \\cap U)}$."}
+     ]},
+    {"ask": "Each probability is a count divided by the total. What is the total, and which count goes with O and which with U?", "title": "Find P(O) and P(U)",
+     "lines": [
+      {"tex": "\\hl{1}{P(O)} &= \\hl{1}{\\frac{8576}{22\\,714}}"},
+      {"tex": "&= \\hl{1}{0.3776\\ldots}"},
+      {"tex": "\\hl{1}{P(U)} &= \\hl{1}{\\frac{15\\,707}{22\\,714}}"},
+      {"tex": "&= \\hl{1}{0.6915\\ldots}"}
+     ]},
+    {"ask": "Multiply the two single probabilities. You will compare the result with a joint probability next.", "title": "Multiply P(O) and P(U)",
+     "lines": [
+      {"tex": "\\hl{1}{P(O)}\\times\\hl{1}{P(U)} &= \\hl{1}{0.3776} \\times \\hl{1}{0.6915}"},
+      {"tex": "&= 0.2611\\ldots"}
+     ]},
+    {"ask": "Which count gives students who are both 24 or older and undergraduates? Divide it by the total.", "title": "Find P(O and U)",
+     "lines": [
+      {"text": "Students who are 24 or older and undergraduates: $2922$."},
+      {"tex": "\\hl{2}{P(O \\cap U)} &= \\hl{2}{\\frac{2922}{22\\,714}}"},
+      {"tex": "&= \\hl{2}{0.1286\\ldots}"}
+     ]},
+    {"ask": "Is the joint probability equal to the product? What does your answer mean for O and U?", "title": "Compare and conclude",
+     "lines": [
+      {"tex": "\\hl{2}{P(O \\cap U)} = \\hl{2}{0.1286} &\\neq 0.2611 = \\hl{1}{P(O)}\\times\\hl{1}{P(U)}"},
+      {"text": "Conclusion: the events $O$ and $U$ are not independent."}
+     ]}
+   ],
+   "final": "\\hl{3}{O \\text{ and } U \\text{ are not independent}}",
+   "graph": null}
+ ]},
+ {"skill": "prob-independent", "problems": [
+  {"part": "maths-pp-2019-ordinary-p2-q3#(b)", "note": null,
+   "legend": {"1": "P(A) or P(B), the probability of one event", "2": "P(A and B), the probability both happen"},
+   "steps": [
+    {"ask": "The two people act independently. Do you add or multiply their two probabilities to find the chance both are blue?", "title": "Multiply, since the two people are independent",
+     "lines": [
+      {"tex": "\\hl{2}{P(\\text{both blue})} &= \\hl{1}{0.7} \\times \\hl{1}{0.7}"},
+      {"tex": "&= \\hl{2}{0.49}"}
+     ]}
+   ],
+   "final": "\\hl{2}{0.49}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q4#(a)(i)", "note": "Same method with three throws instead of two: multiply one probability for each throw, because the throws are independent.",
+   "legend": {"1": "P(A) or P(B), the probability of one event", "2": "P(A and B), the probability both happen"},
+   "steps": [
+    {"ask": "The throws are independent and all three must score. Do you add or multiply the three chances?", "title": "Multiply the three independent probabilities",
+     "lines": [
+      {"text": "Each throw scores with probability $\\hl{1}{0.7}$, and the throws are independent."},
+      {"tex": "\\hl{2}{P(\\text{SSS})} &= \\hl{1}{0.7} \\times \\hl{1}{0.7} \\times \\hl{1}{0.7}"},
+      {"tex": "&= \\hl{2}{0.343}"}
+     ]}
+   ],
+   "final": "\\hl{2}{0.343}",
+   "graph": null},
+  {"part": "maths-pp-2020-ordinary-p2-q1#(b)(i)", "note": "Four people now instead of three, and the probabilities are fractions rather than decimals. The rule is the same: multiply one probability for each person.",
+   "legend": {"1": "P(A) or P(B), the probability of one event", "2": "P(A and B), the probability both happen"},
+   "steps": [
+    {"ask": "For each of the four people, what is the chance they play tennis, and what is the chance they do not?", "title": "List the probability for each person",
+     "lines": [
+      {"text": "The first three people do not play tennis, with probability $\\hl{1}{\\frac{7}{8}}$ each. The fourth plays, with probability $\\hl{1}{\\frac{1}{8}}$."}
+     ]},
+    {"ask": "The four choices are independent. How do you combine the four probabilities to get the chance of this exact pattern?", "title": "Multiply the four probabilities",
+     "lines": [
+      {"tex": "\\hl{2}{P} &= \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{1}{8}}"},
+      {"tex": "&= \\hl{2}{\\frac{343}{4096}}"},
+      {"tex": "&\\approx \\hl{2}{0.08374}"}
+     ]}
+   ],
+   "final": "\\hl{2}{\\frac{343}{4096}} \\approx \\hl{2}{0.08374}",
+   "graph": null}
+ ]},
+ {"skill": "prob-kth-success", "problems": [
+  {"part": "maths-pp-2017-higher-p2-q1#(b)", "note": null,
+   "legend": {"1": "p or 1 − p, the answer and non-answer probabilities", "2": "the number of ways to place the earlier answers", "3": "the final probability"},
+   "steps": [
+    {"ask": "The 4th answer is on day 7. How many answers must fall in days 1 to 6, and what happens on day 7?", "title": "Split the seven days",
+     "lines": [
+      {"text": "The 4th answer is on day 7, so days 1 to 6 contain exactly 3 answers, and day 7 is an answer."}
+     ]},
+    {"ask": "How many ways can 3 answer days be picked from the 6 days? Which counting method fits?", "title": "Count the ways to place 3 answers in 6 days",
+     "lines": [
+      {"tex": "\\hl{2}{\\binom{6}{3}} &= \\frac{6\\times5\\times4}{3\\times2\\times1}"},
+      {"tex": "&= \\hl{2}{20}"}
+     ]},
+    {"ask": "Each day is an answer with chance p or a non-answer with chance 1 − p. Which factors multiply together, and how many of each?", "title": "Multiply by the probabilities",
+     "lines": [
+      {"tex": "\\hl{3}{P} &= \\hl{2}{\\binom{6}{3}}\\hl{1}{\\left(\\frac15\\right)^3}\\hl{1}{\\left(\\frac45\\right)^3}\\times\\hl{1}{\\frac15}"},
+      {"tex": "&= \\hl{2}{20}\\times\\hl{1}{\\frac{1}{125}}\\times\\hl{1}{\\frac{64}{125}}\\times\\hl{1}{\\frac15}"},
+      {"tex": "&= \\frac{1280}{78125}"},
+      {"tex": "&= \\hl{3}{\\frac{256}{15625}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{\\frac{256}{15625}}",
+   "graph": null},
+  {"part": "maths-pp-2023-higher-p2-q1#(b)", "note": "The context is now a game of spins, and the 3rd success (not the 4th) is on spin 8, so the numbers change. The method is the same: count the ways, then multiply the probabilities.",
+   "legend": {"1": "p or 1 − p, the answer and non-answer probabilities", "2": "the number of ways to place the earlier answers", "3": "the final probability"},
+   "steps": [
+    {"ask": "What is the chance of a €9 on one spin, and what is the chance of not getting one?", "title": "Find the probabilities of success and failure",
+     "lines": [
+      {"text": "A success is getting €9."},
+      {"tex": "\\hl{1}{P(\\text{success})} &= \\hl{1}{\\frac{3}{12}}"},
+      {"tex": "&= \\hl{1}{\\frac{1}{4}}"},
+      {"tex": "\\hl{1}{P(\\text{failure})} &= 1 - \\hl{1}{\\frac{1}{4}}"},
+      {"tex": "&= \\hl{1}{\\frac{3}{4}}"}
+     ]},
+    {"ask": "The 3rd €9 is on spin 8. How many successes must come in the first 7 spins, and what happens on spin 8?", "title": "Describe the event",
+     "lines": [
+      {"text": "The 3rd €9 comes on spin 8. So there are exactly 2 successes in the first 7 spins, then a success on spin 8."},
+      {"tex": "\\hl{3}{P} &= \\hl{2}{\\binom{7}{2}} \\hl{1}{\\left(\\frac{1}{4}\\right)^2} \\hl{1}{\\left(\\frac{3}{4}\\right)^5} \\times \\hl{1}{\\frac{1}{4}}"}
+     ]},
+    {"ask": "Which of these pieces is a count of ways, and which are powers of the probabilities? Work out each one.", "title": "Evaluate each part",
+     "lines": [
+      {"tex": "\\hl{2}{\\binom{7}{2}} &= \\hl{2}{21}"},
+      {"tex": "\\hl{1}{\\left(\\frac{1}{4}\\right)^2} &= \\hl{1}{\\frac{1}{16}}"},
+      {"tex": "\\hl{1}{\\left(\\frac{3}{4}\\right)^5} &= \\hl{1}{\\frac{243}{1024}}"}
+     ]},
+    {"ask": "Multiply the count by each probability factor, including the success on spin 8. Round only at the end.", "title": "Multiply",
+     "lines": [
+      {"tex": "\\hl{3}{P} &= \\hl{2}{21} \\times \\hl{1}{\\frac{1}{16}} \\times \\hl{1}{\\frac{243}{1024}} \\times \\hl{1}{\\frac{1}{4}}"},
+      {"tex": "&= \\hl{3}{\\frac{5103}{65536}}"},
+      {"tex": "&= \\hl{3}{0.07786\\ldots}"},
+      {"tex": "&\\approx \\hl{3}{0.0779}"}
+     ]}
+   ],
+   "final": "\\hl{3}{0.0779}",
+   "graph": null},
+  {"part": "maths-pp-2021-higher-p2-q10#(a)(i)", "note": "The success probability is now a decimal, 0.08, and the third success is on the 10th donor. The method is the same as before.",
+   "legend": {"1": "p or 1 − p, the answer and non-answer probabilities", "2": "the number of ways to place the earlier answers", "3": "the final probability"},
+   "steps": [
+    {"ask": "Where is the 3rd O-negative donor in the sequence, and how many O-negative donors come before it?", "title": "Set up the situation",
+     "lines": [
+      {"text": "The tenth donor is the third O-negative, so exactly 2 of the first 9 are O-negative and the tenth is O-negative."},
+      {"text": "$\\hl{1}{P(\\text{O-neg})} = \\hl{1}{\\frac{8}{100}} = \\hl{1}{0.08}$ and $\\hl{1}{P(\\text{not O-neg})} = \\hl{1}{0.92}$."}
+     ]},
+    {"ask": "How many ways are there to choose which 2 of the first 9 donors are O-negative?", "title": "Probability that exactly 2 of the first 9 are O-negative",
+     "lines": [
+      {"tex": "P(2 \\text{ of } 9) &= \\hl{2}{\\binom{9}{2}}\\hl{1}{(0.08)^2}\\hl{1}{(0.92)^7}"}
+     ]},
+    {"ask": "Which probability belongs to the tenth donor, and how does it combine with the rest?", "title": "Multiply by the probability the tenth is O-negative",
+     "lines": [
+      {"tex": "\\hl{3}{P} &= \\hl{2}{\\binom{9}{2}}\\hl{1}{(0.08)^2}\\hl{1}{(0.92)^7} \\times \\hl{1}{0.08}"},
+      {"tex": "&= \\hl{3}{0.01028\\ldots}"},
+      {"tex": "&= \\hl{3}{0.0103}"}
+     ]}
+   ],
+   "final": "\\hl{3}{0.0103}",
+   "graph": null}
+ ]},
+ {"skill": "prob-ncr", "problems": [
+  {"part": "maths-pp-2025-higher-p2-q9#(c)(i)", "note": null,
+   "legend": {"1": "ⁿCᵣ, the number of ways to choose", "2": "the factorial formula for ⁿCᵣ"},
+   "steps": [
+    {"ask": "Does the order of picking the 10 people matter? Which counting method fits?", "title": "Count the ways to pick 10 people from 20",
+     "lines": [
+      {"text": "The order of choosing does not matter, so use combinations."},
+      {"tex": "\\hl{1}{\\binom{20}{10}} &= \\hl{2}{\\frac{20!}{10!\\,10!}}"},
+      {"tex": "&= \\hl{1}{184\\,756}"}
+     ]}
+   ],
+   "final": "\\hl{1}{184\\,756}",
+   "graph": null},
+  {"part": "maths-pp-2015-ordinary-p2-q1#(c)", "note": "Same method with smaller numbers: choose 3 of 6 boxes, so the factorial formula can be written out in full.",
+   "legend": {"1": "ⁿCᵣ, the number of ways to choose", "2": "the factorial formula for ⁿCᵣ"},
+   "steps": [
+    {"ask": "Does the order of choosing the boxes matter, or only which boxes are picked?", "title": "Choose 3 of the 6 boxes",
+     "lines": [
+      {"text": "The order does not matter, only which 3 boxes are chosen."},
+      {"tex": "\\hl{1}{\\binom{6}{3}} &= \\hl{2}{\\frac{6!}{3!\\,3!}}"},
+      {"tex": "&= \\hl{2}{\\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}}"},
+      {"tex": "&= \\hl{2}{\\frac{120}{6}}"},
+      {"tex": "&= \\hl{1}{20}"}
+     ]}
+   ],
+   "final": "\\hl{1}{20}",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)", "note": "The counting method is the same, now with 16 points. The new step is dividing the horizontal pairs by all the pairs to get a probability.",
+   "legend": {"1": "ⁿCᵣ, the number of ways to choose", "2": "the factorial formula for ⁿCᵣ", "3": "the probability of a horizontal pair"},
+   "steps": [
+    {"ask": "Does the order of the two points matter for a pair? What counting method does that suggest?", "title": "Count the pairs of points (order does not matter)",
+     "lines": [
+      {"text": "Choose 2 points from 16, with order not mattering."},
+      {"tex": "\\hl{1}{\\binom{16}{2}} &= \\hl{2}{\\frac{16 \\times 15}{2}}"},
+      {"tex": "&= \\hl{1}{120}"},
+      {"text": "(i) There are 120 different pairs."}
+     ]},
+    {"ask": "Which points lie on one horizontal line? How many pairs can you make in a single row?", "title": "Count the pairs that give a horizontal line",
+     "lines": [
+      {"text": "A horizontal line joins two points in the same row. There are 4 rows, each with 4 points."},
+      {"tex": "\\text{pairs in one row} &= \\hl{1}{\\binom{4}{2}} = \\hl{1}{6}"},
+      {"tex": "\\text{pairs in 4 rows} &= 6 \\times 4 = 24"}
+     ]},
+    {"ask": "Divide the horizontal pairs by all the pairs. What probability do you get?", "title": "Write the probability",
+     "lines": [
+      {"tex": "\\hl{3}{P(\\text{horizontal})} &= \\hl{3}{\\frac{24}{120}}"},
+      {"tex": "&= \\hl{3}{\\frac{1}{5}}"}
+     ]}
+   ],
+   "final": "\\text{(i) } \\hl{1}{120} \\text{ pairs;} \\quad \\text{(ii) } \\hl{3}{\\frac{1}{5}}",
+   "graph": null}
+ ]},
+ {"skill": "prob-sample-space", "problems": [
+  {"part": "maths-pp-2018-ordinary-p2-q1#(a)(i)", "note": null,
+   "legend": {"1": "result of the first experiment (Die 1, or first spin)", "2": "result of the second experiment (Die 2, or second spin)", "3": "an outcome: a total, or a pair"},
+   "steps": [
+    {"ask": "Each cell pairs one Die 1 number with one Die 2 number. What do you do with the two numbers to get the total?", "title": "Add the die numbers for each empty cell",
+     "lines": [
+      {"text": "Each total is the Die 1 number plus the Die 2 number."},
+      {"tex": "\\hl{1}{3} + \\hl{2}{4} &= \\hl{3}{7}"},
+      {"tex": "\\hl{1}{4} + \\hl{2}{4} &= \\hl{3}{8}"},
+      {"tex": "\\hl{1}{2} + \\hl{2}{5} &= \\hl{3}{7}"},
+      {"tex": "\\hl{1}{5} + \\hl{2}{5} &= \\hl{3}{10}"},
+      {"tex": "\\hl{1}{1} + \\hl{2}{6} &= \\hl{3}{7}"},
+      {"tex": "\\hl{1}{6} + \\hl{2}{6} &= \\hl{3}{12}"}
+     ]}
+   ],
+   "final": "\\text{Missing totals: } \\hl{3}{7}, \\hl{3}{8}, \\hl{3}{7}, \\hl{3}{10}, \\hl{3}{7}, \\hl{3}{12}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q10#(c)(i)", "note": "The experiment is now a spinner with five results, and you list every outcome as a pair instead of adding them up.",
+   "legend": {"3": "an outcome: a total, or a pair"},
+   "steps": [
+    {"ask": "How many results can each spin give, and how many outcomes does that make in total?", "title": "Set up the pairs",
+     "lines": [
+      {"text": "Write each outcome as (first spin, second spin). Each spin has 5 possible results, so there are $5 \\times 5 = 25$ outcomes."}
+     ]},
+    {"ask": "Take first spin 1 and pair it with each second spin result in turn. What are the pairs?", "title": "List the outcomes by first spin",
+     "lines": [
+      {"text": "First spin 1: $\\hl{3}{(1,1)}, \\hl{3}{(1,2)}, \\hl{3}{(1,3)}, \\hl{3}{(1,4)}, \\hl{3}{(1,5)}$"},
+      {"text": "First spin 2: $\\hl{3}{(2,1)}, \\hl{3}{(2,2)}, \\hl{3}{(2,3)}, \\hl{3}{(2,4)}, \\hl{3}{(2,5)}$"},
+      {"text": "First spin 3: $\\hl{3}{(3,1)}, \\hl{3}{(3,2)}, \\hl{3}{(3,3)}, \\hl{3}{(3,4)}, \\hl{3}{(3,5)}$"},
+      {"text": "First spin 4: $\\hl{3}{(4,1)}, \\hl{3}{(4,2)}, \\hl{3}{(4,3)}, \\hl{3}{(4,4)}, \\hl{3}{(4,5)}$"},
+      {"text": "First spin 5: $\\hl{3}{(5,1)}, \\hl{3}{(5,2)}, \\hl{3}{(5,3)}, \\hl{3}{(5,4)}, \\hl{3}{(5,5)}$"}
+     ]}
+   ],
+   "final": "\\text{25 outcomes, from } \\hl{3}{(1,1)} \\text{ to } \\hl{3}{(5,5)}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q10#(c)(ii)", "note": "Same spinner as before, but now you only need the largest and smallest totals, not the full list of outcomes.",
+   "legend": {"1": "result of the first experiment (Die 1, or first spin)", "2": "result of the second experiment (Die 2, or second spin)", "3": "an outcome: a total, or a pair"},
+   "steps": [
+    {"ask": "To get the largest total, which result should you take on each spin?", "title": "Maximum: add the two largest numbers",
+     "lines": [
+      {"tex": "\\hl{3}{\\text{Maximum}} &= \\hl{1}{5} + \\hl{2}{5}"},
+      {"tex": "&= \\hl{3}{10}"}
+     ]},
+    {"ask": "To get the smallest total, which result should you take on each spin?", "title": "Minimum: add the two smallest numbers",
+     "lines": [
+      {"tex": "\\hl{3}{\\text{Minimum}} &= \\hl{1}{1} + \\hl{2}{1}"},
+      {"tex": "&= \\hl{3}{2}"}
+     ]}
+   ],
+   "final": "\\hl{3}{\\text{Maximum} = 10},\\ \\hl{3}{\\text{Minimum} = 2}",
+   "graph": null}
+ ]}
+]
