@@ -198,6 +198,8 @@ def check_lesson(job, out):
                 if norm(unmark(la.get(kind, ''))) != norm(lb[kind]):
                     errs.append(f'{tag} step {k + 1} line {i + 1}: changed beyond adding \\hl marks')
                 used |= set(re.findall(r'\\hl\{(\d)\}', la.get(kind, '')))
+                if kind == 'text' and '\\hl' in re.sub(r'\$[^$]*\$', '', la.get('text', '')):
+                    errs.append(f'{tag} step {k + 1} line {i + 1}: a mark in a text line must sit inside $…$')
                 if any('&' in body or '\\\\' in body for body in mark_bodies(la.get(kind, ''))):
                     errs.append(f'{tag} step {k + 1} line {i + 1}: a mark contains & or \\\\ (breaks alignment)')
         if norm(unmark(pr.get('final', ''))) != norm(c['final']):
